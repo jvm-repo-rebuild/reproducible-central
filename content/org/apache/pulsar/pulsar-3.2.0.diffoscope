@@ -1,0 +1,296 @@
+# generated content in reference archive
+1 / 30 target/reference/org.apache.pulsar/pulsar-3.2.0-source-release.zip target/pulsar-source-release.zip
+--- target/reference/org.apache.pulsar/pulsar-3.2.0-source-release.zip
++++ target/pulsar-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 10669836 bytes, number of entries: 7277
+│ +Zip file size: 10642412 bytes, number of entries: 7256
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-08 14:16 pulsar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-08 14:16 pulsar/.github/
+│ @@ -478,16 +478,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-08 14:16 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-08 14:16 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/api/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-08 14:16 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/avro/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-08 14:16 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/avro/generated/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-08 14:16 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/examples/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-08 14:16 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/impl/
+│ @@ -1040,15 +1038,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-08 14:16 pulsar/pulsar-functions/worker/src/test/java/org/apache/pulsar/functions/worker/rest/api/v3/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-08 14:16 pulsar/pulsar-functions/worker/src/test/java/org/apache/pulsar/functions/worker/scheduler/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-08 14:16 pulsar/pulsar-functions/worker/src/test/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-08 14:16 pulsar/pulsar-io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-08 14:16 pulsar/pulsar-io/aerospike/
+│ @@ -2489,15 +2486,14 @@
+│  -rw-r--r--  2.0 unx    28921 b- defN 24-Jan-08 14:16 pulsar/grafana/dashboards/topic.json
+│  -rw-r--r--  2.0 unx   217269 b- defN 24-Jan-08 14:16 pulsar/grafana/dashboards/zookeeper.json
+│ --rw-r--r--  2.0 unx     6768 b- defN 24-Jan-08 14:16 pulsar/jclouds-shaded/dependency-reduced-pom.xml
+│  -rw-r--r--  2.0 unx     6694 b- defN 24-Jan-08 14:16 pulsar/jclouds-shaded/pom.xml
+│  -rw-r--r--  2.0 unx     2720 b- defN 24-Jan-08 14:16 pulsar/jclouds-shaded/src/main/java/org/apache/pulsar/jclouds/ShadedJCloudsUtils.java
+│ @@ -4295,15 +4291,14 @@
+│  -rw-r--r--  2.0 unx     2211 b- defN 24-Jan-08 14:16 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/api/RangeTest.java
+│  -rw-r--r--  2.0 unx     4013 b- defN 24-Jan-08 14:16 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/api/SchemaDefinitionBuilderTest.java
+│ --rw-r--r--  2.0 unx    19369 b- defN 24-Jan-08 14:16 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/avro/generated/NasaMission.java
+│  -rw-r--r--  2.0 unx     3572 b- defN 24-Jan-08 14:16 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/examples/TransactionExample.java
+│  -rw-r--r--  2.0 unx    18424 b- defN 24-Jan-08 14:16 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/impl/AcknowledgementsGroupingTrackerTest.java
+│ @@ -4441,15 +4436,14 @@
+│  -rw-r--r--  2.0 unx      880 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-1x-base/pulsar-client-1x/src/main/java/org/apache/pulsar/client/impl/v1/package-info.java
+│  -rw-r--r--  2.0 unx     1775 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-1x-base/pulsar-client-1x/src/main/resources/findbugsExclude.xml
+│ --rw-r--r--  2.0 unx    18944 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-1x-base/pulsar-client-2x-shaded/dependency-reduced-pom.xml
+│  -rw-r--r--  2.0 unx     3828 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-1x-base/pulsar-client-2x-shaded/pom.xml
+│  -rw-r--r--  2.0 unx        9 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-admin/.gitignore
+│ @@ -4661,17 +4655,15 @@
+│  -rw-r--r--  2.0 unx     1651 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-admin-api/src/main/java/org/apache/pulsar/policies/data/loadbalancer/ServiceLookupData.java
+│  -rw-r--r--  2.0 unx      900 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-admin-api/src/main/java/org/apache/pulsar/policies/data/loadbalancer/package-info.java
+│ --rw-r--r--  2.0 unx    16059 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-admin-shaded/dependency-reduced-pom.xml
+│  -rw-r--r--  2.0 unx    13998 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-admin-shaded/pom.xml
+│ --rw-r--r--  2.0 unx    20619 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-all/dependency-reduced-pom.xml
+│  -rw-r--r--  2.0 unx    20520 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-all/pom.xml
+│  -rw-r--r--  2.0 unx     3873 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-api/pom.xml
+│ @@ -4805,15 +4797,14 @@
+│  -rw-r--r--  2.0 unx    25727 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-messagecrypto-bc/src/main/java/org/apache/pulsar/client/impl/crypto/MessageCryptoBc.java
+│  -rw-r--r--  2.0 unx      913 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-messagecrypto-bc/src/main/java/org/apache/pulsar/client/impl/crypto/package-info.java
+│ --rw-r--r--  2.0 unx    15951 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-shaded/dependency-reduced-pom.xml
+│  -rw-r--r--  2.0 unx    15586 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-shaded/pom.xml
+│  -rw-r--r--  2.0 unx     6663 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-tools/pom.xml
+│ @@ -4880,15 +4871,14 @@
+│  -rw-r--r--  2.0 unx     1985 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-tools/src/test/java/org/apache/pulsar/shell/JCommanderCompleterTest.java
+│  -rw-r--r--  2.0 unx     8884 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-tools/src/test/java/org/apache/pulsar/shell/PulsarShellTest.java
+│ --rw-r--r--  2.0 unx     6663 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-tools/src/test/resources/dummy.nar
+│  -rw-r--r--  2.0 unx      865 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-tools/src/test/resources/test-shell-file
+│  -rw-r--r--  2.0 unx      887 b- defN 24-Jan-08 14:16 pulsar/pulsar-client-tools/src/test/resources/test-shell-file-error
+│ @@ -5527,15 +5517,14 @@
+│  -rw-r--r--  2.0 unx     2015 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/localrun/src/main/resources/findbugsExclude.xml
+│  -rw-r--r--  2.0 unx     1234 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/localrun/src/main/resources/log4j2.xml
+│ --rw-r--r--  2.0 unx    23042 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/localrun-shaded/dependency-reduced-pom.xml
+│  -rw-r--r--  2.0 unx    28113 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/localrun-shaded/pom.xml
+│  -rw-r--r--  2.0 unx     2591 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/pom.xml
+│ @@ -5598,19 +5587,14 @@
+│  -rw-r--r--  2.0 unx     6372 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/runtime/src/test/java/org/apache/pulsar/functions/runtime/thread/ThreadRuntimeFactoryTest.java
+│  -rw-r--r--  2.0 unx     7421 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/runtime/src/test/java/org/apache/pulsar/functions/worker/WorkerApiV2ResourceConfigTest.java
+│ --rw-r--r--  2.0 unx     1021 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/runtime/src/test/resources/test_worker_auth_override_config.yml
+│ --rw-r--r--  2.0 unx     1149 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/runtime/src/test/resources/test_worker_config.yml
+│ --rw-r--r--  2.0 unx     1128 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/runtime/src/test/resources/test_worker_k8s_auth_override_config.yml
+│ --rw-r--r--  2.0 unx     1065 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/runtime/src/test/resources/test_worker_k8s_config.yml
+│ --rw-r--r--  2.0 unx     1010 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/runtime/src/test/resources/test_worker_k8s_legacy_config.yml
+│  -rw-r--r--  2.0 unx     1362 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/runtime/src/test/resources/test_worker_k8s_resource_config.yml
+│  -rw-r--r--  2.0 unx     5837 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/runtime-all/pom.xml
+│ @@ -5763,19 +5747,14 @@
+│  -rw-r--r--  2.0 unx    65272 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/worker/src/test/java/org/apache/pulsar/functions/worker/rest/api/v3/SourceApiV3ResourceTest.java
+│  -rw-r--r--  2.0 unx     2950 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/worker/src/test/java/org/apache/pulsar/functions/worker/scheduler/RoundRobinSchedulerTest.java
+│ --rw-r--r--  2.0 unx     1021 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/worker/src/test/resources/test_worker_auth_override_config.yml
+│ --rw-r--r--  2.0 unx     1149 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/worker/src/test/resources/test_worker_config.yml
+│ --rw-r--r--  2.0 unx     1128 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/worker/src/test/resources/test_worker_k8s_auth_override_config.yml
+│ --rw-r--r--  2.0 unx     1065 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/worker/src/test/resources/test_worker_k8s_config.yml
+│ --rw-r--r--  2.0 unx     1010 b- defN 24-Jan-08 14:16 pulsar/pulsar-functions/worker/src/test/resources/test_worker_k8s_legacy_config.yml
+│  -rw-r--r--  2.0 unx     3001 b- defN 24-Jan-08 14:16 pulsar/pulsar-io/aerospike/pom.xml
+│  -rw-r--r--  2.0 unx     6361 b- defN 24-Jan-08 14:16 pulsar/pulsar-io/aerospike/src/main/java/org/apache/pulsar/io/aerospike/AerospikeAbstractSink.java
+│ @@ -7272,8 +7251,8 @@
+│  -rw-r--r--  2.0 unx     3216 b- defN 24-Jan-08 14:16 pulsar/wireshark/pulsar.lua
+│  -rw-r--r--  2.0 unx      256 b- defN 24-Jan-08 14:16 pulsar/DEPENDENCIES
+│ -7277 files, 39257561 bytes uncompressed, 8939182 bytes compressed:  77.2%
+│ +7256 files, 39119400 bytes uncompressed, 8916380 bytes compressed:  77.2%
+├── pulsar/.mvn/.gradle-enterprise/gradle-enterprise-workspace-id
+│ @@ -1 +1 @@
+│ -lfnpujl7dza7nag5i3dimqj7mi
+│ +e2ib3hoaonehxpjjivdaieiaum
+
+2 / 30 target/reference/org.apache.pulsar/pulsar-common-3.2.0.jar pulsar-common/target/pulsar-common.jar
+3 / 30 target/reference/org.apache.pulsar/pulsar-common-3.2.0-sources.jar pulsar-common/target/pulsar-common-sources.jar
+--- target/reference/org.apache.pulsar/pulsar-common-3.2.0-sources.jar
++++ pulsar-common/target/pulsar-common-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 604082 bytes, number of entries: 403
+│ +Zip file size: 604078 bytes, number of entries: 403
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Jan-08 14:16 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-08 14:16 META-INF/
+│ @@ -307,15 +307,15 @@
+│  -rw-r--r--  2.0 unx     5821 b- defN 24-Jan-08 14:16 org/apache/pulsar/policies/data/loadbalancer/TimeAverageMessageData.java
+│  -rw-r--r--  2.0 unx      926 b- defN 24-Jan-08 14:16 org/apache/pulsar/policies/data/loadbalancer/package-info.java
+│ --rw-r--r--  2.0 unx     3887 b- defN 24-Jan-08 14:16 org/apache/pulsar/PulsarVersion.java
+│ +-rw-r--r--  2.0 unx     3913 b- defN 24-Jan-08 14:16 org/apache/pulsar/PulsarVersion.java
+│  -rw-r--r--  2.0 unx     6259 b- defN 24-Jan-08 14:16 org/apache/pulsar/common/api/proto/AuthData.java
+│  -rw-r--r--  2.0 unx      633 b- defN 24-Jan-08 14:16 org/apache/pulsar/common/api/proto/AuthMethod.java
+│ @@ -398,8 +398,8 @@
+│  -rw-r--r--  2.0 unx    11013 b- defN 24-Jan-08 14:16 META-INF/maven/org.apache.pulsar/pulsar-common/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 24-Jan-08 14:16 META-INF/maven/org.apache.pulsar/pulsar-common/pom.properties
+│ -403 files, 2233812 bytes uncompressed, 529676 bytes compressed:  76.3%
+│ +403 files, 2233838 bytes uncompressed, 529672 bytes compressed:  76.3%
+├── org/apache/pulsar/PulsarVersion.java
+│ @@ -79,24 +79,24 @@
+│      public static String getGitBranch() {
+│ -        return "branch-3.2";
+│ +        return "802576372132617b5076a44004846f2dbabede08";
+│      }
+│  
+│      public static String getBuildUser() {
+│ -        String email = "technoboy@apache.org";
+│ -        String name = "Jiwe Guo";
+│ +        String email = "hboutemy@apache.org";
+│ +        String name = "Hervé Boutemy";
+│          return String.format("%s <%s>", name, email);
+│      }
+│  
+│      public static String getBuildHost() {
+│ -        return "MacBook-Pro.lan";
+│ +        return "orchid";
+│      }
+│  
+│      public static String getBuildTime() {
+│ -        return "2024-01-08T22:16:27+0800";
+│ +        return "2024-01-08T15:16:27+0100";
+│      }
+│  }
+
+4 / 30 target/reference/org.apache.pulsar/jclouds-shaded-3.2.0.jar jclouds-shaded/target/jclouds-shaded.jar
+--- target/reference/org.apache.pulsar/jclouds-shaded-3.2.0.jar
++++ jclouds-shaded/target/jclouds-shaded.jar
+├── zipinfo {}
+│ @@ -71,14 +71,15 @@
+│  -rw----     2.0 fat    12749 bl defN 22-Mar-20 22:36 org/jclouds/s3/filters/Aws4SignerForChunkedUpload.class
+│  -rw----     2.0 fat     1624 bl defN 22-Mar-20 22:36 org/jclouds/s3/config/S3HttpApiModule$8.class
+│ +-rw----     2.0 fat        0 bl defN 22-Mar-20 22:36 META-INF/services/
+│  -rw----     2.0 fat     2768 bl defN 22-Mar-20 22:36 org/jclouds/s3/S3ApiMetadata.class
+│  -rw----     2.0 fat     3661 bl defN 22-Mar-20 22:36 org/jclouds/s3/xml/AccessControlListHandler.class
+│ @@ -6122,12 +6123,11 @@
+│  -rw----     2.0 fat      318 bl defN 04-Mar-19 14:57 org/aopalliance/intercept/MethodInterceptor.class
+│  -rw----     2.0 fat      234 bl defN 04-Mar-19 14:57 org/aopalliance/intercept/MethodInvocation.class
+│ --rw----     2.0 fat        0 bl defN 22-Mar-20 22:52 META-INF/services/
+│  -rw----     2.0 fat      319 bl defN 22-Mar-20 22:52 META-INF/services/org.jclouds.providers.ProviderMetadata
+│  -rw----     2.0 fat      459 bl defN 22-Mar-20 22:52 META-INF/services/org.jclouds.apis.ApiMetadata
+│  -rw----     2.0 fat       52 bl defN 22-Mar-20 22:52 META-INF/services/org.jclouds.logging.config.LoggingModule
+│  6131 files, 18511046 bytes uncompressed, 6719243 bytes compressed:  63.7%
+
+# reuse of previous artifacts, with their RB issues
+5 / 30 target/reference/org.apache.pulsar/tiered-storage-jcloud-3.2.0.jar tiered-storage/jcloud/target/tiered-storage-jcloud-3.2.0.nar
+--- target/reference/org.apache.pulsar/tiered-storage-jcloud-3.2.0.jar
++++ tiered-storage/jcloud/target/tiered-storage-jcloud-3.2.0.nar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 110773268 bytes, number of entries: 210
+│ +Zip file size: 110773271 bytes, number of entries: 210
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-08 14:16 META-INF/
+│  -rw-r--r--  2.0 unx      274 b- defN 24-Jan-08 14:16 META-INF/MANIFEST.MF
+│ @@ -131,15 +131,15 @@
+│  -rw-r--r--  2.0 unx   299349 b- defN 24-Jan-08 14:16 META-INF/bundled-dependencies/pulsar-client-admin-api-3.2.0.jar
+│  -rw-r--r--  2.0 unx   164741 b- defN 24-Jan-08 14:16 META-INF/bundled-dependencies/pulsar-client-api-3.2.0.jar
+│ --rw-r--r--  2.0 unx  1024800 b- defN 24-Jan-08 14:16 META-INF/bundled-dependencies/pulsar-common-3.2.0.jar
+│ +-rw-r--r--  2.0 unx  1024783 b- defN 24-Jan-08 14:16 META-INF/bundled-dependencies/pulsar-common-3.2.0.jar
+│  -rw-r--r--  2.0 unx   368379 b- defN 24-Jan-08 14:16 META-INF/bundled-dependencies/pulsar-metadata-3.2.0.jar
+│  -rw-r--r--  2.0 unx    11369 b- defN 24-Jan-08 14:16 META-INF/bundled-dependencies/reactive-streams-1.0.3.jar
+│ @@ -205,8 +205,8 @@
+│  -rw-r--r--  2.0 unx     5154 b- defN 24-Jan-08 14:16 META-INF/maven/org.apache.pulsar/tiered-storage-jcloud/pom.xml
+│  -rw-r--r--  2.0 unx       73 b- defN 24-Jan-08 14:16 META-INF/maven/org.apache.pulsar/tiered-storage-jcloud/pom.properties
+│ -210 files, 116778790 bytes uncompressed, 110731102 bytes compressed:  5.2%
+│ +210 files, 116778773 bytes uncompressed, 110731105 bytes compressed:  5.2%
+├── META-INF/bundled-dependencies/jclouds-shaded-3.2.0.jar
+├── META-INF/bundled-dependencies/pulsar-common-3.2.0.jar
+
+# reuse of previous artifacts, with their RB issues
+6 / 30 target/reference/org.apache.pulsar/tiered-storage-file-system-3.2.0.jar tiered-storage/file-system/target/tiered-storage-file-system-3.2.0.nar
+
+# executable-packer:1.0.1:pack-executable-jar https://github.com/nthuemmel/executable-packer-maven-plugin
+7 / 30 target/reference/org.apache.pulsar/bouncy-castle-bc-3.2.0-pkg.jar bouncy-castle/bc/target/bouncy-castle-bc-3.2.0-pkg.jar
+--- target/reference/org.apache.pulsar/bouncy-castle-bc-3.2.0-pkg.jar
++++ bouncy-castle/bc/target/bouncy-castle-bc-3.2.0-pkg.jar
+├── zipinfo {}
+│ @@ -1,33 +1,33 @@
+│  Zip file size: 16245016 bytes, number of entries: 31
+│ --rw-r--r--  2.0 unx      381 bl defN 24-Jan-27 19:51 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-27 19:51 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-27 19:51 org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-27 19:51 org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-27 19:51 org/apache/pulsar/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-27 19:51 org/apache/pulsar/bcloader/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-27 19:51 META-INF/services/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-27 19:51 lib/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-27 19:51 de/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-27 19:51 de/ntcomputer/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-27 19:51 de/ntcomputer/executablepacker/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-27 19:51 de/ntcomputer/executablepacker/runtime/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-27 19:51 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-27 19:51 META-INF/maven/org.apache.pulsar/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-27 19:51 META-INF/maven/org.apache.pulsar/bouncy-castle-bc/
+│ --rw-r--r--  2.0 unx     1193 bl defN 24-Jan-27 19:51 org/apache/pulsar/bcloader/BouncyCastleLoader.class
+│ --rw-r--r--  2.0 unx     4959 bl defN 22-May-21 16:10 de/ntcomputer/executablepacker/runtime/ExecutableLauncher.class
+│ --rw-r--r--  2.0 unx      132 bl defN 24-Jan-27 19:51 org/apache/pulsar/bcloader/package-info.class
+│ --rw-r--r--  2.0 unx     1508 bl defN 22-May-21 16:10 de/ntcomputer/executablepacker/runtime/JarInJarURLConnection.class
+│ --rw-r--r--  2.0 unx       68 bl defN 24-Jan-27 19:51 META-INF/maven/org.apache.pulsar/bouncy-castle-bc/pom.properties
+│ --rw-r--r--  2.0 unx    11358 bl defN 24-Jan-27 19:51 META-INF/LICENSE
+│ --rw-r--r--  2.0 unx     1146 bl defN 24-Jan-27 19:51 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx     1365 bl defN 22-May-21 16:10 de/ntcomputer/executablepacker/runtime/JarInJarURLStreamHandler.class
+│ --rw-r--r--  2.0 unx      189 bl defN 24-Jan-27 19:51 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx      911 bl defN 22-May-21 16:10 de/ntcomputer/executablepacker/runtime/JarInJarURLStreamHandlerFactory.class
+│ --rw-r--r--  2.0 unx     2969 bl defN 24-Jan-27 19:44 META-INF/maven/org.apache.pulsar/bouncy-castle-bc/pom.xml
+│ --rw-r--r--  2.0 unx      918 bl defN 24-Jan-27 19:51 META-INF/services/bouncy-castle.yaml
+│ --rw-r--r--  2.0 unx  1108940 bl defN 23-Jun-29 09:04 lib/bcpkix-jdk18on-1.75.jar
+│ --rw-r--r--  2.0 unx  8321289 bl defN 23-Jun-29 09:04 lib/bcprov-jdk18on-1.75.jar
+│ --rw-r--r--  2.0 unx   676570 bl defN 23-Jun-29 09:04 lib/bcutil-jdk18on-1.75.jar
+│ --rw-r--r--  2.0 unx  8394003 bl defN 23-Jun-29 09:04 lib/bcprov-ext-jdk18on-1.75.jar
+│ -31 files, 18527899 bytes uncompressed, 16240392 bytes compressed:  12.3%
+│ +-rw-r--r--  2.0 unx      382 bl defN 24-Feb-10 18:31 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-10 18:31 META-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-10 18:31 META-INF/services/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-10 18:31 org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-10 18:31 org/apache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-10 18:31 org/apache/pulsar/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-10 18:31 org/apache/pulsar/bcloader/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-10 18:31 lib/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-10 18:31 de/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-10 18:31 de/ntcomputer/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-10 18:31 de/ntcomputer/executablepacker/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-10 18:31 de/ntcomputer/executablepacker/runtime/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-10 18:31 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-10 18:31 META-INF/maven/org.apache.pulsar/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-10 18:31 META-INF/maven/org.apache.pulsar/bouncy-castle-bc/
+│ +-rw-r--r--  2.0 unx     1146 bl defN 24-Feb-10 18:31 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    11358 bl defN 24-Feb-10 18:31 META-INF/LICENSE
+│ +-rw-r--r--  2.0 unx      918 bl defN 24-Feb-10 18:31 META-INF/services/bouncy-castle.yaml
+│ +-rw-r--r--  2.0 unx      189 bl defN 24-Feb-10 18:31 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx     1193 bl defN 24-Feb-10 18:31 org/apache/pulsar/bcloader/BouncyCastleLoader.class
+│ +-rw-r--r--  2.0 unx      132 bl defN 24-Feb-10 18:31 org/apache/pulsar/bcloader/package-info.class
+│ +-rw-r--r--  2.0 unx  1108940 bl defN 24-Feb-10 18:12 lib/bcpkix-jdk18on-1.75.jar
+│ +-rw-r--r--  2.0 unx  8321289 bl defN 24-Feb-10 18:12 lib/bcprov-jdk18on-1.75.jar
+│ +-rw-r--r--  2.0 unx   676570 bl defN 24-Feb-10 18:12 lib/bcutil-jdk18on-1.75.jar
+│ +-rw-r--r--  2.0 unx  8394003 bl defN 24-Feb-10 18:13 lib/bcprov-ext-jdk18on-1.75.jar
+│ +-rw-r--r--  2.0 unx     1508 bl defN 23-Dec-01 03:05 de/ntcomputer/executablepacker/runtime/JarInJarURLConnection.class
+│ +-rw-r--r--  2.0 unx      911 bl defN 23-Dec-01 03:05 de/ntcomputer/executablepacker/runtime/JarInJarURLStreamHandlerFactory.class
+│ +-rw-r--r--  2.0 unx     4959 bl defN 23-Dec-01 03:05 de/ntcomputer/executablepacker/runtime/ExecutableLauncher.class
+│ +-rw-r--r--  2.0 unx     1365 bl defN 23-Dec-01 03:05 de/ntcomputer/executablepacker/runtime/JarInJarURLStreamHandler.class
+│ +-rw-r--r--  2.0 unx     2969 bl defN 24-Feb-10 18:30 META-INF/maven/org.apache.pulsar/bouncy-castle-bc/pom.xml
+│ +-rw-r--r--  2.0 unx       68 bl defN 24-Feb-10 18:31 META-INF/maven/org.apache.pulsar/bouncy-castle-bc/pom.properties
+│ +31 files, 18527900 bytes uncompressed, 16240392 bytes compressed:  12.3%
+├── META-INF/MANIFEST.MF
+│ @@ -1,10 +1,10 @@
+│  Manifest-Version: 1.0
+
+│ -Created-By: Apache Maven 3.8.6
+
+│ -Built-By: tboy
+
+│ -Build-Jdk: 17.0.9
+
+│ +Created-By: Apache Maven 3.9.5
+
+│ +Built-By: herve
+
+│ +Build-Jdk: 17.0.8
+
+│  Main-Class: de.ntcomputer.executablepacker.runtime.ExecutableLauncher
+
+│  Application-Main-Class: org.apache.pulsar.bcloader.BouncyCastleLoader
+
+│  Dependency-Libpath: lib/
+
+│  Dependency-Jars: bcpkix-jdk18on-1.75.jar/bcprov-jdk18on-1.75.jar/bcutil-
+
+│   jdk18on-1.75.jar/bcprov-ext-jdk18on-1.75.jar
+
+# order of zip not reproducible: done by src/rename-netty-native-libs.sh script
+8 / 30 target/reference/org.apache.pulsar/pulsar-client-3.2.0.jar pulsar-client-shaded/target/pulsar-client.jar
+...
+
+# consequence of previous issues
+9 / 30 target/reference/org.apache.pulsar/pulsar-client-2x-shaded-3.2.0.jar pulsar-client-1x-base/pulsar-client-2x-shaded/target/pulsar-client-2x-shaded.jar
+...
