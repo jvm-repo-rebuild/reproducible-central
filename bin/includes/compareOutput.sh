@@ -86,7 +86,7 @@ compareOutput() {
   # TODO reference_os_name
   for f in ${ko[@]}
   do
-    echo "# diffoscope ${outputDir}/$f central/$f" >> ${buildcompare}
+    echo "# diffoscope central/$f ${outputDir}/$f" >> ${buildcompare}
   done
 
   cp ${buildinfo} ../.. || fatal "failed to copy buildinfo file"
