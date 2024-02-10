@@ -1,0 +1,18 @@
+groupId=dev.langchain4j
+artifactId=langchain4j
+display=${groupId}:${artifactId}
+version=0.27.1
+
+gitRepo=https://github.com/langchain4j/langchain4j.git
+gitTag=${version}
+
+tool=mvn
+jdk=21
+newline=lf
+#umask=022
+
+command="mvn clean && mvn package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-aggregator-${version}.buildinfo
+
+#diffoscope=${artifactId}-aggregator-${version}.diffoscope
+issue=
