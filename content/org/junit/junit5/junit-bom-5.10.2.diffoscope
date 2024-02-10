@@ -1,0 +1,103 @@
+1 / 6 central/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.module repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.module
+2 / 6 central/org/junit/jupiter/junit-jupiter-migrationsupport/5.10.2/junit-jupiter-migrationsupport-5.10.2.module repository/org/junit/jupiter/junit-jupiter-migrationsupport/5.10.2/junit-jupiter-migrationsupport-5.10.2.module
+
+3 / 6 central/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar
+--- central/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar
++++ repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar
+├── zipinfo {}
+│ @@ -1,21 +1,12 @@
+│ -Zip file size: 106232 bytes, number of entries: 64
+│ +Zip file size: 106124 bytes, number of entries: 64
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1753 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1753 bl defN 24-Feb-10 15:41 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      316 bl defN 80-Feb-01 00:00 META-INF/LICENSE-notice.md
+│  -rw----     2.0 fat    14235 bl defN 80-Feb-01 00:00 META-INF/LICENSE.md
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/versions/9/
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/versions/9/org/
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/versions/9/org/junit/
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/versions/9/org/junit/platform/
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/versions/9/org/junit/platform/commons/
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/versions/9/org/junit/platform/commons/util/
+│ --rw----     2.0 fat     4859 bl defN 80-Feb-01 00:00 META-INF/versions/9/org/junit/platform/commons/util/ModuleUtils$ModuleReferenceScanner.class
+│ --rw----     2.0 fat    10721 bl defN 80-Feb-01 00:00 META-INF/versions/9/org/junit/platform/commons/util/ModuleUtils.class
+│ --rw----     2.0 fat     1083 bl defN 80-Feb-01 00:00 module-info.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/junit/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/junit/platform/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/junit/platform/commons/
+│  -rw----     2.0 fat      885 bl defN 80-Feb-01 00:00 org/junit/platform/commons/JUnitException.class
+│  -rw----     2.0 fat      969 bl defN 80-Feb-01 00:00 org/junit/platform/commons/PreconditionViolationException.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/junit/platform/commons/annotation/
+│ @@ -59,8 +50,17 @@
+│  -rw----     2.0 fat     5971 bl defN 80-Feb-01 00:00 org/junit/platform/commons/util/Preconditions.class
+│  -rw----     2.0 fat     1418 bl defN 80-Feb-01 00:00 org/junit/platform/commons/util/ReflectionUtils$HierarchyTraversalMode.class
+│  -rw----     2.0 fat    54439 bl defN 80-Feb-01 00:00 org/junit/platform/commons/util/ReflectionUtils.class
+│  -rw----     2.0 fat     3484 bl defN 80-Feb-01 00:00 org/junit/platform/commons/util/RuntimeUtils.class
+│  -rw----     2.0 fat     5289 bl defN 80-Feb-01 00:00 org/junit/platform/commons/util/StringUtils.class
+│  -rw----     2.0 fat     2713 bl defN 80-Feb-01 00:00 org/junit/platform/commons/util/ToStringBuilder.class
+│  -rw----     2.0 fat      982 bl defN 80-Feb-01 00:00 org/junit/platform/commons/util/UnrecoverableExceptions.class
+│ -64 files, 255380 bytes uncompressed, 94302 bytes compressed:  63.1%
+│ +-rw----     1.0 fat        0 b- stor 24-Feb-10 15:41 META-INF/versions/9/
+│ +-rw----     1.0 fat        0 b- stor 24-Feb-10 15:41 META-INF/versions/9/org/
+│ +-rw----     1.0 fat        0 b- stor 24-Feb-10 15:41 META-INF/versions/9/org/junit/
+│ +-rw----     1.0 fat        0 b- stor 24-Feb-10 15:41 META-INF/versions/9/org/junit/platform/
+│ +-rw----     1.0 fat        0 b- stor 24-Feb-10 15:41 META-INF/versions/9/org/junit/platform/commons/
+│ +-rw----     1.0 fat        0 b- stor 24-Feb-10 15:41 META-INF/versions/9/org/junit/platform/commons/util/
+│ +-rw----     2.0 fat     4859 bl defN 24-Feb-10 15:41 META-INF/versions/9/org/junit/platform/commons/util/ModuleUtils$ModuleReferenceScanner.class
+│ +-rw----     2.0 fat    10721 bl defN 24-Feb-10 15:41 META-INF/versions/9/org/junit/platform/commons/util/ModuleUtils.class
+│ +-rw----     2.0 fat     1083 bl defN 24-Feb-10 15:41 module-info.class
+│ +64 files, 255380 bytes uncompressed, 94290 bytes compressed:  63.1%
+
+4 / 6 central/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.module repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.module
+
+5 / 6 central/org/junit/platform/junit-platform-console/1.10.2/junit-platform-console-1.10.2.jar repository/org/junit/platform/junit-platform-console/1.10.2/junit-platform-console-1.10.2.jar
+--- central/org/junit/platform/junit-platform-console/1.10.2/junit-platform-console-1.10.2.jar
++++ repository/org/junit/platform/junit-platform-console/1.10.2/junit-platform-console-1.10.2.jar
+├── zipinfo {}
+│ @@ -1,23 +1,15 @@
+│ -Zip file size: 545571 bytes, number of entries: 303
+│ +Zip file size: 545463 bytes, number of entries: 303
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1897 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1897 bl defN 24-Feb-10 15:41 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      316 bl defN 80-Feb-01 00:00 META-INF/LICENSE-notice.md
+│  -rw----     2.0 fat    10482 bl defN 80-Feb-01 00:00 META-INF/LICENSE-picocli.md
+│  -rw----     2.0 fat    14235 bl defN 80-Feb-01 00:00 META-INF/LICENSE.md
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/services/
+│  -rw----     2.0 fat       55 bl defN 80-Feb-01 00:00 META-INF/services/java.util.spi.ToolProvider
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/versions/17/
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/versions/17/org/
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/versions/17/org/junit/
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/versions/17/org/junit/platform/
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/versions/17/org/junit/platform/console/
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/versions/17/org/junit/platform/console/options/
+│ --rw----     2.0 fat      911 bl defN 80-Feb-01 00:00 META-INF/versions/17/org/junit/platform/console/options/ConsoleUtils.class
+│ --rw----     2.0 fat      729 bl defN 80-Feb-01 00:00 module-info.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/junit/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/junit/platform/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/junit/platform/console/
+│  -rw----     2.0 fat     3464 bl defN 80-Feb-01 00:00 org/junit/platform/console/ConsoleLauncher.class
+│  -rw----     2.0 fat     1239 bl defN 80-Feb-01 00:00 org/junit/platform/console/ConsoleLauncherToolProvider.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/junit/platform/console/options/
+│ @@ -298,8 +290,16 @@
+│  -rw----     2.0 fat     6459 bl defN 80-Feb-01 00:00 org/junit/platform/console/tasks/TestFeedPrintingListener.class
+│  -rw----     2.0 fat     3540 bl defN 80-Feb-01 00:00 org/junit/platform/console/tasks/TreeNode.class
+│  -rw----     2.0 fat     9046 bl defN 80-Feb-01 00:00 org/junit/platform/console/tasks/TreePrinter.class
+│  -rw----     2.0 fat     1244 bl defN 80-Feb-01 00:00 org/junit/platform/console/tasks/TreePrintingListener$1.class
+│  -rw----     2.0 fat     5405 bl defN 80-Feb-01 00:00 org/junit/platform/console/tasks/TreePrintingListener.class
+│  -rw----     2.0 fat     3051 bl defN 80-Feb-01 00:00 org/junit/platform/console/tasks/VerboseTreePrintingListener$1.class
+│  -rw----     2.0 fat    10643 bl defN 80-Feb-01 00:00 org/junit/platform/console/tasks/VerboseTreePrintingListener.class
+│ -303 files, 1354651 bytes uncompressed, 473713 bytes compressed:  65.0%
+│ +-rw----     1.0 fat        0 b- stor 24-Feb-10 15:41 META-INF/versions/17/
+│ +-rw----     1.0 fat        0 b- stor 24-Feb-10 15:41 META-INF/versions/17/org/
+│ +-rw----     1.0 fat        0 b- stor 24-Feb-10 15:41 META-INF/versions/17/org/junit/
+│ +-rw----     1.0 fat        0 b- stor 24-Feb-10 15:41 META-INF/versions/17/org/junit/platform/
+│ +-rw----     1.0 fat        0 b- stor 24-Feb-10 15:41 META-INF/versions/17/org/junit/platform/console/
+│ +-rw----     1.0 fat        0 b- stor 24-Feb-10 15:41 META-INF/versions/17/org/junit/platform/console/options/
+│ +-rw----     2.0 fat      911 bl defN 24-Feb-10 15:41 META-INF/versions/17/org/junit/platform/console/options/ConsoleUtils.class
+│ +-rw----     2.0 fat      729 bl defN 24-Feb-10 15:41 module-info.class
+│ +303 files, 1354651 bytes uncompressed, 473701 bytes compressed:  65.0%
+
+6 / 6 central/org/junit/platform/junit-platform-console/1.10.2/junit-platform-console-1.10.2.module repository/org/junit/platform/junit-platform-console/1.10.2/junit-platform-console-1.10.2.module

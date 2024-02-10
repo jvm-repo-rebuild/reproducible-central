@@ -1,0 +1,379 @@
+name=org.junit:junit-bom
+group-id=org.junit
+artifact-id=junit-bom
+
+build-tool=gradle
+java.version=17
+os.name=lf
+
+outputs.1.coordinates=org.junit:junit-bom
+
+outputs.1.0.filename=junit-bom-5.10.2.module
+outputs.1.0.length=6995
+outputs.1.0.checksums.sha512=957b48ab80279e57b6ec085df9fe779242a63989496fdb3126dcfd145e063759e0638ffdaf29c961d6cbe594fb4132afb9f507234eb7ccb6985c6821ffb0f33b  repository/org/junit/junit-bom/5.10.2/junit-bom-5.10.2.module
+
+outputs.1.1.filename=junit-bom-5.10.2.pom
+outputs.1.1.length=5649
+outputs.1.1.checksums.sha512=5b36199c9a331c4d05ed78b8fe1f28c5d21e0d7a05bdca1d45f532a89eb7d67fd425da93e9405203a483354abc63718858f80c828e0c090316f70fd833ef904c  repository/org/junit/junit-bom/5.10.2/junit-bom-5.10.2.pom
+
+
+outputs.2.coordinates=org.junit.jupiter:junit-jupiter
+
+outputs.2.0.filename=junit-jupiter-5.10.2.jar
+outputs.2.0.length=6359
+outputs.2.0.checksums.sha512=d10edf43b62c5947b50c506e84d65829138970acd6a85c066d7c6ca192477bed197af77866f6b18ea7b8ebc8a1a16666dc7982a967533079e8927a65aa3b484d  repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar
+
+outputs.2.1.filename=junit-jupiter-5.10.2.module
+outputs.2.1.length=4980
+outputs.2.1.checksums.sha512=ee14b61bcc19c9e62e8fce077245e8a996ed897710fd3930c7c1f93564724d32cdec6c503974689b2f083728dfd1d1596bf5bac0cacc01cccf21a3803c49bf5e  repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.module
+
+outputs.2.2.filename=junit-jupiter-5.10.2.pom
+outputs.2.2.length=3205
+outputs.2.2.checksums.sha512=11cdf9cb24845eae5fe8935ea48f4274010ca49d8c7aba99f01974754b741c045903624c3fbee495772ad2cce97efa26b10a4c5b2a27705e646a06fc19f90d76  repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.pom
+
+outputs.2.3.filename=junit-jupiter-5.10.2-sources.jar
+outputs.2.3.length=6092
+outputs.2.3.checksums.sha512=d7f1de1afb4a475b80fcd07edf98d77dc3de5378dee9b76dcd2f2dd30784015fba4d06532851333246c227208a4d49ce7bf8b174d0454fb71b331c6f5d4d49a9  repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2-sources.jar
+
+
+outputs.3.coordinates=org.junit.jupiter:junit-jupiter-api
+
+outputs.3.0.filename=junit-jupiter-api-5.10.2.jar
+outputs.3.0.length=210956
+outputs.3.0.checksums.sha512=7dfb74405cc011bf0b9176f2093686680225ef32658ec82b55bad9857eb38999b8ac25c23f920127b426120bfc20938f2d9dc8df111a509d9858d350e5ff7685  repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar
+
+outputs.3.1.filename=junit-jupiter-api-5.10.2.module
+outputs.3.1.length=5214
+outputs.3.1.checksums.sha512=95909c3490ef7c73266f43ba4793b49f11e19873c2688285cc083ca5e31dd5ff2e4f344da9efcd2c107ce08e546e633e7a273669c99d7288ade046d0c86705db  repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.module
+
+outputs.3.2.filename=junit-jupiter-api-5.10.2.pom
+outputs.3.2.length=3184
+outputs.3.2.checksums.sha512=3058445ff0c96a9898f8b79e66a1b0af49a37da48bf39310696802f8cca3aa318f1ab8b5f3f209b64ed3a56134a1e2c20ca916e53908536430495c4e34e650f7  repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.pom
+
+outputs.3.3.filename=junit-jupiter-api-5.10.2-sources.jar
+outputs.3.3.length=209735
+outputs.3.3.checksums.sha512=c96241f2cb6fe40a3e9b5639eb378ccbfa7d0efe0ffb232856d5248630a8e4a64220bef9aa86f5e38e91cf3e7d8b5926b707769674c20ee7ac7f044336eabda9  repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2-sources.jar
+
+
+outputs.4.coordinates=org.junit.jupiter:junit-jupiter-engine
+
+outputs.4.0.filename=junit-jupiter-engine-5.10.2.jar
+outputs.4.0.length=244690
+outputs.4.0.checksums.sha512=0a95745a7d7b7d1cc4974e946cb0ab2696d7739ec1cee8545a34d6f14e63f065d06ab1363e4fc1b588d5197107f9ffc42537bebcd7b10a945fae316e5fdbc103  repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar
+
+outputs.4.1.filename=junit-jupiter-engine-5.10.2.module
+outputs.4.1.length=5261
+outputs.4.1.checksums.sha512=e6d191814af299850bf452fd4a67a044465952bbf18a10e7b5e3930f63b988031070508e206fb484ed5d449005b78a9a51945da29ae89cf3b9dd448cda26f948  repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.module
+
+outputs.4.2.filename=junit-jupiter-engine-5.10.2.pom
+outputs.4.2.length=3203
+outputs.4.2.checksums.sha512=6fcc469a3d9f77cb6c0a61f0b63a441be1fd7a015eae3e4acd44493fbf93156b2f9a0bd48d39c88931656dc877336504d8a6cf31e3239b100b2bf99f55aef291  repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.pom
+
+outputs.4.3.filename=junit-jupiter-engine-5.10.2-sources.jar
+outputs.4.3.length=131151
+outputs.4.3.checksums.sha512=d16517d7638fe80055e262e99083cd2c84ec7203819d7f949977fd56864c9c4050ca1fe7924ebcb774a85b83bce5ed5e766423692a096607c95721426761dc2c  repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2-sources.jar
+
+
+outputs.5.coordinates=org.junit.jupiter:junit-jupiter-migrationsupport
+
+outputs.5.0.filename=junit-jupiter-migrationsupport-5.10.2.jar
+outputs.5.0.length=27713
+outputs.5.0.checksums.sha512=1ef3e62d9813e8ca69d3d1fe2ea1de89b3335c725f95e376e44e5762789742d81877c2a22476894fb3a1d703bcf069e4ccb94592e2bf11653f1d147170cb34c7  repository/org/junit/jupiter/junit-jupiter-migrationsupport/5.10.2/junit-jupiter-migrationsupport-5.10.2.jar
+
+outputs.5.1.filename=junit-jupiter-migrationsupport-5.10.2.module
+outputs.5.1.length=5076
+outputs.5.1.checksums.sha512=5ace546bc1b6b43f481bd93206cb641148a1a0890f4b2ce336d0c4f244d3a2b45f71cd746e4aa087887542e71d4cd685526981d92a49b2013e17caa936d8cdda  repository/org/junit/jupiter/junit-jupiter-migrationsupport/5.10.2/junit-jupiter-migrationsupport-5.10.2.module
+
+outputs.5.2.filename=junit-jupiter-migrationsupport-5.10.2.pom
+outputs.5.2.length=3209
+outputs.5.2.checksums.sha512=77d95350596ac135b3d64f55be4b37efc241f435e40f90bdfeacf97ec5d1125f7d44b9582321317e423601d26968ab80ff3a44a2555cf1aa51a835c78caafc19  repository/org/junit/jupiter/junit-jupiter-migrationsupport/5.10.2/junit-jupiter-migrationsupport-5.10.2.pom
+
+outputs.5.3.filename=junit-jupiter-migrationsupport-5.10.2-sources.jar
+outputs.5.3.length=23946
+outputs.5.3.checksums.sha512=c9c806bf230c24e7eee39c0a079a59603edee257a6cd286aaf85a63a5bc60f7376fac2115cb3bdbafe1fcb3c91a5b8cab14c19eefcc0d0cef716a59c32cdafef  repository/org/junit/jupiter/junit-jupiter-migrationsupport/5.10.2/junit-jupiter-migrationsupport-5.10.2-sources.jar
+
+
+outputs.6.coordinates=org.junit.jupiter:junit-jupiter-params
+
+outputs.6.0.filename=junit-jupiter-params-5.10.2.jar
+outputs.6.0.length=586027
+outputs.6.0.checksums.sha512=002b2010769413f1bc86cf95a48f679eeb7a372379e8f401f892d03bd1089483937a77f08c095579f81b8f0a27896fac6bebdc4c09a2dff9f5459e09207ac0d8  repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar
+
+outputs.6.1.filename=junit-jupiter-params-5.10.2.module
+outputs.6.1.length=5707
+outputs.6.1.checksums.sha512=084e3985b1f8eba1e24d7557ed69182f2d089c3ab2d59468837293cfc8946f98f7e61a51596b0f31b658a91f65acf6c7773c41d560d1f05d0ee3fc8b684d6d82  repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.module
+
+outputs.6.2.filename=junit-jupiter-params-5.10.2.pom
+outputs.6.2.length=3010
+outputs.6.2.checksums.sha512=9180a173c87c6bdf0a056f57b1ddc8f31bbb79226945f28eaa390d3e091d3bd61ba42fa6131b068734157991c94bcb3c34c0c44841c3c56b8a352b22a04a1132  repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.pom
+
+outputs.6.3.filename=junit-jupiter-params-5.10.2-sources.jar
+outputs.6.3.length=82905
+outputs.6.3.checksums.sha512=776e597de5a3305f5fdbe33f9d1c948829e544d8e83d32af7f52014b58472a0df1e8cc9f66084301a137bfad056c5ac693fe2e9219ec5359c81d435bd8a15941  repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2-sources.jar
+
+
+outputs.7.coordinates=org.junit.platform:junit-platform-commons
+
+outputs.7.0.filename=junit-platform-commons-1.10.2.jar
+outputs.7.0.length=106124
+outputs.7.0.checksums.sha512=917d2b124ce13f4b9db825e850bf2c9e919d4570ff50bf587003eb584fd394569c356d39bc90ab844a47fa438cc84eecf5b5838e29b13fa5253c17624a5591f2  repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar
+
+outputs.7.1.filename=junit-platform-commons-1.10.2.module
+outputs.7.1.length=4375
+outputs.7.1.checksums.sha512=8b72e8f32207c777407f325d807611136cae9fada81cc94264977b3ad49d2b541f12d80d0553262413cec6b514f8a8e37a501a485aa6d45872e448778842126b  repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.module
+
+outputs.7.2.filename=junit-platform-commons-1.10.2.pom
+outputs.7.2.length=2833
+outputs.7.2.checksums.sha512=7440a45b54cf9716de90cb003a9e1dc8d085e7b9ae656b04f55f268c1e4b2ee2919380daac544ece41b28bb7161ab2bee3d75b408f01bf1437a23211072eec65  repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.pom
+
+outputs.7.3.filename=junit-platform-commons-1.10.2-sources.jar
+outputs.7.3.length=78184
+outputs.7.3.checksums.sha512=8963ff47fca9af4390762f40366d2ff5ab54d4992aea7947ec3055b5f16e54229aae81fa75996400f31a0cc522b177d93a342eeea3e63d48a55fe85626ac00a1  repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2-sources.jar
+
+
+outputs.8.coordinates=org.junit.platform:junit-platform-console
+
+outputs.8.0.filename=junit-platform-console-1.10.2.jar
+outputs.8.0.length=545463
+outputs.8.0.checksums.sha512=db0a1f10739ca3bf2a8e70388f89ddecf110b878ba7af45bd7c696bce08b01d8266abdc131b8b60beb5939069202e75958a7224fb16989d91bcac8cc06b0d239  repository/org/junit/platform/junit-platform-console/1.10.2/junit-platform-console-1.10.2.jar
+
+outputs.8.1.filename=junit-platform-console-1.10.2.module
+outputs.8.1.length=5532
+outputs.8.1.checksums.sha512=f6059931ae135036935c5a181caa89aeac23162ef3da7998b5427c14e05b5e36291cc7b1a6c3471d28593fe06c5c81252199ead3fc01fb323dca7e0d7d53a3e0  repository/org/junit/platform/junit-platform-console/1.10.2/junit-platform-console-1.10.2.module
+
+outputs.8.2.filename=junit-platform-console-1.10.2.pom
+outputs.8.2.length=3029
+outputs.8.2.checksums.sha512=1514bc674713b8104df20a25e2448980970f5cd92c2aa38052911207d4b69baaf9ca6510e41d114e68761bcf16ab710effe15de5546195eaad36b4dbe8f8101f  repository/org/junit/platform/junit-platform-console/1.10.2/junit-platform-console-1.10.2.pom
+
+outputs.8.3.filename=junit-platform-console-1.10.2-sources.jar
+outputs.8.3.length=47949
+outputs.8.3.checksums.sha512=b7b5b5909b2df8774eeb39b8603dcb2209713784b9aab8563933447bc5c5a124e48faab7af4a724402326b80d9205128ab33fb4edddc61b65d9501bf988588e0  repository/org/junit/platform/junit-platform-console/1.10.2/junit-platform-console-1.10.2-sources.jar
+
+
+outputs.9.coordinates=org.junit.platform:junit-platform-console-standalone
+
+outputs.9.0.filename=junit-platform-console-standalone-1.10.2.jar
+outputs.9.0.length=2680679
+outputs.9.0.checksums.sha512=617541e265b00c642e5b0b1c5f6cadb878ed84d0ef344d8275a7fddd383fc88f48c177c51e89f43d30134ecc8c6a7f43ec4d2faf7210ebbe5a84b444f19527f1  repository/org/junit/platform/junit-platform-console-standalone/1.10.2/junit-platform-console-standalone-1.10.2.jar
+
+outputs.9.1.filename=junit-platform-console-standalone-1.10.2.module
+outputs.9.1.length=4508
+outputs.9.1.checksums.sha512=d3004fbae52854145caa87c66f18d79e3b3326aba5e482416f331553623d0a7e513ed327179e3fd4220ec6c0efb4432fea7a3901f3fc32fa4516ed64652dca60  repository/org/junit/platform/junit-platform-console-standalone/1.10.2/junit-platform-console-standalone-1.10.2.module
+
+outputs.9.2.filename=junit-platform-console-standalone-1.10.2.pom
+outputs.9.2.length=2350
+outputs.9.2.checksums.sha512=248128c4005a073cc045557a4b2a02360445078c6477e8bed01141e98113d6ff7223e2f570e77f1ce71cfdd24ee0a88f5fdc97634b44635882de1ce990f5e98c  repository/org/junit/platform/junit-platform-console-standalone/1.10.2/junit-platform-console-standalone-1.10.2.pom
+
+outputs.9.3.filename=junit-platform-console-standalone-1.10.2-sources.jar
+outputs.9.3.length=5681
+outputs.9.3.checksums.sha512=a6d7600ca9c015909e82161362cf6dea3a5b209883fc6c74886df5488c21981d3c0d7f0b8c108cc3b15aff15ef1f19e712409f5a43eac9bdfe123bcc67957480  repository/org/junit/platform/junit-platform-console-standalone/1.10.2/junit-platform-console-standalone-1.10.2-sources.jar
+
+
+outputs.10.coordinates=org.junit.platform:junit-platform-engine
+
+outputs.10.0.filename=junit-platform-engine-1.10.2.jar
+outputs.10.0.length=204821
+outputs.10.0.checksums.sha512=5ca468aff73099673266e4e1431189023b0a660292f4f6c101dc4b03b8ab3643392731aa55455bf3a5079331a563dacda0c6b3cf3df64563ca6e0201af609e27  repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar
+
+outputs.10.1.filename=junit-platform-engine-1.10.2.module
+outputs.10.1.length=5037
+outputs.10.1.checksums.sha512=913bff3b0417dc032072849c7f7e231e434d691b11497aec38735969da2c3daf9e3bd6e5f7dae8c250b3365c369b1de7a7122207f8480f5095aa58d3d84869bc  repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.module
+
+outputs.10.2.filename=junit-platform-engine-1.10.2.pom
+outputs.10.2.length=3205
+outputs.10.2.checksums.sha512=3fb49e53f5e3a426d31806bcc1379ce7af2befd9e53690c9812ab6cbd13bcef15bd13edcfa7c9fbd934d643c9e0f176673b5900b8b24a576f3b0d95212dd918a  repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.pom
+
+outputs.10.3.filename=junit-platform-engine-1.10.2-sources.jar
+outputs.10.3.length=142161
+outputs.10.3.checksums.sha512=0a97eaec00892f7c9e5924279613e0e41c07ecd7cdafa8b5852de1c0468fc5e8c71becfdbe0ea864959d6913308bc50c0f08565628bd9a295aa8e5a57d2eac2f  repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2-sources.jar
+
+
+outputs.11.coordinates=org.junit.platform:junit-platform-jfr
+
+outputs.11.0.filename=junit-platform-jfr-1.10.2.jar
+outputs.11.0.length=19138
+outputs.11.0.checksums.sha512=2c70f6165effd5c6fdb8db1e7225e37945a21d556f832e82e8e73c1321323c398c1e3524471649b9e2ff83467fd1328127d10d1fb381882047ca2d828a95fa6c  repository/org/junit/platform/junit-platform-jfr/1.10.2/junit-platform-jfr-1.10.2.jar
+
+outputs.11.1.filename=junit-platform-jfr-1.10.2.module
+outputs.11.1.length=4690
+outputs.11.1.checksums.sha512=3f596d6375a0d17810622c089a2e9078337581cf6834f26bddffce112d05d1cecb69ce104c10a287690353dbd4308fe9f50857bb348b1b08d7e6b48cd83c350e  repository/org/junit/platform/junit-platform-jfr/1.10.2/junit-platform-jfr-1.10.2.module
+
+outputs.11.2.filename=junit-platform-jfr-1.10.2.pom
+outputs.11.2.length=3036
+outputs.11.2.checksums.sha512=9877d4d101f735454e38ff6f91982e6024a2bb53adefe9459744bccf40e3fc049af0b6ccdd103118aba8e95643d869d346b527d7cbc16df8ef680b68c1abdf9f  repository/org/junit/platform/junit-platform-jfr/1.10.2/junit-platform-jfr-1.10.2.pom
+
+outputs.11.3.filename=junit-platform-jfr-1.10.2-sources.jar
+outputs.11.3.length=11078
+outputs.11.3.checksums.sha512=9af4e6336a798e42679e2c1bfdd8990e81c01b4b9f11dd7515caeefae405c7d327ba2b303c20269066b89b6156183f9d980d44f6fa6bf9f28415de5b026285f4  repository/org/junit/platform/junit-platform-jfr/1.10.2/junit-platform-jfr-1.10.2-sources.jar
+
+
+outputs.12.coordinates=org.junit.platform:junit-platform-launcher
+
+outputs.12.0.filename=junit-platform-launcher-1.10.2.jar
+outputs.12.0.length=183814
+outputs.12.0.checksums.sha512=764f1e1a978d8970524a22bf37f807d0a2b94a388abd79d23287ec931266f752e6fedf6599348fd6baf5fcef2105dddb315f680352532e8f2209b56e5d74f7ba  repository/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.jar
+
+outputs.12.1.filename=junit-platform-launcher-1.10.2.module
+outputs.12.1.length=4735
+outputs.12.1.checksums.sha512=8affd04522d58df375cf1353c943febff496e5717f01b9f2cdd6836992ca98384820e398db5c724e49b71d4c10687d891bbe368a42d417f52039d29fbb049665  repository/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.module
+
+outputs.12.2.filename=junit-platform-launcher-1.10.2.pom
+outputs.12.2.length=3029
+outputs.12.2.checksums.sha512=2ad36f2a620e1c3c052ee8853c8a682c5028c658530071acab1409efdf42f8543818faf25d4e5d80398a4681a7406ab841b36c9e84551e1f20bed22b3d545f87  repository/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.pom
+
+outputs.12.3.filename=junit-platform-launcher-1.10.2-sources.jar
+outputs.12.3.length=108036
+outputs.12.3.checksums.sha512=e9eccf15a8fc69e356c00eaa885e62c5e38163bc7092dd71a1b521230294ed1c6c8adbe54de5f6124c6dde81038171ef6605d49b2654a1d0f34881519de27996  repository/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2-sources.jar
+
+
+outputs.13.coordinates=org.junit.platform:junit-platform-reporting
+
+outputs.13.0.filename=junit-platform-reporting-1.10.2.jar
+outputs.13.0.length=106950
+outputs.13.0.checksums.sha512=a0cf9741de3fe0a74527385595dde85acbfa06a8fd7bebc379ff6791d39e8ee2484d18a2cf7cc6520455a7ea3be55c1f0ef6d137e2e36a7e3e58a53113959763  repository/org/junit/platform/junit-platform-reporting/1.10.2/junit-platform-reporting-1.10.2.jar
+
+outputs.13.1.filename=junit-platform-reporting-1.10.2.module
+outputs.13.1.length=5552
+outputs.13.1.checksums.sha512=b2d106100b6734010ac77d1527ff5894f3abcb09f1b3df86c0f3225eebe2029f24a37fa34bb61eaab8852fe5678837bc2af3275be5b19afc67433b453163c69d  repository/org/junit/platform/junit-platform-reporting/1.10.2/junit-platform-reporting-1.10.2.module
+
+outputs.13.2.filename=junit-platform-reporting-1.10.2.pom
+outputs.13.2.length=3034
+outputs.13.2.checksums.sha512=b7d9e0f437786d97a3c768db3900071559c48181f6d62696a1f2fb53740f62b19632dee14434c4e2d8877262d247c4e964c0f7f7ddd0fca6cb0f976476df604b  repository/org/junit/platform/junit-platform-reporting/1.10.2/junit-platform-reporting-1.10.2.pom
+
+outputs.13.3.filename=junit-platform-reporting-1.10.2-sources.jar
+outputs.13.3.length=23847
+outputs.13.3.checksums.sha512=a19f5d55142363cc01d3379db253ada5dec79fb38823ad4087e4573f0a897d172197466c98fbcc9dd449f96c7eeb661c8419d276bbbfbd63959f190be8795e16  repository/org/junit/platform/junit-platform-reporting/1.10.2/junit-platform-reporting-1.10.2-sources.jar
+
+
+outputs.14.coordinates=org.junit.platform:junit-platform-runner
+
+outputs.14.0.filename=junit-platform-runner-1.10.2.jar
+outputs.14.0.length=16581
+outputs.14.0.checksums.sha512=cf65d025dec7ccd12a30f95756a4d0abe3294980fe73529aa83e6be15a5f82db960d5611fab694ce15c5eb59ef346f4529e29b581e09c81c9503db2f0958422f  repository/org/junit/platform/junit-platform-runner/1.10.2/junit-platform-runner-1.10.2.jar
+
+outputs.14.1.filename=junit-platform-runner-1.10.2.module
+outputs.14.1.length=5547
+outputs.14.1.checksums.sha512=8a84310ee157612b378b5239f7a6aa1d936491fef0f530786e9f325eda8c26340f3711cc307316f0abe2858d4a8e8b96b1b664cce667f17175e320e381c1720f  repository/org/junit/platform/junit-platform-runner/1.10.2/junit-platform-runner-1.10.2.module
+
+outputs.14.2.filename=junit-platform-runner-1.10.2.pom
+outputs.14.2.length=3585
+outputs.14.2.checksums.sha512=3e244a330657cd7402e076d8223fde46e538f87864db5e2d3f5cada8444a3e68285e7027844f7e4d9b61395e03b23b37c4e4f9ed60888ab12db7ace3e1d9a7c9  repository/org/junit/platform/junit-platform-runner/1.10.2/junit-platform-runner-1.10.2.pom
+
+outputs.14.3.filename=junit-platform-runner-1.10.2-sources.jar
+outputs.14.3.length=12310
+outputs.14.3.checksums.sha512=cdfb22a693a43d845c5177ae4566d333518ca4d9eaf306d4934f334ba37c728d84b2f8a2496c5598e5e362a75aa496f503e308ec9b11e6fed8cfc0fe652d7472  repository/org/junit/platform/junit-platform-runner/1.10.2/junit-platform-runner-1.10.2-sources.jar
+
+
+outputs.15.coordinates=org.junit.platform:junit-platform-suite
+
+outputs.15.0.filename=junit-platform-suite-1.10.2.jar
+outputs.15.0.length=6362
+outputs.15.0.checksums.sha512=1c8a0c260b0e69c3bfee19fb14a2a2af1e709b4d0af1ca09571c0e9a414f89782eb1fee2f170427b17f865c22cf44afd3c5e620941da5d552e1b28e014b06cb0  repository/org/junit/platform/junit-platform-suite/1.10.2/junit-platform-suite-1.10.2.jar
+
+outputs.15.1.filename=junit-platform-suite-1.10.2.module
+outputs.15.1.length=4722
+outputs.15.1.checksums.sha512=cb912fc47aded4f703296d80be409df326527929a6b2d51d31a4557b17149365ae06b7b5908b87ad2cc18a2e322f58b5961489bded0dcfdd7ba76a6006485f33  repository/org/junit/platform/junit-platform-suite/1.10.2/junit-platform-suite-1.10.2.module
+
+outputs.15.2.filename=junit-platform-suite-1.10.2.pom
+outputs.15.2.length=3052
+outputs.15.2.checksums.sha512=1de59ad55e382ba889603791a67159041ca8b5a0cd04e154339b6c668cfa214b42fc3ff48c3e79702be78b2cb32002dce1ab78970e5a7ced67bb1e518101c706  repository/org/junit/platform/junit-platform-suite/1.10.2/junit-platform-suite-1.10.2.pom
+
+outputs.15.3.filename=junit-platform-suite-1.10.2-sources.jar
+outputs.15.3.length=6095
+outputs.15.3.checksums.sha512=b5d65e7e6200b6f73c3d2ddc42de3e98cb0cae194ea363422c4dda8259492059ae4d24179fb5e978cfa04894013354d3f9e5ce310a06aba5d0cbcaf85a08499f  repository/org/junit/platform/junit-platform-suite/1.10.2/junit-platform-suite-1.10.2-sources.jar
+
+
+outputs.16.coordinates=org.junit.platform:junit-platform-suite-api
+
+outputs.16.0.filename=junit-platform-suite-api-1.10.2.jar
+outputs.16.0.length=22575
+outputs.16.0.checksums.sha512=174a4398337788f8ddcc0f945eb56785b7833d7b80ce3c240dff3596d1df18f2651535fa0d3afa9850fb16de16fa56d60d2ffc226071962c8f4dfc6404a63478  repository/org/junit/platform/junit-platform-suite-api/1.10.2/junit-platform-suite-api-1.10.2.jar
+
+outputs.16.1.filename=junit-platform-suite-api-1.10.2.module
+outputs.16.1.length=4743
+outputs.16.1.checksums.sha512=5cec242ab3c10f152e7cc22e56f6b07ec6314a0600efef89f9a07b57b0aaf2782e813a81432dab80ee99b99268b4a547885681aa09ced497f5649d1f2211996c  repository/org/junit/platform/junit-platform-suite-api/1.10.2/junit-platform-suite-api-1.10.2.module
+
+outputs.16.2.filename=junit-platform-suite-api-1.10.2.pom
+outputs.16.2.length=3033
+outputs.16.2.checksums.sha512=40c6d8a0d56ed395d7d33fd8e6796c2e8881b51fae01ae230133a4445fe9175cd29f9d6ab1ab4a55a2525507a1f18f9b3638845d00ccbbff1b9df8da56a6de15  repository/org/junit/platform/junit-platform-suite-api/1.10.2/junit-platform-suite-api-1.10.2.pom
+
+outputs.16.3.filename=junit-platform-suite-api-1.10.2-sources.jar
+outputs.16.3.length=30734
+outputs.16.3.checksums.sha512=782b4f36cabc0dde271409c291a3f442f1bd1145d0660c45440d8c55a94bd414a8e44d1131af61dfc7d1a7ebf2eb679fcf6c8251cf3e17e8c063fbecdacd0396  repository/org/junit/platform/junit-platform-suite-api/1.10.2/junit-platform-suite-api-1.10.2-sources.jar
+
+
+outputs.17.coordinates=org.junit.platform:junit-platform-suite-commons
+
+outputs.17.0.filename=junit-platform-suite-commons-1.10.2.jar
+outputs.17.0.length=17326
+outputs.17.0.checksums.sha512=3bf450569eb1ffd6305f2398662fbdb429b90e5056ded4805b38f557fd6d56783d7c57c323223cd0cd89934209aeb054ddc442be499c28d8c2a243be34f5b4fd  repository/org/junit/platform/junit-platform-suite-commons/1.10.2/junit-platform-suite-commons-1.10.2.jar
+
+outputs.17.1.filename=junit-platform-suite-commons-1.10.2.module
+outputs.17.1.length=5133
+outputs.17.1.checksums.sha512=6fc6bf207af393f9e2d3f5f7c0f6390077712d38603dd2cfd4468ede2528cdc10a9d64e95468bb9adbee208c23f9825f24bf3379c131b72421067b60ff92fde1  repository/org/junit/platform/junit-platform-suite-commons/1.10.2/junit-platform-suite-commons-1.10.2.module
+
+outputs.17.2.filename=junit-platform-suite-commons-1.10.2.pom
+outputs.17.2.length=3435
+outputs.17.2.checksums.sha512=eb882419b299389dd0478e7221859d078b6ea843112158c1c555dee14d6d30bb2e559619e44a051825b616a67b5041865b9cd571b466c9bae6d7e639f7d2f7dd  repository/org/junit/platform/junit-platform-suite-commons/1.10.2/junit-platform-suite-commons-1.10.2.pom
+
+outputs.17.3.filename=junit-platform-suite-commons-1.10.2-sources.jar
+outputs.17.3.length=11365
+outputs.17.3.checksums.sha512=cb9f469cd0f8fac3076f4f82b618b5709cca45efd5082d9fc5a4ab87aadb3b23144a076d0ac28f1a648cada92bfe72513e9676f97faa0f3db66d862cbda61590  repository/org/junit/platform/junit-platform-suite-commons/1.10.2/junit-platform-suite-commons-1.10.2-sources.jar
+
+
+outputs.18.coordinates=org.junit.platform:junit-platform-suite-engine
+
+outputs.18.0.filename=junit-platform-suite-engine-1.10.2.jar
+outputs.18.0.length=24117
+outputs.18.0.checksums.sha512=527618334e07a2cfef997494f8b187a0f6165744a4fb91a3abebeb35da16fb0f38dea9ef3cf5e9765c2c5d1152adb527eb38ac44fb6f3e9f056f5a4d1f3f8d90  repository/org/junit/platform/junit-platform-suite-engine/1.10.2/junit-platform-suite-engine-1.10.2.jar
+
+outputs.18.1.filename=junit-platform-suite-engine-1.10.2.module
+outputs.18.1.length=5305
+outputs.18.1.checksums.sha512=40fd37ef7fd930bebee16b72a2cc373a3dad4eccba964aa6dae802991e1b806e49295dde50600459bcbe19d913be74c7eea3c0f97e88efc34f1d3c57c3952161  repository/org/junit/platform/junit-platform-suite-engine/1.10.2/junit-platform-suite-engine-1.10.2.module
+
+outputs.18.2.filename=junit-platform-suite-engine-1.10.2.pom
+outputs.18.2.length=3437
+outputs.18.2.checksums.sha512=a6ac8a2a529e415decac5af5fc68e56a4b07cfbd5390dca638c0ed78ef1f011351e22d9e898f569b516566dc927f72d0c4511f8ff123476e86ae7883d114c9b8  repository/org/junit/platform/junit-platform-suite-engine/1.10.2/junit-platform-suite-engine-1.10.2.pom
+
+outputs.18.3.filename=junit-platform-suite-engine-1.10.2-sources.jar
+outputs.18.3.length=16518
+outputs.18.3.checksums.sha512=2904d5ba255057035bb5af932ae41c0df31857e882f0494ba0225e3769c67e2b7abbb57e670621235b887dd9fae6a369642b4ac8c1302ba71aeec95030114de1  repository/org/junit/platform/junit-platform-suite-engine/1.10.2/junit-platform-suite-engine-1.10.2-sources.jar
+
+
+outputs.19.coordinates=org.junit.platform:junit-platform-testkit
+
+outputs.19.0.filename=junit-platform-testkit-1.10.2.jar
+outputs.19.0.length=44401
+outputs.19.0.checksums.sha512=c6023f595d8e45c439f6e29c5408f7bad697a7577289d149739b5973a315b3a6d387aacf5220a11a5d5968500706d951207ef733877fdf615fc6631ce95f6c21  repository/org/junit/platform/junit-platform-testkit/1.10.2/junit-platform-testkit-1.10.2.jar
+
+outputs.19.1.filename=junit-platform-testkit-1.10.2.module
+outputs.19.1.length=5363
+outputs.19.1.checksums.sha512=07c58182c9e45bcba01914fdf41b84923bbf52a4eef6dd1e4f79b8b9d5f8f1acf4048cb04dae71ff05c5e3be4c30d46b98b7c7942467d11e811569e7512588b4  repository/org/junit/platform/junit-platform-testkit/1.10.2/junit-platform-testkit-1.10.2.module
+
+outputs.19.2.filename=junit-platform-testkit-1.10.2.pom
+outputs.19.2.length=3383
+outputs.19.2.checksums.sha512=ac3c2a5119b50177e85e6aa564d9165a0a5bc800195efed1c0d4c58996584f06af27f2790b699b1f4d46d43214f96e163434c84cdf4de48562c0b1236177957e  repository/org/junit/platform/junit-platform-testkit/1.10.2/junit-platform-testkit-1.10.2.pom
+
+outputs.19.3.filename=junit-platform-testkit-1.10.2-sources.jar
+outputs.19.3.length=32101
+outputs.19.3.checksums.sha512=2fbe2227403b6742d660a3dc9c5563347e8775defbea7cf50c3bbebcbf4f4640edb98fd47bc52505ef86a842c8a499ca4fcf87d77ce6cdf0394aa026a6c7f258  repository/org/junit/platform/junit-platform-testkit/1.10.2/junit-platform-testkit-1.10.2-sources.jar
+
+
+outputs.20.coordinates=org.junit.vintage:junit-vintage-engine
+
+outputs.20.0.filename=junit-vintage-engine-5.10.2.jar
+outputs.20.0.length=67479
+outputs.20.0.checksums.sha512=1833a242d9b42c506b133d51e22b82bfe66d20c809b39d8e7baaa185409365cc75bc5c7904c04ffae52a3785bee6577bba9093f7fe985610239c58a9a7ab76d7  repository/org/junit/vintage/junit-vintage-engine/5.10.2/junit-vintage-engine-5.10.2.jar
+
+outputs.20.1.filename=junit-vintage-engine-5.10.2.module
+outputs.20.1.length=4996
+outputs.20.1.checksums.sha512=43a93938836e7925168781dbffd7fe6b40a165054e3816625b091ccc68385d7a22c2246760c86c9a621ebb1958bd6ab7bf80a06ab4c7e5a6beea50b634b10cd7  repository/org/junit/vintage/junit-vintage-engine/5.10.2/junit-vintage-engine-5.10.2.module
+
+outputs.20.2.filename=junit-vintage-engine-5.10.2.pom
+outputs.20.2.length=3183
+outputs.20.2.checksums.sha512=cb1d5a44035a03fafe0320766bdd407866bbd0822bdeb39a7dead5bbc49080fe279b5b933f897cadee0781937359fded07d4e23a5a7d3d0bd4b4babee66f99e7  repository/org/junit/vintage/junit-vintage-engine/5.10.2/junit-vintage-engine-5.10.2.pom
+
+outputs.20.3.filename=junit-vintage-engine-5.10.2-sources.jar
+outputs.20.3.length=38692
+outputs.20.3.checksums.sha512=155d73f8af171ed6fb220be1a2337adf59a2bc60398bc2754bf37c57f578c841675e9b895fc8bb3542ded5ffe9d40436d056642cabdf95220a07f55314f0cfea  repository/org/junit/vintage/junit-vintage-engine/5.10.2/junit-vintage-engine-5.10.2-sources.jar
+
