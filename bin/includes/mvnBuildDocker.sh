@@ -28,7 +28,7 @@ mvnBuildDocker() {
 
   case ${jdk} in
     # Supported openjdk-*-jdk on ubuntu 22.04 (checked on 2023-03-05)
-    8 | 11 | 17 | 18 | 19 )
+    8 | 11 | 17 | 18 | 19 | 21)
       [ -z "${toolchains}" ] && toolchains=${jdk}
       # will use/create custom "toolchains" rebuilder image
       ;;
