@@ -1,0 +1,9 @@
+version=1.0.5
+ok=3
+ko=0
+ignored=0
+okFiles="conventional-commits-version-policy-1.0.5.pom conventional-commits-version-policy-1.0.5.jar conventional-commits-version-policy-1.0.5-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
