@@ -1,0 +1,306 @@
+1 / 1 target/reference/tech.picnic.error-prone-support/error-prone-contrib-0.15.0.jar error-prone-contrib/target/error-prone-contrib-0.15.0.jar
+--- target/reference/tech.picnic.error-prone-support/error-prone-contrib-0.15.0.jar
++++ error-prone-contrib/target/error-prone-contrib-0.15.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 5021967 bytes, number of entries: 3306
+│ +Zip file size: 5028362 bytes, number of entries: 3311
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-11 13:28 META-INF/
+│  -rw-r--r--  2.0 unx      553 b- defN 24-Feb-11 13:28 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-11 13:28 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-11 13:28 tech/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-11 13:28 tech/picnic/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-11 13:28 tech/picnic/errorprone/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-11 13:28 tech/picnic/errorprone/bugpatterns/
+│ @@ -314,15 +314,20 @@
+│  -rw-r--r--  2.0 unx    12588 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJNumberRules$NumberAssertIsPositive.refaster
+│  -rw-r--r--  2.0 unx     1098 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJNumberRules.class
+│  -rw-r--r--  2.0 unx     5498 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsEvenRecipe$1.class
+│  -rw-r--r--  2.0 unx     1422 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsEvenRecipe$1_after.class
+│  -rw-r--r--  2.0 unx     1432 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsEvenRecipe$1_before.class
+│  -rw-r--r--  2.0 unx     1436 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsEvenRecipe$1_before0.class
+│  -rw-r--r--  2.0 unx     2626 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsEvenRecipe.class
+│ --rw-r--r--  2.0 unx     1230 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes.class
+│ +-rw-r--r--  2.0 unx     5491 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsOddRecipe$1.class
+│ +-rw-r--r--  2.0 unx     1418 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsOddRecipe$1_after.class
+│ +-rw-r--r--  2.0 unx     1429 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsOddRecipe$1_before.class
+│ +-rw-r--r--  2.0 unx     1433 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsOddRecipe$1_before0.class
+│ +-rw-r--r--  2.0 unx     2619 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsOddRecipe.class
+│ +-rw-r--r--  2.0 unx     1471 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes.class
+│  -rw-r--r--  2.0 unx     1830 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJObjectRules$AssertThatHasToString.class
+│  -rw-r--r--  2.0 unx     7086 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJObjectRules$AssertThatHasToString.refaster
+│  -rw-r--r--  2.0 unx     1794 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJObjectRules$AssertThatIsInstanceOf.class
+│  -rw-r--r--  2.0 unx     7415 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJObjectRules$AssertThatIsInstanceOf.refaster
+│  -rw-r--r--  2.0 unx     1863 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJObjectRules$AssertThatIsIsEqualTo.class
+│  -rw-r--r--  2.0 unx     7162 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJObjectRules$AssertThatIsIsEqualTo.refaster
+│  -rw-r--r--  2.0 unx     1879 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/AssertJObjectRules$AssertThatIsIsNotEqualTo.class
+│ @@ -3301,8 +3306,8 @@
+│  -rw-r--r--  2.0 unx     1469 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/WebClientRulesRecipes$WebClientPutRecipe$1_before.class
+│  -rw-r--r--  2.0 unx     1469 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/WebClientRulesRecipes$WebClientPutRecipe$1_before0.class
+│  -rw-r--r--  2.0 unx     2951 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/WebClientRulesRecipes$WebClientPutRecipe.class
+│  -rw-r--r--  2.0 unx     2431 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/WebClientRulesRecipes.class
+│  -rw-r--r--  2.0 unx      281 b- defN 24-Feb-11 13:28 tech/picnic/errorprone/refasterrules/package-info.class
+│  -rw-r--r--  2.0 unx    11218 b- defN 24-Feb-11 13:28 META-INF/maven/tech.picnic.error-prone-support/error-prone-contrib/pom.xml
+│  -rw-r--r--  2.0 unx       86 b- defN 24-Feb-11 13:28 META-INF/maven/tech.picnic.error-prone-support/error-prone-contrib/pom.properties
+│ -3306 files, 12748984 bytes uncompressed, 4169475 bytes compressed:  67.3%
+│ +3311 files, 12761615 bytes uncompressed, 4174532 bytes compressed:  67.3%
+├── zipnote «TEMP»/diffoscope_prjvk1b3_target/tmpoloteo01_.zip
+│ @@ -951,14 +951,29 @@
+│  
+│  Filename: tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsEvenRecipe$1_before0.class
+│  Comment: 
+│  
+│  Filename: tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsEvenRecipe.class
+│  Comment: 
+│  
+│ +Filename: tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsOddRecipe$1.class
+│ +Comment: 
+│ +
+│ +Filename: tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsOddRecipe$1_after.class
+│ +Comment: 
+│ +
+│ +Filename: tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsOddRecipe$1_before.class
+│ +Comment: 
+│ +
+│ +Filename: tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsOddRecipe$1_before0.class
+│ +Comment: 
+│ +
+│ +Filename: tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsOddRecipe.class
+│ +Comment: 
+│ +
+│  Filename: tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes.class
+│  Comment: 
+│  
+│  Filename: tech/picnic/errorprone/refasterrules/AssertJObjectRules$AssertThatHasToString.class
+│  Comment: 
+│  
+│  Filename: tech/picnic/errorprone/refasterrules/AssertJObjectRules$AssertThatHasToString.refaster
+├── tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsEvenRecipe$1.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -270,18 +270,18 @@
+│ │          47: ldc           #39                 // String after
+│ │          49: invokedynamic #41,  0             // InvokeDynamic #2:accept:()Lorg/openrewrite/java/template/function/Expr1;
+│ │          54: invokestatic  #19                 // Method org/openrewrite/java/template/Semantics.expression:(Lorg/openrewrite/java/JavaVisitor;Ljava/lang/String;Lorg/openrewrite/java/template/function/Expr1;)Lorg/openrewrite/java/JavaTemplate$Builder;
+│ │          57: invokevirtual #25                 // Method org/openrewrite/java/JavaTemplate$Builder.build:()Lorg/openrewrite/java/JavaTemplate;
+│ │          60: putfield      #42                 // Field after:Lorg/openrewrite/java/JavaTemplate;
+│ │          63: return
+│ │        LineNumberTable:
+│ │ -        line 78: 0
+│ │ -        line 79: 9
+│ │ -        line 80: 27
+│ │ -        line 81: 45
+│ │ +        line 152: 0
+│ │ +        line 153: 9
+│ │ +        line 154: 27
+│ │ +        line 155: 45
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      64     0  this   Ltech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsEvenRecipe$1;
+│ │              0      64     1 this$0   Ltech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsEvenRecipe;
+│ │      MethodParameters:
+│ │        Name                           Flags
+│ │        this$0                         final mandated
+│ │ @@ -373,27 +373,27 @@
+│ │         149: areturn
+│ │         150: aload_0
+│ │         151: aload_1
+│ │         152: aload_2
+│ │         153: invokespecial #100                // Method org/openrewrite/java/template/internal/AbstractRefasterJavaVisitor.visitMethodInvocation:(Lorg/openrewrite/java/tree/J$MethodInvocation;Ljava/lang/Object;)Lorg/openrewrite/java/tree/J;
+│ │         156: areturn
+│ │        LineNumberTable:
+│ │ -        line 86: 0
+│ │ -        line 87: 19
+│ │ -        line 88: 25
+│ │ -        line 89: 31
+│ │ -        line 90: 57
+│ │ -        line 88: 71
+│ │ -        line 95: 75
+│ │ -        line 96: 94
+│ │ -        line 97: 100
+│ │ -        line 98: 106
+│ │ -        line 99: 132
+│ │ -        line 97: 146
+│ │ -        line 104: 150
+│ │ +        line 160: 0
+│ │ +        line 161: 19
+│ │ +        line 162: 25
+│ │ +        line 163: 31
+│ │ +        line 164: 57
+│ │ +        line 162: 71
+│ │ +        line 169: 75
+│ │ +        line 170: 94
+│ │ +        line 171: 100
+│ │ +        line 172: 106
+│ │ +        line 173: 132
+│ │ +        line 171: 146
+│ │ +        line 178: 150
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0     157     0  this   Ltech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsEvenRecipe$1;
+│ │              0     157     1  elem   Lorg/openrewrite/java/tree/J$MethodInvocation;
+│ │              0     157     2   ctx   Lorg/openrewrite/ExecutionContext;
+│ │             13     144     3 matcher   Lorg/openrewrite/java/JavaTemplate$Matcher;
+│ │        StackMapTable: number_of_entries = 2
+│ │ @@ -415,15 +415,15 @@
+│ │           0: aload_0
+│ │           1: aload_1
+│ │           2: aload_2
+│ │           3: checkcast     #104                // class org/openrewrite/ExecutionContext
+│ │           6: invokevirtual #106                // Method visitMethodInvocation:(Lorg/openrewrite/java/tree/J$MethodInvocation;Lorg/openrewrite/ExecutionContext;)Lorg/openrewrite/java/tree/J;
+│ │           9: areturn
+│ │        LineNumberTable:
+│ │ -        line 78: 0
+│ │ +        line 152: 0
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      10     0  this   Ltech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsEvenRecipe$1;
+│ │      MethodParameters:
+│ │        Name                           Flags
+│ │        elem                           synthetic
+│ │        ctx                            synthetic
+│ │ @@ -434,15 +434,15 @@
+│ │      Code:
+│ │        stack=1, locals=1, args_size=1
+│ │           0: aload_0
+│ │           1: invokestatic  #109                // Method org/assertj/core/api/Assertions.assertThat:(Ljava/lang/Long;)Lorg/assertj/core/api/AbstractLongAssert;
+│ │           4: invokevirtual #115                // Method org/assertj/core/api/AbstractLongAssert.isEven:()Lorg/assertj/core/api/AbstractLongAssert;
+│ │           7: areturn
+│ │        LineNumberTable:
+│ │ -        line 81: 0
+│ │ +        line 155: 0
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0       8     0 number   Ljava/lang/Long;
+│ │      Exceptions:
+│ │        throws java.lang.Exception
+│ │  
+│ │    private static java.lang.Object lambda$$1(java.lang.Long) throws java.lang.Exception;
+│ │ @@ -455,15 +455,15 @@
+│ │           4: ldc2_w        #127                // long 2l
+│ │           7: lrem
+│ │           8: invokestatic  #129                // Method org/assertj/core/api/Assertions.assertThat:(J)Lorg/assertj/core/api/AbstractLongAssert;
+│ │          11: lconst_0
+│ │          12: invokevirtual #132                // Method org/assertj/core/api/AbstractLongAssert.isEqualTo:(J)Lorg/assertj/core/api/AbstractLongAssert;
+│ │          15: areturn
+│ │        LineNumberTable:
+│ │ -        line 80: 0
+│ │ +        line 154: 0
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      16     0 number   Ljava/lang/Long;
+│ │      Exceptions:
+│ │        throws java.lang.Exception
+│ │  
+│ │    private static java.lang.Object lambda$$0(java.lang.Integer) throws java.lang.Exception;
+│ │ @@ -476,15 +476,15 @@
+│ │           4: iconst_2
+│ │           5: irem
+│ │           6: invokestatic  #141                // Method org/assertj/core/api/Assertions.assertThat:(I)Lorg/assertj/core/api/AbstractIntegerAssert;
+│ │           9: iconst_0
+│ │          10: invokevirtual #144                // Method org/assertj/core/api/AbstractIntegerAssert.isEqualTo:(I)Lorg/assertj/core/api/AbstractIntegerAssert;
+│ │          13: areturn
+│ │        LineNumberTable:
+│ │ -        line 79: 0
+│ │ +        line 153: 0
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      14     0 number   Ljava/lang/Integer;
+│ │      Exceptions:
+│ │        throws java.lang.Exception
+│ │  }
+│ │  SourceFile: "AssertJNumberRulesRecipes.java"
+├── tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsEvenRecipe.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -96,41 +96,41 @@
+│ │      flags: (0x0001) ACC_PUBLIC
+│ │      Code:
+│ │        stack=1, locals=1, args_size=1
+│ │           0: aload_0
+│ │           1: invokespecial #1                  // Method org/openrewrite/Recipe."<init>":()V
+│ │           4: return
+│ │        LineNumberTable:
+│ │ -        line 64: 0
+│ │ +        line 138: 0
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0       5     0  this   Ltech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsEvenRecipe;
+│ │  
+│ │    public java.lang.String getDisplayName();
+│ │      descriptor: ()Ljava/lang/String;
+│ │      flags: (0x0001) ACC_PUBLIC
+│ │      Code:
+│ │        stack=1, locals=1, args_size=1
+│ │           0: ldc           #7                  // String Prefer `AbstractLongAssert#isEven()` (and similar methods for other `NumberAssert` subtypes) over alternatives with less informative error messages
+│ │           2: areturn
+│ │        LineNumberTable:
+│ │ -        line 68: 0
+│ │ +        line 142: 0
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0       3     0  this   Ltech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsEvenRecipe;
+│ │  
+│ │    public java.lang.String getDescription();
+│ │      descriptor: ()Ljava/lang/String;
+│ │      flags: (0x0001) ACC_PUBLIC
+│ │      Code:
+│ │        stack=1, locals=1, args_size=1
+│ │           0: ldc           #9                  // String <p>Note that `org.assertj.core.api.AbstractCharacterAssert` does not implement `NumberAssert` and does not provide an `isEven` test.
+│ │           2: areturn
+│ │        LineNumberTable:
+│ │ -        line 73: 0
+│ │ +        line 147: 0
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0       3     0  this   Ltech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsEvenRecipe;
+│ │  
+│ │    public org.openrewrite.TreeVisitor<?, org.openrewrite.ExecutionContext> getVisitor();
+│ │      descriptor: ()Lorg/openrewrite/TreeVisitor;
+│ │      flags: (0x0001) ACC_PUBLIC
+│ │ @@ -201,23 +201,23 @@
+│ │         107: invokestatic  #50                 // Method org/openrewrite/Preconditions.or:([Lorg/openrewrite/TreeVisitor;)Lorg/openrewrite/TreeVisitor;
+│ │         110: aastore
+│ │         111: invokestatic  #40                 // Method org/openrewrite/Preconditions.and:([Lorg/openrewrite/TreeVisitor;)Lorg/openrewrite/TreeVisitor;
+│ │         114: aload_1
+│ │         115: invokestatic  #53                 // Method org/openrewrite/Preconditions.check:(Lorg/openrewrite/TreeVisitor;Lorg/openrewrite/TreeVisitor;)Lorg/openrewrite/TreeVisitor;
+│ │         118: areturn
+│ │        LineNumberTable:
+│ │ -        line 78: 0
+│ │ -        line 108: 9
+│ │ -        line 113: 46
+│ │ -        line 112: 65
+│ │ -        line 117: 84
+│ │ -        line 116: 103
+│ │ -        line 111: 107
+│ │ -        line 109: 111
+│ │ -        line 108: 115
+│ │ +        line 152: 0
+│ │ +        line 182: 9
+│ │ +        line 187: 46
+│ │ +        line 186: 65
+│ │ +        line 191: 84
+│ │ +        line 190: 103
+│ │ +        line 185: 107
+│ │ +        line 183: 111
+│ │ +        line 182: 115
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0     119     0  this   Ltech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes$AssertThatIsEvenRecipe;
+│ │              9     110     1 javaVisitor   Lorg/openrewrite/java/JavaVisitor;
+│ │        LocalVariableTypeTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              9     110     1 javaVisitor   Lorg/openrewrite/java/JavaVisitor<Lorg/openrewrite/ExecutionContext;>;
+├── tech/picnic/errorprone/refasterrules/AssertJNumberRulesRecipes.class
+│ ├── procyon -ec {}
+│ │ @@ -12,10 +12,10 @@
+│ │      }
+│ │      
+│ │      public String getDescription() {
+│ │          return "Refaster template recipes for `tech.picnic.errorprone.refasterrules.AssertJNumberRules`.";
+│ │      }
+│ │      
+│ │      public List<Recipe> getRecipeList() {
+│ │ -        return Arrays.asList((Recipe)new AssertJNumberRulesRecipes.AssertThatIsEvenRecipe());
+│ │ +        return Arrays.asList((Recipe)new AssertJNumberRulesRecipes.AssertThatIsOddRecipe(), (Recipe)new AssertJNumberRulesRecipes.AssertThatIsEvenRecipe());
+│ │      }
+│ │  }
+
