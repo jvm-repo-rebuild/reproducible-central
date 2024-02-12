@@ -14,4 +14,4 @@ command="./gradlew clean assemble -x test -x signMavenPublication --no-daemon --
 buildinfo=${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/junit-team/junit5/issues/3690
