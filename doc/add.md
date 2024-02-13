@@ -4,9 +4,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240212105505 --> [org.apache.sling.testing.clients](../content/org/apache/sling/org.apache.sling.testing.clients/README.md) | [3.0.22](../content/org/apache/sling/org.apache.sling.testing.clients/org.apache.sling.testing.clients-3.0.22.buildspec) :heavy_check_mark: | [3.0.24](../content/org/apache/sling/org.apache.sling.testing.clients/org.apache.sling.testing.clients-3.0.24.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.testing.clients/org.apache.sling.testing.clients-3.0.22.buildspec 3.0.24` |
+| <!-- 20240213081100 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | [303](../content/org/alluxio/alluxio/alluxio-303.buildspec) :heavy_check_mark: | [309](../content/org/alluxio/alluxio/alluxio-309.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-303.buildspec 309` |
 | <!-- 20240211012927 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.2](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec) :heavy_check_mark: | [10.4.3-beta-19](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.3-beta-19.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec 10.4.3-beta-19` |
-| <!-- 20240201221553 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | [303](../content/org/alluxio/alluxio/alluxio-303.buildspec) :heavy_check_mark: | [308](../content/org/alluxio/alluxio/alluxio-308.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-303.buildspec 308` |
 | <!-- 20231205162118 --> [hsac-fitnesse-pdf](../content/nl/hsac/hsac-fitnesse-pdf/README.md) | [0.1.3](../content/nl/hsac/hsac-fitnesse-pdf/hsac-fitnesse-pdf-0.1.3.buildspec) :heavy_check_mark: | [0.1.4](../content/nl/hsac/hsac-fitnesse-pdf/hsac-fitnesse-pdf-0.1.4.buildspec) | `bin/add-new-release.sh content/nl/hsac/hsac-fitnesse-pdf/hsac-fitnesse-pdf-0.1.3.buildspec 0.1.4` |
 | <!-- 20231119190519 --> [sentry-maven-skin](../content/org/sentrysoftware/maven/sentry-maven-skin/README.md) | [6.1.00](../content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.1.00.buildspec) :heavy_check_mark: | [6.2.00](../content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.2.00.buildspec) | `bin/add-new-release.sh content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.1.00.buildspec 6.2.00` |
 | <!-- 20231110095945 --> [orc](../content/org/apache/orc/README.md) | [1.9.1](../content/org/apache/orc/orc-1.9.1.buildspec) :heavy_check_mark: | [1.9.2](../content/org/apache/orc/orc-1.9.2.buildspec) | `bin/add-new-release.sh content/org/apache/orc/orc-1.9.1.buildspec 1.9.2` |
@@ -55,13 +54,13 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20240213173422 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | 12.0.6 :warning: [:memo:](https://github.com/jetty/jetty.project/pull/11360) |
 | <!-- 20240211134108 --> [error-prone-support](../content/tech/picnic/error-prone-support/error-prone-support/README.md) | 0.15.0 :warning: |
 | <!-- 20240208054445 --> [jackrabbit-parent](../content/org/apache/jackrabbit/jackrabbit/README.md) | 2.21.23 :warning: |
 | <!-- 20240205214001 --> [slf4j-parent](../content/org/slf4j/README.md) | 2.1.0-alpha1 :warning: |
 | <!-- 20240205085330 --> [pulsar](../content/org/apache/pulsar/README.md) | 3.2.0 :warning: |
 | <!-- 20240204084447 --> [junit-bom](../content/org/junit/junit5/README.md) | 5.10.2 :warning: [:memo:](https://github.com/junit-team/junit5/issues/3690) |
 | <!-- 20240202113522 --> [units-catalog](../content/com/cognite/units/units-catalog/README.md) | 0.1.5 :warning: [:memo:](https://github.com/cognitedata/units-catalog/pull/43) |
-| <!-- 20240131134637 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | 12.0.6 :warning: [:memo:](https://github.com/jetty/jetty.project/pull/11360) |
 | <!-- 20240127121230 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 2.11.0 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-resolver/pull/39) |
 | <!-- 20240127121220 --> [org.apache.sling.rewriter](../content/org/apache/sling/org.apache.sling.rewriter/README.md) | 1.3.10 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-rewriter/pull/13) |
 | <!-- 20240126192007 --> [io.wcm.handler.richtext](../content/io/wcm/io.wcm.handler/richtext/README.md) | 2.0.0 :warning: |

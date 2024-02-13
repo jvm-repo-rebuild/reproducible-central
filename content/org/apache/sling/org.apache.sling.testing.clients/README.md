@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-testing-clients.git](https://github.com/apache/sling-org-apache-sling-testing-clients.git)
 
-rebuilding **9 releases** of org.apache.sling:org.apache.sling.testing.clients:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **10 releases** of org.apache.sling:org.apache.sling.testing.clients:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.0.24](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.clients/3.0.24/pom) | | | |
+| [3.0.24](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.clients/3.0.24/pom) | [mvn jdk11](org.apache.sling.testing.clients-3.0.24.buildspec) | [result](org.apache.sling.testing.clients-3.0.24.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.clients-3.0.24.buildcompare) | 469K |
 | [3.0.22](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.clients/3.0.22/pom) | [mvn jdk20](org.apache.sling.testing.clients-3.0.22.buildspec) | [result](org.apache.sling.testing.clients-3.0.22.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.clients-3.0.22.buildcompare) | 470K |
 | [3.0.20](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.clients/3.0.20/pom) | [mvn jdk11](org.apache.sling.testing.clients-3.0.20.buildspec) | [result](org.apache.sling.testing.clients-3.0.20.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.clients-3.0.20.buildcompare) | 589K |
 | [3.0.18](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.clients/3.0.18/pom) | [mvn jdk11](org.apache.sling.testing.clients-3.0.18.buildspec) | [result](org.apache.sling.testing.clients-3.0.18.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.clients-3.0.18.buildcompare) | 586K |
