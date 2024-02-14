@@ -74,6 +74,7 @@ rebuilding **9 releases** of org.apache.jena:jena:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [5.0.0-rc1](https://central.sonatype.com/artifact/org.apache.jena/jena/5.0.0-rc1/pom) | | | |
 | [4.10.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.10.0/pom) | | | |
 | [4.9.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.9.0/pom) | | | |
 | [4.8.0](https://central.sonatype.com/artifact/org.apache.jena/jena/4.8.0/pom) | | | |
