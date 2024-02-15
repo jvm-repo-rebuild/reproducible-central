@@ -3,8 +3,8 @@
   <groupId>io.cucumber</groupId>
   <artifactId>gherkin</artifactId>
   <versioning>
-    <latest>27.0.0</latest>
-    <release>27.0.0</release>
+    <latest>28.0.0</latest>
+    <release>28.0.0</release>
     <versions>
       <version>3.2.0</version>
       <version>4.0.0</version>
@@ -74,7 +74,8 @@
       <version>26.1.0</version>
       <version>26.2.0</version>
       <version>27.0.0</version>
+      <version>28.0.0</version>
     </versions>
-    <lastUpdated>20230915134836</lastUpdated>
+    <lastUpdated>20240215202732</lastUpdated>
   </versioning>
 </metadata>

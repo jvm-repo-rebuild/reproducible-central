@@ -13,6 +13,7 @@ rebuilding **2 releases** of io.cucumber:junit-xml-formatter:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.2.1](https://central.sonatype.com/artifact/io.cucumber/junit-xml-formatter/0.2.1/pom) | | | |
 | [0.2.0](https://central.sonatype.com/artifact/io.cucumber/junit-xml-formatter/0.2.0/pom) | [mvn jdk11](junit-xml-formatter-0.2.0.buildspec) | [result](junit-xml-formatter-0.2.0.buildinfo): [3 :heavy_check_mark: ](junit-xml-formatter-0.2.0.buildcompare) | 29K |
 | [0.1.0](https://central.sonatype.com/artifact/io.cucumber/junit-xml-formatter/0.1.0/pom) | [mvn jdk11](junit-xml-formatter-0.1.0.buildspec) | [result](junit-xml-formatter-0.1.0.buildinfo): [3 :heavy_check_mark: ](junit-xml-formatter-0.1.0.buildcompare) | 29K |
 
