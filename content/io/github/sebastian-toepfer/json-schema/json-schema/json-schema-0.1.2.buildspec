@@ -1,0 +1,28 @@
+# see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/doc/BUILDSPEC.md
+#                  https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/doc/BUILDSPEC.md
+
+# Central Repository coordinates for the Reference release (for multi-module, pick an arbitrary module)
+groupId=io.github.sebastian-toepfer.json-schema
+artifactId=json-schema
+version=0.1.2
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=https://github.com/sebastian-toepfer/${artifactId}.git
+gitTag=${version}
+
+# Rebuild environment prerequisites
+tool=mvn-3.8.5
+jdk=17
+newline=lf
+
+# Rebuild command
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+# Location of the buildinfo file generated during rebuild to record output fingerprints
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+# if the release is finally not reproducible, link to an issue tracker entry if one was created or diffoscope result
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=

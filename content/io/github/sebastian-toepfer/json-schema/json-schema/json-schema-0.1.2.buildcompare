@@ -1,0 +1,9 @@
+version=0.1.2
+ok=15
+ko=0
+ignored=0
+okFiles="json-schema-0.1.2.pom json-schema-0.1.2-cyclonedx.xml json-schema-0.1.2-cyclonedx.json json-schema-api-0.1.2.pom json-schema-api-0.1.2.jar json-schema-api-0.1.2-cyclonedx.xml json-schema-api-0.1.2-cyclonedx.json json-schema-vocabulary-spi-0.1.2.pom json-schema-vocabulary-spi-0.1.2.jar json-schema-vocabulary-spi-0.1.2-cyclonedx.xml json-schema-vocabulary-spi-0.1.2-cyclonedx.json json-schema-core-0.1.2.pom json-schema-core-0.1.2.jar json-schema-core-0.1.2-cyclonedx.xml json-schema-core-0.1.2-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
