@@ -13,6 +13,7 @@ rebuilding **2 releases** of eu.europa.ted.eforms:efx-toolkit-java:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0-alpha.3](https://central.sonatype.com/artifact/eu.europa.ted.eforms/efx-toolkit-java/2.0.0-alpha.3/pom) | | | |
 | [2.0.0-alpha.2](https://central.sonatype.com/artifact/eu.europa.ted.eforms/efx-toolkit-java/2.0.0-alpha.2/pom) | [mvn jdk11](efx-toolkit-java-2.0.0-alpha.2.buildspec) | [result](efx-toolkit-java-2.0.0-alpha.2.buildinfo): [2 :heavy_check_mark:  1 :warning:](efx-toolkit-java-2.0.0-alpha.2.buildcompare) [:mag:](efx-toolkit-java-2.0.0-alpha.2.diffoscope) | 1.1M |
 | [2.0.0-alpha.1](https://central.sonatype.com/artifact/eu.europa.ted.eforms/efx-toolkit-java/2.0.0-alpha.1/pom) | [mvn jdk11](efx-toolkit-java-2.0.0-alpha.1.buildspec) | [result](efx-toolkit-java-2.0.0-alpha.1.buildinfo): [1 :heavy_check_mark:  2 :warning:](efx-toolkit-java-2.0.0-alpha.1.buildcompare) [:mag:](efx-toolkit-java-2.0.0-alpha.1.diffoscope) | 1.3M |
 
