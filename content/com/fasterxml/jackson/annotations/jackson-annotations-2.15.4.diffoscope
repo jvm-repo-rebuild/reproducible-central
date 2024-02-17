@@ -1,0 +1,76 @@
+1 / 2 target/reference/com.fasterxml.jackson.core/jackson-annotations-2.15.4.jar target/jackson-annotations-2.15.4.jar
+--- target/reference/com.fasterxml.jackson.core/jackson-annotations-2.15.4.jar
++++ target/jackson-annotations-2.15.4.jar
+├── zipinfo {}
+│ @@ -80,9 +80,9 @@
+│  -rw----     2.0 fat      688 bx defN 24-Feb-16 00:58 com/fasterxml/jackson/annotation/ObjectIdResolver.class
+│  -rw----     2.0 fat     1870 bx defN 24-Feb-16 00:58 com/fasterxml/jackson/annotation/OptBoolean.class
+│  -rw----     2.0 fat     1930 bx defN 24-Feb-16 00:58 com/fasterxml/jackson/annotation/PropertyAccessor.class
+│  -rw----     2.0 fat     2396 bx defN 24-Feb-16 00:58 com/fasterxml/jackson/annotation/SimpleObjectIdResolver.class
+│  -rw----     2.0 fat      138 bx defN 24-Feb-16 00:58 com/fasterxml/jackson/annotation/package-info.class
+│  -rw----     2.0 fat     7058 bx defN 24-Feb-16 00:58 META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml
+│  -rw----     2.0 fat       81 bx defN 24-Feb-16 00:58 META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.properties
+│ --rw----     2.0 fat      190 bx defN 24-Feb-15 16:59 module-info.class
+│ +-rw----     2.0 fat      190 bx defN 24-Feb-17 17:42 module-info.class
+│  86 files, 140007 bytes uncompressed, 59346 bytes compressed:  57.6%
+
+2 / 2 target/reference/com.fasterxml.jackson.core/jackson-annotations-2.15.4.module target/publications/maven/module.json
+--- target/reference/com.fasterxml.jackson.core/jackson-annotations-2.15.4.module
++++ target/publications/maven/module.json
+├── Pretty-printed
+│┄ Similarity: 0.9955357142857143%
+│┄ Differences: {"'variants'": "{0: {'files': {0: {'sha512': "
+│┄                "'1d56ad4172e2af0567ef87a5e6202e20d0c7c7522c5f5647a13222b4a882ff6257d700523fe0a6a66964063f328f760dbd1357ba74cf5d071db134c1ff81f672', "
+│┄                "'sha256': '924dd6b565bb2caae33568331dc064cd604a3b3eb9bd026dabdb75cad0eb0dfc', "
+│┄                "'sha1': '2b5a525dd570cfc9aa60ac92b705f6212a873714', 'md5': "
+│┄                "'f84406cbcbd9e505df65e79e63d9b634'}}}, 1: {'files': {0: {'sha512': "
+│┄                "'1d56ad4172e2af0567ef87a5e6202e20d0c7c752 […]
+│ @@ -32,19 +32,19 @@
+│                      "version": {
+│                          "requires": "2.15.4"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "46ca5a02c1ec283236770c7e7714969a",
+│ +                    "md5": "f84406cbcbd9e505df65e79e63d9b634",
+│                      "name": "jackson-annotations-2.15.4.jar",
+│ -                    "sha1": "5223ea5a9bf52cdc9c5e537a0e52f2432eaf208b",
+│ -                    "sha256": "f204ebbd552614a22b8531ffe350d47f8fd42c45bb60517c07974dc27a5a1dd3",
+│ -                    "sha512": "6c485088024d028975c36f12740de5e70dcf2ac0f1943aad9ad7179e25436c9a433cd1ed2a8f8893e95ed7c18d74743a0a2281c8b2677c5c5b8d189ac96ae89",
+│ +                    "sha1": "2b5a525dd570cfc9aa60ac92b705f6212a873714",
+│ +                    "sha256": "924dd6b565bb2caae33568331dc064cd604a3b3eb9bd026dabdb75cad0eb0dfc",
+│ +                    "sha512": "1d56ad4172e2af0567ef87a5e6202e20d0c7c7522c5f5647a13222b4a882ff6257d700523fe0a6a66964063f328f760dbd1357ba74cf5d071db134c1ff81f672",
+│                      "size": 75569,
+│                      "url": "jackson-annotations-2.15.4.jar"
+│                  }
+│              ],
+│              "name": "apiElements"
+│          },
+│          {
+│ @@ -65,19 +65,19 @@
+│                      "version": {
+│                          "requires": "2.15.4"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "46ca5a02c1ec283236770c7e7714969a",
+│ +                    "md5": "f84406cbcbd9e505df65e79e63d9b634",
+│                      "name": "jackson-annotations-2.15.4.jar",
+│ -                    "sha1": "5223ea5a9bf52cdc9c5e537a0e52f2432eaf208b",
+│ -                    "sha256": "f204ebbd552614a22b8531ffe350d47f8fd42c45bb60517c07974dc27a5a1dd3",
+│ -                    "sha512": "6c485088024d028975c36f12740de5e70dcf2ac0f1943aad9ad7179e25436c9a433cd1ed2a8f8893e95ed7c18d74743a0a2281c8b2677c5c5b8d189ac96ae89",
+│ +                    "sha1": "2b5a525dd570cfc9aa60ac92b705f6212a873714",
+│ +                    "sha256": "924dd6b565bb2caae33568331dc064cd604a3b3eb9bd026dabdb75cad0eb0dfc",
+│ +                    "sha512": "1d56ad4172e2af0567ef87a5e6202e20d0c7c7522c5f5647a13222b4a882ff6257d700523fe0a6a66964063f328f760dbd1357ba74cf5d071db134c1ff81f672",
+│                      "size": 75569,
+│                      "url": "jackson-annotations-2.15.4.jar"
+│                  }
+│              ],
+│              "name": "runtimeElements"
+│          }
+│      ]
+
