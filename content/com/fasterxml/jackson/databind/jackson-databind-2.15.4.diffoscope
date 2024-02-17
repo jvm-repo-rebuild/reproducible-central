@@ -1,0 +1,128 @@
+1 / 2 target/reference/com.fasterxml.jackson.core/jackson-databind-2.15.4.jar target/jackson-databind-2.15.4.jar
+--- target/reference/com.fasterxml.jackson.core/jackson-databind-2.15.4.jar
++++ target/jackson-databind-2.15.4.jar
+│┄ Format-specific differences are supported for ZIP archives but no file-specific differences were detected; falling back to a binary diff. file(1) reports: Zip archive data, at least v1.0 to extract, compression method=store
+│┄ Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.
+@@ -95048,25 +95048,25 @@
+ 00173470: ce2e cecf d34d 492c 494c cacc 4be1 4a2f  .....MI,IL..K.J/
+ 00173480: ca2f 2d00 4a24 e7e7 eaa5 2516 97a4 1655  ./-.J$....%....U
+ 00173490: e4e6 e841 95e9 25e7 17a5 7295 a516 1567  ...A..%...r....g
+ 001734a0: e6e7 d91a e919 9aea 9970 0100 504b 0304  .........p..PK..
+ 001734b0: 0a00 0000 0000 4b4c 4f58 0000 0000 0000  ......KLOX......
+ 001734c0: 0000 0000 0000 1200 1100 4d45 5441 2d49  ..........META-I
+ 001734d0: 4e46 2f76 6572 7369 6f6e 732f 5554 0d00  NF/versions/UT..
+-001734e0: 071e 4bce 6548 4bce 6548 4bce 6550 4b03  ..K.eHK.eHK.ePK.
++001734e0: 071e 4bce 659a f0d0 659a f0d0 6550 4b03  ..K.e...e...ePK.
+ 001734f0: 040a 0000 0000 004b 4c4f 5800 0000 0000  .......KLOX.....
+ 00173500: 0000 0000 0000 0014 0011 004d 4554 412d  ...........META-
+ 00173510: 494e 462f 7665 7273 696f 6e73 2f39 2f55  INF/versions/9/U
+-00173520: 540d 0007 1e4b ce65 484b ce65 484b ce65  T....K.eHK.eHK.e
++00173520: 540d 0007 1e4b ce65 9af0 d065 9af0 d065  T....K.e...e...e
+ 00173530: 504b 0304 1400 0008 0800 4b4c 4f58 1ef2  PK........KLOX..
+ 00173540: 4f88 db01 0000 c005 0000 2500 1100 4d45  O.........%...ME
+ 00173550: 5441 2d49 4e46 2f76 6572 7369 6f6e 732f  TA-INF/versions/
+ 00173560: 392f 6d6f 6475 6c65 2d69 6e66 6f2e 636c  9/module-info.cl
+-00173570: 6173 7355 540d 0007 1e4b ce65 484b ce65  assUT....K.eHK.e
+-00173580: 484b ce65 8d94 cb52 d440 1486 ffe3 6502  HK.e...R.@....e.
++00173570: 6173 7355 540d 0007 1e4b ce65 9af0 d065  assUT....K.e...e
++00173580: 9af0 d065 8d94 cb52 d440 1486 ffe3 6502  ...e...R.@....e.
+ 00173590: 828a a6bd a1e2 7007 81c4 41c6 bb82 52c5  ......p...A...R.
+ 001735a0: 8e72 e7be 27c9 6886 493a a61b 0b77 3c17  .r..'.h.I:...w<.
+ 001735b0: 0b1f c087 b2ec 9c30 b041 3ba9 ca57 d5c9  .......0.A;..W..
+ 001735c0: 7792 bfaf bfff 9cfc 02d0 c52e 6122 53f1  w...........a"S.
+ 001735d0: e130 d948 f3be f240 8499 4865 415f 6a93  .0.H...@..HeA_j.
+ 001735e0: 9447 d930 18c8 e840 ab3c 88a5 91bd 348f  .G.0...@.<....4.
+ 001735f0: 7d5c 26b4 3683 4e37 d822 4c0e e40f 19c4  }\&.6.N7."L.....
+│   --- target/reference/com.fasterxml.jackson.core/jackson-databind-2.15.4.jar
+├── +++ target/jackson-databind-2.15.4.jar
+│ @@ -95048,25 +95048,25 @@
+│  00173470: ce2e cecf d34d 492c 494c cacc 4be1 4a2f  .....MI,IL..K.J/
+│  00173480: ca2f 2d00 4a24 e7e7 eaa5 2516 97a4 1655  ./-.J$....%....U
+│  00173490: e4e6 e841 95e9 25e7 17a5 7295 a516 1567  ...A..%...r....g
+│  001734a0: e6e7 d91a e919 9aea 9970 0100 504b 0304  .........p..PK..
+│  001734b0: 0a00 0000 0000 4b4c 4f58 0000 0000 0000  ......KLOX......
+│  001734c0: 0000 0000 0000 1200 1100 4d45 5441 2d49  ..........META-I
+│  001734d0: 4e46 2f76 6572 7369 6f6e 732f 5554 0d00  NF/versions/UT..
+│ -001734e0: 071e 4bce 6548 4bce 6548 4bce 6550 4b03  ..K.eHK.eHK.ePK.
+│ +001734e0: 071e 4bce 659a f0d0 659a f0d0 6550 4b03  ..K.e...e...ePK.
+│  001734f0: 040a 0000 0000 004b 4c4f 5800 0000 0000  .......KLOX.....
+│  00173500: 0000 0000 0000 0014 0011 004d 4554 412d  ...........META-
+│  00173510: 494e 462f 7665 7273 696f 6e73 2f39 2f55  INF/versions/9/U
+│ -00173520: 540d 0007 1e4b ce65 484b ce65 484b ce65  T....K.eHK.eHK.e
+│ +00173520: 540d 0007 1e4b ce65 9af0 d065 9af0 d065  T....K.e...e...e
+│  00173530: 504b 0304 1400 0008 0800 4b4c 4f58 1ef2  PK........KLOX..
+│  00173540: 4f88 db01 0000 c005 0000 2500 1100 4d45  O.........%...ME
+│  00173550: 5441 2d49 4e46 2f76 6572 7369 6f6e 732f  TA-INF/versions/
+│  00173560: 392f 6d6f 6475 6c65 2d69 6e66 6f2e 636c  9/module-info.cl
+│ -00173570: 6173 7355 540d 0007 1e4b ce65 484b ce65  assUT....K.eHK.e
+│ -00173580: 484b ce65 8d94 cb52 d440 1486 ffe3 6502  HK.e...R.@....e.
+│ +00173570: 6173 7355 540d 0007 1e4b ce65 9af0 d065  assUT....K.e...e
+│ +00173580: 9af0 d065 8d94 cb52 d440 1486 ffe3 6502  ...e...R.@....e.
+│  00173590: 828a a6bd a1e2 7007 81c4 41c6 bb82 52c5  ......p...A...R.
+│  001735a0: 8e72 e7be 27c9 6886 493a a61b 0b77 3c17  .r..'.h.I:...w<.
+│  001735b0: 0b1f c087 b2ec 9c30 b041 3ba9 ca57 d5c9  .......0.A;..W..
+│  001735c0: 7792 bfaf bfff 9cfc 02d0 c52e 6122 53f1  w...........a"S.
+│  001735d0: e130 d948 f3be f240 8499 4865 415f 6a93  .0.H...@..HeA_j.
+│  001735e0: 9447 d930 18c8 e840 ab3c 88a5 91bd 348f  .G.0...@.<....4.
+│  001735f0: 7d5c 26b4 3683 4e37 d822 4c0e e40f 19c4  }\&.6.N7."L.....
+
+2 / 2 target/reference/com.fasterxml.jackson.core/jackson-databind-2.15.4.module target/publications/maven/module.json
+--- target/reference/com.fasterxml.jackson.core/jackson-databind-2.15.4.module
++++ target/publications/maven/module.json
+├── Pretty-printed
+│┄ Similarity: 0.9955357142857143%
+│┄ Differences: {"'variants'": "{0: {'files': {0: {'sha512': "
+│┄                "'26125f1b4b9957d1d22774c9e4b5d9269696664852b09773796fa255cfc868403cf207b75e10a059096e5b8b3e4603cf34b2fc5edf79e1d57da5814a3485079d', "
+│┄                "'sha256': 'fd2d64f03b33aa5a50f96866656db98dbe432b04b207ea961f62082eb3071b90', "
+│┄                "'sha1': 'e4c0c6755a95fab9520522ebb14b4fc334a5b6f7', 'md5': "
+│┄                "'ef7240c440751e51f0b229ef2cd5dbff'}}}, 1: {'files': {0: {'sha512': "
+│┄                "'26125f1b4b9957d1d22774c9e4b5d92696966648 […]
+│ @@ -46,19 +46,19 @@
+│                      "version": {
+│                          "requires": "2.15.4"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "9c7db53b35761e502bc9144008503ad3",
+│ +                    "md5": "ef7240c440751e51f0b229ef2cd5dbff",
+│                      "name": "jackson-databind-2.15.4.jar",
+│ -                    "sha1": "560309fc381f77d4d15c4a4cdaa0db5025c4fd13",
+│ -                    "sha256": "f99ff7719eef3ee85608b3dee6ecf3c698003fe9d6e34eabbfabccdc9b5ac2c",
+│ -                    "sha512": "3034623bccd5ed71263eddaab8b4205e71eb63c59769256b64ba87e9a7d4d3d6aa6ccce9facd3538c3e492d9aa00d4df4ab0eddfbe087ed79658672bf13b85f9",
+│ +                    "sha1": "e4c0c6755a95fab9520522ebb14b4fc334a5b6f7",
+│ +                    "sha256": "fd2d64f03b33aa5a50f96866656db98dbe432b04b207ea961f62082eb3071b90",
+│ +                    "sha512": "26125f1b4b9957d1d22774c9e4b5d9269696664852b09773796fa255cfc868403cf207b75e10a059096e5b8b3e4603cf34b2fc5edf79e1d57da5814a3485079d",
+│                      "size": 1620433,
+│                      "url": "jackson-databind-2.15.4.jar"
+│                  }
+│              ],
+│              "name": "apiElements"
+│          },
+│          {
+│ @@ -93,19 +93,19 @@
+│                      "version": {
+│                          "requires": "2.15.4"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "9c7db53b35761e502bc9144008503ad3",
+│ +                    "md5": "ef7240c440751e51f0b229ef2cd5dbff",
+│                      "name": "jackson-databind-2.15.4.jar",
+│ -                    "sha1": "560309fc381f77d4d15c4a4cdaa0db5025c4fd13",
+│ -                    "sha256": "f99ff7719eef3ee85608b3dee6ecf3c698003fe9d6e34eabbfabccdc9b5ac2c",
+│ -                    "sha512": "3034623bccd5ed71263eddaab8b4205e71eb63c59769256b64ba87e9a7d4d3d6aa6ccce9facd3538c3e492d9aa00d4df4ab0eddfbe087ed79658672bf13b85f9",
+│ +                    "sha1": "e4c0c6755a95fab9520522ebb14b4fc334a5b6f7",
+│ +                    "sha256": "fd2d64f03b33aa5a50f96866656db98dbe432b04b207ea961f62082eb3071b90",
+│ +                    "sha512": "26125f1b4b9957d1d22774c9e4b5d9269696664852b09773796fa255cfc868403cf207b75e10a059096e5b8b3e4603cf34b2fc5edf79e1d57da5814a3485079d",
+│                      "size": 1620433,
+│                      "url": "jackson-databind-2.15.4.jar"
+│                  }
+│              ],
+│              "name": "runtimeElements"
+│          }
+│      ]
+

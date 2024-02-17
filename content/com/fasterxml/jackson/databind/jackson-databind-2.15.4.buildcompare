@@ -1,0 +1,11 @@
+version=2.15.4
+ok=2
+ko=2
+ignored=0
+okFiles="jackson-databind-2.15.4.pom jackson-databind-2.15.4-sources.jar"
+koFiles="jackson-databind-2.15.4.jar jackson-databind-2.15.4.module"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.fasterxml.jackson.core/jackson-databind-2.15.4.jar target/jackson-databind-2.15.4.jar
+# diffoscope target/reference/com.fasterxml.jackson.core/jackson-databind-2.15.4.module target/publications/maven/module.json
