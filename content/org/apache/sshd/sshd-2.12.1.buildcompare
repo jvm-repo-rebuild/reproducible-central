@@ -1,0 +1,12 @@
+version=2.12.1
+ok=49
+ko=3
+ignored=0
+okFiles="sshd-2.12.1.pom sshd-common-2.12.1.pom sshd-common-2.12.1.jar sshd-common-2.12.1-sources.jar sshd-common-2.12.1-tests.jar sshd-putty-2.12.1.pom sshd-putty-2.12.1.jar sshd-putty-2.12.1-sources.jar sshd-openpgp-2.12.1.pom sshd-openpgp-2.12.1.jar sshd-openpgp-2.12.1-sources.jar sshd-core-2.12.1.pom sshd-core-2.12.1.jar sshd-core-2.12.1-sources.jar sshd-core-2.12.1-tests.jar sshd-mina-2.12.1.pom sshd-mina-2.12.1.jar sshd-mina-2.12.1-sources.jar sshd-netty-2.12.1.pom sshd-netty-2.12.1.jar sshd-netty-2.12.1-sources.jar sshd-scp-2.12.1.pom sshd-scp-2.12.1.jar sshd-scp-2.12.1-sources.jar sshd-sftp-2.12.1.pom sshd-sftp-2.12.1.jar sshd-sftp-2.12.1-sources.jar sshd-ldap-2.12.1.pom sshd-ldap-2.12.1.jar sshd-ldap-2.12.1-sources.jar sshd-git-2.12.1.pom sshd-git-2.12.1.jar sshd-git-2.12.1-sources.jar sshd-contrib-2.12.1.pom sshd-contrib-2.12.1.jar sshd-contrib-2.12.1-sources.jar sshd-spring-sftp-2.12.1.pom sshd-spring-sftp-2.12.1.jar sshd-spring-sftp-2.12.1-sources.jar sshd-cli-2.12.1.pom sshd-cli-2.12.1.jar sshd-cli-2.12.1-sources.jar sshd-osgi-2.12.1.pom sshd-osgi-2.12.1.jar apache-sshd-2.12.1.pom apache-sshd-2.12.1.tar.gz apache-sshd-2.12.1.zip apache-sshd-2.12.1-src.tar.gz apache-sshd-2.12.1-src.zip"
+koFiles="sshd-core-2.12.1-reusable-tests.jar sshd-osgi-2.12.1-sources.jar sshd-osgi-2.12.1-sources.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sshd/sshd-core-2.12.1-reusable-tests.jar sshd-core/target/sshd-core-2.12.1-reusable-reusable-tests.jar
+# diffoscope target/reference/org.apache.sshd/sshd-osgi-2.12.1-sources.jar sshd-osgi/target/sshd-osgi-2.12.1-sources.jar
+# diffoscope target/reference/org.apache.sshd/sshd-osgi-2.12.1-sources.jar sshd-osgi/target/sshd-osgi-2.12.1-sources.jar

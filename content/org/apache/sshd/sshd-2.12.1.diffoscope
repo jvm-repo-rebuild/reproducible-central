@@ -1,0 +1,67 @@
+1 / 3 target/reference/org.apache.sshd/sshd-core-2.12.1-reusable-tests.jar sshd-core/target/sshd-core-2.12.1-reusable-reusable-tests.jar
+--- target/reference/org.apache.sshd/sshd-core-2.12.1-reusable-tests.jar
++++ sshd-core/target/sshd-core-2.12.1-reusable-reusable-tests.jar
+│ @@ -279,15 +279,14 @@
+│  -rw-r--r--  2.0 unx     1210 b- defN 24-Feb-06 06:50 org/apache/sshd/client/simple/SimpleSessionClientTest$1.class
+│  -rw-r--r--  2.0 unx     8053 b- defN 24-Feb-06 06:50 org/apache/sshd/client/simple/SimpleSessionClientTest.class
+│ --rw-r--r--  2.0 unx     1856 b- defN 24-Feb-06 06:50 org/apache/sshd/client/userKey
+│  -rw-r--r--  2.0 unx     5935 b- defN 24-Feb-06 06:50 org/apache/sshd/common/AttributeStoreTest.class
+│  -rw-r--r--  2.0 unx    11205 b- defN 24-Feb-06 06:50 org/apache/sshd/common/PropertyResolverUtilsTest.class
+│ @@ -522,8 +521,8 @@
+├── zipnote «TEMP»/diffoscope_zhk5zb36_target/tmpjhplzg9__.zip
+│ @@ -846,17 +846,14 @@
+│  
+│  Filename: org/apache/sshd/client/simple/SimpleSessionClientTest$1.class
+│  Comment: 
+│  
+│  Filename: org/apache/sshd/client/simple/SimpleSessionClientTest.class
+│  Comment: 
+│  
+│ -Filename: org/apache/sshd/client/userKey
+│ -Comment: 
+│ -
+│  Filename: org/apache/sshd/common/AttributeStoreTest.class
+│  Comment: 
+│  
+│  Filename: org/apache/sshd/common/PropertyResolverUtilsTest.class
+│  Comment: 
+│  
+│  Filename: org/apache/sshd/common/SshBuilderTest.class
+
+2 / 3 target/reference/org.apache.sshd/sshd-osgi-2.12.1-sources.jar sshd-osgi/target/sshd-osgi-2.12.1-sources.jar
+--- target/reference/org.apache.sshd/sshd-osgi-2.12.1-sources.jar
++++ sshd-osgi/target/sshd-osgi-2.12.1-sources.jar
+├── zipinfo {}
+│ @@ -1,866 +1,866 @@
+│  Zip file size: 1393822 bytes, number of entries: 864
+│ -drwxr-xr-x  2.0 unx        0 bx stor 24-Feb-06 09:20 META-INF/
+│ --rw-r--r--  2.0 unx       91 b- defN 24-Feb-06 09:20 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-06 08:59 org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-06 08:59 org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-06 08:59 org/apache/sshd/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-06 08:59 org/apache/sshd/client/
+...
+│ --rw-r--r--  2.0 unx     1503 b- defN 24-Feb-06 08:59 org/apache/sshd/server/x11/X11ForwardSupport.java
+│ --rw-r--r--  2.0 unx     1129 b- defN 24-Feb-06 08:59 org/apache/sshd/server/x11/X11ForwardingExceptionMarker.java
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-06 09:20 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-06 09:20 META-INF/maven/org.apache.sshd/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-06 09:20 META-INF/maven/org.apache.sshd/sshd-osgi/
+│ --rw-r--r--  2.0 unx      109 b- defN 24-Feb-06 09:20 META-INF/maven/org.apache.sshd/sshd-osgi/pom.properties
+│ --rw-r--r--  2.0 unx     8997 b- defN 24-Feb-06 09:20 META-INF/maven/org.apache.sshd/sshd-osgi/pom.xml
+│ +drwxr-xr-x  2.0 unx        0 bx stor 24-Feb-17 16:59 META-INF/
+│ +-rw-r--r--  2.0 unx       91 b- defN 24-Feb-17 16:59 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-20 23:13 org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-20 23:13 org/apache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-20 23:13 org/apache/sshd/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-20 23:13 org/apache/sshd/client/
+...
+│ +-rw-r--r--  2.0 unx     1503 b- defN 24-Jan-20 23:13 org/apache/sshd/server/x11/X11ForwardSupport.java
+│ +-rw-r--r--  2.0 unx     1129 b- defN 24-Jan-20 23:13 org/apache/sshd/server/x11/X11ForwardingExceptionMarker.java
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-17 16:59 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-17 16:59 META-INF/maven/org.apache.sshd/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-17 16:59 META-INF/maven/org.apache.sshd/sshd-osgi/
+│ +-rw-r--r--  2.0 unx      109 b- defN 24-Feb-17 16:59 META-INF/maven/org.apache.sshd/sshd-osgi/pom.properties
+│ +-rw-r--r--  2.0 unx     8997 b- defN 24-Feb-17 16:59 META-INF/maven/org.apache.sshd/sshd-osgi/pom.xml
+│  864 files, 4180396 bytes uncompressed, 1234084 bytes compressed:  70.5%
+
+3 / 3 target/reference/org.apache.sshd/sshd-osgi-2.12.1-sources.jar sshd-osgi/target/sshd-osgi-2.12.1-sources.jar
