@@ -13,6 +13,7 @@ rebuilding **20 releases** of io.fabric8:docker-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.44.0](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.44.0/pom) | | | |
 | [0.43.4](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.43.4/pom) | [mvn jdk11](docker-maven-plugin-0.43.4.buildspec) | [result](docker-maven-plugin-0.43.4.buildinfo): [3 :heavy_check_mark: ](docker-maven-plugin-0.43.4.buildcompare) | 1.1M |
 | [0.43.3](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.43.3/pom) | [mvn jdk11](docker-maven-plugin-0.43.3.buildspec) | [result](docker-maven-plugin-0.43.3.buildinfo): [3 :heavy_check_mark: ](docker-maven-plugin-0.43.3.buildcompare) | 1.1M |
 | [0.43.2](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.43.2/pom) | [mvn jdk11](docker-maven-plugin-0.43.2.buildspec) | [result](docker-maven-plugin-0.43.2.buildinfo): [3 :heavy_check_mark: ](docker-maven-plugin-0.43.2.buildcompare) | 1.1M |
