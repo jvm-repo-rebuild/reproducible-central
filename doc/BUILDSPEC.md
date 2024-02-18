@@ -137,11 +137,3 @@ Maven up to 3.6.2 rewrite schema location in `http`, but starting with 3.6.3, th
 
 If non-reproducible generated content is in source files in comments (like often with timestamps), while waiting for the generator plugin to be improved to avoid the
 non-reproducible content, using `maven-replacer-plugin` may be a [quick workaround](../../../issues/84).
-
-### CycloneDX does not generate reproducible BOM
-
-The [cyclonedx-maven-plugin](https://github.com/CycloneDX/cyclonedx-maven-plugin) doesn't generate
-reproducible SBOM [by design](https://github.com/CycloneDX/cyclonedx-maven-plugin/issues/84).
-
-If you are using cyclonedx-maven-plugin on your project, you will need to add `-Dcyclonedx.skip` in
-you the build `command`.
