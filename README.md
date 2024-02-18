@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3209 releases** of **615 projects**:
-   - **2536** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **3213 releases** of **615 projects**:
+   - **2540** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 673 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 615 projects, 510 have at least one fully reproducible release, 105 have none
 
@@ -27,7 +27,7 @@ Its objectives are to provide:
 | ch.qos.logback | [logback-parent](content/ch/qos/logback/README.md) | 22 | 16 :heavy_check_mark: / 6 :warning: |
 | ch.qos.reload4j | [reload4j](content/ch/qos/reload4j/README.md) | 8 | 1 :heavy_check_mark: / 7 :warning: |
 | ch.qos.logback.db | [logback-parent-db](content/ch/qos/logback/db/README.md) | 1 | 1 :warning: |
-| com.flowlogix | [flowlogix](content/com/flowlogix/README.md) | 11 | 7 :heavy_check_mark: / 4 :warning: |
+| com.flowlogix | [flowlogix](content/com/flowlogix/README.md) | 12 | 8 :heavy_check_mark: / 4 :warning: |
 | com.adobe.acs | [acs-aem-commons](content/com/adobe/acs/aem-commons/README.md) | 3 | 3 :warning: |
 | com.cognite.units | [units-catalog](content/com/cognite/units/units-catalog/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
 | com.corgibytes | [mrm](content/com/corgibytes/mrm/README.md) | 1 | 1 :heavy_check_mark: |
@@ -47,7 +47,7 @@ Its objectives are to provide:
 | | [jackson-datatypes-collections](content/com/fasterxml/jackson/datatype/jackson-datatypes-collections/README.md) | 2 | 2 :heavy_check_mark: |
 | | [jackson-datatypes-misc-parent](content/com/fasterxml/jackson/datatype/jackson-datatypes-misc-parent/README.md) | 2 | 2 :heavy_check_mark: |
 | com.github.ldapchai | [ldapchai](content/com/github/ldapchai/README.md) | 6 | 1 :heavy_check_mark: / 5 :warning: |
-| com.github.psi-probe | [psi-probe](content/com/github/psi-probe/README.md) | 9 | 7 :heavy_check_mark: / 2 :warning: |
+| com.github.psi-probe | [psi-probe](content/com/github/psi-probe/README.md) | 10 | 8 :heavy_check_mark: / 2 :warning: |
 | com.github.adangel.liquibase.ext | [liquibase-percona](content/com/github/adangel/liquibase/ext/liquibase-percona/README.md) | 1 | 1 :heavy_check_mark: |
 | com.github.hazendaz.7zip | [7zip](content/com/github/hazendaz/7zip/README.md) | 1 | 1 :heavy_check_mark: |
 | com.github.hazendaz | [javabean-tester](content/com/github/hazendaz/javabean-tester/README.md) | 8 | 6 :heavy_check_mark: / 2 :warning: |
@@ -511,7 +511,7 @@ Its objectives are to provide:
 | org.apache.ws.commons.axiom | [axiom](content/org/apache/ws/commons/axiom/README.md) | 1 | 1 :warning: |
 | org.apache.ws.xmlschema | [xmlschema](content/org/apache/ws/xmlschema/xmlschema/README.md) | 1 | 1 :heavy_check_mark: |
 | org.chabala.brick | [brick-control-lab](content/org/chabala/brick/brick-control-lab/README.md) | 1 | 1 :heavy_check_mark: |
-| org.codehaus.modello | [modello](content/org/codehaus/modello/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
+| org.codehaus.modello | [modello](content/org/codehaus/modello/README.md) | 6 | 5 :heavy_check_mark: / 1 :warning: |
 | org.codehaus.mojo | [animal-sniffer-parent](content/org/codehaus/mojo/animal-sniffer/README.md) | 4 | 4 :heavy_check_mark: |
 | | [aspectj-maven-plugin](content/org/codehaus/mojo/aspectj-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | [build-helper-maven-plugin](content/org/codehaus/mojo/build-helper-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
@@ -638,7 +638,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 34 | 34 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **615** | **3209** | **2536** :heavy_check_mark: **673** :warning: |
+| **Count:** | **615** | **3213** | **2540** :heavy_check_mark: **673** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -663,7 +663,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      12 mvn        16
-    292 mvn        17
+    293 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1
@@ -671,7 +671,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn        18
      24 mvn        19
      15 mvn        20
-     45 mvn        21
+     47 mvn        21
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11
       1 mvn-3.8.5   8
@@ -720,7 +720,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       9 mvn-3.9.3  17.0.8
       1 mvn-3.9.3  17.0.8.1
       2 mvn-3.9.3  19
-     21 mvn-3.9.3  21
+     22 mvn-3.9.3  21
       6 mvn-3.9.4   8
       7 mvn-3.9.4  11
       1 mvn-3.9.4  17
