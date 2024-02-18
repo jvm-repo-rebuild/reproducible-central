@@ -19,7 +19,11 @@ SCRIPTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 buildspec=$1
 if [ -z "${buildspec}" ]
 then
-  fatal "usage: buildspec"
+  fatal "usage: rebuild.sh <file>.buildspec [staging|snapshot]"
+fi
+if [ -n "$2" ]
+then
+  referenceRepo=https://repository.apache.org/content/repositories/$2/
 fi
 
 info "Rebuilding from spec \033[1m${buildspec}\033[0m"
@@ -41,6 +45,7 @@ then
 else
   displayMandatory "sourceDistribution"
 fi
+displayOptional  "referenceRepo" "https://repository.maven.apache.org/maven2/"
 displayMandatory "tool"
 displayMandatory "jdk"
 displayOptional  "toolchains"

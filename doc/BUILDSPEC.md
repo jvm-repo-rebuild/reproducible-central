@@ -29,7 +29,7 @@ sourceRmFiles="DEPENDENCIES LICENSE NOTICE"
 
 # 3. where are reference binaries?
 # layout = Maven repository https://maven.apache.org/repositories/layout.html (future options could be PyPI, npm, Brew, Dockerhub, ...)
-# url = https://repository.maven.apache.org/maven2/
+# referenceRepo = https://repository.maven.apache.org/maven2/
 
 # 4. rebuild environment prerequisites
 tool=mvn
