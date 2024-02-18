@@ -46,6 +46,15 @@ do
   # update maven-metadata.xml with content from Maven Central
   curl -s --fail https://repo.maven.apache.org/maven2/$(echo ${groupId} | tr '.' '/')/${artifactId}/maven-metadata.xml --output ${metadata}
 
+  # detect Apache Staging
+  latestStaging=
+  if [[ ${groupId} == org.apache* ]]
+  then
+    curl -s --fail  https://repository.apache.org/content/repositories/staging/$(echo ${groupId} | tr '.' '/')/${artifactId}/maven-metadata.xml --output ${metadata}-staging
+    latestStaging="$(cat "${metadata}-staging" | grep 'latest>' | cut -d '>' -f 2 | cut -d '<' -f 1)"
+    rm ${metadata}-staging
+  fi
+
   # detect oldest and newest versions that have a buildspec
   oldestBuildspecVersion=
   for version in $(cat "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
@@ -227,6 +236,12 @@ do
       echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | ${newestBuildspecVersion} $link |" >> tmp/newest-not-reproducible.md
     fi
   fi
+  # if Apache staging contains a new release candidate, prepare add-release-candidate instructions
+  if [ -n "${latestStaging}" ] && [ "${latestStaging}" != "${highestVersion}" ]
+  then
+    stagingBuildspec="${dir}/$(basename ${newestBuildspec} -${newestBuildspecVersion}.buildspec)-${latestVersion}.buildspec"
+    echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | [${newestBuildspecVersion}](../$dir/${newestBuildspec}) $link | [${latestStaging}](../$stagingBuildspec) | \`bin/add-new-release.sh $dir/${newestBuildspec} ${latestStaging} staging\` |" >> tmp/add-staging.md
+  fi
 done
 
 echo "| **Count:** | **${countGa}** | **${globalVersion}** | **${globalVersionOk}** :heavy_check_mark: **$((globalVersion - globalVersionOk))** :warning: |" >> ${summary}
@@ -259,6 +274,9 @@ cp tmp/README.md README.md
 echo "| artifactId | from | to | command |" > tmp/add-ok-table.md
 echo "| ---------- | ---- | -- | ------- |" >> tmp/add-ok-table.md
 sort -r tmp/add-ok.md >> tmp/add-ok-table.md
+echo "| artifactId | from | to | command |" > tmp/add-staging-table.md
+echo "| ---------- | ---- | -- | ------- |" >> tmp/add-staging-table.md
+sort -r tmp/add-staging.md >> tmp/add-staging-table.md
 echo "| artifactId | from | to | command |" > tmp/add-ko-table.md
 echo "| ---------- | ---- | -- | ------- |" >> tmp/add-ko-table.md
 sort -r tmp/add-ko.md >> tmp/add-ko-table.md
@@ -267,12 +285,16 @@ echo "| ---------- | ------ |" >> tmp/newest-not-reproducible-table.md
 sort -r tmp/newest-not-reproducible.md >> tmp/newest-not-reproducible-table.md
 lead='^<!-- BEGIN GENERATED ADD OK -->$'
 tail='^<!-- END GENERATED ADD OK -->$'
+lead_staging='^<!-- BEGIN GENERATED ADD STAGING -->$'
+tail_staging='^<!-- END GENERATED ADD STAGING -->$'
 lead_ko='^<!-- BEGIN GENERATED ADD KO -->$'
 tail_ko='^<!-- END GENERATED ADD KO -->$'
 lead_newest='^<!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->$'
 tail_newest='^<!-- END GENERATED NEWEST NOT REPRODUCIBLE -->$'
 sed -e "/$lead/,/$tail/{ /$lead/{p; r tmp/add-ok-table.md
         }; /$tail/p; d }" doc/add.md | \
+    sed -e "/$lead_staging/,/$tail_staging/{ /$lead_staging/{p; r tmp/add-staging-table.md
+        }; /$tail_staging/p; d }" | \
     sed -e "/$lead_ko/,/$tail_ko/{ /$lead_ko/{p; r tmp/add-ko-table.md
         }; /$tail_ko/p; d }" | \
     sed -e "/$lead_newest/,/$tail_newest/{ /$lead_newest/{p; r tmp/newest-not-reproducible-table.md

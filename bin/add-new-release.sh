@@ -12,7 +12,7 @@ nextBuildspec=${dir}/${file}-${nextVersion}.buildspec
 
 sed "s/^version=.*/version=${nextVersion}/" ${previousBuildspec} > ${nextBuildspec}
 
-./rebuild.sh ${nextBuildspec}
+./rebuild.sh ${nextBuildspec} $3
 
 echo
 echo -e "if result is ok, run:"

@@ -19,6 +19,7 @@ settings-docker.xml
 
 doc/buildspecs.txt
 maven-metadata
+maven-metadata.xml-staging
 bin/docker/tmp/
 wip/maven-metadata.xml
 m2/toolchains.xml
