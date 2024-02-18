@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Shade Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-shade-plugin
+version=3.5.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-shade-plugin.git
+source.scm.tag=maven-shade-plugin-3.5.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-shade-plugin-3.5.2.pom
+outputs.0.length=14460
+outputs.0.checksums.sha512=e2e9c2fb60b08d6bb4ce4130fb0ace7ec9d9ff961f4fbba7343feff639cf0a0b41d1b3fcac338d858687e12757769950d3019a48b51affd126c900da1719592e
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-shade-plugin-3.5.2.jar
+outputs.1.length=146097
+outputs.1.checksums.sha512=4e28810ce52b1aa21fd57c26cb80ee0577739d664daf1df220868a8490b2d7c30349dca060a1e1e9b398fadeb7732f9a7b645eebe388e67af82dbd075ea3ed05
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-shade-plugin-3.5.2-source-release.zip
+outputs.2.length=913482
+outputs.2.checksums.sha512=23fcd21e6b915114efa133b1c4e46fa0b3d77874ff9d974e4bdb24940ea0ed9b7ffaf7f3d1e8a8549837cfe1de7ff2fc8ae7fc68bfc0477ea7a4b8b53e42f6f7
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-shade-plugin-3.5.2-sources.jar
+outputs.3.length=96692
+outputs.3.checksums.sha512=2b785c0c9622df52d94634a93048b7b66905331622e099b51d73c5a0263c0d417c43be85848c54b4351618ee708087ac8f6647b96b8165cdb7de95745c636b7b
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-shade-plugin-3.5.2-cyclonedx.xml
+outputs.4.length=124897
+outputs.4.checksums.sha512=9c3028a4a1b71d8b68be8ea8885d8d486248bd45c05e879e886fe1ed8ee6ff87f662501055eded85ee60e5f9810d140314a2d4862ca67c351622fc9ab50a9650
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-shade-plugin-3.5.2-cyclonedx.json
+outputs.5.length=145358
+outputs.5.checksums.sha512=b707f3bf6f342f2bfad6317f92aec4e2fe2c4878708a678ca99cecfdee58a8c0912015ccc16eb7a9998c44de84f648c5964d6f522962b29f15abe847d4001e6a
