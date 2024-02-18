@@ -21,6 +21,9 @@ tool=mvn
 jdk=8
 newline=lf
 # crlf for Windows, lf for Unix
+#umask=022
+#timezone="Etc/GMT"
+#locale="en_US"
 
 # Rebuild command
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"

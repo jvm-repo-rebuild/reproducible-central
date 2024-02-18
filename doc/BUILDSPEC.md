@@ -13,12 +13,13 @@ As per Central Repository [upload requirements](https://maven.apache.org/reposit
 **Reproducible Central** rebuild instructions are defined in a `.buildspec` file that will be used by [`rebuild.sh`](../rebuild.sh) script. A `.buildspec` file is de-facto a Bash shell script defining a few variables that `rebuild.sh` will use to do the rebuild:
 
 ```
-# Central Repository coordinates for the Reference release (for multi-module, pick an artitrary module)
+# 1. what does this rebuild?
+# = Central Repository coordinates for the Reference release (for multi-module, pick an artitrary module)
 groupId=
 artifactId=
 version=
 
-# Source code
+# 2. where is source code?
 gitRepo=https://github.com/project_org/${artifactId}.git
 gitTag=${artifactId}-${version}
 # or use source zip archive
@@ -26,21 +27,29 @@ sourceDistribution=https://archive.apache.org/dist/maven/scm/${artifactId}-${ver
 sourcePath=${artifactId}-${version}
 sourceRmFiles="DEPENDENCIES LICENSE NOTICE"
 
-# Rebuild environment prerequisites
+# 3. where are reference binaries?
+# layout = Maven repository https://maven.apache.org/repositories/layout.html (future options could be PyPI, npm, Brew, Dockerhub, ...)
+# url = https://repository.maven.apache.org/maven2/
+
+# 4. rebuild environment prerequisites
 tool=mvn
 # or tool=mvn-3.8.5 if default 3.6.3 version does not match your prerequisites (available version may be limited by images available on Dockerhub)
 # or tool=gradle or tool=sbt
 jdk=8
 newline=crlf
 # crlf for Windows, lf for Unix
+# optional:
+#umask=002
+#timezone="Etc/GMT"
+#locale="en_US"
 
-# Rebuild command
+# 5. rebuild command
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 
-# Location of the buildinfo file generated during rebuild to record output fingerprints
+# 6. location of the buildinfo file generated during rebuild to record output fingerprints
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-# if the release is finally not reproducible, link to an issue tracker entry if one was created
+# 7. if the release is finally not reproducible, link to an issue tracker entry if one was created
 #diffoscope=${artifactId}-${version}.diffoscope
 issue=https://github.com/project_org/${artifactId}/issues/xx
 ```
