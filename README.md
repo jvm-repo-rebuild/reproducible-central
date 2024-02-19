@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3213 releases** of **615 projects**:
-   - **2540** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **3214 releases** of **615 projects**:
+   - **2541** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 673 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 615 projects, 510 have at least one fully reproducible release, 105 have none
+   - on 615 projects, 511 have at least one fully reproducible release, 104 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -303,7 +303,7 @@ Its objectives are to provide:
 | org.apache.camel.k | [camel-k-runtime-project](content/org/apache/camel/camel-k-runtime/README.md) | 5 | 5 :warning: |
 | org.apache.bcel | [bcel](content/org/apache/commons/bcel/README.md) | 3 | 3 :warning: |
 | org.apache.commons | [commons-exec](content/org/apache/commons/commons-exec/README.md) | 1 | 1 :heavy_check_mark: |
-| | [commons-compress](content/org/apache/commons/compress/README.md) | 4 | 4 :warning: |
+| | [commons-compress](content/org/apache/commons/compress/README.md) | 5 | 1 :heavy_check_mark: / 4 :warning: |
 | | [commons-csv](content/org/apache/commons/csv/README.md) | 1 | 1 :heavy_check_mark: |
 | commons-net | [*](content/org/apache/commons/net/README.md) | 2 | 2 :warning: |
 | org.apache.commons | [commons-numbers-parent](content/org/apache/commons/numbers/README.md) | 1 | 1 :heavy_check_mark: |
@@ -638,7 +638,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 34 | 34 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **615** | **3213** | **2540** :heavy_check_mark: **673** :warning: |
+| **Count:** | **615** | **3214** | **2541** :heavy_check_mark: **673** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -663,7 +663,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      12 mvn        16
-    293 mvn        17
+    294 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1

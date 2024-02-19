@@ -13,6 +13,8 @@ rebuilding **3 releases** of com.cognite.units:units-catalog:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.1.7](https://central.sonatype.com/artifact/com.cognite.units/units-catalog/0.1.7/pom) | | | |
+| [0.1.6](https://central.sonatype.com/artifact/com.cognite.units/units-catalog/0.1.6/pom) | | | |
 | [0.1.5](https://central.sonatype.com/artifact/com.cognite.units/units-catalog/0.1.5/pom) | [mvn jdk17](units-catalog-0.1.5.buildspec) | [result](units-catalog-0.1.5.buildinfo): [1 :heavy_check_mark:  2 :warning:](units-catalog-0.1.5.buildcompare) [:mag:](units-catalog-0.1.5.diffoscope) [:memo:](https://github.com/cognitedata/units-catalog/pull/43) | 101K |
 | [0.1.4](https://central.sonatype.com/artifact/com.cognite.units/units-catalog/0.1.4/pom) | [mvn jdk17](units-catalog-0.1.4.buildspec) | [result](units-catalog-0.1.4.buildinfo): [1 :heavy_check_mark: ](units-catalog-0.1.4.buildcompare) [:memo:](https://github.com/cognitedata/units-catalog/pull/43)
 [1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/com/cognite/units/units-catalog/units-catalog-0.1.4.buildspec[0m
