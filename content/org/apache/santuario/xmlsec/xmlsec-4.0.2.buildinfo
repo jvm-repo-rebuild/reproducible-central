@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache XML Security for Java
+group-id=org.apache.santuario
+artifact-id=xmlsec
+version=4.0.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/santuario-xml-security-java.git
+source.scm.tag=xmlsec-4.0.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.santuario
+outputs.0.filename=xmlsec-4.0.2.pom
+outputs.0.length=30690
+outputs.0.checksums.sha512=e0daed9afe7bf37c8276c13fa7d2b1978583adf8d420000ab963628391d8fdfc73c9cb618ed7cd7d94474ed01f870463bf1ed98125f37dcf74622c2416ec100b
+
+outputs.1.groupId=org.apache.santuario
+outputs.1.filename=xmlsec-4.0.2.jar
+outputs.1.length=1197491
+outputs.1.checksums.sha512=9cf93e71cba63b40bec47643b96b08bdc21ef3eb3200c3b3f1160d8267c8f8ee0bce27a3d2e2a48add007e036ee66b7218c5a042e24771b35adbee822b470537
+
+outputs.2.groupId=org.apache.santuario
+outputs.2.filename=xmlsec-4.0.2-source-release.zip
+outputs.2.length=2702575
+outputs.2.checksums.sha512=480b3af0383460771aab10933d30a654d27eaecedc67f1bc6c0c87f2cb94ab1d30f7834918533d635a28babff36e87dd66669c1cdfa2bd2bd2d7c89b3a38441f
+
+outputs.3.groupId=org.apache.santuario
+outputs.3.filename=xmlsec-4.0.2-sources.jar
+outputs.3.length=911076
+outputs.3.checksums.sha512=88021a85226e717b86b68de8b1e8626fd80718926f19dc92dd18b5cc2ad63aeca7a8dac32a1582e4feca01a0e07af23226829743c1f91fad508682c22d728cef
+
+outputs.4.groupId=org.apache.santuario
+outputs.4.filename=xmlsec-4.0.2-cyclonedx.xml
+outputs.4.length=14946
+outputs.4.checksums.sha512=ed17bb86dfb2400fcf0c2b6644c793f4d733fe91c57890cf77e2dc5a0cd12cc48078597dcf993627f7551a142c74f449cd7d486db3a66b5f27300ad8b1a7d97c
+
+outputs.5.groupId=org.apache.santuario
+outputs.5.filename=xmlsec-4.0.2-cyclonedx.json
+outputs.5.length=17435
+outputs.5.checksums.sha512=b41a12b069c9c0566bd9fd0e87828a0af07ae5264bb93677d6d0eeaa0062a97b6ed457dc5234134f60a6c914034b1cd8b7c86e3e9b5e45f60ee86999b014de0e
