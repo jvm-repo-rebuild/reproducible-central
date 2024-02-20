@@ -305,7 +305,7 @@ Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/
 </details>
 
 rebuilding **7 releases** of org.glassfish.main:glassfish-parent:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -313,14 +313,14 @@ rebuilding **7 releases** of org.glassfish.main:glassfish-parent:
 | [8.0.0-M2](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M2/pom) | | | |
 | [8.0.0-M1](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M1/pom) | [mvn jdk17.0.9](glassfish-8.0.0-M1.buildspec) | :x: | |
 | [7.0.12](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.12/pom) | | | |
-| [7.0.11](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.11/pom) | [mvn jdk17.0.2](glassfish-7.0.11.buildspec) | [result](glassfish-main-aggregator-7.0.11.buildinfo): [725 :heavy_check_mark:  11 :warning:](glassfish-main-aggregator-7.0.11.buildcompare) | 453M |
-| [7.0.10](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.10/pom) | [mvn jdk17.0.2](glassfish-7.0.10.buildspec) | [result](glassfish-main-aggregator-7.0.10.buildinfo): [726 :heavy_check_mark:  10 :warning:](glassfish-main-aggregator-7.0.10.buildcompare) [:mag:](glassfish-main-aggregator-7.0.10.diffoscope) | 453M |
-| [7.0.9](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.9/pom) | [mvn jdk17.0.2](glassfish-7.0.9.buildspec) | [result](glassfish-main-aggregator-7.0.9.buildinfo): [332 :heavy_check_mark:  404 :warning:](glassfish-main-aggregator-7.0.9.buildcompare) [:mag:](glassfish-main-aggregator-7.0.9.diffoscope) [:memo:](https://github.com/eclipse-ee4j/glassfish/issues/24615) | 451M |
-| [7.0.8](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.8/pom) | [mvn jdk17.0.2](glassfish-7.0.8.buildspec) | [result](glassfish-main-aggregator-7.0.8.buildinfo): [307 :heavy_check_mark:  213 :warning:](glassfish-main-aggregator-7.0.8.buildcompare) [:mag:](glassfish-main-aggregator-7.0.8.diffoscope) [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/821) | 435M |
+| [7.0.11](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.11/pom) | [mvn jdk17.0.2](glassfish-7.0.11.buildspec) | [result](glassfish-main-aggregator-7.0.11.buildinfo): [725 :white_check_mark:  11 :warning:](glassfish-main-aggregator-7.0.11.buildcompare) | 453M |
+| [7.0.10](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.10/pom) | [mvn jdk17.0.2](glassfish-7.0.10.buildspec) | [result](glassfish-main-aggregator-7.0.10.buildinfo): [726 :white_check_mark:  10 :warning:](glassfish-main-aggregator-7.0.10.buildcompare) [:mag:](glassfish-main-aggregator-7.0.10.diffoscope) | 453M |
+| [7.0.9](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.9/pom) | [mvn jdk17.0.2](glassfish-7.0.9.buildspec) | [result](glassfish-main-aggregator-7.0.9.buildinfo): [332 :white_check_mark:  404 :warning:](glassfish-main-aggregator-7.0.9.buildcompare) [:mag:](glassfish-main-aggregator-7.0.9.diffoscope) [:memo:](https://github.com/eclipse-ee4j/glassfish/issues/24615) | 451M |
+| [7.0.8](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.8/pom) | [mvn jdk17.0.2](glassfish-7.0.8.buildspec) | [result](glassfish-main-aggregator-7.0.8.buildinfo): [307 :white_check_mark:  213 :warning:](glassfish-main-aggregator-7.0.8.buildcompare) [:mag:](glassfish-main-aggregator-7.0.8.diffoscope) [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/821) | 435M |
 | [7.0.7](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.7/pom) | | | |
 | [7.0.6](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.6/pom) | | | |
-| [7.0.5](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.5/pom) | [mvn jdk17](glassfish-7.0.5.buildspec) | [result](glassfish-main-aggregator-7.0.5.buildinfo): [306 :heavy_check_mark:  211 :warning:](glassfish-main-aggregator-7.0.5.buildcompare) [:mag:](glassfish-main-aggregator-7.0.5.diffoscope) [:memo:](https://github.com/eclipse-ee4j/glassfish/pull/24462) | 427M |
+| [7.0.5](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.5/pom) | [mvn jdk17](glassfish-7.0.5.buildspec) | [result](glassfish-main-aggregator-7.0.5.buildinfo): [306 :white_check_mark:  211 :warning:](glassfish-main-aggregator-7.0.5.buildcompare) [:mag:](glassfish-main-aggregator-7.0.5.diffoscope) [:memo:](https://github.com/eclipse-ee4j/glassfish/pull/24462) | 427M |
 | [7.0.4](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.4/pom) | | | |
-| [7.0.3](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.3/pom) | [mvn jdk17](glassfish-7.0.3.buildspec) | [result](glassfish-main-aggregator-7.0.3.buildinfo): [283 :heavy_check_mark:  238 :warning:](glassfish-main-aggregator-7.0.3.buildcompare) [:memo:](https://github.com/eclipse-ee4j/glassfish/pull/24366) | 425M |
+| [7.0.3](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.3/pom) | [mvn jdk17](glassfish-7.0.3.buildspec) | [result](glassfish-main-aggregator-7.0.3.buildinfo): [283 :white_check_mark:  238 :warning:](glassfish-main-aggregator-7.0.3.buildcompare) [:memo:](https://github.com/eclipse-ee4j/glassfish/pull/24366) | 425M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -227,7 +227,7 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 </details>
 
 rebuilding **1 releases** of org.finos.legend.engine:legend-engine:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -316,6 +316,6 @@ rebuilding **1 releases** of org.finos.legend.engine:legend-engine:
 | [4.4.8](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.8/pom) | | | |
 | [4.4.7](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.7/pom) | | | |
 | [4.4.6](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.6/pom) | | | |
-| [4.4.5](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.5/pom) | [mvn jdk11](legend-engine-4.4.5.buildspec) | [result](legend-engine-4.4.5.buildinfo): [574 :heavy_check_mark:  75 :warning:](legend-engine-4.4.5.buildcompare) [:mag:](legend-engine-4.4.5.diffoscope) | 841M |
+| [4.4.5](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.5/pom) | [mvn jdk11](legend-engine-4.4.5.buildspec) | [result](legend-engine-4.4.5.buildinfo): [574 :white_check_mark:  75 :warning:](legend-engine-4.4.5.buildcompare) [:mag:](legend-engine-4.4.5.diffoscope) | 841M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

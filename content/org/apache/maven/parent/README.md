@@ -19,18 +19,18 @@ Source code: [https://github.com/apache/maven-parent.git](https://github.com/apa
 </details>
 
 rebuilding **8 releases** of org.apache.maven:maven-parent:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [41](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/41/pom) | [mvn jdk17](maven-parent-41.buildspec) | [result](maven-parent-41.buildinfo): [25 :heavy_check_mark: ](maven-parent-41.buildcompare) | 196K |
-| [40](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/40/pom) | [mvn jdk17](maven-parent-40.buildspec) | [result](maven-parent-40.buildinfo): [21 :heavy_check_mark:  4 :warning:](maven-parent-40.buildcompare) [:mag:](maven-parent-40.diffoscope) | 196K |
-| [39](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/39/pom) | [mvn jdk8](maven-parent-39.buildspec) | [result](maven-parent-39.buildinfo): [14 :heavy_check_mark: ](maven-parent-39.buildcompare) | 148K |
-| [38](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/38/pom) | [mvn jdk8](maven-parent-38.buildspec) | [result](maven-parent-38.buildinfo): [14 :heavy_check_mark: ](maven-parent-38.buildcompare) | 148K |
-| [37](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/37/pom) | [mvn jdk8](maven-parent-37.buildspec) | [result](maven-parent-37.buildinfo): [14 :heavy_check_mark: ](maven-parent-37.buildcompare) | 154K |
-| [36](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/36/pom) | [mvn jdk8](maven-parent-36.buildspec) | [result](maven-parent-36.buildinfo): [14 :heavy_check_mark: ](maven-parent-36.buildcompare) | 154K |
-| [35](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/35/pom) | [mvn jdk8](maven-parent-35.buildspec) | [result](maven-parent-35.buildinfo): [13 :heavy_check_mark:  1 :warning:](maven-parent-35.buildcompare) | 152K |
-| [34](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/34/pom) | [mvn jdk8](maven-parent-34.buildspec) | [result](maven-parent-34.buildinfo): [13 :heavy_check_mark:  1 :warning:](maven-parent-34.buildcompare) | 148K |
+| [41](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/41/pom) | [mvn jdk17](maven-parent-41.buildspec) | [result](maven-parent-41.buildinfo): [25 :white_check_mark: ](maven-parent-41.buildcompare) | 196K |
+| [40](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/40/pom) | [mvn jdk17](maven-parent-40.buildspec) | [result](maven-parent-40.buildinfo): [21 :white_check_mark:  4 :warning:](maven-parent-40.buildcompare) [:mag:](maven-parent-40.diffoscope) | 196K |
+| [39](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/39/pom) | [mvn jdk8](maven-parent-39.buildspec) | [result](maven-parent-39.buildinfo): [14 :white_check_mark: ](maven-parent-39.buildcompare) | 148K |
+| [38](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/38/pom) | [mvn jdk8](maven-parent-38.buildspec) | [result](maven-parent-38.buildinfo): [14 :white_check_mark: ](maven-parent-38.buildcompare) | 148K |
+| [37](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/37/pom) | [mvn jdk8](maven-parent-37.buildspec) | [result](maven-parent-37.buildinfo): [14 :white_check_mark: ](maven-parent-37.buildcompare) | 154K |
+| [36](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/36/pom) | [mvn jdk8](maven-parent-36.buildspec) | [result](maven-parent-36.buildinfo): [14 :white_check_mark: ](maven-parent-36.buildcompare) | 154K |
+| [35](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/35/pom) | [mvn jdk8](maven-parent-35.buildspec) | [result](maven-parent-35.buildinfo): [13 :white_check_mark:  1 :warning:](maven-parent-35.buildcompare) | 152K |
+| [34](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/34/pom) | [mvn jdk8](maven-parent-34.buildspec) | [result](maven-parent-34.buildinfo): [13 :white_check_mark:  1 :warning:](maven-parent-34.buildcompare) | 148K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

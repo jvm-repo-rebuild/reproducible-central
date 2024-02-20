@@ -72,14 +72,14 @@ Source code: [https://github.com/vsch/flexmark-java.git](https://github.com/vsch
 </details>
 
 rebuilding **4 releases** of com.vladsch.flexmark:flexmark-java:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.64.8](https://central.sonatype.com/artifact/com.vladsch.flexmark/flexmark-java/0.64.8/pom) | [mvn jdk11](flexmark-java-0.64.8.buildspec) | [result](flexmark-java-0.64.8.buildinfo): [176 :heavy_check_mark: ](flexmark-java-0.64.8.buildcompare) | 17M |
-| [0.64.6](https://central.sonatype.com/artifact/com.vladsch.flexmark/flexmark-java/0.64.6/pom) | [mvn jdk11](flexmark-java-0.64.6.buildspec) | [result](flexmark-java-0.64.6.buildinfo): [176 :heavy_check_mark: ](flexmark-java-0.64.6.buildcompare) | 17M |
-| [0.64.4](https://central.sonatype.com/artifact/com.vladsch.flexmark/flexmark-java/0.64.4/pom) | [mvn jdk11](flexmark-java-0.64.4.buildspec) | [result](flexmark-java-0.64.4.buildinfo): [176 :heavy_check_mark: ](flexmark-java-0.64.4.buildcompare) | 17M |
-| [0.64.2](https://central.sonatype.com/artifact/com.vladsch.flexmark/flexmark-java/0.64.2/pom) | [mvn jdk11](flexmark-java-0.64.2.buildspec) | [result](flexmark-java-0.64.2.buildinfo): [176 :heavy_check_mark: ](flexmark-java-0.64.2.buildcompare) | 17M |
+| [0.64.8](https://central.sonatype.com/artifact/com.vladsch.flexmark/flexmark-java/0.64.8/pom) | [mvn jdk11](flexmark-java-0.64.8.buildspec) | [result](flexmark-java-0.64.8.buildinfo): [176 :white_check_mark: ](flexmark-java-0.64.8.buildcompare) | 17M |
+| [0.64.6](https://central.sonatype.com/artifact/com.vladsch.flexmark/flexmark-java/0.64.6/pom) | [mvn jdk11](flexmark-java-0.64.6.buildspec) | [result](flexmark-java-0.64.6.buildinfo): [176 :white_check_mark: ](flexmark-java-0.64.6.buildcompare) | 17M |
+| [0.64.4](https://central.sonatype.com/artifact/com.vladsch.flexmark/flexmark-java/0.64.4/pom) | [mvn jdk11](flexmark-java-0.64.4.buildspec) | [result](flexmark-java-0.64.4.buildinfo): [176 :white_check_mark: ](flexmark-java-0.64.4.buildcompare) | 17M |
+| [0.64.2](https://central.sonatype.com/artifact/com.vladsch.flexmark/flexmark-java/0.64.2/pom) | [mvn jdk11](flexmark-java-0.64.2.buildspec) | [result](flexmark-java-0.64.2.buildinfo): [176 :white_check_mark: ](flexmark-java-0.64.2.buildcompare) | 17M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

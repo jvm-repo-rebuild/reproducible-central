@@ -24,17 +24,17 @@ Source code: [https://github.com/apache/mina.git](https://github.com/apache/mina
 </details>
 
 rebuilding **5 releases** of org.apache.mina:mina-parent:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.2.3](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.3/pom) | [mvn jdk8](mina-2.2.3.buildspec) | [result](mina-parent-2.2.3.buildinfo): [38 :heavy_check_mark: ](mina-parent-2.2.3.buildcompare) | 3.5M |
-| [2.2.2](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.2/pom) | [mvn jdk11](mina-2.2.2.buildspec) | [result](mina-parent-2.2.2.buildinfo): [38 :heavy_check_mark: ](mina-parent-2.2.2.buildcompare) | 3.5M |
-| [2.2.1](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.1/pom) | [mvn jdk8](mina-2.2.1.buildspec) | [result](mina-parent-2.2.1.buildinfo): [36 :heavy_check_mark:  2 :warning:](mina-parent-2.2.1.buildcompare) [:mag:](mina-parent-2.2.1.diffoscope) [:memo:](https://github.com/apache/mina/pull/34) | 3.5M |
-| [2.2.0](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.0/pom) | [mvn jdk8](mina-2.2.0.buildspec) | [result](mina-parent-2.2.0.buildinfo): [36 :heavy_check_mark:  2 :warning:](mina-parent-2.2.0.buildcompare) [:mag:](mina-parent-2.2.0.diffoscope) | 3.5M |
+| [2.2.3](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.3/pom) | [mvn jdk8](mina-2.2.3.buildspec) | [result](mina-parent-2.2.3.buildinfo): [38 :white_check_mark: ](mina-parent-2.2.3.buildcompare) | 3.5M |
+| [2.2.2](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.2/pom) | [mvn jdk11](mina-2.2.2.buildspec) | [result](mina-parent-2.2.2.buildinfo): [38 :white_check_mark: ](mina-parent-2.2.2.buildcompare) | 3.5M |
+| [2.2.1](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.1/pom) | [mvn jdk8](mina-2.2.1.buildspec) | [result](mina-parent-2.2.1.buildinfo): [36 :white_check_mark:  2 :warning:](mina-parent-2.2.1.buildcompare) [:mag:](mina-parent-2.2.1.diffoscope) [:memo:](https://github.com/apache/mina/pull/34) | 3.5M |
+| [2.2.0](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.0/pom) | [mvn jdk8](mina-2.2.0.buildspec) | [result](mina-parent-2.2.0.buildinfo): [36 :white_check_mark:  2 :warning:](mina-parent-2.2.0.buildcompare) [:mag:](mina-parent-2.2.0.diffoscope) | 3.5M |
 | [2.1.8](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.1.8/pom) | | | |
 | [2.1.7](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.1.7/pom) | | | |
-| [2.1.6](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.1.6/pom) | [mvn jdk8](mina-2.1.6.buildspec) | [result](mina-parent-2.1.6.buildinfo): [28 :heavy_check_mark:  10 :warning:](mina-parent-2.1.6.buildcompare) [:mag:](mina-parent-2.1.6.diffoscope) | 4.5M |
+| [2.1.6](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.1.6/pom) | [mvn jdk8](mina-2.1.6.buildspec) | [result](mina-parent-2.1.6.buildinfo): [28 :white_check_mark:  10 :warning:](mina-parent-2.1.6.buildcompare) [:mag:](mina-parent-2.1.6.diffoscope) | 4.5M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

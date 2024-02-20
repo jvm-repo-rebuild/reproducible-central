@@ -16,11 +16,11 @@ Source code: [https://github.com/veithen/checkt.git](https://github.com/veithen/
 </details>
 
 rebuilding **1 releases** of com.github.veithen.checkt:checkt:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.1.0](https://central.sonatype.com/artifact/com.github.veithen.checkt/checkt/0.1.0/pom) | [mvn jdk11](checkt-0.1.0.buildspec) | [result](checkt-0.1.0.buildinfo): [10 :heavy_check_mark: ](checkt-0.1.0.buildcompare) | 60K |
+| [0.1.0](https://central.sonatype.com/artifact/com.github.veithen.checkt/checkt/0.1.0/pom) | [mvn jdk11](checkt-0.1.0.buildspec) | [result](checkt-0.1.0.buildinfo): [10 :white_check_mark: ](checkt-0.1.0.buildcompare) | 60K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -18,13 +18,13 @@ Source code: [https://github.com/eclipse/transformer.git](https://github.com/ecl
 </details>
 
 rebuilding **3 releases** of org.eclipse.transformer:org.eclipse.transformer.parent:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [0.5.0](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/0.5.0/pom) | [mvn jdk17](eclipse-transformer-0.5.0.buildspec) | [result](transformer-maven-plugin-0.5.0.buildinfo): [ 3 :warning:](transformer-maven-plugin-0.5.0.buildcompare) | 81K |
-| [0.4.0](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/0.4.0/pom) | [mvn jdk17](eclipse-transformer-0.4.0.buildspec) | [result](transformer-maven-plugin-0.4.0.buildinfo): [14 :heavy_check_mark: ](transformer-maven-plugin-0.4.0.buildcompare) | 961K |
-| [0.2.0](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/0.2.0/pom) | [mvn jdk8](eclipse-transformer-0.2.0.buildspec) | [result](org.eclipse.transformer.parent-0.2.0.buildinfo): [11 :heavy_check_mark: ](org.eclipse.transformer.parent-0.2.0.buildcompare) | 829K |
+| [0.4.0](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/0.4.0/pom) | [mvn jdk17](eclipse-transformer-0.4.0.buildspec) | [result](transformer-maven-plugin-0.4.0.buildinfo): [14 :white_check_mark: ](transformer-maven-plugin-0.4.0.buildcompare) | 961K |
+| [0.2.0](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/0.2.0/pom) | [mvn jdk8](eclipse-transformer-0.2.0.buildspec) | [result](org.eclipse.transformer.parent-0.2.0.buildinfo): [11 :white_check_mark: ](org.eclipse.transformer.parent-0.2.0.buildcompare) | 829K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -57,48 +57,48 @@ Source code: [https://github.com/pmd/pmd.git](https://github.com/pmd/pmd.git)
 </details>
 
 rebuilding **35 releases** of net.sourceforge.pmd:pmd:
-- **32** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **32** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [7.0.0-rc4](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.0.0-rc4/pom) | [mvn jdk11](pmd-7.0.0-rc4.buildspec) | [result](pmd-7.0.0-rc4.buildinfo): [118 :heavy_check_mark: ](pmd-7.0.0-rc4.buildcompare) [:mag:](pmd-7.0.0-rc4.diffoscope)
+| [7.0.0-rc4](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.0.0-rc4/pom) | [mvn jdk11](pmd-7.0.0-rc4.buildspec) | [result](pmd-7.0.0-rc4.buildinfo): [118 :white_check_mark: ](pmd-7.0.0-rc4.buildcompare) [:mag:](pmd-7.0.0-rc4.diffoscope)
 [1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/net/sourceforge/pmd/pmd-7.0.0-rc4.buildspec[0m
  | 16M |
-| [7.0.0-rc3](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.0.0-rc3/pom) | [mvn jdk11](pmd-7.0.0-rc3.buildspec) | [result](pmd-7.0.0-rc3.buildinfo): [124 :heavy_check_mark:  1 :warning:](pmd-7.0.0-rc3.buildcompare) [:mag:](pmd-7.0.0-rc3.diffoscope) | 18M |
-| [7.0.0-rc2](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.0.0-rc2/pom) | [mvn jdk11](pmd-7.0.0-rc2.buildspec) | [result](pmd-7.0.0-rc2.buildinfo): [121 :heavy_check_mark:  1 :warning:](pmd-7.0.0-rc2.buildcompare) [:mag:](pmd-7.0.0-rc2.diffoscope) | 18M |
+| [7.0.0-rc3](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.0.0-rc3/pom) | [mvn jdk11](pmd-7.0.0-rc3.buildspec) | [result](pmd-7.0.0-rc3.buildinfo): [124 :white_check_mark:  1 :warning:](pmd-7.0.0-rc3.buildcompare) [:mag:](pmd-7.0.0-rc3.diffoscope) | 18M |
+| [7.0.0-rc2](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.0.0-rc2/pom) | [mvn jdk11](pmd-7.0.0-rc2.buildspec) | [result](pmd-7.0.0-rc2.buildinfo): [121 :white_check_mark:  1 :warning:](pmd-7.0.0-rc2.buildcompare) [:mag:](pmd-7.0.0-rc2.diffoscope) | 18M |
 | [7.0.0-rc1](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.0.0-rc1/pom) | | | |
-| [6.55.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.55.0/pom) | [mvn jdk11](pmd-6.55.0.buildspec) | [result](pmd-6.55.0.buildinfo): [112 :heavy_check_mark: ](pmd-6.55.0.buildcompare) | 17M |
-| [6.54.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.54.0/pom) | [mvn jdk11](pmd-6.54.0.buildspec) | [result](pmd-6.54.0.buildinfo): [109 :heavy_check_mark: ](pmd-6.54.0.buildcompare) | 17M |
-| [6.53.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.53.0/pom) | [mvn jdk11](pmd-6.53.0.buildspec) | [result](pmd-6.53.0.buildinfo): [109 :heavy_check_mark: ](pmd-6.53.0.buildcompare) | 17M |
-| [6.52.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.52.0/pom) | [mvn jdk11](pmd-6.52.0.buildspec) | [result](pmd-6.52.0.buildinfo): [109 :heavy_check_mark: ](pmd-6.52.0.buildcompare) | 17M |
-| [6.51.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.51.0/pom) | [mvn jdk11](pmd-6.51.0.buildspec) | [result](pmd-6.51.0.buildinfo): [109 :heavy_check_mark: ](pmd-6.51.0.buildcompare) | 17M |
-| [6.50.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.50.0/pom) | [mvn jdk11](pmd-6.50.0.buildspec) | [result](pmd-6.50.0.buildinfo): [109 :heavy_check_mark: ](pmd-6.50.0.buildcompare) | 17M |
-| [6.49.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.49.0/pom) | [mvn jdk11](pmd-6.49.0.buildspec) | [result](pmd-6.49.0.buildinfo): [109 :heavy_check_mark: ](pmd-6.49.0.buildcompare) | 17M |
-| [6.48.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.48.0/pom) | [mvn jdk11](pmd-6.48.0.buildspec) | [result](pmd-6.48.0.buildinfo): [109 :heavy_check_mark: ](pmd-6.48.0.buildcompare) | 17M |
-| [6.47.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.47.0/pom) | [mvn jdk11](pmd-6.47.0.buildspec) | [result](pmd-6.47.0.buildinfo): [103 :heavy_check_mark: ](pmd-6.47.0.buildcompare) | 17M |
-| [6.46.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.46.0/pom) | [mvn jdk11](pmd-6.46.0.buildspec) | [result](pmd-6.46.0.buildinfo): [103 :heavy_check_mark: ](pmd-6.46.0.buildcompare) | 17M |
-| [6.45.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.45.0/pom) | [mvn jdk11](pmd-6.45.0.buildspec) | [result](pmd-6.45.0.buildinfo): [103 :heavy_check_mark: ](pmd-6.45.0.buildcompare) | 16M |
-| [6.44.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.44.0/pom) | [mvn jdk11](pmd-6.44.0.buildspec) | [result](pmd-6.44.0.buildinfo): [100 :heavy_check_mark: ](pmd-6.44.0.buildcompare) | 16M |
-| [6.43.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.43.0/pom) | [mvn jdk11](pmd-6.43.0.buildspec) | [result](pmd-6.43.0.buildinfo): [100 :heavy_check_mark: ](pmd-6.43.0.buildcompare) | 16M |
-| [6.42.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.42.0/pom) | [mvn jdk11](pmd-6.42.0.buildspec) | [result](pmd-6.42.0.buildinfo): [100 :heavy_check_mark: ](pmd-6.42.0.buildcompare) | 16M |
-| [6.41.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.41.0/pom) | [mvn jdk11](pmd-6.41.0.buildspec) | [result](pmd-6.41.0.buildinfo): [100 :heavy_check_mark: ](pmd-6.41.0.buildcompare) | 16M |
-| [6.40.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.40.0/pom) | [mvn jdk11](pmd-6.40.0.buildspec) | [result](pmd-6.40.0.buildinfo): [100 :heavy_check_mark: ](pmd-6.40.0.buildcompare) | 16M |
-| [6.39.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.39.0/pom) | [mvn jdk11](pmd-6.39.0.buildspec) | [result](pmd-6.39.0.buildinfo): [100 :heavy_check_mark: ](pmd-6.39.0.buildcompare) | 16M |
-| [6.38.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.38.0/pom) | [mvn jdk11](pmd-6.38.0.buildspec) | [result](pmd-6.38.0.buildinfo): [100 :heavy_check_mark: ](pmd-6.38.0.buildcompare) | 16M |
-| [6.37.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.37.0/pom) | [mvn jdk11](pmd-6.37.0.buildspec) | [result](pmd-6.37.0.buildinfo): [100 :heavy_check_mark: ](pmd-6.37.0.buildcompare) | 16M |
-| [6.36.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.36.0/pom) | [mvn jdk11](pmd-6.36.0.buildspec) | [result](pmd-6.36.0.buildinfo): [100 :heavy_check_mark: ](pmd-6.36.0.buildcompare) | 16M |
-| [6.35.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.35.0/pom) | [mvn jdk11](pmd-6.35.0.buildspec) | [result](pmd-6.35.0.buildinfo): [100 :heavy_check_mark: ](pmd-6.35.0.buildcompare) | 16M |
-| [6.34.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.34.0/pom) | [mvn jdk11](pmd-6.34.0.buildspec) | [result](pmd-6.34.0.buildinfo): [100 :heavy_check_mark: ](pmd-6.34.0.buildcompare) | 16M |
-| [6.33.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.33.0/pom) | [mvn jdk11](pmd-6.33.0.buildspec) | [result](pmd-6.33.0.buildinfo): [100 :heavy_check_mark: ](pmd-6.33.0.buildcompare) | 16M |
-| [6.32.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.32.0/pom) | [mvn jdk11](pmd-6.32.0.buildspec) | [result](pmd-6.32.0.buildinfo): [100 :heavy_check_mark: ](pmd-6.32.0.buildcompare) | 16M |
-| [6.31.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.31.0/pom) | [mvn jdk11](pmd-6.31.0.buildspec) | [result](pmd-6.31.0.buildinfo): [100 :heavy_check_mark: ](pmd-6.31.0.buildcompare) | 16M |
-| [6.30.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.30.0/pom) | [mvn jdk11](pmd-6.30.0.buildspec) | [result](pmd-scala_2.12-6.30.0.buildinfo): [96 :heavy_check_mark:  4 :warning:](pmd-scala_2.12-6.30.0.buildcompare) [:memo:](https://github.com/pmd/pmd/issues/2970) | 16M |
-| [6.29.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.29.0/pom) | [mvn jdk11](pmd-6.29.0.buildspec) | [result](pmd-scala_2.12-6.29.0.buildinfo): [100 :heavy_check_mark: ](pmd-scala_2.12-6.29.0.buildcompare) | 16M |
-| [6.28.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.28.0/pom) | [mvn jdk11](pmd-6.28.0.buildspec) | [result](pmd-scala_2.12-6.28.0.buildinfo): [100 :heavy_check_mark: ](pmd-scala_2.12-6.28.0.buildcompare) | 16M |
-| [6.27.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.27.0/pom) | [mvn jdk11](pmd-6.27.0.buildspec) | [result](pmd-scala_2.12-6.27.0.buildinfo): [100 :heavy_check_mark: ](pmd-scala_2.12-6.27.0.buildcompare) | 16M |
-| [6.26.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.26.0/pom) | [mvn jdk11](pmd-6.26.0.buildspec) | [result](pmd-doc-6.26.0.buildinfo): [100 :heavy_check_mark: ](pmd-doc-6.26.0.buildcompare) | 16M |
-| [6.25.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.25.0/pom) | [mvn jdk11](pmd-6.25.0.buildspec) | [result](pmd-doc-6.25.0.buildinfo): [100 :heavy_check_mark: ](pmd-doc-6.25.0.buildcompare) | 16M |
-| [6.24.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.24.0/pom) | [mvn jdk11](pmd-6.24.0.buildspec) | [result](pmd-doc-6.24.0.buildinfo): [95 :heavy_check_mark: ](pmd-doc-6.24.0.buildcompare) | 16M |
+| [6.55.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.55.0/pom) | [mvn jdk11](pmd-6.55.0.buildspec) | [result](pmd-6.55.0.buildinfo): [112 :white_check_mark: ](pmd-6.55.0.buildcompare) | 17M |
+| [6.54.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.54.0/pom) | [mvn jdk11](pmd-6.54.0.buildspec) | [result](pmd-6.54.0.buildinfo): [109 :white_check_mark: ](pmd-6.54.0.buildcompare) | 17M |
+| [6.53.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.53.0/pom) | [mvn jdk11](pmd-6.53.0.buildspec) | [result](pmd-6.53.0.buildinfo): [109 :white_check_mark: ](pmd-6.53.0.buildcompare) | 17M |
+| [6.52.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.52.0/pom) | [mvn jdk11](pmd-6.52.0.buildspec) | [result](pmd-6.52.0.buildinfo): [109 :white_check_mark: ](pmd-6.52.0.buildcompare) | 17M |
+| [6.51.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.51.0/pom) | [mvn jdk11](pmd-6.51.0.buildspec) | [result](pmd-6.51.0.buildinfo): [109 :white_check_mark: ](pmd-6.51.0.buildcompare) | 17M |
+| [6.50.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.50.0/pom) | [mvn jdk11](pmd-6.50.0.buildspec) | [result](pmd-6.50.0.buildinfo): [109 :white_check_mark: ](pmd-6.50.0.buildcompare) | 17M |
+| [6.49.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.49.0/pom) | [mvn jdk11](pmd-6.49.0.buildspec) | [result](pmd-6.49.0.buildinfo): [109 :white_check_mark: ](pmd-6.49.0.buildcompare) | 17M |
+| [6.48.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.48.0/pom) | [mvn jdk11](pmd-6.48.0.buildspec) | [result](pmd-6.48.0.buildinfo): [109 :white_check_mark: ](pmd-6.48.0.buildcompare) | 17M |
+| [6.47.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.47.0/pom) | [mvn jdk11](pmd-6.47.0.buildspec) | [result](pmd-6.47.0.buildinfo): [103 :white_check_mark: ](pmd-6.47.0.buildcompare) | 17M |
+| [6.46.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.46.0/pom) | [mvn jdk11](pmd-6.46.0.buildspec) | [result](pmd-6.46.0.buildinfo): [103 :white_check_mark: ](pmd-6.46.0.buildcompare) | 17M |
+| [6.45.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.45.0/pom) | [mvn jdk11](pmd-6.45.0.buildspec) | [result](pmd-6.45.0.buildinfo): [103 :white_check_mark: ](pmd-6.45.0.buildcompare) | 16M |
+| [6.44.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.44.0/pom) | [mvn jdk11](pmd-6.44.0.buildspec) | [result](pmd-6.44.0.buildinfo): [100 :white_check_mark: ](pmd-6.44.0.buildcompare) | 16M |
+| [6.43.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.43.0/pom) | [mvn jdk11](pmd-6.43.0.buildspec) | [result](pmd-6.43.0.buildinfo): [100 :white_check_mark: ](pmd-6.43.0.buildcompare) | 16M |
+| [6.42.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.42.0/pom) | [mvn jdk11](pmd-6.42.0.buildspec) | [result](pmd-6.42.0.buildinfo): [100 :white_check_mark: ](pmd-6.42.0.buildcompare) | 16M |
+| [6.41.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.41.0/pom) | [mvn jdk11](pmd-6.41.0.buildspec) | [result](pmd-6.41.0.buildinfo): [100 :white_check_mark: ](pmd-6.41.0.buildcompare) | 16M |
+| [6.40.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.40.0/pom) | [mvn jdk11](pmd-6.40.0.buildspec) | [result](pmd-6.40.0.buildinfo): [100 :white_check_mark: ](pmd-6.40.0.buildcompare) | 16M |
+| [6.39.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.39.0/pom) | [mvn jdk11](pmd-6.39.0.buildspec) | [result](pmd-6.39.0.buildinfo): [100 :white_check_mark: ](pmd-6.39.0.buildcompare) | 16M |
+| [6.38.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.38.0/pom) | [mvn jdk11](pmd-6.38.0.buildspec) | [result](pmd-6.38.0.buildinfo): [100 :white_check_mark: ](pmd-6.38.0.buildcompare) | 16M |
+| [6.37.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.37.0/pom) | [mvn jdk11](pmd-6.37.0.buildspec) | [result](pmd-6.37.0.buildinfo): [100 :white_check_mark: ](pmd-6.37.0.buildcompare) | 16M |
+| [6.36.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.36.0/pom) | [mvn jdk11](pmd-6.36.0.buildspec) | [result](pmd-6.36.0.buildinfo): [100 :white_check_mark: ](pmd-6.36.0.buildcompare) | 16M |
+| [6.35.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.35.0/pom) | [mvn jdk11](pmd-6.35.0.buildspec) | [result](pmd-6.35.0.buildinfo): [100 :white_check_mark: ](pmd-6.35.0.buildcompare) | 16M |
+| [6.34.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.34.0/pom) | [mvn jdk11](pmd-6.34.0.buildspec) | [result](pmd-6.34.0.buildinfo): [100 :white_check_mark: ](pmd-6.34.0.buildcompare) | 16M |
+| [6.33.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.33.0/pom) | [mvn jdk11](pmd-6.33.0.buildspec) | [result](pmd-6.33.0.buildinfo): [100 :white_check_mark: ](pmd-6.33.0.buildcompare) | 16M |
+| [6.32.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.32.0/pom) | [mvn jdk11](pmd-6.32.0.buildspec) | [result](pmd-6.32.0.buildinfo): [100 :white_check_mark: ](pmd-6.32.0.buildcompare) | 16M |
+| [6.31.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.31.0/pom) | [mvn jdk11](pmd-6.31.0.buildspec) | [result](pmd-6.31.0.buildinfo): [100 :white_check_mark: ](pmd-6.31.0.buildcompare) | 16M |
+| [6.30.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.30.0/pom) | [mvn jdk11](pmd-6.30.0.buildspec) | [result](pmd-scala_2.12-6.30.0.buildinfo): [96 :white_check_mark:  4 :warning:](pmd-scala_2.12-6.30.0.buildcompare) [:memo:](https://github.com/pmd/pmd/issues/2970) | 16M |
+| [6.29.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.29.0/pom) | [mvn jdk11](pmd-6.29.0.buildspec) | [result](pmd-scala_2.12-6.29.0.buildinfo): [100 :white_check_mark: ](pmd-scala_2.12-6.29.0.buildcompare) | 16M |
+| [6.28.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.28.0/pom) | [mvn jdk11](pmd-6.28.0.buildspec) | [result](pmd-scala_2.12-6.28.0.buildinfo): [100 :white_check_mark: ](pmd-scala_2.12-6.28.0.buildcompare) | 16M |
+| [6.27.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.27.0/pom) | [mvn jdk11](pmd-6.27.0.buildspec) | [result](pmd-scala_2.12-6.27.0.buildinfo): [100 :white_check_mark: ](pmd-scala_2.12-6.27.0.buildcompare) | 16M |
+| [6.26.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.26.0/pom) | [mvn jdk11](pmd-6.26.0.buildspec) | [result](pmd-doc-6.26.0.buildinfo): [100 :white_check_mark: ](pmd-doc-6.26.0.buildcompare) | 16M |
+| [6.25.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.25.0/pom) | [mvn jdk11](pmd-6.25.0.buildspec) | [result](pmd-doc-6.25.0.buildinfo): [100 :white_check_mark: ](pmd-doc-6.25.0.buildcompare) | 16M |
+| [6.24.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.24.0/pom) | [mvn jdk11](pmd-6.24.0.buildspec) | [result](pmd-doc-6.24.0.buildinfo): [95 :white_check_mark: ](pmd-doc-6.24.0.buildcompare) | 16M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -28,21 +28,21 @@ Source code: [https://github.com/apache/mina-sshd.git](https://github.com/apache
 </details>
 
 rebuilding **6 releases** of org.apache.sshd:sshd:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.12.1](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.12.1/pom) | [mvn jdk17](sshd-2.12.1.buildspec) | [result](sshd-2.12.1.buildinfo): [49 :heavy_check_mark:  3 :warning:](sshd-2.12.1.buildcompare) [:mag:](sshd-2.12.1.diffoscope) | 77M |
-| [2.12.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.12.0/pom) | [mvn jdk17](sshd-2.12.0.buildspec) | [result](sshd-2.12.0.buildinfo): [47 :heavy_check_mark:  5 :warning:](sshd-2.12.0.buildcompare) [:mag:](sshd-2.12.0.diffoscope) | 77M |
-| [2.11.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.11.0/pom) | [mvn jdk11](sshd-2.11.0.buildspec) | [result](sshd-2.11.0.buildinfo): [49 :heavy_check_mark:  3 :warning:](sshd-2.11.0.buildcompare) [:mag:](sshd-2.11.0.diffoscope) | 76M |
-| [2.10.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.10.0/pom) | [mvn jdk17](sshd-2.10.0.buildspec) | [result](sshd-2.10.0.buildinfo): [50 :heavy_check_mark:  2 :warning:](sshd-2.10.0.buildcompare) [:mag:](sshd-2.10.0.diffoscope) [:memo:](https://github.com/apache/mina-sshd/pull/378) | 73M |
+| [2.12.1](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.12.1/pom) | [mvn jdk17](sshd-2.12.1.buildspec) | [result](sshd-2.12.1.buildinfo): [49 :white_check_mark:  3 :warning:](sshd-2.12.1.buildcompare) [:mag:](sshd-2.12.1.diffoscope) | 77M |
+| [2.12.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.12.0/pom) | [mvn jdk17](sshd-2.12.0.buildspec) | [result](sshd-2.12.0.buildinfo): [47 :white_check_mark:  5 :warning:](sshd-2.12.0.buildcompare) [:mag:](sshd-2.12.0.diffoscope) | 77M |
+| [2.11.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.11.0/pom) | [mvn jdk11](sshd-2.11.0.buildspec) | [result](sshd-2.11.0.buildinfo): [49 :white_check_mark:  3 :warning:](sshd-2.11.0.buildcompare) [:mag:](sshd-2.11.0.diffoscope) | 76M |
+| [2.10.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.10.0/pom) | [mvn jdk17](sshd-2.10.0.buildspec) | [result](sshd-2.10.0.buildinfo): [50 :white_check_mark:  2 :warning:](sshd-2.10.0.buildcompare) [:mag:](sshd-2.10.0.diffoscope) [:memo:](https://github.com/apache/mina-sshd/pull/378) | 73M |
 | [2.9.3](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.9.3/pom) | | | |
 | [2.9.2](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.9.2/pom) | | | |
 | [2.9.1](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.9.1/pom) | | | |
 | [2.9.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.9.0/pom) | | | |
-| [2.8.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.8.0/pom) | [mvn jdk8](sshd-2.8.0.buildspec) | [result](sshd-2.8.0.buildinfo): [31 :heavy_check_mark:  21 :warning:](sshd-2.8.0.buildcompare) [:mag:](sshd-2.8.0.diffoscope) [:memo:](https://github.com/apache/mina-sshd/pull/271) | 61M |
+| [2.8.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.8.0/pom) | [mvn jdk8](sshd-2.8.0.buildspec) | [result](sshd-2.8.0.buildinfo): [31 :white_check_mark:  21 :warning:](sshd-2.8.0.buildcompare) [:mag:](sshd-2.8.0.diffoscope) [:memo:](https://github.com/apache/mina-sshd/pull/271) | 61M |
 | [2.7.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.7.0/pom) | | | |
-| [2.6.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.6.0/pom) | [mvn jdk8](sshd-2.6.0.buildspec) | [result](sshd-2.6.0.buildinfo): [15 :heavy_check_mark:  21 :warning:](sshd-2.6.0.buildcompare) [:mag:](sshd-2.6.0.diffoscope) | 59M |
+| [2.6.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.6.0/pom) | [mvn jdk8](sshd-2.6.0.buildspec) | [result](sshd-2.6.0.buildinfo): [15 :white_check_mark:  21 :warning:](sshd-2.6.0.buildcompare) [:mag:](sshd-2.6.0.diffoscope) | 59M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

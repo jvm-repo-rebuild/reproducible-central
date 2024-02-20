@@ -15,7 +15,7 @@ Source code: [https://github.com/pschichtel/JavaCAN.git](https://github.com/psch
 </details>
 
 rebuilding **1 releases** of tel.schich:javacan:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -26,6 +26,6 @@ rebuilding **1 releases** of tel.schich:javacan:
 | [3.2.5](https://central.sonatype.com/artifact/tel.schich/javacan/3.2.5/pom) | | | |
 | [3.2.4](https://central.sonatype.com/artifact/tel.schich/javacan/3.2.4/pom) | | | |
 | [3.2.3](https://central.sonatype.com/artifact/tel.schich/javacan/3.2.3/pom) | | | |
-| [3.2.2](https://central.sonatype.com/artifact/tel.schich/javacan/3.2.2/pom) | [mvn jdk8](javacan-3.2.2.buildspec) | [result](javacan-3.2.2.buildinfo): [16 :heavy_check_mark:  9 :warning:](javacan-3.2.2.buildcompare) [:mag:](javacan-3.2.2.diffoscope) | 408K |
+| [3.2.2](https://central.sonatype.com/artifact/tel.schich/javacan/3.2.2/pom) | [mvn jdk8](javacan-3.2.2.buildspec) | [result](javacan-3.2.2.buildinfo): [16 :white_check_mark:  9 :warning:](javacan-3.2.2.buildcompare) [:mag:](javacan-3.2.2.diffoscope) | 408K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

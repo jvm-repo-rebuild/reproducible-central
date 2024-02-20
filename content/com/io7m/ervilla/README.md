@@ -18,15 +18,15 @@ Source code: [https://github.com/io7m/ervilla.git](https://github.com/io7m/ervil
 </details>
 
 rebuilding **5 releases** of com.io7m.ervilla:com.io7m.ervilla:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.0.5](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/0.0.5/pom) | [mvn jdk17.0.8.1](com.io7m.ervilla-0.0.5.buildspec) | [result](com.io7m.ervilla-0.0.5.buildinfo): [27 :heavy_check_mark: ](com.io7m.ervilla-0.0.5.buildcompare) | 1.3M |
-| [0.0.4](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/0.0.4/pom) | [mvn jdk17.0.7](com.io7m.ervilla-0.0.4.buildspec) | [result](com.io7m.ervilla-0.0.4.buildinfo): [27 :heavy_check_mark: ](com.io7m.ervilla-0.0.4.buildcompare) | 806K |
-| [0.0.3](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/0.0.3/pom) | [mvn jdk17.0.7](com.io7m.ervilla-0.0.3.buildspec) | [result](com.io7m.ervilla-0.0.3.buildinfo): [27 :heavy_check_mark: ](com.io7m.ervilla-0.0.3.buildcompare) | 805K |
-| [0.0.2](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/0.0.2/pom) | [mvn jdk17.0.7](com.io7m.ervilla-0.0.2.buildspec) | [result](com.io7m.ervilla-0.0.2.buildinfo): [22 :heavy_check_mark: ](com.io7m.ervilla-0.0.2.buildcompare) | 136K |
-| [0.0.1](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/0.0.1/pom) | [mvn jdk17.0.7](com.io7m.ervilla-0.0.1.buildspec) | [result](com.io7m.ervilla-0.0.1.buildinfo): [18 :heavy_check_mark: ](com.io7m.ervilla-0.0.1.buildcompare) | 103K |
+| [0.0.5](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/0.0.5/pom) | [mvn jdk17.0.8.1](com.io7m.ervilla-0.0.5.buildspec) | [result](com.io7m.ervilla-0.0.5.buildinfo): [27 :white_check_mark: ](com.io7m.ervilla-0.0.5.buildcompare) | 1.3M |
+| [0.0.4](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/0.0.4/pom) | [mvn jdk17.0.7](com.io7m.ervilla-0.0.4.buildspec) | [result](com.io7m.ervilla-0.0.4.buildinfo): [27 :white_check_mark: ](com.io7m.ervilla-0.0.4.buildcompare) | 806K |
+| [0.0.3](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/0.0.3/pom) | [mvn jdk17.0.7](com.io7m.ervilla-0.0.3.buildspec) | [result](com.io7m.ervilla-0.0.3.buildinfo): [27 :white_check_mark: ](com.io7m.ervilla-0.0.3.buildcompare) | 805K |
+| [0.0.2](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/0.0.2/pom) | [mvn jdk17.0.7](com.io7m.ervilla-0.0.2.buildspec) | [result](com.io7m.ervilla-0.0.2.buildinfo): [22 :white_check_mark: ](com.io7m.ervilla-0.0.2.buildcompare) | 136K |
+| [0.0.1](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/0.0.1/pom) | [mvn jdk17.0.7](com.io7m.ervilla-0.0.1.buildspec) | [result](com.io7m.ervilla-0.0.1.buildinfo): [18 :white_check_mark: ](com.io7m.ervilla-0.0.1.buildcompare) | 103K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -84,14 +84,14 @@ Source code: [https://github.com/eclipse-ee4j/glassfish-hk2.git](https://github.
 </details>
 
 rebuilding **3 releases** of org.glassfish.hk2:hk2-parent:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.0.0-M1](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/4.0.0-M1/pom) | [mvn jdk17](hk2-4.0.0-M1.buildspec) | [result](hk2-parent-4.0.0-M1.buildinfo): [332 :heavy_check_mark: ](hk2-parent-4.0.0-M1.buildcompare) | 11M |
+| [4.0.0-M1](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/4.0.0-M1/pom) | [mvn jdk17](hk2-4.0.0-M1.buildspec) | [result](hk2-parent-4.0.0-M1.buildinfo): [332 :white_check_mark: ](hk2-parent-4.0.0-M1.buildcompare) | 11M |
 | [3.0.6](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/3.0.6/pom) | | | |
-| [3.0.5](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/3.0.5/pom) | [mvn jdk17](hk2-3.0.5.buildspec) | [result](hk2-parent-3.0.5.buildinfo): [188 :heavy_check_mark: ](hk2-parent-3.0.5.buildcompare) | 5.6M |
-| [3.0.4](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/3.0.4/pom) | [mvn jdk17](hk2-3.0.4.buildspec) | [result](hk2-parent-3.0.4.buildinfo): [171 :heavy_check_mark:  17 :warning:](hk2-parent-3.0.4.buildcompare) [:mag:](hk2-parent-3.0.4.diffoscope) [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/821) | 5.6M |
+| [3.0.5](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/3.0.5/pom) | [mvn jdk17](hk2-3.0.5.buildspec) | [result](hk2-parent-3.0.5.buildinfo): [188 :white_check_mark: ](hk2-parent-3.0.5.buildcompare) | 5.6M |
+| [3.0.4](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/3.0.4/pom) | [mvn jdk17](hk2-3.0.4.buildspec) | [result](hk2-parent-3.0.4.buildinfo): [171 :white_check_mark:  17 :warning:](hk2-parent-3.0.4.buildcompare) [:mag:](hk2-parent-3.0.4.diffoscope) [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/821) | 5.6M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

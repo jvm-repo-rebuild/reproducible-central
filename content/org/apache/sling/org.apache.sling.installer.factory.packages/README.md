@@ -8,12 +8,12 @@
 Source code: [https://github.com/apache/sling-org-apache-sling-installer-factory-packages.git](https://github.com/apache/sling-org-apache-sling-installer-factory-packages.git)
 
 rebuilding **2 releases** of org.apache.sling:org.apache.sling.installer.factory.packages:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.0.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.installer.factory.packages/1.0.4/pom) | [mvn jdk11](org.apache.sling.installer.factory.packages-1.0.4.buildspec) | [result](org.apache.sling.installer.factory.packages-1.0.4.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.installer.factory.packages-1.0.4.buildcompare) [:mag:](org.apache.sling.installer.factory.packages-1.0.4.diffoscope) | 77K |
-| [1.0.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.installer.factory.packages/1.0.2/pom) | [mvn jdk8](org.apache.sling.installer.factory.packages-1.0.2.buildspec) | [result](org.apache.sling.installer.factory.packages-1.0.2.buildinfo): [2 :heavy_check_mark:  1 :warning:](org.apache.sling.installer.factory.packages-1.0.2.buildcompare) | 73K |
+| [1.0.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.installer.factory.packages/1.0.4/pom) | [mvn jdk11](org.apache.sling.installer.factory.packages-1.0.4.buildspec) | [result](org.apache.sling.installer.factory.packages-1.0.4.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.installer.factory.packages-1.0.4.buildcompare) [:mag:](org.apache.sling.installer.factory.packages-1.0.4.diffoscope) | 77K |
+| [1.0.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.installer.factory.packages/1.0.2/pom) | [mvn jdk8](org.apache.sling.installer.factory.packages-1.0.2.buildspec) | [result](org.apache.sling.installer.factory.packages-1.0.2.buildinfo): [2 :white_check_mark:  1 :warning:](org.apache.sling.installer.factory.packages-1.0.2.buildcompare) | 73K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

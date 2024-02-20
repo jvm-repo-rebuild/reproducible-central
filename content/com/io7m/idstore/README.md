@@ -59,12 +59,12 @@ Source code: [https://github.com/io7m/idstore.git](https://github.com/io7m/idsto
 </details>
 
 rebuilding **2 releases** of com.io7m.idstore:com.io7m.idstore:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.0.0](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0/pom) | [mvn jdk21](com.io7m.idstore-1.0.0.buildspec) | [result](com.io7m.idstore-1.0.0.buildinfo): [225 :heavy_check_mark:  4 :warning:](com.io7m.idstore-1.0.0.buildcompare) [:mag:](com.io7m.idstore-1.0.0.diffoscope) | 53M |
+| [1.0.0](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0/pom) | [mvn jdk21](com.io7m.idstore-1.0.0.buildspec) | [result](com.io7m.idstore-1.0.0.buildinfo): [225 :white_check_mark:  4 :warning:](com.io7m.idstore-1.0.0.buildcompare) [:mag:](com.io7m.idstore-1.0.0.diffoscope) | 53M |
 | [1.0.0-rc0006](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0-rc0006/pom) | | | |
 | [1.0.0-rc0005](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0-rc0005/pom) | | | |
 | [1.0.0-rc0004](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0-rc0004/pom) | | | |
@@ -88,6 +88,6 @@ rebuilding **2 releases** of com.io7m.idstore:com.io7m.idstore:
 | [1.0.0-beta0003](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0-beta0003/pom) | | | |
 | [1.0.0-beta0002](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0-beta0002/pom) | | | |
 | [1.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0-beta0001/pom) | | | |
-| [0.0.14](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/0.0.14/pom) | [mvn jdk17.0.7](com.io7m.idstore-0.0.14.buildspec) | [result](com.io7m.idstore-0.0.14.buildinfo): [151 :heavy_check_mark:  5 :warning:](com.io7m.idstore-0.0.14.buildcompare) [:mag:](com.io7m.idstore-0.0.14.diffoscope) | 25M |
+| [0.0.14](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/0.0.14/pom) | [mvn jdk17.0.7](com.io7m.idstore-0.0.14.buildspec) | [result](com.io7m.idstore-0.0.14.buildinfo): [151 :white_check_mark:  5 :warning:](com.io7m.idstore-0.0.14.buildcompare) [:mag:](com.io7m.idstore-0.0.14.diffoscope) | 25M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

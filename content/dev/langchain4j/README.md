@@ -53,14 +53,14 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 </details>
 
 rebuilding **3 releases** of dev.langchain4j:langchain4j:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.27.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.27.1/pom) | [mvn jdk21](langchain4j-0.27.1.buildspec) | [result](langchain4j-aggregator-0.27.1.buildinfo): [120 :heavy_check_mark: ](langchain4j-aggregator-0.27.1.buildcompare) | 2.2M |
-| [0.27.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.27.0/pom) | [mvn jdk21](langchain4j-0.27.0.buildspec) | [result](langchain4j-aggregator-0.27.0.buildinfo): [120 :heavy_check_mark: ](langchain4j-aggregator-0.27.0.buildcompare) | 2.2M |
+| [0.27.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.27.1/pom) | [mvn jdk21](langchain4j-0.27.1.buildspec) | [result](langchain4j-aggregator-0.27.1.buildinfo): [120 :white_check_mark: ](langchain4j-aggregator-0.27.1.buildcompare) | 2.2M |
+| [0.27.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.27.0/pom) | [mvn jdk21](langchain4j-0.27.0.buildspec) | [result](langchain4j-aggregator-0.27.0.buildinfo): [120 :white_check_mark: ](langchain4j-aggregator-0.27.0.buildcompare) | 2.2M |
 | [0.26.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.26.1/pom) | | | |
-| [0.26.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.26.0/pom) | [mvn jdk8](langchain4j-0.26.0.buildspec) | [result](langchain4j-aggregator-0.26.0.buildinfo): [32 :heavy_check_mark:  70 :warning:](langchain4j-aggregator-0.26.0.buildcompare) [:memo:](https://github.com/langchain4j/langchain4j/pull/569) | 2.0M |
+| [0.26.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.26.0/pom) | [mvn jdk8](langchain4j-0.26.0.buildspec) | [result](langchain4j-aggregator-0.26.0.buildinfo): [32 :white_check_mark:  70 :warning:](langchain4j-aggregator-0.26.0.buildcompare) [:memo:](https://github.com/langchain4j/langchain4j/pull/569) | 2.0M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

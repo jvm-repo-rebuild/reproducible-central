@@ -16,11 +16,11 @@ Source code: [https://gitlab.com/ongresinc/stringprep.git](https://gitlab.com/on
 </details>
 
 rebuilding **1 releases** of com.ongres.stringprep:parent:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0](https://central.sonatype.com/artifact/com.ongres.stringprep/parent/2.0/pom) | [mvn jdk11](stringprep-2.0.buildspec) | [result](parent-2.0.buildinfo): [7 :heavy_check_mark:  3 :warning:](parent-2.0.buildcompare) [:mag:](parent-2.0.diffoscope) [:memo:](https://gitlab.com/ongresinc/stringprep/-/commit/208cd7056b32e27678570f22add616e045af5573#442292b8a7efeabbe4cc176709b833b1792140ec_86_84) | 114K |
+| [2.0](https://central.sonatype.com/artifact/com.ongres.stringprep/parent/2.0/pom) | [mvn jdk11](stringprep-2.0.buildspec) | [result](parent-2.0.buildinfo): [7 :white_check_mark:  3 :warning:](parent-2.0.buildcompare) [:mag:](parent-2.0.diffoscope) [:memo:](https://gitlab.com/ongresinc/stringprep/-/commit/208cd7056b32e27678570f22add616e045af5573#442292b8a7efeabbe4cc176709b833b1792140ec_86_84) | 114K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

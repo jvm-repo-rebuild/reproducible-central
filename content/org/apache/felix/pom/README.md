@@ -8,12 +8,12 @@
 Source code: [https://github.com/apache/felix-dev.git](https://github.com/apache/felix-dev.git)
 
 rebuilding **2 releases** of org.apache.felix:felix-parent:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [8](https://central.sonatype.com/artifact/org.apache.felix/felix-parent/8/pom) | [mvn jdk8](felix-parent-8.buildspec) | [result](felix-parent-8.buildinfo): [3 :heavy_check_mark: ](felix-parent-8.buildcompare) | 36K |
-| [7](https://central.sonatype.com/artifact/org.apache.felix/felix-parent/7/pom) | [mvn jdk8](felix-parent-7.buildspec) | [result](felix-parent-7.buildinfo): [3 :heavy_check_mark: ](felix-parent-7.buildcompare) | 37K |
+| [8](https://central.sonatype.com/artifact/org.apache.felix/felix-parent/8/pom) | [mvn jdk8](felix-parent-8.buildspec) | [result](felix-parent-8.buildinfo): [3 :white_check_mark: ](felix-parent-8.buildcompare) | 36K |
+| [7](https://central.sonatype.com/artifact/org.apache.felix/felix-parent/7/pom) | [mvn jdk8](felix-parent-7.buildspec) | [result](felix-parent-7.buildinfo): [3 :white_check_mark: ](felix-parent-7.buildcompare) | 37K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

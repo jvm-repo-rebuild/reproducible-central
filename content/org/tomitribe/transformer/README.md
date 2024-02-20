@@ -16,12 +16,12 @@ Source code: [https://github.com/tomitribe/transformer.git](https://github.com/t
 </details>
 
 rebuilding **2 releases** of org.tomitribe.transformer:org.eclipse.transformer.parent:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.1.1a](https://central.sonatype.com/artifact/org.tomitribe.transformer/org.eclipse.transformer.parent/0.1.1a/pom) | [mvn jdk8](org.eclipse.transformer.parent-0.1.1a.buildspec) | [result](org.eclipse.transformer.maven-0.1.1a.buildinfo): [4 :heavy_check_mark: ](org.eclipse.transformer.maven-0.1.1a.buildcompare) | 678K |
-| [0.1.1](https://central.sonatype.com/artifact/org.tomitribe.transformer/org.eclipse.transformer.parent/0.1.1/pom) | [mvn jdk8](org.eclipse.transformer.parent-0.1.1.buildspec) | [result](org.eclipse.transformer.maven-0.1.1.buildinfo): [4 :heavy_check_mark: ](org.eclipse.transformer.maven-0.1.1.buildcompare) | 679K |
+| [0.1.1a](https://central.sonatype.com/artifact/org.tomitribe.transformer/org.eclipse.transformer.parent/0.1.1a/pom) | [mvn jdk8](org.eclipse.transformer.parent-0.1.1a.buildspec) | [result](org.eclipse.transformer.maven-0.1.1a.buildinfo): [4 :white_check_mark: ](org.eclipse.transformer.maven-0.1.1a.buildcompare) | 678K |
+| [0.1.1](https://central.sonatype.com/artifact/org.tomitribe.transformer/org.eclipse.transformer.parent/0.1.1/pom) | [mvn jdk8](org.eclipse.transformer.parent-0.1.1.buildspec) | [result](org.eclipse.transformer.maven-0.1.1.buildinfo): [4 :white_check_mark: ](org.eclipse.transformer.maven-0.1.1.buildcompare) | 679K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -31,18 +31,18 @@ Source code: [https://github.com/jline/jline3.git](https://github.com/jline/jlin
 </details>
 
 rebuilding **7 releases** of org.jline:jline-parent:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.25.1](https://central.sonatype.com/artifact/org.jline/jline-parent/3.25.1/pom) | [mvn jdk21](jline-3.25.1.buildspec) | [result](jline-parent-3.25.1.buildinfo): [55 :heavy_check_mark: ](jline-parent-3.25.1.buildcompare) | 5.6M |
-| [3.25.0](https://central.sonatype.com/artifact/org.jline/jline-parent/3.25.0/pom) | [mvn jdk21](jline-3.25.0.buildspec) | [result](jline-parent-3.25.0.buildinfo): [37 :heavy_check_mark: ](jline-parent-3.25.0.buildcompare) | 3.4M |
-| [3.24.1](https://central.sonatype.com/artifact/org.jline/jline-parent/3.24.1/pom) | [mvn jdk21](jline-3.24.1.buildspec) | [result](jline-parent-3.24.1.buildinfo): [49 :heavy_check_mark: ](jline-parent-3.24.1.buildcompare) | 4.3M |
-| [3.24.0](https://central.sonatype.com/artifact/org.jline/jline-parent/3.24.0/pom) | [mvn jdk21](jline-3.24.0.buildspec) | [result](jline-parent-3.24.0.buildinfo): [49 :heavy_check_mark: ](jline-parent-3.24.0.buildcompare) | 4.3M |
-| [3.23.0](https://central.sonatype.com/artifact/org.jline/jline-parent/3.23.0/pom) | [mvn jdk17](jline-3.23.0.buildspec) | [result](jline-parent-3.23.0.buildinfo): [29 :heavy_check_mark:  14 :warning:](jline-parent-3.23.0.buildcompare) [:mag:](jline-parent-3.23.0.diffoscope) | 3.8M |
+| [3.25.1](https://central.sonatype.com/artifact/org.jline/jline-parent/3.25.1/pom) | [mvn jdk21](jline-3.25.1.buildspec) | [result](jline-parent-3.25.1.buildinfo): [55 :white_check_mark: ](jline-parent-3.25.1.buildcompare) | 5.6M |
+| [3.25.0](https://central.sonatype.com/artifact/org.jline/jline-parent/3.25.0/pom) | [mvn jdk21](jline-3.25.0.buildspec) | [result](jline-parent-3.25.0.buildinfo): [37 :white_check_mark: ](jline-parent-3.25.0.buildcompare) | 3.4M |
+| [3.24.1](https://central.sonatype.com/artifact/org.jline/jline-parent/3.24.1/pom) | [mvn jdk21](jline-3.24.1.buildspec) | [result](jline-parent-3.24.1.buildinfo): [49 :white_check_mark: ](jline-parent-3.24.1.buildcompare) | 4.3M |
+| [3.24.0](https://central.sonatype.com/artifact/org.jline/jline-parent/3.24.0/pom) | [mvn jdk21](jline-3.24.0.buildspec) | [result](jline-parent-3.24.0.buildinfo): [49 :white_check_mark: ](jline-parent-3.24.0.buildcompare) | 4.3M |
+| [3.23.0](https://central.sonatype.com/artifact/org.jline/jline-parent/3.23.0/pom) | [mvn jdk17](jline-3.23.0.buildspec) | [result](jline-parent-3.23.0.buildinfo): [29 :white_check_mark:  14 :warning:](jline-parent-3.23.0.buildcompare) [:mag:](jline-parent-3.23.0.diffoscope) | 3.8M |
 | [3.22.0](https://central.sonatype.com/artifact/org.jline/jline-parent/3.22.0/pom) | | | |
-| [3.21.0](https://central.sonatype.com/artifact/org.jline/jline-parent/3.21.0/pom) | [mvn jdk11](jline-3.21.0.buildspec) | [result](jline-parent-3.21.0.buildinfo): [40 :heavy_check_mark: ](jline-parent-3.21.0.buildcompare) | 3.3M |
-| [3.20.0](https://central.sonatype.com/artifact/org.jline/jline-parent/3.20.0/pom) | [mvn jdk11](jline-3.20.0.buildspec) | [result](jline-parent-3.20.0.buildinfo): [40 :heavy_check_mark: ](jline-parent-3.20.0.buildcompare) | 3.3M |
+| [3.21.0](https://central.sonatype.com/artifact/org.jline/jline-parent/3.21.0/pom) | [mvn jdk11](jline-3.21.0.buildspec) | [result](jline-parent-3.21.0.buildinfo): [40 :white_check_mark: ](jline-parent-3.21.0.buildcompare) | 3.3M |
+| [3.20.0](https://central.sonatype.com/artifact/org.jline/jline-parent/3.20.0/pom) | [mvn jdk11](jline-3.20.0.buildspec) | [result](jline-parent-3.20.0.buildinfo): [40 :white_check_mark: ](jline-parent-3.20.0.buildcompare) | 3.3M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

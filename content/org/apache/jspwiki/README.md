@@ -47,18 +47,18 @@ Source code: [https://github.com/apache/jspwiki.git](https://github.com/apache/j
 </details>
 
 rebuilding **7 releases** of org.apache.jspwiki:jspwiki-builder:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [2.12.1](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.12.1/pom) | | | |
 | [2.12.0](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.12.0/pom) | [mvn jdk17 w](jspwiki-2.12.0.buildspec) | :x: | |
-| [2.11.3](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.11.3/pom) | [mvn jdk8 w](jspwiki-2.11.3.buildspec) | [result](jspwiki-builder-2.11.3.buildinfo): [110 :heavy_check_mark: ](jspwiki-builder-2.11.3.buildcompare) | 297M |
-| [2.11.2](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.11.2/pom) | [mvn jdk8 w](jspwiki-2.11.2.buildspec) | [result](jspwiki-builder-2.11.2.buildinfo): [107 :heavy_check_mark:  1 :warning:](jspwiki-builder-2.11.2.buildcompare) [:mag:](jspwiki-builder-2.11.2.diffoscope) | 293M |
-| [2.11.1](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.11.1/pom) | [mvn jdk8 w](jspwiki-2.11.1.buildspec) | [result](jspwiki-builder-2.11.1.buildinfo): [104 :heavy_check_mark:  1 :warning:](jspwiki-builder-2.11.1.buildcompare) [:mag:](jspwiki-builder-2.11.1.diffoscope) | 292M |
-| [2.11.0](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.11.0/pom) | [mvn jdk8 w](jspwiki-2.11.0.buildspec) | [result](jspwiki-builder-2.11.0.buildinfo): [70 :heavy_check_mark:  1 :warning:](jspwiki-builder-2.11.0.buildcompare) [:mag:](jspwiki-builder-2.11.0.diffoscope) | 291M |
-| [2.11.0.M8](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.11.0.M8/pom) | [mvn jdk8 w](jspwiki-2.11.0.M8.buildspec) | [result](jspwiki-it-test-cma-jdbc-2.11.0.M8.buildinfo): [68 :heavy_check_mark:  1 :warning:](jspwiki-it-test-cma-jdbc-2.11.0.M8.buildcompare) | 223M |
-| [2.11.0.M7](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.11.0.M7/pom) | [mvn jdk8](jspwiki-2.11.0.M7.buildspec) | [result](jspwiki-it-test-cma-jdbc-2.11.0.M7.buildinfo): [11 :heavy_check_mark:  58 :warning:](jspwiki-it-test-cma-jdbc-2.11.0.M7.buildcompare) | 216M |
+| [2.11.3](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.11.3/pom) | [mvn jdk8 w](jspwiki-2.11.3.buildspec) | [result](jspwiki-builder-2.11.3.buildinfo): [110 :white_check_mark: ](jspwiki-builder-2.11.3.buildcompare) | 297M |
+| [2.11.2](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.11.2/pom) | [mvn jdk8 w](jspwiki-2.11.2.buildspec) | [result](jspwiki-builder-2.11.2.buildinfo): [107 :white_check_mark:  1 :warning:](jspwiki-builder-2.11.2.buildcompare) [:mag:](jspwiki-builder-2.11.2.diffoscope) | 293M |
+| [2.11.1](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.11.1/pom) | [mvn jdk8 w](jspwiki-2.11.1.buildspec) | [result](jspwiki-builder-2.11.1.buildinfo): [104 :white_check_mark:  1 :warning:](jspwiki-builder-2.11.1.buildcompare) [:mag:](jspwiki-builder-2.11.1.diffoscope) | 292M |
+| [2.11.0](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.11.0/pom) | [mvn jdk8 w](jspwiki-2.11.0.buildspec) | [result](jspwiki-builder-2.11.0.buildinfo): [70 :white_check_mark:  1 :warning:](jspwiki-builder-2.11.0.buildcompare) [:mag:](jspwiki-builder-2.11.0.diffoscope) | 291M |
+| [2.11.0.M8](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.11.0.M8/pom) | [mvn jdk8 w](jspwiki-2.11.0.M8.buildspec) | [result](jspwiki-it-test-cma-jdbc-2.11.0.M8.buildinfo): [68 :white_check_mark:  1 :warning:](jspwiki-it-test-cma-jdbc-2.11.0.M8.buildcompare) | 223M |
+| [2.11.0.M7](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.11.0.M7/pom) | [mvn jdk8](jspwiki-2.11.0.M7.buildspec) | [result](jspwiki-it-test-cma-jdbc-2.11.0.M7.buildinfo): [11 :white_check_mark:  58 :warning:](jspwiki-it-test-cma-jdbc-2.11.0.M7.buildcompare) | 216M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

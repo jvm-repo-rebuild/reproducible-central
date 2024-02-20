@@ -17,12 +17,12 @@ Source code: [https://github.com/FasterXML/jackson-dataformats-text.git](https:/
 </details>
 
 rebuilding **2 releases** of com.fasterxml.jackson.dataformat:jackson-dataformats-text:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.16.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-text/2.16.1/pom) | [mvn jdk8](jackson-dataformats-text-2.16.1.buildspec) | [result](jackson-dataformats-text-2.16.1.buildinfo): [13 :heavy_check_mark: ](jackson-dataformats-text-2.16.1.buildcompare) | 291K |
-| [2.16.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-text/2.16.0/pom) | [mvn jdk8](jackson-dataformats-text-2.16.0.buildspec) | [result](jackson-dataformats-text-2.16.0.buildinfo): [13 :heavy_check_mark: ](jackson-dataformats-text-2.16.0.buildcompare) | 291K |
+| [2.16.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-text/2.16.1/pom) | [mvn jdk8](jackson-dataformats-text-2.16.1.buildspec) | [result](jackson-dataformats-text-2.16.1.buildinfo): [13 :white_check_mark: ](jackson-dataformats-text-2.16.1.buildcompare) | 291K |
+| [2.16.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-text/2.16.0/pom) | [mvn jdk8](jackson-dataformats-text-2.16.0.buildspec) | [result](jackson-dataformats-text-2.16.0.buildinfo): [13 :white_check_mark: ](jackson-dataformats-text-2.16.0.buildcompare) | 291K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

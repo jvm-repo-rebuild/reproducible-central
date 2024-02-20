@@ -17,11 +17,11 @@ Source code: [https://github.com/apache/logging-log4j-transform.git](https://git
 </details>
 
 rebuilding **1 releases** of org.apache.logging.log4j:log4j-transform-bom:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.1.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-transform-bom/0.1.0/pom) | [mvn jdk17](log4j-transform-0.1.0.buildspec) | [result](log4j-transform-bom-0.1.0.buildinfo): [12 :heavy_check_mark: ](log4j-transform-bom-0.1.0.buildcompare) | 265K |
+| [0.1.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-transform-bom/0.1.0/pom) | [mvn jdk17](log4j-transform-0.1.0.buildspec) | [result](log4j-transform-bom-0.1.0.buildinfo): [12 :white_check_mark: ](log4j-transform-bom-0.1.0.buildcompare) | 265K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -27,11 +27,11 @@ Source code: [https://github.com/apache/directory-scimple.git](https://github.co
 </details>
 
 rebuilding **1 releases** of org.apache.directory.scimple:scimple:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.0.0-M1](https://central.sonatype.com/artifact/org.apache.directory.scimple/scimple/1.0.0-M1/pom) | [mvn jdk17](scimple-1.0.0-M1.buildspec) | [result](scimple-1.0.0-M1.buildinfo): [1 :heavy_check_mark:  2 :warning:](scimple-1.0.0-M1.buildcompare) [:mag:](scimple-1.0.0-M1.diffoscope) | 5.4M |
+| [1.0.0-M1](https://central.sonatype.com/artifact/org.apache.directory.scimple/scimple/1.0.0-M1/pom) | [mvn jdk17](scimple-1.0.0-M1.buildspec) | [result](scimple-1.0.0-M1.buildinfo): [1 :white_check_mark:  2 :warning:](scimple-1.0.0-M1.buildcompare) [:mag:](scimple-1.0.0-M1.diffoscope) | 5.4M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

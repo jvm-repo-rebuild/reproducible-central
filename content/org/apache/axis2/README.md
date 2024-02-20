@@ -66,12 +66,12 @@ Source code: [https://github.com/apache/axis-axis2-java-core.git](https://github
 </details>
 
 rebuilding **1 releases** of org.apache.axis2:axis2:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [1.8.2](https://central.sonatype.com/artifact/org.apache.axis2/axis2/1.8.2/pom) | | | |
-| [1.8.1](https://central.sonatype.com/artifact/org.apache.axis2/axis2/1.8.1/pom) | [mvn jdk11](axis2-1.8.1.buildspec) | [result](axis2-1.8.1.buildinfo): [138 :heavy_check_mark:  28 :warning:](axis2-1.8.1.buildcompare) [:mag:](axis2-1.8.1.diffoscope) | 42M |
+| [1.8.1](https://central.sonatype.com/artifact/org.apache.axis2/axis2/1.8.1/pom) | [mvn jdk11](axis2-1.8.1.buildspec) | [result](axis2-1.8.1.buildinfo): [138 :white_check_mark:  28 :warning:](axis2-1.8.1.buildcompare) [:mag:](axis2-1.8.1.diffoscope) | 42M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

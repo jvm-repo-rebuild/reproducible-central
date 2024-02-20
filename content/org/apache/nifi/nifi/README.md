@@ -786,7 +786,7 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 </details>
 
 rebuilding **8 releases** of org.apache.nifi:nifi:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -798,16 +798,16 @@ rebuilding **8 releases** of org.apache.nifi:nifi:
 | [1.23.2](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.23.2/pom) | | | |
 | [1.23.1](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.23.1/pom) | | | |
 | [1.23.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.23.0/pom) | | | |
-| [1.22.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.22.0/pom) | [mvn jdk8](nifi-1.22.0.buildspec) | [result](nifi-1.22.0.buildinfo): [1900 :heavy_check_mark:  64 :warning:](nifi-1.22.0.buildcompare) [:mag:](nifi-1.22.0.diffoscope) | 3.8G |
-| [1.21.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.21.0/pom) | [mvn jdk8](nifi-1.21.0.buildspec) | [result](nifi-1.21.0.buildinfo): [1898 :heavy_check_mark:  56 :warning:](nifi-1.21.0.buildcompare) | 3.7G |
-| [1.20.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.20.0/pom) | [mvn jdk8](nifi-1.20.0.buildspec) | [result](nifi-1.20.0.buildinfo): [1893 :heavy_check_mark:  55 :warning:](nifi-1.20.0.buildcompare) [:mag:](nifi-1.20.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/NIFI-10892) | 3.9G |
+| [1.22.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.22.0/pom) | [mvn jdk8](nifi-1.22.0.buildspec) | [result](nifi-1.22.0.buildinfo): [1900 :white_check_mark:  64 :warning:](nifi-1.22.0.buildcompare) [:mag:](nifi-1.22.0.diffoscope) | 3.8G |
+| [1.21.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.21.0/pom) | [mvn jdk8](nifi-1.21.0.buildspec) | [result](nifi-1.21.0.buildinfo): [1898 :white_check_mark:  56 :warning:](nifi-1.21.0.buildcompare) | 3.7G |
+| [1.20.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.20.0/pom) | [mvn jdk8](nifi-1.20.0.buildspec) | [result](nifi-1.20.0.buildinfo): [1893 :white_check_mark:  55 :warning:](nifi-1.20.0.buildcompare) [:mag:](nifi-1.20.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/NIFI-10892) | 3.9G |
 | [1.19.1](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.19.1/pom) | | | |
-| [1.19.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.19.0/pom) | [mvn jdk8](nifi-1.19.0.buildspec) | [result](nifi-1.19.0.buildinfo): [1677 :heavy_check_mark:  200 :warning:](nifi-1.19.0.buildcompare) [:mag:](nifi-1.19.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/NIFI-10892) | 3.8G |
+| [1.19.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.19.0/pom) | [mvn jdk8](nifi-1.19.0.buildspec) | [result](nifi-1.19.0.buildinfo): [1677 :white_check_mark:  200 :warning:](nifi-1.19.0.buildcompare) [:mag:](nifi-1.19.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/NIFI-10892) | 3.8G |
 | [1.18.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.18.0/pom) | | | |
-| [1.17.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.17.0/pom) | [mvn jdk8](nifi-1.17.0.buildspec) | [result](nifi-1.17.0.buildinfo): [1505 :heavy_check_mark:  171 :warning:](nifi-1.17.0.buildcompare) [:mag:](nifi-1.17.0.diffoscope) [:memo:](https://github.com/apache/nifi/pull/6500) | 2.9G |
+| [1.17.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.17.0/pom) | [mvn jdk8](nifi-1.17.0.buildspec) | [result](nifi-1.17.0.buildinfo): [1505 :white_check_mark:  171 :warning:](nifi-1.17.0.buildcompare) [:mag:](nifi-1.17.0.diffoscope) [:memo:](https://github.com/apache/nifi/pull/6500) | 2.9G |
 | [1.16.3](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.16.3/pom) | | | |
-| [1.16.2](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.16.2/pom) | [mvn jdk8](nifi-1.16.2.buildspec) | [result](nifi-1.16.2.buildinfo): [1282 :heavy_check_mark:  371 :warning:](nifi-1.16.2.buildcompare) [:memo:](https://github.com/apache/nifi/pull/5915) | 3.2G |
-| [1.16.1](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.16.1/pom) | [mvn jdk8](nifi-1.16.1.buildspec) | [result](nifi-1.16.1.buildinfo): [1282 :heavy_check_mark:  371 :warning:](nifi-1.16.1.buildcompare) [:memo:](https://github.com/apache/nifi/pull/5915) | 3.2G |
-| [1.16.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.16.0/pom) | [mvn jdk8](nifi-1.16.0.buildspec) | [result](nifi-1.16.0.buildinfo): [1273 :heavy_check_mark:  371 :warning:](nifi-1.16.0.buildcompare) [:mag:](nifi-1.16.0.diffoscope) [:memo:](https://github.com/apache/nifi/pull/5915) | 3.4G |
+| [1.16.2](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.16.2/pom) | [mvn jdk8](nifi-1.16.2.buildspec) | [result](nifi-1.16.2.buildinfo): [1282 :white_check_mark:  371 :warning:](nifi-1.16.2.buildcompare) [:memo:](https://github.com/apache/nifi/pull/5915) | 3.2G |
+| [1.16.1](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.16.1/pom) | [mvn jdk8](nifi-1.16.1.buildspec) | [result](nifi-1.16.1.buildinfo): [1282 :white_check_mark:  371 :warning:](nifi-1.16.1.buildcompare) [:memo:](https://github.com/apache/nifi/pull/5915) | 3.2G |
+| [1.16.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.16.0/pom) | [mvn jdk8](nifi-1.16.0.buildspec) | [result](nifi-1.16.0.buildinfo): [1273 :white_check_mark:  371 :warning:](nifi-1.16.0.buildcompare) [:mag:](nifi-1.16.0.diffoscope) [:memo:](https://github.com/apache/nifi/pull/5915) | 3.4G |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

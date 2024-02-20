@@ -18,14 +18,14 @@ Source code: [https://github.com/io7m/jade.git](https://github.com/io7m/jade.git
 </details>
 
 rebuilding **2 releases** of com.io7m.jade:com.io7m.jade:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.0.2](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade/1.0.2/pom) | [mvn jdk17.0.3](com.io7m.jade-1.0.2.buildspec) | [result](com.io7m.jade-1.0.2.buildinfo): [22 :heavy_check_mark: ](com.io7m.jade-1.0.2.buildcompare) [:mag:](com.io7m.jade-1.0.2.diffoscope)
+| [1.0.2](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade/1.0.2/pom) | [mvn jdk17.0.3](com.io7m.jade-1.0.2.buildspec) | [result](com.io7m.jade-1.0.2.buildinfo): [22 :white_check_mark: ](com.io7m.jade-1.0.2.buildcompare) [:mag:](com.io7m.jade-1.0.2.diffoscope)
 [1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/com/io7m/jade/com.io7m.jade-1.0.2.buildspec[0m
  | 303K |
-| [1.0.1](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade/1.0.1/pom) | [mvn jdk11.0.6](com.io7m.jade-1.0.1.buildspec) | [result](com.io7m.jade-1.0.1.buildinfo): [22 :heavy_check_mark:  1 :warning:](com.io7m.jade-1.0.1.buildcompare) [:mag:](com.io7m.jade-1.0.1.diffoscope) | 582K |
+| [1.0.1](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade/1.0.1/pom) | [mvn jdk11.0.6](com.io7m.jade-1.0.1.buildspec) | [result](com.io7m.jade-1.0.1.buildinfo): [22 :white_check_mark:  1 :warning:](com.io7m.jade-1.0.1.buildcompare) [:mag:](com.io7m.jade-1.0.1.diffoscope) | 582K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

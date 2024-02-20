@@ -120,23 +120,23 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 </details>
 
 rebuilding **6 releases** of org.apache.tika:tika:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [3.0.0-BETA](https://central.sonatype.com/artifact/org.apache.tika/tika/3.0.0-BETA/pom) | | | |
 | [2.9.1](https://central.sonatype.com/artifact/org.apache.tika/tika/2.9.1/pom) | | | |
-| [2.9.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.9.0/pom) | [mvn jdk17](tika-2.9.0.buildspec) | [result](tika-2.9.0.buildinfo): [338 :heavy_check_mark:  16 :warning:](tika-2.9.0.buildcompare) [:mag:](tika-2.9.0.diffoscope) | 1.3G |
+| [2.9.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.9.0/pom) | [mvn jdk17](tika-2.9.0.buildspec) | [result](tika-2.9.0.buildinfo): [338 :white_check_mark:  16 :warning:](tika-2.9.0.buildcompare) [:mag:](tika-2.9.0.diffoscope) | 1.3G |
 | [2.8.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.8.0/pom) | | | |
 | [2.7.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.7.0/pom) | | | |
 | [2.6.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.6.0/pom) | | | |
 | [2.5.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.5.0/pom) | | | |
 | [2.4.1](https://central.sonatype.com/artifact/org.apache.tika/tika/2.4.1/pom) | | | |
-| [2.4.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.4.0/pom) | [mvn jdk8](tika-2.4.0.buildspec) | [result](tika-2.4.0.buildinfo): [272 :heavy_check_mark:  44 :warning:](tika-2.4.0.buildcompare) [:mag:](tika-2.4.0.diffoscope) [:memo:](https://github.com/apache/tika/commit/57d29fb6633a3c65fd40a29b93287f4d4695727d) | 1.2G |
-| [2.3.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.3.0/pom) | [mvn jdk8](tika-2.3.0.buildspec) | [result](tika-2.3.0.buildinfo): [214 :heavy_check_mark:  74 :warning:](tika-2.3.0.buildcompare) [:mag:](tika-2.3.0.diffoscope) | 1.8G |
-| [2.2.1](https://central.sonatype.com/artifact/org.apache.tika/tika/2.2.1/pom) | [mvn jdk8](tika-2.2.1.buildspec) | [result](tika-2.2.1.buildinfo): [91 :heavy_check_mark:  196 :warning:](tika-2.2.1.buildcompare) [:mag:](tika-2.2.1.diffoscope) | 1.8G |
-| [2.2.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.2.0/pom) | [mvn jdk8](tika-2.2.0.buildspec) | [result](tika-2.2.0.buildinfo): [91 :heavy_check_mark:  196 :warning:](tika-2.2.0.buildcompare) [:mag:](tika-2.2.0.diffoscope) | 1.8G |
-| [2.1.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.1.0/pom) | [mvn jdk8](tika-2.1.0.buildspec) | [result](tika-2.1.0.buildinfo): [91 :heavy_check_mark:  196 :warning:](tika-2.1.0.buildcompare) [:mag:](tika-2.1.0.diffoscope) | 1.8G |
+| [2.4.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.4.0/pom) | [mvn jdk8](tika-2.4.0.buildspec) | [result](tika-2.4.0.buildinfo): [272 :white_check_mark:  44 :warning:](tika-2.4.0.buildcompare) [:mag:](tika-2.4.0.diffoscope) [:memo:](https://github.com/apache/tika/commit/57d29fb6633a3c65fd40a29b93287f4d4695727d) | 1.2G |
+| [2.3.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.3.0/pom) | [mvn jdk8](tika-2.3.0.buildspec) | [result](tika-2.3.0.buildinfo): [214 :white_check_mark:  74 :warning:](tika-2.3.0.buildcompare) [:mag:](tika-2.3.0.diffoscope) | 1.8G |
+| [2.2.1](https://central.sonatype.com/artifact/org.apache.tika/tika/2.2.1/pom) | [mvn jdk8](tika-2.2.1.buildspec) | [result](tika-2.2.1.buildinfo): [91 :white_check_mark:  196 :warning:](tika-2.2.1.buildcompare) [:mag:](tika-2.2.1.diffoscope) | 1.8G |
+| [2.2.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.2.0/pom) | [mvn jdk8](tika-2.2.0.buildspec) | [result](tika-2.2.0.buildinfo): [91 :white_check_mark:  196 :warning:](tika-2.2.0.buildcompare) [:mag:](tika-2.2.0.diffoscope) | 1.8G |
+| [2.1.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.1.0/pom) | [mvn jdk8](tika-2.1.0.buildspec) | [result](tika-2.1.0.buildinfo): [91 :white_check_mark:  196 :warning:](tika-2.1.0.buildcompare) [:mag:](tika-2.1.0.diffoscope) | 1.8G |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

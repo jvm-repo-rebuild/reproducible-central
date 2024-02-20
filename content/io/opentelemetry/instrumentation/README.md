@@ -304,7 +304,7 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentati
 </details>
 
 rebuilding **2 releases** of io.opentelemetry.instrumentation:opentelemetry-instrumentation-api:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -333,9 +333,9 @@ rebuilding **2 releases** of io.opentelemetry.instrumentation:opentelemetry-inst
 | [1.19.1](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.19.1/pom) | | | |
 | [1.19.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.19.0/pom) | | | |
 | [1.18.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.18.0/pom) | | | |
-| [1.17.0-alpha](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.17.0-alpha/pom) | [gradle jdk11](opentelemetry-1.17.0-alpha.buildspec) | [result](opentelemetry-instrumentation-api-1.17.0-alpha.buildinfo): [834 :heavy_check_mark:  268 :warning:](opentelemetry-instrumentation-api-1.17.0-alpha.buildcompare) [:mag:](opentelemetry-instrumentation-api-1.17.0-alpha.diffoscope) | 56M |
+| [1.17.0-alpha](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.17.0-alpha/pom) | [gradle jdk11](opentelemetry-1.17.0-alpha.buildspec) | [result](opentelemetry-instrumentation-api-1.17.0-alpha.buildinfo): [834 :white_check_mark:  268 :warning:](opentelemetry-instrumentation-api-1.17.0-alpha.buildcompare) [:mag:](opentelemetry-instrumentation-api-1.17.0-alpha.diffoscope) | 56M |
 | [1.16.0-alpha](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.16.0-alpha/pom) | | | |
 | [1.15.0-alpha](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.15.0-alpha/pom) | | | |
-| [1.14.0-alpha](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.14.0-alpha/pom) | [gradle jdk11](opentelemetry-1.14.0-alpha.buildspec) | [result](opentelemetry-instrumentation-api-1.14.0-alpha.buildinfo): [508 :heavy_check_mark:  509 :warning:](opentelemetry-instrumentation-api-1.14.0-alpha.buildcompare) [:mag:](opentelemetry-instrumentation-api-1.14.0-alpha.diffoscope) [:memo:](https://github.com/open-telemetry/opentelemetry-java-instrumentation/issues/6071) | 55M |
+| [1.14.0-alpha](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.14.0-alpha/pom) | [gradle jdk11](opentelemetry-1.14.0-alpha.buildspec) | [result](opentelemetry-instrumentation-api-1.14.0-alpha.buildinfo): [508 :white_check_mark:  509 :warning:](opentelemetry-instrumentation-api-1.14.0-alpha.buildcompare) [:mag:](opentelemetry-instrumentation-api-1.14.0-alpha.diffoscope) [:memo:](https://github.com/open-telemetry/opentelemetry-java-instrumentation/issues/6071) | 55M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

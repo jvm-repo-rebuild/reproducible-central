@@ -81,7 +81,7 @@ Source code: [https://github.com/alluxio/alluxio.git](https://github.com/alluxio
 </details>
 
 rebuilding **5 releases** of org.alluxio:alluxio-parent:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -92,10 +92,10 @@ rebuilding **5 releases** of org.alluxio:alluxio-parent:
 | [306](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/306/pom) | | | |
 | [305](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/305/pom) | | | |
 | [304](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/304/pom) | | | |
-| [303](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/303/pom) | [mvn jdk8](alluxio-303.buildspec) | [result](alluxio-parent-303.buildinfo): [117 :heavy_check_mark: ](alluxio-parent-303.buildcompare) | 301M |
-| [302](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/302/pom) | [mvn jdk8](alluxio-302.buildspec) | [result](alluxio-parent-302.buildinfo): [116 :heavy_check_mark: ](alluxio-parent-302.buildcompare) | 288M |
-| [301](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/301/pom) | [mvn jdk8](alluxio-301.buildspec) | [result](alluxio-parent-301.buildinfo): [116 :heavy_check_mark: ](alluxio-parent-301.buildcompare) | 288M |
-| [300](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/300/pom) | [mvn jdk11](alluxio-300.buildspec) | [result](alluxio-parent-300.buildinfo): [134 :heavy_check_mark: ](alluxio-parent-300.buildcompare) | 283M |
-| [295](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/295/pom) | [mvn jdk11](alluxio-295.buildspec) | [result](alluxio-parent-295.buildinfo): [134 :heavy_check_mark: ](alluxio-parent-295.buildcompare) | 274M |
+| [303](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/303/pom) | [mvn jdk8](alluxio-303.buildspec) | [result](alluxio-parent-303.buildinfo): [117 :white_check_mark: ](alluxio-parent-303.buildcompare) | 301M |
+| [302](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/302/pom) | [mvn jdk8](alluxio-302.buildspec) | [result](alluxio-parent-302.buildinfo): [116 :white_check_mark: ](alluxio-parent-302.buildcompare) | 288M |
+| [301](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/301/pom) | [mvn jdk8](alluxio-301.buildspec) | [result](alluxio-parent-301.buildinfo): [116 :white_check_mark: ](alluxio-parent-301.buildcompare) | 288M |
+| [300](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/300/pom) | [mvn jdk11](alluxio-300.buildspec) | [result](alluxio-parent-300.buildinfo): [134 :white_check_mark: ](alluxio-parent-300.buildcompare) | 283M |
+| [295](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/295/pom) | [mvn jdk11](alluxio-295.buildspec) | [result](alluxio-parent-295.buildinfo): [134 :white_check_mark: ](alluxio-parent-295.buildcompare) | 274M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

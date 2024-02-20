@@ -30,24 +30,24 @@ Source code: [https://github.com/nielsbasjes/yauaa.git](https://github.com/niels
 </details>
 
 rebuilding **14 releases** of nl.basjes.parse.useragent:yauaa:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [7.25.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.25.0/pom) | [mvn jdk21](yauaa-7.25.0.buildspec) | [result](yauaa-parent-7.25.0.buildinfo): [51 :heavy_check_mark: ](yauaa-parent-7.25.0.buildcompare) | 81M |
-| [7.24.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.24.0/pom) | [mvn jdk21](yauaa-7.24.0.buildspec) | [result](yauaa-parent-7.24.0.buildinfo): [51 :heavy_check_mark: ](yauaa-parent-7.24.0.buildcompare) | 81M |
-| [7.23.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.23.0/pom) | [mvn jdk17](yauaa-7.23.0.buildspec) | [result](yauaa-parent-7.23.0.buildinfo): [51 :heavy_check_mark: ](yauaa-parent-7.23.0.buildcompare) | 78M |
-| [7.22.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.22.0/pom) | [mvn jdk17](yauaa-7.22.0.buildspec) | [result](yauaa-parent-7.22.0.buildinfo): [51 :heavy_check_mark: ](yauaa-parent-7.22.0.buildcompare) | 77M |
-| [7.21.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.21.0/pom) | [mvn jdk17](yauaa-7.21.0.buildspec) | [result](yauaa-parent-7.21.0.buildinfo): [51 :heavy_check_mark: ](yauaa-parent-7.21.0.buildcompare) | 76M |
-| [7.20.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.20.0/pom) | [mvn jdk17](yauaa-7.20.0.buildspec) | [result](yauaa-parent-7.20.0.buildinfo): [51 :heavy_check_mark: ](yauaa-parent-7.20.0.buildcompare) | 75M |
-| [7.19.2](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.19.2/pom) | [mvn jdk17](yauaa-7.19.2.buildspec) | [result](yauaa-parent-7.19.2.buildinfo): [51 :heavy_check_mark: ](yauaa-parent-7.19.2.buildcompare) | 75M |
-| [7.19.1](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.19.1/pom) | [mvn jdk17](yauaa-7.19.1.buildspec) | [result](yauaa-parent-7.19.1.buildinfo): [51 :heavy_check_mark: ](yauaa-parent-7.19.1.buildcompare) | 74M |
-| [7.19.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.19.0/pom) | [mvn jdk17](yauaa-7.19.0.buildspec) | [result](yauaa-parent-7.19.0.buildinfo): [51 :heavy_check_mark: ](yauaa-parent-7.19.0.buildcompare) | 74M |
-| [7.18.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.18.0/pom) | [mvn jdk17](yauaa-7.18.0.buildspec) | [result](yauaa-parent-7.18.0.buildinfo): [51 :heavy_check_mark: ](yauaa-parent-7.18.0.buildcompare) | 74M |
-| [7.17.1](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.17.1/pom) | [mvn jdk17](yauaa-7.17.1.buildspec) | [result](yauaa-parent-7.17.1.buildinfo): [51 :heavy_check_mark: ](yauaa-parent-7.17.1.buildcompare) | 75M |
-| [7.17.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.17.0/pom) | [mvn jdk17](yauaa-7.17.0.buildspec) | [result](yauaa-parent-7.17.0.buildinfo): [41 :heavy_check_mark:  10 :warning:](yauaa-parent-7.17.0.buildcompare) [:mag:](yauaa-parent-7.17.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/MNG-7750) | 75M |
-| [7.16.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.16.0/pom) | [mvn jdk17](yauaa-7.16.0.buildspec) | [result](yauaa-parent-7.16.0.buildinfo): [51 :heavy_check_mark: ](yauaa-parent-7.16.0.buildcompare) | 75M |
-| [7.15.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.15.0/pom) | [mvn jdk17](yauaa-7.15.0.buildspec) | [result](yauaa-parent-7.15.0.buildinfo): [52 :heavy_check_mark: ](yauaa-parent-7.15.0.buildcompare) | 74M |
+| [7.25.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.25.0/pom) | [mvn jdk21](yauaa-7.25.0.buildspec) | [result](yauaa-parent-7.25.0.buildinfo): [51 :white_check_mark: ](yauaa-parent-7.25.0.buildcompare) | 81M |
+| [7.24.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.24.0/pom) | [mvn jdk21](yauaa-7.24.0.buildspec) | [result](yauaa-parent-7.24.0.buildinfo): [51 :white_check_mark: ](yauaa-parent-7.24.0.buildcompare) | 81M |
+| [7.23.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.23.0/pom) | [mvn jdk17](yauaa-7.23.0.buildspec) | [result](yauaa-parent-7.23.0.buildinfo): [51 :white_check_mark: ](yauaa-parent-7.23.0.buildcompare) | 78M |
+| [7.22.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.22.0/pom) | [mvn jdk17](yauaa-7.22.0.buildspec) | [result](yauaa-parent-7.22.0.buildinfo): [51 :white_check_mark: ](yauaa-parent-7.22.0.buildcompare) | 77M |
+| [7.21.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.21.0/pom) | [mvn jdk17](yauaa-7.21.0.buildspec) | [result](yauaa-parent-7.21.0.buildinfo): [51 :white_check_mark: ](yauaa-parent-7.21.0.buildcompare) | 76M |
+| [7.20.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.20.0/pom) | [mvn jdk17](yauaa-7.20.0.buildspec) | [result](yauaa-parent-7.20.0.buildinfo): [51 :white_check_mark: ](yauaa-parent-7.20.0.buildcompare) | 75M |
+| [7.19.2](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.19.2/pom) | [mvn jdk17](yauaa-7.19.2.buildspec) | [result](yauaa-parent-7.19.2.buildinfo): [51 :white_check_mark: ](yauaa-parent-7.19.2.buildcompare) | 75M |
+| [7.19.1](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.19.1/pom) | [mvn jdk17](yauaa-7.19.1.buildspec) | [result](yauaa-parent-7.19.1.buildinfo): [51 :white_check_mark: ](yauaa-parent-7.19.1.buildcompare) | 74M |
+| [7.19.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.19.0/pom) | [mvn jdk17](yauaa-7.19.0.buildspec) | [result](yauaa-parent-7.19.0.buildinfo): [51 :white_check_mark: ](yauaa-parent-7.19.0.buildcompare) | 74M |
+| [7.18.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.18.0/pom) | [mvn jdk17](yauaa-7.18.0.buildspec) | [result](yauaa-parent-7.18.0.buildinfo): [51 :white_check_mark: ](yauaa-parent-7.18.0.buildcompare) | 74M |
+| [7.17.1](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.17.1/pom) | [mvn jdk17](yauaa-7.17.1.buildspec) | [result](yauaa-parent-7.17.1.buildinfo): [51 :white_check_mark: ](yauaa-parent-7.17.1.buildcompare) | 75M |
+| [7.17.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.17.0/pom) | [mvn jdk17](yauaa-7.17.0.buildspec) | [result](yauaa-parent-7.17.0.buildinfo): [41 :white_check_mark:  10 :warning:](yauaa-parent-7.17.0.buildcompare) [:mag:](yauaa-parent-7.17.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/MNG-7750) | 75M |
+| [7.16.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.16.0/pom) | [mvn jdk17](yauaa-7.16.0.buildspec) | [result](yauaa-parent-7.16.0.buildinfo): [51 :white_check_mark: ](yauaa-parent-7.16.0.buildcompare) | 75M |
+| [7.15.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.15.0/pom) | [mvn jdk17](yauaa-7.15.0.buildspec) | [result](yauaa-parent-7.15.0.buildinfo): [52 :white_check_mark: ](yauaa-parent-7.15.0.buildcompare) | 74M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

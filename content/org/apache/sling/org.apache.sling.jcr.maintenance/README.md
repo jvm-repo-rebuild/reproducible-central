@@ -8,12 +8,12 @@
 Source code: [https://github.com/apache/sling-org-apache-sling-jcr-maintenance.git](https://github.com/apache/sling-org-apache-sling-jcr-maintenance.git)
 
 rebuilding **2 releases** of org.apache.sling:org.apache.sling.jcr.maintenance:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.1.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.maintenance/1.1.0/pom) | [mvn jdk11](org.apache.sling.jcr.maintenance-1.1.0.buildspec) | [result](org.apache.sling.jcr.maintenance-1.1.0.buildinfo): [7 :heavy_check_mark: ](org.apache.sling.jcr.maintenance-1.1.0.buildcompare) | 114K |
-| [1.0.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.maintenance/1.0.2/pom) | [mvn jdk11](org.apache.sling.jcr.maintenance-1.0.2.buildspec) | [result](org.apache.sling.jcr.maintenance-1.0.2.buildinfo): [7 :heavy_check_mark: ](org.apache.sling.jcr.maintenance-1.0.2.buildcompare) | 137K |
+| [1.1.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.maintenance/1.1.0/pom) | [mvn jdk11](org.apache.sling.jcr.maintenance-1.1.0.buildspec) | [result](org.apache.sling.jcr.maintenance-1.1.0.buildinfo): [7 :white_check_mark: ](org.apache.sling.jcr.maintenance-1.1.0.buildcompare) | 114K |
+| [1.0.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.maintenance/1.0.2/pom) | [mvn jdk11](org.apache.sling.jcr.maintenance-1.0.2.buildspec) | [result](org.apache.sling.jcr.maintenance-1.0.2.buildinfo): [7 :white_check_mark: ](org.apache.sling.jcr.maintenance-1.0.2.buildcompare) | 137K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
