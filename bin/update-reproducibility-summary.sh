@@ -242,7 +242,9 @@ do
     stagingBuildspec="${dir}/$(basename ${newestBuildspec} -${newestBuildspecVersion}.buildspec)-${latestVersion}.buildspec"
     stagingBuildspecExists=
     [ -f ${dir}/${stagingBuildspec} ] && stagingBuildspecExists=":link:"
-    echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | [${newestBuildspecVersion}](../$dir/${newestBuildspec}) $link | [${latestStaging}](../$stagingBuildspec)$stagingBuildspecExists | \`bin/add-new-release.sh $dir/${newestBuildspec} ${latestStaging} staging\` |" >> tmp/add-staging.md
+    mailbox=
+    [[ "$groupId" == org.apache.* ]] && tlp="$(echo $groupId | sed 's/^org.apache.\([^.]*\).*$/\1/')" && mailbox="[:mailbox:](https://lists.apache.org/list?dev@$tlp.apache.org:lte=1M:VOTE)"
+    echo "| <!-- ${lastUpdated} --> $mailbox [${artifactId}](../${dir}/README.md) | [${newestBuildspecVersion}](../$dir/${newestBuildspec}) $link | [${latestStaging}](../$stagingBuildspec)$stagingBuildspecExists | \`bin/add-new-release.sh $dir/${newestBuildspec} ${latestStaging} staging\` |" >> tmp/add-staging.md
   fi
 done
 
