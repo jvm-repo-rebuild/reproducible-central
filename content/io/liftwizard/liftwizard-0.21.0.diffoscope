@@ -1,0 +1,84 @@
+1 / 119 target/reference/io.liftwizard/liftwizard-bundle-prioritized-api-0.21.0.jar liftwizard-bundle/liftwizard-bundle-prioritized-api/target/liftwizard-bundle-prioritized-api-0.21.0.jar
+--- target/reference/io.liftwizard/liftwizard-bundle-prioritized-api-0.21.0.jar
++++ liftwizard-bundle/liftwizard-bundle-prioritized-api/target/liftwizard-bundle-prioritized-api-0.21.0.jar
+├── io/liftwizard/dropwizard/bundle/prioritized/PrioritizedBundle.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,142 +1,142 @@
+│ │    Compiled from "PrioritizedBundle.java"
+│ │  public interface io.liftwizard.dropwizard.bundle.prioritized.PrioritizedBundle extends io.dropwizard.ConfiguredBundle<java.lang.Object>
+│ │    minor version: 0
+│ │    major version: 55
+│ │    flags: (0x0601) ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+│ │ -  this_class: #35                         // io/liftwizard/dropwizard/bundle/prioritized/PrioritizedBundle
+│ │ -  super_class: #13                        // java/lang/Object
+│ │ +  this_class: #10                         // io/liftwizard/dropwizard/bundle/prioritized/PrioritizedBundle
+│ │ +  super_class: #4                         // java/lang/Object
+│ │    interfaces: 1, fields: 2, methods: 6, attributes: 3
+│ │  Constant pool:
+│ │ -    #1 = Methodref          #2.#3         // java/lang/Class.isInstance:(Ljava/lang/Object;)Z
+│ │ -    #2 = Class              #4            // java/lang/Class
+│ │ -    #3 = NameAndType        #5:#6         // isInstance:(Ljava/lang/Object;)Z
+│ │ -    #4 = Utf8               java/lang/Class
+│ │ -    #5 = Utf8               isInstance
+│ │ -    #6 = Utf8               (Ljava/lang/Object;)Z
+...
+│ │ -  #123 = Utf8               SourceFile
+│ │ -  #124 = Utf8               PrioritizedBundle.java
+│ │ -  #125 = Utf8               InnerClasses
+│ │ -  #126 = Utf8               MDCCloseable
+│ │ +    #1 = Methodref          #74.#75       // java/lang/Class.isInstance:(Ljava/lang/Object;)Z
+│ │ +    #2 = Methodref          #74.#76       // java/lang/Class.cast:(Ljava/lang/Object;)Ljava/lang/Object;
+│ │ +    #3 = String             #77           // Expected configuration to implement %s but found %s
+│ │ +    #4 = Class              #78           // java/lang/Object
+│ │ +    #5 = Methodref          #74.#79       // java/lang/Class.getCanonicalName:()Ljava/lang/String;
+│ │ +    #6 = Methodref          #4.#80        // java/lang/Object.getClass:()Ljava/lang/Class;
+│ │ +    #7 = Methodref          #81.#82       // java/lang/String.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+│ │ +    #8 = Class              #83           // java/lang/IllegalStateException
+...
+│ │ +  #123 = Utf8               close
+│ │ +  #124 = Utf8               ()V
+│ │ +  #125 = Utf8               addSuppressed
+│ │ +  #126 = Utf8               (Ljava/lang/Throwable;)V
+│ │  {
+│ │    public static final java.lang.String MDC_BUNDLE = "liftwizard.bundle";
+│ │      descriptor: Ljava/lang/String;
+│ │      flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+│ │      ConstantValue: String liftwizard.bundle
+│ │  
+│ │    public static final java.lang.String MDC_PRIORITY = "liftwizard.priority";
+│ │ @@ -164,36 +164,36 @@
+│ │        stack=5, locals=4, args_size=3
+│ │           0: aload_1
+│ │           1: aload_2
+│ │           2: invokevirtual #1                  // Method java/lang/Class.isInstance:(Ljava/lang/Object;)Z
+│ │           5: ifeq          14
+│ │           8: aload_1
+│ │           9: aload_2
+│ │ -        10: invokevirtual #7                  // Method java/lang/Class.cast:(Ljava/lang/Object;)Ljava/lang/Object;
+│ │ +        10: invokevirtual #2                  // Method java/lang/Class.cast:(Ljava/lang/Object;)Ljava/lang/Object;
+│ │          13: areturn
+│ │ -        14: ldc           #11                 // String Expected configuration to implement %s but found %s
+│ │ +        14: ldc           #3                  // String Expected configuration to implement %s but found %s
+│ │          16: iconst_2
+│ │ -        17: anewarray     #13                 // class java/lang/Object
+│ │ +        17: anewarray     #4                  // class java/lang/Object
+│ │          20: dup
+│ │          21: iconst_0
+│ │          22: aload_1
+│ │ -        23: invokevirtual #15                 // Method java/lang/Class.getCanonicalName:()Ljava/lang/String;
+│ │ +        23: invokevirtual #5                  // Method java/lang/Class.getCanonicalName:()Ljava/lang/String;
+│ │          26: aastore
+│ │          27: dup
+│ │          28: iconst_1
+│ │          29: aload_2
+│ │ -        30: invokevirtual #19                 // Method java/lang/Object.getClass:()Ljava/lang/Class;
+│ │ -        33: invokevirtual #15                 // Method java/lang/Class.getCanonicalName:()Ljava/lang/String;
+│ │ +        30: invokevirtual #6                  // Method java/lang/Object.getClass:()Ljava/lang/Class;
+│ │ +        33: invokevirtual #5                  // Method java/lang/Class.getCanonicalName:()Ljava/lang/String;
+│ │          36: aastore
+│ │ -        37: invokestatic  #23                 // Method java/lang/String.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+│ │ +        37: invokestatic  #7                  // Method java/lang/String.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+│ │          40: astore_3
+│ │ -        41: new           #29                 // class java/lang/IllegalStateException
+│ │ +        41: new           #8                  // class java/lang/IllegalStateException
+...
