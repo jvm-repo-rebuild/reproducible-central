@@ -149,7 +149,7 @@ do
       then
         . "${dir}/${buildcompare}"
         echo -n "[" >> tmp/${projectReadme}
-        [ "${ok}" -gt 0 ] && echo -n "${ok} :heavy_check_mark: " >> tmp/${projectReadme}
+        [ "${ok}" -gt 0 ] && echo -n "${ok} :white_check_mark: " >> tmp/${projectReadme}
         [ "${ko}" -gt 0 ] && echo -n " ${ko} :warning:" >> tmp/${projectReadme} || ((countVersionOk++))
         [ "${ko}" -gt 0 ] || ((globalVersionOk++))
         echo -n "](${buildcompare})" >> tmp/${projectReadme}
@@ -172,7 +172,7 @@ do
   done
 
   echo "rebuilding **${countVersion} releases** of ${groupId}:${artifactId}:" >> ${projectReadme}
-  echo "- **${countVersionOk}** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:)," >> ${projectReadme}
+  echo "- **${countVersionOk}** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:)," >> ${projectReadme}
   echo "- $((countVersion - countVersionOk)) had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):" >> ${projectReadme}
   echo >> ${projectReadme}
   echo "| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |" >> ${projectReadme}
@@ -196,7 +196,7 @@ do
     echo -n "$((countVersion)) :warning:" >> ${summary}
   else
     countGaOk=$((countGaOk+1))
-    echo -n "${countVersionOk} :heavy_check_mark:" >> ${summary}
+    echo -n "${countVersionOk} :white_check_mark:" >> ${summary}
     [ "${countVersion}" -gt "${countVersionOk}" ] && echo -n " / $((countVersion - countVersionOk)) :warning:" >> ${summary}
   fi
   echo " |" >> ${summary}
@@ -213,7 +213,7 @@ do
     out="tmp/add-ko.md"
   elif [ $ko -eq 0 ]
   then
-    link=":heavy_check_mark:"
+    link=":white_check_mark:"
     out="tmp/add-ok.md"
   else
     out="tmp/add-ko.md"
@@ -246,10 +246,10 @@ do
   fi
 done
 
-echo "| **Count:** | **${countGa}** | **${globalVersion}** | **${globalVersionOk}** :heavy_check_mark: **$((globalVersion - globalVersionOk))** :warning: |" >> ${summary}
+echo "| **Count:** | **${countGa}** | **${globalVersion}** | **${globalVersionOk}** :white_check_mark: **$((globalVersion - globalVersionOk))** :warning: |" >> ${summary}
 
 echo "   rebuilding **${globalVersion} releases** of **${countGa} projects**:" > tmp/summary-intro.md
-echo "   - **${globalVersionOk}** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:)," >> tmp/summary-intro.md
+echo "   - **${globalVersionOk}** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:)," >> tmp/summary-intro.md
 echo "   - $((globalVersion - globalVersionOk)) releases are only partially reproducible (contain some unreproducible artifacts :warning:)" >> tmp/summary-intro.md
 echo "   - on ${countGa} projects, ${countGaOk} have at least one fully reproducible release, $((countGa - countGaOk)) have none" >> tmp/summary-intro.md
 echo >> tmp/summary-intro.md
