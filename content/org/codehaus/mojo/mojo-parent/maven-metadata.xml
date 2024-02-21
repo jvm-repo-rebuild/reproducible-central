@@ -3,8 +3,8 @@
   <groupId>org.codehaus.mojo</groupId>
   <artifactId>mojo-parent</artifactId>
   <versioning>
-    <latest>79</latest>
-    <release>79</release>
+    <latest>80</latest>
+    <release>80</release>
     <versions>
       <version>18</version>
       <version>19</version>
@@ -50,7 +50,8 @@
       <version>77</version>
       <version>78</version>
       <version>79</version>
+      <version>80</version>
     </versions>
-    <lastUpdated>20240220105250</lastUpdated>
+    <lastUpdated>20240221183811</lastUpdated>
   </versioning>
 </metadata>

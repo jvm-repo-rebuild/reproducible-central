@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/FasterXML/oss-parent.git](https://github.com/FasterXML/oss-parent.git)
 
-rebuilding **12 releases** of com.fasterxml:oss-parent:
-- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **13 releases** of com.fasterxml:oss-parent:
+- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [58](https://central.sonatype.com/artifact/com.fasterxml/oss-parent/58/pom) | | | |
+| [58](https://central.sonatype.com/artifact/com.fasterxml/oss-parent/58/pom) | [mvn jdk11](oss-parent-58.buildspec) | [result](oss-parent-58.buildinfo): [2 :white_check_mark: ](oss-parent-58.buildcompare) | 25K |
 | [57](https://central.sonatype.com/artifact/com.fasterxml/oss-parent/57/pom) | [mvn jdk11](oss-parent-57.buildspec) | [result](oss-parent-57.buildinfo): [2 :white_check_mark: ](oss-parent-57.buildcompare) | 25K |
 | [56](https://central.sonatype.com/artifact/com.fasterxml/oss-parent/56/pom) | [mvn jdk11](oss-parent-56.buildspec) | [result](oss-parent-56.buildinfo): [2 :white_check_mark: ](oss-parent-56.buildcompare) | 25K |
 | [55](https://central.sonatype.com/artifact/com.fasterxml/oss-parent/55/pom) | [mvn jdk11](oss-parent-55.buildspec) | [result](oss-parent-55.buildinfo): [2 :white_check_mark: ](oss-parent-55.buildcompare) | 25K |
