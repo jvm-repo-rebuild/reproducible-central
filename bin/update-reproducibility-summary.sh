@@ -244,7 +244,7 @@ do
     [ -f ${dir}/${stagingBuildspec} ] && stagingBuildspecExists=":link:"
     mailbox=
     [[ "$groupId" == org.apache.* ]] && tlp="$(echo $groupId | sed 's/^org.apache.\([^.]*\).*$/\1/')" && mailbox="[:mailbox:](https://lists.apache.org/list?dev@$tlp.apache.org:lte=1M:VOTE)"
-    echo "| <!-- ${lastUpdated} --> $mailbox [${artifactId}](../${dir}/README.md) | [${newestBuildspecVersion}](../$dir/${newestBuildspec}) $link | [${latestStaging}](../$stagingBuildspec)$stagingBuildspecExists | \`bin/add-new-release.sh $dir/${newestBuildspec} ${latestStaging} staging\` |" >> tmp/add-staging.md
+    echo "| <!-- ${lastUpdated} --> $mailbox | [${artifactId}](../${dir}/README.md) | [${newestBuildspecVersion}](../$dir/${newestBuildspec}) $link | [${latestStaging}](../$stagingBuildspec)$stagingBuildspecExists | \`bin/add-new-release.sh $dir/${newestBuildspec} ${latestStaging} staging\` |" >> tmp/add-staging.md
   fi
 done
 
@@ -278,8 +278,8 @@ cp tmp/README.md README.md
 echo "| artifactId | from | to | command |" > tmp/add-ok-table.md
 echo "| ---------- | ---- | -- | ------- |" >> tmp/add-ok-table.md
 sort -r tmp/add-ok.md >> tmp/add-ok-table.md
-echo "| artifactId | from | to | command |" > tmp/add-staging-table.md
-echo "| ---------- | ---- | -- | ------- |" >> tmp/add-staging-table.md
+echo "|    | artifactId | from | to | command |" > tmp/add-staging-table.md
+echo "| -- | ---------- | ---- | -- | ------- |" >> tmp/add-staging-table.md
 sort -r tmp/add-staging.md >> tmp/add-staging-table.md
 echo "| artifactId | from | to | command |" > tmp/add-ko-table.md
 echo "| ---------- | ---- | -- | ------- |" >> tmp/add-ko-table.md
