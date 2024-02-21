@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Cucumber Expressions
+group-id=io.cucumber
+artifact-id=cucumber-expressions
+version=17.0.2
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/cucumber-expressions.git
+source.scm.tag=v17.0.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=cucumber-expressions-17.0.2.pom
+outputs.0.length=3324
+outputs.0.checksums.sha512=2f071f5f6b5087f578d8926967e9046a6ef8af8b8fc40e93734dc52d3f2ff0888cc33ca4281d7b7ca792c1488b4e57a0050dbb0a600a119bef9764fa31c02b9b
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=cucumber-expressions-17.0.2.jar
+outputs.1.length=78520
+outputs.1.checksums.sha512=3f2aa9fe80208698cfce350101ce39798a768a3d70e6528323729f3a2a6f52b559aa54fe2f83dceb1492b84418fd8293150a9d1835d2ac1d2aefd855d47bc191
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=cucumber-expressions-17.0.2-sources.jar
+outputs.2.length=36173
+outputs.2.checksums.sha512=5bd876c6f279111a9ca482323a69fdbcce08c7b96d0c9d928472e1541225221be8ea84923d6b351c8916bed5ede461f2e459691bd3ccfae5b100534f85cf9333
