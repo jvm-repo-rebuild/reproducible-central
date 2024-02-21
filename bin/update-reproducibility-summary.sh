@@ -240,7 +240,7 @@ do
   # if Apache staging contains a new release candidate, prepare add-release-candidate instructions
   if [ -n "${latestStaging}" ] && [ "${latestStaging}" != "${highestVersion}" ]
   then
-    stagingBuildspec="${dir}/$(basename ${newestBuildspec} -${newestBuildspecVersion}.buildspec)-${latestVersion}.buildspec"
+    stagingBuildspec="${dir}/$(basename ${newestBuildspec} -${newestBuildspecVersion}.buildspec)-${latestStaging}.buildspec"
     stagingBuildspecExists=
     [ -f ${stagingBuildspec} ] && stagingBuildspecExists=":link:"
     mailbox=
