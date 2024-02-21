@@ -37,6 +37,7 @@ for m in `find content -name "maven-metadata.xml" -print | grep -v buildcache | 
 do
   echo "${m##*/} ${m%/*}"
 done | sort -k 2 | while read -r p ; do echo "${p##* }/${p% *}/maven-metadata.xml"; done > maven-metadata
+
 for metadata in `cat maven-metadata`
 do
   dir="$(dirname "${metadata}")"
@@ -241,7 +242,7 @@ do
   then
     stagingBuildspec="${dir}/$(basename ${newestBuildspec} -${newestBuildspecVersion}.buildspec)-${latestVersion}.buildspec"
     stagingBuildspecExists=
-    [ -f ${dir}/${stagingBuildspec} ] && stagingBuildspecExists=":link:"
+    [ -f ${stagingBuildspec} ] && stagingBuildspecExists=":link:"
     mailbox=
     [[ "$groupId" == org.apache.* ]] && tlp="$(echo $groupId | sed 's/^org.apache.\([^.]*\).*$/\1/')" && mailbox="[:mailbox:](https://lists.apache.org/list?dev@$tlp.apache.org:lte=1M:VOTE)"
     echo "| <!-- ${lastUpdated} --> $mailbox | [${artifactId}](../${dir}/README.md) | [${newestBuildspecVersion}](../$dir/${newestBuildspec}) $link | [${latestStaging}](../$stagingBuildspec)$stagingBuildspecExists | \`bin/add-new-release.sh $dir/${newestBuildspec} ${latestStaging} staging\` |" >> tmp/add-staging.md
