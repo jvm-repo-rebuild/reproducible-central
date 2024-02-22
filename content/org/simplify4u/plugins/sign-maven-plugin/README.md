@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/s4u/sign-maven-plugin.git](https://github.com/s4u/sign-maven-plugin.git)
 
-rebuilding **7 releases** of org.simplify4u.plugins:sign-maven-plugin:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of org.simplify4u.plugins:sign-maven-plugin:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.1.0](https://central.sonatype.com/artifact/org.simplify4u.plugins/sign-maven-plugin/1.1.0/pom) | | | |
+| [1.1.0](https://central.sonatype.com/artifact/org.simplify4u.plugins/sign-maven-plugin/1.1.0/pom) | [mvn jdk8](sign-maven-plugin-1.1.0.buildspec) | [result](sign-maven-plugin-1.1.0.buildinfo): [3 :white_check_mark: ](sign-maven-plugin-1.1.0.buildcompare) | 90K |
 | [1.0.1](https://central.sonatype.com/artifact/org.simplify4u.plugins/sign-maven-plugin/1.0.1/pom) | [mvn jdk8](sign-maven-plugin-1.0.1.buildspec) | [result](sign-maven-plugin-1.0.1.buildinfo): [3 :white_check_mark: ](sign-maven-plugin-1.0.1.buildcompare) | 94K |
 | [1.0.0](https://central.sonatype.com/artifact/org.simplify4u.plugins/sign-maven-plugin/1.0.0/pom) | [mvn jdk8](sign-maven-plugin-1.0.0.buildspec) | [result](sign-maven-plugin-1.0.0.buildinfo): [3 :white_check_mark: ](sign-maven-plugin-1.0.0.buildcompare) | 94K |
 | [0.3.1](https://central.sonatype.com/artifact/org.simplify4u.plugins/sign-maven-plugin/0.3.1/pom) | [mvn jdk8](sign-maven-plugin-0.3.1.buildspec) | [result](sign-maven-plugin-0.3.1.buildinfo): [3 :white_check_mark: ](sign-maven-plugin-0.3.1.buildcompare) | 81K |
