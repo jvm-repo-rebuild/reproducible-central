@@ -1,0 +1,18 @@
+groupId=org.simplify4u.plugins
+artifactId=sign-maven-plugin
+version=1.1.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/s4u/${artifactId}.git
+gitTag=v${version}
+
+tool=mvn
+jdk=8
+newline=lf
+umask=022
+
+command="mvn clean package -Dmaven.test.skip -Dpgpverify.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
