@@ -139,28 +139,29 @@ do
       ((countVersion++))
       ((globalVersion++))
 
-      echo -n "| [${version}](https://central.sonatype.com/artifact/${groupId}/${artifactId}/${version}/pom) " >> tmp/${projectReadme}
-      echo -n "| [$(echo "${tool}"  | cut -d - -f 1)" >> tmp/${projectReadme}
-      echo -n " jdk${jdk}" >> tmp/${projectReadme}
-      [[ "${newline}" == crlf* ]] && echo -n " w" >> tmp/${projectReadme}
-      echo -n "](${buildspec}) | " >> tmp/${projectReadme}
-      [ -f "${dir}/${_buildinfo}" ] && echo -n "[result](${_buildinfo}): " >> tmp/${projectReadme}
+      row="| [${version}](https://central.sonatype.com/artifact/${groupId}/${artifactId}/${version}/pom) "
+      row+="| [$(echo "${tool}"  | cut -d - -f 1)"
+      row+=" jdk${jdk}"
+      [[ "${newline}" == crlf* ]] && row+=" w"
+      row+="](${buildspec}) | "
+      [ -f "${dir}/${_buildinfo}" ] && row+="[result](${_buildinfo}): "
 
       if [ -f "${dir}/${buildcompare}" ]
       then
         . "${dir}/${buildcompare}"
-        echo -n "[" >> tmp/${projectReadme}
-        [ "${ok}" -gt 0 ] && echo -n "${ok} :white_check_mark: " >> tmp/${projectReadme}
-        [ "${ko}" -gt 0 ] && echo -n " ${ko} :warning:" >> tmp/${projectReadme} || ((countVersionOk++))
+        row+="["
+        [ "${ok}" -gt 0 ] && row+="${ok} :white_check_mark: "
+        [ "${ko}" -gt 0 ] && row+=" ${ko} :warning:" || ((countVersionOk++))
         [ "${ko}" -gt 0 ] || ((globalVersionOk++))
-        echo -n "](${buildcompare})" >> tmp/${projectReadme}
-        [[ -z "${diffoscope}" ]] || echo -n " [:mag:](${diffoscope})" >> tmp/${projectReadme}
-        [[ -z "${issue}" ]] || echo -n " [:memo:](${issue})" >> tmp/${projectReadme}
+        row+="](${buildcompare})"
+        [[ -z "${diffoscope}" ]] || row+=" [:mag:](${diffoscope})"
+        [[ -z "${issue}" ]] || row+=" [:memo:](${issue})"
 
         # detect unexpected issue or diffoscope but 0 non-reproducible artifact (probably cause by previous buildspec copy)
         [[ -z "${issue}" ]] && [[ -n "${diffoscope}" ]] && issue="${diffoscope}"
-        [[ -n "${issue}" ]] && [ "${ko}" -eq 0 ] && echo -e "\n\033[1;31munexpected issue/diffoscope entry when ko=0\033[0m in \033[1m$dir/$buildspec\033[0m" >> tmp/${projectReadme}
-        echo " | $(grep length= ${dir}/${_buildinfo} | cut -d = -f 2 | paste -sd+ - | bc | numfmt --to=iec) |" >> tmp/${projectReadme}
+        [[ -n "${issue}" ]] && [ "${ko}" -eq 0 ] && row+="\033[1;31munexpected issue/diffoscope entry when ko=0\033[0m in \033[1m$dir/$buildspec\033[0m"
+        row+=" | $(grep length= ${dir}/${_buildinfo} | cut -d = -f 2 | paste -sd+ - | bc | numfmt --to=iec) |"
+        echo "$row" >> tmp/${projectReadme}
       else
         echo ":x: | |" >> tmp/${projectReadme}
       fi
@@ -183,24 +184,25 @@ do
   echo "<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>" >> "${projectReadme}"
 
   # add project entry to main README
-  echo -n "|" >> ${summary}
+  row="|"
   if [ "$artifactId" == "$groupId" ]
   then
     # for example com.io7m.*
     groupId="${groupId%.*}"
   fi
-  [[ "$groupId" != "$prevGroupId" ]] && prevGroupId="$groupId" && echo -n " ${groupId}" >> ${summary}
-  echo -n " | [${artifactId}](${dir}/README.md)" | sed -e "s/\[$groupId/[*/" >> ${summary}
-  echo -n " | ${countVersion} | " >> ${summary}
+  [[ "$groupId" != "$prevGroupId" ]] && prevGroupId="$groupId" && row+=" ${groupId}"
+  row+=" | [$(echo "${artifactId}" | sed -e "s/$groupId/*/")](${dir}/README.md)"
+  row+=" | ${countVersion} | "
   if [ "${countVersionOk}" == "0" ]
   then
-    echo -n "$((countVersion)) :warning:" >> ${summary}
+    row+="$((countVersion)) :warning:"
   else
     countGaOk=$((countGaOk+1))
-    echo -n "${countVersionOk} :white_check_mark:" >> ${summary}
-    [ "${countVersion}" -gt "${countVersionOk}" ] && echo -n " / $((countVersion - countVersionOk)) :warning:" >> ${summary}
+    row+="${countVersionOk} :white_check_mark:"
+    [ "${countVersion}" -gt "${countVersionOk}" ] && row+=" / $((countVersion - countVersionOk)) :warning:"
   fi
-  echo " |" >> ${summary}
+  row+=" |"
+  echo "$row" >> ${summary}
 
   # check newest release
   newestBuildspec=$(ls $dir | grep "\-${newestBuildspecVersion}\.buildspec")
