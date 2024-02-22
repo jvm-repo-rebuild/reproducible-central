@@ -1,0 +1,7 @@
+version=80
+ok=4
+ko=0
+ignored=0
+okFiles="mojo-parent-80.pom mojo-parent-80-site.xml mojo-parent-80-config.jar mojo-parent-80-source-release.zip"
+koFiles=""
+ignoredFiles=""
