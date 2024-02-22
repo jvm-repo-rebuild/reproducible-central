@@ -258,7 +258,7 @@ do
         [ "${ko}" -gt 0 ] && stagingBuildcompareDesc+=" ${ko} :warning:"
         stagingBuildcompareDesc+="](../${dir}/${stagingBuildcompare})"
         [[ -z "${diffoscope}" ]] || stagingBuildcompareDesc+=" [:mag:](../${dir}/${diffoscope})"
-        [[ -z "${issue}" ]] || stagingBuildcompareDesc+=" [:memo:](../${dir}/${issue})"
+        [[ -z "${issue}" ]] || stagingBuildcompareDesc+=" [:memo:](${issue})"
       else
         stagingBuildcompareDesc=":x:"
       fi
