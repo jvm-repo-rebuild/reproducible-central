@@ -241,11 +241,33 @@ do
   if [ -n "${latestStaging}" ] && [ "${latestStaging}" != "${highestVersion}" ]
   then
     stagingBuildspec="${dir}/$(basename ${newestBuildspec} -${newestBuildspecVersion}.buildspec)-${latestStaging}.buildspec"
-    stagingBuildspecExists=
-    [ -f ${stagingBuildspec} ] && stagingBuildspecExists=":link:"
+
+    stagingBuildcompareDesc=
+    if [ -f "$stagingBuildspec" ]
+    then
+      # reset recent fields added to buildspec, to avoid rework of older specs
+      diffoscope=
+      issue=
+      . ${stagingBuildspec}
+      stagingBuildcompare=$(ls $dir | grep "\-${latestStaging}\.buildcompare")
+      if [ -f "${dir}/${stagingBuildcompare}" ]
+      then
+        . "${dir}/${stagingBuildcompare}"
+        stagingBuildcompareDesc="["
+        [ "${ok}" -gt 0 ] && stagingBuildcompareDesc+="${ok} :white_check_mark: "
+        [ "${ko}" -gt 0 ] && stagingBuildcompareDesc+=" ${ko} :warning:"
+        stagingBuildcompareDesc+="](../${dir}/${stagingBuildcompare})"
+        [[ -z "${diffoscope}" ]] || stagingBuildcompareDesc+=" [:mag:](../${dir}/${diffoscope})"
+        [[ -z "${issue}" ]] || stagingBuildcompareDesc+=" [:memo:](../${dir}/${issue})"
+      else
+        stagingBuildcompareDesc=":x:"
+      fi
+    fi
+
     mailbox=
     [[ "$groupId" == org.apache.* ]] && tlp="$(echo $groupId | sed 's/^org.apache.\([^.]*\).*$/\1/')" && mailbox="[:mailbox:](https://lists.apache.org/list?dev@$tlp.apache.org:lte=1M:VOTE)"
-    echo "| <!-- ${lastUpdated} --> $mailbox | [${artifactId}](../${dir}/README.md) | [${newestBuildspecVersion} $link](../$dir/${newestBuildspec}) | [${latestStaging}](../$stagingBuildspec)$stagingBuildspecExists | \`bin/add-new-release.sh $dir/${newestBuildspec} ${latestStaging} staging\` |" >> tmp/add-staging.md
+
+    echo "| <!-- ${lastUpdated} --> $mailbox | [${artifactId}](../${dir}/README.md) | [${newestBuildspecVersion}](../$dir/${newestBuildspec}) $link | [${latestStaging}](../$stagingBuildspec) $stagingBuildcompareDesc | \`bin/add-new-release.sh $dir/${newestBuildspec} ${latestStaging} staging\` |" >> tmp/add-staging.md
   fi
 done
 
