@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Servlets Resolver
+group-id=org.apache.sling
+artifact-id=org.apache.sling.servlets.resolver
+version=2.11.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-servlets-resolver.git
+source.scm.tag=org.apache.sling.servlets.resolver-2.11.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.servlets.resolver-2.11.2.pom
+outputs.0.length=16915
+outputs.0.checksums.sha512=337c46f451ef0e11a6dab3a3190a8dd931394439fd94bcc4000697a48627235d98ee8be29c1350a28b7cc167a0d0bb74dabb3b8ebf39e041bf81463455fe9855
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.servlets.resolver-2.11.2.jar
+outputs.1.length=149252
+outputs.1.checksums.sha512=f2e995f28cf67ad78c8a6c4e17e44ef7e3e2b38739d90ce86ddc72fc6c472a0f63c57a6d9b3722178fb69ba29a01154b2a88dfc5a53bbf3b694ffc52f5bb0391
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.servlets.resolver-2.11.2-source-release.zip
+outputs.2.length=161029
+outputs.2.checksums.sha512=42c1593e2bd485f1beb3bbaf853dfde787010ad2da7efda6d95a43d5ddee44fc8ddd827901f28ce75674392510fc3152d29ae1ef1440fe103f4d1c1454a7c4a1
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.servlets.resolver-2.11.2-sources.jar
+outputs.3.length=93587
+outputs.3.checksums.sha512=50c8b9a4e7a1bd4825859dc57fac556916fef2feca49f443391dbb3f3113d66302dd1f81b16bae4083279175d01909160943ee31ee2c3611e7babfc72353c748
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.servlets.resolver-2.11.2-sources.jar
+outputs.4.length=93587
+outputs.4.checksums.sha512=50c8b9a4e7a1bd4825859dc57fac556916fef2feca49f443391dbb3f3113d66302dd1f81b16bae4083279175d01909160943ee31ee2c3611e7babfc72353c748
