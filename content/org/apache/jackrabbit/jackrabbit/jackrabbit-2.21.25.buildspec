@@ -15,4 +15,4 @@ command="mvn -Papache-release package -DskipTests -Dmaven.javadoc.skip -Dgpg.ski
 buildinfo=target/jackrabbit-${version}.buildinfo
 
 diffoscope=jackrabbit-${version}.diffoscope
-issue=
+issue=https://lists.apache.org/thread/6qxnclwmxggq6j20l8z78yr375vxo508
