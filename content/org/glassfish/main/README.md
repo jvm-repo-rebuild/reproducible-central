@@ -311,7 +311,7 @@ rebuilding **7 releases** of org.glassfish.main:glassfish-parent:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [8.0.0-M2](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M2/pom) | | | |
-| [8.0.0-M1](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M1/pom) | [mvn jdk17.0.9](glassfish-8.0.0-M1.buildspec) | :x: | |
+:x: | |
 | [7.0.12](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.12/pom) | | | |
 | [7.0.11](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.11/pom) | [mvn jdk17.0.2](glassfish-7.0.11.buildspec) | [result](glassfish-main-aggregator-7.0.11.buildinfo): [725 :white_check_mark:  11 :warning:](glassfish-main-aggregator-7.0.11.buildcompare) | 453M |
 | [7.0.10](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.10/pom) | [mvn jdk17.0.2](glassfish-7.0.10.buildspec) | [result](glassfish-main-aggregator-7.0.10.buildinfo): [726 :white_check_mark:  10 :warning:](glassfish-main-aggregator-7.0.10.buildcompare) [:mag:](glassfish-main-aggregator-7.0.10.diffoscope) | 453M |

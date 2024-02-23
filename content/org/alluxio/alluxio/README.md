@@ -86,6 +86,7 @@ rebuilding **5 releases** of org.alluxio:alluxio-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [310](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/310/pom) | | | |
 | [309](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/309/pom) | | | |
 | [308](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/308/pom) | | | |
 | [307](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/307/pom) | | | |

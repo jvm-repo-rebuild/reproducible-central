@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3228 releases** of **615 projects**:
-   - **2552** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **3230 releases** of **615 projects**:
+   - **2554** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 676 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 615 projects, 511 have at least one fully reproducible release, 104 have none
 
@@ -294,7 +294,7 @@ Its objectives are to provide:
 | org.apache.systemds | [systemds](content/org/apache/systemds/README.md) | 1 | 1 :warning: |
 | org.apache.tika | [tika](content/org/apache/tika/README.md) | 6 | 6 :warning: |
 | org.apache.wayang | [wayang](content/org/apache/wayang/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
-| org.apache.wss4j | [wss4j](content/org/apache/wss4j/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
+| org.apache.wss4j | [wss4j](content/org/apache/wss4j/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
 | org.apache.zookeeper | [parent](content/org/apache/zookeeper/README.md) | 3 | 3 :warning: |
 | org.apache.activemq | [artemis-pom](content/org/apache/activemq/artemis/README.md) | 5 | 5 :warning: |
 | org.apache.aries | [*.cdi](content/org/apache/aries/cdi/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
@@ -518,7 +518,7 @@ Its objectives are to provide:
 | | [buildnumber-maven-plugin](content/org/codehaus/mojo/buildnumber-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
 | | [buildplan-maven-plugin](content/org/codehaus/mojo/buildplan-maven-plugin/README.md) | 4 | 4 :white_check_mark: |
 | | [cassandra-maven-plugin](content/org/codehaus/mojo/cassandra-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
-| | [exec-maven-plugin](content/org/codehaus/mojo/exec-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
+| | [exec-maven-plugin](content/org/codehaus/mojo/exec-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
 | | [extra-enforcer-rules](content/org/codehaus/mojo/extra-enforcer-rules/README.md) | 7 | 7 :white_check_mark: |
 | | [flatten-maven-plugin](content/org/codehaus/mojo/flatten-maven-plugin/README.md) | 6 | 3 :white_check_mark: / 3 :warning: |
 | | [jaxb2-maven-plugin](content/org/codehaus/mojo/jaxb2-maven-plugin/README.md) | 1 | 1 :warning: |
@@ -638,7 +638,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 34 | 34 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **615** | **3228** | **2552** :white_check_mark: **676** :warning: |
+| **Count:** | **615** | **3230** | **2554** :white_check_mark: **676** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -653,7 +653,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       6 gradle     17
       2 gradle     21
      26 mvn         7
-   1101 mvn         8
+   1102 mvn         8
       1 mvn         9
     928 mvn        11
       2 mvn        11.0.19
@@ -720,7 +720,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       9 mvn-3.9.3  17.0.8
       1 mvn-3.9.3  17.0.8.1
       2 mvn-3.9.3  19
-     22 mvn-3.9.3  21
+     23 mvn-3.9.3  21
       6 mvn-3.9.4   8
       7 mvn-3.9.4  11
       1 mvn-3.9.4  17
