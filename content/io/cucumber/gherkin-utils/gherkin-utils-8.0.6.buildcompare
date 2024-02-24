@@ -1,0 +1,9 @@
+version=8.0.6
+ok=3
+ko=0
+ignored=0
+okFiles="gherkin-utils-8.0.6.pom gherkin-utils-8.0.6.jar gherkin-utils-8.0.6-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
