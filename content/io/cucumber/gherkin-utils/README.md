@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/cucumber/gherkin-utils.git](https://github.com/cucumber/gherkin-utils.git)
 
-rebuilding **4 releases** of io.cucumber:gherkin-utils:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **5 releases** of io.cucumber:gherkin-utils:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [8.0.6](https://central.sonatype.com/artifact/io.cucumber/gherkin-utils/8.0.6/pom) | | | |
+| [8.0.6](https://central.sonatype.com/artifact/io.cucumber/gherkin-utils/8.0.6/pom) | [mvn jdk11](gherkin-utils-8.0.6.buildspec) | [result](gherkin-utils-8.0.6.buildinfo): [3 :white_check_mark: ](gherkin-utils-8.0.6.buildcompare) | 28K |
 | [8.0.5](https://central.sonatype.com/artifact/io.cucumber/gherkin-utils/8.0.5/pom) | [mvn jdk11](gherkin-utils-8.0.5.buildspec) | [result](gherkin-utils-8.0.5.buildinfo): [3 :white_check_mark: ](gherkin-utils-8.0.5.buildcompare) | 27K |
 | [8.0.4](https://central.sonatype.com/artifact/io.cucumber/gherkin-utils/8.0.4/pom) | [mvn jdk11](gherkin-utils-8.0.4.buildspec) | [result](gherkin-utils-8.0.4.buildinfo): [3 :white_check_mark: ](gherkin-utils-8.0.4.buildcompare) | 27K |
 | [8.0.3](https://central.sonatype.com/artifact/io.cucumber/gherkin-utils/8.0.3/pom) | [mvn jdk11](gherkin-utils-8.0.3.buildspec) | [result](gherkin-utils-8.0.3.buildinfo): [3 :white_check_mark: ](gherkin-utils-8.0.3.buildcompare) | 27K |

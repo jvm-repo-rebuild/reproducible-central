@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3230 releases** of **615 projects**:
-   - **2554** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 676 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 615 projects, 511 have at least one fully reproducible release, 104 have none
+   rebuilding **3233 releases** of **616 projects**:
+   - **2555** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 678 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 616 projects, 511 have at least one fully reproducible release, 105 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -47,7 +47,7 @@ Its objectives are to provide:
 | | [jackson-datatypes-collections](content/com/fasterxml/jackson/datatype/jackson-datatypes-collections/README.md) | 2 | 2 :white_check_mark: |
 | | [jackson-datatypes-misc-parent](content/com/fasterxml/jackson/datatype/jackson-datatypes-misc-parent/README.md) | 2 | 2 :white_check_mark: |
 | com.github.ldapchai | [ldapchai](content/com/github/ldapchai/README.md) | 6 | 1 :white_check_mark: / 5 :warning: |
-| com.github.psi-probe | [psi-probe](content/com/github/psi-probe/README.md) | 10 | 8 :white_check_mark: / 2 :warning: |
+| com.github.psi-probe | [psi-probe](content/com/github/psi-probe/README.md) | 11 | 8 :white_check_mark: / 3 :warning: |
 | com.github.adangel.liquibase.ext | [liquibase-percona](content/com/github/adangel/liquibase/ext/liquibase-percona/README.md) | 1 | 1 :white_check_mark: |
 | com.github.hazendaz.7zip | [7zip](content/com/github/hazendaz/7zip/README.md) | 1 | 1 :white_check_mark: |
 | com.github.hazendaz | [javabean-tester](content/com/github/hazendaz/javabean-tester/README.md) | 8 | 6 :white_check_mark: / 2 :warning: |
@@ -198,7 +198,7 @@ Its objectives are to provide:
 | | [cucumber-expressions](content/io/cucumber/cucumber-expressions/README.md) | 6 | 6 :white_check_mark: |
 | | [cucumber-jvm](content/io/cucumber/cucumber-jvm/README.md) | 11 | 11 :white_check_mark: |
 | | [gherkin](content/io/cucumber/gherkin/README.md) | 8 | 8 :white_check_mark: |
-| | [gherkin-utils](content/io/cucumber/gherkin-utils/README.md) | 4 | 4 :white_check_mark: |
+| | [gherkin-utils](content/io/cucumber/gherkin-utils/README.md) | 5 | 5 :white_check_mark: |
 | | [html-formatter](content/io/cucumber/html-formatter/README.md) | 1 | 1 :warning: |
 | | [junit-xml-formatter](content/io/cucumber/junit-xml-formatter/README.md) | 3 | 3 :white_check_mark: |
 | | [messages](content/io/cucumber/messages/README.md) | 6 | 6 :white_check_mark: |
@@ -325,6 +325,7 @@ Its objectives are to provide:
 | org.apache.jackrabbit.vault | [jackrabbit-filevault](content/org/apache/jackrabbit/filevault/README.md) | 12 | 4 :white_check_mark: / 8 :warning: |
 | org.apache.jackrabbit | [filevault-package-maven-plugin](content/org/apache/jackrabbit/filevault-package-maven-plugin/README.md) | 8 | 8 :white_check_mark: |
 | | [jackrabbit-parent](content/org/apache/jackrabbit/jackrabbit/README.md) | 7 | 7 :warning: |
+| | [jackrabbit-oak](content/org/apache/jackrabbit/oak/README.md) | 1 | 1 :warning: |
 | org.apache.jena | [jena](content/org/apache/jena/jena/README.md) | 9 | 9 :warning: |
 | org.apache.karaf | [decanter](content/org/apache/karaf/decanter/README.md) | 2 | 2 :warning: |
 | | [karaf](content/org/apache/karaf/karaf/README.md) | 7 | 7 :warning: |
@@ -638,7 +639,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 34 | 34 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **615** | **3230** | **2554** :white_check_mark: **676** :warning: |
+| **Count:** | **616** | **3233** | **2555** :white_check_mark: **678** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -655,7 +656,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
    1102 mvn         8
       1 mvn         9
-    928 mvn        11
+    930 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
@@ -720,7 +721,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       9 mvn-3.9.3  17.0.8
       1 mvn-3.9.3  17.0.8.1
       2 mvn-3.9.3  19
-     23 mvn-3.9.3  21
+     24 mvn-3.9.3  21
       6 mvn-3.9.4   8
       7 mvn-3.9.4  11
       1 mvn-3.9.4  17
