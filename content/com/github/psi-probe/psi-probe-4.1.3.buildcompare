@@ -1,0 +1,14 @@
+version=4.1.3
+ok=19
+ko=5
+ignored=0
+okFiles="psi-probe-4.1.3.pom psi-probe-core-4.1.3.pom psi-probe-core-4.1.3-tests.jar psi-probe-core-4.1.3-sources.jar psi-probe-core-4.1.3-test-sources.jar psi-probe-rest-4.1.3.pom psi-probe-rest-4.1.3-sources.jar psi-probe-tomcat85-4.1.3.pom psi-probe-tomcat85-4.1.3-tests.jar psi-probe-tomcat85-4.1.3-sources.jar psi-probe-tomcat85-4.1.3-test-sources.jar psi-probe-tomcat9-4.1.3.pom psi-probe-tomcat9-4.1.3-tests.jar psi-probe-tomcat9-4.1.3-sources.jar psi-probe-tomcat9-4.1.3-test-sources.jar psi-probe-web-4.1.3.pom psi-probe-web-4.1.3-tests.jar psi-probe-web-4.1.3-sources.jar psi-probe-web-4.1.3-test-sources.jar"
+koFiles="psi-probe-core-4.1.3.jar psi-probe-rest-4.1.3.jar psi-probe-tomcat85-4.1.3.jar psi-probe-tomcat9-4.1.3.jar psi-probe-web-4.1.3.war"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/com.github.psi-probe/psi-probe-core-4.1.3.jar psi-probe-core/target/psi-probe-core-4.1.3.jar
+# diffoscope target/reference/com.github.psi-probe/psi-probe-rest-4.1.3.jar psi-probe-rest/target/psi-probe-rest-4.1.3.jar
+# diffoscope target/reference/com.github.psi-probe/psi-probe-tomcat85-4.1.3.jar psi-probe-tomcat85/target/psi-probe-tomcat85-4.1.3.jar
+# diffoscope target/reference/com.github.psi-probe/psi-probe-tomcat9-4.1.3.jar psi-probe-tomcat9/target/psi-probe-tomcat9-4.1.3.jar
+# diffoscope target/reference/com.github.psi-probe/psi-probe-web-4.1.3.war psi-probe-web/target/probe.war
