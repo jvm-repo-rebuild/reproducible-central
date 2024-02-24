@@ -183,6 +183,12 @@
       <mirrorOf>fabric-repository</mirrorOf>
     </mirror>
     <mirror>
+      <id>dynamodblocal</id>
+      <name>AWS DynamoDB Local Release Repository</name>
+      <url>https://s3-us-west-2.amazonaws.com/dynamodb-local/release</url>
+      <mirrorOf>dynamodblocal</mirrorOf>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>

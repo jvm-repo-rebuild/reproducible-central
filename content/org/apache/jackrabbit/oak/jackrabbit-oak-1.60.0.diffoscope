@@ -1,0 +1,427 @@
+# need to upgrade Felix maven-bundle-plugin from 5.1.8 to 5.1.9
+1 / 11 target/reference/org.apache.jackrabbit/oak-jackrabbit-api-1.60.0.jar oak-jackrabbit-api/target/oak-jackrabbit-api-1.60.0.jar
+--- target/reference/org.apache.jackrabbit/oak-jackrabbit-api-1.60.0.jar
++++ oak-jackrabbit-api/target/oak-jackrabbit-api-1.60.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 60040 bytes, number of entries: 97
+│ +Zip file size: 60042 bytes, number of entries: 97
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     3321 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      641 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      252 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.jackrabbit/
+│ @@ -92,8 +92,8 @@
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/api/stats/
+│  -rw----     2.0 fat      624 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/api/stats/QueryStat.class
+│  -rw----     2.0 fat      463 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/api/stats/QueryStatDto.class
+│  -rw----     2.0 fat     3375 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/api/stats/RepositoryStatistics$Type.class
+│  -rw----     2.0 fat      576 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/api/stats/RepositoryStatistics.class
+│  -rw----     2.0 fat      370 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/api/stats/TimeSeries.class
+│  -rw----     2.0 fat      243 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/api/stats/package-info.class
+│ -97 files, 91896 bytes uncompressed, 40630 bytes compressed:  55.8%
+│ +97 files, 91896 bytes uncompressed, 40632 bytes compressed:  55.8%
+├── META-INF/MANIFEST.MF
+│ @@ -14,30 +14,30 @@
+│  Bundle-Version: 1.60.0
+
+│  Created-By: Apache Maven Bundle Plugin 5.1.8
+
+│  Export-Package: org.apache.jackrabbit.api;version="2.8.1";uses:="javax
+
+│   .jcr,javax.jcr.lock,javax.jcr.nodetype,javax.jcr.version,javax.transa
+
+│   ction.xa,org.apache.jackrabbit.api.binary,org.apache.jackrabbit.api.m
+
+│   anagement,org.apache.jackrabbit.api.security.authorization,org.apache
+
+│   .jackrabbit.api.security.principal,org.apache.jackrabbit.api.security
+
+│ - .user,org.xml.sax",org.apache.jackrabbit.api.binary;version="1.1.0";u
+
+│ - ses:="javax.jcr",org.apache.jackrabbit.api.jmx;version="2.3.1";uses:=
+
+│ - "javax.jcr,javax.management.openmbean",org.apache.jackrabbit.api.stat
+
+│ - s;version="1.2.1",org.apache.jackrabbit.api.management;version="2.3.2
+
+│ - ";uses:="javax.jcr",org.apache.jackrabbit.api.observation;version="2.
+
+│ - 3.2";uses:="javax.jcr,javax.jcr.observation",org.apache.jackrabbit.ap
+
+│ - i.query;version="2.13.6";uses:="javax.jcr.query",org.apache.jackrabbi
+
+│ - t.api.security;version="2.7.0";uses:="javax.jcr,javax.jcr.security,or
+
+│ - g.apache.jackrabbit.api.security.authorization",org.apache.jackrabbit
+
+│ - .api.security.principal;version="2.4.2";uses:="javax.jcr",org.apache.
+
+│ - jackrabbit.api.security.authentication.token;version="2.3.2";uses:="j
+
+│ - avax.jcr",org.apache.jackrabbit.api.security.user;version="2.4.5";use
+
+│ - s:="javax.jcr,javax.security.auth,org.apache.jackrabbit.api.security.
+
+│ - principal",org.apache.jackrabbit.api.security.authorization;version="
+
+│ - 2.6.1";uses:="javax.jcr,javax.jcr.security,org.apache.jackrabbit.api.
+
+│ - security"
+
+│ + .user,org.xml.sax",org.apache.jackrabbit.api.management;version="2.3.
+
+│ + 2";uses:="javax.jcr",org.apache.jackrabbit.api.jmx;version="2.3.1";us
+
+│ + es:="javax.jcr,javax.management.openmbean",org.apache.jackrabbit.api.
+
+│ + stats;version="1.2.1",org.apache.jackrabbit.api.security;version="2.7
+
+│ + .0";uses:="javax.jcr,javax.jcr.security,org.apache.jackrabbit.api.sec
+
+│ + urity.authorization",org.apache.jackrabbit.api.security.principal;ver
+
+│ + sion="2.4.2";uses:="javax.jcr",org.apache.jackrabbit.api.security.aut
+
+│ + hentication.token;version="2.3.2";uses:="javax.jcr",org.apache.jackra
+
+│ + bbit.api.security.user;version="2.4.5";uses:="javax.jcr,javax.securit
+
+│ + y.auth,org.apache.jackrabbit.api.security.principal",org.apache.jackr
+
+│ + abbit.api.security.authorization;version="2.6.1";uses:="javax.jcr,jav
+
+│ + ax.jcr.security,org.apache.jackrabbit.api.security",org.apache.jackra
+
+│ + bbit.api.binary;version="1.1.0";uses:="javax.jcr",org.apache.jackrabb
+
+│ + it.api.query;version="2.13.6";uses:="javax.jcr.query",org.apache.jack
+
+│ + rabbit.api.observation;version="2.3.2";uses:="javax.jcr,javax.jcr.obs
+
+│ + ervation"
+
+│  Implementation-Title: Jackrabbit API
+
+│  Implementation-Vendor: The Apache Software Foundation
+
+│  Implementation-Version: 1.60.0
+
+│  Import-Package: java.io,java.lang,java.lang.invoke,java.net,java.secur
+
+│   ity,java.util,java.util.function,java.util.stream,javax.jcr;version="
+
+│   [2.0,3)",javax.jcr.lock;version="[2.0,3)",javax.jcr.nodetype;version=
+
+│   "[2.0,3)",javax.jcr.observation;version="[2.0,3)",javax.jcr.query;ver
+
+# need to upgrade depends-maven-plugin from 1.4.0 to 1.5.0
+2 / 11 target/reference/org.apache.jackrabbit/oak-store-composite-1.60.0-tests.jar oak-store-composite/target/oak-store-composite-1.60.0-tests.jar
+--- target/reference/org.apache.jackrabbit/oak-store-composite-1.60.0-tests.jar
++++ oak-store-composite/target/oak-store-composite-1.60.0-tests.jar
+├── zipinfo -v {}
+│ @@ -563,15 +563,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2022 Dec 11 19:18:10
+│ -  32-bit CRC value (hex):                         bfd6855d
+│ +  32-bit CRC value (hex):                         0c1fd7ee
+│    compressed size:                                1991 bytes
+│    uncompressed size:                              14093 bytes
+│    length of filename:                             38 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/maven/dependencies.properties
+│ @@ -1,9 +1,9 @@
+│  # Project dependencies generated by the Apache ServiceMix Maven Plugin
+│ -# Generated at: Fri Dec 01 16:47:33 CET 2023
+│ +# Generated at: Sat Feb 24 00:29:22 UTC 2024
+│  
+│  groupId = org.apache.jackrabbit
+│  artifactId = oak-store-composite
+│  version = 1.60.0
+│  org.apache.jackrabbit/oak-store-composite/version = 1.60.0
+│  
+│  # dependencies
+
+# should it be deployed?
+3 / 11 target/reference/org.apache.jackrabbit/oak-it-1.60.0.jar oak-it/target/oak-it-1.60.0.jar
+--- target/reference/org.apache.jackrabbit/oak-it-1.60.0.jar
++++ oak-it/target/oak-it-1.60.0.jar
+├── zipinfo {}
+│ @@ -1,22 +1,12 @@
+│ -Zip file size: 134418 bytes, number of entries: 20
+│ +Zip file size: 7187 bytes, number of entries: 10
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 META-INF/
+│  -rw-r--r--  2.0 unx      340 b- defN 22-Dec-11 19:18 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 META-INF/maven/org.apache.jackrabbit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 META-INF/maven/org.apache.jackrabbit/oak-it/
+│  -rw-r--r--  2.0 unx      271 b- defN 22-Dec-11 19:18 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Dec-11 19:18 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      178 b- defN 22-Dec-11 19:18 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx    73728 b- defN 22-Dec-11 19:18 document-deep.mv.db
+│ --rw-r--r--  2.0 unx    50500 b- defN 22-Dec-11 19:18 document-deep.trace.db
+│ --rw-r--r--  2.0 unx  1056768 b- defN 22-Dec-11 19:18 document-empty.mv.db
+│ --rw-r--r--  2.0 unx    50278 b- defN 22-Dec-11 19:18 document-empty.trace.db
+│ --rw-r--r--  2.0 unx    81920 b- defN 22-Dec-11 19:18 document-readOnly.mv.db
+│ --rw-r--r--  2.0 unx    50500 b- defN 22-Dec-11 19:18 document-readOnly.trace.db
+│ --rw-r--r--  2.0 unx    94208 b- defN 22-Dec-11 19:18 document-temp.mv.db
+│ --rw-r--r--  2.0 unx    50500 b- defN 22-Dec-11 19:18 document-temp.trace.db
+│ --rw-r--r--  2.0 unx    69632 b- defN 22-Dec-11 19:18 document.mv.db
+│ --rw-r--r--  2.0 unx   101054 b- defN 22-Dec-11 19:18 document.trace.db
+│  -rw-r--r--  2.0 unx    10145 b- defN 22-Dec-11 19:18 META-INF/maven/org.apache.jackrabbit/oak-it/pom.xml
+│  -rw-r--r--  2.0 unx       63 b- defN 22-Dec-11 19:18 META-INF/maven/org.apache.jackrabbit/oak-it/pom.properties
+│ -20 files, 1701443 bytes uncompressed, 131894 bytes compressed:  92.2%
+│ +10 files, 22355 bytes uncompressed, 5833 bytes compressed:  73.9%
+
+4 / 11 target/reference/org.apache.jackrabbit/oak-upgrade-1.60.0.jar oak-upgrade/target/oak-upgrade-1.60.0.jar
+--- target/reference/org.apache.jackrabbit/oak-upgrade-1.60.0.jar
++++ oak-upgrade/target/oak-upgrade-1.60.0.jar
+├── zipinfo {}
+│ @@ -4801,845 +4801,845 @@
+│  -rw----     2.0 fat     1302 bl defN 17-Feb-07 23:59 software/amazon/ion/util/IonTextUtils$EscapeMode.class
+│  -rw----     2.0 fat     1265 bl defN 17-Feb-07 23:59 software/amazon/ion/util/IonTextUtils$SymbolVariant.class
+│  -rw----     2.0 fat    10613 bl defN 17-Feb-07 23:59 software/amazon/ion/util/IonTextUtils.class
+│  -rw----     2.0 fat      540 bl defN 17-Feb-07 23:59 software/amazon/ion/util/IonValueUtils.class
+│  -rw----     2.0 fat     3485 bl defN 17-Feb-07 23:59 software/amazon/ion/util/JarInfo.class
+│  -rw----     2.0 fat      516 bl defN 17-Feb-07 23:59 software/amazon/ion/util/PrivateFastAppendable.class
+│  -rw----     2.0 fat     1197 bl defN 17-Feb-07 23:59 software/amazon/ion/util/Spans.class
+│ --rw----     2.0 fat       44 bl defN 23-May-31 08:26 META-INF/services/com.fasterxml.jackson.core.ObjectCodec
+│ --rw----     2.0 fat        0 bl defN 23-May-31 08:26 com/fasterxml/
+│ --rw----     2.0 fat        0 bl defN 23-May-31 08:26 com/fasterxml/jackson/
+│ --rw----     2.0 fat        0 bl defN 23-May-31 08:26 com/fasterxml/jackson/databind/
+...
+│ --rw----     2.0 fat      893 bl defN 21-Dec-15 13:37 com/fasterxml/jackson/dataformat/cbor/databind/CBORMapper$Builder.class
+│ --rw----     2.0 fat     2314 bl defN 21-Dec-15 13:37 com/fasterxml/jackson/dataformat/cbor/databind/CBORMapper.class
+│ +-rw----     2.0 fat       44 bl defN 23-May-31 06:26 META-INF/services/com.fasterxml.jackson.core.ObjectCodec
+│ +-rw----     2.0 fat        0 bl defN 23-May-31 06:26 com/fasterxml/
+│ +-rw----     2.0 fat        0 bl defN 23-May-31 06:26 com/fasterxml/jackson/
+│ +-rw----     2.0 fat        0 bl defN 23-May-31 06:26 com/fasterxml/jackson/databind/
+..
+│ +-rw----     2.0 fat      893 bl defN 21-Dec-15 12:37 com/fasterxml/jackson/dataformat/cbor/databind/CBORMapper$Builder.class
+│ +-rw----     2.0 fat     2314 bl defN 21-Dec-15 12:37 com/fasterxml/jackson/dataformat/cbor/databind/CBORMapper.class
+│  -rw----     2.0 fat        0 bl defN 15-Jun-15 15:16 org/joda/
+│  -rw----     2.0 fat        0 bl defN 15-Jun-15 15:16 org/joda/time/
+│  -rw----     2.0 fat        0 bl defN 15-Jun-15 15:16 org/joda/time/base/
+│  -rw----     2.0 fat     4004 bl defN 15-Jun-15 15:16 org/joda/time/base/AbstractDateTime.class
+│  -rw----     2.0 fat     2026 bl defN 15-Jun-15 15:16 org/joda/time/base/AbstractDuration.class
+│  -rw----     2.0 fat     4505 bl defN 15-Jun-15 15:16 org/joda/time/base/AbstractInstant.class
+│  -rw----     2.0 fat     4121 bl defN 15-Jun-15 15:16 org/joda/time/base/AbstractInterval.class
+│ @@ -6408,90 +6408,90 @@
+│  -rw----     2.0 fat     1061 bl defN 22-Nov-30 20:37 com/amazonaws/jmespath/CamelCaseUtils.class
+│  -rw----     2.0 fat     2121 bl defN 22-Nov-30 20:37 com/amazonaws/jmespath/JmesPathLengthFunction.class
+│  -rw----     2.0 fat     1540 bl defN 22-Nov-30 20:37 com/amazonaws/jmespath/OpGreaterThan.class
+│  -rw----     2.0 fat     1552 bl defN 22-Nov-30 20:37 com/amazonaws/jmespath/OpEquals.class
+│  -rw----     2.0 fat        0 bl defN 22-Nov-30 20:33 META-INF/maven/com.amazonaws/jmespath-java/
+│  -rw----     2.0 fat     3422 bl defN 22-Nov-30 20:33 META-INF/maven/com.amazonaws/jmespath-java/pom.xml
+│  -rw----     2.0 fat      114 bl defN 22-Nov-30 20:37 META-INF/maven/com.amazonaws/jmespath-java/pom.properties
+│ --rw----     2.0 fat        0 bl defN 23-May-31 05:33 com/fasterxml/jackson/annotation/
+│ --rw----     2.0 fat      429 bl defN 23-May-31 05:33 com/fasterxml/jackson/annotation/JacksonAnnotation.class
+..
+│ --rw----     2.0 fat     7058 bl defN 23-May-31 05:33 META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml
+│ --rw----     2.0 fat       81 bl defN 23-May-31 05:33 META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.properties
+│ +-rw----     2.0 fat        0 bl defN 23-May-31 03:33 com/fasterxml/jackson/annotation/
+│ +-rw----     2.0 fat      429 bl defN 23-May-31 03:33 com/fasterxml/jackson/annotation/JacksonAnnotation.class
+..
+│ +-rw----     2.0 fat     7058 bl defN 23-May-31 03:33 META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml
+│ +-rw----     2.0 fat       81 bl defN 23-May-31 03:33 META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.properties
+│  -rw----     2.0 fat        0 bl defN 23-Jul-27 15:34 io/
+│  -rw----     2.0 fat        0 bl defN 23-Jul-27 15:34 io/netty/
+│  -rw----     2.0 fat        0 bl defN 23-Jul-27 15:34 io/netty/buffer/
+│  -rw----     2.0 fat     3669 bl defN 23-Jul-27 15:34 io/netty/buffer/ByteBufOutputStream.class
+│  -rw----     2.0 fat      990 bl defN 23-Jul-27 15:34 io/netty/buffer/AbstractReferenceCountedByteBuf$1.class
+│  -rw----     2.0 fat      596 bl defN 23-Jul-27 15:34 io/netty/buffer/ByteBufProcessor$9.class
+│  -rw----     2.0 fat     4859 bl defN 23-Jul-27 15:34 io/netty/buffer/AbstractPooledDerivedByteBuf.class
+
+5 / 11 target/reference/org.apache.jackrabbit/oak-lucene-1.60.0.jar oak-lucene/target/oak-lucene-1.60.0.jar
+--- target/reference/org.apache.jackrabbit/oak-lucene-1.60.0.jar
++++ oak-lucene/target/oak-lucene-1.60.0.jar
+├── zipinfo -v {}
+│ @@ -774,15 +774,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│    file last modified on (DOS date/time):          1980 Feb 1 00:00:00
+│ -  32-bit CRC value (hex):                         608dd13f
+│ +  32-bit CRC value (hex):                         5ea7b991
+│    compressed size:                                1654 bytes
+│    uncompressed size:                              7098 bytes
+│    length of filename:                             98 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService.properties
+│ @@ -1,8 +1,8 @@
+│ -#Fri Dec 01 17:11:02 CET 2023
+│ +#Sat Feb 24 00:30:07 UTC 2024
+│  org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService.extractedTextCacheSizeInMB.description=Cache size in MB for caching extracted text for some time. When set to 0 then cache would be disabled
+│  org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService.hybridQueueTimeout.name=Queue timeout
+│  org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService.booleanClauseLimit.description=Limit for number of boolean clauses generated for handling of OR query
+│  org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService.hybridQueueSize.description=Size of in memory queue used for storing Lucene Documents which need to be added to local index
+│  org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService.threadPoolSize.name=Thread pool size
+│  org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService.hybridQueueTimeout.description=Maximum time to wait for adding entries to the queue used for storing Lucene Documents which need to be added to local index
+│  org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService.deletedBlobsCollectionEnabled.name=Enable actively removing deleted index blobs from blob store
+
+6 / 11 target/reference/org.apache.jackrabbit/oak-solr-core-1.60.0.jar oak-solr-core/target/oak-solr-core-1.60.0.jar
+--- target/reference/org.apache.jackrabbit/oak-solr-core-1.60.0.jar
++++ oak-solr-core/target/oak-solr-core-1.60.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 134138 bytes, number of entries: 103
+│ +Zip file size: 134133 bytes, number of entries: 103
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     3079 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     3631 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      170 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.jackrabbit/
+│ @@ -98,8 +98,8 @@
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 solr/oak/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 solr/oak/conf/
+│  -rw----     2.0 fat     8627 bl defN 80-Feb-01 00:00 solr/oak/conf/schema.xml
+│  -rw----     2.0 fat    13062 bl defN 80-Feb-01 00:00 solr/oak/conf/solrconfig.xml
+│  -rw----     2.0 fat      792 bl defN 80-Feb-01 00:00 solr/oak/core.properties
+│  -rw----     2.0 fat     1772 bl defN 80-Feb-01 00:00 solr/solr.xml
+│  -rw----     2.0 fat     1284 bl defN 80-Feb-01 00:00 solr/zoo.cfg
+│ -103 files, 314579 bytes uncompressed, 110158 bytes compressed:  65.0%
+│ +103 files, 314579 bytes uncompressed, 110153 bytes compressed:  65.0%
+├── OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.properties
+│ @@ -1,5 +1,5 @@
+│ -#Fri Dec 01 17:13:10 CET 2023
+│ +#Sat Feb 24 00:30:12 UTC 2024
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.enabled.name=enabled
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.enabled.description=enable persisted configuration observer
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.name=Apache Jackrabbit Oak Solr persisted configuration observer
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.description=Description for org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService
+├── OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.properties
+│ @@ -1,8 +1,8 @@
+│ -#Fri Dec 01 17:13:10 CET 2023
+│ +#Sat Feb 24 00:30:12 UTC 2024
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.property.mappings.name=mappings from JCR property names to Solr fields
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.catch.all.field.description=Description for catch.all.field
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.path.child.field.description=Description for path.child.field
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.primarytypes.restrictions.name=primary types restrictions
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.path.depth.field.name=field for path depth
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.path.exact.field.name=field for path search
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.collapsed.path.field.description=Description for collapsed.path.field
+├── OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.properties
+│ @@ -1,8 +1,8 @@
+│ -#Fri Dec 01 17:13:10 CET 2023
+│ +#Sat Feb 24 00:30:12 UTC 2024
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.solr.socket.timeout.description=Description for solr.socket.timeout
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.solr.socket.timeout.name=Socket timeout (ms)
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.description=Description for org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.solr.http.url.name=Solr HTTP URL
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.name=Apache Jackrabbit Oak Solr remote server configuration
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.solr.shards.no.name=No. of collection shards
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.solr.shards.no.description=Description for solr.shards.no
+├── OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService.properties
+│ @@ -1,5 +1,5 @@
+│ -#Fri Dec 01 17:13:10 CET 2023
+│ +#Sat Feb 24 00:30:12 UTC 2024
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService.query.aggregation.name=query time aggregation
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService.name=Apache Jackrabbit Oak Solr Query index provider configuration
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService.description=Description for org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService.query.aggregation.description=enable query time aggregation for Solr index
+├── OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService.properties
+│ @@ -1,5 +1,5 @@
+│ -#Fri Dec 01 17:13:10 CET 2023
+│ +#Sat Feb 24 00:30:12 UTC 2024
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService.name=Apache Jackrabbit Oak Solr server provider
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService.server.type.name=Property server.type
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService.server.type.description=Description for server.type
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService.description=Description for org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService
+
+7 / 11 target/reference/org.apache.jackrabbit/oak-solr-core-1.60.0-tests.jar oak-solr-core/target/oak-solr-core-1.60.0-tests.jar
+--- target/reference/org.apache.jackrabbit/oak-solr-core-1.60.0-tests.jar
++++ oak-solr-core/target/oak-solr-core-1.60.0-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 134227 bytes, number of entries: 113
+│ +Zip file size: 128055 bytes, number of entries: 87
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 META-INF/
+│  -rw-r--r--  2.0 unx      324 b- defN 22-Dec-11 19:18 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 org/apache/jackrabbit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 org/apache/jackrabbit/oak/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 org/apache/jackrabbit/oak/jcr/
+│ @@ -15,22 +15,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 org/apache/jackrabbit/oak/plugins/index/solr/index/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 org/apache/jackrabbit/oak/plugins/index/solr/osgi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 org/apache/jackrabbit/oak/plugins/index/solr/query/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 org/apache/jackrabbit/oak/plugins/index/solr/server/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 org/apache/jackrabbit/oak/plugins/index/solr/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 org/apache/jackrabbit/oak/query/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 solr/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 solr/filestore/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 solr/oak/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 solr/oak/conf/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 solr/oak/data/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 solr/oak/data/index/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 solr/oak/data/snapshot_metadata/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 solr/oak/data/tlog/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 solr/userfiles/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 META-INF/maven/org.apache.jackrabbit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-11 19:18 META-INF/maven/org.apache.jackrabbit/oak-solr-core/
+│  -rw-r--r--  2.0 unx     3631 b- defN 22-Dec-11 19:18 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Dec-11 19:18 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      170 b- defN 22-Dec-11 19:18 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1608 b- defN 22-Dec-11 19:18 org/apache/jackrabbit/oak/jcr/SolrOakRepositoryStub$1.class
+│ @@ -84,32 +78,12 @@
+│  -rw-r--r--  2.0 unx    24678 b- defN 22-Dec-11 19:18 repositoryStubImpl.properties
+│  -rw-r--r--  2.0 unx      781 b- defN 22-Dec-11 19:18 solr/oak/conf/protwords.txt
+│  -rw-r--r--  2.0 unx     9651 b- defN 22-Dec-11 19:18 solr/oak/conf/schema.xml
+│  -rw-r--r--  2.0 unx    57967 b- defN 22-Dec-11 19:18 solr/oak/conf/solrconfig.xml
+│  -rw-r--r--  2.0 unx      781 b- defN 22-Dec-11 19:18 solr/oak/conf/stopwords.txt
+│  -rw-r--r--  2.0 unx      781 b- defN 22-Dec-11 19:18 solr/oak/conf/synonyms.txt
+│  -rw-r--r--  2.0 unx      792 b- defN 22-Dec-11 19:18 solr/oak/core.properties
+│ --rw-r--r--  2.0 unx      158 b- defN 22-Dec-11 19:18 solr/oak/data/index/_1.fdm
+│ --rw-r--r--  2.0 unx      106 b- defN 22-Dec-11 19:18 solr/oak/data/index/_1.fdt
+│ --rw-r--r--  2.0 unx       64 b- defN 22-Dec-11 19:18 solr/oak/data/index/_1.fdx
+│ --rw-r--r--  2.0 unx     1211 b- defN 22-Dec-11 19:18 solr/oak/data/index/_1.fnm
+│ --rw-r--r--  2.0 unx       59 b- defN 22-Dec-11 19:18 solr/oak/data/index/_1.nvd
+│ --rw-r--r--  2.0 unx      247 b- defN 22-Dec-11 19:18 solr/oak/data/index/_1.nvm
+│ --rw-r--r--  2.0 unx      616 b- defN 22-Dec-11 19:18 solr/oak/data/index/_1.si
+│ --rw-r--r--  2.0 unx      106 b- defN 22-Dec-11 19:18 solr/oak/data/index/_1.tvd
+│ --rw-r--r--  2.0 unx      162 b- defN 22-Dec-11 19:18 solr/oak/data/index/_1.tvm
+│ --rw-r--r--  2.0 unx       69 b- defN 22-Dec-11 19:18 solr/oak/data/index/_1.tvx
+│ --rw-r--r--  2.0 unx       77 b- defN 22-Dec-11 19:18 solr/oak/data/index/_1_Lucene80_0.dvd
+│ --rw-r--r--  2.0 unx      403 b- defN 22-Dec-11 19:18 solr/oak/data/index/_1_Lucene80_0.dvm
+│ --rw-r--r--  2.0 unx       78 b- defN 22-Dec-11 19:18 solr/oak/data/index/_1_Lucene84_0.doc
+│ --rw-r--r--  2.0 unx       86 b- defN 22-Dec-11 19:18 solr/oak/data/index/_1_Lucene84_0.pos
+│ --rw-r--r--  2.0 unx      321 b- defN 22-Dec-11 19:18 solr/oak/data/index/_1_Lucene84_0.tim
+│ --rw-r--r--  2.0 unx       80 b- defN 22-Dec-11 19:18 solr/oak/data/index/_1_Lucene84_0.tip
+│ --rw-r--r--  2.0 unx      488 b- defN 22-Dec-11 19:18 solr/oak/data/index/_1_Lucene84_0.tmd
+│ --rw-r--r--  2.0 unx      220 b- defN 22-Dec-11 19:18 solr/oak/data/index/segments_3
+│ --rw-r--r--  2.0 unx      129 b- defN 22-Dec-11 19:18 solr/oak/data/tlog/tlog.0000000000000000000
+│ --rw-r--r--  2.0 unx      161 b- defN 22-Dec-11 19:18 solr/oak/data/tlog/tlog.0000000000000000001
+│  -rw-r--r--  2.0 unx     1772 b- defN 22-Dec-11 19:18 solr/solr.xml
+│  -rw-r--r--  2.0 unx     1284 b- defN 22-Dec-11 19:18 solr/zoo.cfg
+│  -rw-r--r--  2.0 unx    13928 b- defN 22-Dec-11 19:18 META-INF/maven/org.apache.jackrabbit/oak-solr-core/pom.xml
+│  -rw-r--r--  2.0 unx       70 b- defN 22-Dec-11 19:18 META-INF/maven/org.apache.jackrabbit/oak-solr-core/pom.properties
+│ -113 files, 341207 bytes uncompressed, 114221 bytes compressed:  66.5%
+│ +87 files, 336366 bytes uncompressed, 111523 bytes compressed:  66.8%
+
+# same as 6
+8 / 11 target/reference/org.apache.jackrabbit/oak-solr-osgi-1.60.0.jar oak-solr-osgi/target/oak-solr-osgi-1.60.0.jar
+9 / 11 target/reference/org.apache.jackrabbit/oak-search-mt-1.60.0.jar oak-search-mt/target/oak-search-mt-1.60.0.jar
+10 / 11 target/reference/org.apache.jackrabbit/oak-auth-external-1.60.0.jar oak-auth-external/target/oak-auth-external-1.60.0.jar
+
+# same as 5
+11 / 11 target/reference/org.apache.jackrabbit/oak-run-1.60.0.jar oak-run/target/oak-run-1.60.0.jar
