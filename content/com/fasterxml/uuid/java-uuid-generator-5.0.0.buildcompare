@@ -1,0 +1,7 @@
+version=5.0.0
+ok=3
+ko=0
+ignored=0
+okFiles="java-uuid-generator-5.0.0.pom java-uuid-generator-5.0.0.jar java-uuid-generator-5.0.0-sources.jar"
+koFiles=""
+ignoredFiles=""
