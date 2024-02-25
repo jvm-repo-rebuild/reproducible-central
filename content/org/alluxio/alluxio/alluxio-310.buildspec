@@ -1,0 +1,24 @@
+groupId=org.alluxio
+artifactId=alluxio-parent
+version=310
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/alluxio/alluxio.git
+gitTag=v${version}
+# WARNING: binaries pulished to Maven Central were not built from the tag...
+gitTag=51ca15faf712f81853323e4552cc5b8fa9d78d80
+
+
+tool=mvn-3.9.3
+jdk=8
+newline=lf
+umask=022
+
+# WARNING: skipping sources as result is not ok: let's be tolerant, even if something weird is happenning (not same source plugin version used, missing some sources): are the binaries on Maven Central really from OSS Git, or from some company-specific one?
+# SHELL because needs go command
+command="SHELL mvn -Duser.timezone=UTC -Prelease,no-webui-linter clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dmaven.source.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
