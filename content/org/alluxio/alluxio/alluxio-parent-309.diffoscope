@@ -1,0 +1,44 @@
+1 / 42 target/reference/org.alluxio/alluxio-core-transport-309-sources.jar common/transport/target/alluxio-core-transport-309-sources.jar
+--- target/reference/org.alluxio/alluxio-core-transport-309-sources.jar
++++ common/transport/target/alluxio-core-transport-309-sources.jar
+├── zipinfo {}
+│ @@ -1,1033 +1,1038 @@
+│ -Zip file size: 2408264 bytes, number of entries: 1031
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-13 04:09 META-INF/
+│ --rw-r--r--  2.0 unx      124 b- defN 24-Feb-13 04:09 META-INF/MANIFEST.MF
+...
+│ --rw-r--r--  2.0 unx    60440 b- defN 24-Feb-13 04:09 alluxio/grpc/table/TableMasterClientServiceGrpc.java
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 24-Feb-13 04:09 grpc/
+│ +Zip file size: 2410818 bytes, number of entries: 1036
+│ +-rw-r--r--  2.0 unx       64 b- defN 24-Feb-13 04:07 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-13 04:07 META-INF/
+...
+│ +-rw-r--r--  2.0 unx    13020 b- defN 24-Feb-13 04:07 alluxio/grpc/ServiceVersionClientServiceGrpc.java
+│ +-rw-r--r--  2.0 unx    60440 b- defN 24-Feb-13 04:07 alluxio/grpc/table/TableMasterClientServiceGrpc.java
+│  -rw-r--r--  2.0 unx     9904 b- defN 24-Feb-13 04:07 grpc/block_master.proto
+│  -rw-r--r--  2.0 unx    10321 b- defN 24-Feb-13 04:07 grpc/block_worker.proto
+│  -rw-r--r--  2.0 unx     3851 b- defN 24-Feb-13 04:07 grpc/common.proto
+│  -rw-r--r--  2.0 unx    26416 b- defN 24-Feb-13 04:07 grpc/file_system_master.proto
+...
+│ +-rw-r--r--  2.0 unx     6190 b- defN 24-Feb-13 04:07 META-INF/maven/org.alluxio/alluxio-core-transport/pom.xml
+│ +-rw-r--r--  2.0 unx       66 b- defN 24-Feb-13 04:07 META-INF/maven/org.alluxio/alluxio-core-transport/pom.properties
+│ +1036 files, 16208981 bytes uncompressed, 2247676 bytes compressed:  86.1%
+├── filetype from file(1)
+│ @@ -1 +1 @@
+│ -Zip archive data, at least v1.0 to extract, compression method=store
+│ +Zip archive data, at least v2.0 to extract, compression method=deflate
+├── META-INF/MANIFEST.MF
+│ @@ -1,6 +1,3 @@
+│  Manifest-Version: 1.0
+
+│ -Archiver-Version: Plexus Archiver
+
+│ -Created-By: Apache Maven
+
+│ -Built-By: 1000
+
+│ -Build-Jdk: 1.8.0_342
+
+│ +Created-By: Maven Source Plugin 3.2.1
+
+...
