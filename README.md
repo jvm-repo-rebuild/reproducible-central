@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3233 releases** of **616 projects**:
-   - **2555** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 678 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 616 projects, 511 have at least one fully reproducible release, 105 have none
+   rebuilding **3236 releases** of **616 projects**:
+   - **2557** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 679 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 616 projects, 512 have at least one fully reproducible release, 104 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -33,7 +33,7 @@ Its objectives are to provide:
 | com.corgibytes | [mrm](content/com/corgibytes/mrm/README.md) | 1 | 1 :white_check_mark: |
 | | [versions-maven-plugin](content/com/corgibytes/versions-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | com.fasterxml | [oss-parent](content/com/fasterxml/oss-parent/README.md) | 13 | 13 :white_check_mark: |
-| com.fasterxml.uuid | [java-uuid-generator](content/com/fasterxml/uuid/README.md) | 2 | 2 :warning: |
+| com.fasterxml.uuid | [java-uuid-generator](content/com/fasterxml/uuid/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | com.fasterxml.jackson.core | [jackson-annotations](content/com/fasterxml/jackson/annotations/README.md) | 8 | 2 :white_check_mark: / 6 :warning: |
 | | [jackson-core](content/com/fasterxml/jackson/core/README.md) | 9 | 6 :white_check_mark: / 3 :warning: |
 | | [jackson-databind](content/com/fasterxml/jackson/databind/README.md) | 9 | 2 :white_check_mark: / 7 :warning: |
@@ -262,7 +262,7 @@ Its objectives are to provide:
 | org.phoebus | [parent](content/org/phoebus/README.md) | 1 | 1 :warning: |
 | org.quickperf | [quick-perf](content/org/quickperf/README.md) | 3 | 3 :white_check_mark: |
 | org.slf4j | [slf4j-parent](content/org/slf4j/README.md) | 13 | 6 :white_check_mark: / 7 :warning: |
-| org.alluxio | [alluxio-parent](content/org/alluxio/alluxio/README.md) | 5 | 5 :white_check_mark: |
+| org.alluxio | [alluxio-parent](content/org/alluxio/alluxio/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
 | org.antlr | [antlr4-master](content/org/antlr/antlr4/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | org.apache.accumulo | [accumulo](content/org/apache/accumulo/README.md) | 7 | 3 :white_check_mark: / 4 :warning: |
 | org.apache.activemq | [activemq-parent](content/org/apache/activemq/README.md) | 11 | 4 :white_check_mark: / 7 :warning: |
@@ -639,7 +639,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 34 | 34 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **616** | **3233** | **2555** :white_check_mark: **678** :warning: |
+| **Count:** | **616** | **3236** | **2557** :white_check_mark: **679** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -679,7 +679,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn-3.8.5  11
      15 mvn-3.8.5  17
       1 mvn-3.8.5  17.0.3
-     38 mvn-3.8.6   8
+     39 mvn-3.8.6   8
       2 mvn-3.8.6  11
      37 mvn-3.8.6  17
       2 mvn-3.8.6  18
@@ -700,7 +700,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       7 mvn-3.9.2   8
      16 mvn-3.9.2  17
       2 mvn-3.9.2  21
-     31 mvn-3.9.3   8
+     33 mvn-3.9.3   8
      38 mvn-3.9.3  11
       1 mvn-3.9.3  11.0.18
       1 mvn-3.9.3  11.0.2
