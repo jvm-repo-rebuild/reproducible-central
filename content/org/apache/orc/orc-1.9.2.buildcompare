@@ -1,0 +1,14 @@
+version=1.9.2
+ok=30
+ko=5
+ignored=0
+okFiles="orc-1.9.2.pom orc-1.9.2-source-release.zip orc-shims-1.9.2.pom orc-shims-1.9.2.jar orc-shims-1.9.2-sources.jar orc-shims-1.9.2-test-sources.jar orc-core-1.9.2.pom orc-core-1.9.2.jar orc-core-1.9.2-sources.jar orc-core-1.9.2-test-sources.jar orc-core-1.9.2-shaded-protobuf.jar orc-core-1.9.2-nohive.jar orc-mapreduce-1.9.2.pom orc-mapreduce-1.9.2.jar orc-mapreduce-1.9.2-sources.jar orc-mapreduce-1.9.2-test-sources.jar orc-mapreduce-1.9.2-shaded-protobuf.jar orc-mapreduce-1.9.2-nohive.jar orc-tools-1.9.2.pom orc-tools-1.9.2.jar orc-tools-1.9.2-sources.jar orc-tools-1.9.2-test-sources.jar orc-tools-1.9.2-shaded-protobuf.jar orc-tools-1.9.2-nohive.jar orc-tools-1.9.2-uber.jar orc-examples-1.9.2.pom orc-examples-1.9.2.jar orc-examples-1.9.2-uber.jar orc-examples-1.9.2-sources.jar orc-examples-1.9.2-test-sources.jar"
+koFiles="orc-shims-1.9.2-tests.jar orc-core-1.9.2-tests.jar orc-mapreduce-1.9.2-tests.jar orc-tools-1.9.2-tests.jar orc-examples-1.9.2-tests.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/org.apache.orc/orc-shims-1.9.2-tests.jar shims/target/orc-shims-1.9.2-tests.jar
+# diffoscope target/reference/org.apache.orc/orc-core-1.9.2-tests.jar core/target/orc-core-1.9.2-tests.jar
+# diffoscope target/reference/org.apache.orc/orc-mapreduce-1.9.2-tests.jar mapreduce/target/orc-mapreduce-1.9.2-tests.jar
+# diffoscope target/reference/org.apache.orc/orc-tools-1.9.2-tests.jar tools/target/orc-tools-1.9.2-tests.jar
+# diffoscope target/reference/org.apache.orc/orc-examples-1.9.2-tests.jar examples/target/orc-examples-1.9.2-tests.jar

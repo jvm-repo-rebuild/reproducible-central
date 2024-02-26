@@ -1,0 +1,23 @@
+1 / 5 target/reference/org.apache.orc/orc-shims-1.9.2-tests.jar shims/target/orc-shims-1.9.2-tests.jar
+--- target/reference/org.apache.orc/orc-shims-1.9.2-tests.jar
++++ shims/target/orc-shims-1.9.2-tests.jar
+├── zipinfo {}
+│ @@ -1,18 +1,18 @@
+│  Zip file size: 9399 bytes, number of entries: 16
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-05 03:09 META-INF/
+│ --rw-r--r--  2.0 unx      315 b- defN 23-Nov-05 03:09 META-INF/MANIFEST.MF
+...
+│ --rw-r--r--  2.0 unx     3801 b- defN 23-Nov-05 03:09 META-INF/maven/org.apache.orc/orc-shims/pom.xml
+│ --rw-r--r--  2.0 unx       58 b- defN 23-Nov-05 03:09 META-INF/maven/org.apache.orc/orc-shims/pom.properties
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-05 04:09 META-INF/
+│ +-rw-r--r--  2.0 unx      315 b- defN 23-Nov-05 04:09 META-INF/MANIFEST.MF
+...
+│ +-rw-r--r--  2.0 unx     3801 b- defN 23-Nov-05 04:09 META-INF/maven/org.apache.orc/orc-shims/pom.xml
+│ +-rw-r--r--  2.0 unx       58 b- defN 23-Nov-05 04:09 META-INF/maven/org.apache.orc/orc-shims/pom.properties
+│  16 files, 19596 bytes uncompressed, 7401 bytes compressed:  62.2%
+
+# same issues
+2 / 5 target/reference/org.apache.orc/orc-core-1.9.2-tests.jar core/target/orc-core-1.9.2-tests.jar
+3 / 5 target/reference/org.apache.orc/orc-mapreduce-1.9.2-tests.jar mapreduce/target/orc-mapreduce-1.9.2-tests.jar
+4 / 5 target/reference/org.apache.orc/orc-tools-1.9.2-tests.jar tools/target/orc-tools-1.9.2-tests.jar
+5 / 5 target/reference/org.apache.orc/orc-examples-1.9.2-tests.jar examples/target/orc-examples-1.9.2-tests.jar
