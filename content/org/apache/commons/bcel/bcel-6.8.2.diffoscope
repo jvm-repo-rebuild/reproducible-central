@@ -1,0 +1,787 @@
+1 / 3 target/reference/org.apache.bcel/bcel-6.8.2.jar target/bcel-6.8.2.jar
+--- target/reference/org.apache.bcel/bcel-6.8.2.jar
++++ target/bcel-6.8.2.jar
+├── zipinfo {}
+│ @@ -1,9 +1,9 @@
+│ -Zip file size: 742356 bytes, number of entries: 472
+│ -?rw-r--r--  2.0 unx     1417 bX defN 24-Feb-21 14:34 META-INF/MANIFEST.MF
+│ +Zip file size: 729536 bytes, number of entries: 472
+│ +?rw-r--r--  2.0 unx     1417 bX defN 24-Feb-21 19:34 META-INF/MANIFEST.MF
+│  ?rwxr-xr-x  1.0 unx        0 bx stor 24-Feb-21 19:34 META-INF/
+│  ?rwxr-xr-x  1.0 unx        0 bx stor 24-Feb-21 19:34 org/
+│  ?rwxr-xr-x  1.0 unx        0 bx stor 24-Feb-21 19:34 org/apache/
+│  ?rwxr-xr-x  1.0 unx        0 bx stor 24-Feb-21 19:34 org/apache/bcel/
+│  ?rwxr-xr-x  1.0 unx        0 bx stor 24-Feb-21 19:34 org/apache/bcel/classfile/
+│  ?rwxr-xr-x  1.0 unx        0 bx stor 24-Feb-21 19:34 org/apache/bcel/generic/
+│  ?rwxr-xr-x  1.0 unx        0 bx stor 24-Feb-21 19:34 org/apache/bcel/util/
+│ @@ -464,11 +464,11 @@
+│  ?rw-r--r--  2.0 unx     1482 bx defN 24-Feb-21 19:34 org/apache/bcel/verifier/structurals/Subroutines$ColourConstants.class
+│  ?rw-r--r--  2.0 unx     8661 bx defN 24-Feb-21 19:34 org/apache/bcel/verifier/structurals/Subroutines$SubroutineImpl.class
+│  ?rw-r--r--  2.0 unx     9839 bx defN 24-Feb-21 19:34 org/apache/bcel/verifier/structurals/Subroutines.class
+│  ?rw-r--r--  2.0 unx     1354 bx defN 24-Feb-21 19:34 org/apache/bcel/verifier/structurals/UninitializedObjectType.class
+│  ?rw-r--r--  2.0 unx      142 bx defN 24-Feb-21 19:34 org/apache/bcel/verifier/structurals/package-info.class
+│  ?rw-r--r--  2.0 unx    21394 bx defN 24-Feb-21 19:34 META-INF/maven/org.apache.bcel/bcel/pom.xml
+│  ?rw-r--r--  2.0 unx       57 bx defN 24-Feb-21 19:34 META-INF/maven/org.apache.bcel/bcel/pom.properties
+│ --rw----     1.0 fat        0 bx stor 24-Feb-21 14:34 META-INF/versions/
+│ --rw----     1.0 fat        0 bx stor 24-Feb-21 14:34 META-INF/versions/9/
+│ --rw----     2.0 fat      481 bX defN 24-Feb-21 14:34 META-INF/versions/9/module-info.class
+│ +-rw----     1.0 fat        0 bx stor 24-Feb-21 19:34 META-INF/versions/
+│ +-rw----     1.0 fat        0 bx stor 24-Feb-21 19:34 META-INF/versions/9/
+│ +-rw----     2.0 fat      481 bX defN 24-Feb-21 19:34 META-INF/versions/9/module-info.class
+│  472 files, 1580672 bytes uncompressed, 648870 bytes compressed:  58.9%
+
+2 / 3 target/reference/org.apache.bcel/bcel-6.8.2-tests.jar target/bcel-6.8.2-tests.jar
+--- target/reference/org.apache.bcel/bcel-6.8.2-tests.jar
++++ target/bcel-6.8.2-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 524280 bytes, number of entries: 343
+│ +Zip file size: 524408 bytes, number of entries: 343
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 META-INF/
+│  -rw-r--r--  2.0 unx     1396 b- defN 24-Feb-21 19:34 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 com/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 com/foo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 com/puppycrawl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 com/puppycrawl/tools/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 com/puppycrawl/tools/checkstyle/
+│ @@ -147,15 +147,15 @@
+│  -rw-r--r--  2.0 unx  6596256 b- defN 24-Feb-21 19:34 org/apache/bcel/data/LargeMethod.class
+│  -rw-r--r--  2.0 unx      472 b- defN 24-Feb-21 19:34 org/apache/bcel/data/MarkedType.class
+│  -rw-r--r--  2.0 unx      314 b- defN 24-Feb-21 19:34 org/apache/bcel/data/MarkerAnnotation.class
+│  -rw-r--r--  2.0 unx      330 b- defN 24-Feb-21 19:34 org/apache/bcel/data/MarkerAnnotationInvisible.class
+│  -rw-r--r--  2.0 unx      808 b- defN 24-Feb-21 19:34 org/apache/bcel/data/PLSETestClass.class
+│  -rw-r--r--  2.0 unx      557 b- defN 24-Feb-21 19:34 org/apache/bcel/data/PLSETestClass2.class
+│  -rw-r--r--  2.0 unx     1104 b- defN 24-Feb-21 19:34 org/apache/bcel/data/PLSETestEnum.class
+│ --rw-r--r--  2.0 unx      781 b- defN 24-Feb-21 19:34 org/apache/bcel/data/SWAP.class
+│ +-rw-r--r--  2.0 unx     1031 b- defN 24-Feb-21 19:34 org/apache/bcel/data/SWAP.class
+│  -rw-r--r--  2.0 unx      424 b- defN 24-Feb-21 19:34 org/apache/bcel/data/SimpleAnnotatedClass.class
+│  -rw-r--r--  2.0 unx      411 b- defN 24-Feb-21 19:34 org/apache/bcel/data/SimpleAnnotation.class
+│  -rw-r--r--  2.0 unx      448 b- defN 24-Feb-21 19:34 org/apache/bcel/data/SimpleClass.class
+│  -rw-r--r--  2.0 unx     1206 b- defN 24-Feb-21 19:34 org/apache/bcel/data/SimpleClassHasMethodIncludeGenericArgument.class
+│  -rw-r--r--  2.0 unx      370 b- defN 24-Feb-21 19:34 org/apache/bcel/data/SimpleClassWithDefaultConstructor.class
+│  -rw-r--r--  2.0 unx     1377 b- defN 24-Feb-21 19:34 org/apache/bcel/data/SimpleEnum.class
+│  -rw-r--r--  2.0 unx     6650 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/AnnotationGenTestCase.class
+│ @@ -335,11 +335,11 @@
+│  -rw-r--r--  2.0 unx       61 b- defN 24-Feb-21 19:34 ossfuzz/issue52168/Test.classx
+│  -rw-r--r--  2.0 unx       57 b- defN 24-Feb-21 19:34 ossfuzz/issue53543/Test.classx
+│  -rw-r--r--  2.0 unx       49 b- defN 24-Feb-21 19:34 ossfuzz/issue53544a/Test.classx
+│  -rw-r--r--  2.0 unx   227530 b- defN 24-Feb-21 19:34 ossfuzz/issue53620/Test.classx
+│  -rw-r--r--  2.0 unx       26 b- defN 24-Feb-21 19:34 ossfuzz/issue53676/Test.classx
+│  -rw-r--r--  2.0 unx       24 b- defN 24-Feb-21 19:34 ossfuzz/issue54119/Test.classx
+│  -rw-r--r--  2.0 unx       42 b- defN 24-Feb-21 19:34 ossfuzz/issue54254/Test.classx
+│ --rw-r--r--  2.0 unx      946 b- defN 24-Feb-21 19:34 ossfuzz/readme.txt
+│ +-rw-r--r--  2.0 unx      927 b- defN 24-Feb-21 19:34 ossfuzz/readme.txt
+│  -rw-r--r--  2.0 unx    21394 b- defN 24-Feb-21 19:34 META-INF/maven/org.apache.bcel/bcel/pom.xml
+│  -rw-r--r--  2.0 unx       57 b- defN 24-Feb-21 19:34 META-INF/maven/org.apache.bcel/bcel/pom.properties
+│ -343 files, 7846849 bytes uncompressed, 469838 bytes compressed:  94.0%
+│ +343 files, 7847080 bytes uncompressed, 469966 bytes compressed:  94.0%
+├── org/apache/bcel/data/SWAP.class
+│ ├── procyon -ec {}
+│ │ @@ -1,17 +1,31 @@
+│ │  
+│ │  package org.apache.bcel.data;
+│ │  
+│ │  import java.lang.reflect.Constructor;
+│ │  
+│ │  public class SWAP
+│ │  {
+│ │ +    static /* synthetic */ Class class$0;
+│ │ +    
+│ │      public static Constructor getTestConstructor(final Class theClass) throws NoSuchMethodException {
+│ │ -        final Class[] args = { String.class };
+│ │ +        final Class[] array = { null };
+│ │ +        final int n = 0;
+│ │ +        Class class$0;
+│ │ +        if ((class$0 = SWAP.class$0) == null) {
+│ │ +            try {
+│ │ +                class$0 = (SWAP.class$0 = Class.forName("java.lang.String"));
+│ │ +            }
+│ │ +            catch (final ClassNotFoundException ex) {
+│ │ +                throw new NoClassDefFoundError(ex.getMessage());
+│ │ +            }
+│ │ +        }
+│ │ +        array[n] = class$0;
+│ │ +        final Class[] args = array;
+│ │          try {
+│ │              return theClass.getConstructor((Class[])args);
+│ │          }
+│ │ -        catch (final NoSuchMethodException ex) {
+│ │ +        catch (final NoSuchMethodException ex2) {
+│ │              return theClass.getConstructor((Class[])new Class[0]);
+│ │          }
+│ │      }
+│ │  }
+├── ossfuzz/readme.txt
+│ @@ -1,19 +1,19 @@
+│ -<!--
+│ -
+│ -   Licensed to the Apache Software Foundation (ASF) under one or more
+│ -   contributor license agreements.  See the NOTICE file distributed with
+│ -   this work for additional information regarding copyright ownership.
+│ -   The ASF licenses this file to You under the Apache License, Version 2.0
+│ -   (the "License"); you may not use this file except in compliance with
+│ -   the License.  You may obtain a copy of the License at
+│ -
+│ -       http://www.apache.org/licenses/LICENSE-2.0
+│ -
+│ -   Unless required by applicable law or agreed to in writing, software
+│ -   distributed under the License is distributed on an "AS IS" BASIS,
+│ -   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│ -   See the License for the specific language governing permissions and
+│ -   limitations under the License.
+│ -
+│ --->
+│ -Class names here use non-".class" suffix so that Maven plugins like surefire do not try to read the file and fail the build.
+│ +<!--
+│ +
+│ +   Licensed to the Apache Software Foundation (ASF) under one or more
+│ +   contributor license agreements.  See the NOTICE file distributed with
+│ +   this work for additional information regarding copyright ownership.
+│ +   The ASF licenses this file to You under the Apache License, Version 2.0
+│ +   (the "License"); you may not use this file except in compliance with
+│ +   the License.  You may obtain a copy of the License at
+│ +
+│ +       http://www.apache.org/licenses/LICENSE-2.0
+│ +
+│ +   Unless required by applicable law or agreed to in writing, software
+│ +   distributed under the License is distributed on an "AS IS" BASIS,
+│ +   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│ +   See the License for the specific language governing permissions and
+│ +   limitations under the License.
+│ +
+│ +-->
+│ +Class names here use non-".class" suffix so that Maven plugins like surefire do not try to read the file and fail the build.
+
+3 / 3 target/reference/org.apache.bcel/bcel-6.8.2-test-sources.jar target/bcel-6.8.2-test-sources.jar
+--- target/reference/org.apache.bcel/bcel-6.8.2-test-sources.jar
++++ target/bcel-6.8.2-test-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 270665 bytes, number of entries: 304
+│ +Zip file size: 270286 bytes, number of entries: 301
+│  -rw-r--r--  2.0 unx      317 b- defN 24-Feb-21 19:34 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 org/apache/bcel/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 org/apache/bcel/classfile/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 org/apache/bcel/data/
+│ @@ -32,27 +32,24 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 issue312/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 issue313/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 issue337/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 issue337/example/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 issue362/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 issue369/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 jira368/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 jira369-java4/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 jpms/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 jpms/java11/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 jpms/java11/commons-io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 jpms/java17/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 jpms/java17/commons-io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 jpms/java18/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 jpms/java18/commons-io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 jpms/java19-ea/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 jpms/java19-ea/commons-io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 kotlin/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 org/apache/commons/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 org/apache/commons/bcel/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 ossfuzz/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 ossfuzz/issue51980/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 ossfuzz/issue51989/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 ossfuzz/issue52168/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 ossfuzz/issue53543/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 ossfuzz/issue53544a/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-21 19:34 ossfuzz/issue53620/
+│ @@ -86,15 +83,15 @@
+│  -rw-r--r--  2.0 unx     6593 b- defN 24-Feb-21 19:34 org/apache/bcel/classfile/ConstantPoolTestCase.java
+│  -rw-r--r--  2.0 unx     1448 b- defN 24-Feb-21 19:34 org/apache/bcel/classfile/ConstantTest.java
+│  -rw-r--r--  2.0 unx     1437 b- defN 24-Feb-21 19:34 org/apache/bcel/classfile/FieldTest.java
+│  -rw-r--r--  2.0 unx     2906 b- defN 24-Feb-21 19:34 org/apache/bcel/classfile/InvalidMethodSigantureTestCase.java
+│  -rw-r--r--  2.0 unx     3354 b- defN 24-Feb-21 19:34 org/apache/bcel/classfile/JDKClassDumpTestCase.java
+│  -rw-r--r--  2.0 unx     1196 b- defN 24-Feb-21 19:34 org/apache/bcel/classfile/LocalVariableTestCase.java
+│  -rw-r--r--  2.0 unx     4261 b- defN 24-Feb-21 19:34 org/apache/bcel/classfile/SignatureTestCase.java
+│ --rw-r--r--  2.0 unx     1373 b- defN 24-Feb-21 19:34 org/apache/bcel/classfile/StackMapTest.java
+│ +-rw-r--r--  2.0 unx     1337 b- defN 24-Feb-21 19:34 org/apache/bcel/classfile/StackMapTest.java
+│  -rw-r--r--  2.0 unx     2330 b- defN 24-Feb-21 19:34 org/apache/bcel/classfile/TestJira368.java
+│  -rw-r--r--  2.0 unx    10234 b- defN 24-Feb-21 19:34 org/apache/bcel/classfile/UtilityTestCase.java
+│  -rw-r--r--  2.0 unx      951 b- defN 24-Feb-21 19:34 org/apache/bcel/data/AnnotatedFields.java
+│  -rw-r--r--  2.0 unx     1308 b- defN 24-Feb-21 19:34 org/apache/bcel/data/AnnotatedWithCombinedAnnotation.java
+│  -rw-r--r--  2.0 unx      921 b- defN 24-Feb-21 19:34 org/apache/bcel/data/AnnotatedWithEnumClass.java
+│  -rw-r--r--  2.0 unx     1023 b- defN 24-Feb-21 19:34 org/apache/bcel/data/AnnotationEnumElement.java
+│  -rw-r--r--  2.0 unx     1063 b- defN 24-Feb-21 19:34 org/apache/bcel/data/AnonymousClassTest.java
+│ @@ -115,17 +112,17 @@
+│  -rw-r--r--  2.0 unx      896 b- defN 24-Feb-21 19:34 org/apache/bcel/data/SimpleAnnotatedClass.java
+│  -rw-r--r--  2.0 unx     1045 b- defN 24-Feb-21 19:34 org/apache/bcel/data/SimpleAnnotation.java
+│  -rw-r--r--  2.0 unx      959 b- defN 24-Feb-21 19:34 org/apache/bcel/data/SimpleClass.java
+│  -rw-r--r--  2.0 unx     1226 b- defN 24-Feb-21 19:34 org/apache/bcel/data/SimpleClassHasMethodIncludeGenericArgument.java
+│  -rw-r--r--  2.0 unx      940 b- defN 24-Feb-21 19:34 org/apache/bcel/data/SimpleClassWithDefaultConstructor.java
+│  -rw-r--r--  2.0 unx      912 b- defN 24-Feb-21 19:34 org/apache/bcel/data/SimpleEnum.java
+│  -rw-r--r--  2.0 unx     6634 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/AnnotationGenTestCase.java
+│ --rw-r--r--  2.0 unx     3060 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/ArrayTypeTest.java
+│ +-rw-r--r--  2.0 unx     2973 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/ArrayTypeTest.java
+│  -rw-r--r--  2.0 unx     1325 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/BREAKPOINTTestCase.java
+│ --rw-r--r--  2.0 unx     2799 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/BasicTypeTest.java
+│ +-rw-r--r--  2.0 unx     2741 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/BasicTypeTest.java
+│  -rw-r--r--  2.0 unx    42039 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/BinaryOpCreator.java
+│  -rw-r--r--  2.0 unx     2064 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/BranchHandleTestCase.java
+│  -rw-r--r--  2.0 unx     1459 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/ClassGenTest.java
+│  -rw-r--r--  2.0 unx    62736 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/CountingVisitor.java
+│  -rw-r--r--  2.0 unx     1446 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/D2FTestCase.java
+│  -rw-r--r--  2.0 unx     1446 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/D2ITestCase.java
+│  -rw-r--r--  2.0 unx     1447 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/D2LTestCase.java
+│ @@ -187,15 +184,15 @@
+│  -rw-r--r--  2.0 unx     1493 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/LREMTestCase.java
+│  -rw-r--r--  2.0 unx     1452 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/LSHLTestCase.java
+│  -rw-r--r--  2.0 unx     1452 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/LSHRTestCase.java
+│  -rw-r--r--  2.0 unx     1452 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/LSUBTestCase.java
+│  -rw-r--r--  2.0 unx     1452 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/LXORTestCase.java
+│  -rw-r--r--  2.0 unx     6305 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/LargeJump.java
+│  -rw-r--r--  2.0 unx     6067 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/MethodGenTestCase.java
+│ --rw-r--r--  2.0 unx     1287 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/ObjectTypeTest.java
+│ +-rw-r--r--  2.0 unx     1252 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/ObjectTypeTest.java
+│  -rw-r--r--  2.0 unx     1624 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/PUTFIELDTestCase.java
+│  -rw-r--r--  2.0 unx     1630 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/PUTSTATICTestCase.java
+│  -rw-r--r--  2.0 unx     4456 b- defN 24-Feb-21 19:34 org/apache/bcel/generic/TypeTestCase.java
+│  -rw-r--r--  2.0 unx     9906 b- defN 24-Feb-21 19:34 org/apache/bcel/util/BCELifierTestCase.java
+│  -rw-r--r--  2.0 unx     2276 b- defN 24-Feb-21 19:34 org/apache/bcel/util/Class2HTMLTestCase.java
+│  -rw-r--r--  2.0 unx     4738 b- defN 24-Feb-21 19:34 org/apache/bcel/util/ClassPathRepositoryTestCase.java
+│  -rw-r--r--  2.0 unx     1688 b- defN 24-Feb-21 19:34 org/apache/bcel/util/ClassPathTestCase.java
+│ @@ -294,13 +291,13 @@
+│  -rw-r--r--  2.0 unx       61 b- defN 24-Feb-21 19:34 ossfuzz/issue52168/Test.classx
+│  -rw-r--r--  2.0 unx       57 b- defN 24-Feb-21 19:34 ossfuzz/issue53543/Test.classx
+│  -rw-r--r--  2.0 unx       49 b- defN 24-Feb-21 19:34 ossfuzz/issue53544a/Test.classx
+│  -rw-r--r--  2.0 unx   227530 b- defN 24-Feb-21 19:34 ossfuzz/issue53620/Test.classx
+│  -rw-r--r--  2.0 unx       26 b- defN 24-Feb-21 19:34 ossfuzz/issue53676/Test.classx
+│  -rw-r--r--  2.0 unx       24 b- defN 24-Feb-21 19:34 ossfuzz/issue54119/Test.classx
+│  -rw-r--r--  2.0 unx       42 b- defN 24-Feb-21 19:34 ossfuzz/issue54254/Test.classx
+│ --rw-r--r--  2.0 unx      946 b- defN 24-Feb-21 19:34 ossfuzz/readme.txt
+│ +-rw-r--r--  2.0 unx      927 b- defN 24-Feb-21 19:34 ossfuzz/readme.txt
+│  -rw-r--r--  2.0 unx    11358 b- defN 24-Feb-21 19:34 META-INF/LICENSE.txt
+│  -rw-r--r--  2.0 unx      174 b- defN 24-Feb-21 19:34 META-INF/NOTICE.txt
+│  -rw-r--r--  2.0 unx    21394 b- defN 24-Feb-21 19:34 META-INF/maven/org.apache.bcel/bcel/pom.xml
+│  -rw-r--r--  2.0 unx       57 b- defN 24-Feb-21 19:34 META-INF/maven/org.apache.bcel/bcel/pom.properties
+│ -304 files, 920446 bytes uncompressed, 224091 bytes compressed:  75.7%
+│ +301 files, 920211 bytes uncompressed, 224054 bytes compressed:  75.7%
+├── zipnote «TEMP»/diffoscope_hvr6kgww_target/tmp6mwncizl_.zip
+│ @@ -105,17 +105,14 @@
+│  
+│  Filename: issue369/
+│  Comment: 
+│  
+│  Filename: jira368/
+│  Comment: 
+│  
+│ -Filename: jira369-java4/
+│ -Comment: 
+│ -
+│  Filename: jpms/
+│  Comment: 
+│  
+│  Filename: jpms/java11/
+│  Comment: 
+│  
+│  Filename: jpms/java11/commons-io/
+│ @@ -138,20 +135,14 @@
+│  
+│  Filename: jpms/java19-ea/commons-io/
+│  Comment: 
+│  
+│  Filename: kotlin/
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/bcel/
+│ -Comment: 
+│ -
+│  Filename: ossfuzz/
+│  Comment: 
+│  
+│  Filename: ossfuzz/issue51980/
+│  Comment: 
+│  
+│  Filename: ossfuzz/issue51989/
+├── org/apache/bcel/classfile/StackMapTest.java
+│ @@ -1,36 +1,36 @@
+│ -/*
+│ - * Licensed to the Apache Software Foundation (ASF) under one or more
+│ - * contributor license agreements.  See the NOTICE file distributed with
+│ - * this work for additional information regarding copyright ownership.
+│ - * The ASF licenses this file to You under the Apache License, Version 2.0
+│ - * (the "License"); you may not use this file except in compliance with
+│ - * the License.  You may obtain a copy of the License at
+│ - *
+│ - *      http://www.apache.org/licenses/LICENSE-2.0
+│ - *
+│ - *  Unless required by applicable law or agreed to in writing, software
+│ - *  distributed under the License is distributed on an "AS IS" BASIS,
+│ - *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│ - *  See the License for the specific language governing permissions and
+│ - *  limitations under the License.
+│ - */
+│ -
+│ -package org.apache.bcel.classfile;
+│ -
+│ -import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+│ -
+│ -import org.junit.jupiter.api.Test;
+│ -
+│ -/**
+│ - * Tests {@link StackMap}.
+│ - */
+│ -public class StackMapTest {
+│ -
+│ -    @Test
+│ -    public void testSetStackMap() {
+│ -        final StackMap stackMap = new StackMap(0, 0, StackMapEntry.EMPTY_ARRAY, new ConstantPool(new Constant[] { new ConstantLong(0) }));
+│ -        // No NPE
+│ -        stackMap.setStackMap(null);
+│ -        assertArrayEquals(StackMapEntry.EMPTY_ARRAY, stackMap.getStackMap());
+│ -    }
+│ -}
+│ +/*
+│ + * Licensed to the Apache Software Foundation (ASF) under one or more
+│ + * contributor license agreements.  See the NOTICE file distributed with
+│ + * this work for additional information regarding copyright ownership.
+│ + * The ASF licenses this file to You under the Apache License, Version 2.0
+│ + * (the "License"); you may not use this file except in compliance with
+│ + * the License.  You may obtain a copy of the License at
+│ + *
+│ + *      http://www.apache.org/licenses/LICENSE-2.0
+│ + *
+│ + *  Unless required by applicable law or agreed to in writing, software
+│ + *  distributed under the License is distributed on an "AS IS" BASIS,
+│ + *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│ + *  See the License for the specific language governing permissions and
+│ + *  limitations under the License.
+│ + */
+│ +
+│ +package org.apache.bcel.classfile;
+│ +
+│ +import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+│ +
+│ +import org.junit.jupiter.api.Test;
+│ +
+│ +/**
+│ + * Tests {@link StackMap}.
+│ + */
+│ +public class StackMapTest {
+│ +
+│ +    @Test
+│ +    public void testSetStackMap() {
+│ +        final StackMap stackMap = new StackMap(0, 0, StackMapEntry.EMPTY_ARRAY, new ConstantPool(new Constant[] { new ConstantLong(0) }));
+│ +        // No NPE
+│ +        stackMap.setStackMap(null);
+│ +        assertArrayEquals(StackMapEntry.EMPTY_ARRAY, stackMap.getStackMap());
+│ +    }
+│ +}
+├── org/apache/bcel/generic/ArrayTypeTest.java
+│ @@ -1,87 +1,87 @@
+│ -/*
+│ - * Licensed to the Apache Software Foundation (ASF) under one or more
+│ - * contributor license agreements.  See the NOTICE file distributed with
+│ - * this work for additional information regarding copyright ownership.
+│ - * The ASF licenses this file to You under the Apache License, Version 2.0
+│ - * (the "License"); you may not use this file except in compliance with
+│ - * the License.  You may obtain a copy of the License at
+│ - *
+│ - *      http://www.apache.org/licenses/LICENSE-2.0
+│ - *
+│ - *  Unless required by applicable law or agreed to in writing, software
+│ - *  distributed under the License is distributed on an "AS IS" BASIS,
+│ - *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│ - *  See the License for the specific language governing permissions and
+│ - *  limitations under the License.
+│ - */
+│ -
+│ -package org.apache.bcel.generic;
+│ -
+│ -import static org.junit.jupiter.api.Assertions.assertEquals;
+│ -
+│ -import org.junit.jupiter.api.Test;
+│ -
+│ -public class ArrayTypeTest {
+│ -
+│ -    @Test
+│ -    public void testGetBasicType() {
+│ -        final BasicType type = Type.BYTE;
+│ -        final ArrayType objectType = new ArrayType(type, 1);
+│ -        assertEquals(type, objectType.getBasicType());
+│ -    }
+│ -
+│ -    @Test
+│ -    public void testGetClassName() {
+│ -        final ArrayType objectType = new ArrayType(Type.BYTE, 1);
+│ -        assertEquals("[B", objectType.getClassName());
+│ -        assertEquals(byte[].class.getName(), objectType.getClassName());
+│ -    }
+│ -
+│ -    @Test
+│ -    public void testGetDimensions() {
+│ -        final int dimensions = 1;
+│ -        final ArrayType objectType = new ArrayType(Type.BYTE, dimensions);
+│ -        assertEquals(dimensions, objectType.getDimensions());
+│ -    }
+│ -
+│ -    @Test
+│ -    public void testGetElementType() {
+│ -        final BasicType type = Type.BYTE;
+│ -        final ArrayType objectType = new ArrayType(Type.BYTE, 1);
+│ -        assertEquals(type, objectType.getElementType());
+│ -    }
+│ -
+│ -    @Test
+│ -    public void testGetSignatureDim1() {
+│ -        final ArrayType objectType = new ArrayType(Type.BYTE, 1);
+│ -        assertEquals("[B", objectType.getSignature());
+│ -        assertEquals(byte[].class.getName(), objectType.getSignature());
+│ -    }
+│ -
+│ -    @Test
+│ -    public void testGetSignatureDim2() {
+│ -        final ArrayType objectType = new ArrayType(Type.BYTE, 2);
+│ -        assertEquals("[[B", objectType.getSignature());
+│ -        assertEquals(byte[][].class.getName(), objectType.getSignature());
+│ -    }
+│ -
+│ -    @Test
+│ -    public void testGetSignatureDim4() {
+│ -        final ArrayType objectType = new ArrayType(Type.BYTE, 4);
+│ -        assertEquals("[[[[B", objectType.getSignature());
+│ -        assertEquals(byte[][][][].class.getName(), objectType.getSignature());
+│ -    }
+│ -
+│ -    @Test
+│ -    public void testGetSize() {
+│ -        final ArrayType objectType = new ArrayType(Type.BYTE, 1);
+│ -        assertEquals(1, objectType.getSize());
+│ -    }
+│ -
+│ -    @Test
+│ -    public void testGetType() {
+│ -        final ArrayType objectType = new ArrayType(Type.BYTE, 1);
+│ -        assertEquals(13, objectType.getType());
+│ -    }
+│ -
+│ -}
+│ +/*
+│ + * Licensed to the Apache Software Foundation (ASF) under one or more
+│ + * contributor license agreements.  See the NOTICE file distributed with
+│ + * this work for additional information regarding copyright ownership.
+│ + * The ASF licenses this file to You under the Apache License, Version 2.0
+│ + * (the "License"); you may not use this file except in compliance with
+│ + * the License.  You may obtain a copy of the License at
+│ + *
+│ + *      http://www.apache.org/licenses/LICENSE-2.0
+│ + *
+│ + *  Unless required by applicable law or agreed to in writing, software
+│ + *  distributed under the License is distributed on an "AS IS" BASIS,
+│ + *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│ + *  See the License for the specific language governing permissions and
+│ + *  limitations under the License.
+│ + */
+│ +
+│ +package org.apache.bcel.generic;
+│ +
+│ +import static org.junit.jupiter.api.Assertions.assertEquals;
+│ +
+│ +import org.junit.jupiter.api.Test;
+│ +
+│ +public class ArrayTypeTest {
+│ +
+│ +    @Test
+│ +    public void testGetBasicType() {
+│ +        final BasicType type = Type.BYTE;
+│ +        final ArrayType objectType = new ArrayType(type, 1);
+│ +        assertEquals(type, objectType.getBasicType());
+│ +    }
+│ +
+│ +    @Test
+│ +    public void testGetClassName() {
+│ +        final ArrayType objectType = new ArrayType(Type.BYTE, 1);
+│ +        assertEquals("[B", objectType.getClassName());
+│ +        assertEquals(byte[].class.getName(), objectType.getClassName());
+│ +    }
+│ +
+│ +    @Test
+│ +    public void testGetDimensions() {
+│ +        final int dimensions = 1;
+│ +        final ArrayType objectType = new ArrayType(Type.BYTE, dimensions);
+│ +        assertEquals(dimensions, objectType.getDimensions());
+│ +    }
+│ +
+│ +    @Test
+│ +    public void testGetElementType() {
+│ +        final BasicType type = Type.BYTE;
+│ +        final ArrayType objectType = new ArrayType(Type.BYTE, 1);
+│ +        assertEquals(type, objectType.getElementType());
+│ +    }
+│ +
+│ +    @Test
+│ +    public void testGetSignatureDim1() {
+│ +        final ArrayType objectType = new ArrayType(Type.BYTE, 1);
+│ +        assertEquals("[B", objectType.getSignature());
+│ +        assertEquals(byte[].class.getName(), objectType.getSignature());
+│ +    }
+│ +
+│ +    @Test
+│ +    public void testGetSignatureDim2() {
+│ +        final ArrayType objectType = new ArrayType(Type.BYTE, 2);
+│ +        assertEquals("[[B", objectType.getSignature());
+│ +        assertEquals(byte[][].class.getName(), objectType.getSignature());
+│ +    }
+│ +
+│ +    @Test
+│ +    public void testGetSignatureDim4() {
+│ +        final ArrayType objectType = new ArrayType(Type.BYTE, 4);
+│ +        assertEquals("[[[[B", objectType.getSignature());
+│ +        assertEquals(byte[][][][].class.getName(), objectType.getSignature());
+│ +    }
+│ +
+│ +    @Test
+│ +    public void testGetSize() {
+│ +        final ArrayType objectType = new ArrayType(Type.BYTE, 1);
+│ +        assertEquals(1, objectType.getSize());
+│ +    }
+│ +
+│ +    @Test
+│ +    public void testGetType() {
+│ +        final ArrayType objectType = new ArrayType(Type.BYTE, 1);
+│ +        assertEquals(13, objectType.getType());
+│ +    }
+│ +
+│ +}
+├── org/apache/bcel/generic/BasicTypeTest.java
+│ @@ -1,58 +1,58 @@
+│ -/*
+│ - * Licensed to the Apache Software Foundation (ASF) under one or more
+│ - * contributor license agreements.  See the NOTICE file distributed with
+│ - * this work for additional information regarding copyright ownership.
+│ - * The ASF licenses this file to You under the Apache License, Version 2.0
+│ - * (the "License"); you may not use this file except in compliance with
+│ - * the License.  You may obtain a copy of the License at
+│ - *
+│ - *      http://www.apache.org/licenses/LICENSE-2.0
+│ - *
+│ - *  Unless required by applicable law or agreed to in writing, software
+│ - *  distributed under the License is distributed on an "AS IS" BASIS,
+│ - *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│ - *  See the License for the specific language governing permissions and
+│ - *  limitations under the License.
+│ - */
+│ -
+│ -package org.apache.bcel.generic;
+│ -
+│ -import static org.junit.jupiter.api.Assertions.assertEquals;
+│ -
+│ -import org.apache.bcel.Const;
+│ -import org.junit.jupiter.api.Test;
+│ -
+│ -public class BasicTypeTest {
+│ -
+│ -    @Test
+│ -    public void testClassName() {
+│ -        assertEquals(boolean.class.getName(), BasicType.getType(Const.T_BOOLEAN).getClassName());
+│ -        assertEquals(byte.class.getName(), BasicType.getType(Const.T_BYTE).getClassName());
+│ -        assertEquals(char.class.getName(), BasicType.getType(Const.T_CHAR).getClassName());
+│ -        assertEquals(double.class.getName(), BasicType.getType(Const.T_DOUBLE).getClassName());
+│ -        assertEquals(float.class.getName(), BasicType.getType(Const.T_FLOAT).getClassName());
+│ -        assertEquals(int.class.getName(), BasicType.getType(Const.T_INT).getClassName());
+│ -        assertEquals(long.class.getName(), BasicType.getType(Const.T_LONG).getClassName());
+│ -        assertEquals(short.class.getName(), BasicType.getType(Const.T_SHORT).getClassName());
+│ -        assertEquals(void.class.getName(), BasicType.getType(Const.T_VOID).getClassName());
+│ -    }
+│ -
+│ -    @Test
+│ -    public void testGetType() {
+│ -        assertEquals(Type.BYTE, BasicType.getType(Const.T_BYTE));
+│ -    }
+│ -
+│ -    @Test
+│ -    public void testSignature() {
+│ -        assertEquals("Z", BasicType.getType(Const.T_BOOLEAN).getSignature());
+│ -        assertEquals("B", BasicType.getType(Const.T_BYTE).getSignature());
+│ -        assertEquals("C", BasicType.getType(Const.T_CHAR).getSignature());
+│ -        assertEquals("D", BasicType.getType(Const.T_DOUBLE).getSignature());
+│ -        assertEquals("F", BasicType.getType(Const.T_FLOAT).getSignature());
+│ -        assertEquals("I", BasicType.getType(Const.T_INT).getSignature());
+│ -        assertEquals("J", BasicType.getType(Const.T_LONG).getSignature());
+│ -        assertEquals("S", BasicType.getType(Const.T_SHORT).getSignature());
+│ -        assertEquals("V", BasicType.getType(Const.T_VOID).getSignature());
+│ -    }
+│ -}
+│ -
+│ +/*
+│ + * Licensed to the Apache Software Foundation (ASF) under one or more
+│ + * contributor license agreements.  See the NOTICE file distributed with
+│ + * this work for additional information regarding copyright ownership.
+│ + * The ASF licenses this file to You under the Apache License, Version 2.0
+│ + * (the "License"); you may not use this file except in compliance with
+│ + * the License.  You may obtain a copy of the License at
+│ + *
+│ + *      http://www.apache.org/licenses/LICENSE-2.0
+│ + *
+│ + *  Unless required by applicable law or agreed to in writing, software
+│ + *  distributed under the License is distributed on an "AS IS" BASIS,
+│ + *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│ + *  See the License for the specific language governing permissions and
+│ + *  limitations under the License.
+│ + */
+│ +
+│ +package org.apache.bcel.generic;
+│ +
+│ +import static org.junit.jupiter.api.Assertions.assertEquals;
+│ +
+│ +import org.apache.bcel.Const;
+│ +import org.junit.jupiter.api.Test;
+│ +
+│ +public class BasicTypeTest {
+│ +
+│ +    @Test
+│ +    public void testClassName() {
+│ +        assertEquals(boolean.class.getName(), BasicType.getType(Const.T_BOOLEAN).getClassName());
+│ +        assertEquals(byte.class.getName(), BasicType.getType(Const.T_BYTE).getClassName());
+│ +        assertEquals(char.class.getName(), BasicType.getType(Const.T_CHAR).getClassName());
+│ +        assertEquals(double.class.getName(), BasicType.getType(Const.T_DOUBLE).getClassName());
+│ +        assertEquals(float.class.getName(), BasicType.getType(Const.T_FLOAT).getClassName());
+│ +        assertEquals(int.class.getName(), BasicType.getType(Const.T_INT).getClassName());
+│ +        assertEquals(long.class.getName(), BasicType.getType(Const.T_LONG).getClassName());
+│ +        assertEquals(short.class.getName(), BasicType.getType(Const.T_SHORT).getClassName());
+│ +        assertEquals(void.class.getName(), BasicType.getType(Const.T_VOID).getClassName());
+│ +    }
+│ +
+│ +    @Test
+│ +    public void testGetType() {
+│ +        assertEquals(Type.BYTE, BasicType.getType(Const.T_BYTE));
+│ +    }
+│ +
+│ +    @Test
+│ +    public void testSignature() {
+│ +        assertEquals("Z", BasicType.getType(Const.T_BOOLEAN).getSignature());
+│ +        assertEquals("B", BasicType.getType(Const.T_BYTE).getSignature());
+│ +        assertEquals("C", BasicType.getType(Const.T_CHAR).getSignature());
+│ +        assertEquals("D", BasicType.getType(Const.T_DOUBLE).getSignature());
+│ +        assertEquals("F", BasicType.getType(Const.T_FLOAT).getSignature());
+│ +        assertEquals("I", BasicType.getType(Const.T_INT).getSignature());
+│ +        assertEquals("J", BasicType.getType(Const.T_LONG).getSignature());
+│ +        assertEquals("S", BasicType.getType(Const.T_SHORT).getSignature());
+│ +        assertEquals("V", BasicType.getType(Const.T_VOID).getSignature());
+│ +    }
+│ +}
+│ +
+├── org/apache/bcel/generic/ObjectTypeTest.java
+│ @@ -1,35 +1,35 @@
+│ -/*
+│ - * Licensed to the Apache Software Foundation (ASF) under one or more
+│ - * contributor license agreements.  See the NOTICE file distributed with
+│ - * this work for additional information regarding copyright ownership.
+│ - * The ASF licenses this file to You under the Apache License, Version 2.0
+│ - * (the "License"); you may not use this file except in compliance with
+│ - * the License.  You may obtain a copy of the License at
+│ - *
+│ - *      http://www.apache.org/licenses/LICENSE-2.0
+│ - *
+│ - *  Unless required by applicable law or agreed to in writing, software
+│ - *  distributed under the License is distributed on an "AS IS" BASIS,
+│ - *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│ - *  See the License for the specific language governing permissions and
+│ - *  limitations under the License.
+│ - */
+│ -
+│ -package org.apache.bcel.generic;
+│ -
+│ -import static org.junit.jupiter.api.Assertions.assertEquals;
+│ -
+│ -import java.math.BigDecimal;
+│ -
+│ -import org.junit.jupiter.api.Test;
+│ -
+│ -public class ObjectTypeTest {
+│ -
+│ -    @Test
+│ -    public void testGetClassName() {
+│ -        final String className = BigDecimal.class.getName();
+│ -        final ObjectType objectType = ObjectType.getInstance(className);
+│ -        assertEquals(className, objectType.getClassName());
+│ -    }
+│ -
+│ -}
+│ +/*
+│ + * Licensed to the Apache Software Foundation (ASF) under one or more
+│ + * contributor license agreements.  See the NOTICE file distributed with
+│ + * this work for additional information regarding copyright ownership.
+│ + * The ASF licenses this file to You under the Apache License, Version 2.0
+│ + * (the "License"); you may not use this file except in compliance with
+│ + * the License.  You may obtain a copy of the License at
+│ + *
+│ + *      http://www.apache.org/licenses/LICENSE-2.0
+│ + *
+│ + *  Unless required by applicable law or agreed to in writing, software
+│ + *  distributed under the License is distributed on an "AS IS" BASIS,
+│ + *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│ + *  See the License for the specific language governing permissions and
+│ + *  limitations under the License.
+│ + */
+│ +
+│ +package org.apache.bcel.generic;
+│ +
+│ +import static org.junit.jupiter.api.Assertions.assertEquals;
+│ +
+│ +import java.math.BigDecimal;
+│ +
+│ +import org.junit.jupiter.api.Test;
+│ +
+│ +public class ObjectTypeTest {
+│ +
+│ +    @Test
+│ +    public void testGetClassName() {
+│ +        final String className = BigDecimal.class.getName();
+│ +        final ObjectType objectType = ObjectType.getInstance(className);
+│ +        assertEquals(className, objectType.getClassName());
+│ +    }
+│ +
+│ +}
+├── ossfuzz/readme.txt
+│ @@ -1,19 +1,19 @@
+│ -<!--
+│ -
+│ -   Licensed to the Apache Software Foundation (ASF) under one or more
+│ -   contributor license agreements.  See the NOTICE file distributed with
+│ -   this work for additional information regarding copyright ownership.
+│ -   The ASF licenses this file to You under the Apache License, Version 2.0
+│ -   (the "License"); you may not use this file except in compliance with
+│ -   the License.  You may obtain a copy of the License at
+│ -
+│ -       http://www.apache.org/licenses/LICENSE-2.0
+│ -
+│ -   Unless required by applicable law or agreed to in writing, software
+│ -   distributed under the License is distributed on an "AS IS" BASIS,
+│ -   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│ -   See the License for the specific language governing permissions and
+│ -   limitations under the License.
+│ -
+│ --->
+│ -Class names here use non-".class" suffix so that Maven plugins like surefire do not try to read the file and fail the build.
+│ +<!--
+│ +
+│ +   Licensed to the Apache Software Foundation (ASF) under one or more
+│ +   contributor license agreements.  See the NOTICE file distributed with
+│ +   this work for additional information regarding copyright ownership.
+│ +   The ASF licenses this file to You under the Apache License, Version 2.0
+│ +   (the "License"); you may not use this file except in compliance with
+│ +   the License.  You may obtain a copy of the License at
+│ +
+│ +       http://www.apache.org/licenses/LICENSE-2.0
+│ +
+│ +   Unless required by applicable law or agreed to in writing, software
+│ +   distributed under the License is distributed on an "AS IS" BASIS,
+│ +   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│ +   See the License for the specific language governing permissions and
+│ +   limitations under the License.
+│ +
+│ +-->
+│ +Class names here use non-".class" suffix so that Maven plugins like surefire do not try to read the file and fail the build.
+
