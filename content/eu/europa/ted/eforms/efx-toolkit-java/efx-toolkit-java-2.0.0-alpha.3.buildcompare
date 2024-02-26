@@ -1,0 +1,10 @@
+version=2.0.0-alpha.3
+ok=2
+ko=1
+ignored=0
+okFiles="efx-toolkit-java-2.0.0-alpha.3.pom efx-toolkit-java-2.0.0-alpha.3.jar"
+koFiles="efx-toolkit-java-2.0.0-alpha.3-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/eu.europa.ted.eforms/efx-toolkit-java-2.0.0-alpha.3-sources.jar target/efx-toolkit-java-2.0.0-alpha.3-sources.jar

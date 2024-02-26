@@ -1,0 +1,81 @@
+1 / 1 target/reference/eu.europa.ted.eforms/efx-toolkit-java-2.0.0-alpha.3-sources.jar target/efx-toolkit-java-2.0.0-alpha.3-sources.jar
+--- target/reference/eu.europa.ted.eforms/efx-toolkit-java-2.0.0-alpha.3-sources.jar
++++ target/efx-toolkit-java-2.0.0-alpha.3-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 306589 bytes, number of entries: 121
+│ +Zip file size: 306835 bytes, number of entries: 121
+│  -rw-r--r--  2.0 unx       64 b- defN 23-Jul-28 16:03 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-28 16:03 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-28 16:03 eu/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-28 16:03 eu/europa/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-28 16:03 eu/europa/ted/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-28 16:03 eu/europa/ted/eforms/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-28 16:03 eu/europa/ted/eforms/sdk/
+│ @@ -100,24 +100,24 @@
+│  -rw-r--r--  2.0 unx    47412 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/sdk2/EfxTemplateTranslatorV2.java
+│  -rw-r--r--  2.0 unx      690 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/sdk2/entity/SdkCodelistV2.java
+│  -rw-r--r--  2.0 unx     1555 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/sdk2/entity/SdkFieldV2.java
+│  -rw-r--r--  2.0 unx      919 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/sdk2/entity/SdkNodeV2.java
+│  -rw-r--r--  2.0 unx      594 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/xpath/README.md
+│  -rw-r--r--  2.0 unx     1198 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/xpath/XPathContextualizer.java
+│  -rw-r--r--  2.0 unx    22553 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/xpath/XPathScriptGenerator.java
+│ --rw-r--r--  2.0 unx     3415 b- defN 23-Jul-28 16:03 Efx.tokens
+│ --rw-r--r--  2.0 unx     3415 b- defN 23-Jul-28 16:03 EfxLexer.tokens
+│ +-rw-r--r--  2.0 unx     3649 b- defN 23-Jul-28 16:03 Efx.tokens
+│ +-rw-r--r--  2.0 unx     3649 b- defN 23-Jul-28 16:03 EfxLexer.tokens
+│  -rw-r--r--  2.0 unx    44474 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/sdk1/Efx.interp
+│  -rw-r--r--  2.0 unx    75847 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/sdk1/EfxBaseListener.java
+│  -rw-r--r--  2.0 unx    58146 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/sdk1/EfxLexer.interp
+│  -rw-r--r--  2.0 unx    55687 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/sdk1/EfxLexer.java
+│  -rw-r--r--  2.0 unx    94823 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/sdk1/EfxListener.java
+│  -rw-r--r--  2.0 unx   358099 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/sdk1/EfxParser.java
+│  -rw-r--r--  2.0 unx    73618 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/sdk2/Efx.interp
+│  -rw-r--r--  2.0 unx   105534 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/sdk2/EfxBaseListener.java
+│  -rw-r--r--  2.0 unx    66816 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/sdk2/EfxLexer.interp
+│  -rw-r--r--  2.0 unx    64684 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/sdk2/EfxLexer.java
+│  -rw-r--r--  2.0 unx   133565 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/sdk2/EfxListener.java
+│  -rw-r--r--  2.0 unx   527523 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/sdk2/EfxParser.java
+│  -rw-r--r--  2.0 unx    14495 b- defN 23-Jul-28 16:03 META-INF/maven/eu.europa.ted.eforms/efx-toolkit-java/pom.xml
+│  -rw-r--r--  2.0 unx       79 b- defN 23-Jul-28 16:03 META-INF/maven/eu.europa.ted.eforms/efx-toolkit-java/pom.properties
+│ -121 files, 2081142 bytes uncompressed, 286173 bytes compressed:  86.3%
+│ +121 files, 2081610 bytes uncompressed, 286419 bytes compressed:  86.3%
+├── Efx.tokens
+│ @@ -1,233 +1,252 @@
+│  Comment=1
+│  EmptyLine=2
+│  MixedIndent=3
+│  Tabs=4
+│  Spaces=5
+│  OutlineNumber=6
+│  SWS=7
+│ -CRLF=8
+│ -FreeText=9
+...
+│ -'/@'=136
+│ -':'=137
+│ +LineJoining=8
+│ +CRLF=9
+...
+│ +'..'=147
+│ +':'=148
+├── EfxLexer.tokens
+│ @@ -1,233 +1,252 @@
+│  Comment=1
+│  EmptyLine=2
+│  MixedIndent=3
+│  Tabs=4
+│  Spaces=5
+│  OutlineNumber=6
+│  SWS=7
+│ -CRLF=8
+│ -FreeText=9
+...
+│ -'/@'=136
+│ -':'=137
+│ +LineJoining=8
+│ +CRLF=9
+...
+│ +'..'=147
+│ +':'=148
+
