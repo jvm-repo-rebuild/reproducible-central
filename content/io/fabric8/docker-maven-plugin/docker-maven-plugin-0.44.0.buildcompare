@@ -1,0 +1,10 @@
+version=0.44.0
+ok=2
+ko=1
+ignored=0
+okFiles="docker-maven-plugin-0.44.0.pom docker-maven-plugin-0.44.0-sources.jar"
+koFiles="docker-maven-plugin-0.44.0.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.fabric8/docker-maven-plugin-0.44.0.jar target/docker-maven-plugin-0.44.0.jar

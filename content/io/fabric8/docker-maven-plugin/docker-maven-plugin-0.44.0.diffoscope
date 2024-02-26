@@ -1,0 +1,48 @@
+1 / 1 target/reference/io.fabric8/docker-maven-plugin-0.44.0.jar target/docker-maven-plugin-0.44.0.jar
+--- target/reference/io.fabric8/docker-maven-plugin-0.44.0.jar
++++ target/docker-maven-plugin-0.44.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 729276 bytes, number of entries: 447
+│ +Zip file size: 729303 bytes, number of entries: 447
+│  -rw-r--r--  2.0 unx       81 b- defN 24-Feb-17 09:14 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-17 09:14 META-INF/
+│ @@ -110,15 +110,15 @@
+│  -rw-r--r--  2.0 unx     1170 b- defN 24-Feb-17 09:14 io/fabric8/maven/docker/CopyMojo$FileRemover.class
+│  -rw-r--r--  2.0 unx    14279 b- defN 24-Feb-17 09:14 io/fabric8/maven/docker/CopyMojo.class
+│ --rw-r--r--  2.0 unx    11082 b- defN 24-Feb-17 09:14 io/fabric8/maven/docker/HelpMojo.class
+│ +-rw-r--r--  2.0 unx    11110 b- defN 24-Feb-17 09:14 io/fabric8/maven/docker/HelpMojo.class
+│  -rw-r--r--  2.0 unx     3663 b- defN 24-Feb-17 09:14 io/fabric8/maven/docker/LogsMojo.class
+│  -rw-r--r--  2.0 unx     3984 b- defN 24-Feb-17 09:14 io/fabric8/maven/docker/PushMojo.class
+│ @@ -442,8 +442,8 @@
+│  -rw-r--r--  2.0 unx    22356 b- defN 24-Feb-17 09:14 META-INF/maven/io.fabric8/docker-maven-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 24-Feb-17 09:14 META-INF/maven/io.fabric8/docker-maven-plugin/pom.properties
+│ -447 files, 2023430 bytes uncompressed, 646896 bytes compressed:  68.0%
+│ +447 files, 2023458 bytes uncompressed, 646923 bytes compressed:  68.0%
+├── io/fabric8/maven/docker/HelpMojo.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,495 +1,495 @@
+│ │    Compiled from "HelpMojo.java"
+│ │  public class io.fabric8.maven.docker.HelpMojo extends org.apache.maven.plugin.AbstractMojo
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │ -  this_class: #3                          // io/fabric8/maven/docker/HelpMojo
+│ │ -  super_class: #121                       // org/apache/maven/plugin/AbstractMojo
+│ │ +  this_class: #2                          // io/fabric8/maven/docker/HelpMojo
+│ │ +  super_class: #4                         // org/apache/maven/plugin/AbstractMojo
+│ │    interfaces: 0, fields: 6, methods: 16, attributes: 2
+│ │  Constant pool:
+│ │ -    #1 = Methodref          #121.#265     // org/apache/maven/plugin/AbstractMojo."<init>":()V
+│ │ -    #2 = Methodref          #3.#266       // io/fabric8/maven/docker/HelpMojo.getLog:()Lorg/apache/maven/plugin/logging/Log;
+...
+│ │ -  #443 = Utf8               (I)Ljava/lang/String;
+│ │ -  #444 = Utf8               (II)Ljava/lang/String;
+│ │ +    #1 = Utf8               io/fabric8/maven/docker/HelpMojo
+│ │ +    #2 = Class              #1            // io/fabric8/maven/docker/HelpMojo
+...
+│ │ +  #443 = Utf8               Signature
+│ │ +  #444 = Utf8               SourceFile
+│ │  {
+│ │    private boolean detail;
+...
