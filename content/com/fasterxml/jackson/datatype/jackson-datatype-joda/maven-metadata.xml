@@ -3,8 +3,8 @@
   <groupId>com.fasterxml.jackson.datatype</groupId>
   <artifactId>jackson-datatype-joda</artifactId>
   <versioning>
-    <latest>2.16.1</latest>
-    <release>2.16.1</release>
+    <latest>2.17.0-rc1</latest>
+    <release>2.17.0-rc1</release>
     <versions>
       <version>2.0.0-RC2</version>
       <version>2.0.0-RC3</version>
@@ -150,7 +150,8 @@
       <version>2.16.0-rc1</version>
       <version>2.16.0</version>
       <version>2.16.1</version>
+      <version>2.17.0-rc1</version>
     </versions>
-    <lastUpdated>20240215191242</lastUpdated>
+    <lastUpdated>20240227024821</lastUpdated>
   </versioning>
 </metadata>

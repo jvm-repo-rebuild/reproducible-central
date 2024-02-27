@@ -3,8 +3,8 @@
   <groupId>org.webjars</groupId>
   <artifactId>swagger-ui</artifactId>
   <versioning>
-    <latest>5.10.3</latest>
-    <release>5.10.3</release>
+    <latest>5.11.8</latest>
+    <release>5.11.8</release>
     <versions>
       <version>2.0.12</version>
       <version>2.0.14</version>
@@ -188,7 +188,8 @@
       <version>5.7.2</version>
       <version>5.9.0</version>
       <version>5.10.3</version>
+      <version>5.11.8</version>
     </versions>
-    <lastUpdated>20231202170427</lastUpdated>
+    <lastUpdated>20240227150628</lastUpdated>
   </versioning>
 </metadata>

@@ -3,8 +3,8 @@
   <groupId>org.apache.sling</groupId>
   <artifactId>org.apache.sling.servlets.resolver</artifactId>
   <versioning>
-    <latest>2.11.0</latest>
-    <release>2.11.0</release>
+    <latest>2.11.2</latest>
+    <release>2.11.2</release>
     <versions>
       <version>2.0.4-incubator</version>
       <version>2.0.6-incubator</version>
@@ -56,7 +56,8 @@
       <version>2.9.14</version>
       <version>2.10.0</version>
       <version>2.11.0</version>
+      <version>2.11.2</version>
     </versions>
-    <lastUpdated>20240127121230</lastUpdated>
+    <lastUpdated>20240227095850</lastUpdated>
   </versioning>
 </metadata>

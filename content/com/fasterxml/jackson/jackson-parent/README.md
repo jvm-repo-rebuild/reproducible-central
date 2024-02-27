@@ -13,6 +13,7 @@ rebuilding **1 releases** of com.fasterxml.jackson:jackson-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.17-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-parent/2.17-rc1/pom) | | | |
 | [2.16](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-parent/2.16/pom) | [mvn jdk11](jackson-parent-2.16.buildspec) | [result](jackson-parent-2.16.buildinfo): [1 :white_check_mark: ](jackson-parent-2.16.buildcompare) | 6.4K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
