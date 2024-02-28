@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache XML Security for Java
+group-id=org.apache.santuario
+artifact-id=xmlsec
+version=3.0.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/santuario-xml-security-java.git
+source.scm.tag=xmlsec-3.0.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.santuario
+outputs.0.filename=xmlsec-3.0.4.pom
+outputs.0.length=28413
+outputs.0.checksums.sha512=28ceb10740fd1f136aa820cb8b75fc7c897ed19a9e86bf3dfb3c0841097f560482f81a394902a2154a0f63834468d1e103c02a3103f6125c6dd9f763fc063297
+
+outputs.1.groupId=org.apache.santuario
+outputs.1.filename=xmlsec-3.0.4.jar
+outputs.1.length=1178527
+outputs.1.checksums.sha512=2815dd7dd08cd569d894b7d9c4165ba6034c88526628dff8db64132884958325873c112bd667b20480d175c57ef0a1e2cca63e515d451313ee389e0a32f7a3b9
+
+outputs.2.groupId=org.apache.santuario
+outputs.2.filename=xmlsec-3.0.4-source-release.zip
+outputs.2.length=2690120
+outputs.2.checksums.sha512=3c9507d05c56cc5ae95ad054d355a395910a50f1a28ad4f55f4e65830c1ce0ff9bc98567037af759ea136bf14a51217536ddb57a2afe629d3916318cdeedcaec
+
+outputs.3.groupId=org.apache.santuario
+outputs.3.filename=xmlsec-3.0.4-sources.jar
+outputs.3.length=901792
+outputs.3.checksums.sha512=4194f107d42c7733f010490feb7ca0d0bbe8fbecc52359fdb94b356b490538d5e00c292a29c5c90bd7a89f20746f12889db15377457144debcbb3d8f2cf2919c
+
+outputs.4.groupId=org.apache.santuario
+outputs.4.filename=xmlsec-3.0.4-cyclonedx.xml
+outputs.4.length=14508
+outputs.4.checksums.sha512=d42406d17d53a8eef8f5224ab1973a48fe8ec99d06712707d0dd378417c6e5c28d244575c224842839fb01e6001d7e97589ba738d4737e37002ee13fc95c3c03
+
+outputs.5.groupId=org.apache.santuario
+outputs.5.filename=xmlsec-3.0.4-cyclonedx.json
+outputs.5.length=16980
+outputs.5.checksums.sha512=5d9165da59c13cecb44f3ce81b415efd035b9f40aeb56f6cf1721c404fac86898ab85655aa526715650a963ff3415a4da8801a4e462529dd694dcfba2f096b58

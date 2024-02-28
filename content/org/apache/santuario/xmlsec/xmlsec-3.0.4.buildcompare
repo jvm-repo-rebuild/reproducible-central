@@ -1,0 +1,7 @@
+version=3.0.4
+ok=6
+ko=0
+ignored=0
+okFiles="xmlsec-3.0.4.pom xmlsec-3.0.4.jar xmlsec-3.0.4-source-release.zip xmlsec-3.0.4-sources.jar xmlsec-3.0.4-cyclonedx.xml xmlsec-3.0.4-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
