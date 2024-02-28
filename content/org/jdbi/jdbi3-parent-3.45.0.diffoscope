@@ -1,0 +1,52 @@
+# same issue on every jar, SBOM being just a consequence
+1 / 102 target/reference/org.jdbi.internal/jdbi3-policy-3.45.0.jar internal/policy/target/jdbi3-policy-3.45.0.jar
+--- target/reference/org.jdbi.internal/jdbi3-policy-3.45.0.jar
++++ internal/policy/target/jdbi3-policy-3.45.0.jar
+├── zipinfo {}
+│ @@ -1,16 +1,16 @@
+│ -Zip file size: 12319 bytes, number of entries: 14
+│ +Zip file size: 12314 bytes, number of entries: 14
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-18 20:49 META-INF/
+│ --rw-r--r--  2.0 unx      822 b- defN 24-Feb-18 20:49 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx      818 b- defN 24-Feb-18 20:49 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-18 20:49 policy/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-18 20:49 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-18 20:49 META-INF/maven/org.jdbi.internal/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-18 20:49 META-INF/maven/org.jdbi.internal/jdbi3-policy/
+│  -rw-r--r--  2.0 unx      881 b- defN 24-Feb-18 20:49 policy/checkstyle-suppress.xml
+│  -rw-r--r--  2.0 unx     6221 b- defN 24-Feb-18 20:49 policy/checkstyle.xml
+│  -rw-r--r--  2.0 unx    16338 b- defN 24-Feb-18 20:49 policy/detekt.yml
+│  -rw-r--r--  2.0 unx     5383 b- defN 24-Feb-18 20:49 policy/pmd.xml
+│  -rw-r--r--  2.0 unx     2159 b- defN 24-Feb-18 20:49 policy/spotbugs-exclude.xml
+│  -rw-r--r--  2.0 unx      954 b- defN 24-Feb-18 20:49 policy/spotbugs-include.xml
+│  -rw-r--r--  2.0 unx     1304 b- defN 24-Feb-18 20:49 META-INF/maven/org.jdbi.internal/jdbi3-policy/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 24-Feb-18 20:49 META-INF/maven/org.jdbi.internal/jdbi3-policy/pom.properties
+│ -14 files, 34127 bytes uncompressed, 10475 bytes compressed:  69.3%
+│ +14 files, 34123 bytes uncompressed, 10470 bytes compressed:  69.3%
+├── META-INF/MANIFEST.MF
+│ @@ -11,12 +11,12 @@
+│  
+
+│  Name: org.jdbi.internal:jdbi3-policy
+
+│  Project-Version: 3.45.0
+
+│  Project-Name: jdbi3 - internal - policy
+
+│  Git-Branch: 6dda00ce45851cffee423c8ebc18c67af8f2f346
+
+│  Project-ArtifactId: jdbi3-policy
+
+│  Git-Commit-Id-Describe: v3.45.0
+
+│ -Build-Time: 2024-02-18T12:49:04-08:00
+
+│ -Git-Remote-Origin-Url: file:///Users/henning/code/jdbi
+
+│ +Build-Time: 2024-02-18T20:49:04Z
+
+│ +Git-Remote-Origin-Url: https://github.com/jdbi/jdbi.git
+
+│  Project-GroupId: org.jdbi.internal
+
+│  Git-Commit-Id: 6dda00ce45851cffee423c8ebc18c67af8f2f346
