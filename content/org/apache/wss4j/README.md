@@ -9,24 +9,25 @@ Source code: [https://github.com/apache/ws-wss4j.git](https://github.com/apache/
 
 <details><summary>This project defines 10 modules:</summary>
 
-* [org.apache.wss4j:wss4j](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/3.0.2)
-* [org.apache.wss4j:wss4j-bindings](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-bindings/3.0.2)
-* [org.apache.wss4j:wss4j-integration](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-integration/3.0.2)
-* [org.apache.wss4j:wss4j-parent](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-parent/3.0.2)
-* [org.apache.wss4j:wss4j-policy](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-policy/3.0.2)
-* [org.apache.wss4j:wss4j-ws-security-common](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-ws-security-common/3.0.2)
-* [org.apache.wss4j:wss4j-ws-security-dom](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-ws-security-dom/3.0.2)
-* [org.apache.wss4j:wss4j-ws-security-policy-stax](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-ws-security-policy-stax/3.0.2)
-* [org.apache.wss4j:wss4j-ws-security-stax](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-ws-security-stax/3.0.2)
-* [org.apache.wss4j:wss4j-ws-security-web](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-ws-security-web/3.0.2)
+* [org.apache.wss4j:wss4j](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/3.0.3)
+* [org.apache.wss4j:wss4j-bindings](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-bindings/3.0.3)
+* [org.apache.wss4j:wss4j-integration](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-integration/3.0.3)
+* [org.apache.wss4j:wss4j-parent](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-parent/3.0.3)
+* [org.apache.wss4j:wss4j-policy](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-policy/3.0.3)
+* [org.apache.wss4j:wss4j-ws-security-common](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-ws-security-common/3.0.3)
+* [org.apache.wss4j:wss4j-ws-security-dom](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-ws-security-dom/3.0.3)
+* [org.apache.wss4j:wss4j-ws-security-policy-stax](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-ws-security-policy-stax/3.0.3)
+* [org.apache.wss4j:wss4j-ws-security-stax](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-ws-security-stax/3.0.3)
+* [org.apache.wss4j:wss4j-ws-security-web](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-ws-security-web/3.0.3)
 </details>
 
-rebuilding **7 releases** of org.apache.wss4j:wss4j:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of org.apache.wss4j:wss4j:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.3](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/3.0.3/pom) | [mvn jdk11](wss4j-3.0.3.buildspec) | [result](wss4j-3.0.3.buildinfo): [52 :white_check_mark: ](wss4j-3.0.3.buildcompare) | 6.8M |
 | [3.0.2](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/3.0.2/pom) | [mvn jdk11](wss4j-3.0.2.buildspec) | [result](wss4j-3.0.2.buildinfo): [52 :white_check_mark: ](wss4j-3.0.2.buildcompare) | 6.7M |
 | [3.0.1](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/3.0.1/pom) | [mvn jdk17](wss4j-3.0.1.buildspec) | [result](wss4j-3.0.1.buildinfo): [32 :white_check_mark: ](wss4j-3.0.1.buildcompare) | 5.6M |
 | [3.0.0](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/3.0.0/pom) | [mvn jdk11](wss4j-3.0.0.buildspec) | [result](wss4j-3.0.0.buildinfo): [32 :white_check_mark: ](wss4j-3.0.0.buildcompare) | 6.6M |

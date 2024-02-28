@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/FasterXML/jackson-annotations.git](https://github.com/FasterXML/jackson-annotations.git)
 
-rebuilding **8 releases** of com.fasterxml.jackson.core:jackson-annotations:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **9 releases** of com.fasterxml.jackson.core:jackson-annotations:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.17.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-annotations/2.17.0-rc1/pom) | | | |
+| [2.17.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-annotations/2.17.0-rc1/pom) | [mvn jdk8](jackson-annotations-2.17.0-rc1.buildspec) | [result](jackson-annotations-2.17.0-rc1.buildinfo): [4 :white_check_mark: ](jackson-annotations-2.17.0-rc1.buildcompare) | 168K |
 | [2.16.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-annotations/2.16.1/pom) | [mvn jdk8](jackson-annotations-2.16.1.buildspec) | [result](jackson-annotations-2.16.1.buildinfo): [4 :white_check_mark: ](jackson-annotations-2.16.1.buildcompare) | 168K |
 | [2.16.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-annotations/2.16.0/pom) | [mvn jdk8](jackson-annotations-2.16.0.buildspec) | [result](jackson-annotations-2.16.0.buildinfo): [4 :white_check_mark: ](jackson-annotations-2.16.0.buildcompare) | 168K |
 | [2.16.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-annotations/2.16.0-rc1/pom) | [mvn jdk8](jackson-annotations-2.16.0-rc1.buildspec) | [result](jackson-annotations-2.16.0-rc1.buildinfo): [2 :white_check_mark:  2 :warning:](jackson-annotations-2.16.0-rc1.buildcompare) [:memo:](https://github.com/FasterXML/jackson-parent/commit/947b9c0ddd53cbe38c4c7262e18c52058306dc36) | 168K |

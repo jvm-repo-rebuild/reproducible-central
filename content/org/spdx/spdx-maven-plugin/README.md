@@ -13,6 +13,7 @@ rebuilding **4 releases** of org.spdx:spdx-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.7.3](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/0.7.3/pom) | | | |
 | [0.7.2](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/0.7.2/pom) | [mvn jdk17 w](spdx-maven-plugin-0.7.2.buildspec) | [result](spdx-maven-plugin-0.7.2.buildinfo): [3 :white_check_mark: ](spdx-maven-plugin-0.7.2.buildcompare) [:mag:](spdx-maven-plugin-0.7.2.diffoscope)\033[1;31munexpected issue/diffoscope entry when ko=0\033[0m in \033[1mcontent/org/spdx/spdx-maven-plugin/spdx-maven-plugin-0.7.2.buildspec\033[0m | 216K |
 | [0.7.1](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/0.7.1/pom) | [mvn jdk17 w](spdx-maven-plugin-0.7.1.buildspec) | [result](spdx-maven-plugin-0.7.1.buildinfo): [3 :white_check_mark: ](spdx-maven-plugin-0.7.1.buildcompare) [:mag:](spdx-maven-plugin-0.7.1.diffoscope)\033[1;31munexpected issue/diffoscope entry when ko=0\033[0m in \033[1mcontent/org/spdx/spdx-maven-plugin/spdx-maven-plugin-0.7.1.buildspec\033[0m | 216K |
 | [0.7.0](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/0.7.0/pom) | [mvn jdk17 w](spdx-maven-plugin-0.7.0.buildspec) | [result](spdx-maven-plugin-0.7.0.buildinfo): [1 :white_check_mark:  1 :warning:](spdx-maven-plugin-0.7.0.buildcompare) [:mag:](spdx-maven-plugin-0.7.0.diffoscope) [:memo:](https://github.com/spdx/spdx-maven-plugin/pull/125) | 129K |

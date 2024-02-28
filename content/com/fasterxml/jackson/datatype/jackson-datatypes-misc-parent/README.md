@@ -9,21 +9,21 @@ Source code: [https://github.com/FasterXML/jackson-datatypes-misc.git](https://g
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jakarta-jsonp/2.16.1)
-* [com.fasterxml.jackson.datatype:jackson-datatype-jakarta-mail](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jakarta-mail/2.16.1)
-* [com.fasterxml.jackson.datatype:jackson-datatype-joda-money](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-joda-money/2.16.1)
-* [com.fasterxml.jackson.datatype:jackson-datatype-json-org](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-json-org/2.16.1)
-* [com.fasterxml.jackson.datatype:jackson-datatype-jsr353](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jsr353/2.16.1)
-* [com.fasterxml.jackson.datatype:jackson-datatypes-misc-parent](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.16.1)
+* [com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jakarta-jsonp/2.17.0-rc1)
+* [com.fasterxml.jackson.datatype:jackson-datatype-jakarta-mail](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jakarta-mail/2.17.0-rc1)
+* [com.fasterxml.jackson.datatype:jackson-datatype-joda-money](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-joda-money/2.17.0-rc1)
+* [com.fasterxml.jackson.datatype:jackson-datatype-json-org](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-json-org/2.17.0-rc1)
+* [com.fasterxml.jackson.datatype:jackson-datatype-jsr353](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jsr353/2.17.0-rc1)
+* [com.fasterxml.jackson.datatype:jackson-datatypes-misc-parent](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.17.0-rc1)
 </details>
 
-rebuilding **2 releases** of com.fasterxml.jackson.datatype:jackson-datatypes-misc-parent:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **3 releases** of com.fasterxml.jackson.datatype:jackson-datatypes-misc-parent:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.17.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.17.0-rc1/pom) | | | |
+| [2.17.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.17.0-rc1/pom) | [mvn jdk8](jackson-datatypes-misc-parent-2.17.0-rc1.buildspec) | [result](jackson-datatypes-misc-parent-2.17.0-rc1.buildinfo): [16 :white_check_mark: ](jackson-datatypes-misc-parent-2.17.0-rc1.buildcompare) | 122K |
 | [2.16.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.16.1/pom) | [mvn jdk8](jackson-datatypes-misc-parent-2.16.1.buildspec) | [result](jackson-datatypes-misc-parent-2.16.1.buildinfo): [16 :white_check_mark: ](jackson-datatypes-misc-parent-2.16.1.buildcompare) | 122K |
 | [2.16.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.16.0/pom) | [mvn jdk8](jackson-datatypes-misc-parent-2.16.0.buildspec) | [result](jackson-datatypes-misc-parent-2.16.0.buildinfo): [16 :white_check_mark: ](jackson-datatypes-misc-parent-2.16.0.buildcompare) | 122K |
 
