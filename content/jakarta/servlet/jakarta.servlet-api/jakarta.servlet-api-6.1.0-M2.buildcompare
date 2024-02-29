@@ -1,0 +1,10 @@
+version=6.1.0-M2
+ok=4
+ko=1
+ignored=0
+okFiles="jakarta.servlet-api-6.1.0-M2.pom jakarta.servlet-api-6.1.0-M2-cyclonedx.xml jakarta.servlet-api-6.1.0-M2-cyclonedx.json jakarta.servlet-api-6.1.0-M2-sources.jar"
+koFiles="jakarta.servlet-api-6.1.0-M2.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/jakarta.servlet/jakarta.servlet-api-6.1.0-M2.jar target/jakarta.servlet-api-6.1.0-M2.jar

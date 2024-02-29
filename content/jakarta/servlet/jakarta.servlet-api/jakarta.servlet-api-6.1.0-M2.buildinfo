@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jakarta Servlet
+group-id=jakarta.servlet
+artifact-id=jakarta.servlet-api
+version=6.1.0-M2
+
+# source information
+source.scm.uri=scm:git:https://github.com/eclipse-ee4j/servlet-api.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=jakarta.servlet
+outputs.0.filename=jakarta.servlet-api-6.1.0-M2.pom
+outputs.0.length=19029
+outputs.0.checksums.sha512=09fc65af55538a72716111a31bb86b99f9009e48f5c531d8a3c940045b1513cf9653b3f56411488d04a604c9310ff4b3ce0af0bf32c070a8434987815664cc65
+
+outputs.1.groupId=jakarta.servlet
+outputs.1.filename=jakarta.servlet-api-6.1.0-M2.jar
+outputs.1.length=361548
+outputs.1.checksums.sha512=a9f633a2f9605f465927776d6e09afd1b07482e87a22d8573542b3239a4f1c6565dee9f2d8dcc9e1f15fcdd6a9b8ed3b330a4e40de7424beb3fb59b54bc8411b
+
+outputs.2.groupId=jakarta.servlet
+outputs.2.filename=jakarta.servlet-api-6.1.0-M2-cyclonedx.xml
+outputs.2.length=3086
+outputs.2.checksums.sha512=400be8e14b7be20d373596a2feee4f830f014b0807cbb5afe5650a1d22dd0a27e6ca30dd53ac929f7e6863e2a36ed97742805f3db321fe0325b5d1ff2a24180e
+
+outputs.3.groupId=jakarta.servlet
+outputs.3.filename=jakarta.servlet-api-6.1.0-M2-cyclonedx.json
+outputs.3.length=3581
+outputs.3.checksums.sha512=72f9288d8a134126199c79182048b1ffcf35d8a56fd3bee41b1e64aaa7a0dae33a51d4a7d013313d5aca2c10e8a47a8881cad15e7c065e3a42d463c8cc521b4b
+
+outputs.4.groupId=jakarta.servlet
+outputs.4.filename=jakarta.servlet-api-6.1.0-M2-sources.jar
+outputs.4.length=449079
+outputs.4.checksums.sha512=7202f3c32005612b4164261109aaaed58d3400bf63cdc5e6ac4a890ba137b48f8bd47508ab73093818d95492b0b17ebd515a25ed07dca838d16f9b1822e8afe0

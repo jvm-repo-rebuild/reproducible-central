@@ -1,0 +1,51 @@
+1 / 1 target/reference/jakarta.servlet/jakarta.servlet-api-6.1.0-M2.jar target/jakarta.servlet-api-6.1.0-M2.jar
+--- target/reference/jakarta.servlet/jakarta.servlet-api-6.1.0-M2.jar
++++ target/jakarta.servlet-api-6.1.0-M2.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 361521 bytes, number of entries: 159
+│ +Zip file size: 361548 bytes, number of entries: 159
+│  -rw----     1.0 fat        0 bx stor 20-Dec-19 17:27 META-INF/
+│ --rw----     2.0 fat     8414 b- defN 20-Dec-19 17:27 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     8546 b- defN 20-Dec-19 17:27 META-INF/MANIFEST.MF
+│  -rw----     1.0 fat        0 b- stor 20-Dec-19 17:27 jakarta/
+│  -rw----     1.0 fat        0 b- stor 20-Dec-19 17:27 jakarta/servlet/
+│  -rw----     1.0 fat        0 b- stor 20-Dec-19 17:27 jakarta/servlet/annotation/
+│  -rw----     1.0 fat        0 b- stor 20-Dec-19 17:27 jakarta/servlet/descriptor/
+│  -rw----     1.0 fat        0 b- stor 20-Dec-19 17:27 jakarta/servlet/http/
+│  -rw----     1.0 fat        0 b- stor 20-Dec-19 17:27 jakarta/servlet/resources/
+│  -rw----     1.0 fat        0 b- stor 20-Dec-19 17:27 META-INF/maven/
+│ @@ -154,8 +154,8 @@
+│  -rw----     2.0 fat    26845 b- defN 20-Dec-19 17:27 jakarta/servlet/resources/web-jsptaglibrary_2_0.xsd
+│  -rw----     2.0 fat    31466 b- defN 20-Dec-19 17:27 jakarta/servlet/resources/web-jsptaglibrary_2_1.xsd
+│  -rw----     2.0 fat    37749 b- defN 20-Dec-19 17:27 jakarta/servlet/resources/web-jsptaglibrary_3_0.xsd
+│  -rw----     2.0 fat    37750 b- defN 20-Dec-19 17:27 jakarta/servlet/resources/web-jsptaglibrary_3_1.xsd
+│  -rw----     2.0 fat    19029 b- defN 20-Dec-19 17:27 META-INF/maven/jakarta.servlet/jakarta.servlet-api/pom.xml
+│  -rw----     2.0 fat       72 b- defN 20-Dec-19 17:27 META-INF/maven/jakarta.servlet/jakarta.servlet-api/pom.properties
+│  -rw----     2.0 fat      381 b- defN 20-Dec-19 17:27 module-info.class
+│ -159 files, 1710489 bytes uncompressed, 336021 bytes compressed:  80.4%
+│ +159 files, 1710621 bytes uncompressed, 336048 bytes compressed:  80.4%
+├── META-INF/MANIFEST.MF
+│ @@ -110,17 +110,19 @@
+│   rary_1_2.dtd,jakarta/servlet/resources/web-jsptaglibrary_2_0.xsd=src/ma
+│   in/resources/jakarta/servlet/resources/web-jsptaglibrary_2_0.xsd,jakart
+│   a/servlet/resources/web-jsptaglibrary_2_1.xsd=src/main/resources/jakart
+│   a/servlet/resources/web-jsptaglibrary_2_1.xsd,jakarta/servlet/resources
+│   /web-jsptaglibrary_3_0.xsd=src/main/resources/jakarta/servlet/resources
+│   /web-jsptaglibrary_3_0.xsd,jakarta/servlet/resources/web-jsptaglibrary_
+│   3_1.xsd=src/main/resources/jakarta/servlet/resources/web-jsptaglibrary_
+│ - 3_1.xsd,META-INF/LICENSE.md=/home/jenkins/agent/workspace/1_servlet-api
+│ - -build-and-stage/LICENSE.md,META-INF/NOTICE.md=/home/jenkins/agent/work
+│ - space/1_servlet-api-build-and-stage/NOTICE.md
+│ + 3_1.xsd,META-INF/LICENSE.md=/home/herve/dev/maven/misc/reproducible-cen
+│ + tral/content/jakarta/servlet/jakarta.servlet-api/buildcache/jakarta.ser
+│ + vlet-api/LICENSE.md,META-INF/NOTICE.md=/home/herve/dev/maven/misc/repro
+│ + ducible-central/content/jakarta/servlet/jakarta.servlet-api/buildcache/
+│ + jakarta.servlet-api/NOTICE.md
+│  Private-Package: jakarta.servlet,jakarta.servlet.annotation,jakarta.serv
+│   let.descriptor,jakarta.servlet.http,.
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+│  Specification-Vendor: Eclipse Foundation
+│  Specification-Version: 6.1
+│  Tool: Bnd-6.3.1.202206071316
+
