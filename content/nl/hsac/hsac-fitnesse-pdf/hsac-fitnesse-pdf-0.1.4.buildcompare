@@ -1,0 +1,12 @@
+version=0.1.4
+ok=0
+ko=3
+ignored=0
+okFiles=""
+koFiles="hsac-fitnesse-pdf-0.1.4.pom hsac-fitnesse-pdf-0.1.4.jar hsac-fitnesse-pdf-0.1.4-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/nl.hsac/hsac-fitnesse-pdf-0.1.4.pom pom.xml
+# diffoscope target/reference/nl.hsac/hsac-fitnesse-pdf-0.1.4.jar target/hsac-fitnesse-pdf-0.1.4.jar
+# diffoscope target/reference/nl.hsac/hsac-fitnesse-pdf-0.1.4-sources.jar target/hsac-fitnesse-pdf-0.1.4-sources.jar

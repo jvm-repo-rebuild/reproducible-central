@@ -1,0 +1,204 @@
+1 / 3 target/reference/nl.hsac/hsac-fitnesse-pdf-0.1.4.pom pom.xml
+--- target/reference/nl.hsac/hsac-fitnesse-pdf-0.1.4.pom
++++ pom.xml
+│   --- target/reference/nl.hsac/hsac-fitnesse-pdf-0.1.4.pom
+├── +++ pom.xml
+│ @@ -26,18 +26,18 @@
+│    <scm>
+│      <connection>scm:git:git://github.com/fhoeben/hsac-fitnesse-pdf.git</connection>
+│      <url>https://github.com/fhoeben/hsac-fitnesse-pdf.git</url>
+│      <developerConnection>scm:git:git://github.com/fhoeben/hsac-fitnesse-pdf.git</developerConnection>
+│    </scm>
+│    <properties>
+│      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+│ -    <project.build.outputTimestamp>2023-12-05T16:18:59Z</project.build.outputTimestamp>
+│ +    <project.build.outputTimestamp>2023-12-05T16:20:33Z</project.build.outputTimestamp>
+│      <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+│      <fitnesse.version>20231203</fitnesse.version>
+│ -    <hsac.fixtures.version>5.3.1</hsac.fixtures.version>
+│ +    <hsac.fixtures.version>5.3.4</hsac.fixtures.version>
+│    </properties>
+│    <dependencies>
+│      <dependency>
+│        <groupId>org.fitnesse</groupId>
+│        <artifactId>fitnesse</artifactId>
+│        <version>${fitnesse.version}</version>
+│        <scope>provided</scope>
+│ @@ -46,15 +46,15 @@
+│        <groupId>nl.hsac</groupId>
+│        <artifactId>hsac-fitnesse-fixtures</artifactId>
+│        <version>${hsac.fixtures.version}</version>
+│      </dependency>
+│      <dependency>
+│        <groupId>org.apache.pdfbox</groupId>
+│        <artifactId>pdfbox</artifactId>
+│ -      <version>3.0.0</version>
+│ +      <version>3.0.1</version>
+│        <exclusions>
+│          <exclusion>
+│            <!-- hsac fixtures routes jcl to slf4j -->
+│            <groupId>commons-logging</groupId>
+│            <artifactId>commons-logging</artifactId>
+│          </exclusion>
+│        </exclusions>
+
+2 / 3 target/reference/nl.hsac/hsac-fitnesse-pdf-0.1.4.jar target/hsac-fitnesse-pdf-0.1.4.jar
+--- target/reference/nl.hsac/hsac-fitnesse-pdf-0.1.4.jar
++++ target/hsac-fitnesse-pdf-0.1.4.jar
+├── zipinfo {}
+│ @@ -1,17 +1,17 @@
+│ -Zip file size: 8301 bytes, number of entries: 15
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:18 META-INF/
+│ --rw-r--r--  2.0 unx       81 b- defN 23-Dec-05 16:18 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:18 nl/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:18 nl/hsac/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:18 nl/hsac/fitnesse/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:18 nl/hsac/fitnesse/fixture/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:18 nl/hsac/fitnesse/fixture/slim/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:18 nl/hsac/fitnesse/fixture/util/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:18 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:18 META-INF/maven/nl.hsac/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:18 META-INF/maven/nl.hsac/hsac-fitnesse-pdf/
+│ --rw-r--r--  2.0 unx     6461 b- defN 23-Dec-05 16:18 nl/hsac/fitnesse/fixture/slim/PdfFixture.class
+│ --rw-r--r--  2.0 unx     4761 b- defN 23-Dec-05 16:18 nl/hsac/fitnesse/fixture/util/PDDocumentInformationHelper.class
+│ --rw-r--r--  2.0 unx     7962 b- defN 23-Dec-05 16:18 META-INF/maven/nl.hsac/hsac-fitnesse-pdf/pom.xml
+│ --rw-r--r--  2.0 unx       59 b- defN 23-Dec-05 16:18 META-INF/maven/nl.hsac/hsac-fitnesse-pdf/pom.properties
+│ -15 files, 19324 bytes uncompressed, 6273 bytes compressed:  67.5%
+│ +Zip file size: 8303 bytes, number of entries: 15
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:20 META-INF/
+│ +-rw-r--r--  2.0 unx       81 b- defN 23-Dec-05 16:20 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:20 nl/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:20 nl/hsac/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:20 nl/hsac/fitnesse/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:20 nl/hsac/fitnesse/fixture/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:20 nl/hsac/fitnesse/fixture/slim/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:20 nl/hsac/fitnesse/fixture/util/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:20 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:20 META-INF/maven/nl.hsac/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:20 META-INF/maven/nl.hsac/hsac-fitnesse-pdf/
+│ +-rw-r--r--  2.0 unx     6461 b- defN 23-Dec-05 16:20 nl/hsac/fitnesse/fixture/slim/PdfFixture.class
+│ +-rw-r--r--  2.0 unx     4761 b- defN 23-Dec-05 16:20 nl/hsac/fitnesse/fixture/util/PDDocumentInformationHelper.class
+│ +-rw-r--r--  2.0 unx     7962 b- defN 23-Dec-05 16:20 META-INF/maven/nl.hsac/hsac-fitnesse-pdf/pom.xml
+│ +-rw-r--r--  2.0 unx       59 b- defN 23-Dec-05 16:20 META-INF/maven/nl.hsac/hsac-fitnesse-pdf/pom.properties
+│ +15 files, 19324 bytes uncompressed, 6275 bytes compressed:  67.5%
+├── META-INF/maven/nl.hsac/hsac-fitnesse-pdf/pom.xml
+│ ├── META-INF/maven/nl.hsac/hsac-fitnesse-pdf/pom.xml
+│ │ @@ -26,18 +26,18 @@
+│ │    <scm>
+│ │      <connection>scm:git:git://github.com/fhoeben/hsac-fitnesse-pdf.git</connection>
+│ │      <url>https://github.com/fhoeben/hsac-fitnesse-pdf.git</url>
+│ │      <developerConnection>scm:git:git://github.com/fhoeben/hsac-fitnesse-pdf.git</developerConnection>
+│ │    </scm>
+│ │    <properties>
+│ │      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+│ │ -    <project.build.outputTimestamp>2023-12-05T16:18:59Z</project.build.outputTimestamp>
+│ │ +    <project.build.outputTimestamp>2023-12-05T16:20:33Z</project.build.outputTimestamp>
+│ │      <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+│ │      <fitnesse.version>20231203</fitnesse.version>
+│ │ -    <hsac.fixtures.version>5.3.1</hsac.fixtures.version>
+│ │ +    <hsac.fixtures.version>5.3.4</hsac.fixtures.version>
+│ │    </properties>
+│ │    <dependencies>
+│ │      <dependency>
+│ │        <groupId>org.fitnesse</groupId>
+│ │        <artifactId>fitnesse</artifactId>
+│ │        <version>${fitnesse.version}</version>
+│ │        <scope>provided</scope>
+│ │ @@ -46,15 +46,15 @@
+│ │        <groupId>nl.hsac</groupId>
+│ │        <artifactId>hsac-fitnesse-fixtures</artifactId>
+│ │        <version>${hsac.fixtures.version}</version>
+│ │      </dependency>
+│ │      <dependency>
+│ │        <groupId>org.apache.pdfbox</groupId>
+│ │        <artifactId>pdfbox</artifactId>
+│ │ -      <version>3.0.0</version>
+│ │ +      <version>3.0.1</version>
+│ │        <exclusions>
+│ │          <exclusion>
+│ │            <!-- hsac fixtures routes jcl to slf4j -->
+│ │            <groupId>commons-logging</groupId>
+│ │            <artifactId>commons-logging</artifactId>
+│ │          </exclusion>
+│ │        </exclusions>
+
+3 / 3 target/reference/nl.hsac/hsac-fitnesse-pdf-0.1.4-sources.jar target/hsac-fitnesse-pdf-0.1.4-sources.jar
+--- target/reference/nl.hsac/hsac-fitnesse-pdf-0.1.4-sources.jar
++++ target/hsac-fitnesse-pdf-0.1.4-sources.jar
+├── zipinfo {}
+│ @@ -1,17 +1,17 @@
+│ -Zip file size: 5687 bytes, number of entries: 15
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:18 META-INF/
+│ --rw-r--r--  2.0 unx       64 b- defN 23-Dec-05 16:18 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:18 nl/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:18 nl/hsac/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:18 nl/hsac/fitnesse/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:18 nl/hsac/fitnesse/fixture/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:18 nl/hsac/fitnesse/fixture/slim/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:18 nl/hsac/fitnesse/fixture/util/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:18 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:18 META-INF/maven/nl.hsac/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:18 META-INF/maven/nl.hsac/hsac-fitnesse-pdf/
+│ --rw-r--r--  2.0 unx     4303 b- defN 23-Dec-05 16:18 nl/hsac/fitnesse/fixture/slim/PdfFixture.java
+│ --rw-r--r--  2.0 unx     2304 b- defN 23-Dec-05 16:18 nl/hsac/fitnesse/fixture/util/PDDocumentInformationHelper.java
+│ --rw-r--r--  2.0 unx     7962 b- defN 23-Dec-05 16:18 META-INF/maven/nl.hsac/hsac-fitnesse-pdf/pom.xml
+│ --rw-r--r--  2.0 unx       59 b- defN 23-Dec-05 16:18 META-INF/maven/nl.hsac/hsac-fitnesse-pdf/pom.properties
+│ -15 files, 14692 bytes uncompressed, 3663 bytes compressed:  75.1%
+│ +Zip file size: 5689 bytes, number of entries: 15
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:20 META-INF/
+│ +-rw-r--r--  2.0 unx       64 b- defN 23-Dec-05 16:20 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:20 nl/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:20 nl/hsac/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:20 nl/hsac/fitnesse/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:20 nl/hsac/fitnesse/fixture/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:20 nl/hsac/fitnesse/fixture/slim/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:20 nl/hsac/fitnesse/fixture/util/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:20 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:20 META-INF/maven/nl.hsac/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-05 16:20 META-INF/maven/nl.hsac/hsac-fitnesse-pdf/
+│ +-rw-r--r--  2.0 unx     4303 b- defN 23-Dec-05 16:20 nl/hsac/fitnesse/fixture/slim/PdfFixture.java
+│ +-rw-r--r--  2.0 unx     2304 b- defN 23-Dec-05 16:20 nl/hsac/fitnesse/fixture/util/PDDocumentInformationHelper.java
+│ +-rw-r--r--  2.0 unx     7962 b- defN 23-Dec-05 16:20 META-INF/maven/nl.hsac/hsac-fitnesse-pdf/pom.xml
+│ +-rw-r--r--  2.0 unx       59 b- defN 23-Dec-05 16:20 META-INF/maven/nl.hsac/hsac-fitnesse-pdf/pom.properties
+│ +15 files, 14692 bytes uncompressed, 3665 bytes compressed:  75.1%
+├── META-INF/maven/nl.hsac/hsac-fitnesse-pdf/pom.xml
+│ ├── META-INF/maven/nl.hsac/hsac-fitnesse-pdf/pom.xml
+│ │ @@ -26,18 +26,18 @@
+│ │    <scm>
+│ │      <connection>scm:git:git://github.com/fhoeben/hsac-fitnesse-pdf.git</connection>
+│ │      <url>https://github.com/fhoeben/hsac-fitnesse-pdf.git</url>
+│ │      <developerConnection>scm:git:git://github.com/fhoeben/hsac-fitnesse-pdf.git</developerConnection>
+│ │    </scm>
+│ │    <properties>
+│ │      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+│ │ -    <project.build.outputTimestamp>2023-12-05T16:18:59Z</project.build.outputTimestamp>
+│ │ +    <project.build.outputTimestamp>2023-12-05T16:20:33Z</project.build.outputTimestamp>
+│ │      <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+│ │      <fitnesse.version>20231203</fitnesse.version>
+│ │ -    <hsac.fixtures.version>5.3.1</hsac.fixtures.version>
+│ │ +    <hsac.fixtures.version>5.3.4</hsac.fixtures.version>
+│ │    </properties>
+│ │    <dependencies>
+│ │      <dependency>
+│ │        <groupId>org.fitnesse</groupId>
+│ │        <artifactId>fitnesse</artifactId>
+│ │        <version>${fitnesse.version}</version>
+│ │        <scope>provided</scope>
+│ │ @@ -46,15 +46,15 @@
+│ │        <groupId>nl.hsac</groupId>
+│ │        <artifactId>hsac-fitnesse-fixtures</artifactId>
+│ │        <version>${hsac.fixtures.version}</version>
+│ │      </dependency>
+│ │      <dependency>
+│ │        <groupId>org.apache.pdfbox</groupId>
+│ │        <artifactId>pdfbox</artifactId>
+│ │ -      <version>3.0.0</version>
+│ │ +      <version>3.0.1</version>
+│ │        <exclusions>
+│ │          <exclusion>
+│ │            <!-- hsac fixtures routes jcl to slf4j -->
+│ │            <groupId>commons-logging</groupId>
+│ │            <artifactId>commons-logging</artifactId>
+│ │          </exclusion>
+│ │        </exclusions>
+
