@@ -1,0 +1,488 @@
+1 / 11 target/reference/ch.qos.logback/logback-parent-1.5.1.pom pom.xml
+
+2 / 11 target/reference/ch.qos.logback/logback-core-1.5.1.pom logback-core/pom.xml
+
+3 / 11 target/reference/ch.qos.logback/logback-core-1.5.1.jar logback-core/target/logback-core-1.5.1.jar
+--- target/reference/ch.qos.logback/logback-core-1.5.1.jar
++++ logback-core/target/logback-core-1.5.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 605365 bytes, number of entries: 520
+│ +Zip file size: 605372 bytes, number of entries: 520
+│  -rw----     1.0 fat        0 bx stor 24-Feb-28 13:34 META-INF/
+│  -rw----     2.0 fat     9824 bl defN 24-Feb-28 13:34 META-INF/MANIFEST.MF
+│  -rw----     1.0 fat        0 b- stor 24-Feb-28 13:34 META-INF/versions/
+│  -rw----     1.0 fat        0 b- stor 24-Feb-28 13:34 META-INF/versions/21/
+│  -rw----     1.0 fat        0 b- stor 24-Feb-28 13:34 META-INF/versions/21/ch/
+│  -rw----     1.0 fat        0 b- stor 24-Feb-28 13:34 META-INF/versions/21/ch/qos/
+│  -rw----     1.0 fat        0 b- stor 24-Feb-28 13:34 META-INF/versions/21/ch/qos/logback/
+│ @@ -513,10 +513,10 @@
+│  -rw----     2.0 fat     6047 bl defN 24-Feb-28 13:34 ch/qos/logback/core/util/StatusPrinter.class
+│  -rw----     2.0 fat     2546 bl defN 24-Feb-28 13:34 ch/qos/logback/core/util/StringCollectionUtil.class
+│  -rw----     2.0 fat     1770 bl defN 24-Feb-28 13:34 ch/qos/logback/core/util/StringUtil.class
+│  -rw----     2.0 fat      538 bl defN 24-Feb-28 13:34 ch/qos/logback/core/util/SystemInfo.class
+│  -rw----     2.0 fat     1657 bl defN 24-Feb-28 13:34 ch/qos/logback/core/util/TimeUtil.class
+│  -rw----     2.0 fat     7493 bl defN 24-Feb-28 13:34 META-INF/maven/ch.qos.logback/logback-core/pom.xml
+│  -rw----     2.0 fat       61 bl defN 24-Feb-28 13:34 META-INF/maven/ch.qos.logback/logback-core/pom.properties
+│ --rw----     2.0 fat     1630 bl defN 24-Feb-28 13:34 META-INF/INDEX.LIST
+│ +-rw----     2.0 fat     1690 bl defN 24-Feb-28 13:34 META-INF/INDEX.LIST
+│  -rw----     2.0 fat     2123 bl defN 24-Feb-28 13:34 module-info.class
+│ -520 files, 1131015 bytes uncompressed, 505785 bytes compressed:  55.3%
+│ +520 files, 1131075 bytes uncompressed, 505792 bytes compressed:  55.3%
+├── META-INF/INDEX.LIST
+│ @@ -1,60 +1,60 @@
+│ -JarIndex-Version: 1.0
+│ -
+│ -logback-core-1.5.1.jar
+│ -META-INF
+│ -META-INF/maven
+│ -META-INF/maven/ch.qos.logback
+│ -META-INF/maven/ch.qos.logback/logback-core
+│ -META-INF/versions
+│ -META-INF/versions/21
+│ -META-INF/versions/21/ch
+│ -META-INF/versions/21/ch/qos
+│ -META-INF/versions/21/ch/qos/logback
+│ -META-INF/versions/21/ch/qos/logback/core
+│ -META-INF/versions/21/ch/qos/logback/core/util
+│ -ch
+│ -ch/qos
+│ -ch/qos/logback
+│ -ch/qos/logback/core
+│ -ch/qos/logback/core/boolex
+│ -ch/qos/logback/core/encoder
+│ -ch/qos/logback/core/filter
+│ -ch/qos/logback/core/helpers
+│ -ch/qos/logback/core/hook
+│ -ch/qos/logback/core/html
+│ -ch/qos/logback/core/joran
+│ -ch/qos/logback/core/joran/action
+│ -ch/qos/logback/core/joran/conditional
+│ -ch/qos/logback/core/joran/event
+│ -ch/qos/logback/core/joran/event/stax
+│ -ch/qos/logback/core/joran/node
+│ -ch/qos/logback/core/joran/sanity
+│ -ch/qos/logback/core/joran/spi
+│ -ch/qos/logback/core/joran/util
+│ -ch/qos/logback/core/joran/util/beans
+│ -ch/qos/logback/core/layout
+│ -ch/qos/logback/core/model
+│ -ch/qos/logback/core/model/conditional
+│ -ch/qos/logback/core/model/processor
+│ -ch/qos/logback/core/model/processor/conditional
+│ -ch/qos/logback/core/model/util
+│ -ch/qos/logback/core/net
+│ -ch/qos/logback/core/net/server
+│ -ch/qos/logback/core/net/ssl
+│ -ch/qos/logback/core/pattern
+│ -ch/qos/logback/core/pattern/color
+│ -ch/qos/logback/core/pattern/parser
+│ -ch/qos/logback/core/pattern/util
+│ -ch/qos/logback/core/property
+│ -ch/qos/logback/core/read
+│ -ch/qos/logback/core/recovery
+│ -ch/qos/logback/core/rolling
+│ -ch/qos/logback/core/rolling/helper
+│ -ch/qos/logback/core/sift
+│ -ch/qos/logback/core/spi
+│ -ch/qos/logback/core/status
+│ -ch/qos/logback/core/subst
+│ -ch/qos/logback/core/testUtil
+│ -ch/qos/logback/core/util
+│ -module-info.class
+│ -
+│ +JarIndex-Version: 1.0
+│ +
+│ +logback-core-1.5.1.jar
+│ +META-INF
+│ +META-INF/maven
+│ +META-INF/maven/ch.qos.logback
+│ +META-INF/maven/ch.qos.logback/logback-core
+│ +META-INF/versions
+│ +META-INF/versions/21
+│ +META-INF/versions/21/ch
+│ +META-INF/versions/21/ch/qos
+│ +META-INF/versions/21/ch/qos/logback
+│ +META-INF/versions/21/ch/qos/logback/core
+│ +META-INF/versions/21/ch/qos/logback/core/util
+│ +ch
+│ +ch/qos
+│ +ch/qos/logback
+│ +ch/qos/logback/core
+│ +ch/qos/logback/core/boolex
+│ +ch/qos/logback/core/encoder
+│ +ch/qos/logback/core/filter
+│ +ch/qos/logback/core/helpers
+│ +ch/qos/logback/core/hook
+│ +ch/qos/logback/core/html
+│ +ch/qos/logback/core/joran
+│ +ch/qos/logback/core/joran/action
+│ +ch/qos/logback/core/joran/conditional
+│ +ch/qos/logback/core/joran/event
+│ +ch/qos/logback/core/joran/event/stax
+│ +ch/qos/logback/core/joran/node
+│ +ch/qos/logback/core/joran/sanity
+│ +ch/qos/logback/core/joran/spi
+│ +ch/qos/logback/core/joran/util
+│ +ch/qos/logback/core/joran/util/beans
+│ +ch/qos/logback/core/layout
+│ +ch/qos/logback/core/model
+│ +ch/qos/logback/core/model/conditional
+│ +ch/qos/logback/core/model/processor
+│ +ch/qos/logback/core/model/processor/conditional
+│ +ch/qos/logback/core/model/util
+│ +ch/qos/logback/core/net
+│ +ch/qos/logback/core/net/server
+│ +ch/qos/logback/core/net/ssl
+│ +ch/qos/logback/core/pattern
+│ +ch/qos/logback/core/pattern/color
+│ +ch/qos/logback/core/pattern/parser
+│ +ch/qos/logback/core/pattern/util
+│ +ch/qos/logback/core/property
+│ +ch/qos/logback/core/read
+│ +ch/qos/logback/core/recovery
+│ +ch/qos/logback/core/rolling
+│ +ch/qos/logback/core/rolling/helper
+│ +ch/qos/logback/core/sift
+│ +ch/qos/logback/core/spi
+│ +ch/qos/logback/core/status
+│ +ch/qos/logback/core/subst
+│ +ch/qos/logback/core/testUtil
+│ +ch/qos/logback/core/util
+│ +module-info.class
+│ +
+
+4 / 11 target/reference/ch.qos.logback/logback-core-1.5.1-sources.jar logback-core/target/logback-core-1.5.1-sources.jar
+
+5 / 11 target/reference/ch.qos.logback/logback-core-1.5.1-test-sources.jar logback-core/target/logback-core-1.5.1-test-sources.jar
+
+6 / 11 target/reference/ch.qos.logback/logback-core-1.5.1-tests.jar logback-core/target/logback-core-1.5.1-tests.jar
+
+7 / 11 target/reference/ch.qos.logback/logback-classic-1.5.1.pom logback-classic/pom.xml
+
+8 / 11 target/reference/ch.qos.logback/logback-classic-1.5.1.jar logback-classic/target/logback-classic-1.5.1.jar
+--- target/reference/ch.qos.logback/logback-classic-1.5.1.jar
++++ logback-classic/target/logback-classic-1.5.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 291830 bytes, number of entries: 235
+│ +Zip file size: 291842 bytes, number of entries: 235
+│  -rw----     1.0 fat        0 bx stor 24-Feb-28 13:34 META-INF/
+│  -rw----     2.0 fat     9229 bl defN 24-Feb-28 13:34 META-INF/MANIFEST.MF
+│  -rw----     1.0 fat        0 b- stor 24-Feb-28 13:34 META-INF/services/
+│  -rw----     1.0 fat        0 b- stor 24-Feb-28 13:34 ch/
+│  -rw----     1.0 fat        0 b- stor 24-Feb-28 13:34 ch/qos/
+│  -rw----     1.0 fat        0 b- stor 24-Feb-28 13:34 ch/qos/logback/
+│  -rw----     1.0 fat        0 b- stor 24-Feb-28 13:34 ch/qos/logback/classic/
+│ @@ -228,10 +228,10 @@
+│  -rw----     2.0 fat     1003 bl defN 24-Feb-28 13:34 ch/qos/logback/classic/util/LevelUtil.class
+│  -rw----     2.0 fat     3740 bl defN 24-Feb-28 13:34 ch/qos/logback/classic/util/LogbackMDCAdapter.class
+│  -rw----     2.0 fat     3940 bl defN 24-Feb-28 13:34 ch/qos/logback/classic/util/LogbackMDCAdapterSimple.class
+│  -rw----     2.0 fat     1499 bl defN 24-Feb-28 13:34 ch/qos/logback/classic/util/LoggerNameUtil.class
+│  -rw----     2.0 fat     1668 bl defN 24-Feb-28 13:34 ch/qos/logback/classic/util/StatusViaSLF4JLoggerFactory.class
+│  -rw----     2.0 fat    13082 bl defN 24-Feb-28 13:34 META-INF/maven/ch.qos.logback/logback-classic/pom.xml
+│  -rw----     2.0 fat       64 bl defN 24-Feb-28 13:34 META-INF/maven/ch.qos.logback/logback-classic/pom.properties
+│ --rw----     2.0 fat     1150 bl defN 24-Feb-28 13:34 META-INF/INDEX.LIST
+│ +-rw----     2.0 fat     1193 bl defN 24-Feb-28 13:34 META-INF/INDEX.LIST
+│  -rw----     2.0 fat     1790 bl defN 24-Feb-28 13:34 module-info.class
+│ -235 files, 564795 bytes uncompressed, 247070 bytes compressed:  56.3%
+│ +235 files, 564838 bytes uncompressed, 247082 bytes compressed:  56.3%
+├── META-INF/INDEX.LIST
+│ @@ -1,43 +1,43 @@
+│ -JarIndex-Version: 1.0
+│ -
+│ -logback-classic-1.5.1.jar
+│ -META-INF
+│ -META-INF/maven
+│ -META-INF/maven/ch.qos.logback
+│ -META-INF/maven/ch.qos.logback/logback-classic
+│ -META-INF/services
+│ -ch
+│ -ch/qos
+│ -ch/qos/logback
+│ -ch/qos/logback/classic
+│ -ch/qos/logback/classic/boolex
+│ -ch/qos/logback/classic/db
+│ -ch/qos/logback/classic/db/script
+│ -ch/qos/logback/classic/encoder
+│ -ch/qos/logback/classic/filter
+│ -ch/qos/logback/classic/helpers
+│ -ch/qos/logback/classic/html
+│ -ch/qos/logback/classic/joran
+│ -ch/qos/logback/classic/joran/action
+│ -ch/qos/logback/classic/joran/sanity
+│ -ch/qos/logback/classic/joran/serializedModel
+│ -ch/qos/logback/classic/jul
+│ -ch/qos/logback/classic/layout
+│ -ch/qos/logback/classic/log4j
+│ -ch/qos/logback/classic/model
+│ -ch/qos/logback/classic/model/processor
+│ -ch/qos/logback/classic/model/util
+│ -ch/qos/logback/classic/net
+│ -ch/qos/logback/classic/net/server
+│ -ch/qos/logback/classic/pattern
+│ -ch/qos/logback/classic/pattern/color
+│ -ch/qos/logback/classic/selector
+│ -ch/qos/logback/classic/selector/servlet
+│ -ch/qos/logback/classic/servlet
+│ -ch/qos/logback/classic/sift
+│ -ch/qos/logback/classic/spi
+│ -ch/qos/logback/classic/turbo
+│ -ch/qos/logback/classic/tyler
+│ -ch/qos/logback/classic/util
+│ -module-info.class
+│ -
+│ +JarIndex-Version: 1.0
+│ +
+│ +logback-classic-1.5.1.jar
+│ +META-INF
+│ +META-INF/maven
+│ +META-INF/maven/ch.qos.logback
+│ +META-INF/maven/ch.qos.logback/logback-classic
+│ +META-INF/services
+│ +ch
+│ +ch/qos
+│ +ch/qos/logback
+│ +ch/qos/logback/classic
+│ +ch/qos/logback/classic/boolex
+│ +ch/qos/logback/classic/db
+│ +ch/qos/logback/classic/db/script
+│ +ch/qos/logback/classic/encoder
+│ +ch/qos/logback/classic/filter
+│ +ch/qos/logback/classic/helpers
+│ +ch/qos/logback/classic/html
+│ +ch/qos/logback/classic/joran
+│ +ch/qos/logback/classic/joran/action
+│ +ch/qos/logback/classic/joran/sanity
+│ +ch/qos/logback/classic/joran/serializedModel
+│ +ch/qos/logback/classic/jul
+│ +ch/qos/logback/classic/layout
+│ +ch/qos/logback/classic/log4j
+│ +ch/qos/logback/classic/model
+│ +ch/qos/logback/classic/model/processor
+│ +ch/qos/logback/classic/model/util
+│ +ch/qos/logback/classic/net
+│ +ch/qos/logback/classic/net/server
+│ +ch/qos/logback/classic/pattern
+│ +ch/qos/logback/classic/pattern/color
+│ +ch/qos/logback/classic/selector
+│ +ch/qos/logback/classic/selector/servlet
+│ +ch/qos/logback/classic/servlet
+│ +ch/qos/logback/classic/sift
+│ +ch/qos/logback/classic/spi
+│ +ch/qos/logback/classic/turbo
+│ +ch/qos/logback/classic/tyler
+│ +ch/qos/logback/classic/util
+│ +module-info.class
+│ +
+
+9 / 11 target/reference/ch.qos.logback/logback-classic-1.5.1-sources.jar logback-classic/target/logback-classic-1.5.1-sources.jar
+
+10 / 11 target/reference/ch.qos.logback/logback-classic-1.5.1-test-sources.jar logback-classic/target/logback-classic-1.5.1-test-sources.jar
+
+11 / 11 target/reference/ch.qos.logback/logback-classic-1.5.1-tests.jar logback-classic/target/logback-classic-1.5.1-tests.jar
+--- target/reference/ch.qos.logback/logback-classic-1.5.1-tests.jar
++++ logback-classic/target/logback-classic-1.5.1-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 473794 bytes, number of entries: 348
+│ +Zip file size: 473811 bytes, number of entries: 348
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 13:34 META-INF/
+│  -rw-r--r--  2.0 unx     9229 b- defN 24-Feb-28 13:34 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 13:34 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 13:34 asResource/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 13:34 ch/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 13:34 ch/qos/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 13:34 ch/qos/logback/
+│ @@ -62,15 +62,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 13:34 org/slf4j/implTest/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 13:34 org/slf4j/test_osgi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 13:34 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 13:34 META-INF/maven/ch.qos.logback/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 13:34 META-INF/maven/ch.qos.logback/logback-classic/
+│  -rw-r--r--  2.0 unx      399 b- defN 24-Feb-28 13:34 BOO_logback-test.xml
+│  -rw-r--r--  2.0 unx       44 b- defN 24-Feb-28 13:34 FAKE_META_INF_SERVICES_ch_qos_logback_classic_spi_Configurator
+│ --rw-r--r--  2.0 unx       87 b- defN 24-Feb-28 13:34 META-INF/jpms.args
+│ +-rw-r--r--  2.0 unx       91 b- defN 24-Feb-28 13:34 META-INF/jpms.args
+│  -rw-r--r--  2.0 unx       40 b- defN 24-Feb-28 13:34 META-INF/services/DISABLED-ch.qos.logback.classic.spi.Configurator
+│  -rw-r--r--  2.0 unx      292 b- defN 24-Feb-28 13:34 README.txt
+│  -rw-r--r--  2.0 unx      688 b- defN 24-Feb-28 13:34 TWO_DATE_logback-test.xml
+│  -rw-r--r--  2.0 unx       54 b- defN 24-Feb-28 13:34 asResource/inner1.xml
+│  -rw-r--r--  2.0 unx      385 b- defN 24-Feb-28 13:34 autoConfigAsResource.xml
+│  -rw-r--r--  2.0 unx     4598 b- defN 24-Feb-28 13:34 ch/qos/logback/classic/AsyncAppenderTest.class
+│  -rw-r--r--  2.0 unx      966 b- defN 24-Feb-28 13:34 ch/qos/logback/classic/ClassicTestConstants.class
+│ @@ -342,9 +342,9 @@
+│  -rw-r--r--  2.0 unx     2512 b- defN 24-Feb-28 13:34 org/slf4j/test_osgi/CheckingBundleListener.class
+│  -rw-r--r--  2.0 unx     3206 b- defN 24-Feb-28 13:34 org/slf4j/test_osgi/FelixHost.class
+│  -rw-r--r--  2.0 unx     2365 b- defN 24-Feb-28 13:34 org/slf4j/test_osgi/FrameworkErrorListener.class
+│  -rw-r--r--  2.0 unx      496 b- defN 24-Feb-28 13:34 recursiveInit.xml
+│  -rw-r--r--  2.0 unx      931 b- defN 24-Feb-28 13:34 test.groovy
+│  -rw-r--r--  2.0 unx    13082 b- defN 24-Feb-28 13:34 META-INF/maven/ch.qos.logback/logback-classic/pom.xml
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Feb-28 13:34 META-INF/maven/ch.qos.logback/logback-classic/pom.properties
+│ --rw-r--r--  2.0 unx     2111 b- defN 24-Feb-28 13:34 META-INF/INDEX.LIST
+│ -348 files, 952439 bytes uncompressed, 411500 bytes compressed:  56.8%
+│ +-rw-r--r--  2.0 unx     2186 b- defN 24-Feb-28 13:34 META-INF/INDEX.LIST
+│ +348 files, 952518 bytes uncompressed, 411517 bytes compressed:  56.8%
+├── META-INF/jpms.args
+│ @@ -1,4 +1,4 @@
+│ ---patch-module
+│ -ch.qos.logback.classic=_
+│ ---add-reads
+│ -ch.qos.logback.classic=ALL-UNNAMED
+│ +--patch-module
+│ +ch.qos.logback.classic=_
+│ +--add-reads
+│ +ch.qos.logback.classic=ALL-UNNAMED
+├── META-INF/INDEX.LIST
+│ @@ -1,75 +1,75 @@
+│ -JarIndex-Version: 1.0
+│ -
+│ -logback-classic-1.5.1-tests.jar
+│ -META-INF
+│ -META-INF/maven
+│ -META-INF/maven/ch.qos.logback
+│ -META-INF/maven/ch.qos.logback/logback-classic
+│ -META-INF/services
+│ -asResource
+│ -ch
+│ -ch/qos
+│ -ch/qos/logback
+│ -ch/qos/logback/classic
+│ -ch/qos/logback/classic/boolex
+│ -ch/qos/logback/classic/control
+│ -ch/qos/logback/classic/corpus
+│ -ch/qos/logback/classic/corpusTest
+│ -ch/qos/logback/classic/encoder
+│ -ch/qos/logback/classic/html
+│ -ch/qos/logback/classic/issue
+│ -ch/qos/logback/classic/issue/lbclassic135
+│ -ch/qos/logback/classic/issue/lbclassic135/lbclassic139
+│ -ch/qos/logback/classic/issue/lbclassic180
+│ -ch/qos/logback/classic/issue/lbclassic323
+│ -ch/qos/logback/classic/issue/lbclassic330
+│ -ch/qos/logback/classic/issue/lbclassic36
+│ -ch/qos/logback/classic/issue/lbcore211
+│ -ch/qos/logback/classic/issue/lbcore224
+│ -ch/qos/logback/classic/issue/lbcore243
+│ -ch/qos/logback/classic/issue/lbcore26
+│ -ch/qos/logback/classic/issue/lbcore_155
+│ -ch/qos/logback/classic/issue/logback1159
+│ -ch/qos/logback/classic/issue/logback_1162
+│ -ch/qos/logback/classic/issue/logback_1277
+│ -ch/qos/logback/classic/issue/logback_1361
+│ -ch/qos/logback/classic/issue/logback_1754
+│ -ch/qos/logback/classic/joran
+│ -ch/qos/logback/classic/joran/sanity
+│ -ch/qos/logback/classic/joran/serializedModel
+│ -ch/qos/logback/classic/jsonTest
+│ -ch/qos/logback/classic/jul
+│ -ch/qos/logback/classic/layout
+│ -ch/qos/logback/classic/model
+│ -ch/qos/logback/classic/multiJVM
+│ -ch/qos/logback/classic/net
+│ -ch/qos/logback/classic/net/mock
+│ -ch/qos/logback/classic/net/server
+│ -ch/qos/logback/classic/net/testObjectBuilders
+│ -ch/qos/logback/classic/pattern
+│ -ch/qos/logback/classic/rolling
+│ -ch/qos/logback/classic/selector
+│ -ch/qos/logback/classic/servlet
+│ -ch/qos/logback/classic/sift
+│ -ch/qos/logback/classic/spi
+│ -ch/qos/logback/classic/spi/special
+│ -ch/qos/logback/classic/testUtil
+│ -ch/qos/logback/classic/turbo
+│ -ch/qos/logback/classic/turbo/lru
+│ -ch/qos/logback/classic/util
+│ -corpus
+│ -dtd
+│ -integrator
+│ -org
+│ -org/dummy
+│ -org/slf4j
+│ -org/slf4j/implTest
+│ -org/slf4j/test_osgi
+│ -BOO_logback-test.xml
+│ -FAKE_META_INF_SERVICES_ch_qos_logback_classic_spi_Configurator
+│ -README.txt
+│ -TWO_DATE_logback-test.xml
+│ -autoConfigAsResource.xml
+│ -recursiveInit.xml
+│ -test.groovy
+│ -
+│ +JarIndex-Version: 1.0
+│ +
+│ +logback-classic-1.5.1-tests.jar
+│ +META-INF
+│ +META-INF/maven
+│ +META-INF/maven/ch.qos.logback
+│ +META-INF/maven/ch.qos.logback/logback-classic
+│ +META-INF/services
+│ +asResource
+│ +ch
+│ +ch/qos
+│ +ch/qos/logback
+│ +ch/qos/logback/classic
+│ +ch/qos/logback/classic/boolex
+│ +ch/qos/logback/classic/control
+│ +ch/qos/logback/classic/corpus
+│ +ch/qos/logback/classic/corpusTest
+│ +ch/qos/logback/classic/encoder
+│ +ch/qos/logback/classic/html
+│ +ch/qos/logback/classic/issue
+│ +ch/qos/logback/classic/issue/lbclassic135
+│ +ch/qos/logback/classic/issue/lbclassic135/lbclassic139
+│ +ch/qos/logback/classic/issue/lbclassic180
+│ +ch/qos/logback/classic/issue/lbclassic323
+│ +ch/qos/logback/classic/issue/lbclassic330
+│ +ch/qos/logback/classic/issue/lbclassic36
+│ +ch/qos/logback/classic/issue/lbcore211
+│ +ch/qos/logback/classic/issue/lbcore224
+│ +ch/qos/logback/classic/issue/lbcore243
+│ +ch/qos/logback/classic/issue/lbcore26
+│ +ch/qos/logback/classic/issue/lbcore_155
+│ +ch/qos/logback/classic/issue/logback1159
+│ +ch/qos/logback/classic/issue/logback_1162
+│ +ch/qos/logback/classic/issue/logback_1277
+│ +ch/qos/logback/classic/issue/logback_1361
+│ +ch/qos/logback/classic/issue/logback_1754
+│ +ch/qos/logback/classic/joran
+│ +ch/qos/logback/classic/joran/sanity
+│ +ch/qos/logback/classic/joran/serializedModel
+│ +ch/qos/logback/classic/jsonTest
+│ +ch/qos/logback/classic/jul
+│ +ch/qos/logback/classic/layout
+│ +ch/qos/logback/classic/model
+│ +ch/qos/logback/classic/multiJVM
+│ +ch/qos/logback/classic/net
+│ +ch/qos/logback/classic/net/mock
+│ +ch/qos/logback/classic/net/server
+│ +ch/qos/logback/classic/net/testObjectBuilders
+│ +ch/qos/logback/classic/pattern
+│ +ch/qos/logback/classic/rolling
+│ +ch/qos/logback/classic/selector
+│ +ch/qos/logback/classic/servlet
+│ +ch/qos/logback/classic/sift
+│ +ch/qos/logback/classic/spi
+│ +ch/qos/logback/classic/spi/special
+│ +ch/qos/logback/classic/testUtil
+│ +ch/qos/logback/classic/turbo
+│ +ch/qos/logback/classic/turbo/lru
+│ +ch/qos/logback/classic/util
+│ +corpus
+│ +dtd
+│ +integrator
+│ +org
+│ +org/dummy
+│ +org/slf4j
+│ +org/slf4j/implTest
+│ +org/slf4j/test_osgi
+│ +BOO_logback-test.xml
+│ +FAKE_META_INF_SERVICES_ch_qos_logback_classic_spi_Configurator
+│ +README.txt
+│ +TWO_DATE_logback-test.xml
+│ +autoConfigAsResource.xml
+│ +recursiveInit.xml
+│ +test.groovy
+│ +
+
