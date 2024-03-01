@@ -4,7 +4,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240229134608 --> [micronaut-maven-plugin](../content/io/micronaut/maven/micronaut-maven-plugin/README.md) | [4.4.0](../content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.4.0.buildspec) :white_check_mark: | [4.4.1](../content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.4.1.buildspec) | `bin/add-new-release.sh content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.4.0.buildspec 4.4.1` |
+| <!-- 20240301090242 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | [5.10.0](../content/org/mockito/mockito-core/mockito-5.10.0.buildspec) :white_check_mark: | [5.11.0](../content/org/mockito/mockito-core/mockito-5.11.0.buildspec) | `bin/add-new-release.sh content/org/mockito/mockito-core/mockito-5.10.0.buildspec 5.11.0` |
+| <!-- 20240301050031 --> [webjars-locator-core](../content/org/webjars/webjars-locator-core/README.md) | [0.55](../content/org/webjars/webjars-locator-core/webjars-locator-core-0.55.buildspec) :white_check_mark: | [0.56](../content/org/webjars/webjars-locator-core/webjars-locator-core-0.56.buildspec) | `bin/add-new-release.sh content/org/webjars/webjars-locator-core/webjars-locator-core-0.55.buildspec 0.56` |
 | <!-- 20240225012802 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.2](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec) :white_check_mark: | [10.4.3-beta-21](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.3-beta-21.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec 10.4.3-beta-21` |
 <!-- END GENERATED ADD OK -->
 
