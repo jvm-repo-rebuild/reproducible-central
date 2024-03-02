@@ -1,0 +1,527 @@
+1 / 9 target/reference/org.glassfish.main.distributions/atomic-7.0.13.zip nucleus/distributions/atomic/target/atomic.zip
+--- target/reference/org.glassfish.main.distributions/atomic-7.0.13.zip
++++ nucleus/distributions/atomic/target/atomic.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 22759274 bytes, number of entries: 174
+│ +Zip file size: 22759278 bytes, number of entries: 174
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 17:50 nucleus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 17:50 nucleus/bin/
+│ @@ -50,27 +50,27 @@
+│  -rw-r--r--  2.0 unx    31524 b- defN 24-Feb-28 17:50 nucleus/docs/quickstart.html
+│  -rw-------  2.0 unx       80 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/admin-keyfile
+│ --rw-------  2.0 unx     2494 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/cacerts.jks
+│ +-rw-------  2.0 unx     2496 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/cacerts.jks
+│  -rw-------  2.0 unx     9529 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/default-logging.properties
+│  -rw-------  2.0 unx       32 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/domain-passwords
+│  -rw-------  2.0 unx    27481 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/domain.xml
+│  -rw-------  2.0 unx     2843 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/javaee.server.policy
+│  -rw-------  2.0 unx      748 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/keyfile
+│ --rw-------  2.0 unx     6222 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/keystore.jks
+│ +-rw-------  2.0 unx     6221 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/keystore.jks
+│  -rw-------  2.0 unx     9529 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/logging.properties
+│  -rw-------  2.0 unx     1258 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/login.conf
+│  -rw-------  2.0 unx     1642 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/restrict.server.policy
+│  -rw-------  2.0 unx     5892 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/server.policy
+│  -rw-r--r--  2.0 unx     3668 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/docroot/index.html
+│ --rw-r--r--  2.0 unx      605 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/init-info/domain-info.xml
+│ +-rw-r--r--  2.0 unx      698 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/init-info/domain-info.xml
+│  -rw-r--r--  2.0 unx      917 b- defN 24-Feb-28 17:50 nucleus/lib/appclient/appclientlogin.conf
+│  -rw-r--r--  2.0 unx     2692 b- defN 24-Feb-28 17:50 nucleus/lib/appclient/client.policy
+│ @@ -169,8 +169,8 @@
+│  -rw-r--r--  2.0 unx    34245 b- defN 24-Feb-28 17:50 nucleus/modules/ssl-impl.jar
+│  -rw-r--r--  2.0 unx   781804 b- defN 24-Feb-28 17:50 nucleus/osgi/felix/bin/felix.jar
+│ -174 files, 25333583 bytes uncompressed, 22734048 bytes compressed:  10.3%
+│ +174 files, 25333677 bytes uncompressed, 22734052 bytes compressed:  10.3%
+├── nucleus/domains/domain1/config/admin-keyfile
+│ @@ -1 +1 @@
+│ -admin;{SSHA256}cljuwpVUZJPFW4WeiJKo12zYzFNSKp8OwDm3G0YdRSf7+386C6Doug==;asadmin
+│ +admin;{SSHA256}Esn5Xik7uGBkqwAQN1TOYTKYc2YP1PqhVLR/IouPXBzaGQ49RfRLow==;asadmin
+├── nucleus/domains/domain1/config/cacerts.jks
+│ @@ -1,156 +1,156 @@
+│  00000000: feed feed 0000 0002 0000 0002 0000 0002  ................
+│  00000010: 0012 676c 6173 7366 6973 682d 696e 7374  ..glassfish-inst
+│ -00000020: 616e 6365 0000 018d f0e0 effe 0005 582e  ance..........X.
+│ -00000030: 3530 3900 0004 b530 8204 b130 8203 19a0  509....0...0....
+...
+│ -000009a0: e82b 67b5 4109 4517 5ffd ab61 be84 4ac7  .+g.A.E._..a..J.
+│ -000009b0: 0326 af29 0396 5901 32e1 f86a 5ff2       .&.)..Y.2..j_.
+│ +00000020: 616e 6365 0000 018e 00e7 4fca 0005 582e  ance......O...X.
+│ +00000030: 3530 3900 0004 b630 8204 b230 8203 1aa0  509....0...0....
+...
+│ +000009a0: b8c0 8ede 4261 6265 607e 7226 41a8 9035  ....Babe`~r&A..5
+│ +000009b0: 5776 4b2a 611b 4a18 b20e 898d a244 97fe  WvK*a.J......D..
+├── nucleus/domains/domain1/config/domain.xml
+│ ├── nucleus/domains/domain1/config/domain.xml
+│ │ @@ -387,12 +387,12 @@
+│ │        <system-property name="JAVA_DEBUGGER_PORT" value="29009"/>
+│ │      </config>
+│ │    </configs>
+│ │    <property name="administrative.domain.name" value="domain1"/>
+│ │ -  <secure-admin special-admin-indicator="7e8401d5-5cfc-4943-a168-66bcebf5cddd">
+│ │ +  <secure-admin special-admin-indicator="a2c84be7-ab44-4f3b-85f0-44f388b07f6f">
+│ │      <secure-admin-principal dn="CN=localhost,OU=GlassFish,O=Eclipse.org Foundation Inc,L=Ottawa,ST=Ontario,C=CA"/>
+│ │      <secure-admin-principal dn="CN=localhost-instance,OU=GlassFish,O=Eclipse.org Foundation Inc,L=Ottawa,ST=Ontario,C=CA"/>
+│ │    </secure-admin>
+│ │  </domain>
+├── nucleus/domains/domain1/config/keystore.jks
+│ @@ -1,389 +1,389 @@
+│  00000000: feed feed 0000 0002 0000 0002 0000 0001  ................
+│  00000010: 0012 676c 6173 7366 6973 682d 696e 7374  ..glassfish-inst
+│ -00000020: 616e 6365 0000 018d f0e0 e897 0000 0741  ance...........A
+│ -00000030: 3082 073d 300c 060a 2b06 0104 012a 0211  0..=0...+....*..
+...
+│ -00001830: e82b 67b5 4109 4517 5ffd 9d66 4ce7 7fec  .+g.A.E._..fL...
+│ -00001840: 83d7 0876 a586 913e e4d3 8863 6451       ...v...>...cdQ
+│ +00000020: 616e 6365 0000 018e 00e7 4e31 0000 073f  ance......N1...?
+│ +00000030: 3082 073b 300c 060a 2b06 0104 012a 0211  0..;0...+....*..
+...
+│ +00001830: de42 6162 6560 7e72 2603 53ca 2e3b 8927  .Babe`~r&.S..;.'
+│ +00001840: 7c7b 4b43 e31d 7873 8d14 ec1a 6e         |{KC..xs....n
+├── nucleus/domains/domain1/init-info/domain-info.xml
+│ ├── nucleus/domains/domain1/init-info/domain-info.xml
+│ │ @@ -1,4 +1,4 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ -<domain-info xmlns="http://xmlns.oracle.com/cie/glassfish/domain-info" xmlns:ns2="http://xmlns.oracle.com/cie/glassfish/domain-template" javahome="/opt/tools/java/temurin/jdk-21/jdk-21.0.1+12" mwhome="/home/jenkins/agent/workspace/1_glassfish-build-and-stage/nucleus/distributions/atomic/target/stage">
+│ │ -  <domain-template-ref name="Basic Nucleus Domain" version="4.0.0.0" location="/home/jenkins/agent/workspace/1_glassfish-build-and-stage/nucleus/distributions/atomic/target/stage/nucleus/common/templates/gf/nucleus-domain.jar"/>
+│ │ +<domain-info xmlns="http://xmlns.oracle.com/cie/glassfish/domain-info" xmlns:ns2="http://xmlns.oracle.com/cie/glassfish/domain-template" javahome="/home/herve/.sdkman/candidates/java/21.0.1-open" mwhome="/home/herve/dev/maven/misc/reproducible-central/content/org/glassfish/main/buildcache/glassfish-parent/nucleus/distributions/atomic/target/stage">
+│ │ +  <domain-template-ref name="Basic Nucleus Domain" version="4.0.0.0" location="/home/herve/dev/maven/misc/reproducible-central/content/org/glassfish/main/buildcache/glassfish-parent/nucleus/distributions/atomic/target/stage/nucleus/common/templates/gf/nucleus-domain.jar"/>
+│ │  </domain-info>
+
+2 / 9 target/reference/org.glassfish.main.distributions/nucleus-new-7.0.13.zip nucleus/distributions/nucleus/target/nucleus-new.zip
+--- target/reference/org.glassfish.main.distributions/nucleus-new-7.0.13.zip
++++ nucleus/distributions/nucleus/target/nucleus-new.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 26758289 bytes, number of entries: 205
+│ +Zip file size: 26758299 bytes, number of entries: 205
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 17:50 nucleus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 17:50 nucleus/bin/
+│ @@ -57,27 +57,27 @@
+│  -rw-r--r--  2.0 unx    31524 b- defN 24-Feb-28 17:50 nucleus/docs/quickstart.html
+│  -rw-------  2.0 unx       80 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/admin-keyfile
+│ --rw-------  2.0 unx     2494 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/cacerts.jks
+│ +-rw-------  2.0 unx     2495 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/cacerts.jks
+│  -rw-------  2.0 unx     9529 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/default-logging.properties
+│  -rw-------  2.0 unx       32 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/domain-passwords
+│  -rw-------  2.0 unx    27481 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/domain.xml
+│  -rw-------  2.0 unx     2843 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/javaee.server.policy
+│  -rw-------  2.0 unx      748 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/keyfile
+│  -rw-------  2.0 unx     6221 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/keystore.jks
+│  -rw-------  2.0 unx     9529 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/logging.properties
+│  -rw-------  2.0 unx     1258 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/login.conf
+│  -rw-------  2.0 unx     1642 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/restrict.server.policy
+│  -rw-------  2.0 unx     5892 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/config/server.policy
+│  -rw-r--r--  2.0 unx     3668 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/docroot/index.html
+│ --rw-r--r--  2.0 unx      607 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/init-info/domain-info.xml
+│ +-rw-r--r--  2.0 unx      700 b- defN 24-Feb-28 17:50 nucleus/domains/domain1/init-info/domain-info.xml
+│  -rw-r--r--  2.0 unx      917 b- defN 24-Feb-28 17:50 nucleus/lib/appclient/appclientlogin.conf
+│  -rw-r--r--  2.0 unx     2692 b- defN 24-Feb-28 17:50 nucleus/lib/appclient/client.policy
+│ @@ -200,8 +200,8 @@
+│  -rw-r--r--  2.0 unx    34245 b- defN 24-Feb-28 17:50 nucleus/modules/ssl-impl.jar
+│  -rw-r--r--  2.0 unx   781804 b- defN 24-Feb-28 17:50 nucleus/osgi/felix/bin/felix.jar
+│ -205 files, 29861374 bytes uncompressed, 26728685 bytes compressed:  10.5%
+│ +205 files, 29861468 bytes uncompressed, 26728695 bytes compressed:  10.5%
+├── nucleus/domains/domain1/config/admin-keyfile
+│ @@ -1 +1 @@
+│ -admin;{SSHA256}N2/izACwnrKkqbtW35pbYQ/ttBtAQ/I2nfc5lZTAlCx5cPj/hn/vTQ==;asadmin
+│ +admin;{SSHA256}Lgbdbrqx//4cQAixCobltPz1arUeyxVGbiR3kwuavCLH2hEyZ92ASw==;asadmin
+...
+
+3 / 9 target/reference/org.glassfish.main.admingui/console-common-7.0.13.jar appserver/admingui/common/target/console-common.jar
+--- target/reference/org.glassfish.main.admingui/console-common-7.0.13.jar
++++ appserver/admingui/common/target/console-common.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 986702 bytes, number of entries: 605
+│ +Zip file size: 986657 bytes, number of entries: 605
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 17:50 META-INF/
+│  -rw-r--r--  2.0 unx     4071 b- defN 24-Feb-28 17:50 META-INF/MANIFEST.MF
+│ @@ -600,8 +600,8 @@
+│  -rw-r--r--  2.0 unx     4830 b- defN 24-Feb-28 17:50 META-INF/maven/org.glassfish.main.admingui/console-common/pom.xml
+│  -rw-r--r--  2.0 unx       77 b- defN 24-Feb-28 17:50 META-INF/maven/org.glassfish.main.admingui/console-common/pom.properties
+│ -605 files, 2652862 bytes uncompressed, 900514 bytes compressed:  66.1%
+│ +605 files, 2652862 bytes uncompressed, 900469 bytes compressed:  66.1%
+├── META-INF/jsftemplating/Handler.map
+│┄ Ordering differences only
+│ @@ -13,14 +13,245 @@
+│  getHelpIndex.class=org.glassfish.admingui.common.help.HelpHandlers
+│  getHelpIndex.method=getHelpIndex
+│  getHelpIndex.input[0].name=locale
+│  getHelpIndex.input[0].type=java.util.Locale
+│  getHelpIndex.output[0].name=index
+│  getHelpIndex.output[0].type=org.glassfish.admingui.connector.Index
+│  
+│ +# This method takes in a list of instances with status, which is the output of list-instances
+│ +#  and count the # of instance that is running and non running.
+│ +gf.getClusterStatusSummary.class=org.glassfish.admingui.common.handlers.ClusterHandler
+│ +gf.getClusterStatusSummary.method=getClusterStatusSummary
+...
+│ +gf.getLogicalJndiName.output[0].name=result
+│ +gf.getLogicalJndiName.output[0].type=java.util.List
+│ +
+│  #  This handler creates a Map<String, String> which contains the
+│  #  QUERY_STRING parameters that should be passed to the REST logging
+│  #  endpoint to make a query with the given constraints.
+│  gf.getLogQueryAttributes.class=org.glassfish.admingui.common.handlers.LogViewHandlers
+│  gf.getLogQueryAttributes.method=getLogQueryAttributes
+│  gf.getLogQueryAttributes.input[0].name=InstanceName
+│  gf.getLogQueryAttributes.input[0].type=java.lang.String
+│ @@ -130,69 +361,484 @@
+│  getFormattedDateTime.input[1].name=AddHour
+│  getFormattedDateTime.input[1].type=java.lang.Boolean
+│  getFormattedDateTime.output[0].name=Time
+│  getFormattedDateTime.output[0].type=java.lang.String
+│  getFormattedDateTime.output[1].name=Date
+│  getFormattedDateTime.output[1].type=java.lang.String
+│  
+│ -#  This handler should be used whenever you want to add a Tag to a
+│ -#      page.  If the exact same Tag is added twice, it will be
+│ -#      ignored.  If "user" is not specified the current principal user
+│ -#      will be used for this value.
+│ -gf.addTag.class=org.glassfish.admingui.common.handlers.PreferencesHandler
+│ -gf.addTag.method=saveTagInformation
+...
+│ -gf.addTag.input[3].name=user
+│ -gf.addTag.input[3].type=java.lang.String
+│ +deploy.class=org.glassfish.admingui.common.handlers.DeploymentHandler
+│ +deploy.method=deploy
+...
+│ +deploy.input[5].name=propertyList
+│ +deploy.input[5].type=java.util.List
+...
+
+4 / 9 target/reference/org.glassfish.main.admingui/console-core-7.0.13.jar appserver/admingui/core/target/console-core.jar
+--- target/reference/org.glassfish.main.admingui/console-core-7.0.13.jar
++++ appserver/admingui/core/target/console-core.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 166637 bytes, number of entries: 74
+│ +Zip file size: 166633 bytes, number of entries: 74
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 17:50 META-INF/
+│  -rw-r--r--  2.0 unx     1586 b- defN 24-Feb-28 17:50 META-INF/MANIFEST.MF
+│ @@ -69,8 +69,8 @@
+│  -rw-r--r--  2.0 unx     2470 b- defN 24-Feb-28 17:50 META-INF/maven/org.glassfish.main.admingui/console-core/pom.xml
+│  -rw-r--r--  2.0 unx       75 b- defN 24-Feb-28 17:50 META-INF/maven/org.glassfish.main.admingui/console-core/pom.properties
+│ -74 files, 523689 bytes uncompressed, 157421 bytes compressed:  69.9%
+│ +74 files, 523689 bytes uncompressed, 157417 bytes compressed:  69.9%
+├── META-INF/jsftemplating/Handler.map
+│┄ Ordering differences only
+│ @@ -1,177 +1,8 @@
+...
+
+5 / 9 target/reference/org.glassfish.main.admingui/war-7.0.13.war appserver/admingui/war/target/admingui.war
+--- target/reference/org.glassfish.main.admingui/war-7.0.13.war
++++ appserver/admingui/war/target/admingui.war
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 4020087 bytes, number of entries: 47
+│ +Zip file size: 4020082 bytes, number of entries: 47
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 17:50 META-INF/
+│  -rw-r--r--  2.0 unx      727 b- defN 24-Feb-28 17:50 META-INF/MANIFEST.MF
+│ @@ -20,15 +20,15 @@
+│  -rw-r--r--  2.0 unx     5690 b- defN 24-Feb-28 17:50 WEB-INF/faces-config.xml
+│  -rw-r--r--  2.0 unx        0 b- defN 24-Feb-28 17:50 WEB-INF/lib/.gitkeep_empty_dir
+│ --rw-r--r--  2.0 unx   166637 b- defN 24-Feb-28 17:50 WEB-INF/lib/console-core-7.0.13.jar
+│ +-rw-r--r--  2.0 unx   166633 b- defN 24-Feb-28 17:50 WEB-INF/lib/console-core-7.0.13.jar
+│  -rw-r--r--  2.0 unx     1842 b- defN 24-Feb-28 17:50 WEB-INF/sun-web.xml
+│  -rw-r--r--  2.0 unx     7638 b- defN 24-Feb-28 17:50 WEB-INF/web.xml
+│ @@ -42,8 +42,8 @@
+│  -rw-r--r--  2.0 unx     6381 b- defN 24-Feb-28 17:50 META-INF/maven/org.glassfish.main.admingui/war/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 24-Feb-28 17:50 META-INF/maven/org.glassfish.main.admingui/war/pom.properties
+│ -47 files, 4562322 bytes uncompressed, 4013721 bytes compressed:  12.0%
+│ +47 files, 4562318 bytes uncompressed, 4013716 bytes compressed:  12.0%
+...
+see previous
+...
+
+6 / 9 target/reference/org.glassfish.main.distributions/glassfish-7.0.13.zip appserver/distributions/glassfish/target/glassfish.zip
+--- target/reference/org.glassfish.main.distributions/glassfish-7.0.13.zip
++++ appserver/distributions/glassfish/target/glassfish.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 120746812 bytes, number of entries: 1579
+│ +Zip file size: 120746762 bytes, number of entries: 1579
+│  drwxr-sr-x  2.0 unx        0 b- stor 24-Feb-28 17:50 glassfish7/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 17:50 glassfish7/META-INF/
+│ @@ -206,26 +206,26 @@
+│  -rw-------  2.0 unx       32 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/domain-passwords
+│  -rw-------  2.0 unx    33855 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/domain.xml
+│ --rw-------  2.0 unx     2529 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/glassfish-acc.xml
+│ +-rw-------  2.0 unx     2524 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/glassfish-acc.xml
+│  -rw-------  2.0 unx     2843 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/javaee.server.policy
+│  -rw-------  2.0 unx      748 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/keyfile
+│ --rw-------  2.0 unx     6218 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/keystore.jks
+│ +-rw-------  2.0 unx     6222 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/keystore.jks
+│  -rw-------  2.0 unx     9529 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/logging.properties
+│  -rw-------  2.0 unx     1258 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/login.conf
+│  -rw-------  2.0 unx     1642 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/restrict.server.policy
+│  -rw-------  2.0 unx     5892 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/server.policy
+│  -rw-------  2.0 unx     5233 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/wss-server-config-1.0.xml
+│  -rw-------  2.0 unx     5737 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/wss-server-config-2.0.xml
+│  -rw-r--r--  2.0 unx     3668 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/docroot/index.html
+│ --rw-r--r--  2.0 unx      650 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/init-info/domain-info.xml
+│ +-rw-r--r--  2.0 unx      743 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/init-info/domain-info.xml
+│  -rw-r-----  2.0 unx    35084 b- defN 24-Feb-28 17:50 glassfish7/glassfish/legal/LICENSE.txt
+│  -rw-r-----  2.0 unx      917 b- defN 24-Feb-28 17:50 glassfish7/glassfish/lib/appclient/appclientlogin.conf
+│ @@ -308,15 +308,15 @@
+│  -rw-r-----  2.0 unx     5690 b- defN 24-Feb-28 17:50 glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/faces-config.xml
+│  -rw-r-----  2.0 unx        0 b- defN 24-Feb-28 17:50 glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/lib/.gitkeep_empty_dir
+│ --rw-r-----  2.0 unx   166637 b- defN 24-Feb-28 17:50 glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/lib/console-core-7.0.13.jar
+│ +-rw-r-----  2.0 unx   166633 b- defN 24-Feb-28 17:50 glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/lib/console-core-7.0.13.jar
+│  -rw-r-----  2.0 unx     1842 b- defN 24-Feb-28 17:50 glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/sun-web.xml
+│  -rw-r-----  2.0 unx     7638 b- defN 24-Feb-28 17:50 glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/web.xml
+│ @@ -588,15 +588,15 @@
+│  -rw-r-----  2.0 unx   271219 b- defN 24-Feb-28 17:50 glassfish7/glassfish/modules/console-cluster-plugin.jar
+│  -rw-r-----  2.0 unx   129214 b- defN 24-Feb-28 17:50 glassfish7/glassfish/modules/console-common-full-plugin.jar
+│ --rw-r-----  2.0 unx   986702 b- defN 24-Feb-28 17:50 glassfish7/glassfish/modules/console-common.jar
+│ +-rw-r-----  2.0 unx   986657 b- defN 24-Feb-28 17:50 glassfish7/glassfish/modules/console-common.jar
+│  -rw-r-----  2.0 unx    60825 b- defN 24-Feb-28 17:50 glassfish7/glassfish/modules/console-community-branding-plugin.jar
+│  -rw-r-----  2.0 unx    98629 b- defN 24-Feb-28 17:50 glassfish7/glassfish/modules/console-concurrent-plugin.jar
+│ @@ -1574,8 +1574,8 @@
+│  -rw-r-----  2.0 unx     1015 b- defN 24-Feb-28 17:50 glassfish7/mq/lib/props/broker/install.properties
+│  -rw-r-----  2.0 unx  2057243 b- defN 24-Feb-28 17:50 glassfish7/mq/lib/tyrus-standalone-client.jar
+│ -1579 files, 140317415 bytes uncompressed, 120450304 bytes compressed:  14.2%
+│ +1579 files, 140317458 bytes uncompressed, 120450254 bytes compressed:  14.2%
+├── glassfish7/glassfish/domains/domain1/config/admin-keyfile
+│ @@ -1 +1 @@
+│ -admin;{SSHA256}Uhm5drL+VW7jO0dPaty+VHFcv31tBHPSIA4rU/5LlUUhygdxozf7cQ==;asadmin
+│ +admin;{SSHA256}5pdKg8qim7f0XgYy3PucC8jibfJP0uLECf098AKr0J/7bBogmcwPAg==;asadmin
+├── glassfish7/glassfish/domains/domain1/config/cacerts.jks
+│ @@ -1,156 +1,156 @@
+...
+├── glassfish7/glassfish/domains/domain1/config/domain.xml
+│ ├── glassfish7/glassfish/domains/domain1/config/domain.xml
+│ │ @@ -471,12 +471,12 @@
+│ │      </config>
+│ │    </configs>
+│ │    <property name="administrative.domain.name" value="domain1"/>
+│ │ -  <secure-admin special-admin-indicator="b34cf61e-590a-4675-8839-8a9cb30e35ae">
+│ │ +  <secure-admin special-admin-indicator="d3c15ffc-4324-4178-b804-3792b354c996">
+│ │      <secure-admin-principal dn="CN=localhost,OU=GlassFish,O=Eclipse.org Foundation Inc,L=Ottawa,ST=Ontario,C=CA"/>
+│ │      <secure-admin-principal dn="CN=localhost-instance,OU=GlassFish,O=Eclipse.org Foundation Inc,L=Ottawa,ST=Ontario,C=CA"/>
+│ │    </secure-admin>
+│ │  </domain>
+├── glassfish7/glassfish/domains/domain1/config/glassfish-acc.xml
+│ ├── glassfish7/glassfish/domains/domain1/config/glassfish-acc.xml
+│ │ @@ -22,15 +22,15 @@
+│ │  <!DOCTYPE client-container
+│ │    PUBLIC '-//GlassFish.org//DTD GlassFish Application Server 3.1 Application Client Container//EN'
+│ │    'http://glassfish.org/dtds/glassfish-application-client-container_1_3.dtd'>
+│ │  <client-container>
+│ │ -  <target-server name="basic-z196z" address="localhost" port="3700"/>
+│ │ +  <target-server name="orchid" address="localhost" port="3700"/>
+│ │    <log-service file="" level="WARNING"/>
+│ │    <message-security-config auth-layer="SOAP">
+│ │      <!-- turned off by default -->
+│ │      <provider-config class-name="com.sun.xml.wss.provider.ClientSecurityAuthModule" provider-id="XWS_ClientProvider" provider-type="client">
+├── glassfish7/glassfish/domains/domain1/config/keystore.jks
+│ @@ -1,389 +1,389 @@
+...
+├── glassfish7/glassfish/domains/domain1/init-info/domain-info.xml
+│ ├── glassfish7/glassfish/domains/domain1/init-info/domain-info.xml
+│ │ @@ -1,4 +1,4 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ -<domain-info xmlns="http://xmlns.oracle.com/cie/glassfish/domain-info" xmlns:ns2="http://xmlns.oracle.com/cie/glassfish/domain-template" javahome="/opt/tools/java/temurin/jdk-21/jdk-21.0.1+12" mwhome="/home/jenkins/agent/workspace/1_glassfish-build-and-stage/appserver/distributions/glassfish/target/stage/glassfish7">
+│ │ -  <domain-template-ref name="Basic GlassFish Server Domain" version="4.0.0.0" location="/home/jenkins/agent/workspace/1_glassfish-build-and-stage/appserver/distributions/glassfish/target/stage/glassfish7/glassfish/common/templates/gf/appserver-domain.jar"/>
+│ │ +<domain-info xmlns="http://xmlns.oracle.com/cie/glassfish/domain-info" xmlns:ns2="http://xmlns.oracle.com/cie/glassfish/domain-template" javahome="/home/herve/.sdkman/candidates/java/21.0.1-open" mwhome="/home/herve/dev/maven/misc/reproducible-central/content/org/glassfish/main/buildcache/glassfish-parent/appserver/distributions/glassfish/target/stage/glassfish7">
+│ │ +  <domain-template-ref name="Basic GlassFish Server Domain" version="4.0.0.0" location="/home/herve/dev/maven/misc/reproducible-central/content/org/glassfish/main/buildcache/glassfish-parent/appserver/distributions/glassfish/target/stage/glassfish7/glassfish/common/templates/gf/appserver-domain.jar"/>
+│ │  </domain-info>
+├── glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/lib/console-core-7.0.13.jar
+...
+see previous
+...
+├── glassfish7/glassfish/modules/microprofile-rest-client-api.jar
+│ ├── zipinfo {}
+│ │ @@ -1,44 +1,44 @@
+│ │  Zip file size: 26464 bytes, number of entries: 42
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 17:44 META-INF/
+│ │ --rw-r--r--  2.0 unx     2377 b- defN 24-Feb-28 17:44 META-INF/MANIFEST.MF
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-03 01:21 META-INF/
+│ │ +-rw-r--r--  2.0 unx     2377 b- defN 23-Nov-03 01:21 META-INF/MANIFEST.MF
+│ │  -rw-r--r--  2.0 unx    11357 b- defN 22-Oct-03 11:18 META-INF/LICENSE
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 18:12 META-INF/maven/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 18:12 META-INF/maven/org.eclipse.microprofile.rest.client/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 18:12 META-INF/maven/org.eclipse.microprofile.rest.client/microprofile-rest-client-api/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 21:43 META-INF/maven/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 21:43 META-INF/maven/org.eclipse.microprofile.rest.client/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 21:43 META-INF/maven/org.eclipse.microprofile.rest.client/microprofile-rest-client-api/
+│ │  -rw-r--r--  2.0 unx       99 b- defN 22-Oct-03 11:18 META-INF/maven/org.eclipse.microprofile.rest.client/microprofile-rest-client-api/pom.properties
+│ │  -rw-r--r--  2.0 unx     2607 b- defN 22-Oct-03 11:18 META-INF/maven/org.eclipse.microprofile.rest.client/microprofile-rest-client-api/pom.xml
+│ │  -rw-r--r--  2.0 unx      773 b- defN 22-Oct-03 11:18 META-INF/placeholder.txt
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 18:12 org/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 18:12 org/eclipse/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 18:12 org/eclipse/microprofile/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 18:12 org/eclipse/microprofile/rest/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 18:12 org/eclipse/microprofile/rest/client/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 21:43 org/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 21:43 org/eclipse/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 21:43 org/eclipse/microprofile/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 21:43 org/eclipse/microprofile/rest/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 21:43 org/eclipse/microprofile/rest/client/
+│ │  -rw-r--r--  2.0 unx     4061 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/RestClientBuilder.class
+│ │  -rw-r--r--  2.0 unx      905 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/RestClientDefinitionException.class
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 18:12 org/eclipse/microprofile/rest/client/annotation/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 21:43 org/eclipse/microprofile/rest/client/annotation/
+│ │  -rw-r--r--  2.0 unx      732 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/annotation/ClientHeaderParam.class
+│ │  -rw-r--r--  2.0 unx      570 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/annotation/ClientHeaderParams.class
+│ │  -rw-r--r--  2.0 unx      725 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/annotation/RegisterClientHeaders.class
+│ │  -rw-r--r--  2.0 unx      720 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/annotation/RegisterProvider.class
+│ │  -rw-r--r--  2.0 unx      553 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/annotation/RegisterProviders.class
+│ │  -rw-r--r--  2.0 unx      311 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/annotation/package-info.class
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 18:12 org/eclipse/microprofile/rest/client/ext/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 21:43 org/eclipse/microprofile/rest/client/ext/
+│ │  -rw-r--r--  2.0 unx      252 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/ext/AsyncInvocationInterceptor.class
+│ │  -rw-r--r--  2.0 unx      287 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/ext/AsyncInvocationInterceptorFactory.class
+│ │  -rw-r--r--  2.0 unx      533 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/ext/ClientHeadersFactory.class
+│ │  -rw-r--r--  2.0 unx     4726 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/ext/DefaultClientHeadersFactoryImpl.class
+│ │  -rw-r--r--  2.0 unx     1233 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/ext/QueryParamStyle.class
+│ │  -rw-r--r--  2.0 unx     2277 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/ext/ResponseExceptionMapper.class
+│ │  -rw-r--r--  2.0 unx      302 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/ext/package-info.class
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 18:12 org/eclipse/microprofile/rest/client/inject/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 21:43 org/eclipse/microprofile/rest/client/inject/
+│ │  -rw-r--r--  2.0 unx      663 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/inject/RegisterRestClient.class
+│ │  -rw-r--r--  2.0 unx      697 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/inject/RestClient$RestClientLiteral.class
+│ │  -rw-r--r--  2.0 unx      858 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/inject/RestClient.class
+│ │  -rw-r--r--  2.0 unx      305 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/inject/package-info.class
+│ │  -rw-r--r--  2.0 unx      298 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/package-info.class
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 18:12 org/eclipse/microprofile/rest/client/spi/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 21:43 org/eclipse/microprofile/rest/client/spi/
+│ │  -rw-r--r--  2.0 unx      257 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/spi/RestClientBuilderListener.class
+│ │  -rw-r--r--  2.0 unx     3547 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/spi/RestClientBuilderResolver.class
+│ │  -rw-r--r--  2.0 unx      361 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/spi/RestClientListener.class
+│ │  -rw-r--r--  2.0 unx      252 b- defN 22-Oct-03 11:18 org/eclipse/microprofile/rest/client/spi/package-info.class
+│ │  42 files, 42638 bytes uncompressed, 18032 bytes compressed:  57.7%
+├── glassfish7/glassfish/modules/tyrus-client.jar
+...
+same timestamp issues
+...
+
+7 / 9 target/reference/org.glassfish.main.extras/installroot-builder-7.0.13.jar appserver/extras/embedded/common/installroot-builder/target/installroot-builder.jar
+--- target/reference/org.glassfish.main.extras/installroot-builder-7.0.13.jar
++++ appserver/extras/embedded/common/installroot-builder/target/installroot-builder.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 16025619 bytes, number of entries: 373
+│ +Zip file size: 16025614 bytes, number of entries: 373
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 17:50 META-INF/
+│  -rw-r--r--  2.0 unx       81 b- defN 24-Feb-28 17:50 META-INF/MANIFEST.MF
+│ @@ -140,15 +140,15 @@
+│  -rw-r--r--  2.0 unx     5690 b- defN 24-Feb-28 17:50 glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/faces-config.xml
+│  -rw-r--r--  2.0 unx        0 b- defN 24-Feb-28 17:50 glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/lib/.gitkeep_empty_dir
+│ --rw-r--r--  2.0 unx   166637 b- defN 24-Feb-28 17:50 glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/lib/console-core-7.0.13.jar
+│ +-rw-r--r--  2.0 unx   166633 b- defN 24-Feb-28 17:50 glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/lib/console-core-7.0.13.jar
+│  -rw-r--r--  2.0 unx     1842 b- defN 24-Feb-28 17:50 glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/sun-web.xml
+│  -rw-r--r--  2.0 unx     7638 b- defN 24-Feb-28 17:50 glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/web.xml
+│ @@ -368,8 +368,8 @@
+│  -rw-r--r--  2.0 unx     3632 b- defN 24-Feb-28 17:50 META-INF/maven/org.glassfish.main.extras/installroot-builder/pom.xml
+│  -rw-r--r--  2.0 unx       80 b- defN 24-Feb-28 17:50 META-INF/maven/org.glassfish.main.extras/installroot-builder/pom.properties
+│ -373 files, 21672436 bytes uncompressed, 15952157 bytes compressed:  26.4%
+│ +373 files, 21672432 bytes uncompressed, 15952152 bytes compressed:  26.4%
+├── glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/lib/console-core-7.0.13.jar
+...
+
+9 / 9 target/reference/org.glassfish.main.distributions/web-7.0.13.zip appserver/distributions/web/target/web.zip
+--- target/reference/org.glassfish.main.distributions/web-7.0.13.zip
++++ appserver/distributions/web/target/web.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 73891402 bytes, number of entries: 692
+│ +Zip file size: 73891343 bytes, number of entries: 692
+│  drwxr-sr-x  2.0 unx        0 b- stor 24-Feb-28 17:50 glassfish7/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-28 17:50 glassfish7/META-INF/
+│ @@ -102,31 +102,31 @@
+│  -rw-r-----  2.0 unx    31524 b- defN 24-Feb-28 17:50 glassfish7/glassfish/docs/quickstart.html
+│  -rw-------  2.0 unx       80 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/admin-keyfile
+│ --rw-------  2.0 unx     2495 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/cacerts.jks
+│ +-rw-------  2.0 unx     2494 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/cacerts.jks
+│  -rw-------  2.0 unx     9529 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/default-logging.properties
+│  -rw-------  2.0 unx    49341 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/default-web.xml
+│  -rw-------  2.0 unx       32 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/domain-passwords
+│  -rw-------  2.0 unx    33568 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/domain.xml
+│ --rw-------  2.0 unx     2529 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/glassfish-acc.xml
+│ +-rw-------  2.0 unx     2524 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/glassfish-acc.xml
+│  -rw-------  2.0 unx     2843 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/javaee.server.policy
+│  -rw-------  2.0 unx      748 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/keyfile
+│ --rw-------  2.0 unx     6221 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/keystore.jks
+│ +-rw-------  2.0 unx     6220 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/keystore.jks
+│  -rw-------  2.0 unx     9529 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/logging.properties
+│  -rw-------  2.0 unx     1258 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/login.conf
+│  -rw-------  2.0 unx     1642 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/restrict.server.policy
+│  -rw-------  2.0 unx     5892 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/server.policy
+│  -rw-------  2.0 unx     5233 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/wss-server-config-1.0.xml
+│  -rw-------  2.0 unx     5737 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/config/wss-server-config-2.0.xml
+│  -rw-r--r--  2.0 unx     3668 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/docroot/index.html
+│ --rw-r--r--  2.0 unx      638 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/init-info/domain-info.xml
+│ +-rw-r--r--  2.0 unx      731 b- defN 24-Feb-28 17:50 glassfish7/glassfish/domains/domain1/init-info/domain-info.xml
+│  -rw-r-----  2.0 unx    35084 b- defN 24-Feb-28 17:50 glassfish7/glassfish/legal/LICENSE.txt
+│  -rw-r-----  2.0 unx      917 b- defN 24-Feb-28 17:50 glassfish7/glassfish/lib/appclient/appclientlogin.conf
+│ @@ -207,15 +207,15 @@
+│  -rw-r-----  2.0 unx     5690 b- defN 24-Feb-28 17:50 glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/faces-config.xml
+│  -rw-r-----  2.0 unx        0 b- defN 24-Feb-28 17:50 glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/lib/.gitkeep_empty_dir
+│ --rw-r-----  2.0 unx   166637 b- defN 24-Feb-28 17:50 glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/lib/console-core-7.0.13.jar
+│ +-rw-r-----  2.0 unx   166633 b- defN 24-Feb-28 17:50 glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/lib/console-core-7.0.13.jar
+│  -rw-r-----  2.0 unx     1842 b- defN 24-Feb-28 17:50 glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/sun-web.xml
+│  -rw-r-----  2.0 unx     7638 b- defN 24-Feb-28 17:50 glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/web.xml
+│ @@ -425,15 +425,15 @@
+│  -rw-r-----  2.0 unx   541071 b- defN 24-Feb-28 17:50 glassfish7/glassfish/modules/connectors-runtime.jar
+│  -rw-r-----  2.0 unx   271219 b- defN 24-Feb-28 17:50 glassfish7/glassfish/modules/console-cluster-plugin.jar
+│ --rw-r-----  2.0 unx   986702 b- defN 24-Feb-28 17:50 glassfish7/glassfish/modules/console-common.jar
+│ +-rw-r-----  2.0 unx   986657 b- defN 24-Feb-28 17:50 glassfish7/glassfish/modules/console-common.jar
+│  -rw-r-----  2.0 unx    60825 b- defN 24-Feb-28 17:50 glassfish7/glassfish/modules/console-community-branding-plugin.jar
+│  -rw-r-----  2.0 unx    42327 b- defN 24-Feb-28 17:50 glassfish7/glassfish/modules/console-ejb-lite-plugin.jar
+│ @@ -687,8 +687,8 @@
+│  -rw-r-----  2.0 unx    93688 b- defN 24-Feb-28 17:50 glassfish7/javadb/lib/derbyshared.jar
+│  -rw-r-----  2.0 unx   264445 b- defN 24-Feb-28 17:50 glassfish7/javadb/lib/derbytools.jar
+│ -692 files, 85651940 bytes uncompressed, 73765636 bytes compressed:  13.9%
+│ +692 files, 85651977 bytes uncompressed, 73765577 bytes compressed:  13.9%
+├── glassfish7/glassfish/domains/domain1/config/admin-keyfile
+│ @@ -1 +1 @@
+│ -admin;{SSHA256}9Lud7fQTfhXz9T9nwK/pTYElyxTn9fwVKyyXQ4ZIchKbCkDzrme4lQ==;asadmin
+│ +admin;{SSHA256}lpBSKaSaUETFIeOVrE04yLOulgBIrlmqFNSMHe6q/XStZ1ZxB4vQFg==;asadmin
+├── glassfish7/glassfish/domains/domain1/config/cacerts.jks
+│ @@ -1,156 +1,156 @@
+...
+├── glassfish7/glassfish/domains/domain1/config/domain.xml
+│ ├── glassfish7/glassfish/domains/domain1/config/domain.xml
+│ │ @@ -469,12 +469,12 @@
+│ │        <system-property name="JAVA_DEBUGGER_PORT" value="29009"/>
+│ │      </config>
+│ │    </configs>
+│ │    <property name="administrative.domain.name" value="domain1"/>
+│ │ -  <secure-admin special-admin-indicator="b75cc26b-7120-4e5a-a5bf-32f637110d36">
+│ │ +  <secure-admin special-admin-indicator="53134715-1124-4406-a408-eb207833bbd0">
+│ │      <secure-admin-principal dn="CN=localhost,OU=GlassFish,O=Eclipse.org Foundation Inc,L=Ottawa,ST=Ontario,C=CA"/>
+│ │      <secure-admin-principal dn="CN=localhost-instance,OU=GlassFish,O=Eclipse.org Foundation Inc,L=Ottawa,ST=Ontario,C=CA"/>
+│ │    </secure-admin>
+│ │  </domain>
+├── glassfish7/glassfish/domains/domain1/config/glassfish-acc.xml
+│ ├── glassfish7/glassfish/domains/domain1/config/glassfish-acc.xml
+│ │  <!DOCTYPE client-container
+│ │    PUBLIC '-//GlassFish.org//DTD GlassFish Application Server 3.1 Application Client Container//EN'
+│ │    'http://glassfish.org/dtds/glassfish-application-client-container_1_3.dtd'>
+│ │  <client-container>
+│ │ -  <target-server name="basic-z196z" address="localhost" port="3700"/>
+│ │ +  <target-server name="orchid" address="localhost" port="3700"/>
+│ │    <log-service file="" level="WARNING"/>
+│ │    <message-security-config auth-layer="SOAP">
+│ │      <!-- turned off by default -->
+│ │      <provider-config class-name="com.sun.xml.wss.provider.ClientSecurityAuthModule" provider-id="XWS_ClientProvider" provider-type="client">
+├── glassfish7/glassfish/domains/domain1/config/keystore.jks
+│ @@ -1,389 +1,389 @@
+...
+├── glassfish7/glassfish/domains/domain1/init-info/domain-info.xml
+│ ├── glassfish7/glassfish/domains/domain1/init-info/domain-info.xml
+│ │ @@ -1,4 +1,4 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ -<domain-info xmlns="http://xmlns.oracle.com/cie/glassfish/domain-info" xmlns:ns2="http://xmlns.oracle.com/cie/glassfish/domain-template" javahome="/opt/tools/java/temurin/jdk-21/jdk-21.0.1+12" mwhome="/home/jenkins/agent/workspace/1_glassfish-build-and-stage/appserver/distributions/web/target/stage/glassfish7">
+│ │ -  <domain-template-ref name="Basic GlassFish Server Domain" version="4.0.0.0" location="/home/jenkins/agent/workspace/1_glassfish-build-and-stage/appserver/distributions/web/target/stage/glassfish7/glassfish/common/templates/gf/appserver-domain.jar"/>
+│ │ +<domain-info xmlns="http://xmlns.oracle.com/cie/glassfish/domain-info" xmlns:ns2="http://xmlns.oracle.com/cie/glassfish/domain-template" javahome="/home/herve/.sdkman/candidates/java/21.0.1-open" mwhome="/home/herve/dev/maven/misc/reproducible-central/content/org/glassfish/main/buildcache/glassfish-parent/appserver/distributions/web/target/stage/glassfish7">
+│ │ +  <domain-template-ref name="Basic GlassFish Server Domain" version="4.0.0.0" location="/home/herve/dev/maven/misc/reproducible-central/content/org/glassfish/main/buildcache/glassfish-parent/appserver/distributions/web/target/stage/glassfish7/glassfish/common/templates/gf/appserver-domain.jar"/>
+│ │  </domain-info>
+├── glassfish7/glassfish/lib/install/applications/__admingui/WEB-INF/lib/console-core-7.0.13.jar
+...
+├── glassfish7/glassfish/modules/jersey-hk2.jar
+...
+├── glassfish7/glassfish/modules/tyrus-client.jar
+...
