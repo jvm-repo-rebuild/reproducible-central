@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Filtering
+group-id=org.apache.maven.shared
+artifact-id=maven-filtering
+version=3.3.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-filtering.git
+source.scm.tag=maven-filtering-3.3.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.maven.shared
+outputs.0.filename=maven-filtering-3.3.2.pom
+outputs.0.length=31048
+outputs.0.checksums.sha512=c36d40920fb2c2b7ec7ec2881b8b9faa4dbd9578666c9ff449b4d52fa03491a421c83fe83f81a295d01fe26e4d8eef8c6d079de0be87f709b24c799a69585c75
+
+outputs.1.groupId=org.apache.maven.shared
+outputs.1.filename=maven-filtering-3.3.2.jar
+outputs.1.length=56257
+outputs.1.checksums.sha512=864ab0bcd60d23360f6655c03aab083d4fecf26f5e8c242bd62b969b10a7215bbb786e6c6954092a47d49a3941eee692ed3f9ecd84110d811b29c768abcfad32
+
+outputs.2.groupId=org.apache.maven.shared
+outputs.2.filename=maven-filtering-3.3.2-source-release.zip
+outputs.2.length=170969
+outputs.2.checksums.sha512=62f191b3b306a0fe7a896044d115d926f0694b2a355beae838eb38b69a5052c29c8a318c96dd3d22c844bbf4b50dd528adb1327ae3999ba6f4d81723e303ed02
+
+outputs.3.groupId=org.apache.maven.shared
+outputs.3.filename=maven-filtering-3.3.2-sources.jar
+outputs.3.length=51805
+outputs.3.checksums.sha512=34956a6228aec60192a6d2109ad0df5eb90dca34808b13f76a172cc7fbd42afcedbfd10329bbed1bb4d0ba7136c57212e605fa59b0de3d867c77550481607d23
+
+outputs.4.groupId=org.apache.maven.shared
+outputs.4.filename=maven-filtering-3.3.2-cyclonedx.xml
+outputs.4.length=98043
+outputs.4.checksums.sha512=480bcb94a003af3996d41ba395efb82cd3e1c5479081ad260b736f92e14955c4c71ff4d8593fbf3f5884a78932f55f95c66558e4e21bf3c5ddf19fb65561382c
+
+outputs.5.groupId=org.apache.maven.shared
+outputs.5.filename=maven-filtering-3.3.2-cyclonedx.json
+outputs.5.length=114051
+outputs.5.checksums.sha512=47e159a441a64be5dec86eb0930cbc23561bfa009953481478bfd72010ab5ccf56e3dbf0151f3f0ed7541c6169a0fe7ce56f902f31a77b3890337cc554f373f5
