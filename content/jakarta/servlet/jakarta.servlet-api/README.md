@@ -13,7 +13,7 @@ rebuilding **2 releases** of jakarta.servlet:jakarta.servlet-api:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [6.1.0-M2](https://central.sonatype.com/artifact/jakarta.servlet/jakarta.servlet-api/6.1.0-M2/pom) | [mvn jdk11.0.2](jakarta.servlet-api-6.1.0-M2.buildspec) | [result](jakarta.servlet-api-6.1.0-M2.buildinfo): [4 :white_check_mark:  1 :warning:](jakarta.servlet-api-6.1.0-M2.buildcompare) [:mag:](jakarta.servlet-api-6.1.0-M2.diffoscope) | 817K |
+| [6.1.0-M2](https://central.sonatype.com/artifact/jakarta.servlet/jakarta.servlet-api/6.1.0-M2/pom) | [mvn jdk11.0.2](jakarta.servlet-api-6.1.0-M2.buildspec) | [result](jakarta.servlet-api-6.1.0-M2.buildinfo): [4 :white_check_mark:  1 :warning:](jakarta.servlet-api-6.1.0-M2.buildcompare) [:mag:](jakarta.servlet-api-6.1.0-M2.diffoscope) [:memo:](https://github.com/jakartaee/servlet/issues/578) | 817K |
 | [6.1.0-M1](https://central.sonatype.com/artifact/jakarta.servlet/jakarta.servlet-api/6.1.0-M1/pom) | [mvn jdk11.0.2](jakarta.servlet-api-6.1.0-M1.buildspec) | [result](jakarta.servlet-api-6.1.0-M1.buildinfo): [4 :white_check_mark:  1 :warning:](jakarta.servlet-api-6.1.0-M1.buildcompare) | 816K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
