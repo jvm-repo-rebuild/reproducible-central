@@ -163,7 +163,7 @@ do
         row+=" | $(grep length= ${dir}/${_buildinfo} | cut -d = -f 2 | paste -sd+ - | bc | numfmt --to=iec) |"
         echo "$row" >> tmp/${projectReadme}
       else
-        echo ":x: | |" >> tmp/${projectReadme}
+        echo "$row:x: | |" >> tmp/${projectReadme}
       fi
     else
       # no buildspec, just list version to tmp
