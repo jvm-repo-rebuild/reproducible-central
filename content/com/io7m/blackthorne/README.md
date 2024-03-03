@@ -29,9 +29,9 @@ rebuilding **11 releases** of com.io7m.blackthorne:com.io7m.blackthorne:
 | [1.2.1](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/1.2.1/pom) | [mvn jdk14.0.2](com.io7m.blackthorne-1.2.1.buildspec) | [result](com.io7m.blackthorne-1.2.1.buildinfo): [14 :white_check_mark: ](com.io7m.blackthorne-1.2.1.buildcompare) | 153K |
 | [1.2.0](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/1.2.0/pom) | [mvn jdk14.0.2](com.io7m.blackthorne-1.2.0.buildspec) | [result](com.io7m.blackthorne-1.2.0.buildinfo): [14 :white_check_mark: ](com.io7m.blackthorne-1.2.0.buildcompare) | 152K |
 | [1.1.0](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/1.1.0/pom) | [mvn jdk14.0.2](com.io7m.blackthorne-1.1.0.buildspec) | [result](com.io7m.blackthorne-1.1.0.buildinfo): [14 :white_check_mark: ](com.io7m.blackthorne-1.1.0.buildcompare) | 150K |
-:x: | |
-:x: | |
-:x: | |
-:x: | |
+| [1.0.0](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/1.0.0/pom) | [mvn jdk14.0.2](com.io7m.blackthorne-1.0.0.buildspec) | :x: | |
+| [0.0.5](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/0.0.5/pom) | [mvn jdk11.0.5](com.io7m.blackthorne-0.0.5.buildspec) | :x: | |
+| [0.0.4](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/0.0.4/pom) | [mvn jdk11.0.5](com.io7m.blackthorne-0.0.4.buildspec) | :x: | |
+| [0.0.3](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/0.0.3/pom) | [mvn jdk11](com.io7m.blackthorne-0.0.3.buildspec) | :x: | |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -29,6 +29,6 @@ rebuilding **8 releases** of com.io7m.jbssio:com.io7m.jbssio:
 | [1.0.1](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio/1.0.1/pom) | [mvn jdk14.0.2](com.io7m.jbssio-1.0.1.buildspec) | [result](com.io7m.jbssio-1.0.1.buildinfo): [14 :white_check_mark: ](com.io7m.jbssio-1.0.1.buildcompare) | 228K |
 | [1.0.0](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio/1.0.0/pom) | [mvn jdk14.0.2](com.io7m.jbssio-1.0.0.buildspec) | [result](com.io7m.jbssio-1.0.0.buildinfo): [14 :white_check_mark: ](com.io7m.jbssio-1.0.0.buildcompare) | 228K |
 | [0.0.3](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio/0.0.3/pom) | [mvn jdk11.0.6](com.io7m.jbssio-0.0.3.buildspec) | [result](com.io7m.jbssio-0.0.3.buildinfo): [14 :white_check_mark: ](com.io7m.jbssio-0.0.3.buildcompare) | 225K |
-:x: | |
+| [0.0.2](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio/0.0.2/pom) | [mvn jdk11.0.5](com.io7m.jbssio-0.0.2.buildspec) | :x: | |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

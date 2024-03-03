@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3273 releases** of **618 projects**:
+   rebuilding **3274 releases** of **618 projects**:
    - **2582** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 691 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - 692 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 618 projects, 514 have at least one fully reproducible release, 104 have none
 
 <!-- END GENERATED INTRO -->
@@ -563,7 +563,7 @@ Its objectives are to provide:
 | org.finos.legend.engine | [legend-engine](content/org/finos/legend/engine/README.md) | 1 | 1 :warning: |
 | org.fusesource.jansi | [jansi](content/org/fusesource/jansi/jansi/README.md) | 9 | 5 :white_check_mark: / 4 :warning: |
 | org.glassfish.hk2 | [hk2-parent](content/org/glassfish/hk2/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
-| org.glassfish.main | [glassfish-parent](content/org/glassfish/main/README.md) | 8 | 8 :warning: |
+| org.glassfish.main | [glassfish-parent](content/org/glassfish/main/README.md) | 9 | 9 :warning: |
 | org.glassfish.build | [glassfishbuild-maven-plugin](content/org/glassfish/build/glassfishbuild-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | org.jline | [jline-parent](content/org/jline/jline/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
 | org.jrivard.xmlchai | [xmlchai](content/org/jrivard/xmlchai/README.md) | 2 | 2 :warning: |
@@ -641,7 +641,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 34 | 34 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **618** | **3273** | **2582** :white_check_mark: **691** :warning: |
+| **Count:** | **618** | **3274** | **2582** :white_check_mark: **692** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -724,7 +724,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.3  17.0.8.1
       1 mvn-3.9.3  17.0.9
       3 mvn-3.9.3  19
-     24 mvn-3.9.3  21
+     25 mvn-3.9.3  21
       7 mvn-3.9.4   8
       7 mvn-3.9.4  11
       1 mvn-3.9.4  17

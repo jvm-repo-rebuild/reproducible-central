@@ -28,7 +28,7 @@ rebuilding **81 releases** of nl.hsac:hsac-fitnesse-fixtures:
 | [5.2.46](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.46/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.46.buildspec) | [result](hsac-fitnesse-fixtures-5.2.46.buildinfo): [1 :white_check_mark:  3 :warning:](hsac-fitnesse-fixtures-5.2.46.buildcompare) [:mag:](hsac-fitnesse-fixtures-5.2.46.diffoscope) | 83M |
 | [5.2.45](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.45/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.45.buildspec) | [result](hsac-fitnesse-fixtures-5.2.45.buildinfo): [ 4 :warning:](hsac-fitnesse-fixtures-5.2.45.buildcompare) [:mag:](hsac-fitnesse-fixtures-5.2.45.diffoscope) | 83M |
 | [5.2.44](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.44/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.44.buildspec) | [result](hsac-fitnesse-fixtures-5.2.44.buildinfo): [4 :white_check_mark: ](hsac-fitnesse-fixtures-5.2.44.buildcompare) | 82M |
-:x: | |
+| [5.2.43](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.43/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.43.buildspec) | :x: | |
 | [5.2.42](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.42/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.42.buildspec) | [result](hsac-fitnesse-fixtures-5.2.42.buildinfo): [4 :white_check_mark: ](hsac-fitnesse-fixtures-5.2.42.buildcompare) | 80M |
 | [5.2.41](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.41/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.41.buildspec) | [result](hsac-fitnesse-fixtures-5.2.41.buildinfo): [4 :white_check_mark: ](hsac-fitnesse-fixtures-5.2.41.buildcompare) | 80M |
 | [5.2.40](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.40/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.40.buildspec) | [result](hsac-fitnesse-fixtures-5.2.40.buildinfo): [4 :white_check_mark: ](hsac-fitnesse-fixtures-5.2.40.buildcompare) | 79M |
@@ -51,7 +51,7 @@ rebuilding **81 releases** of nl.hsac:hsac-fitnesse-fixtures:
 | [5.2.24](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.24/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.24.buildspec) | [result](hsac-fitnesse-fixtures-5.2.24.buildinfo): [4 :white_check_mark: ](hsac-fitnesse-fixtures-5.2.24.buildcompare) | 80M |
 | [5.2.23](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.23/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.23.buildspec) | [result](hsac-fitnesse-fixtures-5.2.23.buildinfo): [4 :white_check_mark: ](hsac-fitnesse-fixtures-5.2.23.buildcompare) | 80M |
 | [5.2.22](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.22/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.22.buildspec) | [result](hsac-fitnesse-fixtures-5.2.22.buildinfo): [4 :white_check_mark: ](hsac-fitnesse-fixtures-5.2.22.buildcompare) | 80M |
-:x: | |
+| [5.2.21](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.21/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.21.buildspec) | :x: | |
 | [5.2.20](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.20/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.20.buildspec) | [result](hsac-fitnesse-fixtures-5.2.20.buildinfo): [4 :white_check_mark: ](hsac-fitnesse-fixtures-5.2.20.buildcompare) | 74M |
 | [5.2.19](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.19/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.19.buildspec) | [result](hsac-fitnesse-fixtures-5.2.19.buildinfo): [4 :white_check_mark: ](hsac-fitnesse-fixtures-5.2.19.buildcompare) | 74M |
 | [5.2.18](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.18/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.18.buildspec) | [result](hsac-fitnesse-fixtures-5.2.18.buildinfo): [4 :white_check_mark: ](hsac-fitnesse-fixtures-5.2.18.buildcompare) | 72M |
@@ -75,7 +75,7 @@ rebuilding **81 releases** of nl.hsac:hsac-fitnesse-fixtures:
 | [5.2.0](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.0/pom) | | | |
 | [5.1.2](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.1.2/pom) | | | |
 | [5.1.1](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.1.1/pom) | | | |
-:x: | |
+| [5.1.0](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.1.0/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.1.0.buildspec) | :x: | |
 | [5.1.0-beta](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.1.0-beta/pom) | | | |
 | [5.0.0](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.0.0/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.0.0.buildspec) | [result](hsac-fitnesse-fixtures-5.0.0.buildinfo): [4 :white_check_mark: ](hsac-fitnesse-fixtures-5.0.0.buildcompare) | 71M |
 | [4.32.0](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/4.32.0/pom) | [mvn jdk8](hsac-fitnesse-fixtures-4.32.0.buildspec) | [result](hsac-fitnesse-fixtures-4.32.0.buildinfo): [4 :white_check_mark: ](hsac-fitnesse-fixtures-4.32.0.buildcompare) | 53M |
