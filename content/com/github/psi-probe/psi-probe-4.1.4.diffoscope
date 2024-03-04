@@ -1,0 +1,465 @@
+1 / 3 target/reference/com.github.psi-probe/psi-probe-core-4.1.4.jar psi-probe-core/target/psi-probe-core-4.1.4.jar
+--- target/reference/com.github.psi-probe/psi-probe-core-4.1.4.jar
++++ psi-probe-core/target/psi-probe-core-4.1.4.jar
+├── zipinfo {}
+│ @@ -1,13 +1,10 @@
+│ -Zip file size: 535902 bytes, number of entries: 428
+│ +Zip file size: 535768 bytes, number of entries: 428
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 META-INF/
+│  -rw-r--r--  2.0 unx      431 b- defN 24-Mar-02 19:36 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/psi-probe-core/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/beans/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/beans/accessors/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/beans/stats/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/beans/stats/collectors/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/beans/stats/listeners/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/beans/stats/providers/
+│ @@ -55,16 +52,17 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/tools/logging/log4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/tools/logging/log4j2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/tools/logging/logback/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/tools/logging/logback13/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/tools/logging/slf4jlogback/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/tools/logging/slf4jlogback13/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/tools/url/
+│ --rw-r--r--  2.0 unx      264 b- defN 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/psi-probe-core/pom.properties
+│ --rw-r--r--  2.0 unx    10137 b- defN 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/psi-probe-core/pom.xml
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/psi-probe-core/
+│  -rw-r--r--  2.0 unx     1330 b- defN 24-Mar-02 19:36 psiprobe/AbstractTomcatContainer$FilterMapType.class
+│  -rw-r--r--  2.0 unx    20913 b- defN 24-Mar-02 19:36 psiprobe/AbstractTomcatContainer.class
+│  -rw-r--r--  2.0 unx     1925 b- defN 24-Mar-02 19:36 psiprobe/AwtAppContextClassloaderListener.class
+│  -rw-r--r--  2.0 unx      684 b- defN 24-Mar-02 19:36 psiprobe/PostParameterizableViewController.class
+│  -rw-r--r--  2.0 unx    12748 b- defN 24-Mar-02 19:36 psiprobe/ProbeConfig.class
+│  -rw-r--r--  2.0 unx     7400 b- defN 24-Mar-02 19:36 psiprobe/ProbeConfigScheduler.class
+│  -rw-r--r--  2.0 unx     9071 b- defN 24-Mar-02 19:36 psiprobe/ProbeConfigStats.class
+│ @@ -423,8 +421,10 @@
+│  -rw-r--r--  2.0 unx     6019 b- defN 24-Mar-02 19:36 psiprobe/tools/logging/slf4jlogback13/TomcatSlf4jLogback13LoggerAccessor.class
+│  -rw-r--r--  2.0 unx      143 b- defN 24-Mar-02 19:36 psiprobe/tools/logging/slf4jlogback13/package-info.class
+│  -rw-r--r--  2.0 unx      120 b- defN 24-Mar-02 19:36 psiprobe/tools/package-info.class
+│  -rw-r--r--  2.0 unx     2474 b- defN 24-Mar-02 19:36 psiprobe/tools/url/UrlParser.class
+│  -rw-r--r--  2.0 unx      124 b- defN 24-Mar-02 19:36 psiprobe/tools/url/package-info.class
+│  -rw-r--r--  2.0 unx     1971 b- defN 24-Mar-02 19:36 stats.properties
+│  -rw-r--r--  2.0 unx      489 b- defN 24-Mar-02 19:36 version.properties
+│ -428 files, 1037042 bytes uncompressed, 463382 bytes compressed:  55.3%
+│ +-rw-r--r--  2.0 unx    10130 b- defN 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/psi-probe-core/pom.xml
+│ +-rw-r--r--  2.0 unx       72 b- defN 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/psi-probe-core/pom.properties
+│ +428 files, 1036843 bytes uncompressed, 463248 bytes compressed:  55.3%
+├── zipnote «TEMP»/diffoscope_e4ntge31_target/tmp6ur5t97w_.zip
+│ @@ -1,22 +1,13 @@
+│  Filename: META-INF/
+│  Comment: 
+│  
+│  Filename: META-INF/MANIFEST.MF
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/com.github.psi-probe/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/com.github.psi-probe/psi-probe-core/
+│ -Comment: 
+│ -
+│  Filename: psiprobe/
+│  Comment: 
+│  
+│  Filename: psiprobe/beans/
+│  Comment: 
+│  
+│  Filename: psiprobe/beans/accessors/
+│ @@ -174,18 +165,21 @@
+│  
+│  Filename: psiprobe/tools/logging/slf4jlogback13/
+│  Comment: 
+│  
+│  Filename: psiprobe/tools/url/
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/com.github.psi-probe/psi-probe-core/pom.properties
+│ +Filename: META-INF/maven/
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/com.github.psi-probe/psi-probe-core/pom.xml
+│ +Filename: META-INF/maven/com.github.psi-probe/
+│ +Comment: 
+│ +
+│ +Filename: META-INF/maven/com.github.psi-probe/psi-probe-core/
+│  Comment: 
+│  
+│  Filename: psiprobe/AbstractTomcatContainer$FilterMapType.class
+│  Comment: 
+│  
+│  Filename: psiprobe/AbstractTomcatContainer.class
+│  Comment: 
+│ @@ -1278,8 +1272,14 @@
+│  
+│  Filename: stats.properties
+│  Comment: 
+│  
+│  Filename: version.properties
+│  Comment: 
+│  
+│ +Filename: META-INF/maven/com.github.psi-probe/psi-probe-core/pom.xml
+│ +Comment: 
+│ +
+│ +Filename: META-INF/maven/com.github.psi-probe/psi-probe-core/pom.properties
+│ +Comment: 
+│ +
+│  Zip file comment:
+├── META-INF/maven/com.github.psi-probe/psi-probe-core/pom.properties
+│ @@ -1,7 +1,3 @@
+│ -#Generated by Maven Integration for Eclipse
+│ -#Sat Mar 02 14:41:26 EST 2024
+│  artifactId=psi-probe-core
+│  groupId=com.github.psi-probe
+│ -m2e.projectLocation=C\:\\Users\\Jeremy\\GitHub\\psi-probe\\psi-probe-core
+│ -m2e.projectName=psi-probe-core
+│ -version=4.1.5-SNAPSHOT
+│ +version=4.1.4
+├── META-INF/maven/com.github.psi-probe/psi-probe-core/pom.xml
+│ ├── META-INF/maven/com.github.psi-probe/psi-probe-core/pom.xml
+│ │ @@ -12,26 +12,26 @@
+│ │  
+│ │  -->
+│ │  <project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │    <modelVersion>4.0.0</modelVersion>
+│ │    <parent>
+│ │      <groupId>com.github.psi-probe</groupId>
+│ │      <artifactId>psi-probe</artifactId>
+│ │ -    <version>4.1.5-SNAPSHOT</version>
+│ │ +    <version>4.1.4</version>
+│ │    </parent>
+│ │    <groupId>com.github.psi-probe</groupId>
+│ │    <artifactId>psi-probe-core</artifactId>
+│ │ -  <version>4.1.5-SNAPSHOT</version>
+│ │ +  <version>4.1.4</version>
+│ │    <name>psi-probe-core</name>
+│ │    <description>PSI Probe Core - Core logic, data models, and controllers</description>
+│ │    <url>https://github.com/psi-probe/psi-probe/</url>
+│ │    <scm>
+│ │      <connection>scm:git:ssh://git@github.com/psi-probe/psi-probe.git</connection>
+│ │      <developerConnection>scm:git:ssh://git@github.com/psi-probe/psi-probe.git</developerConnection>
+│ │ -    <tag>HEAD</tag>
+│ │ +    <tag>psi-probe-4.1.4</tag>
+│ │      <url>https://github.com/psi-probe/psi-probe/</url>
+│ │    </scm>
+│ │    <dependencies>
+│ │      <!-- tomcat libs start -->
+│ │      <dependency>
+│ │        <groupId>org.apache.tomcat</groupId>
+│ │        <artifactId>tomcat-catalina</artifactId>
+
+2 / 3 target/reference/com.github.psi-probe/psi-probe-rest-4.1.4.jar psi-probe-rest/target/psi-probe-rest-4.1.4.jar
+--- target/reference/com.github.psi-probe/psi-probe-rest-4.1.4.jar
++++ psi-probe-rest/target/psi-probe-rest-4.1.4.jar
+├── zipinfo {}
+│ @@ -1,13 +1,13 @@
+│ -Zip file size: 2925 bytes, number of entries: 11
+│ +Zip file size: 2793 bytes, number of entries: 11
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 META-INF/
+│  -rw-r--r--  2.0 unx      431 b- defN 24-Mar-02 19:36 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/rest/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/psi-probe-rest/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/rest/
+│ --rw-r--r--  2.0 unx      264 b- defN 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/psi-probe-rest/pom.properties
+│ --rw-r--r--  2.0 unx     2065 b- defN 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/psi-probe-rest/pom.xml
+│  -rw-r--r--  2.0 unx      105 b- defN 24-Mar-02 19:36 psiprobe/rest/Dummy.class
+│  -rw-r--r--  2.0 unx      119 b- defN 24-Mar-02 19:36 psiprobe/rest/package-info.class
+│ -11 files, 2984 bytes uncompressed, 1399 bytes compressed:  53.1%
+│ +-rw-r--r--  2.0 unx     2058 b- defN 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/psi-probe-rest/pom.xml
+│ +-rw-r--r--  2.0 unx       72 b- defN 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/psi-probe-rest/pom.properties
+│ +11 files, 2785 bytes uncompressed, 1267 bytes compressed:  54.5%
+├── zipnote «TEMP»/diffoscope_ch68ntki_target/tmpobzlwvhm_.zip
+│ @@ -1,34 +1,34 @@
+│  Filename: META-INF/
+│  Comment: 
+│  
+│  Filename: META-INF/MANIFEST.MF
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/
+│ +Filename: psiprobe/
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/com.github.psi-probe/
+│ +Filename: psiprobe/rest/
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/com.github.psi-probe/psi-probe-rest/
+│ +Filename: META-INF/maven/
+│  Comment: 
+│  
+│ -Filename: psiprobe/
+│ +Filename: META-INF/maven/com.github.psi-probe/
+│  Comment: 
+│  
+│ -Filename: psiprobe/rest/
+│ +Filename: META-INF/maven/com.github.psi-probe/psi-probe-rest/
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/com.github.psi-probe/psi-probe-rest/pom.properties
+│ +Filename: psiprobe/rest/Dummy.class
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/com.github.psi-probe/psi-probe-rest/pom.xml
+│ +Filename: psiprobe/rest/package-info.class
+│  Comment: 
+│  
+│ -Filename: psiprobe/rest/Dummy.class
+│ +Filename: META-INF/maven/com.github.psi-probe/psi-probe-rest/pom.xml
+│  Comment: 
+│  
+│ -Filename: psiprobe/rest/package-info.class
+│ +Filename: META-INF/maven/com.github.psi-probe/psi-probe-rest/pom.properties
+│  Comment: 
+│  
+│  Zip file comment:
+├── META-INF/maven/com.github.psi-probe/psi-probe-rest/pom.properties
+│ @@ -1,7 +1,3 @@
+│ -#Generated by Maven Integration for Eclipse
+│ -#Sat Mar 02 14:42:02 EST 2024
+│  artifactId=psi-probe-rest
+│  groupId=com.github.psi-probe
+│ -m2e.projectLocation=C\:\\Users\\Jeremy\\GitHub\\psi-probe\\psi-probe-rest
+│ -m2e.projectName=psi-probe-rest
+│ -version=4.1.5-SNAPSHOT
+│ +version=4.1.4
+├── META-INF/maven/com.github.psi-probe/psi-probe-rest/pom.xml
+│ ├── META-INF/maven/com.github.psi-probe/psi-probe-rest/pom.xml
+│ │ @@ -12,26 +12,26 @@
+│ │  
+│ │  -->
+│ │  <project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │    <modelVersion>4.0.0</modelVersion>
+│ │    <parent>
+│ │      <groupId>com.github.psi-probe</groupId>
+│ │      <artifactId>psi-probe</artifactId>
+│ │ -    <version>4.1.5-SNAPSHOT</version>
+│ │ +    <version>4.1.4</version>
+│ │    </parent>
+│ │    <groupId>com.github.psi-probe</groupId>
+│ │    <artifactId>psi-probe-rest</artifactId>
+│ │ -  <version>4.1.5-SNAPSHOT</version>
+│ │ +  <version>4.1.4</version>
+│ │    <name>psi-probe-rest</name>
+│ │    <description>PSI Probe Rest - RESTful service endpoints.</description>
+│ │    <url>https://github.com/psi-probe/psi-probe/</url>
+│ │    <scm>
+│ │      <connection>scm:git:ssh://git@github.com/psi-probe/psi-probe.git</connection>
+│ │      <developerConnection>scm:git:ssh://git@github.com/psi-probe/psi-probe.git</developerConnection>
+│ │ -    <tag>HEAD</tag>
+│ │ +    <tag>psi-probe-4.1.4</tag>
+│ │      <url>https://github.com/psi-probe/psi-probe/</url>
+│ │    </scm>
+│ │    <dependencies>
+│ │      <dependency>
+│ │        <groupId>org.springframework.hateoas</groupId>
+│ │        <artifactId>spring-hateoas</artifactId>
+│ │      </dependency>
+
+3 / 3 target/reference/com.github.psi-probe/psi-probe-web-4.1.4.war psi-probe-web/target/probe.war
+--- target/reference/com.github.psi-probe/psi-probe-web-4.1.4.war
++++ psi-probe-web/target/probe.war
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 31168358 bytes, number of entries: 548
+│ +Zip file size: 31168257 bytes, number of entries: 548
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 META-INF/
+│  -rw-r--r--  2.0 unx     2089 b- defN 24-Mar-02 19:36 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 WEB-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 WEB-INF/classes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 WEB-INF/jsp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 WEB-INF/jsp/ajax/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 WEB-INF/jsp/ajax/cluster/
+│ @@ -139,15 +139,15 @@
+│  -rw-r--r--  2.0 unx    19936 b- defN 24-Mar-02 19:36 WEB-INF/lib/jsr305-3.0.2.jar
+│  -rw-r--r--  2.0 unx     2199 b- defN 24-Mar-02 19:36 WEB-INF/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+│  -rw-r--r--  2.0 unx   277829 b- defN 24-Mar-02 19:36 WEB-INF/lib/logback-classic-1.3.14.jar
+│  -rw-r--r--  2.0 unx   579673 b- defN 24-Mar-02 19:36 WEB-INF/lib/logback-core-1.3.14.jar
+│  -rw-r--r--  2.0 unx    32535 b- defN 24-Mar-02 19:36 WEB-INF/lib/maxmind-db-2.1.0.jar
+│  -rw-r--r--  2.0 unx    29680 b- defN 24-Mar-02 19:36 WEB-INF/lib/mxparser-1.2.2.jar
+│  -rw-r--r--  2.0 unx   979563 b- defN 24-Mar-02 19:36 WEB-INF/lib/oshi-core-6.4.13.jar
+│ --rw-r--r--  2.0 unx   535902 b- defN 24-Mar-02 19:36 WEB-INF/lib/psi-probe-core-4.1.4.jar
+│ +-rw-r--r--  2.0 unx   535768 b- defN 24-Mar-02 19:36 WEB-INF/lib/psi-probe-core-4.1.4.jar
+│  -rw-r--r--  2.0 unx    10062 b- defN 24-Mar-02 19:36 WEB-INF/lib/psi-probe-tomcat85-4.1.4.jar
+│  -rw-r--r--  2.0 unx    10010 b- defN 24-Mar-02 19:36 WEB-INF/lib/psi-probe-tomcat9-4.1.4.jar
+│  -rw-r--r--  2.0 unx   617175 b- defN 24-Mar-02 19:36 WEB-INF/lib/quartz-2.4.0-rc2.jar
+│  -rw-r--r--  2.0 unx   229295 b- defN 24-Mar-02 19:36 WEB-INF/lib/sitemesh-2.5.1.jar
+│  -rw-r--r--  2.0 unx    68115 b- defN 24-Mar-02 19:36 WEB-INF/lib/slf4j-api-2.0.12.jar
+│  -rw-r--r--  2.0 unx   384542 b- defN 24-Mar-02 19:36 WEB-INF/lib/spring-aop-5.3.32.jar
+│  -rw-r--r--  2.0 unx   706488 b- defN 24-Mar-02 19:36 WEB-INF/lib/spring-beans-5.3.32.jar
+│ @@ -543,8 +543,8 @@
+│  -rw-r--r--  2.0 unx    32462 b- defN 24-Mar-02 19:36 js/scriptaculous/dragdrop.js
+│  -rw-r--r--  2.0 unx    40024 b- defN 24-Mar-02 19:36 js/scriptaculous/effects.js
+│  -rw-r--r--  2.0 unx     3429 b- defN 24-Mar-02 19:36 js/scriptaculous/scriptaculous.js
+│  -rw-r--r--  2.0 unx    10865 b- defN 24-Mar-02 19:36 js/scriptaculous/slider.js
+│  -rw-r--r--  2.0 unx     2945 b- defN 24-Mar-02 19:36 js/scriptaculous/sound.js
+│  -rw-r--r--  2.0 unx     6262 b- defN 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/psi-probe-web/pom.xml
+│  -rw-r--r--  2.0 unx       71 b- defN 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/psi-probe-web/pom.properties
+│ -548 files, 36565126 bytes uncompressed, 31102000 bytes compressed:  14.9%
+│ +548 files, 36564992 bytes uncompressed, 31101899 bytes compressed:  14.9%
+├── WEB-INF/lib/psi-probe-core-4.1.4.jar
+│ ├── zipinfo {}
+│ │ @@ -1,13 +1,10 @@
+│ │ -Zip file size: 535902 bytes, number of entries: 428
+│ │ +Zip file size: 535768 bytes, number of entries: 428
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 META-INF/
+│ │  -rw-r--r--  2.0 unx      431 b- defN 24-Mar-02 19:36 META-INF/MANIFEST.MF
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 META-INF/maven/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/psi-probe-core/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/beans/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/beans/accessors/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/beans/stats/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/beans/stats/collectors/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/beans/stats/listeners/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/beans/stats/providers/
+│ │ @@ -55,16 +52,17 @@
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/tools/logging/log4j/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/tools/logging/log4j2/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/tools/logging/logback/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/tools/logging/logback13/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/tools/logging/slf4jlogback/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/tools/logging/slf4jlogback13/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 psiprobe/tools/url/
+│ │ --rw-r--r--  2.0 unx      264 b- defN 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/psi-probe-core/pom.properties
+│ │ --rw-r--r--  2.0 unx    10137 b- defN 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/psi-probe-core/pom.xml
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 META-INF/maven/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/psi-probe-core/
+│ │  -rw-r--r--  2.0 unx     1330 b- defN 24-Mar-02 19:36 psiprobe/AbstractTomcatContainer$FilterMapType.class
+│ │  -rw-r--r--  2.0 unx    20913 b- defN 24-Mar-02 19:36 psiprobe/AbstractTomcatContainer.class
+│ │  -rw-r--r--  2.0 unx     1925 b- defN 24-Mar-02 19:36 psiprobe/AwtAppContextClassloaderListener.class
+│ │  -rw-r--r--  2.0 unx      684 b- defN 24-Mar-02 19:36 psiprobe/PostParameterizableViewController.class
+│ │  -rw-r--r--  2.0 unx    12748 b- defN 24-Mar-02 19:36 psiprobe/ProbeConfig.class
+│ │  -rw-r--r--  2.0 unx     7400 b- defN 24-Mar-02 19:36 psiprobe/ProbeConfigScheduler.class
+│ │  -rw-r--r--  2.0 unx     9071 b- defN 24-Mar-02 19:36 psiprobe/ProbeConfigStats.class
+│ │ @@ -423,8 +421,10 @@
+│ │  -rw-r--r--  2.0 unx     6019 b- defN 24-Mar-02 19:36 psiprobe/tools/logging/slf4jlogback13/TomcatSlf4jLogback13LoggerAccessor.class
+│ │  -rw-r--r--  2.0 unx      143 b- defN 24-Mar-02 19:36 psiprobe/tools/logging/slf4jlogback13/package-info.class
+│ │  -rw-r--r--  2.0 unx      120 b- defN 24-Mar-02 19:36 psiprobe/tools/package-info.class
+│ │  -rw-r--r--  2.0 unx     2474 b- defN 24-Mar-02 19:36 psiprobe/tools/url/UrlParser.class
+│ │  -rw-r--r--  2.0 unx      124 b- defN 24-Mar-02 19:36 psiprobe/tools/url/package-info.class
+│ │  -rw-r--r--  2.0 unx     1971 b- defN 24-Mar-02 19:36 stats.properties
+│ │  -rw-r--r--  2.0 unx      489 b- defN 24-Mar-02 19:36 version.properties
+│ │ -428 files, 1037042 bytes uncompressed, 463382 bytes compressed:  55.3%
+│ │ +-rw-r--r--  2.0 unx    10130 b- defN 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/psi-probe-core/pom.xml
+│ │ +-rw-r--r--  2.0 unx       72 b- defN 24-Mar-02 19:36 META-INF/maven/com.github.psi-probe/psi-probe-core/pom.properties
+│ │ +428 files, 1036843 bytes uncompressed, 463248 bytes compressed:  55.3%
+│ ├── zipnote «TEMP»/diffoscope_05xvckaj_target/tmp8fqjg3y8_.zip
+│ │ @@ -1,22 +1,13 @@
+│ │  Filename: META-INF/
+│ │  Comment: 
+│ │  
+│ │  Filename: META-INF/MANIFEST.MF
+│ │  Comment: 
+│ │  
+│ │ -Filename: META-INF/maven/
+│ │ -Comment: 
+│ │ -
+│ │ -Filename: META-INF/maven/com.github.psi-probe/
+│ │ -Comment: 
+│ │ -
+│ │ -Filename: META-INF/maven/com.github.psi-probe/psi-probe-core/
+│ │ -Comment: 
+│ │ -
+│ │  Filename: psiprobe/
+│ │  Comment: 
+│ │  
+│ │  Filename: psiprobe/beans/
+│ │  Comment: 
+│ │  
+│ │  Filename: psiprobe/beans/accessors/
+│ │ @@ -174,18 +165,21 @@
+│ │  
+│ │  Filename: psiprobe/tools/logging/slf4jlogback13/
+│ │  Comment: 
+│ │  
+│ │  Filename: psiprobe/tools/url/
+│ │  Comment: 
+│ │  
+│ │ -Filename: META-INF/maven/com.github.psi-probe/psi-probe-core/pom.properties
+│ │ +Filename: META-INF/maven/
+│ │  Comment: 
+│ │  
+│ │ -Filename: META-INF/maven/com.github.psi-probe/psi-probe-core/pom.xml
+│ │ +Filename: META-INF/maven/com.github.psi-probe/
+│ │ +Comment: 
+│ │ +
+│ │ +Filename: META-INF/maven/com.github.psi-probe/psi-probe-core/
+│ │  Comment: 
+│ │  
+│ │  Filename: psiprobe/AbstractTomcatContainer$FilterMapType.class
+│ │  Comment: 
+│ │  
+│ │  Filename: psiprobe/AbstractTomcatContainer.class
+│ │  Comment: 
+│ │ @@ -1278,8 +1272,14 @@
+│ │  
+│ │  Filename: stats.properties
+│ │  Comment: 
+│ │  
+│ │  Filename: version.properties
+│ │  Comment: 
+│ │  
+│ │ +Filename: META-INF/maven/com.github.psi-probe/psi-probe-core/pom.xml
+│ │ +Comment: 
+│ │ +
+│ │ +Filename: META-INF/maven/com.github.psi-probe/psi-probe-core/pom.properties
+│ │ +Comment: 
+│ │ +
+│ │  Zip file comment:
+│ ├── META-INF/maven/com.github.psi-probe/psi-probe-core/pom.properties
+│ │ @@ -1,7 +1,3 @@
+│ │ -#Generated by Maven Integration for Eclipse
+│ │ -#Sat Mar 02 14:41:26 EST 2024
+│ │  artifactId=psi-probe-core
+│ │  groupId=com.github.psi-probe
+│ │ -m2e.projectLocation=C\:\\Users\\Jeremy\\GitHub\\psi-probe\\psi-probe-core
+│ │ -m2e.projectName=psi-probe-core
+│ │ -version=4.1.5-SNAPSHOT
+│ │ +version=4.1.4
+│ ├── META-INF/maven/com.github.psi-probe/psi-probe-core/pom.xml
+│ │ ├── META-INF/maven/com.github.psi-probe/psi-probe-core/pom.xml
+│ │ │ @@ -12,26 +12,26 @@
+│ │ │  
+│ │ │  -->
+│ │ │  <project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │    <modelVersion>4.0.0</modelVersion>
+│ │ │    <parent>
+│ │ │      <groupId>com.github.psi-probe</groupId>
+│ │ │      <artifactId>psi-probe</artifactId>
+│ │ │ -    <version>4.1.5-SNAPSHOT</version>
+│ │ │ +    <version>4.1.4</version>
+│ │ │    </parent>
+│ │ │    <groupId>com.github.psi-probe</groupId>
+│ │ │    <artifactId>psi-probe-core</artifactId>
+│ │ │ -  <version>4.1.5-SNAPSHOT</version>
+│ │ │ +  <version>4.1.4</version>
+│ │ │    <name>psi-probe-core</name>
+│ │ │    <description>PSI Probe Core - Core logic, data models, and controllers</description>
+│ │ │    <url>https://github.com/psi-probe/psi-probe/</url>
+│ │ │    <scm>
+│ │ │      <connection>scm:git:ssh://git@github.com/psi-probe/psi-probe.git</connection>
+│ │ │      <developerConnection>scm:git:ssh://git@github.com/psi-probe/psi-probe.git</developerConnection>
+│ │ │ -    <tag>HEAD</tag>
+│ │ │ +    <tag>psi-probe-4.1.4</tag>
+│ │ │      <url>https://github.com/psi-probe/psi-probe/</url>
+│ │ │    </scm>
+│ │ │    <dependencies>
+│ │ │      <!-- tomcat libs start -->
+│ │ │      <dependency>
+│ │ │        <groupId>org.apache.tomcat</groupId>
+│ │ │        <artifactId>tomcat-catalina</artifactId>
+
