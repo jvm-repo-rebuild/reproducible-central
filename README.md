@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3274 releases** of **618 projects**:
+   rebuilding **3275 releases** of **618 projects**:
    - **2582** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 692 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - 693 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 618 projects, 514 have at least one fully reproducible release, 104 have none
 
 <!-- END GENERATED INTRO -->
@@ -47,7 +47,7 @@ Its objectives are to provide:
 | | [jackson-datatypes-collections](content/com/fasterxml/jackson/datatype/jackson-datatypes-collections/README.md) | 3 | 3 :white_check_mark: |
 | | [jackson-datatypes-misc-parent](content/com/fasterxml/jackson/datatype/jackson-datatypes-misc-parent/README.md) | 3 | 3 :white_check_mark: |
 | com.github.ldapchai | [ldapchai](content/com/github/ldapchai/README.md) | 6 | 1 :white_check_mark: / 5 :warning: |
-| com.github.psi-probe | [psi-probe](content/com/github/psi-probe/README.md) | 11 | 8 :white_check_mark: / 3 :warning: |
+| com.github.psi-probe | [psi-probe](content/com/github/psi-probe/README.md) | 12 | 8 :white_check_mark: / 4 :warning: |
 | com.github.adangel.liquibase.ext | [liquibase-percona](content/com/github/adangel/liquibase/ext/liquibase-percona/README.md) | 1 | 1 :white_check_mark: |
 | com.github.hazendaz.7zip | [7zip](content/com/github/hazendaz/7zip/README.md) | 1 | 1 :white_check_mark: |
 | com.github.hazendaz | [javabean-tester](content/com/github/hazendaz/javabean-tester/README.md) | 8 | 6 :white_check_mark: / 2 :warning: |
@@ -641,7 +641,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 34 | 34 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **618** | **3274** | **2582** :white_check_mark: **692** :warning: |
+| **Count:** | **618** | **3275** | **2582** :white_check_mark: **693** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -724,7 +724,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.3  17.0.8.1
       1 mvn-3.9.3  17.0.9
       3 mvn-3.9.3  19
-     25 mvn-3.9.3  21
+     26 mvn-3.9.3  21
       7 mvn-3.9.4   8
       7 mvn-3.9.4  11
       1 mvn-3.9.4  17
