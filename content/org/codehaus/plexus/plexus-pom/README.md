@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/codehaus-plexus/plexus-pom.git](https://github.com/codehaus-plexus/plexus-pom.git)
 
-rebuilding **14 releases** of org.codehaus.plexus:plexus:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **15 releases** of org.codehaus.plexus:plexus:
+- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [17](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus/17/pom) | | | |
+| [17](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus/17/pom) | [mvn jdk8](plexus-pom-17.buildspec) | [result](plexus-17.buildinfo): [3 :white_check_mark: ](plexus-17.buildcompare) | 59K |
 | [16](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus/16/pom) | [mvn jdk8](plexus-pom-16.buildspec) | [result](plexus-16.buildinfo): [3 :white_check_mark: ](plexus-16.buildcompare) | 58K |
 | [15](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus/15/pom) | [mvn jdk8](plexus-pom-15.buildspec) | [result](plexus-15.buildinfo): [3 :white_check_mark: ](plexus-15.buildcompare) | 58K |
 | [14](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus/14/pom) | [mvn jdk8](plexus-pom-14.buildspec) | [result](plexus-14.buildinfo): [3 :white_check_mark: ](plexus-14.buildcompare) | 59K |

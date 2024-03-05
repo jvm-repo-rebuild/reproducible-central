@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3275 releases** of **618 projects**:
-   - **2582** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 693 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 618 projects, 514 have at least one fully reproducible release, 104 have none
+   rebuilding **3279 releases** of **619 projects**:
+   - **2584** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 695 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 619 projects, 514 have at least one fully reproducible release, 105 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -27,7 +27,7 @@ Its objectives are to provide:
 | ch.qos.logback | [logback-parent](content/ch/qos/logback/README.md) | 23 | 16 :white_check_mark: / 7 :warning: |
 | ch.qos.reload4j | [reload4j](content/ch/qos/reload4j/README.md) | 8 | 1 :white_check_mark: / 7 :warning: |
 | ch.qos.logback.db | [logback-parent-db](content/ch/qos/logback/db/README.md) | 1 | 1 :warning: |
-| com.flowlogix | [flowlogix](content/com/flowlogix/README.md) | 12 | 8 :white_check_mark: / 4 :warning: |
+| com.flowlogix | [flowlogix](content/com/flowlogix/README.md) | 13 | 9 :white_check_mark: / 4 :warning: |
 | com.adobe.acs | [acs-aem-commons](content/com/adobe/acs/aem-commons/README.md) | 3 | 3 :warning: |
 | com.cognite.units | [units-catalog](content/com/cognite/units/units-catalog/README.md) | 3 | 3 :warning: |
 | com.corgibytes | [mrm](content/com/corgibytes/mrm/README.md) | 1 | 1 :white_check_mark: |
@@ -209,7 +209,7 @@ Its objectives are to provide:
 | io.dwpbank.movewp3 | [microservice-security-autoconfiguration](content/io/dwpbank/movewp3/microservice-security-autoconfiguration/README.md) | 1 | 1 :warning: |
 | io.fabric8 | [docker-maven-plugin](content/io/fabric8/docker-maven-plugin/README.md) | 21 | 18 :white_check_mark: / 3 :warning: |
 | | [kubernetes-client-project](content/io/fabric8/kubernetes-client/README.md) | 10 | 10 :warning: |
-| io.github.git-commit-id | [git-commit-id-maven-plugin](content/io/github/git-commit-id/README.md) | 2 | 2 :warning: |
+| io.github.git-commit-id | [git-commit-id-maven-plugin](content/io/github/git-commit-id/README.md) | 3 | 3 :warning: |
 | io.github.albertus82 | [jface-utils](content/io/github/albertus82/jface-utils/README.md) | 9 | 9 :white_check_mark: |
 | | [unexepack](content/io/github/albertus82/unexepack/README.md) | 3 | 3 :warning: |
 | io.github.chains-project | [maven-lockfile](content/io/github/chains-project/maven-lockfile/README.md) | 4 | 4 :warning: |
@@ -261,6 +261,7 @@ Its objectives are to provide:
 | nl.hsac | [hsac-fitnesse-fixtures](content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 81 | 64 :white_check_mark: / 17 :warning: |
 | | [hsac-fitnesse-pdf](content/nl/hsac/hsac-fitnesse-pdf/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
 | org.jdbi.internal | [jdbi3-root](content/org/jdbi/README.md) | 1 | 1 :warning: |
+| org.jreleaser | [jreleaser](content/org/jreleaser/README.md) | 1 | 1 :warning: |
 | org.phoebus | [parent](content/org/phoebus/README.md) | 1 | 1 :warning: |
 | org.quickperf | [quick-perf](content/org/quickperf/README.md) | 3 | 3 :white_check_mark: |
 | org.slf4j | [slf4j-parent](content/org/slf4j/README.md) | 13 | 6 :white_check_mark: / 7 :warning: |
@@ -547,7 +548,7 @@ Its objectives are to provide:
 | | [plexus-interpolation](content/org/codehaus/plexus/plexus-interpolation/README.md) | 1 | 1 :white_check_mark: |
 | | [plexus-io](content/org/codehaus/plexus/plexus-io/README.md) | 5 | 5 :white_check_mark: |
 | | [plexus-languages](content/org/codehaus/plexus/plexus-languages/README.md) | 7 | 2 :white_check_mark: / 5 :warning: |
-| | [plexus](content/org/codehaus/plexus/plexus-pom/README.md) | 14 | 13 :white_check_mark: / 1 :warning: |
+| | [plexus](content/org/codehaus/plexus/plexus-pom/README.md) | 15 | 14 :white_check_mark: / 1 :warning: |
 | | [plexus-resources](content/org/codehaus/plexus/plexus-resources/README.md) | 1 | 1 :white_check_mark: |
 | | [plexus-testing](content/org/codehaus/plexus/plexus-testing/README.md) | 3 | 3 :white_check_mark: |
 | | [plexus-utils](content/org/codehaus/plexus/plexus-utils/README.md) | 6 | 4 :white_check_mark: / 2 :warning: |
@@ -641,7 +642,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 34 | 34 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **618** | **3275** | **2582** :white_check_mark: **693** :warning: |
+| **Count:** | **619** | **3279** | **2584** :white_check_mark: **695** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -653,10 +654,10 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
 ```
      21 gradle     11
-      6 gradle     17
+      7 gradle     17
       3 gradle     21
      26 mvn         7
-   1111 mvn         8
+   1112 mvn         8
       1 mvn         9
     938 mvn        11
       2 mvn        11.0.19
@@ -674,7 +675,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn        18
      25 mvn        19
      15 mvn        20
-     48 mvn        21
+     50 mvn        21
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11
       1 mvn-3.8.5   8
