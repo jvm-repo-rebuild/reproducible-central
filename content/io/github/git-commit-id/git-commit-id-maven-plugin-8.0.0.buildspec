@@ -1,0 +1,17 @@
+groupId=io.github.git-commit-id
+artifactId=git-commit-id-maven-plugin
+display=${groupId}:${artifactId}
+version=8.0.0
+
+gitRepo=https://github.com/git-commit-id/${artifactId}.git
+gitTag=v${version}
+
+tool=mvn
+jdk=21
+newline=lf
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dskip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/git-commit-id/git-commit-id-maven-plugin/pull/711
