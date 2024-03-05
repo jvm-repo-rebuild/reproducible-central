@@ -1,0 +1,772 @@
+name=org.jreleaser:jreleaser
+group-id=org.jreleaser
+artifact-id=jreleaser
+
+build-tool=gradle
+java.version=17
+os.name=lf
+
+outputs.1.coordinates=org.jreleaser:jdks-maven-plugin
+
+outputs.1.0.filename=jdks-maven-plugin-1.11.0.jar
+outputs.1.0.length=41266
+outputs.1.0.checksums.sha512=22cb5d604895437b536593d8f00eca3126f14366c2acaa7d7993f481076876b7df9f035918b7d9d0dd576aa9e1212cb07609cdb6780c95310c651f073c891c6a  repository/org/jreleaser/jdks-maven-plugin/1.11.0/jdks-maven-plugin-1.11.0.jar
+
+outputs.1.1.filename=jdks-maven-plugin-1.11.0.pom
+outputs.1.1.length=2436
+outputs.1.1.checksums.sha512=a37664db61c24790d68e05b0caab767f66dd637bc42f325cb68ce1ef3dc732f8a3836443cb75a1b86eab6e8c4b5525e6a0711e020b15284e5931102b7fe5df35  repository/org/jreleaser/jdks-maven-plugin/1.11.0/jdks-maven-plugin-1.11.0.pom
+
+outputs.1.2.filename=jdks-maven-plugin-1.11.0-sources.jar
+outputs.1.2.length=20776
+outputs.1.2.checksums.sha512=42f65e4cea05f0d00bc9fc347ca7f713101f79eacfff8b8b7258665076e2e890d3cfe0bba295b9ece729f0eccb734462454076992f16d5129c475453dbd20a07  repository/org/jreleaser/jdks-maven-plugin/1.11.0/jdks-maven-plugin-1.11.0-sources.jar
+
+
+outputs.2.coordinates=org.jreleaser:jreleaser
+
+outputs.2.0.filename=jreleaser-1.11.0.jar
+outputs.2.0.length=147350
+outputs.2.0.checksums.sha512=e4ed75dd61a6c729ed8c840d345bc71082687df542cf179ec22848554230235ce0422122271e02d99c92c339032a586bae58b9dc349cfab4fa1eee1cbb28f8d7  repository/org/jreleaser/jreleaser/1.11.0/jreleaser-1.11.0.jar
+
+outputs.2.1.filename=jreleaser-1.11.0.pom
+outputs.2.1.length=2312
+outputs.2.1.checksums.sha512=e92ca7fe03f5fff944a340f7c6ec3b9422517d77bba96cf4f35c8b5abc2657771c3ce24dfbe63cbd616d19d6fc1b9eebec45f81d22e810ef8a88cece7bcd4f67  repository/org/jreleaser/jreleaser/1.11.0/jreleaser-1.11.0.pom
+
+outputs.2.2.filename=jreleaser-1.11.0-sources.jar
+outputs.2.2.length=97365
+outputs.2.2.checksums.sha512=d621df4bd437e9f0bd0bc46c8bdc90bece642d8cae069e1d0ca1eb53167a099714a93c0bd37220dbd7c58de7bb3673f7c0343d6019b288afcfbe13ee61763556  repository/org/jreleaser/jreleaser/1.11.0/jreleaser-1.11.0-sources.jar
+
+
+outputs.3.coordinates=org.jreleaser:jreleaser-ant-tasks
+
+outputs.3.0.filename=jreleaser-ant-tasks-1.11.0.jar
+outputs.3.0.length=54212
+outputs.3.0.checksums.sha512=692d3139f37e2a097ad5625b000a9e677e225de7e4c19e3d8a8a14e8d499026a19c418939355888b5133da9f154bc860f08dd09e52a53e44cace6634fb66f95a  repository/org/jreleaser/jreleaser-ant-tasks/1.11.0/jreleaser-ant-tasks-1.11.0.jar
+
+outputs.3.1.filename=jreleaser-ant-tasks-1.11.0.pom
+outputs.3.1.length=1530
+outputs.3.1.checksums.sha512=d8c37745e59449c47a9764246c26428bc1d194864cd654ba18342f8183f95d1d50ca2012edb840904c02f4f684d88ea37e7aefc5a5449b25603f364dcfc62fcd  repository/org/jreleaser/jreleaser-ant-tasks/1.11.0/jreleaser-ant-tasks-1.11.0.pom
+
+outputs.3.2.filename=jreleaser-ant-tasks-1.11.0-sources.jar
+outputs.3.2.length=37871
+outputs.3.2.checksums.sha512=e94f652a8dd3fee41ee7d5153872019ca1b02cace63f5f36923e13f5a48ab6e965fc8b49099e5d17bfef0c937ceb52ebb5476ed0b405c75b8d6390af7132541c  repository/org/jreleaser/jreleaser-ant-tasks/1.11.0/jreleaser-ant-tasks-1.11.0-sources.jar
+
+
+outputs.4.coordinates=org.jreleaser:jreleaser-artifactory-java-sdk
+
+outputs.4.0.filename=jreleaser-artifactory-java-sdk-1.11.0.jar
+outputs.4.0.length=17294
+outputs.4.0.checksums.sha512=c3a570138ee7aad0cdf4d3b3bfa3e913e67084c8bae12a7a0422728dc402bf944a16a8af6eada36adc82b3e09fa927636024e68b4857c76079e740e9fd48a818  repository/org/jreleaser/jreleaser-artifactory-java-sdk/1.11.0/jreleaser-artifactory-java-sdk-1.11.0.jar
+
+outputs.4.1.filename=jreleaser-artifactory-java-sdk-1.11.0.pom
+outputs.4.1.length=1569
+outputs.4.1.checksums.sha512=423dfd43fffa9a5b784854a3559f1d0fa45abb462c8d0898016d6fc22f48ba27f2afb127e9220e14df8562bd4d4aa9e199f9997e6a9c7ff8ff45208327320655  repository/org/jreleaser/jreleaser-artifactory-java-sdk/1.11.0/jreleaser-artifactory-java-sdk-1.11.0.pom
+
+outputs.4.2.filename=jreleaser-artifactory-java-sdk-1.11.0-sources.jar
+outputs.4.2.length=6101
+outputs.4.2.checksums.sha512=7dc5b219d809dda3bf522cd758d700ab373807c03a8f62d06572a939c5d6869f43f37560bac7afc1928a75c11650ab6dd3e9f9b5bea9537f3f9f27d5629ad429  repository/org/jreleaser/jreleaser-artifactory-java-sdk/1.11.0/jreleaser-artifactory-java-sdk-1.11.0-sources.jar
+
+
+outputs.5.coordinates=org.jreleaser:jreleaser-azure-java-sdk
+
+outputs.5.0.filename=jreleaser-azure-java-sdk-1.11.0.jar
+outputs.5.0.length=11406
+outputs.5.0.checksums.sha512=b1969a4eba0513fa145020fbc673727ae35d4eadb313527492ad478cb2faf07307a780a92dd189eb8abbeff3eda86c72e1e7789739c8ea7328cdfb81753c3fe5  repository/org/jreleaser/jreleaser-azure-java-sdk/1.11.0/jreleaser-azure-java-sdk-1.11.0.jar
+
+outputs.5.1.filename=jreleaser-azure-java-sdk-1.11.0.pom
+outputs.5.1.length=1551
+outputs.5.1.checksums.sha512=f94b2f1000fac841dd3a67565ac444cdea33fdc687aa20eab1a7b581db304a200418e050ebf0b31707abf8ec38b4afc8bdcd59c95ca4b6790c8de136bc17d7a9  repository/org/jreleaser/jreleaser-azure-java-sdk/1.11.0/jreleaser-azure-java-sdk-1.11.0.pom
+
+outputs.5.2.filename=jreleaser-azure-java-sdk-1.11.0-sources.jar
+outputs.5.2.length=3358
+outputs.5.2.checksums.sha512=6bcd41b43498e3bdac7ea80218798d49b85018534cd944876cf362f1e1436e02f596c5fae5a9fe7199bc78005626e894a914613a67004f64145f9e503a0c2bb5  repository/org/jreleaser/jreleaser-azure-java-sdk/1.11.0/jreleaser-azure-java-sdk-1.11.0-sources.jar
+
+
+outputs.6.coordinates=org.jreleaser:jreleaser-bluesky-java-sdk
+
+outputs.6.0.filename=jreleaser-bluesky-java-sdk-1.11.0.jar
+outputs.6.0.length=24467
+outputs.6.0.checksums.sha512=67b56773e4a6ad78d1b6c4482de49afccb88b69532e896b6071bb298ed9e934c7b114f14f5c56d1f98794e4c8e900b424729c452481b7cc645c06d8c53442659  repository/org/jreleaser/jreleaser-bluesky-java-sdk/1.11.0/jreleaser-bluesky-java-sdk-1.11.0.jar
+
+outputs.6.1.filename=jreleaser-bluesky-java-sdk-1.11.0.pom
+outputs.6.1.length=1555
+outputs.6.1.checksums.sha512=7e90e1e91026c22df43b15b0cca61b1bc0a110d31f5ca1ac0aa5c9be96e9462e77040d92c9ee3db0cdf5aa0c6ca7fa91eb259548b9c789dee58fc97dc4243543  repository/org/jreleaser/jreleaser-bluesky-java-sdk/1.11.0/jreleaser-bluesky-java-sdk-1.11.0.pom
+
+outputs.6.2.filename=jreleaser-bluesky-java-sdk-1.11.0-sources.jar
+outputs.6.2.length=12038
+outputs.6.2.checksums.sha512=277c6b0f250b51c071a7c0a6420d519e38dabdf8792ffe00f5b81d2aaf9c48eb02891548364ff69b9a0b04f5cd018902ff464c38ca444c2e675cba79bc0bac7b  repository/org/jreleaser/jreleaser-bluesky-java-sdk/1.11.0/jreleaser-bluesky-java-sdk-1.11.0-sources.jar
+
+
+outputs.7.coordinates=org.jreleaser:jreleaser-codeberg-java-sdk
+
+outputs.7.0.filename=jreleaser-codeberg-java-sdk-1.11.0.jar
+outputs.7.0.length=18442
+outputs.7.0.checksums.sha512=abd36214674ffbaf9951f1333dea0d6f833df05bdccafec3d10c6ce986a23f2b774b579cb764acd6b33e038b94bd2ee1a5c076d69c94020b6f8390ad5000e555  repository/org/jreleaser/jreleaser-codeberg-java-sdk/1.11.0/jreleaser-codeberg-java-sdk-1.11.0.jar
+
+outputs.7.1.filename=jreleaser-codeberg-java-sdk-1.11.0.pom
+outputs.7.1.length=1555
+outputs.7.1.checksums.sha512=01866548c73f6156f1e577679d5d5ae56ac3bb46a483f6aa81f327026eefb8bb85ace72450e2a64bb1b6af18fdf39f5624adfd6fbea1744ff981da671180e046  repository/org/jreleaser/jreleaser-codeberg-java-sdk/1.11.0/jreleaser-codeberg-java-sdk-1.11.0.pom
+
+outputs.7.2.filename=jreleaser-codeberg-java-sdk-1.11.0-sources.jar
+outputs.7.2.length=6419
+outputs.7.2.checksums.sha512=c11801e9e716e8e8395f32e1fb2f6349d460681e58598009c9c9d8b604efe396f0aa537934cce2bcb9f937ad59a8ba617e502cb0f6ad1930749bda7ebc5ca16e  repository/org/jreleaser/jreleaser-codeberg-java-sdk/1.11.0/jreleaser-codeberg-java-sdk-1.11.0-sources.jar
+
+
+outputs.8.coordinates=org.jreleaser:jreleaser-command-java-sdk
+
+outputs.8.0.filename=jreleaser-command-java-sdk-1.11.0.jar
+outputs.8.0.length=18215
+outputs.8.0.checksums.sha512=bc19dfe02624d6d5b71552ff5fa6d052d419f35c9eb66f41acc6d4446e553aa5793a86bfb1f55bc54a84ae87d1e35a561c65a08ae1291e8f1a07de50bace1ae8  repository/org/jreleaser/jreleaser-command-java-sdk/1.11.0/jreleaser-command-java-sdk-1.11.0.jar
+
+outputs.8.1.filename=jreleaser-command-java-sdk-1.11.0.pom
+outputs.8.1.length=2023
+outputs.8.1.checksums.sha512=ed9cf670fb77dd813e298fbc96d83ef243229f2a87e50fa193efe0011fd7fd390965e698a5ec5ad891f9c150d21110a76458b70aaf7e69c17c22e435e26b5c8e  repository/org/jreleaser/jreleaser-command-java-sdk/1.11.0/jreleaser-command-java-sdk-1.11.0.pom
+
+outputs.8.2.filename=jreleaser-command-java-sdk-1.11.0-sources.jar
+outputs.8.2.length=4954
+outputs.8.2.checksums.sha512=125fa323f09750d1e96b3207c707e1c36d9e0b0884ced49c299594ad8503a367c2f96af7d4a0fd743a105917a8bb732c514c70e5f8b9b65a06c480de2b9afb17  repository/org/jreleaser/jreleaser-command-java-sdk/1.11.0/jreleaser-command-java-sdk-1.11.0-sources.jar
+
+
+outputs.9.coordinates=org.jreleaser:jreleaser-config-json
+
+outputs.9.0.filename=jreleaser-config-json-1.11.0.jar
+outputs.9.0.length=8869
+outputs.9.0.checksums.sha512=798669c15895256549b64c99da9eb474fd8b33406b8011b23b9652a4d71f2a3f1dd38dfddabf78e359508e84861c03d7dbc789b6473feadd2fde23010958ca7b  repository/org/jreleaser/jreleaser-config-json/1.11.0/jreleaser-config-json-1.11.0.jar
+
+outputs.9.1.filename=jreleaser-config-json-1.11.0.pom
+outputs.9.1.length=1883
+outputs.9.1.checksums.sha512=4a7e89f3b4591f60280b8879a1bf1fe36cd17090186c9664462e22102c1775a65768cd6c8d60a05219e869d8ef6d634ad8dade1808ffc14b341e04191641d6fc  repository/org/jreleaser/jreleaser-config-json/1.11.0/jreleaser-config-json-1.11.0.pom
+
+outputs.9.2.filename=jreleaser-config-json-1.11.0-sources.jar
+outputs.9.2.length=1897
+outputs.9.2.checksums.sha512=e9b8d24e15a2f8b39c625d2ec36dc1d9885b4b4e16ce8683519e09d21aca14662c69a86af5d40f385ca1a476a87ea0d2574f26f266e4009ffab4b633eda9a7de  repository/org/jreleaser/jreleaser-config-json/1.11.0/jreleaser-config-json-1.11.0-sources.jar
+
+
+outputs.10.coordinates=org.jreleaser:jreleaser-config-toml
+
+outputs.10.0.filename=jreleaser-config-toml-1.11.0.jar
+outputs.10.0.length=8969
+outputs.10.0.checksums.sha512=3508d4b5bf32b330f22308c412741999dbe19381a67b1011528c440a5ab3307225c1000d66093a58185377cbd01525ba8870781a1e482df196af81037c3d1f7a  repository/org/jreleaser/jreleaser-config-toml/1.11.0/jreleaser-config-toml-1.11.0.jar
+
+outputs.10.1.filename=jreleaser-config-toml-1.11.0.pom
+outputs.10.1.length=2063
+outputs.10.1.checksums.sha512=05a9b2e750d6ae88c5bb5b281f17f42c5c54dda4f1edd51715bac13c7e7d91303c806463ee589471242e8f622542b8fde7f6feb8756f8201ca9761b6a8cde466  repository/org/jreleaser/jreleaser-config-toml/1.11.0/jreleaser-config-toml-1.11.0.pom
+
+outputs.10.2.filename=jreleaser-config-toml-1.11.0-sources.jar
+outputs.10.2.length=1906
+outputs.10.2.checksums.sha512=6b93437946c58d14716d8bad0ec83b54d59b6b870a966d1fb4a0550b3b5fa6277f3b16c5a380e439659f826c68ce2e94a35f04e04b0bcf7318f4de5899b1a222  repository/org/jreleaser/jreleaser-config-toml/1.11.0/jreleaser-config-toml-1.11.0-sources.jar
+
+
+outputs.11.coordinates=org.jreleaser:jreleaser-config-yaml
+
+outputs.11.0.filename=jreleaser-config-yaml-1.11.0.jar
+outputs.11.0.length=10135
+outputs.11.0.checksums.sha512=a8cbb92edf940079d6b42de1122fb04f2b44d14c80ad0ad0d6eef4aec0a7cfcaef4a3f0f231ef817d2201c76f3a89a20b33f2e7c11d581762a9b806f16378707  repository/org/jreleaser/jreleaser-config-yaml/1.11.0/jreleaser-config-yaml-1.11.0.jar
+
+outputs.11.1.filename=jreleaser-config-yaml-1.11.0.pom
+outputs.11.1.length=2652
+outputs.11.1.checksums.sha512=db0090ec4874285bace8cd9432b64d96f054043ae34a82694690f7207291ae073e374162a5d4d81323dfd9873edb5ba4c5ea5451a2257ba973c727e93a49edd6  repository/org/jreleaser/jreleaser-config-yaml/1.11.0/jreleaser-config-yaml-1.11.0.pom
+
+outputs.11.2.filename=jreleaser-config-yaml-1.11.0-sources.jar
+outputs.11.2.length=2382
+outputs.11.2.checksums.sha512=5e942b6ffec13c9c9ddb608285240ac401897c7bc187ceabd890ae12e597fa43a568db3d8ee64a954d1e4d07fa77a5b879f47fb4e047a62b0ecbdac8a6d0f5b9  repository/org/jreleaser/jreleaser-config-yaml/1.11.0/jreleaser-config-yaml-1.11.0-sources.jar
+
+
+outputs.12.coordinates=org.jreleaser:jreleaser-disco-java-sdk
+
+outputs.12.0.filename=jreleaser-disco-java-sdk-1.11.0.jar
+outputs.12.0.length=18288
+outputs.12.0.checksums.sha512=304dbee669c546cdd1b00cc6de19497a61f917183deeb46ec9c98e85c68584048105fb0922b6787aefe026a3b7b709f37bfe66f924fbea9551b6eabc91b471bf  repository/org/jreleaser/jreleaser-disco-java-sdk/1.11.0/jreleaser-disco-java-sdk-1.11.0.jar
+
+outputs.12.1.filename=jreleaser-disco-java-sdk-1.11.0.pom
+outputs.12.1.length=2657
+outputs.12.1.checksums.sha512=e3ceb8614f31cd18936036bab33b36cfdb42ad6510c95f5f952faea007718976858d8589c658c4bfe373bf6b4c1307545aad5e732ab90d2e9bc258e79e99e956  repository/org/jreleaser/jreleaser-disco-java-sdk/1.11.0/jreleaser-disco-java-sdk-1.11.0.pom
+
+outputs.12.2.filename=jreleaser-disco-java-sdk-1.11.0-sources.jar
+outputs.12.2.length=9982
+outputs.12.2.checksums.sha512=1f0e1734ba3135b4b22eb3720bce70bcd34b06f25984e01e51e6396fc3d4fc5934391f9c5c286d5fb7015bf58a50439a89b4ee81377a48a66fd0fd43973c5f0b  repository/org/jreleaser/jreleaser-disco-java-sdk/1.11.0/jreleaser-disco-java-sdk-1.11.0-sources.jar
+
+
+outputs.13.coordinates=org.jreleaser:jreleaser-discord-java-sdk
+
+outputs.13.0.filename=jreleaser-discord-java-sdk-1.11.0.jar
+outputs.13.0.length=10589
+outputs.13.0.checksums.sha512=26060263fd02b6b3e184d86780de1c6a3ae14d7631fede6f89d6bff79ced18eb132a4a6b869228505fd5686819aea8fedbbdd02378cd8b50392e7683be30d740  repository/org/jreleaser/jreleaser-discord-java-sdk/1.11.0/jreleaser-discord-java-sdk-1.11.0.jar
+
+outputs.13.1.filename=jreleaser-discord-java-sdk-1.11.0.pom
+outputs.13.1.length=1556
+outputs.13.1.checksums.sha512=8213d7a5297cb2ec2de8d0ec3bbecc492ea8a250ba0b1e1969d3c88f2fd59f02f1e047716349f6ae47991060ee048e8b84766ccb19205b5a37a092293dd4c31d  repository/org/jreleaser/jreleaser-discord-java-sdk/1.11.0/jreleaser-discord-java-sdk-1.11.0.pom
+
+outputs.13.2.filename=jreleaser-discord-java-sdk-1.11.0-sources.jar
+outputs.13.2.length=3487
+outputs.13.2.checksums.sha512=7a695d7e2e827688673f7ab246c33330f842621e49579fb2bbbeb590fb0343fa4023b4d687a862d82fc7ba0730a3bb6aa8299fe60151bfefa9db02aa0f8d5b77  repository/org/jreleaser/jreleaser-discord-java-sdk/1.11.0/jreleaser-discord-java-sdk-1.11.0-sources.jar
+
+
+outputs.14.coordinates=org.jreleaser:jreleaser-discourse-java-sdk
+
+outputs.14.0.filename=jreleaser-discourse-java-sdk-1.11.0.jar
+outputs.14.0.length=20978
+outputs.14.0.checksums.sha512=c2a30b589caadaf5bf0e79b93b818b89a6c98852f75e33775aa3507e4e8dd4f7684c8d2509157503cbe83f2f8205e10783957f2a16323444b4f1596153f9ba01  repository/org/jreleaser/jreleaser-discourse-java-sdk/1.11.0/jreleaser-discourse-java-sdk-1.11.0.jar
+
+outputs.14.1.filename=jreleaser-discourse-java-sdk-1.11.0.pom
+outputs.14.1.length=1559
+outputs.14.1.checksums.sha512=29e1877f0be0d7457b2712e202ed65a34ab68b77775c316382a3ef4004616a0b9c108769c508e0cf7e7edc4f45c61ebd3466bde0d8e94d3aea91dcceb996763c  repository/org/jreleaser/jreleaser-discourse-java-sdk/1.11.0/jreleaser-discourse-java-sdk-1.11.0.pom
+
+outputs.14.2.filename=jreleaser-discourse-java-sdk-1.11.0-sources.jar
+outputs.14.2.length=9984
+outputs.14.2.checksums.sha512=46af1d0e12b8b3c3c584335db93c94101ebd30aef32a8089b63fd7fee156f95fe9bb58e46171d05921ed1a7d49c1499784e9407be4a059fa2be91dda75a4f358  repository/org/jreleaser/jreleaser-discourse-java-sdk/1.11.0/jreleaser-discourse-java-sdk-1.11.0-sources.jar
+
+
+outputs.15.coordinates=org.jreleaser:jreleaser-engine
+
+outputs.15.0.filename=jreleaser-engine-1.11.0.jar
+outputs.15.0.length=379221
+outputs.15.0.checksums.sha512=8c13dfb782596aff441cadcfec6baa840c6f09f58cac9924da9a8e95ea2f5c57a850c52c61325b48704d2939014940f5a42a97703feaafd2372a9cd333904010  repository/org/jreleaser/jreleaser-engine/1.11.0/jreleaser-engine-1.11.0.jar
+
+outputs.15.1.filename=jreleaser-engine-1.11.0.pom
+outputs.15.1.length=7735
+outputs.15.1.checksums.sha512=1cd7805d868d7b8ffedc4e98adcc267940f21b010d22926ca0ddcbc170f534f0ce406dfb6024a7457678d529d377173d2dacdf216a432e03ce46fa37ee7e9104  repository/org/jreleaser/jreleaser-engine/1.11.0/jreleaser-engine-1.11.0.pom
+
+outputs.15.2.filename=jreleaser-engine-1.11.0-sources.jar
+outputs.15.2.length=193831
+outputs.15.2.checksums.sha512=7f732127039dbbf3bbbea2244a4c7fd8c75fee96a469c158ed6eab0f8a9afb55a4c8cbc0bdd72cd54f821e306f7396fd86717c5e1b659e29501577999d1bf99a  repository/org/jreleaser/jreleaser-engine/1.11.0/jreleaser-engine-1.11.0-sources.jar
+
+
+outputs.16.coordinates=org.jreleaser:jreleaser-ftp-java-sdk
+
+outputs.16.0.filename=jreleaser-ftp-java-sdk-1.11.0.jar
+outputs.16.0.length=17721
+outputs.16.0.checksums.sha512=47462cc147e906b8e1f95c9bddeb570ca341223df92ce757c527664c3ce4c47d78acecc9928615f3c758da1ad2bac2a94ac0af2f79184161f0af8f40a012cf52  repository/org/jreleaser/jreleaser-ftp-java-sdk/1.11.0/jreleaser-ftp-java-sdk-1.11.0.jar
+
+outputs.16.1.filename=jreleaser-ftp-java-sdk-1.11.0.pom
+outputs.16.1.length=1710
+outputs.16.1.checksums.sha512=0e95c30fa4ece44e7ad2596953e4786ff19beba0f06be16fe0e4aa0c593961202b922904a722b2d4e77a5e2e8b9d7d8bfc58a56d4afb3a6b0ba8c4cc6ebcb4b4  repository/org/jreleaser/jreleaser-ftp-java-sdk/1.11.0/jreleaser-ftp-java-sdk-1.11.0.pom
+
+outputs.16.2.filename=jreleaser-ftp-java-sdk-1.11.0-sources.jar
+outputs.16.2.length=7080
+outputs.16.2.checksums.sha512=d0e5f2ce63e2e3da3f8dba023985dc72c54c139bcd978e772931b7f2f3b2eb0774b63365e4301be4548bd9ec154c2b61f7ca19614f3a0d474c77a0fed6beeef8  repository/org/jreleaser/jreleaser-ftp-java-sdk/1.11.0/jreleaser-ftp-java-sdk-1.11.0-sources.jar
+
+
+outputs.17.coordinates=org.jreleaser:jreleaser-genericgit-java-sdk
+
+outputs.17.0.filename=jreleaser-genericgit-java-sdk-1.11.0.jar
+outputs.17.0.length=10983
+outputs.17.0.checksums.sha512=4fa6cbd1fb951ca93dc714b5ba61ad464e0382c7c6f44d9b7db7a0cfd9c5e3a9eed3057030772b18a14f7dc9fc8f0e09eb74dde5fa5d73bd319af8b756a28ea5  repository/org/jreleaser/jreleaser-genericgit-java-sdk/1.11.0/jreleaser-genericgit-java-sdk-1.11.0.jar
+
+outputs.17.1.filename=jreleaser-genericgit-java-sdk-1.11.0.pom
+outputs.17.1.length=1572
+outputs.17.1.checksums.sha512=0791f39e35d91bd1c7b0c6fc87ae86eb3fa4470ae94bdff814f495ab3c4a489931600acb1f661e6c5ef57223360fee332376a83bfa05b4f22b86551596eed62c  repository/org/jreleaser/jreleaser-genericgit-java-sdk/1.11.0/jreleaser-genericgit-java-sdk-1.11.0.pom
+
+outputs.17.2.filename=jreleaser-genericgit-java-sdk-1.11.0-sources.jar
+outputs.17.2.length=3805
+outputs.17.2.checksums.sha512=bf094c44d1919aeca7050d063aa34da1016917c2ea2fde8137d1c2187faf62e7d0a1273b3eb5d6ecda3718a837c6cce494c4e81f81e6f8fac74225272aa7d7b1  repository/org/jreleaser/jreleaser-genericgit-java-sdk/1.11.0/jreleaser-genericgit-java-sdk-1.11.0-sources.jar
+
+
+outputs.18.coordinates=org.jreleaser:jreleaser-gitea-java-sdk
+
+outputs.18.0.filename=jreleaser-gitea-java-sdk-1.11.0.jar
+outputs.18.0.length=47484
+outputs.18.0.checksums.sha512=0722e2103d2774ed0238b4d2494bef4d5dcfb53b8ed84d5ccf3fc9c4445650225a507512416bd350de07a414a8f6520f1cc899bed8ba72d93518d01e5d91f79c  repository/org/jreleaser/jreleaser-gitea-java-sdk/1.11.0/jreleaser-gitea-java-sdk-1.11.0.jar
+
+outputs.18.1.filename=jreleaser-gitea-java-sdk-1.11.0.pom
+outputs.18.1.length=1551
+outputs.18.1.checksums.sha512=eacfc2e3610af120228a7946c79fa35e95d0d5ba863fbb331f269db9396bc4303b1aed8488baec5e1091b6e38a0c692a4494c71ae7a68ed8ab0d7e9e9eda836f  repository/org/jreleaser/jreleaser-gitea-java-sdk/1.11.0/jreleaser-gitea-java-sdk-1.11.0.pom
+
+outputs.18.2.filename=jreleaser-gitea-java-sdk-1.11.0-sources.jar
+outputs.18.2.length=28467
+outputs.18.2.checksums.sha512=0bdfe4b86aaa85e47815157add797f8f5a474851827506e64701118b838edc7ba96b8b538faa25e2fb66def0f3e171a5b84cf0d6f30a449a49b3ecf3e3f8e979  repository/org/jreleaser/jreleaser-gitea-java-sdk/1.11.0/jreleaser-gitea-java-sdk-1.11.0-sources.jar
+
+
+outputs.19.coordinates=org.jreleaser:jreleaser-github-java-sdk
+
+outputs.19.0.filename=jreleaser-github-java-sdk-1.11.0.jar
+outputs.19.0.length=56946
+outputs.19.0.checksums.sha512=7566531b985ad86f0f32347ff647018162416e548bdb9bb160d7eaec380899d1a8bd3edd028d6cf03741b85d6fba6fbef6356939ced7ef63767199d803f0a66e  repository/org/jreleaser/jreleaser-github-java-sdk/1.11.0/jreleaser-github-java-sdk-1.11.0.jar
+
+outputs.19.1.filename=jreleaser-github-java-sdk-1.11.0.pom
+outputs.19.1.length=1553
+outputs.19.1.checksums.sha512=f51fa115325a7d9dcb22f2c1e574fca8e2a01ce8d26e4ce2d6ed4c887d89e600712d41cd571fd1c1cf2d94f26ec1f35b23ad9a1606d1348116a3a60dd433ac18  repository/org/jreleaser/jreleaser-github-java-sdk/1.11.0/jreleaser-github-java-sdk-1.11.0.pom
+
+outputs.19.2.filename=jreleaser-github-java-sdk-1.11.0-sources.jar
+outputs.19.2.length=35058
+outputs.19.2.checksums.sha512=f843e72fa2ce6cad19471170780ee74d024b377d0e5d1171819d49686f9a5d498077e05b62866710652eef6d9271d270e8d8109993b7d224beca8c106ae60989  repository/org/jreleaser/jreleaser-github-java-sdk/1.11.0/jreleaser-github-java-sdk-1.11.0-sources.jar
+
+
+outputs.20.coordinates=org.jreleaser:jreleaser-git-java-sdk
+
+outputs.20.0.filename=jreleaser-git-java-sdk-1.11.0.jar
+outputs.20.0.length=61831
+outputs.20.0.checksums.sha512=6425ea0a849457cc296dbf71feda74feed7c9730d04a9c3ee3f6d5c29a70c5e440fe0febc050710d8964a72f6dcdc35f65e7f39f076e551d4388ee71a6608852  repository/org/jreleaser/jreleaser-git-java-sdk/1.11.0/jreleaser-git-java-sdk-1.11.0.jar
+
+outputs.20.1.filename=jreleaser-git-java-sdk-1.11.0.pom
+outputs.20.1.length=1713
+outputs.20.1.checksums.sha512=d1435434b32bd430efaa423b842481ebe3d84197848de1715b77868f1e1fb91e651c78cbad342f1b23256388a9cb74478e09978e1e0beac38351337032929914  repository/org/jreleaser/jreleaser-git-java-sdk/1.11.0/jreleaser-git-java-sdk-1.11.0.pom
+
+outputs.20.2.filename=jreleaser-git-java-sdk-1.11.0-sources.jar
+outputs.20.2.length=21948
+outputs.20.2.checksums.sha512=8cfc4e584c5bb016482a2161393bcdcf1673dd17a35b64d0d2dc1e556b2355560288ae657971ebf4eff60d7370713990f02083900a297388b5f2e5e6366984e5  repository/org/jreleaser/jreleaser-git-java-sdk/1.11.0/jreleaser-git-java-sdk-1.11.0-sources.jar
+
+
+outputs.21.coordinates=org.jreleaser:jreleaser-gitlab-java-sdk
+
+outputs.21.0.filename=jreleaser-gitlab-java-sdk-1.11.0.jar
+outputs.21.0.length=58951
+outputs.21.0.checksums.sha512=8110a50ab8e18fad4f43017b2a5013e0144574083048eb02a0f56372cd1e3e864462d62e15b33f34f689c8363ab81833ce954d5e567718fb366b034a70dbbb06  repository/org/jreleaser/jreleaser-gitlab-java-sdk/1.11.0/jreleaser-gitlab-java-sdk-1.11.0.jar
+
+outputs.21.1.filename=jreleaser-gitlab-java-sdk-1.11.0.pom
+outputs.21.1.length=1553
+outputs.21.1.checksums.sha512=e093060ad559fd7789c52da10480760e2b46c0f64eae7b1f242685f9359d3e793220da87137cfc99f9106be1213988356986a7f96e345c4473d978b77c27dbff  repository/org/jreleaser/jreleaser-gitlab-java-sdk/1.11.0/jreleaser-gitlab-java-sdk-1.11.0.pom
+
+outputs.21.2.filename=jreleaser-gitlab-java-sdk-1.11.0-sources.jar
+outputs.21.2.length=34891
+outputs.21.2.checksums.sha512=04372622ac1328e6b73d45c5949b19be0550a9c53fa8f0653062557a4bfe7aacd73ee324c89fdd65716a22cef72e1d9d865c9c958e8c55415bb2f85d9abbf403  repository/org/jreleaser/jreleaser-gitlab-java-sdk/1.11.0/jreleaser-gitlab-java-sdk-1.11.0-sources.jar
+
+
+outputs.22.coordinates=org.jreleaser:jreleaser-gitter-java-sdk
+
+outputs.22.0.filename=jreleaser-gitter-java-sdk-1.11.0.jar
+outputs.22.0.length=10563
+outputs.22.0.checksums.sha512=bd97e7ea312b7feb812d191141b1c2617589fff93df8eddfaa99cb6f2c91ef20823985a7183d14da9d453b5c43c66f2ab9382e28ed7b0c9c4f128e798d1a7d18  repository/org/jreleaser/jreleaser-gitter-java-sdk/1.11.0/jreleaser-gitter-java-sdk-1.11.0.jar
+
+outputs.22.1.filename=jreleaser-gitter-java-sdk-1.11.0.pom
+outputs.22.1.length=1554
+outputs.22.1.checksums.sha512=e3a23c556cd59041c1f6ecb1dd866e3d37403430dc082edeb37531534bc013397e5a32158a370f64018cc372badabf384f9c512eb447a83cb86f97de72bc834c  repository/org/jreleaser/jreleaser-gitter-java-sdk/1.11.0/jreleaser-gitter-java-sdk-1.11.0.pom
+
+outputs.22.2.filename=jreleaser-gitter-java-sdk-1.11.0-sources.jar
+outputs.22.2.length=3467
+outputs.22.2.checksums.sha512=e8769725605fc56c2242389e21f5a601ac44facac5b91af190043a1ac25e8067d5889c408ce276426835c6a65c16522be40bc24f30a8b86294a6340373639961  repository/org/jreleaser/jreleaser-gitter-java-sdk/1.11.0/jreleaser-gitter-java-sdk-1.11.0-sources.jar
+
+
+outputs.23.coordinates=org.jreleaser:jreleaser-google-chat-java-sdk
+
+outputs.23.0.filename=jreleaser-google-chat-java-sdk-1.11.0.jar
+outputs.23.0.length=10718
+outputs.23.0.checksums.sha512=1877b2bc26b0705aa3fe908e3b3ab93e656d4fdb9e8bc6e488c6c87b881adf40deb0c81c2fca05887cf260cdefb652e2f74cd133a3c507ea9ef5bc6f9595c0c5  repository/org/jreleaser/jreleaser-google-chat-java-sdk/1.11.0/jreleaser-google-chat-java-sdk-1.11.0.jar
+
+outputs.23.1.filename=jreleaser-google-chat-java-sdk-1.11.0.pom
+outputs.23.1.length=1564
+outputs.23.1.checksums.sha512=475dc65d16dada0925c39bf58b0b68fc04226f25b008c3e61d5e140322ce5fa27464443a90bde3c98f0b3c1fc43c1d0aef40f40cc099c8d7786b1aa6b0a4c2c4  repository/org/jreleaser/jreleaser-google-chat-java-sdk/1.11.0/jreleaser-google-chat-java-sdk-1.11.0.pom
+
+outputs.23.2.filename=jreleaser-google-chat-java-sdk-1.11.0-sources.jar
+outputs.23.2.length=3550
+outputs.23.2.checksums.sha512=37f11a7fb52666bb83f75d0ba212d3d45f5e04816eea133d8e42389caa6dc90e8f229e276f8fd224bb39b85484a79e3fcc8df8e92842d428a8bbfa9fa4f14296  repository/org/jreleaser/jreleaser-google-chat-java-sdk/1.11.0/jreleaser-google-chat-java-sdk-1.11.0-sources.jar
+
+
+outputs.24.coordinates=org.jreleaser:jreleaser-graalvm-sdk
+
+outputs.24.0.filename=jreleaser-graalvm-sdk-1.11.0.jar
+outputs.24.0.length=7637
+outputs.24.0.checksums.sha512=1fceb87fe954beb6993c7341fed5e9247231a7ba8231be0b970c9bc27c31a548104951a7db9783ca0a583fbba2b3c5075cf7f0dfa3aa3f8af9ff9385d0249afb  repository/org/jreleaser/jreleaser-graalvm-sdk/1.11.0/jreleaser-graalvm-sdk-1.11.0.jar
+
+outputs.24.1.filename=jreleaser-graalvm-sdk-1.11.0.pom
+outputs.24.1.length=1544
+outputs.24.1.checksums.sha512=04775594e39d7283ea8b8ce3cc67e2351e8d9c656bcf05f7d336913138ec085d1cda3fe62a6f01519c1e33b9fe0472b2be1ca80f84382242a7234654c3c68f75  repository/org/jreleaser/jreleaser-graalvm-sdk/1.11.0/jreleaser-graalvm-sdk-1.11.0.pom
+
+outputs.24.2.filename=jreleaser-graalvm-sdk-1.11.0-sources.jar
+outputs.24.2.length=1880
+outputs.24.2.checksums.sha512=3785e9b41c3c58ac95583b59782f9d6ae8424210e59e1f07fa73703a70f73e3ec5a9f58203b494ffdd545ca5874a234aba680154eec3ec84e9dbe025402b5595  repository/org/jreleaser/jreleaser-graalvm-sdk/1.11.0/jreleaser-graalvm-sdk-1.11.0-sources.jar
+
+
+outputs.25.coordinates=org.jreleaser:jreleaser-http-java-sdk
+
+outputs.25.0.filename=jreleaser-http-java-sdk-1.11.0.jar
+outputs.25.0.length=22643
+outputs.25.0.checksums.sha512=cf6baf99498f5f01ef63c337c7e2e92a9c3ab5d488c83b81e276636fad17fccb7100c1edeec2b4755ee571d24bcd1b40833bb56bc36044b82aca665d010a0b93  repository/org/jreleaser/jreleaser-http-java-sdk/1.11.0/jreleaser-http-java-sdk-1.11.0.jar
+
+outputs.25.1.filename=jreleaser-http-java-sdk-1.11.0.pom
+outputs.25.1.length=1557
+outputs.25.1.checksums.sha512=c99294f0f0e89da02bc65e3b123955e44123e55822223e3eb5a741e751b407465db7b45d6978aa7da4b250b1b11818157c933e38b5a9f5b3489d4a1575a645df  repository/org/jreleaser/jreleaser-http-java-sdk/1.11.0/jreleaser-http-java-sdk-1.11.0.pom
+
+outputs.25.2.filename=jreleaser-http-java-sdk-1.11.0-sources.jar
+outputs.25.2.length=9339
+outputs.25.2.checksums.sha512=901d1297118b69e6f6cdc873aa3ae518accbacca4705f042e8c69dcecbfb3869929489aede77b1d873aee7ebba85d35f17a1eca42dc34497f4c0f9ecc438aa36  repository/org/jreleaser/jreleaser-http-java-sdk/1.11.0/jreleaser-http-java-sdk-1.11.0-sources.jar
+
+
+outputs.26.coordinates=org.jreleaser:jreleaser-java-sdk-commons
+
+outputs.26.0.filename=jreleaser-java-sdk-commons-1.11.0.jar
+outputs.26.0.length=38979
+outputs.26.0.checksums.sha512=43d54a6f844941714410c18320ff95688c36d2732252d26e23fc488c10a859d16433000ac1266a7a1b64e01e136ada1c44ede7f573da4212fb05fffe920b896a  repository/org/jreleaser/jreleaser-java-sdk-commons/1.11.0/jreleaser-java-sdk-commons-1.11.0.jar
+
+outputs.26.1.filename=jreleaser-java-sdk-commons-1.11.0.pom
+outputs.26.1.length=3775
+outputs.26.1.checksums.sha512=5042510ad531cc10ac827c00a6984e2f39e6cd4c4f162acd5e2ce738bd5826c69dfe96137fd7af4f18a13655832c762e9c6fd0b88881cf7d78f80b49e8f0378e  repository/org/jreleaser/jreleaser-java-sdk-commons/1.11.0/jreleaser-java-sdk-commons-1.11.0.pom
+
+outputs.26.2.filename=jreleaser-java-sdk-commons-1.11.0-sources.jar
+outputs.26.2.length=16750
+outputs.26.2.checksums.sha512=d3e6195160bc8faa3b4d985ae12df94fa7ec6a0718e08cbbbbf9924b046a6eec562aaed9e672b1138fff16a45f3de2e4c61e50e64e992809de681cfc077a5b31  repository/org/jreleaser/jreleaser-java-sdk-commons/1.11.0/jreleaser-java-sdk-commons-1.11.0-sources.jar
+
+
+outputs.27.coordinates=org.jreleaser:jreleaser-linkedin-java-sdk
+
+outputs.27.0.filename=jreleaser-linkedin-java-sdk-1.11.0.jar
+outputs.27.0.length=20110
+outputs.27.0.checksums.sha512=3022c95903a03fda19d6e1640048694db0ffdd7c9607828aab8f4574352ae7edec4b2af7fc8ff7a328ad2ba58e149a1265854f997f5788403d5df56476aa1157  repository/org/jreleaser/jreleaser-linkedin-java-sdk/1.11.0/jreleaser-linkedin-java-sdk-1.11.0.jar
+
+outputs.27.1.filename=jreleaser-linkedin-java-sdk-1.11.0.pom
+outputs.27.1.length=1557
+outputs.27.1.checksums.sha512=32a56db76ae2f867302092cf2412357c710b63a64763e1b905f970541bbac869aee709f7f31762ea80da5874d6fabbe9296e7748e7c593fc1a724e3b9f3c3e4a  repository/org/jreleaser/jreleaser-linkedin-java-sdk/1.11.0/jreleaser-linkedin-java-sdk-1.11.0.pom
+
+outputs.27.2.filename=jreleaser-linkedin-java-sdk-1.11.0-sources.jar
+outputs.27.2.length=9283
+outputs.27.2.checksums.sha512=c21023e41286609edca945450dc8a54c4d5aec0f8fbd895f9d952963f3b9068564eb615df3685f8ca3f050cff32de9fc7d768ddbe5ef2a93e37c9fec771ec6fd  repository/org/jreleaser/jreleaser-linkedin-java-sdk/1.11.0/jreleaser-linkedin-java-sdk-1.11.0-sources.jar
+
+
+outputs.28.coordinates=org.jreleaser:jreleaser-logger-api
+
+outputs.28.0.filename=jreleaser-logger-api-1.11.0.jar
+outputs.28.0.length=12749
+outputs.28.0.checksums.sha512=3cc0972f506ba2a714d2d8cd8ca4f83d28dc71e3496d1999cf33f95730f5e1ac605017870a6a57f53a35420f7347623607bbac32191d3ce1b7fafcf690f392c4  repository/org/jreleaser/jreleaser-logger-api/1.11.0/jreleaser-logger-api-1.11.0.jar
+
+outputs.28.1.filename=jreleaser-logger-api-1.11.0.pom
+outputs.28.1.length=1676
+outputs.28.1.checksums.sha512=661785a2d874c52cdb6e06a13a028324f665372d5aa3d7eb0db03e75f70cd6aaa4e473d8ad5437e43fa473198177263a62dedb8a168e4ce42e32ecd7c85e794d  repository/org/jreleaser/jreleaser-logger-api/1.11.0/jreleaser-logger-api-1.11.0.pom
+
+outputs.28.2.filename=jreleaser-logger-api-1.11.0-sources.jar
+outputs.28.2.length=4217
+outputs.28.2.checksums.sha512=ccc7904e4cab380035f08baf467afce99ecc3e20fadf6f0f31f18346eb70349cbeee1e37df6b01f5f6d6f6aef2daf3e07926507b03061ed651116976030f3114  repository/org/jreleaser/jreleaser-logger-api/1.11.0/jreleaser-logger-api-1.11.0-sources.jar
+
+
+outputs.29.coordinates=org.jreleaser:jreleaser-mastodon-java-sdk
+
+outputs.29.0.filename=jreleaser-mastodon-java-sdk-1.11.0.jar
+outputs.29.0.length=19463
+outputs.29.0.checksums.sha512=65252895c5c81761c58b91e5953273d21265b075259eff44d9f3b45b90a0c388caf879ec0c4f453b6539c2355bb438049a765d194f0634b6bdc7a27fefd3c09f  repository/org/jreleaser/jreleaser-mastodon-java-sdk/1.11.0/jreleaser-mastodon-java-sdk-1.11.0.jar
+
+outputs.29.1.filename=jreleaser-mastodon-java-sdk-1.11.0.pom
+outputs.29.1.length=1557
+outputs.29.1.checksums.sha512=a8074587bbed109e13cebb835893d3ca0f1b2f9a58bd4f788386ad2d9c9feafaa3a168785b73ad347f6284d3368f67714adba5fb1fe43963b6db4b8b0987b8ac  repository/org/jreleaser/jreleaser-mastodon-java-sdk/1.11.0/jreleaser-mastodon-java-sdk-1.11.0.pom
+
+outputs.29.2.filename=jreleaser-mastodon-java-sdk-1.11.0-sources.jar
+outputs.29.2.length=8527
+outputs.29.2.checksums.sha512=722866b549f624541a037e97b43c91583fdde45b40c43c754330f0b1d7d75e8413980534e1b7c461a8ea2e444156d035bfa7174c34574743665fd019b64cbd2f  repository/org/jreleaser/jreleaser-mastodon-java-sdk/1.11.0/jreleaser-mastodon-java-sdk-1.11.0-sources.jar
+
+
+outputs.30.coordinates=org.jreleaser:jreleaser-mattermost-java-sdk
+
+outputs.30.0.filename=jreleaser-mattermost-java-sdk-1.11.0.jar
+outputs.30.0.length=10688
+outputs.30.0.checksums.sha512=306178adb45aa713c31683f2a8bf3ececd88f963fcbaff7ffc0c1dc7a6c15f4c357150151e9e7453b6d93b44421aab77a40b135854b03c3082e0dd339f412229  repository/org/jreleaser/jreleaser-mattermost-java-sdk/1.11.0/jreleaser-mattermost-java-sdk-1.11.0.jar
+
+outputs.30.1.filename=jreleaser-mattermost-java-sdk-1.11.0.pom
+outputs.30.1.length=1562
+outputs.30.1.checksums.sha512=6dc616410b7c5bbd440b2f09f5ce7b77eec5d65d5b07bec71758ba3bc07212296bbf44b7e3aa9ba2ec20feb64e7fcaf24b6aeff93317339738a339201a2311eb  repository/org/jreleaser/jreleaser-mattermost-java-sdk/1.11.0/jreleaser-mattermost-java-sdk-1.11.0.pom
+
+outputs.30.2.filename=jreleaser-mattermost-java-sdk-1.11.0-sources.jar
+outputs.30.2.length=3543
+outputs.30.2.checksums.sha512=91f6300d30a4a864e61e7a634660daeffc40ab3889f665495fe5058343f0538e5f91f47260cb71f31442876ac20c716a2d90bacb612358912ecec4afb520bdc5  repository/org/jreleaser/jreleaser-mattermost-java-sdk/1.11.0/jreleaser-mattermost-java-sdk-1.11.0-sources.jar
+
+
+outputs.31.coordinates=org.jreleaser:jreleaser-maven-plugin
+
+outputs.31.0.filename=jreleaser-maven-plugin-1.11.0.jar
+outputs.31.0.length=75470
+outputs.31.0.checksums.sha512=9cb66a48c489e96f4d24fa626444127a6da0ddb34dce9daf1fbebba98026419bff7fa322889280769fffcdf9f97243c7504aad67f78146221f24ed6a03e33f9a  repository/org/jreleaser/jreleaser-maven-plugin/1.11.0/jreleaser-maven-plugin-1.11.0.jar
+
+outputs.31.1.filename=jreleaser-maven-plugin-1.11.0.pom
+outputs.31.1.length=3215
+outputs.31.1.checksums.sha512=14f72ab5b36d01400ea18f509f6ccec2e04ddbbd0a9bb74252d1fa1f041aa9e2587cb7992d051dc4905c36b98b38e127c56313a15086067d1b3d882609c63271  repository/org/jreleaser/jreleaser-maven-plugin/1.11.0/jreleaser-maven-plugin-1.11.0.pom
+
+outputs.31.2.filename=jreleaser-maven-plugin-1.11.0-sources.jar
+outputs.31.2.length=43210
+outputs.31.2.checksums.sha512=b4c83cd1b8dc8a41831f52b54a66390727323b3f8f07b4d3854be3138486fbaffea3e9a98478aa54d9d8cb169f8fdf8a4354555863ed2cb092f8429f77f3c435  repository/org/jreleaser/jreleaser-maven-plugin/1.11.0/jreleaser-maven-plugin-1.11.0-sources.jar
+
+
+outputs.32.coordinates=org.jreleaser:jreleaser-model-api
+
+outputs.32.0.filename=jreleaser-model-api-1.11.0.jar
+outputs.32.0.length=231328
+outputs.32.0.checksums.sha512=653cbe9069a11d224c4fdb865f97f52514cc6f43faa24aa92759e9e16ecae1f2106fab69a4dd4ddad08afcbe9391572f1f7607ddaf56b853744b460939cc6633  repository/org/jreleaser/jreleaser-model-api/1.11.0/jreleaser-model-api-1.11.0.jar
+
+outputs.32.1.filename=jreleaser-model-api-1.11.0.pom
+outputs.32.1.length=2023
+outputs.32.1.checksums.sha512=89ae71a2df4875d5946cef0cddf450e3c6eaaecd5b8478c00d63d098e2e6768d27bea99d97339a2dfca1b9159060529c35990083e75ed46b47479e44b8f98622  repository/org/jreleaser/jreleaser-model-api/1.11.0/jreleaser-model-api-1.11.0.pom
+
+outputs.32.2.filename=jreleaser-model-api-1.11.0-sources.jar
+outputs.32.2.length=174064
+outputs.32.2.checksums.sha512=854ed7f8383b4ef9a42a69bc15a1bfa17bad178d749fdfc86879bc6f20a2dafa2a0c2c36b1ca675f5669428fb5d0cdcc3a91e368e0b05a31bd4333a71a1dcf5c  repository/org/jreleaser/jreleaser-model-api/1.11.0/jreleaser-model-api-1.11.0-sources.jar
+
+
+outputs.33.coordinates=org.jreleaser:jreleaser-model-impl
+
+outputs.33.0.filename=jreleaser-model-impl-1.11.0.jar
+outputs.33.0.length=1155572
+outputs.33.0.checksums.sha512=e45b28d96125ddfcc7329ecb9d2d302c6500483994b3af9c82ba28a12edc3b81b19f881b08935b537acf072d94074688b31a14e356d4a54a729ad4b2917b9642  repository/org/jreleaser/jreleaser-model-impl/1.11.0/jreleaser-model-impl-1.11.0.jar
+
+outputs.33.1.filename=jreleaser-model-impl-1.11.0.pom
+outputs.33.1.length=2045
+outputs.33.1.checksums.sha512=f985b5c7ffce4f07d7d1b1f472f1a67bc9751593f416b84749cb91b52152b5dc5fef8fda140b0e513cf4ab8345a700e7619e513902638dd3d0f339dd49e0ac06  repository/org/jreleaser/jreleaser-model-impl/1.11.0/jreleaser-model-impl-1.11.0.pom
+
+outputs.33.2.filename=jreleaser-model-impl-1.11.0-sources.jar
+outputs.33.2.length=557102
+outputs.33.2.checksums.sha512=bcca19abbcd5dfbfb67d892cacf7de481aba1fd24e7ee5513d4678ce5b76ac5a2552991324bb06615d9cc722e1128d17f23254cd42e735fa606c31f4436a07da  repository/org/jreleaser/jreleaser-model-impl/1.11.0/jreleaser-model-impl-1.11.0-sources.jar
+
+
+outputs.34.coordinates=org.jreleaser:jreleaser-nexus2-java-sdk
+
+outputs.34.0.filename=jreleaser-nexus2-java-sdk-1.11.0.jar
+outputs.34.0.length=39857
+outputs.34.0.checksums.sha512=f88f10bfade10a38f5b151a712bd8021c0f47355ffe6bf18e916c1a30bc2deffb694a9341b43779075e5ddafc7ae627621027a4b4879efa2c09415b5bed59f86  repository/org/jreleaser/jreleaser-nexus2-java-sdk/1.11.0/jreleaser-nexus2-java-sdk-1.11.0.jar
+
+outputs.34.1.filename=jreleaser-nexus2-java-sdk-1.11.0.pom
+outputs.34.1.length=2063
+outputs.34.1.checksums.sha512=323f315a61b357c044fe1be0b078b3e90b5080316d6d693faac8ce80f802bf466f0cf20ecae18c9291442c07d096fd9d5786680c3691df3b8ea79b73f0cf9592  repository/org/jreleaser/jreleaser-nexus2-java-sdk/1.11.0/jreleaser-nexus2-java-sdk-1.11.0.pom
+
+outputs.34.2.filename=jreleaser-nexus2-java-sdk-1.11.0-sources.jar
+outputs.34.2.length=18369
+outputs.34.2.checksums.sha512=3115a495b66fd4054f585495d7a0afee1fad282caa518e0e575f34d61fa04b3096b3533f96667c218ebb71846a162b5b49b9d8f0f22f2c6561f0ee0a9afdf18e  repository/org/jreleaser/jreleaser-nexus2-java-sdk/1.11.0/jreleaser-nexus2-java-sdk-1.11.0-sources.jar
+
+
+outputs.35.coordinates=org.jreleaser:jreleaser-opencollective-java-sdk
+
+outputs.35.0.filename=jreleaser-opencollective-java-sdk-1.11.0.jar
+outputs.35.0.length=21936
+outputs.35.0.checksums.sha512=cdd16cd1f5ae4a24c3a5ca32a457990c3a46416a4d42cef8c575fe99cb29fdd8a780ec2e788bd9c2c717dd210a9b1e1a3149af976c08685f68fdae4d97d225c4  repository/org/jreleaser/jreleaser-opencollective-java-sdk/1.11.0/jreleaser-opencollective-java-sdk-1.11.0.jar
+
+outputs.35.1.filename=jreleaser-opencollective-java-sdk-1.11.0.pom
+outputs.35.1.length=1569
+outputs.35.1.checksums.sha512=7d4d90c5d2cd064762a2a85df8844c7b9c6607c51f7d911c1b2a678e3c39ed86cf45d0a3c11c3ce31f64228bad036dfb6131d162d4c138b47ff0e38545683a17  repository/org/jreleaser/jreleaser-opencollective-java-sdk/1.11.0/jreleaser-opencollective-java-sdk-1.11.0.pom
+
+outputs.35.2.filename=jreleaser-opencollective-java-sdk-1.11.0-sources.jar
+outputs.35.2.length=11098
+outputs.35.2.checksums.sha512=b626329d3884ecab3fea3b01b21fa67feeb8dc7fcdc7a57f809b7606bda2cd46429026cab013451b919eedf6bc00c3c7dc90e1dd738784740dcb24d714714c79  repository/org/jreleaser/jreleaser-opencollective-java-sdk/1.11.0/jreleaser-opencollective-java-sdk-1.11.0-sources.jar
+
+
+outputs.36.coordinates=org.jreleaser:jreleaser-resource-bundle
+
+outputs.36.0.filename=jreleaser-resource-bundle-1.11.0.jar
+outputs.36.0.length=47773
+outputs.36.0.checksums.sha512=5f5021c51b7f8114e8942e7392ea8a982ec0784f5bf4c30063dcea50ea7a8ad0cbb9c52837d372aecf7c5247f725b286ccd51df70018bbc69aec97642c4b31a7  repository/org/jreleaser/jreleaser-resource-bundle/1.11.0/jreleaser-resource-bundle-1.11.0.jar
+
+outputs.36.1.filename=jreleaser-resource-bundle-1.11.0.pom
+outputs.36.1.length=1538
+outputs.36.1.checksums.sha512=d4f524a33e9e09218747d08efe31db0e8594fb8025bc62ab77299588f9f72b6454f53c4d8735a11ef59626b7ad955ca98e1f6166839e4a195ee158d8029fc655  repository/org/jreleaser/jreleaser-resource-bundle/1.11.0/jreleaser-resource-bundle-1.11.0.pom
+
+outputs.36.2.filename=jreleaser-resource-bundle-1.11.0-sources.jar
+outputs.36.2.length=41999
+outputs.36.2.checksums.sha512=ed0d5bd7160ec55c9a70fa63ea2a5b4b31c1d6ac8e1c01fffd3babf00b5cc0d9615953b786629da62a0cde53e20c9060da40f40649a9fcc3177bfb8ab08a7025  repository/org/jreleaser/jreleaser-resource-bundle/1.11.0/jreleaser-resource-bundle-1.11.0-sources.jar
+
+
+outputs.37.coordinates=org.jreleaser:jreleaser-s3-java-sdk
+
+outputs.37.0.filename=jreleaser-s3-java-sdk-1.11.0.jar
+outputs.37.0.length=16266
+outputs.37.0.checksums.sha512=568dc86a28573baaf60cf0495acd79a78b9019988f376ffdebdc87bff8482ca6126c097ec7305495ad57385a4222fbfb9bd0331f8f04c6ef227955b556ad781d  repository/org/jreleaser/jreleaser-s3-java-sdk/1.11.0/jreleaser-s3-java-sdk-1.11.0.jar
+
+outputs.37.1.filename=jreleaser-s3-java-sdk-1.11.0.pom
+outputs.37.1.length=2836
+outputs.37.1.checksums.sha512=e06d097ab185c565c775e54b91e9a3022836f830f2becd28d7a4591c331efb82fe4780de359e692625ae375265cf0c6096c84ff501c78e98497553259b6515d2  repository/org/jreleaser/jreleaser-s3-java-sdk/1.11.0/jreleaser-s3-java-sdk-1.11.0.pom
+
+outputs.37.2.filename=jreleaser-s3-java-sdk-1.11.0-sources.jar
+outputs.37.2.length=4529
+outputs.37.2.checksums.sha512=b3acb6bd308f26a1586e895823044f0f746a1188fb080d272e2891c5bec63fa5e1e034d6cdc2c86d20df3303cf86e54c30ce66f4ab86f230f70603b692ac8491  repository/org/jreleaser/jreleaser-s3-java-sdk/1.11.0/jreleaser-s3-java-sdk-1.11.0-sources.jar
+
+
+outputs.38.coordinates=org.jreleaser:jreleaser-sdkman-java-sdk
+
+outputs.38.0.filename=jreleaser-sdkman-java-sdk-1.11.0.jar
+outputs.38.0.length=40295
+outputs.38.0.checksums.sha512=42f20acb6aab647f5b8bccc4bb2ecfdace2460b9304f934a23b02cf53f06aa2d3d7747d37cb05ef0097094ac8adc6176fe3cf27e2f67db9c476b97b2a0e22309  repository/org/jreleaser/jreleaser-sdkman-java-sdk/1.11.0/jreleaser-sdkman-java-sdk-1.11.0.jar
+
+outputs.38.1.filename=jreleaser-sdkman-java-sdk-1.11.0.pom
+outputs.38.1.length=2657
+outputs.38.1.checksums.sha512=b280e45409f91fe39a073adaa33cc51f4b96e40caa2043eae3c3de523013924cd43f5e89eade5e3eb5e99434dd5b3cd2c8a10e8216d4813026539860b2059cba  repository/org/jreleaser/jreleaser-sdkman-java-sdk/1.11.0/jreleaser-sdkman-java-sdk-1.11.0.pom
+
+outputs.38.2.filename=jreleaser-sdkman-java-sdk-1.11.0-sources.jar
+outputs.38.2.length=20220
+outputs.38.2.checksums.sha512=f7bbfc85ee5ae3db229780523f2b8ba5647d698930e96974e213da845b6fe6fa69118eb0988d963f0c278b45b7a24b36a34c970b0f1b3f4b344fe0701bb3e6fd  repository/org/jreleaser/jreleaser-sdkman-java-sdk/1.11.0/jreleaser-sdkman-java-sdk-1.11.0-sources.jar
+
+
+outputs.39.coordinates=org.jreleaser:jreleaser-signing-java-sdk
+
+outputs.39.0.filename=jreleaser-signing-java-sdk-1.11.0.jar
+outputs.39.0.length=19354
+outputs.39.0.checksums.sha512=416d7cf4e1f80dddfdf1a0e2715422acbeb7083b6d438c2a1a4a2f478ccd1d6d7b63698922b0839c134ce5b2ef08ab805eddd5a6b7fa1e539eff857364716995  repository/org/jreleaser/jreleaser-signing-java-sdk/1.11.0/jreleaser-signing-java-sdk-1.11.0.jar
+
+outputs.39.1.filename=jreleaser-signing-java-sdk-1.11.0.pom
+outputs.39.1.length=1873
+outputs.39.1.checksums.sha512=38592a399e8d30e8035bbb915a2523e673d5affd5a36aae1e181d2c91b51540b9c6ef88b978af87d1316f50ff1c40e219f528bac69cddbd6ac25325829a7173e  repository/org/jreleaser/jreleaser-signing-java-sdk/1.11.0/jreleaser-signing-java-sdk-1.11.0.pom
+
+outputs.39.2.filename=jreleaser-signing-java-sdk-1.11.0-sources.jar
+outputs.39.2.length=7685
+outputs.39.2.checksums.sha512=273c4ddd6ab7107f093789bf74a4501daa93d5247ce7d8765fba85096a9afda694195f706553cddd9b6b084bbd96c1000884e5eda7ee80d8d44b400c87e0596e  repository/org/jreleaser/jreleaser-signing-java-sdk/1.11.0/jreleaser-signing-java-sdk-1.11.0-sources.jar
+
+
+outputs.40.coordinates=org.jreleaser:jreleaser-slack-java-sdk
+
+outputs.40.0.filename=jreleaser-slack-java-sdk-1.11.0.jar
+outputs.40.0.length=18997
+outputs.40.0.checksums.sha512=33b9a67378a5402a8cb613a4e3be1a99c6e1f5f5fb7bb4cc0f02b0cab15b967ba240fc8856cdcf92dcf200ffa2bc2b31d588c86cb743b7ca572207c868225251  repository/org/jreleaser/jreleaser-slack-java-sdk/1.11.0/jreleaser-slack-java-sdk-1.11.0.jar
+
+outputs.40.1.filename=jreleaser-slack-java-sdk-1.11.0.pom
+outputs.40.1.length=1551
+outputs.40.1.checksums.sha512=0f5ece3cd8c15fa6d7840b26a03450b063d200aca67b3ca3432b91379f6629f6712bb9ff063a3fd047c82c3c773a791cd38bdb3212a756d78eddffe86be6f588  repository/org/jreleaser/jreleaser-slack-java-sdk/1.11.0/jreleaser-slack-java-sdk-1.11.0.pom
+
+outputs.40.2.filename=jreleaser-slack-java-sdk-1.11.0-sources.jar
+outputs.40.2.length=8957
+outputs.40.2.checksums.sha512=0766275ed60dbd1c7095e922f328812e729f780ea7bbbe2ed6c4fc541d1e73e054f893ded41cd3708c3301550083eaa6585ef6124824ccb9ca7551635c3c4146  repository/org/jreleaser/jreleaser-slack-java-sdk/1.11.0/jreleaser-slack-java-sdk-1.11.0-sources.jar
+
+
+outputs.41.coordinates=org.jreleaser:jreleaser-smtp-java-sdk
+
+outputs.41.0.filename=jreleaser-smtp-java-sdk-1.11.0.jar
+outputs.41.0.length=17536
+outputs.41.0.checksums.sha512=b3dba2293755c14fe22ffabb57f52bd4ae5bb5946222f84db93515c5e220f2f769dbfc50be34429fb6abd39de1da5c18ffa00e5b860c1210792ffac93dbfc188  repository/org/jreleaser/jreleaser-smtp-java-sdk/1.11.0/jreleaser-smtp-java-sdk-1.11.0.jar
+
+outputs.41.1.filename=jreleaser-smtp-java-sdk-1.11.0.pom
+outputs.41.1.length=1691
+outputs.41.1.checksums.sha512=941fe8d2864592ff538b407a47e67be619b6ffefb8d3acbc81d3d5949c7b822d8f630ce08378d0530f6ba855a116999f9711b6f952cf3a62af9a9e4970a9dca6  repository/org/jreleaser/jreleaser-smtp-java-sdk/1.11.0/jreleaser-smtp-java-sdk-1.11.0.pom
+
+outputs.41.2.filename=jreleaser-smtp-java-sdk-1.11.0-sources.jar
+outputs.41.2.length=7378
+outputs.41.2.checksums.sha512=6e152fccc9a731e985c49112bd914768a496d0a24fa816191bbf961fddbab00d9b5954627124ac0c537a84726374498857a69cd4406cbddc2bd1af35fa92fe1c  repository/org/jreleaser/jreleaser-smtp-java-sdk/1.11.0/jreleaser-smtp-java-sdk-1.11.0-sources.jar
+
+
+outputs.42.coordinates=org.jreleaser:jreleaser-ssh-java-sdk
+
+outputs.42.0.filename=jreleaser-ssh-java-sdk-1.11.0.jar
+outputs.42.0.length=24041
+outputs.42.0.checksums.sha512=d8bebd21be30b9cb95085aa44921ec6df648500eca6c9e0d78aa243c906f6f40fe6486028916589f0cca30d6824a98a554e82d1f034cb0b7e205b01952a03dee  repository/org/jreleaser/jreleaser-ssh-java-sdk/1.11.0/jreleaser-ssh-java-sdk-1.11.0.jar
+
+outputs.42.1.filename=jreleaser-ssh-java-sdk-1.11.0.pom
+outputs.42.1.length=2771
+outputs.42.1.checksums.sha512=0e5328903e230c9c64fc0957bb0c7562e9a6b34ce57366b1241bc5f9323cfa35aec94c404307fb222b6c510461ebbca0efbb2b26a23b1691efef99f4f3d1f599  repository/org/jreleaser/jreleaser-ssh-java-sdk/1.11.0/jreleaser-ssh-java-sdk-1.11.0.pom
+
+outputs.42.2.filename=jreleaser-ssh-java-sdk-1.11.0-sources.jar
+outputs.42.2.length=11854
+outputs.42.2.checksums.sha512=96b094f0379003182a9f84dfe1278f1b2a38605b360b677672ea2d7e44fa2e0f65351f2bfc83a712451ad7c5f5e7924fde726b5a27d93ecba999affca832be6a  repository/org/jreleaser/jreleaser-ssh-java-sdk/1.11.0/jreleaser-ssh-java-sdk-1.11.0-sources.jar
+
+
+outputs.43.coordinates=org.jreleaser:jreleaser-teams-java-sdk
+
+outputs.43.0.filename=jreleaser-teams-java-sdk-1.11.0.jar
+outputs.43.0.length=10530
+outputs.43.0.checksums.sha512=90365d5efb94957b47eddc01fcc6a6c807ae434acc00d643f9dfbb9a7bbd9f77c8a481bd89c9b78ae5995bf4b23672876a76f9d0b6cea90416dc6bca69c70a48  repository/org/jreleaser/jreleaser-teams-java-sdk/1.11.0/jreleaser-teams-java-sdk-1.11.0.jar
+
+outputs.43.1.filename=jreleaser-teams-java-sdk-1.11.0.pom
+outputs.43.1.length=1562
+outputs.43.1.checksums.sha512=3b18c13834ab07ea6e4765f36bf791a431ac5958924f3b37e75da5255f22cf5fb8ca0aea83223dbbfbaee3b04a52c421bfb6a595257b9ff636e06be4ce755d8c  repository/org/jreleaser/jreleaser-teams-java-sdk/1.11.0/jreleaser-teams-java-sdk-1.11.0.pom
+
+outputs.43.2.filename=jreleaser-teams-java-sdk-1.11.0-sources.jar
+outputs.43.2.length=3453
+outputs.43.2.checksums.sha512=094c59471b84d3f60f10b748852c7ec0076e1b1f6f094cf6d828f440e8b45b9a4078c8bc5b8b873e6a0360850ad659c011e60a63bf462091568bd2a4ef1a764b  repository/org/jreleaser/jreleaser-teams-java-sdk/1.11.0/jreleaser-teams-java-sdk-1.11.0-sources.jar
+
+
+outputs.44.coordinates=org.jreleaser:jreleaser-telegram-java-sdk
+
+outputs.44.0.filename=jreleaser-telegram-java-sdk-1.11.0.jar
+outputs.44.0.length=17218
+outputs.44.0.checksums.sha512=2c72c155213925b02f96b53f551af974955dd71749cfd0ca4973dc33210c3681d0dd753e115d4aeeba692fccab2af4bf4153e6ba9e958a4fcc63a1ea07090a61  repository/org/jreleaser/jreleaser-telegram-java-sdk/1.11.0/jreleaser-telegram-java-sdk-1.11.0.jar
+
+outputs.44.1.filename=jreleaser-telegram-java-sdk-1.11.0.pom
+outputs.44.1.length=1557
+outputs.44.1.checksums.sha512=2f6260779a905b39f0ded749a8ed1a665b3bd334b514f41f7681f9109583feedaffe6ad289375721f3febf7dcf0f3b699878eba122c4cbf9ad26c9dc74dc1626  repository/org/jreleaser/jreleaser-telegram-java-sdk/1.11.0/jreleaser-telegram-java-sdk-1.11.0.pom
+
+outputs.44.2.filename=jreleaser-telegram-java-sdk-1.11.0-sources.jar
+outputs.44.2.length=7735
+outputs.44.2.checksums.sha512=fe3bd835056395936e1074dda40fd28d5b7af0b57a5f40579489aa55e063ed5d13374dc837551d93ad7ce47518ae73133d6991482f1f2ddf2976609534805659  repository/org/jreleaser/jreleaser-telegram-java-sdk/1.11.0/jreleaser-telegram-java-sdk-1.11.0-sources.jar
+
+
+outputs.45.coordinates=org.jreleaser:jreleaser-templates
+
+outputs.45.0.filename=jreleaser-templates-1.11.0.jar
+outputs.45.0.length=381965
+outputs.45.0.checksums.sha512=e49aaa3fc4d88639d6f2c742568c38244df6dff6810bff3310d1673c6c0bff3846b0d7831f84e11bb2ec2f9df85b344f77cff071dc01e2af231e2230241fefcd  repository/org/jreleaser/jreleaser-templates/1.11.0/jreleaser-templates-1.11.0.jar
+
+outputs.45.1.filename=jreleaser-templates-1.11.0.pom
+outputs.45.1.length=1861
+outputs.45.1.checksums.sha512=d3c966d5419749b4788e7f138d37f20149fef35efc7a50237f2941e8c36cd27d6d55b17692321faa6f2f850f723e6335ede0e05730066da9b4aa180c38915d70  repository/org/jreleaser/jreleaser-templates/1.11.0/jreleaser-templates-1.11.0.pom
+
+outputs.45.2.filename=jreleaser-templates-1.11.0-sources.jar
+outputs.45.2.length=368765
+outputs.45.2.checksums.sha512=b5af8665a4615ff9bb53bdd450c9a8efae351c977a84dedb358513b850392d989d260198212831e2bb866905cb5b538521c363de99e5c34ca8da8038b4819b28  repository/org/jreleaser/jreleaser-templates/1.11.0/jreleaser-templates-1.11.0-sources.jar
+
+
+outputs.46.coordinates=org.jreleaser:jreleaser-tool-java-sdk
+
+outputs.46.0.filename=jreleaser-tool-java-sdk-1.11.0.jar
+outputs.46.0.length=27138
+outputs.46.0.checksums.sha512=21149548eb27fe4ae9bbb928fbed1e6f9f1ab566c6d9b824318f3bfe95912ea2bc2a8ea33d69bebf4e594d603d90bf71fe2bdf95e3839f83ebefa5f21a629a3e  repository/org/jreleaser/jreleaser-tool-java-sdk/1.11.0/jreleaser-tool-java-sdk-1.11.0.jar
+
+outputs.46.1.filename=jreleaser-tool-java-sdk-1.11.0.pom
+outputs.46.1.length=1707
+outputs.46.1.checksums.sha512=6d768c56294b8fe01fb8566a6bcdf9115d4ef2506e83078d367933acbd0405a18dacfb7e1e31035870cd1c03e4023aa86b3eb2c45f30ad5e09fbd74d58469360  repository/org/jreleaser/jreleaser-tool-java-sdk/1.11.0/jreleaser-tool-java-sdk-1.11.0.pom
+
+outputs.46.2.filename=jreleaser-tool-java-sdk-1.11.0-sources.jar
+outputs.46.2.length=17089
+outputs.46.2.checksums.sha512=0a260dfae03a3606680f02faea74d9c68d738908a27a196e979f5203d8e3919c3862f20903d94cba0aedf4a85c845c9830820c74f80a55f43d8a11ce8f85f237  repository/org/jreleaser/jreleaser-tool-java-sdk/1.11.0/jreleaser-tool-java-sdk-1.11.0-sources.jar
+
+
+outputs.47.coordinates=org.jreleaser:jreleaser-tool-provider
+
+outputs.47.0.filename=jreleaser-tool-provider-1.11.0.jar
+outputs.47.0.length=44503293
+outputs.47.0.checksums.sha512=4e3dcfdc638c4b8c2d4043e6bafc9c74907333244ceb05997d64e4802072eefbc8b6abe763e36a4620fd08805ff8b0d71fc8e127c91b14b526f5176c4cb8cdd5  repository/org/jreleaser/jreleaser-tool-provider/1.11.0/jreleaser-tool-provider-1.11.0.jar
+
+outputs.47.1.filename=jreleaser-tool-provider-1.11.0.pom
+outputs.47.1.length=1374
+outputs.47.1.checksums.sha512=fd36b98caa1b8de16ee7bf628cbc8ce5a48b9ca97827308f26f623e0f53d0b8878d4891329d09d830bcbe00488ad2b092119e37658eeffd1649e5b2e432fa045  repository/org/jreleaser/jreleaser-tool-provider/1.11.0/jreleaser-tool-provider-1.11.0.pom
+
+outputs.47.2.filename=jreleaser-tool-provider-1.11.0-sources.jar
+outputs.47.2.length=1602
+outputs.47.2.checksums.sha512=cd869363962bf96485e2b38ceb9ae3849f253f51c5f57016ffe000beff0d599a1d156c10943d75f6961f29bac44aec9019f01faa9f6c3546195b569a3c1d61ff  repository/org/jreleaser/jreleaser-tool-provider/1.11.0/jreleaser-tool-provider-1.11.0-sources.jar
+
+
+outputs.48.coordinates=org.jreleaser:jreleaser-twitter-java-sdk
+
+outputs.48.0.filename=jreleaser-twitter-java-sdk-1.11.0.jar
+outputs.48.0.length=20703
+outputs.48.0.checksums.sha512=60d93847352abd9997c1608bad8c56dd79ef2f153e18cefec5a8b4b15b32002aa92aa4ccaf3036d9d0b9017c968e4bc2a6c89e8cb1dc73665d5733ffa6976d25  repository/org/jreleaser/jreleaser-twitter-java-sdk/1.11.0/jreleaser-twitter-java-sdk-1.11.0.jar
+
+outputs.48.1.filename=jreleaser-twitter-java-sdk-1.11.0.pom
+outputs.48.1.length=1870
+outputs.48.1.checksums.sha512=88c146df2355804349f4e3cbbbba7506362f59863f8d05dfdaf827c01c8f70c0ccc3e801e6cdce56893eed64436597526f64b0f423950352c177865e80ff9253  repository/org/jreleaser/jreleaser-twitter-java-sdk/1.11.0/jreleaser-twitter-java-sdk-1.11.0.pom
+
+outputs.48.2.filename=jreleaser-twitter-java-sdk-1.11.0-sources.jar
+outputs.48.2.length=9190
+outputs.48.2.checksums.sha512=561acdb7cb8f1f9bb0e86a5873e6414fcf4f51ee2fb08358c1db1c23b7c35c70ccf7190c4adabf403e8124c08763fbeab56f9c46ba67a3c1609ee6780275cc1c  repository/org/jreleaser/jreleaser-twitter-java-sdk/1.11.0/jreleaser-twitter-java-sdk-1.11.0-sources.jar
+
+
+outputs.49.coordinates=org.jreleaser:jreleaser-utils
+
+outputs.49.0.filename=jreleaser-utils-1.11.0.jar
+outputs.49.0.length=86560
+outputs.49.0.checksums.sha512=be945818ef8fda34137abe7eb04eeccbdad37eb3df2fff777f0c33caea957cf7f341f20e60903f9ba8b95cdd115c4f2d92054b93c62a9b14c6dfe9ec05bba057  repository/org/jreleaser/jreleaser-utils/1.11.0/jreleaser-utils-1.11.0.jar
+
+outputs.49.1.filename=jreleaser-utils-1.11.0.pom
+outputs.49.1.length=3242
+outputs.49.1.checksums.sha512=e02947c3ed586e7005f2530383785c37df467c49b7152a8d26a1e1c7684c7b08593f45f08d6e513ee4f5f8fa22d48f2b0517218ea24c6978ec084d223fdd0413  repository/org/jreleaser/jreleaser-utils/1.11.0/jreleaser-utils-1.11.0.pom
+
+outputs.49.2.filename=jreleaser-utils-1.11.0-sources.jar
+outputs.49.2.length=40896
+outputs.49.2.checksums.sha512=89abf716689351a3a5ecb83c7f5186cc2140acdce13354b9ad0fb45550fae78cd98dc7c38815ca8cae2b29dbd7d9bdacac2cbad7fad75b87a36a42ce2253b39d  repository/org/jreleaser/jreleaser-utils/1.11.0/jreleaser-utils-1.11.0-sources.jar
+
+
+outputs.50.coordinates=org.jreleaser:jreleaser-webhooks-java-sdk
+
+outputs.50.0.filename=jreleaser-webhooks-java-sdk-1.11.0.jar
+outputs.50.0.length=12940
+outputs.50.0.checksums.sha512=53a05af5d465c3243228482abcf61227b916a3685dfb1e92c254970dee0f10d47f55a52951da6cfcf03aafddc2859beedbd24bea05f12d7c4b3061015585e93f  repository/org/jreleaser/jreleaser-webhooks-java-sdk/1.11.0/jreleaser-webhooks-java-sdk-1.11.0.jar
+
+outputs.50.1.filename=jreleaser-webhooks-java-sdk-1.11.0.pom
+outputs.50.1.length=1566
+outputs.50.1.checksums.sha512=9b1e01c5e61517ad07fdb4c2257c0800a73213b9c0a4af4f7ab0deaf106626ad0672377ece49300c9095566c0a38582fe3c4949a3dbbef375c1f20d0ab4fb459  repository/org/jreleaser/jreleaser-webhooks-java-sdk/1.11.0/jreleaser-webhooks-java-sdk-1.11.0.pom
+
+outputs.50.2.filename=jreleaser-webhooks-java-sdk-1.11.0-sources.jar
+outputs.50.2.length=4469
+outputs.50.2.checksums.sha512=61eb84c68c8ba5fd7c3494910dfd6377495f5b9cf6a73601b49eb901dabeab2063634241772511ba4f9895e4b118bc4b88558bada9ba9693f0b833284f2f1899  repository/org/jreleaser/jreleaser-webhooks-java-sdk/1.11.0/jreleaser-webhooks-java-sdk-1.11.0-sources.jar
+
+
+outputs.51.coordinates=org.jreleaser:jreleaser-zulip-java-sdk
+
+outputs.51.0.filename=jreleaser-zulip-java-sdk-1.11.0.jar
+outputs.51.0.length=17386
+outputs.51.0.checksums.sha512=137596eea0538b0d3ee91a0f9dd7ddc5a338ca0083d65c51a99c41777e0752e7187cee1c0f9a1fd26685b90abd3297a514be765463ca4bb85bfb8e0528fbf339  repository/org/jreleaser/jreleaser-zulip-java-sdk/1.11.0/jreleaser-zulip-java-sdk-1.11.0.jar
+
+outputs.51.1.filename=jreleaser-zulip-java-sdk-1.11.0.pom
+outputs.51.1.length=1551
+outputs.51.1.checksums.sha512=1636f29e4cbd6c1c527ace57b45d28bab76d76d32ff725b54ac82b24eede517dd3c5edc74accc6ce55a6ff9586983663b04e8452a6444a5dbc879d5c864a5e1d  repository/org/jreleaser/jreleaser-zulip-java-sdk/1.11.0/jreleaser-zulip-java-sdk-1.11.0.pom
+
+outputs.51.2.filename=jreleaser-zulip-java-sdk-1.11.0-sources.jar
+outputs.51.2.length=7838
+outputs.51.2.checksums.sha512=15553b72a8500c95daf34114c3d287bf8b21d1dea76a05c256627baf21352df50ed64ada843f7ecff84857b8efb51af0d3f698a6a36d7c9b85d4daff37b1b997  repository/org/jreleaser/jreleaser-zulip-java-sdk/1.11.0/jreleaser-zulip-java-sdk-1.11.0-sources.jar
+

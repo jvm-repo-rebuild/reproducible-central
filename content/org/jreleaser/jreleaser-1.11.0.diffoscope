@@ -1,0 +1,16 @@
+1 / 1 central/org/jreleaser/jreleaser-tool-provider/1.11.0/jreleaser-tool-provider-1.11.0.jar repository/org/jreleaser/jreleaser-tool-provider/1.11.0/jreleaser-tool-provider-1.11.0.jar
+--- central/org/jreleaser/jreleaser-tool-provider/1.11.0/jreleaser-tool-provider-1.11.0.jar
++++ repository/org/jreleaser/jreleaser-tool-provider/1.11.0/jreleaser-tool-provider-1.11.0.jar
+├── zipinfo {}
+│ @@ -24822,9 +24822,9 @@
+│  -rw----     2.0 fat       54 bx defN 80-Feb-01 00:00 META-INF/services/jreleaser.shadow.org.codehaus.stax2.validation.XMLValidationSchemaFactory.relaxng
+│  -rw----     2.0 fat       51 bx defN 80-Feb-01 00:00 META-INF/services/javax.xml.stream.XMLInputFactory
+│  -rw----     2.0 fat      156 bx defN 80-Feb-01 00:00 META-INF/services/jreleaser.shadow.org.codehaus.stax2.validation.XMLValidationSchemaFactory
+│  -rw----     2.0 fat       50 bx defN 80-Feb-01 00:00 META-INF/services/jreleaser.shadow.org.codehaus.stax2.validation.XMLValidationSchemaFactory.dtd
+│  -rw----     2.0 fat       52 bx defN 80-Feb-01 00:00 META-INF/services/javax.xml.stream.XMLOutputFactory
+│  -rw----     2.0 fat       50 bx defN 80-Feb-01 00:00 META-INF/services/jreleaser.shadow.org.codehaus.stax2.validation.XMLValidationSchemaFactory.w3c
+│  -rw----     2.0 fat       75 bx defN 80-Feb-01 00:00 META-INF/services/jreleaser.shadow.software.amazon.awssdk.thirdparty.jackson.core.JsonFactory
+│ --rw----     2.0 fat      254 bX defN 24-Feb-29 12:31 META-INF/versions/11/module-info.class
+│ +-rw----     2.0 fat      254 bX defN 24-Mar-05 04:36 META-INF/versions/11/module-info.class
+│  24828 files, 101350466 bytes uncompressed, 38640043 bytes compressed:  61.9%
+
