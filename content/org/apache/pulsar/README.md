@@ -137,7 +137,9 @@ rebuilding **2 releases** of org.apache.pulsar:pulsar:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.2.1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.2.1/pom) | | | |
 | [3.2.0](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.2.0/pom) | [mvn jdk17](pulsar-3.2.0.buildspec) | [result](pulsar-3.2.0.buildinfo): [302 :white_check_mark:  20 :warning:](pulsar-3.2.0.buildcompare) [:mag:](pulsar-3.2.0.diffoscope) | 3.0G |
+| [3.1.3](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.1.3/pom) | | | |
 | [3.1.2](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.1.2/pom) | | | |
 | [3.1.1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.1.1/pom) | | | |
 | [3.1.0](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.1.0/pom) | | | |
