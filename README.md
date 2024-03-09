@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3281 releases** of **619 projects**:
-   - **2586** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **3282 releases** of **619 projects**:
+   - **2587** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 695 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 619 projects, 514 have at least one fully reproducible release, 105 have none
 
@@ -136,7 +136,7 @@ Its objectives are to provide:
 | | [*.mime2045](content/com/io7m/mime2045/README.md) | 2 | 2 :white_check_mark: |
 | | [*.percentpass](content/com/io7m/percentpass/README.md) | 3 | 3 :white_check_mark: |
 | | [*.primogenitor](content/com/io7m/primogenitor/README.md) | 32 | 32 :white_check_mark: |
-| | [*.quarrel](content/com/io7m/quarrel/README.md) | 9 | 9 :white_check_mark: |
+| | [*.quarrel](content/com/io7m/quarrel/README.md) | 10 | 10 :white_check_mark: |
 | | [*.quixote](content/com/io7m/quixote/README.md) | 4 | 4 :white_check_mark: |
 | | [*.repetoir](content/com/io7m/repetoir/README.md) | 2 | 2 :white_check_mark: |
 | | [*.scando](content/com/io7m/scando/README.md) | 1 | 1 :white_check_mark: |
@@ -642,7 +642,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 34 | 34 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **619** | **3281** | **2586** :white_check_mark: **695** :warning: |
+| **Count:** | **619** | **3282** | **2587** :white_check_mark: **695** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -725,7 +725,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.3  17.0.8.1
       1 mvn-3.9.3  17.0.9
       3 mvn-3.9.3  19
-     26 mvn-3.9.3  21
+     27 mvn-3.9.3  21
       7 mvn-3.9.4   8
       7 mvn-3.9.4  11
       1 mvn-3.9.4  17

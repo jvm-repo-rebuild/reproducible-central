@@ -14,6 +14,7 @@ rebuilding **3 releases** of com.fasterxml.jackson.datatype:jackson-datatype-jod
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [2.17.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-joda/2.17.0-rc1/pom) | [mvn jdk8](jackson-datatype-joda-2.17.0-rc1.buildspec) | [result](jackson-datatype-joda-2.17.0-rc1.buildinfo): [3 :white_check_mark: ](jackson-datatype-joda-2.17.0-rc1.buildcompare) | 83K |
+| [2.16.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-joda/2.16.2/pom) | | | |
 | [2.16.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-joda/2.16.1/pom) | [mvn jdk8](jackson-datatype-joda-2.16.1.buildspec) | [result](jackson-datatype-joda-2.16.1.buildinfo): [3 :white_check_mark: ](jackson-datatype-joda-2.16.1.buildcompare) | 83K |
 | [2.16.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-joda/2.16.0/pom) | [mvn jdk8](jackson-datatype-joda-2.16.0.buildspec) | [result](jackson-datatype-joda-2.16.0.buildinfo): [3 :white_check_mark: ](jackson-datatype-joda-2.16.0.buildcompare) | 83K |
 

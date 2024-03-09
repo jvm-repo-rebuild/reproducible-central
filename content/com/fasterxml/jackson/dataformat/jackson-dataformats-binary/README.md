@@ -24,6 +24,7 @@ rebuilding **3 releases** of com.fasterxml.jackson.dataformat:jackson-dataformat
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [2.17.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-binary/2.17.0-rc1/pom) | [mvn jdk8](jackson-dataformats-binary-2.17.0-rc1.buildspec) | [result](jackson-dataformats-binary-2.17.0-rc1.buildinfo): [16 :white_check_mark: ](jackson-dataformats-binary-2.17.0-rc1.buildcompare) | 713K |
+| [2.16.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-binary/2.16.2/pom) | | | |
 | [2.16.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-binary/2.16.1/pom) | [mvn jdk8](jackson-dataformats-binary-2.16.1.buildspec) | [result](jackson-dataformats-binary-2.16.1.buildinfo): [16 :white_check_mark: ](jackson-dataformats-binary-2.16.1.buildcompare) | 709K |
 | [2.16.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-binary/2.16.0/pom) | [mvn jdk8](jackson-dataformats-binary-2.16.0.buildspec) | [result](jackson-dataformats-binary-2.16.0.buildinfo): [16 :white_check_mark: ](jackson-dataformats-binary-2.16.0.buildcompare) | 709K |
 

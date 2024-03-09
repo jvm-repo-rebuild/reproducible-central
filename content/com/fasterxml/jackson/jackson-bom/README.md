@@ -20,6 +20,7 @@ rebuilding **3 releases** of com.fasterxml.jackson:jackson-bom:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [2.17.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.17.0-rc1/pom) | [mvn jdk11](jackson-bom-2.17.0-rc1.buildspec) | [result](jackson-bom-2.17.0-rc1.buildinfo): [2 :white_check_mark: ](jackson-bom-2.17.0-rc1.buildcompare) | 30K |
+| [2.16.2](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.16.2/pom) | | | |
 | [2.16.1](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.16.1/pom) | [mvn jdk11](jackson-bom-2.16.1.buildspec) | [result](jackson-bom-2.16.1.buildinfo): [2 :white_check_mark: ](jackson-bom-2.16.1.buildcompare) | 29K |
 | [2.16.0](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.16.0/pom) | [mvn jdk11](jackson-bom-2.16.0.buildspec) | [result](jackson-bom-2.16.0.buildinfo): [2 :white_check_mark: ](jackson-bom-2.16.0.buildcompare) | 29K |
 

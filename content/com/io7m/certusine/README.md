@@ -30,6 +30,7 @@ rebuilding **2 releases** of com.io7m.certusine:com.io7m.certusine:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.0](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/3.0.0/pom) | | | |
 | [2.0.0](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/2.0.0/pom) | [mvn jdk17.0.7](com.io7m.certusine-2.0.0.buildspec) | [result](com.io7m.certusine-2.0.0.buildinfo): [44 :white_check_mark:  2 :warning:](com.io7m.certusine-2.0.0.buildcompare) [:mag:](com.io7m.certusine-2.0.0.diffoscope) | 905K |
 | [1.1.0](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/1.1.0/pom) | | | |
 | [1.0.0](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/1.0.0/pom) | | | |
