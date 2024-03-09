@@ -1,0 +1,19 @@
+groupId=org.kordamp.jarviz
+artifactId=jarviz
+display=${groupId}:${artifactId}
+version=0.3.0
+
+gitRepo=https://github.com/kordamp/jarviz.git
+gitTag=v${version}
+
+tool=gradle
+jdk=11
+newline=lf
+umask=022
+
+# Skip kordamp-inline-plugin
+command="./gradlew --no-daemon --no-build-cache -Dorg.kordamp.gradle.inline.enabled=false -PreproducibleBuild=true publish publishToMavenLocal"
+buildinfo=${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
