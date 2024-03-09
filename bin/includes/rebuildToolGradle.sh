@@ -34,7 +34,11 @@ rebuildToolGradle() {
   [ -d ${OUTPUTDIR} ] && \rm -rf ${OUTPUTDIR}
 
   local docker_command="docker run -it --rm --name rebuild-central\
-    -v $PWD:/var/gradle/app -v $PWD:/home/gradle/.m2 -v $base/.sbt:/home/gradle/.sbt -v $base/.bnd:/.bnd -v $base/.gradle:/home/gradle/.gradle\
+    -v $PWD:/var/gradle/app\
+    -v $PWD:/home/gradle/.m2\
+    -v $base/.sbt:/home/gradle/.sbt\
+    -v $base/.bnd:/.bnd\
+    -v $base/.gradle:/home/gradle/.gradle\
     -u $(id -u ${USER}):$(id -g ${USER})\
     -e MAVEN_CONFIG=/home/gradle/.m2\
     -w /var/gradle/app"
