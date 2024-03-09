@@ -35,6 +35,7 @@ rebuildToolGradle() {
 
   local docker_command="docker run -it --rm --name rebuild-central\
     -v $PWD:/var/gradle/app\
+    -v $PWD/userhome:/home/gradle\
     -v $PWD:/home/gradle/.m2\
     -v $base/.sbt:/home/gradle/.sbt\
     -v $base/.bnd:/.bnd\
