@@ -46,8 +46,11 @@ rebuildToolGradle() {
   local gradle_docker_params="-Duser.home=/home/gradle"
 
   runcommand ${docker_command} ${jdkImage} ${command} ${gradle_docker_params}
-  # output content is expected to be available in repository/ directory
+  
+  if [ $? -eq 0 ]; then
+      # output content is expected to be available in repository/ directory
 
-  # compare against reference from Maven Central and generate buildinfo and buildcompare
-  compareOutput ${OUTPUTDIR}
+      # compare against reference from Maven Central and generate buildinfo and buildcompare
+      compareOutput ${OUTPUTDIR}
+  fi
 }
