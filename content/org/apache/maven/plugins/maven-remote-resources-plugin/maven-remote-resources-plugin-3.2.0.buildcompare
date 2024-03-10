@@ -1,0 +1,10 @@
+version=3.2.0
+ok=5
+ko=1
+ignored=0
+okFiles="maven-remote-resources-plugin-3.2.0.jar maven-remote-resources-plugin-3.2.0-source-release.zip maven-remote-resources-plugin-3.2.0-sources.jar maven-remote-resources-plugin-3.2.0-cyclonedx.xml maven-remote-resources-plugin-3.2.0-cyclonedx.json"
+koFiles="maven-remote-resources-plugin-3.2.0.pom"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.maven.plugins/maven-remote-resources-plugin-3.2.0.pom target/consumer-2936312689242868817.pom

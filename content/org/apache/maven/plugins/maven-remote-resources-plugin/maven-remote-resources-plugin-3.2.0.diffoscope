@@ -1,0 +1,23 @@
+1 / 1 target/reference/org.apache.maven.plugins/maven-remote-resources-plugin-3.2.0.pom target/consumer-2936312689242868817.pom
+--- target/reference/org.apache.maven.plugins/maven-remote-resources-plugin-3.2.0.pom
++++ target/consumer-2936312689242868817.pom
+│   --- target/reference/org.apache.maven.plugins/maven-remote-resources-plugin-3.2.0.pom
+├── +++ target/consumer-2936312689242868817.pom
+│ @@ -1130,15 +1130,15 @@
+│                  <id>integration-tests</id>
+│                  <goals>
+│                    <goal>integration-test</goal>
+│                    <goal>verify</goal>
+│                  </goals>
+│                  <configuration>
+│                    <systemPropertyVariables>
+│ -                    <localRepositoryPath>/Users/gnodet/work/git/maven-remote-resources-plugin/target/checkout/target/local-repo</localRepositoryPath>
+│ +                    <localRepositoryPath>/var/maven/app/target/local-repo</localRepositoryPath>
+│                    </systemPropertyVariables>
+│                  </configuration>
+│                </execution>
+│              </executions>
+│            </plugin>
+│          </plugins>
+│        </build>
+

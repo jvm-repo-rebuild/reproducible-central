@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Remote Resources Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-remote-resources-plugin
+version=3.2.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-remote-resources-plugin.git
+source.scm.tag=maven-remote-resources-plugin-3.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-remote-resources-plugin-3.2.0.pom
+outputs.0.length=33342
+outputs.0.checksums.sha512=ef716a6ea9922b2e459bc9ab65492ae9692b2a29ee5f16672e34021fa1ecca31afbea9229103712e34581591264965ec327e541114427edec70309b173c37eab
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-remote-resources-plugin-3.2.0.jar
+outputs.1.length=81052
+outputs.1.checksums.sha512=15f6441b6d709d06b6dac45b8e2443d15c725bd08dbf5a8b79b70cf81297d4520c80de6298fed8cc00a8a39af0ce63ed8ef96cb92d6b597d6cc68059908755d3
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-remote-resources-plugin-3.2.0-source-release.zip
+outputs.2.length=197804
+outputs.2.checksums.sha512=07940563ad38838cf3aff6a1503b1227f9af0936191bea2dd2d9852792634393135c4898ee370a4ff43d5099db14628cbf68e85219ad6e6989e14dc398a0f6be
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-remote-resources-plugin-3.2.0-sources.jar
+outputs.3.length=51350
+outputs.3.checksums.sha512=06cbeef6d5974971b8e71629bff9e5b8c0437611621dbbafc615f4304d8da7adbbaa434829fb092b5296d0ef6f2ad8547c0100a60f1feb70f3b92289c76fb3cf
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-remote-resources-plugin-3.2.0-cyclonedx.xml
+outputs.4.length=128164
+outputs.4.checksums.sha512=2b4562054e90c19dc5b6684b3c7373f19e4c349892e8024898dfb5ee1881ace679c14463526c34e29fd5d51b4dc62ac63aa023c73f92ed0f96a0c89afe265fef
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-remote-resources-plugin-3.2.0-cyclonedx.json
+outputs.5.length=148746
+outputs.5.checksums.sha512=9395db624fe7b4b905c3be4287f543cce6790bcade281225e7bf5b5351e51dc8d3d948c56b4a8f9658d6729fd2b94a6618144e98e37a2a4dc94adc2423568893
