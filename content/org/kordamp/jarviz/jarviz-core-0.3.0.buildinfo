@@ -1,0 +1,52 @@
+name=org.kordamp.jarviz:jarviz-core
+group-id=org.kordamp.jarviz
+artifact-id=jarviz-core
+
+build-tool=gradle
+java.version=11
+os.name=lf
+
+outputs.1.coordinates=org.kordamp.jarviz:jarviz-cli
+
+outputs.1.0.filename=jarviz-cli-0.3.0.jar
+outputs.1.0.length=46817
+outputs.1.0.checksums.sha512=7a7d21e34036c37fa7738dd6149c9076c64e6743bf7f60820bccf22cd7187aad0a5dbf48b738e17c8cbfe43e2b45e1bfe38c9921fd643fd5e55a3aa994064eed  repository/org/kordamp/jarviz/jarviz-cli/0.3.0/jarviz-cli-0.3.0.jar
+
+outputs.1.1.filename=jarviz-cli-0.3.0.pom
+outputs.1.1.length=1642
+outputs.1.1.checksums.sha512=886f098eeb185675be120b025865af65ef29eee03b611051c42b85e8ab92b5179cf270a93931973aebdd1cbfa45c02a19f882749eeec0f75cbf2026907c54cda  repository/org/kordamp/jarviz/jarviz-cli/0.3.0/jarviz-cli-0.3.0.pom
+
+outputs.1.2.filename=jarviz-cli-0.3.0-sources.jar
+outputs.1.2.length=31745
+outputs.1.2.checksums.sha512=fe393fb1b3963f7402bcdb065e968f58b8bdcaa85397631f185989b8ba3c858839dfb647d47d60bce428d8a76a5821dc3498fcca4e8c3a739df0c002a8a38f70  repository/org/kordamp/jarviz/jarviz-cli/0.3.0/jarviz-cli-0.3.0-sources.jar
+
+
+outputs.2.coordinates=org.kordamp.jarviz:jarviz-core
+
+outputs.2.0.filename=jarviz-core-0.3.0.jar
+outputs.2.0.length=169244
+outputs.2.0.checksums.sha512=a8d30944558da76f92d3cd46db6b3daef9614bc47247b79291c66a1a09c1737acb096be9d75141bd27f3f3925d7ac95f3f37c67f0bc01a402eb2d559d0893e1b  repository/org/kordamp/jarviz/jarviz-core/0.3.0/jarviz-core-0.3.0.jar
+
+outputs.2.1.filename=jarviz-core-0.3.0.pom
+outputs.2.1.length=1491
+outputs.2.1.checksums.sha512=23427250649211dd99ee9525d6ad691f04dc2c9af947f2fffaea4dad6e85805aaf809a73f23f967cae29c68f435c7f4bd5285aed7b6b78e1a44f3920bad40644  repository/org/kordamp/jarviz/jarviz-core/0.3.0/jarviz-core-0.3.0.pom
+
+outputs.2.2.filename=jarviz-core-0.3.0-sources.jar
+outputs.2.2.length=98486
+outputs.2.2.checksums.sha512=b3f25340f11efda1c16b0989898ac89ae90434bc29cf7b64bbfcad2639446276a60e0a55b508b1ab79467655a1bd61cf8cc28d048e8056603d6351e74292ae06  repository/org/kordamp/jarviz/jarviz-core/0.3.0/jarviz-core-0.3.0-sources.jar
+
+
+outputs.3.coordinates=org.kordamp.jarviz:jarviz-tool-provider
+
+outputs.3.0.filename=jarviz-tool-provider-0.3.0.jar
+outputs.3.0.length=644811
+outputs.3.0.checksums.sha512=8892e74bab587bc621ba4206a079d238235cca43b3195e5fee6447af3993785cadf848e777b433e7506f2fa7fc0097ae4f9856231caeb47f4570b23ff8333a2b  repository/org/kordamp/jarviz/jarviz-tool-provider/0.3.0/jarviz-tool-provider-0.3.0.jar
+
+outputs.3.1.filename=jarviz-tool-provider-0.3.0.pom
+outputs.3.1.length=1349
+outputs.3.1.checksums.sha512=1073082341bb9a217d606bfd2226d025e3e7ef74d2a65330e5ee9e08c3e52ef0bacc24744b5c201e2ab09180725c6a13e18521c7dbad71279d19a0a0113c0710  repository/org/kordamp/jarviz/jarviz-tool-provider/0.3.0/jarviz-tool-provider-0.3.0.pom
+
+outputs.3.2.filename=jarviz-tool-provider-0.3.0-sources.jar
+outputs.3.2.length=1745
+outputs.3.2.checksums.sha512=637b64a17202b042cd65c65c0c049b0c407834b9f968c94ac088613845e40971d7445f784eb8c0ddf63af580c1adfbb0e6bb8f9c3a1c4faf5bd06a1e75bae053  repository/org/kordamp/jarviz/jarviz-tool-provider/0.3.0/jarviz-tool-provider-0.3.0-sources.jar
+

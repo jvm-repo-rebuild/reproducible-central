@@ -1,0 +1,8 @@
+version=0.3.0
+ok=6
+ko=3
+okFiles="jarviz-cli-0.3.0.pom jarviz-cli-0.3.0-sources.jar jarviz-core-0.3.0.pom jarviz-core-0.3.0-sources.jar jarviz-tool-provider-0.3.0.pom jarviz-tool-provider-0.3.0-sources.jar"
+koFiles="jarviz-cli-0.3.0.jar jarviz-core-0.3.0.jar jarviz-tool-provider-0.3.0.jar"
+# diffoscope central/org/kordamp/jarviz/jarviz-cli/0.3.0/jarviz-cli-0.3.0.jar repository/org/kordamp/jarviz/jarviz-cli/0.3.0/jarviz-cli-0.3.0.jar
+# diffoscope central/org/kordamp/jarviz/jarviz-core/0.3.0/jarviz-core-0.3.0.jar repository/org/kordamp/jarviz/jarviz-core/0.3.0/jarviz-core-0.3.0.jar
+# diffoscope central/org/kordamp/jarviz/jarviz-tool-provider/0.3.0/jarviz-tool-provider-0.3.0.jar repository/org/kordamp/jarviz/jarviz-tool-provider/0.3.0/jarviz-tool-provider-0.3.0.jar
