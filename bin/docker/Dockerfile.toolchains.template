@@ -43,9 +43,8 @@ RUN sed -i 's@^\(deb http://security.ubuntu.com\)@# -------- Disabled because of
 ###
 RUN apt clean cache \
    && apt-get -q update \
-   && apt-get install -y software-properties-common apt-utils apt-transport-https ca-certificates
-
-RUN apt-get -q install -y --no-install-recommends \
+   && apt-get install -y software-properties-common apt-utils apt-transport-https ca-certificates \
+   && apt-get -q install -y --no-install-recommends \
     bash-completion \
     build-essential \
     bzip2 \
@@ -67,7 +66,8 @@ RUN apt-get -q install -y --no-install-recommends \
     python3-tlsh \
     tlsh-tools \
     unzip \
-    less
+    less \
+    graphviz
 
 # By running the JDKs as a separate command they become a separate layer and thus we have less layers if we need to do more builds.
 RUN apt-get -q update \
