@@ -62,12 +62,17 @@ Source code: [https://github.com/jreleaser/jreleaser.git](https://github.com/jre
 * [org.jreleaser:jreleaser-zulip-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-zulip-java-sdk/1.11.0)
 </details>
 
-rebuilding **1 releases** of org.jreleaser:jreleaser:
+rebuilding **6 releases** of org.jreleaser:jreleaser:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [1.11.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.11.0/pom) | [gradle jdk17](jreleaser-1.11.0.buildspec) | [result](jreleaser-1.11.0.buildinfo): [152 :white_check_mark:  1 :warning:](jreleaser-1.11.0.buildcompare) [:mag:](jreleaser-1.11.0.diffoscope) | 48M |
+| [1.10.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.10.0/pom) | [gradle jdk17](jreleaser-1.10.0.buildspec) | :x: | |
+| [1.9.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.9.0/pom) | [gradle jdk11](jreleaser-1.9.0.buildspec) | [result](jreleaser-1.9.0.buildinfo): [152 :white_check_mark:  1 :warning:](jreleaser-1.9.0.buildcompare) [:mag:](jreleaser-1.9.0.diffoscope) | 45M |
+| [1.8.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.8.0/pom) | [gradle jdk11](jreleaser-1.8.0.buildspec) | [result](jreleaser-1.8.0.buildinfo): [152 :white_check_mark:  1 :warning:](jreleaser-1.8.0.buildcompare) [:mag:](jreleaser-1.8.0.diffoscope) | 43M |
+| [1.7.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.7.0/pom) | [gradle jdk11](jreleaser-1.7.0.buildspec) | [result](jreleaser-1.7.0.buildinfo): [152 :white_check_mark:  1 :warning:](jreleaser-1.7.0.buildcompare) [:mag:](jreleaser-1.7.0.diffoscope) | 43M |
+| [1.6.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.6.0/pom) | [gradle jdk11](jreleaser-1.6.0.buildspec) | [result](jreleaser-1.6.0.buildinfo): [149 :white_check_mark:  101 :warning:](jreleaser-1.6.0.buildcompare) | 48M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

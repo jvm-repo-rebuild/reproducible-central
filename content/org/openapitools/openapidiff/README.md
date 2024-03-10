@@ -9,19 +9,19 @@ Source code: [https://github.com/OpenAPITools/openapi-diff.git](https://github.c
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [org.openapitools.openapidiff:openapi-diff-cli](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-cli/2.1.0-beta.8)
-* [org.openapitools.openapidiff:openapi-diff-core](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-core/2.1.0-beta.8)
-* [org.openapitools.openapidiff:openapi-diff-maven](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-maven/2.1.0-beta.8)
-* [org.openapitools.openapidiff:openapi-diff-parent](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.1.0-beta.8)
+* [org.openapitools.openapidiff:openapi-diff-cli](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-cli/2.1.0-beta.9)
+* [org.openapitools.openapidiff:openapi-diff-core](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-core/2.1.0-beta.9)
+* [org.openapitools.openapidiff:openapi-diff-maven](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-maven/2.1.0-beta.9)
+* [org.openapitools.openapidiff:openapi-diff-parent](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.1.0-beta.9)
 </details>
 
-rebuilding **9 releases** of org.openapitools.openapidiff:openapi-diff-parent:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of org.openapitools.openapidiff:openapi-diff-parent:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.1.0-beta.9](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.1.0-beta.9/pom) | | | |
+| [2.1.0-beta.9](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.1.0-beta.9/pom) | [mvn jdk11](openapi-diff-2.1.0-beta.9.buildspec) | [result](openapi-diff-parent-2.1.0-beta.9.buildinfo): [11 :white_check_mark: ](openapi-diff-parent-2.1.0-beta.9.buildcompare) | 16M |
 | [2.1.0-beta.8](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.1.0-beta.8/pom) | [mvn jdk11](openapi-diff-2.1.0-beta.8.buildspec) | [result](openapi-diff-parent-2.1.0-beta.8.buildinfo): [11 :white_check_mark: ](openapi-diff-parent-2.1.0-beta.8.buildcompare) | 16M |
 | [2.1.0-beta.7](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.1.0-beta.7/pom) | [mvn jdk11](openapi-diff-2.1.0-beta.7.buildspec) | [result](openapi-diff-parent-2.1.0-beta.7.buildinfo): [11 :white_check_mark: ](openapi-diff-parent-2.1.0-beta.7.buildcompare) | 15M |
 | [2.1.0-beta.6](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.1.0-beta.6/pom) | [mvn jdk11](openapi-diff-2.1.0-beta.6.buildspec) | [result](openapi-diff-parent-2.1.0-beta.6.buildinfo): [11 :white_check_mark: ](openapi-diff-parent-2.1.0-beta.6.buildcompare) | 15M |

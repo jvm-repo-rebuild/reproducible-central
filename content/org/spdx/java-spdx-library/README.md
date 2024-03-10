@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/spdx/Spdx-Java-Library.git](https://github.com/spdx/Spdx-Java-Library.git)
 
-rebuilding **3 releases** of org.spdx:java-spdx-library:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of org.spdx:java-spdx-library:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.1.11](https://central.sonatype.com/artifact/org.spdx/java-spdx-library/1.1.11/pom) | | | |
+| [1.1.11](https://central.sonatype.com/artifact/org.spdx/java-spdx-library/1.1.11/pom) | [mvn jdk17 w](java-spdx-library-1.1.11.buildspec) | [result](java-spdx-library-1.1.11.buildinfo): [2 :white_check_mark: ](java-spdx-library-1.1.11.buildcompare) | 3.5M |
 | [1.1.10](https://central.sonatype.com/artifact/org.spdx/java-spdx-library/1.1.10/pom) | [mvn jdk17 w](java-spdx-library-1.1.10.buildspec) | [result](java-spdx-library-1.1.10.buildinfo): [2 :white_check_mark: ](java-spdx-library-1.1.10.buildcompare) | 3.5M |
 | [1.1.9](https://central.sonatype.com/artifact/org.spdx/java-spdx-library/1.1.9/pom) | [mvn jdk17 w](java-spdx-library-1.1.9.buildspec) | [result](java-spdx-library-1.1.9.buildinfo): [2 :white_check_mark: ](java-spdx-library-1.1.9.buildcompare) | 3.5M |
 | [1.1.8](https://central.sonatype.com/artifact/org.spdx/java-spdx-library/1.1.8/pom) | [mvn jdk17 w](java-spdx-library-1.1.8.buildspec) | [result](java-spdx-library-1.1.8.buildinfo): [2 :white_check_mark: ](java-spdx-library-1.1.8.buildcompare) | 3.5M |

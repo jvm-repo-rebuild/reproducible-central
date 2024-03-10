@@ -30,6 +30,7 @@ rebuilding **13 releases** of org.codehaus.plexus:plexus-compiler:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.15.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler/2.15.0/pom) | | | |
 | [2.14.2](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler/2.14.2/pom) | [mvn jdk21](plexus-compiler-2.14.2.buildspec) | [result](plexus-compiler-2.14.2.buildinfo): [28 :white_check_mark: ](plexus-compiler-2.14.2.buildcompare) | 476K |
 | [2.14.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler/2.14.1/pom) | [mvn jdk21](plexus-compiler-2.14.1.buildspec) | [result](plexus-compiler-2.14.1.buildinfo): [28 :white_check_mark: ](plexus-compiler-2.14.1.buildcompare) | 471K |
 | [2.14.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler/2.14.0/pom) | [mvn jdk21](plexus-compiler-2.14.0.buildspec) | [result](plexus-compiler-2.14.0.buildinfo): [28 :white_check_mark: ](plexus-compiler-2.14.0.buildcompare) | 468K |
