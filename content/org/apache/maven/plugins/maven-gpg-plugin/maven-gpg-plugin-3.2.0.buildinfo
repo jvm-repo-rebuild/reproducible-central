@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven GPG Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-gpg-plugin
+version=3.2.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-gpg-plugin.git
+source.scm.tag=maven-gpg-plugin-3.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-gpg-plugin-3.2.0.pom
+outputs.0.length=11736
+outputs.0.checksums.sha512=7d17bd61ad261c9db9450e0108f0e6c430b9cdf219a03b3665070e0889139b00011b54e16654d030c3acaa6f144a9a762e3607b271b0ca17e214118b45ce1b50
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-gpg-plugin-3.2.0.jar
+outputs.1.length=64644
+outputs.1.checksums.sha512=e4f62e23d01ece88c5ae19416bc17c504cc62cd6d100046955f8390271d929560a504a38b82cddee91943d22e32fe14798b16e636bca76fe70f3fd8e99262516
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-gpg-plugin-3.2.0-source-release.zip
+outputs.2.length=128692
+outputs.2.checksums.sha512=82dd55049d7ddeca9cb3f021859aead39f2b9ed09baae8b6def6bb492953acf2a9d9d65ec387f0c04c8775b2e3fe4082283f3b9c4b993d43fa02cf903a4f28fe
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-gpg-plugin-3.2.0-sources.jar
+outputs.3.length=38241
+outputs.3.checksums.sha512=a019c517dd1442e945c116401b4b649f5fe2303d8a02fd851a97e69c3c424f2b866e31f5e1661675ced5f4a2f619b98976cbe93fa639142d63711fb5c26fca51
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-gpg-plugin-3.2.0-cyclonedx.xml
+outputs.4.length=97386
+outputs.4.checksums.sha512=655030d45ffd3a239a7d1226e03fcdcb6896a626fa08a74bdf6026b19cff7c332a7c9be507107cc95199c1c730c568ad02c55ca0b6c8128c656004f10ca74803
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-gpg-plugin-3.2.0-cyclonedx.json
+outputs.5.length=112940
+outputs.5.checksums.sha512=3f735b12d8e01c6fea924a6233ac28877cea7150e8657591e098b500247439f40a61d5f3f3e10cadf09f51bcb906108745f8318f3cd8af8b0dfc7400a7ceadf6
