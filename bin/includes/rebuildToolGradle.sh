@@ -34,6 +34,7 @@ rebuildToolGradle() {
   [ -d ${OUTPUTDIR} ] && \rm -rf ${OUTPUTDIR}
   [ -d userhome/.m2 ] || mkdir -p userhome/.m2
   [ -d userhome/.gradle ] || mkdir -p userhome/.gradle
+  find . -name build -exec \rm -rf {} \;
 
   local docker_command="docker run -it --rm --name rebuild-central\
     -v $PWD:/var/gradle/app\
