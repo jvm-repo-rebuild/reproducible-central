@@ -1,0 +1,1157 @@
+name=org.jreleaser:jreleaser
+group-id=org.jreleaser
+artifact-id=jreleaser
+
+build-tool=gradle
+java.version=11
+os.name=lf
+
+outputs.1.coordinates=org.jreleaser:jdks-maven-plugin
+
+outputs.1.0.filename=jdks-maven-plugin-1.6.0-cyclonedx.json
+outputs.1.0.length=71766
+outputs.1.0.checksums.sha512=799138c39c6734daef490e67c882bdd4e510e2199f483757694f7155a013d13989000c4a38061adc4faa6009cb2f984c692a843e9be1d549fd47b3a735efbfb4  repository/org/jreleaser/jdks-maven-plugin/1.6.0/jdks-maven-plugin-1.6.0-cyclonedx.json
+
+outputs.1.1.filename=jdks-maven-plugin-1.6.0-cyclonedx.xml
+outputs.1.1.length=61885
+outputs.1.1.checksums.sha512=ac334716b9ffda176bea5c9e7507bb6d58106e54c6be1122b53f8461a04ad2ce9af889775501bdd77c08b73b47ddd96d77ff3385022cc8b5330dc7a3b94199b8  repository/org/jreleaser/jdks-maven-plugin/1.6.0/jdks-maven-plugin-1.6.0-cyclonedx.xml
+
+outputs.1.2.filename=jdks-maven-plugin-1.6.0.jar
+outputs.1.2.length=40572
+outputs.1.2.checksums.sha512=a3a4497a27db03c42742480e5aadbb40b5a70a4544294c4833562e04545db6304754fb1a21fda0c9b30e19a20e4ec56dacfe842c61e37740ad4610b1c48113fa  repository/org/jreleaser/jdks-maven-plugin/1.6.0/jdks-maven-plugin-1.6.0.jar
+
+outputs.1.3.filename=jdks-maven-plugin-1.6.0.pom
+outputs.1.3.length=2045
+outputs.1.3.checksums.sha512=e0e973a96aa7636b555ef73d0692bc9534b66175127228012b71aa353e22e3e9979a0785a05afba1812c0edcf325cb0ea50172b2acb3418e56f8db0b46dc47d9  repository/org/jreleaser/jdks-maven-plugin/1.6.0/jdks-maven-plugin-1.6.0.pom
+
+outputs.1.4.filename=jdks-maven-plugin-1.6.0-sources.jar
+outputs.1.4.length=20538
+outputs.1.4.checksums.sha512=69bb33561799b6f56d6db8b99d27a8af4b0994e8959182df2632bd2478180be4294b134a875754d915af2e86cce6d51a112668fd0caf27963f28299e5c4deac7  repository/org/jreleaser/jdks-maven-plugin/1.6.0/jdks-maven-plugin-1.6.0-sources.jar
+
+
+outputs.2.coordinates=org.jreleaser:jreleaser
+
+outputs.2.0.filename=jreleaser-1.6.0-cyclonedx.json
+outputs.2.0.length=203475
+outputs.2.0.checksums.sha512=7ca7c1835c840aeb343a31dd03ce664f398c8db0ce2233797f6d5bbbb57cb78beac9c492a68a958735a628e771ec8057fabc9c1a0e4aa0d043dd9f48fdb8be8e  repository/org/jreleaser/jreleaser/1.6.0/jreleaser-1.6.0-cyclonedx.json
+
+outputs.2.1.filename=jreleaser-1.6.0-cyclonedx.xml
+outputs.2.1.length=182181
+outputs.2.1.checksums.sha512=af03bbe4ea85715c351267266c4315147942f664e4cdadb0b37d9fd4ab203961e2f13110684191ff80c47e0c5ee84bce3e91c3c606116f946f7c1db01a725a3b  repository/org/jreleaser/jreleaser/1.6.0/jreleaser-1.6.0-cyclonedx.xml
+
+outputs.2.2.filename=jreleaser-1.6.0.jar
+outputs.2.2.length=145889
+outputs.2.2.checksums.sha512=dac92fccefdd3309f9accb0329eecbad73edeae4a5dc017c3895e44530df45e935a1885ec72836dd331e7a5fac4c616a1aadf7744d8c45d45e392fbe0bc7824a  repository/org/jreleaser/jreleaser/1.6.0/jreleaser-1.6.0.jar
+
+outputs.2.3.filename=jreleaser-1.6.0.pom
+outputs.2.3.length=2306
+outputs.2.3.checksums.sha512=86e3f8fdf2749c2a5452dddeaf5a0b01be8a62b7625c4ccdc8b8e00be67f61ee2ad0d42b5d738b1ac7a1c95f323a283bcb6049ba98f0d59223ce4713cf52cf2b  repository/org/jreleaser/jreleaser/1.6.0/jreleaser-1.6.0.pom
+
+outputs.2.4.filename=jreleaser-1.6.0-sources.jar
+outputs.2.4.length=97057
+outputs.2.4.checksums.sha512=174a754485f13d43328c3314320768a9dbf4536aa86d645cec0c173d9485f3d8b7213dbabf3f68b9709ff77533916157412e199a3e87573e58978af51a20038b  repository/org/jreleaser/jreleaser/1.6.0/jreleaser-1.6.0-sources.jar
+
+
+outputs.3.coordinates=org.jreleaser:jreleaser-ant-tasks
+
+outputs.3.0.filename=jreleaser-ant-tasks-1.6.0-cyclonedx.json
+outputs.3.0.length=204337
+outputs.3.0.checksums.sha512=1ca8ac06e671688e0b20f5d5f6d3c5e89fb55038f49344171715e948768633b3b1f312837e1224bbacdc00bee0bbe4956a4314eef44401a18e895e7edcbbe111  repository/org/jreleaser/jreleaser-ant-tasks/1.6.0/jreleaser-ant-tasks-1.6.0-cyclonedx.json
+
+outputs.3.1.filename=jreleaser-ant-tasks-1.6.0-cyclonedx.xml
+outputs.3.1.length=183030
+outputs.3.1.checksums.sha512=27e4d6ca2b59e971b321d08d34900bf2b7e49885f81f3ef88f63a38440a4b83e611a5c99e25b66057794caaf7c6919e2c1d95a56f8311920ac584dde7275f904  repository/org/jreleaser/jreleaser-ant-tasks/1.6.0/jreleaser-ant-tasks-1.6.0-cyclonedx.xml
+
+outputs.3.2.filename=jreleaser-ant-tasks-1.6.0.jar
+outputs.3.2.length=53309
+outputs.3.2.checksums.sha512=0ccbc5e0c403d4d0fb16721cb8f78d29eb8487477862ed59a8367b32d262501ce47051c0dd94c714cc41869112e3a6f4612fb08fac43893155e27d2982c1dae3  repository/org/jreleaser/jreleaser-ant-tasks/1.6.0/jreleaser-ant-tasks-1.6.0.jar
+
+outputs.3.3.filename=jreleaser-ant-tasks-1.6.0.pom
+outputs.3.3.length=1528
+outputs.3.3.checksums.sha512=6a02364d82dd432c6f0fb39655be72a70e6de6670e82fe664aa2672809cd37ba4d5722bc1befde1b107c3f5be61446cbc584abc8e4bbea4da02ca3b1bafcfed0  repository/org/jreleaser/jreleaser-ant-tasks/1.6.0/jreleaser-ant-tasks-1.6.0.pom
+
+outputs.3.4.filename=jreleaser-ant-tasks-1.6.0-sources.jar
+outputs.3.4.length=37606
+outputs.3.4.checksums.sha512=81ff669d69be5c86ad07a46703a58a64328b0b7be936bfadb2e68ab5855a7296c7a7e4ef9bc6a458cea0ac3aa9c98e47dc4f009e809842428f4c237158987a96  repository/org/jreleaser/jreleaser-ant-tasks/1.6.0/jreleaser-ant-tasks-1.6.0-sources.jar
+
+
+outputs.4.coordinates=org.jreleaser:jreleaser-artifactory-java-sdk
+
+outputs.4.0.filename=jreleaser-artifactory-java-sdk-1.6.0-cyclonedx.json
+outputs.4.0.length=61930
+outputs.4.0.checksums.sha512=ef47394442059bb278814a64e3be9219dea1b9b51e035f877b2a2b40a14a870d6b887794e5498d478cebfb5ba1cb5676fae71a4c986071686dece068b8f39605  repository/org/jreleaser/jreleaser-artifactory-java-sdk/1.6.0/jreleaser-artifactory-java-sdk-1.6.0-cyclonedx.json
+
+outputs.4.1.filename=jreleaser-artifactory-java-sdk-1.6.0-cyclonedx.xml
+outputs.4.1.length=54657
+outputs.4.1.checksums.sha512=c2039f8c43c3c98b4e0e75b076281ef3eb08d7433b78db8cd2924f710a4c28e331d0ca57bddf8077b354a63487e0111314523a0d24f5f9192f0a0b8a438a3db1  repository/org/jreleaser/jreleaser-artifactory-java-sdk/1.6.0/jreleaser-artifactory-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.4.2.filename=jreleaser-artifactory-java-sdk-1.6.0.jar
+outputs.4.2.length=17231
+outputs.4.2.checksums.sha512=eb2db5da7399fd5c0d66c0b074bde8b9b574e6e35bd7a36419bf0b8fdfc3c9910011924636966245665191affa48351516ea926487e509f66a1dafdb2e87e3aa  repository/org/jreleaser/jreleaser-artifactory-java-sdk/1.6.0/jreleaser-artifactory-java-sdk-1.6.0.jar
+
+outputs.4.3.filename=jreleaser-artifactory-java-sdk-1.6.0.pom
+outputs.4.3.length=1567
+outputs.4.3.checksums.sha512=52a2dd1bff1e2b45aba0479d0fba396407ba6e517de4ad70ac175689d6d4e1091893d8d409f0d71db2d84fb9af1310937eef2f4dbb6c1c23e05deb8d3bc63c81  repository/org/jreleaser/jreleaser-artifactory-java-sdk/1.6.0/jreleaser-artifactory-java-sdk-1.6.0.pom
+
+outputs.4.4.filename=jreleaser-artifactory-java-sdk-1.6.0-sources.jar
+outputs.4.4.length=6118
+outputs.4.4.checksums.sha512=f78abe37a9cc63ff6e84cfdf22cbb5c05fd428c7b8e1c52a0f38ffe4a35ffb4ac029c0b1e800557dbbd674847534ea4096194edfa758080d3211e25f5dac96e5  repository/org/jreleaser/jreleaser-artifactory-java-sdk/1.6.0/jreleaser-artifactory-java-sdk-1.6.0-sources.jar
+
+
+outputs.5.coordinates=org.jreleaser:jreleaser-azure-java-sdk
+
+outputs.5.0.filename=jreleaser-azure-java-sdk-1.6.0-cyclonedx.json
+outputs.5.0.length=61906
+outputs.5.0.checksums.sha512=007ee817655d646079c645dcb1dd55f14f9a13610c4ff1821376e4488dca2b4dad6b2f2a1359114dc0b6337e1272b1d68d118814ba67adb031b9b8e0a1833703  repository/org/jreleaser/jreleaser-azure-java-sdk/1.6.0/jreleaser-azure-java-sdk-1.6.0-cyclonedx.json
+
+outputs.5.1.filename=jreleaser-azure-java-sdk-1.6.0-cyclonedx.xml
+outputs.5.1.length=54633
+outputs.5.1.checksums.sha512=1402b441ac577d740bc869ee95464e24b346ef75463d34ca7c3dc771bd519c6aa6b6e6c8642f880ba41088d3072cf680f9930752c1dbf1f6ce14f4b8e7bc3713  repository/org/jreleaser/jreleaser-azure-java-sdk/1.6.0/jreleaser-azure-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.5.2.filename=jreleaser-azure-java-sdk-1.6.0.jar
+outputs.5.2.length=11409
+outputs.5.2.checksums.sha512=4f608a653f455597383722414f17fc5dc03271c26ec06c35b479868b9b1aed8631e1051130059d026d0d2f06043d618326adcc2363fa07b89732324515b27b0f  repository/org/jreleaser/jreleaser-azure-java-sdk/1.6.0/jreleaser-azure-java-sdk-1.6.0.jar
+
+outputs.5.3.filename=jreleaser-azure-java-sdk-1.6.0.pom
+outputs.5.3.length=1549
+outputs.5.3.checksums.sha512=922ad4d0a28883cada00e08a8ad2801540790c3f05ed1d4436d6c0830d3129d9e6dd12b85ed9c27a62c766e98fb3119addbdc4a01510f5a3f3a6271cffa5ab33  repository/org/jreleaser/jreleaser-azure-java-sdk/1.6.0/jreleaser-azure-java-sdk-1.6.0.pom
+
+outputs.5.4.filename=jreleaser-azure-java-sdk-1.6.0-sources.jar
+outputs.5.4.length=3375
+outputs.5.4.checksums.sha512=8cc6b40510d7bc1e6eadd069d0bf37f398a498a398c47dbc3663935d3e30ade7d601b8e4655b9e48c8c80e237f000fd7a9f7284851b6732b052de74e8899dab4  repository/org/jreleaser/jreleaser-azure-java-sdk/1.6.0/jreleaser-azure-java-sdk-1.6.0-sources.jar
+
+
+outputs.6.coordinates=org.jreleaser:jreleaser-codeberg-java-sdk
+
+outputs.6.0.filename=jreleaser-codeberg-java-sdk-1.6.0-cyclonedx.json
+outputs.6.0.length=62824
+outputs.6.0.checksums.sha512=1e5a6a132b9faac668d1d8484209c7cd3f6b1568c14cbd881b07abd2b022ad610d58888f6244f17b49dacdbcc9aa6d7ed486475fd51759f1c6e56a63ff4c049f  repository/org/jreleaser/jreleaser-codeberg-java-sdk/1.6.0/jreleaser-codeberg-java-sdk-1.6.0-cyclonedx.json
+
+outputs.6.1.filename=jreleaser-codeberg-java-sdk-1.6.0-cyclonedx.xml
+outputs.6.1.length=55538
+outputs.6.1.checksums.sha512=7305f1dcb3c6fca724c2bcaa310b1af76b8820d86c8703aba04154fbd98b9a27e94fcade3b239690654890a3693a5f3555c4f1d7a90e5f4748c03d53e68c46c2  repository/org/jreleaser/jreleaser-codeberg-java-sdk/1.6.0/jreleaser-codeberg-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.6.2.filename=jreleaser-codeberg-java-sdk-1.6.0.jar
+outputs.6.2.length=18449
+outputs.6.2.checksums.sha512=4e7c66912a2cb0da8741dedea746b46f655016764eb02113c9533fd7f9bbecb848b7a740643a872f719495f805f37c0941234ea24cea6f09f95eec57598ece86  repository/org/jreleaser/jreleaser-codeberg-java-sdk/1.6.0/jreleaser-codeberg-java-sdk-1.6.0.jar
+
+outputs.6.3.filename=jreleaser-codeberg-java-sdk-1.6.0.pom
+outputs.6.3.length=1553
+outputs.6.3.checksums.sha512=b2a6686713edf5e8579d4f1588824e9dd79e7baccbed6a25612177027ddfcefa48a8c3174f50b41036ef8a2babb2d5528d11c6a4ab3765cd7e315a15c6365ebc  repository/org/jreleaser/jreleaser-codeberg-java-sdk/1.6.0/jreleaser-codeberg-java-sdk-1.6.0.pom
+
+outputs.6.4.filename=jreleaser-codeberg-java-sdk-1.6.0-sources.jar
+outputs.6.4.length=6493
+outputs.6.4.checksums.sha512=b6d4b6c9a39dca4b0557b7059119124f29f6105c9ed4eecb85838e5bffaadbff3083251a266fb58287f0ccc2c305d531a48fbb098bd05114bc516a08db50e42f  repository/org/jreleaser/jreleaser-codeberg-java-sdk/1.6.0/jreleaser-codeberg-java-sdk-1.6.0-sources.jar
+
+
+outputs.7.coordinates=org.jreleaser:jreleaser-command-java-sdk
+
+outputs.7.0.filename=jreleaser-command-java-sdk-1.6.0-cyclonedx.json
+outputs.7.0.length=31642
+outputs.7.0.checksums.sha512=c3e63f8412ab4977a592da650d4f8d436d896d0d7a187aa17320617269a178615fdc15bd74d62f6445e72716e2f6c026485b89853987fba673bb580e62b9d930  repository/org/jreleaser/jreleaser-command-java-sdk/1.6.0/jreleaser-command-java-sdk-1.6.0-cyclonedx.json
+
+outputs.7.1.filename=jreleaser-command-java-sdk-1.6.0-cyclonedx.xml
+outputs.7.1.length=27791
+outputs.7.1.checksums.sha512=0b71eee0535be1bd7790418c7ac3ba52fa6f20916ad068806a4af40c7ed459c7be31bbef5bb89334b29bda3fe34e48184463efd3ee1f2b24d09cac3f05f62e83  repository/org/jreleaser/jreleaser-command-java-sdk/1.6.0/jreleaser-command-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.7.2.filename=jreleaser-command-java-sdk-1.6.0.jar
+outputs.7.2.length=18126
+outputs.7.2.checksums.sha512=d40f5671c80589711087a7dc5e4148ffee88ffacbca4db3a5360c0827e2ccc0e3fe80ed95e9c4b91d8c29617dbf6171a8a849a652e9b7a472e906692cd792498  repository/org/jreleaser/jreleaser-command-java-sdk/1.6.0/jreleaser-command-java-sdk-1.6.0.jar
+
+outputs.7.3.filename=jreleaser-command-java-sdk-1.6.0.pom
+outputs.7.3.length=2018
+outputs.7.3.checksums.sha512=91667479ef46addada9b177c1abf3cb35881d21efb41390276f0a10af1b2eba11276fd935c8b75d9ca3539498ff3d2dbc948021580a8c820f9daaea25bbf1a07  repository/org/jreleaser/jreleaser-command-java-sdk/1.6.0/jreleaser-command-java-sdk-1.6.0.pom
+
+outputs.7.4.filename=jreleaser-command-java-sdk-1.6.0-sources.jar
+outputs.7.4.length=4952
+outputs.7.4.checksums.sha512=f49d36089744290c7357ca21ef33b50e62370c77188a1933941d11f73ec7b3569f04aeb9a3a9e0f4124e3630203db727ae2e0ebe2156c8eb6dd775c569c8a38d  repository/org/jreleaser/jreleaser-command-java-sdk/1.6.0/jreleaser-command-java-sdk-1.6.0-sources.jar
+
+
+outputs.8.coordinates=org.jreleaser:jreleaser-config-json
+
+outputs.8.0.filename=jreleaser-config-json-1.6.0-cyclonedx.json
+outputs.8.0.length=38082
+outputs.8.0.checksums.sha512=17851eef7f12e6f1c23c321af897184dde1105b47d1a4b4a08f35ef0b1bf3ea25bcd49d10a8e8fc209eeeac794bbbf3680f6aaf8982f5206ce49441e1c715337  repository/org/jreleaser/jreleaser-config-json/1.6.0/jreleaser-config-json-1.6.0-cyclonedx.json
+
+outputs.8.1.filename=jreleaser-config-json-1.6.0-cyclonedx.xml
+outputs.8.1.length=33921
+outputs.8.1.checksums.sha512=b49a272f47201238824018d6c47bc3d815908f3d41810f14d4be853d4f21cb41e1ccc403cc78d5ab543ee2925b057f03b89bbe93a4363c83ab0e50b8a1920b0a  repository/org/jreleaser/jreleaser-config-json/1.6.0/jreleaser-config-json-1.6.0-cyclonedx.xml
+
+outputs.8.2.filename=jreleaser-config-json-1.6.0.jar
+outputs.8.2.length=8872
+outputs.8.2.checksums.sha512=4507e8f0ded1328c1f6c601be7a5a1743d82438f99ae7c0b1a0cc808edbc3b7cb645bed82b34e3fe982bebe1f26ea5f0e584ee2c1bdc56475fc797f9f96edfc3  repository/org/jreleaser/jreleaser-config-json/1.6.0/jreleaser-config-json-1.6.0.jar
+
+outputs.8.3.filename=jreleaser-config-json-1.6.0.pom
+outputs.8.3.length=1881
+outputs.8.3.checksums.sha512=ede783bde12ff31ae8669ee313827d59f765e0e9f739daca9e82950a35bbafbe56abdf7afda2249c7bf47f53f47acec2cfb9df0a32d151211d72a87ce2807853  repository/org/jreleaser/jreleaser-config-json/1.6.0/jreleaser-config-json-1.6.0.pom
+
+outputs.8.4.filename=jreleaser-config-json-1.6.0-sources.jar
+outputs.8.4.length=1897
+outputs.8.4.checksums.sha512=48979eefb38e341de73f60fc8a67a3e55126e098d1c978f709a38e88889616a6e85a2cb0368b5428f3b1330e300f3d05e00e71dd776fa18f93ccc5f40acdf8f4  repository/org/jreleaser/jreleaser-config-json/1.6.0/jreleaser-config-json-1.6.0-sources.jar
+
+
+outputs.9.coordinates=org.jreleaser:jreleaser-config-toml
+
+outputs.9.0.filename=jreleaser-config-toml-1.6.0-cyclonedx.json
+outputs.9.0.length=40358
+outputs.9.0.checksums.sha512=7577e7a3f1faa4c4b9de2fab1ce007fc94b3688bfc858eee0c7b7ea55db069b573882997d4ae2863ad367c9820d40cea4fa0e734fcd48cde33ee6feb18e805fc  repository/org/jreleaser/jreleaser-config-toml/1.6.0/jreleaser-config-toml-1.6.0-cyclonedx.json
+
+outputs.9.1.filename=jreleaser-config-toml-1.6.0-cyclonedx.xml
+outputs.9.1.length=35922
+outputs.9.1.checksums.sha512=fdb36a7861a837e9902d9cd19eabba4750fab73be0319ee585536fe02607c4561c1652bc96531b532c30be183e47db5ee8a1b43425bc6e6413da9da22f07b5d0  repository/org/jreleaser/jreleaser-config-toml/1.6.0/jreleaser-config-toml-1.6.0-cyclonedx.xml
+
+outputs.9.2.filename=jreleaser-config-toml-1.6.0.jar
+outputs.9.2.length=8968
+outputs.9.2.checksums.sha512=c2762fbd9f412a38732c4b6af3f030fad5d1b93ca56e4e9c6e1c9dc7c6d5dc8ed0d75e5202ef448b7b86aa78263ae0a3b8fe491d50e4a7d7dfafc52f17852641  repository/org/jreleaser/jreleaser-config-toml/1.6.0/jreleaser-config-toml-1.6.0.jar
+
+outputs.9.3.filename=jreleaser-config-toml-1.6.0.pom
+outputs.9.3.length=2061
+outputs.9.3.checksums.sha512=7d6b52f3331a4d5692cb05aa2996e81a9e752ba4edbd20d66662c3a23241ddaa7c3a0be6c5206a58172cf1e3e4c07ac36e7570fa7477310b93a1dbfb21971958  repository/org/jreleaser/jreleaser-config-toml/1.6.0/jreleaser-config-toml-1.6.0.pom
+
+outputs.9.4.filename=jreleaser-config-toml-1.6.0-sources.jar
+outputs.9.4.length=1906
+outputs.9.4.checksums.sha512=16e8c3ffb77c1e68d969973912bba41518d2a74ab0dcde4f1ccaba407901004f1936bc7b953ad2c86b42b07e9cf8efe4e5827998cbfed053bb983704cbf2cab2  repository/org/jreleaser/jreleaser-config-toml/1.6.0/jreleaser-config-toml-1.6.0-sources.jar
+
+
+outputs.10.coordinates=org.jreleaser:jreleaser-config-yaml
+
+outputs.10.0.filename=jreleaser-config-yaml-1.6.0-cyclonedx.json
+outputs.10.0.length=47042
+outputs.10.0.checksums.sha512=c08032654cf2a54c30bb0037f410fb86d0870b6a953e22d38c33a2c1b698ec4120d2833519196ad8c7e20a5db3a88b1d3836b274fbf7af791f369aa39586681c  repository/org/jreleaser/jreleaser-config-yaml/1.6.0/jreleaser-config-yaml-1.6.0-cyclonedx.json
+
+outputs.10.1.filename=jreleaser-config-yaml-1.6.0-cyclonedx.xml
+outputs.10.1.length=41571
+outputs.10.1.checksums.sha512=4caa00939226b72341ec942f5a66043b29d9c927375cbb5493323113ea0d783574dad5c54f6edc49d6ec6e080968b329a32d567370362a8fcf469e6ecc0a5d1c  repository/org/jreleaser/jreleaser-config-yaml/1.6.0/jreleaser-config-yaml-1.6.0-cyclonedx.xml
+
+outputs.10.2.filename=jreleaser-config-yaml-1.6.0.jar
+outputs.10.2.length=10123
+outputs.10.2.checksums.sha512=35e839587ad0124f9cd431ff584362d5cef45675ddbc02a22546590d491cc7b4d5b3d9dcd1851c62aee93e2f25667f1e8ad08084f68cae60bd829134e3fd3477  repository/org/jreleaser/jreleaser-config-yaml/1.6.0/jreleaser-config-yaml-1.6.0.jar
+
+outputs.10.3.filename=jreleaser-config-yaml-1.6.0.pom
+outputs.10.3.length=2650
+outputs.10.3.checksums.sha512=2bae71f8cadfc3c0ec0588e4cfa54c0f817e89e581c8a91cc72cdec122b08b77bbfec6aff9878ae9e0acee7537861cd0c362e9f5e5b3309590c7040d288c117f  repository/org/jreleaser/jreleaser-config-yaml/1.6.0/jreleaser-config-yaml-1.6.0.pom
+
+outputs.10.4.filename=jreleaser-config-yaml-1.6.0-sources.jar
+outputs.10.4.length=2382
+outputs.10.4.checksums.sha512=17a6da6b702441f149c5b4977eb3c621e133b4124a83ca3a379c8e83ef482e2f34e3f8e038635a5ac7dea5f166aecc2a068fb430a455f21e78241a7ea229113b  repository/org/jreleaser/jreleaser-config-yaml/1.6.0/jreleaser-config-yaml-1.6.0-sources.jar
+
+
+outputs.11.coordinates=org.jreleaser:jreleaser-disco-java-sdk
+
+outputs.11.0.filename=jreleaser-disco-java-sdk-1.6.0-cyclonedx.json
+outputs.11.0.length=36314
+outputs.11.0.checksums.sha512=187ad7f4bd646644bc0c6105ea2fa9d7491bf9d703224f548d9ca76a9c9d2ab025de11170fd84d2cd8f8f267ebbee6e0d630af661bbbadfb49dab32f515e2d69  repository/org/jreleaser/jreleaser-disco-java-sdk/1.6.0/jreleaser-disco-java-sdk-1.6.0-cyclonedx.json
+
+outputs.11.1.filename=jreleaser-disco-java-sdk-1.6.0-cyclonedx.xml
+outputs.11.1.length=31553
+outputs.11.1.checksums.sha512=9d5f844adb434c6503d39b5006d6e69605aba03dde42c2baf7ab52301fcc5417bcea78e9433b347a74d6cdaebf1b3847630362af8a80a925da646f2a4933b911  repository/org/jreleaser/jreleaser-disco-java-sdk/1.6.0/jreleaser-disco-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.11.2.filename=jreleaser-disco-java-sdk-1.6.0.jar
+outputs.11.2.length=18246
+outputs.11.2.checksums.sha512=3db98e6662b8f25e48af1cf3674e1649a8412b10bf02867aadc0ec522f6f31c477e0c05715e1c6314da73d15fc8b668b39cfa3ed461c2d29e56ce400fe8e9a15  repository/org/jreleaser/jreleaser-disco-java-sdk/1.6.0/jreleaser-disco-java-sdk-1.6.0.jar
+
+outputs.11.3.filename=jreleaser-disco-java-sdk-1.6.0.pom
+outputs.11.3.length=2649
+outputs.11.3.checksums.sha512=ce4b822297cfdb0c2d7e575dbb431ca13c45e4b29060b10821ef3524203ff43122b03e1dc240c2d30b42dfcf7b90795822363b44ca63d3cfad24314c8853bb59  repository/org/jreleaser/jreleaser-disco-java-sdk/1.6.0/jreleaser-disco-java-sdk-1.6.0.pom
+
+outputs.11.4.filename=jreleaser-disco-java-sdk-1.6.0-sources.jar
+outputs.11.4.length=9979
+outputs.11.4.checksums.sha512=4ae7915274bb22d3c8254f451052d41d7daed8f0315f857d806ba5d587179ea5a9eecd5eea40da67f6ee01e63623da2b309213d882b2e6b7165c1d74d598eb8c  repository/org/jreleaser/jreleaser-disco-java-sdk/1.6.0/jreleaser-disco-java-sdk-1.6.0-sources.jar
+
+
+outputs.12.coordinates=org.jreleaser:jreleaser-discord-java-sdk
+
+outputs.12.0.filename=jreleaser-discord-java-sdk-1.6.0-cyclonedx.json
+outputs.12.0.length=62847
+outputs.12.0.checksums.sha512=9d9743c4c58dee45eddde43a208dbe851b06826b0febc41a2eb221a702d45f45a1a635f94b069243b148719e9df0cb94e6b3eed23b41e48169c58340dd2ab007  repository/org/jreleaser/jreleaser-discord-java-sdk/1.6.0/jreleaser-discord-java-sdk-1.6.0-cyclonedx.json
+
+outputs.12.1.filename=jreleaser-discord-java-sdk-1.6.0-cyclonedx.xml
+outputs.12.1.length=55561
+outputs.12.1.checksums.sha512=e5a0562f8396aad8e05eea1303cc5a73aa1595fd697f3501024c71ea162426cdb6a77902a821627baafa894f0cff6816b839edc783c0a3a980525971a39ab9cb  repository/org/jreleaser/jreleaser-discord-java-sdk/1.6.0/jreleaser-discord-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.12.2.filename=jreleaser-discord-java-sdk-1.6.0.jar
+outputs.12.2.length=10560
+outputs.12.2.checksums.sha512=bb6f24a864e1a0b76f9b033c5780a1212b6aaa792fe1db316562d0b498539325d674f8f4c43433b12994860baa2214a1c740c851cbfc37162376afcd9d78e56b  repository/org/jreleaser/jreleaser-discord-java-sdk/1.6.0/jreleaser-discord-java-sdk-1.6.0.jar
+
+outputs.12.3.filename=jreleaser-discord-java-sdk-1.6.0.pom
+outputs.12.3.length=1554
+outputs.12.3.checksums.sha512=c2a342abac7bef2c499898e9fd8a5b123553e39fae92a9c49d337b6eb3b6a958b2560e706189d2900b09d7f4e1c8ec10e4154763ddd405e93544ccf93fa86b37  repository/org/jreleaser/jreleaser-discord-java-sdk/1.6.0/jreleaser-discord-java-sdk-1.6.0.pom
+
+outputs.12.4.filename=jreleaser-discord-java-sdk-1.6.0-sources.jar
+outputs.12.4.length=3486
+outputs.12.4.checksums.sha512=973c8428e44d01b3794e72f54b533c855b2b0c4ab4265007fbe39da798bf7879699f7f95e5e4a92c12f06053a1f1aa87ff3dc500e111b8798fa774d7ea278928  repository/org/jreleaser/jreleaser-discord-java-sdk/1.6.0/jreleaser-discord-java-sdk-1.6.0-sources.jar
+
+
+outputs.13.coordinates=org.jreleaser:jreleaser-discourse-java-sdk
+
+outputs.13.0.filename=jreleaser-discourse-java-sdk-1.6.0-cyclonedx.json
+outputs.13.0.length=61922
+outputs.13.0.checksums.sha512=eac6275cd0c3a6fc68774f23c618aa6c9d9a1bd840c593eab2a811c9beca01dd7c2acbfe1ab2ac53a26fdf31099f7bd72ef3a28bf0ee722a31af90a0ad496e4e  repository/org/jreleaser/jreleaser-discourse-java-sdk/1.6.0/jreleaser-discourse-java-sdk-1.6.0-cyclonedx.json
+
+outputs.13.1.filename=jreleaser-discourse-java-sdk-1.6.0-cyclonedx.xml
+outputs.13.1.length=54649
+outputs.13.1.checksums.sha512=997d91d312931d065a028d32516337fc6fe195feb7bcc6de91de314220fac7aa19d407411faa03ff2ad1da9665f1d918341686804d6f709cd6c0d1fac77717b3  repository/org/jreleaser/jreleaser-discourse-java-sdk/1.6.0/jreleaser-discourse-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.13.2.filename=jreleaser-discourse-java-sdk-1.6.0.jar
+outputs.13.2.length=20864
+outputs.13.2.checksums.sha512=ffad5ec59bf9848349ebddd5a6b0d1c301bad6f13d57f36ce603dd2cf2d6d74a16811caa8b9ee26e190e0c7db734742a4391fe20ad754c444534775d2b0d747a  repository/org/jreleaser/jreleaser-discourse-java-sdk/1.6.0/jreleaser-discourse-java-sdk-1.6.0.jar
+
+outputs.13.3.filename=jreleaser-discourse-java-sdk-1.6.0.pom
+outputs.13.3.length=1557
+outputs.13.3.checksums.sha512=9aae8c6c8a1699af1381f5af74a9f2dadfdeb6168bf31ddfe5f4cbfdb853f809e0520f1ebdd9a81ee47c0c1d1c03c1d2524c77caa12f5ebc1c39fd558020aad4  repository/org/jreleaser/jreleaser-discourse-java-sdk/1.6.0/jreleaser-discourse-java-sdk-1.6.0.pom
+
+outputs.13.4.filename=jreleaser-discourse-java-sdk-1.6.0-sources.jar
+outputs.13.4.length=9979
+outputs.13.4.checksums.sha512=f21dc7bf2ee1a90d109da287714e043c50a69841b7cfa9e12070bdcef615aa21d52281e3a36f6f50a496d96e392941f46b473a6544f7ced5c675fb424a6aa5ca  repository/org/jreleaser/jreleaser-discourse-java-sdk/1.6.0/jreleaser-discourse-java-sdk-1.6.0-sources.jar
+
+
+outputs.14.coordinates=org.jreleaser:jreleaser-engine
+
+outputs.14.0.filename=jreleaser-engine-1.6.0-cyclonedx.json
+outputs.14.0.length=184764
+outputs.14.0.checksums.sha512=6eb5d9d739a385a9107a34cf8fa42270557d272ef4656655413263e53c8391a3865e5e31a16ebb03577bcf21912a7688012405e9ef34564c0105555f0250d801  repository/org/jreleaser/jreleaser-engine/1.6.0/jreleaser-engine-1.6.0-cyclonedx.json
+
+outputs.14.1.filename=jreleaser-engine-1.6.0-cyclonedx.xml
+outputs.14.1.length=165534
+outputs.14.1.checksums.sha512=65af0c77d9d4349cff6e2d23c5ccaf1da6d77ac08a1a60fb0f1bdb4a8efae95c029ed78f62ae62197b3a815d866932f02f8a7e4633932ee7cb278263f7e5c530  repository/org/jreleaser/jreleaser-engine/1.6.0/jreleaser-engine-1.6.0-cyclonedx.xml
+
+outputs.14.2.filename=jreleaser-engine-1.6.0.jar
+outputs.14.2.length=343956
+outputs.14.2.checksums.sha512=51de3e09d47903dfbbd6367cb92d717ab7735440ac7b0d2f863914b2ada086c5a4356703bc8160cae783c77a0e9b0394438a5f6c671eb8ea4608f1a91c861338  repository/org/jreleaser/jreleaser-engine/1.6.0/jreleaser-engine-1.6.0.jar
+
+outputs.14.3.filename=jreleaser-engine-1.6.0.pom
+outputs.14.3.length=7685
+outputs.14.3.checksums.sha512=92ff7725cd1ae336b329b9c18cd070f61fb12c14d3009010a0d9906ebbc5ec266bb30069e0fbf1a89abf33b34ddd9967f7ed2bdca34d7c398644e121a615356f  repository/org/jreleaser/jreleaser-engine/1.6.0/jreleaser-engine-1.6.0.pom
+
+outputs.14.4.filename=jreleaser-engine-1.6.0-sources.jar
+outputs.14.4.length=183164
+outputs.14.4.checksums.sha512=4abb05a301e03b469013a2eb286d8e95c62104037f613ad2336cbfdda1d05c068ab3aaafbb3b1fc1ff3284842e726ae4098c80f7827dfaf39b1095d768dae9ec  repository/org/jreleaser/jreleaser-engine/1.6.0/jreleaser-engine-1.6.0-sources.jar
+
+
+outputs.15.coordinates=org.jreleaser:jreleaser-ftp-java-sdk
+
+outputs.15.0.filename=jreleaser-ftp-java-sdk-1.6.0-cyclonedx.json
+outputs.15.0.length=64229
+outputs.15.0.checksums.sha512=d0cc1d9b95ff1e0e6cc5846b3c6ee1de61a346be577a78f873664da142e54c17270231439eb7281f705647550f0da6f1d3f0ddb9d6f18369819cf643293bb041  repository/org/jreleaser/jreleaser-ftp-java-sdk/1.6.0/jreleaser-ftp-java-sdk-1.6.0-cyclonedx.json
+
+outputs.15.1.filename=jreleaser-ftp-java-sdk-1.6.0-cyclonedx.xml
+outputs.15.1.length=56602
+outputs.15.1.checksums.sha512=ebc3279f71ada651343c5d7edda29cddff76579bee79dc2a7ab4e1eb7f05beaeff975fc07cdc24ba8aa299dcf37388114d590bf1e454071b0876f2f881423afb  repository/org/jreleaser/jreleaser-ftp-java-sdk/1.6.0/jreleaser-ftp-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.15.2.filename=jreleaser-ftp-java-sdk-1.6.0.jar
+outputs.15.2.length=17606
+outputs.15.2.checksums.sha512=535ab5b17fec0fd7ee33461178cf957bc17da6a9674920f667c14abeea9196f7cf0603d45e9acefd3d637b44cd51fc8b1cfb19b09964e66c2ed068dd56bca1c9  repository/org/jreleaser/jreleaser-ftp-java-sdk/1.6.0/jreleaser-ftp-java-sdk-1.6.0.jar
+
+outputs.15.3.filename=jreleaser-ftp-java-sdk-1.6.0.pom
+outputs.15.3.length=1707
+outputs.15.3.checksums.sha512=e063b77bcd23008da15b87535eefe9f25dc2a2191c80568731c60f82e27b409bbf825cd7f326ffb7d064971694b41a7fcc078b3f92ee15c492cb3f56e9ada049  repository/org/jreleaser/jreleaser-ftp-java-sdk/1.6.0/jreleaser-ftp-java-sdk-1.6.0.pom
+
+outputs.15.4.filename=jreleaser-ftp-java-sdk-1.6.0-sources.jar
+outputs.15.4.length=7078
+outputs.15.4.checksums.sha512=bc6d86546059a570b7d64728da0a2ec1bf7b9c7b8eff5b1f4fa5abcf991ad8f6cec43a22c33fdea1b535418472a1e3a01eea6cfc647b9adc10b721eb6be46902  repository/org/jreleaser/jreleaser-ftp-java-sdk/1.6.0/jreleaser-ftp-java-sdk-1.6.0-sources.jar
+
+
+outputs.16.coordinates=org.jreleaser:jreleaser-genericgit-java-sdk
+
+outputs.16.0.filename=jreleaser-genericgit-java-sdk-1.6.0-cyclonedx.json
+outputs.16.0.length=61926
+outputs.16.0.checksums.sha512=2fd593fccc0a0da37a32dd543b9168b70ef51c640c158174432913418a0bb98a73a2df30a954823f06bb7250dd11bf1c6f954bc659057edd6564867dc7a954b5  repository/org/jreleaser/jreleaser-genericgit-java-sdk/1.6.0/jreleaser-genericgit-java-sdk-1.6.0-cyclonedx.json
+
+outputs.16.1.filename=jreleaser-genericgit-java-sdk-1.6.0-cyclonedx.xml
+outputs.16.1.length=54653
+outputs.16.1.checksums.sha512=ceef80cddeda0d739ad64fcc2dc8ffdf4d8dfb587716e790dd00977fa72b6be2d976eb166237f14b512e8dae83a0257e8ecff58557d40dad0c70cb14dff75b13  repository/org/jreleaser/jreleaser-genericgit-java-sdk/1.6.0/jreleaser-genericgit-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.16.2.filename=jreleaser-genericgit-java-sdk-1.6.0.jar
+outputs.16.2.length=10960
+outputs.16.2.checksums.sha512=fa2f664845956c04500cc0a7d810526df6bf12bafb65b005f441d5e7085f71e6e54ffa362323b4e62598c110e586dbbd540dae847e0a18ef0981191296f9f2b8  repository/org/jreleaser/jreleaser-genericgit-java-sdk/1.6.0/jreleaser-genericgit-java-sdk-1.6.0.jar
+
+outputs.16.3.filename=jreleaser-genericgit-java-sdk-1.6.0.pom
+outputs.16.3.length=1570
+outputs.16.3.checksums.sha512=2347386e63809df507a7805040a601061648586d35a0771ac28eb96da190f21dedc3fe84f5398defaba5c54249239f33bee316bfbd5eae2c964ee49fff9901b5  repository/org/jreleaser/jreleaser-genericgit-java-sdk/1.6.0/jreleaser-genericgit-java-sdk-1.6.0.pom
+
+outputs.16.4.filename=jreleaser-genericgit-java-sdk-1.6.0-sources.jar
+outputs.16.4.length=3805
+outputs.16.4.checksums.sha512=7bf097c4de95d163562eebc35d175a238f1eb2024141d8a8802acad46adbf52482c74dae5ac5b1b455bbfe17d9e9459bc75bc08e13a5b4fb93d9183fa831cdf7  repository/org/jreleaser/jreleaser-genericgit-java-sdk/1.6.0/jreleaser-genericgit-java-sdk-1.6.0-sources.jar
+
+
+outputs.17.coordinates=org.jreleaser:jreleaser-gitea-java-sdk
+
+outputs.17.0.filename=jreleaser-gitea-java-sdk-1.6.0-cyclonedx.json
+outputs.17.0.length=61906
+outputs.17.0.checksums.sha512=e454c83f15d304026afb5a0409f4894e979e0462d44ff60fdfebc3dc42ce6a32903ac350a489136e8d7c9da33cdf017a297691046010e4ea290de2494acdfbe6  repository/org/jreleaser/jreleaser-gitea-java-sdk/1.6.0/jreleaser-gitea-java-sdk-1.6.0-cyclonedx.json
+
+outputs.17.1.filename=jreleaser-gitea-java-sdk-1.6.0-cyclonedx.xml
+outputs.17.1.length=54633
+outputs.17.1.checksums.sha512=bcd3a66ab91fd767c6545caa7a240df41305b57c5be1111124fc8950a2abf3ab51a62289a5e6f6259dd10d76e258a302a2363938341eefb519ac773a63a9645a  repository/org/jreleaser/jreleaser-gitea-java-sdk/1.6.0/jreleaser-gitea-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.17.2.filename=jreleaser-gitea-java-sdk-1.6.0.jar
+outputs.17.2.length=47212
+outputs.17.2.checksums.sha512=38a507eb56a2f58d25547908340097f0674716c65bd53176005ba027b0c3434f7585d482e2c608e8b40a219d4640bad1ee9156a5724112bc08465935c1e4e264  repository/org/jreleaser/jreleaser-gitea-java-sdk/1.6.0/jreleaser-gitea-java-sdk-1.6.0.jar
+
+outputs.17.3.filename=jreleaser-gitea-java-sdk-1.6.0.pom
+outputs.17.3.length=1549
+outputs.17.3.checksums.sha512=fba6faa6a2bf7cb8238c0253cd33b516c2d38f81d2f4f6657d267f065adc0a9bcc51b0d194c6254755d1fdc7a72a31d78c7cb96c99f7c584dac6a9b73dc7c5a8  repository/org/jreleaser/jreleaser-gitea-java-sdk/1.6.0/jreleaser-gitea-java-sdk-1.6.0.pom
+
+outputs.17.4.filename=jreleaser-gitea-java-sdk-1.6.0-sources.jar
+outputs.17.4.length=28529
+outputs.17.4.checksums.sha512=fdcfb859be0309d65a69baa24ad4f87c86da31d350f78fbf5bb25eea611176682fa72c48f663f25fa07a170b6b287d710a2ed722c91dbe4f2c92ea0acf2d8186  repository/org/jreleaser/jreleaser-gitea-java-sdk/1.6.0/jreleaser-gitea-java-sdk-1.6.0-sources.jar
+
+
+outputs.18.coordinates=org.jreleaser:jreleaser-github-java-sdk
+
+outputs.18.0.filename=jreleaser-github-java-sdk-1.6.0-cyclonedx.json
+outputs.18.0.length=61910
+outputs.18.0.checksums.sha512=627c98f5ae4cac0aae1d50e83c0bf90aa7910d9121588787aaaad96a28b62c7f948202503dd1d52e99409ee29df13dcd1a67f6f3d055b3bd3feee6098a245775  repository/org/jreleaser/jreleaser-github-java-sdk/1.6.0/jreleaser-github-java-sdk-1.6.0-cyclonedx.json
+
+outputs.18.1.filename=jreleaser-github-java-sdk-1.6.0-cyclonedx.xml
+outputs.18.1.length=54637
+outputs.18.1.checksums.sha512=4e8056079872090f884e30fd23254c67733f1f2133e035f472ccbab77da8de6153ecf6d07d4cb27fee07e404db7e224938f35c4319e8805d67746160382b9332  repository/org/jreleaser/jreleaser-github-java-sdk/1.6.0/jreleaser-github-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.18.2.filename=jreleaser-github-java-sdk-1.6.0.jar
+outputs.18.2.length=55959
+outputs.18.2.checksums.sha512=7ee316823a65634d29db53ec21c1d1efe4b4d67ae7c6ad280f5d835e63e45d0891ec87a45396a5439283afaec6a243402bf06929c6d356d714e1a3d127f52eac  repository/org/jreleaser/jreleaser-github-java-sdk/1.6.0/jreleaser-github-java-sdk-1.6.0.jar
+
+outputs.18.3.filename=jreleaser-github-java-sdk-1.6.0.pom
+outputs.18.3.length=1551
+outputs.18.3.checksums.sha512=85b03f5e6d765128bb42bc4e008b43f20aec0b65c67ff06312707c689acb5765b7815ac633c5c52109d49474942d8beacdc9864009fa99be4c58b0a12a3bce2f  repository/org/jreleaser/jreleaser-github-java-sdk/1.6.0/jreleaser-github-java-sdk-1.6.0.pom
+
+outputs.18.4.filename=jreleaser-github-java-sdk-1.6.0-sources.jar
+outputs.18.4.length=34888
+outputs.18.4.checksums.sha512=503574c63221dc824f9969cc92e3a929f13548c4d24104cd1daa8db7cd82f8febe8d4a4dadb454c37b891065f093c8ec27ecbab0506b21a4b1f75e018d31a7e7  repository/org/jreleaser/jreleaser-github-java-sdk/1.6.0/jreleaser-github-java-sdk-1.6.0-sources.jar
+
+
+outputs.19.coordinates=org.jreleaser:jreleaser-git-java-sdk
+
+outputs.19.0.filename=jreleaser-git-java-sdk-1.6.0-cyclonedx.json
+outputs.19.0.length=42874
+outputs.19.0.checksums.sha512=2069588bc3ade4a3eb49cc89a43fce51d161e74a9dfff225938b923830f2275b06d5e3f66bb9006ca6a0fbc65c11ab78896101ce32af2f95d38cd14736088dd3  repository/org/jreleaser/jreleaser-git-java-sdk/1.6.0/jreleaser-git-java-sdk-1.6.0-cyclonedx.json
+
+outputs.19.1.filename=jreleaser-git-java-sdk-1.6.0-cyclonedx.xml
+outputs.19.1.length=38043
+outputs.19.1.checksums.sha512=1adaf24a4af160679c8adc24c4204f2883d90aec5c4afba7dd9701e7ead413faf2af97319b5a312dd5d7be5b61383a2170a1b2ea58ddba0b441b853f8cb8cef2  repository/org/jreleaser/jreleaser-git-java-sdk/1.6.0/jreleaser-git-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.19.2.filename=jreleaser-git-java-sdk-1.6.0.jar
+outputs.19.2.length=60566
+outputs.19.2.checksums.sha512=447286a510cd5b84f29275627ebf3bb6e930b6e150fa981c591f3266a354a46511a4a5d00cd13f95539541ed6e783641a9c9a4213c493cd7cf479780e427511f  repository/org/jreleaser/jreleaser-git-java-sdk/1.6.0/jreleaser-git-java-sdk-1.6.0.jar
+
+outputs.19.3.filename=jreleaser-git-java-sdk-1.6.0.pom
+outputs.19.3.length=1711
+outputs.19.3.checksums.sha512=6146e4d34e90a7e2bdf5f668ecbff49b19cf33134516e3a4b0d5c430727fee6d7980b67115b92d2f367ecd9c313cad090c4166d7580194c9070dc3a7654f48c3  repository/org/jreleaser/jreleaser-git-java-sdk/1.6.0/jreleaser-git-java-sdk-1.6.0.pom
+
+outputs.19.4.filename=jreleaser-git-java-sdk-1.6.0-sources.jar
+outputs.19.4.length=21705
+outputs.19.4.checksums.sha512=1de58279a80a46378003a24fd98cf7a303920114e6d9d800e5f6c8b972a1c4caf60d1282f88cc984e71315e8e36eec424b4e6e1912241d188eb6b6c037bb6e6e  repository/org/jreleaser/jreleaser-git-java-sdk/1.6.0/jreleaser-git-java-sdk-1.6.0-sources.jar
+
+
+outputs.20.coordinates=org.jreleaser:jreleaser-gitlab-java-sdk
+
+outputs.20.0.filename=jreleaser-gitlab-java-sdk-1.6.0-cyclonedx.json
+outputs.20.0.length=61910
+outputs.20.0.checksums.sha512=6991489b555598a5786cabc9a1b11c7431635c1138e2f5f950d66c37b379b47177ec03ae69b2d7a6ea26d0249e95159be6f7cce41154de185ac01d0b1cb873f5  repository/org/jreleaser/jreleaser-gitlab-java-sdk/1.6.0/jreleaser-gitlab-java-sdk-1.6.0-cyclonedx.json
+
+outputs.20.1.filename=jreleaser-gitlab-java-sdk-1.6.0-cyclonedx.xml
+outputs.20.1.length=54637
+outputs.20.1.checksums.sha512=73086a1faa2a1321381813d3037c765b170b71b83f69c29ef6dd9d010d4765321d1e83822a070efe34e46161b9c6fb291e4d1929801ceab5cfc3cdbd2cada3d3  repository/org/jreleaser/jreleaser-gitlab-java-sdk/1.6.0/jreleaser-gitlab-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.20.2.filename=jreleaser-gitlab-java-sdk-1.6.0.jar
+outputs.20.2.length=58467
+outputs.20.2.checksums.sha512=7d5262b777aea18be7c024e97314fbe6815a5b6f0a20d51743a3eb81bd1fe4f73628a5a13e63b20d491aed4416353dbf014494777fd167353100e723b3f7371b  repository/org/jreleaser/jreleaser-gitlab-java-sdk/1.6.0/jreleaser-gitlab-java-sdk-1.6.0.jar
+
+outputs.20.3.filename=jreleaser-gitlab-java-sdk-1.6.0.pom
+outputs.20.3.length=1551
+outputs.20.3.checksums.sha512=6a409dcf20453dd3c41ff90467ddaa9a4504ff03884497237e1def9b262acee6d9d29007fc0e62b6ac8e5079853adc47c1a352d3b155b82f70eef22f67edaa18  repository/org/jreleaser/jreleaser-gitlab-java-sdk/1.6.0/jreleaser-gitlab-java-sdk-1.6.0.pom
+
+outputs.20.4.filename=jreleaser-gitlab-java-sdk-1.6.0-sources.jar
+outputs.20.4.length=34948
+outputs.20.4.checksums.sha512=29ffa7f8dbab82f378c79f3da6d8e5939e0a4a619adef852add2a6c1e7bdb1035af65c907de9dbf5ddd0471eb3dbe05871df01c050d7bc6a6345cdb4ec72f8bd  repository/org/jreleaser/jreleaser-gitlab-java-sdk/1.6.0/jreleaser-gitlab-java-sdk-1.6.0-sources.jar
+
+
+outputs.21.coordinates=org.jreleaser:jreleaser-gitter-java-sdk
+
+outputs.21.0.filename=jreleaser-gitter-java-sdk-1.6.0-cyclonedx.json
+outputs.21.0.length=62843
+outputs.21.0.checksums.sha512=8f51b40f7f0a6f8b4d823d09ce7a5492f1208109112dffe4a044667b21ae1b041dfc4503a0a20a6017d7fee1462f2d4305d6fddddeff2b0d69e427c096b0153c  repository/org/jreleaser/jreleaser-gitter-java-sdk/1.6.0/jreleaser-gitter-java-sdk-1.6.0-cyclonedx.json
+
+outputs.21.1.filename=jreleaser-gitter-java-sdk-1.6.0-cyclonedx.xml
+outputs.21.1.length=55557
+outputs.21.1.checksums.sha512=a4d3c93926e0bdb8b69d937ec8f910e02ec011ff981cc5e8cf15c2d4e3defe4d4f66c9d6875b52455924b3d1469bf758fe3c43891e263818cc561c5db5342f2f  repository/org/jreleaser/jreleaser-gitter-java-sdk/1.6.0/jreleaser-gitter-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.21.2.filename=jreleaser-gitter-java-sdk-1.6.0.jar
+outputs.21.2.length=10532
+outputs.21.2.checksums.sha512=bbbff6588b066711308bf13e4ec4d373fe002bf9a1ef9cde9bfb0314870e2c0b99c7776966daa74e7f5961028a96d35c2952112883c30d4e262a2581ae7dd821  repository/org/jreleaser/jreleaser-gitter-java-sdk/1.6.0/jreleaser-gitter-java-sdk-1.6.0.jar
+
+outputs.21.3.filename=jreleaser-gitter-java-sdk-1.6.0.pom
+outputs.21.3.length=1552
+outputs.21.3.checksums.sha512=9bcede1943afa2a0618d9828f858808917878ffcc01211c99512b8dd62d950ef19a223871f187824e6b6be1142fdcc98919566718be21d0b338de9769cefef7e  repository/org/jreleaser/jreleaser-gitter-java-sdk/1.6.0/jreleaser-gitter-java-sdk-1.6.0.pom
+
+outputs.21.4.filename=jreleaser-gitter-java-sdk-1.6.0-sources.jar
+outputs.21.4.length=3466
+outputs.21.4.checksums.sha512=0c8f209cbf741c45570b505dd97e22391b78926a8f466f28acbde1c9ac7063ff7e7f14229b20ad79a7d4aa7f0d8728337b572e0481a9ea7df5169ca306a1d5a9  repository/org/jreleaser/jreleaser-gitter-java-sdk/1.6.0/jreleaser-gitter-java-sdk-1.6.0-sources.jar
+
+
+outputs.22.coordinates=org.jreleaser:jreleaser-google-chat-java-sdk
+
+outputs.22.0.filename=jreleaser-google-chat-java-sdk-1.6.0-cyclonedx.json
+outputs.22.0.length=62863
+outputs.22.0.checksums.sha512=2d4de972a7a9cc22497dc1e9d364c0b3c8497e3b6e9680ce98d26c3e8fb347efb2ee3937aab8613d3cadf6c27c2fd49df27a35086495b572eb2d91b16780760b  repository/org/jreleaser/jreleaser-google-chat-java-sdk/1.6.0/jreleaser-google-chat-java-sdk-1.6.0-cyclonedx.json
+
+outputs.22.1.filename=jreleaser-google-chat-java-sdk-1.6.0-cyclonedx.xml
+outputs.22.1.length=55577
+outputs.22.1.checksums.sha512=ba66379daf25c3aea12db5e4ef52bc79175b9107b381b22f9d00bc132412803ddf46e86458bebcc12d30526734cf12fd948333f7980a9c7f604d46d310ff9048  repository/org/jreleaser/jreleaser-google-chat-java-sdk/1.6.0/jreleaser-google-chat-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.22.2.filename=jreleaser-google-chat-java-sdk-1.6.0.jar
+outputs.22.2.length=10697
+outputs.22.2.checksums.sha512=e37042a113d309d84678949801f28b8ab61f90963d0ee116ccc23580c3b22f886233c300ab81bd2a0f3af8a70c0959e36d950e18e3d2c3b7ad9bdb6b5c3bfef2  repository/org/jreleaser/jreleaser-google-chat-java-sdk/1.6.0/jreleaser-google-chat-java-sdk-1.6.0.jar
+
+outputs.22.3.filename=jreleaser-google-chat-java-sdk-1.6.0.pom
+outputs.22.3.length=1562
+outputs.22.3.checksums.sha512=f7867156df188e0c6d2e5199f1b12979a3c9733adfcd7a94b79526bca546ab71ec851ef8b487c0bad2cb4a676580a4205c3c0b795fd3ccfda0b09612387311cb  repository/org/jreleaser/jreleaser-google-chat-java-sdk/1.6.0/jreleaser-google-chat-java-sdk-1.6.0.pom
+
+outputs.22.4.filename=jreleaser-google-chat-java-sdk-1.6.0-sources.jar
+outputs.22.4.length=3550
+outputs.22.4.checksums.sha512=a45a86cda0f64614a2898ec56ab7072069aff10ae2674d1dd41f62fc755819e7ec78acf9684d3603298af7948070aada1b111f36472fa0ba0613be90af6219eb  repository/org/jreleaser/jreleaser-google-chat-java-sdk/1.6.0/jreleaser-google-chat-java-sdk-1.6.0-sources.jar
+
+
+outputs.23.coordinates=org.jreleaser:jreleaser-graalvm-sdk
+
+outputs.23.0.filename=jreleaser-graalvm-sdk-1.6.0-cyclonedx.json
+outputs.23.0.length=5887
+outputs.23.0.checksums.sha512=36fa2482fef93a9db69b876cd888029519323933ffe839fe940f10f6fe77127c3a195a10e57d2d2266d6a9184abd34e9f72ac5ed9e6b5dcbbc20534bf44b85f6  repository/org/jreleaser/jreleaser-graalvm-sdk/1.6.0/jreleaser-graalvm-sdk-1.6.0-cyclonedx.json
+
+outputs.23.1.filename=jreleaser-graalvm-sdk-1.6.0-cyclonedx.xml
+outputs.23.1.length=5222
+outputs.23.1.checksums.sha512=029396e670a02751c76811d4816fc3540fc3903edc46ad7f624785a38907655c87ccdf1e1ecae2f46a7b03643ca5d4c153418ca3b4073b99a34db4b60ddb3786  repository/org/jreleaser/jreleaser-graalvm-sdk/1.6.0/jreleaser-graalvm-sdk-1.6.0-cyclonedx.xml
+
+outputs.23.2.filename=jreleaser-graalvm-sdk-1.6.0.jar
+outputs.23.2.length=7642
+outputs.23.2.checksums.sha512=5dcd51d0b8ab495ca45c1d87b7f65a8e9491a69396e5b503a8076a9b697c75d380890f9ba52a486156f382aa55b9549c085d78069b3a96a51a2c8e1abd18714d  repository/org/jreleaser/jreleaser-graalvm-sdk/1.6.0/jreleaser-graalvm-sdk-1.6.0.jar
+
+outputs.23.3.filename=jreleaser-graalvm-sdk-1.6.0.pom
+outputs.23.3.length=1543
+outputs.23.3.checksums.sha512=2e49bca0683865943a01ba084cf2e1017e8027bf7224cb14943de8d5524c0bd64b8584b4292c94d6b0d7572be215cdbee5bd6425887dd814676cf523ec6cd1a6  repository/org/jreleaser/jreleaser-graalvm-sdk/1.6.0/jreleaser-graalvm-sdk-1.6.0.pom
+
+outputs.23.4.filename=jreleaser-graalvm-sdk-1.6.0-sources.jar
+outputs.23.4.length=1880
+outputs.23.4.checksums.sha512=40f7bf3746d4bcf41eebd07e7a23ba5fc482fe76e231f4c2d8a120381ae66c77dcbacce15e3b36b32b8857d5c2db378ee113e3190369b6163b6d610ea1e118ca  repository/org/jreleaser/jreleaser-graalvm-sdk/1.6.0/jreleaser-graalvm-sdk-1.6.0-sources.jar
+
+
+outputs.24.coordinates=org.jreleaser:jreleaser-http-java-sdk
+
+outputs.24.0.filename=jreleaser-http-java-sdk-1.6.0-cyclonedx.json
+outputs.24.0.length=64446
+outputs.24.0.checksums.sha512=e2277a22025d548ca0ecb246915f3e293f8a4be3ecc0514f1c1c25e97fccbb41b1ea7086abaf8b1d19c8a6595901db71863392fdef787972a0f8b92d77b9f2f8  repository/org/jreleaser/jreleaser-http-java-sdk/1.6.0/jreleaser-http-java-sdk-1.6.0-cyclonedx.json
+
+outputs.24.1.filename=jreleaser-http-java-sdk-1.6.0-cyclonedx.xml
+outputs.24.1.length=56557
+outputs.24.1.checksums.sha512=e2595e2eb360b89cfa6d503cc9f1927e3c79db05c65f12fd907c3aac79349f78546264894788bc6430191df1714a7a8f0abc4637f4704b7137b02acdcc22a0b4  repository/org/jreleaser/jreleaser-http-java-sdk/1.6.0/jreleaser-http-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.24.2.filename=jreleaser-http-java-sdk-1.6.0.jar
+outputs.24.2.length=22463
+outputs.24.2.checksums.sha512=22de22899df69050e377f4e31ca414bbf83cb8fdd6064ae174de8d7d60f55a4f2309742a08a61cdc2275d5aff0555f076a9b9f39d2abfd51ae2f692dc8c4ba83  repository/org/jreleaser/jreleaser-http-java-sdk/1.6.0/jreleaser-http-java-sdk-1.6.0.jar
+
+outputs.24.3.filename=jreleaser-http-java-sdk-1.6.0.pom
+outputs.24.3.length=1555
+outputs.24.3.checksums.sha512=172e0b92c07086cdf2fa2d4bf8d3d4a14f7eeb07bd916361a9490624df9da3077baaac5b423a6465c493322cc3b5a6a9807d2516c4b34187bae438479695fb87  repository/org/jreleaser/jreleaser-http-java-sdk/1.6.0/jreleaser-http-java-sdk-1.6.0.pom
+
+outputs.24.4.filename=jreleaser-http-java-sdk-1.6.0-sources.jar
+outputs.24.4.length=9335
+outputs.24.4.checksums.sha512=cdd61c4353e9a14c6853d958fb2cdf37c40b1f4dbea97179212b1672e14157c473b3dd752771331cea23df2b4b592640eda255be83b6cb13f6ff183fb3ccd253  repository/org/jreleaser/jreleaser-http-java-sdk/1.6.0/jreleaser-http-java-sdk-1.6.0-sources.jar
+
+
+outputs.25.coordinates=org.jreleaser:jreleaser-java-sdk-commons
+
+outputs.25.0.filename=jreleaser-java-sdk-commons-1.6.0-cyclonedx.json
+outputs.25.0.length=63537
+outputs.25.0.checksums.sha512=b86703eec67eac3ee276556637d0e67a2617d6757aa4a3b3dfe5f46c1a76af6aa1790572f21d353e15f6535c754b848bd3ac5444f8a37debf82f240edf5d5eb7  repository/org/jreleaser/jreleaser-java-sdk-commons/1.6.0/jreleaser-java-sdk-commons-1.6.0-cyclonedx.json
+
+outputs.25.1.filename=jreleaser-java-sdk-commons-1.6.0-cyclonedx.xml
+outputs.25.1.length=55661
+outputs.25.1.checksums.sha512=62d62b6ac13b8970a373c9ca95d1492ecb9f2ccf17b1127fdc90852b5efc6a914fb110ad7fb137d99ccfcc11c3a3b95bdfec527148200d33bac345acbd266f92  repository/org/jreleaser/jreleaser-java-sdk-commons/1.6.0/jreleaser-java-sdk-commons-1.6.0-cyclonedx.xml
+
+outputs.25.2.filename=jreleaser-java-sdk-commons-1.6.0.jar
+outputs.25.2.length=40521
+outputs.25.2.checksums.sha512=03ed834cedf5f6b85f8d98defe2790fa0ca2971c686b46dc7c8616d130034785a6969e144ba6aa5d6f4d9093ccf888a7e4995c87d7acf862ece913e9696c550a  repository/org/jreleaser/jreleaser-java-sdk-commons/1.6.0/jreleaser-java-sdk-commons-1.6.0.jar
+
+outputs.25.3.filename=jreleaser-java-sdk-commons-1.6.0.pom
+outputs.25.3.length=3763
+outputs.25.3.checksums.sha512=220327ab745d5ae7c33658d2cd7e5917039b687a894db77ff9135638942172cc5c65aeb439440a232a69e1ec5031f9395454ff7ed1b1d2ad7fe5ac1e9264c4d6  repository/org/jreleaser/jreleaser-java-sdk-commons/1.6.0/jreleaser-java-sdk-commons-1.6.0.pom
+
+outputs.25.4.filename=jreleaser-java-sdk-commons-1.6.0-sources.jar
+outputs.25.4.length=17232
+outputs.25.4.checksums.sha512=f49366702202298d7aeea067773355d6919f622d3f08a5f2f0f80e798fb59daa5d52cf1ccb27b05e8789923edc4795c0230a3203da053ea312ba393ddeb16557  repository/org/jreleaser/jreleaser-java-sdk-commons/1.6.0/jreleaser-java-sdk-commons-1.6.0-sources.jar
+
+
+outputs.26.coordinates=org.jreleaser:jreleaser-linkedin-java-sdk
+
+outputs.26.0.filename=jreleaser-linkedin-java-sdk-1.6.0-cyclonedx.json
+outputs.26.0.length=64462
+outputs.26.0.checksums.sha512=20894b9e9c96e404258ca2139e0b1856cb27b9118abdf9ce91e03e02d8d4141698185498bafb6133534b18e9bc73413193258aa78e05dc06566ba6d84ccc4621  repository/org/jreleaser/jreleaser-linkedin-java-sdk/1.6.0/jreleaser-linkedin-java-sdk-1.6.0-cyclonedx.json
+
+outputs.26.1.filename=jreleaser-linkedin-java-sdk-1.6.0-cyclonedx.xml
+outputs.26.1.length=56573
+outputs.26.1.checksums.sha512=20dbf1124e4df874d537d6e2ca4ece651eed1ef4674fe6dfa5b07eb8cd15c55b7a1085c2fefd98f5df5a5801c57afab11c0283fdd9b3211da876d335abb2cc80  repository/org/jreleaser/jreleaser-linkedin-java-sdk/1.6.0/jreleaser-linkedin-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.26.2.filename=jreleaser-linkedin-java-sdk-1.6.0.jar
+outputs.26.2.length=19967
+outputs.26.2.checksums.sha512=7eac41a0d93efdafd5eeb329a37f5a94cf5fa0a4c338fd59df76bb9afb90bf414fea119bae96763c559edc77a8b334ef540e1f5bf83b73f51e51e3b939ded0e4  repository/org/jreleaser/jreleaser-linkedin-java-sdk/1.6.0/jreleaser-linkedin-java-sdk-1.6.0.jar
+
+outputs.26.3.filename=jreleaser-linkedin-java-sdk-1.6.0.pom
+outputs.26.3.length=1555
+outputs.26.3.checksums.sha512=f6286f8da824974f65343959cef950cc02fbd72425a7ba80b4c249493b904803941343185a67123bd049df4f341fad8aa52d5092f55fe7195c06a0f7cee43c36  repository/org/jreleaser/jreleaser-linkedin-java-sdk/1.6.0/jreleaser-linkedin-java-sdk-1.6.0.pom
+
+outputs.26.4.filename=jreleaser-linkedin-java-sdk-1.6.0-sources.jar
+outputs.26.4.length=9283
+outputs.26.4.checksums.sha512=eff0b199e409bd6501a62323dfefca26981950135ace3b543621ece5c2e6dc84443edb68f1506cad770f39937a941b8fd22ed328f35e9182d9e210ebf3a614c7  repository/org/jreleaser/jreleaser-linkedin-java-sdk/1.6.0/jreleaser-linkedin-java-sdk-1.6.0-sources.jar
+
+
+outputs.27.coordinates=org.jreleaser:jreleaser-logger-api
+
+outputs.27.0.filename=jreleaser-logger-api-1.6.0-cyclonedx.json
+outputs.27.0.length=4701
+outputs.27.0.checksums.sha512=b7b9ce8c1ca3fea4415a5397666c812567aee2bb5286457bde68f7453a45ec9bb462b32508cc05914988c1ea5764c95e6667ec22f378de15ae50e506ba9c7e5a  repository/org/jreleaser/jreleaser-logger-api/1.6.0/jreleaser-logger-api-1.6.0-cyclonedx.json
+
+outputs.27.1.filename=jreleaser-logger-api-1.6.0-cyclonedx.xml
+outputs.27.1.length=4147
+outputs.27.1.checksums.sha512=4c9f4be993eddb0582a6228edcd6d3fecac93fd11a406c204b0281a9a45ab2d52e87ca7ca1fa31b3bbad59e22dc256b59543c8ecb1a22c7603d0a24202f501b0  repository/org/jreleaser/jreleaser-logger-api/1.6.0/jreleaser-logger-api-1.6.0-cyclonedx.xml
+
+outputs.27.2.filename=jreleaser-logger-api-1.6.0.jar
+outputs.27.2.length=12679
+outputs.27.2.checksums.sha512=c4f4edf49e18f475b7b44677497250cd93af45e302fb39306a94dc8f0ee1f783921967de3e1f1b7591f970a359080f43b24c1499a363280d904c2519d2e9bcb2  repository/org/jreleaser/jreleaser-logger-api/1.6.0/jreleaser-logger-api-1.6.0.jar
+
+outputs.27.3.filename=jreleaser-logger-api-1.6.0.pom
+outputs.27.3.length=1673
+outputs.27.3.checksums.sha512=7c44ccb58633fe319163f224247a958e6d35a18fc2cf53c9794bfafb560ebe4ce18a73bb3a5cde7c4a40dcb894d0f5484d7b950b6725893221d96aa1a9f0e38b  repository/org/jreleaser/jreleaser-logger-api/1.6.0/jreleaser-logger-api-1.6.0.pom
+
+outputs.27.4.filename=jreleaser-logger-api-1.6.0-sources.jar
+outputs.27.4.length=4217
+outputs.27.4.checksums.sha512=cba6d09a069a1a4bfbe6fc981ef3e8bc7e57eae50049528024bf80696c1dc0252ca843f6c4716aca41b6745c1aea35a2c6d6c50efdf9e83fad66d85073725046  repository/org/jreleaser/jreleaser-logger-api/1.6.0/jreleaser-logger-api-1.6.0-sources.jar
+
+
+outputs.28.coordinates=org.jreleaser:jreleaser-mastodon-java-sdk
+
+outputs.28.0.filename=jreleaser-mastodon-java-sdk-1.6.0-cyclonedx.json
+outputs.28.0.length=64462
+outputs.28.0.checksums.sha512=a05a4351c735333c362908996aed8d69d94154cc74bd360f688f762d24accd4f30e4bbaba04188ad025d94646ee0ceebb1fa2d942070c23beb251040f66ebf7e  repository/org/jreleaser/jreleaser-mastodon-java-sdk/1.6.0/jreleaser-mastodon-java-sdk-1.6.0-cyclonedx.json
+
+outputs.28.1.filename=jreleaser-mastodon-java-sdk-1.6.0-cyclonedx.xml
+outputs.28.1.length=56573
+outputs.28.1.checksums.sha512=32ddf0bb0e29492bc7f9090c871cf7fc1aefafc5b9c6d9746b0c438b80debea6ce76da7e612347618a2145a24c9a21bcc6f7b70e7383af7809d0613d69707944  repository/org/jreleaser/jreleaser-mastodon-java-sdk/1.6.0/jreleaser-mastodon-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.28.2.filename=jreleaser-mastodon-java-sdk-1.6.0.jar
+outputs.28.2.length=19353
+outputs.28.2.checksums.sha512=cd2a31d593354b5e3acdb26bdb7cc91aa2d626f84174b95e18dca59a6ce7776f3aa5474d43b0d115354301cbabe445b38e07d34f4b98878c35736e82be446b0c  repository/org/jreleaser/jreleaser-mastodon-java-sdk/1.6.0/jreleaser-mastodon-java-sdk-1.6.0.jar
+
+outputs.28.3.filename=jreleaser-mastodon-java-sdk-1.6.0.pom
+outputs.28.3.length=1555
+outputs.28.3.checksums.sha512=c8368523f3e55b96de8818ab67a800d1220f959498acf4d3e2fb2271032e10ce764cb2696d487b330cbd383e4157db4bc94e7f29b4ddcbfdcaf45abb55051358  repository/org/jreleaser/jreleaser-mastodon-java-sdk/1.6.0/jreleaser-mastodon-java-sdk-1.6.0.pom
+
+outputs.28.4.filename=jreleaser-mastodon-java-sdk-1.6.0-sources.jar
+outputs.28.4.length=8529
+outputs.28.4.checksums.sha512=c7a058abdb51194f7d3ced07d2f4d3b203207fd6038be1f1176e89f67f40f281712eef22f6ceaf350acbf4002ac1db4850ff67e488c691dbf7c24e02a32251fa  repository/org/jreleaser/jreleaser-mastodon-java-sdk/1.6.0/jreleaser-mastodon-java-sdk-1.6.0-sources.jar
+
+
+outputs.29.coordinates=org.jreleaser:jreleaser-mattermost-java-sdk
+
+outputs.29.0.filename=jreleaser-mattermost-java-sdk-1.6.0-cyclonedx.json
+outputs.29.0.length=65403
+outputs.29.0.checksums.sha512=2b7b262a008c640be71088cad4295b4e2e1868a0e4c9c7a4bed6cacdd4ab4ba6e5f2f2c266307553b0632d31605734a5e74bf33797ac1632897d8d14cdef07f6  repository/org/jreleaser/jreleaser-mattermost-java-sdk/1.6.0/jreleaser-mattermost-java-sdk-1.6.0-cyclonedx.json
+
+outputs.29.1.filename=jreleaser-mattermost-java-sdk-1.6.0-cyclonedx.xml
+outputs.29.1.length=57501
+outputs.29.1.checksums.sha512=67676c5ba3d84c99034cb0d85a86625a035947b7f5a173162e51bb83f893aa43fecf4700fffcf17671d4b5210d7ae4931cd49b5f0326bf44a0df3c0de6059bbb  repository/org/jreleaser/jreleaser-mattermost-java-sdk/1.6.0/jreleaser-mattermost-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.29.2.filename=jreleaser-mattermost-java-sdk-1.6.0.jar
+outputs.29.2.length=10653
+outputs.29.2.checksums.sha512=5d6712bdd2cce531aaa863dda3952106f799018ca35d659add95f66d757bfb13bb4a9d964db447261fcee3e38db862d07a4f5fb80793c6c275839cec87ca3e32  repository/org/jreleaser/jreleaser-mattermost-java-sdk/1.6.0/jreleaser-mattermost-java-sdk-1.6.0.jar
+
+outputs.29.3.filename=jreleaser-mattermost-java-sdk-1.6.0.pom
+outputs.29.3.length=1560
+outputs.29.3.checksums.sha512=8aafc5e0c57563cf9559517144fa5f267dc9643476ed380edf451d1aab8b43d39330dd2e7ce402f491e4e5b2cf8cea3650d29f877d8e46a2fc2e5231f38c4179  repository/org/jreleaser/jreleaser-mattermost-java-sdk/1.6.0/jreleaser-mattermost-java-sdk-1.6.0.pom
+
+outputs.29.4.filename=jreleaser-mattermost-java-sdk-1.6.0-sources.jar
+outputs.29.4.length=3543
+outputs.29.4.checksums.sha512=05e06bd8ab81f1817c74dc5b8212cbade13008bbd4d1caf2828f9ac89c6ee7ffd002d838a4a92b8b9db20e43564e9cf20e2d6ac8880d798aefb505fef15706ff  repository/org/jreleaser/jreleaser-mattermost-java-sdk/1.6.0/jreleaser-mattermost-java-sdk-1.6.0-sources.jar
+
+
+outputs.30.coordinates=org.jreleaser:jreleaser-maven-plugin
+
+outputs.30.0.filename=jreleaser-maven-plugin-1.6.0-cyclonedx.json
+outputs.30.0.length=223550
+outputs.30.0.checksums.sha512=829ca0f74ee6727c3944562683a6214b467f64adb732dfc755a1cba2b66702bfe9a48e25f4aaeb7899f18fe0541942ecc1de5806d89f109eb702a64044a70611  repository/org/jreleaser/jreleaser-maven-plugin/1.6.0/jreleaser-maven-plugin-1.6.0-cyclonedx.json
+
+outputs.30.1.filename=jreleaser-maven-plugin-1.6.0-cyclonedx.xml
+outputs.30.1.length=199342
+outputs.30.1.checksums.sha512=e568efc18481068aa6769a650d1e7f34c0953aaa3ad0857bd8d3756ed5d4f9231f1fa5c092cc85b81a438cb1e97d51a6d281917eaee811deeb941cf1b46114be  repository/org/jreleaser/jreleaser-maven-plugin/1.6.0/jreleaser-maven-plugin-1.6.0-cyclonedx.xml
+
+outputs.30.2.filename=jreleaser-maven-plugin-1.6.0.jar
+outputs.30.2.length=74096
+outputs.30.2.checksums.sha512=41bb8ecf071d88b4d6986d3f622ac0b7dd67177a905da329502c12d74520dea4c7681362072223f134bfcc53364ff17f79d133379cee294ab5f642147a1d5e06  repository/org/jreleaser/jreleaser-maven-plugin/1.6.0/jreleaser-maven-plugin-1.6.0.jar
+
+outputs.30.3.filename=jreleaser-maven-plugin-1.6.0.pom
+outputs.30.3.length=2820
+outputs.30.3.checksums.sha512=2ba98f8f58186f6477f96a26e08a5a8d92749bc1acccbb58228b41edee4abdc1d646a01eb1cd6ffb90f90216bb88797bef887f8696b97ca36ed0dc9fb7b1b69e  repository/org/jreleaser/jreleaser-maven-plugin/1.6.0/jreleaser-maven-plugin-1.6.0.pom
+
+outputs.30.4.filename=jreleaser-maven-plugin-1.6.0-sources.jar
+outputs.30.4.length=42805
+outputs.30.4.checksums.sha512=c1ee85bab3f221476e62428b62e6d33a414f91bf4002dd08c8ece82ab75c8c1ccd5ba5330a8aa7cfcdd57f51e9788710436e70ec77d9c368d5330293668bb138  repository/org/jreleaser/jreleaser-maven-plugin/1.6.0/jreleaser-maven-plugin-1.6.0-sources.jar
+
+
+outputs.31.coordinates=org.jreleaser:jreleaser-model-api
+
+outputs.31.0.filename=jreleaser-model-api-1.6.0-cyclonedx.json
+outputs.31.0.length=33063
+outputs.31.0.checksums.sha512=ba4b792f188254a539013dbc7ff44162fa6f96ccc97853b6f4412e59e0234254886df3422af3e1f8c3b3606bdd819c0d3074be6c77b61bba49d923b5a28b0b1c  repository/org/jreleaser/jreleaser-model-api/1.6.0/jreleaser-model-api-1.6.0-cyclonedx.json
+
+outputs.31.1.filename=jreleaser-model-api-1.6.0-cyclonedx.xml
+outputs.31.1.length=28564
+outputs.31.1.checksums.sha512=bac6b722dca6053ca8ef7fe7a5341b58d892b370450ea44bb55a911f5faddc7bcd7f81b58622b0c8e19f7d819115cb977e9af59fbd67a15d80d2c0c47f7f3c72  repository/org/jreleaser/jreleaser-model-api/1.6.0/jreleaser-model-api-1.6.0-cyclonedx.xml
+
+outputs.31.2.filename=jreleaser-model-api-1.6.0.jar
+outputs.31.2.length=220490
+outputs.31.2.checksums.sha512=67c4e2f9acb6db78c21cfd23d3411ce1e32b23690a1d5035a285b48cd9b996fd4c80b504d050e87a4a5604e6b56ca52878a464593f0bd8eea53059bcb263289f  repository/org/jreleaser/jreleaser-model-api/1.6.0/jreleaser-model-api-1.6.0.jar
+
+outputs.31.3.filename=jreleaser-model-api-1.6.0.pom
+outputs.31.3.length=2019
+outputs.31.3.checksums.sha512=3468d10d540c071af9375dd9da22fcd5c7e98213f4b29258d93744e58484191299d933eb0a1679ebf53d77d5c79adbf9d0e517d5cfdffe5dca307fa825c5d307  repository/org/jreleaser/jreleaser-model-api/1.6.0/jreleaser-model-api-1.6.0.pom
+
+outputs.31.4.filename=jreleaser-model-api-1.6.0-sources.jar
+outputs.31.4.length=169361
+outputs.31.4.checksums.sha512=39d6d61ad6eea2bef1f58fc68dfa7c9783f2269d5e9fde7ccb0b0d45bb55941d15d13c6b9d463b5e9dfdddadf40cf37326683b63403aed109e19e84e6a9ee116  repository/org/jreleaser/jreleaser-model-api/1.6.0/jreleaser-model-api-1.6.0-sources.jar
+
+
+outputs.32.coordinates=org.jreleaser:jreleaser-model-impl
+
+outputs.32.0.filename=jreleaser-model-impl-1.6.0-cyclonedx.json
+outputs.32.0.length=39566
+outputs.32.0.checksums.sha512=d59ab2188ab5ba950ec6fbe207a805544bafe259ab1d1cc6b89369e657c99bfe5c73e945b4dcd851554434e307ec0f131b55bc887309ac6f35c2460f455fa865  repository/org/jreleaser/jreleaser-model-impl/1.6.0/jreleaser-model-impl-1.6.0-cyclonedx.json
+
+outputs.32.1.filename=jreleaser-model-impl-1.6.0-cyclonedx.xml
+outputs.32.1.length=34772
+outputs.32.1.checksums.sha512=2d3623d943bda8a28638dd11faf6b6387535622699688e4e481f531b71a3c805cbeb6057485162b3c63494a81a2ed0ff40e34f3048e281be2e491208a4d92a52  repository/org/jreleaser/jreleaser-model-impl/1.6.0/jreleaser-model-impl-1.6.0-cyclonedx.xml
+
+outputs.32.2.filename=jreleaser-model-impl-1.6.0.jar
+outputs.32.2.length=1097192
+outputs.32.2.checksums.sha512=81899b65d3eb10b0dac885ee17b45822d12d5746141876ef2573b0afaec13c92187ebf8a6c446ce002f25f8bc3d40f1a88e1c8c548bd35a556efc86d9f5ed809  repository/org/jreleaser/jreleaser-model-impl/1.6.0/jreleaser-model-impl-1.6.0.jar
+
+outputs.32.3.filename=jreleaser-model-impl-1.6.0.pom
+outputs.32.3.length=2042
+outputs.32.3.checksums.sha512=44f1a368270379aa7f24677d5f6ac45ab8835217288431b1c4daeb31adba7c548d82868d030080d3817086522263d50c219f7931e31e5d69725b410bbc732b8e  repository/org/jreleaser/jreleaser-model-impl/1.6.0/jreleaser-model-impl-1.6.0.pom
+
+outputs.32.4.filename=jreleaser-model-impl-1.6.0-sources.jar
+outputs.32.4.length=536674
+outputs.32.4.checksums.sha512=dd29d6fcfb754d6164db8a01561e9e7195e12cc9cf08bac20374fc0339103d25ddf1c8986a911d7a8f3bb404a386ba44985eec305765078bb92f35b6339a1cdc  repository/org/jreleaser/jreleaser-model-impl/1.6.0/jreleaser-model-impl-1.6.0-sources.jar
+
+
+outputs.33.coordinates=org.jreleaser:jreleaser-nexus2-java-sdk
+
+outputs.33.0.filename=jreleaser-nexus2-java-sdk-1.6.0-cyclonedx.json
+outputs.33.0.length=73704
+outputs.33.0.checksums.sha512=7fab8ca057d7e348b0d5756de1b0bbdc3481055ccca6ab328f1ba71645a9d5de8fcbf4de6e96b2dd77874645e2e255b9940ebadcd9ba30208accd4eee7530462  repository/org/jreleaser/jreleaser-nexus2-java-sdk/1.6.0/jreleaser-nexus2-java-sdk-1.6.0-cyclonedx.json
+
+outputs.33.1.filename=jreleaser-nexus2-java-sdk-1.6.0-cyclonedx.xml
+outputs.33.1.length=64524
+outputs.33.1.checksums.sha512=4a0c0dd33d4f35629df20c1769ce6fc95f7bb4b6e6c7a0e97afd0fb930cb44013ca60fccc75243f6fe1d778bb0c20cdc42e4cc566f6d34ac406098d0ee3889e1  repository/org/jreleaser/jreleaser-nexus2-java-sdk/1.6.0/jreleaser-nexus2-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.33.2.filename=jreleaser-nexus2-java-sdk-1.6.0.jar
+outputs.33.2.length=32285
+outputs.33.2.checksums.sha512=83a95e232cefce85949791f701032c68f9e72825d4917e959ecb9bb191535f14a70f27fd4c784f249b9f447b4751cac465b2200eb951ce184ab956a1ee4a36d9  repository/org/jreleaser/jreleaser-nexus2-java-sdk/1.6.0/jreleaser-nexus2-java-sdk-1.6.0.jar
+
+outputs.33.3.filename=jreleaser-nexus2-java-sdk-1.6.0.pom
+outputs.33.3.length=1883
+outputs.33.3.checksums.sha512=8eb026949df75875a1b51f379d5755155747498ddb98f0fb630b1fe4aae2bf1c4324a21cb2a0a8bd36a74c1057ec370b4130925fc87722bab5133d98db1dc1cd  repository/org/jreleaser/jreleaser-nexus2-java-sdk/1.6.0/jreleaser-nexus2-java-sdk-1.6.0.pom
+
+outputs.33.4.filename=jreleaser-nexus2-java-sdk-1.6.0-sources.jar
+outputs.33.4.length=15646
+outputs.33.4.checksums.sha512=2b72cd96e800b5b250f1254c5d05bbed673193225b5f475fd2876979e12e5f12d33ea087f78e13089a146724c003ea1a26ca8d210fb8579b532e126617844555  repository/org/jreleaser/jreleaser-nexus2-java-sdk/1.6.0/jreleaser-nexus2-java-sdk-1.6.0-sources.jar
+
+
+outputs.34.coordinates=org.jreleaser:jreleaser-opencollective-java-sdk
+
+outputs.34.0.filename=jreleaser-opencollective-java-sdk-1.6.0-cyclonedx.json
+outputs.34.0.length=64486
+outputs.34.0.checksums.sha512=b97d6e42479e90993f675747d293d9cdeb6464d1c9d690e5f06cb0a4d9a1269ca0afa68d33f99223517f3434ba01aa77f3b75191aec1964d9164e0a4178955dd  repository/org/jreleaser/jreleaser-opencollective-java-sdk/1.6.0/jreleaser-opencollective-java-sdk-1.6.0-cyclonedx.json
+
+outputs.34.1.filename=jreleaser-opencollective-java-sdk-1.6.0-cyclonedx.xml
+outputs.34.1.length=56597
+outputs.34.1.checksums.sha512=9780e3a21a32804da094dd32abf1f265cd7c39e8e39be888f943dfe7369b2168a9112482c0f39f20abbf90573f2e5391eefb4f89da374d901a370fe9f739528e  repository/org/jreleaser/jreleaser-opencollective-java-sdk/1.6.0/jreleaser-opencollective-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.34.2.filename=jreleaser-opencollective-java-sdk-1.6.0.jar
+outputs.34.2.length=21834
+outputs.34.2.checksums.sha512=aa55551218011a390520ab10745ae957003cbb51794605bbb85884c2bdad46c6d654cd0c6b5d318bb2c2993129ae61564f494526904a4bfacbf15453a8492c23  repository/org/jreleaser/jreleaser-opencollective-java-sdk/1.6.0/jreleaser-opencollective-java-sdk-1.6.0.jar
+
+outputs.34.3.filename=jreleaser-opencollective-java-sdk-1.6.0.pom
+outputs.34.3.length=1567
+outputs.34.3.checksums.sha512=90d7d8ca2125a70937f2e5041f323d8fa93d642f719301b185838e45e32d16e461d7b932beb7f4df7a25200764458961156a690023c01b8cfce5f977ff1f3363  repository/org/jreleaser/jreleaser-opencollective-java-sdk/1.6.0/jreleaser-opencollective-java-sdk-1.6.0.pom
+
+outputs.34.4.filename=jreleaser-opencollective-java-sdk-1.6.0-sources.jar
+outputs.34.4.length=11098
+outputs.34.4.checksums.sha512=3a1b891798ee69289ba84f19766d80904eb0752a87eee5f21cbb75656a08b8035a3192f7a8491a908c95bc5aa582beab8cf7c3b04fcf84b39cf3de32b87c5131  repository/org/jreleaser/jreleaser-opencollective-java-sdk/1.6.0/jreleaser-opencollective-java-sdk-1.6.0-sources.jar
+
+
+outputs.35.coordinates=org.jreleaser:jreleaser-resource-bundle
+
+outputs.35.0.filename=jreleaser-resource-bundle-1.6.0-cyclonedx.json
+outputs.35.0.length=2757
+outputs.35.0.checksums.sha512=4d807d44ae2ecda3ec72fffd03d5c89e27ff969f8bd888d5697a4c907ab778db380a3b78eb1a03705dd8439bfb6750e04b5f20de8bb1f31379a505f5ad134ba4  repository/org/jreleaser/jreleaser-resource-bundle/1.6.0/jreleaser-resource-bundle-1.6.0-cyclonedx.json
+
+outputs.35.1.filename=jreleaser-resource-bundle-1.6.0-cyclonedx.xml
+outputs.35.1.length=2493
+outputs.35.1.checksums.sha512=a95a829b2286261f2c124bbc8df2c7879306f34e351a1f41616006cf5b24439aaedfb1c3d1b4ee77f8c3e2b6c1087af1714b1e189c7750d3dab15ee20ea705c5  repository/org/jreleaser/jreleaser-resource-bundle/1.6.0/jreleaser-resource-bundle-1.6.0-cyclonedx.xml
+
+outputs.35.2.filename=jreleaser-resource-bundle-1.6.0.jar
+outputs.35.2.length=47371
+outputs.35.2.checksums.sha512=c77c476e972e17b25de3aecf75d71482535d68cdc5e4bf556f5d4cab17345b9318d47fa42c9da671769f9bcf7f549efde70b64eff5cb189c805bb406fd705cb8  repository/org/jreleaser/jreleaser-resource-bundle/1.6.0/jreleaser-resource-bundle-1.6.0.jar
+
+outputs.35.3.filename=jreleaser-resource-bundle-1.6.0.pom
+outputs.35.3.length=1536
+outputs.35.3.checksums.sha512=3a02e0033adcfedee1ef4369970545dab290e8315e9ee1eac9226eb56fad53ed7f8e106df1a3986b574b8b53a6e7b01a5dd3c2e98812ca249fd84cfb2941ea48  repository/org/jreleaser/jreleaser-resource-bundle/1.6.0/jreleaser-resource-bundle-1.6.0.pom
+
+outputs.35.4.filename=jreleaser-resource-bundle-1.6.0-sources.jar
+outputs.35.4.length=41603
+outputs.35.4.checksums.sha512=1f2bdd5d33c1eb7dabfbfe6f54c8022bbe14e601945a4d32c947d31d5bef289d2fd4c8747c5c54e6bf87dfea34074a39db59deb9dff652e687d27cf32a413295  repository/org/jreleaser/jreleaser-resource-bundle/1.6.0/jreleaser-resource-bundle-1.6.0-sources.jar
+
+
+outputs.36.coordinates=org.jreleaser:jreleaser-s3-java-sdk
+
+outputs.36.0.filename=jreleaser-s3-java-sdk-1.6.0-cyclonedx.json
+outputs.36.0.length=111579
+outputs.36.0.checksums.sha512=8c295d99d65b0ab4858405e9c47e8189d1fecb1e4a6a83b311df9ae7ee97cd00a56ed597ebe140671617408c8ab7d0ea4fc52042ffc98dad11e06a9ab4edb262  repository/org/jreleaser/jreleaser-s3-java-sdk/1.6.0/jreleaser-s3-java-sdk-1.6.0-cyclonedx.json
+
+outputs.36.1.filename=jreleaser-s3-java-sdk-1.6.0-cyclonedx.xml
+outputs.36.1.length=98302
+outputs.36.1.checksums.sha512=d560532e45a2699c641545f7bbcfdfdc732a2fe038ba90c76e454e3c6cbed7603d423a22b6915bb31a2878a51e94588a2fcbdf7c7ee85e5e1217a28e0ec6ef7a  repository/org/jreleaser/jreleaser-s3-java-sdk/1.6.0/jreleaser-s3-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.36.2.filename=jreleaser-s3-java-sdk-1.6.0.jar
+outputs.36.2.length=16151
+outputs.36.2.checksums.sha512=e9529706461f01e9f0b691fe5aed62291550982eb8321488bad4d09f71df8525fcfd304fa5c28314b98b3ecb29a10baa7d302eb3f09d566debe2855c32dccd43  repository/org/jreleaser/jreleaser-s3-java-sdk/1.6.0/jreleaser-s3-java-sdk-1.6.0.jar
+
+outputs.36.3.filename=jreleaser-s3-java-sdk-1.6.0.pom
+outputs.36.3.length=2832
+outputs.36.3.checksums.sha512=2b1177e8fc6c668088d205fd095debc068479eb099988279223efabf33abcad1d26a4a9bfbccec4e0085d7383af3c09599a8c92e5cd0c4a25476f4451c76f46a  repository/org/jreleaser/jreleaser-s3-java-sdk/1.6.0/jreleaser-s3-java-sdk-1.6.0.pom
+
+outputs.36.4.filename=jreleaser-s3-java-sdk-1.6.0-sources.jar
+outputs.36.4.length=4528
+outputs.36.4.checksums.sha512=dbabc7436c2d8d35c38b1834e67ac8f5cd73893a637b7e12e385882ca1c622295382df20a25075fef3708fdf0f073652d64065806923b46c3e53d2b6ddc47938  repository/org/jreleaser/jreleaser-s3-java-sdk/1.6.0/jreleaser-s3-java-sdk-1.6.0-sources.jar
+
+
+outputs.37.coordinates=org.jreleaser:jreleaser-sdkman-java-sdk
+
+outputs.37.0.filename=jreleaser-sdkman-java-sdk-1.6.0-cyclonedx.json
+outputs.37.0.length=48626
+outputs.37.0.checksums.sha512=4d71d03aad846541cf69139aba3726c882a01deda0971192e6979980328542859371da8410440c172f3513f8f0cf599bafd5c851533f3547561c4b0b726abb7d  repository/org/jreleaser/jreleaser-sdkman-java-sdk/1.6.0/jreleaser-sdkman-java-sdk-1.6.0-cyclonedx.json
+
+outputs.37.1.filename=jreleaser-sdkman-java-sdk-1.6.0-cyclonedx.xml
+outputs.37.1.length=42638
+outputs.37.1.checksums.sha512=7cee018a456ab40f24656a3c29ce98b97b9eca32cf86d32e3db2498c401efbe7e7d8d5675ca1cf88c0bb5f0e75c7508f63520a7c30eed81c2cc81a8157efa1f2  repository/org/jreleaser/jreleaser-sdkman-java-sdk/1.6.0/jreleaser-sdkman-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.37.2.filename=jreleaser-sdkman-java-sdk-1.6.0.jar
+outputs.37.2.length=40026
+outputs.37.2.checksums.sha512=3934d3b6ddf8c1ea07b0a50ec703c9dce2a547214d0aeb482a3e6924ae89c84fd6cc0209fb7d0898012197b8f6d48b56038df603778620ec82cf8ab1d007de22  repository/org/jreleaser/jreleaser-sdkman-java-sdk/1.6.0/jreleaser-sdkman-java-sdk-1.6.0.jar
+
+outputs.37.3.filename=jreleaser-sdkman-java-sdk-1.6.0.pom
+outputs.37.3.length=2649
+outputs.37.3.checksums.sha512=8a9d6fafa0ac2e8a41f9621563b60b819a111253a591db219747530b2dd46eee0831c5bf13e57105b053af3ce0fe525002e25fc0ea0c7ab714bcb579f0c059dc  repository/org/jreleaser/jreleaser-sdkman-java-sdk/1.6.0/jreleaser-sdkman-java-sdk-1.6.0.pom
+
+outputs.37.4.filename=jreleaser-sdkman-java-sdk-1.6.0-sources.jar
+outputs.37.4.length=20211
+outputs.37.4.checksums.sha512=05e5fe0aaaefe78914eec91063f98f08dcc8538f03ac073059a416f110a12bfdc1adc7b4c060138bacdc974f1521de6d26731414e5529f72c35bce6f11116552  repository/org/jreleaser/jreleaser-sdkman-java-sdk/1.6.0/jreleaser-sdkman-java-sdk-1.6.0-sources.jar
+
+
+outputs.38.coordinates=org.jreleaser:jreleaser-signing-java-sdk
+
+outputs.38.0.filename=jreleaser-signing-java-sdk-1.6.0-cyclonedx.json
+outputs.38.0.length=36218
+outputs.38.0.checksums.sha512=3d3a15846b9d5f83278bbd3b93f140ff0b3bb516a15d6c7ad31a45f9216397946a4152dfa5f537cde8e4edcac922fc2b10cd256dd700af3f01fd6813c7cda003  repository/org/jreleaser/jreleaser-signing-java-sdk/1.6.0/jreleaser-signing-java-sdk-1.6.0-cyclonedx.json
+
+outputs.38.1.filename=jreleaser-signing-java-sdk-1.6.0-cyclonedx.xml
+outputs.38.1.length=31770
+outputs.38.1.checksums.sha512=7da691ab2c43ac17979db7ce6d3f4dbea8ade8e1e3cf77e4ecdd797d75151d80c98a31b5c5ed0da9707bc78221062c0321cd3c6445ad31d7f5d62d5887e2e958  repository/org/jreleaser/jreleaser-signing-java-sdk/1.6.0/jreleaser-signing-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.38.2.filename=jreleaser-signing-java-sdk-1.6.0.jar
+outputs.38.2.length=19198
+outputs.38.2.checksums.sha512=4d0146d43526b329139bb38edbe63f6f783ae99f5d2778c6c6af8851be458739afe31951bf8e54f85da7c6e5d5e7d4670b45917c6ffa855f578355a6359286a6  repository/org/jreleaser/jreleaser-signing-java-sdk/1.6.0/jreleaser-signing-java-sdk-1.6.0.jar
+
+outputs.38.3.filename=jreleaser-signing-java-sdk-1.6.0.pom
+outputs.38.3.length=1870
+outputs.38.3.checksums.sha512=e22631c1bdd2661a666e29b92cdbeb1d51297e0ecf34c9290f1ec77a6c48af3890c751a906f26bceaaf5f4a9ac0c0071fcbdd642492f651c4b6f1c977feae13f  repository/org/jreleaser/jreleaser-signing-java-sdk/1.6.0/jreleaser-signing-java-sdk-1.6.0.pom
+
+outputs.38.4.filename=jreleaser-signing-java-sdk-1.6.0-sources.jar
+outputs.38.4.length=7696
+outputs.38.4.checksums.sha512=64189e59fbff69521b51da74cb0645b23b47a6d45b997cd9c664dab474609eab9ecf652f9f39b803b3dbc6bc9676b7692526d1918761eb55a35107411e83782b  repository/org/jreleaser/jreleaser-signing-java-sdk/1.6.0/jreleaser-signing-java-sdk-1.6.0-sources.jar
+
+
+outputs.39.coordinates=org.jreleaser:jreleaser-slack-java-sdk
+
+outputs.39.0.filename=jreleaser-slack-java-sdk-1.6.0-cyclonedx.json
+outputs.39.0.length=64450
+outputs.39.0.checksums.sha512=c1683caea5563189a0e0eee26db07768ea147907dbd01c03748c54c78a25cd8c2772ec0a6fbfc5f2eb0884bc5ccac5ec124499152e66a29a76592699633bb7d0  repository/org/jreleaser/jreleaser-slack-java-sdk/1.6.0/jreleaser-slack-java-sdk-1.6.0-cyclonedx.json
+
+outputs.39.1.filename=jreleaser-slack-java-sdk-1.6.0-cyclonedx.xml
+outputs.39.1.length=56561
+outputs.39.1.checksums.sha512=e3932778d1330eaa5fdf9eeb3bcf671325014a60f8985c5939f6bf713f7a854a9736d601d6cc3d4ff92174f13c48dfe56ac0b98568dd8d69ce35a370cb34099a  repository/org/jreleaser/jreleaser-slack-java-sdk/1.6.0/jreleaser-slack-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.39.2.filename=jreleaser-slack-java-sdk-1.6.0.jar
+outputs.39.2.length=18903
+outputs.39.2.checksums.sha512=0767a19fb84b858724a6f004c6d9acc80827b6038a7f38362a76b84f0137e4a19bd3628e6952be15c63aca269de71fa11191d457afd0a203bcaae7bd81f496c9  repository/org/jreleaser/jreleaser-slack-java-sdk/1.6.0/jreleaser-slack-java-sdk-1.6.0.jar
+
+outputs.39.3.filename=jreleaser-slack-java-sdk-1.6.0.pom
+outputs.39.3.length=1549
+outputs.39.3.checksums.sha512=3108468c6022ec7a0cb2304dd122fdee8916b6baf87fc7af951a00d55dfeabe7d7de8e6da4ff39fae7b396e9521173d8a8a565d6efdc7b05506f6893892cdb26  repository/org/jreleaser/jreleaser-slack-java-sdk/1.6.0/jreleaser-slack-java-sdk-1.6.0.pom
+
+outputs.39.4.filename=jreleaser-slack-java-sdk-1.6.0-sources.jar
+outputs.39.4.length=8954
+outputs.39.4.checksums.sha512=0c06575c596841a05166935e3240813b58785959cea4030aaa7622736db037196a602c1a0da524a80ef654aeeffe8ad04f7210be23e9af2644c659f940939502  repository/org/jreleaser/jreleaser-slack-java-sdk/1.6.0/jreleaser-slack-java-sdk-1.6.0-sources.jar
+
+
+outputs.40.coordinates=org.jreleaser:jreleaser-smtp-java-sdk
+
+outputs.40.0.filename=jreleaser-smtp-java-sdk-1.6.0-cyclonedx.json
+outputs.40.0.length=44446
+outputs.40.0.checksums.sha512=ee227ebc41804df32c0cb2407cb312226968b634523abe007826d3ce2b18cf00a7620738f96c10df2864888923e64893c94f48e6b5716bc0f61d5cfa35fa2bda  repository/org/jreleaser/jreleaser-smtp-java-sdk/1.6.0/jreleaser-smtp-java-sdk-1.6.0-cyclonedx.json
+
+outputs.40.1.filename=jreleaser-smtp-java-sdk-1.6.0-cyclonedx.xml
+outputs.40.1.length=38957
+outputs.40.1.checksums.sha512=a3400dadeba46317bce254fc4af40d206cca7fc23cfa8561929c4f1a38595cb5da5b395ee4724500c319892bc3042e503e6b6ea75202d3d49208bcfca25561f9  repository/org/jreleaser/jreleaser-smtp-java-sdk/1.6.0/jreleaser-smtp-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.40.2.filename=jreleaser-smtp-java-sdk-1.6.0.jar
+outputs.40.2.length=17396
+outputs.40.2.checksums.sha512=851e9a41e95e652d57b25c1924b13bbce9261054699d404f26263621412c1b82fc8c9cf8e2400459e05e1f24a80dce05b0366cd45ba8fe3d84235f239b92d7db  repository/org/jreleaser/jreleaser-smtp-java-sdk/1.6.0/jreleaser-smtp-java-sdk-1.6.0.jar
+
+outputs.40.3.filename=jreleaser-smtp-java-sdk-1.6.0.pom
+outputs.40.3.length=1689
+outputs.40.3.checksums.sha512=af63e22f226609948d52353e43c93b9136dd421e4d33e46faeb6f543585be2a8e6a8ebfaadd3905f154fadbf22fed5f1d39b530db0cd17fb857962bc1f686d1d  repository/org/jreleaser/jreleaser-smtp-java-sdk/1.6.0/jreleaser-smtp-java-sdk-1.6.0.pom
+
+outputs.40.4.filename=jreleaser-smtp-java-sdk-1.6.0-sources.jar
+outputs.40.4.length=7375
+outputs.40.4.checksums.sha512=02d88f765c5006d66c670a2a956b9e88e40ca9f9567a96962a2d3699de755e247c5ece6bcc65e39c1ef8af42692064bbac213cb5f0ec4e16644cbb4aad9df082  repository/org/jreleaser/jreleaser-smtp-java-sdk/1.6.0/jreleaser-smtp-java-sdk-1.6.0-sources.jar
+
+
+outputs.41.coordinates=org.jreleaser:jreleaser-ssh-java-sdk
+
+outputs.41.0.filename=jreleaser-ssh-java-sdk-1.6.0-cyclonedx.json
+outputs.41.0.length=78131
+outputs.41.0.checksums.sha512=1e068ea4a2db18353f15afed454970c133f706463c477d8ebfbd38dc5e3d55e3f49ef70472f266733ab598d54981fdf53e563e8d1e847321dc099bf6bfb7f76e  repository/org/jreleaser/jreleaser-ssh-java-sdk/1.6.0/jreleaser-ssh-java-sdk-1.6.0-cyclonedx.json
+
+outputs.41.1.filename=jreleaser-ssh-java-sdk-1.6.0-cyclonedx.xml
+outputs.41.1.length=68270
+outputs.41.1.checksums.sha512=3d0d05ce159f9de351f25dad737c1e67d79d9517b27325b48c25486b65f3393c2c1e02dec06f2328edde81a81ffc1be4e7fa98ef36bcf71c9d5cd4efdf1f6e33  repository/org/jreleaser/jreleaser-ssh-java-sdk/1.6.0/jreleaser-ssh-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.41.2.filename=jreleaser-ssh-java-sdk-1.6.0.jar
+outputs.41.2.length=23730
+outputs.41.2.checksums.sha512=5839424b0c10c4884fe33fb4827464a52b36aab471a66519965d49374d1a5d158b8d10b7747532978aac24d411239de556e9780db7d1da811f8e3b757275aa00  repository/org/jreleaser/jreleaser-ssh-java-sdk/1.6.0/jreleaser-ssh-java-sdk-1.6.0.jar
+
+outputs.41.3.filename=jreleaser-ssh-java-sdk-1.6.0.pom
+outputs.41.3.length=1709
+outputs.41.3.checksums.sha512=4c5fce5697156e2a7430739db46466640c65b08c24f06cdd887928dd8d1fdfe3710f189777d474197523684fc7a97626a1e5996de2ba854f7aaba153168441de  repository/org/jreleaser/jreleaser-ssh-java-sdk/1.6.0/jreleaser-ssh-java-sdk-1.6.0.pom
+
+outputs.41.4.filename=jreleaser-ssh-java-sdk-1.6.0-sources.jar
+outputs.41.4.length=11849
+outputs.41.4.checksums.sha512=6870edf26f58cdb21bc9b650dbd192743f3dbf8ab3e326abdb6564f5e50ad80fff3e18fdfa733ac8c1ca22957c9b27b025b32548ccc5181ed3bfe11c98aa611e  repository/org/jreleaser/jreleaser-ssh-java-sdk/1.6.0/jreleaser-ssh-java-sdk-1.6.0-sources.jar
+
+
+outputs.42.coordinates=org.jreleaser:jreleaser-teams-java-sdk
+
+outputs.42.0.filename=jreleaser-teams-java-sdk-1.6.0-cyclonedx.json
+outputs.42.0.length=66655
+outputs.42.0.checksums.sha512=bed8acb0a896e11b874485ed4b0005106be2b68912d74980a3456022e4b78f89a76d1cd78dcd179962acb35381062e01c0a65504b315f2df1390a8c88f418b8c  repository/org/jreleaser/jreleaser-teams-java-sdk/1.6.0/jreleaser-teams-java-sdk-1.6.0-cyclonedx.json
+
+outputs.42.1.filename=jreleaser-teams-java-sdk-1.6.0-cyclonedx.xml
+outputs.42.1.length=58445
+outputs.42.1.checksums.sha512=78f656db1834b8e053037486299fec4ff48399f9481c4f0365cbafe25ca2309da0ef9a5dbf3be076557c4eb485176345aa5ffe7546561d5a66070192f543b206  repository/org/jreleaser/jreleaser-teams-java-sdk/1.6.0/jreleaser-teams-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.42.2.filename=jreleaser-teams-java-sdk-1.6.0.jar
+outputs.42.2.length=10504
+outputs.42.2.checksums.sha512=30e9bf9efceb80cd55584fbf25a0eef5eebba15b16f462a37971de2498ed25ba5234fc09144877844385497ecb34280fa0f35c9f6af7cf90fe4dbe3e03857013  repository/org/jreleaser/jreleaser-teams-java-sdk/1.6.0/jreleaser-teams-java-sdk-1.6.0.jar
+
+outputs.42.3.filename=jreleaser-teams-java-sdk-1.6.0.pom
+outputs.42.3.length=1560
+outputs.42.3.checksums.sha512=6be290f540b9848183d83425196482bef723480e7d04ade90b53b320cac9984717e0587aa85b166b7974b57e26b257e9e16ed927ac8f22fe073cd5eb2cd65281  repository/org/jreleaser/jreleaser-teams-java-sdk/1.6.0/jreleaser-teams-java-sdk-1.6.0.pom
+
+outputs.42.4.filename=jreleaser-teams-java-sdk-1.6.0-sources.jar
+outputs.42.4.length=3451
+outputs.42.4.checksums.sha512=c3c4050df3f64d99b0236d6adfa0ace25173d43febd659ca9f5bba84e1fadbcc63f1e5e7599d8b71b3e78c126a161b7ea5a65cb61aaeafe6d657c68894e1f403  repository/org/jreleaser/jreleaser-teams-java-sdk/1.6.0/jreleaser-teams-java-sdk-1.6.0-sources.jar
+
+
+outputs.43.coordinates=org.jreleaser:jreleaser-telegram-java-sdk
+
+outputs.43.0.filename=jreleaser-telegram-java-sdk-1.6.0-cyclonedx.json
+outputs.43.0.length=65734
+outputs.43.0.checksums.sha512=920045ffc3722923383cbcb2a98b91852de6e93426e9ba02a468fd97258e8854fcf4b05a953745b0a32dd121fef0c3db96074fdf41b051ac05707e14479b4967  repository/org/jreleaser/jreleaser-telegram-java-sdk/1.6.0/jreleaser-telegram-java-sdk-1.6.0-cyclonedx.json
+
+outputs.43.1.filename=jreleaser-telegram-java-sdk-1.6.0-cyclonedx.xml
+outputs.43.1.length=57537
+outputs.43.1.checksums.sha512=cf5d1480b4ec6b5673b693f18e34e77bedb9fa573c7435aa0fdae7b6fddb54019270d25688fc1fbf7e0f471056012fc0348fe2b855b7d6884451bb02189e1bca  repository/org/jreleaser/jreleaser-telegram-java-sdk/1.6.0/jreleaser-telegram-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.43.2.filename=jreleaser-telegram-java-sdk-1.6.0.jar
+outputs.43.2.length=17122
+outputs.43.2.checksums.sha512=b7fa8083aed609a964183b82c3977ecc3e4718cefd08351b3e4a036879963481bd088ff1aacc91724f24a34a39da84e86f3e104a5fe3b40fe94a6a8c854d60bd  repository/org/jreleaser/jreleaser-telegram-java-sdk/1.6.0/jreleaser-telegram-java-sdk-1.6.0.jar
+
+outputs.43.3.filename=jreleaser-telegram-java-sdk-1.6.0.pom
+outputs.43.3.length=1555
+outputs.43.3.checksums.sha512=5f1069dab733332841e262b18b3d9a34ad2f9879f960388b2e87704ae1adc80a3909e41137255292463de5c089989ab99f2b5dfc1702f7a0cf71ae10873d4485  repository/org/jreleaser/jreleaser-telegram-java-sdk/1.6.0/jreleaser-telegram-java-sdk-1.6.0.pom
+
+outputs.43.4.filename=jreleaser-telegram-java-sdk-1.6.0-sources.jar
+outputs.43.4.length=7734
+outputs.43.4.checksums.sha512=8274fd30004103b94cbe5e548b88f65b09be886576fbad19d55361bfe80c2700d91cdedfe4963609c92230a99c3fc38c7b0e232525cf0636b98d7fab919ccd7d  repository/org/jreleaser/jreleaser-telegram-java-sdk/1.6.0/jreleaser-telegram-java-sdk-1.6.0-sources.jar
+
+
+outputs.44.coordinates=org.jreleaser:jreleaser-templates
+
+outputs.44.0.filename=jreleaser-templates-1.6.0-cyclonedx.json
+outputs.44.0.length=44109
+outputs.44.0.checksums.sha512=0ff4267fcf0b26b36310172ecbe6dd964f1d07aa3e3a296ec617da924e2dc6bf86c31d4b4676174c0cb7211e60f13e097e400c0179f504361847370f4cfa6be8  repository/org/jreleaser/jreleaser-templates/1.6.0/jreleaser-templates-1.6.0-cyclonedx.json
+
+outputs.44.1.filename=jreleaser-templates-1.6.0-cyclonedx.xml
+outputs.44.1.length=38655
+outputs.44.1.checksums.sha512=785a0c22c52e11b9af85d9b1dda6efba0bd55d700ba923fa44c867dc31987702a09121042bea36e2b4c6a4ab4b289b63dd6484550f9e6293b9ca8ac06619a7c8  repository/org/jreleaser/jreleaser-templates/1.6.0/jreleaser-templates-1.6.0-cyclonedx.xml
+
+outputs.44.2.filename=jreleaser-templates-1.6.0.jar
+outputs.44.2.length=379097
+outputs.44.2.checksums.sha512=6f85a11a3636d9ae720c3ab612094394e649d661ebb4cd59ff9e7412de54696de35e61d4cefb6abccb79360b0254123fd556a9deb9b70e5330c19134c612c905  repository/org/jreleaser/jreleaser-templates/1.6.0/jreleaser-templates-1.6.0.jar
+
+outputs.44.3.filename=jreleaser-templates-1.6.0.pom
+outputs.44.3.length=1859
+outputs.44.3.checksums.sha512=fbbecd7cf95a2b8e98ba82d7663211af5ed702fa7954c377a17db67214d0bba07ded38d0c5fd6cb2e88e7b8ab75e1db8b54d13d21404d5ecb9d23197f4f27e88  repository/org/jreleaser/jreleaser-templates/1.6.0/jreleaser-templates-1.6.0.pom
+
+outputs.44.4.filename=jreleaser-templates-1.6.0-sources.jar
+outputs.44.4.length=366132
+outputs.44.4.checksums.sha512=ad5a45eec0dcd529c7760a2f9420b745e6cec4ef339d7f7ada5498b0aa47857af35d963f4e0e7765fa24499af8c4c07bd60de5893a016e858467dfdaa1f63614  repository/org/jreleaser/jreleaser-templates/1.6.0/jreleaser-templates-1.6.0-sources.jar
+
+
+outputs.45.coordinates=org.jreleaser:jreleaser-tool-java-sdk
+
+outputs.45.0.filename=jreleaser-tool-java-sdk-1.6.0-cyclonedx.json
+outputs.45.0.length=36435
+outputs.45.0.checksums.sha512=c443d13006eea4f4b3dd68493085ec0a0f6165b65dbdcdaca8269ff9c712c9b8327f9166c71b5a018f21ee1a1c318df523775b54ec7213021faf48773133a834  repository/org/jreleaser/jreleaser-tool-java-sdk/1.6.0/jreleaser-tool-java-sdk-1.6.0-cyclonedx.json
+
+outputs.45.1.filename=jreleaser-tool-java-sdk-1.6.0-cyclonedx.xml
+outputs.45.1.length=31662
+outputs.45.1.checksums.sha512=40d691dc1d99e02c3f658eb6332a3c2eaea8baa11d4d3b34ae006d5a729788e9184ceaa5a273b68f2b1de3d4d98d1ac22b64282c8063a383e61f1a4810483cbf  repository/org/jreleaser/jreleaser-tool-java-sdk/1.6.0/jreleaser-tool-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.45.2.filename=jreleaser-tool-java-sdk-1.6.0.jar
+outputs.45.2.length=26847
+outputs.45.2.checksums.sha512=e14548ab617020cac195b98b2b6bf04043cf409ef395783e8c2c38441c761f38dd34b4858d4d7e26d2c69fde233ccaa102f180d3ff547efc29e475d0c38b7b40  repository/org/jreleaser/jreleaser-tool-java-sdk/1.6.0/jreleaser-tool-java-sdk-1.6.0.jar
+
+outputs.45.3.filename=jreleaser-tool-java-sdk-1.6.0.pom
+outputs.45.3.length=1704
+outputs.45.3.checksums.sha512=aacdb9acd4d6a769062772c69af78ec0718ed0f68677c53f1ceafc4fd26c495bd4b44acde85ea3bc8cdce7bd9a17a5344235d6ce001b5f778f565eb954467d09  repository/org/jreleaser/jreleaser-tool-java-sdk/1.6.0/jreleaser-tool-java-sdk-1.6.0.pom
+
+outputs.45.4.filename=jreleaser-tool-java-sdk-1.6.0-sources.jar
+outputs.45.4.length=17019
+outputs.45.4.checksums.sha512=9e1f84a701fea3bedfb614bbf7aa9dd06dc4a4e78a61289b10d0a845f56d4dcb2adfa9c67ffa60e79601ba59dc2bdc32e2f79583a881b942a113d05b85f0c186  repository/org/jreleaser/jreleaser-tool-java-sdk/1.6.0/jreleaser-tool-java-sdk-1.6.0-sources.jar
+
+
+outputs.46.coordinates=org.jreleaser:jreleaser-tool-provider
+
+outputs.46.0.filename=jreleaser-tool-provider-1.6.0-cyclonedx.json
+outputs.46.0.length=812
+outputs.46.0.checksums.sha512=3fad325565b006db7b212b8425688a531e49a98e2cfba1e94e1c627d938c9b8071ae495262aab74d339b8a7b2cd83ef298aaab42f9a76800b3504b2affb13c60  repository/org/jreleaser/jreleaser-tool-provider/1.6.0/jreleaser-tool-provider-1.6.0-cyclonedx.json
+
+outputs.46.1.filename=jreleaser-tool-provider-1.6.0-cyclonedx.xml
+outputs.46.1.length=847
+outputs.46.1.checksums.sha512=2dd643498e6f591a04c1bd164570c5d08f0741e4fdd39a944a8f74679fb565fca49b06e1e6c663ddcbfda61c3da8ecef44694b98e4379fd32362f763505ac23f  repository/org/jreleaser/jreleaser-tool-provider/1.6.0/jreleaser-tool-provider-1.6.0-cyclonedx.xml
+
+outputs.46.2.filename=jreleaser-tool-provider-1.6.0.jar
+outputs.46.2.length=38672254
+outputs.46.2.checksums.sha512=808c315133fad5c11eeca3ca29756296d97e9452a0ddb77a89e325de44ad18d0b0195a0c3d52e8e592be08ff16cf88559433da73b7ed120765b6979349d1f957  repository/org/jreleaser/jreleaser-tool-provider/1.6.0/jreleaser-tool-provider-1.6.0.jar
+
+outputs.46.3.filename=jreleaser-tool-provider-1.6.0.pom
+outputs.46.3.length=1373
+outputs.46.3.checksums.sha512=f9de89b679c128b4e34f477f41aa5aa5e5b1f651853c207c6990b1ff0f7b7e7fd81a895a9e675ed0e9ebfd6c131ef68fe7e38074a76b96ec7a9b21526783d0da  repository/org/jreleaser/jreleaser-tool-provider/1.6.0/jreleaser-tool-provider-1.6.0.pom
+
+outputs.46.4.filename=jreleaser-tool-provider-1.6.0-sources.jar
+outputs.46.4.length=1604
+outputs.46.4.checksums.sha512=0db89e79086e493854921bd2cb2a527a99bfdcc1341a2ce5c284cfc8bc7a56e663cf7e500f29ffcff2107d4b2a3c6abd0c70fbb856a117fafe945bf3d6423e4a  repository/org/jreleaser/jreleaser-tool-provider/1.6.0/jreleaser-tool-provider-1.6.0-sources.jar
+
+
+outputs.47.coordinates=org.jreleaser:jreleaser-twitter-java-sdk
+
+outputs.47.0.filename=jreleaser-twitter-java-sdk-1.6.0-cyclonedx.json
+outputs.47.0.length=43808
+outputs.47.0.checksums.sha512=de53753a5aa0bd7f9c2e4174ab480fe3075748afdf09ea1d1417ce5eafc1237aaeadba1b25b6defa74a826294397c5044f8f324d20f85a233bdf7b435469afbd  repository/org/jreleaser/jreleaser-twitter-java-sdk/1.6.0/jreleaser-twitter-java-sdk-1.6.0-cyclonedx.json
+
+outputs.47.1.filename=jreleaser-twitter-java-sdk-1.6.0-cyclonedx.xml
+outputs.47.1.length=38362
+outputs.47.1.checksums.sha512=4220ffb3ba4cb85a1e172f57e2c985587d0d4b26810fa3249014608523f90815de678b7eea16249412fa34d1c08fbe262997ebc3c39ef27657f184a0e98366f4  repository/org/jreleaser/jreleaser-twitter-java-sdk/1.6.0/jreleaser-twitter-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.47.2.filename=jreleaser-twitter-java-sdk-1.6.0.jar
+outputs.47.2.length=20603
+outputs.47.2.checksums.sha512=2d420ee55d6f384907e868a3928d12eee6e4fd3be7aa95f5861c95714a7e12d77c530ee655d94bb977f8fcc2f761e190cdb3b784c2ce3632ca1839f18abacde0  repository/org/jreleaser/jreleaser-twitter-java-sdk/1.6.0/jreleaser-twitter-java-sdk-1.6.0.jar
+
+outputs.47.3.filename=jreleaser-twitter-java-sdk-1.6.0.pom
+outputs.47.3.length=1868
+outputs.47.3.checksums.sha512=82e4bb399ad2013be5f5fd82da096fd3c7a274500ad6cffe057018e2c9e8df2d1eb667e4dfffafd0abf5b3f5a0432462c03cd67a60b5da57cc1822b449de4cf3  repository/org/jreleaser/jreleaser-twitter-java-sdk/1.6.0/jreleaser-twitter-java-sdk-1.6.0.pom
+
+outputs.47.4.filename=jreleaser-twitter-java-sdk-1.6.0-sources.jar
+outputs.47.4.length=9189
+outputs.47.4.checksums.sha512=cbe5d65cd76038c8b43e2692a74e8d13c87cad386c92a89c9e597cc696b276330b4ea0c318c2962f12979d18ca33db0c40206bad74d0b3a0af1c199bdccb0d3f  repository/org/jreleaser/jreleaser-twitter-java-sdk/1.6.0/jreleaser-twitter-java-sdk-1.6.0-sources.jar
+
+
+outputs.48.coordinates=org.jreleaser:jreleaser-utils
+
+outputs.48.0.filename=jreleaser-utils-1.6.0-cyclonedx.json
+outputs.48.0.length=29812
+outputs.48.0.checksums.sha512=6667b345598e5e12e48d0ca1cf33b4435418dbe4b386467022e2df4b43c6a73b5c0d2bc580cdd5c71ddfc4aa98603392a6ffbb8726f1ae1a0caecbac65e535ca  repository/org/jreleaser/jreleaser-utils/1.6.0/jreleaser-utils-1.6.0-cyclonedx.json
+
+outputs.48.1.filename=jreleaser-utils-1.6.0-cyclonedx.xml
+outputs.48.1.length=25629
+outputs.48.1.checksums.sha512=75fa4211d48934bf02fe6823ee4e7838af6facfd5fa448da73b425c90c6976c117de69a27a6eac4a0a81a6d2173663b83c1e95660d45c96ea37468ea7eab1709  repository/org/jreleaser/jreleaser-utils/1.6.0/jreleaser-utils-1.6.0-cyclonedx.xml
+
+outputs.48.2.filename=jreleaser-utils-1.6.0.jar
+outputs.48.2.length=82983
+outputs.48.2.checksums.sha512=9b5e03766473ee854f877182a758a4842a9566772405af73cd200388eeeb981712e6a3e57f4f2f14f09a912b0cad625a75c5441b57eaa238699beabf327dd56a  repository/org/jreleaser/jreleaser-utils/1.6.0/jreleaser-utils-1.6.0.jar
+
+outputs.48.3.filename=jreleaser-utils-1.6.0.pom
+outputs.48.3.length=2922
+outputs.48.3.checksums.sha512=5bae142e1536996e7de4969a52d68edb2a4cf9216ba9665139aaa5d3c182fd3de8574635c44f37da056511452c670be54d3a651b5f509c1850497c835f880760  repository/org/jreleaser/jreleaser-utils/1.6.0/jreleaser-utils-1.6.0.pom
+
+outputs.48.4.filename=jreleaser-utils-1.6.0-sources.jar
+outputs.48.4.length=39539
+outputs.48.4.checksums.sha512=50fa0a2bb509811cee9b228ee8a323b78197706cf1ba49a7da4d2be56c2b52d1c3341e5b979ca82a883da2f206677199fea38aa327a19aba05b21a6ed76c3ac4  repository/org/jreleaser/jreleaser-utils/1.6.0/jreleaser-utils-1.6.0-sources.jar
+
+
+outputs.49.coordinates=org.jreleaser:jreleaser-webhooks-java-sdk
+
+outputs.49.0.filename=jreleaser-webhooks-java-sdk-1.6.0-cyclonedx.json
+outputs.49.0.length=65734
+outputs.49.0.checksums.sha512=b0bd30dd47c244ed008199ee87ef968123abdd75d53f4d826bc0b44cb2159f5c48562f210dea0d7ff712ecfe74420a907ef9a09947834c918076a214882a7200  repository/org/jreleaser/jreleaser-webhooks-java-sdk/1.6.0/jreleaser-webhooks-java-sdk-1.6.0-cyclonedx.json
+
+outputs.49.1.filename=jreleaser-webhooks-java-sdk-1.6.0-cyclonedx.xml
+outputs.49.1.length=57537
+outputs.49.1.checksums.sha512=414995e9aa7ed98c0f2d6458c39b331fef921336417d62cea477246167ad62a02dd3e77ddd969cefcf487da5f39c2cc53eac81eecbcbce8e1cb84db56a6c5b28  repository/org/jreleaser/jreleaser-webhooks-java-sdk/1.6.0/jreleaser-webhooks-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.49.2.filename=jreleaser-webhooks-java-sdk-1.6.0.jar
+outputs.49.2.length=12853
+outputs.49.2.checksums.sha512=96d830d498e8be929060f2abb77e44c1906c8395a39d6ba855c4773b0c05dd4e79b4a166bf63a0424f84db99e612c176647fa0e18a8d8e8d4595fbefdda1d58c  repository/org/jreleaser/jreleaser-webhooks-java-sdk/1.6.0/jreleaser-webhooks-java-sdk-1.6.0.jar
+
+outputs.49.3.filename=jreleaser-webhooks-java-sdk-1.6.0.pom
+outputs.49.3.length=1564
+outputs.49.3.checksums.sha512=1027dd9e56712cddb360cc39d6c1c73b999456ecb95b473c435e21671b9d191b1e2fc595f96070143d32b4fa61a5ca4829f6b7d29f3a7af10351a60a8134825d  repository/org/jreleaser/jreleaser-webhooks-java-sdk/1.6.0/jreleaser-webhooks-java-sdk-1.6.0.pom
+
+outputs.49.4.filename=jreleaser-webhooks-java-sdk-1.6.0-sources.jar
+outputs.49.4.length=4469
+outputs.49.4.checksums.sha512=04930026322189f260e523255c7574753950d2b430133f3b4b23a47c8c2d42f12a60f2a8c1ffd34e0ac61a541c023d61038823b9667d8609132127140b6b736a  repository/org/jreleaser/jreleaser-webhooks-java-sdk/1.6.0/jreleaser-webhooks-java-sdk-1.6.0-sources.jar
+
+
+outputs.50.coordinates=org.jreleaser:jreleaser-zulip-java-sdk
+
+outputs.50.0.filename=jreleaser-zulip-java-sdk-1.6.0-cyclonedx.json
+outputs.50.0.length=65722
+outputs.50.0.checksums.sha512=70a71649d8bf5741e9a49a42253fb71cd4e84be425283f236cc58d08efe585158260b626295abe207dd765d20f41fe10d433c211c98c7d767e7ac16a2a36d8ce  repository/org/jreleaser/jreleaser-zulip-java-sdk/1.6.0/jreleaser-zulip-java-sdk-1.6.0-cyclonedx.json
+
+outputs.50.1.filename=jreleaser-zulip-java-sdk-1.6.0-cyclonedx.xml
+outputs.50.1.length=57525
+outputs.50.1.checksums.sha512=0d9f18a3b0cf05b5bf49e950cd2cf78c9dbf7353cb5fa0680707894a875306c3755bf50a2712e4a1dfa7ee088f848a8ada6cfc25ff3b1aa9e3bdb5c3dac38798  repository/org/jreleaser/jreleaser-zulip-java-sdk/1.6.0/jreleaser-zulip-java-sdk-1.6.0-cyclonedx.xml
+
+outputs.50.2.filename=jreleaser-zulip-java-sdk-1.6.0.jar
+outputs.50.2.length=17296
+outputs.50.2.checksums.sha512=ef331cedaec3741a8dd7d02b406feb674de9f8129cc0bf7cb4f2e01062b96754cc270bcdf33e758defbda43c6a59757f6512a73b3296a485a3dda96dc3f55405  repository/org/jreleaser/jreleaser-zulip-java-sdk/1.6.0/jreleaser-zulip-java-sdk-1.6.0.jar
+
+outputs.50.3.filename=jreleaser-zulip-java-sdk-1.6.0.pom
+outputs.50.3.length=1549
+outputs.50.3.checksums.sha512=e4071b10570164c67b16a8b04a93b15aca150f56bd876f88b7c163a2e94e383fe453bf765367ef0af98b2d9b233923289e49f0e4b31a613b197a0064ecb46b85  repository/org/jreleaser/jreleaser-zulip-java-sdk/1.6.0/jreleaser-zulip-java-sdk-1.6.0.pom
+
+outputs.50.4.filename=jreleaser-zulip-java-sdk-1.6.0-sources.jar
+outputs.50.4.length=7835
+outputs.50.4.checksums.sha512=c204f2a1ec8a8f5c3e4c3a5dc8a54f5c1410cf8eded6fbbbcbfcfc41bef9cc92150e254f347f969c8c96b35eee883f7339d3978e018d5a52565d163a1a89e0e4  repository/org/jreleaser/jreleaser-zulip-java-sdk/1.6.0/jreleaser-zulip-java-sdk-1.6.0-sources.jar
+
