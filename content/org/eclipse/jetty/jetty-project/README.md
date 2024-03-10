@@ -254,7 +254,7 @@ rebuilding **6 releases** of org.eclipse.jetty:jetty-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [12.0.7](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.7/pom) | [mvn jdk21](jetty-project-12.0.7.buildspec) | [result](jetty-project-12.0.7.buildinfo): [756 :white_check_mark: ](jetty-project-12.0.7.buildcompare) [:mag:](jetty-project-12.0.7.diffoscope)\033[1;31munexpected issue/diffoscope entry when ko=0\033[0m in \033[1mcontent/org/eclipse/jetty/jetty-project/jetty-project-12.0.7.buildspec\033[0m | 226M |
+| [12.0.7](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.7/pom) | [mvn jdk21](jetty-project-12.0.7.buildspec) | [result](jetty-project-12.0.7.buildinfo): [756 :white_check_mark: ](jetty-project-12.0.7.buildcompare) | 226M |
 | [12.0.6](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.6/pom) | [mvn jdk21](jetty-project-12.0.6.buildspec) | [result](jetty-project-12.0.6.buildinfo): [750 :white_check_mark:  7 :warning:](jetty-project-12.0.6.buildcompare) [:mag:](jetty-project-12.0.6.diffoscope) [:memo:](https://github.com/jetty/jetty.project/pull/11360) | 229M |
 | [12.0.5](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.5/pom) | | | |
 | [12.0.4](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.4/pom) | [mvn jdk21](jetty-project-12.0.4.buildspec) | [result](jetty-project-12.0.4.buildinfo): [744 :white_check_mark:  9 :warning:](jetty-project-12.0.4.buildcompare) | 238M |

@@ -15,5 +15,5 @@ timestamp=1709241581771
 command="mvn -Peclipse-release clean package -DskipTests -Dgpg.skip -Dtimestamp=${timestamp} -Dbuildinfo.ignore=*/*-html.zip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-diffoscope=${artifactId}-${version}.diffoscope
+#diffoscope=${artifactId}-${version}.diffoscope
 issue=
