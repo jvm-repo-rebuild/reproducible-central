@@ -1,0 +1,7 @@
+version=1.1.2
+ok=12
+ko=0
+ignored=0
+okFiles="com.io7m.jmulticlose-1.1.2.pom com.io7m.jmulticlose-1.1.2-cyclonedx.xml com.io7m.jmulticlose.core-1.1.2.pom com.io7m.jmulticlose.core-1.1.2.jar com.io7m.jmulticlose.core-1.1.2-sources.jar com.io7m.jmulticlose.core-1.1.2-cyclonedx.xml com.io7m.jmulticlose.core-1.1.2-tests.jar com.io7m.jmulticlose.tests-1.1.2.pom com.io7m.jmulticlose.tests-1.1.2.jar com.io7m.jmulticlose.tests-1.1.2-sources.jar com.io7m.jmulticlose.tests-1.1.2-cyclonedx.xml com.io7m.jmulticlose.tests-1.1.2-tests.jar"
+koFiles=""
+ignoredFiles=""
