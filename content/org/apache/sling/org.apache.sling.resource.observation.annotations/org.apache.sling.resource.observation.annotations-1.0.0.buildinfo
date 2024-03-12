@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Resource Observation Annotations
+group-id=org.apache.sling
+artifact-id=org.apache.sling.resource.observation.annotations
+version=1.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-resource-observation-annotations.git
+source.scm.tag=org.apache.sling.resource.observation.annotations-1.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.resource.observation.annotations-1.0.0.pom
+outputs.0.length=5834
+outputs.0.checksums.sha512=d4dbcb5cd85784d00f4ced9cf8cb1029e2c461850d1248cff60fa0c086ec95dbfd10f59345dca26fabb8370de2aeee89fe18620ad6cea57a9a3c752d6aef3c44
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.resource.observation.annotations-1.0.0.jar
+outputs.1.length=9167
+outputs.1.checksums.sha512=45077577f79472f7a2a0379fcae5cd60da83378c770079e331d13657055fdc8f6fe7dc7eec114a5277093c422a59a9bc3b92391ed8f005ae42e523f504c5c4cb
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.resource.observation.annotations-1.0.0-source-release.zip
+outputs.2.length=24181
+outputs.2.checksums.sha512=9ab34580a42d6ada27439f870b603d350e9c95c6b472599746bf2182bf6ee17ca5cca8caac5321b24e8a796914f07acd56bb121898fecec216d901ae2723c995
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.resource.observation.annotations-1.0.0-sources.jar
+outputs.3.length=10734
+outputs.3.checksums.sha512=181821ebf7600d3cc0a9c59fe54a0506328f831b03b642b83610c17a7529f7b19cd7f33bee630b8ea5b39d54463513b0aec5e584c2924680f4cee019de80c98b
