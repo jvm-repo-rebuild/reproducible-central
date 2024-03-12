@@ -4,17 +4,25 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240311181955 --> [langchain4j](../content/dev/langchain4j/README.md) | [0.27.1](../content/dev/langchain4j/langchain4j-0.27.1.buildspec) :white_check_mark: | [0.28.0](../content/dev/langchain4j/langchain4j-0.28.0.buildspec) | `bin/add-new-release.sh content/dev/langchain4j/langchain4j-0.27.1.buildspec 0.28.0` |
-| <!-- 20240311171005 --> [javabean-tester](../content/com/github/hazendaz/javabean-tester/README.md) | [2.6.2](../content/com/github/hazendaz/javabean-tester/javabean-tester-2.6.2.buildspec) :white_check_mark: | [2.6.3](../content/com/github/hazendaz/javabean-tester/javabean-tester-2.6.3.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/javabean-tester/javabean-tester-2.6.2.buildspec 2.6.3` |
-| <!-- 20240311151219 --> [webjars-locator](../content/org/webjars/webjars-locator/README.md) | [0.51](../content/org/webjars/webjars-locator/webjars-locator-0.51.buildspec) :white_check_mark: | [0.52](../content/org/webjars/webjars-locator/webjars-locator-0.52.buildspec) | `bin/add-new-release.sh content/org/webjars/webjars-locator/webjars-locator-0.51.buildspec 0.52` |
-| <!-- 20240311150000 --> [webjars-locator-core](../content/org/webjars/webjars-locator-core/README.md) | [0.57](../content/org/webjars/webjars-locator-core/webjars-locator-core-0.57.buildspec) :white_check_mark: | [0.58](../content/org/webjars/webjars-locator-core/webjars-locator-core-0.58.buildspec) | `bin/add-new-release.sh content/org/webjars/webjars-locator-core/webjars-locator-core-0.57.buildspec 0.58` |
-| <!-- 20240311125314 --> [com.io7m.jmulticlose](../content/com/io7m/jmulticlose/README.md) | [1.1.0](../content/com/io7m/jmulticlose/com.io7m.jmulticlose-1.1.0.buildspec) :white_check_mark: | [1.1.2](../content/com/io7m/jmulticlose/com.io7m.jmulticlose-1.1.2.buildspec) | `bin/add-new-release.sh content/com/io7m/jmulticlose/com.io7m.jmulticlose-1.1.0.buildspec 1.1.2` |
+| <!-- 20240312180558 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.11.8](../content/org/webjars/swagger-ui/swagger-ui-5.11.8.buildspec) :white_check_mark: | [5.11.10](../content/org/webjars/swagger-ui/swagger-ui-5.11.10.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.11.8.buildspec 5.11.10` |
+| <!-- 20240312033744 --> [jackson-parent](../content/com/fasterxml/jackson/jackson-parent/README.md) | [2.17-rc1](../content/com/fasterxml/jackson/jackson-parent/jackson-parent-2.17-rc1.buildspec) :white_check_mark: | [2.17](../content/com/fasterxml/jackson/jackson-parent/jackson-parent-2.17.buildspec) | `bin/add-new-release.sh content/com/fasterxml/jackson/jackson-parent/jackson-parent-2.17-rc1.buildspec 2.17` |
+| <!-- 20240312033736 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | [310](../content/org/alluxio/alluxio/alluxio-310.buildspec) :white_check_mark: | [311](../content/org/alluxio/alluxio/alluxio-311.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-310.buildspec 311` |
 | <!-- 20240225012802 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.2](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec) :white_check_mark: | [10.4.3-beta-21](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.3-beta-21.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec 10.4.3-beta-21` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
 `buildcompare` says `ko=0` but `buildspec` configures a `diffoscope` value in following releases:
 <!-- BEGIN GENERATED UNEXPECTED DIFFOSCOPE -->
+      content/com/github/hazendaz/javabean-tester/javabean-tester-2.6.1.buildspec
+      content/com/io7m/jade/com.io7m.jade-1.0.2.buildspec
+      content/io/wcm/tooling/commons/content-package-builder/wcm-content-package-builder-1.7.4.buildspec
+      content/net/sourceforge/pmd/pmd-7.0.0-rc4.buildspec
+      content/org/apache/maven/skins/fluido/maven-fluido-skin-2.0.0-M8.buildspec
+      content/org/apache/sling/org.apache.sling.installer.console/org.apache.sling.installer.console-1.0.4.buildspec
+      content/org/codehaus/plexus/plexus-languages/plexus-languages-1.1.2.buildspec
+      content/org/spdx/spdx-maven-plugin/spdx-maven-plugin-0.7.3.buildspec
+      content/org/spdx/spdx-maven-plugin/spdx-maven-plugin-0.7.2.buildspec
+      content/org/spdx/spdx-maven-plugin/spdx-maven-plugin-0.7.1.buildspec
 <!-- END GENERATED UNEXPECTED DIFFOSCOPE -->
 
 ## Apache Release Candidate in Staging
@@ -29,6 +37,7 @@ New Releases To Add
 | <!-- 20231120084325 --> [:mailbox:](https://lists.apache.org/list?dev@logging.apache.org:lte=1M:VOTE) | [log4j-jmx-gui](../content/org/apache/logging/log4j/log4j-jmx-gui/README.md) | [2.22.0](../content/org/apache/logging/log4j/log4j-jmx-gui/log4j-jmx-gui-2.22.0.buildspec) :white_check_mark: | [3.0.0-alpha1](../content/org/apache/logging/log4j/log4j-jmx-gui/log4j-jmx-gui-3.0.0-alpha1.buildspec)  | `bin/add-new-release.sh content/org/apache/logging/log4j/log4j-jmx-gui/log4j-jmx-gui-2.22.0.buildspec 3.0.0-alpha1 staging` |
 | <!-- 20230912010348 --> [:mailbox:](https://lists.apache.org/list?dev@mina.apache.org:lte=1M:VOTE) | [mina-parent](../content/org/apache/mina/README.md) | [2.2.3](../content/org/apache/mina/mina-2.2.3.buildspec) :white_check_mark: | [3.0.0-M2](../content/org/apache/mina/mina-3.0.0-M2.buildspec)  | `bin/add-new-release.sh content/org/apache/mina/mina-2.2.3.buildspec 3.0.0-M2 staging` |
 | <!-- 20220625152445 --> [:mailbox:](https://lists.apache.org/list?dev@systemds.apache.org:lte=1M:VOTE) | [systemds](../content/org/apache/systemds/README.md) | [3.0.0](../content/org/apache/systemds/systemds-3.0.0.buildspec) :warning: | [3.2.0](../content/org/apache/systemds/systemds-3.2.0.buildspec)  | `bin/add-new-release.sh content/org/apache/systemds/systemds-3.0.0.buildspec 3.2.0 staging` |
+| <!-- 20220601055213 --> [:mailbox:](https://lists.apache.org/list?dev@cxf.apache.org:lte=1M:VOTE) | [xjc-utils](../content/org/apache/cxf/xjc-utils/README.md) | [4.0.0](../content/org/apache/cxf/xjc-utils/xjc-utils-4.0.0.buildspec) :warning: [:memo:](https://github.com/apache/cxf-xjc-utils/pull/73) | [4.0.1](../content/org/apache/cxf/xjc-utils/xjc-utils-4.0.1.buildspec)  | `bin/add-new-release.sh content/org/apache/cxf/xjc-utils/xjc-utils-4.0.0.buildspec 4.0.1 staging` |
 <!-- END GENERATED ADD STAGING -->
 
 ## New Release of non-Reproducible Previous
@@ -36,14 +45,15 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20240312200642 --> [sentry-maven-skin](../content/org/sentrysoftware/maven/sentry-maven-skin/README.md) | [6.2.00](../content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.2.00.buildspec) :x: | [6.4.00](../content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.4.00.buildspec) | `bin/add-new-release.sh content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.2.00.buildspec 6.4.00` |
+| <!-- 20240312175936 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.40.3](../content/org/finos/legend/engine/legend-engine-4.40.3.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.40.3` |
+| <!-- 20240312073607 --> [error-prone-support](../content/tech/picnic/error-prone-support/error-prone-support/README.md) | [0.15.0](../content/tech/picnic/error-prone-support/error-prone-support/error-prone-support-0.15.0.buildspec) :warning: | [0.16.0](../content/tech/picnic/error-prone-support/error-prone-support/error-prone-support-0.16.0.buildspec) | `bin/add-new-release.sh content/tech/picnic/error-prone-support/error-prone-support/error-prone-support-0.15.0.buildspec 0.16.0` |
 | <!-- 20240311170350 --> [jooby](../content/io/jooby/README.md) | [3.0.5](../content/io/jooby/jooby-3.0.5.buildspec) :warning: | [3.0.9](../content/io/jooby/jooby-3.0.9.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-3.0.5.buildspec 3.0.9` |
 | <!-- 20240311131519 --> [parent](../content/org/apache/zookeeper/README.md) | [3.9.1](../content/org/apache/zookeeper/zookeeper-3.9.1.buildspec) :warning: [:memo:](https://github.com/apache/zookeeper/pull/2042) | [3.9.2](../content/org/apache/zookeeper/zookeeper-3.9.2.buildspec) | `bin/add-new-release.sh content/org/apache/zookeeper/zookeeper-3.9.1.buildspec 3.9.2` |
 | <!-- 20240309181848 --> [pulsar](../content/org/apache/pulsar/README.md) | [3.2.0](../content/org/apache/pulsar/pulsar-3.2.0.buildspec) :warning: | [3.2.1](../content/org/apache/pulsar/pulsar-3.2.1.buildspec) | `bin/add-new-release.sh content/org/apache/pulsar/pulsar-3.2.0.buildspec 3.2.1` |
 | <!-- 20240309103148 --> [com.io7m.certusine](../content/com/io7m/certusine/README.md) | [2.0.0](../content/com/io7m/certusine/com.io7m.certusine-2.0.0.buildspec) :warning: | [3.0.0](../content/com/io7m/certusine/com.io7m.certusine-3.0.0.buildspec) | `bin/add-new-release.sh content/com/io7m/certusine/com.io7m.certusine-2.0.0.buildspec 3.0.0` |
 | <!-- 20240308173746 --> [orc](../content/org/apache/orc/README.md) | [1.9.2](../content/org/apache/orc/orc-1.9.2.buildspec) :warning: | [2.0.0](../content/org/apache/orc/orc-2.0.0.buildspec) | `bin/add-new-release.sh content/org/apache/orc/orc-1.9.2.buildspec 2.0.0` |
 | <!-- 20240308131629 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | [1.14.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.14.0.buildspec) :warning: [:memo:](https://github.com/open-telemetry/opentelemetry-java/issues/4488) | [1.36.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.36.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/java/opentelemetry-sdk-1.14.0.buildspec 1.36.0` |
-| <!-- 20240306181925 --> [sentry-maven-skin](../content/org/sentrysoftware/maven/sentry-maven-skin/README.md) | [6.2.00](../content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.2.00.buildspec) :x: | [6.3.03](../content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.3.03.buildspec) | `bin/add-new-release.sh content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.2.00.buildspec 6.3.03` |
-| <!-- 20240305193848 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.40.0](../content/org/finos/legend/engine/legend-engine-4.40.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.40.0` |
 | <!-- 20240304135616 --> [org.apache.sling.feature.cpconverter](../content/org/apache/sling/org.apache.sling.feature.cpconverter/README.md) | [1.3.0](../content/org/apache/sling/org.apache.sling.feature.cpconverter/org.apache.sling.feature.cpconverter-1.3.0.buildspec) :warning: | [1.3.6](../content/org/apache/sling/org.apache.sling.feature.cpconverter/org.apache.sling.feature.cpconverter-1.3.6.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.feature.cpconverter/org.apache.sling.feature.cpconverter-1.3.0.buildspec 1.3.6` |
 | <!-- 20240304114459 --> [logback-parent](../content/ch/qos/logback/README.md) | [1.5.1](../content/ch/qos/logback/logback-1.5.1.buildspec) :warning: | [1.5.3](../content/ch/qos/logback/logback-1.5.3.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/logback-1.5.1.buildspec 1.5.3` |
 | <!-- 20240229142751 --> [glassfish-parent](../content/org/glassfish/main/README.md) | [8.0.0-M1](../content/org/glassfish/main/glassfish-8.0.0-M1.buildspec) :x: | [8.0.0-M2](../content/org/glassfish/main/glassfish-8.0.0-M2.buildspec) | `bin/add-new-release.sh content/org/glassfish/main/glassfish-8.0.0-M1.buildspec 8.0.0-M2` |
@@ -95,7 +105,6 @@ New Releases To Add
 | <!-- 20240217103710 --> [docker-maven-plugin](../content/io/fabric8/docker-maven-plugin/README.md) | 0.44.0 :warning: |
 | <!-- 20240216153138 --> [sshd](../content/org/apache/sshd/README.md) | 2.12.1 :warning: |
 | <!-- 20240216102637 --> [efx-toolkit-java](../content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 2.0.0-alpha.3 :warning: |
-| <!-- 20240211134108 --> [error-prone-support](../content/tech/picnic/error-prone-support/error-prone-support/README.md) | 0.15.0 :warning: |
 | <!-- 20240205214001 --> [slf4j-parent](../content/org/slf4j/README.md) | 2.1.0-alpha1 :warning: |
 | <!-- 20240204084447 --> [junit-bom](../content/org/junit/junit5/README.md) | 5.10.2 :warning: [:memo:](https://github.com/junit-team/junit5/issues/3690) |
 | <!-- 20240127121220 --> [org.apache.sling.rewriter](../content/org/apache/sling/org.apache.sling.rewriter/README.md) | 1.3.10 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-rewriter/pull/13) |

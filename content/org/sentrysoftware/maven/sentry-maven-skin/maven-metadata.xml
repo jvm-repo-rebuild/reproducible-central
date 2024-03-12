@@ -3,8 +3,8 @@
   <groupId>org.sentrysoftware.maven</groupId>
   <artifactId>sentry-maven-skin</artifactId>
   <versioning>
-    <latest>6.3.03</latest>
-    <release>6.3.03</release>
+    <latest>6.4.00</latest>
+    <release>6.4.00</release>
     <versions>
       <version>6.0.00</version>
       <version>6.0.01</version>
@@ -14,7 +14,8 @@
       <version>6.3.01</version>
       <version>6.3.02</version>
       <version>6.3.03</version>
+      <version>6.4.00</version>
     </versions>
-    <lastUpdated>20240306181925</lastUpdated>
+    <lastUpdated>20240312200642</lastUpdated>
   </versioning>
 </metadata>
