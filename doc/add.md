@@ -12,6 +12,11 @@ New Releases To Add
 | <!-- 20240225012802 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.2](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec) :white_check_mark: | [10.4.3-beta-21](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.3-beta-21.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec 10.4.3-beta-21` |
 <!-- END GENERATED ADD OK -->
 
+### Unexpected Diffoscope in Buildspec
+`buildcompare` says `ko=0` but `buildspec` configures a `diffoscope` value in following releases:
+<!-- BEGIN GENERATED UNEXPECTED DIFFOSCOPE -->
+<!-- END GENERATED UNEXPECTED DIFFOSCOPE -->
+
 ## Apache Release Candidate in Staging
 
 <!-- BEGIN GENERATED ADD STAGING -->

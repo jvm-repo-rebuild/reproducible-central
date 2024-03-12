@@ -15,6 +15,7 @@ echo "| ----------------- | --------------- | --------- | -------- |" >> ${summa
 prevGroupId=
 stats="tmp/stats.txt"
 echo -n > $stats
+echo -n > tmp/unexpected-diffoscope.txt
 
 # use content of "ignore" file to skip some versions
 function keepVersion() {
@@ -159,7 +160,7 @@ do
 
         # detect unexpected issue or diffoscope but 0 non-reproducible artifact (probably cause by previous buildspec copy)
         [[ -z "${issue}" ]] && [[ -n "${diffoscope}" ]] && issue="${diffoscope}"
-        [[ -n "${issue}" ]] && [ "${ko}" -eq 0 ] && row+="\033[1;31munexpected issue/diffoscope entry when ko=0\033[0m in \033[1m$dir/$buildspec\033[0m"
+        [[ -n "${issue}" ]] && [ "${ko}" -eq 0 ] && echo "      $dir/$buildspec" >> tmp/unexpected-diffoscope.txt
         row+=" | $(grep length= ${dir}/${_buildinfo} | cut -d = -f 2 | paste -sd+ - | bc | numfmt --to=iec) |"
         echo "$row" >> tmp/${projectReadme}
       else
@@ -314,6 +315,8 @@ echo "| ---------- | ------ |" >> tmp/newest-not-reproducible-table.md
 sort -r tmp/newest-not-reproducible.md >> tmp/newest-not-reproducible-table.md
 lead='^<!-- BEGIN GENERATED ADD OK -->$'
 tail='^<!-- END GENERATED ADD OK -->$'
+lead_diffoscope='^<!-- BEGIN GENERATED UNEXPECTED DIFFOSCOPE -->$'
+tail_diffoscope='^<!-- END GENERATED UNEXPECTED DIFFOSCOPE -->$'
 lead_staging='^<!-- BEGIN GENERATED ADD STAGING -->$'
 tail_staging='^<!-- END GENERATED ADD STAGING -->$'
 lead_ko='^<!-- BEGIN GENERATED ADD KO -->$'
@@ -322,6 +325,8 @@ lead_newest='^<!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->$'
 tail_newest='^<!-- END GENERATED NEWEST NOT REPRODUCIBLE -->$'
 sed -e "/$lead/,/$tail/{ /$lead/{p; r tmp/add-ok-table.md
         }; /$tail/p; d }" doc/add.md | \
+    sed -e "/$lead_diffoscope/,/$tail_diffoscope/{ /$lead_diffoscope/{p; r tmp/unexpected-diffoscope.txt
+        }; /$tail_diffoscope/p; d }" | \
     sed -e "/$lead_staging/,/$tail_staging/{ /$lead_staging/{p; r tmp/add-staging-table.md
         }; /$tail_staging/p; d }" | \
     sed -e "/$lead_ko/,/$tail_ko/{ /$lead_ko/{p; r tmp/add-ko-table.md
