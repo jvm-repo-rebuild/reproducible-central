@@ -62,7 +62,7 @@ rebuilding **35 releases** of net.sourceforge.pmd:pmd:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [7.0.0-rc4](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.0.0-rc4/pom) | [mvn jdk11](pmd-7.0.0-rc4.buildspec) | [result](pmd-7.0.0-rc4.buildinfo): [118 :white_check_mark: ](pmd-7.0.0-rc4.buildcompare) [:mag:](pmd-7.0.0-rc4.diffoscope) | 16M |
+| [7.0.0-rc4](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.0.0-rc4/pom) | [mvn jdk11](pmd-7.0.0-rc4.buildspec) | [result](pmd-7.0.0-rc4.buildinfo): [118 :white_check_mark: ](pmd-7.0.0-rc4.buildcompare) | 16M |
 | [7.0.0-rc3](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.0.0-rc3/pom) | [mvn jdk11](pmd-7.0.0-rc3.buildspec) | [result](pmd-7.0.0-rc3.buildinfo): [124 :white_check_mark:  1 :warning:](pmd-7.0.0-rc3.buildcompare) [:mag:](pmd-7.0.0-rc3.diffoscope) | 18M |
 | [7.0.0-rc2](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.0.0-rc2/pom) | [mvn jdk11](pmd-7.0.0-rc2.buildspec) | [result](pmd-7.0.0-rc2.buildinfo): [121 :white_check_mark:  1 :warning:](pmd-7.0.0-rc2.buildcompare) [:mag:](pmd-7.0.0-rc2.diffoscope) | 18M |
 | [7.0.0-rc1](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.0.0-rc1/pom) | | | |

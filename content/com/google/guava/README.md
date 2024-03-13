@@ -22,6 +22,8 @@ rebuilding **4 releases** of com.google.guava:guava:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [33.1.0-jre](https://central.sonatype.com/artifact/com.google.guava/guava/33.1.0-jre/pom) | | | |
+| [33.1.0-android](https://central.sonatype.com/artifact/com.google.guava/guava/33.1.0-android/pom) | | | |
 | [33.0.0-jre](https://central.sonatype.com/artifact/com.google.guava/guava/33.0.0-jre/pom) | | | |
 | [33.0.0-android](https://central.sonatype.com/artifact/com.google.guava/guava/33.0.0-android/pom) | | | |
 | [32.1.3-jre](https://central.sonatype.com/artifact/com.google.guava/guava/32.1.3-jre/pom) | | | |

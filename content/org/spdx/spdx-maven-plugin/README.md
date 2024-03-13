@@ -13,9 +13,9 @@ rebuilding **5 releases** of org.spdx:spdx-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.7.3](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/0.7.3/pom) | [mvn jdk17 w](spdx-maven-plugin-0.7.3.buildspec) | [result](spdx-maven-plugin-0.7.3.buildinfo): [3 :white_check_mark: ](spdx-maven-plugin-0.7.3.buildcompare) [:mag:](spdx-maven-plugin-0.7.3.diffoscope) | 220K |
-| [0.7.2](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/0.7.2/pom) | [mvn jdk17 w](spdx-maven-plugin-0.7.2.buildspec) | [result](spdx-maven-plugin-0.7.2.buildinfo): [3 :white_check_mark: ](spdx-maven-plugin-0.7.2.buildcompare) [:mag:](spdx-maven-plugin-0.7.2.diffoscope) | 216K |
-| [0.7.1](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/0.7.1/pom) | [mvn jdk17 w](spdx-maven-plugin-0.7.1.buildspec) | [result](spdx-maven-plugin-0.7.1.buildinfo): [3 :white_check_mark: ](spdx-maven-plugin-0.7.1.buildcompare) [:mag:](spdx-maven-plugin-0.7.1.diffoscope) | 216K |
+| [0.7.3](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/0.7.3/pom) | [mvn jdk17 w](spdx-maven-plugin-0.7.3.buildspec) | [result](spdx-maven-plugin-0.7.3.buildinfo): [3 :white_check_mark: ](spdx-maven-plugin-0.7.3.buildcompare) | 220K |
+| [0.7.2](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/0.7.2/pom) | [mvn jdk17 w](spdx-maven-plugin-0.7.2.buildspec) | [result](spdx-maven-plugin-0.7.2.buildinfo): [3 :white_check_mark: ](spdx-maven-plugin-0.7.2.buildcompare) | 216K |
+| [0.7.1](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/0.7.1/pom) | [mvn jdk17 w](spdx-maven-plugin-0.7.1.buildspec) | [result](spdx-maven-plugin-0.7.1.buildinfo): [3 :white_check_mark: ](spdx-maven-plugin-0.7.1.buildcompare) | 216K |
 | [0.7.0](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/0.7.0/pom) | [mvn jdk17 w](spdx-maven-plugin-0.7.0.buildspec) | [result](spdx-maven-plugin-0.7.0.buildinfo): [1 :white_check_mark:  1 :warning:](spdx-maven-plugin-0.7.0.buildcompare) [:mag:](spdx-maven-plugin-0.7.0.diffoscope) [:memo:](https://github.com/spdx/spdx-maven-plugin/pull/125) | 129K |
 | [0.6.5](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/0.6.5/pom) | [mvn jdk13 w](spdx-maven-plugin-0.6.5.buildspec) | [result](spdx-maven-plugin-0.6.5.buildinfo): [1 :white_check_mark:  1 :warning:](spdx-maven-plugin-0.6.5.buildcompare) [:mag:](spdx-maven-plugin-0.6.5.diffoscope) | 126K |
 

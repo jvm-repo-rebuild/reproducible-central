@@ -23,7 +23,7 @@ rebuilding **2 releases** of com.io7m.jade:com.io7m.jade:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.0.2](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade/1.0.2/pom) | [mvn jdk17.0.3](com.io7m.jade-1.0.2.buildspec) | [result](com.io7m.jade-1.0.2.buildinfo): [22 :white_check_mark: ](com.io7m.jade-1.0.2.buildcompare) [:mag:](com.io7m.jade-1.0.2.diffoscope) | 303K |
+| [1.0.2](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade/1.0.2/pom) | [mvn jdk17.0.3](com.io7m.jade-1.0.2.buildspec) | [result](com.io7m.jade-1.0.2.buildinfo): [22 :white_check_mark: ](com.io7m.jade-1.0.2.buildcompare) | 303K |
 | [1.0.1](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade/1.0.1/pom) | [mvn jdk11.0.6](com.io7m.jade-1.0.1.buildspec) | [result](com.io7m.jade-1.0.1.buildinfo): [22 :white_check_mark:  1 :warning:](com.io7m.jade-1.0.1.buildcompare) [:mag:](com.io7m.jade-1.0.1.diffoscope) | 582K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

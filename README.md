@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3317 releases** of **621 projects**:
-   - **2615** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **3321 releases** of **621 projects**:
+   - **2619** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 702 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 621 projects, 518 have at least one fully reproducible release, 103 have none
 
@@ -38,7 +38,7 @@ Its objectives are to provide:
 | | [jackson-core](content/com/fasterxml/jackson/core/README.md) | 10 | 7 :white_check_mark: / 3 :warning: |
 | | [jackson-databind](content/com/fasterxml/jackson/databind/README.md) | 10 | 3 :white_check_mark: / 7 :warning: |
 | com.fasterxml.jackson | [jackson-bom](content/com/fasterxml/jackson/jackson-bom/README.md) | 3 | 3 :white_check_mark: |
-| | [jackson-parent](content/com/fasterxml/jackson/jackson-parent/README.md) | 2 | 2 :white_check_mark: |
+| | [jackson-parent](content/com/fasterxml/jackson/jackson-parent/README.md) | 3 | 3 :white_check_mark: |
 | com.fasterxml.jackson.jr | [jackson-jr-parent](content/com/fasterxml/jackson/jr/README.md) | 8 | 4 :white_check_mark: / 4 :warning: |
 | com.fasterxml.jackson.dataformat | [jackson-dataformat-xml](content/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/README.md) | 3 | 3 :white_check_mark: |
 | | [jackson-dataformats-binary](content/com/fasterxml/jackson/dataformat/jackson-dataformats-binary/README.md) | 3 | 3 :white_check_mark: |
@@ -265,7 +265,7 @@ Its objectives are to provide:
 | org.phoebus | [parent](content/org/phoebus/README.md) | 1 | 1 :warning: |
 | org.quickperf | [quick-perf](content/org/quickperf/README.md) | 3 | 3 :white_check_mark: |
 | org.slf4j | [slf4j-parent](content/org/slf4j/README.md) | 13 | 6 :white_check_mark: / 7 :warning: |
-| org.alluxio | [alluxio-parent](content/org/alluxio/alluxio/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
+| org.alluxio | [alluxio-parent](content/org/alluxio/alluxio/README.md) | 8 | 7 :white_check_mark: / 1 :warning: |
 | org.antlr | [antlr4-master](content/org/antlr/antlr4/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | org.apache.accumulo | [accumulo](content/org/apache/accumulo/README.md) | 7 | 3 :white_check_mark: / 4 :warning: |
 | org.apache.activemq | [activemq-parent](content/org/apache/activemq/README.md) | 11 | 4 :white_check_mark: / 7 :warning: |
@@ -633,7 +633,7 @@ Its objectives are to provide:
 | | [jszip](content/org/webjars/jszip/README.md) | 1 | 1 :white_check_mark: |
 | | [openlayers](content/org/webjars/openlayers/README.md) | 1 | 1 :white_check_mark: |
 | | [redoc](content/org/webjars/redoc/README.md) | 2 | 2 :white_check_mark: |
-| | [swagger-ui](content/org/webjars/swagger-ui/README.md) | 35 | 35 :white_check_mark: |
+| | [swagger-ui](content/org/webjars/swagger-ui/README.md) | 37 | 37 :white_check_mark: |
 | | [uswds](content/org/webjars/uswds/README.md) | 1 | 1 :white_check_mark: |
 | | [webjars-locator](content/org/webjars/webjars-locator/README.md) | 7 | 7 :white_check_mark: |
 | | [webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 7 | 7 :white_check_mark: |
@@ -644,7 +644,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 34 | 34 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **621** | **3317** | **2615** :white_check_mark: **702** :warning: |
+| **Count:** | **621** | **3321** | **2619** :white_check_mark: **702** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -661,7 +661,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
    1115 mvn         8
       1 mvn         9
-    942 mvn        11
+    943 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
@@ -675,7 +675,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn        17.0.8.1
       1 mvn        17.0.9
      13 mvn        18
-     25 mvn        19
+     27 mvn        19
      15 mvn        20
      57 mvn        21
       2 mvn-3.5.4   8
@@ -705,7 +705,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       7 mvn-3.9.2   8
      16 mvn-3.9.2  17
       3 mvn-3.9.2  21
-     40 mvn-3.9.3   8
+     41 mvn-3.9.3   8
      38 mvn-3.9.3  11
       1 mvn-3.9.3  11.0.18
       2 mvn-3.9.3  11.0.2

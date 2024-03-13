@@ -22,6 +22,7 @@ rebuilding **3 releases** of com.fasterxml.jackson.datatype:jackson-datatypes-co
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.17.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/2.17.0/pom) | | | |
 | [2.17.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/2.17.0-rc1/pom) | [mvn jdk8](jackson-datatypes-collections-2.17.0-rc1.buildspec) | [result](jackson-datatypes-collections-2.17.0-rc1.buildinfo): [13 :white_check_mark: ](jackson-datatypes-collections-2.17.0-rc1.buildcompare) | 603K |
 | [2.16.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/2.16.2/pom) | | | |
 | [2.16.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/2.16.1/pom) | [mvn jdk8](jackson-datatypes-collections-2.16.1.buildspec) | [result](jackson-datatypes-collections-2.16.1.buildinfo): [13 :white_check_mark: ](jackson-datatypes-collections-2.16.1.buildcompare) | 594K |
