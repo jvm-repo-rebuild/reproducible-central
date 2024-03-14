@@ -1,0 +1,25 @@
+# should be fixed by https://github.com/FasterXML/oss-parent/pull/121 in release 59
+1 / 1 target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-protobuf-2.17.0.jar protobuf/target/jackson-dataformat-protobuf-2.17.0.jar
+--- target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-protobuf-2.17.0.jar
++++ protobuf/target/jackson-dataformat-protobuf-2.17.0.jar
+├── zipinfo {}
+│ @@ -1,162 +1,162 @@
+│  Zip file size: 234982 bytes, number of entries: 160
+│ --rw----     2.0 fat        0 bX defN 80-Feb-01 08:00 META-INF/
+│ +-rw----     2.0 fat        0 bX defN 80-Feb-01 07:00 META-INF/
+│  -rw----     2.0 fat     2568 bx defN 24-Mar-12 22:07 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat      323 bX defN 80-Feb-01 08:00 META-INF/LICENSE
+│ --rw----     2.0 fat      681 bX defN 80-Feb-01 08:00 META-INF/NOTICE
+...
+│ --rw----     2.0 fat     2644 bX defN 80-Feb-01 08:00 com/fasterxml/jackson/dataformat/protobuf/protoparser/protoparser/Utils.class
+│ --rw----     2.0 fat    34627 bX defN 80-Feb-01 08:00 descriptor.proto
+│ +-rw----     2.0 fat      323 bX defN 80-Feb-01 07:00 META-INF/LICENSE
+│ +-rw----     2.0 fat      681 bX defN 80-Feb-01 07:00 META-INF/NOTICE
+...
+│ +-rw----     2.0 fat     2644 bX defN 80-Feb-01 07:00 com/fasterxml/jackson/dataformat/protobuf/protoparser/protoparser/Utils.class
+│ +-rw----     2.0 fat    34627 bX defN 80-Feb-01 07:00 descriptor.proto
+│  -rw----     1.0 fat        0 bx stor 24-Mar-12 22:07 META-INF/versions/
+│  -rw----     1.0 fat        0 bx stor 24-Mar-12 22:07 META-INF/versions/9/
+│  -rw----     2.0 fat      518 bx defN 24-Mar-12 22:07 META-INF/versions/9/module-info.class
+│  160 files, 518802 bytes uncompressed, 194478 bytes compressed:  62.5%
+

@@ -1,0 +1,10 @@
+version=2.17.0
+ok=15
+ko=1
+ignored=0
+okFiles="jackson-dataformats-binary-2.17.0.pom jackson-dataformat-cbor-2.17.0.pom jackson-dataformat-cbor-2.17.0.jar jackson-dataformat-cbor-2.17.0.module jackson-dataformat-smile-2.17.0.pom jackson-dataformat-smile-2.17.0.jar jackson-dataformat-smile-2.17.0.module jackson-dataformat-avro-2.17.0.pom jackson-dataformat-avro-2.17.0.jar jackson-dataformat-avro-2.17.0.module jackson-dataformat-protobuf-2.17.0.pom jackson-dataformat-protobuf-2.17.0.module jackson-dataformat-ion-2.17.0.pom jackson-dataformat-ion-2.17.0.jar jackson-dataformat-ion-2.17.0.module"
+koFiles="jackson-dataformat-protobuf-2.17.0.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-protobuf-2.17.0.jar protobuf/target/jackson-dataformat-protobuf-2.17.0.jar
