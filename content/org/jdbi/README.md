@@ -48,6 +48,7 @@ rebuilding **1 releases** of org.jdbi.internal:jdbi3-root:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.45.1](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.45.1/pom) | | | |
 | [3.45.0](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.45.0/pom) | [mvn jdk21](jdbi3-root-3.45.0.buildspec) | [result](jdbi3-parent-3.45.0.buildinfo): [91 :white_check_mark:  102 :warning:](jdbi3-parent-3.45.0.buildcompare) [:mag:](jdbi3-root-3.45.0.diffoscope) | 6.8M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
