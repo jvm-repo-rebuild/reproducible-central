@@ -1,0 +1,20 @@
+version=2.17.0
+ok=14
+ko=11
+ignored=0
+okFiles="jackson-jr-parent-2.17.0.pom jackson-jr-objects-2.17.0.pom jackson-jr-objects-2.17.0-sources.jar jackson-jr-retrofit2-2.17.0.pom jackson-jr-retrofit2-2.17.0-sources.jar jackson-jr-stree-2.17.0.pom jackson-jr-stree-2.17.0-sources.jar jackson-jr-annotation-support-2.17.0.pom jackson-jr-annotation-support-2.17.0-sources.jar jackson-jr-extension-javatime-2.17.0.pom jackson-jr-extension-javatime-2.17.0-sources.jar jackson-jr-test-module-2.17.0.pom jackson-jr-all-2.17.0.pom jackson-jr-all-2.17.0-sources.jar"
+koFiles="jackson-jr-objects-2.17.0.jar jackson-jr-objects-2.17.0.module jackson-jr-retrofit2-2.17.0.jar jackson-jr-retrofit2-2.17.0.module jackson-jr-stree-2.17.0.jar jackson-jr-stree-2.17.0.module jackson-jr-annotation-support-2.17.0.jar jackson-jr-annotation-support-2.17.0.module jackson-jr-extension-javatime-2.17.0.jar jackson-jr-extension-javatime-2.17.0.module jackson-jr-all-2.17.0.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.fasterxml.jackson.jr/jackson-jr-objects-2.17.0.jar jr-objects/target/jackson-jr-objects-2.17.0.jar
+# diffoscope target/reference/com.fasterxml.jackson.jr/jackson-jr-objects-2.17.0.module jr-objects/target/publications/maven/module.json
+# diffoscope target/reference/com.fasterxml.jackson.jr/jackson-jr-retrofit2-2.17.0.jar jr-retrofit2/target/jackson-jr-retrofit2-2.17.0.jar
+# diffoscope target/reference/com.fasterxml.jackson.jr/jackson-jr-retrofit2-2.17.0.module jr-retrofit2/target/publications/maven/module.json
+# diffoscope target/reference/com.fasterxml.jackson.jr/jackson-jr-stree-2.17.0.jar jr-stree/target/jackson-jr-stree-2.17.0.jar
+# diffoscope target/reference/com.fasterxml.jackson.jr/jackson-jr-stree-2.17.0.module jr-stree/target/publications/maven/module.json
+# diffoscope target/reference/com.fasterxml.jackson.jr/jackson-jr-annotation-support-2.17.0.jar jr-annotation-support/target/jackson-jr-annotation-support-2.17.0.jar
+# diffoscope target/reference/com.fasterxml.jackson.jr/jackson-jr-annotation-support-2.17.0.module jr-annotation-support/target/publications/maven/module.json
+# diffoscope target/reference/com.fasterxml.jackson.jr/jackson-jr-extension-javatime-2.17.0.jar jr-extension-javatime/target/jackson-jr-extension-javatime-2.17.0.jar
+# diffoscope target/reference/com.fasterxml.jackson.jr/jackson-jr-extension-javatime-2.17.0.module jr-extension-javatime/target/publications/maven/module.json
+# diffoscope target/reference/com.fasterxml.jackson.jr/jackson-jr-all-2.17.0.jar jr-all/target/jackson-jr-all-2.17.0.jar

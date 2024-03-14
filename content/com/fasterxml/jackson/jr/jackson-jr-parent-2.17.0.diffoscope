@@ -1,0 +1,29 @@
+11 / 11 target/reference/com.fasterxml.jackson.jr/jackson-jr-all-2.17.0.jar jr-all/target/jackson-jr-all-2.17.0.jar
+--- target/reference/com.fasterxml.jackson.jr/jackson-jr-all-2.17.0.jar
++++ jr-all/target/jackson-jr-all-2.17.0.jar
+├── zipinfo {}
+│ @@ -74,17 +74,17 @@
+│  -rw----     2.0 fat     8078 bl defN 80-Feb-01 00:00 com/fasterxml/jackson/jr/ob/impl/ValueWriterLocator.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/fasterxml/jackson/jr/type/
+│  -rw----     2.0 fat     1599 bl defN 80-Feb-01 00:00 com/fasterxml/jackson/jr/type/ClassStack.class
+│  -rw----     2.0 fat      814 bl defN 80-Feb-01 00:00 com/fasterxml/jackson/jr/type/RecursiveType.class
+│  -rw----     2.0 fat     5290 bl defN 80-Feb-01 00:00 com/fasterxml/jackson/jr/type/ResolvedType.class
+│  -rw----     2.0 fat     4028 bl defN 80-Feb-01 00:00 com/fasterxml/jackson/jr/type/TypeBindings.class
+│  -rw----     2.0 fat     7179 bl defN 80-Feb-01 00:00 com/fasterxml/jackson/jr/type/TypeResolver.class
+│ --rw----     2.0 fat        0 bl defN 24-Mar-12 14:52 META-INF/versions/
+│ --rw----     2.0 fat        0 bl defN 24-Mar-12 14:52 META-INF/versions/9/
+│ --rw----     2.0 fat      384 bl defN 24-Mar-12 14:52 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat        0 bl defN 24-Mar-12 13:52 META-INF/versions/
+│ +-rw----     2.0 fat        0 bl defN 24-Mar-12 13:52 META-INF/versions/9/
+│ +-rw----     2.0 fat      384 bl defN 24-Mar-12 13:52 META-INF/versions/9/module-info.class
+│  -rw----     2.0 fat    11358 bl defN 24-Mar-12 21:35 META-INF/FastDoubleParser-LICENSE
+│  -rw----     2.0 fat        0 bl defN 24-Mar-12 21:35 META-INF/services/
+│  -rw----     2.0 fat       39 bl defN 24-Mar-12 21:35 META-INF/services/com.fasterxml.jackson.core.JsonFactory
+│  -rw----     2.0 fat        0 bl defN 24-Mar-12 21:35 com/fasterxml/jackson/jr/private_/
+│  -rw----     2.0 fat     1418 bl defN 24-Mar-12 21:35 com/fasterxml/jackson/jr/private_/Base64Variant$PaddingReadBehaviour.class
+│  -rw----     2.0 fat    13049 bl defN 24-Mar-12 21:35 com/fasterxml/jackson/jr/private_/Base64Variant.class
+│  -rw----     2.0 fat     2164 bl defN 24-Mar-12 21:35 com/fasterxml/jackson/jr/private_/Base64Variants.class
+
+# same issues for other jar files, and issues on .module files just record the different sha1
+# upgrading moditect to 1.2.0.FINAL hopefully solves the issue https://github.com/moditect/moditect/issues/222
+# https://github.com/FasterXML/oss-parent/commit/815529ef4f9c9e94fee0c6a2abcbdea34877571e for oss-parent 59
