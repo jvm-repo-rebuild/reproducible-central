@@ -1,0 +1,27 @@
+# same issue on every jar, SBOM being just a consequence
+1 / 104 target/reference/org.jdbi.internal/jdbi3-policy-3.45.1.jar internal/policy/target/jdbi3-policy-3.45.1.jar
+--- target/reference/org.jdbi.internal/jdbi3-policy-3.45.1.jar
++++ internal/policy/target/jdbi3-policy-3.45.1.jar
+├── META-INF/MANIFEST.MF
+│ @@ -12,11 +12,11 @@
+│  Name: org.jdbi.internal:jdbi3-policy
+
+│  Project-Version: 3.45.1
+
+│  Project-Name: jdbi3 - internal - policy
+
+│  Git-Branch: 4627b738ca5bcafa6a5b7d75d4a8404796697483
+
+│  Project-ArtifactId: jdbi3-policy
+
+│  Git-Commit-Id-Describe: v3.45.1
+
+│  Build-Time: 2024-03-14T09:48:02-07:00
+
+│ -Git-Remote-Origin-Url: file:///home/steven/ws-code/jdbi3
+
+│ +Git-Remote-Origin-Url: https://github.com/jdbi/jdbi.git
+
+│  Project-GroupId: org.jdbi.internal
+
+│  Git-Commit-Id: 4627b738ca5bcafa6a5b7d75d4a8404796697483
