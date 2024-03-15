@@ -1,0 +1,57 @@
+# Maven Shade Plugin 3.5.1 sources creation seems to have problems...
+1 / 1 target/reference/org.apache.dubbo/dubbo-3.2.11-sources.jar dubbo-distribution/dubbo-all/target/dubbo-3.2.11-sources.jar
+--- target/reference/org.apache.dubbo/dubbo-3.2.11-sources.jar
++++ dubbo-distribution/dubbo-all/target/dubbo-3.2.11-sources.jar
+├── zipinfo {}
+│ @@ -7,224 +7,14 @@
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/versions/
+│  -rw----     2.0 fat     3077 bl defN 20-Apr-01 08:04 META-INF/versions/.artifacts
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo/
+│  -rw----     2.0 fat    16467 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo/pom.xml
+│  -rw----     2.0 fat       57 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo/pom.properties
+│ --rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-cluster/
+│ --rw----     2.0 fat     4672 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-cluster/pom.xml
+│ --rw----     2.0 fat       65 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-cluster/pom.properties
+...
+│ --rw----     2.0 fat     4401 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-serialization-jdk/pom.xml
+│ --rw----     2.0 fat       75 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-serialization-jdk/pom.properties
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/registry/
+│  -rw----     2.0 fat     1472 bl defN 20-Apr-01 08:04 org/apache/dubbo/registry/AddressListener.java
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/rpc/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/rpc/cluster/
+│ @@ -449,14 +239,17 @@
+│  -rw----     2.0 fat    13170 bl defN 20-Apr-01 08:04 org/apache/dubbo/rpc/cluster/support/wrapper/ScopeClusterInvoker.java
+│  -rw----     2.0 fat     1649 bl defN 20-Apr-01 08:04 org/apache/dubbo/rpc/cluster/support/wrapper/ScopeClusterWrapper.java
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/dubbo/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/
+│ +-rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-cluster/
+│ +-rw----     2.0 fat     4672 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-cluster/pom.xml
+│ +-rw----     2.0 fat       65 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-cluster/pom.properties
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/common/
+│  -rw----     2.0 fat     5054 bl defN 20-Apr-01 08:04 org/apache/dubbo/common/BaseServiceMetadata.java
+│  -rw----     2.0 fat     2860 bl defN 20-Apr-01 08:04 org/apache/dubbo/common/BatchExecutorQueue.java
+│  -rw----     2.0 fat     2890 bl defN 20-Apr-01 08:04 org/apache/dubbo/common/CommonScopeModelInitializer.java
+│ @@ -959,14 +752,23 @@
+│  -rw----     2.0 fat     1462 bl defN 20-Apr-01 08:04 org/apache/dubbo/rpc/service/ServiceDescriptorInternalCache.java
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/rpc/support/
+│  -rw----     2.0 fat     2921 bl defN 20-Apr-01 08:04 org/apache/dubbo/rpc/support/GroupServiceKeyCache.java
+│  -rw----     2.0 fat     4373 bl defN 20-Apr-01 08:04 org/apache/dubbo/rpc/support/ProtocolUtils.java
+│ +-rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/services/
+│ +-rw----     2.0 fat      175 bl defN 20-Apr-01 08:04 META-INF/services/org.apache.dubbo.common.extension.LoadingStrategy
+│ +-rw----     2.0 fat       85 bl defN 20-Apr-01 08:04 META-INF/version
+│ +-rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 security/
+│ +-rw----     2.0 fat     4178 bl defN 20-Apr-01 08:04 security/serialize.allowlist
+│ +-rw----     2.0 fat     5030 bl defN 20-Apr-01 08:04 security/serialize.blockedlist
+│ +-rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-common/
+│ +-rw----     2.0 fat     6630 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-common/pom.xml
+│ +-rw----     2.0 fat       64 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-common/pom.properties
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 com/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 com/alibaba/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 com/alibaba/dubbo/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 com/alibaba/dubbo/cache/
+...
