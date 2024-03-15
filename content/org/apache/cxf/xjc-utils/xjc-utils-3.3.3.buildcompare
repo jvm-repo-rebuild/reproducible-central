@@ -1,0 +1,9 @@
+version=3.3.3
+ok=44
+ko=0
+ignored=0
+okFiles="xjc-utils-3.3.3.pom xjc-utils-3.3.3-source-release.zip cxf-xjc-plugin-3.3.3.pom cxf-xjc-plugin-3.3.3.jar cxf-xjc-plugin-3.3.3-sources.jar cxf-xjc-dv-3.3.3.pom cxf-xjc-dv-3.3.3.jar cxf-xjc-dv-3.3.3-sources.jar cxf-xjc-dv-test-3.3.3.pom cxf-xjc-dv-test-3.3.3.jar cxf-xjc-dv-test-3.3.3-sources.jar cxf-xjc-ts-3.3.3.pom cxf-xjc-ts-3.3.3.jar cxf-xjc-ts-3.3.3-sources.jar cxf-xjc-ts-test-3.3.3.pom cxf-xjc-ts-test-3.3.3.jar cxf-xjc-ts-test-3.3.3-sources.jar cxf-xjc-boolean-3.3.3.pom cxf-xjc-boolean-3.3.3.jar cxf-xjc-boolean-3.3.3-sources.jar cxf-xjc-boolean-test-3.3.3.pom cxf-xjc-boolean-test-3.3.3.jar cxf-xjc-boolean-test-3.3.3-sources.jar cxf-xjc-wsdlextension-3.3.3.pom cxf-xjc-wsdlextension-3.3.3.jar cxf-xjc-wsdlextension-3.3.3-sources.jar cxf-xjc-wsdlextension-test-3.3.3.pom cxf-xjc-wsdlextension-test-3.3.3.jar cxf-xjc-wsdlextension-test-3.3.3-sources.jar cxf-xjc-bug671-3.3.3.pom cxf-xjc-bug671-3.3.3.jar cxf-xjc-bug671-3.3.3-sources.jar cxf-xjc-bug986-3.3.3.pom cxf-xjc-bug986-3.3.3.jar cxf-xjc-bug986-3.3.3-sources.jar cxf-xjc-pl-3.3.3.pom cxf-xjc-pl-3.3.3.jar cxf-xjc-pl-3.3.3-sources.jar cxf-xjc-javadoc-3.3.3.pom cxf-xjc-javadoc-3.3.3.jar cxf-xjc-javadoc-3.3.3-sources.jar cxf-xjc-runtime-3.3.3.pom cxf-xjc-runtime-3.3.3.jar cxf-xjc-runtime-3.3.3-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
