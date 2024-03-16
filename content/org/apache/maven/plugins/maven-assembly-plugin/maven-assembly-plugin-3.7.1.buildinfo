@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Assembly Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-assembly-plugin
+version=3.7.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-assembly-plugin.git
+source.scm.tag=maven-assembly-plugin-3.7.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-assembly-plugin-3.7.1.pom
+outputs.0.length=15206
+outputs.0.checksums.sha512=40ccbee49e933fb42497ce9988d3c02cc8f6f46ae002e7e6911ae8ff321336af9db8992f960c4630131eddd4c6813e7c1d31e0b17c8524e219ffba9efbec07c4
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-assembly-plugin-3.7.1.jar
+outputs.1.length=239726
+outputs.1.checksums.sha512=aeac5920a72b0e453b4bde9ab5a68b72fefdbbe2dbb2d10886b413bcb27ef2d7a1f96853b4740752967c573f1402cd4da2000af4354451da20fb3c7bf57c3036
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-assembly-plugin-3.7.1-source-release.zip
+outputs.2.length=2009779
+outputs.2.checksums.sha512=599fb208058b2fea3ea6af6db6e56bd1d2653f8d36061c46c0f2222b0634f5e7b6fd7eb968fb05754538001ee692c21f4ae4289d040f74a9d327f1a4cd2eba38
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-assembly-plugin-3.7.1-sources.jar
+outputs.3.length=181477
+outputs.3.checksums.sha512=3d9a1988bd7942d22d8c2cce58eb41888108643ebd3490cffbdbcdb7f17af45e9fe8959c6fbbb5228a98bf649c774b93898b16b02e3eb68fa10d8ab46377915d
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-assembly-plugin-3.7.1-cyclonedx.xml
+outputs.4.length=125979
+outputs.4.checksums.sha512=c2d8e49a4344d8ad8ded69c7980a92be5ac10121e72022efe6dd6f90bcd9e37b31df172feb3135c2e67038eb742dfcf69a4a2c102aa70ce1af08d76bf2ca369a
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-assembly-plugin-3.7.1-cyclonedx.json
+outputs.5.length=146148
+outputs.5.checksums.sha512=9ab4371cb9309085abb3de19b660065d05f0764123820aa8ae80ebe563ca4b3655a73bece3c4b92fc2ef1c9412771d46a01d0651a093e3a6072beb85ffc7b256
