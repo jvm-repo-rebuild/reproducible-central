@@ -9,25 +9,25 @@ Source code: [https://github.com/PicnicSupermarket/error-prone-support.git](http
 
 <details><summary>This project defines 10 modules:</summary>
 
-* [tech.picnic.error-prone-support:documentation-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/documentation-support/0.16.0)
-* [tech.picnic.error-prone-support:error-prone-contrib](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-contrib/0.16.0)
-* [tech.picnic.error-prone-support:error-prone-experimental](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-experimental/0.16.0)
-* [tech.picnic.error-prone-support:error-prone-guidelines](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-guidelines/0.16.0)
-* [tech.picnic.error-prone-support:error-prone-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.16.0)
-* [tech.picnic.error-prone-support:error-prone-utils](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-utils/0.16.0)
-* [tech.picnic.error-prone-support:refaster-compiler](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/refaster-compiler/0.16.0)
-* [tech.picnic.error-prone-support:refaster-runner](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/refaster-runner/0.16.0)
-* [tech.picnic.error-prone-support:refaster-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/refaster-support/0.16.0)
-* [tech.picnic.error-prone-support:refaster-test-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/refaster-test-support/0.16.0)
+* [tech.picnic.error-prone-support:documentation-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/documentation-support/0.16.1)
+* [tech.picnic.error-prone-support:error-prone-contrib](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-contrib/0.16.1)
+* [tech.picnic.error-prone-support:error-prone-experimental](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-experimental/0.16.1)
+* [tech.picnic.error-prone-support:error-prone-guidelines](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-guidelines/0.16.1)
+* [tech.picnic.error-prone-support:error-prone-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.16.1)
+* [tech.picnic.error-prone-support:error-prone-utils](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-utils/0.16.1)
+* [tech.picnic.error-prone-support:refaster-compiler](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/refaster-compiler/0.16.1)
+* [tech.picnic.error-prone-support:refaster-runner](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/refaster-runner/0.16.1)
+* [tech.picnic.error-prone-support:refaster-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/refaster-support/0.16.1)
+* [tech.picnic.error-prone-support:refaster-test-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/refaster-test-support/0.16.1)
 </details>
 
-rebuilding **14 releases** of tech.picnic.error-prone-support:error-prone-support:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **15 releases** of tech.picnic.error-prone-support:error-prone-support:
+- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.16.1](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.16.1/pom) | | | |
+| [0.16.1](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.16.1/pom) | [mvn jdk21](error-prone-support-0.16.1.buildspec) | [result](error-prone-support-0.16.1.buildinfo): [27 :white_check_mark: ](error-prone-support-0.16.1.buildcompare) | 5.2M |
 | [0.16.0](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.16.0/pom) | [mvn jdk21](error-prone-support-0.16.0.buildspec) | [result](error-prone-support-0.16.0.buildinfo): [27 :white_check_mark: ](error-prone-support-0.16.0.buildcompare) | 5.2M |
 | [0.15.0](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.15.0/pom) | [mvn jdk21](error-prone-support-0.15.0.buildspec) | [result](error-prone-support-0.15.0.buildinfo): [26 :white_check_mark:  1 :warning:](error-prone-support-0.15.0.buildcompare) [:mag:](error-prone-support-0.15.0.diffoscope) | 5.6M |
 | [0.14.0](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.14.0/pom) | [mvn jdk17](error-prone-support-0.14.0.buildspec) | [result](error-prone-support-0.14.0.buildinfo): [18 :white_check_mark: ](error-prone-support-0.14.0.buildcompare) | 3.4M |

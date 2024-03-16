@@ -64,6 +64,7 @@ rebuilding **2 releases** of com.io7m.idstore:com.io7m.idstore:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.1.0](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.1.0/pom) | | | |
 | [1.0.0](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0/pom) | [mvn jdk21](com.io7m.idstore-1.0.0.buildspec) | [result](com.io7m.idstore-1.0.0.buildinfo): [225 :white_check_mark:  4 :warning:](com.io7m.idstore-1.0.0.buildcompare) [:mag:](com.io7m.idstore-1.0.0.diffoscope) | 53M |
 | [1.0.0-rc0006](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0-rc0006/pom) | | | |
 | [1.0.0-rc0005](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0-rc0005/pom) | | | |
