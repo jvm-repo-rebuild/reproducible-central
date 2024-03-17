@@ -34,6 +34,7 @@ rebuilding **1 releases** of com.github.veithen.cosmos:cosmos:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.6.0](https://central.sonatype.com/artifact/com.github.veithen.cosmos/cosmos/0.6.0/pom) | | | |
 | [0.5.0](https://central.sonatype.com/artifact/com.github.veithen.cosmos/cosmos/0.5.0/pom) | [mvn jdk11](cosmos-0.5.0.buildspec) | [result](cosmos-0.5.0.buildinfo): [14 :white_check_mark:  25 :warning:](cosmos-0.5.0.buildcompare) | 447K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
