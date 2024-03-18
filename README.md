@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3346 releases** of **621 projects**:
-   - **2638** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **3349 releases** of **621 projects**:
+   - **2641** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 708 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 621 projects, 518 have at least one fully reproducible release, 103 have none
 
@@ -354,16 +354,16 @@ Its objectives are to provide:
 | org.apache.maven.plugin-tools | [maven-plugin-tools](content/org/apache/maven/plugin-tools/maven-plugin-tools/README.md) | 11 | 11 :white_check_mark: |
 | org.apache.maven.plugins | [maven-antrun-plugin](content/org/apache/maven/plugins/maven-antrun-plugin/README.md) | 2 | 2 :white_check_mark: |
 | | [maven-artifact-plugin](content/org/apache/maven/plugins/maven-artifact-plugin/README.md) | 7 | 7 :white_check_mark: |
-| | [maven-assembly-plugin](content/org/apache/maven/plugins/maven-assembly-plugin/README.md) | 7 | 7 :white_check_mark: |
+| | [maven-assembly-plugin](content/org/apache/maven/plugins/maven-assembly-plugin/README.md) | 8 | 8 :white_check_mark: |
 | | [maven-checkstyle-plugin](content/org/apache/maven/plugins/maven-checkstyle-plugin/README.md) | 7 | 7 :white_check_mark: |
 | | [maven-clean-plugin](content/org/apache/maven/plugins/maven-clean-plugin/README.md) | 3 | 3 :white_check_mark: |
-| | [maven-compiler-plugin](content/org/apache/maven/plugins/maven-compiler-plugin/README.md) | 6 | 6 :white_check_mark: |
+| | [maven-compiler-plugin](content/org/apache/maven/plugins/maven-compiler-plugin/README.md) | 7 | 7 :white_check_mark: |
 | | [maven-dependency-plugin](content/org/apache/maven/plugins/maven-dependency-plugin/README.md) | 7 | 7 :white_check_mark: |
 | | [maven-deploy-plugin](content/org/apache/maven/plugins/maven-deploy-plugin/README.md) | 4 | 4 :white_check_mark: |
 | | [maven-docck-plugin](content/org/apache/maven/plugins/maven-docck-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [maven-ear-plugin](content/org/apache/maven/plugins/maven-ear-plugin/README.md) | 3 | 3 :white_check_mark: |
 | | [maven-ejb-plugin](content/org/apache/maven/plugins/maven-ejb-plugin/README.md) | 2 | 2 :white_check_mark: |
-| | [maven-gpg-plugin](content/org/apache/maven/plugins/maven-gpg-plugin/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
+| | [maven-gpg-plugin](content/org/apache/maven/plugins/maven-gpg-plugin/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
 | | [maven-help-plugin](content/org/apache/maven/plugins/maven-help-plugin/README.md) | 2 | 2 :white_check_mark: |
 | | [maven-install-plugin](content/org/apache/maven/plugins/maven-install-plugin/README.md) | 4 | 4 :white_check_mark: |
 | | [maven-invoker-plugin](content/org/apache/maven/plugins/maven-invoker-plugin/README.md) | 6 | 6 :white_check_mark: |
@@ -644,7 +644,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 35 | 35 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **621** | **3346** | **2638** :white_check_mark: **708** :warning: |
+| **Count:** | **621** | **3349** | **2641** :white_check_mark: **708** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -678,7 +678,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn        18
      27 mvn        19
      15 mvn        20
-     58 mvn        21
+     61 mvn        21
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11
       1 mvn-3.8.5   8
