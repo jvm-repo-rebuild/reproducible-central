@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/webjars/swagger-ui.git](https://github.com/webjars/swagger-ui.git)
 
-rebuilding **37 releases** of org.webjars:swagger-ui:
-- **37** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **38 releases** of org.webjars:swagger-ui:
+- **38** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [5.12.0](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.12.0/pom) | | | |
+| [5.12.0](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.12.0/pom) | [mvn jdk8](swagger-ui-5.12.0.buildspec) | [result](swagger-ui-5.12.0.buildinfo): [2 :white_check_mark: ](swagger-ui-5.12.0.buildcompare) | 3.9M |
 | [5.11.10](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.11.10/pom) | [mvn jdk19](swagger-ui-5.11.10.buildspec) | [result](swagger-ui-5.11.10.buildinfo): [2 :white_check_mark: ](swagger-ui-5.11.10.buildcompare) | 3.9M |
 | [5.11.9](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.11.9/pom) | [mvn jdk19](swagger-ui-5.11.9.buildspec) | [result](swagger-ui-5.11.9.buildinfo): [2 :white_check_mark: ](swagger-ui-5.11.9.buildcompare) | 3.9M |
 | [5.11.8](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.11.8/pom) | [mvn jdk8](swagger-ui-5.11.8.buildspec) | [result](swagger-ui-5.11.8.buildinfo): [2 :white_check_mark: ](swagger-ui-5.11.8.buildcompare) | 3.9M |

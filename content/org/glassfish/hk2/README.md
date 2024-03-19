@@ -89,6 +89,7 @@ rebuilding **3 releases** of org.glassfish.hk2:hk2-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.0-M2](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/4.0.0-M2/pom) | | | |
 | [4.0.0-M1](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/4.0.0-M1/pom) | [mvn jdk17](hk2-4.0.0-M1.buildspec) | [result](hk2-parent-4.0.0-M1.buildinfo): [332 :white_check_mark: ](hk2-parent-4.0.0-M1.buildcompare) | 11M |
 | [3.1.0](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/3.1.0/pom) | | | |
 | [3.0.6](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/3.0.6/pom) | | | |
