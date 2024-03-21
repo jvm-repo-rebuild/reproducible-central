@@ -1,0 +1,154 @@
+# most jars have this "current year" in properties problem
+1 / 69 target/reference/org.glassfish.main.grizzly/grizzly-config-8.0.0-M1.jar nucleus/grizzly/config/target/grizzly-config.jar
+--- target/reference/org.glassfish.main.grizzly/grizzly-config-8.0.0-M1.jar
++++ nucleus/grizzly/config/target/grizzly-config.jar
+├── META-INF/loggerinfo/LoggerInfoMetadata.properties
+│ @@ -1,9 +1,9 @@
+│  #
+│ -# Copyright (c) 2023 Oracle and/or its affiliates. All rights reserved.
+│ +# Copyright (c) 2024 Oracle and/or its affiliates. All rights reserved.
+│  #
+│  # This program and the accompanying materials are made available under the
+│  # terms of the Eclipse Public License v. 2.0, which is available at
+│  # http://www.eclipse.org/legal/epl-2.0.
+│  #
+│  # This Source Code may also be made available under the following Secondary
+│  # Licenses when the conditions for such availability set forth in the
+
+...
+
+34 / 69 target/reference/org.glassfish.main.distributions/nucleus-new-8.0.0-M1.zip nucleus/distributions/nucleus/target/nucleus-new.zip
+--- target/reference/org.glassfish.main.distributions/nucleus-new-8.0.0-M1.zip
++++ nucleus/distributions/nucleus/target/nucleus-new.zip
+├── zipinfo {}
+│ @@ -57,36 +57,36 @@
+│  -rw-r--r--  2.0 unx    31524 b- defN 23-Dec-23 13:39 nucleus/docs/quickstart.html
+│  -rw-------  2.0 unx       80 b- defN 23-Dec-23 13:39 nucleus/domains/domain1/config/admin-keyfile
+│ --rw-------  2.0 unx     1983 b- defN 23-Dec-23 13:39 nucleus/domains/domain1/config/cacerts.jks
+│ +-rw-------  2.0 unx     1982 b- defN 23-Dec-23 13:39 nucleus/domains/domain1/config/cacerts.jks
+│  -rw-------  2.0 unx     9491 b- defN 23-Dec-23 13:39 nucleus/domains/domain1/config/default-logging.properties
+│  -rw-------  2.0 unx       32 b- defN 23-Dec-23 13:39 nucleus/domains/domain1/config/domain-passwords
+│  -rw-------  2.0 unx    27433 b- defN 23-Dec-23 13:39 nucleus/domains/domain1/config/domain.xml
+│  -rw-------  2.0 unx     2843 b- defN 23-Dec-23 13:39 nucleus/domains/domain1/config/javaee.server.policy
+│  -rw-------  2.0 unx      748 b- defN 23-Dec-23 13:39 nucleus/domains/domain1/config/keyfile
+│ --rw-------  2.0 unx     4562 b- defN 23-Dec-23 13:39 nucleus/domains/domain1/config/keystore.jks
+│ +-rw-------  2.0 unx     4560 b- defN 23-Dec-23 13:39 nucleus/domains/domain1/config/keystore.jks
+│  -rw-------  2.0 unx     9491 b- defN 23-Dec-23 13:39 nucleus/domains/domain1/config/logging.properties
+│  -rw-------  2.0 unx     1258 b- defN 23-Dec-23 13:39 nucleus/domains/domain1/config/login.conf
+│  -rw-------  2.0 unx     1642 b- defN 23-Dec-23 13:39 nucleus/domains/domain1/config/restrict.server.policy
+│  -rw-------  2.0 unx     5892 b- defN 23-Dec-23 13:39 nucleus/domains/domain1/config/server.policy
+│  -rw-r--r--  2.0 unx     3668 b- defN 23-Dec-23 13:39 nucleus/domains/domain1/docroot/index.html
+│ --rw-r--r--  2.0 unx      606 b- defN 23-Dec-23 13:39 nucleus/domains/domain1/init-info/domain-info.xml
+│ +-rw-r--r--  2.0 unx      699 b- defN 23-Dec-23 13:39 nucleus/domains/domain1/init-info/domain-info.xml
+│  -rw-r--r--  2.0 unx      917 b- defN 23-Dec-23 13:39 nucleus/lib/appclient/appclientlogin.conf
+│  -rw-r--r--  2.0 unx     2692 b- defN 23-Dec-23 13:39 nucleus/lib/appclient/client.policy
+│  -rw-r--r--  2.0 unx     2069 b- defN 23-Dec-23 13:39 nucleus/lib/appclient/javaee.client.policy
+│  -rw-r--r--  2.0 unx      942 b- defN 23-Dec-23 13:39 nucleus/lib/appclient/restrict.client.policy
+│  -rw-r--r--  2.0 unx     5516 b- defN 23-Dec-23 13:39 nucleus/lib/appclient/wss-client-config-1.0.xml
+│  -rw-r--r--  2.0 unx     6120 b- defN 23-Dec-23 13:39 nucleus/lib/appclient/wss-client-config-2.0.xml
+│  -rw-r--r--  2.0 unx   131176 b- defN 23-Dec-23 13:39 nucleus/lib/asadmin/cluster-cli.jar
+│  -rw-r--r--  2.0 unx  1172021 b- defN 23-Dec-23 13:39 nucleus/lib/asadmin/osgi-cli-interactive.jar
+│ --rw-r--r--  2.0 unx   575340 b- defN 23-Dec-23 13:39 nucleus/lib/asadmin/server-mgmt.jar
+│ +-rw-r--r--  2.0 unx   575338 b- defN 23-Dec-23 13:39 nucleus/lib/asadmin/server-mgmt.jar
+│  -rw-r--r--  2.0 unx   149893 b- defN 23-Dec-23 13:39 nucleus/lib/bootstrap/glassfish-jul-extension.jar
+│  -rw-r--r--  2.0 unx     5606 b- defN 23-Dec-23 13:39 nucleus/lib/bootstrap/grizzly-npn-api.jar
+...
+├── nucleus/domains/domain1/config/admin-keyfile
+│ @@ -1 +1 @@
+│ -admin;{SSHA256}ipaf4XEcaWTGwRbNafuYH4TSxo1/XME1Z9/W58/ByT+TONIxi4rXaA==;asadmin
+│ +admin;{SSHA256}7ZA4YK6zOKykP6unYPXd4c+E2iwS4XjjBSy7yTRIjEuocFbqn4eRUQ==;asadmin
+├── nucleus/domains/domain1/config/cacerts.jks
+...
+├── nucleus/domains/domain1/config/domain.xml
+│ ├── nucleus/domains/domain1/config/domain.xml
+│ │ @@ -387,12 +387,12 @@
+│ │        <system-property name="HTTP_SSL_LISTENER_PORT" value="28181"/>
+│ │        <system-property name="JMX_SYSTEM_CONNECTOR_PORT" value="28686"/>
+│ │        <system-property name="OSGI_SHELL_TELNET_PORT" value="26666"/>
+│ │        <system-property name="JAVA_DEBUGGER_PORT" value="29009"/>
+│ │      </config>
+│ │    </configs>
+│ │    <property name="administrative.domain.name" value="domain1"/>
+│ │ -  <secure-admin special-admin-indicator="f715c176-88a7-4a95-8a2c-4d44659a84ab">
+│ │ +  <secure-admin special-admin-indicator="c2398b4f-bbb2-4f3a-b8bb-2f8c1983e8ab">
+│ │      <secure-admin-principal dn="CN=localhost,OU=GlassFish,O=Eclipse.org Foundation Inc,L=Ottawa,ST=Ontario,C=CA"/>
+│ │      <secure-admin-principal dn="CN=localhost-instance,OU=GlassFish,O=Eclipse.org Foundation Inc,L=Ottawa,ST=Ontario,C=CA"/>
+│ │    </secure-admin>
+│ │  </domain>
+├── nucleus/domains/domain1/config/keystore.jks
+...
+├── nucleus/domains/domain1/init-info/domain-info.xml
+│ ├── nucleus/domains/domain1/init-info/domain-info.xml
+│ │ @@ -1,4 +1,4 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ -<domain-info xmlns="http://xmlns.oracle.com/cie/glassfish/domain-info" xmlns:ns2="http://xmlns.oracle.com/cie/glassfish/domain-template" javahome="/opt/tools/java/temurin/jdk-17/jdk-17.0.9+9" mwhome="/home/jenkins/agent/workspace/1_glassfish-build-and-stage/nucleus/distributions/nucleus/target/stage">
+│ │ -  <domain-template-ref name="Basic Nucleus Domain" version="4.0.0.0" location="/home/jenkins/agent/workspace/1_glassfish-build-and-stage/nucleus/distributions/nucleus/target/stage/nucleus/common/templates/gf/nucleus-domain.jar"/>
+│ │ +<domain-info xmlns="http://xmlns.oracle.com/cie/glassfish/domain-info" xmlns:ns2="http://xmlns.oracle.com/cie/glassfish/domain-template" javahome="/home/herve/.sdkman/candidates/java/17.0.9-tem" mwhome="/home/herve/dev/maven/misc/reproducible-central/content/org/glassfish/main/buildcache/glassfish-parent/nucleus/distributions/nucleus/target/stage">
+│ │ +  <domain-template-ref name="Basic Nucleus Domain" version="4.0.0.0" location="/home/herve/dev/maven/misc/reproducible-central/content/org/glassfish/main/buildcache/glassfish-parent/nucleus/distributions/nucleus/target/stage/nucleus/common/templates/gf/nucleus-domain.jar"/>
+│ │  </domain-info>
+├── nucleus/lib/asadmin/server-mgmt.jar
+│ ├── META-INF/loggerinfo/LoggerInfoMetadata.properties
+│ │ @@ -1,9 +1,9 @@
+│ │  #
+│ │ -# Copyright (c) 2023 Oracle and/or its affiliates. All rights reserved.
+│ │ +# Copyright (c) 2024 Oracle and/or its affiliates. All rights reserved.
+│ │  #
+│ │  # This program and the accompanying materials are made available under the
+│ │  # terms of the Eclipse Public License v. 2.0, which is available at
+│ │  # http://www.eclipse.org/legal/epl-2.0.
+│ │  #
+│ │  # This Source Code may also be made available under the following Secondary
+│ │  # Licenses when the conditions for such availability set forth in the
+...
+
+...
+
+53 / 69 target/reference/org.glassfish.main.admingui/console-common-8.0.0-M1.jar appserver/admingui/common/target/console-common.jar
+--- target/reference/org.glassfish.main.admingui/console-common-8.0.0-M1.jar
++++ appserver/admingui/common/target/console-common.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 986909 bytes, number of entries: 605
+│ +Zip file size: 986864 bytes, number of entries: 605
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-23 13:39 META-INF/
+│  -rw-r--r--  2.0 unx     4204 b- defN 23-Dec-23 13:39 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-23 13:39 META-INF/admingui/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-23 13:39 META-INF/hk2-locator/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-23 13:39 META-INF/jsftemplating/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-23 13:39 appServer/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-23 13:39 applications/
+│ @@ -600,8 +600,8 @@
+│  -rw-r--r--  2.0 unx     2731 b- defN 23-Dec-23 13:39 shared/sslValidationsJS.inc
+│  -rw-r--r--  2.0 unx     3550 b- defN 23-Dec-23 13:39 shared/targetSectionForCreate.inc
+│  -rw-r--r--  2.0 unx     1457 b- defN 23-Dec-23 13:39 shared/targetsList.inc
+│  -rw-r--r--  2.0 unx     1175 b- defN 23-Dec-23 13:39 shared/viewSummaryDetail.inc
+│  -rw-r--r--  2.0 unx     1451 b- defN 23-Dec-23 13:39 version.jsf
+│  -rw-r--r--  2.0 unx     5149 b- defN 23-Dec-23 13:39 META-INF/maven/org.glassfish.main.admingui/console-common/pom.xml
+│  -rw-r--r--  2.0 unx       79 b- defN 23-Dec-23 13:39 META-INF/maven/org.glassfish.main.admingui/console-common/pom.properties
+│ -605 files, 2654396 bytes uncompressed, 900721 bytes compressed:  66.1%
+│ +605 files, 2654396 bytes uncompressed, 900676 bytes compressed:  66.1%
+├── META-INF/jsftemplating/Handler.map
+│┄ Ordering differences only
+│ @@ -13,14 +13,245 @@
+│  getHelpIndex.class=org.glassfish.admingui.common.help.HelpHandlers
+│  getHelpIndex.method=getHelpIndex
+│  getHelpIndex.input[0].name=locale
+│  getHelpIndex.input[0].type=java.util.Locale
+│  getHelpIndex.output[0].name=index
+│  getHelpIndex.output[0].type=org.glassfish.admingui.connector.Index
+│  
+│ +# This method takes in a list of instances with status, which is the output of list-instances
+│ +#  and count the # of instance that is running and non running.
+│ +gf.getClusterStatusSummary.class=org.glassfish.admingui.common.handlers.ClusterHandler
+│ +gf.getClusterStatusSummary.method=getClusterStatusSummary
+│ +gf.getClusterStatusSummary.input[0].name=statusMap
+│ +gf.getClusterStatusSummary.input[0].type=java.util.Map
+...
+│ +deploy.input[5].name=propertyList
+│ +deploy.input[5].type=java.util.List
+│  
+│ -#  This handler provides a way to search for tags.  All 3 properties
+│ -#      are optional.  If none are specified, all tags will be returned.
+...
+
+...
