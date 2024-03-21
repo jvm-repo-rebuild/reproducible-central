@@ -13,6 +13,7 @@ rebuilding **5 releases** of nl.basjes.maven.release:conventional-commits-versio
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.6](https://central.sonatype.com/artifact/nl.basjes.maven.release/conventional-commits-version-policy/1.0.6/pom) | | | |
 | [1.0.5](https://central.sonatype.com/artifact/nl.basjes.maven.release/conventional-commits-version-policy/1.0.5/pom) | [mvn jdk21](conventional-commits-version-policy-1.0.5.buildspec) | [result](conventional-commits-version-policy-1.0.5.buildinfo): [3 :white_check_mark: ](conventional-commits-version-policy-1.0.5.buildcompare) | 63K |
 | [1.0.4](https://central.sonatype.com/artifact/nl.basjes.maven.release/conventional-commits-version-policy/1.0.4/pom) | [mvn jdk17](conventional-commits-version-policy-1.0.4.buildspec) | [result](conventional-commits-version-policy-1.0.4.buildinfo): [4 :white_check_mark: ](conventional-commits-version-policy-1.0.4.buildcompare) | 63K |
 | [1.0.3](https://central.sonatype.com/artifact/nl.basjes.maven.release/conventional-commits-version-policy/1.0.3/pom) | [mvn jdk17](conventional-commits-version-policy-1.0.3.buildspec) | [result](conventional-commits-version-policy-1.0.3.buildinfo): [4 :white_check_mark: ](conventional-commits-version-policy-1.0.3.buildcompare) | 63K |
