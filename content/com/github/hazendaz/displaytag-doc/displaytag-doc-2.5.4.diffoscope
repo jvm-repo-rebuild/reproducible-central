@@ -1,0 +1,79 @@
+1 / 2 target/reference/com.github.hazendaz/displaytag-2.5.4-test-sources.jar displaytag/target/displaytag-2.5.4-test-sources.jar
+--- target/reference/com.github.hazendaz/displaytag-2.5.4-test-sources.jar
++++ displaytag/target/displaytag-2.5.4-test-sources.jar
+├── zipinfo {}
+│ @@ -254,15 +254,15 @@
+│  -rw-r--r--  2.0 unx     1055 b- defN 24-Mar-18 01:51 jsps/DISPL-105.jsp
+│  -rw-r--r--  2.0 unx     1141 b- defN 24-Mar-18 01:51 jsps/DISPL-107.jsp
+│  -rw-r--r--  2.0 unx     1616 b- defN 24-Mar-18 01:51 jsps/DISPL-109.jsp
+│  -rw-r--r--  2.0 unx     1424 b- defN 24-Mar-18 01:51 jsps/DISPL-110.jsp
+│  -rw-r--r--  2.0 unx     1222 b- defN 24-Mar-18 01:51 jsps/DISPL-112.jsp
+│  -rw-r--r--  2.0 unx     1092 b- defN 24-Mar-18 01:51 jsps/DISPL-117.jsp
+│  -rw-r--r--  2.0 unx     1480 b- defN 24-Mar-18 01:51 jsps/DISPL-118.jsp
+│ --rw-r--r--  2.0 unx     2143 b- defN 24-Mar-18 01:51 jsps/DISPL-125.jsp
+│ +-rwxr-xr-x  2.0 unx     2143 b- defN 24-Mar-18 01:51 jsps/DISPL-125.jsp
+│  -rw-r--r--  2.0 unx     1494 b- defN 24-Mar-18 01:51 jsps/DISPL-129.jsp
+│  -rw-r--r--  2.0 unx     1288 b- defN 24-Mar-18 01:51 jsps/DISPL-136.jsp
+│  -rw-r--r--  2.0 unx     1012 b- defN 24-Mar-18 01:51 jsps/DISPL-139.jsp
+│  -rw-r--r--  2.0 unx     1358 b- defN 24-Mar-18 01:51 jsps/DISPL-142.jsp
+│  -rw-r--r--  2.0 unx     1286 b- defN 24-Mar-18 01:51 jsps/DISPL-145.jsp
+│  -rw-r--r--  2.0 unx     1207 b- defN 24-Mar-18 01:51 jsps/DISPL-147.jsp
+│  -rw-r--r--  2.0 unx     1416 b- defN 24-Mar-18 01:51 jsps/DISPL-161.jsp
+│ @@ -287,18 +287,18 @@
+│  -rw-r--r--  2.0 unx      983 b- defN 24-Mar-18 01:51 jsps/DISPL-252.jsp
+│  -rw-r--r--  2.0 unx      921 b- defN 24-Mar-18 01:51 jsps/DISPL-264.jsp
+│  -rw-r--r--  2.0 unx      849 b- defN 24-Mar-18 01:51 jsps/DISPL-279.jsp
+│  -rw-r--r--  2.0 unx     1078 b- defN 24-Mar-18 01:51 jsps/DISPL-280.jsp
+│  -rw-r--r--  2.0 unx     1236 b- defN 24-Mar-18 01:51 jsps/DISPL-292.jsp
+│  -rw-r--r--  2.0 unx     1518 b- defN 24-Mar-18 01:51 jsps/DISPL-298-media-decorator.jsp
+│  -rw-r--r--  2.0 unx     1460 b- defN 24-Mar-18 01:51 jsps/DISPL-298.jsp
+│ --rw-r--r--  2.0 unx     1872 b- defN 24-Mar-18 01:51 jsps/DISPL-304.jsp
+│ +-rwxr-xr-x  2.0 unx     1872 b- defN 24-Mar-18 01:51 jsps/DISPL-304.jsp
+│  -rw-r--r--  2.0 unx     1065 b- defN 24-Mar-18 01:51 jsps/DISPL-305.jsp
+│  -rw-r--r--  2.0 unx      981 b- defN 24-Mar-18 01:51 jsps/DISPL-322.jsp
+│ --rw-r--r--  2.0 unx     1528 b- defN 24-Mar-18 01:51 jsps/DISPL-334.jsp
+│ +-rwxr-xr-x  2.0 unx     1528 b- defN 24-Mar-18 01:51 jsps/DISPL-334.jsp
+│  -rw-r--r--  2.0 unx     1621 b- defN 24-Mar-18 01:51 jsps/DISPL-505.jsp
+│  -rw-r--r--  2.0 unx     1415 b- defN 24-Mar-18 01:51 jsps/DISPL-526.jsp
+│  -rw-r--r--  2.0 unx     1549 b- defN 24-Mar-18 01:51 jsps/DISPL-601.jsp
+│  -rw-r--r--  2.0 unx     1373 b- defN 24-Mar-18 01:51 jsps/DISPL-629.jsp
+│  -rw-r--r--  2.0 unx      945 b- defN 24-Mar-18 01:51 jsps/autocolumns-string.jsp
+│  -rw-r--r--  2.0 unx     1022 b- defN 24-Mar-18 01:51 jsps/autocolumns.jsp
+│  -rw-r--r--  2.0 unx     1375 b- defN 24-Mar-18 01:51 jsps/caption.jsp
+
+2 / 2 target/reference/com.github.hazendaz/displaytag-examples-2.5.4.war displaytag-examples/target/displaytag-examples-2.5.4.war
+--- target/reference/com.github.hazendaz/displaytag-examples-2.5.4.war
++++ displaytag-examples/target/displaytag-examples-2.5.4.war
+├── zipinfo {}
+│ @@ -212,28 +212,28 @@
+│  -rw-r--r--  2.0 unx     1283 b- defN 24-Mar-18 01:51 docroot/sources/sass/partials/_svgsprite-svg-sprite.scss
+│  -rw-r--r--  2.0 unx     3756 b- defN 24-Mar-18 01:51 docroot/sources/sass/partials/_tables.scss
+│  -rw-r--r--  2.0 unx      228 b- defN 24-Mar-18 01:51 docroot/sources/sass/s-main.scss
+│  -rw-r--r--  2.0 unx      485 b- defN 24-Mar-18 01:51 docroot/sources/sprite.scss.template
+│  -rw-r--r--  2.0 unx     2228 b- defN 24-Mar-18 01:51 example-autolink.jsp
+│  -rw-r--r--  2.0 unx     2064 b- defN 24-Mar-18 01:51 example-callbacks.jsp
+│  -rw-r--r--  2.0 unx     2241 b- defN 24-Mar-18 01:51 example-caption-footer.jsp
+│ --rw-r--r--  2.0 unx     4525 b- defN 24-Mar-18 01:51 example-checkboxes.jsp
+│ +-rwxr-xr-x  2.0 unx     4525 b- defN 24-Mar-18 01:51 example-checkboxes.jsp
+│  -rw-r--r--  2.0 unx     4097 b- defN 24-Mar-18 01:51 example-columnlist.jsp
+│  -rw-r--r--  2.0 unx     2847 b- defN 24-Mar-18 01:51 example-columns.jsp
+│  -rw-r--r--  2.0 unx     7188 b- defN 24-Mar-18 01:51 example-columnsummation.jsp
+│  -rw-r--r--  2.0 unx     5514 b- defN 24-Mar-18 01:51 example-config.jsp
+│  -rw-r--r--  2.0 unx     4717 b- defN 24-Mar-18 01:51 example-datasource.jsp
+│  -rw-r--r--  2.0 unx     5131 b- defN 24-Mar-18 01:51 example-decorator-link.jsp
+│  -rw-r--r--  2.0 unx     6809 b- defN 24-Mar-18 01:51 example-decorator.jsp
+│  -rw-r--r--  2.0 unx     2087 b- defN 24-Mar-18 01:51 example-details.jsp
+│  -rw-r--r--  2.0 unx     3427 b- defN 24-Mar-18 01:51 example-export.jsp
+│  -rw-r--r--  2.0 unx     1909 b- defN 24-Mar-18 01:51 example-format.jsp
+│  -rw-r--r--  2.0 unx     1782 b- defN 24-Mar-18 01:51 example-grouping.jsp
+│  -rw-r--r--  2.0 unx     2561 b- defN 24-Mar-18 01:51 example-imp-objects.jsp
+│ --rw-r--r--  2.0 unx     2047 b- defN 24-Mar-18 01:51 example-keepstatus.jsp
+│ +-rwxr-xr-x  2.0 unx     2047 b- defN 24-Mar-18 01:51 example-keepstatus.jsp
+│  -rw-r--r--  2.0 unx     1860 b- defN 24-Mar-18 01:51 example-misc.jsp
+│  -rw-r--r--  2.0 unx     3104 b- defN 24-Mar-18 01:51 example-nestedtables.jsp
+│  -rw-r--r--  2.0 unx     5428 b- defN 24-Mar-18 01:51 example-new-export.jsp
+│  -rw-r--r--  2.0 unx     1270 b- defN 24-Mar-18 01:51 example-nocolumns.jsp
+│  -rw-r--r--  2.0 unx     3308 b- defN 24-Mar-18 01:51 example-paging.jsp
+│  -rw-r--r--  2.0 unx     1859 b- defN 24-Mar-18 01:51 example-pse.jsp
+│  -rw-r--r--  2.0 unx     5010 b- defN 24-Mar-18 01:51 example-rowclass.jsp
+
