@@ -14,7 +14,7 @@ rebuilding **5 releases** of io.wcm:io.wcm.handler.link:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [2.1.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/2.1.0/pom) | | | |
-| [2.0.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/2.0.0/pom) | [mvn jdk11 w](io.wcm.handler.link-2.0.0.buildspec) | [result](io.wcm.handler.link-2.0.0.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.handler.link-2.0.0.buildcompare) | 359K |
+| [2.0.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/2.0.0/pom) | [mvn jdk11 w](io.wcm.handler.link-2.0.0.buildspec) | [result](io.wcm.handler.link-2.0.0.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.handler.link-2.0.0.buildcompare) [:mag:](io.wcm.handler.link-2.0.0.diffoscope) | 359K |
 | [1.10.4](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/1.10.4/pom) | | | |
 | [1.10.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/1.10.2/pom) | | | |
 | [1.10.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/1.10.0/pom) | | | |
