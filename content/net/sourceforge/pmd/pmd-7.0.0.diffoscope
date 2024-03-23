@@ -1,0 +1,120 @@
+# cli and dist seem to be built in 2 separate runs: https://github.com/pmd/pmd/blob/master/.ci/build.sh#L81
+1 / 15 target/reference/net.sourceforge.pmd/pmd-7.0.0-cyclonedx.xml target/bom.xml
+--- target/reference/net.sourceforge.pmd/pmd-7.0.0-cyclonedx.xml
++++ target/bom.xml
+│   --- target/reference/net.sourceforge.pmd/pmd-7.0.0-cyclonedx.xml
+├── +++ target/bom.xml
+│ @@ -5670,14 +5670,248 @@
+│            <url>https://github.com/scala/scala-collection-compat/issues</url>
+│          </reference>
+│          <reference type="vcs">
+│            <url>https://github.com/scala/scala-collection-compat</url>
+│          </reference>
+│        </externalReferences>
+│      </component>
+│ +    <component type="library" bom-ref="pkg:maven/net.sourceforge.pmd/pmd-cli@7.0.0?type=jar">
+│ +      <publisher>PMD</publisher>
+│ +      <group>net.sourceforge.pmd</group>
+│ +      <name>pmd-cli</name>
+│ +      <version>7.0.0</version>
+...
+│ +    </component>
+│ +    <component type="library" bom-ref="pkg:maven/net.sourceforge.pmd/pmd-dist@7.0.0?type=jar">
+│ +      <publisher>PMD</publisher>
+│ +      <group>net.sourceforge.pmd</group>
+│ +      <name>pmd-dist</name>
+│ +      <version>7.0.0</version>
+...
+│ +    </component>
+│      <component type="library" bom-ref="pkg:maven/net.sourceforge.pmd/pmd-compat6@7.0.0?type=jar">
+│        <publisher>PMD</publisher>
+│        <group>net.sourceforge.pmd</group>
+│        <name>pmd-compat6</name>
+│        <version>7.0.0</version>
+│        <description>PMD is a source code analyzer. It finds common programming flaws like unused variables, empty catch blocks,
+│          unnecessary object creation, and so forth. It supports many languages. It can be extended with custom rules.
+│ @@ -5755,14 +5989,16 @@
+│        <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-swift@7.0.0?type=jar"/>
+│        <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-tsql@7.0.0?type=jar"/>
+│        <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-visualforce@7.0.0?type=jar"/>
+│        <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-velocity@7.0.0?type=jar"/>
+│        <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-xml@7.0.0?type=jar"/>
+│        <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-languages-deps@7.0.0?type=pom"/>
+│        <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-doc@7.0.0?type=jar"/>
+│ +      <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-cli@7.0.0?type=jar"/>
+│ +      <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-dist@7.0.0?type=jar"/>
+│        <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-compat6@7.0.0?type=jar"/>
+│      </dependency>
+│      <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-core@7.0.0?type=jar">
+│        <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
+│        <dependency ref="pkg:maven/org.slf4j/jul-to-slf4j@1.7.36?type=jar"/>
+│        <dependency ref="pkg:maven/org.antlr/antlr4-runtime@4.9.3?type=jar"/>
+│        <dependency ref="pkg:maven/net.sf.saxon/Saxon-HE@10.9?type=jar"/>
+│ @@ -6385,14 +6621,38 @@
+│      <dependency ref="pkg:maven/com.thesamet.scalapb/lenses_2.12@0.11.15?type=jar">
+│        <dependency ref="pkg:maven/org.scala-lang/scala-library@2.12.19?type=jar"/>
+│        <dependency ref="pkg:maven/org.scala-lang.modules/scala-collection-compat_2.12@2.11.0?type=jar"/>
+│      </dependency>
+│      <dependency ref="pkg:maven/org.scala-lang.modules/scala-collection-compat_2.12@2.11.0?type=jar">
+│        <dependency ref="pkg:maven/org.scala-lang/scala-library@2.12.19?type=jar"/>
+│      </dependency>
+│ +    <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-cli@7.0.0?type=jar">
+│ +      <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-core@7.0.0?type=jar"/>
+│ +      <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-designer@7.0.0?type=jar"/>
+│ +      <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
+│ +      <dependency ref="pkg:maven/org.slf4j/slf4j-simple@1.7.36?type=jar"/>
+│ +      <dependency ref="pkg:maven/info.picocli/picocli@4.7.5?type=jar"/>
+│ +      <dependency ref="pkg:maven/me.tongfei/progressbar@0.9.5?type=jar"/>
+│ +      <dependency ref="pkg:maven/org.checkerframework/checker-qual@2.11.1?type=jar"/>
+│ +    </dependency>
+│ +    <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-designer@7.0.0?type=jar"/>
+│ +    <dependency ref="pkg:maven/info.picocli/picocli@4.7.5?type=jar"/>
+│ +    <dependency ref="pkg:maven/me.tongfei/progressbar@0.9.5?type=jar">
+│ +      <dependency ref="pkg:maven/org.jline/jline@3.21.0?type=jar"/>
+│ +    </dependency>
+│ +    <dependency ref="pkg:maven/org.jline/jline@3.21.0?type=jar"/>
+│ +    <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-dist@7.0.0?type=jar">
+│ +      <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-core@7.0.0?type=jar"/>
+│ +      <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-cli@7.0.0?type=jar"/>
+│ +      <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-ant@7.0.0?type=jar"/>
+│ +      <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-designer@7.0.0?type=jar"/>
+│ +      <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-languages-deps@7.0.0?type=pom"/>
+│ +      <dependency ref="pkg:maven/org.slf4j/slf4j-simple@1.7.36?type=jar"/>
+│ +      <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.14.0?type=jar"/>
+│ +    </dependency>
+│      <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-compat6@7.0.0?type=jar">
+│        <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-core@7.0.0?type=jar"/>
+│        <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-java@7.0.0?type=jar"/>
+│        <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-javascript@7.0.0?type=jar"/>
+│        <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-jsp@7.0.0?type=jar"/>
+│        <dependency ref="pkg:maven/net.sourceforge.pmd/pmd-cs@7.0.0?type=jar"/>
+│      </dependency>
+
+2 / 15 target/reference/net.sourceforge.pmd/pmd-7.0.0-cyclonedx.json target/bom.json
+...
+
+3 / 15 target/reference/net.sourceforge.pmd/pmd-cpp-7.0.0-sources.jar pmd-cpp/target/pmd-cpp-7.0.0-sources.jar
+--- target/reference/net.sourceforge.pmd/pmd-cpp-7.0.0-sources.jar
++++ pmd-cpp/target/pmd-cpp-7.0.0-sources.jar
+├── zipinfo {}
+│ @@ -12,14 +12,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-22 07:17 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-22 07:17 META-INF/maven/net.sourceforge.pmd/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-22 07:17 META-INF/maven/net.sourceforge.pmd/pmd-cpp/
+│  -rw-r--r--  2.0 unx     2410 b- defN 24-Mar-22 07:17 net/sourceforge/pmd/lang/cpp/CppLanguageModule.java
+│  -rw-r--r--  2.0 unx     1390 b- defN 24-Mar-22 07:17 net/sourceforge/pmd/lang/cpp/cpd/CppBlockSkipper.java
+│  -rw-r--r--  2.0 unx     7176 b- defN 24-Mar-22 07:17 net/sourceforge/pmd/lang/cpp/cpd/CppCpdLexer.java
+│  -rw-r--r--  2.0 unx     1072 b- defN 24-Mar-22 07:17 net/sourceforge/pmd/lang/cpp/cpd/CppEscapeTranslator.java
+│ --rw-------  2.0 unx    29792 b- defN 24-Mar-22 07:17 net/sourceforge/pmd/lang/cpp/ast/Cpp.jj
+│ --rw-------  2.0 unx    77084 b- defN 24-Mar-22 07:17 net/sourceforge/pmd/lang/cpp/ast/CppParserImplTokenManager.java
+│ --rw-------  2.0 unx     9888 b- defN 24-Mar-22 07:17 net/sourceforge/pmd/lang/cpp/ast/CppTokenKinds.java
+│ +-rw-r--r--  2.0 unx    29792 b- defN 24-Mar-22 07:17 net/sourceforge/pmd/lang/cpp/ast/Cpp.jj
+│ +-rw-r--r--  2.0 unx    77084 b- defN 24-Mar-22 07:17 net/sourceforge/pmd/lang/cpp/ast/CppParserImplTokenManager.java
+│ +-rw-r--r--  2.0 unx     9888 b- defN 24-Mar-22 07:17 net/sourceforge/pmd/lang/cpp/ast/CppTokenKinds.java
+│  -rw-r--r--  2.0 unx       47 b- defN 24-Mar-22 07:17 META-INF/services/net.sourceforge.pmd.lang.Language
+│  -rw-r--r--  2.0 unx     3590 b- defN 24-Mar-22 07:17 META-INF/maven/net.sourceforge.pmd/pmd-cpp/pom.xml
+│  -rw-r--r--  2.0 unx       61 b- defN 24-Mar-22 07:17 META-INF/maven/net.sourceforge.pmd/pmd-cpp/pom.properties
+│  23 files, 132574 bytes uncompressed, 22871 bytes compressed:  82.7%
+
+# same source file attributes issue on each other jar
+...
