@@ -7,21 +7,25 @@
 
 Source code: [https://github.com/apache/logging-log4j-tools.git](https://github.com/apache/logging-log4j-tools.git)
 
-<details><summary>This project defines 4 modules:</summary>
+<details><summary>This project defines 8 modules:</summary>
 
-* [org.apache.logging.log4j:log4j-changelog](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-changelog/0.7.0)
-* [org.apache.logging.log4j:log4j-changelog-maven-plugin](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-changelog-maven-plugin/0.7.0)
-* [org.apache.logging.log4j:log4j-tools-bom](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.7.0)
-* [org.apache.logging.log4j:log4j-tools-parent](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-parent/0.7.0)
+* [org.apache.logging.log4j:log4j-changelog](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-changelog/0.8.0)
+* [org.apache.logging.log4j:log4j-changelog-maven-plugin](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-changelog-maven-plugin/0.8.0)
+* [org.apache.logging.log4j:log4j-docgen](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-docgen/0.8.0)
+* [org.apache.logging.log4j:log4j-docgen-asciidoctor-extension](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-docgen-asciidoctor-extension/0.8.0)
+* [org.apache.logging.log4j:log4j-docgen-maven-plugin](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-docgen-maven-plugin/0.8.0)
+* [org.apache.logging.log4j:log4j-tools-bom](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.8.0)
+* [org.apache.logging.log4j:log4j-tools-internal-freemarker-util](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-internal-freemarker-util/0.8.0)
+* [org.apache.logging.log4j:log4j-tools-parent](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-parent/0.8.0)
 </details>
 
-rebuilding **7 releases** of org.apache.logging.log4j:log4j-tools-bom:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of org.apache.logging.log4j:log4j-tools-bom:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.8.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.8.0/pom) | | | |
+| [0.8.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.8.0/pom) | [mvn jdk17](log4j-tools-0.8.0.buildspec) | [result](log4j-tools-bom-0.8.0.buildinfo): [22 :white_check_mark: ](log4j-tools-bom-0.8.0.buildcompare) | 681K |
 | [0.7.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.7.0/pom) | [mvn jdk17](log4j-tools-0.7.0.buildspec) | [result](log4j-tools-bom-0.7.0.buildinfo): [10 :white_check_mark: ](log4j-tools-bom-0.7.0.buildcompare) | 198K |
 | [0.6.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.6.0/pom) | [mvn jdk17](log4j-tools-0.6.0.buildspec) | [result](log4j-tools-bom-0.6.0.buildinfo): [10 :white_check_mark: ](log4j-tools-bom-0.6.0.buildcompare) | 193K |
 | [0.5.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.5.0/pom) | [mvn jdk17](log4j-tools-0.5.0.buildspec) | [result](log4j-tools-bom-0.5.0.buildinfo): [6 :white_check_mark: ](log4j-tools-bom-0.5.0.buildcompare) | 88K |
