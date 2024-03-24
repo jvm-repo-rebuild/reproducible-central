@@ -1,0 +1,20 @@
+1 / 1 target/reference/com.fasterxml.woodstox/woodstox-core-6.6.1.jar target/woodstox-core-6.6.1.jar
+--- target/reference/com.fasterxml.woodstox/woodstox-core-6.6.1.jar
++++ target/woodstox-core-6.6.1.jar
+├── zipinfo {}
+│ @@ -231,800 +231,800 @@
+│  -rw----     2.0 fat     3145 bX defN 80-Feb-01 08:00 com/ctc/wstx/util/WordSet.class
+│  -rw----     2.0 fat     7321 bX defN 80-Feb-01 08:00 com/ctc/wstx/util/XmlChars.class
+│ --rw----     2.0 fat        0 bX defN 22-Jul-27 19:16 com/ctc/wstx/shaded/
+│ --rw----     2.0 fat        0 bX defN 22-Jul-27 19:16 com/ctc/wstx/shaded/msv_core/
+...
+│ --rw----     2.0 fat       36 bX defN 22-Jul-27 19:15 META-INF/services/javax.xml.stream.XMLOutputFactory
+│ --rw----     2.0 fat       34 bX defN 22-Jul-27 19:15 META-INF/services/org.codehaus.stax2.validation.XMLValidationSchemaFactory.w3c
+│ +-rw----     2.0 fat        0 bX defN 22-Jul-27 20:16 com/ctc/wstx/shaded/
+│ +-rw----     2.0 fat        0 bX defN 22-Jul-27 20:16 com/ctc/wstx/shaded/msv_core/
+...
+│ +-rw----     2.0 fat       36 bX defN 22-Jul-27 20:15 META-INF/services/javax.xml.stream.XMLOutputFactory
+│ +-rw----     2.0 fat       34 bX defN 22-Jul-27 20:15 META-INF/services/org.codehaus.stax2.validation.XMLValidationSchemaFactory.w3c
+│  -rw----     2.0 fat     1155 bx defN 23-Nov-07 02:34 module-info.class
+│  1028 files, 3141203 bytes uncompressed, 1325313 bytes compressed:  57.8%
+
