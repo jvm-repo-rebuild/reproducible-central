@@ -1,11 +1,11 @@
 groupId=org.jline
-artifactId=jline-parent
+artifactId=jline
 version=3.23.0
 
 display=${groupId}:${artifactId}
 
 gitRepo=https://github.com/jline/jline3.git
-gitTag=${artifactId}-${version}
+gitTag=${artifactId}-parent-${version}
 
 tool=mvn
 jdk=17
@@ -13,7 +13,7 @@ newline=lf
 
 command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 
-buildinfo=target/${artifactId}-${version}.buildinfo
+buildinfo=target/${artifactId}-parent-${version}.buildinfo
 
-diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-parent-${version}.diffoscope
 issue=
