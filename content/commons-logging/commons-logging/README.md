@@ -13,6 +13,7 @@ rebuilding **1 releases** of commons-logging:commons-logging:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.3.1](https://central.sonatype.com/artifact/commons-logging/commons-logging/1.3.1/pom) | | | |
 | [1.3.0](https://central.sonatype.com/artifact/commons-logging/commons-logging/1.3.0/pom) | [mvn jdk21](commons-logging-1.3.0.buildspec) | [result](commons-logging-1.3.0.buildinfo): [7 :white_check_mark: ](commons-logging-1.3.0.buildcompare) | 632K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

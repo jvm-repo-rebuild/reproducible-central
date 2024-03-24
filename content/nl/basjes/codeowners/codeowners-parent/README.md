@@ -9,19 +9,19 @@ Source code: [https://github.com/nielsbasjes/codeowners.git](https://github.com/
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [nl.basjes.codeowners:codeowners-parent](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.4.0)
-* [nl.basjes.codeowners:codeowners-reader](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-reader/1.4.0)
-* [nl.basjes.gitignore:gitignore-reader](https://central.sonatype.com/artifact/nl.basjes.gitignore/gitignore-reader/1.4.0)
-* [nl.basjes.maven.enforcer.codeowners:codeowners-enforcer-rules](https://central.sonatype.com/artifact/nl.basjes.maven.enforcer.codeowners/codeowners-enforcer-rules/1.4.0)
+* [nl.basjes.codeowners:codeowners-parent](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.5.1)
+* [nl.basjes.codeowners:codeowners-reader](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-reader/1.5.1)
+* [nl.basjes.gitignore:gitignore-reader](https://central.sonatype.com/artifact/nl.basjes.gitignore/gitignore-reader/1.5.1)
+* [nl.basjes.maven.enforcer.codeowners:codeowners-enforcer-rules](https://central.sonatype.com/artifact/nl.basjes.maven.enforcer.codeowners/codeowners-enforcer-rules/1.5.1)
 </details>
 
-rebuilding **15 releases** of nl.basjes.codeowners:codeowners-parent:
-- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **16 releases** of nl.basjes.codeowners:codeowners-parent:
+- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.5.1](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.5.1/pom) | | | |
+| [1.5.1](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.5.1/pom) | [mvn jdk21](codeowners-parent-1.5.1.buildspec) | [result](codeowners-parent-1.5.1.buildinfo): [10 :white_check_mark: ](codeowners-parent-1.5.1.buildcompare) | 423K |
 | [1.4.0](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.4.0/pom) | [mvn jdk21](codeowners-parent-1.4.0.buildspec) | [result](codeowners-parent-1.4.0.buildinfo): [10 :white_check_mark: ](codeowners-parent-1.4.0.buildcompare) | 421K |
 | [1.3.1](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.3.1/pom) | [mvn jdk21](codeowners-parent-1.3.1.buildspec) | [result](codeowners-parent-1.3.1.buildinfo): [10 :white_check_mark: ](codeowners-parent-1.3.1.buildcompare) | 421K |
 | [1.3.0](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.3.0/pom) | [mvn jdk21](codeowners-parent-1.3.0.buildspec) | [result](codeowners-parent-1.3.0.buildinfo): [10 :white_check_mark: ](codeowners-parent-1.3.0.buildcompare) | 420K |

@@ -13,6 +13,7 @@ rebuilding **1 releases** of com.github.hazendaz.maven:yuicompressor-maven-plugi
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.1](https://central.sonatype.com/artifact/com.github.hazendaz.maven/yuicompressor-maven-plugin/2.0.1/pom) | | | |
 | [2.0.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/yuicompressor-maven-plugin/2.0.0/pom) | [mvn jdk21 w](yuicompressor-maven-plugin-2.0.0.buildspec) | [result](yuicompressor-maven-plugin-2.0.0.buildinfo): [5 :white_check_mark: ](yuicompressor-maven-plugin-2.0.0.buildcompare) | 127K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -13,6 +13,7 @@ rebuilding **2 releases** of com.github.hazendaz.maven:directory-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.1.2](https://central.sonatype.com/artifact/com.github.hazendaz.maven/directory-maven-plugin/1.1.2/pom) | | | |
 | [1.1.1](https://central.sonatype.com/artifact/com.github.hazendaz.maven/directory-maven-plugin/1.1.1/pom) | [mvn jdk11 w](directory-maven-plugin-1.1.1.buildspec) | [result](directory-maven-plugin-1.1.1.buildinfo): [3 :white_check_mark: ](directory-maven-plugin-1.1.1.buildcompare) | 45K |
 | [1.1.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/directory-maven-plugin/1.1.0/pom) | [mvn jdk17 w](directory-maven-plugin-1.1.0.buildspec) | [result](directory-maven-plugin-1.1.0.buildinfo): [3 :white_check_mark: ](directory-maven-plugin-1.1.0.buildcompare) | 45K |
 
