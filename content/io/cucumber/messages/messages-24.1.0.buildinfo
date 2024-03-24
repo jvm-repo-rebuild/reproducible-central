@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Cucumber Messages
+group-id=io.cucumber
+artifact-id=messages
+version=24.1.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/messages.git
+source.scm.tag=v24.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=messages-24.1.0.pom
+outputs.0.length=4730
+outputs.0.checksums.sha512=aaa857d233a43db11e7b86890e9dd1591a9ffc0521afbeae130acc57f2004859c3a1232ef0d19aee3e988529b4155aff798596c7f5164a90e7e7734266000da1
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=messages-24.1.0.jar
+outputs.1.length=90690
+outputs.1.checksums.sha512=6af880dd559dbfad1bca39070e01fdbdff25ab5bb650c1158064d4d7201fd72cd7811c4672e9cffeb8f5120fe2ab7f64cc5c96078c1ed663e8958c457086f2a9
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=messages-24.1.0-sources.jar
+outputs.2.length=61961
+outputs.2.checksums.sha512=7a222484a7f4963974939ccc886526fbaa1258148b8c169c3301fa8d3a68cff31570538dfddd68a615d2491d915b4f3ab9514edba525fa57d06902f8477d844c
