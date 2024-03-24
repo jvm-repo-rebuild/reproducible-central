@@ -1,0 +1,9 @@
+version=3.25.1
+ok=55
+ko=0
+ignored=0
+okFiles="jline-parent-3.25.1.pom jline-native-3.25.1.pom jline-native-3.25.1.jar jline-native-3.25.1-sources.jar jline-terminal-3.25.1.pom jline-terminal-3.25.1.jar jline-terminal-3.25.1-sources.jar jline-terminal-ffm-3.25.1.pom jline-terminal-ffm-3.25.1.jar jline-terminal-ffm-3.25.1-sources.jar jline-terminal-jna-3.25.1.pom jline-terminal-jna-3.25.1.jar jline-terminal-jna-3.25.1-sources.jar jline-terminal-jansi-3.25.1.pom jline-terminal-jansi-3.25.1.jar jline-terminal-jansi-3.25.1-sources.jar jline-terminal-jni-3.25.1.pom jline-terminal-jni-3.25.1.jar jline-terminal-jni-3.25.1-sources.jar jline-reader-3.25.1.pom jline-reader-3.25.1.jar jline-reader-3.25.1-sources.jar jline-style-3.25.1.pom jline-style-3.25.1.jar jline-style-3.25.1-sources.jar jline-builtins-3.25.1.pom jline-builtins-3.25.1.jar jline-builtins-3.25.1-sources.jar jline-console-3.25.1.pom jline-console-3.25.1.jar jline-console-3.25.1-sources.jar jline-groovy-3.25.1.pom jline-groovy-3.25.1.jar jline-groovy-3.25.1-sources.jar jline-remote-ssh-3.25.1.pom jline-remote-ssh-3.25.1.jar jline-remote-ssh-3.25.1-sources.jar jline-remote-telnet-3.25.1.pom jline-remote-telnet-3.25.1.jar jline-remote-telnet-3.25.1-sources.jar jline-demo-3.25.1.pom jline-demo-3.25.1.jar jline-demo-3.25.1-sources.jar jline-graal-3.25.1.pom jline-graal-3.25.1.jar jline-graal-3.25.1-sources.jar jansi-core-3.25.1.pom jansi-core-3.25.1.jar jansi-core-3.25.1-sources.jar jline-3.25.1.pom jline-3.25.1.jar jline-3.25.1-sources.jar jansi-3.25.1.pom jansi-3.25.1.jar jansi-3.25.1-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
