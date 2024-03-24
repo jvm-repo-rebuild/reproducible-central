@@ -1,0 +1,7 @@
+version=23.01
+ok=2
+ko=0
+ignored=0
+okFiles="7zip-23.01.pom 7zip-23.01-installer.tar.gz"
+koFiles=""
+ignoredFiles=""
