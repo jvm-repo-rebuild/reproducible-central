@@ -27,6 +27,7 @@ rebuilding **5 releases** of org.osgi:org.osgi.test.parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.3.0](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.parent/1.3.0/pom) | | | |
 | [1.2.1](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.parent/1.2.1/pom) | [mvn jdk17](osgi-test-1.2.1.buildspec) | [result](org.osgi.test.parent-1.2.1.buildinfo): [26 :white_check_mark: ](org.osgi.test.parent-1.2.1.buildcompare) | 552K |
 | [1.2.0](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.parent/1.2.0/pom) | [mvn jdk17](osgi-test-1.2.0.buildspec) | [result](org.osgi.test.parent-1.2.0.buildinfo): [26 :white_check_mark: ](org.osgi.test.parent-1.2.0.buildcompare) | 549K |
 | [1.1.0](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.parent/1.1.0/pom) | [mvn jdk17](osgi-test-1.1.0.buildspec) | [result](org.osgi.test.parent-1.1.0.buildinfo): [26 :white_check_mark: ](org.osgi.test.parent-1.1.0.buildcompare) | 548K |

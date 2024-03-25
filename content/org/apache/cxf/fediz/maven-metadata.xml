@@ -3,8 +3,8 @@
   <groupId>org.apache.cxf.fediz</groupId>
   <artifactId>fediz</artifactId>
   <versioning>
-    <latest>1.6.1</latest>
-    <release>1.6.1</release>
+    <latest>1.6.2</latest>
+    <release>1.6.2</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.1</version>
@@ -35,7 +35,8 @@
       <version>1.5.1</version>
       <version>1.6.0</version>
       <version>1.6.1</version>
+      <version>1.6.2</version>
     </versions>
-    <lastUpdated>20221223083059</lastUpdated>
+    <lastUpdated>20240325080805</lastUpdated>
   </versioning>
 </metadata>

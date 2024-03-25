@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3383 releases** of **624 projects**:
-   - **2671** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **3382 releases** of **623 projects**:
+   - **2670** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 712 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 624 projects, 520 have at least one fully reproducible release, 104 have none
+   - on 623 projects, 519 have at least one fully reproducible release, 104 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -50,7 +50,7 @@ Its objectives are to provide:
 | com.github.ldapchai | [ldapchai](content/com/github/ldapchai/README.md) | 6 | 1 :white_check_mark: / 5 :warning: |
 | com.github.psi-probe | [psi-probe](content/com/github/psi-probe/README.md) | 12 | 8 :white_check_mark: / 4 :warning: |
 | com.github.adangel.liquibase.ext | [liquibase-percona](content/com/github/adangel/liquibase/ext/liquibase-percona/README.md) | 1 | 1 :white_check_mark: |
-| com.github.hazendaz.7zip | [7zip](content/com/github/hazendaz/7zip/README.md) | 1 | 1 :white_check_mark: |
+| com.github.hazendaz.7zip | [7zip](content/com/github/hazendaz/7zip/README.md) | 2 | 2 :white_check_mark: |
 | com.github.hazendaz | [displaytag-doc](content/com/github/hazendaz/displaytag-doc/README.md) | 1 | 1 :warning: |
 | | [javabean-tester](content/com/github/hazendaz/javabean-tester/README.md) | 9 | 7 :white_check_mark: / 2 :warning: |
 | com.github.hazendaz.maven | [coveralls-maven-plugin](content/com/github/hazendaz/maven/coveralls-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
@@ -66,7 +66,7 @@ Its objectives are to provide:
 | com.github.veithen.alta | [alta-maven-plugin](content/com/github/veithen/alta/README.md) | 1 | 1 :white_check_mark: |
 | com.github.veithen.checkt | [checkt](content/com/github/veithen/checkt/README.md) | 1 | 1 :white_check_mark: |
 | com.github.veithen.cosmos | [cosmos](content/com/github/veithen/cosmos/README.md) | 1 | 1 :warning: |
-| com.github.veithen.daemon | [daemon](content/com/github/veithen/daemon/README.md) | 7 | 7 :white_check_mark: |
+| com.github.veithen.daemon | [daemon](content/com/github/veithen/daemon/README.md) | 8 | 8 :white_check_mark: |
 | com.github.veithen | [jrel](content/com/github/veithen/jrel/README.md) | 1 | 1 :white_check_mark: |
 | | [parent](content/com/github/veithen/parent/README.md) | 9 | 8 :white_check_mark: / 1 :warning: |
 | com.github.veithen.phos | [phos](content/com/github/veithen/phos/README.md) | 1 | 1 :white_check_mark: |
@@ -179,7 +179,7 @@ Its objectives are to provide:
 | com.spotify | [github-client](content/com/spotify/github-client/README.md) | 35 | 34 :white_check_mark: / 1 :warning: |
 | com.taobao.arthas | [arthas-all](content/com/taobao/arthas/README.md) | 14 | 14 :warning: |
 | com.vladsch.flexmark | [flexmark-java](content/com/vladsch/flexmark/flexmark-java/README.md) | 4 | 4 :white_check_mark: |
-| commons-logging | [*](content/commons-logging/commons-logging/README.md) | 1 | 1 :white_check_mark: |
+| commons-logging | [*](content/commons-logging/commons-logging/README.md) | 2 | 2 :white_check_mark: |
 | de.jflex | [jflex-parent](content/de/jflex/README.md) | 1 | 1 :white_check_mark: |
 | de.gematik.pki.gemlibpki | [gemLibPki](content/de/gematik/pki/gemlibpki/README.md) | 2 | 2 :warning: |
 | de.unentscheidbar | [migratedb](content/de/unentscheidbar/migratedb/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
@@ -263,7 +263,7 @@ Its objectives are to provide:
 | nl.hsac | [hsac-fitnesse-fixtures](content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 81 | 64 :white_check_mark: / 17 :warning: |
 | | [hsac-fitnesse-pdf](content/nl/hsac/hsac-fitnesse-pdf/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
 | org.jdbi.internal | [jdbi3-root](content/org/jdbi/README.md) | 2 | 2 :warning: |
-| org.jline | [jline](content/org/jline/README.md) | 4 | 4 :white_check_mark: |
+| org.jline | [jline](content/org/jline/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
 | org.jreleaser | [jreleaser](content/org/jreleaser/README.md) | 6 | 6 :warning: |
 | org.phoebus | [parent](content/org/phoebus/README.md) | 1 | 1 :warning: |
 | org.quickperf | [quick-perf](content/org/quickperf/README.md) | 3 | 3 :white_check_mark: |
@@ -570,7 +570,6 @@ Its objectives are to provide:
 | org.glassfish.hk2 | [hk2-parent](content/org/glassfish/hk2/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
 | org.glassfish.main | [glassfish-parent](content/org/glassfish/main/README.md) | 9 | 9 :warning: |
 | org.glassfish.build | [glassfishbuild-maven-plugin](content/org/glassfish/build/glassfishbuild-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
-| org.jline | [jline-parent](content/org/jline/jline/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
 | org.jrivard.xmlchai | [xmlchai](content/org/jrivard/xmlchai/README.md) | 2 | 2 :warning: |
 | org.junit | [junit-bom](content/org/junit/junit5/README.md) | 3 | 3 :warning: |
 | org.kocakosm | [jblake2](content/org/kocakosm/jblake2/README.md) | 2 | 2 :white_check_mark: |
@@ -647,7 +646,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 35 | 35 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **624** | **3383** | **2671** :white_check_mark: **712** :warning: |
+| **Count:** | **623** | **3382** | **2670** :white_check_mark: **712** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -672,7 +671,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      12 mvn        16
-    306 mvn        17
+    308 mvn        17
       1 mvn        17.0.10
       2 mvn        17.0.7
       1 mvn        17.0.8
@@ -681,7 +680,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn        18
      27 mvn        19
      15 mvn        20
-     66 mvn        21
+     62 mvn        21
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11
       1 mvn-3.8.5   8
@@ -707,7 +706,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       6 mvn-3.9.1  20
      26 mvn-3.9.1  21
       7 mvn-3.9.2   8
-     16 mvn-3.9.2  17
+     17 mvn-3.9.2  17
       3 mvn-3.9.2  21
      52 mvn-3.9.3   8
      40 mvn-3.9.3  11
