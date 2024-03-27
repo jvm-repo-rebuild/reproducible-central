@@ -3,8 +3,8 @@
   <groupId>com.fasterxml.woodstox</groupId>
   <artifactId>woodstox-core</artifactId>
   <versioning>
-    <latest>6.6.1</latest>
-    <release>6.6.1</release>
+    <latest>6.6.2</latest>
+    <release>6.6.2</release>
     <versions>
       <version>5.0.0</version>
       <version>5.0.1</version>
@@ -39,7 +39,8 @@
       <version>6.5.1</version>
       <version>6.6.0</version>
       <version>6.6.1</version>
+      <version>6.6.2</version>
     </versions>
-    <lastUpdated>20240226222127</lastUpdated>
+    <lastUpdated>20240327033253</lastUpdated>
   </versioning>
 </metadata>
