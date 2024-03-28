@@ -3,8 +3,8 @@
   <groupId>org.apache.jackrabbit</groupId>
   <artifactId>jackrabbit-parent</artifactId>
   <versioning>
-    <latest>2.21.25</latest>
-    <release>2.21.25</release>
+    <latest>2.21.26-beta</latest>
+    <release>2.21.26-beta</release>
     <versions>
       <version>1.5.0</version>
       <version>1.6.0</version>
@@ -216,7 +216,8 @@
       <version>2.21.23</version>
       <version>2.21.24</version>
       <version>2.21.25</version>
+      <version>2.21.26-beta</version>
     </versions>
-    <lastUpdated>20240307062959</lastUpdated>
+    <lastUpdated>20240328102231</lastUpdated>
   </versioning>
 </metadata>
