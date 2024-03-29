@@ -3,8 +3,8 @@
   <groupId>org.moditect</groupId>
   <artifactId>moditect</artifactId>
   <versioning>
-    <latest>1.2.0.Final</latest>
-    <release>1.2.0.Final</release>
+    <latest>1.2.1.Final</latest>
+    <release>1.2.1.Final</release>
     <versions>
       <version>1.0.0.Alpha1</version>
       <version>1.0.0.Alpha2</version>
@@ -16,7 +16,8 @@
       <version>1.0.0.Final</version>
       <version>1.1.0</version>
       <version>1.2.0.Final</version>
+      <version>1.2.1.Final</version>
     </versions>
-    <lastUpdated>20240313100231</lastUpdated>
+    <lastUpdated>20240329113053</lastUpdated>
   </versioning>
 </metadata>
