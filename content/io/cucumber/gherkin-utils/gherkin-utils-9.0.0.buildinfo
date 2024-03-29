@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Gherkin Utils
+group-id=io.cucumber
+artifact-id=gherkin-utils
+version=9.0.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/gherkin-utils.git
+source.scm.tag=v9.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=gherkin-utils-9.0.0.pom
+outputs.0.length=1632
+outputs.0.checksums.sha512=683b6aaf7c9a45fdbe0b8f79d32e8ee63e7b23a328c7d0e424ca47c830fedd38c7f24f377c7904921b31e5afa32eba06c4d63878946d0127d0a4e78234aea118
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=gherkin-utils-9.0.0.jar
+outputs.1.length=17159
+outputs.1.checksums.sha512=fb98d061dd69a38fa177f3f3b1850a4ff231a41c09a869aa8bda9d4d9723562252a41a737466725cd4468bb13a007f491ef00c916cb7b99e0e8ee8ce7b6e8c1a
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=gherkin-utils-9.0.0-sources.jar
+outputs.2.length=9171
+outputs.2.checksums.sha512=85abb5492c58e5bc5ed82c302f480078a4d33eff09f06cdaa0d3b3aa77dfed5397113e2f96e565c64741fccd1abcb5b69e6ac06762578d8f304330ea671764c9
