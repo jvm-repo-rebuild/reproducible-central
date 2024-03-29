@@ -1,0 +1,23 @@
+1 / 1 target/reference/dev.langchain4j/langchain4j-parent-0.29.0.pom langchain4j-parent/pom.xml
+--- target/reference/dev.langchain4j/langchain4j-parent-0.29.0.pom
++++ langchain4j-parent/pom.xml
+│   --- target/reference/dev.langchain4j/langchain4j-parent-0.29.0.pom
+├── +++ langchain4j-parent/pom.xml
+│ @@ -100,15 +100,15 @@
+│          <groupId>com.azure</groupId>
+│          <artifactId>azure-identity</artifactId>
+│          <version>${azure.identity.version}</version>
+│        </dependency>
+│        <dependency>
+│          <groupId>dev.langchain4j</groupId>
+│          <artifactId>langchain4j-embeddings-all-minilm-l6-v2-q</artifactId>
+│ -        <version>0.28.0</version>
+│ +        <version>${project.version}</version>
+│        </dependency>
+│        <dependency>
+│          <groupId>dev.langchain4j</groupId>
+│          <artifactId>langchain4j-embedding-store-filter-parser-sql</artifactId>
+│          <version>${project.version}</version>
+│        </dependency>
+│        <dependency>
+
