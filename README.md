@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3394 releases** of **623 projects**:
-   - **2681** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **3397 releases** of **624 projects**:
+   - **2684** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 713 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 623 projects, 519 have at least one fully reproducible release, 104 have none
+   - on 624 projects, 520 have at least one fully reproducible release, 104 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -570,6 +570,7 @@ Its objectives are to provide:
 | org.glassfish.hk2 | [hk2-parent](content/org/glassfish/hk2/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
 | org.glassfish.main | [glassfish-parent](content/org/glassfish/main/README.md) | 9 | 9 :warning: |
 | org.glassfish.build | [glassfishbuild-maven-plugin](content/org/glassfish/build/glassfishbuild-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
+| org.jpmml | [jpmml-sklearn](content/org/jpmml/jpmml-sklearn/README.md) | 1 | 1 :white_check_mark: |
 | org.jrivard.xmlchai | [xmlchai](content/org/jrivard/xmlchai/README.md) | 2 | 2 :warning: |
 | org.junit | [junit-bom](content/org/junit/junit5/README.md) | 3 | 3 :warning: |
 | org.kocakosm | [jblake2](content/org/kocakosm/jblake2/README.md) | 2 | 2 :white_check_mark: |
@@ -577,7 +578,7 @@ Its objectives are to provide:
 | org.liquibase.ext | [liquibase-percona](content/org/liquibase/ext/liquibase-percona/README.md) | 37 | 36 :white_check_mark: / 1 :warning: |
 | org.mockito | [mockito-core](content/org/mockito/mockito-core/README.md) | 24 | 22 :white_check_mark: / 2 :warning: |
 | org.moditect.layrry | [layrry-aggregator](content/org/moditect/layrry/README.md) | 1 | 1 :white_check_mark: |
-| org.moditect | [moditect](content/org/moditect/moditect/README.md) | 3 | 3 :white_check_mark: |
+| org.moditect | [moditect](content/org/moditect/moditect/README.md) | 4 | 4 :white_check_mark: |
 | org.mybatis | [base-bundle-descriptor](content/org/mybatis/base-bundle-descriptor/README.md) | 2 | 2 :white_check_mark: |
 | | [mybatis-cdi](content/org/mybatis/cdi/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
 | org.mybatis.dynamic-sql | [mybatis-dynamic-sql](content/org/mybatis/dynamic-sql/README.md) | 3 | 3 :warning: |
@@ -635,7 +636,7 @@ Its objectives are to provide:
 | | [jszip](content/org/webjars/jszip/README.md) | 1 | 1 :white_check_mark: |
 | | [openlayers](content/org/webjars/openlayers/README.md) | 1 | 1 :white_check_mark: |
 | | [redoc](content/org/webjars/redoc/README.md) | 2 | 2 :white_check_mark: |
-| | [swagger-ui](content/org/webjars/swagger-ui/README.md) | 39 | 39 :white_check_mark: |
+| | [swagger-ui](content/org/webjars/swagger-ui/README.md) | 40 | 40 :white_check_mark: |
 | | [uswds](content/org/webjars/uswds/README.md) | 1 | 1 :white_check_mark: |
 | | [webjars-locator](content/org/webjars/webjars-locator/README.md) | 7 | 7 :white_check_mark: |
 | | [webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 7 | 7 :white_check_mark: |
@@ -646,7 +647,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 35 | 35 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **623** | **3394** | **2681** :white_check_mark: **713** :warning: |
+| **Count:** | **624** | **3397** | **2684** :white_check_mark: **713** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -663,7 +664,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
    1126 mvn         8
       1 mvn         9
-    958 mvn        11
+    959 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
@@ -678,7 +679,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn        17.0.8.1
       1 mvn        17.0.9
      13 mvn        18
-     28 mvn        19
+     29 mvn        19
      15 mvn        20
      66 mvn        21
       2 mvn-3.5.4   8
@@ -742,6 +743,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       2 mvn-3.9.5  17.0.7
       1 mvn-3.9.5  17.0.9
      29 mvn-3.9.5  21
+      1 mvn-3.9.6   8
       1 mvn-3.9.6  11
       1 mvn-3.9.6  17
       1 mvn-3.9.6  17.0.7

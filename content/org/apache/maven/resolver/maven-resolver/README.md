@@ -7,17 +7,20 @@
 
 Source code: [https://github.com/apache/maven-resolver.git](https://github.com/apache/maven-resolver.git)
 
-<details><summary>This project defines 26 modules:</summary>
+<details><summary>This project defines 29 modules:</summary>
 
 * [org.apache.maven.resolver:maven-resolver](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0-alpha-8)
 * [org.apache.maven.resolver:maven-resolver-api](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-api/2.0.0-alpha-8)
 * [org.apache.maven.resolver:maven-resolver-connector-basic](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-connector-basic/2.0.0-alpha-8)
+* [org.apache.maven.resolver:maven-resolver-generator-gnupg](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-generator-gnupg/2.0.0-alpha-8)
 * [org.apache.maven.resolver:maven-resolver-impl](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-impl/2.0.0-alpha-8)
 * [org.apache.maven.resolver:maven-resolver-named-locks](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks/2.0.0-alpha-8)
 * [org.apache.maven.resolver:maven-resolver-named-locks-hazelcast](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks-hazelcast/2.0.0-alpha-8)
 * [org.apache.maven.resolver:maven-resolver-named-locks-redisson](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks-redisson/2.0.0-alpha-8)
 * [org.apache.maven.resolver:maven-resolver-spi](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-spi/2.0.0-alpha-8)
 * [org.apache.maven.resolver:maven-resolver-supplier](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-supplier/2.0.0-alpha-8)
+* [org.apache.maven.resolver:maven-resolver-supplier-mvn3](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-supplier-mvn3/2.0.0-alpha-8)
+* [org.apache.maven.resolver:maven-resolver-supplier-mvn4](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-supplier-mvn4/2.0.0-alpha-8)
 * [org.apache.maven.resolver:maven-resolver-synccontext-global](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-synccontext-global/2.0.0-alpha-8)
 * [org.apache.maven.resolver:maven-resolver-synccontext-redisson](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-synccontext-redisson/2.0.0-alpha-8)
 * [org.apache.maven.resolver:maven-resolver-test-http](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-test-http/2.0.0-alpha-8)
