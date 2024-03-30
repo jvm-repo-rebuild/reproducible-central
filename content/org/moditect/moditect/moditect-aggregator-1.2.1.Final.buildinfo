@@ -1,0 +1,64 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=ModiTect Aggregator
+group-id=org.moditect
+artifact-id=moditect-aggregator
+version=1.2.1.Final
+
+# source information
+source.scm.uri=scm:git:git@github.com:moditect/moditect-org-parent.git/moditect-aggregator
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=moditect-maven-plugin
+
+# aggregated output
+
+outputs.0.coordinates=org.moditect:moditect-parent
+
+outputs.0.0.groupId=org.moditect
+outputs.0.0.filename=moditect-parent-1.2.1.Final.pom
+outputs.0.0.length=10769
+outputs.0.0.checksums.sha512=1437ee3a4d3943f5f60a662a26326f88e79dee5ea06b7afd512cc1e88bb814787821150ca0a442557b74bf124058a1a6005f5b446a45fd57673fecc3ee58b1cc
+
+outputs.1.coordinates=org.moditect:moditect
+
+outputs.1.0.groupId=org.moditect
+outputs.1.0.filename=moditect-1.2.1.Final.pom
+outputs.1.0.length=5204
+outputs.1.0.checksums.sha512=785493cc24ee1f30879a488e61953de54c6b6e7e9e913446336f8b7171719d12da196ee9d6f75e3f02930c9b2a86917b1b69e85339ccdf0c46492167e4a7f3c8
+
+outputs.1.1.groupId=org.moditect
+outputs.1.1.filename=moditect-1.2.1.Final.jar
+outputs.1.1.length=1659192
+outputs.1.1.checksums.sha512=aa2fd7ec7e4d802935f107fc365afbaccf36dc8f3e4b863258a86f26ea1a6b49e43d270bc875378a3a9ea06046db0c83683b665c558360c5152d53f5bd33e757
+
+outputs.1.2.groupId=org.moditect
+outputs.1.2.filename=moditect-1.2.1.Final-sources.jar
+outputs.1.2.length=27220
+outputs.1.2.checksums.sha512=779c3136dbc8715b8be7ed633cf855a384ec00e3ba09f6b1acc0d5e8da199df82170fd16e428155df248477c74eb60922f66ecb513156856a2e61b6522140e12
+
+outputs.2.coordinates=org.moditect:moditect-maven-plugin
+
+outputs.2.0.groupId=org.moditect
+outputs.2.0.filename=moditect-maven-plugin-1.2.1.Final.pom
+outputs.2.0.length=3670
+outputs.2.0.checksums.sha512=011b5d6c369ebc99752912b956bf8dc17822a21769f5fe1f1497878c10e6a813360366491104cef72c9f2667189d00aa91762f0338d24b99b3a9089f4ac6a97b
+
+outputs.2.1.groupId=org.moditect
+outputs.2.1.filename=moditect-maven-plugin-1.2.1.Final.jar
+outputs.2.1.length=50418
+outputs.2.1.checksums.sha512=d29d6671d12c2ef331b20433bbcd719f6349a046499b55d10d6dedbf6802af97ed12e360a4350754fb043311cb03924a9b9fb6d4433ba9dcf4ae7fa4a8101eb9
+
+outputs.2.2.groupId=org.moditect
+outputs.2.2.filename=moditect-maven-plugin-1.2.1.Final-sources.jar
+outputs.2.2.length=25957
+outputs.2.2.checksums.sha512=ee1303089db652c6335ca0bfc873ee37671eb58a9c6eea51f94dc6aca14a915b36ad5b4873dd81ec608262ab9447e0f6768c17095e69877aab304a077e2fee7f
