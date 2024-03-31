@@ -1,0 +1,24 @@
+1 / 1 target/reference/eu.maveniverse.maven.mima/cli-2.4.9-uber.jar cli/target/cli-2.4.9-uber.jar
+--- target/reference/eu.maveniverse.maven.mima/cli-2.4.9-uber.jar
++++ cli/target/cli-2.4.9-uber.jar
+├── zipinfo {}
+│ @@ -703,97 +703,97 @@
+│  -rw----     2.0 fat    18190 bl defN 23-Mar-08 19:44 META-INF/maven/org.jline/jline/pom.xml
+│  -rw----     2.0 fat       50 bl defN 23-Mar-08 19:44 META-INF/maven/org.jline/jline/pom.properties
+│ --rw----     2.0 fat        0 bl defN 23-Oct-12 07:38 META-INF/native-image/jansi/
+│ --rw----     2.0 fat    12491 bl defN 23-Oct-12 07:38 META-INF/native-image/jansi/jni-config.json
+...
+│ --rw----     2.0 fat    17329 bl defN 23-Oct-12 07:38 META-INF/maven/org.fusesource.jansi/jansi/pom.xml
+│ --rw----     2.0 fat       60 bl defN 23-Oct-12 07:38 META-INF/maven/org.fusesource.jansi/jansi/pom.properties
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-12 06:38 META-INF/native-image/jansi/
+│ +-rw----     2.0 fat    12491 bl defN 23-Oct-12 06:38 META-INF/native-image/jansi/jni-config.json
+...
+│ +-rw----     2.0 fat    17329 bl defN 23-Oct-12 06:38 META-INF/maven/org.fusesource.jansi/jansi/pom.xml
+│ +-rw----     2.0 fat       60 bl defN 23-Oct-12 06:38 META-INF/maven/org.fusesource.jansi/jansi/pom.properties
+│  -rw----     2.0 fat        0 bl defN 24-Jan-08 10:48 org/apache/
+│  -rw----     2.0 fat        0 bl defN 24-Jan-08 10:48 org/apache/maven/
+│  -rw----     2.0 fat        0 bl defN 24-Jan-08 10:48 org/apache/maven/search/
+│  -rw----     2.0 fat        0 bl defN 24-Jan-08 10:48 org/apache/maven/search/api/
+│  -rw----     2.0 fat     1670 bl defN 24-Jan-08 10:48 org/apache/maven/search/api/MAVEN.class
+│  -rw----     2.0 fat     3320 bl defN 24-Jan-08 10:48 org/apache/maven/search/api/Record.class
+│  -rw----     2.0 fat      280 bl defN 24-Jan-08 10:48 org/apache/maven/search/api/SearchBackend.class
