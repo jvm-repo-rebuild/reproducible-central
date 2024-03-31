@@ -1,0 +1,28 @@
+[org.kordamp.maven:pomchecker](https://central.sonatype.com/artifact/org.kordamp.maven/pomchecker/versions) RB check
+=======
+
+[![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
+
+## Project: [org.kordamp.maven:pomchecker](https://central.sonatype.com/artifact/org.kordamp.maven/pomchecker/versions)
+
+Source code: [https://github.com/kordamp/pomchecker.git](https://github.com/kordamp/pomchecker.git)
+
+<details><summary>This project defines 6 modules:</summary>
+
+* [org.kordamp.maven:pomchecker](https://central.sonatype.com/artifact/org.kordamp.maven/pomchecker/1.11.0)
+* [org.kordamp.maven:pomchecker-cli](https://central.sonatype.com/artifact/org.kordamp.maven/pomchecker-cli/1.11.0)
+* [org.kordamp.maven:pomchecker-core](https://central.sonatype.com/artifact/org.kordamp.maven/pomchecker-core/1.11.0)
+* [org.kordamp.maven:pomchecker-enforcer-rules](https://central.sonatype.com/artifact/org.kordamp.maven/pomchecker-enforcer-rules/1.11.0)
+* [org.kordamp.maven:pomchecker-maven-plugin](https://central.sonatype.com/artifact/org.kordamp.maven/pomchecker-maven-plugin/1.11.0)
+* [org.kordamp.maven:pomchecker-toolprovider](https://central.sonatype.com/artifact/org.kordamp.maven/pomchecker-toolprovider/1.11.0)
+</details>
+
+rebuilding **1 releases** of org.kordamp.maven:pomchecker:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [1.11.0](https://central.sonatype.com/artifact/org.kordamp.maven/pomchecker/1.11.0/pom) | [mvn jdk11](pomchecker-1.11.0.buildspec) | [result](pomchecker-1.11.0.buildinfo): [17 :white_check_mark: ](pomchecker-1.11.0.buildcompare) | 21M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
