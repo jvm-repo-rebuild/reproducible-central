@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Source Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-source-plugin
+version=3.3.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-source-plugin.git
+source.scm.tag=maven-source-plugin-3.3.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-source-plugin-3.3.1.pom
+outputs.0.length=6738
+outputs.0.checksums.sha512=4d32d4bf1f2196f3873366a9182a4ff3a686259e2d428945ba13eb5954c30b830f9fd76881a6f1dab2ef32ca7b64536339692848df3d4db05e2a0200cd58c443
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-source-plugin-3.3.1.jar
+outputs.1.length=32187
+outputs.1.checksums.sha512=fdbd49b067e8dc4033ec65abfab346731a15e11c9d51122815ce91a90b81571c541f1aa8a8555a3c0a7ff4218e86525caa7cf2be58a1c1d07e12f9426a9a72e1
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-source-plugin-3.3.1-source-release.zip
+outputs.2.length=214609
+outputs.2.checksums.sha512=aaa76709d054491118546c8f67829aa9c8435b6b2e6e2577573ac049823d1ca2c54c730e4800291cd3756a677f75af0278be886d16e057cf88fc014991f0004f
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-source-plugin-3.3.1-sources.jar
+outputs.3.length=23701
+outputs.3.checksums.sha512=396e24977516b99165924f6c3f6bdfdf0fad921699ad853963f5112d321a7f9593d6db6a7ba5f0f36dec8cecf894b05e45ef91787493e817e0d2db594bdf12ff
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-source-plugin-3.3.1-cyclonedx.xml
+outputs.4.length=92105
+outputs.4.checksums.sha512=5b63a4fbe80bc2d2c57f55078a3801c3bc10c40886517f9800b6b9fb79a320759bdfa1e978e2b8f6c56e40603f0612f4f89132d8cb8d7e723a9ca2ba8825e55f
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-source-plugin-3.3.1-cyclonedx.json
+outputs.5.length=107271
+outputs.5.checksums.sha512=e20459c3af3f967daecee95ce4f9939846a47e7ad33dd337b4e89f59b3eb8cac7c7866c08cbb9de6b0ea9f53138980d9fedc9bd43b2ebfd4562c780fa88ccea5
