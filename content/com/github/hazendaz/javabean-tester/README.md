@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/hazendaz/javabean-tester.git](https://github.com/hazendaz/javabean-tester.git)
 
-rebuilding **9 releases** of com.github.hazendaz:javabean-tester:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of com.github.hazendaz:javabean-tester:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.7.0](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.7.0/pom) | | | |
+| [2.7.0](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.7.0/pom) | [mvn jdk21 w](javabean-tester-2.7.0.buildspec) | [result](javabean-tester-2.7.0.buildinfo): [5 :white_check_mark: ](javabean-tester-2.7.0.buildcompare) | 188K |
 | [2.6.3](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.6.3/pom) | [mvn jdk21 w](javabean-tester-2.6.3.buildspec) | [result](javabean-tester-2.6.3.buildinfo): [5 :white_check_mark: ](javabean-tester-2.6.3.buildcompare) | 187K |
 | [2.6.2](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.6.2/pom) | [mvn jdk21 w](javabean-tester-2.6.2.buildspec) | [result](javabean-tester-2.6.2.buildinfo): [5 :white_check_mark: ](javabean-tester-2.6.2.buildcompare) | 188K |
 | [2.6.1](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.6.1/pom) | [mvn jdk21 w](javabean-tester-2.6.1.buildspec) | [result](javabean-tester-2.6.1.buildinfo): [5 :white_check_mark: ](javabean-tester-2.6.1.buildcompare) | 188K |
