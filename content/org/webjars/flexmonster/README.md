@@ -13,6 +13,7 @@ rebuilding **53 releases** of org.webjars:flexmonster:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.9.74](https://central.sonatype.com/artifact/org.webjars/flexmonster/2.9.74/pom) | | | |
 | [2.9.72](https://central.sonatype.com/artifact/org.webjars/flexmonster/2.9.72/pom) | [mvn jdk8](flexmonster-2.9.72.buildspec) | [result](flexmonster-2.9.72.buildinfo): [2 :white_check_mark: ](flexmonster-2.9.72.buildcompare) | 2.2M |
 | [2.9.71](https://central.sonatype.com/artifact/org.webjars/flexmonster/2.9.71/pom) | [mvn jdk8](flexmonster-2.9.71.buildspec) | [result](flexmonster-2.9.71.buildinfo): [2 :white_check_mark: ](flexmonster-2.9.71.buildcompare) | 2.2M |
 | [2.9.70](https://central.sonatype.com/artifact/org.webjars/flexmonster/2.9.70/pom) | [mvn jdk17](flexmonster-2.9.70.buildspec) | [result](flexmonster-2.9.70.buildinfo): [2 :white_check_mark: ](flexmonster-2.9.70.buildcompare) | 2.2M |
