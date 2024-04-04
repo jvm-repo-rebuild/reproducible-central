@@ -1,0 +1,11 @@
+version=3.5.16
+ok=1
+ko=2
+ignored=0
+okFiles="mybatis-3.5.16.pom"
+koFiles="mybatis-3.5.16.jar mybatis-3.5.16-sources.jar"
+ignoredFiles=""
+reference_java_version="22 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.mybatis/mybatis-3.5.16.jar target/mybatis-3.5.16.jar
+# diffoscope target/reference/org.mybatis/mybatis-3.5.16-sources.jar target/mybatis-3.5.16-sources.jar

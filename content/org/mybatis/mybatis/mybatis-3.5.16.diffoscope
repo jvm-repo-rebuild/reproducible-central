@@ -1,0 +1,192 @@
+# no idea how to build with JDK 22, have source+target at 16 and release at 8
+1 / 2 target/reference/org.mybatis/mybatis-3.5.16.jar target/mybatis-3.5.16.jar
+--- target/reference/org.mybatis/mybatis-3.5.16.jar
++++ target/mybatis-3.5.16.jar
+├── zipinfo {}
+│ @@ -1,292 +1,288 @@
+│ -Zip file size: 1818073 bytes, number of entries: 1182
+│ +Zip file size: 1819245 bytes, number of entries: 1173
+│  -rw----     2.0 fat        0 bX defN 24-Apr-02 17:33 META-INF/
+│  -rw----     2.0 fat     6099 bl defN 24-Apr-02 17:33 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat    11360 bl defN 24-Apr-02 17:33 META-INF/LICENSE
+│  -rw----     2.0 fat     3316 bl defN 24-Apr-02 17:33 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 24-Apr-02 17:33 org/
+│  -rw----     2.0 fat        0 bl defN 24-Apr-02 17:33 org/apache/
+│  -rw----     2.0 fat        0 bl defN 24-Apr-02 17:33 org/apache/ibatis/
+│  -rw----     2.0 fat        0 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/
+│  -rw----     2.0 fat     1101 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/Arg.class
+│  -rw----     2.0 fat      464 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/AutomapConstructor.class
+│  -rw----     2.0 fat      965 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/CacheNamespace.class
+│  -rw----     2.0 fat      613 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/CacheNamespaceRef.class
+│  -rw----     2.0 fat      658 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/Case.class
+│  -rw----     2.0 fat      531 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/ConstructorArgs.class
+│ --rw----     2.0 fat      572 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/Delete$List.class
+│ --rw----     2.0 fat      719 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/Delete.class
+│ --rw----     2.0 fat      604 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/DeleteProvider$List.class
+│ --rw----     2.0 fat      865 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/DeleteProvider.class
+│ +-rw----     2.0 fat      591 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/Delete$List.class
+│ +-rw----     2.0 fat      743 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/Delete.class
+│ +-rw----     2.0 fat      623 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/DeleteProvider$List.class
+│ +-rw----     2.0 fat      889 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/DeleteProvider.class
+│  -rw----     2.0 fat      433 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/Flush.class
+│ --rw----     2.0 fat      572 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/Insert$List.class
+│ --rw----     2.0 fat      719 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/Insert.class
+│ --rw----     2.0 fat      604 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/InsertProvider$List.class
+│ --rw----     2.0 fat      865 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/InsertProvider.class
+│ +-rw----     2.0 fat      591 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/Insert$List.class
+│ +-rw----     2.0 fat      743 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/Insert.class
+│ +-rw----     2.0 fat      623 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/InsertProvider$List.class
+│ +-rw----     2.0 fat      889 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/InsertProvider.class
+│  -rw----     2.0 fat      550 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/Lang.class
+│  -rw----     2.0 fat      636 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/Many.class
+...
+│  -rw----     2.0 fat     2363 bl defN 24-Apr-02 17:33 org/apache/ibatis/type/StringTypeHandler.class
+│  -rw----     2.0 fat     2641 bl defN 24-Apr-02 17:33 org/apache/ibatis/type/TimeOnlyTypeHandler.class
+│ --rw----     2.0 fat     7080 bl defN 24-Apr-02 17:33 org/apache/ibatis/type/TypeAliasRegistry.class
+│ +-rw----     2.0 fat     7399 bl defN 24-Apr-02 17:33 org/apache/ibatis/type/TypeAliasRegistry.class
+│  -rw----     2.0 fat      895 bl defN 24-Apr-02 17:33 org/apache/ibatis/type/TypeException.class
+│  -rw----     2.0 fat      942 bl defN 24-Apr-02 17:33 org/apache/ibatis/type/TypeHandler.class
+│ --rw----     2.0 fat    21652 bl defN 24-Apr-02 17:33 org/apache/ibatis/type/TypeHandlerRegistry.class
+│ --rw----     2.0 fat     1931 bl defN 24-Apr-02 17:33 org/apache/ibatis/type/TypeReference.class
+│ --rw----     2.0 fat     8032 bl defN 24-Apr-02 17:33 org/apache/ibatis/type/UnknownTypeHandler.class
+│ +-rw----     2.0 fat    21918 bl defN 24-Apr-02 17:33 org/apache/ibatis/type/TypeHandlerRegistry.class
+│ +-rw----     2.0 fat     2270 bl defN 24-Apr-02 17:33 org/apache/ibatis/type/TypeReference.class
+│ +-rw----     2.0 fat     8170 bl defN 24-Apr-02 17:33 org/apache/ibatis/type/UnknownTypeHandler.class
+│  -rw----     2.0 fat     2704 bl defN 24-Apr-02 17:33 org/apache/ibatis/type/YearMonthTypeHandler.class
+│  -rw----     2.0 fat     2568 bl defN 24-Apr-02 17:33 org/apache/ibatis/type/YearTypeHandler.class
+│  -rw----     2.0 fat     2503 bl defN 24-Apr-02 17:33 org/apache/ibatis/type/ZonedDateTimeTypeHandler.class
+│  -rw----     2.0 fat      128 bl defN 24-Apr-02 17:33 org/apache/ibatis/type/package-info.class
+│  -rw----     2.0 fat        0 bl defN 24-Apr-02 17:33 org/apache/ibatis/util/
+│  -rw----     2.0 fat     1638 bl defN 24-Apr-02 17:33 org/apache/ibatis/util/MapUtil.class
+│  -rw----     2.0 fat        0 bl defN 24-Apr-02 17:33 META-INF/maven/
+│ @@ -1177,8 +1168,8 @@
+│  -rw----     2.0 fat     1038 bl defN 23-Dec-24 16:24 org/apache/ibatis/javassist/util/proxy/SecurityActions$6.class
+│  -rw----     2.0 fat     1194 bl defN 23-Dec-24 16:24 org/apache/ibatis/javassist/util/proxy/SecurityActions$7.class
+│  -rw----     2.0 fat     2220 bl defN 23-Dec-24 16:24 org/apache/ibatis/javassist/util/proxy/SecurityActions$8.class
+│  -rw----     2.0 fat     2752 bl defN 23-Dec-24 16:24 org/apache/ibatis/javassist/util/proxy/SecurityActions$TheUnsafe.class
+│  -rw----     2.0 fat     6581 bl defN 23-Dec-24 16:24 org/apache/ibatis/javassist/util/proxy/SecurityActions.class
+│  -rw----     2.0 fat     1531 bl defN 23-Dec-24 16:24 org/apache/ibatis/javassist/util/proxy/SerializedProxy$1.class
+│  -rw----     2.0 fat     4503 bl defN 23-Dec-24 16:24 org/apache/ibatis/javassist/util/proxy/SerializedProxy.class
+│ -1182 files, 3824889 bytes uncompressed, 1583885 bytes compressed:  58.6%
+│ +1173 files, 3820896 bytes uncompressed, 1586803 bytes compressed:  58.5%
+├── META-INF/MANIFEST.MF
+│ @@ -6,15 +6,15 @@
+│  Specification-Vendor: MyBatis.org
+
+│  Implementation-Title: mybatis
+
+│  Implementation-Version: 3.5.16
+
+│  Implementation-Vendor: MyBatis.org
+
+│  Automatic-Module-Name: org.mybatis
+
+│  Copyright: 2024
+
+│  Git-Revision: 78bb677e2bf04b43386d3f1544cec51ff47662a2
+
+│ -X-Compile-Release-JDK: 8
+
+│ +X-Compile-Release-JDK: 16
+
+│  X-Compile-Source-JDK: 16
+
+│  X-Compile-Target-JDK: 16
+
+│  Bundle-Description: The MyBatis SQL mapper framework makes it easier to 
+
+│   use a relational database with object-oriented     applications. MyBati
+
+│   s couples objects with stored procedures or SQL statements using a XML 
+
+│   descriptor or     annotations. Simplicity is the biggest advantage of t
+
+│   he MyBatis data mapper over object relational mapping     tools.
+
+│ @@ -90,9 +90,9 @@
+│   ion="[1.3,2)",org.apache.log4j;resolution:=optional;version="[1.2,2)",o
+
+│   rg.apache.logging.log4j;resolution:=optional;version="[2.20,3)",org.apa
+
+│   che.logging.log4j.message;resolution:=optional;version="[2.22,3)",org.a
+
+│   pache.logging.log4j.spi;resolution:=optional;version="[2.20,3)",org.slf
+
+│   4j;resolution:=optional;version="[2.0,3)",org.slf4j.spi;resolution:=opt
+
+│   ional;version="[2.0,3)",org.w3c.dom;resolution:=optional,org.xml.sax;re
+
+│   solution:=optional
+
+│ -Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+│ +Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=16))"
+
+├── org/apache/ibatis/annotations/Arg.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,11 +1,11 @@
+│ │    Compiled from "Arg.java"
+│ │  public interface org.apache.ibatis.annotations.Arg extends java.lang.annotation.Annotation
+│ │    minor version: 0
+│ │ -  major version: 52
+│ │ +  major version: 60
+│ │    flags: (0x2601) ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT, ACC_ANNOTATION
+│ │    this_class: #1                          // org/apache/ibatis/annotations/Arg
+│ │    super_class: #3                         // java/lang/Object
+│ │    interfaces: 1, fields: 0, methods: 9, attributes: 2
+│ │  Constant pool:
+│ │     #1 = Class              #2             // org/apache/ibatis/annotations/Arg
+│ │     #2 = Utf8               org/apache/ibatis/annotations/Arg
+...
+
+2 / 2 target/reference/org.mybatis/mybatis-3.5.16-sources.jar target/mybatis-3.5.16-sources.jar
+--- target/reference/org.mybatis/mybatis-3.5.16-sources.jar
++++ target/mybatis-3.5.16-sources.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 1330873 bytes, number of entries: 872
+│ +Zip file size: 1330869 bytes, number of entries: 872
+│  -rw----     2.0 fat        0 bX defN 24-Apr-02 17:33 META-INF/
+│ --rw----     2.0 fat      443 bl defN 24-Apr-02 17:33 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      444 bl defN 24-Apr-02 17:33 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 24-Apr-02 17:33 org/
+│  -rw----     2.0 fat        0 bl defN 24-Apr-02 17:33 org/apache/
+│  -rw----     2.0 fat        0 bl defN 24-Apr-02 17:33 org/apache/ibatis/
+│  -rw----     2.0 fat        0 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/
+│  -rw----     2.0 fat     2851 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/Arg.java
+│  -rw----     2.0 fat     1469 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/AutomapConstructor.java
+│  -rw----     2.0 fat     2823 bl defN 24-Apr-02 17:33 org/apache/ibatis/annotations/CacheNamespace.java
+│ @@ -867,8 +867,8 @@
+│  -rw----     2.0 fat     3957 bl defN 17-Nov-12 15:56 org/apache/ibatis/javassist/convert/TransformNew.java
+│  -rw----     2.0 fat     2903 bl defN 23-Dec-10 00:51 org/apache/ibatis/javassist/convert/TransformNewClass.java
+│  -rw----     2.0 fat     3220 bl defN 17-Nov-12 15:56 org/apache/ibatis/javassist/convert/TransformWriteField.java
+│  -rw----     2.0 fat     4011 bl defN 17-Nov-12 15:56 org/apache/ibatis/javassist/convert/TransformBefore.java
+│  -rw----     2.0 fat     1149 bl defN 22-May-13 02:48 org/apache/ibatis/javassist/convert/TransformCallToStatic.java
+│  -rw----     2.0 fat     3767 bl defN 17-Nov-12 15:56 org/apache/ibatis/javassist/convert/TransformReadField.java
+│  -rw----     2.0 fat    49754 bl defN 22-May-13 02:45 org/apache/ibatis/javassist/CtBehavior.java
+│ -872 files, 4411063 bytes uncompressed, 1166093 bytes compressed:  73.6%
+│ +872 files, 4411064 bytes uncompressed, 1166089 bytes compressed:  73.6%
+├── META-INF/MANIFEST.MF
+│ @@ -5,11 +5,11 @@
+│  Specification-Vendor: MyBatis.org
+
+│  Implementation-Title: mybatis
+
+│  Implementation-Version: 3.5.16
+
+│  Implementation-Vendor: MyBatis.org
+
+│  Automatic-Module-Name: org.mybatis
+
+│  Copyright: 2024
+
+│  Git-Revision: 78bb677e2bf04b43386d3f1544cec51ff47662a2
+
+│ -X-Compile-Release-JDK: 8
+
+│ +X-Compile-Release-JDK: 16
+
+│  X-Compile-Source-JDK: 16
+
+│  X-Compile-Target-JDK: 16
+
