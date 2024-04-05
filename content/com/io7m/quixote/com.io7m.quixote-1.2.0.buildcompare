@@ -1,0 +1,9 @@
+version=1.2.0
+ok=26
+ko=2
+ignored=0
+okFiles="com.io7m.quixote-1.2.0.pom com.io7m.quixote.core-1.2.0.pom com.io7m.quixote.core-1.2.0.jar com.io7m.quixote.core-1.2.0-sources.jar com.io7m.quixote.core-1.2.0-cyclonedx.xml com.io7m.quixote.core-1.2.0-tests.jar com.io7m.quixote.xml-1.2.0.pom com.io7m.quixote.xml-1.2.0.jar com.io7m.quixote.xml-1.2.0-sources.jar com.io7m.quixote.xml-1.2.0-cyclonedx.xml com.io7m.quixote.xml-1.2.0-tests.jar com.io7m.quixote.main-1.2.0.pom com.io7m.quixote.main-1.2.0.jar com.io7m.quixote.main-1.2.0-cyclonedx.xml com.io7m.quixote.main-1.2.0-sources.jar com.io7m.quixote.main-1.2.0-distribution.zip com.io7m.quixote.main-1.2.0-tests.jar com.io7m.quixote.oci-1.2.0.pom com.io7m.quixote.oci-1.2.0.jar com.io7m.quixote.oci-1.2.0-sources.jar com.io7m.quixote.oci-1.2.0-tests.jar com.io7m.quixote.tests-1.2.0.pom com.io7m.quixote.tests-1.2.0.jar com.io7m.quixote.tests-1.2.0-sources.jar com.io7m.quixote.tests-1.2.0-cyclonedx.xml com.io7m.quixote.tests-1.2.0-tests.jar"
+koFiles="com.io7m.quixote-1.2.0-cyclonedx.xml com.io7m.quixote.oci-1.2.0-cyclonedx.xml"
+ignoredFiles=""
+# diffoscope target/reference/com.io7m.quixote/com.io7m.quixote-1.2.0-cyclonedx.xml target/bom.xml
+# diffoscope target/reference/com.io7m.quixote/com.io7m.quixote.oci-1.2.0-cyclonedx.xml com.io7m.quixote.oci/target/bom.xml

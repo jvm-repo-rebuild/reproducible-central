@@ -1,0 +1,115 @@
+1 / 2 target/reference/com.io7m.quixote/com.io7m.quixote-1.2.0-cyclonedx.xml target/bom.xml
+--- target/reference/com.io7m.quixote/com.io7m.quixote-1.2.0-cyclonedx.xml
++++ target/bom.xml
+│   --- target/reference/com.io7m.quixote/com.io7m.quixote-1.2.0-cyclonedx.xml
+├── +++ target/bom.xml
+│ @@ -778,21 +778,14 @@
+│            <url>https://www.github.com/io7m/quixote/issues</url>
+│          </reference>
+│          <reference type="vcs">
+│            <url>https://www.github.com/io7m/quixote</url>
+│          </reference>
+│        </externalReferences>
+│      </component>
+│ -    <component type="library" bom-ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.main@1.2.0?classifier=distribution&amp;type=zip">
+│ -      <group>com.io7m.quixote</group>
+│ -      <name>com.io7m.quixote.main</name>
+│ -      <version>1.2.0</version>
+│ -      <scope>required</scope>
+│ -      <purl>pkg:maven/com.io7m.quixote/com.io7m.quixote.main@1.2.0?classifier=distribution&amp;type=zip</purl>
+│ -    </component>
+│      <component type="library" bom-ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.tests@1.2.0?type=jar">
+│        <group>com.io7m.quixote</group>
+│        <name>com.io7m.quixote.tests</name>
+│        <version>1.2.0</version>
+│        <description>Embedded test suite web server (Test suite)</description>
+│        <licenses>
+│          <license>
+│ @@ -1233,24 +1226,14 @@
+│      <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.5.3?type=jar">
+│        <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.5.3?type=jar"/>
+│        <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.12?type=jar"/>
+│      </dependency>
+│      <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.5.3?type=jar"/>
+│      <dependency ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.oci@1.2.0?type=jar">
+│        <dependency ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.main@1.2.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.main@1.2.0?classifier=distribution&amp;type=zip"/>
+│ -    </dependency>
+│ -    <dependency ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.main@1.2.0?classifier=distribution&amp;type=zip">
+│ -      <dependency ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.core@1.2.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.xml@1.2.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.blackthorne/com.io7m.blackthorne.core@2.0.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.anethum/com.io7m.anethum.slf4j@1.1.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.12?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.anethum/com.io7m.anethum.api@1.1.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.5.3?type=jar"/>
+│      </dependency>
+│      <dependency ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.tests@1.2.0?type=jar">
+│        <dependency ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.core@1.2.0?type=jar"/>
+│        <dependency ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.xml@1.2.0?type=jar"/>
+│        <dependency ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.main@1.2.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.nanohttpd/nanohttpd@2.3.1?type=jar"/>
+│        <dependency ref="pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.10.2?type=jar"/>
+
+2 / 2 target/reference/com.io7m.quixote/com.io7m.quixote.oci-1.2.0-cyclonedx.xml com.io7m.quixote.oci/target/bom.xml
+--- target/reference/com.io7m.quixote/com.io7m.quixote.oci-1.2.0-cyclonedx.xml
++++ com.io7m.quixote.oci/target/bom.xml
+│   --- target/reference/com.io7m.quixote/com.io7m.quixote.oci-1.2.0-cyclonedx.xml
+├── +++ com.io7m.quixote.oci/target/bom.xml
+│ @@ -673,36 +673,18 @@
+│            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+│          </reference>
+│          <reference type="vcs">
+│            <url>https://github.com/qos-ch/logback/logback-core</url>
+│          </reference>
+│        </externalReferences>
+│      </component>
+│ -    <component type="library" bom-ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.main@1.2.0?classifier=distribution&amp;type=zip">
+│ -      <group>com.io7m.quixote</group>
+│ -      <name>com.io7m.quixote.main</name>
+│ -      <version>1.2.0</version>
+│ -      <scope>required</scope>
+│ -      <hashes>
+│ -        <hash alg="MD5">baaf87d93d49c89a07da6d3523c5c699</hash>
+│ -        <hash alg="SHA-1">4ccc80e4cf1f10a6768cab2de1e0a757a82413dc</hash>
+│ -        <hash alg="SHA-256">e05af5dc0ef257c949dabfbea5734cff8680479594b2623cf5da6c335737c6d9</hash>
+│ -        <hash alg="SHA-512">ec46fd85810125112b29f074f78e0c2bb982f137760fd5be1b2bc0251ea283023f3aea25a5ee03dc0186e12717ccbabdf4d6b94f513803eb1575939b7cd31639</hash>
+│ -        <hash alg="SHA-384">b58b8f4f14a7c89f94bdd6a1be44a94f686a6690d33c286fc2282fbfeedda28091b37856a75958e4581c6791b97feac7</hash>
+│ -        <hash alg="SHA3-384">266408e0a25e2af7956d3c560f7806b740071cff34046ea15540dec1166695ded46a77382304c8b8c7446b9cb700c4e6</hash>
+│ -        <hash alg="SHA3-256">cfbb4c1aa63fc1069053e2e454ff72531a338d92dcdf4eda0be9ed82d860b34b</hash>
+│ -        <hash alg="SHA3-512">fbb6ea554b2652b623e656d63611f7cf23818c8d9c779d858a34e8f962df1ce1f771364e994098977e7091b37f49e1520a18693f48537526edef4e6fb78314b6</hash>
+│ -      </hashes>
+│ -      <purl>pkg:maven/com.io7m.quixote/com.io7m.quixote.main@1.2.0?classifier=distribution&amp;type=zip</purl>
+│ -    </component>
+│    </components>
+│    <dependencies>
+│      <dependency ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.oci@1.2.0?type=jar">
+│        <dependency ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.main@1.2.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.main@1.2.0?classifier=distribution&amp;type=zip"/>
+│      </dependency>
+│      <dependency ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.main@1.2.0?type=jar">
+│        <dependency ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.core@1.2.0?type=jar"/>
+│        <dependency ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.xml@1.2.0?type=jar"/>
+│        <dependency ref="pkg:maven/com.io7m.blackthorne/com.io7m.blackthorne.core@2.0.0?type=jar"/>
+│        <dependency ref="pkg:maven/com.io7m.anethum/com.io7m.anethum.slf4j@1.1.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.12?type=jar"/>
+│ @@ -751,18 +733,9 @@
+│        <dependency ref="pkg:maven/com.io7m.jlexing/com.io7m.jlexing.core@3.1.0?type=jar"/>
+│      </dependency>
+│      <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.5.3?type=jar">
+│        <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.5.3?type=jar"/>
+│        <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.12?type=jar"/>
+│      </dependency>
+│      <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.5.3?type=jar"/>
+│ -    <dependency ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.main@1.2.0?classifier=distribution&amp;type=zip">
+│ -      <dependency ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.core@1.2.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.quixote/com.io7m.quixote.xml@1.2.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.blackthorne/com.io7m.blackthorne.core@2.0.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.anethum/com.io7m.anethum.slf4j@1.1.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.12?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.anethum/com.io7m.anethum.api@1.1.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.5.3?type=jar"/>
+│ -    </dependency>
+│    </dependencies>
+│  </bom>
+
