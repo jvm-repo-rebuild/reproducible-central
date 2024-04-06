@@ -26,7 +26,7 @@ then
   referenceRepo=https://repository.apache.org/content/repositories/$2/
 fi
 
-info "Rebuilding from spec \033[1m${buildspec}\033[0m"
+echo -e "Rebuilding from buildspec \033[1m${buildspec}\033[0m"
 
 . ${buildspec} || fatal "could not source ${buildspec}"
 
@@ -34,10 +34,14 @@ info "Rebuilding from spec \033[1m${buildspec}\033[0m"
 DEFAULT_locale="en_US"
 DEFAULT_timezone="UTC"
 DEFAULT_umask=0002
+DEFAULT_referenceRepo="https://repo.maven.apache.org/maven2/"
 
+echo "| 1. rebuild what binaries?"
+displayOptional  "referenceRepo" "$DEFAULT_referenceRepo"
 displayMandatory "groupId"
 displayMandatory "artifactId"
 displayMandatory "version"
+echo "| 2. from which sources?"
 if [ -z "${sourceDistribution}" ]
 then
   displayMandatory "gitRepo"
@@ -45,15 +49,17 @@ then
 else
   displayMandatory "sourceDistribution"
 fi
-displayOptional  "referenceRepo" "https://repository.maven.apache.org/maven2/"
+echo "| 3. with which rebuild environment?"
 displayMandatory "tool"
 displayMandatory "jdk"
 displayOptional  "toolchains"
+displayMandatory "newline"
 displayOptional  "timezone"    "$DEFAULT_timezone"
 displayOptional  "locale"      "$DEFAULT_locale"
 displayOptional  "umask"       "$DEFAULT_umask"
-displayMandatory "newline"
+echo "| 4. how?"
 displayMandatory "command"
+echo "| 5. expected results?"
 displayMandatory "buildinfo"
 displayOptional  "diffoscope"
 displayOptional  "issue"

@@ -4,6 +4,7 @@
 groupId=
 artifactId=
 version=
+# referenceRepo = https://my.company.com/repo if reference is not in Maven Central but company-private
 
 display=${groupId}:${artifactId}
 
@@ -28,7 +29,7 @@ newline=lf
 # Rebuild command
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 
-# Location of the buildinfo file generated during rebuild to record output fingerprints
+# Location of the buildinfo file generated during rebuild (by attifact:compare for Maven) to record output fingerprints
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 # if the release is finally not reproducible, link to an issue tracker entry if one was created or diffoscope result

@@ -18,6 +18,9 @@ As per Central Repository [upload requirements](https://maven.apache.org/reposit
 groupId=
 artifactId=
 version=
+# where are reference binaries?
+# referenceRepo = https://repository.maven.apache.org/maven2/
+# layout (= gav to path in referenceRepo) is Maven repository: https://maven.apache.org/repositories/layout.html (future options could be PyPI, npm, Brew, Dockerhub, ...)
 
 # 2. where is source code?
 gitRepo=https://github.com/project_org/${artifactId}.git
@@ -27,11 +30,7 @@ sourceDistribution=https://archive.apache.org/dist/maven/scm/${artifactId}-${ver
 sourcePath=${artifactId}-${version}
 sourceRmFiles="DEPENDENCIES LICENSE NOTICE"
 
-# 3. where are reference binaries?
-# layout = Maven repository https://maven.apache.org/repositories/layout.html (future options could be PyPI, npm, Brew, Dockerhub, ...)
-# referenceRepo = https://repository.maven.apache.org/maven2/
-
-# 4. rebuild environment prerequisites
+# 3. rebuild environment prerequisites
 tool=mvn
 # or tool=mvn-3.8.5 if default 3.6.3 version does not match your prerequisites (available version may be limited by images available on Dockerhub)
 # or tool=gradle or tool=sbt
@@ -43,18 +42,18 @@ newline=crlf
 #timezone="Etc/GMT"
 #locale="en_US"
 
-# 5. rebuild command
+# 4. rebuild command
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 
-# 6. location of the buildinfo file generated during rebuild to record output fingerprints
+# 5. location of the buildinfo file generated during rebuild to record output fingerprints
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-# 7. if the release is finally not reproducible, link to an issue tracker entry if one was created
+# 6. if the release is finally not reproducible, link to an issue tracker entry if one was created
 #diffoscope=${artifactId}-${version}.diffoscope
 issue=https://github.com/project_org/${artifactId}/issues/xx
 ```
 
-For building under maven with recent JDK versions a few more options are available
+For building under Maven with recent JDK versions, a few more options are available:
 ```
 # Some projects need multiple JDK versions available via toolchains.
 # By setting the toolchains to the list of ('|' separated) desired major JDK versions these will be installed.
@@ -63,23 +62,8 @@ For building under maven with recent JDK versions a few more options are availab
 jdk=17
 toolchains="8|11|17"
 
-# Some builds can only be reproduced if a few more specifics are set in the build environment.
-
-# Sets the umask to the provided value during the build. 
-# This is optional: If unspecified 0002 is used.
-umask=0022
-
-# Sets the timezone to the provided value during the build. 
-# This is optional: If unspecified UTC is used.
-timezone="Etc/GMT+7"
-
-# Sets the timezone to the provided value during the build. 
-# This is optional: If unspecified en_US is used.
-locale="en_US"
-
 # Set additional (!) MAVEN_OPTS that are appended to the MAVEN_OPTS provided by base build environment
 MAVEN_OPTS='-Duser.country=US -Duser.language=en'
-
 ```
 
 
@@ -96,6 +80,7 @@ To facilitate the job, here are step-by-step instructions:
 ## Parameters
 
 - `groupId`, `artifactId` and `version` are not really used to do the rebuild, but to point to the reference output files in Central Repository in the final report.
+- `referenceRepo` is by default Central Repository url, but it can be customized interla company repository (and even default value changed in [`rebuild.sh`](../rebuild.sh))
 - `gitRepo` and `gitTag` define where to get the source code from and which precise commit represents the release.
 - in case Git is not the best way, `sourceDistribution`, `sourcePath` and `sourceRmFiles` can be defined to download a source zip file.
 - rebuild environment prerequisites: they define key prerequisites to rebuild source code and have a chance that the output files will match reference output from Central Repository:
@@ -113,7 +98,7 @@ Reproducible Central project is a first step at rebuilding every public release:
 Then there are some simplifications done for now to match current ambition:
 
 - `artifactId`: some projects build only 1 artifact, but more complex ones ("multi-module" in Maven terms) build many artifacts: only one artifact is provided in build spec to provide one example link to Central Repository,
-- `gitRepo`: current rebuild script only supports Git, which has been sufficient for now,
+- `gitRepo`: current rebuild script only supports Git, which has been sufficient for now, but other source control could be added to [`bin/includes/fetchSource.sh`](../bin/includes/fetchSource.sh)
 - `tool`: current build spec does not specify a precise tool version, as it was not yet required: rebuild script chooses arbitrarily,
 - `jdk`: only major JDK version is provided, as tests have shown that it is in general sufficient to get reproducible bytecode: rebuild script will choose on its own JVM provider and JDK minor version
 
@@ -131,7 +116,7 @@ Is caused by Maven version chosen in buildspec vs reference: Maven 3.8.1- and Ma
 
 ### Avoid http vs https maven.xsd URL Difference in POM Generated by flatten-maven-plugin
 
-Maven up to 3.6.2 rewrite schema location in `http`, but starting with 3.6.3, they are rewritten in `https`: see [MNG-6778](https://issues.apache.org/jira/browse/MNG-6778)
+Maven up to 3.6.2 rewrites schema location in `http`, but starting with 3.6.3, they are rewritten in `https`: see [MNG-6778](https://issues.apache.org/jira/browse/MNG-6778)
 
 ### Post process generated content
 

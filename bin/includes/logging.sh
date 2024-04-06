@@ -64,7 +64,7 @@ function displayOptional() {
     declare DNAME=DEFAULT_${1}
     if [ ! -z "${!DNAME}" ];
     then
-      warn "- $propName: Using default value: \"${propDefault}\""
+      echo -e "|      ${Blue}$propName${IWhite}: Using default value \033[1m${propDefault}\033[0m"
     else
       if [ "${3}" == '#@#' ];
       then
@@ -74,6 +74,6 @@ function displayOptional() {
       fi
     fi
   else
-    info "- $propName: \033[1m${propValue}\033[0m"
+    echo -e "|      ${Blue}$propName${IWhite}: \033[1m${propValue}\033[0m"
   fi
 }
