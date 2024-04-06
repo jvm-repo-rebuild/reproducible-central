@@ -58,6 +58,6 @@ ENV TZ=${BUILD_TIMEZONE}
 ENV MAVEN_OPTS -Duser.timezone=${BUILD_TIMEZONE}
 
 RUN ln -fs /usr/share/zoneinfo/${BUILD_TIMEZONE} /etc/localtime && \
-    dpkg-reconfigure -f noninteractive tzdata
-RUN cat /etc/timezone
-RUN ls -laF /etc/localtime
+    dpkg-reconfigure -f noninteractive tzdata && \
+    cat /etc/timezone && \
+    ls -laF /etc/localtime

@@ -48,6 +48,7 @@ runlog() {
 runcommand() {
   runlog "$*"
 #  echo -e "\033[2m$*\033[0m"
+  echo -e "\033[90m"
   bash -c "$*"
 }
 
