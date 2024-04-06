@@ -9,18 +9,18 @@ Source code: [https://github.com/inria/spoon.git](https://github.com/inria/spoon
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [fr.inria.gforge.spoon:spoon-core](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/10.4.2)
-* [fr.inria.gforge.spoon:spoon-javadoc](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-javadoc/10.4.2)
-* [fr.inria.gforge.spoon:spoon-pom](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-pom/10.4.2)
+* [fr.inria.gforge.spoon:spoon-core](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.0.0)
+* [fr.inria.gforge.spoon:spoon-javadoc](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-javadoc/11.0.0)
+* [fr.inria.gforge.spoon:spoon-pom](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-pom/11.0.0)
 </details>
 
-rebuilding **5 releases** of fr.inria.gforge.spoon:spoon-core:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **6 releases** of fr.inria.gforge.spoon:spoon-core:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [11.0.0](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.0.0/pom) | | | |
+| [11.0.0](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.0.0/pom) | [mvn jdk21](spoon-core-11.0.0.buildspec) | [result](spoon-pom-11.0.0.buildinfo): [8 :white_check_mark: ](spoon-pom-11.0.0.buildcompare) | 22M |
 | [10.4.3-beta-21](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/10.4.3-beta-21/pom) | | | |
 | [10.4.3-beta-20](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/10.4.3-beta-20/pom) | | | |
 | [10.4.3-beta-19](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/10.4.3-beta-19/pom) | | | |

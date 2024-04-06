@@ -7,20 +7,23 @@
 
 Source code: [https://github.com/io7m/quixote.git](https://github.com/io7m/quixote.git)
 
-<details><summary>This project defines 3 modules:</summary>
+<details><summary>This project defines 6 modules:</summary>
 
-* [com.io7m.quixote:com.io7m.quixote](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote/1.1.0)
-* [com.io7m.quixote:com.io7m.quixote.core](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote.core/1.1.0)
-* [com.io7m.quixote:com.io7m.quixote.tests](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote.tests/1.1.0)
+* [com.io7m.quixote:com.io7m.quixote](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote/1.2.0)
+* [com.io7m.quixote:com.io7m.quixote.core](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote.core/1.2.0)
+* [com.io7m.quixote:com.io7m.quixote.main](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote.main/1.2.0)
+* [com.io7m.quixote:com.io7m.quixote.oci](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote.oci/1.2.0)
+* [com.io7m.quixote:com.io7m.quixote.tests](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote.tests/1.2.0)
+* [com.io7m.quixote:com.io7m.quixote.xml](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote.xml/1.2.0)
 </details>
 
-rebuilding **4 releases** of com.io7m.quixote:com.io7m.quixote:
+rebuilding **5 releases** of com.io7m.quixote:com.io7m.quixote:
 - **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.2.0](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote/1.2.0/pom) | | | |
+| [1.2.0](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote/1.2.0/pom) | [mvn jdk21](com.io7m.quixote-1.2.0.buildspec) | [result](com.io7m.quixote-1.2.0.buildinfo): [26 :white_check_mark:  2 :warning:](com.io7m.quixote-1.2.0.buildcompare) [:mag:](com.io7m.quixote-1.2.0.diffoscope) | 2.1M |
 | [1.1.0](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote/1.1.0/pom) | [mvn jdk21](com.io7m.quixote-1.1.0.buildspec) | [result](com.io7m.quixote-1.1.0.buildinfo): [12 :white_check_mark: ](com.io7m.quixote-1.1.0.buildcompare) | 452K |
 | [1.0.0](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote/1.0.0/pom) | [mvn jdk17.0.7](com.io7m.quixote-1.0.0.buildspec) | [result](com.io7m.quixote-1.0.0.buildinfo): [9 :white_check_mark: ](com.io7m.quixote-1.0.0.buildcompare) | 98K |
 | [0.0.2](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote/0.0.2/pom) | [mvn jdk17.0.7](com.io7m.quixote-0.0.2.buildspec) | [result](com.io7m.quixote-0.0.2.buildinfo): [9 :white_check_mark: ](com.io7m.quixote-0.0.2.buildcompare) | 98K |
