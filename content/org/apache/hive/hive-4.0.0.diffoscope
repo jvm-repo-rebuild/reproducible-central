@@ -1,0 +1,313 @@
+# fiels are missing in the rebuild source-release archive: is the command for rebuild complete?
+1 / 18 target/reference/org.apache.hive/hive-4.0.0-source-release.zip target/hive-4.0.0-source-release.zip
+--- target/reference/org.apache.hive/hive-4.0.0-source-release.zip
++++ target/hive-4.0.0-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 251855806 bytes, number of entries: 23952
+│ +Zip file size: 78756391 bytes, number of entries: 23913
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 hive-4.0.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 hive-4.0.0/.github/
+│ @@ -79,19 +79,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 hive-4.0.0/common/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 hive-4.0.0/common/src/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 hive-4.0.0/common/src/gen/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 hive-4.0.0/common/src/gen/org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 hive-4.0.0/common/src/gen/org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 hive-4.0.0/common/src/gen/org/apache/hive/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 hive-4.0.0/common/src/gen/org/apache/hive/common/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 hive-4.0.0/common/src/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 hive-4.0.0/common/src/java/org/
+│ @@ -540,15 +535,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 hive-4.0.0/hcatalog/src/test/e2e/templeton/resource/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 hive-4.0.0/hcatalog/src/test/e2e/templeton/tests/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 hive-4.0.0/hcatalog/streaming/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 hive-4.0.0/hcatalog/webhcat/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 hive-4.0.0/hcatalog/webhcat/java-client/
+...
+│  -rw-r--r--  2.0 unx    39665 b- defN 20-Jan-22 15:10 hive-4.0.0/accumulo-handler/src/test/results/positive/accumulo_queries.q.out
+│  -rw-r--r--  2.0 unx    11084 b- defN 20-Jan-22 15:10 hive-4.0.0/accumulo-handler/src/test/results/positive/accumulo_single_sourced_multi_insert.q.out
+│ --rw-r--r--  2.0 unx    11463 b- defN 20-Jan-22 15:10 hive-4.0.0/beeline/dependency-reduced-pom.xml
+│  -rw-r--r--  2.0 unx     9395 b- defN 20-Jan-22 15:10 hive-4.0.0/beeline/pom.xml
+│  -rw-r--r--  2.0 unx     2923 b- defN 20-Jan-22 15:10 hive-4.0.0/beeline/src/java/org/apache/hive/beeline/AbstractCommandHandler.java
+│ @@ -2654,15 +2624,14 @@
+│  -rw-r--r--  2.0 unx     6626 b- defN 20-Jan-22 15:10 hive-4.0.0/cli/src/test/org/apache/hadoop/hive/cli/TestRCFileCat.java
+│  -rw-r--r--  2.0 unx    14147 b- defN 20-Jan-22 15:10 hive-4.0.0/common/pom.xml
+│ --rw-r--r--  2.0 unx      463 b- defN 20-Jan-22 15:10 hive-4.0.0/common/src/gen/org/apache/hive/common/package-info.java
+│  -rw-r--r--  2.0 unx     6527 b- defN 20-Jan-22 15:10 hive-4.0.0/common/src/java/org/apache/hadoop/hive/ant/GenHiveTemplate.java
+│  -rw-r--r--  2.0 unx     2581 b- defN 20-Jan-22 15:10 hive-4.0.0/common/src/java/org/apache/hadoop/hive/common/BlobStorageUtils.java
+...
+│  -rw-r--r--  2.0 unx    18996 b- defN 20-Jan-22 15:10 hive-4.0.0/vector-code-gen/src/org/apache/hadoop/hive/tools/GenVectorTestCode.java
+│  -rw-r--r--  2.0 unx      444 b- defN 20-Jan-22 15:10 hive-4.0.0/DEPENDENCIES
+│ -23952 files, 456462041 bytes uncompressed, 246170488 bytes compressed:  46.1%
+│ +23913 files, 282942369 bytes uncompressed, 73078359 bytes compressed:  74.2%
+
+# same problem nature as previous, but much less content is listed missing: strange
+2 / 18 target/reference/org.apache.hive/hive-standalone-metastore-4.0.0-src.tar.gz standalone-metastore/target/apache-hive-standalone-metastore-4.0.0-src.tar.gz
+--- target/reference/org.apache.hive/hive-standalone-metastore-4.0.0-src.tar.gz
++++ standalone-metastore/target/apache-hive-standalone-metastore-4.0.0-src.tar.gz
+│   --- hive-standalone-metastore-4.0.0-src.tar
+├── +++ apache-hive-standalone-metastore-4.0.0-src.tar
+│ ├── file list
+│ │ @@ -18,21 +18,14 @@
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2020-01-22 15:10:15.000000 apache-hive-standalone-metastore-4.0.0-src/metastore-common/src/gen/thrift/gen-py/hive_metastore/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2020-01-22 15:10:15.000000 apache-hive-standalone-metastore-4.0.0-src/metastore-common/src/gen/thrift/gen-rb/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2020-01-22 15:10:15.000000 apache-hive-standalone-metastore-4.0.0-src/metastore-common/src/gen/version/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2020-01-22 15:10:15.000000 apache-hive-standalone-metastore-4.0.0-src/metastore-common/src/gen/version/org/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2020-01-22 15:10:15.000000 apache-hive-standalone-metastore-4.0.0-src/metastore-common/src/gen/version/org/apache/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2020-01-22 15:10:15.000000 apache-hive-standalone-metastore-4.0.0-src/metastore-common/src/gen/version/org/apache/hadoop/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2020-01-22 15:10:15.000000 apache-hive-standalone-metastore-4.0.0-src/metastore-common/src/gen/version/org/apache/hadoop/hive/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2020-01-22 15:10:15.000000 apache-hive-standalone-metastore-4.0.0-src/metastore-common/src/gen/version/org/apache/hadoop/hive/metastore/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2020-01-22 15:10:15.000000 apache-hive-standalone-metastore-4.0.0-src/metastore-common/src/gen/version/org/apache/hadoop/hive/metastore/annotation/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2020-01-22 15:10:15.000000 apache-hive-standalone-metastore-4.0.0-src/metastore-common/src/main/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2020-01-22 15:10:15.000000 apache-hive-standalone-metastore-4.0.0-src/metastore-common/src/main/java/
+│ │ @@ -1502,15 +1495,14 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)   285294 2020-01-22 15:10:15.000000 apache-hive-standalone-metastore-4.0.0-src/metastore-common/src/gen/thrift/gen-rb/hive_metastore_types.rb
+│ │  -rw-r--r--   0 root         (0) root         (0)   550645 2020-01-22 15:10:15.000000 apache-hive-standalone-metastore-4.0.0-src/metastore-common/src/gen/thrift/gen-rb/thrift_hive_metastore.rb
+│ │ --rw-r--r--   0 root         (0) root         (0)      510 2020-01-22 15:10:15.000000 apache-hive-standalone-metastore-4.0.0-src/metastore-common/src/gen/version/org/apache/hadoop/hive/metastore/annotation/package-info.java
+│ │  -rw-r--r--   0 root         (0) root         (0)     3897 2020-01-22 15:10:15.000000 apache-hive-standalone-metastore-4.0.0-src/metastore-common/src/main/java/org/apache/hadoop/hive/common/SSLZookeeperFactory.java
+│ │  -rw-r--r--   0 root         (0) root         (0)    15017 2020-01-22 15:10:15.000000 apache-hive-standalone-metastore-4.0.0-src/metastore-common/src/main/java/org/apache/hadoop/hive/common/StatsSetupConst.java
+
+# info extracted from Git is not reproducible
+3 / 18 target/reference/org.apache.hive/hive-standalone-metastore-common-4.0.0.jar standalone-metastore/metastore-common/target/hive-standalone-metastore-common-4.0.0.jar
+4 / 18 target/reference/org.apache.hive/hive-standalone-metastore-common-4.0.0-sources.jar standalone-metastore/metastore-common/target/hive-standalone-metastore-common-4.0.0-sources.jar
+--- target/reference/org.apache.hive/hive-standalone-metastore-common-4.0.0-sources.jar
++++ standalone-metastore/metastore-common/target/hive-standalone-metastore-common-4.0.0-sources.jar
+├── org/apache/hadoop/hive/metastore/annotation/package-info.java
+│ @@ -1,8 +1,8 @@
+│  /*
+│   * Generated by saveVersion.sh
+│   */
+│  @MetastoreVersionAnnotation(version="4.0.0", shortVersion="4.0.0",
+│ -                         revision="183f8cb41d3dbed961ffd27999876468ff06690c", branch="branch-4.0",
+│ -                         user="denyskuzmenko", date="Mon Mar 25 21:23:34 CET 2024", url="git://MacBook-Pro.local/Users/denyskuzmenko/projects/hive/fork/hive/standalone-metastore",
+│ -                         srcChecksum="1d899979d8f64d541b8b453a79bb599b")
+│ +                         revision="183f8cb41d3dbed961ffd27999876468ff06690c", branch="(HEAD detached at rel/release-4.0.0)",
+│ +                         user="herve", date="Sun Apr 7 07:28:49 AM UTC 2024", url="git://2169bd047ecf/var/maven/app/standalone-metastore",
+│ +                         srcChecksum="3bf7f7f8bce4fc9311f23cf0e50e1bf4")
+│  package org.apache.hadoop.hive.metastore.annotation;
+
+# same as previous
+5 / 18 target/reference/org.apache.hive/hive-common-4.0.0.jar common/target/hive-common-4.0.0.jar
+6 / 18 target/reference/org.apache.hive/hive-common-4.0.0-sources.jar common/target/hive-common-4.0.0-sources.jar
+
+# ANTLR 3 outputs non-reproducible sources: https://github.com/antlr/antlr3/pull/213 https://github.com/antlr/antlr3/pull/209
+7 / 18 target/reference/org.apache.hive/hive-parser-4.0.0.jar parser/target/hive-parser-4.0.0.jar
+8 / 18 target/reference/org.apache.hive/hive-parser-4.0.0-sources.jar parser/target/hive-parser-4.0.0-sources.jar
+--- target/reference/org.apache.hive/hive-parser-4.0.0-sources.jar
++++ parser/target/hive-parser-4.0.0-sources.jar
+├── org/apache/hadoop/hive/ql/parse/HintParser.java
+│ @@ -1,8 +1,8 @@
+│ -// $ANTLR 3.5.2 org/apache/hadoop/hive/ql/parse/HintParser.g 2024-03-25 12:44:51
+│ +// $ANTLR 3.5.2 org/apache/hadoop/hive/ql/parse/HintParser.g 2024-04-07 07:29:16
+│  
+│  package org.apache.hadoop.hive.ql.parse;
+│  
+│  import org.apache.hadoop.conf.Configuration;
+│  import org.apache.hadoop.hive.conf.HiveConf;
+...
+├── org/apache/hadoop/hive/ql/parse/HiveParser.java
+│ @@ -1,8 +1,8 @@
+│ -// $ANTLR 3.5.2 org/apache/hadoop/hive/ql/parse/HiveParser.g 2024-03-25 16:12:01
+│ +// $ANTLR 3.5.2 org/apache/hadoop/hive/ql/parse/HiveParser.g 2024-04-07 07:29:14
+│  
+│  package org.apache.hadoop.hive.ql.parse;
+│  
+│ @@ -1758,15 +1758,15 @@
+│  					if ( state.backtracking==0 ) stream_execStatement.add(execStatement7.getTree());
+│  					// AST REWRITE
+│ -					// elements: explainOption, execStatement
+│ +					// elements: execStatement, explainOption
+│  					// token labels: 
+│  					// rule labels: retval
+│ @@ -3110,15 +3110,15 @@
+│  
+│  			// AST REWRITE
+│ -			// elements: islocal, tab, path, inputFileFormat, isoverwrite
+│ +			// elements: islocal, isoverwrite, inputFileFormat, path, tab
+│  			// token labels: islocal, path, isoverwrite
+│  			// rule labels: tab, retval
+...
+│  
+│  	// Delegated rules
+│ -	public HiveParser_AlterClauseParser.refRetain_return refRetain() throws RecognitionException { return gAlterClauseParser.refRetain(); }
+│ +	public HiveParser_AlterClauseParser.alterStatementSuffixExecute_return alterStatementSuffixExecute() throws RecognitionException { return gAlterClauseParser.alterStatementSuffixExecute(); }
+│  
+│ -	public HiveParser_AlterClauseParser.alterDataConnectorSuffixSetOwner_return alterDataConnectorSuffixSetOwner() throws RecognitionException { return gAlterClauseParser.alterDataConnectorSuffixSetOwner(); }
+│ +	public HiveParser_IdentifiersParser.precedenceNotExpression_return precedenceNotExpression() throws RecognitionException { return gIdentifiersParser.precedenceNotExpression(); }
+│  
+│ -	public HiveParser_SelectClauseParser.selectClause_return selectClause() throws RecognitionException { return gSelectClauseParser.selectClause(); }
+│ +	public HiveParser_CreateDDLParser.dataConnectorType_return dataConnectorType() throws RecognitionException { return gCreateDDLParser.dataConnectorType(); }
+│  
+...
+
+# same as #3
+9 / 18 target/reference/org.apache.hive/hive-standalone-metastore-server-4.0.0-bin.tar.gz standalone-metastore/metastore-server/target/apache-hive-standalone-metastore-server-4.0.0-bin.tar.gz
+
+# in addition to previously seen issues, maven-shade-plugin issue with DST (probably)
+10 / 18 target/reference/org.apache.hive/hive-exec-4.0.0.jar ql/target/hive-exec-4.0.0.jar
+--- target/reference/org.apache.hive/hive-exec-4.0.0.jar
++++ ql/target/hive-exec-4.0.0.jar
+├── zipinfo {}
+...
+│  -rw----     2.0 fat     2367 bl defN 20-Jan-22 15:10 org/apache/hive/common/HiveCompat.class
+│  -rw----     2.0 fat      893 bl defN 20-Jan-22 15:10 org/apache/hive/common/HiveVersionAnnotation.class
+│ --rw----     2.0 fat      552 bl defN 20-Jan-22 15:10 org/apache/hive/common/package-info.class
+│ +-rw----     2.0 fat      537 bl defN 20-Jan-22 15:10 org/apache/hive/common/package-info.class
+│  -rw----     2.0 fat        0 bl defN 20-Jan-22 15:10 org/apache/hive/common/util/
+│  -rw----     2.0 fat     4897 bl defN 20-Jan-22 15:10 org/apache/hive/common/util/ACLConfigurationParser.class
+...
+│  -rw----     2.0 fat    28558 bl defN 20-Sep-15 01:02 jodd/net/HtmlDecoder.properties
+│  -rw----     2.0 fat    18385 bl defN 20-Sep-15 01:02 jodd/net/MimeTypes.properties
+│ --rw----     2.0 fat        0 bl defN 23-Dec-24 13:01 org/apache/hive/com/fasterxml/
+│ --rw----     2.0 fat        0 bl defN 23-Dec-24 13:01 org/apache/hive/com/fasterxml/jackson/
+...
+│ --rw----     2.0 fat     2585 bl defN 23-Dec-24 13:01 org/apache/hive/com/fasterxml/jackson/annotation/SimpleObjectIdResolver.class
+│ --rw----     2.0 fat      154 bl defN 23-Dec-24 13:01 org/apache/hive/com/fasterxml/jackson/annotation/package-info.class
+│ +-rw----     2.0 fat        0 bl defN 23-Dec-24 12:01 org/apache/hive/com/fasterxml/
+│ +-rw----     2.0 fat        0 bl defN 23-Dec-24 12:01 org/apache/hive/com/fasterxml/jackson/
+...
+│ +-rw----     2.0 fat     2585 bl defN 23-Dec-24 12:01 org/apache/hive/com/fasterxml/jackson/annotation/SimpleObjectIdResolver.class
+│ +-rw----     2.0 fat      154 bl defN 23-Dec-24 12:01 org/apache/hive/com/fasterxml/jackson/annotation/package-info.class
+│  -rw----     2.0 fat    11358 bl defN 23-Dec-24 04:11 META-INF/FastDoubleParser-LICENSE
+│  -rw----     2.0 fat        0 bl defN 23-Dec-24 04:11 org/apache/hive/com/fasterxml/jackson/core/
+...
+
+11 / 18 target/reference/org.apache.hive/hive-service-4.0.0.jar service/target/hive-service-4.0.0.jar
+--- target/reference/org.apache.hive/hive-service-4.0.0.jar
++++ service/target/hive-service-4.0.0.jar
+├── hive-webapps/hiveserver2/WEB-INF/web.xml
+│ ├── hive-webapps/hiveserver2/WEB-INF/web.xml
+│ │ @@ -1,22 +1,22 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee                  http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1" metadata-complete="false">
+│ │    <!--
+│ │  Automatically created by Apache Tomcat JspC.
+│ │  -->
+│ │    <servlet>
+│ │ -    <servlet-name>org.apache.hive.generated.hiveserver2.hiveserver2_jsp</servlet-name>
+│ │ -    <servlet-class>org.apache.hive.generated.hiveserver2.hiveserver2_jsp</servlet-class>
+│ │ -  </servlet>
+│ │ -  <servlet>
+│ │      <servlet-name>org.apache.hive.generated.hiveserver2.logconf_jsp</servlet-name>
+│ │      <servlet-class>org.apache.hive.generated.hiveserver2.logconf_jsp</servlet-class>
+│ │    </servlet>
+│ │ -  <servlet-mapping>
+│ │ +  <servlet>
+│ │      <servlet-name>org.apache.hive.generated.hiveserver2.hiveserver2_jsp</servlet-name>
+│ │ -    <url-pattern>/hiveserver2.jsp</url-pattern>
+│ │ -  </servlet-mapping>
+│ │ +    <servlet-class>org.apache.hive.generated.hiveserver2.hiveserver2_jsp</servlet-class>
+│ │ +  </servlet>
+│ │    <servlet-mapping>
+│ │      <servlet-name>org.apache.hive.generated.hiveserver2.logconf_jsp</servlet-name>
+│ │      <url-pattern>/logconf.jsp</url-pattern>
+│ │    </servlet-mapping>
+│ │ +  <servlet-mapping>
+│ │ +    <servlet-name>org.apache.hive.generated.hiveserver2.hiveserver2_jsp</servlet-name>
+│ │ +    <url-pattern>/hiveserver2.jsp</url-pattern>
+│ │ +  </servlet-mapping>
+│ │  </web-app>
+
+12 / 18 target/reference/org.apache.hive/hive-service-4.0.0-sources.jar service/target/hive-service-4.0.0-sources.jar
+--- target/reference/org.apache.hive/hive-service-4.0.0-sources.jar
++++ service/target/hive-service-4.0.0-sources.jar
+├── org/apache/hive/generated/hiveserver2/hiveserver2_jsp.java
+│ @@ -1,11 +1,11 @@
+│  /*
+│   * Generated by the Jasper component of Apache Tomcat
+│   * Version: JspC/ApacheTomcat8
+│ - * Generated at: 2024-03-25 11:47:45 UTC
+│ + * Generated at: 2024-04-07 07:30:40 UTC
+│   * Note: The last modified time of this file was set to
+│   *       the last modified time of the source file after
+│   *       generation to assist with modification tracking.
+│   */
+│  package org.apache.hive.generated.hiveserver2;
+│  
+│  import javax.servlet.*;
+...
+├── org/apache/hive/tmpl/QueryProfileTmpl.java
+│ @@ -1,9 +1,9 @@
+│  // Autogenerated Jamon proxy
+│ -// /Users/denyskuzmenko/projects/hive/fork/hive/service/src/jamon/org/apache/hive/tmpl/QueryProfileTmpl.jamon
+│ +// /var/maven/app/service/src/jamon/org/apache/hive/tmpl/QueryProfileTmpl.jamon
+│  
+│  package org.apache.hive.tmpl;
+│  
+│  // 24, 1
+│  import java.util.*;
+│  // 25, 1
+│  import org.apache.hadoop.hive.ql.QueryDisplay;
+...
+
+13 / 18 target/reference/org.apache.hive/hive-jdbc-4.0.0.pom jdbc/dependency-reduced-pom.xml
+--- target/reference/org.apache.hive/hive-jdbc-4.0.0.pom
++++ jdbc/dependency-reduced-pom.xml
+│   --- target/reference/org.apache.hive/hive-jdbc-4.0.0.pom
+├── +++ jdbc/dependency-reduced-pom.xml
+│ @@ -26,25 +26,24 @@
+│      </profile>
+│      <profile>
+│        <id>dev-fast-build</id>
+│        <build>
+│          <plugins>
+│            <plugin>
+│              <artifactId>maven-shade-plugin</artifactId>
+│ -            <version>3.5.0</version>
+│              <executions>
+│                <execution>
+│                  <phase>package</phase>
+│                  <goals>
+│                    <goal>shade</goal>
+│                  </goals>
+│                  <configuration>
+│ -                  <minimizeJar>false</minimizeJar>
+│ +                  <minimizeJar>${packaging.minimizeJar}</minimizeJar>
+│                    <shadedArtifactAttached>true</shadedArtifactAttached>
+│ -                  <shadedClassifierName>standalone</shadedClassifierName>
+│ +                  <shadedClassifierName>${hive.jdbc.driver.classifier}</shadedClassifierName>
+│                    <filters>
+│                      <filter>
+│                        <artifact>org.apache.hive.shims:hive-shims-common</artifact>
+│                        <includes>
+│                          <include>**</include>
+│                        </includes>
+│                      </filter>
+
+# same issues as previous
+14 / 18 target/reference/org.apache.hive/hive-jdbc-4.0.0-standalone.jar jdbc/target/hive-jdbc-4.0.0-standalone.jar
+...
+
+15 / 18 target/reference/org.apache.hive/hive-druid-handler-4.0.0.jar druid-handler/target/hive-druid-handler-4.0.0.jar
+...
+
+16 / 18 target/reference/org.apache.hive.hcatalog/hive-webhcat-4.0.0.jar hcatalog/webhcat/svr/target/hive-webhcat-4.0.0.jar
+--- target/reference/org.apache.hive.hcatalog/hive-webhcat-4.0.0.jar
++++ hcatalog/webhcat/svr/target/hive-webhcat-4.0.0.jar
+...
+│  -rw-r--r--  2.0 unx      972 b- defN 20-Jan-22 15:10 org/apache/hive/hcatalog/templeton/tool/ZooKeeperStorage$1.class
+│  -rw-r--r--  2.0 unx    12524 b- defN 20-Jan-22 15:10 org/apache/hive/hcatalog/templeton/tool/ZooKeeperStorage.class
+│ --rw-r--r--  2.0 unx    76678 b- defN 20-Jan-22 15:10 resourcedoc.xml
+│  -rw-r--r--  2.0 unx    13847 b- defN 20-Jan-22 15:10 webhcat-default.xml
+│  -rw-r--r--  2.0 unx     2708 b- defN 20-Jan-22 15:10 webhcat-log4j2.properties
+│  -rw-r--r--  2.0 unx     9877 b- defN 20-Jan-22 15:10 META-INF/maven/org.apache.hive.hcatalog/hive-webhcat/pom.xml
+│  -rw-r--r--  2.0 unx       71 b- defN 20-Jan-22 15:10 META-INF/maven/org.apache.hive.hcatalog/hive-webhcat/pom.properties
+│ -129 files, 612124 bytes uncompressed, 216436 bytes compressed:  64.6%
+│ +128 files, 535446 bytes uncompressed, 205818 bytes compressed:  61.6%
+
+...
+
+18 / 18 target/reference/org.apache.hive/hive-metastore-benchmarks-4.0.0.jar standalone-metastore/metastore-tools/metastore-benchmarks/target/hive-metastore-benchmarks-4.0.0.jar
+--- target/reference/org.apache.hive/hive-metastore-benchmarks-4.0.0.jar
++++ standalone-metastore/metastore-tools/metastore-benchmarks/target/hive-metastore-benchmarks-4.0.0.jar
+├── META-INF/BenchmarkList
+│┄ Ordering differences only
+│ @@ -1,4 +1,4 @@
+│ -JMH S 79 org.apache.hadoop.hive.metastore.tools.ACIDBenchmarks.TestAllocateTableWriteIds S 119 org.apache.hadoop.hive.metastore.tools.generated.ACIDBenchmarks_TestAllocateTableWriteIds_allocateTableWriteIds_jmhTest S 21 allocateTableWriteIds S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E M 1 7 howMany 1 1 1 E E E 
+│ -JMH S 65 org.apache.hadoop.hive.metastore.tools.ACIDBenchmarks.TestOpenTxn S 91 org.apache.hadoop.hive.metastore.tools.generated.ACIDBenchmarks_TestOpenTxn_openTxn_jmhTest S 7 openTxn S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E M 1 7 howMany 1 1 1 E E E 
+│  JMH S 74 org.apache.hadoop.hive.metastore.tools.ACIDBenchmarks.TestGetValidWriteIds S 109 org.apache.hadoop.hive.metastore.tools.generated.ACIDBenchmarks_TestGetValidWriteIds_getValidWriteIds_jmhTest S 16 getValidWriteIds S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E M 1 7 howMany 1 1 1 E E E 
+│ +JMH S 65 org.apache.hadoop.hive.metastore.tools.ACIDBenchmarks.TestOpenTxn S 91 org.apache.hadoop.hive.metastore.tools.generated.ACIDBenchmarks_TestOpenTxn_openTxn_jmhTest S 7 openTxn S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E M 1 7 howMany 1 1 1 E E E 
+│ +JMH S 79 org.apache.hadoop.hive.metastore.tools.ACIDBenchmarks.TestAllocateTableWriteIds S 119 org.apache.hadoop.hive.metastore.tools.generated.ACIDBenchmarks_TestAllocateTableWriteIds_allocateTableWriteIds_jmhTest S 21 allocateTableWriteIds S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E M 1 7 howMany 1 1 1 E E E 
+│  JMH S 65 org.apache.hadoop.hive.metastore.tools.ACIDBenchmarks.TestLocking S 88 org.apache.hadoop.hive.metastore.tools.generated.ACIDBenchmarks_TestLocking_lock_jmhTest S 4 lock S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E M 2 7 howMany 1 1 1 11 nPartitions 1 1 0 E E E
+
