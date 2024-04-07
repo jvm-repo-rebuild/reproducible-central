@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=YUI Compressor Maven Mojo
+group-id=com.github.hazendaz.maven
+artifact-id=yuicompressor-maven-plugin
+version=2.0.1
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/yuicompressor-maven-plugin.git
+source.scm.tag=yuicompressor-maven-plugin-2.0.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.3.9
+
+# output
+
+outputs.0.groupId=com.github.hazendaz.maven
+outputs.0.filename=yuicompressor-maven-plugin-2.0.1.pom
+outputs.0.length=10823
+outputs.0.checksums.sha512=750fb8acd58c7cbe0ae47ff2163f0a9843d0dd7fc0a8a8f5eac31b50953f8247d92d0b99d9d03d251abb7f2c0ab3036be8f32a8fa1d3bcb957354c600937198c
+
+outputs.1.groupId=com.github.hazendaz.maven
+outputs.1.filename=yuicompressor-maven-plugin-2.0.1.jar
+outputs.1.length=59055
+outputs.1.checksums.sha512=30b58622485ba10f75999a09c9ba55b5f3d49510e2c69531459dab9b7f980883b14557e3cda21d55fa375ce8eef7af107ba09f9060e149f5be8a3231ad1a79d6
+
+outputs.2.groupId=com.github.hazendaz.maven
+outputs.2.filename=yuicompressor-maven-plugin-2.0.1-tests.jar
+outputs.2.length=7369
+outputs.2.checksums.sha512=d096bb941963ea79e00513a3b48cdd91a002d821ba00a1126570e3297207b6a448ad01b13b6d3516cbe62fdb06f15e639a5a57dfbef6fa91f660b008a6989859
+
+outputs.3.groupId=com.github.hazendaz.maven
+outputs.3.filename=yuicompressor-maven-plugin-2.0.1-sources.jar
+outputs.3.length=46116
+outputs.3.checksums.sha512=0d4b95c980f8ac3cda637aae7fd3c3f93c818ad39a46713c34575b52605fd2e86bbd60655480fce89c48a82a972d317aac7af1c528e933d84c2e6b4e8e820412
+
+outputs.4.groupId=com.github.hazendaz.maven
+outputs.4.filename=yuicompressor-maven-plugin-2.0.1-test-sources.jar
+outputs.4.length=6363
+outputs.4.checksums.sha512=47bea84dbb8a0b66860e895614d300297b269cef95d235287c59585b0f1a90f1d2708ce45175e2193026c5ba1cda03b2590f4a1870e1683a8ffc8d87f7a84aeb
+
+outputs.5.groupId=com.github.hazendaz.maven
+outputs.5.filename=yuicompressor-maven-plugin-2.0.1-cyclonedx.xml
+outputs.5.length=111752
+outputs.5.checksums.sha512=1204026ec432b4f4fe80e457d6101812256d5ce3259fd3027b5da5241341d6c13b7193f341b516039963a338bfd576163422b9f7a6bced01ff00669ba5961fb4
+
+outputs.6.groupId=com.github.hazendaz.maven
+outputs.6.filename=yuicompressor-maven-plugin-2.0.1-cyclonedx.json
+outputs.6.length=131840
+outputs.6.checksums.sha512=e0982020c59149f63605a4f3c05518ac5018362f757a7f85ad0442254539d59f9100efd6e54916c18060152efcb64a9dc2d895f96b127871fa5b408cac43bf7d
