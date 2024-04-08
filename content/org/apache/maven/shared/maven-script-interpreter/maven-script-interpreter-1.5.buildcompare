@@ -1,0 +1,9 @@
+version=1.5
+ok=6
+ko=0
+ignored=0
+okFiles="maven-script-interpreter-1.5.pom maven-script-interpreter-1.5.jar maven-script-interpreter-1.5-source-release.zip maven-script-interpreter-1.5-sources.jar maven-script-interpreter-1.5-cyclonedx.xml maven-script-interpreter-1.5-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
