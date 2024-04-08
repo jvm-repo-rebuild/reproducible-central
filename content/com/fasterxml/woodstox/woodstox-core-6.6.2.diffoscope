@@ -1,0 +1,25 @@
+1 / 1 target/reference/com.fasterxml.woodstox/woodstox-core-6.6.2.jar target/woodstox-core-6.6.2.jar
+--- target/reference/com.fasterxml.woodstox/woodstox-core-6.6.2.jar
++++ target/woodstox-core-6.6.2.jar
+├── zipinfo {}
+│ @@ -231,866 +231,866 @@
+│  -rw----     2.0 fat     2149 bX defN 80-Feb-01 08:00 com/ctc/wstx/util/TextBuilder.class
+│  -rw----     2.0 fat     4718 bX defN 80-Feb-01 08:00 com/ctc/wstx/util/URLUtil.class
+│  -rw----     2.0 fat     2744 bX defN 80-Feb-01 08:00 com/ctc/wstx/util/WordResolver$Builder.class
+│  -rw----     2.0 fat     3989 bX defN 80-Feb-01 08:00 com/ctc/wstx/util/WordResolver.class
+│  -rw----     2.0 fat     2869 bX defN 80-Feb-01 08:00 com/ctc/wstx/util/WordSet$Builder.class
+│  -rw----     2.0 fat     3145 bX defN 80-Feb-01 08:00 com/ctc/wstx/util/WordSet.class
+│  -rw----     2.0 fat     7321 bX defN 80-Feb-01 08:00 com/ctc/wstx/util/XmlChars.class
+│ --rw----     2.0 fat        0 bX defN 22-Jul-27 19:16 com/ctc/wstx/shaded/
+│ --rw----     2.0 fat        0 bX defN 22-Jul-27 19:16 com/ctc/wstx/shaded/msv_core/
+...
+│ --rw----     2.0 fat       36 bX defN 22-Jul-27 19:15 META-INF/services/javax.xml.stream.XMLOutputFactory
+│ --rw----     2.0 fat       34 bX defN 22-Jul-27 19:15 META-INF/services/org.codehaus.stax2.validation.XMLValidationSchemaFactory.w3c
+│ +-rw----     2.0 fat        0 bX defN 22-Jul-27 20:16 com/ctc/wstx/shaded/
+│ +-rw----     2.0 fat        0 bX defN 22-Jul-27 20:16 com/ctc/wstx/shaded/msv_core/
+...
+│ +-rw----     2.0 fat       36 bX defN 22-Jul-27 20:15 META-INF/services/javax.xml.stream.XMLOutputFactory
+│ +-rw----     2.0 fat       34 bX defN 22-Jul-27 20:15 META-INF/services/org.codehaus.stax2.validation.XMLValidationSchemaFactory.w3c
+│  -rw----     2.0 fat     1155 bx defN 24-Feb-19 21:48 module-info.class
+│  1094 files, 3276249 bytes uncompressed, 1380352 bytes compressed:  57.9%
+

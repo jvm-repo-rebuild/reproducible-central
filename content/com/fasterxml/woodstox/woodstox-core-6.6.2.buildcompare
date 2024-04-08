@@ -1,0 +1,8 @@
+version=6.6.2
+ok=2
+ko=1
+ignored=0
+okFiles="woodstox-core-6.6.2.pom woodstox-core-6.6.2-sources.jar"
+koFiles="woodstox-core-6.6.2.jar"
+ignoredFiles=""
+# diffoscope target/reference/com.fasterxml.woodstox/woodstox-core-6.6.2.jar target/woodstox-core-6.6.2.jar
