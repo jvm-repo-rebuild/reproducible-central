@@ -272,6 +272,7 @@ rebuilding **7 releases** of org.apache.karaf:karaf:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.4.6](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.6/pom) | | | |
 | [4.4.5](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.5/pom) | [mvn jdk11](karaf-4.4.5.buildspec) | [result](karaf-4.4.5.buildinfo): [596 :white_check_mark:  16 :warning:](karaf-4.4.5.buildcompare) [:mag:](karaf-4.4.5.diffoscope) [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) | 289M |
 | [4.4.4](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.4/pom) | [mvn jdk11](karaf-4.4.4.buildspec) | [result](karaf-4.4.4.buildinfo): [585 :white_check_mark:  23 :warning:](karaf-4.4.4.buildcompare) [:mag:](karaf-4.4.4.diffoscope) [:memo:](https://issues.apache.org/jira/browse/KARAF-7751) | 288M |
 | [4.4.3](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.3/pom) | [mvn jdk11](karaf-4.4.3.buildspec) | [result](karaf-4.4.3.buildinfo): [511 :white_check_mark:  94 :warning:](karaf-4.4.3.buildcompare) [:mag:](karaf-4.4.3.diffoscope) [:memo:](https://github.com/apache/karaf/pull/1710) | 271M |
