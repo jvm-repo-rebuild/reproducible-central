@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Tenant
+group-id=org.apache.sling
+artifact-id=org.apache.sling.tenant
+version=1.1.8
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-tenant.git
+source.scm.tag=org.apache.sling.tenant-1.1.8
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.tenant-1.1.8.pom
+outputs.0.length=5489
+outputs.0.checksums.sha512=b2d77f8e0ac9dd93cd33cc4e22d8f2e06fa18519ef0f07450cfbadb0b6cc1860bd4f98073d0c4248662ef620d1346364567569095639868b45b74010c2ec0bae
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.tenant-1.1.8.jar
+outputs.1.length=40426
+outputs.1.checksums.sha512=60959776c58a5876e87a93c8dd9cb9e8de845467c3c703fa50f93b7484c85a71123945b690abab8f76c969bb24258fd87b1e1e1c2f24e709f611f2c46e7e1f8c
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.tenant-1.1.8-source-release.zip
+outputs.2.length=35297
+outputs.2.checksums.sha512=be8b8443517abe0de87cda265ea5a21369e1f5c9c3a5318ee21c0dd8f7e87be9beab4063899d4225294f4025169b56eefc4a025993d201c39a0e3bd83d200cce
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.tenant-1.1.8-sources.jar
+outputs.3.length=26783
+outputs.3.checksums.sha512=6b1d8e1c63d061dd6975f88ba95f07ae64729d52794b165958935e549244ec058bdc00607f7e1c3e733bfdf41b0cf343adb93503d207f33a12025a8e3347dd36
