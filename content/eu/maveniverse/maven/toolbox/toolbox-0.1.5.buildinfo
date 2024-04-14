@@ -56,4 +56,4 @@ outputs.2.1.checksums.sha512=ac9d766f4d0000817122c20c87b75adc47adf352016b1aefede
 outputs.2.2.groupId=eu.maveniverse.maven.plugins
 outputs.2.2.filename=toolbox-0.1.5-cli.jar
 outputs.2.2.length=5983038
-outputs.2.2.checksums.sha512=9e6851a375088ab2a6b89fa612d32cc624f48c38c0bc26e0e75ad58231751810efbcbc8a71b8c2db3f22c5c9b48f9c681ebff9abfec7c381f9909716c76c58ff
+outputs.2.2.checksums.sha512=7d2ad242b2b23f7723987fea4a704746c4d288b4d5c70931f60ce73c627f601bdf70b69304ca4d30e2cba3688b0bd89e2349aba2144e9d22595cae882ef33ba0

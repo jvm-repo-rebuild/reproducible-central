@@ -10,6 +10,8 @@ tool=mvn-3.9.6
 jdk=21
 newline=lf
 umask=022
+# https://issues.apache.org/jira/browse/MSHADE-471
+timezone="Europe/Paris"
 
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo

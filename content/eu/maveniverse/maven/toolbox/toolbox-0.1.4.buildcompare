@@ -1,10 +1,9 @@
 version=0.1.4
-ok=5
-ko=1
+ok=6
+ko=0
 ignored=0
-okFiles="toolbox-0.1.4.pom shared-0.1.4.pom shared-0.1.4.jar toolbox-0.1.4.pom toolbox-0.1.4.jar"
-koFiles="toolbox-0.1.4-cli.jar"
+okFiles="toolbox-0.1.4.pom shared-0.1.4.pom shared-0.1.4.jar toolbox-0.1.4.pom toolbox-0.1.4.jar toolbox-0.1.4-cli.jar"
+koFiles=""
 ignoredFiles=""
 reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
-# diffoscope target/reference/eu.maveniverse.maven.plugins/toolbox-0.1.4-cli.jar toolbox/target/toolbox-0.1.4-cli.jar
