@@ -52,6 +52,7 @@ rebuilding **9 releases** of org.apache.maven.scm:maven-scm:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.1.0](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.1.0/pom) | | | |
 | [2.0.1](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.1/pom) | [mvn jdk17](maven-scm-2.0.1.buildspec) | [result](maven-scm-2.0.1.buildinfo): [55 :white_check_mark: ](maven-scm-2.0.1.buildcompare) | 8.4M |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.0/pom) | [mvn jdk8 w](maven-scm-2.0.0.buildspec) | [result](maven-scm-2.0.0.buildinfo): [55 :white_check_mark: ](maven-scm-2.0.0.buildcompare) | 7.6M |
 | [2.0.0-M3](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.0-M3/pom) | [mvn jdk8 w](maven-scm-2.0.0-M3.buildspec) | [result](maven-scm-2.0.0-M3.buildinfo): [55 :white_check_mark: ](maven-scm-2.0.0-M3.buildcompare) | 7.6M |
