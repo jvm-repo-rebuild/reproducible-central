@@ -1,0 +1,16 @@
+1 / 1 target/reference/org.apache.maven.scm/maven-scm-client-2.1.0-jar-with-dependencies.jar maven-scm-client/target/maven-scm-client-2.1.0-jar-with-dependencies.jar
+--- target/reference/org.apache.maven.scm/maven-scm-client-2.1.0-jar-with-dependencies.jar
++++ maven-scm-client/target/maven-scm-client-2.1.0-jar-with-dependencies.jar
+├── zipinfo {}
+│ @@ -5111,9 +5111,9 @@
+│  -rw-r--r--  2.0 unx      118 b- defN 24-Apr-11 12:21 META-INF/maven/com.google.j2objc/j2objc-annotations/pom.properties
+│  -rw-r--r--  2.0 unx      495 b- defN 24-Apr-11 12:21 org/codehaus/mojo/animal_sniffer/IgnoreJRERequirement.class
+│  -rw-r--r--  2.0 unx     2572 b- defN 24-Apr-11 12:21 META-INF/maven/org.codehaus.mojo/animal-sniffer-annotations/pom.xml
+│  -rw-r--r--  2.0 unx      108 b- defN 24-Apr-11 12:21 META-INF/maven/org.codehaus.mojo/animal-sniffer-annotations/pom.properties
+│  -rw-r--r--  2.0 unx     9503 b- defN 24-Apr-11 12:21 org/apache/maven/scm/client/cli/MavenScmCli.class
+│  -rw-r--r--  2.0 unx     4051 b- defN 24-Apr-11 12:21 META-INF/maven/org.apache.maven.scm/maven-scm-client/pom.xml
+│  -rw-r--r--  2.0 unx       74 b- defN 24-Apr-11 12:21 META-INF/maven/org.apache.maven.scm/maven-scm-client/pom.properties
+│ --rw-r--r--  2.0 unx      611 b- defN 24-Apr-11 12:21 META-INF/plexus/components.xml
+│ +-rw-------  2.0 unx      611 b- defN 24-Apr-11 12:21 META-INF/plexus/components.xml
+│  5117 files, 13525506 bytes uncompressed, 5432796 bytes compressed:  59.8%
+
