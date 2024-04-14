@@ -1,0 +1,5 @@
+version=2.3.6
+ok=4
+ko=0
+okFiles="ServerLib-2.3.6-sources.jar ServerLib-2.3.6.jar ServerLib-2.3.6.module ServerLib-2.3.6.pom"
+koFiles=""
