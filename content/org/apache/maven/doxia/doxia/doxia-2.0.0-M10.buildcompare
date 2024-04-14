@@ -1,0 +1,10 @@
+version=2.0.0-M10
+ok=49
+ko=1
+ignored=0
+okFiles="doxia-2.0.0-M10.pom doxia-2.0.0-M10-site.xml doxia-2.0.0-M10-source-release.zip doxia-2.0.0-M10-cyclonedx.xml doxia-2.0.0-M10-cyclonedx.json doxia-sink-api-2.0.0-M10.pom doxia-sink-api-2.0.0-M10.jar doxia-sink-api-2.0.0-M10-sources.jar doxia-sink-api-2.0.0-M10-cyclonedx.xml doxia-sink-api-2.0.0-M10-cyclonedx.json doxia-test-docs-2.0.0-M10.pom doxia-test-docs-2.0.0-M10.jar doxia-test-docs-2.0.0-M10-sources.jar doxia-test-docs-2.0.0-M10-cyclonedx.xml doxia-test-docs-2.0.0-M10-cyclonedx.json doxia-core-2.0.0-M10.pom doxia-core-2.0.0-M10.jar doxia-core-2.0.0-M10-sources.jar doxia-core-2.0.0-M10-cyclonedx.xml doxia-core-2.0.0-M10-cyclonedx.json doxia-core-2.0.0-M10-tests.jar doxia-modules-2.0.0-M10.pom doxia-modules-2.0.0-M10-site.xml doxia-modules-2.0.0-M10-cyclonedx.xml doxia-modules-2.0.0-M10-cyclonedx.json doxia-module-apt-2.0.0-M10.pom doxia-module-apt-2.0.0-M10.jar doxia-module-apt-2.0.0-M10-sources.jar doxia-module-apt-2.0.0-M10-cyclonedx.xml doxia-module-apt-2.0.0-M10-cyclonedx.json doxia-module-fml-2.0.0-M10.pom doxia-module-fml-2.0.0-M10.jar doxia-module-fml-2.0.0-M10-sources.jar doxia-module-fml-2.0.0-M10-cyclonedx.xml doxia-module-fml-2.0.0-M10-cyclonedx.json doxia-module-xdoc-2.0.0-M10.pom doxia-module-xdoc-2.0.0-M10.jar doxia-module-xdoc-2.0.0-M10-sources.jar doxia-module-xdoc-2.0.0-M10-cyclonedx.xml doxia-module-xdoc-2.0.0-M10-cyclonedx.json doxia-module-xhtml5-2.0.0-M10.pom doxia-module-xhtml5-2.0.0-M10.jar doxia-module-xhtml5-2.0.0-M10-sources.jar doxia-module-xhtml5-2.0.0-M10-cyclonedx.xml doxia-module-xhtml5-2.0.0-M10-cyclonedx.json doxia-module-markdown-2.0.0-M10.pom doxia-module-markdown-2.0.0-M10.jar doxia-module-markdown-2.0.0-M10-cyclonedx.xml doxia-module-markdown-2.0.0-M10-cyclonedx.json"
+koFiles="doxia-module-markdown-2.0.0-M10-sources.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/org.apache.maven.doxia/doxia-module-markdown-2.0.0-M10-sources.jar doxia-modules/doxia-module-markdown/target/doxia-module-markdown-2.0.0-M10-sources.jar

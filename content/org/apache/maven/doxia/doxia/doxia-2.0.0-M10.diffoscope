@@ -1,0 +1,52 @@
+1 / 1 target/reference/org.apache.maven.doxia/doxia-module-markdown-2.0.0-M10-sources.jar doxia-modules/doxia-module-markdown/target/doxia-module-markdown-2.0.0-M10-sources.jar
+--- target/reference/org.apache.maven.doxia/doxia-module-markdown-2.0.0-M10-sources.jar
++++ doxia-modules/doxia-module-markdown/target/doxia-module-markdown-2.0.0-M10-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 29576 bytes, number of entries: 24
+│ +Zip file size: 29575 bytes, number of entries: 24
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-11 11:54 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Apr-11 11:54 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-11 11:54 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-11 11:54 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-11 11:54 org/apache/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-11 11:54 org/apache/maven/doxia/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-11 11:54 org/apache/maven/doxia/module/
+│ @@ -11,16 +11,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-11 11:54 META-INF/maven/org.apache.maven.doxia/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-11 11:54 META-INF/maven/org.apache.maven.doxia/doxia-module-markdown/
+│  -rw-r--r--  2.0 unx     7853 b- defN 24-Apr-11 11:54 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 24-Apr-11 11:54 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      179 b- defN 24-Apr-11 11:54 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     3805 b- defN 24-Apr-11 11:54 org/apache/maven/doxia/module/markdown/FlexmarkDoxiaLinkResolver.java
+│  -rw-r--r--  2.0 unx     3443 b- defN 24-Apr-11 11:54 org/apache/maven/doxia/module/markdown/LastTwoLinesBufferingWriter.java
+│ --rw-r--r--  2.0 unx     4699 b- defN 24-Apr-11 11:54 org/apache/maven/doxia/module/markdown/MarkdownMarkup.java
+│ +-rw-r--r--  2.0 unx     4696 b- defN 24-Apr-11 11:54 org/apache/maven/doxia/module/markdown/MarkdownMarkup.java
+│  -rw-r--r--  2.0 unx    15519 b- defN 24-Apr-11 11:54 org/apache/maven/doxia/module/markdown/MarkdownParser.java
+│  -rw-r--r--  2.0 unx     1676 b- defN 24-Apr-11 11:54 org/apache/maven/doxia/module/markdown/MarkdownParserModule.java
+│  -rw-r--r--  2.0 unx    33252 b- defN 24-Apr-11 11:54 org/apache/maven/doxia/module/markdown/MarkdownSink.java
+│  -rw-r--r--  2.0 unx     1478 b- defN 24-Apr-11 11:54 org/apache/maven/doxia/module/markdown/MarkdownSinkFactory.java
+│  -rw-r--r--  2.0 unx     1471 b- defN 24-Apr-11 11:54 org/apache/maven/doxia/module/markdown/YamlFrontMatterVisitor.java
+│  -rw-r--r--  2.0 unx     8935 b- defN 24-Apr-11 11:54 META-INF/maven/org.apache.maven.doxia/doxia-module-markdown/pom.xml
+│  -rw-r--r--  2.0 unx       85 b- defN 24-Apr-11 11:54 META-INF/maven/org.apache.maven.doxia/doxia-module-markdown/pom.properties
+│ -24 files, 93817 bytes uncompressed, 25802 bytes compressed:  72.5%
+│ +24 files, 93814 bytes uncompressed, 25801 bytes compressed:  72.5%
+├── org/apache/maven/doxia/module/markdown/MarkdownMarkup.java
+│ @@ -91,15 +91,15 @@
+│  
+│      /** Syntax for the verbatim start: "```" */
+│      String VERBATIM_START_MARKUP = "```";
+│  
+│      /** Syntax for the verbatim end: "```" */
+│      String VERBATIM_END_MARKUP = "```";
+│  
+│ -    /** Syntax for the blockquote start: "&gt; " */
+│ +    /** Syntax for the blockquote start: "> " */
+│      String BLOCKQUOTE_START_MARKUP = "> ";
+│  
+│      /** Syntax for the non breaking space: entity from HTML */
+│      String NON_BREAKING_SPACE_MARKUP = "&nbsp;";
+│  
+│      /** Syntax for the section title start: "#" */
+│      String SECTION_TITLE_START_MARKUP = "#";
+
