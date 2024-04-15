@@ -4,7 +4,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240414093609 --> [maven-scm](../content/org/apache/maven/scm/README.md) | [2.0.1](../content/org/apache/maven/scm/maven-scm-2.0.1.buildspec) :white_check_mark: | [2.1.0](../content/org/apache/maven/scm/maven-scm-2.1.0.buildspec) | `bin/add-new-release.sh content/org/apache/maven/scm/maven-scm-2.0.1.buildspec 2.1.0` |
+| <!-- 20240415140725 --> [flexmonster](../content/org/webjars/flexmonster/README.md) | [2.9.74](../content/org/webjars/flexmonster/flexmonster-2.9.74.buildspec) :white_check_mark: | [2.9.75](../content/org/webjars/flexmonster/flexmonster-2.9.75.buildspec) | `bin/add-new-release.sh content/org/webjars/flexmonster/flexmonster-2.9.74.buildspec 2.9.75` |
+| <!-- 20240415113130 --> [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | [7.26.0](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.26.0.buildspec) :white_check_mark: | [7.26.1](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.26.1.buildspec) | `bin/add-new-release.sh content/nl/basjes/parse/useragent/yauaa/yauaa-7.26.0.buildspec 7.26.1` |
+| <!-- 20240415055438 --> [activemq-parent](../content/org/apache/activemq/README.md) | [6.1.1](../content/org/apache/activemq/activemq-6.1.1.buildspec) :white_check_mark: | [6.1.2](../content/org/apache/activemq/activemq-6.1.2.buildspec) | `bin/add-new-release.sh content/org/apache/activemq/activemq-6.1.1.buildspec 6.1.2` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -17,7 +19,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD STAGING -->
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
-| <!-- 20240411140630 --> [:mailbox:](https://lists.apache.org/list?dev@activemq.apache.org:lte=1M:VOTE) | [activemq-parent](../content/org/apache/activemq/README.md) | [6.1.1](../content/org/apache/activemq/activemq-6.1.1.buildspec) :white_check_mark: | [6.1.2](../content/org/apache/activemq/activemq-6.1.2.buildspec)  | `bin/add-new-release.sh content/org/apache/activemq/activemq-6.1.1.buildspec 6.1.2 staging` |
+| <!-- 20240115074855 --> [:mailbox:](https://lists.apache.org/list?dev@logging.apache.org:lte=1M:VOTE) | [logging-parent](../content/org/apache/logging/parent/README.md) | [10.6.0](../content/org/apache/logging/parent/logging-parent-10.6.0.buildspec) :white_check_mark: | [11.0.0](../content/org/apache/logging/parent/logging-parent-11.0.0.buildspec)  | `bin/add-new-release.sh content/org/apache/logging/parent/logging-parent-10.6.0.buildspec 11.0.0 staging` |
 | <!-- 20240110183837 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-reporting-api](../content/org/apache/maven/reporting/maven-reporting-api/README.md) | [4.0.0-M10](../content/org/apache/maven/reporting/maven-reporting-api/maven-reporting-api-4.0.0-M10.buildspec) :white_check_mark: | [4.0.0-M11](../content/org/apache/maven/reporting/maven-reporting-api/maven-reporting-api-4.0.0-M11.buildspec)  | `bin/add-new-release.sh content/org/apache/maven/reporting/maven-reporting-api/maven-reporting-api-4.0.0-M10.buildspec 4.0.0-M11 staging` |
 | <!-- 20231206185257 --> [:mailbox:](https://lists.apache.org/list?dev@struts.apache.org:lte=1M:VOTE) | [struts2-parent](../content/org/apache/struts/README.md) | [6.3.0.2](../content/org/apache/struts/struts2-6.3.0.2.buildspec) :white_check_mark: | [7.0.0-M3](../content/org/apache/struts/struts2-7.0.0-M3.buildspec)  | `bin/add-new-release.sh content/org/apache/struts/struts2-6.3.0.2.buildspec 7.0.0-M3 staging` |
 | <!-- 20231120084325 --> [:mailbox:](https://lists.apache.org/list?dev@logging.apache.org:lte=1M:VOTE) | [log4j-jmx-gui](../content/org/apache/logging/log4j/log4j-jmx-gui/README.md) | [2.22.0](../content/org/apache/logging/log4j/log4j-jmx-gui/log4j-jmx-gui-2.22.0.buildspec) :white_check_mark: | [3.0.0-alpha1](../content/org/apache/logging/log4j/log4j-jmx-gui/log4j-jmx-gui-3.0.0-alpha1.buildspec)  | `bin/add-new-release.sh content/org/apache/logging/log4j/log4j-jmx-gui/log4j-jmx-gui-2.22.0.buildspec 3.0.0-alpha1 staging` |
@@ -33,7 +35,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240414192018 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [11.0.1-beta-1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.0.1-beta-1.buildspec) :x: | [11.0.1-beta-2](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.0.1-beta-2.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.0.1-beta-1.buildspec 11.0.1-beta-2` |
+| <!-- 20240415194250 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | [6.0.14](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec) :warning: | [6.6.0](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.6.0.buildspec) | `bin/add-new-release.sh content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec 6.6.0` |
+| <!-- 20240414222044 --> [jaxb2-maven-plugin](../content/org/codehaus/mojo/jaxb2-maven-plugin/README.md) | [3.1.0](../content/org/codehaus/mojo/jaxb2-maven-plugin/jaxb2-maven-plugin-3.1.0.buildspec) :warning: [:memo:](https://github.com/mojohaus/jaxb2-maven-plugin/pull/243) | [3.2.0](../content/org/codehaus/mojo/jaxb2-maven-plugin/jaxb2-maven-plugin-3.2.0.buildspec) | `bin/add-new-release.sh content/org/codehaus/mojo/jaxb2-maven-plugin/jaxb2-maven-plugin-3.1.0.buildspec 3.2.0` |
 | <!-- 20240414123028 --> [orc](../content/org/apache/orc/README.md) | [1.9.2](../content/org/apache/orc/orc-1.9.2.buildspec) :warning: | [2.0.0](../content/org/apache/orc/orc-2.0.0.buildspec) | `bin/add-new-release.sh content/org/apache/orc/orc-1.9.2.buildspec 2.0.0` |
 | <!-- 20240412163148 --> [logback-parent](../content/ch/qos/logback/README.md) | [1.5.1](../content/ch/qos/logback/logback-1.5.1.buildspec) :warning: | [1.5.5](../content/ch/qos/logback/logback-1.5.5.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/logback-1.5.1.buildspec 1.5.5` |
 | <!-- 20240412140142 --> [karaf](../content/org/apache/karaf/karaf/README.md) | [4.4.5](../content/org/apache/karaf/karaf/karaf-4.4.5.buildspec) :warning: [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) | [4.4.6](../content/org/apache/karaf/karaf/karaf-4.4.6.buildspec) | `bin/add-new-release.sh content/org/apache/karaf/karaf/karaf-4.4.5.buildspec 4.4.6` |
@@ -52,7 +55,6 @@ New Releases To Add
 | <!-- 20240325080805 --> [fediz](../content/org/apache/cxf/fediz/README.md) | [1.6.1](../content/org/apache/cxf/fediz/fediz-1.6.1.buildspec) :warning: | [1.6.2](../content/org/apache/cxf/fediz/fediz-1.6.2.buildspec) | `bin/add-new-release.sh content/org/apache/cxf/fediz/fediz-1.6.1.buildspec 1.6.2` |
 | <!-- 20240323235556 --> [whitespace-maven-plugin](../content/com/github/hazendaz/maven/whitespace-maven-plugin/README.md) | [1.3.1](../content/com/github/hazendaz/maven/whitespace-maven-plugin/whitespace-maven-plugin-1.3.1.buildspec) :warning: | [1.3.2](../content/com/github/hazendaz/maven/whitespace-maven-plugin/whitespace-maven-plugin-1.3.2.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/maven/whitespace-maven-plugin/whitespace-maven-plugin-1.3.1.buildspec 1.3.2` |
 | <!-- 20240323032944 --> [artemis-pom](../content/org/apache/activemq/artemis/README.md) | [2.31.2](../content/org/apache/activemq/artemis/artemis-2.31.2.buildspec) :warning: | [2.33.0](../content/org/apache/activemq/artemis/artemis-2.33.0.buildspec) | `bin/add-new-release.sh content/org/apache/activemq/artemis/artemis-2.31.2.buildspec 2.33.0` |
-| <!-- 20240322143145 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | [6.0.14](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec) :warning: | [6.5.0](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.5.0.buildspec) | `bin/add-new-release.sh content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec 6.5.0` |
 | <!-- 20240321101833 --> [io.wcm.wcm.ui.granite](../content/io/wcm/io.wcm.wcm/ui/granite/README.md) | [1.9.12](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec) :warning: | [1.10.4](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.10.4.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec 1.10.4` |
 | <!-- 20240321101809 --> [io.wcm.handler.link](../content/io/wcm/io.wcm.handler/link/README.md) | [2.0.0](../content/io/wcm/io.wcm.handler/link/io.wcm.handler.link-2.0.0.buildspec) :warning: | [2.1.0](../content/io/wcm/io.wcm.handler/link/io.wcm.handler.link-2.1.0.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.handler/link/io.wcm.handler.link-2.0.0.buildspec 2.1.0` |
 | <!-- 20240320082140 --> [jena](../content/org/apache/jena/jena/README.md) | [4.5.0](../content/org/apache/jena/jena/jena-4.5.0.buildspec) :warning: | [5.0.0](../content/org/apache/jena/jena/jena-5.0.0.buildspec) | `bin/add-new-release.sh content/org/apache/jena/jena/jena-4.5.0.buildspec 5.0.0` |
@@ -89,6 +91,8 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20240414192018 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | 11.0.1-beta-2 :x: |
+| <!-- 20240414093609 --> [maven-scm](../content/org/apache/maven/scm/README.md) | 2.1.0 :warning: |
 | <!-- 20240414093350 --> [doxia](../content/org/apache/maven/doxia/doxia/README.md) | 2.0.0-M10 :warning: |
 | <!-- 20240412143023 --> [slf4j-parent](../content/org/slf4j/README.md) | 2.1.0-alpha1 :warning: |
 | <!-- 20240409042734 --> [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | 1.62.0 :warning: [:memo:](https://issues.apache.org/jira/browse/OAK-10662) |
@@ -162,7 +166,6 @@ New Releases To Add
 | <!-- 20220525193321 --> [jdo](../content/org/apache/jdo/README.md) | 3.2.1 :warning: [:memo:](https://github.com/apache/db-jdo/pull/49) |
 | <!-- 20220525171200 --> [axiom](../content/org/apache/ws/commons/axiom/README.md) | 1.4.0 :warning: |
 | <!-- 20220514070205 --> [org.apache.sling.scripting.core](../content/org/apache/sling/org.apache.sling.scripting.core/README.md) | 2.4.8 :warning: |
-| <!-- 20220420235553 --> [jaxb2-maven-plugin](../content/org/codehaus/mojo/jaxb2-maven-plugin/README.md) | 3.1.0 :warning: [:memo:](https://github.com/mojohaus/jaxb2-maven-plugin/pull/243) |
 | <!-- 20220420183148 --> [logback-parent-db](../content/ch/qos/logback/db/README.md) | 1.2.11.1 :warning: [:memo:](https://github.com/qos-ch/logback-db/pull/2) |
 | <!-- 20220318151210 --> [org.apache.sling.starter](../content/org/apache/sling/org.apache.sling.starter/README.md) | 12 :warning: |
 | <!-- 20220313222929 --> [ftpserver-parent](../content/org/apache/mina/ftpserver/README.md) | 1.2.0 :warning: [:memo:](https://github.com/apache/mina-ftpserver/pull/13) |

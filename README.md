@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3454 releases** of **628 projects**:
-   - **2732** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 722 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 628 projects, 525 have at least one fully reproducible release, 103 have none
+   rebuilding **3457 releases** of **629 projects**:
+   - **2733** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 724 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 629 projects, 526 have at least one fully reproducible release, 103 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -186,6 +186,7 @@ Its objectives are to provide:
 | de.unentscheidbar | [migratedb](content/de/unentscheidbar/migratedb/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
 | dev.langchain4j | [langchain4j](content/dev/langchain4j/README.md) | 6 | 4 :white_check_mark: / 2 :warning: |
 | dev.cdevents | [cdevents-sdk-java](content/dev/cdevents/cdevents-sdk-java/README.md) | 2 | 2 :warning: |
+| dev.notmyfault.serverlib | [ServerLib](content/dev/notmyfault/serverlib/ServerLib/README.md) | 1 | 1 :white_check_mark: |
 | dev.sigstore | [sigstore-maven-plugin](content/dev/sigstore/sigstore-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | eu.europa.ted.eforms | [eforms-core-java](content/eu/europa/ted/eforms/eforms-core-java/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
 | | [eforms-sdk](content/eu/europa/ted/eforms/eforms-sdk/README.md) | 18 | 13 :white_check_mark: / 5 :warning: |
@@ -193,7 +194,7 @@ Its objectives are to provide:
 | eu.maveniverse.maven.mima | [mima](content/eu/maveniverse/maven/mima/README.md) | 32 | 30 :white_check_mark: / 2 :warning: |
 | eu.maveniverse.maven.toolbox | [toolbox](content/eu/maveniverse/maven/toolbox/README.md) | 6 | 6 :white_check_mark: |
 | eu.maveniverse.maven.mase | [mase](content/eu/maveniverse/maven/mase/mase/README.md) | 2 | 2 :white_check_mark: |
-| fr.inria.gforge.spoon | [spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 7 | 4 :white_check_mark: / 3 :warning: |
+| fr.inria.gforge.spoon | [spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 8 | 4 :white_check_mark: / 4 :warning: |
 | fr.marcwrobel | [jbanking](content/fr/marcwrobel/jbanking/README.md) | 2 | 2 :white_check_mark: |
 | fr.vidal.oss | [atom-jaxb](content/fr/vidal/oss/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | io.jooby | [jooby](content/io/jooby/README.md) | 2 | 2 :warning: |
@@ -349,7 +350,7 @@ Its objectives are to provide:
 | org.apache.maven.jxr | [jxr](content/org/apache/maven/jxr/README.md) | 5 | 5 :white_check_mark: |
 | org.apache.maven | [maven](content/org/apache/maven/maven/README.md) | 25 | 22 :white_check_mark: / 3 :warning: |
 | | [maven-parent](content/org/apache/maven/parent/README.md) | 8 | 5 :white_check_mark: / 3 :warning: |
-| org.apache.maven.scm | [maven-scm](content/org/apache/maven/scm/README.md) | 9 | 9 :white_check_mark: |
+| org.apache.maven.scm | [maven-scm](content/org/apache/maven/scm/README.md) | 10 | 9 :white_check_mark: / 1 :warning: |
 | org.apache.maven.surefire | [surefire](content/org/apache/maven/surefire/README.md) | 12 | 8 :white_check_mark: / 4 :warning: |
 | org.apache.maven.doxia | [doxia](content/org/apache/maven/doxia/doxia/README.md) | 14 | 13 :white_check_mark: / 1 :warning: |
 | | [doxia-converter](content/org/apache/maven/doxia/doxia-converter/README.md) | 1 | 1 :white_check_mark: |
@@ -651,7 +652,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 35 | 35 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **628** | **3454** | **2732** :white_check_mark: **722** :warning: |
+| **Count:** | **629** | **3457** | **2733** :white_check_mark: **724** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -663,10 +664,10 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
 ```
      26 gradle     11
-      8 gradle     17
+      9 gradle     17
       3 gradle     21
      26 mvn         7
-   1134 mvn         8
+   1135 mvn         8
       1 mvn         9
     967 mvn        11
       2 mvn        11.0.19
@@ -685,7 +686,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn        18
      30 mvn        19
      15 mvn        20
-     72 mvn        21
+     73 mvn        21
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11
       1 mvn-3.8.5   8
