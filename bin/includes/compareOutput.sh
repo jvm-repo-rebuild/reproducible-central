@@ -10,6 +10,8 @@
 compareOutput() {
   local outputDir=$1
 
+  export LC_ALL=C
+
   ### 1. display list of .pom files found
   info "looking for *.pom content in ${outputDir}/ directory:"
   ( set -x ; find ${outputDir} -type f -name "*.pom" | cut -c 12- | sort )
