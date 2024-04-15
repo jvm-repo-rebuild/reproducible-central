@@ -58,7 +58,7 @@ compareOutput() {
       wget -q https://repo.maven.apache.org/maven2/$f -O central/$f
 
       echo "outputs.${n}.${i}.filename=$(basename $f)" >> ${buildinfo}
-      echo "outputs.${n}.${i}.length=$(du -b ${outputDir}/$f | cut -f 1)" >> ${buildinfo}
+      echo "outputs.${n}.${i}.length=$(du -B 1 ${outputDir}/$f | cut -f 1)" >> ${buildinfo}
       echo "outputs.${n}.${i}.checksums.sha512=$(sha512sum ${outputDir}/$f | cut -f 1)" >> ${buildinfo}
       echo >> ${buildinfo}
       ((i++))
