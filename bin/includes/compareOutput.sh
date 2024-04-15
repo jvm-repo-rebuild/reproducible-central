@@ -59,7 +59,7 @@ compareOutput() {
 
       echo "outputs.${n}.${i}.filename=$(basename $f)" >> ${buildinfo}
       echo "outputs.${n}.${i}.length=$(du -b ${outputDir}/$f | cut -f 1)" >> ${buildinfo}
-      echo "outputs.${n}.${i}.checksums.sha512=$(sha512sum ${outputDir}/$f | cut -f 1)" >> ${buildinfo}
+      echo "outputs.${n}.${i}.checksums.sha512=$(sha512sum ${outputDir}/$f | cut -f 1 -d ' ')" >> ${buildinfo}
       echo >> ${buildinfo}
       ((i++))
 
