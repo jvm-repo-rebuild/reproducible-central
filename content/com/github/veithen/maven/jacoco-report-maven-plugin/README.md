@@ -13,6 +13,7 @@ rebuilding **1 releases** of com.github.veithen.maven:jacoco-report-maven-plugin
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.5.0](https://central.sonatype.com/artifact/com.github.veithen.maven/jacoco-report-maven-plugin/0.5.0/pom) | | | |
 | [0.4.0](https://central.sonatype.com/artifact/com.github.veithen.maven/jacoco-report-maven-plugin/0.4.0/pom) | [mvn jdk11](jacoco-report-maven-plugin-0.4.0.buildspec) | [result](jacoco-report-maven-plugin-0.4.0.buildinfo): [4 :white_check_mark: ](jacoco-report-maven-plugin-0.4.0.buildcompare) | 179K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

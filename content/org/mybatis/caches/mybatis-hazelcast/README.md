@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.mybatis.caches:mybatis-hazelcast:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.3.1](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-hazelcast/1.3.1/pom) | | | |
 | [1.3.0](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-hazelcast/1.3.0/pom) | [mvn jdk17 w](mybatis-hazelcast-1.3.0.buildspec) | [result](mybatis-hazelcast-1.3.0.buildinfo): [3 :white_check_mark: ](mybatis-hazelcast-1.3.0.buildcompare) | 31K |
 | [1.2.0](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-hazelcast/1.2.0/pom) | [mvn jdk17 w](mybatis-hazelcast-1.2.0.buildspec) | [result](mybatis-hazelcast-1.2.0.buildinfo): [3 :white_check_mark: ](mybatis-hazelcast-1.2.0.buildcompare) | 31K |
 | [1.1.3](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-hazelcast/1.1.3/pom) | [mvn jdk17 w](mybatis-hazelcast-1.1.3.buildspec) | [result](mybatis-hazelcast-1.1.3.buildinfo): [3 :white_check_mark: ](mybatis-hazelcast-1.1.3.buildcompare) | 31K |
