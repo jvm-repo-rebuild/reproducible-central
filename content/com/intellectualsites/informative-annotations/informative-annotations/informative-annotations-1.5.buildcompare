@@ -1,0 +1,5 @@
+version=1.5
+ok=4
+ko=0
+okFiles="informative-annotations-1.5-sources.jar informative-annotations-1.5.jar informative-annotations-1.5.module informative-annotations-1.5.pom"
+koFiles=""
