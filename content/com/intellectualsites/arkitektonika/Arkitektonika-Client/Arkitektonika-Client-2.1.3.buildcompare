@@ -1,0 +1,5 @@
+version=2.1.3
+ok=4
+ko=0
+okFiles="Arkitektonika-Client-2.1.3-sources.jar Arkitektonika-Client-2.1.3.jar Arkitektonika-Client-2.1.3.module Arkitektonika-Client-2.1.3.pom"
+koFiles=""
