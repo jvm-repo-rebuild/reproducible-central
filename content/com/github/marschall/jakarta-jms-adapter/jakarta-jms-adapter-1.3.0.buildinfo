@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jakarta JMS Adapter
+group-id=com.github.marschall
+artifact-id=jakarta-jms-adapter
+version=1.3.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:marschall/jakarta-jms-adapter.git
+source.scm.tag=1.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.github.marschall
+outputs.0.filename=jakarta-jms-adapter-1.3.0.pom
+outputs.0.length=10668
+outputs.0.checksums.sha512=63c2e178108a091097612b466e19b97877af8f4c415ee684337fe7b8c37503f3db6ae7ec95f9871011f8eb5ce42db1bce93edba22592a9c226bb9c8d729cc2b7
+
+outputs.1.groupId=com.github.marschall
+outputs.1.filename=jakarta-jms-adapter-1.3.0.jar
+outputs.1.length=64159
+outputs.1.checksums.sha512=54807f6c23ad9377bd8f9d6f55d3c57320298a005e9b02ddfa97b23c4b537e187fdd60df8407dd30f00416bd80825dff49fc6ac7994775f14f7aeabfa6384347
+
+outputs.2.groupId=com.github.marschall
+outputs.2.filename=jakarta-jms-adapter-1.3.0-sources.jar
+outputs.2.length=29274
+outputs.2.checksums.sha512=04bdd05d41cb388c6f4065aba07dfaf62fd90eb139788fb180c62566445b986b8c898f48514e9bde2843f43e305140769d73e38199c07f15f4b7055d95758810
