@@ -35,6 +35,7 @@ rebuilding **15 releases** of nl.basjes.parse.useragent:yauaa:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [7.26.1](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.26.1/pom) | | | |
 | [7.26.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.26.0/pom) | [mvn jdk21](yauaa-7.26.0.buildspec) | [result](yauaa-parent-7.26.0.buildinfo): [51 :white_check_mark: ](yauaa-parent-7.26.0.buildcompare) | 85M |
 | [7.25.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.25.0/pom) | [mvn jdk21](yauaa-7.25.0.buildspec) | [result](yauaa-parent-7.25.0.buildinfo): [51 :white_check_mark: ](yauaa-parent-7.25.0.buildcompare) | 81M |
 | [7.24.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.24.0/pom) | [mvn jdk21](yauaa-7.24.0.buildspec) | [result](yauaa-parent-7.24.0.buildinfo): [51 :white_check_mark: ](yauaa-parent-7.24.0.buildcompare) | 81M |

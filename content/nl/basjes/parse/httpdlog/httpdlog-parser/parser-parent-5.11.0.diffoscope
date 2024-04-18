@@ -1,0 +1,190 @@
+1 / 6 target/reference/nl.basjes.parse/parser-core-5.11.0.jar parser-core/target/parser-core-5.11.0.jar
+--- target/reference/nl.basjes.parse/parser-core-5.11.0.jar
++++ parser-core/target/parser-core-5.11.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 33202 bytes, number of entries: 29
+│ +Zip file size: 33203 bytes, number of entries: 29
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 META-INF/
+│  -rw-r--r--  2.0 unx      106 b- defN 24-Apr-17 10:35 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/basjes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/basjes/parse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/basjes/parse/core/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/basjes/parse/core/exceptions/
+│ @@ -24,8 +24,8 @@
+│  -rw-r--r--  2.0 unx      645 b- defN 24-Apr-17 10:35 nl/basjes/parse/core/exceptions/DissectionFailure.class
+│  -rw-r--r--  2.0 unx      936 b- defN 24-Apr-17 10:35 nl/basjes/parse/core/exceptions/FatalErrorDuringCallOfSetterMethod.class
+│  -rw-r--r--  2.0 unx      804 b- defN 24-Apr-17 10:35 nl/basjes/parse/core/exceptions/InvalidDissectorException.class
+│  -rw-r--r--  2.0 unx      979 b- defN 24-Apr-17 10:35 nl/basjes/parse/core/exceptions/InvalidFieldMethodSignature.class
+│  -rw-r--r--  2.0 unx      498 b- defN 24-Apr-17 10:35 nl/basjes/parse/core/exceptions/MissingDissectorsException.class
+│  -rw-r--r--  2.0 unx     1964 b- defN 24-Apr-17 10:35 META-INF/maven/nl.basjes.parse/parser-core/pom.xml
+│  -rw-r--r--  2.0 unx       62 b- defN 24-Apr-17 10:35 META-INF/maven/nl.basjes.parse/parser-core/pom.properties
+│ -29 files, 69679 bytes uncompressed, 28830 bytes compressed:  58.6%
+│ +29 files, 69679 bytes uncompressed, 28831 bytes compressed:  58.6%
+├── META-INF/MANIFEST.MF
+│ @@ -1,5 +1,5 @@
+│  Manifest-Version: 1.0
+│  Created-By: Maven JAR Plugin 3.4.0
+│  Build-Jdk-Spec: 11
+│ -Build-Tool-Jdk-Spec: 21
+│ +Build-Tool-Jdk-Spec: 17
+
+2 / 6 target/reference/nl.basjes.parse/parser-core-5.11.0-tests.jar parser-core/target/parser-core-5.11.0-tests.jar
+--- target/reference/nl.basjes.parse/parser-core-5.11.0-tests.jar
++++ parser-core/target/parser-core-5.11.0-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 117271 bytes, number of entries: 114
+│ +Zip file size: 117272 bytes, number of entries: 114
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 META-INF/
+│  -rw-r--r--  2.0 unx      106 b- defN 24-Apr-17 10:35 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/basjes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/basjes/parse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/basjes/parse/core/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/basjes/parse/core/annotation/
+│ @@ -109,8 +109,8 @@
+│  -rw-r--r--  2.0 unx     2025 b- defN 24-Apr-17 10:35 nl/basjes/parse/core/test/NullValuesDissector.class
+│  -rw-r--r--  2.0 unx     8925 b- defN 24-Apr-17 10:35 nl/basjes/parse/core/test/TestRecord.class
+│  -rw-r--r--  2.0 unx     1791 b- defN 24-Apr-17 10:35 nl/basjes/parse/core/test/TestUltimateDummyDissector.class
+│  -rw-r--r--  2.0 unx     5406 b- defN 24-Apr-17 10:35 nl/basjes/parse/core/test/TestUltimateDummyDissectorFailurelogging.class
+│  -rw-r--r--  2.0 unx     1434 b- defN 24-Apr-17 10:35 nl/basjes/parse/core/test/UltimateDummyDissector.class
+│  -rw-r--r--  2.0 unx     1964 b- defN 24-Apr-17 10:35 META-INF/maven/nl.basjes.parse/parser-core/pom.xml
+│  -rw-r--r--  2.0 unx       62 b- defN 24-Apr-17 10:35 META-INF/maven/nl.basjes.parse/parser-core/pom.properties
+│ -114 files, 235716 bytes uncompressed, 95421 bytes compressed:  59.5%
+│ +114 files, 235716 bytes uncompressed, 95422 bytes compressed:  59.5%
+├── META-INF/MANIFEST.MF
+│ @@ -1,5 +1,5 @@
+│  Manifest-Version: 1.0
+│  Created-By: Maven JAR Plugin 3.4.0
+│  Build-Jdk-Spec: 11
+│ -Build-Tool-Jdk-Spec: 21
+│ +Build-Tool-Jdk-Spec: 17
+
+3 / 6 target/reference/nl.basjes.parse.httpdlog/httpdlog-parser-5.11.0.jar httpdlog/httpdlog-parser/target/httpdlog-parser-5.11.0.jar
+--- target/reference/nl.basjes.parse.httpdlog/httpdlog-parser-5.11.0.jar
++++ httpdlog/httpdlog-parser/target/httpdlog-parser-5.11.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 833421 bytes, number of entries: 521
+│ +Zip file size: 833422 bytes, number of entries: 521
+│  -rw----     2.0 fat        0 bX defN 24-Apr-17 10:35 META-INF/
+│  -rw----     2.0 fat      106 bl defN 24-Apr-17 10:35 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 24-Apr-17 10:35 nl/
+│  -rw----     2.0 fat        0 bl defN 24-Apr-17 10:35 nl/basjes/
+│  -rw----     2.0 fat        0 bl defN 24-Apr-17 10:35 nl/basjes/parse/
+│  -rw----     2.0 fat        0 bl defN 24-Apr-17 10:35 nl/basjes/parse/httpdlog/
+│  -rw----     2.0 fat    15353 bl defN 24-Apr-17 10:35 nl/basjes/parse/httpdlog/ApacheHttpdLogFormatDissector.class
+│ @@ -516,8 +516,8 @@
+│  -rw----     2.0 fat      183 bl defN 23-Oct-06 18:12 nl/basjes/parse/httpdlog/httpdlog-parser/shaded/org/apache/commons/lang3/util/package-info.class
+│  -rwx---     2.0 fat        0 bl defN 23-Oct-06 18:12 META-INF/maven/org.apache.commons/commons-lang3/
+│  -rw----     2.0 fat    30894 bl defN 23-Oct-06 18:12 META-INF/maven/org.apache.commons/commons-lang3/pom.xml
+│  -rw----     2.0 fat       67 bl defN 23-Oct-06 18:12 META-INF/maven/org.apache.commons/commons-lang3/pom.properties
+│  -rw----     2.0 fat        0 bl defN 23-Oct-06 14:12 META-INF/versions/
+│  -rw----     2.0 fat        0 bl defN 23-Oct-06 14:12 META-INF/versions/9/
+│  -rw----     2.0 fat      942 bl defN 23-Oct-06 14:12 META-INF/versions/9/module-info.class
+│ -521 files, 1916072 bytes uncompressed, 695907 bytes compressed:  63.7%
+│ +521 files, 1916072 bytes uncompressed, 695908 bytes compressed:  63.7%
+├── META-INF/MANIFEST.MF
+│ @@ -1,5 +1,5 @@
+│  Manifest-Version: 1.0
+│  Created-By: Maven JAR Plugin 3.4.0
+│  Build-Jdk-Spec: 11
+│ -Build-Tool-Jdk-Spec: 21
+│ +Build-Tool-Jdk-Spec: 17
+
+4 / 6 target/reference/nl.basjes.parse.httpdlog/httpdlog-inputformat-5.11.0.jar httpdlog/httpdlog-inputformat/target/httpdlog-inputformat-5.11.0.jar
+--- target/reference/nl.basjes.parse.httpdlog/httpdlog-inputformat-5.11.0.jar
++++ httpdlog/httpdlog-inputformat/target/httpdlog-inputformat-5.11.0.jar
+├── zipinfo {}
+│ @@ -1,16 +1,16 @@
+│ -Zip file size: 12418 bytes, number of entries: 14
+│ +Zip file size: 12419 bytes, number of entries: 14
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 META-INF/
+│  -rw-r--r--  2.0 unx      106 b- defN 24-Apr-17 10:35 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/basjes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/basjes/hadoop/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/basjes/hadoop/input/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 META-INF/maven/nl.basjes.parse.httpdlog/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 META-INF/maven/nl.basjes.parse.httpdlog/httpdlog-inputformat/
+│  -rw-r--r--  2.0 unx     5629 b- defN 24-Apr-17 10:35 nl/basjes/hadoop/input/ApacheHttpdLogfileInputFormat.class
+│  -rw-r--r--  2.0 unx    10810 b- defN 24-Apr-17 10:35 nl/basjes/hadoop/input/ApacheHttpdLogfileRecordReader.class
+│  -rw-r--r--  2.0 unx     6597 b- defN 24-Apr-17 10:35 nl/basjes/hadoop/input/ParsedRecord.class
+│  -rw-r--r--  2.0 unx     2147 b- defN 24-Apr-17 10:35 META-INF/maven/nl.basjes.parse.httpdlog/httpdlog-inputformat/pom.xml
+│  -rw-r--r--  2.0 unx       80 b- defN 24-Apr-17 10:35 META-INF/maven/nl.basjes.parse.httpdlog/httpdlog-inputformat/pom.properties
+│ -14 files, 25369 bytes uncompressed, 10334 bytes compressed:  59.3%
+│ +14 files, 25369 bytes uncompressed, 10335 bytes compressed:  59.3%
+├── META-INF/MANIFEST.MF
+│ @@ -1,5 +1,5 @@
+│  Manifest-Version: 1.0
+│  Created-By: Maven JAR Plugin 3.4.0
+│  Build-Jdk-Spec: 11
+│ -Build-Tool-Jdk-Spec: 21
+│ +Build-Tool-Jdk-Spec: 17
+
+5 / 6 target/reference/nl.basjes.parse.httpdlog/httpdlog-serde-5.11.0.jar httpdlog/httpdlog-serde/target/httpdlog-serde-5.11.0.jar
+--- target/reference/nl.basjes.parse.httpdlog/httpdlog-serde-5.11.0.jar
++++ httpdlog/httpdlog-serde/target/httpdlog-serde-5.11.0.jar
+├── zipinfo {}
+│ @@ -1,16 +1,16 @@
+│ -Zip file size: 10888 bytes, number of entries: 14
+│ +Zip file size: 10889 bytes, number of entries: 14
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 META-INF/
+│  -rw-r--r--  2.0 unx      106 b- defN 24-Apr-17 10:35 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/basjes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/basjes/parse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/basjes/parse/httpdlog/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 META-INF/maven/nl.basjes.parse.httpdlog/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 META-INF/maven/nl.basjes.parse.httpdlog/httpdlog-serde/
+│  -rw-r--r--  2.0 unx      795 b- defN 24-Apr-17 10:35 nl/basjes/parse/httpdlog/ApacheHttpdlogDeserializer$1.class
+│  -rw-r--r--  2.0 unx     1759 b- defN 24-Apr-17 10:35 nl/basjes/parse/httpdlog/ApacheHttpdlogDeserializer$ColumnToGetterMapping.class
+│  -rw-r--r--  2.0 unx    13875 b- defN 24-Apr-17 10:35 nl/basjes/parse/httpdlog/ApacheHttpdlogDeserializer.class
+│  -rw-r--r--  2.0 unx     6714 b- defN 24-Apr-17 10:35 META-INF/maven/nl.basjes.parse.httpdlog/httpdlog-serde/pom.xml
+│  -rw-r--r--  2.0 unx       74 b- defN 24-Apr-17 10:35 META-INF/maven/nl.basjes.parse.httpdlog/httpdlog-serde/pom.properties
+│ -14 files, 23323 bytes uncompressed, 8764 bytes compressed:  62.4%
+│ +14 files, 23323 bytes uncompressed, 8765 bytes compressed:  62.4%
+├── META-INF/MANIFEST.MF
+│ @@ -1,5 +1,5 @@
+│  Manifest-Version: 1.0
+│  Created-By: Maven JAR Plugin 3.4.0
+│  Build-Jdk-Spec: 11
+│ -Build-Tool-Jdk-Spec: 21
+│ +Build-Tool-Jdk-Spec: 17
+
+6 / 6 target/reference/nl.basjes.parse.httpdlog/httpdlog-serde-5.11.0-udf.jar httpdlog/httpdlog-serde/target/httpdlog-serde-5.11.0-udf.jar
+--- target/reference/nl.basjes.parse.httpdlog/httpdlog-serde-5.11.0-udf.jar
++++ httpdlog/httpdlog-serde/target/httpdlog-serde-5.11.0-udf.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 9033536 bytes, number of entries: 5850
+│ +Zip file size: 9033535 bytes, number of entries: 5850
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 META-INF/
+│  -rw-r--r--  2.0 unx       94 b- defN 24-Apr-17 10:35 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/basjes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/basjes/parse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 nl/basjes/parse/httpdlog/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-17 10:35 org/
+│ @@ -5845,8 +5845,8 @@
+│  -rw-r--r--  2.0 unx     3163 b- defN 24-Apr-17 10:35 org/slf4j/spi/NOPLoggingEventBuilder.class
+│  -rw-r--r--  2.0 unx      389 b- defN 24-Apr-17 10:35 org/slf4j/spi/SLF4JServiceProvider.class
+│  -rw-r--r--  2.0 unx     2826 b- defN 24-Apr-17 10:35 META-INF/maven/org.slf4j/slf4j-api/pom.xml
+│  -rw-r--r--  2.0 unx       54 b- defN 24-Apr-17 10:35 META-INF/maven/org.slf4j/slf4j-api/pom.properties
+│  -rw-r--r--  2.0 unx      795 b- defN 24-Apr-17 10:35 nl/basjes/parse/httpdlog/ApacheHttpdlogDeserializer$1.class
+│  -rw-r--r--  2.0 unx     1759 b- defN 24-Apr-17 10:35 nl/basjes/parse/httpdlog/ApacheHttpdlogDeserializer$ColumnToGetterMapping.class
+│  -rw-r--r--  2.0 unx    13875 b- defN 24-Apr-17 10:35 nl/basjes/parse/httpdlog/ApacheHttpdlogDeserializer.class
+│ -5850 files, 21330862 bytes uncompressed, 7784354 bytes compressed:  63.5%
+│ +5850 files, 21330862 bytes uncompressed, 7784353 bytes compressed:  63.5%
+├── META-INF/MANIFEST.MF
+│ @@ -1,5 +1,5 @@
+│  Manifest-Version: 1.0
+│  Created-By: Maven Archiver 3.6.1
+│ -Build-Jdk-Spec: 21
+│ +Build-Jdk-Spec: 17
+│  Class-Path: /
+

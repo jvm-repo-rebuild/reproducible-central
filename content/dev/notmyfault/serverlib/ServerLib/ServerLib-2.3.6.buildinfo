@@ -10,17 +10,17 @@ outputs.1.coordinates=dev.notmyfault.serverlib:ServerLib
 
 outputs.1.0.filename=ServerLib-2.3.6-sources.jar
 outputs.1.0.length=10293
-outputs.1.0.checksums.sha512=f88c73b0f5aa17d8332da9619b5f1f81ba6b0e908977f4ab6eb0111b240a1ccbb58e5f59cb66f8b0e9cb8ad12ac193060af94b753a66e2060d786f1ecb164f62  repository/dev/notmyfault/serverlib/ServerLib/2.3.6/ServerLib-2.3.6-sources.jar
+outputs.1.0.checksums.sha512=f88c73b0f5aa17d8332da9619b5f1f81ba6b0e908977f4ab6eb0111b240a1ccbb58e5f59cb66f8b0e9cb8ad12ac193060af94b753a66e2060d786f1ecb164f62
 
 outputs.1.1.filename=ServerLib-2.3.6.jar
 outputs.1.1.length=15547
-outputs.1.1.checksums.sha512=0222ee7e08ff8306eac40ddf43e03591e60b617ba4e8dcbf40450b6d3675c525b1cea0f9cdf96b35b3acecd7adefa37acc5dfa3089282d578bf96da628135380  repository/dev/notmyfault/serverlib/ServerLib/2.3.6/ServerLib-2.3.6.jar
+outputs.1.1.checksums.sha512=0222ee7e08ff8306eac40ddf43e03591e60b617ba4e8dcbf40450b6d3675c525b1cea0f9cdf96b35b3acecd7adefa37acc5dfa3089282d578bf96da628135380
 
 outputs.1.2.filename=ServerLib-2.3.6.module
 outputs.1.2.length=3540
-outputs.1.2.checksums.sha512=3979b9698300a140cd71a8a68e89dc7a413e830bc19076cf89672afea75e0d3ae6aa192261c689377a1d7537a6f54d2dcdf0bbefa31918fa9bb31113c5ada984  repository/dev/notmyfault/serverlib/ServerLib/2.3.6/ServerLib-2.3.6.module
+outputs.1.2.checksums.sha512=3979b9698300a140cd71a8a68e89dc7a413e830bc19076cf89672afea75e0d3ae6aa192261c689377a1d7537a6f54d2dcdf0bbefa31918fa9bb31113c5ada984
 
 outputs.1.3.filename=ServerLib-2.3.6.pom
 outputs.1.3.length=1935
-outputs.1.3.checksums.sha512=bc920d9462ca8c0f37265cd5abafa5c2c6e7fe6d950d3edd4738622bd6985417edba1e8089869d857ee66a83c0b95d83a24d41d646cdd0984a54a3e3883fff87  repository/dev/notmyfault/serverlib/ServerLib/2.3.6/ServerLib-2.3.6.pom
+outputs.1.3.checksums.sha512=bc920d9462ca8c0f37265cd5abafa5c2c6e7fe6d950d3edd4738622bd6985417edba1e8089869d857ee66a83c0b95d83a24d41d646cdd0984a54a3e3883fff87
 

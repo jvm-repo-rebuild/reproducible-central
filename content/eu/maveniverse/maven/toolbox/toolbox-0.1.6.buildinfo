@@ -1,0 +1,59 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=eu.maveniverse.maven.toolbox:toolbox
+group-id=eu.maveniverse.maven.toolbox
+artifact-id=toolbox
+version=0.1.6
+
+# source information
+source.scm.uri=scm:git:git@github.com:maveniverse/toolbox.git
+source.scm.tag=release-0.1.6
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=toolbox
+
+# aggregated output
+
+outputs.0.coordinates=eu.maveniverse.maven.toolbox:toolbox
+
+outputs.0.0.groupId=eu.maveniverse.maven.toolbox
+outputs.0.0.filename=toolbox-0.1.6.pom
+outputs.0.0.length=9544
+outputs.0.0.checksums.sha512=757c362152db8dfab8d3749b6a52c7ef63c09a0b0d1deaac578ed5f8a18eacf795a789d63adc691ec378984ec3a65135980343d2a5451978c14af9f394fccf28
+
+outputs.1.coordinates=eu.maveniverse.maven.toolbox:shared
+
+outputs.1.0.groupId=eu.maveniverse.maven.toolbox
+outputs.1.0.filename=shared-0.1.6.pom
+outputs.1.0.length=3639
+outputs.1.0.checksums.sha512=b22d94048cda9ce803c51136a7e3d993a00570c3cb98c05b909ae4b33a4024e1c508e8dc1e029337e44813fab0b009017dba40beb593271613dd60aec3c9fb06
+
+outputs.1.1.groupId=eu.maveniverse.maven.toolbox
+outputs.1.1.filename=shared-0.1.6.jar
+outputs.1.1.length=148300
+outputs.1.1.checksums.sha512=ea5678901507b793845435c7fffd793300439e5cb6dc390d916add14d6ddd13451dc0083fc41aac9398f740cf6c7291c7c72aeea4005b92008ef4706550bfd06
+
+outputs.2.coordinates=eu.maveniverse.maven.plugins:toolbox
+
+outputs.2.0.groupId=eu.maveniverse.maven.plugins
+outputs.2.0.filename=toolbox-0.1.6.pom
+outputs.2.0.length=9539
+outputs.2.0.checksums.sha512=e9634a4bacafe5d6877b464564bdda966703047bbbe7721fd6d19f73aadd99fc288242a31d915c2f27b9b0c867f02e35e590cc4965adb57807481e1433eba86a
+
+outputs.2.1.groupId=eu.maveniverse.maven.plugins
+outputs.2.1.filename=toolbox-0.1.6.jar
+outputs.2.1.length=80449
+outputs.2.1.checksums.sha512=5356ef261029594bb722a5d704aee7c8c41f3112e11afa314a42d2a5c3ab044c784f8e0eb6d3b11fc74bbd83ed0f1619dadbe5fb925643b5233eca4a9718416e
+
+outputs.2.2.groupId=eu.maveniverse.maven.plugins
+outputs.2.2.filename=toolbox-0.1.6-cli.jar
+outputs.2.2.length=5984264
+outputs.2.2.checksums.sha512=b8c491f614a9f1b6b0968faf3dc495776dde7808693f7ff47a418af40d9ea786018a56901738e7ea250a978cbc0b9eb863a60734e4821e46576ab5f463ed9c67

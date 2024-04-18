@@ -10,6 +10,8 @@
 compareOutput() {
   local outputDir=$1
 
+  export LC_ALL=C
+
   ### 1. display list of .pom files found
   info "looking for *.pom content in ${outputDir}/ directory:"
   ( set -x ; find ${outputDir} -type f -name "*.pom" | cut -c 12- | sort )
@@ -58,8 +60,8 @@ compareOutput() {
       wget -q https://repo.maven.apache.org/maven2/$f -O central/$f
 
       echo "outputs.${n}.${i}.filename=$(basename $f)" >> ${buildinfo}
-      echo "outputs.${n}.${i}.length=$(du -B 1 ${outputDir}/$f | cut -f 1)" >> ${buildinfo}
-      echo "outputs.${n}.${i}.checksums.sha512=$(sha512sum ${outputDir}/$f | cut -f 1)" >> ${buildinfo}
+      echo "outputs.${n}.${i}.length=$(du -b ${outputDir}/$f | cut -f 1)" >> ${buildinfo}
+      echo "outputs.${n}.${i}.checksums.sha512=$(sha512sum ${outputDir}/$f | cut -f 1 -d ' ')" >> ${buildinfo}
       echo >> ${buildinfo}
       ((i++))
 
