@@ -168,6 +168,7 @@ rebuilding **10 releases** of io.fabric8:kubernetes-client-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [6.12.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.12.1/pom) | | | |
 | [6.12.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.12.0/pom) | | | |
 | [6.11.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.11.0/pom) | | | |
 | [6.10.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.10.0/pom) | | | |
