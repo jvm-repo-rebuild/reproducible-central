@@ -60,7 +60,11 @@ compareOutput() {
       wget -q https://repo.maven.apache.org/maven2/$f -O central/$f
 
       echo "outputs.${n}.${i}.filename=$(basename $f)" >> ${buildinfo}
-      echo "outputs.${n}.${i}.length=$(du -b ${outputDir}/$f | cut -f 1)" >> ${buildinfo}
+      if [[ "$OSTYPE" == "darwin"* ]]; then
+        echo "outputs.${n}.${i}.length=$(stat -f%z ${outputDir}/$f)" >> ${buildinfo}
+      else
+        echo "outputs.${n}.${i}.length=$(du -b ${outputDir}/$f | cut -f 1)" >> ${buildinfo}
+      fi
       echo "outputs.${n}.${i}.checksums.sha512=$(sha512sum ${outputDir}/$f | cut -f 1 -d ' ')" >> ${buildinfo}
       echo >> ${buildinfo}
       ((i++))
