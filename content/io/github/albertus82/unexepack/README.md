@@ -13,6 +13,7 @@ rebuilding **3 releases** of io.github.albertus82:unexepack:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.3.1](https://central.sonatype.com/artifact/io.github.albertus82/unexepack/0.3.1/pom) | | | |
 | [0.3.0](https://central.sonatype.com/artifact/io.github.albertus82/unexepack/0.3.0/pom) | | | |
 | [0.2.3](https://central.sonatype.com/artifact/io.github.albertus82/unexepack/0.2.3/pom) | | | |
 | [0.2.2](https://central.sonatype.com/artifact/io.github.albertus82/unexepack/0.2.2/pom) | | | |

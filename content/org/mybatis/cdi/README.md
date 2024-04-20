@@ -13,6 +13,7 @@ rebuilding **5 releases** of org.mybatis:mybatis-cdi:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.2](https://central.sonatype.com/artifact/org.mybatis/mybatis-cdi/2.0.2/pom) | | | |
 | [2.0.1](https://central.sonatype.com/artifact/org.mybatis/mybatis-cdi/2.0.1/pom) | [mvn jdk21 w](mybatis-cdi-2.0.1.buildspec) | [result](mybatis-cdi-2.0.1.buildinfo): [3 :white_check_mark: ](mybatis-cdi-2.0.1.buildcompare) | 61K |
 | [2.0.0](https://central.sonatype.com/artifact/org.mybatis/mybatis-cdi/2.0.0/pom) | [mvn jdk17 w](mybatis-cdi-2.0.0.buildspec) | [result](mybatis-cdi-2.0.0.buildinfo): [3 :white_check_mark: ](mybatis-cdi-2.0.0.buildcompare) | 60K |
 | [1.1.4](https://central.sonatype.com/artifact/org.mybatis/mybatis-cdi/1.1.4/pom) | [mvn jdk17 w](mybatis-cdi-1.1.4.buildspec) | [result](mybatis-cdi-1.1.4.buildinfo): [3 :white_check_mark: ](mybatis-cdi-1.1.4.buildcompare) | 62K |
