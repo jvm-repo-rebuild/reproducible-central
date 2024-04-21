@@ -1,0 +1,11 @@
+version=1.2.2
+ok=5
+ko=2
+ignored=0
+okFiles="jpmml-python-1.2.2.pom pmml-python-1.2.2.pom pmml-python-1.2.2.jar pmml-python-testing-1.2.2.pom pmml-python-testing-1.2.2.jar"
+koFiles="pmml-python-1.2.2-sources.jar pmml-python-testing-1.2.2-sources.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/pmml-python-1.2.2-sources.jar pmml-python/target/pmml-python-1.2.2-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-python-testing-1.2.2-sources.jar pmml-python-testing/target/pmml-python-testing-1.2.2-sources.jar
