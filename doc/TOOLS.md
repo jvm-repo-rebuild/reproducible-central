@@ -14,7 +14,7 @@ If you want to start playing with the reproducible builds, we recommend the foll
 ### 1) Rebuild Yourself To Check Results
 
 Prerequisites:
-* [Docker](https://www.docker.com)
+* [Docker](https://www.docker.com) or [Podman](https://podman.io)
 * `dos2unix` - DOS to MAC/UNIX text file format converter. \
    Can be installed via [homebrew](https://brew.sh) on MAC via: `brew install dos2unix`.
 
@@ -24,10 +24,23 @@ You can rebuild a project release by running:
 ```
 [`rebuild.sh` script](./rebuild.sh) will use the build specification file (= [`.buildspec` file](BUILDSPEC.md)) to choose a Docker image to rebuild the project and check output against Central Repository reference binaries.
 
+
 For example:
 ```
 ./rebuild.sh content/org/apache/maven/shared/archiver/maven-archiver-3.5.1.buildspec
 ```
+
+You can also use `podman` as a container engine by defining the environment variables before you run `rebuild.sh`:
+
+	REBUILD_ENGINE
+	# The engine to use. Defaults to 'docker', but also tested with 'podman'.
+
+	REBUILD_ENGINE_OPTS
+	# Extra options to provide to the container engine. Defaults to docker: "", podman: "--userns=keep-id"
+	
+	REBUILD_VOLUME_FLAGS
+	# Extra flags to use when mounting volumes in the container. Defaults to "", but for podman running on an SELinux host, you need ":Z,rw"
+
 
 ### 2) Contribute to a new _buildspec_
 

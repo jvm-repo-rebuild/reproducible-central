@@ -87,6 +87,25 @@ umask $umask
 export MVN_UMASK=${umask}
 fetchSource
 
+DEFAULT_engine="docker"
+DEFAULT_engineopts_docker=""
+DEFAULT_engineopts_podman="--userns=keep-id"
+DEFAULT_engineopts="$([[ 'docker' == ${REBUILD_ENGINE:-$DEFAULT_engine} ]] && echo $DEFAULT_engineopts_docker || echo $DEFAULT_engineopts_podman)"
+DEFAULT_volumeflags=""
+
+if [ -z "${REBUILD_ENGINE}" ]
+then
+  export REBUILD_ENGINE=$DEFAULT_engine
+fi
+if [ -z "${REBUILD_ENGINE_OPTS}" ]
+then
+  export REBUILD_ENGINE_OPTS=$DEFAULT_engineopts
+fi
+if [ -z "${REBUILD_VOLUME_FLAGS}" ]
+then
+  export REBUILD_VOLUME_FLAGS=$DEFAULT_volumeflags;
+fi
+
 echo
 case ${tool} in
   mvn*)
