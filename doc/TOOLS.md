@@ -30,16 +30,16 @@ For example:
 ./rebuild.sh content/org/apache/maven/shared/archiver/maven-archiver-3.5.1.buildspec
 ```
 
-You can also use `podman` as a container engine by defining the environment variables before you run `rebuild.sh`:
+You can also use `podman` as a container engine by defining these environment variables before you run `rebuild.sh`:
 
-	REBUILD_ENGINE
 	# The engine to use. Defaults to 'docker', but also tested with 'podman'.
+	REBUILD_ENGINE
 
-	REBUILD_ENGINE_OPTS
 	# Extra options to provide to the container engine. Defaults to docker: "", podman: "--userns=keep-id"
+	REBUILD_ENGINE_OPTS
 	
-	REBUILD_VOLUME_FLAGS
 	# Extra flags to use when mounting volumes in the container. Defaults to "", but for podman running on an SELinux host, you need ":Z,rw"
+	REBUILD_VOLUME_FLAGS
 
 
 ### 2) Contribute to a new _buildspec_
