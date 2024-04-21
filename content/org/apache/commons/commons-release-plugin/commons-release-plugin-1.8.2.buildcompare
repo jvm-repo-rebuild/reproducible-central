@@ -1,0 +1,10 @@
+version=1.8.2
+ok=6
+ko=1
+ignored=1
+okFiles="commons-release-plugin-1.8.2.pom commons-release-plugin-1.8.2.jar commons-release-plugin-1.8.2-tests.jar commons-release-plugin-1.8.2-test-sources.jar commons-release-plugin-1.8.2-cyclonedx.xml commons-release-plugin-1.8.2-cyclonedx.json"
+koFiles="commons-release-plugin-1.8.2-sources.jar"
+ignoredFiles="commons-release-plugin-1.8.2.spdx.json"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.commons/commons-release-plugin-1.8.2-sources.jar target/commons-release-plugin-1.8.2-sources.jar

@@ -1,0 +1,62 @@
+1 / 1 target/reference/org.apache.commons/commons-release-plugin-1.8.2-sources.jar target/commons-release-plugin-1.8.2-sources.jar
+--- target/reference/org.apache.commons/commons-release-plugin-1.8.2-sources.jar
++++ target/commons-release-plugin-1.8.2-sources.jar
+├── zipinfo {}
+│ @@ -1,20 +1,18 @@
+│ -Zip file size: 44191 bytes, number of entries: 40
+│ +Zip file size: 43901 bytes, number of entries: 38
+│  -rw-r--r--  2.0 unx      337 b- defN 24-Apr-16 00:45 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-16 00:45 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-16 00:45 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-16 00:45 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-16 00:45 org/apache/commons/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-16 00:45 org/apache/commons/release/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-16 00:45 org/apache/commons/release/plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-16 00:45 org/apache/commons/release/plugin/mojos/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-16 00:45 org/apache/commons/release/plugin/velocity/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-16 00:45 snippet/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-16 00:45 resources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-16 00:45 resources/artifacts-for-validation-deletable-post-validation/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-16 00:45 resources/commons-xdoc-templates/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-16 00:45 resources/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-16 00:45 resources/org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-16 00:45 resources/org/apache/commons/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-16 00:45 resources/org/apache/commons/release/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-16 00:45 resources/org/apache/commons/release/plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-16 00:45 resources/org/apache/commons/release/plugin/velocity/
+│ @@ -35,8 +33,8 @@
+│  -rw-r--r--  2.0 unx     1230 b- defN 24-Apr-16 00:45 resources/org/apache/commons/release/plugin/velocity/HEADER.vm
+│  -rw-r--r--  2.0 unx     2694 b- defN 24-Apr-16 00:45 resources/org/apache/commons/release/plugin/velocity/README.vm
+│  -rw-r--r--  2.0 unx     5694 b- defN 24-Apr-16 00:45 resources/signature-validator.sh
+│  -rw-r--r--  2.0 unx    11358 b- defN 24-Apr-16 00:45 META-INF/LICENSE.txt
+│  -rw-r--r--  2.0 unx      184 b- defN 24-Apr-16 00:45 META-INF/NOTICE.txt
+│  -rw-r--r--  2.0 unx    27705 b- defN 24-Apr-16 00:45 META-INF/maven/org.apache.commons/commons-release-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       75 b- defN 24-Apr-16 00:45 META-INF/maven/org.apache.commons/commons-release-plugin/pom.properties
+│ -40 files, 131707 bytes uncompressed, 37787 bytes compressed:  71.3%
+│ +38 files, 131707 bytes uncompressed, 37787 bytes compressed:  71.3%
+├── zipnote «TEMP»/diffoscope_obcjhd6o_target/tmpnl4ioigc_.zip
+│ @@ -21,23 +21,17 @@
+│  
+│  Filename: org/apache/commons/release/plugin/mojos/
+│  Comment: 
+│  
+│  Filename: org/apache/commons/release/plugin/velocity/
+│  Comment: 
+│  
+│ -Filename: snippet/
+│ -Comment: 
+│ -
+│  Filename: resources/
+│  Comment: 
+│  
+│ -Filename: resources/artifacts-for-validation-deletable-post-validation/
+│ -Comment: 
+│ -
+│  Filename: resources/commons-xdoc-templates/
+│  Comment: 
+│  
+│  Filename: resources/org/
+│  Comment: 
+│  
+│  Filename: resources/org/apache/
+
