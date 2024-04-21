@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3483 releases** of **632 projects**:
-   - **2757** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **3487 releases** of **633 projects**:
+   - **2761** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 726 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 632 projects, 530 have at least one fully reproducible release, 102 have none
+   - on 633 projects, 531 have at least one fully reproducible release, 102 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -82,6 +82,7 @@ Its objectives are to provide:
 | com.google.guava | [guava](content/com/google/guava/README.md) | 4 | 4 :warning: |
 | com.innoq | [junit5-logging-extension](content/com/innoq/junit5-logging-extension/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | com.intellectualsites.arkitektonika | [Arkitektonika-Client](content/com/intellectualsites/arkitektonika/Arkitektonika-Client/README.md) | 1 | 1 :white_check_mark: |
+| com.intellectualsites.fastasyncvoxelsniper | [fastasyncvoxelsniper](content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/README.md) | 1 | 1 :white_check_mark: |
 | com.intellectualsites.informative-annotations | [informative-annotations](content/com/intellectualsites/informative-annotations/informative-annotations/README.md) | 1 | 1 :white_check_mark: |
 | com.intellectualsites.paster | [Paster](content/com/intellectualsites/paster/Paster/README.md) | 1 | 1 :white_check_mark: |
 | com.io7m | [*.anethum](content/com/io7m/anethum/README.md) | 5 | 5 :white_check_mark: |
@@ -300,7 +301,7 @@ Its objectives are to provide:
 | org.apache.shiro | [shiro-root](content/org/apache/shiro/README.md) | 8 | 1 :white_check_mark: / 7 :warning: |
 | org.apache.sis | [parent](content/org/apache/sis/README.md) | 1 | 1 :warning: |
 | org.apache.sshd | [sshd](content/org/apache/sshd/README.md) | 6 | 6 :warning: |
-| org.apache.struts | [struts2-parent](content/org/apache/struts/README.md) | 9 | 3 :white_check_mark: / 6 :warning: |
+| org.apache.struts | [struts2-parent](content/org/apache/struts/README.md) | 10 | 4 :white_check_mark: / 6 :warning: |
 | org.apache.synapse | [Apache-Synapse](content/org/apache/synapse/README.md) | 1 | 1 :warning: |
 | org.apache.syncope | [syncope](content/org/apache/syncope/README.md) | 6 | 6 :warning: |
 | org.apache.systemds | [systemds](content/org/apache/systemds/README.md) | 1 | 1 :warning: |
@@ -576,7 +577,7 @@ Its objectives are to provide:
 | org.glassfish.hk2 | [hk2-parent](content/org/glassfish/hk2/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
 | org.glassfish.main | [glassfish-parent](content/org/glassfish/main/README.md) | 9 | 9 :warning: |
 | org.glassfish.build | [glassfishbuild-maven-plugin](content/org/glassfish/build/glassfishbuild-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
-| org.jpmml | [jpmml-sklearn](content/org/jpmml/jpmml-sklearn/README.md) | 2 | 2 :white_check_mark: |
+| org.jpmml | [jpmml-sklearn](content/org/jpmml/jpmml-sklearn/README.md) | 3 | 3 :white_check_mark: |
 | | [jpmml-statsmodels](content/org/jpmml/jpmml-statsmodels/README.md) | 1 | 1 :warning: |
 | org.jrivard.xmlchai | [xmlchai](content/org/jrivard/xmlchai/README.md) | 2 | 2 :warning: |
 | org.junit | [junit-bom](content/org/junit/junit5/README.md) | 3 | 3 :warning: |
@@ -588,7 +589,7 @@ Its objectives are to provide:
 | org.moditect.layrry | [layrry-aggregator](content/org/moditect/layrry/README.md) | 1 | 1 :white_check_mark: |
 | org.moditect | [moditect](content/org/moditect/moditect/README.md) | 4 | 4 :white_check_mark: |
 | org.mybatis | [base-bundle-descriptor](content/org/mybatis/base-bundle-descriptor/README.md) | 2 | 2 :white_check_mark: |
-| | [mybatis-cdi](content/org/mybatis/cdi/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
+| | [mybatis-cdi](content/org/mybatis/cdi/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
 | org.mybatis.dynamic-sql | [mybatis-dynamic-sql](content/org/mybatis/dynamic-sql/README.md) | 3 | 3 :warning: |
 | org.mybatis.generator | [mybatis-generator](content/org/mybatis/generator/README.md) | 1 | 1 :warning: |
 | org.mybatis | [mybatis-guice](content/org/mybatis/guice/README.md) | 3 | 3 :white_check_mark: |
@@ -655,7 +656,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 35 | 35 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **632** | **3483** | **2757** :white_check_mark: **726** :warning: |
+| **Count:** | **633** | **3487** | **2761** :white_check_mark: **726** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -667,10 +668,10 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
 ```
      26 gradle     11
-     12 gradle     17
+     13 gradle     17
       3 gradle     21
      26 mvn         7
-   1139 mvn         8
+   1140 mvn         8
       1 mvn         9
     968 mvn        11
       2 mvn        11.0.19
@@ -752,12 +753,12 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.5  17.0.9
      33 mvn-3.9.5  21
       1 mvn-3.9.5  22
-      4 mvn-3.9.6   8
+      5 mvn-3.9.6   8
       2 mvn-3.9.6  11
       2 mvn-3.9.6  17
       1 mvn-3.9.6  17.0.7
      17 mvn-3.9.6  21
-      2 mvn-3.9.6  22
+      3 mvn-3.9.6  22
       2 mvn-4.0.0-alpha-12  21
       1 mvn-4.0.0-alpha-7  17
       1 mvn-4.0.0-alpha-8  21

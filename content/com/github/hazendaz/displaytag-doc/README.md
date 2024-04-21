@@ -20,10 +20,12 @@ rebuilding **1 releases** of com.github.hazendaz:displaytag-doc:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.2](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.0.2/pom) | | | |
 | [3.0.1](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.0.1/pom) | | | |
 | [3.0.0](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.0.0/pom) | | | |
 | [3.0.0-M2](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.0.0-M2/pom) | | | |
 | [3.0.0-M1](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.0.0-M1/pom) | | | |
+| [2.5.5](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/2.5.5/pom) | | | |
 | [2.5.4](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/2.5.4/pom) | [mvn jdk21 w](displaytag-doc-2.5.4.buildspec) | [result](displaytag-doc-2.5.4.buildinfo): [13 :white_check_mark:  2 :warning:](displaytag-doc-2.5.4.buildcompare) [:mag:](displaytag-doc-2.5.4.diffoscope) | 17M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
