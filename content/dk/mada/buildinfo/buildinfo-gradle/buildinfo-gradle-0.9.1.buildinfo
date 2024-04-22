@@ -1,0 +1,33 @@
+name=dk.mada.buildinfo:buildinfo-gradle
+group-id=dk.mada.buildinfo
+artifact-id=buildinfo-gradle
+
+build-tool=gradle
+java.version=21
+os.name=lf
+
+outputs.1.coordinates=dk.mada.buildinfo:buildinfo-gradle
+
+outputs.1.0.filename=buildinfo-gradle-0.9.1.jar
+outputs.1.0.length=11376
+outputs.1.0.checksums.sha512=e3b244e04e15d66d7da3428f5470282b3c9cdfec4a70ca31f8df9a540a6f2e68f006236dd7bd64f07ee4b11f2d82df718f5624cdd392542a32d6194b58ec1020  repository/dk/mada/buildinfo/buildinfo-gradle/0.9.1/buildinfo-gradle-0.9.1.jar
+
+outputs.1.1.filename=buildinfo-gradle-0.9.1.module
+outputs.1.1.length=3519
+outputs.1.1.checksums.sha512=8423956ca823be010cf6df508e99a23e6d802a4c7b322443d38c3e0678a44375a6b7ce239614ea817f4a23bb284ab949a07c05bf29a1782785e14673a04a50cf  repository/dk/mada/buildinfo/buildinfo-gradle/0.9.1/buildinfo-gradle-0.9.1.module
+
+outputs.1.2.filename=buildinfo-gradle-0.9.1.pom
+outputs.1.2.length=1598
+outputs.1.2.checksums.sha512=272770fb05cafd674f14e98b4dc358bdcce8e85349f6489b32ad3677c52578598701afb08eed6a820e5ef431ddee71eb03d91d173752b2f90eb4d4a7f63ee982  repository/dk/mada/buildinfo/buildinfo-gradle/0.9.1/buildinfo-gradle-0.9.1.pom
+
+outputs.1.3.filename=buildinfo-gradle-0.9.1-sources.jar
+outputs.1.3.length=6070
+outputs.1.3.checksums.sha512=cf4c8ecbb6ddcc146ff38a727414e4aada87c2e2fa557cc3860de0bf96ecc18585c71aefa052dde25122ef752873d30364fa0aa2777e6cda03e67de3fe928de2  repository/dk/mada/buildinfo/buildinfo-gradle/0.9.1/buildinfo-gradle-0.9.1-sources.jar
+
+
+outputs.2.coordinates=dk.mada.buildinfo:dk.mada.buildinfo.gradle.plugin
+
+outputs.2.0.filename=dk.mada.buildinfo.gradle.plugin-0.9.1.pom
+outputs.2.0.length=1473
+outputs.2.0.checksums.sha512=52cc58d57d95d74575bd97cf23b14264f17575c8a89e96107de62d3bcdd130e4f87183405c8dd59d67be109a21e5f4d0e9df6f396c701a0736fa01b14746eef3  repository/dk/mada/buildinfo/dk.mada.buildinfo.gradle.plugin/0.9.1/dk.mada.buildinfo.gradle.plugin-0.9.1.pom
+
