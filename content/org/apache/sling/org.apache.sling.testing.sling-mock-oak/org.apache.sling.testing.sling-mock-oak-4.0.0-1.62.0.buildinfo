@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Testing Sling Mock Oak
+group-id=org.apache.sling
+artifact-id=org.apache.sling.testing.sling-mock-oak
+version=4.0.0-1.62.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-testing-sling-mock-oak.git
+source.scm.tag=org.apache.sling.testing.sling-mock-oak-4.0.0-1.62.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.testing.sling-mock-oak-4.0.0-1.62.0.pom
+outputs.0.length=6867
+outputs.0.checksums.sha512=97662d67e026354142972f14396fe0901e0fa367e839f9ed1f760147d2e4061221887444b90f87cc1ac1048c9fe38e4817e143b2210a88cdef84e918f967f584
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.testing.sling-mock-oak-4.0.0-1.62.0.jar
+outputs.1.length=7289909
+outputs.1.checksums.sha512=cd43cf398135b9b69976fbc4cab20fd361fac788bbacb89df49af90fcd39378ba27e419e4b95947647281540f39ecc7802e91b23df530f6d57f85052660040cc
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.testing.sling-mock-oak-4.0.0-1.62.0-source-release.zip
+outputs.2.length=77865
+outputs.2.checksums.sha512=a87e893193aa052e4d637e5f7a39d491761c6060f45a72838f20a6cad10ee681501cdba844db5621f9c7070f786fb48798c866ac4c502cac08966bc6534cf7a3
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.testing.sling-mock-oak-4.0.0-1.62.0-sources.jar
+outputs.3.length=4761850
+outputs.3.checksums.sha512=e9bd7a31b957851f6faf82ccc4ce9771188ce2c6ba721bc1f72f2c0f483a10bba6ade79f4b8da9bcb8108130be305a8cf126be0f33ba8c815bbf6ed231354182
