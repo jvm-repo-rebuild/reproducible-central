@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-testing-sling-mock-oak.git](https://github.com/apache/sling-org-apache-sling-testing-sling-mock-oak.git)
 
-rebuilding **6 releases** of org.apache.sling:org.apache.sling.testing.sling-mock-oak:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of org.apache.sling:org.apache.sling.testing.sling-mock-oak:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.0.0-1.62.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock-oak/4.0.0-1.62.0/pom) | | | |
-| [3.2.0-1.22.15](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock-oak/3.2.0-1.22.15/pom) | | | |
+| [4.0.0-1.62.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock-oak/4.0.0-1.62.0/pom) | [mvn jdk17 w](org.apache.sling.testing.sling-mock-oak-4.0.0-1.62.0.buildspec) | [result](org.apache.sling.testing.sling-mock-oak-4.0.0-1.62.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.testing.sling-mock-oak-4.0.0-1.62.0.buildcompare) | 12M |
+| [3.2.0-1.22.15](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock-oak/3.2.0-1.22.15/pom) | [mvn jdk11 w](org.apache.sling.testing.sling-mock-oak-3.2.0-1.22.15.buildspec) | [result](org.apache.sling.testing.sling-mock-oak-3.2.0-1.22.15.buildinfo): [4 :white_check_mark: ](org.apache.sling.testing.sling-mock-oak-3.2.0-1.22.15.buildcompare) | 14M |
 | [3.1.10-1.44.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock-oak/3.1.10-1.44.0/pom) | [mvn jdk11 w](org.apache.sling.testing.sling-mock-oak-3.1.10-1.44.0.buildspec) | [result](org.apache.sling.testing.sling-mock-oak-3.1.10-1.44.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.testing.sling-mock-oak-3.1.10-1.44.0.buildcompare) | 18M |
 | [3.1.8-1.44.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock-oak/3.1.8-1.44.0/pom) | [mvn jdk11 w](org.apache.sling.testing.sling-mock-oak-3.1.8-1.44.0.buildspec) | [result](org.apache.sling.testing.sling-mock-oak-3.1.8-1.44.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.testing.sling-mock-oak-3.1.8-1.44.0.buildcompare) | 18M |
 | [3.1.4-1.40.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock-oak/3.1.4-1.40.0/pom) | [mvn jdk11 w](org.apache.sling.testing.sling-mock-oak-3.1.4-1.40.0.buildspec) | [result](org.apache.sling.testing.sling-mock-oak-3.1.4-1.40.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.testing.sling-mock-oak-3.1.4-1.40.0.buildcompare) | 18M |
