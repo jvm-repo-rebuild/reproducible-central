@@ -1,0 +1,33 @@
+name=dk.mada.style:mada-style-gradle
+group-id=dk.mada.style
+artifact-id=mada-style-gradle
+
+build-tool=gradle
+java.version=21
+os.name=lf
+
+outputs.1.coordinates=dk.mada.style:dk.mada.style.gradle.plugin
+
+outputs.1.0.filename=dk.mada.style.gradle.plugin-0.9.7.pom
+outputs.1.0.length=1497
+outputs.1.0.checksums.sha512=bf32c8ee339f4eb2952e11e5f9e9039fbb93b53c7aa39643bd2560587eb45c7f1a054f52b297d71ed228aec844e0fde2b86b5951ba39caede9b3f0d8d4953ae9  repository/dk/mada/style/dk.mada.style.gradle.plugin/0.9.7/dk.mada.style.gradle.plugin-0.9.7.pom
+
+
+outputs.2.coordinates=dk.mada.style:mada-style-gradle
+
+outputs.2.0.filename=mada-style-gradle-0.9.7.jar
+outputs.2.0.length=35337
+outputs.2.0.checksums.sha512=bdf1be6e2810f052c5586c10c9c8b6fb60ccdf8f299b954356aedb657ef83dcb114b84ef663a20a0ad2cf55594d569b6ca0ab6f97d9e713394dbf42b2349e5c5  repository/dk/mada/style/mada-style-gradle/0.9.7/mada-style-gradle-0.9.7.jar
+
+outputs.2.1.filename=mada-style-gradle-0.9.7.module
+outputs.2.1.length=4103
+outputs.2.1.checksums.sha512=9e0930479ec84707cca900f61463eb983883b097bad0d5653ead9fb3536c0df41fda459395fb76df6d4fc51fed913dd36632a1a1da82f6abc0f395fe01cf40dc  repository/dk/mada/style/mada-style-gradle/0.9.7/mada-style-gradle-0.9.7.module
+
+outputs.2.2.filename=mada-style-gradle-0.9.7.pom
+outputs.2.2.length=2265
+outputs.2.2.checksums.sha512=6906ffc8468e3f37354580089cfc98c506d2be161c63370099f34fc26dd747a050e2e2bda29128905a58ce14a887cbc1477b04f9c62ccd3b95c7846aa8638b5d  repository/dk/mada/style/mada-style-gradle/0.9.7/mada-style-gradle-0.9.7.pom
+
+outputs.2.3.filename=mada-style-gradle-0.9.7-sources.jar
+outputs.2.3.length=19161
+outputs.2.3.checksums.sha512=86e73e1a50cec3a39accd56d932dbb1221c6bb4d824f97e1f22bb469f55a259e8b884784377af097b5ba200d03dd2455715857041a135f4c7e27b09cd4b01f47  repository/dk/mada/style/mada-style-gradle/0.9.7/mada-style-gradle-0.9.7-sources.jar
+
