@@ -27,11 +27,11 @@ umask=022
 #locale="en_US"
 
 # Rebuild command
-command="bash ./gradlew --no-daemon javadoc publish generateBuildInfo publishToMavenLocal -Pversion=${version}"
+command="bash ./gradlew --no-daemon javadoc publish publishToMavenLocal -Pversion=${version}"
 #command="bash ./gradlew --no-daemon clean assemble generateBuildInfo publishToMavenLocal -Pversion=${version}"
 
 # Location of the buildinfo file generated during rebuild (by attifact:compare for Maven) to record output fingerprints
-buildinfo=build/buildinfo/${artifactId}-${version}.buildinfo
+buildinfo=${artifactId}-${version}.buildinfo
 
 # if the release is finally not reproducible, link to an issue tracker entry if one was created or diffoscope result
 #diffoscope=${artifactId}-${version}.diffoscope
