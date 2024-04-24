@@ -1,0 +1,9 @@
+version=1.3.2
+ok=6
+ko=0
+ignored=1
+okFiles="whitespace-maven-plugin-1.3.2.pom whitespace-maven-plugin-1.3.2.jar whitespace-maven-plugin-1.3.2-sources.jar whitespace-maven-plugin-1.3.2-test-sources.jar whitespace-maven-plugin-1.3.2-cyclonedx.xml whitespace-maven-plugin-1.3.2-cyclonedx.json"
+koFiles=""
+ignoredFiles="whitespace-maven-plugin-1.3.2-tests.jar"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
