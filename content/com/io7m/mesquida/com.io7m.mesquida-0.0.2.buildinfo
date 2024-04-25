@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.mesquida
+group-id=com.io7m.mesquida
+artifact-id=com.io7m.mesquida
+version=0.0.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/mesquida
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.io7m.mesquida
+outputs.0.filename=com.io7m.mesquida-0.0.2.pom
+outputs.0.length=13504
+outputs.0.checksums.sha512=026e75de08d3fee0d6ae7e4af1d3a7bc7e5c72151354d22fb0145c4609dec6b6867381c8844a6dbc5b7bc8e9b41cde883477ce32e1aadabb15a53f10192eb45f
+
+outputs.1.groupId=com.io7m.mesquida
+outputs.1.filename=com.io7m.mesquida-0.0.2.jar
+outputs.1.length=161566
+outputs.1.checksums.sha512=3b7cee2aac6cf7354c407890b1fa736fb566c2dd204e34bd290c9c53d5720f42e8a0e4d754ff1ff4548cf76c56f1244d7cbade708f9386595e53eee9248431fc
+
+outputs.2.groupId=com.io7m.mesquida
+outputs.2.filename=com.io7m.mesquida-0.0.2-sources.jar
+outputs.2.length=111885
+outputs.2.checksums.sha512=b161683dbd7ae4b35daa179d520808082655f3d7d26f643a9cfe0cdb0c64da9929a092601e86a6e94e5d197ee02b8de8aaaef57a4e5ec676f0459bf11972649f
+
+outputs.3.groupId=com.io7m.mesquida
+outputs.3.filename=com.io7m.mesquida-0.0.2-test-sources.jar
+outputs.3.length=9025
+outputs.3.checksums.sha512=164664617b91644c3c7b4954bad74d052eadb91d927dddcb5e4b95c9a2dc1fcacd013c7c2127927b7b129afff4c8d15262dd72711cc2c61dbcb7a36780fbf693
+
+outputs.4.groupId=com.io7m.mesquida
+outputs.4.filename=com.io7m.mesquida-0.0.2-main.jar
+outputs.4.length=28577368
+outputs.4.checksums.sha512=04eeb12bcf26f80f98a63735f72aecc278c9e2f9da24818cc6e15a8a59250051443bb0f05944f1ad61f1f003385a932f9df4c4cafa42d20e084582d9e77d8d14
+
+outputs.5.groupId=com.io7m.mesquida
+outputs.5.filename=com.io7m.mesquida-0.0.2-cyclonedx.xml
+outputs.5.length=1098462
+outputs.5.checksums.sha512=0d6c9737af10187eb35e3c7f261f6eed87cbd00ca9c2c13ba7ef43c6b7eca5b81ee8efa30949adc601d980ea1c3610fd375b5413f72ac2d5867e1943537cdcd4
+
+outputs.6.groupId=com.io7m.mesquida
+outputs.6.filename=com.io7m.mesquida-0.0.2-tests.jar
+outputs.6.length=9708
+outputs.6.checksums.sha512=af0acb154f9c0839bc2ae07bd96c721617d43f167ab5ded76f4c374538c434ea064e11d566ee40e0f4fe2e5e6a596867580b169c44cc18bab467188147de9be6
