@@ -13,6 +13,7 @@ rebuilding **1 releases** of com.io7m.mesquida:com.io7m.mesquida:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.0.2](https://central.sonatype.com/artifact/com.io7m.mesquida/com.io7m.mesquida/0.0.2/pom) | | | |
 | [0.0.1](https://central.sonatype.com/artifact/com.io7m.mesquida/com.io7m.mesquida/0.0.1/pom) | [mvn jdk17.0.7](com.io7m.mesquida-0.0.1.buildspec) | [result](com.io7m.mesquida-0.0.1.buildinfo): [6 :white_check_mark: ](com.io7m.mesquida-0.0.1.buildcompare) | 27M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

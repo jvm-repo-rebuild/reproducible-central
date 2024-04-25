@@ -9,18 +9,19 @@ Source code: [https://github.com/apache/maven-wrapper.git](https://github.com/ap
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [org.apache.maven.plugins:maven-wrapper-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-wrapper-plugin/3.3.0)
-* [org.apache.maven.wrapper:maven-wrapper](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper/3.3.0)
-* [org.apache.maven.wrapper:maven-wrapper-distribution](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper-distribution/3.3.0)
-* [org.apache.maven.wrapper:maven-wrapper-parent](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper-parent/3.3.0)
+* [org.apache.maven.plugins:maven-wrapper-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-wrapper-plugin/3.3.1)
+* [org.apache.maven.wrapper:maven-wrapper](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper/3.3.1)
+* [org.apache.maven.wrapper:maven-wrapper-distribution](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper-distribution/3.3.1)
+* [org.apache.maven.wrapper:maven-wrapper-parent](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper-parent/3.3.1)
 </details>
 
-rebuilding **6 releases** of org.apache.maven.plugins:maven-wrapper-plugin:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of org.apache.maven.plugins:maven-wrapper-plugin:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.3.1](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper/3.3.1/pom) | [mvn jdk21](wrapper-3.3.1.buildspec) | [result](maven-wrapper-parent-3.3.1.buildinfo): [21 :white_check_mark: ](maven-wrapper-parent-3.3.1.buildcompare) | 900K |
 | [3.3.0](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper/3.3.0/pom) | [mvn jdk21](wrapper-3.3.0.buildspec) | [result](maven-wrapper-parent-3.3.0.buildinfo): [21 :white_check_mark: ](maven-wrapper-parent-3.3.0.buildcompare) | 899K |
 | [3.2.0](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper/3.2.0/pom) | [mvn jdk17](wrapper-3.2.0.buildspec) | [result](maven-wrapper-parent-3.2.0.buildinfo): [15 :white_check_mark: ](maven-wrapper-parent-3.2.0.buildcompare) | 410K |
 | [3.1.1](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper/3.1.1/pom) | [mvn jdk8](wrapper-3.1.1.buildspec) | [result](maven-wrapper-parent-3.1.1.buildinfo): [14 :white_check_mark: ](maven-wrapper-parent-3.1.1.buildcompare) | 356K |
