@@ -1,0 +1,194 @@
+1 / 1 target/reference/org.apache.maven.resolver/maven-resolver-1.9.20-source-release.zip target/maven-resolver-1.9.20-source-release.zip
+--- target/reference/org.apache.maven.resolver/maven-resolver-1.9.20-source-release.zip
++++ target/maven-resolver-1.9.20-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1686332 bytes, number of entries: 1853
+│ +Zip file size: 1688776 bytes, number of entries: 1865
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-api/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-api/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-api/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-api/src/main/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-api/src/main/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-api/src/main/java/org/eclipse/
+│ @@ -100,14 +100,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-demos/maven-resolver-demo-snippets/src/test/java/org/apache/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-demos/maven-resolver-demo-snippets/src/test/java/org/apache/maven/resolver/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-demos/maven-resolver-demo-snippets/src/test/java/org/apache/maven/resolver/examples/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-demos/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-demos/src/site/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-demos/src/site/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-demos/src/site/xdoc/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-generator-gnupg/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-impl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-impl/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-impl/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-impl/src/main/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-impl/src/main/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-impl/src/main/java/org/eclipse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-impl/src/main/java/org/eclipse/aether/
+│ @@ -241,14 +242,17 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-supplier/src/main/java/org/eclipse/aether/supplier/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-supplier/src/test/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-supplier/src/test/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-supplier/src/test/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-supplier/src/test/java/org/eclipse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-supplier/src/test/java/org/eclipse/aether/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-supplier/src/test/java/org/eclipse/aether/supplier/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-supplier-mvn3/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-supplier-mvn4/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-test-http/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-test-util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-test-util/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-test-util/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-test-util/src/main/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-test-util/src/main/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-test-util/src/main/java/org/eclipse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-test-util/src/main/java/org/eclipse/aether/
+│ @@ -267,14 +271,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-test-util/src/test/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-test-util/src/test/resources/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-test-util/src/test/resources/org/eclipse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-test-util/src/test/resources/org/eclipse/aether/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-test-util/src/test/resources/org/eclipse/aether/internal/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-test-util/src/test/resources/org/eclipse/aether/internal/test/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-test-util/src/test/resources/org/eclipse/aether/internal/test/util/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-tools/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-classpath/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-classpath/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-classpath/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-classpath/src/main/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-classpath/src/main/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-classpath/src/main/java/org/eclipse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-classpath/src/main/java/org/eclipse/aether/
+│ @@ -323,14 +329,20 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-http/src/test/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-http/src/test/java/org/eclipse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-http/src/test/java/org/eclipse/aether/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-http/src/test/java/org/eclipse/aether/transport/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-http/src/test/java/org/eclipse/aether/transport/http/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-http/src/test/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-http/src/test/resources/ssl/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-jdk-parent/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-jdk-parent/maven-resolver-transport-jdk/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-jdk-parent/maven-resolver-transport-jdk-11/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-jdk-parent/maven-resolver-transport-jdk-21/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-jdk-parent/maven-resolver-transport-jdk-8/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-jetty/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-wagon/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-wagon/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-wagon/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-wagon/src/main/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-wagon/src/main/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-wagon/src/main/java/org/eclipse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 10:42 maven-resolver-1.9.20/maven-resolver-transport-wagon/src/main/java/org/eclipse/aether/
+│ @@ -1848,8 +1860,8 @@
+│  -rw-r--r--  2.0 unx     2330 b- defN 24-Apr-26 10:42 maven-resolver-1.9.20/src/site/site.xml
+│  -rw-r--r--  2.0 unx     3331 b- defN 24-Apr-26 10:42 maven-resolver-1.9.20/src/site/xdoc/download.xml.vm
+│  -rw-r--r--  2.0 unx     4412 b- defN 24-Apr-26 10:42 maven-resolver-1.9.20/src/site/xdoc/index.xml
+│  -rw-r--r--  2.0 unx    15695 b- defN 24-Apr-26 10:42 maven-resolver-1.9.20/src/site/xdoc/maven-resolver-deps.odg
+│  -rw-r--r--  2.0 unx      273 b- defN 24-Apr-26 10:42 maven-resolver-1.9.20/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 24-Apr-26 10:42 maven-resolver-1.9.20/LICENSE
+│  -rw-r--r--  2.0 unx      178 b- defN 24-Apr-26 10:42 maven-resolver-1.9.20/NOTICE
+│ -1853 files, 3928157 bytes uncompressed, 1147640 bytes compressed:  70.8%
+│ +1865 files, 3928157 bytes uncompressed, 1147640 bytes compressed:  70.8%
+├── zipnote {}
+│ @@ -309,14 +309,17 @@
+│  
+│  Filename: maven-resolver-1.9.20/maven-resolver-demos/src/site/resources/
+│  Comment: 
+│  
+│  Filename: maven-resolver-1.9.20/maven-resolver-demos/src/site/xdoc/
+│  Comment: 
+│  
+│ +Filename: maven-resolver-1.9.20/maven-resolver-generator-gnupg/
+│ +Comment: 
+│ +
+│  Filename: maven-resolver-1.9.20/maven-resolver-impl/
+│  Comment: 
+│  
+│  Filename: maven-resolver-1.9.20/maven-resolver-impl/src/
+│  Comment: 
+│  
+│  Filename: maven-resolver-1.9.20/maven-resolver-impl/src/main/
+│ @@ -732,14 +735,23 @@
+│  
+│  Filename: maven-resolver-1.9.20/maven-resolver-supplier/src/test/java/org/eclipse/aether/
+│  Comment: 
+│  
+│  Filename: maven-resolver-1.9.20/maven-resolver-supplier/src/test/java/org/eclipse/aether/supplier/
+│  Comment: 
+│  
+│ +Filename: maven-resolver-1.9.20/maven-resolver-supplier-mvn3/
+│ +Comment: 
+│ +
+│ +Filename: maven-resolver-1.9.20/maven-resolver-supplier-mvn4/
+│ +Comment: 
+│ +
+│ +Filename: maven-resolver-1.9.20/maven-resolver-test-http/
+│ +Comment: 
+│ +
+│  Filename: maven-resolver-1.9.20/maven-resolver-test-util/
+│  Comment: 
+│  
+│  Filename: maven-resolver-1.9.20/maven-resolver-test-util/src/
+│  Comment: 
+│  
+│  Filename: maven-resolver-1.9.20/maven-resolver-test-util/src/main/
+│ @@ -810,14 +822,20 @@
+│  
+│  Filename: maven-resolver-1.9.20/maven-resolver-test-util/src/test/resources/org/eclipse/aether/internal/test/
+│  Comment: 
+│  
+│  Filename: maven-resolver-1.9.20/maven-resolver-test-util/src/test/resources/org/eclipse/aether/internal/test/util/
+│  Comment: 
+│  
+│ +Filename: maven-resolver-1.9.20/maven-resolver-tools/
+│ +Comment: 
+│ +
+│ +Filename: maven-resolver-1.9.20/maven-resolver-transport-apache/
+│ +Comment: 
+│ +
+│  Filename: maven-resolver-1.9.20/maven-resolver-transport-classpath/
+│  Comment: 
+│  
+│  Filename: maven-resolver-1.9.20/maven-resolver-transport-classpath/src/
+│  Comment: 
+│  
+│  Filename: maven-resolver-1.9.20/maven-resolver-transport-classpath/src/main/
+│ @@ -978,14 +996,32 @@
+│  
+│  Filename: maven-resolver-1.9.20/maven-resolver-transport-http/src/test/resources/
+│  Comment: 
+│  
+│  Filename: maven-resolver-1.9.20/maven-resolver-transport-http/src/test/resources/ssl/
+│  Comment: 
+│  
+│ +Filename: maven-resolver-1.9.20/maven-resolver-transport-jdk-parent/
+│ +Comment: 
+│ +
+│ +Filename: maven-resolver-1.9.20/maven-resolver-transport-jdk-parent/maven-resolver-transport-jdk/
+│ +Comment: 
+│ +
+│ +Filename: maven-resolver-1.9.20/maven-resolver-transport-jdk-parent/maven-resolver-transport-jdk-11/
+│ +Comment: 
+│ +
+│ +Filename: maven-resolver-1.9.20/maven-resolver-transport-jdk-parent/maven-resolver-transport-jdk-21/
+│ +Comment: 
+│ +
+│ +Filename: maven-resolver-1.9.20/maven-resolver-transport-jdk-parent/maven-resolver-transport-jdk-8/
+│ +Comment: 
+│ +
+│ +Filename: maven-resolver-1.9.20/maven-resolver-transport-jetty/
+│ +Comment: 
+│ +
+│  Filename: maven-resolver-1.9.20/maven-resolver-transport-wagon/
+│  Comment: 
+│  
+│  Filename: maven-resolver-1.9.20/maven-resolver-transport-wagon/src/
+│  Comment: 
+│  
+│  Filename: maven-resolver-1.9.20/maven-resolver-transport-wagon/src/main/
+
