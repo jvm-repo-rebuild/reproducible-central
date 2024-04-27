@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3519 releases** of **637 projects**:
-   - **2788** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **3521 releases** of **637 projects**:
+   - **2790** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 731 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 637 projects, 536 have at least one fully reproducible release, 101 have none
 
@@ -401,7 +401,7 @@ Its objectives are to provide:
 | org.apache.maven.reporting | [maven-reporting-api](content/org/apache/maven/reporting/maven-reporting-api/README.md) | 13 | 13 :white_check_mark: |
 | | [maven-reporting-exec](content/org/apache/maven/reporting/maven-reporting-exec/README.md) | 14 | 14 :white_check_mark: |
 | | [maven-reporting-impl](content/org/apache/maven/reporting/maven-reporting-impl/README.md) | 15 | 15 :white_check_mark: |
-| org.apache.maven.resolver | [maven-resolver](content/org/apache/maven/resolver/maven-resolver/README.md) | 36 | 34 :white_check_mark: / 2 :warning: |
+| org.apache.maven.resolver | [maven-resolver](content/org/apache/maven/resolver/maven-resolver/README.md) | 37 | 35 :white_check_mark: / 2 :warning: |
 | | [maven-resolver-ant-tasks](content/org/apache/maven/resolver/maven-resolver-ant-tasks/README.md) | 5 | 5 :white_check_mark: |
 | org.apache.maven | [maven-archiver](content/org/apache/maven/shared/archiver/README.md) | 5 | 5 :white_check_mark: |
 | org.apache.maven.shared | [file-management](content/org/apache/maven/shared/file-management/README.md) | 1 | 1 :white_check_mark: |
@@ -653,14 +653,14 @@ Its objectives are to provide:
 | | [uswds](content/org/webjars/uswds/README.md) | 1 | 1 :white_check_mark: |
 | | [webjars-locator](content/org/webjars/webjars-locator/README.md) | 7 | 7 :white_check_mark: |
 | | [webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 7 | 7 :white_check_mark: |
-| | [webjars-locator-lite](content/org/webjars/webjars-locator-lite/README.md) | 5 | 5 :white_check_mark: |
+| | [webjars-locator-lite](content/org/webjars/webjars-locator-lite/README.md) | 6 | 6 :white_check_mark: |
 | pl.com.labaj | [auto-record](content/pl/com/labaj/auto-record/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
 | pl.com.labaj.autorecord | [auto-record](content/pl/com/labaj/autorecord/auto-record/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
 | tech.picnic.error-prone-support | [error-prone-support](content/tech/picnic/error-prone-support/error-prone-support/README.md) | 15 | 14 :white_check_mark: / 1 :warning: |
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 35 | 35 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **637** | **3519** | **2788** :white_check_mark: **731** :warning: |
+| **Count:** | **637** | **3521** | **2790** :white_check_mark: **731** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -718,11 +718,11 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      52 mvn-3.9.1  17
       1 mvn-3.9.1  19
       6 mvn-3.9.1  20
-     28 mvn-3.9.1  21
+     29 mvn-3.9.1  21
       7 mvn-3.9.2   8
      17 mvn-3.9.2  17
       3 mvn-3.9.2  21
-     57 mvn-3.9.3   8
+     58 mvn-3.9.3   8
      41 mvn-3.9.3  11
       1 mvn-3.9.3  11.0.18
       2 mvn-3.9.3  11.0.2
