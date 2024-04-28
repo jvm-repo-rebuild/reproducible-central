@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3521 releases** of **637 projects**:
-   - **2790** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **3529 releases** of **637 projects**:
+   - **2798** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 731 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 637 projects, 536 have at least one fully reproducible release, 101 have none
 
@@ -316,7 +316,7 @@ Its objectives are to provide:
 | org.apache.aries.jax | [*.rs](content/org/apache/aries/jax-rs/README.md) | 1 | 1 :white_check_mark: |
 | org.apache.camel | [camel](content/org/apache/camel/camel/README.md) | 7 | 7 :warning: |
 | org.apache.camel.k | [camel-k-runtime-project](content/org/apache/camel/camel-k-runtime/README.md) | 5 | 5 :warning: |
-| org.apache.bcel | [bcel](content/org/apache/commons/bcel/README.md) | 4 | 4 :warning: |
+| org.apache.bcel | [bcel](content/org/apache/commons/bcel/README.md) | 5 | 5 :warning: |
 | org.apache.commons | [commons-exec](content/org/apache/commons/commons-exec/README.md) | 1 | 1 :white_check_mark: |
 | | [commons-release-plugin](content/org/apache/commons/commons-release-plugin/README.md) | 1 | 1 :warning: |
 | | [commons-compress](content/org/apache/commons/compress/README.md) | 6 | 2 :white_check_mark: / 4 :warning: |
@@ -524,7 +524,7 @@ Its objectives are to provide:
 | | [*.tooling.support.source](content/org/apache/sling/org.apache.sling.tooling.support.source/README.md) | 1 | 1 :white_check_mark: |
 | | [*.xss](content/org/apache/sling/org.apache.sling.xss/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
 | | [scriptingbundle-maven-plugin](content/org/apache/sling/scriptingbundle-maven-plugin/README.md) | 3 | 3 :warning: |
-| | [slingfeature-maven-plugin](content/org/apache/sling/slingfeature-maven-plugin/README.md) | 12 | 8 :white_check_mark: / 4 :warning: |
+| | [slingfeature-maven-plugin](content/org/apache/sling/slingfeature-maven-plugin/README.md) | 13 | 9 :white_check_mark: / 4 :warning: |
 | org.apache.tomee | [jakartaee-api](content/org/apache/tomee/jakartaee-api/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
 | org.apache.ws.commons.axiom | [axiom](content/org/apache/ws/commons/axiom/README.md) | 1 | 1 :warning: |
 | org.apache.ws.xmlschema | [xmlschema](content/org/apache/ws/xmlschema/xmlschema/README.md) | 1 | 1 :white_check_mark: |
@@ -632,7 +632,7 @@ Its objectives are to provide:
 | | [wmi](content/org/sentrysoftware/wmi/README.md) | 2 | 2 :white_check_mark: |
 | | [xflat](content/org/sentrysoftware/xflat/README.md) | 2 | 2 :white_check_mark: |
 | org.sentrysoftware.maven | [maven-skin-tools](content/org/sentrysoftware/maven/maven-skin-tools/README.md) | 4 | 4 :white_check_mark: |
-| | [sentry-maven-skin](content/org/sentrysoftware/maven/sentry-maven-skin/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
+| | [sentry-maven-skin](content/org/sentrysoftware/maven/sentry-maven-skin/README.md) | 9 | 9 :white_check_mark: |
 | org.simplify4u | [pgp-keys-map](content/org/simplify4u/pgp-keys-map/README.md) | 20 | 20 :white_check_mark: |
 | | [slf4j-mock](content/org/simplify4u/slf4j-mock/README.md) | 4 | 4 :white_check_mark: |
 | org.simplify4u.plugins | [pgpverify-maven-plugin](content/org/simplify4u/plugins/pgpverify-maven-plugin/README.md) | 8 | 8 :white_check_mark: |
@@ -660,7 +660,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 35 | 35 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **637** | **3521** | **2790** :white_check_mark: **731** :warning: |
+| **Count:** | **637** | **3529** | **2798** :white_check_mark: **731** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -685,7 +685,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      12 mvn        16
-    323 mvn        17
+    330 mvn        17
       1 mvn        17.0.10
       2 mvn        17.0.7
       1 mvn        17.0.8
@@ -694,7 +694,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn        18
      30 mvn        19
      15 mvn        20
-     79 mvn        21
+     80 mvn        21
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11
       1 mvn-3.8.5   8

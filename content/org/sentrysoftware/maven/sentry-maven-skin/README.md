@@ -7,19 +7,19 @@
 
 Source code: [https://github.com/sentrysoftware/sentry-maven-skin.git](https://github.com/sentrysoftware/sentry-maven-skin.git)
 
-rebuilding **3 releases** of org.sentrysoftware.maven:sentry-maven-skin:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+rebuilding **9 releases** of org.sentrysoftware.maven:sentry-maven-skin:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [6.4.01](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.4.01/pom) | | | |
-| [6.4.00](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.4.00/pom) | | | |
-| [6.3.03](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.3.03/pom) | | | |
-| [6.3.02](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.3.02/pom) | | | |
-| [6.3.01](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.3.01/pom) | | | |
-| [6.3.00](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.3.00/pom) | | | |
-| [6.2.00](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.2.00/pom) | [mvn jdk17](sentry-maven-skin-6.2.00.buildspec) | :x: | |
+| [6.4.01](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.4.01/pom) | [mvn jdk17](sentry-maven-skin-6.4.01.buildspec) | [result](sentry-maven-skin-6.4.01.buildinfo): [3 :white_check_mark: ](sentry-maven-skin-6.4.01.buildcompare) | 2.3M |
+| [6.4.00](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.4.00/pom) | [mvn jdk17](sentry-maven-skin-6.4.00.buildspec) | [result](sentry-maven-skin-6.4.00.buildinfo): [3 :white_check_mark: ](sentry-maven-skin-6.4.00.buildcompare) | 2.3M |
+| [6.3.03](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.3.03/pom) | [mvn jdk17](sentry-maven-skin-6.3.03.buildspec) | [result](sentry-maven-skin-6.3.03.buildinfo): [3 :white_check_mark: ](sentry-maven-skin-6.3.03.buildcompare) | 2.3M |
+| [6.3.02](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.3.02/pom) | [mvn jdk17](sentry-maven-skin-6.3.02.buildspec) | [result](sentry-maven-skin-6.3.02.buildinfo): [3 :white_check_mark: ](sentry-maven-skin-6.3.02.buildcompare) | 2.3M |
+| [6.3.01](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.3.01/pom) | [mvn jdk17](sentry-maven-skin-6.3.01.buildspec) | [result](sentry-maven-skin-6.3.01.buildinfo): [3 :white_check_mark: ](sentry-maven-skin-6.3.01.buildcompare) | 2.3M |
+| [6.3.00](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.3.00/pom) | [mvn jdk17](sentry-maven-skin-6.3.00.buildspec) | [result](sentry-maven-skin-6.3.00.buildinfo): [3 :white_check_mark: ](sentry-maven-skin-6.3.00.buildcompare) | 2.3M |
+| [6.2.00](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.2.00/pom) | [mvn jdk17](sentry-maven-skin-6.2.00.buildspec) | [result](sentry-maven-skin-6.2.00.buildinfo): [3 :white_check_mark: ](sentry-maven-skin-6.2.00.buildcompare) | 2.2M |
 | [6.1.00](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.1.00/pom) | [mvn jdk17](sentry-maven-skin-6.1.00.buildspec) | [result](sentry-maven-skin-6.1.00.buildinfo): [3 :white_check_mark: ](sentry-maven-skin-6.1.00.buildcompare) | 2.3M |
 | [6.0.01](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.0.01/pom) | [mvn jdk17](sentry-maven-skin-6.0.01.buildspec) | [result](sentry-maven-skin-6.0.01.buildinfo): [3 :white_check_mark: ](sentry-maven-skin-6.0.01.buildcompare) | 2.3M |
 
