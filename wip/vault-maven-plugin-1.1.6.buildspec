@@ -3,7 +3,7 @@
 # Central Repository coordinates for the Reference release (for multi-module, pick an arbitrary module)
 groupId=com.homeofthewizard
 artifactId=vault-maven-plugin
-version=1.1.4
+version=1.1.6
 # referenceRepo = https://my.company.com/repo if reference is not in Maven Central but company-private
 
 display=${groupId}:${artifactId}

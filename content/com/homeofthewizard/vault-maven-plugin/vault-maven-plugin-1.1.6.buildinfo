@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Vault Maven Plugin
+group-id=com.homeofthewizard
+artifact-id=vault-maven-plugin
+version=1.1.6
+
+# source information
+source.scm.uri=scm:git:git@github.com:homeofthewizard/vault-maven-plugin
+source.scm.tag=vault-maven-plugin-1.1.6
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.homeofthewizard
+outputs.0.filename=vault-maven-plugin-1.1.6.pom
+outputs.0.length=24961
+outputs.0.checksums.sha512=d854b8b01dd4c8fd8a17bbcfd5048e8a42441ac2b6fc6fcef47befdaa930b789932aeb34ff5075e563f5f8d1dc108ea10c19e36b23b0ef4e0166316bf657f658
+
+outputs.1.groupId=com.homeofthewizard
+outputs.1.filename=vault-maven-plugin-1.1.6.jar
+outputs.1.length=34531
+outputs.1.checksums.sha512=8bd77ef694524819fa79c93c0f8ff401abd438022e50e7b9efe147ece2997d248458f1120c790d65eab189fb7e6f343b2d94d18f6c20a3007999d0c9269c7ffb
