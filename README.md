@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3539 releases** of **637 projects**:
-   - **2808** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **3540 releases** of **637 projects**:
+   - **2809** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 731 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 637 projects, 536 have at least one fully reproducible release, 101 have none
 
@@ -399,7 +399,7 @@ Its objectives are to provide:
 | | [maven-war-plugin](content/org/apache/maven/plugins/maven-war-plugin/README.md) | 4 | 4 :white_check_mark: |
 | | [maven-wrapper-plugin](content/org/apache/maven/plugins/maven-wrapper-plugin/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
 | org.apache.maven.reporting | [maven-reporting-api](content/org/apache/maven/reporting/maven-reporting-api/README.md) | 13 | 13 :white_check_mark: |
-| | [maven-reporting-exec](content/org/apache/maven/reporting/maven-reporting-exec/README.md) | 14 | 14 :white_check_mark: |
+| | [maven-reporting-exec](content/org/apache/maven/reporting/maven-reporting-exec/README.md) | 15 | 15 :white_check_mark: |
 | | [maven-reporting-impl](content/org/apache/maven/reporting/maven-reporting-impl/README.md) | 16 | 16 :white_check_mark: |
 | org.apache.maven.resolver | [maven-resolver](content/org/apache/maven/resolver/maven-resolver/README.md) | 39 | 37 :white_check_mark: / 2 :warning: |
 | | [maven-resolver-ant-tasks](content/org/apache/maven/resolver/maven-resolver-ant-tasks/README.md) | 5 | 5 :white_check_mark: |
@@ -660,7 +660,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 35 | 35 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **637** | **3539** | **2808** :white_check_mark: **731** :warning: |
+| **Count:** | **637** | **3540** | **2809** :white_check_mark: **731** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -675,7 +675,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      14 gradle     17
       5 gradle     21
      26 mvn         7
-   1145 mvn         8
+   1146 mvn         8
       1 mvn         9
     974 mvn        11
       2 mvn        11.0.19

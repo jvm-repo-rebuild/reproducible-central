@@ -68,6 +68,7 @@ rebuilding **6 releases** of org.jreleaser:jreleaser:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.12.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.12.0/pom) | | | |
 | [1.11.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.11.0/pom) | [gradle jdk17](jreleaser-1.11.0.buildspec) | [result](jreleaser-1.11.0.buildinfo): [152 :white_check_mark:  1 :warning:](jreleaser-1.11.0.buildcompare) [:mag:](jreleaser-1.11.0.diffoscope) | 48M |
 | [1.10.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.10.0/pom) | [gradle jdk17](jreleaser-1.10.0.buildspec) | :x: | |
 | [1.9.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.9.0/pom) | [gradle jdk11](jreleaser-1.9.0.buildspec) | [result](jreleaser-1.9.0.buildinfo): [152 :white_check_mark:  1 :warning:](jreleaser-1.9.0.buildcompare) [:mag:](jreleaser-1.9.0.diffoscope) | 45M |
