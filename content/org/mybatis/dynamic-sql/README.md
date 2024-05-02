@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/mybatis/mybatis-dynamic-sql.git](https://github.com/mybatis/mybatis-dynamic-sql.git)
 
-rebuilding **3 releases** of org.mybatis.dynamic-sql:mybatis-dynamic-sql:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of org.mybatis.dynamic-sql:mybatis-dynamic-sql:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.5.1](https://central.sonatype.com/artifact/org.mybatis.dynamic-sql/mybatis-dynamic-sql/1.5.1/pom) | | | |
+| [1.5.1](https://central.sonatype.com/artifact/org.mybatis.dynamic-sql/mybatis-dynamic-sql/1.5.1/pom) | [mvn jdk21](mybatis-dynamic-sql-1.5.1.buildspec) | [result](mybatis-dynamic-sql-1.5.1.buildinfo): [3 :white_check_mark: ](mybatis-dynamic-sql-1.5.1.buildcompare) | 1.0M |
 | [1.5.0](https://central.sonatype.com/artifact/org.mybatis.dynamic-sql/mybatis-dynamic-sql/1.5.0/pom) | [mvn jdk17](mybatis-dynamic-sql-1.5.0.buildspec) | [result](mybatis-dynamic-sql-1.5.0.buildinfo): [2 :white_check_mark:  1 :warning:](mybatis-dynamic-sql-1.5.0.buildcompare) | 922K |
 | [1.4.1](https://central.sonatype.com/artifact/org.mybatis.dynamic-sql/mybatis-dynamic-sql/1.4.1/pom) | [mvn jdk11](mybatis-dynamic-sql-1.4.1.buildspec) | [result](mybatis-dynamic-sql-1.4.1.buildinfo): [2 :white_check_mark:  1 :warning:](mybatis-dynamic-sql-1.4.1.buildcompare) | 889K |
 | [1.4.0](https://central.sonatype.com/artifact/org.mybatis.dynamic-sql/mybatis-dynamic-sql/1.4.0/pom) | [mvn jdk11](mybatis-dynamic-sql-1.4.0.buildspec) | [result](mybatis-dynamic-sql-1.4.0.buildinfo): [2 :white_check_mark:  1 :warning:](mybatis-dynamic-sql-1.4.0.buildcompare) [:mag:](mybatis-dynamic-sql-1.4.0.diffoscope) | 857K |
