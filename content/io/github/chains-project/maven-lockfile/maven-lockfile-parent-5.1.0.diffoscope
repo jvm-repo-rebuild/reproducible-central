@@ -1,0 +1,136 @@
+1 / 1 target/reference/io.github.chains-project/maven-lockfile-github-action-5.1.0.jar github_action/target/maven-lockfile-github-action-5.1.0.jar
+--- target/reference/io.github.chains-project/maven-lockfile-github-action-5.1.0.jar
++++ github_action/target/maven-lockfile-github-action-5.1.0.jar
+├── zipnote «TEMP»/diffoscope_hsr70u9m_target/tmpr1egdiw9_.zip
+│ @@ -34671,38 +34671,41 @@
+│  
+│  Filename: io/quarkus/runtime/generated/BuildTimeRunTimeFixedConfigSourceBuilder.class
+│  Comment: 
+│  
+│  Filename: io/quarkus/runtime/generated/Config.class
+│  Comment: 
+│  
+│ -Filename: io/quarkus/stork/StorkConfiguration-1155448456Impl.class
+│ +Filename: io/quarkus/runner/
+│  Comment: 
+│  
+│ -Filename: io/quarkus/stork/ServiceConfiguration2122640426Impl.class
+│ +Filename: io/quarkus/runner/GeneratedMain.class
+│  Comment: 
+│  
+│ -Filename: io/quarkus/runner/
+│ +Filename: io/quarkus/stork/StorkConfiguration-1155448456Impl.class
+│  Comment: 
+│  
+│ -Filename: io/quarkus/runner/GeneratedMain.class
+│ +Filename: io/quarkus/stork/ServiceConfiguration2122640426Impl.class
+│  Comment: 
+│  
+...
+├── io/quarkus/runtime/generated/BuildTimeRunTimeFixedConfigSourceBuilder.class
+│ ├── procyon -ec {}
+│ │ @@ -15,26 +15,26 @@
+│ │      
+│ │      static {
+│ │          final HashMap hashMap = new HashMap();
+│ │          ((Map)hashMap).put("quarkus.analytics.timeout", "3000");
+│ │          ((Map)hashMap).put("quarkus.application.name", "maven-lockfile-github-action");
+│ │          ((Map)hashMap).put("quarkus.application.ui-header", "{applicationName} (powered by Quarkus)");
+│ │          ((Map)hashMap).put("quarkus.application.version", "5.1.0");
+│ │ -        ((Map)hashMap).put("quarkus.default-locale", "en-");
+│ │ +        ((Map)hashMap).put("quarkus.default-locale", "en-US");
+│ │          ((Map)hashMap).put("quarkus.jackson.accept-case-insensitive-enums", "false");
+│ │          ((Map)hashMap).put("quarkus.jackson.fail-on-empty-beans", "true");
+│ │          ((Map)hashMap).put("quarkus.jackson.fail-on-unknown-properties", "false");
+│ │          ((Map)hashMap).put("quarkus.jackson.timezone", "UTC");
+│ │          ((Map)hashMap).put("quarkus.jackson.write-dates-as-timestamps", "false");
+│ │          ((Map)hashMap).put("quarkus.jackson.write-durations-as-timestamps", "true");
+│ │          ((Map)hashMap).put("quarkus.live-reload.connect-timeout", "30s");
+│ │          ((Map)hashMap).put("quarkus.live-reload.instrumentation", "false");
+│ │          ((Map)hashMap).put("quarkus.live-reload.retry-interval", "2s");
+│ │          ((Map)hashMap).put("quarkus.live-reload.retry-max-attempts", "10");
+│ │ -        ((Map)hashMap).put("quarkus.locales", "en-");
+│ │ +        ((Map)hashMap).put("quarkus.locales", "en-US");
+│ │          ((Map)hashMap).put("quarkus.log.category.*.min-level", "inherit");
+│ │          ((Map)hashMap).put("quarkus.log.metrics.enabled", "false");
+│ │          ((Map)hashMap).put("quarkus.log.min-level", "DEBUG");
+│ │          ((Map)hashMap).put("quarkus.tls.trust-all", "false");
+│ │          ((Map)hashMap).put("quarkus.virtual-threads.enabled", "true");
+│ │          ((Map)hashMap).put("quarkus.virtual-threads.name-prefix", "quarkus-virtual-thread-");
+│ │          ((Map)hashMap).put("quarkus.virtual-threads.shutdown-check-interval", "5s");
+├── io/quarkus/runtime/generated/Config.class
+│ ├── procyon -ec {}
+│ │ @@ -178,16 +178,16 @@
+│ │          keyMap.findOrAdd("quarkus.vertx.eventbus.key-certificate-pem.certs").putRootValue((Object)Boolean.valueOf(true));
+│ │          keyMap.findOrAdd("quarkus.vertx.eventbus.tcp-keep-alive").putRootValue((Object)Boolean.valueOf(true));
+│ │          keyMap.findOrAdd("quarkus.config.locations[*]").putRootValue((Object)Boolean.valueOf(true));
+│ │          keyMap.findOrAdd("quarkus.vertx.eventbus.key-certificate-jks.password").putRootValue((Object)Boolean.valueOf(true));
+│ │          keyMap.findOrAdd("quarkus.vertx.eventbus.accept-backlog").putRootValue((Object)Boolean.valueOf(true));
+│ │          keyMap.findOrAdd("quarkus.native.headless").putRootValue((Object)Boolean.valueOf(true));
+│ │          keyMap.findOrAdd("quarkus.vertx.eventbus.trust-certificate-pem").putRootValue((Object)Boolean.valueOf(true));
+│ │ -        keyMap.findOrAdd("quarkus.native.enable-fallback-images").putRootValue((Object)Boolean.valueOf(true));
+│ │          keyMap.findOrAdd("quarkus.native.resources.excludes[*]").putRootValue((Object)Boolean.valueOf(true));
+│ │ +        keyMap.findOrAdd("quarkus.native.enable-fallback-images").putRootValue((Object)Boolean.valueOf(true));
+│ │          keyMap.findOrAdd("quarkus.native.java-home").putRootValue((Object)Boolean.valueOf(true));
+│ │          keyMap.findOrAdd("quarkus.native.compression.additional-args[*]").putRootValue((Object)Boolean.valueOf(true));
+│ │          keyMap.findOrAdd("quarkus.vertx.eventbus.key-certificate-pfx.password").putRootValue((Object)Boolean.valueOf(true));
+│ │          keyMap.findOrAdd("quarkus.profile").putRootValue((Object)Boolean.valueOf(true));
+│ │          keyMap.findOrAdd("quarkus.vertx.eventbus.idle-timeout").putRootValue((Object)Boolean.valueOf(true));
+│ │          keyMap.findOrAdd("quarkus.execution-model-annotations.detection-mode").putRootValue((Object)Boolean.valueOf(true));
+│ │          keyMap.findOrAdd("quarkus.native.additional-build-args[*]").putRootValue((Object)Boolean.valueOf(true));
+├── io/quarkus/vertx/core/runtime/config/VertxConfiguration-2022638849Impl.class
+│ ├── procyon -ec {}
+│ │ @@ -6,233 +6,233 @@
+│ │  import io.smallrye.config.ConfigMappingContext;
+│ │  import java.time.Duration;
+│ │  import java.util.OptionalInt;
+│ │  import io.smallrye.config.ConfigMappingObject;
+│ │  
+│ │  public class VertxConfiguration-2022638849Impl implements ConfigMappingObject, VertxConfiguration
+│ │  {
+│ │ +    private AddressResolverConfiguration resolver;
+│ │ +    private OptionalInt queueSize;
+│ │ +    private Duration keepAliveTime;
+│ │      private boolean classpathResolving;
+│ │      private OptionalInt eventLoopsPoolSize;
+│ │      private Duration maxEventLoopExecuteTime;
+│ │      private Duration warningExceptionTime;
+│ │      private int workerPoolSize;
+│ │      private Duration maxWorkerExecuteTime;
+│ │      private int internalBlockingPoolSize;
+│ │      private float growthResistance;
+│ │      private boolean prefill;
+│ │      private boolean useAsyncDNS;
+│ │      private EventBusConfiguration eventbus;
+│ │      private ClusterConfiguration cluster;
+│ │      private boolean preferNativeTransport;
+│ │ -    private Duration keepAliveTime;
+│ │ -    private AddressResolverConfiguration resolver;
+│ │ -    private OptionalInt queueSize;
+│ │      private boolean caching;
+│ │      
+│ │      public VertxConfiguration-2022638849Impl() {
+│ │      }
+│ │      
+│ │      public VertxConfiguration-2022638849Impl(final ConfigMappingContext context) {
+│ │          final StringBuilder sb;
+│ │          final int len = (sb = context.getStringBuilder()).length();
+│ │          if (sb.length() != 0) {
+│ │              sb.append((char)46);
+│ │          }
+│ │ -        sb.append(context.applyNamingStrategy("classpathResolving"));
+│ │ +        sb.append(context.applyNamingStrategy("resolver"));
+│ │ +        context.registerEnclosedField((Class)VertxConfiguration.class, "resolver", (Object)this, (Object)(this.resolver = (AddressResolverConfiguration)context.constructGroup((Class)AddressResolverConfiguration.class)));
+│ │ +        sb.setLength(len);
+│ │ +        if (sb.length() != 0) {
+│ │ +            sb.append((char)46);
+│ │ +        }
+│ │ +        sb.append(context.applyNamingStrategy("queueSize"));
+│ │          final SmallRyeConfig config = context.getConfig();
+│ │          final String string = sb.toString();
+│ │ -        final Converter valueConverter = context.getValueConverter((Class)VertxConfiguration.class, "classpathResolving");
+│ │ +        final Converter valueConverter = context.getValueConverter((Class)VertxConfiguration.class, "queueSize");
+│ │          try {
+│ │ -            this.classpathResolving = (boolean)config.getValue(string, valueConverter);
+│ │ +            this.queueSize = (OptionalInt)config.getValue(string, valueConverter);
+...
