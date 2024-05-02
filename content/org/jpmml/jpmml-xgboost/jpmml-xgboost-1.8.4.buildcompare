@@ -1,0 +1,10 @@
+version=1.8.4
+ok=3
+ko=1
+ignored=0
+okFiles="jpmml-xgboost-1.8.4.pom pmml-xgboost-1.8.4.pom pmml-xgboost-1.8.4.jar"
+koFiles="pmml-xgboost-1.8.4-sources.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/pmml-xgboost-1.8.4-sources.jar pmml-xgboost/target/pmml-xgboost-1.8.4-sources.jar
