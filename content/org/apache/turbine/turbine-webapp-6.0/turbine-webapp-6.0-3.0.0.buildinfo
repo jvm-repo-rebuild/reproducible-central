@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Archetype - Turbine 6.0 WebApp
+group-id=org.apache.turbine
+artifact-id=turbine-webapp-6.0
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/turbine-archetypes.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.turbine
+outputs.0.filename=turbine-webapp-6.0-3.0.0.pom
+outputs.0.length=6289
+outputs.0.checksums.sha512=b5effe2f52e791a2d95e8a3c5f11d068c065e6baebbed4913243a96a43358eac4465a8bf35371a2f293fde1fffe061f2d09601f609701d775890dbd1d3fb7390
+
+outputs.1.groupId=org.apache.turbine
+outputs.1.filename=turbine-webapp-6.0-3.0.0.jar
+outputs.1.length=216312
+outputs.1.checksums.sha512=c76654423d47f1aa628e9fdb55f04494d588a194cbb9f79dc731d6036287786f3f52e21fd69fc2957dae0b54e869f8f1d2fbe7799a0aefe226ea3c14a1ff61e0
