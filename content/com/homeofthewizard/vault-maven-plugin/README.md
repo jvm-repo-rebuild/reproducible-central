@@ -13,6 +13,7 @@ rebuilding **1 releases** of com.homeofthewizard:vault-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.1.7](https://central.sonatype.com/artifact/com.homeofthewizard/vault-maven-plugin/1.1.7/pom) | | | |
 | [1.1.6](https://central.sonatype.com/artifact/com.homeofthewizard/vault-maven-plugin/1.1.6/pom) | [mvn jdk11](vault-maven-plugin-1.1.6.buildspec) | [result](vault-maven-plugin-1.1.6.buildinfo): [2 :white_check_mark: ](vault-maven-plugin-1.1.6.buildcompare) | 59K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

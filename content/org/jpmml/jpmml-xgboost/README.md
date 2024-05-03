@@ -9,17 +9,17 @@ Source code: [https://github.com/jpmml/jpmml-xgboost.git](https://github.com/jpm
 
 <details><summary>This project defines 2 modules:</summary>
 
-* [org.jpmml:jpmml-xgboost](https://central.sonatype.com/artifact/org.jpmml/jpmml-xgboost/1.8.4)
-* [org.jpmml:pmml-xgboost](https://central.sonatype.com/artifact/org.jpmml/pmml-xgboost/1.8.4)
+* [org.jpmml:jpmml-xgboost](https://central.sonatype.com/artifact/org.jpmml/jpmml-xgboost/1.8.5)
+* [org.jpmml:pmml-xgboost](https://central.sonatype.com/artifact/org.jpmml/pmml-xgboost/1.8.5)
 </details>
 
-rebuilding **1 releases** of org.jpmml:jpmml-xgboost:
+rebuilding **2 releases** of org.jpmml:jpmml-xgboost:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.8.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-xgboost/1.8.5/pom) | | | |
+| [1.8.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-xgboost/1.8.5/pom) | [mvn jdk8](jpmml-xgboost-1.8.5.buildspec) | [result](jpmml-xgboost-1.8.5.buildinfo): [3 :white_check_mark:  1 :warning:](jpmml-xgboost-1.8.5.buildcompare) | 132K |
 | [1.8.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-xgboost/1.8.4/pom) | [mvn jdk8](jpmml-xgboost-1.8.4.buildspec) | [result](jpmml-xgboost-1.8.4.buildinfo): [3 :white_check_mark:  1 :warning:](jpmml-xgboost-1.8.4.buildcompare) | 132K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

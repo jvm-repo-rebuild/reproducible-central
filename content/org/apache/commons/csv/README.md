@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.commons:commons-csv:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.11.0](https://central.sonatype.com/artifact/org.apache.commons/commons-csv/1.11.0/pom) | | | |
 | [1.10.0](https://central.sonatype.com/artifact/org.apache.commons/commons-csv/1.10.0/pom) | [mvn jdk8](commons-csv-1.10.0.buildspec) | [result](commons-csv-1.10.0.buildinfo): [5 :white_check_mark: ](commons-csv-1.10.0.buildcompare) | 71M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
