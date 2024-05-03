@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=MyBatis Dynamic SQL
+group-id=org.mybatis.dynamic-sql
+artifact-id=mybatis-dynamic-sql
+version=1.5.1
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/mybatis-dynamic-sql.git
+source.scm.tag=mybatis-dynamic-sql-1.5.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.mybatis.dynamic-sql
+outputs.0.filename=mybatis-dynamic-sql-1.5.1.pom
+outputs.0.length=11394
+outputs.0.checksums.sha512=60eebe3398f243adda4f364486983af579f2005c4626b9376797517686f2c0b3099d2324c7d536b192faad8b5cd7bb3fa7c0137e83c1d859a9676bc3ebf2e4b7
+
+outputs.1.groupId=org.mybatis.dynamic-sql
+outputs.1.filename=mybatis-dynamic-sql-1.5.1.jar
+outputs.1.length=700970
+outputs.1.checksums.sha512=134ae690522edd99b7b8262281584d99798eca2836d0bc423498897e40175f7fcb1cdfb24f91c96d200e40136c790ec7dd0fa9710426c8a4b8c2c123b497715e
+
+outputs.2.groupId=org.mybatis.dynamic-sql
+outputs.2.filename=mybatis-dynamic-sql-1.5.1-sources.jar
+outputs.2.length=335375
+outputs.2.checksums.sha512=8fc3f31a8d92b6a1304494d7629ea7fa1ec888f3960df86faa1e8b9eaf19f33b413a1f3d54f5ed79b5f875dff95a905afa4a54c5a044a56db39ed7140d74665a

@@ -1,0 +1,8 @@
+version=3.0.0
+ok=1
+ko=1
+ignored=0
+okFiles="turbine-webapp-6.0-3.0.0.pom"
+koFiles="turbine-webapp-6.0-3.0.0.jar"
+ignoredFiles=""
+# diffoscope target/reference/org.apache.turbine/turbine-webapp-6.0-3.0.0.jar target/turbine-webapp-6.0-3.0.0.jar

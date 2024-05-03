@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-XGBoost
+group-id=org.jpmml
+artifact-id=jpmml-xgboost
+version=1.8.4
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-xgboost.git
+source.scm.tag=1.8.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=pmml-xgboost
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-xgboost
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-xgboost-1.8.4.pom
+outputs.0.0.length=5543
+outputs.0.0.checksums.sha512=8595ca6a9bd0f7068b1e55137ab6e948b0c84cadb6f6a085dbc53767418224e867f9436ded6c1dcf78e42cb11136bb72b681ea852bd4305c4a044e5907660a1d
+
+outputs.1.coordinates=org.jpmml:pmml-xgboost
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-xgboost-1.8.4.pom
+outputs.1.0.length=2193
+outputs.1.0.checksums.sha512=903cd9f7ac2f346e120cc65190e447cb685deaa177cb0260f57217bb318e0b3fea39ba866895c32ba145fa85da79a65ea4c5a552e3da7997092fdf230c7ad241
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-xgboost-1.8.4.jar
+outputs.1.1.length=78922
+outputs.1.1.checksums.sha512=2d5bfd3e2c71d9b03b7df6ae89d85ba155c6f3a235049fb54ae6983e98810ab40e2b944d8474b8ed1d6db89b8f340db7cd577d268b5e85e6633666912b5a3c44
+
+outputs.1.2.groupId=org.jpmml
+outputs.1.2.filename=pmml-xgboost-1.8.4-sources.jar
+outputs.1.2.length=47826
+outputs.1.2.checksums.sha512=06b434206f18ebc414397db9b1d3cd771a79e36577a697f4ba008dd9c39aa50cdc50ae4d2b22fd613e6dec1006647d97cb3a05ddf9fc835a25958ddb2b72f13d

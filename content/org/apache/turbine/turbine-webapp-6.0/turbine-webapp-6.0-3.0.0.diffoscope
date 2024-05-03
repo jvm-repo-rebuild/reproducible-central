@@ -1,0 +1,91 @@
+1 / 1 target/reference/org.apache.turbine/turbine-webapp-6.0-3.0.0.jar target/turbine-webapp-6.0-3.0.0.jar
+--- target/reference/org.apache.turbine/turbine-webapp-6.0-3.0.0.jar
++++ target/turbine-webapp-6.0-3.0.0.jar
+├── zipinfo {}
+│ @@ -1,12 +1,11 @@
+│ -Zip file size: 217043 bytes, number of entries: 202
+│ +Zip file size: 216312 bytes, number of entries: 200
+│  -rw-r--r--  2.0 unx       87 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 archetype-it/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 archetype-resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 archetype-resources/docs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 archetype-resources/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 archetype-resources/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 archetype-resources/src/main/data/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 archetype-resources/src/main/data/sample-mysql-data/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 archetype-resources/src/main/docker-resources/
+│ @@ -73,15 +72,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 archetype-resources/src/test/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.turbine/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.turbine/turbine-webapp-6.0/
+│  -rw-r--r--  2.0 unx      280 b- defN 80-000-00 04:08 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 80-000-00 04:08 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      187 b- defN 80-000-00 04:08 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     5745 b- defN 80-000-00 04:08 META-INF/maven/archetype-metadata.xml
+│ --rw-r--r--  2.0 unx     1143 b- defN 80-000-00 04:08 archetype-it/archetype-settings.xml
+│  -rw-r--r--  2.0 unx    11827 b- defN 80-000-00 04:08 archetype-resources/docs/DOCKER-README.md
+│  -rw-r--r--  2.0 unx     8286 b- defN 80-000-00 04:08 archetype-resources/docs/README.md
+│  -rw-r--r--  2.0 unx    24137 b- defN 80-000-00 04:08 archetype-resources/pom.xml
+│  -rw-r--r--  2.0 unx      754 b- defN 80-000-00 04:08 archetype-resources/src/main/data/sample-mysql-data/_application-data.sql
+│  -rw-r--r--  2.0 unx     1621 b- defN 80-000-00 04:08 archetype-resources/src/main/data/sample-mysql-data/_turbine-security-data.sql
+│  -rw-r--r--  2.0 unx      609 b- defN 80-000-00 04:08 archetype-resources/src/main/docker-resources/app/Dockerfile
+│  -rw-r--r--  2.0 unx     2308 b- defN 80-000-00 04:08 archetype-resources/src/main/docker-resources/app/settings.xml
+│ @@ -197,8 +195,8 @@
+│  -rw-r--r--  2.0 unx     1586 b- defN 80-000-00 04:08 archetype-resources/src/test/conf/torque/turbine/turbine-classic-pipeline.xml
+│  -rw-r--r--  2.0 unx    18231 b- defN 80-000-00 04:08 archetype-resources/src/test/java/services/security/AbstractFulcrumTorqueModelManagerTest.java
+│  -rw-r--r--  2.0 unx     1839 b- defN 80-000-00 04:08 archetype-resources/src/test/java/services/security/FulcrumTorqueDefaultModelManagerTest.java
+│  -rw-r--r--  2.0 unx    24358 b- defN 80-000-00 04:08 archetype-resources/src/test/java/services/security/TurbineSecurityServiceTest.java
+│  -rw-r--r--  2.0 unx     2190 b- defN 80-000-00 04:08 archetype-resources/src/test/resources/log4j.xml
+│  -rw-r--r--  2.0 unx     6289 b- defN 80-000-00 04:08 META-INF/maven/org.apache.turbine/turbine-webapp-6.0/pom.xml
+│  -rw-r--r--  2.0 unx       71 b- defN 80-000-00 04:08 META-INF/maven/org.apache.turbine/turbine-webapp-6.0/pom.properties
+│ -202 files, 441305 bytes uncompressed, 177085 bytes compressed:  59.9%
+│ +200 files, 440162 bytes uncompressed, 176602 bytes compressed:  59.9%
+├── zipnote «TEMP»/diffoscope_2woocdu4_target/tmpq4u2yqtk_.zip
+│ @@ -3,17 +3,14 @@
+│  
+│  Filename: META-INF/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│ -Filename: archetype-it/
+│ -Comment: 
+│ -
+│  Filename: archetype-resources/
+│  Comment: 
+│  
+│  Filename: archetype-resources/docs/
+│  Comment: 
+│  
+│  Filename: archetype-resources/src/
+│ @@ -228,17 +225,14 @@
+│  
+│  Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│  Filename: META-INF/maven/archetype-metadata.xml
+│  Comment: 
+│  
+│ -Filename: archetype-it/archetype-settings.xml
+│ -Comment: 
+│ -
+│  Filename: archetype-resources/docs/DOCKER-README.md
+│  Comment: 
+│  
+│  Filename: archetype-resources/docs/README.md
+│  Comment: 
+│  
+│  Filename: archetype-resources/pom.xml
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Archetype - Turbine 6.0 WebApp
+│ -Copyright 2011-1969 The Apache Software Foundation
+│ +Copyright 2011-1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.turbine</groupId>
+  <artifactId>turbine-webapp-6.0</artifactId>
+  <versioning>
+    <latest>3.0.0</latest>
+    <release>3.0.0</release>
+    <versions>
+      <version>3.0.0</version>
+    </versions>
+    <lastUpdated>20240501164724</lastUpdated>
+  </versioning>
+</metadata>
