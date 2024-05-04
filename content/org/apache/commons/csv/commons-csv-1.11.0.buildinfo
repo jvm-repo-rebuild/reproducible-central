@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons CSV
+group-id=org.apache.commons
+artifact-id=commons-csv
+version=1.11.0
+
+# source information
+source.scm.uri=scm:git:http://gitbox.apache.org/repos/asf/commons-csv.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-csv-1.11.0.pom
+outputs.0.length=20039
+outputs.0.checksums.sha512=a8a43073b8035d3d241f1e4e794103fdb7956c14f64efe936debe98cef2ff4eb5603147973ff3e76fc206fec00c7bee9546432551d4cfe8517c911b0a3e77797
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-csv-1.11.0.jar
+outputs.1.length=56056
+outputs.1.checksums.sha512=134056bc0e192d5376670c6fc1b33e22a0d8e0d151a5a6746a61a4716452cc24bec646a5ed90190572aa8f74dc1c2d70621fee526ab91cf6ca1c874330a1b1bd
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-csv-1.11.0-tests.jar
+outputs.2.length=36918425
+outputs.2.checksums.sha512=dc6d88f913fe4aed0257bc8adc430c986a707878eb5d2aa1b273288380fb29211450d8f26de68acbfc9ec73fa2e12729c17749775cc9287cafa2fbbda907fb3b
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-csv-1.11.0-sources.jar
+outputs.3.length=56400
+outputs.3.checksums.sha512=88b0216fc20675ff6f4e58e34b1f402c0a823bba86c39ff6661d009f950d6471715fdafbd0ffed0dd88c2ac5bc8120847ecf1e28385e66c1ff08b60f5d34411c
+
+outputs.4.groupId=org.apache.commons
+outputs.4.filename=commons-csv-1.11.0-test-sources.jar
+outputs.4.length=36856341
+outputs.4.checksums.sha512=569280d8db8bc7f1c651878981a64afa29c536233deefd11c50201cd34fe773347f60db58971c3056967a23d34fa24af85816d229f7ab101886ae3879db7e0c4

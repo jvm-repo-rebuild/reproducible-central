@@ -1,0 +1,207 @@
+1 / 2 target/reference/org.apache.commons/commons-csv-1.11.0.jar target/commons-csv-1.11.0.jar
+--- target/reference/org.apache.commons/commons-csv-1.11.0.jar
++++ target/commons-csv-1.11.0.jar
+├── zipinfo {}
+│ @@ -1,21 +1,19 @@
+│ -Zip file size: 56173 bytes, number of entries: 32
+│ +Zip file size: 56056 bytes, number of entries: 32
+│  -rw----     2.0 fat        0 bX defN 24-Apr-28 22:04 META-INF/
+│ --rw----     2.0 fat     1295 bl defN 24-Apr-28 22:04 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat        0 bl defN 24-Apr-28 22:04 META-INF/maven/
+│ --rwx---     2.0 fat        0 bl defN 24-Apr-28 22:04 META-INF/maven/org.apache.commons/
+│ --rwx---     2.0 fat        0 bl defN 24-Apr-28 22:04 META-INF/maven/org.apache.commons/commons-csv/
+│ +-rw----     2.0 fat     1238 bl defN 24-Apr-28 22:04 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 24-Apr-28 22:04 org/
+│  -rw----     2.0 fat        0 bl defN 24-Apr-28 22:04 org/apache/
+│  -rw----     2.0 fat        0 bl defN 24-Apr-28 22:04 org/apache/commons/
+│  -rw----     2.0 fat        0 bl defN 24-Apr-28 22:04 org/apache/commons/csv/
+│ +-rw----     2.0 fat        0 bl defN 24-Apr-28 22:04 META-INF/maven/
+│ +-rwx---     2.0 fat        0 bl defN 24-Apr-28 22:04 META-INF/maven/org.apache.commons/
+│ +-rwx---     2.0 fat        0 bl defN 24-Apr-28 22:04 META-INF/maven/org.apache.commons/commons-csv/
+│  -rw----     2.0 fat    11358 bl defN 24-Apr-28 22:04 META-INF/LICENSE.txt
+│  -rw----     2.0 fat      173 bl defN 24-Apr-28 22:04 META-INF/NOTICE.txt
+│ --rw----     2.0 fat      223 bl defN 24-Apr-28 22:04 META-INF/maven/org.apache.commons/commons-csv/pom.properties
+│ --rw----     2.0 fat    20039 bl defN 24-Apr-28 22:04 META-INF/maven/org.apache.commons/commons-csv/pom.xml
+│  -rw----     2.0 fat      867 bl defN 24-Apr-28 22:04 org/apache/commons/csv/CSVFormat$1.class
+│  -rw----     2.0 fat    11871 bl defN 24-Apr-28 22:04 org/apache/commons/csv/CSVFormat$Builder.class
+│  -rw----     2.0 fat     2397 bl defN 24-Apr-28 22:04 org/apache/commons/csv/CSVFormat$Predefined.class
+│  -rw----     2.0 fat    33946 bl defN 24-Apr-28 22:04 org/apache/commons/csv/CSVFormat.class
+│  -rw----     2.0 fat      913 bl defN 24-Apr-28 22:04 org/apache/commons/csv/CSVParser$1.class
+│  -rw----     2.0 fat     2272 bl defN 24-Apr-28 22:04 org/apache/commons/csv/CSVParser$CSVRecordIterator.class
+│  -rw----     2.0 fat      852 bl defN 24-Apr-28 22:04 org/apache/commons/csv/CSVParser$Headers.class
+│ @@ -26,9 +24,11 @@
+│  -rw----     2.0 fat     1203 bl defN 24-Apr-28 22:04 org/apache/commons/csv/DuplicateHeaderMode.class
+│  -rw----     2.0 fat     2610 bl defN 24-Apr-28 22:04 org/apache/commons/csv/ExtendedBufferedReader.class
+│  -rw----     2.0 fat     7956 bl defN 24-Apr-28 22:04 org/apache/commons/csv/Lexer.class
+│  -rw----     2.0 fat     1236 bl defN 24-Apr-28 22:04 org/apache/commons/csv/QuoteMode.class
+│  -rw----     2.0 fat     1303 bl defN 24-Apr-28 22:04 org/apache/commons/csv/Token$Type.class
+│  -rw----     2.0 fat     1074 bl defN 24-Apr-28 22:04 org/apache/commons/csv/Token.class
+│  -rw----     2.0 fat      128 bl defN 24-Apr-28 22:04 org/apache/commons/csv/package-info.class
+│ +-rw----     2.0 fat    20039 bl defN 24-Apr-28 22:04 META-INF/maven/org.apache.commons/commons-csv/pom.xml
+│ +-rw----     2.0 fat       65 bl defN 24-Apr-28 22:04 META-INF/maven/org.apache.commons/commons-csv/pom.properties
+│  -rw----     2.0 fat      253 bl defN 24-Apr-28 22:04 META-INF/versions/9/module-info.class
+│ -32 files, 129380 bytes uncompressed, 50953 bytes compressed:  60.6%
+│ +32 files, 129165 bytes uncompressed, 50836 bytes compressed:  60.6%
+├── zipnote «TEMP»/diffoscope_4up3otom_target/tmpyplq9kdr_.zip
+│ @@ -1,44 +1,38 @@
+│  Filename: META-INF/
+│  Comment: 
+│  
+│  Filename: META-INF/MANIFEST.MF
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.apache.commons/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.apache.commons/commons-csv/
+│ -Comment: 
+│ -
+│  Filename: org/
+│  Comment: 
+│  
+│  Filename: org/apache/
+│  Comment: 
+│  
+│  Filename: org/apache/commons/
+│  Comment: 
+│  
+│  Filename: org/apache/commons/csv/
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE.txt
+│ +Filename: META-INF/maven/
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE.txt
+│ +Filename: META-INF/maven/org.apache.commons/
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.apache.commons/commons-csv/pom.properties
+│ +Filename: META-INF/maven/org.apache.commons/commons-csv/
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.apache.commons/commons-csv/pom.xml
+│ +Filename: META-INF/LICENSE.txt
+│ +Comment: 
+│ +
+│ +Filename: META-INF/NOTICE.txt
+│  Comment: 
+│  
+│  Filename: org/apache/commons/csv/CSVFormat$1.class
+│  Comment: 
+│  
+│  Filename: org/apache/commons/csv/CSVFormat$Builder.class
+│  Comment: 
+│ @@ -87,11 +81,17 @@
+│  
+│  Filename: org/apache/commons/csv/Token.class
+│  Comment: 
+│  
+│  Filename: org/apache/commons/csv/package-info.class
+│  Comment: 
+│  
+│ +Filename: META-INF/maven/org.apache.commons/commons-csv/pom.xml
+│ +Comment: 
+│ +
+│ +Filename: META-INF/maven/org.apache.commons/commons-csv/pom.properties
+│ +Comment: 
+│ +
+│  Filename: META-INF/versions/9/module-info.class
+│  Comment: 
+│  
+│  Zip file comment:
+├── META-INF/MANIFEST.MF
+│ @@ -18,12 +18,11 @@
+│  Bundle-Vendor: The Apache Software Foundation
+│  Bundle-Version: 1.11.0
+│  Export-Package: org.apache.commons.csv;version="1.11.0"
+│  Import-Package: org.apache.commons.codec.binary,org.apache.commons.io,or
+│   g.apache.commons.io.function,org.apache.commons.io.output
+│  Include-Resource: META-INF/LICENSE.txt=LICENSE.txt,META-INF/NOTICE.txt=N
+│   OTICE.txt
+│ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.9
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+│  Tool: Bnd-6.4.1.202306080939
+│  Multi-Release: true
+├── META-INF/maven/org.apache.commons/commons-csv/pom.properties
+│ @@ -1,7 +1,3 @@
+│ -#Generated by Maven Integration for Eclipse
+│ -#Sun Apr 28 18:07:58 EDT 2024
+│  artifactId=commons-csv
+│  groupId=org.apache.commons
+│ -m2e.projectLocation=/Users/garydgregory/git/commons-csv
+│ -m2e.projectName=commons-csv
+│  version=1.11.0
+├── org/apache/commons/csv/package-info.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,18 +1,18 @@
+│ │    Compiled from "package-info.java"
+│ │  interface org.apache.commons.csv.package-info
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x1600) ACC_INTERFACE, ACC_ABSTRACT, ACC_SYNTHETIC
+│ │ -  this_class: #1                          // "org/apache/commons/csv/package-info"
+│ │ -  super_class: #3                         // java/lang/Object
+│ │ +  this_class: #2                          // "org/apache/commons/csv/package-info"
+│ │ +  super_class: #4                         // java/lang/Object
+│ │    interfaces: 0, fields: 0, methods: 0, attributes: 1
+│ │  Constant pool:
+│ │ -  #1 = Class              #2              // "org/apache/commons/csv/package-info"
+│ │ -  #2 = Utf8               org/apache/commons/csv/package-info
+│ │ -  #3 = Class              #4              // java/lang/Object
+│ │ -  #4 = Utf8               java/lang/Object
+│ │ -  #5 = Utf8               SourceFile
+│ │ -  #6 = Utf8               package-info.java
+│ │ +  #1 = Utf8               org/apache/commons/csv/package-info
+│ │ +  #2 = Class              #1              // "org/apache/commons/csv/package-info"
+│ │ +  #3 = Utf8               java/lang/Object
+│ │ +  #4 = Class              #3              // java/lang/Object
+│ │ +  #5 = Utf8               package-info.java
+│ │ +  #6 = Utf8               SourceFile
+│ │  {
+│ │  }
+│ │  SourceFile: "package-info.java"
+
+2 / 2 target/reference/org.apache.commons/commons-csv-1.11.0-tests.jar target/commons-csv-1.11.0-tests.jar
+--- target/reference/org.apache.commons/commons-csv-1.11.0-tests.jar
++++ target/commons-csv-1.11.0-tests.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 36918434 bytes, number of entries: 89
+│ +Zip file size: 36918425 bytes, number of entries: 89
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-28 22:04 META-INF/
+│ --rw-r--r--  2.0 unx     1274 b- defN 24-Apr-28 22:04 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx     1217 b- defN 24-Apr-28 22:04 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-28 22:04 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-28 22:04 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-28 22:04 org/apache/commons/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-28 22:04 org/apache/commons/csv/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-28 22:04 org/apache/commons/csv/CSV-141/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-28 22:04 org/apache/commons/csv/CSV-198/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-28 22:04 org/apache/commons/csv/CSV-213/
+│ @@ -84,8 +84,8 @@
+│  -rw-r--r--  2.0 unx     8854 b- defN 24-Apr-28 22:04 org/apache/commons/csv/issues/JiraCsv288Test.class
+│  -rw-r--r--  2.0 unx     5475 b- defN 24-Apr-28 22:04 org/apache/commons/csv/issues/JiraCsv290Test.class
+│  -rw-r--r--  2.0 unx     4542 b- defN 24-Apr-28 22:04 org/apache/commons/csv/issues/JiraCsv93Test.class
+│  -rw-r--r--  2.0 unx     6131 b- defN 24-Apr-28 22:04 org/apache/commons/csv/perf/PerformanceTest.class
+│  -rw-r--r--  2.0 unx 33947943 b- defN 24-Apr-28 22:04 org/apache/commons/csv/perf/worldcitiespop.txt.gz
+│  -rw-r--r--  2.0 unx    20039 b- defN 24-Apr-28 22:04 META-INF/maven/org.apache.commons/commons-csv/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 24-Apr-28 22:04 META-INF/maven/org.apache.commons/commons-csv/pom.properties
+│ -89 files, 43437507 bytes uncompressed, 36903954 bytes compressed:  15.0%
+│ +89 files, 43437450 bytes uncompressed, 36903945 bytes compressed:  15.0%
+├── META-INF/MANIFEST.MF
+│ @@ -18,11 +18,10 @@
+│  Bundle-Vendor: The Apache Software Foundation
+│  Bundle-Version: 1.11.0
+│  Export-Package: org.apache.commons.csv;version="1.11.0"
+│  Import-Package: org.apache.commons.codec.binary,org.apache.commons.io,or
+│   g.apache.commons.io.function,org.apache.commons.io.output
+│  Include-Resource: META-INF/LICENSE.txt=LICENSE.txt,META-INF/NOTICE.txt=N
+│   OTICE.txt
+│ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.9
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+│  Tool: Bnd-6.4.1.202306080939
+

@@ -1,0 +1,11 @@
+version=1.11.0
+ok=3
+ko=2
+ignored=0
+okFiles="commons-csv-1.11.0.pom commons-csv-1.11.0-sources.jar commons-csv-1.11.0-test-sources.jar"
+koFiles="commons-csv-1.11.0.jar commons-csv-1.11.0-tests.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.commons/commons-csv-1.11.0.jar target/commons-csv-1.11.0.jar
+# diffoscope target/reference/org.apache.commons/commons-csv-1.11.0-tests.jar target/commons-csv-1.11.0-tests.jar
