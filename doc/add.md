@@ -4,12 +4,6 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240503182257 --> [liftwizard](../content/io/liftwizard/README.md) | [2.1.7](../content/io/liftwizard/liftwizard-2.1.7.buildspec) :white_check_mark: | [2.1.8](../content/io/liftwizard/liftwizard-2.1.8.buildspec) | `bin/add-new-release.sh content/io/liftwizard/liftwizard-2.1.7.buildspec 2.1.8` |
-| <!-- 20240503182137 --> [modello](../content/org/codehaus/modello/README.md) | [2.3.0](../content/org/codehaus/modello/modello-2.3.0.buildspec) :white_check_mark: | [2.4.0](../content/org/codehaus/modello/modello-2.4.0.buildspec) | `bin/add-new-release.sh content/org/codehaus/modello/modello-2.3.0.buildspec 2.4.0` |
-| <!-- 20240503172847 --> [jmeter-java-dsl-parent](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | [1.26](../content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.26.buildspec) :white_check_mark: | [1.27](../content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.27.buildspec) | `bin/add-new-release.sh content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.26.buildspec 1.27` |
-| <!-- 20240503162225 --> [vault-maven-plugin](../content/com/homeofthewizard/vault-maven-plugin/README.md) | [1.1.6](../content/com/homeofthewizard/vault-maven-plugin/vault-maven-plugin-1.1.6.buildspec) :white_check_mark: | [1.1.7](../content/com/homeofthewizard/vault-maven-plugin/vault-maven-plugin-1.1.7.buildspec) | `bin/add-new-release.sh content/com/homeofthewizard/vault-maven-plugin/vault-maven-plugin-1.1.6.buildspec 1.1.7` |
-| <!-- 20240502220117 --> [commons-csv](../content/org/apache/commons/csv/README.md) | [1.10.0](../content/org/apache/commons/csv/commons-csv-1.10.0.buildspec) :white_check_mark: | [1.11.0](../content/org/apache/commons/csv/commons-csv-1.11.0.buildspec) | `bin/add-new-release.sh content/org/apache/commons/csv/commons-csv-1.10.0.buildspec 1.11.0` |
-| <!-- 20240502212841 --> [webjars-locator-lite](../content/org/webjars/webjars-locator-lite/README.md) | [0.0.6](../content/org/webjars/webjars-locator-lite/webjars-locator-lite-0.0.6.buildspec) :white_check_mark: | [1.0.0](../content/org/webjars/webjars-locator-lite/webjars-locator-lite-1.0.0.buildspec) | `bin/add-new-release.sh content/org/webjars/webjars-locator-lite/webjars-locator-lite-0.0.6.buildspec 1.0.0` |
 | <!-- 20240415210210 --> [migratedb](../content/de/unentscheidbar/migratedb/README.md) | [1.0.0](../content/de/unentscheidbar/migratedb/migratedb-1.0.0.buildspec) :white_check_mark: | [1.1.0](../content/de/unentscheidbar/migratedb/migratedb-1.1.0.buildspec) | `bin/add-new-release.sh content/de/unentscheidbar/migratedb/migratedb-1.0.0.buildspec 1.1.0` |
 | <!-- 20240415113130 --> [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | [7.26.0](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.26.0.buildspec) :white_check_mark: | [7.26.1](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.26.1.buildspec) | `bin/add-new-release.sh content/nl/basjes/parse/useragent/yauaa/yauaa-7.26.0.buildspec 7.26.1` |
 <!-- END GENERATED ADD OK -->
@@ -17,7 +11,6 @@ New Releases To Add
 ### Unexpected Diffoscope in Buildspec
 `buildcompare` says `ko=0` but `buildspec` configures a `diffoscope` value in following releases:
 <!-- BEGIN GENERATED UNEXPECTED DIFFOSCOPE -->
-      content/com/github/hazendaz/maven/whitespace-maven-plugin/whitespace-maven-plugin-1.3.2.buildspec
 <!-- END GENERATED UNEXPECTED DIFFOSCOPE -->
 
 ## Apache Release Candidate in Staging
@@ -98,6 +91,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20240502220117 --> [commons-csv](../content/org/apache/commons/csv/README.md) | 1.11.0 :warning: |
 | <!-- 20240501164724 --> [turbine-webapp-6.0](../content/org/apache/turbine/turbine-webapp-6.0/README.md) | 3.0.0 :warning: |
 | <!-- 20240430072842 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | 5.1.0 :warning: |
 | <!-- 20240429201825 --> [jpmml-xgboost](../content/org/jpmml/jpmml-xgboost/README.md) | 1.8.5 :warning: |
