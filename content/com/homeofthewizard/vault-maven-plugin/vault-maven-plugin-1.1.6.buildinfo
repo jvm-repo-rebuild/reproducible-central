@@ -30,3 +30,8 @@ outputs.1.groupId=com.homeofthewizard
 outputs.1.filename=vault-maven-plugin-1.1.6.jar
 outputs.1.length=34531
 outputs.1.checksums.sha512=8bd77ef694524819fa79c93c0f8ff401abd438022e50e7b9efe147ece2997d248458f1120c790d65eab189fb7e6f343b2d94d18f6c20a3007999d0c9269c7ffb
+
+outputs.2.groupId=com.homeofthewizard
+outputs.2.filename=vault-maven-plugin-1.1.6-sources.jar
+outputs.2.length=24274
+outputs.2.checksums.sha512=ba0c437e8d0abb144243566a920092b4333a9d627fe4ba9c2e61edcd48a78068d433f1255438d3668d8c3476d2dabaa63a6b96396a9e129d8fba533d6c28ef6b
