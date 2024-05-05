@@ -21,6 +21,7 @@ rebuilding **3 releases** of com.io7m.lanark:com.io7m.lanark:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.2.0](https://central.sonatype.com/artifact/com.io7m.lanark/com.io7m.lanark/1.2.0/pom) | | | |
 | [1.1.0](https://central.sonatype.com/artifact/com.io7m.lanark/com.io7m.lanark/1.1.0/pom) | [mvn jdk17.0.7](com.io7m.lanark-1.1.0.buildspec) | [result](com.io7m.lanark-1.1.0.buildinfo): [13 :white_check_mark: ](com.io7m.lanark-1.1.0.buildcompare) | 56K |
 | [1.0.0](https://central.sonatype.com/artifact/com.io7m.lanark/com.io7m.lanark/1.0.0/pom) | [mvn jdk17.0.7](com.io7m.lanark-1.0.0.buildspec) | [result](com.io7m.lanark-1.0.0.buildinfo): [13 :white_check_mark: ](com.io7m.lanark-1.0.0.buildcompare) | 55K |
 | [1.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.lanark/com.io7m.lanark/1.0.0-beta0001/pom) | [mvn jdk17.0.5](com.io7m.lanark-1.0.0-beta0001.buildspec) | [result](com.io7m.lanark-1.0.0-beta0001.buildinfo): [13 :white_check_mark: ](com.io7m.lanark-1.0.0-beta0001.buildcompare) | 49K |

@@ -21,6 +21,7 @@ rebuilding **3 releases** of com.io7m.jaffirm:com.io7m.jaffirm:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.1](https://central.sonatype.com/artifact/com.io7m.jaffirm/com.io7m.jaffirm/4.0.1/pom) | | | |
 | [4.0.0](https://central.sonatype.com/artifact/com.io7m.jaffirm/com.io7m.jaffirm/4.0.0/pom) | [mvn jdk17.0.3](com.io7m.jaffirm-4.0.0.buildspec) | [result](com.io7m.jaffirm-4.0.0.buildinfo): [13 :white_check_mark: ](com.io7m.jaffirm-4.0.0.buildcompare) | 180K |
 | [3.0.4](https://central.sonatype.com/artifact/com.io7m.jaffirm/com.io7m.jaffirm/3.0.4/pom) | [mvn jdk11.0.6](com.io7m.jaffirm-3.0.4.buildspec) | [result](com.io7m.jaffirm-3.0.4.buildinfo): [14 :white_check_mark: ](com.io7m.jaffirm-3.0.4.buildcompare) | 182K |
 | [3.0.3](https://central.sonatype.com/artifact/com.io7m.jaffirm/com.io7m.jaffirm/3.0.3/pom) | [mvn jdk11.0.6](com.io7m.jaffirm-3.0.3.buildspec) | [result](com.io7m.jaffirm-3.0.3.buildinfo): [14 :white_check_mark: ](com.io7m.jaffirm-3.0.3.buildcompare) | 182K |

@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.apache.felix:felix-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [9](https://central.sonatype.com/artifact/org.apache.felix/felix-parent/9/pom) | | | |
 | [8](https://central.sonatype.com/artifact/org.apache.felix/felix-parent/8/pom) | [mvn jdk8](felix-parent-8.buildspec) | [result](felix-parent-8.buildinfo): [3 :white_check_mark: ](felix-parent-8.buildcompare) | 36K |
 | [7](https://central.sonatype.com/artifact/org.apache.felix/felix-parent/7/pom) | [mvn jdk8](felix-parent-7.buildspec) | [result](felix-parent-7.buildinfo): [3 :white_check_mark: ](felix-parent-7.buildcompare) | 37K |
 
