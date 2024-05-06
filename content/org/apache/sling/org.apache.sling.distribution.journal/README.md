@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.apache.sling:org.apache.sling.distribution.jour
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.3.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.distribution.journal/0.3.0/pom) | | | |
 | [0.2.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.distribution.journal/0.2.0/pom) | [mvn jdk8](org.apache.sling.distribution.journal-0.2.0.buildspec) | [result](org.apache.sling.distribution.journal-0.2.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.distribution.journal-0.2.0.buildcompare) | 1.2M |
 | [0.1.26](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.distribution.journal/0.1.26/pom) | [mvn jdk11](org.apache.sling.distribution.journal-0.1.26.buildspec) | [result](org.apache.sling.distribution.journal-0.1.26.buildinfo): [4 :white_check_mark: ](org.apache.sling.distribution.journal-0.1.26.buildcompare) | 1.2M |
 | [0.1.24](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.distribution.journal/0.1.24/pom) | [mvn jdk14](org.apache.sling.distribution.journal-0.1.24.buildspec) | [result](org.apache.sling.distribution.journal-0.1.24.buildinfo): [4 :white_check_mark: ](org.apache.sling.distribution.journal-0.1.24.buildcompare) | 1.2M |
