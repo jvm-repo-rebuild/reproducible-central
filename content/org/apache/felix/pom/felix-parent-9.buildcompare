@@ -1,0 +1,7 @@
+version=9
+ok=3
+ko=0
+ignored=0
+okFiles="felix-parent-9.pom felix-parent-9-source-release.zip felix-parent-9-source-release.tar.gz"
+koFiles=""
+ignoredFiles=""
