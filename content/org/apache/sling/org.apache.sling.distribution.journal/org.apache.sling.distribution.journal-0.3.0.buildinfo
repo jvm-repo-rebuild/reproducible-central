@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Journal based Content Distribution - Core bundle
+group-id=org.apache.sling
+artifact-id=org.apache.sling.distribution.journal
+version=0.3.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-distribution-journal.git
+source.scm.tag=org.apache.sling.distribution.journal-0.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.distribution.journal-0.3.0.pom
+outputs.0.length=12265
+outputs.0.checksums.sha512=2aaba7bfd4f4c788f918c535cc44bc9ca143f849fc7f78506da81ad176e316ea3e05530597ad6a58314c1b8b222530a1566988bd9d9fcfa2b70ee2583c3eb1e6
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.distribution.journal-0.3.0.jar
+outputs.1.length=195320
+outputs.1.checksums.sha512=e84f42f99dc3fd8408b2a70e8285ec52bac95536bb7bcf2b624582bc42c75a5e1f6c639781edea42f25e752d765251fea53bd4ad5b7e3e83bb8228c32ed2afc9
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.distribution.journal-0.3.0-source-release.zip
+outputs.2.length=746691
+outputs.2.checksums.sha512=029868f019e5caab6d533c891dfa8cc074dccdf17b58f982d6ae493d79265d3dc9856250b0eaf3a0135b3b1c9a2773ae30dfe8d62b8681988fa62945f5454604
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.distribution.journal-0.3.0-sources.jar
+outputs.3.length=134653
+outputs.3.checksums.sha512=05cac47d12383027dae5cb12ee44d87b3b81c80259b7657cc94e49f41ea7d80ebecc6c41ff3845ff1d8690fc779a79164ccf124f35ffeca04ed9444c1fedb96c
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.distribution.journal-0.3.0-sources.jar
+outputs.4.length=134653
+outputs.4.checksums.sha512=05cac47d12383027dae5cb12ee44d87b3b81c80259b7657cc94e49f41ea7d80ebecc6c41ff3845ff1d8690fc779a79164ccf124f35ffeca04ed9444c1fedb96c
