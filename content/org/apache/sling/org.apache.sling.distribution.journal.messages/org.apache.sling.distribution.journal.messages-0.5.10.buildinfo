@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Journal based Content Distribution - Messages bundle
+group-id=org.apache.sling
+artifact-id=org.apache.sling.distribution.journal.messages
+version=0.5.10
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-distribution-journal-messages.git
+source.scm.tag=org.apache.sling.distribution.journal.messages-0.5.10
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.distribution.journal.messages-0.5.10.pom
+outputs.0.length=4496
+outputs.0.checksums.sha512=e89a134170f1772433442a42c190699f96922c34688c40886c0f9b73658ad85c6737311171108717a687b46e44722cc8403a5a823681e3ef830e20403d9c1c8a
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.distribution.journal.messages-0.5.10.jar
+outputs.1.length=46109
+outputs.1.checksums.sha512=15d831d6c298235e598d4f10a672c3e839a1c913253a0bf5f70780a8ca0b957f601c9a58f966a05d1f800d7bef6f5a7414a5307d7ba0acd462e12bd42f9c3ca0
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.distribution.journal.messages-0.5.10-source-release.zip
+outputs.2.length=43644
+outputs.2.checksums.sha512=d3e6ac4b5c5121973264045732dae7bf6b3f8256de54dc4490af70774904d7bc7caa4b9931ebebe1b1214b7d0b628182f943094dc557e866fafdd37fc71841e5
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.distribution.journal.messages-0.5.10-sources.jar
+outputs.3.length=30504
+outputs.3.checksums.sha512=c3d628892227c3590f6ad366cbf5a6033ed003b88362b6764ae45fcf8a72dc75422b8939102483997b9c619909cbb150a31dad478774c724385972bb8073bda7
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.distribution.journal.messages-0.5.10-sources.jar
+outputs.4.length=30504
+outputs.4.checksums.sha512=c3d628892227c3590f6ad366cbf5a6033ed003b88362b6764ae45fcf8a72dc75422b8939102483997b9c619909cbb150a31dad478774c724385972bb8073bda7
