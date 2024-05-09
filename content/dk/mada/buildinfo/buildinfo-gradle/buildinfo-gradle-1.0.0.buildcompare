@@ -1,0 +1,5 @@
+version=1.0.0
+ok=5
+ko=0
+okFiles="buildinfo-gradle-1.0.0-sources.jar buildinfo-gradle-1.0.0.jar buildinfo-gradle-1.0.0.module buildinfo-gradle-1.0.0.pom dk.mada.buildinfo.gradle.plugin-1.0.0.pom"
+koFiles=""
