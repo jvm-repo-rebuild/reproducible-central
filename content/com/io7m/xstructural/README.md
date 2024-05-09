@@ -25,6 +25,7 @@ rebuilding **6 releases** of com.io7m.xstructural:com.io7m.xstructural:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.8.1](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.8.1/pom) | | | |
 | [1.8.0](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.8.0/pom) | [mvn jdk17.0.5](com.io7m.xstructural-1.8.0.buildspec) | [result](com.io7m.xstructural-1.8.0.buildinfo): [30 :white_check_mark: ](com.io7m.xstructural-1.8.0.buildcompare) | 18M |
 | [1.7.2](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.7.2/pom) | [mvn jdk17.0.5](com.io7m.xstructural-1.7.2.buildspec) | [result](com.io7m.xstructural-1.7.2.buildinfo): [26 :white_check_mark: ](com.io7m.xstructural-1.7.2.buildcompare) | 18M |
 | [1.7.1](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.7.1/pom) | [mvn jdk17.0.4.1](com.io7m.xstructural-1.7.1.buildspec) | [result](com.io7m.xstructural-1.7.1.buildinfo): [26 :white_check_mark: ](com.io7m.xstructural-1.7.1.buildcompare) | 16M |
