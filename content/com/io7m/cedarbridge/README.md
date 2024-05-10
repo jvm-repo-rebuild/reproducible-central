@@ -54,6 +54,7 @@ rebuilding **2 releases** of com.io7m.cedarbridge:com.io7m.cedarbridge:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0](https://central.sonatype.com/artifact/com.io7m.cedarbridge/com.io7m.cedarbridge/2.0.0/pom) | | | |
 | [1.2.0](https://central.sonatype.com/artifact/com.io7m.cedarbridge/com.io7m.cedarbridge/1.2.0/pom) | [mvn jdk17.0.7](com.io7m.cedarbridge-1.2.0.buildspec) | [result](com.io7m.cedarbridge-1.2.0.buildinfo): [144 :white_check_mark:  2 :warning:](com.io7m.cedarbridge-1.2.0.buildcompare) [:mag:](com.io7m.cedarbridge-1.2.0.diffoscope) | 4.6M |
 | [1.1.0](https://central.sonatype.com/artifact/com.io7m.cedarbridge/com.io7m.cedarbridge/1.1.0/pom) | | | |
 | [1.0.0](https://central.sonatype.com/artifact/com.io7m.cedarbridge/com.io7m.cedarbridge/1.0.0/pom) | | | |

@@ -23,6 +23,7 @@ rebuilding **7 releases** of com.io7m.ervilla:com.io7m.ervilla:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.0](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/1.0.0/pom) | | | |
 | [1.0.0-beta0002](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/1.0.0-beta0002/pom) | [mvn jdk21](com.io7m.ervilla-1.0.0-beta0002.buildspec) | [result](com.io7m.ervilla-1.0.0-beta0002.buildinfo): [27 :white_check_mark: ](com.io7m.ervilla-1.0.0-beta0002.buildcompare) | 1.3M |
 | [1.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/1.0.0-beta0001/pom) | [mvn jdk21](com.io7m.ervilla-1.0.0-beta0001.buildspec) | [result](com.io7m.ervilla-1.0.0-beta0001.buildinfo): [27 :white_check_mark: ](com.io7m.ervilla-1.0.0-beta0001.buildcompare) | 1.3M |
 | [0.0.5](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/0.0.5/pom) | [mvn jdk17.0.8.1](com.io7m.ervilla-0.0.5.buildspec) | [result](com.io7m.ervilla-0.0.5.buildinfo): [27 :white_check_mark: ](com.io7m.ervilla-0.0.5.buildcompare) | 1.3M |

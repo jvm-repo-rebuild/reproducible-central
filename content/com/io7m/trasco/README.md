@@ -22,6 +22,7 @@ rebuilding **11 releases** of com.io7m.trasco:com.io7m.trasco:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/2.0.0/pom) | | | |
 | [1.1.0](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/1.1.0/pom) | [mvn jdk17.0.8](com.io7m.trasco-1.1.0.buildspec) | [result](com.io7m.trasco-1.1.0.buildinfo): [22 :white_check_mark: ](com.io7m.trasco-1.1.0.buildcompare) | 1018K |
 | [1.0.0](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/1.0.0/pom) | [mvn jdk17.0.7](com.io7m.trasco-1.0.0.buildspec) | [result](com.io7m.trasco-1.0.0.buildinfo): [18 :white_check_mark: ](com.io7m.trasco-1.0.0.buildcompare) | 196K |
 | [1.0.0-beta0003](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/1.0.0-beta0003/pom) | [mvn jdk17.0.7](com.io7m.trasco-1.0.0-beta0003.buildspec) | [result](com.io7m.trasco-1.0.0-beta0003.buildinfo): [18 :white_check_mark: ](com.io7m.trasco-1.0.0-beta0003.buildcompare) | 196K |

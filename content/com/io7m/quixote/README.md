@@ -23,6 +23,7 @@ rebuilding **5 releases** of com.io7m.quixote:com.io7m.quixote:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.3.0](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote/1.3.0/pom) | | | |
 | [1.2.0](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote/1.2.0/pom) | [mvn jdk21](com.io7m.quixote-1.2.0.buildspec) | [result](com.io7m.quixote-1.2.0.buildinfo): [26 :white_check_mark:  2 :warning:](com.io7m.quixote-1.2.0.buildcompare) [:mag:](com.io7m.quixote-1.2.0.diffoscope) | 2.1M |
 | [1.1.0](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote/1.1.0/pom) | [mvn jdk21](com.io7m.quixote-1.1.0.buildspec) | [result](com.io7m.quixote-1.1.0.buildinfo): [12 :white_check_mark: ](com.io7m.quixote-1.1.0.buildcompare) | 452K |
 | [1.0.0](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote/1.0.0/pom) | [mvn jdk17.0.7](com.io7m.quixote-1.0.0.buildspec) | [result](com.io7m.quixote-1.0.0.buildinfo): [9 :white_check_mark: ](com.io7m.quixote-1.0.0.buildcompare) | 98K |

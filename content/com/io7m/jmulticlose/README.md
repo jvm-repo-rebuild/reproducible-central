@@ -20,6 +20,7 @@ rebuilding **4 releases** of com.io7m.jmulticlose:com.io7m.jmulticlose:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.1.3](https://central.sonatype.com/artifact/com.io7m.jmulticlose/com.io7m.jmulticlose/1.1.3/pom) | | | |
 | [1.1.2](https://central.sonatype.com/artifact/com.io7m.jmulticlose/com.io7m.jmulticlose/1.1.2/pom) | [mvn jdk21](com.io7m.jmulticlose-1.1.2.buildspec) | [result](com.io7m.jmulticlose-1.1.2.buildinfo): [12 :white_check_mark: ](com.io7m.jmulticlose-1.1.2.buildcompare) | 483K |
 | [1.1.1](https://central.sonatype.com/artifact/com.io7m.jmulticlose/com.io7m.jmulticlose/1.1.1/pom) | | | |
 | [1.1.0](https://central.sonatype.com/artifact/com.io7m.jmulticlose/com.io7m.jmulticlose/1.1.0/pom) | [mvn jdk17.0.8](com.io7m.jmulticlose-1.1.0.buildspec) | [result](com.io7m.jmulticlose-1.1.0.buildinfo): [12 :white_check_mark: ](com.io7m.jmulticlose-1.1.0.buildcompare) | 481K |

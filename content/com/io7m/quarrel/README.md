@@ -24,6 +24,7 @@ rebuilding **10 releases** of com.io7m.quarrel:com.io7m.quarrel:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.6.1](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.6.1/pom) | | | |
 | [1.6.0](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.6.0/pom) | [mvn jdk21](com.io7m.quarrel-1.6.0.buildspec) | [result](com.io7m.quarrel-1.6.0.buildinfo): [33 :white_check_mark: ](com.io7m.quarrel-1.6.0.buildcompare) | 2.5M |
 | [1.5.0](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.5.0/pom) | [mvn jdk21](com.io7m.quarrel-1.5.0.buildspec) | [result](com.io7m.quarrel-1.5.0.buildinfo): [33 :white_check_mark: ](com.io7m.quarrel-1.5.0.buildcompare) | 2.5M |
 | [1.4.0](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.4.0/pom) | [mvn jdk21](com.io7m.quarrel-1.4.0.buildspec) | [result](com.io7m.quarrel-1.4.0.buildinfo): [33 :white_check_mark: ](com.io7m.quarrel-1.4.0.buildcompare) | 2.5M |

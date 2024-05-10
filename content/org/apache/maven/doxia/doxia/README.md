@@ -36,6 +36,7 @@ rebuilding **14 releases** of org.apache.maven.doxia:doxia:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0-M11](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia/2.0.0-M11/pom) | | | |
 | [2.0.0-M10](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia/2.0.0-M10/pom) | [mvn jdk8 w](doxia-2.0.0-M10.buildspec) | [result](doxia-2.0.0-M10.buildinfo): [49 :white_check_mark:  1 :warning:](doxia-2.0.0-M10.buildcompare) [:mag:](doxia-2.0.0-M10.diffoscope) | 2.2M |
 | [2.0.0-M9](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia/2.0.0-M9/pom) | [mvn jdk8 w](doxia-2.0.0-M9.buildspec) | [result](doxia-2.0.0-M9.buildinfo): [50 :white_check_mark: ](doxia-2.0.0-M9.buildcompare) | 2.1M |
 | [2.0.0-M8](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia/2.0.0-M8/pom) | [mvn jdk8 w](doxia-2.0.0-M8.buildspec) | [result](doxia-2.0.0-M8.buildinfo): [50 :white_check_mark: ](doxia-2.0.0-M8.buildcompare) | 2.1M |
