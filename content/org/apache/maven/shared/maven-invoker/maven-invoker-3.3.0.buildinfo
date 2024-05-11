@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Invoker
+group-id=org.apache.maven.shared
+artifact-id=maven-invoker
+version=3.3.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-invoker.git
+source.scm.tag=maven-invoker-3.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.maven.shared
+outputs.0.filename=maven-invoker-3.3.0.pom
+outputs.0.length=4247
+outputs.0.checksums.sha512=f9b4409d3bd12ac284b306f3e36ec7535792b7ef9b48798345b5e078986d53ac2876813703eec538a637a1852e79d020784cb5c12a2d47dd6083cc43c46ba4ab
+
+outputs.1.groupId=org.apache.maven.shared
+outputs.1.filename=maven-invoker-3.3.0.jar
+outputs.1.length=34149
+outputs.1.checksums.sha512=4713a1b47d73c5458cddf7d992bd9b826a21a70d8eccc8718033f11c83dc3d52c966964e9828459f7682244d93f8ac72337e750c295cbbf9216ba9aa7f117d68
+
+outputs.2.groupId=org.apache.maven.shared
+outputs.2.filename=maven-invoker-3.3.0-source-release.zip
+outputs.2.length=93707
+outputs.2.checksums.sha512=746c8a1dd96c193690ae76f15198ab173767e1e9f5621697e6f6b4e207e698428c79f4c84f049ff216ca9e454ad3ffa2b80756a21c4d7cac577dc526083d86e3
+
+outputs.3.groupId=org.apache.maven.shared
+outputs.3.filename=maven-invoker-3.3.0-sources.jar
+outputs.3.length=36624
+outputs.3.checksums.sha512=7249c0365a96244d1f99dbd605689a14fe7e07fcf2e8bd043779a4d80e66ad0057d0d56027627e2dcbc93960b244b5725a3340ad7a3b757892233f556a79d065
+
+outputs.4.groupId=org.apache.maven.shared
+outputs.4.filename=maven-invoker-3.3.0-cyclonedx.xml
+outputs.4.length=12032
+outputs.4.checksums.sha512=bc2208600a98f8939d370fe4e0f29b416c880dda63d36c386cf3c7bde14e5a11aff874548d1b719f1f3d088b6d385c7d6dfbedaf66fd353530b7bdc5efbd40d1
+
+outputs.5.groupId=org.apache.maven.shared
+outputs.5.filename=maven-invoker-3.3.0-cyclonedx.json
+outputs.5.length=14119
+outputs.5.checksums.sha512=932d1dd6e69afa2c4869c0cd6f974519b9083161f4f33c01395869603f474cc0e0b3c9ceeaa5f3087394ebcfe5e0ef1f94605a68880d489d77403275a9984d74
