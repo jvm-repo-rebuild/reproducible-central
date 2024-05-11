@@ -9,22 +9,22 @@ Source code: [https://github.com/io7m/quarrel.git](https://github.com/io7m/quarr
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [com.io7m.quarrel:com.io7m.quarrel](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.6.0)
-* [com.io7m.quarrel:com.io7m.quarrel.core](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.core/1.6.0)
-* [com.io7m.quarrel:com.io7m.quarrel.documentation](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.documentation/1.6.0)
-* [com.io7m.quarrel:com.io7m.quarrel.example](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.example/1.6.0)
-* [com.io7m.quarrel:com.io7m.quarrel.ext.logback](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.ext.logback/1.6.0)
-* [com.io7m.quarrel:com.io7m.quarrel.ext.xstructural](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.ext.xstructural/1.6.0)
-* [com.io7m.quarrel:com.io7m.quarrel.tests](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.tests/1.6.0)
+* [com.io7m.quarrel:com.io7m.quarrel](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.6.1)
+* [com.io7m.quarrel:com.io7m.quarrel.core](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.core/1.6.1)
+* [com.io7m.quarrel:com.io7m.quarrel.documentation](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.documentation/1.6.1)
+* [com.io7m.quarrel:com.io7m.quarrel.example](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.example/1.6.1)
+* [com.io7m.quarrel:com.io7m.quarrel.ext.logback](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.ext.logback/1.6.1)
+* [com.io7m.quarrel:com.io7m.quarrel.ext.xstructural](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.ext.xstructural/1.6.1)
+* [com.io7m.quarrel:com.io7m.quarrel.tests](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.tests/1.6.1)
 </details>
 
-rebuilding **10 releases** of com.io7m.quarrel:com.io7m.quarrel:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **11 releases** of com.io7m.quarrel:com.io7m.quarrel:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.6.1](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.6.1/pom) | | | |
+| [1.6.1](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.6.1/pom) | [mvn jdk21](com.io7m.quarrel-1.6.1.buildspec) | [result](com.io7m.quarrel-1.6.1.buildinfo): [33 :white_check_mark: ](com.io7m.quarrel-1.6.1.buildcompare) | 2.6M |
 | [1.6.0](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.6.0/pom) | [mvn jdk21](com.io7m.quarrel-1.6.0.buildspec) | [result](com.io7m.quarrel-1.6.0.buildinfo): [33 :white_check_mark: ](com.io7m.quarrel-1.6.0.buildcompare) | 2.5M |
 | [1.5.0](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.5.0/pom) | [mvn jdk21](com.io7m.quarrel-1.5.0.buildspec) | [result](com.io7m.quarrel-1.5.0.buildinfo): [33 :white_check_mark: ](com.io7m.quarrel-1.5.0.buildcompare) | 2.5M |
 | [1.4.0](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.4.0/pom) | [mvn jdk21](com.io7m.quarrel-1.4.0.buildspec) | [result](com.io7m.quarrel-1.4.0.buildinfo): [33 :white_check_mark: ](com.io7m.quarrel-1.4.0.buildcompare) | 2.5M |

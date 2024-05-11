@@ -3,13 +3,14 @@
   <groupId>com.io7m.cxbutton</groupId>
   <artifactId>com.io7m.cxbutton</artifactId>
   <versioning>
-    <latest>0.0.5</latest>
-    <release>0.0.5</release>
+    <latest>1.0.0</latest>
+    <release>1.0.0</release>
     <versions>
       <version>0.0.2</version>
       <version>0.0.3</version>
       <version>0.0.5</version>
+      <version>1.0.0</version>
     </versions>
-    <lastUpdated>20221127132610</lastUpdated>
+    <lastUpdated>20240511104151</lastUpdated>
   </versioning>
 </metadata>

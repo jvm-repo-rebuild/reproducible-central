@@ -22,6 +22,7 @@ rebuilding **9 releases** of com.io7m.hibiscus:com.io7m.hibiscus:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.0](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus/1.0.0/pom) | | | |
 | [1.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus/1.0.0-beta0001/pom) | [mvn jdk21](com.io7m.hibiscus-1.0.0-beta0001.buildspec) | [result](com.io7m.hibiscus-1.0.0-beta0001.buildinfo): [17 :white_check_mark: ](com.io7m.hibiscus-1.0.0-beta0001.buildcompare) | 2.2M |
 | [0.0.8](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus/0.0.8/pom) | [mvn jdk17.0.7](com.io7m.hibiscus-0.0.8.buildspec) | [result](com.io7m.hibiscus-0.0.8.buildinfo): [14 :white_check_mark: ](com.io7m.hibiscus-0.0.8.buildcompare) | 157K |
 | [0.0.7](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus/0.0.7/pom) | [mvn jdk17.0.6](com.io7m.hibiscus-0.0.7.buildspec) | [result](com.io7m.hibiscus-0.0.7.buildinfo): [14 :white_check_mark: ](com.io7m.hibiscus-0.0.7.buildcompare) | 156K |

@@ -13,6 +13,7 @@ rebuilding **1 releases** of com.semanticcms:semanticcms-tag-reference-book:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.10.2](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-tag-reference-book/1.10.2/pom) | | | |
 | [1.10.1](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-tag-reference-book/1.10.1/pom) | [mvn jdk17](semanticcms-tag-reference-book-1.10.1.buildspec) | [result](semanticcms-tag-reference-book-1.10.1.buildinfo): [3 :white_check_mark: ](semanticcms-tag-reference-book-1.10.1.buildcompare) | 705K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

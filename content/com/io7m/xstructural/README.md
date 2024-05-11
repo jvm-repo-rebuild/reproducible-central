@@ -9,23 +9,23 @@ Source code: [https://github.com/io7m/xstructural.git](https://github.com/io7m/x
 
 <details><summary>This project defines 8 modules:</summary>
 
-* [com.io7m.xstructural:com.io7m.xstructural](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.8.0)
-* [com.io7m.xstructural:com.io7m.xstructural.api](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.api/1.8.0)
-* [com.io7m.xstructural:com.io7m.xstructural.cmdline](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.cmdline/1.8.0)
-* [com.io7m.xstructural:com.io7m.xstructural.documentation](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.documentation/1.8.0)
-* [com.io7m.xstructural:com.io7m.xstructural.maven_plugin](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.maven_plugin/1.8.0)
-* [com.io7m.xstructural:com.io7m.xstructural.tests](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.tests/1.8.0)
-* [com.io7m.xstructural:com.io7m.xstructural.vanilla](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.vanilla/1.8.0)
-* [com.io7m.xstructural:com.io7m.xstructural.xml](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.xml/1.8.0)
+* [com.io7m.xstructural:com.io7m.xstructural](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.8.1)
+* [com.io7m.xstructural:com.io7m.xstructural.api](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.api/1.8.1)
+* [com.io7m.xstructural:com.io7m.xstructural.cmdline](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.cmdline/1.8.1)
+* [com.io7m.xstructural:com.io7m.xstructural.documentation](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.documentation/1.8.1)
+* [com.io7m.xstructural:com.io7m.xstructural.maven_plugin](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.maven_plugin/1.8.1)
+* [com.io7m.xstructural:com.io7m.xstructural.tests](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.tests/1.8.1)
+* [com.io7m.xstructural:com.io7m.xstructural.vanilla](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.vanilla/1.8.1)
+* [com.io7m.xstructural:com.io7m.xstructural.xml](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.xml/1.8.1)
 </details>
 
-rebuilding **6 releases** of com.io7m.xstructural:com.io7m.xstructural:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of com.io7m.xstructural:com.io7m.xstructural:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.8.1](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.8.1/pom) | | | |
+| [1.8.1](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.8.1/pom) | [mvn jdk21](com.io7m.xstructural-1.8.1.buildspec) | [result](com.io7m.xstructural-1.8.1.buildinfo): [38 :white_check_mark: ](com.io7m.xstructural-1.8.1.buildcompare) | 40M |
 | [1.8.0](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.8.0/pom) | [mvn jdk17.0.5](com.io7m.xstructural-1.8.0.buildspec) | [result](com.io7m.xstructural-1.8.0.buildinfo): [30 :white_check_mark: ](com.io7m.xstructural-1.8.0.buildcompare) | 18M |
 | [1.7.2](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.7.2/pom) | [mvn jdk17.0.5](com.io7m.xstructural-1.7.2.buildspec) | [result](com.io7m.xstructural-1.7.2.buildinfo): [26 :white_check_mark: ](com.io7m.xstructural-1.7.2.buildcompare) | 18M |
 | [1.7.1](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.7.1/pom) | [mvn jdk17.0.4.1](com.io7m.xstructural-1.7.1.buildspec) | [result](com.io7m.xstructural-1.7.1.buildinfo): [26 :white_check_mark: ](com.io7m.xstructural-1.7.1.buildcompare) | 16M |

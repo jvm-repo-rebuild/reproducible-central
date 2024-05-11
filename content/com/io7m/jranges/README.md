@@ -21,6 +21,7 @@ rebuilding **1 releases** of com.io7m.jranges:com.io7m.jranges:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [6.0.0](https://central.sonatype.com/artifact/com.io7m.jranges/com.io7m.jranges/6.0.0/pom) | | | |
 | [5.0.0](https://central.sonatype.com/artifact/com.io7m.jranges/com.io7m.jranges/5.0.0/pom) | [mvn jdk17.0.3](com.io7m.jranges-5.0.0.buildspec) | [result](com.io7m.jranges-5.0.0.buildinfo): [13 :white_check_mark: ](com.io7m.jranges-5.0.0.buildcompare) | 170K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -21,6 +21,7 @@ rebuilding **2 releases** of com.io7m.verdant:com.io7m.verdant:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.1](https://central.sonatype.com/artifact/com.io7m.verdant/com.io7m.verdant/1.0.1/pom) | | | |
 | [1.0.0](https://central.sonatype.com/artifact/com.io7m.verdant/com.io7m.verdant/1.0.0/pom) | [mvn jdk17.0.7](com.io7m.verdant-1.0.0.buildspec) | [result](com.io7m.verdant-1.0.0.buildinfo): [13 :white_check_mark: ](com.io7m.verdant-1.0.0.buildcompare) | 64K |
 | [0.0.1](https://central.sonatype.com/artifact/com.io7m.verdant/com.io7m.verdant/0.0.1/pom) | [mvn jdk17.0.4.1](com.io7m.verdant-0.0.1.buildspec) | [result](com.io7m.verdant-0.0.1.buildinfo): [13 :white_check_mark: ](com.io7m.verdant-0.0.1.buildcompare) | 64K |
 

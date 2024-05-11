@@ -20,6 +20,7 @@ rebuilding **2 releases** of com.io7m.genevan:com.io7m.genevan:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.0](https://central.sonatype.com/artifact/com.io7m.genevan/com.io7m.genevan/1.0.0/pom) | | | |
 | [0.0.2](https://central.sonatype.com/artifact/com.io7m.genevan/com.io7m.genevan/0.0.2/pom) | [mvn jdk17.0.4.1](com.io7m.genevan-0.0.2.buildspec) | [result](com.io7m.genevan-0.0.2.buildinfo): [10 :white_check_mark: ](com.io7m.genevan-0.0.2.buildcompare) | 82K |
 | [0.0.1](https://central.sonatype.com/artifact/com.io7m.genevan/com.io7m.genevan/0.0.1/pom) | [mvn jdk17.0.4](com.io7m.genevan-0.0.1.buildspec) | [result](com.io7m.genevan-0.0.1.buildinfo): [10 :white_check_mark: ](com.io7m.genevan-0.0.1.buildcompare) | 81K |
 

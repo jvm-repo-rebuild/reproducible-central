@@ -9,21 +9,21 @@ Source code: [https://github.com/io7m/ervilla.git](https://github.com/io7m/ervil
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [com.io7m.ervilla:com.io7m.ervilla](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/1.0.0-beta0002)
-* [com.io7m.ervilla:com.io7m.ervilla.api](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla.api/1.0.0-beta0002)
-* [com.io7m.ervilla:com.io7m.ervilla.native_exec](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla.native_exec/1.0.0-beta0002)
-* [com.io7m.ervilla:com.io7m.ervilla.postgres](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla.postgres/1.0.0-beta0002)
-* [com.io7m.ervilla:com.io7m.ervilla.test_extension](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla.test_extension/1.0.0-beta0002)
-* [com.io7m.ervilla:com.io7m.ervilla.tests](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla.tests/1.0.0-beta0002)
+* [com.io7m.ervilla:com.io7m.ervilla](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/1.0.0)
+* [com.io7m.ervilla:com.io7m.ervilla.api](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla.api/1.0.0)
+* [com.io7m.ervilla:com.io7m.ervilla.native_exec](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla.native_exec/1.0.0)
+* [com.io7m.ervilla:com.io7m.ervilla.postgres](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla.postgres/1.0.0)
+* [com.io7m.ervilla:com.io7m.ervilla.test_extension](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla.test_extension/1.0.0)
+* [com.io7m.ervilla:com.io7m.ervilla.tests](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla.tests/1.0.0)
 </details>
 
-rebuilding **7 releases** of com.io7m.ervilla:com.io7m.ervilla:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of com.io7m.ervilla:com.io7m.ervilla:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.0.0](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/1.0.0/pom) | | | |
+| [1.0.0](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/1.0.0/pom) | [mvn jdk21](com.io7m.ervilla-1.0.0.buildspec) | [result](com.io7m.ervilla-1.0.0.buildinfo): [27 :white_check_mark: ](com.io7m.ervilla-1.0.0.buildcompare) | 1.3M |
 | [1.0.0-beta0002](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/1.0.0-beta0002/pom) | [mvn jdk21](com.io7m.ervilla-1.0.0-beta0002.buildspec) | [result](com.io7m.ervilla-1.0.0-beta0002.buildinfo): [27 :white_check_mark: ](com.io7m.ervilla-1.0.0-beta0002.buildcompare) | 1.3M |
 | [1.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/1.0.0-beta0001/pom) | [mvn jdk21](com.io7m.ervilla-1.0.0-beta0001.buildspec) | [result](com.io7m.ervilla-1.0.0-beta0001.buildinfo): [27 :white_check_mark: ](com.io7m.ervilla-1.0.0-beta0001.buildcompare) | 1.3M |
 | [0.0.5](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/0.0.5/pom) | [mvn jdk17.0.8.1](com.io7m.ervilla-0.0.5.buildspec) | [result](com.io7m.ervilla-0.0.5.buildinfo): [27 :white_check_mark: ](com.io7m.ervilla-0.0.5.buildcompare) | 1.3M |

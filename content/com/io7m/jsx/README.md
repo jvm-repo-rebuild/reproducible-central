@@ -9,23 +9,23 @@ Source code: [https://github.com/io7m/jsx.git](https://github.com/io7m/jsx.git)
 
 <details><summary>This project defines 8 modules:</summary>
 
-* [com.io7m.jsx:com.io7m.jsx](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx/3.1.1)
-* [com.io7m.jsx:com.io7m.jsx.cmdline](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.cmdline/3.1.1)
-* [com.io7m.jsx:com.io7m.jsx.core](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.core/3.1.1)
-* [com.io7m.jsx:com.io7m.jsx.documentation](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.documentation/3.1.1)
-* [com.io7m.jsx:com.io7m.jsx.parser](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.parser/3.1.1)
-* [com.io7m.jsx:com.io7m.jsx.parser.api](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.parser.api/3.1.1)
-* [com.io7m.jsx:com.io7m.jsx.prettyprint](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.prettyprint/3.1.1)
-* [com.io7m.jsx:com.io7m.jsx.tests](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.tests/3.1.1)
+* [com.io7m.jsx:com.io7m.jsx](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx/4.0.0)
+* [com.io7m.jsx:com.io7m.jsx.cmdline](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.cmdline/4.0.0)
+* [com.io7m.jsx:com.io7m.jsx.core](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.core/4.0.0)
+* [com.io7m.jsx:com.io7m.jsx.documentation](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.documentation/4.0.0)
+* [com.io7m.jsx:com.io7m.jsx.parser](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.parser/4.0.0)
+* [com.io7m.jsx:com.io7m.jsx.parser.api](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.parser.api/4.0.0)
+* [com.io7m.jsx:com.io7m.jsx.prettyprint](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.prettyprint/4.0.0)
+* [com.io7m.jsx:com.io7m.jsx.tests](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.tests/4.0.0)
 </details>
 
-rebuilding **6 releases** of com.io7m.jsx:com.io7m.jsx:
+rebuilding **7 releases** of com.io7m.jsx:com.io7m.jsx:
 - **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.0.0](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx/4.0.0/pom) | | | |
+| [4.0.0](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx/4.0.0/pom) | [mvn jdk21](com.io7m.jsx-4.0.0.buildspec) | [result](com.io7m.jsx-4.0.0.buildinfo): [37 :white_check_mark:  1 :warning:](com.io7m.jsx-4.0.0.buildcompare) [:mag:](com.io7m.jsx-4.0.0.diffoscope) | 2.0M |
 | [3.1.1](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx/3.1.1/pom) | [mvn jdk17.0.7](com.io7m.jsx-3.1.1.buildspec) | [result](com.io7m.jsx-3.1.1.buildinfo): [39 :white_check_mark: ](com.io7m.jsx-3.1.1.buildcompare) | 1.4M |
 | [3.1.0](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx/3.1.0/pom) | [mvn jdk17.0.7](com.io7m.jsx-3.1.0.buildspec) | [result](com.io7m.jsx-3.1.0.buildinfo): [31 :white_check_mark: ](com.io7m.jsx-3.1.0.buildcompare) | 669K |
 | [3.0.3](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx/3.0.3/pom) | [mvn jdk17.0.7](com.io7m.jsx-3.0.3.buildspec) | [result](com.io7m.jsx-3.0.3.buildinfo): [31 :white_check_mark: ](com.io7m.jsx-3.0.3.buildcompare) | 665K |

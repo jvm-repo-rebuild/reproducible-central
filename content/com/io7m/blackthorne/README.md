@@ -9,20 +9,20 @@ Source code: [https://github.com/io7m/blackthorne.git](https://github.com/io7m/b
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [com.io7m.blackthorne:com.io7m.blackthorne](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/2.0.0)
-* [com.io7m.blackthorne:com.io7m.blackthorne.api](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne.api/2.0.0)
-* [com.io7m.blackthorne:com.io7m.blackthorne.core](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne.core/2.0.0)
-* [com.io7m.blackthorne:com.io7m.blackthorne.jxe](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne.jxe/2.0.0)
-* [com.io7m.blackthorne:com.io7m.blackthorne.tests](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne.tests/2.0.0)
+* [com.io7m.blackthorne:com.io7m.blackthorne](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/2.0.1)
+* [com.io7m.blackthorne:com.io7m.blackthorne.api](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne.api/2.0.1)
+* [com.io7m.blackthorne:com.io7m.blackthorne.core](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne.core/2.0.1)
+* [com.io7m.blackthorne:com.io7m.blackthorne.jxe](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne.jxe/2.0.1)
+* [com.io7m.blackthorne:com.io7m.blackthorne.tests](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne.tests/2.0.1)
 </details>
 
-rebuilding **11 releases** of com.io7m.blackthorne:com.io7m.blackthorne:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **12 releases** of com.io7m.blackthorne:com.io7m.blackthorne:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0.1](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/2.0.1/pom) | | | |
+| [2.0.1](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/2.0.1/pom) | [mvn jdk21](com.io7m.blackthorne-2.0.1.buildspec) | [result](com.io7m.blackthorne-2.0.1.buildinfo): [17 :white_check_mark: ](com.io7m.blackthorne-2.0.1.buildcompare) | 968K |
 | [2.0.0](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/2.0.0/pom) | [mvn jdk17.0.8](com.io7m.blackthorne-2.0.0.buildspec) | [result](com.io7m.blackthorne-2.0.0.buildinfo): [17 :white_check_mark: ](com.io7m.blackthorne-2.0.0.buildcompare) | 966K |
 | [2.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/2.0.0-beta0001/pom) | [mvn jdk17.0.8](com.io7m.blackthorne-2.0.0-beta0001.buildspec) | [result](com.io7m.blackthorne-2.0.0-beta0001.buildinfo): [17 :white_check_mark: ](com.io7m.blackthorne-2.0.0-beta0001.buildcompare) | 960K |
 | [1.3.1](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/1.3.1/pom) | [mvn jdk17.0.3](com.io7m.blackthorne-1.3.1.buildspec) | [result](com.io7m.blackthorne-1.3.1.buildinfo): [13 :white_check_mark: ](com.io7m.blackthorne-1.3.1.buildcompare) | 147K |

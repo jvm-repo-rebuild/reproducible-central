@@ -21,6 +21,7 @@ rebuilding **3 releases** of com.io7m.dixmont:com.io7m.dixmont:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0](https://central.sonatype.com/artifact/com.io7m.dixmont/com.io7m.dixmont/2.0.0/pom) | | | |
 | [1.0.0](https://central.sonatype.com/artifact/com.io7m.dixmont/com.io7m.dixmont/1.0.0/pom) | [mvn jdk17.0.7](com.io7m.dixmont-1.0.0.buildspec) | [result](com.io7m.dixmont-1.0.0.buildinfo): [14 :white_check_mark: ](com.io7m.dixmont-1.0.0.buildcompare) | 63K |
 | [0.0.2](https://central.sonatype.com/artifact/com.io7m.dixmont/com.io7m.dixmont/0.0.2/pom) | [mvn jdk17.0.4.1](com.io7m.dixmont-0.0.2.buildspec) | [result](com.io7m.dixmont-0.0.2.buildinfo): [14 :white_check_mark: ](com.io7m.dixmont-0.0.2.buildcompare) | 63K |
 | [0.0.1](https://central.sonatype.com/artifact/com.io7m.dixmont/com.io7m.dixmont/0.0.1/pom) | [mvn jdk17.0.1](com.io7m.dixmont-0.0.1.buildspec) | [result](com.io7m.dixmont-0.0.1.buildinfo): [9 :white_check_mark: ](com.io7m.dixmont-0.0.1.buildcompare) | 36K |

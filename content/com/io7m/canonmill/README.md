@@ -21,6 +21,7 @@ rebuilding **7 releases** of com.io7m.canonmill:com.io7m.canonmill:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.1.0](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill/2.1.0/pom) | | | |
 | [2.0.1](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill/2.0.1/pom) | [mvn jdk21](com.io7m.canonmill-2.0.1.buildspec) | [result](com.io7m.canonmill-2.0.1.buildinfo): [17 :white_check_mark: ](com.io7m.canonmill-2.0.1.buildcompare) | 851K |
 | [2.0.0](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill/2.0.0/pom) | [mvn jdk21](com.io7m.canonmill-2.0.0.buildspec) | [result](com.io7m.canonmill-2.0.0.buildinfo): [17 :white_check_mark: ](com.io7m.canonmill-2.0.0.buildcompare) | 848K |
 | [1.0.0](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill/1.0.0/pom) | [mvn jdk17.0.8](com.io7m.canonmill-1.0.0.buildspec) | [result](com.io7m.canonmill-1.0.0.buildinfo): [17 :white_check_mark: ](com.io7m.canonmill-1.0.0.buildcompare) | 849K |

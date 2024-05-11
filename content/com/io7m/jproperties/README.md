@@ -22,6 +22,7 @@ rebuilding **3 releases** of com.io7m.jproperties:com.io7m.jproperties:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.0](https://central.sonatype.com/artifact/com.io7m.jproperties/com.io7m.jproperties/4.0.0/pom) | | | |
 | [3.2.0](https://central.sonatype.com/artifact/com.io7m.jproperties/com.io7m.jproperties/3.2.0/pom) | [mvn jdk17.0.3](com.io7m.jproperties-3.2.0.buildspec) | [result](com.io7m.jproperties-3.2.0.buildinfo): [17 :white_check_mark: ](com.io7m.jproperties-3.2.0.buildcompare) | 130K |
 | [3.1.0](https://central.sonatype.com/artifact/com.io7m.jproperties/com.io7m.jproperties/3.1.0/pom) | [mvn jdk17.0.3](com.io7m.jproperties-3.1.0.buildspec) | [result](com.io7m.jproperties-3.1.0.buildinfo): [18 :white_check_mark: ](com.io7m.jproperties-3.1.0.buildcompare) | 134K |
 | [3.0.0](https://central.sonatype.com/artifact/com.io7m.jproperties/com.io7m.jproperties/3.0.0/pom) | [mvn jdk17.0.3](com.io7m.jproperties-3.0.0.buildspec) | [result](com.io7m.jproperties-3.0.0.buildinfo): [18 :white_check_mark: ](com.io7m.jproperties-3.0.0.buildcompare) | 133K |
