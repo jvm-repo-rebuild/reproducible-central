@@ -1,0 +1,7 @@
+version=2.1.0
+ok=22
+ko=0
+ignored=0
+okFiles="com.io7m.jbssio-2.1.0.pom com.io7m.jbssio-2.1.0-cyclonedx.xml com.io7m.jbssio.api-2.1.0.pom com.io7m.jbssio.api-2.1.0.jar com.io7m.jbssio.api-2.1.0-sources.jar com.io7m.jbssio.api-2.1.0-cyclonedx.xml com.io7m.jbssio.api-2.1.0-tests.jar com.io7m.jbssio.ext.bounded-2.1.0.pom com.io7m.jbssio.ext.bounded-2.1.0.jar com.io7m.jbssio.ext.bounded-2.1.0-sources.jar com.io7m.jbssio.ext.bounded-2.1.0-cyclonedx.xml com.io7m.jbssio.ext.bounded-2.1.0-tests.jar com.io7m.jbssio.vanilla-2.1.0.pom com.io7m.jbssio.vanilla-2.1.0.jar com.io7m.jbssio.vanilla-2.1.0-sources.jar com.io7m.jbssio.vanilla-2.1.0-cyclonedx.xml com.io7m.jbssio.vanilla-2.1.0-tests.jar com.io7m.jbssio.tests-2.1.0.pom com.io7m.jbssio.tests-2.1.0.jar com.io7m.jbssio.tests-2.1.0-sources.jar com.io7m.jbssio.tests-2.1.0-cyclonedx.xml com.io7m.jbssio.tests-2.1.0-tests.jar"
+koFiles=""
+ignoredFiles=""
