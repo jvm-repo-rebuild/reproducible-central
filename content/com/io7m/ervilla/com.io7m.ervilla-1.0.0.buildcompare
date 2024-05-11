@@ -1,0 +1,7 @@
+version=1.0.0
+ok=27
+ko=0
+ignored=0
+okFiles="com.io7m.ervilla-1.0.0.pom com.io7m.ervilla-1.0.0-cyclonedx.xml com.io7m.ervilla.api-1.0.0.pom com.io7m.ervilla.api-1.0.0.jar com.io7m.ervilla.api-1.0.0-sources.jar com.io7m.ervilla.api-1.0.0-cyclonedx.xml com.io7m.ervilla.api-1.0.0-tests.jar com.io7m.ervilla.native_exec-1.0.0.pom com.io7m.ervilla.native_exec-1.0.0.jar com.io7m.ervilla.native_exec-1.0.0-sources.jar com.io7m.ervilla.native_exec-1.0.0-cyclonedx.xml com.io7m.ervilla.native_exec-1.0.0-tests.jar com.io7m.ervilla.postgres-1.0.0.pom com.io7m.ervilla.postgres-1.0.0.jar com.io7m.ervilla.postgres-1.0.0-sources.jar com.io7m.ervilla.postgres-1.0.0-cyclonedx.xml com.io7m.ervilla.postgres-1.0.0-tests.jar com.io7m.ervilla.test_extension-1.0.0.pom com.io7m.ervilla.test_extension-1.0.0.jar com.io7m.ervilla.test_extension-1.0.0-sources.jar com.io7m.ervilla.test_extension-1.0.0-cyclonedx.xml com.io7m.ervilla.test_extension-1.0.0-tests.jar com.io7m.ervilla.tests-1.0.0.pom com.io7m.ervilla.tests-1.0.0.jar com.io7m.ervilla.tests-1.0.0-sources.jar com.io7m.ervilla.tests-1.0.0-cyclonedx.xml com.io7m.ervilla.tests-1.0.0-tests.jar"
+koFiles=""
+ignoredFiles=""
