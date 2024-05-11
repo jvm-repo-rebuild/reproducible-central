@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SemanticCMS Tag Reference
+group-id=com.semanticcms
+artifact-id=semanticcms-tag-reference
+version=1.10.2
+
+# source information
+source.scm.uri=scm:git:git://github.com/ao-apps/semanticcms-tag-reference.git
+source.scm.tag=semanticcms-tag-reference-1.10.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.semanticcms
+outputs.0.filename=semanticcms-tag-reference-1.10.2.pom
+outputs.0.length=26951
+outputs.0.checksums.sha512=99d23f22614de5c02e3e6adc7c466b244ac4f1b0c774069c31111a48507ce677d4800a572f7b3cc08aa05265e4fd0cc6cc6c9bb33923a5708f9baf14e89846a5
+
+outputs.1.groupId=com.semanticcms
+outputs.1.filename=semanticcms-tag-reference-1.10.2.jar
+outputs.1.length=44091
+outputs.1.checksums.sha512=316d7e8b4c9c8eb4f0ff2675f24b1a55cf1be69e46bdcadcf15da155e9d18ecb74326873a1f014a0f85a4f2abd52c94ca00f8b52eb3cc8f4e04dd1227dd2c344
+
+outputs.2.groupId=com.semanticcms
+outputs.2.filename=semanticcms-tag-reference-1.10.2-sources.jar
+outputs.2.length=42645
+outputs.2.checksums.sha512=75bc1354e3f6e91e46ff94a1497951bbf82a839e4f3e4959015514e402681717c4d805d97e7409d9f63952c01034150b5c5df663112f08c7d320cb1c9faa93e9
