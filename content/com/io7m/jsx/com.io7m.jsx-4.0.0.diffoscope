@@ -1,0 +1,39 @@
+1 / 1 target/reference/com.io7m.jsx/com.io7m.jsx.documentation-4.0.0.zip com.io7m.jsx.documentation/target/com.io7m.jsx.documentation-4.0.0.zip
+--- target/reference/com.io7m.jsx/com.io7m.jsx.documentation-4.0.0.zip
++++ com.io7m.jsx.documentation/target/com.io7m.jsx.documentation-4.0.0.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 443631 bytes, number of entries: 134
+│ +Zip file size: 435078 bytes, number of entries: 132
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-29 22:14 com.io7m.jsx.documentation-4.0.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Mar-29 22:14 com.io7m.jsx.documentation-4.0.0/apidocs/
+│ @@ -85,17 +85,15 @@
+│  -rw-r--r--  2.0 unx    78380 b- defN 24-Mar-29 22:14 com.io7m.jsx.documentation-4.0.0/apidocs/index-all.html
+│  -rw-r--r--  2.0 unx     5139 b- defN 24-Mar-29 22:14 com.io7m.jsx.documentation-4.0.0/apidocs/index.html
+│ --rw-r--r--  2.0 unx     2114 b- defN 24-Mar-29 22:14 com.io7m.jsx.documentation-4.0.0/apidocs/legal/ADDITIONAL_LICENSE_INFO
+│  -rw-r--r--  2.0 unx     1514 b- defN 24-Mar-29 22:14 com.io7m.jsx.documentation-4.0.0/apidocs/legal/ASSEMBLY_EXCEPTION
+│ --rw-r--r--  2.0 unx    19274 b- defN 24-Mar-29 22:14 com.io7m.jsx.documentation-4.0.0/apidocs/legal/LICENSE
+│  -rw-r--r--  2.0 unx     2936 b- defN 24-Mar-29 22:14 com.io7m.jsx.documentation-4.0.0/apidocs/legal/jquery.md
+│  -rw-r--r--  2.0 unx     1870 b- defN 24-Mar-29 22:14 com.io7m.jsx.documentation-4.0.0/apidocs/legal/jqueryUI.md
+│ @@ -122,15 +120,15 @@
+│  -rw-r--r--  2.0 unx     7559 b- defN 24-Mar-29 22:14 com.io7m.jsx.documentation-4.0.0/language.xml
+│  -rw-r--r--  2.0 unx     1809 b- defN 24-Mar-29 22:14 com.io7m.jsx.documentation-4.0.0/main.xml
+│ --rw-r--r--  2.0 unx     8766 b- defN 24-Mar-29 22:14 com.io7m.jsx.documentation-4.0.0/messages.log
+│ +-rw-r--r--  2.0 unx     8835 b- defN 24-Mar-29 22:14 com.io7m.jsx.documentation-4.0.0/messages.log
+│  -rw-r--r--  2.0 unx     3903 b- defN 24-Mar-29 22:14 com.io7m.jsx.documentation-4.0.0/package.xml
+│  -rw-r--r--  2.0 unx     6138 b- defN 24-Mar-29 22:14 com.io7m.jsx.documentation-4.0.0/reset.css
+│ -134 files, 1538867 bytes uncompressed, 414725 bytes compressed:  73.0%
+│ +132 files, 1517548 bytes uncompressed, 406572 bytes compressed:  73.2%
+├── com.io7m.jsx.documentation-4.0.0/messages.log
+│ @@ -1,40 +1,40 @@
+│ -jar:file:/home/runner/.m2/repository/com/io7m/xstructural/com.io7m.xstructural.xml/1.8.1/com.io7m.xstructural.xml-1.8.1.jar!/com/io7m/xstructural/xml/s8/xstructural8-web-multi.xsl:108:75: XTMM9000: Processing document d0e2
+│ -jar:file:/home/runner/.m2/repository/com/io7m/xstructural/com.io7m.xstructural.xml/1.8.1/com.io7m.xstructural.xml-1.8.1.jar!/com/io7m/xstructural/xml/s8/xstructural8-web-multi.xsl:114:53: XTMM9000: create file:///home/runner/work/jsx/jsx/com.io7m.jsx.documentation/target/documentation//index-m.xhtml
+...
+│ -jar:file:/home/runner/.m2/repository/com/io7m/xstructural/com.io7m.xstructural.xml/1.8.1/com.io7m.xstructural.xml-1.8.1.jar!/com/io7m/xstructural/xml/s8/xstructural8-web-multi.xsl:75:70: XTMM9000: anchorOf: Document
+│ -jar:file:/home/runner/.m2/repository/com/io7m/xstructural/com.io7m.xstructural.xml/1.8.1/com.io7m.xstructural.xml-1.8.1.jar!/com/io7m/xstructural/xml/s8/xstructural8-web-multi.xsl:75:70: XTMM9000: anchorOf: Section
+│ +jar:file:/var/maven/.m2/repository-022/com/io7m/xstructural/com.io7m.xstructural.xml/1.8.1/com.io7m.xstructural.xml-1.8.1.jar!/com/io7m/xstructural/xml/s8/xstructural8-web-multi.xsl:108:75: XTMM9000: Processing document d0e2
+│ +jar:file:/var/maven/.m2/repository-022/com/io7m/xstructural/com.io7m.xstructural.xml/1.8.1/com.io7m.xstructural.xml-1.8.1.jar!/com/io7m/xstructural/xml/s8/xstructural8-web-multi.xsl:114:53: XTMM9000: create file:///var/maven/app/com.io7m.jsx.documentation/target/documentation//index-m.xhtml
+...
+│ +jar:file:/var/maven/.m2/repository-022/com/io7m/xstructural/com.io7m.xstructural.xml/1.8.1/com.io7m.xstructural.xml-1.8.1.jar!/com/io7m/xstructural/xml/s8/xstructural8-web-multi.xsl:75:70: XTMM9000: anchorOf: Document
+│ +jar:file:/var/maven/.m2/repository-022/com/io7m/xstructural/com.io7m.xstructural.xml/1.8.1/com.io7m.xstructural.xml-1.8.1.jar!/com/io7m/xstructural/xml/s8/xstructural8-web-multi.xsl:75:70: XTMM9000: anchorOf: Section
+
