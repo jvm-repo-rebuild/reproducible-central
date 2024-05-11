@@ -1,0 +1,37 @@
+1 / 1 central/uk/org/okapibarcode/okapibarcode/0.4.5/okapibarcode-0.4.5.module repository/uk/org/okapibarcode/okapibarcode/0.4.5/okapibarcode-0.4.5.module
+--- central/uk/org/okapibarcode/okapibarcode/0.4.5/okapibarcode-0.4.5.module
++++ repository/uk/org/okapibarcode/okapibarcode/0.4.5/okapibarcode-0.4.5.module
+├── Pretty-printed
+│┄ Similarity: 0.9981398809523809%
+│┄ Differences: {"'variants'": "{2: {'files': {0: {'size': 563658, 'sha512': "
+│┄                "'2d91f8b0dcaf5618b10f0f0480447ade22c94c50673309da5856b0124dc76f9acfa75f5110ce97a6460ea970b0098f36a9e6fee7195202fe1139cee88f50ba9f', "
+│┄                "'sha256': '8291343ae0982c82bbc6376e93e915922862cf3de306bf453e23420458462f80', "
+│┄                "'sha1': 'd1a83767ac27ae42fec484d3319412e42418e754', 'md5': "
+│┄                "'3c3abe885af459a2ac36e426090d231e'}}}}"}
+│ @@ -70,20 +70,20 @@
+│                  "org.gradle.category": "documentation",
+│                  "org.gradle.dependency.bundling": "external",
+│                  "org.gradle.docstype": "javadoc",
+│                  "org.gradle.usage": "java-runtime"
+│              },
+│              "files": [
+│                  {
+│ -                    "md5": "b20c3ef032bc8949faf18733710c03c0",
+│ +                    "md5": "3c3abe885af459a2ac36e426090d231e",
+│                      "name": "okapibarcode-0.4.5-javadoc.jar",
+│ -                    "sha1": "9c2679a98a22813b5b923187d94b381c94efbb91",
+│ -                    "sha256": "7331b0d4b672f76d17f52dc729e6cc186c80b769fc9d7a2d6c9dd10dca97f36f",
+│ -                    "sha512": "6791352f83360893bc2f8bb2c0cc4ca3ab61c70958527fe25e011beee602f20f2da2bde4c57474a8ba801df417b011b6449a4eec3228ec18a1994f00ab5ad2dd",
+│ -                    "size": 563608,
+│ +                    "sha1": "d1a83767ac27ae42fec484d3319412e42418e754",
+│ +                    "sha256": "8291343ae0982c82bbc6376e93e915922862cf3de306bf453e23420458462f80",
+│ +                    "sha512": "2d91f8b0dcaf5618b10f0f0480447ade22c94c50673309da5856b0124dc76f9acfa75f5110ce97a6460ea970b0098f36a9e6fee7195202fe1139cee88f50ba9f",
+│ +                    "size": 563658,
+│                      "url": "okapibarcode-0.4.5-javadoc.jar"
+│                  }
+│              ],
+│              "name": "javadocElements"
+│          },
+│          {
+│              "attributes": {
+
