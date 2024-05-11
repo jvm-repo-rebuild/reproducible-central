@@ -1,0 +1,7 @@
+version=1.3.0
+ok=28
+ko=0
+ignored=0
+okFiles="com.io7m.quixote-1.3.0.pom com.io7m.quixote-1.3.0-cyclonedx.xml com.io7m.quixote.core-1.3.0.pom com.io7m.quixote.core-1.3.0.jar com.io7m.quixote.core-1.3.0-sources.jar com.io7m.quixote.core-1.3.0-cyclonedx.xml com.io7m.quixote.core-1.3.0-tests.jar com.io7m.quixote.xml-1.3.0.pom com.io7m.quixote.xml-1.3.0.jar com.io7m.quixote.xml-1.3.0-sources.jar com.io7m.quixote.xml-1.3.0-cyclonedx.xml com.io7m.quixote.xml-1.3.0-tests.jar com.io7m.quixote.main-1.3.0.pom com.io7m.quixote.main-1.3.0.jar com.io7m.quixote.main-1.3.0-cyclonedx.xml com.io7m.quixote.main-1.3.0-sources.jar com.io7m.quixote.main-1.3.0-distribution.zip com.io7m.quixote.main-1.3.0-tests.jar com.io7m.quixote.oci-1.3.0.pom com.io7m.quixote.oci-1.3.0.jar com.io7m.quixote.oci-1.3.0-sources.jar com.io7m.quixote.oci-1.3.0-cyclonedx.xml com.io7m.quixote.oci-1.3.0-tests.jar com.io7m.quixote.tests-1.3.0.pom com.io7m.quixote.tests-1.3.0.jar com.io7m.quixote.tests-1.3.0-sources.jar com.io7m.quixote.tests-1.3.0-cyclonedx.xml com.io7m.quixote.tests-1.3.0-tests.jar"
+koFiles=""
+ignoredFiles=""
