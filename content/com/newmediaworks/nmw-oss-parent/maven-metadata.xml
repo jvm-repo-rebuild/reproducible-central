@@ -3,8 +3,8 @@
   <groupId>com.newmediaworks</groupId>
   <artifactId>nmw-oss-parent</artifactId>
   <versioning>
-    <latest>1.21.0</latest>
-    <release>1.21.0</release>
+    <latest>1.21.1</latest>
+    <release>1.21.1</release>
     <versions>
       <version>1.0.0</version>
       <version>1.1.0</version>
@@ -50,7 +50,8 @@
       <version>1.20.0</version>
       <version>1.20.1</version>
       <version>1.21.0</version>
+      <version>1.21.1</version>
     </versions>
-    <lastUpdated>20230925020153</lastUpdated>
+    <lastUpdated>20240512020014</lastUpdated>
   </versioning>
 </metadata>

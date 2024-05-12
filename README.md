@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3610 releases** of **643 projects**:
-   - **2865** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **3636 releases** of **643 projects**:
+   - **2891** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 745 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 643 projects, 541 have at least one fully reproducible release, 102 have none
 
@@ -57,7 +57,7 @@ Its objectives are to provide:
 | com.github.hazendaz.maven | [coveralls-maven-plugin](content/com/github/hazendaz/maven/coveralls-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
 | | [directory-maven-plugin](content/com/github/hazendaz/maven/directory-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
 | | [htmlcompressor-maven-plugin](content/com/github/hazendaz/maven/htmlcompressor-maven-plugin/README.md) | 7 | 7 :white_check_mark: |
-| | [makeself-maven-plugin](content/com/github/hazendaz/maven/makeself-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
+| | [makeself-maven-plugin](content/com/github/hazendaz/maven/makeself-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
 | | [whitespace-maven-plugin](content/com/github/hazendaz/maven/whitespace-maven-plugin/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
 | | [yuicompressor-maven-plugin](content/com/github/hazendaz/maven/yuicompressor-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
 | com.github.marschall | [jakarta-jms-adapter](content/com/github/marschall/jakarta-jms-adapter/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
@@ -90,32 +90,32 @@ Its objectives are to provide:
 | com.io7m | [*.anethum](content/com/io7m/anethum/README.md) | 6 | 6 :white_check_mark: |
 | | [*.blackthorne](content/com/io7m/blackthorne/README.md) | 12 | 8 :white_check_mark: / 4 :warning: |
 | | [*.calino](content/com/io7m/calino/README.md) | 1 | 1 :white_check_mark: |
-| | [*.canonmill](content/com/io7m/canonmill/README.md) | 7 | 7 :white_check_mark: |
+| | [*.canonmill](content/com/io7m/canonmill/README.md) | 8 | 8 :white_check_mark: |
 | | [*.cedarbridge](content/com/io7m/cedarbridge/README.md) | 2 | 2 :warning: |
 | | [*.certusine](content/com/io7m/certusine/README.md) | 2 | 2 :warning: |
 | | [*.chione](content/com/io7m/chione/README.md) | 1 | 1 :warning: |
 | | [*.claypot](content/com/io7m/claypot/README.md) | 2 | 2 :white_check_mark: |
-| | [*.cxbutton](content/com/io7m/cxbutton/README.md) | 3 | 3 :white_check_mark: |
+| | [*.cxbutton](content/com/io7m/cxbutton/README.md) | 4 | 4 :white_check_mark: |
 | | [*.digal](content/com/io7m/digal/README.md) | 5 | 5 :white_check_mark: |
-| | [*.dixmont](content/com/io7m/dixmont/README.md) | 3 | 3 :white_check_mark: |
+| | [*.dixmont](content/com/io7m/dixmont/README.md) | 4 | 4 :white_check_mark: |
 | | [*.ervilla](content/com/io7m/ervilla/README.md) | 8 | 8 :white_check_mark: |
-| | [*.genevan](content/com/io7m/genevan/README.md) | 2 | 2 :white_check_mark: |
+| | [*.genevan](content/com/io7m/genevan/README.md) | 3 | 3 :white_check_mark: |
 | | [*.gtyrell](content/com/io7m/gtyrell/README.md) | 4 | 4 :white_check_mark: |
-| | [*.hibiscus](content/com/io7m/hibiscus/README.md) | 9 | 9 :white_check_mark: |
+| | [*.hibiscus](content/com/io7m/hibiscus/README.md) | 10 | 10 :white_check_mark: |
 | | [*.idstore](content/com/io7m/idstore/README.md) | 2 | 2 :warning: |
 | | [*.ieee754b16](content/com/io7m/ieee754b16/README.md) | 2 | 2 :white_check_mark: |
 | | [*.jade](content/com/io7m/jade/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
 | | [*.jaffirm](content/com/io7m/jaffirm/README.md) | 4 | 4 :white_check_mark: |
-| | [*.jattribute](content/com/io7m/jattribute/README.md) | 1 | 1 :white_check_mark: |
+| | [*.jattribute](content/com/io7m/jattribute/README.md) | 2 | 2 :white_check_mark: |
 | | [*.jbssio](content/com/io7m/jbssio/README.md) | 9 | 8 :white_check_mark: / 1 :warning: |
 | | [*.jcolorspace](content/com/io7m/jcolorspace/README.md) | 3 | 3 :white_check_mark: |
-| | [*.jcoords](content/com/io7m/jcoords/README.md) | 1 | 1 :white_check_mark: |
+| | [*.jcoords](content/com/io7m/jcoords/README.md) | 2 | 2 :white_check_mark: |
 | | [*.jdeferthrow](content/com/io7m/jdeferthrow/README.md) | 4 | 4 :white_check_mark: |
 | | [*.jdownload](content/com/io7m/jdownload/README.md) | 1 | 1 :white_check_mark: |
 | | [*.jequality](content/com/io7m/jequality/README.md) | 2 | 2 :white_check_mark: |
 | | [*.jeucreader](content/com/io7m/jeucreader/README.md) | 2 | 2 :white_check_mark: |
-| | [*.jfsm](content/com/io7m/jfsm/README.md) | 1 | 1 :white_check_mark: |
-| | [*.jintegers](content/com/io7m/jintegers/README.md) | 1 | 1 :white_check_mark: |
+| | [*.jfsm](content/com/io7m/jfsm/README.md) | 2 | 2 :white_check_mark: |
+| | [*.jintegers](content/com/io7m/jintegers/README.md) | 2 | 2 :white_check_mark: |
 | | [*.jmulticlose](content/com/io7m/jmulticlose/README.md) | 5 | 5 :white_check_mark: |
 | | [*.jmurmur](content/com/io7m/jmurmur/README.md) | 1 | 1 :white_check_mark: |
 | | [*.jnfp](content/com/io7m/jnfp/README.md) | 1 | 1 :white_check_mark: |
@@ -123,40 +123,40 @@ Its objectives are to provide:
 | | [*.jodist](content/com/io7m/jodist/README.md) | 2 | 2 :white_check_mark: |
 | | [*.jorchard](content/com/io7m/jorchard/README.md) | 2 | 2 :white_check_mark: |
 | | [*.jpita](content/com/io7m/jpita/README.md) | 1 | 1 :white_check_mark: |
-| | [*.jproperties](content/com/io7m/jproperties/README.md) | 3 | 3 :white_check_mark: |
+| | [*.jproperties](content/com/io7m/jproperties/README.md) | 4 | 4 :white_check_mark: |
 | | [*.jptbox](content/com/io7m/jptbox/README.md) | 1 | 1 :white_check_mark: |
 | | [*.jpuddle](content/com/io7m/jpuddle/README.md) | 1 | 1 :white_check_mark: |
-| | [*.jqpage](content/com/io7m/jqpage/README.md) | 3 | 3 :white_check_mark: |
-| | [*.jranges](content/com/io7m/jranges/README.md) | 1 | 1 :white_check_mark: |
+| | [*.jqpage](content/com/io7m/jqpage/README.md) | 4 | 4 :white_check_mark: |
+| | [*.jranges](content/com/io7m/jranges/README.md) | 2 | 2 :white_check_mark: |
 | | [*.jregions](content/com/io7m/jregions/README.md) | 2 | 2 :white_check_mark: |
 | | [*.jsamplebuffer](content/com/io7m/jsamplebuffer/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
 | | [*.jserial](content/com/io7m/jserial/README.md) | 1 | 1 :white_check_mark: |
 | | [*.jsx](content/com/io7m/jsx/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
 | | [*.junreachable](content/com/io7m/junreachable/README.md) | 2 | 2 :white_check_mark: |
 | | [*.junsigned](content/com/io7m/junsigned/README.md) | 1 | 1 :white_check_mark: |
-| | [*.jvindicator](content/com/io7m/jvindicator/README.md) | 2 | 2 :white_check_mark: |
+| | [*.jvindicator](content/com/io7m/jvindicator/README.md) | 3 | 3 :white_check_mark: |
 | | [*.jwheatsheaf](content/com/io7m/jwheatsheaf/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
 | | [*.jxe](content/com/io7m/jxe/README.md) | 3 | 3 :white_check_mark: |
 | | [*.jxtrand](content/com/io7m/jxtrand/README.md) | 4 | 4 :white_check_mark: |
 | | [*.lanark](content/com/io7m/lanark/README.md) | 4 | 4 :white_check_mark: |
 | | [*.looseleaf](content/com/io7m/looseleaf/README.md) | 6 | 6 :white_check_mark: |
-| | [*.medrina](content/com/io7m/medrina/README.md) | 6 | 6 :white_check_mark: |
+| | [*.medrina](content/com/io7m/medrina/README.md) | 7 | 7 :white_check_mark: |
 | | [*.mesquida](content/com/io7m/mesquida/README.md) | 2 | 2 :white_check_mark: |
-| | [*.mime2045](content/com/io7m/mime2045/README.md) | 2 | 2 :white_check_mark: |
+| | [*.mime2045](content/com/io7m/mime2045/README.md) | 3 | 3 :white_check_mark: |
 | | [*.percentpass](content/com/io7m/percentpass/README.md) | 4 | 4 :white_check_mark: |
 | | [*.primogenitor](content/com/io7m/primogenitor/README.md) | 33 | 33 :white_check_mark: |
 | | [*.quarrel](content/com/io7m/quarrel/README.md) | 11 | 11 :white_check_mark: |
 | | [*.quixote](content/com/io7m/quixote/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
-| | [*.repetoir](content/com/io7m/repetoir/README.md) | 2 | 2 :white_check_mark: |
+| | [*.repetoir](content/com/io7m/repetoir/README.md) | 3 | 3 :white_check_mark: |
 | | [*.scando](content/com/io7m/scando/README.md) | 1 | 1 :white_check_mark: |
-| | [*.streamtime](content/com/io7m/streamtime/README.md) | 1 | 1 :white_check_mark: |
+| | [*.streamtime](content/com/io7m/streamtime/README.md) | 2 | 2 :white_check_mark: |
 | | [*.sunburst](content/com/io7m/sunburst/README.md) | 1 | 1 :warning: |
-| | [*.tabla](content/com/io7m/tabla/README.md) | 2 | 2 :white_check_mark: |
-| | [*.taskrecorder](content/com/io7m/taskrecorder/README.md) | 2 | 2 :white_check_mark: |
+| | [*.tabla](content/com/io7m/tabla/README.md) | 3 | 3 :white_check_mark: |
+| | [*.taskrecorder](content/com/io7m/taskrecorder/README.md) | 3 | 3 :white_check_mark: |
 | | [*.timehack6435126](content/com/io7m/timehack6435126/README.md) | 1 | 1 :white_check_mark: |
 | | [*.trasco](content/com/io7m/trasco/README.md) | 12 | 12 :white_check_mark: |
-| | [*.verdant](content/com/io7m/verdant/README.md) | 2 | 2 :white_check_mark: |
-| | [*.verona](content/com/io7m/verona/README.md) | 4 | 4 :white_check_mark: |
+| | [*.verdant](content/com/io7m/verdant/README.md) | 3 | 3 :white_check_mark: |
+| | [*.verona](content/com/io7m/verona/README.md) | 5 | 5 :white_check_mark: |
 | | [*.wendover](content/com/io7m/wendover/README.md) | 5 | 5 :white_check_mark: |
 | | [*.xoanon](content/com/io7m/xoanon/README.md) | 4 | 4 :white_check_mark: |
 | | [*.xstructural](content/com/io7m/xstructural/README.md) | 7 | 7 :white_check_mark: |
@@ -179,9 +179,9 @@ Its objectives are to provide:
 | | [semanticcms-news-all](content/com/semanticcms/semanticcms-news-all/README.md) | 1 | 1 :white_check_mark: |
 | | [semanticcms-news-all-book](content/com/semanticcms/semanticcms-news-all-book/README.md) | 1 | 1 :white_check_mark: |
 | | [semanticcms-parent](content/com/semanticcms/semanticcms-parent/README.md) | 2 | 2 :white_check_mark: |
-| | [semanticcms-parent-book](content/com/semanticcms/semanticcms-parent-book/README.md) | 7 | 7 :white_check_mark: |
+| | [semanticcms-parent-book](content/com/semanticcms/semanticcms-parent-book/README.md) | 8 | 8 :white_check_mark: |
 | | [semanticcms-tag-reference](content/com/semanticcms/semanticcms-tag-reference/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
-| | [semanticcms-tag-reference-book](content/com/semanticcms/semanticcms-tag-reference-book/README.md) | 1 | 1 :white_check_mark: |
+| | [semanticcms-tag-reference-book](content/com/semanticcms/semanticcms-tag-reference-book/README.md) | 2 | 2 :white_check_mark: |
 | com.spotify.fmt | [fmt-maven-plugin](content/com/spotify/fmt-maven-plugin/README.md) | 6 | 6 :white_check_mark: |
 | com.spotify | [github-client](content/com/spotify/github-client/README.md) | 35 | 34 :white_check_mark: / 1 :warning: |
 | com.taobao.arthas | [arthas-all](content/com/taobao/arthas/README.md) | 14 | 14 :warning: |
@@ -545,7 +545,7 @@ Its objectives are to provide:
 | | [jaxb2-maven-plugin](content/org/codehaus/mojo/jaxb2-maven-plugin/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | | [l10n-maven-plugin](content/org/codehaus/mojo/l10n-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [license-maven-plugin](content/org/codehaus/mojo/license-maven-plugin/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
-| | [mojo-parent](content/org/codehaus/mojo/mojo-parent/README.md) | 20 | 20 :white_check_mark: |
+| | [mojo-parent](content/org/codehaus/mojo/mojo-parent/README.md) | 21 | 21 :white_check_mark: |
 | | [mrm](content/org/codehaus/mojo/mrm/README.md) | 4 | 4 :white_check_mark: |
 | | [native-maven-plugin](content/org/codehaus/mojo/native/README.md) | 1 | 1 :white_check_mark: |
 | | [properties-maven-plugin](content/org/codehaus/mojo/properties-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
@@ -594,7 +594,7 @@ Its objectives are to provide:
 | org.kordamp.jarviz | [jarviz-core](content/org/kordamp/jarviz/README.md) | 1 | 1 :warning: |
 | org.kordamp.maven | [pomchecker](content/org/kordamp/pomchecker/README.md) | 1 | 1 :white_check_mark: |
 | org.liquibase.ext | [liquibase-percona](content/org/liquibase/ext/liquibase-percona/README.md) | 37 | 36 :white_check_mark: / 1 :warning: |
-| org.mockito | [mockito-core](content/org/mockito/mockito-core/README.md) | 24 | 22 :white_check_mark: / 2 :warning: |
+| org.mockito | [mockito-core](content/org/mockito/mockito-core/README.md) | 25 | 23 :white_check_mark: / 2 :warning: |
 | org.moditect.layrry | [layrry-aggregator](content/org/moditect/layrry/README.md) | 1 | 1 :white_check_mark: |
 | org.moditect | [moditect](content/org/moditect/moditect/README.md) | 4 | 4 :white_check_mark: |
 | org.mybatis | [base-bundle-descriptor](content/org/mybatis/base-bundle-descriptor/README.md) | 2 | 2 :white_check_mark: |
@@ -666,7 +666,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 36 | 36 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **643** | **3610** | **2865** :white_check_mark: **745** :warning: |
+| **Count:** | **643** | **3636** | **2891** :white_check_mark: **745** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -679,7 +679,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 ```
      26 gradle     11
      16 gradle     17
-      6 gradle     21
+      7 gradle     21
      26 mvn         7
    1155 mvn         8
       1 mvn         9
@@ -720,14 +720,14 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.0   8
       4 mvn-3.9.0  11
      11 mvn-3.9.0  17
-      9 mvn-3.9.1   8
+     10 mvn-3.9.1   8
       2 mvn-3.9.1  11
      52 mvn-3.9.1  17
       1 mvn-3.9.1  19
       6 mvn-3.9.1  20
      31 mvn-3.9.1  21
       7 mvn-3.9.2   8
-     18 mvn-3.9.2  17
+     19 mvn-3.9.2  17
       3 mvn-3.9.2  21
      64 mvn-3.9.3   8
      43 mvn-3.9.3  11
@@ -738,7 +738,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       7 mvn-3.9.3  14
      12 mvn-3.9.3  14.0.2
       1 mvn-3.9.3  15.0.2
-     58 mvn-3.9.3  17
+     59 mvn-3.9.3  17
       6 mvn-3.9.3  17.0.1
       4 mvn-3.9.3  17.0.2
      52 mvn-3.9.3  17.0.3
@@ -751,7 +751,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.3  17.0.8.1
       1 mvn-3.9.3  17.0.9
       7 mvn-3.9.3  19
-     58 mvn-3.9.3  21
+     79 mvn-3.9.3  21
       7 mvn-3.9.4   8
       7 mvn-3.9.4  11
       1 mvn-3.9.4  17
@@ -769,7 +769,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       9 mvn-3.9.6  17
       1 mvn-3.9.6  17.0.7
      24 mvn-3.9.6  21
-      6 mvn-3.9.6  22
+      7 mvn-3.9.6  22
       2 mvn-4.0.0-alpha-12  21
       2 mvn-4.0.0-alpha-12  22
       1 mvn-4.0.0-alpha-7  17

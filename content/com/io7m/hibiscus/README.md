@@ -9,20 +9,20 @@ Source code: [https://github.com/io7m/hibiscus.git](https://github.com/io7m/hibi
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [com.io7m.hibiscus:com.io7m.hibiscus](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus/1.0.0-beta0001)
-* [com.io7m.hibiscus:com.io7m.hibiscus.api](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus.api/1.0.0-beta0001)
-* [com.io7m.hibiscus:com.io7m.hibiscus.basic](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus.basic/1.0.0-beta0001)
-* [com.io7m.hibiscus:com.io7m.hibiscus.examples](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus.examples/1.0.0-beta0001)
-* [com.io7m.hibiscus:com.io7m.hibiscus.tests](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus.tests/1.0.0-beta0001)
+* [com.io7m.hibiscus:com.io7m.hibiscus](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus/1.0.0)
+* [com.io7m.hibiscus:com.io7m.hibiscus.api](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus.api/1.0.0)
+* [com.io7m.hibiscus:com.io7m.hibiscus.basic](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus.basic/1.0.0)
+* [com.io7m.hibiscus:com.io7m.hibiscus.examples](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus.examples/1.0.0)
+* [com.io7m.hibiscus:com.io7m.hibiscus.tests](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus.tests/1.0.0)
 </details>
 
-rebuilding **9 releases** of com.io7m.hibiscus:com.io7m.hibiscus:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of com.io7m.hibiscus:com.io7m.hibiscus:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.0.0](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus/1.0.0/pom) | | | |
+| [1.0.0](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus/1.0.0/pom) | [mvn jdk21](com.io7m.hibiscus-1.0.0.buildspec) | [result](com.io7m.hibiscus-1.0.0.buildinfo): [17 :white_check_mark: ](com.io7m.hibiscus-1.0.0.buildcompare) | 2.3M |
 | [1.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus/1.0.0-beta0001/pom) | [mvn jdk21](com.io7m.hibiscus-1.0.0-beta0001.buildspec) | [result](com.io7m.hibiscus-1.0.0-beta0001.buildinfo): [17 :white_check_mark: ](com.io7m.hibiscus-1.0.0-beta0001.buildcompare) | 2.2M |
 | [0.0.8](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus/0.0.8/pom) | [mvn jdk17.0.7](com.io7m.hibiscus-0.0.8.buildspec) | [result](com.io7m.hibiscus-0.0.8.buildinfo): [14 :white_check_mark: ](com.io7m.hibiscus-0.0.8.buildcompare) | 157K |
 | [0.0.7](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus/0.0.7/pom) | [mvn jdk17.0.6](com.io7m.hibiscus-0.0.7.buildspec) | [result](com.io7m.hibiscus-0.0.7.buildinfo): [14 :white_check_mark: ](com.io7m.hibiscus-0.0.7.buildcompare) | 156K |

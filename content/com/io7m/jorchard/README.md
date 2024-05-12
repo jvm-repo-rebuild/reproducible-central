@@ -22,6 +22,7 @@ rebuilding **2 releases** of com.io7m.jorchard:com.io7m.jorchard:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.2](https://central.sonatype.com/artifact/com.io7m.jorchard/com.io7m.jorchard/2.0.2/pom) | | | |
 | [2.0.1](https://central.sonatype.com/artifact/com.io7m.jorchard/com.io7m.jorchard/2.0.1/pom) | [mvn jdk17.0.3](com.io7m.jorchard-2.0.1.buildspec) | [result](com.io7m.jorchard-2.0.1.buildinfo): [18 :white_check_mark: ](com.io7m.jorchard-2.0.1.buildcompare) | 109K |
 | [2.0.0](https://central.sonatype.com/artifact/com.io7m.jorchard/com.io7m.jorchard/2.0.0/pom) | [mvn jdk17.0.1](com.io7m.jorchard-2.0.0.buildspec) | [result](com.io7m.jorchard-2.0.0.buildinfo): [18 :white_check_mark: ](com.io7m.jorchard-2.0.0.buildcompare) | 108K |
 
