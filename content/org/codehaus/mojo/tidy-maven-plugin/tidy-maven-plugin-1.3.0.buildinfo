@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Tidy Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=tidy-maven-plugin
+version=1.3.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/tidy-maven-plugin.git
+source.scm.tag=1.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.9.0
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=tidy-maven-plugin-1.3.0.pom
+outputs.0.length=5228
+outputs.0.checksums.sha512=faeee3abcf0d453cf33e6b26dfe6cdab19bac3f8c193cecfc8e5c5056d1e61e9140a3210903403c92a1442b71ee27d47f3011c396a1cb0078685a9dc3b0a9e61
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=tidy-maven-plugin-1.3.0.jar
+outputs.1.length=29398
+outputs.1.checksums.sha512=0402a651a8f3ea07fe74e1d1ca0a374ba5d13b50b12e9a3329642c4b648012e215bd1adefd88bad62d3a6cf6852f127e329da77743ed2141a35ca57dd6f41e68
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=tidy-maven-plugin-1.3.0-source-release.zip
+outputs.2.length=74213
+outputs.2.checksums.sha512=7bed7491a5f2beeb2fb9fd3c7112eb879be2b54ffebb268dd678626001cd46b94792a97aa197916b8d441da833f60382b0b7e5ff7665b74b3e8db0984887f635
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=tidy-maven-plugin-1.3.0-sources.jar
+outputs.3.length=21619
+outputs.3.checksums.sha512=f477c5b1067a91a981196fb5b983368f7851b0d558c5e18c74f3d8c42b73d5997fdadab4beafbf84aaee2d728887e367e7811458ca54e45190ade56b545bad84
