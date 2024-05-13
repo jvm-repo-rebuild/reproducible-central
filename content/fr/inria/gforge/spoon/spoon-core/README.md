@@ -9,21 +9,21 @@ Source code: [https://github.com/inria/spoon.git](https://github.com/inria/spoon
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [fr.inria.gforge.spoon:spoon-core](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.0.1-beta-2)
-* [fr.inria.gforge.spoon:spoon-javadoc](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-javadoc/11.0.1-beta-2)
-* [fr.inria.gforge.spoon:spoon-pom](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-pom/11.0.1-beta-2)
+* [fr.inria.gforge.spoon:spoon-core](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.0.1-beta-6)
+* [fr.inria.gforge.spoon:spoon-javadoc](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-javadoc/11.0.1-beta-6)
+* [fr.inria.gforge.spoon:spoon-pom](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-pom/11.0.1-beta-6)
 </details>
 
-rebuilding **8 releases** of fr.inria.gforge.spoon:spoon-core:
+rebuilding **12 releases** of fr.inria.gforge.spoon:spoon-core:
 - **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [11.0.1-beta-6](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.0.1-beta-6/pom) | | | |
-| [11.0.1-beta-5](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.0.1-beta-5/pom) | | | |
-| [11.0.1-beta-4](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.0.1-beta-4/pom) | | | |
-| [11.0.1-beta-3](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.0.1-beta-3/pom) | | | |
+| [11.0.1-beta-6](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.0.1-beta-6/pom) | [mvn jdk21](spoon-core-11.0.1-beta-6.buildspec) | :x: | |
+| [11.0.1-beta-5](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.0.1-beta-5/pom) | [mvn jdk21](spoon-core-11.0.1-beta-5.buildspec) | :x: | |
+| [11.0.1-beta-4](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.0.1-beta-4/pom) | [mvn jdk21](spoon-core-11.0.1-beta-4.buildspec) | :x: | |
+| [11.0.1-beta-3](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.0.1-beta-3/pom) | [mvn jdk21](spoon-core-11.0.1-beta-3.buildspec) | :x: | |
 | [11.0.1-beta-2](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.0.1-beta-2/pom) | [mvn jdk21](spoon-core-11.0.1-beta-2.buildspec) | :x: | |
 | [11.0.1-beta-1](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.0.1-beta-1/pom) | [mvn jdk21](spoon-core-11.0.1-beta-1.buildspec) | :x: | |
 | [11.0.0](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.0.0/pom) | [mvn jdk21](spoon-core-11.0.0.buildspec) | [result](spoon-pom-11.0.0.buildinfo): [8 :white_check_mark: ](spoon-pom-11.0.0.buildcompare) | 22M |

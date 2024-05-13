@@ -22,6 +22,7 @@ rebuilding **2 releases** of com.io7m.jregions:com.io7m.jregions:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [5.0.0](https://central.sonatype.com/artifact/com.io7m.jregions/com.io7m.jregions/5.0.0/pom) | | | |
 | [4.0.0](https://central.sonatype.com/artifact/com.io7m.jregions/com.io7m.jregions/4.0.0/pom) | [mvn jdk17.0.3](com.io7m.jregions-4.0.0.buildspec) | [result](com.io7m.jregions-4.0.0.buildinfo): [17 :white_check_mark: ](com.io7m.jregions-4.0.0.buildcompare) | 2.1M |
 | [3.0.0](https://central.sonatype.com/artifact/com.io7m.jregions/com.io7m.jregions/3.0.0/pom) | [mvn jdk14.0.2](com.io7m.jregions-3.0.0.buildspec) | [result](com.io7m.jregions-3.0.0.buildinfo): [18 :white_check_mark: ](com.io7m.jregions-3.0.0.buildcompare) | 2.1M |
 

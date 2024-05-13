@@ -3,8 +3,8 @@
   <groupId>com.io7m.jregions</groupId>
   <artifactId>com.io7m.jregions</artifactId>
   <versioning>
-    <latest>4.0.0</latest>
-    <release>4.0.0</release>
+    <latest>5.0.0</latest>
+    <release>5.0.0</release>
     <versions>
       <version>0.0.2</version>
       <version>0.0.3</version>
@@ -16,7 +16,8 @@
       <version>2.0.0</version>
       <version>3.0.0</version>
       <version>4.0.0</version>
+      <version>5.0.0</version>
     </versions>
-    <lastUpdated>20220409164344</lastUpdated>
+    <lastUpdated>20240513202438</lastUpdated>
   </versioning>
 </metadata>
