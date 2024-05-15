@@ -1,0 +1,116 @@
+# no idea why hash are missing in reference file...
+1 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge-2.0.0-cyclonedx.xml target/bom.xml
+--- target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge-2.0.0-cyclonedx.xml
++++ target/bom.xml
+│   --- target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge-2.0.0-cyclonedx.xml
+├── +++ target/bom.xml
+│ @@ -2331,14 +2331,24 @@
+│      </component>
+│      <component type="library" bom-ref="pkg:maven/com.io7m.cedarbridge/com.io7m.cedarbridge.maven_plugin@2.0.0?type=jar">
+│        <group>com.io7m.cedarbridge</group>
+│        <name>com.io7m.cedarbridge.maven_plugin</name>
+│        <version>2.0.0</version>
+│        <description>Cedarbridge message protocol (Maven plugin)</description>
+│        <scope>required</scope>
+│ +      <hashes>
+│ +        <hash alg="MD5">311065b1c52e87a27520f3c53e84a01c</hash>
+│ +        <hash alg="SHA-1">b2888aff6732456e02907177f5b6a52f28840be8</hash>
+│ +        <hash alg="SHA-256">de61a70e336620fe7ab58e90fa50c149b6c342335dd591d76102d73076fb663d</hash>
+│ +        <hash alg="SHA-512">f5729d3b96e180eef1dc1774a50e0deaf0f7cffbde60926d09d40447e98b5e24530e8bf6f7962776782afd8197fe7d3b9905e92b171f996df7ece264f9aa14ca</hash>
+│ +        <hash alg="SHA-384">c8e6093d96bb778c4cfe081450fbef132c4b9b1ab76da42a0a2ba14eaf9aecdfc5c4ecc03a336a4aa637dc3fc34f580c</hash>
+│ +        <hash alg="SHA3-384">06dda0a482bcea1414a579365095f5b06c9f67af9453d6bf0538ee2a2760b1eb686a8ea052496bbc0042a90a295f0925</hash>
+│ +        <hash alg="SHA3-256">901e8df2c205c25fb6e0cc0ee8a8c717ca0a84b3839d53bb155e1cbec81eaf01</hash>
+│ +        <hash alg="SHA3-512">e3b2ceee441f5377696208b2c3bc7b1592f668d4e1e59075617ecf5a559219c06516e3baa57168b90e61d51d2b1e094caec10f9105300aa9b27e9154770eee42</hash>
+│ +      </hashes>
+│        <licenses>
+│          <license>
+│            <id>ISC</id>
+│            <text content-type="plain/text" encoding="base64">SVNDIExpY2Vuc2U6CgpDb3B5cmlnaHQgKGMpIDIwMDQtMjAxMCBieSBJbnRlcm5ldCBTeXN0ZW1zIENvbnNvcnRpdW0sIEluYy4gKCJJU0MiKQpDb3B5cmlnaHQgKGMpIDE5OTUtMjAwMyBieSBJbnRlcm5ldCBTb2Z0d2FyZSBDb25zb3J0aXVtCgpQZXJtaXNzaW9uIHRvIHVzZSwgY29weSwgbW9kaWZ5LCBhbmQvb3IgZGlzdHJpYnV0ZSB0aGlzIHNvZnR3YXJlIGZvciBhbnkgcHVycG9zZSB3aXRoIG9yIHdpdGhvdXQgZmVlIGlzIGhlcmVieSBncmFudGVkLCBwcm92aWRlZCB0aGF0IHRoZSBhYm92ZSBjb3B5cmlnaHQgbm90aWNlIGFuZCB0aGlzIHBlcm1pc3Npb24gbm90aWNlIGFwcGVhciBpbiBhbGwgY29waWVzLgoKVEhFIFNPRlRXQVJFIElTIFBST1ZJREVEICJBUyBJUyIgQU5EIElTQyBESVNDTEFJTVMgQUxMIFdBUlJBTlRJRVMgV0lUSCBSRUdBUkQgVE8gVEhJUyBTT0ZUV0FSRSBJTkNMVURJTkcgQUxMIElNUExJRUQgV0FSUkFOVElFUyBPRiBNRVJDSEFOVEFCSUxJVFkgQU5EIEZJVE5FU1MuIElOIE5PIEVWRU5UIFNIQUxMIElTQyBCRSBMSUFCTEUgRk9SIEFOWSBTUEVDSUFMLCBESVJFQ1QsIElORElSRUNULCBPUiBDT05TRVFVRU5USUFMIERBTUFHRVMgT1IgQU5ZIERBTUFHRVMgV0hBVFNPRVZFUiBSRVNVTFRJTkcgRlJPTSBMT1NTIE9GIFVTRSwgREFUQSBPUiBQUk9GSVRTLCBXSEVUSEVSIElOIEFOIEFDVElPTiBPRiBDT05UUkFDVCwgTkVHTElHRU5DRSBPUiBPVEhFUiBUT1JUSU9VUyBBQ1RJT04sIEFSSVNJTkcgT1VUIE9GIE9SIElOIENPTk5FQ1RJT04gV0lUSCBUSEUgVVNFIE9SIFBFUkZPUk1BTkNFIE9GIFRISVMgU09GVFdBUkUuCg==</text>
+│            <url>https://www.isc.org/licenses/</url>
+│          </license>
+│        </licenses>
+
+# order in permits bytecode (done from stable source code)...
+2 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.schema.compiled-2.0.0.jar com.io7m.cedarbridge.schema.compiled/target/com.io7m.cedarbridge.schema.compiled-2.0.0.jar
+--- target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.schema.compiled-2.0.0.jar
++++ com.io7m.cedarbridge.schema.compiled/target/com.io7m.cedarbridge.schema.compiled-2.0.0.jar
+├── com/io7m/cedarbridge/schema/compiled/CBTypeExpressionType.class
+│ ├── procyon -ec {}
+│ │ @@ -1,9 +1,9 @@
+│ │  
+│ │  package com.io7m.cedarbridge.schema.compiled;
+│ │  
+│ │  import java.util.Formattable;
+│ │  
+│ │ -public sealed interface CBTypeExpressionType extends Formattable permits CBTypeExpressionType$CBTypeExprParameterType, CBTypeExpressionType$CBTypeExprNamedType, CBTypeExpressionType$CBTypeExprApplicationType
+│ │ +public sealed interface CBTypeExpressionType extends Formattable permits CBTypeExpressionType$CBTypeExprNamedType, CBTypeExpressionType$CBTypeExprParameterType, CBTypeExpressionType$CBTypeExprApplicationType
+│ │  {
+│ │      boolean contains(final CBTypeParameterType p0);
+│ │  }
+
+# consequences of previous issue on com.io7m.cedarbridge.schema.compiled-2.0.0.jar impacts consumers SBOM...
+3 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.bridgedoc.spi-2.0.0-cyclonedx.xml com.io7m.cedarbridge.bridgedoc.spi/target/bom.xml
+4 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.bridgedoc.api-2.0.0-cyclonedx.xml com.io7m.cedarbridge.bridgedoc.api/target/bom.xml
+5 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.bridgedoc.xhtml-2.0.0-cyclonedx.xml com.io7m.cedarbridge.bridgedoc.xhtml/target/bom.xml
+6 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.codegen.spi-2.0.0-cyclonedx.xml com.io7m.cedarbridge.codegen.spi/target/bom.xml
+7 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.codegen.api-2.0.0-cyclonedx.xml com.io7m.cedarbridge.codegen.api/target/bom.xml
+8 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.codegen.javastatic-2.0.0-cyclonedx.xml com.io7m.cedarbridge.codegen.javastatic/target/bom.xml
+9 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.schema.loader.api-2.0.0-cyclonedx.xml com.io7m.cedarbridge.schema.loader.api/target/bom.xml
+10 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.schema.binder.api-2.0.0-cyclonedx.xml com.io7m.cedarbridge.schema.binder.api/target/bom.xml
+11 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.schema.binder-2.0.0-cyclonedx.xml com.io7m.cedarbridge.schema.binder/target/bom.xml
+12 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.schema.typer-2.0.0-cyclonedx.xml com.io7m.cedarbridge.schema.typer/target/bom.xml
+13 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.schema.compiler.api-2.0.0-cyclonedx.xml com.io7m.cedarbridge.schema.compiler.api/target/bom.xml
+14 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.schema.compiler-2.0.0-cyclonedx.xml com.io7m.cedarbridge.schema.compiler/target/bom.xml
+15 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.schema.core_types-2.0.0-cyclonedx.xml com.io7m.cedarbridge.schema.core_types/target/bom.xml
+16 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.schema.time-2.0.0-cyclonedx.xml com.io7m.cedarbridge.schema.time/target/bom.xml
+18 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.cmdline-2.0.0-cyclonedx.xml com.io7m.cedarbridge.cmdline/target/bom.xml
+19 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.documentation-2.0.0-cyclonedx.xml com.io7m.cedarbridge.documentation/target/bom.xml
+20 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.maven_plugin-2.0.0-cyclonedx.xml com.io7m.cedarbridge.maven_plugin/target/bom.xml
+21 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.examples-2.0.0-cyclonedx.xml com.io7m.cedarbridge.examples/target/bom.xml
+23 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.tests-2.0.0-cyclonedx.xml com.io7m.cedarbridge.tests/target/bom.xml
+
+# same order in permits bytecode issue...
+17 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.cmdline-2.0.0-main.jar com.io7m.cedarbridge.cmdline/target/com.io7m.cedarbridge.cmdline-2.0.0-main.jar
+--- target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.cmdline-2.0.0-main.jar
++++ com.io7m.cedarbridge.cmdline/target/com.io7m.cedarbridge.cmdline-2.0.0-main.jar
+├── com/io7m/cedarbridge/schema/compiled/CBTypeExpressionType.class
+│ ├── procyon -ec {}
+│ │ @@ -1,9 +1,9 @@
+│ │  
+│ │  package com.io7m.cedarbridge.schema.compiled;
+│ │  
+│ │  import java.util.Formattable;
+│ │  
+│ │ -public sealed interface CBTypeExpressionType extends Formattable permits CBTypeExpressionType$CBTypeExprParameterType, CBTypeExpressionType$CBTypeExprNamedType, CBTypeExpressionType$CBTypeExprApplicationType
+│ │ +public sealed interface CBTypeExpressionType extends Formattable permits CBTypeExpressionType$CBTypeExprNamedType, CBTypeExpressionType$CBTypeExprParameterType, CBTypeExpressionType$CBTypeExprApplicationType
+│ │  {
+│ │      boolean contains(final CBTypeParameterType p0);
+│ │  }
+
+# path to current directory
+22 / 23 target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.tests-2.0.0.jar com.io7m.cedarbridge.tests/target/com.io7m.cedarbridge.tests-2.0.0.jar
+--- target/reference/com.io7m.cedarbridge/com.io7m.cedarbridge.tests-2.0.0.jar
++++ com.io7m.cedarbridge.tests/target/com.io7m.cedarbridge.tests-2.0.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 207929 bytes, number of entries: 202
+│ +Zip file size: 207923 bytes, number of entries: 202
+│  -rw----     2.0 fat     3637 b- defN 00-Jan-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bx stor 00-Jan-01 00:00 META-INF/
+│ @@ -175,15 +175,15 @@
+│  -rw----     2.0 fat     2596 b- defN 00-Jan-01 00:00 com/io7m/cedarbridge/tests/runtime/convenience/CBMapsTest.class
+│  -rw----     2.0 fat     8221 b- defN 00-Jan-01 00:00 com/io7m/cedarbridge/tests/runtime/convenience/CBSetsTest.class
+│ --rw----     2.0 fat      123 b- defN 00-Jan-01 00:00 com/io7m/cedarbridge/tests/testPaths.properties
+│ +-rw----     2.0 fat       96 b- defN 00-Jan-01 00:00 com/io7m/cedarbridge/tests/testPaths.properties
+│  -rw----     2.0 fat      225 b- defN 00-Jan-01 00:00 com/io7m/cedarbridge/tests/typeProtoOK0.cbs
+│  -rw----     2.0 fat      213 b- defN 00-Jan-01 00:00 com/io7m/cedarbridge/tests/typeProtoOK1.cbs
+│ @@ -197,8 +197,8 @@
+│  -rw----     2.0 fat      394 b- defN 00-Jan-01 00:00 logback-test.xml
+│  -rw----     2.0 fat     3089 b- defN 00-Jan-01 00:00 module-info.class
+│ -202 files, 532862 bytes uncompressed, 172403 bytes compressed:  67.6%
+│ +202 files, 532835 bytes uncompressed, 172397 bytes compressed:  67.6%
+├── com/io7m/cedarbridge/tests/testPaths.properties
+│ @@ -1 +1 @@
+│ -testDependenciesPath=/home/runner/work/cedarbridge/cedarbridge/com.io7m.cedarbridge.tests/target/test-runtime-dependencies
+│ +testDependenciesPath=/var/maven/app/com.io7m.cedarbridge.tests/target/test-runtime-dependencies
+
