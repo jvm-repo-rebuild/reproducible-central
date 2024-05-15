@@ -1,0 +1,9 @@
+version=0.9.0
+ok=22
+ko=0
+ignored=0
+okFiles="log4j-tools-bom-0.9.0.pom log4j-tools-bom-0.9.0-cyclonedx.xml log4j-tools-parent-0.9.0.pom log4j-tools-parent-0.9.0-cyclonedx.xml log4j-tools-internal-freemarker-util-0.9.0.pom log4j-tools-internal-freemarker-util-0.9.0.jar log4j-tools-internal-freemarker-util-0.9.0-cyclonedx.xml log4j-changelog-0.9.0.pom log4j-changelog-0.9.0.jar log4j-changelog-0.9.0-cyclonedx.xml log4j-changelog-maven-plugin-0.9.0.pom log4j-changelog-maven-plugin-0.9.0.jar log4j-changelog-maven-plugin-0.9.0-cyclonedx.xml log4j-docgen-0.9.0.pom log4j-docgen-0.9.0.jar log4j-docgen-0.9.0-cyclonedx.xml log4j-docgen-asciidoctor-extension-0.9.0.pom log4j-docgen-asciidoctor-extension-0.9.0.jar log4j-docgen-asciidoctor-extension-0.9.0-cyclonedx.xml log4j-docgen-maven-plugin-0.9.0.pom log4j-docgen-maven-plugin-0.9.0.jar log4j-docgen-maven-plugin-0.9.0-cyclonedx.xml"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
