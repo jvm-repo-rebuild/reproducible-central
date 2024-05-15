@@ -13,6 +13,7 @@ rebuilding **2 releases** of commons-logging:commons-logging:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.3.2](https://central.sonatype.com/artifact/commons-logging/commons-logging/1.3.2/pom) | | | |
 | [1.3.1](https://central.sonatype.com/artifact/commons-logging/commons-logging/1.3.1/pom) | [mvn jdk17](commons-logging-1.3.1.buildspec) | [result](commons-logging-1.3.1.buildinfo): [7 :white_check_mark: ](commons-logging-1.3.1.buildcompare) | 638K |
 | [1.3.0](https://central.sonatype.com/artifact/commons-logging/commons-logging/1.3.0/pom) | [mvn jdk21](commons-logging-1.3.0.buildspec) | [result](commons-logging-1.3.0.buildinfo): [7 :white_check_mark: ](commons-logging-1.3.0.buildcompare) | 632K |
 

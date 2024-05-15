@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3658 releases** of **645 projects**:
-   - **2909** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 749 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 645 projects, 542 have at least one fully reproducible release, 103 have none
+   rebuilding **3662 releases** of **645 projects**:
+   - **2912** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 750 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 645 projects, 543 have at least one fully reproducible release, 102 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -93,7 +93,7 @@ Its objectives are to provide:
 | | [*.calino](content/com/io7m/calino/README.md) | 1 | 1 :white_check_mark: |
 | | [*.canonmill](content/com/io7m/canonmill/README.md) | 8 | 8 :white_check_mark: |
 | | [*.cardant](content/com/io7m/cardant/README.md) | 1 | 1 :warning: |
-| | [*.cedarbridge](content/com/io7m/cedarbridge/README.md) | 2 | 2 :warning: |
+| | [*.cedarbridge](content/com/io7m/cedarbridge/README.md) | 3 | 3 :warning: |
 | | [*.certusine](content/com/io7m/certusine/README.md) | 2 | 2 :warning: |
 | | [*.chione](content/com/io7m/chione/README.md) | 1 | 1 :warning: |
 | | [*.claypot](content/com/io7m/claypot/README.md) | 2 | 2 :white_check_mark: |
@@ -104,7 +104,7 @@ Its objectives are to provide:
 | | [*.genevan](content/com/io7m/genevan/README.md) | 3 | 3 :white_check_mark: |
 | | [*.gtyrell](content/com/io7m/gtyrell/README.md) | 4 | 4 :white_check_mark: |
 | | [*.hibiscus](content/com/io7m/hibiscus/README.md) | 10 | 10 :white_check_mark: |
-| | [*.idstore](content/com/io7m/idstore/README.md) | 2 | 2 :warning: |
+| | [*.idstore](content/com/io7m/idstore/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | | [*.ieee754b16](content/com/io7m/ieee754b16/README.md) | 2 | 2 :white_check_mark: |
 | | [*.jade](content/com/io7m/jade/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
 | | [*.jaffirm](content/com/io7m/jaffirm/README.md) | 4 | 4 :white_check_mark: |
@@ -265,7 +265,7 @@ Its objectives are to provide:
 | net.nicoulaj.maven.plugins | [checksum-maven-plugin](content/net/nicoulaj/maven/plugins/checksum-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | net.revelc.code | [impsort-maven-plugin](content/net/revelc/code/impsort-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
 | net.sf.michael-o | [michael-o-parent](content/net/sf/michael-o/michael-o-parent/README.md) | 2 | 2 :white_check_mark: |
-| net.sf.michael-o.tomcat | [tomcat-authnz-spnego-ad](content/net/sf/michael-o/tomcat/tomcat-authnz-spnego-ad/README.md) | 3 | 3 :white_check_mark: |
+| net.sf.michael-o.tomcat | [tomcat-authnz-spnego-ad](content/net/sf/michael-o/tomcat/tomcat-authnz-spnego-ad/README.md) | 4 | 4 :white_check_mark: |
 | net.sourceforge.pmd | [pmd](content/net/sourceforge/pmd/README.md) | 36 | 32 :white_check_mark: / 4 :warning: |
 | | [pmd-build-tools-config](content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | 7 | 7 :white_check_mark: |
 | nl.basjes.energy | [energy-parent](content/nl/basjes/energy/README.md) | 1 | 1 :white_check_mark: |
@@ -353,7 +353,7 @@ Its objectives are to provide:
 | org.apache.logging | [logging-parent](content/org/apache/logging/parent/README.md) | 14 | 13 :white_check_mark: / 1 :warning: |
 | org.apache.logging.log4j | [log4j](content/org/apache/logging/log4j/log4j/README.md) | 8 | 6 :white_check_mark: / 2 :warning: |
 | | [log4j-jmx-gui](content/org/apache/logging/log4j/log4j-jmx-gui/README.md) | 1 | 1 :white_check_mark: |
-| | [log4j-tools-bom](content/org/apache/logging/log4j/tools/README.md) | 8 | 8 :white_check_mark: |
+| | [log4j-tools-bom](content/org/apache/logging/log4j/tools/README.md) | 9 | 9 :white_check_mark: |
 | | [log4j-transform-bom](content/org/apache/logging/log4j/transform/README.md) | 1 | 1 :white_check_mark: |
 | org.apache.maven.archetype | [maven-archetype](content/org/apache/maven/archetype/README.md) | 2 | 2 :white_check_mark: |
 | org.apache.maven.enforcer | [enforcer](content/org/apache/maven/enforcer/README.md) | 6 | 6 :white_check_mark: |
@@ -668,7 +668,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 2 | 2 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 36 | 36 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **645** | **3658** | **2909** :white_check_mark: **749** :warning: |
+| **Count:** | **645** | **3662** | **2912** :white_check_mark: **750** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -685,7 +685,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
    1156 mvn         8
       1 mvn         9
-    983 mvn        11
+    984 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
@@ -719,7 +719,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn-3.8.7  21
       1 mvn-3.9.0   8
       4 mvn-3.9.0  11
-     11 mvn-3.9.0  17
+     12 mvn-3.9.0  17
      11 mvn-3.9.1   8
       2 mvn-3.9.1  11
      52 mvn-3.9.1  17
@@ -751,14 +751,14 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.3  17.0.8.1
       1 mvn-3.9.3  17.0.9
       7 mvn-3.9.3  19
-     88 mvn-3.9.3  21
+     89 mvn-3.9.3  21
       1 mvn-3.9.3  21.ea
       7 mvn-3.9.4   8
       7 mvn-3.9.4  11
       1 mvn-3.9.4  17
       2 mvn-3.9.4  17.0.7
       2 mvn-3.9.4  20
-      3 mvn-3.9.4  21
+      4 mvn-3.9.4  21
       3 mvn-3.9.5  11
      20 mvn-3.9.5  17
       2 mvn-3.9.5  17.0.7
