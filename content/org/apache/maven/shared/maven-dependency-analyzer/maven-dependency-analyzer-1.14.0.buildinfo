@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Dependency Analyzer
+group-id=org.apache.maven.shared
+artifact-id=maven-dependency-analyzer
+version=1.14.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-dependency-analyzer.git
+source.scm.tag=maven-dependency-analyzer-1.14.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.maven.shared
+outputs.0.filename=maven-dependency-analyzer-1.14.0.pom
+outputs.0.length=6367
+outputs.0.checksums.sha512=8b791231140d11056ca9aa3232a56e501a47258f14f11736b6daffebb55b1029063b2c65bef76670e9cf39f74159366237cf586038b9595c724bfe45f4b67fce
+
+outputs.1.groupId=org.apache.maven.shared
+outputs.1.filename=maven-dependency-analyzer-1.14.0.jar
+outputs.1.length=41568
+outputs.1.checksums.sha512=0049f15e9d9dea1d72239112824f4497e09ac32990e82140c3a7f88360fe1ac77f2fa87cdba080250d498bf8a35df22ea2a4a983de4bbaccfa6647898902cbff
+
+outputs.2.groupId=org.apache.maven.shared
+outputs.2.filename=maven-dependency-analyzer-1.14.0-source-release.zip
+outputs.2.length=205654
+outputs.2.checksums.sha512=177624ae1f2cff0a05bd694a70f7e139f7cad79db63287644dfbf307cc5be09624202f2ff00f16125926a4614553065603eb61143f690bf38e347ff6b2d00282
+
+outputs.3.groupId=org.apache.maven.shared
+outputs.3.filename=maven-dependency-analyzer-1.14.0-sources.jar
+outputs.3.length=39271
+outputs.3.checksums.sha512=823bb0699665ae72b615bd785d5b0a5d6a47e2fa2a9c6bb4e1c37677f9f485207ab05b8245e25b9c2e10acb24f111b0cfaffe43f0cc3e3cce298d47948acc31a
+
+outputs.4.groupId=org.apache.maven.shared
+outputs.4.filename=maven-dependency-analyzer-1.14.0-cyclonedx.xml
+outputs.4.length=88088
+outputs.4.checksums.sha512=bac6e119db4074f6f4f900fe8a8fe1cae9fb87a5e617e8f55c76bf326b3126e0838eebc4487f684544f5e1980b5cc249a1a395493d8aebb7085fd5cd9d971368
+
+outputs.5.groupId=org.apache.maven.shared
+outputs.5.filename=maven-dependency-analyzer-1.14.0-cyclonedx.json
+outputs.5.length=101988
+outputs.5.checksums.sha512=b2551efeab7ba602b25a449ed57c26ac691fd37f3c5051129e16fe30cc34d1d5ed45e105b3a9e31d560ef85a0e128ea0d634194dd8f871491cc23b5cc6e7ee67
