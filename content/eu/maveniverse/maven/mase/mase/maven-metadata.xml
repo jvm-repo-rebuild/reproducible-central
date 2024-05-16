@@ -3,12 +3,13 @@
   <groupId>eu.maveniverse.maven.mase</groupId>
   <artifactId>mase</artifactId>
   <versioning>
-    <latest>1.0.1</latest>
-    <release>1.0.1</release>
+    <latest>1.0.2</latest>
+    <release>1.0.2</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.1</version>
+      <version>1.0.2</version>
     </versions>
-    <lastUpdated>20231209105915</lastUpdated>
+    <lastUpdated>20240516180134</lastUpdated>
   </versioning>
 </metadata>

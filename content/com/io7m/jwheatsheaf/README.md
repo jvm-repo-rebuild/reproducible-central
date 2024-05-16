@@ -25,6 +25,7 @@ rebuilding **4 releases** of com.io7m.jwheatsheaf:com.io7m.jwheatsheaf:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.0](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf/4.0.0/pom) | | | |
 | [4.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf/4.0.0-beta0001/pom) | [mvn jdk17.0.7](com.io7m.jwheatsheaf-4.0.0-beta0001.buildspec) | [result](com.io7m.jwheatsheaf-4.0.0-beta0001.buildinfo): [29 :white_check_mark: ](com.io7m.jwheatsheaf-4.0.0-beta0001.buildcompare) | 1.6M |
 | [3.0.0](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf/3.0.0/pom) | [mvn jdk17.0.7](com.io7m.jwheatsheaf-3.0.0.buildspec) | [result](com.io7m.jwheatsheaf-3.0.0.buildinfo): [29 :white_check_mark: ](com.io7m.jwheatsheaf-3.0.0.buildcompare) | 1.3M |
 | [2.0.1](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf/2.0.1/pom) | [mvn jdk11.0.6](com.io7m.jwheatsheaf-2.0.1.buildspec) | [result](com.io7m.jwheatsheaf-2.0.1.buildinfo): [25 :white_check_mark: ](com.io7m.jwheatsheaf-2.0.1.buildcompare) | 1.2M |

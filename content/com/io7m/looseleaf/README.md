@@ -29,6 +29,7 @@ rebuilding **6 releases** of com.io7m.looseleaf:com.io7m.looseleaf:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/2.0.0/pom) | | | |
 | [1.1.0](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/1.1.0/pom) | [mvn jdk17.0.7](com.io7m.looseleaf-1.1.0.buildspec) | [result](com.io7m.looseleaf-1.1.0.buildinfo): [46 :white_check_mark: ](com.io7m.looseleaf-1.1.0.buildcompare) | 698K |
 | [1.0.0](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/1.0.0/pom) | [mvn jdk17.0.7](com.io7m.looseleaf-1.0.0.buildspec) | [result](com.io7m.looseleaf-1.0.0.buildinfo): [46 :white_check_mark: ](com.io7m.looseleaf-1.0.0.buildcompare) | 697K |
 | [0.0.4](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/0.0.4/pom) | [mvn jdk17.0.6](com.io7m.looseleaf-0.0.4.buildspec) | [result](com.io7m.looseleaf-0.0.4.buildinfo): [38 :white_check_mark: ](com.io7m.looseleaf-0.0.4.buildcompare) | 430K |

@@ -20,6 +20,7 @@ rebuilding **5 releases** of com.io7m.digal:com.io7m.digal:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.0](https://central.sonatype.com/artifact/com.io7m.digal/com.io7m.digal/1.0.0/pom) | | | |
 | [0.0.5](https://central.sonatype.com/artifact/com.io7m.digal/com.io7m.digal/0.0.5/pom) | [mvn jdk17.0.6](com.io7m.digal-0.0.5.buildspec) | [result](com.io7m.digal-0.0.5.buildinfo): [9 :white_check_mark: ](com.io7m.digal-0.0.5.buildcompare) | 153K |
 | [0.0.4](https://central.sonatype.com/artifact/com.io7m.digal/com.io7m.digal/0.0.4/pom) | [mvn jdk17.0.6](com.io7m.digal-0.0.4.buildspec) | [result](com.io7m.digal-0.0.4.buildinfo): [9 :white_check_mark: ](com.io7m.digal-0.0.4.buildcompare) | 132K |
 | [0.0.3](https://central.sonatype.com/artifact/com.io7m.digal/com.io7m.digal/0.0.3/pom) | [mvn jdk17.0.5](com.io7m.digal-0.0.3.buildspec) | [result](com.io7m.digal-0.0.3.buildinfo): [9 :white_check_mark: ](com.io7m.digal-0.0.3.buildcompare) | 132K |

@@ -22,6 +22,7 @@ rebuilding **1 releases** of com.io7m.junsigned:com.io7m.junsigned:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.0](https://central.sonatype.com/artifact/com.io7m.junsigned/com.io7m.junsigned/4.0.0/pom) | | | |
 | [3.0.0](https://central.sonatype.com/artifact/com.io7m.junsigned/com.io7m.junsigned/3.0.0/pom) | [mvn jdk17.0.3](com.io7m.junsigned-3.0.0.buildspec) | [result](com.io7m.junsigned-3.0.0.buildinfo): [17 :white_check_mark: ](com.io7m.junsigned-3.0.0.buildcompare) | 111K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

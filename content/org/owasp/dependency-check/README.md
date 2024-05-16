@@ -9,22 +9,22 @@ Source code: [https://github.com/jeremylong/DependencyCheck](https://github.com/
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [org.owasp:dependency-check-ant](https://central.sonatype.com/artifact/org.owasp/dependency-check-ant/9.1.0)
-* [org.owasp:dependency-check-cli](https://central.sonatype.com/artifact/org.owasp/dependency-check-cli/9.1.0)
-* [org.owasp:dependency-check-core](https://central.sonatype.com/artifact/org.owasp/dependency-check-core/9.1.0)
-* [org.owasp:dependency-check-maven](https://central.sonatype.com/artifact/org.owasp/dependency-check-maven/9.1.0)
-* [org.owasp:dependency-check-parent](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/9.1.0)
-* [org.owasp:dependency-check-plugin](https://central.sonatype.com/artifact/org.owasp/dependency-check-plugin/9.1.0)
-* [org.owasp:dependency-check-utils](https://central.sonatype.com/artifact/org.owasp/dependency-check-utils/9.1.0)
+* [org.owasp:dependency-check-ant](https://central.sonatype.com/artifact/org.owasp/dependency-check-ant/9.2.0)
+* [org.owasp:dependency-check-cli](https://central.sonatype.com/artifact/org.owasp/dependency-check-cli/9.2.0)
+* [org.owasp:dependency-check-core](https://central.sonatype.com/artifact/org.owasp/dependency-check-core/9.2.0)
+* [org.owasp:dependency-check-maven](https://central.sonatype.com/artifact/org.owasp/dependency-check-maven/9.2.0)
+* [org.owasp:dependency-check-parent](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/9.2.0)
+* [org.owasp:dependency-check-plugin](https://central.sonatype.com/artifact/org.owasp/dependency-check-plugin/9.2.0)
+* [org.owasp:dependency-check-utils](https://central.sonatype.com/artifact/org.owasp/dependency-check-utils/9.2.0)
 </details>
 
-rebuilding **35 releases** of org.owasp:dependency-check-parent:
-- **29** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **36 releases** of org.owasp:dependency-check-parent:
+- **30** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [9.2.0](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/9.2.0/pom) | | | |
+| [9.2.0](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/9.2.0/pom) | [mvn jdk8](dependency-check-9.2.0.buildspec) | [result](dependency-check-parent-9.2.0.buildinfo): [22 :white_check_mark: ](dependency-check-parent-9.2.0.buildcompare) | 65M |
 | [9.1.0](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/9.1.0/pom) | [mvn jdk8](dependency-check-9.1.0.buildspec) | [result](dependency-check-parent-9.1.0.buildinfo): [22 :white_check_mark: ](dependency-check-parent-9.1.0.buildcompare) | 64M |
 | [9.0.10](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/9.0.10/pom) | [mvn jdk8](dependency-check-9.0.10.buildspec) | [result](dependency-check-parent-9.0.10.buildinfo): [22 :white_check_mark: ](dependency-check-parent-9.0.10.buildcompare) | 64M |
 | [9.0.9](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/9.0.9/pom) | [mvn jdk8](dependency-check-9.0.9.buildspec) | [result](dependency-check-parent-9.0.9.buildinfo): [22 :white_check_mark: ](dependency-check-parent-9.0.9.buildcompare) | 64M |
