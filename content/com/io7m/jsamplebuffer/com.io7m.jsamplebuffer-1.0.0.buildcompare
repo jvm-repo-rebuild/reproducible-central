@@ -1,0 +1,7 @@
+version=1.0.0
+ok=22
+ko=0
+ignored=0
+okFiles="com.io7m.jsamplebuffer-1.0.0.pom com.io7m.jsamplebuffer-1.0.0-cyclonedx.xml com.io7m.jsamplebuffer.api-1.0.0.pom com.io7m.jsamplebuffer.api-1.0.0.jar com.io7m.jsamplebuffer.api-1.0.0-sources.jar com.io7m.jsamplebuffer.api-1.0.0-cyclonedx.xml com.io7m.jsamplebuffer.api-1.0.0-tests.jar com.io7m.jsamplebuffer.vanilla-1.0.0.pom com.io7m.jsamplebuffer.vanilla-1.0.0.jar com.io7m.jsamplebuffer.vanilla-1.0.0-sources.jar com.io7m.jsamplebuffer.vanilla-1.0.0-cyclonedx.xml com.io7m.jsamplebuffer.vanilla-1.0.0-tests.jar com.io7m.jsamplebuffer.xmedia-1.0.0.pom com.io7m.jsamplebuffer.xmedia-1.0.0.jar com.io7m.jsamplebuffer.xmedia-1.0.0-sources.jar com.io7m.jsamplebuffer.xmedia-1.0.0-cyclonedx.xml com.io7m.jsamplebuffer.xmedia-1.0.0-tests.jar com.io7m.jsamplebuffer.tests-1.0.0.pom com.io7m.jsamplebuffer.tests-1.0.0.jar com.io7m.jsamplebuffer.tests-1.0.0-sources.jar com.io7m.jsamplebuffer.tests-1.0.0-cyclonedx.xml com.io7m.jsamplebuffer.tests-1.0.0-tests.jar"
+koFiles=""
+ignoredFiles=""
