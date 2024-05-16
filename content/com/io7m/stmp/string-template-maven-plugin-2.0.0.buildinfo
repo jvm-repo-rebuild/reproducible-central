@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=string-template-maven-plugin
+group-id=com.io7m.stmp
+artifact-id=string-template-maven-plugin
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:https://www.github.com/io7m-com/string-template-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.8.3
+
+# output
+
+outputs.0.groupId=com.io7m.stmp
+outputs.0.filename=string-template-maven-plugin-2.0.0.pom
+outputs.0.length=4249
+outputs.0.checksums.sha512=16ab191ff5a454630ac75acd6d9c01544f9cd7cf49b1e8df70ec609c6bbf665e49c3d702082dddab659204a5e081f1bbd55162573c2936cc303c8e6baff62c9a
+
+outputs.1.groupId=com.io7m.stmp
+outputs.1.filename=string-template-maven-plugin-2.0.0.jar
+outputs.1.length=14896
+outputs.1.checksums.sha512=2f6768d16b6ce65cebc58ddf7bb064f073fcd035d49ad8e6281ffef9096680221c54159c36dc7843350d5c5f1d11c5a5623660d896e9e2bd75131253b52eab6a
+
+outputs.2.groupId=com.io7m.stmp
+outputs.2.filename=string-template-maven-plugin-2.0.0-sources.jar
+outputs.2.length=10225
+outputs.2.checksums.sha512=6057e5272b77cc5eabf8a8945cefb0438bea9bd3dadb48a0bc74701c8142184a50a25d54caf06653bdb7c3f129cfd745875126276b3ae665da8b73474750a092
+
+outputs.3.groupId=com.io7m.stmp
+outputs.3.filename=string-template-maven-plugin-2.0.0-cyclonedx.xml
+outputs.3.length=179422
+outputs.3.checksums.sha512=e3e0808de9df9b633292a89bc093f3c09f2d6a6f84dc6469fd25f709eec1aaf18d998f9828eb5c00b8f995b0d79d5f6a57c0a12f6332ab5f045bda8390ba6cfe
+
+outputs.4.groupId=com.io7m.stmp
+outputs.4.filename=string-template-maven-plugin-2.0.0-tests.jar
+outputs.4.length=418
+outputs.4.checksums.sha512=9dfef8db12006f4cfd2ac8417c4e882681f100a1cd0ecafdeb205db1abda2fc7436d7a96d9c0491b6e4a1219bb10b0f6382ea06fb11840af92f0f74981fef269

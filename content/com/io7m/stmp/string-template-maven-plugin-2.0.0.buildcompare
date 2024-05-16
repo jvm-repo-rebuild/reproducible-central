@@ -1,0 +1,7 @@
+version=2.0.0
+ok=5
+ko=0
+ignored=0
+okFiles="string-template-maven-plugin-2.0.0.pom string-template-maven-plugin-2.0.0.jar string-template-maven-plugin-2.0.0-sources.jar string-template-maven-plugin-2.0.0-cyclonedx.xml string-template-maven-plugin-2.0.0-tests.jar"
+koFiles=""
+ignoredFiles=""
