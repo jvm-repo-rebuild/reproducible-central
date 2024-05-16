@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.immutables-style
+group-id=com.io7m.immutables-style
+artifact-id=com.io7m.immutables-style
+version=1.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/primogenitor
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.io7m.immutables-style
+outputs.0.filename=com.io7m.immutables-style-1.0.0.pom
+outputs.0.length=2087
+outputs.0.checksums.sha512=e6a76e4cd5927c85c708b3d1c25821dd50a0ba72061f0ba5a3e7066a50e0d85d9cdbb1a8d374e34fe321e448736af300064e15ce5e732ead0a826715e6578fb3
+
+outputs.1.groupId=com.io7m.immutables-style
+outputs.1.filename=com.io7m.immutables-style-1.0.0.jar
+outputs.1.length=4117
+outputs.1.checksums.sha512=46adabe413c42bb37d1a2076cea1820a58aab8319cab5b8d33ea83c6e1b34e6a1fd49a674eb41bd49c0a3572cccf79d89a4eb4914675a6eac1933274b1419bf6
+
+outputs.2.groupId=com.io7m.immutables-style
+outputs.2.filename=com.io7m.immutables-style-1.0.0-sources.jar
+outputs.2.length=4941
+outputs.2.checksums.sha512=d91a6591977bf1e985c52774998bc8b61cefceb057d0ce4220d876d20a38166ff7ef6ec33da7bb884f5bb20b6ff02aac7a7660ca9b308eb726dae9d1c497203d
+
+outputs.3.groupId=com.io7m.immutables-style
+outputs.3.filename=com.io7m.immutables-style-1.0.0-cyclonedx.xml
+outputs.3.length=19865
+outputs.3.checksums.sha512=77ec209fa3827a68c865c38b6cb67f54f5af6a4ed305c68f03402d553a0110f677b97dac53295a5e335136412cd553a59056ef7389d03721234d3177169c1251
+
+outputs.4.groupId=com.io7m.immutables-style
+outputs.4.filename=com.io7m.immutables-style-1.0.0-tests.jar
+outputs.4.length=409
+outputs.4.checksums.sha512=cd305986488dfad28ef0f9bfe6317b61e2be59ceefe12ba4c007256e90d25c621656f7fdb8914505658d57b64c9715b13e2f0a1dd133a09d1c48e1ad5f181e19
