@@ -1,0 +1,72 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Logging
+group-id=commons-logging
+artifact-id=commons-logging
+version=1.3.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-logging
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=commons-logging
+outputs.0.filename=commons-logging-1.3.2.pom
+outputs.0.length=32274
+outputs.0.checksums.sha512=21c6bc338722bb083e9ed75f4dfff50928ba4f2b9e196714ba4f3081879cb1b5ce44a4365cb1c19b316c81d210a9d79dffad517feb915b7adff1bb8f22c3d560
+
+outputs.1.groupId=commons-logging
+outputs.1.filename=commons-logging-1.3.2.jar
+outputs.1.length=71613
+outputs.1.checksums.sha512=9c56baa1371fafccd49f035a4cdcc667f3e6040b07748e04b1b74a225cb5307478f95b2d202e3ca51d89d3757ce046554091c63a1b769ac35ca60c69d058eee2
+
+outputs.2.groupId=commons-logging
+outputs.2.filename=commons-logging-1.3.2-tests.jar
+outputs.2.length=127102
+outputs.2.checksums.sha512=fc8a0217379e71e4aee34cfb19eeebf5fab93fb3566eda798ce211adbe46b13e829f89f16665dd613ba31984ef9d78802a9f0b7b1a0a3706b33c7ce3696fc4da
+
+outputs.3.groupId=commons-logging
+outputs.3.filename=commons-logging-1.3.2-tests.jar
+outputs.3.length=127102
+outputs.3.checksums.sha512=fc8a0217379e71e4aee34cfb19eeebf5fab93fb3566eda798ce211adbe46b13e829f89f16665dd613ba31984ef9d78802a9f0b7b1a0a3706b33c7ce3696fc4da
+
+outputs.4.groupId=commons-logging
+outputs.4.filename=commons-logging-1.3.2-api.jar
+outputs.4.length=52169
+outputs.4.checksums.sha512=c973a826ad20c0c890ed405632320b3fed1d969079205f69a49327cec282d1cc1223fa0b5646a5de84e31a209c060a5ad6614f38c558482c9bbe2ab0a99d54e0
+
+outputs.5.groupId=commons-logging
+outputs.5.filename=commons-logging-1.3.2-adapters.jar
+outputs.5.length=38036
+outputs.5.checksums.sha512=ca7783d5658395a34a1cfdaac0717563d4211cbe331f56a639527edf40824ef47b14bc5b194f329f0119d0ce582bd527f32fa0dd5971fbe6947bc35cdf292de0
+
+outputs.6.groupId=commons-logging
+outputs.6.filename=commons-logging-1.3.2-sources.jar
+outputs.6.length=84072
+outputs.6.checksums.sha512=8f83cb0fbdbed75eb0cbac0d53c91bc484e19034640536d376f26706d02427c9db8f64048bf76deaba14f1b4494611755b4cd89830a630f67b43890048a87650
+
+outputs.7.groupId=commons-logging
+outputs.7.filename=commons-logging-1.3.2-test-sources.jar
+outputs.7.length=126359
+outputs.7.checksums.sha512=4264e97c1f0fba85280daa9ca62d233c16e0f626c79606a9dd4db6276fc5da2e5dfc7810af7bbb35308a62f707480f25cc89e9f6c25ef935b3c0e6d8569272c7
+
+outputs.8.groupId=commons-logging
+outputs.8.filename=commons-logging-1.3.2-cyclonedx.xml
+outputs.8.length=15495
+outputs.8.checksums.sha512=0f2e5b2b45ed7d22ea5d03b6641b1518e98cf1ff4b641b475ececfe91ca5ea65877d18a4c647116944e71a55ce68a20dc93c3b1b98faa50d2d5b0d1c22a4ac56
+
+outputs.9.groupId=commons-logging
+outputs.9.filename=commons-logging-1.3.2-cyclonedx.json
+outputs.9.length=18307
+outputs.9.checksums.sha512=140a60c1bc7960ffd0e4eb733efc8733778a0228adeaff2dd4d9ee6ffd7bc4f5eb7f6152b18f3d5c662e4041c56cfcd1d4f103c628a9177d5cb475db463c1aea
