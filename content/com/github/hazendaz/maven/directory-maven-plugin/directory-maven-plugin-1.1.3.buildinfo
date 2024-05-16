@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=directory-maven-plugin
+group-id=com.github.hazendaz.maven
+artifact-id=directory-maven-plugin
+version=1.1.3
+
+# source information
+source.scm.uri=scm:git:ssh://github.com/hazendaz/directory-maven-plugin.git
+source.scm.tag=directory-maven-plugin-1.1.3
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=22
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.groupId=com.github.hazendaz.maven
+outputs.0.filename=directory-maven-plugin-1.1.3.pom
+outputs.0.length=6728
+outputs.0.checksums.sha512=8a60d3784a1ef74e1cb715b653f0af59239c21fe9bdc4ce5758b98388ed16f5d5a3816206dfb3a9f48999474f6e77863d3b59d0d3510e8d2046ac38687efaee6
+
+outputs.1.groupId=com.github.hazendaz.maven
+outputs.1.filename=directory-maven-plugin-1.1.3.jar
+outputs.1.length=23380
+outputs.1.checksums.sha512=6c6b680c409af672983dc423ec44f14e4289051f63e3089ec1f9dfeb0ee37c1fe4e1ade02d8df492b3326565e9c81ed33a6cc224e3f601c9c65d81ba2d25453e
+
+outputs.2.groupId=com.github.hazendaz.maven
+outputs.2.filename=directory-maven-plugin-1.1.3-sources.jar
+outputs.2.length=15828
+outputs.2.checksums.sha512=173fe0784971fa19246806b2c23e4017627f5686eeed8b33e28d060f1ad7a9f4392165793690f0d8ff49e7e2b4cc37ffa57344af4398c1f0558f93d714d27fb9
+
+outputs.3.groupId=com.github.hazendaz.maven
+outputs.3.filename=directory-maven-plugin-1.1.3-cyclonedx.xml
+outputs.3.length=106425
+outputs.3.checksums.sha512=7b4ddd15420034e73124706668fb59d9839215190adde63d48554b6458cc4e3031b0ab0fca967a64341bfd05150930cff58d23fa15f3d01b894fe36bda1a3cdf
+
+outputs.4.groupId=com.github.hazendaz.maven
+outputs.4.filename=directory-maven-plugin-1.1.3-cyclonedx.json
+outputs.4.length=125550
+outputs.4.checksums.sha512=cefd97dd569aa9dda496e68fe13860c5168fb6324d4e8ff53c538f0c9cf519248026f544ac4ab09d3d66ed44e2b41e667395f4b2b4e450cdd68a4d8ce11a4eef
