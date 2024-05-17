@@ -7,11 +7,10 @@
 
 Source code: [https://github.com/io7m/junreachable.git](https://github.com/io7m/junreachable.git)
 
-<details><summary>This project defines 4 modules:</summary>
+<details><summary>This project defines 3 modules:</summary>
 
 * [com.io7m.junreachable:com.io7m.junreachable](https://central.sonatype.com/artifact/com.io7m.junreachable/com.io7m.junreachable/4.0.2)
 * [com.io7m.junreachable:com.io7m.junreachable.core](https://central.sonatype.com/artifact/com.io7m.junreachable/com.io7m.junreachable.core/4.0.2)
-* [com.io7m.junreachable:com.io7m.junreachable.documentation](https://central.sonatype.com/artifact/com.io7m.junreachable/com.io7m.junreachable.documentation/4.0.2)
 * [com.io7m.junreachable:com.io7m.junreachable.tests](https://central.sonatype.com/artifact/com.io7m.junreachable/com.io7m.junreachable.tests/4.0.2)
 </details>
 
@@ -22,7 +21,6 @@ rebuilding **2 releases** of com.io7m.junreachable:com.io7m.junreachable:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [4.0.2](https://central.sonatype.com/artifact/com.io7m.junreachable/com.io7m.junreachable/4.0.2/pom) | [mvn jdk21](com.io7m.junreachable-4.0.2.buildspec) | [result](com.io7m.junreachable-4.0.2.buildinfo): [12 :white_check_mark: ](com.io7m.junreachable-4.0.2.buildcompare) | 181K |
-| [4.0.1](https://central.sonatype.com/artifact/com.io7m.junreachable/com.io7m.junreachable/4.0.1/pom) | | | |
-| [4.0.0](https://central.sonatype.com/artifact/com.io7m.junreachable/com.io7m.junreachable/4.0.0/pom) | [mvn jdk17.0.3](com.io7m.junreachable-4.0.0.buildspec) | [result](com.io7m.junreachable-4.0.0.buildinfo): [10 :white_check_mark: ](com.io7m.junreachable-4.0.0.buildcompare) | 48K |
+| [4.0.1](https://central.sonatype.com/artifact/com.io7m.junreachable/com.io7m.junreachable/4.0.1/pom) | [mvn jdk21](com.io7m.junreachable-4.0.1.buildspec) | [result](com.io7m.junreachable-4.0.1.buildinfo): [12 :white_check_mark: ](com.io7m.junreachable-4.0.1.buildcompare) | 181K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
