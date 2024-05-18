@@ -1,0 +1,37 @@
+1 / 1 central/dk/mada/style/mada-style-gradle/0.9.8/mada-style-gradle-0.9.8.module repository/dk/mada/style/mada-style-gradle/0.9.8/mada-style-gradle-0.9.8.module
+--- central/dk/mada/style/mada-style-gradle/0.9.8/mada-style-gradle-0.9.8.module
++++ repository/dk/mada/style/mada-style-gradle/0.9.8/mada-style-gradle-0.9.8.module
+├── Pretty-printed
+│┄ Similarity: 0.9981398809523809%
+│┄ Differences: {"'variants'": "{2: {'files': {0: {'size': 143261, 'sha512': "
+│┄                "'9d71acd279ccde78e7f6542965d31283caf5554d763a0687cf0a83fd2bfc0a89476d9511bad7097e0f62fe3466a0fac4c37df5cc8ea1fa03c2ca34fee9336aad', "
+│┄                "'sha256': 'd07a639c61c9c5e0bb3cc664b30cbd1682e0e802af8ea6084788665298f32e0d', "
+│┄                "'sha1': 'cb221d1231a01eb30eaedc88c28aed8e7f80cac2', 'md5': "
+│┄                "'857da0d3722470b2b4e930cf6dcff635'}}}}"}
+│ @@ -84,20 +84,20 @@
+│                  "org.gradle.category": "documentation",
+│                  "org.gradle.dependency.bundling": "external",
+│                  "org.gradle.docstype": "javadoc",
+│                  "org.gradle.usage": "java-runtime"
+│              },
+│              "files": [
+│                  {
+│ -                    "md5": "d1a84d7d61e51c1bec4d313ce982833c",
+│ +                    "md5": "857da0d3722470b2b4e930cf6dcff635",
+│                      "name": "mada-style-gradle-0.9.8-javadoc.jar",
+│ -                    "sha1": "ca260241d858d9377e2910e2940d435dbb847ea6",
+│ -                    "sha256": "d1bc11971d26f5e9c95ff84e86c9496127063aab84086db5dd5c7df33b05d0d6",
+│ -                    "sha512": "6fc655f3aafe22df0c82dc57824542c9105c12cd43150b4ffb60c40c69ce446aeeca0060a0428da290aacf329487e2857bc94a9fa87edaa6ce75c81a6fcb2a15",
+│ -                    "size": 143226,
+│ +                    "sha1": "cb221d1231a01eb30eaedc88c28aed8e7f80cac2",
+│ +                    "sha256": "d07a639c61c9c5e0bb3cc664b30cbd1682e0e802af8ea6084788665298f32e0d",
+│ +                    "sha512": "9d71acd279ccde78e7f6542965d31283caf5554d763a0687cf0a83fd2bfc0a89476d9511bad7097e0f62fe3466a0fac4c37df5cc8ea1fa03c2ca34fee9336aad",
+│ +                    "size": 143261,
+│                      "url": "mada-style-gradle-0.9.8-javadoc.jar"
+│                  }
+│              ],
+│              "name": "javadocElements"
+│          },
+│          {
+│              "attributes": {
+

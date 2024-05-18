@@ -1,0 +1,6 @@
+version=0.9.8
+ok=4
+ko=1
+okFiles="dk.mada.style.gradle.plugin-0.9.8.pom mada-style-gradle-0.9.8-sources.jar mada-style-gradle-0.9.8.jar mada-style-gradle-0.9.8.pom"
+koFiles="mada-style-gradle-0.9.8.module"
+# diffoscope central/dk/mada/style/mada-style-gradle/0.9.8/mada-style-gradle-0.9.8.module repository/dk/mada/style/mada-style-gradle/0.9.8/mada-style-gradle-0.9.8.module
