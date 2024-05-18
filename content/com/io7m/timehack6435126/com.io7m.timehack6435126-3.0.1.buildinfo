@@ -1,0 +1,63 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.timehack6435126
+group-id=com.io7m.timehack6435126
+artifact-id=com.io7m.timehack6435126
+version=3.0.1
+
+# source information
+source.scm.uri=scm:git:https://www.github.com/io7m-com/timehack6435126
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.timehack6435126.core
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.timehack6435126:com.io7m.timehack6435126
+
+outputs.0.0.groupId=com.io7m.timehack6435126
+outputs.0.0.filename=com.io7m.timehack6435126-3.0.1.pom
+outputs.0.0.length=3881
+outputs.0.0.checksums.sha512=a4e87102caf2826083aa6748e1633f44a3fa3398494af6059cbdef289a99bf3a7f1137b7fc9571c1442918d6ad576de625a7934090300ea5b008e174d911fc31
+
+outputs.0.1.groupId=com.io7m.timehack6435126
+outputs.0.1.filename=com.io7m.timehack6435126-3.0.1-cyclonedx.xml
+outputs.0.1.length=38209
+outputs.0.1.checksums.sha512=fff1d2c4d2b50990e110f3761ce154b6fc0ffd0bc51570217201e39c342219e03a1d1d3693cb0699687c6c98122b3fc0d00d586184b97ce7283dddab4a6ab135
+
+outputs.1.coordinates=com.io7m.timehack6435126:com.io7m.timehack6435126.core
+
+outputs.1.0.groupId=com.io7m.timehack6435126
+outputs.1.0.filename=com.io7m.timehack6435126.core-3.0.1.pom
+outputs.1.0.length=1290
+outputs.1.0.checksums.sha512=3811101cac20cfd8cb20257d1cb0a8dde11363ab08bdcbb00cc8a37577737ce2ac0360cd03e1752f6f179bd9658fa102c228606908f27095ffb954daecdc6bc7
+
+outputs.1.1.groupId=com.io7m.timehack6435126
+outputs.1.1.filename=com.io7m.timehack6435126.core-3.0.1.jar
+outputs.1.1.length=4678
+outputs.1.1.checksums.sha512=975635e0debdbc027254147cc2632897b8c46d35ab2c70817d47bb1efaf1926fcf4469fc1e4088272d528a0102ee5779b01996b9d24012738c64140d354072bd
+
+outputs.1.2.groupId=com.io7m.timehack6435126
+outputs.1.2.filename=com.io7m.timehack6435126.core-3.0.1-sources.jar
+outputs.1.2.length=4909
+outputs.1.2.checksums.sha512=f79daa5a225ae551ad99fbce751ebbd13fa33c73b7c262c84f86d3ed85c182c50208a4e29ec6b267516194d540e3966735f8045569e9bd13fc28b9d0a807168a
+
+outputs.1.3.groupId=com.io7m.timehack6435126
+outputs.1.3.filename=com.io7m.timehack6435126.core-3.0.1-cyclonedx.xml
+outputs.1.3.length=35671
+outputs.1.3.checksums.sha512=2f1b849aa23093e16d7898b08d952d87eb7c4932304582531ee92864491ddda7b1a3d464bf131e7090c2eeb206a0cb005f6bf3fc46a6592b218fb2a42d472ed6
+
+outputs.1.4.groupId=com.io7m.timehack6435126
+outputs.1.4.filename=com.io7m.timehack6435126.core-3.0.1-tests.jar
+outputs.1.4.length=415
+outputs.1.4.checksums.sha512=3e354484a34bd49852782f0136d91cf4839a64185aab71423d965a82237ccdcf9df1514ad8e1481ddfedbb285a9d5e1a6079e89f414d695d9802eb70b7deccd1
