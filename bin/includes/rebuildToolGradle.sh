@@ -26,9 +26,9 @@ rebuildToolGradle() {
 #      jdkImage="openjdk:17-slim"
 #      ;;
 #  esac
-  jdkImage="gradle:8-jdk${jdk}"
+  jdkImage="docker.io/library/gradle:8-jdk${jdk}"
 
-  info "Rebuilding using Docker image ${jdkImage}"
+  info "Rebuilding using container image ${jdkImage}"
 
   local OUTPUTDIR=repository
   [ -d ${OUTPUTDIR} ] && \rm -rf ${OUTPUTDIR}
@@ -36,17 +36,19 @@ rebuildToolGradle() {
   [ -d userhome/.gradle ] || mkdir -p userhome/.gradle
   find . -name build -exec \rm -rf {} \;
 
-  local docker_command="docker run -it --rm --name rebuild-central\
-    -v $PWD:/var/gradle/app\
-    -v $PWD/userhome:/home/gradle\
-    -v $PWD:/home/gradle/.m2\
-    -v $base/.gradle:/home/gradle/.gradle\
+  local engine_command="$RB_OCI_ENGINE run -it --rm --name rebuild-central\
+    ${RB_OCI_ENGINE_RUN_OPTS}\
+    -v $PWD:/var/gradle/app${RB_OCI_VOLUME_FLAGS}\
+    -v $PWD/userhome:/home/gradle${RB_OCI_VOLUME_FLAGS}\
+    -v $PWD:/home/gradle/.m2${RB_OCI_VOLUME_FLAGS}\
+    -v $PWD/userhome/.gradle:/home/gradle/.gradle${RB_OCI_VOLUME_FLAGS}\
     -u $(id -u ${USER}):$(id -g ${USER})\
     -e MAVEN_CONFIG=/home/gradle/.m2\
+    -e GRADLE_USER_HOME=/home/gradle/.gradle\
     -w /var/gradle/app"
-  local gradle_docker_params="-Duser.home=/home/gradle"
+  local gradle_engine_params="-Duser.home=/home/gradle"
 
-  runcommand ${docker_command} ${jdkImage} ${command} ${gradle_docker_params}
+  runcommand ${engine_command} ${jdkImage} ${command} ${gradle_engine_params}
   
   if [ $? -eq 0 ]; then
       # output content is expected to be available in repository/ directory

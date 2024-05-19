@@ -14,10 +14,10 @@
 #
 
 mvnBuildDocker() {
-  local mvnCommand mvnImage crlfDocker mvnVersion mvn_docker_params
+  local mvnCommand mvnImage crlfDocker mvnVersion mvn_engine_params
   mvnCommand="$1"
   crlfDocker="no"
-  mvn_docker_params=""
+  mvn_engine_params=""
 
   mvnVersion="3.6.3"
   case ${tool} in
@@ -90,14 +90,21 @@ mvnBuildDocker() {
   # ############# IMAGE READY FOR USE #################
 
   echo
-  info "Rebuilder Docker image is ready for use: \033[1m${mvnImage}\033[0m"
+  info "Rebuilder container image is ready for use: \033[1m${mvnImage}\033[0m"
   info "Rebuilding \033[1m${groupId}:${artifactId}:${version}\033[0m release"
-  local docker_command="docker run -it --rm --name rebuild-central\
-    -v $PWD:/var/maven/app\
-    -v $base/m2:/var/maven/.m2\
-    -v $base/.sbt:/var/maven/.sbt\
-    -v $base/.npm:/.npm\
-    -v $base/.bnd:/.bnd\
+
+  [ -d $base/.bnd ] || mkdir -p $base/.bnd
+  [ -d $base/.m2 ]  || mkdir -p $base/.m2
+  [ -d $base/.npm ] || mkdir -p $base/.npm
+  [ -d $base/.sbt ] || mkdir -p $base/.sbt
+
+  local engine_command="$RB_OCI_ENGINE run -it --rm --name rebuild-central\
+    ${RB_OCI_ENGINE_RUN_OPTS}\
+    -v $PWD:/var/maven/app${RB_OCI_VOLUME_FLAGS}\
+    -v $base/m2:/var/maven/.m2${RB_OCI_VOLUME_FLAGS}\
+    -v $base/.sbt:/var/maven/.sbt${RB_OCI_VOLUME_FLAGS}\
+    -v $base/.npm:/.npm${RB_OCI_VOLUME_FLAGS}\
+    -v $base/.bnd:/.bnd${RB_OCI_VOLUME_FLAGS}\
     -u $USER_NAME:$GROUP_ID\
     -e MAVEN_CONFIG=/var/maven/.m2\
     -e MVN_UMASK=${MVN_UMASK}\
@@ -107,13 +114,13 @@ mvnBuildDocker() {
   then
     if [[ "${crlfDocker}" == "yes" ]]
     then
-      runcommand ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params} -Dline.separator=$'\r\n'
+      runcommand ${engine_command} ${mvnImage} ${mvnCommand} ${mvn_engine_params} -Dline.separator=$'\r\n'
     else
       mvnCommand="$(echo "${mvnCommand}" | sed "s_^mvn _/var/maven/.m2/mvncrlf _")"
-      runcommand ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params}
+      runcommand ${engine_command} ${mvnImage} ${mvnCommand} ${mvn_engine_params}
     fi
   else
-    runcommand ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params}
+    runcommand ${engine_command} ${mvnImage} ${mvnCommand} ${mvn_engine_params}
   fi
 }
 
@@ -141,7 +148,7 @@ mvnBuildDockerBuildBaseToolchainsImage() {
     ) > "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}"
 
     info "Building base Reproducible Builder toolchains image \033[1m${mvnImage}\033[0m"
-    if ! runcommand docker build -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
+    if ! runcommand "${RB_OCI_ENGINE}" build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
     then
       fatal "Unable to build ${mvnImage} using ${DOCKERFILE}"
     fi
@@ -150,7 +157,7 @@ mvnBuildDockerBuildBaseToolchainsImage() {
 # ################## LOCAL USER ######################
 mvnBuildDockerAddUserLayer() {
   # Using the provided base image we are adding a layer to set the user information
-  info "Adding layer to rebuilder Docker image for local user"
+  info "Adding layer to rebuilder container image for local user"
 
   local baseMvnImage="${mvnImage}"
 
@@ -170,7 +177,7 @@ mvnBuildDockerAddUserLayer() {
     sed -i.bak 's/##TOOLCHAINS##//' "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}"
   fi
 
-  if ! runcommand docker build -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
+  if ! runcommand "${RB_OCI_ENGINE}" build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
   then
     fatal "Unable to build ${mvnImage} using ${DOCKERFILE}"
   fi
@@ -179,7 +186,7 @@ mvnBuildDockerAddUserLayer() {
 # ################## BUILD ENVIRONMENT CHOICES ######################
 mvnBuildDockerAddEnvironmentLayer() {
   # Using the provided user image we are adding a layer to set the environment (umask, timezone, ...)
-  info "Adding layer to rebuilder Docker image for environment settings (umask, timezone, ...)"
+  info "Adding layer to rebuilder container image for environment settings (umask, timezone, ...)"
 
   local baseMvnImage="${mvnImage}"
 
@@ -195,7 +202,7 @@ mvnBuildDockerAddEnvironmentLayer() {
       sed "s@\@\@BUILD_TIMEZONE\@\@@${timezone}@g"
    ) > "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}"
 
-  if ! runcommand docker build -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
+  if ! runcommand "${RB_OCI_ENGINE}" build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
   then
     fatal "Unable to build ${mvnImage} using ${DOCKERFILE}"
   fi

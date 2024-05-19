@@ -87,6 +87,32 @@ umask $umask
 export MVN_UMASK=${umask}
 fetchSource
 
+DEFAULT_engine="docker"
+DEFAULT_engine_buildopts_docker=""
+DEFAULT_engine_buildopts_podman="--format docker"
+DEFAULT_engine_buildopts="$([[ 'docker' == ${RB_OCI_ENGINE:-$DEFAULT_engine} ]] && echo $DEFAULT_engine_buildopts_docker || echo $DEFAULT_engine_buildopts_podman)"
+DEFAULT_engine_runopts_docker=""
+DEFAULT_engine_runopts_podman="--userns=keep-id"
+DEFAULT_engine_runopts="$([[ 'docker' == ${RB_OCI_ENGINE:-$DEFAULT_engine} ]] && echo $DEFAULT_engine_runopts_docker || echo $DEFAULT_engine_runopts_podman)"
+DEFAULT_volumeflags=""
+
+if [ -z "${RB_OCI_ENGINE}" ]
+then
+  export RB_OCI_ENGINE=$DEFAULT_engine
+fi
+if [ -z "${RB_OCI_ENGINE_BUILD_OPTS}" ]
+then
+  export RB_OCI_ENGINE_BUILD_OPTS=$DEFAULT_engine_buildopts
+fi
+if [ -z "${RB_OCI_ENGINE_RUN_OPTS}" ]
+then
+  export RB_OCI_ENGINE_RUN_OPTS=$DEFAULT_engine_runopts
+fi
+if [ -z "${RB_OCI_VOLUME_FLAGS}" ]
+then
+  export RB_OCI_VOLUME_FLAGS=$DEFAULT_volumeflags;
+fi
+
 echo
 case ${tool} in
   mvn*)
