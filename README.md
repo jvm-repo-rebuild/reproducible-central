@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3703 releases** of **657 projects**:
+   rebuilding **3704 releases** of **657 projects**:
    - **2950** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 753 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - 754 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 657 projects, 556 have at least one fully reproducible release, 101 have none
 
 <!-- END GENERATED INTRO -->
@@ -209,7 +209,7 @@ Its objectives are to provide:
 | dev.sigstore | [sigstore-maven-plugin](content/dev/sigstore/sigstore-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | dk.mada.buildinfo | [buildinfo-gradle](content/dk/mada/buildinfo/buildinfo-gradle/README.md) | 1 | 1 :white_check_mark: |
 | dk.mada.jaxrs | [openapi-jaxrs-client](content/dk/mada/jaxrs/openapi-jaxrs-client/README.md) | 1 | 1 :white_check_mark: |
-| dk.mada.style | [mada-style-gradle](content/dk/mada/style/mada-style-gradle/README.md) | 1 | 1 :white_check_mark: |
+| dk.mada.style | [mada-style-gradle](content/dk/mada/style/mada-style-gradle/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | eu.europa.ted.eforms | [eforms-core-java](content/eu/europa/ted/eforms/eforms-core-java/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
 | | [eforms-sdk](content/eu/europa/ted/eforms/eforms-sdk/README.md) | 18 | 13 :white_check_mark: / 5 :warning: |
 | | [efx-toolkit-java](content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 3 | 3 :warning: |
@@ -680,7 +680,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 2 | 2 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 37 | 37 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **657** | **3703** | **2950** :white_check_mark: **753** :warning: |
+| **Count:** | **657** | **3704** | **2950** :white_check_mark: **754** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -693,7 +693,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 ```
      26 gradle     11
      17 gradle     17
-      9 gradle     21
+     10 gradle     21
      26 mvn         7
    1158 mvn         8
       1 mvn         9
