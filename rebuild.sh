@@ -36,6 +36,15 @@ DEFAULT_timezone="UTC"
 DEFAULT_umask=0002
 DEFAULT_referenceRepo="https://repo.maven.apache.org/maven2/"
 
+DEFAULT_oci_engine="docker"
+DEFAULT_docker_build_opts=""
+DEFAULT_podman_build_opts="--format docker"
+DEFAULT_docker_run_opts=""
+DEFAULT_podman_run_opts="--userns=keep-id"
+DEFAULT_oci_engine_volumeflags=""
+DEFAULT_oci_engine_build_opts="$([[ 'docker' == ${RB_OCI_ENGINE:-$DEFAULT_oci_engine} ]] && echo $DEFAULT_docker_build_opts || echo $DEFAULT_podman_build_opts)"
+DEFAULT_oci_engine_run_opts="$([[ 'docker' == ${RB_OCI_ENGINE:-$DEFAULT_oci_engine} ]] && echo $DEFAULT_docker_run_opts || echo $DEFAULT_podman_run_opts)"
+
 echo "| 1. rebuild what binaries?"
 displayOptional  "referenceRepo" "$DEFAULT_referenceRepo"
 displayMandatory "groupId"
@@ -59,23 +68,20 @@ displayOptional  "locale"      "$DEFAULT_locale"
 displayOptional  "umask"       "$DEFAULT_umask"
 echo "| 4. how?"
 displayMandatory "command"
+[ -n "${RB_SHELL}" ] && RB_OCI_ENGINE="interactive shell"
+displayOptional  "RB_OCI_ENGINE" "$DEFAULT_oci_engine"
 echo "| 5. expected results?"
 displayMandatory "buildinfo"
 displayOptional  "diffoscope"
 displayOptional  "issue"
 
-if [ -z "${timezone}" ]
-then
-  timezone=$DEFAULT_timezone;
-fi
-if [ -z "${locale}" ]
-then
-  locale=$DEFAULT_locale;
-fi
-if [ -z "${umask}" ]
-then
-  umask=$DEFAULT_umask;
-fi
+[ -z "${timezone}" ] && timezone=$DEFAULT_timezone
+[ -z "${locale}" ] && locale=$DEFAULT_locale
+[ -z "${umask}" ] && umask=$DEFAULT_umask
+[ -z "${RB_OCI_ENGINE}" ] && export RB_OCI_ENGINE=$DEFAULT_oci_engine
+[ -z "${RB_OCI_ENGINE_BUILD_OPTS}" ] && export RB_OCI_ENGINE_BUILD_OPTS=$DEFAULT_oci_engine_build_opts
+[ -z "${RB_OCI_ENGINE_RUN_OPTS}" ] && export RB_OCI_ENGINE_RUN_OPTS=$DEFAULT_oci_engine_run_opts
+[ -z "${RB_OCI_VOLUME_FLAGS}" ] && export RB_OCI_VOLUME_FLAGS=$DEFAULT_oci_engine_volume_flags
 
 base="$SCRIPTDIR"
 
@@ -86,32 +92,6 @@ echo
 umask $umask
 export MVN_UMASK=${umask}
 fetchSource
-
-DEFAULT_engine="docker"
-DEFAULT_engine_buildopts_docker=""
-DEFAULT_engine_buildopts_podman="--format docker"
-DEFAULT_engine_buildopts="$([[ 'docker' == ${RB_OCI_ENGINE:-$DEFAULT_engine} ]] && echo $DEFAULT_engine_buildopts_docker || echo $DEFAULT_engine_buildopts_podman)"
-DEFAULT_engine_runopts_docker=""
-DEFAULT_engine_runopts_podman="--userns=keep-id"
-DEFAULT_engine_runopts="$([[ 'docker' == ${RB_OCI_ENGINE:-$DEFAULT_engine} ]] && echo $DEFAULT_engine_runopts_docker || echo $DEFAULT_engine_runopts_podman)"
-DEFAULT_volumeflags=""
-
-if [ -z "${RB_OCI_ENGINE}" ]
-then
-  export RB_OCI_ENGINE=$DEFAULT_engine
-fi
-if [ -z "${RB_OCI_ENGINE_BUILD_OPTS}" ]
-then
-  export RB_OCI_ENGINE_BUILD_OPTS=$DEFAULT_engine_buildopts
-fi
-if [ -z "${RB_OCI_ENGINE_RUN_OPTS}" ]
-then
-  export RB_OCI_ENGINE_RUN_OPTS=$DEFAULT_engine_runopts
-fi
-if [ -z "${RB_OCI_VOLUME_FLAGS}" ]
-then
-  export RB_OCI_VOLUME_FLAGS=$DEFAULT_volumeflags;
-fi
 
 echo
 case ${tool} in

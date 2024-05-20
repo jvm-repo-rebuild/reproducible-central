@@ -55,7 +55,7 @@ rebuildToolMvn() {
     if [[ "${command}" == DOCKER* ]]
     then
       # open a shell to do manual rebuild in Docker
-      warn "opening interactive shell in docker: please run rebuild with required JDK then exit to continue:"
+      warn "opening interactive shell in container runtime: please run rebuild with required JDK then exit to continue:"
       runlog "${mvn_rebuild//DOCKER /}"
       mvnBuildDocker "bash -i"
     else
