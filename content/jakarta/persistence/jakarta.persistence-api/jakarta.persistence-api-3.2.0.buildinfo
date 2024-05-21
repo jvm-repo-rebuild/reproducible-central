@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jakarta Persistence API
+group-id=jakarta.persistence
+artifact-id=jakarta.persistence-api
+version=3.2.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/jakartaee/persistence.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=jakarta.persistence
+outputs.0.filename=jakarta.persistence-api-3.2.0.pom
+outputs.0.length=15860
+outputs.0.checksums.sha512=8b9dfdcbf96176e7e29fd4239ef51220239e3ebdc0346ecdec8045616ad5688f27cd5c7fc320da1246765a2823eeacb90250e93e50edc5947343bef4a67041b8
+
+outputs.1.groupId=jakarta.persistence
+outputs.1.filename=jakarta.persistence-api-3.2.0.jar
+outputs.1.length=195939
+outputs.1.checksums.sha512=2913707daaad67506551f016fb582612cf76565386b48e9b27ac96ac72f5763ecd1bf8b25fdb06ea94e57782eeaaf6378c709d13221634a23dabbadf3eeadb18
+
+outputs.2.groupId=jakarta.persistence
+outputs.2.filename=jakarta.persistence-api-3.2.0-cyclonedx.xml
+outputs.2.length=3071
+outputs.2.checksums.sha512=114a59913e96298cb73943491e201ff1b5271d4f7d7eb35e68262bc106e760ef932d7cd03dd27588591812e4021896f8061e55be70b8bfbf32caa547f454f35b
+
+outputs.3.groupId=jakarta.persistence
+outputs.3.filename=jakarta.persistence-api-3.2.0-cyclonedx.json
+outputs.3.length=3566
+outputs.3.checksums.sha512=ef73adf877654672a2212bbf0d9b487d4c60ec8dc35963135bc3a66bf3673e263f3be8f985c5198b48fe6416c32de84189e999835cf1682fb1aad7898f0d31fa
