@@ -1,0 +1,7 @@
+version=18
+ok=3
+ko=0
+ignored=0
+okFiles="plexus-18.pom plexus-18-site.xml plexus-18-source-release.zip"
+koFiles=""
+ignoredFiles=""
