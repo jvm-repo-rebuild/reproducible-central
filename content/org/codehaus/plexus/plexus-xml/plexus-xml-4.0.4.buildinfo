@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus XML Utilities
+group-id=org.codehaus.plexus
+artifact-id=plexus-xml
+version=4.0.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-xml.git
+source.scm.tag=plexus-xml-4.0.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-xml-4.0.4.pom
+outputs.0.length=4030
+outputs.0.checksums.sha512=9c126278e1b277e7210dbdf84466718cf8b2f5e9daeb66835daac786d89cdeda985b8101908db3ca9e7362b01f391fa05c474df98d45aff8552b2561802773f7
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-xml-4.0.4.jar
+outputs.1.length=89363
+outputs.1.checksums.sha512=0637a09fe9c4828b8da9012888342e46856de89e7bb47966de731bf344560146efe00572dae481288ef53e74541d2c693b5be1ffdf75b19b20ffa1000871d408
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-xml-4.0.4-source-release.zip
+outputs.2.length=182502
+outputs.2.checksums.sha512=aa6f1caba32f95d940bdb3d13d08f7b3353164cdaadce578edab2dc9daf84b9a24bafe9e05015572ff354da29b6433fa0e07e2074fbad86f380a557c95b84241
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-xml-4.0.4-sources.jar
+outputs.3.length=95200
+outputs.3.checksums.sha512=625621a7ff104c8a6bbc2233d78c2f5f148ebf304465e9696e593ec06fa44ec9a13d907ee2abc9a29ef080d5f4f4329b10737f23c8c0127b94ce84ac72c359aa
