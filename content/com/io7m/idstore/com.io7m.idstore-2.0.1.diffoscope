@@ -1,0 +1,31 @@
+1 / 1 target/reference/com.io7m.idstore/com.io7m.idstore-2.0.1-cyclonedx.xml target/bom.xml
+--- target/reference/com.io7m.idstore/com.io7m.idstore-2.0.1-cyclonedx.xml
++++ target/bom.xml
+│   --- target/reference/com.io7m.idstore/com.io7m.idstore-2.0.1-cyclonedx.xml
+├── +++ target/bom.xml
+│ @@ -6943,14 +6943,24 @@
+│        </externalReferences>
+│      </component>
+│      <component type="library" bom-ref="pkg:maven/com.io7m.idstore/com.io7m.idstore.main@2.0.1?classifier=distribution&amp;type=zip">
+│        <group>com.io7m.idstore</group>
+│        <name>com.io7m.idstore.main</name>
+│        <version>2.0.1</version>
+│        <scope>required</scope>
+│ +      <hashes>
+│ +        <hash alg="MD5">d4ec6ecb66d5682e34cd0cd1d0fb2ada</hash>
+│ +        <hash alg="SHA-1">73f8e8a46dc60c385bf84ab09a8b96486fa11853</hash>
+│ +        <hash alg="SHA-256">e5f6cbd2ac29dfa5d3dfd7d429054f2b8ad91f73c47361f6f2912b61714b3191</hash>
+│ +        <hash alg="SHA-512">6096c82b45897e66b2a1b4fc1ae22ff0d5753a918d4bc1070725e1caa0be8680985012e8f25224eeaa60fddddc5b5fb1798d406d5753c02ed2f1a4495cb15dbc</hash>
+│ +        <hash alg="SHA-384">b9c895889da67730299c090fa56e8cbe41d98dfd86acd44010f5b9b28e2b94be2dabd37c4f18021ea8eb7e75b3716bd0</hash>
+│ +        <hash alg="SHA3-384">00c4a3c5f619dea9abf966120376f47e6628d7dad28ea6f9ac0e688e3e0e073efda8a12afbd18f02eeeaed72a24c15f1</hash>
+│ +        <hash alg="SHA3-256">044037da127def92e7d8095983649a39c1cb3527d99eac54935c195041533000</hash>
+│ +        <hash alg="SHA3-512">cc240ec7dcc25575d01480ef437700021fbd225da9fe8628a260766abc9b5b2a278256d51bf5b418b6f94518648a0d45a86761592fc09dd81834c3a956bf5bd4</hash>
+│ +      </hashes>
+│        <purl>pkg:maven/com.io7m.idstore/com.io7m.idstore.main@2.0.1?classifier=distribution&amp;type=zip</purl>
+│      </component>
+│      <component type="library" bom-ref="pkg:maven/com.io7m.idstore/com.io7m.idstore.tests.extensions@2.0.1?type=jar">
+│        <group>com.io7m.idstore</group>
+│        <name>com.io7m.idstore.tests.extensions</name>
+│        <version>2.0.1</version>
+│        <description>Identity server (Test extensions)</description>
+
