@@ -7,8 +7,8 @@
 
 Source code: [https://github.com/codehaus-plexus/plexus-xml.git](https://github.com/codehaus-plexus/plexus-xml.git)
 
-rebuilding **6 releases** of org.codehaus.plexus:plexus-xml:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of org.codehaus.plexus:plexus-xml:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -18,7 +18,7 @@ rebuilding **6 releases** of org.codehaus.plexus:plexus-xml:
 | [4.0.2](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/4.0.2/pom) | [mvn jdk20](plexus-xml-4.0.2.buildspec) | [result](plexus-xml-4.0.2.buildinfo): [4 :white_check_mark: ](plexus-xml-4.0.2.buildcompare) | 361K |
 | [4.0.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/4.0.1/pom) | [mvn jdk17](plexus-xml-4.0.1.buildspec) | [result](plexus-xml-4.0.1.buildinfo): [4 :white_check_mark: ](plexus-xml-4.0.1.buildcompare) | 361K |
 | [4.0.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/4.0.0/pom) | [mvn jdk17](plexus-xml-4.0.0.buildspec) | [result](plexus-xml-4.0.0.buildinfo): [4 :white_check_mark: ](plexus-xml-4.0.0.buildcompare) | 363K |
-| [3.0.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/3.0.1/pom) | | | |
+| [3.0.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/3.0.1/pom) | [mvn jdk21](plexus-xml-3.0.1.buildspec) | [result](plexus-xml-3.0.1.buildinfo): [4 :white_check_mark: ](plexus-xml-3.0.1.buildcompare) | 392K |
 | [3.0.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/3.0.0/pom) | [mvn jdk11](plexus-xml-3.0.0.buildspec) | [result](plexus-xml-3.0.0.buildinfo): [4 :white_check_mark: ](plexus-xml-3.0.0.buildcompare) | 389K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

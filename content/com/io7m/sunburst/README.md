@@ -32,6 +32,7 @@ rebuilding **1 releases** of com.io7m.sunburst:com.io7m.sunburst:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.0.7](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst/0.0.7/pom) | | | |
 | [0.0.6](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst/0.0.6/pom) | [mvn jdk17.0.7](com.io7m.sunburst-0.0.6.buildspec) | [result](com.io7m.sunburst-0.0.6.buildinfo): [60 :white_check_mark:  13 :warning:](com.io7m.sunburst-0.0.6.buildcompare) [:mag:](com.io7m.sunburst-0.0.6.diffoscope) | 5.5M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
