@@ -3,8 +3,8 @@
   <groupId>org.apache.maven.doxia</groupId>
   <artifactId>doxia-sitetools</artifactId>
   <versioning>
-    <latest>2.0.0-M18</latest>
-    <release>2.0.0-M18</release>
+    <latest>2.0.0-M19</latest>
+    <release>2.0.0-M19</release>
     <versions>
       <version>1.0-alpha-9</version>
       <version>1.0-alpha-10</version>
@@ -46,7 +46,8 @@
       <version>2.0.0-M13</version>
       <version>2.0.0-M16</version>
       <version>2.0.0-M18</version>
+      <version>2.0.0-M19</version>
     </versions>
-    <lastUpdated>20240426142438</lastUpdated>
+    <lastUpdated>20240525091215</lastUpdated>
   </versioning>
 </metadata>

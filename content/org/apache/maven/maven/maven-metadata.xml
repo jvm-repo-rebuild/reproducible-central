@@ -79,6 +79,7 @@
       <version>3.9.4</version>
       <version>3.9.5</version>
       <version>3.9.6</version>
+      <version>3.9.7</version>
       <version>4.0.0-alpha-2</version>
       <version>4.0.0-alpha-3</version>
       <version>4.0.0-alpha-4</version>
@@ -90,6 +91,6 @@
       <version>4.0.0-alpha-12</version>
       <version>4.0.0-alpha-13</version>
     </versions>
-    <lastUpdated>20240310140536</lastUpdated>
+    <lastUpdated>20240525095909</lastUpdated>
   </versioning>
 </metadata>

@@ -24,6 +24,7 @@ rebuilding **17 releases** of org.apache.maven.doxia:doxia-sitetools:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0-M19](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-sitetools/2.0.0-M19/pom) | | | |
 | [2.0.0-M18](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-sitetools/2.0.0-M18/pom) | [mvn jdk8 w](doxia-sitetools-2.0.0-M18.buildspec) | [result](doxia-sitetools-2.0.0-M18.buildinfo): [25 :white_check_mark: ](doxia-sitetools-2.0.0-M18.buildcompare) | 1.4M |
 | [2.0.0-M16](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-sitetools/2.0.0-M16/pom) | [mvn jdk8 w](doxia-sitetools-2.0.0-M16.buildspec) | [result](doxia-sitetools-2.0.0-M16.buildinfo): [25 :white_check_mark: ](doxia-sitetools-2.0.0-M16.buildcompare) | 1.4M |
 | [2.0.0-M13](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-sitetools/2.0.0-M13/pom) | [mvn jdk8 w](doxia-sitetools-2.0.0-M13.buildspec) | [result](doxia-sitetools-2.0.0-M13.buildinfo): [25 :white_check_mark: ](doxia-sitetools-2.0.0-M13.buildcompare) | 1.4M |
