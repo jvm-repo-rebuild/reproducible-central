@@ -1,0 +1,31 @@
+1 / 2 target/reference/io.trino/trino-server-446.jar core/trino-server/target/trino-server-446.jar
+--- target/reference/io.trino/trino-server-446.jar
++++ core/trino-server/target/trino-server-446.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1104 bytes, number of entries: 6
+│ +Zip file size: 1105 bytes, number of entries: 6
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 08:00 META-INF/
+│ --rw----     2.0 fat      286 bl defN 80-Jan-01 08:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      287 bl defN 80-Jan-01 08:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 08:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 08:00 META-INF/maven/io.trino/
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 08:00 META-INF/maven/io.trino/trino-server/
+│  -rw----     2.0 fat       53 bl defN 80-Jan-01 08:00 META-INF/maven/io.trino/trino-server/pom.properties
+│ -6 files, 339 bytes uncompressed, 218 bytes compressed:  35.7%
+│ +6 files, 340 bytes uncompressed, 219 bytes compressed:  35.6%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Archiver-Version: Provisio Archiver
+│  Created-By: Takari Inc.
+│ -Built-By: root
+│ +Built-By: herve
+│  Build-Jdk: 21.0.1
+│  Specification-Title: trino-server
+│  Specification-Version: 446
+│  Implementation-Title: trino-server
+│  Implementation-Version: 446
+│  Implementation-Vendor-Id: io.trino
+
+2 / 2 target/reference/io.trino/trino-server-rpm-446.rpm core/trino-server-rpm/target/trino-server-rpm-446.noarch.rpm
