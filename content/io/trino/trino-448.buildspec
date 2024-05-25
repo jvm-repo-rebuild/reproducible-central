@@ -1,0 +1,19 @@
+groupId=io.trino
+artifactId=trino-root
+display=${groupId}:${artifactId}
+version=448
+
+gitRepo=https://github.com/trinodb/trino.git
+gitTag=${version}
+
+tool=mvn
+jdk=22
+newline=lf
+timezone="Etc/UTC"
+umask=022
+
+command="mvn -Duser.timezone=${timezone} -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/trinodb/trino/pull/22135
