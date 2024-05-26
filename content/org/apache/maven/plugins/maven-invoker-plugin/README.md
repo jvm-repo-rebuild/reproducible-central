@@ -7,12 +7,13 @@
 
 Source code: [https://github.com/apache/maven-invoker-plugin.git](https://github.com/apache/maven-invoker-plugin.git)
 
-rebuilding **7 releases** of org.apache.maven.plugins:maven-invoker-plugin:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of org.apache.maven.plugins:maven-invoker-plugin:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.7.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-invoker-plugin/3.7.0/pom) | [mvn jdk21](maven-invoker-plugin-3.7.0.buildspec) | [result](maven-invoker-plugin-3.7.0.buildinfo): [6 :white_check_mark: ](maven-invoker-plugin-3.7.0.buildcompare) | 1.3M |
 | [3.6.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-invoker-plugin/3.6.1/pom) | [mvn jdk11](maven-invoker-plugin-3.6.1.buildspec) | [result](maven-invoker-plugin-3.6.1.buildinfo): [6 :white_check_mark: ](maven-invoker-plugin-3.6.1.buildcompare) | 1.3M |
 | [3.6.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-invoker-plugin/3.6.0/pom) | [mvn jdk8 w](maven-invoker-plugin-3.6.0.buildspec) | [result](maven-invoker-plugin-3.6.0.buildinfo): [4 :white_check_mark: ](maven-invoker-plugin-3.6.0.buildcompare) | 927K |
 | [3.5.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-invoker-plugin/3.5.1/pom) | [mvn jdk17](maven-invoker-plugin-3.5.1.buildspec) | [result](maven-invoker-plugin-3.5.1.buildinfo): [4 :white_check_mark: ](maven-invoker-plugin-3.5.1.buildcompare) | 916K |

@@ -38,10 +38,11 @@
       <version>2.4.10</version>
       <version>2.4.11</version>
       <version>2.4.12</version>
+      <version>2.4.13</version>
       <version>3.0.0-alpha-1</version>
       <version>3.0.0-alpha-2</version>
       <version>3.0.0-alpha-3</version>
     </versions>
-    <lastUpdated>20240429102440</lastUpdated>
+    <lastUpdated>20240526202754</lastUpdated>
   </versioning>
 </metadata>
