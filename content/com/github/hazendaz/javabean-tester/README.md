@@ -13,6 +13,7 @@ rebuilding **11 releases** of com.github.hazendaz:javabean-tester:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.8.1](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.8.1/pom) | | | |
 | [2.8.0](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.8.0/pom) | [mvn jdk21 w](javabean-tester-2.8.0.buildspec) | [result](javabean-tester-2.8.0.buildinfo): [5 :white_check_mark: ](javabean-tester-2.8.0.buildcompare) | 189K |
 | [2.7.0](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.7.0/pom) | [mvn jdk21 w](javabean-tester-2.7.0.buildspec) | [result](javabean-tester-2.7.0.buildinfo): [5 :white_check_mark: ](javabean-tester-2.7.0.buildcompare) | 188K |
 | [2.6.3](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.6.3/pom) | [mvn jdk21 w](javabean-tester-2.6.3.buildspec) | [result](javabean-tester-2.6.3.buildinfo): [5 :white_check_mark: ](javabean-tester-2.6.3.buildcompare) | 187K |
