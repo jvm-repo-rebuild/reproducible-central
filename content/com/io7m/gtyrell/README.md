@@ -24,6 +24,7 @@ rebuilding **4 releases** of com.io7m.gtyrell:com.io7m.gtyrell:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.0](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell/4.0.0/pom) | | | |
 | [3.2.0](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell/3.2.0/pom) | [mvn jdk17.0.7](com.io7m.gtyrell-3.2.0.buildspec) | [result](com.io7m.gtyrell-3.2.0.buildinfo): [26 :white_check_mark: ](com.io7m.gtyrell-3.2.0.buildcompare) | 6.1M |
 | [3.1.0](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell/3.1.0/pom) | [mvn jdk17.0.7](com.io7m.gtyrell-3.1.0.buildspec) | [result](com.io7m.gtyrell-3.1.0.buildinfo): [26 :white_check_mark: ](com.io7m.gtyrell-3.1.0.buildcompare) | 6.1M |
 | [3.0.0](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell/3.0.0/pom) | [mvn jdk17.0.7](com.io7m.gtyrell-3.0.0.buildspec) | [result](com.io7m.gtyrell-3.0.0.buildinfo): [22 :white_check_mark: ](com.io7m.gtyrell-3.0.0.buildcompare) | 5.7M |
