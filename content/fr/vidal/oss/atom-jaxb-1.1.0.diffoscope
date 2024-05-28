@@ -1,0 +1,317 @@
+1 / 1 target/reference/fr.vidal.oss/atom-jaxb-1.1.0-tests.jar target/atom-jaxb-1.1.0-tests.jar
+--- target/reference/fr.vidal.oss/atom-jaxb-1.1.0-tests.jar
++++ target/atom-jaxb-1.1.0-tests.jar
+├── zipinfo {}
+│ @@ -1,23 +1,23 @@
+│ -Zip file size: 76263 bytes, number of entries: 94
+│ +Zip file size: 73331 bytes, number of entries: 90
+│  -rw-r--r--  2.0 unx       82 b- defN 24-May-28 08:11 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-May-28 08:11 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-May-28 08:11 fr/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-May-28 08:11 fr/vidal/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-May-28 08:11 fr/vidal/oss/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-May-28 08:11 fr/vidal/oss/jaxb/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-May-28 08:11 fr/vidal/oss/jaxb/atom/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-May-28 08:11 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-May-28 08:11 META-INF/maven/fr.vidal.oss/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-May-28 08:11 META-INF/maven/fr.vidal.oss/atom-jaxb/
+│ --rw-r--r--  2.0 unx    14127 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/Assertions.class
+│ --rw-r--r--  2.0 unx    14130 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/BddAssertions.class
+│ --rw-r--r--  2.0 unx    13140 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/JUnitSoftAssertions.class
+│ --rw-r--r--  2.0 unx    13120 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/SoftAssertions.class
+│ +-rw-r--r--  2.0 unx    13358 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/Assertions.class
+│ +-rw-r--r--  2.0 unx    13361 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/BddAssertions.class
+│ +-rw-r--r--  2.0 unx    12367 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/JUnitSoftAssertions.class
+│ +-rw-r--r--  2.0 unx    12347 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/SoftAssertions.class
+│  -rw-r--r--  2.0 unx     1061 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractAtomExtensionExceptionAssert.class
+│  -rw-r--r--  2.0 unx      949 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractAtomJaxbAssert.class
+│  -rw-r--r--  2.0 unx     2814 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractAttributeAssert.class
+│  -rw-r--r--  2.0 unx     1151 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractAttributeBuilderAssert.class
+│  -rw-r--r--  2.0 unx     2166 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractAuthorAssert.class
+│  -rw-r--r--  2.0 unx     1121 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractAuthorBuilderAssert.class
+│  -rw-r--r--  2.0 unx     2191 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractCategoryAssert.class
+│ @@ -28,17 +28,15 @@
+│  -rw-r--r--  2.0 unx     1141 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractContentsBuilderAssert.class
+│  -rw-r--r--  2.0 unx     2216 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractContributorAssert.class
+│  -rw-r--r--  2.0 unx     1171 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractContributorBuilderAssert.class
+│  -rw-r--r--  2.0 unx      973 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractDateAdapterAssert.class
+│  -rw-r--r--  2.0 unx    13317 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractEntryAssert.class
+│  -rw-r--r--  2.0 unx     1111 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractEntryBuilderAssert.class
+│  -rw-r--r--  2.0 unx     1069 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractExtensionElementAdapterAssert.class
+│ --rw-r--r--  2.0 unx     1101 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractExtensionElementAdapterTestAssert.class
+│  -rw-r--r--  2.0 unx     1013 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractExtensionElementAssert.class
+│ --rw-r--r--  2.0 unx     1045 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractExtensionElementTestAssert.class
+│  -rw-r--r--  2.0 unx     1021 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractExtensionElementsAssert.class
+│  -rw-r--r--  2.0 unx    11488 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractFeedAssert.class
+│  -rw-r--r--  2.0 unx     1101 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractFeedBuilderAssert.class
+│  -rw-r--r--  2.0 unx     3039 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractLinkAssert.class
+│  -rw-r--r--  2.0 unx     1101 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractLinkBuilderAssert.class
+│  -rw-r--r--  2.0 unx      953 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractLinkRelAssert.class
+│  -rw-r--r--  2.0 unx      957 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/AbstractNamespaceAssert.class
+│ @@ -66,18 +64,16 @@
+│  -rw-r--r--  2.0 unx      978 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/ContributorAssert.class
+│  -rw-r--r--  2.0 unx     1206 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/ContributorBuilderAssert.class
+│  -rw-r--r--  2.0 unx      978 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/DateAdapterAssert.class
+│  -rw-r--r--  2.0 unx      906 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/EntryAssert.class
+│  -rw-r--r--  2.0 unx     1122 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/EntryBuilderAssert.class
+│  -rw-r--r--  2.0 unx     1122 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/ExtensionElementAdapterAssert.class
+│  -rw-r--r--  2.0 unx     8486 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/ExtensionElementAdapterTest.class
+│ --rw-r--r--  2.0 unx     1170 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/ExtensionElementAdapterTestAssert.class
+│  -rw-r--r--  2.0 unx     1038 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/ExtensionElementAssert.class
+│  -rw-r--r--  2.0 unx     7671 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/ExtensionElementTest.class
+│ --rw-r--r--  2.0 unx     1086 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/ExtensionElementTestAssert.class
+│  -rw-r--r--  2.0 unx     1050 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/ExtensionElementsAssert.class
+│  -rw-r--r--  2.0 unx      894 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/FeedAssert.class
+│  -rw-r--r--  2.0 unx     1108 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/FeedBuilderAssert.class
+│  -rw-r--r--  2.0 unx      894 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/LinkAssert.class
+│  -rw-r--r--  2.0 unx     1108 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/LinkBuilderAssert.class
+│  -rw-r--r--  2.0 unx      930 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/LinkRelAssert.class
+│  -rw-r--r--  2.0 unx      954 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/NamespaceAssert.class
+│ @@ -89,8 +85,8 @@
+│  -rw-r--r--  2.0 unx     1234 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/SimpleElementBuilderAssert.class
+│  -rw-r--r--  2.0 unx     1050 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/StructuredElementAssert.class
+│  -rw-r--r--  2.0 unx     1290 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/StructuredElementBuilderAssert.class
+│  -rw-r--r--  2.0 unx      930 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/SummaryAssert.class
+│  -rw-r--r--  2.0 unx     1150 b- defN 24-May-28 08:11 fr/vidal/oss/jaxb/atom/core/SummaryBuilderAssert.class
+│  -rw-r--r--  2.0 unx    10753 b- defN 24-May-28 08:11 META-INF/maven/fr.vidal.oss/atom-jaxb/pom.xml
+│  -rw-r--r--  2.0 unx       56 b- defN 24-May-28 08:11 META-INF/maven/fr.vidal.oss/atom-jaxb/pom.properties
+│ -94 files, 197189 bytes uncompressed, 59365 bytes compressed:  69.9%
+│ +90 files, 189703 bytes uncompressed, 57277 bytes compressed:  69.8%
+├── zipnote «TEMP»/diffoscope_6yap03za_target/tmp3i2_ccs3_.zip
+│ @@ -93,23 +93,17 @@
+│  
+│  Filename: fr/vidal/oss/jaxb/atom/core/AbstractEntryBuilderAssert.class
+│  Comment: 
+│  
+│  Filename: fr/vidal/oss/jaxb/atom/core/AbstractExtensionElementAdapterAssert.class
+│  Comment: 
+│  
+│ -Filename: fr/vidal/oss/jaxb/atom/core/AbstractExtensionElementAdapterTestAssert.class
+│ -Comment: 
+│ -
+│  Filename: fr/vidal/oss/jaxb/atom/core/AbstractExtensionElementAssert.class
+│  Comment: 
+│  
+│ -Filename: fr/vidal/oss/jaxb/atom/core/AbstractExtensionElementTestAssert.class
+│ -Comment: 
+│ -
+│  Filename: fr/vidal/oss/jaxb/atom/core/AbstractExtensionElementsAssert.class
+│  Comment: 
+│  
+│  Filename: fr/vidal/oss/jaxb/atom/core/AbstractFeedAssert.class
+│  Comment: 
+│  
+│  Filename: fr/vidal/oss/jaxb/atom/core/AbstractFeedBuilderAssert.class
+│ @@ -207,26 +201,20 @@
+│  
+│  Filename: fr/vidal/oss/jaxb/atom/core/ExtensionElementAdapterAssert.class
+│  Comment: 
+│  
+│  Filename: fr/vidal/oss/jaxb/atom/core/ExtensionElementAdapterTest.class
+│  Comment: 
+│  
+│ -Filename: fr/vidal/oss/jaxb/atom/core/ExtensionElementAdapterTestAssert.class
+│ -Comment: 
+│ -
+│  Filename: fr/vidal/oss/jaxb/atom/core/ExtensionElementAssert.class
+│  Comment: 
+│  
+│  Filename: fr/vidal/oss/jaxb/atom/core/ExtensionElementTest.class
+│  Comment: 
+│  
+│ -Filename: fr/vidal/oss/jaxb/atom/core/ExtensionElementTestAssert.class
+│ -Comment: 
+│ -
+│  Filename: fr/vidal/oss/jaxb/atom/core/ExtensionElementsAssert.class
+│  Comment: 
+│  
+│  Filename: fr/vidal/oss/jaxb/atom/core/FeedAssert.class
+│  Comment: 
+│  
+│  Filename: fr/vidal/oss/jaxb/atom/core/FeedBuilderAssert.class
+├── fr/vidal/oss/jaxb/atom/Assertions.class
+│ ├── procyon -ec {}
+│ │ @@ -23,18 +23,14 @@
+│ │  import fr.vidal.oss.jaxb.atom.core.LinkAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.Link;
+│ │  import fr.vidal.oss.jaxb.atom.core.FeedBuilderAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.FeedAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.Feed;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElementsAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElements;
+│ │ -import fr.vidal.oss.jaxb.atom.core.ExtensionElementTestAssert;
+│ │ -import fr.vidal.oss.jaxb.atom.core.ExtensionElementTest;
+│ │ -import fr.vidal.oss.jaxb.atom.core.ExtensionElementAdapterTestAssert;
+│ │ -import fr.vidal.oss.jaxb.atom.core.ExtensionElementAdapterTest;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElementAdapterAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElementAdapter;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElementAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElement;
+│ │  import fr.vidal.oss.jaxb.atom.core.EntryBuilderAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.EntryAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.Entry;
+│ │ @@ -158,24 +154,14 @@
+│ │      
+│ │      @CheckReturnValue
+│ │      public static ExtensionElementAdapterAssert assertThat(final ExtensionElementAdapter actual) {
+│ │          return new ExtensionElementAdapterAssert(actual);
+│ │      }
+│ │      
+│ │      @CheckReturnValue
+│ │ -    public static ExtensionElementAdapterTestAssert assertThat(final ExtensionElementAdapterTest actual) {
+│ │ -        return new ExtensionElementAdapterTestAssert(actual);
+│ │ -    }
+│ │ -    
+│ │ -    @CheckReturnValue
+│ │ -    public static ExtensionElementTestAssert assertThat(final ExtensionElementTest actual) {
+│ │ -        return new ExtensionElementTestAssert(actual);
+│ │ -    }
+│ │ -    
+│ │ -    @CheckReturnValue
+│ │      public static ExtensionElementsAssert assertThat(final ExtensionElements actual) {
+│ │          return new ExtensionElementsAssert(actual);
+│ │      }
+│ │      
+│ │      @CheckReturnValue
+│ │      public static FeedAssert assertThat(final Feed actual) {
+│ │          return new FeedAssert(actual);
+├── fr/vidal/oss/jaxb/atom/BddAssertions.class
+│ ├── procyon -ec {}
+│ │ @@ -23,18 +23,14 @@
+│ │  import fr.vidal.oss.jaxb.atom.core.LinkAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.Link;
+│ │  import fr.vidal.oss.jaxb.atom.core.FeedBuilderAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.FeedAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.Feed;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElementsAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElements;
+│ │ -import fr.vidal.oss.jaxb.atom.core.ExtensionElementTestAssert;
+│ │ -import fr.vidal.oss.jaxb.atom.core.ExtensionElementTest;
+│ │ -import fr.vidal.oss.jaxb.atom.core.ExtensionElementAdapterTestAssert;
+│ │ -import fr.vidal.oss.jaxb.atom.core.ExtensionElementAdapterTest;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElementAdapterAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElementAdapter;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElementAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElement;
+│ │  import fr.vidal.oss.jaxb.atom.core.EntryBuilderAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.EntryAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.Entry;
+│ │ @@ -158,24 +154,14 @@
+│ │      
+│ │      @CheckReturnValue
+│ │      public static ExtensionElementAdapterAssert then(final ExtensionElementAdapter actual) {
+│ │          return new ExtensionElementAdapterAssert(actual);
+│ │      }
+│ │      
+│ │      @CheckReturnValue
+│ │ -    public static ExtensionElementAdapterTestAssert then(final ExtensionElementAdapterTest actual) {
+│ │ -        return new ExtensionElementAdapterTestAssert(actual);
+│ │ -    }
+│ │ -    
+│ │ -    @CheckReturnValue
+│ │ -    public static ExtensionElementTestAssert then(final ExtensionElementTest actual) {
+│ │ -        return new ExtensionElementTestAssert(actual);
+│ │ -    }
+│ │ -    
+│ │ -    @CheckReturnValue
+│ │      public static ExtensionElementsAssert then(final ExtensionElements actual) {
+│ │          return new ExtensionElementsAssert(actual);
+│ │      }
+│ │      
+│ │      @CheckReturnValue
+│ │      public static FeedAssert then(final Feed actual) {
+│ │          return new FeedAssert(actual);
+├── fr/vidal/oss/jaxb/atom/JUnitSoftAssertions.class
+│ ├── procyon -ec {}
+│ │ @@ -23,18 +23,14 @@
+│ │  import fr.vidal.oss.jaxb.atom.core.LinkAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.Link;
+│ │  import fr.vidal.oss.jaxb.atom.core.FeedBuilderAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.FeedAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.Feed;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElementsAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElements;
+│ │ -import fr.vidal.oss.jaxb.atom.core.ExtensionElementTestAssert;
+│ │ -import fr.vidal.oss.jaxb.atom.core.ExtensionElementTest;
+│ │ -import fr.vidal.oss.jaxb.atom.core.ExtensionElementAdapterTestAssert;
+│ │ -import fr.vidal.oss.jaxb.atom.core.ExtensionElementAdapterTest;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElementAdapterAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElementAdapter;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElementAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElement;
+│ │  import fr.vidal.oss.jaxb.atom.core.EntryBuilderAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.EntryAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.Entry;
+│ │ @@ -158,24 +154,14 @@
+│ │      
+│ │      @CheckReturnValue
+│ │      public ExtensionElementAdapterAssert assertThat(final ExtensionElementAdapter actual) {
+│ │          return (ExtensionElementAdapterAssert)this.proxy((Class)ExtensionElementAdapterAssert.class, (Class)ExtensionElementAdapter.class, (Object)actual);
+│ │      }
+│ │      
+│ │      @CheckReturnValue
+│ │ -    public ExtensionElementAdapterTestAssert assertThat(final ExtensionElementAdapterTest actual) {
+│ │ -        return (ExtensionElementAdapterTestAssert)this.proxy((Class)ExtensionElementAdapterTestAssert.class, (Class)ExtensionElementAdapterTest.class, (Object)actual);
+│ │ -    }
+│ │ -    
+│ │ -    @CheckReturnValue
+│ │ -    public ExtensionElementTestAssert assertThat(final ExtensionElementTest actual) {
+│ │ -        return (ExtensionElementTestAssert)this.proxy((Class)ExtensionElementTestAssert.class, (Class)ExtensionElementTest.class, (Object)actual);
+│ │ -    }
+│ │ -    
+│ │ -    @CheckReturnValue
+│ │      public ExtensionElementsAssert assertThat(final ExtensionElements actual) {
+│ │          return (ExtensionElementsAssert)this.proxy((Class)ExtensionElementsAssert.class, (Class)ExtensionElements.class, (Object)actual);
+│ │      }
+│ │      
+│ │      @CheckReturnValue
+│ │      public FeedAssert assertThat(final Feed actual) {
+│ │          return (FeedAssert)this.proxy((Class)FeedAssert.class, (Class)Feed.class, (Object)actual);
+├── fr/vidal/oss/jaxb/atom/SoftAssertions.class
+│ ├── procyon -ec {}
+│ │ @@ -23,18 +23,14 @@
+│ │  import fr.vidal.oss.jaxb.atom.core.LinkAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.Link;
+│ │  import fr.vidal.oss.jaxb.atom.core.FeedBuilderAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.FeedAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.Feed;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElementsAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElements;
+│ │ -import fr.vidal.oss.jaxb.atom.core.ExtensionElementTestAssert;
+│ │ -import fr.vidal.oss.jaxb.atom.core.ExtensionElementTest;
+│ │ -import fr.vidal.oss.jaxb.atom.core.ExtensionElementAdapterTestAssert;
+│ │ -import fr.vidal.oss.jaxb.atom.core.ExtensionElementAdapterTest;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElementAdapterAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElementAdapter;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElementAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.ExtensionElement;
+│ │  import fr.vidal.oss.jaxb.atom.core.EntryBuilderAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.EntryAssert;
+│ │  import fr.vidal.oss.jaxb.atom.core.Entry;
+│ │ @@ -158,24 +154,14 @@
+│ │      
+│ │      @CheckReturnValue
+│ │      public ExtensionElementAdapterAssert assertThat(final ExtensionElementAdapter actual) {
+│ │          return (ExtensionElementAdapterAssert)this.proxy((Class)ExtensionElementAdapterAssert.class, (Class)ExtensionElementAdapter.class, (Object)actual);
+│ │      }
+│ │      
+│ │      @CheckReturnValue
+│ │ -    public ExtensionElementAdapterTestAssert assertThat(final ExtensionElementAdapterTest actual) {
+│ │ -        return (ExtensionElementAdapterTestAssert)this.proxy((Class)ExtensionElementAdapterTestAssert.class, (Class)ExtensionElementAdapterTest.class, (Object)actual);
+│ │ -    }
+│ │ -    
+│ │ -    @CheckReturnValue
+│ │ -    public ExtensionElementTestAssert assertThat(final ExtensionElementTest actual) {
+│ │ -        return (ExtensionElementTestAssert)this.proxy((Class)ExtensionElementTestAssert.class, (Class)ExtensionElementTest.class, (Object)actual);
+│ │ -    }
+│ │ -    
+│ │ -    @CheckReturnValue
+│ │      public ExtensionElementsAssert assertThat(final ExtensionElements actual) {
+│ │          return (ExtensionElementsAssert)this.proxy((Class)ExtensionElementsAssert.class, (Class)ExtensionElements.class, (Object)actual);
+│ │      }
+│ │      
+│ │      @CheckReturnValue
+│ │      public FeedAssert assertThat(final Feed actual) {
+│ │          return (FeedAssert)this.proxy((Class)FeedAssert.class, (Class)Feed.class, (Object)actual);
+
