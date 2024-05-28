@@ -1,0 +1,148 @@
+1 / 4 central/dk/mada/jaxrs/generator-api/0.11.3/generator-api-0.11.3.module repository/dk/mada/jaxrs/generator-api/0.11.3/generator-api-0.11.3.module
+--- central/dk/mada/jaxrs/generator-api/0.11.3/generator-api-0.11.3.module
++++ repository/dk/mada/jaxrs/generator-api/0.11.3/generator-api-0.11.3.module
+├── Pretty-printed
+│┄ Similarity: 0.9981398809523809%
+│┄ Differences: {"'variants'": "{2: {'files': {0: {'size': 114405, 'sha512': "
+│┄                "'0f8dfa78b80f325164165a06244de0d63cb0eaa8e324413c325ec9ca564f05dc43cbc71bdad73f6722663b45afaadd3a36b4210ee1d8ac6ddb8cada63e62a6d4', "
+│┄                "'sha256': '70a7912fac41529092f179e9b61e3e62fa70163f4598d660ecf658b74b6bd01e', "
+│┄                "'sha1': 'afd4caa55ccd9daebef735be554b3f40bdb6f5cb', 'md5': "
+│┄                "'780d484445990acfa8c6fc01f5c24a8e'}}}}"}
+│ @@ -74,20 +74,20 @@
+│                  "org.gradle.category": "documentation",
+│                  "org.gradle.dependency.bundling": "external",
+│                  "org.gradle.docstype": "javadoc",
+│                  "org.gradle.usage": "java-runtime"
+│              },
+│              "files": [
+│                  {
+│ -                    "md5": "30c26e2954bd64a00d33464e3ebcf0a2",
+│ +                    "md5": "780d484445990acfa8c6fc01f5c24a8e",
+│                      "name": "generator-api-0.11.3-javadoc.jar",
+│ -                    "sha1": "ce134fee19f187161416b2908f51b79c7009ef6e",
+│ -                    "sha256": "9cc5947e3e0f5375f2b080473f43a98e44e9b029b948b8838a8fc6f00fcda2af",
+│ -                    "sha512": "4e584f3580ca3a8d1d6a65a898dca703d2b309bc815d68e57b6ac617f35d16502f9c2c009a4dc3861369a0bc74309d9dfc9de86f6e94d241e45ad619e7beb5a5",
+│ -                    "size": 114397,
+│ +                    "sha1": "afd4caa55ccd9daebef735be554b3f40bdb6f5cb",
+│ +                    "sha256": "70a7912fac41529092f179e9b61e3e62fa70163f4598d660ecf658b74b6bd01e",
+│ +                    "sha512": "0f8dfa78b80f325164165a06244de0d63cb0eaa8e324413c325ec9ca564f05dc43cbc71bdad73f6722663b45afaadd3a36b4210ee1d8ac6ddb8cada63e62a6d4",
+│ +                    "size": 114405,
+│                      "url": "generator-api-0.11.3-javadoc.jar"
+│                  }
+│              ],
+│              "name": "javadocElements"
+│          },
+│          {
+│              "attributes": {
+
+2 / 4 central/dk/mada/jaxrs/model/0.11.3/model-0.11.3.module repository/dk/mada/jaxrs/model/0.11.3/model-0.11.3.module
+--- central/dk/mada/jaxrs/model/0.11.3/model-0.11.3.module
++++ repository/dk/mada/jaxrs/model/0.11.3/model-0.11.3.module
+├── Pretty-printed
+│┄ Similarity: 0.9981398809523809%
+│┄ Differences: {"'variants'": "{2: {'files': {0: {'size': 293201, 'sha512': "
+│┄                "'77a5e128152a7824ec2ba289efeeb0cdd8c565fcc2386f8d07c092660c548e3f52c94dcf077504f13e3ad22edf5f49b737c93f39f91bdf8bbd020eecb2bae23d', "
+│┄                "'sha256': '0a68a53af1c4f411961aaef9d0e1158af26e24dbc1fc7de63ba1122181621b91', "
+│┄                "'sha1': 'e17b29dd09ed9c2ef134f74439c0cd9db9b4df5c', 'md5': "
+│┄                "'49d0a1ca616b131cc79be894ae5c823b'}}}}"}
+│ @@ -78,20 +78,20 @@
+│                  "org.gradle.category": "documentation",
+│                  "org.gradle.dependency.bundling": "external",
+│                  "org.gradle.docstype": "javadoc",
+│                  "org.gradle.usage": "java-runtime"
+│              },
+│              "files": [
+│                  {
+│ -                    "md5": "19ac6e753dbfdd5311ac1acf36ba7550",
+│ +                    "md5": "49d0a1ca616b131cc79be894ae5c823b",
+│                      "name": "model-0.11.3-javadoc.jar",
+│ -                    "sha1": "6ab6e3fec6ab5dc0f31c9ffec593e0cbed6ca860",
+│ -                    "sha256": "95ba5b35dd8201fe04b20b4c8f72f95cb1435df73d5d1914a79923234dd4672b",
+│ -                    "sha512": "39b9ce327380f63f60ce0a6df3e51b6495ac489bcd65a3b22e20adb80719e0cec849094cca075a01bdd29be92f1ab2406e7e9efd4d8308987c73fd8b15af881c",
+│ -                    "size": 293118,
+│ +                    "sha1": "e17b29dd09ed9c2ef134f74439c0cd9db9b4df5c",
+│ +                    "sha256": "0a68a53af1c4f411961aaef9d0e1158af26e24dbc1fc7de63ba1122181621b91",
+│ +                    "sha512": "77a5e128152a7824ec2ba289efeeb0cdd8c565fcc2386f8d07c092660c548e3f52c94dcf077504f13e3ad22edf5f49b737c93f39f91bdf8bbd020eecb2bae23d",
+│ +                    "size": 293201,
+│                      "url": "model-0.11.3-javadoc.jar"
+│                  }
+│              ],
+│              "name": "javadocElements"
+│          },
+│          {
+│              "attributes": {
+
+3 / 4 central/dk/mada/jaxrs/openapi-jaxrs-client/0.11.3/openapi-jaxrs-client-0.11.3.module repository/dk/mada/jaxrs/openapi-jaxrs-client/0.11.3/openapi-jaxrs-client-0.11.3.module
+--- central/dk/mada/jaxrs/openapi-jaxrs-client/0.11.3/openapi-jaxrs-client-0.11.3.module
++++ repository/dk/mada/jaxrs/openapi-jaxrs-client/0.11.3/openapi-jaxrs-client-0.11.3.module
+├── Pretty-printed
+│┄ Similarity: 0.9981398809523809%
+│┄ Differences: {"'variants'": "{2: {'files': {0: {'size': 328908, 'sha512': "
+│┄                "'178edd30eae9a09655e5726d276648c0e27f9e15eb41b287361eb18bc1e55599773252cd0e43799e57fcf4c206dc7925bc6e2a647ca4ca662a1c49915d2704a0', "
+│┄                "'sha256': 'b0f8a00411b78f2b585e0fe22b8bfd52ff2f9b19930d5814f7ff7fc97af64532', "
+│┄                "'sha1': '24c37fcb78873066c3e891e18c22601b950b570e', 'md5': "
+│┄                "'5a768e7b23f80e140be51b5611b7c69f'}}}}"}
+│ @@ -108,20 +108,20 @@
+│                  "org.gradle.category": "documentation",
+│                  "org.gradle.dependency.bundling": "external",
+│                  "org.gradle.docstype": "javadoc",
+│                  "org.gradle.usage": "java-runtime"
+│              },
+│              "files": [
+│                  {
+│ -                    "md5": "3e2ab4e3ec48e1e06f9d1eea0d159e9b",
+│ +                    "md5": "5a768e7b23f80e140be51b5611b7c69f",
+│                      "name": "openapi-jaxrs-client-0.11.3-javadoc.jar",
+│ -                    "sha1": "be496f98606d7d3f9ea166f1cf704a0a40747bf0",
+│ -                    "sha256": "639a4500493ca4df4b29302cc6e22cbe0b7ecaa879b7bfc50d69a9efc55b3706",
+│ -                    "sha512": "bd4d406bd7861de43549852452505323aabe13af1585b2d3171e1020556f694e2672bff823657409014e994065907f69beaab928d34363c8891a09ff7f7bfa96",
+│ -                    "size": 328814,
+│ +                    "sha1": "24c37fcb78873066c3e891e18c22601b950b570e",
+│ +                    "sha256": "b0f8a00411b78f2b585e0fe22b8bfd52ff2f9b19930d5814f7ff7fc97af64532",
+│ +                    "sha512": "178edd30eae9a09655e5726d276648c0e27f9e15eb41b287361eb18bc1e55599773252cd0e43799e57fcf4c206dc7925bc6e2a647ca4ca662a1c49915d2704a0",
+│ +                    "size": 328908,
+│                      "url": "openapi-jaxrs-client-0.11.3-javadoc.jar"
+│                  }
+│              ],
+│              "name": "javadocElements"
+│          },
+│          {
+│              "attributes": {
+
+4 / 4 central/dk/mada/jaxrs/parser/0.11.3/parser-0.11.3.module repository/dk/mada/jaxrs/parser/0.11.3/parser-0.11.3.module
+--- central/dk/mada/jaxrs/parser/0.11.3/parser-0.11.3.module
++++ repository/dk/mada/jaxrs/parser/0.11.3/parser-0.11.3.module
+├── Pretty-printed
+│┄ Similarity: 0.9981398809523809%
+│┄ Differences: {"'variants'": "{2: {'files': {0: {'size': 149066, 'sha512': "
+│┄                "'ccc6df6b17007a759caf6d5c805631417bfb2ee47a2cbd2da2a8ea85a44e7593c3a19401ad2ade936366d6067072ff9b003d0e2473e259262a8c5b6ee0ab778c', "
+│┄                "'sha256': '7a08b795cde56ae91a162a1c87730a7a22128a0192a970cea9e8062cb2ac8d1f', "
+│┄                "'sha1': '37c2dd4e78f095c7edf436d48d6a1d7b42e16812', 'md5': "
+│┄                "'162b9f182f422e6169dd55131503c788'}}}}"}
+│ @@ -106,20 +106,20 @@
+│                  "org.gradle.category": "documentation",
+│                  "org.gradle.dependency.bundling": "external",
+│                  "org.gradle.docstype": "javadoc",
+│                  "org.gradle.usage": "java-runtime"
+│              },
+│              "files": [
+│                  {
+│ -                    "md5": "1696108414b8d4e25429191bbdbce622",
+│ +                    "md5": "162b9f182f422e6169dd55131503c788",
+│                      "name": "parser-0.11.3-javadoc.jar",
+│ -                    "sha1": "2f115479710c0a351242d714306edebd3e3300f2",
+│ -                    "sha256": "a89f3b8a7172b4983d3717875c00c295f9309ecc5e34e67df84a99413b3ff285",
+│ -                    "sha512": "1dd98e54a9c7ba51f2a7f5438dba5167c8ed104a13b39b18c425984a60a77a118fdb1a1fcde2ca0407f97ffad325d8585ab1c6a5e42ec7968d013496afa29f69",
+│ -                    "size": 149026,
+│ +                    "sha1": "37c2dd4e78f095c7edf436d48d6a1d7b42e16812",
+│ +                    "sha256": "7a08b795cde56ae91a162a1c87730a7a22128a0192a970cea9e8062cb2ac8d1f",
+│ +                    "sha512": "ccc6df6b17007a759caf6d5c805631417bfb2ee47a2cbd2da2a8ea85a44e7593c3a19401ad2ade936366d6067072ff9b003d0e2473e259262a8c5b6ee0ab778c",
+│ +                    "size": 149066,
+│                      "url": "parser-0.11.3-javadoc.jar"
+│                  }
+│              ],
+│              "name": "javadocElements"
+│          },
+│          {
+│              "attributes": {
+
