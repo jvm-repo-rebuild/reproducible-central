@@ -13,6 +13,7 @@ rebuilding **8 releases** of org.simplify4u.plugins:pgpverify-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.18.0](https://central.sonatype.com/artifact/org.simplify4u.plugins/pgpverify-maven-plugin/1.18.0/pom) | | | |
 | [1.17.0](https://central.sonatype.com/artifact/org.simplify4u.plugins/pgpverify-maven-plugin/1.17.0/pom) | [mvn jdk8](pgpverify-maven-plugin-1.17.0.buildspec) | [result](pgpverify-maven-plugin-1.17.0.buildinfo): [3 :white_check_mark: ](pgpverify-maven-plugin-1.17.0.buildcompare) | 261K |
 | [1.16.0](https://central.sonatype.com/artifact/org.simplify4u.plugins/pgpverify-maven-plugin/1.16.0/pom) | [mvn jdk8](pgpverify-maven-plugin-1.16.0.buildspec) | [result](pgpverify-maven-plugin-1.16.0.buildinfo): [3 :white_check_mark: ](pgpverify-maven-plugin-1.16.0.buildcompare) | 261K |
 | [1.15.0](https://central.sonatype.com/artifact/org.simplify4u.plugins/pgpverify-maven-plugin/1.15.0/pom) | [mvn jdk8](pgpverify-maven-plugin-1.15.0.buildspec) | [result](pgpverify-maven-plugin-1.15.0.buildinfo): [3 :white_check_mark: ](pgpverify-maven-plugin-1.15.0.buildcompare) | 260K |
