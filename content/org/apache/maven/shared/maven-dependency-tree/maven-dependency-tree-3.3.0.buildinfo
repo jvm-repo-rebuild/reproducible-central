@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Dependency Tree
+group-id=org.apache.maven.shared
+artifact-id=maven-dependency-tree
+version=3.3.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-dependency-tree.git
+source.scm.tag=maven-dependency-tree-3.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.maven.shared
+outputs.0.filename=maven-dependency-tree-3.3.0.pom
+outputs.0.length=6989
+outputs.0.checksums.sha512=6b4a5fba6ae0a05d55d906578c750a43e7bbfd529d4c843e3cac436ef36117f0b917402ae51ee6e7a3e86c012db42dd9379fe52049963247c19d1e9a6dbe5286
+
+outputs.1.groupId=org.apache.maven.shared
+outputs.1.filename=maven-dependency-tree-3.3.0.jar
+outputs.1.length=42883
+outputs.1.checksums.sha512=d1b73d574b09e004f46e4a436b58b4416ae45458199ab553bf44e9f0d1779b18e0ff2a9a8f42cdf71a621b1d5d4a93e0208de9369579a3a172bbba9ea51cb19b
+
+outputs.2.groupId=org.apache.maven.shared
+outputs.2.filename=maven-dependency-tree-3.3.0-source-release.zip
+outputs.2.length=110727
+outputs.2.checksums.sha512=b9e8c3cda43a0ad54ea80795cc265c49f4196fe23c0494a1abacb37ac424209c171b0c64da141302d4cf579a83ba92053ca00b5b6092817cd499abfe6c83cbb1
+
+outputs.3.groupId=org.apache.maven.shared
+outputs.3.filename=maven-dependency-tree-3.3.0-sources.jar
+outputs.3.length=40959
+outputs.3.checksums.sha512=851655e6e8f6dbe59f665c62604a9843b61726ec38fadec1238a9503dac701b16c1360693aab58f124095071b029072e4bd0c0a772035e8e2163df7bb1dea2bb
+
+outputs.4.groupId=org.apache.maven.shared
+outputs.4.filename=maven-dependency-tree-3.3.0-cyclonedx.xml
+outputs.4.length=80607
+outputs.4.checksums.sha512=5073e8212fa57e0cdcae325615164fd1f3570e63c46e518e51a80a405b16ab20c3e68a1d65017634d296e834b15839c11a5b033b074464b0bc40876e19a37754
+
+outputs.5.groupId=org.apache.maven.shared
+outputs.5.filename=maven-dependency-tree-3.3.0-cyclonedx.json
+outputs.5.length=93250
+outputs.5.checksums.sha512=f65c6761d32672c6a737f793e359b4e388fa648a6bbb729aa0c05a055e36d513b0f47998c3899a696808ef33b469bd3239db12e850712ca071bacca03cc294fc
