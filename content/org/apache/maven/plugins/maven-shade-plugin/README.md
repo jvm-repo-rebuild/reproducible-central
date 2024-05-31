@@ -13,6 +13,7 @@ rebuilding **10 releases** of org.apache.maven.plugins:maven-shade-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.6.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-shade-plugin/3.6.0/pom) | | | |
 | [3.5.3](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-shade-plugin/3.5.3/pom) | [mvn jdk17](maven-shade-plugin-3.5.3.buildspec) | [result](maven-shade-plugin-3.5.3.buildinfo): [6 :white_check_mark: ](maven-shade-plugin-3.5.3.buildcompare) | 1.4M |
 | [3.5.2](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-shade-plugin/3.5.2/pom) | [mvn jdk11](maven-shade-plugin-3.5.2.buildspec) | [result](maven-shade-plugin-3.5.2.buildinfo): [6 :white_check_mark: ](maven-shade-plugin-3.5.2.buildcompare) | 1.4M |
 | [3.5.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-shade-plugin/3.5.1/pom) | [mvn jdk17](maven-shade-plugin-3.5.1.buildspec) | [result](maven-shade-plugin-3.5.1.buildinfo): [6 :white_check_mark: ](maven-shade-plugin-3.5.1.buildcompare) | 1.4M |

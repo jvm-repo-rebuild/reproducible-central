@@ -9,20 +9,20 @@ Source code: [https://github.com/apache/maven-enforcer.git](https://github.com/a
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [org.apache.maven.enforcer:enforcer](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer/3.4.1)
-* [org.apache.maven.enforcer:enforcer-api](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer-api/3.4.1)
-* [org.apache.maven.enforcer:enforcer-rules](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer-rules/3.4.1)
-* [org.apache.maven.extensions:maven-enforcer-extension](https://central.sonatype.com/artifact/org.apache.maven.extensions/maven-enforcer-extension/3.4.1)
-* [org.apache.maven.plugins:maven-enforcer-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-enforcer-plugin/3.4.1)
+* [org.apache.maven.enforcer:enforcer](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer/3.5.0)
+* [org.apache.maven.enforcer:enforcer-api](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer-api/3.5.0)
+* [org.apache.maven.enforcer:enforcer-rules](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer-rules/3.5.0)
+* [org.apache.maven.extensions:maven-enforcer-extension](https://central.sonatype.com/artifact/org.apache.maven.extensions/maven-enforcer-extension/3.5.0)
+* [org.apache.maven.plugins:maven-enforcer-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-enforcer-plugin/3.5.0)
 </details>
 
-rebuilding **6 releases** of org.apache.maven.enforcer:enforcer:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of org.apache.maven.enforcer:enforcer:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.5.0](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer/3.5.0/pom) | | | |
+| [3.5.0](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer/3.5.0/pom) | [mvn jdk21](maven-enforcer-plugin-3.5.0.buildspec) | [result](enforcer-3.5.0.buildinfo): [24 :white_check_mark: ](enforcer-3.5.0.buildcompare) | 2.2M |
 | [3.4.1](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer/3.4.1/pom) | [mvn jdk17](maven-enforcer-plugin-3.4.1.buildspec) | [result](enforcer-3.4.1.buildinfo): [25 :white_check_mark: ](enforcer-3.4.1.buildcompare) | 1.9M |
 | [3.4.0](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer/3.4.0/pom) | [mvn jdk17](maven-enforcer-plugin-3.4.0.buildspec) | [result](enforcer-3.4.0.buildinfo): [25 :white_check_mark: ](enforcer-3.4.0.buildcompare) | 1.9M |
 | [3.3.0](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer/3.3.0/pom) | [mvn jdk17](maven-enforcer-plugin-3.3.0.buildspec) | [result](enforcer-3.3.0.buildinfo): [15 :white_check_mark: ](enforcer-3.3.0.buildcompare) | 1.2M |

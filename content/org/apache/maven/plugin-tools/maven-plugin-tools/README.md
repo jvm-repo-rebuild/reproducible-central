@@ -31,6 +31,7 @@ rebuilding **13 releases** of org.apache.maven.plugin-tools:maven-plugin-tools:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.13.1](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.13.1/pom) | | | |
 | [3.13.0](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.13.0/pom) | [mvn jdk8 w](maven-plugin-tools-3.13.0.buildspec) | [result](maven-plugin-tools-3.13.0.buildinfo): [69 :white_check_mark: ](maven-plugin-tools-3.13.0.buildcompare) | 5.6M |
 | [3.12.0](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.12.0/pom) | [mvn jdk11](maven-plugin-tools-3.12.0.buildspec) | [result](maven-plugin-tools-3.12.0.buildinfo): [71 :white_check_mark: ](maven-plugin-tools-3.12.0.buildcompare) | 5.8M |
 | [3.11.0](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.11.0/pom) | [mvn jdk8 w](maven-plugin-tools-3.11.0.buildspec) | [result](maven-plugin-tools-3.11.0.buildinfo): [71 :white_check_mark: ](maven-plugin-tools-3.11.0.buildcompare) | 5.4M |
