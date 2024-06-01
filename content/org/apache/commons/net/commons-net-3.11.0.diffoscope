@@ -1,0 +1,45 @@
+1 / 2 target/reference/commons-net/commons-net-3.11.0-ftp.jar target/commons-net-ftp-3.11.0.jar
+--- target/reference/commons-net/commons-net-3.11.0-ftp.jar
++++ target/commons-net-ftp-3.11.0.jar
+├── zipinfo {}
+│ @@ -1,119 +1,119 @@
+│ -Zip file size: 157608 bytes, number of entries: 117
+│ -drwxr-xr-x  2.0 unx        0 bx stor 24-May-28 23:58 META-INF/
+│ --rw-r--r--  2.0 unx      441 b- defN 24-May-28 23:58 META-INF/MANIFEST.MF
+...
+│ --rw-r--r--  2.0 unx     1636 b- defN 24-May-28 23:56 org/apache/commons/net/util/TrustManagerUtils.class
+│ --rw-r--r--  2.0 unx      133 b- defN 24-May-28 23:56 org/apache/commons/net/util/package-info.class
+│ -117 files, 298281 bytes uncompressed, 137980 bytes compressed:  53.7%
+│ +Zip file size: 157623 bytes, number of entries: 117
+│ +drwxr-xr-x  2.0 unx        0 bx stor 24-Jun-01 09:51 META-INF/
+│ +-rw-r--r--  2.0 unx      462 b- defN 24-Jun-01 09:51 META-INF/MANIFEST.MF
+...
+│ +-rw-r--r--  2.0 unx     1636 b- defN 24-Jun-01 09:51 org/apache/commons/net/util/TrustManagerUtils.class
+│ +-rw-r--r--  2.0 unx      133 b- defN 24-Jun-01 09:51 org/apache/commons/net/util/package-info.class
+│ +117 files, 298302 bytes uncompressed, 137995 bytes compressed:  53.7%
+├── META-INF/MANIFEST.MF
+│ @@ -1,10 +1,10 @@
+│  Manifest-Version: 1.0
+
+│  Ant-Version: Apache Ant 1.10.12
+
+│ -Created-By: 17.0.11+0 (Homebrew)
+
+│ +Created-By: 17.0.10+7-Ubuntu-122.04.1 (Private Build)
+
+│  Extension-Name: org.apache.commons.net
+
+│  Specification-Title: Apache Commons Net
+
+│  Implementation-Title: Apache Commons Net
+
+│  Implementation-Vendor: The Apache Software Foundation
+
+│  Implementation-Version: 3.11.0
+
+│  Implementation-Vendor-Id: org.apache
+
+│  Implementation-Build: ${implementation.build}
+
+# same issue as previous
+2 / 2 target/reference/commons-net/commons-net-3.11.0-examples.jar target/commons-net-examples-3.11.0.jar
