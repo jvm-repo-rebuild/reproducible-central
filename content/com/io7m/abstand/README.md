@@ -21,6 +21,7 @@ rebuilding **2 releases** of com.io7m.abstand:com.io7m.abstand:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.0](https://central.sonatype.com/artifact/com.io7m.abstand/com.io7m.abstand/1.0.0/pom) | | | |
 | [1.0.0-beta0002](https://central.sonatype.com/artifact/com.io7m.abstand/com.io7m.abstand/1.0.0-beta0002/pom) | [mvn jdk21](com.io7m.abstand-1.0.0-beta0002.buildspec) | [result](com.io7m.abstand-1.0.0-beta0002.buildinfo): [17 :white_check_mark: ](com.io7m.abstand-1.0.0-beta0002.buildcompare) | 742K |
 | [1.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.abstand/com.io7m.abstand/1.0.0-beta0001/pom) | [mvn jdk21](com.io7m.abstand-1.0.0-beta0001.buildspec) | [result](com.io7m.abstand-1.0.0-beta0001.buildinfo): [17 :white_check_mark: ](com.io7m.abstand-1.0.0-beta0001.buildcompare) | 741K |
 

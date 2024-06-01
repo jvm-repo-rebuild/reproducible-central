@@ -3,12 +3,13 @@
   <groupId>com.io7m.abstand</groupId>
   <artifactId>com.io7m.abstand</artifactId>
   <versioning>
-    <latest>1.0.0-beta0002</latest>
-    <release>1.0.0-beta0002</release>
+    <latest>1.0.0</latest>
+    <release>1.0.0</release>
     <versions>
       <version>1.0.0-beta0001</version>
       <version>1.0.0-beta0002</version>
+      <version>1.0.0</version>
     </versions>
-    <lastUpdated>20240320105038</lastUpdated>
+    <lastUpdated>20240601150717</lastUpdated>
   </versioning>
 </metadata>
