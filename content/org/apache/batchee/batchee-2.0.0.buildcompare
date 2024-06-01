@@ -1,0 +1,22 @@
+version=2.0.0
+ok=74
+ko=13
+ignored=1
+okFiles="batchee-2.0.0.pom batchee-2.0.0-site.xml batchee-jbatch-2.0.0.pom batchee-jbatch-2.0.0.jar batchee-jbatch-2.0.0-sources.jar batchee-tools-2.0.0.pom batchee-doc-api-2.0.0.pom batchee-doc-api-2.0.0.jar batchee-doc-api-2.0.0-sources.jar batchee-gui-2.0.0.pom batchee-jaxrs-2.0.0.pom batchee-jaxrs-common-2.0.0.pom batchee-jaxrs-common-2.0.0.jar batchee-jaxrs-common-2.0.0-sources.jar batchee-jaxrs-client-2.0.0.pom batchee-jaxrs-client-2.0.0.jar batchee-jaxrs-client-2.0.0-sources.jar batchee-maven-plugin-2.0.0.pom batchee-maven-plugin-2.0.0-sources.jar batchee-extensions-2.0.0.pom batchee-extras-2.0.0.pom batchee-extras-2.0.0.jar batchee-extras-2.0.0-sources.jar batchee-beanio-2.0.0.pom batchee-beanio-2.0.0.jar batchee-beanio-2.0.0-sources.jar batchee-camel-2.0.0.pom batchee-camel-2.0.0.jar batchee-camel-2.0.0-sources.jar batchee-groovy-2.0.0.pom batchee-groovy-2.0.0.jar batchee-groovy-2.0.0-sources.jar batchee-jsefa-2.0.0.pom batchee-jsefa-2.0.0.jar batchee-jsefa-2.0.0-sources.jar batchee-jackson-2.0.0.pom batchee-jackson-2.0.0.jar batchee-jackson-2.0.0-sources.jar batchee-cdi-2.0.0.pom batchee-cdi-2.0.0.jar batchee-cdi-2.0.0-sources.jar batchee-hazelcast-2.0.0.pom batchee-hazelcast-2.0.0.jar batchee-hazelcast-2.0.0-sources.jar batchee-modelmapper-2.0.0.pom batchee-modelmapper-2.0.0.jar batchee-modelmapper-2.0.0-sources.jar batchee-commons-csv-2.0.0.pom batchee-commons-csv-2.0.0.jar batchee-commons-csv-2.0.0-sources.jar batchee-jsonp-2.0.0.pom batchee-jsonp-2.0.0.jar batchee-jsonp-2.0.0-sources.jar extension-doc-helper-2.0.0.pom extension-doc-helper-2.0.0.jar extension-doc-helper-2.0.0-sources.jar batchee-jaxrs-server-2.0.0.pom batchee-jaxrs-server-2.0.0.jar batchee-jaxrs-server-2.0.0-sources.jar batchee-jaxrs-webapp-2.0.0.pom batchee-jaxrs-webapp-2.0.0-sources.jar batchee-servlet-2.0.0.pom batchee-servlet-embedded-2.0.0.pom batchee-servlet-embedded-2.0.0.jar batchee-servlet-embedded-2.0.0-sources.jar batchee-servlet-embedded-2.0.0-jakarta.jar batchee-webapp-2.0.0.pom batchee-webapp-2.0.0-sources.jar batchee-cli-2.0.0.pom batchee-cli-2.0.0-bootstrap.jar batchee-cli-2.0.0-sources.jar batchee-test-2.0.0.pom batchee-test-2.0.0.jar batchee-test-2.0.0-sources.jar"
+koFiles="batchee-2.0.0-source-release.zip batchee-jbatch-2.0.0-dbscripts.zip batchee-jbatch-2.0.0-dbscripts.tar.gz batchee-maven-plugin-2.0.0.jar batchee-jaxrs-webapp-2.0.0.war batchee-jaxrs-webapp-2.0.0-tomeeplus.war batchee-webapp-2.0.0.war batchee-webapp-2.0.0-classes.jar batchee-cli-2.0.0.jar batchee-cli-2.0.0-runner.jar batchee-cli-2.0.0-bundle.jar batchee-cli-2.0.0.tar.gz batchee-cli-2.0.0.zip"
+ignoredFiles="batchee-servlet-embedded-2.0.0-tests.jar"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.batchee/batchee-2.0.0-source-release.zip target/batchee-2.0.0-source-release.zip
+# diffoscope target/reference/org.apache.batchee/batchee-jbatch-2.0.0-dbscripts.zip jbatch/target/batchee-jbatch-2.0.0-dbscripts.zip
+# diffoscope target/reference/org.apache.batchee/batchee-jbatch-2.0.0-dbscripts.tar.gz jbatch/target/batchee-jbatch-2.0.0-dbscripts.tar.gz
+# diffoscope target/reference/org.apache.batchee/batchee-maven-plugin-2.0.0.jar tools/maven-plugin/target/batchee-maven-plugin-2.0.0.jar
+# diffoscope target/reference/org.apache.batchee/batchee-jaxrs-webapp-2.0.0.war gui/jaxrs/webapp/target/batchee-jaxrs-webapp-2.0.0.war
+# diffoscope target/reference/org.apache.batchee/batchee-jaxrs-webapp-2.0.0-tomeeplus.war gui/jaxrs/webapp/target/batchee-jaxrs-webapp-2.0.0-tomeeplus.war
+# diffoscope target/reference/org.apache.batchee/batchee-webapp-2.0.0.war gui/servlet/webapp/target/batchee-webapp-2.0.0.war
+# diffoscope target/reference/org.apache.batchee/batchee-webapp-2.0.0-classes.jar gui/servlet/webapp/target/batchee-webapp-2.0.0-classes.jar
+# diffoscope target/reference/org.apache.batchee/batchee-cli-2.0.0.jar tools/cli/target/batchee-cli-2.0.0.jar
+# diffoscope target/reference/org.apache.batchee/batchee-cli-2.0.0-runner.jar tools/cli/target/batchee-cli-2.0.0-runner.jar
+# diffoscope target/reference/org.apache.batchee/batchee-cli-2.0.0-bundle.jar tools/cli/target/batchee-cli-2.0.0-bundle.jar
+# diffoscope target/reference/org.apache.batchee/batchee-cli-2.0.0.tar.gz tools/cli/target/apache-batchee-openejb-2.0.0.tar.gz
+# diffoscope target/reference/org.apache.batchee/batchee-cli-2.0.0.zip tools/cli/target/apache-batchee-openejb-2.0.0.zip

@@ -1,0 +1,301 @@
+1 / 13 target/reference/org.apache.batchee/batchee-2.0.0-source-release.zip target/batchee-2.0.0-source-release.zip
+--- target/reference/org.apache.batchee/batchee-2.0.0-source-release.zip
++++ target/batchee-2.0.0-source-release.zip
+├── zipinfo {}
+│ @@ -1,219 +1,11 @@
+│ -Zip file size: 4919282 bytes, number of entries: 2750
+│ +Zip file size: 1234547 bytes, number of entries: 1319
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 batchee-2.0.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 batchee-2.0.0/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 batchee-2.0.0/.github/workflows/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 batchee-2.0.0/.site-content/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 batchee-2.0.0/.site-content/apidocs/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 batchee-2.0.0/.site-content/apidocs/jquery/
+...
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 batchee-2.0.0/.site-content/img/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 batchee-2.0.0/.site-content/js/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 batchee-2.0.0/extensions/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 batchee-2.0.0/extensions/beanio/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 batchee-2.0.0/extensions/beanio/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 batchee-2.0.0/extensions/beanio/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 batchee-2.0.0/extensions/beanio/src/main/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 batchee-2.0.0/extensions/beanio/src/main/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 batchee-2.0.0/extensions/beanio/src/main/java/org/apache/
+│ @@ -771,1237 +563,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 batchee-2.0.0/tools/maven-plugin/src/test/java/org/apache/batchee/tools/maven/batchlet/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 batchee-2.0.0/tools/maven-plugin/src/test/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 batchee-2.0.0/tools/maven-plugin/src/test/resources/META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 batchee-2.0.0/tools/maven-plugin/src/test/resources/META-INF/batch-jobs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 batchee-2.0.0/tools/spring-boot-batchee-ui/
+│  -rw-r--r--  2.0 unx     1491 b- defN 24-Apr-22 16:27 batchee-2.0.0/.github/workflows/ci.yml
+│  -rw-r--r--  2.0 unx       97 b- defN 24-Apr-22 16:27 batchee-2.0.0/.gitignore
+│ --rw-r--r--  2.0 unx   128002 b- defN 24-Apr-22 16:27 batchee-2.0.0/.site-content/apidocs/allclasses-index.html
+│ --rw-r--r--  2.0 unx    68532 b- defN 24-Apr-22 16:27 batchee-2.0.0/.site-content/apidocs/allclasses.html
+...
+│ --rw-r--r--  2.0 unx     9993 b- defN 24-Apr-22 16:27 batchee-2.0.0/.site-content/source-repository.html
+│ --rw-r--r--  2.0 unx     9556 b- defN 24-Apr-22 16:27 batchee-2.0.0/.site-content/team-list.html
+│  -rw-r--r--  2.0 unx    19609 b- defN 24-Apr-22 16:27 batchee-2.0.0/KEYS
+│  -rw-r--r--  2.0 unx    11357 b- defN 24-Apr-22 16:27 batchee-2.0.0/LICENSE
+│  -rw-r--r--  2.0 unx      330 b- defN 24-Apr-22 16:27 batchee-2.0.0/NOTICE
+│  -rw-r--r--  2.0 unx     1552 b- defN 24-Apr-22 16:27 batchee-2.0.0/README.adoc
+│  -rw-r--r--  2.0 unx     1736 b- defN 24-Apr-22 16:27 batchee-2.0.0/extensions/beanio/pom.xml
+│  -rw-r--r--  2.0 unx     3451 b- defN 24-Apr-22 16:27 batchee-2.0.0/extensions/beanio/src/main/java/org/apache/batchee/beanio/BeanIOReader.java
+│  -rw-r--r--  2.0 unx     2886 b- defN 24-Apr-22 16:27 batchee-2.0.0/extensions/beanio/src/main/java/org/apache/batchee/beanio/BeanIOWriter.java
+│ @@ -2745,8 +1314,8 @@
+│  -rw-r--r--  2.0 unx     2096 b- defN 24-Apr-22 16:27 batchee-2.0.0/tools/maven-plugin/src/test/java/org/apache/batchee/tools/maven/StopMojoTest.java
+│  -rw-r--r--  2.0 unx     1429 b- defN 24-Apr-22 16:27 batchee-2.0.0/tools/maven-plugin/src/test/java/org/apache/batchee/tools/maven/batchlet/SimpleBatchlet.java
+│  -rw-r--r--  2.0 unx     2399 b- defN 24-Apr-22 16:27 batchee-2.0.0/tools/maven-plugin/src/test/resources/META-INF/batch-jobs/diagram.xml
+│  -rw-r--r--  2.0 unx      896 b- defN 24-Apr-22 16:27 batchee-2.0.0/tools/maven-plugin/src/test/resources/META-INF/batch-jobs/simple-2.xml
+│  -rw-r--r--  2.0 unx     1094 b- defN 24-Apr-22 16:27 batchee-2.0.0/tools/maven-plugin/src/test/resources/META-INF/batch-jobs/simple.xml
+│  -rw-r--r--  2.0 unx     1469 b- defN 24-Apr-22 16:27 batchee-2.0.0/tools/pom.xml
+│  -rw-r--r--  2.0 unx      257 b- defN 24-Apr-22 16:27 batchee-2.0.0/DEPENDENCIES
+│ -2750 files, 20578924 bytes uncompressed, 4248540 bytes compressed:  79.4%
+│ +1319 files, 2937320 bytes uncompressed, 931577 bytes compressed:  68.3%
+
+2 / 13 target/reference/org.apache.batchee/batchee-jbatch-2.0.0-dbscripts.zip jbatch/target/batchee-jbatch-2.0.0-dbscripts.zip
+--- target/reference/org.apache.batchee/batchee-jbatch-2.0.0-dbscripts.zip
++++ jbatch/target/batchee-jbatch-2.0.0-dbscripts.zip
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│  Zip file size: 8609 bytes, number of entries: 8
+│ --rw-rw-r--  2.0 unx    11357 b- defN 24-Apr-22 16:27 LICENSE
+│ --rw-rw-r--  2.0 unx     1833 b- defN 24-Apr-22 16:27 persistence.xml
+│ +-rw-r--r--  2.0 unx    11357 b- defN 24-Apr-22 16:27 LICENSE
+│ +-rw-r--r--  2.0 unx     1833 b- defN 24-Apr-22 16:27 persistence.xml
+│  -rw-r--r--  2.0 unx     1616 b- defN 24-Apr-22 16:27 database-db2.sql
+│  -rw-r--r--  2.0 unx     1710 b- defN 24-Apr-22 16:27 database-derby.sql
+│  -rw-r--r--  2.0 unx     1607 b- defN 24-Apr-22 16:27 database-h2.sql
+│  -rw-r--r--  2.0 unx     1633 b- defN 24-Apr-22 16:27 database-hsqldb.sql
+│  -rw-r--r--  2.0 unx     1681 b- defN 24-Apr-22 16:27 database-mysql.sql
+│  -rw-r--r--  2.0 unx     1650 b- defN 24-Apr-22 16:27 database-oracle.sql
+│  8 files, 23087 bytes uncompressed, 7725 bytes compressed:  66.5%
+
+3 / 13 target/reference/org.apache.batchee/batchee-jbatch-2.0.0-dbscripts.tar.gz jbatch/target/batchee-jbatch-2.0.0-dbscripts.tar.gz
+--- target/reference/org.apache.batchee/batchee-jbatch-2.0.0-dbscripts.tar.gz
++++ jbatch/target/batchee-jbatch-2.0.0-dbscripts.tar.gz
+├── batchee-jbatch-2.0.0-dbscripts.tar
+│ ├── file list
+│ │ @@ -1,8 +1,8 @@
+│ │ --rw-rw-r--   0 root         (0) root         (0)    11357 2024-04-22 16:27:33.000000 LICENSE
+│ │ --rw-rw-r--   0 root         (0) root         (0)     1833 2024-04-22 16:27:33.000000 persistence.xml
+│ │ +-rw-r--r--   0 root         (0) root         (0)    11357 2024-04-22 16:27:33.000000 LICENSE
+│ │ +-rw-r--r--   0 root         (0) root         (0)     1833 2024-04-22 16:27:33.000000 persistence.xml
+│ │  -rw-r--r--   0 root         (0) root         (0)     1616 2024-04-22 16:27:33.000000 database-db2.sql
+│ │  -rw-r--r--   0 root         (0) root         (0)     1710 2024-04-22 16:27:33.000000 database-derby.sql
+│ │  -rw-r--r--   0 root         (0) root         (0)     1607 2024-04-22 16:27:33.000000 database-h2.sql
+│ │  -rw-r--r--   0 root         (0) root         (0)     1633 2024-04-22 16:27:33.000000 database-hsqldb.sql
+│ │  -rw-r--r--   0 root         (0) root         (0)     1681 2024-04-22 16:27:33.000000 database-mysql.sql
+│ │  -rw-r--r--   0 root         (0) root         (0)     1650 2024-04-22 16:27:33.000000 database-oracle.sql
+
+4 / 13 target/reference/org.apache.batchee/batchee-maven-plugin-2.0.0.jar tools/maven-plugin/target/batchee-maven-plugin-2.0.0.jar
+--- target/reference/org.apache.batchee/batchee-maven-plugin-2.0.0.jar
++++ tools/maven-plugin/target/batchee-maven-plugin-2.0.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 99429 bytes, number of entries: 77
+│ +Zip file size: 99154 bytes, number of entries: 76
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 META-INF/
+│  -rw-r--r--  2.0 unx      360 b- defN 24-Apr-22 16:27 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 META-INF/maven/org.apache.batchee/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 META-INF/maven/org.apache.batchee/batchee-maven-plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 META-INF/plexus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-22 16:27 org/
+│ @@ -15,65 +15,64 @@
+│  -rw-r--r--  2.0 unx    12146 b- defN 24-Apr-22 16:27 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx     2034 b- defN 24-Apr-22 16:27 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx       62 b- defN 24-Apr-22 16:27 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx    42423 b- defN 24-Apr-22 16:27 META-INF/maven/org.apache.batchee/batchee-maven-plugin/plugin-help.xml
+│  -rw-r--r--  2.0 unx    53919 b- defN 24-Apr-22 16:27 META-INF/maven/plugin.xml
+│  -rw-r--r--  2.0 unx     2003 b- defN 24-Apr-22 16:27 META-INF/plexus/components.xml
+│  -rw-r--r--  2.0 unx     1580 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/AbandonMojo.class
+│ --rw-r--r--  2.0 unx     1179 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/BarMojo$1.class
+│ --rw-r--r--  2.0 unx     2945 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/BarMojo$2$1.class
+│ --rw-r--r--  2.0 unx     1722 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/BarMojo$2.class
+│ +-rw-r--r--  2.0 unx     1209 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/BarMojo$1.class
+│ +-rw-r--r--  2.0 unx     2979 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/BarMojo$2$1.class
+│ +-rw-r--r--  2.0 unx     1752 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/BarMojo$2.class
+│  -rw-r--r--  2.0 unx     1584 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/BarMojo$BatchDescriptorSelector.class
+│  -rw-r--r--  2.0 unx     7898 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/BarMojo.class
+│  -rw-r--r--  2.0 unx     3601 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/BatchEEMojoBase.class
+│ --rw-r--r--  2.0 unx     1481 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/DiagramMojo$1.class
+│ +-rw-r--r--  2.0 unx     1555 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/DiagramMojo$1.class
+│  -rw-r--r--  2.0 unx     1956 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/DiagramMojo.class
+│ --rw-r--r--  2.0 unx     1152 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/DocumentationMojo$1.class
+│ +-rw-r--r--  2.0 unx     1194 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/DocumentationMojo$1.class
+│  -rw-r--r--  2.0 unx     1459 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/DocumentationMojo.class
+│  -rw-r--r--  2.0 unx    11636 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/HelpMojo.class
+│  -rw-r--r--  2.0 unx     2255 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/JobActionMojoBase.class
+│  -rw-r--r--  2.0 unx     1885 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/JobExecutionMojo.class
+│ --rw-r--r--  2.0 unx     1493 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/JobExecutionMojoBase.class
+│ +-rw-r--r--  2.0 unx     1577 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/JobExecutionMojoBase.class
+│  -rw-r--r--  2.0 unx     2524 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/JobExecutionsMojo.class
+│  -rw-r--r--  2.0 unx     1649 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/JobInstanceCountMojo.class
+│  -rw-r--r--  2.0 unx     1813 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/JobInstanceMojo.class
+│  -rw-r--r--  2.0 unx     2497 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/JobInstancesMojo.class
+│  -rw-r--r--  2.0 unx     1958 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/JobNamesMojo.class
+│  -rw-r--r--  2.0 unx     2226 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/ParametersMojo.class
+│  -rw-r--r--  2.0 unx     1894 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/ReStartMojo.class
+│  -rw-r--r--  2.0 unx     2185 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/RunningExecutionsMojo.class
+│  -rw-r--r--  2.0 unx     4838 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/StartMojo.class
+│ --rw-r--r--  2.0 unx     3752 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/StepExecutionsMojo.class
+│ +-rw-r--r--  2.0 unx     3715 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/StepExecutionsMojo.class
+│  -rw-r--r--  2.0 unx     1565 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/StopMojo.class
+│  -rw-r--r--  2.0 unx      925 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$1.class
+│ --rw-r--r--  2.0 unx     2365 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$2.class
+│ --rw-r--r--  2.0 unx     2777 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$3.class
+│ --rw-r--r--  2.0 unx     1656 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$4$1.class
+│ --rw-r--r--  2.0 unx     1649 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$4$2.class
+│ --rw-r--r--  2.0 unx     1748 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$4$3$1.class
+│ --rw-r--r--  2.0 unx     1741 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$4$3$2.class
+│ --rw-r--r--  2.0 unx     2737 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$4$3.class
+│ --rw-r--r--  2.0 unx     4205 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$4.class
+│ +-rw-r--r--  2.0 unx     2399 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$2.class
+│ +-rw-r--r--  2.0 unx     2811 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$3.class
+│ +-rw-r--r--  2.0 unx     1694 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$4$1.class
+│ +-rw-r--r--  2.0 unx     1687 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$4$2.class
+│ +-rw-r--r--  2.0 unx     1786 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$4$3$1.class
+│ +-rw-r--r--  2.0 unx     1779 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$4$3$2.class
+│ +-rw-r--r--  2.0 unx     2779 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$4$3.class
+│ +-rw-r--r--  2.0 unx     4243 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$4.class
+│  -rw-r--r--  2.0 unx     1330 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$ClassDoc.class
+│ --rw-r--r--  2.0 unx     1359 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$FieldDoc.class
+│ +-rw-r--r--  2.0 unx     1389 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$FieldDoc.class
+│  -rw-r--r--  2.0 unx      773 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator$Formatter.class
+│  -rw-r--r--  2.0 unx     9840 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator.class
+│ --rw-r--r--  2.0 unx     1169 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$1.class
+│ --rw-r--r--  2.0 unx      942 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$2.class
+│ +-rw-r--r--  2.0 unx     1203 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$1.class
+│  -rw-r--r--  2.0 unx     1028 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$Diagram.class
+│  -rw-r--r--  2.0 unx      560 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$Edge.class
+│ --rw-r--r--  2.0 unx     2094 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$EdgeLabelClosenessTransformer.class
+│ --rw-r--r--  2.0 unx     6389 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$EdgeLabelRenderer.class
+│ --rw-r--r--  2.0 unx     1192 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$EdgeLabelTransformer.class
+│ +-rw-r--r--  2.0 unx     2124 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$EdgeLabelClosenessTransformer.class
+│ +-rw-r--r--  2.0 unx     6431 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$EdgeLabelRenderer.class
+│ +-rw-r--r--  2.0 unx     1222 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$EdgeLabelTransformer.class
+│  -rw-r--r--  2.0 unx     4564 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$GraphViewer.class
+│  -rw-r--r--  2.0 unx     8228 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$LevelLayout.class
+│ --rw-r--r--  2.0 unx     1434 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$Node$Type.class
+│ +-rw-r--r--  2.0 unx     1479 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$Node$Type.class
+│  -rw-r--r--  2.0 unx      919 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$Node.class
+│ --rw-r--r--  2.0 unx     2842 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$NodeComparator.class
+│ --rw-r--r--  2.0 unx     1717 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$VertexFillPaintTransformer.class
+│ --rw-r--r--  2.0 unx     1275 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$VertexLabelTransformer.class
+│ --rw-r--r--  2.0 unx     2391 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$VertexShapeTransformer.class
+│ --rw-r--r--  2.0 unx    20848 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator.class
+│ +-rw-r--r--  2.0 unx     2876 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$NodeComparator.class
+│ +-rw-r--r--  2.0 unx     1586 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$VertexFillPaintTransformer.class
+│ +-rw-r--r--  2.0 unx     1316 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$VertexLabelTransformer.class
+│ +-rw-r--r--  2.0 unx     2260 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator$VertexShapeTransformer.class
+│ +-rw-r--r--  2.0 unx    20753 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/doc/DiagramGenerator.class
+│  -rw-r--r--  2.0 unx     1502 b- defN 24-Apr-22 16:27 org/apache/batchee/tools/maven/locator/MavenPluginLocator.class
+│  -rw-r--r--  2.0 unx     4779 b- defN 24-Apr-22 16:27 META-INF/maven/org.apache.batchee/batchee-maven-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       73 b- defN 24-Apr-22 16:27 META-INF/maven/org.apache.batchee/batchee-maven-plugin/pom.properties
+│ -77 files, 280725 bytes uncompressed, 85271 bytes compressed:  69.6%
+│ +76 files, 280269 bytes uncompressed, 85190 bytes compressed:  69.6%
+├── zipnote «TEMP»/diffoscope_qdwg0u3v_target/tmpkn56bzae_.zip
+│ @@ -171,17 +171,14 @@
+│  
+│  Filename: org/apache/batchee/tools/maven/doc/ComponentDocumentationGenerator.class
+│  Comment: 
+│  
+│  Filename: org/apache/batchee/tools/maven/doc/DiagramGenerator$1.class
+│  Comment: 
+│  
+│ -Filename: org/apache/batchee/tools/maven/doc/DiagramGenerator$2.class
+│ -Comment: 
+│ -
+│  Filename: org/apache/batchee/tools/maven/doc/DiagramGenerator$Diagram.class
+│  Comment: 
+│  
+│  Filename: org/apache/batchee/tools/maven/doc/DiagramGenerator$Edge.class
+│  Comment: 
+│  
+│  Filename: org/apache/batchee/tools/maven/doc/DiagramGenerator$EdgeLabelClosenessTransformer.class
+├── META-INF/MANIFEST.MF
+│ @@ -1,10 +1,10 @@
+│  Manifest-Version: 1.0
+
+│  Created-By: Maven JAR Plugin 3.3.0
+
+│ -Build-Jdk-Spec: 17
+
+│ +Build-Jdk-Spec: 21
+
+│  Specification-Title: BatchEE :: Tools :: Maven Plugin
+
+│  Specification-Version: 2.0
+
+│  Specification-Vendor: The Apache Software Foundation
+
+│  Implementation-Title: BatchEE :: Tools :: Maven Plugin
+
+│  Implementation-Version: 2.0.0
+
+│  Implementation-Vendor: The Apache Software Foundation
+├── org/apache/batchee/tools/maven/AbandonMojo.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -61,22 +61,22 @@
+│ │    #52 = Class              #53            // org/apache/maven/plugin/MojoFailureException
+│ │    #53 = Utf8               org/apache/maven/plugin/MojoFailureException
+│ │    #54 = Utf8               SourceFile
+│ │    #55 = Utf8               AbandonMojo.java
+│ │    #56 = Utf8               Lorg/apache/maven/plugins/annotations/Mojo;
+│ │    #57 = Utf8               name
+│ │    #58 = Utf8               BootstrapMethods
+│ │ -  #59 = MethodHandle       6:#60          // REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+│ │ -  #60 = Methodref          #61.#62        // java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+│ │ -  #61 = Class              #63            // java/lang/invoke/StringConcatFactory
+│ │ -  #62 = NameAndType        #29:#64        // makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+│ │ -  #63 = Utf8               java/lang/invoke/StringConcatFactory
+│ │ -  #64 = Utf8               (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+│ │ -  #65 = String             #66            // Abandonned job #\u0001
+│ │ -  #66 = Utf8               Abandonned job #\u0001
+│ │ +  #59 = String             #60            // Abandonned job #\u0001
+│ │ +  #60 = Utf8               Abandonned job #\u0001
+│ │ +  #61 = MethodHandle       6:#62          // REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+│ │ +  #62 = Methodref          #63.#64        // java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+│ │ +  #63 = Class              #65            // java/lang/invoke/StringConcatFactory
+│ │ +  #64 = NameAndType        #29:#66        // makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+│ │ +  #65 = Utf8               java/lang/invoke/StringConcatFactory
+│ │ +  #66 = Utf8               (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+│ │    #67 = Utf8               InnerClasses
+│ │    #68 = Class              #69            // java/lang/invoke/MethodHandles$Lookup
+│ │    #69 = Utf8               java/lang/invoke/MethodHandles$Lookup
+│ │    #70 = Class              #71            // java/lang/invoke/MethodHandles
+│ │    #71 = Utf8               java/lang/invoke/MethodHandles
+│ │    #72 = Utf8               Lookup
+│ │  {
+│ │ @@ -134,12 +134,12 @@
+│ │  SourceFile: "AbandonMojo.java"
+│ │  RuntimeInvisibleAnnotations:
+│ │    0: #56(#57=s#21)
+│ │      org.apache.maven.plugins.annotations.Mojo(
+│ │        name="abandon"
+│ │      )
+│ │  BootstrapMethods:
+│ │ -  0: #59 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+│ │ +  0: #61 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+│ │      Method arguments:
+│ │ -      #65 Abandonned job #\u0001
+│ │ +      #59 Abandonned job #\u0001
+│ │  InnerClasses:
+│ │    public static final #72= #68 of #70;    // Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
+...
+
+# build is a strange mix of JDK 17 & JDK 21
+5 / 13 target/reference/org.apache.batchee/batchee-jaxrs-webapp-2.0.0.war gui/jaxrs/webapp/target/batchee-jaxrs-webapp-2.0.0.war
+--- target/reference/org.apache.batchee/batchee-jaxrs-webapp-2.0.0.war
++++ gui/jaxrs/webapp/target/batchee-jaxrs-webapp-2.0.0.war
+├── META-INF/MANIFEST.MF
+│ @@ -1,4 +1,4 @@
+│  Manifest-Version: 1.0
+
+│  Created-By: Maven WAR Plugin 3.3.2
+
+│ -Build-Jdk-Spec: 17
+
+│ +Build-Jdk-Spec: 21
+
+...
