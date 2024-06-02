@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Help Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-help-plugin
+version=3.4.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-help-plugin.git
+source.scm.tag=maven-help-plugin-3.4.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-help-plugin-3.4.1.pom
+outputs.0.length=10299
+outputs.0.checksums.sha512=b37b3bca294b5c33b89045cf43032fa7ff8f15d1649c91aca7bb84d92a4a418018edca9ed1ea7bb59571ddba36330c1233240ea57ceddf1b15e3043c0490539d
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-help-plugin-3.4.1.jar
+outputs.1.length=64460
+outputs.1.checksums.sha512=e03aae9afc72feaba84ceb916b9cd7538311f7f8b95563e6d9919144ece2fbba60ceb7ff7a70e69d4ca50460b02aa7c665abd48df3ff2b7061eba073927c6934
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-help-plugin-3.4.1-source-release.zip
+outputs.2.length=180543
+outputs.2.checksums.sha512=a7d2f508086813e7104b3b49640e33897f48581991957727c86df82243e2cf1ad0d63021db9a8f948548db5dcabed1e2618604827a316ebb1122da1d55f0f766
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-help-plugin-3.4.1-sources.jar
+outputs.3.length=42518
+outputs.3.checksums.sha512=ff624961c5b268c68cad4519a38e22ecf9d2b510494362aa65b61cddb88aef4d9aa9ccf8db241f7aff4e0bdff1f9e62c76844ebe5d32817e829dec5df0a377c9
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-help-plugin-3.4.1-cyclonedx.xml
+outputs.4.length=99078
+outputs.4.checksums.sha512=36d6672bb86a3fab5f96285ff81e82db31cd69e78965a2a0429905ad61865450257ceb8e73a022fa00a2a021f60fcaed275a37ac0ac4bc7927c427a7622471da
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-help-plugin-3.4.1-cyclonedx.json
+outputs.5.length=114634
+outputs.5.checksums.sha512=f0812571f284bd103c00cf4b3433fda0929ca78b05bb681eb0a8c2b7f6e67fa1343dcac2d93277843e9012c6114756b0a9d23f789d2310f7a1edfd6dac6092f9
