@@ -1,0 +1,267 @@
+1 / 4 target/reference/org.apache.activemq/artemis-commons-2.34.0.pom artemis-commons/dependency-reduced-pom.xml
+--- target/reference/org.apache.activemq/artemis-commons-2.34.0.pom
++++ artemis-commons/dependency-reduced-pom.xml
+│   --- target/reference/org.apache.activemq/artemis-commons-2.34.0.pom
+├── +++ artemis-commons/dependency-reduced-pom.xml
+│ @@ -54,58 +54,30 @@
+│    <profiles>
+│      <profile>
+│        <id>release</id>
+│        <build>
+│          <plugins>
+│            <plugin>
+│              <artifactId>maven-javadoc-plugin</artifactId>
+│ -            <version>3.6.3</version>
+│              <executions>
+│                <execution>
+│ -                <id>attach-javadocs</id>
+│ -                <goals>
+│ -                  <goal>jar</goal>
+│ -                </goals>
+│ -                <configuration>
+│ -                  <useStandardDocletOptions>true</useStandardDocletOptions>
+│ -                  <minmemory>128m</minmemory>
+│ -                  <maxmemory>512m</maxmemory>
+│ -                  <noindex>true</noindex>
+│ -                  <sourceFileIncludes>
+│ -                    <sourceFileInclude>**/org/apache/activemq/artemis/api/**/*.java</sourceFileInclude>
+│ -                  </sourceFileIncludes>
+│ -                  <notimestamp>true</notimestamp>
+│ -                </configuration>
+│ -              </execution>
+│ -              <execution>
+│                  <id>javadocs</id>
+│                  <goals>
+│                    <goal>jar</goal>
+│                  </goals>
+│ -                <configuration>
+│ -                  <useStandardDocletOptions>true</useStandardDocletOptions>
+│ -                  <minmemory>128m</minmemory>
+│ -                  <maxmemory>512m</maxmemory>
+│ -                  <noindex>true</noindex>
+│ -                  <sourceFileIncludes>
+│ -                    <sourceFileInclude>**/org/apache/activemq/artemis/api/**/*.java</sourceFileInclude>
+│ -                  </sourceFileIncludes>
+│ -                  <notimestamp>true</notimestamp>
+│ -                </configuration>
+│                </execution>
+│              </executions>
+│              <configuration>
+│                <useStandardDocletOptions>true</useStandardDocletOptions>
+│                <minmemory>128m</minmemory>
+│                <maxmemory>512m</maxmemory>
+│                <noindex>true</noindex>
+│                <sourceFileIncludes>
+│                  <sourceFileInclude>**/org/apache/activemq/artemis/api/**/*.java</sourceFileInclude>
+│                </sourceFileIncludes>
+│ -              <notimestamp>true</notimestamp>
+│              </configuration>
+│            </plugin>
+│          </plugins>
+│        </build>
+│      </profile>
+│    </profiles>
+│    <dependencies>
+
+2 / 4 target/reference/org.apache.activemq/artemis-core-client-all-2.34.0-sources.jar artemis-core-client-all/target/artemis-core-client-all-2.34.0-sources.jar
+--- target/reference/org.apache.activemq/artemis-core-client-all-2.34.0-sources.jar
++++ artemis-core-client-all/target/artemis-core-client-all-2.34.0-sources.jar
+├── zipinfo {}
+│ @@ -1,412 +1,17 @@
+│ -Zip file size: 11143189 bytes, number of entries: 7114
+│ +Zip file size: 10130642 bytes, number of entries: 6502
+│  -rw----     2.0 fat        0 bX defN 24-May-29 16:06 META-INF/
+│  -rw----     2.0 fat       64 bl defN 24-May-29 16:06 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat    11358 bl defN 24-May-29 16:06 META-INF/LICENSE
+│  -rw----     2.0 fat        0 bl defN 24-May-29 16:06 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 24-May-29 16:06 META-INF/maven/org.apache.activemq/
+│  -rw----     2.0 fat        0 bl defN 24-May-29 16:06 META-INF/maven/org.apache.activemq/artemis-core-client-all/
+│  -rw----     2.0 fat     8329 bl defN 24-May-29 16:06 META-INF/maven/org.apache.activemq/artemis-core-client-all/pom.xml
+│  -rw----     2.0 fat       78 bl defN 24-May-29 16:06 META-INF/maven/org.apache.activemq/artemis-core-client-all/pom.properties
+│ --rw----     2.0 fat        0 bl defN 24-May-29 16:06 org/
+│ --rw----     2.0 fat        0 bl defN 24-May-29 16:06 org/apache/
+│ --rw----     2.0 fat        0 bl defN 24-May-29 16:06 org/apache/activemq/
+│ --rw----     2.0 fat        0 bl defN 24-May-29 16:06 org/apache/activemq/artemis/
+│ --rw----     2.0 fat        0 bl defN 24-May-29 16:06 org/apache/activemq/artemis/api/
+...
+│ --rw----     2.0 fat     1845 bl defN 24-May-29 16:06 org/apache/activemq/artemis/utils/XidCodecSupport.java
+│ --rw----     2.0 fat    41264 bl defN 24-May-29 16:06 org/apache/activemq/artemis/core/client/ActiveMQClientLogger_impl.java
+│ --rw----     2.0 fat    45108 bl defN 24-May-29 16:06 org/apache/activemq/artemis/core/client/ActiveMQClientMessageBundle_impl.java
+│ --rw----     2.0 fat        0 bl defN 24-May-29 16:06 META-INF/services/
+│ --rw----     2.0 fat     1267 bl defN 24-May-29 16:06 activemq-version.properties
+│ --rw----     2.0 fat        0 bl defN 24-May-29 16:06 META-INF/maven/org.apache.activemq/artemis-core-client/
+│ --rw----     2.0 fat     6951 bl defN 24-May-29 16:06 META-INF/maven/org.apache.activemq/artemis-core-client/pom.xml
+│ --rw----     2.0 fat       74 bl defN 24-May-29 16:06 META-INF/maven/org.apache.activemq/artemis-core-client/pom.properties
+│ +-rw----     2.0 fat        0 bl defN 24-Feb-05 21:21 org/
+│  -rw----     2.0 fat        0 bl defN 24-Feb-05 21:21 org/slf4j/
+│  -rw----     2.0 fat     2387 bl defN 24-Feb-05 21:21 org/slf4j/ILoggerFactory.java
+│  -rw----     2.0 fat     2893 bl defN 24-Feb-05 21:21 org/slf4j/IMarkerFactory.java
+│  -rw----     2.0 fat    31749 bl defN 24-Feb-05 21:21 org/slf4j/Logger.java
+│  -rw----     2.0 fat    21656 bl defN 24-Feb-05 21:21 org/slf4j/LoggerFactory.java
+│  -rw----     2.0 fat     2024 bl defN 24-Feb-05 21:21 org/slf4j/LoggerFactoryFriend.java
+│  -rw----     2.0 fat    11152 bl defN 24-Feb-05 21:21 org/slf4j/MDC.java
+│ @@ -456,14 +61,17 @@
+│  -rw----     2.0 fat     2397 bl defN 24-Feb-05 21:21 org/slf4j/spi/NOPLoggingEventBuilder.java
+│  -rw----     2.0 fat     1635 bl defN 24-Feb-05 21:21 org/slf4j/spi/SLF4JServiceProvider.java
+│  -rw----     2.0 fat      172 bl defN 24-Feb-05 21:21 org/slf4j/spi/package.html
+│  -rw----     2.0 fat        0 bl defN 24-Feb-05 21:21 META-INF/maven/org.slf4j/
+│  -rw----     2.0 fat        0 bl defN 24-Feb-05 21:21 META-INF/maven/org.slf4j/slf4j-api/
+│  -rw----     2.0 fat     2826 bl defN 24-Feb-05 21:21 META-INF/maven/org.slf4j/slf4j-api/pom.xml
+│  -rw----     2.0 fat       54 bl defN 24-Feb-05 21:21 META-INF/maven/org.slf4j/slf4j-api/pom.properties
+│ +-rw----     2.0 fat        0 bl defN 24-Feb-28 11:03 org/apache/
+│ +-rw----     2.0 fat        0 bl defN 24-Feb-28 11:03 org/apache/activemq/
+│ +-rw----     2.0 fat        0 bl defN 24-Feb-28 11:03 org/apache/activemq/artemis/
+│  -rw----     2.0 fat        0 bl defN 24-Feb-28 11:03 org/apache/activemq/artemis/shaded/
+│  -rw----     2.0 fat        0 bl defN 24-Feb-28 11:03 org/apache/activemq/artemis/shaded/org/
+│  -rw----     2.0 fat        0 bl defN 24-Feb-28 11:03 org/apache/activemq/artemis/shaded/org/jgroups/
+│  -rw----     2.0 fat      821 bl defN 24-Feb-28 11:03 org/apache/activemq/artemis/shaded/org/jgroups/MessageFactory.java
+│  -rw----     2.0 fat        0 bl defN 24-Feb-28 11:03 org/apache/activemq/artemis/shaded/org/jgroups/blocks/
+│  -rw----     2.0 fat    10438 bl defN 24-Feb-28 11:03 org/apache/activemq/artemis/shaded/org/jgroups/blocks/RpcDispatcher.java
+│  -rw----     2.0 fat    28685 bl defN 24-Feb-28 11:03 org/apache/activemq/artemis/shaded/org/jgroups/blocks/ReplicatedTree.java
+│ @@ -991,235 +599,14 @@
+│  -rw----     2.0 fat     6449 bl defN 24-Feb-28 11:03 org/apache/activemq/artemis/shaded/org/jgroups/tests/perf/JPerf.java
+│  -rw----     2.0 fat     4799 bl defN 24-Feb-28 11:03 jg-protocol-ids.xml
+│  -rw----     2.0 fat     2466 bl defN 24-Feb-28 11:03 jg-messages_de.properties
+│  -rw----     2.0 fat     4059 bl defN 24-Feb-28 11:03 jg-magic-map.xml
+│  -rw----     2.0 fat    13687 bl defN 24-Feb-28 11:03 jg-messages.properties
+│  -rw----     2.0 fat     5266 bl defN 24-Feb-28 11:03 relay.xsd
+│  -rw----     2.0 fat      823 bl defN 24-Feb-28 11:03 fork-stacks.xsd
+│ --rw----     2.0 fat     1205 bl defN 24-May-29 16:06 org/apache/activemq/artemis/ArtemisConstants.java
+│ --rw----     2.0 fat      903 bl defN 24-May-29 16:06 org/apache/activemq/artemis/Closeable.java
+│ --rw----     2.0 fat     1252 bl defN 24-May-29 16:06 org/apache/activemq/artemis/api/core/ActiveMQAddressDoesNotExistException.java
+...
+│ --rw----     2.0 fat   155891 bl defN 24-May-29 16:06 org/apache/activemq/artemis/logs/AuditLogger_impl.java
+│ --rw----     2.0 fat        0 bl defN 24-May-29 16:06 META-INF/maven/org.apache.activemq/artemis-commons/
+│ --rw----     2.0 fat     6387 bl defN 24-May-29 16:06 META-INF/maven/org.apache.activemq/artemis-commons/pom.xml
+│ --rw----     2.0 fat       70 bl defN 24-May-29 16:06 META-INF/maven/org.apache.activemq/artemis-commons/pom.properties
+│  -rw----     2.0 fat        0 bl defN 19-Jun-05 20:12 org/apache/activemq/artemis/shaded/org/apache/
+│  -rw----     2.0 fat        0 bl defN 19-Jun-05 20:12 org/apache/activemq/artemis/shaded/org/apache/commons/
+│  -rw----     2.0 fat        0 bl defN 19-Jun-05 20:12 org/apache/activemq/artemis/shaded/org/apache/commons/beanutils/
+│  -rw----     2.0 fat     3785 bl defN 19-Jun-05 20:12 org/apache/activemq/artemis/shaded/org/apache/commons/beanutils/DynaBeanPropertyMapDecorator.java
+│  -rw----     2.0 fat    35887 bl defN 19-Jun-05 20:12 org/apache/activemq/artemis/shaded/org/apache/commons/beanutils/PropertyUtils.java
+│  -rw----     2.0 fat        0 bl defN 19-Jun-05 20:12 org/apache/activemq/artemis/shaded/org/apache/commons/beanutils/expression/
+│  -rw----     2.0 fat    10298 bl defN 19-Jun-05 20:12 org/apache/activemq/artemis/shaded/org/apache/commons/beanutils/expression/DefaultResolver.java
+│ @@ -3021,14 +2408,15 @@
+│  -rw----     2.0 fat     8223 bl defN 24-Apr-15 10:49 org/apache/activemq/artemis/shaded/io/netty/util/collection/CharCollections.java
+│  -rw----     2.0 fat     2653 bl defN 24-Apr-15 10:49 org/apache/activemq/artemis/shaded/io/netty/util/collection/LongObjectMap.java
+│  -rw----     2.0 fat     2661 bl defN 24-Apr-15 10:49 org/apache/activemq/artemis/shaded/io/netty/util/collection/ShortObjectMap.java
+│  -rw----     2.0 fat     2658 bl defN 24-Apr-15 10:49 org/apache/activemq/artemis/shaded/io/netty/util/collection/CharObjectMap.java
+│  -rw----     2.0 fat     8206 bl defN 24-Apr-15 10:49 org/apache/activemq/artemis/shaded/io/netty/util/collection/ShortCollections.java
+│  -rw----     2.0 fat        0 bl defN 24-Apr-15 10:25 META-INF/native-image/io.netty/netty-common/
+│  -rw----     2.0 fat     1261 bl defN 24-Apr-15 10:25 META-INF/native-image/io.netty/netty-common/native-image.properties
+│ +-rw----     2.0 fat        0 bl defN 24-Apr-15 10:25 META-INF/services/
+│  -rw----     2.0 fat        0 bl defN 24-Apr-15 10:25 META-INF/maven/io.netty/netty-common/
+│  -rw----     2.0 fat     7723 bl defN 24-Apr-15 10:25 META-INF/maven/io.netty/netty-common/pom.xml
+│  -rw----     2.0 fat       63 bl defN 24-Apr-15 10:49 META-INF/maven/io.netty/netty-common/pom.properties
+│  -rw----     2.0 fat        0 bl defN 24-Apr-15 10:49 org/apache/activemq/artemis/shaded/io/netty/util/internal/shaded/
+│  -rw----     2.0 fat        0 bl defN 24-Apr-15 10:49 org/apache/activemq/artemis/shaded/io/netty/util/internal/shaded/org/
+│  -rw----     2.0 fat        0 bl defN 24-Apr-15 10:49 org/apache/activemq/artemis/shaded/io/netty/util/internal/shaded/org/jctools/
+│  -rw----     2.0 fat        0 bl defN 24-Apr-15 10:49 org/apache/activemq/artemis/shaded/io/netty/util/internal/shaded/org/jctools/maps/
+│ @@ -7103,14 +6491,14 @@
+│  -rw----     2.0 fat      312 bl defN 23-Mar-13 13:47 org/bouncycastle/oer/Switch.java
+│  -rw----     2.0 fat     3739 bl defN 23-Mar-13 13:47 org/bouncycastle/oer/OEROptional.java
+│  -rw----     2.0 fat     2126 bl defN 23-Mar-13 13:47 org/bouncycastle/oer/OEREncoder.java
+│  -rw----     2.0 fat    23447 bl defN 24-Jan-20 12:25 org/bouncycastle/oer/OEROutputStream.java
+│  -rw----     2.0 fat    14946 bl defN 23-Mar-13 13:47 org/bouncycastle/oer/Element.java
+│  -rw----     2.0 fat    20164 bl defN 23-Mar-13 13:47 org/bouncycastle/oer/OERDefinition.java
+│  -rw----     2.0 fat     1470 bl defN 23-Mar-13 13:47 org/bouncycastle/oer/SwitchIndexer.java
+│ --rw----     2.0 fat    13398 bl defN 24-May-29 16:06 META-INF/DEPENDENCIES
+│ --rw----     2.0 fat      331 bl defN 24-May-29 16:06 META-INF/NOTICE
+│ --rw----     2.0 fat       80 bl defN 24-May-29 16:06 META-INF/services/org.apache.activemq.artemis.spi.core.remoting.ssl.OpenSSLContextFactory
+│ --rw----     2.0 fat       77 bl defN 24-May-29 16:06 META-INF/services/org.apache.activemq.artemis.spi.core.remoting.ssl.SSLContextFactory
+│ +-rw----     2.0 fat     5693 bl defN 24-May-29 16:06 META-INF/DEPENDENCIES
+│ +-rw----     2.0 fat      183 bl defN 24-May-29 16:06 META-INF/NOTICE
+│ +-rw----     2.0 fat        0 bl defN 24-May-29 16:06 META-INF/services/org.apache.activemq.artemis.spi.core.remoting.ssl.OpenSSLContextFactory
+│ +-rw----     2.0 fat        0 bl defN 24-May-29 16:06 META-INF/services/org.apache.activemq.artemis.spi.core.remoting.ssl.SSLContextFactory
+│  -rw----     2.0 fat      156 bl defN 24-May-29 16:06 META-INF/services/java.security.Provider
+│  -rw----     2.0 fat      704 bl defN 24-May-29 16:06 META-INF/services/reactor.blockhound.integration.BlockHoundIntegration
+│ -7114 files, 40431535 bytes uncompressed, 9584129 bytes compressed:  76.3%
+│ +6502 files, 36785619 bytes uncompressed, 8710954 bytes compressed:  76.3%
+...
+├── META-INF/DEPENDENCIES
+│ @@ -99,161 +99,7 @@
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│  
+│  
+│  
+│  
+│  
+│  
+│ -// ------------------------------------------------------------------
+│ -// Transitive dependencies of this project determined from the
+│ -// maven pom organized by organization.
+│ -// ------------------------------------------------------------------
+│ -
+│ -ActiveMQ Artemis Core Client
+│ -
+│ -
+│ -From: 'an unknown organization'
+│ -
+│ -  - PEM Key Store Provider (https://github.com/ctron/pem-keystore) de.dentrassi.crypto:pem-keystore:jar:2.4.0
+│ -    License: Eclipse Public License - v 1.0  (https://www.eclipse.org/legal/epl-v10.html)
+│ -
+│ -  - Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs (https://www.bouncycastle.org/java.html) org.bouncycastle:bcpkix-jdk18on:jar:1.78
+│ -    License: Bouncy Castle Licence  (https://www.bouncycastle.org/licence.html)
+│ -
+│ -  - Bouncy Castle Provider (https://www.bouncycastle.org/java.html) org.bouncycastle:bcprov-jdk18on:jar:1.78
+│ -    License: Bouncy Castle Licence  (https://www.bouncycastle.org/licence.html)
+│ -
+│ -  - Bouncy Castle ASN.1 Extension and Utility APIs (https://www.bouncycastle.org/java.html) org.bouncycastle:bcutil-jdk18on:jar:1.78
+│ -    License: Bouncy Castle Licence  (https://www.bouncycastle.org/licence.html)
+│ -
+│ -
+│ -From: 'JBoss, a division of Red Hat' (http://www.jboss.org)
+│ -
+│ -  - JGroups (http://www.jgroups.org) org.jgroups:jgroups:jar:5.3.4.Final
+│ -    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+│ -
+│ -
+...
+│ -
+│ -From: 'The Netty Project' (https://netty.io/)
+│ -
+│ -  - Netty/Buffer (https://netty.io/netty-buffer/) io.netty:netty-buffer:jar:4.1.109.Final
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ -
+│ -  - Netty/Common (https://netty.io/netty-common/) io.netty:netty-common:jar:4.1.109.Final
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ -
+│ -
+│ -
+│ -
+│ -
+│ -
+├── META-INF/NOTICE
+│ @@ -1,13 +1,7 @@
+│  
+│ -ActiveMQ Artemis Commons
+│ +ActiveMQ Artemis Core Client All
+│  Copyright 2024 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+│  
+│ -ActiveMQ Artemis Core Client All
+│ -Copyright 2024 The Apache Software Foundation
+│ -
+│ -ActiveMQ Artemis Core Client
+│ -Copyright 2024 The Apache Software Foundation
+│ -
+├── META-INF/services/org.apache.activemq.artemis.spi.core.remoting.ssl.OpenSSLContextFactory
+│ @@ -1,5 +0,0 @@
+│ -00000000: 6f72 672e 6170 6163 6865 2e61 6374 6976  org.apache.activ
+│ -00000010: 656d 712e 6172 7465 6d69 732e 636f 7265  emq.artemis.core
+│ -00000020: 2e72 656d 6f74 696e 672e 696d 706c 2e73  .remoting.impl.s
+│ -00000030: 736c 2e44 6566 6175 6c74 4f70 656e 5353  sl.DefaultOpenSS
+│ -00000040: 4c43 6f6e 7465 7874 4661 6374 6f72 790a  LContextFactory.
+├── META-INF/services/org.apache.activemq.artemis.spi.core.remoting.ssl.SSLContextFactory
+│ @@ -1,5 +0,0 @@
+│ -00000000: 6f72 672e 6170 6163 6865 2e61 6374 6976  org.apache.activ
+│ -00000010: 656d 712e 6172 7465 6d69 732e 636f 7265  emq.artemis.core
+│ -00000020: 2e72 656d 6f74 696e 672e 696d 706c 2e73  .remoting.impl.s
+│ -00000030: 736c 2e44 6566 6175 6c74 5353 4c43 6f6e  sl.DefaultSSLCon
+│ -00000040: 7465 7874 4661 6374 6f72 7920 0a         textFactory .
+
+# same as previous
+3 / 4 target/reference/org.apache.activemq/artemis-jms-client-all-2.34.0-sources.jar artemis-jms-client-all/target/artemis-jms-client-all-2.34.0-sources.jar
+4 / 4 target/reference/org.apache.activemq/artemis-jakarta-client-all-2.34.0-sources.jar artemis-jakarta-client-all/target/artemis-jakarta-client-all-2.34.0-sources.jar
