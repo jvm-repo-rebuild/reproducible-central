@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Verify PGP signatures plugin
+group-id=org.simplify4u.plugins
+artifact-id=pgpverify-maven-plugin
+version=1.18.2
+
+# source information
+source.scm.uri=scm:git:git@github.com:s4u/pgpverify-maven-plugin.git
+source.scm.tag=v1.18.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.simplify4u.plugins
+outputs.0.filename=pgpverify-maven-plugin-1.18.2.pom
+outputs.0.length=22412
+outputs.0.checksums.sha512=349410b2593ec5138d1473c6840f90f0395bbc89a05edcc3f0a35c7445909d79bd56615ad86f143c225b74d2702cdfbf306dc76eb18a54da74624b16ad22f670
+
+outputs.1.groupId=org.simplify4u.plugins
+outputs.1.filename=pgpverify-maven-plugin-1.18.2.jar
+outputs.1.length=164177
+outputs.1.checksums.sha512=049410bf376bc59b4e1eef949b86a8d7bc3177a529ef583cbea9d22d6740e3dd3e849120ec8c41295acb3ea228811bbb1189ecaeee55e44eb250661b2b6be8b1
+
+outputs.2.groupId=org.simplify4u.plugins
+outputs.2.filename=pgpverify-maven-plugin-1.18.2-sources.jar
+outputs.2.length=84966
+outputs.2.checksums.sha512=219161f07b9fe46eb6ee395968a9f11cf2362b0363b03876a0d734dae3bc460732fbe87e4efec70d718da9a4356c9b950f7d0b0690e879e4125e74733ab9c01e
