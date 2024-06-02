@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/activemq-artemis.git](https://github.com/apache/activemq-artemis.git)
 
-<details><summary>This project defines 212 modules:</summary>
+<details><summary>This project defines 218 modules:</summary>
 
 * [org.apache.activemq.examples.amqp:amqp](https://central.sonatype.com/artifact/org.apache.activemq.examples.amqp/amqp/2.31.2)
 * [org.apache.activemq.examples.amqp:proton-clustered-cpp](https://central.sonatype.com/artifact/org.apache.activemq.examples.amqp/proton-clustered-cpp/2.31.2)
@@ -172,6 +172,7 @@ Source code: [https://github.com/apache/activemq-artemis.git](https://github.com
 * [org.apache.activemq:activemq-branding](https://central.sonatype.com/artifact/org.apache.activemq/activemq-branding/2.31.2)
 * [org.apache.activemq:apache-artemis](https://central.sonatype.com/artifact/org.apache.activemq/apache-artemis/2.31.2)
 * [org.apache.activemq:artemis-amqp-protocol](https://central.sonatype.com/artifact/org.apache.activemq/artemis-amqp-protocol/2.31.2)
+* [org.apache.activemq:artemis-bom](https://central.sonatype.com/artifact/org.apache.activemq/artemis-bom/2.31.2)
 * [org.apache.activemq:artemis-boot](https://central.sonatype.com/artifact/org.apache.activemq/artemis-boot/2.31.2)
 * [org.apache.activemq:artemis-cdi-client](https://central.sonatype.com/artifact/org.apache.activemq/artemis-cdi-client/2.31.2)
 * [org.apache.activemq:artemis-cli](https://central.sonatype.com/artifact/org.apache.activemq/artemis-cli/2.31.2)
@@ -189,6 +190,7 @@ Source code: [https://github.com/apache/activemq-artemis.git](https://github.com
 * [org.apache.activemq:artemis-image-examples](https://central.sonatype.com/artifact/org.apache.activemq/artemis-image-examples/2.31.2)
 * [org.apache.activemq:artemis-jakarta-client](https://central.sonatype.com/artifact/org.apache.activemq/artemis-jakarta-client/2.31.2)
 * [org.apache.activemq:artemis-jakarta-client-all](https://central.sonatype.com/artifact/org.apache.activemq/artemis-jakarta-client-all/2.31.2)
+* [org.apache.activemq:artemis-jakarta-openwire-protocol](https://central.sonatype.com/artifact/org.apache.activemq/artemis-jakarta-openwire-protocol/2.31.2)
 * [org.apache.activemq:artemis-jakarta-ra](https://central.sonatype.com/artifact/org.apache.activemq/artemis-jakarta-ra/2.31.2)
 * [org.apache.activemq:artemis-jakarta-server](https://central.sonatype.com/artifact/org.apache.activemq/artemis-jakarta-server/2.31.2)
 * [org.apache.activemq:artemis-jakarta-service-extensions](https://central.sonatype.com/artifact/org.apache.activemq/artemis-jakarta-service-extensions/2.31.2)
@@ -202,12 +204,16 @@ Source code: [https://github.com/apache/activemq-artemis.git](https://github.com
 * [org.apache.activemq:artemis-junit-5](https://central.sonatype.com/artifact/org.apache.activemq/artemis-junit-5/2.31.2)
 * [org.apache.activemq:artemis-junit-commons](https://central.sonatype.com/artifact/org.apache.activemq/artemis-junit-commons/2.31.2)
 * [org.apache.activemq:artemis-junit-parent](https://central.sonatype.com/artifact/org.apache.activemq/artemis-junit-parent/2.31.2)
+* [org.apache.activemq:artemis-lockmanager](https://central.sonatype.com/artifact/org.apache.activemq/artemis-lockmanager/2.31.2)
+* [org.apache.activemq:artemis-lockmanager-api](https://central.sonatype.com/artifact/org.apache.activemq/artemis-lockmanager-api/2.31.2)
+* [org.apache.activemq:artemis-lockmanager-ri](https://central.sonatype.com/artifact/org.apache.activemq/artemis-lockmanager-ri/2.31.2)
 * [org.apache.activemq:artemis-log-annotation-processor](https://central.sonatype.com/artifact/org.apache.activemq/artemis-log-annotation-processor/2.31.2)
 * [org.apache.activemq:artemis-maven-plugin](https://central.sonatype.com/artifact/org.apache.activemq/artemis-maven-plugin/2.31.2)
 * [org.apache.activemq:artemis-mqtt-protocol](https://central.sonatype.com/artifact/org.apache.activemq/artemis-mqtt-protocol/2.31.2)
 * [org.apache.activemq:artemis-openwire-protocol](https://central.sonatype.com/artifact/org.apache.activemq/artemis-openwire-protocol/2.31.2)
 * [org.apache.activemq:artemis-plugin](https://central.sonatype.com/artifact/org.apache.activemq/artemis-plugin/2.31.2)
 * [org.apache.activemq:artemis-pom](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.31.2)
+* [org.apache.activemq:artemis-project](https://central.sonatype.com/artifact/org.apache.activemq/artemis-project/2.31.2)
 * [org.apache.activemq:artemis-protocols](https://central.sonatype.com/artifact/org.apache.activemq/artemis-protocols/2.31.2)
 * [org.apache.activemq:artemis-quorum-api](https://central.sonatype.com/artifact/org.apache.activemq/artemis-quorum-api/2.31.2)
 * [org.apache.activemq:artemis-quorum-ri](https://central.sonatype.com/artifact/org.apache.activemq/artemis-quorum-ri/2.31.2)
