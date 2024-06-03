@@ -258,6 +258,7 @@ rebuilding **8 releases** of org.eclipse.jetty:jetty-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [12.0.10](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.10/pom) | | | |
 | [12.0.9](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.9/pom) | [mvn jdk22](jetty-project-12.0.9.buildspec) | [result](jetty-project-12.0.9.buildinfo): [767 :white_check_mark: ](jetty-project-12.0.9.buildcompare) | 244M |
 | [12.0.8](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.8/pom) | [mvn jdk21](jetty-project-12.0.8.buildspec) | [result](jetty-project-12.0.8.buildinfo): [756 :white_check_mark: ](jetty-project-12.0.8.buildcompare) | 228M |
 | [12.0.7](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.7/pom) | [mvn jdk21](jetty-project-12.0.7.buildspec) | [result](jetty-project-12.0.7.buildinfo): [756 :white_check_mark: ](jetty-project-12.0.7.buildcompare) | 226M |

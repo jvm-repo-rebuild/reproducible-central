@@ -3,8 +3,8 @@
   <groupId>io.liftwizard</groupId>
   <artifactId>liftwizard</artifactId>
   <versioning>
-    <latest>2.1.9</latest>
-    <release>2.1.9</release>
+    <latest>2.1.10</latest>
+    <release>2.1.10</release>
     <versions>
       <version>0.1.0</version>
       <version>0.2.0</version>
@@ -57,7 +57,8 @@
       <version>2.1.7</version>
       <version>2.1.8</version>
       <version>2.1.9</version>
+      <version>2.1.10</version>
     </versions>
-    <lastUpdated>20240506172951</lastUpdated>
+    <lastUpdated>20240603020037</lastUpdated>
   </versioning>
 </metadata>
