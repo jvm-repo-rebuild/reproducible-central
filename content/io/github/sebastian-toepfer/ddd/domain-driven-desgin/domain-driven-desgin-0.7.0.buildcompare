@@ -1,0 +1,9 @@
+version=0.7.0
+ok=43
+ko=0
+ignored=0
+okFiles="domain-driven-desgin-0.7.0.pom domain-driven-desgin-0.7.0-cyclonedx.xml domain-driven-desgin-0.7.0-cyclonedx.json common-0.7.0.pom common-0.7.0.jar common-0.7.0-cyclonedx.xml common-0.7.0-cyclonedx.json common-0.7.0-sources.jar printables-core-0.7.0.pom printables-core-0.7.0.jar printables-core-0.7.0-cyclonedx.xml printables-core-0.7.0-cyclonedx.json printables-core-0.7.0-sources.jar media-core-0.7.0.pom media-core-0.7.0.jar media-core-0.7.0-cyclonedx.xml media-core-0.7.0-cyclonedx.json media-core-0.7.0-sources.jar media-message-0.7.0.pom media-message-0.7.0.jar media-message-0.7.0-cyclonedx.xml media-message-0.7.0-cyclonedx.json media-message-0.7.0-sources.jar media-logging-0.7.0.pom media-logging-0.7.0.jar media-logging-0.7.0-cyclonedx.xml media-logging-0.7.0-cyclonedx.json media-logging-0.7.0-sources.jar media-json-api-0.7.0.pom media-json-api-0.7.0.jar media-json-api-0.7.0-cyclonedx.xml media-json-api-0.7.0-cyclonedx.json media-json-api-0.7.0-sources.jar media-logging-slf4j-0.7.0.pom media-logging-slf4j-0.7.0.jar media-logging-slf4j-0.7.0-cyclonedx.xml media-logging-slf4j-0.7.0-cyclonedx.json media-logging-slf4j-0.7.0-sources.jar media-poi-spreadsheet-0.7.0.pom media-poi-spreadsheet-0.7.0.jar media-poi-spreadsheet-0.7.0-cyclonedx.xml media-poi-spreadsheet-0.7.0-cyclonedx.json media-poi-spreadsheet-0.7.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
