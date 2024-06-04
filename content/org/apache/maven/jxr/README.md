@@ -9,17 +9,18 @@ Source code: [https://github.com/apache/maven-jxr.git](https://github.com/apache
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [org.apache.maven.jxr:jxr](https://central.sonatype.com/artifact/org.apache.maven.jxr/jxr/3.3.2)
-* [org.apache.maven.plugins:maven-jxr-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-jxr-plugin/3.3.2)
-* [org.apache.maven:maven-jxr](https://central.sonatype.com/artifact/org.apache.maven/maven-jxr/3.3.2)
+* [org.apache.maven.jxr:jxr](https://central.sonatype.com/artifact/org.apache.maven.jxr/jxr/3.4.0)
+* [org.apache.maven.plugins:maven-jxr-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-jxr-plugin/3.4.0)
+* [org.apache.maven:maven-jxr](https://central.sonatype.com/artifact/org.apache.maven/maven-jxr/3.4.0)
 </details>
 
-rebuilding **5 releases** of org.apache.maven.jxr:jxr:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **6 releases** of org.apache.maven.jxr:jxr:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.4.0](https://central.sonatype.com/artifact/org.apache.maven.jxr/jxr/3.4.0/pom) | [mvn jdk8 w](jxr-3.4.0.buildspec) | [result](jxr-3.4.0.buildinfo): [14 :white_check_mark: ](jxr-3.4.0.buildcompare) | 1.4M |
 | [3.3.2](https://central.sonatype.com/artifact/org.apache.maven.jxr/jxr/3.3.2/pom) | [mvn jdk8 w](jxr-3.3.2.buildspec) | [result](jxr-3.3.2.buildinfo): [15 :white_check_mark: ](jxr-3.3.2.buildcompare) | 1.3M |
 | [3.3.1](https://central.sonatype.com/artifact/org.apache.maven.jxr/jxr/3.3.1/pom) | [mvn jdk8 w](jxr-3.3.1.buildspec) | [result](jxr-3.3.1.buildinfo): [15 :white_check_mark: ](jxr-3.3.1.buildcompare) | 1.3M |
 | [3.3.0](https://central.sonatype.com/artifact/org.apache.maven.jxr/jxr/3.3.0/pom) | [mvn jdk8 w](jxr-3.3.0.buildspec) | [result](jxr-3.3.0.buildinfo): [9 :white_check_mark: ](jxr-3.3.0.buildcompare) | 641K |
