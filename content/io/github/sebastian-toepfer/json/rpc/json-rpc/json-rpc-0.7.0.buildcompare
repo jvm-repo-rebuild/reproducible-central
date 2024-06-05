@@ -1,56 +1,9 @@
 version=0.7.0
-ok=37
-ko=47
+ok=34
+ko=0
 ignored=0
-okFiles="json-rpc-0.7.0.pom json-rpc-runtime-0.7.0.pom json-rpc-runtime-0.7.0.jar json-rpc-runtime-0.7.0-cyclonedx.xml json-rpc-runtime-0.7.0-cyclonedx.json json-rpc-runtime-0.7.0-sources.jar json-rpc-boundary-0.7.0.pom json-rpc-boundary-0.7.0.jar json-rpc-boundary-0.7.0-cyclonedx.xml json-rpc-boundary-0.7.0-cyclonedx.json json-rpc-boundary-0.7.0-sources.jar json-rpc-extension-0.7.0.pom json-rpc-extension-0.7.0-cyclonedx.xml json-rpc-extension-0.7.0-cyclonedx.json json-rpc-extension-openrpc-0.7.0.pom json-rpc-extension-openrpc-0.7.0.jar json-rpc-extension-openrpc-0.7.0-cyclonedx.xml json-rpc-extension-openrpc-0.7.0-cyclonedx.json json-rpc-extension-openrpc-0.7.0-sources.jar json-rpc-extension-micrometer-0.7.0.pom json-rpc-extension-micrometer-0.7.0.jar json-rpc-extension-micrometer-0.7.0-cyclonedx.xml json-rpc-extension-micrometer-0.7.0-cyclonedx.json json-rpc-extension-micrometer-0.7.0-sources.jar json-rpc-extension-openrpc-0.7.0.pom json-rpc-extension-openrpc-0.7.0.jar json-rpc-extension-openrpc-0.7.0-cyclonedx.xml json-rpc-extension-openrpc-0.7.0-cyclonedx.json json-rpc-spring-integration-autoconfigure-0.7.0.pom json-rpc-spring-integration-autoconfigure-0.7.0.jar json-rpc-spring-integration-autoconfigure-0.7.0-cyclonedx.xml json-rpc-spring-integration-autoconfigure-0.7.0-cyclonedx.json json-rpc-spring-integration-autoconfigure-0.7.0-sources.jar json-rpc-spring-integration-starter-0.7.0.pom json-rpc-spring-integration-starter-0.7.0.jar json-rpc-spring-integration-starter-0.7.0-cyclonedx.xml json-rpc-spring-integration-starter-0.7.0-cyclonedx.json"
-koFiles="json-rpc-0.7.0-cyclonedx.xml json-rpc-0.7.0-cyclonedx.json json-rpc-tck-0.7.0.pom json-rpc-tck-0.7.0.jar json-rpc-tck-0.7.0-cyclonedx.xml json-rpc-tck-0.7.0-cyclonedx.json json-rpc-tck-0.7.0-sources.jar json-rpc-sample-0.7.0.pom json-rpc-sample-0.7.0-cyclonedx.xml json-rpc-sample-0.7.0-cyclonedx.json json-rpc-sample-core-0.7.0.pom json-rpc-sample-core-0.7.0.jar json-rpc-sample-core-0.7.0-cyclonedx.xml json-rpc-sample-core-0.7.0-cyclonedx.json json-rpc-sample-core-0.7.0-sources.jar json-rpc-sample-json-rpc-adapter-0.7.0.pom json-rpc-sample-json-rpc-adapter-0.7.0.jar json-rpc-sample-json-rpc-adapter-0.7.0-cyclonedx.xml json-rpc-sample-json-rpc-adapter-0.7.0-cyclonedx.json json-rpc-sample-json-rpc-adapter-0.7.0-sources.jar json-rpc-sample-payara-0.7.0.pom json-rpc-sample-payara-0.7.0.war json-rpc-sample-payara-0.7.0-cyclonedx.xml json-rpc-sample-payara-0.7.0-cyclonedx.json json-rpc-sample-payara-0.7.0-sources.jar json-rpc-sample-payara-0.7.0-startClass.jar json-rpc-sample-payara-0.7.0-microbundle.jar json-rpc-sample-spring-boot-0.7.0.pom json-rpc-sample-spring-boot-0.7.0.jar json-rpc-sample-spring-boot-0.7.0-cyclonedx.xml json-rpc-sample-spring-boot-0.7.0-cyclonedx.json json-rpc-sample-spring-boot-0.7.0-sources.jar json-rpc-sample-quarkus-0.7.0.pom json-rpc-sample-quarkus-0.7.0.jar json-rpc-sample-quarkus-0.7.0-cyclonedx.xml json-rpc-sample-quarkus-0.7.0-cyclonedx.json json-rpc-sample-quarkus-0.7.0-runner.jar json-rpc-sample-quarkus-0.7.0-sources.jar json-rpc-jmeter-0.7.0.pom json-rpc-jmeter-0.7.0.jar json-rpc-jmeter-0.7.0-cyclonedx.xml json-rpc-jmeter-0.7.0-cyclonedx.json json-rpc-benchmark-0.7.0.pom json-rpc-benchmark-0.7.0.jar json-rpc-benchmark-0.7.0-cyclonedx.xml json-rpc-benchmark-0.7.0-cyclonedx.json json-rpc-benchmark-0.7.0-sources.jar"
+okFiles="json-rpc-0.7.0.pom json-rpc-0.7.0-cyclonedx.xml json-rpc-0.7.0-cyclonedx.json json-rpc-runtime-0.7.0.pom json-rpc-runtime-0.7.0.jar json-rpc-runtime-0.7.0-cyclonedx.xml json-rpc-runtime-0.7.0-cyclonedx.json json-rpc-boundary-0.7.0.pom json-rpc-boundary-0.7.0.jar json-rpc-boundary-0.7.0-cyclonedx.xml json-rpc-boundary-0.7.0-cyclonedx.json json-rpc-extension-0.7.0.pom json-rpc-extension-0.7.0-cyclonedx.xml json-rpc-extension-0.7.0-cyclonedx.json json-rpc-extension-openrpc-0.7.0.pom json-rpc-extension-openrpc-0.7.0.jar json-rpc-extension-openrpc-0.7.0-cyclonedx.xml json-rpc-extension-openrpc-0.7.0-cyclonedx.json json-rpc-extension-micrometer-0.7.0.pom json-rpc-extension-micrometer-0.7.0.jar json-rpc-extension-micrometer-0.7.0-cyclonedx.xml json-rpc-extension-micrometer-0.7.0-cyclonedx.json json-rpc-extension-openrpc-0.7.0.pom json-rpc-extension-openrpc-0.7.0.jar json-rpc-extension-openrpc-0.7.0-cyclonedx.xml json-rpc-extension-openrpc-0.7.0-cyclonedx.json json-rpc-spring-integration-autoconfigure-0.7.0.pom json-rpc-spring-integration-autoconfigure-0.7.0.jar json-rpc-spring-integration-autoconfigure-0.7.0-cyclonedx.xml json-rpc-spring-integration-autoconfigure-0.7.0-cyclonedx.json json-rpc-spring-integration-starter-0.7.0.pom json-rpc-spring-integration-starter-0.7.0.jar json-rpc-spring-integration-starter-0.7.0-cyclonedx.xml json-rpc-spring-integration-starter-0.7.0-cyclonedx.json"
+koFiles=""
 ignoredFiles=""
 reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-0.7.0-cyclonedx.xml target/sbom.xml
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-0.7.0-cyclonedx.json target/sbom.json
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-tck-0.7.0.pom tck/pom.xml
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-tck-0.7.0.jar tck/target/json-rpc-tck-0.7.0.jar
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-tck-0.7.0-cyclonedx.xml tck/target/sbom.xml
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-tck-0.7.0-cyclonedx.json tck/target/sbom.json
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-tck-0.7.0-sources.jar tck/target/json-rpc-tck-0.7.0-sources.jar
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-0.7.0.pom sample/pom.xml
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-0.7.0-cyclonedx.xml sample/target/sbom.xml
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-0.7.0-cyclonedx.json sample/target/sbom.json
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-core-0.7.0.pom sample/core/pom.xml
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-core-0.7.0.jar sample/core/target/json-rpc-sample-core-0.7.0.jar
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-core-0.7.0-cyclonedx.xml sample/core/target/sbom.xml
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-core-0.7.0-cyclonedx.json sample/core/target/sbom.json
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-core-0.7.0-sources.jar sample/core/target/json-rpc-sample-core-0.7.0-sources.jar
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-json-rpc-adapter-0.7.0.pom sample/json-rpc-adapter/pom.xml
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-json-rpc-adapter-0.7.0.jar sample/json-rpc-adapter/target/json-rpc-sample-json-rpc-adapter-0.7.0.jar
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-json-rpc-adapter-0.7.0-cyclonedx.xml sample/json-rpc-adapter/target/sbom.xml
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-json-rpc-adapter-0.7.0-cyclonedx.json sample/json-rpc-adapter/target/sbom.json
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-json-rpc-adapter-0.7.0-sources.jar sample/json-rpc-adapter/target/json-rpc-sample-json-rpc-adapter-0.7.0-sources.jar
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-payara-0.7.0.pom sample/payara/pom.xml
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-payara-0.7.0.war sample/payara/target/json-rpc-sample-payara-0.7.0.war
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-payara-0.7.0-cyclonedx.xml sample/payara/target/sbom.xml
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-payara-0.7.0-cyclonedx.json sample/payara/target/sbom.json
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-payara-0.7.0-sources.jar sample/payara/target/json-rpc-sample-payara-0.7.0-sources.jar
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-payara-0.7.0-startClass.jar sample/payara/target/extracted-payaramicro/MICRO-INF/lib/json-rpc-sample-payara-0.7.0-startClass.jar
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-payara-0.7.0-microbundle.jar sample/payara/target/json-rpc-sample-payara-0.7.0-microbundle.jar
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-spring-boot-0.7.0.pom sample/spring-boot/pom.xml
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-spring-boot-0.7.0.jar sample/spring-boot/target/json-rpc-sample-spring-boot-0.7.0.jar
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-spring-boot-0.7.0-cyclonedx.xml sample/spring-boot/target/sbom.xml
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-spring-boot-0.7.0-cyclonedx.json sample/spring-boot/target/sbom.json
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-spring-boot-0.7.0-sources.jar sample/spring-boot/target/json-rpc-sample-spring-boot-0.7.0-sources.jar
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-quarkus-0.7.0.pom sample/quarkus/pom.xml
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-quarkus-0.7.0.jar sample/quarkus/target/json-rpc-sample-quarkus-0.7.0.jar.original
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-quarkus-0.7.0-cyclonedx.xml sample/quarkus/target/sbom.xml
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-quarkus-0.7.0-cyclonedx.json sample/quarkus/target/sbom.json
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-quarkus-0.7.0-runner.jar sample/quarkus/target/json-rpc-sample-quarkus-0.7.0-runner.jar
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-sample-quarkus-0.7.0-sources.jar sample/quarkus/target/json-rpc-sample-quarkus-0.7.0-sources.jar
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-jmeter-0.7.0.pom jmeter/pom.xml
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-jmeter-0.7.0.jar jmeter/target/json-rpc-jmeter-0.7.0.jar
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-jmeter-0.7.0-cyclonedx.xml jmeter/target/sbom.xml
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-jmeter-0.7.0-cyclonedx.json jmeter/target/sbom.json
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-benchmark-0.7.0.pom benchmark/dependency-reduced-pom.xml
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-benchmark-0.7.0.jar benchmark/target/json-rpc-benchmark-0.7.0.jar
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-benchmark-0.7.0-cyclonedx.xml benchmark/target/sbom.xml
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-benchmark-0.7.0-cyclonedx.json benchmark/target/sbom.json
-# diffoscope target/reference/io.github.sebastian-toepfer.json.rpc/json-rpc-benchmark-0.7.0-sources.jar benchmark/target/json-rpc-benchmark-0.7.0-sources.jar

@@ -18,7 +18,7 @@ newline=lf
 umask=022
 
 # Rebuild command
-command="mvn -Possrh clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+command="mvn -P!full clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 
 # Location of the buildinfo file generated during rebuild (by artifact:compare for Maven) to record output fingerprints
 buildinfo=target/${artifactId}-${version}.buildinfo
