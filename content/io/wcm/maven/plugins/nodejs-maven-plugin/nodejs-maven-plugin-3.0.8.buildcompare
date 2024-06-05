@@ -1,0 +1,9 @@
+version=3.0.8
+ok=3
+ko=0
+ignored=0
+okFiles="nodejs-maven-plugin-3.0.8.pom nodejs-maven-plugin-3.0.8.jar nodejs-maven-plugin-3.0.8-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"

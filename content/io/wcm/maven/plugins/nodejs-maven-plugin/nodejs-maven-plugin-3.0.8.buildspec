@@ -1,0 +1,19 @@
+groupId=io.wcm.maven.plugins
+artifactId=nodejs-maven-plugin
+display=${groupId}-tooling:parent_toplevel
+version=3.0.8
+
+gitRepo=https://github.com/wcm-io/${artifactId}.git
+gitTag=${version}
+
+tool=mvn-3.9.7
+jdk=17
+newline=crlf-nogit
+# need to execute: find src -name '*.java' -exec chmod a-x {} \;
+# see https://github.com/wcm-io/io.wcm.maven.plugins.nodejs-maven-plugin/pull/25
+
+command="mvn -Pio.wcm clean package -DskipTests -Dmaven.javadoc.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
