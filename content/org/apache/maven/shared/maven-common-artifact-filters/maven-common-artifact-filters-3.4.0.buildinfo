@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Common Artifact Filters
+group-id=org.apache.maven.shared
+artifact-id=maven-common-artifact-filters
+version=3.4.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-common-artifact-filters.git
+source.scm.tag=maven-common-artifact-filters-3.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.maven.shared
+outputs.0.filename=maven-common-artifact-filters-3.4.0.pom
+outputs.0.length=5374
+outputs.0.checksums.sha512=971d6265125be4763d5a9913309d3500173abdf90251ff684c46f4599e317307d4023aed1af9c6395202e0f5db2938430fc719f316e784248e37d103d8cfde1d
+
+outputs.1.groupId=org.apache.maven.shared
+outputs.1.filename=maven-common-artifact-filters-3.4.0.jar
+outputs.1.length=58459
+outputs.1.checksums.sha512=51a063ac45441485c1b1d94c9554cb74cb34354bd76783aec5ed6e9789cd7e78e9a70e6d51a3b14d9e1c68d1f060e14e996399afb8015970262b056816a0668b
+
+outputs.2.groupId=org.apache.maven.shared
+outputs.2.filename=maven-common-artifact-filters-3.4.0-source-release.zip
+outputs.2.length=111855
+outputs.2.checksums.sha512=f036fda620f26397ab863ecf4ada93f2c314690bb4ee08efc3af6ab66e2a2bcebfb0c6655e317723375b754b202410d19ca9c015caaa068bc2ab07f9b858b14d
+
+outputs.3.groupId=org.apache.maven.shared
+outputs.3.filename=maven-common-artifact-filters-3.4.0-sources.jar
+outputs.3.length=57542
+outputs.3.checksums.sha512=6026165acf538b34f1e8b34b631ee40c3764a99ee9471b3c2dc5f8e87f93516f8f374165093bfef8f3bd4b1895b45f9f830c50a8383251bc7d06f0dfd7a0cb00
+
+outputs.4.groupId=org.apache.maven.shared
+outputs.4.filename=maven-common-artifact-filters-3.4.0-cyclonedx.xml
+outputs.4.length=80749
+outputs.4.checksums.sha512=3af4ac949f1b3d0565a4f0448be5cf5fd7924f1f3915341cceb7e06a2b247f44c4315c983afd632b6cb60447eeaff1d2ae924c2752f29c15cdb84a04e6adf860
+
+outputs.5.groupId=org.apache.maven.shared
+outputs.5.filename=maven-common-artifact-filters-3.4.0-cyclonedx.json
+outputs.5.length=93410
+outputs.5.checksums.sha512=596890d36d625ca8a1b956e1f34b9be89a709c69b0090712aada2ae832b5506ecf0dd2681ae2a81cc69427138d7117e2ac7f27917294d88056b24bfd2f4f9724
