@@ -3,7 +3,7 @@ artifactId=mariaDB4j
 display=${groupId}:${artifactId}
 version=3.1.0
 
-gitRepo=https://github.com/vorburger/MariaDB4j.git
+gitRepo=https://github.com/MariaDB4j/MariaDB4j.git
 gitTag=${artifactId}-${version}
 
 tool=mvn-3.9.5
