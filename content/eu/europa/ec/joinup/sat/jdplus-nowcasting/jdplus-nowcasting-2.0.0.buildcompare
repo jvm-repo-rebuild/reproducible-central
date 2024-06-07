@@ -1,0 +1,9 @@
+version=2.0.0
+ok=12
+ko=0
+ignored=0
+okFiles="jdplus-nowcasting-2.0.0.pom jdplus-nowcasting-base-2.0.0.pom jdplus-dfm-base-parent-2.0.0.pom jdplus-dfm-base-api-2.0.0.pom jdplus-dfm-base-api-2.0.0.jar jdplus-dfm-base-core-2.0.0.pom jdplus-dfm-base-core-2.0.0.jar jdplus-dfm-base-r-2.0.0.pom jdplus-dfm-base-r-2.0.0.jar jdplus-nowcasting-desktop-2.0.0.pom jdplus-nowcasting-cli-2.0.0.pom jdplus-nowcasting-bom-2.0.0.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
