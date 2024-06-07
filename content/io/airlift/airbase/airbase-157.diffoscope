@@ -1,0 +1,54 @@
+1 / 1 target/reference/io.airlift/airbase-policy-157.jar airbase-policy/target/airbase-policy-157.jar
+--- target/reference/io.airlift/airbase-policy-157.jar
++++ airbase-policy/target/airbase-policy-157.jar
+├── zipinfo {}
+│ @@ -1,14 +1,14 @@
+│  Zip file size: 5272 bytes, number of entries: 12
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-05 11:09 META-INF/
+│ --rw-r--r--  2.0 unx       81 b- defN 24-Jun-05 11:09 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-05 11:09 checkstyle/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-05 11:09 license/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-05 11:09 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-05 11:09 META-INF/maven/io.airlift/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-05 11:09 META-INF/maven/io.airlift/airbase-policy/
+│ --rw-r--r--  2.0 unx    12980 b- defN 24-Jun-05 11:09 checkstyle/airbase-checks.xml
+│ --rw-r--r--  2.0 unx      543 b- defN 24-Jun-05 11:09 license/apache-copyright-header.txt
+│ --rw-r--r--  2.0 unx      524 b- defN 24-Jun-05 11:09 license/apache-header.txt
+│ --rw-r--r--  2.0 unx      650 b- defN 24-Jun-05 11:08 META-INF/maven/io.airlift/airbase-policy/pom.xml
+│ --rw-r--r--  2.0 unx       57 b- defN 24-Jun-05 11:09 META-INF/maven/io.airlift/airbase-policy/pom.properties
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-07 18:18 META-INF/
+│ +-rw-r--r--  2.0 unx       81 b- defN 24-Jun-07 18:18 META-INF/MANIFEST.MF
+│ +drwxrwxr-x  2.0 unx        0 b- stor 24-Jun-07 18:18 checkstyle/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 24-Jun-07 18:18 license/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-07 18:18 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-07 18:18 META-INF/maven/io.airlift/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-07 18:18 META-INF/maven/io.airlift/airbase-policy/
+│ +-rw-rw-r--  2.0 unx    12980 b- defN 24-Jun-07 18:18 checkstyle/airbase-checks.xml
+│ +-rw-rw-r--  2.0 unx      524 b- defN 24-Jun-07 18:18 license/apache-header.txt
+│ +-rw-rw-r--  2.0 unx      543 b- defN 24-Jun-07 18:18 license/apache-copyright-header.txt
+│ +-rw-rw-r--  2.0 unx      650 b- defN 24-Jun-07 18:18 META-INF/maven/io.airlift/airbase-policy/pom.xml
+│ +-rw-rw-r--  2.0 unx       57 b- defN 24-Jun-07 18:18 META-INF/maven/io.airlift/airbase-policy/pom.properties
+│  12 files, 14835 bytes uncompressed, 3694 bytes compressed:  75.1%
+├── zipnote «TEMP»/diffoscope_hphpeaul_target/tmprff8q99e_.zip
+│ @@ -18,18 +18,18 @@
+│  
+│  Filename: META-INF/maven/io.airlift/airbase-policy/
+│  Comment: 
+│  
+│  Filename: checkstyle/airbase-checks.xml
+│  Comment: 
+│  
+│ -Filename: license/apache-copyright-header.txt
+│ +Filename: license/apache-header.txt
+│  Comment: 
+│  
+│ -Filename: license/apache-header.txt
+│ +Filename: license/apache-copyright-header.txt
+│  Comment: 
+│  
+│  Filename: META-INF/maven/io.airlift/airbase-policy/pom.xml
+│  Comment: 
+│  
+│  Filename: META-INF/maven/io.airlift/airbase-policy/pom.properties
+│  Comment:
+
