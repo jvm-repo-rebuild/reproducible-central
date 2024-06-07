@@ -26,6 +26,7 @@ rebuilding **2 releases** of io.github.sebastian-toepfer.json.rpc:json-rpc:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.8.1](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc/json-rpc/0.8.1/pom) | | | |
 | [0.8.0](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc/json-rpc/0.8.0/pom) | [mvn jdk17](json-rpc-0.8.0.buildspec) | [result](json-rpc-0.8.0.buildinfo): [34 :white_check_mark: ](json-rpc-0.8.0.buildcompare) | 1.1M |
 | [0.7.0](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc/json-rpc/0.7.0/pom) | [mvn jdk17](json-rpc-0.7.0.buildspec) | [result](json-rpc-0.7.0.buildinfo): [34 :white_check_mark: ](json-rpc-0.7.0.buildcompare) | 961K |
 

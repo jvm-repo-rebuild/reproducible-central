@@ -5,7 +5,7 @@
 
 ## Project: [ch.vorburger.mariaDB4j:mariaDB4j](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j/versions)
 
-Source code: [https://github.com/vorburger/MariaDB4j.git](https://github.com/MariaDB4j/MariaDB4j.git)
+Source code: [https://github.com/MariaDB4j/MariaDB4j.git](https://github.com/MariaDB4j/MariaDB4j.git)
 
 <details><summary>This project defines 6 modules:</summary>
 
