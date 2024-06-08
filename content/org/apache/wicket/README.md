@@ -1,0 +1,49 @@
+[org.apache.wicket:wicket-parent](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/versions) RB check
+=======
+
+[![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
+
+## Project: [org.apache.wicket:wicket-parent](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/versions)
+
+Source code: [https://git-wip-us.apache.org/repos/asf/wicket.git](https://git-wip-us.apache.org/repos/asf/wicket.git)
+
+<details><summary>This project defines 27 modules:</summary>
+
+* [org.apache.wicket.experimental.wicket10:wicket-experimental](https://central.sonatype.com/artifact/org.apache.wicket.experimental.wicket10/wicket-experimental/10.1.0)
+* [org.apache.wicket.experimental.wicket10:wicket-metrics](https://central.sonatype.com/artifact/org.apache.wicket.experimental.wicket10/wicket-metrics/10.1.0)
+* [org.apache.wicket:wicket](https://central.sonatype.com/artifact/org.apache.wicket/wicket/10.1.0)
+* [org.apache.wicket:wicket-archetype-quickstart](https://central.sonatype.com/artifact/org.apache.wicket/wicket-archetype-quickstart/10.1.0)
+* [org.apache.wicket:wicket-auth-roles](https://central.sonatype.com/artifact/org.apache.wicket/wicket-auth-roles/10.1.0)
+* [org.apache.wicket:wicket-bean-validation](https://central.sonatype.com/artifact/org.apache.wicket/wicket-bean-validation/10.1.0)
+* [org.apache.wicket:wicket-cdi](https://central.sonatype.com/artifact/org.apache.wicket/wicket-cdi/10.1.0)
+* [org.apache.wicket:wicket-core](https://central.sonatype.com/artifact/org.apache.wicket/wicket-core/10.1.0)
+* [org.apache.wicket:wicket-devutils](https://central.sonatype.com/artifact/org.apache.wicket/wicket-devutils/10.1.0)
+* [org.apache.wicket:wicket-examples](https://central.sonatype.com/artifact/org.apache.wicket/wicket-examples/10.1.0)
+* [org.apache.wicket:wicket-extensions](https://central.sonatype.com/artifact/org.apache.wicket/wicket-extensions/10.1.0)
+* [org.apache.wicket:wicket-extensions-tester](https://central.sonatype.com/artifact/org.apache.wicket/wicket-extensions-tester/10.1.0)
+* [org.apache.wicket:wicket-guice](https://central.sonatype.com/artifact/org.apache.wicket/wicket-guice/10.1.0)
+* [org.apache.wicket:wicket-ioc](https://central.sonatype.com/artifact/org.apache.wicket/wicket-ioc/10.1.0)
+* [org.apache.wicket:wicket-jmx](https://central.sonatype.com/artifact/org.apache.wicket/wicket-jmx/10.1.0)
+* [org.apache.wicket:wicket-migration](https://central.sonatype.com/artifact/org.apache.wicket/wicket-migration/10.1.0)
+* [org.apache.wicket:wicket-native-websocket](https://central.sonatype.com/artifact/org.apache.wicket/wicket-native-websocket/10.1.0)
+* [org.apache.wicket:wicket-native-websocket-core](https://central.sonatype.com/artifact/org.apache.wicket/wicket-native-websocket-core/10.1.0)
+* [org.apache.wicket:wicket-native-websocket-javax](https://central.sonatype.com/artifact/org.apache.wicket/wicket-native-websocket-javax/10.1.0)
+* [org.apache.wicket:wicket-native-websocket-tester](https://central.sonatype.com/artifact/org.apache.wicket/wicket-native-websocket-tester/10.1.0)
+* [org.apache.wicket:wicket-objectsizeof-agent](https://central.sonatype.com/artifact/org.apache.wicket/wicket-objectsizeof-agent/10.1.0)
+* [org.apache.wicket:wicket-parent](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.1.0)
+* [org.apache.wicket:wicket-request](https://central.sonatype.com/artifact/org.apache.wicket/wicket-request/10.1.0)
+* [org.apache.wicket:wicket-spring](https://central.sonatype.com/artifact/org.apache.wicket/wicket-spring/10.1.0)
+* [org.apache.wicket:wicket-tester](https://central.sonatype.com/artifact/org.apache.wicket/wicket-tester/10.1.0)
+* [org.apache.wicket:wicket-util](https://central.sonatype.com/artifact/org.apache.wicket/wicket-util/10.1.0)
+* [org.apache.wicket:wicket-velocity](https://central.sonatype.com/artifact/org.apache.wicket/wicket-velocity/10.1.0)
+</details>
+
+rebuilding **1 releases** of org.apache.wicket:wicket-parent:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [10.1.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.1.0/pom) | [mvn jdk21](wicket-parent-10.1.0.buildspec) | [result](wicket-parent-10.1.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.1.0.buildcompare) | 72M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
