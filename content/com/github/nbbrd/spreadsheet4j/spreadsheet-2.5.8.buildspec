@@ -1,0 +1,18 @@
+groupId=com.github.nbbrd.spreadsheet4j
+artifactId=spreadsheet-parent
+display=${groupId}:${artifactId}
+version=2.5.8
+
+gitRepo=https://github.com/nbbrd/spreadsheet4j.git
+gitTag=v${version}
+
+tool=mvn
+jdk=21
+newline=lf
+umask=022
+
+command="mvn -Pbase-deploy clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
