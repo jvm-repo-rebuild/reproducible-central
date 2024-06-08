@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=IPMI Java Client
+group-id=org.sentrysoftware
+artifact-id=ipmi
+version=1.1.00
+
+# source information
+source.scm.uri=scm:git:https://github.com/sentrysoftware/ipmi.git
+source.scm.tag=v1.1.00
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.sentrysoftware
+outputs.0.filename=ipmi-1.1.00.pom
+outputs.0.length=3650
+outputs.0.checksums.sha512=5c898c08751d6ac8b658b088e97e8bae6b809b93048075c6578257f68332a74462ff822eef7e067c8942fe0cc2761f8f3ce3bd8555bafca535c8c5427708c6c5
+
+outputs.1.groupId=org.sentrysoftware
+outputs.1.filename=ipmi-1.1.00.jar
+outputs.1.length=421250
+outputs.1.checksums.sha512=d746357504e287bc981f1486b414d45efa5e745b9bc785c640118d2babb9d73245ebbf0af27dbe1c0cc86ac13b800dffa6bd2570d864b520059ebbd41e361bd2
+
+outputs.2.groupId=org.sentrysoftware
+outputs.2.filename=ipmi-1.1.00-sources.jar
+outputs.2.length=429690
+outputs.2.checksums.sha512=cb3d6b3d3715836842de95d6f2debb14d23201580442e545345f81bd0bd8713d75353b2bd4c44621a052bf418c4ab02d7a8eabf03e05883e80caf0798bb0097a
