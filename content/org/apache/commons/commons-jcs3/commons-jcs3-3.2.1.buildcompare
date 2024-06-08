@@ -1,0 +1,24 @@
+version=3.2.1
+ok=23
+ko=15
+ignored=0
+okFiles="commons-jcs3-3.2.1.pom commons-jcs3-3.2.1-site.xml commons-jcs3-3.2.1-cyclonedx.xml commons-jcs3-3.2.1-cyclonedx.json commons-jcs3-core-3.2.1.pom commons-jcs3-core-3.2.1-sources.jar commons-jcs3-core-3.2.1-test-sources.jar commons-jcs3-core-3.2.1-cyclonedx.xml commons-jcs3-core-3.2.1-cyclonedx.json commons-jcs3-jcache-3.2.1.pom commons-jcs3-jcache-3.2.1-sources.jar commons-jcs3-jcache-3.2.1-test-sources.jar commons-jcs3-jcache-tck-3.2.1.pom commons-jcs3-jcache-extras-3.2.1.pom commons-jcs3-jcache-extras-3.2.1-sources.jar commons-jcs3-jcache-extras-3.2.1-test-sources.jar commons-jcs3-jcache-extras-3.2.1-cyclonedx.xml commons-jcs3-jcache-extras-3.2.1-cyclonedx.json commons-jcs3-jcache-openjpa-3.2.1.pom commons-jcs3-jcache-openjpa-3.2.1-sources.jar commons-jcs3-jcache-openjpa-3.2.1-test-sources.jar commons-jcs3-jcache-openjpa-3.2.1-cyclonedx.xml commons-jcs3-jcache-openjpa-3.2.1-cyclonedx.json"
+koFiles="commons-jcs3-core-3.2.1.jar commons-jcs3-core-3.2.1-tests.jar commons-jcs3-jcache-3.2.1.jar commons-jcs3-jcache-3.2.1-tests.jar commons-jcs3-jcache-3.2.1-cdi.jar commons-jcs3-jcache-3.2.1-nocdi.jar commons-jcs3-jcache-3.2.1-cyclonedx.xml commons-jcs3-jcache-3.2.1-cyclonedx.json commons-jcs3-jcache-tck-3.2.1.jar commons-jcs3-jcache-tck-3.2.1-cyclonedx.xml commons-jcs3-jcache-tck-3.2.1-cyclonedx.json commons-jcs3-jcache-extras-3.2.1.jar commons-jcs3-jcache-extras-3.2.1-tests.jar commons-jcs3-jcache-openjpa-3.2.1.jar commons-jcs3-jcache-openjpa-3.2.1-tests.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.commons/commons-jcs3-core-3.2.1.jar commons-jcs-core/target/commons-jcs3-core-3.2.1.jar
+# diffoscope target/reference/org.apache.commons/commons-jcs3-core-3.2.1-tests.jar commons-jcs-core/target/commons-jcs3-core-3.2.1-tests.jar
+# diffoscope target/reference/org.apache.commons/commons-jcs3-jcache-3.2.1.jar commons-jcs-jcache/target/commons-jcs3-jcache-3.2.1.jar
+# diffoscope target/reference/org.apache.commons/commons-jcs3-jcache-3.2.1-tests.jar commons-jcs-jcache/target/commons-jcs3-jcache-3.2.1-tests.jar
+# diffoscope target/reference/org.apache.commons/commons-jcs3-jcache-3.2.1-cdi.jar commons-jcs-jcache/target/commons-jcs3-jcache-3.2.1-cdi.jar
+# diffoscope target/reference/org.apache.commons/commons-jcs3-jcache-3.2.1-nocdi.jar commons-jcs-jcache/target/commons-jcs3-jcache-3.2.1-nocdi.jar
+# diffoscope target/reference/org.apache.commons/commons-jcs3-jcache-3.2.1-cyclonedx.xml commons-jcs-jcache/target/commons-jcs3-jcache-3.2.1-bom.xml
+# diffoscope target/reference/org.apache.commons/commons-jcs3-jcache-3.2.1-cyclonedx.json commons-jcs-jcache/target/commons-jcs3-jcache-3.2.1-bom.json
+# diffoscope target/reference/org.apache.commons/commons-jcs3-jcache-tck-3.2.1.jar commons-jcs-tck-tests/target/commons-jcs3-jcache-tck-3.2.1.jar
+# diffoscope target/reference/org.apache.commons/commons-jcs3-jcache-tck-3.2.1-cyclonedx.xml commons-jcs-tck-tests/target/commons-jcs3-jcache-tck-3.2.1-bom.xml
+# diffoscope target/reference/org.apache.commons/commons-jcs3-jcache-tck-3.2.1-cyclonedx.json commons-jcs-tck-tests/target/commons-jcs3-jcache-tck-3.2.1-bom.json
+# diffoscope target/reference/org.apache.commons/commons-jcs3-jcache-extras-3.2.1.jar commons-jcs-jcache-extras/target/commons-jcs3-jcache-extras-3.2.1.jar
+# diffoscope target/reference/org.apache.commons/commons-jcs3-jcache-extras-3.2.1-tests.jar commons-jcs-jcache-extras/target/commons-jcs3-jcache-extras-3.2.1-tests.jar
+# diffoscope target/reference/org.apache.commons/commons-jcs3-jcache-openjpa-3.2.1.jar commons-jcs-jcache-openjpa/target/commons-jcs3-jcache-openjpa-3.2.1.jar
+# diffoscope target/reference/org.apache.commons/commons-jcs3-jcache-openjpa-3.2.1-tests.jar commons-jcs-jcache-openjpa/target/commons-jcs3-jcache-openjpa-3.2.1-tests.jar

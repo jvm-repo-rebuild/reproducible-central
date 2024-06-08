@@ -1,0 +1,60 @@
+# using Felix bundle plugin 5.1.8: issue fixed in 5.1.9 https://issues.apache.org/jira/browse/FELIX-6602, available in commons parent
+1 / 15 target/reference/org.apache.commons/commons-jcs3-core-3.2.1.jar commons-jcs-core/target/commons-jcs3-core-3.2.1.jar
+--- target/reference/org.apache.commons/commons-jcs3-core-3.2.1.jar
++++ commons-jcs-core/target/commons-jcs3-core-3.2.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 547392 bytes, number of entries: 367
+│ +Zip file size: 547390 bytes, number of entries: 367
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-May-27 17:37 META-INF/
+│  -rw-r--r--  2.0 unx     5880 b- defN 24-May-27 17:37 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-May-27 17:37 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-May-27 17:37 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-May-27 17:37 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-May-27 17:37 org/apache/commons/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-May-27 17:37 org/apache/commons/jcs3/
+│ @@ -362,8 +362,8 @@
+│  -rw-r--r--  2.0 unx     1142 b- defN 24-May-27 17:37 org/apache/commons/jcs3/utils/threadpool/ThreadPoolManager$1.class
+│  -rw-r--r--  2.0 unx      832 b- defN 24-May-27 17:37 org/apache/commons/jcs3/utils/threadpool/ThreadPoolManager$ThreadPoolManagerHolder.class
+│  -rw-r--r--  2.0 unx     9920 b- defN 24-May-27 17:37 org/apache/commons/jcs3/utils/threadpool/ThreadPoolManager.class
+│  -rw-r--r--  2.0 unx      974 b- defN 24-May-27 17:37 org/apache/commons/jcs3/utils/timing/ElapsedTimer.class
+│  -rw-r--r--  2.0 unx     2990 b- defN 24-May-27 17:37 org/apache/commons/jcs3/utils/zip/CompressionUtil.class
+│  -rw-r--r--  2.0 unx     8706 b- defN 24-May-27 17:37 META-INF/maven/org.apache.commons/commons-jcs3-core/pom.xml
+│  -rw-r--r--  2.0 unx       70 b- defN 24-May-27 17:37 META-INF/maven/org.apache.commons/commons-jcs3-core/pom.properties
+│ -367 files, 1217137 bytes uncompressed, 474236 bytes compressed:  61.0%
+│ +367 files, 1217137 bytes uncompressed, 474234 bytes compressed:  61.0%
+├── META-INF/MANIFEST.MF
+│ @@ -80,14 +80,14 @@
+│   al,org.apache.http.client.config;resolution:=optional,org.apache.http.c
+
+│   lient.methods;resolution:=optional,org.apache.http.entity;resolution:=o
+
+│   ptional,org.apache.http.impl.client;resolution:=optional,org.apache.htt
+
+│   p.util;resolution:=optional,org.apache.logging.log4j;resolution:=option
+
+│   al,org.apache.logging.log4j.message;resolution:=optional
+
+│  Include-Resource: META-INF/services/org.apache.commons.jcs3.log.LogFacto
+
+│   ry=src/main/resources/META-INF/services/org.apache.commons.jcs3.log.Log
+
+│ - Factory,META-INF/LICENSE=target/maven-shared-archive-resources/META-INF
+
+│ - /LICENSE,META-INF/DEPENDENCIES=target/maven-shared-archive-resources/ME
+
+│ - TA-INF/DEPENDENCIES,META-INF/NOTICE=target/maven-shared-archive-resourc
+
+│ + Factory,META-INF/DEPENDENCIES=target/maven-shared-archive-resources/MET
+
+│ + A-INF/DEPENDENCIES,META-INF/LICENSE=target/maven-shared-archive-resourc
+
+│ + es/META-INF/LICENSE,META-INF/NOTICE=target/maven-shared-archive-resourc
+
+│   es/META-INF/NOTICE
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+│  Tool: Bnd-6.4.0.202211291949
+
+# all same issue, or consequence on fingerprints in CycloneDX SBOMs
