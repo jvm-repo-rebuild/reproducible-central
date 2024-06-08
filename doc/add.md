@@ -4,8 +4,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240607162719 --> [json-rpc](../content/io/github/sebastian-toepfer/json/rpc/json-rpc/README.md) | [0.8.0](../content/io/github/sebastian-toepfer/json/rpc/json-rpc/json-rpc-0.8.0.buildspec) :white_check_mark: | [0.8.1](../content/io/github/sebastian-toepfer/json/rpc/json-rpc/json-rpc-0.8.1.buildspec) | `bin/add-new-release.sh content/io/github/sebastian-toepfer/json/rpc/json-rpc/json-rpc-0.8.0.buildspec 0.8.1` |
-| <!-- 20240607151655 --> [ipmi](../content/org/sentrysoftware/ipmi/README.md) | [1.0.01](../content/org/sentrysoftware/ipmi/ipmi-1.0.01.buildspec) :white_check_mark: | [1.1.00](../content/org/sentrysoftware/ipmi/ipmi-1.1.00.buildspec) | `bin/add-new-release.sh content/org/sentrysoftware/ipmi/ipmi-1.0.01.buildspec 1.1.00` |
+| <!-- 20240608001314 --> [webjars-locator-core](../content/org/webjars/webjars-locator-core/README.md) | [0.58](../content/org/webjars/webjars-locator-core/webjars-locator-core-0.58.buildspec) :white_check_mark: | [0.59](../content/org/webjars/webjars-locator-core/webjars-locator-core-0.59.buildspec) | `bin/add-new-release.sh content/org/webjars/webjars-locator-core/webjars-locator-core-0.58.buildspec 0.59` |
+| <!-- 20240607215631 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | [312](../content/org/alluxio/alluxio/alluxio-312.buildspec) :white_check_mark: | [313](../content/org/alluxio/alluxio/alluxio-313.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-312.buildspec 313` |
+| <!-- 20240607210025 --> [liftwizard](../content/io/liftwizard/README.md) | [2.1.11](../content/io/liftwizard/liftwizard-2.1.11.buildspec) :white_check_mark: | [2.1.12](../content/io/liftwizard/liftwizard-2.1.12.buildspec) | `bin/add-new-release.sh content/io/liftwizard/liftwizard-2.1.11.buildspec 2.1.12` |
 | <!-- 20240527193535 --> [impsort-maven-plugin](../content/net/revelc/code/impsort-maven-plugin/README.md) | [1.9.0](../content/net/revelc/code/impsort-maven-plugin/impsort-maven-plugin-1.9.0.buildspec) :white_check_mark: | [1.10.0](../content/net/revelc/code/impsort-maven-plugin/impsort-maven-plugin-1.10.0.buildspec) | `bin/add-new-release.sh content/net/revelc/code/impsort-maven-plugin/impsort-maven-plugin-1.9.0.buildspec 1.10.0` |
 | <!-- 20240415210210 --> [migratedb](../content/de/unentscheidbar/migratedb/README.md) | [1.0.0](../content/de/unentscheidbar/migratedb/migratedb-1.0.0.buildspec) :white_check_mark: | [1.1.0](../content/de/unentscheidbar/migratedb/migratedb-1.1.0.buildspec) | `bin/add-new-release.sh content/de/unentscheidbar/migratedb/migratedb-1.0.0.buildspec 1.1.0` |
 | <!-- 20240415113130 --> [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | [7.26.0](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.26.0.buildspec) :white_check_mark: | [7.26.1](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.26.1.buildspec) | `bin/add-new-release.sh content/nl/basjes/parse/useragent/yauaa/yauaa-7.26.0.buildspec 7.26.1` |
@@ -37,7 +38,6 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240607121245 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | [1.38.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.38.0.buildspec) :warning: [:memo:](https://github.com/open-telemetry/opentelemetry-java/pull/6471) | [1.39.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.39.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/java/opentelemetry-sdk-1.38.0.buildspec 1.39.0` |
 | <!-- 20240605234228 --> [jooby](../content/io/jooby/README.md) | [3.0.5](../content/io/jooby/jooby-3.0.5.buildspec) :warning: | [3.1.3](../content/io/jooby/jooby-3.1.3.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-3.0.5.buildspec 3.1.3` |
 | <!-- 20240605164952 --> [pulsar](../content/org/apache/pulsar/README.md) | [3.2.0](../content/org/apache/pulsar/pulsar-3.2.0.buildspec) :warning: | [3.3.0](../content/org/apache/pulsar/pulsar-3.3.0.buildspec) | `bin/add-new-release.sh content/org/apache/pulsar/pulsar-3.2.0.buildspec 3.3.0` |
 | <!-- 20240605164353 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.47.2](../content/org/finos/legend/engine/legend-engine-4.47.2.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.47.2` |
@@ -89,8 +89,10 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20240607121245 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | 1.39.0 :warning: |
 | <!-- 20240605184505 --> [airbase](../content/io/airlift/airbase/README.md) | 157 :warning: [:memo:](https://github.com/airlift/airbase/pull/413) |
 | <!-- 20240603151803 --> [artemis-pom](../content/org/apache/activemq/artemis/README.md) | 2.34.0 :warning: |
+| <!-- 20240603042038 --> [openfasttrace](../content/org/itsallcode/openfasttrace/README.md) | 4.0.0 :warning: |
 | <!-- 20240603000134 --> [java-uuid-generator](../content/com/fasterxml/uuid/README.md) | 5.1.0 :warning: |
 | <!-- 20240531150613 --> [commons-net](../content/org/apache/commons/net/README.md) | 3.11.0 :warning: [:memo:](https://github.com/apache/commons-net/pull/259) |
 | <!-- 20240531032449 --> [shiro-root](../content/org/apache/shiro/README.md) | 2.0.1 :warning: |
