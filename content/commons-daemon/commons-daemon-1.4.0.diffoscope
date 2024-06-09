@@ -1,0 +1,86 @@
+1 / 5 target/reference/commons-daemon/commons-daemon-1.4.0-native-src.tar.gz target/commons-daemon-1.4.0-native-src.tar.gz
+--- target/reference/commons-daemon/commons-daemon-1.4.0-native-src.tar.gz
++++ target/commons-daemon-1.4.0-native-src.tar.gz
+├── commons-daemon-1.4.0-native-src.tar
+│ ├── file list
+│ │ @@ -38,15 +38,14 @@
+│ │  -rwxr-xr-x   0 root         (0) root         (0)    48296 2024-01-01 00:00:00.000000 commons-daemon-1.4.0-native-src/unix/support/config.guess
+│ │  -rwxr-xr-x   0 root         (0) root         (0)    31610 2024-01-01 00:00:00.000000 commons-daemon-1.4.0-native-src/unix/support/config.sub
+│ │ --rwxr-xr-x   0 root         (0) root         (0)   147722 2024-01-01 00:00:00.000000 commons-daemon-1.4.0-native-src/unix/configure
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     1312 2024-01-01 00:00:00.000000 commons-daemon-1.4.0-native-src/unix/man/fetch.sh
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     1132 2024-01-01 00:00:00.000000 commons-daemon-1.4.0-native-src/unix/support/buildconf.sh
+
+2 / 5 target/reference/commons-daemon/commons-daemon-1.4.0-native-src.zip target/commons-daemon-1.4.0-native-src.zip
+--- target/reference/commons-daemon/commons-daemon-1.4.0-native-src.zip
++++ target/commons-daemon-1.4.0-native-src.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 270763 bytes, number of entries: 101
+│ +Zip file size: 232721 bytes, number of entries: 100
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-01 00:00 commons-daemon-1.4.0-native-src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-01 00:00 commons-daemon-1.4.0-native-src/unix/
+│ @@ -48,15 +48,14 @@
+│  -rwxr-xr-x  2.0 unx    48296 b- defN 24-Jan-01 00:00 commons-daemon-1.4.0-native-src/unix/support/config.guess
+│  -rwxr-xr-x  2.0 unx    31610 b- defN 24-Jan-01 00:00 commons-daemon-1.4.0-native-src/unix/support/config.sub
+│ --rwxr-xr-x  2.0 unx   147722 b- defN 24-Jan-01 00:00 commons-daemon-1.4.0-native-src/unix/configure
+│  -rwxr-xr-x  2.0 unx     1312 b- defN 24-Jan-01 00:00 commons-daemon-1.4.0-native-src/unix/man/fetch.sh
+│  -rwxr-xr-x  2.0 unx     1132 b- defN 24-Jan-01 00:00 commons-daemon-1.4.0-native-src/unix/support/buildconf.sh
+│ @@ -96,8 +95,8 @@
+│  -rw-r--r--  2.0 unx     1078 b- defN 24-Jan-01 00:00 commons-daemon-1.4.0-native-src/windows/resources/procrunw.ico
+│  -rw-r--r--  2.0 unx      886 b- defN 24-Jan-01 00:00 commons-daemon-1.4.0-native-src/windows/resources/susers.bmp
+│ -101 files, 963486 bytes uncompressed, 252315 bytes compressed:  73.8%
+│ +100 files, 815764 bytes uncompressed, 214441 bytes compressed:  73.7%
+
+3 / 5 target/reference/commons-daemon/commons-daemon-1.4.0-src.tar.gz target/commons-daemon-1.4.0-src.tar.gz
+--- target/reference/commons-daemon/commons-daemon-1.4.0-src.tar.gz
++++ target/commons-daemon-1.4.0-src.tar.gz
+├── commons-daemon-1.4.0-src.tar
+│ ├── file list
+│ │ @@ -160,15 +160,14 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)     1184 2024-01-01 00:00:00.000000 commons-daemon-1.4.0-src/src/test/java/org/apache/commons/daemon/DaemonInitExceptionTest.java
+│ │  -rw-r--r--   0 root         (0) root         (0)    11197 2024-01-01 00:00:00.000000 commons-daemon-1.4.0-src/src/test/java/org/apache/commons/daemon/SimpleDaemon.java
+│ │ --rwxr-xr-x   0 root         (0) root         (0)   147722 2024-01-01 00:00:00.000000 commons-daemon-1.4.0-src/src/native/unix/configure
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     1312 2024-01-01 00:00:00.000000 commons-daemon-1.4.0-src/src/native/unix/man/fetch.sh
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     1132 2024-01-01 00:00:00.000000 commons-daemon-1.4.0-src/src/native/unix/support/buildconf.sh
+
+4 / 5 target/reference/commons-daemon/commons-daemon-1.4.0-src.zip target/commons-daemon-1.4.0-src.zip
+--- target/reference/commons-daemon/commons-daemon-1.4.0-src.zip
++++ target/commons-daemon-1.4.0-src.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 389968 bytes, number of entries: 176
+│ +Zip file size: 351918 bytes, number of entries: 175
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-01 00:00 commons-daemon-1.4.0-src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-01 00:00 commons-daemon-1.4.0-src/src/
+│ @@ -162,17 +162,16 @@
+│  -rw-r--r--  2.0 unx     1184 b- defN 24-Jan-01 00:00 commons-daemon-1.4.0-src/src/test/java/org/apache/commons/daemon/DaemonInitExceptionTest.java
+│  -rw-r--r--  2.0 unx    11197 b- defN 24-Jan-01 00:00 commons-daemon-1.4.0-src/src/test/java/org/apache/commons/daemon/SimpleDaemon.java
+│ --rwxr-xr-x  2.0 unx   147722 b- defN 24-Jan-01 00:00 commons-daemon-1.4.0-src/src/native/unix/configure
+│  -rwxr-xr-x  2.0 unx     1312 b- defN 24-Jan-01 00:00 commons-daemon-1.4.0-src/src/native/unix/man/fetch.sh
+│  -rwxr-xr-x  2.0 unx     1132 b- defN 24-Jan-01 00:00 commons-daemon-1.4.0-src/src/native/unix/support/buildconf.sh
+│  -rwxr-xr-x  2.0 unx     3416 b- defN 24-Jan-01 00:00 commons-daemon-1.4.0-src/src/native/unix/support/install.sh
+│  -rwxr-xr-x  2.0 unx     1481 b- defN 24-Jan-01 00:00 commons-daemon-1.4.0-src/src/samples/AloneDaemon.sh
+│  -rwxr-xr-x  2.0 unx     1170 b- defN 24-Jan-01 00:00 commons-daemon-1.4.0-src/src/samples/Native.sh
+│  -rwxr-xr-x  2.0 unx     1419 b- defN 24-Jan-01 00:00 commons-daemon-1.4.0-src/src/samples/ServiceDaemon.sh
+│  -rwxr-xr-x  2.0 unx     1620 b- defN 24-Jan-01 00:00 commons-daemon-1.4.0-src/src/samples/SimpleApplication.sh
+│  -rwxr-xr-x  2.0 unx     1939 b- defN 24-Jan-01 00:00 commons-daemon-1.4.0-src/src/samples/SimpleDaemon.sh
+│ -176 files, 1255821 bytes uncompressed, 356944 bytes compressed:  71.6%
+│ +175 files, 1108099 bytes uncompressed, 319070 bytes compressed:  71.2%
+
+5 / 5 target/reference/commons-daemon/commons-daemon-1.4.0-bin-windows.zip target/commons-daemon-1.4.0-bin-windows.zip
+--- target/reference/commons-daemon/commons-daemon-1.4.0-bin-windows.zip
++++ target/commons-daemon-1.4.0-bin-windows.zip
+├── zipinfo {}
+│ @@ -1,9 +1,5 @@
+│ -Zip file size: 398286 bytes, number of entries: 7
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-01 00:00 amd64/
+│ +Zip file size: 5260 bytes, number of entries: 3
+│  -rw-r--r--  2.0 unx    11358 b- defN 24-Jan-01 00:00 LICENSE.txt
+│  -rw-r--r--  2.0 unx      176 b- defN 24-Jan-01 00:00 NOTICE.txt
+│  -rw-r--r--  2.0 unx     1855 b- defN 24-Jan-01 00:00 RELEASE-NOTES.txt
+│ --rwxr-xr-x  2.0 unx   312296 b- defN 24-Jan-01 00:00 amd64/prunsrv.exe
+│ --rwxr-xr-x  2.0 unx   238568 b- defN 24-Jan-01 00:00 prunmgr.exe
+│ --rwxr-xr-x  2.0 unx   252904 b- defN 24-Jan-01 00:00 prunsrv.exe
+│ -7 files, 817157 bytes uncompressed, 397566 bytes compressed:  51.3%
+│ +3 files, 13389 bytes uncompressed, 4934 bytes compressed:  63.1%
+
