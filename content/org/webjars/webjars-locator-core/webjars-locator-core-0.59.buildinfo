@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=webjars-locator-core
+group-id=org.webjars
+artifact-id=webjars-locator-core
+version=0.59
+
+# source information
+source.scm.uri=scm:git:https://github.com/webjars/webjars-locator-core.git
+source.scm.tag=webjars-locator-core-0.59
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.webjars
+outputs.0.filename=webjars-locator-core-0.59.pom
+outputs.0.length=12680
+outputs.0.checksums.sha512=8153b8486d7ccf4e0f7f30af410aa0d410da28ea0a5bfc166a9075c20c1160ed36a1e3b1a096dd7bc4b2a7e67b2e30d775793cb7f103b8f6adc5179d8dac6f66
+
+outputs.1.groupId=org.webjars
+outputs.1.filename=webjars-locator-core-0.59.jar
+outputs.1.length=19081
+outputs.1.checksums.sha512=fd48507f1294cbff6e04abd779ea191c8f5b0413b4df7d076ea8b60eedd146411cabd2acf3aa1ab9e7bc04527f3d9cf70abbfef292dbdebc9a02b73e52ab65a9
+
+outputs.2.groupId=org.webjars
+outputs.2.filename=webjars-locator-core-0.59-sources.jar
+outputs.2.length=11495
+outputs.2.checksums.sha512=337145229488c4b962699f66b5065d10721ca39d35327bf3173a4ef794a1747b7e134fea439648476c91f8e6f09022fce4881fa3e18e25ba2758ff61163d07c7
