@@ -34,6 +34,7 @@ rebuilding **1 releases** of org.hibernate.search:hibernate-search-bom:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [7.2.0.Alpha2](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/7.2.0.Alpha2/pom) | | | |
 | [7.2.0.Alpha1](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/7.2.0.Alpha1/pom) | [mvn jdk17](hibernate-search-parent-7.2.0.Alpha1.buildspec) | [result](hibernate-search-parent-7.2.0.Alpha1.buildinfo): [30 :white_check_mark: ](hibernate-search-parent-7.2.0.Alpha1.buildcompare) | 5.2M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
