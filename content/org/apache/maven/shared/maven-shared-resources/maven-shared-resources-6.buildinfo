@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Shared Resources
+group-id=org.apache.maven.shared
+artifact-id=maven-shared-resources
+version=6
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-shared-resources.git
+source.scm.tag=maven-shared-resources-6
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.maven.shared
+outputs.0.filename=maven-shared-resources-6.pom
+outputs.0.length=3031
+outputs.0.checksums.sha512=e83f9903f845760b5bbec9aea1bf5facd8907dff6a38218e3a3663c59d65709bdf9a5f7a39a0c648287a4c6e844d858d2789cbe509627de7eaf7eaa4b5322840
+
+outputs.1.groupId=org.apache.maven.shared
+outputs.1.filename=maven-shared-resources-6.jar
+outputs.1.length=19970
+outputs.1.checksums.sha512=c90fc5f2d39b9c1acde3ca43a690b49058a0341731718e1b5a71b5aae4a63ee42c27415594ba1976513c7559a73faf1c0d62957c6145f73e5cf00f2eaef4f0a6
+
+outputs.2.groupId=org.apache.maven.shared
+outputs.2.filename=maven-shared-resources-6-source-release.zip
+outputs.2.length=30645
+outputs.2.checksums.sha512=fbb52b0c29a5f624dd75dfc62d9ce3d1b91845558d447b9a9f1f25a96451765e25476740d5f5bd05225c54b3784824baf998a25935baf649dce143a9a91c3e99
+
+outputs.3.groupId=org.apache.maven.shared
+outputs.3.filename=maven-shared-resources-6-sources.jar
+outputs.3.length=19863
+outputs.3.checksums.sha512=2697dcf022d87fc1d23623f1e13f8efc31cbc7601b8469ace3b2024c64dc096012e158d5bf8607607962f8ab3a080cbdec6668a28d0d109b0d0e4d840c243731
+
+outputs.4.groupId=org.apache.maven.shared
+outputs.4.filename=maven-shared-resources-6-cyclonedx.xml
+outputs.4.length=3270
+outputs.4.checksums.sha512=5d6d4e24bc94af0bc7e7a3b688c9f8def661b138074d9d94bb0bebca98459eaf384dc2d733af14e7af9fd6bb7e40c620403ddb9924f83031d909fa85630393e6
+
+outputs.5.groupId=org.apache.maven.shared
+outputs.5.filename=maven-shared-resources-6-cyclonedx.json
+outputs.5.length=3760
+outputs.5.checksums.sha512=a01f14a39bc7aea2dba5b6316a9a188d46e08002b2f3f28a997537b6878e750c93dbab67498145f34ca0bd0a0761470aa522e4dd39c5a946080eeda1eecb5ffc
