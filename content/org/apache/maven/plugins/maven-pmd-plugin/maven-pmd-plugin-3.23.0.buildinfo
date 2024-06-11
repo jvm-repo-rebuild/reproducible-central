@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven PMD Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-pmd-plugin
+version=3.23.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-pmd-plugin.git
+source.scm.tag=maven-pmd-plugin-3.23.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-pmd-plugin-3.23.0.pom
+outputs.0.length=15841
+outputs.0.checksums.sha512=8643c3310b7a61fe0f8200fba616ea76b67a4fdeaae0cfb0bb210e6e3c38f6dbb9bb8279a2ef35a8556226cac01f25baf9c66f33183f8d687f8f27e4df835fd1
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-pmd-plugin-3.23.0.jar
+outputs.1.length=152532
+outputs.1.checksums.sha512=7507333b54c746cd8f9c0061fbe2b2902b4ff7e69560d79a571931bde84164833077ef099f2c7221e53a0d52595d38057206b2f4d5481a798d62baa6e5c90d53
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-pmd-plugin-3.23.0-source-release.zip
+outputs.2.length=602011
+outputs.2.checksums.sha512=5dd9c95f9f4774606d92e95139cb65f69fbf6fffe9fc59c3c6b28e982b8e2f607082227a6c54c25a8b54e2c14a883fb1b7fd00b90369019bb19cac16f265ebc8
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-pmd-plugin-3.23.0-sources.jar
+outputs.3.length=104950
+outputs.3.checksums.sha512=4e7ff60c703e0a77cff7b1513a7b8d3f8172a18968d9f41b52a51067289eed1b4c61f9f02d46bf78213517ec2d7abbae1ddfe563a419bec796784113852bd528
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-pmd-plugin-3.23.0-cyclonedx.xml
+outputs.4.length=188806
+outputs.4.checksums.sha512=52e7c2cabc08432f27568e6e92dc8d8ba42bee049f07dcaa9adf4976e864f9a7b1f2fc475941a287e5c5e3539773e4e69dcaf56842880fe9374c2220da052c0c
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-pmd-plugin-3.23.0-cyclonedx.json
+outputs.5.length=215771
+outputs.5.checksums.sha512=b06f63432bed3f8a675d538e6d50d52d7a1f244396bf03f74314556a7cfb5eabf1c1f400e088a7556ebf7c70234940b3ae09b20c03927bf87177562134c9eae4
