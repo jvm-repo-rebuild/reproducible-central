@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3839 releases** of **674 projects**:
-   - **3060** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **3842 releases** of **674 projects**:
+   - **3063** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 779 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 674 projects, 570 have at least one fully reproducible release, 104 have none
 
@@ -400,7 +400,7 @@ Its objectives are to provide:
 | | [maven-checkstyle-plugin](content/org/apache/maven/plugins/maven-checkstyle-plugin/README.md) | 8 | 8 :white_check_mark: |
 | | [maven-clean-plugin](content/org/apache/maven/plugins/maven-clean-plugin/README.md) | 3 | 3 :white_check_mark: |
 | | [maven-compiler-plugin](content/org/apache/maven/plugins/maven-compiler-plugin/README.md) | 7 | 7 :white_check_mark: |
-| | [maven-dependency-plugin](content/org/apache/maven/plugins/maven-dependency-plugin/README.md) | 7 | 7 :white_check_mark: |
+| | [maven-dependency-plugin](content/org/apache/maven/plugins/maven-dependency-plugin/README.md) | 8 | 8 :white_check_mark: |
 | | [maven-deploy-plugin](content/org/apache/maven/plugins/maven-deploy-plugin/README.md) | 5 | 5 :white_check_mark: |
 | | [maven-docck-plugin](content/org/apache/maven/plugins/maven-docck-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [maven-ear-plugin](content/org/apache/maven/plugins/maven-ear-plugin/README.md) | 3 | 3 :white_check_mark: |
@@ -413,7 +413,7 @@ Its objectives are to provide:
 | | [maven-javadoc-plugin](content/org/apache/maven/plugins/maven-javadoc-plugin/README.md) | 11 | 7 :white_check_mark: / 4 :warning: |
 | | [maven-jlink-plugin](content/org/apache/maven/plugins/maven-jlink-plugin/README.md) | 3 | 3 :white_check_mark: |
 | | [maven-pdf-plugin](content/org/apache/maven/plugins/maven-pdf-plugin/README.md) | 3 | 3 :white_check_mark: |
-| | [maven-pmd-plugin](content/org/apache/maven/plugins/maven-pmd-plugin/README.md) | 10 | 10 :white_check_mark: |
+| | [maven-pmd-plugin](content/org/apache/maven/plugins/maven-pmd-plugin/README.md) | 11 | 11 :white_check_mark: |
 | | [maven-project-info-reports-plugin](content/org/apache/maven/plugins/maven-project-info-reports-plugin/README.md) | 13 | 12 :white_check_mark: / 1 :warning: |
 | | [maven-rar-plugin](content/org/apache/maven/plugins/maven-rar-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [maven-release-plugin](content/org/apache/maven/plugins/maven-release-plugin/README.md) | 6 | 6 :white_check_mark: |
@@ -442,7 +442,7 @@ Its objectives are to provide:
 | | [maven-invoker](content/org/apache/maven/shared/maven-invoker/README.md) | 3 | 3 :white_check_mark: |
 | | [maven-script-interpreter](content/org/apache/maven/shared/maven-script-interpreter/README.md) | 4 | 4 :white_check_mark: |
 | | [maven-shared-jar](content/org/apache/maven/shared/maven-shared-jar/README.md) | 1 | 1 :white_check_mark: |
-| | [maven-shared-resources](content/org/apache/maven/shared/maven-shared-resources/README.md) | 3 | 3 :white_check_mark: |
+| | [maven-shared-resources](content/org/apache/maven/shared/maven-shared-resources/README.md) | 4 | 4 :white_check_mark: |
 | | [maven-shared-utils](content/org/apache/maven/shared/maven-shared-utils/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
 | | [maven-verifier](content/org/apache/maven/shared/maven-verifier/README.md) | 4 | 4 :white_check_mark: |
 | org.apache.maven.skins | [maven-fluido-skin](content/org/apache/maven/skins/fluido/README.md) | 13 | 10 :white_check_mark: / 3 :warning: |
@@ -697,7 +697,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 2 | 2 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 38 | 38 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **674** | **3839** | **3060** :white_check_mark: **779** :warning: |
+| **Count:** | **674** | **3842** | **3063** :white_check_mark: **779** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -713,7 +713,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 gradle     17.0.11
      12 gradle     21
      26 mvn         7
-   1184 mvn         8
+   1186 mvn         8
       1 mvn         9
     993 mvn        11
       2 mvn        11.0.19
@@ -733,7 +733,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn        18
      31 mvn        19
      15 mvn        20
-    114 mvn        21
+    115 mvn        21
       6 mvn        22
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11

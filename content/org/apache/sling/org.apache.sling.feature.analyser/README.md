@@ -13,6 +13,7 @@ rebuilding **7 releases** of org.apache.sling:org.apache.sling.feature.analyser:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.analyser/2.0.4/pom) | | | |
 | [2.0.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.analyser/2.0.2/pom) | [mvn jdk11](org.apache.sling.feature.analyser-2.0.2.buildspec) | [result](org.apache.sling.feature.analyser-2.0.2.buildinfo): [4 :white_check_mark: ](org.apache.sling.feature.analyser-2.0.2.buildcompare) | 692K |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.analyser/2.0.0/pom) | [mvn jdk11](org.apache.sling.feature.analyser-2.0.0.buildspec) | [result](org.apache.sling.feature.analyser-2.0.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.feature.analyser-2.0.0.buildcompare) | 692K |
 | [1.6.8](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.analyser/1.6.8/pom) | [mvn jdk11](org.apache.sling.feature.analyser-1.6.8.buildspec) | [result](org.apache.sling.feature.analyser-1.6.8.buildinfo): [4 :white_check_mark: ](org.apache.sling.feature.analyser-1.6.8.buildcompare) | 670K |
