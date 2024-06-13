@@ -1,0 +1,19 @@
+groupId=de.unentscheidbar
+artifactId=migratedb
+version=1.1.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/daniel-huss/migratedb.git
+gitTag=v${version}
+
+tool=mvn
+jdk=17
+toolchains="11|17"
+newline=lf
+
+command="mvn clean package package -DskipTests"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
