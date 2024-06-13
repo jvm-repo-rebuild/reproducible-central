@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3848 releases** of **675 projects**:
-   - **3068** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 780 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **3850 releases** of **675 projects**:
+   - **3069** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 781 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 675 projects, 572 have at least one fully reproducible release, 103 have none
 
 <!-- END GENERATED INTRO -->
@@ -208,7 +208,7 @@ Its objectives are to provide:
 | dev.notmyfault.serverlib | [ServerLib](content/dev/notmyfault/serverlib/ServerLib/README.md) | 1 | 1 :white_check_mark: |
 | dev.sigstore | [sigstore-maven-plugin](content/dev/sigstore/sigstore-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | dk.mada.buildinfo | [buildinfo-gradle](content/dk/mada/buildinfo/buildinfo-gradle/README.md) | 1 | 1 :white_check_mark: |
-| dk.mada.jaxrs | [openapi-jaxrs-client](content/dk/mada/jaxrs/openapi-jaxrs-client/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
+| dk.mada.jaxrs | [openapi-jaxrs-client](content/dk/mada/jaxrs/openapi-jaxrs-client/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | dk.mada.style | [mada-style-gradle](content/dk/mada/style/mada-style-gradle/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | eu.europa.ec.joinup.sat | [jdplus-nowcasting](content/eu/europa/ec/joinup/sat/jdplus-nowcasting/README.md) | 1 | 1 :white_check_mark: |
 | eu.europa.ted.eforms | [eforms-core-java](content/eu/europa/ted/eforms/eforms-core-java/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
@@ -246,7 +246,7 @@ Its objectives are to provide:
 | io.github.derkrischan | [jpdftest](content/io/github/derkrischan/jpdftest/README.md) | 4 | 4 :white_check_mark: |
 | io.github.hboutemy | [sigstore-maven-plugin](content/io/github/hboutemy/sigstore-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | io.github.sebastian-toepfer.ddd | [domain-driven-desgin](content/io/github/sebastian-toepfer/ddd/domain-driven-desgin/README.md) | 1 | 1 :white_check_mark: |
-| io.github.sebastian-toepfer.json-schema | [json-schema](content/io/github/sebastian-toepfer/json-schema/json-schema/README.md) | 3 | 3 :white_check_mark: |
+| io.github.sebastian-toepfer.json-schema | [json-schema](content/io/github/sebastian-toepfer/json-schema/json-schema/README.md) | 4 | 4 :white_check_mark: |
 | io.github.sebastian-toepfer.json.rpc | [json-printable-maven-plugin](content/io/github/sebastian-toepfer/json/rpc/json-printable-maven-plugin/README.md) | 5 | 5 :white_check_mark: |
 | | [json-rpc](content/io/github/sebastian-toepfer/json/rpc/json-rpc/README.md) | 3 | 3 :white_check_mark: |
 | io.github.shanqiang-sq | [jstream](content/io/github/shanqiang-sq/jstream/README.md) | 28 | 28 :white_check_mark: |
@@ -698,7 +698,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 2 | 2 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 38 | 38 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **675** | **3848** | **3068** :white_check_mark: **780** :warning: |
+| **Count:** | **675** | **3850** | **3069** :white_check_mark: **781** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -712,7 +712,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 gradle     11
      20 gradle     17
       1 gradle     17.0.11
-     12 gradle     21
+     13 gradle     21
      26 mvn         7
    1186 mvn         8
       1 mvn         9
@@ -740,7 +740,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.8.3  11
       1 mvn-3.8.5   8
      13 mvn-3.8.5  11
-     22 mvn-3.8.5  17
+     23 mvn-3.8.5  17
       1 mvn-3.8.5  17.0.3
       1 mvn-3.8.5  21
      40 mvn-3.8.6   8
