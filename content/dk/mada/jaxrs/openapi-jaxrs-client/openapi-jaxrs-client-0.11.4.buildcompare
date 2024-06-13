@@ -1,0 +1,9 @@
+version=0.11.4
+ok=14
+ko=4
+okFiles="generator-api-0.11.4-sources.jar generator-api-0.11.4.jar generator-api-0.11.4.pom model-0.11.4-sources.jar model-0.11.4.jar model-0.11.4.pom openapi-jaxrs-bom-0.11.4.module openapi-jaxrs-bom-0.11.4.pom openapi-jaxrs-client-0.11.4-sources.jar openapi-jaxrs-client-0.11.4.jar openapi-jaxrs-client-0.11.4.pom parser-0.11.4-sources.jar parser-0.11.4.jar parser-0.11.4.pom"
+koFiles="generator-api-0.11.4.module model-0.11.4.module openapi-jaxrs-client-0.11.4.module parser-0.11.4.module"
+# diffoscope central/dk/mada/jaxrs/generator-api/0.11.4/generator-api-0.11.4.module repository/dk/mada/jaxrs/generator-api/0.11.4/generator-api-0.11.4.module
+# diffoscope central/dk/mada/jaxrs/model/0.11.4/model-0.11.4.module repository/dk/mada/jaxrs/model/0.11.4/model-0.11.4.module
+# diffoscope central/dk/mada/jaxrs/openapi-jaxrs-client/0.11.4/openapi-jaxrs-client-0.11.4.module repository/dk/mada/jaxrs/openapi-jaxrs-client/0.11.4/openapi-jaxrs-client-0.11.4.module
+# diffoscope central/dk/mada/jaxrs/parser/0.11.4/parser-0.11.4.module repository/dk/mada/jaxrs/parser/0.11.4/parser-0.11.4.module
