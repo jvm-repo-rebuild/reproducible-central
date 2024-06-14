@@ -39,6 +39,7 @@ rebuilding **10 releases** of org.apache.jackrabbit:jackrabbit-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.22.0](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.22.0/pom) | | | |
 | [2.21.27-beta](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.27-beta/pom) | [mvn jdk11](jackrabbit-2.21.27-beta.buildspec) | [result](jackrabbit-2.21.27-beta.buildinfo): [69 :white_check_mark: ](jackrabbit-2.21.27-beta.buildcompare) | 101M |
 | [2.21.26-beta](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.26-beta/pom) | [mvn jdk11](jackrabbit-2.21.26-beta.buildspec) | [result](jackrabbit-2.21.26-beta.buildinfo): [72 :white_check_mark: ](jackrabbit-2.21.26-beta.buildcompare) | 101M |
 | [2.21.25](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.25/pom) | [mvn jdk11](jackrabbit-2.21.25.buildspec) | [result](jackrabbit-2.21.25.buildinfo): [71 :white_check_mark:  1 :warning:](jackrabbit-2.21.25.buildcompare) [:mag:](jackrabbit-2.21.25.diffoscope) [:memo:](https://lists.apache.org/thread/6qxnclwmxggq6j20l8z78yr375vxo508) | 101M |

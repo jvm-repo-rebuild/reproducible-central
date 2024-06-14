@@ -58,6 +58,7 @@ rebuilding **1 releases** of org.apache.paimon:paimon-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.8.1](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/0.8.1/pom) | | | |
 | [0.8.0](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/0.8.0/pom) | | | |
 | [0.7.0-incubating](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/0.7.0-incubating/pom) | | | |
 | [0.6.1-incubating](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/0.6.1-incubating/pom) | | | |
