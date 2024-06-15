@@ -4,12 +4,6 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240614202241 --> [jmeter-java-dsl-parent](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | [1.28.1](../content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.28.1.buildspec) :white_check_mark: | [1.29](../content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.29.buildspec) | `bin/add-new-release.sh content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.28.1.buildspec 1.29` |
-| <!-- 20240614161537 --> [surefire](../content/org/apache/maven/surefire/README.md) | [3.2.5](../content/org/apache/maven/surefire/surefire-3.2.5.buildspec) :white_check_mark: | [3.3.0](../content/org/apache/maven/surefire/surefire-3.3.0.buildspec) | `bin/add-new-release.sh content/org/apache/maven/surefire/surefire-3.2.5.buildspec 3.3.0` |
-| <!-- 20240614130028 --> [github-client](../content/com/spotify/github-client/README.md) | [0.2.17](../content/com/spotify/github-client/github-client-0.2.17.buildspec) :white_check_mark: | [0.2.19](../content/com/spotify/github-client/github-client-0.2.19.buildspec) | `bin/add-new-release.sh content/com/spotify/github-client/github-client-0.2.17.buildspec 0.2.19` |
-| <!-- 20240614041756 --> [jackrabbit-parent](../content/org/apache/jackrabbit/jackrabbit/README.md) | [2.21.27-beta](../content/org/apache/jackrabbit/jackrabbit/jackrabbit-2.21.27-beta.buildspec) :white_check_mark: | [2.22.0](../content/org/apache/jackrabbit/jackrabbit/jackrabbit-2.22.0.buildspec) | `bin/add-new-release.sh content/org/apache/jackrabbit/jackrabbit/jackrabbit-2.21.27-beta.buildspec 2.22.0` |
-| <!-- 20240613221448 --> [mojo-parent](../content/org/codehaus/mojo/mojo-parent/README.md) | [82](../content/org/codehaus/mojo/mojo-parent/mojo-parent-82.buildspec) :white_check_mark: | [84](../content/org/codehaus/mojo/mojo-parent/mojo-parent-84.buildspec) | `bin/add-new-release.sh content/org/codehaus/mojo/mojo-parent/mojo-parent-82.buildspec 84` |
-| <!-- 20240613204743 --> [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | [0.1.24](../content/eu/maveniverse/maven/toolbox/toolbox-0.1.24.buildspec) :white_check_mark: | [0.1.25](../content/eu/maveniverse/maven/toolbox/toolbox-0.1.25.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/toolbox/toolbox-0.1.24.buildspec 0.1.25` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -22,7 +16,6 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD STAGING -->
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
-| <!-- 20240603151803 --> [:mailbox:](https://lists.apache.org/list?dev@activemq.apache.org:lte=1M:VOTE) | [artemis-pom](../content/org/apache/activemq/artemis/README.md) | [2.34.0](../content/org/apache/activemq/artemis/artemis-2.34.0.buildspec) :warning: | [2.35.0](../content/org/apache/activemq/artemis/artemis-2.35.0.buildspec)  | `bin/add-new-release.sh content/org/apache/activemq/artemis/artemis-2.34.0.buildspec 2.35.0 staging` |
 | <!-- 20240420074909 --> [:mailbox:](https://lists.apache.org/list?dev@struts.apache.org:lte=1M:VOTE) | [struts2-parent](../content/org/apache/struts/README.md) | [6.4.0](../content/org/apache/struts/struts2-6.4.0.buildspec) :white_check_mark: | [7.0.0-M7](../content/org/apache/struts/struts2-7.0.0-M7.buildspec)  | `bin/add-new-release.sh content/org/apache/struts/struts2-6.4.0.buildspec 7.0.0-M7 staging` |
 | <!-- 20240216153138 --> [:mailbox:](https://lists.apache.org/list?dev@sshd.apache.org:lte=1M:VOTE) | [sshd](../content/org/apache/sshd/README.md) | [2.12.1](../content/org/apache/sshd/sshd-2.12.1.buildspec) :warning: | [2.13.0](../content/org/apache/sshd/sshd-2.13.0.buildspec)  | `bin/add-new-release.sh content/org/apache/sshd/sshd-2.12.1.buildspec 2.13.0 staging` |
 | <!-- 20240109104846 --> [:mailbox:](https://lists.apache.org/list?dev@ratis.apache.org:lte=1M:VOTE) | [ratis](../content/org/apache/ratis/README.md) | [3.0.1](../content/org/apache/ratis/ratis-3.0.1.buildspec) :warning: [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) | [3.1.0](../content/org/apache/ratis/ratis-3.1.0.buildspec)  | `bin/add-new-release.sh content/org/apache/ratis/ratis-3.0.1.buildspec 3.1.0 staging` |
@@ -39,6 +32,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20240615195631 --> [artemis-pom](../content/org/apache/activemq/artemis/README.md) | [2.34.0](../content/org/apache/activemq/artemis/artemis-2.34.0.buildspec) :warning: | [2.35.0](../content/org/apache/activemq/artemis/artemis-2.35.0.buildspec) | `bin/add-new-release.sh content/org/apache/activemq/artemis/artemis-2.34.0.buildspec 2.35.0` |
 | <!-- 20240614153656 --> [paimon-parent](../content/org/apache/paimon/README.md) | [0.6.0-incubating](../content/org/apache/paimon/paimon-parent-0.6.0-incubating.buildspec) :warning: [:memo:](https://github.com/apache/incubator-paimon/pull/2519) | [0.8.1](../content/org/apache/paimon/paimon-parent-0.8.1.buildspec) | `bin/add-new-release.sh content/org/apache/paimon/paimon-parent-0.6.0-incubating.buildspec 0.8.1` |
 | <!-- 20240612034853 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.47.3](../content/org/finos/legend/engine/legend-engine-4.47.3.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.47.3` |
 | <!-- 20240610180453 --> [com.io7m.certusine](../content/com/io7m/certusine/README.md) | [2.0.0](../content/com/io7m/certusine/com.io7m.certusine-2.0.0.buildspec) :warning: | [3.1.0](../content/com/io7m/certusine/com.io7m.certusine-3.1.0.buildspec) | `bin/add-new-release.sh content/com/io7m/certusine/com.io7m.certusine-2.0.0.buildspec 3.1.0` |
@@ -93,7 +87,6 @@ New Releases To Add
 | <!-- 20240608203934 --> [git-commit-id-maven-plugin](../content/io/github/git-commit-id/README.md) | 9.0.0 :x: |
 | <!-- 20240607121245 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | 1.39.0 :warning: |
 | <!-- 20240605184505 --> [airbase](../content/io/airlift/airbase/README.md) | 157 :warning: [:memo:](https://github.com/airlift/airbase/pull/413) |
-| <!-- 20240603151803 --> [artemis-pom](../content/org/apache/activemq/artemis/README.md) | 2.34.0 :warning: |
 | <!-- 20240603092651 --> [commons-jcs3](../content/org/apache/commons/commons-jcs3/README.md) | 3.2.1 :warning: [:memo:](https://github.com/apache/commons-jcs/commit/61661616d8cb586bc41c0bea5cd3a206ba0ec94d) |
 | <!-- 20240603042038 --> [openfasttrace](../content/org/itsallcode/openfasttrace/README.md) | 4.0.0 :warning: |
 | <!-- 20240603000134 --> [java-uuid-generator](../content/com/fasterxml/uuid/README.md) | 5.1.0 :warning: |

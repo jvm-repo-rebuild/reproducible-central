@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/mojohaus/mojo-parent.git](https://github.com/mojohaus/mojo-parent.git)
 
-rebuilding **22 releases** of org.codehaus.mojo:mojo-parent:
-- **22** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **24 releases** of org.codehaus.mojo:mojo-parent:
+- **24** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [84](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/84/pom) | | | |
-| [83](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/83/pom) | | | |
+| [84](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/84/pom) | [mvn jdk8](mojo-parent-84.buildspec) | [result](mojo-parent-84.buildinfo): [4 :white_check_mark: ](mojo-parent-84.buildcompare) | 56K |
+| [83](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/83/pom) | [mvn jdk8](mojo-parent-83.buildspec) | [result](mojo-parent-83.buildinfo): [4 :white_check_mark: ](mojo-parent-83.buildcompare) | 56K |
 | [82](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/82/pom) | [mvn jdk8](mojo-parent-82.buildspec) | [result](mojo-parent-82.buildinfo): [4 :white_check_mark: ](mojo-parent-82.buildcompare) | 56K |
 | [81](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/81/pom) | [mvn jdk8](mojo-parent-81.buildspec) | [result](mojo-parent-81.buildinfo): [4 :white_check_mark: ](mojo-parent-81.buildcompare) | 55K |
 | [80](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/80/pom) | [mvn jdk8](mojo-parent-80.buildspec) | [result](mojo-parent-80.buildinfo): [4 :white_check_mark: ](mojo-parent-80.buildcompare) | 55K |
