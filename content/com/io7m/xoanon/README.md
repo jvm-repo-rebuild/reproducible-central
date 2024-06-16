@@ -23,6 +23,7 @@ rebuilding **5 releases** of com.io7m.xoanon:com.io7m.xoanon:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0](https://central.sonatype.com/artifact/com.io7m.xoanon/com.io7m.xoanon/2.0.0/pom) | | | |
 | [1.0.1](https://central.sonatype.com/artifact/com.io7m.xoanon/com.io7m.xoanon/1.0.1/pom) | [mvn jdk21](com.io7m.xoanon-1.0.1.buildspec) | [result](com.io7m.xoanon-1.0.1.buildinfo): [27 :white_check_mark: ](com.io7m.xoanon-1.0.1.buildcompare) | 1.2M |
 | [1.0.0](https://central.sonatype.com/artifact/com.io7m.xoanon/com.io7m.xoanon/1.0.0/pom) | | | |
 | [1.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.xoanon/com.io7m.xoanon/1.0.0-beta0001/pom) | [mvn jdk17.0.7](com.io7m.xoanon-1.0.0-beta0001.buildspec) | [result](com.io7m.xoanon-1.0.0-beta0001.buildinfo): [22 :white_check_mark: ](com.io7m.xoanon-1.0.0-beta0001.buildcompare) | 248K |

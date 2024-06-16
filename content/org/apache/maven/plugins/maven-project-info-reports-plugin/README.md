@@ -13,6 +13,7 @@ rebuilding **13 releases** of org.apache.maven.plugins:maven-project-info-report
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.6.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-project-info-reports-plugin/3.6.0/pom) | | | |
 | [3.5.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-project-info-reports-plugin/3.5.0/pom) | [mvn jdk8 w](maven-project-info-reports-plugin-3.5.0.buildspec) | [result](maven-project-info-reports-plugin-3.5.0.buildinfo): [6 :white_check_mark: ](maven-project-info-reports-plugin-3.5.0.buildcompare) | 1.3M |
 | [3.4.5](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-project-info-reports-plugin/3.4.5/pom) | [mvn jdk8 w](maven-project-info-reports-plugin-3.4.5.buildspec) | [result](maven-project-info-reports-plugin-3.4.5.buildinfo): [4 :white_check_mark: ](maven-project-info-reports-plugin-3.4.5.buildcompare) | 967K |
 | [3.4.4](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-project-info-reports-plugin/3.4.4/pom) | [mvn jdk8 w](maven-project-info-reports-plugin-3.4.4.buildspec) | [result](maven-project-info-reports-plugin-3.4.4.buildinfo): [4 :white_check_mark: ](maven-project-info-reports-plugin-3.4.4.buildcompare) | 967K |
