@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven SCM Publish Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-scm-publish-plugin
+version=3.3.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-scm-publish-plugin.git
+source.scm.tag=maven-scm-publish-plugin-3.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-scm-publish-plugin-3.3.0.pom
+outputs.0.length=6782
+outputs.0.checksums.sha512=8845e5674c66aa31cf6216c5c9b5dd0090229af4dd06aa67ba32d27ee58404bfc008b3501b87ddcc51445778fb284ba7654416eca0b8d51c8f196e6bdf5515d9
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-scm-publish-plugin-3.3.0.jar
+outputs.1.length=36793
+outputs.1.checksums.sha512=0d63960d081f6b27bfb698035dbaaca99a393d53b17b45486222c03ce5b9bd156e7c53dab9270d5e22469e8c654d8d594da0362f138a037236ae83913eb1386d
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-scm-publish-plugin-3.3.0-source-release.zip
+outputs.2.length=88271
+outputs.2.checksums.sha512=686311a0a08b88dddab7c9221287e50fe03ec2cc7d464e64ae7491a980a7a34a378083f31de2a007c6f6ef5b2612ffa2382c9320bdacd0ede3cba3c1c8cc2f40
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-scm-publish-plugin-3.3.0-sources.jar
+outputs.3.length=23368
+outputs.3.checksums.sha512=c95b7977bc5c3c8e19fe5ad617ab5193d15d70a0216cade8ba33598f16b94d2bfd18f1734d03058a655e3b4b484b2b60111633db8568cfd0def0ca3743e1b156
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-scm-publish-plugin-3.3.0-cyclonedx.xml
+outputs.4.length=146019
+outputs.4.checksums.sha512=feaaa075918f8322f7706547189e4196287f13cbde901c1ea22dcb601b56dce608349aad5c9606cc15677409f6e4017aec92e9ffccba3597c06a130fe3224ca1
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-scm-publish-plugin-3.3.0-cyclonedx.json
+outputs.5.length=167145
+outputs.5.checksums.sha512=38162476a8b52c6f8d919bca60f79a59dc82dc8d0a730832b689c967789dfd43aacdb4fb122254f7b7bc5c72d6ac75fe8df18adb23686763fdc75e65616d2ebe
