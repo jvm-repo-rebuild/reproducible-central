@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Clean Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-clean-plugin
+version=3.4.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-clean-plugin.git
+source.scm.tag=maven-clean-plugin-3.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-clean-plugin-3.4.0.pom
+outputs.0.length=5455
+outputs.0.checksums.sha512=6db83731d5114bfc1ee9453c1c9c8c5139b3e8b26ab85e868b0a1ddef94717b8d25a0763049dd6682479bd9eb05d19c5c40606b76adc2b67f8eeb97b789176d3
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-clean-plugin-3.4.0.jar
+outputs.1.length=35642
+outputs.1.checksums.sha512=18da44e77b0d4a44c7a1963aae41cd1e8881e9e429fe6d93379e56a59ebfd9e7131e2a1291c485ab11977a775dc1c63c4354d8e82b13f6934e4178e1771baa3f
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-clean-plugin-3.4.0-source-release.zip
+outputs.2.length=143776
+outputs.2.checksums.sha512=b9ff6d64d35d1e0c7afed7692d0bb10106b7c3789a9b932f7bc8b61802721fd8947c6593449bd8a1002cdfecc3dc2caf56feed3c77a464f468e29eaab17b1825
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-clean-plugin-3.4.0-sources.jar
+outputs.3.length=24553
+outputs.3.checksums.sha512=c8cfc9cfc44a85ecf63ee8e82d188502cb743c9626235cad97f553a5bfbcf3264c25532428ff42d690c7e03399935fdacd39ec00a25ad2bf1fca578e57123be0
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-clean-plugin-3.4.0-cyclonedx.xml
+outputs.4.length=100089
+outputs.4.checksums.sha512=8aba8f92dfc2403ddf83261b14fa0024db1a2be65c4d601f1e06c50a8071432e05a9db7b8ea80db3d3e4ea80be4917307d860167afa5a98743bd6c6007fa3307
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-clean-plugin-3.4.0-cyclonedx.json
+outputs.5.length=116294
+outputs.5.checksums.sha512=36876c5384e3880482f48325ae616bebbfcb9b726bc9fab4ebfb565b3b79aa8120d9024bdfe7668198b2178198a0d54566dfd6e1928c8d5d11c5c8db4ae2cd67
