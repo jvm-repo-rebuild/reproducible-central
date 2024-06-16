@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven JAR Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-jar-plugin
+version=3.4.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-jar-plugin.git
+source.scm.tag=maven-jar-plugin-3.4.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-jar-plugin-3.4.2.pom
+outputs.0.length=7683
+outputs.0.checksums.sha512=6db53578f06f70b37d055855fe65b977e52c1a10185c606551c566ef3e0d9931e8c0ec1a1f3e2bfae7300c3543a3a98c7cb3fc45c3ff7211ee8ff1c3bdd71603
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-jar-plugin-3.4.2.jar
+outputs.1.length=34029
+outputs.1.checksums.sha512=c5c587e76a1a1e261b9edc9cee997389eaa64a8ad4b874f83c7ebe478addcc01135af3e37d4456534f9c13a7282e0b04f6cf4a21a980f410adf9ac5dbb0f80ef
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-jar-plugin-3.4.2-source-release.zip
+outputs.2.length=243295
+outputs.2.checksums.sha512=4fdd2592cdcce45767d265928a565782839f12c5570f2ce8940afb101f572b02c9fd03b29e8d528995f0e68dfe84b43af7e6dd9bc7d47ba56494f409f2ef3832
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-jar-plugin-3.4.2-sources.jar
+outputs.3.length=23629
+outputs.3.checksums.sha512=2df526f3d851b62b960036967f0061faa2b9a61f90ea4f0d25bf52c2d002e090ba1b3c3854ac2ad0b72dcf7451d564e34fab745db5893ffc6d7968b24ddd3524
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-jar-plugin-3.4.2-cyclonedx.xml
+outputs.4.length=122090
+outputs.4.checksums.sha512=4adb1c0f0a856e8e16e04e8a39b151620bb1e0e89f4b5f50468904ab9fdc963738f97db093d57e54d83f4f6128228bf889d5f44f7d91ac0de9878f27b89c3e76
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-jar-plugin-3.4.2-cyclonedx.json
+outputs.5.length=141684
+outputs.5.checksums.sha512=845020c485257b35aa71ea25c10eedd04b1ee11262cad450e0bdf0b1bf1ed764beb0e707df0c33b227ddd9fb45250086cbe6695233ac22a0f3b0a7f0e27beb93
