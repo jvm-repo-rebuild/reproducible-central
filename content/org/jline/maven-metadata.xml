@@ -3,8 +3,8 @@
   <groupId>org.jline</groupId>
   <artifactId>jline</artifactId>
   <versioning>
-    <latest>3.26.1</latest>
-    <release>3.26.1</release>
+    <latest>3.26.2</latest>
+    <release>3.26.2</release>
     <versions>
       <version>3.0.0.M2</version>
       <version>3.0.0</version>
@@ -58,7 +58,8 @@
       <version>3.25.1</version>
       <version>3.26.0</version>
       <version>3.26.1</version>
+      <version>3.26.2</version>
     </versions>
-    <lastUpdated>20240424061624</lastUpdated>
+    <lastUpdated>20240617061438</lastUpdated>
   </versioning>
 </metadata>

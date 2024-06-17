@@ -52,6 +52,7 @@ rebuilding **7 releases** of org.apache.jspwiki:jspwiki-builder:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.12.2](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.12.2/pom) | | | |
 | [2.12.1](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.12.1/pom) | | | |
 | [2.12.0](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.12.0/pom) | [mvn jdk17 w](jspwiki-2.12.0.buildspec) | :x: | |
 | [2.11.3](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.11.3/pom) | [mvn jdk8 w](jspwiki-2.11.3.buildspec) | [result](jspwiki-builder-2.11.3.buildinfo): [110 :white_check_mark: ](jspwiki-builder-2.11.3.buildcompare) | 297M |

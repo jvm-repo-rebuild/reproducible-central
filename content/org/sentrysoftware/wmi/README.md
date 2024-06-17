@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.sentrysoftware:wmi:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.02](https://central.sonatype.com/artifact/org.sentrysoftware/wmi/1.0.02/pom) | | | |
 | [1.0.01](https://central.sonatype.com/artifact/org.sentrysoftware/wmi/1.0.01/pom) | [mvn jdk17](wmi-1.0.01.buildspec) | [result](wmi-1.0.01.buildinfo): [3 :white_check_mark: ](wmi-1.0.01.buildcompare) | 149K |
 | [1.0.00](https://central.sonatype.com/artifact/org.sentrysoftware/wmi/1.0.00/pom) | [mvn jdk17](wmi-1.0.00.buildspec) | [result](wmi-1.0.00.buildinfo): [3 :white_check_mark: ](wmi-1.0.00.buildcompare) | 149K |
 
