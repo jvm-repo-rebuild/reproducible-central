@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=WMI Java Client
+group-id=org.sentrysoftware
+artifact-id=wmi
+version=1.0.02
+
+# source information
+source.scm.uri=scm:git:https://github.com/sentrysoftware/wmi.git
+source.scm.tag=v1.0.02
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.sentrysoftware
+outputs.0.filename=wmi-1.0.02.pom
+outputs.0.length=3683
+outputs.0.checksums.sha512=333a25b737cf7d7b4e9185b307453d9d815c162ab02a896ee9cd892e64637087e82512992a947723679359066f3d30614c7cf49961e6856e3d41eb9890f2ba78
+
+outputs.1.groupId=org.sentrysoftware
+outputs.1.filename=wmi-1.0.02.jar
+outputs.1.length=74295
+outputs.1.checksums.sha512=b486fd3c96d866275da8358a5b6088cd789c8563f4e993ce8288ab2e1481db58e0ea4d12dd7164d1408313e3763ab8d14e66977165f63f4a4139355422ce897e
+
+outputs.2.groupId=org.sentrysoftware
+outputs.2.filename=wmi-1.0.02-sources.jar
+outputs.2.length=63985
+outputs.2.checksums.sha512=7ace8dac9f1fef414a9af2ce146c2edf5bac4dd7580fa1b752ae70fdebe39fd17214ffec1213b0504c9c0014d56630566d75b12a37e0fe95cefc750ea59a1ed2
