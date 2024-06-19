@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/cyclonedx/cyclonedx-core-java.git](https://github.com/cyclonedx/cyclonedx-core-java.git)
 
-rebuilding **35 releases** of org.cyclonedx:cyclonedx-core-java:
-- **35** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **36 releases** of org.cyclonedx:cyclonedx-core-java:
+- **36** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [9.0.3](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-core-java/9.0.3/pom) | | | |
+| [9.0.3](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-core-java/9.0.3/pom) | [mvn jdk8](cyclonedx-core-java-9.0.3.buildspec) | [result](cyclonedx-core-java-9.0.3.buildinfo): [5 :white_check_mark: ](cyclonedx-core-java-9.0.3.buildcompare) | 4.5M |
 | [9.0.2](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-core-java/9.0.2/pom) | [mvn jdk8](cyclonedx-core-java-9.0.2.buildspec) | [result](cyclonedx-core-java-9.0.2.buildinfo): [5 :white_check_mark: ](cyclonedx-core-java-9.0.2.buildcompare) | 4.5M |
 | [9.0.1](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-core-java/9.0.1/pom) | [mvn jdk8](cyclonedx-core-java-9.0.1.buildspec) | [result](cyclonedx-core-java-9.0.1.buildinfo): [5 :white_check_mark: ](cyclonedx-core-java-9.0.1.buildcompare) | 4.5M |
 | [9.0.0](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-core-java/9.0.0/pom) | [mvn jdk8](cyclonedx-core-java-9.0.0.buildspec) | [result](cyclonedx-core-java-9.0.0.buildinfo): [5 :white_check_mark: ](cyclonedx-core-java-9.0.0.buildcompare) | 4.5M |

@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3873 releases** of **676 projects**:
-   - **3091** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **3877 releases** of **676 projects**:
+   - **3095** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 782 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 676 projects, 573 have at least one fully reproducible release, 103 have none
 
@@ -399,7 +399,7 @@ Its objectives are to provide:
 | | [maven-artifact-plugin](content/org/apache/maven/plugins/maven-artifact-plugin/README.md) | 8 | 8 :white_check_mark: |
 | | [maven-assembly-plugin](content/org/apache/maven/plugins/maven-assembly-plugin/README.md) | 8 | 8 :white_check_mark: |
 | | [maven-checkstyle-plugin](content/org/apache/maven/plugins/maven-checkstyle-plugin/README.md) | 8 | 8 :white_check_mark: |
-| | [maven-clean-plugin](content/org/apache/maven/plugins/maven-clean-plugin/README.md) | 3 | 3 :white_check_mark: |
+| | [maven-clean-plugin](content/org/apache/maven/plugins/maven-clean-plugin/README.md) | 4 | 4 :white_check_mark: |
 | | [maven-compiler-plugin](content/org/apache/maven/plugins/maven-compiler-plugin/README.md) | 7 | 7 :white_check_mark: |
 | | [maven-dependency-plugin](content/org/apache/maven/plugins/maven-dependency-plugin/README.md) | 8 | 8 :white_check_mark: |
 | | [maven-deploy-plugin](content/org/apache/maven/plugins/maven-deploy-plugin/README.md) | 5 | 5 :white_check_mark: |
@@ -410,7 +410,7 @@ Its objectives are to provide:
 | | [maven-help-plugin](content/org/apache/maven/plugins/maven-help-plugin/README.md) | 3 | 3 :white_check_mark: |
 | | [maven-install-plugin](content/org/apache/maven/plugins/maven-install-plugin/README.md) | 5 | 5 :white_check_mark: |
 | | [maven-invoker-plugin](content/org/apache/maven/plugins/maven-invoker-plugin/README.md) | 8 | 8 :white_check_mark: |
-| | [maven-jar-plugin](content/org/apache/maven/plugins/maven-jar-plugin/README.md) | 5 | 5 :white_check_mark: |
+| | [maven-jar-plugin](content/org/apache/maven/plugins/maven-jar-plugin/README.md) | 6 | 6 :white_check_mark: |
 | | [maven-javadoc-plugin](content/org/apache/maven/plugins/maven-javadoc-plugin/README.md) | 11 | 7 :white_check_mark: / 4 :warning: |
 | | [maven-jlink-plugin](content/org/apache/maven/plugins/maven-jlink-plugin/README.md) | 3 | 3 :white_check_mark: |
 | | [maven-pdf-plugin](content/org/apache/maven/plugins/maven-pdf-plugin/README.md) | 3 | 3 :white_check_mark: |
@@ -602,7 +602,7 @@ Its objectives are to provide:
 | | [plexus-xml](content/org/codehaus/plexus/plexus-xml/README.md) | 7 | 7 :white_check_mark: |
 | org.complate | [complate-core](content/org/complate/java/README.md) | 3 | 3 :white_check_mark: |
 | | [complate-spring-mvc](content/org/complate/spring/README.md) | 2 | 2 :white_check_mark: |
-| org.cyclonedx | [cyclonedx-core-java](content/org/cyclonedx/cyclonedx-core-java/README.md) | 35 | 35 :white_check_mark: |
+| org.cyclonedx | [cyclonedx-core-java](content/org/cyclonedx/cyclonedx-core-java/README.md) | 36 | 36 :white_check_mark: |
 | | [cyclonedx-maven-plugin](content/org/cyclonedx/cyclonedx-maven-plugin/README.md) | 24 | 24 :white_check_mark: |
 | org.eclipse.jkube | [jkube](content/org/eclipse/jkube/README.md) | 23 | 23 :white_check_mark: |
 | org.eclipse.transformer | [*.parent](content/org/eclipse/transformer/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
@@ -617,7 +617,7 @@ Its objectives are to provide:
 | org.itsallcode.openfasttrace | [openfasttrace](content/org/itsallcode/openfasttrace/README.md) | 1 | 1 :warning: |
 | org.jpmml | [jpmml-h2o](content/org/jpmml/jpmml-h2o/README.md) | 1 | 1 :warning: |
 | | [jpmml-python](content/org/jpmml/jpmml-python/README.md) | 1 | 1 :warning: |
-| | [jpmml-r](content/org/jpmml/jpmml-r/README.md) | 2 | 2 :white_check_mark: |
+| | [jpmml-r](content/org/jpmml/jpmml-r/README.md) | 3 | 3 :white_check_mark: |
 | | [jpmml-sklearn](content/org/jpmml/jpmml-sklearn/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
 | | [jpmml-statsmodels](content/org/jpmml/jpmml-statsmodels/README.md) | 1 | 1 :warning: |
 | | [jpmml-xgboost](content/org/jpmml/jpmml-xgboost/README.md) | 2 | 2 :warning: |
@@ -699,7 +699,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 2 | 2 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 39 | 39 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **676** | **3873** | **3091** :white_check_mark: **782** :warning: |
+| **Count:** | **676** | **3877** | **3095** :white_check_mark: **782** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -715,7 +715,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 gradle     17.0.11
      13 gradle     21
      26 mvn         7
-   1189 mvn         8
+   1190 mvn         8
       1 mvn         9
    1001 mvn        11
       2 mvn        11.0.19
@@ -735,7 +735,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn        18
      31 mvn        19
      15 mvn        20
-    116 mvn        21
+    118 mvn        21
       6 mvn        22
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11
@@ -801,7 +801,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.5  17.0.9
      36 mvn-3.9.5  21
       2 mvn-3.9.5  22
-     14 mvn-3.9.6   8
+     15 mvn-3.9.6   8
       3 mvn-3.9.6  11
      20 mvn-3.9.6  17
       1 mvn-3.9.6  17.0.7

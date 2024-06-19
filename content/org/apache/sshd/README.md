@@ -33,6 +33,7 @@ rebuilding **6 releases** of org.apache.sshd:sshd:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.13.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.13.0/pom) | | | |
 | [2.12.1](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.12.1/pom) | [mvn jdk17](sshd-2.12.1.buildspec) | [result](sshd-2.12.1.buildinfo): [49 :white_check_mark:  3 :warning:](sshd-2.12.1.buildcompare) [:mag:](sshd-2.12.1.diffoscope) | 77M |
 | [2.12.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.12.0/pom) | [mvn jdk17](sshd-2.12.0.buildspec) | [result](sshd-2.12.0.buildinfo): [47 :white_check_mark:  5 :warning:](sshd-2.12.0.buildcompare) [:mag:](sshd-2.12.0.diffoscope) | 77M |
 | [2.11.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.11.0/pom) | [mvn jdk11](sshd-2.11.0.buildspec) | [result](sshd-2.11.0.buildinfo): [49 :white_check_mark:  3 :warning:](sshd-2.11.0.buildcompare) [:mag:](sshd-2.11.0.diffoscope) | 76M |
