@@ -9,22 +9,22 @@ Source code: [https://github.com/jpmml/jpmml-sklearn.git](https://github.com/jpm
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [org.jpmml:jpmml-sklearn](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.8.3)
-* [org.jpmml:pmml-sklearn](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn/1.8.3)
-* [org.jpmml:pmml-sklearn-extension](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-extension/1.8.3)
-* [org.jpmml:pmml-sklearn-h2o](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-h2o/1.8.3)
-* [org.jpmml:pmml-sklearn-lightgbm](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-lightgbm/1.8.3)
-* [org.jpmml:pmml-sklearn-statsmodels](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-statsmodels/1.8.3)
-* [org.jpmml:pmml-sklearn-xgboost](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-xgboost/1.8.3)
+* [org.jpmml:jpmml-sklearn](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.8.4)
+* [org.jpmml:pmml-sklearn](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn/1.8.4)
+* [org.jpmml:pmml-sklearn-extension](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-extension/1.8.4)
+* [org.jpmml:pmml-sklearn-h2o](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-h2o/1.8.4)
+* [org.jpmml:pmml-sklearn-lightgbm](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-lightgbm/1.8.4)
+* [org.jpmml:pmml-sklearn-statsmodels](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-statsmodels/1.8.4)
+* [org.jpmml:pmml-sklearn-xgboost](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-xgboost/1.8.4)
 </details>
 
-rebuilding **6 releases** of org.jpmml:jpmml-sklearn:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of org.jpmml:jpmml-sklearn:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.8.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.8.4/pom) | | | |
+| [1.8.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.8.4/pom) | [mvn jdk8](jpmml-sklearn-1.8.4.buildspec) | [result](jpmml-sklearn-1.8.4.buildinfo): [19 :white_check_mark: ](jpmml-sklearn-1.8.4.buildcompare) | 1.2M |
 | [1.8.3](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.8.3/pom) | [mvn jdk8](jpmml-sklearn-1.8.3.buildspec) | [result](jpmml-sklearn-1.8.3.buildinfo): [19 :white_check_mark: ](jpmml-sklearn-1.8.3.buildcompare) | 1.2M |
 | [1.8.2](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.8.2/pom) | [mvn jdk8](jpmml-sklearn-1.8.2.buildspec) | [result](jpmml-sklearn-1.8.2.buildinfo): [13 :white_check_mark:  6 :warning:](jpmml-sklearn-1.8.2.buildcompare) [:memo:](https://github.com/jpmml/jpmml-sklearn/pull/199) | 1.2M |
 | [1.8.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.8.1/pom) | [mvn jdk8](jpmml-sklearn-1.8.1.buildspec) | [result](jpmml-sklearn-1.8.1.buildinfo): [13 :white_check_mark: ](jpmml-sklearn-1.8.1.buildcompare) | 699K |

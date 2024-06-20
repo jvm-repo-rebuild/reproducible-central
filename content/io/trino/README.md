@@ -122,6 +122,7 @@ rebuilding **4 releases** of io.trino:trino-root:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [450](https://central.sonatype.com/artifact/io.trino/trino-root/450/pom) | | | |
 | [449](https://central.sonatype.com/artifact/io.trino/trino-root/449/pom) | [mvn jdk22](trino-449.buildspec) | [result](trino-root-449.buildinfo): [581 :white_check_mark: ](trino-root-449.buildcompare) | 5.2G |
 | [448](https://central.sonatype.com/artifact/io.trino/trino-root/448/pom) | [mvn jdk22](trino-448.buildspec) | [result](trino-root-448.buildinfo): [568 :white_check_mark:  1 :warning:](trino-root-448.buildcompare) [:mag:](trino-root-448.diffoscope) [:memo:](https://github.com/trinodb/trino/pull/22135) | 5.1G |
 | [447](https://central.sonatype.com/artifact/io.trino/trino-root/447/pom) | [mvn jdk22](trino-447.buildspec) | [result](trino-root-447.buildinfo): [568 :white_check_mark:  1 :warning:](trino-root-447.buildcompare) [:memo:](https://github.com/trinodb/trino/pull/21733) | 5.1G |
