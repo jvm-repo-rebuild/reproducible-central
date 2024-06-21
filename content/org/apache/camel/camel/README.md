@@ -661,6 +661,7 @@ rebuilding **7 releases** of org.apache.camel:camel:
 | [3.22.2](https://central.sonatype.com/artifact/org.apache.camel/camel/3.22.2/pom) | | | |
 | [3.22.1](https://central.sonatype.com/artifact/org.apache.camel/camel/3.22.1/pom) | | | |
 | [3.22.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.22.0/pom) | | | |
+| [3.21.5](https://central.sonatype.com/artifact/org.apache.camel/camel/3.21.5/pom) | | | |
 | [3.21.4](https://central.sonatype.com/artifact/org.apache.camel/camel/3.21.4/pom) | | | |
 | [3.21.3](https://central.sonatype.com/artifact/org.apache.camel/camel/3.21.3/pom) | | | |
 | [3.21.2](https://central.sonatype.com/artifact/org.apache.camel/camel/3.21.2/pom) | | | |
