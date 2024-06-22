@@ -33,6 +33,7 @@ rebuilding **1 releases** of org.itsallcode.openfasttrace:openfasttrace:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.1](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.0.1/pom) | | | |
 | [4.0.0](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.0.0/pom) | [mvn jdk17](openfasttrace-4.0.0.buildspec) | [result](openfasttrace-4.0.0.buildinfo): [44 :white_check_mark:  2 :warning:](openfasttrace-4.0.0.buildcompare) [:mag:](openfasttrace-4.0.0.diffoscope) | 1.2M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

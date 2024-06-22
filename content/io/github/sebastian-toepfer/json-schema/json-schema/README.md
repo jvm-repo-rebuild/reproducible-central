@@ -21,6 +21,7 @@ rebuilding **4 releases** of io.github.sebastian-toepfer.json-schema:json-schema
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.3.0](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json-schema/json-schema/0.3.0/pom) | | | |
 | [0.2.1](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json-schema/json-schema/0.2.1/pom) | [mvn jdk17](json-schema-0.2.1.buildspec) | [result](json-schema-0.2.1.buildinfo): [15 :white_check_mark: ](json-schema-0.2.1.buildcompare) | 330K |
 | [0.2.0](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json-schema/json-schema/0.2.0/pom) | [mvn jdk17](json-schema-0.2.0.buildspec) | [result](json-schema-0.2.0.buildinfo): [15 :white_check_mark: ](json-schema-0.2.0.buildcompare) | 330K |
 | [0.1.2](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json-schema/json-schema/0.1.2/pom) | [mvn jdk17](json-schema-0.1.2.buildspec) | [result](json-schema-0.1.2.buildinfo): [15 :white_check_mark: ](json-schema-0.1.2.buildcompare) | 284K |
