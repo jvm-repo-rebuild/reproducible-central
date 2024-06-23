@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.maven.shared:maven-shared-jar:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.1.1](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-jar/3.1.1/pom) | | | |
 | [3.1.0](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-jar/3.1.0/pom) | [mvn jdk8 w](maven-shared-jar-3.1.0.buildspec) | [result](maven-shared-jar-3.1.0.buildinfo): [6 :white_check_mark: ](maven-shared-jar-3.1.0.buildcompare) | 1.3M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
