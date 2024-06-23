@@ -1,0 +1,7 @@
+name=dk.mada.reproducible:reproducible-gradle
+group-id=dk.mada.reproducible
+artifact-id=reproducible-gradle
+
+build-tool=gradle
+java.version=21
+os.name=lf
