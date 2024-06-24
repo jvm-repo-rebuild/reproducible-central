@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven JAR Utilities
+group-id=org.apache.maven.shared
+artifact-id=maven-shared-jar
+version=3.1.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-shared-jar.git
+source.scm.tag=maven-shared-jar-3.1.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.maven.shared
+outputs.0.filename=maven-shared-jar-3.1.1.pom
+outputs.0.length=5334
+outputs.0.checksums.sha512=dd346c883e58f67be198217374803dd997c09f4da19e9448cc65202931b9c666f25bef7b40610f5dee003adcf6a4c6dc38db56cd28058dd8d589db0b79dc5191
+
+outputs.1.groupId=org.apache.maven.shared
+outputs.1.filename=maven-shared-jar-3.1.1.jar
+outputs.1.length=44701
+outputs.1.checksums.sha512=35921bf807b43bcab83f81b2231b64ea929437c4f0f4ce8e85f24115b2e82cadbee9e9f5d5e8b21db5d705e557a840dd59bac329d8a8f5437326f9210176573d
+
+outputs.2.groupId=org.apache.maven.shared
+outputs.2.filename=maven-shared-jar-3.1.1-source-release.zip
+outputs.2.length=1145422
+outputs.2.checksums.sha512=ceb9b5cd717a2c9facae5908b7cbd7ff840933c153af367a41418371780ac4fbd5b09d733274ba272f5f37a2d03be6366d2195173cd723fcfb0089b28ed2aa1f
+
+outputs.3.groupId=org.apache.maven.shared
+outputs.3.filename=maven-shared-jar-3.1.1-sources.jar
+outputs.3.length=42525
+outputs.3.checksums.sha512=c1516f0710fdad63927c74fe5152b0795f8a55e8694637ff7c3a2246b9e62b4dd4b428698020944fe490cb9c514f4e3e3f9d52d60f32c8c1d24bad7b3699b348
+
+outputs.4.groupId=org.apache.maven.shared
+outputs.4.filename=maven-shared-jar-3.1.1-cyclonedx.xml
+outputs.4.length=23354
+outputs.4.checksums.sha512=af4d7829449e55b0e87ee7743b3ac09b447821db9e39619bdc3adc772dd7ddf9b2061058d9705d0cf9115c685e2c4f79f314b55db6681f8e15a10f14648848ed
+
+outputs.5.groupId=org.apache.maven.shared
+outputs.5.filename=maven-shared-jar-3.1.1-cyclonedx.json
+outputs.5.length=27179
+outputs.5.checksums.sha512=b8719b4c37e25310540765add7c5d0418703a9a1ff18988b4d8dadd3e0d6ced68155191c3312d79d82da585da26f960197fe4a3e7576ce7e0838ee398e477363
