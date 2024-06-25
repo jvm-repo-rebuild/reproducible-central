@@ -1,0 +1,50 @@
+1 / 1 target/reference/org.jpmml/pmml-model-1.6.5-tests.jar pmml-model/target/pmml-model-1.6.5-tests.jar
+--- target/reference/org.jpmml/pmml-model-1.6.5-tests.jar
++++ pmml-model/target/pmml-model-1.6.5-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 134768 bytes, number of entries: 155
+│ +Zip file size: 134748 bytes, number of entries: 155
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-24 08:57 META-INF/
+│  -rw-r--r--  2.0 unx       82 b- defN 24-Jun-24 08:57 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-24 08:57 dtd/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-24 08:57 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-24 08:57 org/dmg/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-24 08:57 org/dmg/pmml/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-24 08:57 org/dmg/pmml/adapters/
+│ @@ -139,19 +139,19 @@
+│  -rw-r--r--  2.0 unx      616 b- defN 24-Jun-24 08:57 pmml/ScoreDistributionAdapterTest.pmml
+│  -rw-r--r--  2.0 unx      275 b- defN 24-Jun-24 08:57 pmml/TargetValueTest.pmml
+│  -rw-r--r--  2.0 unx      350 b- defN 24-Jun-24 08:57 pmml/TrendExpoSmoothTest.pmml
+│  -rw-r--r--  2.0 unx      501 b- defN 24-Jun-24 08:57 pmml/ValidationTest.pmml
+│  -rw-r--r--  2.0 unx     1795 b- defN 24-Jun-24 08:57 pmml/WeightedSegmentationTest.pmml
+│  -rw-r--r--  2.0 unx      219 b- defN 24-Jun-24 08:57 pmml/WildcardTest.pmml
+│  -rw-r--r--  2.0 unx      925 b- defN 24-Jun-24 08:57 pmml/XEEAttackTest.pmml
+│ --rw-r--r--  2.0 unx      302 b- defN 24-Jun-24 08:57 pmml/XXEAttackTest.pmml
+│ +-rw-r--r--  2.0 unx      268 b- defN 24-Jun-24 08:57 pmml/XXEAttackTest.pmml
+│  -rw-r--r--  2.0 unx      151 b- defN 24-Jun-24 08:57 pmml/pmml-3_0.pmml
+│  -rw-r--r--  2.0 unx      151 b- defN 24-Jun-24 08:57 pmml/pmml-3_1.pmml
+│  -rw-r--r--  2.0 unx      151 b- defN 24-Jun-24 08:57 pmml/pmml-3_2.pmml
+│  -rw-r--r--  2.0 unx      151 b- defN 24-Jun-24 08:57 pmml/pmml-4_0.pmml
+│  -rw-r--r--  2.0 unx      151 b- defN 24-Jun-24 08:57 pmml/pmml-4_1.pmml
+│  -rw-r--r--  2.0 unx      151 b- defN 24-Jun-24 08:57 pmml/pmml-4_2.pmml
+│  -rw-r--r--  2.0 unx      151 b- defN 24-Jun-24 08:57 pmml/pmml-4_3.pmml
+│  -rw-r--r--  2.0 unx      151 b- defN 24-Jun-24 08:57 pmml/pmml-4_4.pmml
+│  -rw-r--r--  2.0 unx     6366 b- defN 24-Jun-24 08:57 META-INF/maven/org.jpmml/pmml-model/pom.xml
+│  -rw-r--r--  2.0 unx       54 b- defN 24-Jun-24 08:57 META-INF/maven/org.jpmml/pmml-model/pom.properties
+│ -155 files, 237061 bytes uncompressed, 111728 bytes compressed:  52.9%
+│ +155 files, 237027 bytes uncompressed, 111708 bytes compressed:  52.9%
+├── pmml/XXEAttackTest.pmml
+│ ├── pmml/XXEAttackTest.pmml
+│ │ @@ -1,9 +1,9 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <!DOCTYPE lolz
+│ │ -  SYSTEM '/home/vfed/Workspace/jpmml-model/target/checkout/pmml-model/src/test/resources/dtd/lolz.dtd' [
+│ │ +  SYSTEM '/var/maven/app/pmml-model/src/test/resources/dtd/lolz.dtd' [
+│ │  ]>
+│ │  <PMML xmlns="http://www.dmg.org/PMML-4_4" version="4.4">
+│ │    <Header/>
+│ │    <DataDictionary/>
+│ │    <Extension/>
+│ │  </PMML>
+
