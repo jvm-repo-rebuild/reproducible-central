@@ -3,8 +3,8 @@
   <groupId>net.sourceforge.pmd</groupId>
   <artifactId>pmd-build-tools-config</artifactId>
   <versioning>
-    <latest>25</latest>
-    <release>25</release>
+    <latest>26</latest>
+    <release>26</release>
     <versions>
       <version>1.0.1</version>
       <version>1.1.0</version>
@@ -33,7 +33,8 @@
       <version>23</version>
       <version>24</version>
       <version>25</version>
+      <version>26</version>
     </versions>
-    <lastUpdated>20240531081518</lastUpdated>
+    <lastUpdated>20240627065249</lastUpdated>
   </versioning>
 </metadata>

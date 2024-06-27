@@ -9,31 +9,31 @@ Source code: [https://github.com/apache/mina-sshd.git](https://github.com/apache
 
 <details><summary>This project defines 16 modules:</summary>
 
-* [org.apache.sshd:apache-sshd](https://central.sonatype.com/artifact/org.apache.sshd/apache-sshd/2.12.1)
-* [org.apache.sshd:sshd](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.12.1)
-* [org.apache.sshd:sshd-cli](https://central.sonatype.com/artifact/org.apache.sshd/sshd-cli/2.12.1)
-* [org.apache.sshd:sshd-common](https://central.sonatype.com/artifact/org.apache.sshd/sshd-common/2.12.1)
-* [org.apache.sshd:sshd-contrib](https://central.sonatype.com/artifact/org.apache.sshd/sshd-contrib/2.12.1)
-* [org.apache.sshd:sshd-core](https://central.sonatype.com/artifact/org.apache.sshd/sshd-core/2.12.1)
-* [org.apache.sshd:sshd-git](https://central.sonatype.com/artifact/org.apache.sshd/sshd-git/2.12.1)
-* [org.apache.sshd:sshd-ldap](https://central.sonatype.com/artifact/org.apache.sshd/sshd-ldap/2.12.1)
-* [org.apache.sshd:sshd-mina](https://central.sonatype.com/artifact/org.apache.sshd/sshd-mina/2.12.1)
-* [org.apache.sshd:sshd-netty](https://central.sonatype.com/artifact/org.apache.sshd/sshd-netty/2.12.1)
-* [org.apache.sshd:sshd-openpgp](https://central.sonatype.com/artifact/org.apache.sshd/sshd-openpgp/2.12.1)
-* [org.apache.sshd:sshd-osgi](https://central.sonatype.com/artifact/org.apache.sshd/sshd-osgi/2.12.1)
-* [org.apache.sshd:sshd-putty](https://central.sonatype.com/artifact/org.apache.sshd/sshd-putty/2.12.1)
-* [org.apache.sshd:sshd-scp](https://central.sonatype.com/artifact/org.apache.sshd/sshd-scp/2.12.1)
-* [org.apache.sshd:sshd-sftp](https://central.sonatype.com/artifact/org.apache.sshd/sshd-sftp/2.12.1)
-* [org.apache.sshd:sshd-spring-sftp](https://central.sonatype.com/artifact/org.apache.sshd/sshd-spring-sftp/2.12.1)
+* [org.apache.sshd:apache-sshd](https://central.sonatype.com/artifact/org.apache.sshd/apache-sshd/2.13.1)
+* [org.apache.sshd:sshd](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.13.1)
+* [org.apache.sshd:sshd-cli](https://central.sonatype.com/artifact/org.apache.sshd/sshd-cli/2.13.1)
+* [org.apache.sshd:sshd-common](https://central.sonatype.com/artifact/org.apache.sshd/sshd-common/2.13.1)
+* [org.apache.sshd:sshd-contrib](https://central.sonatype.com/artifact/org.apache.sshd/sshd-contrib/2.13.1)
+* [org.apache.sshd:sshd-core](https://central.sonatype.com/artifact/org.apache.sshd/sshd-core/2.13.1)
+* [org.apache.sshd:sshd-git](https://central.sonatype.com/artifact/org.apache.sshd/sshd-git/2.13.1)
+* [org.apache.sshd:sshd-ldap](https://central.sonatype.com/artifact/org.apache.sshd/sshd-ldap/2.13.1)
+* [org.apache.sshd:sshd-mina](https://central.sonatype.com/artifact/org.apache.sshd/sshd-mina/2.13.1)
+* [org.apache.sshd:sshd-netty](https://central.sonatype.com/artifact/org.apache.sshd/sshd-netty/2.13.1)
+* [org.apache.sshd:sshd-openpgp](https://central.sonatype.com/artifact/org.apache.sshd/sshd-openpgp/2.13.1)
+* [org.apache.sshd:sshd-osgi](https://central.sonatype.com/artifact/org.apache.sshd/sshd-osgi/2.13.1)
+* [org.apache.sshd:sshd-putty](https://central.sonatype.com/artifact/org.apache.sshd/sshd-putty/2.13.1)
+* [org.apache.sshd:sshd-scp](https://central.sonatype.com/artifact/org.apache.sshd/sshd-scp/2.13.1)
+* [org.apache.sshd:sshd-sftp](https://central.sonatype.com/artifact/org.apache.sshd/sshd-sftp/2.13.1)
+* [org.apache.sshd:sshd-spring-sftp](https://central.sonatype.com/artifact/org.apache.sshd/sshd-spring-sftp/2.13.1)
 </details>
 
-rebuilding **6 releases** of org.apache.sshd:sshd:
+rebuilding **7 releases** of org.apache.sshd:sshd:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.13.1](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.13.1/pom) | | | |
+| [2.13.1](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.13.1/pom) | [mvn jdk8](sshd-2.13.1.buildspec) | [result](sshd-2.13.1.buildinfo): [50 :white_check_mark:  1 :warning:](sshd-2.13.1.buildcompare) [:mag:](sshd-2.13.1.diffoscope) | 75M |
 | [2.13.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.13.0/pom) | | | |
 | [2.12.1](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.12.1/pom) | [mvn jdk17](sshd-2.12.1.buildspec) | [result](sshd-2.12.1.buildinfo): [49 :white_check_mark:  3 :warning:](sshd-2.12.1.buildcompare) [:mag:](sshd-2.12.1.diffoscope) | 77M |
 | [2.12.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.12.0/pom) | [mvn jdk17](sshd-2.12.0.buildspec) | [result](sshd-2.12.0.buildinfo): [47 :white_check_mark:  5 :warning:](sshd-2.12.0.buildcompare) [:mag:](sshd-2.12.0.diffoscope) | 77M |
