@@ -1,0 +1,41 @@
+[INFO] --- antrun:3.1.0:run (create-sources-artifact) @ sshd-osgi ---
+[INFO] Executing tasks
+[INFO]     [mkdir] Created dir: /var/maven/app/sshd-osgi/target/osgi-sources/META-INF/maven/org.apache.sshd/sshd-osgi
+[INFO]      [copy] Copying 1 file to /var/maven/app/sshd-osgi/target/osgi-sources/META-INF/maven/org.apache.sshd/sshd-osgi
+[INFO]       [jar] Building jar: /var/maven/app/sshd-osgi/target/sshd-osgi-2.13.1-sources.jar
+[INFO] Executed tasks
+
+1 / 1 target/reference/org.apache.sshd/sshd-osgi-2.13.1-sources.jar sshd-osgi/target/sshd-osgi-2.13.1-sources.jar
+--- target/reference/org.apache.sshd/sshd-osgi-2.13.1-sources.jar
++++ sshd-osgi/target/sshd-osgi-2.13.1-sources.jar
+├── zipinfo {}
+│ @@ -1,872 +1,872 @@
+│  Zip file size: 1406380 bytes, number of entries: 870
+│ -drwxr-xr-x  2.0 unx        0 bx stor 24-Jun-20 22:49 META-INF/
+│ --rw-r--r--  2.0 unx       91 b- defN 24-Jun-20 22:49 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-20 22:47 org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-20 22:47 org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-20 22:47 org/apache/sshd/
+...
+│ --rw-r--r--  2.0 unx     1503 b- defN 24-Jun-20 22:47 org/apache/sshd/server/x11/X11ForwardSupport.java
+│ --rw-r--r--  2.0 unx     1129 b- defN 24-Jun-20 22:47 org/apache/sshd/server/x11/X11ForwardingExceptionMarker.java
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-20 22:49 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-20 22:49 META-INF/maven/org.apache.sshd/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-20 22:49 META-INF/maven/org.apache.sshd/sshd-osgi/
+│ --rw-r--r--  2.0 unx      109 b- defN 24-Jun-20 22:49 META-INF/maven/org.apache.sshd/sshd-osgi/pom.properties
+│ --rw-r--r--  2.0 unx     9277 b- defN 24-Jun-20 22:49 META-INF/maven/org.apache.sshd/sshd-osgi/pom.xml
+│ +drwxr-xr-x  2.0 unx        0 bx stor 24-Jun-27 05:58 META-INF/
+│ +-rw-r--r--  2.0 unx       91 b- defN 24-Jun-27 05:58 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-13 05:32 org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-13 05:32 org/apache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-13 05:32 org/apache/sshd/
+...
+│ +-rw-r--r--  2.0 unx     1503 b- defN 24-Jun-13 05:32 org/apache/sshd/server/x11/X11ForwardSupport.java
+│ +-rw-r--r--  2.0 unx     1129 b- defN 24-Jun-13 05:32 org/apache/sshd/server/x11/X11ForwardingExceptionMarker.java
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-27 05:58 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-27 05:58 META-INF/maven/org.apache.sshd/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-27 05:58 META-INF/maven/org.apache.sshd/sshd-osgi/
+│ +-rw-r--r--  2.0 unx      109 b- defN 24-Jun-27 05:58 META-INF/maven/org.apache.sshd/sshd-osgi/pom.properties
+│ +-rw-r--r--  2.0 unx     9277 b- defN 24-Jun-27 05:58 META-INF/maven/org.apache.sshd/sshd-osgi/pom.xml
+│  870 files, 4220575 bytes uncompressed, 1245626 bytes compressed:  70.5%
+
