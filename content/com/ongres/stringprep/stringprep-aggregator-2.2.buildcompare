@@ -1,0 +1,9 @@
+version=2.2
+ok=21
+ko=0
+ignored=0
+okFiles="stringprep-parent-2.2.pom stringprep-parent-2.2-cyclonedx.xml stringprep-parent-2.2-cyclonedx.json stringprep-2.2.pom stringprep-2.2.jar stringprep-2.2-sources.jar stringprep-2.2-cyclonedx.xml stringprep-2.2-cyclonedx.json saslprep-2.2.pom saslprep-2.2.jar saslprep-2.2-sources.jar saslprep-2.2-cyclonedx.xml saslprep-2.2-cyclonedx.json nameprep-2.2.pom nameprep-2.2.jar nameprep-2.2-sources.jar nameprep-2.2-cyclonedx.xml nameprep-2.2-cyclonedx.json stringprep-aggregator-2.2.pom stringprep-aggregator-2.2-cyclonedx.xml stringprep-aggregator-2.2-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
