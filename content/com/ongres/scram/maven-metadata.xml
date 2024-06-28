@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.ongres.scram</groupId>
+  <artifactId>scram-aggregator</artifactId>
+  <versioning>
+    <latest>3.1</latest>
+    <release>3.1</release>
+    <versions>
+      <version>3.1</version>
+    </versions>
+    <lastUpdated>20240626011035</lastUpdated>
+  </versioning>
+</metadata>

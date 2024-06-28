@@ -1,0 +1,9 @@
+version=3.1
+ok=16
+ko=0
+ignored=0
+okFiles="scram-parent-3.1.pom scram-parent-3.1-cyclonedx.xml scram-parent-3.1-cyclonedx.json scram-common-3.1.pom scram-common-3.1.jar scram-common-3.1-sources.jar scram-common-3.1-cyclonedx.xml scram-common-3.1-cyclonedx.json scram-client-3.1.pom scram-client-3.1.jar scram-client-3.1-sources.jar scram-client-3.1-cyclonedx.xml scram-client-3.1-cyclonedx.json scram-aggregator-3.1.pom scram-aggregator-3.1-cyclonedx.xml scram-aggregator-3.1-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
