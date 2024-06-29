@@ -4,9 +4,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240628155427 --> [org.apache.sling.models.api](../content/org/apache/sling/org.apache.sling.models.api/README.md) | [1.5.0](../content/org/apache/sling/org.apache.sling.models.api/org.apache.sling.models.api-1.5.0.buildspec) :white_check_mark: | [1.5.2](../content/org/apache/sling/org.apache.sling.models.api/org.apache.sling.models.api-1.5.2.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.models.api/org.apache.sling.models.api-1.5.0.buildspec 1.5.2` |
-| <!-- 20240628091714 --> [pmd](../content/net/sourceforge/pmd/README.md) | [7.2.0](../content/net/sourceforge/pmd/pmd-7.2.0.buildspec) :white_check_mark: | [7.3.0](../content/net/sourceforge/pmd/pmd-7.3.0.buildspec) | `bin/add-new-release.sh content/net/sourceforge/pmd/pmd-7.2.0.buildspec 7.3.0` |
-| <!-- 20240628001329 --> [trino-root](../content/io/trino/README.md) | [450](../content/io/trino/trino-450.buildspec) :white_check_mark: | [451](../content/io/trino/trino-451.buildspec) | `bin/add-new-release.sh content/io/trino/trino-450.buildspec 451` |
+| <!-- 20240629163708 --> [versions-maven-plugin](../content/org/codehaus/mojo/versions-maven-plugin/README.md) | [2.16.2](../content/org/codehaus/mojo/versions-maven-plugin/versions-maven-plugin-2.16.2.buildspec) :white_check_mark: | [2.17.0](../content/org/codehaus/mojo/versions-maven-plugin/versions-maven-plugin-2.17.0.buildspec) | `bin/add-new-release.sh content/org/codehaus/mojo/versions-maven-plugin/versions-maven-plugin-2.16.2.buildspec 2.17.0` |
+| <!-- 20240629115537 --> [pgp-keys-map](../content/org/simplify4u/pgp-keys-map/README.md) | [2024.04.04](../content/org/simplify4u/pgp-keys-map/pgp-keys-map-2024.04.04.buildspec) :white_check_mark: | [2024.06.29](../content/org/simplify4u/pgp-keys-map/pgp-keys-map-2024.06.29.buildspec) | `bin/add-new-release.sh content/org/simplify4u/pgp-keys-map/pgp-keys-map-2024.04.04.buildspec 2024.06.29` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -42,12 +41,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240628183916 --> [jdbi3-root](../content/org/jdbi/README.md) | [3.45.1](../content/org/jdbi/jdbi3-root-3.45.1.buildspec) :warning: [:memo:](https://github.com/basepom/basepom/pull/73) | [3.45.2](../content/org/jdbi/jdbi3-root-3.45.2.buildspec) | `bin/add-new-release.sh content/org/jdbi/jdbi3-root-3.45.1.buildspec 3.45.2` |
-| <!-- 20240628155438 --> [org.apache.sling.models.impl](../content/org/apache/sling/org.apache.sling.models.impl/README.md) | [1.6.4](../content/org/apache/sling/org.apache.sling.models.impl/org.apache.sling.models.impl-1.6.4.buildspec) :warning: | [1.7.0](../content/org/apache/sling/org.apache.sling.models.impl/org.apache.sling.models.impl-1.7.0.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.models.impl/org.apache.sling.models.impl-1.6.4.buildspec 1.7.0` |
 | <!-- 20240627202832 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.48.2](../content/org/finos/legend/engine/legend-engine-4.48.2.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.48.2` |
 | <!-- 20240627095013 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.6.0](../content/org/apache/camel/camel/camel-4.6.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.6.0` |
 | <!-- 20240625165715 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | [6.0.14](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec) :warning: | [6.6.2](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.6.2.buildspec) | `bin/add-new-release.sh content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec 6.6.2` |
-| <!-- 20240625152252 --> [ratis](../content/org/apache/ratis/README.md) | [3.0.1](../content/org/apache/ratis/ratis-3.0.1.buildspec) :warning: [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) | [3.1.0](../content/org/apache/ratis/ratis-3.1.0.buildspec) | `bin/add-new-release.sh content/org/apache/ratis/ratis-3.0.1.buildspec 3.1.0` |
 | <!-- 20240624180046 --> [jooby](../content/io/jooby/README.md) | [3.0.5](../content/io/jooby/jooby-3.0.5.buildspec) :warning: | [3.2.3](../content/io/jooby/jooby-3.2.3.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-3.0.5.buildspec 3.2.3` |
 | <!-- 20240624053204 --> [mada-style-gradle](../content/dk/mada/style/mada-style-gradle/README.md) | [0.9.9](../content/dk/mada/style/mada-style-gradle/mada-style-gradle-0.9.9.buildspec) :warning: | [1.0.0](../content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.0.0.buildspec) | `bin/add-new-release.sh content/dk/mada/style/mada-style-gradle/mada-style-gradle-0.9.9.buildspec 1.0.0` |
 | <!-- 20240623065435 --> [drill-root](../content/org/apache/drill/README.md) | [1.21.1](../content/org/apache/drill/drill-1.21.1.buildspec) :warning: [:memo:](https://github.com/apache/drill/pull/2805) | [1.21.2](../content/org/apache/drill/drill-1.21.2.buildspec) | `bin/add-new-release.sh content/org/apache/drill/drill-1.21.1.buildspec 1.21.2` |
@@ -103,6 +99,9 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20240628183916 --> [jdbi3-root](../content/org/jdbi/README.md) | 3.45.2 :warning: [:memo:](https://github.com/basepom/basepom/pull/73) |
+| <!-- 20240628155438 --> [org.apache.sling.models.impl](../content/org/apache/sling/org.apache.sling.models.impl/README.md) | 1.7.0 :warning: |
+| <!-- 20240625152252 --> [ratis](../content/org/apache/ratis/README.md) | 3.1.0 :warning: [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) |
 | <!-- 20240624091135 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | 1.6.5 :warning: |
 | <!-- 20240624060849 --> [sshd](../content/org/apache/sshd/README.md) | 2.13.1 :warning: |
 | <!-- 20240608203934 --> [git-commit-id-maven-plugin](../content/io/github/git-commit-id/README.md) | 9.0.0 :x: |
@@ -191,7 +190,6 @@ New Releases To Add
 | <!-- 20211221090833 --> [scriptingbundle-maven-plugin](../content/org/apache/sling/scriptingbundle-maven-plugin/README.md) | 0.5.2 :warning: |
 | <!-- 20211212220158 --> [org.apache.sling.commons.messaging.mail](../content/org/apache/sling/org.apache.sling.commons.messaging.mail/README.md) | 2.0.0 :warning: |
 | <!-- 20211018122406 --> [org.apache.sling.commons.crypto](../content/org/apache/sling/org.apache.sling.commons.crypto/README.md) | 1.1.0 :warning: [:memo:](https://issues.apache.org/jira/browse/SLING-11907) |
-| <!-- 20210201192138 --> [parent](../content/com/ongres/stringprep/README.md) | 2.0 :warning: [:memo:](https://gitlab.com/ongresinc/stringprep/-/commit/208cd7056b32e27678570f22add616e045af5573#442292b8a7efeabbe4cc176709b833b1792140ec_86_84) |
 | <!-- 20201226140242 --> [maven-artifact-transfer](../content/org/apache/maven/shared/maven-artifact-transfer/README.md) | 0.13.1 :warning: [:memo:](https://github.com/apache/maven-artifact-transfer/commit/c2106c0500cc7c70c27581f117bf86e6185073c6) |
 | <!-- 20200511133844 --> [org.apache.sling.installer.factory.packages](../content/org/apache/sling/org.apache.sling.installer.factory.packages/README.md) | 1.0.4 :warning: |
 <!-- END GENERATED NEWEST NOT REPRODUCIBLE -->
