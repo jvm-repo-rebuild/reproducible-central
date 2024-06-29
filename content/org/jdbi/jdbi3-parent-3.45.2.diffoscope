@@ -1,0 +1,114 @@
+# same issue on every jar, SBOM being just a consequence
+1 / 106 target/reference/org.jdbi.internal/jdbi3-policy-3.45.2.jar internal/policy/target/jdbi3-policy-3.45.2.jar
+--- target/reference/org.jdbi.internal/jdbi3-policy-3.45.2.jar
++++ internal/policy/target/jdbi3-policy-3.45.2.jar
+├── META-INF/MANIFEST.MF
+│ @@ -11,12 +11,12 @@
+│  
+
+│  Name: org.jdbi.internal:jdbi3-policy
+
+│  Project-Version: 3.45.2
+
+│  Project-Name: jdbi3 - internal - policy
+
+│  Git-Branch: 725fc22d3af95901c61271085b400272f2cf4d53
+
+│  Project-ArtifactId: jdbi3-policy
+
+│  Git-Commit-Id-Describe: v3.45.2
+
+│ -Build-Time: 2024-06-28T11:29:26-07:00
+
+│ -Git-Remote-Origin-Url: file:///Users/steven/code/jdbi
+
+│ +Build-Time: 2024-06-28T20:29:26+02:00
+
+│ +Git-Remote-Origin-Url: https://github.com/jdbi/jdbi.git
+
+│  Project-GroupId: org.jdbi.internal
+
+│  Git-Commit-Id: 725fc22d3af95901c61271085b400272f2cf4d53
+
+# additional issue only on this jar: probably need to upgrade m-shade-p to avoid TZ impact
+2 / 106 target/reference/org.jdbi/jdbi3-core-3.45.2.jar core/target/jdbi3-core-3.45.2.jar
+--- target/reference/org.jdbi/jdbi3-core-3.45.2.jar
++++ core/target/jdbi3-core-3.45.2.jar
+├── zipinfo {}
+│ @@ -1,71 +1,71 @@
+│ -Zip file size: 1019083 bytes, number of entries: 743
+│ --rw----     2.0 fat        0 bX defN 24-Jun-28 11:29 META-INF/
+│ --rw----     2.0 fat        0 bl defN 24-Jun-28 11:29 META-INF/inlined/
+│ --rw----     2.0 fat        0 bl defN 24-Jun-28 11:29 META-INF/inlined/org.antlr/
+│ --rw----     2.0 fat        0 bl defN 24-Jun-28 11:29 META-INF/inlined/org.antlr/antlr4-runtime/
+│ --rw----     2.0 fat        0 bl defN 24-Jun-28 11:29 META-INF/maven/
+│ --rw----     2.0 fat        0 bl defN 24-Jun-28 11:29 META-INF/maven/org.antlr/
+│ --rw----     2.0 fat        0 bl defN 24-Jun-28 11:29 META-INF/maven/org.antlr/antlr4-runtime/
+│ --rw----     2.0 fat        0 bl defN 24-Jun-28 11:29 META-INF/maven/org.jdbi/
+│ --rw----     2.0 fat        0 bl defN 24-Jun-28 11:29 META-INF/maven/org.jdbi/jdbi3-core/
+│ --rw----     2.0 fat        0 bl defN 24-Jun-28 11:29 org/
+│ --rw----     2.0 fat        0 bl defN 24-Jun-28 11:29 org/jdbi/
+│ --rw----     2.0 fat        0 bl defN 24-Jun-28 11:29 org/jdbi/v3/
+...
+│ --rw----     2.0 fat        0 bl defN 24-Jun-28 11:29 org/jdbi/v3/meta/
+│ --rw----     2.0 fat      780 bl defN 24-Jun-28 18:29 META-INF/MANIFEST.MF
+│ +Zip file size: 1019084 bytes, number of entries: 743
+│ +-rw----     2.0 fat        0 bX defN 24-Jun-28 20:29 META-INF/
+│ +-rw----     2.0 fat        0 bl defN 24-Jun-28 20:29 META-INF/inlined/
+│ +-rw----     2.0 fat        0 bl defN 24-Jun-28 20:29 META-INF/inlined/org.antlr/
+│ +-rw----     2.0 fat        0 bl defN 24-Jun-28 20:29 META-INF/inlined/org.antlr/antlr4-runtime/
+│ +-rw----     2.0 fat        0 bl defN 24-Jun-28 20:29 META-INF/maven/
+│ +-rw----     2.0 fat        0 bl defN 24-Jun-28 20:29 META-INF/maven/org.antlr/
+│ +-rw----     2.0 fat        0 bl defN 24-Jun-28 20:29 META-INF/maven/org.antlr/antlr4-runtime/
+│ +-rw----     2.0 fat        0 bl defN 24-Jun-28 20:29 META-INF/maven/org.jdbi/
+│ +-rw----     2.0 fat        0 bl defN 24-Jun-28 20:29 META-INF/maven/org.jdbi/jdbi3-core/
+│ +-rw----     2.0 fat        0 bl defN 24-Jun-28 20:29 org/
+│ +-rw----     2.0 fat        0 bl defN 24-Jun-28 20:29 org/jdbi/
+│ +-rw----     2.0 fat        0 bl defN 24-Jun-28 20:29 org/jdbi/v3/
+..
+│ +-rw----     2.0 fat        0 bl defN 24-Jun-28 20:29 org/jdbi/v3/meta/
+│ +-rw----     2.0 fat      782 bl defN 24-Jun-28 18:29 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     3677 bl defN 24-Jun-28 18:29 org/jdbi/v3/core/AbstractHandleSupplier.class
+│  -rw----     2.0 fat      544 bl defN 24-Jun-28 18:29 org/jdbi/v3/core/CloseException.class
+│  -rw----     2.0 fat      492 bl defN 24-Jun-28 18:29 org/jdbi/v3/core/ConnectionException.class
+│  -rw----     2.0 fat     1487 bl defN 24-Jun-28 18:29 org/jdbi/v3/core/ConnectionFactory.class
+│  -rw----     2.0 fat     1475 bl defN 24-Jun-28 18:29 org/jdbi/v3/core/ConstantHandleSupplier.class
+│  -rw----     2.0 fat      850 bl defN 24-Jun-28 18:29 org/jdbi/v3/core/Handle$1.class
+│  -rw----     2.0 fat      854 bl defN 24-Jun-28 18:29 org/jdbi/v3/core/Handle$2.class
+│ @@ -738,8 +738,8 @@
+│  -rw----     2.0 fat     2097 bl defN 23-Sep-04 22:10 org/jdbi/v3/core/inlined/org/antlr/v4/runtime/tree/xpath/$XPathRuleElement.class
+│  -rw----     2.0 fat     1219 bl defN 23-Sep-04 22:10 org/jdbi/v3/core/inlined/org/antlr/v4/runtime/tree/xpath/$XPathTokenAnywhereElement.class
+│  -rw----     2.0 fat     2251 bl defN 23-Sep-04 22:10 org/jdbi/v3/core/inlined/org/antlr/v4/runtime/tree/xpath/$XPathTokenElement.class
+│  -rw----     2.0 fat     1209 bl defN 23-Sep-04 22:10 org/jdbi/v3/core/inlined/org/antlr/v4/runtime/tree/xpath/$XPathWildcardAnywhereElement.class
+│  -rw----     2.0 fat     1818 bl defN 23-Sep-04 22:10 org/jdbi/v3/core/inlined/org/antlr/v4/runtime/tree/xpath/$XPathWildcardElement.class
+│  -rw----     2.0 fat     3552 bl defN 23-Sep-04 22:10 META-INF/maven/org.antlr/antlr4-runtime/pom.xml
+│  -rw----     2.0 fat       59 bl defN 23-Sep-04 22:10 META-INF/maven/org.antlr/antlr4-runtime/pom.properties
+│ -743 files, 2289199 bytes uncompressed, 864653 bytes compressed:  62.2%
+│ +743 files, 2289201 bytes uncompressed, 864654 bytes compressed:  62.2%
+├── META-INF/MANIFEST.MF
+│ @@ -12,12 +12,12 @@
+│  
+
+│  Name: org.jdbi:jdbi3-core
+
+│  Project-Version: 3.45.2
+
+│  Project-Name: jdbi3 core
+
+│  Git-Branch: 725fc22d3af95901c61271085b400272f2cf4d53
+
+│  Project-ArtifactId: jdbi3-core
+
+│  Git-Commit-Id-Describe: v3.45.2
+
+│ -Build-Time: 2024-06-28T11:29:26-07:00
+
+│ -Git-Remote-Origin-Url: file:///Users/steven/code/jdbi
+
+│ +Build-Time: 2024-06-28T20:29:26+02:00
+
+│ +Git-Remote-Origin-Url: https://github.com/jdbi/jdbi.git
+
+│  Project-GroupId: org.jdbi
+
+│  Git-Commit-Id: 725fc22d3af95901c61271085b400272f2cf4d53
