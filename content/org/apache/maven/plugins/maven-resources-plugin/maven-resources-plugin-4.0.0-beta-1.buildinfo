@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Resources Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-resources-plugin
+version=4.0.0-beta-1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-resources-plugin.git
+source.scm.tag=maven-resources-plugin-4.0.0-beta-1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=4.0.0-beta-3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-resources-plugin-4.0.0-beta-1.pom
+outputs.0.length=34251
+outputs.0.checksums.sha512=e119a96af58f2c61f965c03631100b41387bb553e1ced83abd2d41d6d1f9073a4090c87e31b0af89187411187476466d8258c6d19eca4ee94923f31fecc43597
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-resources-plugin-4.0.0-beta-1.jar
+outputs.1.length=35246
+outputs.1.checksums.sha512=34278e56dc62934db1b8fc0c11da75be2417c5a5b81ba76ce5efcc1a4b405a085183de8e1c5492dfbc5a4564c5ac326a22bf53b2d376203ac94f8f4c69664d33
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-resources-plugin-4.0.0-beta-1-source-release.zip
+outputs.2.length=952516
+outputs.2.checksums.sha512=46c06efef194c1cd0269d6f7d5dcb317e35ac4c3652fc97ed606ffab7581189a1252663791fc8bc1348ba8989e0e8604dd537c2e9783b17472f6f27ac691214e
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-resources-plugin-4.0.0-beta-1-sources.jar
+outputs.3.length=23977
+outputs.3.checksums.sha512=a5435c2c5593acb2a6e3598b37d799484d1c0e31cc85cafa30b355e63196b81a769b42ee0f71dc8e9d651ebe1dc31d3206c811a1ef27ae8470404cba413551db
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-resources-plugin-4.0.0-beta-1-cyclonedx.xml
+outputs.4.length=56806
+outputs.4.checksums.sha512=93ad147f2d515ea5dc4da468174c3b4a365cd27d94d7c49bba657053076c8e8628a7467cfe8274a7687ed096ea6c8736f366ee938fb8380bcb9717cf73f6a283
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-resources-plugin-4.0.0-beta-1-cyclonedx.json
+outputs.5.length=66019
+outputs.5.checksums.sha512=b4808afea13dcaba9e047ac514349c26ffe149b99e3f37fcbe914a9e43574aa243d615fa8bb1788b7c497ab819702e33a2099e6a9a854be00a9664de1ccbc008
