@@ -2,6 +2,24 @@
   <localRepository>${user.home}/.m2/repository-${MVN_UMASK}</localRepository>
   <profiles>
     <profile>
+      <id>staged-releases</id>
+      <activation>
+        <activeByDefault>false</activeByDefault>
+      </activation>
+      <repositories>
+        <repository>
+          <id>staged-releases</id>
+          <url>https://repository.apache.org/content/groups/staging/</url>
+        </repository>
+      </repositories>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>staged-releases</id>
+          <url>https://repository.apache.org/content/groups/staging/</url>
+        </pluginRepository>
+      </pluginRepositories>
+    </profile>
+    <profile>
       <id>io.wcm</id>
       <!-- see https://wcm.io/maven.html -->
       <repositories>
@@ -187,6 +205,11 @@
       <name>AWS DynamoDB Local Release Repository</name>
       <url>https://s3-us-west-2.amazonaws.com/dynamodb-local/release</url>
       <mirrorOf>dynamodblocal</mirrorOf>
+    </mirror>
+    <mirror>
+      <id>staged-releases</id>
+      <mirrorOf>staged-releases</mirrorOf>
+      <url>https://repository.apache.org/content/groups/staging/</url>
     </mirror>
     <mirror>
       <id>default</id>
