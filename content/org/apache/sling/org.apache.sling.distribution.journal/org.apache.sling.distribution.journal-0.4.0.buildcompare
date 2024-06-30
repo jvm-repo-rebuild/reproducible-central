@@ -1,0 +1,9 @@
+version=0.4.0
+ok=4
+ko=0
+ignored=0
+okFiles="org.apache.sling.distribution.journal-0.4.0.pom org.apache.sling.distribution.journal-0.4.0.jar org.apache.sling.distribution.journal-0.4.0-source-release.zip org.apache.sling.distribution.journal-0.4.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
