@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Deploy Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-deploy-plugin
+version=4.0.0-beta-1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-deploy-plugin.git
+source.scm.tag=maven-deploy-plugin-4.0.0-beta-1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=4.0.0-beta-3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-deploy-plugin-4.0.0-beta-1.pom
+outputs.0.length=33426
+outputs.0.checksums.sha512=fcc1ef92a648b37f2119bbde3c366dcf080540117db3e57efc6a392719198a4918d801f0625ee60770e7f5a1934d49eb796b83b0f478f5bef5a9aab44b62b1b9
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-deploy-plugin-4.0.0-beta-1.jar
+outputs.1.length=41092
+outputs.1.checksums.sha512=96dc0a0f1ca87fcfcdb2c19099d9e8dec99e51ec1f4617817d1e65693f38d56b3592763a222a30f0fa936d349f4f16742b604edeae115968787128938c327e43
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-deploy-plugin-4.0.0-beta-1-source-release.zip
+outputs.2.length=261236
+outputs.2.checksums.sha512=acf67d2b061330972c7518aab0880078650c6c24e894db87f3119775bfdfb3632ad3f17a28518ffa51ae498ad3413bcc420931ed563e5b6983a572562e399411
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-deploy-plugin-4.0.0-beta-1-sources.jar
+outputs.3.length=24394
+outputs.3.checksums.sha512=64eff45978a155caabfb422301fa90db87439fe71117e7220c6cbdc6077e251bfbb096fd46f38224f7bfff4768244bd7994c12d4835b0092478e51067c2290f4
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-deploy-plugin-4.0.0-beta-1-cyclonedx.xml
+outputs.4.length=28071
+outputs.4.checksums.sha512=3c5cae235678790fbd2dca6fa985c85bedbae848264bbf242711c7a713b8dc1312f57707d2a3a017b5526ca50b6def19b8c8f01db62005eb2cb313febf19c2e7
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-deploy-plugin-4.0.0-beta-1-cyclonedx.json
+outputs.5.length=32496
+outputs.5.checksums.sha512=38bb05e02119870b2c222a66c52829ab41aea4a51979ec2fe851de2ed3687b9b2f731da8c3f8071a6d7320e30b7d410bc4aacdc8d16f3f38cfc353508911f646
