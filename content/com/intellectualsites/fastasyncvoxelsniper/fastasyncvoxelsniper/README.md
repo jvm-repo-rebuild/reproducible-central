@@ -13,6 +13,7 @@ rebuilding **1 releases** of com.intellectualsites.fastasyncvoxelsniper:fastasyn
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.2.0](https://central.sonatype.com/artifact/com.intellectualsites.fastasyncvoxelsniper/fastasyncvoxelsniper/3.2.0/pom) | | | |
 | [3.1.1](https://central.sonatype.com/artifact/com.intellectualsites.fastasyncvoxelsniper/fastasyncvoxelsniper/3.1.1/pom) | [gradle jdk17](fastasyncvoxelsniper-3.1.1.buildspec) | [result](fastasyncvoxelsniper-3.1.1.buildinfo): [4 :white_check_mark: ](fastasyncvoxelsniper-3.1.1.buildcompare) | 814K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
