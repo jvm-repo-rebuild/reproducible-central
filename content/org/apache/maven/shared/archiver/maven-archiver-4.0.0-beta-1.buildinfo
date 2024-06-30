@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Archiver
+group-id=org.apache.maven
+artifact-id=maven-archiver
+version=4.0.0-beta-1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-archiver.git
+source.scm.tag=maven-archiver-4.0.0-beta-1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.maven
+outputs.0.filename=maven-archiver-4.0.0-beta-1.pom
+outputs.0.length=32277
+outputs.0.checksums.sha512=d1e81d0e741c4e563ee3ec42b1e7ab3fcfff969ddf0428ff68735dbb7b5021518d518a7751c5f388841f49895eee43bfc0c77a52a690d44b607fc030a8e5da44
+
+outputs.1.groupId=org.apache.maven
+outputs.1.filename=maven-archiver-4.0.0-beta-1.jar
+outputs.1.length=27361
+outputs.1.checksums.sha512=c0a9ab5b229be6091bdd528de7b3f301a6cea53aa9ae47d2a9fae947ef2e2574cbdd0894e644e404190dd1241ad4ea64146a3bd944b6e4b8a1facb6672de69db
+
+outputs.2.groupId=org.apache.maven
+outputs.2.filename=maven-archiver-4.0.0-beta-1-source-release.zip
+outputs.2.length=135965
+outputs.2.checksums.sha512=54d087f4a5374b32cc57f45d46e3bff4e76f4a16f2744444f2d8d6aa15a54ae3563b8f4ee8deec30dab874f29c94ba3b9585f497d51ebeef6a549f1146079bce
+
+outputs.3.groupId=org.apache.maven
+outputs.3.filename=maven-archiver-4.0.0-beta-1-sources.jar
+outputs.3.length=24583
+outputs.3.checksums.sha512=43699c9f9fdd2eb2522e71704caa7d2639c5e19dea673a7148185992958e3892cb23c1d9596c14007faf52c5caac41ceb92de9bee978493fc9996360dc8a8367
+
+outputs.4.groupId=org.apache.maven
+outputs.4.filename=maven-archiver-4.0.0-beta-1-cyclonedx.xml
+outputs.4.length=54825
+outputs.4.checksums.sha512=bf511db1d44ab9de807ce2663d306f6c91ed0f344d48de5d66aac10446d11ff00cb4368ba8f6b68cb9c3082cfd100518e2a93374479b8188538632f77f6b0576
+
+outputs.5.groupId=org.apache.maven
+outputs.5.filename=maven-archiver-4.0.0-beta-1-cyclonedx.json
+outputs.5.length=63968
+outputs.5.checksums.sha512=95780fde3f079e9a036d8f0b8ecca8963f1497bb3e42c437dc65f5f7d48c34f1dcb0c492c5e5936bc96556a6472390dd25ea191daf6cccf90610e8104c133273
