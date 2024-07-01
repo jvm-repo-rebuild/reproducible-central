@@ -3,8 +3,8 @@
   <groupId>org.apache.maven.shared</groupId>
   <artifactId>maven-filtering</artifactId>
   <versioning>
-    <latest>3.3.2</latest>
-    <release>3.3.2</release>
+    <latest>4.0.0-beta-1</latest>
+    <release>4.0.0-beta-1</release>
     <versions>
       <version>1.0-beta-1</version>
       <version>1.0-beta-2</version>
@@ -21,7 +21,8 @@
       <version>3.3.0</version>
       <version>3.3.1</version>
       <version>3.3.2</version>
+      <version>4.0.0-beta-1</version>
     </versions>
-    <lastUpdated>20240310140616</lastUpdated>
+    <lastUpdated>20240701154543</lastUpdated>
   </versioning>
 </metadata>

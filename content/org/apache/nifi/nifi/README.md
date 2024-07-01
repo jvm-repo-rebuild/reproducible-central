@@ -791,6 +791,7 @@ rebuilding **8 releases** of org.apache.nifi:nifi:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0-M4](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0-M4/pom) | | | |
 | [2.0.0-M3](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0-M3/pom) | | | |
 | [2.0.0-M2](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0-M2/pom) | | | |
 | [2.0.0-M1](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0-M1/pom) | | | |
