@@ -91,6 +91,7 @@ rebuilding **6 releases** of org.glassfish.hk2:hk2-parent:
 | -- | --------- | ------ | -- |
 | [4.0.0-M2](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/4.0.0-M2/pom) | [mvn jdk17](hk2-4.0.0-M2.buildspec) | [result](hk2-parent-4.0.0-M2.buildinfo): [332 :white_check_mark: ](hk2-parent-4.0.0-M2.buildcompare) | 11M |
 | [4.0.0-M1](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/4.0.0-M1/pom) | [mvn jdk17](hk2-4.0.0-M1.buildspec) | [result](hk2-parent-4.0.0-M1.buildinfo): [332 :white_check_mark: ](hk2-parent-4.0.0-M1.buildcompare) | 11M |
+| [3.1.1](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/3.1.1/pom) | | | |
 | [3.1.0](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/3.1.0/pom) | [mvn jdk17](hk2-3.1.0.buildspec) | [result](hk2-parent-3.1.0.buildinfo): [332 :white_check_mark: ](hk2-parent-3.1.0.buildcompare) | 11M |
 | [3.0.6](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/3.0.6/pom) | [mvn jdk17](hk2-3.0.6.buildspec) | [result](hk2-parent-3.0.6.buildinfo): [332 :white_check_mark: ](hk2-parent-3.0.6.buildcompare) | 11M |
 | [3.0.5](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/3.0.5/pom) | [mvn jdk17](hk2-3.0.5.buildspec) | [result](hk2-parent-3.0.5.buildinfo): [188 :white_check_mark: ](hk2-parent-3.0.5.buildcompare) | 5.6M |

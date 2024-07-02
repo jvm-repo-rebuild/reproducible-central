@@ -69,8 +69,8 @@ rebuilding **9 releases** of org.jreleaser:jreleaser:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.13.1](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.13.1/pom) | [gradle jdk17](jreleaser-1.13.1.buildspec) | [result](jreleaser-1.13.1.buildinfo): [156 :white_check_mark: ](jreleaser-1.13.1.buildcompare) [:mag:](jreleaser-1.13.1.diffoscope) | 49M |
-| [1.13.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.13.0/pom) | [gradle jdk17](jreleaser-1.13.0.buildspec) | [result](jreleaser-1.13.0.buildinfo): [156 :white_check_mark: ](jreleaser-1.13.0.buildcompare) [:mag:](jreleaser-1.13.0.diffoscope) | 49M |
+| [1.13.1](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.13.1/pom) | [gradle jdk17](jreleaser-1.13.1.buildspec) | [result](jreleaser-1.13.1.buildinfo): [156 :white_check_mark: ](jreleaser-1.13.1.buildcompare) | 49M |
+| [1.13.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.13.0/pom) | [gradle jdk17](jreleaser-1.13.0.buildspec) | [result](jreleaser-1.13.0.buildinfo): [156 :white_check_mark: ](jreleaser-1.13.0.buildcompare) | 49M |
 | [1.12.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.12.0/pom) | [gradle jdk17](jreleaser-1.12.0.buildspec) | [result](jreleaser-1.12.0.buildinfo): [156 :white_check_mark: ](jreleaser-1.12.0.buildcompare) | 53M |
 | [1.11.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.11.0/pom) | [gradle jdk17](jreleaser-1.11.0.buildspec) | [result](jreleaser-1.11.0.buildinfo): [152 :white_check_mark:  1 :warning:](jreleaser-1.11.0.buildcompare) [:mag:](jreleaser-1.11.0.diffoscope) | 48M |
 | [1.10.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.10.0/pom) | [gradle jdk17](jreleaser-1.10.0.buildspec) | :x: | |
