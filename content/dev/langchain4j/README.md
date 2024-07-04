@@ -70,6 +70,7 @@ rebuilding **8 releases** of dev.langchain4j:langchain4j:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.32.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.32.0/pom) | | | |
 | [0.31.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.31.0/pom) | [mvn jdk21](langchain4j-0.31.0.buildspec) | [result](langchain4j-aggregator-0.31.0.buildinfo): [156 :white_check_mark: ](langchain4j-aggregator-0.31.0.buildcompare) | 3.0M |
 | [0.30.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.30.0/pom) | [mvn jdk21](langchain4j-0.30.0.buildspec) | [result](langchain4j-aggregator-0.30.0.buildinfo): [138 :white_check_mark: ](langchain4j-aggregator-0.30.0.buildcompare) | 2.7M |
 | [0.29.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.29.1/pom) | [mvn jdk21](langchain4j-0.29.1.buildspec) | [result](langchain4j-aggregator-0.29.1.buildinfo): [138 :white_check_mark: ](langchain4j-aggregator-0.29.1.buildcompare) | 2.7M |
