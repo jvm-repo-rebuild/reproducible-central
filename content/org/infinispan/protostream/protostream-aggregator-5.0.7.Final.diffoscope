@@ -1,0 +1,70 @@
+1 / 16 target/reference/org.infinispan.protostream/protostream-5.0.7.Final.jar core/target/protostream-5.0.7.Final.jar
+--- target/reference/org.infinispan.protostream/protostream-5.0.7.Final.jar
++++ core/target/protostream-5.0.7.Final.jar
+├── META-INF/MANIFEST.MF
+│ @@ -7,10 +7,10 @@
+│  Implementation-Title: ProtoStream - core
+
+│  Implementation-Version: 5.0.7.Final
+
+│  Implementation-Vendor: JBoss, a division of Red Hat
+
+│  Main-Class: org.infinispan.protostream.Version
+
+│  Implementation-URL: https://github.com/infinispan/protostream
+
+│  Java-Version: 17.0.11
+
+│  Scm-Connection: scm:git:git@github.com:infinispan/protostream.git
+
+│ -Scm-Revision: 6101e712f289c7264d68f9004c655877674093fe
+
+│ +Scm-Revision: 6de289a9f0ea926fc4d06ee46bccc993292de2cd
+
+│  Scm-Url: https://github.com/infinispan/protostream
+
+2 / 16 target/reference/org.infinispan.protostream/protostream-5.0.7.Final-test-sources.jar core/target/protostream-5.0.7.Final-test-sources.jar
+/srv/diffoscope/bin/diffoscope: target/reference/org.infinispan.protostream/protostream-5.0.7.Final-test-sources.jar: No such file or directory
+
+3 / 16 target/reference/org.infinispan.protostream/protostream-5.0.7.Final-sources.jar core/target/protostream-5.0.7.Final-sources.jar
+--- target/reference/org.infinispan.protostream/protostream-5.0.7.Final-sources.jar
++++ core/target/protostream-5.0.7.Final-sources.jar
+├── META-INF/MANIFEST.MF
+│ @@ -3,16 +3,16 @@
+│  Specification-Title: ProtoStream - core
+
+│  Specification-Version: 5.0
+
+│  Specification-Vendor: JBoss, a division of Red Hat
+
+│  Implementation-Title: ProtoStream - core
+
+│  Implementation-Version: 5.0.7.Final
+
+│  Implementation-Vendor: JBoss, a division of Red Hat
+
+│  Implementation-URL: https://github.com/infinispan/protostream
+
+│ -Java-Vendor: Eclipse Adoptium
+
+│ +Java-Vendor: Ubuntu
+
+│  Java-Version: 17.0.11
+
+│  Os-Arch: amd64
+
+│  Os-Name: Linux
+
+│ -Os-Version: 6.5.0-1022-azure
+
+│ +Os-Version: 5.15.0-113-generic
+
+│  Scm-Connection: scm:git:git@github.com:infinispan/protostream.git
+
+│ -Scm-Revision: 6101e712f289c7264d68f9004c655877674093fe
+
+│ +Scm-Revision: 6de289a9f0ea926fc4d06ee46bccc993292de2cd
+
+│  Scm-Url: https://github.com/infinispan/protostream
+
+...
