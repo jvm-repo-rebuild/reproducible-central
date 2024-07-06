@@ -188,11 +188,11 @@ do
   done
 
   # Make badge status file
-  badgeMessage="latest OK"
+  badgeMessage="${latestVersion} OK"
   badgeColor="green"
   badgeError="false"
   if [[ "${showOkBadge}" == "0" ]]; then
-      badgeMessage="latest FAIL"
+      badgeMessage="${latestVersion} FAIL"
       badgeColor="red"
       badgeError="true"
   fi
