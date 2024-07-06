@@ -86,11 +86,15 @@ do
   #
   projectReadme="${dir}/README.md"
   \rm -f ${projectReadme}
+  projectBadge="${dir}/badge-status.json"
+  \rm -f ${projectBadge}
   mkdir -p tmp/${dir}
   echo -n > tmp/${projectReadme}
 
   countVersion=0
   countVersionOk=0
+
+  showOkBadge=0
 
   for version in $(tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
   do
@@ -163,6 +167,15 @@ do
         [[ -n "${issue}" ]] && [ "${ko}" -eq 0 ] && echo "      $dir/$buildspec" >> tmp/unexpected-diffoscope.txt
         row+=" | $(grep length= ${dir}/${_buildinfo} | cut -d = -f 2 | paste -sd+ - | bc | numfmt --to=iec) |"
         echo "$row" >> tmp/${projectReadme}
+
+        # Badge is only OK when latest version has (some) OK files
+        # and no KO files
+        if [ "$version" == "$latestVersion" ]; then
+            if [[ "${ok}" -gt 0 && "${ko}" -eq 0 ]]; then
+                showOkBadge=1
+            fi
+        fi
+
       else
         echo "$row:x: | |" >> tmp/${projectReadme}
       fi
@@ -173,6 +186,17 @@ do
     # don't continue if it's the oldest version with buildspec
     [[ "$oldestBuildspecVersion" == "$version" ]] && break
   done
+
+  # Make badge status file
+  badgeMessage="latest OK"
+  badgeColor="green"
+  badgeError="false"
+  if [[ "${showOkBadge}" == "0" ]]; then
+      badgeMessage="latest FAIL"
+      badgeColor="red"
+      badgeError="true"
+  fi
+  echo "{ 'schemaVersion': 1, 'label': '${artifactId}', 'message': '${badgeMessage}', 'color': '${badgeColor}', 'isError': ${badgeError} }" > "${projectBadge}"
 
   echo "rebuilding **${countVersion} releases** of ${groupId}:${artifactId}:" >> ${projectReadme}
   echo "- **${countVersionOk}** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:)," >> ${projectReadme}
