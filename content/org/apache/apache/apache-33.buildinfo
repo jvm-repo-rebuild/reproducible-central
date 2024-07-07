@@ -1,0 +1,35 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=The Apache Software Foundation
+group-id=org.apache
+artifact-id=apache
+version=33
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-apache-parent.git
+source.scm.tag=apache-33
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=apache
+
+# aggregated output
+
+outputs.0.coordinates=org.apache:apache
+
+outputs.0.0.groupId=org.apache
+outputs.0.0.filename=apache-33.pom
+outputs.0.0.length=24184
+outputs.0.0.checksums.sha512=17ccc60c4670ded2b9b0986c8549c7f7789afb4a194c81d16c9c8de10b514396f241c8b1622150b38a8d3a889f6733af66554685b7b801647b5ddfaccef5537e
+
+outputs.0.1.groupId=org.apache
+outputs.0.1.filename=apache-33-source-release.zip
+outputs.0.1.length=22010
+outputs.0.1.checksums.sha512=a819eb75f147baa19661ebb7794d4d711f760bb7fc04f66cfefd0f8c57fa24aa8cf4f4d597c4c665ce8604e6941fa519540ccabd3647134390e023cbd671eabe
