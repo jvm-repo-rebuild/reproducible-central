@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=7zip
+group-id=com.github.hazendaz.7zip
+artifact-id=7zip
+version=24.07
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/7-zip.git
+source.scm.tag=7zip-24.07
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.github.hazendaz.7zip
+outputs.0.filename=7zip-24.07.pom
+outputs.0.length=4463
+outputs.0.checksums.sha512=8ff37f4119cd5352f09126aa7a8d5e85f321399e8b2b44e68e8c6b2d6685e3c4e2218090cd02ee42c31abf98d1cee2da6f5f7d07c4177b7d079a8416ddc49dc1
+
+outputs.1.groupId=com.github.hazendaz.7zip
+outputs.1.filename=7zip-24.07-cyclonedx.xml
+outputs.1.length=17341
+outputs.1.checksums.sha512=928f409490cb95b52c19ff513139924771eae598c493a459d6bc547cc65e023f7d820045f0c30c059307bef2b3bbe75fa661a207d2699fe67cb8751382142cba
+
+outputs.2.groupId=com.github.hazendaz.7zip
+outputs.2.filename=7zip-24.07-cyclonedx.json
+outputs.2.length=20748
+outputs.2.checksums.sha512=c87e5d38539ed2fc1f6f7f53690704ca54efa9ae73f484ca5f445de480af9283e8673ca3da52c0617d13b0418bc60eb9a3a0fbbf40cae4ec3bd031a12736f860
+
+outputs.3.groupId=com.github.hazendaz.7zip
+outputs.3.filename=7zip-24.07-installer.tar.gz
+outputs.3.length=1605633
+outputs.3.checksums.sha512=1a569b266980f9d1bc84b9a928dba9ad41a462df1ee93b6648a50572a3b770f60e1338e98dbc463ac0b0b544c86435f4a841365efa395a32168249b819909728
