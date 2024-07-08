@@ -3,8 +3,8 @@
   <groupId>io.jooby</groupId>
   <artifactId>jooby</artifactId>
   <versioning>
-    <latest>3.2.3</latest>
-    <release>3.2.3</release>
+    <latest>3.2.4</latest>
+    <release>3.2.4</release>
     <versions>
       <version>2.0.0.M1</version>
       <version>2.0.0.M2</version>
@@ -95,7 +95,8 @@
       <version>3.2.1</version>
       <version>3.2.2</version>
       <version>3.2.3</version>
+      <version>3.2.4</version>
     </versions>
-    <lastUpdated>20240624180046</lastUpdated>
+    <lastUpdated>20240708161455</lastUpdated>
   </versioning>
 </metadata>
