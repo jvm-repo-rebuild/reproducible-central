@@ -40,8 +40,8 @@ Source code: [https://github.com/apache/maven-resolver.git](https://github.com/a
 * [org.apache.maven.resolver:maven-resolver-util](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-util/2.0.0)
 </details>
 
-rebuilding **40 releases** of org.apache.maven.resolver:maven-resolver:
-- **38** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **41 releases** of org.apache.maven.resolver:maven-resolver:
+- **39** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -56,7 +56,7 @@ rebuilding **40 releases** of org.apache.maven.resolver:maven-resolver:
 | [2.0.0-alpha-3](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0-alpha-3/pom) | [mvn jdk21](maven-resolver-2.0.0-alpha-3.buildspec) | [result](maven-resolver-2.0.0-alpha-3.buildinfo): [99 :white_check_mark: ](maven-resolver-2.0.0-alpha-3.buildcompare) | 13M |
 | [2.0.0-alpha-2](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0-alpha-2/pom) | [mvn jdk21](maven-resolver-2.0.0-alpha-2.buildspec) | [result](maven-resolver-2.0.0-alpha-2.buildinfo): [109 :white_check_mark: ](maven-resolver-2.0.0-alpha-2.buildcompare) | 13M |
 | [2.0.0-alpha-1](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0-alpha-1/pom) | [mvn jdk17](maven-resolver-2.0.0-alpha-1.buildspec) | [result](maven-resolver-2.0.0-alpha-1.buildinfo): [99 :white_check_mark: ](maven-resolver-2.0.0-alpha-1.buildcompare) | 13M |
-| [1.9.21](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.21/pom) | | | |
+| [1.9.21](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.21/pom) | [mvn jdk21](maven-resolver-1.9.21.buildspec) | [result](maven-resolver-1.9.21.buildinfo): [75 :white_check_mark: ](maven-resolver-1.9.21.buildcompare) | 12M |
 | [1.9.20](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.20/pom) | [mvn jdk21](maven-resolver-1.9.20.buildspec) | [result](maven-resolver-1.9.20.buildinfo): [75 :white_check_mark: ](maven-resolver-1.9.20.buildcompare) | 12M |
 | [1.9.19](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.19/pom) | [mvn jdk21](maven-resolver-1.9.19.buildspec) | [result](maven-resolver-1.9.19.buildinfo): [76 :white_check_mark: ](maven-resolver-1.9.19.buildcompare) | 12M |
 | [1.9.18](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.18/pom) | [mvn jdk21](maven-resolver-1.9.18.buildspec) | [result](maven-resolver-1.9.18.buildinfo): [76 :white_check_mark: ](maven-resolver-1.9.18.buildcompare) | 12M |

@@ -1,0 +1,30 @@
+[org.jpmml:jpmml-evaluator](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/versions) RB check
+=======
+
+[![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
+
+## Project: [org.jpmml:jpmml-evaluator](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/versions)
+
+Source code: [https://github.com/jpmml/jpmml-evaluator.git](https://github.com/jpmml/jpmml-evaluator.git)
+
+<details><summary>This project defines 8 modules:</summary>
+
+* [org.jpmml:jpmml-evaluator](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/1.6.5)
+* [org.jpmml:pmml-evaluator](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator/1.6.5)
+* [org.jpmml:pmml-evaluator-jackson](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-jackson/1.6.5)
+* [org.jpmml:pmml-evaluator-kryo](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-kryo/1.6.5)
+* [org.jpmml:pmml-evaluator-metro](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-metro/1.6.5)
+* [org.jpmml:pmml-evaluator-moxy](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-moxy/1.6.5)
+* [org.jpmml:pmml-evaluator-reporting](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-reporting/1.6.5)
+* [org.jpmml:pmml-evaluator-testing](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-testing/1.6.5)
+</details>
+
+rebuilding **1 releases** of org.jpmml:jpmml-evaluator:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [1.6.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/1.6.5/pom) | [mvn jdk8](jpmml-evaluator-1.6.5.buildspec) | [result](jpmml-evaluator-1.6.5.buildinfo): [19 :white_check_mark: ](jpmml-evaluator-1.6.5.buildcompare) | 1.1M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

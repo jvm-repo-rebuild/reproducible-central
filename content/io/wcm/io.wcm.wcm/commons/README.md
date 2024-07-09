@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/wcm-io/io.wcm.wcm.commons.git](https://github.com/wcm-io/io.wcm.wcm.commons.git)
 
-rebuilding **5 releases** of io.wcm:io.wcm.wcm.commons:
+rebuilding **6 releases** of io.wcm:io.wcm.wcm.commons:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.11.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.commons/1.11.0/pom) | | | |
+| [1.11.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.commons/1.11.0/pom) | [mvn jdk17 w](wcm-commons-1.11.0.buildspec) | [result](io.wcm.wcm.commons-1.11.0.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.wcm.commons-1.11.0.buildcompare) | 202K |
 | [1.10.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.commons/1.10.0/pom) | [mvn jdk11 w](wcm-commons-1.10.0.buildspec) | [result](io.wcm.wcm.commons-1.10.0.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.wcm.commons-1.10.0.buildcompare) | 191K |
 | [1.9.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.commons/1.9.0/pom) | [mvn jdk11 w](wcm-commons-1.9.0.buildspec) | [result](io.wcm.wcm.commons-1.9.0.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.wcm.commons-1.9.0.buildcompare) [:mag:](io.wcm.wcm.commons-1.9.0.diffoscope) | 189K |
 | [1.8.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.commons/1.8.2/pom) | [mvn jdk11 w](wcm-commons-1.8.2.buildspec) | [result](io.wcm.wcm.commons-1.8.2.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.wcm.commons-1.8.2.buildcompare) [:mag:](io.wcm.wcm.commons-1.8.2.diffoscope) | 174K |

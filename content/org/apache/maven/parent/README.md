@@ -9,21 +9,22 @@ Source code: [https://github.com/apache/maven-parent.git](https://github.com/apa
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [org.apache.apache.resources:apache-resource-bundles](https://central.sonatype.com/artifact/org.apache.apache.resources/apache-resource-bundles/42)
-* [org.apache.maven.doxia:doxia-tools](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-tools/42)
-* [org.apache.maven.extensions:maven-extensions](https://central.sonatype.com/artifact/org.apache.maven.extensions/maven-extensions/42)
-* [org.apache.maven.plugins:maven-plugins](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-plugins/42)
-* [org.apache.maven.shared:maven-shared-components](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-components/42)
-* [org.apache.maven.skins:maven-skins](https://central.sonatype.com/artifact/org.apache.maven.skins/maven-skins/42)
-* [org.apache.maven:maven-parent](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/42)
+* [org.apache.apache.resources:apache-resource-bundles](https://central.sonatype.com/artifact/org.apache.apache.resources/apache-resource-bundles/43)
+* [org.apache.maven.doxia:doxia-tools](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-tools/43)
+* [org.apache.maven.extensions:maven-extensions](https://central.sonatype.com/artifact/org.apache.maven.extensions/maven-extensions/43)
+* [org.apache.maven.plugins:maven-plugins](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-plugins/43)
+* [org.apache.maven.shared:maven-shared-components](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-components/43)
+* [org.apache.maven.skins:maven-skins](https://central.sonatype.com/artifact/org.apache.maven.skins/maven-skins/43)
+* [org.apache.maven:maven-parent](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/43)
 </details>
 
-rebuilding **9 releases** of org.apache.maven:maven-parent:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of org.apache.maven:maven-parent:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [43](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/43/pom) | [mvn jdk17](maven-parent-43.buildspec) | [result](maven-parent-43.buildinfo): [25 :white_check_mark: ](maven-parent-43.buildcompare) | 197K |
 | [42](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/42/pom) | [mvn jdk17](maven-parent-42.buildspec) | [result](maven-parent-42.buildinfo): [25 :white_check_mark: ](maven-parent-42.buildcompare) | 210K |
 | [41](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/41/pom) | [mvn jdk17](maven-parent-41.buildspec) | [result](maven-parent-41.buildinfo): [25 :white_check_mark: ](maven-parent-41.buildcompare) | 196K |
 | [40](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/40/pom) | [mvn jdk17](maven-parent-40.buildspec) | [result](maven-parent-40.buildinfo): [21 :white_check_mark:  4 :warning:](maven-parent-40.buildcompare) [:mag:](maven-parent-40.diffoscope) | 196K |
