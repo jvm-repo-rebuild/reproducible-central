@@ -13,6 +13,7 @@ rebuilding **6 releases** of org.apache.sling:org.apache.sling.scripting.sightly
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.4.24-1.4.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.scripting.sightly/1.4.24-1.4.0/pom) | | | |
 | [1.4.22-1.4.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.scripting.sightly/1.4.22-1.4.0/pom) | [mvn jdk11](org.apache.sling.scripting.sightly-1.4.22-1.4.0.buildspec) | [result](org.apache.sling.scripting.sightly-1.4.22-1.4.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.scripting.sightly-1.4.22-1.4.0.buildcompare) | 412K |
 | [1.4.20-1.4.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.scripting.sightly/1.4.20-1.4.0/pom) | [mvn jdk11](org.apache.sling.scripting.sightly-1.4.20-1.4.0.buildspec) | [result](org.apache.sling.scripting.sightly-1.4.20-1.4.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.scripting.sightly-1.4.20-1.4.0.buildcompare) | 400K |
 | [1.4.18-1.4.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.scripting.sightly/1.4.18-1.4.0/pom) | [mvn jdk11](org.apache.sling.scripting.sightly-1.4.18-1.4.0.buildspec) | [result](org.apache.sling.scripting.sightly-1.4.18-1.4.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.scripting.sightly-1.4.18-1.4.0.buildcompare) | 400K |
