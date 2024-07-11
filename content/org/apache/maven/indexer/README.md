@@ -9,25 +9,26 @@ Source code: [https://github.com/apache/maven-indexer.git](https://github.com/ap
 
 <details><summary>This project defines 11 modules:</summary>
 
-* [org.apache.maven.indexer:indexer-cli](https://central.sonatype.com/artifact/org.apache.maven.indexer/indexer-cli/7.1.3)
-* [org.apache.maven.indexer:indexer-core](https://central.sonatype.com/artifact/org.apache.maven.indexer/indexer-core/7.1.3)
-* [org.apache.maven.indexer:indexer-examples-basic](https://central.sonatype.com/artifact/org.apache.maven.indexer/indexer-examples-basic/7.1.3)
-* [org.apache.maven.indexer:indexer-examples-spring](https://central.sonatype.com/artifact/org.apache.maven.indexer/indexer-examples-spring/7.1.3)
-* [org.apache.maven.indexer:indexer-reader](https://central.sonatype.com/artifact/org.apache.maven.indexer/indexer-reader/7.1.3)
-* [org.apache.maven.indexer:maven-indexer](https://central.sonatype.com/artifact/org.apache.maven.indexer/maven-indexer/7.1.3)
-* [org.apache.maven.indexer:maven-indexer-examples](https://central.sonatype.com/artifact/org.apache.maven.indexer/maven-indexer-examples/7.1.3)
-* [org.apache.maven.indexer:search-api](https://central.sonatype.com/artifact/org.apache.maven.indexer/search-api/7.1.3)
-* [org.apache.maven.indexer:search-backend-indexer](https://central.sonatype.com/artifact/org.apache.maven.indexer/search-backend-indexer/7.1.3)
-* [org.apache.maven.indexer:search-backend-remoterepository](https://central.sonatype.com/artifact/org.apache.maven.indexer/search-backend-remoterepository/7.1.3)
-* [org.apache.maven.indexer:search-backend-smo](https://central.sonatype.com/artifact/org.apache.maven.indexer/search-backend-smo/7.1.3)
+* [org.apache.maven.indexer:indexer-cli](https://central.sonatype.com/artifact/org.apache.maven.indexer/indexer-cli/7.1.4)
+* [org.apache.maven.indexer:indexer-core](https://central.sonatype.com/artifact/org.apache.maven.indexer/indexer-core/7.1.4)
+* [org.apache.maven.indexer:indexer-examples-basic](https://central.sonatype.com/artifact/org.apache.maven.indexer/indexer-examples-basic/7.1.4)
+* [org.apache.maven.indexer:indexer-examples-spring](https://central.sonatype.com/artifact/org.apache.maven.indexer/indexer-examples-spring/7.1.4)
+* [org.apache.maven.indexer:indexer-reader](https://central.sonatype.com/artifact/org.apache.maven.indexer/indexer-reader/7.1.4)
+* [org.apache.maven.indexer:maven-indexer](https://central.sonatype.com/artifact/org.apache.maven.indexer/maven-indexer/7.1.4)
+* [org.apache.maven.indexer:maven-indexer-examples](https://central.sonatype.com/artifact/org.apache.maven.indexer/maven-indexer-examples/7.1.4)
+* [org.apache.maven.indexer:search-api](https://central.sonatype.com/artifact/org.apache.maven.indexer/search-api/7.1.4)
+* [org.apache.maven.indexer:search-backend-indexer](https://central.sonatype.com/artifact/org.apache.maven.indexer/search-backend-indexer/7.1.4)
+* [org.apache.maven.indexer:search-backend-remoterepository](https://central.sonatype.com/artifact/org.apache.maven.indexer/search-backend-remoterepository/7.1.4)
+* [org.apache.maven.indexer:search-backend-smo](https://central.sonatype.com/artifact/org.apache.maven.indexer/search-backend-smo/7.1.4)
 </details>
 
-rebuilding **13 releases** of org.apache.maven.indexer:maven-indexer:
-- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **14 releases** of org.apache.maven.indexer:maven-indexer:
+- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [7.1.4](https://central.sonatype.com/artifact/org.apache.maven.indexer/maven-indexer/7.1.4/pom) | [mvn jdk21](maven-indexer-7.1.4.buildspec) | [result](maven-indexer-7.1.4.buildinfo): [40 :white_check_mark: ](maven-indexer-7.1.4.buildcompare) | 32M |
 | [7.1.3](https://central.sonatype.com/artifact/org.apache.maven.indexer/maven-indexer/7.1.3/pom) | [mvn jdk21](maven-indexer-7.1.3.buildspec) | [result](maven-indexer-7.1.3.buildinfo): [40 :white_check_mark: ](maven-indexer-7.1.3.buildcompare) | 31M |
 | [7.1.2](https://central.sonatype.com/artifact/org.apache.maven.indexer/maven-indexer/7.1.2/pom) | [mvn jdk21](maven-indexer-7.1.2.buildspec) | [result](maven-indexer-7.1.2.buildinfo): [41 :white_check_mark: ](maven-indexer-7.1.2.buildcompare) | 31M |
 | [7.1.1](https://central.sonatype.com/artifact/org.apache.maven.indexer/maven-indexer/7.1.1/pom) | [mvn jdk21](maven-indexer-7.1.1.buildspec) | [result](maven-indexer-7.1.1.buildinfo): [41 :white_check_mark: ](maven-indexer-7.1.1.buildcompare) | 31M |
