@@ -1,0 +1,23 @@
+1 /       83 target/reference/org.apache.paimon/paimon-test-utils-0.8.2.jar paimon-test-utils/target/paimon-test-utils-0.8.2.jar
+--- target/reference/org.apache.paimon/paimon-test-utils-0.8.2.jar
++++ paimon-test-utils/target/paimon-test-utils-0.8.2.jar
+├── META-INF/MANIFEST.MF
+│ @@ -1,15 +1,15 @@
+│  Manifest-Version: 1.0
+│  Implementation-Title: Paimon : Test utils
+│  Implementation-Version: 0.8.2
+│  Archiver-Version: Plexus Archiver
+│ -Built-By: ljs
+│ +Built-By: hboutemy
+│  Specification-Vendor: The Apache Software Foundation
+│  Specification-Title: Paimon : Test utils
+│  Implementation-Vendor-Id: org.apache.paimon
+│ -SCM-Branch: heads/release-0.8.2-rc1
+│ +SCM-Branch: a77dca148597b85d133b3d312d1ef041e1176b6f
+│  Implementation-Vendor: The Apache Software Foundation
+│  SCM-Revision: a77dca148597b85d133b3d312d1ef041e1176b6f
+│ -Created-By: Apache Maven 3.9.6
+│ -Build-Jdk: 1.8.0_301
+│ +Created-By: Apache Maven 3.6.3
+│ +Build-Jdk: 1.8.0_412
+│  Specification-Version: 0.8.2
