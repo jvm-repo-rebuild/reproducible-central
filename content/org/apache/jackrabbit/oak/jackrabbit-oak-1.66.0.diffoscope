@@ -1,0 +1,296 @@
+1 /        6 target/reference/org.apache.jackrabbit/oak-it-1.66.0.jar oak-it/target/oak-it-1.66.0.jar
+--- target/reference/org.apache.jackrabbit/oak-it-1.66.0.jar
++++ oak-it/target/oak-it-1.66.0.jar
+├── zipinfo {}
+│ @@ -1,22 +1,12 @@
+│ -Zip file size: 185522 bytes, number of entries: 20
+│ +Zip file size: 7188 bytes, number of entries: 10
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 META-INF/
+│  -rw-r--r--  2.0 unx      340 b- defN 24-Jul-05 12:51 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 META-INF/maven/org.apache.jackrabbit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 META-INF/maven/org.apache.jackrabbit/oak-it/
+│  -rw-r--r--  2.0 unx      271 b- defN 24-Jul-05 12:51 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 24-Jul-05 12:51 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      178 b- defN 24-Jul-05 12:51 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx    40960 b- defN 24-Jul-05 12:51 document-deep.mv.db
+│ --rw-r--r--  2.0 unx    50500 b- defN 24-Jul-05 12:51 document-deep.trace.db
+│ --rw-r--r--  2.0 unx  1261568 b- defN 24-Jul-05 12:51 document-empty.mv.db
+│ --rw-r--r--  2.0 unx    50278 b- defN 24-Jul-05 12:51 document-empty.trace.db
+│ --rw-r--r--  2.0 unx    40960 b- defN 24-Jul-05 12:51 document-readOnly.mv.db
+│ --rw-r--r--  2.0 unx    50500 b- defN 24-Jul-05 12:51 document-readOnly.trace.db
+│ --rw-r--r--  2.0 unx    40960 b- defN 24-Jul-05 12:51 document-temp.mv.db
+│ --rw-r--r--  2.0 unx    50500 b- defN 24-Jul-05 12:51 document-temp.trace.db
+│ --rw-r--r--  2.0 unx  1191936 b- defN 24-Jul-05 12:51 document.mv.db
+│ --rw-r--r--  2.0 unx   101054 b- defN 24-Jul-05 12:51 document.trace.db
+│  -rw-r--r--  2.0 unx    10145 b- defN 24-Jul-05 12:51 META-INF/maven/org.apache.jackrabbit/oak-it/pom.xml
+│  -rw-r--r--  2.0 unx       63 b- defN 24-Jul-05 12:51 META-INF/maven/org.apache.jackrabbit/oak-it/pom.properties
+│ -20 files, 2901571 bytes uncompressed, 182998 bytes compressed:  93.7%
+│ +10 files, 22355 bytes uncompressed, 5834 bytes compressed:  73.9%
+
+2 /        6 target/reference/org.apache.jackrabbit/oak-lucene-1.66.0.jar oak-lucene/target/oak-lucene-1.66.0.jar
+--- target/reference/org.apache.jackrabbit/oak-lucene-1.66.0.jar
++++ oak-lucene/target/oak-lucene-1.66.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 6014086 bytes, number of entries: 3355
+│ +Zip file size: 6014083 bytes, number of entries: 3355
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat    29187 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ @@ -19,15 +19,15 @@
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 OSGI-INF/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/
+│ --rw----     2.0 fat     7099 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService.properties
+│ +-rw----     2.0 fat     7098 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService.properties
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 OSGI-INF/metatype/
+│  -rw----     2.0 fat     6877 bl defN 80-Feb-01 00:00 OSGI-INF/metatype/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService.xml
+│ @@ -3350,8 +3350,8 @@
+│  -rw----     2.0 fat     5264 bl defN 80-Feb-01 00:00 org/tartarus/snowball/ext/SwedishStemmer.class
+│  -rw----     2.0 fat    24558 bl defN 80-Feb-01 00:00 org/tartarus/snowball/ext/TurkishStemmer.class
+│ -3355 files, 12594160 bytes uncompressed, 5295192 bytes compressed:  58.0%
+│ +3355 files, 12594159 bytes uncompressed, 5295189 bytes compressed:  58.0%
+├── OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService.properties
+│ @@ -1,8 +1,8 @@
+│ -#Fri Jul 05 16:25:26 CEST 2024
+│ +#Sun Jul 14 14:12:38 UTC 2024
+│  org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService.extractedTextCacheSizeInMB.description=Cache size in MB for caching extracted text for some time. When set to 0 then cache would be disabled
+│  org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService.hybridQueueTimeout.name=Queue timeout
+│  org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService.booleanClauseLimit.description=Limit for number of boolean clauses generated for handling of OR query
+│  org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService.hybridQueueSize.description=Size of in memory queue used for storing Lucene Documents which need to be added to local index
+│  org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService.threadPoolSize.name=Thread pool size
+│  org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService.hybridQueueTimeout.description=Maximum time to wait for adding entries to the queue used for storing Lucene Documents which need to be added to local index
+│  org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService.deletedBlobsCollectionEnabled.name=Enable actively removing deleted index blobs from blob store
+
+3 /        6 target/reference/org.apache.jackrabbit/oak-solr-core-1.66.0.jar oak-solr-core/target/oak-solr-core-1.66.0.jar
+--- target/reference/org.apache.jackrabbit/oak-solr-core-1.66.0.jar
++++ oak-solr-core/target/oak-solr-core-1.66.0.jar
+├── zipinfo {}
+│ @@ -1,25 +1,25 @@
+│ -Zip file size: 134157 bytes, number of entries: 103
+│ +Zip file size: 134143 bytes, number of entries: 103
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     3127 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     3609 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      170 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.jackrabbit/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.jackrabbit/oak-solr-core/
+│  -rw----     2.0 fat       70 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.jackrabbit/oak-solr-core/pom.properties
+│  -rw----     2.0 fat    13928 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.jackrabbit/oak-solr-core/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 OSGI-INF/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/
+│ --rw----     2.0 fat      635 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.properties
+│ --rw----     2.0 fat     5609 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.properties
+│ --rw----     2.0 fat     2637 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.properties
+│ --rw----     2.0 fat      647 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService.properties
+│ --rw----     2.0 fat      577 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService.properties
+│ +-rw----     2.0 fat      634 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.properties
+│ +-rw----     2.0 fat     5608 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.properties
+│ +-rw----     2.0 fat     2636 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.properties
+│ +-rw----     2.0 fat      646 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService.properties
+│ +-rw----     2.0 fat      576 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService.properties
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 OSGI-INF/metatype/
+│  -rw----     2.0 fat     1184 bl defN 80-Feb-01 00:00 OSGI-INF/metatype/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.xml
+│ @@ -98,8 +98,8 @@
+│  -rw----     2.0 fat     1772 bl defN 80-Feb-01 00:00 solr/solr.xml
+│  -rw----     2.0 fat     1284 bl defN 80-Feb-01 00:00 solr/zoo.cfg
+│ -103 files, 314667 bytes uncompressed, 110177 bytes compressed:  65.0%
+│ +103 files, 314662 bytes uncompressed, 110163 bytes compressed:  65.0%
+├── OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.properties
+│ @@ -1,5 +1,5 @@
+│ -#Fri Jul 05 16:27:40 CEST 2024
+│ +#Sun Jul 14 14:13:09 UTC 2024
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.enabled.name=enabled
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.enabled.description=enable persisted configuration observer
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.name=Apache Jackrabbit Oak Solr persisted configuration observer
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.description=Description for org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService
+├── OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.properties
+│ @@ -1,8 +1,8 @@
+│ -#Fri Jul 05 16:27:40 CEST 2024
+│ +#Sun Jul 14 14:13:09 UTC 2024
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.property.mappings.name=mappings from JCR property names to Solr fields
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.catch.all.field.description=Description for catch.all.field
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.path.child.field.description=Description for path.child.field
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.primarytypes.restrictions.name=primary types restrictions
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.path.depth.field.name=field for path depth
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.path.exact.field.name=field for path search
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.collapsed.path.field.description=Description for collapsed.path.field
+├── OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.properties
+│ @@ -1,8 +1,8 @@
+│ -#Fri Jul 05 16:27:40 CEST 2024
+│ +#Sun Jul 14 14:13:09 UTC 2024
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.solr.socket.timeout.description=Description for solr.socket.timeout
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.solr.socket.timeout.name=Socket timeout (ms)
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.description=Description for org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.solr.http.url.name=Solr HTTP URL
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.name=Apache Jackrabbit Oak Solr remote server configuration
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.solr.shards.no.name=No. of collection shards
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.solr.shards.no.description=Description for solr.shards.no
+├── OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService.properties
+│ @@ -1,5 +1,5 @@
+│ -#Fri Jul 05 16:27:40 CEST 2024
+│ +#Sun Jul 14 14:13:09 UTC 2024
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService.query.aggregation.name=query time aggregation
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService.name=Apache Jackrabbit Oak Solr Query index provider configuration
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService.description=Description for org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService.query.aggregation.description=enable query time aggregation for Solr index
+├── OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService.properties
+│ @@ -1,5 +1,5 @@
+│ -#Fri Jul 05 16:27:40 CEST 2024
+│ +#Sun Jul 14 14:13:09 UTC 2024
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService.name=Apache Jackrabbit Oak Solr server provider
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService.server.type.name=Property server.type
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService.server.type.description=Description for server.type
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService.description=Description for org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService
+
+4 /        6 target/reference/org.apache.jackrabbit/oak-solr-core-1.66.0-tests.jar oak-solr-core/target/oak-solr-core-1.66.0-tests.jar
+--- target/reference/org.apache.jackrabbit/oak-solr-core-1.66.0-tests.jar
++++ oak-solr-core/target/oak-solr-core-1.66.0-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 134222 bytes, number of entries: 113
+│ +Zip file size: 128047 bytes, number of entries: 87
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 META-INF/
+│  -rw-r--r--  2.0 unx      324 b- defN 24-Jul-05 12:51 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 org/apache/jackrabbit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 org/apache/jackrabbit/oak/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 org/apache/jackrabbit/oak/jcr/
+│ @@ -15,22 +15,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 org/apache/jackrabbit/oak/plugins/index/solr/index/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 org/apache/jackrabbit/oak/plugins/index/solr/osgi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 org/apache/jackrabbit/oak/plugins/index/solr/query/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 org/apache/jackrabbit/oak/plugins/index/solr/server/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 org/apache/jackrabbit/oak/plugins/index/solr/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 org/apache/jackrabbit/oak/query/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 solr/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 solr/filestore/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 solr/oak/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 solr/oak/conf/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 solr/oak/data/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 solr/oak/data/index/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 solr/oak/data/snapshot_metadata/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 solr/oak/data/tlog/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 solr/userfiles/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 META-INF/maven/org.apache.jackrabbit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-05 12:51 META-INF/maven/org.apache.jackrabbit/oak-solr-core/
+│  -rw-r--r--  2.0 unx     3609 b- defN 24-Jul-05 12:51 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 24-Jul-05 12:51 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      170 b- defN 24-Jul-05 12:51 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1608 b- defN 24-Jul-05 12:51 org/apache/jackrabbit/oak/jcr/SolrOakRepositoryStub$1.class
+│ @@ -84,32 +78,12 @@
+│  -rw-r--r--  2.0 unx    24678 b- defN 24-Jul-05 12:51 repositoryStubImpl.properties
+│  -rw-r--r--  2.0 unx      781 b- defN 24-Jul-05 12:51 solr/oak/conf/protwords.txt
+│  -rw-r--r--  2.0 unx     9651 b- defN 24-Jul-05 12:51 solr/oak/conf/schema.xml
+│  -rw-r--r--  2.0 unx    57967 b- defN 24-Jul-05 12:51 solr/oak/conf/solrconfig.xml
+│  -rw-r--r--  2.0 unx      781 b- defN 24-Jul-05 12:51 solr/oak/conf/stopwords.txt
+│  -rw-r--r--  2.0 unx      781 b- defN 24-Jul-05 12:51 solr/oak/conf/synonyms.txt
+│  -rw-r--r--  2.0 unx      792 b- defN 24-Jul-05 12:51 solr/oak/core.properties
+│ --rw-r--r--  2.0 unx      158 b- defN 24-Jul-05 12:51 solr/oak/data/index/_1.fdm
+│ --rw-r--r--  2.0 unx      106 b- defN 24-Jul-05 12:51 solr/oak/data/index/_1.fdt
+│ --rw-r--r--  2.0 unx       64 b- defN 24-Jul-05 12:51 solr/oak/data/index/_1.fdx
+│ --rw-r--r--  2.0 unx     1211 b- defN 24-Jul-05 12:51 solr/oak/data/index/_1.fnm
+│ --rw-r--r--  2.0 unx       59 b- defN 24-Jul-05 12:51 solr/oak/data/index/_1.nvd
+│ --rw-r--r--  2.0 unx      247 b- defN 24-Jul-05 12:51 solr/oak/data/index/_1.nvm
+│ --rw-r--r--  2.0 unx      614 b- defN 24-Jul-05 12:51 solr/oak/data/index/_1.si
+│ --rw-r--r--  2.0 unx      106 b- defN 24-Jul-05 12:51 solr/oak/data/index/_1.tvd
+│ --rw-r--r--  2.0 unx      162 b- defN 24-Jul-05 12:51 solr/oak/data/index/_1.tvm
+│ --rw-r--r--  2.0 unx       69 b- defN 24-Jul-05 12:51 solr/oak/data/index/_1.tvx
+│ --rw-r--r--  2.0 unx       77 b- defN 24-Jul-05 12:51 solr/oak/data/index/_1_Lucene80_0.dvd
+│ --rw-r--r--  2.0 unx      403 b- defN 24-Jul-05 12:51 solr/oak/data/index/_1_Lucene80_0.dvm
+│ --rw-r--r--  2.0 unx       78 b- defN 24-Jul-05 12:51 solr/oak/data/index/_1_Lucene84_0.doc
+│ --rw-r--r--  2.0 unx       86 b- defN 24-Jul-05 12:51 solr/oak/data/index/_1_Lucene84_0.pos
+│ --rw-r--r--  2.0 unx      321 b- defN 24-Jul-05 12:51 solr/oak/data/index/_1_Lucene84_0.tim
+│ --rw-r--r--  2.0 unx       80 b- defN 24-Jul-05 12:51 solr/oak/data/index/_1_Lucene84_0.tip
+│ --rw-r--r--  2.0 unx      488 b- defN 24-Jul-05 12:51 solr/oak/data/index/_1_Lucene84_0.tmd
+│ --rw-r--r--  2.0 unx      220 b- defN 24-Jul-05 12:51 solr/oak/data/index/segments_3
+│ --rw-r--r--  2.0 unx      129 b- defN 24-Jul-05 12:51 solr/oak/data/tlog/tlog.0000000000000000000
+│ --rw-r--r--  2.0 unx      161 b- defN 24-Jul-05 12:51 solr/oak/data/tlog/tlog.0000000000000000001
+│  -rw-r--r--  2.0 unx     1772 b- defN 24-Jul-05 12:51 solr/solr.xml
+│  -rw-r--r--  2.0 unx     1284 b- defN 24-Jul-05 12:51 solr/zoo.cfg
+│  -rw-r--r--  2.0 unx    13928 b- defN 24-Jul-05 12:51 META-INF/maven/org.apache.jackrabbit/oak-solr-core/pom.xml
+│  -rw-r--r--  2.0 unx       70 b- defN 24-Jul-05 12:51 META-INF/maven/org.apache.jackrabbit/oak-solr-core/pom.properties
+│ -113 files, 341183 bytes uncompressed, 114216 bytes compressed:  66.5%
+│ +87 files, 336344 bytes uncompressed, 111515 bytes compressed:  66.8%
+
+5 /        6 target/reference/org.apache.jackrabbit/oak-solr-osgi-1.66.0.jar oak-solr-osgi/target/oak-solr-osgi-1.66.0.jar
+--- target/reference/org.apache.jackrabbit/oak-solr-osgi-1.66.0.jar
++++ oak-solr-osgi/target/oak-solr-osgi-1.66.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 7796447 bytes, number of entries: 4781
+│ +Zip file size: 7796438 bytes, number of entries: 4781
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     7172 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ @@ -43,19 +43,19 @@
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 OSGI-INF/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/
+│ --rw----     2.0 fat      635 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.properties
+│ --rw----     2.0 fat     5609 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.properties
+│ --rw----     2.0 fat     2637 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.properties
+│ --rw----     2.0 fat      647 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService.properties
+│ --rw----     2.0 fat      577 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService.properties
+│ +-rw----     2.0 fat      634 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.properties
+│ +-rw----     2.0 fat     5608 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.properties
+│ +-rw----     2.0 fat     2636 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.properties
+│ +-rw----     2.0 fat      646 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService.properties
+│ +-rw----     2.0 fat      576 bl defN 80-Feb-01 00:00 OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService.properties
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 OSGI-INF/metatype/
+│  -rw----     2.0 fat     1184 bl defN 80-Feb-01 00:00 OSGI-INF/metatype/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.xml
+│ @@ -4776,8 +4776,8 @@
+│  -rw----     2.0 fat     1772 bl defN 80-Feb-01 00:00 solr/solr.xml
+│  -rw----     2.0 fat     1284 bl defN 80-Feb-01 00:00 solr/zoo.cfg
+│ -4781 files, 16264651 bytes uncompressed, 6787315 bytes compressed:  58.3%
+│ +4781 files, 16264646 bytes uncompressed, 6787306 bytes compressed:  58.3%
+├── OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.properties
+│ @@ -1,5 +1,5 @@
+│ -#Fri Jul 05 16:27:56 CEST 2024
+│ +#Sun Jul 14 14:13:16 UTC 2024
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.enabled.name=enabled
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.enabled.description=enable persisted configuration observer
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.name=Apache Jackrabbit Oak Solr persisted configuration observer
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService.description=Description for org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService
+├── OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.properties
+│ @@ -1,8 +1,8 @@
+│ -#Fri Jul 05 16:27:56 CEST 2024
+│ +#Sun Jul 14 14:13:16 UTC 2024
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.property.mappings.name=mappings from JCR property names to Solr fields
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.catch.all.field.description=Description for catch.all.field
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.path.child.field.description=Description for path.child.field
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.primarytypes.restrictions.name=primary types restrictions
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.path.depth.field.name=field for path depth
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.path.exact.field.name=field for path search
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService.collapsed.path.field.description=Description for collapsed.path.field
+├── OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.properties
+│ @@ -1,8 +1,8 @@
+│ -#Fri Jul 05 16:27:56 CEST 2024
+│ +#Sun Jul 14 14:13:16 UTC 2024
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.solr.socket.timeout.description=Description for solr.socket.timeout
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.solr.socket.timeout.name=Socket timeout (ms)
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.description=Description for org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.solr.http.url.name=Solr HTTP URL
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.name=Apache Jackrabbit Oak Solr remote server configuration
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.solr.shards.no.name=No. of collection shards
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider.solr.shards.no.description=Description for solr.shards.no
+├── OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService.properties
+│ @@ -1,5 +1,5 @@
+│ -#Fri Jul 05 16:27:56 CEST 2024
+│ +#Sun Jul 14 14:13:16 UTC 2024
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService.query.aggregation.name=query time aggregation
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService.name=Apache Jackrabbit Oak Solr Query index provider configuration
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService.description=Description for org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService.query.aggregation.description=enable query time aggregation for Solr index
+├── OSGI-INF/l10n/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService.properties
+│ @@ -1,5 +1,5 @@
+│ -#Fri Jul 05 16:27:56 CEST 2024
+│ +#Sun Jul 14 14:13:16 UTC 2024
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService.name=Apache Jackrabbit Oak Solr server provider
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService.server.type.name=Property server.type
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService.server.type.description=Description for server.type
+│  org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService.description=Description for org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService
+
+6 /        6 target/reference/org.apache.jackrabbit/oak-run-1.66.0.jar oak-run/target/oak-run-1.66.0.jar
+...
