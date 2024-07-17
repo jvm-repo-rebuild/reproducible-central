@@ -1,0 +1,10 @@
+version=1.2.13
+ok=3
+ko=1
+ignored=0
+okFiles="jpmml-h2o-1.2.13.pom pmml-h2o-1.2.13.pom pmml-h2o-1.2.13.jar"
+koFiles="pmml-h2o-1.2.13-sources.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/pmml-h2o-1.2.13-sources.jar pmml-h2o/target/pmml-h2o-1.2.13-sources.jar
