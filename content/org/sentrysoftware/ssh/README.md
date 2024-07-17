@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.sentrysoftware:ssh:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.02](https://central.sonatype.com/artifact/org.sentrysoftware/ssh/1.0.02/pom) | | | |
 | [1.0.01](https://central.sonatype.com/artifact/org.sentrysoftware/ssh/1.0.01/pom) | [mvn jdk17](ssh-1.0.01.buildspec) | [result](ssh-1.0.01.buildinfo): [3 :white_check_mark: ](ssh-1.0.01.buildcompare) | 41K |
 | [1.0.00](https://central.sonatype.com/artifact/org.sentrysoftware/ssh/1.0.00/pom) | [mvn jdk17](ssh-1.0.00.buildspec) | [result](ssh-1.0.00.buildinfo): [3 :white_check_mark: ](ssh-1.0.00.buildcompare) | 41K |
 
