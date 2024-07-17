@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-StatsModels
+group-id=org.jpmml
+artifact-id=jpmml-statsmodels
+version=1.1.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-statsmodels.git
+source.scm.tag=1.1.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=pmml-statsmodels
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-statsmodels
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-statsmodels-1.1.1.pom
+outputs.0.0.length=5841
+outputs.0.0.checksums.sha512=553633b26f269ef549d86f4d7d6b8b84e080bc71467101b0711d6dc5063356e34b910b29cc5b31abe35e2e6273fb17ccd7bf334270f5dc1ec4776ac537dd9d00
+
+outputs.1.coordinates=org.jpmml:pmml-statsmodels
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-statsmodels-1.1.1.pom
+outputs.1.0.length=1837
+outputs.1.0.checksums.sha512=02c92f9b60f00598828fbe7e5d36bb5aa979e2f40630fac21af30e2311862f492c49a93461f9073b70239076eddb6e6d44540bb4f24c2e94779804a0f4f68c7a
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-statsmodels-1.1.1.jar
+outputs.1.1.length=31012
+outputs.1.1.checksums.sha512=426815f9e2981995ac737d720f32d6e062a695e99984ef777011880d067c12fcf26537eb506dd16ea93cf14d51e7aa6e0487a180e8f90a5c16b1e97cd8fe55b4
+
+outputs.1.2.groupId=org.jpmml
+outputs.1.2.filename=pmml-statsmodels-1.1.1-sources.jar
+outputs.1.2.length=23761
+outputs.1.2.checksums.sha512=e1faf1d80cfa5f1297531d04dd8520caea7a315e477ed1ab35d7dadfbf1d6c92048a4744951283945096c74f886a118ea91fc15c80f57760946ef1930cf5696b
