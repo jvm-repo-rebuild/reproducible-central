@@ -1,0 +1,31 @@
+# no idea why there is this 1h delay: an issue in moditect 1.2.1-Final?
+1 /        4 target/reference/org.apache.commons/commons-rng-client-api-1.6.jar commons-rng-client-api/target/commons-rng-client-api-1.6.jar
+--- target/reference/org.apache.commons/commons-rng-client-api-1.6.jar
++++ commons-rng-client-api/target/commons-rng-client-api-1.6.jar
+├── zipinfo {}
+│ @@ -1,29 +1,29 @@
+│  Zip file size: 26292 bytes, number of entries: 27
+│ --rw----     2.0 fat        0 bX defN 24-Jul-09 01:00 META-INF/
+│ --rw----     2.0 fat     1172 bl defN 24-Jul-09 01:00 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat        0 bl defN 24-Jul-09 01:00 org/
+│ --rw----     2.0 fat        0 bl defN 24-Jul-09 01:00 org/apache/
+│ --rw----     2.0 fat        0 bl defN 24-Jul-09 01:00 org/apache/commons/
+...
+│ --rw----     2.0 fat     6041 bl defN 24-Jul-09 01:00 org/apache/commons/rng/UniformRandomProviderSupport.class
+│ --rw----     2.0 fat      128 bl defN 24-Jul-09 01:00 org/apache/commons/rng/package-info.class
+│ --rw----     2.0 fat     4484 bl defN 24-Jul-09 01:00 META-INF/maven/org.apache.commons/commons-rng-client-api/pom.xml
+│ --rw----     2.0 fat       73 bl defN 24-Jul-09 01:00 META-INF/maven/org.apache.commons/commons-rng-client-api/pom.properties
+│ --rw----     2.0 fat      165 bl defN 24-Jul-09 01:00 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat        0 bX defN 24-Jul-09 00:00 META-INF/
+│ +-rw----     2.0 fat     1172 bl defN 24-Jul-09 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat        0 bl defN 24-Jul-09 00:00 org/
+│ +-rw----     2.0 fat        0 bl defN 24-Jul-09 00:00 org/apache/
+│ +-rw----     2.0 fat        0 bl defN 24-Jul-09 00:00 org/apache/commons/
+...
+│ +-rw----     2.0 fat     6041 bl defN 24-Jul-09 00:00 org/apache/commons/rng/UniformRandomProviderSupport.class
+│ +-rw----     2.0 fat      128 bl defN 24-Jul-09 00:00 org/apache/commons/rng/package-info.class
+│ +-rw----     2.0 fat     4484 bl defN 24-Jul-09 00:00 META-INF/maven/org.apache.commons/commons-rng-client-api/pom.xml
+│ +-rw----     2.0 fat       73 bl defN 24-Jul-09 00:00 META-INF/maven/org.apache.commons/commons-rng-client-api/pom.properties
+│ +-rw----     2.0 fat      165 bl defN 24-Jul-09 00:00 META-INF/versions/9/module-info.class
+│  27 files, 57469 bytes uncompressed, 21302 bytes compressed:  62.9%
+...

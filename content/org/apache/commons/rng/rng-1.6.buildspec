@@ -1,0 +1,17 @@
+groupId=org.apache.commons
+artifactId=commons-rng-parent
+display=${groupId}:${artifactId}
+version=1.6
+
+gitRepo=https://github.com/apache/commons-rng.git
+gitTag=rel/commons-rng-${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcyclonedx.skip -Dcommons.release.dryRun -Dcommons.release.isDistModule=false -Dspdx.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
+diffoscope=${artifactId}-${version}.diffoscope

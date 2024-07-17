@@ -1,0 +1,13 @@
+version=1.6
+ok=18
+ko=4
+ignored=0
+okFiles="commons-rng-parent-1.6.pom commons-rng-parent-1.6-site.xml commons-rng-client-api-1.6.pom commons-rng-client-api-1.6-tests.jar commons-rng-client-api-1.6-sources.jar commons-rng-client-api-1.6-test-sources.jar commons-rng-core-1.6.pom commons-rng-core-1.6-tests.jar commons-rng-core-1.6-sources.jar commons-rng-core-1.6-test-sources.jar commons-rng-simple-1.6.pom commons-rng-simple-1.6-tests.jar commons-rng-simple-1.6-sources.jar commons-rng-simple-1.6-test-sources.jar commons-rng-sampling-1.6.pom commons-rng-sampling-1.6-tests.jar commons-rng-sampling-1.6-sources.jar commons-rng-sampling-1.6-test-sources.jar"
+koFiles="commons-rng-client-api-1.6.jar commons-rng-core-1.6.jar commons-rng-simple-1.6.jar commons-rng-sampling-1.6.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.commons/commons-rng-client-api-1.6.jar commons-rng-client-api/target/commons-rng-client-api-1.6.jar
+# diffoscope target/reference/org.apache.commons/commons-rng-core-1.6.jar commons-rng-core/target/commons-rng-core-1.6.jar
+# diffoscope target/reference/org.apache.commons/commons-rng-simple-1.6.jar commons-rng-simple/target/commons-rng-simple-1.6.jar
+# diffoscope target/reference/org.apache.commons/commons-rng-sampling-1.6.jar commons-rng-sampling/target/commons-rng-sampling-1.6.jar
