@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **4021 releases** of **680 projects**:
-   - **3198** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **4025 releases** of **680 projects**:
+   - **3202** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 823 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 680 projects, 579 have at least one fully reproducible release, 101 have none
 
@@ -222,7 +222,7 @@ Its objectives are to provide:
 | fr.marcwrobel | [jbanking](content/fr/marcwrobel/jbanking/README.md) | 2 | 2 :white_check_mark: |
 | fr.vidal.oss | [atom-jaxb](content/fr/vidal/oss/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | io.jooby | [jooby](content/io/jooby/README.md) | 2 | 2 :warning: |
-| io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 57 | 56 :white_check_mark: / 1 :warning: |
+| io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 58 | 57 :white_check_mark: / 1 :warning: |
 | io.trino | [trino-root](content/io/trino/README.md) | 7 | 4 :white_check_mark: / 3 :warning: |
 | io.airlift | [airbase](content/io/airlift/airbase/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | io.cucumber | [ci-environment](content/io/cucumber/ci-environment/README.md) | 2 | 2 :white_check_mark: |
@@ -289,13 +289,13 @@ Its objectives are to provide:
 | | [pmd-build-tools-config](content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | 9 | 9 :white_check_mark: |
 | nl.basjes.energy | [energy-parent](content/nl/basjes/energy/README.md) | 1 | 1 :white_check_mark: |
 | nl.basjes.codeowners | [codeowners-parent](content/nl/basjes/codeowners/codeowners-parent/README.md) | 17 | 17 :white_check_mark: |
-| nl.basjes.maven.release | [conventional-commits-version-policy](content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 6 | 6 :white_check_mark: |
+| nl.basjes.maven.release | [conventional-commits-version-policy](content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 7 | 7 :white_check_mark: |
 | nl.basjes.parse.httpdlog | [httpdlog-parser](content/nl/basjes/parse/httpdlog/httpdlog-parser/README.md) | 3 | 3 :white_check_mark: |
 | nl.basjes.parse.useragent | [yauaa](content/nl/basjes/parse/useragent/yauaa/README.md) | 16 | 14 :white_check_mark: / 2 :warning: |
 | nl.hsac | [hsac-fitnesse-fixtures](content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 85 | 68 :white_check_mark: / 17 :warning: |
 | | [hsac-fitnesse-pdf](content/nl/hsac/hsac-fitnesse-pdf/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
 | org.jdbi.internal | [jdbi3-root](content/org/jdbi/README.md) | 3 | 3 :warning: |
-| org.jline | [jline](content/org/jline/README.md) | 10 | 9 :white_check_mark: / 1 :warning: |
+| org.jline | [jline](content/org/jline/README.md) | 11 | 10 :white_check_mark: / 1 :warning: |
 | org.jreleaser | [jreleaser](content/org/jreleaser/README.md) | 9 | 3 :white_check_mark: / 6 :warning: |
 | org.phoebus | [parent](content/org/phoebus/README.md) | 1 | 1 :warning: |
 | org.quickperf | [quick-perf](content/org/quickperf/README.md) | 3 | 3 :white_check_mark: |
@@ -666,7 +666,7 @@ Its objectives are to provide:
 | | [jflat](content/org/sentrysoftware/jflat/README.md) | 2 | 2 :white_check_mark: |
 | | [printf4j](content/org/sentrysoftware/printf4j/README.md) | 3 | 3 :white_check_mark: |
 | | [snmp](content/org/sentrysoftware/snmp/README.md) | 2 | 2 :white_check_mark: |
-| | [ssh](content/org/sentrysoftware/ssh/README.md) | 2 | 2 :white_check_mark: |
+| | [ssh](content/org/sentrysoftware/ssh/README.md) | 3 | 3 :white_check_mark: |
 | | [tablejoin](content/org/sentrysoftware/tablejoin/README.md) | 2 | 2 :white_check_mark: |
 | | [vcenter](content/org/sentrysoftware/vcenter/README.md) | 2 | 2 :white_check_mark: |
 | | [wbem](content/org/sentrysoftware/wbem/README.md) | 2 | 2 :white_check_mark: |
@@ -703,7 +703,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 2 | 2 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 39 | 39 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **680** | **4021** | **3198** :white_check_mark: **823** :warning: |
+| **Count:** | **680** | **4025** | **3202** :white_check_mark: **823** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -729,7 +729,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      12 mvn        16
-    359 mvn        17
+    360 mvn        17
       1 mvn        17.0.10
       1 mvn        17.0.11
       2 mvn        17.0.7
@@ -756,7 +756,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.8.6  20
       5 mvn-3.8.6  21
      17 mvn-3.8.7  17
-      4 mvn-3.8.7  21
+      5 mvn-3.8.7  21
       1 mvn-3.9.0   8
       4 mvn-3.9.0  11
      12 mvn-3.9.0  17
@@ -809,7 +809,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.5  22
      23 mvn-3.9.6   8
       3 mvn-3.9.6  11
-     26 mvn-3.9.6  17
+     27 mvn-3.9.6  17
       1 mvn-3.9.6  17.0.7
      48 mvn-3.9.6  21
      14 mvn-3.9.6  22
@@ -825,6 +825,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-4.0.0-alpha-7  17
       1 mvn-4.0.0-alpha-8  21
      10 mvn-4.0.0-beta-3  21
+      1 mvn-4.0.0-beta-3  22
       2 sbt         8
 ```
 <!-- END GENERATED STATS -->
