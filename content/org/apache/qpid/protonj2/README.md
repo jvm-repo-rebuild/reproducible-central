@@ -9,20 +9,20 @@ Source code: [https://github.com/apache/qpid-protonj2.git](https://github.com/ap
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [org.apache.qpid:apache-qpid-protonj2](https://central.sonatype.com/artifact/org.apache.qpid/apache-qpid-protonj2/1.0.0-M20)
-* [org.apache.qpid:protonj2](https://central.sonatype.com/artifact/org.apache.qpid/protonj2/1.0.0-M20)
-* [org.apache.qpid:protonj2-client](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-client/1.0.0-M20)
-* [org.apache.qpid:protonj2-parent](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M20)
-* [org.apache.qpid:protonj2-test-driver](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-test-driver/1.0.0-M20)
+* [org.apache.qpid:apache-qpid-protonj2](https://central.sonatype.com/artifact/org.apache.qpid/apache-qpid-protonj2/1.0.0-M21)
+* [org.apache.qpid:protonj2](https://central.sonatype.com/artifact/org.apache.qpid/protonj2/1.0.0-M21)
+* [org.apache.qpid:protonj2-client](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-client/1.0.0-M21)
+* [org.apache.qpid:protonj2-parent](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M21)
+* [org.apache.qpid:protonj2-test-driver](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-test-driver/1.0.0-M21)
 </details>
 
-rebuilding **12 releases** of org.apache.qpid:protonj2-parent:
-- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **13 releases** of org.apache.qpid:protonj2-parent:
+- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.0.0-M21](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M21/pom) | | | |
+| [1.0.0-M21](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M21/pom) | [mvn jdk17](protonj2-1.0.0-M21.buildspec) | [result](protonj2-parent-1.0.0-M21.buildinfo): [13 :white_check_mark: ](protonj2-parent-1.0.0-M21.buildcompare) | 8.6M |
 | [1.0.0-M20](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M20/pom) | [mvn jdk17](protonj2-1.0.0-M20.buildspec) | [result](protonj2-parent-1.0.0-M20.buildinfo): [13 :white_check_mark: ](protonj2-parent-1.0.0-M20.buildcompare) | 8.6M |
 | [1.0.0-M19](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M19/pom) | [mvn jdk17](protonj2-1.0.0-M19.buildspec) | [result](protonj2-parent-1.0.0-M19.buildinfo): [13 :white_check_mark: ](protonj2-parent-1.0.0-M19.buildcompare) | 8.5M |
 | [1.0.0-M18](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M18/pom) | [mvn jdk17](protonj2-1.0.0-M18.buildspec) | [result](protonj2-parent-1.0.0-M18.buildinfo): [13 :white_check_mark: ](protonj2-parent-1.0.0-M18.buildcompare) | 8.5M |
