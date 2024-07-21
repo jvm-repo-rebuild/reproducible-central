@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.glassfish.build:glassfishbuild-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.1](https://central.sonatype.com/artifact/org.glassfish.build/glassfishbuild-maven-plugin/4.0.1/pom) | | | |
 | [4.0.0](https://central.sonatype.com/artifact/org.glassfish.build/glassfishbuild-maven-plugin/4.0.0/pom) | [mvn jdk11](glassfishbuild-maven-plugin-4.0.0.buildspec) | [result](glassfishbuild-maven-plugin-4.0.0.buildinfo): [4 :white_check_mark: ](glassfishbuild-maven-plugin-4.0.0.buildcompare) | 264K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
