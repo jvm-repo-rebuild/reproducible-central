@@ -1,0 +1,64 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-R
+group-id=org.jpmml
+artifact-id=jpmml-r
+version=1.5.6
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-r.git
+source.scm.tag=1.5.6
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=pmml-rexp-xgboost
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-r
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-r-1.5.6.pom
+outputs.0.0.length=5993
+outputs.0.0.checksums.sha512=f37751f70e68012f7ba757381271281a16ffb843282f8ea91511cba6f34c654006b2cd2d40fd1e19e21206bb91752c4e91d784654f961da91fe3cb3591e9caf5
+
+outputs.1.coordinates=org.jpmml:pmml-rexp
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-rexp-1.5.6.pom
+outputs.1.0.length=2231
+outputs.1.0.checksums.sha512=4752afd67a7edf15780a31572eff30f4360a9f5e2acdb78282e573b5ab586bdc7f26f935421ef41b47cac25de43c2ae0e8ed90835db319278734183bc63373a3
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-rexp-1.5.6.jar
+outputs.1.1.length=277315
+outputs.1.1.checksums.sha512=69970705fe984ba58278936901f6ea441694ef9d92636dbfda1d0eee50788f0bb17b33b1504052aa0bed9c9cc2ca0e3a6725a811c15cea3c76a7c961340b4bb8
+
+outputs.1.2.groupId=org.jpmml
+outputs.1.2.filename=pmml-rexp-1.5.6-sources.jar
+outputs.1.2.length=149666
+outputs.1.2.checksums.sha512=e56eddc505a861737a0f096e3d78840a46b2a5b848719f159edc14062fce52fd1c37b65e514dff2840bdd05cb54a847f6a96a71ff2c0e1c0814c2d748817865b
+
+outputs.2.coordinates=org.jpmml:pmml-rexp-xgboost
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-rexp-xgboost-1.5.6.pom
+outputs.2.0.length=1285
+outputs.2.0.checksums.sha512=ac4bb2d29817877355a3a338f84d4f1c03abcc5d912681046cf523494c69aae7fddcfd44c1fef235abb5da68d61fe379dbcddbee72d9f87f4c16dbcd5e22ad93
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-rexp-xgboost-1.5.6.jar
+outputs.2.1.length=9287
+outputs.2.1.checksums.sha512=65640985e1c3694eb00114e898008fa6317a7d4e069a36f2da234342b1d80ea760ba13b06c226274255be794fbc5f6778b1366f2d2299fa0ee5e957b9d2c11dc
+
+outputs.2.2.groupId=org.jpmml
+outputs.2.2.filename=pmml-rexp-xgboost-1.5.6-sources.jar
+outputs.2.2.length=4891
+outputs.2.2.checksums.sha512=fba006098a93c9345fb72a2569628db23ec45f1a816c19e717d8afed47a5542a46f666e10db440556042bc1d3164633868fbce28f2b7a7160f76fe0e2883b534
