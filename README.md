@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **4030 releases** of **680 projects**:
-   - **3207** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 823 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **4034 releases** of **680 projects**:
+   - **3209** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 825 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 680 projects, 579 have at least one fully reproducible release, 101 have none
 
 <!-- END GENERATED INTRO -->
@@ -218,7 +218,7 @@ Its objectives are to provide:
 | eu.maveniverse.maven.mima | [mima](content/eu/maveniverse/maven/mima/README.md) | 32 | 30 :white_check_mark: / 2 :warning: |
 | eu.maveniverse.maven.toolbox | [toolbox](content/eu/maveniverse/maven/toolbox/README.md) | 31 | 30 :white_check_mark: / 1 :warning: |
 | eu.maveniverse.maven.mase | [mase](content/eu/maveniverse/maven/mase/mase/README.md) | 3 | 3 :white_check_mark: |
-| fr.inria.gforge.spoon | [spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 36 | 4 :white_check_mark: / 32 :warning: |
+| fr.inria.gforge.spoon | [spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 38 | 4 :white_check_mark: / 34 :warning: |
 | fr.marcwrobel | [jbanking](content/fr/marcwrobel/jbanking/README.md) | 2 | 2 :white_check_mark: |
 | fr.vidal.oss | [atom-jaxb](content/fr/vidal/oss/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | io.jooby | [jooby](content/io/jooby/README.md) | 2 | 2 :warning: |
@@ -613,7 +613,7 @@ Its objectives are to provide:
 | org.fusesource.jansi | [jansi](content/org/fusesource/jansi/jansi/README.md) | 9 | 5 :white_check_mark: / 4 :warning: |
 | org.glassfish.hk2 | [hk2-parent](content/org/glassfish/hk2/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
 | org.glassfish.main | [glassfish-parent](content/org/glassfish/main/README.md) | 9 | 9 :warning: |
-| org.glassfish.build | [glassfishbuild-maven-plugin](content/org/glassfish/build/glassfishbuild-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
+| org.glassfish.build | [glassfishbuild-maven-plugin](content/org/glassfish/build/glassfishbuild-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
 | org.hibernate.search | [hibernate-search-bom](content/org/hibernate/search/hibernate-search-bom/README.md) | 2 | 2 :white_check_mark: |
 | org.infinispan.protostream | [protostream-aggregator](content/org/infinispan/protostream/README.md) | 1 | 1 :warning: |
 | org.itsallcode.openfasttrace | [openfasttrace](content/org/itsallcode/openfasttrace/README.md) | 1 | 1 :warning: |
@@ -621,7 +621,7 @@ Its objectives are to provide:
 | | [jpmml-h2o](content/org/jpmml/jpmml-h2o/README.md) | 2 | 2 :warning: |
 | | [jpmml-model](content/org/jpmml/jpmml-model/README.md) | 1 | 1 :warning: |
 | | [jpmml-python](content/org/jpmml/jpmml-python/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
-| | [jpmml-r](content/org/jpmml/jpmml-r/README.md) | 3 | 3 :white_check_mark: |
+| | [jpmml-r](content/org/jpmml/jpmml-r/README.md) | 4 | 4 :white_check_mark: |
 | | [jpmml-sklearn](content/org/jpmml/jpmml-sklearn/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
 | | [jpmml-statsmodels](content/org/jpmml/jpmml-statsmodels/README.md) | 2 | 2 :warning: |
 | | [jpmml-xgboost](content/org/jpmml/jpmml-xgboost/README.md) | 3 | 3 :warning: |
@@ -703,7 +703,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 2 | 2 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 39 | 39 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **680** | **4030** | **3207** :white_check_mark: **823** :warning: |
+| **Count:** | **680** | **4034** | **3209** :white_check_mark: **825** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -721,7 +721,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
    1217 mvn         8
       1 mvn         9
-   1036 mvn        11
+   1037 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
@@ -739,7 +739,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn        18
      31 mvn        19
      15 mvn        20
-    130 mvn        21
+    132 mvn        21
      10 mvn        22
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11
@@ -807,7 +807,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.5  17.0.9
      36 mvn-3.9.5  21
       5 mvn-3.9.5  22
-     23 mvn-3.9.6   8
+     24 mvn-3.9.6   8
       3 mvn-3.9.6  11
      27 mvn-3.9.6  17
       1 mvn-3.9.6  17.0.7

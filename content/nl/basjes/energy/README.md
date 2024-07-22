@@ -23,6 +23,7 @@ rebuilding **1 releases** of nl.basjes.energy:energy-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.0.2](https://central.sonatype.com/artifact/nl.basjes.energy/energy-parent/0.0.2/pom) | | | |
 | [0.0.1](https://central.sonatype.com/artifact/nl.basjes.energy/energy-parent/0.0.1/pom) | [mvn jdk17](energy-0.0.1.buildspec) | [result](energy-parent-0.0.1.buildinfo): [12 :white_check_mark: ](energy-parent-0.0.1.buildcompare) | 5.1M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

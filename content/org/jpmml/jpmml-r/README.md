@@ -9,18 +9,18 @@ Source code: [https://github.com/jpmml/jpmml-r.git](https://github.com/jpmml/jpm
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [org.jpmml:jpmml-r](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.5.5)
-* [org.jpmml:pmml-rexp](https://central.sonatype.com/artifact/org.jpmml/pmml-rexp/1.5.5)
-* [org.jpmml:pmml-rexp-xgboost](https://central.sonatype.com/artifact/org.jpmml/pmml-rexp-xgboost/1.5.5)
+* [org.jpmml:jpmml-r](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.5.6)
+* [org.jpmml:pmml-rexp](https://central.sonatype.com/artifact/org.jpmml/pmml-rexp/1.5.6)
+* [org.jpmml:pmml-rexp-xgboost](https://central.sonatype.com/artifact/org.jpmml/pmml-rexp-xgboost/1.5.6)
 </details>
 
-rebuilding **3 releases** of org.jpmml:jpmml-r:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of org.jpmml:jpmml-r:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.5.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.5.6/pom) | | | |
+| [1.5.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.5.6/pom) | [mvn jdk8](jpmml-r-1.5.6.buildspec) | [result](jpmml-r-1.5.6.buildinfo): [7 :white_check_mark: ](jpmml-r-1.5.6.buildcompare) | 441K |
 | [1.5.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.5.5/pom) | [mvn jdk8](jpmml-r-1.5.5.buildspec) | [result](jpmml-r-1.5.5.buildinfo): [7 :white_check_mark: ](jpmml-r-1.5.5.buildcompare) | 439K |
 | [1.5.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.5.4/pom) | [mvn jdk8](jpmml-r-1.5.4.buildspec) | [result](jpmml-r-1.5.4.buildinfo): [7 :white_check_mark: ](jpmml-r-1.5.4.buildcompare) | 438K |
 | [1.5.3](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.5.3/pom) | [mvn jdk8](jpmml-r-1.5.3.buildspec) | [result](jpmml-r-1.5.3.buildinfo): [7 :white_check_mark: ](jpmml-r-1.5.3.buildcompare) | 415K |
