@@ -1,0 +1,9 @@
+version=0.0.2
+ok=13
+ko=0
+ignored=0
+okFiles="energy-parent-0.0.2.pom modbus-energy-parser-0.0.2.pom modbus-energy-parser-0.0.2.jar modbus-energy-parser-0.0.2-sources.jar modbus-energy-parser-0.0.2-tests.jar energy-udfs-parent-0.0.2.pom energy-nifi-parent-0.0.2.pom nifi-energy-processors-0.0.2.pom nifi-energy-processors-0.0.2.jar nifi-energy-processors-0.0.2-sources.jar nifi-energy-nar-0.0.2.pom nifi-energy-nar-0.0.2.nar nifi-energy-nar-0.0.2-nar-extension-manifest.xml"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
