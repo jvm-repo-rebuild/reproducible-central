@@ -13,6 +13,7 @@ rebuilding **1 releases** of dev.sigstore:sigstore-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.11.0](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/0.11.0/pom) | | | |
 | [0.4.0](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/0.4.0/pom) | [mvn jdk11](sigstore-maven-plugin-0.4.0.buildspec) | [result](sigstore-maven-plugin-0.4.0.buildinfo): [3 :white_check_mark: ](sigstore-maven-plugin-0.4.0.buildcompare) | 66K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
