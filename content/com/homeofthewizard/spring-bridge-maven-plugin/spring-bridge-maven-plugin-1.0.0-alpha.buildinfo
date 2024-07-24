@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Spring-Maven Bridge
+group-id=com.homeofthewizard
+artifact-id=spring-bridge-maven-plugin
+version=1.0.0-alpha
+
+# source information
+source.scm.uri=scm:git:git@github.com:homeofthewizard/spring-bridge-maven
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.homeofthewizard
+outputs.0.filename=spring-bridge-maven-plugin-1.0.0-alpha.pom
+outputs.0.length=9555
+outputs.0.checksums.sha512=d735aacfe8798d07f4b1ff24ecb87fb4a6404d96892f7747b49387210ea54161debdeeffa41d0f2248a0824c1c58749ede4b3eef5d229a12bd3a213bd1d617e4
+
+outputs.1.groupId=com.homeofthewizard
+outputs.1.filename=spring-bridge-maven-plugin-1.0.0-alpha.jar
+outputs.1.length=16062
+outputs.1.checksums.sha512=953ab25ee6559f57d314ac4384b95a36c373f97ca94789b2e95b4ae1fcfe26c8409be3064faaebae92f30e49c00ecfc15d970deafb616324d4b7ce021ee514cd
+
+outputs.2.groupId=com.homeofthewizard
+outputs.2.filename=spring-bridge-maven-plugin-1.0.0-alpha-sources.jar
+outputs.2.length=7511
+outputs.2.checksums.sha512=673ec54fc03d0a88fa89174b00c1c8f2b9808544178bd305ed41608a1a78f1a7837ec6380f43bbfef6f90f0e837583918d125d16b56e19ebb43715715c71229c
