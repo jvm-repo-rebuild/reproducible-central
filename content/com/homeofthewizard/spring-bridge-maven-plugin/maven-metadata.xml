@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.homeofthewizard</groupId>
+  <artifactId>spring-bridge-maven</artifactId>
+  <versioning>
+    <latest>1.0.1-alpha</latest>
+    <release>1.0.1-alpha</release>
+    <versions>
+      <version>1.0.1-alpha</version>
+    </versions>
+    <lastUpdated>20240714134539</lastUpdated>
+  </versioning>
+</metadata>
