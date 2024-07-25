@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **4038 releases** of **680 projects**:
-   - **3213** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **4042 releases** of **680 projects**:
+   - **3217** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 825 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 680 projects, 579 have at least one fully reproducible release, 101 have none
 
@@ -175,7 +175,7 @@ Its objectives are to provide:
 | | [*.xoanon](content/com/io7m/xoanon/README.md) | 7 | 7 :white_check_mark: |
 | | [*.xstructural](content/com/io7m/xstructural/README.md) | 7 | 7 :white_check_mark: |
 | | [*.zelador](content/com/io7m/zelador/README.md) | 2 | 2 :white_check_mark: |
-| com.newmediaworks | [nmw-oss-parent](content/com/newmediaworks/nmw-oss-parent/README.md) | 4 | 4 :white_check_mark: |
+| com.newmediaworks | [nmw-oss-parent](content/com/newmediaworks/nmw-oss-parent/README.md) | 5 | 5 :white_check_mark: |
 | com.ongres.scram | [scram-aggregator](content/com/ongres/scram/README.md) | 1 | 1 :white_check_mark: |
 | com.ongres.stringprep | [stringprep-aggregator](content/com/ongres/stringprep/README.md) | 1 | 1 :white_check_mark: |
 | com.scalapenos | [stamina_2.11](content/com/scalapenos/stamina/README.md) | 2 | 2 :white_check_mark: |
@@ -204,7 +204,7 @@ Its objectives are to provide:
 | de.jflex | [jflex-parent](content/de/jflex/README.md) | 1 | 1 :white_check_mark: |
 | de.gematik.pki.gemlibpki | [gemLibPki](content/de/gematik/pki/gemlibpki/README.md) | 2 | 2 :warning: |
 | de.unentscheidbar | [migratedb](content/de/unentscheidbar/migratedb/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
-| dev.langchain4j | [langchain4j](content/dev/langchain4j/README.md) | 9 | 7 :white_check_mark: / 2 :warning: |
+| dev.langchain4j | [langchain4j](content/dev/langchain4j/README.md) | 10 | 8 :white_check_mark: / 2 :warning: |
 | dev.cdevents | [cdevents-sdk-java](content/dev/cdevents/cdevents-sdk-java/README.md) | 2 | 2 :warning: |
 | dev.notmyfault.serverlib | [ServerLib](content/dev/notmyfault/serverlib/ServerLib/README.md) | 1 | 1 :white_check_mark: |
 | dev.sigstore | [sigstore-maven-plugin](content/dev/sigstore/sigstore-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
@@ -371,7 +371,7 @@ Its objectives are to provide:
 | org.apache.httpcomponents | [httpcomponents-parent](content/org/apache/httpcomponents/parent/README.md) | 2 | 2 :white_check_mark: |
 | org.apache.jackrabbit.vault | [jackrabbit-filevault](content/org/apache/jackrabbit/filevault/README.md) | 12 | 4 :white_check_mark: / 8 :warning: |
 | org.apache.jackrabbit | [filevault-package-maven-plugin](content/org/apache/jackrabbit/filevault-package-maven-plugin/README.md) | 8 | 8 :white_check_mark: |
-| | [jackrabbit-parent](content/org/apache/jackrabbit/jackrabbit/README.md) | 11 | 3 :white_check_mark: / 8 :warning: |
+| | [jackrabbit-parent](content/org/apache/jackrabbit/jackrabbit/README.md) | 12 | 4 :white_check_mark: / 8 :warning: |
 | | [jackrabbit-oak](content/org/apache/jackrabbit/oak/README.md) | 4 | 4 :warning: |
 | org.apache.jena | [jena](content/org/apache/jena/jena/README.md) | 9 | 9 :warning: |
 | org.apache.karaf | [decanter](content/org/apache/karaf/decanter/README.md) | 2 | 2 :warning: |
@@ -685,7 +685,7 @@ Its objectives are to provide:
 | org.tomitribe.transformer | [org.eclipse.transformer.parent](content/org/tomitribe/transformer/README.md) | 2 | 2 :white_check_mark: |
 | org.webjars | [angularjs](content/org/webjars/angularjs/README.md) | 1 | 1 :white_check_mark: |
 | | [bootstrap](content/org/webjars/bootstrap/README.md) | 8 | 8 :white_check_mark: |
-| | [flexmonster](content/org/webjars/flexmonster/README.md) | 61 | 57 :white_check_mark: / 4 :warning: |
+| | [flexmonster](content/org/webjars/flexmonster/README.md) | 62 | 58 :white_check_mark: / 4 :warning: |
 | | [font-awesome](content/org/webjars/font-awesome/README.md) | 7 | 7 :white_check_mark: |
 | | [highcharts](content/org/webjars/highcharts/README.md) | 3 | 3 :white_check_mark: |
 | | [jszip](content/org/webjars/jszip/README.md) | 1 | 1 :white_check_mark: |
@@ -703,7 +703,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 2 | 2 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 39 | 39 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **680** | **4038** | **3213** :white_check_mark: **825** :warning: |
+| **Count:** | **680** | **4042** | **3217** :white_check_mark: **825** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -721,7 +721,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
    1217 mvn         8
       1 mvn         9
-   1037 mvn        11
+   1038 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
@@ -739,7 +739,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn        18
      31 mvn        19
      15 mvn        20
-    132 mvn        21
+    134 mvn        21
      10 mvn        22
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11
@@ -771,7 +771,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      19 mvn-3.9.2  17
       3 mvn-3.9.2  21
      75 mvn-3.9.3   8
-     47 mvn-3.9.3  11
+     48 mvn-3.9.3  11
       1 mvn-3.9.3  11.0.18
       3 mvn-3.9.3  11.0.2
       4 mvn-3.9.3  11.0.5

@@ -9,37 +9,37 @@ Source code: [https://github.com/apache/jackrabbit.git](https://github.com/apach
 
 <details><summary>This project defines 22 modules:</summary>
 
-* [org.apache.jackrabbit:jackrabbit-aws-ext](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-aws-ext/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-core](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-core/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-data](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-data/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-it-osgi](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-it-osgi/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-jca](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-jca/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-jcr-client](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-jcr-client/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-jcr-commons](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-jcr-commons/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-jcr-rmi](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-jcr-rmi/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-jcr-server](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-jcr-server/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-jcr-servlet](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-jcr-servlet/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-jcr-tests](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-jcr-tests/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-jcr2dav](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-jcr2dav/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-jcr2spi](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-jcr2spi/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-parent](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-spi](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-spi/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-spi-commons](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-spi-commons/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-spi2dav](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-spi2dav/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-spi2jcr](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-spi2jcr/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-standalone-components](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-standalone-components/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-vfs-ext](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-vfs-ext/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-webapp](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-webapp/2.22.0)
-* [org.apache.jackrabbit:jackrabbit-webdav](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-webdav/2.22.0)
+* [org.apache.jackrabbit:jackrabbit-aws-ext](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-aws-ext/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-core](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-core/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-data](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-data/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-it-osgi](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-it-osgi/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-jca](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-jca/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-jcr-client](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-jcr-client/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-jcr-commons](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-jcr-commons/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-jcr-rmi](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-jcr-rmi/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-jcr-server](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-jcr-server/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-jcr-servlet](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-jcr-servlet/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-jcr-tests](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-jcr-tests/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-jcr2dav](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-jcr2dav/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-jcr2spi](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-jcr2spi/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-parent](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-spi](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-spi/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-spi-commons](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-spi-commons/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-spi2dav](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-spi2dav/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-spi2jcr](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-spi2jcr/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-standalone-components](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-standalone-components/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-vfs-ext](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-vfs-ext/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-webapp](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-webapp/2.23.0-beta)
+* [org.apache.jackrabbit:jackrabbit-webdav](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-webdav/2.23.0-beta)
 </details>
 
-rebuilding **11 releases** of org.apache.jackrabbit:jackrabbit-parent:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **12 releases** of org.apache.jackrabbit:jackrabbit-parent:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.23.0-beta](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.23.0-beta/pom) | | | |
+| [2.23.0-beta](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.23.0-beta/pom) | [mvn jdk11](jackrabbit-2.23.0-beta.buildspec) | [result](jackrabbit-2.23.0-beta.buildinfo): [69 :white_check_mark: ](jackrabbit-2.23.0-beta.buildcompare) | 101M |
 | [2.22.0](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.22.0/pom) | [mvn jdk11](jackrabbit-2.22.0.buildspec) | [result](jackrabbit-2.22.0.buildinfo): [69 :white_check_mark: ](jackrabbit-2.22.0.buildcompare) | 101M |
 | [2.21.27-beta](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.27-beta/pom) | [mvn jdk11](jackrabbit-2.21.27-beta.buildspec) | [result](jackrabbit-2.21.27-beta.buildinfo): [69 :white_check_mark: ](jackrabbit-2.21.27-beta.buildcompare) | 101M |
 | [2.21.26-beta](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.26-beta/pom) | [mvn jdk11](jackrabbit-2.21.26-beta.buildspec) | [result](jackrabbit-2.21.26-beta.buildinfo): [72 :white_check_mark: ](jackrabbit-2.21.26-beta.buildcompare) | 101M |
