@@ -36,25 +36,28 @@ mvnBuildDocker() {
     6 )
       # This is the latest image available
       mvnVersion="3.2.5"
-      mvnImage=maven:3.2.5-jdk-6b32
+      mvnImage=docker.io/library/maven:3.2.5-jdk-6b32
       crlfDocker="yes"
       ;;
     7)
       # This is the latest image available
       mvnVersion="3.6.1"
-      mvnImage=maven:3.6.1-jdk-7-alpine
+      mvnImage=docker.io/library/maven:3.6.1-jdk-7-alpine
       crlfDocker="yes"
       ;;
     9)
       # This is the latest image available
       mvnVersion="3.5.4"
-      mvnImage=maven:3.5.4-jdk-9-slim
+      mvnImage=docker.io/library/maven:3.5.4-jdk-9-slim
       ;;
     14 | 15 | 16 )
-      mvnImage=maven:${mvnVersion}-openjdk-${jdk}-slim
+      mvnImage=docker.io/library/maven:${mvnVersion}-openjdk-${jdk}-slim
+      ;;
+    22)
+      mvnImage=docker.io/library/maven:${mvnVersion}-eclipse-temurin-${jdk}
       ;;
     *)
-      mvnImage=maven:${mvnVersion}-jdk-${jdk}
+      mvnImage=docker.io/library/maven:${mvnVersion}-jdk-${jdk}
   esac
 
   # Second configure it for the local user
@@ -105,7 +108,7 @@ mvnBuildDocker() {
     -v $base/.sbt:/var/maven/.sbt${RB_OCI_VOLUME_FLAGS}\
     -v $base/.npm:/.npm${RB_OCI_VOLUME_FLAGS}\
     -v $base/.bnd:/.bnd${RB_OCI_VOLUME_FLAGS}\
-    -u $USER_NAME:$GROUP_ID\
+    -u $USER_ID:$GROUP_ID\
     -e MAVEN_CONFIG=/var/maven/.m2\
     -e MVN_UMASK=${MVN_UMASK}\
     -w /var/maven/app"
@@ -161,11 +164,11 @@ mvnBuildDockerAddUserLayer() {
 
   local baseMvnImage="${mvnImage}"
 
-  mvnImage="${mvnImage}-${USER_NAME}"
+  mvnImage="$(filename ${mvnImage})-${USER_NAME}"
   local DOCKERFILE="Dockerfile-${mvnImage}"
   (
     cat "${DOCKERFILES_TEMPLATES_DIR}/Dockerfile.localuser.template" | \
-      sed "s/@@BASEIMAGE@@/${baseMvnImage}/g" | \
+      sed "s_@@BASEIMAGE@@_${baseMvnImage}_g" | \
       sed "s/@@USER_NAME@@/${USER_NAME}/g" | \
       sed "s/@@USER_ID@@/${USER_ID}/g" | \
       sed "s/@@GROUP_ID@@/${GROUP_ID}/g"
