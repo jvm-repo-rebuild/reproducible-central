@@ -4,9 +4,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240726120646 --> [commons-parent](../content/org/apache/commons/parent/README.md) | [71](../content/org/apache/commons/parent/commons-parent-71.buildspec) :white_check_mark: | [72](../content/org/apache/commons/parent/commons-parent-72.buildspec) | `bin/add-new-release.sh content/org/apache/commons/parent/commons-parent-71.buildspec 72` |
-| <!-- 20240726074113 --> [pmd](../content/net/sourceforge/pmd/README.md) | [7.3.0](../content/net/sourceforge/pmd/pmd-7.3.0.buildspec) :white_check_mark: | [7.4.0](../content/net/sourceforge/pmd/pmd-7.4.0.buildspec) | `bin/add-new-release.sh content/net/sourceforge/pmd/pmd-7.3.0.buildspec 7.4.0` |
-| <!-- 20240726022932 --> [trino-root](../content/io/trino/README.md) | [452](../content/io/trino/trino-452.buildspec) :white_check_mark: | [453](../content/io/trino/trino-453.buildspec) | `bin/add-new-release.sh content/io/trino/trino-452.buildspec 453` |
+| <!-- 20240727182153 --> [liftwizard](../content/io/liftwizard/README.md) | [2.1.16](../content/io/liftwizard/liftwizard-2.1.16.buildspec) :white_check_mark: | [2.1.17](../content/io/liftwizard/liftwizard-2.1.17.buildspec) | `bin/add-new-release.sh content/io/liftwizard/liftwizard-2.1.16.buildspec 2.1.17` |
 | <!-- 20240724142220 --> [sigstore-maven-plugin](../content/dev/sigstore/sigstore-maven-plugin/README.md) | [0.4.0](../content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-0.4.0.buildspec) :white_check_mark: | [0.11.0](../content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-0.11.0.buildspec) | `bin/add-new-release.sh content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-0.4.0.buildspec 0.11.0` |
 | <!-- 20240704232838 --> [hk2-parent](../content/org/glassfish/hk2/README.md) | [4.0.0-M2](../content/org/glassfish/hk2/hk2-4.0.0-M2.buildspec) :white_check_mark: | [4.0.0-M3](../content/org/glassfish/hk2/hk2-4.0.0-M3.buildspec) | `bin/add-new-release.sh content/org/glassfish/hk2/hk2-4.0.0-M2.buildspec 4.0.0-M3` |
 <!-- END GENERATED ADD OK -->
@@ -14,6 +12,7 @@ New Releases To Add
 ### Unexpected Diffoscope in Buildspec
 `buildcompare` says `ko=0` but `buildspec` configures a `diffoscope` value in following releases:
 <!-- BEGIN GENERATED UNEXPECTED DIFFOSCOPE -->
+      content/org/apache/shiro/shiro-2.0.1.buildspec
 <!-- END GENERATED UNEXPECTED DIFFOSCOPE -->
 
 ## Apache Release Candidate in Staging
@@ -36,6 +35,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20240728014748 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [11.0.1-beta-15](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.0.1-beta-15.buildspec) :x: | [11.0.1-beta-16](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.0.1-beta-16.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.0.1-beta-15.buildspec 11.0.1-beta-16` |
+| <!-- 20240727181818 --> [docker-maven-plugin](../content/io/fabric8/docker-maven-plugin/README.md) | [0.44.0](../content/io/fabric8/docker-maven-plugin/docker-maven-plugin-0.44.0.buildspec) :warning: | [0.45.0](../content/io/fabric8/docker-maven-plugin/docker-maven-plugin-0.45.0.buildspec) | `bin/add-new-release.sh content/io/fabric8/docker-maven-plugin/docker-maven-plugin-0.44.0.buildspec 0.45.0` |
 | <!-- 20240725181332 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | [2.4.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.4.0.buildspec) :warning: | [2.6.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.6.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/instrumentation/opentelemetry-2.4.0.buildspec 2.6.0` |
 | <!-- 20240724211959 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.52.1](../content/org/finos/legend/engine/legend-engine-4.52.1.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.52.1` |
 | <!-- 20240723191850 --> [bcel](../content/org/apache/commons/bcel/README.md) | [6.9.0](../content/org/apache/commons/bcel/bcel-6.9.0.buildspec) :warning: | [6.10.0](../content/org/apache/commons/bcel/bcel-6.10.0.buildspec) | `bin/add-new-release.sh content/org/apache/commons/bcel/bcel-6.9.0.buildspec 6.10.0` |
@@ -95,7 +96,6 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
-| <!-- 20240721014700 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | 11.0.1-beta-15 :x: |
 | <!-- 20240716161608 --> [jpmml-h2o](../content/org/jpmml/jpmml-h2o/README.md) | 1.2.13 :warning: |
 | <!-- 20240716161020 --> [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | 1.1.1 :warning: |
 | <!-- 20240716083255 --> [jpmml-xgboost](../content/org/jpmml/jpmml-xgboost/README.md) | 1.8.6 :warning: [:memo:](https://github.com/jpmml/jpmml-xgboost/pull/73) |
@@ -113,7 +113,6 @@ New Releases To Add
 | <!-- 20240624060849 --> [sshd](../content/org/apache/sshd/README.md) | 2.13.1 :warning: |
 | <!-- 20240603092651 --> [commons-jcs3](../content/org/apache/commons/commons-jcs3/README.md) | 3.2.1 :warning: [:memo:](https://github.com/apache/commons-jcs/commit/61661616d8cb586bc41c0bea5cd3a206ba0ec94d) |
 | <!-- 20240603000134 --> [java-uuid-generator](../content/com/fasterxml/uuid/README.md) | 5.1.0 :warning: |
-| <!-- 20240531032449 --> [shiro-root](../content/org/apache/shiro/README.md) | 2.0.1 :warning: |
 | <!-- 20240528143433 --> [atom-jaxb](../content/fr/vidal/oss/README.md) | 1.1.0 :warning: |
 | <!-- 20240527225823 --> [com.io7m.gtyrell](../content/com/io7m/gtyrell/README.md) | 4.0.0 :warning: |
 | <!-- 20240524153720 --> [com.io7m.sunburst](../content/com/io7m/sunburst/README.md) | 0.0.7 :warning: |
@@ -138,7 +137,6 @@ New Releases To Add
 | <!-- 20240311131519 --> [parent](../content/org/apache/zookeeper/README.md) | 3.9.2 :warning: |
 | <!-- 20240310140556 --> [maven-remote-resources-plugin](../content/org/apache/maven/plugins/maven-remote-resources-plugin/README.md) | 3.2.0 :warning: |
 | <!-- 20240227095850 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 2.11.2 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-resolver/pull/39) |
-| <!-- 20240217103710 --> [docker-maven-plugin](../content/io/fabric8/docker-maven-plugin/README.md) | 0.44.0 :warning: |
 | <!-- 20240216102637 --> [efx-toolkit-java](../content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 2.0.0-alpha.3 :warning: |
 | <!-- 20240126192007 --> [io.wcm.handler.richtext](../content/io/wcm/io.wcm.handler/richtext/README.md) | 2.0.0 :warning: |
 | <!-- 20240118001405 --> [scimple](../content/org/apache/directory/scimple/README.md) | 1.0.0-M1 :warning: |
