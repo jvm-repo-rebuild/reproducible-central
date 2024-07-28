@@ -4,7 +4,6 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240727182153 --> [liftwizard](../content/io/liftwizard/README.md) | [2.1.16](../content/io/liftwizard/liftwizard-2.1.16.buildspec) :white_check_mark: | [2.1.17](../content/io/liftwizard/liftwizard-2.1.17.buildspec) | `bin/add-new-release.sh content/io/liftwizard/liftwizard-2.1.16.buildspec 2.1.17` |
 | <!-- 20240724142220 --> [sigstore-maven-plugin](../content/dev/sigstore/sigstore-maven-plugin/README.md) | [0.4.0](../content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-0.4.0.buildspec) :white_check_mark: | [0.11.0](../content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-0.11.0.buildspec) | `bin/add-new-release.sh content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-0.4.0.buildspec 0.11.0` |
 | <!-- 20240704232838 --> [hk2-parent](../content/org/glassfish/hk2/README.md) | [4.0.0-M2](../content/org/glassfish/hk2/hk2-4.0.0-M2.buildspec) :white_check_mark: | [4.0.0-M3](../content/org/glassfish/hk2/hk2-4.0.0-M3.buildspec) | `bin/add-new-release.sh content/org/glassfish/hk2/hk2-4.0.0-M2.buildspec 4.0.0-M3` |
 <!-- END GENERATED ADD OK -->
@@ -12,7 +11,6 @@ New Releases To Add
 ### Unexpected Diffoscope in Buildspec
 `buildcompare` says `ko=0` but `buildspec` configures a `diffoscope` value in following releases:
 <!-- BEGIN GENERATED UNEXPECTED DIFFOSCOPE -->
-      content/org/apache/shiro/shiro-2.0.1.buildspec
 <!-- END GENERATED UNEXPECTED DIFFOSCOPE -->
 
 ## Apache Release Candidate in Staging
