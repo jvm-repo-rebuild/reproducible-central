@@ -315,8 +315,8 @@ outputs.17.0.checksums.sha512=1bae4388c15f7a9b2945d0a0b71ef29c9f2b74c411fd7574cf
 
 outputs.17.1.groupId=org.apache.shiro
 outputs.17.1.filename=shiro-aspectj-2.0.0-alpha-4.jar
-outputs.17.1.length=13741
-outputs.17.1.checksums.sha512=fac3ca01f29eda04f7ec791e7a282b6f08b4018c5b5e08710fe6ab03f3ce2592c1255fa84f0361debcddcabbf9bf3bd31e17067b88bfe84fda50177f80e67388
+outputs.17.1.length=13747
+outputs.17.1.checksums.sha512=a383db4cfd83ce4b3d9bdfc1e22b357dc84edd3cc0a98d6a26245d10559a015cca0d34e0001600678efba49d57d8a3d9b87b5a8c30f1677b395a99dd2023d081
 
 outputs.17.2.groupId=org.apache.shiro
 outputs.17.2.filename=shiro-aspectj-2.0.0-alpha-4-sources.jar
