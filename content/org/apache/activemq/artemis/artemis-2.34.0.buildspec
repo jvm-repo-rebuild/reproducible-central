@@ -15,5 +15,5 @@ umask=022
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/artemis-project-${version}.buildinfo
 
-diffoscope=artemis-project.diffoscope
+diffoscope=artemis-project-${version}.diffoscope
 issue=
