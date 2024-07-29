@@ -1,0 +1,19 @@
+groupId=org.apache.bcel
+artifactId=bcel
+display=${groupId}:${artifactId}
+version=6.10.0
+
+gitRepo=https://github.com/apache/commons-${artifactId}.git
+gitTag=rel/commons-${artifactId}-${version}
+
+tool=mvn
+jdk=17
+newline=lf
+umask=022
+timezone="Etc/GMT"
+
+command="mvn -Prelease clean package -Dmaven.javadoc.skip -Dgpg.skip -Dspdx.skip -Dcommons.spdx.version=0.7.2 -Dcommons.release.dryRun -Dcommons.release.isDistModule=false"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=

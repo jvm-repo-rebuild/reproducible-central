@@ -1,0 +1,78 @@
+1 / 1 target/reference/org.apache.bcel/bcel-6.10.0-tests.jar target/bcel-6.10.0-tests.jar
+--- target/reference/org.apache.bcel/bcel-6.10.0-tests.jar
++++ target/bcel-6.10.0-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 538327 bytes, number of entries: 351
+│ +Zip file size: 538461 bytes, number of entries: 351
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-13 18:11 META-INF/
+│  -rw-r--r--  2.0 unx     1442 b- defN 24-Jul-13 18:11 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-13 18:11 com/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-13 18:11 com/foo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-13 18:11 com/puppycrawl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-13 18:11 com/puppycrawl/tools/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-13 18:11 com/puppycrawl/tools/checkstyle/
+│ @@ -153,15 +153,15 @@
+│  -rw-r--r--  2.0 unx  6596256 b- defN 24-Jul-13 18:11 org/apache/bcel/data/LargeMethod.class
+│  -rw-r--r--  2.0 unx      472 b- defN 24-Jul-13 18:11 org/apache/bcel/data/MarkedType.class
+│  -rw-r--r--  2.0 unx      314 b- defN 24-Jul-13 18:11 org/apache/bcel/data/MarkerAnnotation.class
+│  -rw-r--r--  2.0 unx      330 b- defN 24-Jul-13 18:11 org/apache/bcel/data/MarkerAnnotationInvisible.class
+│  -rw-r--r--  2.0 unx      808 b- defN 24-Jul-13 18:11 org/apache/bcel/data/PLSETestClass.class
+│  -rw-r--r--  2.0 unx      557 b- defN 24-Jul-13 18:11 org/apache/bcel/data/PLSETestClass2.class
+│  -rw-r--r--  2.0 unx     1104 b- defN 24-Jul-13 18:11 org/apache/bcel/data/PLSETestEnum.class
+│ --rw-r--r--  2.0 unx      781 b- defN 24-Jul-13 18:11 org/apache/bcel/data/SWAP.class
+│ +-rw-r--r--  2.0 unx     1031 b- defN 24-Jul-13 18:11 org/apache/bcel/data/SWAP.class
+│  -rw-r--r--  2.0 unx      424 b- defN 24-Jul-13 18:11 org/apache/bcel/data/SimpleAnnotatedClass.class
+│  -rw-r--r--  2.0 unx      411 b- defN 24-Jul-13 18:11 org/apache/bcel/data/SimpleAnnotation.class
+│  -rw-r--r--  2.0 unx      448 b- defN 24-Jul-13 18:11 org/apache/bcel/data/SimpleClass.class
+│  -rw-r--r--  2.0 unx     1206 b- defN 24-Jul-13 18:11 org/apache/bcel/data/SimpleClassHasMethodIncludeGenericArgument.class
+│  -rw-r--r--  2.0 unx      370 b- defN 24-Jul-13 18:11 org/apache/bcel/data/SimpleClassWithDefaultConstructor.class
+│  -rw-r--r--  2.0 unx     1377 b- defN 24-Jul-13 18:11 org/apache/bcel/data/SimpleEnum.class
+│  -rw-r--r--  2.0 unx     6650 b- defN 24-Jul-13 18:11 org/apache/bcel/generic/AnnotationGenTestCase.class
+│ @@ -346,8 +346,8 @@
+│  -rw-r--r--  2.0 unx       24 b- defN 24-Jul-13 18:11 ossfuzz/issue54119/Test.classx
+│  -rw-r--r--  2.0 unx       42 b- defN 24-Jul-13 18:11 ossfuzz/issue54254/Test.classx
+│  -rw-r--r--  2.0 unx      927 b- defN 24-Jul-13 18:11 ossfuzz/readme.txt
+│  -rw-r--r--  2.0 unx     1506 b- defN 24-Jul-13 18:11 record/SimpleRecord.class
+│  -rw-r--r--  2.0 unx      103 b- defN 24-Jul-13 18:11 record/SimpleRecord.java
+│  -rw-r--r--  2.0 unx    22169 b- defN 24-Jul-13 18:11 META-INF/maven/org.apache.bcel/bcel/pom.xml
+│  -rw-r--r--  2.0 unx       55 b- defN 24-Jul-13 18:11 META-INF/maven/org.apache.bcel/bcel/pom.properties
+│ -351 files, 7877068 bytes uncompressed, 482677 bytes compressed:  93.9%
+│ +351 files, 7877318 bytes uncompressed, 482811 bytes compressed:  93.9%
+├── org/apache/bcel/data/SWAP.class
+│ ├── procyon -ec {}
+│ │ @@ -1,17 +1,31 @@
+│ │  
+│ │  package org.apache.bcel.data;
+│ │  
+│ │  import java.lang.reflect.Constructor;
+│ │  
+│ │  public class SWAP
+│ │  {
+│ │ +    static /* synthetic */ Class class$0;
+│ │ +    
+│ │      public static Constructor getTestConstructor(final Class theClass) throws NoSuchMethodException {
+│ │ -        final Class[] args = { String.class };
+│ │ +        final Class[] array = { null };
+│ │ +        final int n = 0;
+│ │ +        Class class$0;
+│ │ +        if ((class$0 = SWAP.class$0) == null) {
+│ │ +            try {
+│ │ +                class$0 = (SWAP.class$0 = Class.forName("java.lang.String"));
+│ │ +            }
+│ │ +            catch (final ClassNotFoundException ex) {
+│ │ +                throw new NoClassDefFoundError(ex.getMessage());
+│ │ +            }
+│ │ +        }
+│ │ +        array[n] = class$0;
+│ │ +        final Class[] args = array;
+│ │          try {
+│ │              return theClass.getConstructor((Class[])args);
+│ │          }
+│ │ -        catch (final NoSuchMethodException ex) {
+│ │ +        catch (final NoSuchMethodException ex2) {
+│ │              return theClass.getConstructor((Class[])new Class[0]);
+│ │          }
+│ │      }
+│ │  }
+

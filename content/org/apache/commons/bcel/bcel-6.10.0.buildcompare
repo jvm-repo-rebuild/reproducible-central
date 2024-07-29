@@ -1,0 +1,10 @@
+version=6.10.0
+ok=6
+ko=1
+ignored=0
+okFiles="bcel-6.10.0.pom bcel-6.10.0.jar bcel-6.10.0-sources.jar bcel-6.10.0-test-sources.jar bcel-6.10.0-cyclonedx.xml bcel-6.10.0-cyclonedx.json"
+koFiles="bcel-6.10.0-tests.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.bcel/bcel-6.10.0-tests.jar target/bcel-6.10.0-tests.jar
