@@ -237,7 +237,7 @@ rebuilding **6 releases** of org.apache.activemq:artemis-pom:
 | -- | --------- | ------ | -- |
 | [2.36.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.36.0/pom) | | | |
 | [2.35.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.35.0/pom) | | | |
-| [2.34.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.34.0/pom) | [mvn jdk11](artemis-2.34.0.buildspec) | [result](artemis-project-2.34.0.buildinfo): [104 :white_check_mark:  4 :warning:](artemis-project-2.34.0.buildcompare) [:mag:](artemis-project.diffoscope) | 244M |
+| [2.34.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.34.0/pom) | [mvn jdk11](artemis-2.34.0.buildspec) | [result](artemis-project-2.34.0.buildinfo): [104 :white_check_mark:  4 :warning:](artemis-project-2.34.0.buildcompare) [:mag:](artemis-project-2.34.0.diffoscope) | 244M |
 | [2.33.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.33.0/pom) | | | |
 | [2.32.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.32.0/pom) | | | |
 | [2.31.2](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.31.2/pom) | [mvn jdk11](artemis-2.31.2.buildspec) | [result](artemis-pom-2.31.2.buildinfo): [409 :white_check_mark:  3 :warning:](artemis-pom-2.31.2.buildcompare) [:mag:](artemis-pom-2.31.2.diffoscope) | 287M |

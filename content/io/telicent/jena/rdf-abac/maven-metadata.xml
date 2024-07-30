@@ -3,11 +3,12 @@
   <groupId>io.telicent.jena</groupId>
   <artifactId>rdf-abac</artifactId>
   <versioning>
-    <latest>0.71.2</latest>
-    <release>0.71.2</release>
+    <latest>0.71.4</latest>
+    <release>0.71.4</release>
     <versions>
       <version>0.71.2</version>
+      <version>0.71.4</version>
     </versions>
-    <lastUpdated>20240606142702</lastUpdated>
+    <lastUpdated>20240730144153</lastUpdated>
   </versioning>
 </metadata>
