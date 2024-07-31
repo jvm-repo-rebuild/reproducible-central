@@ -9,20 +9,20 @@ Source code: [https://github.com/jskov/openapi-jaxrs-client.git](https://github.
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [dk.mada.jaxrs:generator-api](https://central.sonatype.com/artifact/dk.mada.jaxrs/generator-api/0.11.4)
-* [dk.mada.jaxrs:model](https://central.sonatype.com/artifact/dk.mada.jaxrs/model/0.11.4)
-* [dk.mada.jaxrs:openapi-jaxrs-bom](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-bom/0.11.4)
-* [dk.mada.jaxrs:openapi-jaxrs-client](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-client/0.11.4)
-* [dk.mada.jaxrs:parser](https://central.sonatype.com/artifact/dk.mada.jaxrs/parser/0.11.4)
+* [dk.mada.jaxrs:generator-api](https://central.sonatype.com/artifact/dk.mada.jaxrs/generator-api/0.11.5)
+* [dk.mada.jaxrs:model](https://central.sonatype.com/artifact/dk.mada.jaxrs/model/0.11.5)
+* [dk.mada.jaxrs:openapi-jaxrs-bom](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-bom/0.11.5)
+* [dk.mada.jaxrs:openapi-jaxrs-client](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-client/0.11.5)
+* [dk.mada.jaxrs:parser](https://central.sonatype.com/artifact/dk.mada.jaxrs/parser/0.11.5)
 </details>
 
-rebuilding **3 releases** of dk.mada.jaxrs:openapi-jaxrs-client:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of dk.mada.jaxrs:openapi-jaxrs-client:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.11.5](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-bom/0.11.5/pom) | | | |
+| [0.11.5](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-client/0.11.5/pom) | [gradle jdk21](openapi-jaxrs-client-0.11.5.buildspec) | [result](openapi-jaxrs-client-0.11.5.buildinfo): [18 :white_check_mark: ](openapi-jaxrs-client-0.11.5.buildcompare) | 698K |
 | [0.11.4](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-client/0.11.4/pom) | [gradle jdk21](openapi-jaxrs-client-0.11.4.buildspec) | [result](openapi-jaxrs-client-0.11.4.buildinfo): [14 :white_check_mark:  4 :warning:](openapi-jaxrs-client-0.11.4.buildcompare) [:mag:](openapi-jaxrs-client-0.11.4.diffoscope) | 698K |
 | [0.11.3](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-client/0.11.3/pom) | [gradle jdk21](openapi-jaxrs-client-0.11.3.buildspec) | [result](openapi-jaxrs-client-0.11.3.buildinfo): [14 :white_check_mark:  4 :warning:](openapi-jaxrs-client-0.11.3.buildcompare) [:mag:](openapi-jaxrs-client-0.11.3.diffoscope) | 691K |
 | [0.11.2](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-client/0.11.2/pom) | [gradle jdk21](openapi-jaxrs-client-0.11.2.buildspec) | [result](openapi-jaxrs-client-0.11.2.buildinfo): [18 :white_check_mark: ](openapi-jaxrs-client-0.11.2.buildcompare) | 675K |

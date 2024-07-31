@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **4050 releases** of **681 projects**:
-   - **3225** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **4052 releases** of **681 projects**:
+   - **3227** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 825 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 681 projects, 580 have at least one fully reproducible release, 101 have none
 
@@ -209,7 +209,7 @@ Its objectives are to provide:
 | dev.cdevents | [cdevents-sdk-java](content/dev/cdevents/cdevents-sdk-java/README.md) | 2 | 2 :warning: |
 | dev.notmyfault.serverlib | [ServerLib](content/dev/notmyfault/serverlib/ServerLib/README.md) | 1 | 1 :white_check_mark: |
 | dev.sigstore | [sigstore-maven-plugin](content/dev/sigstore/sigstore-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
-| dk.mada.jaxrs | [openapi-jaxrs-client](content/dk/mada/jaxrs/openapi-jaxrs-client/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
+| dk.mada.jaxrs | [openapi-jaxrs-client](content/dk/mada/jaxrs/openapi-jaxrs-client/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
 | dk.mada.reproducible | [reproducible-gradle](content/dk/mada/reproducible/reproducible-gradle/README.md) | 1 | 1 :white_check_mark: |
 | dk.mada.style | [mada-style-gradle](content/dk/mada/style/mada-style-gradle/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | eu.europa.ec.joinup.sat | [jdplus-nowcasting](content/eu/europa/ec/joinup/sat/jdplus-nowcasting/README.md) | 1 | 1 :white_check_mark: |
@@ -261,7 +261,7 @@ Its objectives are to provide:
 | io.opentelemetry | [opentelemetry-sdk](content/io/opentelemetry/java/README.md) | 3 | 3 :warning: |
 | io.repaint.maven | [tiles-maven-plugin](content/io/repaint/maven/tiles-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
 | io.smallrye | [jandex-parent](content/io/smallrye/jandex/README.md) | 7 | 7 :warning: |
-| io.telicent.jena | [rdf-abac](content/io/telicent/jena/rdf-abac/README.md) | 1 | 1 :white_check_mark: |
+| io.telicent.jena | [rdf-abac](content/io/telicent/jena/rdf-abac/README.md) | 2 | 2 :white_check_mark: |
 | io.wcm | [*.caconfig.editor.parent](content/io/wcm/io.wcm.caconfig/README.md) | 4 | 4 :warning: |
 | | [*.parent_toplevel](content/io/wcm/tooling/README.md) | 18 | 18 :white_check_mark: |
 | | [*.handler.commons](content/io/wcm/io.wcm.handler/commons/README.md) | 1 | 1 :white_check_mark: |
@@ -704,7 +704,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 2 | 2 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 39 | 39 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **681** | **4050** | **3225** :white_check_mark: **825** :warning: |
+| **Count:** | **681** | **4052** | **3227** :white_check_mark: **825** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -718,7 +718,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 gradle     11
      25 gradle     17
       1 gradle     17.0.11
-     13 gradle     21
+     14 gradle     21
      26 mvn         7
    1217 mvn         8
       1 mvn         9
@@ -810,7 +810,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.5  22
      24 mvn-3.9.6   8
       4 mvn-3.9.6  11
-     28 mvn-3.9.6  17
+     29 mvn-3.9.6  17
       1 mvn-3.9.6  17.0.7
      49 mvn-3.9.6  21
      14 mvn-3.9.6  22
