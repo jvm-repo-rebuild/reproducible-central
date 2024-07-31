@@ -164,7 +164,7 @@ mvnBuildDockerAddUserLayer() {
 
   local baseMvnImage="${mvnImage}"
 
-  mvnImage="$(filename ${mvnImage})-${USER_NAME}"
+  mvnImage="$(basename ${mvnImage})-${USER_NAME}"
   local DOCKERFILE="Dockerfile-${mvnImage}"
   (
     cat "${DOCKERFILES_TEMPLATES_DIR}/Dockerfile.localuser.template" | \
