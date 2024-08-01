@@ -9,35 +9,35 @@ Source code: [https://github.com/junit-team/junit5.git](https://github.com/junit
 
 <details><summary>This project defines 20 modules:</summary>
 
-* [org.junit.jupiter:junit-jupiter](https://central.sonatype.com/artifact/org.junit.jupiter/junit-jupiter/5.11.0-M2)
-* [org.junit.jupiter:junit-jupiter-api](https://central.sonatype.com/artifact/org.junit.jupiter/junit-jupiter-api/5.11.0-M2)
-* [org.junit.jupiter:junit-jupiter-engine](https://central.sonatype.com/artifact/org.junit.jupiter/junit-jupiter-engine/5.11.0-M2)
-* [org.junit.jupiter:junit-jupiter-migrationsupport](https://central.sonatype.com/artifact/org.junit.jupiter/junit-jupiter-migrationsupport/5.11.0-M2)
-* [org.junit.jupiter:junit-jupiter-params](https://central.sonatype.com/artifact/org.junit.jupiter/junit-jupiter-params/5.11.0-M2)
-* [org.junit.platform:junit-platform-commons](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-commons/5.11.0-M2)
-* [org.junit.platform:junit-platform-console](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-console/5.11.0-M2)
-* [org.junit.platform:junit-platform-console-standalone](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-console-standalone/5.11.0-M2)
-* [org.junit.platform:junit-platform-engine](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-engine/5.11.0-M2)
-* [org.junit.platform:junit-platform-jfr](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-jfr/5.11.0-M2)
-* [org.junit.platform:junit-platform-launcher](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-launcher/5.11.0-M2)
-* [org.junit.platform:junit-platform-reporting](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-reporting/5.11.0-M2)
-* [org.junit.platform:junit-platform-runner](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-runner/5.11.0-M2)
-* [org.junit.platform:junit-platform-suite](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-suite/5.11.0-M2)
-* [org.junit.platform:junit-platform-suite-api](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-suite-api/5.11.0-M2)
-* [org.junit.platform:junit-platform-suite-commons](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-suite-commons/5.11.0-M2)
-* [org.junit.platform:junit-platform-suite-engine](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-suite-engine/5.11.0-M2)
-* [org.junit.platform:junit-platform-testkit](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-testkit/5.11.0-M2)
-* [org.junit.vintage:junit-vintage-engine](https://central.sonatype.com/artifact/org.junit.vintage/junit-vintage-engine/5.11.0-M2)
-* [org.junit:junit-bom](https://central.sonatype.com/artifact/org.junit/junit-bom/5.11.0-M2)
+* [org.junit.jupiter:junit-jupiter](https://central.sonatype.com/artifact/org.junit.jupiter/junit-jupiter/5.11.0-RC1)
+* [org.junit.jupiter:junit-jupiter-api](https://central.sonatype.com/artifact/org.junit.jupiter/junit-jupiter-api/5.11.0-RC1)
+* [org.junit.jupiter:junit-jupiter-engine](https://central.sonatype.com/artifact/org.junit.jupiter/junit-jupiter-engine/5.11.0-RC1)
+* [org.junit.jupiter:junit-jupiter-migrationsupport](https://central.sonatype.com/artifact/org.junit.jupiter/junit-jupiter-migrationsupport/5.11.0-RC1)
+* [org.junit.jupiter:junit-jupiter-params](https://central.sonatype.com/artifact/org.junit.jupiter/junit-jupiter-params/5.11.0-RC1)
+* [org.junit.platform:junit-platform-commons](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-commons/5.11.0-RC1)
+* [org.junit.platform:junit-platform-console](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-console/5.11.0-RC1)
+* [org.junit.platform:junit-platform-console-standalone](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-console-standalone/5.11.0-RC1)
+* [org.junit.platform:junit-platform-engine](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-engine/5.11.0-RC1)
+* [org.junit.platform:junit-platform-jfr](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-jfr/5.11.0-RC1)
+* [org.junit.platform:junit-platform-launcher](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-launcher/5.11.0-RC1)
+* [org.junit.platform:junit-platform-reporting](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-reporting/5.11.0-RC1)
+* [org.junit.platform:junit-platform-runner](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-runner/5.11.0-RC1)
+* [org.junit.platform:junit-platform-suite](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-suite/5.11.0-RC1)
+* [org.junit.platform:junit-platform-suite-api](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-suite-api/5.11.0-RC1)
+* [org.junit.platform:junit-platform-suite-commons](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-suite-commons/5.11.0-RC1)
+* [org.junit.platform:junit-platform-suite-engine](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-suite-engine/5.11.0-RC1)
+* [org.junit.platform:junit-platform-testkit](https://central.sonatype.com/artifact/org.junit.platform/junit-platform-testkit/5.11.0-RC1)
+* [org.junit.vintage:junit-vintage-engine](https://central.sonatype.com/artifact/org.junit.vintage/junit-vintage-engine/5.11.0-RC1)
+* [org.junit:junit-bom](https://central.sonatype.com/artifact/org.junit/junit-bom/5.11.0-RC1)
 </details>
 
-rebuilding **5 releases** of org.junit:junit-bom:
+rebuilding **6 releases** of org.junit:junit-bom:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [5.11.0-RC1](https://central.sonatype.com/artifact/org.junit/junit-bom/5.11.0-RC1/pom) | | | |
+| [5.11.0-RC1](https://central.sonatype.com/artifact/org.junit/junit-bom/5.11.0-RC1/pom) | [gradle jdk21](junit5-5.11.0-RC1.buildspec) | [result](junit-bom-5.11.0-RC1.buildinfo): [62 :white_check_mark:  16 :warning:](junit-bom-5.11.0-RC1.buildcompare) [:mag:](junit-bom-5.11.0-RC1.diffoscope) | 6.3M |
 | [5.11.0-M2](https://central.sonatype.com/artifact/org.junit/junit-bom/5.11.0-M2/pom) | [gradle jdk21](junit5-5.11.0-M2.buildspec) | [result](junit-bom-5.11.0-M2.buildinfo): [78 :white_check_mark: ](junit-bom-5.11.0-M2.buildcompare) | 6.3M |
 | [5.11.0-M1](https://central.sonatype.com/artifact/org.junit/junit-bom/5.11.0-M1/pom) | [gradle jdk21](junit5-5.11.0-M1.buildspec) | [result](junit-bom-5.11.0-M1.buildinfo): [74 :white_check_mark:  4 :warning:](junit-bom-5.11.0-M1.buildcompare) | 6.1M |
 | [5.10.3](https://central.sonatype.com/artifact/org.junit/junit-bom/5.10.3/pom) | | | |
