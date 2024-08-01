@@ -1,0 +1,43 @@
+# javadoc is sensitive to minor JDK version used
+1 / 16 central/org/junit/jupiter/junit-jupiter-api/5.11.0-RC1/junit-jupiter-api-5.11.0-RC1.module repository/org/junit/jupiter/junit-jupiter-api/5.11.0-RC1/junit-jupiter-api-5.11.0-RC1.module
+--- central/org/junit/jupiter/junit-jupiter-api/5.11.0-RC1/junit-jupiter-api-5.11.0-RC1.module
++++ repository/org/junit/jupiter/junit-jupiter-api/5.11.0-RC1/junit-jupiter-api-5.11.0-RC1.module
+├── Pretty-printed
+│┄ Similarity: 0.9981398809523809%
+│┄ Differences: {"'variants'": "{2: {'files': {0: {'size': 829106, 'sha512': "
+│┄                "'9d2747a47b025612c3a7a7bf6928984a9a66c57ae11ae450b7f9aedf59015286566814bfc7a2109fe74476513c2bdd2ceac4612456c6aabac4ed3f581c81f3ee', "
+│┄                "'sha256': '5280683bf874fa58bbf63b4103778a630f1c74ae4c4cd72be8e2cbfe428832d6', "
+│┄                "'sha1': 'cb6ee380d3b42ae74b22b3bcfaf55c0ba5c76d53', 'md5': "
+│┄                "'b2b85f34089c82532ab6b70d0194e78c'}}}}"}
+│ @@ -126,20 +126,20 @@
+│                  "org.gradle.category": "documentation",
+│                  "org.gradle.dependency.bundling": "external",
+│                  "org.gradle.docstype": "javadoc",
+│                  "org.gradle.usage": "java-runtime"
+│              },
+│              "files": [
+│                  {
+│ -                    "md5": "66219115ef5a06075067c19fcf9c62bb",
+│ +                    "md5": "b2b85f34089c82532ab6b70d0194e78c",
+│                      "name": "junit-jupiter-api-5.11.0-RC1-javadoc.jar",
+│ -                    "sha1": "b5e8f322ff83f4a3337a42f15e608f0f6341fe85",
+│ -                    "sha256": "f00273a277f3dee989c50190479b47062644f27f8e7d3b232cf849d58c299a52",
+│ -                    "sha512": "2b2eaa8e8155e507ed050683d8919520eab7bd41e84092a9edf719783276c36546ae15c98a908144f97883e33bfc17cc3ab1104e4c8bcbf7344b1fdc26e97c40",
+│ -                    "size": 829009,
+│ +                    "sha1": "cb6ee380d3b42ae74b22b3bcfaf55c0ba5c76d53",
+│ +                    "sha256": "5280683bf874fa58bbf63b4103778a630f1c74ae4c4cd72be8e2cbfe428832d6",
+│ +                    "sha512": "9d2747a47b025612c3a7a7bf6928984a9a66c57ae11ae450b7f9aedf59015286566814bfc7a2109fe74476513c2bdd2ceac4612456c6aabac4ed3f581c81f3ee",
+│ +                    "size": 829106,
+│                      "url": "junit-jupiter-api-5.11.0-RC1-javadoc.jar"
+│                  }
+│              ],
+│              "name": "javadocElements"
+│          },
+│          {
+│              "attributes": {
+
+# same issue on every other .module: should we just ignore module files?
+2 / 16 central/org/junit/jupiter/junit-jupiter-engine/5.11.0-RC1/junit-jupiter-engine-5.11.0-RC1.module repository/org/junit/jupiter/junit-jupiter-engine/5.11.0-RC1/junit-jupiter-engine-5.11.0-RC1.module
+3 / 16 central/org/junit/jupiter/junit-jupiter-migrationsupport/5.11.0-RC1/junit-jupiter-migrationsupport-5.11.0-RC1.module repository/org/junit/jupiter/junit-jupiter-migrationsupport/5.11.0-RC1/junit-jupiter-migrationsupport-5.11.0-RC1.module
+4 / 16 central/org/junit/jupiter/junit-jupiter-params/5.11.0-RC1/junit-jupiter-params-5.11.0-RC1.module repository/org/junit/jupiter/junit-jupiter-params/5.11.0-RC1/junit-jupiter-params-5.11.0-RC1.module
+...
