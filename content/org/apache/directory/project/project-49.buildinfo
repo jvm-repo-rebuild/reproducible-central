@@ -1,0 +1,33 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Directory Project
+group-id=org.apache.directory.project
+artifact-id=project
+version=49
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/directory-project.git
+source.scm.tag=49
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.5.4
+
+# output
+
+outputs.0.groupId=org.apache.directory.project
+outputs.0.filename=project-49.pom
+outputs.0.length=39757
+outputs.0.checksums.sha512=0509ad4b5e7aad371226bce2ee6573f62fa2d896f4390bad12596df56c98576519f7b498cc9b212f8e4f0e185f07031f713c4660647f7512877673dcde493d39
+
+outputs.1.groupId=org.apache.directory.project
+outputs.1.filename=project-49-source-release.zip
+outputs.1.length=42047
+outputs.1.checksums.sha512=1c7ca2fa108eceed13e351abe3403952a0e0a9cc923d0c4551b1aac3a8e3faf7492fa8b814217cb5eef6a43daeac3a84a03d0009911cdde94e879177cd365b5d
