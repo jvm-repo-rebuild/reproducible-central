@@ -48,7 +48,7 @@
           </snapshots>
         </repository>
       </repositories>
-      
+
       <pluginRepositories>
         <pluginRepository>
           <id>adobe-public-releases</id>
@@ -63,6 +63,23 @@
           </snapshots>
         </pluginRepository>
       </pluginRepositories>
+    </profile>
+    <profile>
+      <id>jakarta-ee-staging</id>
+      <repositories>
+        <repository>
+          <id>jakarta-ee-staging</id>
+          <url>https://jakarta.oss.sonatype.org/content/repositories/staging/</url>
+          <layout>default</layout>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
     </profile>
   </profiles>
 
@@ -210,6 +227,11 @@
       <id>staged-releases</id>
       <mirrorOf>staged-releases</mirrorOf>
       <url>https://repository.apache.org/content/groups/staging/</url>
+    </mirror>
+    <mirror>
+      <id>jakarta-ee-staging</id>
+      <mirrorOf>jakarta-ee-staging</mirrorOf>
+      <url>https://jakarta.oss.sonatype.org/content/repositories/staging/</url>
     </mirror>
     <mirror>
       <id>default</id>
