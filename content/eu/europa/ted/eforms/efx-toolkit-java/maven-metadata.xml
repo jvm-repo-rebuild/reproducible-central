@@ -3,8 +3,8 @@
   <groupId>eu.europa.ted.eforms</groupId>
   <artifactId>efx-toolkit-java</artifactId>
   <versioning>
-    <latest>2.0.0-alpha.3</latest>
-    <release>2.0.0-alpha.3</release>
+    <latest>2.0.0-alpha.4</latest>
+    <release>2.0.0-alpha.4</release>
     <versions>
       <version>0.1.1</version>
       <version>0.2.0</version>
@@ -19,7 +19,8 @@
       <version>2.0.0-alpha.1</version>
       <version>2.0.0-alpha.2</version>
       <version>2.0.0-alpha.3</version>
+      <version>2.0.0-alpha.4</version>
     </versions>
-    <lastUpdated>20240216102637</lastUpdated>
+    <lastUpdated>20240802102342</lastUpdated>
   </versioning>
 </metadata>
