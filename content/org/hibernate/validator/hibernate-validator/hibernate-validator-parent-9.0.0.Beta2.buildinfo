@@ -1,0 +1,78 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Hibernate Validator Aggregator
+group-id=org.hibernate.validator
+artifact-id=hibernate-validator-parent
+version=9.0.0.Beta2
+
+# source information
+source.scm.uri=scm:git:git://github.com/hibernate/hibernate-validator.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=hibernate-validator-cdi
+
+# aggregated output
+
+outputs.0.coordinates=org.hibernate.validator:hibernate-validator-bom
+
+outputs.0.0.groupId=org.hibernate.validator
+outputs.0.0.filename=hibernate-validator-bom-9.0.0.Beta2.pom
+outputs.0.0.length=5058
+outputs.0.0.checksums.sha512=878dad103a630d602bc6de34979b3a54f798fd6f262013f24af5cb253568288148bdba9f9e89ce3a15b684a0926c40acb32179c7a514e29c3e0aaf9e7e7f34d2
+
+outputs.1.coordinates=org.hibernate.validator:hibernate-validator-test-utils
+
+outputs.1.0.groupId=org.hibernate.validator
+outputs.1.0.filename=hibernate-validator-test-utils-9.0.0.Beta2.pom
+outputs.1.0.length=3652
+outputs.1.0.checksums.sha512=21c92209696324f411e894854ee25f22eef400f1cc3160a41d4d2ecc4f51e4d461084b2db87d3f945fa0c9dc3d5997dee05bd2425c1ccb25ba9b6224eae24486
+
+outputs.1.1.groupId=org.hibernate.validator
+outputs.1.1.filename=hibernate-validator-test-utils-9.0.0.Beta2.jar
+outputs.1.1.length=30365
+outputs.1.1.checksums.sha512=3ad22b368157227696d7e9fe7f38befef5361b3d43d7336f2bf490d812c2e484596b54c863ea28c2b0fa8d7d2ffeec99ecabac63ba5449801603a556266df444
+
+outputs.2.coordinates=org.hibernate.validator:hibernate-validator
+
+outputs.2.0.groupId=org.hibernate.validator
+outputs.2.0.filename=hibernate-validator-9.0.0.Beta2.pom
+outputs.2.0.length=5543
+outputs.2.0.checksums.sha512=1b4b0100cbe0988786e509f07b5f87139e640de5fdbdf107de2fb2384f90a957a82cc0049d64fcdd4bf0d099df87491c38ccc372feb1992a40cdbd669007fd25
+
+outputs.2.1.groupId=org.hibernate.validator
+outputs.2.1.filename=hibernate-validator-9.0.0.Beta2.jar
+outputs.2.1.length=1356182
+outputs.2.1.checksums.sha512=c714c4ece3510590bffc4d8ddd8bba0f885ca2ac93ddb70f3963274319b0f47170fde8b04ffb3b9f4403b4121a6b0fd60cdb0bb8fb5ab040e89101349c18d00f
+
+outputs.3.coordinates=org.hibernate.validator:hibernate-validator-annotation-processor
+
+outputs.3.0.groupId=org.hibernate.validator
+outputs.3.0.filename=hibernate-validator-annotation-processor-9.0.0.Beta2.pom
+outputs.3.0.length=3118
+outputs.3.0.checksums.sha512=20f998b69a0cbbc54e691d0c8791fb20e039d1e0dd788c481f8dd304a6fcbe37e0093cc0c754800915aeebd67fe33476b217a2f342d5e80522b44171ab57c751
+
+outputs.3.1.groupId=org.hibernate.validator
+outputs.3.1.filename=hibernate-validator-annotation-processor-9.0.0.Beta2.jar
+outputs.3.1.length=139097
+outputs.3.1.checksums.sha512=835fcff154fcbeac42446cca7e345c32b8dc1489c09a49cb61904552c6661d0db0e5d17113bc531382297928cf2397b8c0afecfa2d54447e77643c7a36eddea8
+
+outputs.4.coordinates=org.hibernate.validator:hibernate-validator-cdi
+
+outputs.4.0.groupId=org.hibernate.validator
+outputs.4.0.filename=hibernate-validator-cdi-9.0.0.Beta2.pom
+outputs.4.0.length=4861
+outputs.4.0.checksums.sha512=ae50e444dffa24f1f00d7f17bdba88b66c9314980288f0c7cabddba0e36eb7357ba7c170774bbd9ce4f7598802978986b6393a6abc3f89dd93ad60db23b49b03
+
+outputs.4.1.groupId=org.hibernate.validator
+outputs.4.1.filename=hibernate-validator-cdi-9.0.0.Beta2.jar
+outputs.4.1.length=43187
+outputs.4.1.checksums.sha512=b3a28b251d73f35cb04416311d8987573fa2e6b8a5af28b92d4647d7327e7853b98c5201edd44ce4439ea503a63dc64c8c8b191a1906a518173417f3f02ff29b
