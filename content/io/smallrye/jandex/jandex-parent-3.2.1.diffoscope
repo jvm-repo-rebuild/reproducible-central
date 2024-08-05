@@ -1,0 +1,27 @@
+1 /        1 target/reference/io.smallrye/jandex-test-data-3.2.1.jar test-data/target/jandex-test-data-3.2.1.jar
+--- target/reference/io.smallrye/jandex-test-data-3.2.1.jar
++++ test-data/target/jandex-test-data-3.2.1.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│  Zip file size: 73587 bytes, number of entries: 139
+│  -rw----     1.0 fat        0 bx stor 24-Jul-29 10:16 META-INF/
+│ --rw----     2.0 fat      507 bl defN 24-Jul-29 10:17 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      507 bl defN 24-Aug-05 21:40 META-INF/MANIFEST.MF
+│  -rw----     1.0 fat        0 b- stor 24-Jul-29 10:16 test/
+│  -rw----     1.0 fat        0 b- stor 24-Jul-29 10:16 test/exec/
+│  -rw----     1.0 fat        0 b- stor 24-Jul-29 10:16 test/expr/
+│  -rw----     1.0 fat        0 b- stor 24-Jul-29 10:16 META-INF/maven/
+│  -rw----     1.0 fat        0 b- stor 24-Jul-29 10:16 META-INF/maven/io.smallrye/
+│  -rw----     1.0 fat        0 b- stor 24-Jul-29 10:16 META-INF/maven/io.smallrye/jandex-test-data/
+│  -rw----     2.0 fat      917 bl defN 24-Jul-29 10:16 test/BridgeMethods$ArrayWithNullableElementsConsumer.class
+│ @@ -133,9 +133,9 @@
+│  -rw----     2.0 fat      284 bl defN 24-Jul-29 10:16 test/expr/BestValue.class
+│  -rw----     2.0 fat      196 bl defN 24-Jul-29 10:16 test/expr/Expr.class
+│  -rw----     2.0 fat      522 bl defN 24-Jul-29 10:16 test/expr/Mul.class
+│  -rw----     2.0 fat      416 bl defN 24-Jul-29 10:16 test/expr/Value.class
+│  -rw----     2.0 fat     8950 bl defN 24-Jul-29 10:16 META-INF/maven/io.smallrye/jandex-test-data/pom.xml
+│  -rw----     2.0 fat       62 bl defN 24-Jul-29 10:16 META-INF/maven/io.smallrye/jandex-test-data/pom.properties
+│  -rw----     2.0 fat      189 bl defN 24-Jul-29 10:16 META-INF/INDEX.LIST
+│ --rw----     2.0 fat      650 bl defN 24-Jul-29 10:17 module-info.class
+│ +-rw----     2.0 fat      650 bl defN 24-Aug-05 21:40 module-info.class
+│  139 files, 108807 bytes uncompressed, 51757 bytes compressed:  52.4%
