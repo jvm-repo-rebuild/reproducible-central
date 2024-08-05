@@ -13,6 +13,7 @@ rebuilding **11 releases** of org.mybatis:mybatis-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [45](https://central.sonatype.com/artifact/org.mybatis/mybatis-parent/45/pom) | | | |
 | [44](https://central.sonatype.com/artifact/org.mybatis/mybatis-parent/44/pom) | [mvn jdk11 w](mybatis-parent-44.buildspec) | [result](mybatis-parent-44.buildinfo): [2 :white_check_mark: ](mybatis-parent-44.buildcompare) | 51K |
 | [43](https://central.sonatype.com/artifact/org.mybatis/mybatis-parent/43/pom) | [mvn jdk11 w](mybatis-parent-43.buildspec) | [result](mybatis-parent-43.buildinfo): [2 :white_check_mark: ](mybatis-parent-43.buildcompare) | 51K |
 | [42](https://central.sonatype.com/artifact/org.mybatis/mybatis-parent/42/pom) | [mvn jdk11 w](mybatis-parent-42.buildspec) | [result](mybatis-parent-42.buildinfo): [2 :white_check_mark: ](mybatis-parent-42.buildcompare) | 51K |

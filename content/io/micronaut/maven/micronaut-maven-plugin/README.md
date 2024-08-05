@@ -22,6 +22,8 @@ rebuilding **29 releases** of io.micronaut.maven:micronaut-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.6.3](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.6.3/pom) | | | |
+| [4.6.2](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.6.2/pom) | | | |
 | [4.6.1](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.6.1/pom) | [mvn jdk17](micronaut-maven-plugin-4.6.1.buildspec) | [result](micronaut-maven-plugin-parent-4.6.1.buildinfo): [13 :white_check_mark: ](micronaut-maven-plugin-parent-4.6.1.buildcompare) | 345K |
 | [4.6.0](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.6.0/pom) | [mvn jdk17](micronaut-maven-plugin-4.6.0.buildspec) | [result](micronaut-maven-plugin-parent-4.6.0.buildinfo): [13 :white_check_mark: ](micronaut-maven-plugin-parent-4.6.0.buildcompare) | 344K |
 | [4.5.3](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.5.3/pom) | [mvn jdk17](micronaut-maven-plugin-4.5.3.buildspec) | [result](micronaut-maven-plugin-parent-4.5.3.buildinfo): [13 :white_check_mark: ](micronaut-maven-plugin-parent-4.5.3.buildcompare) | 344K |
