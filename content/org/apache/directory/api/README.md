@@ -50,6 +50,7 @@ rebuilding **6 releases** of org.apache.directory.api:api-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.1.7](https://central.sonatype.com/artifact/org.apache.directory.api/api-parent/2.1.7/pom) | | | |
 | [2.1.6](https://central.sonatype.com/artifact/org.apache.directory.api/api-parent/2.1.6/pom) | [mvn jdk8](api-2.1.6.buildspec) | [result](api-parent-2.1.6.buildinfo): [159 :white_check_mark: ](api-parent-2.1.6.buildcompare) | 56M |
 | [2.1.5](https://central.sonatype.com/artifact/org.apache.directory.api/api-parent/2.1.5/pom) | [mvn jdk8](api-2.1.5.buildspec) | [result](api-parent-2.1.5.buildinfo): [93 :white_check_mark: ](api-parent-2.1.5.buildcompare) | 54M |
 | [2.1.4](https://central.sonatype.com/artifact/org.apache.directory.api/api-parent/2.1.4/pom) | [mvn jdk8](api-2.1.4.buildspec) | [result](api-parent-2.1.4.buildinfo): [93 :white_check_mark: ](api-parent-2.1.4.buildcompare) | 54M |

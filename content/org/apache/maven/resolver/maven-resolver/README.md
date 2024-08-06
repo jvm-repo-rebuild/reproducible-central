@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/maven-resolver.git](https://github.com/apache/maven-resolver.git)
 
-<details><summary>This project defines 29 modules:</summary>
+<details><summary>This project defines 30 modules:</summary>
 
 * [org.apache.maven.resolver:maven-resolver](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0)
 * [org.apache.maven.resolver:maven-resolver-api](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-api/2.0.0)
@@ -16,6 +16,7 @@ Source code: [https://github.com/apache/maven-resolver.git](https://github.com/a
 * [org.apache.maven.resolver:maven-resolver-impl](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-impl/2.0.0)
 * [org.apache.maven.resolver:maven-resolver-named-locks](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks/2.0.0)
 * [org.apache.maven.resolver:maven-resolver-named-locks-hazelcast](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks-hazelcast/2.0.0)
+* [org.apache.maven.resolver:maven-resolver-named-locks-ipc](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks-ipc/2.0.0)
 * [org.apache.maven.resolver:maven-resolver-named-locks-redisson](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks-redisson/2.0.0)
 * [org.apache.maven.resolver:maven-resolver-spi](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-spi/2.0.0)
 * [org.apache.maven.resolver:maven-resolver-supplier](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-supplier/2.0.0)
