@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Exec Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=exec-maven-plugin
+version=3.4.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/exec-maven-plugin.git
+source.scm.tag=3.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=22
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=exec-maven-plugin-3.4.0.pom
+outputs.0.length=13879
+outputs.0.checksums.sha512=2acb301b6925fa3442787f87a8e92bab06f55445a3dd839a8c9d53ff35f2de9e7b7cce860aa76817365d05664782add4b6f7c05fe2a75dcf4ecb12d3b93ef254
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=exec-maven-plugin-3.4.0.jar
+outputs.1.length=85033
+outputs.1.checksums.sha512=bc2c5f2ec728a4ce23b6ec5b6ac8aad2569af56fe2dfc4600261d637404ca8323fbb0a07da8f0b62f1ec9b589c369f1cb3efacc722ed098b21df28755421121c
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=exec-maven-plugin-3.4.0-source-release.zip
+outputs.2.length=365390
+outputs.2.checksums.sha512=8dd7a9047ebd9ffece4ac7899acd0fd521f8f3df660852fd4e566a2ff296684d8f4ae2647d1ae0da96f9191c3974957caf3ee608821190a7cb62594a7ddce3bd
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=exec-maven-plugin-3.4.0-sources.jar
+outputs.3.length=51592
+outputs.3.checksums.sha512=8df802efe5396ad6ac940aa6dda4ad3c70a0147b20779fcc4cb45d2ef97784ded9ca95fb7373a1c4aa837e1a3c2be332f1febe77e365b998862f10f125df1c19
