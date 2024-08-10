@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/commons-compress.git](https://github.com/apache/commons-compress.git)
 
-rebuilding **7 releases** of org.apache.commons:commons-compress:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of org.apache.commons:commons-compress:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.27.0](https://central.sonatype.com/artifact/org.apache.commons/commons-compress/1.27.0/pom) | | | |
+| [1.27.0](https://central.sonatype.com/artifact/org.apache.commons/commons-compress/1.27.0/pom) | [mvn jdk17](commons-compress-1.27.0.buildspec) | [result](commons-compress-1.27.0.buildinfo): [5 :white_check_mark: ](commons-compress-1.27.0.buildcompare) | 235M |
 | [1.26.2](https://central.sonatype.com/artifact/org.apache.commons/commons-compress/1.26.2/pom) | [mvn jdk17](commons-compress-1.26.2.buildspec) | [result](commons-compress-1.26.2.buildinfo): [5 :white_check_mark: ](commons-compress-1.26.2.buildcompare) | 235M |
 | [1.26.1](https://central.sonatype.com/artifact/org.apache.commons/commons-compress/1.26.1/pom) | [mvn jdk21](commons-compress-1.26.1.buildspec) | [result](commons-compress-1.26.1.buildinfo): [5 :white_check_mark: ](commons-compress-1.26.1.buildcompare) | 212M |
 | [1.26.0](https://central.sonatype.com/artifact/org.apache.commons/commons-compress/1.26.0/pom) | [mvn jdk17](commons-compress-1.26.0.buildspec) | [result](commons-compress-1.26.0.buildinfo): [5 :white_check_mark: ](commons-compress-1.26.0.buildcompare) | 211M |
