@@ -29,6 +29,7 @@ rebuilding **1 releases** of org.apache.commons:commons-numbers-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.2](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-parent/1.2/pom) | | | |
 | [1.1](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-parent/1.1/pom) | [mvn jdk8](commons-numbers-1.1.buildspec) | [result](commons-numbers-parent-1.1.buildinfo): [57 :white_check_mark: ](commons-numbers-parent-1.1.buildcompare) | 4.0M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

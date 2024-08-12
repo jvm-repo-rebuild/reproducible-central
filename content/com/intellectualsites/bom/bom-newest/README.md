@@ -20,6 +20,7 @@ rebuilding **4 releases** of com.intellectualsites.bom:bom-newest:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.48](https://central.sonatype.com/artifact/com.intellectualsites.bom/bom-newest/1.48/pom) | | | |
 | [1.47](https://central.sonatype.com/artifact/com.intellectualsites.bom/bom-newest/1.47/pom) | [gradle jdk17](bom-newest-1.47.buildspec) | [result](bom-newest-1.47.buildinfo): [3 :white_check_mark: ](bom-newest-1.47.buildcompare) | 12K |
 | [1.46](https://central.sonatype.com/artifact/com.intellectualsites.bom/bom-newest/1.46/pom) | [gradle jdk17](bom-newest-1.46.buildspec) | [result](bom-newest-1.46.buildinfo): [3 :white_check_mark: ](bom-newest-1.46.buildcompare) | 12K |
 | [1.45](https://central.sonatype.com/artifact/com.intellectualsites.bom/bom-newest/1.45/pom) | [gradle jdk17](bom-newest-1.45.buildspec) | [result](bom-newest-1.45.buildinfo): [3 :white_check_mark: ](bom-newest-1.45.buildcompare) | 12K |

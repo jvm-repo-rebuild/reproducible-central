@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **4090 releases** of **684 projects**:
-   - **3259** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **4091 releases** of **684 projects**:
+   - **3260** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 831 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 684 projects, 584 have at least one fully reproducible release, 100 have none
 
@@ -408,7 +408,7 @@ Its objectives are to provide:
 | | [maven-docck-plugin](content/org/apache/maven/plugins/maven-docck-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [maven-ear-plugin](content/org/apache/maven/plugins/maven-ear-plugin/README.md) | 3 | 3 :white_check_mark: |
 | | [maven-ejb-plugin](content/org/apache/maven/plugins/maven-ejb-plugin/README.md) | 2 | 2 :white_check_mark: |
-| | [maven-gpg-plugin](content/org/apache/maven/plugins/maven-gpg-plugin/README.md) | 7 | 5 :white_check_mark: / 2 :warning: |
+| | [maven-gpg-plugin](content/org/apache/maven/plugins/maven-gpg-plugin/README.md) | 8 | 6 :white_check_mark: / 2 :warning: |
 | | [maven-help-plugin](content/org/apache/maven/plugins/maven-help-plugin/README.md) | 3 | 3 :white_check_mark: |
 | | [maven-install-plugin](content/org/apache/maven/plugins/maven-install-plugin/README.md) | 6 | 6 :white_check_mark: |
 | | [maven-invoker-plugin](content/org/apache/maven/plugins/maven-invoker-plugin/README.md) | 8 | 8 :white_check_mark: |
@@ -707,7 +707,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 2 | 2 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 39 | 39 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **684** | **4090** | **3259** :white_check_mark: **831** :warning: |
+| **Count:** | **684** | **4091** | **3260** :white_check_mark: **831** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -743,7 +743,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn        18
      31 mvn        19
      15 mvn        20
-    138 mvn        21
+    139 mvn        21
       9 mvn        22
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11
