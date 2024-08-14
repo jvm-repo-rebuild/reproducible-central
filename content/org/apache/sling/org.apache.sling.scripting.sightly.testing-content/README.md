@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.apache.sling:org.apache.sling.scripting.sightly
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.34-1.4.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.scripting.sightly.testing-content/1.0.34-1.4.0/pom) | | | |
 | [1.0.32-1.4.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.scripting.sightly.testing-content/1.0.32-1.4.0/pom) | [mvn jdk11](org.apache.sling.scripting.sightly.testing-content-1.0.32-1.4.0.buildspec) | [result](org.apache.sling.scripting.sightly.testing-content-1.0.32-1.4.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.scripting.sightly.testing-content-1.0.32-1.4.0.buildcompare) | 641K |
 | [1.0.30-1.4.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.scripting.sightly.testing-content/1.0.30-1.4.0/pom) | [mvn jdk11](org.apache.sling.scripting.sightly.testing-content-1.0.30-1.4.0.buildspec) | [result](org.apache.sling.scripting.sightly.testing-content-1.0.30-1.4.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.scripting.sightly.testing-content-1.0.30-1.4.0.buildcompare) | 630K |
 
