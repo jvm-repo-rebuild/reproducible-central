@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Scripting HTL Testing Content
+group-id=org.apache.sling
+artifact-id=org.apache.sling.scripting.sightly.testing-content
+version=1.0.34-1.4.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-scripting-sightly-testing-content.git
+source.scm.tag=org.apache.sling.scripting.sightly.testing-content-1.0.34-1.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.scripting.sightly.testing-content-1.0.34-1.4.0.pom
+outputs.0.length=10410
+outputs.0.checksums.sha512=6dd53484f6b75f7ebffa0ff91c93e378c20c45ad739fb0560c0623056d5778033945a8922600ce092592271ac809ed950600f0a499e633206adf2bb9870ee285
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.scripting.sightly.testing-content-1.0.34-1.4.0.jar
+outputs.1.length=162686
+outputs.1.checksums.sha512=8c6825135bbbf2eaa362290356fd17f085f940affdded265fc4f02a39fa0e0270ea3f04c69af74bde6260e9d58ce3cbdc80483e764297ac0694afc06c840d42a
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.scripting.sightly.testing-content-1.0.34-1.4.0-source-release.zip
+outputs.2.length=158854
+outputs.2.checksums.sha512=079232e6ed65abcc04c7fce425c49307fd59b25450ec96aa1923f3bdda4e90541150d6b899b88272e13f471abf1f761b211e3fb61f88eb40eeda782619eb953f
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.scripting.sightly.testing-content-1.0.34-1.4.0-sources.jar
+outputs.3.length=163848
+outputs.3.checksums.sha512=1c3676cfc94223d6ffebeef358728049c45888c88d7440471ae7b95f6bb6434884eb6ba28d5d504bb2ed4802759081434df7d8c7e1391689c68b1dc740ff8c1f
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.scripting.sightly.testing-content-1.0.34-1.4.0-sources.jar
+outputs.4.length=163848
+outputs.4.checksums.sha512=1c3676cfc94223d6ffebeef358728049c45888c88d7440471ae7b95f6bb6434884eb6ba28d5d504bb2ed4802759081434df7d8c7e1391689c68b1dc740ff8c1f
