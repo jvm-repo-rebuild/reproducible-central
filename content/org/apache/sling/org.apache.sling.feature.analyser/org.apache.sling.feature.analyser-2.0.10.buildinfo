@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Feature Model Analyser
+group-id=org.apache.sling
+artifact-id=org.apache.sling.feature.analyser
+version=2.0.10
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-feature-analyser.git
+source.scm.tag=org.apache.sling.feature.analyser-2.0.10
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.feature.analyser-2.0.10.pom
+outputs.0.length=9350
+outputs.0.checksums.sha512=6cc9996c999e8b1a23e21795c498a216469b7ede1a4e87a8e17e92d9c56c46fc64ea61bcf67cb5982a4b445ffb9f4691d1ebe5ac071838bb16087bfcdd4dcbbd
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.feature.analyser-2.0.10.jar
+outputs.1.length=214816
+outputs.1.checksums.sha512=6958f791809f82e8d76aab7af9498e20d3e24b09b5917af3d0af4f40b3a7a056c2168d6b2147b39afa84c60246728439923eb2a1806d6089ed406330671a8484
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.feature.analyser-2.0.10-source-release.zip
+outputs.2.length=246422
+outputs.2.checksums.sha512=aac3dcb0750168f3f1f57a512a8989fc8c17a4d0a4fb1d38a8347bede09e6aed37f3a3e469894cf3d74aa6fcfe867cba10c46abc147bf3cb784e3194224ea42e
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.feature.analyser-2.0.10-sources.jar
+outputs.3.length=100939
+outputs.3.checksums.sha512=5898cc3d38f35a44bb2bb03a9ec97b46cf2c8b8411282e63826ed8e77278f3b8d8bed248d5a0ddc3b8ba38aa3214c8ff7b3eb440d4075a46bfbc65e07c008603
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.feature.analyser-2.0.10-sources.jar
+outputs.4.length=100939
+outputs.4.checksums.sha512=5898cc3d38f35a44bb2bb03a9ec97b46cf2c8b8411282e63826ed8e77278f3b8d8bed248d5a0ddc3b8ba38aa3214c8ff7b3eb440d4075a46bfbc65e07c008603
+
+outputs.5.groupId=org.apache.sling
+outputs.5.filename=org.apache.sling.feature.analyser-2.0.10-sources.jar
+outputs.5.length=100939
+outputs.5.checksums.sha512=5898cc3d38f35a44bb2bb03a9ec97b46cf2c8b8411282e63826ed8e77278f3b8d8bed248d5a0ddc3b8ba38aa3214c8ff7b3eb440d4075a46bfbc65e07c008603
