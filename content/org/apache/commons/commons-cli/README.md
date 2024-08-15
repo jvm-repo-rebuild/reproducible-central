@@ -13,6 +13,7 @@ rebuilding **1 releases** of commons-cli:commons-cli:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.9.0](https://central.sonatype.com/artifact/commons-cli/commons-cli/1.9.0/pom) | | | |
 | [1.8.0](https://central.sonatype.com/artifact/commons-cli/commons-cli/1.8.0/pom) | [mvn jdk17](commons-cli-1.8.0.buildspec) | [result](commons-cli-1.8.0.buildinfo): [6 :white_check_mark:  1 :warning:](commons-cli-1.8.0.buildcompare) [:mag:](commons-cli-1.8.0.diffoscope) | 362K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
