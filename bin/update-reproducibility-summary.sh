@@ -5,6 +5,14 @@ echo "*** running script: $0"
 export LC_ALL=C
 [ -d tmp ] || mkdir tmp
 
+tac="tac"
+numfmt="numfmt"
+if [ "$(uname -s)" ==  "Darwin" ]
+then
+  tac="tail -r"
+  numfmt="gnumfmt"
+fi
+
 globalVersion=0
 globalVersionOk=0
 countGa=0
@@ -69,7 +77,7 @@ do
   done
   newestBuildspecVersion=
   highestVersion=
-  for version in $(tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
+  for version in $($tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
   do
     [ -z "$highestVersion" ] && keepVersion $dir $version && highestVersion=$version
     if [ -n "$(ls $dir | grep "\-${version}\.buildspec")" ]
@@ -86,13 +94,15 @@ do
   #
   projectReadme="${dir}/README.md"
   \rm -f ${projectReadme}
+  projectBadge="${dir}/badge.json"
+  \rm -f ${projectBadge}
   mkdir -p tmp/${dir}
   echo -n > tmp/${projectReadme}
 
   countVersion=0
   countVersionOk=0
 
-  for version in $(tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
+  for version in $($tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
   do
     # report only on non-ignored versions
     keepVersion $dir $version || continue
@@ -117,7 +127,7 @@ do
         echo >> ${projectReadme}
         echo "[![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)" >> ${projectReadme}
         echo >> ${projectReadme}
-        echo "## Project: [$groupId:$artifactId](https://central.sonatype.com/artifact/${groupId}/${artifactId}/versions)" >> ${projectReadme}
+        echo "## Project: [$groupId:$artifactId](https://central.sonatype.com/artifact/${groupId}/${artifactId}/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/$projectBadge)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/$projectReadme)" >> ${projectReadme}
         echo >> ${projectReadme}
         echo "Source code: [$gitRepo]($gitRepo)" >> ${projectReadme}
         echo >> ${projectReadme}
@@ -161,7 +171,7 @@ do
         # detect unexpected issue or diffoscope but 0 non-reproducible artifact (probably cause by previous buildspec copy)
         [[ -z "${issue}" ]] && [[ -n "${diffoscope}" ]] && issue="${diffoscope}"
         [[ -n "${issue}" ]] && [ "${ko}" -eq 0 ] && echo "      $dir/$buildspec" >> tmp/unexpected-diffoscope.txt
-        row+=" | $(grep length= ${dir}/${_buildinfo} | cut -d = -f 2 | paste -sd+ - | bc | numfmt --to=iec) |"
+        row+=" | $(grep length= ${dir}/${_buildinfo} | cut -d = -f 2 | paste -sd+ - | bc | $numfmt --to=iec) |"
         echo "$row" >> tmp/${projectReadme}
       else
         echo "$row:x: | |" >> tmp/${projectReadme}
@@ -173,6 +183,34 @@ do
     # don't continue if it's the oldest version with buildspec
     [[ "$oldestBuildspecVersion" == "$version" ]] && break
   done
+
+  # generate badge.json: https://shields.io/badges/endpoint-badge
+  # to be used as https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/...path to project directory.../badge.json
+  buildspec=$(ls $dir | grep "\-${newestBuildspecVersion}\.buildspec")
+  buildcompare=$(ls $dir | grep "\-${newestBuildspecVersion}\.buildcompare")
+  badgeColor="red"
+  badgeMessage="X"
+  . $dir/${buildspec}
+  if [ -f "${dir}/${buildcompare}" ]
+  then
+    . "${dir}/${buildcompare}"
+    badgeMessage="${ok}/$(($ok + $ko))"
+    if [ "${ko}" -eq 0 ]
+    then
+      badgeColor="green"
+    elif [ "${ko}" -lt "${ok}" ]
+    then
+      badgeColor="yellow"
+    else
+      badgeColor="red"
+    fi
+  fi
+  echo "{ \"schemaVersion\": 1,
+  \"label\": \"Reproducible Builds\",
+  \"labelColor\": \"1e5b96\",
+  \"message\": \"${badgeMessage}\",
+  \"color\": \"${badgeColor}\",
+  \"isError\": \"true\" }" > ${projectBadge}
 
   echo "rebuilding **${countVersion} releases** of ${groupId}:${artifactId}:" >> ${projectReadme}
   echo "- **${countVersionOk}** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:)," >> ${projectReadme}

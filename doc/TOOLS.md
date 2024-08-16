@@ -63,10 +63,10 @@ between the reference file from Central Repository and the effective rebuild fil
 
 
 
-### 4) Add Reproducible Builds Badge to a Project With Reproducible Releases
+### 4) Add Reproducible Builds Badge to a Project
 
-If a project has listed here at least one release with proven reproducibility success, it can add a badge like ![Reproducible Builds](https://img.shields.io/badge/Reproducible_Builds-ok-success?labelColor=1e5b96) pointing to its `README.md` here:
+Once a project is listed here, a badge endpoint is provided to display proven reproducibility success level: it provides a badge like ![Reproducible Builds](https://img.shields.io/badge/Reproducible_Builds-5/5-success?labelColor=1e5b96) pointing to its `README.md`:
 
 ```
-[![Reproducible Builds](https://img.shields.io/badge/Reproducible_Builds-ok-success?labelColor=1e5b96)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/...path to project directory.../README.md)
+[![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/...path to project directory.../badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/...path to project directory.../README.md)
 ```
