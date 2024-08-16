@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.accumulo:accumulo](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/versions)
+## Project: [org.apache.accumulo:accumulo](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/accumulo/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/accumulo/README.md)
 
 Source code: [https://github.com/apache/accumulo.git](https://github.com/apache/accumulo.git)
 

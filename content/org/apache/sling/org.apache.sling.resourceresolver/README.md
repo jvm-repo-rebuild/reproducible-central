@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.resourceresolver](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/versions)
+## Project: [org.apache.sling:org.apache.sling.resourceresolver](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/sling/org.apache.sling.resourceresolver/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/sling/org.apache.sling.resourceresolver/README.md)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-resourceresolver.git](https://github.com/apache/sling-org-apache-sling-resourceresolver.git)
 

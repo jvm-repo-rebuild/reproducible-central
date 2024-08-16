@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.fasterxml.uuid:java-uuid-generator](https://central.sonatype.com/artifact/com.fasterxml.uuid/java-uuid-generator/versions)
+## Project: [com.fasterxml.uuid:java-uuid-generator](https://central.sonatype.com/artifact/com.fasterxml.uuid/java-uuid-generator/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/fasterxml/uuid/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/fasterxml/uuid/README.md)
 
 Source code: [https://github.com/cowtowncoder/java-uuid-generator.git](https://github.com/cowtowncoder/java-uuid-generator.git)
 

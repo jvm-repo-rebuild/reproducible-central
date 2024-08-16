@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.alluxio:alluxio-parent](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/versions)
+## Project: [org.alluxio:alluxio-parent](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/alluxio/alluxio/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/alluxio/alluxio/README.md)
 
 Source code: [https://github.com/alluxio/alluxio.git](https://github.com/alluxio/alluxio.git)
 

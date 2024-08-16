@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.corgibytes:versions-maven-plugin](https://central.sonatype.com/artifact/com.corgibytes/versions-maven-plugin/versions)
+## Project: [com.corgibytes:versions-maven-plugin](https://central.sonatype.com/artifact/com.corgibytes/versions-maven-plugin/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/corgibytes/versions-maven-plugin/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/corgibytes/versions-maven-plugin/README.md)
 
 Source code: [https://github.com/corgibytes/versions-maven-plugin](https://github.com/corgibytes/versions-maven-plugin)
 

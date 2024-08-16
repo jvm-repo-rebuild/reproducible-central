@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.jpmml:jpmml-evaluator](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/versions)
+## Project: [org.jpmml:jpmml-evaluator](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/jpmml/jpmml-evaluator/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/jpmml/jpmml-evaluator/README.md)
 
 Source code: [https://github.com/jpmml/jpmml-evaluator.git](https://github.com/jpmml/jpmml-evaluator.git)
 

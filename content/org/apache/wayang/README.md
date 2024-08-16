@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.wayang:wayang](https://central.sonatype.com/artifact/org.apache.wayang/wayang/versions)
+## Project: [org.apache.wayang:wayang](https://central.sonatype.com/artifact/org.apache.wayang/wayang/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/wayang/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/wayang/README.md)
 
 Source code: [https://github.com/apache/incubator-wayang.git](https://github.com/apache/incubator-wayang.git)
 

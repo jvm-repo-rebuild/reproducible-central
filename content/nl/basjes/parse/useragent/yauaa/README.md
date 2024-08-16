@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [nl.basjes.parse.useragent:yauaa](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/versions)
+## Project: [nl.basjes.parse.useragent:yauaa](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/nl/basjes/parse/useragent/yauaa/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/nl/basjes/parse/useragent/yauaa/README.md)
 
 Source code: [https://github.com/nielsbasjes/yauaa.git](https://github.com/nielsbasjes/yauaa.git)
 

@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache:jdo](https://central.sonatype.com/artifact/org.apache/jdo/versions)
+## Project: [org.apache:jdo](https://central.sonatype.com/artifact/org.apache/jdo/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/jdo/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/jdo/README.md)
 
 Source code: [https://github.com/apache/db-jdo.git](https://github.com/apache/db-jdo.git)
 
@@ -14,7 +14,7 @@ Source code: [https://github.com/apache/db-jdo.git](https://github.com/apache/db
 * [org.apache:jdo](https://central.sonatype.com/artifact/org.apache/jdo/3.2.1)
 </details>
 
-rebuilding **2 releases** of org.apache.jdo:jdo:
+rebuilding **2 releases** of org.apache:jdo:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 

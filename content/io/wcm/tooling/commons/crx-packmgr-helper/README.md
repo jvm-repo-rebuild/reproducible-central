@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.wcm.tooling.commons:io.wcm.tooling.commons.crx-packmgr-helper](https://central.sonatype.com/artifact/io.wcm.tooling.commons/io.wcm.tooling.commons.crx-packmgr-helper/versions)
+## Project: [io.wcm.tooling.commons:io.wcm.tooling.commons.crx-packmgr-helper](https://central.sonatype.com/artifact/io.wcm.tooling.commons/io.wcm.tooling.commons.crx-packmgr-helper/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/io/wcm/tooling/commons/crx-packmgr-helper/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/wcm/tooling/commons/crx-packmgr-helper/README.md)
 
 Source code: [https://github.com/wcm-io/io.wcm.tooling.commons.crx-packmgr-helper.git](https://github.com/wcm-io/io.wcm.tooling.commons.crx-packmgr-helper.git)
 

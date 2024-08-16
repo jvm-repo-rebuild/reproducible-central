@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.github.derkrischan:jpdftest](https://central.sonatype.com/artifact/io.github.derkrischan/jpdftest/versions)
+## Project: [io.github.derkrischan:jpdftest](https://central.sonatype.com/artifact/io.github.derkrischan/jpdftest/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/io/github/derkrischan/jpdftest/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/github/derkrischan/jpdftest/README.md)
 
 Source code: [https://github.com/derKrischan/jpdftest.git](https://github.com/derKrischan/jpdftest.git)
 

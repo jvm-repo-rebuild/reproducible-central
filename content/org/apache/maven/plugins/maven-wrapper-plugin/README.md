@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.wrapper:maven-wrapper](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper/versions)
+## Project: [org.apache.maven.wrapper:maven-wrapper](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/maven/plugins/maven-wrapper-plugin/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/maven/plugins/maven-wrapper-plugin/README.md)
 
 Source code: [https://github.com/apache/maven-wrapper.git](https://github.com/apache/maven-wrapper.git)
 
@@ -15,7 +15,7 @@ Source code: [https://github.com/apache/maven-wrapper.git](https://github.com/ap
 * [org.apache.maven.wrapper:maven-wrapper-parent](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper-parent/3.3.2)
 </details>
 
-rebuilding **8 releases** of org.apache.maven.plugins:maven-wrapper-plugin:
+rebuilding **8 releases** of org.apache.maven.wrapper:maven-wrapper:
 - **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 

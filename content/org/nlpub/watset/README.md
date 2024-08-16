@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.nlpub:watset](https://central.sonatype.com/artifact/org.nlpub/watset/versions)
+## Project: [org.nlpub:watset](https://central.sonatype.com/artifact/org.nlpub/watset/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/nlpub/watset/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/nlpub/watset/README.md)
 
 Source code: [https://github.com/nlpub/watset-java](https://github.com/nlpub/watset-java)
 

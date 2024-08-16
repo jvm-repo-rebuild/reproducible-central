@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.owasp.antisamy:antisamy](https://central.sonatype.com/artifact/org.owasp.antisamy/antisamy/versions)
+## Project: [org.owasp.antisamy:antisamy](https://central.sonatype.com/artifact/org.owasp.antisamy/antisamy/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/owasp/antisamy/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/owasp/antisamy/README.md)
 
 Source code: [https://github.com/nahsra/antisamy.git](https://github.com/nahsra/antisamy.git)
 

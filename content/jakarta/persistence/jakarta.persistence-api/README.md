@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [jakarta.persistence:jakarta.persistence-api](https://central.sonatype.com/artifact/jakarta.persistence/jakarta.persistence-api/versions)
+## Project: [jakarta.persistence:jakarta.persistence-api](https://central.sonatype.com/artifact/jakarta.persistence/jakarta.persistence-api/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/jakarta/persistence/jakarta.persistence-api/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/jakarta/persistence/jakarta.persistence-api/README.md)
 
 Source code: [https://github.com/jakartaee/persistence.git](https://github.com/jakartaee/persistence.git)
 

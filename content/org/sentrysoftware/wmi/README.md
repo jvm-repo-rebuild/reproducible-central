@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.sentrysoftware:wmi](https://central.sonatype.com/artifact/org.sentrysoftware/wmi/versions)
+## Project: [org.sentrysoftware:wmi](https://central.sonatype.com/artifact/org.sentrysoftware/wmi/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/sentrysoftware/wmi/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/sentrysoftware/wmi/README.md)
 
 Source code: [https://github.com/sentrysoftware/wmi.git](https://github.com/sentrysoftware/wmi.git)
 

@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.cxf.fediz:fediz](https://central.sonatype.com/artifact/org.apache.cxf.fediz/fediz/versions)
+## Project: [org.apache.cxf.fediz:fediz](https://central.sonatype.com/artifact/org.apache.cxf.fediz/fediz/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/cxf/fediz/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/cxf/fediz/README.md)
 
 Source code: [https://github.com/apache/cxf-fediz.git](https://github.com/apache/cxf-fediz.git)
 

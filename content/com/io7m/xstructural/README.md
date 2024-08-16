@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.xstructural:com.io7m.xstructural](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/versions)
+## Project: [com.io7m.xstructural:com.io7m.xstructural](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/io7m/xstructural/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/io7m/xstructural/README.md)
 
 Source code: [https://github.com/io7m/xstructural.git](https://github.com/io7m/xstructural.git)
 

@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.jstach.pistachio:pistachio-maven-parent](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-maven-parent/versions)
+## Project: [io.jstach.pistachio:pistachio-maven-parent](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-maven-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/io/jstach/pistachio/pistachio-maven-parent/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/jstach/pistachio/pistachio-maven-parent/README.md)
 
 Source code: [https://github.com/jstachio/pistachio.git](https://github.com/jstachio/pistachio.git)
 

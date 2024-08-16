@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.dropwizard.metrics:metrics-parent](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/versions)
+## Project: [io.dropwizard.metrics:metrics-parent](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/io/dropwizard/metrics/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/dropwizard/metrics/README.md)
 
 Source code: [https://github.com/dropwizard/metrics.git](https://github.com/dropwizard/metrics.git)
 

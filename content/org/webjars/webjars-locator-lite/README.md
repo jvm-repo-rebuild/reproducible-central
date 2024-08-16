@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.webjars:webjars-locator-lite](https://central.sonatype.com/artifact/org.webjars/webjars-locator-lite/versions)
+## Project: [org.webjars:webjars-locator-lite](https://central.sonatype.com/artifact/org.webjars/webjars-locator-lite/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/webjars/webjars-locator-lite/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/webjars/webjars-locator-lite/README.md)
 
 Source code: [https://github.com/webjars/webjars-locator-lite.git](https://github.com/webjars/webjars-locator-lite.git)
 

@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.webjars:jszip](https://central.sonatype.com/artifact/org.webjars/jszip/versions)
+## Project: [org.webjars:jszip](https://central.sonatype.com/artifact/org.webjars/jszip/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/webjars/jszip/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/webjars/jszip/README.md)
 
 Source code: [https://github.com/webjars/jszip.git](https://github.com/webjars/jszip.git)
 

@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.webjars:angularjs](https://central.sonatype.com/artifact/org.webjars/angularjs/versions)
+## Project: [org.webjars:angularjs](https://central.sonatype.com/artifact/org.webjars/angularjs/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/webjars/angularjs/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/webjars/angularjs/README.md)
 
 Source code: [https://github.com/webjars/angularjs.git](https://github.com/webjars/angularjs.git)
 

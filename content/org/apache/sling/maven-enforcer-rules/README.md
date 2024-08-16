@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:maven-enforcer-rules](https://central.sonatype.com/artifact/org.apache.sling/maven-enforcer-rules/versions)
+## Project: [org.apache.sling:maven-enforcer-rules](https://central.sonatype.com/artifact/org.apache.sling/maven-enforcer-rules/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/sling/maven-enforcer-rules/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/sling/maven-enforcer-rules/README.md)
 
 Source code: [https://github.com/apache/sling-maven-enforcer-rules.git](https://github.com/apache/sling-maven-enforcer-rules.git)
 

@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.repetoir:com.io7m.repetoir](https://central.sonatype.com/artifact/com.io7m.repetoir/com.io7m.repetoir/versions)
+## Project: [com.io7m.repetoir:com.io7m.repetoir](https://central.sonatype.com/artifact/com.io7m.repetoir/com.io7m.repetoir/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/io7m/repetoir/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/io7m/repetoir/README.md)
 
 Source code: [https://github.com/io7m/repetoir.git](https://github.com/io7m/repetoir.git)
 

@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.jrivard.xmlchai:xmlchai](https://central.sonatype.com/artifact/org.jrivard.xmlchai/xmlchai/versions)
+## Project: [org.jrivard.xmlchai:xmlchai](https://central.sonatype.com/artifact/org.jrivard.xmlchai/xmlchai/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/jrivard/xmlchai/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/jrivard/xmlchai/README.md)
 
 Source code: [https://github.com/jrivard/chaixml](https://github.com/jrivard/chaixml)
 

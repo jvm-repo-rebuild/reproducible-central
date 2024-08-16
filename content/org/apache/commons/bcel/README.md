@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.bcel:bcel](https://central.sonatype.com/artifact/org.apache.bcel/bcel/versions)
+## Project: [org.apache.bcel:bcel](https://central.sonatype.com/artifact/org.apache.bcel/bcel/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/commons/bcel/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/commons/bcel/README.md)
 
 Source code: [https://github.com/apache/commons-bcel.git](https://github.com/apache/commons-bcel.git)
 

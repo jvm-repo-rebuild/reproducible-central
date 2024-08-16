@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.resolver:maven-resolver-ant-tasks](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-ant-tasks/versions)
+## Project: [org.apache.maven.resolver:maven-resolver-ant-tasks](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-ant-tasks/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/maven/resolver/maven-resolver-ant-tasks/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/maven/resolver/maven-resolver-ant-tasks/README.md)
 
 Source code: [https://github.com/apache/maven-resolver-ant-tasks.git](https://github.com/apache/maven-resolver-ant-tasks.git)
 

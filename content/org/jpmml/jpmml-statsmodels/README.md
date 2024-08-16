@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.jpmml:jpmml-statsmodels](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/versions)
+## Project: [org.jpmml:jpmml-statsmodels](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/jpmml/jpmml-statsmodels/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/jpmml/jpmml-statsmodels/README.md)
 
 Source code: [https://github.com/jpmml/jpmml-statsmodels.git](https://github.com/jpmml/jpmml-statsmodels.git)
 

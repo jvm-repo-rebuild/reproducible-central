@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.cucumber:html-formatter](https://central.sonatype.com/artifact/io.cucumber/html-formatter/versions)
+## Project: [io.cucumber:html-formatter](https://central.sonatype.com/artifact/io.cucumber/html-formatter/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/io/cucumber/html-formatter/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/cucumber/html-formatter/README.md)
 
 Source code: [https://github.com/cucumber/html-formatter.git](https://github.com/cucumber/html-formatter.git)
 

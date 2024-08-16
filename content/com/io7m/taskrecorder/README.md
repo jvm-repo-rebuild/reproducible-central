@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.taskrecorder:com.io7m.taskrecorder](https://central.sonatype.com/artifact/com.io7m.taskrecorder/com.io7m.taskrecorder/versions)
+## Project: [com.io7m.taskrecorder:com.io7m.taskrecorder](https://central.sonatype.com/artifact/com.io7m.taskrecorder/com.io7m.taskrecorder/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/io7m/taskrecorder/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/io7m/taskrecorder/README.md)
 
 Source code: [https://github.com/io7m/taskrecorder.git](https://github.com/io7m/taskrecorder.git)
 

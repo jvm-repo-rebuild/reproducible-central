@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.veithen.phos:phos](https://central.sonatype.com/artifact/com.github.veithen.phos/phos/versions)
+## Project: [com.github.veithen.phos:phos](https://central.sonatype.com/artifact/com.github.veithen.phos/phos/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/github/veithen/phos/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/github/veithen/phos/README.md)
 
 Source code: [https://github.com/veithen/phos.git](https://github.com/veithen/phos.git)
 

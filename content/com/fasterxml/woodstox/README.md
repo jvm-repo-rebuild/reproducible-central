@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.fasterxml.woodstox:woodstox-core](https://central.sonatype.com/artifact/com.fasterxml.woodstox/woodstox-core/versions)
+## Project: [com.fasterxml.woodstox:woodstox-core](https://central.sonatype.com/artifact/com.fasterxml.woodstox/woodstox-core/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/fasterxml/woodstox/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/fasterxml/woodstox/README.md)
 
 Source code: [https://github.com/FasterXML/woodstox.git](https://github.com/FasterXML/woodstox.git)
 

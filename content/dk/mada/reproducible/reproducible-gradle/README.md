@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [dk.mada.reproducible:reproducible-gradle](https://central.sonatype.com/artifact/dk.mada.reproducible/reproducible-gradle/versions)
+## Project: [dk.mada.reproducible:reproducible-gradle](https://central.sonatype.com/artifact/dk.mada.reproducible/reproducible-gradle/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/dk/mada/reproducible/reproducible-gradle/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/dk/mada/reproducible/reproducible-gradle/README.md)
 
 Source code: [https://github.com/jskov/reproducible-gradle.git](https://github.com/jskov/reproducible-gradle.git)
 

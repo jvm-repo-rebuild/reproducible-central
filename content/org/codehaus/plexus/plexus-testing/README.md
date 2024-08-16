@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.codehaus.plexus:plexus-testing](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-testing/versions)
+## Project: [org.codehaus.plexus:plexus-testing](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-testing/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/codehaus/plexus/plexus-testing/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/codehaus/plexus/plexus-testing/README.md)
 
 Source code: [https://github.com/codehaus-plexus/plexus-testing.git](https://github.com/codehaus-plexus/plexus-testing.git)
 

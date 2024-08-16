@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.plugins:maven-antrun-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-antrun-plugin/versions)
+## Project: [org.apache.maven.plugins:maven-antrun-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-antrun-plugin/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/maven/plugins/maven-antrun-plugin/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/maven/plugins/maven-antrun-plugin/README.md)
 
 Source code: [https://github.com/apache/maven-antrun-plugin.git](https://github.com/apache/maven-antrun-plugin.git)
 

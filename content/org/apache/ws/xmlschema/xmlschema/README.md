@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.ws.xmlschema:xmlschema](https://central.sonatype.com/artifact/org.apache.ws.xmlschema/xmlschema/versions)
+## Project: [org.apache.ws.xmlschema:xmlschema](https://central.sonatype.com/artifact/org.apache.ws.xmlschema/xmlschema/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/ws/xmlschema/xmlschema/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/ws/xmlschema/xmlschema/README.md)
 
 Source code: [https://gitbox.apache.org/repos/asf/ws-xmlschema.git](https://gitbox.apache.org/repos/asf/ws-xmlschema.git)
 

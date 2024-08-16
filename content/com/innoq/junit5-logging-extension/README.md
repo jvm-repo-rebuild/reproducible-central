@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.innoq:junit5-logging-extension](https://central.sonatype.com/artifact/com.innoq/junit5-logging-extension/versions)
+## Project: [com.innoq:junit5-logging-extension](https://central.sonatype.com/artifact/com.innoq/junit5-logging-extension/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/innoq/junit5-logging-extension/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/innoq/junit5-logging-extension/README.md)
 
 Source code: [https://github.com/innoq/junit5-logging-extension.git](https://github.com/innoq/junit5-logging-extension.git)
 

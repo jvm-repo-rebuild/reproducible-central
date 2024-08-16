@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis:mybatis-cdi](https://central.sonatype.com/artifact/org.mybatis/mybatis-cdi/versions)
+## Project: [org.mybatis:mybatis-cdi](https://central.sonatype.com/artifact/org.mybatis/mybatis-cdi/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/mybatis/cdi/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/mybatis/cdi/README.md)
 
 Source code: [https://github.com/mybatis/cdi.git](https://github.com/mybatis/cdi.git)
 

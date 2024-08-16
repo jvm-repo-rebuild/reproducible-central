@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [pl.com.labaj:auto-record](https://central.sonatype.com/artifact/pl.com.labaj/auto-record/versions)
+## Project: [pl.com.labaj:auto-record](https://central.sonatype.com/artifact/pl.com.labaj/auto-record/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/pl/com/labaj/auto-record/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/pl/com/labaj/auto-record/README.md)
 
 Source code: [https://github.com/pawellabaj/auto-record.git](https://github.com/pawellabaj/auto-record.git)
 

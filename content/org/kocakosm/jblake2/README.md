@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.kocakosm:jblake2](https://central.sonatype.com/artifact/org.kocakosm/jblake2/versions)
+## Project: [org.kocakosm:jblake2](https://central.sonatype.com/artifact/org.kocakosm/jblake2/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/kocakosm/jblake2/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/kocakosm/jblake2/README.md)
 
 Source code: [https://github.com/kocakosm/jblake2.git](https://github.com/kocakosm/jblake2.git)
 

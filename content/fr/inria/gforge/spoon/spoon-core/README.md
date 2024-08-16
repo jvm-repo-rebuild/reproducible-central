@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [fr.inria.gforge.spoon:spoon-core](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/versions)
+## Project: [fr.inria.gforge.spoon:spoon-core](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/fr/inria/gforge/spoon/spoon-core/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/fr/inria/gforge/spoon/spoon-core/README.md)
 
 Source code: [https://github.com/inria/spoon.git](https://github.com/inria/spoon.git)
 

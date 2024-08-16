@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.looseleaf:com.io7m.looseleaf](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/versions)
+## Project: [com.io7m.looseleaf:com.io7m.looseleaf](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/io7m/looseleaf/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/io7m/looseleaf/README.md)
 
 Source code: [https://github.com/io7m/looseleaf.git](https://github.com/io7m/looseleaf.git)
 

@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.jxr:jxr](https://central.sonatype.com/artifact/org.apache.maven.jxr/jxr/versions)
+## Project: [org.apache.maven.jxr:jxr](https://central.sonatype.com/artifact/org.apache.maven.jxr/jxr/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/maven/jxr/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/maven/jxr/README.md)
 
 Source code: [https://github.com/apache/maven-jxr.git](https://github.com/apache/maven-jxr.git)
 

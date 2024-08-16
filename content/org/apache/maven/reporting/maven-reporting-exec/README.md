@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.reporting:maven-reporting-exec](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-exec/versions)
+## Project: [org.apache.maven.reporting:maven-reporting-exec](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-exec/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/maven/reporting/maven-reporting-exec/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/maven/reporting/maven-reporting-exec/README.md)
 
 Source code: [https://github.com/apache/maven-reporting-exec.git](https://github.com/apache/maven-reporting-exec.git)
 

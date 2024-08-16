@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [ch.vorburger.mariaDB4j:mariaDB4j](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j/versions)
+## Project: [ch.vorburger.mariaDB4j:mariaDB4j](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/ch/vorburger/mariaDB4j/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/ch/vorburger/mariaDB4j/README.md)
 
 Source code: [https://github.com/MariaDB4j/MariaDB4j.git](https://github.com/MariaDB4j/MariaDB4j.git)
 

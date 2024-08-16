@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.veithen.maven:eclipse-settings-maven-plugin](https://central.sonatype.com/artifact/com.github.veithen.maven/eclipse-settings-maven-plugin/versions)
+## Project: [com.github.veithen.maven:eclipse-settings-maven-plugin](https://central.sonatype.com/artifact/com.github.veithen.maven/eclipse-settings-maven-plugin/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/github/veithen/maven/eclipse-settings-maven-plugin/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/github/veithen/maven/eclipse-settings-maven-plugin/README.md)
 
 Source code: [https://github.com/veithen/eclipse-settings-maven-plugin.git](https://github.com/veithen/eclipse-settings-maven-plugin.git)
 

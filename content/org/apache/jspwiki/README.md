@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.jspwiki:jspwiki-builder](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/versions)
+## Project: [org.apache.jspwiki:jspwiki-builder](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/jspwiki/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/jspwiki/README.md)
 
 Source code: [https://github.com/apache/jspwiki.git](https://github.com/apache/jspwiki.git)
 

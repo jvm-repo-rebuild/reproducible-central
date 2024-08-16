@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.directory.api:api-parent](https://central.sonatype.com/artifact/org.apache.directory.api/api-parent/versions)
+## Project: [org.apache.directory.api:api-parent](https://central.sonatype.com/artifact/org.apache.directory.api/api-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/directory/api/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/directory/api/README.md)
 
 Source code: [https://github.com/apache/directory-ldap-api.git](https://github.com/apache/directory-ldap-api.git)
 

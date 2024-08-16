@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [fr.vidal.oss:atom-jaxb](https://central.sonatype.com/artifact/fr.vidal.oss/atom-jaxb/versions)
+## Project: [fr.vidal.oss:atom-jaxb](https://central.sonatype.com/artifact/fr.vidal.oss/atom-jaxb/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/fr/vidal/oss/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/fr/vidal/oss/README.md)
 
 Source code: [git@github.com:vidal-community/atom-jaxb.git](git@github.com:vidal-community/atom-jaxb.git)
 

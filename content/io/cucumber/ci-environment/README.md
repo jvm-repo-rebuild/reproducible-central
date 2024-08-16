@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.cucumber:ci-environment](https://central.sonatype.com/artifact/io.cucumber/ci-environment/versions)
+## Project: [io.cucumber:ci-environment](https://central.sonatype.com/artifact/io.cucumber/ci-environment/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/io/cucumber/ci-environment/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/cucumber/ci-environment/README.md)
 
 Source code: [https://github.com/cucumber/ci-environment.git](https://github.com/cucumber/ci-environment.git)
 

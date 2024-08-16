@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.codehaus.mojo:extra-enforcer-rules](https://central.sonatype.com/artifact/org.codehaus.mojo/extra-enforcer-rules/versions)
+## Project: [org.codehaus.mojo:extra-enforcer-rules](https://central.sonatype.com/artifact/org.codehaus.mojo/extra-enforcer-rules/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/codehaus/mojo/extra-enforcer-rules/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/codehaus/mojo/extra-enforcer-rules/README.md)
 
 Source code: [https://github.com/mojohaus/extra-enforcer-rules.git](https://github.com/mojohaus/extra-enforcer-rules.git)
 

@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.kordamp.jarviz:jarviz-core](https://central.sonatype.com/artifact/org.kordamp.jarviz/jarviz-core/versions)
+## Project: [org.kordamp.jarviz:jarviz-core](https://central.sonatype.com/artifact/org.kordamp.jarviz/jarviz-core/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/kordamp/jarviz/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/kordamp/jarviz/README.md)
 
 Source code: [https://github.com/kordamp/jarviz.git](https://github.com/kordamp/jarviz.git)
 

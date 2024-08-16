@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [nl.basjes.maven.release:conventional-commits-version-policy](https://central.sonatype.com/artifact/nl.basjes.maven.release/conventional-commits-version-policy/versions)
+## Project: [nl.basjes.maven.release:conventional-commits-version-policy](https://central.sonatype.com/artifact/nl.basjes.maven.release/conventional-commits-version-policy/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/nl/basjes/maven/release/conventional-commits-version-policy/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/nl/basjes/maven/release/conventional-commits-version-policy/README.md)
 
 Source code: [https://github.com/nielsbasjes/conventional-commits-maven-release.git](https://github.com/nielsbasjes/conventional-commits-maven-release.git)
 

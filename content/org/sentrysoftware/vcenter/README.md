@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.sentrysoftware:vcenter](https://central.sonatype.com/artifact/org.sentrysoftware/vcenter/versions)
+## Project: [org.sentrysoftware:vcenter](https://central.sonatype.com/artifact/org.sentrysoftware/vcenter/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/sentrysoftware/vcenter/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/sentrysoftware/vcenter/README.md)
 
 Source code: [https://github.com/sentrysoftware/vcenter.git](https://github.com/sentrysoftware/vcenter.git)
 

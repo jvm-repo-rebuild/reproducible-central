@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis:mybatis-spring](https://central.sonatype.com/artifact/org.mybatis/mybatis-spring/versions)
+## Project: [org.mybatis:mybatis-spring](https://central.sonatype.com/artifact/org.mybatis/mybatis-spring/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/mybatis/mybatis-spring/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/mybatis/mybatis-spring/README.md)
 
 Source code: [https://github.com/mybatis/spring.git](https://github.com/mybatis/spring.git)
 

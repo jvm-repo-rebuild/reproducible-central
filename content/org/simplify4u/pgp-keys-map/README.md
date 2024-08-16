@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.simplify4u:pgp-keys-map](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/versions)
+## Project: [org.simplify4u:pgp-keys-map](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/simplify4u/pgp-keys-map/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/simplify4u/pgp-keys-map/README.md)
 
 Source code: [git@github.com:s4u/pgp-keys-map.git](git@github.com:s4u/pgp-keys-map.git)
 

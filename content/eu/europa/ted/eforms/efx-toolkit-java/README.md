@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [eu.europa.ted.eforms:efx-toolkit-java](https://central.sonatype.com/artifact/eu.europa.ted.eforms/efx-toolkit-java/versions)
+## Project: [eu.europa.ted.eforms:efx-toolkit-java](https://central.sonatype.com/artifact/eu.europa.ted.eforms/efx-toolkit-java/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/eu/europa/ted/eforms/efx-toolkit-java/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/eu/europa/ted/eforms/efx-toolkit-java/README.md)
 
 Source code: [https://github.com/OP-TED/efx-toolkit-java.git](https://github.com/OP-TED/efx-toolkit-java.git)
 

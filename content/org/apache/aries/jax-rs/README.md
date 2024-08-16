@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.aries.jax.rs:org.apache.aries.jax.rs](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs/versions)
+## Project: [org.apache.aries.jax.rs:org.apache.aries.jax.rs](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/aries/jax-rs/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/aries/jax-rs/README.md)
 
 Source code: [https://github.com/apache/aries-jax-rs-whiteboard.git](https://github.com/apache/aries-jax-rs-whiteboard.git)
 

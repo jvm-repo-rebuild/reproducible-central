@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.junit:junit-bom](https://central.sonatype.com/artifact/org.junit/junit-bom/versions)
+## Project: [org.junit:junit-bom](https://central.sonatype.com/artifact/org.junit/junit-bom/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/junit/junit5/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/junit/junit5/README.md)
 
 Source code: [https://github.com/junit-team/junit5.git](https://github.com/junit-team/junit5.git)
 

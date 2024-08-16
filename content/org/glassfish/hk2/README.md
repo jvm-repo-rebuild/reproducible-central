@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.glassfish.hk2:hk2-parent](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/versions)
+## Project: [org.glassfish.hk2:hk2-parent](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/glassfish/hk2/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/glassfish/hk2/README.md)
 
 Source code: [https://github.com/eclipse-ee4j/glassfish-hk2.git](https://github.com/eclipse-ee4j/glassfish-hk2.git)
 

@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [dev.notmyfault.serverlib:ServerLib](https://central.sonatype.com/artifact/dev.notmyfault.serverlib/ServerLib/versions)
+## Project: [dev.notmyfault.serverlib:ServerLib](https://central.sonatype.com/artifact/dev.notmyfault.serverlib/ServerLib/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/dev/notmyfault/serverlib/ServerLib/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/dev/notmyfault/serverlib/ServerLib/README.md)
 
 Source code: [https://github.com/NotMyFault/ServerLib.git](https://github.com/NotMyFault/ServerLib.git)
 

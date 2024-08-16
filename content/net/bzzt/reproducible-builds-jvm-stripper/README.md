@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [net.bzzt:reproducible-builds-jvm-stripper](https://central.sonatype.com/artifact/net.bzzt/reproducible-builds-jvm-stripper/versions)
+## Project: [net.bzzt:reproducible-builds-jvm-stripper](https://central.sonatype.com/artifact/net.bzzt/reproducible-builds-jvm-stripper/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/net/bzzt/reproducible-builds-jvm-stripper/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/net/bzzt/reproducible-builds-jvm-stripper/README.md)
 
 Source code: [https://github.com/raboof/reproducible-builds-jvm-stripper.git](https://github.com/raboof/reproducible-builds-jvm-stripper.git)
 

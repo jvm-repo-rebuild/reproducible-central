@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.opentelemetry:opentelemetry-sdk](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/versions)
+## Project: [io.opentelemetry:opentelemetry-sdk](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/io/opentelemetry/java/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/opentelemetry/java/README.md)
 
 Source code: [https://github.com/open-telemetry/opentelemetry-java.git](https://github.com/open-telemetry/opentelemetry-java.git)
 

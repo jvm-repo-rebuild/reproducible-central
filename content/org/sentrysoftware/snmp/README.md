@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.sentrysoftware:snmp](https://central.sonatype.com/artifact/org.sentrysoftware/snmp/versions)
+## Project: [org.sentrysoftware:snmp](https://central.sonatype.com/artifact/org.sentrysoftware/snmp/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/sentrysoftware/snmp/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/sentrysoftware/snmp/README.md)
 
 Source code: [https://github.com/sentrysoftware/snmp.git](https://github.com/sentrysoftware/snmp.git)
 

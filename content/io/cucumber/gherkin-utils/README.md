@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.cucumber:gherkin-utils](https://central.sonatype.com/artifact/io.cucumber/gherkin-utils/versions)
+## Project: [io.cucumber:gherkin-utils](https://central.sonatype.com/artifact/io.cucumber/gherkin-utils/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/io/cucumber/gherkin-utils/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/cucumber/gherkin-utils/README.md)
 
 Source code: [https://github.com/cucumber/gherkin-utils.git](https://github.com/cucumber/gherkin-utils.git)
 

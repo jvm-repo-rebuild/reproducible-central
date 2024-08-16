@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.systemds:systemds](https://central.sonatype.com/artifact/org.apache.systemds/systemds/versions)
+## Project: [org.apache.systemds:systemds](https://central.sonatype.com/artifact/org.apache.systemds/systemds/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/systemds/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/systemds/README.md)
 
 Source code: [https://github.com/apache/systemds.git](https://github.com/apache/systemds.git)
 

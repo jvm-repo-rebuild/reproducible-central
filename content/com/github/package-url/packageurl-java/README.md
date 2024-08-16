@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.package-url:packageurl-java](https://central.sonatype.com/artifact/com.github.package-url/packageurl-java/versions)
+## Project: [com.github.package-url:packageurl-java](https://central.sonatype.com/artifact/com.github.package-url/packageurl-java/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/github/package-url/packageurl-java/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/github/package-url/packageurl-java/README.md)
 
 Source code: [https://github.com/package-url/packageurl-java.git](https://github.com/package-url/packageurl-java.git)
 

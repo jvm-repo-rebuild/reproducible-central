@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.logging.log4j:log4j-transform-bom](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-transform-bom/versions)
+## Project: [org.apache.logging.log4j:log4j-transform-bom](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-transform-bom/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/logging/log4j/transform/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/logging/log4j/transform/README.md)
 
 Source code: [https://github.com/apache/logging-log4j-transform.git](https://github.com/apache/logging-log4j-transform.git)
 

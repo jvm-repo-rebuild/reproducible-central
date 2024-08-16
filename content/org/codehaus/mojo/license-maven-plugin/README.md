@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.codehaus.mojo:license-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/license-maven-plugin/versions)
+## Project: [org.codehaus.mojo:license-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/license-maven-plugin/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/codehaus/mojo/license-maven-plugin/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/codehaus/mojo/license-maven-plugin/README.md)
 
 Source code: [https://github.com/mojohaus/license-maven-plugin.git](https://github.com/mojohaus/license-maven-plugin.git)
 

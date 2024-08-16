@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.camel.k:camel-k-runtime-project](https://central.sonatype.com/artifact/org.apache.camel.k/camel-k-runtime-project/versions)
+## Project: [org.apache.camel.k:camel-k-runtime-project](https://central.sonatype.com/artifact/org.apache.camel.k/camel-k-runtime-project/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/camel/camel-k-runtime/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/camel/camel-k-runtime/README.md)
 
 Source code: [https://github.com/apache/camel-k-runtime.git](https://github.com/apache/camel-k-runtime.git)
 

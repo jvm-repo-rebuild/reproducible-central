@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.kordamp.maven:pomchecker](https://central.sonatype.com/artifact/org.kordamp.maven/pomchecker/versions)
+## Project: [org.kordamp.maven:pomchecker](https://central.sonatype.com/artifact/org.kordamp.maven/pomchecker/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/kordamp/pomchecker/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/kordamp/pomchecker/README.md)
 
 Source code: [https://github.com/kordamp/pomchecker.git](https://github.com/kordamp/pomchecker.git)
 

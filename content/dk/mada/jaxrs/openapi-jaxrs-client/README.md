@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [dk.mada.jaxrs:openapi-jaxrs-client](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-client/versions)
+## Project: [dk.mada.jaxrs:openapi-jaxrs-client](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-client/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/dk/mada/jaxrs/openapi-jaxrs-client/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/dk/mada/jaxrs/openapi-jaxrs-client/README.md)
 
 Source code: [https://github.com/jskov/openapi-jaxrs-client.git](https://github.com/jskov/openapi-jaxrs-client.git)
 

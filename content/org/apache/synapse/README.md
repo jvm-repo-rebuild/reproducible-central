@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.synapse:Apache-Synapse](https://central.sonatype.com/artifact/org.apache.synapse/Apache-Synapse/versions)
+## Project: [org.apache.synapse:Apache-Synapse](https://central.sonatype.com/artifact/org.apache.synapse/Apache-Synapse/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/synapse/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/synapse/README.md)
 
 Source code: [https://gitbox.apache.org/repos/asf/synapse.git](https://gitbox.apache.org/repos/asf/synapse.git)
 

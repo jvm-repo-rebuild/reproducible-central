@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.felix:org.apache.felix.feature](https://central.sonatype.com/artifact/org.apache.felix/org.apache.felix.feature/versions)
+## Project: [org.apache.felix:org.apache.felix.feature](https://central.sonatype.com/artifact/org.apache.felix/org.apache.felix.feature/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/felix/features/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/felix/features/README.md)
 
 Source code: [https://github.com/apache/felix-dev.git](https://github.com/apache/felix-dev.git)
 

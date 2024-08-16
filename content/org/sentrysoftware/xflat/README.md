@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.sentrysoftware:xflat](https://central.sonatype.com/artifact/org.sentrysoftware/xflat/versions)
+## Project: [org.sentrysoftware:xflat](https://central.sonatype.com/artifact/org.sentrysoftware/xflat/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/sentrysoftware/xflat/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/sentrysoftware/xflat/README.md)
 
 Source code: [https://github.com/sentrysoftware/xflat.git](https://github.com/sentrysoftware/xflat.git)
 

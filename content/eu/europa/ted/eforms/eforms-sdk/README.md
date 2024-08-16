@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [eu.europa.ted.eforms:eforms-sdk](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/versions)
+## Project: [eu.europa.ted.eforms:eforms-sdk](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/eu/europa/ted/eforms/eforms-sdk/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/eu/europa/ted/eforms/eforms-sdk/README.md)
 
 Source code: [https://github.com/OP-TED/eForms-SDK.git](https://github.com/OP-TED/eForms-SDK.git)
 

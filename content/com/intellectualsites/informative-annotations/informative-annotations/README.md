@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.intellectualsites.informative-annotations:informative-annotations](https://central.sonatype.com/artifact/com.intellectualsites.informative-annotations/informative-annotations/versions)
+## Project: [com.intellectualsites.informative-annotations:informative-annotations](https://central.sonatype.com/artifact/com.intellectualsites.informative-annotations/informative-annotations/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/intellectualsites/informative-annotations/informative-annotations/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/intellectualsites/informative-annotations/informative-annotations/README.md)
 
 Source code: [https://github.com/IntellectualSites/informative-annotations.git](https://github.com/IntellectualSites/informative-annotations.git)
 

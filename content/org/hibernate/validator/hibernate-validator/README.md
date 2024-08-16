@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.hibernate.validator:hibernate-validator](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator/versions)
+## Project: [org.hibernate.validator:hibernate-validator](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/hibernate/validator/hibernate-validator/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/hibernate/validator/hibernate-validator/README.md)
 
 Source code: [https://github.com/hibernate/hibernate-validator.git](https://github.com/hibernate/hibernate-validator.git)
 

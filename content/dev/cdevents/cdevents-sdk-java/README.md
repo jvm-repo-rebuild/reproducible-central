@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [dev.cdevents:cdevents-sdk-java](https://central.sonatype.com/artifact/dev.cdevents/cdevents-sdk-java/versions)
+## Project: [dev.cdevents:cdevents-sdk-java](https://central.sonatype.com/artifact/dev.cdevents/cdevents-sdk-java/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/dev/cdevents/cdevents-sdk-java/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/dev/cdevents/cdevents-sdk-java/README.md)
 
 Source code: [https://github.com/cdevents/sdk-java.git](https://github.com/cdevents/sdk-java.git)
 

@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.wcm.maven.plugins:cq-maven-plugin](https://central.sonatype.com/artifact/io.wcm.maven.plugins/cq-maven-plugin/versions)
+## Project: [io.wcm.maven.plugins:cq-maven-plugin](https://central.sonatype.com/artifact/io.wcm.maven.plugins/cq-maven-plugin/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/io/wcm/maven/plugins/cq-maven-plugin/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/wcm/maven/plugins/cq-maven-plugin/README.md)
 
 Source code: [https://github.com/wcm-io/io.wcm.maven.plugins.cq-maven-plugin.git](https://github.com/wcm-io/io.wcm.maven.plugins.cq-maven-plugin.git)
 

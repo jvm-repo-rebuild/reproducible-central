@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.owasp:dependency-check-parent](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/versions)
+## Project: [org.owasp:dependency-check-parent](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/owasp/dependency-check/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/owasp/dependency-check/README.md)
 
 Source code: [https://github.com/jeremylong/DependencyCheck](https://github.com/jeremylong/DependencyCheck)
 

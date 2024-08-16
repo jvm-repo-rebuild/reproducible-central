@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.complate:complate-parent](https://central.sonatype.com/artifact/org.complate/complate-parent/versions)
+## Project: [org.complate:complate-parent](https://central.sonatype.com/artifact/org.complate/complate-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/complate/java/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/complate/java/README.md)
 
 Source code: [https://github.com/complate/complate-java.git](https://github.com/complate/complate-java.git)
 
@@ -15,7 +15,7 @@ Source code: [https://github.com/complate/complate-java.git](https://github.com/
 * [org.complate:complate-parent](https://central.sonatype.com/artifact/org.complate/complate-parent/1.0.0)
 </details>
 
-rebuilding **3 releases** of org.complate:complate-core:
+rebuilding **3 releases** of org.complate:complate-parent:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 

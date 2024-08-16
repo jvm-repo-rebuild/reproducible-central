@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.scalapenos:stamina_2.11](https://central.sonatype.com/artifact/com.scalapenos/stamina_2.11/versions)
+## Project: [com.scalapenos:stamina_2.11](https://central.sonatype.com/artifact/com.scalapenos/stamina_2.11/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/scalapenos/stamina/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/scalapenos/stamina/README.md)
 
 Source code: [https://github.com/scalapenos/stamina.git](https://github.com/scalapenos/stamina.git)
 

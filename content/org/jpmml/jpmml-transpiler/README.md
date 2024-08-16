@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.jpmml:jpmml-transpiler](https://central.sonatype.com/artifact/org.jpmml/jpmml-transpiler/versions)
+## Project: [org.jpmml:jpmml-transpiler](https://central.sonatype.com/artifact/org.jpmml/jpmml-transpiler/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/jpmml/jpmml-transpiler/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/jpmml/jpmml-transpiler/README.md)
 
 Source code: [https://github.com/jpmml/jpmml-transpiler.git](https://github.com/jpmml/jpmml-transpiler.git)
 

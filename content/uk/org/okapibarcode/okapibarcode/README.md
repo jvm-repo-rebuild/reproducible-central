@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [uk.org.okapibarcode:okapibarcode](https://central.sonatype.com/artifact/uk.org.okapibarcode/okapibarcode/versions)
+## Project: [uk.org.okapibarcode:okapibarcode](https://central.sonatype.com/artifact/uk.org.okapibarcode/okapibarcode/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/uk/org/okapibarcode/okapibarcode/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/uk/org/okapibarcode/okapibarcode/README.md)
 
 Source code: [https://github.com/woo-j/OkapiBarcode.git](https://github.com/woo-j/OkapiBarcode.git)
 

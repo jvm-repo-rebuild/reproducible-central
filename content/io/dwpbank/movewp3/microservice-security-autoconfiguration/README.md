@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.dwpbank.movewp3:microservice-security-autoconfiguration](https://central.sonatype.com/artifact/io.dwpbank.movewp3/microservice-security-autoconfiguration/versions)
+## Project: [io.dwpbank.movewp3:microservice-security-autoconfiguration](https://central.sonatype.com/artifact/io.dwpbank.movewp3/microservice-security-autoconfiguration/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/io/dwpbank/movewp3/microservice-security-autoconfiguration/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/dwpbank/movewp3/microservice-security-autoconfiguration/README.md)
 
 Source code: [https://github.com/movewp3/microservice-security-autoconfiguration.git](https://github.com/movewp3/microservice-security-autoconfiguration.git)
 

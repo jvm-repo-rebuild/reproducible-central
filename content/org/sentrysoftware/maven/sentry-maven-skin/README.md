@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.sentrysoftware.maven:sentry-maven-skin](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/versions)
+## Project: [org.sentrysoftware.maven:sentry-maven-skin](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/sentrysoftware/maven/sentry-maven-skin/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/sentrysoftware/maven/sentry-maven-skin/README.md)
 
 Source code: [https://github.com/sentrysoftware/sentry-maven-skin.git](https://github.com/sentrysoftware/sentry-maven-skin.git)
 

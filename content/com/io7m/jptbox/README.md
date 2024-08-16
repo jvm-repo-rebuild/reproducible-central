@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.jptbox:com.io7m.jptbox](https://central.sonatype.com/artifact/com.io7m.jptbox/com.io7m.jptbox/versions)
+## Project: [com.io7m.jptbox:com.io7m.jptbox](https://central.sonatype.com/artifact/com.io7m.jptbox/com.io7m.jptbox/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/io7m/jptbox/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/io7m/jptbox/README.md)
 
 Source code: [https://github.com/io7m/jptbox.git](https://github.com/io7m/jptbox.git)
 

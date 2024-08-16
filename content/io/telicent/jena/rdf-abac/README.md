@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.telicent.jena:rdf-abac](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/versions)
+## Project: [io.telicent.jena:rdf-abac](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/io/telicent/jena/rdf-abac/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/telicent/jena/rdf-abac/README.md)
 
 Source code: [https://github.com/telicent-oss/rdf-abac](https://github.com/telicent-oss/rdf-abac)
 

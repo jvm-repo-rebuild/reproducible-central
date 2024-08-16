@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.plc4x.plugins:plc4x-site-skin](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-site-skin/versions)
+## Project: [org.apache.plc4x.plugins:plc4x-site-skin](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-site-skin/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/plc4x/plc4x-site-skin/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/plc4x/plc4x-site-skin/README.md)
 
 Source code: [https://github.com/apache/plc4x-build-tools.git](https://github.com/apache/plc4x-build-tools.git)
 

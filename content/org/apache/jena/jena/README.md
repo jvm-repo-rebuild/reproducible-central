@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.jena:jena](https://central.sonatype.com/artifact/org.apache.jena/jena/versions)
+## Project: [org.apache.jena:jena](https://central.sonatype.com/artifact/org.apache.jena/jena/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/jena/jena/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/jena/jena/README.md)
 
 Source code: [https://github.com/apache/jena.git](https://github.com/apache/jena.git)
 

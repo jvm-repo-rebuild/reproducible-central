@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [world.convex:convex](https://central.sonatype.com/artifact/world.convex/convex/versions)
+## Project: [world.convex:convex](https://central.sonatype.com/artifact/world.convex/convex/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/world/convex/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/world/convex/README.md)
 
 Source code: [https://github.com/Convex-Dev/convex.git](https://github.com/Convex-Dev/convex.git)
 

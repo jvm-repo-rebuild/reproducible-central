@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.testing.sling-mock](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock/versions)
+## Project: [org.apache.sling:org.apache.sling.testing.sling-mock](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/sling/org.apache.sling.testing.sling-mock/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/sling/org.apache.sling.testing.sling-mock/README.md)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-testing-sling-mock.git](https://github.com/apache/sling-org-apache-sling-testing-sling-mock.git)
 

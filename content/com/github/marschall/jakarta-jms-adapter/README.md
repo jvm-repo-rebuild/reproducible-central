@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.marschall:jakarta-jms-adapter](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/versions)
+## Project: [com.github.marschall:jakarta-jms-adapter](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/github/marschall/jakarta-jms-adapter/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/github/marschall/jakarta-jms-adapter/README.md)
 
 Source code: [https://github.com/marschall/jakarta-jms-adapter.git](https://github.com/marschall/jakarta-jms-adapter.git)
 

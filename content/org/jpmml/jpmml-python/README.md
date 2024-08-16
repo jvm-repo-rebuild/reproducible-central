@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.jpmml:jpmml-python](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/versions)
+## Project: [org.jpmml:jpmml-python](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/jpmml/jpmml-python/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/jpmml/jpmml-python/README.md)
 
 Source code: [https://github.com/jpmml/jpmml-python.git](https://github.com/jpmml/jpmml-python.git)
 

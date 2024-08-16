@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis.caches:mybatis-ignite](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-ignite/versions)
+## Project: [org.mybatis.caches:mybatis-ignite](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-ignite/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/mybatis/caches/mybatis-ignite/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/mybatis/caches/mybatis-ignite/README.md)
 
 Source code: [https://github.com/mybatis/ignite-cache.git](https://github.com/mybatis/ignite-cache.git)
 

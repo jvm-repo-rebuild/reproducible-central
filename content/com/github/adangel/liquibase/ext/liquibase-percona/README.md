@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.adangel.liquibase.ext:liquibase-percona](https://central.sonatype.com/artifact/com.github.adangel.liquibase.ext/liquibase-percona/versions)
+## Project: [com.github.adangel.liquibase.ext:liquibase-percona](https://central.sonatype.com/artifact/com.github.adangel.liquibase.ext/liquibase-percona/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/github/adangel/liquibase/ext/liquibase-percona/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/github/adangel/liquibase/ext/liquibase-percona/README.md)
 
 Source code: [https://github.com/liquibase/liquibase-percona.git](https://github.com/liquibase/liquibase-percona.git)
 

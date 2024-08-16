@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.veithen.maven:p2-maven-connector](https://central.sonatype.com/artifact/com.github.veithen.maven/p2-maven-connector/versions)
+## Project: [com.github.veithen.maven:p2-maven-connector](https://central.sonatype.com/artifact/com.github.veithen.maven/p2-maven-connector/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/github/veithen/maven/p2-maven-connector/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/github/veithen/maven/p2-maven-connector/README.md)
 
 Source code: [https://github.com/veithen/p2-maven-connector.git](https://github.com/veithen/p2-maven-connector.git)
 

@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.fasterxml.jackson.jr:jackson-jr-parent](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/versions)
+## Project: [com.fasterxml.jackson.jr:jackson-jr-parent](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/fasterxml/jackson/jr/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/fasterxml/jackson/jr/README.md)
 
 Source code: [https://github.com/FasterXML/jackson-jr.git](https://github.com/FasterXML/jackson-jr.git)
 

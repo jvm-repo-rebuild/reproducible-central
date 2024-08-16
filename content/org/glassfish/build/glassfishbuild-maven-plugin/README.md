@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.glassfish.build:glassfishbuild-maven-plugin](https://central.sonatype.com/artifact/org.glassfish.build/glassfishbuild-maven-plugin/versions)
+## Project: [org.glassfish.build:glassfishbuild-maven-plugin](https://central.sonatype.com/artifact/org.glassfish.build/glassfishbuild-maven-plugin/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/glassfish/build/glassfishbuild-maven-plugin/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/glassfish/build/glassfishbuild-maven-plugin/README.md)
 
 Source code: [https://github.com/eclipse-ee4j/glassfish-build-maven-plugin.git](https://github.com/eclipse-ee4j/glassfish-build-maven-plugin.git)
 

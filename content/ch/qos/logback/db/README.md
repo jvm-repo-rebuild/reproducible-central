@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [ch.qos.logback.db:logback-parent-db](https://central.sonatype.com/artifact/ch.qos.logback.db/logback-parent-db/versions)
+## Project: [ch.qos.logback.db:logback-parent-db](https://central.sonatype.com/artifact/ch.qos.logback.db/logback-parent-db/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/ch/qos/logback/db/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/ch/qos/logback/db/README.md)
 
 Source code: [https://github.com/qos-ch/logback-db.git](https://github.com/qos-ch/logback-db.git)
 

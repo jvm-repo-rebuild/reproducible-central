@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [net.sf.michael-o.tomcat:tomcat-authnz-spnego-ad](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat-authnz-spnego-ad/versions)
+## Project: [net.sf.michael-o.tomcat:tomcat-authnz-spnego-ad](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat-authnz-spnego-ad/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/net/sf/michael-o/tomcat/tomcat-authnz-spnego-ad/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/net/sf/michael-o/tomcat/tomcat-authnz-spnego-ad/README.md)
 
 Source code: [https://github.com/michael-o/tomcatspnegoad.git](https://github.com/michael-o/tomcatspnegoad.git)
 

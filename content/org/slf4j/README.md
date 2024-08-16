@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.slf4j:slf4j-parent](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/versions)
+## Project: [org.slf4j:slf4j-parent](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/slf4j/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/slf4j/README.md)
 
 Source code: [https://github.com/qos-ch/slf4j.git](https://github.com/qos-ch/slf4j.git)
 

@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis.generator:mybatis-generator](https://central.sonatype.com/artifact/org.mybatis.generator/mybatis-generator/versions)
+## Project: [org.mybatis.generator:mybatis-generator](https://central.sonatype.com/artifact/org.mybatis.generator/mybatis-generator/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/mybatis/generator/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/mybatis/generator/README.md)
 
 Source code: [https://github.com/mybatis/generator.git](https://github.com/mybatis/generator.git)
 

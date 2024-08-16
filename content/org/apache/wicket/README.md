@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.wicket:wicket-parent](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/versions)
+## Project: [org.apache.wicket:wicket-parent](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/wicket/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/wicket/README.md)
 
 Source code: [https://git-wip-us.apache.org/repos/asf/wicket.git](https://git-wip-us.apache.org/repos/asf/wicket.git)
 

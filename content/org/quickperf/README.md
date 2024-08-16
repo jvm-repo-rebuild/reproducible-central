@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.quickperf:quick-perf](https://central.sonatype.com/artifact/org.quickperf/quick-perf/versions)
+## Project: [org.quickperf:quick-perf](https://central.sonatype.com/artifact/org.quickperf/quick-perf/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/quickperf/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/quickperf/README.md)
 
 Source code: [https://github.com/quick-perf/quickperf.git](https://github.com/quick-perf/quickperf.git)
 

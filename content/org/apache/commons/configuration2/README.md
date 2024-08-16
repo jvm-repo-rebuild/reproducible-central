@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.commons:commons-configuration2](https://central.sonatype.com/artifact/org.apache.commons/commons-configuration2/versions)
+## Project: [org.apache.commons:commons-configuration2](https://central.sonatype.com/artifact/org.apache.commons/commons-configuration2/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/commons/configuration2/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/commons/configuration2/README.md)
 
 Source code: [https://github.com/apache/commons-configuration.git](https://github.com/apache/commons-configuration.git)
 

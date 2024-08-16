@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.wcm:io.wcm.handler.richtext](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.richtext/versions)
+## Project: [io.wcm:io.wcm.handler.richtext](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.richtext/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/io/wcm/io.wcm.handler/richtext/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/wcm/io.wcm.handler/richtext/README.md)
 
 Source code: [https://github.com/wcm-io/io.wcm.handler.richtext.git](https://github.com/wcm-io/io.wcm.handler.richtext.git)
 

@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.fusesource.jansi:jansi](https://central.sonatype.com/artifact/org.fusesource.jansi/jansi/versions)
+## Project: [org.fusesource.jansi:jansi](https://central.sonatype.com/artifact/org.fusesource.jansi/jansi/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/fusesource/jansi/jansi/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/fusesource/jansi/jansi/README.md)
 
 Source code: [https://github.com/fusesource/jansi.git](https://github.com/fusesource/jansi.git)
 

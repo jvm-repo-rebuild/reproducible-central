@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [biz.aQute.bnd:bnd-plugin-parent](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-plugin-parent/versions)
+## Project: [biz.aQute.bnd:bnd-plugin-parent](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-plugin-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/biz/aQute/bnd/plugins/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/biz/aQute/bnd/plugins/README.md)
 
 Source code: [https://github.com/bndtools/bnd](https://github.com/bndtools/bnd)
 

@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.homeofthewizard:vault-maven-plugin](https://central.sonatype.com/artifact/com.homeofthewizard/vault-maven-plugin/versions)
+## Project: [com.homeofthewizard:vault-maven-plugin](https://central.sonatype.com/artifact/com.homeofthewizard/vault-maven-plugin/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/homeofthewizard/vault-maven-plugin/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/homeofthewizard/vault-maven-plugin/README.md)
 
 Source code: [https://github.com/homeofthewizard/vault-maven-plugin.git](https://github.com/homeofthewizard/vault-maven-plugin.git)
 

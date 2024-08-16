@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.wcm:io.wcm.wcm.ui.granite](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.ui.granite/versions)
+## Project: [io.wcm:io.wcm.wcm.ui.granite](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.ui.granite/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/io/wcm/io.wcm.wcm/ui/granite/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/wcm/io.wcm.wcm/ui/granite/README.md)
 
 Source code: [https://github.com/wcm-io/io.wcm.wcm.ui.granite.git](https://github.com/wcm-io/io.wcm.wcm.ui.granite.git)
 

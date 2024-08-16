@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.spdx:java-spdx-library](https://central.sonatype.com/artifact/org.spdx/java-spdx-library/versions)
+## Project: [org.spdx:java-spdx-library](https://central.sonatype.com/artifact/org.spdx/java-spdx-library/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/spdx/java-spdx-library/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/spdx/java-spdx-library/README.md)
 
 Source code: [https://github.com/spdx/Spdx-Java-Library.git](https://github.com/spdx/Spdx-Java-Library.git)
 
