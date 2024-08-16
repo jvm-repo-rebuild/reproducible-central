@@ -403,6 +403,7 @@ rebuilding **3 releases** of io.opentelemetry.instrumentation:opentelemetry-inst
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.7.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.7.0/pom) | | | |
 | [2.6.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.6.0/pom) | | | |
 | [2.5.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.5.0/pom) | | | |
 | [2.4.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.4.0/pom) | [gradle jdk17](opentelemetry-2.4.0.buildspec) | [result](opentelemetry-instrumentation-api-2.4.0.buildinfo): [1070 :white_check_mark:  343 :warning:](opentelemetry-instrumentation-api-2.4.0.buildcompare) | 76M |

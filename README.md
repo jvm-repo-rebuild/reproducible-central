@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **4105 releases** of **684 projects**:
-   - **3274** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **4107 releases** of **684 projects**:
+   - **3276** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 831 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 684 projects, 584 have at least one fully reproducible release, 100 have none
 
@@ -30,7 +30,7 @@ Its objectives are to provide:
 | ch.vorburger.mariaDB4j | [mariaDB4j](content/ch/vorburger/mariaDB4j/README.md) | 1 | 1 :white_check_mark: |
 | com.flowlogix | [flowlogix](content/com/flowlogix/README.md) | 14 | 10 :white_check_mark: / 4 :warning: |
 | com.adobe.acs | [acs-aem-commons](content/com/adobe/acs/aem-commons/README.md) | 3 | 3 :warning: |
-| com.cognite.units | [units-catalog](content/com/cognite/units/units-catalog/README.md) | 9 | 6 :white_check_mark: / 3 :warning: |
+| com.cognite.units | [units-catalog](content/com/cognite/units/units-catalog/README.md) | 10 | 7 :white_check_mark: / 3 :warning: |
 | com.corgibytes | [mrm](content/com/corgibytes/mrm/README.md) | 1 | 1 :white_check_mark: |
 | | [versions-maven-plugin](content/com/corgibytes/versions-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | com.fasterxml | [oss-parent](content/com/fasterxml/oss-parent/README.md) | 15 | 15 :white_check_mark: |
@@ -233,7 +233,7 @@ Its objectives are to provide:
 | | [gherkin-utils](content/io/cucumber/gherkin-utils/README.md) | 6 | 6 :white_check_mark: |
 | | [html-formatter](content/io/cucumber/html-formatter/README.md) | 1 | 1 :warning: |
 | | [junit-xml-formatter](content/io/cucumber/junit-xml-formatter/README.md) | 6 | 6 :white_check_mark: |
-| | [messages](content/io/cucumber/messages/README.md) | 9 | 9 :white_check_mark: |
+| | [messages](content/io/cucumber/messages/README.md) | 10 | 10 :white_check_mark: |
 | | [tag-expressions](content/io/cucumber/tag-expressions/README.md) | 9 | 9 :white_check_mark: |
 | io.dropwizard | [dropwizard-project](content/io/dropwizard/core/README.md) | 74 | 69 :white_check_mark: / 5 :warning: |
 | io.dropwizard.metrics | [metrics-parent](content/io/dropwizard/metrics/README.md) | 42 | 21 :white_check_mark: / 21 :warning: |
@@ -707,7 +707,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 2 | 2 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 39 | 39 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **684** | **4105** | **3274** :white_check_mark: **831** :warning: |
+| **Count:** | **684** | **4107** | **3276** :white_check_mark: **831** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -725,7 +725,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
    1219 mvn         8
       1 mvn         9
-   1048 mvn        11
+   1049 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
@@ -733,7 +733,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      12 mvn        16
-    370 mvn        17
+    371 mvn        17
       1 mvn        17.0.10
       1 mvn        17.0.11
       2 mvn        17.0.7
