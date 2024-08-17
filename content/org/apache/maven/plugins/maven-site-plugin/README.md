@@ -7,8 +7,8 @@
 
 Source code: [https://github.com/apache/maven-site-plugin.git](https://github.com/apache/maven-site-plugin.git)
 
-rebuilding **22 releases** of org.apache.maven.plugins:maven-site-plugin:
-- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **23 releases** of org.apache.maven.plugins:maven-site-plugin:
+- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -29,6 +29,7 @@ rebuilding **22 releases** of org.apache.maven.plugins:maven-site-plugin:
 | [4.0.0-M3](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-site-plugin/4.0.0-M3/pom) | [mvn jdk8 w](maven-site-plugin-4.0.0-M3.buildspec) | [result](maven-site-plugin-4.0.0-M3.buildinfo): [4 :white_check_mark: ](maven-site-plugin-4.0.0-M3.buildcompare) | 1.3M |
 | [4.0.0-M2](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-site-plugin/4.0.0-M2/pom) | [mvn jdk8 w](maven-site-plugin-4.0.0-M2.buildspec) | [result](maven-site-plugin-4.0.0-M2.buildinfo): [4 :white_check_mark: ](maven-site-plugin-4.0.0-M2.buildcompare) | 1.3M |
 | [4.0.0-M1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-site-plugin/4.0.0-M1/pom) | [mvn jdk8 w](maven-site-plugin-4.0.0-M1.buildspec) | [result](maven-site-plugin-4.0.0-M1.buildinfo): [4 :white_check_mark: ](maven-site-plugin-4.0.0-M1.buildcompare) | 1.3M |
+| [3.20.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-site-plugin/3.20.0/pom) | [mvn jdk8 w](maven-site-plugin-3.20.0.buildspec) | [result](maven-site-plugin-3.20.0.buildinfo): [6 :white_check_mark: ](maven-site-plugin-3.20.0.buildcompare) | 1.8M |
 | [3.12.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-site-plugin/3.12.1/pom) | [mvn jdk8 w](maven-site-plugin-3.12.1.buildspec) | [result](maven-site-plugin-3.12.1.buildinfo): [4 :white_check_mark: ](maven-site-plugin-3.12.1.buildcompare) | 1.3M |
 | [3.12.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-site-plugin/3.12.0/pom) | [mvn jdk8 w](maven-site-plugin-3.12.0.buildspec) | [result](maven-site-plugin-3.12.0.buildinfo): [4 :white_check_mark: ](maven-site-plugin-3.12.0.buildcompare) | 1.3M |
 | [3.11.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-site-plugin/3.11.0/pom) | [mvn jdk8 w](maven-site-plugin-3.11.0.buildspec) | [result](maven-site-plugin-3.11.0.buildinfo): [4 :white_check_mark: ](maven-site-plugin-3.11.0.buildcompare) | 1.3M |

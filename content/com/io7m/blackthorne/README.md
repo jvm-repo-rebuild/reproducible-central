@@ -22,6 +22,7 @@ rebuilding **12 releases** of com.io7m.blackthorne:com.io7m.blackthorne:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.2](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/2.0.2/pom) | | | |
 | [2.0.1](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/2.0.1/pom) | [mvn jdk21](com.io7m.blackthorne-2.0.1.buildspec) | [result](com.io7m.blackthorne-2.0.1.buildinfo): [17 :white_check_mark: ](com.io7m.blackthorne-2.0.1.buildcompare) | 968K |
 | [2.0.0](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/2.0.0/pom) | [mvn jdk17.0.8](com.io7m.blackthorne-2.0.0.buildspec) | [result](com.io7m.blackthorne-2.0.0.buildinfo): [17 :white_check_mark: ](com.io7m.blackthorne-2.0.0.buildcompare) | 966K |
 | [2.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/2.0.0-beta0001/pom) | [mvn jdk17.0.8](com.io7m.blackthorne-2.0.0-beta0001.buildspec) | [result](com.io7m.blackthorne-2.0.0-beta0001.buildinfo): [17 :white_check_mark: ](com.io7m.blackthorne-2.0.0-beta0001.buildcompare) | 960K |

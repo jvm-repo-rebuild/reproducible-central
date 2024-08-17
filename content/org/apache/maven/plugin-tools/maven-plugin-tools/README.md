@@ -25,13 +25,14 @@ Source code: [https://github.com/apache/maven-plugin-tools.git](https://github.c
 * [org.apache.maven.plugins:maven-plugin-report-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-plugin-report-plugin/4.0.0-beta-1)
 </details>
 
-rebuilding **15 releases** of org.apache.maven.plugin-tools:maven-plugin-tools:
-- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **16 releases** of org.apache.maven.plugin-tools:maven-plugin-tools:
+- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [4.0.0-beta-1](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/4.0.0-beta-1/pom) | [mvn jdk21](maven-plugin-tools-4.0.0-beta-1.buildspec) | [result](maven-plugin-tools-4.0.0-beta-1.buildinfo): [36 :white_check_mark: ](maven-plugin-tools-4.0.0-beta-1.buildcompare) | 4.7M |
+| [3.14.0](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.14.0/pom) | [mvn jdk8 w](maven-plugin-tools-3.14.0.buildspec) | [result](maven-plugin-tools-3.14.0.buildinfo): [69 :white_check_mark: ](maven-plugin-tools-3.14.0.buildcompare) | 5.6M |
 | [3.13.1](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.13.1/pom) | [mvn jdk8 w](maven-plugin-tools-3.13.1.buildspec) | [result](maven-plugin-tools-3.13.1.buildinfo): [69 :white_check_mark: ](maven-plugin-tools-3.13.1.buildcompare) | 5.6M |
 | [3.13.0](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.13.0/pom) | [mvn jdk8 w](maven-plugin-tools-3.13.0.buildspec) | [result](maven-plugin-tools-3.13.0.buildinfo): [69 :white_check_mark: ](maven-plugin-tools-3.13.0.buildcompare) | 5.6M |
 | [3.12.0](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.12.0/pom) | [mvn jdk11](maven-plugin-tools-3.12.0.buildspec) | [result](maven-plugin-tools-3.12.0.buildinfo): [71 :white_check_mark: ](maven-plugin-tools-3.12.0.buildcompare) | 5.8M |
