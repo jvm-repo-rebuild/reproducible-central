@@ -1,0 +1,7 @@
+version=24.08
+ok=4
+ko=0
+ignored=0
+okFiles="7zip-24.08.pom 7zip-24.08-cyclonedx.xml 7zip-24.08-cyclonedx.json 7zip-24.08-installer.tar.gz"
+koFiles=""
+ignoredFiles=""
