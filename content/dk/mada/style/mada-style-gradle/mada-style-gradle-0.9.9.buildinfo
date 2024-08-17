@@ -25,7 +25,7 @@ outputs.2.1.checksums.sha512=c40147bc923c2fb920f48a20904208f1a5a66b933bcafc4b1da
 
 outputs.2.2.filename=mada-style-gradle-0.9.9.module
 outputs.2.2.length=4103
-outputs.2.2.checksums.sha512=5537207a6e2f4dc1fa8bff009ded4730b87b19145c207867247a7451f3777749774c3d304ecadd3b0427125bc608ca1b7c9c7cb616bf21788ca7ff36273e6df8
+outputs.2.2.checksums.sha512=82cedd65b81e80b03a77700cb5a75a48d6e59eceee04321dea90f8345818ab1c3967b82ca7cda91838366fe45301695138fc4f26a49c07f7f250a2a803fde8af
 
 outputs.2.3.filename=mada-style-gradle-0.9.9.pom
 outputs.2.3.length=2265
