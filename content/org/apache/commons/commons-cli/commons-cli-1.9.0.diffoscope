@@ -1,0 +1,52 @@
+1 / 1 target/reference/commons-cli/commons-cli-1.9.0-test-sources.jar target/commons-cli-1.9.0-test-sources.jar
+--- target/reference/commons-cli/commons-cli-1.9.0-test-sources.jar
++++ target/commons-cli-1.9.0-test-sources.jar
+├── zipinfo {}
+│ @@ -1,16 +1,15 @@
+│ -Zip file size: 83896 bytes, number of entries: 55
+│ +Zip file size: 83752 bytes, number of entries: 54
+│  -rw-r--r--  2.0 unx      315 b- defN 24-Aug-10 13:01 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-10 13:01 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-10 13:01 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-10 13:01 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-10 13:01 org/apache/commons/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-10 13:01 org/apache/commons/cli/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-10 13:01 org/apache/commons/cli/bug/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-10 13:01 org/apache/commons/cli/converters/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-10 13:01 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-10 13:01 META-INF/maven/commons-cli/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-10 13:01 META-INF/maven/commons-cli/commons-cli/
+│  -rw-r--r--  2.0 unx    41314 b- defN 24-Aug-10 13:01 org/apache/commons/cli/AbstractParserTestCase.java
+│  -rw-r--r--  2.0 unx     1695 b- defN 24-Aug-10 13:01 org/apache/commons/cli/AlreadySelectedExceptionTest.java
+│  -rw-r--r--  2.0 unx    17571 b- defN 24-Aug-10 13:01 org/apache/commons/cli/ApplicationTest.java
+│  -rw-r--r--  2.0 unx     2786 b- defN 24-Aug-10 13:01 org/apache/commons/cli/ArgumentIsOptionTest.java
+│ @@ -50,8 +49,8 @@
+│  -rw-r--r--  2.0 unx     3399 b- defN 24-Aug-10 13:01 org/apache/commons/cli/bug/BugCLI71Test.java
+│  -rw-r--r--  2.0 unx    13600 b- defN 24-Aug-10 13:01 org/apache/commons/cli/bug/BugsTest.java
+│  -rw-r--r--  2.0 unx      793 b- defN 24-Aug-10 13:01 org/apache/commons/cli/existing-readable.file
+│  -rw-r--r--  2.0 unx    11358 b- defN 24-Aug-10 13:01 META-INF/LICENSE.txt
+│  -rw-r--r--  2.0 unx      173 b- defN 24-Aug-10 13:01 META-INF/NOTICE.txt
+│  -rw-r--r--  2.0 unx    14385 b- defN 24-Aug-10 13:01 META-INF/maven/commons-cli/commons-cli/pom.xml
+│  -rw-r--r--  2.0 unx       57 b- defN 24-Aug-10 13:01 META-INF/maven/commons-cli/commons-cli/pom.properties
+│ -55 files, 363590 bytes uncompressed, 75382 bytes compressed:  79.3%
+│ +54 files, 363590 bytes uncompressed, 75382 bytes compressed:  79.3%
+├── zipnote «TEMP»/diffoscope_6qln9jpl_target/tmpgx13mobg_.zip
+│ @@ -15,17 +15,14 @@
+│  
+│  Filename: org/apache/commons/cli/
+│  Comment: 
+│  
+│  Filename: org/apache/commons/cli/bug/
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/converters/
+│ -Comment: 
+│ -
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/commons-cli/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/commons-cli/commons-cli/
+
