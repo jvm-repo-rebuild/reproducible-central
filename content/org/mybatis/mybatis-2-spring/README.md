@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.mybatis:mybatis-2-spring:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.2.1](https://central.sonatype.com/artifact/org.mybatis/mybatis-2-spring/1.2.1/pom) | | | |
 | [1.2.0](https://central.sonatype.com/artifact/org.mybatis/mybatis-2-spring/1.2.0/pom) | [mvn jdk17 w](mybatis-2-spring-1.2.0.buildspec) | [result](mybatis-2-spring-1.2.0.buildinfo): [3 :white_check_mark: ](mybatis-2-spring-1.2.0.buildcompare) | 105K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
