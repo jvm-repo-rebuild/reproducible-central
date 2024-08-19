@@ -14,6 +14,7 @@ rebuilding **6 releases** of org.apache.maven.plugins:maven-deploy-plugin:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [4.0.0-beta-1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-deploy-plugin/4.0.0-beta-1/pom) | [mvn jdk21](maven-deploy-plugin-4.0.0-beta-1.buildspec) | [result](maven-deploy-plugin-4.0.0-beta-1.buildinfo): [6 :white_check_mark: ](maven-deploy-plugin-4.0.0-beta-1.buildcompare) | 411K |
+| [3.1.3](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-deploy-plugin/3.1.3/pom) | | | |
 | [3.1.2](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-deploy-plugin/3.1.2/pom) | [mvn jdk21](maven-deploy-plugin-3.1.2.buildspec) | [result](maven-deploy-plugin-3.1.2.buildinfo): [6 :white_check_mark: ](maven-deploy-plugin-3.1.2.buildcompare) | 537K |
 | [3.1.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-deploy-plugin/3.1.1/pom) | [mvn jdk17](maven-deploy-plugin-3.1.1.buildspec) | [result](maven-deploy-plugin-3.1.1.buildinfo): [4 :white_check_mark: ](maven-deploy-plugin-3.1.1.buildcompare) | 343K |
 | [3.1.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-deploy-plugin/3.1.0/pom) | [mvn jdk17](maven-deploy-plugin-3.1.0.buildspec) | [result](maven-deploy-plugin-3.1.0.buildinfo): [4 :white_check_mark: ](maven-deploy-plugin-3.1.0.buildcompare) | 341K |

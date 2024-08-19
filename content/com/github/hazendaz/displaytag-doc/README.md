@@ -9,18 +9,18 @@ Source code: [https://github.com/hazendaz/displaytag.git](https://github.com/haz
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.github.hazendaz:displaytag](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag/3.0.2)
-* [com.github.hazendaz:displaytag-doc](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.0.2)
-* [com.github.hazendaz:displaytag-examples](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-examples/3.0.2)
+* [com.github.hazendaz:displaytag](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag/3.0.3)
+* [com.github.hazendaz:displaytag-doc](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.0.3)
+* [com.github.hazendaz:displaytag-examples](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-examples/3.0.3)
 </details>
 
-rebuilding **7 releases** of com.github.hazendaz:displaytag-doc:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of com.github.hazendaz:displaytag-doc:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.0.3](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.0.3/pom) | | | |
+| [3.0.3](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.0.3/pom) | [mvn jdk22 w](displaytag-doc-3.0.3.buildspec) | [result](displaytag-doc-3.0.3.buildinfo): [15 :white_check_mark: ](displaytag-doc-3.0.3.buildcompare) | 17M |
 | [3.0.2](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.0.2/pom) | [mvn jdk22 w](displaytag-doc-3.0.2.buildspec) | [result](displaytag-doc-3.0.2.buildinfo): [15 :white_check_mark: ](displaytag-doc-3.0.2.buildcompare) | 17M |
 | [3.0.1](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.0.1/pom) | [mvn jdk21 w](displaytag-doc-3.0.1.buildspec) | [result](displaytag-doc-3.0.1.buildinfo): [15 :white_check_mark: ](displaytag-doc-3.0.1.buildcompare) | 17M |
 | [3.0.0](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.0.0/pom) | [mvn jdk21 w](displaytag-doc-3.0.0.buildspec) | [result](displaytag-doc-3.0.0.buildinfo): [15 :white_check_mark: ](displaytag-doc-3.0.0.buildcompare) | 17M |
