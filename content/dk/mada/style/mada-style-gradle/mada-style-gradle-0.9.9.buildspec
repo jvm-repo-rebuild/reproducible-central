@@ -34,5 +34,5 @@ command="bash ./gradlew --no-daemon javadoc publish publishToMavenLocal -Pversio
 buildinfo=${artifactId}-${version}.buildinfo
 
 # if the release is finally not reproducible, link to an issue tracker entry if one was created or diffoscope result
-diffoscope=${artifactId}-${version}.diffoscope
+#diffoscope=${artifactId}-${version}.diffoscope
 issue=
