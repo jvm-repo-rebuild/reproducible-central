@@ -86,6 +86,17 @@ do
       break
     fi
   done
+  # detect newest version that has a buildinfo file
+  newestBuildinfoVersion=
+  for version in $($tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
+  do
+    if [ -n "$(ls $dir | grep "\-${version}\.buildinfo")" ]
+    then
+      newestBuildinfoVersion="$version"
+      break
+    fi
+  done
+
   latestVersion="$(cat "${metadata}" | grep 'latest>' | cut -d '>' -f 2 | cut -d '<' -f 1)"
   lastUpdated="$(cat "${metadata}" | grep 'lastUpdated>' | cut -d '>' -f 2 | cut -d '<' -f 1)"
 
@@ -132,15 +143,15 @@ do
         echo "Source code: [$gitRepo]($gitRepo)" >> ${projectReadme}
         echo >> ${projectReadme}
 
-        projectGa="$(( $(cat $dir/*.buildinfo | grep coordinates | cut -d = -f 2 | sort -u | wc -l) ))"
+        projectGa="$(( $(cat $dir/*-${newestBuildinfoVersion}\.buildinfo | grep coordinates | cut -d = -f 2 | sort -u | wc -l) ))"
         if [ $projectGa -gt 1 ]
         then
           echo "<details><summary>This project defines $projectGa modules:</summary>" >> ${projectReadme}
           echo >> ${projectReadme}
-          for ga in $(cat $dir/*.buildinfo | grep coordinates | cut -d = -f 2 | sort -u)
+          for ga in $(cat $dir/*-${newestBuildinfoVersion}\.buildinfo | grep coordinates | cut -d = -f 2 | sort -u)
           do
             gaDir=$(echo "$ga" | sed -e 's_:_/_')
-            echo "* [$ga](https://central.sonatype.com/artifact/${gaDir}/${version})" >> ${projectReadme}
+            echo "* [$ga](https://central.sonatype.com/artifact/${gaDir}/${newestBuildinfoVersion})" >> ${projectReadme}
           done
           echo "</details>" >> ${projectReadme}
           echo >> ${projectReadme}
