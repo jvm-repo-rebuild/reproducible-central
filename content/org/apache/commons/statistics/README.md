@@ -7,19 +7,22 @@
 
 Source code: [https://github.com/apache/commons-statistics.git](https://github.com/apache/commons-statistics.git)
 
-<details><summary>This project defines 2 modules:</summary>
+<details><summary>This project defines 5 modules:</summary>
 
-* [org.apache.commons:commons-statistics-distribution](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-distribution/1.0)
-* [org.apache.commons:commons-statistics-parent](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-parent/1.0)
+* [org.apache.commons:commons-statistics-descriptive](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-descriptive/1.1)
+* [org.apache.commons:commons-statistics-distribution](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-distribution/1.1)
+* [org.apache.commons:commons-statistics-inference](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-inference/1.1)
+* [org.apache.commons:commons-statistics-parent](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-parent/1.1)
+* [org.apache.commons:commons-statistics-ranking](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-ranking/1.1)
 </details>
 
-rebuilding **1 releases** of org.apache.commons:commons-statistics-parent:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of org.apache.commons:commons-statistics-parent:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.1](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-parent/1.1/pom) | | | |
+| [1.1](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-parent/1.1/pom) | [mvn jdk11](commons-statistics-1.1.buildspec) | [result](commons-statistics-parent-1.1.buildinfo): [32 :white_check_mark: ](commons-statistics-parent-1.1.buildcompare) | 3.5M |
 | [1.0](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-parent/1.0/pom) | [mvn jdk8](commons-statistics-1.0.buildspec) | [result](commons-statistics-parent-1.0.buildinfo): [5 :white_check_mark:  2 :warning:](commons-statistics-parent-1.0.buildcompare) [:mag:](commons-statistics-parent-1.0.diffoscope) [:memo:](https://github.com/apache/commons-statistics/pull/42) | 1.8M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
