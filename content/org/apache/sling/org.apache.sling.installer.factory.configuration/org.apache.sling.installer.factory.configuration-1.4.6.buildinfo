@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Installer Configuration Factory
+group-id=org.apache.sling
+artifact-id=org.apache.sling.installer.factory.configuration
+version=1.4.6
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-installer-factory-configuration.git
+source.scm.tag=org.apache.sling.installer.factory.configuration-1.4.6
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.installer.factory.configuration-1.4.6.pom
+outputs.0.length=5872
+outputs.0.checksums.sha512=22ed0a0f0d4eda4456a3e5d7f0b2cd4c7514277e4ae04decc1afc9080ba69df8ba74e04a32c9f9654ad19f08da95b46c2231e8b09a65690069dd855785e73b14
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.installer.factory.configuration-1.4.6.jar
+outputs.1.length=50807
+outputs.1.checksums.sha512=4864c05276d7c3659ed99b09f751dbcbadf8a9fe5d647a84f32270f539fb4e55d2cca9db61961d202c74a83011de367f4a75a4939c8727379c9f4f74e46e4f8e
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.installer.factory.configuration-1.4.6-source-release.zip
+outputs.2.length=53054
+outputs.2.checksums.sha512=81e1faba92541a3dbe70f081155af1c80662fca14e164032ec2ff32eab09f8756872036487adc6db8c9a1b6c6ca3d00dac36a008410f5cb0d61393fbddcf5f46
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.installer.factory.configuration-1.4.6-sources.jar
+outputs.3.length=38269
+outputs.3.checksums.sha512=d41c09045b1f046d023b945336d57a2619ad775ff3fd9d56133bc1f4df939acb896290a97df463e2afa42e381e1e5e5ce125a898e343682b7426d7b9e3f78f87
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.installer.factory.configuration-1.4.6-sources.jar
+outputs.4.length=38269
+outputs.4.checksums.sha512=d41c09045b1f046d023b945336d57a2619ad775ff3fd9d56133bc1f4df939acb896290a97df463e2afa42e381e1e5e5ce125a898e343682b7426d7b9e3f78f87
