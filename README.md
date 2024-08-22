@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **4159 releases** of **684 projects**:
-   - **3319** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **4163 releases** of **684 projects**:
+   - **3323** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 840 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 684 projects, 585 have at least one fully reproducible release, 99 have none
 
@@ -336,7 +336,7 @@ Its objectives are to provide:
 | org.apache.wicket | [wicket-parent](content/org/apache/wicket/README.md) | 1 | 1 :white_check_mark: |
 | org.apache.wss4j | [wss4j](content/org/apache/wss4j/README.md) | 8 | 7 :white_check_mark: / 1 :warning: |
 | org.apache.zookeeper | [parent](content/org/apache/zookeeper/README.md) | 4 | 4 :warning: |
-| org.apache.activemq | [artemis-pom](content/org/apache/activemq/artemis/README.md) | 8 | 1 :white_check_mark: / 7 :warning: |
+| org.apache.activemq | [artemis-pom](content/org/apache/activemq/artemis/README.md) | 9 | 2 :white_check_mark: / 7 :warning: |
 | org.apache.aries | [*.cdi](content/org/apache/aries/cdi/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | org.apache.aries.jax | [*.rs](content/org/apache/aries/jax-rs/README.md) | 1 | 1 :white_check_mark: |
 | org.apache.camel | [camel](content/org/apache/camel/camel/README.md) | 7 | 7 :warning: |
@@ -384,9 +384,10 @@ Its objectives are to provide:
 | | [log4j-tools-bom](content/org/apache/logging/log4j/tools/README.md) | 9 | 9 :white_check_mark: |
 | | [log4j-transform-bom](content/org/apache/logging/log4j/transform/README.md) | 1 | 1 :white_check_mark: |
 | org.apache.maven.archetype | [maven-archetype](content/org/apache/maven/archetype/README.md) | 2 | 2 :white_check_mark: |
+| org.apache.maven.archetypes | [maven-archetype-bundles](content/org/apache/maven/archetypes/README.md) | 0 | 0 :warning: |
 | org.apache.maven.enforcer | [enforcer](content/org/apache/maven/enforcer/README.md) | 7 | 7 :white_check_mark: |
 | org.apache.maven.indexer | [maven-indexer](content/org/apache/maven/indexer/README.md) | 14 | 12 :white_check_mark: / 2 :warning: |
-| org.apache.maven.jxr | [jxr](content/org/apache/maven/jxr/README.md) | 6 | 6 :white_check_mark: |
+| org.apache.maven.jxr | [jxr](content/org/apache/maven/jxr/README.md) | 7 | 7 :white_check_mark: |
 | org.apache.maven | [maven](content/org/apache/maven/maven/README.md) | 29 | 26 :white_check_mark: / 3 :warning: |
 | | [maven-parent](content/org/apache/maven/parent/README.md) | 10 | 7 :white_check_mark: / 3 :warning: |
 | org.apache.maven.scm | [maven-scm](content/org/apache/maven/scm/README.md) | 10 | 9 :white_check_mark: / 1 :warning: |
@@ -400,7 +401,7 @@ Its objectives are to provide:
 | org.apache.maven.plugins | [maven-antrun-plugin](content/org/apache/maven/plugins/maven-antrun-plugin/README.md) | 2 | 2 :white_check_mark: |
 | | [maven-artifact-plugin](content/org/apache/maven/plugins/maven-artifact-plugin/README.md) | 8 | 8 :white_check_mark: |
 | | [maven-assembly-plugin](content/org/apache/maven/plugins/maven-assembly-plugin/README.md) | 8 | 8 :white_check_mark: |
-| | [maven-checkstyle-plugin](content/org/apache/maven/plugins/maven-checkstyle-plugin/README.md) | 8 | 8 :white_check_mark: |
+| | [maven-checkstyle-plugin](content/org/apache/maven/plugins/maven-checkstyle-plugin/README.md) | 9 | 9 :white_check_mark: |
 | | [maven-clean-plugin](content/org/apache/maven/plugins/maven-clean-plugin/README.md) | 5 | 5 :white_check_mark: |
 | | [maven-compiler-plugin](content/org/apache/maven/plugins/maven-compiler-plugin/README.md) | 8 | 8 :white_check_mark: |
 | | [maven-dependency-plugin](content/org/apache/maven/plugins/maven-dependency-plugin/README.md) | 10 | 10 :white_check_mark: |
@@ -502,7 +503,7 @@ Its objectives are to provide:
 | | [*.i18n](content/org/apache/sling/org.apache.sling.i18n/README.md) | 2 | 2 :warning: |
 | | [*.installer.console](content/org/apache/sling/org.apache.sling.installer.console/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
 | | [*.installer.core](content/org/apache/sling/org.apache.sling.installer.core/README.md) | 5 | 1 :white_check_mark: / 4 :warning: |
-| | [*.installer.factory.configuration](content/org/apache/sling/org.apache.sling.installer.factory.configuration/README.md) | 6 | 2 :white_check_mark: / 4 :warning: |
+| | [*.installer.factory.configuration](content/org/apache/sling/org.apache.sling.installer.factory.configuration/README.md) | 7 | 3 :white_check_mark: / 4 :warning: |
 | | [*.installer.factory.packages](content/org/apache/sling/org.apache.sling.installer.factory.packages/README.md) | 2 | 2 :warning: |
 | | [*.installer.hc](content/org/apache/sling/org.apache.sling.installer.hc/README.md) | 1 | 1 :white_check_mark: |
 | | [*.installer.provider.file](content/org/apache/sling/org.apache.sling.installer.provider.file/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
@@ -707,7 +708,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 2 | 2 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 39 | 39 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **684** | **4159** | **3319** :white_check_mark: **840** :warning: |
+| **Count:** | **684** | **4163** | **3323** :white_check_mark: **840** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -723,9 +724,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 gradle     17.0.11
      16 gradle     21
      26 mvn         7
-   1232 mvn         8
+   1234 mvn         8
       1 mvn         9
-   1058 mvn        11
+   1059 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
@@ -775,7 +776,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      19 mvn-3.9.2  17
       3 mvn-3.9.2  21
      75 mvn-3.9.3   8
-     51 mvn-3.9.3  11
+     52 mvn-3.9.3  11
       1 mvn-3.9.3  11.0.18
       3 mvn-3.9.3  11.0.2
       4 mvn-3.9.3  11.0.5
