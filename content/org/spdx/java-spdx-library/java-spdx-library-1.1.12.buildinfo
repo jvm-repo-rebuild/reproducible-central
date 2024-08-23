@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=java-spdx-library
+group-id=org.spdx
+artifact-id=java-spdx-library
+version=1.1.12
+
+# source information
+source.scm.uri=scm:git:git@github.com:spdx/Spdx-Java-Library.git
+source.scm.tag=v1.1.12
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.spdx
+outputs.0.filename=java-spdx-library-1.1.12.pom
+outputs.0.length=9970
+outputs.0.checksums.sha512=2bf59dc18096893e8a613cb407adaaae38778f31b1e0b273ba17f0f50e0d027b9f1a6298b2dfa74b4f6da20f9c741a09b711bd71e8a6cd7c60bb2019d76fe73a
+
+outputs.1.groupId=org.spdx
+outputs.1.filename=java-spdx-library-1.1.12.jar
+outputs.1.length=3622756
+outputs.1.checksums.sha512=63c8d27665c016404a44d4b722da2aa284acb06caef91a1207bc428085eb765236ee0bc1f1ddd28b404bf3da9176b4c8efe0ce2171d924d1834ff2e5b72df497
+
+outputs.2.groupId=org.spdx
+outputs.2.filename=java-spdx-library-1.1.12-sources.jar
+outputs.2.length=3516262
+outputs.2.checksums.sha512=b9a83a690fc4a0743093079c36d249d3c4043d68e0d21bf1549f67218a53c2a0f0c34f407f61cca89b342a7fe994090d5dad56f98843ea608db86833e9c8a392
