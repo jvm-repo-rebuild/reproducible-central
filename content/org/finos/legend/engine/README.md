@@ -232,6 +232,8 @@ rebuilding **1 releases** of org.finos.legend.engine:legend-engine:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.54.1](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.54.1/pom) | | | |
+| [4.54.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.54.0/pom) | | | |
 | [4.53.8](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.53.8/pom) | | | |
 | [4.53.5](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.53.5/pom) | | | |
 | [4.53.3](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.53.3/pom) | | | |
