@@ -30,3 +30,9 @@ outputs.1.groupId=org.spdx
 outputs.1.filename=java-spdx-library-1.1.10.jar
 outputs.1.length=3622396
 outputs.1.checksums.sha512=f6c29011e2a7888fff42c2de8e96bedc652a126c39785140a7a189fc543f1c2009827ecd31646314e0731cb6504d765a91e24efa485f062a6e19213b394824f5
+# ignored java-spdx-library-1.1.10.spdx.json
+
+outputs.2.groupId=org.spdx
+outputs.2.filename=java-spdx-library-1.1.10-sources.jar
+outputs.2.length=3515969
+outputs.2.checksums.sha512=d5770581bb8050f4554ebe8700c8c851660fdd9b5be31fe731788d72305a01838560902904e1a8e87daa880a66860b66519d9fdbb29d9a90133d9f42348cd543

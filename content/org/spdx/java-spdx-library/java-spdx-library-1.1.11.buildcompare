@@ -1,8 +1,8 @@
 version=1.1.11
-ok=2
+ok=3
 ko=0
 ignored=0
-okFiles="java-spdx-library-1.1.11.pom java-spdx-library-1.1.11.jar"
+okFiles="java-spdx-library-1.1.11.pom java-spdx-library-1.1.11.jar java-spdx-library-1.1.11-sources.jar"
 koFiles=""
 ignoredFiles=""
 reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"

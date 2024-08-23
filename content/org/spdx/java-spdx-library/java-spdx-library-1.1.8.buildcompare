@@ -1,7 +1,9 @@
 version=1.1.8
-ok=2
+ok=3
 ko=0
-okFiles="java-spdx-library-1.1.8.pom java-spdx-library-1.1.8.jar"
+ignored=1
+okFiles="java-spdx-library-1.1.8.pom java-spdx-library-1.1.8.jar java-spdx-library-1.1.8-sources.jar"
 koFiles=""
+ignoredFiles="java-spdx-library-1.1.8.spdx.json"
 reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Windows (from pom.properties newline)"

@@ -1,9 +1,9 @@
 version=1.1.10
-ok=2
+ok=3
 ko=0
-ignored=0
-okFiles="java-spdx-library-1.1.10.pom java-spdx-library-1.1.10.jar"
+ignored=1
+okFiles="java-spdx-library-1.1.10.pom java-spdx-library-1.1.10.jar java-spdx-library-1.1.10-sources.jar"
 koFiles=""
-ignoredFiles=""
+ignoredFiles="java-spdx-library-1.1.10.spdx.json"
 reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Windows (from pom.properties newline)"
