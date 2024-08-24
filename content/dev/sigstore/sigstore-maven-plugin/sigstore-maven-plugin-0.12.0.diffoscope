@@ -1,0 +1,173 @@
+1 / 3 central/dev/sigstore/sigstore-java/0.12.0/sigstore-java-0.12.0.jar repository/dev/sigstore/sigstore-java/0.12.0/sigstore-java-0.12.0.jar
+--- central/dev/sigstore/sigstore-java/0.12.0/sigstore-java-0.12.0.jar
++++ repository/dev/sigstore/sigstore-java/0.12.0/sigstore-java-0.12.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1169129 bytes, number of entries: 632
+│ +Zip file size: 1169130 bytes, number of entries: 632
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/
+│  -rw-r--r--  2.0 unx      260 b- defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  drwxrwxr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/services/
+│  -rw-rw-r--  2.0 unx      728 b- defN 80-Feb-01 00:00 META-INF/services/com.google.gson.TypeAdapterFactory
+│  drwxrwxr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 com/
+│  drwxrwxr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 com/google/
+│  drwxrwxr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 com/google/api/
+│ @@ -627,8 +627,8 @@
+│  -rw-rw-r--  2.0 unx     1045 b- defN 80-Feb-01 00:00 google/api/annotations.proto
+│  -rw-rw-r--  2.0 unx     4305 b- defN 80-Feb-01 00:00 google/api/field_behavior.proto
+│  -rw-rw-r--  2.0 unx    15159 b- defN 80-Feb-01 00:00 google/api/http.proto
+│  drwxrwxr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 rekor/
+│  drwxrwxr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 rekor/model/
+│  -rw-rw-r--  2.0 unx     2180 b- defN 80-Feb-01 00:00 rekor/model/hashedRekord.json
+│  -rw-rw-r--  2.0 unx    11558 b- defN 80-Feb-01 00:00 META-INF/LICENSE
+│ -632 files, 2942035 bytes uncompressed, 1056519 bytes compressed:  64.1%
+│ +632 files, 2942035 bytes uncompressed, 1056520 bytes compressed:  64.1%
+├── META-INF/services/com.google.gson.TypeAdapterFactory
+│┄ Ordering differences only
+│ @@ -1,16 +1,16 @@
+│  dev.sigstore.tuf.model.GsonAdaptersTimestamp
+│ -dev.sigstore.tuf.model.GsonAdaptersRootMeta
+│  dev.sigstore.tuf.model.GsonAdaptersHashes
+│ +dev.sigstore.tuf.model.GsonAdaptersRootMeta
+│  dev.sigstore.rekor.client.GsonAdaptersRekorEntry
+│  dev.sigstore.tuf.model.GsonAdaptersTargetMeta
+│  dev.sigstore.tuf.model.GsonAdaptersSnapshotMeta
+│  dev.sigstore.tuf.model.GsonAdaptersSnapshot
+│  dev.sigstore.tuf.model.GsonAdaptersTimestampMeta
+│  dev.sigstore.rekor.client.GsonAdaptersRekorEntryBody
+│ -dev.sigstore.tuf.model.GsonAdaptersRootRole
+│ -dev.sigstore.tuf.model.GsonAdaptersDelegationRole
+│  dev.sigstore.tuf.model.GsonAdaptersDelegations
+│ +dev.sigstore.tuf.model.GsonAdaptersDelegationRole
+│ +dev.sigstore.tuf.model.GsonAdaptersRootRole
+│  dev.sigstore.tuf.model.GsonAdaptersSignature
+│  dev.sigstore.tuf.model.GsonAdaptersKey
+│ -dev.sigstore.tuf.model.GsonAdaptersRoot
+│  dev.sigstore.tuf.model.GsonAdaptersTargets
+│ +dev.sigstore.tuf.model.GsonAdaptersRoot
+
+2 / 3 central/dev/sigstore/sigstore-java/0.12.0/sigstore-java-0.12.0.module repository/dev/sigstore/sigstore-java/0.12.0/sigstore-java-0.12.0.module
+--- central/dev/sigstore/sigstore-java/0.12.0/sigstore-java-0.12.0.module
++++ repository/dev/sigstore/sigstore-java/0.12.0/sigstore-java-0.12.0.module
+├── Pretty-printed
+│┄ Similarity: 0.9948846726190477%
+│┄ Differences: {"'variants'": "{0: {'files': {0: {'size': 1169130, 'sha512': "
+│┄                "'a3681fcb86abaa702c315b6c99aa8c6ac48a08cc13b77b32961ba9db0c71f822fff8ad6df4f0cc0b0780fa1d5d407bd771b3c26534db02e7319c42796b590f0c', "
+│┄                "'sha256': 'fe287f0a395537c2025e8bea093bb6ff44d215540be305ecf7dea5465af9ba0a', "
+│┄                "'sha1': '6a83c7178c0547d12a25358f08c9b39f61fc80d8', 'md5': "
+│┄                "'c31fbabe27e1f36ebc355aa830b34328'}}}, 1: {'files': {0: {'size': 1169130, "
+│┄                "'sha512': "
+│┄       […]
+│ @@ -20,20 +20,20 @@
+│                  "org.gradle.dependency.bundling": "external",
+│                  "org.gradle.jvm.version": 11,
+│                  "org.gradle.libraryelements": "jar",
+│                  "org.gradle.usage": "java-api"
+│              },
+│              "files": [
+│                  {
+│ -                    "md5": "b57bc8d863567f7715d77f3e0cdf4203",
+│ +                    "md5": "c31fbabe27e1f36ebc355aa830b34328",
+│                      "name": "sigstore-java-0.12.0.jar",
+│ -                    "sha1": "5d6206ba8b9fe8bc064e077e61fc4d8cf7625bd7",
+│ -                    "sha256": "a0f670941f34383b0b04c8397c9cb030993c9eb59325a597726fe1271cdc4d07",
+│ -                    "sha512": "5c3d088e2ca2a39bd0ef354dd5ed0ff6c6033e1a19924182d39e6767b98e5e3c4fee98f28a647eeb1afde8cb0bb5a6cbc8af9ed1b86bab1f2a6f7b975b085f6e",
+│ -                    "size": 1169129,
+│ +                    "sha1": "6a83c7178c0547d12a25358f08c9b39f61fc80d8",
+│ +                    "sha256": "fe287f0a395537c2025e8bea093bb6ff44d215540be305ecf7dea5465af9ba0a",
+│ +                    "sha512": "a3681fcb86abaa702c315b6c99aa8c6ac48a08cc13b77b32961ba9db0c71f822fff8ad6df4f0cc0b0780fa1d5d407bd771b3c26534db02e7319c42796b590f0c",
+│ +                    "size": 1169130,
+│                      "url": "sigstore-java-0.12.0.jar"
+│                  }
+│              ],
+│              "name": "apiElements"
+│          },
+│          {
+│              "attributes": {
+│ @@ -185,40 +185,40 @@
+│                      "version": {
+│                          "requires": "1.66.0"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "b57bc8d863567f7715d77f3e0cdf4203",
+│ +                    "md5": "c31fbabe27e1f36ebc355aa830b34328",
+│                      "name": "sigstore-java-0.12.0.jar",
+│ -                    "sha1": "5d6206ba8b9fe8bc064e077e61fc4d8cf7625bd7",
+│ -                    "sha256": "a0f670941f34383b0b04c8397c9cb030993c9eb59325a597726fe1271cdc4d07",
+│ -                    "sha512": "5c3d088e2ca2a39bd0ef354dd5ed0ff6c6033e1a19924182d39e6767b98e5e3c4fee98f28a647eeb1afde8cb0bb5a6cbc8af9ed1b86bab1f2a6f7b975b085f6e",
+│ -                    "size": 1169129,
+│ +                    "sha1": "6a83c7178c0547d12a25358f08c9b39f61fc80d8",
+│ +                    "sha256": "fe287f0a395537c2025e8bea093bb6ff44d215540be305ecf7dea5465af9ba0a",
+│ +                    "sha512": "a3681fcb86abaa702c315b6c99aa8c6ac48a08cc13b77b32961ba9db0c71f822fff8ad6df4f0cc0b0780fa1d5d407bd771b3c26534db02e7319c42796b590f0c",
+│ +                    "size": 1169130,
+│                      "url": "sigstore-java-0.12.0.jar"
+│                  }
+│              ],
+│              "name": "runtimeElements"
+│          },
+│          {
+│              "attributes": {
+│                  "org.gradle.category": "documentation",
+│                  "org.gradle.dependency.bundling": "external",
+│                  "org.gradle.docstype": "javadoc",
+│                  "org.gradle.usage": "java-runtime"
+│              },
+│              "files": [
+│                  {
+│ -                    "md5": "f0af01cddd3fb9a39ad26ea06493532a",
+│ +                    "md5": "1dc7078fb6c1c0934471df2112afeade",
+│                      "name": "sigstore-java-0.12.0-javadoc.jar",
+│ -                    "sha1": "5ba7fc6813a9473c5e0b92fc6b4ee73854b1de65",
+│ -                    "sha256": "b62c76bb0194fe27f39ffba30c5efb9ff2d543bd75a630312553aadc3b190604",
+│ -                    "sha512": "fc30884b2a4caa4e6ae9d59d109ee61f546c718ee9cddbcec65fd5c92141f5bf093e38a5cf17265ead6eb80902480ab0877f8631fa0ba5b575af1cb6c9616d9f",
+│ -                    "size": 1989519,
+│ +                    "sha1": "a1d59d7f6f130542b114893ac5ddc3e09b97b77a",
+│ +                    "sha256": "648bc4c2120aa75489790cdc31095baa9305cc09c65e691769946ffd69cc4cfe",
+│ +                    "sha512": "39f12cba748eb358391f5e779ca01d24275be37ea005fccb00ac09178c58db9e2e866f4196fead32c126f947ba7d6a0065505fdae076c5f5aacbb4d1267e267f",
+│ +                    "size": 1989559,
+│                      "url": "sigstore-java-0.12.0-javadoc.jar"
+│                  }
+│              ],
+│              "name": "javadocElements"
+│          },
+│          {
+│              "attributes": {
+
+3 / 3 central/dev/sigstore/sigstore-maven-plugin/0.12.0/sigstore-maven-plugin-0.12.0.module repository/dev/sigstore/sigstore-maven-plugin/0.12.0/sigstore-maven-plugin-0.12.0.module
+--- central/dev/sigstore/sigstore-maven-plugin/0.12.0/sigstore-maven-plugin-0.12.0.module
++++ repository/dev/sigstore/sigstore-maven-plugin/0.12.0/sigstore-maven-plugin-0.12.0.module
+├── Pretty-printed
+│┄ Similarity: 0.9985119047619048%
+│┄ Differences: {"'variants'": "{2: {'files': {0: {'sha512': "
+│┄                "'879c24b68e4cca2c041f3128db4ae4481e2098c21e57a29a52a78fcb7a1d5a7ef0ea35bc63ea52df15bd092759062fe919623a995123b5d3a4f16f6c45cb108b', "
+│┄                "'sha256': 'edab2df2ae2eaf813078b0efdda78f67aa8ed94fc48734f22ec6962d41fa6149', "
+│┄                "'sha1': '35a5961cb881cf499b2fc2fd8121ec54c39de1fb', 'md5': "
+│┄                "'06fce82d66686885d842b077c9930dff'}}}}"}
+│ @@ -84,19 +84,19 @@
+│                  "org.gradle.category": "documentation",
+│                  "org.gradle.dependency.bundling": "external",
+│                  "org.gradle.docstype": "javadoc",
+│                  "org.gradle.usage": "java-runtime"
+│              },
+│              "files": [
+│                  {
+│ -                    "md5": "00155b138f785647a9994d378200c7ed",
+│ +                    "md5": "06fce82d66686885d842b077c9930dff",
+│                      "name": "sigstore-maven-plugin-0.12.0-javadoc.jar",
+│ -                    "sha1": "e550036fa2b3ecdd8f243e69611585fcc9755a4f",
+│ -                    "sha256": "658f74a0fe250aefb53535e5986c2a91879f50f6f9b30cf13cb11ab67535219c",
+│ -                    "sha512": "0e0d7585659a447f2ea4be8d64b74ad1fae1abf024a377f24f9252c8e58a22d25bab4e3ee902fa64b02b02cc532ea6af7da3c51716d6c517d5d9d52ff3a905a7",
+│ +                    "sha1": "35a5961cb881cf499b2fc2fd8121ec54c39de1fb",
+│ +                    "sha256": "edab2df2ae2eaf813078b0efdda78f67aa8ed94fc48734f22ec6962d41fa6149",
+│ +                    "sha512": "879c24b68e4cca2c041f3128db4ae4481e2098c21e57a29a52a78fcb7a1d5a7ef0ea35bc63ea52df15bd092759062fe919623a995123b5d3a4f16f6c45cb108b",
+│                      "size": 314328,
+│                      "url": "sigstore-maven-plugin-0.12.0-javadoc.jar"
+│                  }
+│              ],
+│              "name": "javadocElements"
+│          },
+│          {
+
