@@ -1,0 +1,10 @@
+version=2.1.5
+ok=2
+ko=2
+ignored=0
+okFiles="takari-lifecycle-2.1.5.pom takari-lifecycle-plugin-2.1.5.pom"
+koFiles="takari-lifecycle-plugin-2.1.5.jar takari-lifecycle-plugin-2.1.5-sources.jar"
+ignoredFiles=""
+reference_java_version="21.0.3 (from MANIFEST.MF Build-Jdk)"
+# diffoscope target/reference/io.takari.maven.plugins/takari-lifecycle-plugin-2.1.5.jar takari-lifecycle-plugin/target/takari-lifecycle-plugin-2.1.5.jar
+# diffoscope target/reference/io.takari.maven.plugins/takari-lifecycle-plugin-2.1.5-sources.jar takari-lifecycle-plugin/target/takari-lifecycle-plugin-2.1.5-sources.jar

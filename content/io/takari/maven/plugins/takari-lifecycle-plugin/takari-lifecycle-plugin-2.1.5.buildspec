@@ -1,0 +1,19 @@
+groupId=io.takari.maven.plugins
+artifactId=takari-lifecycle-plugin
+display=${groupId}:${artifactId}
+version=2.1.5
+
+gitRepo=https://github.com/takari/takari-lifecycle.git
+gitTag=takari-lifecycle-${version}
+
+tool=mvn
+jdk=11
+newline=lf
+umask=022
+timezone="Etc/GMT-1"
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.detect.skip=false -Dbuildinfo.skipModules='*/*-its'"
+buildinfo=target/takari-lifecycle-${version}.buildinfo
+
+diffoscope=takari-lifecycle-${version}.diffoscope
+issue=

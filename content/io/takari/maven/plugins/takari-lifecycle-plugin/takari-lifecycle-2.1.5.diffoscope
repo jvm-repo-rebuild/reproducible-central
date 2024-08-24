@@ -1,0 +1,90 @@
+1 / 2 target/reference/io.takari.maven.plugins/takari-lifecycle-plugin-2.1.5.jar takari-lifecycle-plugin/target/takari-lifecycle-plugin-2.1.5.jar
+--- target/reference/io.takari.maven.plugins/takari-lifecycle-plugin-2.1.5.jar
++++ takari-lifecycle-plugin/target/takari-lifecycle-plugin-2.1.5.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 303463 bytes, number of entries: 177
+│ +Zip file size: 303462 bytes, number of entries: 177
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 META-INF/
+│ --rw----     2.0 fat      330 bl defN 80-Jan-01 09:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      329 bl defN 80-Jan-01 09:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 META-INF/m2e/
+│  ?rw-r--r--  2.0 unx     1031 bl defN 80-Jan-01 09:00 META-INF/m2e/lifecycle-mapping-metadata.xml
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 META-INF/maven/io.takari.maven.plugins/
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 META-INF/maven/io.takari.maven.plugins/takari-lifecycle-plugin/
+│  -rw----     2.0 fat       81 bl defN 80-Jan-01 09:00 META-INF/maven/io.takari.maven.plugins/takari-lifecycle-plugin/pom.properties
+│  ?rw-r--r--  2.0 unx   124837 bl defN 80-Jan-01 09:00 META-INF/maven/plugin.xml
+│ @@ -172,8 +172,8 @@
+│  ?rw-r--r--  2.0 unx     1630 bl defN 80-Jan-01 09:00 io/takari/resources/filtering/FilterResourcesProcessor$MapReflectionObjectHandler$1.class
+│  ?rw-r--r--  2.0 unx     1677 bl defN 80-Jan-01 09:00 io/takari/resources/filtering/FilterResourcesProcessor$MapReflectionObjectHandler$2.class
+│  ?rw-r--r--  2.0 unx     3461 bl defN 80-Jan-01 09:00 io/takari/resources/filtering/FilterResourcesProcessor$MapReflectionObjectHandler.class
+│  ?rw-r--r--  2.0 unx     1036 bl defN 80-Jan-01 09:00 io/takari/resources/filtering/FilterResourcesProcessor$NoEncodingMustacheFactory.class
+│  ?rw-r--r--  2.0 unx     8570 bl defN 80-Jan-01 09:00 io/takari/resources/filtering/FilterResourcesProcessor.class
+│  ?rw-r--r--  2.0 unx     1260 bl defN 80-Jan-01 09:00 io/takari/resources/filtering/MissingPropertyAction.class
+│  ?rw-r--r--  2.0 unx     3774 bl defN 80-Jan-01 09:00 io/takari/resources/filtering/ResourcesProcessor.class
+│ -177 files, 781836 bytes uncompressed, 267553 bytes compressed:  65.8%
+│ +177 files, 781835 bytes uncompressed, 267552 bytes compressed:  65.8%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Archiver-Version: Provisio Archiver
+│  Created-By: Takari Inc.
+│ -Built-By: cstamas
+│ -Build-Jdk: 21.0.3
+│ +Built-By: herve
+│ +Build-Jdk: 11.0.23
+│  Specification-Title: takari-lifecycle-plugin
+│  Specification-Version: 2.1.5
+│  Implementation-Title: takari-lifecycle-plugin
+│  Implementation-Version: 2.1.5
+│  Implementation-Vendor-Id: io.takari.maven.plugins
+├── META-INF/maven/io.takari.maven.plugins/takari-lifecycle-plugin/pom.properties
+│ @@ -1,3 +1,3 @@
+│ -artifactId=takari-lifecycle-plugin
+│  groupId=io.takari.maven.plugins
+│ +artifactId=takari-lifecycle-plugin
+│  version=2.1.5
+
+2 / 2 target/reference/io.takari.maven.plugins/takari-lifecycle-plugin-2.1.5-sources.jar takari-lifecycle-plugin/target/takari-lifecycle-plugin-2.1.5-sources.jar
+--- target/reference/io.takari.maven.plugins/takari-lifecycle-plugin-2.1.5-sources.jar
++++ takari-lifecycle-plugin/target/takari-lifecycle-plugin-2.1.5-sources.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 153124 bytes, number of entries: 111
+│ +Zip file size: 153122 bytes, number of entries: 111
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 META-INF/
+│ --rw----     2.0 fat      330 bl defN 80-Jan-01 09:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      329 bl defN 80-Jan-01 09:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 io/
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 io/takari/
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 io/takari/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 io/takari/maven/plugins/
+│  ?rw-r--r--  2.0 unx     5287 bl defN 80-Jan-01 09:00 io/takari/maven/plugins/Deploy.java
+│  ?rw-r--r--  2.0 unx     2392 bl defN 80-Jan-01 09:00 io/takari/maven/plugins/Install.java
+│  ?rw-r--r--  2.0 unx      482 bl defN 80-Jan-01 09:00 io/takari/maven/plugins/TakariLifecycleFlags.java
+│ @@ -106,8 +106,8 @@
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 io/takari/resources/
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 io/takari/resources/filtering/
+│  ?rw-r--r--  2.0 unx      861 bl defN 80-Jan-01 09:00 io/takari/resources/filtering/AbstractResourceProcessor.java
+│  ?rw-r--r--  2.0 unx     1853 bl defN 80-Jan-01 09:00 io/takari/resources/filtering/CopyResourcesProcessor.java
+│  ?rw-r--r--  2.0 unx     7547 bl defN 80-Jan-01 09:00 io/takari/resources/filtering/FilterResourcesProcessor.java
+│  ?rw-r--r--  2.0 unx     1029 bl defN 80-Jan-01 09:00 io/takari/resources/filtering/MissingPropertyAction.java
+│  ?rw-r--r--  2.0 unx     2710 bl defN 80-Jan-01 09:00 io/takari/resources/filtering/ResourcesProcessor.java
+│ -111 files, 520061 bytes uncompressed, 131490 bytes compressed:  74.7%
+│ +111 files, 520060 bytes uncompressed, 131488 bytes compressed:  74.7%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Archiver-Version: Provisio Archiver
+│  Created-By: Takari Inc.
+│ -Built-By: cstamas
+│ -Build-Jdk: 21.0.3
+│ +Built-By: herve
+│ +Build-Jdk: 11.0.23
+│  Specification-Title: takari-lifecycle-plugin
+│  Specification-Version: 2.1.5
+│  Implementation-Title: takari-lifecycle-plugin
+│  Implementation-Version: 2.1.5
+│  Implementation-Vendor-Id: io.takari.maven.plugins
+
