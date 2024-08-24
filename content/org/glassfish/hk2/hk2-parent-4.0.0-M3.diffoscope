@@ -1,0 +1,23 @@
+1 / 157 target/reference/org.glassfish.hk2.external/aopalliance-repackaged-4.0.0-M3.jar external/aopalliance/target/aopalliance-repackaged.jar
+--- target/reference/org.glassfish.hk2.external/aopalliance-repackaged-4.0.0-M3.jar
++++ external/aopalliance/target/aopalliance-repackaged.jar
+├── zipinfo {}
+│ @@ -6,15 +6,15 @@
+│  drwxr-sr-x  2.0 unx        0 b- stor 23-Oct-04 08:38 org/aopalliance/aop/
+│  drwxr-sr-x  2.0 unx        0 b- stor 23-Oct-04 08:38 org/aopalliance/instrument/
+│  drwxr-sr-x  2.0 unx        0 b- stor 23-Oct-04 08:38 org/aopalliance/intercept/
+│  drwxr-sr-x  2.0 unx        0 b- stor 23-Oct-04 08:38 org/aopalliance/reflect/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-04 08:38 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-04 08:38 META-INF/maven/org.glassfish.hk2.external/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-04 08:38 META-INF/maven/org.glassfish.hk2.external/aopalliance-repackaged/
+│ --rw-r--r--  2.0 unx    35717 b- defN 23-Oct-04 08:38 META-INF/LICENSE.md
+│ +-rwxr-xr-x  2.0 unx    35717 b- defN 23-Oct-04 08:38 META-INF/LICENSE.md
+│  -rw-r--r--  2.0 unx     2122 b- defN 23-Oct-04 08:38 META-INF/NOTICE.md
+│  -rw-r--r--  2.0 unx      113 b- defN 23-Oct-04 08:38 org/aopalliance/aop/Advice.class
+│  -rw-r--r--  2.0 unx     2127 b- defN 23-Oct-04 08:38 org/aopalliance/aop/AspectException.class
+│  -rw-r--r--  2.0 unx      463 b- defN 23-Oct-04 08:38 org/aopalliance/instrument/Instrumentation.class
+│  -rw-r--r--  2.0 unx     1075 b- defN 23-Oct-04 08:38 org/aopalliance/instrument/InstrumentationError.class
+│  -rw-r--r--  2.0 unx     1537 b- defN 23-Oct-04 08:38 org/aopalliance/instrument/Instrumentor.class
+│  -rw-r--r--  2.0 unx     1023 b- defN 23-Oct-04 08:38 org/aopalliance/instrument/UndoNotSupportedException.class
+
+...
