@@ -1,0 +1,8 @@
+version=2.0.0
+ok=2
+ko=1
+ignored=0
+okFiles="maven-timeline-2.0.0.pom maven-timeline-2.0.0-sources.jar"
+koFiles="maven-timeline-2.0.0.jar"
+ignoredFiles=""
+# diffoscope target/reference/io.takari.maven/maven-timeline-2.0.0.jar target/maven-timeline-2.0.0.jar
