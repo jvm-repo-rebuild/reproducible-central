@@ -16,4 +16,4 @@ command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildin
 buildinfo=target/takari-lifecycle-${version}.buildinfo
 
 diffoscope=takari-lifecycle-${version}.diffoscope
-issue=
+issue=https://github.com/takari/takari-lifecycle/issues/171
