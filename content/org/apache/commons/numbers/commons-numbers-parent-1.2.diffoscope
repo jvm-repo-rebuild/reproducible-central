@@ -1,0 +1,52 @@
+1 / 34 target/reference/org.apache.commons/commons-numbers-core-1.2.jar commons-numbers-core/target/commons-numbers-core-1.2.jar
+--- target/reference/org.apache.commons/commons-numbers-core-1.2.jar
++++ commons-numbers-core/target/commons-numbers-core-1.2.jar
+├── zipinfo {}
+│ @@ -1,35 +1,35 @@
+│  Zip file size: 39283 bytes, number of entries: 33
+│ --rw----     2.0 fat        0 bX defN 24-Aug-08 01:00 META-INF/
+│ --rw----     2.0 fat     1236 bl defN 24-Aug-08 01:00 META-INF/MANIFEST.MF
+...
+│ --rw----     2.0 fat       71 bl defN 24-Aug-08 01:00 META-INF/maven/org.apache.commons/commons-numbers-core/pom.properties
+│ --rw----     2.0 fat      179 bl defN 24-Aug-08 01:00 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat        0 bX defN 24-Aug-08 00:00 META-INF/
+│ +-rw----     2.0 fat     1236 bl defN 24-Aug-08 00:00 META-INF/MANIFEST.MF
+...
+│ +-rw----     2.0 fat       71 bl defN 24-Aug-08 00:00 META-INF/maven/org.apache.commons/commons-numbers-core/pom.properties
+│ +-rw----     2.0 fat      179 bl defN 24-Aug-08 00:00 META-INF/versions/9/module-info.class
+│  33 files, 69509 bytes uncompressed, 33553 bytes compressed:  51.7%
+├── META-INF/MANIFEST.MF
+│ @@ -5,15 +5,15 @@
+│  Specification-Version: 1.2
+
+│  Specification-Vendor: The Apache Software Foundation
+
+│  Implementation-Title: Apache Commons Numbers Core
+
+│  Implementation-Version: 1.2
+
+│  Implementation-Vendor: The Apache Software Foundation
+
+│  Automatic-Module-Name: org.apache.commons.numbers.core
+
+│  Implementation-Build: 77f715769e4039acb4babd9add80b78a06ca7279; 2024-08-
+
+│ - 08T14:26:00Z
+
+│ + 24T09:52:27Z
+
+│  Implementation-Vendor-Id: org.apache
+
+│  X-Compile-Source-JDK: 1.8
+
+│  X-Compile-Target-JDK: 1.8
+
+│  Bundle-Description: Basic utilities.
+
+│  Bundle-DocURL: http://commons.apache.org/proper/commons-numbers/commons-
+
+│   numbers-core/
+
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+
+...
