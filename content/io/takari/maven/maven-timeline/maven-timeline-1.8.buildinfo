@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Timeline extension
+group-id=io.takari.maven
+artifact-id=maven-timeline
+version=1.8
+
+# source information
+source.scm.uri=scm:git:git@github.com:takari/takari-pom.git/maven-timeline
+source.scm.tag=maven-timeline-1.8
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=io.takari.maven
+outputs.0.filename=maven-timeline-1.8.pom
+outputs.0.length=2076
+outputs.0.checksums.sha512=b00991e1bbede85b97fc5e19f6cb59d17b2b80dc64b1fc42402d1a716580e005ff68c91ac308bf794ad6065cb3adf7350535c0215c43b2ef2391858a43d66370
+
+outputs.1.groupId=io.takari.maven
+outputs.1.filename=maven-timeline-1.8.jar
+outputs.1.length=24975
+outputs.1.checksums.sha512=d7fe1d6fbbfec09f8e73989fad065eba07d3b8708b666774a9e572f95200dad603e412e5db237d56edc35d9d547161067c364342e396ec0867bde5e1ef039db2
+
+outputs.2.groupId=io.takari.maven
+outputs.2.filename=maven-timeline-1.8-sources.jar
+outputs.2.length=9062
+outputs.2.checksums.sha512=3480d863393caa2f9e4d241081a535366df7a665ae8851b09800ba6873a8e84963e6231e65d8141938f454d7defda3dbefbce5af597eb096ae53f78a3966b29e

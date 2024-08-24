@@ -1,0 +1,10 @@
+version=1.8
+ok=1
+ko=2
+ignored=0
+okFiles="maven-timeline-1.8.pom"
+koFiles="maven-timeline-1.8.jar maven-timeline-1.8-sources.jar"
+ignoredFiles=""
+reference_java_version="11.0.17 (from MANIFEST.MF Build-Jdk)"
+# diffoscope target/reference/io.takari.maven/maven-timeline-1.8.jar target/maven-timeline-1.8.jar
+# diffoscope target/reference/io.takari.maven/maven-timeline-1.8-sources.jar target/maven-timeline-1.8-sources.jar

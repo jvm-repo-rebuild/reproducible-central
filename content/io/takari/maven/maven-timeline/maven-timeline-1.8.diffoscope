@@ -1,0 +1,81 @@
+1 / 2 target/reference/io.takari.maven/maven-timeline-1.8.jar target/maven-timeline-1.8.jar
+--- target/reference/io.takari.maven/maven-timeline-1.8.jar
++++ target/maven-timeline-1.8.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 24976 bytes, number of entries: 31
+│ +Zip file size: 24975 bytes, number of entries: 31
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 META-INF/
+│ --rw----     2.0 fat      301 bl defN 80-Jan-01 09:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      299 bl defN 80-Jan-01 09:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 META-INF/maven/io.takari.maven/
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 META-INF/maven/io.takari.maven/maven-timeline/
+│  -rw----     2.0 fat       62 bl defN 80-Jan-01 09:00 META-INF/maven/io.takari.maven/maven-timeline/pom.properties
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 META-INF/sisu/
+│  ?rw-r--r--  2.0 unx       46 bl defN 80-Jan-01 09:00 META-INF/sisu/javax.inject.Named
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 META-INF/takari/
+│ @@ -26,8 +26,8 @@
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 timeline/
+│  ?rw-r--r--  2.0 unx     9780 bl defN 80-Jan-01 09:00 timeline/app.js
+│  ?rw-r--r--  2.0 unx     4415 bl defN 80-Jan-01 09:00 timeline/database.js
+│  ?rw-r--r--  2.0 unx    14293 bl defN 80-Jan-01 09:00 timeline/maven-timeline.js
+│  ?rw-r--r--  2.0 unx     2364 bl defN 80-Jan-01 09:00 timeline/style.css
+│  ?rw-r--r--  2.0 unx     1250 bl defN 80-Jan-01 09:00 timeline/timeline.html
+│  ?rw-r--r--  2.0 unx     5212 bl defN 80-Jan-01 09:00 timeline/timeline.js
+│ -31 files, 66187 bytes uncompressed, 20156 bytes compressed:  69.5%
+│ +31 files, 66185 bytes uncompressed, 20155 bytes compressed:  69.5%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Archiver-Version: Provisio Archiver
+│  Created-By: Takari Inc.
+│ -Built-By: cstamas
+│ -Build-Jdk: 11.0.17
+│ +Built-By: herve
+│ +Build-Jdk: 11.0.23
+│  Specification-Title: maven-timeline
+│  Specification-Version: 1.8
+│  Implementation-Title: maven-timeline
+│  Implementation-Version: 1.8
+│  Implementation-Vendor-Id: io.takari.maven
+
+2 / 2 target/reference/io.takari.maven/maven-timeline-1.8-sources.jar target/maven-timeline-1.8-sources.jar
+--- target/reference/io.takari.maven/maven-timeline-1.8-sources.jar
++++ target/maven-timeline-1.8-sources.jar
+├── zipinfo {}
+│ @@ -1,16 +1,16 @@
+│ -Zip file size: 9063 bytes, number of entries: 14
+│ +Zip file size: 9062 bytes, number of entries: 14
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 META-INF/
+│ --rw----     2.0 fat      301 bl defN 80-Jan-01 09:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      299 bl defN 80-Jan-01 09:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 io/
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 io/takari/
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 io/takari/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 io/takari/maven/timeline/
+│  ?rw-r--r--  2.0 unx     2547 bl defN 80-Jan-01 09:00 io/takari/maven/timeline/BuildEventsExtension.java
+│  ?rw-r--r--  2.0 unx      921 bl defN 80-Jan-01 09:00 io/takari/maven/timeline/Event.java
+│  ?rw-r--r--  2.0 unx      746 bl defN 80-Jan-01 09:00 io/takari/maven/timeline/Timeline.java
+│  ?rw-r--r--  2.0 unx      348 bl defN 80-Jan-01 09:00 io/takari/maven/timeline/TimelineSerializer.java
+│  ?rw-r--r--  2.0 unx     3901 bl defN 80-Jan-01 09:00 io/takari/maven/timeline/WebUtils.java
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 io/takari/maven/timeline/buildevents/
+│  ?rwxr-xr-x  2.0 unx     8903 bl defN 80-Jan-01 09:00 io/takari/maven/timeline/buildevents/BuildEventListener.java
+│  ?rwxr-xr-x  2.0 unx     3404 bl defN 80-Jan-01 09:00 io/takari/maven/timeline/buildevents/ExecutionListenerChain.java
+│ -14 files, 21071 bytes uncompressed, 6847 bytes compressed:  67.5%
+│ +14 files, 21069 bytes uncompressed, 6846 bytes compressed:  67.5%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Archiver-Version: Provisio Archiver
+│  Created-By: Takari Inc.
+│ -Built-By: cstamas
+│ -Build-Jdk: 11.0.17
+│ +Built-By: herve
+│ +Build-Jdk: 11.0.23
+│  Specification-Title: maven-timeline
+│  Specification-Version: 1.8
+│  Implementation-Title: maven-timeline
+│  Implementation-Version: 1.8
+│  Implementation-Vendor-Id: io.takari.maven
+
