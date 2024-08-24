@@ -4,15 +4,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240823160644 --> [airbase](../content/io/airlift/airbase/README.md) | [167](../content/io/airlift/airbase/airbase-167.buildspec) :white_check_mark: | [168](../content/io/airlift/airbase/airbase-168.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-167.buildspec 168` |
-| <!-- 20240823144653 --> [sigstore-maven-plugin](../content/dev/sigstore/sigstore-maven-plugin/README.md) | [0.4.0](../content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-0.4.0.buildspec) :white_check_mark: | [0.12.0](../content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-0.12.0.buildspec) | `bin/add-new-release.sh content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-0.4.0.buildspec 0.12.0` |
-| <!-- 20240823094323 --> [rdf-abac](../content/io/telicent/jena/rdf-abac/README.md) | [0.71.6](../content/io/telicent/jena/rdf-abac/rdf-abac-0.71.6.buildspec) :white_check_mark: | [0.71.7](../content/io/telicent/jena/rdf-abac/rdf-abac-0.71.7.buildspec) | `bin/add-new-release.sh content/io/telicent/jena/rdf-abac/rdf-abac-0.71.6.buildspec 0.71.7` |
-| <!-- 20240823060339 --> [byte-buddy-parent](../content/net/bytebuddy/README.md) | [1.14.19](../content/net/bytebuddy/byte-buddy-1.14.19.buildspec) :white_check_mark: | [1.15.0](../content/net/bytebuddy/byte-buddy-1.15.0.buildspec) | `bin/add-new-release.sh content/net/bytebuddy/byte-buddy-1.14.19.buildspec 1.15.0` |
-| <!-- 20240822225344 --> [spdx-maven-plugin](../content/org/spdx/spdx-maven-plugin/README.md) | [0.7.3](../content/org/spdx/spdx-maven-plugin/spdx-maven-plugin-0.7.3.buildspec) :white_check_mark: | [0.7.4](../content/org/spdx/spdx-maven-plugin/spdx-maven-plugin-0.7.4.buildspec) | `bin/add-new-release.sh content/org/spdx/spdx-maven-plugin/spdx-maven-plugin-0.7.3.buildspec 0.7.4` |
-| <!-- 20240817210045 --> [mybatis-2-spring](../content/org/mybatis/mybatis-2-spring/README.md) | [1.2.0](../content/org/mybatis/mybatis-2-spring/mybatis-2-spring-1.2.0.buildspec) :white_check_mark: | [1.2.1](../content/org/mybatis/mybatis-2-spring/mybatis-2-spring-1.2.1.buildspec) | `bin/add-new-release.sh content/org/mybatis/mybatis-2-spring/mybatis-2-spring-1.2.0.buildspec 1.2.1` |
-| <!-- 20240812093803 --> [commons-numbers-parent](../content/org/apache/commons/numbers/README.md) | [1.1](../content/org/apache/commons/numbers/commons-numbers-1.1.buildspec) :white_check_mark: | [1.2](../content/org/apache/commons/numbers/commons-numbers-1.2.buildspec) | `bin/add-new-release.sh content/org/apache/commons/numbers/commons-numbers-1.1.buildspec 1.2` |
-| <!-- 20240809100804 --> [flowlogix](../content/com/flowlogix/README.md) | [9.0.2](../content/com/flowlogix/flowlogix-9.0.2.buildspec) :white_check_mark: | [9.0.3](../content/com/flowlogix/flowlogix-9.0.3.buildspec) | `bin/add-new-release.sh content/com/flowlogix/flowlogix-9.0.2.buildspec 9.0.3` |
-| <!-- 20240704232838 --> [hk2-parent](../content/org/glassfish/hk2/README.md) | [4.0.0-M2](../content/org/glassfish/hk2/hk2-4.0.0-M2.buildspec) :white_check_mark: | [4.0.0-M3](../content/org/glassfish/hk2/hk2-4.0.0-M3.buildspec) | `bin/add-new-release.sh content/org/glassfish/hk2/hk2-4.0.0-M2.buildspec 4.0.0-M3` |
+| <!-- 20240824014913 --> [liftwizard](../content/io/liftwizard/README.md) | [2.1.17](../content/io/liftwizard/liftwizard-2.1.17.buildspec) :white_check_mark: | [2.1.18](../content/io/liftwizard/liftwizard-2.1.18.buildspec) | `bin/add-new-release.sh content/io/liftwizard/liftwizard-2.1.17.buildspec 2.1.18` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -26,6 +18,7 @@ New Releases To Add
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
 | <!-- 20240818192249 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [surefire](../content/org/apache/maven/surefire/README.md) | [3.4.0](../content/org/apache/maven/surefire/surefire-3.4.0.buildspec) :white_check_mark: | [3.5.0](../content/org/apache/maven/surefire/surefire-3.5.0.buildspec)  | `bin/add-new-release.sh content/org/apache/maven/surefire/surefire-3.4.0.buildspec 3.5.0 staging` |
+| <!-- 20240818134743 --> [:mailbox:](https://lists.apache.org/list?dev@commons.apache.org:lte=1M:VOTE) | [commons-parent](../content/org/apache/commons/parent/README.md) | [73](../content/org/apache/commons/parent/commons-parent-73.buildspec) :white_check_mark: | [74](../content/org/apache/commons/parent/commons-parent-74.buildspec)  | `bin/add-new-release.sh content/org/apache/commons/parent/commons-parent-73.buildspec 74 staging` |
 | <!-- 20240810053328 --> [:mailbox:](https://lists.apache.org/list?dev@struts.apache.org:lte=1M:VOTE) | [struts2-parent](../content/org/apache/struts/README.md) | [6.6.0](../content/org/apache/struts/struts2-6.6.0.buildspec) :white_check_mark: | [7.0.0-M9](../content/org/apache/struts/struts2-7.0.0-M9.buildspec)  | `bin/add-new-release.sh content/org/apache/struts/struts2-6.6.0.buildspec 7.0.0-M9 staging` |
 | <!-- 20240720095556 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-javadoc-plugin](../content/org/apache/maven/plugins/maven-javadoc-plugin/README.md) | [3.8.0](../content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.8.0.buildspec) :white_check_mark: | [3.10.0](../content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.10.0.buildspec) [6 :white_check_mark: ](../content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.10.0.buildcompare) | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.8.0.buildspec 3.10.0 staging` |
 | <!-- 20240713191037 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-pmd-plugin](../content/org/apache/maven/plugins/maven-pmd-plugin/README.md) | [3.24.0](../content/org/apache/maven/plugins/maven-pmd-plugin/maven-pmd-plugin-3.24.0.buildspec) :white_check_mark: | [3.25.0](../content/org/apache/maven/plugins/maven-pmd-plugin/maven-pmd-plugin-3.25.0.buildspec) [6 :white_check_mark: ](../content/org/apache/maven/plugins/maven-pmd-plugin/maven-pmd-plugin-3.25.0.buildcompare) | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-pmd-plugin/maven-pmd-plugin-3.24.0.buildspec 3.25.0 staging` |
@@ -44,6 +37,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20240824144019 --> [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | [7.26.1](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.26.1.buildspec) :warning: | [7.27.0](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.27.0.buildspec) | `bin/add-new-release.sh content/nl/basjes/parse/useragent/yauaa/yauaa-7.26.1.buildspec 7.27.0` |
 | <!-- 20240823152138 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.54.1](../content/org/finos/legend/engine/legend-engine-4.54.1.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.54.1` |
 | <!-- 20240822133808 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | [2.4.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.4.0.buildspec) :warning: | [2.7.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.7.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/instrumentation/opentelemetry-2.4.0.buildspec 2.7.0` |
 | <!-- 20240821130229 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.17.14](../content/org/webjars/swagger-ui/swagger-ui-5.17.14.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.17.14` |
@@ -98,6 +92,7 @@ New Releases To Add
 | <!-- 20231109041226 --> [org.apache.sling.cms](../content/org/apache/sling/org.apache.sling.cms/README.md) | [1.1.4](../content/org/apache/sling/org.apache.sling.cms/org.apache.sling.cms-1.1.4.buildspec) :warning: | [1.1.8](../content/org/apache/sling/org.apache.sling.cms/org.apache.sling.cms-1.1.8.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.cms/org.apache.sling.cms-1.1.4.buildspec 1.1.8` |
 | <!-- 20231012160021 --> [parent](../content/org/apache/sis/README.md) | [1.3](../content/org/apache/sis/parent-1.3.buildspec) :warning: [:memo:](https://github.com/apache/sis/pull/36) | [1.4](../content/org/apache/sis/parent-1.4.buildspec) | `bin/add-new-release.sh content/org/apache/sis/parent-1.3.buildspec 1.4` |
 | <!-- 20181213005347 --> [maven-archetype-bundles](../content/org/apache/maven/archetypes/README.md) | [](../content/org/apache/maven/archetypes/) :x: | [31](../content/org/apache/maven/archetypes/-31.buildspec) | `bin/add-new-release.sh content/org/apache/maven/archetypes/ 31` |
+| <!-- 20141225225010 --> [takari-plugin-testing-plugin](../content/io/takari/maven/plugins/takari-plugin-testing/README.md) | [](../content/io/takari/maven/plugins/takari-plugin-testing/) :x: | [1.9.2](../content/io/takari/maven/plugins/takari-plugin-testing/-1.9.2.buildspec) | `bin/add-new-release.sh content/io/takari/maven/plugins/takari-plugin-testing/ 1.9.2` |
 <!-- END GENERATED ADD KO -->
 
 ## Newest not reproducible
@@ -105,20 +100,28 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20240823144653 --> [sigstore-maven-plugin](../content/dev/sigstore/sigstore-maven-plugin/README.md) | 0.12.0 :warning: |
+| <!-- 20240823120024 --> [maven-timeline](../content/io/takari/maven/maven-timeline/README.md) | 2.0.0 :warning: [:memo:](https://github.com/takari/takari-lifecycle/issues/171) |
 | <!-- 20240819202444 --> [jdbi3-root](../content/org/jdbi/README.md) | 3.45.4 :warning: [:memo:](https://github.com/basepom/basepom/pull/73) |
 | <!-- 20240819051939 --> [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | 1.68.0 :warning: [:memo:](https://issues.apache.org/jira/browse/OAK-10662) |
+| <!-- 20240817210045 --> [mybatis-2-spring](../content/org/mybatis/mybatis-2-spring/README.md) | 1.2.1 :warning: |
 | <!-- 20240814231054 --> [commons-cli](../content/org/apache/commons/commons-cli/README.md) | 1.9.0 :warning: |
+| <!-- 20240812093803 --> [commons-numbers-parent](../content/org/apache/commons/numbers/README.md) | 1.2 :warning: |
 | <!-- 20240810093636 --> [slf4j-parent](../content/org/slf4j/README.md) | 2.1.0-alpha1 :warning: |
 | <!-- 20240809124705 --> [hibernate-search-bom](../content/org/hibernate/search/hibernate-search-bom/README.md) | 7.2.0.Final :warning: |
+| <!-- 20240809100804 --> [flowlogix](../content/com/flowlogix/README.md) | 9.0.3 :warning: |
 | <!-- 20240723191850 --> [bcel](../content/org/apache/commons/bcel/README.md) | 6.10.0 :warning: |
 | <!-- 20240716161608 --> [jpmml-h2o](../content/org/jpmml/jpmml-h2o/README.md) | 1.2.13 :warning: |
 | <!-- 20240716161020 --> [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | 1.1.1 :warning: |
 | <!-- 20240716083255 --> [jpmml-xgboost](../content/org/jpmml/jpmml-xgboost/README.md) | 1.8.6 :warning: [:memo:](https://github.com/jpmml/jpmml-xgboost/pull/73) |
 | <!-- 20240715085906 --> [commons-rng-parent](../content/org/apache/commons/rng/README.md) | 1.6 :warning: |
 | <!-- 20240712040920 --> [paimon-parent](../content/org/apache/paimon/README.md) | 0.8.2 :warning: [:memo:](https://github.com/apache/paimon/pull/3719) |
+| <!-- 20240708165739 --> [takari-smart-builder](../content/io/takari/maven/takari-smart-builder/README.md) | 1.0.0 :warning: [:memo:](https://github.com/takari/takari-lifecycle/issues/171) |
 | <!-- 20240708084644 --> [io.wcm.wcm.commons](../content/io/wcm/io.wcm.wcm/commons/README.md) | 1.11.0 :warning: |
 | <!-- 20240705173542 --> [jackson-dataformats-binary](../content/com/fasterxml/jackson/dataformat/jackson-dataformats-binary/README.md) | 2.17.2 :warning: |
 | <!-- 20240705171947 --> [jackson-jr-parent](../content/com/fasterxml/jackson/jr/README.md) | 2.17.2 :warning: |
+| <!-- 20240704232838 --> [hk2-parent](../content/org/glassfish/hk2/README.md) | 4.0.0-M3 :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/1071) |
+| <!-- 20240703223551 --> [takari-lifecycle-plugin](../content/io/takari/maven/plugins/takari-lifecycle-plugin/README.md) | 2.1.6 :warning: [:memo:](https://github.com/takari/takari-lifecycle/issues/171) |
 | <!-- 20240628155438 --> [org.apache.sling.models.impl](../content/org/apache/sling/org.apache.sling.models.impl/README.md) | 1.7.0 :warning: |
 | <!-- 20240625152252 --> [ratis](../content/org/apache/ratis/README.md) | 3.1.0 :warning: [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) |
 | <!-- 20240624091135 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | 1.6.5 :warning: |
@@ -134,11 +137,11 @@ New Releases To Add
 | <!-- 20240509155445 --> [hive](../content/org/apache/hive/README.md) | 4.0.0 :warning: [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) |
 | <!-- 20240506065040 --> [batchee](../content/org/apache/batchee/README.md) | 2.0.0 :warning: |
 | <!-- 20240503123932 --> [org.apache.sling.rewriter](../content/org/apache/sling/org.apache.sling.rewriter/README.md) | 1.4.4 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-rewriter/pull/14) |
+| <!-- 20240503105521 --> [io.takari.incrementalbuild](../content/io/takari/incrementalbuild/README.md) | 1.0.2 :warning: |
 | <!-- 20240502220117 --> [commons-csv](../content/org/apache/commons/csv/README.md) | 1.11.0 :warning: |
 | <!-- 20240501164724 --> [turbine-webapp-6.0](../content/org/apache/turbine/turbine-webapp-6.0/README.md) | 3.0.0 :warning: |
 | <!-- 20240430072842 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | 5.1.0 :warning: |
 | <!-- 20240419143300 --> [commons-release-plugin](../content/org/apache/commons/commons-release-plugin/README.md) | 1.8.2 :warning: |
-| <!-- 20240415113130 --> [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | 7.26.1 :warning: |
 | <!-- 20240414093609 --> [maven-scm](../content/org/apache/maven/scm/README.md) | 2.1.0 :warning: |
 | <!-- 20240412140142 --> [karaf](../content/org/apache/karaf/karaf/README.md) | 4.4.6 :warning: [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) |
 | <!-- 20240403160841 --> [mybatis](../content/org/mybatis/mybatis/README.md) | 3.5.16 :warning: |
