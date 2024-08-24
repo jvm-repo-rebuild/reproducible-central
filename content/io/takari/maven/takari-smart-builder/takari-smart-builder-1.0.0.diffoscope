@@ -1,0 +1,31 @@
+1 / 1 target/reference/io.takari.maven/takari-smart-builder-1.0.0.jar target/takari-smart-builder-1.0.0.jar
+--- target/reference/io.takari.maven/takari-smart-builder-1.0.0.jar
++++ target/takari-smart-builder-1.0.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 36432 bytes, number of entries: 28
+│ +Zip file size: 36431 bytes, number of entries: 28
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 META-INF/
+│  -rw----     2.0 fat      278 bl defN 80-Jan-01 09:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 META-INF/maven/io.takari.maven/
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 META-INF/maven/io.takari.maven/takari-smart-builder/
+│  -rw----     2.0 fat       70 bl defN 80-Jan-01 09:00 META-INF/maven/io.takari.maven/takari-smart-builder/pom.properties
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 META-INF/sisu/
+│ @@ -23,8 +23,8 @@
+│  ?rw-r--r--  2.0 unx      369 bl defN 80-Jan-01 09:00 io/takari/maven/builder/smart/ProjectExecutorService$ProjectRunnable.class
+│  ?rw-r--r--  2.0 unx     5680 bl defN 80-Jan-01 09:00 io/takari/maven/builder/smart/ProjectExecutorService.class
+│  ?rw-r--r--  2.0 unx     4959 bl defN 80-Jan-01 09:00 io/takari/maven/builder/smart/ReactorBuildQueue.class
+│  ?rw-r--r--  2.0 unx    11866 bl defN 80-Jan-01 09:00 io/takari/maven/builder/smart/ReactorBuildStats.class
+│  ?rw-r--r--  2.0 unx     9720 bl defN 80-Jan-01 09:00 io/takari/maven/builder/smart/SmartBuilder.class
+│  ?rw-r--r--  2.0 unx     1627 bl defN 80-Jan-01 09:00 io/takari/maven/builder/smart/SmartBuilderImpl$ProjectBuildTask.class
+│  ?rw-r--r--  2.0 unx    10878 bl defN 80-Jan-01 09:00 io/takari/maven/builder/smart/SmartBuilderImpl.class
+│ -28 files, 79930 bytes uncompressed, 31534 bytes compressed:  60.5%
+│ +28 files, 79930 bytes uncompressed, 31533 bytes compressed:  60.5%
+├── META-INF/maven/io.takari.maven/takari-smart-builder/pom.properties
+│ @@ -1,3 +1,3 @@
+│ -artifactId=takari-smart-builder
+│  groupId=io.takari.maven
+│ +artifactId=takari-smart-builder
+│  version=1.0.0
+

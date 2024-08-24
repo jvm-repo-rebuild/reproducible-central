@@ -1,0 +1,8 @@
+version=1.0.0
+ok=2
+ko=1
+ignored=0
+okFiles="takari-smart-builder-1.0.0.pom takari-smart-builder-1.0.0-sources.jar"
+koFiles="takari-smart-builder-1.0.0.jar"
+ignoredFiles=""
+# diffoscope target/reference/io.takari.maven/takari-smart-builder-1.0.0.jar target/takari-smart-builder-1.0.0.jar

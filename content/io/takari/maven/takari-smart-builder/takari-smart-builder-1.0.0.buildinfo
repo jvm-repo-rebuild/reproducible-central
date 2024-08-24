@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Takari Smart Builder for Maven
+group-id=io.takari.maven
+artifact-id=takari-smart-builder
+version=1.0.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:takari/takari-smart-builder.git
+source.scm.tag=takari-smart-builder-1.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=io.takari.maven
+outputs.0.filename=takari-smart-builder-1.0.0.pom
+outputs.0.length=3672
+outputs.0.checksums.sha512=fba068b86baf86ab4d0bbacd5d381f1e2702891aded3aba8a2ec21a45a8affb441f3472f007f168badf84e5b4b074a4a5add78f10d94699ed5cb2862b69ac771
+
+outputs.1.groupId=io.takari.maven
+outputs.1.filename=takari-smart-builder-1.0.0.jar
+outputs.1.length=36431
+outputs.1.checksums.sha512=38ff69cc0b10ef4837172dcc790e5b83958175cfca4766789518feb62d7cc3e419398719c9926143d2a8fb83a924ac7904e7da4a3f6955a07854a8ae6abe9551
+
+outputs.2.groupId=io.takari.maven
+outputs.2.filename=takari-smart-builder-1.0.0-sources.jar
+outputs.2.length=16188
+outputs.2.checksums.sha512=6c540575ca584797a6c2e15ddf6aac6f03e98eccd4f49ba70b5875d53c16e94ad50c511935142ba85c6bb2f754960399923972972888c0f3a42364cbe62d8720
