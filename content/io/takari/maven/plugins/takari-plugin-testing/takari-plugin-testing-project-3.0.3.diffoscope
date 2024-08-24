@@ -1,0 +1,28 @@
+1 / 1 target/reference/io.takari.maven.plugins/takari-plugin-testing-3.0.3.jar takari-plugin-testing/target/takari-plugin-testing-3.0.3.jar
+--- target/reference/io.takari.maven.plugins/takari-plugin-testing-3.0.3.jar
++++ takari-plugin-testing/target/takari-plugin-testing-3.0.3.jar
+├── zipinfo -v {}
+│ @@ -182,15 +182,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│    file last modified on (DOS date/time):          1980 Jan 1 09:00:00
+│ -  32-bit CRC value (hex):                         a3854813
+│ +  32-bit CRC value (hex):                         f4f16015
+│    compressed size:                                70 bytes
+│    uncompressed size:                              79 bytes
+│    length of filename:                             75 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/maven/io.takari.maven.plugins/takari-plugin-testing/pom.properties
+│ @@ -1,3 +1,3 @@
+│ -artifactId=takari-plugin-testing
+│  groupId=io.takari.maven.plugins
+│ +artifactId=takari-plugin-testing
+│  version=3.0.3
+

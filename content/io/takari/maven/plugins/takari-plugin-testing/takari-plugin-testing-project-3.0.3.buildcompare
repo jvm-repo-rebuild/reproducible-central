@@ -1,0 +1,8 @@
+version=3.0.3
+ok=4
+ko=1
+ignored=0
+okFiles="takari-plugin-testing-project-3.0.3.pom takari-plugin-testing-3.0.3.pom takari-plugin-testing-3.0.3-sources.jar takari-plugin-integration-testing-3.0.3.pom"
+koFiles="takari-plugin-testing-3.0.3.jar"
+ignoredFiles=""
+# diffoscope target/reference/io.takari.maven.plugins/takari-plugin-testing-3.0.3.jar takari-plugin-testing/target/takari-plugin-testing-3.0.3.jar
