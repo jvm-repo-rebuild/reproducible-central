@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Scripting HTL Testing
+group-id=org.apache.sling
+artifact-id=org.apache.sling.scripting.sightly.testing
+version=1.0.36-1.4.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-scripting-sightly-testing.git
+source.scm.tag=org.apache.sling.scripting.sightly.testing-1.0.36-1.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.scripting.sightly.testing-1.0.36-1.4.0.pom
+outputs.0.length=20718
+outputs.0.checksums.sha512=f498cab037c24a4d148fba5b0ec1e6fa30dada375cabbfc1fcca727652639007791093c360a039fef680a2c2e1f0d333cd4274c0c5e10b6177b2dfbedd4fdea0
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.scripting.sightly.testing-1.0.36-1.4.0.jar
+outputs.1.length=24377
+outputs.1.checksums.sha512=da508037f2d83412f963c68a9e1ffe7ac78b633b915a7aaabf8ed54f5bdf95b7d526552811bb152221c5617aa53840855d506f9a8e4b34740f890e7057733af2
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.scripting.sightly.testing-1.0.36-1.4.0-source-release.zip
+outputs.2.length=70711
+outputs.2.checksums.sha512=708262e757a84f30917be06148c122a1aeea035a1be40bffe5e24ba9d3a4f7357d24e472c231a16026696347d81f636529fa8bf9bfdd3727351becbec8dd48d0
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.scripting.sightly.testing-1.0.36-1.4.0-sources.jar
+outputs.3.length=23522
+outputs.3.checksums.sha512=beaac7077667fd2da3d526030d02d1fab90a9ee0094e69e7ef90a7dab26efc442570fb09cd1f52a1720a9edb2d8c2af5f8dab027269c321582fabf2733230021
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.scripting.sightly.testing-1.0.36-1.4.0-sources.jar
+outputs.4.length=23522
+outputs.4.checksums.sha512=beaac7077667fd2da3d526030d02d1fab90a9ee0094e69e7ef90a7dab26efc442570fb09cd1f52a1720a9edb2d8c2af5f8dab027269c321582fabf2733230021
