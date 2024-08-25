@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=MyBatis Migrations
+group-id=org.mybatis
+artifact-id=mybatis-migrations
+version=3.4.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/migrations.git
+source.scm.tag=mybatis-migrations-3.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=22
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.mybatis
+outputs.0.filename=mybatis-migrations-3.4.0.pom
+outputs.0.length=6921
+outputs.0.checksums.sha512=61d882dc9c55a4ddab165b93ea716bb3ef7d4642a1b3cc957ccc4fcaf9c4f98b50d05d47701bde31d8ec1e3198bf4e1c83932f79eb54bbf5a33e3d9dc039f6d8
+
+outputs.1.groupId=org.mybatis
+outputs.1.filename=mybatis-migrations-3.4.0.jar
+outputs.1.length=149901
+outputs.1.checksums.sha512=07f7925af28c046d6dc2c11ac072e47e51432f9159e08d060cdbb991ffc3d9436a134b74e094f9cc82acedee98f26e4a300b4fbc9adc7ebe1f89e9604787191f
+
+outputs.2.groupId=org.mybatis
+outputs.2.filename=mybatis-migrations-3.4.0-sources.jar
+outputs.2.length=107734
+outputs.2.checksums.sha512=5da914ee60d2d1c066e0cf2525d5e90d38e3f7376e2f43c07cb851d6080ddee30776b3dc88f4379c8b3097ad9f051d84ddb6cdd04cd7baaa1aae0932d120a379
+
+outputs.3.groupId=org.mybatis
+outputs.3.filename=mybatis-migrations-3.4.0-bundle.zip
+outputs.3.length=146884
+outputs.3.checksums.sha512=1567cddea52e3edcd77cd7024b3add3c6b3d65b1e86461da8800554553d4b3249f7dfb14c8b478f9be5c055618a9594c9f87003bd1049e8e54130808b1e97952
