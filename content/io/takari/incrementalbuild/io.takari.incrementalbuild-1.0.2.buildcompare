@@ -1,14 +1,8 @@
 version=1.0.2
-ok=11
-ko=7
+ok=16
+ko=1
 ignored=0
-okFiles="io.takari.incrementalbuild-1.0.2.pom takari-builder-common-1.0.2.pom takari-builder-common-1.0.2-sources.jar incrementalbuild-1.0.2.pom incrementalbuild-1.0.2-sources.jar takari-builder-enforcer-1.0.2.pom takari-builder-enforcer-1.0.2-sources.jar takari-builder-1.0.2.pom takari-builder-1.0.2-sources.jar takari-builder-apt-1.0.2.pom takari-builder-apt-1.0.2-sources.jar"
-koFiles="takari-builder-common-1.0.2.jar incrementalbuild-1.0.2.jar takari-builder-enforcer-1.0.2.jar takari-builder-1.0.2.jar takari-builder-1.0.2-tests.jar takari-builder-apt-1.0.2.jar takari-builder-demo-1.0.2.pom"
+okFiles="io.takari.incrementalbuild-1.0.2.pom takari-builder-common-1.0.2.pom takari-builder-common-1.0.2.jar takari-builder-common-1.0.2-sources.jar incrementalbuild-1.0.2.pom incrementalbuild-1.0.2.jar incrementalbuild-1.0.2-sources.jar takari-builder-enforcer-1.0.2.pom takari-builder-enforcer-1.0.2.jar takari-builder-enforcer-1.0.2-sources.jar takari-builder-1.0.2.pom takari-builder-1.0.2.jar takari-builder-1.0.2-sources.jar takari-builder-apt-1.0.2.pom takari-builder-apt-1.0.2.jar takari-builder-apt-1.0.2-sources.jar"
+koFiles="takari-builder-1.0.2-tests.jar"
 ignoredFiles=""
-# diffoscope target/reference/io.takari.builder/takari-builder-common-1.0.2.jar takari-builder-common/target/takari-builder-common-1.0.2.jar
-# diffoscope target/reference/io.takari/incrementalbuild-1.0.2.jar incrementalbuild/target/incrementalbuild-1.0.2.jar
-# diffoscope target/reference/io.takari.builder/takari-builder-enforcer-1.0.2.jar takari-builder-enforcer/target/takari-builder-enforcer-1.0.2.jar
-# diffoscope target/reference/io.takari.builder/takari-builder-1.0.2.jar takari-builder/target/takari-builder-1.0.2.jar
 # diffoscope target/reference/io.takari.builder/takari-builder-1.0.2-tests.jar takari-builder/target/takari-builder-1.0.2-tests.jar
-# diffoscope target/reference/io.takari.builder/takari-builder-apt-1.0.2.jar takari-builder-apt/target/takari-builder-apt-1.0.2.jar
-# diffoscope target/reference/io.takari.builder.demo/takari-builder-demo-1.0.2.pom takari-builder-demo/pom.xml

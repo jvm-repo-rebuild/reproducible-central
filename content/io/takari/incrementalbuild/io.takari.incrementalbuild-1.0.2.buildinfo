@@ -14,11 +14,11 @@ source.scm.tag=io.takari.incrementalbuild-1.0.2
 build-tool=mvn
 
 # build environment information (simplified for reproducibility)
-java.version=11
+java.version=21
 os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.aggregate.artifact-id=takari-builder-demo
+mvn.aggregate.artifact-id=takari-builder-apt
 
 # aggregated output
 
@@ -38,8 +38,8 @@ outputs.1.0.checksums.sha512=8e1aa1e415698033a5a6533f277739ecd261ed74a668eb574e3
 
 outputs.1.1.groupId=io.takari.builder
 outputs.1.1.filename=takari-builder-common-1.0.2.jar
-outputs.1.1.length=48008
-outputs.1.1.checksums.sha512=415876a33a19855de309721a7ee643d67e8617e69b5a83c405a709672d9f63a1641d359214b83809730c549a686ccda8ac49168bb79c268d43e32f6810bd7e6a
+outputs.1.1.length=48009
+outputs.1.1.checksums.sha512=c17506f6968044964cad3ff62c75fda87b4e94289285cc15c84152c4743dc245d810deb2fa9215cca0b0553febcef575075b73d7f327bc4a6b0be8ddcf2c6ca5
 
 outputs.1.2.groupId=io.takari.builder
 outputs.1.2.filename=takari-builder-common-1.0.2-sources.jar
@@ -56,7 +56,7 @@ outputs.2.0.checksums.sha512=eacb94a4576431c2868071e49a04e9e12352ff6d1c9fcab4784
 outputs.2.1.groupId=io.takari
 outputs.2.1.filename=incrementalbuild-1.0.2.jar
 outputs.2.1.length=96858
-outputs.2.1.checksums.sha512=58e91314a95358e974ed98dec5e4c436821ccdab62e616b251c9821845bef115e21ab1afdbf5ca6e120443e5b849a54023dff93216fc5de58914c77a72cef7d6
+outputs.2.1.checksums.sha512=7622d517ca1977e777a821b3066f0b3e942abe7c82b9a0c95f101089395e634fff41b0ebeb15a45dcf053f63ebebccb0dd94b97b4bf2202c3048b8bde5d2bd48
 
 outputs.2.2.groupId=io.takari
 outputs.2.2.filename=incrementalbuild-1.0.2-sources.jar
@@ -72,8 +72,8 @@ outputs.3.0.checksums.sha512=88a06a19e3b02838673b9e48f2a003952aba38fd7439a31550c
 
 outputs.3.1.groupId=io.takari.builder
 outputs.3.1.filename=takari-builder-enforcer-1.0.2.jar
-outputs.3.1.length=45826
-outputs.3.1.checksums.sha512=be6babebcb23c3b36b7672b1c87a4f82625f61f91e7aad5e14b4abd0df3b4123eed25b1bcbeb0897f8270b530a6c0fc275a5a207a73fdf7f5e9e9b41b4f6b1b6
+outputs.3.1.length=45828
+outputs.3.1.checksums.sha512=bb787f75cd214e93b94dec0ec7ec16934174570bde0947657e60f2f481e3596aaf1499baff564f7f94f00f0da5ce717f3693c44aaf581288d50fd675738a576e
 
 outputs.3.2.groupId=io.takari.builder
 outputs.3.2.filename=takari-builder-enforcer-1.0.2-sources.jar
@@ -90,7 +90,7 @@ outputs.4.0.checksums.sha512=95e7a25a5d41b8c9e04d77856bfb4bc1ee4fc8b1839d7822e78
 outputs.4.1.groupId=io.takari.builder
 outputs.4.1.filename=takari-builder-1.0.2.jar
 outputs.4.1.length=231645
-outputs.4.1.checksums.sha512=aa83bcb0a92cd7e12c3d8a14009afac50ab2dc26f17644a954fdaa1f6af88f6e9fbcb53227419efe42b132457ab0ce0267df4e9bfb0510b846703a7802aa2e8f
+outputs.4.1.checksums.sha512=d578e36b98e77f5c64fbe5d3f605f7b99cdd9751830b96a376de9ddd207c8e2fcbfc0872143e3ad4eb3696588d02ca922933c472939028b711045e3100b345f1
 
 outputs.4.2.groupId=io.takari.builder
 outputs.4.2.filename=takari-builder-1.0.2-sources.jar
@@ -99,8 +99,8 @@ outputs.4.2.checksums.sha512=8242f23b55825531eeeb5d20aadba0cefa4d8524d9c096b10a6
 
 outputs.4.3.groupId=io.takari.builder
 outputs.4.3.filename=takari-builder-1.0.2-tests.jar
-outputs.4.3.length=195312
-outputs.4.3.checksums.sha512=6ef0e5b8a527b0a2a012de8ad444425850369b5625f99bd33e115a70e71133318f4fb77ab529bab6f27f7ace79cc59f932b62b0ea9dc30ce8f033c57c4746c1c
+outputs.4.3.length=195313
+outputs.4.3.checksums.sha512=3c79a12b68df01b44d4124f1fa00b4315f8593267d1ad29f68c9521c95c463b510879fbd31e0278e7b38c7e101d610641db3eb5f56f3b08a2c307be0fb8700a2
 
 outputs.5.coordinates=io.takari.builder:takari-builder-apt
 
@@ -112,16 +112,9 @@ outputs.5.0.checksums.sha512=a4a71f80461e06d6b1c305a719237fdd32d88fcd94f55e98ce3
 outputs.5.1.groupId=io.takari.builder
 outputs.5.1.filename=takari-builder-apt-1.0.2.jar
 outputs.5.1.length=18894
-outputs.5.1.checksums.sha512=f444dc516e8effc4c408765223a0c04c8c6a371aeb5da128340a5d8432262dce5b5282914bc98cdd7c70f9d078f26b50e1c1b0e8e5e2e592c37b6c08eb00e02e
+outputs.5.1.checksums.sha512=4a3239fc048ae7495fd942136e526c2e557ab4cf512254a35c265b921129988518f6bf6b4274f5890633c0f9c2b80801c1025f1225bcbf2f30ee1c7ef328aa5b
 
 outputs.5.2.groupId=io.takari.builder
 outputs.5.2.filename=takari-builder-apt-1.0.2-sources.jar
 outputs.5.2.length=6787
 outputs.5.2.checksums.sha512=8af2d7b8012c28743aa88cc0e59cbf24e160fdba7707b7f8a9e27a2bedacab6626934b0fdc390e0d441f415f1c7bb5213675a85c42fe441a28af58807d540476
-
-outputs.6.coordinates=io.takari.builder.demo:takari-builder-demo
-
-outputs.6.0.groupId=io.takari.builder.demo
-outputs.6.0.filename=takari-builder-demo-1.0.2.pom
-outputs.6.0.length=3901
-outputs.6.0.checksums.sha512=bc939a215ce91457e72964f6a32b24f004f245bac58b7e5f25dc782b027d43f4f3e2038eab3c31cb4fce95bb7755898c01aa2792932483e4d09946afd42eb138
