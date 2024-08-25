@@ -1,0 +1,11 @@
+version=1.0.3
+ok=14
+ko=4
+ignored=0
+okFiles="io.takari.incrementalbuild-1.0.3.pom takari-builder-common-1.0.3.pom takari-builder-common-1.0.3.jar takari-builder-common-1.0.3-sources.jar incrementalbuild-1.0.3.pom incrementalbuild-1.0.3.jar incrementalbuild-1.0.3-sources.jar takari-builder-enforcer-1.0.3.pom takari-builder-enforcer-1.0.3-sources.jar takari-builder-1.0.3.pom takari-builder-1.0.3-sources.jar takari-builder-apt-1.0.3.pom takari-builder-apt-1.0.3.jar takari-builder-apt-1.0.3-sources.jar"
+koFiles="takari-builder-enforcer-1.0.3.jar takari-builder-1.0.3.jar takari-builder-1.0.3-tests.jar takari-builder-demo-1.0.3.pom"
+ignoredFiles=""
+# diffoscope target/reference/io.takari.builder/takari-builder-enforcer-1.0.3.jar takari-builder-enforcer/target/takari-builder-enforcer-1.0.3.jar
+# diffoscope target/reference/io.takari.builder/takari-builder-1.0.3.jar takari-builder/target/takari-builder-1.0.3.jar
+# diffoscope target/reference/io.takari.builder/takari-builder-1.0.3-tests.jar takari-builder/target/takari-builder-1.0.3-tests.jar
+# diffoscope target/reference/io.takari.builder.demo/takari-builder-demo-1.0.3.pom takari-builder-demo/pom.xml

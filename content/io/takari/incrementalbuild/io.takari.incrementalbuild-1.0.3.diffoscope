@@ -1,0 +1,120 @@
+1 / 4 target/reference/io.takari.builder/takari-builder-enforcer-1.0.3.jar takari-builder-enforcer/target/takari-builder-enforcer-1.0.3.jar
+--- target/reference/io.takari.builder/takari-builder-enforcer-1.0.3.jar
++++ takari-builder-enforcer/target/takari-builder-enforcer-1.0.3.jar
+├── zipinfo -v {}
+│ @@ -895,15 +895,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│    file last modified on (DOS date/time):          1980 Jan 1 09:00:02
+│ -  32-bit CRC value (hex):                         49afa8df
+│ +  32-bit CRC value (hex):                         5418b8bb
+│    compressed size:                                3544 bytes
+│    uncompressed size:                              8655 bytes
+│    length of filename:                             58 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── io/takari/builder/enforcer/modularity/ProjectContext.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1031,8 +1031,8 @@
+│ │        #341 (Ljava/lang/String;)Z
+│ │  InnerClasses:
+│ │    #343= #108;                             // Visitor=class io/takari/builder/enforcer/modularity/ProjectContext$1Visitor
+│ │    #344= #103;                             // WrappedIOException=class io/takari/builder/enforcer/modularity/ProjectContext$1WrappedIOException
+│ │    public static #345= #227 of #57;        // Builder=class io/takari/builder/internal/pathmatcher/PathMatcher$Builder of class io/takari/builder/internal/pathmatcher/PathMatcher
+│ │    public static #348= #346 of #57;        // RuleVisitor=class io/takari/builder/internal/pathmatcher/PathMatcher$RuleVisitor of class io/takari/builder/internal/pathmatcher/PathMatcher
+│ │    public static final #353= #349 of #351; // Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
+│ │ -  public static final #356= #354 of #26;  // KeySetView=class java/util/concurrent/ConcurrentHashMap$KeySetView of class java/util/concurrent/ConcurrentHashMap
+│ │ +  public static #356= #354 of #26;        // KeySetView=class java/util/concurrent/ConcurrentHashMap$KeySetView of class java/util/concurrent/ConcurrentHashMap
+
+2 / 4 target/reference/io.takari.builder/takari-builder-1.0.3.jar takari-builder/target/takari-builder-1.0.3.jar
+--- target/reference/io.takari.builder/takari-builder-1.0.3.jar
++++ takari-builder/target/takari-builder-1.0.3.jar
+├── zipinfo -v {}
+│ @@ -1453,15 +1453,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│    file last modified on (DOS date/time):          1980 Jan 1 09:00:02
+│ -  32-bit CRC value (hex):                         038ff183
+│ +  32-bit CRC value (hex):                         1e38e1e7
+│    compressed size:                                4180 bytes
+│    uncompressed size:                              11730 bytes
+│    length of filename:                             47 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── io/takari/builder/internal/BuilderContext.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1377,8 +1377,8 @@
+│ │        #351 (Ljava/lang/String;)V
+│ │  InnerClasses:
+│ │    #60;                                    // class io/takari/builder/internal/BuilderContext$1
+│ │    public static #353= #112 of #1;         // Builder=class io/takari/builder/internal/BuilderContext$Builder of class io/takari/builder/internal/BuilderContext
+│ │    static #354= #56 of #1;                 // BuilderContextPolicy=class io/takari/builder/internal/BuilderContext$BuilderContextPolicy of class io/takari/builder/internal/BuilderContext
+│ │    static #357= #248 of #355;              // InprogressStateWriter=class io/takari/builder/internal/BuilderExecutionState$InprogressStateWriter of class io/takari/builder/internal/BuilderExecutionState
+│ │    public static final #362= #358 of #360; // Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
+│ │ -  public static final #365= #363 of #123; // KeySetView=class java/util/concurrent/ConcurrentHashMap$KeySetView of class java/util/concurrent/ConcurrentHashMap
+│ │ +  public static #365= #363 of #123;       // KeySetView=class java/util/concurrent/ConcurrentHashMap$KeySetView of class java/util/concurrent/ConcurrentHashMap
+
+3 / 4 target/reference/io.takari.builder/takari-builder-1.0.3-tests.jar takari-builder/target/takari-builder-1.0.3-tests.jar
+--- target/reference/io.takari.builder/takari-builder-1.0.3-tests.jar
++++ takari-builder/target/takari-builder-1.0.3-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 195369 bytes, number of entries: 185
+│ +Zip file size: 195312 bytes, number of entries: 185
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 META-INF/
+│  -rw----     2.0 fat      268 bl defN 80-Jan-01 09:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 META-INF/sisu/
+│  ?rw-r--r--  2.0 unx        0 bl defN 80-Jan-01 09:00 META-INF/sisu/javax.inject.Named
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 io/
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 io/takari/
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 09:00 io/takari/builder/
+│ @@ -179,9 +179,9 @@
+│  ?rw-r--r--  2.0 unx      729 bl defN 80-Jan-01 09:00 io/takari/builder/testing/BuilderExecutionTest$_SimpleBuilder.class
+│  ?rw-r--r--  2.0 unx     1283 bl defN 80-Jan-01 09:00 io/takari/builder/testing/BuilderExecutionTest$_TransitiveArtifactMetadataBuilder.class
+│  ?rw-r--r--  2.0 unx     3367 bl defN 80-Jan-01 09:00 io/takari/builder/testing/BuilderExecutionTest.class
+│  ?rw-r--r--  2.0 unx     3001 bl defN 80-Jan-01 09:00 io/takari/builder/testing/InternalBuilderExecution.class
+│  ?rw-r--r--  2.0 unx     1033 bl defN 80-Jan-01 09:00 io/takari/builder/testing/ReadFromJarTest$1.class
+│  ?rw-r--r--  2.0 unx      826 bl defN 80-Jan-01 09:00 io/takari/builder/testing/ReadFromJarTest$_Builder.class
+│  ?rw-r--r--  2.0 unx     2081 bl defN 80-Jan-01 09:00 io/takari/builder/testing/ReadFromJarTest.class
+│ -?rw-r--r--  2.0 unx     2023 bl defN 80-Jan-01 09:00 test.properties
+│ -185 files, 361283 bytes uncompressed, 154679 bytes compressed:  57.2%
+│ +?rw-r--r--  2.0 unx     1741 bl defN 80-Jan-01 09:00 test.properties
+│ +185 files, 361001 bytes uncompressed, 154622 bytes compressed:  57.2%
+├── test.properties
+│ @@ -1,13 +1,13 @@
+│  #Generated by io.takari.maven.plugins.testproperties.TestPropertiesMojo
+│ -classpath=/home/cstamas/Worx/takari/io.takari.incrementalbuild/target/checkout/takari-builder/target/classes\:/home/cstamas/.m2/repository-oss/org/apache/maven/resolver/maven-resolver-api/1.9.22/maven-resolver-api-1.9.22.jar\:/home/cstamas/.m2/repository-oss/org/apache/maven/resolver/maven-resolver-util/1.9.22/maven-resolver-util-1.9.22.jar\:/home/cstamas/.m2/repository-oss/io/takari/builder/takari-builder-security-manager/0.20.5/takari-builder-security-manager-0.20.5.jar\:/home/cstamas/Worx/takari/io.takari.incrementalbuild/target/checkout/takari-builder-enforcer/target/takari-builder-enforcer-1.0.3.jar\:/home/cstamas/Worx/takari/io.takari.incrementalbuild/target/checkout/takari-builder-common/target/takari-builder-common-1.0.3.jar\:/home/cstamas/.m2/repository-oss/io/takari/incrementalbuild-workspace/0.20.9/incrementalbuild-workspace-0.20.9.jar\:/home/cstamas/.m2/repository-oss/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar\:/home/cstamas/.m2/repository-oss/org/apache/maven/plugin-tools/maven-plugin-annotations/3.14.0/maven-plugin-annotations-3.14.0.jar\:/home/cstamas/.m2/repository-oss/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+│ -globalSettingsFile=/home/cstamas/.sdkman/candidates/maven/3.9.9/conf/settings.xml
+│ -localRepository=/home/cstamas/.m2/repository-oss
+│ +classpath=/var/maven/app/takari-builder/target/classes\:/var/maven/.m2/repository-022/org/apache/maven/resolver/maven-resolver-api/1.9.22/maven-resolver-api-1.9.22.jar\:/var/maven/.m2/repository-022/org/apache/maven/resolver/maven-resolver-util/1.9.22/maven-resolver-util-1.9.22.jar\:/var/maven/.m2/repository-022/io/takari/builder/takari-builder-security-manager/0.20.5/takari-builder-security-manager-0.20.5.jar\:/var/maven/app/takari-builder-enforcer/target/takari-builder-enforcer-1.0.3.jar\:/var/maven/app/takari-builder-common/target/takari-builder-common-1.0.3.jar\:/var/maven/.m2/repository-022/io/takari/incrementalbuild-workspace/0.20.9/incrementalbuild-workspace-0.20.9.jar\:/var/maven/.m2/repository-022/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar\:/var/maven/.m2/repository-022/org/apache/maven/plugin-tools/maven-plugin-annotations/3.14.0/maven-plugin-annotations-3.14.0.jar\:/var/maven/.m2/repository-022/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+│ +globalSettingsFile=/usr/local/apache-maven/conf/settings.xml
+│ +localRepository=/var/maven/.m2/repository-022
+│  offline=false
+│  project.artifactId=takari-builder
+│  project.groupId=io.takari.builder
+│  project.version=1.0.3
+│ -repository.0=<id>central</id><url>https\://repo.maven.apache.org/maven2/</url><releases><enabled>true</enabled></releases><snapshots><enabled>false</enabled></snapshots>
+│ +repository.0=<id>central</id><url>https\://repo.maven.apache.org/maven2</url><releases><enabled>true</enabled></releases><snapshots><enabled>false</enabled></snapshots>
+│  updateSnapshots=false
+│ -userSettingsFile=/tmp/release-settings2691333921596679152.xml
+│ -workspaceResolver=/home/cstamas/.m2/repository-oss/io/takari/m2e/workspace/org.eclipse.m2e.workspace.cli/0.4.0/org.eclipse.m2e.workspace.cli-0.4.0.jar
+│ -workspaceStateProperties=/home/cstamas/Worx/takari/io.takari.incrementalbuild/target/checkout/takari-builder/target/workspacestate.properties
+│ +userSettingsFile=/var/maven/.m2/settings.xml
+│ +workspaceResolver=/var/maven/.m2/repository-022/io/takari/m2e/workspace/org.eclipse.m2e.workspace.cli/0.4.0/org.eclipse.m2e.workspace.cli-0.4.0.jar
+│ +workspaceStateProperties=/var/maven/app/takari-builder/target/workspacestate.properties
+
+4 / 4 target/reference/io.takari.builder.demo/takari-builder-demo-1.0.3.pom takari-builder-demo/pom.xml
+/srv/diffoscope/bin/diffoscope: target/reference/io.takari.builder.demo/takari-builder-demo-1.0.3.pom: No such file or directory
+
