@@ -13,7 +13,7 @@ rebuilding **2 releases** of io.takari.maven:takari-smart-builder:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.0.1](https://central.sonatype.com/artifact/io.takari.maven/takari-smart-builder/1.0.1/pom) | [mvn jdk11](takari-smart-builder-1.0.1.buildspec) | [result](takari-smart-builder-1.0.1.buildinfo): [3 :white_check_mark: ](takari-smart-builder-1.0.1.buildcompare) [:mag:](takari-smart-builder-1.0.1.diffoscope) [:memo:](https://github.com/takari/takari-lifecycle/issues/171) | 56K |
+| [1.0.1](https://central.sonatype.com/artifact/io.takari.maven/takari-smart-builder/1.0.1/pom) | [mvn jdk11](takari-smart-builder-1.0.1.buildspec) | [result](takari-smart-builder-1.0.1.buildinfo): [3 :white_check_mark: ](takari-smart-builder-1.0.1.buildcompare) | 56K |
 | [1.0.0](https://central.sonatype.com/artifact/io.takari.maven/takari-smart-builder/1.0.0/pom) | [mvn jdk11](takari-smart-builder-1.0.0.buildspec) | [result](takari-smart-builder-1.0.0.buildinfo): [2 :white_check_mark:  1 :warning:](takari-smart-builder-1.0.0.buildcompare) [:mag:](takari-smart-builder-1.0.0.diffoscope) [:memo:](https://github.com/takari/takari-lifecycle/issues/171) | 55K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

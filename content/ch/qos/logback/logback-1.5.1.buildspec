@@ -16,5 +16,5 @@ newline=crlf
 command="SHELL mvn clean package -DskipTests && mvn package -DskipTests"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-diffoscope=${artifactId}-${version}.diffoscope
+#diffoscope=${artifactId}-${version}.diffoscope
 issue=

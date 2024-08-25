@@ -27,7 +27,7 @@ rebuilding **2 releases** of eu.maveniverse.maven.nisse:nisse:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.1.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.1.1/pom) | [mvn jdk21](nisse-0.1.1.buildspec) | [result](nisse-0.1.1.buildinfo): [23 :white_check_mark: ](nisse-0.1.1.buildcompare) [:mag:](nisse-0.1.1.diffoscope) | 120K |
-| [0.1.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.1.0/pom) | [mvn jdk21](nisse-0.1.0.buildspec) | [result](nisse-0.1.0.buildinfo): [23 :white_check_mark: ](nisse-0.1.0.buildcompare) [:mag:](nisse-0.1.0.diffoscope) | 127K |
+| [0.1.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.1.1/pom) | [mvn jdk21](nisse-0.1.1.buildspec) | [result](nisse-0.1.1.buildinfo): [23 :white_check_mark: ](nisse-0.1.1.buildcompare) | 120K |
+| [0.1.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.1.0/pom) | [mvn jdk21](nisse-0.1.0.buildspec) | [result](nisse-0.1.0.buildinfo): [23 :white_check_mark: ](nisse-0.1.0.buildcompare) | 127K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
