@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=MyBatis Migrations Maven plugin
+group-id=org.mybatis.maven
+artifact-id=migrations-maven-plugin
+version=1.2.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/migrations-maven-plugin.git
+source.scm.tag=migrations-maven-plugin-1.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=22
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.mybatis.maven
+outputs.0.filename=migrations-maven-plugin-1.2.0.pom
+outputs.0.length=13131
+outputs.0.checksums.sha512=c686385d5719fd5a5d74b1e38b13d9a5124e8bf22b1e4513d60edb31010c697012d65f601bf7a5e211145d72e7830556576f49cd744236df3abaf54ff4ae00c5
+
+outputs.1.groupId=org.mybatis.maven
+outputs.1.filename=migrations-maven-plugin-1.2.0.jar
+outputs.1.length=48752
+outputs.1.checksums.sha512=853275f76b7c2cd35a9ea7e54f27490b645440c2c5bb6b2e1b64b60548750e8c08417b0201ac3563fb051117d57cc19c2e2e4d7c923d93786a0b12a5cc7841d1
+
+outputs.2.groupId=org.mybatis.maven
+outputs.2.filename=migrations-maven-plugin-1.2.0-sources.jar
+outputs.2.length=35689
+outputs.2.checksums.sha512=f613bc6341766ece6b124690bcdd3ae774b3422b8f2761c6ee5b7596089a04a458a39d9a99f4bec225e0114fa50918360ffa6450f2ed6eaa22a023122d31e639

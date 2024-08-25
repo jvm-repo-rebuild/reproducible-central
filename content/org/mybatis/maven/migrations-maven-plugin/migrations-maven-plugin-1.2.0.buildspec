@@ -1,0 +1,19 @@
+groupId=org.mybatis.maven
+artifactId=migrations-maven-plugin
+version=1.2.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/mybatis/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.8
+jdk=22
+newline=crlf
+umask=022
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Pcdi-2.0"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
