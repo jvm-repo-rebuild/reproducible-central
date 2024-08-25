@@ -1,0 +1,94 @@
+1 / 2 target/reference/org.itsallcode.openfasttrace/openfasttrace-4.1.0.jar product/target/openfasttrace-4.1.0.jar
+--- target/reference/org.itsallcode.openfasttrace/openfasttrace-4.1.0.jar
++++ product/target/openfasttrace-4.1.0.jar
+├── zipinfo {}
+│ @@ -124,14 +124,15 @@
+│  -rw----     2.0 fat     1442 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/core/serviceloader/ServiceOrigin$CurrentClassPathOrigin.class
+│  -rw----     2.0 fat     2120 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/core/serviceloader/ServiceOrigin$JarFileOrigin.class
+│  -rw----     2.0 fat     4711 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/core/serviceloader/ServiceOrigin.class
+│  -rw----     2.0 fat     2253 bl defN 24-Aug-11 07:34 usage.txt
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-core/
+│  -rw----     2.0 fat     1287 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-core/pom.xml
+│  -rw----     2.0 fat       81 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-core/pom.properties
+│ +-rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 META-INF/services/
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/exporter/
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/exporter/specobject/
+│  -rw----     2.0 fat    10949 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/exporter/specobject/SpecobjectExporter.class
+│  -rw----     2.0 fat     2979 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/exporter/specobject/SpecobjectExporterFactory.class
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-exporter-specobject/
+│  -rw----     2.0 fat     1470 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-exporter-specobject/pom.xml
+│  -rw----     2.0 fat       96 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-exporter-specobject/pom.properties
+│ @@ -288,12 +289,11 @@
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/report/aspec/
+│  -rw----     2.0 fat     1771 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/report/aspec/ASpecReport$CoveringStatus.class
+│  -rw----     2.0 fat    17125 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/report/aspec/ASpecReport.class
+│  -rw----     2.0 fat     1188 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/report/aspec/ASpecReporterFactory.class
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-reporter-aspec/
+│  -rw----     2.0 fat     1475 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-reporter-aspec/pom.xml
+│  -rw----     2.0 fat       91 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-reporter-aspec/pom.properties
+│ --rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 META-INF/services/
+│  -rw----     2.0 fat      195 bl defN 24-Aug-11 07:34 META-INF/services/org.itsallcode.openfasttrace.api.report.ReporterFactory
+│  -rw----     2.0 fat      359 bl defN 24-Aug-11 07:34 META-INF/services/org.itsallcode.openfasttrace.api.importer.ImporterFactory
+│  -rw----     2.0 fat       75 bl defN 24-Aug-11 07:34 META-INF/services/org.itsallcode.openfasttrace.api.exporter.ExporterFactory
+│  297 files, 694234 bytes uncompressed, 293420 bytes compressed:  57.7%
+
+2 / 2 target/reference/org.itsallcode.openfasttrace/openfasttrace-4.1.0-sources.jar product/target/openfasttrace-4.1.0-sources.jar
+--- target/reference/org.itsallcode.openfasttrace/openfasttrace-4.1.0-sources.jar
++++ product/target/openfasttrace-4.1.0-sources.jar
+├── zipinfo {}
+│ @@ -1,10 +1,9 @@
+│  Zip file size: 235765 bytes, number of entries: 271
+│  -rw----     2.0 fat      168 bX defN 24-Aug-11 07:34 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 META-INF/
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 org/
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 org/itsallcode/
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/api/
+│  -rw----     2.0 fat      228 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/api/ColorScheme.java
+│  -rw----     2.0 fat      357 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/api/DetailsSectionDisplay.java
+│  -rw----     2.0 fat     5577 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/api/FilterSettings.java
+│ @@ -50,14 +49,15 @@
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/api/report/
+│  -rw----     2.0 fat      486 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/api/report/ReportConstants.java
+│  -rw----     2.0 fat      809 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/api/report/ReportException.java
+│  -rw----     2.0 fat      661 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/api/report/ReportVerbosity.java
+│  -rw----     2.0 fat      394 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/api/report/Reportable.java
+│  -rw----     2.0 fat      818 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/api/report/ReporterContext.java
+│  -rw----     2.0 fat     1550 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/api/report/ReporterFactory.java
+│ +-rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 META-INF/
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-api/
+│  -rw----     2.0 fat      943 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-api/pom.xml
+│  -rw----     2.0 fat       80 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-api/pom.properties
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/core/
+│  -rw----     2.0 fat     2511 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/core/ExportSettings.java
+│ @@ -111,14 +111,15 @@
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-core/
+│  -rw----     2.0 fat     1287 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-core/pom.xml
+│  -rw----     2.0 fat       81 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-core/pom.properties
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/exporter/
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/exporter/specobject/
+│  -rw----     2.0 fat     7674 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/exporter/specobject/SpecobjectExporter.java
+│  -rw----     2.0 fat     1899 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/exporter/specobject/SpecobjectExporterFactory.java
+│ +-rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 META-INF/services/
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-exporter-specobject/
+│  -rw----     2.0 fat     1470 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-exporter-specobject/pom.xml
+│  -rw----     2.0 fat       96 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-exporter-specobject/pom.properties
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/exporter/common/
+│  -rw----     2.0 fat     5318 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/exporter/common/DelegatingXMLStreamWriter.java
+│  -rw----     2.0 fat     4490 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/exporter/common/IndentingXMLStreamWriter.java
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-exporter-common/
+│ @@ -262,12 +263,11 @@
+│  -rw----     2.0 fat       90 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-reporter-html/pom.properties
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/report/aspec/
+│  -rw----     2.0 fat    14179 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/report/aspec/ASpecReport.java
+│  -rw----     2.0 fat      889 bl defN 24-Aug-11 07:34 org/itsallcode/openfasttrace/report/aspec/ASpecReporterFactory.java
+│  -rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-reporter-aspec/
+│  -rw----     2.0 fat     1475 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-reporter-aspec/pom.xml
+│  -rw----     2.0 fat       91 bl defN 24-Aug-11 07:34 META-INF/maven/org.itsallcode.openfasttrace/openfasttrace-reporter-aspec/pom.properties
+│ --rw----     2.0 fat        0 bl defN 24-Aug-11 07:34 META-INF/services/
+│  -rw----     2.0 fat      195 bl defN 24-Aug-11 07:34 META-INF/services/org.itsallcode.openfasttrace.api.report.ReporterFactory
+│  -rw----     2.0 fat      359 bl defN 24-Aug-11 07:34 META-INF/services/org.itsallcode.openfasttrace.api.importer.ImporterFactory
+│  -rw----     2.0 fat       75 bl defN 24-Aug-11 07:34 META-INF/services/org.itsallcode.openfasttrace.api.exporter.ExporterFactory
+│  271 files, 543740 bytes uncompressed, 175819 bytes compressed:  67.7%
