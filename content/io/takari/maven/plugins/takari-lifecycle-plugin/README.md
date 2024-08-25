@@ -19,6 +19,7 @@ rebuilding **2 releases** of io.takari.maven.plugins:takari-lifecycle-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.1.7](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-lifecycle-plugin/2.1.7/pom) | | | |
 | [2.1.6](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-lifecycle-plugin/2.1.6/pom) | [mvn jdk11](takari-lifecycle-plugin-2.1.6.buildspec) | [result](takari-lifecycle-2.1.6.buildinfo): [3 :white_check_mark:  1 :warning:](takari-lifecycle-2.1.6.buildcompare) [:mag:](takari-lifecycle-2.1.6.diffoscope) [:memo:](https://github.com/takari/takari-lifecycle/issues/171) | 461K |
 | [2.1.5](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-lifecycle-plugin/2.1.5/pom) | [mvn jdk11](takari-lifecycle-plugin-2.1.5.buildspec) | [result](takari-lifecycle-2.1.5.buildinfo): [2 :white_check_mark:  2 :warning:](takari-lifecycle-2.1.5.buildcompare) [:mag:](takari-lifecycle-2.1.5.diffoscope) | 461K |
 
