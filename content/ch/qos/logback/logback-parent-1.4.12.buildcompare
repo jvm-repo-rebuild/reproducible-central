@@ -1,0 +1,14 @@
+version=1.4.12
+ok=11
+ko=5
+ignored=0
+okFiles="logback-parent-1.4.12.pom logback-core-1.4.12.pom logback-core-1.4.12-sources.jar logback-core-1.4.12-test-sources.jar logback-core-1.4.12-tests.jar logback-classic-1.4.12.pom logback-classic-1.4.12-sources.jar logback-classic-1.4.12-test-sources.jar logback-access-1.4.12.pom logback-access-1.4.12-sources.jar logback-access-1.4.12-test-sources.jar"
+koFiles="logback-core-1.4.12.jar logback-classic-1.4.12.jar logback-classic-1.4.12-tests.jar logback-access-1.4.12.jar logback-access-1.4.12-tests.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/ch.qos.logback/logback-core-1.4.12.jar logback-core/target/logback-core-1.4.12.jar
+# diffoscope target/reference/ch.qos.logback/logback-classic-1.4.12.jar logback-classic/target/logback-classic-1.4.12.jar
+# diffoscope target/reference/ch.qos.logback/logback-classic-1.4.12-tests.jar logback-classic/target/logback-classic-1.4.12-tests.jar
+# diffoscope target/reference/ch.qos.logback/logback-access-1.4.12.jar logback-access/target/logback-access-1.4.12.jar
+# diffoscope target/reference/ch.qos.logback/logback-access-1.4.12-tests.jar logback-access/target/logback-access-1.4.12-tests.jar
