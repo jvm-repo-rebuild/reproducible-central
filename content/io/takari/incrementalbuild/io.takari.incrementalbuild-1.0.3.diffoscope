@@ -1,72 +1,4 @@
-1 / 4 target/reference/io.takari.builder/takari-builder-enforcer-1.0.3.jar takari-builder-enforcer/target/takari-builder-enforcer-1.0.3.jar
---- target/reference/io.takari.builder/takari-builder-enforcer-1.0.3.jar
-+++ takari-builder-enforcer/target/takari-builder-enforcer-1.0.3.jar
-├── zipinfo -v {}
-│ @@ -895,15 +895,15 @@
-│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
-│    minimum software version required to extract:   2.0
-│    compression method:                             deflated
-│    compression sub-type (deflation):               normal
-│    file security status:                           not encrypted
-│    extended local header:                          yes
-│    file last modified on (DOS date/time):          1980 Jan 1 09:00:02
-│ -  32-bit CRC value (hex):                         49afa8df
-│ +  32-bit CRC value (hex):                         5418b8bb
-│    compressed size:                                3544 bytes
-│    uncompressed size:                              8655 bytes
-│    length of filename:                             58 characters
-│    length of extra field:                          0 bytes
-│    length of file comment:                         0 characters
-│    disk number on which file begins:               disk 1
-│    apparent file type:                             binary
-├── io/takari/builder/enforcer/modularity/ProjectContext.class
-│ ├── javap -verbose -constants -s -l -private {}
-│ │ @@ -1031,8 +1031,8 @@
-│ │        #341 (Ljava/lang/String;)Z
-│ │  InnerClasses:
-│ │    #343= #108;                             // Visitor=class io/takari/builder/enforcer/modularity/ProjectContext$1Visitor
-│ │    #344= #103;                             // WrappedIOException=class io/takari/builder/enforcer/modularity/ProjectContext$1WrappedIOException
-│ │    public static #345= #227 of #57;        // Builder=class io/takari/builder/internal/pathmatcher/PathMatcher$Builder of class io/takari/builder/internal/pathmatcher/PathMatcher
-│ │    public static #348= #346 of #57;        // RuleVisitor=class io/takari/builder/internal/pathmatcher/PathMatcher$RuleVisitor of class io/takari/builder/internal/pathmatcher/PathMatcher
-│ │    public static final #353= #349 of #351; // Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
-│ │ -  public static final #356= #354 of #26;  // KeySetView=class java/util/concurrent/ConcurrentHashMap$KeySetView of class java/util/concurrent/ConcurrentHashMap
-│ │ +  public static #356= #354 of #26;        // KeySetView=class java/util/concurrent/ConcurrentHashMap$KeySetView of class java/util/concurrent/ConcurrentHashMap
-
-2 / 4 target/reference/io.takari.builder/takari-builder-1.0.3.jar takari-builder/target/takari-builder-1.0.3.jar
---- target/reference/io.takari.builder/takari-builder-1.0.3.jar
-+++ takari-builder/target/takari-builder-1.0.3.jar
-├── zipinfo -v {}
-│ @@ -1453,15 +1453,15 @@
-│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
-│    minimum software version required to extract:   2.0
-│    compression method:                             deflated
-│    compression sub-type (deflation):               normal
-│    file security status:                           not encrypted
-│    extended local header:                          yes
-│    file last modified on (DOS date/time):          1980 Jan 1 09:00:02
-│ -  32-bit CRC value (hex):                         038ff183
-│ +  32-bit CRC value (hex):                         1e38e1e7
-│    compressed size:                                4180 bytes
-│    uncompressed size:                              11730 bytes
-│    length of filename:                             47 characters
-│    length of extra field:                          0 bytes
-│    length of file comment:                         0 characters
-│    disk number on which file begins:               disk 1
-│    apparent file type:                             binary
-├── io/takari/builder/internal/BuilderContext.class
-│ ├── javap -verbose -constants -s -l -private {}
-│ │ @@ -1377,8 +1377,8 @@
-│ │        #351 (Ljava/lang/String;)V
-│ │  InnerClasses:
-│ │    #60;                                    // class io/takari/builder/internal/BuilderContext$1
-│ │    public static #353= #112 of #1;         // Builder=class io/takari/builder/internal/BuilderContext$Builder of class io/takari/builder/internal/BuilderContext
-│ │    static #354= #56 of #1;                 // BuilderContextPolicy=class io/takari/builder/internal/BuilderContext$BuilderContextPolicy of class io/takari/builder/internal/BuilderContext
-│ │    static #357= #248 of #355;              // InprogressStateWriter=class io/takari/builder/internal/BuilderExecutionState$InprogressStateWriter of class io/takari/builder/internal/BuilderExecutionState
-│ │    public static final #362= #358 of #360; // Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
-│ │ -  public static final #365= #363 of #123; // KeySetView=class java/util/concurrent/ConcurrentHashMap$KeySetView of class java/util/concurrent/ConcurrentHashMap
-│ │ +  public static #365= #363 of #123;       // KeySetView=class java/util/concurrent/ConcurrentHashMap$KeySetView of class java/util/concurrent/ConcurrentHashMap
-
-3 / 4 target/reference/io.takari.builder/takari-builder-1.0.3-tests.jar takari-builder/target/takari-builder-1.0.3-tests.jar
+1 / 1 target/reference/io.takari.builder/takari-builder-1.0.3-tests.jar takari-builder/target/takari-builder-1.0.3-tests.jar
 --- target/reference/io.takari.builder/takari-builder-1.0.3-tests.jar
 +++ takari-builder/target/takari-builder-1.0.3-tests.jar
 ├── zipinfo {}
@@ -114,7 +46,4 @@
 │ +userSettingsFile=/var/maven/.m2/settings.xml
 │ +workspaceResolver=/var/maven/.m2/repository-022/io/takari/m2e/workspace/org.eclipse.m2e.workspace.cli/0.4.0/org.eclipse.m2e.workspace.cli-0.4.0.jar
 │ +workspaceStateProperties=/var/maven/app/takari-builder/target/workspacestate.properties
-
-4 / 4 target/reference/io.takari.builder.demo/takari-builder-demo-1.0.3.pom takari-builder-demo/pom.xml
-/srv/diffoscope/bin/diffoscope: target/reference/io.takari.builder.demo/takari-builder-demo-1.0.3.pom: No such file or directory
 
