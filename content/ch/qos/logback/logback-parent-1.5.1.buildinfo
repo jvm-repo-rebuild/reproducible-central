@@ -26,59 +26,59 @@ outputs.0.coordinates=ch.qos.logback:logback-parent
 
 outputs.0.0.groupId=ch.qos.logback
 outputs.0.0.filename=logback-parent-1.5.1.pom
-outputs.0.0.length=18982
-outputs.0.0.checksums.sha512=eaacafcf82c37b07da319f7547cc48178558368ef698b80f509730c66455f1466223b4444c251b1d6f152a4c1d1a4e34b8b73d235597d04ec492397c7ef30fce
+outputs.0.0.length=19563
+outputs.0.0.checksums.sha512=720c61b9bc79dd144f76a4c9beb2668a3cadbc8fbd50aaa5a2aa9e5056e26ce271218cd103d5a36a60eba58ae282f3fd9f362d8c20a3d9f8570fa727b592a1f1
 
 outputs.1.coordinates=ch.qos.logback:logback-core
 
 outputs.1.0.groupId=ch.qos.logback
 outputs.1.0.filename=logback-core-1.5.1.pom
-outputs.1.0.length=7302
-outputs.1.0.checksums.sha512=01c4af53182d3d941155c756f76f23fa49a69a0e58dadce2d4272396b68e70f986ed1c08481620ace7446bf3aaca299038264dc0a52d7fd53c1cc8ec6dda7547
+outputs.1.0.length=7493
+outputs.1.0.checksums.sha512=22ff9b85c65c0ba28492c81fec822a45a9218ed1b8acb6876d757e67331752a112db1fa661429c7f9f672c6cbb6889f637019ceeabf65ba411276ae89ce4c974
 
 outputs.1.1.groupId=ch.qos.logback
 outputs.1.1.filename=logback-core-1.5.1.jar
-outputs.1.1.length=605353
-outputs.1.1.checksums.sha512=b29329f25a53ace89e2697351d628a4f7573727110c19cd4e5fbef0a49da3df10470f9df58e90c6730f610762b098d669f2425a9c43b1d5102425321ecfe5768
+outputs.1.1.length=605365
+outputs.1.1.checksums.sha512=791346ca1e812b3510c38a859a922832e855494010be7917d2f5c36c16542cac1c7faf1eb5e75e4a9dc53b005fbe89ce6ea0a7afb57c5fa1a7bb5a618052819e
 
 outputs.1.2.groupId=ch.qos.logback
 outputs.1.2.filename=logback-core-1.5.1-sources.jar
-outputs.1.2.length=467477
-outputs.1.2.checksums.sha512=21f04a0822b2f8915bff5c4abf2a0f4703ef21691fa9347103a4d29b5f6581eb2927c60d7a6220d07d581c502aa07382fe7e275df4b3959a8c230459f2fd0ea4
+outputs.1.2.length=471395
+outputs.1.2.checksums.sha512=2cef4a7efe04bb9f70acdd8aaadc4ff08b2e1e17319bb3710912647483c5a58dcb9a89eb9e0e60b3172927629f420e2b1e07d5340d9316fcb84d406e5c4b3c72
 
 outputs.1.3.groupId=ch.qos.logback
 outputs.1.3.filename=logback-core-1.5.1-test-sources.jar
-outputs.1.3.length=230452
-outputs.1.3.checksums.sha512=1667d90e8df2c0f1460bbfd82d4584452affb507668ed5ad563777ecb0a74c04a84c3c6288a0838a6fbbdac61333b025e87fa80b24bca1ccb473636fab3e997f
+outputs.1.3.length=232216
+outputs.1.3.checksums.sha512=ec014b306f4dc9ec0a1e9d97937f46cfe2ff749dc10936b1c559e0be78d053ccce68e073ba4b4c163ac5d4de2c285ba0524d85dd3f35d45b2732e2bb5e32e55d
 
 outputs.1.4.groupId=ch.qos.logback
 outputs.1.4.filename=logback-core-1.5.1-tests.jar
-outputs.1.4.length=380727
-outputs.1.4.checksums.sha512=e88b3cfa00a4bd1325f3d2583a7acccbff5867b070b3b70d713991a5da99ae459bd37c69f3cfc8daa3f6b04beb3ea4c9a677a6cfa9a6ea44b0c284e2b3338f36
+outputs.1.4.length=380793
+outputs.1.4.checksums.sha512=2f5026ee1f9484db8292ab7972e0feb06bce8cea0f105128d9bcf4e9324d9e6dc1fbc38e40cc8bde4317624abc7f0f029edbaf52f70c507a49d25eec9107f1c3
 
 outputs.2.coordinates=ch.qos.logback:logback-classic
 
 outputs.2.0.groupId=ch.qos.logback
 outputs.2.0.filename=logback-classic-1.5.1.pom
-outputs.2.0.length=12715
-outputs.2.0.checksums.sha512=164ad1ca454a82055996dfcbdbc1f49f0ca2b426b061efb49080a384c7b2e8f5d5e23ca23b054cc7e8ea3d57cfc726501b6a802fb3928b0b32033a18c740c218
+outputs.2.0.length=13082
+outputs.2.0.checksums.sha512=7f082964407435b4a28c5120d4dcb7c7c787b2adb42b618098f729a1830f46131b5a0b31494c6e2a860f4e4211d5afda3e5401d2fc8e1a43199753a5429f64b1
 
 outputs.2.1.groupId=ch.qos.logback
 outputs.2.1.filename=logback-classic-1.5.1.jar
-outputs.2.1.length=291750
-outputs.2.1.checksums.sha512=d8348163286d6db1ed63ebe6e61cdb428cbc8af34300e96a766064cebffe4b1114841b7bb7f8bea291d240567e45619c1be6167f1fcabfaf702db241df6d3785
+outputs.2.1.length=291830
+outputs.2.1.checksums.sha512=f3d3967f54ff12a6d7a665ac327aeef878dda02e0e4dbb36854453eec4351ecbf6a9358410b354b7a6410fbfaa3e890ebd4f9984db7b74f512a252d6bc931ce8
 
 outputs.2.2.groupId=ch.qos.logback
 outputs.2.2.filename=logback-classic-1.5.1-sources.jar
-outputs.2.2.length=235956
-outputs.2.2.checksums.sha512=cdd94984c2aa99688371e95ae665c7e9ff50b86ee27dd9abf383b6467f19ec0f0b29ff3aa55e888c1b1a2f8b700d46ae871ea0832ad0795e3e551a350c979659
+outputs.2.2.length=237854
+outputs.2.2.checksums.sha512=e5b2beb3c8f103d53ad644c29641c7169f8e34e04aceceed0afafbd83ebaea26243a1c3033e0a8e2933b5cb242d0ce5f25c19e52c267e6184ec82559c84cce7b
 
 outputs.2.3.groupId=ch.qos.logback
 outputs.2.3.filename=logback-classic-1.5.1-test-sources.jar
-outputs.2.3.length=315185
-outputs.2.3.checksums.sha512=0eaeb16294c2092bb7bbf139870d3e1eef74b8b438fcbf2d824cad892a03a5313c99f7ba5d8eaa1e0672e331987d1917386764f185adf3188d0cd303d58f4a2b
+outputs.2.3.length=317625
+outputs.2.3.checksums.sha512=8605148dec507191e1ab07f4ed88d6e4815cbc8b16e9cb06816bfd3d20f29f95a963a639233e20fee8304cc21ebd881cebe203e45ae7c69fe15e97633ee6d63e
 
 outputs.2.4.groupId=ch.qos.logback
 outputs.2.4.filename=logback-classic-1.5.1-tests.jar
-outputs.2.4.length=473251
-outputs.2.4.checksums.sha512=871ac62cf64f6f1b2f0784ef2f8112273137b069fadf7e7beac0ffcef902906cb3f75901c8e78ba1ad876f446e271e9d25a66225853f5b950dd560c9ec4a8786
+outputs.2.4.length=473794
+outputs.2.4.checksums.sha512=310fbd9b4fccd189e292250191f9fce246a0ea9b5cd712a99314a6e44142d42521847026c481936e7c39d50be65145064f6b105383e4259c642b206760161c20
