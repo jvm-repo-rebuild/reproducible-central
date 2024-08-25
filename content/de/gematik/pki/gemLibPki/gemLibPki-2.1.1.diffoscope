@@ -1,0 +1,18 @@
+1 / 1 target/reference/de.gematik.pki/gemLibPki-2.1.1-sources.jar target/gemLibPki-2.1.1-sources.jar
+--- target/reference/de.gematik.pki/gemLibPki-2.1.1-sources.jar
++++ target/gemLibPki-2.1.1-sources.jar
+├── zipinfo {}
+│ @@ -74,10 +74,10 @@
+│  -rw-r--r--  2.0 unx     2250 b- defN 24-Feb-21 09:48 schemas/ts_102231v030102_additionaltypes_xsd.xsd
+│  -rw-r--r--  2.0 unx     3743 b- defN 24-Feb-21 09:48 schemas/ts_102231v030102_sie_xsd.xsd
+│  -rw-r--r--  2.0 unx    14934 b- defN 24-Feb-21 09:48 schemas/ts_102231v030102_xsd.xsd
+│  -rw-r--r--  2.0 unx    15079 b- defN 24-Feb-21 09:48 schemas/tsl_references-mod.xsd
+│  -rw-r--r--  2.0 unx     8842 b- defN 24-Feb-21 09:48 schemas/xml.xsd
+│  -rw-r--r--  2.0 unx    12526 b- defN 24-Feb-21 09:48 schemas/xmldsig-core-schema-references-mod.xsd
+│  -rw-r--r--  2.0 unx    11693 b- defN 24-Feb-21 09:48 schemas/xmldsig-core-schema.xsd
+│ --rw-r--r--  2.0 unx    14162 b- defN 24-Feb-21 09:48 META-INF/maven/de.gematik.pki/gemLibPki/pom.xml
+│ --rw-r--r--  2.0 unx       58 b- defN 24-Feb-21 09:48 META-INF/maven/de.gematik.pki/gemLibPki/pom.properties
+│ +-rw-rw-r--  2.0 unx    14162 b- defN 24-Feb-21 09:48 META-INF/maven/de.gematik.pki/gemLibPki/pom.xml
+│ +-rw-rw-r--  2.0 unx       58 b- defN 24-Feb-21 09:48 META-INF/maven/de.gematik.pki/gemLibPki/pom.properties
+│  81 files, 373379 bytes uncompressed, 102167 bytes compressed:  72.6%
+
