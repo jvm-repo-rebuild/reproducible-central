@@ -1,0 +1,8 @@
+version=2.1.7
+ok=3
+ko=1
+ignored=0
+okFiles="takari-lifecycle-2.1.7.pom takari-lifecycle-plugin-2.1.7.pom takari-lifecycle-plugin-2.1.7-sources.jar"
+koFiles="takari-lifecycle-plugin-2.1.7.jar"
+ignoredFiles=""
+# diffoscope target/reference/io.takari.maven.plugins/takari-lifecycle-plugin-2.1.7.jar takari-lifecycle-plugin/target/takari-lifecycle-plugin-2.1.7.jar
