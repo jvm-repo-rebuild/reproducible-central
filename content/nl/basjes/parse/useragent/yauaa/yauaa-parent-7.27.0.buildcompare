@@ -1,0 +1,28 @@
+version=7.27.0
+ok=29
+ko=19
+ignored=0
+okFiles="yauaa-parent-7.27.0.pom yauaa-7.27.0.pom yauaa-udf-parent-7.27.0.pom yauaa-logparser-7.27.0.pom yauaa-logparser-7.27.0-sources.jar yauaa-flink-7.27.0.pom yauaa-flink-7.27.0-sources.jar yauaa-flink-table-7.27.0.pom yauaa-flink-table-7.27.0-sources.jar yauaa-beam-7.27.0.pom yauaa-beam-7.27.0-sources.jar yauaa-beam-sql-7.27.0.pom yauaa-beam-sql-7.27.0-sources.jar yauaa-hive-7.27.0.pom yauaa-hive-7.27.0-sources.jar yauaa-drill-7.27.0.pom yauaa-drill-7.27.0-sources.jar yauaa-nifi-parent-7.27.0.pom yauaa-nifi-7.27.0.pom yauaa-nifi-7.27.0-nar-extension-manifest.xml yauaa-elastic-udfs-parent-7.27.0.pom yauaa-elasticsearch-7.27.0.pom yauaa-elasticsearch-7.27.0-sources.jar yauaa-elasticsearch-8-7.27.0.pom yauaa-elasticsearch-8-7.27.0-sources.jar yauaa-snowflake-7.27.0.pom yauaa-snowflake-7.27.0-sources.jar yauaa-webapp-7.27.0.pom yauaa-webapp-7.27.0-sources.jar"
+koFiles="yauaa-7.27.0.jar yauaa-7.27.0-sources.jar yauaa-logparser-7.27.0.jar yauaa-logparser-7.27.0-udf.jar yauaa-flink-7.27.0.jar yauaa-flink-table-7.27.0.jar yauaa-beam-7.27.0.jar yauaa-beam-sql-7.27.0.jar yauaa-hive-7.27.0.jar yauaa-hive-7.27.0-udf.jar yauaa-drill-7.27.0.jar yauaa-nifi-7.27.0.nar yauaa-elasticsearch-7.27.0.jar yauaa-elasticsearch-7.27.0.zip yauaa-elasticsearch-8-7.27.0.jar yauaa-elasticsearch-8-7.27.0.zip yauaa-snowflake-7.27.0.jar yauaa-snowflake-7.27.0-udf.jar yauaa-webapp-7.27.0.war"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-7.27.0.jar analyzer/target/yauaa-7.27.0.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-7.27.0-sources.jar analyzer/target/yauaa-7.27.0-sources.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-logparser-7.27.0.jar udfs/logparser/target/yauaa-logparser-7.27.0.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-logparser-7.27.0-udf.jar udfs/logparser/target/yauaa-logparser-7.27.0-udf.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-flink-7.27.0.jar udfs/flink/target/yauaa-flink-7.27.0.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-flink-table-7.27.0.jar udfs/flink-table/target/yauaa-flink-table-7.27.0.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-beam-7.27.0.jar udfs/beam/target/yauaa-beam-7.27.0.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-beam-sql-7.27.0.jar udfs/beam-sql/target/yauaa-beam-sql-7.27.0.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-hive-7.27.0.jar udfs/hive/target/yauaa-hive-7.27.0.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-hive-7.27.0-udf.jar udfs/hive/target/yauaa-hive-7.27.0-udf.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-drill-7.27.0.jar udfs/drill/target/yauaa-drill-7.27.0.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-nifi-7.27.0.nar udfs/nifi/nifi-nar/target/yauaa-nifi-7.27.0.nar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-elasticsearch-7.27.0.jar udfs/elastic/elasticsearch-7/target/yauaa-elasticsearch-7.27.0.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-elasticsearch-7.27.0.zip udfs/elastic/elasticsearch-7/target/yauaa-elasticsearch-7.27.0.zip
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-elasticsearch-8-7.27.0.jar udfs/elastic/elasticsearch-8/target/yauaa-elasticsearch-8-7.27.0.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-elasticsearch-8-7.27.0.zip udfs/elastic/elasticsearch-8/target/yauaa-elasticsearch-8-7.27.0.zip
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-snowflake-7.27.0.jar udfs/snowflake/target/yauaa-snowflake-7.27.0.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-snowflake-7.27.0-udf.jar udfs/snowflake/target/yauaa-snowflake-7.27.0-udf.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-webapp-7.27.0.war webapp/target/yauaa-webapp-7.27.0.war
