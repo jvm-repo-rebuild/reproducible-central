@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-H2O
+group-id=org.jpmml
+artifact-id=jpmml-h2o
+version=1.2.14
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-h2o.git
+source.scm.tag=1.2.14
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=pmml-h2o
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-h2o
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-h2o-1.2.14.pom
+outputs.0.0.length=6838
+outputs.0.0.checksums.sha512=f3e80150cd9e10c7c0f4af10e78a26313839cd54046c08ff6c4473d61b12ec163deda0b592404624013363b1198ff2d4509a7cce748b64d5113732553320184a
+
+outputs.1.coordinates=org.jpmml:pmml-h2o
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-h2o-1.2.14.pom
+outputs.1.0.length=1953
+outputs.1.0.checksums.sha512=89cb0d4b2720934956cb4748a50a09b182e52b40f243a39df38b37e52bd0abf97513ab61534ebfd31210a8d3c49fc4ffeeb827d5d952346a53e011defe4bea5a
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-h2o-1.2.14.jar
+outputs.1.1.length=57960
+outputs.1.1.checksums.sha512=2c926e0f80ce4f90c25704dcbeb29d13e3805f118c9f8d8a1c482e9ad0d7a9e01feab9a3a40be26c4e6e4d50c51197e9efea3294330315f052c3ef699346456f
+
+outputs.1.2.groupId=org.jpmml
+outputs.1.2.filename=pmml-h2o-1.2.14-sources.jar
+outputs.1.2.length=33684
+outputs.1.2.checksums.sha512=ac9e36a3dc7c0ca58174f8d2451ea650650f4c1a56ee0927fe97b49fe591ead4ca846c789a35d047b8f90c4305ad6cbd8f19891b8dea371ad1062573c47c6f63
