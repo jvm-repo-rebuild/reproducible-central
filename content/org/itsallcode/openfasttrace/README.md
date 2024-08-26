@@ -9,31 +9,31 @@ Source code: [https://github.com/itsallcode/openfasttrace.git](https://github.co
 
 <details><summary>This project defines 16 modules:</summary>
 
-* [org.itsallcode.openfasttrace:openfasttrace](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.0.0)
-* [org.itsallcode.openfasttrace:openfasttrace-api](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-api/4.0.0)
-* [org.itsallcode.openfasttrace:openfasttrace-core](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-core/4.0.0)
-* [org.itsallcode.openfasttrace:openfasttrace-exporter-common](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-exporter-common/4.0.0)
-* [org.itsallcode.openfasttrace:openfasttrace-exporter-specobject](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-exporter-specobject/4.0.0)
-* [org.itsallcode.openfasttrace:openfasttrace-importer-lightweightmarkup](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-lightweightmarkup/4.0.0)
-* [org.itsallcode.openfasttrace:openfasttrace-importer-markdown](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-markdown/4.0.0)
-* [org.itsallcode.openfasttrace:openfasttrace-importer-restructuredtext](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-restructuredtext/4.0.0)
-* [org.itsallcode.openfasttrace:openfasttrace-importer-specobject](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-specobject/4.0.0)
-* [org.itsallcode.openfasttrace:openfasttrace-importer-tag](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-tag/4.0.0)
-* [org.itsallcode.openfasttrace:openfasttrace-importer-xmlparser](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-xmlparser/4.0.0)
-* [org.itsallcode.openfasttrace:openfasttrace-importer-zip](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-zip/4.0.0)
-* [org.itsallcode.openfasttrace:openfasttrace-parent](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-parent/4.0.0)
-* [org.itsallcode.openfasttrace:openfasttrace-reporter-aspec](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-reporter-aspec/4.0.0)
-* [org.itsallcode.openfasttrace:openfasttrace-reporter-html](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-reporter-html/4.0.0)
-* [org.itsallcode.openfasttrace:openfasttrace-reporter-plaintext](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-reporter-plaintext/4.0.0)
+* [org.itsallcode.openfasttrace:openfasttrace](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.1.0)
+* [org.itsallcode.openfasttrace:openfasttrace-api](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-api/4.1.0)
+* [org.itsallcode.openfasttrace:openfasttrace-core](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-core/4.1.0)
+* [org.itsallcode.openfasttrace:openfasttrace-exporter-common](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-exporter-common/4.1.0)
+* [org.itsallcode.openfasttrace:openfasttrace-exporter-specobject](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-exporter-specobject/4.1.0)
+* [org.itsallcode.openfasttrace:openfasttrace-importer-lightweightmarkup](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-lightweightmarkup/4.1.0)
+* [org.itsallcode.openfasttrace:openfasttrace-importer-markdown](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-markdown/4.1.0)
+* [org.itsallcode.openfasttrace:openfasttrace-importer-restructuredtext](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-restructuredtext/4.1.0)
+* [org.itsallcode.openfasttrace:openfasttrace-importer-specobject](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-specobject/4.1.0)
+* [org.itsallcode.openfasttrace:openfasttrace-importer-tag](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-tag/4.1.0)
+* [org.itsallcode.openfasttrace:openfasttrace-importer-xmlparser](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-xmlparser/4.1.0)
+* [org.itsallcode.openfasttrace:openfasttrace-importer-zip](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-importer-zip/4.1.0)
+* [org.itsallcode.openfasttrace:openfasttrace-parent](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-parent/4.1.0)
+* [org.itsallcode.openfasttrace:openfasttrace-reporter-aspec](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-reporter-aspec/4.1.0)
+* [org.itsallcode.openfasttrace:openfasttrace-reporter-html](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-reporter-html/4.1.0)
+* [org.itsallcode.openfasttrace:openfasttrace-reporter-plaintext](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace-reporter-plaintext/4.1.0)
 </details>
 
-rebuilding **1 releases** of org.itsallcode.openfasttrace:openfasttrace:
+rebuilding **2 releases** of org.itsallcode.openfasttrace:openfasttrace:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.1.0](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.1.0/pom) | | | |
+| [4.1.0](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.1.0/pom) | [mvn jdk17](openfasttrace-4.1.0.buildspec) | [result](openfasttrace-4.1.0.buildinfo): [44 :white_check_mark:  2 :warning:](openfasttrace-4.1.0.buildcompare) [:mag:](openfasttrace-4.1.0.diffoscope) | 1.3M |
 | [4.0.2](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.0.2/pom) | | | |
 | [4.0.1](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.0.1/pom) | | | |
 | [4.0.0](https://central.sonatype.com/artifact/org.itsallcode.openfasttrace/openfasttrace/4.0.0/pom) | [mvn jdk17](openfasttrace-4.0.0.buildspec) | [result](openfasttrace-4.0.0.buildinfo): [44 :white_check_mark:  2 :warning:](openfasttrace-4.0.0.buildcompare) [:mag:](openfasttrace-4.0.0.diffoscope) | 1.2M |

@@ -13,6 +13,7 @@ rebuilding **6 releases** of com.github.ldapchai:ldapchai:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.8.6](https://central.sonatype.com/artifact/com.github.ldapchai/ldapchai/0.8.6/pom) | | | |
 | [0.8.5](https://central.sonatype.com/artifact/com.github.ldapchai/ldapchai/0.8.5/pom) | [mvn jdk17](ldapchai-0.8.5.buildspec) | [result](ldapchai-0.8.5.buildinfo): [1 :white_check_mark:  2 :warning:](ldapchai-0.8.5.buildcompare) [:mag:](ldapchai-0.8.5.diffoscope) [:memo:](https://github.com/ldapchai/ldapchai/issues/28) | 1.6M |
 | [0.8.4](https://central.sonatype.com/artifact/com.github.ldapchai/ldapchai/0.8.4/pom) | | | |
 | [0.8.3](https://central.sonatype.com/artifact/com.github.ldapchai/ldapchai/0.8.3/pom) | [mvn jdk11](ldapchai-0.8.3.buildspec) | [result](ldapchai-0.8.3.buildinfo): [3 :white_check_mark: ](ldapchai-0.8.3.buildcompare) | 1.6M |

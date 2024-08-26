@@ -3,8 +3,8 @@
   <groupId>io.wcm</groupId>
   <artifactId>io.wcm.caconfig.editor.parent</artifactId>
   <versioning>
-    <latest>1.16.2</latest>
-    <release>1.16.2</release>
+    <latest>1.16.4</latest>
+    <release>1.16.4</release>
     <versions>
       <version>1.0.0</version>
       <version>1.1.0</version>
@@ -43,7 +43,8 @@
       <version>1.15.8</version>
       <version>1.16.0</version>
       <version>1.16.2</version>
+      <version>1.16.4</version>
     </versions>
-    <lastUpdated>20240718075736</lastUpdated>
+    <lastUpdated>20240826095507</lastUpdated>
   </versioning>
 </metadata>
