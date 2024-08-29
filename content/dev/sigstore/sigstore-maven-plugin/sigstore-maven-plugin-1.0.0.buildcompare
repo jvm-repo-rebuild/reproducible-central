@@ -1,0 +1,8 @@
+version=1.0.0
+ok=5
+ko=3
+okFiles="sigstore-java-1.0.0-sources.jar sigstore-java-1.0.0.pom sigstore-maven-plugin-1.0.0-sources.jar sigstore-maven-plugin-1.0.0.jar sigstore-maven-plugin-1.0.0.pom"
+koFiles="sigstore-java-1.0.0.jar sigstore-java-1.0.0.module sigstore-maven-plugin-1.0.0.module"
+# diffoscope central/dev/sigstore/sigstore-java/1.0.0/sigstore-java-1.0.0.jar repository/dev/sigstore/sigstore-java/1.0.0/sigstore-java-1.0.0.jar
+# diffoscope central/dev/sigstore/sigstore-java/1.0.0/sigstore-java-1.0.0.module repository/dev/sigstore/sigstore-java/1.0.0/sigstore-java-1.0.0.module
+# diffoscope central/dev/sigstore/sigstore-maven-plugin/1.0.0/sigstore-maven-plugin-1.0.0.module repository/dev/sigstore/sigstore-maven-plugin/1.0.0/sigstore-maven-plugin-1.0.0.module
