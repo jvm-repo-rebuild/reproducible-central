@@ -9,18 +9,18 @@ Source code: [https://github.com/airlift/airbase.git](https://github.com/airlift
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [io.airlift:airbase](https://central.sonatype.com/artifact/io.airlift/airbase/169)
-* [io.airlift:airbase-policy](https://central.sonatype.com/artifact/io.airlift/airbase-policy/169)
-* [io.airlift:airbase-root](https://central.sonatype.com/artifact/io.airlift/airbase-root/169)
+* [io.airlift:airbase](https://central.sonatype.com/artifact/io.airlift/airbase/170)
+* [io.airlift:airbase-policy](https://central.sonatype.com/artifact/io.airlift/airbase-policy/170)
+* [io.airlift:airbase-root](https://central.sonatype.com/artifact/io.airlift/airbase-root/170)
 </details>
 
-rebuilding **13 releases** of io.airlift:airbase:
-- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **14 releases** of io.airlift:airbase:
+- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [170](https://central.sonatype.com/artifact/io.airlift/airbase/170/pom) | | | |
+| [170](https://central.sonatype.com/artifact/io.airlift/airbase/170/pom) | [mvn jdk17](airbase-170.buildspec) | [result](airbase-170.buildinfo): [4 :white_check_mark: ](airbase-170.buildcompare) | 97K |
 | [169](https://central.sonatype.com/artifact/io.airlift/airbase/169/pom) | [mvn jdk17](airbase-169.buildspec) | [result](airbase-169.buildinfo): [4 :white_check_mark: ](airbase-169.buildcompare) | 97K |
 | [168](https://central.sonatype.com/artifact/io.airlift/airbase/168/pom) | [mvn jdk17](airbase-168.buildspec) | [result](airbase-168.buildinfo): [4 :white_check_mark: ](airbase-168.buildcompare) | 97K |
 | [167](https://central.sonatype.com/artifact/io.airlift/airbase/167/pom) | [mvn jdk17](airbase-167.buildspec) | [result](airbase-167.buildinfo): [4 :white_check_mark: ](airbase-167.buildcompare) | 97K |
