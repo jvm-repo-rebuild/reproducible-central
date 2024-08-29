@@ -67,6 +67,9 @@ between the reference file from Central Repository and the effective rebuild fil
 
 Once a project is listed here, a badge endpoint is provided to display proven reproducibility success level: it provides a badge like ![Reproducible Builds](https://img.shields.io/badge/Reproducible_Builds-5/5-success?labelColor=1e5b96) pointing to its `README.md`:
 
+Example for Markdown:
 ```
-[![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/...path to project directory.../badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/...path to project directory.../README.md)
+[![Reproducible Builds](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjvm-repo-rebuild%2Freproducible-central%2Fmaster%2F...path to project directory...%2Fbadge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/...path to project directory.../README.md)
 ```
+
+This uses the [Endpoint Badge from shields.io](https://shields.io/badges/endpoint-badge) for rendering the image.
