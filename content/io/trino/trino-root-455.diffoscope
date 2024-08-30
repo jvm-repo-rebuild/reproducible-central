@@ -1,0 +1,651 @@
+# opentelemetry-semconv-1.27.0-alpha.jar used in the reference build is not the same as in Maven Central https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-semconv/1.27.0-alpha/opentelemetry-semconv-1.27.0-alpha.jar
+ sha256 = 06930f87e008f606a543e43cefaf9ebfacbddd85a54492a9cc266a059b935a39
+1 / 1 target/reference/io.trino/trino-accumulo-455.zip plugin/trino-accumulo/target/trino-accumulo-455.zip
+--- target/reference/io.trino/trino-accumulo-455.zip
++++ plugin/trino-accumulo/target/trino-accumulo-455.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 81251810 bytes, number of entries: 121
+│ +Zip file size: 81281942 bytes, number of entries: 121
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 08:00 trino-accumulo-455/
+│  ?rw-r--r--  2.0 unx   177206 bl defN 80-Jan-01 08:00 trino-accumulo-455/HdrHistogram-2.2.2.jar
+│  ?rw-r--r--  2.0 unx    29779 bl defN 80-Jan-01 08:00 trino-accumulo-455/LatencyUtils-2.0.3.jar
+│  ?rw-r--r--  2.0 unx  6613555 bl defN 80-Jan-01 08:00 trino-accumulo-455/accumulo-core-3.0.0.jar
+│  ?rw-r--r--  2.0 unx    16588 bl defN 80-Jan-01 08:00 trino-accumulo-455/accumulo-start-3.0.0.jar
+│  ?rw-r--r--  2.0 unx   326307 bl defN 80-Jan-01 08:00 trino-accumulo-455/antlr4-runtime-4.13.2.jar
+│  ?rw-r--r--  2.0 unx     4467 bl defN 80-Jan-01 08:00 trino-accumulo-455/aopalliance-1.0.jar
+│ @@ -96,15 +96,15 @@
+│  ?rw-r--r--  2.0 unx   147377 bl defN 80-Jan-01 08:00 trino-accumulo-455/netty-transport-classes-epoll-4.1.112.Final.jar
+│  ?rw-r--r--  2.0 unx    39782 bl defN 80-Jan-01 08:00 trino-accumulo-455/netty-transport-native-epoll-4.1.112.Final-linux-x86_64.jar
+│  ?rw-r--r--  2.0 unx    44156 bl defN 80-Jan-01 08:00 trino-accumulo-455/netty-transport-native-unix-common-4.1.112.Final.jar
+│  ?rw-r--r--  2.0 unx    14803 bl defN 80-Jan-01 08:00 trino-accumulo-455/node-261.jar
+│  ?rw-r--r--  2.0 unx   789531 bl defN 80-Jan-01 08:00 trino-accumulo-455/okhttp-4.12.0.jar
+│  ?rw-r--r--  2.0 unx    48130 bl defN 80-Jan-01 08:00 trino-accumulo-455/okio-3.9.0.jar
+│  ?rw-r--r--  2.0 unx   372089 bl defN 80-Jan-01 08:00 trino-accumulo-455/okio-jvm-3.9.0.jar
+│ -?rw-r--r--  2.0 unx    39654 bl defN 80-Jan-01 08:00 trino-accumulo-455/opentelemetry-semconv-1.27.0-alpha.jar
+│ +?rw-r--r--  2.0 unx    74778 bl defN 80-Jan-01 08:00 trino-accumulo-455/opentelemetry-semconv-1.27.0-alpha.jar
+│  ?rw-r--r--  2.0 unx   114597 bl defN 80-Jan-01 08:00 trino-accumulo-455/opentelemetry-semconv-incubating-1.27.0-alpha.jar
+│  ?rw-r--r--  2.0 unx     3151 bl defN 80-Jan-01 08:00 trino-accumulo-455/secrets-spi-261.jar
+│  ?rw-r--r--  2.0 unx    28163 bl defN 80-Jan-01 08:00 trino-accumulo-455/security-261.jar
+│  ?rw-r--r--  2.0 unx    69435 bl defN 80-Jan-01 08:00 trino-accumulo-455/slf4j-api-2.0.16.jar
+│  ?rw-r--r--  2.0 unx    10435 bl defN 80-Jan-01 08:00 trino-accumulo-455/slf4j-jdk14-2.0.16.jar
+│  ?rw-r--r--  2.0 unx   334352 bl defN 80-Jan-01 08:00 trino-accumulo-455/snakeyaml-2.2.jar
+│  ?rw-r--r--  2.0 unx  2338593 bl defN 80-Jan-01 08:00 trino-accumulo-455/snappy-java-1.1.10.6.jar
+│ @@ -116,8 +116,8 @@
+│  ?rw-r--r--  2.0 unx     4436 bl defN 80-Jan-01 08:00 trino-accumulo-455/trino-accumulo-iterators-455.jar
+│  ?rw-r--r--  2.0 unx    37835 bl defN 80-Jan-01 08:00 trino-accumulo-455/trino-cache-455.jar
+│  ?rw-r--r--  2.0 unx    20567 bl defN 80-Jan-01 08:00 trino-accumulo-455/trino-matching-455.jar
+│  ?rw-r--r--  2.0 unx   332866 bl defN 80-Jan-01 08:00 trino-accumulo-455/trino-plugin-toolkit-455.jar
+│  ?rw-r--r--  2.0 unx    28750 bl defN 80-Jan-01 08:00 trino-accumulo-455/units-1.10.jar
+│  ?rw-r--r--  2.0 unx  1357118 bl defN 80-Jan-01 08:00 trino-accumulo-455/zookeeper-3.9.2.jar
+│  ?rw-r--r--  2.0 unx   255756 bl defN 80-Jan-01 08:00 trino-accumulo-455/zookeeper-jute-3.9.2.jar
+│ -121 files, 90409003 bytes uncompressed, 81229536 bytes compressed:  10.2%
+│ +121 files, 90444127 bytes uncompressed, 81259668 bytes compressed:  10.2%
+├── trino-accumulo-455/opentelemetry-semconv-1.27.0-alpha.jar
+│ ├── zipinfo {}
+│ │ @@ -1,47 +1,86 @@
+│ │ -Zip file size: 39654 bytes, number of entries: 45
+│ │ -drwxr-xr-x  2.0 unx        0 b- defN 23-Jun-09 16:56 META-INF/
+│ │ --rw-r--r--  2.0 unx      180 b- defN 23-Jun-09 16:56 META-INF/MANIFEST.MF
+│ │ -drwxr-xr-x  2.0 unx        0 b- defN 23-Jun-09 16:56 io/
+│ │ -drwxr-xr-x  2.0 unx        0 b- defN 23-Jun-09 16:56 io/opentelemetry/
+│ │ -drwxr-xr-x  2.0 unx        0 b- defN 23-Jun-09 16:56 io/opentelemetry/semconv/
+...
+│ │ --rw-r--r--  2.0 unx     2598 b- defN 23-Jun-09 16:56 io/opentelemetry/semconv/trace/attributes/SemanticAttributes$DbSystemValues.class
+│ │ --rw-r--r--  2.0 unx       24 b- defN 23-Jun-09 16:56 io/opentelemetry/semconv/version.properties
+│ │ -45 files, 63623 bytes uncompressed, 29530 bytes compressed:  53.6%
+│ │ +Zip file size: 74778 bytes, number of entries: 84
+│ │ +drwxr-xr-x  2.0 unx        0 b- defN 24-Aug-20 19:00 META-INF/
+│ │ +-rw-r--r--  2.0 unx      195 b- defN 24-Aug-20 19:00 META-INF/MANIFEST.MF
+│ │ +drwxr-xr-x  2.0 unx        0 b- defN 24-Aug-20 19:00 io/
+│ │ +drwxr-xr-x  2.0 unx        0 b- defN 24-Aug-20 19:00 io/opentelemetry/
+│ │ +drwxr-xr-x  2.0 unx        0 b- defN 24-Aug-20 19:00 io/opentelemetry/semconv/
+...
+│ │ +-rw-r--r--  2.0 unx      546 b- defN 24-Aug-20 19:00 io/opentelemetry/semconv/OtelAttributes$OtelStatusCodeValues.class
+│ │ +-rw-r--r--  2.0 unx      792 b- defN 24-Aug-20 19:00 io/opentelemetry/semconv/SemanticAttributes$GraphqlOperationTypeValues.class
+│ │ +84 files, 132467 bytes uncompressed, 57668 bytes compressed:  56.5%
+│ ├── META-INF/MANIFEST.MF
+│ │ @@ -1,7 +1,7 @@
+│ │  Manifest-Version: 1.0
+
+│ │  Automatic-Module-Name: io.opentelemetry.semconv
+
+│ │  Built-By: runner
+
+│ │ -Built-JDK: 17.0.7
+
+│ │ -Implementation-Title: semconv
+
+│ │ +Built-JDK: 17.0.12
+
+│ │ +Implementation-Title: opentelemetry-semconv
+
+│ │  Implementation-Version: 1.27.0-alpha
+│ │   --- io/opentelemetry/semconv/resource/attributes/ResourceAttributes$CloudProviderValues.class
+│ ├── +++ io/opentelemetry/semconv/TelemetryAttributes.class
+│ │┄ Files 26% similar despite different names
+│ │ ├── procyon -ec {}
+│ │ │ @@ -1,16 +1,20 @@
+│ │ │  
+│ │ │ -package io.opentelemetry.semconv.resource.attributes;
+│ │ │ +package io.opentelemetry.semconv;
+│ │ │  
+│ │ │ -public static final class CloudProviderValues
+│ │ │ +import io.opentelemetry.api.common.AttributeKey;
+│ │ │ +
+│ │ │ +public final class TelemetryAttributes
+│ │ │  {
+│ │ │ -    public static final String ALIBABA_CLOUD = "alibaba_cloud";
+│ │ │ -    public static final String AWS = "aws";
+│ │ │ -    public static final String AZURE = "azure";
+│ │ │ -    public static final String GCP = "gcp";
+│ │ │ -    public static final String HEROKU = "heroku";
+│ │ │ -    public static final String IBM_CLOUD = "ibm_cloud";
+│ │ │ -    public static final String TENCENT_CLOUD = "tencent_cloud";
+│ │ │ +    public static final AttributeKey<String> TELEMETRY_SDK_LANGUAGE;
+│ │ │ +    public static final AttributeKey<String> TELEMETRY_SDK_NAME;
+│ │ │ +    public static final AttributeKey<String> TELEMETRY_SDK_VERSION;
+│ │ │ +    
+│ │ │ +    private TelemetryAttributes() {
+│ │ │ +    }
+│ │ │      
+│ │ │ -    private CloudProviderValues() {
+│ │ │ +    static {
+│ │ │ +        TELEMETRY_SDK_LANGUAGE = AttributeKey.stringKey("telemetry.sdk.language");
+│ │ │ +        TELEMETRY_SDK_NAME = AttributeKey.stringKey("telemetry.sdk.name");
+│ │ │ +        TELEMETRY_SDK_VERSION = AttributeKey.stringKey("telemetry.sdk.version");
+│ │ │      }
+│ │ │  }
+│ │   --- io/opentelemetry/semconv/resource/attributes/ResourceAttributes$TelemetrySdkLanguageValues.class
+│ ├── +++ io/opentelemetry/semconv/SemanticAttributes$HttpFlavorValues.class
+│ │┄ Files 27% similar despite different names
+│ │ ├── procyon -ec {}
+│ │ │ @@ -1,20 +1,22 @@
+│ │ │  
+│ │ │ -package io.opentelemetry.semconv.resource.attributes;
+│ │ │ +package io.opentelemetry.semconv;
+│ │ │  
+│ │ │ -public static final class TelemetrySdkLanguageValues
+│ │ │ +@Deprecated
+│ │ │ +public static final class HttpFlavorValues
+│ │ │  {
+│ │ │ -    public static final String CPP = "cpp";
+│ │ │ -    public static final String DOTNET = "dotnet";
+│ │ │ -    public static final String ERLANG = "erlang";
+│ │ │ -    public static final String GO = "go";
+│ │ │ -    public static final String JAVA = "java";
+│ │ │ -    public static final String NODEJS = "nodejs";
+│ │ │ -    public static final String PHP = "php";
+│ │ │ -    public static final String PYTHON = "python";
+│ │ │ -    public static final String RUBY = "ruby";
+│ │ │ -    public static final String WEBJS = "webjs";
+│ │ │ -    public static final String SWIFT = "swift";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String HTTP_1_0 = "1.0";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String HTTP_1_1 = "1.1";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String HTTP_2_0 = "2.0";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String HTTP_3_0 = "3.0";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String SPDY = "SPDY";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String QUIC = "QUIC";
+│ │ │      
+│ │ │ -    private TelemetrySdkLanguageValues() {
+│ │ │ +    private HttpFlavorValues() {
+│ │ │      }
+│ │ │  }
+│ │   --- io/opentelemetry/semconv/resource/attributes/ResourceAttributes$HostArchValues.class
+│ ├── +++ io/opentelemetry/semconv/NetworkAttributes$NetworkTransportValues.class
+│ │┄ Files 22% similar despite different names
+│ │ ├── procyon -ec {}
+│ │ │ @@ -1,17 +1,14 @@
+│ │ │  
+│ │ │ -package io.opentelemetry.semconv.resource.attributes;
+│ │ │ +package io.opentelemetry.semconv;
+│ │ │  
+│ │ │ -public static final class HostArchValues
+│ │ │ +public static final class NetworkTransportValues
+│ │ │  {
+│ │ │ -    public static final String AMD64 = "amd64";
+│ │ │ -    public static final String ARM32 = "arm32";
+│ │ │ -    public static final String ARM64 = "arm64";
+│ │ │ -    public static final String IA64 = "ia64";
+│ │ │ -    public static final String PPC32 = "ppc32";
+│ │ │ -    public static final String PPC64 = "ppc64";
+│ │ │ -    public static final String S390X = "s390x";
+│ │ │ -    public static final String X86 = "x86";
+│ │ │ +    public static final String TCP = "tcp";
+│ │ │ +    public static final String UDP = "udp";
+│ │ │ +    public static final String PIPE = "pipe";
+│ │ │ +    public static final String UNIX = "unix";
+│ │ │ +    public static final String QUIC = "quic";
+│ │ │      
+│ │ │ -    private HostArchValues() {
+│ │ │ +    private NetworkTransportValues() {
+│ │ │      }
+│ │ │  }
+│ │   --- io/opentelemetry/semconv/resource/attributes/ResourceAttributes$AwsEcsLaunchtypeValues.class
+│ ├── +++ io/opentelemetry/semconv/SemanticAttributes$OpentracingRefTypeValues.class
+│ │┄ Files 25% similar despite different names
+│ │ ├── procyon -ec {}
+│ │ │ @@ -1,11 +1,14 @@
+│ │ │  
+│ │ │ -package io.opentelemetry.semconv.resource.attributes;
+│ │ │ +package io.opentelemetry.semconv;
+│ │ │  
+│ │ │ -public static final class AwsEcsLaunchtypeValues
+│ │ │ +@Deprecated
+│ │ │ +public static final class OpentracingRefTypeValues
+│ │ │  {
+│ │ │ -    public static final String EC2 = "ec2";
+│ │ │ -    public static final String FARGATE = "fargate";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String CHILD_OF = "child_of";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String FOLLOWS_FROM = "follows_from";
+│ │ │      
+│ │ │ -    private AwsEcsLaunchtypeValues() {
+│ │ │ +    private OpentracingRefTypeValues() {
+│ │ │      }
+│ │ │  }
+│ │   --- io/opentelemetry/semconv/trace/attributes/SemanticAttributes$MessagingDestinationKindValues.class
+│ ├── +++ io/opentelemetry/semconv/SemanticAttributes$DbCosmosdbConnectionModeValues.class
+│ │┄ Files 18% similar despite different names
+│ │ ├── procyon -ec {}
+│ │ │ @@ -1,12 +1,14 @@
+│ │ │  
+│ │ │ -package io.opentelemetry.semconv.trace.attributes;
+│ │ │ +package io.opentelemetry.semconv;
+│ │ │  
+│ │ │  @Deprecated
+│ │ │ -public static final class MessagingDestinationKindValues
+│ │ │ +public static final class DbCosmosdbConnectionModeValues
+│ │ │  {
+│ │ │ -    public static final String QUEUE = "queue";
+│ │ │ -    public static final String TOPIC = "topic";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String GATEWAY = "gateway";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String DIRECT = "direct";
+│ │ │      
+│ │ │ -    private MessagingDestinationKindValues() {
+│ │ │ +    private DbCosmosdbConnectionModeValues() {
+│ │ │      }
+│ │ │  }
+│ │   --- io/opentelemetry/semconv/trace/attributes/SemanticAttributes$MessagingOperationValues.class
+│ ├── +++ io/opentelemetry/semconv/SemanticAttributes$MessageTypeValues.class
+│ │┄ Files 22% similar despite different names
+│ │ ├── procyon -ec {}
+│ │ │ @@ -1,12 +1,14 @@
+│ │ │  
+│ │ │ -package io.opentelemetry.semconv.trace.attributes;
+│ │ │ +package io.opentelemetry.semconv;
+│ │ │  
+│ │ │ -public static final class MessagingOperationValues
+│ │ │ +@Deprecated
+│ │ │ +public static final class MessageTypeValues
+│ │ │  {
+│ │ │ -    public static final String PUBLISH = "publish";
+│ │ │ -    public static final String RECEIVE = "receive";
+│ │ │ -    public static final String PROCESS = "process";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String SENT = "SENT";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String RECEIVED = "RECEIVED";
+│ │ │      
+│ │ │ -    private MessagingOperationValues() {
+│ │ │ +    private MessageTypeValues() {
+│ │ │      }
+│ │ │  }
+│ │   --- io/opentelemetry/semconv/trace/attributes/SemanticAttributes$OtelStatusCodeValues.class
+│ ├── +++ io/opentelemetry/semconv/ErrorAttributes$ErrorTypeValues.class
+│ │┄ Files 22% similar despite different names
+│ │ ├── procyon -ec {}
+│ │ │ @@ -1,11 +1,10 @@
+│ │ │  
+│ │ │ -package io.opentelemetry.semconv.trace.attributes;
+│ │ │ +package io.opentelemetry.semconv;
+│ │ │  
+│ │ │ -public static final class OtelStatusCodeValues
+│ │ │ +public static final class ErrorTypeValues
+│ │ │  {
+│ │ │ -    public static final String OK = "OK";
+│ │ │ -    public static final String ERROR = "ERROR";
+│ │ │ +    public static final String OTHER = "_OTHER";
+│ │ │      
+│ │ │ -    private OtelStatusCodeValues() {
+│ │ │ +    private ErrorTypeValues() {
+│ │ │      }
+│ │ │  }
+│ │   --- io/opentelemetry/semconv/trace/attributes/SemanticAttributes$NetHostConnectionTypeValues.class
+│ ├── +++ io/opentelemetry/semconv/JvmAttributes$JvmMemoryTypeValues.class
+│ │┄ Files 26% similar despite different names
+│ │ ├── procyon -ec {}
+│ │ │ @@ -1,14 +1,11 @@
+│ │ │  
+│ │ │ -package io.opentelemetry.semconv.trace.attributes;
+│ │ │ +package io.opentelemetry.semconv;
+│ │ │  
+│ │ │ -public static final class NetHostConnectionTypeValues
+│ │ │ +public static final class JvmMemoryTypeValues
+│ │ │  {
+│ │ │ -    public static final String WIFI = "wifi";
+│ │ │ -    public static final String WIRED = "wired";
+│ │ │ -    public static final String CELL = "cell";
+│ │ │ -    public static final String UNAVAILABLE = "unavailable";
+│ │ │ -    public static final String UNKNOWN = "unknown";
+│ │ │ +    public static final String HEAP = "heap";
+│ │ │ +    public static final String NON_HEAP = "non_heap";
+│ │ │      
+│ │ │ -    private NetHostConnectionTypeValues() {
+│ │ │ +    private JvmMemoryTypeValues() {
+│ │ │      }
+│ │ │  }
+│ │   --- io/opentelemetry/semconv/trace/attributes/SemanticAttributes$OpentracingRefTypeValues.class
+│ ├── +++ io/opentelemetry/semconv/NetworkAttributes$NetworkTypeValues.class
+│ │┄ Files 25% similar despite different names
+│ │ ├── procyon -ec {}
+│ │ │ @@ -1,11 +1,11 @@
+│ │ │  
+│ │ │ -package io.opentelemetry.semconv.trace.attributes;
+│ │ │ +package io.opentelemetry.semconv;
+│ │ │  
+│ │ │ -public static final class OpentracingRefTypeValues
+│ │ │ +public static final class NetworkTypeValues
+│ │ │  {
+│ │ │ -    public static final String CHILD_OF = "child_of";
+│ │ │ -    public static final String FOLLOWS_FROM = "follows_from";
+│ │ │ +    public static final String IPV4 = "ipv4";
+│ │ │ +    public static final String IPV6 = "ipv6";
+│ │ │      
+│ │ │ -    private OpentracingRefTypeValues() {
+│ │ │ +    private NetworkTypeValues() {
+│ │ │      }
+│ │ │  }
+│ │   --- io/opentelemetry/semconv/trace/attributes/SemanticAttributes$MessagingRocketmqMessageTypeValues.class
+│ ├── +++ io/opentelemetry/semconv/SemanticAttributes$MessagingRocketmqMessageTypeValues.class
+│ │┄ Files 19% similar despite different names
+│ │ ├── procyon -ec {}
+│ │ │ @@ -1,13 +1,18 @@
+│ │ │  
+│ │ │ -package io.opentelemetry.semconv.trace.attributes;
+│ │ │ +package io.opentelemetry.semconv;
+│ │ │  
+│ │ │ +@Deprecated
+│ │ │  public static final class MessagingRocketmqMessageTypeValues
+│ │ │  {
+│ │ │ +    @Deprecated
+│ │ │      public static final String NORMAL = "normal";
+│ │ │ +    @Deprecated
+│ │ │      public static final String FIFO = "fifo";
+│ │ │ +    @Deprecated
+│ │ │      public static final String DELAY = "delay";
+│ │ │ +    @Deprecated
+│ │ │      public static final String TRANSACTION = "transaction";
+│ │ │      
+│ │ │      private MessagingRocketmqMessageTypeValues() {
+│ │ │      }
+│ │ │  }
+│ │   --- io/opentelemetry/semconv/trace/attributes/SemanticAttributes$MessagingRocketmqConsumptionModelValues.class
+│ ├── +++ io/opentelemetry/semconv/SemanticAttributes$SystemFilesystemTypeValues.class
+│ │┄ Files 24% similar despite different names
+│ │ ├── procyon -ec {}
+│ │ │ @@ -1,11 +1,22 @@
+│ │ │  
+│ │ │ -package io.opentelemetry.semconv.trace.attributes;
+│ │ │ +package io.opentelemetry.semconv;
+│ │ │  
+│ │ │ -public static final class MessagingRocketmqConsumptionModelValues
+│ │ │ +@Deprecated
+│ │ │ +public static final class SystemFilesystemTypeValues
+│ │ │  {
+│ │ │ -    public static final String CLUSTERING = "clustering";
+│ │ │ -    public static final String BROADCASTING = "broadcasting";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String FAT32 = "fat32";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String EXFAT = "exfat";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String NTFS = "ntfs";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String REFS = "refs";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String HFSPLUS = "hfsplus";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String EXT4 = "ext4";
+│ │ │      
+│ │ │ -    private MessagingRocketmqConsumptionModelValues() {
+│ │ │ +    private SystemFilesystemTypeValues() {
+│ │ │      }
+│ │ │  }
+│ │   --- io/opentelemetry/semconv/trace/attributes/SemanticAttributes$MessagingSourceKindValues.class
+│ ├── +++ io/opentelemetry/semconv/SemanticAttributes$MessagingRocketmqConsumptionModelValues.class
+│ │┄ Files 18% similar despite different names
+│ │ ├── procyon -ec {}
+│ │ │ @@ -1,12 +1,14 @@
+│ │ │  
+│ │ │ -package io.opentelemetry.semconv.trace.attributes;
+│ │ │ +package io.opentelemetry.semconv;
+│ │ │  
+│ │ │  @Deprecated
+│ │ │ -public static final class MessagingSourceKindValues
+│ │ │ +public static final class MessagingRocketmqConsumptionModelValues
+│ │ │  {
+│ │ │ -    public static final String QUEUE = "queue";
+│ │ │ -    public static final String TOPIC = "topic";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String CLUSTERING = "clustering";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String BROADCASTING = "broadcasting";
+│ │ │      
+│ │ │ -    private MessagingSourceKindValues() {
+│ │ │ +    private MessagingRocketmqConsumptionModelValues() {
+│ │ │      }
+│ │ │  }
+│ │   --- io/opentelemetry/semconv/trace/attributes/SemanticAttributes$DbCosmosdbConnectionModeValues.class
+│ ├── +++ io/opentelemetry/semconv/SemanticAttributes$MessagingOperationValues.class
+│ │┄ Files 24% similar despite different names
+│ │ ├── procyon -ec {}
+│ │ │ @@ -1,11 +1,20 @@
+│ │ │  
+│ │ │ -package io.opentelemetry.semconv.trace.attributes;
+│ │ │ +package io.opentelemetry.semconv;
+│ │ │  
+│ │ │ -public static final class DbCosmosdbConnectionModeValues
+│ │ │ +@Deprecated
+│ │ │ +public static final class MessagingOperationValues
+│ │ │  {
+│ │ │ -    public static final String GATEWAY = "gateway";
+│ │ │ -    public static final String DIRECT = "direct";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String PUBLISH = "publish";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String CREATE = "create";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String RECEIVE = "receive";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String DELIVER = "deliver";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String PROCESS = "process";
+│ │ │      
+│ │ │ -    private DbCosmosdbConnectionModeValues() {
+│ │ │ +    private MessagingOperationValues() {
+│ │ │      }
+│ │ │  }
+│ │   --- io/opentelemetry/semconv/trace/attributes/SemanticAttributes$NetSockFamilyValues.class
+│ ├── +++ io/opentelemetry/semconv/ClientAttributes.class
+│ │┄ Files 26% similar despite different names
+│ │ ├── procyon -ec {}
+│ │ │ @@ -1,12 +1,18 @@
+│ │ │  
+│ │ │ -package io.opentelemetry.semconv.trace.attributes;
+│ │ │ +package io.opentelemetry.semconv;
+│ │ │  
+│ │ │ -public static final class NetSockFamilyValues
+│ │ │ +import io.opentelemetry.api.common.AttributeKey;
+│ │ │ +
+│ │ │ +public final class ClientAttributes
+│ │ │  {
+│ │ │ -    public static final String INET = "inet";
+│ │ │ -    public static final String INET6 = "inet6";
+│ │ │ -    public static final String UNIX = "unix";
+│ │ │ +    public static final AttributeKey<String> CLIENT_ADDRESS;
+│ │ │ +    public static final AttributeKey<Long> CLIENT_PORT;
+│ │ │ +    
+│ │ │ +    private ClientAttributes() {
+│ │ │ +    }
+│ │ │      
+│ │ │ -    private NetSockFamilyValues() {
+│ │ │ +    static {
+│ │ │ +        CLIENT_ADDRESS = AttributeKey.stringKey("client.address");
+│ │ │ +        CLIENT_PORT = AttributeKey.longKey("client.port");
+│ │ │      }
+│ │ │  }
+│ │   --- io/opentelemetry/semconv/trace/attributes/SemanticAttributes$FaasTriggerValues.class
+│ ├── +++ io/opentelemetry/semconv/JvmAttributes$JvmThreadStateValues.class
+│ │┄ Files 22% similar despite different names
+│ │ ├── procyon -ec {}
+│ │ │ @@ -1,14 +1,15 @@
+│ │ │  
+│ │ │ -package io.opentelemetry.semconv.trace.attributes;
+│ │ │ +package io.opentelemetry.semconv;
+│ │ │  
+│ │ │ -public static final class FaasTriggerValues
+│ │ │ +public static final class JvmThreadStateValues
+│ │ │  {
+│ │ │ -    public static final String DATASOURCE = "datasource";
+│ │ │ -    public static final String HTTP = "http";
+│ │ │ -    public static final String PUBSUB = "pubsub";
+│ │ │ -    public static final String TIMER = "timer";
+│ │ │ -    public static final String OTHER = "other";
+│ │ │ +    public static final String NEW = "new";
+│ │ │ +    public static final String RUNNABLE = "runnable";
+│ │ │ +    public static final String BLOCKED = "blocked";
+│ │ │ +    public static final String WAITING = "waiting";
+│ │ │ +    public static final String TIMED_WAITING = "timed_waiting";
+│ │ │ +    public static final String TERMINATED = "terminated";
+│ │ │      
+│ │ │ -    private FaasTriggerValues() {
+│ │ │ +    private JvmThreadStateValues() {
+│ │ │      }
+│ │ │  }
+│ │   --- io/opentelemetry/semconv/trace/attributes/SemanticAttributes$FaasDocumentOperationValues.class
+│ ├── +++ io/opentelemetry/semconv/SemanticAttributes$SystemFilesystemStateValues.class
+│ │┄ Files 22% similar despite different names
+│ │ ├── procyon -ec {}
+│ │ │ @@ -1,12 +1,16 @@
+│ │ │  
+│ │ │ -package io.opentelemetry.semconv.trace.attributes;
+│ │ │ +package io.opentelemetry.semconv;
+│ │ │  
+│ │ │ -public static final class FaasDocumentOperationValues
+│ │ │ +@Deprecated
+│ │ │ +public static final class SystemFilesystemStateValues
+│ │ │  {
+│ │ │ -    public static final String INSERT = "insert";
+│ │ │ -    public static final String EDIT = "edit";
+│ │ │ -    public static final String DELETE = "delete";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String USED = "used";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String FREE = "free";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String RESERVED = "reserved";
+│ │ │      
+│ │ │ -    private FaasDocumentOperationValues() {
+│ │ │ +    private SystemFilesystemStateValues() {
+│ │ │      }
+│ │ │  }
+│ │   --- io/opentelemetry/semconv/trace/attributes/SemanticAttributes$HttpFlavorValues.class
+│ ├── +++ io/opentelemetry/semconv/SemanticAttributes$NetTransportValues.class
+│ │┄ Files 22% similar despite different names
+│ │ ├── procyon -ec {}
+│ │ │ @@ -1,16 +1,20 @@
+│ │ │  
+│ │ │ -package io.opentelemetry.semconv.trace.attributes;
+│ │ │ +package io.opentelemetry.semconv;
+│ │ │  
+│ │ │  @Deprecated
+│ │ │ -public static final class HttpFlavorValues
+│ │ │ +public static final class NetTransportValues
+│ │ │  {
+│ │ │ -    public static final String HTTP_1_0 = "1.0";
+│ │ │ -    public static final String HTTP_1_1 = "1.1";
+│ │ │ -    public static final String HTTP_2_0 = "2.0";
+│ │ │ -    public static final String HTTP_3_0 = "3.0";
+│ │ │ -    public static final String SPDY = "SPDY";
+│ │ │ -    public static final String QUIC = "QUIC";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String IP_TCP = "ip_tcp";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String IP_UDP = "ip_udp";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String PIPE = "pipe";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String INPROC = "inproc";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String OTHER = "other";
+│ │ │      
+│ │ │ -    private HttpFlavorValues() {
+│ │ │ +    private NetTransportValues() {
+│ │ │      }
+│ │ │  }
+│ │   --- io/opentelemetry/semconv/trace/attributes/SemanticAttributes$RpcSystemValues.class
+│ ├── +++ io/opentelemetry/semconv/SemanticAttributes$TypeValues.class
+│ │┄ Files 26% similar despite different names
+│ │ ├── procyon -ec {}
+│ │ │ @@ -1,14 +1,14 @@
+│ │ │  
+│ │ │ -package io.opentelemetry.semconv.trace.attributes;
+│ │ │ +package io.opentelemetry.semconv;
+│ │ │  
+│ │ │ -public static final class RpcSystemValues
+│ │ │ +@Deprecated
+│ │ │ +public static final class TypeValues
+│ │ │  {
+│ │ │ -    public static final String GRPC = "grpc";
+│ │ │ -    public static final String JAVA_RMI = "java_rmi";
+│ │ │ -    public static final String DOTNET_WCF = "dotnet_wcf";
+│ │ │ -    public static final String APACHE_DUBBO = "apache_dubbo";
+│ │ │ -    public static final String CONNECT_RPC = "connect_rpc";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String HEAP = "heap";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String NON_HEAP = "non_heap";
+│ │ │      
+│ │ │ -    private RpcSystemValues() {
+│ │ │ +    private TypeValues() {
+│ │ │      }
+│ │ │  }
+│ │   --- io/opentelemetry/semconv/trace/attributes/SemanticAttributes$GraphqlOperationTypeValues.class
+│ ├── +++ io/opentelemetry/semconv/SemanticAttributes$NetworkTransportValues.class
+│ │┄ Files 27% similar despite different names
+│ │ ├── procyon -ec {}
+│ │ │ @@ -1,12 +1,18 @@
+│ │ │  
+│ │ │ -package io.opentelemetry.semconv.trace.attributes;
+│ │ │ +package io.opentelemetry.semconv;
+│ │ │  
+│ │ │ -public static final class GraphqlOperationTypeValues
+│ │ │ +@Deprecated
+│ │ │ +public static final class NetworkTransportValues
+│ │ │  {
+│ │ │ -    public static final String QUERY = "query";
+│ │ │ -    public static final String MUTATION = "mutation";
+│ │ │ -    public static final String SUBSCRIPTION = "subscription";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String TCP = "tcp";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String UDP = "udp";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String PIPE = "pipe";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String UNIX = "unix";
+│ │ │      
+│ │ │ -    private GraphqlOperationTypeValues() {
+│ │ │ +    private NetworkTransportValues() {
+│ │ │      }
+│ │ │  }
+│ │   --- io/opentelemetry/semconv/trace/attributes/SemanticAttributes$NetTransportValues.class
+│ ├── +++ io/opentelemetry/semconv/ResourceAttributes$CloudProviderValues.class
+│ │┄ Files 22% similar despite different names
+│ │ ├── procyon -ec {}
+│ │ │ @@ -1,18 +1,24 @@
+│ │ │  
+│ │ │ -package io.opentelemetry.semconv.trace.attributes;
+│ │ │ +package io.opentelemetry.semconv;
+│ │ │  
+│ │ │ -public static final class NetTransportValues
+│ │ │ +@Deprecated
+│ │ │ +public static final class CloudProviderValues
+│ │ │  {
+│ │ │ -    public static final String IP_TCP = "ip_tcp";
+│ │ │ -    public static final String IP_UDP = "ip_udp";
+│ │ │ -    public static final String PIPE = "pipe";
+│ │ │ -    public static final String INPROC = "inproc";
+│ │ │ -    public static final String OTHER = "other";
+│ │ │      @Deprecated
+│ │ │ -    public static final String IP = "ip";
+│ │ │ +    public static final String ALIBABA_CLOUD = "alibaba_cloud";
+│ │ │      @Deprecated
+│ │ │ -    public static final String UNIX = "unix";
+│ │ │ +    public static final String AWS = "aws";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String AZURE = "azure";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String GCP = "gcp";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String HEROKU = "heroku";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String IBM_CLOUD = "ibm_cloud";
+│ │ │ +    @Deprecated
+│ │ │ +    public static final String TENCENT_CLOUD = "tencent_cloud";
+│ │ │      
+│ │ │ -    private NetTransportValues() {
+│ │ │ +    private CloudProviderValues() {
+│ │ │      }
+│ │ │  }
+
