@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **4263 releases** of **694 projects**:
-   - **3392** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 871 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **4265 releases** of **694 projects**:
+   - **3393** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 872 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 694 projects, 595 have at least one fully reproducible release, 99 have none
 
 <!-- END GENERATED INTRO -->
@@ -226,7 +226,7 @@ Its objectives are to provide:
 | fr.vidal.oss | [atom-jaxb](content/fr/vidal/oss/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | io.jooby | [jooby](content/io/jooby/README.md) | 2 | 2 :warning: |
 | io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 61 | 60 :white_check_mark: / 1 :warning: |
-| io.trino | [trino-root](content/io/trino/README.md) | 9 | 6 :white_check_mark: / 3 :warning: |
+| io.trino | [trino-root](content/io/trino/README.md) | 10 | 6 :white_check_mark: / 4 :warning: |
 | io.airlift | [airbase](content/io/airlift/airbase/README.md) | 14 | 13 :white_check_mark: / 1 :warning: |
 | io.cucumber | [ci-environment](content/io/cucumber/ci-environment/README.md) | 2 | 2 :white_check_mark: |
 | | [cucumber-expressions](content/io/cucumber/cucumber-expressions/README.md) | 7 | 7 :white_check_mark: |
@@ -286,7 +286,7 @@ Its objectives are to provide:
 | | [*.crx-packmgr-helper](content/io/wcm/tooling/commons/crx-packmgr-helper/README.md) | 7 | 7 :white_check_mark: |
 | jakarta.persistence | [*-api](content/jakarta/persistence/jakarta.persistence-api/README.md) | 4 | 4 :white_check_mark: |
 | jakarta.servlet | [*-api](content/jakarta/servlet/jakarta.servlet-api/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
-| net.bytebuddy | [byte-buddy-parent](content/net/bytebuddy/README.md) | 27 | 25 :white_check_mark: / 2 :warning: |
+| net.bytebuddy | [byte-buddy-parent](content/net/bytebuddy/README.md) | 28 | 26 :white_check_mark: / 2 :warning: |
 | net.jsign | [jsign](content/net/jsign/README.md) | 3 | 3 :warning: |
 | net.bzzt | [reproducible-builds-jvm-stripper](content/net/bzzt/reproducible-builds-jvm-stripper/README.md) | 1 | 1 :white_check_mark: |
 | net.nicoulaj.maven.plugins | [checksum-maven-plugin](content/net/nicoulaj/maven/plugins/checksum-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
@@ -718,7 +718,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 2 | 2 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 39 | 39 :white_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **694** | **4263** | **3392** :white_check_mark: **871** :warning: |
+| **Count:** | **694** | **4265** | **3393** :white_check_mark: **872** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -734,7 +734,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 gradle     17.0.11
      17 gradle     21
      26 mvn         7
-   1237 mvn         8
+   1238 mvn         8
       1 mvn         9
    1072 mvn        11
       2 mvn        11.0.19
@@ -837,7 +837,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       2 mvn-3.9.8   8
      19 mvn-3.9.8  17
      14 mvn-3.9.8  21
-     19 mvn-3.9.8  22
+     20 mvn-3.9.8  22
       3 mvn-3.9.9  11
       1 mvn-3.9.9  22
       2 mvn-4.0.0-alpha-12  21

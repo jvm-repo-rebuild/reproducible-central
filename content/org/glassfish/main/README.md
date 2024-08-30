@@ -319,6 +319,7 @@ rebuilding **9 releases** of org.glassfish.main:glassfish-parent:
 | [8.0.0-M3](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M3/pom) | | | |
 | [8.0.0-M2](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M2/pom) | | | |
 | [8.0.0-M1](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M1/pom) | [mvn jdk17.0.9](glassfish-8.0.0-M1.buildspec) | [result](glassfish-main-aggregator-8.0.0-M1.buildinfo): [667 :white_check_mark:  69 :warning:](glassfish-main-aggregator-8.0.0-M1.buildcompare) [:mag:](glassfish-main-aggregator-8.0.0-M1.diffoscope) | 453M |
+| [7.0.17](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.17/pom) | | | |
 | [7.0.16](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.16/pom) | | | |
 | [7.0.15](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.15/pom) | | | |
 | [7.0.14](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.14/pom) | | | |
