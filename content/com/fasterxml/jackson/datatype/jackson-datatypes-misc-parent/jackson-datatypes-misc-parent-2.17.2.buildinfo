@@ -42,9 +42,14 @@ outputs.1.1.length=19533
 outputs.1.1.checksums.sha512=5da7d772787a88ad7e88f52b608ebe9f83c0042903da4f8c942c569f503b6447e96eb84bce22abc178c6469f3e6348c656c3a18db9a03f754c0658797f1e3033
 
 outputs.1.2.groupId=com.fasterxml.jackson.datatype
-outputs.1.2.filename=jackson-datatype-joda-money-2.17.2.module
-outputs.1.2.length=3579
-outputs.1.2.checksums.sha512=715b90092887caaf2b54d95785cb906ca456fa2637bd126bbc70a3cf1de12fba394d9e9ab422e5ab300cd0438055b9c38d5927f318c99d36b743ccac6da0ad40
+outputs.1.2.filename=jackson-datatype-joda-money-2.17.2-sources.jar
+outputs.1.2.length=13735
+outputs.1.2.checksums.sha512=0fb12adb0284a73038dbf2b8c9c2ec76256c71a0b50c2257935f22ceb923608fa3124781afa21cc0a5b3362651ecdab9ccd79b868612c8a6a62704c3ab98f9f0
+
+outputs.1.3.groupId=com.fasterxml.jackson.datatype
+outputs.1.3.filename=jackson-datatype-joda-money-2.17.2.module
+outputs.1.3.length=3579
+outputs.1.3.checksums.sha512=715b90092887caaf2b54d95785cb906ca456fa2637bd126bbc70a3cf1de12fba394d9e9ab422e5ab300cd0438055b9c38d5927f318c99d36b743ccac6da0ad40
 
 outputs.2.coordinates=com.fasterxml.jackson.datatype:jackson-datatype-json-org
 
@@ -59,9 +64,14 @@ outputs.2.1.length=18233
 outputs.2.1.checksums.sha512=c806b6bd0624046e00c29544114d61f4c7b336b4d7d82bb779acf8b84bbe66179be1ee91b2ae6361cf52406a09350d31ca4574dc5fba2c0000799d62e5cc002b
 
 outputs.2.2.groupId=com.fasterxml.jackson.datatype
-outputs.2.2.filename=jackson-datatype-json-org-2.17.2.module
-outputs.2.2.length=3565
-outputs.2.2.checksums.sha512=dc2d38961f6acd6d41ec1951d4e8cc100c7a237d3c379271d738dd621a6e92179631577a96e5a25a71ccdfa97c62913d3cca5f476b3995d05d2ab32c15dfd234
+outputs.2.2.filename=jackson-datatype-json-org-2.17.2-sources.jar
+outputs.2.2.length=10758
+outputs.2.2.checksums.sha512=95cbce35c2bf42f764ab6fc61bce6152ced19d84d6e672b3d400c378b430cc2c413eb2801a059a7119af5f5d71fdee681a4f95cb087bf48e09bf671727f99453
+
+outputs.2.3.groupId=com.fasterxml.jackson.datatype
+outputs.2.3.filename=jackson-datatype-json-org-2.17.2.module
+outputs.2.3.length=3565
+outputs.2.3.checksums.sha512=dc2d38961f6acd6d41ec1951d4e8cc100c7a237d3c379271d738dd621a6e92179631577a96e5a25a71ccdfa97c62913d3cca5f476b3995d05d2ab32c15dfd234
 
 outputs.3.coordinates=com.fasterxml.jackson.datatype:jackson-datatype-jsr353
 
@@ -76,9 +86,14 @@ outputs.3.1.length=22316
 outputs.3.1.checksums.sha512=209aa46445f9f1bd09c04776fbde4867d57a27ff6b061e8fd01b9cbac8212bc6c8b240190926f2ac8677f1ae8f993a53f4a154f57380d3b0e008897a84275708
 
 outputs.3.2.groupId=com.fasterxml.jackson.datatype
-outputs.3.2.filename=jackson-datatype-jsr353-2.17.2.module
-outputs.3.2.length=3573
-outputs.3.2.checksums.sha512=f1d78e14974c6dc3c7867a8e2fa6555124ec7362f7389eb7ea95201b12264bf169fbf88947155a823b650061a7090b9032d653f1ccbec94d29e077e2f4d55806
+outputs.3.2.filename=jackson-datatype-jsr353-2.17.2-sources.jar
+outputs.3.2.length=11480
+outputs.3.2.checksums.sha512=4eb5d734a612dc628e055ab5f2857380ff07956f6ecc87b243336b9bc4ed57bec2365819b88592c583754de6e9ab7ab2be97af1d667078d2d94df99dd281749f
+
+outputs.3.3.groupId=com.fasterxml.jackson.datatype
+outputs.3.3.filename=jackson-datatype-jsr353-2.17.2.module
+outputs.3.3.length=3573
+outputs.3.3.checksums.sha512=f1d78e14974c6dc3c7867a8e2fa6555124ec7362f7389eb7ea95201b12264bf169fbf88947155a823b650061a7090b9032d653f1ccbec94d29e077e2f4d55806
 
 outputs.4.coordinates=com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp
 
@@ -93,9 +108,14 @@ outputs.4.1.length=22040
 outputs.4.1.checksums.sha512=8aae2a0c80a6864deed3cea3094f7d54dcd80d7dda127398aba567372a307603e91d24ad8ba10156bc19e36edc20067dad54ac4598c6c65b954c02e36f12a4bb
 
 outputs.4.2.groupId=com.fasterxml.jackson.datatype
-outputs.4.2.filename=jackson-datatype-jakarta-jsonp-2.17.2.module
-outputs.4.2.length=3614
-outputs.4.2.checksums.sha512=81f817f06abc939fa92f1e828071d35118213e0c17c0b6b06b932b7da7a21d509a50a1729c056beabe6e8ee7ec4b2de4453610520eb7cb0f6da9bda01185dfaf
+outputs.4.2.filename=jackson-datatype-jakarta-jsonp-2.17.2-sources.jar
+outputs.4.2.length=11401
+outputs.4.2.checksums.sha512=78035abc6101abff7798a959f933bdef8cce5577f8bc96c576867930bf71b3a81e78c0429c05e01538a0b1151db05bbde3fabf1cf53909100b16d8a46c414a6b
+
+outputs.4.3.groupId=com.fasterxml.jackson.datatype
+outputs.4.3.filename=jackson-datatype-jakarta-jsonp-2.17.2.module
+outputs.4.3.length=3614
+outputs.4.3.checksums.sha512=81f817f06abc939fa92f1e828071d35118213e0c17c0b6b06b932b7da7a21d509a50a1729c056beabe6e8ee7ec4b2de4453610520eb7cb0f6da9bda01185dfaf
 
 outputs.5.coordinates=com.fasterxml.jackson.datatype:jackson-datatype-jakarta-mail
 
@@ -110,6 +130,11 @@ outputs.5.1.length=9027
 outputs.5.1.checksums.sha512=518cc084b66b8b1140a469d718446eaed5028e11dc5fafabb4440e59ad27abe0c7a2bd65911cc8ac4b63375c8b55d9def49b13b675535ae6d5753d0f5143f388
 
 outputs.5.2.groupId=com.fasterxml.jackson.datatype
-outputs.5.2.filename=jackson-datatype-jakarta-mail-2.17.2.module
-outputs.5.2.length=3601
-outputs.5.2.checksums.sha512=f3f01446837edbd5e62a14156726d77e455424577ab2176de19a2b0231da21f2c30a18cdac47d3d3535778f7d58a84de9a52a1d4dfb9f90deed4afb87d98f9b5
+outputs.5.2.filename=jackson-datatype-jakarta-mail-2.17.2-sources.jar
+outputs.5.2.length=8194
+outputs.5.2.checksums.sha512=9beda841f2d5a2034530224d5349a8492fc84b56c02cdf27f2d6fb4ef9fa2b9233f8c3ec3fce78dd1a8f3367e16c9bd84a431e355df1a72eab98d8bff3fc340b
+
+outputs.5.3.groupId=com.fasterxml.jackson.datatype
+outputs.5.3.filename=jackson-datatype-jakarta-mail-2.17.2.module
+outputs.5.3.length=3601
+outputs.5.3.checksums.sha512=f3f01446837edbd5e62a14156726d77e455424577ab2176de19a2b0231da21f2c30a18cdac47d3d3535778f7d58a84de9a52a1d4dfb9f90deed4afb87d98f9b5
