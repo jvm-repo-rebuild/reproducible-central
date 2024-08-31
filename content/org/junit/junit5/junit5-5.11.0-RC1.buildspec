@@ -16,5 +16,5 @@ createdBy='21.0.3 (Eclipse Adoptium 21.0.3+9-LTS)'
 command="./gradlew clean assemble -x test -x signMavenPublication --no-daemon --no-build-cache -Ppublishing.signArtifacts=false publishToMavenLocal -Pmanifest.buildTimestamp='$buildTimestamp' -Pmanifest.createdBy='$createdBy'"
 buildinfo=${artifactId}-${version}.buildinfo
 
-diffoscope=${artifactId}-${version}.diffoscope
+#diffoscope=${artifactId}-${version}.diffoscope
 issue=

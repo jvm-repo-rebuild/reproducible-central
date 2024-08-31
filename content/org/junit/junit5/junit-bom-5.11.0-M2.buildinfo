@@ -8,13 +8,9 @@ os.name=lf
 
 outputs.1.coordinates=org.junit:junit-bom
 
-outputs.1.0.filename=junit-bom-5.11.0-M2.module
-outputs.1.0.length=7104
-outputs.1.0.checksums.sha512=dad2d88ed39120a5550e728dae02e84c22f89cb5799c9a4197b09446155e5b6a04c916a1e9547c2e84ba51b0524a4be5bcda356a261a267106eda74dc442be6d
-
-outputs.1.1.filename=junit-bom-5.11.0-M2.pom
-outputs.1.1.length=5706
-outputs.1.1.checksums.sha512=f6769b85ee9f2bf480b61cf13e0be657f686c54cf3c293675e99126d1cb4866e45a5b344e28ba18554f806f9bae343d4c00b29ab2e58264698d6aed80856131f
+outputs.1.0.filename=junit-bom-5.11.0-M2.pom
+outputs.1.0.length=5706
+outputs.1.0.checksums.sha512=f6769b85ee9f2bf480b61cf13e0be657f686c54cf3c293675e99126d1cb4866e45a5b344e28ba18554f806f9bae343d4c00b29ab2e58264698d6aed80856131f
 
 
 outputs.2.coordinates=org.junit.jupiter:junit-jupiter-api
@@ -27,13 +23,9 @@ outputs.2.1.filename=junit-jupiter-api-5.11.0-M2.jar
 outputs.2.1.length=214992
 outputs.2.1.checksums.sha512=ae224ec48832b88423a0f4e33042a35eda5f5e34152570ee039f12957e90ba57857f43e40e8629383d74f236b15fab83f484babe6c073d62b5457d95b77039c3
 
-outputs.2.2.filename=junit-jupiter-api-5.11.0-M2.module
-outputs.2.2.length=5251
-outputs.2.2.checksums.sha512=83fb271419359eee3e78c58040549e860d553b389b6e5c4278b355a2434bea8065939bb0efbd1def04cf8360c30b1832e3b3cde0f8f3329c40fc2576362eaacb
-
-outputs.2.3.filename=junit-jupiter-api-5.11.0-M2.pom
-outputs.2.3.length=3193
-outputs.2.3.checksums.sha512=5e5dc4aa8a938ebebf160bb47bb342a9ce6264385e12d4aeba37ac2ddd00a76b93bf114ed0b58e168c983da6600a06d862b3621494debc7a6e597dd12eb8253d
+outputs.2.2.filename=junit-jupiter-api-5.11.0-M2.pom
+outputs.2.2.length=3193
+outputs.2.2.checksums.sha512=5e5dc4aa8a938ebebf160bb47bb342a9ce6264385e12d4aeba37ac2ddd00a76b93bf114ed0b58e168c983da6600a06d862b3621494debc7a6e597dd12eb8253d
 
 
 outputs.3.coordinates=org.junit.jupiter:junit-jupiter-engine
@@ -46,13 +38,9 @@ outputs.3.1.filename=junit-jupiter-engine-5.11.0-M2.jar
 outputs.3.1.length=252652
 outputs.3.1.checksums.sha512=9851936ac0f1a7ea53eb8a1c2500fe2091fd19de7c99c8018a85c764713f2404e8e9af832a3dd6d2a6042e5c991d3439333c6e2f5499a9c3b27d4bc6e2feca33
 
-outputs.3.2.filename=junit-jupiter-engine-5.11.0-M2.module
-outputs.3.2.length=5304
-outputs.3.2.checksums.sha512=7cdaf2d9868845dd6d314512d06a34f428e0fdedd3141151d63d0a28c76f6bb8a103485a8341fb3d31cfb630362b1d9113a3988f69282f6bc4554c37c7d655c5
-
-outputs.3.3.filename=junit-jupiter-engine-5.11.0-M2.pom
-outputs.3.3.length=3215
-outputs.3.3.checksums.sha512=197bc86c6e9d5f2c85f9e2295c19b5add1918ccacc0d09644dcbcb54d3b4a033062e45f25f742aff7b6be1816f40d37c32e507fed432c70cd6483719bacff0a5
+outputs.3.2.filename=junit-jupiter-engine-5.11.0-M2.pom
+outputs.3.2.length=3215
+outputs.3.2.checksums.sha512=197bc86c6e9d5f2c85f9e2295c19b5add1918ccacc0d09644dcbcb54d3b4a033062e45f25f742aff7b6be1816f40d37c32e507fed432c70cd6483719bacff0a5
 
 
 outputs.4.coordinates=org.junit.jupiter:junit-jupiter-migrationsupport
@@ -65,13 +53,9 @@ outputs.4.1.filename=junit-jupiter-migrationsupport-5.11.0-M2.jar
 outputs.4.1.length=28138
 outputs.4.1.checksums.sha512=aa10bf8c4e98ac42845b6e3698eb33bc1168928321e5a3017df18e5b7b8254b6afdc9a79aa6ab43a3b38aa2be3a368a00680a43b306df724f02ca4226a979230
 
-outputs.4.2.filename=junit-jupiter-migrationsupport-5.11.0-M2.module
-outputs.4.2.length=5113
-outputs.4.2.checksums.sha512=52dd2bd8a32cebfaefb34aea383aadfde1aa4ff6253bf4ba76fd74aa37acc9d65fda9590d91b63d26b37d49e10304038f384c775654fb506baea40d03eca8539
-
-outputs.4.3.filename=junit-jupiter-migrationsupport-5.11.0-M2.pom
-outputs.4.3.length=3218
-outputs.4.3.checksums.sha512=772394a9d48c10942f7016fee5d8b9b71848b308c7f4138eb95f92af4645aecb3acf29a2754b065b59c896d7f84c809351d0dd7c5fe12e50bfc6fbb42951bcc9
+outputs.4.2.filename=junit-jupiter-migrationsupport-5.11.0-M2.pom
+outputs.4.2.length=3218
+outputs.4.2.checksums.sha512=772394a9d48c10942f7016fee5d8b9b71848b308c7f4138eb95f92af4645aecb3acf29a2754b065b59c896d7f84c809351d0dd7c5fe12e50bfc6fbb42951bcc9
 
 
 outputs.5.coordinates=org.junit.jupiter:junit-jupiter-params
@@ -84,13 +68,9 @@ outputs.5.1.filename=junit-jupiter-params-5.11.0-M2.jar
 outputs.5.1.length=581364
 outputs.5.1.checksums.sha512=d3f65328a10d68285c128560b08152076c27d3255a18215615fb11b959f809572dd00a013eb71aa0ce7cbaadf0bc9c851033886154af8188a8a1de11e48626e0
 
-outputs.5.2.filename=junit-jupiter-params-5.11.0-M2.module
-outputs.5.2.length=5750
-outputs.5.2.checksums.sha512=d3b7f0ad3ec9d3c37732693159e1b0308c44bf723d126460dfc693289648faa0bc2092184fe435aea52e92b15c7da2cc52ffb937862968d593389b0d82428da9
-
-outputs.5.3.filename=junit-jupiter-params-5.11.0-M2.pom
-outputs.5.3.length=3019
-outputs.5.3.checksums.sha512=89e5b324ccc1d2697012b2cd9c908f1d17d9e2c90164195f0ccf95de1692974ec672508df58dcfc9c20b8461ea85ef1ffb491dd8963a853594f14ee681a5d3a9
+outputs.5.2.filename=junit-jupiter-params-5.11.0-M2.pom
+outputs.5.2.length=3019
+outputs.5.2.checksums.sha512=89e5b324ccc1d2697012b2cd9c908f1d17d9e2c90164195f0ccf95de1692974ec672508df58dcfc9c20b8461ea85ef1ffb491dd8963a853594f14ee681a5d3a9
 
 
 outputs.6.coordinates=org.junit.jupiter:junit-jupiter
@@ -103,13 +83,9 @@ outputs.6.1.filename=junit-jupiter-5.11.0-M2.jar
 outputs.6.1.length=6374
 outputs.6.1.checksums.sha512=6a5760e3a67eea6adbc31d238eed06226923a09f76177063bf9edd5cf2e77fd67bb6c3c36f279de941c36aab4feee69c8b62513cd92885abda16042a279b1b20
 
-outputs.6.2.filename=junit-jupiter-5.11.0-M2.module
-outputs.6.2.length=5026
-outputs.6.2.checksums.sha512=5149dd02cce1afa23b22792933562ac27bc148be32006e583eda3c825dc5eecdae8d0348bfb435e5d4b8ae5657fc6f77fc9629737fee5589ce5ec0b3d9d10e32
-
-outputs.6.3.filename=junit-jupiter-5.11.0-M2.pom
-outputs.6.3.length=3220
-outputs.6.3.checksums.sha512=e4542e55568ccdb1d04658320cf7ecd7e489cdb6e0a3e6cfa8b6a31b8f914042a5fa15212b852ebf7e19dc479e3cda96d4a66ee0d8d32f7b1f19d35ff3f8661c
+outputs.6.2.filename=junit-jupiter-5.11.0-M2.pom
+outputs.6.2.length=3220
+outputs.6.2.checksums.sha512=e4542e55568ccdb1d04658320cf7ecd7e489cdb6e0a3e6cfa8b6a31b8f914042a5fa15212b852ebf7e19dc479e3cda96d4a66ee0d8d32f7b1f19d35ff3f8661c
 
 
 outputs.7.coordinates=org.junit.platform:junit-platform-commons
@@ -122,13 +98,9 @@ outputs.7.1.filename=junit-platform-commons-1.11.0-M2.jar
 outputs.7.1.length=133055
 outputs.7.1.checksums.sha512=f8accc22b3f6e53be24d22ed649e8b64fa9a600ba5de44c2b416bb94f773b4429e1b2f9410b2c44dcae4203e391ad32ccc0a79133bf18c9f18c34fff5d1f1b68
 
-outputs.7.2.filename=junit-platform-commons-1.11.0-M2.module
-outputs.7.2.length=4406
-outputs.7.2.checksums.sha512=e82039a7569661c2e84c7d483b4b7ffeb12f0afdd70d6c3bc935bba4d094a965ca567e311118651c3f641d786cdfcaec902f411c7a31cbd49cddb1f6cfdf1bf9
-
-outputs.7.3.filename=junit-platform-commons-1.11.0-M2.pom
-outputs.7.3.length=2839
-outputs.7.3.checksums.sha512=e1e03fe734b70f021715c3a6f65b9da7f8c15dd4ab3bbb70f8b09ba7f1afdda71a2240e58ef621100daac021bfae2d2b590bdf1c9df5f64a9547d168f5d96eff
+outputs.7.2.filename=junit-platform-commons-1.11.0-M2.pom
+outputs.7.2.length=2839
+outputs.7.2.checksums.sha512=e1e03fe734b70f021715c3a6f65b9da7f8c15dd4ab3bbb70f8b09ba7f1afdda71a2240e58ef621100daac021bfae2d2b590bdf1c9df5f64a9547d168f5d96eff
 
 
 outputs.8.coordinates=org.junit.platform:junit-platform-console-standalone
@@ -141,13 +113,9 @@ outputs.8.1.filename=junit-platform-console-standalone-1.11.0-M2.jar
 outputs.8.1.length=2760335
 outputs.8.1.checksums.sha512=0acd512829a0dc8f8a35c9dca623d4b77a29b8b44c2476b90ec6bee61996192fe31b94c4751e895670b578a6cdd3f6d1c36547ec7761730c000766a516f01f6d
 
-outputs.8.2.filename=junit-platform-console-standalone-1.11.0-M2.module
-outputs.8.2.length=4539
-outputs.8.2.checksums.sha512=ddca5074b1f7d32694a2c4e6ccfaa308d39e1917adaa3a4cc28224a78f0329b98abe5580face4c90c56e33a33eb54a248cf12d3ea75f870f45ed381f52be57c4
-
-outputs.8.3.filename=junit-platform-console-standalone-1.11.0-M2.pom
-outputs.8.3.length=2353
-outputs.8.3.checksums.sha512=cd6e073f2c33a5aa7278b005f997857e28360ef5979fc8c94c4ccc32548fe28febd29445e21273883dcc87884a4a27adc8d6c93696d7212ad64f490020699b2f
+outputs.8.2.filename=junit-platform-console-standalone-1.11.0-M2.pom
+outputs.8.2.length=2353
+outputs.8.2.checksums.sha512=cd6e073f2c33a5aa7278b005f997857e28360ef5979fc8c94c4ccc32548fe28febd29445e21273883dcc87884a4a27adc8d6c93696d7212ad64f490020699b2f
 
 
 outputs.9.coordinates=org.junit.platform:junit-platform-console
@@ -160,13 +128,9 @@ outputs.9.1.filename=junit-platform-console-1.11.0-M2.jar
 outputs.9.1.length=549251
 outputs.9.1.checksums.sha512=406a6d878e193f1b36e86dd0c8f31394b5623b6a65ac71426f6ea723aa5f4337fd984c1eec6cf65e1cec8c41d8ae4fe47086ac54b444516f373d9c11b9e2101b
 
-outputs.9.2.filename=junit-platform-console-1.11.0-M2.module
-outputs.9.2.length=5575
-outputs.9.2.checksums.sha512=4e8ef5d1261a79523080a6002ab2b068e1a3fcc0a1f5163823cf3c6677578c365419f233538cba5b6b8a688c9f3428a4954c186bffdb9de9a05ee911ea6c2c66
-
-outputs.9.3.filename=junit-platform-console-1.11.0-M2.pom
-outputs.9.3.length=3038
-outputs.9.3.checksums.sha512=fbab643281607b2ac1d325502a1e6f9cb5a94d3548ee01d64f1732dd3774982ab7c5a8e0f6a233e5fb44127542804c6ef402d118efcb347a93175580c1f378f1
+outputs.9.2.filename=junit-platform-console-1.11.0-M2.pom
+outputs.9.2.length=3038
+outputs.9.2.checksums.sha512=fbab643281607b2ac1d325502a1e6f9cb5a94d3548ee01d64f1732dd3774982ab7c5a8e0f6a233e5fb44127542804c6ef402d118efcb347a93175580c1f378f1
 
 
 outputs.10.coordinates=org.junit.platform:junit-platform-engine
@@ -179,13 +143,9 @@ outputs.10.1.filename=junit-platform-engine-1.11.0-M2.jar
 outputs.10.1.length=238281
 outputs.10.1.checksums.sha512=70e556bbb24fb039a0d9dee6c1eac95a107449a1e6cd21f95d28aa481ac6944b63ea97e8f9b9ca3ae27eb309e504e656ba02b484409de49f16fb36a7f4eb86ba
 
-outputs.10.2.filename=junit-platform-engine-1.11.0-M2.module
-outputs.10.2.length=5074
-outputs.10.2.checksums.sha512=68ba30d00581cb0243687623a8220b4a5087b3c84976ba57989df6340be6767cbc12e4065453a2332b18028b570b4be518a72ce64b5845792bdeb137773712a0
-
-outputs.10.3.filename=junit-platform-engine-1.11.0-M2.pom
-outputs.10.3.length=3214
-outputs.10.3.checksums.sha512=43bcfae61b69ae29dfe7fdb1b54b90ce6e56c8ef03b91db12c1e186b45b75ce374b0bfe76574d0a21457a3ac01c96119c85f93a687adc32f1b6ebd976c768f38
+outputs.10.2.filename=junit-platform-engine-1.11.0-M2.pom
+outputs.10.2.length=3214
+outputs.10.2.checksums.sha512=43bcfae61b69ae29dfe7fdb1b54b90ce6e56c8ef03b91db12c1e186b45b75ce374b0bfe76574d0a21457a3ac01c96119c85f93a687adc32f1b6ebd976c768f38
 
 
 outputs.11.coordinates=org.junit.platform:junit-platform-jfr
@@ -198,13 +158,9 @@ outputs.11.1.filename=junit-platform-jfr-1.11.0-M2.jar
 outputs.11.1.length=19311
 outputs.11.1.checksums.sha512=b0f6efb294a1fd3d3c35a24b33916cce1609be5d1d4b4f0dd61e96c50d6144c9edf4bde09bd6c0f652ece55b16eaf19dc2e0d3bbaf9ab15c9f3e85f601ab5f64
 
-outputs.11.2.filename=junit-platform-jfr-1.11.0-M2.module
-outputs.11.2.length=4728
-outputs.11.2.checksums.sha512=3ba0e87b3f5caffb323f60a4426b93f8c9ddda35187b9a38905e862533a9372f2f9af995184eded531c706fa0d423dbaea5dc1a56b927a44a701d7f0251a80d3
-
-outputs.11.3.filename=junit-platform-jfr-1.11.0-M2.pom
-outputs.11.3.length=3045
-outputs.11.3.checksums.sha512=3abed5422112756d8eb0fcf973ff9f333085dc92b3c1d936aeba4288e7a208008c93f3a29a677f48c28d920f7a7a8919d95e903d08bfc46b233d7891194f10bf
+outputs.11.2.filename=junit-platform-jfr-1.11.0-M2.pom
+outputs.11.2.length=3045
+outputs.11.2.checksums.sha512=3abed5422112756d8eb0fcf973ff9f333085dc92b3c1d936aeba4288e7a208008c93f3a29a677f48c28d920f7a7a8919d95e903d08bfc46b233d7891194f10bf
 
 
 outputs.12.coordinates=org.junit.platform:junit-platform-launcher
@@ -217,13 +173,9 @@ outputs.12.1.filename=junit-platform-launcher-1.11.0-M2.jar
 outputs.12.1.length=188116
 outputs.12.1.checksums.sha512=0fccee3e1de290d75f6ab4db81a15622d40946796c75ca6f1fc428b24ae72aa3784b760cdd883fc9eaf9093d6be22a3a31a9b775835d9007968114ed85588f9e
 
-outputs.12.2.filename=junit-platform-launcher-1.11.0-M2.module
-outputs.12.2.length=4772
-outputs.12.2.checksums.sha512=79aa7021e61d841d4c38d363eb53397f7b03c736864f9b31513c6c962df6d89e99d4284c8f0e191b09de2c37fd0a4193a48a4519dd0ab9b9e5e5954d057499a0
-
-outputs.12.3.filename=junit-platform-launcher-1.11.0-M2.pom
-outputs.12.3.length=3038
-outputs.12.3.checksums.sha512=d9f4e1bde47c02078ae09376c9dabb65c8fc52deafd51073bc8ebdd1647086cb0e8aa4a102cef5860cac96752b8279139acce25949b77002cb842520d965f71d
+outputs.12.2.filename=junit-platform-launcher-1.11.0-M2.pom
+outputs.12.2.length=3038
+outputs.12.2.checksums.sha512=d9f4e1bde47c02078ae09376c9dabb65c8fc52deafd51073bc8ebdd1647086cb0e8aa4a102cef5860cac96752b8279139acce25949b77002cb842520d965f71d
 
 
 outputs.13.coordinates=org.junit.platform:junit-platform-reporting
@@ -236,13 +188,9 @@ outputs.13.1.filename=junit-platform-reporting-1.11.0-M2.jar
 outputs.13.1.length=107771
 outputs.13.1.checksums.sha512=7756a951a0916700a276572284977f038caf6c1c8b9b97f9ea29394a715c0169520198c63094697c4c13872ec1645fad8c0368d204fc05b8cd962fa2cf8bad81
 
-outputs.13.2.filename=junit-platform-reporting-1.11.0-M2.module
-outputs.13.2.length=5595
-outputs.13.2.checksums.sha512=41ca479147bd4ef4e27f25a69231607db178c953aa6f7d404229ea48e26abb7494931eb5fe9669970bce9d386d79f11e8c65f1b3436155736e9d0bcd6009e4ba
-
-outputs.13.3.filename=junit-platform-reporting-1.11.0-M2.pom
-outputs.13.3.length=3043
-outputs.13.3.checksums.sha512=354262ebd00df4f9c02dc52990bc3fef7e0a45199db890775d13894ff2748a790ac6be0562c5136f9c9f8d1418b9166c685d49459d5c39030ce1b75fcb1c2328
+outputs.13.2.filename=junit-platform-reporting-1.11.0-M2.pom
+outputs.13.2.length=3043
+outputs.13.2.checksums.sha512=354262ebd00df4f9c02dc52990bc3fef7e0a45199db890775d13894ff2748a790ac6be0562c5136f9c9f8d1418b9166c685d49459d5c39030ce1b75fcb1c2328
 
 
 outputs.14.coordinates=org.junit.platform:junit-platform-runner
@@ -255,13 +203,9 @@ outputs.14.1.filename=junit-platform-runner-1.11.0-M2.jar
 outputs.14.1.length=16808
 outputs.14.1.checksums.sha512=e311c1b55362fd2d7a2005ac7b4276217879086e426881e27343003fe2769f34a8992d2ccabe8747b86f6fe894488d3cad7fd96fcecceef11f90dc7c0076e599
 
-outputs.14.2.filename=junit-platform-runner-1.11.0-M2.module
-outputs.14.2.length=5594
-outputs.14.2.checksums.sha512=10ebb29d7f9e98a760578f5f676c5dc96dfdb39c75c3124ea1e6688f8bdfb1d24c7c11701712208e67ee8cc7c5ef179a886812ca2365c4ccdebf805d410a4873
-
-outputs.14.3.filename=junit-platform-runner-1.11.0-M2.pom
-outputs.14.3.length=3600
-outputs.14.3.checksums.sha512=48ac037d147c74e6abd401bfefc2979604800d5ed6c0a3a40c9de0cbcc914fcdd773072041d566a684b4fb23c74e4a58b83a35e9ce075069aa9798e47aa9c9e4
+outputs.14.2.filename=junit-platform-runner-1.11.0-M2.pom
+outputs.14.2.length=3600
+outputs.14.2.checksums.sha512=48ac037d147c74e6abd401bfefc2979604800d5ed6c0a3a40c9de0cbcc914fcdd773072041d566a684b4fb23c74e4a58b83a35e9ce075069aa9798e47aa9c9e4
 
 
 outputs.15.coordinates=org.junit.platform:junit-platform-suite-api
@@ -274,13 +218,9 @@ outputs.15.1.filename=junit-platform-suite-api-1.11.0-M2.jar
 outputs.15.1.length=23771
 outputs.15.1.checksums.sha512=efa07314bfeeb9077f40593675d7f973c21ce977ece87cdfe278c469eb503ad236394cddce2a19f251f5d2a66aaad166796c9b9752fcd3c42877b898f661ccb4
 
-outputs.15.2.filename=junit-platform-suite-api-1.11.0-M2.module
-outputs.15.2.length=4780
-outputs.15.2.checksums.sha512=54cfb404a55ac3d84658624dd5dd64fdbf722ec16bf5960bce26f9a7ad8555fe7977c8ca21884d4d68862ccd00027d790e9e528afe34cc3e315230aafbd2a6a0
-
-outputs.15.3.filename=junit-platform-suite-api-1.11.0-M2.pom
-outputs.15.3.length=3042
-outputs.15.3.checksums.sha512=811d08b91bdddb518b545be9e201a5d9fefd1d8c09bb80780a7461046844eabd45bb73a7abe66378ca9e88bf7f86a4f68907fd7eb24d9d27279f77f7d6f99ff1
+outputs.15.2.filename=junit-platform-suite-api-1.11.0-M2.pom
+outputs.15.2.length=3042
+outputs.15.2.checksums.sha512=811d08b91bdddb518b545be9e201a5d9fefd1d8c09bb80780a7461046844eabd45bb73a7abe66378ca9e88bf7f86a4f68907fd7eb24d9d27279f77f7d6f99ff1
 
 
 outputs.16.coordinates=org.junit.platform:junit-platform-suite-commons
@@ -293,13 +233,9 @@ outputs.16.1.filename=junit-platform-suite-commons-1.11.0-M2.jar
 outputs.16.1.length=17864
 outputs.16.1.checksums.sha512=aef111e3f808b438bcbcf3139500f748c00640647e53ccbfc7c9f321311f989a7c9b7e24dafc1c9df625146e533fa06e83c43837bcb87f9fe18df928ef9c07f0
 
-outputs.16.2.filename=junit-platform-suite-commons-1.11.0-M2.module
-outputs.16.2.length=5177
-outputs.16.2.checksums.sha512=ba23f8db88201778d461d21f244bc66ecf5201b0b91ba007202b1732536d3ef60efc7b63ffd0247abba0945d5585ee1a88eb8c8a77f9dc328762b17741d19f73
-
-outputs.16.3.filename=junit-platform-suite-commons-1.11.0-M2.pom
-outputs.16.3.length=3450
-outputs.16.3.checksums.sha512=2a572d633bed63094c46730744f91b863f903eda0c845ec1fae21f1b93cd57f9b3c62f53daa2058736eec4e28689bb47c0848f1e1925ba5a6dbc900ba9db8d76
+outputs.16.2.filename=junit-platform-suite-commons-1.11.0-M2.pom
+outputs.16.2.length=3450
+outputs.16.2.checksums.sha512=2a572d633bed63094c46730744f91b863f903eda0c845ec1fae21f1b93cd57f9b3c62f53daa2058736eec4e28689bb47c0848f1e1925ba5a6dbc900ba9db8d76
 
 
 outputs.17.coordinates=org.junit.platform:junit-platform-suite-engine
@@ -312,13 +248,9 @@ outputs.17.1.filename=junit-platform-suite-engine-1.11.0-M2.jar
 outputs.17.1.length=24487
 outputs.17.1.checksums.sha512=656e9e634c907e772d50816cc695171425ab7a7903ea0b57f1510d78081bcc476f6f8b338c41f77bdd4ae0c1418fa79dd6a9ec72c3ccaaf3732ba87ef4e3e42d
 
-outputs.17.2.filename=junit-platform-suite-engine-1.11.0-M2.module
-outputs.17.2.length=5352
-outputs.17.2.checksums.sha512=e89961c47a762d11dfd6eada7f0e100f685e075872f24d5c36bbee712ec2ac18fa854eaab295d8cadbe5a7c59267710f0191a01eb00c3bc9853c53427e9d6b64
-
-outputs.17.3.filename=junit-platform-suite-engine-1.11.0-M2.pom
-outputs.17.3.length=3452
-outputs.17.3.checksums.sha512=43aafb73c011d772b1454f8c048f6bbec27b1c588669ea0ce399460690984c734dffc01ef59657eb050518ca6ad6f18390d8232c3e35c5dd7eabc7370d102dd4
+outputs.17.2.filename=junit-platform-suite-engine-1.11.0-M2.pom
+outputs.17.2.length=3452
+outputs.17.2.checksums.sha512=43aafb73c011d772b1454f8c048f6bbec27b1c588669ea0ce399460690984c734dffc01ef59657eb050518ca6ad6f18390d8232c3e35c5dd7eabc7370d102dd4
 
 
 outputs.18.coordinates=org.junit.platform:junit-platform-suite
@@ -331,13 +263,9 @@ outputs.18.1.filename=junit-platform-suite-1.11.0-M2.jar
 outputs.18.1.length=6376
 outputs.18.1.checksums.sha512=fb296dad87da5fff5a76476363b4bfb253cda41d9b5cf05d2a4dc489505bb77414fd0a3dd361ea81db1c35665c414dc45e06d5174d0f145989950fbfaccb8220
 
-outputs.18.2.filename=junit-platform-suite-1.11.0-M2.module
-outputs.18.2.length=4762
-outputs.18.2.checksums.sha512=42058fb76ef33f945faf5dcbe8dcd9becab394a1ccbeb47b53520fb9a8584df36c4d42be85b4f16aa70e59b92689f2be99be4b302ac9db3159e1f60f2a5987bc
-
-outputs.18.3.filename=junit-platform-suite-1.11.0-M2.pom
-outputs.18.3.length=3064
-outputs.18.3.checksums.sha512=95cf916dca3f51ba624f54f629cbbcc8ac82cd82ff10c67ceeed2c9a15d06a8351ad07ac362a1aeaaefd1d3ebae0aa355146c97e94653fc766d9d0e7fe5f5228
+outputs.18.2.filename=junit-platform-suite-1.11.0-M2.pom
+outputs.18.2.length=3064
+outputs.18.2.checksums.sha512=95cf916dca3f51ba624f54f629cbbcc8ac82cd82ff10c67ceeed2c9a15d06a8351ad07ac362a1aeaaefd1d3ebae0aa355146c97e94653fc766d9d0e7fe5f5228
 
 
 outputs.19.coordinates=org.junit.platform:junit-platform-testkit
@@ -350,13 +278,9 @@ outputs.19.1.filename=junit-platform-testkit-1.11.0-M2.jar
 outputs.19.1.length=45130
 outputs.19.1.checksums.sha512=6e0de1655b4b7f270b40cf64edd59f1dd060b6c2b21a3e5a0ec82b1db29fe9b011d0068a8d6f2b436b0eeef4335985241e537d29837be83d9b4764925acecdda
 
-outputs.19.2.filename=junit-platform-testkit-1.11.0-M2.module
-outputs.19.2.length=5400
-outputs.19.2.checksums.sha512=1472f081bc1d9d27baff74d2b4e27084c09c2384ec3c85481abe45cb99567bccec0a9e44eae56cd3289aded878cda02c37a8caad28f698d0ee1be28c39c5bb92
-
-outputs.19.3.filename=junit-platform-testkit-1.11.0-M2.pom
-outputs.19.3.length=3392
-outputs.19.3.checksums.sha512=6665739018bf6e738a8cee6b7fa2edbf6479ed87c50d71abc7f99bff1b2252654b9b0abc0773ce723d9b4eda2dd635309e4b72b00984d0e4423760c43785db53
+outputs.19.2.filename=junit-platform-testkit-1.11.0-M2.pom
+outputs.19.2.length=3392
+outputs.19.2.checksums.sha512=6665739018bf6e738a8cee6b7fa2edbf6479ed87c50d71abc7f99bff1b2252654b9b0abc0773ce723d9b4eda2dd635309e4b72b00984d0e4423760c43785db53
 
 
 outputs.20.coordinates=org.junit.vintage:junit-vintage-engine
@@ -369,11 +293,7 @@ outputs.20.1.filename=junit-vintage-engine-5.11.0-M2.jar
 outputs.20.1.length=68623
 outputs.20.1.checksums.sha512=d212024c30b29f6b83b09896730837b993755537a038142fc85bb4acca0f6fb93dcc2f73d250df219927b772a68b26564aa5f28159f2d4f7c2f27fac85b3cd34
 
-outputs.20.2.filename=junit-vintage-engine-5.11.0-M2.module
-outputs.20.2.length=5033
-outputs.20.2.checksums.sha512=ae9f0f10de0dd4faf1c4fd99c8584052ead62d4b6480372f206e09574e466640c54c95f039da427bf64001303e87b2a0d04f4021b6119e6953db904ba5cd150a
-
-outputs.20.3.filename=junit-vintage-engine-5.11.0-M2.pom
-outputs.20.3.length=3192
-outputs.20.3.checksums.sha512=513f9c0a1aacc7fa510144262a659b154ea769ce1b57be6f5d7d05696baf794d42602fed6016fae2715fb4dc06d11aef5b8395311d528f367e38697f35716da0
+outputs.20.2.filename=junit-vintage-engine-5.11.0-M2.pom
+outputs.20.2.length=3192
+outputs.20.2.checksums.sha512=513f9c0a1aacc7fa510144262a659b154ea769ce1b57be6f5d7d05696baf794d42602fed6016fae2715fb4dc06d11aef5b8395311d528f367e38697f35716da0
 
