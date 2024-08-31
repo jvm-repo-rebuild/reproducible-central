@@ -7,7 +7,7 @@ gitRepo=https://github.com/open-telemetry/opentelemetry-java.git
 gitTag=v${version}
 
 tool=gradle
-jdk=17.0.11 # need to improve Gradle rebuilder to be able to force exact JDK used...
+jdk=17 #.0.11 # need to improve Gradle rebuilder to be able to force exact JDK used...
 newline=lf
 umask=022
 
