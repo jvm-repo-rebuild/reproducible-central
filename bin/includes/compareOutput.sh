@@ -53,7 +53,7 @@ compareOutput() {
 
     i=0
     # look for artifacts in GAV directory (skip -javadoc.jar)
-    for f in `find ${outputDir}/$d -maxdepth 1 -type f | grep -v "\-javadoc.jar$" | grep -v ".asc$" | grep -v ".md5$" | grep -v ".sha1$" | grep -v ".sha256$" | grep -v ".sha512$" | cut -c 12- | sort`
+    for f in `find ${outputDir}/$d -maxdepth 1 -type f | grep -v ".module$" | grep -v "\-javadoc.jar$" | grep -v ".asc$" | grep -v ".md5$" | grep -v ".sha1$" | grep -v ".sha256$" | grep -v ".sha512$" | cut -c 12- | sort`
     do
       # fetch reference file from Maven Central to central/
       echo -ne "downloading reference to central/$f                              \r"

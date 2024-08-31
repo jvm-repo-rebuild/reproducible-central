@@ -1,6 +1,5 @@
 version=0.4.5
 ok=3
-ko=1
+ko=0
 okFiles="okapibarcode-0.4.5-sources.jar okapibarcode-0.4.5.jar okapibarcode-0.4.5.pom"
-koFiles="okapibarcode-0.4.5.module"
-# diffoscope central/uk/org/okapibarcode/okapibarcode/0.4.5/okapibarcode-0.4.5.module repository/uk/org/okapibarcode/okapibarcode/0.4.5/okapibarcode-0.4.5.module
+koFiles=""
