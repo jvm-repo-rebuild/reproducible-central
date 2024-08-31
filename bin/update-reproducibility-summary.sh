@@ -140,7 +140,7 @@ do
           for ga in $(cat $dir/*.buildinfo | grep coordinates | cut -d = -f 2 | sort -u)
           do
             gaDir=$(echo "$ga" | sed -e 's_:_/_')
-            echo "* [$ga](https://central.sonatype.com/artifact/${gaDir}/${version})" >> ${projectReadme}
+            echo "* [$ga](https://central.sonatype.com/artifact/${gaDir}/overview)" >> ${projectReadme}
           done
           echo "</details>" >> ${projectReadme}
           echo >> ${projectReadme}
