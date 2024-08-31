@@ -9,12 +9,12 @@ Source code: [https://github.com/qos-ch/logback.git](https://github.com/qos-ch/l
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [ch.qos.logback:logback-access](https://central.sonatype.com/artifact/ch.qos.logback/logback-access/1.5.7)
-* [ch.qos.logback:logback-classic](https://central.sonatype.com/artifact/ch.qos.logback/logback-classic/1.5.7)
-* [ch.qos.logback:logback-core](https://central.sonatype.com/artifact/ch.qos.logback/logback-core/1.5.7)
-* [ch.qos.logback:logback-examples](https://central.sonatype.com/artifact/ch.qos.logback/logback-examples/1.5.7)
-* [ch.qos.logback:logback-parent](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.5.7)
-* [ch.qos.logback:logback-site](https://central.sonatype.com/artifact/ch.qos.logback/logback-site/1.5.7)
+* [ch.qos.logback:logback-access](https://central.sonatype.com/artifact/ch.qos.logback/logback-access/overview)
+* [ch.qos.logback:logback-classic](https://central.sonatype.com/artifact/ch.qos.logback/logback-classic/overview)
+* [ch.qos.logback:logback-core](https://central.sonatype.com/artifact/ch.qos.logback/logback-core/overview)
+* [ch.qos.logback:logback-examples](https://central.sonatype.com/artifact/ch.qos.logback/logback-examples/overview)
+* [ch.qos.logback:logback-parent](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/overview)
+* [ch.qos.logback:logback-site](https://central.sonatype.com/artifact/ch.qos.logback/logback-site/overview)
 </details>
 
 rebuilding **32 releases** of ch.qos.logback:logback-parent:

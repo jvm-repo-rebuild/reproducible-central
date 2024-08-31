@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/scando.git](https://github.com/io7m/scando
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.scando:com.io7m.scando](https://central.sonatype.com/artifact/com.io7m.scando/com.io7m.scando/1.0.0)
-* [com.io7m.scando:com.io7m.scando.cmdline](https://central.sonatype.com/artifact/com.io7m.scando/com.io7m.scando.cmdline/1.0.0)
-* [com.io7m.scando:com.io7m.scando.tests](https://central.sonatype.com/artifact/com.io7m.scando/com.io7m.scando.tests/1.0.0)
+* [com.io7m.scando:com.io7m.scando](https://central.sonatype.com/artifact/com.io7m.scando/com.io7m.scando/overview)
+* [com.io7m.scando:com.io7m.scando.cmdline](https://central.sonatype.com/artifact/com.io7m.scando/com.io7m.scando.cmdline/overview)
+* [com.io7m.scando:com.io7m.scando.tests](https://central.sonatype.com/artifact/com.io7m.scando/com.io7m.scando.tests/overview)
 </details>
 
 rebuilding **1 releases** of com.io7m.scando:com.io7m.scando:

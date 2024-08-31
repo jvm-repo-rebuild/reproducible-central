@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/jxe.git](https://github.com/io7m/jxe.git)
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.jxe:com.io7m.jxe](https://central.sonatype.com/artifact/com.io7m.jxe/com.io7m.jxe/1.0.3)
-* [com.io7m.jxe:com.io7m.jxe.core](https://central.sonatype.com/artifact/com.io7m.jxe/com.io7m.jxe.core/1.0.3)
-* [com.io7m.jxe:com.io7m.jxe.documentation](https://central.sonatype.com/artifact/com.io7m.jxe/com.io7m.jxe.documentation/1.0.3)
-* [com.io7m.jxe:com.io7m.jxe.tests](https://central.sonatype.com/artifact/com.io7m.jxe/com.io7m.jxe.tests/1.0.3)
+* [com.io7m.jxe:com.io7m.jxe](https://central.sonatype.com/artifact/com.io7m.jxe/com.io7m.jxe/overview)
+* [com.io7m.jxe:com.io7m.jxe.core](https://central.sonatype.com/artifact/com.io7m.jxe/com.io7m.jxe.core/overview)
+* [com.io7m.jxe:com.io7m.jxe.documentation](https://central.sonatype.com/artifact/com.io7m.jxe/com.io7m.jxe.documentation/overview)
+* [com.io7m.jxe:com.io7m.jxe.tests](https://central.sonatype.com/artifact/com.io7m.jxe/com.io7m.jxe.tests/overview)
 </details>
 
 rebuilding **3 releases** of com.io7m.jxe:com.io7m.jxe:

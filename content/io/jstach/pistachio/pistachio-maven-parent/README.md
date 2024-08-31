@@ -9,13 +9,13 @@ Source code: [https://github.com/jstachio/pistachio.git](https://github.com/jsta
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [io.jstach.pistachio:pistachio-maven-parent](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-maven-parent/0.1.2)
-* [io.jstach.pistachio:pistachio-prism](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-prism/0.1.2)
-* [io.jstach.pistachio:pistachio-prism-apt](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-prism-apt/0.1.2)
-* [io.jstach.pistachio:pistachio-prism-parent](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-prism-parent/0.1.2)
-* [io.jstach.pistachio:pistachio-svc](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-svc/0.1.2)
-* [io.jstach.pistachio:pistachio-svc-apt](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-svc-apt/0.1.2)
-* [io.jstach.pistachio:pistachio-svc-parent](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-svc-parent/0.1.2)
+* [io.jstach.pistachio:pistachio-maven-parent](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-maven-parent/overview)
+* [io.jstach.pistachio:pistachio-prism](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-prism/overview)
+* [io.jstach.pistachio:pistachio-prism-apt](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-prism-apt/overview)
+* [io.jstach.pistachio:pistachio-prism-parent](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-prism-parent/overview)
+* [io.jstach.pistachio:pistachio-svc](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-svc/overview)
+* [io.jstach.pistachio:pistachio-svc-apt](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-svc-apt/overview)
+* [io.jstach.pistachio:pistachio-svc-parent](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-svc-parent/overview)
 </details>
 
 rebuilding **1 releases** of io.jstach.pistachio:pistachio-maven-parent:

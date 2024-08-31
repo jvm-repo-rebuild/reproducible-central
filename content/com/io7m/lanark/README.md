@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/lanark.git](https://github.com/io7m/lanark
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.lanark:com.io7m.lanark](https://central.sonatype.com/artifact/com.io7m.lanark/com.io7m.lanark/1.2.0)
-* [com.io7m.lanark:com.io7m.lanark.arbitraries](https://central.sonatype.com/artifact/com.io7m.lanark/com.io7m.lanark.arbitraries/1.2.0)
-* [com.io7m.lanark:com.io7m.lanark.core](https://central.sonatype.com/artifact/com.io7m.lanark/com.io7m.lanark.core/1.2.0)
-* [com.io7m.lanark:com.io7m.lanark.tests](https://central.sonatype.com/artifact/com.io7m.lanark/com.io7m.lanark.tests/1.2.0)
+* [com.io7m.lanark:com.io7m.lanark](https://central.sonatype.com/artifact/com.io7m.lanark/com.io7m.lanark/overview)
+* [com.io7m.lanark:com.io7m.lanark.arbitraries](https://central.sonatype.com/artifact/com.io7m.lanark/com.io7m.lanark.arbitraries/overview)
+* [com.io7m.lanark:com.io7m.lanark.core](https://central.sonatype.com/artifact/com.io7m.lanark/com.io7m.lanark.core/overview)
+* [com.io7m.lanark:com.io7m.lanark.tests](https://central.sonatype.com/artifact/com.io7m.lanark/com.io7m.lanark.tests/overview)
 </details>
 
 rebuilding **4 releases** of com.io7m.lanark:com.io7m.lanark:

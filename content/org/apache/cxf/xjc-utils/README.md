@@ -9,21 +9,21 @@ Source code: [https://github.com/apache/cxf-xjc-utils.git](https://github.com/ap
 
 <details><summary>This project defines 15 modules:</summary>
 
-* [org.apache.cxf.xjc-utils:cxf-xjc-runtime](https://central.sonatype.com/artifact/org.apache.cxf.xjc-utils/cxf-xjc-runtime/4.0.2)
-* [org.apache.cxf.xjc-utils:xjc-utils](https://central.sonatype.com/artifact/org.apache.cxf.xjc-utils/xjc-utils/4.0.2)
-* [org.apache.cxf.xjcplugins.tests:cxf-xjc-boolean-test](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins.tests/cxf-xjc-boolean-test/4.0.2)
-* [org.apache.cxf.xjcplugins.tests:cxf-xjc-dv-test](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins.tests/cxf-xjc-dv-test/4.0.2)
-* [org.apache.cxf.xjcplugins.tests:cxf-xjc-ts-test](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins.tests/cxf-xjc-ts-test/4.0.2)
-* [org.apache.cxf.xjcplugins.tests:cxf-xjc-wsdlextension-test](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins.tests/cxf-xjc-wsdlextension-test/4.0.2)
-* [org.apache.cxf.xjcplugins:cxf-xjc-boolean](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins/cxf-xjc-boolean/4.0.2)
-* [org.apache.cxf.xjcplugins:cxf-xjc-bug671](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins/cxf-xjc-bug671/4.0.2)
-* [org.apache.cxf.xjcplugins:cxf-xjc-bug986](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins/cxf-xjc-bug986/4.0.2)
-* [org.apache.cxf.xjcplugins:cxf-xjc-dv](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins/cxf-xjc-dv/4.0.2)
-* [org.apache.cxf.xjcplugins:cxf-xjc-javadoc](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins/cxf-xjc-javadoc/4.0.2)
-* [org.apache.cxf.xjcplugins:cxf-xjc-pl](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins/cxf-xjc-pl/4.0.2)
-* [org.apache.cxf.xjcplugins:cxf-xjc-ts](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins/cxf-xjc-ts/4.0.2)
-* [org.apache.cxf.xjcplugins:cxf-xjc-wsdlextension](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins/cxf-xjc-wsdlextension/4.0.2)
-* [org.apache.cxf:cxf-xjc-plugin](https://central.sonatype.com/artifact/org.apache.cxf/cxf-xjc-plugin/4.0.2)
+* [org.apache.cxf.xjc-utils:cxf-xjc-runtime](https://central.sonatype.com/artifact/org.apache.cxf.xjc-utils/cxf-xjc-runtime/overview)
+* [org.apache.cxf.xjc-utils:xjc-utils](https://central.sonatype.com/artifact/org.apache.cxf.xjc-utils/xjc-utils/overview)
+* [org.apache.cxf.xjcplugins.tests:cxf-xjc-boolean-test](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins.tests/cxf-xjc-boolean-test/overview)
+* [org.apache.cxf.xjcplugins.tests:cxf-xjc-dv-test](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins.tests/cxf-xjc-dv-test/overview)
+* [org.apache.cxf.xjcplugins.tests:cxf-xjc-ts-test](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins.tests/cxf-xjc-ts-test/overview)
+* [org.apache.cxf.xjcplugins.tests:cxf-xjc-wsdlextension-test](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins.tests/cxf-xjc-wsdlextension-test/overview)
+* [org.apache.cxf.xjcplugins:cxf-xjc-boolean](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins/cxf-xjc-boolean/overview)
+* [org.apache.cxf.xjcplugins:cxf-xjc-bug671](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins/cxf-xjc-bug671/overview)
+* [org.apache.cxf.xjcplugins:cxf-xjc-bug986](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins/cxf-xjc-bug986/overview)
+* [org.apache.cxf.xjcplugins:cxf-xjc-dv](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins/cxf-xjc-dv/overview)
+* [org.apache.cxf.xjcplugins:cxf-xjc-javadoc](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins/cxf-xjc-javadoc/overview)
+* [org.apache.cxf.xjcplugins:cxf-xjc-pl](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins/cxf-xjc-pl/overview)
+* [org.apache.cxf.xjcplugins:cxf-xjc-ts](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins/cxf-xjc-ts/overview)
+* [org.apache.cxf.xjcplugins:cxf-xjc-wsdlextension](https://central.sonatype.com/artifact/org.apache.cxf.xjcplugins/cxf-xjc-wsdlextension/overview)
+* [org.apache.cxf:cxf-xjc-plugin](https://central.sonatype.com/artifact/org.apache.cxf/cxf-xjc-plugin/overview)
 </details>
 
 rebuilding **5 releases** of org.apache.cxf.xjc-utils:xjc-utils:

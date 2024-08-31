@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/jpuddle.git](https://github.com/io7m/jpudd
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.jpuddle:com.io7m.jpuddle](https://central.sonatype.com/artifact/com.io7m.jpuddle/com.io7m.jpuddle/0.5.0)
-* [com.io7m.jpuddle:com.io7m.jpuddle.core](https://central.sonatype.com/artifact/com.io7m.jpuddle/com.io7m.jpuddle.core/0.5.0)
-* [com.io7m.jpuddle:com.io7m.jpuddle.documentation](https://central.sonatype.com/artifact/com.io7m.jpuddle/com.io7m.jpuddle.documentation/0.5.0)
+* [com.io7m.jpuddle:com.io7m.jpuddle](https://central.sonatype.com/artifact/com.io7m.jpuddle/com.io7m.jpuddle/overview)
+* [com.io7m.jpuddle:com.io7m.jpuddle.core](https://central.sonatype.com/artifact/com.io7m.jpuddle/com.io7m.jpuddle.core/overview)
+* [com.io7m.jpuddle:com.io7m.jpuddle.documentation](https://central.sonatype.com/artifact/com.io7m.jpuddle/com.io7m.jpuddle.documentation/overview)
 </details>
 
 rebuilding **1 releases** of com.io7m.jpuddle:com.io7m.jpuddle:

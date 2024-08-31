@@ -9,13 +9,13 @@ Source code: [https://github.com/apache/maven-archetype.git](https://github.com/
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [org.apache.maven.archetype:archetype-catalog](https://central.sonatype.com/artifact/org.apache.maven.archetype/archetype-catalog/3.2.1)
-* [org.apache.maven.archetype:archetype-common](https://central.sonatype.com/artifact/org.apache.maven.archetype/archetype-common/3.2.1)
-* [org.apache.maven.archetype:archetype-descriptor](https://central.sonatype.com/artifact/org.apache.maven.archetype/archetype-descriptor/3.2.1)
-* [org.apache.maven.archetype:archetype-models](https://central.sonatype.com/artifact/org.apache.maven.archetype/archetype-models/3.2.1)
-* [org.apache.maven.archetype:archetype-packaging](https://central.sonatype.com/artifact/org.apache.maven.archetype/archetype-packaging/3.2.1)
-* [org.apache.maven.archetype:maven-archetype](https://central.sonatype.com/artifact/org.apache.maven.archetype/maven-archetype/3.2.1)
-* [org.apache.maven.plugins:maven-archetype-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-archetype-plugin/3.2.1)
+* [org.apache.maven.archetype:archetype-catalog](https://central.sonatype.com/artifact/org.apache.maven.archetype/archetype-catalog/overview)
+* [org.apache.maven.archetype:archetype-common](https://central.sonatype.com/artifact/org.apache.maven.archetype/archetype-common/overview)
+* [org.apache.maven.archetype:archetype-descriptor](https://central.sonatype.com/artifact/org.apache.maven.archetype/archetype-descriptor/overview)
+* [org.apache.maven.archetype:archetype-models](https://central.sonatype.com/artifact/org.apache.maven.archetype/archetype-models/overview)
+* [org.apache.maven.archetype:archetype-packaging](https://central.sonatype.com/artifact/org.apache.maven.archetype/archetype-packaging/overview)
+* [org.apache.maven.archetype:maven-archetype](https://central.sonatype.com/artifact/org.apache.maven.archetype/maven-archetype/overview)
+* [org.apache.maven.plugins:maven-archetype-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-archetype-plugin/overview)
 </details>
 
 rebuilding **2 releases** of org.apache.maven.archetype:maven-archetype:

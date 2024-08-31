@@ -9,12 +9,12 @@ Source code: [https://github.com/eclipse/transformer.git](https://github.com/ecl
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [org.eclipse.transformer:org.eclipse.transformer](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer/0.5.0)
-* [org.eclipse.transformer:org.eclipse.transformer.cli](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.cli/0.5.0)
-* [org.eclipse.transformer:org.eclipse.transformer.jakarta](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.jakarta/0.5.0)
-* [org.eclipse.transformer:org.eclipse.transformer.maven](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.maven/0.5.0)
-* [org.eclipse.transformer:org.eclipse.transformer.parent](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/0.5.0)
-* [org.eclipse.transformer:transformer-maven-plugin](https://central.sonatype.com/artifact/org.eclipse.transformer/transformer-maven-plugin/0.5.0)
+* [org.eclipse.transformer:org.eclipse.transformer](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer/overview)
+* [org.eclipse.transformer:org.eclipse.transformer.cli](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.cli/overview)
+* [org.eclipse.transformer:org.eclipse.transformer.jakarta](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.jakarta/overview)
+* [org.eclipse.transformer:org.eclipse.transformer.maven](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.maven/overview)
+* [org.eclipse.transformer:org.eclipse.transformer.parent](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/overview)
+* [org.eclipse.transformer:transformer-maven-plugin](https://central.sonatype.com/artifact/org.eclipse.transformer/transformer-maven-plugin/overview)
 </details>
 
 rebuilding **3 releases** of org.eclipse.transformer:org.eclipse.transformer.parent:

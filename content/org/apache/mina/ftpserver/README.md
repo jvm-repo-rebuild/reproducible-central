@@ -9,14 +9,14 @@ Source code: [https://github.com/apache/mina-ftpserver.git](https://github.com/a
 
 <details><summary>This project defines 8 modules:</summary>
 
-* [org.apache.ftpserver.examples:ftpserver-osgi-ftplet-service](https://central.sonatype.com/artifact/org.apache.ftpserver.examples/ftpserver-osgi-ftplet-service/1.2.0)
-* [org.apache.ftpserver.examples:ftpserver-osgi-spring-service](https://central.sonatype.com/artifact/org.apache.ftpserver.examples/ftpserver-osgi-spring-service/1.2.0)
-* [org.apache.ftpserver.examples:ftpserver-spring-war](https://central.sonatype.com/artifact/org.apache.ftpserver.examples/ftpserver-spring-war/1.2.0)
-* [org.apache.ftpserver:ftplet-api](https://central.sonatype.com/artifact/org.apache.ftpserver/ftplet-api/1.2.0)
-* [org.apache.ftpserver:ftpserver](https://central.sonatype.com/artifact/org.apache.ftpserver/ftpserver/1.2.0)
-* [org.apache.ftpserver:ftpserver-core](https://central.sonatype.com/artifact/org.apache.ftpserver/ftpserver-core/1.2.0)
-* [org.apache.ftpserver:ftpserver-examples](https://central.sonatype.com/artifact/org.apache.ftpserver/ftpserver-examples/1.2.0)
-* [org.apache.ftpserver:ftpserver-parent](https://central.sonatype.com/artifact/org.apache.ftpserver/ftpserver-parent/1.2.0)
+* [org.apache.ftpserver.examples:ftpserver-osgi-ftplet-service](https://central.sonatype.com/artifact/org.apache.ftpserver.examples/ftpserver-osgi-ftplet-service/overview)
+* [org.apache.ftpserver.examples:ftpserver-osgi-spring-service](https://central.sonatype.com/artifact/org.apache.ftpserver.examples/ftpserver-osgi-spring-service/overview)
+* [org.apache.ftpserver.examples:ftpserver-spring-war](https://central.sonatype.com/artifact/org.apache.ftpserver.examples/ftpserver-spring-war/overview)
+* [org.apache.ftpserver:ftplet-api](https://central.sonatype.com/artifact/org.apache.ftpserver/ftplet-api/overview)
+* [org.apache.ftpserver:ftpserver](https://central.sonatype.com/artifact/org.apache.ftpserver/ftpserver/overview)
+* [org.apache.ftpserver:ftpserver-core](https://central.sonatype.com/artifact/org.apache.ftpserver/ftpserver-core/overview)
+* [org.apache.ftpserver:ftpserver-examples](https://central.sonatype.com/artifact/org.apache.ftpserver/ftpserver-examples/overview)
+* [org.apache.ftpserver:ftpserver-parent](https://central.sonatype.com/artifact/org.apache.ftpserver/ftpserver-parent/overview)
 </details>
 
 rebuilding **3 releases** of org.apache.ftpserver:ftpserver-parent:

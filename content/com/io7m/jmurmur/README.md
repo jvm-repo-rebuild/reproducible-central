@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/jmurmur.git](https://github.com/io7m/jmurm
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.jmurmur:com.io7m.jmurmur](https://central.sonatype.com/artifact/com.io7m.jmurmur/com.io7m.jmurmur/3.0.0)
-* [com.io7m.jmurmur:com.io7m.jmurmur.core](https://central.sonatype.com/artifact/com.io7m.jmurmur/com.io7m.jmurmur.core/3.0.0)
-* [com.io7m.jmurmur:com.io7m.jmurmur.documentation](https://central.sonatype.com/artifact/com.io7m.jmurmur/com.io7m.jmurmur.documentation/3.0.0)
-* [com.io7m.jmurmur:com.io7m.jmurmur.tests](https://central.sonatype.com/artifact/com.io7m.jmurmur/com.io7m.jmurmur.tests/3.0.0)
+* [com.io7m.jmurmur:com.io7m.jmurmur](https://central.sonatype.com/artifact/com.io7m.jmurmur/com.io7m.jmurmur/overview)
+* [com.io7m.jmurmur:com.io7m.jmurmur.core](https://central.sonatype.com/artifact/com.io7m.jmurmur/com.io7m.jmurmur.core/overview)
+* [com.io7m.jmurmur:com.io7m.jmurmur.documentation](https://central.sonatype.com/artifact/com.io7m.jmurmur/com.io7m.jmurmur.documentation/overview)
+* [com.io7m.jmurmur:com.io7m.jmurmur.tests](https://central.sonatype.com/artifact/com.io7m.jmurmur/com.io7m.jmurmur.tests/overview)
 </details>
 
 rebuilding **2 releases** of com.io7m.jmurmur:com.io7m.jmurmur:

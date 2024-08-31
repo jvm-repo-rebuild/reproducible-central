@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/digal.git](https://github.com/io7m/digal.g
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.digal:com.io7m.digal](https://central.sonatype.com/artifact/com.io7m.digal/com.io7m.digal/1.0.0)
-* [com.io7m.digal:com.io7m.digal.core](https://central.sonatype.com/artifact/com.io7m.digal/com.io7m.digal.core/1.0.0)
-* [com.io7m.digal:com.io7m.digal.tests](https://central.sonatype.com/artifact/com.io7m.digal/com.io7m.digal.tests/1.0.0)
+* [com.io7m.digal:com.io7m.digal](https://central.sonatype.com/artifact/com.io7m.digal/com.io7m.digal/overview)
+* [com.io7m.digal:com.io7m.digal.core](https://central.sonatype.com/artifact/com.io7m.digal/com.io7m.digal.core/overview)
+* [com.io7m.digal:com.io7m.digal.tests](https://central.sonatype.com/artifact/com.io7m.digal/com.io7m.digal.tests/overview)
 </details>
 
 rebuilding **6 releases** of com.io7m.digal:com.io7m.digal:

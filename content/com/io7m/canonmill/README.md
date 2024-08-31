@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/canonmill.git](https://github.com/io7m/can
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.canonmill:com.io7m.canonmill](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill/2.1.0)
-* [com.io7m.canonmill:com.io7m.canonmill.core](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill.core/2.1.0)
-* [com.io7m.canonmill:com.io7m.canonmill.documentation](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill.documentation/2.1.0)
-* [com.io7m.canonmill:com.io7m.canonmill.tests](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill.tests/2.1.0)
+* [com.io7m.canonmill:com.io7m.canonmill](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill/overview)
+* [com.io7m.canonmill:com.io7m.canonmill.core](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill.core/overview)
+* [com.io7m.canonmill:com.io7m.canonmill.documentation](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill.documentation/overview)
+* [com.io7m.canonmill:com.io7m.canonmill.tests](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill.tests/overview)
 </details>
 
 rebuilding **8 releases** of com.io7m.canonmill:com.io7m.canonmill:

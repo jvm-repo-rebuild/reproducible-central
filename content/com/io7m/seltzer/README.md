@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/seltzer.git](https://github.com/io7m/seltz
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.seltzer:com.io7m.seltzer](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer/1.1.0)
-* [com.io7m.seltzer:com.io7m.seltzer.api](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer.api/1.1.0)
-* [com.io7m.seltzer:com.io7m.seltzer.io](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer.io/1.1.0)
-* [com.io7m.seltzer:com.io7m.seltzer.tests](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer.tests/1.1.0)
+* [com.io7m.seltzer:com.io7m.seltzer](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer/overview)
+* [com.io7m.seltzer:com.io7m.seltzer.api](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer.api/overview)
+* [com.io7m.seltzer:com.io7m.seltzer.io](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer.io/overview)
+* [com.io7m.seltzer:com.io7m.seltzer.tests](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer.tests/overview)
 </details>
 
 rebuilding **2 releases** of com.io7m.seltzer:com.io7m.seltzer:

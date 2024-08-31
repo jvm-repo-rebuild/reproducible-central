@@ -9,12 +9,12 @@ Source code: [https://github.com/io7m/jregions.git](https://github.com/io7m/jreg
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [com.io7m.jregions:com.io7m.jregions](https://central.sonatype.com/artifact/com.io7m.jregions/com.io7m.jregions/5.0.0)
-* [com.io7m.jregions:com.io7m.jregions.arbitraries](https://central.sonatype.com/artifact/com.io7m.jregions/com.io7m.jregions.arbitraries/5.0.0)
-* [com.io7m.jregions:com.io7m.jregions.core](https://central.sonatype.com/artifact/com.io7m.jregions/com.io7m.jregions.core/5.0.0)
-* [com.io7m.jregions:com.io7m.jregions.documentation](https://central.sonatype.com/artifact/com.io7m.jregions/com.io7m.jregions.documentation/5.0.0)
-* [com.io7m.jregions:com.io7m.jregions.generators](https://central.sonatype.com/artifact/com.io7m.jregions/com.io7m.jregions.generators/5.0.0)
-* [com.io7m.jregions:com.io7m.jregions.tests](https://central.sonatype.com/artifact/com.io7m.jregions/com.io7m.jregions.tests/5.0.0)
+* [com.io7m.jregions:com.io7m.jregions](https://central.sonatype.com/artifact/com.io7m.jregions/com.io7m.jregions/overview)
+* [com.io7m.jregions:com.io7m.jregions.arbitraries](https://central.sonatype.com/artifact/com.io7m.jregions/com.io7m.jregions.arbitraries/overview)
+* [com.io7m.jregions:com.io7m.jregions.core](https://central.sonatype.com/artifact/com.io7m.jregions/com.io7m.jregions.core/overview)
+* [com.io7m.jregions:com.io7m.jregions.documentation](https://central.sonatype.com/artifact/com.io7m.jregions/com.io7m.jregions.documentation/overview)
+* [com.io7m.jregions:com.io7m.jregions.generators](https://central.sonatype.com/artifact/com.io7m.jregions/com.io7m.jregions.generators/overview)
+* [com.io7m.jregions:com.io7m.jregions.tests](https://central.sonatype.com/artifact/com.io7m.jregions/com.io7m.jregions.tests/overview)
 </details>
 
 rebuilding **3 releases** of com.io7m.jregions:com.io7m.jregions:

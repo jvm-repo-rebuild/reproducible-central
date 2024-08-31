@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/junreachable.git](https://github.com/io7m/
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.junreachable:com.io7m.junreachable](https://central.sonatype.com/artifact/com.io7m.junreachable/com.io7m.junreachable/4.0.2)
-* [com.io7m.junreachable:com.io7m.junreachable.core](https://central.sonatype.com/artifact/com.io7m.junreachable/com.io7m.junreachable.core/4.0.2)
-* [com.io7m.junreachable:com.io7m.junreachable.tests](https://central.sonatype.com/artifact/com.io7m.junreachable/com.io7m.junreachable.tests/4.0.2)
+* [com.io7m.junreachable:com.io7m.junreachable](https://central.sonatype.com/artifact/com.io7m.junreachable/com.io7m.junreachable/overview)
+* [com.io7m.junreachable:com.io7m.junreachable.core](https://central.sonatype.com/artifact/com.io7m.junreachable/com.io7m.junreachable.core/overview)
+* [com.io7m.junreachable:com.io7m.junreachable.tests](https://central.sonatype.com/artifact/com.io7m.junreachable/com.io7m.junreachable.tests/overview)
 </details>
 
 rebuilding **2 releases** of com.io7m.junreachable:com.io7m.junreachable:

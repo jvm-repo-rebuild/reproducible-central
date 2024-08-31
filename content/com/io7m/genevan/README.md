@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/genevan.git](https://github.com/io7m/genev
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.genevan:com.io7m.genevan](https://central.sonatype.com/artifact/com.io7m.genevan/com.io7m.genevan/1.0.0)
-* [com.io7m.genevan:com.io7m.genevan.core](https://central.sonatype.com/artifact/com.io7m.genevan/com.io7m.genevan.core/1.0.0)
-* [com.io7m.genevan:com.io7m.genevan.tests](https://central.sonatype.com/artifact/com.io7m.genevan/com.io7m.genevan.tests/1.0.0)
+* [com.io7m.genevan:com.io7m.genevan](https://central.sonatype.com/artifact/com.io7m.genevan/com.io7m.genevan/overview)
+* [com.io7m.genevan:com.io7m.genevan.core](https://central.sonatype.com/artifact/com.io7m.genevan/com.io7m.genevan.core/overview)
+* [com.io7m.genevan:com.io7m.genevan.tests](https://central.sonatype.com/artifact/com.io7m.genevan/com.io7m.genevan.tests/overview)
 </details>
 
 rebuilding **3 releases** of com.io7m.genevan:com.io7m.genevan:

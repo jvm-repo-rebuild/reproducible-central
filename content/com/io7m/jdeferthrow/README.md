@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/jdeferthrow.git](https://github.com/io7m/j
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.jdeferthrow:com.io7m.jdeferthrow](https://central.sonatype.com/artifact/com.io7m.jdeferthrow/com.io7m.jdeferthrow/1.3.0)
-* [com.io7m.jdeferthrow:com.io7m.jdeferthrow.core](https://central.sonatype.com/artifact/com.io7m.jdeferthrow/com.io7m.jdeferthrow.core/1.3.0)
-* [com.io7m.jdeferthrow:com.io7m.jdeferthrow.tests](https://central.sonatype.com/artifact/com.io7m.jdeferthrow/com.io7m.jdeferthrow.tests/1.3.0)
+* [com.io7m.jdeferthrow:com.io7m.jdeferthrow](https://central.sonatype.com/artifact/com.io7m.jdeferthrow/com.io7m.jdeferthrow/overview)
+* [com.io7m.jdeferthrow:com.io7m.jdeferthrow.core](https://central.sonatype.com/artifact/com.io7m.jdeferthrow/com.io7m.jdeferthrow.core/overview)
+* [com.io7m.jdeferthrow:com.io7m.jdeferthrow.tests](https://central.sonatype.com/artifact/com.io7m.jdeferthrow/com.io7m.jdeferthrow.tests/overview)
 </details>
 
 rebuilding **4 releases** of com.io7m.jdeferthrow:com.io7m.jdeferthrow:

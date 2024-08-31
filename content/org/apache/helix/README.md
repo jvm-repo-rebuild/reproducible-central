@@ -9,19 +9,19 @@ Source code: [https://github.com/apache/helix.git](https://github.com/apache/hel
 
 <details><summary>This project defines 13 modules:</summary>
 
-* [org.apache.helix:helix](https://central.sonatype.com/artifact/org.apache.helix/helix/1.3.1)
-* [org.apache.helix:helix-admin-webapp](https://central.sonatype.com/artifact/org.apache.helix/helix-admin-webapp/1.3.1)
-* [org.apache.helix:helix-agent](https://central.sonatype.com/artifact/org.apache.helix/helix-agent/1.3.1)
-* [org.apache.helix:helix-common](https://central.sonatype.com/artifact/org.apache.helix/helix-common/1.3.1)
-* [org.apache.helix:helix-core](https://central.sonatype.com/artifact/org.apache.helix/helix-core/1.3.1)
-* [org.apache.helix:helix-front](https://central.sonatype.com/artifact/org.apache.helix/helix-front/1.3.1)
-* [org.apache.helix:helix-lock](https://central.sonatype.com/artifact/org.apache.helix/helix-lock/1.3.1)
-* [org.apache.helix:helix-rest](https://central.sonatype.com/artifact/org.apache.helix/helix-rest/1.3.1)
-* [org.apache.helix:helix-view-aggregator](https://central.sonatype.com/artifact/org.apache.helix/helix-view-aggregator/1.3.1)
-* [org.apache.helix:meta-client](https://central.sonatype.com/artifact/org.apache.helix/meta-client/1.3.1)
-* [org.apache.helix:metadata-store-directory-common](https://central.sonatype.com/artifact/org.apache.helix/metadata-store-directory-common/1.3.1)
-* [org.apache.helix:metrics-common](https://central.sonatype.com/artifact/org.apache.helix/metrics-common/1.3.1)
-* [org.apache.helix:zookeeper-api](https://central.sonatype.com/artifact/org.apache.helix/zookeeper-api/1.3.1)
+* [org.apache.helix:helix](https://central.sonatype.com/artifact/org.apache.helix/helix/overview)
+* [org.apache.helix:helix-admin-webapp](https://central.sonatype.com/artifact/org.apache.helix/helix-admin-webapp/overview)
+* [org.apache.helix:helix-agent](https://central.sonatype.com/artifact/org.apache.helix/helix-agent/overview)
+* [org.apache.helix:helix-common](https://central.sonatype.com/artifact/org.apache.helix/helix-common/overview)
+* [org.apache.helix:helix-core](https://central.sonatype.com/artifact/org.apache.helix/helix-core/overview)
+* [org.apache.helix:helix-front](https://central.sonatype.com/artifact/org.apache.helix/helix-front/overview)
+* [org.apache.helix:helix-lock](https://central.sonatype.com/artifact/org.apache.helix/helix-lock/overview)
+* [org.apache.helix:helix-rest](https://central.sonatype.com/artifact/org.apache.helix/helix-rest/overview)
+* [org.apache.helix:helix-view-aggregator](https://central.sonatype.com/artifact/org.apache.helix/helix-view-aggregator/overview)
+* [org.apache.helix:meta-client](https://central.sonatype.com/artifact/org.apache.helix/meta-client/overview)
+* [org.apache.helix:metadata-store-directory-common](https://central.sonatype.com/artifact/org.apache.helix/metadata-store-directory-common/overview)
+* [org.apache.helix:metrics-common](https://central.sonatype.com/artifact/org.apache.helix/metrics-common/overview)
+* [org.apache.helix:zookeeper-api](https://central.sonatype.com/artifact/org.apache.helix/zookeeper-api/overview)
 </details>
 
 rebuilding **4 releases** of org.apache.helix:helix:

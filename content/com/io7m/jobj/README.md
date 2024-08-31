@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/jobj.git](https://github.com/io7m/jobj.git
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.jobj:com.io7m.jobj](https://central.sonatype.com/artifact/com.io7m.jobj/com.io7m.jobj/1.0.0)
-* [com.io7m.jobj:com.io7m.jobj.core](https://central.sonatype.com/artifact/com.io7m.jobj/com.io7m.jobj.core/1.0.0)
-* [com.io7m.jobj:com.io7m.jobj.tests](https://central.sonatype.com/artifact/com.io7m.jobj/com.io7m.jobj.tests/1.0.0)
-* [com.io7m.jobj:com.io7m.jobj.tools](https://central.sonatype.com/artifact/com.io7m.jobj/com.io7m.jobj.tools/1.0.0)
+* [com.io7m.jobj:com.io7m.jobj](https://central.sonatype.com/artifact/com.io7m.jobj/com.io7m.jobj/overview)
+* [com.io7m.jobj:com.io7m.jobj.core](https://central.sonatype.com/artifact/com.io7m.jobj/com.io7m.jobj.core/overview)
+* [com.io7m.jobj:com.io7m.jobj.tests](https://central.sonatype.com/artifact/com.io7m.jobj/com.io7m.jobj.tests/overview)
+* [com.io7m.jobj:com.io7m.jobj.tools](https://central.sonatype.com/artifact/com.io7m.jobj/com.io7m.jobj.tools/overview)
 </details>
 
 rebuilding **1 releases** of com.io7m.jobj:com.io7m.jobj:

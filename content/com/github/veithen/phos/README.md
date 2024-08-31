@@ -9,8 +9,8 @@ Source code: [https://github.com/veithen/phos.git](https://github.com/veithen/ph
 
 <details><summary>This project defines 2 modules:</summary>
 
-* [com.github.veithen.phos:enforcer-maven-plugin](https://central.sonatype.com/artifact/com.github.veithen.phos/enforcer-maven-plugin/0.4.0)
-* [com.github.veithen.phos:phos](https://central.sonatype.com/artifact/com.github.veithen.phos/phos/0.4.0)
+* [com.github.veithen.phos:enforcer-maven-plugin](https://central.sonatype.com/artifact/com.github.veithen.phos/enforcer-maven-plugin/overview)
+* [com.github.veithen.phos:phos](https://central.sonatype.com/artifact/com.github.veithen.phos/phos/overview)
 </details>
 
 rebuilding **1 releases** of com.github.veithen.phos:phos:

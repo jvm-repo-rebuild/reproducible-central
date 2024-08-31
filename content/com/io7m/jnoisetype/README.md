@@ -9,14 +9,14 @@ Source code: [https://github.com/io7m/jnoisetype.git](https://github.com/io7m/jn
 
 <details><summary>This project defines 8 modules:</summary>
 
-* [com.io7m.jnoisetype:com.io7m.jnoisetype](https://central.sonatype.com/artifact/com.io7m.jnoisetype/com.io7m.jnoisetype/0.0.5)
-* [com.io7m.jnoisetype:com.io7m.jnoisetype.api](https://central.sonatype.com/artifact/com.io7m.jnoisetype/com.io7m.jnoisetype.api/0.0.5)
-* [com.io7m.jnoisetype:com.io7m.jnoisetype.cmdline](https://central.sonatype.com/artifact/com.io7m.jnoisetype/com.io7m.jnoisetype.cmdline/0.0.5)
-* [com.io7m.jnoisetype:com.io7m.jnoisetype.documentation](https://central.sonatype.com/artifact/com.io7m.jnoisetype/com.io7m.jnoisetype.documentation/0.0.5)
-* [com.io7m.jnoisetype:com.io7m.jnoisetype.parser.api](https://central.sonatype.com/artifact/com.io7m.jnoisetype/com.io7m.jnoisetype.parser.api/0.0.5)
-* [com.io7m.jnoisetype:com.io7m.jnoisetype.tests](https://central.sonatype.com/artifact/com.io7m.jnoisetype/com.io7m.jnoisetype.tests/0.0.5)
-* [com.io7m.jnoisetype:com.io7m.jnoisetype.vanilla](https://central.sonatype.com/artifact/com.io7m.jnoisetype/com.io7m.jnoisetype.vanilla/0.0.5)
-* [com.io7m.jnoisetype:com.io7m.jnoisetype.writer.api](https://central.sonatype.com/artifact/com.io7m.jnoisetype/com.io7m.jnoisetype.writer.api/0.0.5)
+* [com.io7m.jnoisetype:com.io7m.jnoisetype](https://central.sonatype.com/artifact/com.io7m.jnoisetype/com.io7m.jnoisetype/overview)
+* [com.io7m.jnoisetype:com.io7m.jnoisetype.api](https://central.sonatype.com/artifact/com.io7m.jnoisetype/com.io7m.jnoisetype.api/overview)
+* [com.io7m.jnoisetype:com.io7m.jnoisetype.cmdline](https://central.sonatype.com/artifact/com.io7m.jnoisetype/com.io7m.jnoisetype.cmdline/overview)
+* [com.io7m.jnoisetype:com.io7m.jnoisetype.documentation](https://central.sonatype.com/artifact/com.io7m.jnoisetype/com.io7m.jnoisetype.documentation/overview)
+* [com.io7m.jnoisetype:com.io7m.jnoisetype.parser.api](https://central.sonatype.com/artifact/com.io7m.jnoisetype/com.io7m.jnoisetype.parser.api/overview)
+* [com.io7m.jnoisetype:com.io7m.jnoisetype.tests](https://central.sonatype.com/artifact/com.io7m.jnoisetype/com.io7m.jnoisetype.tests/overview)
+* [com.io7m.jnoisetype:com.io7m.jnoisetype.vanilla](https://central.sonatype.com/artifact/com.io7m.jnoisetype/com.io7m.jnoisetype.vanilla/overview)
+* [com.io7m.jnoisetype:com.io7m.jnoisetype.writer.api](https://central.sonatype.com/artifact/com.io7m.jnoisetype/com.io7m.jnoisetype.writer.api/overview)
 </details>
 
 rebuilding **3 releases** of com.io7m.jnoisetype:com.io7m.jnoisetype:

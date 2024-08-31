@@ -9,11 +9,11 @@ Source code: [https://github.com/corgibytes/mrm](https://github.com/corgibytes/m
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [com.corgibytes:mrm](https://central.sonatype.com/artifact/com.corgibytes/mrm/1.4.2)
-* [com.corgibytes:mrm-api](https://central.sonatype.com/artifact/com.corgibytes/mrm-api/1.4.2)
-* [com.corgibytes:mrm-maven-plugin](https://central.sonatype.com/artifact/com.corgibytes/mrm-maven-plugin/1.4.2)
-* [com.corgibytes:mrm-servlet](https://central.sonatype.com/artifact/com.corgibytes/mrm-servlet/1.4.2)
-* [com.corgibytes:mrm-webapp](https://central.sonatype.com/artifact/com.corgibytes/mrm-webapp/1.4.2)
+* [com.corgibytes:mrm](https://central.sonatype.com/artifact/com.corgibytes/mrm/overview)
+* [com.corgibytes:mrm-api](https://central.sonatype.com/artifact/com.corgibytes/mrm-api/overview)
+* [com.corgibytes:mrm-maven-plugin](https://central.sonatype.com/artifact/com.corgibytes/mrm-maven-plugin/overview)
+* [com.corgibytes:mrm-servlet](https://central.sonatype.com/artifact/com.corgibytes/mrm-servlet/overview)
+* [com.corgibytes:mrm-webapp](https://central.sonatype.com/artifact/com.corgibytes/mrm-webapp/overview)
 </details>
 
 rebuilding **1 releases** of com.corgibytes:mrm:

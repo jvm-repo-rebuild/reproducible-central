@@ -9,11 +9,11 @@ Source code: [https://github.com/io7m/anethum.git](https://github.com/io7m/aneth
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [com.io7m.anethum:com.io7m.anethum](https://central.sonatype.com/artifact/com.io7m.anethum/com.io7m.anethum/1.1.1)
-* [com.io7m.anethum:com.io7m.anethum.api](https://central.sonatype.com/artifact/com.io7m.anethum/com.io7m.anethum.api/1.1.1)
-* [com.io7m.anethum:com.io7m.anethum.common](https://central.sonatype.com/artifact/com.io7m.anethum/com.io7m.anethum.common/1.1.1)
-* [com.io7m.anethum:com.io7m.anethum.slf4j](https://central.sonatype.com/artifact/com.io7m.anethum/com.io7m.anethum.slf4j/1.1.1)
-* [com.io7m.anethum:com.io7m.anethum.tests](https://central.sonatype.com/artifact/com.io7m.anethum/com.io7m.anethum.tests/1.1.1)
+* [com.io7m.anethum:com.io7m.anethum](https://central.sonatype.com/artifact/com.io7m.anethum/com.io7m.anethum/overview)
+* [com.io7m.anethum:com.io7m.anethum.api](https://central.sonatype.com/artifact/com.io7m.anethum/com.io7m.anethum.api/overview)
+* [com.io7m.anethum:com.io7m.anethum.common](https://central.sonatype.com/artifact/com.io7m.anethum/com.io7m.anethum.common/overview)
+* [com.io7m.anethum:com.io7m.anethum.slf4j](https://central.sonatype.com/artifact/com.io7m.anethum/com.io7m.anethum.slf4j/overview)
+* [com.io7m.anethum:com.io7m.anethum.tests](https://central.sonatype.com/artifact/com.io7m.anethum/com.io7m.anethum.tests/overview)
 </details>
 
 rebuilding **6 releases** of com.io7m.anethum:com.io7m.anethum:

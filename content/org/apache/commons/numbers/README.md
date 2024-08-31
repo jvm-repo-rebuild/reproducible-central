@@ -9,18 +9,18 @@ Source code: [https://github.com/apache/commons-numbers.git](https://github.com/
 
 <details><summary>This project defines 12 modules:</summary>
 
-* [org.apache.commons:commons-numbers-angle](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-angle/1.2)
-* [org.apache.commons:commons-numbers-arrays](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-arrays/1.2)
-* [org.apache.commons:commons-numbers-combinatorics](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-combinatorics/1.2)
-* [org.apache.commons:commons-numbers-complex](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-complex/1.2)
-* [org.apache.commons:commons-numbers-core](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-core/1.2)
-* [org.apache.commons:commons-numbers-field](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-field/1.2)
-* [org.apache.commons:commons-numbers-fraction](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-fraction/1.2)
-* [org.apache.commons:commons-numbers-gamma](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-gamma/1.2)
-* [org.apache.commons:commons-numbers-parent](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-parent/1.2)
-* [org.apache.commons:commons-numbers-primes](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-primes/1.2)
-* [org.apache.commons:commons-numbers-quaternion](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-quaternion/1.2)
-* [org.apache.commons:commons-numbers-rootfinder](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-rootfinder/1.2)
+* [org.apache.commons:commons-numbers-angle](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-angle/overview)
+* [org.apache.commons:commons-numbers-arrays](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-arrays/overview)
+* [org.apache.commons:commons-numbers-combinatorics](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-combinatorics/overview)
+* [org.apache.commons:commons-numbers-complex](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-complex/overview)
+* [org.apache.commons:commons-numbers-core](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-core/overview)
+* [org.apache.commons:commons-numbers-field](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-field/overview)
+* [org.apache.commons:commons-numbers-fraction](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-fraction/overview)
+* [org.apache.commons:commons-numbers-gamma](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-gamma/overview)
+* [org.apache.commons:commons-numbers-parent](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-parent/overview)
+* [org.apache.commons:commons-numbers-primes](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-primes/overview)
+* [org.apache.commons:commons-numbers-quaternion](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-quaternion/overview)
+* [org.apache.commons:commons-numbers-rootfinder](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-rootfinder/overview)
 </details>
 
 rebuilding **2 releases** of org.apache.commons:commons-numbers-parent:

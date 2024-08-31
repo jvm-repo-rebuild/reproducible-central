@@ -9,14 +9,14 @@ Source code: [https://github.com/mojohaus/versions-maven-plugin.git](https://git
 
 <details><summary>This project defines 8 modules:</summary>
 
-* [org.codehaus.mojo.versions:versions](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions/2.17.1)
-* [org.codehaus.mojo.versions:versions-api](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-api/2.17.1)
-* [org.codehaus.mojo.versions:versions-common](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-common/2.17.1)
-* [org.codehaus.mojo.versions:versions-enforcer](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-enforcer/2.17.1)
-* [org.codehaus.mojo.versions:versions-model](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-model/2.17.1)
-* [org.codehaus.mojo.versions:versions-model-report](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-model-report/2.17.1)
-* [org.codehaus.mojo.versions:versions-test](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-test/2.17.1)
-* [org.codehaus.mojo:versions-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.17.1)
+* [org.codehaus.mojo.versions:versions](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions/overview)
+* [org.codehaus.mojo.versions:versions-api](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-api/overview)
+* [org.codehaus.mojo.versions:versions-common](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-common/overview)
+* [org.codehaus.mojo.versions:versions-enforcer](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-enforcer/overview)
+* [org.codehaus.mojo.versions:versions-model](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-model/overview)
+* [org.codehaus.mojo.versions:versions-model-report](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-model-report/overview)
+* [org.codehaus.mojo.versions:versions-test](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-test/overview)
+* [org.codehaus.mojo:versions-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/overview)
 </details>
 
 rebuilding **15 releases** of org.codehaus.mojo:versions-maven-plugin:

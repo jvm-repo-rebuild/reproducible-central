@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/ieee754b16.git](https://github.com/io7m/ie
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.ieee754b16:com.io7m.ieee754b16](https://central.sonatype.com/artifact/com.io7m.ieee754b16/com.io7m.ieee754b16/3.0.1)
-* [com.io7m.ieee754b16:com.io7m.ieee754b16.core](https://central.sonatype.com/artifact/com.io7m.ieee754b16/com.io7m.ieee754b16.core/3.0.1)
-* [com.io7m.ieee754b16:com.io7m.ieee754b16.documentation](https://central.sonatype.com/artifact/com.io7m.ieee754b16/com.io7m.ieee754b16.documentation/3.0.1)
-* [com.io7m.ieee754b16:com.io7m.ieee754b16.tests](https://central.sonatype.com/artifact/com.io7m.ieee754b16/com.io7m.ieee754b16.tests/3.0.1)
+* [com.io7m.ieee754b16:com.io7m.ieee754b16](https://central.sonatype.com/artifact/com.io7m.ieee754b16/com.io7m.ieee754b16/overview)
+* [com.io7m.ieee754b16:com.io7m.ieee754b16.core](https://central.sonatype.com/artifact/com.io7m.ieee754b16/com.io7m.ieee754b16.core/overview)
+* [com.io7m.ieee754b16:com.io7m.ieee754b16.documentation](https://central.sonatype.com/artifact/com.io7m.ieee754b16/com.io7m.ieee754b16.documentation/overview)
+* [com.io7m.ieee754b16:com.io7m.ieee754b16.tests](https://central.sonatype.com/artifact/com.io7m.ieee754b16/com.io7m.ieee754b16.tests/overview)
 </details>
 
 rebuilding **2 releases** of com.io7m.ieee754b16:com.io7m.ieee754b16:

@@ -9,14 +9,14 @@ Source code: [https://github.com/apache/any23.git](https://github.com/apache/any
 
 <details><summary>This project defines 8 modules:</summary>
 
-* [org.apache.any23:apache-any23](https://central.sonatype.com/artifact/org.apache.any23/apache-any23/2.7)
-* [org.apache.any23:apache-any23-api](https://central.sonatype.com/artifact/org.apache.any23/apache-any23-api/2.7)
-* [org.apache.any23:apache-any23-cli](https://central.sonatype.com/artifact/org.apache.any23/apache-any23-cli/2.7)
-* [org.apache.any23:apache-any23-core](https://central.sonatype.com/artifact/org.apache.any23/apache-any23-core/2.7)
-* [org.apache.any23:apache-any23-csvutils](https://central.sonatype.com/artifact/org.apache.any23/apache-any23-csvutils/2.7)
-* [org.apache.any23:apache-any23-encoding](https://central.sonatype.com/artifact/org.apache.any23/apache-any23-encoding/2.7)
-* [org.apache.any23:apache-any23-mime](https://central.sonatype.com/artifact/org.apache.any23/apache-any23-mime/2.7)
-* [org.apache.any23:apache-any23-test-resources](https://central.sonatype.com/artifact/org.apache.any23/apache-any23-test-resources/2.7)
+* [org.apache.any23:apache-any23](https://central.sonatype.com/artifact/org.apache.any23/apache-any23/overview)
+* [org.apache.any23:apache-any23-api](https://central.sonatype.com/artifact/org.apache.any23/apache-any23-api/overview)
+* [org.apache.any23:apache-any23-cli](https://central.sonatype.com/artifact/org.apache.any23/apache-any23-cli/overview)
+* [org.apache.any23:apache-any23-core](https://central.sonatype.com/artifact/org.apache.any23/apache-any23-core/overview)
+* [org.apache.any23:apache-any23-csvutils](https://central.sonatype.com/artifact/org.apache.any23/apache-any23-csvutils/overview)
+* [org.apache.any23:apache-any23-encoding](https://central.sonatype.com/artifact/org.apache.any23/apache-any23-encoding/overview)
+* [org.apache.any23:apache-any23-mime](https://central.sonatype.com/artifact/org.apache.any23/apache-any23-mime/overview)
+* [org.apache.any23:apache-any23-test-resources](https://central.sonatype.com/artifact/org.apache.any23/apache-any23-test-resources/overview)
 </details>
 
 rebuilding **1 releases** of org.apache.any23:apache-any23:

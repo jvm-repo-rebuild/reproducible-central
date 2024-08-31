@@ -9,8 +9,8 @@ Source code: [https://github.com/jpmml/jpmml-h2o.git](https://github.com/jpmml/j
 
 <details><summary>This project defines 2 modules:</summary>
 
-* [org.jpmml:jpmml-h2o](https://central.sonatype.com/artifact/org.jpmml/jpmml-h2o/1.2.14)
-* [org.jpmml:pmml-h2o](https://central.sonatype.com/artifact/org.jpmml/pmml-h2o/1.2.14)
+* [org.jpmml:jpmml-h2o](https://central.sonatype.com/artifact/org.jpmml/jpmml-h2o/overview)
+* [org.jpmml:pmml-h2o](https://central.sonatype.com/artifact/org.jpmml/pmml-h2o/overview)
 </details>
 
 rebuilding **3 releases** of org.jpmml:jpmml-h2o:

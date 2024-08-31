@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/jattribute.git](https://github.com/io7m/ja
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.jattribute:com.io7m.jattribute](https://central.sonatype.com/artifact/com.io7m.jattribute/com.io7m.jattribute/1.0.0)
-* [com.io7m.jattribute:com.io7m.jattribute.core](https://central.sonatype.com/artifact/com.io7m.jattribute/com.io7m.jattribute.core/1.0.0)
-* [com.io7m.jattribute:com.io7m.jattribute.tests](https://central.sonatype.com/artifact/com.io7m.jattribute/com.io7m.jattribute.tests/1.0.0)
+* [com.io7m.jattribute:com.io7m.jattribute](https://central.sonatype.com/artifact/com.io7m.jattribute/com.io7m.jattribute/overview)
+* [com.io7m.jattribute:com.io7m.jattribute.core](https://central.sonatype.com/artifact/com.io7m.jattribute/com.io7m.jattribute.core/overview)
+* [com.io7m.jattribute:com.io7m.jattribute.tests](https://central.sonatype.com/artifact/com.io7m.jattribute/com.io7m.jattribute.tests/overview)
 </details>
 
 rebuilding **2 releases** of com.io7m.jattribute:com.io7m.jattribute:

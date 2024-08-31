@@ -9,11 +9,11 @@ Source code: [https://github.com/io7m/mime2045.git](https://github.com/io7m/mime
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [com.io7m.mime2045:com.io7m.mime2045](https://central.sonatype.com/artifact/com.io7m.mime2045/com.io7m.mime2045/1.0.1)
-* [com.io7m.mime2045:com.io7m.mime2045.core](https://central.sonatype.com/artifact/com.io7m.mime2045/com.io7m.mime2045.core/1.0.1)
-* [com.io7m.mime2045:com.io7m.mime2045.parser](https://central.sonatype.com/artifact/com.io7m.mime2045/com.io7m.mime2045.parser/1.0.1)
-* [com.io7m.mime2045:com.io7m.mime2045.parser.api](https://central.sonatype.com/artifact/com.io7m.mime2045/com.io7m.mime2045.parser.api/1.0.1)
-* [com.io7m.mime2045:com.io7m.mime2045.tests](https://central.sonatype.com/artifact/com.io7m.mime2045/com.io7m.mime2045.tests/1.0.1)
+* [com.io7m.mime2045:com.io7m.mime2045](https://central.sonatype.com/artifact/com.io7m.mime2045/com.io7m.mime2045/overview)
+* [com.io7m.mime2045:com.io7m.mime2045.core](https://central.sonatype.com/artifact/com.io7m.mime2045/com.io7m.mime2045.core/overview)
+* [com.io7m.mime2045:com.io7m.mime2045.parser](https://central.sonatype.com/artifact/com.io7m.mime2045/com.io7m.mime2045.parser/overview)
+* [com.io7m.mime2045:com.io7m.mime2045.parser.api](https://central.sonatype.com/artifact/com.io7m.mime2045/com.io7m.mime2045.parser.api/overview)
+* [com.io7m.mime2045:com.io7m.mime2045.tests](https://central.sonatype.com/artifact/com.io7m.mime2045/com.io7m.mime2045.tests/overview)
 </details>
 
 rebuilding **3 releases** of com.io7m.mime2045:com.io7m.mime2045:

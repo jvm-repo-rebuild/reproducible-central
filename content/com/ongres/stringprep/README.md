@@ -9,11 +9,11 @@ Source code: [https://github.com/ongres/stringprep.git](https://github.com/ongre
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [com.ongres.stringprep:nameprep](https://central.sonatype.com/artifact/com.ongres.stringprep/nameprep/2.2)
-* [com.ongres.stringprep:saslprep](https://central.sonatype.com/artifact/com.ongres.stringprep/saslprep/2.2)
-* [com.ongres.stringprep:stringprep](https://central.sonatype.com/artifact/com.ongres.stringprep/stringprep/2.2)
-* [com.ongres.stringprep:stringprep-aggregator](https://central.sonatype.com/artifact/com.ongres.stringprep/stringprep-aggregator/2.2)
-* [com.ongres.stringprep:stringprep-parent](https://central.sonatype.com/artifact/com.ongres.stringprep/stringprep-parent/2.2)
+* [com.ongres.stringprep:nameprep](https://central.sonatype.com/artifact/com.ongres.stringprep/nameprep/overview)
+* [com.ongres.stringprep:saslprep](https://central.sonatype.com/artifact/com.ongres.stringprep/saslprep/overview)
+* [com.ongres.stringprep:stringprep](https://central.sonatype.com/artifact/com.ongres.stringprep/stringprep/overview)
+* [com.ongres.stringprep:stringprep-aggregator](https://central.sonatype.com/artifact/com.ongres.stringprep/stringprep-aggregator/overview)
+* [com.ongres.stringprep:stringprep-parent](https://central.sonatype.com/artifact/com.ongres.stringprep/stringprep-parent/overview)
 </details>
 
 rebuilding **1 releases** of com.ongres.stringprep:stringprep-aggregator:

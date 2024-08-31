@@ -9,15 +9,15 @@ Source code: [https://github.com/apache/aries-jax-rs-whiteboard.git](https://git
 
 <details><summary>This project defines 9 modules:</summary>
 
-* [org.apache.aries.jax.rs:org.apache.aries.jax.rs](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs/2.0.2)
-* [org.apache.aries.jax.rs:org.apache.aries.jax.rs.features](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs.features/2.0.2)
-* [org.apache.aries.jax.rs:org.apache.aries.jax.rs.jackson](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jackson/2.0.2)
-* [org.apache.aries.jax.rs:org.apache.aries.jax.rs.jaxb.json.cxf-jettison](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jaxb.json.cxf-jettison/2.0.2)
-* [org.apache.aries.jax.rs:org.apache.aries.jax.rs.openapi.resource](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs.openapi.resource/2.0.2)
-* [org.apache.aries.jax.rs:org.apache.aries.jax.rs.rest.management](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs.rest.management/2.0.2)
-* [org.apache.aries.jax.rs:org.apache.aries.jax.rs.shiro.authc](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authc/2.0.2)
-* [org.apache.aries.jax.rs:org.apache.aries.jax.rs.shiro.authz](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authz/2.0.2)
-* [org.apache.aries.jax.rs:org.apache.aries.jax.rs.whiteboard](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs.whiteboard/2.0.2)
+* [org.apache.aries.jax.rs:org.apache.aries.jax.rs](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs/overview)
+* [org.apache.aries.jax.rs:org.apache.aries.jax.rs.features](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs.features/overview)
+* [org.apache.aries.jax.rs:org.apache.aries.jax.rs.jackson](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jackson/overview)
+* [org.apache.aries.jax.rs:org.apache.aries.jax.rs.jaxb.json.cxf-jettison](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jaxb.json.cxf-jettison/overview)
+* [org.apache.aries.jax.rs:org.apache.aries.jax.rs.openapi.resource](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs.openapi.resource/overview)
+* [org.apache.aries.jax.rs:org.apache.aries.jax.rs.rest.management](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs.rest.management/overview)
+* [org.apache.aries.jax.rs:org.apache.aries.jax.rs.shiro.authc](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authc/overview)
+* [org.apache.aries.jax.rs:org.apache.aries.jax.rs.shiro.authz](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authz/overview)
+* [org.apache.aries.jax.rs:org.apache.aries.jax.rs.whiteboard](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs.whiteboard/overview)
 </details>
 
 rebuilding **1 releases** of org.apache.aries.jax.rs:org.apache.aries.jax.rs:

@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/jpita.git](https://github.com/io7m/jpita.g
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.jpita:com.io7m.jpita](https://central.sonatype.com/artifact/com.io7m.jpita/com.io7m.jpita/2.0.0)
-* [com.io7m.jpita:com.io7m.jpita.core](https://central.sonatype.com/artifact/com.io7m.jpita/com.io7m.jpita.core/2.0.0)
-* [com.io7m.jpita:com.io7m.jpita.documentation](https://central.sonatype.com/artifact/com.io7m.jpita/com.io7m.jpita.documentation/2.0.0)
+* [com.io7m.jpita:com.io7m.jpita](https://central.sonatype.com/artifact/com.io7m.jpita/com.io7m.jpita/overview)
+* [com.io7m.jpita:com.io7m.jpita.core](https://central.sonatype.com/artifact/com.io7m.jpita/com.io7m.jpita.core/overview)
+* [com.io7m.jpita:com.io7m.jpita.documentation](https://central.sonatype.com/artifact/com.io7m.jpita/com.io7m.jpita.documentation/overview)
 </details>
 
 rebuilding **1 releases** of com.io7m.jpita:com.io7m.jpita:

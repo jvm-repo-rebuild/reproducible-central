@@ -9,9 +9,9 @@ Source code: [https://github.com/apache/maven-jxr.git](https://github.com/apache
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [org.apache.maven.jxr:jxr](https://central.sonatype.com/artifact/org.apache.maven.jxr/jxr/3.5.0)
-* [org.apache.maven.plugins:maven-jxr-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-jxr-plugin/3.5.0)
-* [org.apache.maven:maven-jxr](https://central.sonatype.com/artifact/org.apache.maven/maven-jxr/3.5.0)
+* [org.apache.maven.jxr:jxr](https://central.sonatype.com/artifact/org.apache.maven.jxr/jxr/overview)
+* [org.apache.maven.plugins:maven-jxr-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-jxr-plugin/overview)
+* [org.apache.maven:maven-jxr](https://central.sonatype.com/artifact/org.apache.maven/maven-jxr/overview)
 </details>
 
 rebuilding **7 releases** of org.apache.maven.jxr:jxr:

@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/jvindicator.git](https://github.com/io7m/j
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.jvindicator:com.io7m.jvindicator](https://central.sonatype.com/artifact/com.io7m.jvindicator/com.io7m.jvindicator/1.0.0)
-* [com.io7m.jvindicator:com.io7m.jvindicator.core](https://central.sonatype.com/artifact/com.io7m.jvindicator/com.io7m.jvindicator.core/1.0.0)
-* [com.io7m.jvindicator:com.io7m.jvindicator.tests](https://central.sonatype.com/artifact/com.io7m.jvindicator/com.io7m.jvindicator.tests/1.0.0)
+* [com.io7m.jvindicator:com.io7m.jvindicator](https://central.sonatype.com/artifact/com.io7m.jvindicator/com.io7m.jvindicator/overview)
+* [com.io7m.jvindicator:com.io7m.jvindicator.core](https://central.sonatype.com/artifact/com.io7m.jvindicator/com.io7m.jvindicator.core/overview)
+* [com.io7m.jvindicator:com.io7m.jvindicator.tests](https://central.sonatype.com/artifact/com.io7m.jvindicator/com.io7m.jvindicator.tests/overview)
 </details>
 
 rebuilding **3 releases** of com.io7m.jvindicator:com.io7m.jvindicator:

@@ -9,11 +9,11 @@ Source code: [https://github.com/io7m/primogenitor](https://github.com/io7m/prim
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [com.io7m.primogenitor:com.io7m.primogenitor](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/8.2.0)
-* [com.io7m.primogenitor:com.io7m.primogenitor.full](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor.full/8.2.0)
-* [com.io7m.primogenitor:com.io7m.primogenitor.lite](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor.lite/8.2.0)
-* [com.io7m.primogenitor:com.io7m.primogenitor.support](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor.support/8.2.0)
-* [com.io7m.primogenitor:com.io7m.primogenitor.tests](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor.tests/8.2.0)
+* [com.io7m.primogenitor:com.io7m.primogenitor](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/overview)
+* [com.io7m.primogenitor:com.io7m.primogenitor.full](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor.full/overview)
+* [com.io7m.primogenitor:com.io7m.primogenitor.lite](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor.lite/overview)
+* [com.io7m.primogenitor:com.io7m.primogenitor.support](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor.support/overview)
+* [com.io7m.primogenitor:com.io7m.primogenitor.tests](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor.tests/overview)
 </details>
 
 rebuilding **33 releases** of com.io7m.primogenitor:com.io7m.primogenitor:

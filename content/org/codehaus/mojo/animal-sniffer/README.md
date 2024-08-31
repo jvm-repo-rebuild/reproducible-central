@@ -9,13 +9,13 @@ Source code: [https://github.com/mojohaus/animal-sniffer.git](https://github.com
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [org.codehaus.mojo:animal-sniffer](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer/1.24)
-* [org.codehaus.mojo:animal-sniffer-annotations](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-annotations/1.24)
-* [org.codehaus.mojo:animal-sniffer-ant-tasks](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-ant-tasks/1.24)
-* [org.codehaus.mojo:animal-sniffer-enforcer-rule](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-enforcer-rule/1.24)
-* [org.codehaus.mojo:animal-sniffer-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-maven-plugin/1.24)
-* [org.codehaus.mojo:animal-sniffer-parent](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-parent/1.24)
-* [org.codehaus.mojo:java-boot-classpath-detector](https://central.sonatype.com/artifact/org.codehaus.mojo/java-boot-classpath-detector/1.24)
+* [org.codehaus.mojo:animal-sniffer](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer/overview)
+* [org.codehaus.mojo:animal-sniffer-annotations](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-annotations/overview)
+* [org.codehaus.mojo:animal-sniffer-ant-tasks](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-ant-tasks/overview)
+* [org.codehaus.mojo:animal-sniffer-enforcer-rule](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-enforcer-rule/overview)
+* [org.codehaus.mojo:animal-sniffer-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-maven-plugin/overview)
+* [org.codehaus.mojo:animal-sniffer-parent](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-parent/overview)
+* [org.codehaus.mojo:java-boot-classpath-detector](https://central.sonatype.com/artifact/org.codehaus.mojo/java-boot-classpath-detector/overview)
 </details>
 
 rebuilding **5 releases** of org.codehaus.mojo:animal-sniffer-parent:

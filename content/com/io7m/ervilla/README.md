@@ -9,12 +9,12 @@ Source code: [https://github.com/io7m/ervilla.git](https://github.com/io7m/ervil
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [com.io7m.ervilla:com.io7m.ervilla](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/1.0.0)
-* [com.io7m.ervilla:com.io7m.ervilla.api](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla.api/1.0.0)
-* [com.io7m.ervilla:com.io7m.ervilla.native_exec](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla.native_exec/1.0.0)
-* [com.io7m.ervilla:com.io7m.ervilla.postgres](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla.postgres/1.0.0)
-* [com.io7m.ervilla:com.io7m.ervilla.test_extension](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla.test_extension/1.0.0)
-* [com.io7m.ervilla:com.io7m.ervilla.tests](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla.tests/1.0.0)
+* [com.io7m.ervilla:com.io7m.ervilla](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla/overview)
+* [com.io7m.ervilla:com.io7m.ervilla.api](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla.api/overview)
+* [com.io7m.ervilla:com.io7m.ervilla.native_exec](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla.native_exec/overview)
+* [com.io7m.ervilla:com.io7m.ervilla.postgres](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla.postgres/overview)
+* [com.io7m.ervilla:com.io7m.ervilla.test_extension](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla.test_extension/overview)
+* [com.io7m.ervilla:com.io7m.ervilla.tests](https://central.sonatype.com/artifact/com.io7m.ervilla/com.io7m.ervilla.tests/overview)
 </details>
 
 rebuilding **8 releases** of com.io7m.ervilla:com.io7m.ervilla:

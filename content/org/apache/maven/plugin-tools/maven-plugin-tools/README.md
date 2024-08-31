@@ -9,20 +9,20 @@ Source code: [https://github.com/apache/maven-plugin-tools.git](https://github.c
 
 <details><summary>This project defines 14 modules:</summary>
 
-* [org.apache.maven.plugin-tools:maven-plugin-annotations](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-annotations/4.0.0-beta-1)
-* [org.apache.maven.plugin-tools:maven-plugin-tools](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/4.0.0-beta-1)
-* [org.apache.maven.plugin-tools:maven-plugin-tools-annotations](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-annotations/4.0.0-beta-1)
-* [org.apache.maven.plugin-tools:maven-plugin-tools-ant](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-ant/4.0.0-beta-1)
-* [org.apache.maven.plugin-tools:maven-plugin-tools-api](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-api/4.0.0-beta-1)
-* [org.apache.maven.plugin-tools:maven-plugin-tools-beanshell](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-beanshell/4.0.0-beta-1)
-* [org.apache.maven.plugin-tools:maven-plugin-tools-generators](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-generators/4.0.0-beta-1)
-* [org.apache.maven.plugin-tools:maven-plugin-tools-java](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-java/4.0.0-beta-1)
-* [org.apache.maven.plugin-tools:maven-plugin-tools-model](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-model/4.0.0-beta-1)
-* [org.apache.maven.plugin-tools:maven-script](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-script/4.0.0-beta-1)
-* [org.apache.maven.plugin-tools:maven-script-ant](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-script-ant/4.0.0-beta-1)
-* [org.apache.maven.plugin-tools:maven-script-beanshell](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-script-beanshell/4.0.0-beta-1)
-* [org.apache.maven.plugins:maven-plugin-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-plugin-plugin/4.0.0-beta-1)
-* [org.apache.maven.plugins:maven-plugin-report-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-plugin-report-plugin/4.0.0-beta-1)
+* [org.apache.maven.plugin-tools:maven-plugin-annotations](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-annotations/overview)
+* [org.apache.maven.plugin-tools:maven-plugin-tools](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/overview)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-annotations](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-annotations/overview)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-ant](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-ant/overview)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-api](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-api/overview)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-beanshell](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-beanshell/overview)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-generators](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-generators/overview)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-java](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-java/overview)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-model](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-model/overview)
+* [org.apache.maven.plugin-tools:maven-script](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-script/overview)
+* [org.apache.maven.plugin-tools:maven-script-ant](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-script-ant/overview)
+* [org.apache.maven.plugin-tools:maven-script-beanshell](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-script-beanshell/overview)
+* [org.apache.maven.plugins:maven-plugin-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-plugin-plugin/overview)
+* [org.apache.maven.plugins:maven-plugin-report-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-plugin-report-plugin/overview)
 </details>
 
 rebuilding **16 releases** of org.apache.maven.plugin-tools:maven-plugin-tools:

@@ -9,11 +9,11 @@ Source code: [https://github.com/smallrye/jandex.git](https://github.com/smallry
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [io.smallrye:jandex](https://central.sonatype.com/artifact/io.smallrye/jandex/3.2.2)
-* [io.smallrye:jandex-maven-plugin](https://central.sonatype.com/artifact/io.smallrye/jandex-maven-plugin/3.2.2)
-* [io.smallrye:jandex-parent](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.2.2)
-* [io.smallrye:jandex-release](https://central.sonatype.com/artifact/io.smallrye/jandex-release/3.2.2)
-* [io.smallrye:jandex-test-data](https://central.sonatype.com/artifact/io.smallrye/jandex-test-data/3.2.2)
+* [io.smallrye:jandex](https://central.sonatype.com/artifact/io.smallrye/jandex/overview)
+* [io.smallrye:jandex-maven-plugin](https://central.sonatype.com/artifact/io.smallrye/jandex-maven-plugin/overview)
+* [io.smallrye:jandex-parent](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/overview)
+* [io.smallrye:jandex-release](https://central.sonatype.com/artifact/io.smallrye/jandex-release/overview)
+* [io.smallrye:jandex-test-data](https://central.sonatype.com/artifact/io.smallrye/jandex-test-data/overview)
 </details>
 
 rebuilding **9 releases** of io.smallrye:jandex-parent:

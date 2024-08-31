@@ -9,15 +9,15 @@ Source code: [https://github.com/sebastian-toepfer/domain-driven-desgin.git](htt
 
 <details><summary>This project defines 9 modules:</summary>
 
-* [io.github.sebastian-toepfer.ddd:common](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.ddd/common/0.7.0)
-* [io.github.sebastian-toepfer.ddd:domain-driven-desgin](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.ddd/domain-driven-desgin/0.7.0)
-* [io.github.sebastian-toepfer.ddd:media-core](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.ddd/media-core/0.7.0)
-* [io.github.sebastian-toepfer.ddd:media-json-api](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.ddd/media-json-api/0.7.0)
-* [io.github.sebastian-toepfer.ddd:media-logging](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.ddd/media-logging/0.7.0)
-* [io.github.sebastian-toepfer.ddd:media-logging-slf4j](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.ddd/media-logging-slf4j/0.7.0)
-* [io.github.sebastian-toepfer.ddd:media-message](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.ddd/media-message/0.7.0)
-* [io.github.sebastian-toepfer.ddd:media-poi-spreadsheet](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.ddd/media-poi-spreadsheet/0.7.0)
-* [io.github.sebastian-toepfer.ddd:printables-core](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.ddd/printables-core/0.7.0)
+* [io.github.sebastian-toepfer.ddd:common](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.ddd/common/overview)
+* [io.github.sebastian-toepfer.ddd:domain-driven-desgin](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.ddd/domain-driven-desgin/overview)
+* [io.github.sebastian-toepfer.ddd:media-core](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.ddd/media-core/overview)
+* [io.github.sebastian-toepfer.ddd:media-json-api](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.ddd/media-json-api/overview)
+* [io.github.sebastian-toepfer.ddd:media-logging](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.ddd/media-logging/overview)
+* [io.github.sebastian-toepfer.ddd:media-logging-slf4j](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.ddd/media-logging-slf4j/overview)
+* [io.github.sebastian-toepfer.ddd:media-message](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.ddd/media-message/overview)
+* [io.github.sebastian-toepfer.ddd:media-poi-spreadsheet](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.ddd/media-poi-spreadsheet/overview)
+* [io.github.sebastian-toepfer.ddd:printables-core](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.ddd/printables-core/overview)
 </details>
 
 rebuilding **1 releases** of io.github.sebastian-toepfer.ddd:domain-driven-desgin:

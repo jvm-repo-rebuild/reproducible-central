@@ -9,13 +9,13 @@ Source code: [https://github.com/infinispan/protostream.git](https://github.com/
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [org.infinispan.protostream:parent](https://central.sonatype.com/artifact/org.infinispan.protostream/parent/5.0.7.Final)
-* [org.infinispan.protostream:proto-schema-compatibility-maven-plugin](https://central.sonatype.com/artifact/org.infinispan.protostream/proto-schema-compatibility-maven-plugin/5.0.7.Final)
-* [org.infinispan.protostream:protostream](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream/5.0.7.Final)
-* [org.infinispan.protostream:protostream-aggregator](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/5.0.7.Final)
-* [org.infinispan.protostream:protostream-integrationtests](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-integrationtests/5.0.7.Final)
-* [org.infinispan.protostream:protostream-processor](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-processor/5.0.7.Final)
-* [org.infinispan.protostream:protostream-types](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-types/5.0.7.Final)
+* [org.infinispan.protostream:parent](https://central.sonatype.com/artifact/org.infinispan.protostream/parent/overview)
+* [org.infinispan.protostream:proto-schema-compatibility-maven-plugin](https://central.sonatype.com/artifact/org.infinispan.protostream/proto-schema-compatibility-maven-plugin/overview)
+* [org.infinispan.protostream:protostream](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream/overview)
+* [org.infinispan.protostream:protostream-aggregator](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/overview)
+* [org.infinispan.protostream:protostream-integrationtests](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-integrationtests/overview)
+* [org.infinispan.protostream:protostream-processor](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-processor/overview)
+* [org.infinispan.protostream:protostream-types](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-types/overview)
 </details>
 
 rebuilding **1 releases** of org.infinispan.protostream:protostream-aggregator:

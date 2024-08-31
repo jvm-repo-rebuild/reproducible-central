@@ -9,16 +9,16 @@ Source code: [https://github.com/PicnicSupermarket/error-prone-support.git](http
 
 <details><summary>This project defines 10 modules:</summary>
 
-* [tech.picnic.error-prone-support:documentation-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/documentation-support/0.18.0)
-* [tech.picnic.error-prone-support:error-prone-contrib](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-contrib/0.18.0)
-* [tech.picnic.error-prone-support:error-prone-experimental](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-experimental/0.18.0)
-* [tech.picnic.error-prone-support:error-prone-guidelines](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-guidelines/0.18.0)
-* [tech.picnic.error-prone-support:error-prone-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.18.0)
-* [tech.picnic.error-prone-support:error-prone-utils](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-utils/0.18.0)
-* [tech.picnic.error-prone-support:refaster-compiler](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/refaster-compiler/0.18.0)
-* [tech.picnic.error-prone-support:refaster-runner](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/refaster-runner/0.18.0)
-* [tech.picnic.error-prone-support:refaster-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/refaster-support/0.18.0)
-* [tech.picnic.error-prone-support:refaster-test-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/refaster-test-support/0.18.0)
+* [tech.picnic.error-prone-support:documentation-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/documentation-support/overview)
+* [tech.picnic.error-prone-support:error-prone-contrib](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-contrib/overview)
+* [tech.picnic.error-prone-support:error-prone-experimental](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-experimental/overview)
+* [tech.picnic.error-prone-support:error-prone-guidelines](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-guidelines/overview)
+* [tech.picnic.error-prone-support:error-prone-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/overview)
+* [tech.picnic.error-prone-support:error-prone-utils](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-utils/overview)
+* [tech.picnic.error-prone-support:refaster-compiler](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/refaster-compiler/overview)
+* [tech.picnic.error-prone-support:refaster-runner](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/refaster-runner/overview)
+* [tech.picnic.error-prone-support:refaster-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/refaster-support/overview)
+* [tech.picnic.error-prone-support:refaster-test-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/refaster-test-support/overview)
 </details>
 
 rebuilding **17 releases** of tech.picnic.error-prone-support:error-prone-support:

@@ -9,16 +9,16 @@ Source code: [https://github.com/osgi/osgi-test.git](https://github.com/osgi/osg
 
 <details><summary>This project defines 10 modules:</summary>
 
-* [org.osgi:org.osgi.test.assertj.framework](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.assertj.framework/1.3.0)
-* [org.osgi:org.osgi.test.assertj.log](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.assertj.log/1.3.0)
-* [org.osgi:org.osgi.test.assertj.promise](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.assertj.promise/1.3.0)
-* [org.osgi:org.osgi.test.bom](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.bom/1.3.0)
-* [org.osgi:org.osgi.test.common](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.common/1.3.0)
-* [org.osgi:org.osgi.test.junit4](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.junit4/1.3.0)
-* [org.osgi:org.osgi.test.junit5](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.junit5/1.3.0)
-* [org.osgi:org.osgi.test.junit5.cm](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.junit5.cm/1.3.0)
-* [org.osgi:org.osgi.test.junit5.listeners.log.osgi](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.junit5.listeners.log.osgi/1.3.0)
-* [org.osgi:org.osgi.test.parent](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.parent/1.3.0)
+* [org.osgi:org.osgi.test.assertj.framework](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.assertj.framework/overview)
+* [org.osgi:org.osgi.test.assertj.log](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.assertj.log/overview)
+* [org.osgi:org.osgi.test.assertj.promise](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.assertj.promise/overview)
+* [org.osgi:org.osgi.test.bom](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.bom/overview)
+* [org.osgi:org.osgi.test.common](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.common/overview)
+* [org.osgi:org.osgi.test.junit4](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.junit4/overview)
+* [org.osgi:org.osgi.test.junit5](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.junit5/overview)
+* [org.osgi:org.osgi.test.junit5.cm](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.junit5.cm/overview)
+* [org.osgi:org.osgi.test.junit5.listeners.log.osgi](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.junit5.listeners.log.osgi/overview)
+* [org.osgi:org.osgi.test.parent](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.parent/overview)
 </details>
 
 rebuilding **6 releases** of org.osgi:org.osgi.test.parent:

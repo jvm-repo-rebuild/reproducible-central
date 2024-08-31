@@ -9,9 +9,9 @@ Source code: [https://github.com/moditect/moditect.git](https://github.com/modit
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [org.moditect:moditect](https://central.sonatype.com/artifact/org.moditect/moditect/1.2.2.Final)
-* [org.moditect:moditect-maven-plugin](https://central.sonatype.com/artifact/org.moditect/moditect-maven-plugin/1.2.2.Final)
-* [org.moditect:moditect-parent](https://central.sonatype.com/artifact/org.moditect/moditect-parent/1.2.2.Final)
+* [org.moditect:moditect](https://central.sonatype.com/artifact/org.moditect/moditect/overview)
+* [org.moditect:moditect-maven-plugin](https://central.sonatype.com/artifact/org.moditect/moditect-maven-plugin/overview)
+* [org.moditect:moditect-parent](https://central.sonatype.com/artifact/org.moditect/moditect-parent/overview)
 </details>
 
 rebuilding **5 releases** of org.moditect:moditect:

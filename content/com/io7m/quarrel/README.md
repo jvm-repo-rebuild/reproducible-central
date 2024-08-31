@@ -9,13 +9,13 @@ Source code: [https://github.com/io7m/quarrel.git](https://github.com/io7m/quarr
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [com.io7m.quarrel:com.io7m.quarrel](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.6.1)
-* [com.io7m.quarrel:com.io7m.quarrel.core](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.core/1.6.1)
-* [com.io7m.quarrel:com.io7m.quarrel.documentation](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.documentation/1.6.1)
-* [com.io7m.quarrel:com.io7m.quarrel.example](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.example/1.6.1)
-* [com.io7m.quarrel:com.io7m.quarrel.ext.logback](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.ext.logback/1.6.1)
-* [com.io7m.quarrel:com.io7m.quarrel.ext.xstructural](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.ext.xstructural/1.6.1)
-* [com.io7m.quarrel:com.io7m.quarrel.tests](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.tests/1.6.1)
+* [com.io7m.quarrel:com.io7m.quarrel](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/overview)
+* [com.io7m.quarrel:com.io7m.quarrel.core](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.core/overview)
+* [com.io7m.quarrel:com.io7m.quarrel.documentation](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.documentation/overview)
+* [com.io7m.quarrel:com.io7m.quarrel.example](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.example/overview)
+* [com.io7m.quarrel:com.io7m.quarrel.ext.logback](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.ext.logback/overview)
+* [com.io7m.quarrel:com.io7m.quarrel.ext.xstructural](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.ext.xstructural/overview)
+* [com.io7m.quarrel:com.io7m.quarrel.tests](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.tests/overview)
 </details>
 
 rebuilding **11 releases** of com.io7m.quarrel:com.io7m.quarrel:

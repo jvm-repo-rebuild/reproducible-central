@@ -9,9 +9,9 @@ Source code: [https://github.com/mybatis/generator.git](https://github.com/mybat
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [org.mybatis.generator:mybatis-generator](https://central.sonatype.com/artifact/org.mybatis.generator/mybatis-generator/1.4.2)
-* [org.mybatis.generator:mybatis-generator-core](https://central.sonatype.com/artifact/org.mybatis.generator/mybatis-generator-core/1.4.2)
-* [org.mybatis.generator:mybatis-generator-maven-plugin](https://central.sonatype.com/artifact/org.mybatis.generator/mybatis-generator-maven-plugin/1.4.2)
+* [org.mybatis.generator:mybatis-generator](https://central.sonatype.com/artifact/org.mybatis.generator/mybatis-generator/overview)
+* [org.mybatis.generator:mybatis-generator-core](https://central.sonatype.com/artifact/org.mybatis.generator/mybatis-generator-core/overview)
+* [org.mybatis.generator:mybatis-generator-maven-plugin](https://central.sonatype.com/artifact/org.mybatis.generator/mybatis-generator-maven-plugin/overview)
 </details>
 
 rebuilding **1 releases** of org.mybatis.generator:mybatis-generator:

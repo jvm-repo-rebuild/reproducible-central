@@ -9,16 +9,16 @@ Source code: [https://github.com/nbbrd/spreadsheet4j.git](https://github.com/nbb
 
 <details><summary>This project defines 10 modules:</summary>
 
-* [com.github.nbbrd.spreadsheet4j:spreadsheet-api](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-api/2.5.9)
-* [com.github.nbbrd.spreadsheet4j:spreadsheet-bom](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-bom/2.5.9)
-* [com.github.nbbrd.spreadsheet4j:spreadsheet-fastexcel](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-fastexcel/2.5.9)
-* [com.github.nbbrd.spreadsheet4j:spreadsheet-html](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-html/2.5.9)
-* [com.github.nbbrd.spreadsheet4j:spreadsheet-od](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-od/2.5.9)
-* [com.github.nbbrd.spreadsheet4j:spreadsheet-parent](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-parent/2.5.9)
-* [com.github.nbbrd.spreadsheet4j:spreadsheet-poi](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-poi/2.5.9)
-* [com.github.nbbrd.spreadsheet4j:spreadsheet-standalone](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-standalone/2.5.9)
-* [com.github.nbbrd.spreadsheet4j:spreadsheet-xl](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-xl/2.5.9)
-* [com.github.nbbrd.spreadsheet4j:spreadsheet-xmlss](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-xmlss/2.5.9)
+* [com.github.nbbrd.spreadsheet4j:spreadsheet-api](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-api/overview)
+* [com.github.nbbrd.spreadsheet4j:spreadsheet-bom](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-bom/overview)
+* [com.github.nbbrd.spreadsheet4j:spreadsheet-fastexcel](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-fastexcel/overview)
+* [com.github.nbbrd.spreadsheet4j:spreadsheet-html](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-html/overview)
+* [com.github.nbbrd.spreadsheet4j:spreadsheet-od](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-od/overview)
+* [com.github.nbbrd.spreadsheet4j:spreadsheet-parent](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-parent/overview)
+* [com.github.nbbrd.spreadsheet4j:spreadsheet-poi](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-poi/overview)
+* [com.github.nbbrd.spreadsheet4j:spreadsheet-standalone](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-standalone/overview)
+* [com.github.nbbrd.spreadsheet4j:spreadsheet-xl](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-xl/overview)
+* [com.github.nbbrd.spreadsheet4j:spreadsheet-xmlss](https://central.sonatype.com/artifact/com.github.nbbrd.spreadsheet4j/spreadsheet-xmlss/overview)
 </details>
 
 rebuilding **2 releases** of com.github.nbbrd.spreadsheet4j:spreadsheet-parent:

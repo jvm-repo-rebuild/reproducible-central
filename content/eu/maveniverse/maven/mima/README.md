@@ -9,16 +9,16 @@ Source code: [https://github.com/maveniverse/mima.git](https://github.com/maveni
 
 <details><summary>This project defines 10 modules:</summary>
 
-* [eu.maveniverse.maven.mima.runtime:embedded-maven](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/embedded-maven/3.0.0-alpha-3)
-* [eu.maveniverse.maven.mima.runtime:runtime](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/runtime/3.0.0-alpha-3)
-* [eu.maveniverse.maven.mima.runtime:standalone-shared](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/standalone-shared/3.0.0-alpha-3)
-* [eu.maveniverse.maven.mima.runtime:standalone-sisu](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/standalone-sisu/3.0.0-alpha-3)
-* [eu.maveniverse.maven.mima.runtime:standalone-sisu-uber](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/standalone-sisu-uber/3.0.0-alpha-3)
-* [eu.maveniverse.maven.mima.runtime:standalone-static](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/standalone-static/3.0.0-alpha-3)
-* [eu.maveniverse.maven.mima.runtime:standalone-static-uber](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/standalone-static-uber/3.0.0-alpha-3)
-* [eu.maveniverse.maven.mima:cli](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/cli/3.0.0-alpha-3)
-* [eu.maveniverse.maven.mima:context](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/context/3.0.0-alpha-3)
-* [eu.maveniverse.maven.mima:mima](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/3.0.0-alpha-3)
+* [eu.maveniverse.maven.mima.runtime:embedded-maven](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/embedded-maven/overview)
+* [eu.maveniverse.maven.mima.runtime:runtime](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/runtime/overview)
+* [eu.maveniverse.maven.mima.runtime:standalone-shared](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/standalone-shared/overview)
+* [eu.maveniverse.maven.mima.runtime:standalone-sisu](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/standalone-sisu/overview)
+* [eu.maveniverse.maven.mima.runtime:standalone-sisu-uber](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/standalone-sisu-uber/overview)
+* [eu.maveniverse.maven.mima.runtime:standalone-static](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/standalone-static/overview)
+* [eu.maveniverse.maven.mima.runtime:standalone-static-uber](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/standalone-static-uber/overview)
+* [eu.maveniverse.maven.mima:cli](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/cli/overview)
+* [eu.maveniverse.maven.mima:context](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/context/overview)
+* [eu.maveniverse.maven.mima:mima](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/overview)
 </details>
 
 rebuilding **39 releases** of eu.maveniverse.maven.mima:mima:

@@ -9,14 +9,14 @@ Source code: [https://github.com/io7m/jwheatsheaf.git](https://github.com/io7m/j
 
 <details><summary>This project defines 8 modules:</summary>
 
-* [com.io7m.jwheatsheaf:com.io7m.jwheatsheaf](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf/4.0.0)
-* [com.io7m.jwheatsheaf:com.io7m.jwheatsheaf.api](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf.api/4.0.0)
-* [com.io7m.jwheatsheaf:com.io7m.jwheatsheaf.documentation](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf.documentation/4.0.0)
-* [com.io7m.jwheatsheaf:com.io7m.jwheatsheaf.examples](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf.examples/4.0.0)
-* [com.io7m.jwheatsheaf:com.io7m.jwheatsheaf.filter.glob](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf.filter.glob/4.0.0)
-* [com.io7m.jwheatsheaf:com.io7m.jwheatsheaf.oxygen](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf.oxygen/4.0.0)
-* [com.io7m.jwheatsheaf:com.io7m.jwheatsheaf.tests](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf.tests/4.0.0)
-* [com.io7m.jwheatsheaf:com.io7m.jwheatsheaf.ui](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf.ui/4.0.0)
+* [com.io7m.jwheatsheaf:com.io7m.jwheatsheaf](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf/overview)
+* [com.io7m.jwheatsheaf:com.io7m.jwheatsheaf.api](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf.api/overview)
+* [com.io7m.jwheatsheaf:com.io7m.jwheatsheaf.documentation](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf.documentation/overview)
+* [com.io7m.jwheatsheaf:com.io7m.jwheatsheaf.examples](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf.examples/overview)
+* [com.io7m.jwheatsheaf:com.io7m.jwheatsheaf.filter.glob](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf.filter.glob/overview)
+* [com.io7m.jwheatsheaf:com.io7m.jwheatsheaf.oxygen](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf.oxygen/overview)
+* [com.io7m.jwheatsheaf:com.io7m.jwheatsheaf.tests](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf.tests/overview)
+* [com.io7m.jwheatsheaf:com.io7m.jwheatsheaf.ui](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf.ui/overview)
 </details>
 
 rebuilding **5 releases** of com.io7m.jwheatsheaf:com.io7m.jwheatsheaf:

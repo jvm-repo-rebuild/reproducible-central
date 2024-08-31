@@ -9,15 +9,15 @@ Source code: [https://github.com/Convex-Dev/convex.git](https://github.com/Conve
 
 <details><summary>This project defines 9 modules:</summary>
 
-* [world.convex:convex](https://central.sonatype.com/artifact/world.convex/convex/0.7.11)
-* [world.convex:convex-benchmarks](https://central.sonatype.com/artifact/world.convex/convex-benchmarks/0.7.11)
-* [world.convex:convex-cli](https://central.sonatype.com/artifact/world.convex/convex-cli/0.7.11)
-* [world.convex:convex-core](https://central.sonatype.com/artifact/world.convex/convex-core/0.7.11)
-* [world.convex:convex-gui](https://central.sonatype.com/artifact/world.convex/convex-gui/0.7.11)
-* [world.convex:convex-java](https://central.sonatype.com/artifact/world.convex/convex-java/0.7.11)
-* [world.convex:convex-peer](https://central.sonatype.com/artifact/world.convex/convex-peer/0.7.11)
-* [world.convex:convex-restapi](https://central.sonatype.com/artifact/world.convex/convex-restapi/0.7.11)
-* [world.convex:convex-sodium](https://central.sonatype.com/artifact/world.convex/convex-sodium/0.7.11)
+* [world.convex:convex](https://central.sonatype.com/artifact/world.convex/convex/overview)
+* [world.convex:convex-benchmarks](https://central.sonatype.com/artifact/world.convex/convex-benchmarks/overview)
+* [world.convex:convex-cli](https://central.sonatype.com/artifact/world.convex/convex-cli/overview)
+* [world.convex:convex-core](https://central.sonatype.com/artifact/world.convex/convex-core/overview)
+* [world.convex:convex-gui](https://central.sonatype.com/artifact/world.convex/convex-gui/overview)
+* [world.convex:convex-java](https://central.sonatype.com/artifact/world.convex/convex-java/overview)
+* [world.convex:convex-peer](https://central.sonatype.com/artifact/world.convex/convex-peer/overview)
+* [world.convex:convex-restapi](https://central.sonatype.com/artifact/world.convex/convex-restapi/overview)
+* [world.convex:convex-sodium](https://central.sonatype.com/artifact/world.convex/convex-sodium/overview)
 </details>
 
 rebuilding **7 releases** of world.convex:convex:

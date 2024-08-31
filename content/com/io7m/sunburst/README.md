@@ -9,21 +9,21 @@ Source code: [https://github.com/io7m/sunburst.git](https://github.com/io7m/sunb
 
 <details><summary>This project defines 15 modules:</summary>
 
-* [com.io7m.sunburst:com.io7m.sunburst](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst/0.0.7)
-* [com.io7m.sunburst:com.io7m.sunburst.codegen](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.codegen/0.0.7)
-* [com.io7m.sunburst:com.io7m.sunburst.documentation](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.documentation/0.0.7)
-* [com.io7m.sunburst:com.io7m.sunburst.error_codes](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.error_codes/0.0.7)
-* [com.io7m.sunburst:com.io7m.sunburst.inventory](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.inventory/0.0.7)
-* [com.io7m.sunburst:com.io7m.sunburst.inventory.api](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.inventory.api/0.0.7)
-* [com.io7m.sunburst:com.io7m.sunburst.maven.plugin](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.maven.plugin/0.0.7)
-* [com.io7m.sunburst:com.io7m.sunburst.model](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.model/0.0.7)
-* [com.io7m.sunburst:com.io7m.sunburst.pkggen](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.pkggen/0.0.7)
-* [com.io7m.sunburst:com.io7m.sunburst.runtime](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.runtime/0.0.7)
-* [com.io7m.sunburst:com.io7m.sunburst.runtime.spi](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.runtime.spi/0.0.7)
-* [com.io7m.sunburst:com.io7m.sunburst.tests](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.tests/0.0.7)
-* [com.io7m.sunburst:com.io7m.sunburst.tests.maven.plugin](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.tests.maven.plugin/0.0.7)
-* [com.io7m.sunburst:com.io7m.sunburst.xml.packages](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.xml.packages/0.0.7)
-* [com.io7m.sunburst:com.io7m.sunburst.xml.peers](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.xml.peers/0.0.7)
+* [com.io7m.sunburst:com.io7m.sunburst](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst/overview)
+* [com.io7m.sunburst:com.io7m.sunburst.codegen](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.codegen/overview)
+* [com.io7m.sunburst:com.io7m.sunburst.documentation](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.documentation/overview)
+* [com.io7m.sunburst:com.io7m.sunburst.error_codes](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.error_codes/overview)
+* [com.io7m.sunburst:com.io7m.sunburst.inventory](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.inventory/overview)
+* [com.io7m.sunburst:com.io7m.sunburst.inventory.api](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.inventory.api/overview)
+* [com.io7m.sunburst:com.io7m.sunburst.maven.plugin](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.maven.plugin/overview)
+* [com.io7m.sunburst:com.io7m.sunburst.model](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.model/overview)
+* [com.io7m.sunburst:com.io7m.sunburst.pkggen](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.pkggen/overview)
+* [com.io7m.sunburst:com.io7m.sunburst.runtime](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.runtime/overview)
+* [com.io7m.sunburst:com.io7m.sunburst.runtime.spi](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.runtime.spi/overview)
+* [com.io7m.sunburst:com.io7m.sunburst.tests](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.tests/overview)
+* [com.io7m.sunburst:com.io7m.sunburst.tests.maven.plugin](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.tests.maven.plugin/overview)
+* [com.io7m.sunburst:com.io7m.sunburst.xml.packages](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.xml.packages/overview)
+* [com.io7m.sunburst:com.io7m.sunburst.xml.peers](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst.xml.peers/overview)
 </details>
 
 rebuilding **2 releases** of com.io7m.sunburst:com.io7m.sunburst:

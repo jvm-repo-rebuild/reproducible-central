@@ -9,8 +9,8 @@ Source code: [https://github.com/jpmml/jpmml-xgboost.git](https://github.com/jpm
 
 <details><summary>This project defines 2 modules:</summary>
 
-* [org.jpmml:jpmml-xgboost](https://central.sonatype.com/artifact/org.jpmml/jpmml-xgboost/1.8.7)
-* [org.jpmml:pmml-xgboost](https://central.sonatype.com/artifact/org.jpmml/pmml-xgboost/1.8.7)
+* [org.jpmml:jpmml-xgboost](https://central.sonatype.com/artifact/org.jpmml/jpmml-xgboost/overview)
+* [org.jpmml:pmml-xgboost](https://central.sonatype.com/artifact/org.jpmml/pmml-xgboost/overview)
 </details>
 
 rebuilding **4 releases** of org.jpmml:jpmml-xgboost:

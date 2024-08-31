@@ -9,11 +9,11 @@ Source code: [https://github.com/jskov/openapi-jaxrs-client.git](https://github.
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [dk.mada.jaxrs:generator-api](https://central.sonatype.com/artifact/dk.mada.jaxrs/generator-api/0.11.5)
-* [dk.mada.jaxrs:model](https://central.sonatype.com/artifact/dk.mada.jaxrs/model/0.11.5)
-* [dk.mada.jaxrs:openapi-jaxrs-bom](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-bom/0.11.5)
-* [dk.mada.jaxrs:openapi-jaxrs-client](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-client/0.11.5)
-* [dk.mada.jaxrs:parser](https://central.sonatype.com/artifact/dk.mada.jaxrs/parser/0.11.5)
+* [dk.mada.jaxrs:generator-api](https://central.sonatype.com/artifact/dk.mada.jaxrs/generator-api/overview)
+* [dk.mada.jaxrs:model](https://central.sonatype.com/artifact/dk.mada.jaxrs/model/overview)
+* [dk.mada.jaxrs:openapi-jaxrs-bom](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-bom/overview)
+* [dk.mada.jaxrs:openapi-jaxrs-client](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-client/overview)
+* [dk.mada.jaxrs:parser](https://central.sonatype.com/artifact/dk.mada.jaxrs/parser/overview)
 </details>
 
 rebuilding **4 releases** of dk.mada.jaxrs:openapi-jaxrs-client:

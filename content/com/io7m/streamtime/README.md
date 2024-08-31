@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/streamtime.git](https://github.com/io7m/st
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.streamtime:com.io7m.streamtime](https://central.sonatype.com/artifact/com.io7m.streamtime/com.io7m.streamtime/1.0.0)
-* [com.io7m.streamtime:com.io7m.streamtime.core](https://central.sonatype.com/artifact/com.io7m.streamtime/com.io7m.streamtime.core/1.0.0)
-* [com.io7m.streamtime:com.io7m.streamtime.tests](https://central.sonatype.com/artifact/com.io7m.streamtime/com.io7m.streamtime.tests/1.0.0)
+* [com.io7m.streamtime:com.io7m.streamtime](https://central.sonatype.com/artifact/com.io7m.streamtime/com.io7m.streamtime/overview)
+* [com.io7m.streamtime:com.io7m.streamtime.core](https://central.sonatype.com/artifact/com.io7m.streamtime/com.io7m.streamtime.core/overview)
+* [com.io7m.streamtime:com.io7m.streamtime.tests](https://central.sonatype.com/artifact/com.io7m.streamtime/com.io7m.streamtime.tests/overview)
 </details>
 
 rebuilding **2 releases** of com.io7m.streamtime:com.io7m.streamtime:

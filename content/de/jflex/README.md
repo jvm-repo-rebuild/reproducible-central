@@ -9,9 +9,9 @@ Source code: [https://github.com/jflex-de/jflex.git](https://github.com/jflex-de
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [de.jflex:jflex](https://central.sonatype.com/artifact/de.jflex/jflex/1.9.1)
-* [de.jflex:jflex-maven-plugin](https://central.sonatype.com/artifact/de.jflex/jflex-maven-plugin/1.9.1)
-* [de.jflex:jflex-parent](https://central.sonatype.com/artifact/de.jflex/jflex-parent/1.9.1)
+* [de.jflex:jflex](https://central.sonatype.com/artifact/de.jflex/jflex/overview)
+* [de.jflex:jflex-maven-plugin](https://central.sonatype.com/artifact/de.jflex/jflex-maven-plugin/overview)
+* [de.jflex:jflex-parent](https://central.sonatype.com/artifact/de.jflex/jflex-parent/overview)
 </details>
 
 rebuilding **1 releases** of de.jflex:jflex-parent:

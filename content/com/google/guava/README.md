@@ -9,11 +9,11 @@ Source code: [https://github.com/google/guava.git](https://github.com/google/gua
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [com.google.guava:guava](https://central.sonatype.com/artifact/com.google.guava/guava/32.0.1-jre)
-* [com.google.guava:guava-bom](https://central.sonatype.com/artifact/com.google.guava/guava-bom/32.0.1-jre)
-* [com.google.guava:guava-gwt](https://central.sonatype.com/artifact/com.google.guava/guava-gwt/32.0.1-jre)
-* [com.google.guava:guava-parent](https://central.sonatype.com/artifact/com.google.guava/guava-parent/32.0.1-jre)
-* [com.google.guava:guava-testlib](https://central.sonatype.com/artifact/com.google.guava/guava-testlib/32.0.1-jre)
+* [com.google.guava:guava](https://central.sonatype.com/artifact/com.google.guava/guava/overview)
+* [com.google.guava:guava-bom](https://central.sonatype.com/artifact/com.google.guava/guava-bom/overview)
+* [com.google.guava:guava-gwt](https://central.sonatype.com/artifact/com.google.guava/guava-gwt/overview)
+* [com.google.guava:guava-parent](https://central.sonatype.com/artifact/com.google.guava/guava-parent/overview)
+* [com.google.guava:guava-testlib](https://central.sonatype.com/artifact/com.google.guava/guava-testlib/overview)
 </details>
 
 rebuilding **4 releases** of com.google.guava:guava:

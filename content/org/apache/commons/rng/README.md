@@ -9,11 +9,11 @@ Source code: [https://github.com/apache/commons-rng.git](https://github.com/apac
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [org.apache.commons:commons-rng-client-api](https://central.sonatype.com/artifact/org.apache.commons/commons-rng-client-api/1.6)
-* [org.apache.commons:commons-rng-core](https://central.sonatype.com/artifact/org.apache.commons/commons-rng-core/1.6)
-* [org.apache.commons:commons-rng-parent](https://central.sonatype.com/artifact/org.apache.commons/commons-rng-parent/1.6)
-* [org.apache.commons:commons-rng-sampling](https://central.sonatype.com/artifact/org.apache.commons/commons-rng-sampling/1.6)
-* [org.apache.commons:commons-rng-simple](https://central.sonatype.com/artifact/org.apache.commons/commons-rng-simple/1.6)
+* [org.apache.commons:commons-rng-client-api](https://central.sonatype.com/artifact/org.apache.commons/commons-rng-client-api/overview)
+* [org.apache.commons:commons-rng-core](https://central.sonatype.com/artifact/org.apache.commons/commons-rng-core/overview)
+* [org.apache.commons:commons-rng-parent](https://central.sonatype.com/artifact/org.apache.commons/commons-rng-parent/overview)
+* [org.apache.commons:commons-rng-sampling](https://central.sonatype.com/artifact/org.apache.commons/commons-rng-sampling/overview)
+* [org.apache.commons:commons-rng-simple](https://central.sonatype.com/artifact/org.apache.commons/commons-rng-simple/overview)
 </details>
 
 rebuilding **2 releases** of org.apache.commons:commons-rng-parent:

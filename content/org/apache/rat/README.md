@@ -9,12 +9,12 @@ Source code: [https://github.com/apache/creadur-rat.git](https://github.com/apac
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [org.apache.rat:apache-rat](https://central.sonatype.com/artifact/org.apache.rat/apache-rat/0.16.1)
-* [org.apache.rat:apache-rat-api](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-api/0.16.1)
-* [org.apache.rat:apache-rat-core](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-core/0.16.1)
-* [org.apache.rat:apache-rat-plugin](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-plugin/0.16.1)
-* [org.apache.rat:apache-rat-project](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/0.16.1)
-* [org.apache.rat:apache-rat-tasks](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-tasks/0.16.1)
+* [org.apache.rat:apache-rat](https://central.sonatype.com/artifact/org.apache.rat/apache-rat/overview)
+* [org.apache.rat:apache-rat-api](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-api/overview)
+* [org.apache.rat:apache-rat-core](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-core/overview)
+* [org.apache.rat:apache-rat-plugin](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-plugin/overview)
+* [org.apache.rat:apache-rat-project](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/overview)
+* [org.apache.rat:apache-rat-tasks](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-tasks/overview)
 </details>
 
 rebuilding **4 releases** of org.apache.rat:apache-rat-project:

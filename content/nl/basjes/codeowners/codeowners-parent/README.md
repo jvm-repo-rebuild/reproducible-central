@@ -9,10 +9,10 @@ Source code: [https://github.com/nielsbasjes/codeowners.git](https://github.com/
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [nl.basjes.codeowners:codeowners-parent](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.6.0)
-* [nl.basjes.codeowners:codeowners-reader](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-reader/1.6.0)
-* [nl.basjes.gitignore:gitignore-reader](https://central.sonatype.com/artifact/nl.basjes.gitignore/gitignore-reader/1.6.0)
-* [nl.basjes.maven.enforcer.codeowners:codeowners-enforcer-rules](https://central.sonatype.com/artifact/nl.basjes.maven.enforcer.codeowners/codeowners-enforcer-rules/1.6.0)
+* [nl.basjes.codeowners:codeowners-parent](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/overview)
+* [nl.basjes.codeowners:codeowners-reader](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-reader/overview)
+* [nl.basjes.gitignore:gitignore-reader](https://central.sonatype.com/artifact/nl.basjes.gitignore/gitignore-reader/overview)
+* [nl.basjes.maven.enforcer.codeowners:codeowners-enforcer-rules](https://central.sonatype.com/artifact/nl.basjes.maven.enforcer.codeowners/codeowners-enforcer-rules/overview)
 </details>
 
 rebuilding **17 releases** of nl.basjes.codeowners:codeowners-parent:

@@ -9,12 +9,12 @@ Source code: [https://github.com/MariaDB4j/MariaDB4j.git](https://github.com/Mar
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [ch.vorburger.mariaDB4j:mariaDB4j](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j/3.1.0)
-* [ch.vorburger.mariaDB4j:mariaDB4j-app](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j-app/3.1.0)
-* [ch.vorburger.mariaDB4j:mariaDB4j-core](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j-core/3.1.0)
-* [ch.vorburger.mariaDB4j:mariaDB4j-maven-plugin](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j-maven-plugin/3.1.0)
-* [ch.vorburger.mariaDB4j:mariaDB4j-pom](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j-pom/3.1.0)
-* [ch.vorburger.mariaDB4j:mariaDB4j-springboot](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j-springboot/3.1.0)
+* [ch.vorburger.mariaDB4j:mariaDB4j](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j/overview)
+* [ch.vorburger.mariaDB4j:mariaDB4j-app](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j-app/overview)
+* [ch.vorburger.mariaDB4j:mariaDB4j-core](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j-core/overview)
+* [ch.vorburger.mariaDB4j:mariaDB4j-maven-plugin](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j-maven-plugin/overview)
+* [ch.vorburger.mariaDB4j:mariaDB4j-pom](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j-pom/overview)
+* [ch.vorburger.mariaDB4j:mariaDB4j-springboot](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j-springboot/overview)
 </details>
 
 rebuilding **1 releases** of ch.vorburger.mariaDB4j:mariaDB4j:

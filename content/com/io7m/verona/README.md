@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/verona.git](https://github.com/io7m/verona
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.verona:com.io7m.verona](https://central.sonatype.com/artifact/com.io7m.verona/com.io7m.verona/1.0.1)
-* [com.io7m.verona:com.io7m.verona.core](https://central.sonatype.com/artifact/com.io7m.verona/com.io7m.verona.core/1.0.1)
-* [com.io7m.verona:com.io7m.verona.tests](https://central.sonatype.com/artifact/com.io7m.verona/com.io7m.verona.tests/1.0.1)
+* [com.io7m.verona:com.io7m.verona](https://central.sonatype.com/artifact/com.io7m.verona/com.io7m.verona/overview)
+* [com.io7m.verona:com.io7m.verona.core](https://central.sonatype.com/artifact/com.io7m.verona/com.io7m.verona.core/overview)
+* [com.io7m.verona:com.io7m.verona.tests](https://central.sonatype.com/artifact/com.io7m.verona/com.io7m.verona.tests/overview)
 </details>
 
 rebuilding **5 releases** of com.io7m.verona:com.io7m.verona:

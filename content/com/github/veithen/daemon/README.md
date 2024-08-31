@@ -9,12 +9,12 @@ Source code: [https://github.com/veithen/daemon.git](https://github.com/veithen/
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [com.github.veithen.daemon:daemon](https://central.sonatype.com/artifact/com.github.veithen.daemon/daemon/0.6.2)
-* [com.github.veithen.daemon:daemon-api](https://central.sonatype.com/artifact/com.github.veithen.daemon/daemon-api/0.6.2)
-* [com.github.veithen.daemon:daemon-launcher](https://central.sonatype.com/artifact/com.github.veithen.daemon/daemon-launcher/0.6.2)
-* [com.github.veithen.daemon:daemon-launcher-protocol](https://central.sonatype.com/artifact/com.github.veithen.daemon/daemon-launcher-protocol/0.6.2)
-* [com.github.veithen.daemon:daemon-maven-plugin](https://central.sonatype.com/artifact/com.github.veithen.daemon/daemon-maven-plugin/0.6.2)
-* [com.github.veithen.daemon:jetty-daemon](https://central.sonatype.com/artifact/com.github.veithen.daemon/jetty-daemon/0.6.2)
+* [com.github.veithen.daemon:daemon](https://central.sonatype.com/artifact/com.github.veithen.daemon/daemon/overview)
+* [com.github.veithen.daemon:daemon-api](https://central.sonatype.com/artifact/com.github.veithen.daemon/daemon-api/overview)
+* [com.github.veithen.daemon:daemon-launcher](https://central.sonatype.com/artifact/com.github.veithen.daemon/daemon-launcher/overview)
+* [com.github.veithen.daemon:daemon-launcher-protocol](https://central.sonatype.com/artifact/com.github.veithen.daemon/daemon-launcher-protocol/overview)
+* [com.github.veithen.daemon:daemon-maven-plugin](https://central.sonatype.com/artifact/com.github.veithen.daemon/daemon-maven-plugin/overview)
+* [com.github.veithen.daemon:jetty-daemon](https://central.sonatype.com/artifact/com.github.veithen.daemon/jetty-daemon/overview)
 </details>
 
 rebuilding **8 releases** of com.github.veithen.daemon:daemon:

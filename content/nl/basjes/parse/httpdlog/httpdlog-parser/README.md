@@ -9,12 +9,12 @@ Source code: [https://github.com/nielsbasjes/logparser](https://github.com/niels
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [nl.basjes.parse.httpdlog:httpdlog](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog/5.11.0)
-* [nl.basjes.parse.httpdlog:httpdlog-inputformat](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-inputformat/5.11.0)
-* [nl.basjes.parse.httpdlog:httpdlog-parser](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-parser/5.11.0)
-* [nl.basjes.parse.httpdlog:httpdlog-serde](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-serde/5.11.0)
-* [nl.basjes.parse:parser-core](https://central.sonatype.com/artifact/nl.basjes.parse/parser-core/5.11.0)
-* [nl.basjes.parse:parser-parent](https://central.sonatype.com/artifact/nl.basjes.parse/parser-parent/5.11.0)
+* [nl.basjes.parse.httpdlog:httpdlog](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog/overview)
+* [nl.basjes.parse.httpdlog:httpdlog-inputformat](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-inputformat/overview)
+* [nl.basjes.parse.httpdlog:httpdlog-parser](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-parser/overview)
+* [nl.basjes.parse.httpdlog:httpdlog-serde](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-serde/overview)
+* [nl.basjes.parse:parser-core](https://central.sonatype.com/artifact/nl.basjes.parse/parser-core/overview)
+* [nl.basjes.parse:parser-parent](https://central.sonatype.com/artifact/nl.basjes.parse/parser-parent/overview)
 </details>
 
 rebuilding **3 releases** of nl.basjes.parse.httpdlog:httpdlog-parser:

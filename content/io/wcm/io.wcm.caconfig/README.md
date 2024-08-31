@@ -9,9 +9,9 @@ Source code: [https://github.com/wcm-io/wcm-io-caconfig.git](https://github.com/
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [io.wcm:io.wcm.caconfig.editor](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor/1.8.0)
-* [io.wcm:io.wcm.caconfig.editor.package](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.package/1.8.0)
-* [io.wcm:io.wcm.caconfig.editor.parent](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.parent/1.8.0)
+* [io.wcm:io.wcm.caconfig.editor](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor/overview)
+* [io.wcm:io.wcm.caconfig.editor.package](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.package/overview)
+* [io.wcm:io.wcm.caconfig.editor.parent](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.parent/overview)
 </details>
 
 rebuilding **4 releases** of io.wcm:io.wcm.caconfig.editor.parent:

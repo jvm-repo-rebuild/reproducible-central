@@ -9,10 +9,10 @@ Source code: [https://github.com/veithen/checkt.git](https://github.com/veithen/
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.github.veithen.checkt:checkt](https://central.sonatype.com/artifact/com.github.veithen.checkt/checkt/0.1.0)
-* [com.github.veithen.checkt:checkt-annotation-processor](https://central.sonatype.com/artifact/com.github.veithen.checkt/checkt-annotation-processor/0.1.0)
-* [com.github.veithen.checkt:checkt-annotations](https://central.sonatype.com/artifact/com.github.veithen.checkt/checkt-annotations/0.1.0)
-* [com.github.veithen.checkt:test](https://central.sonatype.com/artifact/com.github.veithen.checkt/test/0.1.0)
+* [com.github.veithen.checkt:checkt](https://central.sonatype.com/artifact/com.github.veithen.checkt/checkt/overview)
+* [com.github.veithen.checkt:checkt-annotation-processor](https://central.sonatype.com/artifact/com.github.veithen.checkt/checkt-annotation-processor/overview)
+* [com.github.veithen.checkt:checkt-annotations](https://central.sonatype.com/artifact/com.github.veithen.checkt/checkt-annotations/overview)
+* [com.github.veithen.checkt:test](https://central.sonatype.com/artifact/com.github.veithen.checkt/test/overview)
 </details>
 
 rebuilding **1 releases** of com.github.veithen.checkt:checkt:

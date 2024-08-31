@@ -9,11 +9,11 @@ Source code: [https://github.com/io7m/jproperties.git](https://github.com/io7m/j
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [com.io7m.jproperties:com.io7m.jproperties](https://central.sonatype.com/artifact/com.io7m.jproperties/com.io7m.jproperties/4.0.0)
-* [com.io7m.jproperties:com.io7m.jproperties.core](https://central.sonatype.com/artifact/com.io7m.jproperties/com.io7m.jproperties.core/4.0.0)
-* [com.io7m.jproperties:com.io7m.jproperties.documentation](https://central.sonatype.com/artifact/com.io7m.jproperties/com.io7m.jproperties.documentation/4.0.0)
-* [com.io7m.jproperties:com.io7m.jproperties.monad](https://central.sonatype.com/artifact/com.io7m.jproperties/com.io7m.jproperties.monad/4.0.0)
-* [com.io7m.jproperties:com.io7m.jproperties.tests](https://central.sonatype.com/artifact/com.io7m.jproperties/com.io7m.jproperties.tests/4.0.0)
+* [com.io7m.jproperties:com.io7m.jproperties](https://central.sonatype.com/artifact/com.io7m.jproperties/com.io7m.jproperties/overview)
+* [com.io7m.jproperties:com.io7m.jproperties.core](https://central.sonatype.com/artifact/com.io7m.jproperties/com.io7m.jproperties.core/overview)
+* [com.io7m.jproperties:com.io7m.jproperties.documentation](https://central.sonatype.com/artifact/com.io7m.jproperties/com.io7m.jproperties.documentation/overview)
+* [com.io7m.jproperties:com.io7m.jproperties.monad](https://central.sonatype.com/artifact/com.io7m.jproperties/com.io7m.jproperties.monad/overview)
+* [com.io7m.jproperties:com.io7m.jproperties.tests](https://central.sonatype.com/artifact/com.io7m.jproperties/com.io7m.jproperties.tests/overview)
 </details>
 
 rebuilding **4 releases** of com.io7m.jproperties:com.io7m.jproperties:

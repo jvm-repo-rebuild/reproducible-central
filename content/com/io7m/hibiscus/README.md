@@ -9,11 +9,11 @@ Source code: [https://github.com/io7m/hibiscus.git](https://github.com/io7m/hibi
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [com.io7m.hibiscus:com.io7m.hibiscus](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus/1.0.0)
-* [com.io7m.hibiscus:com.io7m.hibiscus.api](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus.api/1.0.0)
-* [com.io7m.hibiscus:com.io7m.hibiscus.basic](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus.basic/1.0.0)
-* [com.io7m.hibiscus:com.io7m.hibiscus.examples](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus.examples/1.0.0)
-* [com.io7m.hibiscus:com.io7m.hibiscus.tests](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus.tests/1.0.0)
+* [com.io7m.hibiscus:com.io7m.hibiscus](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus/overview)
+* [com.io7m.hibiscus:com.io7m.hibiscus.api](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus.api/overview)
+* [com.io7m.hibiscus:com.io7m.hibiscus.basic](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus.basic/overview)
+* [com.io7m.hibiscus:com.io7m.hibiscus.examples](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus.examples/overview)
+* [com.io7m.hibiscus:com.io7m.hibiscus.tests](https://central.sonatype.com/artifact/com.io7m.hibiscus/com.io7m.hibiscus.tests/overview)
 </details>
 
 rebuilding **10 releases** of com.io7m.hibiscus:com.io7m.hibiscus:

@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/kabstand.git](https://github.com/io7m/kabs
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.kabstand:com.io7m.kabstand](https://central.sonatype.com/artifact/com.io7m.kabstand/com.io7m.kabstand/1.1.0)
-* [com.io7m.kabstand:com.io7m.kabstand.core](https://central.sonatype.com/artifact/com.io7m.kabstand/com.io7m.kabstand.core/1.1.0)
-* [com.io7m.kabstand:com.io7m.kabstand.generation](https://central.sonatype.com/artifact/com.io7m.kabstand/com.io7m.kabstand.generation/1.1.0)
-* [com.io7m.kabstand:com.io7m.kabstand.tests](https://central.sonatype.com/artifact/com.io7m.kabstand/com.io7m.kabstand.tests/1.1.0)
+* [com.io7m.kabstand:com.io7m.kabstand](https://central.sonatype.com/artifact/com.io7m.kabstand/com.io7m.kabstand/overview)
+* [com.io7m.kabstand:com.io7m.kabstand.core](https://central.sonatype.com/artifact/com.io7m.kabstand/com.io7m.kabstand.core/overview)
+* [com.io7m.kabstand:com.io7m.kabstand.generation](https://central.sonatype.com/artifact/com.io7m.kabstand/com.io7m.kabstand.generation/overview)
+* [com.io7m.kabstand:com.io7m.kabstand.tests](https://central.sonatype.com/artifact/com.io7m.kabstand/com.io7m.kabstand.tests/overview)
 </details>
 
 rebuilding **3 releases** of com.io7m.kabstand:com.io7m.kabstand:

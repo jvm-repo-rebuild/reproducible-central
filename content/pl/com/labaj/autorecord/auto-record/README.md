@@ -9,18 +9,18 @@ Source code: [https://github.com/pawellabaj/auto-record.git](https://github.com/
 
 <details><summary>This project defines 12 modules:</summary>
 
-* [pl.com.labaj.autorecord:arice-api](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/arice-api/3.1.2)
-* [pl.com.labaj.autorecord:arice-extension](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/arice-extension/3.1.2)
-* [pl.com.labaj.autorecord:arice-project](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/arice-project/3.1.2)
-* [pl.com.labaj.autorecord:arice-tests](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/arice-tests/3.1.2)
-* [pl.com.labaj.autorecord:arice-utils](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/arice-utils/3.1.2)
-* [pl.com.labaj.autorecord:auto-record](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/auto-record/3.1.2)
-* [pl.com.labaj.autorecord:auto-record-api](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/auto-record-api/3.1.2)
-* [pl.com.labaj.autorecord:auto-record-project](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/auto-record-project/3.1.2)
-* [pl.com.labaj.autorecord:auto-record-tests](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/auto-record-tests/3.1.2)
-* [pl.com.labaj.autorecord:auto-record-utils](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/auto-record-utils/3.1.2)
-* [pl.com.labaj.autorecord:doc-examples](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/doc-examples/3.1.2)
-* [pl.com.labaj.autorecord:mvn-aggregation](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/mvn-aggregation/3.1.2)
+* [pl.com.labaj.autorecord:arice-api](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/arice-api/overview)
+* [pl.com.labaj.autorecord:arice-extension](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/arice-extension/overview)
+* [pl.com.labaj.autorecord:arice-project](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/arice-project/overview)
+* [pl.com.labaj.autorecord:arice-tests](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/arice-tests/overview)
+* [pl.com.labaj.autorecord:arice-utils](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/arice-utils/overview)
+* [pl.com.labaj.autorecord:auto-record](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/auto-record/overview)
+* [pl.com.labaj.autorecord:auto-record-api](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/auto-record-api/overview)
+* [pl.com.labaj.autorecord:auto-record-project](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/auto-record-project/overview)
+* [pl.com.labaj.autorecord:auto-record-tests](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/auto-record-tests/overview)
+* [pl.com.labaj.autorecord:auto-record-utils](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/auto-record-utils/overview)
+* [pl.com.labaj.autorecord:doc-examples](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/doc-examples/overview)
+* [pl.com.labaj.autorecord:mvn-aggregation](https://central.sonatype.com/artifact/pl.com.labaj.autorecord/mvn-aggregation/overview)
 </details>
 
 rebuilding **4 releases** of pl.com.labaj.autorecord:auto-record:

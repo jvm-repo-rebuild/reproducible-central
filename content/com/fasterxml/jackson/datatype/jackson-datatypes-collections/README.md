@@ -9,11 +9,11 @@ Source code: [https://github.com/FasterXML/jackson-datatypes-collections.git](ht
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-eclipse-collections/2.17.2)
-* [com.fasterxml.jackson.datatype:jackson-datatype-guava](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-guava/2.17.2)
-* [com.fasterxml.jackson.datatype:jackson-datatype-hppc](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-hppc/2.17.2)
-* [com.fasterxml.jackson.datatype:jackson-datatype-pcollections](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-pcollections/2.17.2)
-* [com.fasterxml.jackson.datatype:jackson-datatypes-collections](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/2.17.2)
+* [com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-eclipse-collections/overview)
+* [com.fasterxml.jackson.datatype:jackson-datatype-guava](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-guava/overview)
+* [com.fasterxml.jackson.datatype:jackson-datatype-hppc](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-hppc/overview)
+* [com.fasterxml.jackson.datatype:jackson-datatype-pcollections](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-pcollections/overview)
+* [com.fasterxml.jackson.datatype:jackson-datatypes-collections](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/overview)
 </details>
 
 rebuilding **6 releases** of com.fasterxml.jackson.datatype:jackson-datatypes-collections:

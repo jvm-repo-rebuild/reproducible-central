@@ -9,21 +9,21 @@ Source code: [https://github.com/apache/royale-compiler.git](https://github.com/
 
 <details><summary>This project defines 15 modules:</summary>
 
-* [org.apache.royale.compiler:compiler](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler/0.9.10)
-* [org.apache.royale.compiler:compiler-common](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler-common/0.9.10)
-* [org.apache.royale.compiler:compiler-externc](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler-externc/0.9.10)
-* [org.apache.royale.compiler:compiler-jx](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler-jx/0.9.10)
-* [org.apache.royale.compiler:compiler-playerglobalc](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler-playerglobalc/0.9.10)
-* [org.apache.royale.compiler:compiler-test-utils](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler-test-utils/0.9.10)
-* [org.apache.royale.compiler:debugger](https://central.sonatype.com/artifact/org.apache.royale.compiler/debugger/0.9.10)
-* [org.apache.royale.compiler:flex-compiler-oem](https://central.sonatype.com/artifact/org.apache.royale.compiler/flex-compiler-oem/0.9.10)
-* [org.apache.royale.compiler:formatter](https://central.sonatype.com/artifact/org.apache.royale.compiler/formatter/0.9.10)
-* [org.apache.royale.compiler:linter](https://central.sonatype.com/artifact/org.apache.royale.compiler/linter/0.9.10)
-* [org.apache.royale.compiler:royale-ant-tasks](https://central.sonatype.com/artifact/org.apache.royale.compiler/royale-ant-tasks/0.9.10)
-* [org.apache.royale.compiler:royale-compiler-parent](https://central.sonatype.com/artifact/org.apache.royale.compiler/royale-compiler-parent/0.9.10)
-* [org.apache.royale.compiler:royale-maven-plugin](https://central.sonatype.com/artifact/org.apache.royale.compiler/royale-maven-plugin/0.9.10)
-* [org.apache.royale.compiler:royaleunit-ant-tasks](https://central.sonatype.com/artifact/org.apache.royale.compiler/royaleunit-ant-tasks/0.9.10)
-* [org.apache.royale.compiler:swfutils](https://central.sonatype.com/artifact/org.apache.royale.compiler/swfutils/0.9.10)
+* [org.apache.royale.compiler:compiler](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler/overview)
+* [org.apache.royale.compiler:compiler-common](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler-common/overview)
+* [org.apache.royale.compiler:compiler-externc](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler-externc/overview)
+* [org.apache.royale.compiler:compiler-jx](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler-jx/overview)
+* [org.apache.royale.compiler:compiler-playerglobalc](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler-playerglobalc/overview)
+* [org.apache.royale.compiler:compiler-test-utils](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler-test-utils/overview)
+* [org.apache.royale.compiler:debugger](https://central.sonatype.com/artifact/org.apache.royale.compiler/debugger/overview)
+* [org.apache.royale.compiler:flex-compiler-oem](https://central.sonatype.com/artifact/org.apache.royale.compiler/flex-compiler-oem/overview)
+* [org.apache.royale.compiler:formatter](https://central.sonatype.com/artifact/org.apache.royale.compiler/formatter/overview)
+* [org.apache.royale.compiler:linter](https://central.sonatype.com/artifact/org.apache.royale.compiler/linter/overview)
+* [org.apache.royale.compiler:royale-ant-tasks](https://central.sonatype.com/artifact/org.apache.royale.compiler/royale-ant-tasks/overview)
+* [org.apache.royale.compiler:royale-compiler-parent](https://central.sonatype.com/artifact/org.apache.royale.compiler/royale-compiler-parent/overview)
+* [org.apache.royale.compiler:royale-maven-plugin](https://central.sonatype.com/artifact/org.apache.royale.compiler/royale-maven-plugin/overview)
+* [org.apache.royale.compiler:royaleunit-ant-tasks](https://central.sonatype.com/artifact/org.apache.royale.compiler/royaleunit-ant-tasks/overview)
+* [org.apache.royale.compiler:swfutils](https://central.sonatype.com/artifact/org.apache.royale.compiler/swfutils/overview)
 </details>
 
 rebuilding **2 releases** of org.apache.royale.compiler:compiler:

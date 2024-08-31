@@ -9,11 +9,11 @@ Source code: [https://github.com/io7m/trasco.git](https://github.com/io7m/trasco
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [com.io7m.trasco:com.io7m.trasco](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/2.0.0)
-* [com.io7m.trasco:com.io7m.trasco.api](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco.api/2.0.0)
-* [com.io7m.trasco:com.io7m.trasco.tests](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco.tests/2.0.0)
-* [com.io7m.trasco:com.io7m.trasco.vanilla](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco.vanilla/2.0.0)
-* [com.io7m.trasco:com.io7m.trasco.xml.schemas](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco.xml.schemas/2.0.0)
+* [com.io7m.trasco:com.io7m.trasco](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/overview)
+* [com.io7m.trasco:com.io7m.trasco.api](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco.api/overview)
+* [com.io7m.trasco:com.io7m.trasco.tests](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco.tests/overview)
+* [com.io7m.trasco:com.io7m.trasco.vanilla](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco.vanilla/overview)
+* [com.io7m.trasco:com.io7m.trasco.xml.schemas](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco.xml.schemas/overview)
 </details>
 
 rebuilding **12 releases** of com.io7m.trasco:com.io7m.trasco:

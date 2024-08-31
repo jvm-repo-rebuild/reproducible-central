@@ -9,9 +9,9 @@ Source code: [https://github.com/apache/db-jdo.git](https://github.com/apache/db
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [javax.jdo:jdo-api](https://central.sonatype.com/artifact/javax.jdo/jdo-api/3.2.1)
-* [org.apache.jdo:parent-pom](https://central.sonatype.com/artifact/org.apache.jdo/parent-pom/3.2.1)
-* [org.apache:jdo](https://central.sonatype.com/artifact/org.apache/jdo/3.2.1)
+* [javax.jdo:jdo-api](https://central.sonatype.com/artifact/javax.jdo/jdo-api/overview)
+* [org.apache.jdo:parent-pom](https://central.sonatype.com/artifact/org.apache.jdo/parent-pom/overview)
+* [org.apache:jdo](https://central.sonatype.com/artifact/org.apache/jdo/overview)
 </details>
 
 rebuilding **2 releases** of org.apache:jdo:

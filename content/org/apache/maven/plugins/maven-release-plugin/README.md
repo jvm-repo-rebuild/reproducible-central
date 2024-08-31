@@ -9,12 +9,12 @@ Source code: [https://github.com/apache/maven-release.git](https://github.com/ap
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [org.apache.maven.plugins:maven-release-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-release-plugin/3.1.1)
-* [org.apache.maven.release:maven-release](https://central.sonatype.com/artifact/org.apache.maven.release/maven-release/3.1.1)
-* [org.apache.maven.release:maven-release-api](https://central.sonatype.com/artifact/org.apache.maven.release/maven-release-api/3.1.1)
-* [org.apache.maven.release:maven-release-manager](https://central.sonatype.com/artifact/org.apache.maven.release/maven-release-manager/3.1.1)
-* [org.apache.maven.release:maven-release-oddeven-policy](https://central.sonatype.com/artifact/org.apache.maven.release/maven-release-oddeven-policy/3.1.1)
-* [org.apache.maven.release:maven-release-semver-policy](https://central.sonatype.com/artifact/org.apache.maven.release/maven-release-semver-policy/3.1.1)
+* [org.apache.maven.plugins:maven-release-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-release-plugin/overview)
+* [org.apache.maven.release:maven-release](https://central.sonatype.com/artifact/org.apache.maven.release/maven-release/overview)
+* [org.apache.maven.release:maven-release-api](https://central.sonatype.com/artifact/org.apache.maven.release/maven-release-api/overview)
+* [org.apache.maven.release:maven-release-manager](https://central.sonatype.com/artifact/org.apache.maven.release/maven-release-manager/overview)
+* [org.apache.maven.release:maven-release-oddeven-policy](https://central.sonatype.com/artifact/org.apache.maven.release/maven-release-oddeven-policy/overview)
+* [org.apache.maven.release:maven-release-semver-policy](https://central.sonatype.com/artifact/org.apache.maven.release/maven-release-semver-policy/overview)
 </details>
 
 rebuilding **8 releases** of org.apache.maven.plugins:maven-release-plugin:

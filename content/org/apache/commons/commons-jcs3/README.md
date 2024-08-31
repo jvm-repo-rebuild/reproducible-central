@@ -9,12 +9,12 @@ Source code: [https://github.com/apache/commons-jcs.git](https://github.com/apac
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [org.apache.commons:commons-jcs3](https://central.sonatype.com/artifact/org.apache.commons/commons-jcs3/3.2.1)
-* [org.apache.commons:commons-jcs3-core](https://central.sonatype.com/artifact/org.apache.commons/commons-jcs3-core/3.2.1)
-* [org.apache.commons:commons-jcs3-jcache](https://central.sonatype.com/artifact/org.apache.commons/commons-jcs3-jcache/3.2.1)
-* [org.apache.commons:commons-jcs3-jcache-extras](https://central.sonatype.com/artifact/org.apache.commons/commons-jcs3-jcache-extras/3.2.1)
-* [org.apache.commons:commons-jcs3-jcache-openjpa](https://central.sonatype.com/artifact/org.apache.commons/commons-jcs3-jcache-openjpa/3.2.1)
-* [org.apache.commons:commons-jcs3-jcache-tck](https://central.sonatype.com/artifact/org.apache.commons/commons-jcs3-jcache-tck/3.2.1)
+* [org.apache.commons:commons-jcs3](https://central.sonatype.com/artifact/org.apache.commons/commons-jcs3/overview)
+* [org.apache.commons:commons-jcs3-core](https://central.sonatype.com/artifact/org.apache.commons/commons-jcs3-core/overview)
+* [org.apache.commons:commons-jcs3-jcache](https://central.sonatype.com/artifact/org.apache.commons/commons-jcs3-jcache/overview)
+* [org.apache.commons:commons-jcs3-jcache-extras](https://central.sonatype.com/artifact/org.apache.commons/commons-jcs3-jcache-extras/overview)
+* [org.apache.commons:commons-jcs3-jcache-openjpa](https://central.sonatype.com/artifact/org.apache.commons/commons-jcs3-jcache-openjpa/overview)
+* [org.apache.commons:commons-jcs3-jcache-tck](https://central.sonatype.com/artifact/org.apache.commons/commons-jcs3-jcache-tck/overview)
 </details>
 
 rebuilding **1 releases** of org.apache.commons:commons-jcs3:

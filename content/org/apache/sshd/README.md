@@ -9,22 +9,22 @@ Source code: [https://github.com/apache/mina-sshd.git](https://github.com/apache
 
 <details><summary>This project defines 16 modules:</summary>
 
-* [org.apache.sshd:apache-sshd](https://central.sonatype.com/artifact/org.apache.sshd/apache-sshd/2.13.1)
-* [org.apache.sshd:sshd](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.13.1)
-* [org.apache.sshd:sshd-cli](https://central.sonatype.com/artifact/org.apache.sshd/sshd-cli/2.13.1)
-* [org.apache.sshd:sshd-common](https://central.sonatype.com/artifact/org.apache.sshd/sshd-common/2.13.1)
-* [org.apache.sshd:sshd-contrib](https://central.sonatype.com/artifact/org.apache.sshd/sshd-contrib/2.13.1)
-* [org.apache.sshd:sshd-core](https://central.sonatype.com/artifact/org.apache.sshd/sshd-core/2.13.1)
-* [org.apache.sshd:sshd-git](https://central.sonatype.com/artifact/org.apache.sshd/sshd-git/2.13.1)
-* [org.apache.sshd:sshd-ldap](https://central.sonatype.com/artifact/org.apache.sshd/sshd-ldap/2.13.1)
-* [org.apache.sshd:sshd-mina](https://central.sonatype.com/artifact/org.apache.sshd/sshd-mina/2.13.1)
-* [org.apache.sshd:sshd-netty](https://central.sonatype.com/artifact/org.apache.sshd/sshd-netty/2.13.1)
-* [org.apache.sshd:sshd-openpgp](https://central.sonatype.com/artifact/org.apache.sshd/sshd-openpgp/2.13.1)
-* [org.apache.sshd:sshd-osgi](https://central.sonatype.com/artifact/org.apache.sshd/sshd-osgi/2.13.1)
-* [org.apache.sshd:sshd-putty](https://central.sonatype.com/artifact/org.apache.sshd/sshd-putty/2.13.1)
-* [org.apache.sshd:sshd-scp](https://central.sonatype.com/artifact/org.apache.sshd/sshd-scp/2.13.1)
-* [org.apache.sshd:sshd-sftp](https://central.sonatype.com/artifact/org.apache.sshd/sshd-sftp/2.13.1)
-* [org.apache.sshd:sshd-spring-sftp](https://central.sonatype.com/artifact/org.apache.sshd/sshd-spring-sftp/2.13.1)
+* [org.apache.sshd:apache-sshd](https://central.sonatype.com/artifact/org.apache.sshd/apache-sshd/overview)
+* [org.apache.sshd:sshd](https://central.sonatype.com/artifact/org.apache.sshd/sshd/overview)
+* [org.apache.sshd:sshd-cli](https://central.sonatype.com/artifact/org.apache.sshd/sshd-cli/overview)
+* [org.apache.sshd:sshd-common](https://central.sonatype.com/artifact/org.apache.sshd/sshd-common/overview)
+* [org.apache.sshd:sshd-contrib](https://central.sonatype.com/artifact/org.apache.sshd/sshd-contrib/overview)
+* [org.apache.sshd:sshd-core](https://central.sonatype.com/artifact/org.apache.sshd/sshd-core/overview)
+* [org.apache.sshd:sshd-git](https://central.sonatype.com/artifact/org.apache.sshd/sshd-git/overview)
+* [org.apache.sshd:sshd-ldap](https://central.sonatype.com/artifact/org.apache.sshd/sshd-ldap/overview)
+* [org.apache.sshd:sshd-mina](https://central.sonatype.com/artifact/org.apache.sshd/sshd-mina/overview)
+* [org.apache.sshd:sshd-netty](https://central.sonatype.com/artifact/org.apache.sshd/sshd-netty/overview)
+* [org.apache.sshd:sshd-openpgp](https://central.sonatype.com/artifact/org.apache.sshd/sshd-openpgp/overview)
+* [org.apache.sshd:sshd-osgi](https://central.sonatype.com/artifact/org.apache.sshd/sshd-osgi/overview)
+* [org.apache.sshd:sshd-putty](https://central.sonatype.com/artifact/org.apache.sshd/sshd-putty/overview)
+* [org.apache.sshd:sshd-scp](https://central.sonatype.com/artifact/org.apache.sshd/sshd-scp/overview)
+* [org.apache.sshd:sshd-sftp](https://central.sonatype.com/artifact/org.apache.sshd/sshd-sftp/overview)
+* [org.apache.sshd:sshd-spring-sftp](https://central.sonatype.com/artifact/org.apache.sshd/sshd-spring-sftp/overview)
 </details>
 
 rebuilding **7 releases** of org.apache.sshd:sshd:

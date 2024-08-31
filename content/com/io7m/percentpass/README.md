@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/percentpass.git](https://github.com/io7m/p
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.percentpass:com.io7m.percentpass](https://central.sonatype.com/artifact/com.io7m.percentpass/com.io7m.percentpass/1.0.1)
-* [com.io7m.percentpass:com.io7m.percentpass.extension](https://central.sonatype.com/artifact/com.io7m.percentpass/com.io7m.percentpass.extension/1.0.1)
-* [com.io7m.percentpass:com.io7m.percentpass.tests](https://central.sonatype.com/artifact/com.io7m.percentpass/com.io7m.percentpass.tests/1.0.1)
+* [com.io7m.percentpass:com.io7m.percentpass](https://central.sonatype.com/artifact/com.io7m.percentpass/com.io7m.percentpass/overview)
+* [com.io7m.percentpass:com.io7m.percentpass.extension](https://central.sonatype.com/artifact/com.io7m.percentpass/com.io7m.percentpass.extension/overview)
+* [com.io7m.percentpass:com.io7m.percentpass.tests](https://central.sonatype.com/artifact/com.io7m.percentpass/com.io7m.percentpass.tests/overview)
 </details>
 
 rebuilding **5 releases** of com.io7m.percentpass:com.io7m.percentpass:

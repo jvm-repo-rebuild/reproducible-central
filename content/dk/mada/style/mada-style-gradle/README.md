@@ -9,8 +9,8 @@ Source code: [https://github.com/jskov/mada-style-gradle.git](https://github.com
 
 <details><summary>This project defines 2 modules:</summary>
 
-* [dk.mada.style:dk.mada.style.gradle.plugin](https://central.sonatype.com/artifact/dk.mada.style/dk.mada.style.gradle.plugin/1.0.0)
-* [dk.mada.style:mada-style-gradle](https://central.sonatype.com/artifact/dk.mada.style/mada-style-gradle/1.0.0)
+* [dk.mada.style:dk.mada.style.gradle.plugin](https://central.sonatype.com/artifact/dk.mada.style/dk.mada.style.gradle.plugin/overview)
+* [dk.mada.style:mada-style-gradle](https://central.sonatype.com/artifact/dk.mada.style/mada-style-gradle/overview)
 </details>
 
 rebuilding **4 releases** of dk.mada.style:mada-style-gradle:

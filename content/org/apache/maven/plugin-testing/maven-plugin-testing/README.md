@@ -9,8 +9,8 @@ Source code: [https://gitbox.apache.org/repos/asf/maven-plugin-testing.git](http
 
 <details><summary>This project defines 2 modules:</summary>
 
-* [org.apache.maven.plugin-testing:maven-plugin-testing](https://central.sonatype.com/artifact/org.apache.maven.plugin-testing/maven-plugin-testing/4.0.0-beta-1)
-* [org.apache.maven.plugin-testing:maven-plugin-testing-harness](https://central.sonatype.com/artifact/org.apache.maven.plugin-testing/maven-plugin-testing-harness/4.0.0-beta-1)
+* [org.apache.maven.plugin-testing:maven-plugin-testing](https://central.sonatype.com/artifact/org.apache.maven.plugin-testing/maven-plugin-testing/overview)
+* [org.apache.maven.plugin-testing:maven-plugin-testing-harness](https://central.sonatype.com/artifact/org.apache.maven.plugin-testing/maven-plugin-testing-harness/overview)
 </details>
 
 rebuilding **3 releases** of org.apache.maven.plugin-testing:maven-plugin-testing:

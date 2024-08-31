@@ -9,9 +9,9 @@ Source code: [https://github.com/apache/qpid-proton-j.git](https://github.com/ap
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [org.apache.qpid:apache-qpid-proton-j](https://central.sonatype.com/artifact/org.apache.qpid/apache-qpid-proton-j/0.34.1)
-* [org.apache.qpid:proton-j](https://central.sonatype.com/artifact/org.apache.qpid/proton-j/0.34.1)
-* [org.apache.qpid:proton-j-parent](https://central.sonatype.com/artifact/org.apache.qpid/proton-j-parent/0.34.1)
+* [org.apache.qpid:apache-qpid-proton-j](https://central.sonatype.com/artifact/org.apache.qpid/apache-qpid-proton-j/overview)
+* [org.apache.qpid:proton-j](https://central.sonatype.com/artifact/org.apache.qpid/proton-j/overview)
+* [org.apache.qpid:proton-j-parent](https://central.sonatype.com/artifact/org.apache.qpid/proton-j-parent/overview)
 </details>
 
 rebuilding **2 releases** of org.apache.qpid:proton-j-parent:

@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/verdant.git](https://github.com/io7m/verda
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.verdant:com.io7m.verdant](https://central.sonatype.com/artifact/com.io7m.verdant/com.io7m.verdant/1.0.1)
-* [com.io7m.verdant:com.io7m.verdant.core](https://central.sonatype.com/artifact/com.io7m.verdant/com.io7m.verdant.core/1.0.1)
-* [com.io7m.verdant:com.io7m.verdant.core.cb](https://central.sonatype.com/artifact/com.io7m.verdant/com.io7m.verdant.core.cb/1.0.1)
-* [com.io7m.verdant:com.io7m.verdant.tests](https://central.sonatype.com/artifact/com.io7m.verdant/com.io7m.verdant.tests/1.0.1)
+* [com.io7m.verdant:com.io7m.verdant](https://central.sonatype.com/artifact/com.io7m.verdant/com.io7m.verdant/overview)
+* [com.io7m.verdant:com.io7m.verdant.core](https://central.sonatype.com/artifact/com.io7m.verdant/com.io7m.verdant.core/overview)
+* [com.io7m.verdant:com.io7m.verdant.core.cb](https://central.sonatype.com/artifact/com.io7m.verdant/com.io7m.verdant.core.cb/overview)
+* [com.io7m.verdant:com.io7m.verdant.tests](https://central.sonatype.com/artifact/com.io7m.verdant/com.io7m.verdant.tests/overview)
 </details>
 
 rebuilding **3 releases** of com.io7m.verdant:com.io7m.verdant:

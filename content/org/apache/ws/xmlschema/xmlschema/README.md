@@ -9,9 +9,9 @@ Source code: [https://gitbox.apache.org/repos/asf/ws-xmlschema.git](https://gitb
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [org.apache.ws.xmlschema:xmlschema](https://central.sonatype.com/artifact/org.apache.ws.xmlschema/xmlschema/2.3.1)
-* [org.apache.ws.xmlschema:xmlschema-core](https://central.sonatype.com/artifact/org.apache.ws.xmlschema/xmlschema-core/2.3.1)
-* [org.apache.ws.xmlschema:xmlschema-walker](https://central.sonatype.com/artifact/org.apache.ws.xmlschema/xmlschema-walker/2.3.1)
+* [org.apache.ws.xmlschema:xmlschema](https://central.sonatype.com/artifact/org.apache.ws.xmlschema/xmlschema/overview)
+* [org.apache.ws.xmlschema:xmlschema-core](https://central.sonatype.com/artifact/org.apache.ws.xmlschema/xmlschema-core/overview)
+* [org.apache.ws.xmlschema:xmlschema-walker](https://central.sonatype.com/artifact/org.apache.ws.xmlschema/xmlschema-walker/overview)
 </details>
 
 rebuilding **1 releases** of org.apache.ws.xmlschema:xmlschema:

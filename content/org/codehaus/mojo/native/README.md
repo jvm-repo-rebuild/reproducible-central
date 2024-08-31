@@ -9,17 +9,17 @@ Source code: [https://github.com/mojohaus/maven-native.git](https://github.com/m
 
 <details><summary>This project defines 11 modules:</summary>
 
-* [org.codehaus.mojo.natives:maven-native](https://central.sonatype.com/artifact/org.codehaus.mojo.natives/maven-native/1.0-M1)
-* [org.codehaus.mojo.natives:maven-native-api](https://central.sonatype.com/artifact/org.codehaus.mojo.natives/maven-native-api/1.0-M1)
-* [org.codehaus.mojo.natives:maven-native-bcc](https://central.sonatype.com/artifact/org.codehaus.mojo.natives/maven-native-bcc/1.0-M1)
-* [org.codehaus.mojo.natives:maven-native-components](https://central.sonatype.com/artifact/org.codehaus.mojo.natives/maven-native-components/1.0-M1)
-* [org.codehaus.mojo.natives:maven-native-generic-c](https://central.sonatype.com/artifact/org.codehaus.mojo.natives/maven-native-generic-c/1.0-M1)
-* [org.codehaus.mojo.natives:maven-native-javah](https://central.sonatype.com/artifact/org.codehaus.mojo.natives/maven-native-javah/1.0-M1)
-* [org.codehaus.mojo.natives:maven-native-manager](https://central.sonatype.com/artifact/org.codehaus.mojo.natives/maven-native-manager/1.0-M1)
-* [org.codehaus.mojo.natives:maven-native-mingw](https://central.sonatype.com/artifact/org.codehaus.mojo.natives/maven-native-mingw/1.0-M1)
-* [org.codehaus.mojo.natives:maven-native-msvc](https://central.sonatype.com/artifact/org.codehaus.mojo.natives/maven-native-msvc/1.0-M1)
-* [org.codehaus.mojo.natives:maven-native-test](https://central.sonatype.com/artifact/org.codehaus.mojo.natives/maven-native-test/1.0-M1)
-* [org.codehaus.mojo:native-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/native-maven-plugin/1.0-M1)
+* [org.codehaus.mojo.natives:maven-native](https://central.sonatype.com/artifact/org.codehaus.mojo.natives/maven-native/overview)
+* [org.codehaus.mojo.natives:maven-native-api](https://central.sonatype.com/artifact/org.codehaus.mojo.natives/maven-native-api/overview)
+* [org.codehaus.mojo.natives:maven-native-bcc](https://central.sonatype.com/artifact/org.codehaus.mojo.natives/maven-native-bcc/overview)
+* [org.codehaus.mojo.natives:maven-native-components](https://central.sonatype.com/artifact/org.codehaus.mojo.natives/maven-native-components/overview)
+* [org.codehaus.mojo.natives:maven-native-generic-c](https://central.sonatype.com/artifact/org.codehaus.mojo.natives/maven-native-generic-c/overview)
+* [org.codehaus.mojo.natives:maven-native-javah](https://central.sonatype.com/artifact/org.codehaus.mojo.natives/maven-native-javah/overview)
+* [org.codehaus.mojo.natives:maven-native-manager](https://central.sonatype.com/artifact/org.codehaus.mojo.natives/maven-native-manager/overview)
+* [org.codehaus.mojo.natives:maven-native-mingw](https://central.sonatype.com/artifact/org.codehaus.mojo.natives/maven-native-mingw/overview)
+* [org.codehaus.mojo.natives:maven-native-msvc](https://central.sonatype.com/artifact/org.codehaus.mojo.natives/maven-native-msvc/overview)
+* [org.codehaus.mojo.natives:maven-native-test](https://central.sonatype.com/artifact/org.codehaus.mojo.natives/maven-native-test/overview)
+* [org.codehaus.mojo:native-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/native-maven-plugin/overview)
 </details>
 
 rebuilding **1 releases** of org.codehaus.mojo:native-maven-plugin:

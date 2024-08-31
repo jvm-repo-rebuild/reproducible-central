@@ -9,19 +9,19 @@ Source code: [https://github.com/codehaus-plexus/plexus-compiler.git](https://gi
 
 <details><summary>This project defines 13 modules:</summary>
 
-* [org.codehaus.plexus:plexus-compiler](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler/2.15.0)
-* [org.codehaus.plexus:plexus-compiler-api](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-api/2.15.0)
-* [org.codehaus.plexus:plexus-compiler-aspectj](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-aspectj/2.15.0)
-* [org.codehaus.plexus:plexus-compiler-csharp](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-csharp/2.15.0)
-* [org.codehaus.plexus:plexus-compiler-eclipse](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-eclipse/2.15.0)
-* [org.codehaus.plexus:plexus-compiler-its](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-its/2.15.0)
-* [org.codehaus.plexus:plexus-compiler-j2objc](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-j2objc/2.15.0)
-* [org.codehaus.plexus:plexus-compiler-javac](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-javac/2.15.0)
-* [org.codehaus.plexus:plexus-compiler-javac-errorprone](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-javac-errorprone/2.15.0)
-* [org.codehaus.plexus:plexus-compiler-jikes](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-jikes/2.15.0)
-* [org.codehaus.plexus:plexus-compiler-manager](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-manager/2.15.0)
-* [org.codehaus.plexus:plexus-compiler-test](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-test/2.15.0)
-* [org.codehaus.plexus:plexus-compilers](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compilers/2.15.0)
+* [org.codehaus.plexus:plexus-compiler](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler/overview)
+* [org.codehaus.plexus:plexus-compiler-api](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-api/overview)
+* [org.codehaus.plexus:plexus-compiler-aspectj](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-aspectj/overview)
+* [org.codehaus.plexus:plexus-compiler-csharp](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-csharp/overview)
+* [org.codehaus.plexus:plexus-compiler-eclipse](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-eclipse/overview)
+* [org.codehaus.plexus:plexus-compiler-its](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-its/overview)
+* [org.codehaus.plexus:plexus-compiler-j2objc](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-j2objc/overview)
+* [org.codehaus.plexus:plexus-compiler-javac](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-javac/overview)
+* [org.codehaus.plexus:plexus-compiler-javac-errorprone](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-javac-errorprone/overview)
+* [org.codehaus.plexus:plexus-compiler-jikes](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-jikes/overview)
+* [org.codehaus.plexus:plexus-compiler-manager](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-manager/overview)
+* [org.codehaus.plexus:plexus-compiler-test](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-test/overview)
+* [org.codehaus.plexus:plexus-compilers](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compilers/overview)
 </details>
 
 rebuilding **14 releases** of org.codehaus.plexus:plexus-compiler:

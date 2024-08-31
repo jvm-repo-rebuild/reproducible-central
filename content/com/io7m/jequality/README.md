@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/jequality.git](https://github.com/io7m/jeq
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.jequality:com.io7m.jequality](https://central.sonatype.com/artifact/com.io7m.jequality/com.io7m.jequality/3.0.1)
-* [com.io7m.jequality:com.io7m.jequality.core](https://central.sonatype.com/artifact/com.io7m.jequality/com.io7m.jequality.core/3.0.1)
-* [com.io7m.jequality:com.io7m.jequality.documentation](https://central.sonatype.com/artifact/com.io7m.jequality/com.io7m.jequality.documentation/3.0.1)
-* [com.io7m.jequality:com.io7m.jequality.tests](https://central.sonatype.com/artifact/com.io7m.jequality/com.io7m.jequality.tests/3.0.1)
+* [com.io7m.jequality:com.io7m.jequality](https://central.sonatype.com/artifact/com.io7m.jequality/com.io7m.jequality/overview)
+* [com.io7m.jequality:com.io7m.jequality.core](https://central.sonatype.com/artifact/com.io7m.jequality/com.io7m.jequality.core/overview)
+* [com.io7m.jequality:com.io7m.jequality.documentation](https://central.sonatype.com/artifact/com.io7m.jequality/com.io7m.jequality.documentation/overview)
+* [com.io7m.jequality:com.io7m.jequality.tests](https://central.sonatype.com/artifact/com.io7m.jequality/com.io7m.jequality.tests/overview)
 </details>
 
 rebuilding **2 releases** of com.io7m.jequality:com.io7m.jequality:

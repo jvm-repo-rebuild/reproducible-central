@@ -9,18 +9,18 @@ Source code: [https://github.com/io7m/looseleaf.git](https://github.com/io7m/loo
 
 <details><summary>This project defines 12 modules:</summary>
 
-* [com.io7m.looseleaf:com.io7m.looseleaf](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/2.0.0)
-* [com.io7m.looseleaf:com.io7m.looseleaf.cmdline](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.cmdline/2.0.0)
-* [com.io7m.looseleaf:com.io7m.looseleaf.database.api](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.database.api/2.0.0)
-* [com.io7m.looseleaf:com.io7m.looseleaf.database.mvstore](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.database.mvstore/2.0.0)
-* [com.io7m.looseleaf:com.io7m.looseleaf.documentation](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.documentation/2.0.0)
-* [com.io7m.looseleaf:com.io7m.looseleaf.grafana](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.grafana/2.0.0)
-* [com.io7m.looseleaf:com.io7m.looseleaf.oci](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.oci/2.0.0)
-* [com.io7m.looseleaf:com.io7m.looseleaf.protocol.v1](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.protocol.v1/2.0.0)
-* [com.io7m.looseleaf:com.io7m.looseleaf.security](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.security/2.0.0)
-* [com.io7m.looseleaf:com.io7m.looseleaf.server](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.server/2.0.0)
-* [com.io7m.looseleaf:com.io7m.looseleaf.server.api](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.server.api/2.0.0)
-* [com.io7m.looseleaf:com.io7m.looseleaf.tests](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.tests/2.0.0)
+* [com.io7m.looseleaf:com.io7m.looseleaf](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/overview)
+* [com.io7m.looseleaf:com.io7m.looseleaf.cmdline](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.cmdline/overview)
+* [com.io7m.looseleaf:com.io7m.looseleaf.database.api](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.database.api/overview)
+* [com.io7m.looseleaf:com.io7m.looseleaf.database.mvstore](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.database.mvstore/overview)
+* [com.io7m.looseleaf:com.io7m.looseleaf.documentation](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.documentation/overview)
+* [com.io7m.looseleaf:com.io7m.looseleaf.grafana](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.grafana/overview)
+* [com.io7m.looseleaf:com.io7m.looseleaf.oci](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.oci/overview)
+* [com.io7m.looseleaf:com.io7m.looseleaf.protocol.v1](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.protocol.v1/overview)
+* [com.io7m.looseleaf:com.io7m.looseleaf.security](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.security/overview)
+* [com.io7m.looseleaf:com.io7m.looseleaf.server](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.server/overview)
+* [com.io7m.looseleaf:com.io7m.looseleaf.server.api](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.server.api/overview)
+* [com.io7m.looseleaf:com.io7m.looseleaf.tests](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.tests/overview)
 </details>
 
 rebuilding **7 releases** of com.io7m.looseleaf:com.io7m.looseleaf:

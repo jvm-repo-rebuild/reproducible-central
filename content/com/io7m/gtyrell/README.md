@@ -9,13 +9,13 @@ Source code: [https://github.com/io7m/gtyrell.git](https://github.com/io7m/gtyre
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [com.io7m.gtyrell:com.io7m.gtyrell](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell/4.0.0)
-* [com.io7m.gtyrell:com.io7m.gtyrell.core](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell.core/4.0.0)
-* [com.io7m.gtyrell:com.io7m.gtyrell.filter](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell.filter/4.0.0)
-* [com.io7m.gtyrell:com.io7m.gtyrell.github](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell.github/4.0.0)
-* [com.io7m.gtyrell:com.io7m.gtyrell.oci](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell.oci/4.0.0)
-* [com.io7m.gtyrell:com.io7m.gtyrell.server](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell.server/4.0.0)
-* [com.io7m.gtyrell:com.io7m.gtyrell.tests](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell.tests/4.0.0)
+* [com.io7m.gtyrell:com.io7m.gtyrell](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell/overview)
+* [com.io7m.gtyrell:com.io7m.gtyrell.core](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell.core/overview)
+* [com.io7m.gtyrell:com.io7m.gtyrell.filter](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell.filter/overview)
+* [com.io7m.gtyrell:com.io7m.gtyrell.github](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell.github/overview)
+* [com.io7m.gtyrell:com.io7m.gtyrell.oci](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell.oci/overview)
+* [com.io7m.gtyrell:com.io7m.gtyrell.server](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell.server/overview)
+* [com.io7m.gtyrell:com.io7m.gtyrell.tests](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell.tests/overview)
 </details>
 
 rebuilding **5 releases** of com.io7m.gtyrell:com.io7m.gtyrell:

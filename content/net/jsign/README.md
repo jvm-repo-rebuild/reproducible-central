@@ -9,13 +9,13 @@ Source code: [https://github.com/ebourg/jsign.git](https://github.com/ebourg/jsi
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [net.jsign:jsign](https://central.sonatype.com/artifact/net.jsign/jsign/6.0)
-* [net.jsign:jsign-ant](https://central.sonatype.com/artifact/net.jsign/jsign-ant/6.0)
-* [net.jsign:jsign-cli](https://central.sonatype.com/artifact/net.jsign/jsign-cli/6.0)
-* [net.jsign:jsign-core](https://central.sonatype.com/artifact/net.jsign/jsign-core/6.0)
-* [net.jsign:jsign-gradle-plugin](https://central.sonatype.com/artifact/net.jsign/jsign-gradle-plugin/6.0)
-* [net.jsign:jsign-maven-plugin](https://central.sonatype.com/artifact/net.jsign/jsign-maven-plugin/6.0)
-* [net.jsign:jsign-parent](https://central.sonatype.com/artifact/net.jsign/jsign-parent/6.0)
+* [net.jsign:jsign](https://central.sonatype.com/artifact/net.jsign/jsign/overview)
+* [net.jsign:jsign-ant](https://central.sonatype.com/artifact/net.jsign/jsign-ant/overview)
+* [net.jsign:jsign-cli](https://central.sonatype.com/artifact/net.jsign/jsign-cli/overview)
+* [net.jsign:jsign-core](https://central.sonatype.com/artifact/net.jsign/jsign-core/overview)
+* [net.jsign:jsign-gradle-plugin](https://central.sonatype.com/artifact/net.jsign/jsign-gradle-plugin/overview)
+* [net.jsign:jsign-maven-plugin](https://central.sonatype.com/artifact/net.jsign/jsign-maven-plugin/overview)
+* [net.jsign:jsign-parent](https://central.sonatype.com/artifact/net.jsign/jsign-parent/overview)
 </details>
 
 rebuilding **3 releases** of net.jsign:jsign:

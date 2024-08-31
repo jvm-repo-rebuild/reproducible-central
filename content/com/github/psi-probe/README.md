@@ -9,13 +9,13 @@ Source code: [https://github.com/psi-probe/psi-probe.git](https://github.com/psi
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [com.github.psi-probe:psi-probe](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/4.1.4)
-* [com.github.psi-probe:psi-probe-core](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-core/4.1.4)
-* [com.github.psi-probe:psi-probe-rest](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-rest/4.1.4)
-* [com.github.psi-probe:psi-probe-tomcat7](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-tomcat7/4.1.4)
-* [com.github.psi-probe:psi-probe-tomcat85](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-tomcat85/4.1.4)
-* [com.github.psi-probe:psi-probe-tomcat9](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-tomcat9/4.1.4)
-* [com.github.psi-probe:psi-probe-web](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-web/4.1.4)
+* [com.github.psi-probe:psi-probe](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/overview)
+* [com.github.psi-probe:psi-probe-core](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-core/overview)
+* [com.github.psi-probe:psi-probe-rest](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-rest/overview)
+* [com.github.psi-probe:psi-probe-tomcat7](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-tomcat7/overview)
+* [com.github.psi-probe:psi-probe-tomcat85](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-tomcat85/overview)
+* [com.github.psi-probe:psi-probe-tomcat9](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-tomcat9/overview)
+* [com.github.psi-probe:psi-probe-web](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-web/overview)
 </details>
 
 rebuilding **12 releases** of com.github.psi-probe:psi-probe:

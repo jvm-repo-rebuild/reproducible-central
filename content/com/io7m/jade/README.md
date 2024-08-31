@@ -9,12 +9,12 @@ Source code: [https://github.com/io7m/jade.git](https://github.com/io7m/jade.git
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [com.io7m.jade:com.io7m.jade](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade/1.0.3)
-* [com.io7m.jade:com.io7m.jade.api](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade.api/1.0.3)
-* [com.io7m.jade:com.io7m.jade.documentation](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade.documentation/1.0.3)
-* [com.io7m.jade:com.io7m.jade.spi](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade.spi/1.0.3)
-* [com.io7m.jade:com.io7m.jade.tests](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade.tests/1.0.3)
-* [com.io7m.jade:com.io7m.jade.vanilla](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade.vanilla/1.0.3)
+* [com.io7m.jade:com.io7m.jade](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade/overview)
+* [com.io7m.jade:com.io7m.jade.api](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade.api/overview)
+* [com.io7m.jade:com.io7m.jade.documentation](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade.documentation/overview)
+* [com.io7m.jade:com.io7m.jade.spi](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade.spi/overview)
+* [com.io7m.jade:com.io7m.jade.tests](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade.tests/overview)
+* [com.io7m.jade:com.io7m.jade.vanilla](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade.vanilla/overview)
 </details>
 
 rebuilding **3 releases** of com.io7m.jade:com.io7m.jade:

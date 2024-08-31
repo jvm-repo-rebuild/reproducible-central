@@ -9,21 +9,21 @@ Source code: [https://github.com/apache/directory-scimple.git](https://github.co
 
 <details><summary>This project defines 15 modules:</summary>
 
-* [org.apache.directory.scimple:scim-client](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-client/1.0.0-M1)
-* [org.apache.directory.scimple:scim-compliance-tests](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-compliance-tests/1.0.0-M1)
-* [org.apache.directory.scimple:scim-core](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-core/1.0.0-M1)
-* [org.apache.directory.scimple:scim-server](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-server/1.0.0-M1)
-* [org.apache.directory.scimple:scim-server-jersey](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-server-jersey/1.0.0-M1)
-* [org.apache.directory.scimple:scim-server-memory](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-server-memory/1.0.0-M1)
-* [org.apache.directory.scimple:scim-server-quarkus](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-server-quarkus/1.0.0-M1)
-* [org.apache.directory.scimple:scim-server-spring-boot](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-server-spring-boot/1.0.0-M1)
-* [org.apache.directory.scimple:scim-spec-protocol](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-spec-protocol/1.0.0-M1)
-* [org.apache.directory.scimple:scim-spec-schema](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-spec-schema/1.0.0-M1)
-* [org.apache.directory.scimple:scim-spring-boot-starter](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-spring-boot-starter/1.0.0-M1)
-* [org.apache.directory.scimple:scim-test](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-test/1.0.0-M1)
-* [org.apache.directory.scimple:scim-test-coverage](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-test-coverage/1.0.0-M1)
-* [org.apache.directory.scimple:scim-tools](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-tools/1.0.0-M1)
-* [org.apache.directory.scimple:scimple](https://central.sonatype.com/artifact/org.apache.directory.scimple/scimple/1.0.0-M1)
+* [org.apache.directory.scimple:scim-client](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-client/overview)
+* [org.apache.directory.scimple:scim-compliance-tests](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-compliance-tests/overview)
+* [org.apache.directory.scimple:scim-core](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-core/overview)
+* [org.apache.directory.scimple:scim-server](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-server/overview)
+* [org.apache.directory.scimple:scim-server-jersey](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-server-jersey/overview)
+* [org.apache.directory.scimple:scim-server-memory](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-server-memory/overview)
+* [org.apache.directory.scimple:scim-server-quarkus](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-server-quarkus/overview)
+* [org.apache.directory.scimple:scim-server-spring-boot](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-server-spring-boot/overview)
+* [org.apache.directory.scimple:scim-spec-protocol](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-spec-protocol/overview)
+* [org.apache.directory.scimple:scim-spec-schema](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-spec-schema/overview)
+* [org.apache.directory.scimple:scim-spring-boot-starter](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-spring-boot-starter/overview)
+* [org.apache.directory.scimple:scim-test](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-test/overview)
+* [org.apache.directory.scimple:scim-test-coverage](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-test-coverage/overview)
+* [org.apache.directory.scimple:scim-tools](https://central.sonatype.com/artifact/org.apache.directory.scimple/scim-tools/overview)
+* [org.apache.directory.scimple:scimple](https://central.sonatype.com/artifact/org.apache.directory.scimple/scimple/overview)
 </details>
 
 rebuilding **1 releases** of org.apache.directory.scimple:scimple:

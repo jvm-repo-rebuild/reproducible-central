@@ -9,8 +9,8 @@ Source code: [https://github.com/jpmml/jpmml-transpiler.git](https://github.com/
 
 <details><summary>This project defines 2 modules:</summary>
 
-* [org.jpmml:jpmml-transpiler](https://central.sonatype.com/artifact/org.jpmml/jpmml-transpiler/1.3.5)
-* [org.jpmml:pmml-transpiler](https://central.sonatype.com/artifact/org.jpmml/pmml-transpiler/1.3.5)
+* [org.jpmml:jpmml-transpiler](https://central.sonatype.com/artifact/org.jpmml/jpmml-transpiler/overview)
+* [org.jpmml:pmml-transpiler](https://central.sonatype.com/artifact/org.jpmml/pmml-transpiler/overview)
 </details>
 
 rebuilding **1 releases** of org.jpmml:jpmml-transpiler:

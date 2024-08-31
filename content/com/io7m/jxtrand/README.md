@@ -9,14 +9,14 @@ Source code: [https://github.com/io7m/jxtrand.git](https://github.com/io7m/jxtra
 
 <details><summary>This project defines 8 modules:</summary>
 
-* [com.io7m.jxtrand:com.io7m.jxtrand](https://central.sonatype.com/artifact/com.io7m.jxtrand/com.io7m.jxtrand/2.1.0)
-* [com.io7m.jxtrand:com.io7m.jxtrand.api](https://central.sonatype.com/artifact/com.io7m.jxtrand/com.io7m.jxtrand.api/2.1.0)
-* [com.io7m.jxtrand:com.io7m.jxtrand.compiler.api](https://central.sonatype.com/artifact/com.io7m.jxtrand/com.io7m.jxtrand.compiler.api/2.1.0)
-* [com.io7m.jxtrand:com.io7m.jxtrand.compiler.basic](https://central.sonatype.com/artifact/com.io7m.jxtrand/com.io7m.jxtrand.compiler.basic/2.1.0)
-* [com.io7m.jxtrand:com.io7m.jxtrand.examples](https://central.sonatype.com/artifact/com.io7m.jxtrand/com.io7m.jxtrand.examples/2.1.0)
-* [com.io7m.jxtrand:com.io7m.jxtrand.maven_plugin](https://central.sonatype.com/artifact/com.io7m.jxtrand/com.io7m.jxtrand.maven_plugin/2.1.0)
-* [com.io7m.jxtrand:com.io7m.jxtrand.tests](https://central.sonatype.com/artifact/com.io7m.jxtrand/com.io7m.jxtrand.tests/2.1.0)
-* [com.io7m.jxtrand:com.io7m.jxtrand.vanilla](https://central.sonatype.com/artifact/com.io7m.jxtrand/com.io7m.jxtrand.vanilla/2.1.0)
+* [com.io7m.jxtrand:com.io7m.jxtrand](https://central.sonatype.com/artifact/com.io7m.jxtrand/com.io7m.jxtrand/overview)
+* [com.io7m.jxtrand:com.io7m.jxtrand.api](https://central.sonatype.com/artifact/com.io7m.jxtrand/com.io7m.jxtrand.api/overview)
+* [com.io7m.jxtrand:com.io7m.jxtrand.compiler.api](https://central.sonatype.com/artifact/com.io7m.jxtrand/com.io7m.jxtrand.compiler.api/overview)
+* [com.io7m.jxtrand:com.io7m.jxtrand.compiler.basic](https://central.sonatype.com/artifact/com.io7m.jxtrand/com.io7m.jxtrand.compiler.basic/overview)
+* [com.io7m.jxtrand:com.io7m.jxtrand.examples](https://central.sonatype.com/artifact/com.io7m.jxtrand/com.io7m.jxtrand.examples/overview)
+* [com.io7m.jxtrand:com.io7m.jxtrand.maven_plugin](https://central.sonatype.com/artifact/com.io7m.jxtrand/com.io7m.jxtrand.maven_plugin/overview)
+* [com.io7m.jxtrand:com.io7m.jxtrand.tests](https://central.sonatype.com/artifact/com.io7m.jxtrand/com.io7m.jxtrand.tests/overview)
+* [com.io7m.jxtrand:com.io7m.jxtrand.vanilla](https://central.sonatype.com/artifact/com.io7m.jxtrand/com.io7m.jxtrand.vanilla/overview)
 </details>
 
 rebuilding **4 releases** of com.io7m.jxtrand:com.io7m.jxtrand:

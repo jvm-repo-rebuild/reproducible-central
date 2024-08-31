@@ -9,15 +9,15 @@ Source code: [https://github.com/apache/sling-org-apache-sling-app-cms.git](http
 
 <details><summary>This project defines 9 modules:</summary>
 
-* [org.apache.sling:org.apache.sling.cms](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms/1.1.4)
-* [org.apache.sling:org.apache.sling.cms.api](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms.api/1.1.4)
-* [org.apache.sling:org.apache.sling.cms.archetype](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms.archetype/1.1.4)
-* [org.apache.sling:org.apache.sling.cms.core](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms.core/1.1.4)
-* [org.apache.sling:org.apache.sling.cms.feature](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms.feature/1.1.4)
-* [org.apache.sling:org.apache.sling.cms.it](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms.it/1.1.4)
-* [org.apache.sling:org.apache.sling.cms.login](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms.login/1.1.4)
-* [org.apache.sling:org.apache.sling.cms.reference](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms.reference/1.1.4)
-* [org.apache.sling:org.apache.sling.cms.ui](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms.ui/1.1.4)
+* [org.apache.sling:org.apache.sling.cms](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms/overview)
+* [org.apache.sling:org.apache.sling.cms.api](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms.api/overview)
+* [org.apache.sling:org.apache.sling.cms.archetype](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms.archetype/overview)
+* [org.apache.sling:org.apache.sling.cms.core](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms.core/overview)
+* [org.apache.sling:org.apache.sling.cms.feature](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms.feature/overview)
+* [org.apache.sling:org.apache.sling.cms.it](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms.it/overview)
+* [org.apache.sling:org.apache.sling.cms.login](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms.login/overview)
+* [org.apache.sling:org.apache.sling.cms.reference](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms.reference/overview)
+* [org.apache.sling:org.apache.sling.cms.ui](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms.ui/overview)
 </details>
 
 rebuilding **1 releases** of org.apache.sling:org.apache.sling.cms:

@@ -9,11 +9,11 @@ Source code: [https://github.com/apache/qpid-protonj2.git](https://github.com/ap
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [org.apache.qpid:apache-qpid-protonj2](https://central.sonatype.com/artifact/org.apache.qpid/apache-qpid-protonj2/1.0.0-M21)
-* [org.apache.qpid:protonj2](https://central.sonatype.com/artifact/org.apache.qpid/protonj2/1.0.0-M21)
-* [org.apache.qpid:protonj2-client](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-client/1.0.0-M21)
-* [org.apache.qpid:protonj2-parent](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M21)
-* [org.apache.qpid:protonj2-test-driver](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-test-driver/1.0.0-M21)
+* [org.apache.qpid:apache-qpid-protonj2](https://central.sonatype.com/artifact/org.apache.qpid/apache-qpid-protonj2/overview)
+* [org.apache.qpid:protonj2](https://central.sonatype.com/artifact/org.apache.qpid/protonj2/overview)
+* [org.apache.qpid:protonj2-client](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-client/overview)
+* [org.apache.qpid:protonj2-parent](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/overview)
+* [org.apache.qpid:protonj2-test-driver](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-test-driver/overview)
 </details>
 
 rebuilding **13 releases** of org.apache.qpid:protonj2-parent:

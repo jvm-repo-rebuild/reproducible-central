@@ -9,13 +9,13 @@ Source code: [https://github.com/Adobe-Consulting-Services/acs-aem-commons.git](
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [com.adobe.acs:acs-aem-commons](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.0.14)
-* [com.adobe.acs:acs-aem-commons-all](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-all/6.0.14)
-* [com.adobe.acs:acs-aem-commons-bundle](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-bundle/6.0.14)
-* [com.adobe.acs:acs-aem-commons-content](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-content/6.0.14)
-* [com.adobe.acs:acs-aem-commons-oakpal-checks](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-oakpal-checks/6.0.14)
-* [com.adobe.acs:acs-aem-commons-ui.apps](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-ui.apps/6.0.14)
-* [com.adobe.acs:acs-aem-commons-ui.content](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-ui.content/6.0.14)
+* [com.adobe.acs:acs-aem-commons](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/overview)
+* [com.adobe.acs:acs-aem-commons-all](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-all/overview)
+* [com.adobe.acs:acs-aem-commons-bundle](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-bundle/overview)
+* [com.adobe.acs:acs-aem-commons-content](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-content/overview)
+* [com.adobe.acs:acs-aem-commons-oakpal-checks](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-oakpal-checks/overview)
+* [com.adobe.acs:acs-aem-commons-ui.apps](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-ui.apps/overview)
+* [com.adobe.acs:acs-aem-commons-ui.content](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-ui.content/overview)
 </details>
 
 rebuilding **3 releases** of com.adobe.acs:acs-aem-commons:

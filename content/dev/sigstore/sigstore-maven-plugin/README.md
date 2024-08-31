@@ -9,8 +9,8 @@ Source code: [https://github.com/sigstore/sigstore-java.git](https://github.com/
 
 <details><summary>This project defines 2 modules:</summary>
 
-* [dev.sigstore:sigstore-java](https://central.sonatype.com/artifact/dev.sigstore/sigstore-java/1.0.0)
-* [dev.sigstore:sigstore-maven-plugin](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/1.0.0)
+* [dev.sigstore:sigstore-java](https://central.sonatype.com/artifact/dev.sigstore/sigstore-java/overview)
+* [dev.sigstore:sigstore-maven-plugin](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/overview)
 </details>
 
 rebuilding **4 releases** of dev.sigstore:sigstore-maven-plugin:

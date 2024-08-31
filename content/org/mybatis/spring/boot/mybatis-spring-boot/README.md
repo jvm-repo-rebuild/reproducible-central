@@ -9,11 +9,11 @@ Source code: [https://github.com/mybatis/spring-boot-starter.git](https://github
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [org.mybatis.spring.boot:mybatis-spring-boot](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/3.0.3)
-* [org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/3.0.3)
-* [org.mybatis.spring.boot:mybatis-spring-boot-starter](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-starter/3.0.3)
-* [org.mybatis.spring.boot:mybatis-spring-boot-starter-test](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-starter-test/3.0.3)
-* [org.mybatis.spring.boot:mybatis-spring-boot-test-autoconfigure](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-test-autoconfigure/3.0.3)
+* [org.mybatis.spring.boot:mybatis-spring-boot](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/overview)
+* [org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/overview)
+* [org.mybatis.spring.boot:mybatis-spring-boot-starter](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-starter/overview)
+* [org.mybatis.spring.boot:mybatis-spring-boot-starter-test](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-starter-test/overview)
+* [org.mybatis.spring.boot:mybatis-spring-boot-test-autoconfigure](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-test-autoconfigure/overview)
 </details>
 
 rebuilding **1 releases** of org.mybatis.spring.boot:mybatis-spring-boot:

@@ -9,14 +9,14 @@ Source code: [https://github.com/io7m/xstructural.git](https://github.com/io7m/x
 
 <details><summary>This project defines 8 modules:</summary>
 
-* [com.io7m.xstructural:com.io7m.xstructural](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.8.1)
-* [com.io7m.xstructural:com.io7m.xstructural.api](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.api/1.8.1)
-* [com.io7m.xstructural:com.io7m.xstructural.cmdline](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.cmdline/1.8.1)
-* [com.io7m.xstructural:com.io7m.xstructural.documentation](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.documentation/1.8.1)
-* [com.io7m.xstructural:com.io7m.xstructural.maven_plugin](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.maven_plugin/1.8.1)
-* [com.io7m.xstructural:com.io7m.xstructural.tests](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.tests/1.8.1)
-* [com.io7m.xstructural:com.io7m.xstructural.vanilla](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.vanilla/1.8.1)
-* [com.io7m.xstructural:com.io7m.xstructural.xml](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.xml/1.8.1)
+* [com.io7m.xstructural:com.io7m.xstructural](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/overview)
+* [com.io7m.xstructural:com.io7m.xstructural.api](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.api/overview)
+* [com.io7m.xstructural:com.io7m.xstructural.cmdline](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.cmdline/overview)
+* [com.io7m.xstructural:com.io7m.xstructural.documentation](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.documentation/overview)
+* [com.io7m.xstructural:com.io7m.xstructural.maven_plugin](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.maven_plugin/overview)
+* [com.io7m.xstructural:com.io7m.xstructural.tests](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.tests/overview)
+* [com.io7m.xstructural:com.io7m.xstructural.vanilla](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.vanilla/overview)
+* [com.io7m.xstructural:com.io7m.xstructural.xml](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.xml/overview)
 </details>
 
 rebuilding **7 releases** of com.io7m.xstructural:com.io7m.xstructural:

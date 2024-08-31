@@ -9,10 +9,10 @@ Source code: [https://github.com/apache/cxf-build-utils.git](https://github.com/
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [org.apache.cxf.build-utils:cxf-build-utils](https://central.sonatype.com/artifact/org.apache.cxf.build-utils/cxf-build-utils/4.0.1)
-* [org.apache.cxf.build-utils:cxf-buildtools](https://central.sonatype.com/artifact/org.apache.cxf.build-utils/cxf-buildtools/4.0.1)
-* [org.apache.cxf.build-utils:cxf-xml2fastinfoset-plugin](https://central.sonatype.com/artifact/org.apache.cxf.build-utils/cxf-xml2fastinfoset-plugin/4.0.1)
-* [org.apache.cxf.build-utils:cxf-xml2fastinfoset-test](https://central.sonatype.com/artifact/org.apache.cxf.build-utils/cxf-xml2fastinfoset-test/4.0.1)
+* [org.apache.cxf.build-utils:cxf-build-utils](https://central.sonatype.com/artifact/org.apache.cxf.build-utils/cxf-build-utils/overview)
+* [org.apache.cxf.build-utils:cxf-buildtools](https://central.sonatype.com/artifact/org.apache.cxf.build-utils/cxf-buildtools/overview)
+* [org.apache.cxf.build-utils:cxf-xml2fastinfoset-plugin](https://central.sonatype.com/artifact/org.apache.cxf.build-utils/cxf-xml2fastinfoset-plugin/overview)
+* [org.apache.cxf.build-utils:cxf-xml2fastinfoset-test](https://central.sonatype.com/artifact/org.apache.cxf.build-utils/cxf-xml2fastinfoset-test/overview)
 </details>
 
 rebuilding **1 releases** of org.apache.cxf.build-utils:cxf-build-utils:

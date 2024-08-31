@@ -9,16 +9,16 @@ Source code: [https://github.com/apache/ws-wss4j.git](https://github.com/apache/
 
 <details><summary>This project defines 10 modules:</summary>
 
-* [org.apache.wss4j:wss4j](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/3.0.3)
-* [org.apache.wss4j:wss4j-bindings](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-bindings/3.0.3)
-* [org.apache.wss4j:wss4j-integration](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-integration/3.0.3)
-* [org.apache.wss4j:wss4j-parent](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-parent/3.0.3)
-* [org.apache.wss4j:wss4j-policy](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-policy/3.0.3)
-* [org.apache.wss4j:wss4j-ws-security-common](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-ws-security-common/3.0.3)
-* [org.apache.wss4j:wss4j-ws-security-dom](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-ws-security-dom/3.0.3)
-* [org.apache.wss4j:wss4j-ws-security-policy-stax](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-ws-security-policy-stax/3.0.3)
-* [org.apache.wss4j:wss4j-ws-security-stax](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-ws-security-stax/3.0.3)
-* [org.apache.wss4j:wss4j-ws-security-web](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-ws-security-web/3.0.3)
+* [org.apache.wss4j:wss4j](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/overview)
+* [org.apache.wss4j:wss4j-bindings](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-bindings/overview)
+* [org.apache.wss4j:wss4j-integration](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-integration/overview)
+* [org.apache.wss4j:wss4j-parent](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-parent/overview)
+* [org.apache.wss4j:wss4j-policy](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-policy/overview)
+* [org.apache.wss4j:wss4j-ws-security-common](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-ws-security-common/overview)
+* [org.apache.wss4j:wss4j-ws-security-dom](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-ws-security-dom/overview)
+* [org.apache.wss4j:wss4j-ws-security-policy-stax](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-ws-security-policy-stax/overview)
+* [org.apache.wss4j:wss4j-ws-security-stax](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-ws-security-stax/overview)
+* [org.apache.wss4j:wss4j-ws-security-web](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j-ws-security-web/overview)
 </details>
 
 rebuilding **8 releases** of org.apache.wss4j:wss4j:

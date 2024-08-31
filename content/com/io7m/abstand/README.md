@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/abstand.git](https://github.com/io7m/absta
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.abstand:com.io7m.abstand](https://central.sonatype.com/artifact/com.io7m.abstand/com.io7m.abstand/1.1.0)
-* [com.io7m.abstand:com.io7m.abstand.core](https://central.sonatype.com/artifact/com.io7m.abstand/com.io7m.abstand.core/1.1.0)
-* [com.io7m.abstand:com.io7m.abstand.generation](https://central.sonatype.com/artifact/com.io7m.abstand/com.io7m.abstand.generation/1.1.0)
-* [com.io7m.abstand:com.io7m.abstand.tests](https://central.sonatype.com/artifact/com.io7m.abstand/com.io7m.abstand.tests/1.1.0)
+* [com.io7m.abstand:com.io7m.abstand](https://central.sonatype.com/artifact/com.io7m.abstand/com.io7m.abstand/overview)
+* [com.io7m.abstand:com.io7m.abstand.core](https://central.sonatype.com/artifact/com.io7m.abstand/com.io7m.abstand.core/overview)
+* [com.io7m.abstand:com.io7m.abstand.generation](https://central.sonatype.com/artifact/com.io7m.abstand/com.io7m.abstand.generation/overview)
+* [com.io7m.abstand:com.io7m.abstand.tests](https://central.sonatype.com/artifact/com.io7m.abstand/com.io7m.abstand.tests/overview)
 </details>
 
 rebuilding **4 releases** of com.io7m.abstand:com.io7m.abstand:

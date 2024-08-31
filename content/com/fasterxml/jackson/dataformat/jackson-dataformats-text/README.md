@@ -9,11 +9,11 @@ Source code: [https://github.com/FasterXML/jackson-dataformats-text.git](https:/
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [com.fasterxml.jackson.dataformat:jackson-dataformat-csv](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-csv/2.17.2)
-* [com.fasterxml.jackson.dataformat:jackson-dataformat-properties](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-properties/2.17.2)
-* [com.fasterxml.jackson.dataformat:jackson-dataformat-toml](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-toml/2.17.2)
-* [com.fasterxml.jackson.dataformat:jackson-dataformat-yaml](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.17.2)
-* [com.fasterxml.jackson.dataformat:jackson-dataformats-text](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-text/2.17.2)
+* [com.fasterxml.jackson.dataformat:jackson-dataformat-csv](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-csv/overview)
+* [com.fasterxml.jackson.dataformat:jackson-dataformat-properties](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-properties/overview)
+* [com.fasterxml.jackson.dataformat:jackson-dataformat-toml](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-toml/overview)
+* [com.fasterxml.jackson.dataformat:jackson-dataformat-yaml](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/overview)
+* [com.fasterxml.jackson.dataformat:jackson-dataformats-text](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformats-text/overview)
 </details>
 
 rebuilding **6 releases** of com.fasterxml.jackson.dataformat:jackson-dataformats-text:

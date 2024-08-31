@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/dixmont.git](https://github.com/io7m/dixmo
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.dixmont:com.io7m.dixmont](https://central.sonatype.com/artifact/com.io7m.dixmont/com.io7m.dixmont/2.0.0)
-* [com.io7m.dixmont:com.io7m.dixmont.colors](https://central.sonatype.com/artifact/com.io7m.dixmont/com.io7m.dixmont.colors/2.0.0)
-* [com.io7m.dixmont:com.io7m.dixmont.core](https://central.sonatype.com/artifact/com.io7m.dixmont/com.io7m.dixmont.core/2.0.0)
-* [com.io7m.dixmont:com.io7m.dixmont.tests](https://central.sonatype.com/artifact/com.io7m.dixmont/com.io7m.dixmont.tests/2.0.0)
+* [com.io7m.dixmont:com.io7m.dixmont](https://central.sonatype.com/artifact/com.io7m.dixmont/com.io7m.dixmont/overview)
+* [com.io7m.dixmont:com.io7m.dixmont.colors](https://central.sonatype.com/artifact/com.io7m.dixmont/com.io7m.dixmont.colors/overview)
+* [com.io7m.dixmont:com.io7m.dixmont.core](https://central.sonatype.com/artifact/com.io7m.dixmont/com.io7m.dixmont.core/overview)
+* [com.io7m.dixmont:com.io7m.dixmont.tests](https://central.sonatype.com/artifact/com.io7m.dixmont/com.io7m.dixmont.tests/overview)
 </details>
 
 rebuilding **4 releases** of com.io7m.dixmont:com.io7m.dixmont:

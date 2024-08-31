@@ -9,13 +9,13 @@ Source code: [https://github.com/jeremylong/DependencyCheck](https://github.com/
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [org.owasp:dependency-check-ant](https://central.sonatype.com/artifact/org.owasp/dependency-check-ant/10.0.3)
-* [org.owasp:dependency-check-cli](https://central.sonatype.com/artifact/org.owasp/dependency-check-cli/10.0.3)
-* [org.owasp:dependency-check-core](https://central.sonatype.com/artifact/org.owasp/dependency-check-core/10.0.3)
-* [org.owasp:dependency-check-maven](https://central.sonatype.com/artifact/org.owasp/dependency-check-maven/10.0.3)
-* [org.owasp:dependency-check-parent](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/10.0.3)
-* [org.owasp:dependency-check-plugin](https://central.sonatype.com/artifact/org.owasp/dependency-check-plugin/10.0.3)
-* [org.owasp:dependency-check-utils](https://central.sonatype.com/artifact/org.owasp/dependency-check-utils/10.0.3)
+* [org.owasp:dependency-check-ant](https://central.sonatype.com/artifact/org.owasp/dependency-check-ant/overview)
+* [org.owasp:dependency-check-cli](https://central.sonatype.com/artifact/org.owasp/dependency-check-cli/overview)
+* [org.owasp:dependency-check-core](https://central.sonatype.com/artifact/org.owasp/dependency-check-core/overview)
+* [org.owasp:dependency-check-maven](https://central.sonatype.com/artifact/org.owasp/dependency-check-maven/overview)
+* [org.owasp:dependency-check-parent](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/overview)
+* [org.owasp:dependency-check-plugin](https://central.sonatype.com/artifact/org.owasp/dependency-check-plugin/overview)
+* [org.owasp:dependency-check-utils](https://central.sonatype.com/artifact/org.owasp/dependency-check-utils/overview)
 </details>
 
 rebuilding **40 releases** of org.owasp:dependency-check-parent:

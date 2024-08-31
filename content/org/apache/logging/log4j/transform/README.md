@@ -9,11 +9,11 @@ Source code: [https://github.com/apache/logging-log4j-transform.git](https://git
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [org.apache.logging.log4j:log4j-transform-bom](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-transform-bom/0.1.0)
-* [org.apache.logging.log4j:log4j-transform-maven-plugin](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-transform-maven-plugin/0.1.0)
-* [org.apache.logging.log4j:log4j-transform-maven-shade-plugin-extensions](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-transform-maven-shade-plugin-extensions/0.1.0)
-* [org.apache.logging.log4j:log4j-transform-parent](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-transform-parent/0.1.0)
-* [org.apache.logging.log4j:log4j-weaver](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-weaver/0.1.0)
+* [org.apache.logging.log4j:log4j-transform-bom](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-transform-bom/overview)
+* [org.apache.logging.log4j:log4j-transform-maven-plugin](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-transform-maven-plugin/overview)
+* [org.apache.logging.log4j:log4j-transform-maven-shade-plugin-extensions](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-transform-maven-shade-plugin-extensions/overview)
+* [org.apache.logging.log4j:log4j-transform-parent](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-transform-parent/overview)
+* [org.apache.logging.log4j:log4j-weaver](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-weaver/overview)
 </details>
 
 rebuilding **1 releases** of org.apache.logging.log4j:log4j-transform-bom:

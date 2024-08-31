@@ -9,9 +9,9 @@ Source code: [https://github.com/kordamp/jarviz.git](https://github.com/kordamp/
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [org.kordamp.jarviz:jarviz-cli](https://central.sonatype.com/artifact/org.kordamp.jarviz/jarviz-cli/0.3.0)
-* [org.kordamp.jarviz:jarviz-core](https://central.sonatype.com/artifact/org.kordamp.jarviz/jarviz-core/0.3.0)
-* [org.kordamp.jarviz:jarviz-tool-provider](https://central.sonatype.com/artifact/org.kordamp.jarviz/jarviz-tool-provider/0.3.0)
+* [org.kordamp.jarviz:jarviz-cli](https://central.sonatype.com/artifact/org.kordamp.jarviz/jarviz-cli/overview)
+* [org.kordamp.jarviz:jarviz-core](https://central.sonatype.com/artifact/org.kordamp.jarviz/jarviz-core/overview)
+* [org.kordamp.jarviz:jarviz-tool-provider](https://central.sonatype.com/artifact/org.kordamp.jarviz/jarviz-tool-provider/overview)
 </details>
 
 rebuilding **1 releases** of org.kordamp.jarviz:jarviz-core:

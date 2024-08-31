@@ -9,12 +9,12 @@ Source code: [https://github.com/io7m/xoanon.git](https://github.com/io7m/xoanon
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [com.io7m.xoanon:com.io7m.xoanon](https://central.sonatype.com/artifact/com.io7m.xoanon/com.io7m.xoanon/2.0.0)
-* [com.io7m.xoanon:com.io7m.xoanon.commander](https://central.sonatype.com/artifact/com.io7m.xoanon/com.io7m.xoanon.commander/2.0.0)
-* [com.io7m.xoanon:com.io7m.xoanon.commander.api](https://central.sonatype.com/artifact/com.io7m.xoanon/com.io7m.xoanon.commander.api/2.0.0)
-* [com.io7m.xoanon:com.io7m.xoanon.demo](https://central.sonatype.com/artifact/com.io7m.xoanon/com.io7m.xoanon.demo/2.0.0)
-* [com.io7m.xoanon:com.io7m.xoanon.extension](https://central.sonatype.com/artifact/com.io7m.xoanon/com.io7m.xoanon.extension/2.0.0)
-* [com.io7m.xoanon:com.io7m.xoanon.tests](https://central.sonatype.com/artifact/com.io7m.xoanon/com.io7m.xoanon.tests/2.0.0)
+* [com.io7m.xoanon:com.io7m.xoanon](https://central.sonatype.com/artifact/com.io7m.xoanon/com.io7m.xoanon/overview)
+* [com.io7m.xoanon:com.io7m.xoanon.commander](https://central.sonatype.com/artifact/com.io7m.xoanon/com.io7m.xoanon.commander/overview)
+* [com.io7m.xoanon:com.io7m.xoanon.commander.api](https://central.sonatype.com/artifact/com.io7m.xoanon/com.io7m.xoanon.commander.api/overview)
+* [com.io7m.xoanon:com.io7m.xoanon.demo](https://central.sonatype.com/artifact/com.io7m.xoanon/com.io7m.xoanon.demo/overview)
+* [com.io7m.xoanon:com.io7m.xoanon.extension](https://central.sonatype.com/artifact/com.io7m.xoanon/com.io7m.xoanon.extension/overview)
+* [com.io7m.xoanon:com.io7m.xoanon.tests](https://central.sonatype.com/artifact/com.io7m.xoanon/com.io7m.xoanon.tests/overview)
 </details>
 
 rebuilding **7 releases** of com.io7m.xoanon:com.io7m.xoanon:

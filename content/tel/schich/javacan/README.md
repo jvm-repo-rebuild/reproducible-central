@@ -9,9 +9,9 @@ Source code: [https://github.com/pschichtel/JavaCAN.git](https://github.com/psch
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [tel.schich:javacan](https://central.sonatype.com/artifact/tel.schich/javacan/3.2.2)
-* [tel.schich:javacan-core](https://central.sonatype.com/artifact/tel.schich/javacan-core/3.2.2)
-* [tel.schich:javacan-epoll](https://central.sonatype.com/artifact/tel.schich/javacan-epoll/3.2.2)
+* [tel.schich:javacan](https://central.sonatype.com/artifact/tel.schich/javacan/overview)
+* [tel.schich:javacan-core](https://central.sonatype.com/artifact/tel.schich/javacan-core/overview)
+* [tel.schich:javacan-epoll](https://central.sonatype.com/artifact/tel.schich/javacan-epoll/overview)
 </details>
 
 rebuilding **1 releases** of tel.schich:javacan:

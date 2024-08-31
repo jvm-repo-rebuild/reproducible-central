@@ -9,14 +9,14 @@ Source code: [https://github.com/mockito/mockito.git](https://github.com/mockito
 
 <details><summary>This project defines 8 modules:</summary>
 
-* [org.mockito:mockito-android](https://central.sonatype.com/artifact/org.mockito/mockito-android/5.13.0)
-* [org.mockito:mockito-bom](https://central.sonatype.com/artifact/org.mockito/mockito-bom/5.13.0)
-* [org.mockito:mockito-core](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.13.0)
-* [org.mockito:mockito-errorprone](https://central.sonatype.com/artifact/org.mockito/mockito-errorprone/5.13.0)
-* [org.mockito:mockito-inline](https://central.sonatype.com/artifact/org.mockito/mockito-inline/5.13.0)
-* [org.mockito:mockito-junit-jupiter](https://central.sonatype.com/artifact/org.mockito/mockito-junit-jupiter/5.13.0)
-* [org.mockito:mockito-proxy](https://central.sonatype.com/artifact/org.mockito/mockito-proxy/5.13.0)
-* [org.mockito:mockito-subclass](https://central.sonatype.com/artifact/org.mockito/mockito-subclass/5.13.0)
+* [org.mockito:mockito-android](https://central.sonatype.com/artifact/org.mockito/mockito-android/overview)
+* [org.mockito:mockito-bom](https://central.sonatype.com/artifact/org.mockito/mockito-bom/overview)
+* [org.mockito:mockito-core](https://central.sonatype.com/artifact/org.mockito/mockito-core/overview)
+* [org.mockito:mockito-errorprone](https://central.sonatype.com/artifact/org.mockito/mockito-errorprone/overview)
+* [org.mockito:mockito-inline](https://central.sonatype.com/artifact/org.mockito/mockito-inline/overview)
+* [org.mockito:mockito-junit-jupiter](https://central.sonatype.com/artifact/org.mockito/mockito-junit-jupiter/overview)
+* [org.mockito:mockito-proxy](https://central.sonatype.com/artifact/org.mockito/mockito-proxy/overview)
+* [org.mockito:mockito-subclass](https://central.sonatype.com/artifact/org.mockito/mockito-subclass/overview)
 </details>
 
 rebuilding **26 releases** of org.mockito:mockito-core:

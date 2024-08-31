@@ -9,23 +9,23 @@ Source code: [https://github.com/FasterXML/jackson-jr.git](https://github.com/Fa
 
 <details><summary>This project defines 8 modules:</summary>
 
-* [com.fasterxml.jackson.jr:jackson-jr-all](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-all/2.17.2)
-* [com.fasterxml.jackson.jr:jackson-jr-annotation-support](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-annotation-support/2.17.2)
-* [com.fasterxml.jackson.jr:jackson-jr-extension-javatime](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-extension-javatime/2.17.2)
-* [com.fasterxml.jackson.jr:jackson-jr-objects](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-objects/2.17.2)
-* [com.fasterxml.jackson.jr:jackson-jr-parent](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.17.2)
-* [com.fasterxml.jackson.jr:jackson-jr-retrofit2](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-retrofit2/2.17.2)
-* [com.fasterxml.jackson.jr:jackson-jr-stree](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-stree/2.17.2)
-* [com.fasterxml.jackson.jr:jackson-jr-test-module](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-test-module/2.17.2)
+* [com.fasterxml.jackson.jr:jackson-jr-all](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-all/overview)
+* [com.fasterxml.jackson.jr:jackson-jr-annotation-support](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-annotation-support/overview)
+* [com.fasterxml.jackson.jr:jackson-jr-extension-javatime](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-extension-javatime/overview)
+* [com.fasterxml.jackson.jr:jackson-jr-objects](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-objects/overview)
+* [com.fasterxml.jackson.jr:jackson-jr-parent](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/overview)
+* [com.fasterxml.jackson.jr:jackson-jr-retrofit2](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-retrofit2/overview)
+* [com.fasterxml.jackson.jr:jackson-jr-stree](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-stree/overview)
+* [com.fasterxml.jackson.jr:jackson-jr-test-module](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-test-module/overview)
 </details>
 
-rebuilding **11 releases** of com.fasterxml.jackson.jr:jackson-jr-parent:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **12 releases** of com.fasterxml.jackson.jr:jackson-jr-parent:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.18.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.18.0-rc1/pom) | | | |
+| [2.18.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.18.0-rc1/pom) | [mvn jdk8](jackson-jr-2.18.0-rc1.buildspec) | [result](jackson-jr-parent-2.18.0-rc1.buildinfo): [24 :white_check_mark: ](jackson-jr-parent-2.18.0-rc1.buildcompare) | 1.6M |
 | [2.17.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.17.2/pom) | [mvn jdk8](jackson-jr-2.17.2.buildspec) | [result](jackson-jr-parent-2.17.2.buildinfo): [15 :white_check_mark:  10 :warning:](jackson-jr-parent-2.17.2.buildcompare) | 1.6M |
 | [2.17.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.17.1/pom) | [mvn jdk8](jackson-jr-2.17.1.buildspec) | [result](jackson-jr-parent-2.17.1.buildinfo): [15 :white_check_mark:  10 :warning:](jackson-jr-parent-2.17.1.buildcompare) | 1.6M |
 | [2.17.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.17.0/pom) | [mvn jdk8](jackson-jr-2.17.0.buildspec) | [result](jackson-jr-parent-2.17.0.buildinfo): [14 :white_check_mark:  11 :warning:](jackson-jr-parent-2.17.0.buildcompare) [:mag:](jackson-jr-parent-2.17.0.diffoscope) | 1.6M |

@@ -9,14 +9,14 @@ Source code: [https://github.com/apache/zookeeper.git](https://github.com/apache
 
 <details><summary>This project defines 8 modules:</summary>
 
-* [org.apache.zookeeper:parent](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.2)
-* [org.apache.zookeeper:zookeeper](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper/3.9.2)
-* [org.apache.zookeeper:zookeeper-contrib](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper-contrib/3.9.2)
-* [org.apache.zookeeper:zookeeper-contrib-fatjar](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper-contrib-fatjar/3.9.2)
-* [org.apache.zookeeper:zookeeper-it](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper-it/3.9.2)
-* [org.apache.zookeeper:zookeeper-jute](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper-jute/3.9.2)
-* [org.apache.zookeeper:zookeeper-metrics-providers](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper-metrics-providers/3.9.2)
-* [org.apache.zookeeper:zookeeper-prometheus-metrics](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper-prometheus-metrics/3.9.2)
+* [org.apache.zookeeper:parent](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/overview)
+* [org.apache.zookeeper:zookeeper](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper/overview)
+* [org.apache.zookeeper:zookeeper-contrib](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper-contrib/overview)
+* [org.apache.zookeeper:zookeeper-contrib-fatjar](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper-contrib-fatjar/overview)
+* [org.apache.zookeeper:zookeeper-it](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper-it/overview)
+* [org.apache.zookeeper:zookeeper-jute](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper-jute/overview)
+* [org.apache.zookeeper:zookeeper-metrics-providers](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper-metrics-providers/overview)
+* [org.apache.zookeeper:zookeeper-prometheus-metrics](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper-prometheus-metrics/overview)
 </details>
 
 rebuilding **4 releases** of org.apache.zookeeper:parent:

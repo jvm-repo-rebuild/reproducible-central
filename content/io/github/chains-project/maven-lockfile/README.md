@@ -9,9 +9,9 @@ Source code: [https://github.com/chains-project/maven-lockfile.git](https://gith
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [io.github.chains-project:maven-lockfile](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/5.1.0)
-* [io.github.chains-project:maven-lockfile-github-action](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile-github-action/5.1.0)
-* [io.github.chains-project:maven-lockfile-parent](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile-parent/5.1.0)
+* [io.github.chains-project:maven-lockfile](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/overview)
+* [io.github.chains-project:maven-lockfile-github-action](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile-github-action/overview)
+* [io.github.chains-project:maven-lockfile-parent](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile-parent/overview)
 </details>
 
 rebuilding **5 releases** of io.github.chains-project:maven-lockfile:

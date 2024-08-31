@@ -9,10 +9,10 @@ Source code: [https://github.com/tomitribe/transformer.git](https://github.com/t
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [org.tomitribe.transformer:org.eclipse.transformer](https://central.sonatype.com/artifact/org.tomitribe.transformer/org.eclipse.transformer/0.1.1a)
-* [org.tomitribe.transformer:org.eclipse.transformer.cli](https://central.sonatype.com/artifact/org.tomitribe.transformer/org.eclipse.transformer.cli/0.1.1a)
-* [org.tomitribe.transformer:org.eclipse.transformer.maven](https://central.sonatype.com/artifact/org.tomitribe.transformer/org.eclipse.transformer.maven/0.1.1a)
-* [org.tomitribe.transformer:org.eclipse.transformer.parent](https://central.sonatype.com/artifact/org.tomitribe.transformer/org.eclipse.transformer.parent/0.1.1a)
+* [org.tomitribe.transformer:org.eclipse.transformer](https://central.sonatype.com/artifact/org.tomitribe.transformer/org.eclipse.transformer/overview)
+* [org.tomitribe.transformer:org.eclipse.transformer.cli](https://central.sonatype.com/artifact/org.tomitribe.transformer/org.eclipse.transformer.cli/overview)
+* [org.tomitribe.transformer:org.eclipse.transformer.maven](https://central.sonatype.com/artifact/org.tomitribe.transformer/org.eclipse.transformer.maven/overview)
+* [org.tomitribe.transformer:org.eclipse.transformer.parent](https://central.sonatype.com/artifact/org.tomitribe.transformer/org.eclipse.transformer.parent/overview)
 </details>
 
 rebuilding **2 releases** of org.tomitribe.transformer:org.eclipse.transformer.parent:

@@ -9,12 +9,12 @@ Source code: [https://github.com/io7m/jsamplebuffer.git](https://github.com/io7m
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [com.io7m.jsamplebuffer:com.io7m.jsamplebuffer](https://central.sonatype.com/artifact/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer/1.0.0)
-* [com.io7m.jsamplebuffer:com.io7m.jsamplebuffer.api](https://central.sonatype.com/artifact/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.api/1.0.0)
-* [com.io7m.jsamplebuffer:com.io7m.jsamplebuffer.documentation](https://central.sonatype.com/artifact/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.documentation/1.0.0)
-* [com.io7m.jsamplebuffer:com.io7m.jsamplebuffer.tests](https://central.sonatype.com/artifact/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.tests/1.0.0)
-* [com.io7m.jsamplebuffer:com.io7m.jsamplebuffer.vanilla](https://central.sonatype.com/artifact/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.vanilla/1.0.0)
-* [com.io7m.jsamplebuffer:com.io7m.jsamplebuffer.xmedia](https://central.sonatype.com/artifact/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.xmedia/1.0.0)
+* [com.io7m.jsamplebuffer:com.io7m.jsamplebuffer](https://central.sonatype.com/artifact/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer/overview)
+* [com.io7m.jsamplebuffer:com.io7m.jsamplebuffer.api](https://central.sonatype.com/artifact/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.api/overview)
+* [com.io7m.jsamplebuffer:com.io7m.jsamplebuffer.documentation](https://central.sonatype.com/artifact/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.documentation/overview)
+* [com.io7m.jsamplebuffer:com.io7m.jsamplebuffer.tests](https://central.sonatype.com/artifact/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.tests/overview)
+* [com.io7m.jsamplebuffer:com.io7m.jsamplebuffer.vanilla](https://central.sonatype.com/artifact/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.vanilla/overview)
+* [com.io7m.jsamplebuffer:com.io7m.jsamplebuffer.xmedia](https://central.sonatype.com/artifact/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.xmedia/overview)
 </details>
 
 rebuilding **5 releases** of com.io7m.jsamplebuffer:com.io7m.jsamplebuffer:

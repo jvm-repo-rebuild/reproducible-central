@@ -9,8 +9,8 @@ Source code: [https://github.com/jpmml/jpmml-statsmodels.git](https://github.com
 
 <details><summary>This project defines 2 modules:</summary>
 
-* [org.jpmml:jpmml-statsmodels](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.1.1)
-* [org.jpmml:pmml-statsmodels](https://central.sonatype.com/artifact/org.jpmml/pmml-statsmodels/1.1.1)
+* [org.jpmml:jpmml-statsmodels](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/overview)
+* [org.jpmml:pmml-statsmodels](https://central.sonatype.com/artifact/org.jpmml/pmml-statsmodels/overview)
 </details>
 
 rebuilding **2 releases** of org.jpmml:jpmml-statsmodels:

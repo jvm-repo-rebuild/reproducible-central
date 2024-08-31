@@ -9,13 +9,13 @@ Source code: [https://github.com/apache/incubator-paimon-shade.git](https://gith
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [org.apache.paimon:paimon-shade](https://central.sonatype.com/artifact/org.apache.paimon/paimon-shade/0.6.0-incubating)
-* [org.apache.paimon:paimon-shade-caffeine-2](https://central.sonatype.com/artifact/org.apache.paimon/paimon-shade-caffeine-2/0.6.0-incubating)
-* [org.apache.paimon:paimon-shade-guava-30](https://central.sonatype.com/artifact/org.apache.paimon/paimon-shade-guava-30/0.6.0-incubating)
-* [org.apache.paimon:paimon-shade-jackson-2](https://central.sonatype.com/artifact/org.apache.paimon/paimon-shade-jackson-2/0.6.0-incubating)
-* [org.apache.paimon:paimon-shade-jackson-module-jsonSchema-2](https://central.sonatype.com/artifact/org.apache.paimon/paimon-shade-jackson-module-jsonSchema-2/0.6.0-incubating)
-* [org.apache.paimon:paimon-shade-jackson-parent](https://central.sonatype.com/artifact/org.apache.paimon/paimon-shade-jackson-parent/0.6.0-incubating)
-* [org.apache.paimon:paimon-shade-netty-4](https://central.sonatype.com/artifact/org.apache.paimon/paimon-shade-netty-4/0.6.0-incubating)
+* [org.apache.paimon:paimon-shade](https://central.sonatype.com/artifact/org.apache.paimon/paimon-shade/overview)
+* [org.apache.paimon:paimon-shade-caffeine-2](https://central.sonatype.com/artifact/org.apache.paimon/paimon-shade-caffeine-2/overview)
+* [org.apache.paimon:paimon-shade-guava-30](https://central.sonatype.com/artifact/org.apache.paimon/paimon-shade-guava-30/overview)
+* [org.apache.paimon:paimon-shade-jackson-2](https://central.sonatype.com/artifact/org.apache.paimon/paimon-shade-jackson-2/overview)
+* [org.apache.paimon:paimon-shade-jackson-module-jsonSchema-2](https://central.sonatype.com/artifact/org.apache.paimon/paimon-shade-jackson-module-jsonSchema-2/overview)
+* [org.apache.paimon:paimon-shade-jackson-parent](https://central.sonatype.com/artifact/org.apache.paimon/paimon-shade-jackson-parent/overview)
+* [org.apache.paimon:paimon-shade-netty-4](https://central.sonatype.com/artifact/org.apache.paimon/paimon-shade-netty-4/overview)
 </details>
 
 rebuilding **1 releases** of org.apache.paimon:paimon-shade:

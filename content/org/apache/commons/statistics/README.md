@@ -9,11 +9,11 @@ Source code: [https://github.com/apache/commons-statistics.git](https://github.c
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [org.apache.commons:commons-statistics-descriptive](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-descriptive/1.1)
-* [org.apache.commons:commons-statistics-distribution](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-distribution/1.1)
-* [org.apache.commons:commons-statistics-inference](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-inference/1.1)
-* [org.apache.commons:commons-statistics-parent](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-parent/1.1)
-* [org.apache.commons:commons-statistics-ranking](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-ranking/1.1)
+* [org.apache.commons:commons-statistics-descriptive](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-descriptive/overview)
+* [org.apache.commons:commons-statistics-distribution](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-distribution/overview)
+* [org.apache.commons:commons-statistics-inference](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-inference/overview)
+* [org.apache.commons:commons-statistics-parent](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-parent/overview)
+* [org.apache.commons:commons-statistics-ranking](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-ranking/overview)
 </details>
 
 rebuilding **2 releases** of org.apache.commons:commons-statistics-parent:

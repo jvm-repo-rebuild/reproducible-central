@@ -9,10 +9,10 @@ Source code: [https://github.com/OpenAPITools/openapi-diff.git](https://github.c
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [org.openapitools.openapidiff:openapi-diff-cli](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-cli/2.1.0-beta.11)
-* [org.openapitools.openapidiff:openapi-diff-core](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-core/2.1.0-beta.11)
-* [org.openapitools.openapidiff:openapi-diff-maven](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-maven/2.1.0-beta.11)
-* [org.openapitools.openapidiff:openapi-diff-parent](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.1.0-beta.11)
+* [org.openapitools.openapidiff:openapi-diff-cli](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-cli/overview)
+* [org.openapitools.openapidiff:openapi-diff-core](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-core/overview)
+* [org.openapitools.openapidiff:openapi-diff-maven](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-maven/overview)
+* [org.openapitools.openapidiff:openapi-diff-parent](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/overview)
 </details>
 
 rebuilding **12 releases** of org.openapitools.openapidiff:openapi-diff-parent:

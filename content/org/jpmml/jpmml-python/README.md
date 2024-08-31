@@ -9,9 +9,9 @@ Source code: [https://github.com/jpmml/jpmml-python.git](https://github.com/jpmm
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [org.jpmml:jpmml-python](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.2.4)
-* [org.jpmml:pmml-python](https://central.sonatype.com/artifact/org.jpmml/pmml-python/1.2.4)
-* [org.jpmml:pmml-python-testing](https://central.sonatype.com/artifact/org.jpmml/pmml-python-testing/1.2.4)
+* [org.jpmml:jpmml-python](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/overview)
+* [org.jpmml:pmml-python](https://central.sonatype.com/artifact/org.jpmml/pmml-python/overview)
+* [org.jpmml:pmml-python-testing](https://central.sonatype.com/artifact/org.jpmml/pmml-python-testing/overview)
 </details>
 
 rebuilding **3 releases** of org.jpmml:jpmml-python:

@@ -9,10 +9,10 @@ Source code: [https://github.com/michael-o/tomcatspnegoad.git](https://github.co
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [net.sf.michael-o.tomcat:tomcat-authnz-spnego-ad](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat-authnz-spnego-ad/4.2.0)
-* [net.sf.michael-o.tomcat:tomcat101-authnz-spnego-ad](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat101-authnz-spnego-ad/4.2.0)
-* [net.sf.michael-o.tomcat:tomcat85-authnz-spnego-ad](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat85-authnz-spnego-ad/4.2.0)
-* [net.sf.michael-o.tomcat:tomcat90-authnz-spnego-ad](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat90-authnz-spnego-ad/4.2.0)
+* [net.sf.michael-o.tomcat:tomcat-authnz-spnego-ad](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat-authnz-spnego-ad/overview)
+* [net.sf.michael-o.tomcat:tomcat101-authnz-spnego-ad](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat101-authnz-spnego-ad/overview)
+* [net.sf.michael-o.tomcat:tomcat85-authnz-spnego-ad](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat85-authnz-spnego-ad/overview)
+* [net.sf.michael-o.tomcat:tomcat90-authnz-spnego-ad](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat90-authnz-spnego-ad/overview)
 </details>
 
 rebuilding **5 releases** of net.sf.michael-o.tomcat:tomcat-authnz-spnego-ad:

@@ -9,8 +9,8 @@ Source code: [https://github.com/mybatis/scala.git](https://github.com/mybatis/s
 
 <details><summary>This project defines 2 modules:</summary>
 
-* [org.mybatis.scala:mybatis-scala-core_2.13](https://central.sonatype.com/artifact/org.mybatis.scala/mybatis-scala-core_2.13/1.3.1)
-* [org.mybatis.scala:mybatis-scala-parent_2.13](https://central.sonatype.com/artifact/org.mybatis.scala/mybatis-scala-parent_2.13/1.3.1)
+* [org.mybatis.scala:mybatis-scala-core_2.13](https://central.sonatype.com/artifact/org.mybatis.scala/mybatis-scala-core_2.13/overview)
+* [org.mybatis.scala:mybatis-scala-parent_2.13](https://central.sonatype.com/artifact/org.mybatis.scala/mybatis-scala-parent_2.13/overview)
 </details>
 
 rebuilding **1 releases** of org.mybatis.scala:mybatis-scala-parent_2.13:

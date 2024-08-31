@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/tabla.git](https://github.com/io7m/tabla.g
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.tabla:com.io7m.tabla](https://central.sonatype.com/artifact/com.io7m.tabla/com.io7m.tabla/1.0.0)
-* [com.io7m.tabla:com.io7m.tabla.cmdline](https://central.sonatype.com/artifact/com.io7m.tabla/com.io7m.tabla.cmdline/1.0.0)
-* [com.io7m.tabla:com.io7m.tabla.core](https://central.sonatype.com/artifact/com.io7m.tabla/com.io7m.tabla.core/1.0.0)
-* [com.io7m.tabla:com.io7m.tabla.tests](https://central.sonatype.com/artifact/com.io7m.tabla/com.io7m.tabla.tests/1.0.0)
+* [com.io7m.tabla:com.io7m.tabla](https://central.sonatype.com/artifact/com.io7m.tabla/com.io7m.tabla/overview)
+* [com.io7m.tabla:com.io7m.tabla.cmdline](https://central.sonatype.com/artifact/com.io7m.tabla/com.io7m.tabla.cmdline/overview)
+* [com.io7m.tabla:com.io7m.tabla.core](https://central.sonatype.com/artifact/com.io7m.tabla/com.io7m.tabla.core/overview)
+* [com.io7m.tabla:com.io7m.tabla.tests](https://central.sonatype.com/artifact/com.io7m.tabla/com.io7m.tabla.tests/overview)
 </details>
 
 rebuilding **3 releases** of com.io7m.tabla:com.io7m.tabla:

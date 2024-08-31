@@ -9,11 +9,11 @@ Source code: [https://github.com/apache/plc4x-build-tools.git](https://github.co
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [org.apache.plc4x.plugins:plc4x-code-generation](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-code-generation/1.7.0)
-* [org.apache.plc4x.plugins:plc4x-code-generation-language-base](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-code-generation-language-base/1.7.0)
-* [org.apache.plc4x.plugins:plc4x-code-generation-protocol-base](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-code-generation-protocol-base/1.7.0)
-* [org.apache.plc4x.plugins:plc4x-code-generation-types-base](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-code-generation-types-base/1.7.0)
-* [org.apache.plc4x.plugins:plc4x-maven-plugin](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-maven-plugin/1.7.0)
+* [org.apache.plc4x.plugins:plc4x-code-generation](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-code-generation/overview)
+* [org.apache.plc4x.plugins:plc4x-code-generation-language-base](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-code-generation-language-base/overview)
+* [org.apache.plc4x.plugins:plc4x-code-generation-protocol-base](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-code-generation-protocol-base/overview)
+* [org.apache.plc4x.plugins:plc4x-code-generation-types-base](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-code-generation-types-base/overview)
+* [org.apache.plc4x.plugins:plc4x-maven-plugin](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-maven-plugin/overview)
 </details>
 
 rebuilding **2 releases** of org.apache.plc4x.plugins:plc4x-code-generation:

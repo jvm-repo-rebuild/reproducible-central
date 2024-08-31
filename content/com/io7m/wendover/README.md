@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/wendover.git](https://github.com/io7m/wend
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.wendover:com.io7m.wendover](https://central.sonatype.com/artifact/com.io7m.wendover/com.io7m.wendover/1.0.2)
-* [com.io7m.wendover:com.io7m.wendover.core](https://central.sonatype.com/artifact/com.io7m.wendover/com.io7m.wendover.core/1.0.2)
-* [com.io7m.wendover:com.io7m.wendover.tests](https://central.sonatype.com/artifact/com.io7m.wendover/com.io7m.wendover.tests/1.0.2)
+* [com.io7m.wendover:com.io7m.wendover](https://central.sonatype.com/artifact/com.io7m.wendover/com.io7m.wendover/overview)
+* [com.io7m.wendover:com.io7m.wendover.core](https://central.sonatype.com/artifact/com.io7m.wendover/com.io7m.wendover.core/overview)
+* [com.io7m.wendover:com.io7m.wendover.tests](https://central.sonatype.com/artifact/com.io7m.wendover/com.io7m.wendover.tests/overview)
 </details>
 
 rebuilding **6 releases** of com.io7m.wendover:com.io7m.wendover:

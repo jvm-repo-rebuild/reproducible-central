@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/jintegers.git](https://github.com/io7m/jin
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.jintegers:com.io7m.jintegers](https://central.sonatype.com/artifact/com.io7m.jintegers/com.io7m.jintegers/3.0.1)
-* [com.io7m.jintegers:com.io7m.jintegers.core](https://central.sonatype.com/artifact/com.io7m.jintegers/com.io7m.jintegers.core/3.0.1)
-* [com.io7m.jintegers:com.io7m.jintegers.documentation](https://central.sonatype.com/artifact/com.io7m.jintegers/com.io7m.jintegers.documentation/3.0.1)
-* [com.io7m.jintegers:com.io7m.jintegers.tests](https://central.sonatype.com/artifact/com.io7m.jintegers/com.io7m.jintegers.tests/3.0.1)
+* [com.io7m.jintegers:com.io7m.jintegers](https://central.sonatype.com/artifact/com.io7m.jintegers/com.io7m.jintegers/overview)
+* [com.io7m.jintegers:com.io7m.jintegers.core](https://central.sonatype.com/artifact/com.io7m.jintegers/com.io7m.jintegers.core/overview)
+* [com.io7m.jintegers:com.io7m.jintegers.documentation](https://central.sonatype.com/artifact/com.io7m.jintegers/com.io7m.jintegers.documentation/overview)
+* [com.io7m.jintegers:com.io7m.jintegers.tests](https://central.sonatype.com/artifact/com.io7m.jintegers/com.io7m.jintegers.tests/overview)
 </details>
 
 rebuilding **2 releases** of com.io7m.jintegers:com.io7m.jintegers:

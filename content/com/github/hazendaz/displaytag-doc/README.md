@@ -9,9 +9,9 @@ Source code: [https://github.com/hazendaz/displaytag.git](https://github.com/haz
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.github.hazendaz:displaytag](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag/3.0.3)
-* [com.github.hazendaz:displaytag-doc](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.0.3)
-* [com.github.hazendaz:displaytag-examples](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-examples/3.0.3)
+* [com.github.hazendaz:displaytag](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag/overview)
+* [com.github.hazendaz:displaytag-doc](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/overview)
+* [com.github.hazendaz:displaytag-examples](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-examples/overview)
 </details>
 
 rebuilding **8 releases** of com.github.hazendaz:displaytag-doc:

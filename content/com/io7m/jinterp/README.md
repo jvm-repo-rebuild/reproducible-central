@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/jinterp.git](https://github.com/io7m/jinte
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.jinterp:com.io7m.jinterp](https://central.sonatype.com/artifact/com.io7m.jinterp/com.io7m.jinterp/2.0.1)
-* [com.io7m.jinterp:com.io7m.jinterp.core](https://central.sonatype.com/artifact/com.io7m.jinterp/com.io7m.jinterp.core/2.0.1)
-* [com.io7m.jinterp:com.io7m.jinterp.tests](https://central.sonatype.com/artifact/com.io7m.jinterp/com.io7m.jinterp.tests/2.0.1)
+* [com.io7m.jinterp:com.io7m.jinterp](https://central.sonatype.com/artifact/com.io7m.jinterp/com.io7m.jinterp/overview)
+* [com.io7m.jinterp:com.io7m.jinterp.core](https://central.sonatype.com/artifact/com.io7m.jinterp/com.io7m.jinterp.core/overview)
+* [com.io7m.jinterp:com.io7m.jinterp.tests](https://central.sonatype.com/artifact/com.io7m.jinterp/com.io7m.jinterp.tests/overview)
 </details>
 
 rebuilding **1 releases** of com.io7m.jinterp:com.io7m.jinterp:

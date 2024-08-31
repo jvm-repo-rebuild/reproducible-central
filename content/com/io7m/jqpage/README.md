@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/jqpage.git](https://github.com/io7m/jqpage
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.jqpage:com.io7m.jqpage](https://central.sonatype.com/artifact/com.io7m.jqpage/com.io7m.jqpage/1.0.0)
-* [com.io7m.jqpage:com.io7m.jqpage.core](https://central.sonatype.com/artifact/com.io7m.jqpage/com.io7m.jqpage.core/1.0.0)
-* [com.io7m.jqpage:com.io7m.jqpage.tests](https://central.sonatype.com/artifact/com.io7m.jqpage/com.io7m.jqpage.tests/1.0.0)
+* [com.io7m.jqpage:com.io7m.jqpage](https://central.sonatype.com/artifact/com.io7m.jqpage/com.io7m.jqpage/overview)
+* [com.io7m.jqpage:com.io7m.jqpage.core](https://central.sonatype.com/artifact/com.io7m.jqpage/com.io7m.jqpage.core/overview)
+* [com.io7m.jqpage:com.io7m.jqpage.tests](https://central.sonatype.com/artifact/com.io7m.jqpage/com.io7m.jqpage.tests/overview)
 </details>
 
 rebuilding **4 releases** of com.io7m.jqpage:com.io7m.jqpage:

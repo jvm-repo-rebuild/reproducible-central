@@ -9,8 +9,8 @@ Source code: [https://github.com/jskov/reproducible-gradle.git](https://github.c
 
 <details><summary>This project defines 2 modules:</summary>
 
-* [dk.mada.reproducible:dk.mada.reproducible.gradle.plugin](https://central.sonatype.com/artifact/dk.mada.reproducible/dk.mada.reproducible.gradle.plugin/1.0.2)
-* [dk.mada.reproducible:reproducible-gradle](https://central.sonatype.com/artifact/dk.mada.reproducible/reproducible-gradle/1.0.2)
+* [dk.mada.reproducible:dk.mada.reproducible.gradle.plugin](https://central.sonatype.com/artifact/dk.mada.reproducible/dk.mada.reproducible.gradle.plugin/overview)
+* [dk.mada.reproducible:reproducible-gradle](https://central.sonatype.com/artifact/dk.mada.reproducible/reproducible-gradle/overview)
 </details>
 
 rebuilding **1 releases** of dk.mada.reproducible:reproducible-gradle:

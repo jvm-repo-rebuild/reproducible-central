@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/jcoords.git](https://github.com/io7m/jcoor
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.jcoords:com.io7m.jcoords](https://central.sonatype.com/artifact/com.io7m.jcoords/com.io7m.jcoords/3.0.0)
-* [com.io7m.jcoords:com.io7m.jcoords.core](https://central.sonatype.com/artifact/com.io7m.jcoords/com.io7m.jcoords.core/3.0.0)
-* [com.io7m.jcoords:com.io7m.jcoords.documentation](https://central.sonatype.com/artifact/com.io7m.jcoords/com.io7m.jcoords.documentation/3.0.0)
-* [com.io7m.jcoords:com.io7m.jcoords.tests](https://central.sonatype.com/artifact/com.io7m.jcoords/com.io7m.jcoords.tests/3.0.0)
+* [com.io7m.jcoords:com.io7m.jcoords](https://central.sonatype.com/artifact/com.io7m.jcoords/com.io7m.jcoords/overview)
+* [com.io7m.jcoords:com.io7m.jcoords.core](https://central.sonatype.com/artifact/com.io7m.jcoords/com.io7m.jcoords.core/overview)
+* [com.io7m.jcoords:com.io7m.jcoords.documentation](https://central.sonatype.com/artifact/com.io7m.jcoords/com.io7m.jcoords.documentation/overview)
+* [com.io7m.jcoords:com.io7m.jcoords.tests](https://central.sonatype.com/artifact/com.io7m.jcoords/com.io7m.jcoords.tests/overview)
 </details>
 
 rebuilding **2 releases** of com.io7m.jcoords:com.io7m.jcoords:

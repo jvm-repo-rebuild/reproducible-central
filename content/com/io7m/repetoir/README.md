@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/repetoir.git](https://github.com/io7m/repe
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.repetoir:com.io7m.repetoir](https://central.sonatype.com/artifact/com.io7m.repetoir/com.io7m.repetoir/1.0.1)
-* [com.io7m.repetoir:com.io7m.repetoir.core](https://central.sonatype.com/artifact/com.io7m.repetoir/com.io7m.repetoir.core/1.0.1)
-* [com.io7m.repetoir:com.io7m.repetoir.tests](https://central.sonatype.com/artifact/com.io7m.repetoir/com.io7m.repetoir.tests/1.0.1)
+* [com.io7m.repetoir:com.io7m.repetoir](https://central.sonatype.com/artifact/com.io7m.repetoir/com.io7m.repetoir/overview)
+* [com.io7m.repetoir:com.io7m.repetoir.core](https://central.sonatype.com/artifact/com.io7m.repetoir/com.io7m.repetoir.core/overview)
+* [com.io7m.repetoir:com.io7m.repetoir.tests](https://central.sonatype.com/artifact/com.io7m.repetoir/com.io7m.repetoir.tests/overview)
 </details>
 
 rebuilding **3 releases** of com.io7m.repetoir:com.io7m.repetoir:

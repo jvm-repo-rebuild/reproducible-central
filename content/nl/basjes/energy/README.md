@@ -9,12 +9,12 @@ Source code: [https://github.com/nielsbasjes/energy.git](https://github.com/niel
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [nl.basjes.energy.nifi:energy-nifi-parent](https://central.sonatype.com/artifact/nl.basjes.energy.nifi/energy-nifi-parent/0.0.2)
-* [nl.basjes.energy.nifi:nifi-energy-nar](https://central.sonatype.com/artifact/nl.basjes.energy.nifi/nifi-energy-nar/0.0.2)
-* [nl.basjes.energy.nifi:nifi-energy-processors](https://central.sonatype.com/artifact/nl.basjes.energy.nifi/nifi-energy-processors/0.0.2)
-* [nl.basjes.energy:energy-parent](https://central.sonatype.com/artifact/nl.basjes.energy/energy-parent/0.0.2)
-* [nl.basjes.energy:energy-udfs-parent](https://central.sonatype.com/artifact/nl.basjes.energy/energy-udfs-parent/0.0.2)
-* [nl.basjes.energy:modbus-energy-parser](https://central.sonatype.com/artifact/nl.basjes.energy/modbus-energy-parser/0.0.2)
+* [nl.basjes.energy.nifi:energy-nifi-parent](https://central.sonatype.com/artifact/nl.basjes.energy.nifi/energy-nifi-parent/overview)
+* [nl.basjes.energy.nifi:nifi-energy-nar](https://central.sonatype.com/artifact/nl.basjes.energy.nifi/nifi-energy-nar/overview)
+* [nl.basjes.energy.nifi:nifi-energy-processors](https://central.sonatype.com/artifact/nl.basjes.energy.nifi/nifi-energy-processors/overview)
+* [nl.basjes.energy:energy-parent](https://central.sonatype.com/artifact/nl.basjes.energy/energy-parent/overview)
+* [nl.basjes.energy:energy-udfs-parent](https://central.sonatype.com/artifact/nl.basjes.energy/energy-udfs-parent/overview)
+* [nl.basjes.energy:modbus-energy-parser](https://central.sonatype.com/artifact/nl.basjes.energy/modbus-energy-parser/overview)
 </details>
 
 rebuilding **2 releases** of nl.basjes.energy:energy-parent:

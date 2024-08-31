@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/jeucreader.git](https://github.com/io7m/je
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.jeucreader:com.io7m.jeucreader](https://central.sonatype.com/artifact/com.io7m.jeucreader/com.io7m.jeucreader/3.0.1)
-* [com.io7m.jeucreader:com.io7m.jeucreader.core](https://central.sonatype.com/artifact/com.io7m.jeucreader/com.io7m.jeucreader.core/3.0.1)
-* [com.io7m.jeucreader:com.io7m.jeucreader.documentation](https://central.sonatype.com/artifact/com.io7m.jeucreader/com.io7m.jeucreader.documentation/3.0.1)
-* [com.io7m.jeucreader:com.io7m.jeucreader.tests](https://central.sonatype.com/artifact/com.io7m.jeucreader/com.io7m.jeucreader.tests/3.0.1)
+* [com.io7m.jeucreader:com.io7m.jeucreader](https://central.sonatype.com/artifact/com.io7m.jeucreader/com.io7m.jeucreader/overview)
+* [com.io7m.jeucreader:com.io7m.jeucreader.core](https://central.sonatype.com/artifact/com.io7m.jeucreader/com.io7m.jeucreader.core/overview)
+* [com.io7m.jeucreader:com.io7m.jeucreader.documentation](https://central.sonatype.com/artifact/com.io7m.jeucreader/com.io7m.jeucreader.documentation/overview)
+* [com.io7m.jeucreader:com.io7m.jeucreader.tests](https://central.sonatype.com/artifact/com.io7m.jeucreader/com.io7m.jeucreader.tests/overview)
 </details>
 
 rebuilding **2 releases** of com.io7m.jeucreader:com.io7m.jeucreader:

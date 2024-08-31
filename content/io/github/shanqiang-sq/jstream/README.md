@@ -9,10 +9,10 @@ Source code: [https://github.com/shanqiang-sq/jstream](https://github.com/shanqi
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [io.github.shanqiang-sq:jstream](https://central.sonatype.com/artifact/io.github.shanqiang-sq/jstream/2.0.6)
-* [io.github.shanqiang-sq:jstream-core](https://central.sonatype.com/artifact/io.github.shanqiang-sq/jstream-core/2.0.6)
-* [io.github.shanqiang-sq:jstream-root](https://central.sonatype.com/artifact/io.github.shanqiang-sq/jstream-root/2.0.6)
-* [io.github.shanqiang-sq:jstream-shaded-jar](https://central.sonatype.com/artifact/io.github.shanqiang-sq/jstream-shaded-jar/2.0.6)
+* [io.github.shanqiang-sq:jstream](https://central.sonatype.com/artifact/io.github.shanqiang-sq/jstream/overview)
+* [io.github.shanqiang-sq:jstream-core](https://central.sonatype.com/artifact/io.github.shanqiang-sq/jstream-core/overview)
+* [io.github.shanqiang-sq:jstream-root](https://central.sonatype.com/artifact/io.github.shanqiang-sq/jstream-root/overview)
+* [io.github.shanqiang-sq:jstream-shaded-jar](https://central.sonatype.com/artifact/io.github.shanqiang-sq/jstream-shaded-jar/overview)
 </details>
 
 rebuilding **28 releases** of io.github.shanqiang-sq:jstream:

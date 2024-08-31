@@ -9,9 +9,9 @@ Source code: [https://github.com/maveniverse/toolbox.git](https://github.com/mav
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [eu.maveniverse.maven.plugins:toolbox](https://central.sonatype.com/artifact/eu.maveniverse.maven.plugins/toolbox/0.2.2)
-* [eu.maveniverse.maven.toolbox:shared](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/shared/0.2.2)
-* [eu.maveniverse.maven.toolbox:toolbox](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.2.2)
+* [eu.maveniverse.maven.plugins:toolbox](https://central.sonatype.com/artifact/eu.maveniverse.maven.plugins/toolbox/overview)
+* [eu.maveniverse.maven.toolbox:shared](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/shared/overview)
+* [eu.maveniverse.maven.toolbox:toolbox](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/overview)
 </details>
 
 rebuilding **37 releases** of eu.maveniverse.maven.toolbox:toolbox:

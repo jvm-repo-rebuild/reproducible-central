@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/tavella.git](https://github.com/io7m/tavel
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.tavella:com.io7m.tavella](https://central.sonatype.com/artifact/com.io7m.tavella/com.io7m.tavella/0.0.2)
-* [com.io7m.tavella:com.io7m.tavella.api](https://central.sonatype.com/artifact/com.io7m.tavella/com.io7m.tavella.api/0.0.2)
-* [com.io7m.tavella:com.io7m.tavella.native_exec](https://central.sonatype.com/artifact/com.io7m.tavella/com.io7m.tavella.native_exec/0.0.2)
-* [com.io7m.tavella:com.io7m.tavella.tests](https://central.sonatype.com/artifact/com.io7m.tavella/com.io7m.tavella.tests/0.0.2)
+* [com.io7m.tavella:com.io7m.tavella](https://central.sonatype.com/artifact/com.io7m.tavella/com.io7m.tavella/overview)
+* [com.io7m.tavella:com.io7m.tavella.api](https://central.sonatype.com/artifact/com.io7m.tavella/com.io7m.tavella.api/overview)
+* [com.io7m.tavella:com.io7m.tavella.native_exec](https://central.sonatype.com/artifact/com.io7m.tavella/com.io7m.tavella.native_exec/overview)
+* [com.io7m.tavella:com.io7m.tavella.tests](https://central.sonatype.com/artifact/com.io7m.tavella/com.io7m.tavella.tests/overview)
 </details>
 
 rebuilding **1 releases** of com.io7m.tavella:com.io7m.tavella:

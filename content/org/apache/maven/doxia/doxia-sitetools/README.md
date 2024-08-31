@@ -9,13 +9,13 @@ Source code: [https://github.com/apache/maven-doxia-sitetools.git](https://githu
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [org.apache.maven.doxia:doxia-decoration-model](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-decoration-model/2.0.0-M19)
-* [org.apache.maven.doxia:doxia-doc-renderer](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-doc-renderer/2.0.0-M19)
-* [org.apache.maven.doxia:doxia-integration-tools](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-integration-tools/2.0.0-M19)
-* [org.apache.maven.doxia:doxia-site-model](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-site-model/2.0.0-M19)
-* [org.apache.maven.doxia:doxia-site-renderer](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-site-renderer/2.0.0-M19)
-* [org.apache.maven.doxia:doxia-sitetools](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-sitetools/2.0.0-M19)
-* [org.apache.maven.doxia:doxia-skin-model](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-skin-model/2.0.0-M19)
+* [org.apache.maven.doxia:doxia-decoration-model](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-decoration-model/overview)
+* [org.apache.maven.doxia:doxia-doc-renderer](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-doc-renderer/overview)
+* [org.apache.maven.doxia:doxia-integration-tools](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-integration-tools/overview)
+* [org.apache.maven.doxia:doxia-site-model](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-site-model/overview)
+* [org.apache.maven.doxia:doxia-site-renderer](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-site-renderer/overview)
+* [org.apache.maven.doxia:doxia-sitetools](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-sitetools/overview)
+* [org.apache.maven.doxia:doxia-skin-model](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-skin-model/overview)
 </details>
 
 rebuilding **18 releases** of org.apache.maven.doxia:doxia-sitetools:

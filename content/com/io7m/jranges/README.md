@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/jranges.git](https://github.com/io7m/jrang
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.jranges:com.io7m.jranges](https://central.sonatype.com/artifact/com.io7m.jranges/com.io7m.jranges/6.0.0)
-* [com.io7m.jranges:com.io7m.jranges.core](https://central.sonatype.com/artifact/com.io7m.jranges/com.io7m.jranges.core/6.0.0)
-* [com.io7m.jranges:com.io7m.jranges.documentation](https://central.sonatype.com/artifact/com.io7m.jranges/com.io7m.jranges.documentation/6.0.0)
-* [com.io7m.jranges:com.io7m.jranges.tests](https://central.sonatype.com/artifact/com.io7m.jranges/com.io7m.jranges.tests/6.0.0)
+* [com.io7m.jranges:com.io7m.jranges](https://central.sonatype.com/artifact/com.io7m.jranges/com.io7m.jranges/overview)
+* [com.io7m.jranges:com.io7m.jranges.core](https://central.sonatype.com/artifact/com.io7m.jranges/com.io7m.jranges.core/overview)
+* [com.io7m.jranges:com.io7m.jranges.documentation](https://central.sonatype.com/artifact/com.io7m.jranges/com.io7m.jranges.documentation/overview)
+* [com.io7m.jranges:com.io7m.jranges.tests](https://central.sonatype.com/artifact/com.io7m.jranges/com.io7m.jranges.tests/overview)
 </details>
 
 rebuilding **2 releases** of com.io7m.jranges:com.io7m.jranges:

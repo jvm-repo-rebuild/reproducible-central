@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/timehack6435126.git](https://github.com/io
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.timehack6435126:com.io7m.timehack6435126](https://central.sonatype.com/artifact/com.io7m.timehack6435126/com.io7m.timehack6435126/3.0.1)
-* [com.io7m.timehack6435126:com.io7m.timehack6435126.core](https://central.sonatype.com/artifact/com.io7m.timehack6435126/com.io7m.timehack6435126.core/3.0.1)
-* [com.io7m.timehack6435126:com.io7m.timehack6435126.documentation](https://central.sonatype.com/artifact/com.io7m.timehack6435126/com.io7m.timehack6435126.documentation/3.0.1)
+* [com.io7m.timehack6435126:com.io7m.timehack6435126](https://central.sonatype.com/artifact/com.io7m.timehack6435126/com.io7m.timehack6435126/overview)
+* [com.io7m.timehack6435126:com.io7m.timehack6435126.core](https://central.sonatype.com/artifact/com.io7m.timehack6435126/com.io7m.timehack6435126.core/overview)
+* [com.io7m.timehack6435126:com.io7m.timehack6435126.documentation](https://central.sonatype.com/artifact/com.io7m.timehack6435126/com.io7m.timehack6435126.documentation/overview)
 </details>
 
 rebuilding **2 releases** of com.io7m.timehack6435126:com.io7m.timehack6435126:

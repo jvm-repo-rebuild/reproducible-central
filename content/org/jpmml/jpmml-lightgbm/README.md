@@ -9,8 +9,8 @@ Source code: [https://github.com/jpmml/jpmml-lightgbm.git](https://github.com/jp
 
 <details><summary>This project defines 2 modules:</summary>
 
-* [org.jpmml:jpmml-lightgbm](https://central.sonatype.com/artifact/org.jpmml/jpmml-lightgbm/1.5.5)
-* [org.jpmml:pmml-lightgbm](https://central.sonatype.com/artifact/org.jpmml/pmml-lightgbm/1.5.5)
+* [org.jpmml:jpmml-lightgbm](https://central.sonatype.com/artifact/org.jpmml/jpmml-lightgbm/overview)
+* [org.jpmml:pmml-lightgbm](https://central.sonatype.com/artifact/org.jpmml/pmml-lightgbm/overview)
 </details>
 
 rebuilding **1 releases** of org.jpmml:jpmml-lightgbm:

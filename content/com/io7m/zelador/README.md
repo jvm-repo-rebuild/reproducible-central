@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/zelador.git](https://github.com/io7m/zelad
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.zelador:com.io7m.zelador](https://central.sonatype.com/artifact/com.io7m.zelador/com.io7m.zelador/1.0.0)
-* [com.io7m.zelador:com.io7m.zelador.test_extension](https://central.sonatype.com/artifact/com.io7m.zelador/com.io7m.zelador.test_extension/1.0.0)
-* [com.io7m.zelador:com.io7m.zelador.tests](https://central.sonatype.com/artifact/com.io7m.zelador/com.io7m.zelador.tests/1.0.0)
+* [com.io7m.zelador:com.io7m.zelador](https://central.sonatype.com/artifact/com.io7m.zelador/com.io7m.zelador/overview)
+* [com.io7m.zelador:com.io7m.zelador.test_extension](https://central.sonatype.com/artifact/com.io7m.zelador/com.io7m.zelador.test_extension/overview)
+* [com.io7m.zelador:com.io7m.zelador.tests](https://central.sonatype.com/artifact/com.io7m.zelador/com.io7m.zelador.tests/overview)
 </details>
 
 rebuilding **2 releases** of com.io7m.zelador:com.io7m.zelador:

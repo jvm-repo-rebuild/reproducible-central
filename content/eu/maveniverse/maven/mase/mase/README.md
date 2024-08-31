@@ -9,11 +9,11 @@ Source code: [https://github.com/maveniverse/mase.git](https://github.com/maveni
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [eu.maveniverse.maven.mase:mase](https://central.sonatype.com/artifact/eu.maveniverse.maven.mase/mase/1.0.2)
-* [eu.maveniverse.maven.mase:search-api](https://central.sonatype.com/artifact/eu.maveniverse.maven.mase/search-api/1.0.2)
-* [eu.maveniverse.maven.mase:search-backend-indexer](https://central.sonatype.com/artifact/eu.maveniverse.maven.mase/search-backend-indexer/1.0.2)
-* [eu.maveniverse.maven.mase:search-backend-remoterepository](https://central.sonatype.com/artifact/eu.maveniverse.maven.mase/search-backend-remoterepository/1.0.2)
-* [eu.maveniverse.maven.mase:search-backend-smo](https://central.sonatype.com/artifact/eu.maveniverse.maven.mase/search-backend-smo/1.0.2)
+* [eu.maveniverse.maven.mase:mase](https://central.sonatype.com/artifact/eu.maveniverse.maven.mase/mase/overview)
+* [eu.maveniverse.maven.mase:search-api](https://central.sonatype.com/artifact/eu.maveniverse.maven.mase/search-api/overview)
+* [eu.maveniverse.maven.mase:search-backend-indexer](https://central.sonatype.com/artifact/eu.maveniverse.maven.mase/search-backend-indexer/overview)
+* [eu.maveniverse.maven.mase:search-backend-remoterepository](https://central.sonatype.com/artifact/eu.maveniverse.maven.mase/search-backend-remoterepository/overview)
+* [eu.maveniverse.maven.mase:search-backend-smo](https://central.sonatype.com/artifact/eu.maveniverse.maven.mase/search-backend-smo/overview)
 </details>
 
 rebuilding **3 releases** of eu.maveniverse.maven.mase:mase:

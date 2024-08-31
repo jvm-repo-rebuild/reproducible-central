@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/jodist.git](https://github.com/io7m/jodist
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.jodist:com.io7m.jodist](https://central.sonatype.com/artifact/com.io7m.jodist/com.io7m.jodist/2.0.1)
-* [com.io7m.jodist:com.io7m.jodist.core](https://central.sonatype.com/artifact/com.io7m.jodist/com.io7m.jodist.core/2.0.1)
-* [com.io7m.jodist:com.io7m.jodist.tests](https://central.sonatype.com/artifact/com.io7m.jodist/com.io7m.jodist.tests/2.0.1)
+* [com.io7m.jodist:com.io7m.jodist](https://central.sonatype.com/artifact/com.io7m.jodist/com.io7m.jodist/overview)
+* [com.io7m.jodist:com.io7m.jodist.core](https://central.sonatype.com/artifact/com.io7m.jodist/com.io7m.jodist.core/overview)
+* [com.io7m.jodist:com.io7m.jodist.tests](https://central.sonatype.com/artifact/com.io7m.jodist/com.io7m.jodist.tests/overview)
 </details>
 
 rebuilding **2 releases** of com.io7m.jodist:com.io7m.jodist:

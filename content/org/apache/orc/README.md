@@ -9,12 +9,12 @@ Source code: [https://github.com/apache/orc.git](https://github.com/apache/orc.g
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [org.apache.orc:orc](https://central.sonatype.com/artifact/org.apache.orc/orc/2.0.0)
-* [org.apache.orc:orc-core](https://central.sonatype.com/artifact/org.apache.orc/orc-core/2.0.0)
-* [org.apache.orc:orc-examples](https://central.sonatype.com/artifact/org.apache.orc/orc-examples/2.0.0)
-* [org.apache.orc:orc-mapreduce](https://central.sonatype.com/artifact/org.apache.orc/orc-mapreduce/2.0.0)
-* [org.apache.orc:orc-shims](https://central.sonatype.com/artifact/org.apache.orc/orc-shims/2.0.0)
-* [org.apache.orc:orc-tools](https://central.sonatype.com/artifact/org.apache.orc/orc-tools/2.0.0)
+* [org.apache.orc:orc](https://central.sonatype.com/artifact/org.apache.orc/orc/overview)
+* [org.apache.orc:orc-core](https://central.sonatype.com/artifact/org.apache.orc/orc-core/overview)
+* [org.apache.orc:orc-examples](https://central.sonatype.com/artifact/org.apache.orc/orc-examples/overview)
+* [org.apache.orc:orc-mapreduce](https://central.sonatype.com/artifact/org.apache.orc/orc-mapreduce/overview)
+* [org.apache.orc:orc-shims](https://central.sonatype.com/artifact/org.apache.orc/orc-shims/overview)
+* [org.apache.orc:orc-tools](https://central.sonatype.com/artifact/org.apache.orc/orc-tools/overview)
 </details>
 
 rebuilding **14 releases** of org.apache.orc:orc:

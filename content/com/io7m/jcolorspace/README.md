@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/jcolorspace.git](https://github.com/io7m/j
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.jcolorspace:com.io7m.jcolorspace](https://central.sonatype.com/artifact/com.io7m.jcolorspace/com.io7m.jcolorspace/1.0.0)
-* [com.io7m.jcolorspace:com.io7m.jcolorspace.core](https://central.sonatype.com/artifact/com.io7m.jcolorspace/com.io7m.jcolorspace.core/1.0.0)
-* [com.io7m.jcolorspace:com.io7m.jcolorspace.demo](https://central.sonatype.com/artifact/com.io7m.jcolorspace/com.io7m.jcolorspace.demo/1.0.0)
-* [com.io7m.jcolorspace:com.io7m.jcolorspace.tests](https://central.sonatype.com/artifact/com.io7m.jcolorspace/com.io7m.jcolorspace.tests/1.0.0)
+* [com.io7m.jcolorspace:com.io7m.jcolorspace](https://central.sonatype.com/artifact/com.io7m.jcolorspace/com.io7m.jcolorspace/overview)
+* [com.io7m.jcolorspace:com.io7m.jcolorspace.core](https://central.sonatype.com/artifact/com.io7m.jcolorspace/com.io7m.jcolorspace.core/overview)
+* [com.io7m.jcolorspace:com.io7m.jcolorspace.demo](https://central.sonatype.com/artifact/com.io7m.jcolorspace/com.io7m.jcolorspace.demo/overview)
+* [com.io7m.jcolorspace:com.io7m.jcolorspace.tests](https://central.sonatype.com/artifact/com.io7m.jcolorspace/com.io7m.jcolorspace.tests/overview)
 </details>
 
 rebuilding **4 releases** of com.io7m.jcolorspace:com.io7m.jcolorspace:

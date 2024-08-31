@@ -9,12 +9,12 @@ Source code: [https://github.com/FasterXML/jackson-datatypes-misc.git](https://g
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jakarta-jsonp/2.17.2)
-* [com.fasterxml.jackson.datatype:jackson-datatype-jakarta-mail](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jakarta-mail/2.17.2)
-* [com.fasterxml.jackson.datatype:jackson-datatype-joda-money](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-joda-money/2.17.2)
-* [com.fasterxml.jackson.datatype:jackson-datatype-json-org](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-json-org/2.17.2)
-* [com.fasterxml.jackson.datatype:jackson-datatype-jsr353](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jsr353/2.17.2)
-* [com.fasterxml.jackson.datatype:jackson-datatypes-misc-parent](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.17.2)
+* [com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jakarta-jsonp/overview)
+* [com.fasterxml.jackson.datatype:jackson-datatype-jakarta-mail](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jakarta-mail/overview)
+* [com.fasterxml.jackson.datatype:jackson-datatype-joda-money](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-joda-money/overview)
+* [com.fasterxml.jackson.datatype:jackson-datatype-json-org](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-json-org/overview)
+* [com.fasterxml.jackson.datatype:jackson-datatype-jsr353](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jsr353/overview)
+* [com.fasterxml.jackson.datatype:jackson-datatypes-misc-parent](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/overview)
 </details>
 
 rebuilding **6 releases** of com.fasterxml.jackson.datatype:jackson-datatypes-misc-parent:

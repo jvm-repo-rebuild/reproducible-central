@@ -9,11 +9,11 @@ Source code: [https://github.com/apache/maven-enforcer.git](https://github.com/a
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [org.apache.maven.enforcer:enforcer](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer/3.5.0)
-* [org.apache.maven.enforcer:enforcer-api](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer-api/3.5.0)
-* [org.apache.maven.enforcer:enforcer-rules](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer-rules/3.5.0)
-* [org.apache.maven.extensions:maven-enforcer-extension](https://central.sonatype.com/artifact/org.apache.maven.extensions/maven-enforcer-extension/3.5.0)
-* [org.apache.maven.plugins:maven-enforcer-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-enforcer-plugin/3.5.0)
+* [org.apache.maven.enforcer:enforcer](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer/overview)
+* [org.apache.maven.enforcer:enforcer-api](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer-api/overview)
+* [org.apache.maven.enforcer:enforcer-rules](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer-rules/overview)
+* [org.apache.maven.extensions:maven-enforcer-extension](https://central.sonatype.com/artifact/org.apache.maven.extensions/maven-enforcer-extension/overview)
+* [org.apache.maven.plugins:maven-enforcer-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-enforcer-plugin/overview)
 </details>
 
 rebuilding **7 releases** of org.apache.maven.enforcer:enforcer:

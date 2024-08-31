@@ -9,11 +9,11 @@ Source code: [https://github.com/io7m/jorchard.git](https://github.com/io7m/jorc
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [com.io7m.jorchard:com.io7m.jorchard](https://central.sonatype.com/artifact/com.io7m.jorchard/com.io7m.jorchard/2.0.2)
-* [com.io7m.jorchard:com.io7m.jorchard.core](https://central.sonatype.com/artifact/com.io7m.jorchard/com.io7m.jorchard.core/2.0.2)
-* [com.io7m.jorchard:com.io7m.jorchard.documentation](https://central.sonatype.com/artifact/com.io7m.jorchard/com.io7m.jorchard.documentation/2.0.2)
-* [com.io7m.jorchard:com.io7m.jorchard.generators](https://central.sonatype.com/artifact/com.io7m.jorchard/com.io7m.jorchard.generators/2.0.2)
-* [com.io7m.jorchard:com.io7m.jorchard.tests](https://central.sonatype.com/artifact/com.io7m.jorchard/com.io7m.jorchard.tests/2.0.2)
+* [com.io7m.jorchard:com.io7m.jorchard](https://central.sonatype.com/artifact/com.io7m.jorchard/com.io7m.jorchard/overview)
+* [com.io7m.jorchard:com.io7m.jorchard.core](https://central.sonatype.com/artifact/com.io7m.jorchard/com.io7m.jorchard.core/overview)
+* [com.io7m.jorchard:com.io7m.jorchard.documentation](https://central.sonatype.com/artifact/com.io7m.jorchard/com.io7m.jorchard.documentation/overview)
+* [com.io7m.jorchard:com.io7m.jorchard.generators](https://central.sonatype.com/artifact/com.io7m.jorchard/com.io7m.jorchard.generators/overview)
+* [com.io7m.jorchard:com.io7m.jorchard.tests](https://central.sonatype.com/artifact/com.io7m.jorchard/com.io7m.jorchard.tests/overview)
 </details>
 
 rebuilding **3 releases** of com.io7m.jorchard:com.io7m.jorchard:

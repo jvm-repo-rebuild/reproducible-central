@@ -9,11 +9,11 @@ Source code: [https://github.com/io7m/blackthorne.git](https://github.com/io7m/b
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [com.io7m.blackthorne:com.io7m.blackthorne](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/2.0.2)
-* [com.io7m.blackthorne:com.io7m.blackthorne.api](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne.api/2.0.2)
-* [com.io7m.blackthorne:com.io7m.blackthorne.core](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne.core/2.0.2)
-* [com.io7m.blackthorne:com.io7m.blackthorne.jxe](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne.jxe/2.0.2)
-* [com.io7m.blackthorne:com.io7m.blackthorne.tests](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne.tests/2.0.2)
+* [com.io7m.blackthorne:com.io7m.blackthorne](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/overview)
+* [com.io7m.blackthorne:com.io7m.blackthorne.api](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne.api/overview)
+* [com.io7m.blackthorne:com.io7m.blackthorne.core](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne.core/overview)
+* [com.io7m.blackthorne:com.io7m.blackthorne.jxe](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne.jxe/overview)
+* [com.io7m.blackthorne:com.io7m.blackthorne.tests](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne.tests/overview)
 </details>
 
 rebuilding **13 releases** of com.io7m.blackthorne:com.io7m.blackthorne:

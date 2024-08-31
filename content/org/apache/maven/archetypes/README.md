@@ -9,18 +9,18 @@ Source code: [https://github.com/apache/maven-archetypes.git](https://github.com
 
 <details><summary>This project defines 12 modules:</summary>
 
-* [org.apache.maven.archetypes:maven-archetype-archetype](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-archetype/1.5)
-* [org.apache.maven.archetypes:maven-archetype-bundles](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-bundles/1.5)
-* [org.apache.maven.archetypes:maven-archetype-j2ee-simple](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-j2ee-simple/1.5)
-* [org.apache.maven.archetypes:maven-archetype-plugin](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-plugin/1.5)
-* [org.apache.maven.archetypes:maven-archetype-plugin-site](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-plugin-site/1.5)
-* [org.apache.maven.archetypes:maven-archetype-portlet](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-portlet/1.5)
-* [org.apache.maven.archetypes:maven-archetype-quickstart](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-quickstart/1.5)
-* [org.apache.maven.archetypes:maven-archetype-simple](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-simple/1.5)
-* [org.apache.maven.archetypes:maven-archetype-site](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-site/1.5)
-* [org.apache.maven.archetypes:maven-archetype-site-simple](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-site-simple/1.5)
-* [org.apache.maven.archetypes:maven-archetype-site-skin](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-site-skin/1.5)
-* [org.apache.maven.archetypes:maven-archetype-webapp](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-webapp/1.5)
+* [org.apache.maven.archetypes:maven-archetype-archetype](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-archetype/overview)
+* [org.apache.maven.archetypes:maven-archetype-bundles](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-bundles/overview)
+* [org.apache.maven.archetypes:maven-archetype-j2ee-simple](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-j2ee-simple/overview)
+* [org.apache.maven.archetypes:maven-archetype-plugin](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-plugin/overview)
+* [org.apache.maven.archetypes:maven-archetype-plugin-site](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-plugin-site/overview)
+* [org.apache.maven.archetypes:maven-archetype-portlet](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-portlet/overview)
+* [org.apache.maven.archetypes:maven-archetype-quickstart](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-quickstart/overview)
+* [org.apache.maven.archetypes:maven-archetype-simple](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-simple/overview)
+* [org.apache.maven.archetypes:maven-archetype-site](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-site/overview)
+* [org.apache.maven.archetypes:maven-archetype-site-simple](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-site-simple/overview)
+* [org.apache.maven.archetypes:maven-archetype-site-skin](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-site-skin/overview)
+* [org.apache.maven.archetypes:maven-archetype-webapp](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-webapp/overview)
 </details>
 
 rebuilding **1 releases** of org.apache.maven.archetypes:maven-archetype-bundles:

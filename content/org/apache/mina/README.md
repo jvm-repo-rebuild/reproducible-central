@@ -9,18 +9,18 @@ Source code: [https://github.com/apache/mina.git](https://github.com/apache/mina
 
 <details><summary>This project defines 12 modules:</summary>
 
-* [org.apache.mina:mina-core](https://central.sonatype.com/artifact/org.apache.mina/mina-core/2.2.3)
-* [org.apache.mina:mina-example](https://central.sonatype.com/artifact/org.apache.mina/mina-example/2.2.3)
-* [org.apache.mina:mina-filter-compression](https://central.sonatype.com/artifact/org.apache.mina/mina-filter-compression/2.2.3)
-* [org.apache.mina:mina-http](https://central.sonatype.com/artifact/org.apache.mina/mina-http/2.2.3)
-* [org.apache.mina:mina-integration-beans](https://central.sonatype.com/artifact/org.apache.mina/mina-integration-beans/2.2.3)
-* [org.apache.mina:mina-integration-jmx](https://central.sonatype.com/artifact/org.apache.mina/mina-integration-jmx/2.2.3)
-* [org.apache.mina:mina-integration-ognl](https://central.sonatype.com/artifact/org.apache.mina/mina-integration-ognl/2.2.3)
-* [org.apache.mina:mina-integration-xbean](https://central.sonatype.com/artifact/org.apache.mina/mina-integration-xbean/2.2.3)
-* [org.apache.mina:mina-legal](https://central.sonatype.com/artifact/org.apache.mina/mina-legal/2.2.3)
-* [org.apache.mina:mina-parent](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.3)
-* [org.apache.mina:mina-statemachine](https://central.sonatype.com/artifact/org.apache.mina/mina-statemachine/2.2.3)
-* [org.apache.mina:mina-transport-apr](https://central.sonatype.com/artifact/org.apache.mina/mina-transport-apr/2.2.3)
+* [org.apache.mina:mina-core](https://central.sonatype.com/artifact/org.apache.mina/mina-core/overview)
+* [org.apache.mina:mina-example](https://central.sonatype.com/artifact/org.apache.mina/mina-example/overview)
+* [org.apache.mina:mina-filter-compression](https://central.sonatype.com/artifact/org.apache.mina/mina-filter-compression/overview)
+* [org.apache.mina:mina-http](https://central.sonatype.com/artifact/org.apache.mina/mina-http/overview)
+* [org.apache.mina:mina-integration-beans](https://central.sonatype.com/artifact/org.apache.mina/mina-integration-beans/overview)
+* [org.apache.mina:mina-integration-jmx](https://central.sonatype.com/artifact/org.apache.mina/mina-integration-jmx/overview)
+* [org.apache.mina:mina-integration-ognl](https://central.sonatype.com/artifact/org.apache.mina/mina-integration-ognl/overview)
+* [org.apache.mina:mina-integration-xbean](https://central.sonatype.com/artifact/org.apache.mina/mina-integration-xbean/overview)
+* [org.apache.mina:mina-legal](https://central.sonatype.com/artifact/org.apache.mina/mina-legal/overview)
+* [org.apache.mina:mina-parent](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/overview)
+* [org.apache.mina:mina-statemachine](https://central.sonatype.com/artifact/org.apache.mina/mina-statemachine/overview)
+* [org.apache.mina:mina-transport-apr](https://central.sonatype.com/artifact/org.apache.mina/mina-transport-apr/overview)
 </details>
 
 rebuilding **5 releases** of org.apache.mina:mina-parent:

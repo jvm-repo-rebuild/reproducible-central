@@ -9,14 +9,14 @@ Source code: [https://github.com/jpmml/jpmml-evaluator.git](https://github.com/j
 
 <details><summary>This project defines 8 modules:</summary>
 
-* [org.jpmml:jpmml-evaluator](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/1.6.5)
-* [org.jpmml:pmml-evaluator](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator/1.6.5)
-* [org.jpmml:pmml-evaluator-jackson](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-jackson/1.6.5)
-* [org.jpmml:pmml-evaluator-kryo](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-kryo/1.6.5)
-* [org.jpmml:pmml-evaluator-metro](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-metro/1.6.5)
-* [org.jpmml:pmml-evaluator-moxy](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-moxy/1.6.5)
-* [org.jpmml:pmml-evaluator-reporting](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-reporting/1.6.5)
-* [org.jpmml:pmml-evaluator-testing](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-testing/1.6.5)
+* [org.jpmml:jpmml-evaluator](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/overview)
+* [org.jpmml:pmml-evaluator](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator/overview)
+* [org.jpmml:pmml-evaluator-jackson](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-jackson/overview)
+* [org.jpmml:pmml-evaluator-kryo](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-kryo/overview)
+* [org.jpmml:pmml-evaluator-metro](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-metro/overview)
+* [org.jpmml:pmml-evaluator-moxy](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-moxy/overview)
+* [org.jpmml:pmml-evaluator-reporting](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-reporting/overview)
+* [org.jpmml:pmml-evaluator-testing](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-testing/overview)
 </details>
 
 rebuilding **1 releases** of org.jpmml:jpmml-evaluator:

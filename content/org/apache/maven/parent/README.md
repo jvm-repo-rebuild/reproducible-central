@@ -9,13 +9,13 @@ Source code: [https://github.com/apache/maven-parent.git](https://github.com/apa
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [org.apache.apache.resources:apache-resource-bundles](https://central.sonatype.com/artifact/org.apache.apache.resources/apache-resource-bundles/43)
-* [org.apache.maven.doxia:doxia-tools](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-tools/43)
-* [org.apache.maven.extensions:maven-extensions](https://central.sonatype.com/artifact/org.apache.maven.extensions/maven-extensions/43)
-* [org.apache.maven.plugins:maven-plugins](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-plugins/43)
-* [org.apache.maven.shared:maven-shared-components](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-components/43)
-* [org.apache.maven.skins:maven-skins](https://central.sonatype.com/artifact/org.apache.maven.skins/maven-skins/43)
-* [org.apache.maven:maven-parent](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/43)
+* [org.apache.apache.resources:apache-resource-bundles](https://central.sonatype.com/artifact/org.apache.apache.resources/apache-resource-bundles/overview)
+* [org.apache.maven.doxia:doxia-tools](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-tools/overview)
+* [org.apache.maven.extensions:maven-extensions](https://central.sonatype.com/artifact/org.apache.maven.extensions/maven-extensions/overview)
+* [org.apache.maven.plugins:maven-plugins](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-plugins/overview)
+* [org.apache.maven.shared:maven-shared-components](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-components/overview)
+* [org.apache.maven.skins:maven-skins](https://central.sonatype.com/artifact/org.apache.maven.skins/maven-skins/overview)
+* [org.apache.maven:maven-parent](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/overview)
 </details>
 
 rebuilding **10 releases** of org.apache.maven:maven-parent:

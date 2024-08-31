@@ -9,17 +9,17 @@ Source code: [https://github.com/apache/maven-indexer.git](https://github.com/ap
 
 <details><summary>This project defines 11 modules:</summary>
 
-* [org.apache.maven.indexer:indexer-cli](https://central.sonatype.com/artifact/org.apache.maven.indexer/indexer-cli/7.1.4)
-* [org.apache.maven.indexer:indexer-core](https://central.sonatype.com/artifact/org.apache.maven.indexer/indexer-core/7.1.4)
-* [org.apache.maven.indexer:indexer-examples-basic](https://central.sonatype.com/artifact/org.apache.maven.indexer/indexer-examples-basic/7.1.4)
-* [org.apache.maven.indexer:indexer-examples-spring](https://central.sonatype.com/artifact/org.apache.maven.indexer/indexer-examples-spring/7.1.4)
-* [org.apache.maven.indexer:indexer-reader](https://central.sonatype.com/artifact/org.apache.maven.indexer/indexer-reader/7.1.4)
-* [org.apache.maven.indexer:maven-indexer](https://central.sonatype.com/artifact/org.apache.maven.indexer/maven-indexer/7.1.4)
-* [org.apache.maven.indexer:maven-indexer-examples](https://central.sonatype.com/artifact/org.apache.maven.indexer/maven-indexer-examples/7.1.4)
-* [org.apache.maven.indexer:search-api](https://central.sonatype.com/artifact/org.apache.maven.indexer/search-api/7.1.4)
-* [org.apache.maven.indexer:search-backend-indexer](https://central.sonatype.com/artifact/org.apache.maven.indexer/search-backend-indexer/7.1.4)
-* [org.apache.maven.indexer:search-backend-remoterepository](https://central.sonatype.com/artifact/org.apache.maven.indexer/search-backend-remoterepository/7.1.4)
-* [org.apache.maven.indexer:search-backend-smo](https://central.sonatype.com/artifact/org.apache.maven.indexer/search-backend-smo/7.1.4)
+* [org.apache.maven.indexer:indexer-cli](https://central.sonatype.com/artifact/org.apache.maven.indexer/indexer-cli/overview)
+* [org.apache.maven.indexer:indexer-core](https://central.sonatype.com/artifact/org.apache.maven.indexer/indexer-core/overview)
+* [org.apache.maven.indexer:indexer-examples-basic](https://central.sonatype.com/artifact/org.apache.maven.indexer/indexer-examples-basic/overview)
+* [org.apache.maven.indexer:indexer-examples-spring](https://central.sonatype.com/artifact/org.apache.maven.indexer/indexer-examples-spring/overview)
+* [org.apache.maven.indexer:indexer-reader](https://central.sonatype.com/artifact/org.apache.maven.indexer/indexer-reader/overview)
+* [org.apache.maven.indexer:maven-indexer](https://central.sonatype.com/artifact/org.apache.maven.indexer/maven-indexer/overview)
+* [org.apache.maven.indexer:maven-indexer-examples](https://central.sonatype.com/artifact/org.apache.maven.indexer/maven-indexer-examples/overview)
+* [org.apache.maven.indexer:search-api](https://central.sonatype.com/artifact/org.apache.maven.indexer/search-api/overview)
+* [org.apache.maven.indexer:search-backend-indexer](https://central.sonatype.com/artifact/org.apache.maven.indexer/search-backend-indexer/overview)
+* [org.apache.maven.indexer:search-backend-remoterepository](https://central.sonatype.com/artifact/org.apache.maven.indexer/search-backend-remoterepository/overview)
+* [org.apache.maven.indexer:search-backend-smo](https://central.sonatype.com/artifact/org.apache.maven.indexer/search-backend-smo/overview)
 </details>
 
 rebuilding **14 releases** of org.apache.maven.indexer:maven-indexer:

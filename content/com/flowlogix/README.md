@@ -9,12 +9,12 @@ Source code: [https://github.com/flowlogix/flowlogix.git](https://github.com/flo
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [com.flowlogix:flowlogix](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/9.0.3)
-* [com.flowlogix:flowlogix-bom](https://central.sonatype.com/artifact/com.flowlogix/flowlogix-bom/9.0.3)
-* [com.flowlogix:flowlogix-datamodel](https://central.sonatype.com/artifact/com.flowlogix/flowlogix-datamodel/9.0.3)
-* [com.flowlogix:flowlogix-jee](https://central.sonatype.com/artifact/com.flowlogix/flowlogix-jee/9.0.3)
-* [com.flowlogix:jakarta-ee](https://central.sonatype.com/artifact/com.flowlogix/jakarta-ee/9.0.3)
-* [com.flowlogix:jee-examples](https://central.sonatype.com/artifact/com.flowlogix/jee-examples/9.0.3)
+* [com.flowlogix:flowlogix](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/overview)
+* [com.flowlogix:flowlogix-bom](https://central.sonatype.com/artifact/com.flowlogix/flowlogix-bom/overview)
+* [com.flowlogix:flowlogix-datamodel](https://central.sonatype.com/artifact/com.flowlogix/flowlogix-datamodel/overview)
+* [com.flowlogix:flowlogix-jee](https://central.sonatype.com/artifact/com.flowlogix/flowlogix-jee/overview)
+* [com.flowlogix:jakarta-ee](https://central.sonatype.com/artifact/com.flowlogix/jakarta-ee/overview)
+* [com.flowlogix:jee-examples](https://central.sonatype.com/artifact/com.flowlogix/jee-examples/overview)
 </details>
 
 rebuilding **16 releases** of com.flowlogix:flowlogix:

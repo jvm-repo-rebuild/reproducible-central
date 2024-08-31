@@ -9,12 +9,12 @@ Source code: [git@github.com:s4u/slf4j-mock.git](git@github.com:s4u/slf4j-mock.g
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [org.simplify4u:slf4j-mock](https://central.sonatype.com/artifact/org.simplify4u/slf4j-mock/2.3.0)
-* [org.simplify4u:slf4j-mock-common](https://central.sonatype.com/artifact/org.simplify4u/slf4j-mock-common/2.3.0)
-* [org.simplify4u:slf4j-mock-coverage-report](https://central.sonatype.com/artifact/org.simplify4u/slf4j-mock-coverage-report/2.3.0)
-* [org.simplify4u:slf4j-mock-parent](https://central.sonatype.com/artifact/org.simplify4u/slf4j-mock-parent/2.3.0)
-* [org.simplify4u:slf4j-mock-tests](https://central.sonatype.com/artifact/org.simplify4u/slf4j-mock-tests/2.3.0)
-* [org.simplify4u:slf4j2-mock](https://central.sonatype.com/artifact/org.simplify4u/slf4j2-mock/2.3.0)
+* [org.simplify4u:slf4j-mock](https://central.sonatype.com/artifact/org.simplify4u/slf4j-mock/overview)
+* [org.simplify4u:slf4j-mock-common](https://central.sonatype.com/artifact/org.simplify4u/slf4j-mock-common/overview)
+* [org.simplify4u:slf4j-mock-coverage-report](https://central.sonatype.com/artifact/org.simplify4u/slf4j-mock-coverage-report/overview)
+* [org.simplify4u:slf4j-mock-parent](https://central.sonatype.com/artifact/org.simplify4u/slf4j-mock-parent/overview)
+* [org.simplify4u:slf4j-mock-tests](https://central.sonatype.com/artifact/org.simplify4u/slf4j-mock-tests/overview)
+* [org.simplify4u:slf4j2-mock](https://central.sonatype.com/artifact/org.simplify4u/slf4j2-mock/overview)
 </details>
 
 rebuilding **4 releases** of org.simplify4u:slf4j-mock:

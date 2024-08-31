@@ -9,8 +9,8 @@ Source code: [https://github.com/takari/takari-lifecycle.git](https://github.com
 
 <details><summary>This project defines 2 modules:</summary>
 
-* [io.takari.maven.plugins:takari-lifecycle](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-lifecycle/2.1.7)
-* [io.takari.maven.plugins:takari-lifecycle-plugin](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-lifecycle-plugin/2.1.7)
+* [io.takari.maven.plugins:takari-lifecycle](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-lifecycle/overview)
+* [io.takari.maven.plugins:takari-lifecycle-plugin](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-lifecycle-plugin/overview)
 </details>
 
 rebuilding **3 releases** of io.takari.maven.plugins:takari-lifecycle-plugin:

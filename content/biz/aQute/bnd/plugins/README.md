@@ -9,16 +9,16 @@ Source code: [https://github.com/bndtools/bnd](https://github.com/bndtools/bnd)
 
 <details><summary>This project defines 10 modules:</summary>
 
-* [biz.aQute.bnd:bnd-baseline-maven-plugin](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-baseline-maven-plugin/7.0.0)
-* [biz.aQute.bnd:bnd-export-maven-plugin](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-export-maven-plugin/7.0.0)
-* [biz.aQute.bnd:bnd-generate-maven-plugin](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-generate-maven-plugin/7.0.0)
-* [biz.aQute.bnd:bnd-indexer-maven-plugin](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-indexer-maven-plugin/7.0.0)
-* [biz.aQute.bnd:bnd-maven-plugin](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-maven-plugin/7.0.0)
-* [biz.aQute.bnd:bnd-plugin-parent](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-plugin-parent/7.0.0)
-* [biz.aQute.bnd:bnd-reporter-maven-plugin](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-reporter-maven-plugin/7.0.0)
-* [biz.aQute.bnd:bnd-resolver-maven-plugin](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-resolver-maven-plugin/7.0.0)
-* [biz.aQute.bnd:bnd-run-maven-plugin](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-run-maven-plugin/7.0.0)
-* [biz.aQute.bnd:bnd-testing-maven-plugin](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-testing-maven-plugin/7.0.0)
+* [biz.aQute.bnd:bnd-baseline-maven-plugin](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-baseline-maven-plugin/overview)
+* [biz.aQute.bnd:bnd-export-maven-plugin](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-export-maven-plugin/overview)
+* [biz.aQute.bnd:bnd-generate-maven-plugin](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-generate-maven-plugin/overview)
+* [biz.aQute.bnd:bnd-indexer-maven-plugin](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-indexer-maven-plugin/overview)
+* [biz.aQute.bnd:bnd-maven-plugin](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-maven-plugin/overview)
+* [biz.aQute.bnd:bnd-plugin-parent](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-plugin-parent/overview)
+* [biz.aQute.bnd:bnd-reporter-maven-plugin](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-reporter-maven-plugin/overview)
+* [biz.aQute.bnd:bnd-resolver-maven-plugin](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-resolver-maven-plugin/overview)
+* [biz.aQute.bnd:bnd-run-maven-plugin](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-run-maven-plugin/overview)
+* [biz.aQute.bnd:bnd-testing-maven-plugin](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-testing-maven-plugin/overview)
 </details>
 
 rebuilding **9 releases** of biz.aQute.bnd:bnd-plugin-parent:

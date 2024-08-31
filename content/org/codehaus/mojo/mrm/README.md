@@ -9,11 +9,11 @@ Source code: [https://github.com/mojohaus/mrm.git](https://github.com/mojohaus/m
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [org.codehaus.mojo:mrm](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/1.6.0)
-* [org.codehaus.mojo:mrm-api](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm-api/1.6.0)
-* [org.codehaus.mojo:mrm-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm-maven-plugin/1.6.0)
-* [org.codehaus.mojo:mrm-servlet](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm-servlet/1.6.0)
-* [org.codehaus.mojo:mrm-webapp](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm-webapp/1.6.0)
+* [org.codehaus.mojo:mrm](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/overview)
+* [org.codehaus.mojo:mrm-api](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm-api/overview)
+* [org.codehaus.mojo:mrm-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm-maven-plugin/overview)
+* [org.codehaus.mojo:mrm-servlet](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm-servlet/overview)
+* [org.codehaus.mojo:mrm-webapp](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm-webapp/overview)
 </details>
 
 rebuilding **4 releases** of org.codehaus.mojo:mrm:

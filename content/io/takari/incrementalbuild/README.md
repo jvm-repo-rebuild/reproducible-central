@@ -9,12 +9,12 @@ Source code: [https://github.com/takari/io.takari.incrementalbuild.git](https://
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [io.takari.builder:takari-builder](https://central.sonatype.com/artifact/io.takari.builder/takari-builder/1.0.3)
-* [io.takari.builder:takari-builder-apt](https://central.sonatype.com/artifact/io.takari.builder/takari-builder-apt/1.0.3)
-* [io.takari.builder:takari-builder-common](https://central.sonatype.com/artifact/io.takari.builder/takari-builder-common/1.0.3)
-* [io.takari.builder:takari-builder-enforcer](https://central.sonatype.com/artifact/io.takari.builder/takari-builder-enforcer/1.0.3)
-* [io.takari:incrementalbuild](https://central.sonatype.com/artifact/io.takari/incrementalbuild/1.0.3)
-* [io.takari:io.takari.incrementalbuild](https://central.sonatype.com/artifact/io.takari/io.takari.incrementalbuild/1.0.3)
+* [io.takari.builder:takari-builder](https://central.sonatype.com/artifact/io.takari.builder/takari-builder/overview)
+* [io.takari.builder:takari-builder-apt](https://central.sonatype.com/artifact/io.takari.builder/takari-builder-apt/overview)
+* [io.takari.builder:takari-builder-common](https://central.sonatype.com/artifact/io.takari.builder/takari-builder-common/overview)
+* [io.takari.builder:takari-builder-enforcer](https://central.sonatype.com/artifact/io.takari.builder/takari-builder-enforcer/overview)
+* [io.takari:incrementalbuild](https://central.sonatype.com/artifact/io.takari/incrementalbuild/overview)
+* [io.takari:io.takari.incrementalbuild](https://central.sonatype.com/artifact/io.takari/io.takari.incrementalbuild/overview)
 </details>
 
 rebuilding **2 releases** of io.takari:io.takari.incrementalbuild:

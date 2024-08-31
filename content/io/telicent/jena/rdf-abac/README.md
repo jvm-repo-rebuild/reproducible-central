@@ -9,11 +9,11 @@ Source code: [https://github.com/telicent-oss/rdf-abac](https://github.com/telic
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [io.telicent.jena:rdf-abac](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.71.7)
-* [io.telicent.jena:rdf-abac-core](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac-core/0.71.7)
-* [io.telicent.jena:rdf-abac-eval](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac-eval/0.71.7)
-* [io.telicent.jena:rdf-abac-fuseki](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac-fuseki/0.71.7)
-* [io.telicent.jena:rdf-abac-fuseki-server](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac-fuseki-server/0.71.7)
+* [io.telicent.jena:rdf-abac](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/overview)
+* [io.telicent.jena:rdf-abac-core](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac-core/overview)
+* [io.telicent.jena:rdf-abac-eval](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac-eval/overview)
+* [io.telicent.jena:rdf-abac-fuseki](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac-fuseki/overview)
+* [io.telicent.jena:rdf-abac-fuseki-server](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac-fuseki-server/overview)
 </details>
 
 rebuilding **5 releases** of io.telicent.jena:rdf-abac:

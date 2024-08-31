@@ -9,14 +9,14 @@ Source code: [https://github.com/apache/logging-log4j-tools.git](https://github.
 
 <details><summary>This project defines 8 modules:</summary>
 
-* [org.apache.logging.log4j:log4j-changelog](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-changelog/0.9.0)
-* [org.apache.logging.log4j:log4j-changelog-maven-plugin](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-changelog-maven-plugin/0.9.0)
-* [org.apache.logging.log4j:log4j-docgen](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-docgen/0.9.0)
-* [org.apache.logging.log4j:log4j-docgen-asciidoctor-extension](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-docgen-asciidoctor-extension/0.9.0)
-* [org.apache.logging.log4j:log4j-docgen-maven-plugin](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-docgen-maven-plugin/0.9.0)
-* [org.apache.logging.log4j:log4j-tools-bom](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.9.0)
-* [org.apache.logging.log4j:log4j-tools-internal-freemarker-util](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-internal-freemarker-util/0.9.0)
-* [org.apache.logging.log4j:log4j-tools-parent](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-parent/0.9.0)
+* [org.apache.logging.log4j:log4j-changelog](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-changelog/overview)
+* [org.apache.logging.log4j:log4j-changelog-maven-plugin](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-changelog-maven-plugin/overview)
+* [org.apache.logging.log4j:log4j-docgen](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-docgen/overview)
+* [org.apache.logging.log4j:log4j-docgen-asciidoctor-extension](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-docgen-asciidoctor-extension/overview)
+* [org.apache.logging.log4j:log4j-docgen-maven-plugin](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-docgen-maven-plugin/overview)
+* [org.apache.logging.log4j:log4j-tools-bom](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/overview)
+* [org.apache.logging.log4j:log4j-tools-internal-freemarker-util](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-internal-freemarker-util/overview)
+* [org.apache.logging.log4j:log4j-tools-parent](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-parent/overview)
 </details>
 
 rebuilding **9 releases** of org.apache.logging.log4j:log4j-tools-bom:

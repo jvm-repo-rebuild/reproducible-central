@@ -9,12 +9,12 @@ Source code: [https://github.com/antlr/antlr4.git](https://github.com/antlr/antl
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [org.antlr:antlr4](https://central.sonatype.com/artifact/org.antlr/antlr4/4.13.2)
-* [org.antlr:antlr4-master](https://central.sonatype.com/artifact/org.antlr/antlr4-master/4.13.2)
-* [org.antlr:antlr4-maven-plugin](https://central.sonatype.com/artifact/org.antlr/antlr4-maven-plugin/4.13.2)
-* [org.antlr:antlr4-runtime](https://central.sonatype.com/artifact/org.antlr/antlr4-runtime/4.13.2)
-* [org.antlr:antlr4-runtime-testsuite](https://central.sonatype.com/artifact/org.antlr/antlr4-runtime-testsuite/4.13.2)
-* [org.antlr:antlr4-tool-testsuite](https://central.sonatype.com/artifact/org.antlr/antlr4-tool-testsuite/4.13.2)
+* [org.antlr:antlr4](https://central.sonatype.com/artifact/org.antlr/antlr4/overview)
+* [org.antlr:antlr4-master](https://central.sonatype.com/artifact/org.antlr/antlr4-master/overview)
+* [org.antlr:antlr4-maven-plugin](https://central.sonatype.com/artifact/org.antlr/antlr4-maven-plugin/overview)
+* [org.antlr:antlr4-runtime](https://central.sonatype.com/artifact/org.antlr/antlr4-runtime/overview)
+* [org.antlr:antlr4-runtime-testsuite](https://central.sonatype.com/artifact/org.antlr/antlr4-runtime-testsuite/overview)
+* [org.antlr:antlr4-tool-testsuite](https://central.sonatype.com/artifact/org.antlr/antlr4-tool-testsuite/overview)
 </details>
 
 rebuilding **4 releases** of org.antlr:antlr4-master:

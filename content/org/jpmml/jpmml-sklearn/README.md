@@ -9,13 +9,13 @@ Source code: [https://github.com/jpmml/jpmml-sklearn.git](https://github.com/jpm
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [org.jpmml:jpmml-sklearn](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.8.4)
-* [org.jpmml:pmml-sklearn](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn/1.8.4)
-* [org.jpmml:pmml-sklearn-extension](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-extension/1.8.4)
-* [org.jpmml:pmml-sklearn-h2o](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-h2o/1.8.4)
-* [org.jpmml:pmml-sklearn-lightgbm](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-lightgbm/1.8.4)
-* [org.jpmml:pmml-sklearn-statsmodels](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-statsmodels/1.8.4)
-* [org.jpmml:pmml-sklearn-xgboost](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-xgboost/1.8.4)
+* [org.jpmml:jpmml-sklearn](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/overview)
+* [org.jpmml:pmml-sklearn](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn/overview)
+* [org.jpmml:pmml-sklearn-extension](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-extension/overview)
+* [org.jpmml:pmml-sklearn-h2o](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-h2o/overview)
+* [org.jpmml:pmml-sklearn-lightgbm](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-lightgbm/overview)
+* [org.jpmml:pmml-sklearn-statsmodels](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-statsmodels/overview)
+* [org.jpmml:pmml-sklearn-xgboost](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-xgboost/overview)
 </details>
 
 rebuilding **7 releases** of org.jpmml:jpmml-sklearn:

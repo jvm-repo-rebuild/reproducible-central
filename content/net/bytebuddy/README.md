@@ -9,14 +9,14 @@ Source code: [https://github.com/raphw/byte-buddy.git](https://github.com/raphw/
 
 <details><summary>This project defines 8 modules:</summary>
 
-* [net.bytebuddy:byte-buddy](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy/1.15.1)
-* [net.bytebuddy:byte-buddy-agent](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-agent/1.15.1)
-* [net.bytebuddy:byte-buddy-android](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-android/1.15.1)
-* [net.bytebuddy:byte-buddy-benchmark](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-benchmark/1.15.1)
-* [net.bytebuddy:byte-buddy-dep](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-dep/1.15.1)
-* [net.bytebuddy:byte-buddy-gradle-plugin](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-gradle-plugin/1.15.1)
-* [net.bytebuddy:byte-buddy-maven-plugin](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-maven-plugin/1.15.1)
-* [net.bytebuddy:byte-buddy-parent](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.15.1)
+* [net.bytebuddy:byte-buddy](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy/overview)
+* [net.bytebuddy:byte-buddy-agent](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-agent/overview)
+* [net.bytebuddy:byte-buddy-android](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-android/overview)
+* [net.bytebuddy:byte-buddy-benchmark](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-benchmark/overview)
+* [net.bytebuddy:byte-buddy-dep](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-dep/overview)
+* [net.bytebuddy:byte-buddy-gradle-plugin](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-gradle-plugin/overview)
+* [net.bytebuddy:byte-buddy-maven-plugin](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-maven-plugin/overview)
+* [net.bytebuddy:byte-buddy-parent](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/overview)
 </details>
 
 rebuilding **28 releases** of net.bytebuddy:byte-buddy-parent:

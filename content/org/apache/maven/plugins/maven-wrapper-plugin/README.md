@@ -9,10 +9,10 @@ Source code: [https://github.com/apache/maven-wrapper.git](https://github.com/ap
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [org.apache.maven.plugins:maven-wrapper-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-wrapper-plugin/3.3.2)
-* [org.apache.maven.wrapper:maven-wrapper](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper/3.3.2)
-* [org.apache.maven.wrapper:maven-wrapper-distribution](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper-distribution/3.3.2)
-* [org.apache.maven.wrapper:maven-wrapper-parent](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper-parent/3.3.2)
+* [org.apache.maven.plugins:maven-wrapper-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-wrapper-plugin/overview)
+* [org.apache.maven.wrapper:maven-wrapper](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper/overview)
+* [org.apache.maven.wrapper:maven-wrapper-distribution](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper-distribution/overview)
+* [org.apache.maven.wrapper:maven-wrapper-parent](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper-parent/overview)
 </details>
 
 rebuilding **8 releases** of org.apache.maven.wrapper:maven-wrapper:

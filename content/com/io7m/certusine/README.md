@@ -9,19 +9,19 @@ Source code: [https://github.com/io7m/certusine.git](https://github.com/io7m/cer
 
 <details><summary>This project defines 13 modules:</summary>
 
-* [com.io7m.certusine:com.io7m.certusine](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/2.0.0)
-* [com.io7m.certusine:com.io7m.certusine.api](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.api/2.0.0)
-* [com.io7m.certusine:com.io7m.certusine.certstore.api](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.certstore.api/2.0.0)
-* [com.io7m.certusine:com.io7m.certusine.cmdline](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.cmdline/2.0.0)
-* [com.io7m.certusine:com.io7m.certusine.documentation](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.documentation/2.0.0)
-* [com.io7m.certusine:com.io7m.certusine.etcd](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.etcd/2.0.0)
-* [com.io7m.certusine:com.io7m.certusine.gandi](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.gandi/2.0.0)
-* [com.io7m.certusine:com.io7m.certusine.grafana](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.grafana/2.0.0)
-* [com.io7m.certusine:com.io7m.certusine.looseleaf](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.looseleaf/2.0.0)
-* [com.io7m.certusine:com.io7m.certusine.oci](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.oci/2.0.0)
-* [com.io7m.certusine:com.io7m.certusine.tests](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.tests/2.0.0)
-* [com.io7m.certusine:com.io7m.certusine.vanilla](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.vanilla/2.0.0)
-* [com.io7m.certusine:com.io7m.certusine.vultr](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.vultr/2.0.0)
+* [com.io7m.certusine:com.io7m.certusine](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/overview)
+* [com.io7m.certusine:com.io7m.certusine.api](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.api/overview)
+* [com.io7m.certusine:com.io7m.certusine.certstore.api](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.certstore.api/overview)
+* [com.io7m.certusine:com.io7m.certusine.cmdline](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.cmdline/overview)
+* [com.io7m.certusine:com.io7m.certusine.documentation](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.documentation/overview)
+* [com.io7m.certusine:com.io7m.certusine.etcd](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.etcd/overview)
+* [com.io7m.certusine:com.io7m.certusine.gandi](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.gandi/overview)
+* [com.io7m.certusine:com.io7m.certusine.grafana](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.grafana/overview)
+* [com.io7m.certusine:com.io7m.certusine.looseleaf](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.looseleaf/overview)
+* [com.io7m.certusine:com.io7m.certusine.oci](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.oci/overview)
+* [com.io7m.certusine:com.io7m.certusine.tests](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.tests/overview)
+* [com.io7m.certusine:com.io7m.certusine.vanilla](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.vanilla/overview)
+* [com.io7m.certusine:com.io7m.certusine.vultr](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.vultr/overview)
 </details>
 
 rebuilding **2 releases** of com.io7m.certusine:com.io7m.certusine:

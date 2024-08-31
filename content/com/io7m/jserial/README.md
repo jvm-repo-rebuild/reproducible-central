@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/jserial.git](https://github.com/io7m/jseri
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.jserial:com.io7m.jserial](https://central.sonatype.com/artifact/com.io7m.jserial/com.io7m.jserial/1.0.0)
-* [com.io7m.jserial:com.io7m.jserial.core](https://central.sonatype.com/artifact/com.io7m.jserial/com.io7m.jserial.core/1.0.0)
-* [com.io7m.jserial:com.io7m.jserial.documentation](https://central.sonatype.com/artifact/com.io7m.jserial/com.io7m.jserial.documentation/1.0.0)
-* [com.io7m.jserial:com.io7m.jserial.tests](https://central.sonatype.com/artifact/com.io7m.jserial/com.io7m.jserial.tests/1.0.0)
+* [com.io7m.jserial:com.io7m.jserial](https://central.sonatype.com/artifact/com.io7m.jserial/com.io7m.jserial/overview)
+* [com.io7m.jserial:com.io7m.jserial.core](https://central.sonatype.com/artifact/com.io7m.jserial/com.io7m.jserial.core/overview)
+* [com.io7m.jserial:com.io7m.jserial.documentation](https://central.sonatype.com/artifact/com.io7m.jserial/com.io7m.jserial.documentation/overview)
+* [com.io7m.jserial:com.io7m.jserial.tests](https://central.sonatype.com/artifact/com.io7m.jserial/com.io7m.jserial.tests/overview)
 </details>
 
 rebuilding **2 releases** of com.io7m.jserial:com.io7m.jserial:

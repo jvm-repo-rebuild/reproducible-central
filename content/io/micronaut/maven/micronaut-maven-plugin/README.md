@@ -9,11 +9,11 @@ Source code: [https://github.com/micronaut-projects/micronaut-maven-plugin.git](
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [io.micronaut.maven:micronaut-maven-core](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-core/4.6.3)
-* [io.micronaut.maven:micronaut-maven-enforcer-rules](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-enforcer-rules/4.6.3)
-* [io.micronaut.maven:micronaut-maven-jib-integration](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-jib-integration/4.6.3)
-* [io.micronaut.maven:micronaut-maven-plugin](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.6.3)
-* [io.micronaut.maven:micronaut-maven-plugin-parent](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin-parent/4.6.3)
+* [io.micronaut.maven:micronaut-maven-core](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-core/overview)
+* [io.micronaut.maven:micronaut-maven-enforcer-rules](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-enforcer-rules/overview)
+* [io.micronaut.maven:micronaut-maven-jib-integration](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-jib-integration/overview)
+* [io.micronaut.maven:micronaut-maven-plugin](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/overview)
+* [io.micronaut.maven:micronaut-maven-plugin-parent](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin-parent/overview)
 </details>
 
 rebuilding **31 releases** of io.micronaut.maven:micronaut-maven-plugin:

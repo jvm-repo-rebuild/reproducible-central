@@ -9,9 +9,9 @@ Source code: [https://github.com/codehaus-plexus/plexus-interactivity.git](https
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [org.codehaus.plexus:plexus-interactivity](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-interactivity/1.3)
-* [org.codehaus.plexus:plexus-interactivity-api](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-interactivity-api/1.3)
-* [org.codehaus.plexus:plexus-interactivity-jline](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-interactivity-jline/1.3)
+* [org.codehaus.plexus:plexus-interactivity](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-interactivity/overview)
+* [org.codehaus.plexus:plexus-interactivity-api](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-interactivity-api/overview)
+* [org.codehaus.plexus:plexus-interactivity-jline](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-interactivity-jline/overview)
 </details>
 
 rebuilding **3 releases** of org.codehaus.plexus:plexus-interactivity:

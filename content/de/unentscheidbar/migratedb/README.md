@@ -9,19 +9,19 @@ Source code: [https://github.com/daniel-huss/migratedb.git](https://github.com/d
 
 <details><summary>This project defines 13 modules:</summary>
 
-* [de.unentscheidbar:migratedb](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/1.2.0)
-* [de.unentscheidbar:migratedb-commandline](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-commandline/1.2.0)
-* [de.unentscheidbar:migratedb-core](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-core/1.2.0)
-* [de.unentscheidbar:migratedb-dependency-downloader](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-dependency-downloader/1.2.0)
-* [de.unentscheidbar:migratedb-gradle-plugin](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-gradle-plugin/1.2.0)
-* [de.unentscheidbar:migratedb-integration-tests](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-integration-tests/1.2.0)
-* [de.unentscheidbar:migratedb-maven-plugin](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-maven-plugin/1.2.0)
-* [de.unentscheidbar:migratedb-scanner](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-scanner/1.2.0)
-* [de.unentscheidbar:migratedb-spring-boot-v3](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-spring-boot-v3/1.2.0)
-* [de.unentscheidbar:migratedb-spring-boot-v3-autoconfig](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-spring-boot-v3-autoconfig/1.2.0)
-* [de.unentscheidbar:migratedb-spring-boot-v3-starter](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-spring-boot-v3-starter/1.2.0)
-* [de.unentscheidbar:migratedb-test-report-aggregator](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-test-report-aggregator/1.2.0)
-* [de.unentscheidbar:migratedb-testlib](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-testlib/1.2.0)
+* [de.unentscheidbar:migratedb](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/overview)
+* [de.unentscheidbar:migratedb-commandline](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-commandline/overview)
+* [de.unentscheidbar:migratedb-core](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-core/overview)
+* [de.unentscheidbar:migratedb-dependency-downloader](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-dependency-downloader/overview)
+* [de.unentscheidbar:migratedb-gradle-plugin](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-gradle-plugin/overview)
+* [de.unentscheidbar:migratedb-integration-tests](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-integration-tests/overview)
+* [de.unentscheidbar:migratedb-maven-plugin](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-maven-plugin/overview)
+* [de.unentscheidbar:migratedb-scanner](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-scanner/overview)
+* [de.unentscheidbar:migratedb-spring-boot-v3](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-spring-boot-v3/overview)
+* [de.unentscheidbar:migratedb-spring-boot-v3-autoconfig](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-spring-boot-v3-autoconfig/overview)
+* [de.unentscheidbar:migratedb-spring-boot-v3-starter](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-spring-boot-v3-starter/overview)
+* [de.unentscheidbar:migratedb-test-report-aggregator](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-test-report-aggregator/overview)
+* [de.unentscheidbar:migratedb-testlib](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb-testlib/overview)
 </details>
 
 rebuilding **6 releases** of de.unentscheidbar:migratedb:

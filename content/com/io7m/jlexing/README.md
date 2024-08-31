@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/jlexing.git](https://github.com/io7m/jlexi
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.jlexing:com.io7m.jlexing](https://central.sonatype.com/artifact/com.io7m.jlexing/com.io7m.jlexing/3.2.0)
-* [com.io7m.jlexing:com.io7m.jlexing.core](https://central.sonatype.com/artifact/com.io7m.jlexing/com.io7m.jlexing.core/3.2.0)
-* [com.io7m.jlexing:com.io7m.jlexing.tests](https://central.sonatype.com/artifact/com.io7m.jlexing/com.io7m.jlexing.tests/3.2.0)
+* [com.io7m.jlexing:com.io7m.jlexing](https://central.sonatype.com/artifact/com.io7m.jlexing/com.io7m.jlexing/overview)
+* [com.io7m.jlexing:com.io7m.jlexing.core](https://central.sonatype.com/artifact/com.io7m.jlexing/com.io7m.jlexing.core/overview)
+* [com.io7m.jlexing:com.io7m.jlexing.tests](https://central.sonatype.com/artifact/com.io7m.jlexing/com.io7m.jlexing.tests/overview)
 </details>
 
 rebuilding **1 releases** of com.io7m.jlexing:com.io7m.jlexing:

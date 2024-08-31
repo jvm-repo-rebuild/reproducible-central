@@ -9,13 +9,13 @@ Source code: [https://github.com/moditect/layrry.git](https://github.com/moditec
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [org.moditect.layrry:layrry-aggregator](https://central.sonatype.com/artifact/org.moditect.layrry/layrry-aggregator/1.0.0.Final)
-* [org.moditect.layrry:layrry-config](https://central.sonatype.com/artifact/org.moditect.layrry/layrry-config/1.0.0.Final)
-* [org.moditect.layrry:layrry-config-toml](https://central.sonatype.com/artifact/org.moditect.layrry/layrry-config-toml/1.0.0.Final)
-* [org.moditect.layrry:layrry-config-yaml](https://central.sonatype.com/artifact/org.moditect.layrry/layrry-config-yaml/1.0.0.Final)
-* [org.moditect.layrry:layrry-core](https://central.sonatype.com/artifact/org.moditect.layrry/layrry-core/1.0.0.Final)
-* [org.moditect.layrry:layrry-launcher](https://central.sonatype.com/artifact/org.moditect.layrry/layrry-launcher/1.0.0.Final)
-* [org.moditect.layrry:layrry-platform](https://central.sonatype.com/artifact/org.moditect.layrry/layrry-platform/1.0.0.Final)
+* [org.moditect.layrry:layrry-aggregator](https://central.sonatype.com/artifact/org.moditect.layrry/layrry-aggregator/overview)
+* [org.moditect.layrry:layrry-config](https://central.sonatype.com/artifact/org.moditect.layrry/layrry-config/overview)
+* [org.moditect.layrry:layrry-config-toml](https://central.sonatype.com/artifact/org.moditect.layrry/layrry-config-toml/overview)
+* [org.moditect.layrry:layrry-config-yaml](https://central.sonatype.com/artifact/org.moditect.layrry/layrry-config-yaml/overview)
+* [org.moditect.layrry:layrry-core](https://central.sonatype.com/artifact/org.moditect.layrry/layrry-core/overview)
+* [org.moditect.layrry:layrry-launcher](https://central.sonatype.com/artifact/org.moditect.layrry/layrry-launcher/overview)
+* [org.moditect.layrry:layrry-platform](https://central.sonatype.com/artifact/org.moditect.layrry/layrry-platform/overview)
 </details>
 
 rebuilding **1 releases** of org.moditect.layrry:layrry-aggregator:

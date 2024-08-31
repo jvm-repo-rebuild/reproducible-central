@@ -9,10 +9,10 @@ Source code: [https://github.com/ongres/scram.git](https://github.com/ongres/scr
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.ongres.scram:scram-aggregator](https://central.sonatype.com/artifact/com.ongres.scram/scram-aggregator/3.1)
-* [com.ongres.scram:scram-client](https://central.sonatype.com/artifact/com.ongres.scram/scram-client/3.1)
-* [com.ongres.scram:scram-common](https://central.sonatype.com/artifact/com.ongres.scram/scram-common/3.1)
-* [com.ongres.scram:scram-parent](https://central.sonatype.com/artifact/com.ongres.scram/scram-parent/3.1)
+* [com.ongres.scram:scram-aggregator](https://central.sonatype.com/artifact/com.ongres.scram/scram-aggregator/overview)
+* [com.ongres.scram:scram-client](https://central.sonatype.com/artifact/com.ongres.scram/scram-client/overview)
+* [com.ongres.scram:scram-common](https://central.sonatype.com/artifact/com.ongres.scram/scram-common/overview)
+* [com.ongres.scram:scram-parent](https://central.sonatype.com/artifact/com.ongres.scram/scram-parent/overview)
 </details>
 
 rebuilding **1 releases** of com.ongres.scram:scram-aggregator:

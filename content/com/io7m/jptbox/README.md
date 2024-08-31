@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/jptbox.git](https://github.com/io7m/jptbox
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.jptbox:com.io7m.jptbox](https://central.sonatype.com/artifact/com.io7m.jptbox/com.io7m.jptbox/2.0.0)
-* [com.io7m.jptbox:com.io7m.jptbox.core](https://central.sonatype.com/artifact/com.io7m.jptbox/com.io7m.jptbox.core/2.0.0)
-* [com.io7m.jptbox:com.io7m.jptbox.documentation](https://central.sonatype.com/artifact/com.io7m.jptbox/com.io7m.jptbox.documentation/2.0.0)
+* [com.io7m.jptbox:com.io7m.jptbox](https://central.sonatype.com/artifact/com.io7m.jptbox/com.io7m.jptbox/overview)
+* [com.io7m.jptbox:com.io7m.jptbox.core](https://central.sonatype.com/artifact/com.io7m.jptbox/com.io7m.jptbox.core/overview)
+* [com.io7m.jptbox:com.io7m.jptbox.documentation](https://central.sonatype.com/artifact/com.io7m.jptbox/com.io7m.jptbox.documentation/overview)
 </details>
 
 rebuilding **1 releases** of com.io7m.jptbox:com.io7m.jptbox:

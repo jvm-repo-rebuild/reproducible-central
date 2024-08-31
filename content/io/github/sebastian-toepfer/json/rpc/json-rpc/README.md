@@ -9,15 +9,15 @@ Source code: [https://github.com/sebastian-toepfer/json-rpc.git](https://github.
 
 <details><summary>This project defines 9 modules:</summary>
 
-* [io.github.sebastian-toepfer.json.rpc.extension:json-rpc-extension](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc.extension/json-rpc-extension/0.8.3)
-* [io.github.sebastian-toepfer.json.rpc.extension:json-rpc-extension-micrometer](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc.extension/json-rpc-extension-micrometer/0.8.3)
-* [io.github.sebastian-toepfer.json.rpc.extension:json-rpc-extension-openrpc](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc.extension/json-rpc-extension-openrpc/0.8.3)
-* [io.github.sebastian-toepfer.json.rpc:json-rpc](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc/json-rpc/0.8.3)
-* [io.github.sebastian-toepfer.json.rpc:json-rpc-boundary](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc/json-rpc-boundary/0.8.3)
-* [io.github.sebastian-toepfer.json.rpc:json-rpc-extension-openrpc](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc/json-rpc-extension-openrpc/0.8.3)
-* [io.github.sebastian-toepfer.json.rpc:json-rpc-runtime](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc/json-rpc-runtime/0.8.3)
-* [io.github.sebastian-toepfer.json.rpc:json-rpc-spring-integration-autoconfigure](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc/json-rpc-spring-integration-autoconfigure/0.8.3)
-* [io.github.sebastian-toepfer.json.rpc:json-rpc-spring-integration-starter](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc/json-rpc-spring-integration-starter/0.8.3)
+* [io.github.sebastian-toepfer.json.rpc.extension:json-rpc-extension](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc.extension/json-rpc-extension/overview)
+* [io.github.sebastian-toepfer.json.rpc.extension:json-rpc-extension-micrometer](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc.extension/json-rpc-extension-micrometer/overview)
+* [io.github.sebastian-toepfer.json.rpc.extension:json-rpc-extension-openrpc](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc.extension/json-rpc-extension-openrpc/overview)
+* [io.github.sebastian-toepfer.json.rpc:json-rpc](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc/json-rpc/overview)
+* [io.github.sebastian-toepfer.json.rpc:json-rpc-boundary](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc/json-rpc-boundary/overview)
+* [io.github.sebastian-toepfer.json.rpc:json-rpc-extension-openrpc](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc/json-rpc-extension-openrpc/overview)
+* [io.github.sebastian-toepfer.json.rpc:json-rpc-runtime](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc/json-rpc-runtime/overview)
+* [io.github.sebastian-toepfer.json.rpc:json-rpc-spring-integration-autoconfigure](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc/json-rpc-spring-integration-autoconfigure/overview)
+* [io.github.sebastian-toepfer.json.rpc:json-rpc-spring-integration-starter](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc/json-rpc-spring-integration-starter/overview)
 </details>
 
 rebuilding **5 releases** of io.github.sebastian-toepfer.json.rpc:json-rpc:

@@ -9,14 +9,14 @@ Source code: [https://github.com/io7m/jsx.git](https://github.com/io7m/jsx.git)
 
 <details><summary>This project defines 8 modules:</summary>
 
-* [com.io7m.jsx:com.io7m.jsx](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx/4.0.0)
-* [com.io7m.jsx:com.io7m.jsx.cmdline](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.cmdline/4.0.0)
-* [com.io7m.jsx:com.io7m.jsx.core](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.core/4.0.0)
-* [com.io7m.jsx:com.io7m.jsx.documentation](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.documentation/4.0.0)
-* [com.io7m.jsx:com.io7m.jsx.parser](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.parser/4.0.0)
-* [com.io7m.jsx:com.io7m.jsx.parser.api](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.parser.api/4.0.0)
-* [com.io7m.jsx:com.io7m.jsx.prettyprint](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.prettyprint/4.0.0)
-* [com.io7m.jsx:com.io7m.jsx.tests](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.tests/4.0.0)
+* [com.io7m.jsx:com.io7m.jsx](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx/overview)
+* [com.io7m.jsx:com.io7m.jsx.cmdline](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.cmdline/overview)
+* [com.io7m.jsx:com.io7m.jsx.core](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.core/overview)
+* [com.io7m.jsx:com.io7m.jsx.documentation](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.documentation/overview)
+* [com.io7m.jsx:com.io7m.jsx.parser](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.parser/overview)
+* [com.io7m.jsx:com.io7m.jsx.parser.api](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.parser.api/overview)
+* [com.io7m.jsx:com.io7m.jsx.prettyprint](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.prettyprint/overview)
+* [com.io7m.jsx:com.io7m.jsx.tests](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx.tests/overview)
 </details>
 
 rebuilding **7 releases** of com.io7m.jsx:com.io7m.jsx:

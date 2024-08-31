@@ -9,13 +9,13 @@ Source code: [https://github.com/io7m/medrina.git](https://github.com/io7m/medri
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [com.io7m.medrina:com.io7m.medrina](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina/1.0.0)
-* [com.io7m.medrina:com.io7m.medrina.api](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina.api/1.0.0)
-* [com.io7m.medrina:com.io7m.medrina.cmdline](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina.cmdline/1.0.0)
-* [com.io7m.medrina:com.io7m.medrina.documentation](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina.documentation/1.0.0)
-* [com.io7m.medrina:com.io7m.medrina.parser.api](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina.parser.api/1.0.0)
-* [com.io7m.medrina:com.io7m.medrina.tests](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina.tests/1.0.0)
-* [com.io7m.medrina:com.io7m.medrina.vanilla](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina.vanilla/1.0.0)
+* [com.io7m.medrina:com.io7m.medrina](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina/overview)
+* [com.io7m.medrina:com.io7m.medrina.api](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina.api/overview)
+* [com.io7m.medrina:com.io7m.medrina.cmdline](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina.cmdline/overview)
+* [com.io7m.medrina:com.io7m.medrina.documentation](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina.documentation/overview)
+* [com.io7m.medrina:com.io7m.medrina.parser.api](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina.parser.api/overview)
+* [com.io7m.medrina:com.io7m.medrina.tests](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina.tests/overview)
+* [com.io7m.medrina:com.io7m.medrina.vanilla](https://central.sonatype.com/artifact/com.io7m.medrina/com.io7m.medrina.vanilla/overview)
 </details>
 
 rebuilding **7 releases** of com.io7m.medrina:com.io7m.medrina:

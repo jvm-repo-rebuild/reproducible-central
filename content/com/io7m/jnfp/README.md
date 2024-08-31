@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/jnfp.git](https://github.com/io7m/jnfp.git
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.jnfp:com.io7m.jnfp](https://central.sonatype.com/artifact/com.io7m.jnfp/com.io7m.jnfp/3.0.0)
-* [com.io7m.jnfp:com.io7m.jnfp.core](https://central.sonatype.com/artifact/com.io7m.jnfp/com.io7m.jnfp.core/3.0.0)
-* [com.io7m.jnfp:com.io7m.jnfp.documentation](https://central.sonatype.com/artifact/com.io7m.jnfp/com.io7m.jnfp.documentation/3.0.0)
+* [com.io7m.jnfp:com.io7m.jnfp](https://central.sonatype.com/artifact/com.io7m.jnfp/com.io7m.jnfp/overview)
+* [com.io7m.jnfp:com.io7m.jnfp.core](https://central.sonatype.com/artifact/com.io7m.jnfp/com.io7m.jnfp.core/overview)
+* [com.io7m.jnfp:com.io7m.jnfp.documentation](https://central.sonatype.com/artifact/com.io7m.jnfp/com.io7m.jnfp.documentation/overview)
 </details>
 
 rebuilding **1 releases** of com.io7m.jnfp:com.io7m.jnfp:

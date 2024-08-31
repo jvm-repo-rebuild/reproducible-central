@@ -9,11 +9,11 @@ Source code: [https://github.com/io7m/jbssio.git](https://github.com/io7m/jbssio
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [com.io7m.jbssio:com.io7m.jbssio](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio/2.1.0)
-* [com.io7m.jbssio:com.io7m.jbssio.api](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio.api/2.1.0)
-* [com.io7m.jbssio:com.io7m.jbssio.ext.bounded](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio.ext.bounded/2.1.0)
-* [com.io7m.jbssio:com.io7m.jbssio.tests](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio.tests/2.1.0)
-* [com.io7m.jbssio:com.io7m.jbssio.vanilla](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio.vanilla/2.1.0)
+* [com.io7m.jbssio:com.io7m.jbssio](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio/overview)
+* [com.io7m.jbssio:com.io7m.jbssio.api](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio.api/overview)
+* [com.io7m.jbssio:com.io7m.jbssio.ext.bounded](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio.ext.bounded/overview)
+* [com.io7m.jbssio:com.io7m.jbssio.tests](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio.tests/overview)
+* [com.io7m.jbssio:com.io7m.jbssio.vanilla](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio.vanilla/overview)
 </details>
 
 rebuilding **9 releases** of com.io7m.jbssio:com.io7m.jbssio:

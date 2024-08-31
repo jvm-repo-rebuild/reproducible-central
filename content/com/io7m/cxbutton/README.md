@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/cxbutton.git](https://github.com/io7m/cxbu
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.cxbutton:com.io7m.cxbutton](https://central.sonatype.com/artifact/com.io7m.cxbutton/com.io7m.cxbutton/1.0.0)
-* [com.io7m.cxbutton:com.io7m.cxbutton.core](https://central.sonatype.com/artifact/com.io7m.cxbutton/com.io7m.cxbutton.core/1.0.0)
-* [com.io7m.cxbutton:com.io7m.cxbutton.tests](https://central.sonatype.com/artifact/com.io7m.cxbutton/com.io7m.cxbutton.tests/1.0.0)
+* [com.io7m.cxbutton:com.io7m.cxbutton](https://central.sonatype.com/artifact/com.io7m.cxbutton/com.io7m.cxbutton/overview)
+* [com.io7m.cxbutton:com.io7m.cxbutton.core](https://central.sonatype.com/artifact/com.io7m.cxbutton/com.io7m.cxbutton.core/overview)
+* [com.io7m.cxbutton:com.io7m.cxbutton.tests](https://central.sonatype.com/artifact/com.io7m.cxbutton/com.io7m.cxbutton.tests/overview)
 </details>
 
 rebuilding **4 releases** of com.io7m.cxbutton:com.io7m.cxbutton:

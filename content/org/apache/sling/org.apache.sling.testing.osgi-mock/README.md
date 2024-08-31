@@ -9,12 +9,12 @@ Source code: [https://github.com/apache/sling-org-apache-sling-testing-osgi-mock
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [org.apache.sling:org.apache.sling.testing.osgi-mock](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.5.0)
-* [org.apache.sling:org.apache.sling.testing.osgi-mock.core](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.core/3.5.0)
-* [org.apache.sling:org.apache.sling.testing.osgi-mock.junit4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.junit4/3.5.0)
-* [org.apache.sling:org.apache.sling.testing.osgi-mock.junit5](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.junit5/3.5.0)
-* [org.apache.sling:org.apache.sling.testing.osgi-mock.parent](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.parent/3.5.0)
-* [org.apache.sling:org.apache.sling.testing.osgi-mock.test-services](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.test-services/3.5.0)
+* [org.apache.sling:org.apache.sling.testing.osgi-mock](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/overview)
+* [org.apache.sling:org.apache.sling.testing.osgi-mock.core](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.core/overview)
+* [org.apache.sling:org.apache.sling.testing.osgi-mock.junit4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.junit4/overview)
+* [org.apache.sling:org.apache.sling.testing.osgi-mock.junit5](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.junit5/overview)
+* [org.apache.sling:org.apache.sling.testing.osgi-mock.parent](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.parent/overview)
+* [org.apache.sling:org.apache.sling.testing.osgi-mock.test-services](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.test-services/overview)
 </details>
 
 rebuilding **9 releases** of org.apache.sling:org.apache.sling.testing.osgi-mock:

@@ -9,9 +9,9 @@ Source code: [https://github.com/IntellectualSites/bom.git](https://github.com/I
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.intellectualsites.bom:bom](https://central.sonatype.com/artifact/com.intellectualsites.bom/bom/1.48)
-* [com.intellectualsites.bom:bom-1.16.x](https://central.sonatype.com/artifact/com.intellectualsites.bom/bom-1.16.x/1.48)
-* [com.intellectualsites.bom:bom-newest](https://central.sonatype.com/artifact/com.intellectualsites.bom/bom-newest/1.48)
+* [com.intellectualsites.bom:bom](https://central.sonatype.com/artifact/com.intellectualsites.bom/bom/overview)
+* [com.intellectualsites.bom:bom-1.16.x](https://central.sonatype.com/artifact/com.intellectualsites.bom/bom-1.16.x/overview)
+* [com.intellectualsites.bom:bom-newest](https://central.sonatype.com/artifact/com.intellectualsites.bom/bom-newest/overview)
 </details>
 
 rebuilding **5 releases** of com.intellectualsites.bom:bom-newest:

@@ -9,11 +9,11 @@ Source code: [https://github.com/io7m/junsigned.git](https://github.com/io7m/jun
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [com.io7m.junsigned:com.io7m.junsigned](https://central.sonatype.com/artifact/com.io7m.junsigned/com.io7m.junsigned/4.0.0)
-* [com.io7m.junsigned:com.io7m.junsigned.core](https://central.sonatype.com/artifact/com.io7m.junsigned/com.io7m.junsigned.core/4.0.0)
-* [com.io7m.junsigned:com.io7m.junsigned.documentation](https://central.sonatype.com/artifact/com.io7m.junsigned/com.io7m.junsigned.documentation/4.0.0)
-* [com.io7m.junsigned:com.io7m.junsigned.ranges](https://central.sonatype.com/artifact/com.io7m.junsigned/com.io7m.junsigned.ranges/4.0.0)
-* [com.io7m.junsigned:com.io7m.junsigned.tests](https://central.sonatype.com/artifact/com.io7m.junsigned/com.io7m.junsigned.tests/4.0.0)
+* [com.io7m.junsigned:com.io7m.junsigned](https://central.sonatype.com/artifact/com.io7m.junsigned/com.io7m.junsigned/overview)
+* [com.io7m.junsigned:com.io7m.junsigned.core](https://central.sonatype.com/artifact/com.io7m.junsigned/com.io7m.junsigned.core/overview)
+* [com.io7m.junsigned:com.io7m.junsigned.documentation](https://central.sonatype.com/artifact/com.io7m.junsigned/com.io7m.junsigned.documentation/overview)
+* [com.io7m.junsigned:com.io7m.junsigned.ranges](https://central.sonatype.com/artifact/com.io7m.junsigned/com.io7m.junsigned.ranges/overview)
+* [com.io7m.junsigned:com.io7m.junsigned.tests](https://central.sonatype.com/artifact/com.io7m.junsigned/com.io7m.junsigned.tests/overview)
 </details>
 
 rebuilding **2 releases** of com.io7m.junsigned:com.io7m.junsigned:

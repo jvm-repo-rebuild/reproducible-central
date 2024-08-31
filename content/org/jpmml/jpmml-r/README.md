@@ -9,9 +9,9 @@ Source code: [https://github.com/jpmml/jpmml-r.git](https://github.com/jpmml/jpm
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [org.jpmml:jpmml-r](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.5.6)
-* [org.jpmml:pmml-rexp](https://central.sonatype.com/artifact/org.jpmml/pmml-rexp/1.5.6)
-* [org.jpmml:pmml-rexp-xgboost](https://central.sonatype.com/artifact/org.jpmml/pmml-rexp-xgboost/1.5.6)
+* [org.jpmml:jpmml-r](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/overview)
+* [org.jpmml:pmml-rexp](https://central.sonatype.com/artifact/org.jpmml/pmml-rexp/overview)
+* [org.jpmml:pmml-rexp-xgboost](https://central.sonatype.com/artifact/org.jpmml/pmml-rexp-xgboost/overview)
 </details>
 
 rebuilding **4 releases** of org.jpmml:jpmml-r:

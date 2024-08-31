@@ -9,15 +9,15 @@ Source code: [https://github.com/jpmml/jpmml-model.git](https://github.com/jpmml
 
 <details><summary>This project defines 9 modules:</summary>
 
-* [org.jpmml:jpmml-model](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.6.5)
-* [org.jpmml:pmml-agent](https://central.sonatype.com/artifact/org.jpmml/pmml-agent/1.6.5)
-* [org.jpmml:pmml-model](https://central.sonatype.com/artifact/org.jpmml/pmml-model/1.6.5)
-* [org.jpmml:pmml-model-gwt](https://central.sonatype.com/artifact/org.jpmml/pmml-model-gwt/1.6.5)
-* [org.jpmml:pmml-model-jackson](https://central.sonatype.com/artifact/org.jpmml/pmml-model-jackson/1.6.5)
-* [org.jpmml:pmml-model-kryo](https://central.sonatype.com/artifact/org.jpmml/pmml-model-kryo/1.6.5)
-* [org.jpmml:pmml-model-metro](https://central.sonatype.com/artifact/org.jpmml/pmml-model-metro/1.6.5)
-* [org.jpmml:pmml-model-moxy](https://central.sonatype.com/artifact/org.jpmml/pmml-model-moxy/1.6.5)
-* [org.jpmml:pmml-xjc](https://central.sonatype.com/artifact/org.jpmml/pmml-xjc/1.6.5)
+* [org.jpmml:jpmml-model](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/overview)
+* [org.jpmml:pmml-agent](https://central.sonatype.com/artifact/org.jpmml/pmml-agent/overview)
+* [org.jpmml:pmml-model](https://central.sonatype.com/artifact/org.jpmml/pmml-model/overview)
+* [org.jpmml:pmml-model-gwt](https://central.sonatype.com/artifact/org.jpmml/pmml-model-gwt/overview)
+* [org.jpmml:pmml-model-jackson](https://central.sonatype.com/artifact/org.jpmml/pmml-model-jackson/overview)
+* [org.jpmml:pmml-model-kryo](https://central.sonatype.com/artifact/org.jpmml/pmml-model-kryo/overview)
+* [org.jpmml:pmml-model-metro](https://central.sonatype.com/artifact/org.jpmml/pmml-model-metro/overview)
+* [org.jpmml:pmml-model-moxy](https://central.sonatype.com/artifact/org.jpmml/pmml-model-moxy/overview)
+* [org.jpmml:pmml-xjc](https://central.sonatype.com/artifact/org.jpmml/pmml-xjc/overview)
 </details>
 
 rebuilding **1 releases** of org.jpmml:jpmml-model:

@@ -9,10 +9,10 @@ Source code: [https://github.com/complate/complate-java.git](https://github.com/
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [org.complate:complate-core](https://central.sonatype.com/artifact/org.complate/complate-core/1.0.0)
-* [org.complate:complate-graal](https://central.sonatype.com/artifact/org.complate/complate-graal/1.0.0)
-* [org.complate:complate-nashorn](https://central.sonatype.com/artifact/org.complate/complate-nashorn/1.0.0)
-* [org.complate:complate-parent](https://central.sonatype.com/artifact/org.complate/complate-parent/1.0.0)
+* [org.complate:complate-core](https://central.sonatype.com/artifact/org.complate/complate-core/overview)
+* [org.complate:complate-graal](https://central.sonatype.com/artifact/org.complate/complate-graal/overview)
+* [org.complate:complate-nashorn](https://central.sonatype.com/artifact/org.complate/complate-nashorn/overview)
+* [org.complate:complate-parent](https://central.sonatype.com/artifact/org.complate/complate-parent/overview)
 </details>
 
 rebuilding **3 releases** of org.complate:complate-parent:

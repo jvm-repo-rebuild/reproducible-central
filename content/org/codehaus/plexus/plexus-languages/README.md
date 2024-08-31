@@ -9,8 +9,8 @@ Source code: [https://github.com/codehaus-plexus/plexus-languages.git](https://g
 
 <details><summary>This project defines 2 modules:</summary>
 
-* [org.codehaus.plexus:plexus-java](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-java/1.2.0)
-* [org.codehaus.plexus:plexus-languages](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-languages/1.2.0)
+* [org.codehaus.plexus:plexus-java](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-java/overview)
+* [org.codehaus.plexus:plexus-languages](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-languages/overview)
 </details>
 
 rebuilding **7 releases** of org.codehaus.plexus:plexus-languages:

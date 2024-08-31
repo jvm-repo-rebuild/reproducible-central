@@ -9,10 +9,10 @@ Source code: [https://github.com/io7m/jpplib.git](https://github.com/io7m/jpplib
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.jpplib:com.io7m.jpplib](https://central.sonatype.com/artifact/com.io7m.jpplib/com.io7m.jpplib/1.0.0)
-* [com.io7m.jpplib:com.io7m.jpplib.core](https://central.sonatype.com/artifact/com.io7m.jpplib/com.io7m.jpplib.core/1.0.0)
-* [com.io7m.jpplib:com.io7m.jpplib.demo](https://central.sonatype.com/artifact/com.io7m.jpplib/com.io7m.jpplib.demo/1.0.0)
-* [com.io7m.jpplib:com.io7m.jpplib.tests](https://central.sonatype.com/artifact/com.io7m.jpplib/com.io7m.jpplib.tests/1.0.0)
+* [com.io7m.jpplib:com.io7m.jpplib](https://central.sonatype.com/artifact/com.io7m.jpplib/com.io7m.jpplib/overview)
+* [com.io7m.jpplib:com.io7m.jpplib.core](https://central.sonatype.com/artifact/com.io7m.jpplib/com.io7m.jpplib.core/overview)
+* [com.io7m.jpplib:com.io7m.jpplib.demo](https://central.sonatype.com/artifact/com.io7m.jpplib/com.io7m.jpplib.demo/overview)
+* [com.io7m.jpplib:com.io7m.jpplib.tests](https://central.sonatype.com/artifact/com.io7m.jpplib/com.io7m.jpplib.tests/overview)
 </details>
 
 rebuilding **1 releases** of com.io7m.jpplib:com.io7m.jpplib:

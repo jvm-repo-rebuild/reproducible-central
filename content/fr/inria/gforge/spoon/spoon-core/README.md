@@ -9,9 +9,9 @@ Source code: [https://github.com/inria/spoon.git](https://github.com/inria/spoon
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [fr.inria.gforge.spoon:spoon-core](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.1.1-beta-2)
-* [fr.inria.gforge.spoon:spoon-javadoc](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-javadoc/11.1.1-beta-2)
-* [fr.inria.gforge.spoon:spoon-pom](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-pom/11.1.1-beta-2)
+* [fr.inria.gforge.spoon:spoon-core](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/overview)
+* [fr.inria.gforge.spoon:spoon-javadoc](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-javadoc/overview)
+* [fr.inria.gforge.spoon:spoon-pom](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-pom/overview)
 </details>
 
 rebuilding **43 releases** of fr.inria.gforge.spoon:spoon-core:

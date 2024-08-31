@@ -9,11 +9,11 @@ Source code: [https://github.com/apache/sling-org-apache-sling-testing-sling-moc
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [org.apache.sling:org.apache.sling.testing.sling-mock](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock/3.5.2)
-* [org.apache.sling:org.apache.sling.testing.sling-mock.core](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock.core/3.5.2)
-* [org.apache.sling:org.apache.sling.testing.sling-mock.junit4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock.junit4/3.5.2)
-* [org.apache.sling:org.apache.sling.testing.sling-mock.junit5](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock.junit5/3.5.2)
-* [org.apache.sling:org.apache.sling.testing.sling-mock.parent](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock.parent/3.5.2)
+* [org.apache.sling:org.apache.sling.testing.sling-mock](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock/overview)
+* [org.apache.sling:org.apache.sling.testing.sling-mock.core](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock.core/overview)
+* [org.apache.sling:org.apache.sling.testing.sling-mock.junit4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock.junit4/overview)
+* [org.apache.sling:org.apache.sling.testing.sling-mock.junit5](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock.junit5/overview)
+* [org.apache.sling:org.apache.sling.testing.sling-mock.parent](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock.parent/overview)
 </details>
 
 rebuilding **14 releases** of org.apache.sling:org.apache.sling.testing.sling-mock:

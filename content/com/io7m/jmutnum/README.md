@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/jmutnum.git](https://github.com/io7m/jmutn
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.jmutnum:com.io7m.jmutnum](https://central.sonatype.com/artifact/com.io7m.jmutnum/com.io7m.jmutnum/4.0.1)
-* [com.io7m.jmutnum:com.io7m.jmutnum.core](https://central.sonatype.com/artifact/com.io7m.jmutnum/com.io7m.jmutnum.core/4.0.1)
-* [com.io7m.jmutnum:com.io7m.jmutnum.tests](https://central.sonatype.com/artifact/com.io7m.jmutnum/com.io7m.jmutnum.tests/4.0.1)
+* [com.io7m.jmutnum:com.io7m.jmutnum](https://central.sonatype.com/artifact/com.io7m.jmutnum/com.io7m.jmutnum/overview)
+* [com.io7m.jmutnum:com.io7m.jmutnum.core](https://central.sonatype.com/artifact/com.io7m.jmutnum/com.io7m.jmutnum.core/overview)
+* [com.io7m.jmutnum:com.io7m.jmutnum.tests](https://central.sonatype.com/artifact/com.io7m.jmutnum/com.io7m.jmutnum.tests/overview)
 </details>
 
 rebuilding **1 releases** of com.io7m.jmutnum:com.io7m.jmutnum:

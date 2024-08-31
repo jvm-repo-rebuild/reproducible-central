@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/jmulticlose.git](https://github.com/io7m/j
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.jmulticlose:com.io7m.jmulticlose](https://central.sonatype.com/artifact/com.io7m.jmulticlose/com.io7m.jmulticlose/1.1.3)
-* [com.io7m.jmulticlose:com.io7m.jmulticlose.core](https://central.sonatype.com/artifact/com.io7m.jmulticlose/com.io7m.jmulticlose.core/1.1.3)
-* [com.io7m.jmulticlose:com.io7m.jmulticlose.tests](https://central.sonatype.com/artifact/com.io7m.jmulticlose/com.io7m.jmulticlose.tests/1.1.3)
+* [com.io7m.jmulticlose:com.io7m.jmulticlose](https://central.sonatype.com/artifact/com.io7m.jmulticlose/com.io7m.jmulticlose/overview)
+* [com.io7m.jmulticlose:com.io7m.jmulticlose.core](https://central.sonatype.com/artifact/com.io7m.jmulticlose/com.io7m.jmulticlose.core/overview)
+* [com.io7m.jmulticlose:com.io7m.jmulticlose.tests](https://central.sonatype.com/artifact/com.io7m.jmulticlose/com.io7m.jmulticlose.tests/overview)
 </details>
 
 rebuilding **5 releases** of com.io7m.jmulticlose:com.io7m.jmulticlose:

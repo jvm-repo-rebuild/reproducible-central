@@ -9,10 +9,10 @@ Source code: [https://github.com/apache/qpid-jms.git](https://github.com/apache/
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [org.apache.qpid:apache-qpid-jms](https://central.sonatype.com/artifact/org.apache.qpid/apache-qpid-jms/2.5.0)
-* [org.apache.qpid:qpid-jms-client](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-client/2.5.0)
-* [org.apache.qpid:qpid-jms-discovery](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-discovery/2.5.0)
-* [org.apache.qpid:qpid-jms-parent](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.5.0)
+* [org.apache.qpid:apache-qpid-jms](https://central.sonatype.com/artifact/org.apache.qpid/apache-qpid-jms/overview)
+* [org.apache.qpid:qpid-jms-client](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-client/overview)
+* [org.apache.qpid:qpid-jms-discovery](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-discovery/overview)
+* [org.apache.qpid:qpid-jms-parent](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/overview)
 </details>
 
 rebuilding **9 releases** of org.apache.qpid:qpid-jms-parent:

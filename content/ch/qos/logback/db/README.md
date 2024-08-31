@@ -9,10 +9,10 @@ Source code: [https://github.com/qos-ch/logback-db.git](https://github.com/qos-c
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [ch.qos.logback.db:logback-access-db](https://central.sonatype.com/artifact/ch.qos.logback.db/logback-access-db/1.2.11.1)
-* [ch.qos.logback.db:logback-classic-db](https://central.sonatype.com/artifact/ch.qos.logback.db/logback-classic-db/1.2.11.1)
-* [ch.qos.logback.db:logback-core-db](https://central.sonatype.com/artifact/ch.qos.logback.db/logback-core-db/1.2.11.1)
-* [ch.qos.logback.db:logback-parent-db](https://central.sonatype.com/artifact/ch.qos.logback.db/logback-parent-db/1.2.11.1)
+* [ch.qos.logback.db:logback-access-db](https://central.sonatype.com/artifact/ch.qos.logback.db/logback-access-db/overview)
+* [ch.qos.logback.db:logback-classic-db](https://central.sonatype.com/artifact/ch.qos.logback.db/logback-classic-db/overview)
+* [ch.qos.logback.db:logback-core-db](https://central.sonatype.com/artifact/ch.qos.logback.db/logback-core-db/overview)
+* [ch.qos.logback.db:logback-parent-db](https://central.sonatype.com/artifact/ch.qos.logback.db/logback-parent-db/overview)
 </details>
 
 rebuilding **1 releases** of ch.qos.logback.db:logback-parent-db:

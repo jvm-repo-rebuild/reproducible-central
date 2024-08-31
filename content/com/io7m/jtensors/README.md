@@ -9,16 +9,16 @@ Source code: [https://github.com/io7m/jtensors.git](https://github.com/io7m/jten
 
 <details><summary>This project defines 10 modules:</summary>
 
-* [com.io7m.jtensors:com.io7m.jtensors](https://central.sonatype.com/artifact/com.io7m.jtensors/com.io7m.jtensors/11.0.0)
-* [com.io7m.jtensors:com.io7m.jtensors.benchmarking](https://central.sonatype.com/artifact/com.io7m.jtensors/com.io7m.jtensors.benchmarking/11.0.0)
-* [com.io7m.jtensors:com.io7m.jtensors.core](https://central.sonatype.com/artifact/com.io7m.jtensors/com.io7m.jtensors.core/11.0.0)
-* [com.io7m.jtensors:com.io7m.jtensors.documentation](https://central.sonatype.com/artifact/com.io7m.jtensors/com.io7m.jtensors.documentation/11.0.0)
-* [com.io7m.jtensors:com.io7m.jtensors.generators](https://central.sonatype.com/artifact/com.io7m.jtensors/com.io7m.jtensors.generators/11.0.0)
-* [com.io7m.jtensors:com.io7m.jtensors.orthonormalization](https://central.sonatype.com/artifact/com.io7m.jtensors/com.io7m.jtensors.orthonormalization/11.0.0)
-* [com.io7m.jtensors:com.io7m.jtensors.storage.api](https://central.sonatype.com/artifact/com.io7m.jtensors/com.io7m.jtensors.storage.api/11.0.0)
-* [com.io7m.jtensors:com.io7m.jtensors.storage.bytebuffered](https://central.sonatype.com/artifact/com.io7m.jtensors/com.io7m.jtensors.storage.bytebuffered/11.0.0)
-* [com.io7m.jtensors:com.io7m.jtensors.storage.heap](https://central.sonatype.com/artifact/com.io7m.jtensors/com.io7m.jtensors.storage.heap/11.0.0)
-* [com.io7m.jtensors:com.io7m.jtensors.tests](https://central.sonatype.com/artifact/com.io7m.jtensors/com.io7m.jtensors.tests/11.0.0)
+* [com.io7m.jtensors:com.io7m.jtensors](https://central.sonatype.com/artifact/com.io7m.jtensors/com.io7m.jtensors/overview)
+* [com.io7m.jtensors:com.io7m.jtensors.benchmarking](https://central.sonatype.com/artifact/com.io7m.jtensors/com.io7m.jtensors.benchmarking/overview)
+* [com.io7m.jtensors:com.io7m.jtensors.core](https://central.sonatype.com/artifact/com.io7m.jtensors/com.io7m.jtensors.core/overview)
+* [com.io7m.jtensors:com.io7m.jtensors.documentation](https://central.sonatype.com/artifact/com.io7m.jtensors/com.io7m.jtensors.documentation/overview)
+* [com.io7m.jtensors:com.io7m.jtensors.generators](https://central.sonatype.com/artifact/com.io7m.jtensors/com.io7m.jtensors.generators/overview)
+* [com.io7m.jtensors:com.io7m.jtensors.orthonormalization](https://central.sonatype.com/artifact/com.io7m.jtensors/com.io7m.jtensors.orthonormalization/overview)
+* [com.io7m.jtensors:com.io7m.jtensors.storage.api](https://central.sonatype.com/artifact/com.io7m.jtensors/com.io7m.jtensors.storage.api/overview)
+* [com.io7m.jtensors:com.io7m.jtensors.storage.bytebuffered](https://central.sonatype.com/artifact/com.io7m.jtensors/com.io7m.jtensors.storage.bytebuffered/overview)
+* [com.io7m.jtensors:com.io7m.jtensors.storage.heap](https://central.sonatype.com/artifact/com.io7m.jtensors/com.io7m.jtensors.storage.heap/overview)
+* [com.io7m.jtensors:com.io7m.jtensors.tests](https://central.sonatype.com/artifact/com.io7m.jtensors/com.io7m.jtensors.tests/overview)
 </details>
 
 rebuilding **1 releases** of com.io7m.jtensors:com.io7m.jtensors:

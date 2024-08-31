@@ -9,18 +9,18 @@ Source code: [https://github.com/apache/johnzon.git](https://github.com/apache/j
 
 <details><summary>This project defines 12 modules:</summary>
 
-* [org.apache.johnzon:apache-johnzon](https://central.sonatype.com/artifact/org.apache.johnzon/apache-johnzon/2.0.1)
-* [org.apache.johnzon:johnzon](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon/2.0.1)
-* [org.apache.johnzon:johnzon-core](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-core/2.0.1)
-* [org.apache.johnzon:johnzon-jaxrs](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-jaxrs/2.0.1)
-* [org.apache.johnzon:johnzon-jsonb](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-jsonb/2.0.1)
-* [org.apache.johnzon:johnzon-jsonb-extras](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-jsonb-extras/2.0.1)
-* [org.apache.johnzon:johnzon-jsonlogic](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-jsonlogic/2.0.1)
-* [org.apache.johnzon:johnzon-jsonschema](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-jsonschema/2.0.1)
-* [org.apache.johnzon:johnzon-mapper](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-mapper/2.0.1)
-* [org.apache.johnzon:johnzon-maven-plugin](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-maven-plugin/2.0.1)
-* [org.apache.johnzon:johnzon-osgi](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-osgi/2.0.1)
-* [org.apache.johnzon:johnzon-websocket](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-websocket/2.0.1)
+* [org.apache.johnzon:apache-johnzon](https://central.sonatype.com/artifact/org.apache.johnzon/apache-johnzon/overview)
+* [org.apache.johnzon:johnzon](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon/overview)
+* [org.apache.johnzon:johnzon-core](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-core/overview)
+* [org.apache.johnzon:johnzon-jaxrs](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-jaxrs/overview)
+* [org.apache.johnzon:johnzon-jsonb](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-jsonb/overview)
+* [org.apache.johnzon:johnzon-jsonb-extras](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-jsonb-extras/overview)
+* [org.apache.johnzon:johnzon-jsonlogic](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-jsonlogic/overview)
+* [org.apache.johnzon:johnzon-jsonschema](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-jsonschema/overview)
+* [org.apache.johnzon:johnzon-mapper](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-mapper/overview)
+* [org.apache.johnzon:johnzon-maven-plugin](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-maven-plugin/overview)
+* [org.apache.johnzon:johnzon-osgi](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-osgi/overview)
+* [org.apache.johnzon:johnzon-websocket](https://central.sonatype.com/artifact/org.apache.johnzon/johnzon-websocket/overview)
 </details>
 
 rebuilding **2 releases** of org.apache.johnzon:johnzon:

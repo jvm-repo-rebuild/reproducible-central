@@ -9,12 +9,12 @@ Source code: [https://github.com/io7m/quixote.git](https://github.com/io7m/quixo
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [com.io7m.quixote:com.io7m.quixote](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote/1.3.0)
-* [com.io7m.quixote:com.io7m.quixote.core](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote.core/1.3.0)
-* [com.io7m.quixote:com.io7m.quixote.main](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote.main/1.3.0)
-* [com.io7m.quixote:com.io7m.quixote.oci](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote.oci/1.3.0)
-* [com.io7m.quixote:com.io7m.quixote.tests](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote.tests/1.3.0)
-* [com.io7m.quixote:com.io7m.quixote.xml](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote.xml/1.3.0)
+* [com.io7m.quixote:com.io7m.quixote](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote/overview)
+* [com.io7m.quixote:com.io7m.quixote.core](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote.core/overview)
+* [com.io7m.quixote:com.io7m.quixote.main](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote.main/overview)
+* [com.io7m.quixote:com.io7m.quixote.oci](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote.oci/overview)
+* [com.io7m.quixote:com.io7m.quixote.tests](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote.tests/overview)
+* [com.io7m.quixote:com.io7m.quixote.xml](https://central.sonatype.com/artifact/com.io7m.quixote/com.io7m.quixote.xml/overview)
 </details>
 
 rebuilding **6 releases** of com.io7m.quixote:com.io7m.quixote:

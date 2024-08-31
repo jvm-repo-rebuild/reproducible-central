@@ -9,11 +9,11 @@ Source code: [https://github.com/hibernate/hibernate-validator.git](https://gith
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [org.hibernate.validator:hibernate-validator](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator/9.0.0.Beta2)
-* [org.hibernate.validator:hibernate-validator-annotation-processor](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator-annotation-processor/9.0.0.Beta2)
-* [org.hibernate.validator:hibernate-validator-bom](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator-bom/9.0.0.Beta2)
-* [org.hibernate.validator:hibernate-validator-cdi](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator-cdi/9.0.0.Beta2)
-* [org.hibernate.validator:hibernate-validator-test-utils](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator-test-utils/9.0.0.Beta2)
+* [org.hibernate.validator:hibernate-validator](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator/overview)
+* [org.hibernate.validator:hibernate-validator-annotation-processor](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator-annotation-processor/overview)
+* [org.hibernate.validator:hibernate-validator-bom](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator-bom/overview)
+* [org.hibernate.validator:hibernate-validator-cdi](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator-cdi/overview)
+* [org.hibernate.validator:hibernate-validator-test-utils](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator-test-utils/overview)
 </details>
 
 rebuilding **1 releases** of org.hibernate.validator:hibernate-validator:

@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/jdownload.git](https://github.com/io7m/jdo
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.jdownload:com.io7m.jdownload](https://central.sonatype.com/artifact/com.io7m.jdownload/com.io7m.jdownload/1.0.0)
-* [com.io7m.jdownload:com.io7m.jdownload.core](https://central.sonatype.com/artifact/com.io7m.jdownload/com.io7m.jdownload.core/1.0.0)
-* [com.io7m.jdownload:com.io7m.jdownload.tests](https://central.sonatype.com/artifact/com.io7m.jdownload/com.io7m.jdownload.tests/1.0.0)
+* [com.io7m.jdownload:com.io7m.jdownload](https://central.sonatype.com/artifact/com.io7m.jdownload/com.io7m.jdownload/overview)
+* [com.io7m.jdownload:com.io7m.jdownload.core](https://central.sonatype.com/artifact/com.io7m.jdownload/com.io7m.jdownload.core/overview)
+* [com.io7m.jdownload:com.io7m.jdownload.tests](https://central.sonatype.com/artifact/com.io7m.jdownload/com.io7m.jdownload.tests/overview)
 </details>
 
 rebuilding **2 releases** of com.io7m.jdownload:com.io7m.jdownload:

@@ -9,16 +9,16 @@ Source code: [https://github.com/maveniverse/nisse.git](https://github.com/maven
 
 <details><summary>This project defines 10 modules:</summary>
 
-* [eu.maveniverse.maven.nisse.sources:file-source](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse.sources/file-source/0.1.1)
-* [eu.maveniverse.maven.nisse.sources:jgit-source](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse.sources/jgit-source/0.1.1)
-* [eu.maveniverse.maven.nisse.sources:mvn-source](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse.sources/mvn-source/0.1.1)
-* [eu.maveniverse.maven.nisse.sources:os-source](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse.sources/os-source/0.1.1)
-* [eu.maveniverse.maven.nisse.sources:sources](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse.sources/sources/0.1.1)
-* [eu.maveniverse.maven.nisse:core](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/core/0.1.1)
-* [eu.maveniverse.maven.nisse:extension3](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/extension3/0.1.1)
-* [eu.maveniverse.maven.nisse:extension4](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/extension4/0.1.1)
-* [eu.maveniverse.maven.nisse:nisse](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.1.1)
-* [eu.maveniverse.maven.nisse:plugin3](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/plugin3/0.1.1)
+* [eu.maveniverse.maven.nisse.sources:file-source](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse.sources/file-source/overview)
+* [eu.maveniverse.maven.nisse.sources:jgit-source](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse.sources/jgit-source/overview)
+* [eu.maveniverse.maven.nisse.sources:mvn-source](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse.sources/mvn-source/overview)
+* [eu.maveniverse.maven.nisse.sources:os-source](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse.sources/os-source/overview)
+* [eu.maveniverse.maven.nisse.sources:sources](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse.sources/sources/overview)
+* [eu.maveniverse.maven.nisse:core](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/core/overview)
+* [eu.maveniverse.maven.nisse:extension3](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/extension3/overview)
+* [eu.maveniverse.maven.nisse:extension4](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/extension4/overview)
+* [eu.maveniverse.maven.nisse:nisse](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/overview)
+* [eu.maveniverse.maven.nisse:plugin3](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/plugin3/overview)
 </details>
 
 rebuilding **2 releases** of eu.maveniverse.maven.nisse:nisse:

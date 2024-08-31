@@ -9,9 +9,9 @@ Source code: [https://github.com/io7m/taskrecorder.git](https://github.com/io7m/
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [com.io7m.taskrecorder:com.io7m.taskrecorder](https://central.sonatype.com/artifact/com.io7m.taskrecorder/com.io7m.taskrecorder/1.0.0)
-* [com.io7m.taskrecorder:com.io7m.taskrecorder.core](https://central.sonatype.com/artifact/com.io7m.taskrecorder/com.io7m.taskrecorder.core/1.0.0)
-* [com.io7m.taskrecorder:com.io7m.taskrecorder.tests](https://central.sonatype.com/artifact/com.io7m.taskrecorder/com.io7m.taskrecorder.tests/1.0.0)
+* [com.io7m.taskrecorder:com.io7m.taskrecorder](https://central.sonatype.com/artifact/com.io7m.taskrecorder/com.io7m.taskrecorder/overview)
+* [com.io7m.taskrecorder:com.io7m.taskrecorder.core](https://central.sonatype.com/artifact/com.io7m.taskrecorder/com.io7m.taskrecorder.core/overview)
+* [com.io7m.taskrecorder:com.io7m.taskrecorder.tests](https://central.sonatype.com/artifact/com.io7m.taskrecorder/com.io7m.taskrecorder.tests/overview)
 </details>
 
 rebuilding **3 releases** of com.io7m.taskrecorder:com.io7m.taskrecorder:

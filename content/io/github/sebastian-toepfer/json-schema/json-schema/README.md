@@ -9,10 +9,10 @@ Source code: [https://github.com/sebastian-toepfer/json-schema.git](https://gith
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [io.github.sebastian-toepfer.json-schema:json-schema](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json-schema/json-schema/0.3.0)
-* [io.github.sebastian-toepfer.json-schema:json-schema-api](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json-schema/json-schema-api/0.3.0)
-* [io.github.sebastian-toepfer.json-schema:json-schema-core](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json-schema/json-schema-core/0.3.0)
-* [io.github.sebastian-toepfer.json-schema:json-schema-vocabulary-spi](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json-schema/json-schema-vocabulary-spi/0.3.0)
+* [io.github.sebastian-toepfer.json-schema:json-schema](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json-schema/json-schema/overview)
+* [io.github.sebastian-toepfer.json-schema:json-schema-api](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json-schema/json-schema-api/overview)
+* [io.github.sebastian-toepfer.json-schema:json-schema-core](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json-schema/json-schema-core/overview)
+* [io.github.sebastian-toepfer.json-schema:json-schema-vocabulary-spi](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json-schema/json-schema-vocabulary-spi/overview)
 </details>
 
 rebuilding **5 releases** of io.github.sebastian-toepfer.json-schema:json-schema:
