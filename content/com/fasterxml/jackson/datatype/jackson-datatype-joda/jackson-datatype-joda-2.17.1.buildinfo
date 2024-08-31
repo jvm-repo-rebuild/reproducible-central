@@ -32,6 +32,11 @@ outputs.1.length=75449
 outputs.1.checksums.sha512=3e28e2b1100dc62b8ee105b450e2e9df4c39a392eff1beb9258d1ea98ab6b99f78deb36bbb7a72a23803fe0632421d592a437b4c1793ef04bf58f63683d84cd0
 
 outputs.2.groupId=com.fasterxml.jackson.datatype
-outputs.2.filename=jackson-datatype-joda-2.17.1.module
-outputs.2.length=3917
-outputs.2.checksums.sha512=e1ab3904da25befec049e680a1c457e5b4e57ae3d605b8d5dc5c26581f378f874327f18ee02e6f3c0586a57283e43a5b554c6c8cac6159f090ff00effff3c101
+outputs.2.filename=jackson-datatype-joda-2.17.1-sources.jar
+outputs.2.length=49324
+outputs.2.checksums.sha512=877a18e49c1a77df4564b158cd8804e6d903920ceee8f18c35a3fe77d4928d0e6a8a95f9b5b921afee6756a83ddff80e3a2987a230c9a54dd9418a6651021119
+
+outputs.3.groupId=com.fasterxml.jackson.datatype
+outputs.3.filename=jackson-datatype-joda-2.17.1.module
+outputs.3.length=3917
+outputs.3.checksums.sha512=e1ab3904da25befec049e680a1c457e5b4e57ae3d605b8d5dc5c26581f378f874327f18ee02e6f3c0586a57283e43a5b554c6c8cac6159f090ff00effff3c101
