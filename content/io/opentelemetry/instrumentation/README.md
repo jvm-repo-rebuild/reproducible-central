@@ -406,7 +406,7 @@ rebuilding **3 releases** of io.opentelemetry.instrumentation:opentelemetry-inst
 | [2.7.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.7.0/pom) | | | |
 | [2.6.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.6.0/pom) | | | |
 | [2.5.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.5.0/pom) | | | |
-| [2.4.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.4.0/pom) | [gradle jdk17](opentelemetry-2.4.0.buildspec) | [result](opentelemetry-instrumentation-api-2.4.0.buildinfo): [1070 :white_check_mark:  343 :warning:](opentelemetry-instrumentation-api-2.4.0.buildcompare) | 76M |
+| [2.4.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.4.0/pom) | [gradle jdk17](opentelemetry-2.4.0.buildspec) | [result](opentelemetry-instrumentation-api-2.4.0.buildinfo): [1057 :white_check_mark:  3 :warning:](opentelemetry-instrumentation-api-2.4.0.buildcompare) [:mag:](opentelemetry-instrumentation-api-2.4.0.diffoscope) | 74M |
 | [2.3.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.3.0/pom) | | | |
 | [2.2.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.2.0/pom) | | | |
 | [2.1.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.1.0/pom) | | | |

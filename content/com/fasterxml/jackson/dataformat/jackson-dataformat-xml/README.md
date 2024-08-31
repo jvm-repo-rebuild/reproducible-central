@@ -13,6 +13,7 @@ rebuilding **7 releases** of com.fasterxml.jackson.dataformat:jackson-dataformat
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.18.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.18.0-rc1/pom) | | | |
 | [2.17.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.17.2/pom) | [mvn jdk8](jackson-dataformat-xml-2.17.2.buildspec) | [result](jackson-dataformat-xml-2.17.2.buildinfo): [3 :white_check_mark: ](jackson-dataformat-xml-2.17.2.buildcompare) | 139K |
 | [2.17.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.17.1/pom) | [mvn jdk8](jackson-dataformat-xml-2.17.1.buildspec) | [result](jackson-dataformat-xml-2.17.1.buildinfo): [3 :white_check_mark: ](jackson-dataformat-xml-2.17.1.buildcompare) | 139K |
 | [2.17.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.17.0/pom) | [mvn jdk8](jackson-dataformat-xml-2.17.0.buildspec) | [result](jackson-dataformat-xml-2.17.0.buildinfo): [3 :white_check_mark: ](jackson-dataformat-xml-2.17.0.buildcompare) | 139K |
