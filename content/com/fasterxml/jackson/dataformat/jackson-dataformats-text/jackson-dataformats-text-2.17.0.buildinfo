@@ -42,9 +42,14 @@ outputs.1.1.length=102450
 outputs.1.1.checksums.sha512=87d69345ef2986ce5d078c96a78b5a15f2489e801e6cffafc6758cd43d2694d9995c8bb672c3e3444175a22be81952dcee1a2067dd7cf6d576a00f201d73abc7
 
 outputs.1.2.groupId=com.fasterxml.jackson.dataformat
-outputs.1.2.filename=jackson-dataformat-csv-2.17.0.module
-outputs.1.2.length=3614
-outputs.1.2.checksums.sha512=cc2771343f3e3c8dd86e83cfd2f15856ad6d81fb92c15274e51a73d37f7ead1f5ad190f7abdfe5779550fd9d7fde0db9151947848d712a0c299188f3a903f6e5
+outputs.1.2.filename=jackson-dataformat-csv-2.17.0-sources.jar
+outputs.1.2.length=81500
+outputs.1.2.checksums.sha512=7d74b7d4efaae6cbbfc808350ea7076a751f84ef2b0560ab7de18b72f84d4bbcf3cf244c1eeab79d3d47ae08fe5dc08faf8f5d19cc28ed2f4964d74aeab9960c
+
+outputs.1.3.groupId=com.fasterxml.jackson.dataformat
+outputs.1.3.filename=jackson-dataformat-csv-2.17.0.module
+outputs.1.3.length=3614
+outputs.1.3.checksums.sha512=cc2771343f3e3c8dd86e83cfd2f15856ad6d81fb92c15274e51a73d37f7ead1f5ad190f7abdfe5779550fd9d7fde0db9151947848d712a0c299188f3a903f6e5
 
 outputs.2.coordinates=com.fasterxml.jackson.dataformat:jackson-dataformat-properties
 
@@ -59,9 +64,14 @@ outputs.2.1.length=55673
 outputs.2.1.checksums.sha512=9085d84a53de5c105866baf6acd27a06edfba1a72fa9ba611c98c44dca6764d0eb1333cb8f397924882aee42a9676e47a237b919776ceb875922d78facf56447
 
 outputs.2.2.groupId=com.fasterxml.jackson.dataformat
-outputs.2.2.filename=jackson-dataformat-properties-2.17.0.module
-outputs.2.2.length=3285
-outputs.2.2.checksums.sha512=db810b263d6f347ad6825f1ac79602c72d100fa976a7ca55aa0c29bf2bdd2e788854bef5c2520557b83f97afb0b06202933f2116e09c071189bf3275a909c8ad
+outputs.2.2.filename=jackson-dataformat-properties-2.17.0-sources.jar
+outputs.2.2.length=40693
+outputs.2.2.checksums.sha512=06d860817a3ba82f70e933d4fa9bdd6977366f4e5f4c683e3d7dfcd1d62662f7f1332a92d6e20dfe7a6e8f0ec4b627f7c6666a5682b32c5638127542be322ade
+
+outputs.2.3.groupId=com.fasterxml.jackson.dataformat
+outputs.2.3.filename=jackson-dataformat-properties-2.17.0.module
+outputs.2.3.length=3285
+outputs.2.3.checksums.sha512=db810b263d6f347ad6825f1ac79602c72d100fa976a7ca55aa0c29bf2bdd2e788854bef5c2520557b83f97afb0b06202933f2116e09c071189bf3275a909c8ad
 
 outputs.3.coordinates=com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
 
@@ -76,9 +86,14 @@ outputs.3.1.length=55416
 outputs.3.1.checksums.sha512=27d4e050309e107dc7e6046588b7728f1ff6755b836b860a6fa8fc16dc68423a81abedf73b77863112f432cee0d857105724988345b95947df67ca30b4332fc1
 
 outputs.3.2.groupId=com.fasterxml.jackson.dataformat
-outputs.3.2.filename=jackson-dataformat-yaml-2.17.0.module
-outputs.3.2.length=3557
-outputs.3.2.checksums.sha512=23adbafc1636cea3c4e503f39db3e6449f7dd4740b9a38c18e1e306e0b3544328921aa632aac8ceb7b091392525b7074dc873d86a5e6042df09f25fb67331f48
+outputs.3.2.filename=jackson-dataformat-yaml-2.17.0-sources.jar
+outputs.3.2.length=46178
+outputs.3.2.checksums.sha512=64d802a95ee2dd2ff8eae7c442c407fad2a3549e352bc9b59b862498ba9e946041d92f463fa5329d4a070ca5d7bfb035e32e2ce45c236154b61152aa24bd0c01
+
+outputs.3.3.groupId=com.fasterxml.jackson.dataformat
+outputs.3.3.filename=jackson-dataformat-yaml-2.17.0.module
+outputs.3.3.length=3557
+outputs.3.3.checksums.sha512=23adbafc1636cea3c4e503f39db3e6449f7dd4740b9a38c18e1e306e0b3544328921aa632aac8ceb7b091392525b7074dc873d86a5e6042df09f25fb67331f48
 
 outputs.4.coordinates=com.fasterxml.jackson.dataformat:jackson-dataformat-toml
 
@@ -93,6 +108,11 @@ outputs.4.1.length=56080
 outputs.4.1.checksums.sha512=e8480f41e9747328d3134f7dc24f9d23cc4f98eca81f64bf7279160a33124186670a7666b0826ed9195f346aa3f54b3bcdb2214a879a58df5f7986c4d80b5605
 
 outputs.4.2.groupId=com.fasterxml.jackson.dataformat
-outputs.4.2.filename=jackson-dataformat-toml-2.17.0.module
-outputs.4.2.length=3257
-outputs.4.2.checksums.sha512=b37c2d983cb03368bb8c44a9f01fcd686f3482cb9ddbd802ba1bcb5176f678d564c788da9b71031e1764253dcfc5c468d9c2dca1a67370809309d572d4df5c66
+outputs.4.2.filename=jackson-dataformat-toml-2.17.0-sources.jar
+outputs.4.2.length=39443
+outputs.4.2.checksums.sha512=f1873d61e5a83367d46ded07607c522e32de4042c1e8bebb23b580a9e024494b2e4a8fdb9376dc5993d4807961b706aa500a2be8550bf6686e7be4ed7bcf55d0
+
+outputs.4.3.groupId=com.fasterxml.jackson.dataformat
+outputs.4.3.filename=jackson-dataformat-toml-2.17.0.module
+outputs.4.3.length=3257
+outputs.4.3.checksums.sha512=b37c2d983cb03368bb8c44a9f01fcd686f3482cb9ddbd802ba1bcb5176f678d564c788da9b71031e1764253dcfc5c468d9c2dca1a67370809309d572d4df5c66
