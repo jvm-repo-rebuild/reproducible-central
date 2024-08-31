@@ -32,6 +32,11 @@ outputs.1.length=129180
 outputs.1.checksums.sha512=a422d577ae21ab75ea10f05e139f32b482f620a71c322b8ee112c60bfec433df51690e231f95a85476b507c8146728b6673ea1e129f79696c58a437cadfcd613
 
 outputs.2.groupId=com.fasterxml.jackson.dataformat
-outputs.2.filename=jackson-dataformat-xml-2.17.2.module
-outputs.2.length=4858
-outputs.2.checksums.sha512=9ad9e6f5d8686a8b9b1086b091dc6ccc64a7e4ae409f5f424506423f3975e872d2dd0f41d35684969b89b9d74e534a1cb9f8265cb752674bfe87d88c4c881b7d
+outputs.2.filename=jackson-dataformat-xml-2.17.2-sources.jar
+outputs.2.length=102341
+outputs.2.checksums.sha512=eaa92b8e877b189533e317a4891fa57b183f1c6092288312787148be29c3cc7a62c9a250d13c59f05c9e18549442539bb01d973026846e42b90cc8a52626017e
+
+outputs.3.groupId=com.fasterxml.jackson.dataformat
+outputs.3.filename=jackson-dataformat-xml-2.17.2.module
+outputs.3.length=4858
+outputs.3.checksums.sha512=9ad9e6f5d8686a8b9b1086b091dc6ccc64a7e4ae409f5f424506423f3975e872d2dd0f41d35684969b89b9d74e534a1cb9f8265cb752674bfe87d88c4c881b7d
