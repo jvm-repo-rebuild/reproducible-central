@@ -56,46 +56,6 @@ do
   # update maven-metadata.xml with content from Maven Central
   curl -s --fail https://repo.maven.apache.org/maven2/$(echo ${groupId} | tr '.' '/')/${artifactId}/maven-metadata.xml --output ${metadata}
 
-  # detect Apache Staging (TODO: take ignored versions into account)
-  latestStaging=
-  if [[ ${groupId} == org.apache* ]]
-  then
-    curl -s --fail  https://repository.apache.org/content/repositories/staging/$(echo ${groupId} | tr '.' '/')/${artifactId}/maven-metadata.xml --output ${metadata}-staging
-    for version in $($tac "${metadata}-staging" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
-    do
-      [ -z "$latestStaging" ] && keepVersion $dir $version && latestStaging=$version
-      if [ -n "$(ls $dir | grep "\-${version}\.buildspec")" ]
-      then
-        break
-      fi
-    done
-    rm ${metadata}-staging
-  fi
-
-  # detect oldest and newest versions that have a buildspec not to be ignored
-  oldestBuildspecVersion=
-  for version in $(cat "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
-  do
-    if [ -n "$(ls $dir | grep "\-${version}\.buildspec")" ]
-    then
-      oldestBuildspecVersion="$version"
-      break
-    fi
-  done
-  newestBuildspecVersion= # newest version with a buildspec
-  highestVersion= # highest version, with or without buildspec
-  for version in $($tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
-  do
-    [ -z "$highestVersion" ] && keepVersion $dir $version && highestVersion=$version
-    if [ -n "$(ls $dir | grep "\-${version}\.buildspec")" ]
-    then
-      newestBuildspecVersion="$version"
-      break
-    fi
-  done
-  latestVersion="$(cat "${metadata}" | grep 'latest>' | cut -d '>' -f 2 | cut -d '<' -f 1)"
-  lastUpdated="$(cat "${metadata}" | grep 'lastUpdated>' | cut -d '>' -f 2 | cut -d '<' -f 1)"
-
   #
   # render project's README.md with results for every release
   #
@@ -108,6 +68,17 @@ do
 
   countVersion=0
   countVersionOk=0
+
+  # detect oldest version with buildspec, to stop reporting
+  oldestBuildspecVersion=
+  for version in $(cat "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
+  do
+    if [ -n "$(ls $dir | grep "\-${version}\.buildspec")" ]
+    then
+      oldestBuildspecVersion="$version"
+      break
+    fi
+  done
 
   for version in $($tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
   do
@@ -191,34 +162,6 @@ do
     [[ "$oldestBuildspecVersion" == "$version" ]] && break
   done
 
-  # generate badge.json: https://shields.io/badges/endpoint-badge
-  # to be used as https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/...path to project directory.../badge.json
-  buildspec=$(ls $dir | grep "\-${newestBuildspecVersion}\.buildspec")
-  buildcompare=$(ls $dir | grep "\-${newestBuildspecVersion}\.buildcompare")
-  badgeColor="red"
-  badgeMessage="X"
-  . $dir/${buildspec}
-  if [ -f "${dir}/${buildcompare}" ]
-  then
-    . "${dir}/${buildcompare}"
-    badgeMessage="${ok}/$(($ok + $ko))"
-    if [ "${ko}" -eq 0 ]
-    then
-      badgeColor="green"
-    elif [ "${ko}" -lt "${ok}" ]
-    then
-      badgeColor="yellow"
-    else
-      badgeColor="red"
-    fi
-  fi
-  echo "{ \"schemaVersion\": 1,
-  \"label\": \"Reproducible Builds\",
-  \"labelColor\": \"1e5b96\",
-  \"message\": \"${badgeMessage}\",
-  \"color\": \"${badgeColor}\",
-  \"isError\": \"true\" }" > ${projectBadge}
-
   echo "rebuilding **${countVersion} releases** of ${groupId}:${artifactId}:" >> ${projectReadme}
   echo "- **${countVersionOk}** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:)," >> ${projectReadme}
   echo "- $((countVersion - countVersionOk)) had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):" >> ${projectReadme}
@@ -249,6 +192,48 @@ do
   fi
   row+=" |"
   echo "$row" >> ${summary}
+
+  # detect newest versions that have a buildspec not to be ignored
+  newestBuildspecVersion= # newest version with a buildspec
+  highestVersion= # highest version, with or without buildspec
+  for version in $($tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
+  do
+    [ -z "$highestVersion" ] && keepVersion $dir $version && highestVersion=$version
+    if [ -n "$(ls $dir | grep "\-${version}\.buildspec")" ]
+    then
+      newestBuildspecVersion="$version"
+      break
+    fi
+  done
+  lastUpdated="$(cat "${metadata}" | grep 'lastUpdated>' | cut -d '>' -f 2 | cut -d '<' -f 1)"
+
+  # generate badge.json: https://shields.io/badges/endpoint-badge with newest rebuild result
+  # to be used as https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/...path to project directory.../badge.json
+  buildspec=$(ls $dir | grep "\-${newestBuildspecVersion}\.buildspec")
+  buildcompare=$(ls $dir | grep "\-${newestBuildspecVersion}\.buildcompare")
+  badgeColor="red"
+  badgeMessage="X"
+  . $dir/${buildspec}
+  if [ -f "${dir}/${buildcompare}" ]
+  then
+    . "${dir}/${buildcompare}"
+    badgeMessage="${ok}/$(($ok + $ko))"
+    if [ "${ko}" -eq 0 ]
+    then
+      badgeColor="green"
+    elif [ "${ko}" -lt "${ok}" ]
+    then
+      badgeColor="yellow"
+    else
+      badgeColor="red"
+    fi
+  fi
+  echo "{ \"schemaVersion\": 1,
+  \"label\": \"Reproducible Builds\",
+  \"labelColor\": \"1e5b96\",
+  \"message\": \"${badgeMessage}\",
+  \"color\": \"${badgeColor}\",
+  \"isError\": \"true\" }" > ${projectBadge}
 
   # prepare add command from previous version with buildspec when there is a missing buildspec, and/or list last non-reproducible build
   previousVersion="${newestBuildspecVersion}"
@@ -288,6 +273,21 @@ do
     then
       echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | ${previousVersion} $rebuildStatus |" >> tmp/newest-not-reproducible.md
     fi
+  fi
+  # detect Apache Staging
+  latestStaging=
+  if [[ ${groupId} == org.apache* ]]
+  then
+    curl -s --fail  https://repository.apache.org/content/repositories/staging/$(echo ${groupId} | tr '.' '/')/${artifactId}/maven-metadata.xml --output ${metadata}-staging
+    for version in $($tac "${metadata}-staging" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
+    do
+      [ -z "$latestStaging" ] && keepVersion $dir $version && latestStaging=$version
+      if [ -n "$(ls $dir | grep "\-${version}\.buildspec")" ]
+      then
+        break
+      fi
+    done
+    rm ${metadata}-staging
   fi
   # if Apache staging contains a new release candidate, prepare add-release-candidate instructions
   if [ -n "${latestStaging}" ] && [ "${latestStaging}" != "${highestVersion}" ]
