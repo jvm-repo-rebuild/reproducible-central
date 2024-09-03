@@ -56,7 +56,7 @@ do
   # update maven-metadata.xml with content from Maven Central
   curl -s --fail https://repo.maven.apache.org/maven2/$(echo ${groupId} | tr '.' '/')/${artifactId}/maven-metadata.xml --output ${metadata}
 
-  # detect Apache Staging
+  # detect Apache Staging (TODO: take ignored versions into account)
   latestStaging=
   if [[ ${groupId} == org.apache* ]]
   then
@@ -65,7 +65,7 @@ do
     rm ${metadata}-staging
   fi
 
-  # detect oldest and newest versions that have a buildspec
+  # detect oldest and newest versions that have a buildspec not to be ignored
   oldestBuildspecVersion=
   for version in $(cat "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
   do
@@ -75,8 +75,8 @@ do
       break
     fi
   done
-  newestBuildspecVersion=
-  highestVersion=
+  newestBuildspecVersion= # newest version with a buildspec
+  highestVersion= # highest version, with or without buildspec
   for version in $($tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
   do
     [ -z "$highestVersion" ] && keepVersion $dir $version && highestVersion=$version
@@ -243,45 +243,49 @@ do
   row+=" |"
   echo "$row" >> ${summary}
 
-  # check newest release
-  newestBuildspec=$(ls $dir | grep "\-${newestBuildspecVersion}\.buildspec")
-  newestBuildcompare=$(ls $dir | grep "\-${newestBuildspecVersion}\.buildcompare")
+  # prepare add command from previous version with buildspec when there is a missing buildspec, and/or list last non-reproducible build
+  previousVersion="${newestBuildspecVersion}"
+  addVersion="${highestVersion}" # notice: highest version may already have a buildspec
+  # check previous buildspec result to display it and add to add-ok or add-ko temp file
+  previousBuildspec=$(ls $dir | grep "\-${previousVersion}\.buildspec")
+  previousBuildcompare=$(ls $dir | grep "\-${previousVersion}\.buildcompare")
   issue=""
-  . "${dir}/${newestBuildspec}"
-  [ -f "${dir}/${newestBuildcompare}" ] && . "${dir}/${newestBuildcompare}"
-  if [ ! -f "${dir}/${newestBuildcompare}" ]
+  . "${dir}/${previousBuildspec}"
+  [ -f "${dir}/${previousBuildcompare}" ] && . "${dir}/${previousBuildcompare}"
+  if [ ! -f "${dir}/${previousBuildcompare}" ]
   then
-    link=":x:"
+    rebuildStatus=":x:"
     out="tmp/add-ko.md"
   elif [ $ko -eq 0 ]
   then
-    link=":white_check_mark:"
+    rebuildStatus=":white_check_mark:"
     out="tmp/add-ok.md"
   else
     out="tmp/add-ko.md"
     if [ -z "$issue" ]
     then
-      link=":warning:"
+      rebuildStatus=":warning:"
     else
-      link=":warning: [:memo:]($issue)"
+      rebuildStatus=":warning: [:memo:]($issue)"
     fi
   fi
-  # if newer release exists, prepare add-new-release instructions
-  if [ "${highestVersion}" != "${newestBuildspecVersion}" ]
+  # if add release has to happen, prepare add-new-release instructions
+  if [ "${addVersion}" != "${previousVersion}" ]
   then
-    latestBuildspec="${dir}/$(basename ${newestBuildspec} -${newestBuildspecVersion}.buildspec)-${latestVersion}.buildspec"
-    echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | [${newestBuildspecVersion}](../$dir/${newestBuildspec}) $link | [${latestVersion}](../$latestBuildspec) | \`bin/add-new-release.sh $dir/${newestBuildspec} ${latestVersion}\` |" >> ${out}
+    addBuildspec="${dir}/$(basename ${previousBuildspec} -${previousVersion}.buildspec)-${addVersion}.buildspec"
+    echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | [${previousVersion}](../$dir/${previousBuildspec}) $rebuildStatus" \
+         "| [${addVersion}](../$addBuildspec) | \`bin/add-new-release.sh $dir/${previousBuildspec} ${addVersion}\` |" >> ${out}
   else
-    # no newer relese exists, list newest release if it was not reproducible: it requires rework to prepare next release
-    if [ ! -f "${dir}/${newestBuildcompare}" ] || [ $ko -ne 0 ]
+    # no release already exists, list it if it was not reproducible: it requires rework to prepare next release
+    if [ ! -f "${dir}/${previousBuildcompare}" ] || [ $ko -ne 0 ]
     then
-      echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | ${newestBuildspecVersion} $link |" >> tmp/newest-not-reproducible.md
+      echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | ${previousVersion} $rebuildStatus |" >> tmp/newest-not-reproducible.md
     fi
   fi
   # if Apache staging contains a new release candidate, prepare add-release-candidate instructions
   if [ -n "${latestStaging}" ] && [ "${latestStaging}" != "${highestVersion}" ]
   then
-    stagingBuildspec="${dir}/$(basename ${newestBuildspec} -${newestBuildspecVersion}.buildspec)-${latestStaging}.buildspec"
+    stagingBuildspec="${dir}/$(basename ${previousBuildspec} -${previousVersion}.buildspec)-${latestStaging}.buildspec"
 
     stagingBuildcompareDesc=
     if [ -f "$stagingBuildspec" ]
@@ -308,7 +312,8 @@ do
     mailbox=
     [[ "$groupId" == org.apache.* ]] && tlp="$(echo $groupId | sed 's/^org.apache.\([^.]*\).*$/\1/')" && mailbox="[:mailbox:](https://lists.apache.org/list?dev@$tlp.apache.org:lte=1M:VOTE)"
 
-    echo "| <!-- ${lastUpdated} --> $mailbox | [${artifactId}](../${dir}/README.md) | [${newestBuildspecVersion}](../$dir/${newestBuildspec}) $link | [${latestStaging}](../$stagingBuildspec) $stagingBuildcompareDesc | \`bin/add-new-release.sh $dir/${newestBuildspec} ${latestStaging} staging\` |" >> tmp/add-staging.md
+    echo "| <!-- ${lastUpdated} --> $mailbox | [${artifactId}](../${dir}/README.md) | [${previousVersion}](../$dir/${previousBuildspec}) $rebuildStatus" \
+         "| [${latestStaging}](../$stagingBuildspec) $stagingBuildcompareDesc | \`bin/add-new-release.sh $dir/${previousBuildspec} ${latestStaging} staging\` |" >> tmp/add-staging.md
   fi
 done
 
@@ -341,13 +346,13 @@ cp tmp/README.md README.md
 
 echo "| artifactId | from | to | command |" > tmp/add-ok-table.md
 echo "| ---------- | ---- | -- | ------- |" >> tmp/add-ok-table.md
-sort -r tmp/add-ok.md >> tmp/add-ok-table.md
+[ -f tmp/add-ok.md ] && sort -r tmp/add-ok.md >> tmp/add-ok-table.md
 echo "|    | artifactId | from | to | command |" > tmp/add-staging-table.md
 echo "| -- | ---------- | ---- | -- | ------- |" >> tmp/add-staging-table.md
-sort -r tmp/add-staging.md >> tmp/add-staging-table.md
+[ -f tmp/add-staging.md ] && sort -r tmp/add-staging.md >> tmp/add-staging-table.md
 echo "| artifactId | from | to | command |" > tmp/add-ko-table.md
 echo "| ---------- | ---- | -- | ------- |" >> tmp/add-ko-table.md
-sort -r tmp/add-ko.md >> tmp/add-ko-table.md
+[ -f tmp/add-ko.md ] && sort -r tmp/add-ko.md >> tmp/add-ko-table.md
 echo "| artifactId | newest |" > tmp/newest-not-reproducible-table.md
 echo "| ---------- | ------ |" >> tmp/newest-not-reproducible-table.md
 sort -r tmp/newest-not-reproducible.md >> tmp/newest-not-reproducible-table.md
