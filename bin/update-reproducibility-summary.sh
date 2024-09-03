@@ -61,7 +61,14 @@ do
   if [[ ${groupId} == org.apache* ]]
   then
     curl -s --fail  https://repository.apache.org/content/repositories/staging/$(echo ${groupId} | tr '.' '/')/${artifactId}/maven-metadata.xml --output ${metadata}-staging
-    latestStaging="$(cat "${metadata}-staging" | grep 'latest>' | cut -d '>' -f 2 | cut -d '<' -f 1)"
+    for version in $($tac "${metadata}-staging" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
+    do
+      [ -z "$latestStaging" ] && keepVersion $dir $version && latestStaging=$version
+      if [ -n "$(ls $dir | grep "\-${version}\.buildspec")" ]
+      then
+        break
+      fi
+    done
     rm ${metadata}-staging
   fi
 
