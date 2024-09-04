@@ -1,0 +1,17 @@
+groupId=eu.europa.ted.eforms
+artifactId=eforms-sdk
+display=${groupId}:${artifactId}
+version=1.10.4
+
+gitRepo=https://github.com/OP-TED/eForms-SDK.git
+gitTag=${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
