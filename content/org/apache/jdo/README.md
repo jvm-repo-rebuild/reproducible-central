@@ -14,7 +14,7 @@ Source code: [https://github.com/apache/db-jdo.git](https://github.com/apache/db
 * [org.apache:jdo](https://central.sonatype.com/artifact/org.apache/jdo/overview)
 </details>
 
-rebuilding **2 releases** of org.apache:jdo:
+rebuilding **2 releases** of org.apache.jdo:jdo:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 

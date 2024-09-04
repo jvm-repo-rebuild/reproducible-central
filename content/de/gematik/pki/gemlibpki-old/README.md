@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [de.gematik.pki.gemlibpki:gemLibPki](https://central.sonatype.com/artifact/de.gematik.pki.gemlibpki/gemLibPki/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/de/gematik/pki/gemlibpki/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/de/gematik/pki/gemlibpki/README.md)
+## Project: [de.gematik.pki.gemlibpki:gemLibPki](https://central.sonatype.com/artifact/de.gematik.pki.gemlibpki/gemLibPki/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/de/gematik/pki/gemlibpki-old/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/de/gematik/pki/gemlibpki-old/README.md)
 
 Source code: [https://github.com/gematik/ref-GemLibPki.git](https://github.com/gematik/ref-GemLibPki.git)
 

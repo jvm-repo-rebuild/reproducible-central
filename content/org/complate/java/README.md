@@ -15,7 +15,7 @@ Source code: [https://github.com/complate/complate-java.git](https://github.com/
 * [org.complate:complate-parent](https://central.sonatype.com/artifact/org.complate/complate-parent/overview)
 </details>
 
-rebuilding **3 releases** of org.complate:complate-parent:
+rebuilding **3 releases** of org.complate:complate-core:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 

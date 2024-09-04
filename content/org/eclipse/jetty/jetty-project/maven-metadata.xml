@@ -309,6 +309,7 @@
       <version>9.4.53.v20231009</version>
       <version>9.4.54.v20240208</version>
       <version>9.4.55.v20240627</version>
+      <version>9.4.56.v20240826</version>
       <version>10.0.0-alpha0</version>
       <version>10.0.0.alpha1</version>
       <version>10.0.0.alpha2</version>
@@ -340,6 +341,7 @@
       <version>10.0.21</version>
       <version>10.0.22</version>
       <version>10.0.23</version>
+      <version>10.0.24</version>
       <version>11.0.0-alpha0</version>
       <version>11.0.0.beta1</version>
       <version>11.0.0.beta2</version>
@@ -368,6 +370,7 @@
       <version>11.0.21</version>
       <version>11.0.22</version>
       <version>11.0.23</version>
+      <version>11.0.24</version>
       <version>12.0.0.alpha0</version>
       <version>12.0.0.alpha1</version>
       <version>12.0.0.alpha2</version>
@@ -391,6 +394,6 @@
       <version>12.0.11</version>
       <version>12.0.12</version>
     </versions>
-    <lastUpdated>20240820210341</lastUpdated>
+    <lastUpdated>20240903173851</lastUpdated>
   </versioning>
 </metadata>

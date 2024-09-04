@@ -4,10 +4,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240902130218 --> [flexmonster](../content/org/webjars/flexmonster/README.md) | [2.9.84](../content/org/webjars/flexmonster/flexmonster-2.9.84.buildspec) :white_check_mark: | [2.9.85](../content/org/webjars/flexmonster/flexmonster-2.9.85.buildspec) | `bin/add-new-release.sh content/org/webjars/flexmonster/flexmonster-2.9.84.buildspec 2.9.85` |
-| <!-- 20240902114006 --> [maven](../content/org/apache/maven/maven/README.md) | [4.0.0-beta-3](../content/org/apache/maven/maven/maven-4.0.0-beta-3.buildspec) :white_check_mark: | [4.0.0-beta-4](../content/org/apache/maven/maven/maven-4.0.0-beta-4.buildspec) | `bin/add-new-release.sh content/org/apache/maven/maven/maven-4.0.0-beta-3.buildspec 4.0.0-beta-4` |
-| <!-- 20240902075942 --> [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | [0.2.2](../content/eu/maveniverse/maven/toolbox/toolbox-0.2.2.buildspec) :white_check_mark: | [0.2.3](../content/eu/maveniverse/maven/toolbox/toolbox-0.2.3.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/toolbox/toolbox-0.2.2.buildspec 0.2.3` |
-| <!-- 20240901224413 --> [makeself-maven-plugin](../content/com/github/hazendaz/maven/makeself-maven-plugin/README.md) | [1.8.0](../content/com/github/hazendaz/maven/makeself-maven-plugin/makeself-maven-plugin-1.8.0.buildspec) :white_check_mark: | [1.8.1](../content/com/github/hazendaz/maven/makeself-maven-plugin/makeself-maven-plugin-1.8.1.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/maven/makeself-maven-plugin/makeself-maven-plugin-1.8.0.buildspec 1.8.1` |
+| <!-- 20240903185226 --> [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | [0.2.3](../content/eu/maveniverse/maven/toolbox/toolbox-0.2.3.buildspec) :white_check_mark: | [0.2.4](../content/eu/maveniverse/maven/toolbox/toolbox-0.2.4.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/toolbox/toolbox-0.2.3.buildspec 0.2.4` |
+| <!-- 20240903002310 --> [buildnumber-maven-plugin](../content/org/codehaus/mojo/buildnumber-maven-plugin/README.md) | [3.2.0](../content/org/codehaus/mojo/buildnumber-maven-plugin/buildnumber-maven-plugin-3.2.0.buildspec) :white_check_mark: | [3.2.1](../content/org/codehaus/mojo/buildnumber-maven-plugin/buildnumber-maven-plugin-3.2.1.buildspec) | `bin/add-new-release.sh content/org/codehaus/mojo/buildnumber-maven-plugin/buildnumber-maven-plugin-3.2.0.buildspec 3.2.1` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -20,10 +18,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD STAGING -->
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
-| <!-- 20240825095733 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-archetype-bundles](../content/org/apache/maven/archetypes/README.md) | [1.5](../content/org/apache/maven/archetypes/archetypes-1.5.buildspec) :white_check_mark: | [31](../content/org/apache/maven/archetypes/archetypes-31.buildspec)  | `bin/add-new-release.sh content/org/apache/maven/archetypes/archetypes-1.5.buildspec 31 staging` |
 | <!-- 20240810053328 --> [:mailbox:](https://lists.apache.org/list?dev@struts.apache.org:lte=1M:VOTE) | [struts2-parent](../content/org/apache/struts/README.md) | [6.6.0](../content/org/apache/struts/struts2-6.6.0.buildspec) :white_check_mark: | [7.0.0-M9](../content/org/apache/struts/struts2-7.0.0-M9.buildspec)  | `bin/add-new-release.sh content/org/apache/struts/struts2-6.6.0.buildspec 7.0.0-M9 staging` |
-| <!-- 20231120084325 --> [:mailbox:](https://lists.apache.org/list?dev@logging.apache.org:lte=1M:VOTE) | [log4j-jmx-gui](../content/org/apache/logging/log4j/log4j-jmx-gui/README.md) | [2.22.0](../content/org/apache/logging/log4j/log4j-jmx-gui/log4j-jmx-gui-2.22.0.buildspec) :white_check_mark: | [3.0.0-alpha1](../content/org/apache/logging/log4j/log4j-jmx-gui/log4j-jmx-gui-3.0.0-alpha1.buildspec)  | `bin/add-new-release.sh content/org/apache/logging/log4j/log4j-jmx-gui/log4j-jmx-gui-2.22.0.buildspec 3.0.0-alpha1 staging` |
-| <!-- 20230912010348 --> [:mailbox:](https://lists.apache.org/list?dev@mina.apache.org:lte=1M:VOTE) | [mina-parent](../content/org/apache/mina/README.md) | [2.2.3](../content/org/apache/mina/mina-2.2.3.buildspec) :white_check_mark: | [3.0.0-M2](../content/org/apache/mina/mina-3.0.0-M2.buildspec)  | `bin/add-new-release.sh content/org/apache/mina/mina-2.2.3.buildspec 3.0.0-M2 staging` |
+| <!-- 20240625152252 --> [:mailbox:](https://lists.apache.org/list?dev@ratis.apache.org:lte=1M:VOTE) | [ratis](../content/org/apache/ratis/README.md) | [3.1.0](../content/org/apache/ratis/ratis-3.1.0.buildspec) :warning: [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) | [3.1.1](../content/org/apache/ratis/ratis-3.1.1.buildspec)  | `bin/add-new-release.sh content/org/apache/ratis/ratis-3.1.0.buildspec 3.1.1 staging` |
 | <!-- 20220514070205 --> [:mailbox:](https://lists.apache.org/list?dev@sling.apache.org:lte=1M:VOTE) | [org.apache.sling.scripting.core](../content/org/apache/sling/org.apache.sling.scripting.core/README.md) | [2.4.8](../content/org/apache/sling/org.apache.sling.scripting.core/org.apache.sling.scripting.core-2.4.8.buildspec) :warning: | [2.4.10](../content/org/apache/sling/org.apache.sling.scripting.core/org.apache.sling.scripting.core-2.4.10.buildspec)  | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.scripting.core/org.apache.sling.scripting.core-2.4.8.buildspec 2.4.10 staging` |
 <!-- END GENERATED ADD STAGING -->
 
@@ -32,6 +28,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20240904012840 --> [flowlogix](../content/com/flowlogix/README.md) | [9.0.3](../content/com/flowlogix/flowlogix-9.0.3.buildspec) :warning: | [9.0.5](../content/com/flowlogix/flowlogix-9.0.5.buildspec) | `bin/add-new-release.sh content/com/flowlogix/flowlogix-9.0.3.buildspec 9.0.5` |
 | <!-- 20240902140204 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.55.2](../content/org/finos/legend/engine/legend-engine-4.55.2.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.55.2` |
 | <!-- 20240830114239 --> [glassfish-parent](../content/org/glassfish/main/README.md) | [8.0.0-M1](../content/org/glassfish/main/glassfish-8.0.0-M1.buildspec) :warning: | [8.0.0-JDK17-M7](../content/org/glassfish/main/glassfish-8.0.0-JDK17-M7.buildspec) | `bin/add-new-release.sh content/org/glassfish/main/glassfish-8.0.0-M1.buildspec 8.0.0-JDK17-M7` |
 | <!-- 20240826095507 --> [io.wcm.caconfig.editor.parent](../content/io/wcm/io.wcm.caconfig/README.md) | [1.8.0](../content/io/wcm/io.wcm.caconfig/wcm-caconfig-editor-1.8.0.buildspec) :warning: | [1.16.4](../content/io/wcm/io.wcm.caconfig/wcm-caconfig-editor-1.16.4.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.caconfig/wcm-caconfig-editor-1.8.0.buildspec 1.16.4` |
@@ -101,7 +98,6 @@ New Releases To Add
 | <!-- 20240812093803 --> [commons-numbers-parent](../content/org/apache/commons/numbers/README.md) | 1.2 :warning: |
 | <!-- 20240811074040 --> [openfasttrace](../content/org/itsallcode/openfasttrace/README.md) | 4.1.0 :warning: |
 | <!-- 20240810093636 --> [slf4j-parent](../content/org/slf4j/README.md) | 2.1.0-alpha1 :warning: |
-| <!-- 20240809100804 --> [flowlogix](../content/com/flowlogix/README.md) | 9.0.3 :warning: |
 | <!-- 20240808143735 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.2.2 :warning: |
 | <!-- 20240801183749 --> [pulsar](../content/org/apache/pulsar/README.md) | 3.3.1 :warning: |
 | <!-- 20240723191850 --> [bcel](../content/org/apache/commons/bcel/README.md) | 6.10.0 :warning: |
@@ -159,7 +155,7 @@ New Releases To Add
 | <!-- 20230204020210 --> [xmlchai](../content/org/jrivard/xmlchai/README.md) | 0.1.3 :warning: |
 | <!-- 20221209232334 --> [watset](../content/org/nlpub/watset/README.md) | 2.8.2 :warning: |
 | <!-- 20221123032956 --> [org.apache.sling.hc.support](../content/org/apache/sling/org.apache.sling.hc.support/README.md) | 1.0.10 :warning: |
-| <!-- 20220916141422 --> [gemLibPki](../content/de/gematik/pki/gemlibpki/README.md) | 0.9.3 :warning: |
+| <!-- 20220916141422 --> [gemLibPki](../content/de/gematik/pki/gemlibpki-old/README.md) | 0.9.3 :warning: |
 | <!-- 20220821195753 --> [org.apache.sling.pipes](../content/org/apache/sling/org.apache.sling.pipes/README.md) | 4.5.0 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-pipes/pull/20) |
 | <!-- 20220803123226 --> [org.apache.sling.commons.metrics](../content/org/apache/sling/org.apache.sling.commons.metrics/README.md) | 1.2.12 :warning: |
 | <!-- 20220720235831 --> [axis2](../content/org/apache/axis2/README.md) | 1.8.2 :warning: |
