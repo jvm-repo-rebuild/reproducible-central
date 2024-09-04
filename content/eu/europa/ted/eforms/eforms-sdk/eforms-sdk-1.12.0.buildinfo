@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=eForms SDK
+group-id=eu.europa.ted.eforms
+artifact-id=eforms-sdk
+version=1.12.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/OP-TED/eForms-SDK.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=eu.europa.ted.eforms
+outputs.0.filename=eforms-sdk-1.12.0.pom
+outputs.0.length=7521
+outputs.0.checksums.sha512=515fa817231a0fc118f0cd347cc2e226690699c57a71458bde64b7ac0cc86fa1585a49fb483b2358be6b850bd527333bedb11bb04e303cf37a8e4c5a072eb5aa
+
+outputs.1.groupId=eu.europa.ted.eforms
+outputs.1.filename=eforms-sdk-1.12.0.jar
+outputs.1.length=25455296
+outputs.1.checksums.sha512=019bfa765ca96d2c9435db37a037ec631c474d977bbe9d4f554eb30b830aa9dd7b40a2e2b67d699a783386c470288930c5ca3e675b372b64da7249cd86e8e570
+
+outputs.2.groupId=eu.europa.ted.eforms
+outputs.2.filename=eforms-sdk-1.12.0-sources.jar
+outputs.2.length=25455294
+outputs.2.checksums.sha512=4ec69f7ce8b2300e4fd84c8461a7956cce4cef2c14f476effbcb4839d201574c79ec3eb516349b56dcd3936b69af68670a5d20ca66778d5b1d51b2a098609a32
