@@ -243,30 +243,24 @@ do
   previousBuildcompare=$(ls $dir | grep "\-${previousVersion}\.buildcompare")
   issue=""
   . "${dir}/${previousBuildspec}"
+  rebuildStatus=":x:"
   [ -f "${dir}/${previousBuildcompare}" ] && . "${dir}/${previousBuildcompare}"
-  if [ ! -f "${dir}/${previousBuildcompare}" ]
-  then
-    rebuildStatus=":x:"
-    out="tmp/add-ko.md"
-  elif [ $ko -eq 0 ]
+  if [ $ko -eq 0 ]
   then
     rebuildStatus=":white_check_mark:"
-    out="tmp/add-ok.md"
+  elif [ -z "$issue" ]
+  then
+    rebuildStatus=":warning:"
   else
-    out="tmp/add-ko.md"
-    if [ -z "$issue" ]
-    then
-      rebuildStatus=":warning:"
-    else
-      rebuildStatus=":warning: [:memo:]($issue)"
-    fi
+    rebuildStatus=":warning: [:memo:]($issue)"
   fi
   # if add release has to happen, prepare add-new-release instructions
   if [ "${addVersion}" != "${previousVersion}" ]
   then
     addBuildspec="${dir}/$(basename ${previousBuildspec} -${previousVersion}.buildspec)-${addVersion}.buildspec"
+    rebuildOk="ok" && [ $ko -gt 0 ] && rebuildOk="ko"
     echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | [${previousVersion}](../$dir/${previousBuildspec}) $rebuildStatus" \
-         "| [${addVersion}](../$addBuildspec) | \`bin/add-new-release.sh $dir/${previousBuildspec} ${addVersion}\` |" >> ${out}
+         "| [${addVersion}](../$addBuildspec) | \`bin/add-new-release.sh $dir/${previousBuildspec} ${addVersion}\` |" >> tmp/add-${rebuildOk}.md
   else
     # no release already exists, list it if it was not reproducible: it requires rework to prepare next release
     if [ ! -f "${dir}/${previousBuildcompare}" ] || [ $ko -ne 0 ]
@@ -290,7 +284,7 @@ do
     done
     rm ${metadata}-staging
     # if Apache staging contains a new release candidate, prepare add-release-candidate instructions
-    if [ -z "${latestStaging}" ] && [ "${latestStaging}" != "${highestVersion}" ]
+    if [ -z "${latestStaging}" ] || [ "${latestStaging}" == "${highestVersion}" ]
     then
       # no new release: skip
       continue
