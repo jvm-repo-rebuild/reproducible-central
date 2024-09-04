@@ -22,6 +22,7 @@ rebuilding **1 releases** of org.hibernate.validator:hibernate-validator:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [9.0.0.Beta3](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator/9.0.0.Beta3/pom) | | | |
 | [9.0.0.Beta2](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator/9.0.0.Beta2/pom) | [mvn jdk17](hibernate-validator-9.0.0.Beta2.buildspec) | [result](hibernate-validator-parent-9.0.0.Beta2.buildinfo): [9 :white_check_mark: ](hibernate-validator-parent-9.0.0.Beta2.buildcompare) | 1.6M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
