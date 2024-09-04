@@ -274,11 +274,12 @@ do
       echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | ${previousVersion} $rebuildStatus |" >> tmp/newest-not-reproducible.md
     fi
   fi
-  # detect Apache Staging
-  latestStaging=
+
+  # detect new release in Apache Staging
   if [[ ${groupId} == org.apache* ]]
   then
     curl -s --fail  https://repository.apache.org/content/repositories/staging/$(echo ${groupId} | tr '.' '/')/${artifactId}/maven-metadata.xml --output ${metadata}-staging
+    latestStaging=
     for version in $($tac "${metadata}-staging" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
     do
       [ -z "$latestStaging" ] && keepVersion $dir $version && latestStaging=$version
@@ -288,12 +289,14 @@ do
       fi
     done
     rm ${metadata}-staging
-  fi
-  # if Apache staging contains a new release candidate, prepare add-release-candidate instructions
-  if [ -n "${latestStaging}" ] && [ "${latestStaging}" != "${highestVersion}" ]
-  then
-    stagingBuildspec="${dir}/$(basename ${previousBuildspec} -${previousVersion}.buildspec)-${latestStaging}.buildspec"
+    # if Apache staging contains a new release candidate, prepare add-release-candidate instructions
+    if [ -z "${latestStaging}" ] && [ "${latestStaging}" != "${highestVersion}" ]
+    then
+      # no new release: skip
+      continue
+    fi
 
+    stagingBuildspec="${dir}/$(basename ${previousBuildspec} -${previousVersion}.buildspec)-${latestStaging}.buildspec"
     stagingBuildcompareDesc=
     if [ -f "$stagingBuildspec" ]
     then
@@ -316,8 +319,8 @@ do
       fi
     fi
 
-    mailbox=
-    [[ "$groupId" == org.apache.* ]] && tlp="$(echo $groupId | sed 's/^org.apache.\([^.]*\).*$/\1/')" && mailbox="[:mailbox:](https://lists.apache.org/list?dev@$tlp.apache.org:lte=1M:VOTE)"
+    tlp="$(echo $groupId | sed 's/^org.apache.\([^.]*\).*$/\1/')"
+    mailbox="[:mailbox:](https://lists.apache.org/list?dev@$tlp.apache.org:lte=1M:VOTE)"
 
     echo "| <!-- ${lastUpdated} --> $mailbox | [${artifactId}](../${dir}/README.md) | [${previousVersion}](../$dir/${previousBuildspec}) $rebuildStatus" \
          "| [${latestStaging}](../$stagingBuildspec) $stagingBuildcompareDesc | \`bin/add-new-release.sh $dir/${previousBuildspec} ${latestStaging} staging\` |" >> tmp/add-staging.md
