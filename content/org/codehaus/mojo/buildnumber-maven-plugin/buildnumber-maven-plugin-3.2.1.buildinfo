@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Build Number Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=buildnumber-maven-plugin
+version=3.2.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/buildnumber-maven-plugin.git
+source.scm.tag=3.2.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.9.0
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=buildnumber-maven-plugin-3.2.1.pom
+outputs.0.length=12305
+outputs.0.checksums.sha512=513db44ad688c3c3ec5afc198537a8728a1c1c5ee431b049720b2e7847c5b881926edbbdcba71473dfa5b7338c21a2a6de1577801343c19c963c71a3b7232351
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=buildnumber-maven-plugin-3.2.1.jar
+outputs.1.length=46252
+outputs.1.checksums.sha512=2885da15f42c9733daf72ebc20ddb21c9cf3defc03588da55874ba8ca23f3527e97577fcbc36c9b328a575ba90736b52d2eefa0a70b1e584da66637603601f5d
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=buildnumber-maven-plugin-3.2.1-source-release.zip
+outputs.2.length=160413
+outputs.2.checksums.sha512=ddac59b38cb845edd178e1068bed5357322ddbc9f8337a19eb2d30eacd9163af02f16a6a6d26a93d389fe9a4215baf0f68aaacdeac6e8e7acc303f37ee27511d
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=buildnumber-maven-plugin-3.2.1-sources.jar
+outputs.3.length=30052
+outputs.3.checksums.sha512=ca2e474c00c20d770ec8544c878edea5588eec0a43739bdb3983c499417404ce36e4500000e8f38589e18c6c5d9036f5497f2c1d662232fe307da739c11ce136
