@@ -255,7 +255,9 @@ do
     if [ $ko -eq 0 ]
     then
       rebuildStatus=":white_check_mark:"
-      [ -z "$1" ] && [ $countMissingBuildspec -gt 0 ] && echo "  missing ${countMissingBuildspec}: bin/add-new-release.sh $dir/${previousBuildspec} $missingBuildspec" # only when ok for now
+      [ -z "$1" ] && [ $countMissingBuildspec -gt 0 ] \
+                  && echo "  missing ${countMissingBuildspec}: https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/$dir/README.md" \
+                  && echo "    bin/add-new-release.sh $dir/${previousBuildspec} $missingBuildspec" # only when ok for now
     elif [ -z "$issue" ]
     then
       rebuildStatus=":warning:"
