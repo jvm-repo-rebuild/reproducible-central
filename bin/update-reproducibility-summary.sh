@@ -46,15 +46,16 @@ for m in `find content -name "maven-metadata.xml" -print | grep -v buildcache | 
 do
   echo "${m##*/} ${m%/*}"
 done | sort -k 2 | while read -r p ; do echo "${p##* }/${p% *}/maven-metadata.xml"; done > maven-metadata
+wc -l maven-metadata
 
 for metadata in `cat maven-metadata`
 do
-  dir="$(dirname "${metadata}")"
+  dir="$(dirname "${metadata}")" && [ -z "$1" ] && echo "$dir"
   groupId=$(cat "${metadata}" | grep 'groupId>' | cut -d '>' -f 2 | cut -d '<' -f 1)
   artifactId=$(cat "${metadata}" | grep 'artifactId>' | cut -d '>' -f 2 | cut -d '<' -f 1)
 
   # update maven-metadata.xml with content from Maven Central
-  curl -s --fail https://repo.maven.apache.org/maven2/$(echo ${groupId} | tr '.' '/')/${artifactId}/maven-metadata.xml --output ${metadata}
+  [ "$1" == "update" ] && curl -s --fail https://repo.maven.apache.org/maven2/$(echo ${groupId} | tr '.' '/')/${artifactId}/maven-metadata.xml --output ${metadata}
 
   #
   # render project's README.md with results for every release
@@ -68,6 +69,8 @@ do
 
   countVersion=0
   countVersionOk=0
+  countMissingBuildspec=0
+  missingBuildspec=""
 
   # detect oldest version with buildspec, to stop reporting
   oldestBuildspecVersion=
@@ -157,6 +160,8 @@ do
     else
       # no buildspec, just list version to tmp
       echo "| [${version}](https://central.sonatype.com/artifact/${groupId}/${artifactId}/${version}/pom) | | | |" >> "tmp/${projectReadme}"
+      ((countMissingBuildspec++))
+      missingBuildspec+="$version "
     fi
     # don't continue if it's the oldest version with buildspec
     [[ "$oldestBuildspecVersion" == "$version" ]] && break
@@ -250,6 +255,7 @@ do
     if [ $ko -eq 0 ]
     then
       rebuildStatus=":white_check_mark:"
+      [ -z "$1" ] && [ $countMissingBuildspec -gt 0 ] && echo "  missing ${countMissingBuildspec}: bin/add-new-release.sh $dir/${previousBuildspec} $missingBuildspec" # only when ok for now
     elif [ -z "$issue" ]
     then
       rebuildStatus=":warning:"
