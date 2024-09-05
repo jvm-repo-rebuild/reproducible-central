@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=ImpSort Maven Plugin
+group-id=net.revelc.code
+artifact-id=impsort-maven-plugin
+version=1.12.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/revelc/impsort-maven-plugin.git
+source.scm.tag=impsort-maven-plugin-1.12.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=22
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=net.revelc.code
+outputs.0.filename=impsort-maven-plugin-1.12.0.pom
+outputs.0.length=5702
+outputs.0.checksums.sha512=b2b8531812b62d9a6745d79c78c76ca72cba7610e78eb82405a70c44ea8d2941103f460adcfe66697c9cee719131a9bae72afdd7856364744eaca1592b03e39d
+
+outputs.1.groupId=net.revelc.code
+outputs.1.filename=impsort-maven-plugin-1.12.0.jar
+outputs.1.length=54082
+outputs.1.checksums.sha512=b322f0710b960dd9b7e04d39724fd5b1d0bc4c0ada2f6b1cd77362acf05c9e34795ab740ee9e4588b3dec68566e7803303f6b3d5dc29b2526343e7723365aad2
+
+outputs.2.groupId=net.revelc.code
+outputs.2.filename=impsort-maven-plugin-1.12.0-sources.jar
+outputs.2.length=29989
+outputs.2.checksums.sha512=66bd8fb815763cc26a76bedb1f63221f2dffce0570a0fe93e7ffd6892762942fe6cadc2003285fcc95f7ace1702f2349d8b0625e851aa2e599acbb498c92ab41
