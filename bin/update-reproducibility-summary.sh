@@ -243,16 +243,19 @@ do
   previousBuildcompare=$(ls $dir | grep "\-${previousVersion}\.buildcompare")
   issue=""
   . "${dir}/${previousBuildspec}"
-  rebuildStatus=":x:"
-  [ -f "${dir}/${previousBuildcompare}" ] && . "${dir}/${previousBuildcompare}"
-  if [ $ko -eq 0 ]
+  rebuildStatus=":x:" && ko=99999
+  if [ -f "${dir}/${previousBuildcompare}" ]
   then
-    rebuildStatus=":white_check_mark:"
-  elif [ -z "$issue" ]
-  then
-    rebuildStatus=":warning:"
-  else
-    rebuildStatus=":warning: [:memo:]($issue)"
+    . "${dir}/${previousBuildcompare}"
+    if [ $ko -eq 0 ]
+    then
+      rebuildStatus=":white_check_mark:"
+    elif [ -z "$issue" ]
+    then
+      rebuildStatus=":warning:"
+    else
+      rebuildStatus=":warning: [:memo:]($issue)"
+    fi
   fi
   # if add release has to happen, prepare add-new-release instructions
   if [ "${addVersion}" != "${previousVersion}" ]
