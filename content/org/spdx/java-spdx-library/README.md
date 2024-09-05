@@ -13,6 +13,7 @@ rebuilding **5 releases** of org.spdx:java-spdx-library:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0-Alpha](https://central.sonatype.com/artifact/org.spdx/java-spdx-library/2.0.0-Alpha/pom) | | | |
 | [1.1.12](https://central.sonatype.com/artifact/org.spdx/java-spdx-library/1.1.12/pom) | [mvn jdk17 w](java-spdx-library-1.1.12.buildspec) | [result](java-spdx-library-1.1.12.buildinfo): [3 :white_check_mark: ](java-spdx-library-1.1.12.buildcompare) | 6.9M |
 | [1.1.11](https://central.sonatype.com/artifact/org.spdx/java-spdx-library/1.1.11/pom) | [mvn jdk17 w](java-spdx-library-1.1.11.buildspec) | [result](java-spdx-library-1.1.11.buildinfo): [3 :white_check_mark: ](java-spdx-library-1.1.11.buildcompare) | 6.9M |
 | [1.1.10](https://central.sonatype.com/artifact/org.spdx/java-spdx-library/1.1.10/pom) | [mvn jdk17 w](java-spdx-library-1.1.10.buildspec) | [result](java-spdx-library-1.1.10.buildinfo): [3 :white_check_mark: ](java-spdx-library-1.1.10.buildcompare) | 6.9M |
