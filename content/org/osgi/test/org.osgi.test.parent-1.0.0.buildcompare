@@ -1,0 +1,9 @@
+version=1.0.0
+ok=20
+ko=0
+ignored=0
+okFiles="org.osgi.test.parent-1.0.0.pom org.osgi.test.common-1.0.0.pom org.osgi.test.common-1.0.0.jar org.osgi.test.common-1.0.0-sources.jar org.osgi.test.assertj.framework-1.0.0.pom org.osgi.test.assertj.framework-1.0.0.jar org.osgi.test.assertj.framework-1.0.0-sources.jar org.osgi.test.assertj.promise-1.0.0.pom org.osgi.test.assertj.promise-1.0.0.jar org.osgi.test.assertj.promise-1.0.0-sources.jar org.osgi.test.junit4-1.0.0.pom org.osgi.test.junit4-1.0.0.jar org.osgi.test.junit4-1.0.0-sources.jar org.osgi.test.junit5-1.0.0.pom org.osgi.test.junit5-1.0.0.jar org.osgi.test.junit5-1.0.0-sources.jar org.osgi.test.junit5.cm-1.0.0.pom org.osgi.test.junit5.cm-1.0.0.jar org.osgi.test.junit5.cm-1.0.0-sources.jar org.osgi.test.bom-1.0.0.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
