@@ -1,0 +1,10 @@
+version=1.0.0
+ok=2
+ko=1
+ignored=0
+okFiles="jakarta-jms-adapter-1.0.0.pom jakarta-jms-adapter-1.0.0-sources.jar"
+koFiles="jakarta-jms-adapter-1.0.0.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.github.marschall/jakarta-jms-adapter-1.0.0.jar target/jakarta-jms-adapter-1.0.0.jar
