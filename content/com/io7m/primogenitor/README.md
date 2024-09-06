@@ -16,9 +16,9 @@ Source code: [https://github.com/io7m/primogenitor](https://github.com/io7m/prim
 * [com.io7m.primogenitor:com.io7m.primogenitor.tests](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor.tests/overview)
 </details>
 
-rebuilding **33 releases** of com.io7m.primogenitor:com.io7m.primogenitor:
+rebuilding **34 releases** of com.io7m.primogenitor:com.io7m.primogenitor:
 - **33** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -36,7 +36,7 @@ rebuilding **33 releases** of com.io7m.primogenitor:com.io7m.primogenitor:
 | [7.1.0](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/7.1.0/pom) | [mvn jdk17](com.io7m.primogenitor-7.1.0.buildspec) | [result](com.io7m.primogenitor-7.1.0.buildinfo): [11 :white_check_mark: ](com.io7m.primogenitor-7.1.0.buildcompare) | 2.5M |
 | [7.0.0](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/7.0.0/pom) | [mvn jdk17](com.io7m.primogenitor-7.0.0.buildspec) | [result](com.io7m.primogenitor-7.0.0.buildinfo): [11 :white_check_mark: ](com.io7m.primogenitor-7.0.0.buildcompare) | 2.5M |
 | [7.0.0-beta0005](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/7.0.0-beta0005/pom) | [mvn jdk17](com.io7m.primogenitor-7.0.0-beta0005.buildspec) | [result](com.io7m.primogenitor-7.0.0-beta0005.buildinfo): [11 :white_check_mark: ](com.io7m.primogenitor-7.0.0-beta0005.buildcompare) | 2.5M |
-| [7.0.0-beta0004](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/7.0.0-beta0004/pom) | | | |
+| [7.0.0-beta0004](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/7.0.0-beta0004/pom) | [mvn jdk21](com.io7m.primogenitor-7.0.0-beta0004.buildspec) | :x: | |
 | [7.0.0-beta0003](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/7.0.0-beta0003/pom) | [mvn jdk17](com.io7m.primogenitor-7.0.0-beta0003.buildspec) | [result](com.io7m.primogenitor-7.0.0-beta0003.buildinfo): [11 :white_check_mark: ](com.io7m.primogenitor-7.0.0-beta0003.buildcompare) | 2.5M |
 | [7.0.0-beta0002](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/7.0.0-beta0002/pom) | [mvn jdk17](com.io7m.primogenitor-7.0.0-beta0002.buildspec) | [result](com.io7m.primogenitor-7.0.0-beta0002.buildinfo): [11 :white_check_mark: ](com.io7m.primogenitor-7.0.0-beta0002.buildcompare) | 2.5M |
 | [7.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/7.0.0-beta0001/pom) | [mvn jdk17](com.io7m.primogenitor-7.0.0-beta0001.buildspec) | [result](com.io7m.primogenitor-7.0.0-beta0001.buildinfo): [11 :white_check_mark: ](com.io7m.primogenitor-7.0.0-beta0001.buildcompare) | 2.5M |

@@ -7,9 +7,9 @@
 
 Source code: [https://github.com/codehaus-plexus/plexus-pom.git](https://github.com/codehaus-plexus/plexus-pom.git)
 
-rebuilding **16 releases** of org.codehaus.plexus:plexus:
+rebuilding **17 releases** of org.codehaus.plexus:plexus:
 - **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -27,7 +27,7 @@ rebuilding **16 releases** of org.codehaus.plexus:plexus:
 | [7](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus/7/pom) | [mvn jdk7](plexus-pom-7.buildspec) | [result](plexus-7.buildinfo): [3 :white_check_mark: ](plexus-7.buildcompare) | 56K |
 | [6.5](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus/6.5/pom) | [mvn jdk7](plexus-pom-6.5.buildspec) | [result](plexus-6.5.buildinfo): [3 :white_check_mark: ](plexus-6.5.buildcompare) | 56K |
 | [6.4](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus/6.4/pom) | [mvn jdk7](plexus-pom-6.4.buildspec) | [result](plexus-6.4.buildinfo): [1 :white_check_mark:  2 :warning:](plexus-6.4.buildcompare) [:memo:](https://github.com/codehaus-plexus/plexus-pom/issues/23) | 56K |
-| [6.3](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus/6.3/pom) | | | |
+| [6.3](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus/6.3/pom) | [mvn jdk7](plexus-pom-6.3.buildspec) | :x: | |
 | [6.2](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus/6.2/pom) | [mvn jdk7](plexus-pom-6.2.buildspec) | [result](plexus-6.2.buildinfo): [2 :white_check_mark: ](plexus-6.2.buildcompare) | 27K |
 | [6.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus/6.1/pom) | [mvn jdk7](plexus-pom-6.1.buildspec) | [result](plexus-6.1.buildinfo): [2 :white_check_mark: ](plexus-6.1.buildcompare) | 26K |
 

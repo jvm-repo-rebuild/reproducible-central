@@ -7,8 +7,8 @@
 
 Source code: [https://github.com/mojohaus/mojo-parent.git](https://github.com/mojohaus/mojo-parent.git)
 
-rebuilding **25 releases** of org.codehaus.mojo:mojo-parent:
-- **25** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **26 releases** of org.codehaus.mojo:mojo-parent:
+- **26** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -36,7 +36,7 @@ rebuilding **25 releases** of org.codehaus.mojo:mojo-parent:
 | [65](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/65/pom) | [mvn jdk8](mojo-parent-65.buildspec) | [result](mojo-parent-65.buildinfo): [3 :white_check_mark: ](mojo-parent-65.buildcompare) | 49K |
 | [64](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/64/pom) | [mvn jdk8](mojo-parent-64.buildspec) | [result](mojo-parent-64.buildinfo): [3 :white_check_mark: ](mojo-parent-64.buildcompare) | 48K |
 | [63](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/63/pom) | [mvn jdk8](mojo-parent-63.buildspec) | [result](mojo-parent-63.buildinfo): [3 :white_check_mark: ](mojo-parent-63.buildcompare) | 44K |
-| [62](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/62/pom) | | | |
+| [62](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/62/pom) | [mvn jdk8](mojo-parent-62.buildspec) | [result](mojo-parent-62.buildinfo): [3 :white_check_mark: ](mojo-parent-62.buildcompare) | 44K |
 | [61](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/61/pom) | [mvn jdk8](mojo-parent-61.buildspec) | [result](mojo-parent-61.buildinfo): [2 :white_check_mark: ](mojo-parent-61.buildcompare) | 42K |
 | [60](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/60/pom) | [mvn jdk8](mojo-parent-60.buildspec) | [result](mojo-parent-60.buildinfo): [2 :white_check_mark: ](mojo-parent-60.buildcompare) | 42K |
 

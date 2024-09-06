@@ -255,12 +255,13 @@ Source code: [https://github.com/eclipse/jetty.project.git](https://github.com/e
 * [org.eclipse.jetty:jetty-xml](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-xml/overview)
 </details>
 
-rebuilding **11 releases** of org.eclipse.jetty:jetty-project:
+rebuilding **12 releases** of org.eclipse.jetty:jetty-project:
 - **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [12.0.13](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.13/pom) | | | |
 | [12.0.12](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.12/pom) | [mvn jdk22](jetty-project-12.0.12.buildspec) | [result](jetty-project-12.0.12.buildinfo): [769 :white_check_mark: ](jetty-project-12.0.12.buildcompare) | 246M |
 | [12.0.11](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.11/pom) | [mvn jdk22](jetty-project-12.0.11.buildspec) | [result](jetty-project-12.0.11.buildinfo): [765 :white_check_mark: ](jetty-project-12.0.11.buildcompare) | 245M |
 | [12.0.10](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.10/pom) | [mvn jdk22](jetty-project-12.0.10.buildspec) | [result](jetty-project-12.0.10.buildinfo): [765 :white_check_mark: ](jetty-project-12.0.10.buildcompare) | 244M |
@@ -268,7 +269,7 @@ rebuilding **11 releases** of org.eclipse.jetty:jetty-project:
 | [12.0.8](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.8/pom) | [mvn jdk21](jetty-project-12.0.8.buildspec) | [result](jetty-project-12.0.8.buildinfo): [756 :white_check_mark: ](jetty-project-12.0.8.buildcompare) | 228M |
 | [12.0.7](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.7/pom) | [mvn jdk21](jetty-project-12.0.7.buildspec) | [result](jetty-project-12.0.7.buildinfo): [756 :white_check_mark: ](jetty-project-12.0.7.buildcompare) | 226M |
 | [12.0.6](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.6/pom) | [mvn jdk21](jetty-project-12.0.6.buildspec) | [result](jetty-project-12.0.6.buildinfo): [750 :white_check_mark:  7 :warning:](jetty-project-12.0.6.buildcompare) [:mag:](jetty-project-12.0.6.diffoscope) [:memo:](https://github.com/jetty/jetty.project/pull/11360) | 229M |
-| [12.0.5](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.5/pom) | | | |
+| [12.0.5](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.5/pom) | [mvn jdk21](jetty-project-12.0.5.buildspec) | [result](jetty-project-12.0.5.buildinfo): [748 :white_check_mark:  9 :warning:](jetty-project-12.0.5.buildcompare) | 229M |
 | [12.0.4](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.4/pom) | [mvn jdk21](jetty-project-12.0.4.buildspec) | [result](jetty-project-12.0.4.buildinfo): [744 :white_check_mark:  9 :warning:](jetty-project-12.0.4.buildcompare) | 238M |
 | [12.0.3](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.3/pom) | [mvn jdk21](jetty-project-12.0.3.buildspec) | [result](jetty-project-12.0.3.buildinfo): [744 :white_check_mark:  7 :warning:](jetty-project-12.0.3.buildcompare) [:mag:](jetty-project-12.0.3.diffoscope) | 227M |
 | [12.0.2](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.2/pom) | [mvn jdk21](jetty-project-12.0.2.buildspec) | [result](jetty-project-12.0.2.buildinfo): [737 :white_check_mark:  7 :warning:](jetty-project-12.0.2.buildcompare) [:mag:](jetty-project-12.0.2.diffoscope) [:memo:](https://github.com/jetty/jetty.project/pull/10769) | 227M |

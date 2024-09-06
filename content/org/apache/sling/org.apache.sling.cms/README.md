@@ -20,14 +20,14 @@ Source code: [https://github.com/apache/sling-org-apache-sling-app-cms.git](http
 * [org.apache.sling:org.apache.sling.cms.ui](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms.ui/overview)
 </details>
 
-rebuilding **1 releases** of org.apache.sling:org.apache.sling.cms:
+rebuilding **3 releases** of org.apache.sling:org.apache.sling.cms:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.1.8](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms/1.1.8/pom) | | | |
-| [1.1.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms/1.1.6/pom) | | | |
+| [1.1.8](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms/1.1.8/pom) | [mvn jdk11](org.apache.sling.cms-1.1.8.buildspec) | [result](org.apache.sling.cms-1.1.8.buildinfo): [43 :white_check_mark:  19 :warning:](org.apache.sling.cms-1.1.8.buildcompare) [:mag:](org.apache.sling.cms-1.1.8.diffoscope) | 681M |
+| [1.1.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms/1.1.6/pom) | [mvn jdk19](org.apache.sling.cms-1.1.6.buildspec) | [result](org.apache.sling.cms-1.1.6.buildinfo): [58 :white_check_mark:  4 :warning:](org.apache.sling.cms-1.1.6.buildcompare) | 672M |
 | [1.1.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.cms/1.1.4/pom) | [mvn jdk11](org.apache.sling.cms-1.1.4.buildspec) | [result](org.apache.sling.cms-1.1.4.buildinfo): [58 :white_check_mark:  4 :warning:](org.apache.sling.cms-1.1.4.buildcompare) [:mag:](org.apache.sling.cms-1.1.4.diffoscope) | 636M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

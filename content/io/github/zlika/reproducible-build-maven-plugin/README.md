@@ -13,6 +13,7 @@ rebuilding **1 releases** of io.github.zlika:reproducible-build-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.17](https://central.sonatype.com/artifact/io.github.zlika/reproducible-build-maven-plugin/0.17/pom) | | | |
 | [0.16](https://central.sonatype.com/artifact/io.github.zlika/reproducible-build-maven-plugin/0.16/pom) | [mvn jdk8](reproducible-build-maven-plugin-0.16.buildspec) | [result](reproducible-build-maven-plugin-0.16.buildinfo): [4 :white_check_mark: ](reproducible-build-maven-plugin-0.16.buildcompare) | 243K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
