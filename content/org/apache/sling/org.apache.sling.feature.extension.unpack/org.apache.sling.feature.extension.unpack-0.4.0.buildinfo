@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Feature Model - Unpack Extension
+group-id=org.apache.sling
+artifact-id=org.apache.sling.feature.extension.unpack
+version=0.4.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-feature-extension-unpack.git
+source.scm.tag=org.apache.sling.feature.extension.unpack-0.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.feature.extension.unpack-0.4.0.pom
+outputs.0.length=9931
+outputs.0.checksums.sha512=3c426117e4c46cef833683a4e8e12aaa8cfa537d916cc83e67c08b791f5c6ac7a6d0a14f5fcfa262f30cb151a918cac2d219dce0b191d1995bcdceb9a8e68772
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.feature.extension.unpack-0.4.0.jar
+outputs.1.length=35626
+outputs.1.checksums.sha512=39169721a23b2a5991195a83f6340b396b1d5f16f4108633c550c5b2ca4a7d1d073891fb52861d6ee3b49a4a188c1d4d4c7052919b1751786219de16c1f94ab5
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.feature.extension.unpack-0.4.0-source-release.zip
+outputs.2.length=51459
+outputs.2.checksums.sha512=8d97803f3deaec08874d85c6c48669bf0b94076b05b7e50b4162d3ab05239d6ef71114c2704f92acfb98f2c4a2a14acf347bdd34bf316458c44eb2e99a0b632d
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.feature.extension.unpack-0.4.0.tar.gz
+outputs.3.length=2172491
+outputs.3.checksums.sha512=dfa0618d51bb842e1708aabb92493cac5caaab11f01b65f928f3bd8feeb2762700bcdb873492cee411ac1a6290edac0a41f3a9991de2365aa7b5ea6982f0577b
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.feature.extension.unpack-0.4.0.zip
+outputs.4.length=2189262
+outputs.4.checksums.sha512=d55b6cdd6989a2f7e0c24f338cc8ec8a6a3950c8d201d2c099cea504a055a2ab42a8c066c00e2ac2913002c462adc006a411f0f5bd293c580c85011860452042
+
+outputs.5.groupId=org.apache.sling
+outputs.5.filename=org.apache.sling.feature.extension.unpack-0.4.0-sources.jar
+outputs.5.length=20696
+outputs.5.checksums.sha512=5ed6c977be813a7d80f446c43ec52cf5c035e746f98fc74116db01f1f9ab886b171511549f368ab85627a02f9c5e8b70ab9b75f6659991463de4e8a461abbe84
+
+outputs.6.groupId=org.apache.sling
+outputs.6.filename=org.apache.sling.feature.extension.unpack-0.4.0-sources.jar
+outputs.6.length=20696
+outputs.6.checksums.sha512=5ed6c977be813a7d80f446c43ec52cf5c035e746f98fc74116db01f1f9ab886b171511549f368ab85627a02f9c5e8b70ab9b75f6659991463de4e8a461abbe84
