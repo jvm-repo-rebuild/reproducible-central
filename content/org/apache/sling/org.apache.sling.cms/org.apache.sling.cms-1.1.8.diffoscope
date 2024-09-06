@@ -1,0 +1,20 @@
+# DST issue when timestamp is defined in pom.xml as an int? no idea...
+1 / 19 target/reference/org.apache.sling/org.apache.sling.cms-1.1.8-source-release.zip target/org.apache.sling.cms-1.1.8-source-release.zip
+--- target/reference/org.apache.sling/org.apache.sling.cms-1.1.8-source-release.zip
++++ target/org.apache.sling.cms-1.1.8-source-release.zip
+├── zipinfo {}
+│ @@ -1,1448 +1,1448 @@
+│  Zip file size: 3294100 bytes, number of entries: 1446
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-05 02:16 org.apache.sling.cms-1.1.8/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-05 02:16 org.apache.sling.cms-1.1.8/api/
+...
+│ --rw-r--r--  2.0 unx     1252 b- defN 23-Nov-05 02:16 org.apache.sling.cms-1.1.8/vagrant/src/stop.sh
+│ --rw-r--r--  2.0 unx      268 b- defN 23-Nov-05 02:16 org.apache.sling.cms-1.1.8/DEPENDENCIES
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-05 03:16 org.apache.sling.cms-1.1.8/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-05 03:16 org.apache.sling.cms-1.1.8/api/
+...
+│ +-rw-r--r--  2.0 unx     1252 b- defN 23-Nov-05 03:16 org.apache.sling.cms-1.1.8/vagrant/src/stop.sh
+│ +-rw-r--r--  2.0 unx      268 b- defN 23-Nov-05 03:16 org.apache.sling.cms-1.1.8/DEPENDENCIES
+│  1446 files, 5394351 bytes uncompressed, 2913468 bytes compressed:  46.0%
+
+# same issue everywhere
