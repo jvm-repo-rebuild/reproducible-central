@@ -1,0 +1,7 @@
+version=62
+ok=3
+ko=0
+ignored=0
+okFiles="mojo-parent-62.pom mojo-parent-62-site.xml mojo-parent-62-source-release.zip"
+koFiles=""
+ignoredFiles=""
