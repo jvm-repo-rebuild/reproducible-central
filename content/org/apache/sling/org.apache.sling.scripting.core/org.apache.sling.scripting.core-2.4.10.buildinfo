@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Scripting Core
+group-id=org.apache.sling
+artifact-id=org.apache.sling.scripting.core
+version=2.4.10
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-scripting-core.git
+source.scm.tag=org.apache.sling.scripting.core-2.4.10
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.scripting.core-2.4.10.pom
+outputs.0.length=12220
+outputs.0.checksums.sha512=c11fe76206a0d58b61acced7e10e3455399ccf79280c18681e52d9980775c09635432f97ebbec2e7465189106c6a30271e25fa38bf16c6fb38ccf0796690e3aa
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.scripting.core-2.4.10.jar
+outputs.1.length=146090
+outputs.1.checksums.sha512=e18e7bb1381d1f1c2d838ef23c071e8d8086d4a700c40bb5244da0bfe222f003d15f8eff9ddb4e79bbb3161ade515859e051be5131adef0ac0f20087e28f60d0
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.scripting.core-2.4.10-source-release.zip
+outputs.2.length=140232
+outputs.2.checksums.sha512=2334aa775ccfb2fdb11113e890525bf5f0995e4bb1f3adb00b272d22a168dfda623aa2b2cd5848e8400234eeed33e16354d888a67d6eedc9536a096eff0f8b52
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.scripting.core-2.4.10-sources.jar
+outputs.3.length=84611
+outputs.3.checksums.sha512=739475034d65770d6118b0465cf6aa51bae36835d2c5f8cabb72a9508366ebbd236f34f3df3463858a23eeb113fdd25944cc32bf679f5b12888dafadeb252864
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.scripting.core-2.4.10-sources.jar
+outputs.4.length=84611
+outputs.4.checksums.sha512=739475034d65770d6118b0465cf6aa51bae36835d2c5f8cabb72a9508366ebbd236f34f3df3463858a23eeb113fdd25944cc32bf679f5b12888dafadeb252864
