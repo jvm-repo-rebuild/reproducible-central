@@ -1,0 +1,11 @@
+version=2.1.8
+ok=36
+ko=2
+ignored=0
+okFiles="mina-parent-2.1.8.pom mina-parent-2.1.8-source-release.zip mina-legal-2.1.8.pom mina-legal-2.1.8.jar mina-legal-2.1.8-sources.jar mina-core-2.1.8.pom mina-core-2.1.8.jar mina-core-2.1.8-sources.jar mina-transport-apr-2.1.8.pom mina-transport-apr-2.1.8.jar mina-transport-apr-2.1.8-sources.jar mina-filter-compression-2.1.8.pom mina-filter-compression-2.1.8.jar mina-filter-compression-2.1.8-sources.jar mina-statemachine-2.1.8.pom mina-statemachine-2.1.8.jar mina-statemachine-2.1.8-sources.jar mina-integration-beans-2.1.8.pom mina-integration-beans-2.1.8.jar mina-integration-beans-2.1.8-sources.jar mina-integration-xbean-2.1.8.pom mina-integration-xbean-2.1.8.xsd mina-integration-xbean-2.1.8-schema.html mina-integration-xbean-2.1.8.xsd.html mina-integration-ognl-2.1.8.pom mina-integration-ognl-2.1.8.jar mina-integration-ognl-2.1.8-sources.jar mina-integration-jmx-2.1.8.pom mina-integration-jmx-2.1.8.jar mina-integration-jmx-2.1.8-sources.jar mina-example-2.1.8.pom mina-example-2.1.8.jar mina-example-2.1.8-sources.jar mina-http-2.1.8.pom mina-http-2.1.8.jar mina-http-2.1.8-sources.jar"
+koFiles="mina-integration-xbean-2.1.8.jar mina-integration-xbean-2.1.8-sources.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.mina/mina-integration-xbean-2.1.8.jar mina-integration-xbean/target/mina-integration-xbean-2.1.8.jar
+# diffoscope target/reference/org.apache.mina/mina-integration-xbean-2.1.8-sources.jar mina-integration-xbean/target/mina-integration-xbean-2.1.8-sources.jar
