@@ -1,0 +1,10 @@
+version=2.1.2
+ok=2
+ko=1
+ignored=0
+okFiles="mybatis-spring-2.1.2.pom mybatis-spring-2.1.2-sources.jar"
+koFiles="mybatis-spring-2.1.2.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.mybatis/mybatis-spring-2.1.2.jar target/mybatis-spring-2.1.2.jar
