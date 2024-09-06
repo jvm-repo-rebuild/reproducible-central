@@ -1,0 +1,20 @@
+version=2.1.7
+ok=27
+ko=11
+ignored=0
+okFiles="mina-parent-2.1.7.pom mina-legal-2.1.7.pom mina-legal-2.1.7.jar mina-legal-2.1.7-sources.jar mina-core-2.1.7.pom mina-core-2.1.7-sources.jar mina-transport-apr-2.1.7.pom mina-transport-apr-2.1.7-sources.jar mina-filter-compression-2.1.7.pom mina-filter-compression-2.1.7-sources.jar mina-statemachine-2.1.7.pom mina-statemachine-2.1.7-sources.jar mina-integration-beans-2.1.7.pom mina-integration-beans-2.1.7-sources.jar mina-integration-xbean-2.1.7.pom mina-integration-xbean-2.1.7.xsd mina-integration-xbean-2.1.7-schema.html mina-integration-xbean-2.1.7.xsd.html mina-integration-ognl-2.1.7.pom mina-integration-ognl-2.1.7-sources.jar mina-integration-jmx-2.1.7.pom mina-integration-jmx-2.1.7-sources.jar mina-example-2.1.7.pom mina-example-2.1.7.jar mina-example-2.1.7-sources.jar mina-http-2.1.7.pom mina-http-2.1.7-sources.jar"
+koFiles="mina-parent-2.1.7-source-release.zip mina-core-2.1.7.jar mina-transport-apr-2.1.7.jar mina-filter-compression-2.1.7.jar mina-statemachine-2.1.7.jar mina-integration-beans-2.1.7.jar mina-integration-xbean-2.1.7.jar mina-integration-xbean-2.1.7-sources.jar mina-integration-ognl-2.1.7.jar mina-integration-jmx-2.1.7.jar mina-http-2.1.7.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.mina/mina-parent-2.1.7-source-release.zip target/mina-parent-2.1.7-source-release.zip
+# diffoscope target/reference/org.apache.mina/mina-core-2.1.7.jar mina-core/target/mina-core-2.1.7.jar
+# diffoscope target/reference/org.apache.mina/mina-transport-apr-2.1.7.jar mina-transport-apr/target/mina-transport-apr-2.1.7.jar
+# diffoscope target/reference/org.apache.mina/mina-filter-compression-2.1.7.jar mina-filter-compression/target/mina-filter-compression-2.1.7.jar
+# diffoscope target/reference/org.apache.mina/mina-statemachine-2.1.7.jar mina-statemachine/target/mina-statemachine-2.1.7.jar
+# diffoscope target/reference/org.apache.mina/mina-integration-beans-2.1.7.jar mina-integration-beans/target/mina-integration-beans-2.1.7.jar
+# diffoscope target/reference/org.apache.mina/mina-integration-xbean-2.1.7.jar mina-integration-xbean/target/mina-integration-xbean-2.1.7.jar
+# diffoscope target/reference/org.apache.mina/mina-integration-xbean-2.1.7-sources.jar mina-integration-xbean/target/mina-integration-xbean-2.1.7-sources.jar
+# diffoscope target/reference/org.apache.mina/mina-integration-ognl-2.1.7.jar mina-integration-ognl/target/mina-integration-ognl-2.1.7.jar
+# diffoscope target/reference/org.apache.mina/mina-integration-jmx-2.1.7.jar mina-integration-jmx/target/mina-integration-jmx-2.1.7.jar
+# diffoscope target/reference/org.apache.mina/mina-http-2.1.7.jar mina-http/target/mina-http-2.1.7.jar
