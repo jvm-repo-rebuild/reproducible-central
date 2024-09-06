@@ -1,0 +1,11 @@
+version=2.0.0
+ok=8
+ko=2
+ignored=0
+okFiles="qpid-jms-parent-2.0.0.pom qpid-jms-client-2.0.0.pom qpid-jms-client-2.0.0-sources.jar qpid-jms-discovery-2.0.0.pom qpid-jms-discovery-2.0.0.jar qpid-jms-discovery-2.0.0-sources.jar apache-qpid-jms-2.0.0.pom apache-qpid-jms-2.0.0-src.tar.gz"
+koFiles="qpid-jms-client-2.0.0.jar apache-qpid-jms-2.0.0-bin.tar.gz"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.qpid/qpid-jms-client-2.0.0.jar qpid-jms-client/target/qpid-jms-client-2.0.0.jar
+# diffoscope target/reference/org.apache.qpid/apache-qpid-jms-2.0.0-bin.tar.gz apache-qpid-jms/target/apache-qpid-jms-2.0.0-bin.tar.gz
