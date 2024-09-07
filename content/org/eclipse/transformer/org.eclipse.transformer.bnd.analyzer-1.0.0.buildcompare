@@ -1,0 +1,9 @@
+version=1.0.0
+ok=17
+ko=0
+ignored=0
+okFiles="org.eclipse.transformer.parent-1.0.0.pom org.eclipse.transformer.jakarta-1.0.0.pom org.eclipse.transformer.jakarta-1.0.0.jar org.eclipse.transformer.jakarta-1.0.0-sources.jar org.eclipse.transformer-1.0.0.pom org.eclipse.transformer-1.0.0.jar org.eclipse.transformer-1.0.0-sources.jar org.eclipse.transformer.cli-1.0.0.pom org.eclipse.transformer.cli-1.0.0.jar org.eclipse.transformer.cli-1.0.0-distribution.jar org.eclipse.transformer.cli-1.0.0-sources.jar transformer-maven-plugin-1.0.0.pom transformer-maven-plugin-1.0.0.jar transformer-maven-plugin-1.0.0-sources.jar org.eclipse.transformer.bnd.analyzer-1.0.0.pom org.eclipse.transformer.bnd.analyzer-1.0.0.jar org.eclipse.transformer.bnd.analyzer-1.0.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
