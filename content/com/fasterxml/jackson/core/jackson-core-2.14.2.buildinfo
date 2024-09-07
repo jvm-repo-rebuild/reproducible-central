@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson-core
+group-id=com.fasterxml.jackson.core
+artifact-id=jackson-core
+version=2.14.2
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-core.git
+source.scm.tag=jackson-core-2.14.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.fasterxml.jackson.core
+outputs.0.filename=jackson-core-2.14.2.pom
+outputs.0.length=7017
+outputs.0.checksums.sha512=285b6a072820898c313216e48ea6059e76509a532533823e3e10eff640b3bc983c7165e6a735f4bab6d08b14dd701b630dad66f2eb8232f7fc3720fe1b514282
+
+outputs.1.groupId=com.fasterxml.jackson.core
+outputs.1.filename=jackson-core-2.14.2.jar
+outputs.1.length=458834
+outputs.1.checksums.sha512=aa73b807787c2a3ecd30142467b7c3b69643752159738d5b2f7dcfbf42466cac21a978b99567045b88439e839c9d7dc21f6dfa6159fd1acdbc0d283346369f77
+
+outputs.2.groupId=com.fasterxml.jackson.core
+outputs.2.filename=jackson-core-2.14.2-sources.jar
+outputs.2.length=495039
+outputs.2.checksums.sha512=71ebbd6472ade5811ce8b07319803c3f2a32f97705fc708c76ba099f80d98b331e66578dfd60fbb7e942dc3a46d1214e3311f23e268b60be2cb711dbb59852ae
+
+outputs.3.groupId=com.fasterxml.jackson.core
+outputs.3.filename=jackson-core-2.14.2.module
+outputs.3.length=2494
+outputs.3.checksums.sha512=7200a4dc8f7a91a52cb2d6c806b11ab26cfdf51730ffe15dab2371b74f553550145d8ec31ec801655b45a4fcdd897f95c6c049f8d871d47d52a6f46d2c215674
