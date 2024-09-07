@@ -1,0 +1,38 @@
+1 / 1 target/reference/io.wcm.tooling.commons/io.wcm.tooling.commons.crx-packmgr-helper-2.0.2.jar target/io.wcm.tooling.commons.crx-packmgr-helper-2.0.2.jar
+--- target/reference/io.wcm.tooling.commons/io.wcm.tooling.commons.crx-packmgr-helper-2.0.2.jar
++++ target/io.wcm.tooling.commons.crx-packmgr-helper-2.0.2.jar
+├── zipinfo {}
+│ @@ -1,9 +1,9 @@
+│ -Zip file size: 78431 bytes, number of entries: 63
+│ --rw-r--r--  2.0 unx     3629 b- defN 22-Jan-06 10:45 META-INF/MANIFEST.MF
+│ +Zip file size: 78428 bytes, number of entries: 63
+│ +-rw-r--r--  2.0 unx     3624 b- defN 22-Jan-06 10:45 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-06 10:45 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-06 10:45 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-06 10:45 io/wcm/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-06 10:45 io/wcm/tooling/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-06 10:45 io/wcm/tooling/commons/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-06 10:45 io/wcm/tooling/commons/packmgr/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-06 10:45 io/wcm/tooling/commons/packmgr/download/
+│ @@ -58,8 +58,8 @@
+│  -rw-r--r--  2.0 unx     5689 b- defN 22-Jan-06 10:45 io/wcm/tooling/commons/packmgr/unpack/OneAttributePerLineXmlProcessor.class
+│  -rw-r--r--  2.0 unx      249 b- defN 22-Jan-06 10:45 io/wcm/tooling/commons/packmgr/unpack/package-info.class
+│  -rw-r--r--  2.0 unx     4428 b- defN 22-Jan-06 10:45 io/wcm/tooling/commons/packmgr/util/ContentPackageProperties.class
+│  -rw-r--r--  2.0 unx     2249 b- defN 22-Jan-06 10:45 io/wcm/tooling/commons/packmgr/util/HttpClientUtil.class
+│  -rw-r--r--  2.0 unx      247 b- defN 22-Jan-06 10:45 io/wcm/tooling/commons/packmgr/util/package-info.class
+│  -rw-r--r--  2.0 unx     7392 b- defN 22-Jan-06 10:45 META-INF/maven/io.wcm.tooling.commons/io.wcm.tooling.commons.crx-packmgr-helper/pom.xml
+│  -rw-r--r--  2.0 unx      101 b- defN 22-Jan-06 10:45 META-INF/maven/io.wcm.tooling.commons/io.wcm.tooling.commons.crx-packmgr-helper/pom.properties
+│ -63 files, 160416 bytes uncompressed, 66571 bytes compressed:  58.5%
+│ +63 files, 160411 bytes uncompressed, 66568 bytes compressed:  58.5%
+├── META-INF/MANIFEST.MF
+│ @@ -50,9 +50,9 @@
+│   entity.mime,org.apache.http.impl.auth,org.apache.http.impl.client,org.a
+│   pache.http.protocol,org.apache.http.ssl,org.apache.http.util,org.apache
+│   .jackrabbit.util;version="[2.4,3)",org.apache.jackrabbit.vault.util;ver
+│   sion="[2.8,3)",org.jdom2,org.jdom2.input,org.jdom2.output,org.jdom2.out
+│   put.support,org.jdom2.util,org.json,org.slf4j;version="[1.7,2)",org.xml
+│   .sax,org.xml.sax.helpers
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+│ -Scm-Revision: c48c286d at 2022-01-06T11:46:12+01:00
+│ +Scm-Revision: bc9cc174 at 2024-09-07T23:31:17Z
+
