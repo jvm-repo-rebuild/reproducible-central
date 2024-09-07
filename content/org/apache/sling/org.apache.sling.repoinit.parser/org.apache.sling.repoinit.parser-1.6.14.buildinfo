@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Repoinit Parser
+group-id=org.apache.sling
+artifact-id=org.apache.sling.repoinit.parser
+version=1.6.14
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-repoinit-parser.git
+source.scm.tag=org.apache.sling.repoinit.parser-1.6.14
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.repoinit.parser-1.6.14.pom
+outputs.0.length=4668
+outputs.0.checksums.sha512=d5995d4de0aa474b205c4b88a807a03cd565508401fc983a893b300001d5ee17f18ab152f1bb87b38e1d756adab01321845fd2f80f478840a9dee26b4fc05dba
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.repoinit.parser-1.6.14.jar
+outputs.1.length=128886
+outputs.1.checksums.sha512=e7093b73edc06b0a6b29ce7275a59f93a89312a6a3422a3239c9abf6b21a4e3561295de1e1ede553a3d189a97a8323a7ba6c4aa8ee34ede6f19dc78210faa402
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.repoinit.parser-1.6.14-source-release.zip
+outputs.2.length=118556
+outputs.2.checksums.sha512=2221e3dc5e3193cff72282d782929577b42ea9dcff13823b94a2b954a3dae704de902117d743e967870f1d5ca56c6ce53f3715af500be19b90af6862572efde7
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.repoinit.parser-1.6.14-sources.jar
+outputs.3.length=87488
+outputs.3.checksums.sha512=5564620557c7bbea2d254ae0e18fc4c01189f8cecfbcc0609e5a98be8ad5391b70fa49b940529e2bfdb3a2e37358299e886679e089792583f6dc360a53889d82
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.repoinit.parser-1.6.14-sources.jar
+outputs.4.length=87488
+outputs.4.checksums.sha512=5564620557c7bbea2d254ae0e18fc4c01189f8cecfbcc0609e5a98be8ad5391b70fa49b940529e2bfdb3a2e37358299e886679e089792583f6dc360a53889d82
