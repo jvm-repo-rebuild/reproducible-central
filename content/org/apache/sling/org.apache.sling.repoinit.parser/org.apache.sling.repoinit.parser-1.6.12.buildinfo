@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Repoinit Parser
+group-id=org.apache.sling
+artifact-id=org.apache.sling.repoinit.parser
+version=1.6.12
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-repoinit-parser.git
+source.scm.tag=org.apache.sling.repoinit.parser-1.6.12
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.repoinit.parser-1.6.12.pom
+outputs.0.length=4668
+outputs.0.checksums.sha512=afd46858ad19f71ba25006a5d05f2942f66b34ce3f69e1457b63aac2b0e7935f061eaf8a825a56e130f27e530c40d53b8cabdf98761a2990ffafb70a357efa97
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.repoinit.parser-1.6.12.jar
+outputs.1.length=122722
+outputs.1.checksums.sha512=47088f328ba2d3082558956fa42cce4f0db22c540bbb00d59d0f436f246196841fd62956e9553a48f1be21d8ad4c1100694c491911b41da875c859cb012861a8
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.repoinit.parser-1.6.12-source-release.zip
+outputs.2.length=112812
+outputs.2.checksums.sha512=fc66d0ef276be96ad66930194a9bb1949d38120581c0268b7e6d93e49b897c70277ceed08982d17e4014efee4f269c4d1a1e44b2da27d144b6fe8ae253b0de86
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.repoinit.parser-1.6.12-sources.jar
+outputs.3.length=83005
+outputs.3.checksums.sha512=8d8ff17cae09e7bc61f8b5a7ea7b5004fe739b991e5131c96c06f5f545a1023002bfb60a006cb678495f94db1f3be50c3a60979cf07b24c6d3f6c2f657c04b2a
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.repoinit.parser-1.6.12-sources.jar
+outputs.4.length=83005
+outputs.4.checksums.sha512=8d8ff17cae09e7bc61f8b5a7ea7b5004fe739b991e5131c96c06f5f545a1023002bfb60a006cb678495f94db1f3be50c3a60979cf07b24c6d3f6c2f657c04b2a
