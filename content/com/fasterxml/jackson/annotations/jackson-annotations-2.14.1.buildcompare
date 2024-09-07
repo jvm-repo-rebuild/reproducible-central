@@ -1,0 +1,9 @@
+version=2.14.1
+ok=2
+ko=2
+ignored=0
+okFiles="jackson-annotations-2.14.1.pom jackson-annotations-2.14.1-sources.jar"
+koFiles="jackson-annotations-2.14.1.jar jackson-annotations-2.14.1.module"
+ignoredFiles=""
+# diffoscope target/reference/com.fasterxml.jackson.core/jackson-annotations-2.14.1.jar target/jackson-annotations-2.14.1.jar
+# diffoscope target/reference/com.fasterxml.jackson.core/jackson-annotations-2.14.1.module target/publications/maven/module.json
