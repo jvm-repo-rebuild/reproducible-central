@@ -29,7 +29,7 @@ outputs.0.checksums.sha512=d77199f18144a01f7fcc9dbfa668b707e9ca948673c4f4ffd4cc7
 outputs.1.groupId=org.apache.sling
 outputs.1.filename=org.apache.sling.feature.analyser-1.4.0.jar
 outputs.1.length=186738
-outputs.1.checksums.sha512=c03e2740715dbfe37ee29669f1e40c56a2e7922deb68f2fd4d3c32adf356fe9f3f6cb89a2112030fb3dafed0d051a5ed4975028d59eecf9c85c7adf895d6af68
+outputs.1.checksums.sha512=2fad72e2dbfd22dc720c2b5eca181aff07c8d3441e873d532ada5df9f3966ff500ebccaa5c8b94c0501cb4b9d14a38b61e764d2cf0d936835dda8742fc80b0b6
 
 outputs.2.groupId=org.apache.sling
 outputs.2.filename=org.apache.sling.feature.analyser-1.4.0-source-release.zip
@@ -39,14 +39,14 @@ outputs.2.checksums.sha512=60844411dbfd9bc093e52580884e69faa4544d33191e91f20981e
 outputs.3.groupId=org.apache.sling
 outputs.3.filename=org.apache.sling.feature.analyser-1.4.0-sources.jar
 outputs.3.length=84775
-outputs.3.checksums.sha512=dc19de90e6afd818b9f2768048aa2d93e914bee4e8f1a5965d0626762139b886386afc56fc40835ab21090a3ca1098f78a6df1714a052c305c6de89bbf62d358
+outputs.3.checksums.sha512=ed61b249c0c8eab4cbbe274dc54a849be0fb5c46c6523d03bffb4cb3eff2f78484e2cc9fd5064ab3a0b3e8dfbcb6e56197e88fa2c987a225b2ce25d7e482f40b
 
 outputs.4.groupId=org.apache.sling
 outputs.4.filename=org.apache.sling.feature.analyser-1.4.0-sources.jar
 outputs.4.length=84775
-outputs.4.checksums.sha512=dc19de90e6afd818b9f2768048aa2d93e914bee4e8f1a5965d0626762139b886386afc56fc40835ab21090a3ca1098f78a6df1714a052c305c6de89bbf62d358
+outputs.4.checksums.sha512=ed61b249c0c8eab4cbbe274dc54a849be0fb5c46c6523d03bffb4cb3eff2f78484e2cc9fd5064ab3a0b3e8dfbcb6e56197e88fa2c987a225b2ce25d7e482f40b
 
 outputs.5.groupId=org.apache.sling
 outputs.5.filename=org.apache.sling.feature.analyser-1.4.0-sources.jar
 outputs.5.length=84775
-outputs.5.checksums.sha512=dc19de90e6afd818b9f2768048aa2d93e914bee4e8f1a5965d0626762139b886386afc56fc40835ab21090a3ca1098f78a6df1714a052c305c6de89bbf62d358
+outputs.5.checksums.sha512=ed61b249c0c8eab4cbbe274dc54a849be0fb5c46c6523d03bffb4cb3eff2f78484e2cc9fd5064ab3a0b3e8dfbcb6e56197e88fa2c987a225b2ce25d7e482f40b
