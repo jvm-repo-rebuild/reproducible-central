@@ -1,0 +1,9 @@
+version=2.14.0-rc3
+ok=2
+ko=2
+ignored=0
+okFiles="jackson-databind-2.14.0-rc3.pom jackson-databind-2.14.0-rc3-sources.jar"
+koFiles="jackson-databind-2.14.0-rc3.jar jackson-databind-2.14.0-rc3.module"
+ignoredFiles=""
+# diffoscope target/reference/com.fasterxml.jackson.core/jackson-databind-2.14.0-rc3.jar target/jackson-databind-2.14.0-rc3.jar
+# diffoscope target/reference/com.fasterxml.jackson.core/jackson-databind-2.14.0-rc3.module target/publications/maven/module.json
