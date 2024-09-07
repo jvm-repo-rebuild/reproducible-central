@@ -4,9 +4,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240906195233 --> [logback-parent](../content/ch/qos/logback/README.md) | [1.5.7](../content/ch/qos/logback/logback-1.5.7.buildspec) :white_check_mark: | [1.5.8](../content/ch/qos/logback/logback-1.5.8.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/logback-1.5.7.buildspec 1.5.8` |
-| <!-- 20240906165637 --> [reproducible-build-maven-plugin](../content/io/github/zlika/reproducible-build-maven-plugin/README.md) | [0.16](../content/io/github/zlika/reproducible-build-maven-plugin/reproducible-build-maven-plugin-0.16.buildspec) :white_check_mark: | [0.17](../content/io/github/zlika/reproducible-build-maven-plugin/reproducible-build-maven-plugin-0.17.buildspec) | `bin/add-new-release.sh content/io/github/zlika/reproducible-build-maven-plugin/reproducible-build-maven-plugin-0.16.buildspec 0.17` |
-| <!-- 20240906030055 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | [12.0.12](../content/org/eclipse/jetty/jetty-project/jetty-project-12.0.12.buildspec) :white_check_mark: | [12.0.13](../content/org/eclipse/jetty/jetty-project/jetty-project-12.0.13.buildspec) | `bin/add-new-release.sh content/org/eclipse/jetty/jetty-project/jetty-project-12.0.12.buildspec 12.0.13` |
+| <!-- 20240906212744 --> [com.io7m.trasco](../content/com/io7m/trasco/README.md) | [2.0.1](../content/com/io7m/trasco/com.io7m.trasco-2.0.1.buildspec) :white_check_mark: | [3.0.0](../content/com/io7m/trasco/com.io7m.trasco-3.0.0.buildspec) | `bin/add-new-release.sh content/com/io7m/trasco/com.io7m.trasco-2.0.1.buildspec 3.0.0` |
+| <!-- 20240906210631 --> [com.io7m.jxe](../content/com/io7m/jxe/README.md) | [1.1.0](../content/com/io7m/jxe/com.io7m.jxe-1.1.0.buildspec) :white_check_mark: | [2.0.0](../content/com/io7m/jxe/com.io7m.jxe-2.0.0.buildspec) | `bin/add-new-release.sh content/com/io7m/jxe/com.io7m.jxe-1.1.0.buildspec 2.0.0` |
+| <!-- 20240906204422 --> [com.io7m.jattribute](../content/com/io7m/jattribute/README.md) | [1.0.0](../content/com/io7m/jattribute/com.io7m.jattribute-1.0.0.buildspec) :white_check_mark: | [1.0.1](../content/com/io7m/jattribute/com.io7m.jattribute-1.0.1.buildspec) | `bin/add-new-release.sh content/com/io7m/jattribute/com.io7m.jattribute-1.0.0.buildspec 1.0.1` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -22,6 +22,7 @@ New Releases To Add
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
 | <!-- 20240810053328 --> [:mailbox:](https://lists.apache.org/list?dev@struts.apache.org:lte=1M:VOTE) | [struts2-parent](../content/org/apache/struts/README.md) | [6.6.0](../content/org/apache/struts/struts2-6.6.0.buildspec) :white_check_mark: | [7.0.0-M9](../content/org/apache/struts/struts2-7.0.0-M9.buildspec)  | `bin/add-new-release.sh content/org/apache/struts/struts2-6.6.0.buildspec 7.0.0-M9 staging` |
+| <!-- 20240809070356 --> [:mailbox:](https://lists.apache.org/list?dev@dubbo.apache.org:lte=1M:VOTE) | [dubbo](../content/org/apache/dubbo/README.md) | [3.3.0-beta.5](../content/org/apache/dubbo/dubbo-3.3.0-beta.5.buildspec) :white_check_mark: | [3.3.0](../content/org/apache/dubbo/dubbo-3.3.0.buildspec)  | `bin/add-new-release.sh content/org/apache/dubbo/dubbo-3.3.0-beta.5.buildspec 3.3.0 staging` |
 | <!-- 20240712040920 --> [:mailbox:](https://lists.apache.org/list?dev@paimon.apache.org:lte=1M:VOTE) | [paimon-parent](../content/org/apache/paimon/README.md) | [0.8.2](../content/org/apache/paimon/paimon-parent-0.8.2.buildspec) :warning: [:memo:](https://github.com/apache/paimon/pull/3719) | [0.9.0](../content/org/apache/paimon/paimon-parent-0.9.0.buildspec)  | `bin/add-new-release.sh content/org/apache/paimon/paimon-parent-0.8.2.buildspec 0.9.0 staging` |
 | <!-- 20240625152252 --> [:mailbox:](https://lists.apache.org/list?dev@ratis.apache.org:lte=1M:VOTE) | [ratis](../content/org/apache/ratis/README.md) | [3.1.0](../content/org/apache/ratis/ratis-3.1.0.buildspec) :warning: [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) | [3.1.1](../content/org/apache/ratis/ratis-3.1.1.buildspec)  | `bin/add-new-release.sh content/org/apache/ratis/ratis-3.1.0.buildspec 3.1.1 staging` |
 | <!-- 20240621222621 --> [:mailbox:](https://lists.apache.org/list?dev@helix.apache.org:lte=1M:VOTE) | [helix](../content/org/apache/helix/README.md) | [1.3.1](../content/org/apache/helix/helix-1.3.1.buildspec) :warning: | [1.4.1](../content/org/apache/helix/helix-1.4.1.buildspec)  | `bin/add-new-release.sh content/org/apache/helix/helix-1.3.1.buildspec 1.4.1 staging` |
@@ -32,7 +33,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240906203659 --> [org.eclipse.transformer.parent](../content/org/eclipse/transformer/README.md) | [0.5.0](../content/org/eclipse/transformer/eclipse-transformer-0.5.0.buildspec) :warning: | [1.0.0](../content/org/eclipse/transformer/eclipse-transformer-1.0.0.buildspec) | `bin/add-new-release.sh content/org/eclipse/transformer/eclipse-transformer-0.5.0.buildspec 1.0.0` |
+| <!-- 20240907012418 --> [trino-root](../content/io/trino/README.md) | [455](../content/io/trino/trino-455.buildspec) :warning: | [457](../content/io/trino/trino-457.buildspec) | `bin/add-new-release.sh content/io/trino/trino-455.buildspec 457` |
 | <!-- 20240906154607 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | [1.39.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.39.0.buildspec) :warning: | [1.42.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.42.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/java/opentelemetry-sdk-1.39.0.buildspec 1.42.0` |
 | <!-- 20240905155233 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.55.4](../content/org/finos/legend/engine/legend-engine-4.55.4.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.55.4` |
 | <!-- 20240904211311 --> [jooby](../content/io/jooby/README.md) | [3.0.5](../content/io/jooby/jooby-3.0.5.buildspec) :warning: | [3.3.0](../content/io/jooby/jooby-3.3.0.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-3.0.5.buildspec 3.3.0` |
@@ -83,7 +84,6 @@ New Releases To Add
 | artifactId | newest |
 | ---------- | ------ |
 | <!-- 20240905060651 --> [org.apache.sling.scripting.core](../content/org/apache/sling/org.apache.sling.scripting.core/README.md) | 2.4.10 :warning: [:memo:](https://issues.apache.org/jira/browse/SLING-12422) |
-| <!-- 20240829192212 --> [trino-root](../content/io/trino/README.md) | 455 :warning: |
 | <!-- 20240828185349 --> [sigstore-maven-plugin](../content/dev/sigstore/sigstore-maven-plugin/README.md) | 1.0.0 :warning: |
 | <!-- 20240827103251 --> [org.apache.sling.i18n](../content/org/apache/sling/org.apache.sling.i18n/README.md) | 2.6.4 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-i18n/pull/16) |
 | <!-- 20240826174802 --> [ldapchai](../content/com/github/ldapchai/README.md) | 0.8.6 :warning: [:memo:](https://github.com/ldapchai/ldapchai/issues/28) |

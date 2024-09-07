@@ -17,13 +17,13 @@ Source code: [https://github.com/qos-ch/logback.git](https://github.com/qos-ch/l
 * [ch.qos.logback:logback-site](https://central.sonatype.com/artifact/ch.qos.logback/logback-site/overview)
 </details>
 
-rebuilding **32 releases** of ch.qos.logback:logback-parent:
-- **23** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **33 releases** of ch.qos.logback:logback-parent:
+- **24** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.5.8](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.5.8/pom) | | | |
+| [1.5.8](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.5.8/pom) | [mvn jdk21 w](logback-1.5.8.buildspec) | [result](logback-parent-1.5.8.buildinfo): [12 :white_check_mark: ](logback-parent-1.5.8.buildcompare) | 3.0M |
 | [1.5.7](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.5.7/pom) | [mvn jdk21 w](logback-1.5.7.buildspec) | [result](logback-parent-1.5.7.buildinfo): [12 :white_check_mark: ](logback-parent-1.5.7.buildcompare) | 3.0M |
 | [1.5.6](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.5.6/pom) | [mvn jdk21 w](logback-1.5.6.buildspec) | [result](logback-parent-1.5.6.buildinfo): [11 :white_check_mark: ](logback-parent-1.5.6.buildcompare) | 3.0M |
 | [1.5.5](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.5.5/pom) | [mvn jdk21 w](logback-1.5.5.buildspec) | [result](logback-parent-1.5.5.buildinfo): [11 :white_check_mark: ](logback-parent-1.5.5.buildcompare) | 3.0M |
