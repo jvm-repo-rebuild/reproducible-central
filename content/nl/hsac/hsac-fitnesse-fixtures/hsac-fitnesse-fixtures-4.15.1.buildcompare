@@ -1,0 +1,12 @@
+version=4.15.1
+ok=1
+ko=3
+ignored=0
+okFiles="hsac-fitnesse-fixtures-4.15.1.pom"
+koFiles="hsac-fitnesse-fixtures-4.15.1.jar hsac-fitnesse-fixtures-4.15.1-standalone.zip hsac-fitnesse-fixtures-4.15.1-sources.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/nl.hsac/hsac-fitnesse-fixtures-4.15.1.jar target/hsac-fitnesse-fixtures-4.15.1.jar
+# diffoscope target/reference/nl.hsac/hsac-fitnesse-fixtures-4.15.1-standalone.zip target/hsac-fitnesse-fixtures-4.15.1-standalone.zip
+# diffoscope target/reference/nl.hsac/hsac-fitnesse-fixtures-4.15.1-sources.jar target/hsac-fitnesse-fixtures-4.15.1-sources.jar
