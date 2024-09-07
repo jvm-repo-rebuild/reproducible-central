@@ -1,0 +1,16 @@
+groupId=io.github.zlika
+artifactId=reproducible-build-maven-plugin
+display=${groupId}:${artifactId}
+version=0.17
+
+gitRepo=https://github.com/Zlika/reproducible-build-maven-plugin.git
+gitTag=v${version}
+
+tool=mvn
+jdk=17
+newline=lf
+
+command="mvn clean package -Prelease -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
