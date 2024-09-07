@@ -51,9 +51,9 @@ Source code: [https://github.com/dropwizard/metrics.git](https://github.com/drop
 * [io.dropwizard.metrics5:metrics-servlets](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-servlets/overview)
 </details>
 
-rebuilding **14 releases** of io.dropwizard.metrics5:metrics-parent:
+rebuilding **18 releases** of io.dropwizard.metrics5:metrics-parent:
 - **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -66,13 +66,13 @@ rebuilding **14 releases** of io.dropwizard.metrics5:metrics-parent:
 | [5.0.0-rc15](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc15/pom) | [mvn jdk11](dropwizard-metrics-5.0.0-rc15.buildspec) | [result](metrics-parent-5.0.0-rc15.buildinfo): [102 :white_check_mark:  2 :warning:](metrics-parent-5.0.0-rc15.buildcompare) [:mag:](metrics-parent-5.0.0-rc15.diffoscope) | 1.2M |
 | [5.0.0-rc14](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc14/pom) | [mvn jdk11](dropwizard-metrics-5.0.0-rc14.buildspec) | [result](metrics-parent-5.0.0-rc14.buildinfo): [102 :white_check_mark:  2 :warning:](metrics-parent-5.0.0-rc14.buildcompare) [:mag:](metrics-parent-5.0.0-rc14.diffoscope) | 1.2M |
 | [5.0.0-rc13](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc13/pom) | [mvn jdk11](dropwizard-metrics-5.0.0-rc13.buildspec) | [result](metrics-parent-5.0.0-rc13.buildinfo): [101 :white_check_mark: ](metrics-parent-5.0.0-rc13.buildcompare) | 1.1M |
-| [5.0.0-rc12](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc12/pom) | | | |
+| [5.0.0-rc12](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc12/pom) | [mvn jdk11](dropwizard-metrics-5.0.0-rc12.buildspec) | [result](metrics-parent-5.0.0-rc12.buildinfo): [100 :white_check_mark:  1 :warning:](metrics-parent-5.0.0-rc12.buildcompare) | 1.1M |
 | [5.0.0-rc11](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc11/pom) | [mvn jdk11](dropwizard-metrics-5.0.0-rc11.buildspec) | [result](metrics-parent-5.0.0-rc11.buildinfo): [93 :white_check_mark:  2 :warning:](metrics-parent-5.0.0-rc11.buildcompare) [:mag:](metrics-parent-5.0.0-rc11.diffoscope) | 1.1M |
 | [5.0.0-rc10](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc10/pom) | [mvn jdk11](dropwizard-metrics-5.0.0-rc10.buildspec) | [result](metrics-parent-5.0.0-rc10.buildinfo): [94 :white_check_mark:  1 :warning:](metrics-parent-5.0.0-rc10.buildcompare) [:mag:](metrics-parent-5.0.0-rc10.diffoscope) | 1.1M |
 | [5.0.0-rc9](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc9/pom) | [mvn jdk11](dropwizard-metrics-5.0.0-rc9.buildspec) | [result](metrics-parent-5.0.0-rc9.buildinfo): [94 :white_check_mark:  1 :warning:](metrics-parent-5.0.0-rc9.buildcompare) [:mag:](metrics-parent-5.0.0-rc9.diffoscope) | 1.1M |
-| [5.0.0-rc8](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc8/pom) | | | |
-| [5.0.0-rc7](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc7/pom) | | | |
-| [5.0.0-rc6](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc6/pom) | | | |
+| [5.0.0-rc8](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc8/pom) | [mvn jdk11](dropwizard-metrics-5.0.0-rc8.buildspec) | [result](metrics-parent-5.0.0-rc8.buildinfo): [66 :white_check_mark:  29 :warning:](metrics-parent-5.0.0-rc8.buildcompare) | 1.1M |
+| [5.0.0-rc7](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc7/pom) | [mvn jdk11](dropwizard-metrics-5.0.0-rc7.buildspec) | [result](metrics-parent-5.0.0-rc7.buildinfo): [66 :white_check_mark:  29 :warning:](metrics-parent-5.0.0-rc7.buildcompare) | 1.1M |
+| [5.0.0-rc6](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc6/pom) | [mvn jdk11](dropwizard-metrics-5.0.0-rc6.buildspec) | [result](metrics-parent-5.0.0-rc6.buildinfo): [66 :white_check_mark:  29 :warning:](metrics-parent-5.0.0-rc6.buildcompare) | 1.1M |
 | [5.0.0-rc5](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc5/pom) | [mvn jdk11](dropwizard-metrics-5.0.0-rc5.buildspec) | [result](metrics-parent-5.0.0-rc5.buildinfo): [66 :white_check_mark:  29 :warning:](metrics-parent-5.0.0-rc5.buildcompare) [:mag:](metrics-parent-5.0.0-rc5.diffoscope) [:memo:](https://issues.apache.org/jira/browse/FELIX-6404) | 1.1M |
 | [5.0.0-rc4](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc4/pom) | [mvn jdk15](dropwizard-metrics-5.0.0-rc4.buildspec) | [result](metrics-parent-5.0.0-rc4.buildinfo): [86 :white_check_mark: ](metrics-parent-5.0.0-rc4.buildcompare) | 950K |
 

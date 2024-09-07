@@ -19,8 +19,8 @@ Source code: [https://github.com/raphw/byte-buddy.git](https://github.com/raphw/
 * [net.bytebuddy:byte-buddy-parent](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/overview)
 </details>
 
-rebuilding **28 releases** of net.bytebuddy:byte-buddy-parent:
-- **26** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **33 releases** of net.bytebuddy:byte-buddy-parent:
+- **31** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -52,11 +52,11 @@ rebuilding **28 releases** of net.bytebuddy:byte-buddy-parent:
 | [1.12.22](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.12.22/pom) | [mvn jdk8](byte-buddy-1.12.22.buildspec) | [result](byte-buddy-parent-1.12.22.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.12.22.buildcompare) | 19M |
 | [1.12.21](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.12.21/pom) | [mvn jdk8](byte-buddy-1.12.21.buildspec) | [result](byte-buddy-parent-1.12.21.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.12.21.buildcompare) | 19M |
 | [1.12.20](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.12.20/pom) | [mvn jdk8](byte-buddy-1.12.20.buildspec) | [result](byte-buddy-parent-1.12.20.buildinfo): [18 :white_check_mark:  4 :warning:](byte-buddy-parent-1.12.20.buildcompare) [:mag:](byte-buddy-parent-1.12.20.diffoscope) [:memo:](https://github.com/raphw/byte-buddy/pull/1371) | 19M |
-| [1.12.19](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.12.19/pom) | | | |
-| [1.12.18](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.12.18/pom) | | | |
-| [1.12.17](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.12.17/pom) | | | |
-| [1.12.16](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.12.16/pom) | | | |
-| [1.12.14](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.12.14/pom) | | | |
+| [1.12.19](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.12.19/pom) | [mvn jdk8](byte-buddy-1.12.19.buildspec) | [result](byte-buddy-parent-1.12.19.buildinfo): [3 :white_check_mark: ](byte-buddy-parent-1.12.19.buildcompare) | 58K |
+| [1.12.18](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.12.18/pom) | [mvn jdk8](byte-buddy-1.12.18.buildspec) | [result](byte-buddy-parent-1.12.18.buildinfo): [3 :white_check_mark: ](byte-buddy-parent-1.12.18.buildcompare) | 58K |
+| [1.12.17](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.12.17/pom) | [mvn jdk8](byte-buddy-1.12.17.buildspec) | [result](byte-buddy-parent-1.12.17.buildinfo): [3 :white_check_mark: ](byte-buddy-parent-1.12.17.buildcompare) | 57K |
+| [1.12.16](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.12.16/pom) | [mvn jdk8](byte-buddy-1.12.16.buildspec) | [result](byte-buddy-parent-1.12.16.buildinfo): [3 :white_check_mark: ](byte-buddy-parent-1.12.16.buildcompare) | 57K |
+| [1.12.14](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.12.14/pom) | [mvn jdk8](byte-buddy-1.12.14.buildspec) | [result](byte-buddy-parent-1.12.14.buildinfo): [3 :white_check_mark: ](byte-buddy-parent-1.12.14.buildcompare) | 57K |
 | [1.12.13](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.12.13/pom) | [mvn jdk8](byte-buddy-1.12.13.buildspec) | [result](byte-buddy-parent-1.12.13.buildinfo): [18 :white_check_mark:  4 :warning:](byte-buddy-parent-1.12.13.buildcompare) [:mag:](byte-buddy-parent-1.12.13.diffoscope) | 18M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

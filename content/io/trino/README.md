@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/trinodb/trino.git](https://github.com/trinodb/trino.git)
 
-<details><summary>This project defines 109 modules:</summary>
+<details><summary>This project defines 110 modules:</summary>
 
 * [io.trino:trino-accumulo](https://central.sonatype.com/artifact/io.trino/trino-accumulo/overview)
 * [io.trino:trino-accumulo-iterators](https://central.sonatype.com/artifact/io.trino/trino-accumulo-iterators/overview)
@@ -101,6 +101,7 @@ Source code: [https://github.com/trinodb/trino.git](https://github.com/trinodb/t
 * [io.trino:trino-singlestore](https://central.sonatype.com/artifact/io.trino/trino-singlestore/overview)
 * [io.trino:trino-snowflake](https://central.sonatype.com/artifact/io.trino/trino-snowflake/overview)
 * [io.trino:trino-spi](https://central.sonatype.com/artifact/io.trino/trino-spi/overview)
+* [io.trino:trino-spooling-filesystem](https://central.sonatype.com/artifact/io.trino/trino-spooling-filesystem/overview)
 * [io.trino:trino-sqlserver](https://central.sonatype.com/artifact/io.trino/trino-sqlserver/overview)
 * [io.trino:trino-teradata-functions](https://central.sonatype.com/artifact/io.trino/trino-teradata-functions/overview)
 * [io.trino:trino-test-jdbc-compatibility-old-driver](https://central.sonatype.com/artifact/io.trino/trino-test-jdbc-compatibility-old-driver/overview)
@@ -120,15 +121,15 @@ Source code: [https://github.com/trinodb/trino.git](https://github.com/trinodb/t
 * [io.trino:trino-web-ui](https://central.sonatype.com/artifact/io.trino/trino-web-ui/overview)
 </details>
 
-rebuilding **10 releases** of io.trino:trino-root:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+rebuilding **12 releases** of io.trino:trino-root:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [457](https://central.sonatype.com/artifact/io.trino/trino-root/457/pom) | | | |
-| [456](https://central.sonatype.com/artifact/io.trino/trino-root/456/pom) | | | |
-| [455](https://central.sonatype.com/artifact/io.trino/trino-root/455/pom) | [mvn jdk22](trino-455.buildspec) | [result](trino-root-455.buildinfo): [602 :white_check_mark:  1 :warning:](trino-root-455.buildcompare) [:mag:](trino-root-455.diffoscope) | 5.3G |
+| [457](https://central.sonatype.com/artifact/io.trino/trino-root/457/pom) | [mvn jdk22](trino-457.buildspec) | [result](trino-root-457.buildinfo): [610 :white_check_mark: ](trino-root-457.buildcompare) | 5.4G |
+| [456](https://central.sonatype.com/artifact/io.trino/trino-root/456/pom) | [mvn jdk22](trino-456.buildspec) | [result](trino-root-456.buildinfo): [602 :white_check_mark:  1 :warning:](trino-root-456.buildcompare) [:memo:](https://github.com/trinodb/trino/issues/23187) | 5.3G |
+| [455](https://central.sonatype.com/artifact/io.trino/trino-root/455/pom) | [mvn jdk22](trino-455.buildspec) | [result](trino-root-455.buildinfo): [602 :white_check_mark:  1 :warning:](trino-root-455.buildcompare) [:mag:](trino-root-455.diffoscope) [:memo:](https://github.com/trinodb/trino/issues/23187) | 5.3G |
 | [454](https://central.sonatype.com/artifact/io.trino/trino-root/454/pom) | [mvn jdk22](trino-454.buildspec) | [result](trino-root-454.buildinfo): [603 :white_check_mark: ](trino-root-454.buildcompare) | 5.3G |
 | [453](https://central.sonatype.com/artifact/io.trino/trino-root/453/pom) | [mvn jdk22](trino-453.buildspec) | [result](trino-root-453.buildinfo): [592 :white_check_mark: ](trino-root-453.buildcompare) | 5.3G |
 | [452](https://central.sonatype.com/artifact/io.trino/trino-root/452/pom) | [mvn jdk22](trino-452.buildspec) | [result](trino-root-452.buildinfo): [587 :white_check_mark: ](trino-root-452.buildcompare) | 5.3G |
