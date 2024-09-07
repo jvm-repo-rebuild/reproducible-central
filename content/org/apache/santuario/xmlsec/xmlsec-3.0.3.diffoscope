@@ -1,0 +1,62 @@
+1 / 1 target/reference/org.apache.santuario/xmlsec-3.0.3-sources.jar target/xmlsec-3.0.3-sources.jar
+--- target/reference/org.apache.santuario/xmlsec-3.0.3-sources.jar
++++ target/xmlsec-3.0.3-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 867570 bytes, number of entries: 566
+│ +Zip file size: 867588 bytes, number of entries: 566
+│  -rw-r--r--  2.0 unx       64 b- defN 23-Oct-13 10:01 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-13 10:01 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-13 10:01 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-13 10:01 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-13 10:01 org/apache/jcp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-13 10:01 org/apache/jcp/xml/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-13 10:01 org/apache/jcp/xml/dsig/
+│ @@ -468,15 +468,15 @@
+│  -rw-r--r--  2.0 unx     5307 b- defN 23-Oct-13 10:01 org/apache/xml/security/binding/xmldsig/DSAKeyValueType.java
+│  -rw-r--r--  2.0 unx     2875 b- defN 23-Oct-13 10:01 org/apache/xml/security/binding/xmldsig/DigestMethodType.java
+│  -rw-r--r--  2.0 unx     5124 b- defN 23-Oct-13 10:01 org/apache/xml/security/binding/xmldsig/KeyInfoType.java
+│  -rw-r--r--  2.0 unx     2768 b- defN 23-Oct-13 10:01 org/apache/xml/security/binding/xmldsig/KeyValueType.java
+│  -rw-r--r--  2.0 unx     2976 b- defN 23-Oct-13 10:01 org/apache/xml/security/binding/xmldsig/ManifestType.java
+│  -rw-r--r--  2.0 unx    29323 b- defN 23-Oct-13 10:01 org/apache/xml/security/binding/xmldsig/ObjectFactory.java
+│  -rw-r--r--  2.0 unx     4253 b- defN 23-Oct-13 10:01 org/apache/xml/security/binding/xmldsig/ObjectType.java
+│ --rw-r--r--  2.0 unx     3772 b- defN 23-Oct-13 10:01 org/apache/xml/security/binding/xmldsig/PGPDataType.java
+│ +-rw-r--r--  2.0 unx     3834 b- defN 23-Oct-13 10:01 org/apache/xml/security/binding/xmldsig/PGPDataType.java
+│  -rw-r--r--  2.0 unx     2226 b- defN 23-Oct-13 10:01 org/apache/xml/security/binding/xmldsig/RSAKeyValueType.java
+│  -rw-r--r--  2.0 unx     5275 b- defN 23-Oct-13 10:01 org/apache/xml/security/binding/xmldsig/ReferenceType.java
+│  -rw-r--r--  2.0 unx     2999 b- defN 23-Oct-13 10:01 org/apache/xml/security/binding/xmldsig/RetrievalMethodType.java
+│  -rw-r--r--  2.0 unx     2398 b- defN 23-Oct-13 10:01 org/apache/xml/security/binding/xmldsig/SPKIDataType.java
+│  -rw-r--r--  2.0 unx     3264 b- defN 23-Oct-13 10:01 org/apache/xml/security/binding/xmldsig/SignatureMethodType.java
+│  -rw-r--r--  2.0 unx     3140 b- defN 23-Oct-13 10:01 org/apache/xml/security/binding/xmldsig/SignaturePropertiesType.java
+│  -rw-r--r--  2.0 unx     3688 b- defN 23-Oct-13 10:01 org/apache/xml/security/binding/xmldsig/SignaturePropertyType.java
+│ @@ -561,8 +561,8 @@
+│  -rw-r--r--  2.0 unx      399 b- defN 23-Oct-13 10:01 bindings/xenc.xjb
+│  -rw-r--r--  2.0 unx      404 b- defN 23-Oct-13 10:01 bindings/xenc11.xjb
+│  -rw-r--r--  2.0 unx      396 b- defN 23-Oct-13 10:01 bindings/xop.xjb
+│  -rw-r--r--  2.0 unx     6551 b- defN 23-Oct-13 10:01 schemas/security-config.xsd
+│  -rw-r--r--  2.0 unx    30756 b- defN 23-Oct-13 10:01 security-config.xml
+│  -rw-r--r--  2.0 unx    28299 b- defN 23-Oct-13 10:01 META-INF/maven/org.apache.santuario/xmlsec/pom.xml
+│  -rw-r--r--  2.0 unx       61 b- defN 23-Oct-13 10:01 META-INF/maven/org.apache.santuario/xmlsec/pom.properties
+│ -566 files, 3116998 bytes uncompressed, 758104 bytes compressed:  75.7%
+│ +566 files, 3117060 bytes uncompressed, 758122 bytes compressed:  75.7%
+├── org/apache/xml/security/binding/xmldsig/PGPDataType.java
+│ @@ -55,16 +55,16 @@
+│  
+│      /**
+│       * Gets the rest of the content model. 
+│       * 
+│       * <p>
+│       * You are getting this "catch-all" property because of the following reason: 
+│       * The field name "PGPKeyPacket" is used by two different parts of a schema. See: 
+│ -     * line 209 of file:/Users/coheigea/src/apache/santuario-xml-security-java/target/checkout/src/main/resources/bindings/schemas/xmldsig-core-schema.xsd
+│ -     * line 204 of file:/Users/coheigea/src/apache/santuario-xml-security-java/target/checkout/src/main/resources/bindings/schemas/xmldsig-core-schema.xsd
+│ +     * line 209 of file:/home/herve/dev/maven/misc/reproducible-central/content/org/apache/santuario/xmlsec/buildcache/xmlsec/src/main/resources/bindings/schemas/xmldsig-core-schema.xsd
+│ +     * line 204 of file:/home/herve/dev/maven/misc/reproducible-central/content/org/apache/santuario/xmlsec/buildcache/xmlsec/src/main/resources/bindings/schemas/xmldsig-core-schema.xsd
+│       * <p>
+│       * To get rid of this property, apply a property customization to one 
+│       * of both of the following declarations to change their names: 
+│       * Gets the value of the content property.
+│       * 
+│       * <p>
+│       * This accessor method returns a reference to the live list,
+

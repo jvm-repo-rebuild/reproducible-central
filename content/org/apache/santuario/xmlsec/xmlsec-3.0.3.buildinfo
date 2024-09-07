@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache XML Security for Java
+group-id=org.apache.santuario
+artifact-id=xmlsec
+version=3.0.3
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/santuario-xml-security-java.git
+source.scm.tag=xmlsec-3.0.3
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.santuario
+outputs.0.filename=xmlsec-3.0.3.pom
+outputs.0.length=28299
+outputs.0.checksums.sha512=92b8f29d0b25f79df4db477d7643c75c2bee5418a92f37ae2cdf07c8f9e8b4604852fbf77128c417a2fb6e85820fd53ed6f4fa669a8d7421279f8235d4a7b9a5
+
+outputs.1.groupId=org.apache.santuario
+outputs.1.filename=xmlsec-3.0.3.jar
+outputs.1.length=1141178
+outputs.1.checksums.sha512=50aab7d093a3355d0c4997a1ee590cd19265b1e1fff0ae992accda51aee35a596fa97c34354ff3815499c88a8dc6194c8a79da56e3ff93df33f98f4ae19334ee
+
+outputs.2.groupId=org.apache.santuario
+outputs.2.filename=xmlsec-3.0.3-source-release.zip
+outputs.2.length=2610810
+outputs.2.checksums.sha512=a63c4506663079b219d08830390bd37036cf34e9c469e4c0b54d7b8c86c99ed8f6ddb68b180f4277cc88a8223e21bdeec98686e225c64ddee23b8b9b1f0e34e5
+
+outputs.3.groupId=org.apache.santuario
+outputs.3.filename=xmlsec-3.0.3-sources.jar
+outputs.3.length=867588
+outputs.3.checksums.sha512=dd4d7ba055eeec2f5aa6cb76b015a0da8d6dc8d9c4bf950df7cbcb508b58b03160598d1e9da180d0f62e9cee7757b3cd1098d5ab00e6eef8ed9e3f288b9fdc25
+
+outputs.4.groupId=org.apache.santuario
+outputs.4.filename=xmlsec-3.0.3-sources.jar
+outputs.4.length=867588
+outputs.4.checksums.sha512=dd4d7ba055eeec2f5aa6cb76b015a0da8d6dc8d9c4bf950df7cbcb508b58b03160598d1e9da180d0f62e9cee7757b3cd1098d5ab00e6eef8ed9e3f288b9fdc25
+
+outputs.5.groupId=org.apache.santuario
+outputs.5.filename=xmlsec-3.0.3-cyclonedx.xml
+outputs.5.length=14332
+outputs.5.checksums.sha512=4c880b12a52766cf9483e2955e894c23bb87e7d18d3a7672c2719a2c0a6de88c222d7b886cf6db9a5ca3ed5c15897f2abde56c4f9786b521f5f059f7a62cb9fe
+
+outputs.6.groupId=org.apache.santuario
+outputs.6.filename=xmlsec-3.0.3-cyclonedx.json
+outputs.6.length=16794
+outputs.6.checksums.sha512=8e0e0b83bc614d4ad1a48f56d7546dabd548d41ba7872310ebc6f0438eb4ec4873b5aa2942a17d23d9977d3962a8366f6667517ba10e5d5679c2d284bc6191ee

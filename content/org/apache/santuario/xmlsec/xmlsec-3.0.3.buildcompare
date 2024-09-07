@@ -1,0 +1,8 @@
+version=3.0.3
+ok=5
+ko=1
+ignored=0
+okFiles="xmlsec-3.0.3.pom xmlsec-3.0.3.jar xmlsec-3.0.3-source-release.zip xmlsec-3.0.3-cyclonedx.xml xmlsec-3.0.3-cyclonedx.json"
+koFiles="xmlsec-3.0.3-sources.jar"
+ignoredFiles=""
+# diffoscope target/reference/org.apache.santuario/xmlsec-3.0.3-sources.jar target/xmlsec-3.0.3-sources.jar
