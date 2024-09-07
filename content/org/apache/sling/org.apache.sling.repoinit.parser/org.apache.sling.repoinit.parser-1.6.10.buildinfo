@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Repoinit Parser
+group-id=org.apache.sling
+artifact-id=org.apache.sling.repoinit.parser
+version=1.6.10
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-repoinit-parser.git
+source.scm.tag=org.apache.sling.repoinit.parser-1.6.10
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.repoinit.parser-1.6.10.pom
+outputs.0.length=4607
+outputs.0.checksums.sha512=e6ac9afd00504dffe17c64285cfbfddf1b2d05b45401f16362742c8de1b48485e8f69246cc71e5fcd4d6ef5dc0ed35e1728466117c35bb7ada9006de0fb8b48e
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.repoinit.parser-1.6.10.jar
+outputs.1.length=119639
+outputs.1.checksums.sha512=f8c4c4d66e06e3775913ea2841aeb0e6842dd63c6206ea6a7a8eec9cc5f381e2b6368f81a3fd087c61af99b29bc8f330ccdc8e96b0fedffc747a18a6ec3b60ee
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.repoinit.parser-1.6.10-source-release.zip
+outputs.2.length=109615
+outputs.2.checksums.sha512=3488f7860978458eda72d9638249a9abd48b701c3883fd3adc2956accc7811f5f159f373d4ea392d4cfe4ca2acc38223a7a25d9d2d89975e6c4aa05f545886c2
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.repoinit.parser-1.6.10-sources.jar
+outputs.3.length=81092
+outputs.3.checksums.sha512=ca4d437dea05b724b51532058fee6ba65804cd2b73d1e705015d5e6c32ba676a57ec76a8929fbe0c213fb01e6cf7f22c59aa7fa89d594510f7271ce6f628ac76
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.repoinit.parser-1.6.10-sources.jar
+outputs.4.length=81092
+outputs.4.checksums.sha512=ca4d437dea05b724b51532058fee6ba65804cd2b73d1e705015d5e6c32ba676a57ec76a8929fbe0c213fb01e6cf7f22c59aa7fa89d594510f7271ce6f628ac76

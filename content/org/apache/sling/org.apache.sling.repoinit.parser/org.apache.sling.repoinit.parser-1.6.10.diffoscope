@@ -1,0 +1,53 @@
+1 / 1 target/reference/org.apache.sling/org.apache.sling.repoinit.parser-1.6.10.jar target/org.apache.sling.repoinit.parser-1.6.10.jar
+--- target/reference/org.apache.sling/org.apache.sling.repoinit.parser-1.6.10.jar
++++ target/org.apache.sling.repoinit.parser-1.6.10.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 119646 bytes, number of entries: 75
+│ +Zip file size: 119639 bytes, number of entries: 75
+│  -rw-r--r--  2.0 unx     2053 b- defN 21-Jun-16 11:57 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jun-16 11:57 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jun-16 11:57 OSGI-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jun-16 11:57 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jun-16 11:57 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jun-16 11:57 org/apache/jackrabbit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jun-16 11:57 org/apache/jackrabbit/util/
+│ @@ -65,13 +65,13 @@
+│  -rw-r--r--  2.0 unx     3202 b- defN 21-Jun-16 11:57 org/apache/sling/repoinit/parser/operations/RegisterPrivilege.class
+│  -rw-r--r--  2.0 unx     2271 b- defN 21-Jun-16 11:57 org/apache/sling/repoinit/parser/operations/RemoveGroupMembers.class
+│  -rw-r--r--  2.0 unx     1308 b- defN 21-Jun-16 11:57 org/apache/sling/repoinit/parser/operations/RestrictionClause.class
+│  -rw-r--r--  2.0 unx     1158 b- defN 21-Jun-16 11:57 org/apache/sling/repoinit/parser/operations/ServiceUserOperation.class
+│  -rw-r--r--  2.0 unx     3075 b- defN 21-Jun-16 11:57 org/apache/sling/repoinit/parser/operations/SetAclPaths.class
+│  -rw-r--r--  2.0 unx     3140 b- defN 21-Jun-16 11:57 org/apache/sling/repoinit/parser/operations/SetAclPrincipalBased.class
+│  -rw-r--r--  2.0 unx     4401 b- defN 21-Jun-16 11:57 org/apache/sling/repoinit/parser/operations/SetAclPrincipals.class
+│ --rw-r--r--  2.0 unx     6206 b- defN 21-Jun-16 11:57 org/apache/sling/repoinit/parser/operations/SetProperties.class
+│ +-rw-r--r--  2.0 unx     6191 b- defN 21-Jun-16 11:57 org/apache/sling/repoinit/parser/operations/SetProperties.class
+│  -rw-r--r--  2.0 unx      255 b- defN 21-Jun-16 11:57 org/apache/sling/repoinit/parser/operations/package-info.class
+│  -rw-r--r--  2.0 unx      244 b- defN 21-Jun-16 11:57 org/apache/sling/repoinit/parser/package-info.class
+│  -rw-r--r--  2.0 unx     4607 b- defN 21-Jun-16 11:57 META-INF/maven/org.apache.sling/org.apache.sling.repoinit.parser/pom.xml
+│  -rw-r--r--  2.0 unx       84 b- defN 21-Jun-16 11:57 META-INF/maven/org.apache.sling/org.apache.sling.repoinit.parser/pom.properties
+│ -75 files, 267099 bytes uncompressed, 105674 bytes compressed:  60.4%
+│ +75 files, 267084 bytes uncompressed, 105667 bytes compressed:  60.4%
+├── org/apache/sling/repoinit/parser/operations/SetProperties.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -700,19 +700,14 @@
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      65     0  type   Lorg/apache/sling/repoinit/parser/operations/PropertyLine$PropertyType;
+│ │              0      65     1     o   Ljava/lang/Object;
+│ │        StackMapTable: number_of_entries = 3
+│ │          frame_type = 11 /* same */
+│ │          frame_type = 9 /* same */
+│ │          frame_type = 37 /* same */
+│ │ -    RuntimeInvisibleParameterAnnotations:
+│ │ -      parameter 0:
+│ │ -        0: #105()
+│ │ -          org.jetbrains.annotations.Nullable
+│ │ -      parameter 1:
+│ │  }
+│ │  SourceFile: "SetProperties.java"
+│ │  RuntimeInvisibleAnnotations:
+│ │    0: #118()
+│ │      org.osgi.annotation.versioning.ProviderType
+│ │  InnerClasses:
+│ │    public static final #98= #97 of #10;    // PropertyType=class org/apache/sling/repoinit/parser/operations/PropertyLine$PropertyType of class org/apache/sling/repoinit/parser/operations/PropertyLine
+
