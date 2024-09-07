@@ -12,7 +12,7 @@ newline=lf
 timezone="Etc/UTC"
 umask=022
 
-# SHELL necessary because trino-docs module runs a Docker command
+# interactive build necessary because documentation is built with Docker
 command="SHELL mvn -b singlethreaded -Duser.timezone=${timezone} -Poss-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcheckstyle.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
