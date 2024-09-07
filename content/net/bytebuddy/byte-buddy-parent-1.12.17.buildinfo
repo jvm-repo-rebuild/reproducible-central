@@ -1,0 +1,27 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Byte Buddy (parent)
+group-id=net.bytebuddy
+artifact-id=byte-buddy-parent
+version=1.12.17
+
+# source information
+source.scm.uri=scm:git:git@github.com:raphw/byte-buddy.git
+source.scm.tag=byte-buddy-1.12.17
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=net.bytebuddy
+outputs.0.filename=byte-buddy-parent-1.12.17.pom
+outputs.0.length=57497
+outputs.0.checksums.sha512=6350651bcbd0ea76fa9b5f36b1e31826b09bf10643d7c24345fbbfb38c83630c445c433d761649833a0411c5fe1ebe5107c1e8ed6797231f4c2e25bda2de0c1b
