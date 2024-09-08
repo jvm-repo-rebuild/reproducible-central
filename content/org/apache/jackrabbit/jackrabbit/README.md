@@ -33,9 +33,9 @@ Source code: [https://github.com/apache/jackrabbit.git](https://github.com/apach
 * [org.apache.jackrabbit:jackrabbit-webdav](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-webdav/overview)
 </details>
 
-rebuilding **12 releases** of org.apache.jackrabbit:jackrabbit-parent:
+rebuilding **15 releases** of org.apache.jackrabbit:jackrabbit-parent:
 - **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -49,10 +49,10 @@ rebuilding **12 releases** of org.apache.jackrabbit:jackrabbit-parent:
 | [2.21.22](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.22/pom) | [mvn jdk8](jackrabbit-2.21.22.buildspec) | [result](jackrabbit-2.21.22.buildinfo): [71 :white_check_mark:  1 :warning:](jackrabbit-2.21.22.buildcompare) [:mag:](jackrabbit-2.21.22.diffoscope) | 107M |
 | [2.21.21](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.21/pom) | [mvn jdk8](jackrabbit-2.21.21.buildspec) | [result](jackrabbit-2.21.21.buildinfo): [71 :white_check_mark:  1 :warning:](jackrabbit-2.21.21.buildcompare) [:mag:](jackrabbit-2.21.21.diffoscope) | 107M |
 | [2.21.20](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.20/pom) | [mvn jdk11](jackrabbit-2.21.20.buildspec) | [result](jackrabbit-2.21.20.buildinfo): [64 :white_check_mark:  8 :warning:](jackrabbit-2.21.20.buildcompare) [:mag:](jackrabbit-2.21.20.diffoscope) [:memo:](https://github.com/apache/jackrabbit/pull/139) | 107M |
-| [2.21.19](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.19/pom) | | | |
-| [2.21.18](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.18/pom) | | | |
+| [2.21.19](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.19/pom) | [mvn jdk8](jackrabbit-2.21.19.buildspec) | [result](jackrabbit-2.21.19.buildinfo): [64 :white_check_mark:  8 :warning:](jackrabbit-2.21.19.buildcompare) [:mag:](jackrabbit-2.21.19.diffoscope) [:memo:](https://github.com/apache/jackrabbit/pull/138) | 107M |
+| [2.21.18](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.18/pom) | [mvn jdk8](jackrabbit-2.21.18.buildspec) | [result](jackrabbit-2.21.18.buildinfo): [64 :white_check_mark:  8 :warning:](jackrabbit-2.21.18.buildcompare) [:mag:](jackrabbit-2.21.18.diffoscope) [:memo:](https://github.com/apache/jackrabbit/pull/138) | 107M |
 | [2.21.17](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.17/pom) | [mvn jdk8](jackrabbit-2.21.17.buildspec) | [result](jackrabbit-2.21.17.buildinfo): [64 :white_check_mark:  8 :warning:](jackrabbit-2.21.17.buildcompare) [:mag:](jackrabbit-2.21.17.diffoscope) [:memo:](https://github.com/apache/jackrabbit/pull/139) | 107M |
-| [2.21.16](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.16/pom) | | | |
+| [2.21.16](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.16/pom) | [mvn jdk8 w](jackrabbit-2.21.16.buildspec) | [result](jackrabbit-2.21.16.buildinfo): [64 :white_check_mark:  8 :warning:](jackrabbit-2.21.16.buildcompare) [:mag:](jackrabbit-2.21.16.diffoscope) [:memo:](https://github.com/apache/jackrabbit/pull/138) | 107M |
 | [2.21.15](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.15/pom) | [mvn jdk8](jackrabbit-2.21.15.buildspec) | [result](jackrabbit-2.21.15.buildinfo): [64 :white_check_mark:  8 :warning:](jackrabbit-2.21.15.buildcompare) [:mag:](jackrabbit-2.21.15.diffoscope) [:memo:](https://github.com/apache/jackrabbit/pull/138) | 107M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

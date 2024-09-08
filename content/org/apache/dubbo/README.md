@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dubbo.git)
 
-<details><summary>This project defines 175 modules:</summary>
+<details><summary>This project defines 177 modules:</summary>
 
 * [org.apache.dubbo:dubbo](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/overview)
 * [org.apache.dubbo:dubbo-all-shaded](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-all-shaded/overview)
@@ -49,6 +49,7 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-metadata-processor](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-metadata-processor/overview)
 * [org.apache.dubbo:dubbo-metadata-report-consul](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-metadata-report-consul/overview)
 * [org.apache.dubbo:dubbo-metadata-report-etcd](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-metadata-report-etcd/overview)
+* [org.apache.dubbo:dubbo-metadata-report-failover](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-metadata-report-failover/overview)
 * [org.apache.dubbo:dubbo-metadata-report-nacos](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-metadata-report-nacos/overview)
 * [org.apache.dubbo:dubbo-metadata-report-redis](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-metadata-report-redis/overview)
 * [org.apache.dubbo:dubbo-metadata-report-zookeeper](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-metadata-report-zookeeper/overview)
@@ -155,6 +156,7 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-serialization-hessian2](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-serialization-hessian2/overview)
 * [org.apache.dubbo:dubbo-serialization-jdk](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-serialization-jdk/overview)
 * [org.apache.dubbo:dubbo-serialization-kryo](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-serialization-kryo/overview)
+* [org.apache.dubbo:dubbo-serialization-msgpack](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-serialization-msgpack/overview)
 * [org.apache.dubbo:dubbo-serialization-native-hession](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-serialization-native-hession/overview)
 * [org.apache.dubbo:dubbo-serialization-protobuf](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-serialization-protobuf/overview)
 * [org.apache.dubbo:dubbo-serialization-protostuff](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-serialization-protostuff/overview)
@@ -186,9 +188,9 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-zookeeper-spring-boot-starter](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-zookeeper-spring-boot-starter/overview)
 </details>
 
-rebuilding **26 releases** of org.apache.dubbo:dubbo:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+rebuilding **73 releases** of org.apache.dubbo:dubbo:
+- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 58 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -197,8 +199,8 @@ rebuilding **26 releases** of org.apache.dubbo:dubbo:
 | [3.3.0-beta.3](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.0-beta.3/pom) | [mvn jdk21](dubbo-3.3.0-beta.3.buildspec) | [result](dubbo-parent-3.3.0-beta.3.buildinfo): [252 :white_check_mark: ](dubbo-parent-3.3.0-beta.3.buildcompare) | 45M |
 | [3.3.0-beta.2](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.0-beta.2/pom) | [mvn jdk21](dubbo-3.3.0-beta.2.buildspec) | [result](dubbo-parent-3.3.0-beta.2.buildinfo): [268 :white_check_mark: ](dubbo-parent-3.3.0-beta.2.buildcompare) | 47M |
 | [3.3.0-beta.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.0-beta.1/pom) | [mvn jdk21](dubbo-3.3.0-beta.1.buildspec) | [result](dubbo-parent-3.3.0-beta.1.buildinfo): [328 :white_check_mark: ](dubbo-parent-3.3.0-beta.1.buildcompare) | 46M |
-| [3.2.15](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.15/pom) | | | |
-| [3.2.14](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.14/pom) | | | |
+| [3.2.15](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.15/pom) | [mvn jdk8](dubbo-3.2.15.buildspec) | [result](dubbo-parent-3.2.15.buildinfo): [238 :white_check_mark: ](dubbo-parent-3.2.15.buildcompare) | 28M |
+| [3.2.14](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.14/pom) | [mvn jdk8](dubbo-3.2.14.buildspec) | [result](dubbo-parent-3.2.14.buildinfo): [238 :white_check_mark: ](dubbo-parent-3.2.14.buildcompare) | 28M |
 | [3.2.13](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.13/pom) | [mvn jdk8](dubbo-3.2.13.buildspec) | [result](dubbo-parent-3.2.13.buildinfo): [238 :white_check_mark: ](dubbo-parent-3.2.13.buildcompare) | 28M |
 | [3.2.12](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.12/pom) | [mvn jdk8](dubbo-3.2.12.buildspec) | [result](dubbo-parent-3.2.12.buildinfo): [238 :white_check_mark: ](dubbo-parent-3.2.12.buildcompare) | 28M |
 | [3.2.11](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.11/pom) | [mvn jdk8](dubbo-3.2.11.buildspec) | [result](dubbo-parent-3.2.11.buildinfo): [237 :white_check_mark:  1 :warning:](dubbo-parent-3.2.11.buildcompare) [:mag:](dubbo-parent-3.2.11.diffoscope) | 28M |
@@ -211,58 +213,58 @@ rebuilding **26 releases** of org.apache.dubbo:dubbo:
 | [3.2.4](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.4/pom) | [mvn jdk8](dubbo-3.2.4.buildspec) | [result](dubbo-parent-3.2.4.buildinfo): [243 :white_check_mark:  1 :warning:](dubbo-parent-3.2.4.buildcompare) [:mag:](dubbo-parent-3.2.4.diffoscope) | 29M |
 | [3.2.3](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.3/pom) | [mvn jdk8](dubbo-3.2.3.buildspec) | [result](dubbo-parent-3.2.3.buildinfo): [243 :white_check_mark:  1 :warning:](dubbo-parent-3.2.3.buildcompare) | 29M |
 | [3.2.2](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.2/pom) | [mvn jdk8](dubbo-3.2.2.buildspec) | [result](dubbo-parent-3.2.2.buildinfo): [233 :white_check_mark:  1 :warning:](dubbo-parent-3.2.2.buildcompare) | 28M |
-| [3.2.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.1/pom) | | | |
-| [3.2.0](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0/pom) | | | |
-| [3.2.0-beta.6](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.6/pom) | | | |
-| [3.2.0-beta.5](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.5/pom) | | | |
-| [3.2.0-beta.4](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.4/pom) | | | |
-| [3.2.0-beta.3](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.3/pom) | | | |
-| [3.2.0-beta.2](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.2/pom) | | | |
-| [3.2.0-beta.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.1/pom) | | | |
-| [3.1.11](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.11/pom) | | | |
-| [3.1.10](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.10/pom) | | | |
+| [3.2.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.1/pom) | [mvn jdk8](dubbo-3.2.1.buildspec) | [result](dubbo-parent-3.2.1.buildinfo): [230 :white_check_mark:  1 :warning:](dubbo-parent-3.2.1.buildcompare) | 28M |
+| [3.2.0](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0/pom) | [mvn jdk8](dubbo-3.2.0.buildspec) | [result](dubbo-parent-3.2.0.buildinfo): [217 :white_check_mark:  1 :warning:](dubbo-parent-3.2.0.buildcompare) | 28M |
+| [3.2.0-beta.6](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.6/pom) | [mvn jdk8](dubbo-3.2.0-beta.6.buildspec) | [result](dubbo-parent-3.2.0-beta.6.buildinfo): [205 :white_check_mark:  10 :warning:](dubbo-parent-3.2.0-beta.6.buildcompare) | 27M |
+| [3.2.0-beta.5](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.5/pom) | [mvn jdk8](dubbo-3.2.0-beta.5.buildspec) | [result](dubbo-parent-3.2.0-beta.5.buildinfo): [199 :white_check_mark:  4 :warning:](dubbo-parent-3.2.0-beta.5.buildcompare) | 26M |
+| [3.2.0-beta.4](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.4/pom) | [mvn jdk8](dubbo-3.2.0-beta.4.buildspec) | [result](dubbo-parent-3.2.0-beta.4.buildinfo): [191 :white_check_mark:  4 :warning:](dubbo-parent-3.2.0-beta.4.buildcompare) | 22M |
+| [3.2.0-beta.3](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.3/pom) | [mvn jdk8](dubbo-3.2.0-beta.3.buildspec) | [result](dubbo-parent-3.2.0-beta.3.buildinfo): [191 :white_check_mark:  4 :warning:](dubbo-parent-3.2.0-beta.3.buildcompare) | 22M |
+| [3.2.0-beta.2](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.2/pom) | [mvn jdk8](dubbo-3.2.0-beta.2.buildspec) | [result](dubbo-parent-3.2.0-beta.2.buildinfo): [150 :white_check_mark:  45 :warning:](dubbo-parent-3.2.0-beta.2.buildcompare) | 21M |
+| [3.2.0-beta.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.1/pom) | [mvn jdk8](dubbo-3.2.0-beta.1.buildspec) | [result](dubbo-parent-3.2.0-beta.1.buildinfo): [153 :white_check_mark:  42 :warning:](dubbo-parent-3.2.0-beta.1.buildcompare) | 22M |
+| [3.1.11](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.11/pom) | [mvn jdk8](dubbo-3.1.11.buildspec) | [result](dubbo-parent-3.1.11.buildinfo): [154 :white_check_mark:  41 :warning:](dubbo-parent-3.1.11.buildcompare) | 22M |
+| [3.1.10](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.10/pom) | [mvn jdk8](dubbo-3.1.10.buildspec) | [result](dubbo-parent-3.1.10.buildinfo): [190 :white_check_mark:  5 :warning:](dubbo-parent-3.1.10.buildcompare) | 22M |
 | [3.1.9](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.9/pom) | [mvn jdk8](dubbo-3.1.9.buildspec) | [result](dubbo-parent-3.1.9.buildinfo): [190 :white_check_mark:  5 :warning:](dubbo-parent-3.1.9.buildcompare) [:mag:](dubbo-parent-3.1.9.diffoscope) | 22M |
-| [3.1.8](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.8/pom) | | | |
-| [3.1.7](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.7/pom) | | | |
-| [3.1.6](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.6/pom) | | | |
+| [3.1.8](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.8/pom) | [mvn jdk8](dubbo-3.1.8.buildspec) | [result](dubbo-parent-3.1.8.buildinfo): [190 :white_check_mark:  5 :warning:](dubbo-parent-3.1.8.buildcompare) | 22M |
+| [3.1.7](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.7/pom) | [mvn jdk8](dubbo-3.1.7.buildspec) | [result](dubbo-parent-3.1.7.buildinfo): [190 :white_check_mark:  5 :warning:](dubbo-parent-3.1.7.buildcompare) | 22M |
+| [3.1.6](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.6/pom) | [mvn jdk8](dubbo-3.1.6.buildspec) | [result](dubbo-parent-3.1.6.buildinfo): [190 :white_check_mark:  5 :warning:](dubbo-parent-3.1.6.buildcompare) | 22M |
 | [3.1.5](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.5/pom) | [mvn jdk8](dubbo-3.1.5.buildspec) | [result](dubbo-parent-3.1.5.buildinfo): [188 :white_check_mark:  7 :warning:](dubbo-parent-3.1.5.buildcompare) [:mag:](dubbo-parent-3.1.5.diffoscope) | 22M |
-| [3.1.4](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.4/pom) | | | |
-| [3.1.3](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.3/pom) | | | |
+| [3.1.4](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.4/pom) | [mvn jdk8](dubbo-3.1.4.buildspec) | [result](dubbo-parent-3.1.4.buildinfo): [190 :white_check_mark:  5 :warning:](dubbo-parent-3.1.4.buildcompare) | 22M |
+| [3.1.3](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.3/pom) | [mvn jdk17](dubbo-3.1.3.buildspec) | [result](dubbo-parent-3.1.3.buildinfo): [153 :white_check_mark:  42 :warning:](dubbo-parent-3.1.3.buildcompare) | 22M |
 | [3.1.2](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.2/pom) | [mvn jdk8](dubbo-3.1.2.buildspec) | [result](dubbo-parent-3.1.2.buildinfo): [189 :white_check_mark:  6 :warning:](dubbo-parent-3.1.2.buildcompare) [:mag:](dubbo-parent-3.1.2.diffoscope) | 24M |
-| [3.1.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.1/pom) | | | |
+| [3.1.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.1/pom) | [mvn jdk8](dubbo-3.1.1.buildspec) | [result](dubbo-parent-3.1.1.buildinfo): [146 :white_check_mark:  49 :warning:](dubbo-parent-3.1.1.buildcompare) | 21M |
 | [3.1.0](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.0/pom) | [mvn jdk8](dubbo-3.1.0.buildspec) | [result](dubbo-parent-3.1.0.buildinfo): [178 :white_check_mark:  14 :warning:](dubbo-parent-3.1.0.buildcompare) [:mag:](dubbo-parent-3.1.0.diffoscope) [:memo:](https://github.com/apache/dubbo/pull/10700) | 24M |
-| [3.0.15](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.15/pom) | | | |
-| [3.0.14](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.14/pom) | | | |
-| [3.0.13](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.13/pom) | | | |
-| [3.0.12](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.12/pom) | | | |
-| [3.0.11](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.11/pom) | | | |
-| [3.0.10](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.10/pom) | | | |
-| [3.0.9](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.9/pom) | | | |
-| [3.0.8](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.8/pom) | | | |
-| [3.0.7](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.7/pom) | | | |
+| [3.0.15](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.15/pom) | [mvn jdk8](dubbo-3.0.15.buildspec) | [result](dubbo-parent-3.0.15.buildinfo): [168 :white_check_mark:  15 :warning:](dubbo-parent-3.0.15.buildcompare) | 20M |
+| [3.0.14](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.14/pom) | [mvn jdk8](dubbo-3.0.14.buildspec) | [result](dubbo-parent-3.0.14.buildinfo): [169 :white_check_mark:  14 :warning:](dubbo-parent-3.0.14.buildcompare) | 20M |
+| [3.0.13](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.13/pom) | [mvn jdk8](dubbo-3.0.13.buildspec) | [result](dubbo-parent-3.0.13.buildinfo): [169 :white_check_mark:  14 :warning:](dubbo-parent-3.0.13.buildcompare) | 20M |
+| [3.0.12](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.12/pom) | [mvn jdk8](dubbo-3.0.12.buildspec) | [result](dubbo-parent-3.0.12.buildinfo): [137 :white_check_mark:  46 :warning:](dubbo-parent-3.0.12.buildcompare) | 20M |
+| [3.0.11](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.11/pom) | [mvn jdk8](dubbo-3.0.11.buildspec) | [result](dubbo-parent-3.0.11.buildinfo): [137 :white_check_mark:  46 :warning:](dubbo-parent-3.0.11.buildcompare) | 20M |
+| [3.0.10](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.10/pom) | [mvn jdk11](dubbo-3.0.10.buildspec) | [result](dubbo-parent-3.0.10.buildinfo): [136 :white_check_mark:  47 :warning:](dubbo-parent-3.0.10.buildcompare) | 20M |
+| [3.0.9](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.9/pom) | [mvn jdk11](dubbo-3.0.9.buildspec) | [result](dubbo-parent-3.0.9.buildinfo): [136 :white_check_mark:  47 :warning:](dubbo-parent-3.0.9.buildcompare) | 20M |
+| [3.0.8](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.8/pom) | [mvn jdk8](dubbo-3.0.8.buildspec) | :x: | |
+| [3.0.7](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.7/pom) | [mvn jdk8](dubbo-3.0.7.buildspec) | :x: | |
 | [3.0.6](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.6/pom) | [mvn jdk8](dubbo-3.0.6.buildspec) | [result](dubbo-parent-3.0.6.buildinfo): [144 :white_check_mark:  30 :warning:](dubbo-parent-3.0.6.buildcompare) | 16M |
 | [3.0.5](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.5/pom) | [mvn jdk8](dubbo-3.0.5.buildspec) | [result](dubbo-parent-3.0.5.buildinfo): [155 :white_check_mark:  30 :warning:](dubbo-parent-3.0.5.buildcompare) [:mag:](dubbo-parent-3.0.5.diffoscope) [:memo:](https://github.com/apache/dubbo/pull/10067) | 16M |
-| [3.0.4](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.4/pom) | | | |
-| [3.0.3](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.3/pom) | | | |
-| [3.0.2.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.2.1/pom) | | | |
-| [3.0.2](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.2/pom) | | | |
-| [3.0.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.1/pom) | | | |
-| [3.0.0.preview](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.0.preview/pom) | | | |
-| [3.0.0](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.0/pom) | | | |
-| [2.7.23](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.23/pom) | | | |
-| [2.7.22](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.22/pom) | | | |
-| [2.7.21](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.21/pom) | | | |
-| [2.7.20](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.20/pom) | | | |
-| [2.7.19](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.19/pom) | | | |
-| [2.7.18](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.18/pom) | | | |
-| [2.7.17](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.17/pom) | | | |
-| [2.7.16](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.16/pom) | | | |
-| [2.7.15](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.15/pom) | | | |
+| [3.0.4](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.4/pom) | [mvn jdk8](dubbo-3.0.4.buildspec) | [result](dubbo-parent-3.0.4.buildinfo): [165 :white_check_mark:  20 :warning:](dubbo-parent-3.0.4.buildcompare) | 16M |
+| [3.0.3](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.3/pom) | [mvn jdk8](dubbo-3.0.3.buildspec) | [result](dubbo-parent-3.0.3.buildinfo): [155 :white_check_mark:  20 :warning:](dubbo-parent-3.0.3.buildcompare) | 15M |
+| [3.0.2.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.2.1/pom) | [mvn jdk11](dubbo-3.0.2.1.buildspec) | [result](dubbo-parent-3.0.2.1.buildinfo): [166 :white_check_mark:  9 :warning:](dubbo-parent-3.0.2.1.buildcompare) | 14M |
+| [3.0.2](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.2/pom) | [mvn jdk8](dubbo-3.0.2.buildspec) | [result](dubbo-parent-3.0.2.buildinfo): [149 :white_check_mark:  26 :warning:](dubbo-parent-3.0.2.buildcompare) | 12M |
+| [3.0.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.1/pom) | [mvn jdk11](dubbo-3.0.1.buildspec) | [result](dubbo-parent-3.0.1.buildinfo): [161 :white_check_mark:  8 :warning:](dubbo-parent-3.0.1.buildcompare) | 14M |
+| [3.0.0.preview](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.0.preview/pom) | [mvn jdk8](dubbo-3.0.0.preview.buildspec) | :x: | |
+| [3.0.0](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.0/pom) | [mvn jdk11](dubbo-3.0.0.buildspec) | [result](dubbo-parent-3.0.0.buildinfo): [161 :white_check_mark:  8 :warning:](dubbo-parent-3.0.0.buildcompare) | 14M |
+| [2.7.23](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.23/pom) | [mvn jdk8](dubbo-2.7.23.buildspec) | [result](dubbo-parent-2.7.23.buildinfo): [263 :white_check_mark:  7 :warning:](dubbo-parent-2.7.23.buildcompare) | 13M |
+| [2.7.22](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.22/pom) | [mvn jdk8](dubbo-2.7.22.buildspec) | [result](dubbo-parent-2.7.22.buildinfo): [263 :white_check_mark:  7 :warning:](dubbo-parent-2.7.22.buildcompare) | 13M |
+| [2.7.21](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.21/pom) | [mvn jdk8](dubbo-2.7.21.buildspec) | [result](dubbo-parent-2.7.21.buildinfo): [263 :white_check_mark:  7 :warning:](dubbo-parent-2.7.21.buildcompare) | 13M |
+| [2.7.20](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.20/pom) | [mvn jdk8](dubbo-2.7.20.buildspec) | [result](dubbo-parent-2.7.20.buildinfo): [263 :white_check_mark:  7 :warning:](dubbo-parent-2.7.20.buildcompare) | 13M |
+| [2.7.19](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.19/pom) | [mvn jdk8](dubbo-2.7.19.buildspec) | [result](dubbo-parent-2.7.19.buildinfo): [253 :white_check_mark:  17 :warning:](dubbo-parent-2.7.19.buildcompare) | 15M |
+| [2.7.18](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.18/pom) | [mvn jdk8](dubbo-2.7.18.buildspec) | [result](dubbo-parent-2.7.18.buildinfo): [260 :white_check_mark:  10 :warning:](dubbo-parent-2.7.18.buildcompare) | 15M |
+| [2.7.17](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.17/pom) | [mvn jdk8](dubbo-2.7.17.buildspec) | [result](dubbo-parent-2.7.17.buildinfo): [253 :white_check_mark:  17 :warning:](dubbo-parent-2.7.17.buildcompare) | 15M |
+| [2.7.16](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.16/pom) | [mvn jdk11](dubbo-2.7.16.buildspec) | [result](dubbo-parent-2.7.16.buildinfo): [233 :white_check_mark:  37 :warning:](dubbo-parent-2.7.16.buildcompare) | 13M |
+| [2.7.15](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.15/pom) | [mvn jdk11](dubbo-2.7.15.buildspec) | [result](dubbo-parent-2.7.15.buildinfo): [233 :white_check_mark:  37 :warning:](dubbo-parent-2.7.15.buildcompare) | 13M |
 | [2.7.14](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.14/pom) | | | |
-| [2.7.13](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.13/pom) | | | |
-| [2.7.12](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.12/pom) | | | |
-| [2.7.11](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.11/pom) | | | |
-| [2.7.10](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.10/pom) | | | |
+| [2.7.13](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.13/pom) | [mvn jdk11](dubbo-2.7.13.buildspec) | [result](dubbo-parent-2.7.13.buildinfo): [242 :white_check_mark:  28 :warning:](dubbo-parent-2.7.13.buildcompare) | 12M |
+| [2.7.12](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.12/pom) | [mvn jdk11](dubbo-2.7.12.buildspec) | [result](dubbo-parent-2.7.12.buildinfo): [237 :white_check_mark:  30 :warning:](dubbo-parent-2.7.12.buildcompare) | 12M |
+| [2.7.11](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.11/pom) | [mvn jdk11](dubbo-2.7.11.buildspec) | [result](dubbo-parent-2.7.11.buildinfo): [236 :white_check_mark:  28 :warning:](dubbo-parent-2.7.11.buildcompare) | 12M |
+| [2.7.10](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.10/pom) | [mvn jdk8 w](dubbo-2.7.10.buildspec) | [result](dubbo-parent-2.7.10.buildinfo): [ 264 :warning:](dubbo-parent-2.7.10.buildcompare) | 12M |
 | [2.7.9](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.9/pom) | [mvn jdk8](dubbo-2.7.9.buildspec) | [result](dubbo-parent-2.7.9.buildinfo): [122 :white_check_mark:  30 :warning:](dubbo-parent-2.7.9.buildcompare) [:mag:](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/dubbo/dubbo-parent-2.7.9.diffoscope) | 14M |
 | [2.7.8](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.8/pom) | [mvn jdk8](dubbo-2.7.8.buildspec) | [result](dubbo-metadata-processor-2.7.8.buildinfo): [148 :white_check_mark:  3 :warning:](dubbo-metadata-processor-2.7.8.buildcompare) | 35M |
 | [2.7.7](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.7/pom) | [mvn jdk8](dubbo-2.7.7.buildspec) | [result](dubbo-parent-2.7.7.buildinfo): [148 :white_check_mark:  2 :warning:](dubbo-parent-2.7.7.buildcompare) [:mag:](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/dubbo/dubbo-parent-2.7.7.diffoscope) | 13M |

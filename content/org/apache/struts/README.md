@@ -51,9 +51,9 @@ Source code: [https://github.com/apache/struts.git](https://github.com/apache/st
 * [org.apache.struts:struts2-xslt-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-xslt-plugin/overview)
 </details>
 
-rebuilding **11 releases** of org.apache.struts:struts2-parent:
+rebuilding **23 releases** of org.apache.struts:struts2-parent:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 18 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -63,21 +63,21 @@ rebuilding **11 releases** of org.apache.struts:struts2-parent:
 | [6.3.0.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.3.0.1/pom) | [mvn jdk8](struts2-6.3.0.1.buildspec) | [result](struts2-parent-6.3.0.1.buildinfo): [107 :white_check_mark: ](struts2-parent-6.3.0.1.buildcompare) | 49M |
 | [6.3.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.3.0/pom) | [mvn jdk8](struts2-6.3.0.buildspec) | [result](struts2-parent-6.3.0.buildinfo): [107 :white_check_mark: ](struts2-parent-6.3.0.buildcompare) | 49M |
 | [6.2.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.2.0/pom) | [mvn jdk8](struts2-6.2.0.buildspec) | [result](struts2-parent-6.2.0.buildinfo): [92 :white_check_mark:  12 :warning:](struts2-parent-6.2.0.buildcompare) [:memo:](https://github.com/apache/struts/pull/696) | 47M |
-| [6.1.2.2](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.1.2.2/pom) | | | |
-| [6.1.2.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.1.2.1/pom) | | | |
+| [6.1.2.2](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.1.2.2/pom) | [mvn jdk8](struts2-6.1.2.2.buildspec) | [result](struts2-parent-6.1.2.2.buildinfo): [38 :white_check_mark:  63 :warning:](struts2-parent-6.1.2.2.buildcompare) [:mag:](struts2-parent-6.1.2.2.diffoscope) | 46M |
+| [6.1.2.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.1.2.1/pom) | [mvn jdk8](struts2-6.1.2.1.buildspec) | [result](struts2-parent-6.1.2.1.buildinfo): [38 :white_check_mark:  63 :warning:](struts2-parent-6.1.2.1.buildcompare) | 46M |
 | [6.1.2](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.1.2/pom) | [mvn jdk8](struts2-6.1.2.buildspec) | [result](struts2-parent-6.1.2.buildinfo): [89 :white_check_mark:  12 :warning:](struts2-parent-6.1.2.buildcompare) [:mag:](struts2-parent-6.1.2.diffoscope) [:memo:](https://github.com/apache/struts/pull/696) | 46M |
-| [6.1.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.1.1/pom) | | | |
-| [6.0.3](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.0.3/pom) | | | |
+| [6.1.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.1.1/pom) | [mvn jdk8](struts2-6.1.1.buildspec) | [result](struts2-parent-6.1.1.buildinfo): [38 :white_check_mark:  63 :warning:](struts2-parent-6.1.1.buildcompare) | 46M |
+| [6.0.3](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.0.3/pom) | [mvn jdk8](struts2-6.0.3.buildspec) | [result](struts2-parent-6.0.3.buildinfo): [38 :white_check_mark:  63 :warning:](struts2-parent-6.0.3.buildcompare) | 46M |
 | [6.0.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.0.0/pom) | [mvn jdk8](struts2-6.0.0.buildspec) | [result](struts2-parent-6.0.0.buildinfo): [90 :white_check_mark:  11 :warning:](struts2-parent-6.0.0.buildcompare) [:mag:](struts2-parent-6.0.0.diffoscope) [:memo:](https://github.com/apache/struts/pull/696) | 40M |
-| [2.5.33](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.33/pom) | | | |
-| [2.5.32](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.32/pom) | | | |
-| [2.5.31](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.31/pom) | | | |
+| [2.5.33](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.33/pom) | [mvn jdk8](struts2-2.5.33.buildspec) | [result](struts2-assembly-2.5.33.buildinfo): [37 :white_check_mark:  58 :warning:](struts2-assembly-2.5.33.buildcompare) | 37M |
+| [2.5.32](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.32/pom) | [mvn jdk8](struts2-2.5.32.buildspec) | [result](struts2-assembly-2.5.32.buildinfo): [37 :white_check_mark:  58 :warning:](struts2-assembly-2.5.32.buildcompare) | 37M |
+| [2.5.31](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.31/pom) | [mvn jdk8](struts2-2.5.31.buildspec) | [result](struts2-assembly-2.5.31.buildinfo): [37 :white_check_mark:  58 :warning:](struts2-assembly-2.5.31.buildcompare) | 37M |
 | [2.5.30](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.30/pom) | [mvn jdk7](struts2-2.5.30.buildspec) | [result](struts2-parent-2.5.30.buildinfo): [66 :white_check_mark:  29 :warning:](struts2-parent-2.5.30.buildcompare) [:mag:](struts2-parent-2.5.30.diffoscope) [:memo:](https://github.com/apache/struts/pull/555) | 37M |
-| [2.5.29](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.29/pom) | | | |
-| [2.5.28.3](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.28.3/pom) | | | |
-| [2.5.28.2](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.28.2/pom) | | | |
-| [2.5.28.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.28.1/pom) | | | |
-| [2.5.28](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.28/pom) | | | |
+| [2.5.29](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.29/pom) | [mvn jdk7](struts2-2.5.29.buildspec) | [result](struts2-assembly-2.5.29.buildinfo): [37 :white_check_mark:  58 :warning:](struts2-assembly-2.5.29.buildcompare) | 37M |
+| [2.5.28.3](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.28.3/pom) | [mvn jdk7](struts2-2.5.28.3.buildspec) | [result](struts2-assembly-2.5.28.3.buildinfo): [37 :white_check_mark:  58 :warning:](struts2-assembly-2.5.28.3.buildcompare) | 37M |
+| [2.5.28.2](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.28.2/pom) | [mvn jdk7](struts2-2.5.28.2.buildspec) | [result](struts2-assembly-2.5.28.2.buildinfo): [37 :white_check_mark:  58 :warning:](struts2-assembly-2.5.28.2.buildcompare) | 37M |
+| [2.5.28.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.28.1/pom) | [mvn jdk7](struts2-2.5.28.1.buildspec) | [result](struts2-assembly-2.5.28.1.buildinfo): [37 :white_check_mark:  58 :warning:](struts2-assembly-2.5.28.1.buildcompare) | 37M |
+| [2.5.28](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.28/pom) | [mvn jdk7](struts2-2.5.28.buildspec) | [result](struts2-assembly-2.5.28.buildinfo): [37 :white_check_mark:  58 :warning:](struts2-assembly-2.5.28.buildcompare) | 37M |
 | [2.5.27](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.27/pom) | [mvn jdk7](struts2-2.5.27.buildspec) | [result](struts2-assembly-2.5.27.buildinfo): [31 :white_check_mark:  29 :warning:](struts2-assembly-2.5.27.buildcompare) [:mag:](struts2-assembly-2.5.27.diffoscope) | 37M |
 | [2.5.26](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.26/pom) | [mvn jdk7](struts2-2.5.26.buildspec) | [result](struts2-assembly-2.5.26.buildinfo): [31 :white_check_mark:  29 :warning:](struts2-assembly-2.5.26.buildcompare) | 37M |
 

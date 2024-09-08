@@ -49,9 +49,9 @@ Source code: [https://github.com/apache/shiro.git](https://github.com/apache/shi
 * [org.apache.shiro:shiro-web](https://central.sonatype.com/artifact/org.apache.shiro/shiro-web/overview)
 </details>
 
-rebuilding **9 releases** of org.apache.shiro:shiro-root:
+rebuilding **13 releases** of org.apache.shiro:shiro-root:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -59,12 +59,12 @@ rebuilding **9 releases** of org.apache.shiro:shiro-root:
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.0.0/pom) | [mvn jdk21](shiro-2.0.0.buildspec) | [result](shiro-root-2.0.0.buildinfo): [107 :white_check_mark: ](shiro-root-2.0.0.buildcompare) | 18M |
 | [2.0.0-alpha-4](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.0.0-alpha-4/pom) | [mvn jdk21](shiro-2.0.0-alpha-4.buildspec) | [result](shiro-root-2.0.0-alpha-4.buildinfo): [107 :white_check_mark: ](shiro-root-2.0.0-alpha-4.buildcompare) | 17M |
 | [2.0.0-alpha-3](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.0.0-alpha-3/pom) | [mvn jdk20](shiro-2.0.0-alpha-3.buildspec) | [result](shiro-root-2.0.0-alpha-3.buildinfo): [106 :white_check_mark:  1 :warning:](shiro-root-2.0.0-alpha-3.buildcompare) [:mag:](shiro-root-2.0.0-alpha-3.diffoscope) | 14M |
-| [2.0.0-alpha-2](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.0.0-alpha-2/pom) | | | |
+| [2.0.0-alpha-2](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.0.0-alpha-2/pom) | [mvn jdk20](shiro-2.0.0-alpha-2.buildspec) | [result](shiro-root-2.0.0-alpha-2.buildinfo): [78 :white_check_mark:  28 :warning:](shiro-root-2.0.0-alpha-2.buildcompare) | 13M |
 | [2.0.0-alpha-1](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.0.0-alpha-1/pom) | [mvn jdk19](shiro-2.0.0-alpha-1.buildspec) | [result](shiro-root-2.0.0-alpha-1.buildinfo): [79 :white_check_mark:  27 :warning:](shiro-root-2.0.0-alpha-1.buildcompare) [:mag:](shiro-root-2.0.0-alpha-1.diffoscope) [:memo:](https://github.com/apache/shiro/pull/1013) | 13M |
-| [1.13.0](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/1.13.0/pom) | | | |
-| [1.12.0](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/1.12.0/pom) | | | |
+| [1.13.0](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/1.13.0/pom) | [mvn jdk8](shiro-1.13.0.buildspec) | [result](shiro-root-1.13.0.buildinfo): [91 :white_check_mark:  3 :warning:](shiro-root-1.13.0.buildcompare) | 6.3M |
+| [1.12.0](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/1.12.0/pom) | [mvn jdk11](shiro-1.12.0.buildspec) | [result](shiro-root-1.12.0.buildinfo): [88 :white_check_mark:  6 :warning:](shiro-root-1.12.0.buildcompare) | 6.3M |
 | [1.11.0](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/1.11.0/pom) | [mvn jdk11](shiro-1.11.0.buildspec) | [result](shiro-root-1.11.0.buildinfo): [88 :white_check_mark:  3 :warning:](shiro-root-1.11.0.buildcompare) [:mag:](shiro-root-1.11.0.diffoscope) [:memo:](https://github.com/apache/shiro/pull/1013) | 6.3M |
-| [1.10.1](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/1.10.1/pom) | | | |
+| [1.10.1](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/1.10.1/pom) | [mvn jdk11](shiro-1.10.1.buildspec) | [result](shiro-root-1.10.1.buildinfo): [80 :white_check_mark:  3 :warning:](shiro-root-1.10.1.buildcompare) | 5.5M |
 | [1.10.0](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/1.10.0/pom) | [mvn jdk11](shiro-1.10.0.buildspec) | [result](shiro-root-1.10.0.buildinfo): [80 :white_check_mark:  3 :warning:](shiro-root-1.10.0.buildcompare) [:mag:](shiro-root-1.10.0.diffoscope) | 5.5M |
 | [1.9.1](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/1.9.1/pom) | [mvn jdk11](shiro-1.9.1.buildspec) | [result](shiro-root-1.9.1.buildinfo): [58 :white_check_mark:  25 :warning:](shiro-root-1.9.1.buildcompare) [:mag:](shiro-root-1.9.1.diffoscope) [:memo:](https://github.com/apache/shiro/pull/365) | 5.5M |
 | [1.9.0](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/1.9.0/pom) | [mvn jdk11](shiro-1.9.0.buildspec) | [result](shiro-root-1.9.0.buildinfo): [34 :white_check_mark:  49 :warning:](shiro-root-1.9.0.buildcompare) [:mag:](shiro-root-1.9.0.diffoscope) [:memo:](https://github.com/apache/shiro/pull/351) | 5.5M |
