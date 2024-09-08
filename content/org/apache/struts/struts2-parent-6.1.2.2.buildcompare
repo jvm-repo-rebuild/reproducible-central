@@ -1,0 +1,72 @@
+version=6.1.2.2
+ok=38
+ko=63
+ignored=0
+okFiles="struts2-bom-6.1.2.2.pom struts2-parent-6.1.2.2.pom struts2-parent-6.1.2.2-site.xml struts2-core-6.1.2.2.pom struts2-plugins-6.1.2.2.pom struts2-plugins-6.1.2.2-site.xml struts2-async-plugin-6.1.2.2.pom struts2-bean-validation-plugin-6.1.2.2.pom struts2-cdi-plugin-6.1.2.2.pom struts2-velocity-plugin-6.1.2.2.pom struts2-config-browser-plugin-6.1.2.2.pom struts2-convention-plugin-6.1.2.2.pom struts2-dwr-plugin-6.1.2.2.pom struts2-embeddedjsp-plugin-6.1.2.2.pom struts2-gxp-plugin-6.1.2.2.pom struts2-spring-plugin-6.1.2.2.pom struts2-portlet-mocks-plugin-6.1.2.2.pom struts2-portlet-plugin-6.1.2.2.pom struts2-junit-plugin-6.1.2.2.pom struts2-jasperreports-plugin-6.1.2.2.pom struts2-javatemplates-plugin-6.1.2.2.pom struts2-jfreechart-plugin-6.1.2.2.pom struts2-json-plugin-6.1.2.2.pom struts2-osgi-plugin-6.1.2.2.pom struts2-oval-plugin-6.1.2.2.pom struts2-pell-multipart-plugin-6.1.2.2.pom struts2-plexus-plugin-6.1.2.2.pom struts2-tiles-plugin-6.1.2.2.pom struts2-portlet-tiles-plugin-6.1.2.2.pom struts2-rest-plugin-6.1.2.2.pom struts2-sitemesh-plugin-6.1.2.2.pom struts2-testng-plugin-6.1.2.2.pom struts2-osgi-bundles-6.1.2.2.pom struts2-osgi-admin-bundle-6.1.2.2.pom struts2-osgi-demo-bundle-6.1.2.2.pom struts2-apps-6.1.2.2.pom struts2-showcase-6.1.2.2.pom struts2-rest-showcase-6.1.2.2.pom"
+koFiles="struts2-parent-6.1.2.2-source-release.zip struts2-core-6.1.2.2.jar struts2-core-6.1.2.2-sources.jar struts2-async-plugin-6.1.2.2.jar struts2-async-plugin-6.1.2.2-sources.jar struts2-bean-validation-plugin-6.1.2.2.jar struts2-bean-validation-plugin-6.1.2.2-sources.jar struts2-cdi-plugin-6.1.2.2.jar struts2-cdi-plugin-6.1.2.2-sources.jar struts2-velocity-plugin-6.1.2.2.jar struts2-velocity-plugin-6.1.2.2-sources.jar struts2-config-browser-plugin-6.1.2.2.jar struts2-config-browser-plugin-6.1.2.2-sources.jar struts2-convention-plugin-6.1.2.2.jar struts2-convention-plugin-6.1.2.2-sources.jar struts2-dwr-plugin-6.1.2.2.jar struts2-dwr-plugin-6.1.2.2-sources.jar struts2-embeddedjsp-plugin-6.1.2.2.jar struts2-embeddedjsp-plugin-6.1.2.2-sources.jar struts2-gxp-plugin-6.1.2.2.jar struts2-gxp-plugin-6.1.2.2-sources.jar struts2-spring-plugin-6.1.2.2.jar struts2-spring-plugin-6.1.2.2-sources.jar struts2-portlet-mocks-plugin-6.1.2.2.jar struts2-portlet-mocks-plugin-6.1.2.2-sources.jar struts2-portlet-plugin-6.1.2.2.jar struts2-portlet-plugin-6.1.2.2-sources.jar struts2-junit-plugin-6.1.2.2.jar struts2-junit-plugin-6.1.2.2-sources.jar struts2-jasperreports-plugin-6.1.2.2.jar struts2-jasperreports-plugin-6.1.2.2-sources.jar struts2-javatemplates-plugin-6.1.2.2.jar struts2-javatemplates-plugin-6.1.2.2-sources.jar struts2-jfreechart-plugin-6.1.2.2.jar struts2-jfreechart-plugin-6.1.2.2-sources.jar struts2-json-plugin-6.1.2.2.jar struts2-json-plugin-6.1.2.2-sources.jar struts2-osgi-plugin-6.1.2.2.jar struts2-osgi-plugin-6.1.2.2-sources.jar struts2-oval-plugin-6.1.2.2.jar struts2-oval-plugin-6.1.2.2-sources.jar struts2-pell-multipart-plugin-6.1.2.2.jar struts2-pell-multipart-plugin-6.1.2.2-sources.jar struts2-plexus-plugin-6.1.2.2.jar struts2-plexus-plugin-6.1.2.2-sources.jar struts2-tiles-plugin-6.1.2.2.jar struts2-tiles-plugin-6.1.2.2-sources.jar struts2-portlet-tiles-plugin-6.1.2.2.jar struts2-portlet-tiles-plugin-6.1.2.2-sources.jar struts2-rest-plugin-6.1.2.2.jar struts2-rest-plugin-6.1.2.2-sources.jar struts2-sitemesh-plugin-6.1.2.2.jar struts2-sitemesh-plugin-6.1.2.2-sources.jar struts2-testng-plugin-6.1.2.2.jar struts2-testng-plugin-6.1.2.2-sources.jar struts2-osgi-admin-bundle-6.1.2.2.jar struts2-osgi-admin-bundle-6.1.2.2-sources.jar struts2-osgi-demo-bundle-6.1.2.2.jar struts2-osgi-demo-bundle-6.1.2.2-sources.jar struts2-showcase-6.1.2.2.war struts2-showcase-6.1.2.2-sources.jar struts2-rest-showcase-6.1.2.2.war struts2-rest-showcase-6.1.2.2-sources.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.struts/struts2-parent-6.1.2.2-source-release.zip target/struts2-parent-6.1.2.2-source-release.zip
+# diffoscope target/reference/org.apache.struts/struts2-core-6.1.2.2.jar core/target/struts2-core-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-core-6.1.2.2-sources.jar core/target/struts2-core-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-async-plugin-6.1.2.2.jar plugins/async/target/struts2-async-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-async-plugin-6.1.2.2-sources.jar plugins/async/target/struts2-async-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-bean-validation-plugin-6.1.2.2.jar plugins/bean-validation/target/struts2-bean-validation-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-bean-validation-plugin-6.1.2.2-sources.jar plugins/bean-validation/target/struts2-bean-validation-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-cdi-plugin-6.1.2.2.jar plugins/cdi/target/struts2-cdi-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-cdi-plugin-6.1.2.2-sources.jar plugins/cdi/target/struts2-cdi-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-velocity-plugin-6.1.2.2.jar plugins/velocity/target/struts2-velocity-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-velocity-plugin-6.1.2.2-sources.jar plugins/velocity/target/struts2-velocity-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-config-browser-plugin-6.1.2.2.jar plugins/config-browser/target/struts2-config-browser-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-config-browser-plugin-6.1.2.2-sources.jar plugins/config-browser/target/struts2-config-browser-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-convention-plugin-6.1.2.2.jar plugins/convention/target/struts2-convention-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-convention-plugin-6.1.2.2-sources.jar plugins/convention/target/struts2-convention-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-dwr-plugin-6.1.2.2.jar plugins/dwr/target/struts2-dwr-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-dwr-plugin-6.1.2.2-sources.jar plugins/dwr/target/struts2-dwr-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-embeddedjsp-plugin-6.1.2.2.jar plugins/embeddedjsp/target/struts2-embeddedjsp-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-embeddedjsp-plugin-6.1.2.2-sources.jar plugins/embeddedjsp/target/struts2-embeddedjsp-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-gxp-plugin-6.1.2.2.jar plugins/gxp/target/struts2-gxp-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-gxp-plugin-6.1.2.2-sources.jar plugins/gxp/target/struts2-gxp-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-spring-plugin-6.1.2.2.jar plugins/spring/target/struts2-spring-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-spring-plugin-6.1.2.2-sources.jar plugins/spring/target/struts2-spring-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-portlet-mocks-plugin-6.1.2.2.jar plugins/portlet-mocks/target/struts2-portlet-mocks-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-portlet-mocks-plugin-6.1.2.2-sources.jar plugins/portlet-mocks/target/struts2-portlet-mocks-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-portlet-plugin-6.1.2.2.jar plugins/portlet/target/struts2-portlet-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-portlet-plugin-6.1.2.2-sources.jar plugins/portlet/target/struts2-portlet-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-junit-plugin-6.1.2.2.jar plugins/junit/target/struts2-junit-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-junit-plugin-6.1.2.2-sources.jar plugins/junit/target/struts2-junit-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-jasperreports-plugin-6.1.2.2.jar plugins/jasperreports/target/struts2-jasperreports-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-jasperreports-plugin-6.1.2.2-sources.jar plugins/jasperreports/target/struts2-jasperreports-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-javatemplates-plugin-6.1.2.2.jar plugins/javatemplates/target/struts2-javatemplates-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-javatemplates-plugin-6.1.2.2-sources.jar plugins/javatemplates/target/struts2-javatemplates-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-jfreechart-plugin-6.1.2.2.jar plugins/jfreechart/target/struts2-jfreechart-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-jfreechart-plugin-6.1.2.2-sources.jar plugins/jfreechart/target/struts2-jfreechart-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-json-plugin-6.1.2.2.jar plugins/json/target/struts2-json-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-json-plugin-6.1.2.2-sources.jar plugins/json/target/struts2-json-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-osgi-plugin-6.1.2.2.jar plugins/osgi/target/struts2-osgi-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-osgi-plugin-6.1.2.2-sources.jar plugins/osgi/target/struts2-osgi-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-oval-plugin-6.1.2.2.jar plugins/oval/target/struts2-oval-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-oval-plugin-6.1.2.2-sources.jar plugins/oval/target/struts2-oval-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-pell-multipart-plugin-6.1.2.2.jar plugins/pell-multipart/target/struts2-pell-multipart-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-pell-multipart-plugin-6.1.2.2-sources.jar plugins/pell-multipart/target/struts2-pell-multipart-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-plexus-plugin-6.1.2.2.jar plugins/plexus/target/struts2-plexus-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-plexus-plugin-6.1.2.2-sources.jar plugins/plexus/target/struts2-plexus-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-tiles-plugin-6.1.2.2.jar plugins/tiles/target/struts2-tiles-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-tiles-plugin-6.1.2.2-sources.jar plugins/tiles/target/struts2-tiles-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-portlet-tiles-plugin-6.1.2.2.jar plugins/portlet-tiles/target/struts2-portlet-tiles-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-portlet-tiles-plugin-6.1.2.2-sources.jar plugins/portlet-tiles/target/struts2-portlet-tiles-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-rest-plugin-6.1.2.2.jar plugins/rest/target/struts2-rest-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-rest-plugin-6.1.2.2-sources.jar plugins/rest/target/struts2-rest-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-sitemesh-plugin-6.1.2.2.jar plugins/sitemesh/target/struts2-sitemesh-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-sitemesh-plugin-6.1.2.2-sources.jar plugins/sitemesh/target/struts2-sitemesh-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-testng-plugin-6.1.2.2.jar plugins/testng/target/struts2-testng-plugin-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-testng-plugin-6.1.2.2-sources.jar plugins/testng/target/struts2-testng-plugin-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-osgi-admin-bundle-6.1.2.2.jar bundles/admin/target/struts2-osgi-admin-bundle-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-osgi-admin-bundle-6.1.2.2-sources.jar bundles/admin/target/struts2-osgi-admin-bundle-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-osgi-demo-bundle-6.1.2.2.jar bundles/demo/target/struts2-osgi-demo-bundle-6.1.2.2.jar
+# diffoscope target/reference/org.apache.struts/struts2-osgi-demo-bundle-6.1.2.2-sources.jar bundles/demo/target/struts2-osgi-demo-bundle-6.1.2.2-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-showcase-6.1.2.2.war apps/showcase/target/struts2-showcase.war
+# diffoscope target/reference/org.apache.struts/struts2-showcase-6.1.2.2-sources.jar apps/showcase/target/struts2-showcase-sources.jar
+# diffoscope target/reference/org.apache.struts/struts2-rest-showcase-6.1.2.2.war apps/rest-showcase/target/struts2-rest-showcase.war
+# diffoscope target/reference/org.apache.struts/struts2-rest-showcase-6.1.2.2-sources.jar apps/rest-showcase/target/struts2-rest-showcase-sources.jar
