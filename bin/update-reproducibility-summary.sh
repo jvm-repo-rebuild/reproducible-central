@@ -83,10 +83,12 @@ do
     fi
   done
 
+  highestVersion= # highest non-ignored version, with or without buildspec
   for version in $($tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
   do
     # report only on non-ignored versions
     keepVersion $dir $version || continue
+    [ -z "$highestVersion" ] && highestVersion=$version
 
     buildspec=$(ls $dir | grep "\-${version}\.buildspec")
     _buildinfo=$(ls $dir | grep "\-${version}\.buildinfo")
@@ -160,8 +162,7 @@ do
     else
       # no buildspec, just list version to tmp
       echo "| [${version}](https://central.sonatype.com/artifact/${groupId}/${artifactId}/${version}/pom) | | | |" >> "tmp/${projectReadme}"
-      ((countMissingBuildspec++))
-      missingBuildspec+="$version "
+      [ "$highestVersion" != "$version" ] && ((countMissingBuildspec++)) && missingBuildspec+="$version "
     fi
     # don't continue if it's the oldest version with buildspec
     [[ "$oldestBuildspecVersion" == "$version" ]] && break
@@ -200,10 +201,8 @@ do
 
   # detect newest versions that have a buildspec not to be ignored
   newestBuildspecVersion= # newest version with a buildspec
-  highestVersion= # highest version, with or without buildspec
   for version in $($tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
   do
-    [ -z "$highestVersion" ] && keepVersion $dir $version && highestVersion=$version
     if [ -n "$(ls $dir | grep "\-${version}\.buildspec")" ]
     then
       newestBuildspecVersion="$version"
