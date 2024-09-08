@@ -1,0 +1,70 @@
+version=304
+ok=53
+ko=61
+ignored=0
+okFiles="alluxio-parent-304.pom alluxio-common-304.pom alluxio-core-transport-304.pom alluxio-dora-304.pom alluxio-core-304.pom alluxio-core-common-304.pom alluxio-underfs-304.pom alluxio-underfs-local-304.pom alluxio-core-client-304.pom alluxio-core-client-fs-304.pom alluxio-core-client-hdfs-304.pom alluxio-shaded-304.pom alluxio-shaded-client-304.pom alluxio-examples-304.pom alluxio-job-304.pom alluxio-job-common-304.pom alluxio-job-client-304.pom alluxio-shell-304.pom alluxio-core-server-304.pom alluxio-core-server-common-304.pom alluxio-integration-304.pom alluxio-integration-jnifuse-304.pom alluxio-integration-jnifuse-native-304.pom alluxio-integration-jnifuse-fs-304.pom alluxio-underfs-s3a-304.pom alluxio-integration-fuse-304.pom alluxio-core-server-worker-304.pom alluxio-stress-304.pom alluxio-stress-common-304.pom alluxio-stress-shell-304.pom alluxio-assembly-304.pom alluxio-assembly-client-304.pom alluxio-core-server-master-304.pom alluxio-core-server-proxy-304.pom alluxio-job-server-304.pom alluxio-assembly-server-304.pom alluxio-core-client-hdfs3-304.pom alluxio-integration-tools-hms-304.pom alluxio-integration-tools-validation-304.pom alluxio-minicluster-304.pom alluxio-tests-304.pom alluxio-tests-integration-304.pom alluxio-microbench-304.pom alluxio-shaded-hadoop3-client-304.pom alluxio-tests-testcontainers-304.pom alluxio-underfs-cephfs-304.pom alluxio-underfs-cephfs-hadoop-304.pom alluxio-underfs-cos-304.pom alluxio-underfs-cosn-304.pom alluxio-underfs-gcs-304.pom alluxio-underfs-oss-304.pom alluxio-underfs-ozone-304.pom alluxio-underfs-obs-304.pom"
+koFiles="alluxio-core-transport-304.jar alluxio-core-common-304.jar alluxio-core-common-304-tests.jar alluxio-underfs-local-304.jar alluxio-core-client-fs-304.jar alluxio-core-client-fs-304-tests.jar alluxio-core-client-hdfs-304.jar alluxio-core-client-hdfs-304-tests.jar alluxio-shaded-client-304.jar alluxio-shaded-client-304-sources.jar alluxio-shaded-client-304-sources.jar alluxio-examples-304.jar alluxio-job-common-304.jar alluxio-job-common-304-tests.jar alluxio-job-client-304.jar alluxio-shell-304.jar alluxio-core-server-common-304.jar alluxio-integration-jnifuse-native-304.jar alluxio-integration-jnifuse-fs-304.jar alluxio-underfs-s3a-304.jar alluxio-integration-fuse-304.jar alluxio-underfs-hdfs-304.pom alluxio-underfs-hdfs-304.jar alluxio-underfs-hdfs-304-tests.jar alluxio-core-server-worker-304.jar alluxio-stress-common-304.jar alluxio-stress-shell-304.jar alluxio-assembly-client-304.jar alluxio-core-server-master-304.jar alluxio-core-server-master-304-tests.jar alluxio-core-server-proxy-304.jar alluxio-job-server-304.jar alluxio-job-server-304-tests.jar alluxio-assembly-server-304.jar alluxio-core-client-hdfs3-304.jar alluxio-core-client-hdfs3-304-tests.jar alluxio-integration-tools-304.pom alluxio-integration-tools-hms-304.jar alluxio-integration-tools-validation-304.jar alluxio-minicluster-304.jar alluxio-tests-integration-304.jar alluxio-tests-integration-304-tests.jar alluxio-microbench-304.jar alluxio-shaded-hadoop3-client-304.jar alluxio-shaded-hadoop3-client-304-sources.jar alluxio-shaded-hadoop3-client-304-sources.jar alluxio-tests-testcontainers-304.jar alluxio-underfs-abfs-304.pom alluxio-underfs-abfs-304.jar alluxio-underfs-adl-304.pom alluxio-underfs-adl-304.jar alluxio-underfs-cephfs-304.jar alluxio-underfs-cephfs-hadoop-304.jar alluxio-underfs-cos-304.jar alluxio-underfs-cosn-304.jar alluxio-underfs-gcs-304.jar alluxio-underfs-oss-304.jar alluxio-underfs-ozone-304.jar alluxio-underfs-wasb-304.pom alluxio-underfs-wasb-304.jar alluxio-underfs-obs-304.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.alluxio/alluxio-core-transport-304.jar common/transport/target/alluxio-core-transport-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-core-common-304.jar dora/core/common/target/alluxio-core-common-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-core-common-304-tests.jar dora/core/common/target/alluxio-core-common-304-tests.jar
+# diffoscope target/reference/org.alluxio/alluxio-underfs-local-304.jar dora/underfs/local/target/alluxio-underfs-local-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-core-client-fs-304.jar dora/core/client/fs/target/alluxio-core-client-fs-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-core-client-fs-304-tests.jar dora/core/client/fs/target/alluxio-core-client-fs-304-tests.jar
+# diffoscope target/reference/org.alluxio/alluxio-core-client-hdfs-304.jar dora/core/client/hdfs/target/alluxio-core-client-hdfs-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-core-client-hdfs-304-tests.jar dora/core/client/hdfs/target/alluxio-core-client-hdfs-304-tests.jar
+# diffoscope target/reference/org.alluxio/alluxio-shaded-client-304.jar dora/shaded/client/target/alluxio-shaded-client-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-shaded-client-304-sources.jar dora/shaded/client/target/alluxio-shaded-client-304-sources.jar
+# diffoscope target/reference/org.alluxio/alluxio-shaded-client-304-sources.jar dora/shaded/client/target/alluxio-shaded-client-304-sources.jar
+# diffoscope target/reference/org.alluxio/alluxio-examples-304.jar dora/examples/target/alluxio-examples-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-job-common-304.jar dora/job/common/target/alluxio-job-common-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-job-common-304-tests.jar dora/job/common/target/alluxio-job-common-304-tests.jar
+# diffoscope target/reference/org.alluxio/alluxio-job-client-304.jar dora/job/client/target/alluxio-job-client-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-shell-304.jar dora/shell/target/alluxio-shell-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-core-server-common-304.jar dora/core/server/common/target/alluxio-core-server-common-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-integration-jnifuse-native-304.jar dora/integration/jnifuse/native/target/alluxio-integration-jnifuse-native-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-integration-jnifuse-fs-304.jar dora/integration/jnifuse/fs/target/alluxio-integration-jnifuse-fs-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-underfs-s3a-304.jar dora/underfs/s3a/target/alluxio-underfs-s3a-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-integration-fuse-304.jar dora/integration/fuse/target/alluxio-integration-fuse-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-underfs-hdfs-304.pom dora/underfs/hdfs/pom.xml
+# diffoscope target/reference/org.alluxio/alluxio-underfs-hdfs-304.jar dora/underfs/hdfs/target/alluxio-underfs-hdfs-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-underfs-hdfs-304-tests.jar dora/underfs/hdfs/target/alluxio-underfs-hdfs-304-tests.jar
+# diffoscope target/reference/org.alluxio/alluxio-core-server-worker-304.jar dora/core/server/worker/target/alluxio-core-server-worker-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-stress-common-304.jar dora/stress/common/target/alluxio-stress-common-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-stress-shell-304.jar dora/stress/shell/target/alluxio-stress-shell-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-assembly-client-304.jar assembly/client/target/alluxio-assembly-client-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-core-server-master-304.jar dora/core/server/master/target/alluxio-core-server-master-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-core-server-master-304-tests.jar dora/core/server/master/target/alluxio-core-server-master-304-tests.jar
+# diffoscope target/reference/org.alluxio/alluxio-core-server-proxy-304.jar dora/core/server/proxy/target/alluxio-core-server-proxy-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-job-server-304.jar dora/job/server/target/alluxio-job-server-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-job-server-304-tests.jar dora/job/server/target/alluxio-job-server-304-tests.jar
+# diffoscope target/reference/org.alluxio/alluxio-assembly-server-304.jar assembly/server/target/alluxio-assembly-server-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-core-client-hdfs3-304.jar dora/core/client/hdfs3/target/alluxio-core-client-hdfs3-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-core-client-hdfs3-304-tests.jar dora/core/client/hdfs3/target/alluxio-core-client-hdfs3-304-tests.jar
+# diffoscope target/reference/org.alluxio/alluxio-integration-tools-304.pom dora/integration/tools/pom.xml
+# diffoscope target/reference/org.alluxio/alluxio-integration-tools-hms-304.jar dora/integration/tools/hms/target/alluxio-integration-tools-hms-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-integration-tools-validation-304.jar dora/integration/tools/validation/target/alluxio-integration-tools-validation-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-minicluster-304.jar dora/minicluster/target/alluxio-minicluster-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-tests-integration-304.jar dora/tests/integration/target/alluxio-tests-integration-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-tests-integration-304-tests.jar dora/tests/integration/target/alluxio-tests-integration-304-tests.jar
+# diffoscope target/reference/org.alluxio/alluxio-microbench-304.jar dora/microbench/target/alluxio-microbench-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-shaded-hadoop3-client-304.jar dora/shaded/client-hadoop3/target/alluxio-shaded-hadoop3-client-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-shaded-hadoop3-client-304-sources.jar dora/shaded/client-hadoop3/target/alluxio-shaded-hadoop3-client-304-sources.jar
+# diffoscope target/reference/org.alluxio/alluxio-shaded-hadoop3-client-304-sources.jar dora/shaded/client-hadoop3/target/alluxio-shaded-hadoop3-client-304-sources.jar
+# diffoscope target/reference/org.alluxio/alluxio-tests-testcontainers-304.jar dora/tests/testcontainers/target/alluxio-tests-testcontainers-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-underfs-abfs-304.pom dora/underfs/abfs/pom.xml
+# diffoscope target/reference/org.alluxio/alluxio-underfs-abfs-304.jar dora/underfs/abfs/target/alluxio-underfs-abfs-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-underfs-adl-304.pom dora/underfs/adl/pom.xml
+# diffoscope target/reference/org.alluxio/alluxio-underfs-adl-304.jar dora/underfs/adl/target/alluxio-underfs-adl-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-underfs-cephfs-304.jar dora/underfs/cephfs/target/alluxio-underfs-cephfs-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-underfs-cephfs-hadoop-304.jar dora/underfs/cephfs-hadoop/target/alluxio-underfs-cephfs-hadoop-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-underfs-cos-304.jar dora/underfs/cos/target/alluxio-underfs-cos-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-underfs-cosn-304.jar dora/underfs/cosn/target/alluxio-underfs-cosn-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-underfs-gcs-304.jar dora/underfs/gcs/target/alluxio-underfs-gcs-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-underfs-oss-304.jar dora/underfs/oss/target/alluxio-underfs-oss-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-underfs-ozone-304.jar dora/underfs/ozone/target/alluxio-underfs-ozone-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-underfs-wasb-304.pom dora/underfs/wasb/pom.xml
+# diffoscope target/reference/org.alluxio/alluxio-underfs-wasb-304.jar dora/underfs/wasb/target/alluxio-underfs-wasb-304.jar
+# diffoscope target/reference/org.alluxio/alluxio-underfs-obs-304.jar dora/underfs/obs/target/alluxio-underfs-obs-304.jar
