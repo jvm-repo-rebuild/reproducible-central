@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=smartsprites-maven-plugin
+group-id=com.github.hazendaz.maven
+artifact-id=smartsprites-maven-plugin
+version=2.2.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/smartsprites-maven-plugin.git
+source.scm.tag=smartsprites-maven-plugin-2.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.5.2
+
+# output
+
+outputs.0.groupId=com.github.hazendaz.maven
+outputs.0.filename=smartsprites-maven-plugin-2.2.0.pom
+outputs.0.length=5327
+outputs.0.checksums.sha512=4cede9d8edf656acf52e5f9660ed2935e14fc4003290b06327405cfdff45d16d1e041a041556743a87f2159c1cf5336b02407422346358748ba87e36d84f8994
+
+outputs.1.groupId=com.github.hazendaz.maven
+outputs.1.filename=smartsprites-maven-plugin-2.2.0.jar
+outputs.1.length=20395
+outputs.1.checksums.sha512=071da449b20b28c7d211e48bf7b8cdc95ada9d92af2f664344b512292eb79458310c8f0518bded79cb4347fd0379a625084ac36c9dcdd13897617e100d8bb273
+
+outputs.2.groupId=com.github.hazendaz.maven
+outputs.2.filename=smartsprites-maven-plugin-2.2.0-sources.jar
+outputs.2.length=12303
+outputs.2.checksums.sha512=f8043ade69fab4a8ccef2bb24bbae0e21c4963fef73d830a116b6b30fdec36e3471a37a759922603ab26a0562a91a7c5badcf235385babf8c32383bc48fe30f9
+
+outputs.3.groupId=com.github.hazendaz.maven
+outputs.3.filename=smartsprites-maven-plugin-2.2.0-cyclonedx.xml
+outputs.3.length=68398
+outputs.3.checksums.sha512=a51189d8f442c17c1d744838354129da6d14f3d185f84fc1111ee17555a580480a6a4ab82a651563a7c54b6cefdab06e6aa91bfb9f233b7d825ce38aa69ebbc4
+
+outputs.4.groupId=com.github.hazendaz.maven
+outputs.4.filename=smartsprites-maven-plugin-2.2.0-cyclonedx.json
+outputs.4.length=81217
+outputs.4.checksums.sha512=f508d85bdd68cd4801d780d87a2e25a6a5c9057b0113532e47477183635ef90755cc89fca02ec80d5ddc1e8fce5a6a529a811d2e1af47156abcbe87737d63618
