@@ -1,0 +1,7 @@
+version=2.1.8
+ok=4
+ko=0
+ignored=0
+okFiles="takari-lifecycle-2.1.8.pom takari-lifecycle-plugin-2.1.8.pom takari-lifecycle-plugin-2.1.8.jar takari-lifecycle-plugin-2.1.8-sources.jar"
+koFiles=""
+ignoredFiles=""
