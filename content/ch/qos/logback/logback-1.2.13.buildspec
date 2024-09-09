@@ -1,0 +1,18 @@
+groupId=ch.qos.logback
+artifactId=logback-parent
+version=1.2.13
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/qos-ch/logback.git
+gitTag=v_${version}
+
+tool=mvn
+jdk=8
+newline=crlf # crlf on disk, but Unix at runtime...
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
