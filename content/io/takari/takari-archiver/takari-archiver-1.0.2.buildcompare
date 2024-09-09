@@ -1,0 +1,7 @@
+version=1.0.2
+ok=3
+ko=0
+ignored=0
+okFiles="takari-archiver-1.0.2.pom takari-archiver-1.0.2.jar takari-archiver-1.0.2-sources.jar"
+koFiles=""
+ignoredFiles=""

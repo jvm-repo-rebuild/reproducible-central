@@ -1,0 +1,19 @@
+groupId=io.takari
+artifactId=takari-archiver
+display=${groupId}:${artifactId}
+version=1.0.2
+
+gitRepo=https://github.com/takari/provisio-archiver.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=21
+newline=lf
+umask=022
+timezone="Etc/GMT-1"
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.detect.skip=false -Dbuildinfo.skipModules='*/*-its,*/*-demo'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
