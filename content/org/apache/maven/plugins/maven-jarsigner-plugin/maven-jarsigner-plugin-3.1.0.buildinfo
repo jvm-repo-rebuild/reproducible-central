@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Jarsigner Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-jarsigner-plugin
+version=3.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-jarsigner-plugin.git
+source.scm.tag=maven-jarsigner-plugin-3.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-jarsigner-plugin-3.1.0.pom
+outputs.0.length=6649
+outputs.0.checksums.sha512=c9be0ab95bea2b27625d928c4a4a24f97cd5f5ac7795d1376b16907e35006de7b94134c951313ddbc8fbd619a29b7b1fdfd19eb1af9549a768bfc7f077de859d
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-jarsigner-plugin-3.1.0.jar
+outputs.1.length=45222
+outputs.1.checksums.sha512=e6afffe28bc569da68149823aede7fdd97845980f4f8b026d8d0f5c418539e76e71836982bf32b0a96896d74218b26e1e92208e2ecf42c46716321b2dfade5a9
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-jarsigner-plugin-3.1.0-source-release.zip
+outputs.2.length=108688
+outputs.2.checksums.sha512=6f5b05017104739ce6349079ec7f80f9b6c977cab5ce83b5528f60a1b081a1d498b6c5335bfc7eaddc4ba6c15ededcacbba586fbebe67ffa8ec821f4c9f97c92
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-jarsigner-plugin-3.1.0-sources.jar
+outputs.3.length=31433
+outputs.3.checksums.sha512=234a88339493b8ae4adc87bbdae95db314a9af4aa67d56e826401ca5bcc3cc279457f6d11436b22bdd4707f4e37f899b9d97655562afc2a51f355ddcd1b7ba62
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-jarsigner-plugin-3.1.0-cyclonedx.xml
+outputs.4.length=98230
+outputs.4.checksums.sha512=29f3b128e9da7db265ffb15f45c16af131cd7aec0df07795e10e0358d4b308318d2f84f1fdbe609fe3e11deef7b4817a260de2592c41a73fc8d7c46397fd60c1
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-jarsigner-plugin-3.1.0-cyclonedx.json
+outputs.5.length=114113
+outputs.5.checksums.sha512=5d015c5c88af2d4912d60c75fd48ddb507b2cdc8658b2e8ee01cc5c2393ba181c2320f6e00943f4e28e8f16b5c79d35603aed99e74fbbdcbc4c1ef3c70616325
