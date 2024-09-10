@@ -162,7 +162,7 @@ do
     else
       # no buildspec, just list version to tmp
       echo "| [${version}](https://central.sonatype.com/artifact/${groupId}/${artifactId}/${version}/pom) | | | |" >> "tmp/${projectReadme}"
-      [ "$highestVersion" != "$version" ] && ((countMissingBuildspec++)) && missingBuildspec+="$version "
+      [ "$highestVersion" != "$version" ] && missingBuildspec+="$version " && ((countMissingBuildspec++))
     fi
     # don't continue if it's the oldest version with buildspec
     [[ "$oldestBuildspecVersion" == "$version" ]] && break
