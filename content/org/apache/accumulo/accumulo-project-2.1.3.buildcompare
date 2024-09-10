@@ -1,0 +1,9 @@
+version=2.1.3
+ok=49
+ko=0
+ignored=0
+okFiles="accumulo-project-2.1.3.pom accumulo-start-2.1.3.pom accumulo-start-2.1.3.jar accumulo-start-2.1.3-sources.jar accumulo-core-2.1.3.pom accumulo-core-2.1.3.jar accumulo-core-2.1.3-sources.jar accumulo-server-base-2.1.3.pom accumulo-server-base-2.1.3.jar accumulo-server-base-2.1.3-sources.jar accumulo-compaction-coordinator-2.1.3.pom accumulo-compaction-coordinator-2.1.3.jar accumulo-compaction-coordinator-2.1.3-sources.jar accumulo-compactor-2.1.3.pom accumulo-compactor-2.1.3.jar accumulo-compactor-2.1.3-sources.jar accumulo-gc-2.1.3.pom accumulo-gc-2.1.3.jar accumulo-gc-2.1.3-sources.jar accumulo-manager-2.1.3.pom accumulo-manager-2.1.3.jar accumulo-manager-2.1.3-sources.jar accumulo-monitor-2.1.3.pom accumulo-monitor-2.1.3.jar accumulo-monitor-2.1.3-sources.jar accumulo-tserver-2.1.3.pom accumulo-tserver-2.1.3.jar accumulo-tserver-2.1.3-sources.jar accumulo-minicluster-2.1.3.pom accumulo-minicluster-2.1.3.jar accumulo-minicluster-2.1.3-sources.jar accumulo-native-2.1.3.pom accumulo-native-2.1.3.tar.gz accumulo-shell-2.1.3.pom accumulo-shell-2.1.3.jar accumulo-shell-2.1.3-sources.jar accumulo-iterator-test-harness-2.1.3.pom accumulo-iterator-test-harness-2.1.3.jar accumulo-iterator-test-harness-2.1.3-sources.jar accumulo-test-2.1.3.pom accumulo-test-2.1.3.jar accumulo-test-2.1.3-sources.jar accumulo-hadoop-mapreduce-2.1.3.pom accumulo-hadoop-mapreduce-2.1.3.jar accumulo-hadoop-mapreduce-2.1.3-sources.jar accumulo-2.1.3.pom accumulo-2.1.3-src.tar.gz accumulo-2.1.3-bin.tar.gz accumulo-master-2.1.3.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
