@@ -25,7 +25,7 @@ unzip -q -c tmp/$nextJar META-INF/maven/$groupId/$previousArtifactId/pom.propert
 unzip -q -c tmp/$nextJar META-INF/maven/$groupId/$previousArtifactId/pom.xml > tmp/$previousArtifactId-$nextVersion-pom.xml
 du --apparent-size -h tmp/$previousArtifactId-$nextVersion*
 
-nextJdk="$(unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep Jdk | cut -d ' ' -f 2 | sed -e 's/^1\.//')"
+nextJdk="$(unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep Jdk | cut -d ' ' -f 2 | sed -e 's/^1\.//' | sed -e 's/\r//')"
 [ "$jdk" != "$nextJdk" ] && echo -e "\033[0;1mupdating jdk: $jdk => $nextJdk\033[0;0m" && sed -i "s/^jdk=.*/jdk=${nextJdk}/" ${nextBuildspec}
 
 ./rebuild.sh ${nextBuildspec} $3
