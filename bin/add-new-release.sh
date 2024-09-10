@@ -24,6 +24,17 @@ unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF > tmp/$previousArtifactId-$nextVer
 unzip -q -c tmp/$nextJar META-INF/maven/$groupId/$previousArtifactId/pom.properties > tmp/$previousArtifactId-$nextVersion-pom.properties
 unzip -q -c tmp/$nextJar META-INF/maven/$groupId/$previousArtifactId/pom.xml > tmp/$previousArtifactId-$nextVersion-pom.xml
 du --apparent-size -h tmp/$previousArtifactId-$nextVersion*
+detectNewline() {
+    if [ "$(grep $'\r' $1 | wc -l)" -eq 0 ]
+    then
+      echo "$1 newline is *nix"
+    else
+      echo "$1 newline is windows"
+    fi
+}
+detectNewline tmp/$previousArtifactId-$nextVersion-pom.properties
+detectNewline tmp/$previousArtifactId-$nextVersion-pom.xml
+echo "buildspec newline=$newline"
 
 nextJdk="$(unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep Jdk | cut -d ' ' -f 2 | sed -e 's/^1\.//' | sed -e 's/\r//')"
 [ "$jdk" != "$nextJdk" ] && echo -e "\033[0;1mupdating jdk: $jdk => $nextJdk\033[0;0m" && sed -i "s/^jdk=.*/jdk=${nextJdk}/" ${nextBuildspec}
