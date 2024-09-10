@@ -1,0 +1,38 @@
+version=2.0.1
+ok=17
+ko=29
+ignored=0
+okFiles="accumulo-project-2.0.1.pom accumulo-project-2.0.1-site.xml accumulo-start-2.0.1.pom accumulo-core-2.0.1.pom accumulo-server-base-2.0.1.pom accumulo-gc-2.0.1.pom accumulo-master-2.0.1.pom accumulo-tracer-2.0.1.pom accumulo-monitor-2.0.1.pom accumulo-tserver-2.0.1.pom accumulo-minicluster-2.0.1.pom accumulo-native-2.0.1.pom accumulo-shell-2.0.1.pom accumulo-iterator-test-harness-2.0.1.pom accumulo-test-2.0.1.pom accumulo-hadoop-mapreduce-2.0.1.pom accumulo-2.0.1.pom"
+koFiles="accumulo-start-2.0.1.jar accumulo-start-2.0.1-sources.jar accumulo-core-2.0.1.jar accumulo-core-2.0.1-sources.jar accumulo-server-base-2.0.1.jar accumulo-server-base-2.0.1-sources.jar accumulo-gc-2.0.1.jar accumulo-gc-2.0.1-sources.jar accumulo-master-2.0.1.jar accumulo-master-2.0.1-sources.jar accumulo-tracer-2.0.1.jar accumulo-tracer-2.0.1-sources.jar accumulo-monitor-2.0.1.jar accumulo-monitor-2.0.1-sources.jar accumulo-tserver-2.0.1.jar accumulo-tserver-2.0.1-sources.jar accumulo-minicluster-2.0.1.jar accumulo-minicluster-2.0.1-sources.jar accumulo-native-2.0.1.tar.gz accumulo-shell-2.0.1.jar accumulo-shell-2.0.1-sources.jar accumulo-iterator-test-harness-2.0.1.jar accumulo-iterator-test-harness-2.0.1-sources.jar accumulo-test-2.0.1.jar accumulo-test-2.0.1-sources.jar accumulo-hadoop-mapreduce-2.0.1.jar accumulo-hadoop-mapreduce-2.0.1-sources.jar accumulo-2.0.1-src.tar.gz accumulo-2.0.1-bin.tar.gz"
+ignoredFiles=""
+reference_java_version="11.0.9.1 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.accumulo/accumulo-start-2.0.1.jar start/target/accumulo-start-2.0.1.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-start-2.0.1-sources.jar start/target/accumulo-start-2.0.1-sources.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-core-2.0.1.jar core/target/accumulo-core-2.0.1.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-core-2.0.1-sources.jar core/target/accumulo-core-2.0.1-sources.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-server-base-2.0.1.jar server/base/target/accumulo-server-base-2.0.1.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-server-base-2.0.1-sources.jar server/base/target/accumulo-server-base-2.0.1-sources.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-gc-2.0.1.jar server/gc/target/accumulo-gc-2.0.1.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-gc-2.0.1-sources.jar server/gc/target/accumulo-gc-2.0.1-sources.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-master-2.0.1.jar server/master/target/accumulo-master-2.0.1.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-master-2.0.1-sources.jar server/master/target/accumulo-master-2.0.1-sources.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-tracer-2.0.1.jar server/tracer/target/accumulo-tracer-2.0.1.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-tracer-2.0.1-sources.jar server/tracer/target/accumulo-tracer-2.0.1-sources.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-monitor-2.0.1.jar server/monitor/target/accumulo-monitor-2.0.1.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-monitor-2.0.1-sources.jar server/monitor/target/accumulo-monitor-2.0.1-sources.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-tserver-2.0.1.jar server/tserver/target/accumulo-tserver-2.0.1.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-tserver-2.0.1-sources.jar server/tserver/target/accumulo-tserver-2.0.1-sources.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-minicluster-2.0.1.jar minicluster/target/accumulo-minicluster-2.0.1.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-minicluster-2.0.1-sources.jar minicluster/target/accumulo-minicluster-2.0.1-sources.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-native-2.0.1.tar.gz server/native/target/accumulo-native-2.0.1.tar.gz
+# diffoscope target/reference/org.apache.accumulo/accumulo-shell-2.0.1.jar shell/target/accumulo-shell-2.0.1.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-shell-2.0.1-sources.jar shell/target/accumulo-shell-2.0.1-sources.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-iterator-test-harness-2.0.1.jar iterator-test-harness/target/accumulo-iterator-test-harness-2.0.1.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-iterator-test-harness-2.0.1-sources.jar iterator-test-harness/target/accumulo-iterator-test-harness-2.0.1-sources.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-test-2.0.1.jar test/target/accumulo-test-2.0.1.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-test-2.0.1-sources.jar test/target/accumulo-test-2.0.1-sources.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-hadoop-mapreduce-2.0.1.jar hadoop-mapreduce/target/accumulo-hadoop-mapreduce-2.0.1.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-hadoop-mapreduce-2.0.1-sources.jar hadoop-mapreduce/target/accumulo-hadoop-mapreduce-2.0.1-sources.jar
+# diffoscope target/reference/org.apache.accumulo/accumulo-2.0.1-src.tar.gz target/accumulo-2.0.1-source-release.tar.gz
+# diffoscope target/reference/org.apache.accumulo/accumulo-2.0.1-bin.tar.gz assemble/target/accumulo-2.0.1-bin.tar.gz
