@@ -11,10 +11,36 @@ groupIdDir="$(dirname $dir)"
 groupId="$(echo "$groupIdDir" | sed -e 's_/_._g')"
 
 echo "$groupId:$artifactId:$version"
-echo "https://repo.maven.apache.org/maven2/$path"
+echo "https://repo.maven.apache.org/maven2/$(dirname $path)"
+echo "https://central.sonatype.com/artifact/$groupId/$artifactId"
 echo
 
-dev=$(mvn help:effective-pom -f bin/.wip.pom -Dartifact=$groupId:$artifactId:$version | grep developerConnection | cut -d '>' -f 2 | cut -d '<' -f 1)
+[ -d tmp ] || mkdir tmp
+[ -f tmp/$path ] || curl -s --fail https://repo.maven.apache.org/maven2/$path --output tmp/$pomfile
+jar="$artifactId-$version.jar"
+[ -f tmp/$jar ] || curl -s --fail https://repo.maven.apache.org/maven2/$groupIdDir/$artifactId/$version/$jar --output tmp/$jar
+detectNewline() {
+    if [ "$(grep $'\r' $1 | wc -l)" -eq 0 ]
+    then
+      echo "$1 newline is *nix"
+    else
+      echo "$1 newline is windows"
+    fi
+}
+[ -f tmp/$jar ] && unzip -q -c tmp/$jar META-INF/MANIFEST.MF > tmp/$artifactId-$version-MANIFEST.MF \
+                && unzip -q -c tmp/$jar META-INF/maven/$groupId/$artifactId/pom.properties > tmp/$artifactId-$version-pom.properties \
+                && unzip -q -c tmp/$jar META-INF/maven/$groupId/$artifactId/pom.xml > tmp/$artifactId-$version-pom.xml \
+                && unzip -q -c tmp/$jar META-INF/MANIFEST.MF | grep Jdk | sed -e 's/ 1\.//' | sed -e 's/\r//' \
+                && detectNewline tmp/$artifactId-$version-pom.properties \
+                && detectNewline tmp/$artifactId-$version-pom.xml
+
+mvn help:effective-pom -f bin/.wip.pom -Dartifact=$groupId:$artifactId:$version > tmp/$artifactId-$version-effective-pom.xml
+dev=$(cat tmp/$artifactId-$version-effective-pom.xml | grep developerConnection | cut -d '>' -f 2 | cut -d '<' -f 1)
+
+echo
+du --apparent-size -h tmp/$artifactId-$version*
+echo
+
 gitRepo="$(echo "$dev" | sed -e 's/scm:git://' | sed -e 's_git@github.com:_https://github.com/_')"
 echo "$gitRepo"
 
