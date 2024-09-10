@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **4678 releases** of **697 projects**:
-   - **3523** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 1155 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 697 projects, 599 have at least one fully reproducible release, 98 have none
+   rebuilding **4696 releases** of **699 projects**:
+   - **3528** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 1168 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 699 projects, 602 have at least one fully reproducible release, 97 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -312,7 +312,7 @@ Its objectives are to provide:
 | org.slf4j | [slf4j-parent](content/org/slf4j/README.md) | 13 | 6 :white_check_mark: / 7 :warning: |
 | org.alluxio | [alluxio-parent](content/org/alluxio/alluxio/README.md) | 11 | 9 :white_check_mark: / 2 :warning: |
 | org.antlr | [antlr4-master](content/org/antlr/antlr4/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
-| org.apache.accumulo | [accumulo](content/org/apache/accumulo/README.md) | 7 | 3 :white_check_mark: / 4 :warning: |
+| org.apache.accumulo | [accumulo](content/org/apache/accumulo/README.md) | 11 | 4 :white_check_mark: / 7 :warning: |
 | org.apache.activemq | [activemq-parent](content/org/apache/activemq/README.md) | 15 | 8 :white_check_mark: / 7 :warning: |
 | org.apache.any23 | [apache-any23](content/org/apache/any23/README.md) | 1 | 1 :warning: |
 | org.apache | [apache](content/org/apache/apache/README.md) | 11 | 10 :white_check_mark: / 1 :warning: |
@@ -320,8 +320,8 @@ Its objectives are to provide:
 | org.apache.axis2 | [axis2](content/org/apache/axis2/README.md) | 2 | 2 :warning: |
 | org.apache.batchee | [batchee](content/org/apache/batchee/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
 | org.apache.drill | [drill-root](content/org/apache/drill/README.md) | 3 | 3 :warning: |
-| org.apache.dubbo | [dubbo](content/org/apache/dubbo/README.md) | 73 | 15 :white_check_mark: / 58 :warning: |
-| org.apache.helix | [helix](content/org/apache/helix/README.md) | 4 | 4 :warning: |
+| org.apache.dubbo | [dubbo](content/org/apache/dubbo/README.md) | 74 | 15 :white_check_mark: / 59 :warning: |
+| org.apache.helix | [helix](content/org/apache/helix/README.md) | 8 | 2 :white_check_mark: / 6 :warning: |
 | org.apache.hive | [hive](content/org/apache/hive/README.md) | 2 | 2 :warning: |
 | org.apache.isis | [isis-parent](content/org/apache/isis/README.md) | 1 | 1 :warning: |
 | org.apache.jdo | [jdo](content/org/apache/jdo/README.md) | 2 | 2 :warning: |
@@ -423,6 +423,7 @@ Its objectives are to provide:
 | | [maven-install-plugin](content/org/apache/maven/plugins/maven-install-plugin/README.md) | 7 | 7 :white_check_mark: |
 | | [maven-invoker-plugin](content/org/apache/maven/plugins/maven-invoker-plugin/README.md) | 9 | 9 :white_check_mark: |
 | | [maven-jar-plugin](content/org/apache/maven/plugins/maven-jar-plugin/README.md) | 7 | 7 :white_check_mark: |
+| | [maven-jarsigner-plugin](content/org/apache/maven/plugins/maven-jarsigner-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [maven-javadoc-plugin](content/org/apache/maven/plugins/maven-javadoc-plugin/README.md) | 13 | 9 :white_check_mark: / 4 :warning: |
 | | [maven-jlink-plugin](content/org/apache/maven/plugins/maven-jlink-plugin/README.md) | 3 | 3 :white_check_mark: |
 | | [maven-pdf-plugin](content/org/apache/maven/plugins/maven-pdf-plugin/README.md) | 3 | 3 :white_check_mark: |
@@ -620,7 +621,7 @@ Its objectives are to provide:
 | org.eclipse.transformer | [*.parent](content/org/eclipse/transformer/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
 | org.eclipse.daanse | [*.pom.parent](content/org/eclipse/daanse/org.eclipse.daanse.pom.parent/README.md) | 1 | 1 :white_check_mark: |
 | org.eclipse.jetty | [jetty-project](content/org/eclipse/jetty/jetty-project/README.md) | 13 | 7 :white_check_mark: / 6 :warning: |
-| org.finos.legend.engine | [legend-engine](content/org/finos/legend/engine/README.md) | 1 | 1 :warning: |
+| org.finos.legend.engine | [legend-engine](content/org/finos/legend/engine/README.md) | 8 | 8 :warning: |
 | org.fusesource.jansi | [jansi](content/org/fusesource/jansi/jansi/README.md) | 9 | 5 :white_check_mark: / 4 :warning: |
 | org.glassfish.hk2 | [hk2-parent](content/org/glassfish/hk2/README.md) | 8 | 5 :white_check_mark: / 3 :warning: |
 | org.glassfish.main | [glassfish-parent](content/org/glassfish/main/README.md) | 9 | 9 :warning: |
@@ -628,6 +629,7 @@ Its objectives are to provide:
 | org.hibernate.search | [hibernate-search-bom](content/org/hibernate/search/hibernate-search-bom/README.md) | 5 | 3 :white_check_mark: / 2 :warning: |
 | org.hibernate.validator | [hibernate-validator](content/org/hibernate/validator/hibernate-validator/README.md) | 2 | 2 :white_check_mark: |
 | org.infinispan.protostream | [protostream-aggregator](content/org/infinispan/protostream/README.md) | 1 | 1 :warning: |
+| org.itsallcode | [junit5-system-extensions](content/org/itsallcode/junit5-system-extensions/README.md) | 1 | 1 :white_check_mark: |
 | org.itsallcode.openfasttrace | [openfasttrace](content/org/itsallcode/openfasttrace/README.md) | 2 | 2 :warning: |
 | org.itsallcode | [openfasttrace-maven-plugin](content/org/itsallcode/openfasttrace-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | org.jpmml | [jpmml-evaluator](content/org/jpmml/jpmml-evaluator/README.md) | 1 | 1 :white_check_mark: |
@@ -720,7 +722,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 3 | 3 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 40 | 39 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **697** | **4678** | **3523** :white_check_mark: **1155** :warning: |
+| **Count:** | **699** | **4696** | **3528** :white_check_mark: **1168** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -737,7 +739,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      33 mvn         7
    1316 mvn         8
       1 mvn         9
-   1217 mvn        11
+   1232 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
@@ -745,7 +747,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn        14
      10 mvn        15
      12 mvn        16
-    411 mvn        17
+    412 mvn        17
       1 mvn        17.0.10
       2 mvn        17.0.11
       1 mvn        17.0.12
@@ -756,7 +758,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      14 mvn        18
      33 mvn        19
      16 mvn        20
-    161 mvn        21
+    162 mvn        21
      11 mvn        22
       2 mvn-3.5.4   8
       5 mvn-3.6.2   8
@@ -792,7 +794,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      27 mvn-3.9.2   8
      19 mvn-3.9.2  17
       3 mvn-3.9.2  21
-    122 mvn-3.9.3   8
+    123 mvn-3.9.3   8
      62 mvn-3.9.3  11
       1 mvn-3.9.3  11.0.18
       3 mvn-3.9.3  11.0.2

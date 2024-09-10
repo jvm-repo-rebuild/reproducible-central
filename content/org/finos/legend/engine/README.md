@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/finos/legend-engine.git](https://github.com/finos/legend-engine.git)
 
-<details><summary>This project defines 215 modules:</summary>
+<details><summary>This project defines 221 modules:</summary>
 
 * [org.finos.legend.engine:legend-engine](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/overview)
 * [org.finos.legend.engine:legend-engine-application-query](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-application-query/overview)
@@ -74,6 +74,9 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-xt-analytics-mapping-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-analytics-mapping-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-analytics-search-generation](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-analytics-search-generation/overview)
 * [org.finos.legend.engine:legend-engine-xt-analytics-search-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-analytics-search-pure/overview)
+* [org.finos.legend.engine:legend-engine-xt-analytics-store-entitlement](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-analytics-store-entitlement/overview)
+* [org.finos.legend.engine:legend-engine-xt-analytics-store-entitlement-api](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-analytics-store-entitlement-api/overview)
+* [org.finos.legend.engine:legend-engine-xt-artifact-generation-api](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-artifact-generation-api/overview)
 * [org.finos.legend.engine:legend-engine-xt-authentication-experimental](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-authentication-experimental/overview)
 * [org.finos.legend.engine:legend-engine-xt-authentication-grammar](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-authentication-grammar/overview)
 * [org.finos.legend.engine:legend-engine-xt-authentication-implementation-core](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-authentication-implementation-core/overview)
@@ -103,6 +106,7 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-xt-diagram-pure-metamodel](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-diagram-pure-metamodel/overview)
 * [org.finos.legend.engine:legend-engine-xt-elasticsearch](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-elasticsearch/overview)
 * [org.finos.legend.engine:legend-engine-xt-elasticsearch-V7-executionPlan](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-elasticsearch-V7-executionPlan/overview)
+* [org.finos.legend.engine:legend-engine-xt-elasticsearch-V7-grammar](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-elasticsearch-V7-grammar/overview)
 * [org.finos.legend.engine:legend-engine-xt-elasticsearch-V7-protocol](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-elasticsearch-V7-protocol/overview)
 * [org.finos.legend.engine:legend-engine-xt-elasticsearch-V7-pure-metamodel](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-elasticsearch-V7-pure-metamodel/overview)
 * [org.finos.legend.engine:legend-engine-xt-elasticsearch-executionPlan-test](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-elasticsearch-executionPlan-test/overview)
@@ -136,8 +140,10 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-xt-mastery-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-mastery-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-morphir](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-morphir/overview)
 * [org.finos.legend.engine:legend-engine-xt-morphir-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-morphir-pure/overview)
+* [org.finos.legend.engine:legend-engine-xt-nonrelationalStore-mongodb-executionPlan](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-nonrelationalStore-mongodb-executionPlan/overview)
 * [org.finos.legend.engine:legend-engine-xt-nonrelationalStore-mongodb-grammar](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-nonrelationalStore-mongodb-grammar/overview)
 * [org.finos.legend.engine:legend-engine-xt-nonrelationalStore-mongodb-grammar-integration](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-nonrelationalStore-mongodb-grammar-integration/overview)
+* [org.finos.legend.engine:legend-engine-xt-nonrelationalStore-mongodb-javaPlatformBinding-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-nonrelationalStore-mongodb-javaPlatformBinding-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-nonrelationalStore-mongodb-protocol](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-nonrelationalStore-mongodb-protocol/overview)
 * [org.finos.legend.engine:legend-engine-xt-nonrelationalStore-mongodb-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-nonrelationalStore-mongodb-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-persistence-api](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-persistence-api/overview)
@@ -226,9 +232,9 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-xt-xml-shared](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-xml-shared/overview)
 </details>
 
-rebuilding **1 releases** of org.finos.legend.engine:legend-engine:
+rebuilding **8 releases** of org.finos.legend.engine:legend-engine:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -364,13 +370,13 @@ rebuilding **1 releases** of org.finos.legend.engine:legend-engine:
 | [4.8.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.8.0/pom) | | | |
 | [4.7.1](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.7.1/pom) | | | |
 | [4.7.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.7.0/pom) | | | |
-| [4.6.2](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.6.2/pom) | | | |
-| [4.6.1](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.6.1/pom) | | | |
-| [4.6.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.6.0/pom) | | | |
-| [4.5.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.5.0/pom) | | | |
-| [4.4.8](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.8/pom) | | | |
-| [4.4.7](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.7/pom) | | | |
-| [4.4.6](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.6/pom) | | | |
-| [4.4.5](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.5/pom) | [mvn jdk11](legend-engine-4.4.5.buildspec) | [result](legend-engine-4.4.5.buildinfo): [574 :white_check_mark:  75 :warning:](legend-engine-4.4.5.buildcompare) [:mag:](legend-engine-4.4.5.diffoscope) | 841M |
+| [4.6.2](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.6.2/pom) | [mvn jdk11](legend-engine-4.6.2.buildspec) | [result](legend-engine-4.6.2.buildinfo): [590 :white_check_mark:  77 :warning:](legend-engine-4.6.2.buildcompare) | 865M |
+| [4.6.1](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.6.1/pom) | [mvn jdk11](legend-engine-4.6.1.buildspec) | [result](legend-engine-4.6.1.buildinfo): [589 :white_check_mark:  78 :warning:](legend-engine-4.6.1.buildcompare) | 864M |
+| [4.6.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.6.0/pom) | [mvn jdk11](legend-engine-4.6.0.buildspec) | [result](legend-engine-4.6.0.buildinfo): [591 :white_check_mark:  76 :warning:](legend-engine-4.6.0.buildcompare) | 864M |
+| [4.5.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.5.0/pom) | [mvn jdk11](legend-engine-4.5.0.buildspec) | [result](legend-engine-4.5.0.buildinfo): [582 :white_check_mark:  75 :warning:](legend-engine-4.5.0.buildcompare) | 842M |
+| [4.4.8](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.8/pom) | [mvn jdk11](legend-engine-4.4.8.buildspec) | [result](legend-engine-4.4.8.buildinfo): [577 :white_check_mark:  74 :warning:](legend-engine-4.4.8.buildcompare) | 842M |
+| [4.4.7](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.7/pom) | [mvn jdk11](legend-engine-4.4.7.buildspec) | [result](legend-engine-4.4.7.buildinfo): [584 :white_check_mark:  67 :warning:](legend-engine-4.4.7.buildcompare) | 842M |
+| [4.4.6](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.6/pom) | [mvn jdk11](legend-engine-4.4.6.buildspec) | [result](legend-engine-4.4.6.buildinfo): [572 :white_check_mark:  76 :warning:](legend-engine-4.4.6.buildcompare) | 841M |
+| [4.4.5](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.5/pom) | [mvn jdk11](legend-engine-4.4.5.buildspec) | [result](legend-engine-4.4.5.buildinfo): [574 :white_check_mark:  75 :warning:](legend-engine-4.4.5.buildcompare) | 841M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -20,6 +20,7 @@ rebuilding **2 releases** of io.takari.maven.plugins:takari-plugin-testing-proje
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.5](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-plugin-testing/3.0.5/pom) | | | |
 | [3.0.4](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-plugin-testing-project/3.0.4/pom) | [mvn jdk11](takari-plugin-testing-3.0.4.buildspec) | [result](takari-plugin-testing-project-3.0.4.buildinfo): [4 :white_check_mark:  1 :warning:](takari-plugin-testing-project-3.0.4.buildcompare) [:mag:](takari-plugin-testing-project-3.0.4.diffoscope) [:memo:](https://github.com/takari/takari-lifecycle/issues/171) | 157K |
 | [3.0.3](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-plugin-testing-project/3.0.3/pom) | [mvn jdk11](takari-plugin-testing-3.0.3.buildspec) | [result](takari-plugin-testing-project-3.0.3.buildinfo): [4 :white_check_mark:  1 :warning:](takari-plugin-testing-project-3.0.3.buildcompare) [:mag:](takari-plugin-testing-project-3.0.3.diffoscope) [:memo:](https://github.com/takari/takari-lifecycle/issues/171) | 157K |
 
