@@ -17,9 +17,10 @@ previousJar="$(grep "\-${version}\.jar" $dir/$previousBuildinfo | head -1 | cut 
 previousArtifactId="$(echo "$previousJar" | sed -e "s/-${version}.jar$//")"
 nextJar="$previousArtifactId-$nextVersion.jar"
 
-echo "detecting JDK from $nextJar downloaded from https://repo.maven.apache.org/maven2/$(echo ${groupId} | tr '.' '/')/${previousArtifactId}/${nextVersion}/"
+referenceRepo="https://repo.maven.apache.org/maven2" && [ -n "$3" ] && referenceRepo=https://repository.apache.org/content/repositories/$3
+echo "detecting JDK from $nextJar downloaded from $referenceRepo/$(echo ${groupId} | tr '.' '/')/${previousArtifactId}/${nextVersion}/"
 [ -d tmp ] || mkdir tmp
-[ -f tmp/$nextJar ] || curl -s --fail https://repo.maven.apache.org/maven2/$(echo ${groupId} | tr '.' '/')/${previousArtifactId}/${nextVersion}/$nextJar --output tmp/$nextJar
+[ -f tmp/$nextJar ] || curl -s --fail $referenceRepo/$(echo ${groupId} | tr '.' '/')/${previousArtifactId}/${nextVersion}/$nextJar --output tmp/$nextJar
 if [ -f tmp/$nextJar ]
 then
   unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF > tmp/$previousArtifactId-$nextVersion-MANIFEST.MF
