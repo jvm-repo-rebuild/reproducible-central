@@ -4,12 +4,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240910182518 --> [takari-lifecycle-plugin](../content/io/takari/maven/plugins/takari-lifecycle-plugin/README.md) | [2.1.8](../content/io/takari/maven/plugins/takari-lifecycle-plugin/takari-lifecycle-plugin-2.1.8.buildspec) :white_check_mark: | [2.2.0](../content/io/takari/maven/plugins/takari-lifecycle-plugin/takari-lifecycle-plugin-2.2.0.buildspec) | `bin/add-new-release.sh content/io/takari/maven/plugins/takari-lifecycle-plugin/takari-lifecycle-plugin-2.1.8.buildspec 2.2.0` |
-| <!-- 20240910170736 --> [takari-smart-builder](../content/io/takari/maven/takari-smart-builder/README.md) | [1.0.1](../content/io/takari/maven/takari-smart-builder/takari-smart-builder-1.0.1.buildspec) :white_check_mark: | [1.0.2](../content/io/takari/maven/takari-smart-builder/takari-smart-builder-1.0.2.buildspec) | `bin/add-new-release.sh content/io/takari/maven/takari-smart-builder/takari-smart-builder-1.0.1.buildspec 1.0.2` |
-| <!-- 20240910120512 --> [maven-timeline](../content/io/takari/maven/maven-timeline/README.md) | [2.0.1](../content/io/takari/maven/maven-timeline/maven-timeline-2.0.1.buildspec) :white_check_mark: | [2.0.2](../content/io/takari/maven/maven-timeline/maven-timeline-2.0.2.buildspec) | `bin/add-new-release.sh content/io/takari/maven/maven-timeline/maven-timeline-2.0.1.buildspec 2.0.2` |
-| <!-- 20240910114732 --> [airbase](../content/io/airlift/airbase/README.md) | [171](../content/io/airlift/airbase/airbase-171.buildspec) :white_check_mark: | [172](../content/io/airlift/airbase/airbase-172.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-171.buildspec 172` |
-| <!-- 20240812232908 --> [accumulo](../content/org/apache/accumulo/README.md) | [3.0.0](../content/org/apache/accumulo/accumulo-3.0.0.buildspec) :white_check_mark: | 2.0.0-alpha-1  | `bin/add-new-release.sh content/org/apache/accumulo/accumulo-3.0.0.buildspec ...` |
-| <!-- 20240808072140 --> [activemq-parent](../content/org/apache/activemq/README.md) | [6.1.3](../content/org/apache/activemq/activemq-6.1.3.buildspec) :white_check_mark: | 5.18.5 5.18.4 5.18.1 5.17.6 5.17.5 5.17.2 5.16.7 5.16.6  | `bin/add-new-release.sh content/org/apache/activemq/activemq-6.1.3.buildspec ...` |
+| <!-- 20240911112747 --> [airbase](../content/io/airlift/airbase/README.md) | [172](../content/io/airlift/airbase/airbase-172.buildspec) :white_check_mark: | [173](../content/io/airlift/airbase/airbase-173.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-172.buildspec 173` |
 | <!-- 20240722091757 --> [syncope](../content/org/apache/syncope/README.md) | [3.0.8](../content/org/apache/syncope/syncope-3.0.8.buildspec) :white_check_mark: | 3.0.3 3.0.1 3.0.0-M2 3.0.0-M1 3.0.0-M0 2.1.14 2.1.13  | `bin/add-new-release.sh content/org/apache/syncope/syncope-3.0.8.buildspec ...` |
 | <!-- 20240702185023 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | [313](../content/org/alluxio/alluxio/alluxio-313.buildspec) :white_check_mark: | 308 307 306 305  | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-313.buildspec ...` |
 <!-- END GENERATED ADD OK -->
@@ -17,7 +12,6 @@ New Releases To Add
 ### Unexpected Diffoscope in Buildspec
 `buildcompare` says `ko=0` but `buildspec` configures a `diffoscope` value in following releases:
 <!-- BEGIN GENERATED UNEXPECTED DIFFOSCOPE -->
-      content/ch/qos/logback/logback-1.3.0-alpha15.buildspec
 <!-- END GENERATED UNEXPECTED DIFFOSCOPE -->
 
 ## Apache Release Candidate in Staging
@@ -25,11 +19,12 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD STAGING -->
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
-| <!-- 20240812083719 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-gpg-plugin](../content/org/apache/maven/plugins/maven-gpg-plugin/README.md) | [3.2.5](../content/org/apache/maven/plugins/maven-gpg-plugin/maven-gpg-plugin-3.2.5.buildspec) :white_check_mark: | [3.2.6](../content/org/apache/maven/plugins/maven-gpg-plugin/maven-gpg-plugin-3.2.6.buildspec)  | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-gpg-plugin/maven-gpg-plugin-3.2.5.buildspec 3.2.6 staging` |
+| <!-- 20240812083719 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-gpg-plugin](../content/org/apache/maven/plugins/maven-gpg-plugin/README.md) | [3.2.5](../content/org/apache/maven/plugins/maven-gpg-plugin/maven-gpg-plugin-3.2.5.buildspec) :white_check_mark: | [3.2.6](../content/org/apache/maven/plugins/maven-gpg-plugin/maven-gpg-plugin-3.2.6.buildspec) [6 :white_check_mark: ](../content/org/apache/maven/plugins/maven-gpg-plugin/maven-gpg-plugin-3.2.6.buildcompare) | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-gpg-plugin/maven-gpg-plugin-3.2.5.buildspec 3.2.6 staging` |
 | <!-- 20240812071155 --> [:mailbox:](https://lists.apache.org/list?dev@camel.apache.org:lte=1M:VOTE) | [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.8.0](../content/org/apache/camel/camel/camel-4.8.0.buildspec)  | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.8.0 staging` |
 | <!-- 20240810053328 --> [:mailbox:](https://lists.apache.org/list?dev@struts.apache.org:lte=1M:VOTE) | [struts2-parent](../content/org/apache/struts/README.md) | [6.6.0](../content/org/apache/struts/struts2-6.6.0.buildspec) :white_check_mark: | [7.0.0-M9](../content/org/apache/struts/struts2-7.0.0-M9.buildspec)  | `bin/add-new-release.sh content/org/apache/struts/struts2-6.6.0.buildspec 7.0.0-M9 staging` |
 | <!-- 20240809070356 --> [:mailbox:](https://lists.apache.org/list?dev@dubbo.apache.org:lte=1M:VOTE) | [dubbo](../content/org/apache/dubbo/README.md) | [3.3.0-beta.5](../content/org/apache/dubbo/dubbo-3.3.0-beta.5.buildspec) :white_check_mark: | [3.3.0](../content/org/apache/dubbo/dubbo-3.3.0.buildspec)  | `bin/add-new-release.sh content/org/apache/dubbo/dubbo-3.3.0-beta.5.buildspec 3.3.0 staging` |
 | <!-- 20240712040920 --> [:mailbox:](https://lists.apache.org/list?dev@paimon.apache.org:lte=1M:VOTE) | [paimon-parent](../content/org/apache/paimon/README.md) | [0.8.2](../content/org/apache/paimon/paimon-parent-0.8.2.buildspec) :warning: [:memo:](https://github.com/apache/paimon/pull/3719) | [0.9.0](../content/org/apache/paimon/paimon-parent-0.9.0.buildspec)  | `bin/add-new-release.sh content/org/apache/paimon/paimon-parent-0.8.2.buildspec 0.9.0 staging` |
+| <!-- 20240711142006 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-indexer](../content/org/apache/maven/indexer/README.md) | [7.1.4](../content/org/apache/maven/indexer/maven-indexer-7.1.4.buildspec) :white_check_mark: | [7.1.5](../content/org/apache/maven/indexer/maven-indexer-7.1.5.buildspec)  | `bin/add-new-release.sh content/org/apache/maven/indexer/maven-indexer-7.1.4.buildspec 7.1.5 staging` |
 | <!-- 20240625152252 --> [:mailbox:](https://lists.apache.org/list?dev@ratis.apache.org:lte=1M:VOTE) | [ratis](../content/org/apache/ratis/README.md) | [3.1.0](../content/org/apache/ratis/ratis-3.1.0.buildspec) :warning: [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) | [3.1.1](../content/org/apache/ratis/ratis-3.1.1.buildspec)  | `bin/add-new-release.sh content/org/apache/ratis/ratis-3.1.0.buildspec 3.1.1 staging` |
 <!-- END GENERATED ADD STAGING -->
 
@@ -38,9 +33,6 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240910165605 --> [takari-plugin-testing-project](../content/io/takari/maven/plugins/takari-plugin-testing/README.md) | [3.0.4](../content/io/takari/maven/plugins/takari-plugin-testing/takari-plugin-testing-3.0.4.buildspec) :warning: [:memo:](https://github.com/takari/takari-lifecycle/issues/171) | [3.0.5](../content/io/takari/maven/plugins/takari-plugin-testing/takari-plugin-testing-3.0.5.buildspec) | `bin/add-new-release.sh content/io/takari/maven/plugins/takari-plugin-testing/takari-plugin-testing-3.0.4.buildspec 3.0.5` |
-| <!-- 20240910143522 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | [1.39.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.39.0.buildspec) :warning: | [1.42.1](../content/io/opentelemetry/java/opentelemetry-sdk-1.42.1.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/java/opentelemetry-sdk-1.39.0.buildspec 1.42.1` |
-| <!-- 20240909190408 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.6.2](../content/org/finos/legend/engine/legend-engine-4.6.2.buildspec) :warning: | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.6.2.buildspec 4.56.0` |
 | <!-- 20240909140921 --> [jooby](../content/io/jooby/README.md) | [3.0.5](../content/io/jooby/jooby-3.0.5.buildspec) :warning: | [3.3.1](../content/io/jooby/jooby-3.3.1.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-3.0.5.buildspec 3.3.1` |
 | <!-- 20240830114239 --> [glassfish-parent](../content/org/glassfish/main/README.md) | [8.0.0-M1](../content/org/glassfish/main/glassfish-8.0.0-M1.buildspec) :warning: | [8.0.0-JDK17-M7](../content/org/glassfish/main/glassfish-8.0.0-JDK17-M7.buildspec) | `bin/add-new-release.sh content/org/glassfish/main/glassfish-8.0.0-M1.buildspec 8.0.0-JDK17-M7` |
 | <!-- 20240826095507 --> [io.wcm.caconfig.editor.parent](../content/io/wcm/io.wcm.caconfig/README.md) | [1.8.0](../content/io/wcm/io.wcm.caconfig/wcm-caconfig-editor-1.8.0.buildspec) :warning: | [1.16.4](../content/io/wcm/io.wcm.caconfig/wcm-caconfig-editor-1.16.4.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.caconfig/wcm-caconfig-editor-1.8.0.buildspec 1.16.4` |
@@ -87,6 +79,8 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20240910143522 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | 1.42.1 :warning: |
+| <!-- 20240909190408 --> [legend-engine](../content/org/finos/legend/engine/README.md) | 4.56.0 :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) |
 | <!-- 20240905060651 --> [org.apache.sling.scripting.core](../content/org/apache/sling/org.apache.sling.scripting.core/README.md) | 2.4.10 :warning: [:memo:](https://issues.apache.org/jira/browse/SLING-12422) |
 | <!-- 20240828185349 --> [sigstore-maven-plugin](../content/dev/sigstore/sigstore-maven-plugin/README.md) | 1.0.0 :warning: |
 | <!-- 20240827103251 --> [org.apache.sling.i18n](../content/org/apache/sling/org.apache.sling.i18n/README.md) | 2.6.4 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-i18n/pull/16) |
