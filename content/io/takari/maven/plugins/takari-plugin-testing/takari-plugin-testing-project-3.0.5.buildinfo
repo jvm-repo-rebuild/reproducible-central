@@ -1,0 +1,54 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=takari-plugin-testing-project
+group-id=io.takari.maven.plugins
+artifact-id=takari-plugin-testing-project
+version=3.0.5
+
+# source information
+source.scm.uri=scm:git:git@github.com:takari/takari-plugin-testing-project.git
+source.scm.tag=takari-plugin-testing-3.0.5
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=takari-plugin-integration-testing
+
+# aggregated output
+
+outputs.0.coordinates=io.takari.maven.plugins:takari-plugin-testing-project
+
+outputs.0.0.groupId=io.takari.maven.plugins
+outputs.0.0.filename=takari-plugin-testing-project-3.0.5.pom
+outputs.0.0.length=5962
+outputs.0.0.checksums.sha512=54d2ac9ca5b56ca762cf6676020f769336bc229dba8190f21eb53a01fff292d13ffa10c2d01e395fd24ff00f295bcd27c246f21f8cfbf66f53883edd94946ba5
+
+outputs.1.coordinates=io.takari.maven.plugins:takari-plugin-testing
+
+outputs.1.0.groupId=io.takari.maven.plugins
+outputs.1.0.filename=takari-plugin-testing-3.0.5.pom
+outputs.1.0.length=3976
+outputs.1.0.checksums.sha512=45d2d92fb9901b00977c99009bae4f797d1e679857e39400f06e5dbd41e5c2d9711b7512685aece7fd34d8f0ca39c9e453ae9f500635fe263f318d2e2b660c83
+
+outputs.1.1.groupId=io.takari.maven.plugins
+outputs.1.1.filename=takari-plugin-testing-3.0.5.jar
+outputs.1.1.length=96312
+outputs.1.1.checksums.sha512=af90af07e814aa48a9c61aa744166610fbc0840c5055df5d477a188bf9d0f9382ff140cbb4ca87a9a0314bd1de68d65b51587dbbb301732f7b5ee46c4dd90711
+
+outputs.1.2.groupId=io.takari.maven.plugins
+outputs.1.2.filename=takari-plugin-testing-3.0.5-sources.jar
+outputs.1.2.length=52784
+outputs.1.2.checksums.sha512=9a826ced46ce73a16703702500080ef05bd17e37c870bb3d6b717ccfd5c1c3ce9981635891916a9ff87814a3487d7a4e0d38f49034bbf76f092a8cc5a523968e
+
+outputs.2.coordinates=io.takari.maven.plugins:takari-plugin-integration-testing
+
+outputs.2.0.groupId=io.takari.maven.plugins
+outputs.2.0.filename=takari-plugin-integration-testing-3.0.5.pom
+outputs.2.0.length=1626
+outputs.2.0.checksums.sha512=bf13eeced4400c2e8f4619d408420afcb5c12ff7d7043e3c249c90bb10cd5a9780b5086144dafa75d1196c6a32a8b0b26bdc8ceb35cbcef3e2732d9f975a659b
