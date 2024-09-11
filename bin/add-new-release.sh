@@ -28,19 +28,30 @@ then
   unzip -q -c tmp/$nextJar META-INF/maven/$groupId/$previousArtifactId/pom.xml > tmp/$previousArtifactId-$nextVersion-pom.xml
   du --apparent-size -h tmp/$previousArtifactId-$nextVersion*
   detectNewline() {
-      if [ "$(grep $'\r' $1 | wc -l)" -eq 0 ]
-      then
-        echo "$1 newline is *nix"
-      else
-        echo "$1 newline is windows"
-      fi
+    [ -s $1 ] || return
+    if [ "$(grep $'\r' $1 | wc -l)" -eq 0 ]
+    then
+      echo "$1 newline is *nix"
+    else
+      echo "$1 newline is windows"
+    fi
   }
   detectNewline tmp/$previousArtifactId-$nextVersion-pom.properties
   detectNewline tmp/$previousArtifactId-$nextVersion-pom.xml
   echo "buildspec newline=$newline"
 
   nextJdk="$(unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep Jdk | cut -d ' ' -f 2 | sed -e 's/^1\.//' | sed -e 's/\r//')"
-  [ "$jdk" != "$nextJdk" ] && echo -e "\033[0;1mupdating jdk: $jdk => $nextJdk\033[0;0m" && sed -i "s/^jdk=.*/jdk=${nextJdk}/" ${nextBuildspec}
+  if [ -z "$nextJdk" ]
+  then
+    echo -e "\033[0;31mcould not detect JDK\033[0;0m"
+    cat tmp/$previousArtifactId-$nextVersion-MANIFEST.MF
+  else
+    if [ "$jdk" != "$nextJdk" ]
+    then
+      echo -e "\033[0;1mupdating jdk: $jdk => $nextJdk\033[0;0m"
+      sed -i "s/^jdk=.*/jdk=${nextJdk}/" ${nextBuildspec}
+    fi
+  fi
 else
   echo -e "\033[0;31m  $nextJar not found\033[0;0m"
 fi
