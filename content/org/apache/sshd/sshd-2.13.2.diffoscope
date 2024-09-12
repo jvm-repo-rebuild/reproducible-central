@@ -1,0 +1,239 @@
+1 / 11 target/reference/org.apache.sshd/sshd-common-2.13.2.jar sshd-common/target/sshd-common-2.13.2.jar
+--- target/reference/org.apache.sshd/sshd-common-2.13.2.jar
++++ sshd-common/target/sshd-common-2.13.2.jar
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,10 @@
+│  Manifest-Version: 1.0
+
+│  Implementation-Title: Apache Mina SSHD :: Common support utilities
+
+│  Automatic-Module-Name: org.apache.sshd.common
+
+│ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.9
+
+│  Implementation-Version: 2.13.2
+
+│  Specification-Vendor: The Apache Software Foundation
+
+│  Specification-Title: Apache Mina SSHD :: Common support utilities
+
+│  Build-Jdk-Spec: 1.8
+
+│  Created-By: Apache Maven Bundle Plugin 5.1.9
+
+│  Specification-Version: 2.13
+
+│  Tool: Bnd-6.3.1.202206071316
+
+2 / 11 target/reference/org.apache.sshd/sshd-putty-2.13.2.jar sshd-putty/target/sshd-putty-2.13.2.jar
+3 / 11 target/reference/org.apache.sshd/sshd-openpgp-2.13.2.jar sshd-openpgp/target/sshd-openpgp-2.13.2.jar
+4 / 11 target/reference/org.apache.sshd/sshd-core-2.13.2.jar sshd-core/target/sshd-core-2.13.2.jar
+5 / 11 target/reference/org.apache.sshd/sshd-core-2.13.2-tests.jar sshd-core/target/sshd-core-2.13.2-tests.jar
+
+6 / 11 target/reference/org.apache.sshd/sshd-core-2.13.2-reusable-tests.jar sshd-core/target/sshd-core-2.13.2-reusable-reusable-tests.jar
+--- target/reference/org.apache.sshd/sshd-core-2.13.2-reusable-tests.jar
++++ sshd-core/target/sshd-core-2.13.2-reusable-reusable-tests.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 882755 bytes, number of entries: 538
+│ +Zip file size: 881197 bytes, number of entries: 537
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 META-INF/
+│ --rw-r--r--  2.0 unx      489 b- defN 24-Jul-23 12:57 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx      432 b- defN 24-Jul-23 12:57 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 org/apache/
+│ @@ -288,15 +288,14 @@
+│  -rw-r--r--  2.0 unx     1213 b- defN 24-Jul-23 12:57 org/apache/sshd/client/simple/SimpleSessionClientTest$1.class
+│  -rw-r--r--  2.0 unx     8503 b- defN 24-Jul-23 12:57 org/apache/sshd/client/simple/SimpleSessionClientTest.class
+│ --rw-r--r--  2.0 unx     1856 b- defN 24-Jul-23 12:57 org/apache/sshd/client/userKey
+│  -rw-r--r--  2.0 unx     5910 b- defN 24-Jul-23 12:57 org/apache/sshd/common/AttributeStoreTest.class
+│  -rw-r--r--  2.0 unx    11219 b- defN 24-Jul-23 12:57 org/apache/sshd/common/PropertyResolverUtilsTest.class
+│ @@ -533,8 +532,8 @@
+│  -rw-r--r--  2.0 unx    12199 b- defN 24-Jul-23 12:57 META-INF/maven/org.apache.sshd/sshd-core/pom.xml
+│  -rw-r--r--  2.0 unx       60 b- defN 24-Jul-23 12:57 META-INF/maven/org.apache.sshd/sshd-core/pom.properties
+│ -538 files, 1787972 bytes uncompressed, 784307 bytes compressed:  56.1%
+│ +537 files, 1786059 bytes uncompressed, 782885 bytes compressed:  56.2%
+├── zipnote «TEMP»/diffoscope_d7fp6jwj_target/tmp2vnw_lx3_.zip
+│ @@ -873,17 +873,14 @@
+│  
+│  Filename: org/apache/sshd/client/simple/SimpleSessionClientTest$1.class
+│  Comment: 
+│  
+│  Filename: org/apache/sshd/client/simple/SimpleSessionClientTest.class
+│  Comment: 
+│  
+│ -Filename: org/apache/sshd/client/userKey
+│ -Comment: 
+│ -
+│  Filename: org/apache/sshd/common/AttributeStoreTest.class
+│  Comment: 
+│  
+│  Filename: org/apache/sshd/common/PropertyResolverUtilsTest.class
+│  Comment: 
+│  
+│  Filename: org/apache/sshd/common/SshBuilderTest.class
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,10 @@
+│  Manifest-Version: 1.0
+
+│  Implementation-Title: Apache Mina SSHD :: Core
+
+│  Automatic-Module-Name: org.apache.sshd.core
+
+│ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.9
+
+│  Implementation-Version: 2.13.2
+
+│  Specification-Vendor: The Apache Software Foundation
+
+│  Specification-Title: Apache Mina SSHD :: Core
+
+│  Build-Jdk-Spec: 1.8
+
+│  Created-By: Apache Maven Bundle Plugin 5.1.9
+
+│  Specification-Version: 2.13
+
+│  Tool: Bnd-6.3.1.202206071316
+
+7 / 11 target/reference/org.apache.sshd/sshd-osgi-2.13.2-sources.jar sshd-osgi/target/sshd-osgi-2.13.2-sources.jar
+--- target/reference/org.apache.sshd/sshd-osgi-2.13.2-sources.jar
++++ sshd-osgi/target/sshd-osgi-2.13.2-sources.jar
+├── zipinfo {}
+│ @@ -1,872 +1,872 @@
+│  Zip file size: 1406426 bytes, number of entries: 870
+│ -drwxr-xr-x  2.0 unx        0 bx stor 24-Jul-24 08:16 META-INF/
+│ --rw-r--r--  2.0 unx       91 b- defN 24-Jul-24 08:16 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-31 08:50 org/
+...
+│ --rw-r--r--  2.0 unx      109 b- defN 24-Jul-24 08:16 META-INF/maven/org.apache.sshd/sshd-osgi/pom.properties
+│ --rw-r--r--  2.0 unx     9277 b- defN 24-Jul-24 08:16 META-INF/maven/org.apache.sshd/sshd-osgi/pom.xml
+│ +drwxr-xr-x  2.0 unx        0 bx stor 24-Sep-12 09:32 META-INF/
+│ +-rw-r--r--  2.0 unx       91 b- defN 24-Sep-12 09:32 META-INF/MANIFEST.MF
+...
+│ +-rw-r--r--  2.0 unx      109 b- defN 24-Sep-12 09:32 META-INF/maven/org.apache.sshd/sshd-osgi/pom.properties
+│ +-rw-r--r--  2.0 unx     9277 b- defN 24-Sep-12 09:32 META-INF/maven/org.apache.sshd/sshd-osgi/pom.xml
+│  870 files, 4220725 bytes uncompressed, 1245672 bytes compressed:  70.5%
+
+8 / 11 target/reference/org.apache.sshd/apache-sshd-2.13.2.tar.gz assembly/target/apache-sshd-2.13.2.tar.gz
+--- target/reference/org.apache.sshd/apache-sshd-2.13.2.tar.gz
++++ assembly/target/apache-sshd-2.13.2.tar.gz
+├── apache-sshd-2.13.2.tar
+│ ├── file list
+│ │ @@ -27,35 +27,35 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)   133770 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/lib/sshd-cli-2.13.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   672112 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/lib/mina-core-2.0.23.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   929900 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/lib/sshd-core-2.13.2.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)   929890 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/lib/sshd-core-2.13.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    16630 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/lib/jcl-over-slf4j-1.7.32.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    37775 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/lib/netty-resolver-4.1.81.Final.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   653880 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/lib/netty-common-4.1.81.Final.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   379073 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/lib/sshd-sftp-2.13.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   538004 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/lib/netty-handler-4.1.81.Final.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    25160 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/lib/tomcat-apr-5.5.23.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   929080 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/lib/sshd-common-2.13.2.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)   929069 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/lib/sshd-common-2.13.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)  1340629 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/lib/assertj-core-3.24.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    63292 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/lib/eddsa-0.3.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    33450 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/lib/sshd-netty-2.13.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)  3818926 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/lib/byte-buddy-1.12.6.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    31165 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/lib/sshd-mina-2.13.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   339157 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/lib/netty-codec-4.1.81.Final.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   304565 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/lib/netty-buffer-4.1.81.Final.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)     8490 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/lib/slf4j-jdk14-1.7.32.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    29227 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/extras/sshd-putty-2.13.2.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)    29220 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/extras/sshd-putty-2.13.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    36154 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/extras/sshd-git-2.13.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    21113 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/extras/sshd-ldap-2.13.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    23908 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/extras/sshd-spring-sftp-2.13.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    42142 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/extras/sshd-openpgp-2.13.2.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)    42131 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/extras/sshd-openpgp-2.13.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    51907 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/extras/sshd-contrib-2.13.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)  1852110 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/extras/sshd-osgi-2.13.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   568791 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/dependencies/spring-messaging-5.3.28.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   293371 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/dependencies/spring-expression-5.3.28.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   140893 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/dependencies/spring-retry-1.3.1.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   703444 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/dependencies/spring-beans-5.3.28.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)  1693280 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/dependencies/reactor-core-3.4.12.jar
+
+9 / 11 target/reference/org.apache.sshd/apache-sshd-2.13.2.zip assembly/target/apache-sshd-2.13.2.zip
+
+10 / 11 target/reference/org.apache.sshd/apache-sshd-2.13.2-src.tar.gz assembly/target/apache-sshd-2.13.2-src.tar.gz
+--- target/reference/org.apache.sshd/apache-sshd-2.13.2-src.tar.gz
++++ assembly/target/apache-sshd-2.13.2-src.tar.gz
+├── apache-sshd-2.13.2-src.tar
+│ ├── file list
+│ │ @@ -27,15 +27,14 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)     8354 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/sshd-openpgp/src/test/resources/org/apache/sshd/openpgp/super-secret-passphrase-RSA-4096-v2p0p8-private.gpg
+│ │  -rw-r--r--   0 root         (0) root         (0)      520 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/sshd-openpgp/src/test/resources/org/apache/sshd/openpgp/super-secret-passphrase-ed25519-gpg4win-3.1.3.gpg
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/ae/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/assembly/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/assembly/src/
+│ │ @@ -555,39 +554,14 @@
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/sshd-scp/src/test/resources/org/apache/sshd/scp/client/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/sshd-sftp/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/sshd-sftp/sftp/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/sshd-sftp/sftp/SftpTest/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/sshd-sftp/sftp/SftpTest/forbidden/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/sshd-sftp/sftp/SftpTest/testCannotEscapeUserAbsoluteRoot[NativeFS]/
+...
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/sshd-sftp/sftp/SftpTest/testWriteCreateAppend[NativeFS]/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/sshd-sftp/sftp/SftpTest/testWriteOffsetIgnoredForAppendMode[NativeFS]/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/sshd-sftp/src/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/sshd-sftp/src/main/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/sshd-sftp/src/main/filtered-resources/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/sshd-sftp/src/main/filtered-resources/META-INF/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/sshd-sftp/src/main/filtered-resources/META-INF/services/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/sshd-sftp/src/main/java/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2024-07-23 12:57:08.000000 apache-sshd-2.13.2/sshd-sftp/src/main/java/org/
+
+11 / 11 target/reference/org.apache.sshd/apache-sshd-2.13.2-src.zip assembly/target/apache-sshd-2.13.2-src.zip
+--- target/reference/org.apache.sshd/apache-sshd-2.13.2-src.zip
++++ assembly/target/apache-sshd-2.13.2-src.zip
+├── zipinfo {}
+│ @@ -1,22 +1,21 @@
+│ -Zip file size: 3560514 bytes, number of entries: 2384
+│ +Zip file size: 3554858 bytes, number of entries: 2358
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-openpgp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-openpgp/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-openpgp/src/test/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-openpgp/src/test/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-openpgp/src/test/resources/kbx2ring/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-openpgp/src/test/resources/kbx2ring/openpgp-revocs.d/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-openpgp/src/test/resources/kbx2ring/private-keys-v1.d/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-openpgp/src/test/resources/keyring/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-openpgp/src/test/resources/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-openpgp/src/test/resources/org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-openpgp/src/test/resources/org/apache/sshd/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-openpgp/src/test/resources/org/apache/sshd/openpgp/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/ae/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/assembly/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/assembly/src/
+│ @@ -532,39 +531,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-scp/src/test/resources/org/apache/sshd/scp/client/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-sftp/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-sftp/sftp/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-sftp/sftp/SftpTest/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-sftp/sftp/SftpTest/forbidden/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-sftp/sftp/SftpTest/testCannotEscapeUserAbsoluteRoot[NativeFS]/
+...
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-sftp/sftp/SftpTest/testWriteCreateAppend[NativeFS]/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-sftp/sftp/SftpTest/testWriteOffsetIgnoredForAppendMode[NativeFS]/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-sftp/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-sftp/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-sftp/src/main/filtered-resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-sftp/src/main/filtered-resources/META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-sftp/src/main/filtered-resources/META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-sftp/src/main/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-sftp/src/main/java/org/
+│ @@ -2379,8 +2353,8 @@
+│  -rw-r--r--  2.0 unx     1273 b- defN 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-sources/tomcat-apr-5.5.23-sources/org/apache/tomcat/jni/Time.java
+│  -rw-r--r--  2.0 unx     1162 b- defN 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-sources/tomcat-apr-5.5.23-sources/org/apache/tomcat/jni/User.java
+│  -rw-r--r--  2.0 unx     4488 b- defN 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-spring-sftp/pom.xml
+│  -rw-r--r--  2.0 unx    20133 b- defN 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-spring-sftp/src/main/java/org/apache/sshd/sftp/spring/integration/ApacheSshdSftpSessionFactory.java
+│  -rw-r--r--  2.0 unx     1663 b- defN 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-spring-sftp/src/main/java/org/apache/sshd/sftp/spring/integration/SpringIoResource.java
+│  -rw-r--r--  2.0 unx     9737 b- defN 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-spring-sftp/src/main/java/org/apache/sshd/sftp/spring/integration/SpringSftpSession.java
+│  -rw-r--r--  2.0 unx    18322 b- defN 24-Jul-23 12:57 apache-sshd-2.13.2/sshd-spring-sftp/src/test/java/org/apache/sshd/sftp/spring/integration/ApacheSshdSftpSessionFactoryTest.java
+│ -2384 files, 10774327 bytes uncompressed, 2945870 bytes compressed:  72.7%
+│ +2358 files, 10774327 bytes uncompressed, 2945870 bytes compressed:  72.7%
