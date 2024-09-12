@@ -1,0 +1,56 @@
+1 / 1 target/reference/eu.europa.ted.eforms/efx-toolkit-java-2.0.0-alpha.4-sources.jar target/efx-toolkit-java-2.0.0-alpha.4-sources.jar
+--- target/reference/eu.europa.ted.eforms/efx-toolkit-java-2.0.0-alpha.4-sources.jar
++++ target/efx-toolkit-java-2.0.0-alpha.4-sources.jar
+├── zipinfo {}
+│ @@ -100,24 +100,24 @@
+│  -rw-r--r--  2.0 unx     1198 b- defN 24-Aug-02 09:53 eu/europa/ted/efx/xpath/XPathContextualizer.java
+│  -rw-r--r--  2.0 unx    22553 b- defN 24-Aug-02 09:53 eu/europa/ted/efx/xpath/XPathScriptGenerator.java
+│ --rw-r--r--  2.0 unx     3415 b- defN 24-Aug-02 09:53 Efx.tokens
+│ --rw-r--r--  2.0 unx     3415 b- defN 24-Aug-02 09:53 EfxLexer.tokens
+│ +-rw-r--r--  2.0 unx     3649 b- defN 24-Aug-02 09:53 Efx.tokens
+│ +-rw-r--r--  2.0 unx     3649 b- defN 24-Aug-02 09:53 EfxLexer.tokens
+│  -rw-r--r--  2.0 unx    44265 b- defN 24-Aug-02 09:53 eu/europa/ted/efx/sdk1/Efx.interp
+│  -rw-r--r--  2.0 unx    75886 b- defN 24-Aug-02 09:53 eu/europa/ted/efx/sdk1/EfxBaseListener.java
+│  -rw-r--r--  2.0 unx    14420 b- defN 24-Aug-02 09:53 META-INF/maven/eu.europa.ted.eforms/efx-toolkit-java/pom.xml
+│  -rw-r--r--  2.0 unx       79 b- defN 24-Aug-02 09:53 META-INF/maven/eu.europa.ted.eforms/efx-toolkit-java/pom.properties
+│ -121 files, 2236999 bytes uncompressed, 291631 bytes compressed:  87.0%
+│ +121 files, 2237467 bytes uncompressed, 291877 bytes compressed:  87.0%
+├── Efx.tokens
+│ @@ -1,233 +1,252 @@
+│  Comment=1
+│  EmptyLine=2
+│  MixedIndent=3
+│  Tabs=4
+│  Spaces=5
+│  OutlineNumber=6
+│  SWS=7
+│ -CRLF=8
+│ -FreeText=9
+...
+│ -'/@'=136
+│ -':'=137
+│ +LineJoining=8
+│ +CRLF=9
+...
+│ +'..'=147
+│ +':'=148
+├── EfxLexer.tokens
+│ @@ -1,233 +1,252 @@
+│  Comment=1
+│  EmptyLine=2
+│  MixedIndent=3
+│  Tabs=4
+│  Spaces=5
+│  OutlineNumber=6
+│  SWS=7
+│ -CRLF=8
+│ -FreeText=9
+...
+│ -'/@'=136
+│ -':'=137
+│ +LineJoining=8
+│ +CRLF=9
+...
+│ +'..'=147
+│ +':'=148
+
