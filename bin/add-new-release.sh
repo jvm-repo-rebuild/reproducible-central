@@ -13,14 +13,16 @@ sed "s/^version=.*/version=${nextVersion}/" ${previousBuildspec} > ${nextBuildsp
 
 # detect JDK used for next release, to change buildspec if necessary
 previousBuildinfo=$(ls $dir | grep "\-${version}\.buildinfo")
+buildinfoOutputId="$(grep "\-${version}\.jar" $dir/$previousBuildinfo | head -1 | cut -d . -f 2)"
 previousJar="$(grep "\-${version}\.jar" $dir/$previousBuildinfo | head -1 | cut -d = -f 2)"
-previousArtifactId="$(echo "$previousJar" | sed -e "s/-${version}.jar$//")"
-nextJar="$previousArtifactId-$nextVersion.jar"
+jarGroupIdAsDir="$(grep "outputs.$buildinfoOutputId.coordinates=" $dir/$previousBuildinfo | cut -d = -f 2 | cut -d : -f 1 | tr '.' '/')"
+jarArtifactId="$(echo "$previousJar" | sed -e "s/-${version}.jar$//")"
+nextJar="$jarArtifactId-$nextVersion.jar"
 
 referenceRepo="https://repo.maven.apache.org/maven2" && [ -n "$3" ] && referenceRepo=https://repository.apache.org/content/repositories/$3
-echo "detecting JDK from $nextJar downloaded from $referenceRepo/$(echo ${groupId} | tr '.' '/')/${previousArtifactId}/${nextVersion}/"
+echo "detecting JDK from $nextJar downloaded from $referenceRepo/${jarGroupIdAsDir}/${jarArtifactId}/${nextVersion}/"
 [ -d tmp ] || mkdir tmp
-[ -f tmp/$nextJar ] || curl -s --fail $referenceRepo/$(echo ${groupId} | tr '.' '/')/${previousArtifactId}/${nextVersion}/$nextJar --output tmp/$nextJar
+[ -f tmp/$nextJar ] || curl -s --fail $referenceRepo/${jarGroupIdAsDir}/${jarArtifactId}/${nextVersion}/$nextJar --output tmp/$nextJar
 if [ -f tmp/$nextJar ]
 then
   unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep Jdk
@@ -28,7 +30,7 @@ then
   if [ -z "$nextJdk" ]
   then
     echo -e "\033[0;31mcould not detect JDK\033[0;0m"
-    cat tmp/$previousArtifactId-$nextVersion-MANIFEST.MF
+    cat tmp/$jarArtifactId-$nextVersion-MANIFEST.MF
   else
     if [ "$jdk" != "$nextJdk" ]
     then
@@ -38,10 +40,10 @@ then
   fi
 
   echo "useful content for investigating rebuild environment:"
-  unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF > tmp/$previousArtifactId-$nextVersion-MANIFEST.MF
-  unzip -q -c tmp/$nextJar META-INF/maven/$groupId/$previousArtifactId/pom.properties > tmp/$previousArtifactId-$nextVersion-pom.properties
-  unzip -q -c tmp/$nextJar META-INF/maven/$groupId/$previousArtifactId/pom.xml > tmp/$previousArtifactId-$nextVersion-pom.xml
-  du --apparent-size -h tmp/$previousArtifactId-$nextVersion*
+  unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF > tmp/$jarArtifactId-$nextVersion-MANIFEST.MF
+  unzip -q -c tmp/$nextJar META-INF/maven/$groupId/$jarArtifactId/pom.properties > tmp/$jarArtifactId-$nextVersion-pom.properties
+  unzip -q -c tmp/$nextJar META-INF/maven/$groupId/$jarArtifactId/pom.xml > tmp/$jarArtifactId-$nextVersion-pom.xml
+  du --apparent-size -h tmp/$jarArtifactId-$nextVersion*
   detectNewline() {
     [ -s $1 ] || return
     if [ "$(grep $'\r' $1 | wc -l)" -eq 0 ]
@@ -51,8 +53,8 @@ then
       echo "$1 newline is windows"
     fi
   }
-  detectNewline tmp/$previousArtifactId-$nextVersion-pom.properties
-  detectNewline tmp/$previousArtifactId-$nextVersion-pom.xml
+  detectNewline tmp/$jarArtifactId-$nextVersion-pom.properties
+  detectNewline tmp/$jarArtifactId-$nextVersion-pom.xml
   echo "buildspec newline=$newline"
 else
   echo -e "\033[0;31m  $nextJar not found\033[0;0m"
