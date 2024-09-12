@@ -23,6 +23,21 @@ echo "detecting JDK from $nextJar downloaded from $referenceRepo/$(echo ${groupI
 [ -f tmp/$nextJar ] || curl -s --fail $referenceRepo/$(echo ${groupId} | tr '.' '/')/${previousArtifactId}/${nextVersion}/$nextJar --output tmp/$nextJar
 if [ -f tmp/$nextJar ]
 then
+  unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep Jdk
+  nextJdk="$(unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep Jdk | cut -d ' ' -f 2 | sed -e 's/^1\.//' | sed -e 's/\r//')"
+  if [ -z "$nextJdk" ]
+  then
+    echo -e "\033[0;31mcould not detect JDK\033[0;0m"
+    cat tmp/$previousArtifactId-$nextVersion-MANIFEST.MF
+  else
+    if [ "$jdk" != "$nextJdk" ]
+    then
+      echo -e "\033[0;1mupdating jdk: $jdk => $nextJdk\033[0;0m"
+      sed -i "s/^jdk=.*/jdk=${nextJdk}/" ${nextBuildspec}
+    fi
+  fi
+
+  echo "useful content for investigating rebuild environment:"
   unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF > tmp/$previousArtifactId-$nextVersion-MANIFEST.MF
   unzip -q -c tmp/$nextJar META-INF/maven/$groupId/$previousArtifactId/pom.properties > tmp/$previousArtifactId-$nextVersion-pom.properties
   unzip -q -c tmp/$nextJar META-INF/maven/$groupId/$previousArtifactId/pom.xml > tmp/$previousArtifactId-$nextVersion-pom.xml
@@ -39,19 +54,6 @@ then
   detectNewline tmp/$previousArtifactId-$nextVersion-pom.properties
   detectNewline tmp/$previousArtifactId-$nextVersion-pom.xml
   echo "buildspec newline=$newline"
-
-  nextJdk="$(unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep Jdk | cut -d ' ' -f 2 | sed -e 's/^1\.//' | sed -e 's/\r//')"
-  if [ -z "$nextJdk" ]
-  then
-    echo -e "\033[0;31mcould not detect JDK\033[0;0m"
-    cat tmp/$previousArtifactId-$nextVersion-MANIFEST.MF
-  else
-    if [ "$jdk" != "$nextJdk" ]
-    then
-      echo -e "\033[0;1mupdating jdk: $jdk => $nextJdk\033[0;0m"
-      sed -i "s/^jdk=.*/jdk=${nextJdk}/" ${nextBuildspec}
-    fi
-  fi
 else
   echo -e "\033[0;31m  $nextJar not found\033[0;0m"
 fi
