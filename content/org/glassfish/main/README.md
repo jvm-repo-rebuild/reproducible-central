@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/eclipse-ee4j/glassfish.git)
 
-<details><summary>This project defines 293 modules:</summary>
+<details><summary>This project defines 296 modules:</summary>
 
 * [org.glassfish.docs:distribution](https://central.sonatype.com/artifact/org.glassfish.docs/distribution/overview)
 * [org.glassfish.docs:docs](https://central.sonatype.com/artifact/org.glassfish.docs/docs/overview)
@@ -33,6 +33,7 @@ Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/
 * [org.glassfish.main.admingui.connector:gf-admingui-connector](https://central.sonatype.com/artifact/org.glassfish.main.admingui.connector/gf-admingui-connector/overview)
 * [org.glassfish.main.admingui:admingui](https://central.sonatype.com/artifact/org.glassfish.main.admingui/admingui/overview)
 * [org.glassfish.main.admingui:console-cluster-plugin](https://central.sonatype.com/artifact/org.glassfish.main.admingui/console-cluster-plugin/overview)
+* [org.glassfish.main.admingui:console-commandrecorder-plugin](https://central.sonatype.com/artifact/org.glassfish.main.admingui/console-commandrecorder-plugin/overview)
 * [org.glassfish.main.admingui:console-common](https://central.sonatype.com/artifact/org.glassfish.main.admingui/console-common/overview)
 * [org.glassfish.main.admingui:console-common-full-plugin](https://central.sonatype.com/artifact/org.glassfish.main.admingui/console-common-full-plugin/overview)
 * [org.glassfish.main.admingui:console-community-branding-plugin](https://central.sonatype.com/artifact/org.glassfish.main.admingui/console-community-branding-plugin/overview)
@@ -141,6 +142,7 @@ Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/
 * [org.glassfish.main.extras:appserv-rt-frag](https://central.sonatype.com/artifact/org.glassfish.main.extras/appserv-rt-frag/overview)
 * [org.glassfish.main.extras:appserv-rt-pom](https://central.sonatype.com/artifact/org.glassfish.main.extras/appserv-rt-pom/overview)
 * [org.glassfish.main.extras:bootstrap](https://central.sonatype.com/artifact/org.glassfish.main.extras/bootstrap/overview)
+* [org.glassfish.main.extras:command-logger](https://central.sonatype.com/artifact/org.glassfish.main.extras/command-logger/overview)
 * [org.glassfish.main.extras:embedded](https://central.sonatype.com/artifact/org.glassfish.main.extras/embedded/overview)
 * [org.glassfish.main.extras:extras](https://central.sonatype.com/artifact/org.glassfish.main.extras/extras/overview)
 * [org.glassfish.main.extras:glassfish-embedded-all](https://central.sonatype.com/artifact/org.glassfish.main.extras/glassfish-embedded-all/overview)
@@ -157,6 +159,7 @@ Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/
 * [org.glassfish.main.extras:jakartaee](https://central.sonatype.com/artifact/org.glassfish.main.extras/jakartaee/overview)
 * [org.glassfish.main.extras:jakartaee-frag](https://central.sonatype.com/artifact/org.glassfish.main.extras/jakartaee-frag/overview)
 * [org.glassfish.main.extras:jakartaee-pom](https://central.sonatype.com/artifact/org.glassfish.main.extras/jakartaee-pom/overview)
+* [org.glassfish.main.extras:nucleus-extras](https://central.sonatype.com/artifact/org.glassfish.main.extras/nucleus-extras/overview)
 * [org.glassfish.main.extras:osgi-main](https://central.sonatype.com/artifact/org.glassfish.main.extras/osgi-main/overview)
 * [org.glassfish.main.extras:osgi-modules-uninstaller](https://central.sonatype.com/artifact/org.glassfish.main.extras/osgi-modules-uninstaller/overview)
 * [org.glassfish.main.extras:tests-embedded](https://central.sonatype.com/artifact/org.glassfish.main.extras/tests-embedded/overview)
@@ -304,9 +307,9 @@ Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/
 * [org.glassfish.main:test-utils](https://central.sonatype.com/artifact/org.glassfish.main/test-utils/overview)
 </details>
 
-rebuilding **9 releases** of org.glassfish.main:glassfish-parent:
+rebuilding **13 releases** of org.glassfish.main:glassfish-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -319,10 +322,10 @@ rebuilding **9 releases** of org.glassfish.main:glassfish-parent:
 | [8.0.0-M3](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M3/pom) | | | |
 | [8.0.0-M2](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M2/pom) | | | |
 | [8.0.0-M1](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M1/pom) | [mvn jdk17.0.9](glassfish-8.0.0-M1.buildspec) | [result](glassfish-main-aggregator-8.0.0-M1.buildinfo): [667 :white_check_mark:  69 :warning:](glassfish-main-aggregator-8.0.0-M1.buildcompare) [:mag:](glassfish-main-aggregator-8.0.0-M1.diffoscope) | 453M |
-| [7.0.17](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.17/pom) | | | |
-| [7.0.16](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.16/pom) | | | |
-| [7.0.15](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.15/pom) | | | |
-| [7.0.14](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.14/pom) | | | |
+| [7.0.17](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.17/pom) | [mvn jdk21](glassfish-7.0.17.buildspec) | [result](glassfish-main-aggregator-7.0.17.buildinfo): [1307 :white_check_mark:  11 :warning:](glassfish-main-aggregator-7.0.17.buildcompare) | 536M |
+| [7.0.16](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.16/pom) | [mvn jdk21](glassfish-7.0.16.buildspec) | [result](glassfish-main-aggregator-7.0.16.buildinfo): [1312 :white_check_mark:  11 :warning:](glassfish-main-aggregator-7.0.16.buildcompare) | 536M |
+| [7.0.15](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.15/pom) | [mvn jdk21](glassfish-7.0.15.buildspec) | [result](glassfish-main-aggregator-7.0.15.buildinfo): [731 :white_check_mark:  5 :warning:](glassfish-main-aggregator-7.0.15.buildcompare) | 455M |
+| [7.0.14](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.14/pom) | [mvn jdk21](glassfish-7.0.14.buildspec) | [result](glassfish-main-aggregator-7.0.14.buildinfo): [727 :white_check_mark:  9 :warning:](glassfish-main-aggregator-7.0.14.buildcompare) | 455M |
 | [7.0.13](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.13/pom) | [mvn jdk21](glassfish-7.0.13.buildspec) | [result](glassfish-main-aggregator-7.0.13.buildinfo): [727 :white_check_mark:  9 :warning:](glassfish-main-aggregator-7.0.13.buildcompare) [:mag:](glassfish-main-aggregator-7.0.13.diffoscope) | 454M |
 | [7.0.12](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.12/pom) | [mvn jdk17.0.9](glassfish-7.0.12.buildspec) | [result](glassfish-main-aggregator-7.0.12.buildinfo): [726 :white_check_mark:  10 :warning:](glassfish-main-aggregator-7.0.12.buildcompare) | 454M |
 | [7.0.11](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.11/pom) | [mvn jdk17.0.2](glassfish-7.0.11.buildspec) | [result](glassfish-main-aggregator-7.0.11.buildinfo): [725 :white_check_mark:  11 :warning:](glassfish-main-aggregator-7.0.11.buildcompare) | 453M |

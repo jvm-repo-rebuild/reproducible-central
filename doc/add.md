@@ -4,9 +4,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240911112747 --> [airbase](../content/io/airlift/airbase/README.md) | [172](../content/io/airlift/airbase/airbase-172.buildspec) :white_check_mark: | [173](../content/io/airlift/airbase/airbase-173.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-172.buildspec 173` |
-| <!-- 20240722091757 --> [syncope](../content/org/apache/syncope/README.md) | [3.0.8](../content/org/apache/syncope/syncope-3.0.8.buildspec) :white_check_mark: | 3.0.3 3.0.1 3.0.0-M2 3.0.0-M1 3.0.0-M0 2.1.14 2.1.13  | `bin/add-new-release.sh content/org/apache/syncope/syncope-3.0.8.buildspec ...` |
-| <!-- 20240702185023 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | [313](../content/org/alluxio/alluxio/alluxio-313.buildspec) :white_check_mark: | 308 307 306 305  | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-313.buildspec ...` |
+| <!-- 20240912130912 --> [github-client](../content/com/spotify/github-client/README.md) | [0.3.1](../content/com/spotify/github-client/github-client-0.3.1.buildspec) :white_check_mark: | [0.3.2](../content/com/spotify/github-client/github-client-0.3.2.buildspec) | `bin/add-new-release.sh content/com/spotify/github-client/github-client-0.3.1.buildspec 0.3.2` |
+| <!-- 20240912061111 --> [plexus-io](../content/org/codehaus/plexus/plexus-io/README.md) | [3.5.0](../content/org/codehaus/plexus/plexus-io/plexus-io-3.5.0.buildspec) :white_check_mark: | [3.5.1](../content/org/codehaus/plexus/plexus-io/plexus-io-3.5.1.buildspec) | `bin/add-new-release.sh content/org/codehaus/plexus/plexus-io/plexus-io-3.5.0.buildspec 3.5.1` |
+| <!-- 20240722091757 --> [syncope](../content/org/apache/syncope/README.md) | [3.0.8](../content/org/apache/syncope/syncope-3.0.8.buildspec) :white_check_mark: | 2.1.13  | `bin/add-new-release.sh content/org/apache/syncope/syncope-3.0.8.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -24,7 +24,7 @@ New Releases To Add
 | <!-- 20240810053328 --> [:mailbox:](https://lists.apache.org/list?dev@struts.apache.org:lte=1M:VOTE) | [struts2-parent](../content/org/apache/struts/README.md) | [6.6.0](../content/org/apache/struts/struts2-6.6.0.buildspec) :white_check_mark: | [7.0.0-M9](../content/org/apache/struts/struts2-7.0.0-M9.buildspec)  | `bin/add-new-release.sh content/org/apache/struts/struts2-6.6.0.buildspec 7.0.0-M9 staging` |
 | <!-- 20240809070356 --> [:mailbox:](https://lists.apache.org/list?dev@dubbo.apache.org:lte=1M:VOTE) | [dubbo](../content/org/apache/dubbo/README.md) | [3.3.0-beta.5](../content/org/apache/dubbo/dubbo-3.3.0-beta.5.buildspec) :white_check_mark: | [3.3.0](../content/org/apache/dubbo/dubbo-3.3.0.buildspec)  | `bin/add-new-release.sh content/org/apache/dubbo/dubbo-3.3.0-beta.5.buildspec 3.3.0 staging` |
 | <!-- 20240712040920 --> [:mailbox:](https://lists.apache.org/list?dev@paimon.apache.org:lte=1M:VOTE) | [paimon-parent](../content/org/apache/paimon/README.md) | [0.8.2](../content/org/apache/paimon/paimon-parent-0.8.2.buildspec) :warning: [:memo:](https://github.com/apache/paimon/pull/3719) | [0.9.0](../content/org/apache/paimon/paimon-parent-0.9.0.buildspec)  | `bin/add-new-release.sh content/org/apache/paimon/paimon-parent-0.8.2.buildspec 0.9.0 staging` |
-| <!-- 20240711142006 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-indexer](../content/org/apache/maven/indexer/README.md) | [7.1.4](../content/org/apache/maven/indexer/maven-indexer-7.1.4.buildspec) :white_check_mark: | [7.1.5](../content/org/apache/maven/indexer/maven-indexer-7.1.5.buildspec)  | `bin/add-new-release.sh content/org/apache/maven/indexer/maven-indexer-7.1.4.buildspec 7.1.5 staging` |
+| <!-- 20240711142006 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-indexer](../content/org/apache/maven/indexer/README.md) | [7.1.4](../content/org/apache/maven/indexer/maven-indexer-7.1.4.buildspec) :white_check_mark: | [7.1.5](../content/org/apache/maven/indexer/maven-indexer-7.1.5.buildspec) [40 :white_check_mark: ](../content/org/apache/maven/indexer/maven-indexer-7.1.5.buildcompare) | `bin/add-new-release.sh content/org/apache/maven/indexer/maven-indexer-7.1.4.buildspec 7.1.5 staging` |
 | <!-- 20240625152252 --> [:mailbox:](https://lists.apache.org/list?dev@ratis.apache.org:lte=1M:VOTE) | [ratis](../content/org/apache/ratis/README.md) | [3.1.0](../content/org/apache/ratis/ratis-3.1.0.buildspec) :warning: [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) | [3.1.1](../content/org/apache/ratis/ratis-3.1.1.buildspec)  | `bin/add-new-release.sh content/org/apache/ratis/ratis-3.1.0.buildspec 3.1.1 staging` |
 <!-- END GENERATED ADD STAGING -->
 
@@ -48,8 +48,6 @@ New Releases To Add
 | <!-- 20240812080209 --> [arthas-all](../content/com/taobao/arthas/README.md) | [3.6.0](../content/com/taobao/arthas/arthas-3.6.0.buildspec) :warning: | [4.0.0](../content/com/taobao/arthas/arthas-4.0.0.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-3.6.0.buildspec 4.0.0` |
 | <!-- 20240812071155 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.7.0](../content/org/apache/camel/camel/camel-4.7.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.7.0` |
 | <!-- 20240805121154 --> [avro-toplevel](../content/org/apache/avro/README.md) | [1.11.3](../content/org/apache/avro/avro-1.11.3.buildspec) :warning: | [1.12.0](../content/org/apache/avro/avro-1.12.0.buildspec) | `bin/add-new-release.sh content/org/apache/avro/avro-1.11.3.buildspec 1.12.0` |
-| <!-- 20240802102342 --> [efx-toolkit-java](../content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | [2.0.0-alpha.3](../content/eu/europa/ted/eforms/efx-toolkit-java/efx-toolkit-java-2.0.0-alpha.3.buildspec) :warning: | [2.0.0-alpha.4](../content/eu/europa/ted/eforms/efx-toolkit-java/efx-toolkit-java-2.0.0-alpha.4.buildspec) | `bin/add-new-release.sh content/eu/europa/ted/eforms/efx-toolkit-java/efx-toolkit-java-2.0.0-alpha.3.buildspec 2.0.0-alpha.4` |
-| <!-- 20240731135509 --> [sshd](../content/org/apache/sshd/README.md) | [2.13.1](../content/org/apache/sshd/sshd-2.13.1.buildspec) :warning: | [2.13.2](../content/org/apache/sshd/sshd-2.13.2.buildspec) | `bin/add-new-release.sh content/org/apache/sshd/sshd-2.13.1.buildspec 2.13.2` |
 | <!-- 20240719185643 --> [psi-probe](../content/com/github/psi-probe/README.md) | [4.1.4](../content/com/github/psi-probe/psi-probe-4.1.4.buildspec) :warning: | [5.1.0](../content/com/github/psi-probe/psi-probe-5.1.0.buildspec) | `bin/add-new-release.sh content/com/github/psi-probe/psi-probe-4.1.4.buildspec 5.1.0` |
 | <!-- 20240718093847 --> [jena](../content/org/apache/jena/jena/README.md) | [4.5.0](../content/org/apache/jena/jena/jena-4.5.0.buildspec) :warning: | [5.1.0](../content/org/apache/jena/jena/jena-5.1.0.buildspec) | `bin/add-new-release.sh content/org/apache/jena/jena/jena-4.5.0.buildspec 5.1.0` |
 | <!-- 20240715200235 --> [tika](../content/org/apache/tika/README.md) | [2.9.0](../content/org/apache/tika/tika-2.9.0.buildspec) :warning: | [3.0.0-BETA2](../content/org/apache/tika/tika-3.0.0-BETA2.buildspec) | `bin/add-new-release.sh content/org/apache/tika/tika-2.9.0.buildspec 3.0.0-BETA2` |
@@ -79,6 +77,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20240912071532 --> [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | 1.68.0 :warning: [:memo:](https://issues.apache.org/jira/browse/OAK-10662) |
 | <!-- 20240910143522 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | 1.42.1 :warning: |
 | <!-- 20240909190408 --> [legend-engine](../content/org/finos/legend/engine/README.md) | 4.56.0 :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) |
 | <!-- 20240905060651 --> [org.apache.sling.scripting.core](../content/org/apache/sling/org.apache.sling.scripting.core/README.md) | 2.4.10 :warning: [:memo:](https://issues.apache.org/jira/browse/SLING-12422) |
@@ -88,7 +87,6 @@ New Releases To Add
 | <!-- 20240825173904 --> [io.takari.incrementalbuild](../content/io/takari/incrementalbuild/README.md) | 1.0.3 :warning: |
 | <!-- 20240824144019 --> [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | 7.27.0 :warning: |
 | <!-- 20240819202444 --> [jdbi3-root](../content/org/jdbi/README.md) | 3.45.4 :warning: [:memo:](https://github.com/basepom/basepom/pull/73) |
-| <!-- 20240819051939 --> [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | 1.68.0 :warning: [:memo:](https://issues.apache.org/jira/browse/OAK-10662) |
 | <!-- 20240817210045 --> [mybatis-2-spring](../content/org/mybatis/mybatis-2-spring/README.md) | 1.2.1 :warning: |
 | <!-- 20240814231054 --> [commons-cli](../content/org/apache/commons/commons-cli/README.md) | 1.9.0 :warning: |
 | <!-- 20240814100724 --> [org.apache.sling.scripting.sightly.testing](../content/org/apache/sling/org.apache.sling.scripting.sightly.testing/README.md) | 1.0.36-1.4.0 :warning: |
@@ -96,7 +94,9 @@ New Releases To Add
 | <!-- 20240811074040 --> [openfasttrace](../content/org/itsallcode/openfasttrace/README.md) | 4.1.0 :warning: |
 | <!-- 20240810093636 --> [slf4j-parent](../content/org/slf4j/README.md) | 2.1.0-alpha1 :warning: |
 | <!-- 20240808143735 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.2.2 :warning: |
+| <!-- 20240802102342 --> [efx-toolkit-java](../content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 2.0.0-alpha.4 :warning: |
 | <!-- 20240801183749 --> [pulsar](../content/org/apache/pulsar/README.md) | 3.3.1 :warning: |
+| <!-- 20240731135509 --> [sshd](../content/org/apache/sshd/README.md) | 2.13.2 :warning: |
 | <!-- 20240723191850 --> [bcel](../content/org/apache/commons/bcel/README.md) | 6.10.0 :warning: |
 | <!-- 20240716161020 --> [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | 1.1.1 :warning: |
 | <!-- 20240715085906 --> [commons-rng-parent](../content/org/apache/commons/rng/README.md) | 1.6 :warning: |

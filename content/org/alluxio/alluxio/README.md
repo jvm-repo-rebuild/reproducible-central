@@ -82,9 +82,9 @@ Source code: [https://github.com/alluxio/alluxio.git](https://github.com/alluxio
 * [org.alluxio:alluxio-underfs-web](https://central.sonatype.com/artifact/org.alluxio/alluxio-underfs-web/overview)
 </details>
 
-rebuilding **11 releases** of org.alluxio:alluxio-parent:
+rebuilding **15 releases** of org.alluxio:alluxio-parent:
 - **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -93,10 +93,10 @@ rebuilding **11 releases** of org.alluxio:alluxio-parent:
 | [311](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/311/pom) | [mvn jdk8](alluxio-311.buildspec) | [result](alluxio-parent-311.buildinfo): [114 :white_check_mark: ](alluxio-parent-311.buildcompare) | 321M |
 | [310](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/310/pom) | [mvn jdk8](alluxio-310.buildspec) | [result](alluxio-parent-310.buildinfo): [114 :white_check_mark: ](alluxio-parent-310.buildcompare) | 321M |
 | [309](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/309/pom) | [mvn jdk8](alluxio-309.buildspec) | [result](alluxio-parent-309.buildinfo): [110 :white_check_mark:  42 :warning:](alluxio-parent-309.buildcompare) [:mag:](alluxio-parent-309.diffoscope) | 327M |
-| [308](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/308/pom) | | | |
-| [307](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/307/pom) | | | |
-| [306](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/306/pom) | | | |
-| [305](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/305/pom) | | | |
+| [308](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/308/pom) | [mvn jdk8](alluxio-308.buildspec) | [result](alluxio-parent-308.buildinfo): [42 :white_check_mark:  72 :warning:](alluxio-parent-308.buildcompare) | 321M |
+| [307](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/307/pom) | [mvn jdk8](alluxio-307.buildspec) | [result](alluxio-parent-307.buildinfo): [42 :white_check_mark:  72 :warning:](alluxio-parent-307.buildcompare) | 321M |
+| [306](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/306/pom) | [mvn jdk8](alluxio-306.buildspec) | [result](alluxio-parent-306.buildinfo): [42 :white_check_mark:  72 :warning:](alluxio-parent-306.buildcompare) | 321M |
+| [305](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/305/pom) | [mvn jdk8](alluxio-305.buildspec) | [result](alluxio-parent-305.buildinfo): [42 :white_check_mark:  72 :warning:](alluxio-parent-305.buildcompare) | 321M |
 | [304](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/304/pom) | [mvn jdk8](alluxio-304.buildspec) | [result](alluxio-parent-304.buildinfo): [53 :white_check_mark:  61 :warning:](alluxio-parent-304.buildcompare) | 300M |
 | [303](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/303/pom) | [mvn jdk8](alluxio-303.buildspec) | [result](alluxio-parent-303.buildinfo): [117 :white_check_mark: ](alluxio-parent-303.buildcompare) | 301M |
 | [302](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/302/pom) | [mvn jdk8](alluxio-302.buildspec) | [result](alluxio-parent-302.buildinfo): [116 :white_check_mark: ](alluxio-parent-302.buildcompare) | 288M |
