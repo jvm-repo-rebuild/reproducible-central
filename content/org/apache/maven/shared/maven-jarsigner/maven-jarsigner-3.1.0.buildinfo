@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Jarsigner
+group-id=org.apache.maven.shared
+artifact-id=maven-jarsigner
+version=3.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-jarsigner.git
+source.scm.tag=maven-jarsigner-3.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=22
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.maven.shared
+outputs.0.filename=maven-jarsigner-3.1.0.pom
+outputs.0.length=4598
+outputs.0.checksums.sha512=d551600005fe7244641210ec9d1f6039b33f23fd676b6f5d3d33b6985eaf1b42a1862d7a451403df9d025f058c64adaa941830094dfe87bf6c77541ab60db9a2
+
+outputs.1.groupId=org.apache.maven.shared
+outputs.1.filename=maven-jarsigner-3.1.0.jar
+outputs.1.length=20587
+outputs.1.checksums.sha512=a413c31ed99a76e5cd40a25c0c9a45a0d4fcda13f2edeb0149b1ac9e47daf6c9a7ed7d606b900b1a354b14417a649f4f4dd07395d3fec7cbcc2c664ff299227e
+
+outputs.2.groupId=org.apache.maven.shared
+outputs.2.filename=maven-jarsigner-3.1.0-source-release.zip
+outputs.2.length=166771
+outputs.2.checksums.sha512=e55b331af99b2487d38ed1a9ae30515c5054be75ad8ae12c8e03ea89593098133a620b6c219163f9a9fc886f0e1c35b496cbb6993b9b12f7367d2c5b452a2c27
+
+outputs.3.groupId=org.apache.maven.shared
+outputs.3.filename=maven-jarsigner-3.1.0-sources.jar
+outputs.3.length=21208
+outputs.3.checksums.sha512=b9d07e8b521b8a9510a080a3ad1a2613a3e1e05e777103730bd099ee91bccc7f1568a932870ca5b0e3379655e1dd388d353b61a2e625ee3e2d31089c48313a23
+
+outputs.4.groupId=org.apache.maven.shared
+outputs.4.filename=maven-jarsigner-3.1.0-cyclonedx.xml
+outputs.4.length=14727
+outputs.4.checksums.sha512=6d2cb1ea377dd68bba4ce6e149175bd251ba16ab61aa3c2eafd5eec42268aab7dee6ae69717921c650b6da26617e3640228f802d2685cbf789e978195da9f4da
+
+outputs.5.groupId=org.apache.maven.shared
+outputs.5.filename=maven-jarsigner-3.1.0-cyclonedx.json
+outputs.5.length=17231
+outputs.5.checksums.sha512=7d8fd33eca5c6dfadcbefd5c84aaac3ca60a3e64ca0960dec7b44d9d3cef6e38076bf98ceb71790bb9e405bfaa6cbbe1c28db34c1586cb38620ebb7bfad50792
