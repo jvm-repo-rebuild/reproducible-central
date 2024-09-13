@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus IO Components
+group-id=org.codehaus.plexus
+artifact-id=plexus-io
+version=3.5.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-io.git
+source.scm.tag=plexus-io-3.5.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-io-3.5.1.pom
+outputs.0.length=4350
+outputs.0.checksums.sha512=894039c7a89688da8145b4ec8414e55b7bd1b7ec34e7bebfd8514bdc2f8ea0b65df8fd1b6b02adc9cb292ff551c27d3a50016125a674c6e43682d379df485fa1
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-io-3.5.1.jar
+outputs.1.length=79942
+outputs.1.checksums.sha512=e8eb8a870ba87fff3d116fb5ed579764db5359028759c81cbdf7120a14e423d7fe12505261d50a64ede38a3195cad85e8a4f98f65e65d8ad9441d9fa0dc3df51
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-io-3.5.1-source-release.zip
+outputs.2.length=106158
+outputs.2.checksums.sha512=18eea464a0834f0a99edbe242d5f9d114f3370765924d2f56a0588a3e937e1086e800fff5d97806a51227d58498be71b09178933ce8324a9d461c408bc435609
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-io-3.5.1-sources.jar
+outputs.3.length=67629
+outputs.3.checksums.sha512=5395b7f93cf8c9fb5d4e6f78f4283eeaf3cc337a0ea7401396ca4140d3d901cd7db8ee6d9c87624b9fcf5b895e3309d2e29ab97f2faaad1585e3bf02dc6a842f
