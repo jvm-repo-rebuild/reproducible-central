@@ -15,7 +15,7 @@ sed "s/^version=.*/version=${nextVersion}/" ${previousBuildspec} > ${nextBuildsp
 previousBuildinfo=$(ls $dir | grep "\-${version}\.buildinfo")
 buildinfoOutputId="$(grep "\-${version}\.jar" $dir/$previousBuildinfo | head -1 | cut -d . -f 2)"
 previousJar="$(grep "\-${version}\.jar" $dir/$previousBuildinfo | head -1 | cut -d = -f 2)"
-jarGroupIdAsDir="$(grep "outputs.$buildinfoOutputId.coordinates=" $dir/$previousBuildinfo | cut -d = -f 2 | cut -d : -f 1 | tr '.' '/')"
+jarGroupIdAsDir="$((grep "outputs.$buildinfoOutputId.coordinates=" $dir/$previousBuildinfo ; grep "outputs.$buildinfoOutputId.groupId=" $dir/$previousBuildinfo) | cut -d = -f 2 | cut -d : -f 1 | tr '.' '/')"
 jarArtifactId="$(echo "$previousJar" | sed -e "s/-${version}.jar$//")"
 nextJar="$jarArtifactId-$nextVersion.jar"
 
