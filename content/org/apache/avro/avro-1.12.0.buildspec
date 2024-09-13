@@ -1,0 +1,17 @@
+groupId=org.apache.avro
+artifactId=avro-toplevel
+display=${groupId}:${artifactId}
+version=1.12.0
+
+gitRepo=https://github.com/apache/avro.git
+gitTag=release-${version}
+
+tool=mvn-3.9.8
+jdk=22
+newline=lf
+
+command="SHELL ./build.sh docker
+mvn -Pdist clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.ignore='*/avro-grpc*-tests.jar,*/avro-test-custom-conversions*-tests.jar,*/avro-codegen-test*-tests.jar,*/avro-perf*-tests.jar'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
