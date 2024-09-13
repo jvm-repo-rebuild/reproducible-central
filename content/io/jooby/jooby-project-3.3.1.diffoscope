@@ -32,7 +32,7 @@
 │  -rw----     2.0 fat     1638 bl defN 80-Feb-01 00:00 io/jooby/internal/openapi/asm/tree/VarInsnNode.class
 │ -154 files, 816186 bytes uncompressed, 333815 bytes compressed:  59.1%
 │ +145 files, 815854 bytes uncompressed, 333541 bytes compressed:  59.1%
-├── zipnote «TEMP»/diffoscope_4dxq36fm_target/tmpnrdelexs_.zip
+├── zipnote «TEMP»/diffoscope_z357jrzb_target/tmp44zi56cz_.zip
 │ @@ -1,37 +1,10 @@
 │  Filename: META-INF/MANIFEST.MF
 │  Comment: 
@@ -135,7 +135,7 @@
 │  swagger.version=2.2.23
 │  thymeleaf.version=3.1.2.RELEASE
 │ -timestamp=2024-09-09 13\:58\:57PM
-│ +timestamp=2024-09-13 06\:07\:18AM
+│ +timestamp=2024-09-13 06\:09\:07AM
 │  truth.version=1.4.4
 │  undertow.version=2.3.17.Final
 │  versions-maven-plugin.version=2.17.1
@@ -147,7 +147,7 @@
 ├── zipinfo {}
 │ @@ -1,8 +1,8 @@
 │ -Zip file size: 8315256 bytes, number of entries: 25
-│ +Zip file size: 8315257 bytes, number of entries: 25
+│ +Zip file size: 8315255 bytes, number of entries: 25
 │  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-09 13:06 bin/
 │  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-09 13:06 lib/
 │  -rwxr--r--  2.0 unx    21971 b- defN 24-Sep-09 13:06 bin/jooby
@@ -166,7 +166,7 @@
 │ --rw-r--r--  2.0 unx    90864 b- defN 24-Sep-09 13:06 lib/jooby-cli-3.3.1.jar
 │ -25 files, 8914622 bytes uncompressed, 8312248 bytes compressed:  6.8%
 │ +-rw-r--r--  2.0 unx    90863 b- defN 24-Sep-09 13:06 lib/jooby-cli-3.3.1.jar
-│ +25 files, 8914621 bytes uncompressed, 8312249 bytes compressed:  6.8%
+│ +25 files, 8914621 bytes uncompressed, 8312247 bytes compressed:  6.8%
 ├── lib/jooby-cli-3.3.1.jar
 │ ├── zipinfo {}
 │ │ @@ -1,8 +1,8 @@
@@ -228,7 +228,7 @@
 │ │  swagger.version=2.2.23
 │ │  thymeleaf.version=3.1.2.RELEASE
 │ │ -timestamp=2024-09-09 13\:58\:57PM
-│ │ +timestamp=2024-09-13 06\:07\:18AM
+│ │ +timestamp=2024-09-13 06\:09\:07AM
 │ │  truth.version=1.4.4
 │ │  undertow.version=2.3.17.Final
 │ │  versions-maven-plugin.version=2.17.1
