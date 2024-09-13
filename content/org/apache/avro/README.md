@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/avro.git](https://github.com/apache/avro.git)
 
-<details><summary>This project defines 24 modules:</summary>
+<details><summary>This project defines 25 modules:</summary>
 
 * [org.apache.avro:avro](https://central.sonatype.com/artifact/org.apache.avro/avro/overview)
 * [org.apache.avro:avro-android](https://central.sonatype.com/artifact/org.apache.avro/avro-android/overview)
@@ -15,6 +15,7 @@ Source code: [https://github.com/apache/avro.git](https://github.com/apache/avro
 * [org.apache.avro:avro-codegen-test](https://central.sonatype.com/artifact/org.apache.avro/avro-codegen-test/overview)
 * [org.apache.avro:avro-compiler](https://central.sonatype.com/artifact/org.apache.avro/avro-compiler/overview)
 * [org.apache.avro:avro-grpc](https://central.sonatype.com/artifact/org.apache.avro/avro-grpc/overview)
+* [org.apache.avro:avro-idl](https://central.sonatype.com/artifact/org.apache.avro/avro-idl/overview)
 * [org.apache.avro:avro-integration-test](https://central.sonatype.com/artifact/org.apache.avro/avro-integration-test/overview)
 * [org.apache.avro:avro-ipc](https://central.sonatype.com/artifact/org.apache.avro/avro-ipc/overview)
 * [org.apache.avro:avro-ipc-jetty](https://central.sonatype.com/artifact/org.apache.avro/avro-ipc-jetty/overview)
@@ -35,13 +36,13 @@ Source code: [https://github.com/apache/avro.git](https://github.com/apache/avro
 * [org.apache.avro:trevni-java](https://central.sonatype.com/artifact/org.apache.avro/trevni-java/overview)
 </details>
 
-rebuilding **3 releases** of org.apache.avro:avro-toplevel:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of org.apache.avro:avro-toplevel:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.12.0](https://central.sonatype.com/artifact/org.apache.avro/avro-toplevel/1.12.0/pom) | | | |
+| [1.12.0](https://central.sonatype.com/artifact/org.apache.avro/avro-toplevel/1.12.0/pom) | [mvn jdk22](avro-1.12.0.buildspec) | [result](avro-toplevel-1.12.0.buildinfo): [129 :white_check_mark: ](avro-toplevel-1.12.0.buildcompare) | 65M |
 | [1.11.3](https://central.sonatype.com/artifact/org.apache.avro/avro-toplevel/1.11.3/pom) | [mvn jdk8](avro-1.11.3.buildspec) | [result](avro-toplevel-1.11.3.buildinfo): [125 :white_check_mark:  1 :warning:](avro-toplevel-1.11.3.buildcompare) [:mag:](avro-toplevel-1.11.3.diffoscope) | 62M |
 | [1.11.2](https://central.sonatype.com/artifact/org.apache.avro/avro-toplevel/1.11.2/pom) | [mvn jdk8](avro-1.11.2.buildspec) | [result](avro-toplevel-1.11.2.buildinfo): [126 :white_check_mark: ](avro-toplevel-1.11.2.buildcompare) | 62M |
 | [1.11.1](https://central.sonatype.com/artifact/org.apache.avro/avro-toplevel/1.11.1/pom) | [mvn jdk8](avro-1.11.1.buildspec) | [result](avro-toplevel-1.11.1.buildinfo): [80 :white_check_mark: ](avro-toplevel-1.11.1.buildcompare) | 59M |

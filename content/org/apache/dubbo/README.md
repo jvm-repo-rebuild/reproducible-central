@@ -194,11 +194,13 @@ rebuilding **74 releases** of org.apache.dubbo:dubbo:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.3.0](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.0/pom) | | | |
 | [3.3.0-beta.5](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.0-beta.5/pom) | [mvn jdk21](dubbo-3.3.0-beta.5.buildspec) | [result](dubbo-parent-3.3.0-beta.5.buildinfo): [256 :white_check_mark: ](dubbo-parent-3.3.0-beta.5.buildcompare) | 47M |
 | [3.3.0-beta.4](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.0-beta.4/pom) | [mvn jdk21](dubbo-3.3.0-beta.4.buildspec) | [result](dubbo-parent-3.3.0-beta.4.buildinfo): [261 :white_check_mark: ](dubbo-parent-3.3.0-beta.4.buildcompare) | 46M |
 | [3.3.0-beta.3](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.0-beta.3/pom) | [mvn jdk21](dubbo-3.3.0-beta.3.buildspec) | [result](dubbo-parent-3.3.0-beta.3.buildinfo): [252 :white_check_mark: ](dubbo-parent-3.3.0-beta.3.buildcompare) | 45M |
 | [3.3.0-beta.2](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.0-beta.2/pom) | [mvn jdk21](dubbo-3.3.0-beta.2.buildspec) | [result](dubbo-parent-3.3.0-beta.2.buildinfo): [268 :white_check_mark: ](dubbo-parent-3.3.0-beta.2.buildcompare) | 47M |
 | [3.3.0-beta.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.0-beta.1/pom) | [mvn jdk21](dubbo-3.3.0-beta.1.buildspec) | [result](dubbo-parent-3.3.0-beta.1.buildinfo): [328 :white_check_mark: ](dubbo-parent-3.3.0-beta.1.buildcompare) | 46M |
+| [3.2.16](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.16/pom) | | | |
 | [3.2.15](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.15/pom) | [mvn jdk8](dubbo-3.2.15.buildspec) | [result](dubbo-parent-3.2.15.buildinfo): [238 :white_check_mark: ](dubbo-parent-3.2.15.buildcompare) | 28M |
 | [3.2.14](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.14/pom) | [mvn jdk8](dubbo-3.2.14.buildspec) | [result](dubbo-parent-3.2.14.buildinfo): [238 :white_check_mark: ](dubbo-parent-3.2.14.buildcompare) | 28M |
 | [3.2.13](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.13/pom) | [mvn jdk8](dubbo-3.2.13.buildspec) | [result](dubbo-parent-3.2.13.buildinfo): [238 :white_check_mark: ](dubbo-parent-3.2.13.buildcompare) | 28M |
