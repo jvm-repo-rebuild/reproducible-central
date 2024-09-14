@@ -1,0 +1,159 @@
+# this issue spans all jars
+1 / 51 target/reference/org.apache.paimon/paimon-test-utils-0.9.0.jar paimon-test-utils/target/paimon-test-utils-0.9.0.jar
+--- target/reference/org.apache.paimon/paimon-test-utils-0.9.0.jar
++++ paimon-test-utils/target/paimon-test-utils-0.9.0.jar
+├── META-INF/MANIFEST.MF
+│ @@ -3,10 +3,10 @@
+│  Created-By: Maven JAR Plugin 3.4.2
+
+│  Specification-Version: 0.9
+
+│ -SCM-Branch: heads/release-0.9.0-rc1
+
+│ +SCM-Branch: 70ccc3e45c5a7af5b5be73859ea5390ac2723712
+
+│  Implementation-Vendor: The Apache Software Foundation
+
+# maven-shade-plugin is sensitive to user's timezone: https://issues.apache.org/jira/browse/MSHADE-420 fixed in 3.5.2
+7 / 51 target/reference/org.apache.paimon/paimon-format-0.9.0.jar paimon-format/target/paimon-format-0.9.0.jar
+--- target/reference/org.apache.paimon/paimon-format-0.9.0.jar
++++ paimon-format/target/paimon-format-0.9.0.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 22215362 bytes, number of entries: 8150
+│ +Zip file size: 22215349 bytes, number of entries: 8150
+│  -rw----     2.0 fat        0 bX defN 24-Sep-04 05:32 META-INF/
+│ --rw----     2.0 fat      420 bl defN 24-Sep-04 05:32 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      437 bl defN 24-Sep-04 05:32 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat    17503 bl defN 24-Sep-04 05:32 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 24-Sep-04 05:32 META-INF/LICENSE
+│ @@ -267,94 +267,94 @@
+│  -rw----     2.0 fat    17306 bl defN 24-Sep-04 05:32 META-INF/maven/org.apache.paimon/paimon-format/pom.xml
+│  -rw----     2.0 fat       65 bl defN 24-Sep-04 05:32 META-INF/maven/org.apache.paimon/paimon-format/pom.properties
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 16:00 META-INF/maven/com.fasterxml.jackson.core/
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 16:00 META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/
+│ --rw----     2.0 fat     2681 bl defN 80-Feb-01 16:00 org/apache/paimon/shade/com/fasterxml/jackson/annotation/SimpleObjectIdResolver.class
+│ --rw----     2.0 fat      162 bl defN 80-Feb-01 16:00 org/apache/paimon/shade/com/fasterxml/jackson/annotation/package-info.class
+│ +-rw----     2.0 fat        0 bl defN 80-Feb-01 08:00 META-INF/maven/com.fasterxml.jackson.core/
+│ +-rw----     2.0 fat        0 bl defN 80-Feb-01 08:00 META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/
+...
+│ +-rw----     2.0 fat     2681 bl defN 80-Feb-01 08:00 org/apache/paimon/shade/com/fasterxml/jackson/annotation/SimpleObjectIdResolver.class
+│ +-rw----     2.0 fat      162 bl defN 80-Feb-01 08:00 org/apache/paimon/shade/com/fasterxml/jackson/annotation/package-info.class
+│  -rw----     2.0 fat        0 bl defN 24-May-20 14:15 org/apache/paimon/shade/io/
+│  -rw----     2.0 fat        0 bl defN 24-May-20 14:15 org/apache/paimon/shade/io/airlift/
+
+# missing org/apache/paimon/rest/ directory: why?
+10 / 51 target/reference/org.apache.paimon/paimon-core-0.9.0-sources.jar paimon-core/target/paimon-core-0.9.0-sources.jar
+--- target/reference/org.apache.paimon/paimon-core-0.9.0-sources.jar
++++ paimon-core/target/paimon-core-0.9.0-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 957255 bytes, number of entries: 644
+│ +Zip file size: 957133 bytes, number of entries: 643
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Sep-04 05:32 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-04 05:32 META-INF/
+│ @@ -33,15 +33,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-04 05:32 org/apache/paimon/privilege/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-04 05:32 org/apache/paimon/query/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-04 05:32 org/apache/paimon/rest/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-04 05:32 org/apache/paimon/schema/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-04 05:32 org/apache/paimon/service/
+│ @@ -639,8 +638,8 @@
+│  -rw-r--r--  2.0 unx     7729 b- defN 24-Sep-04 05:32 META-INF/maven/org.apache.paimon/paimon-core/pom.xml
+│  -rw-r--r--  2.0 unx       63 b- defN 24-Sep-04 05:32 META-INF/maven/org.apache.paimon/paimon-core/pom.properties
+│ -644 files, 2935738 bytes uncompressed, 844107 bytes compressed:  71.3%
+│ +643 files, 2935738 bytes uncompressed, 844107 bytes compressed:  71.3%
+├── zipnote «TEMP»/diffoscope_7brruvos_target/tmpl2idt1mw_.zip
+│ @@ -108,17 +108,14 @@
+│  
+│  Filename: org/apache/paimon/privilege/
+│  Comment: 
+│  
+│  Filename: org/apache/paimon/query/
+│  Comment: 
+│  
+│ -Filename: org/apache/paimon/rest/
+│ -Comment: 
+│ -
+│  Filename: org/apache/paimon/schema/
+│  Comment: 
+│  
+│  Filename: org/apache/paimon/service/
+│  Comment: 
+│  
+│  Filename: org/apache/paimon/sort/
+
+
+# "-Paimon : Hive Catalog" vs "+Paimon : Bundle" in META-INF/DEPENDENCIES: ???
+18 / 51 target/reference/org.apache.paimon/paimon-bundle-0.9.0-sources.jar paimon-bundle/target/paimon-bundle-0.9.0-sources.jar
+--- target/reference/org.apache.paimon/paimon-bundle-0.9.0-sources.jar
++++ paimon-bundle/target/paimon-bundle-0.9.0-sources.jar
+├── zipinfo {}
+│ @@ -1,1306 +1,12 @@
+│ -Zip file size: 1999451 bytes, number of entries: 1304
+│ +Zip file size: 11034 bytes, number of entries: 10
+│ +-rw-r--r--  2.0 unx       64 b- defN 24-Sep-04 05:32 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-04 05:32 META-INF/
+│ --rw-r--r--  2.0 unx       60 b- defN 24-Sep-04 05:32 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-04 05:32 META-INF/licenses/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-04 05:32 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-04 05:32 META-INF/maven/org.apache.paimon/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-04 05:32 META-INF/maven/org.apache.paimon/paimon-codegen-loader/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-04 05:32 META-INF/maven/org.apache.paimon/paimon-common/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-04 05:32 META-INF/maven/org.apache.paimon/paimon-core/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-04 05:32 META-INF/maven/org.apache.paimon/paimon-format/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-04 05:32 META-INF/maven/org.apache.paimon/paimon-hive-catalog/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-04 05:32 META-INF/services/
+...
+│ --rw-r--r--  2.0 unx    66752 b- defN 24-Sep-04 05:32 org/apache/parquet/hadoop/ParquetFileReader.java
+│ --rw-r--r--  2.0 unx    17806 b- defN 24-Sep-04 05:32 org/apache/parquet/hadoop/ParquetWriter.java
+│ -1304 files, 6547690 bytes uncompressed, 1773337 bytes compressed:  72.9%
+│ +-rw-r--r--  2.0 unx      172 b- defN 24-Sep-04 05:32 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx     6415 b- defN 24-Sep-04 05:32 META-INF/maven/org.apache.paimon/paimon-bundle/pom.xml
+│ +-rw-r--r--  2.0 unx       65 b- defN 24-Sep-04 05:32 META-INF/maven/org.apache.paimon/paimon-bundle/pom.properties
+│ +10 files, 41976 bytes uncompressed, 9670 bytes compressed:  77.0%
+├── filetype from file(1)
+│ @@ -1 +1 @@
+│ -Zip archive data, at least v1.0 to extract, compression method=store
+│ +Zip archive data, at least v2.0 to extract, compression method=deflate
+├── META-INF/MANIFEST.MF
+│ @@ -1,3 +1,3 @@
+│  Manifest-Version: 1.0
+
+│ -Created-By: Plexus Archiver 4.4.0
+
+│ +Created-By: Maven Source Plugin 3.2.1
+
+├── META-INF/DEPENDENCIES
+│ @@ -1,301 +1,275 @@
+│  // ------------------------------------------------------------------
+│  // Transitive dependencies of this project determined from the
+│  // maven pom organized by organization.
+│  // ------------------------------------------------------------------
+│  
+│ -Paimon : Hive Catalog
+│ +Paimon : Bundle
+│  
+│  
+│  From: 'an unknown organization'
+│ -  - AOP alliance (http://aopalliance.sourceforge.net) aopalliance:aopalliance:jar:1.0
+│ -    License: Public Domain 
+│ -  - Tephra API (https://github.com/caskdata/tephra/tephra-api) co.cask.tephra:tephra-api:jar:0.6.0
+│ -    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Tephra Core (https://github.com/caskdata/tephra/tephra-core) co.cask.tephra:tephra-core:jar:0.6.0
+│ +  - Caffeine cache (https://github.com/ben-manes/caffeine) com.github.ben-manes.caffeine:caffeine:jar:2.9.3
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - guava-mini (http://github.com/davidmoten/guava-mini) com.github.davidmoten:guava-mini:bundle:0.1.3
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Tephra HBase 1.0 Compatibility (https://github.com/caskdata/tephra/tephra-hbase-compat-1.0) co.cask.tephra:tephra-hbase-compat-1.0:jar:0.6.0
+│ +  - hilbert-curve (http://github.com/davidmoten/hilbert-curve) com.github.davidmoten:hilbert-curve:jar:0.2.2
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Hadoop Metrics2 Reporter for Dropwizard Metrics (https://github.com/joshelser/dropwizard-hadoop-metrics2) com.github.joshelser:dropwizard-metrics-hadoop-metrics2-reporter:jar:0.1.2
+│ -    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Findbugs Annotations under Apache License (http://stephenc.github.com/findbugs-annotations) com.github.stephenc.findbugs:findbugs-annotations:jar:1.3.9-1
+│ +  - JCIP Annotations under Apache License (http://stephenc.github.com/jcip-annotations) com.github.stephenc.jcip:jcip-annotations:jar:1.0-1
+│      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:1.3.9
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+...
+
