@@ -7,8 +7,9 @@
 
 Source code: [https://github.com/apache/paimon.git](https://github.com/apache/paimon.git)
 
-<details><summary>This project defines 45 modules:</summary>
+<details><summary>This project defines 47 modules:</summary>
 
+* [org.apache.paimon:paimon-arrow](https://central.sonatype.com/artifact/org.apache.paimon/paimon-arrow/overview)
 * [org.apache.paimon:paimon-benchmark](https://central.sonatype.com/artifact/org.apache.paimon/paimon-benchmark/overview)
 * [org.apache.paimon:paimon-bundle](https://central.sonatype.com/artifact/org.apache.paimon/paimon-bundle/overview)
 * [org.apache.paimon:paimon-ci-tools](https://central.sonatype.com/artifact/org.apache.paimon/paimon-ci-tools/overview)
@@ -24,6 +25,7 @@ Source code: [https://github.com/apache/paimon.git](https://github.com/apache/pa
 * [org.apache.paimon:paimon-flink-1.17](https://central.sonatype.com/artifact/org.apache.paimon/paimon-flink-1.17/overview)
 * [org.apache.paimon:paimon-flink-1.18](https://central.sonatype.com/artifact/org.apache.paimon/paimon-flink-1.18/overview)
 * [org.apache.paimon:paimon-flink-1.19](https://central.sonatype.com/artifact/org.apache.paimon/paimon-flink-1.19/overview)
+* [org.apache.paimon:paimon-flink-1.20](https://central.sonatype.com/artifact/org.apache.paimon/paimon-flink-1.20/overview)
 * [org.apache.paimon:paimon-flink-action](https://central.sonatype.com/artifact/org.apache.paimon/paimon-flink-action/overview)
 * [org.apache.paimon:paimon-flink-cdc](https://central.sonatype.com/artifact/org.apache.paimon/paimon-flink-cdc/overview)
 * [org.apache.paimon:paimon-flink-common](https://central.sonatype.com/artifact/org.apache.paimon/paimon-flink-common/overview)
@@ -56,13 +58,13 @@ Source code: [https://github.com/apache/paimon.git](https://github.com/apache/pa
 * [org.apache.paimon:paimon-test-utils](https://central.sonatype.com/artifact/org.apache.paimon/paimon-test-utils/overview)
 </details>
 
-rebuilding **3 releases** of org.apache.paimon:paimon-parent:
+rebuilding **4 releases** of org.apache.paimon:paimon-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.9.0](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/0.9.0/pom) | [mvn jdk8](paimon-parent-0.9.0.buildspec) | [result](paimon-parent-0.9.0.buildinfo): [43 :white_check_mark:  83 :warning:](paimon-parent-0.9.9.buildcompare) [:mag:](paimon-parent-0.9.0.diffoscope) [:memo:](https://github.com/apache/paimon/pull/4190) | 917M |
+| [0.9.0](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/0.9.0/pom) | [mvn jdk8](paimon-parent-0.9.0.buildspec) | [result](paimon-parent-0.9.0.buildinfo): [81 :white_check_mark:  51 :warning:](paimon-parent-0.9.0.buildcompare) [:mag:](paimon-parent-0.9.0.diffoscope) [:memo:](https://github.com/apache/paimon/pull/4190) | 983M |
 | [0.8.2](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/0.8.2/pom) | [mvn jdk8](paimon-parent-0.8.2.buildspec) | [result](paimon-parent-0.8.2.buildinfo): [43 :white_check_mark:  83 :warning:](paimon-parent-0.8.2.buildcompare) [:mag:](paimon-parent-0.8.2.diffoscope) [:memo:](https://github.com/apache/paimon/pull/3719) | 917M |
 | [0.8.1](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/0.8.1/pom) | [mvn jdk8](paimon-parent-0.8.1.buildspec) | [result](paimon-parent-0.8.1.buildinfo): [43 :white_check_mark:  83 :warning:](paimon-parent-0.8.1.buildcompare) [:memo:](https://github.com/apache/paimon/pull/3719) | 917M |
 | [0.8.0](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/0.8.0/pom) | | | |

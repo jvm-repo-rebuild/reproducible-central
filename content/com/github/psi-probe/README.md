@@ -24,8 +24,10 @@ rebuilding **12 releases** of com.github.psi-probe:psi-probe:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [5.1.1](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/5.1.1/pom) | | | |
 | [5.1.0](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/5.1.0/pom) | | | |
 | [5.0.0](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/5.0.0/pom) | | | |
+| [4.3.1](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/4.3.1/pom) | | | |
 | [4.3.0](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/4.3.0/pom) | | | |
 | [4.2.0](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/4.2.0/pom) | | | |
 | [4.1.5](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/4.1.5/pom) | | | |

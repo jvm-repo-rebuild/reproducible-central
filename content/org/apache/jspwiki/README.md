@@ -46,14 +46,14 @@ Source code: [https://github.com/apache/jspwiki.git](https://github.com/apache/j
 * [org.apache.jspwiki:jspwiki-wysiwyg](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-wysiwyg/overview)
 </details>
 
-rebuilding **7 releases** of org.apache.jspwiki:jspwiki-builder:
+rebuilding **9 releases** of org.apache.jspwiki:jspwiki-builder:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.12.2](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.12.2/pom) | | | |
-| [2.12.1](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.12.1/pom) | | | |
+| [2.12.2](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.12.2/pom) | [mvn jdk17 w](jspwiki-2.12.2.buildspec) | [result](jspwiki-builder-2.12.2.buildinfo): [132 :white_check_mark:  24 :warning:](jspwiki-builder-2.12.2.buildcompare) [:mag:](jspwiki-builder-2.12.2.diffoscope) [:memo:](https://issues.apache.org/jira/browse/JSPWIKI-1202) | 318M |
+| [2.12.1](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.12.1/pom) | [mvn jdk17 w](jspwiki-2.12.1.buildspec) | [result](jspwiki-builder-2.12.1.buildinfo): [102 :white_check_mark:  8 :warning:](jspwiki-builder-2.12.1.buildcompare) [:mag:](jspwiki-builder-2.12.1.diffoscope) [:memo:](https://issues.apache.org/jira/browse/JSPWIKI-1202) | 307M |
 | [2.12.0](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.12.0/pom) | [mvn jdk17 w](jspwiki-2.12.0.buildspec) | :x: | |
 | [2.11.3](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.11.3/pom) | [mvn jdk8 w](jspwiki-2.11.3.buildspec) | [result](jspwiki-builder-2.11.3.buildinfo): [110 :white_check_mark: ](jspwiki-builder-2.11.3.buildcompare) | 297M |
 | [2.11.2](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.11.2/pom) | [mvn jdk8 w](jspwiki-2.11.2.buildspec) | [result](jspwiki-builder-2.11.2.buildinfo): [107 :white_check_mark:  1 :warning:](jspwiki-builder-2.11.2.buildcompare) [:mag:](jspwiki-builder-2.11.2.diffoscope) | 293M |

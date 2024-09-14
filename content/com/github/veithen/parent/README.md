@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/veithen/parent.git](https://github.com/veithen/parent.git)
 
-rebuilding **14 releases** of com.github.veithen:parent:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **15 releases** of com.github.veithen:parent:
+- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [51](https://central.sonatype.com/artifact/com.github.veithen/parent/51/pom) | | | |
+| [51](https://central.sonatype.com/artifact/com.github.veithen/parent/51/pom) | [mvn jdk11](veithen-parent-51.buildspec) | [result](parent-51.buildinfo): [1 :white_check_mark: ](parent-51.buildcompare) | 35K |
 | [50](https://central.sonatype.com/artifact/com.github.veithen/parent/50/pom) | [mvn jdk11](veithen-parent-50.buildspec) | [result](parent-50.buildinfo): [1 :white_check_mark: ](parent-50.buildcompare) | 35K |
 | [49](https://central.sonatype.com/artifact/com.github.veithen/parent/49/pom) | [mvn jdk11](veithen-parent-49.buildspec) | [result](parent-49.buildinfo): [1 :white_check_mark: ](parent-49.buildcompare) | 35K |
 | [48](https://central.sonatype.com/artifact/com.github.veithen/parent/48/pom) | [mvn jdk11](veithen-parent-48.buildspec) | [result](parent-48.buildinfo): [1 :white_check_mark: ](parent-48.buildcompare) | 35K |
