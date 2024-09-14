@@ -1,0 +1,19 @@
+1 / 5 target/reference/org.apache.orc/orc-shims-1.8.6-tests.jar shims/target/orc-shims-1.8.6-tests.jar
+--- target/reference/org.apache.orc/orc-shims-1.8.6-tests.jar
++++ shims/target/orc-shims-1.8.6-tests.jar
+├── zipinfo {}
+│ @@ -1,18 +1,18 @@
+│  Zip file size: 9399 bytes, number of entries: 16
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-05 05:50 META-INF/
+│ --rw-r--r--  2.0 unx      315 b- defN 23-Nov-05 05:50 META-INF/MANIFEST.MF
+...
+│ --rw-r--r--  2.0 unx     3801 b- defN 23-Nov-05 05:50 META-INF/maven/org.apache.orc/orc-shims/pom.xml
+│ --rw-r--r--  2.0 unx       58 b- defN 23-Nov-05 05:50 META-INF/maven/org.apache.orc/orc-shims/pom.properties
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-05 06:50 META-INF/
+│ +-rw-r--r--  2.0 unx      315 b- defN 23-Nov-05 06:50 META-INF/MANIFEST.MF
+...
+│ +-rw-r--r--  2.0 unx     3801 b- defN 23-Nov-05 06:50 META-INF/maven/org.apache.orc/orc-shims/pom.xml
+│ +-rw-r--r--  2.0 unx       58 b- defN 23-Nov-05 06:50 META-INF/maven/org.apache.orc/orc-shims/pom.properties
+│  16 files, 19597 bytes uncompressed, 7401 bytes compressed:  62.2%
+
+# same issue on other files
