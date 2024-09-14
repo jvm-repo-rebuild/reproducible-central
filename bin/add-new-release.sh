@@ -56,6 +56,9 @@ then
   detectNewline tmp/$jarArtifactId-$nextVersion-pom.properties
   detectNewline tmp/$jarArtifactId-$nextVersion-pom.xml
   echo "buildspec newline=$newline"
+  [ -n "$os" ] && "buildspec os=$os"
+  [ -n "$arch" ] && "buildspec os=$arch"
+  # TODO add a way to check if new release requires same os/arch (probably requires some config in buildspec: it's ok given it does not happen often and has by nature a hard to guess impact)
 else
   echo -e "\033[0;31m  $nextJar not found\033[0;0m"
 fi

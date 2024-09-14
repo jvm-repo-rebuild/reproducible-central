@@ -14,6 +14,7 @@ timezone="Etc/GMT+1"
 
 command="mvn -f java/pom.xml -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcyclonedx.skip"
 buildinfo=java/target/${artifactId}-${version}.buildinfo
+execBefore="rm -f java/*/dependency-reduced-pom.xml"
 
 diffoscope=${artifactId}-${version}.diffoscope
 issue=

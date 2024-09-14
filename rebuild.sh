@@ -66,10 +66,14 @@ displayMandatory "newline"
 displayOptional  "timezone"    "$DEFAULT_timezone"
 displayOptional  "locale"      "$DEFAULT_locale"
 displayOptional  "umask"       "$DEFAULT_umask"
+displayOptional  "os"
+displayOptional  "arch"
 echo "| 4. how?"
 displayMandatory "command"
 [ -n "${RB_SHELL}" ] && RB_OCI_ENGINE="interactive shell"
 displayOptional  "RB_OCI_ENGINE" "$DEFAULT_oci_engine"
+displayOptional  "execBefore"
+displayOptional  "execAfter"
 echo "| 5. expected results?"
 displayMandatory "buildinfo"
 displayOptional  "diffoscope"
@@ -93,6 +97,8 @@ umask $umask
 export MVN_UMASK=${umask}
 fetchSource
 
+[ -n "$execBefore" ] && info "executing before command: $execBefore" && eval "$execBefore"
+
 echo
 case ${tool} in
   mvn*)
@@ -110,6 +116,10 @@ esac
 
 echo
 displayResult
+
+displayOptional  "os"
+displayOptional  "arch"
+[ -n "$execAfter" ] && info "executing after command: $execAfter" && eval "$execAfter"
 
 #git reset --hard
 

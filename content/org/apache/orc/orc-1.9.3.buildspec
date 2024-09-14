@@ -10,11 +10,10 @@ gitTag=rel/release-${version}
 tool=mvn-3.9.8
 jdk=8
 newline=lf
-os=osx
-arch=aarm64
 
 command="mvn -f java/pom.xml -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcyclonedx.skip"
 buildinfo=java/target/${artifactId}-${version}.buildinfo
+execBefore="rm -f java/*/dependency-reduced-pom.xml"
 
 #diffoscope=${artifactId}-${version}.diffoscope
 issue=

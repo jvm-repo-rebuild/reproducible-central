@@ -99,6 +99,8 @@ do
       # reset recent fields added to buildspec, to avoid rework of older specs
       diffoscope=
       issue=
+      os=
+      arch=
       . $dir/${buildspec}
       printf "%-9s  %2s\n" ${tool} ${jdk} >> $stats
       if [ ! -f "${projectReadme}" ]
@@ -137,6 +139,8 @@ do
       row+="| [$(echo "${tool}"  | cut -d - -f 1)"
       row+=" jdk${jdk}"
       [[ "${newline}" == crlf* ]] && row+=" w"
+      [ -n "${os}" ] && row+=" ${os}"
+      [ -n "${arch}" ] && row+=" ${arch}"
       row+="](${buildspec}) | "
       [ -f "${dir}/${_buildinfo}" ] && row+="[result](${_buildinfo}): "
 

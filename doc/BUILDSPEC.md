@@ -41,9 +41,15 @@ newline=crlf
 #umask=002
 #timezone="Etc/GMT"
 #locale="en_US"
+# if rebuild output depends on OS and/or processor architecture
+#os=
+#arch=
 
 # 4. rebuild command
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+# optional:
+# execBefore=
+# execAfter=
 
 # 5. location of the buildinfo file generated during rebuild to record output fingerprints
 buildinfo=target/${artifactId}-${version}.buildinfo
