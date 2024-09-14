@@ -1,0 +1,69 @@
+1 / 24 target/reference/org.apache.jspwiki/jspwiki-builder-2.12.2-cyclonedx.xml target/bom.xml
+--- target/reference/org.apache.jspwiki/jspwiki-builder-2.12.2-cyclonedx.xml
++++ target/bom.xml
+│   --- target/reference/org.apache.jspwiki/jspwiki-builder-2.12.2-cyclonedx.xml
+├── +++ target/bom.xml
+│ @@ -1424,22 +1424,22 @@
+│        <group>commons-fileupload</group>
+│        <name>commons-fileupload</name>
+│        <version>1.5</version>
+│        <description>The Apache Commons FileUpload component provides a simple yet flexible means of adding support for multipart
+│      file upload functionality to servlets and web applications.</description>
+│        <scope>required</scope>
+│        <hashes>
+│ -        <hash alg="MD5">6e4786c0c12d65433d31df883683610a</hash>
+│ -        <hash alg="SHA-1">bdc182c779d79c3cbc2b919030e2db8a81645e54</hash>
+│ -        <hash alg="SHA-256">345eca7c085abde9ec587971f916c48380d12c07b320e4c3f15208d0a14d2384</hash>
+│ -        <hash alg="SHA-512">4ce1f6b80d7417ac446c0931bd63eb30c7e4edec3411422e9b308df74e6d9903df70cb8642493c336f4c52a0e48414584261abf3e3319bcc5a90b730698c0e4d</hash>
+│ -        <hash alg="SHA-384">54a49e9f90200cbda7d98204915e1a5918ab0b30be87354458212e2c201d2e5c61946baec42781fabb7e20034509f31e</hash>
+│ -        <hash alg="SHA3-384">9870604a5c2702edd66cc24ca8c769e0c87c1997c612158c08e194dc30224e25d165f8e1283aa04ceae7d7b5d09dd210</hash>
+│ -        <hash alg="SHA3-256">1139f74e2afb908d5b3df08c677120bdecb08354d4b5b72ec0b34b18a5d36119</hash>
+│ -        <hash alg="SHA3-512">b818f36fb0930c3eef58c07e8c503788ada26339b197db5815f9dd058e1f0ce14847c87682f796843e2b6c804d165c90b262d2013ce64310a53003e963f635c9</hash>
+│ +        <hash alg="MD5">e57ac8a1a6412886a133a2fa08b89735</hash>
+│ +        <hash alg="SHA-1">ad4ad2ab2961b4e1891472bd1a33fabefb0385f3</hash>
+│ +        <hash alg="SHA-256">51f7b3dcb4e50c7662994da2f47231519ff99707a5c7fb7b05f4c4d3a1728c14</hash>
+│ +        <hash alg="SHA-512">ab91778b2601ea0b0006248f436ab57a88df3102b3545b45eec675fadaf3d240590d08559cb78139f01ae63087afdcb3dd23af060a8ed27446e9a25f7b308318</hash>
+│ +        <hash alg="SHA-384">0ea300576637bede06e531c02fc8278880f459fc5feea250cba34129f9c3bd893b548b6821e97e027342f94ab15c0bdc</hash>
+│ +        <hash alg="SHA3-384">29716862a2f030932b20b8d4ffc2d8fff3d48624cd1349cdf8cc54d6c8fba9b7dc8a76d60a56961d1afbc4e534b3e874</hash>
+│ +        <hash alg="SHA3-256">5f768eb8f979200ade2ea2da90d5f4240d339314394ae6f35bea35b42430cd27</hash>
+│ +        <hash alg="SHA3-512">779451e67a209039af7f08f61b88cfd96448b8232b3ca3e475fc7c2f103b1bd10eedccb348f45e53ddd7bea02a19ea669557b8eef060e11e1c3adf5e88647795</hash>
+│        </hashes>
+│        <licenses>
+│          <license>
+│            <id>Apache-2.0</id>
+│            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+│          </license>
+│        </licenses>
+│ @@ -6078,22 +6078,22 @@
+│        <publisher>The Apache Software Foundation</publisher>
+│        <group>org.apache.commons</group>
+│        <name>commons-csv</name>
+│        <version>1.10.0</version>
+│        <description>The Apache Commons CSV library provides a simple interface for reading and writing CSV files of various types.</description>
+│        <scope>required</scope>
+│        <hashes>
+│ -        <hash alg="MD5">5f4d11fa4a5479a9013ed2dc7736e47e</hash>
+│ -        <hash alg="SHA-1">7e78daa006ec1cbaa3da3d645cddbfbb05c32c8e</hash>
+│ -        <hash alg="SHA-256">4300f3d18d1e05cae07cad78c5f8ba3d66fecb49ffbbe8f19d2d265777833e68</hash>
+│ -        <hash alg="SHA-512">7a503f8925f109f44efc9a8149916c584e97c485ba858a7135ff2ba89fc1c0cfcf107514be6d3112e57dffbdb1997d9aac5d33c93ba81350e5733f9099342f80</hash>
+│ -        <hash alg="SHA-384">dd92bc11b2e80f8ffcb215609dc7d853844d37d93bfd2a55b04d8c9a0c1ea0061e2cd182fe1e34140092214b7d18a7ac</hash>
+│ -        <hash alg="SHA3-384">8d0820a8effb27a9233afd28b672c9e91053e6ab68cfa03801fd1769fb905a4d02bd11573f80ceebb87794c8932151a2</hash>
+│ -        <hash alg="SHA3-256">51bb0a8670e02ebdae1a424f907c845357352c50bcbaf6b90d81146ab10a275d</hash>
+│ -        <hash alg="SHA3-512">b06abdbdf3e58f89cea191cee516c3e6f0ae2035fc3c51c1c931760fa0b6cf10007bd050dbfea6b6724eb9c5e289a8bc232b97d68e8fb5f4955da296f047e615</hash>
+│ +        <hash alg="MD5">9b3be74e726a151524bf31ec293ff285</hash>
+│ +        <hash alg="SHA-1">8669bee353424c3223c93723291b5c3753260c1c</hash>
+│ +        <hash alg="SHA-256">2d06e6a07a636baf777ad8e659256f2119109dde23551c9b80c5422d424b808c</hash>
+│ +        <hash alg="SHA-512">4434edc3256ce9a004f9860738fe7fc7b96e964f131aa953b598084bfd60e510796164a27c94b4c0b03041d05261c013e0db664ffd2bdd1cf032011722bc7ac0</hash>
+│ +        <hash alg="SHA-384">c50578f3e9a7f6bd7e2badef7e0758eba308f77c0eef17a1d2d7d7620f0a7f5bf414f8847b3a401484466a54c8115370</hash>
+│ +        <hash alg="SHA3-384">d13077b7b86c9a8ced54228615f86b7785d84634e5cf757792259b4f110aaa6d1980938ba1c1a65377bdf62c24067e96</hash>
+│ +        <hash alg="SHA3-256">eea22e71edfed1e0245104b27fe54fc903362ddad35594bdb3012dc01a0adc63</hash>
+│ +        <hash alg="SHA3-512">db8b13b74e78808ea7819bee82851836ac47abaea7eceb6cda06a5506aba7277f3e93fbee4d0a19ef7d77870e8f13c2970a8cdd517487d4a68cfbd138839908c</hash>
+│        </hashes>
+│        <licenses>
+│          <license>
+│            <id>Apache-2.0</id>
+│            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+│          </license>
+│        </licenses>
+
+# all other issues are caused by commons-fileupload discrepency
