@@ -1,0 +1,21 @@
+groupId=io.wcm
+artifactId=io.wcm.caconfig.editor.root
+display=${groupId}-caconfig:editor
+version=1.16.4
+
+gitRepo=https://github.com/wcm-io/io.wcm.caconfig.editor.git
+gitTag=${version}
+
+tool=mvn-3.9.8
+jdk=17
+newline=crlf-nogit
+
+buildNumber=3a7e124b
+timestamp=2024-08-26T11:52:53+02:00
+command="mvn -Pio.wcm package -DskipTests -Dmaven.javadoc.skip -Dmaven.buildNumber.skip -DbuildNumber=${buildNumber} -Dtimestamp=${timestamp}"
+execBefore="mvn clean"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
