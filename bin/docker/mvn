@@ -6,6 +6,8 @@
 info "Generating /var/maven/.m2/toolchains.xml"
 . "/scripts/generate-toolchains.sh" > /var/maven/.m2/toolchains.xml
 
+warn "Using JDK version $(javac --version | cut -d' ' -f2)"
+
 # Better reproducibility: deliberately set the umask to something total insane
 umask ${BUILD_UMASK}
 warn "The UMASK    has been set to: $(umask)"

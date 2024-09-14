@@ -14,7 +14,7 @@
 #
 
 mvnBuildDocker() {
-  local mvnCommand mvnImage crlfDocker mvnVersion mvn_engine_params
+  local mvnCommand mvnImage baseImageAlreadyHasJavaAndMaven crlfDocker mvnVersion mvn_engine_params
   mvnCommand="$1"
   crlfDocker="no"
   mvn_engine_params="$([ "$CI" = true ] && echo "--no-transfer-progress -Dstyle.color=always")"
@@ -27,8 +27,10 @@ mvnBuildDocker() {
   esac
 
   case ${jdk} in
-    # Supported openjdk-*-jdk on ubuntu 22.04 (checked on 2023-03-05)
+    # Supported openjdk-*-jdk on ubuntu 22.04 (checked on 2024-09-14)
     8 | 11 | 17 | 18 | 19 | 21)
+      mvnImage=docker.io/library/ubuntu:22.04
+      baseImageAlreadyHasJavaAndMaven=false
       [ -z "${toolchains}" ] && toolchains=${jdk}
       # will use/create custom "toolchains" rebuilder image
       ;;
@@ -37,24 +39,31 @@ mvnBuildDocker() {
       # This is the latest image available
       mvnVersion="3.2.5"
       mvnImage=docker.io/library/maven:3.2.5-jdk-6b32
+      baseImageAlreadyHasJavaAndMaven=true
       crlfDocker="yes"
       ;;
     7)
       # This is the latest image available
       mvnVersion="3.6.1"
       mvnImage=docker.io/library/maven:3.6.1-jdk-7-alpine
+      baseImageAlreadyHasJavaAndMaven=true
       crlfDocker="yes"
       ;;
     9)
       # This is the latest image available
       mvnVersion="3.5.4"
       mvnImage=docker.io/library/maven:3.5.4-jdk-9-slim
+      baseImageAlreadyHasJavaAndMaven=true
       ;;
     14 | 15 | 16 )
       mvnImage=docker.io/library/maven:${mvnVersion}-openjdk-${jdk}-slim
+      baseImageAlreadyHasJavaAndMaven=true
       ;;
-    22)
-      mvnImage=docker.io/library/maven:${mvnVersion}-eclipse-temurin-${jdk}
+    22 | 23 | 24 )
+      # For this non-LTS version we use the Ubuntu 22.04 base image that already has this JDK built in.
+      # Only a single non-LTS per build is supported.
+      mvnImage=docker.io/library/maven:${mvnVersion}-eclipse-temurin-${jdk}-jammy
+      baseImageAlreadyHasJavaAndMaven=true
       ;;
     *)
       mvnImage=docker.io/library/maven:${mvnVersion}-jdk-${jdk}
@@ -80,6 +89,11 @@ mvnBuildDocker() {
   then
     info "Preparing custom Reproducible Builder image rb-ubuntu-2204-jdk${jdk}-mvn${mvnVersion}-toolchains*"
     mvnBuildDockerBuildBaseToolchainsImage
+    if [ "${baseImageAlreadyHasJavaAndMaven}" == "false" ];
+    then
+      echo
+      mvnBuildDockerAddMaven
+    fi
     echo
     mvnBuildDockerAddUserLayer
     echo
@@ -132,29 +146,75 @@ mvnBuildDockerBuildBaseToolchainsImage() {
     # ############### BASED ON THE UBUNTU 22.04 IMAGE ###################
     IFS='|' read -r -a toolchainsjdks <<< "${toolchains}"
 
+    local baseMvnImage=${mvnImage}
     local JDKPACKAGES=""
     local JDKTAG="jdk${jdk}-mvn${mvnVersion}-toolchains"
     for toolchainsjdk in "${toolchainsjdks[@]}";
     do
-      JDKPACKAGES="${JDKPACKAGES} openjdk-${toolchainsjdk}-jdk "
-      JDKTAG="${JDKTAG}-${toolchainsjdk}"
+      # For most JDK versions we can simply install the package
+      # For the non-LTS versions we must switch to the base image they need
+      # Only a single non-LTS per build is supported.
+      case ${toolchainsjdk} in
+        # Supported openjdk-*-jdk on ubuntu 22.04 (checked on 2024-09-14)
+        8 | 11 | 17 | 18 | 19 | 21 )
+          JDKPACKAGES="${JDKPACKAGES} openjdk-${toolchainsjdk}-jdk "
+          JDKTAG="${JDKTAG}-${toolchainsjdk}"
+          ;;
+        22 | 23 | 24 )
+          # This non-LTS version we use the Ubuntu 22.04 base image that already has this JDK built in.
+          baseMvnImage=docker.io/library/maven:${mvnVersion}-eclipse-temurin-${toolchainsjdk}-jammy
+          baseImageAlreadyHasJavaAndMaven=true
+          JDKTAG="${JDKTAG}-${toolchainsjdk}"
+          ;;
+        *)
+          fail "The requested JDK ${toolchainsjdk} cannot be used in a toolchain config."
+      esac
     done
 
     mvnImage="rb-ubuntu-2204-${JDKTAG}"
     local DOCKERFILE="Dockerfile-${mvnImage}"
     (
       cat "${DOCKERFILES_TEMPLATES_DIR}/Dockerfile.toolchains.template" | \
+        sed "s_@@BASEIMAGE@@_${baseMvnImage}_g" | \
         sed "s/@@JDKPACKAGES@@/${JDKPACKAGES}/g" | \
         sed "s/@@MAVEN_VERSION@@/${mvnVersion}/g" | \
         sed "s/@@MAVEN_MAJOR@@/$(echo "${mvnVersion}" | cut -c 1)/g" | \
         sed "s/@@JDK@@/${jdk}/g"
     ) > "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}"
 
+    if [ "${baseImageAlreadyHasJavaAndMaven}" == "true" ];
+    then
+      sed -i "/###ADDITIONAL-JAVA-FIXES###/r ${DOCKERFILES_TEMPLATES_DIR}/Dockerfile.fix-preinstalled-java.include" \
+        "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}"
+    fi
+
     info "Building base Reproducible Builder toolchains image \033[1m${mvnImage}\033[0m"
     if ! runcommand "${RB_OCI_ENGINE}" build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
     then
       fatal "Unable to build ${mvnImage} using ${DOCKERFILE}"
     fi
+}
+
+# ################## INSTALL MAVEN ######################
+mvnBuildDockerAddMaven() {
+  # Using the provided base image we are adding a layer to install Maven
+  info "Adding layer to rebuilder container image for installation of maven"
+
+  local baseMvnImage="${mvnImage}"
+
+  mvnImage="$(basename ${mvnImage})-maven"
+  local DOCKERFILE="Dockerfile-${mvnImage}"
+  (
+    cat "${DOCKERFILES_TEMPLATES_DIR}/Dockerfile.maven.template" | \
+      sed "s_@@BASEIMAGE@@_${baseMvnImage}_g" | \
+      sed "s/@@MAVEN_VERSION@@/${mvnVersion}/g" | \
+      sed "s/@@MAVEN_MAJOR@@/$(echo "${mvnVersion}" | cut -c 1)/g"
+  ) > "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}"
+
+  if ! runcommand "${RB_OCI_ENGINE}" build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
+  then
+    fatal "Unable to build ${mvnImage} using ${DOCKERFILE}"
+  fi
 }
 
 # ################## LOCAL USER ######################
