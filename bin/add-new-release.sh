@@ -39,6 +39,16 @@ then
     fi
   fi
 
+  if [[ ${groupId} == io.wcm* ]]
+  then
+    buildNumber="$(unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep Scm-Revision | cut -d ' ' -f 2)"
+    timestamp="$(unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep Scm-Revision | cut -d ' ' -f 4 | sed -e 's/\r//')"
+    sed -i "s/^buildNumber=.*/buildNumber=${buildNumber}/" ${nextBuildspec}
+    sed -i "s/^timestamp=.*/timestamp=${timestamp}/" ${nextBuildspec}
+    echo "io.wcm timestamp=${timestamp}"
+    echo "io.wcm buildNumber=${buildNumber}"
+  fi
+
   echo "useful content for investigating rebuild environment:"
   unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF > tmp/$jarArtifactId-$nextVersion-MANIFEST.MF
   unzip -q -c tmp/$nextJar META-INF/maven/$groupId/$jarArtifactId/pom.properties > tmp/$jarArtifactId-$nextVersion-pom.properties
