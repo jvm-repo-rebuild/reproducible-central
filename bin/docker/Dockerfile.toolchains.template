@@ -11,9 +11,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-FROM docker.io/library/ubuntu:22.04
+FROM @@BASEIMAGE@@
 
-ENV INSIDE_DOCKER Yes
+ENV INSIDE_DOCKER=Yes
 
 ARG DEBIAN_FRONTEND=noninteractive
 
@@ -27,8 +27,8 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN echo APT::Install-Recommends "0"\; > /etc/apt/apt.conf.d/10disableextras
 RUN echo APT::Install-Suggests "0"\; >>  /etc/apt/apt.conf.d/10disableextras
 
-ENV DEBIAN_FRONTEND noninteractive
-ENV DEBCONF_TERSE true
+ENV DEBIAN_FRONTEND=noninteractive
+ENV DEBCONF_TERSE=true
 
 ###
 # Because of repeated 404 errors on that site during `apt-get install`
@@ -75,7 +75,7 @@ RUN apt-get -q update \
     @@JDKPACKAGES@@
 
 # Avoid out of memory errors in builds
-ENV MAVEN_OPTS -Xms256m -Xmx512m
+ENV MAVEN_OPTS="-Xms256m -Xmx512m"
 
 ##################################################################################################
 # Better reproducibility: deliberately set a few key default settings to a very uncommon value
@@ -85,7 +85,7 @@ ENV MAVEN_OPTS -Xms256m -Xmx512m
 # Set the locale ( see https://stackoverflow.com/a/28406007/114196 )
 # Better reproducibility: deliberately set default locale VERY different from 'US'
 ###
-ENV BUILD_LOCALE fi_FI
+ENV BUILD_LOCALE=fi_FI
 
 ###
 # Better reproducibility: deliberately set default umask VERY strange
@@ -98,7 +98,7 @@ ENV BUILD_UMASK=0055
 ENV BUILD_TIMEZONE=Australia/Eucla
 
 ENV TZ=${BUILD_TIMEZONE}
-ENV MAVEN_OPTS -Duser.timezone=${BUILD_TIMEZONE}
+ENV MAVEN_OPTS="-Duser.timezone=${BUILD_TIMEZONE}"
 RUN ln -fs /usr/share/zoneinfo/${BUILD_TIMEZONE} /etc/localtime && \
     dpkg-reconfigure -f noninteractive tzdata
 
