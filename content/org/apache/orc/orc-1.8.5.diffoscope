@@ -1,0 +1,82 @@
+1 / 2 target/reference/org.apache.orc/orc-1.8.5.pom pom.xml
+--- target/reference/org.apache.orc/orc-1.8.5.pom
++++ pom.xml
+│   --- target/reference/org.apache.orc/orc-1.8.5.pom
+├── +++ pom.xml
+│ @@ -643,15 +643,14 @@
+│              <execution>
+│                <goals>
+│                  <goal>run</goal>
+│                </goals>
+│                <phase>generate-sources</phase>
+│                <configuration>
+│                  <protocVersion>3.17.3</protocVersion>
+│ -                <protocArtifact>com.google.protobuf:protoc:3.17.3</protocArtifact>
+│                  <addSources>none</addSources>
+│                  <includeDirectories>
+│                    <include>../../proto</include>
+│                  </includeDirectories>
+│                  <inputDirectories>
+│                    <include>../../proto</include>
+│                  </inputDirectories>
+
+2 / 2 target/reference/org.apache.orc/orc-1.8.5-source-release.zip target/orc-1.8.5-source-release.zip
+--- target/reference/org.apache.orc/orc-1.8.5-source-release.zip
++++ target/orc-1.8.5-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1031906 bytes, number of entries: 601
+│ +Zip file size: 1031892 bytes, number of entries: 601
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.5/
+│  -rw-r--r--  2.0 unx     3887 b- defN 00-Jan-01 00:00 orc-1.8.5/CMakeLists.txt
+│  -rw-r--r--  2.0 unx      260 b- defN 00-Jan-01 00:00 orc-1.8.5/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 00-Jan-01 00:00 orc-1.8.5/LICENSE
+│  -rw-r--r--  2.0 unx      167 b- defN 00-Jan-01 00:00 orc-1.8.5/NOTICE
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.5/bench/
+│  -rw-r--r--  2.0 unx     1352 b- defN 00-Jan-01 00:00 orc-1.8.5/bench/README.md
+│ @@ -497,15 +497,15 @@
+│  -rw-r--r--  2.0 unx    14030 b- defN 00-Jan-01 00:00 orc-1.8.5/mapreduce/src/test/org/apache/orc/mapreduce/TestMapreduceOrcOutputFormat.java
+│  -rw-r--r--  2.0 unx     8560 b- defN 00-Jan-01 00:00 orc-1.8.5/mapreduce/src/test/org/apache/orc/mapreduce/TestMrUnit.java
+│  -rw-r--r--  2.0 unx     2182 b- defN 00-Jan-01 00:00 orc-1.8.5/mapreduce/src/test/org/apache/orc/mapreduce/TestOrcRecordWriter.java
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.5/mapreduce/src/test/resources/
+│  -rw-r--r--  2.0 unx    47024 b- defN 00-Jan-01 00:00 orc-1.8.5/mapreduce/src/test/resources/acid5k.orc
+│  -rw-r--r--  2.0 unx      893 b- defN 00-Jan-01 00:00 orc-1.8.5/mapreduce/src/test/resources/log4j.properties
+│  -rw-r--r--  2.0 unx     4075 b- defN 00-Jan-01 00:00 orc-1.8.5/mvnw
+│ --rw-r--r--  2.0 unx    33413 b- defN 00-Jan-01 00:00 orc-1.8.5/pom.xml
+│ +-rw-r--r--  2.0 unx    33330 b- defN 00-Jan-01 00:00 orc-1.8.5/pom.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.5/shims/
+│  -rw-r--r--  2.0 unx     3801 b- defN 00-Jan-01 00:00 orc-1.8.5/shims/pom.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.5/shims/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.5/shims/src/findbugs/
+│  -rw-r--r--  2.0 unx      696 b- defN 00-Jan-01 00:00 orc-1.8.5/shims/src/findbugs/exclude.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.5/shims/src/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.5/shims/src/java/org/
+│ @@ -596,8 +596,8 @@
+│  -rw-r--r--  2.0 unx      937 b- defN 00-Jan-01 00:00 orc-1.8.5/tools/src/test/resources/log4j.properties
+│  -rw-r--r--  2.0 unx    12232 b- defN 00-Jan-01 00:00 orc-1.8.5/tools/src/test/resources/orc-file-dump-bloomfilter.out
+│  -rw-r--r--  2.0 unx    13478 b- defN 00-Jan-01 00:00 orc-1.8.5/tools/src/test/resources/orc-file-dump-bloomfilter2.out
+│  -rw-r--r--  2.0 unx    33740 b- defN 00-Jan-01 00:00 orc-1.8.5/tools/src/test/resources/orc-file-dump-dictionary-threshold.out
+│  -rw-r--r--  2.0 unx    32969 b- defN 00-Jan-01 00:00 orc-1.8.5/tools/src/test/resources/orc-file-dump.json
+│  -rw-r--r--  2.0 unx    13947 b- defN 00-Jan-01 00:00 orc-1.8.5/tools/src/test/resources/orc-file-dump.out
+│  -rw-r--r--  2.0 unx     5806 b- defN 00-Jan-01 00:00 orc-1.8.5/tools/src/test/resources/orc-file-has-null.out
+│ -601 files, 4193737 bytes uncompressed, 915208 bytes compressed:  78.2%
+│ +601 files, 4193654 bytes uncompressed, 915194 bytes compressed:  78.2%
+├── orc-1.8.5/pom.xml
+│ ├── orc-1.8.5/pom.xml
+│ │ @@ -643,15 +643,14 @@
+│ │              <execution>
+│ │                <goals>
+│ │                  <goal>run</goal>
+│ │                </goals>
+│ │                <phase>generate-sources</phase>
+│ │                <configuration>
+│ │                  <protocVersion>3.17.3</protocVersion>
+│ │ -                <protocArtifact>com.google.protobuf:protoc:3.17.3</protocArtifact>
+│ │                  <addSources>none</addSources>
+│ │                  <includeDirectories>
+│ │                    <include>../../proto</include>
+│ │                  </includeDirectories>
+│ │                  <inputDirectories>
+│ │                    <include>../../proto</include>
+│ │                  </inputDirectories>
+
