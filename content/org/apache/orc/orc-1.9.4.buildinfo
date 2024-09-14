@@ -15,7 +15,7 @@ build-tool=mvn
 
 # build environment information (simplified for reproducibility)
 java.version=8
-os.name=Windows
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
 mvn.aggregate.artifact-id=orc-examples
@@ -31,8 +31,8 @@ outputs.0.0.checksums.sha512=3d21867b7cf7cb920eadbd435c4fd6ff982cee648960561a596
 
 outputs.0.1.groupId=org.apache.orc
 outputs.0.1.filename=orc-1.9.4-source-release.zip
-outputs.0.1.length=1039663
-outputs.0.1.checksums.sha512=9f454b862960dd2ecca0e6642c3dd3d3bd39bc184fd8b40064f8b4f354d2b026b9c2228dab78687ad68cabfe0778ea7b02e2cce8be11d9ac19cf305a608fafd4
+outputs.0.1.length=1034535
+outputs.0.1.checksums.sha512=4a5d046e0703763bd68b37e22d72384e92750fe7b45c89f537d7d77f807e8195797cbd6a9b1d416d66b7357a5de52e5716dfed3c9e768b9b107e4fa5b93de0d2
 
 outputs.1.coordinates=org.apache.orc:orc-shims
 
@@ -58,8 +58,8 @@ outputs.1.3.checksums.sha512=619b853e244bb80684a9158928959588e50e09a9ebeba967d78
 
 outputs.1.4.groupId=org.apache.orc
 outputs.1.4.filename=orc-shims-1.9.4-tests.jar
-outputs.1.4.length=9402
-outputs.1.4.checksums.sha512=6e4cc2a8a87f7fd0b4b8871920e5422e6eaef7ddad0b95f1920e9cdec8dc1884e2e08ec3e030fdd3725363878567027b9902f9db57ebecc7a89e931d0bb1ffd2
+outputs.1.4.length=9399
+outputs.1.4.checksums.sha512=20ca73b5bfe0f78eb970ee33d082d93e3e6f77651fd935a1ffbaed2007c2110748b4d11c18ae658f2a942f9eb50ee152cfb9672023f22854b7ddca33894df4e8
 
 outputs.2.coordinates=org.apache.orc:orc-core
 
@@ -95,8 +95,8 @@ outputs.2.5.checksums.sha512=e9bcc999a78a805ad807a4b32515e222b5bb96c4e5719a21ad2
 
 outputs.2.6.groupId=org.apache.orc
 outputs.2.6.filename=orc-core-1.9.4-tests.jar
-outputs.2.6.length=512359
-outputs.2.6.checksums.sha512=f73ddd2536b0d2b3c923d055828151582156268ac1d9d113815e93f0aed7ed61ca89435b337eee4eeada0424d0ac80f5c2929de10d34b7da189283641da3f10a
+outputs.2.6.length=512355
+outputs.2.6.checksums.sha512=9fdd0ed620879cf7f5ed9e6270ef77ace389d9331f2f98a5fefcc6631777f72cde952e6653b76919b84fba05cde7269aca8e803769c8e987d42d159c185ee9be
 
 outputs.3.coordinates=org.apache.orc:orc-mapreduce
 
@@ -132,8 +132,8 @@ outputs.3.5.checksums.sha512=de0dfeb37da577bfe291dcf51737fd14c7e19c85271ffc801f8
 
 outputs.3.6.groupId=org.apache.orc
 outputs.3.6.filename=orc-mapreduce-1.9.4-tests.jar
-outputs.3.6.length=92532
-outputs.3.6.checksums.sha512=73072d3f7bb96e2029ffa7e5ce9b1f77ee07f9922b9ccf367387e157aa090e2ff935ee4e82a203261aafca91ef726980e8b0d3f479fa89f3d9694c47981a1741
+outputs.3.6.length=92529
+outputs.3.6.checksums.sha512=c13f8de6fde03316d02050b76718130e99f017b5bc2ea614deb16a59a4bf36cd9e34c9a6dea8007cfa563acf930000fa7dd399f76c6d3fb7f318005bfd1639c2
 
 outputs.4.coordinates=org.apache.orc:orc-tools
 
@@ -174,8 +174,8 @@ outputs.4.6.checksums.sha512=44a405bb2dbedb94b09d9aae87f1738627a5104f22d98a3adf7
 
 outputs.4.7.groupId=org.apache.orc
 outputs.4.7.filename=orc-tools-1.9.4-tests.jar
-outputs.4.7.length=71162
-outputs.4.7.checksums.sha512=846552c999b18a9085b1ba03434eac6431d57b1a83179dfe04f76e49ba12ca88619c7d31376a423d3b5c9c8f998bb4d0e3524de698bbd8812860d5b052a9b3ab
+outputs.4.7.length=71159
+outputs.4.7.checksums.sha512=7d21b71635939150c454d17d3dc8a14876150e750f683de219a1f71bab70e1d053bf28ace47626fd64e213a584bc32ecebcefd7e212fd1eac2a379bdb8033167
 
 outputs.5.coordinates=org.apache.orc:orc-examples
 
@@ -191,8 +191,8 @@ outputs.5.1.checksums.sha512=5093983b63cbd488fa232b11868663ecb611f6d4208b2f2ef5e
 
 outputs.5.2.groupId=org.apache.orc
 outputs.5.2.filename=orc-examples-1.9.4-uber.jar
-outputs.5.2.length=32774236
-outputs.5.2.checksums.sha512=341b19fff56baaece6ab46a756c437da1392c54deff870bd6e9f19ad6909679e5f39bec40447131eff30abb5c8c262e49096fb568185d88cf0578f2b5121ed37
+outputs.5.2.length=32774180
+outputs.5.2.checksums.sha512=27033863f7b93c92fb3c11e6491c9b0a41a1fe785fad23d6eae6a7ecec61f777dec593d07781427bbb01412f7446916da3339501e9e65364563df39fee4c3041
 
 outputs.5.3.groupId=org.apache.orc
 outputs.5.3.filename=orc-examples-1.9.4-sources.jar
@@ -206,5 +206,5 @@ outputs.5.4.checksums.sha512=bd59c3c238c4b082e76bdc43e02fba2952f8cca7ced2b7a3386
 
 outputs.5.5.groupId=org.apache.orc
 outputs.5.5.filename=orc-examples-1.9.4-tests.jar
-outputs.5.5.length=9225
-outputs.5.5.checksums.sha512=0bceff4bb809ade5d2f42637784546de48435b075c9177e02f62e86e1d509c255e6631c012f87ff1b86e912f5fc009a4febcf11abe4cea83f0714f08ab7413dc
+outputs.5.5.length=9221
+outputs.5.5.checksums.sha512=dbe5c1143de3bf9652d3f8098a40e5d435a33f850f1fd6050e1fb8b6193d6894e4c6e2df5383806788484bb2ed2fc3c54dd75d2172c32778d1d8604054119d68
