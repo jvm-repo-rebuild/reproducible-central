@@ -1,0 +1,14 @@
+version=1.9.0
+ok=3
+ko=5
+ignored=0
+okFiles="io.wcm.caconfig.editor.parent-1.9.0.pom io.wcm.caconfig.editor-1.9.0.pom io.wcm.caconfig.editor.package-1.9.0.pom"
+koFiles="io.wcm.caconfig.editor-1.9.0.jar io.wcm.caconfig.editor-1.9.0-sources.jar io.wcm.caconfig.editor-1.9.0-content.zip io.wcm.caconfig.editor-1.9.0-bundle.jar io.wcm.caconfig.editor.package-1.9.0.zip"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/io.wcm/io.wcm.caconfig.editor-1.9.0.jar bundle/target/io.wcm.caconfig.editor-1.9.0.jar
+# diffoscope target/reference/io.wcm/io.wcm.caconfig.editor-1.9.0-sources.jar bundle/target/io.wcm.caconfig.editor-1.9.0-sources.jar
+# diffoscope target/reference/io.wcm/io.wcm.caconfig.editor-1.9.0-content.zip bundle/target/io.wcm.caconfig.editor-1.9.0-content.zip
+# diffoscope target/reference/io.wcm/io.wcm.caconfig.editor-1.9.0-bundle.jar bundle/target/io.wcm.caconfig.editor-1.9.0-bundle.jar
+# diffoscope target/reference/io.wcm/io.wcm.caconfig.editor.package-1.9.0.zip package/target/io.wcm.caconfig.editor.package-1.9.0.zip

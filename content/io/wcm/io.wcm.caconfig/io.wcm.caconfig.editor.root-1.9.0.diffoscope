@@ -1,0 +1,137 @@
+1 / 5 target/reference/io.wcm/io.wcm.caconfig.editor-1.9.0.jar bundle/target/io.wcm.caconfig.editor-1.9.0.jar
+--- target/reference/io.wcm/io.wcm.caconfig.editor-1.9.0.jar
++++ bundle/target/io.wcm.caconfig.editor-1.9.0.jar
+│ @@ -57,15 +57,15 @@
+│  -rw-r--r--  2.0 unx     1176 b- defN 22-Jan-13 14:18 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/modals.module.js
+│  -rw-r--r--  2.0 unx     1280 b- defN 22-Jan-13 14:18 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/save-config.controller.js
+│ --rw-r--r--  2.0 unx    42974 b- defN 22-Jan-13 14:18 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/templates.module.js
+│ +-rw-r--r--  2.0 unx    42255 b- defN 22-Jan-13 14:18 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/templates.module.js
+│  -rw-r--r--  2.0 unx     3538 b- defN 22-Jan-13 14:18 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/ui.service.js
+│  -rw-r--r--  2.0 unx      880 b- defN 22-Jan-13 14:18 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/utilities.module.js
+
+2 / 5 target/reference/io.wcm/io.wcm.caconfig.editor-1.9.0-sources.jar bundle/target/io.wcm.caconfig.editor-1.9.0-sources.jar
+--- target/reference/io.wcm/io.wcm.caconfig.editor-1.9.0-sources.jar
++++ bundle/target/io.wcm.caconfig.editor-1.9.0-sources.jar
+├── zipinfo {}
+│ @@ -69,15 +69,15 @@
+│  -rw-r--r--  2.0 unx     1176 b- defN 22-Jan-13 14:18 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/modals.module.js
+│  -rw-r--r--  2.0 unx     1280 b- defN 22-Jan-13 14:18 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/save-config.controller.js
+│ --rw-r--r--  2.0 unx    42974 b- defN 22-Jan-13 14:18 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/templates.module.js
+│ +-rw-r--r--  2.0 unx    42255 b- defN 22-Jan-13 14:18 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/templates.module.js
+│  -rw-r--r--  2.0 unx     3538 b- defN 22-Jan-13 14:18 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/ui.service.js
+│  -rw-r--r--  2.0 unx      880 b- defN 22-Jan-13 14:18 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/utilities.module.js
+
+3 / 5 target/reference/io.wcm/io.wcm.caconfig.editor-1.9.0-content.zip bundle/target/io.wcm.caconfig.editor-1.9.0-content.zip
+--- target/reference/io.wcm/io.wcm.caconfig.editor-1.9.0-content.zip
++++ bundle/target/io.wcm.caconfig.editor-1.9.0-content.zip
+├── zipinfo {}
+│ @@ -1,178 +1,178 @@
+│ -Zip file size: 199912 bytes, number of entries: 176
+│ --rw----     2.0 fat     3167 bl defN 22-Jan-13 15:19 META-INF/vault/config.xml
+│ --rw----     2.0 fat      504 bl defN 22-Jan-13 15:19 META-INF/vault/properties.xml
+...
+│ --rw----     2.0 fat    17487 bl defN 22-Jan-13 15:19 jcr_root/apps/wcm-io/caconfig/editor/templates/editor/thumbnail.png
+│ --rw----     2.0 fat      694 bl defN 22-Jan-13 15:19 jcr_root/apps/wcm-io/caconfig/editor/templates/editor/.content.xml
+│ -176 files, 435494 bytes uncompressed, 149940 bytes compressed:  65.6%
+│ +Zip file size: 199886 bytes, number of entries: 176
+│ +-rw----     2.0 fat     3167 bl defN 24-Sep-14 16:27 META-INF/vault/config.xml
+│ +-rw----     2.0 fat      499 bl defN 24-Sep-14 16:27 META-INF/vault/properties.xml
+...
+│ +-rw----     2.0 fat    17487 bl defN 24-Sep-14 16:27 jcr_root/apps/wcm-io/caconfig/editor/templates/editor/thumbnail.png
+│ +-rw----     2.0 fat      694 bl defN 24-Sep-14 16:27 jcr_root/apps/wcm-io/caconfig/editor/templates/editor/.content.xml
+│ +176 files, 434770 bytes uncompressed, 149914 bytes compressed:  65.5%
+├── META-INF/vault/properties.xml
+│ ├── META-INF/vault/properties.xml
+│ │ @@ -1,13 +1,13 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <!DOCTYPE properties
+│ │    SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+│ │  <properties>
+│ │    <entry key="allowIndexDefinitions">false</entry>
+│ │    <entry key="createdBy">admin</entry>
+│ │ -  <entry key="created">2022-01-13T15:19:06.368+01:00</entry>
+│ │ +  <entry key="created">2024-09-14T16:27:49.039Z</entry>
+│ │    <entry key="name">io.wcm.caconfig.editor-content</entry>
+│ │    <entry key="version">1.9.0</entry>
+│ │    <entry key="packageType">application</entry>
+│ │    <entry key="requiresRoot">false</entry>
+│ │    <entry key="group">wcm-io</entry>
+│ │  </properties>
+├── jcr_root/apps/wcm-io/caconfig/editor/clientlibs/io.wcm.caconfig.editor/js/templates.module.js
+...
+
+4 / 5 target/reference/io.wcm/io.wcm.caconfig.editor-1.9.0-bundle.jar bundle/target/io.wcm.caconfig.editor-1.9.0-bundle.jar
+--- target/reference/io.wcm/io.wcm.caconfig.editor-1.9.0-bundle.jar
++++ bundle/target/io.wcm.caconfig.editor-1.9.0-bundle.jar
+├── zipinfo {}
+│ @@ -1,52 +1,52 @@
+│  Zip file size: 46045 bytes, number of entries: 50
+│ --rw----     2.0 fat     4511 bl defN 22-Jan-13 15:19 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat        0 bl defN 22-Jan-13 15:19 META-INF/
+...
+│ --rw----     2.0 fat     8215 bl defN 22-Jan-13 15:19 META-INF/maven/io.wcm/io.wcm.caconfig.editor/pom.xml
+│ --rw----     2.0 fat       66 bl defN 22-Jan-13 15:19 META-INF/maven/io.wcm/io.wcm.caconfig.editor/pom.properties
+│ +-rw----     2.0 fat     4511 bl defN 24-Sep-14 16:27 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-14 16:27 META-INF/
+...
+│ +-rw----     2.0 fat     8215 bl defN 24-Sep-14 16:27 META-INF/maven/io.wcm/io.wcm.caconfig.editor/pom.xml
+│ +-rw----     2.0 fat       66 bl defN 24-Sep-14 16:27 META-INF/maven/io.wcm/io.wcm.caconfig.editor/pom.properties
+│  50 files, 95310 bytes uncompressed, 36889 bytes compressed:  61.3%
+
+5 / 5 target/reference/io.wcm/io.wcm.caconfig.editor.package-1.9.0.zip package/target/io.wcm.caconfig.editor.package-1.9.0.zip
+--- target/reference/io.wcm/io.wcm.caconfig.editor.package-1.9.0.zip
++++ package/target/io.wcm.caconfig.editor.package-1.9.0.zip
+├── zipinfo {}
+│ @@ -1,33 +1,33 @@
+│ -Zip file size: 174196 bytes, number of entries: 31
+│ +Zip file size: 174176 bytes, number of entries: 31
+│  -rw-r--r--  2.0 unx      519 b- defN 22-Jan-13 14:18 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 META-INF/vault/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 META-INF/vault/definition/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 META-INF/vault/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 META-INF/vault/definition/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 jcr_root/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 jcr_root/apps/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 jcr_root/apps/wcm-io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/install/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 jcr_root/apps/wcm-io/caconfig/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 jcr_root/apps/wcm-io/caconfig/editor-package/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 jcr_root/apps/wcm-io/caconfig/editor-package/templates/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 jcr_root/apps/wcm-io/caconfig/editor-package/templates/editor/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 jcr_root/apps/wcm-io/caconfig/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 jcr_root/apps/wcm-io/caconfig/editor-package/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 jcr_root/apps/wcm-io/caconfig/editor-package/templates/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 jcr_root/apps/wcm-io/caconfig/editor-package/templates/editor/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 META-INF/maven/io.wcm/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-13 14:18 META-INF/maven/io.wcm/io.wcm.caconfig.editor.package/
+│ --rw-r--r--  2.0 unx    16173 b- defN 22-Jan-13 14:18 META-INF/vault/definition/thumbnail.png
+│ +-rw-rw-r--  2.0 unx    16173 b- defN 22-Jan-13 14:18 META-INF/vault/definition/thumbnail.png
+│  -rw-r--r--  2.0 unx     3600 b- defN 22-Jan-13 14:18 META-INF/vault/config.xml
+│ --rw-r--r--  2.0 unx      968 b- defN 22-Jan-13 14:18 META-INF/vault/definition/.content.xml
+│ --rw-r--r--  2.0 unx      213 b- defN 22-Jan-13 14:18 META-INF/vault/filter.xml
+│  -rw-r--r--  2.0 unx      694 b- defN 22-Jan-13 14:18 META-INF/vault/properties.xml
+│  -rw-r--r--  2.0 unx      913 b- defN 22-Jan-13 14:18 META-INF/vault/settings.xml
+│ --rw-r--r--  2.0 unx   175954 b- defN 22-Jan-13 14:18 jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/install/io.wcm.caconfig.editor-1.9.0.jar
+│ --rw-r--r--  2.0 unx      177 b- defN 22-Jan-13 14:18 jcr_root/apps/wcm-io/.content.xml
+│ --rw-r--r--  2.0 unx      177 b- defN 22-Jan-13 14:18 jcr_root/apps/wcm-io/caconfig/.content.xml
+│ --rw-r--r--  2.0 unx      491 b- defN 22-Jan-13 14:18 jcr_root/apps/wcm-io/caconfig/editor-package/templates/editor/.content.xml
+│ --rw-r--r--  2.0 unx    17487 b- defN 22-Jan-13 14:18 jcr_root/apps/wcm-io/caconfig/editor-package/templates/editor/thumbnail.png
+│ --rw-r--r--  2.0 unx      244 b- defN 22-Jan-13 14:18 jcr_root/apps/.content.xml
+│ --rw-r--r--  2.0 unx      338 b- defN 22-Jan-13 14:18 jcr_root/.content.xml
+│ +-rw-r--r--  2.0 unx      213 b- defN 22-Jan-13 14:18 META-INF/vault/filter.xml
+│ +-rw-r--r--  2.0 unx      968 b- defN 22-Jan-13 14:18 META-INF/vault/definition/.content.xml
+│ +-rw-r--r--  2.0 unx   175932 b- defN 22-Jan-13 14:18 jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/install/io.wcm.caconfig.editor-1.9.0.jar
+│ +-rw-rw-r--  2.0 unx      177 b- defN 22-Jan-13 14:18 jcr_root/apps/wcm-io/.content.xml
+│ +-rw-rw-r--  2.0 unx      177 b- defN 22-Jan-13 14:18 jcr_root/apps/wcm-io/caconfig/.content.xml
+│ +-rw-rw-r--  2.0 unx    17487 b- defN 22-Jan-13 14:18 jcr_root/apps/wcm-io/caconfig/editor-package/templates/editor/thumbnail.png
+│ +-rw-rw-r--  2.0 unx      491 b- defN 22-Jan-13 14:18 jcr_root/apps/wcm-io/caconfig/editor-package/templates/editor/.content.xml
+│ +-rw-rw-r--  2.0 unx      244 b- defN 22-Jan-13 14:18 jcr_root/apps/.content.xml
+│ +-rw-rw-r--  2.0 unx      338 b- defN 22-Jan-13 14:18 jcr_root/.content.xml
+│  -rw-r--r--  2.0 unx     3752 b- defN 22-Jan-13 14:18 META-INF/maven/io.wcm/io.wcm.caconfig.editor.package/pom.xml
+│  -rw-r--r--  2.0 unx       74 b- defN 22-Jan-13 14:18 META-INF/maven/io.wcm/io.wcm.caconfig.editor.package/pom.properties
+│ -31 files, 221774 bytes uncompressed, 169456 bytes compressed:  23.6%
+│ +31 files, 221752 bytes uncompressed, 169436 bytes compressed:  23.6%
+...
