@@ -29,20 +29,20 @@ RUN chmod 755 /scripts/*.sh
 ###
 ADD docker/mvn /usr/local/bin
 RUN chmod 755 /usr/local/bin/mvn
-ENV PATH /usr/local/bin/:${PATH}
+ENV PATH="/usr/local/bin/:${PATH}"
 
 # Avoid out of memory errors in builds
-ENV MAVEN_OPTS -Xms256m -Xmx512m @@MAVEN_OPTS@@
+ENV MAVEN_OPTS="-Xms256m -Xmx512m @@MAVEN_OPTS@@"
 
 ###
 # Better reproducibility: Make the desired locale explicit
 # Set the locale ( see https://stackoverflow.com/a/28406007/114196 )
 ###
-ENV BUILD_LOCALE @@BUILD_LOCALE@@
+ENV BUILD_LOCALE=@@BUILD_LOCALE@@
 RUN [ -f /etc/locale.gen ] && sed -i "/${BUILD_LOCALE}.UTF-8/s/^# //g" /etc/locale.gen && locale-gen || true
-ENV LANG ${BUILD_LOCALE}.UTF-8
-ENV LANGUAGE ${BUILD_LOCALE}
-ENV LC_ALL ${BUILD_LOCALE}.UTF-8
+ENV LANG=${BUILD_LOCALE}.UTF-8
+ENV LANGUAGE=${BUILD_LOCALE}
+ENV LC_ALL=${BUILD_LOCALE}.UTF-8
 
 ###
 # Better reproducibility: Make the desired umask explicit
@@ -55,7 +55,7 @@ ENV BUILD_UMASK=@@BUILD_UMASK@@
 ENV BUILD_TIMEZONE=@@BUILD_TIMEZONE@@
 
 ENV TZ=${BUILD_TIMEZONE}
-ENV MAVEN_OPTS -Duser.timezone=${BUILD_TIMEZONE}
+ENV MAVEN_OPTS="-Duser.timezone=${BUILD_TIMEZONE}"
 
 RUN ln -fs /usr/share/zoneinfo/${BUILD_TIMEZONE} /etc/localtime && \
     dpkg-reconfigure -f noninteractive tzdata && \
