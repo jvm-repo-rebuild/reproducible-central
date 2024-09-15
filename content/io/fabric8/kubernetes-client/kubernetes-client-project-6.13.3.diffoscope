@@ -1,0 +1,211 @@
+1 / 8 target/reference/io.fabric8/kubernetes-client-api-6.13.3-tests.jar kubernetes-client-api/target/kubernetes-client-api-6.13.3-tests.jar
+--- target/reference/io.fabric8/kubernetes-client-api-6.13.3-tests.jar
++++ kubernetes-client-api/target/kubernetes-client-api-6.13.3-tests.jar
+├── zipinfo {}
+│ @@ -28,15 +28,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-13 09:18 serialization/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-13 09:18 ssl-test/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-13 09:18 test-serviceaccount/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-13 09:18 token-refresh-interceptor/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-13 09:18 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-13 09:18 META-INF/maven/io.fabric8/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-13 09:18 META-INF/maven/io.fabric8/kubernetes-client-api/
+│ --rwxr-xr-x  2.0 unx      306 b- defN 24-Aug-13 09:18 cert-generator
+│ +-rw-r--r--  2.0 unx      306 b- defN 24-Aug-13 09:18 cert-generator
+│  -rw-r--r--  2.0 unx     1320 b- defN 24-Aug-13 09:18 cert-generator-win.bat
+│  -rw-r--r--  2.0 unx      741 b- defN 24-Aug-13 09:18 config-disable-autoconfiguration/kube-config
+│  -rw-r--r--  2.0 unx       38 b- defN 24-Aug-13 09:18 config-disable-autoconfiguration/serviceaccount/namespace
+│  -rw-r--r--  2.0 unx       34 b- defN 24-Aug-13 09:18 config-disable-autoconfiguration/serviceaccount/token
+│  -rw-r--r--  2.0 unx      741 b- defN 24-Aug-13 09:18 config-source-precedence/kube-config
+│  -rw-r--r--  2.0 unx       92 b- defN 24-Aug-13 09:18 config-source-precedence/serviceaccount/ca.crt
+│  -rw-r--r--  2.0 unx       38 b- defN 24-Aug-13 09:18 config-source-precedence/serviceaccount/namespace
+│ @@ -290,15 +290,15 @@
+│  -rw-r--r--  2.0 unx      408 b- defN 24-Aug-13 09:18 test-kubeconfig-exec-with-spaces-windows
+│  -rw-r--r--  2.0 unx     2601 b- defN 24-Aug-13 09:18 test-kubeconfig-nocurrentctxt.yml
+│  -rw-r--r--  2.0 unx     2065 b- defN 24-Aug-13 09:18 test-kubeconfig-oidc
+│  -rw-r--r--  2.0 unx       15 b- defN 24-Aug-13 09:18 test-namespace
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Aug-13 09:18 test-serviceaccount/ca.crt
+│  -rw-r--r--  2.0 unx       34 b- defN 24-Aug-13 09:18 test-serviceaccount/token
+│  -rw-r--r--  2.0 unx        1 b- defN 24-Aug-13 09:18 test.bin
+│ --rwxr-xr-x  2.0 unx      205 b- defN 24-Aug-13 09:18 token-generator
+│ +-rw-r--r--  2.0 unx      205 b- defN 24-Aug-13 09:18 token-generator
+│  -rwxr-xr-x  2.0 unx      211 b- defN 24-Aug-13 09:18 token-generator with spaces
+│  -rw-r--r--  2.0 unx     1038 b- defN 24-Aug-13 09:18 token-generator-win with spaces.bat
+│  -rw-r--r--  2.0 unx     1032 b- defN 24-Aug-13 09:18 token-generator-win.bat
+│  -rw-r--r--  2.0 unx      460 b- defN 24-Aug-13 09:18 token-refresh-interceptor/kubeconfig
+│  -rw-r--r--  2.0 unx     1114 b- defN 24-Aug-13 09:18 token-refresh-interceptor/kubeconfig-oidc
+│  -rw-r--r--  2.0 unx      464 b- defN 24-Aug-13 09:18 token-refresh-interceptor/kubeconfig.new
+│  -rw-r--r--  2.0 unx    11319 b- defN 24-Aug-13 09:18 META-INF/maven/io.fabric8/kubernetes-client-api/pom.xml
+
+2 / 8 target/reference/io.fabric8/kubernetes-client-6.13.3-bundle.jar kubernetes-client/target/kubernetes-client-6.13.3-bundle.jar
+--- target/reference/io.fabric8/kubernetes-client-6.13.3-bundle.jar
++++ kubernetes-client/target/kubernetes-client-6.13.3-bundle.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 803229 bytes, number of entries: 557
+│ +Zip file size: 803223 bytes, number of entries: 557
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat    18688 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat    18649 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-client/
+│  -rw----     2.0 fat       63 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-client/pom.properties
+│  -rw----     2.0 fat     9355 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-client/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/services/
+│  -rw----     2.0 fat      805 bl defN 80-Feb-01 00:00 META-INF/services/io.fabric8.kubernetes.client.ServiceToURLProvider
+│ @@ -552,8 +552,8 @@
+│  -rw----     2.0 fat     3395 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/client/utils/internal/SerialExecutor.class
+│  -rw----     2.0 fat    12276 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/client/utils/internal/URLFromServiceUtil.class
+│  -rw----     2.0 fat     2244 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/client/utils/internal/WatcherToggle.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/internal/
+│  -rw----     2.0 fat     7460 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/internal/KubernetesDeserializer$Mapping.class
+│  -rw----     2.0 fat     1186 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/internal/KubernetesDeserializer$TypeKey.class
+│  -rw----     2.0 fat     7290 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/internal/KubernetesDeserializer.class
+│ -557 files, 2020052 bytes uncompressed, 682377 bytes compressed:  66.2%
+│ +557 files, 2020013 bytes uncompressed, 682371 bytes compressed:  66.2%
+├── META-INF/MANIFEST.MF
+│ @@ -249,17 +249,17 @@
+│   org.snakeyaml.engine.v2.common;version="[2.7,3)",org.snakeyaml.engine
+│   .v2.nodes;version="[2.7,3)",org.snakeyaml.engine.v2.representer;versi
+│   on="[2.7,3)",io.fabric8.openshift.client.handlers;resolution:=optiona
+│   l
+│  Include-Resource: /META-INF/services/io.fabric8.kubernetes.client.Serv
+│   iceToURLProvider=target/classes/META-INF/services/io.fabric8.kubernet
+│   es.client.ServiceToURLProvider,OSGI-INF/io.fabric8.kubernetes.client.
+│ - osgi.ManagedKubernetesClient.xml=/home/runner/work/kubernetes-client/
+│ - kubernetes-client/kubernetes-client/target/classes/OSGI-INF/io.fabric
+│ - 8.kubernetes.client.osgi.ManagedKubernetesClient.xml
+│ + osgi.ManagedKubernetesClient.xml=/var/maven/app/kubernetes-client/tar
+│ + get/classes/OSGI-INF/io.fabric8.kubernetes.client.osgi.ManagedKuberne
+│ + tesClient.xml
+│  Private-Package: io.fabric8.kubernetes.client.internal,io.fabric8.kube
+│   rnetes.client.handlers,io.fabric8.kubernetes.client.dsl.base,io.fabri
+│   c8.kubernetes.client.dsl.internal
+│  Provide-Capability: osgi.serviceloader;osgi.serviceloader="io.fabric8.
+│   kubernetes.client.ServiceToURLProvider"
+│  Require-Capability: osgi.extender;filter:="(osgi.extender=osgi.service
+│   loader.processor)",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+3 / 8 target/reference/io.fabric8/openshift-client-6.13.3-bundle.jar openshift-client/target/openshift-client-6.13.3-bundle.jar
+--- target/reference/io.fabric8/openshift-client-6.13.3-bundle.jar
++++ openshift-client/target/openshift-client-6.13.3-bundle.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 127087 bytes, number of entries: 110
+│ +Zip file size: 127071 bytes, number of entries: 110
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat    11449 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat    11326 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/openshift-client/
+│  -rw----     2.0 fat       62 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/openshift-client/pom.properties
+│  -rw----     2.0 fat     8162 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/openshift-client/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/services/
+│  -rw----     2.0 fat      649 bl defN 80-Feb-01 00:00 META-INF/services/io.fabric8.kubernetes.client.ServiceToURLProvider
+│ @@ -105,8 +105,8 @@
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/fabric8/openshift/client/internal/
+│  -rw----     2.0 fat    11276 bl defN 80-Feb-01 00:00 io/fabric8/openshift/client/internal/OpenShiftOAuthInterceptor.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/fabric8/openshift/client/osgi/
+│  -rw----     2.0 fat     5700 bl defN 80-Feb-01 00:00 io/fabric8/openshift/client/osgi/ManagedOpenShiftClient.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/fabric8/openshift/client/readiness/
+│  -rw----     2.0 fat      680 bl defN 80-Feb-01 00:00 io/fabric8/openshift/client/readiness/OpenShiftReadiness$OpenShiftReadinessHolder.class
+│  -rw----     2.0 fat     2492 bl defN 80-Feb-01 00:00 io/fabric8/openshift/client/readiness/OpenShiftReadiness.class
+│ -110 files, 396748 bytes uncompressed, 103593 bytes compressed:  73.9%
+│ +110 files, 396625 bytes uncompressed, 103577 bytes compressed:  73.9%
+├── META-INF/MANIFEST.MF
+│ @@ -139,25 +139,23 @@
+│   sion="[6.13,7)",io.fabric8.openshift.api.model.whereabouts.v1alpha1;v
+│   ersion="[6.13,7)",org.slf4j;version="[2.0,3)"
+│  Include-Resource: /META-INF/services/io.fabric8.kubernetes.client.Serv
+│   iceToURLProvider=target/classes/META-INF/services/io.fabric8.kubernet
+│   es.client.ServiceToURLProvider,/META-INF/services/io.fabric8.kubernet
+│   es.client.extension.ExtensionAdapter=target/classes/META-INF/services
+│   /io.fabric8.kubernetes.client.extension.ExtensionAdapter,OSGI-INF/io.
+│ - fabric8.openshift.client.impl.OpenShiftExtensionAdapter.xml=/home/run
+│ - ner/work/kubernetes-client/kubernetes-client/openshift-client/target/
+│ - classes/OSGI-INF/io.fabric8.openshift.client.impl.OpenShiftExtensionA
+│ - dapter.xml,OSGI-INF/io.fabric8.openshift.client.osgi.ManagedOpenShift
+│ - Client.xml=/home/runner/work/kubernetes-client/kubernetes-client/open
+│ - shift-client/target/classes/OSGI-INF/io.fabric8.openshift.client.osgi
+│ - .ManagedOpenShiftClient.xml,OSGI-INF/io.fabric8.openshift.client.impl
+│ - .NamespacedOpenShiftExtensionAdapter.xml=/home/runner/work/kubernetes
+│ - -client/kubernetes-client/openshift-client/target/classes/OSGI-INF/io
+│ - .fabric8.openshift.client.impl.NamespacedOpenShiftExtensionAdapter.xm
+│ - l
+│ + fabric8.openshift.client.osgi.ManagedOpenShiftClient.xml=/var/maven/a
+│ + pp/openshift-client/target/classes/OSGI-INF/io.fabric8.openshift.clie
+│ + nt.osgi.ManagedOpenShiftClient.xml,OSGI-INF/io.fabric8.openshift.clie
+│ + nt.impl.OpenShiftExtensionAdapter.xml=/var/maven/app/openshift-client
+│ + /target/classes/OSGI-INF/io.fabric8.openshift.client.impl.OpenShiftEx
+│ + tensionAdapter.xml,OSGI-INF/io.fabric8.openshift.client.impl.Namespac
+│ + edOpenShiftExtensionAdapter.xml=/var/maven/app/openshift-client/targe
+│ + t/classes/OSGI-INF/io.fabric8.openshift.client.impl.NamespacedOpenShi
+│ + ftExtensionAdapter.xml
+│  Private-Package: io.fabric8.openshift.client.handlers,io.fabric8.opens
+│   hift.client.internal,io.fabric8.openshift.client.dsl.internal
+│  Provide-Capability: osgi.serviceloader;osgi.serviceloader="io.fabric8.
+│   kubernetes.client.extension.ExtensionAdapter",io.fabric8.kubernetes.c
+│   lient.ServiceToURLProvider
+│  Require-Capability: osgi.extender;filter:="(osgi.extender=osgi.service
+│   loader.registrar)",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+4 / 8 target/reference/io.fabric8/crd-generator-test-6.13.3.pom crd-generator/test/pom.xml
+/srv/diffoscope/bin/diffoscope: target/reference/io.fabric8/crd-generator-test-6.13.3.pom: No such file or directory
+
+5 / 8 target/reference/io.fabric8/crd-generator-test-6.13.3.jar crd-generator/test/target/crd-generator-test-6.13.3.jar
+/srv/diffoscope/bin/diffoscope: target/reference/io.fabric8/crd-generator-test-6.13.3.jar: No such file or directory
+
+6 / 8 target/reference/io.fabric8/crd-generator-test-apt-6.13.3.pom crd-generator/test-apt/pom.xml
+/srv/diffoscope/bin/diffoscope: target/reference/io.fabric8/crd-generator-test-apt-6.13.3.pom: No such file or directory
+
+7 / 8 target/reference/io.fabric8/crd-generator-test-apt-6.13.3.jar crd-generator/test-apt/target/crd-generator-test-apt-6.13.3.jar
+/srv/diffoscope/bin/diffoscope: target/reference/io.fabric8/crd-generator-test-apt-6.13.3.jar: No such file or directory
+
+8 / 8 target/reference/io.fabric8/kubernetes-log4j-6.13.3.jar log4j/target/kubernetes-log4j-6.13.3.jar
+--- target/reference/io.fabric8/kubernetes-log4j-6.13.3.jar
++++ log4j/target/kubernetes-log4j-6.13.3.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 22770 bytes, number of entries: 28
+│ +Zip file size: 22748 bytes, number of entries: 28
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1635 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1554 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     4654 bl defN 80-Feb-01 00:00 META-INF/jandex.idx
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-log4j/
+│  -rw----     2.0 fat       62 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-log4j/pom.properties
+│  -rw----     2.0 fat     3496 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-log4j/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/org/
+│ @@ -23,8 +23,8 @@
+│  -rw----     2.0 fat     4580 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/log4j/lookup/ClientBuilder.class
+│  -rw----     2.0 fat     4370 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/log4j/lookup/ContainerUtil.class
+│  -rw----     2.0 fat      266 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/log4j/lookup/KubernetesLookup$1.class
+│  -rw----     2.0 fat     1280 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/log4j/lookup/KubernetesLookup$KubernetesInfo.class
+│  -rw----     2.0 fat    13464 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/log4j/lookup/KubernetesLookup.class
+│  -rw----     2.0 fat     6864 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/log4j/lookup/Log4jConfig.class
+│  -rw----     2.0 fat      140 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/log4j/lookup/package-info.class
+│ -28 files, 40892 bytes uncompressed, 18076 bytes compressed:  55.8%
+│ +28 files, 40811 bytes uncompressed, 18054 bytes compressed:  55.8%
+├── META-INF/MANIFEST.MF
+│ @@ -18,14 +18,13 @@
+│   fabric8.kubernetes.client,io.fabric8.kubernetes.client.dsl,io.fabric8
+│   .kubernetes.client.utils,org.apache.logging.log4j;version="[2.20,3)",
+│   org.apache.logging.log4j.core;version="[2.20,3)",org.apache.logging.l
+│   og4j.core.config.plugins;version="[2.20,3)",org.apache.logging.log4j.
+│   core.lookup;version="[2.20,3)",org.apache.logging.log4j.spi;version="
+│   [2.20,3)",org.apache.logging.log4j.status;version="[2.23,3)",org.apac
+│   he.logging.log4j.util;version="[2.22,3)"
+│ -Include-Resource: ,/META-INF/org/apache/logging/=/home/runner/work/kub
+│ - ernetes-client/kubernetes-client/log4j/target/classes/META-INF/org/ap
+│ - ache/logging/,/META-INF/jandex.idx=/home/runner/work/kubernetes-clien
+│ - t/kubernetes-client/log4j/target/classes/META-INF/jandex.idx
+│ +Include-Resource: ,/META-INF/org/apache/logging/=/var/maven/app/log4j/
+│ + target/classes/META-INF/org/apache/logging/,/META-INF/jandex.idx=/var
+│ + /maven/app/log4j/target/classes/META-INF/jandex.idx
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+│  Tool: Bnd-6.3.1.202206071316
+
