@@ -3,8 +3,8 @@
   <groupId>org.apache.camel</groupId>
   <artifactId>camel</artifactId>
   <versioning>
-    <latest>4.7.0</latest>
-    <release>4.7.0</release>
+    <latest>4.8.0</latest>
+    <release>4.8.0</release>
     <versions>
       <version>1.6.2</version>
       <version>1.6.3</version>
@@ -240,7 +240,8 @@
       <version>4.5.0</version>
       <version>4.6.0</version>
       <version>4.7.0</version>
+      <version>4.8.0</version>
     </versions>
-    <lastUpdated>20240812071155</lastUpdated>
+    <lastUpdated>20240915080205</lastUpdated>
   </versioning>
 </metadata>

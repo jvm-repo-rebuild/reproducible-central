@@ -4,7 +4,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240914132925 --> [airbase](../content/io/airlift/airbase/README.md) | [173](../content/io/airlift/airbase/airbase-173.buildspec) :white_check_mark: | [174](../content/io/airlift/airbase/airbase-174.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-173.buildspec 174` |
+| <!-- 20240915154601 --> [bom-newest](../content/com/intellectualsites/bom/bom-newest/README.md) | [1.48](../content/com/intellectualsites/bom/bom-newest/bom-newest-1.48.buildspec) :white_check_mark: | [1.49](../content/com/intellectualsites/bom/bom-newest/bom-newest-1.49.buildspec) | `bin/add-new-release.sh content/com/intellectualsites/bom/bom-newest/bom-newest-1.48.buildspec 1.49` |
+| <!-- 20240915141310 --> [mojo-parent](../content/org/codehaus/mojo/mojo-parent/README.md) | [85](../content/org/codehaus/mojo/mojo-parent/mojo-parent-85.buildspec) :white_check_mark: | [86](../content/org/codehaus/mojo/mojo-parent/mojo-parent-86.buildspec) | `bin/add-new-release.sh content/org/codehaus/mojo/mojo-parent/mojo-parent-85.buildspec 86` |
+| <!-- 20240915015823 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [11.1.1-beta-4](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-4.buildspec) :white_check_mark: | [11.1.1-beta-5](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-5.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-4.buildspec 11.1.1-beta-5` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -18,7 +20,6 @@ New Releases To Add
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
 | <!-- 20240827215812 --> [:mailbox:](https://lists.apache.org/list?dev@commons.apache.org:lte=1M:VOTE) | [commons-parent](../content/org/apache/commons/parent/README.md) | [74](../content/org/apache/commons/parent/commons-parent-74.buildspec) :white_check_mark: | [75](../content/org/apache/commons/parent/commons-parent-75.buildspec)  | `bin/add-new-release.sh content/org/apache/commons/parent/commons-parent-74.buildspec 75 staging` |
-| <!-- 20240812071155 --> [:mailbox:](https://lists.apache.org/list?dev@camel.apache.org:lte=1M:VOTE) | [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.8.0](../content/org/apache/camel/camel/camel-4.8.0.buildspec)  | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.8.0 staging` |
 | <!-- 20240810053328 --> [:mailbox:](https://lists.apache.org/list?dev@struts.apache.org:lte=1M:VOTE) | [struts2-parent](../content/org/apache/struts/README.md) | [6.6.0](../content/org/apache/struts/struts2-6.6.0.buildspec) :white_check_mark: | [7.0.0-M9](../content/org/apache/struts/struts2-7.0.0-M9.buildspec)  | `bin/add-new-release.sh content/org/apache/struts/struts2-6.6.0.buildspec 7.0.0-M9 staging` |
 | <!-- 20240625152252 --> [:mailbox:](https://lists.apache.org/list?dev@ratis.apache.org:lte=1M:VOTE) | [ratis](../content/org/apache/ratis/README.md) | [3.1.0](../content/org/apache/ratis/ratis-3.1.0.buildspec) :warning: [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) | [3.1.1](../content/org/apache/ratis/ratis-3.1.1.buildspec)  | `bin/add-new-release.sh content/org/apache/ratis/ratis-3.1.0.buildspec 3.1.1 staging` |
 <!-- END GENERATED ADD STAGING -->
@@ -28,7 +29,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240914193547 --> [psi-probe](../content/com/github/psi-probe/README.md) | [4.1.4](../content/com/github/psi-probe/psi-probe-4.1.4.buildspec) :warning: | [5.1.1](../content/com/github/psi-probe/psi-probe-5.1.1.buildspec) | `bin/add-new-release.sh content/com/github/psi-probe/psi-probe-4.1.4.buildspec 5.1.1` |
+| <!-- 20240915163743 --> [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | [7.28.0](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.28.0.buildspec) :warning: | [7.28.1](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.28.1.buildspec) | `bin/add-new-release.sh content/nl/basjes/parse/useragent/yauaa/yauaa-7.28.0.buildspec 7.28.1` |
+| <!-- 20240915080205 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.8.0](../content/org/apache/camel/camel/camel-4.8.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.8.0` |
 | <!-- 20240914091403 --> [arthas-all](../content/com/taobao/arthas/README.md) | [3.6.0](../content/com/taobao/arthas/arthas-3.6.0.buildspec) :warning: | [4.0.1](../content/com/taobao/arthas/arthas-4.0.1.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-3.6.0.buildspec 4.0.1` |
 | <!-- 20240913212135 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | [2.4.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.4.0.buildspec) :warning: | [2.8.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.8.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/instrumentation/opentelemetry-2.4.0.buildspec 2.8.0` |
 | <!-- 20240913143624 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.57.0](../content/org/finos/legend/engine/legend-engine-4.57.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.57.0` |
@@ -37,10 +39,8 @@ New Releases To Add
 | <!-- 20240821130229 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.17.14](../content/org/webjars/swagger-ui/swagger-ui-5.17.14.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.17.14` |
 | <!-- 20240816232815 --> [guava](../content/com/google/guava/README.md) | [32.0.1-jre](../content/com/google/guava/guava-32.0.1-jre.buildspec) :warning: | [33.3.0-jre](../content/com/google/guava/guava-33.3.0-jre.buildspec) | `bin/add-new-release.sh content/com/google/guava/guava-32.0.1-jre.buildspec 33.3.0-jre` |
 | <!-- 20240814212525 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | [6.0.14](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec) :warning: | [6.6.4](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.6.4.buildspec) | `bin/add-new-release.sh content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec 6.6.4` |
-| <!-- 20240813102117 --> [kubernetes-client-project](../content/io/fabric8/kubernetes-client/README.md) | [6.4.0](../content/io/fabric8/kubernetes-client/kubernetes-client-6.4.0.buildspec) :warning: | [6.13.3](../content/io/fabric8/kubernetes-client/kubernetes-client-6.13.3.buildspec) | `bin/add-new-release.sh content/io/fabric8/kubernetes-client/kubernetes-client-6.4.0.buildspec 6.13.3` |
 | <!-- 20240813092238 --> [protostream-aggregator](../content/org/infinispan/protostream/README.md) | [5.0.7.Final](../content/org/infinispan/protostream/protostream-5.0.7.Final.buildspec) :warning: | [14.0.0.CR2](../content/org/infinispan/protostream/protostream-14.0.0.CR2.buildspec) | `bin/add-new-release.sh content/org/infinispan/protostream/protostream-5.0.7.Final.buildspec 14.0.0.CR2` |
 | <!-- 20240812114051 --> [html-formatter](../content/io/cucumber/html-formatter/README.md) | [20.2.0](../content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec) :warning: [:memo:](https://github.com/cucumber/html-formatter/issues/207) | [21.7.0](../content/io/cucumber/html-formatter/html-formatter-21.7.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec 21.7.0` |
-| <!-- 20240812071155 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.7.0](../content/org/apache/camel/camel/camel-4.7.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.7.0` |
 | <!-- 20240718093847 --> [jena](../content/org/apache/jena/jena/README.md) | [4.5.0](../content/org/apache/jena/jena/jena-4.5.0.buildspec) :warning: | [5.1.0](../content/org/apache/jena/jena/jena-5.1.0.buildspec) | `bin/add-new-release.sh content/org/apache/jena/jena/jena-4.5.0.buildspec 5.1.0` |
 | <!-- 20240715200235 --> [tika](../content/org/apache/tika/README.md) | [2.9.0](../content/org/apache/tika/tika-2.9.0.buildspec) :warning: | [3.0.0-BETA2](../content/org/apache/tika/tika-3.0.0-BETA2.buildspec) | `bin/add-new-release.sh content/org/apache/tika/tika-2.9.0.buildspec 3.0.0-BETA2` |
 | <!-- 20240708085755 --> [io.wcm.handler.link](../content/io/wcm/io.wcm.handler/link/README.md) | [2.0.0](../content/io/wcm/io.wcm.handler/link/io.wcm.handler.link-2.0.0.buildspec) :warning: | [2.2.2](../content/io/wcm/io.wcm.handler/link/io.wcm.handler.link-2.2.2.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.handler/link/io.wcm.handler.link-2.0.0.buildspec 2.2.2` |
@@ -69,7 +69,7 @@ New Releases To Add
 | artifactId | newest |
 | ---------- | ------ |
 | <!-- 20240913092416 --> [paimon-parent](../content/org/apache/paimon/README.md) | 0.9.0 :warning: [:memo:](https://github.com/apache/paimon/pull/4190) |
-| <!-- 20240912221102 --> [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | 7.28.0 :warning: |
+| <!-- 20240912152141 --> [env-config](../content/com/github/sitture/env-config/README.md) | 1.9.0 :warning: [:memo:](https://github.com/sitture/env-config/pull/226) |
 | <!-- 20240912071532 --> [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | 1.68.0 :warning: [:memo:](https://issues.apache.org/jira/browse/OAK-10662) |
 | <!-- 20240910143522 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | 1.42.1 :warning: |
 | <!-- 20240909140921 --> [jooby](../content/io/jooby/README.md) | 3.3.1 :warning: |
@@ -83,6 +83,7 @@ New Releases To Add
 | <!-- 20240817210045 --> [mybatis-2-spring](../content/org/mybatis/mybatis-2-spring/README.md) | 1.2.1 :warning: |
 | <!-- 20240814231054 --> [commons-cli](../content/org/apache/commons/commons-cli/README.md) | 1.9.0 :warning: |
 | <!-- 20240814100724 --> [org.apache.sling.scripting.sightly.testing](../content/org/apache/sling/org.apache.sling.scripting.sightly.testing/README.md) | 1.0.36-1.4.0 :warning: |
+| <!-- 20240813102117 --> [kubernetes-client-project](../content/io/fabric8/kubernetes-client/README.md) | 6.13.3 :warning: |
 | <!-- 20240812093803 --> [commons-numbers-parent](../content/org/apache/commons/numbers/README.md) | 1.2 :warning: |
 | <!-- 20240811074040 --> [openfasttrace](../content/org/itsallcode/openfasttrace/README.md) | 4.1.0 :warning: |
 | <!-- 20240810093636 --> [slf4j-parent](../content/org/slf4j/README.md) | 2.1.0-alpha1 :warning: |

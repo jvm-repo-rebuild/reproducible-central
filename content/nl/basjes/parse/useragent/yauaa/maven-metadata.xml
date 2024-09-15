@@ -3,8 +3,8 @@
   <groupId>nl.basjes.parse.useragent</groupId>
   <artifactId>yauaa</artifactId>
   <versioning>
-    <latest>7.28.0</latest>
-    <release>7.28.0</release>
+    <latest>7.28.1</latest>
+    <release>7.28.1</release>
     <versions>
       <version>0.1.1</version>
       <version>0.2</version>
@@ -111,7 +111,8 @@
       <version>7.26.1</version>
       <version>7.27.0</version>
       <version>7.28.0</version>
+      <version>7.28.1</version>
     </versions>
-    <lastUpdated>20240912221102</lastUpdated>
+    <lastUpdated>20240915163743</lastUpdated>
   </versioning>
 </metadata>
