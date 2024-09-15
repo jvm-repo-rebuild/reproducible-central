@@ -1,0 +1,859 @@
+1 / 14 target/reference/io.quarkus/quarkus-ide-launcher-3.14.4.jar core/launcher/target/quarkus-ide-launcher-3.14.4.jar
+--- target/reference/io.quarkus/quarkus-ide-launcher-3.14.4.jar
++++ core/launcher/target/quarkus-ide-launcher-3.14.4.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 14796118 bytes, number of entries: 10313
+│ +Zip file size: 14786330 bytes, number of entries: 10313
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-14 08:26 META-INF/
+│  -rw-r--r--  2.0 unx      578 b- defN 24-Sep-14 08:26 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-14 08:26 META-INF/ide-deps/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-14 08:26 META-INF/ide-deps/META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-14 08:26 META-INF/ide-deps/META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-14 08:26 META-INF/ide-deps/META-INF/maven/com.google.guava/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-14 08:26 META-INF/ide-deps/META-INF/maven/com.google.guava/failureaccess/
+│ @@ -705,23 +705,23 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-14 08:26 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-14 08:26 io/quarkus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-14 08:26 io/quarkus/launcher/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-14 08:26 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-14 08:26 META-INF/maven/io.quarkus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-14 08:26 META-INF/maven/io.quarkus/quarkus-ide-launcher/
+│  -rw-r--r--  2.0 unx    11360 b- defN 24-Sep-14 08:26 META-INF/LICENSE
+│ --rw-r--r--  2.0 unx     2268 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/DEPENDENCIES.ide-launcher-res
+│ --rw-r--r--  2.0 unx      483 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/INDEX.LIST.ide-launcher-res
+│ +-rw-r--r--  2.0 unx     1459 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/DEPENDENCIES.ide-launcher-res
+│ +-rw-r--r--  2.0 unx      239 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/INDEX.LIST.ide-launcher-res
+│  -rw-r--r--  2.0 unx    11358 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/LICENSE.ide-launcher-res
+│  -rw-r--r--  2.0 unx    35084 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/LICENSE.md.ide-launcher-res
+│ --rw-r--r--  2.0 unx    36116 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/LICENSE.txt.ide-launcher-res
+│ --rw-r--r--  2.0 unx      328 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/MANIFEST.MF.ide-launcher-res
+│ --rw-r--r--  2.0 unx      171 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/NOTICE.ide-launcher-res
+│ --rw-r--r--  2.0 unx     3337 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/NOTICE.md.ide-launcher-res
+│ --rw-r--r--  2.0 unx      174 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/NOTICE.txt.ide-launcher-res
+│ +-rw-r--r--  2.0 unx    11358 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/LICENSE.txt.ide-launcher-res
+│ +-rw-r--r--  2.0 unx      646 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/MANIFEST.MF.ide-launcher-res
+│ +-rw-r--r--  2.0 unx      193 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/NOTICE.ide-launcher-res
+│ +-rw-r--r--  2.0 unx     2139 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/NOTICE.md.ide-launcher-res
+│ +-rw-r--r--  2.0 unx      175 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/NOTICE.txt.ide-launcher-res
+│  -rw-r--r--  2.0 unx    35164 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/jandex.idx.ide-launcher-res
+│  -rw-r--r--  2.0 unx      138 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/maven/com.google.guava/failureaccess/pom.properties.ide-launcher-res
+│  -rw-r--r--  2.0 unx     2413 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/maven/com.google.guava/failureaccess/pom.xml.ide-launcher-res
+│  -rw-r--r--  2.0 unx       61 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/maven/com.google.guava/guava/pom.properties.ide-launcher-res
+│  -rw-r--r--  2.0 unx     9087 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/maven/com.google.guava/guava/pom.xml.ide-launcher-res
+│  -rw-r--r--  2.0 unx       57 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/maven/commons-cli/commons-cli/pom.properties.ide-launcher-res
+│  -rw-r--r--  2.0 unx    14210 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/maven/commons-cli/commons-cli/pom.xml.ide-launcher-res
+│ @@ -854,15 +854,15 @@
+│  -rw-r--r--  2.0 unx    14757 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/maven/org.jboss.logmanager/jboss-logmanager/pom.xml.ide-launcher-res
+│  -rw-r--r--  2.0 unx       78 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/maven/org.jboss.slf4j/slf4j-jboss-logmanager/pom.properties.ide-launcher-res
+│  -rw-r--r--  2.0 unx     8059 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/maven/org.jboss.slf4j/slf4j-jboss-logmanager/pom.xml.ide-launcher-res
+│  -rw-r--r--  2.0 unx       53 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/maven/org.slf4j/slf4j-api/pom.properties.ide-launcher-res
+│  -rw-r--r--  2.0 unx     1612 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/maven/org.slf4j/slf4j-api/pom.xml.ide-launcher-res
+│  -rw-r--r--  2.0 unx     1290 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/maven/slf4j-configuration.properties.ide-launcher-res
+│  -rw-r--r--  2.0 unx     6129 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/plexus/artifact-handlers.xml.ide-launcher-res
+│ --rw-r--r--  2.0 unx      499 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/plexus/components.xml.ide-launcher-res
+│ +-rw-r--r--  2.0 unx      685 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/plexus/components.xml.ide-launcher-res
+│  -rw-r--r--  2.0 unx    11419 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/plexus/default-bindings.xml.ide-launcher-res
+│  -rw-r--r--  2.0 unx     1248 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/proguard/base.pro.ide-launcher-res
+│  -rw-r--r--  2.0 unx      341 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/proguard/cache.pro.ide-launcher-res
+│  -rw-r--r--  2.0 unx     1090 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/proguard/collect.pro.ide-launcher-res
+│  -rw-r--r--  2.0 unx     1305 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/proguard/concurrent.pro.ide-launcher-res
+│  -rw-r--r--  2.0 unx      351 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/proguard/hash.pro.ide-launcher-res
+│  -rw-r--r--  2.0 unx       62 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/proguard/io.pro.ide-launcher-res
+│ @@ -873,17 +873,17 @@
+│  -rw-r--r--  2.0 unx       47 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/services/org.apache.commons.logging.LogFactory.ide-launcher-res
+│  -rw-r--r--  2.0 unx      754 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/services/org.jboss.logmanager.ConfiguratorFactory.ide-launcher-res
+│  -rw-r--r--  2.0 unx      733 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/services/org.slf4j.spi.SLF4JServiceProvider.ide-launcher-res
+│  -rw-r--r--  2.0 unx     8362 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/sisu/javax.inject.Named.ide-launcher-res
+│  -rw-r--r--  2.0 unx      843 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/versions/10/org/codehaus/plexus/util/BaseIOUtil.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx     1450 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/versions/11/org/codehaus/plexus/util/BaseFileUtils.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx     1956 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/versions/17/org/jboss/logmanager/handlers/JDKSpecific.class.ide-launcher-res
+│ --rw-r--r--  2.0 unx      942 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/versions/9/module-info.class.ide-launcher-res
+│ +-rw-r--r--  2.0 unx      333 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/versions/9/module-info.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      942 b- defN 24-Sep-14 08:26 META-INF/ide-deps/META-INF/versions/9/org/codehaus/plexus/util/BaseIOUtil.class.ide-launcher-res
+│ --rw-r--r--  2.0 unx     3976 b- defN 24-Sep-14 08:26 META-INF/ide-deps/about.html.ide-launcher-res
+│ +-rw-r--r--  2.0 unx     1473 b- defN 24-Sep-14 08:26 META-INF/ide-deps/about.html.ide-launcher-res
+│  -rw-r--r--  2.0 unx      586 b- defN 24-Sep-14 08:26 META-INF/ide-deps/com/google/common/annotations/Beta.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      640 b- defN 24-Sep-14 08:26 META-INF/ide-deps/com/google/common/annotations/GwtCompatible.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      648 b- defN 24-Sep-14 08:26 META-INF/ide-deps/com/google/common/annotations/GwtIncompatible.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      547 b- defN 24-Sep-14 08:26 META-INF/ide-deps/com/google/common/annotations/J2ktIncompatible.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      274 b- defN 24-Sep-14 08:26 META-INF/ide-deps/com/google/common/annotations/VisibleForTesting.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx     3931 b- defN 24-Sep-14 08:26 META-INF/ide-deps/com/google/common/base/Absent.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      805 b- defN 24-Sep-14 08:26 META-INF/ide-deps/com/google/common/base/AbstractIterator$1.class.ide-launcher-res
+│ @@ -3848,15 +3848,15 @@
+│  -rw-r--r--  2.0 unx      226 b- defN 24-Sep-14 08:26 META-INF/ide-deps/javax/inject/Provider.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      433 b- defN 24-Sep-14 08:26 META-INF/ide-deps/javax/inject/Qualifier.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      425 b- defN 24-Sep-14 08:26 META-INF/ide-deps/javax/inject/Scope.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      359 b- defN 24-Sep-14 08:26 META-INF/ide-deps/javax/inject/Singleton.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx     2192 b- defN 24-Sep-14 08:26 META-INF/ide-deps/licenses/extreme.indiana.edu.license.TXT.ide-launcher-res
+│  -rw-r--r--  2.0 unx     1408 b- defN 24-Sep-14 08:26 META-INF/ide-deps/licenses/javolution.license.TXT.ide-launcher-res
+│  -rw-r--r--  2.0 unx     1914 b- defN 24-Sep-14 08:26 META-INF/ide-deps/licenses/thoughtworks.TXT.ide-launcher-res
+│ --rw-r--r--  2.0 unx      334 b- defN 24-Sep-14 08:26 META-INF/ide-deps/module-info.class.ide-launcher-res
+│ +-rw-r--r--  2.0 unx      192 b- defN 24-Sep-14 08:26 META-INF/ide-deps/module-info.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx   245071 b- defN 24-Sep-14 08:26 META-INF/ide-deps/mozilla/public-suffix-list.txt.ide-launcher-res
+│  -rw-r--r--  2.0 unx      113 b- defN 24-Sep-14 08:26 META-INF/ide-deps/org/aopalliance/aop/Advice.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx     1456 b- defN 24-Sep-14 08:26 META-INF/ide-deps/org/aopalliance/aop/AspectException.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      336 b- defN 24-Sep-14 08:26 META-INF/ide-deps/org/aopalliance/intercept/ConstructorInterceptor.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      254 b- defN 24-Sep-14 08:26 META-INF/ide-deps/org/aopalliance/intercept/ConstructorInvocation.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      163 b- defN 24-Sep-14 08:26 META-INF/ide-deps/org/aopalliance/intercept/Interceptor.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      217 b- defN 24-Sep-14 08:26 META-INF/ide-deps/org/aopalliance/intercept/Invocation.class.ide-launcher-res
+│ @@ -10296,20 +10296,20 @@
+│  -rw-r--r--  2.0 unx     1765 b- defN 24-Sep-14 08:26 META-INF/ide-deps/org/sonatype/plexus/components/sec/dispatcher/model/Config.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      834 b- defN 24-Sep-14 08:26 META-INF/ide-deps/org/sonatype/plexus/components/sec/dispatcher/model/ConfigProperty.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx     2205 b- defN 24-Sep-14 08:26 META-INF/ide-deps/org/sonatype/plexus/components/sec/dispatcher/model/SettingsSecurity.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      936 b- defN 24-Sep-14 08:26 META-INF/ide-deps/org/sonatype/plexus/components/sec/dispatcher/model/io/xpp3/SecurityConfigurationXpp3Reader$1.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx      450 b- defN 24-Sep-14 08:26 META-INF/ide-deps/org/sonatype/plexus/components/sec/dispatcher/model/io/xpp3/SecurityConfigurationXpp3Reader$ContentTransformer.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx    14522 b- defN 24-Sep-14 08:26 META-INF/ide-deps/org/sonatype/plexus/components/sec/dispatcher/model/io/xpp3/SecurityConfigurationXpp3Reader.class.ide-launcher-res
+│  -rw-r--r--  2.0 unx     4671 b- defN 24-Sep-14 08:26 META-INF/ide-deps/org/sonatype/plexus/components/sec/dispatcher/model/io/xpp3/SecurityConfigurationXpp3Writer.class.ide-launcher-res
+│ --rw-r--r--  2.0 unx     1871 b- defN 24-Sep-14 08:26 META-INF/ide-deps/overview.html.ide-launcher-res
+│ +-rw-r--r--  2.0 unx      661 b- defN 24-Sep-14 08:26 META-INF/ide-deps/overview.html.ide-launcher-res
+│  -rw-r--r--  2.0 unx        6 b- defN 24-Sep-14 08:26 META-INF/ide-deps/quarkus-version.txt.ide-launcher-res
+│  -rw-r--r--  2.0 unx    14536 b- defN 24-Sep-14 08:26 META-INF/ide-deps/xml-formatter.xsd.ide-launcher-res
+│  -rw-r--r--  2.0 unx      106 b- defN 24-Sep-14 08:26 META-INF/jbang-integration.list
+│  -rw-r--r--  2.0 unx     2209 b- defN 24-Sep-14 08:26 io/quarkus/launcher/JBangDevModeLauncher.class
+│  -rw-r--r--  2.0 unx     2066 b- defN 24-Sep-14 08:26 io/quarkus/launcher/JBangIntegration$1.class
+│  -rw-r--r--  2.0 unx     6281 b- defN 24-Sep-14 08:26 io/quarkus/launcher/JBangIntegration.class
+│  -rw-r--r--  2.0 unx     4273 b- defN 24-Sep-14 08:26 io/quarkus/launcher/QuarkusLauncher.class
+│  -rw-r--r--  2.0 unx     4531 b- defN 24-Sep-14 08:26 io/quarkus/launcher/RuntimeLaunchClassLoader.class
+│  -rw-r--r--  2.0 unx     4410 b- defN 24-Sep-14 08:26 META-INF/maven/io.quarkus/quarkus-ide-launcher/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 24-Sep-14 08:26 META-INF/maven/io.quarkus/quarkus-ide-launcher/pom.properties
+│  -rw-r--r--  2.0 unx    36642 b- defN 24-Sep-14 08:26 META-INF/INDEX.LIST
+│ -10313 files, 31009552 bytes uncompressed, 12112020 bytes compressed:  60.9%
+│ +10313 files, 30978606 bytes uncompressed, 12102232 bytes compressed:  60.9%
+├── META-INF/ide-deps/META-INF/DEPENDENCIES.ide-launcher-res
+│ @@ -1,47 +1,32 @@
+│  // ------------------------------------------------------------------
+│  // Transitive dependencies of this project determined from the
+│  // maven pom organized by organization.
+│  // ------------------------------------------------------------------
+│  
+│ -Maven Plugin API
+│ +Maven Artifact Resolver Implementation
+│  
+│  
+│ -From: 'Codehaus Plexus' (http://codehaus-plexus.github.io/)
+│ +From: 'QOS.ch' (http://www.qos.ch)
+│  
+│ -  - Plexus :: Component Annotations (http://codehaus-plexus.github.io/plexus-containers/plexus-component-annotations/) org.codehaus.plexus:plexus-component-annotations:jar:2.1.0
+│ -    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -
+│ -
+│ -From: 'Codehaus Plexus' (https://codehaus-plexus.github.io/)
+│ -
+│ -  - Plexus Classworlds (https://codehaus-plexus.github.io/plexus-classworlds/) org.codehaus.plexus:plexus-classworlds:bundle:2.8.0
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -
+│ -  - Plexus Common Utilities (https://codehaus-plexus.github.io/plexus-utils/) org.codehaus.plexus:plexus-utils:jar:3.5.1
+│ -    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -
+│ -  - Plexus XML Utilities (https://codehaus-plexus.github.io/plexus-xml/) org.codehaus.plexus:plexus-xml:jar:3.0.0
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.36
+│ +    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+│  
+│  
+│  From: 'The Apache Software Foundation' (https://www.apache.org/)
+│  
+│ -  - Maven Artifact (https://maven.apache.org/ref/3.9.8/maven-artifact/) org.apache.maven:maven-artifact:jar:3.9.8
+│ +  - Maven Artifact Resolver API (https://maven.apache.org/resolver/maven-resolver-api/) org.apache.maven.resolver:maven-resolver-api:jar:1.9.22
+│      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│ -  - Maven Model (https://maven.apache.org/ref/3.9.8/maven-model/) org.apache.maven:maven-model:jar:3.9.8
+│ +  - Maven Artifact Resolver Named Locks (https://maven.apache.org/resolver/maven-resolver-named-locks/) org.apache.maven.resolver:maven-resolver-named-locks:jar:1.9.22
+│      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│ +  - Maven Artifact Resolver SPI (https://maven.apache.org/resolver/maven-resolver-spi/) org.apache.maven.resolver:maven-resolver-spi:jar:1.9.22
+│ +    License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│ -From: 'The Eclipse Foundation' (http://www.eclipse.org/)
+│ -
+│ -  - org.eclipse.sisu.inject (http://www.eclipse.org/sisu/org.eclipse.sisu.inject/) org.eclipse.sisu:org.eclipse.sisu.inject:jar:0.9.0.M3
+│ -    License: Eclipse Public License, Version 2.0  (https://www.eclipse.org/legal/epl-v20.html)
+│ -
+│ -  - org.eclipse.sisu.plexus (http://www.eclipse.org/sisu/org.eclipse.sisu.plexus/) org.eclipse.sisu:org.eclipse.sisu.plexus:jar:0.9.0.M3
+│ -    License: Eclipse Public License, Version 2.0  (https://www.eclipse.org/legal/epl-v20.html)
+│ +  - Maven Artifact Resolver Utilities (https://maven.apache.org/resolver/maven-resolver-util/) org.apache.maven.resolver:maven-resolver-util:jar:1.9.22
+│ +    License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+├── META-INF/ide-deps/META-INF/INDEX.LIST.ide-launcher-res
+│ @@ -1,22 +1,14 @@
+│  JarIndex-Version: 1.0
+│  
+│ -quarkus-bootstrap-app-model-3.14.4.jar
+│ +quarkus-fs-util-0.0.10.jar
+│  META-INF
+│  META-INF/maven
+│  META-INF/maven/io.quarkus
+│ -META-INF/maven/io.quarkus/quarkus-bootstrap-app-model
+│ +META-INF/maven/io.quarkus/quarkus-fs-util
+│  io
+│  io/quarkus
+│ -io/quarkus/bootstrap
+│ -io/quarkus/bootstrap/model
+│ -io/quarkus/bootstrap/model/gradle
+│ -io/quarkus/bootstrap/model/gradle/impl
+│ -io/quarkus/bootstrap/resolver
+│ -io/quarkus/bootstrap/util
+│ -io/quarkus/bootstrap/workspace
+│ -io/quarkus/maven
+│ -io/quarkus/maven/dependency
+│ -io/quarkus/paths
+│ -io/quarkus/sbom
+│ -io/quarkus/util
+│ +io/quarkus/fs
+│ +io/quarkus/fs/util
+│ +io/quarkus/fs/util/base
+│ +io/quarkus/fs/util/sysfs
+...
+├── META-INF/ide-deps/META-INF/MANIFEST.MF.ide-launcher-res
+│ @@ -1,10 +1,19 @@
+│  Manifest-Version: 1.0
+
+│ -Created-By: Maven JAR Plugin 3.4.0
+
+│ -Build-Jdk-Spec: 21
+
+│ -Specification-Title: Maven Plugin API
+
+│ -Specification-Version: 3.9
+
+│ -Specification-Vendor: The Apache Software Foundation
+
+│ -Implementation-Title: Maven Plugin API
+
+│ -Implementation-Version: 3.9.8
+
+│ -Implementation-Vendor: The Apache Software Foundation
+
+│ +Created-By: Maven Archiver 3.4.0
+
+│ +Build-Jdk-Spec: 11
+
+│ +Specification-Title: Quarkus - FS Util
+
+│ +Specification-Version: 0.0
+
+│ +Specification-Vendor: JBoss by Red Hat
+
+│ +Implementation-Title: Quarkus - FS Util
+
+│ +Implementation-Version: 0.0.10
+
+│ +Implementation-Vendor: JBoss by Red Hat
+
+│ +Implementation-URL: https://quarkus.io/
+
+│ +Java-Vendor: Oracle Corporation
+
+│ +Java-Version: 11.0.20
+
+│ +Os-Arch: amd64
+
+│ +Os-Name: Linux
+
+│ +Os-Version: 6.6.8-200.fc39.x86_64
+
+│ +Scm-Connection: scm:git:git@github.com:quarkusio/quarkus-fs-util.git
+
+│ +Scm-Revision: 23568679bb825466cdeb9b752948b7fb66bdcc8d
+
+│ +Scm-Url: https://github.com/quarkusio/quarkus-fs-util
+
+├── META-INF/ide-deps/META-INF/NOTICE.ide-launcher-res
+│ @@ -1,6 +1,6 @@
+│ -Maven Plugin API
+│ -Copyright 2001-2024 The Apache Software Foundation
+│ +Maven Artifact Resolver Implementation
+│ +Copyright 2010-2024 The Apache Software Foundation
+│  
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+├── META-INF/ide-deps/META-INF/NOTICE.md.ide-launcher-res
+│ @@ -8,77 +8,49 @@
+│  [//]: # " Licenses when the conditions for such availability set forth in the "
+│  [//]: # " Eclipse Public License v. 2.0 are satisfied: GNU General Public License, "
+│  [//]: # " version 2 with the GNU Classpath Exception, which is available at "
+│  [//]: # " https://www.gnu.org/software/classpath/license.html. "
+│  [//]: # "  "
+│  [//]: # " SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0 "
+│  
+│ -# Notices for Jakarta JSON Processing
+│ +# Notices for Eclipse Parsson
+│  
+│ -This content is produced and maintained by the Jakarta JSON Processing project.
+│ +This content is produced and maintained by the Eclipse Parsson project.
+│  
+│ -* Project home: https://projects.eclipse.org/projects/ee4j.jsonp
+│ +* Project home: https://projects.eclipse.org/projects/ee4j.parsson
+│  
+│  ## Trademarks
+│  
+│ - Jakarta JSON Processing is a trademark of the Eclipse Foundation.
+│ + Eclipse Parsson is a trademark of the Eclipse Foundation.
+...
+├── META-INF/ide-deps/overview.html.ide-launcher-res
+│ @@ -1,23 +1,24 @@
+│  <html>
+│  <body>
+│  <h1>Overview</h1>
+│ -Sisu is a modular <a href="https://javax-inject.github.io/javax-inject">JSR330</a>-based container that supports classpath scanning, auto-binding, and dynamic auto-wiring.
+│ +Implements Plexus semantics on top of Sisu and Google-Guice.
+│  <p>
+│ -Sisu uses <a href="https://github.com/google/guice">Google-Guice</a> to perform dependency injection and provide the core JSR330 support, but removes the need to write explicit bindings in Guice modules:
+│ +Legacy applications can use the Plexus container API as usual:
+│  <pre>
+│ -Guice.createInjector(
+│ -  new {@link org.eclipse.sisu.wire WireModule}(                       // auto-wires unresolved dependencies
+│ -    new {@link org.eclipse.sisu.space SpaceModule}(                     // scans and binds @Named components
+│ -      new {@link org.eclipse.sisu.space URLClassSpace}( classloader )    // abstracts class/resource finding
+│ -) ) );
+│ -</pre>
+│ -In the example above the {@code SpaceModule} scans the classpath using the {@code ClassSpace} abstraction. Any classes annotated with a {@code @Qualifier} annotation like {@code @Named}
+│ -will be bound as components, making them visible to the {@link org.eclipse.sisu.inject BeanLocator} and surrounding {@code WireModule} (constructed around the set of modules making up
+│ -the application; in this example there is only one, the {@code SpaceModule}).
+│ +ContainerConfiguration config = new DefaultContainerConfiguration();
+│ +// ... configure ...
+│ +PlexusContainer container = null;
+│ +try {
+│ +  container = new DefaultPlexusContainer( config );
+│ +  // ... execute/wait ...
+│ +} finally {
+│ +  if ( container != null ) {
+│ +    container.dispose();
+│ +  }
+│ +}</pre>
+│  <p>
+│ -The {@code WireModule} uses the Guice introspection SPI to analyze all bindings in the application and apply various rules to finish wiring the configuration. Unsatisfied {@code @Inject}
+│ -requirements are populated using the {@code BeanLocator} which provides a lookup service across all injectors it knows about, allowing for plugin-style solutions. As well as individual
+│ -components, the {@code WireModule} can satisfy requests for component collections like Lists and Maps (using {@code @Named} values as keys). It also cleans up duplicate and overridden
+│ -bindings, and merges {@link org.eclipse.sisu.Parameters} bindings.
+│ +Sisu applications that want to re-use Plexus components can use the {@link org.eclipse.sisu.plexus.PlexusSpaceModule} wrapper:
+│ +<pre>
+│ +binder.install( new PlexusSpaceModule( space ) );</pre>
+│  </body>
+│  </html>
+
+2 / 14 target/reference/io.quarkus/quarkus-grpc-protoc-plugin-3.14.4-shaded.jar extensions/grpc/protoc/target/quarkus-grpc-protoc-plugin-3.14.4-shaded.jar
+--- target/reference/io.quarkus/quarkus-grpc-protoc-plugin-3.14.4-shaded.jar
++++ extensions/grpc/protoc/target/quarkus-grpc-protoc-plugin-3.14.4-shaded.jar
+├── zipinfo {}
+│ @@ -1,3744 +1,3744 @@
+│  Zip file size: 5625359 bytes, number of entries: 3742
+│ --rw----     2.0 fat        0 bX defN 24-Sep-14 09:44 META-INF/
+│ +-rw----     2.0 fat        0 bX defN 24-Sep-15 23:59 META-INF/
+│  -rw----     2.0 fat      594 bl defN 24-Sep-14 08:26 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat    11360 bl defN 24-Sep-14 08:26 META-INF/LICENSE
+│  -rw----     2.0 fat     2076 bl defN 24-Sep-14 08:26 MutinyBean.mustache
+│  -rw----     2.0 fat     2218 bl defN 24-Sep-14 08:26 MutinyClient.mustache
+│  -rw----     2.0 fat      970 bl defN 24-Sep-14 08:26 MutinyInterface.mustache
+│  -rw----     2.0 fat     7935 bl defN 24-Sep-14 08:26 MutinyStub.mustache
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 09:44 io/
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 09:44 io/quarkus/
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 09:44 io/quarkus/grpc/
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 09:44 io/quarkus/grpc/protoc/
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 09:44 io/quarkus/grpc/protoc/plugin/
+│ --rw----     2.0 fat     2657 bl defN 24-Sep-14 09:44 io/quarkus/grpc/protoc/plugin/MutinyGrpcGenerator$MethodContext.class
+│ --rw----     2.0 fat     3131 bl defN 24-Sep-14 09:44 io/quarkus/grpc/protoc/plugin/MutinyGrpcGenerator$ServiceContext.class
+│ --rw----     2.0 fat    21026 bl defN 24-Sep-14 09:44 io/quarkus/grpc/protoc/plugin/MutinyGrpcGenerator.class
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 09:44 META-INF/maven/
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 09:44 META-INF/maven/io.quarkus/
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 09:44 META-INF/maven/io.quarkus/quarkus-grpc-protoc-plugin/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-15 23:59 io/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-15 23:59 io/quarkus/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-15 23:59 io/quarkus/grpc/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-15 23:59 io/quarkus/grpc/protoc/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-15 23:59 io/quarkus/grpc/protoc/plugin/
+│ +-rw----     2.0 fat     2657 bl defN 24-Sep-15 23:59 io/quarkus/grpc/protoc/plugin/MutinyGrpcGenerator$MethodContext.class
+│ +-rw----     2.0 fat     3131 bl defN 24-Sep-15 23:59 io/quarkus/grpc/protoc/plugin/MutinyGrpcGenerator$ServiceContext.class
+│ +-rw----     2.0 fat    21026 bl defN 24-Sep-15 23:59 io/quarkus/grpc/protoc/plugin/MutinyGrpcGenerator.class
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-15 23:59 META-INF/maven/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-15 23:59 META-INF/maven/io.quarkus/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-15 23:59 META-INF/maven/io.quarkus/quarkus-grpc-protoc-plugin/
+│  -rw----     2.0 fat     2733 bl defN 24-Sep-14 08:26 META-INF/maven/io.quarkus/quarkus-grpc-protoc-plugin/pom.xml
+│  -rw----     2.0 fat       72 bl defN 24-Sep-14 08:26 META-INF/maven/io.quarkus/quarkus-grpc-protoc-plugin/pom.properties
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 09:44 com/
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 09:44 com/google/
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 09:44 com/google/protobuf/
+│ --rw----     2.0 fat    20125 bl defN 24-Sep-14 09:44 com/google/protobuf/AbstractMessage$Builder.class
+...
+│ --rw----     2.0 fat      543 bl defN 24-Sep-14 09:44 com/google/protobuf/compiler/PluginProtos$VersionOrBuilder.class
+│ --rw----     2.0 fat     5561 bl defN 24-Sep-14 09:44 com/google/protobuf/compiler/PluginProtos.class
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 09:44 google/
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 09:44 google/protobuf/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-15 23:59 com/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-15 23:59 com/google/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-15 23:59 com/google/protobuf/
+│ +-rw----     2.0 fat    20125 bl defN 24-Sep-15 23:59 com/google/protobuf/AbstractMessage$Builder.class
+...
+│ +-rw----     2.0 fat     5561 bl defN 24-Sep-15 23:59 com/google/protobuf/compiler/PluginProtos.class
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-15 23:59 google/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-15 23:59 google/protobuf/
+│  -rw----     2.0 fat     6154 bl defN 85-Feb-01 00:00 google/protobuf/any.proto
+│  -rw----     2.0 fat     7728 bl defN 85-Feb-01 00:00 google/protobuf/api.proto
+│  -rw----     2.0 fat    49985 bl defN 85-Feb-01 00:00 google/protobuf/descriptor.proto
+│  -rw----     2.0 fat     4892 bl defN 85-Feb-01 00:00 google/protobuf/duration.proto
+│  -rw----     2.0 fat     2363 bl defN 85-Feb-01 00:00 google/protobuf/empty.proto
+│  -rw----     2.0 fat     8185 bl defN 85-Feb-01 00:00 google/protobuf/field_mask.proto
+│  -rw----     2.0 fat     2341 bl defN 85-Feb-01 00:00 google/protobuf/source_context.proto
+│  -rw----     2.0 fat     3778 bl defN 85-Feb-01 00:00 google/protobuf/struct.proto
+│  -rw----     2.0 fat     6449 bl defN 85-Feb-01 00:00 google/protobuf/timestamp.proto
+│  -rw----     2.0 fat     6367 bl defN 85-Feb-01 00:00 google/protobuf/type.proto
+│  -rw----     2.0 fat     4044 bl defN 85-Feb-01 00:00 google/protobuf/wrappers.proto
+│  -rw----     2.0 fat     3012 bl defN 23-Apr-11 13:12 Jdk8Stub.mustache
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 09:44 com/salesforce/
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 09:44 com/salesforce/jprotoc/
+...
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 09:44 META-INF/maven/com.salesforce.servicelibs/
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 09:44 META-INF/maven/com.salesforce.servicelibs/jprotoc/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-15 23:59 com/salesforce/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-15 23:59 com/salesforce/jprotoc/
+...
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-15 23:59 META-INF/maven/com.salesforce.servicelibs/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-15 23:59 META-INF/maven/com.salesforce.servicelibs/jprotoc/
+│  -rw----     2.0 fat     2841 bl defN 23-Apr-11 13:08 META-INF/maven/com.salesforce.servicelibs/jprotoc/pom.xml
+│  -rw----     2.0 fat       68 bl defN 23-Apr-11 13:12 META-INF/maven/com.salesforce.servicelibs/jprotoc/pom.properties
+...
+│ +-rw----     2.0 fat     1917 bl defN 24-Sep-16 00:03 META-INF/maven/archetype-metadata.xml
+│ +-rw----     2.0 fat    11360 bl defN 24-Sep-16 00:03 META-INF/LICENSE
+│  17 files, 23436 bytes uncompressed, 8289 bytes compressed:  64.6%
+
+5 / 14 target/reference/io.quarkus/quarkus-amazon-lambda-http-archetype-3.14.4.jar extensions/amazon-lambda-http/maven-archetype/target/quarkus-amazon-lambda-http-archetype-3.14.4.jar
+--- target/reference/io.quarkus/quarkus-amazon-lambda-http-archetype-3.14.4.jar
++++ extensions/amazon-lambda-http/maven-archetype/target/quarkus-amazon-lambda-http-archetype-3.14.4.jar
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│  Zip file size: 8652 bytes, number of entries: 9
+│ --rw----     2.0 fat      148 bl defN 24-Sep-14 10:29 archetype-resources/src/test/java/GreetingIT.java
+│ --rw----     2.0 fat      996 bl defN 24-Sep-14 10:29 archetype-resources/src/test/java/GreetingTest.java
+│ --rw----     2.0 fat      303 bl defN 24-Sep-14 10:29 archetype-resources/src/main/java/GreetingResource.java
+│ --rw----     2.0 fat      166 bl defN 24-Sep-14 10:29 archetype-resources/src/main/java/GreetingFunction.java
+│ --rw----     2.0 fat      418 bl defN 24-Sep-14 10:29 archetype-resources/src/main/java/GreetingVertx.java
+│ --rw----     2.0 fat      665 bl defN 24-Sep-14 10:29 archetype-resources/src/main/java/GreetingServlet.java
+│ --rw----     2.0 fat     5726 bl defN 24-Sep-14 10:29 archetype-resources/pom.xml
+│ --rw----     2.0 fat    11360 bl defN 24-Sep-14 10:29 META-INF/LICENSE
+│ --rw----     2.0 fat     1554 bl defN 24-Sep-14 10:29 META-INF/maven/archetype-metadata.xml
+│ +-rw----     2.0 fat      665 bl defN 24-Sep-16 00:03 archetype-resources/src/main/java/GreetingServlet.java
+│ +-rw----     2.0 fat      303 bl defN 24-Sep-16 00:03 archetype-resources/src/main/java/GreetingResource.java
+│ +-rw----     2.0 fat      166 bl defN 24-Sep-16 00:03 archetype-resources/src/main/java/GreetingFunction.java
+│ +-rw----     2.0 fat      418 bl defN 24-Sep-16 00:03 archetype-resources/src/main/java/GreetingVertx.java
+│ +-rw----     2.0 fat      996 bl defN 24-Sep-16 00:03 archetype-resources/src/test/java/GreetingTest.java
+│ +-rw----     2.0 fat      148 bl defN 24-Sep-16 00:03 archetype-resources/src/test/java/GreetingIT.java
+│ +-rw----     2.0 fat     5726 bl defN 24-Sep-16 00:03 archetype-resources/pom.xml
+│ +-rw----     2.0 fat     1554 bl defN 24-Sep-16 00:03 META-INF/maven/archetype-metadata.xml
+│ +-rw----     2.0 fat    11360 bl defN 24-Sep-16 00:03 META-INF/LICENSE
+│  9 files, 21336 bytes uncompressed, 7010 bytes compressed:  67.1%
+├── zipnote «TEMP»/diffoscope_1i88dmee_target/tmpk0to64qh_.zip
+│ @@ -1,28 +1,28 @@
+│ -Filename: archetype-resources/src/test/java/GreetingIT.java
+│ -Comment: 
+│ -
+│ -Filename: archetype-resources/src/test/java/GreetingTest.java
+│ +Filename: archetype-resources/src/main/java/GreetingServlet.java
+│  Comment: 
+│  
+│  Filename: archetype-resources/src/main/java/GreetingResource.java
+│  Comment: 
+│  
+│  Filename: archetype-resources/src/main/java/GreetingFunction.java
+│  Comment: 
+│  
+│  Filename: archetype-resources/src/main/java/GreetingVertx.java
+│  Comment: 
+│  
+│ -Filename: archetype-resources/src/main/java/GreetingServlet.java
+│ +Filename: archetype-resources/src/test/java/GreetingTest.java
+│  Comment: 
+│  
+│ -Filename: archetype-resources/pom.xml
+│ +Filename: archetype-resources/src/test/java/GreetingIT.java
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ +Filename: archetype-resources/pom.xml
+│  Comment: 
+│  
+│  Filename: META-INF/maven/archetype-metadata.xml
+│  Comment: 
+│  
+│ +Filename: META-INF/LICENSE
+│ +Comment: 
+│ +
+│  Zip file comment:
+
+6 / 14 target/reference/io.quarkus/quarkus-amazon-lambda-rest-archetype-3.14.4.jar extensions/amazon-lambda-rest/maven-archetype/target/quarkus-amazon-lambda-rest-archetype-3.14.4.jar
+--- target/reference/io.quarkus/quarkus-amazon-lambda-rest-archetype-3.14.4.jar
++++ extensions/amazon-lambda-rest/maven-archetype/target/quarkus-amazon-lambda-rest-archetype-3.14.4.jar
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│  Zip file size: 8656 bytes, number of entries: 9
+│ --rw----     2.0 fat      148 bl defN 24-Sep-14 10:29 archetype-resources/src/test/java/GreetingIT.java
+│ --rw----     2.0 fat      996 bl defN 24-Sep-14 10:29 archetype-resources/src/test/java/GreetingTest.java
+│ --rw----     2.0 fat      303 bl defN 24-Sep-14 10:29 archetype-resources/src/main/java/GreetingResource.java
+│ --rw----     2.0 fat      166 bl defN 24-Sep-14 10:29 archetype-resources/src/main/java/GreetingFunction.java
+│ --rw----     2.0 fat      418 bl defN 24-Sep-14 10:29 archetype-resources/src/main/java/GreetingVertx.java
+│ --rw----     2.0 fat      665 bl defN 24-Sep-14 10:29 archetype-resources/src/main/java/GreetingServlet.java
+│ --rw----     2.0 fat     5726 bl defN 24-Sep-14 10:29 archetype-resources/pom.xml
+│ --rw----     2.0 fat    11360 bl defN 24-Sep-14 10:29 META-INF/LICENSE
+│ --rw----     2.0 fat     1554 bl defN 24-Sep-14 10:29 META-INF/maven/archetype-metadata.xml
+│ +-rw----     2.0 fat      665 bl defN 24-Sep-16 00:03 archetype-resources/src/main/java/GreetingServlet.java
+│ +-rw----     2.0 fat      303 bl defN 24-Sep-16 00:03 archetype-resources/src/main/java/GreetingResource.java
+│ +-rw----     2.0 fat      166 bl defN 24-Sep-16 00:03 archetype-resources/src/main/java/GreetingFunction.java
+│ +-rw----     2.0 fat      418 bl defN 24-Sep-16 00:03 archetype-resources/src/main/java/GreetingVertx.java
+│ +-rw----     2.0 fat      996 bl defN 24-Sep-16 00:03 archetype-resources/src/test/java/GreetingTest.java
+│ +-rw----     2.0 fat      148 bl defN 24-Sep-16 00:03 archetype-resources/src/test/java/GreetingIT.java
+│ +-rw----     2.0 fat     5726 bl defN 24-Sep-16 00:03 archetype-resources/pom.xml
+│ +-rw----     2.0 fat     1554 bl defN 24-Sep-16 00:03 META-INF/maven/archetype-metadata.xml
+│ +-rw----     2.0 fat    11360 bl defN 24-Sep-16 00:03 META-INF/LICENSE
+│  9 files, 21336 bytes uncompressed, 7014 bytes compressed:  67.1%
+
+7 / 14 target/reference/io.quarkus/quarkus-funqy-amazon-lambda-archetype-3.14.4.jar extensions/funqy/funqy-amazon-lambda/maven-archetype/target/quarkus-funqy-amazon-lambda-archetype-3.14.4.jar
+--- target/reference/io.quarkus/quarkus-funqy-amazon-lambda-archetype-3.14.4.jar
++++ extensions/funqy/funqy-amazon-lambda/maven-archetype/target/quarkus-funqy-amazon-lambda-archetype-3.14.4.jar
+├── zipinfo {}
+│ @@ -1,14 +1,14 @@
+│  Zip file size: 10003 bytes, number of entries: 12
+│ --rw----     2.0 fat     1402 bl defN 24-Sep-14 10:30 archetype-resources/sam.jvm.yaml
+│ --rw----     2.0 fat       43 bl defN 24-Sep-14 10:30 archetype-resources/payload.json
+│ --rw----     2.0 fat       30 bl defN 24-Sep-14 10:30 archetype-resources/src/main/resources/application.properties
+│ --rw----     2.0 fat      575 bl defN 24-Sep-14 10:30 archetype-resources/src/main/java/ProcessingService.java
+│ --rw----     2.0 fat      279 bl defN 24-Sep-14 10:30 archetype-resources/src/main/java/UnusedFunq.java
+│ --rw----     2.0 fat      262 bl defN 24-Sep-14 10:30 archetype-resources/src/main/java/TestFunq.java
+│ --rw----     2.0 fat      445 bl defN 24-Sep-14 10:30 archetype-resources/src/main/java/InputObject.java
+│ --rw----     2.0 fat      250 bl defN 24-Sep-14 10:30 archetype-resources/src/main/java/OutputObject.java
+│ --rw----     2.0 fat     4576 bl defN 24-Sep-14 10:30 archetype-resources/pom.xml
+│ --rw----     2.0 fat     1407 bl defN 24-Sep-14 10:30 archetype-resources/sam.native.yaml
+│ --rw----     2.0 fat    11360 bl defN 24-Sep-14 10:30 META-INF/LICENSE
+│ --rw----     2.0 fat     1787 bl defN 24-Sep-14 10:30 META-INF/maven/archetype-metadata.xml
+│ +-rw----     2.0 fat      262 bl defN 24-Sep-16 00:03 archetype-resources/src/main/java/TestFunq.java
+│ +-rw----     2.0 fat      445 bl defN 24-Sep-16 00:03 archetype-resources/src/main/java/InputObject.java
+│ +-rw----     2.0 fat      250 bl defN 24-Sep-16 00:03 archetype-resources/src/main/java/OutputObject.java
+│ +-rw----     2.0 fat      279 bl defN 24-Sep-16 00:03 archetype-resources/src/main/java/UnusedFunq.java
+│ +-rw----     2.0 fat      575 bl defN 24-Sep-16 00:03 archetype-resources/src/main/java/ProcessingService.java
+│ +-rw----     2.0 fat       30 bl defN 24-Sep-16 00:03 archetype-resources/src/main/resources/application.properties
+│ +-rw----     2.0 fat     1407 bl defN 24-Sep-16 00:03 archetype-resources/sam.native.yaml
+│ +-rw----     2.0 fat       43 bl defN 24-Sep-16 00:03 archetype-resources/payload.json
+│ +-rw----     2.0 fat     1402 bl defN 24-Sep-16 00:03 archetype-resources/sam.jvm.yaml
+│ +-rw----     2.0 fat     4576 bl defN 24-Sep-16 00:03 archetype-resources/pom.xml
+│ +-rw----     2.0 fat     1787 bl defN 24-Sep-16 00:03 META-INF/maven/archetype-metadata.xml
+│ +-rw----     2.0 fat    11360 bl defN 24-Sep-16 00:03 META-INF/LICENSE
+│  12 files, 22416 bytes uncompressed, 7891 bytes compressed:  64.8%
+
+8 / 14 target/reference/io.quarkus/quarkus-bom-quarkus-platform-descriptor-3.14.4-3.14.4.json devtools/bom-descriptor-json/target/quarkus-bom-quarkus-platform-descriptor-3.14.4-3.14.4.json
+--- target/reference/io.quarkus/quarkus-bom-quarkus-platform-descriptor-3.14.4-3.14.4.json
++++ devtools/bom-descriptor-json/target/quarkus-bom-quarkus-platform-descriptor-3.14.4-3.14.4.json
+├── Pretty-printed
+│┄ ordering differences only
+│ @@ -4,339 +4,346 @@
+│      "bom": "io.quarkus:quarkus-bom::pom:3.14.4",
+│      "quarkus-core-version": "3.14.4",
+│      "extensions": [
+│          {
+│              "name": "Quarkus - Core",
+│              "description": "Quarkus core components",
+│              "metadata": {
+│ -                "built-with-quarkus-core": "3.14.4",
+│ -                "minimum-java-version": "17",
+│ -                "scm-url": "https://github.com/quarkusio/quarkus",
+│                  "unlisted": true,
+│ +                "scm-url": "https://github.com/quarkusio/quarkus",
+│ +                "minimum-java-version": "17",
+│ +                "built-with-quarkus-core": "3.14.4",
+│                  "requires-quarkus-core": "[3.14,)"
+│              },
+│              "artifact": "io.quarkus:quarkus-core::jar:3.14.4",
+│              "origins": [
+│                  "io.quarkus:quarkus-bom-quarkus-platform-descriptor:3.14.4:json:3.14.4"
+│              ]
+│          },
+│          {
+│              "name": "ArC",
+│              "description": "Build time CDI dependency injection",
+│              "metadata": {
+│ -                "built-with-quarkus-core": "3.14.4",
+│ -                "capabilities": {
+│ -                    "provides": [
+│ -                        "io.quarkus.cdi"
+│ -                    ]
+│ -                },
+│ +                "scm-url": "https://github.com/quarkusio/quarkus",
+│ +                "categories": [
+│ +                    "core"
+│ +                ],
+│ +                "guide": "https://quarkus.io/guides/cdi-reference",
+│ +                "status": "stable",
+│ +                "config": [
+│ +                    "quarkus.arc."
+│ +                ],
+│ +                "minimum-java-version": "17",
+│ +                "unlisted": true,
+│ +                "short-name": "CDI",
+│                  "keywords": [
+│                      "arc",
+│                      "cdi",
+...
+
+9 / 14 target/reference/io.quarkus/quarkus-maven-plugin-3.14.4.jar devtools/maven/target/quarkus-maven-plugin-3.14.4.jar
+--- target/reference/io.quarkus/quarkus-maven-plugin-3.14.4.jar
++++ devtools/maven/target/quarkus-maven-plugin-3.14.4.jar
+├── zipinfo {}
+│ @@ -1,189 +1,189 @@
+│  Zip file size: 451548 bytes, number of entries: 187
+│ --rw----     2.0 fat        0 bX defN 24-Sep-14 10:36 META-INF/
+│ +-rw----     2.0 fat        0 bX defN 24-Sep-16 00:04 META-INF/
+│  -rw----     2.0 fat      578 bl defN 24-Sep-14 08:26 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat    11360 bl defN 24-Sep-14 08:26 META-INF/LICENSE
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 10:36 META-INF/m2e/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-16 00:04 META-INF/m2e/
+│  -rw----     2.0 fat      601 bl defN 24-Sep-14 08:26 META-INF/m2e/lifecycle-mapping-metadata.xml
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 10:36 META-INF/maven/
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 10:36 META-INF/maven/io.quarkus/
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 10:36 META-INF/maven/io.quarkus/quarkus-maven-plugin/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-16 00:04 META-INF/maven/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-16 00:04 META-INF/maven/io.quarkus/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-16 00:04 META-INF/maven/io.quarkus/quarkus-maven-plugin/
+│  -rw----     2.0 fat   177494 bl defN 24-Sep-14 08:26 META-INF/maven/io.quarkus/quarkus-maven-plugin/plugin-help.xml
+│  -rw----     2.0 fat   257636 bl defN 24-Sep-14 08:26 META-INF/maven/plugin.xml
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 10:36 META-INF/services/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-16 00:04 META-INF/services/
+│  -rw----     2.0 fat       27 bl defN 24-Sep-14 08:26 META-INF/services/org.jboss.logging.LoggerProvider
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 10:36 META-INF/sisu/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-16 00:04 META-INF/sisu/
+│  -rw----     2.0 fat      237 bl defN 24-Sep-14 08:26 META-INF/sisu/javax.inject.Named
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 10:36 io/
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 10:36 io/quarkus/
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 10:36 io/quarkus/maven/
+│ --rw----     2.0 fat     6435 bl defN 24-Sep-14 10:36 io/quarkus/maven/AbstractDeploymentMojo.class
+...
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 10:36 io/quarkus/quarkus_maven_plugin/
+│ --rw----     2.0 fat    11880 bl defN 24-Sep-14 10:36 io/quarkus/quarkus_maven_plugin/HelpMojo.class
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-16 00:04 io/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-16 00:04 io/quarkus/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-16 00:04 io/quarkus/maven/
+│ +-rw----     2.0 fat     6435 bl defN 24-Sep-16 00:04 io/quarkus/maven/AbstractDeploymentMojo.class
+...
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-16 00:04 io/quarkus/quarkus_maven_plugin/
+│ +-rw----     2.0 fat    11880 bl defN 24-Sep-16 00:04 io/quarkus/quarkus_maven_plugin/HelpMojo.class
+│  -rw----     2.0 fat    11725 bl defN 24-Sep-14 08:26 META-INF/maven/io.quarkus/quarkus-maven-plugin/pom.xml
+│  -rw----     2.0 fat       66 bl defN 24-Sep-14 08:26 META-INF/maven/io.quarkus/quarkus-maven-plugin/pom.properties
+...
+│  -rw----     2.0 fat       14 bl defN 21-Oct-14 05:41 org/fusesource/jansi/jansi.properties
+│  -rw----     2.0 fat      935 bl defN 21-Oct-14 05:41 org/fusesource/jansi/jansi.txt
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 10:36 META-INF/maven/org.fusesource.jansi/
+│ --rw----     2.0 fat        0 bl defN 24-Sep-14 10:36 META-INF/maven/org.fusesource.jansi/jansi/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-16 00:04 META-INF/maven/org.fusesource.jansi/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-16 00:04 META-INF/maven/org.fusesource.jansi/jansi/
+│  -rw----     2.0 fat    14082 bl defN 21-Oct-14 05:41 META-INF/maven/org.fusesource.jansi/jansi/pom.xml
+│  -rw----     2.0 fat       60 bl defN 21-Oct-14 05:41 META-INF/maven/org.fusesource.jansi/jansi/pom.properties
+│  187 files, 1517498 bytes uncompressed, 418480 bytes compressed:  72.4%
+
+10 / 14 target/reference/io.quarkus/quarkus-gradle-model-3.14.4.jar devtools/gradle/gradle-model/build/libs/gradle-model-3.14.4.jar
+--- target/reference/io.quarkus/quarkus-gradle-model-3.14.4.jar
++++ devtools/gradle/gradle-model/build/libs/gradle-model-3.14.4.jar
+├── zipinfo {}
+│ @@ -1,21 +1,21 @@
+│  Zip file size: 45607 bytes, number of entries: 19
+│ -drwxr-xr-x  2.0 unx        0 b- defN 24-Sep-14 10:37 META-INF/
+│ --rw-r--r--  2.0 unx       25 b- defN 24-Sep-14 10:37 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- defN 24-Sep-14 10:37 io/
+│ -drwxr-xr-x  2.0 unx        0 b- defN 24-Sep-14 10:37 io/quarkus/
+│ -drwxr-xr-x  2.0 unx        0 b- defN 24-Sep-14 10:37 io/quarkus/gradle/
+│ -drwxr-xr-x  2.0 unx        0 b- defN 24-Sep-14 10:37 io/quarkus/gradle/tooling/
+│ --rw-r--r--  2.0 unx     8966 b- defN 24-Sep-14 10:37 io/quarkus/gradle/tooling/ToolingUtils.class
+│ -drwxr-xr-x  2.0 unx        0 b- defN 24-Sep-14 10:37 io/quarkus/gradle/tooling/dependency/
+│ --rw-r--r--  2.0 unx     1424 b- defN 24-Sep-14 10:37 io/quarkus/gradle/tooling/dependency/ArtifactExtensionDependency.class
+│ --rw-r--r--  2.0 unx    19777 b- defN 24-Sep-14 10:37 io/quarkus/gradle/tooling/dependency/DependencyUtils.class
+│ --rw-r--r--  2.0 unx     7818 b- defN 24-Sep-14 10:37 io/quarkus/gradle/tooling/dependency/ExtensionDependency.class
+│ --rw-r--r--  2.0 unx     1862 b- defN 24-Sep-14 10:37 io/quarkus/gradle/tooling/dependency/ProjectExtensionDependency.class
+│ --rw-r--r--  2.0 unx    38951 b- defN 24-Sep-14 10:37 io/quarkus/gradle/tooling/GradleApplicationModelBuilder.class
+│ -drwxr-xr-x  2.0 unx        0 b- defN 24-Sep-14 10:37 io/quarkus/gradle/dependency/
+│ --rw-r--r--  2.0 unx    11250 b- defN 24-Sep-14 10:37 io/quarkus/gradle/dependency/ConditionalDependenciesEnabler.class
+│ --rw-r--r--  2.0 unx    19973 b- defN 24-Sep-14 10:37 io/quarkus/gradle/dependency/ApplicationDeploymentClasspathBuilder.class
+│ -drwxr-xr-x  2.0 unx        0 b- defN 24-Sep-14 10:37 io/quarkus/gradle/extension/
+│ --rw-r--r--  2.0 unx      251 b- defN 24-Sep-14 10:37 io/quarkus/gradle/extension/ExtensionConstants.class
+│ --rw-r--r--  2.0 unx     2907 b- defN 24-Sep-14 10:37 io/quarkus/gradle/extension/ConfigurationUtils.class
+│ +drwxr-xr-x  2.0 unx        0 b- defN 24-Sep-16 00:04 META-INF/
+│ +-rw-r--r--  2.0 unx       25 b- defN 24-Sep-16 00:04 META-INF/MANIFEST.MF
+│ +drwxrwxr-x  2.0 unx        0 b- defN 24-Sep-16 00:04 io/
+│ +drwxrwxr-x  2.0 unx        0 b- defN 24-Sep-16 00:04 io/quarkus/
+│ +drwxrwxr-x  2.0 unx        0 b- defN 24-Sep-16 00:04 io/quarkus/gradle/
+│ +drwxrwxr-x  2.0 unx        0 b- defN 24-Sep-16 00:04 io/quarkus/gradle/dependency/
+│ +-rw-rw-r--  2.0 unx    11250 b- defN 24-Sep-16 00:04 io/quarkus/gradle/dependency/ConditionalDependenciesEnabler.class
+│ +-rw-rw-r--  2.0 unx    19973 b- defN 24-Sep-16 00:04 io/quarkus/gradle/dependency/ApplicationDeploymentClasspathBuilder.class
+│ +drwxrwxr-x  2.0 unx        0 b- defN 24-Sep-16 00:04 io/quarkus/gradle/tooling/
+│ +drwxrwxr-x  2.0 unx        0 b- defN 24-Sep-16 00:04 io/quarkus/gradle/tooling/dependency/
+│ +-rw-rw-r--  2.0 unx     1862 b- defN 24-Sep-16 00:04 io/quarkus/gradle/tooling/dependency/ProjectExtensionDependency.class
+│ +-rw-rw-r--  2.0 unx     1424 b- defN 24-Sep-16 00:04 io/quarkus/gradle/tooling/dependency/ArtifactExtensionDependency.class
+│ +-rw-rw-r--  2.0 unx    19777 b- defN 24-Sep-16 00:04 io/quarkus/gradle/tooling/dependency/DependencyUtils.class
+│ +-rw-rw-r--  2.0 unx     7818 b- defN 24-Sep-16 00:04 io/quarkus/gradle/tooling/dependency/ExtensionDependency.class
+│ +-rw-rw-r--  2.0 unx    38951 b- defN 24-Sep-16 00:04 io/quarkus/gradle/tooling/GradleApplicationModelBuilder.class
+│ +-rw-rw-r--  2.0 unx     8966 b- defN 24-Sep-16 00:04 io/quarkus/gradle/tooling/ToolingUtils.class
+│ +drwxrwxr-x  2.0 unx        0 b- defN 24-Sep-16 00:04 io/quarkus/gradle/extension/
+│ +-rw-rw-r--  2.0 unx     2907 b- defN 24-Sep-16 00:04 io/quarkus/gradle/extension/ConfigurationUtils.class
+│ +-rw-rw-r--  2.0 unx      251 b- defN 24-Sep-16 00:04 io/quarkus/gradle/extension/ExtensionConstants.class
+│  19 files, 113204 bytes uncompressed, 42569 bytes compressed:  62.4%
+
+11 / 14 target/reference/io.quarkus/quarkus-gradle-model-3.14.4-sources.jar devtools/gradle/gradle-model/build/libs/gradle-model-3.14.4-sources.jar
+--- target/reference/io.quarkus/quarkus-gradle-model-3.14.4-sources.jar
++++ devtools/gradle/gradle-model/build/libs/gradle-model-3.14.4-sources.jar
+├── zipinfo {}
+│ @@ -1,21 +1,21 @@
+│  Zip file size: 22418 bytes, number of entries: 19
+│ -drwxr-xr-x  2.0 unx        0 b- defN 24-Sep-14 10:37 META-INF/
+│ --rw-r--r--  2.0 unx       25 b- defN 24-Sep-14 10:37 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- defN 24-Sep-14 08:25 io/
+│ -drwxr-xr-x  2.0 unx        0 b- defN 24-Sep-14 08:25 io/quarkus/
+│ -drwxr-xr-x  2.0 unx        0 b- defN 24-Sep-14 08:25 io/quarkus/gradle/
+│ -drwxr-xr-x  2.0 unx        0 b- defN 24-Sep-14 08:25 io/quarkus/gradle/tooling/
+│ --rw-r--r--  2.0 unx     7137 b- defN 24-Sep-14 08:25 io/quarkus/gradle/tooling/ToolingUtils.java
+│ --rw-r--r--  2.0 unx    33700 b- defN 24-Sep-14 08:25 io/quarkus/gradle/tooling/GradleApplicationModelBuilder.java
+│ -drwxr-xr-x  2.0 unx        0 b- defN 24-Sep-14 08:25 io/quarkus/gradle/tooling/dependency/
+│ --rw-r--r--  2.0 unx    17500 b- defN 24-Sep-14 08:25 io/quarkus/gradle/tooling/dependency/DependencyUtils.java
+│ --rw-r--r--  2.0 unx     1112 b- defN 24-Sep-14 08:25 io/quarkus/gradle/tooling/dependency/ProjectExtensionDependency.java
+│ --rw-r--r--  2.0 unx     3741 b- defN 24-Sep-14 08:25 io/quarkus/gradle/tooling/dependency/ExtensionDependency.java
+│ --rw-r--r--  2.0 unx      690 b- defN 24-Sep-14 08:25 io/quarkus/gradle/tooling/dependency/ArtifactExtensionDependency.java
+│ -drwxr-xr-x  2.0 unx        0 b- defN 24-Sep-14 08:25 io/quarkus/gradle/dependency/
+│ --rw-r--r--  2.0 unx    10387 b- defN 24-Sep-14 08:25 io/quarkus/gradle/dependency/ConditionalDependenciesEnabler.java
+│ --rw-r--r--  2.0 unx    16228 b- defN 24-Sep-14 08:25 io/quarkus/gradle/dependency/ApplicationDeploymentClasspathBuilder.java
+│ -drwxr-xr-x  2.0 unx        0 b- defN 24-Sep-14 08:25 io/quarkus/gradle/extension/
+│ --rw-r--r--  2.0 unx     2085 b- defN 24-Sep-14 08:25 io/quarkus/gradle/extension/ConfigurationUtils.java
+│ --rw-r--r--  2.0 unx      140 b- defN 24-Sep-14 08:25 io/quarkus/gradle/extension/ExtensionConstants.java
+│ +drwxr-xr-x  2.0 unx        0 b- defN 24-Sep-16 00:04 META-INF/
+│ +-rw-r--r--  2.0 unx       25 b- defN 24-Sep-16 00:04 META-INF/MANIFEST.MF
+│ +drwxrwxr-x  2.0 unx        0 b- defN 24-Sep-15 23:44 io/
+│ +drwxrwxr-x  2.0 unx        0 b- defN 24-Sep-15 23:44 io/quarkus/
+│ +drwxrwxr-x  2.0 unx        0 b- defN 24-Sep-15 23:44 io/quarkus/gradle/
+│ +drwxrwxr-x  2.0 unx        0 b- defN 24-Sep-15 23:44 io/quarkus/gradle/dependency/
+│ +-rw-rw-r--  2.0 unx    10387 b- defN 24-Sep-15 23:44 io/quarkus/gradle/dependency/ConditionalDependenciesEnabler.java
+│ +-rw-rw-r--  2.0 unx    16228 b- defN 24-Sep-15 23:44 io/quarkus/gradle/dependency/ApplicationDeploymentClasspathBuilder.java
+│ +drwxrwxr-x  2.0 unx        0 b- defN 24-Sep-15 23:44 io/quarkus/gradle/tooling/
+│ +drwxrwxr-x  2.0 unx        0 b- defN 24-Sep-15 23:44 io/quarkus/gradle/tooling/dependency/
+│ +-rw-rw-r--  2.0 unx    17500 b- defN 24-Sep-15 23:44 io/quarkus/gradle/tooling/dependency/DependencyUtils.java
+│ +-rw-rw-r--  2.0 unx      690 b- defN 24-Sep-15 23:44 io/quarkus/gradle/tooling/dependency/ArtifactExtensionDependency.java
+│ +-rw-rw-r--  2.0 unx     3741 b- defN 24-Sep-15 23:44 io/quarkus/gradle/tooling/dependency/ExtensionDependency.java
+│ +-rw-rw-r--  2.0 unx     1112 b- defN 24-Sep-15 23:44 io/quarkus/gradle/tooling/dependency/ProjectExtensionDependency.java
+│ +-rw-rw-r--  2.0 unx    33700 b- defN 24-Sep-15 23:44 io/quarkus/gradle/tooling/GradleApplicationModelBuilder.java
+│ +-rw-rw-r--  2.0 unx     7137 b- defN 24-Sep-15 23:44 io/quarkus/gradle/tooling/ToolingUtils.java
+│ +drwxrwxr-x  2.0 unx        0 b- defN 24-Sep-15 23:44 io/quarkus/gradle/extension/
+│ +-rw-rw-r--  2.0 unx     2085 b- defN 24-Sep-15 23:44 io/quarkus/gradle/extension/ConfigurationUtils.java
+│ +-rw-rw-r--  2.0 unx      140 b- defN 24-Sep-15 23:44 io/quarkus/gradle/extension/ExtensionConstants.java
+│  19 files, 92745 bytes uncompressed, 19400 bytes compressed:  79.1%
+
+12 / 14 target/reference/io.quarkus/quarkus-cli-3.14.4-runner.jar devtools/cli/target/quarkus-cli-3.14.4-runner.jar
+--- target/reference/io.quarkus/quarkus-cli-3.14.4-runner.jar
++++ devtools/cli/target/quarkus-cli-3.14.4-runner.jar
+├── zipinfo {}
+│ @@ -1,18704 +1,18704 @@
+│ -Zip file size: 27126314 bytes, number of entries: 18702
+│ --rw----     2.0 fat      160 bX defN 24-Sep-14 10:38 META-INF/MANIFEST.MF
+│ --rw----     1.0 fat        0 bx stor 24-Sep-14 10:38 META-INF/
+│ --rw----     1.0 fat        0 bx stor 24-Sep-14 10:38 io/
+│ --rw----     1.0 fat        0 bx stor 24-Sep-14 10:38 io/quarkus/
+│ --rw----     1.0 fat        0 bx stor 24-Sep-14 10:38 io/quarkus/picocli/
+│ --rw----     1.0 fat        0 bx stor 24-Sep-14 10:38 io/quarkus/picocli/runtime/
+│ --rw----     2.0 fat     1948 bX defN 24-Sep-14 10:38 io/quarkus/picocli/runtime/PicocliRunner.class
+...
+│ --rw----     2.0 fat       42 bX defN 24-Sep-14 10:38 META-INF/services/jakarta.enterprise.inject.spi.Extension
+│ --rw----     2.0 fat     8376 bX defN 24-Sep-14 10:38 META-INF/sisu/javax.inject.Named
+│ -18702 files, 56563102 bytes uncompressed, 22804164 bytes compressed:  59.7%
+│ +Zip file size: 27126346 bytes, number of entries: 18702
+│ +-rw----     2.0 fat      160 bX defN 24-Sep-15 22:04 META-INF/MANIFEST.MF
+│ +-rw----     1.0 fat        0 bx stor 24-Sep-15 22:04 META-INF/
+│ +-rw----     1.0 fat        0 bx stor 24-Sep-15 22:04 io/
+│ +-rw----     1.0 fat        0 bx stor 24-Sep-15 22:04 io/quarkus/
+│ +-rw----     1.0 fat        0 bx stor 24-Sep-15 22:04 io/quarkus/picocli/
+│ +-rw----     1.0 fat        0 bx stor 24-Sep-15 22:04 io/quarkus/picocli/runtime/
+│ +-rw----     2.0 fat     1948 bX defN 24-Sep-15 22:04 io/quarkus/picocli/runtime/PicocliRunner.class
+│ +-rw----     2.0 fat     1664 bX defN 24-Sep-15 22:04 io/quarkus/picocli/runtime/PicocliRunner$EventExecutionStrategy.class
+...
+│ +-rw----     2.0 fat       42 bX defN 24-Sep-15 22:04 META-INF/services/jakarta.enterprise.inject.spi.Extension
+│ +-rw----     2.0 fat     8376 bX defN 24-Sep-15 22:04 META-INF/sisu/javax.inject.Named
+│ +18702 files, 56563160 bytes uncompressed, 22804196 bytes compressed:  59.7%
+├── io/quarkus/runtime/generated/RunTimeConfigCustomizer.class
+│ ├── procyon -ec {}
+│ │ @@ -118,13 +118,13 @@
+│ │          AbstractConfigBuilder.withConverter(smallRyeConfigBuilder, (Converter)new CharsetConverter());
+│ │          AbstractConfigBuilder.withConverter(smallRyeConfigBuilder, (Converter)new InetAddressConverter());
+│ │          AbstractConfigBuilder.withConverter(smallRyeConfigBuilder, (Converter)new RegexConverter());
+│ │          AbstractConfigBuilder.withConverter(smallRyeConfigBuilder, (Converter)new ZoneIdConverter());
+│ │          AbstractConfigBuilder.withConverter(smallRyeConfigBuilder, (Converter)new DurationConverter());
+│ │          AbstractConfigBuilder.withConverter(smallRyeConfigBuilder, (Converter)new PathConverter());
+│ │          AbstractConfigBuilder.withSource(smallRyeConfigBuilder, (ConfigSourceFactory)new PropertiesLocationConfigSourceFactory());
+│ │ +        AbstractConfigBuilder.withMapping(smallRyeConfigBuilder, "io.quarkus.runtime.ConfigConfig", "quarkus");
+│ │          AbstractConfigBuilder.withMapping(smallRyeConfigBuilder, "io.quarkus.runtime.LaunchConfig", "quarkus.launch");
+│ │ -        AbstractConfigBuilder.withMapping(smallRyeConfigBuilder, "io.quarkus.runtime.init.InitRuntimeConfig", "quarkus");
+│ │          AbstractConfigBuilder.withMapping(smallRyeConfigBuilder, "io.quarkus.runtime.BuilderConfig", "quarkus.builder");
+│ │ -        AbstractConfigBuilder.withMapping(smallRyeConfigBuilder, "io.quarkus.runtime.ConfigConfig", "quarkus");
+│ │ +        AbstractConfigBuilder.withMapping(smallRyeConfigBuilder, "io.quarkus.runtime.init.InitRuntimeConfig", "quarkus");
+│ │      }
+│ │  }
+├── io/quarkus/arc/setup/Default_ComponentsProvider.class
+│ ├── procyon -ec {}
+│ │ @@ -1,30 +1,30 @@
+│ │  
+│ │  package io.quarkus.arc.setup;
+│ │  
+│ │  import io.quarkus.qute.runtime.EngineProducer_Observer_Synthetic_ltRbWRttS-zjfhblNzdlh8YOvYg;
+│ │ -import io.quarkus.qute.runtime.cache.MissingCacheConfigurator_Observer_configureEngine_AP1-LzRJxqJryolrtIP5paEenho;
+│ │ -import io.quarkus.arc.runtime.ConfigStaticInitValues_Observer_onStart_9AFRg-nRqgtTxnkBRkFamSX9SUE;
+│ │ -import io.quarkus.qute.i18n.MessageBundles_Observer_setupNamespaceResolvers_SyaT5lN9JscDXVLsjUPq71Ld_JQ;
+│ │  import io.quarkus.qute.i18n.MessageBundles_Observer_setupMessageTemplates_83KsmN8hnRaPV-0ZElyzFRjk60A;
+│ │ +import io.quarkus.arc.runtime.ConfigStaticInitValues_Observer_onStart_9AFRg-nRqgtTxnkBRkFamSX9SUE;
+│ │ +import io.quarkus.qute.runtime.cache.MissingCacheConfigurator_Observer_configureEngine_AP1-LzRJxqJryolrtIP5paEenho;
+│ │  import io.quarkus.qute.runtime.EngineProducer_Observer_onShutdown_2JUF9I3LHIPhHxaJpnPeR7YsFGA;
+│ │ +import io.quarkus.qute.i18n.MessageBundles_Observer_setupNamespaceResolvers_SyaT5lN9JscDXVLsjUPq71Ld_JQ;
+│ │  import io.quarkus.qute.runtime.MessageBundleRecorder_BundleContext_c13ZmJZ45f5fjuXeNJkPXMgxt0s_Synthetic_Bean;
+│ │  import io.netty.channel.EventLoopGroup_a3b9G5N0ykJYNK_I4Ykk8EyknTI_Synthetic_Bean;
+│ │  import io.netty.channel.EventLoopGroup_kvHDo4zTYet60nqf5jJO26V0iuE_Synthetic_Bean;
+│ │  import io.quarkus.arc.generator.Object_c7JBSkuQ1C2M2pz0aBMoQPtOQ5Y_Synthetic_Bean;
+│ │  import io.quarkus.qute.runtime.TemplateProducer_ProducerMethod_getTemplate_LyF4kCErkS3YZD6b0CByxjym6ss_Bean;
+│ │  import io.quarkus.qute.runtime.TemplateProducer_ProducerMethod_getDefaultTemplate_j6Bp4w1_EL9PLvdWZCIeuzbHjrY_Bean;
+│ │ -import io.quarkus.cli.QuarkusCli_Bean;
+│ │ -import io.quarkus.qute.i18n.MessageBundles_Bean;
+│ │ -import io.quarkus.arc.runtime.ConfigStaticInitValues_Bean;
+│ │  import io.quarkus.cli.Main_Bean;
+│ │ -import io.quarkus.arc.impl.DefaultAsyncObserverExceptionHandler_Bean;
+│ │  import io.quarkus.jackson.runtime.ConfigurationCustomizer_Bean;
+│ │ -import io.quarkus.qute.runtime.cache.MissingCacheConfigurator_Bean;
+│ │ +import io.quarkus.arc.impl.DefaultAsyncObserverExceptionHandler_Bean;
+...
+
+13 / 14 target/reference/io.quarkus/quarkus-documentation-3.14.4.zip docs/target/quarkus-documentation-3.14.4.zip
+--- target/reference/io.quarkus/quarkus-documentation-3.14.4.zip
++++ docs/target/quarkus-documentation-3.14.4.zip
+├── zipinfo {}
+│ @@ -1,505 +1,505 @@
+│ -Zip file size: 28339589 bytes, number of entries: 503
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-14 08:26 quarkus-documentation-3.14.4/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-14 08:26 quarkus-documentation-3.14.4/_includes/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-14 08:26 quarkus-documentation-3.14.4/_includes/devtools/
+...
+│ --rw-r--r--  2.0 unx   248793 b- defN 24-Sep-14 08:26 quarkus-documentation-3.14.4/writing-extensions.html
+│ --rw-r--r--  2.0 unx    48486 b- defN 24-Sep-14 08:26 quarkus-documentation-3.14.4/writing-native-applications-tips.html
+│ -503 files, 49560570 bytes uncompressed, 28244631 bytes compressed:  43.0%
+│ +Zip file size: 28340098 bytes, number of entries: 503
+│ +drwxrwxr-x  2.0 unx        0 b- stor 24-Sep-14 08:26 quarkus-documentation-3.14.4/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 24-Sep-14 08:26 quarkus-documentation-3.14.4/_includes/
+...
+│ +-rw-rw-r--  2.0 unx   248795 b- defN 24-Sep-14 08:26 quarkus-documentation-3.14.4/writing-extensions.html
+│ +-rw-rw-r--  2.0 unx    48488 b- defN 24-Sep-14 08:26 quarkus-documentation-3.14.4/writing-native-applications-tips.html
+│ +503 files, 49561072 bytes uncompressed, 28245140 bytes compressed:  43.0%
+├── quarkus-documentation-3.14.4/README.html
+│ @@ -140,12 +140,12 @@
+│  </ul>
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  <div id="footer">
+│  <div id="footer-text">
+│ -Last updated 2024-09-14 10:38:30 UTC
+│ +Last updated 2024-09-16 00:07:35 +0200
+│  </div>
+│  </div>
+│  </body>
+│  </html>
+...
+
+14 / 14 target/reference/io.quarkus/quarkus-documentation-3.14.4.tar.gz docs/target/quarkus-documentation-3.14.4.tar.gz
+--- target/reference/io.quarkus/quarkus-documentation-3.14.4.tar.gz
++++ docs/target/quarkus-documentation-3.14.4.tar.gz
