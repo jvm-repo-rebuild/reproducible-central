@@ -1,0 +1,5 @@
+version=1.49
+ok=3
+ko=0
+okFiles="bom-1.16.x-1.49.pom bom-newest-1.49.pom bom-1.49.pom"
+koFiles=""
