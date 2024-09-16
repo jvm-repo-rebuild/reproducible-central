@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Alta Maven Plugin
+group-id=com.github.veithen.alta
+artifact-id=alta-maven-plugin
+version=0.8.1
+
+# source information
+source.scm.uri=scm:git:http://github.com/veithen/alta.git
+source.scm.tag=0.8.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.github.veithen.alta
+outputs.0.filename=alta-maven-plugin-0.8.1.pom
+outputs.0.length=11039
+outputs.0.checksums.sha512=49b4cb65787c0e7a0a4e49d5941c5a0ef1b621b1a6851bd96e281b6dadae6c1eff84fa98c04ea9fddce827e4432c89650c4d55909d03bccc1d83c95d860dafc7
+
+outputs.1.groupId=com.github.veithen.alta
+outputs.1.filename=alta-maven-plugin-0.8.1.jar
+outputs.1.length=34835
+outputs.1.checksums.sha512=8b212b8e4f013f230f1e16b8f2716b1e96aee622278dd6b0da8f0052bcdda033973a5e6bc914c7d1539abf993c73f46e3a35ec7ba76273d09e32d628fafc551a
+
+outputs.2.groupId=com.github.veithen.alta
+outputs.2.filename=alta-maven-plugin-0.8.1-sources.jar
+outputs.2.length=26763
+outputs.2.checksums.sha512=b0a5ef0e9ce7a0c934b8e99e3233a4768b4df0431ed49a52e463f254b6bc13d1f0b25573fe0bf39411d841db9ed4540b83f39eb0dccac0eed5efcb5abb128bbc
+
+outputs.3.groupId=com.github.veithen.alta
+outputs.3.filename=alta-maven-plugin-0.8.1-source-release.zip
+outputs.3.length=75967
+outputs.3.checksums.sha512=57e97afd9ddbe5a74d3b2596babce4fba249ec25536937d741c5a3f327d237a957a72bc22a1061ef10efee164d414eb378fb9c25e32f4214e91f659b843ff03f
