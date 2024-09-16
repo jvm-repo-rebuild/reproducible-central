@@ -25,7 +25,7 @@ then
 
   function SwitchJDK {
       local JDK=$1
-      update-java-alternatives -l | fgrep "${JDK}" > /dev/null
+      update-java-alternatives -l | fgrep ".${JDK}." > /dev/null
       if [ $? -ne 0 ];
       then
         fail "JDK ${JDK} is not available"
@@ -34,7 +34,7 @@ then
       else
         echo -e "${IRed}${On_Black}Setting JDK to version ${JDK}${Color_Off}"
         sudo update-java-alternatives --set $(update-java-alternatives -l | cut -d' ' -f1 | fgrep "${JDK}." );
-        export JAVA_HOME=$(update-java-alternatives -l | fgrep "${JDK}" | sed 's@ \+@ @g' | cut -d' ' -f3);
+        export JAVA_HOME=$(update-java-alternatives -l | fgrep ".${JDK}." | sed 's@ \+@ @g' | cut -d' ' -f3);
         export JDK_VERSION="JDK $(javac -version 2>&1 | cut -d' ' -f2)"
       fi
   }
