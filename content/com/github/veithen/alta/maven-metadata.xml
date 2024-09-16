@@ -3,8 +3,8 @@
   <groupId>com.github.veithen.alta</groupId>
   <artifactId>alta-maven-plugin</artifactId>
   <versioning>
-    <latest>0.8.0</latest>
-    <release>0.8.0</release>
+    <latest>0.8.1</latest>
+    <release>0.8.1</release>
     <versions>
       <version>0.1</version>
       <version>0.2</version>
@@ -22,7 +22,8 @@
       <version>0.7.1</version>
       <version>0.7.2</version>
       <version>0.8.0</version>
+      <version>0.8.1</version>
     </versions>
-    <lastUpdated>20230603205729</lastUpdated>
+    <lastUpdated>20240915222936</lastUpdated>
   </versioning>
 </metadata>

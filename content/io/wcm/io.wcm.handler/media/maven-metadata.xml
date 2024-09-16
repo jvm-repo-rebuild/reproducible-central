@@ -3,8 +3,8 @@
   <groupId>io.wcm</groupId>
   <artifactId>io.wcm.handler.media</artifactId>
   <versioning>
-    <latest>2.2.0</latest>
-    <release>2.2.0</release>
+    <latest>2.2.2</latest>
+    <release>2.2.2</release>
     <versions>
       <version>0.1.0</version>
       <version>0.5.0</version>
@@ -75,7 +75,8 @@
       <version>2.0.8</version>
       <version>2.1.0</version>
       <version>2.2.0</version>
+      <version>2.2.2</version>
     </versions>
-    <lastUpdated>20240826095112</lastUpdated>
+    <lastUpdated>20240916090911</lastUpdated>
   </versioning>
 </metadata>

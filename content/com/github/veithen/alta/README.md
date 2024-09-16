@@ -13,6 +13,7 @@ rebuilding **1 releases** of com.github.veithen.alta:alta-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.8.1](https://central.sonatype.com/artifact/com.github.veithen.alta/alta-maven-plugin/0.8.1/pom) | | | |
 | [0.8.0](https://central.sonatype.com/artifact/com.github.veithen.alta/alta-maven-plugin/0.8.0/pom) | [mvn jdk17](alta-maven-plugin-0.8.0.buildspec) | [result](alta-maven-plugin-0.8.0.buildinfo): [4 :white_check_mark: ](alta-maven-plugin-0.8.0.buildcompare) | 145K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -3,8 +3,8 @@
   <groupId>org.mybatis.scripting</groupId>
   <artifactId>mybatis-freemarker</artifactId>
   <versioning>
-    <latest>1.2.4</latest>
-    <release>1.2.4</release>
+    <latest>1.3.0</latest>
+    <release>1.3.0</release>
     <versions>
       <version>1.1.1</version>
       <version>1.1.2</version>
@@ -13,7 +13,8 @@
       <version>1.2.2</version>
       <version>1.2.3</version>
       <version>1.2.4</version>
+      <version>1.3.0</version>
     </versions>
-    <lastUpdated>20221202233937</lastUpdated>
+    <lastUpdated>20240916004746</lastUpdated>
   </versioning>
 </metadata>

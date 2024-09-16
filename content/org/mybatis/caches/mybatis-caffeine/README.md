@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.mybatis.caches:mybatis-caffeine:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.2.0](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-caffeine/1.2.0/pom) | | | |
 | [1.1.0](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-caffeine/1.1.0/pom) | [mvn jdk17 w](mybatis-caffeine-1.1.0.buildspec) | [result](mybatis-caffeine-1.1.0.buildinfo): [3 :white_check_mark: ](mybatis-caffeine-1.1.0.buildcompare) | 21K |
 | [1.0.1](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-caffeine/1.0.1/pom) | [mvn jdk17 w](mybatis-caffeine-1.0.1.buildspec) | [result](mybatis-caffeine-1.0.1.buildinfo): [3 :white_check_mark: ](mybatis-caffeine-1.0.1.buildcompare) | 21K |
 

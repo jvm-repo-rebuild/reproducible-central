@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.mybatis.caches:mybatis-ehcache:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.3.0](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-ehcache/1.3.0/pom) | | | |
 | [1.2.3](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-ehcache/1.2.3/pom) | [mvn jdk17 w](mybatis-ehcache-1.2.3.buildspec) | [result](mybatis-ehcache-1.2.3.buildinfo): [3 :white_check_mark: ](mybatis-ehcache-1.2.3.buildcompare) | 30K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
