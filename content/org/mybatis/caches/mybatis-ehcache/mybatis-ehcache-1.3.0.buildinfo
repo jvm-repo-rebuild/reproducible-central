@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis-ehcache
+group-id=org.mybatis.caches
+artifact-id=mybatis-ehcache
+version=1.3.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/ehcache-cache.git
+source.scm.tag=mybatis-ehcache-1.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=22
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.mybatis.caches
+outputs.0.filename=mybatis-ehcache-1.3.0.pom
+outputs.0.length=3790
+outputs.0.checksums.sha512=d7f8c8fed1b8972e51ad73ca2f3fa462b239b074abdc7920a4471e00d61cffec762796bd80399cfaf9f81bb008d430bd91471a0f23e2fce7adafabdd9921d348
+
+outputs.1.groupId=org.mybatis.caches
+outputs.1.filename=mybatis-ehcache-1.3.0.jar
+outputs.1.length=13364
+outputs.1.checksums.sha512=fcc0d7c2fb6456c848dbc7a97d77c4652dc1678b181d4a4be1532ac647a94e50c0ff115bf2209913df44dc394cf3ee0738c0b8e9c332bc8c3a66fc0c12618f83
+
+outputs.2.groupId=org.mybatis.caches
+outputs.2.filename=mybatis-ehcache-1.3.0-sources.jar
+outputs.2.length=13051
+outputs.2.checksums.sha512=d7501e75da7426577db5526dd668b019d5d93a3e14d47121f7f98bd10609dbc3c604310999e87059e73d82bd243ee9e9b96666cb34aff45a5cfef397705bd621
