@@ -15,29 +15,12 @@
 ###
 # If we are using an image with a preinstalled Java the configs for the update-java-alternatives are broken
 
-# Because we are copying and then modifying the Java 21 configs we need that to be installed also
-RUN [ -f /usr/lib/jvm/.java-1.21.0-openjdk-amd64.jinfo ] || ( echo "You MUST have JDK 21 installed also when using a non-LTS JDK so we can copy some of the configs" && exit 1 )
+RUN [ -d /scripts ] || mkdir /scripts
+ADD docker/register-pre-installed-java.sh /scripts/
+RUN chmod 755 /scripts/register-pre-installed-java.sh
+RUN /scripts/register-pre-installed-java.sh
 
-# Remove the preinstalled from the PATH
+# Remove the preinstalled from the PATH because the interferes with the alternatives mechanism
 ENV PATH="$(echo $PATH | sed 's@:/opt/java/openjdk/bin:@:@g')"
 ENV JAVA_HOME=
 ENV JAVA_VERSION=
-
-# Steps:
-# 1. Figure out the installed non-LTS major version
-# 2. Copy the Java 21 config to the installed one
-# 3. Tell update-alternatives about all the files we have
-RUN cd /usr/lib/jvm/ && \
-    JAVAMAJORVERSION=$(/opt/java/openjdk/bin/java --version | head -1 | cut -d' ' -f2 | cut -d'.' -f1); \
-    ln -s /opt/java/openjdk/ java-${JAVAMAJORVERSION}-openjdk-amd64 ; \
-    ln -s java-${JAVAMAJORVERSION}-openjdk-amd64 java-1.${JAVAMAJORVERSION}.0-openjdk-amd64 ; \
-    sed "s@21@${JAVAMAJORVERSION}@g" .java-1.21.0-openjdk-amd64.jinfo > .java-1.${JAVAMAJORVERSION}.0-openjdk-amd64.jinfo; \
-    JDKNAME=$(cat /usr/lib/jvm/.java-1.${JAVAMAJORVERSION}.0-openjdk-amd64.jinfo | fgrep name= | cut -d'=' -f2 ); \
-    JDKALIAS=$(cat /usr/lib/jvm/.java-1.${JAVAMAJORVERSION}.0-openjdk-amd64.jinfo | fgrep alias= | cut -d'=' -f2 ); \
-    JDKPRIO=$(cat /usr/lib/jvm/.java-1.${JAVAMAJORVERSION}.0-openjdk-amd64.jinfo | fgrep priority= | cut -d'=' -f2 ); \
-    fgrep /usr/lib/jvm/ /usr/lib/jvm/.java-1.${JAVAMAJORVERSION}.0-openjdk-amd64.jinfo | \
-    while read type name path ; \
-    do \
-        update-alternatives --install /usr/bin/${name} ${name} ${path} ${JDKPRIO}; \
-    done
-
