@@ -1,0 +1,56 @@
+1 /        2 target/reference/io.wcm/io.wcm.handler.media-2.2.2-content.zip target/io.wcm.handler.media-2.2.2-content.zip
+--- target/reference/io.wcm/io.wcm.handler.media-2.2.2-content.zip
++++ target/io.wcm.handler.media-2.2.2-content.zip
+├── zipinfo {}
+│ @@ -1,227 +1,227 @@
+│ -Zip file size: 125931 bytes, number of entries: 225
+│ --rw----     2.0 fat        0 bl defN 24-Sep-16 11:05 META-INF/
+│ --rw----     2.0 fat        0 bl defN 24-Sep-16 11:05 META-INF/vault/
+│ --rw----     2.0 fat     3167 bl defN 24-Sep-16 11:05 META-INF/vault/config.xml
+...
+│ --rw----     2.0 fat        0 bl defN 24-Sep-16 11:05 jcr_root/apps/wcm-io/handler/media/i18n/en/io.wcm.handler.media.invalidReason.NO_MATCHING_RENDITION/
+│ --rw----     2.0 fat      636 bl defN 24-Sep-16 11:05 jcr_root/apps/wcm-io/handler/media/i18n/en/io.wcm.handler.media.invalidReason.NO_MATCHING_RENDITION/.content.xml
+│ -225 files, 138100 bytes uncompressed, 56531 bytes compressed:  59.1%
+│ +Zip file size: 125927 bytes, number of entries: 225
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-17 22:24 META-INF/
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-17 22:24 META-INF/vault/
+│ +-rw----     2.0 fat     3167 bl defN 24-Sep-17 22:24 META-INF/vault/config.xml
+...
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-17 22:24 jcr_root/apps/wcm-io/handler/media/i18n/en/io.wcm.handler.media.invalidReason.NO_MATCHING_RENDITION/
+│ +-rw----     2.0 fat      636 bl defN 24-Sep-17 22:24 jcr_root/apps/wcm-io/handler/media/i18n/en/io.wcm.handler.media.invalidReason.NO_MATCHING_RENDITION/.content.xml
+│ +225 files, 138095 bytes uncompressed, 56527 bytes compressed:  59.1%
+├── META-INF/vault/properties.xml
+│ ├── META-INF/vault/properties.xml
+│ │ @@ -1,13 +1,13 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <!DOCTYPE properties
+│ │    SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+│ │  <properties>
+│ │    <entry key="allowIndexDefinitions">false</entry>
+│ │    <entry key="createdBy">admin</entry>
+│ │ -  <entry key="created">2024-09-16T11:05:02.987+02:00</entry>
+│ │ +  <entry key="created">2024-09-17T22:24:35.522Z</entry>
+│ │    <entry key="name">io.wcm.handler.media-content</entry>
+│ │    <entry key="version">2.2.2</entry>
+│ │    <entry key="packageType">application</entry>
+│ │    <entry key="requiresRoot">false</entry>
+│ │    <entry key="group">wcm-io</entry>
+│ │  </properties>
+
+2 /        2 target/reference/io.wcm/io.wcm.handler.media-2.2.2-bundle.jar target/io.wcm.handler.media-2.2.2-bundle.jar
+--- target/reference/io.wcm/io.wcm.handler.media-2.2.2-bundle.jar
++++ target/io.wcm.handler.media-2.2.2-bundle.jar
+├── zipinfo {}
+│ @@ -1,950 +1,950 @@
+│  Zip file size: 1320501 bytes, number of entries: 948
+│ --rw----     2.0 fat        0 bl defN 24-Sep-16 11:05 META-INF/
+│ --rw----     2.0 fat    12475 bl defN 24-Sep-16 11:05 META-INF/MANIFEST.MF
+...
+│ --rw----     2.0 fat     1687 bl defN 24-Sep-16 11:05 io/wcm/handler/media/shaded/com/github/benmanes/caffeine/cache/stats/StatsCounter.class
+│ --rw----     2.0 fat      776 bl defN 24-Sep-16 11:05 io/wcm/handler/media/shaded/com/github/benmanes/caffeine/cache/stats/package-info.class
+│ +-rw----     2.0 fat        0 bl defN 24-Sep-17 22:24 META-INF/
+│ +-rw----     2.0 fat    12475 bl defN 24-Sep-17 22:24 META-INF/MANIFEST.MF
+...
+│ +-rw----     2.0 fat     1687 bl defN 24-Sep-17 22:24 io/wcm/handler/media/shaded/com/github/benmanes/caffeine/cache/stats/StatsCounter.class
+│ +-rw----     2.0 fat      776 bl defN 24-Sep-17 22:24 io/wcm/handler/media/shaded/com/github/benmanes/caffeine/cache/stats/package-info.class
+│  948 files, 3173205 bytes uncompressed, 1092971 bytes compressed:  65.6%
