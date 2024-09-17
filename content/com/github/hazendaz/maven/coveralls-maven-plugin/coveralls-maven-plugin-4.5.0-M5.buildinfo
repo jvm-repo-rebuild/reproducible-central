@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=coveralls-maven-plugin
+group-id=com.github.hazendaz.maven
+artifact-id=coveralls-maven-plugin
+version=4.5.0-M5
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/coveralls-maven-plugin.git
+source.scm.tag=coveralls-maven-plugin-4.5.0-M5
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=22
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.github.hazendaz.maven
+outputs.0.filename=coveralls-maven-plugin-4.5.0-M5.pom
+outputs.0.length=15510
+outputs.0.checksums.sha512=1a1a861f518001896cd0d08fe7a3d2399efc874ab77c2ec75267450e53ab248376d69af359f02908d69c31e79885ae2868d63a6438fca328541b1cb22930e2ff
+
+outputs.1.groupId=com.github.hazendaz.maven
+outputs.1.filename=coveralls-maven-plugin-4.5.0-M5.jar
+outputs.1.length=99509
+outputs.1.checksums.sha512=8f0a451a541a4172c04314530e8e7866150f16ff46d0c785312e7cb35c857f4a5540d889da48bcb825526fae718b3df4bc77b3595fdcb0b5c3ffc9a0a35666dc
+
+outputs.2.groupId=com.github.hazendaz.maven
+outputs.2.filename=coveralls-maven-plugin-4.5.0-M5-tests.jar
+outputs.2.length=99944
+outputs.2.checksums.sha512=3d628146274e5667b6d67bab2b3432221c178fcd4f467c2d81418f1d9060ecc03887b3c17be1ce126f52d9863861dfa6762df59f767332d81864f065877ef769
+
+outputs.3.groupId=com.github.hazendaz.maven
+outputs.3.filename=coveralls-maven-plugin-4.5.0-M5-sources.jar
+outputs.3.length=91396
+outputs.3.checksums.sha512=1f4844c15a252767993f2046fea20e922a34e3b9b58635d42d2da24cb5e48c866f422b7764e3b0f8f4235ad6ac1562f3dd0736b8b1206d2e9515c004f9d597e2
+
+outputs.4.groupId=com.github.hazendaz.maven
+outputs.4.filename=coveralls-maven-plugin-4.5.0-M5-test-sources.jar
+outputs.4.length=83003
+outputs.4.checksums.sha512=0c75df876041da1cf0d68446c427cb926cbe65a4edfe6f3e321b2b860424c4fa755eef43f3ac3aafb2fab2e756a1569b412e0c62e9e80cfd4cfb67236e46f888
+
+outputs.5.groupId=com.github.hazendaz.maven
+outputs.5.filename=coveralls-maven-plugin-4.5.0-M5-cyclonedx.xml
+outputs.5.length=131183
+outputs.5.checksums.sha512=68f5b1d8b1b346e8064046450f38dc0a1293eea80c1a630d1e806db8f9def947b3a3a07ea171feb6b978441c8d2b17a2b1476aae39f0a3786a34aef06a0e856b
+
+outputs.6.groupId=com.github.hazendaz.maven
+outputs.6.filename=coveralls-maven-plugin-4.5.0-M5-cyclonedx.json
+outputs.6.length=154841
+outputs.6.checksums.sha512=476012380fcbb2d38bfbd78180ca60a57c67a45093d6506fd5700881df352e758117c10dae26fbcb2456f091795485e22140e951043e4537cfab02970e6c3e12
