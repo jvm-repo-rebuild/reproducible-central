@@ -19,13 +19,13 @@ Source code: [https://github.com/io7m/xstructural.git](https://github.com/io7m/x
 * [com.io7m.xstructural:com.io7m.xstructural.xml](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural.xml/overview)
 </details>
 
-rebuilding **7 releases** of com.io7m.xstructural:com.io7m.xstructural:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of com.io7m.xstructural:com.io7m.xstructural:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.9.0](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.9.0/pom) | | | |
+| [1.9.0](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.9.0/pom) | [mvn jdk21](com.io7m.xstructural-1.9.0.buildspec) | [result](com.io7m.xstructural-1.9.0.buildinfo): [38 :white_check_mark: ](com.io7m.xstructural-1.9.0.buildcompare) | 40M |
 | [1.8.1](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.8.1/pom) | [mvn jdk21](com.io7m.xstructural-1.8.1.buildspec) | [result](com.io7m.xstructural-1.8.1.buildinfo): [38 :white_check_mark: ](com.io7m.xstructural-1.8.1.buildcompare) | 40M |
 | [1.8.0](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.8.0/pom) | [mvn jdk17.0.5](com.io7m.xstructural-1.8.0.buildspec) | [result](com.io7m.xstructural-1.8.0.buildinfo): [30 :white_check_mark: ](com.io7m.xstructural-1.8.0.buildcompare) | 18M |
 | [1.7.2](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.7.2/pom) | [mvn jdk17.0.5](com.io7m.xstructural-1.7.2.buildspec) | [result](com.io7m.xstructural-1.7.2.buildinfo): [26 :white_check_mark: ](com.io7m.xstructural-1.7.2.buildcompare) | 18M |
