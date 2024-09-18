@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/wcm-io/io.wcm.handler.media.git](https://github.com/wcm-io/io.wcm.handler.media.git)
 
-rebuilding **8 releases** of io.wcm:io.wcm.handler.media:
+rebuilding **9 releases** of io.wcm:io.wcm.handler.media:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.2.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.2.2/pom) | | | |
+| [2.2.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.2.2/pom) | [mvn jdk17 w](wcm-media-2.2.2.buildspec) | [result](io.wcm.handler.media-2.2.2.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.handler.media-2.2.2.buildcompare) [:mag:](io.wcm.handler.media-2.2.2.diffoscope) | 3.0M |
 | [2.2.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.2.0/pom) | | | |
 | [2.1.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.1.0/pom) | | | |
 | [2.0.8](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.0.8/pom) | | | |

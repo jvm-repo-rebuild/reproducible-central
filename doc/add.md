@@ -4,8 +4,10 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240917152558 --> [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | [0.2.5](../content/eu/maveniverse/maven/toolbox/toolbox-0.2.5.buildspec) :white_check_mark: | [0.3.0](../content/eu/maveniverse/maven/toolbox/toolbox-0.3.0.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/toolbox/toolbox-0.2.5.buildspec 0.3.0` |
-| <!-- 20240916211959 --> [coveralls-maven-plugin](../content/com/github/hazendaz/maven/coveralls-maven-plugin/README.md) | [4.5.0-M4](../content/com/github/hazendaz/maven/coveralls-maven-plugin/coveralls-maven-plugin-4.5.0-M4.buildspec) :white_check_mark: | [4.5.0-M5](../content/com/github/hazendaz/maven/coveralls-maven-plugin/coveralls-maven-plugin-4.5.0-M5.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/maven/coveralls-maven-plugin/coveralls-maven-plugin-4.5.0-M4.buildspec 4.5.0-M5` |
+| <!-- 20240918142845 --> [nisse](../content/eu/maveniverse/maven/nisse/README.md) | [0.1.1](../content/eu/maveniverse/maven/nisse/nisse-0.1.1.buildspec) :white_check_mark: | [0.2.1](../content/eu/maveniverse/maven/nisse/nisse-0.2.1.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/nisse/nisse-0.1.1.buildspec 0.2.1` |
+| <!-- 20240918142845 --> [nisse](../content/eu/maveniverse/maven/nisse/README.md) | [0.1.1](../content/eu/maveniverse/maven/nisse/nisse-0.1.1.buildspec) :white_check_mark: | 0.2.0  | `bin/add-new-release.sh content/eu/maveniverse/maven/nisse/nisse-0.1.1.buildspec ...` |
+| <!-- 20240918141453 --> [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | [0.3.0](../content/eu/maveniverse/maven/toolbox/toolbox-0.3.0.buildspec) :white_check_mark: | [0.3.1](../content/eu/maveniverse/maven/toolbox/toolbox-0.3.1.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/toolbox/toolbox-0.3.0.buildspec 0.3.1` |
+| <!-- 20240918023204 --> [trino-root](../content/io/trino/README.md) | [457](../content/io/trino/trino-457.buildspec) :white_check_mark: | [458](../content/io/trino/trino-458.buildspec) | `bin/add-new-release.sh content/io/trino/trino-457.buildspec 458` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -31,15 +33,15 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20240918164355 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.57.1](../content/org/finos/legend/engine/legend-engine-4.57.1.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.57.1` |
+| <!-- 20240918114814 --> [quarkus-project](../content/io/quarkus/README.md) | [3.14.4](../content/io/quarkus/quarkus-3.14.4.buildspec) :warning: | [3.15.0](../content/io/quarkus/quarkus-3.15.0.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.14.4.buildspec 3.15.0` |
+| <!-- 20240917212549 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | [5.1.0](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.1.0.buildspec) :warning: | [5.2.0](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.2.0.buildspec) | `bin/add-new-release.sh content/io/github/chains-project/maven-lockfile/maven-lockfile-5.1.0.buildspec 5.2.0` |
 | <!-- 20240917011228 --> [convex](../content/world/convex/README.md) | [0.7.11](../content/world/convex/convex-0.7.11.buildspec) :warning: | [0.7.15](../content/world/convex/convex-0.7.15.buildspec) | `bin/add-new-release.sh content/world/convex/convex-0.7.11.buildspec 0.7.15` |
 | <!-- 20240916091231 --> [io.wcm.wcm.ui.clientlibs](../content/io/wcm/io.wcm.wcm/ui/clientlibs/README.md) | [1.2.2](../content/io/wcm/io.wcm.wcm/ui/clientlibs/wcm-ui-clientlibs-1.2.2.buildspec) :warning: | [1.4.0](../content/io/wcm/io.wcm.wcm/ui/clientlibs/wcm-ui-clientlibs-1.4.0.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/ui/clientlibs/wcm-ui-clientlibs-1.2.2.buildspec 1.4.0` |
-| <!-- 20240916090911 --> [io.wcm.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | [1.15.6](../content/io/wcm/io.wcm.handler/media/wcm-media-1.15.6.buildspec) :warning: | [2.2.2](../content/io/wcm/io.wcm.handler/media/wcm-media-2.2.2.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.handler/media/wcm-media-1.15.6.buildspec 2.2.2` |
 | <!-- 20240915163743 --> [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | [7.28.0](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.28.0.buildspec) :warning: | [7.28.1](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.28.1.buildspec) | `bin/add-new-release.sh content/nl/basjes/parse/useragent/yauaa/yauaa-7.28.0.buildspec 7.28.1` |
 | <!-- 20240915080205 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.8.0](../content/org/apache/camel/camel/camel-4.8.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.8.0` |
-| <!-- 20240914105526 --> [quarkus-project](../content/io/quarkus/README.md) | [3.14.4](../content/io/quarkus/quarkus-3.14.4.buildspec) :warning: | [3.15.0.CR1](../content/io/quarkus/quarkus-3.15.0.CR1.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.14.4.buildspec 3.15.0.CR1` |
 | <!-- 20240914091403 --> [arthas-all](../content/com/taobao/arthas/README.md) | [3.6.0](../content/com/taobao/arthas/arthas-3.6.0.buildspec) :warning: | [4.0.1](../content/com/taobao/arthas/arthas-4.0.1.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-3.6.0.buildspec 4.0.1` |
 | <!-- 20240913212135 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | [2.4.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.4.0.buildspec) :warning: | [2.8.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.8.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/instrumentation/opentelemetry-2.4.0.buildspec 2.8.0` |
-| <!-- 20240913143624 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.57.0](../content/org/finos/legend/engine/legend-engine-4.57.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.57.0` |
 | <!-- 20240830114239 --> [glassfish-parent](../content/org/glassfish/main/README.md) | [8.0.0-M1](../content/org/glassfish/main/glassfish-8.0.0-M1.buildspec) :warning: | [8.0.0-JDK17-M7](../content/org/glassfish/main/glassfish-8.0.0-JDK17-M7.buildspec) | `bin/add-new-release.sh content/org/glassfish/main/glassfish-8.0.0-M1.buildspec 8.0.0-JDK17-M7` |
 | <!-- 20240821130229 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.17.14](../content/org/webjars/swagger-ui/swagger-ui-5.17.14.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.17.14` |
 | <!-- 20240816232815 --> [guava](../content/com/google/guava/README.md) | [32.0.1-jre](../content/com/google/guava/guava-32.0.1-jre.buildspec) :warning: | [33.3.0-jre](../content/com/google/guava/guava-33.3.0-jre.buildspec) | `bin/add-new-release.sh content/com/google/guava/guava-32.0.1-jre.buildspec 33.3.0-jre` |
@@ -71,6 +73,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20240916090911 --> [io.wcm.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | 2.2.2 :warning: |
 | <!-- 20240913092416 --> [paimon-parent](../content/org/apache/paimon/README.md) | 0.9.0 :warning: [:memo:](https://github.com/apache/paimon/pull/4190) |
 | <!-- 20240912152141 --> [env-config](../content/com/github/sitture/env-config/README.md) | 1.9.0 :warning: [:memo:](https://github.com/sitture/env-config/pull/226) |
 | <!-- 20240912071532 --> [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | 1.68.0 :warning: [:memo:](https://issues.apache.org/jira/browse/OAK-10662) |
@@ -117,7 +120,6 @@ New Releases To Add
 | <!-- 20240503123932 --> [org.apache.sling.rewriter](../content/org/apache/sling/org.apache.sling.rewriter/README.md) | 1.4.4 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-rewriter/pull/14) |
 | <!-- 20240502220117 --> [commons-csv](../content/org/apache/commons/csv/README.md) | 1.11.0 :warning: |
 | <!-- 20240501164724 --> [turbine-webapp-6.0](../content/org/apache/turbine/turbine-webapp-6.0/README.md) | 3.0.0 :warning: |
-| <!-- 20240430072842 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | 5.1.0 :warning: |
 | <!-- 20240419143300 --> [commons-release-plugin](../content/org/apache/commons/commons-release-plugin/README.md) | 1.8.2 :warning: |
 | <!-- 20240414093609 --> [maven-scm](../content/org/apache/maven/scm/README.md) | 2.1.0 :warning: |
 | <!-- 20240412140142 --> [karaf](../content/org/apache/karaf/karaf/README.md) | 4.4.6 :warning: [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) |
