@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **4798 releases** of **702 projects**:
-   - **3574** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **4802 releases** of **702 projects**:
+   - **3578** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 1224 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 702 projects, 604 have at least one fully reproducible release, 98 have none
 
@@ -220,8 +220,8 @@ Its objectives are to provide:
 | | [eforms-sdk](content/eu/europa/ted/eforms/eforms-sdk/README.md) | 36 | 31 :white_check_mark: / 5 :warning: |
 | | [efx-toolkit-java](content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 4 | 4 :warning: |
 | eu.maveniverse.maven.mima | [mima](content/eu/maveniverse/maven/mima/README.md) | 43 | 40 :white_check_mark: / 3 :warning: |
-| eu.maveniverse.maven.nisse | [nisse](content/eu/maveniverse/maven/nisse/README.md) | 2 | 2 :white_check_mark: |
-| eu.maveniverse.maven.toolbox | [toolbox](content/eu/maveniverse/maven/toolbox/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
+| eu.maveniverse.maven.nisse | [nisse](content/eu/maveniverse/maven/nisse/README.md) | 4 | 4 :white_check_mark: |
+| eu.maveniverse.maven.toolbox | [toolbox](content/eu/maveniverse/maven/toolbox/README.md) | 42 | 41 :white_check_mark: / 1 :warning: |
 | eu.maveniverse.maven.mase | [mase](content/eu/maveniverse/maven/mase/mase/README.md) | 3 | 3 :white_check_mark: |
 | fr.inria.gforge.spoon | [spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 116 | 12 :white_check_mark: / 104 :warning: |
 | fr.marcwrobel | [jbanking](content/fr/marcwrobel/jbanking/README.md) | 2 | 2 :white_check_mark: |
@@ -229,7 +229,7 @@ Its objectives are to provide:
 | io.jooby | [jooby](content/io/jooby/README.md) | 19 | 19 :warning: |
 | io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 61 | 60 :white_check_mark: / 1 :warning: |
 | io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 1 | 1 :warning: |
-| io.trino | [trino-root](content/io/trino/README.md) | 12 | 7 :white_check_mark: / 5 :warning: |
+| io.trino | [trino-root](content/io/trino/README.md) | 13 | 8 :white_check_mark: / 5 :warning: |
 | io.airlift | [airbase](content/io/airlift/airbase/README.md) | 19 | 18 :white_check_mark: / 1 :warning: |
 | io.cucumber | [ci-environment](content/io/cucumber/ci-environment/README.md) | 2 | 2 :white_check_mark: |
 | | [cucumber-expressions](content/io/cucumber/cucumber-expressions/README.md) | 7 | 7 :white_check_mark: |
@@ -725,7 +725,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 3 | 3 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 40 | 39 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **702** | **4798** | **3574** :white_check_mark: **1224** :warning: |
+| **Count:** | **702** | **4802** | **3578** :white_check_mark: **1224** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -849,11 +849,11 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       2 mvn-3.9.8  11
      31 mvn-3.9.8  17
       1 mvn-3.9.8  17.0.12
-     20 mvn-3.9.8  21
-     30 mvn-3.9.8  22
+     22 mvn-3.9.8  21
+     31 mvn-3.9.8  22
       3 mvn-3.9.9  11
       1 mvn-3.9.9  17
-      5 mvn-3.9.9  21
+      6 mvn-3.9.9  21
       4 mvn-3.9.9  22
       2 mvn-4.0.0-alpha-12  21
       2 mvn-4.0.0-alpha-12  22
