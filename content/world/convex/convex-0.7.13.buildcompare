@@ -1,0 +1,10 @@
+version=0.7.13
+ok=28
+ko=1
+ignored=0
+okFiles="convex-0.7.13.pom convex-core-0.7.13.pom convex-core-0.7.13.jar convex-core-0.7.13-sources.jar convex-peer-0.7.13.pom convex-peer-0.7.13.jar convex-sodium-0.7.13.pom convex-sodium-0.7.13.jar convex-sodium-0.7.13-sources.jar convex-java-0.7.13.pom convex-java-0.7.13.jar convex-java-0.7.13-sources.jar convex-observer-0.7.13.pom convex-observer-0.7.13.jar convex-observer-0.7.13-sources.jar convex-restapi-0.7.13.pom convex-restapi-0.7.13.jar convex-restapi-0.7.13-sources.jar convex-gui-0.7.13.pom convex-gui-0.7.13.jar convex-gui-0.7.13-sources.jar convex-cli-0.7.13.pom convex-cli-0.7.13.jar convex-cli-0.7.13-sources.jar convex-benchmarks-0.7.13.pom convex-benchmarks-0.7.13.jar convex-benchmarks-0.7.13-sources.jar convex-benchmarks-0.7.13-jar-with-dependencies.jar"
+koFiles="convex-peer-0.7.13-sources.jar"
+ignoredFiles=""
+reference_java_version="22 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/world.convex/convex-peer-0.7.13-sources.jar convex-peer/target/convex-peer-0.7.13-sources.jar
