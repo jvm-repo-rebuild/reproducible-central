@@ -17,7 +17,7 @@ mvnBuildDocker() {
   local mvnCommand mvnImage crlfDocker mvnVersion mvn_engine_params
   mvnCommand="$1"
   crlfDocker="no"
-  mvn_engine_params=""
+  mvn_engine_params="$([ "$CI" = true ] && echo "--no-transfer-progress -Dstyle.color=always")"
 
   mvnVersion="3.6.3"
   case ${tool} in
@@ -101,7 +101,7 @@ mvnBuildDocker() {
   [ -d $base/.npm ] || mkdir -p $base/.npm
   [ -d $base/.sbt ] || mkdir -p $base/.sbt
 
-  local engine_command="$RB_OCI_ENGINE run -it --rm --name rebuild-central\
+  local engine_command="$RB_OCI_ENGINE run $([ "$CI" != true ] && echo "-it ")--rm --name rebuild-central\
     ${RB_OCI_ENGINE_RUN_OPTS}\
     -v $PWD:/var/maven/app${RB_OCI_VOLUME_FLAGS}\
     -v $base/m2:/var/maven/.m2${RB_OCI_VOLUME_FLAGS}\

@@ -1,0 +1,41 @@
+name: build
+
+on:
+  pull_request:
+    branches: [ "master" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Checkout PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr checkout ${{ github.event.pull_request.number }}
+          git config --local user.email "reproducible-central@github.io"
+          git config --local user.name "Reproducible Central CI"
+
+
+      - name: Install dos2unix
+        run: sudo apt-get install -y dos2unix
+
+      - name: List changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v45
+
+      - name: build-from-buildspec
+        run: |
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            if [[ $file == *.buildspec ]]; then
+              ./rebuild.sh $file
+              git add .
+              git commit -m "./rebuild.sh $file"
+              git push
+            fi
+          done
