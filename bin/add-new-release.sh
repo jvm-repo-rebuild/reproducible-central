@@ -67,16 +67,16 @@ then
   detectNewline tmp/$jarArtifactId-$nextVersion-pom.properties
   detectNewline tmp/$jarArtifactId-$nextVersion-pom.xml
   echo "buildspec newline=$newline"
-  [ -n "$os" ] && "buildspec os=$os"
-  [ -n "$arch" ] && "buildspec os=$arch"
+  [ -n "$os" ] && echo "buildspec os=$os"
+  [ -n "$arch" ] && echo "buildspec os=$arch"
   # TODO add a way to check if new release requires same os/arch (probably requires some config in buildspec: it's ok given it does not happen often and has by nature a hard to guess impact)
 else
   echo -e "\033[0;31m  $nextJar not found\033[0;0m"
 fi
 
-echo
-./rebuild.sh ${nextBuildspec} $3
+echo "test local build with: ./rebuild.sh ${nextBuildspec} $3"
 
 echo
-echo -e "if result is ok, run:"
-echo -e "\033[0;32mgit add ${dir} ; git commit -m \"add ${artifactId} ${nextVersion}\" ; git push\033[0m"
+echo -e "once buildspec is ok, run:"
+echo -e "\033[0;32mgit checkout -b $jarArtifactId-$nextVersion ; git add ${dir}/${nextBuildspec} ; git commit -m \"add ${artifactId} ${nextVersion}\" ; git push\033[0m"
+echo -e "then create a PR"

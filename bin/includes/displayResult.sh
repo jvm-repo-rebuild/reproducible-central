@@ -47,7 +47,8 @@ displayResult() {
   if [[ ${buildspec} == wip/* ]]
   then
     echo -e "\033[93mWork In Progress\033[0m: once work is ready to be published, move it to target directory with:"
-    echo -e "                  \033[1mdir=content/$(echo ${groupId} | tr '.' '/')/${artifactId} ; mkdir -p \${dir} ; mv wip/maven-metadata.xml wip/$(basename ${buildinfo} .buildinfo).* \${dir} \033[0m"
+    echo -e "                  \033[1mdir=content/$(echo ${groupId} | tr '.' '/')/${artifactId} ; mkdir -p \${dir} ; mv wip/$(basename ${buildinfo} .buildinfo).buildspec \${dir} ; rm wip/maven-metadata.xml wip/$(basename ${buildinfo} .buildinfo).* \033[0m"
     echo -e "                  \033[1mgit checkout -b $(basename ${groupId}-${artifactId}) ; git add \${dir} ; git commit -m \"add $(basename ${buildinfo} .buildinfo)\" ; git push\033[0m"
+    echo -e "   then create a PR"
   fi
 }
