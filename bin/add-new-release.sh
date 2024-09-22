@@ -70,6 +70,19 @@ then
   [ -n "$os" ] && echo "buildspec os=$os"
   [ -n "$arch" ] && echo "buildspec os=$arch"
   # TODO add a way to check if new release requires same os/arch (probably requires some config in buildspec: it's ok given it does not happen often and has by nature a hard to guess impact)
+
+  # check git tag existence
+  . ${nextBuildspec}
+  echo "checking Git tag $gitTag in Git repo $gitRepo"
+  git ls-remote --tags $gitRepo | grep "refs/tags/$gitTag$"
+  if [ $(git ls-remote --tags $gitRepo | grep "refs/tags/$gitTag$" | wc -l) -eq 1 ]
+  then
+    echo "ok"
+  else
+    echo -e "\033[0;31m  Git tag $gitTag not found\033[0;0m"
+    git ls-remote --tags $gitRepo | grep -v "{}" | grep "$version"
+    echo "for full list: git ls-remote --tags $gitRepo | grep -v "{}""
+  fi
 else
   echo -e "\033[0;31m  $nextJar not found\033[0;0m"
 fi
