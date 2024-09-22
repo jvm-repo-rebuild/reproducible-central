@@ -34,7 +34,8 @@ jobs:
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             if [[ $file == *.buildspec ]]; then
               ./rebuild.sh $file
-              git add .
+              bin/update-project-summary.sh "$(dirname $file)"
+              git add "$(dirname $file)"
               git commit -m "./rebuild.sh $file"
               git push
             fi
