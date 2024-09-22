@@ -36,7 +36,7 @@ rebuildToolGradle() {
   [ -d userhome/.gradle ] || mkdir -p userhome/.gradle
   find . -name build -exec \rm -rf {} \;
 
-  local engine_command="$RB_OCI_ENGINE run -it --rm --name rebuild-central\
+  local engine_command="$RB_OCI_ENGINE run $([ "$CI" != true ] && echo "-it ")--rm --name rebuild-central\
     ${RB_OCI_ENGINE_RUN_OPTS}\
     -v $PWD:/var/gradle/app${RB_OCI_VOLUME_FLAGS}\
     -v $PWD/userhome:/home/gradle${RB_OCI_VOLUME_FLAGS}\
