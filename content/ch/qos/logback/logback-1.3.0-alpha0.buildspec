@@ -8,7 +8,7 @@ gitRepo=https://github.com/qos-ch/logback.git
 gitTag=v_${version}
 
 tool=mvn
-toolchains=7|11
+toolchains="7|11"
 jdk=11
 newline=crlf
 
