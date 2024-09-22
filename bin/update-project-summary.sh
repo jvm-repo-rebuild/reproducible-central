@@ -117,6 +117,14 @@ do
     else
       echo "$row:x: | |" >> tmp/${projectReadme}
     fi
+
+    # remove line from doc/add.md if it is listed there
+    if [ $(grep "$dir/${buildspec}" doc/add.md | wc -l) -eq 1 ]
+    then
+      mv doc/add.md doc/add.md.old
+      grep -v "$dir/${buildspec}" doc/add.md.old > doc/add.md
+      rm doc/add.md.old
+    fi
   fi
   # don't continue if it's the oldest version with buildspec
   [[ "$oldestBuildspecVersion" == "$version" ]] && break

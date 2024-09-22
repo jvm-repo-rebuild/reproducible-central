@@ -35,7 +35,7 @@ jobs:
             if [[ $file == *.buildspec ]]; then
               ./rebuild.sh $file
               bin/update-project-summary.sh "$(dirname $file)"
-              git add "$(dirname $file)"
+              git add "$(dirname $file)" doc/add.md
               git commit -m "./rebuild.sh $file"
               git push
             fi
