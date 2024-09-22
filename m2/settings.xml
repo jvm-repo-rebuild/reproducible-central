@@ -234,6 +234,11 @@
       <url>https://jakarta.oss.sonatype.org/content/repositories/staging/</url>
     </mirror>
     <mirror>
+      <id>gradle-dependencies</id>
+      <mirrorOf>gradle-dependencies</mirrorOf>
+      <url>https://repo.gradle.org/gradle/libs-releases/</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>
