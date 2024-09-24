@@ -1,0 +1,18 @@
+groupId=org.mybatis
+artifactId=mybatis-typehandlers-threeten-extra
+display=${groupId}:${artifactId}
+version=1.1.0
+
+gitRepo=https://github.com/mybatis/typehandlers-threeten-extra.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.8
+jdk=22
+newline=crlf
+#umask=022
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dformatter.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
