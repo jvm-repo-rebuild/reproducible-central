@@ -44,6 +44,7 @@ rebuilding **1 releases** of org.apache.wicket:wicket-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [10.2.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.2.0/pom) | | | |
 | [10.1.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.1.0/pom) | [mvn jdk21](wicket-parent-10.1.0.buildspec) | [result](wicket-parent-10.1.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.1.0.buildcompare) | 72M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
