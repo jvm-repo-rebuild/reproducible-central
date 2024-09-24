@@ -1,0 +1,338 @@
+1 / 2 target/reference/com.github.waffle.demo/waffle-spring-boot-filter3-3.5.0.jar waffle-demo/waffle-spring-boot-filter3/target/waffle-spring-boot-filter3-3.5.0.jar
+--- target/reference/com.github.waffle.demo/waffle-spring-boot-filter3-3.5.0.jar
++++ waffle-demo/waffle-spring-boot-filter3/target/waffle-spring-boot-filter3-3.5.0.jar
+├── zipinfo -v {}
+│ @@ -3762,15 +3762,15 @@
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (040755 octal):            drwxr-xr-x
+│    MS-DOS file attributes (10 hex):                dir 
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 80 b5 81 66 6b 0d db 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 80 45 e7 1b 39 0d db 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #122:
+│  ---------------------------
+│  
+│    BOOT-INF/classes/waffle/spring/
+│ @@ -3794,15 +3794,15 @@
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (040755 octal):            drwxr-xr-x
+│    MS-DOS file attributes (10 hex):                dir 
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 80 b5 81 66 6b 0d db 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 80 45 e7 1b 39 0d db 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #123:
+│  ---------------------------
+│  
+│    BOOT-INF/classes/waffle/spring/boot/
+│ @@ -3826,15 +3826,15 @@
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (040755 octal):            drwxr-xr-x
+│    MS-DOS file attributes (10 hex):                dir 
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 80 b5 81 66 6b 0d db 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 80 45 e7 1b 39 0d db 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #124:
+│  ---------------------------
+│  
+│    BOOT-INF/classes/waffle/spring/boot/demo/
+│ @@ -3858,15 +3858,15 @@
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (040755 octal):            drwxr-xr-x
+│    MS-DOS file attributes (10 hex):                dir 
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 80 b5 81 66 6b 0d db 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 80 45 e7 1b 39 0d db 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #125:
+│  ---------------------------
+│  
+│    META-INF/maven/
+│ @@ -3975,15 +3975,15 @@
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│    MS-DOS file attributes (00 hex):                none
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 80 b5 81 66 6b 0d db 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 80 45 e7 1b 39 0d db 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #129:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│ @@ -4010,15 +4010,15 @@
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│    MS-DOS file attributes (00 hex):                none
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 80 b5 81 66 6b 0d db 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 80 45 e7 1b 39 0d db 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #130:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│ @@ -4045,15 +4045,15 @@
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│    MS-DOS file attributes (00 hex):                none
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 80 b5 81 66 6b 0d db 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 80 45 e7 1b 39 0d db 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #131:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│ @@ -4080,15 +4080,15 @@
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│    MS-DOS file attributes (00 hex):                none
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 80 b5 81 66 6b 0d db 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 80 45 e7 1b 39 0d db 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #132:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│ @@ -4115,15 +4115,15 @@
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│    MS-DOS file attributes (00 hex):                none
+│  
+│    The central-directory extra field contains:
+│    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ -    20 are:   00 00 00 00 01 00 18 00 80 b5 81 66 6b 0d db 01 00 00 00 00.
+│ +    20 are:   00 00 00 00 01 00 18 00 80 45 e7 1b 39 0d db 01 00 00 00 00.
+│  
+│    There is no file comment.
+│  
+│  Central directory entry #133:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+
+2 / 2 target/reference/com.github.waffle/waffle-distro-3.5.0-distro.zip waffle-distro/target/waffle-distro.zip
+--- target/reference/com.github.waffle/waffle-distro-3.5.0-distro.zip
++++ waffle-distro/target/waffle-distro.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 139482462 bytes, number of entries: 43
+│ +Zip file size: 139482463 bytes, number of entries: 43
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-22 23:48 Bin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-22 23:48 Samples/
+│  -rw-r--r--  2.0 unx      585 b- defN 24-Sep-22 23:48 LICENSE-caffeine.txt
+│  -rw-r--r--  2.0 unx      719 b- defN 24-Sep-22 23:48 LICENSE-jna.txt
+│  -rw-r--r--  2.0 unx      486 b- defN 24-Sep-22 23:48 LICENSE-logback.txt
+│  -rw-r--r--  2.0 unx     1159 b- defN 24-Sep-22 23:48 LICENSE-slf4j.txt
+│  -rw-r--r--  2.0 unx    32819 b- defN 24-Sep-22 23:48 CHANGELOG.md
+│ @@ -38,8 +38,8 @@
+│  -rw-r--r--  2.0 unx 16686866 b- defN 24-Sep-22 23:48 Samples/waffle-spring-form-3.5.0.war
+│  -rw-r--r--  2.0 unx  4804083 b- defN 24-Sep-22 23:48 Samples/waffle-mixed-post-3.5.0.war
+│  -rw-r--r--  2.0 unx 30047991 b- defN 24-Sep-22 23:48 Samples/waffle-spring-boot-filter2-3.5.0.jar
+│  -rw-r--r--  2.0 unx  8881186 b- defN 24-Sep-22 23:48 Samples/waffle-form-3.5.0.war
+│  -rw-r--r--  2.0 unx  4804046 b- defN 24-Sep-22 23:48 Samples/waffle-mixed-3.5.0.war
+│  -rw-r--r--  2.0 unx 16685799 b- defN 24-Sep-22 23:48 Samples/waffle-spring-filter-3.5.0.war
+│  -rw-r--r--  2.0 unx  8891757 b- defN 24-Sep-22 23:48 Samples/waffle-filter-3.5.0.war
+│ -43 files, 147500767 bytes uncompressed, 139476786 bytes compressed:  5.4%
+│ +43 files, 147500767 bytes uncompressed, 139476787 bytes compressed:  5.4%
+├── Bin/waffle-spring-boot-filter3-3.5.0.jar
+│ ├── zipinfo -v {}
+│ │ @@ -3762,15 +3762,15 @@
+│ │    disk number on which file begins:               disk 1
+│ │    apparent file type:                             binary
+│ │    Unix file attributes (040755 octal):            drwxr-xr-x
+│ │    MS-DOS file attributes (10 hex):                dir 
+│ │  
+│ │    The central-directory extra field contains:
+│ │    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ │ -    20 are:   00 00 00 00 01 00 18 00 80 b5 81 66 6b 0d db 01 00 00 00 00.
+│ │ +    20 are:   00 00 00 00 01 00 18 00 80 45 e7 1b 39 0d db 01 00 00 00 00.
+│ │  
+│ │    There is no file comment.
+│ │  
+│ │  Central directory entry #122:
+│ │  ---------------------------
+│ │  
+│ │    BOOT-INF/classes/waffle/spring/
+│ │ @@ -3794,15 +3794,15 @@
+│ │    disk number on which file begins:               disk 1
+│ │    apparent file type:                             binary
+│ │    Unix file attributes (040755 octal):            drwxr-xr-x
+│ │    MS-DOS file attributes (10 hex):                dir 
+│ │  
+│ │    The central-directory extra field contains:
+│ │    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ │ -    20 are:   00 00 00 00 01 00 18 00 80 b5 81 66 6b 0d db 01 00 00 00 00.
+│ │ +    20 are:   00 00 00 00 01 00 18 00 80 45 e7 1b 39 0d db 01 00 00 00 00.
+│ │  
+│ │    There is no file comment.
+│ │  
+│ │  Central directory entry #123:
+│ │  ---------------------------
+│ │  
+│ │    BOOT-INF/classes/waffle/spring/boot/
+│ │ @@ -3826,15 +3826,15 @@
+│ │    disk number on which file begins:               disk 1
+│ │    apparent file type:                             binary
+│ │    Unix file attributes (040755 octal):            drwxr-xr-x
+│ │    MS-DOS file attributes (10 hex):                dir 
+│ │  
+│ │    The central-directory extra field contains:
+│ │    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ │ -    20 are:   00 00 00 00 01 00 18 00 80 b5 81 66 6b 0d db 01 00 00 00 00.
+│ │ +    20 are:   00 00 00 00 01 00 18 00 80 45 e7 1b 39 0d db 01 00 00 00 00.
+│ │  
+│ │    There is no file comment.
+│ │  
+│ │  Central directory entry #124:
+│ │  ---------------------------
+│ │  
+│ │    BOOT-INF/classes/waffle/spring/boot/demo/
+│ │ @@ -3858,15 +3858,15 @@
+│ │    disk number on which file begins:               disk 1
+│ │    apparent file type:                             binary
+│ │    Unix file attributes (040755 octal):            drwxr-xr-x
+│ │    MS-DOS file attributes (10 hex):                dir 
+│ │  
+│ │    The central-directory extra field contains:
+│ │    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ │ -    20 are:   00 00 00 00 01 00 18 00 80 b5 81 66 6b 0d db 01 00 00 00 00.
+│ │ +    20 are:   00 00 00 00 01 00 18 00 80 45 e7 1b 39 0d db 01 00 00 00 00.
+│ │  
+│ │    There is no file comment.
+│ │  
+│ │  Central directory entry #125:
+│ │  ---------------------------
+│ │  
+│ │    META-INF/maven/
+│ │ @@ -3975,15 +3975,15 @@
+│ │    disk number on which file begins:               disk 1
+│ │    apparent file type:                             binary
+│ │    Unix file attributes (100644 octal):            -rw-r--r--
+│ │    MS-DOS file attributes (00 hex):                none
+│ │  
+│ │    The central-directory extra field contains:
+│ │    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ │ -    20 are:   00 00 00 00 01 00 18 00 80 b5 81 66 6b 0d db 01 00 00 00 00.
+│ │ +    20 are:   00 00 00 00 01 00 18 00 80 45 e7 1b 39 0d db 01 00 00 00 00.
+│ │  
+│ │    There is no file comment.
+│ │  
+│ │  Central directory entry #129:
+│ │  ---------------------------
+│ │  
+│ │    There are an extra 16 bytes preceding this file.
+│ │ @@ -4010,15 +4010,15 @@
+│ │    disk number on which file begins:               disk 1
+│ │    apparent file type:                             binary
+│ │    Unix file attributes (100644 octal):            -rw-r--r--
+│ │    MS-DOS file attributes (00 hex):                none
+│ │  
+│ │    The central-directory extra field contains:
+│ │    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ │ -    20 are:   00 00 00 00 01 00 18 00 80 b5 81 66 6b 0d db 01 00 00 00 00.
+│ │ +    20 are:   00 00 00 00 01 00 18 00 80 45 e7 1b 39 0d db 01 00 00 00 00.
+│ │  
+│ │    There is no file comment.
+│ │  
+│ │  Central directory entry #130:
+│ │  ---------------------------
+│ │  
+│ │    There are an extra 16 bytes preceding this file.
+│ │ @@ -4045,15 +4045,15 @@
+│ │    disk number on which file begins:               disk 1
+│ │    apparent file type:                             binary
+│ │    Unix file attributes (100644 octal):            -rw-r--r--
+│ │    MS-DOS file attributes (00 hex):                none
+│ │  
+│ │    The central-directory extra field contains:
+│ │    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ │ -    20 are:   00 00 00 00 01 00 18 00 80 b5 81 66 6b 0d db 01 00 00 00 00.
+│ │ +    20 are:   00 00 00 00 01 00 18 00 80 45 e7 1b 39 0d db 01 00 00 00 00.
+│ │  
+│ │    There is no file comment.
+│ │  
+│ │  Central directory entry #131:
+│ │  ---------------------------
+│ │  
+│ │    There are an extra 16 bytes preceding this file.
+│ │ @@ -4080,15 +4080,15 @@
+│ │    disk number on which file begins:               disk 1
+│ │    apparent file type:                             binary
+│ │    Unix file attributes (100644 octal):            -rw-r--r--
+│ │    MS-DOS file attributes (00 hex):                none
+│ │  
+│ │    The central-directory extra field contains:
+│ │    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ │ -    20 are:   00 00 00 00 01 00 18 00 80 b5 81 66 6b 0d db 01 00 00 00 00.
+│ │ +    20 are:   00 00 00 00 01 00 18 00 80 45 e7 1b 39 0d db 01 00 00 00 00.
+│ │  
+│ │    There is no file comment.
+│ │  
+│ │  Central directory entry #132:
+│ │  ---------------------------
+│ │  
+│ │    There are an extra 16 bytes preceding this file.
+│ │ @@ -4115,15 +4115,15 @@
+│ │    disk number on which file begins:               disk 1
+│ │    apparent file type:                             binary
+│ │    Unix file attributes (100644 octal):            -rw-r--r--
+│ │    MS-DOS file attributes (00 hex):                none
+│ │  
+│ │    The central-directory extra field contains:
+│ │    - A subfield with ID 0x000a (PKWARE Win32) and 32 data bytes.  The first
+│ │ -    20 are:   00 00 00 00 01 00 18 00 80 b5 81 66 6b 0d db 01 00 00 00 00.
+│ │ +    20 are:   00 00 00 00 01 00 18 00 80 45 e7 1b 39 0d db 01 00 00 00 00.
+│ │  
+│ │    There is no file comment.
+│ │  
+│ │  Central directory entry #133:
+│ │  ---------------------------
+│ │  
+│ │    There are an extra 16 bytes preceding this file.
+
