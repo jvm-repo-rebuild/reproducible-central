@@ -15,13 +15,13 @@ Source code: [https://github.com/apache/qpid-jms.git](https://github.com/apache/
 * [org.apache.qpid:qpid-jms-parent](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/overview)
 </details>
 
-rebuilding **11 releases** of org.apache.qpid:qpid-jms-parent:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **12 releases** of org.apache.qpid:qpid-jms-parent:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.6.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.6.0/pom) | | | |
+| [2.6.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.6.0/pom) | [mvn jdk17](qpid-jms-2.6.0.buildspec) | [result](qpid-jms-parent-2.6.0.buildinfo): [10 :white_check_mark: ](qpid-jms-parent-2.6.0.buildcompare) | 6.8M |
 | [2.5.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.5.0/pom) | [mvn jdk11](qpid-jms-2.5.0.buildspec) | [result](qpid-jms-parent-2.5.0.buildinfo): [10 :white_check_mark: ](qpid-jms-parent-2.5.0.buildcompare) | 6.7M |
 | [2.4.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.4.0/pom) | [mvn jdk11](qpid-jms-2.4.0.buildspec) | [result](qpid-jms-parent-2.4.0.buildinfo): [10 :white_check_mark: ](qpid-jms-parent-2.4.0.buildcompare) | 6.7M |
 | [2.3.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.3.0/pom) | [mvn jdk11](qpid-jms-2.3.0.buildspec) | [result](qpid-jms-parent-2.3.0.buildinfo): [10 :white_check_mark: ](qpid-jms-parent-2.3.0.buildcompare) | 6.7M |
