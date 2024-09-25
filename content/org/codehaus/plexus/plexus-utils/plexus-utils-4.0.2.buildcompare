@@ -1,0 +1,11 @@
+version=4.0.2
+ok=2
+ko=2
+ignored=0
+okFiles="plexus-utils-4.0.2.pom plexus-utils-4.0.2.jar"
+koFiles="plexus-utils-4.0.2-source-release.zip plexus-utils-4.0.2-sources.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.codehaus.plexus/plexus-utils-4.0.2-source-release.zip target/plexus-utils-4.0.2-source-release.zip
+# diffoscope target/reference/org.codehaus.plexus/plexus-utils-4.0.2-sources.jar target/plexus-utils-4.0.2-sources.jar
