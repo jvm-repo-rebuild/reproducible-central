@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com/langchain4j/langchain4j.git)
 
-<details><summary>This project defines 61 modules:</summary>
+<details><summary>This project defines 67 modules:</summary>
 
 * [dev.langchain4j:langchain4j](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/overview)
 * [dev.langchain4j:langchain4j-anthropic](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-anthropic/overview)
@@ -29,15 +29,18 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-document-loader-amazon-s3](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-loader-amazon-s3/overview)
 * [dev.langchain4j:langchain4j-document-loader-azure-storage-blob](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-loader-azure-storage-blob/overview)
 * [dev.langchain4j:langchain4j-document-loader-github](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-loader-github/overview)
+* [dev.langchain4j:langchain4j-document-loader-google-cloud-storage](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-loader-google-cloud-storage/overview)
 * [dev.langchain4j:langchain4j-document-loader-selenium](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-loader-selenium/overview)
 * [dev.langchain4j:langchain4j-document-loader-tencent-cos](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-loader-tencent-cos/overview)
 * [dev.langchain4j:langchain4j-document-parser-apache-pdfbox](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-parser-apache-pdfbox/overview)
 * [dev.langchain4j:langchain4j-document-parser-apache-poi](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-parser-apache-poi/overview)
 * [dev.langchain4j:langchain4j-document-parser-apache-tika](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-parser-apache-tika/overview)
+* [dev.langchain4j:langchain4j-document-transformer-jsoup](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-transformer-jsoup/overview)
 * [dev.langchain4j:langchain4j-easy-rag](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-easy-rag/overview)
 * [dev.langchain4j:langchain4j-elasticsearch](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-elasticsearch/overview)
 * [dev.langchain4j:langchain4j-embedding-store-filter-parser-sql](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-embedding-store-filter-parser-sql/overview)
 * [dev.langchain4j:langchain4j-experimental-sql](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-experimental-sql/overview)
+* [dev.langchain4j:langchain4j-github-models](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-github-models/overview)
 * [dev.langchain4j:langchain4j-google-ai-gemini](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-google-ai-gemini/overview)
 * [dev.langchain4j:langchain4j-hugging-face](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-hugging-face/overview)
 * [dev.langchain4j:langchain4j-infinispan](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-infinispan/overview)
@@ -50,6 +53,7 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-neo4j](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-neo4j/overview)
 * [dev.langchain4j:langchain4j-nomic](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-nomic/overview)
 * [dev.langchain4j:langchain4j-ollama](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-ollama/overview)
+* [dev.langchain4j:langchain4j-onnx-scoring](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-onnx-scoring/overview)
 * [dev.langchain4j:langchain4j-open-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-open-ai/overview)
 * [dev.langchain4j:langchain4j-opensearch](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-opensearch/overview)
 * [dev.langchain4j:langchain4j-oracle](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-oracle/overview)
@@ -60,10 +64,12 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-qdrant](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-qdrant/overview)
 * [dev.langchain4j:langchain4j-qianfan](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-qianfan/overview)
 * [dev.langchain4j:langchain4j-redis](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-redis/overview)
+* [dev.langchain4j:langchain4j-tablestore](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-tablestore/overview)
 * [dev.langchain4j:langchain4j-vearch](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-vearch/overview)
 * [dev.langchain4j:langchain4j-vertex-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-vertex-ai/overview)
 * [dev.langchain4j:langchain4j-vertex-ai-gemini](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-vertex-ai-gemini/overview)
 * [dev.langchain4j:langchain4j-vespa](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-vespa/overview)
+* [dev.langchain4j:langchain4j-voyage-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-voyage-ai/overview)
 * [dev.langchain4j:langchain4j-weaviate](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-weaviate/overview)
 * [dev.langchain4j:langchain4j-web-search-engine-google-custom](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-web-search-engine-google-custom/overview)
 * [dev.langchain4j:langchain4j-web-search-engine-searchapi](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-web-search-engine-searchapi/overview)
@@ -72,13 +78,13 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-zhipu-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-zhipu-ai/overview)
 </details>
 
-rebuilding **12 releases** of dev.langchain4j:langchain4j:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **13 releases** of dev.langchain4j:langchain4j:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.35.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.35.0/pom) | | | |
+| [0.35.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.35.0/pom) | [mvn jdk21](langchain4j-0.35.0.buildspec) | [result](langchain4j-aggregator-0.35.0.buildinfo): [199 :white_check_mark: ](langchain4j-aggregator-0.35.0.buildcompare) | 4.5M |
 | [0.34.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.34.0/pom) | [mvn jdk21](langchain4j-0.34.0.buildspec) | [result](langchain4j-aggregator-0.34.0.buildinfo): [180 :white_check_mark: ](langchain4j-aggregator-0.34.0.buildcompare) | 3.8M |
 | [0.33.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.33.0/pom) | [mvn jdk21](langchain4j-0.33.0.buildspec) | [result](langchain4j-aggregator-0.33.0.buildinfo): [168 :white_check_mark: ](langchain4j-aggregator-0.33.0.buildcompare) | 3.4M |
 | [0.32.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.32.0/pom) | [mvn jdk21](langchain4j-0.32.0.buildspec) | [result](langchain4j-aggregator-0.32.0.buildinfo): [165 :white_check_mark: ](langchain4j-aggregator-0.32.0.buildcompare) | 3.3M |
