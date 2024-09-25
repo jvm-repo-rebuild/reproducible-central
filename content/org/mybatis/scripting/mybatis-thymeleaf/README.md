@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.mybatis.scripting:mybatis-thymeleaf:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.1.0](https://central.sonatype.com/artifact/org.mybatis.scripting/mybatis-thymeleaf/1.1.0/pom) | | | |
 | [1.0.4](https://central.sonatype.com/artifact/org.mybatis.scripting/mybatis-thymeleaf/1.0.4/pom) | [mvn jdk17 w](mybatis-thymeleaf-1.0.4.buildspec) | [result](mybatis-thymeleaf-1.0.4.buildinfo): [3 :white_check_mark: ](mybatis-thymeleaf-1.0.4.buildcompare) | 121K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
