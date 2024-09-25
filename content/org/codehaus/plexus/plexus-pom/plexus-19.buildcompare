@@ -1,0 +1,7 @@
+version=19
+ok=3
+ko=0
+ignored=0
+okFiles="plexus-19.pom plexus-19-site.xml plexus-19-source-release.zip"
+koFiles=""
+ignoredFiles=""

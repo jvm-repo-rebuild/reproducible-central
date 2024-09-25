@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus
+group-id=org.codehaus.plexus
+artifact-id=plexus
+version=19
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-pom.git
+source.scm.tag=plexus-19
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-19.pom
+outputs.0.length=25385
+outputs.0.checksums.sha512=93f2b53c22b47df2c92bb094b0e06db3736c92664b14b419b0471a7f8d3aa522e060a0ded1f1fdc587138ba1366b0c7b12276af3f3ece76f850faf481451dd1a
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-19-site.xml
+outputs.1.length=3516
+outputs.1.checksums.sha512=ed0487378d1f6a29d0b37f19f8ea2af3c95b2ee9bdbf9197a6288b67d888387499f51c2d2bddbe0293fe0c399db14b8ba11ba13e28c059b09e734a9534203aac
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-19-source-release.zip
+outputs.2.length=28015
+outputs.2.checksums.sha512=c3b16cdd8b345e662c87ad8bc4c55f4c88c530f6ba754b8a3d119c292523c32da2ac4143f9d22b5852072f755a06975e26c93c57a98af55863e803678cb80d82
