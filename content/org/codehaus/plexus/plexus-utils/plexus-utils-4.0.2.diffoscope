@@ -1,0 +1,162 @@
+1 / 2 target/reference/org.codehaus.plexus/plexus-utils-4.0.2-source-release.zip target/plexus-utils-4.0.2-source-release.zip
+--- target/reference/org.codehaus.plexus/plexus-utils-4.0.2-source-release.zip
++++ target/plexus-utils-4.0.2-source-release.zip
+├── zipinfo {}
+│ @@ -1,24 +1,22 @@
+│ -Zip file size: 288733 bytes, number of entries: 229
+│ +Zip file size: 287913 bytes, number of entries: 225
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/java/org/codehaus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/java/org/codehaus/plexus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/java/org/codehaus/plexus/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/java/org/codehaus/plexus/util/cli/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/java/org/codehaus/plexus/util/cli/shell/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/java/org/codehaus/plexus/util/dag/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/java/org/codehaus/plexus/util/introspection/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/java/org/codehaus/plexus/util/io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/java/org/codehaus/plexus/util/reflection/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/java/org/codehaus/plexus/util/xml/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/java/org/codehaus/plexus/util/xml/pull/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/java10/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/java10/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/java10/org/codehaus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/java10/org/codehaus/plexus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/java10/org/codehaus/plexus/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/java11/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/main/java11/org/
+│ @@ -54,16 +52,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/java/org/codehaus/plexus/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/java/org/codehaus/plexus/util/cli/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/java/org/codehaus/plexus/util/cli/shell/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/java/org/codehaus/plexus/util/dag/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/java/org/codehaus/plexus/util/introspection/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/java/org/codehaus/plexus/util/io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/java/org/codehaus/plexus/util/reflection/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/java/org/codehaus/plexus/util/xml/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/java/org/codehaus/plexus/util/xml/pull/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/resources/dir-layout-copy/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/resources/dir-layout-copy/dir1/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/resources/dir-layout-copy/dir1/dir2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/resources/dir-layout-copy/empty-dir/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/resources/directory-scanner/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/resources/directory-scanner/foo/
+│ @@ -224,8 +220,8 @@
+│  lrwxr-xr-x  2.0 unx        9 b- defN 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/resources/symlinks/src/symX
+│  -rw-r--r--  2.0 unx       22 b- defN 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/resources/symlinks/src/targetDir/targetFile.txt
+│  -rw-r--r--  2.0 unx    13824 b- defN 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/resources/symlinks/symlinks.tar
+│  -rw-r--r--  2.0 unx     1628 b- defN 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/resources/symlinks/symlinks.zip
+│  -rw-r--r--  2.0 unx       14 b- defN 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/resources/test.txt
+│  -rw-r--r--  2.0 unx     4491 b- defN 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/resources/test.xdoc.xhtml
+│  -rw-r--r--  2.0 unx     3161 b- defN 24-Sep-23 19:00 plexus-utils-4.0.2/src/test/resources/testDocument.xhtml
+│ -229 files, 1015837 bytes uncompressed, 240451 bytes compressed:  76.3%
+│ +225 files, 1015837 bytes uncompressed, 240451 bytes compressed:  76.3%
+├── zipnote {}
+│ @@ -36,20 +36,14 @@
+│  
+│  Filename: plexus-utils-4.0.2/src/main/java/org/codehaus/plexus/util/io/
+│  Comment: 
+│  
+│  Filename: plexus-utils-4.0.2/src/main/java/org/codehaus/plexus/util/reflection/
+│  Comment: 
+│  
+│ -Filename: plexus-utils-4.0.2/src/main/java/org/codehaus/plexus/util/xml/
+│ -Comment: 
+│ -
+│ -Filename: plexus-utils-4.0.2/src/main/java/org/codehaus/plexus/util/xml/pull/
+│ -Comment: 
+│ -
+│  Filename: plexus-utils-4.0.2/src/main/java10/
+│  Comment: 
+│  
+│  Filename: plexus-utils-4.0.2/src/main/java10/org/
+│  Comment: 
+│  
+│  Filename: plexus-utils-4.0.2/src/main/java10/org/codehaus/
+│ @@ -171,20 +165,14 @@
+│  
+│  Filename: plexus-utils-4.0.2/src/test/java/org/codehaus/plexus/util/io/
+│  Comment: 
+│  
+│  Filename: plexus-utils-4.0.2/src/test/java/org/codehaus/plexus/util/reflection/
+│  Comment: 
+│  
+│ -Filename: plexus-utils-4.0.2/src/test/java/org/codehaus/plexus/util/xml/
+│ -Comment: 
+│ -
+│ -Filename: plexus-utils-4.0.2/src/test/java/org/codehaus/plexus/util/xml/pull/
+│ -Comment: 
+│ -
+│  Filename: plexus-utils-4.0.2/src/test/resources/
+│  Comment: 
+│  
+│  Filename: plexus-utils-4.0.2/src/test/resources/dir-layout-copy/
+│  Comment: 
+│  
+│  Filename: plexus-utils-4.0.2/src/test/resources/dir-layout-copy/dir1/
+
+2 / 2 target/reference/org.codehaus.plexus/plexus-utils-4.0.2-sources.jar target/plexus-utils-4.0.2-sources.jar
+--- target/reference/org.codehaus.plexus/plexus-utils-4.0.2-sources.jar
++++ target/plexus-utils-4.0.2-sources.jar
+├── zipinfo {}
+│ @@ -1,22 +1,20 @@
+│ -Zip file size: 182912 bytes, number of entries: 90
+│ +Zip file size: 182634 bytes, number of entries: 88
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Sep-23 19:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 org/codehaus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 org/codehaus/plexus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 org/codehaus/plexus/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 org/codehaus/plexus/util/cli/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 org/codehaus/plexus/util/cli/shell/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 org/codehaus/plexus/util/dag/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 org/codehaus/plexus/util/introspection/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 org/codehaus/plexus/util/io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 org/codehaus/plexus/util/reflection/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 org/codehaus/plexus/util/xml/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 org/codehaus/plexus/util/xml/pull/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 licenses/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 META-INF/maven/org.codehaus.plexus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Sep-23 19:00 META-INF/maven/org.codehaus.plexus/plexus-utils/
+│  -rw-r--r--  2.0 unx    14849 b- defN 24-Sep-23 19:00 org/codehaus/plexus/util/AbstractScanner.java
+│  -rw-r--r--  2.0 unx    16344 b- defN 24-Sep-23 19:00 org/codehaus/plexus/util/Base64.java
+│  -rw-r--r--  2.0 unx      710 b- defN 24-Sep-23 19:00 org/codehaus/plexus/util/BaseFileUtils.java
+│ @@ -85,8 +83,8 @@
+│  -rw-r--r--  2.0 unx    11358 b- defN 24-Sep-23 19:00 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      474 b- defN 24-Sep-23 19:00 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     2192 b- defN 24-Sep-23 19:00 licenses/extreme.indiana.edu.license.TXT
+│  -rw-r--r--  2.0 unx     1408 b- defN 24-Sep-23 19:00 licenses/javolution.license.TXT
+│  -rw-r--r--  2.0 unx     1914 b- defN 24-Sep-23 19:00 licenses/thoughtworks.TXT
+│  -rw-r--r--  2.0 unx     7829 b- defN 24-Sep-23 19:00 META-INF/maven/org.codehaus.plexus/plexus-utils/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 24-Sep-23 19:00 META-INF/maven/org.codehaus.plexus/plexus-utils/pom.properties
+│ -90 files, 698508 bytes uncompressed, 168586 bytes compressed:  75.9%
+│ +88 files, 698508 bytes uncompressed, 168586 bytes compressed:  75.9%
+├── zipnote «TEMP»/diffoscope_ngy4imy7_target/tmpqjr1tnal_.zip
+│ @@ -30,20 +30,14 @@
+│  
+│  Filename: org/codehaus/plexus/util/io/
+│  Comment: 
+│  
+│  Filename: org/codehaus/plexus/util/reflection/
+│  Comment: 
+│  
+│ -Filename: org/codehaus/plexus/util/xml/
+│ -Comment: 
+│ -
+│ -Filename: org/codehaus/plexus/util/xml/pull/
+│ -Comment: 
+│ -
+│  Filename: licenses/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.codehaus.plexus/
+
