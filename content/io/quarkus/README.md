@@ -1013,6 +1013,7 @@ rebuilding **2 releases** of io.quarkus:quarkus-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.15.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.15.1/pom) | | | |
 | [3.15.0](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.15.0/pom) | [mvn jdk17](quarkus-3.15.0.buildspec) | [result](quarkus-project-3.15.0.buildinfo): [2339 :white_check_mark:  12 :warning:](quarkus-project-3.15.0.buildcompare) | 129M |
 | [3.15.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.15.0.CR1/pom) | | | |
 | [3.14.4](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.14.4/pom) | [mvn jdk17.0.12](quarkus-3.14.4.buildspec) | [result](quarkus-project-3.14.4.buildinfo): [2339 :white_check_mark:  14 :warning:](quarkus-project-3.14.4.buildcompare) [:mag:](quarkus-project-3.14.4.diffoscope) | 183M |
