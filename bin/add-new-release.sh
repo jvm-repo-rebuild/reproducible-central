@@ -90,8 +90,11 @@ fi
 echo -e "test local build with: \033[0;32m./rebuild.sh ${nextBuildspec} $3\033[0m"
 
 echo
-echo -e "once buildspec is ok, either run:"
+echo -e "once buildspec is ok:"
+echo -e "1. either run:"
 echo -e "\033[0;32mgit checkout -b $jarArtifactId-$nextVersion ; git add ${nextBuildspec} ; git commit -m \"add ${artifactId} ${nextVersion}\" ; git push --set-upstream origin $jarArtifactId-$nextVersion\033[0m"
-echo -e "then create a PR"
-echo -e "or commit directly to master by running:"
+echo -e "  then create a PR"
+echo -e "2. or commit directly to master by running:"
 echo -e "\033[0;32mbin/update-project-summary.sh ${dir} ; git add ${dir} ; git commit -m \"add ${artifactId} ${nextVersion}\" ; git push\033[0m"
+echo -e "3. or drop the local test:"
+echo -e "\033[0;32mrm ${dir}/*-${nextVersion}\.*\033[0m"
