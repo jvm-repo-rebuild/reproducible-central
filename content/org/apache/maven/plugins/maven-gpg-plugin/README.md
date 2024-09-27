@@ -13,6 +13,7 @@ rebuilding **9 releases** of org.apache.maven.plugins:maven-gpg-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.2.7](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-gpg-plugin/3.2.7/pom) | | | |
 | [3.2.6](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-gpg-plugin/3.2.6/pom) | [mvn jdk21](maven-gpg-plugin-3.2.6.buildspec) | [result](maven-gpg-plugin-3.2.6.buildinfo): [6 :white_check_mark: ](maven-gpg-plugin-3.2.6.buildcompare) | 487K |
 | [3.2.5](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-gpg-plugin/3.2.5/pom) | [mvn jdk21](maven-gpg-plugin-3.2.5.buildspec) | [result](maven-gpg-plugin-3.2.5.buildinfo): [6 :white_check_mark: ](maven-gpg-plugin-3.2.5.buildcompare) | 490K |
 | [3.2.4](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-gpg-plugin/3.2.4/pom) | [mvn jdk21](maven-gpg-plugin-3.2.4.buildspec) | [result](maven-gpg-plugin-3.2.4.buildinfo): [6 :white_check_mark: ](maven-gpg-plugin-3.2.4.buildcompare) | 480K |
