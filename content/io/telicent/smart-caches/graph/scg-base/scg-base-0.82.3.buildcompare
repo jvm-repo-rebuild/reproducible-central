@@ -1,0 +1,9 @@
+version=0.82.3
+ok=19
+ko=0
+ignored=0
+okFiles="scg-base-0.82.3.pom scg-base-0.82.3-cyclonedx.xml scg-base-0.82.3-cyclonedx.json scg-system-0.82.3.pom scg-system-0.82.3.jar scg-system-0.82.3-cyclonedx.xml scg-system-0.82.3-cyclonedx.json scg-system-0.82.3-sources.jar scg-system-0.82.3-test-sources.jar scg-system-0.82.3-tests.jar scg-server-0.82.3.pom scg-server-0.82.3.jar scg-server-0.82.3-cyclonedx.xml scg-server-0.82.3-cyclonedx.json scg-server-0.82.3-sources.jar scg-server-0.82.3-tests.jar docker-0.82.3.pom docker-0.82.3-cyclonedx.xml docker-0.82.3-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
