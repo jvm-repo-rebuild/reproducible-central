@@ -1,0 +1,9 @@
+version=3.2.7
+ok=6
+ko=0
+ignored=0
+okFiles="maven-gpg-plugin-3.2.7.pom maven-gpg-plugin-3.2.7.jar maven-gpg-plugin-3.2.7-source-release.zip maven-gpg-plugin-3.2.7-sources.jar maven-gpg-plugin-3.2.7-cyclonedx.xml maven-gpg-plugin-3.2.7-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
