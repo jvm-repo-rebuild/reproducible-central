@@ -19,11 +19,12 @@ for m in `find content -name "maven-metadata.xml" -print | grep -v buildcache | 
 do
   echo "${m##*/} ${m%/*}"
 done | sort -k 2 | while read -r p ; do echo "${p##* }/${p% *}/maven-metadata.xml"; done > maven-metadata
-wc -l maven-metadata
+count="$(wc -l maven-metadata | cut -d ' ' -f 1)"
 
 for metadata in `cat maven-metadata`
 do
-  dir="$(dirname "${metadata}")" && [ -z "$1" ] && echo "$dir"
+  ((countGa++))
+  dir="$(dirname "${metadata}")" && [ -z "$1" ] && echo "$(printf "%4d" $countGa) / $count: $dir"
   groupId=$(cat "${metadata}" | grep 'groupId>' | cut -d '>' -f 2 | cut -d '<' -f 1)
   artifactId=$(cat "${metadata}" | grep 'artifactId>' | cut -d '>' -f 2 | cut -d '<' -f 1)
 
@@ -32,7 +33,6 @@ do
   lastUpdated="$(cat "${metadata}" | grep 'lastUpdated>' | cut -d '>' -f 2 | cut -d '<' -f 1)"
 
   bin/update-project-summary.sh $dir
-  ((countGa++))
   . tmp/$dir/count.sh
   ((globalVersion+=$countVersion))
   ((globalVersionOk+=$countVersionOk))
