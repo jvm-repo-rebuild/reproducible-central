@@ -22,9 +22,9 @@ Source code: [https://github.com/Convex-Dev/convex.git](https://github.com/Conve
 * [world.convex:convex-sodium](https://central.sonatype.com/artifact/world.convex/convex-sodium/overview)
 </details>
 
-rebuilding **13 releases** of world.convex:convex:
+rebuilding **14 releases** of world.convex:convex:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -36,7 +36,7 @@ rebuilding **13 releases** of world.convex:convex:
 | [0.7.9](https://central.sonatype.com/artifact/world.convex/convex/0.7.9/pom) | [mvn jdk17 w](convex-0.7.9.buildspec) | :x: | |
 | [0.7.8](https://central.sonatype.com/artifact/world.convex/convex/0.7.8/pom) | [mvn jdk17 w](convex-0.7.8.buildspec) | [result](convex-0.7.8.buildinfo): [24 :white_check_mark:  1 :warning:](convex-0.7.8.buildcompare) [:mag:](convex-0.7.8.diffoscope) [:memo:](https://github.com/Convex-Dev/convex/pull/400) | 83M |
 | [0.7.7](https://central.sonatype.com/artifact/world.convex/convex/0.7.7/pom) | [mvn jdk17 w](convex-0.7.7.buildspec) | :x: | |
-| [0.7.6](https://central.sonatype.com/artifact/world.convex/convex/0.7.6/pom) | | | |
+| [0.7.6](https://central.sonatype.com/artifact/world.convex/convex/0.7.6/pom) | [mvn jdk16 w](convex-0.7.6.buildspec) | :x: | |
 | [0.7.5](https://central.sonatype.com/artifact/world.convex/convex/0.7.5/pom) | [mvn jdk16 w](convex-0.7.5.buildspec) | [result](convex-0.7.5.buildinfo): [17 :white_check_mark:  4 :warning:](convex-0.7.5.buildcompare) | 49M |
 | [0.7.4](https://central.sonatype.com/artifact/world.convex/convex/0.7.4/pom) | [mvn jdk16 w](convex-0.7.4.buildspec) | [result](convex-0.7.4.buildinfo): [17 :white_check_mark:  1 :warning:](convex-0.7.4.buildcompare) [:mag:](convex-0.7.4.diffoscope) | 49M |
 | [0.7.3](https://central.sonatype.com/artifact/world.convex/convex/0.7.3/pom) | [mvn jdk16 w](convex-0.7.3.buildspec) | [result](convex-0.7.3.buildinfo): [6 :white_check_mark:  12 :warning:](convex-0.7.3.buildcompare) [:mag:](convex-0.7.3.diffoscope) | 49M |
