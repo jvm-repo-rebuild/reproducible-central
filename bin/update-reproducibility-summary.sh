@@ -35,6 +35,7 @@ do
   ((countGa++))
   . tmp/$dir/count.sh
   ((globalVersion+=$countVersion))
+  ((globalVersionOk+=$countVersionOk))
 
   # add project entry to main README
   row="|"
