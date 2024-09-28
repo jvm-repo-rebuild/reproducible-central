@@ -1,0 +1,17 @@
+groupId=org.apache.ratis
+artifactId=ratis
+display=${groupId}:${artifactId}
+version=3.1.1
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8 # require build with Azul Zulu JDK (to benefit from hash algorithms in CycloneDX output)
+newline=lf
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=target/${artifactId}-${version}.diffoscope
+issue=
