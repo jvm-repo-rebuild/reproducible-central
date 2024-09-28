@@ -20,10 +20,13 @@ jarGroupIdAsDir="$((grep "outputs.$buildinfoOutputId.coordinates=" $dir/$previou
 jarArtifactId="$(echo "$previousJar" | sed -e "s/-${version}.jar$//")"
 nextJar="$jarArtifactId-$nextVersion.jar"
 
-referenceRepo="https://repo.maven.apache.org/maven2" && [ -n "$3" ] && referenceRepo=https://repository.apache.org/content/repositories/$3
-echo "detecting JDK from $nextJar downloaded from $referenceRepo/${jarGroupIdAsDir}/${jarArtifactId}/${nextVersion}/"
-[ -d tmp ] || mkdir tmp
-[ -f tmp/$nextJar ] || curl -s --fail $referenceRepo/${jarGroupIdAsDir}/${jarArtifactId}/${nextVersion}/$nextJar --output tmp/$nextJar
+if [ -n "$jarArtifactId" ]
+then
+  referenceRepo="https://repo.maven.apache.org/maven2" && [ -n "$3" ] && referenceRepo=https://repository.apache.org/content/repositories/$3
+  echo "detecting JDK from $nextJar downloaded from $referenceRepo/${jarGroupIdAsDir}/${jarArtifactId}/${nextVersion}/"
+  [ -d tmp ] || mkdir tmp
+  [ -f tmp/$nextJar ] || curl -s --fail $referenceRepo/${jarGroupIdAsDir}/${jarArtifactId}/${nextVersion}/$nextJar --output tmp/$nextJar
+fi
 if [ -f tmp/$nextJar ]
 then
   unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep Jdk
@@ -84,7 +87,7 @@ then
     echo "for full list: git ls-remote --tags $gitRepo | grep -v "{}""
   fi
 else
-  echo -e "\033[0;31m  $nextJar not found\033[0;0m"
+  [ -n "$jarArtifactId" ] && echo -e "\033[0;31m  $nextJar not found\033[0;0m"
 fi
 
 echo -e "test local build with: \033[0;32m./rebuild.sh ${nextBuildspec} $3\033[0m"
@@ -92,7 +95,7 @@ echo -e "test local build with: \033[0;32m./rebuild.sh ${nextBuildspec} $3\033[0
 echo
 echo -e "once buildspec is ok:"
 echo -e "1. either run:"
-echo -e "\033[0;32mgit checkout -b $jarArtifactId-$nextVersion ; git add ${nextBuildspec} ; git commit -m \"add ${artifactId} ${nextVersion}\" ; git push --set-upstream origin $jarArtifactId-$nextVersion\033[0m"
+echo -e "\033[0;32mgit checkout -b $artifactId-$nextVersion ; git add ${nextBuildspec} ; git commit -m \"add ${artifactId} ${nextVersion}\" ; git push --set-upstream origin $artifactId-$nextVersion\033[0m"
 echo -e "  then create a PR"
 echo -e "2. or commit directly to master by running:"
 echo -e "\033[0;32mbin/update-project-summary.sh ${dir} ; git add ${dir} ; git commit -m \"add ${artifactId} ${nextVersion}\" ; git push\033[0m"
