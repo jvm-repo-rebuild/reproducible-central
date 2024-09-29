@@ -40,7 +40,7 @@ jobs:
               git push
 
               . $file
-              buildcompare="$(basename $buildinfo)"
+              buildcompare="$(basename $buildinfo .buildinfo).buildcompare"
               grep -v okFiles "$(dirname $file)/$buildcompare" >> buildcompare.txt
             fi
           done
@@ -50,3 +50,4 @@ jobs:
         with:
           message-path: |
             buildcompare.txt
+          preformatted: true
