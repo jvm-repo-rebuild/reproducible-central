@@ -95,7 +95,7 @@ echo -e "test local build with: \033[0;32m./rebuild.sh ${nextBuildspec} $3\033[0
 echo
 echo -e "once buildspec is ok:"
 echo -e "1. either run:"
-echo -e "\033[0;32mgit checkout -b $artifactId-$nextVersion ; git add ${nextBuildspec} ; git commit -m \"add ${artifactId} ${nextVersion}\" ; git push --set-upstream origin $artifactId-$nextVersion\033[0m"
+echo -e "\033[0;32mgit checkout -b $artifactId-$nextVersion ; git add ${nextBuildspec} ; git commit -m 'add ${artifactId} ${nextVersion}' -m '' -m 'https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/${dir}/README.md' ; git push --set-upstream origin $artifactId-$nextVersion\033[0m"
 echo -e "  then create a PR"
 echo -e "2. or commit directly to master by running:"
 echo -e "\033[0;32mbin/update-project-summary.sh ${dir} ; git add ${dir} ; git commit -m \"add ${artifactId} ${nextVersion}\" ; git push\033[0m"
