@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Cipher: encryption/decryption Component
+group-id=org.codehaus.plexus
+artifact-id=plexus-cipher
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-cipher.git
+source.scm.tag=plexus-cipher-3.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-cipher-3.0.0.pom
+outputs.0.length=2977
+outputs.0.checksums.sha512=563bae4b62ec53131562f982471d2ec229e503f4fc83d29babbd79d02c6348ccf45d6e0cf9ad2c6cc95c21662c5dd97c213d73a0b1f0cbc33a31f3620b3b43f6
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-cipher-3.0.0.jar
+outputs.1.length=10315
+outputs.1.checksums.sha512=faf549061e0eb2231203e6df94acfc2248d41af19a2dc44ce0d0ca7eaf9ba49e17650a5ce63265fe90d9e6f0468da335823d5ac32e1aca85a56a1d0cb716e43e
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-cipher-3.0.0-source-release.zip
+outputs.2.length=19476
+outputs.2.checksums.sha512=29f44c3d3f68b2dc82c84d2a56d2ccc5c0e058cc260ef199ae7073d2d3c200a0b3addd24697131c5d5e801b3a7e82e46f03eab915994b4a0a3367eb32863176e
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-cipher-3.0.0-sources.jar
+outputs.3.length=9091
+outputs.3.checksums.sha512=38754127d4418a99ee9ad2468e926060e0f89a49c66004878de9c3134bac21a16d434712358ec90113c24a3343ddde14a1dcba973ff1b59adc2cfa347416ecd6
