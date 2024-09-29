@@ -51,3 +51,12 @@ jobs:
           message-path: |
             buildcompare.txt
           preformatted: true
+
+      - name: Merge PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ $(grep "ko=0" buildcompare.txt | wc -l) -eq 1 ]
+          then
+            gh pr merge -m -d
+          fi
