@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **4897 releases** of **705 projects**:
-   - **3655** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **4899 releases** of **705 projects**:
+   - **3657** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 1242 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 705 projects, 609 have at least one fully reproducible release, 96 have none
 
@@ -156,7 +156,7 @@ Its objectives are to provide:
 | | [*.looseleaf](content/com/io7m/looseleaf/README.md) | 7 | 7 :white_check_mark: |
 | | [*.medrina](content/com/io7m/medrina/README.md) | 7 | 7 :white_check_mark: |
 | | [*.mesquida](content/com/io7m/mesquida/README.md) | 2 | 2 :white_check_mark: |
-| | [*.mime2045](content/com/io7m/mime2045/README.md) | 3 | 3 :white_check_mark: |
+| | [*.mime2045](content/com/io7m/mime2045/README.md) | 4 | 4 :white_check_mark: |
 | | [*.percentpass](content/com/io7m/percentpass/README.md) | 5 | 5 :white_check_mark: |
 | | [*.primogenitor](content/com/io7m/primogenitor/README.md) | 34 | 33 :white_check_mark: / 1 :warning: |
 | | [*.quarrel](content/com/io7m/quarrel/README.md) | 11 | 11 :white_check_mark: |
@@ -223,7 +223,7 @@ Its objectives are to provide:
 | eu.maveniverse.maven.nisse | [nisse](content/eu/maveniverse/maven/nisse/README.md) | 4 | 4 :white_check_mark: |
 | eu.maveniverse.maven.toolbox | [toolbox](content/eu/maveniverse/maven/toolbox/README.md) | 43 | 42 :white_check_mark: / 1 :warning: |
 | eu.maveniverse.maven.mase | [mase](content/eu/maveniverse/maven/mase/mase/README.md) | 3 | 3 :white_check_mark: |
-| fr.inria.gforge.spoon | [spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 117 | 13 :white_check_mark: / 104 :warning: |
+| fr.inria.gforge.spoon | [spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 118 | 14 :white_check_mark: / 104 :warning: |
 | fr.marcwrobel | [jbanking](content/fr/marcwrobel/jbanking/README.md) | 2 | 2 :white_check_mark: |
 | fr.vidal.oss | [atom-jaxb](content/fr/vidal/oss/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | io.jooby | [jooby](content/io/jooby/README.md) | 19 | 19 :warning: |
@@ -728,7 +728,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 3 | 3 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 40 | 39 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 18 | 1 :white_check_mark: / 17 :warning: |
-| **Count:** | **705** | **4897** | **3655** :white_check_mark: **1242** :warning: |
+| **Count:** | **705** | **4899** | **3657** :white_check_mark: **1242** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -764,7 +764,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      14 mvn        18
      33 mvn        19
      16 mvn        20
-    191 mvn        21
+    192 mvn        21
      12 mvn        22
       2 mvn-3.5.4   8
       5 mvn-3.6.2   8
@@ -822,7 +822,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.3  17.0.8.1
       1 mvn-3.9.3  17.0.9
       7 mvn-3.9.3  19
-    138 mvn-3.9.3  21
+    139 mvn-3.9.3  21
       1 mvn-3.9.3  21.ea
       8 mvn-3.9.3  22
       7 mvn-3.9.4   8

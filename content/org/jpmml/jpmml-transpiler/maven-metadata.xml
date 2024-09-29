@@ -3,8 +3,8 @@
   <groupId>org.jpmml</groupId>
   <artifactId>jpmml-transpiler</artifactId>
   <versioning>
-    <latest>1.3.5</latest>
-    <release>1.3.5</release>
+    <latest>1.3.6</latest>
+    <release>1.3.6</release>
     <versions>
       <version>1.0.4</version>
       <version>1.1.0</version>
@@ -33,7 +33,8 @@
       <version>1.3.3</version>
       <version>1.3.4</version>
       <version>1.3.5</version>
+      <version>1.3.6</version>
     </versions>
-    <lastUpdated>20240724064633</lastUpdated>
+    <lastUpdated>20240929110927</lastUpdated>
   </versioning>
 </metadata>
