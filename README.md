@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **4893 releases** of **705 projects**:
-   - **3653** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 1240 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **4897 releases** of **705 projects**:
+   - **3655** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 1242 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 705 projects, 609 have at least one fully reproducible release, 96 have none
 
 <!-- END GENERATED INTRO -->
@@ -82,7 +82,7 @@ Its objectives are to provide:
 | | [resolver-proxy-maven-plugin](content/com/github/veithen/maven/resolver-proxy-maven-plugin/README.md) | 4 | 4 :white_check_mark: |
 | | [wsimport-maven-plugin](content/com/github/veithen/maven/wsimport-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [xjc-maven-plugin](content/com/github/veithen/maven/xjc-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
-| com.google.guava | [guava](content/com/google/guava/README.md) | 4 | 4 :warning: |
+| com.google.guava | [guava](content/com/google/guava/README.md) | 5 | 5 :warning: |
 | com.homeofthewizard | [spring-bridge-maven-plugin](content/com/homeofthewizard/spring-bridge-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [vault-maven-plugin](content/com/homeofthewizard/vault-maven-plugin/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | com.innoq | [junit5-logging-extension](content/com/innoq/junit5-logging-extension/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
@@ -367,7 +367,7 @@ Its objectives are to provide:
 | | [commons-csv](content/org/apache/commons/csv/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
 | commons-net | [*](content/org/apache/commons/net/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
 | org.apache.commons | [commons-numbers-parent](content/org/apache/commons/numbers/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
-| | [commons-parent](content/org/apache/commons/parent/README.md) | 23 | 22 :white_check_mark: / 1 :warning: |
+| | [commons-parent](content/org/apache/commons/parent/README.md) | 24 | 23 :white_check_mark: / 1 :warning: |
 | | [commons-rng-parent](content/org/apache/commons/rng/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | | [commons-statistics-parent](content/org/apache/commons/statistics/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | commons-logging | [*](content/org/apache/commons/commons-logging/commons-logging/README.md) | 5 | 5 :white_check_mark: |
@@ -602,7 +602,7 @@ Its objectives are to provide:
 | | [wagon-maven-plugin](content/org/codehaus/mojo/wagon-maven-plugin/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | | [xml-maven-plugin](content/org/codehaus/mojo/xml-maven-plugin/README.md) | 1 | 1 :warning: |
 | org.codehaus.plexus | [plexus-archiver](content/org/codehaus/plexus/plexus-archiver/README.md) | 20 | 19 :white_check_mark: / 1 :warning: |
-| | [plexus-cipher](content/org/codehaus/plexus/plexus-cipher/README.md) | 2 | 2 :white_check_mark: |
+| | [plexus-cipher](content/org/codehaus/plexus/plexus-cipher/README.md) | 3 | 3 :white_check_mark: |
 | | [plexus-classworlds](content/org/codehaus/plexus/plexus-classworlds/README.md) | 2 | 2 :white_check_mark: |
 | | [plexus-cli](content/org/codehaus/plexus/plexus-cli/README.md) | 1 | 1 :white_check_mark: |
 | | [plexus-compiler](content/org/codehaus/plexus/plexus-compiler/README.md) | 14 | 12 :white_check_mark: / 2 :warning: |
@@ -648,7 +648,7 @@ Its objectives are to provide:
 | | [jpmml-transpiler](content/org/jpmml/jpmml-transpiler/README.md) | 1 | 1 :white_check_mark: |
 | | [jpmml-xgboost](content/org/jpmml/jpmml-xgboost/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
 | org.jrivard.xmlchai | [xmlchai](content/org/jrivard/xmlchai/README.md) | 2 | 2 :warning: |
-| org.junit | [junit-bom](content/org/junit/junit5/README.md) | 19 | 3 :white_check_mark: / 16 :warning: |
+| org.junit | [junit-bom](content/org/junit/junit5/README.md) | 20 | 3 :white_check_mark: / 17 :warning: |
 | org.kocakosm | [jblake2](content/org/kocakosm/jblake2/README.md) | 2 | 2 :white_check_mark: |
 | org.kordamp.jarviz | [jarviz-core](content/org/kordamp/jarviz/README.md) | 1 | 1 :warning: |
 | org.kordamp.maven | [pomchecker](content/org/kordamp/pomchecker/README.md) | 3 | 3 :white_check_mark: |
@@ -728,7 +728,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 3 | 3 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 40 | 39 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 18 | 1 :white_check_mark: / 17 :warning: |
-| **Count:** | **705** | **4893** | **3653** :white_check_mark: **1240** :warning: |
+| **Count:** | **705** | **4897** | **3655** :white_check_mark: **1242** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -741,11 +741,11 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 ```
      31 gradle     11
      40 gradle     17
-     23 gradle     21
+     24 gradle     21
      33 mvn         7
-   1331 mvn         8
+   1332 mvn         8
       1 mvn         9
-   1252 mvn        11
+   1253 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
@@ -764,7 +764,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      14 mvn        18
      33 mvn        19
      16 mvn        20
-    190 mvn        21
+    191 mvn        21
      12 mvn        22
       2 mvn-3.5.4   8
       5 mvn-3.6.2   8
