@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Parent
+group-id=org.apache.commons
+artifact-id=commons-parent
+version=76
+
+# source information
+source.scm.uri=scm:git:http://gitbox.apache.org/repos/asf/commons-parent.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-parent-76.pom
+outputs.0.length=77844
+outputs.0.checksums.sha512=4087a1da81b464967da1ffe15ad7d3bae06140b019239cad517dcd131247d1ecbefa4adc15fded76928605e1f1898f0b26262146242f6e265bab7d0d56f68909
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-parent-76-cyclonedx.xml
+outputs.1.length=3324
+outputs.1.checksums.sha512=107da41d82916ed431291ad49da88b1c5db8bf27d2df3b44873552af0944f16cdcea0ff7f183bf5324dc55ef2a60dc8fd90079f080ff69c62067d1fdd4495da8
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-parent-76-cyclonedx.json
+outputs.2.length=3849
+outputs.2.checksums.sha512=a6757b2c02d65b1aa477a4b1e0ac3346009b4ef801339e2b69fc48926dd0a9dcc77242aff39b651915f9b5e6e4df089751db5308b73e69ae6d9c1568d3766bc7
+# ignored commons-parent-76.spdx.json
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-parent-76-site.xml
+outputs.3.length=6746
+outputs.3.checksums.sha512=5f045989b2c281c567467548678fe8685efabf5c13104299eea87b6ab6b6a75c9e98b590d7b288b8ec3a06934061709d0851a6dd9d9b45100ee2950908ec2d6c
