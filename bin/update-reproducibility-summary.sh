@@ -21,6 +21,8 @@ do
 done | sort -k 2 | while read -r p ; do echo "${p##* }/${p% *}/maven-metadata.xml"; done > maven-metadata
 count="$(wc -l maven-metadata | cut -d ' ' -f 1)"
 
+\rm -f "tmp/add-ok.txt"
+
 for metadata in `cat maven-metadata`
 do
   ((countGa++))
@@ -92,6 +94,7 @@ do
     rebuildOk="ok" && [ $ko -gt 0 ] && rebuildOk="ko"
     echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | [${previousVersion}](../$dir/${previousBuildspec}) $rebuildStatus" \
          "| [${addVersion}](../$addBuildspec) | \`bin/add-new-release.sh $dir/${previousBuildspec} ${addVersion}\` |" >> tmp/add-${rebuildOk}.md
+    echo "$dir/${previousBuildspec}:${addVersion}" >> tmp/add-${rebuildOk}.txt
   else
     # no release already exists, list it if it was not reproducible: it requires rework to prepare next release
     if [ ! -f "${dir}/${previousBuildcompare}" ] || [ $ko -ne 0 ]
@@ -213,7 +216,7 @@ sed -e "/$lead/,/$tail/{ /$lead/{p; r tmp/add-ok-table.md
         }; /$tail_newest/p; d }" >> tmp/add.md
 cp tmp/add.md doc/add.md
 
-\rm -rf tmp
+[ "$1" == "update" ] || \rm -rf tmp
 
 if grep "unexpected issue" README.md; then
   echo "Uh oh, found 'unexpected issue' in README.md."
