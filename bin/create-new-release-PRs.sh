@@ -1,8 +1,11 @@
 #!/bin/bash
 
+git switch master
+export CI="true"
+
 for line in `cat doc/add-ok.txt`
 do
-  echo -e "\033[0;1m$line\033[0m"
+  echo -e "\033[0;1m$(echo "$line" | sed -e 's/:/ => /')\033[0m"
   previousBuildspec="$(echo $line | cut -d ':' -f 1)"
   nextVersion="$(echo $line | cut -d ':' -f 2)"
 
@@ -11,7 +14,10 @@ do
   file=`basename ${previousBuildspec} -${version}.buildspec`
   nextBuildspec=${dir}/${file}-${nextVersion}.buildspec
 
-  if [ $(git ls-remote -h https://github.com/jvm-repo-rebuild/reproducible-central.git | grep refs/heads/$artifactId-$nextVersion | wc -l) -eq 1 ]
+  if [ -f $nextBuildspec ]
+  then
+    echo "skipping because $nextBuildspec exists"
+  elif [ $(git ls-remote -h https://github.com/jvm-repo-rebuild/reproducible-central.git | grep refs/heads/$artifactId-$nextVersion | wc -l) -eq 1 ]
   then
     echo "skipping because branch $artifactId-$nextVersion exists"
   else
