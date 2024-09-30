@@ -4,9 +4,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240929144135 --> [log4j](../content/org/apache/logging/log4j/log4j/README.md) | [3.0.0-beta2](../content/org/apache/logging/log4j/log4j/log4j-3.0.0-beta2.buildspec) :white_check_mark: | 2.24.1  | `bin/add-new-release.sh content/org/apache/logging/log4j/log4j/log4j-3.0.0-beta2.buildspec ...` |
+| <!-- 20240930152948 --> [airbase](../content/io/airlift/airbase/README.md) | [181](../content/io/airlift/airbase/airbase-181.buildspec) :white_check_mark: | [182](../content/io/airlift/airbase/airbase-182.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-181.buildspec 182` |
+| <!-- 20240930110325 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | [5.14.0](../content/org/mockito/mockito-core/mockito-5.14.0.buildspec) :white_check_mark: | [5.14.1](../content/org/mockito/mockito-core/mockito-5.14.1.buildspec) | `bin/add-new-release.sh content/org/mockito/mockito-core/mockito-5.14.0.buildspec 5.14.1` |
 | <!-- 20240926063717 --> [mybatis2](../content/org/mybatis/mybatis2/README.md) | [2.5.0](../content/org/mybatis/mybatis2/mybatis2-2.5.0.buildspec) :white_check_mark: | [2.6.0](../content/org/mybatis/mybatis2/mybatis2-2.6.0.buildspec) | `bin/add-new-release.sh content/org/mybatis/mybatis2/mybatis2-2.5.0.buildspec 2.6.0` |
-| <!-- 20240925115453 --> [qpid-jms-parent](../content/org/apache/qpid/jms/README.md) | [2.6.0](../content/org/apache/qpid/jms/qpid-jms-2.6.0.buildspec) :white_check_mark: | 1.12.0  | `bin/add-new-release.sh content/org/apache/qpid/jms/qpid-jms-2.6.0.buildspec ...` |
 | <!-- 20240925011252 --> [mybatis-thymeleaf](../content/org/mybatis/scripting/mybatis-thymeleaf/README.md) | [1.0.4](../content/org/mybatis/scripting/mybatis-thymeleaf/mybatis-thymeleaf-1.0.4.buildspec) :white_check_mark: | [1.1.0](../content/org/mybatis/scripting/mybatis-thymeleaf/mybatis-thymeleaf-1.1.0.buildspec) | `bin/add-new-release.sh content/org/mybatis/scripting/mybatis-thymeleaf/mybatis-thymeleaf-1.0.4.buildspec 1.1.0` |
 | <!-- 20240924195255 --> [avro-toplevel](../content/org/apache/avro/README.md) | [1.12.0](../content/org/apache/avro/avro-1.12.0.buildspec) :white_check_mark: | 1.11.4  | `bin/add-new-release.sh content/org/apache/avro/avro-1.12.0.buildspec ...` |
 | <!-- 20240923210012 --> [flowlogix](../content/com/flowlogix/README.md) | [9.0.5](../content/com/flowlogix/flowlogix-9.0.5.buildspec) :white_check_mark: | [9.0.6](../content/com/flowlogix/flowlogix-9.0.6.buildspec) | `bin/add-new-release.sh content/com/flowlogix/flowlogix-9.0.5.buildspec 9.0.6` |
@@ -40,6 +40,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20240930082825 --> [io.wcm.caconfig.editor.root](../content/io/wcm/io.wcm.caconfig/README.md) | [1.16.4](../content/io/wcm/io.wcm.caconfig/wcm-caconfig-editor-1.16.4.buildspec) :warning: | [1.16.6](../content/io/wcm/io.wcm.caconfig/wcm-caconfig-editor-1.16.6.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.caconfig/wcm-caconfig-editor-1.16.4.buildspec 1.16.6` |
 | <!-- 20240928142132 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.60.0](../content/org/finos/legend/engine/legend-engine-4.60.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.60.0` |
 | <!-- 20240927131409 --> [pulsar](../content/org/apache/pulsar/README.md) | [3.3.1](../content/org/apache/pulsar/pulsar-3.3.1.buildspec) :warning: | [4.0.0-preview.1](../content/org/apache/pulsar/pulsar-4.0.0-preview.1.buildspec) | `bin/add-new-release.sh content/org/apache/pulsar/pulsar-3.3.1.buildspec 4.0.0-preview.1` |
 | <!-- 20240923145025 --> [jooby](../content/io/jooby/README.md) | [3.3.1](../content/io/jooby/jooby-3.3.1.buildspec) :warning: | [3.4.1](../content/io/jooby/jooby-3.4.1.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-3.3.1.buildspec 3.4.1` |
@@ -92,7 +93,6 @@ New Releases To Add
 | <!-- 20240828185349 --> [sigstore-maven-plugin](../content/dev/sigstore/sigstore-maven-plugin/README.md) | 1.0.0 :warning: |
 | <!-- 20240827103251 --> [org.apache.sling.i18n](../content/org/apache/sling/org.apache.sling.i18n/README.md) | 2.6.4 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-i18n/pull/16) |
 | <!-- 20240826174802 --> [ldapchai](../content/com/github/ldapchai/README.md) | 0.8.6 :warning: [:memo:](https://github.com/ldapchai/ldapchai/issues/28) |
-| <!-- 20240826095507 --> [io.wcm.caconfig.editor.root](../content/io/wcm/io.wcm.caconfig/README.md) | 1.16.4 :warning: |
 | <!-- 20240825173904 --> [io.takari.incrementalbuild](../content/io/takari/incrementalbuild/README.md) | 1.0.3 :warning: |
 | <!-- 20240819202444 --> [jdbi3-root](../content/org/jdbi/README.md) | 3.45.4 :warning: [:memo:](https://github.com/basepom/basepom/pull/73) |
 | <!-- 20240817210045 --> [mybatis-2-spring](../content/org/mybatis/mybatis-2-spring/README.md) | 1.2.1 :warning: |
