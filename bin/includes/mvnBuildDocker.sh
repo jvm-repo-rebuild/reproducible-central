@@ -189,7 +189,7 @@ mvnBuildDockerBuildBaseToolchainsImage() {
     fi
 
     info "Building base Reproducible Builder toolchains image \033[1m${mvnImage}\033[0m"
-    if ! runcommand "${RB_OCI_ENGINE}" build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
+    if ! runcommand "${RB_OCI_ENGINE}" buildx build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
     then
       fatal "Unable to build ${mvnImage} using ${DOCKERFILE}"
     fi
@@ -211,7 +211,7 @@ mvnBuildDockerAddMaven() {
       sed "s/@@MAVEN_MAJOR@@/$(echo "${mvnVersion}" | cut -c 1)/g"
   ) > "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}"
 
-  if ! runcommand "${RB_OCI_ENGINE}" build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
+  if ! runcommand "${RB_OCI_ENGINE}" buildx build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
   then
     fatal "Unable to build ${mvnImage} using ${DOCKERFILE}"
   fi
@@ -240,7 +240,7 @@ mvnBuildDockerAddUserLayer() {
     sed -i.bak 's/##TOOLCHAINS##//' "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}"
   fi
 
-  if ! runcommand "${RB_OCI_ENGINE}" build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
+  if ! runcommand "${RB_OCI_ENGINE}" buildx build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
   then
     fatal "Unable to build ${mvnImage} using ${DOCKERFILE}"
   fi
@@ -265,7 +265,7 @@ mvnBuildDockerAddEnvironmentLayer() {
       sed "s@\@\@BUILD_TIMEZONE\@\@@${timezone}@g"
    ) > "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}"
 
-  if ! runcommand "${RB_OCI_ENGINE}" build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
+  if ! runcommand "${RB_OCI_ENGINE}" buildx build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
   then
     fatal "Unable to build ${mvnImage} using ${DOCKERFILE}"
   fi
