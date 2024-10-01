@@ -21,10 +21,6 @@ jobs:
           git config --local user.email "reproducible-central@github.io"
           git config --local user.name "Reproducible Central CI"
 
-
-      - name: Install dos2unix
-        run: sudo apt-get install -y dos2unix
-
       - name: List changed files
         id: changed-files
         uses: tj-actions/changed-files@v45
@@ -33,6 +29,7 @@ jobs:
         run: |
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             if [[ $file == *.buildspec ]]; then
+              sudo apt-get install -y dos2unix
               ./rebuild.sh $file
               bin/update-project-summary.sh "$(dirname $file)"
               git add "$(dirname $file)"
@@ -40,12 +37,20 @@ jobs:
               git push
 
               . $file
-              buildcompare="$(basename $buildinfo .buildinfo).buildcompare"
-              grep -v okFiles "$(dirname $file)/$buildcompare" >> buildcompare.txt
+              buildcompare="$(dirname $file)/$(basename $buildinfo .buildinfo).buildcompare"
+              grep -v okFiles "$buildcompare" >> buildcompare.txt
+
+              if [ $(grep "ko=0" buildcompare.txt | wc -l) -eq 0 ]
+              then
+                ./build_diffoscope.sh "$buildcompare" buildcache/$artifactId
+                diffoscope="$(dirname $file)/$(basename $buildinfo .buildinfo).diffoscope"
+                [ -f $diffoscope ] && mv "$diffoscope" .
+              fi
             fi
           done
 
       - name: Add PR comment with results
+        if: ${{ hashFiles('buildcompare.txt') != '' }}
         uses: mshick/add-pr-comment@v2
         with:
           message-path: |
@@ -53,6 +58,7 @@ jobs:
           preformatted: true
 
       - name: Merge PR
+        if: ${{ hashFiles('buildcompare.txt') != '' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -60,3 +66,10 @@ jobs:
           then
             gh pr merge -m -d
           fi
+
+      - name: Archive diffoscope output
+        if: ${{ hashFiles('*.diffoscope') != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: diffoscope.zip
+          path: "*.diffoscope"

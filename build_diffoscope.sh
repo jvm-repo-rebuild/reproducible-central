@@ -8,6 +8,8 @@ builddir=$2
 diffoscope_file=$(dirname ${compare})/$(basename ${compare} .buildcompare).diffoscope
 count="$(grep "^# diffoscope" ${compare} | wc -l)"
 
+[ $count -eq 0 ] && echo "No diffoscope command listed in $compare" && exit
+
 echo -e "saving build diffoscope file to \033[1m${diffoscope_file}\033[0m for $count issues"
 
 sed="sed"
@@ -22,7 +24,7 @@ grep '# diffoscope ' ${compare} | ${sed} -e 's/# diffoscope //' | ( while read -
 do
   ((counter++))
   echo -e "$counter / $count \033[1m$line\033[0m"
-  docker run --rm -t -w /mnt -v $(pwd)/$(dirname ${compare})/${builddir}:/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress --exclude META-INF/jandex.idx $line
+  docker run $([ "$CI" != true ] && echo "-it ")--rm -w /mnt -v $(pwd)/$(dirname ${compare})/${builddir}:/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress --exclude META-INF/jandex.idx $line
   echo
 done ) | tee ${diffoscope_file}
 
