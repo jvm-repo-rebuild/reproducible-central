@@ -14,13 +14,13 @@ Source code: [https://github.com/wcm-io/io.wcm.caconfig.editor.git](https://gith
 * [io.wcm:io.wcm.caconfig.editor.parent](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.parent/overview)
 </details>
 
-rebuilding **9 releases** of io.wcm:io.wcm.caconfig.editor.parent:
+rebuilding **10 releases** of io.wcm:io.wcm.caconfig.editor.parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.16.6](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.parent/1.16.6/pom) | | | |
+| [1.16.6](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.root/1.16.6/pom) | [mvn jdk17 w](wcm-caconfig-editor-1.16.6.buildspec) | [result](io.wcm.caconfig.editor.root-1.16.6.buildinfo): [3 :white_check_mark:  5 :warning:](io.wcm.caconfig.editor.root-1.16.6.buildcompare) [:mag:](io.wcm.caconfig.editor.root-1.16.6.diffoscope) | 901K |
 | [1.16.4](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.root/1.16.4/pom) | [mvn jdk17 w](wcm-caconfig-editor-1.16.4.buildspec) | [result](io.wcm.caconfig.editor.root-1.16.4.buildinfo): [3 :white_check_mark:  5 :warning:](io.wcm.caconfig.editor.root-1.16.4.buildcompare) [:mag:](io.wcm.caconfig.editor.root-1.16.4.diffoscope) | 916K |
 | [1.16.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.root/1.16.2/pom) | | | |
 | [1.16.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.root/1.16.0/pom) | | | |
