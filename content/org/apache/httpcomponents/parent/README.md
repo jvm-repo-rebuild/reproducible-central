@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.apache.httpcomponents:httpcomponents-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [14](https://central.sonatype.com/artifact/org.apache.httpcomponents/httpcomponents-parent/14/pom) | | | |
 | [13](https://central.sonatype.com/artifact/org.apache.httpcomponents/httpcomponents-parent/13/pom) | [mvn jdk8](httpcomponents-parent-13.buildspec) | [result](httpcomponents-parent-13.buildinfo): [2 :white_check_mark: ](httpcomponents-parent-13.buildcompare) | 57K |
 | [12](https://central.sonatype.com/artifact/org.apache.httpcomponents/httpcomponents-parent/12/pom) | [mvn jdk8 w](httpcomponents-parent-12.buildspec) | [result](httpcomponents-parent-12.buildinfo): [2 :white_check_mark: ](httpcomponents-parent-12.buildcompare) | 57K |
 

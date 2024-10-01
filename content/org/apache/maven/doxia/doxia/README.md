@@ -30,12 +30,13 @@ Source code: [https://github.com/apache/maven-doxia.git](https://github.com/apac
 * [org.apache.maven.doxia:doxia-test-docs](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-test-docs/overview)
 </details>
 
-rebuilding **16 releases** of org.apache.maven.doxia:doxia:
-- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **17 releases** of org.apache.maven.doxia:doxia:
+- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia/2.0.0/pom) | [mvn jdk8 w](doxia-2.0.0.buildspec) | [result](doxia-2.0.0.buildinfo): [48 :white_check_mark: ](doxia-2.0.0.buildcompare) | 2.2M |
 | [2.0.0-M12](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia/2.0.0-M12/pom) | [mvn jdk8 w](doxia-2.0.0-M12.buildspec) | [result](doxia-2.0.0-M12.buildinfo): [48 :white_check_mark: ](doxia-2.0.0-M12.buildcompare) | 2.2M |
 | [2.0.0-M11](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia/2.0.0-M11/pom) | [mvn jdk8 w](doxia-2.0.0-M11.buildspec) | [result](doxia-2.0.0-M11.buildinfo): [48 :white_check_mark: ](doxia-2.0.0-M11.buildcompare) | 2.2M |
 | [2.0.0-M10](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia/2.0.0-M10/pom) | [mvn jdk8 w](doxia-2.0.0-M10.buildspec) | [result](doxia-2.0.0-M10.buildinfo): [49 :white_check_mark:  1 :warning:](doxia-2.0.0-M10.buildcompare) [:mag:](doxia-2.0.0-M10.diffoscope) | 2.2M |
