@@ -1,0 +1,86 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SPNEGO/Kerberos Authenticator and Active Directory Realm for Apache Tomcat
+group-id=net.sf.michael-o.tomcat
+artifact-id=tomcat-authnz-spnego-ad
+version=4.2.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/michael-o/tomcatspnegoad.git
+source.scm.tag=4.2.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=tomcat101-authnz-spnego-ad
+
+# aggregated output
+
+outputs.0.coordinates=net.sf.michael-o.tomcat:tomcat-authnz-spnego-ad
+
+outputs.0.0.groupId=net.sf.michael-o.tomcat
+outputs.0.0.filename=tomcat-authnz-spnego-ad-4.2.1.pom
+outputs.0.0.length=4194
+outputs.0.0.checksums.sha512=4b7319063282acabfb38b3f58d60c170131e94527d243c45699929e243d869c8dc736f0c23abce3f4260d1c47271f29c4782372d053892983f67e6636b266c8d
+
+outputs.0.1.groupId=net.sf.michael-o.tomcat
+outputs.0.1.filename=tomcat-authnz-spnego-ad-4.2.1-site.xml
+outputs.0.1.length=1461
+outputs.0.1.checksums.sha512=533492c3e00b7219c8115a29836e353461172d384973867b4ea62d4b35286b264cc453c3b3336f6a2093263708b065f7b03e5cab7baa809bd1e7bbb6268974ea
+
+outputs.1.coordinates=net.sf.michael-o.tomcat:tomcat85-authnz-spnego-ad
+
+outputs.1.0.groupId=net.sf.michael-o.tomcat
+outputs.1.0.filename=tomcat85-authnz-spnego-ad-4.2.1.pom
+outputs.1.0.length=4304
+outputs.1.0.checksums.sha512=5bae06c728685d9f362ebe95735994ad044678fe79ad2ba6d8a7ac8f23ff57b1b8c93fd658c97e692c4b303b21a9953a8a7dc7f210123c9b30df59e0b7c14424
+
+outputs.1.1.groupId=net.sf.michael-o.tomcat
+outputs.1.1.filename=tomcat85-authnz-spnego-ad-4.2.1.jar
+outputs.1.1.length=77164
+outputs.1.1.checksums.sha512=e6205a5e39f068d839f5f310e84e0d7308ffb6a538d6fd3c26a902e8d7565fb651cea6ff376516010a9b58fc6581deff06fa386b6109fcee79cdece457d1c54a
+
+outputs.1.2.groupId=net.sf.michael-o.tomcat
+outputs.1.2.filename=tomcat85-authnz-spnego-ad-4.2.1-sources.jar
+outputs.1.2.length=40046
+outputs.1.2.checksums.sha512=96406d232faf303fdb2d5d76cdb41b90fa317761f4c9e77adc2ad5152519294da9854e471d242e1df34fb1778502225f48208ccbfa04384ff7653f59f7803e95
+
+outputs.2.coordinates=net.sf.michael-o.tomcat:tomcat90-authnz-spnego-ad
+
+outputs.2.0.groupId=net.sf.michael-o.tomcat
+outputs.2.0.filename=tomcat90-authnz-spnego-ad-4.2.1.pom
+outputs.2.0.length=4876
+outputs.2.0.checksums.sha512=28fa61d9fa88e73b0cd51faa910cdb05df3380339d5b5b04ba75401eae681ccf333fc4e3ed33e037044740bbce0ca536b32ea7fad66cafa903844c8342775d29
+
+outputs.2.1.groupId=net.sf.michael-o.tomcat
+outputs.2.1.filename=tomcat90-authnz-spnego-ad-4.2.1.jar
+outputs.2.1.length=147208
+outputs.2.1.checksums.sha512=ffcff5ba7a9cbbd96010f57ff412cf26fe1effe614cb11c4fa60815d27d85aad1c94780f46694700402f844daef7947f5bf968ce1853d76b878b9956af55c982
+
+outputs.2.2.groupId=net.sf.michael-o.tomcat
+outputs.2.2.filename=tomcat90-authnz-spnego-ad-4.2.1-sources.jar
+outputs.2.2.length=74829
+outputs.2.2.checksums.sha512=b3fabd5c932290b266f9499ee7745bc2d00a6a759674981f885b1c032d74f41ea0b7b686c336f97ca0de01107392c96116be4c1bcf7fab95ccb6bff37015ccf9
+
+outputs.3.coordinates=net.sf.michael-o.tomcat:tomcat101-authnz-spnego-ad
+
+outputs.3.0.groupId=net.sf.michael-o.tomcat
+outputs.3.0.filename=tomcat101-authnz-spnego-ad-4.2.1.pom
+outputs.3.0.length=5080
+outputs.3.0.checksums.sha512=5d8f7ef77ce5c223bee08ced7e0d943ae31937d2498866a4739099a6879bf41f9c86047ce84d836c15680989f167a425d87187679d4656c022b262ca3525a652
+
+outputs.3.1.groupId=net.sf.michael-o.tomcat
+outputs.3.1.filename=tomcat101-authnz-spnego-ad-4.2.1.jar
+outputs.3.1.length=148650
+outputs.3.1.checksums.sha512=ece4a2d07d2317a92dd4517b9e14d5ba9a9170fd708fbaf73f869978a3153a945c610c05bfd8b76b33baf0cdf08f9383bd6e92db871d8db6e8c1ad2376bd3f96
+
+outputs.3.2.groupId=net.sf.michael-o.tomcat
+outputs.3.2.filename=tomcat101-authnz-spnego-ad-4.2.1-sources.jar
+outputs.3.2.length=74827
+outputs.3.2.checksums.sha512=d381abd701e5e321838324c1e187005fe46ddb925aeb7bcc1e0d5be33d126cd99773401e0fade3bd2f56871d56fcbe717c34b1fcabc6d266191d51f6f834f4c5

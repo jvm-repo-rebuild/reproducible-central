@@ -15,13 +15,13 @@ Source code: [https://github.com/michael-o/tomcatspnegoad.git](https://github.co
 * [net.sf.michael-o.tomcat:tomcat90-authnz-spnego-ad](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat90-authnz-spnego-ad/overview)
 </details>
 
-rebuilding **5 releases** of net.sf.michael-o.tomcat:tomcat-authnz-spnego-ad:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **6 releases** of net.sf.michael-o.tomcat:tomcat-authnz-spnego-ad:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.2.1](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat-authnz-spnego-ad/4.2.1/pom) | | | |
+| [4.2.1](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat-authnz-spnego-ad/4.2.1/pom) | [mvn jdk11 w](tomcat-authnz-spnego-ad-4.2.1.buildspec) | [result](tomcat-authnz-spnego-ad-4.2.1.buildinfo): [11 :white_check_mark: ](tomcat-authnz-spnego-ad-4.2.1.buildcompare) | 569K |
 | [4.2.0](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat-authnz-spnego-ad/4.2.0/pom) | [mvn jdk11 w](tomcat-authnz-spnego-ad-4.2.0.buildspec) | [result](tomcat-authnz-spnego-ad-4.2.0.buildinfo): [11 :white_check_mark: ](tomcat-authnz-spnego-ad-4.2.0.buildcompare) | 568K |
 | [4.1.0](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat-authnz-spnego-ad/4.1.0/pom) | [mvn jdk11 w](tomcat-authnz-spnego-ad-4.1.0.buildspec) | [result](tomcat-authnz-spnego-ad-4.1.0.buildinfo): [11 :white_check_mark: ](tomcat-authnz-spnego-ad-4.1.0.buildcompare) | 415K |
 | [4.0.1](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat-authnz-spnego-ad/4.0.1/pom) | [mvn jdk11 w](tomcat-authnz-spnego-ad-4.0.1.buildspec) | [result](tomcat-authnz-spnego-ad-4.0.1.buildinfo): [11 :white_check_mark: ](tomcat-authnz-spnego-ad-4.0.1.buildcompare) | 421K |
