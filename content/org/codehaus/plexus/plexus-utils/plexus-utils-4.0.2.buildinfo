@@ -23,8 +23,8 @@ os.name=Unix
 
 outputs.0.groupId=org.codehaus.plexus
 outputs.0.filename=plexus-utils-4.0.2.pom
-outputs.0.length=12810
-outputs.0.checksums.sha512=e2c922d4371df0926435624ed586e3290f15d66cedb9281900d4116fb4266f9d0f211e1446f3eb882d6d50dc622c920d7ac872fb1712c2c0966f39cd863d7c3b
+outputs.0.length=7829
+outputs.0.checksums.sha512=22ded583fcf2149476c9387bc9e2f0642568e3d54b2fd346b684e41546146723d973e3b726451478e67746ccb89c5ed0bbc4bb14709d022adae4dfde3925b527
 
 outputs.1.groupId=org.codehaus.plexus
 outputs.1.filename=plexus-utils-4.0.2.jar

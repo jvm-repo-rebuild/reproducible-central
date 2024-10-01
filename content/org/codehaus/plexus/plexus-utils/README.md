@@ -13,7 +13,7 @@ rebuilding **8 releases** of org.codehaus.plexus:plexus-utils:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.0.2](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-utils/4.0.2/pom) | [mvn jdk21](plexus-utils-4.0.2.buildspec) | [result](plexus-utils-4.0.2.buildinfo): [2 :white_check_mark:  2 :warning:](plexus-utils-4.0.2.buildcompare) [:mag:](plexus-utils-4.0.2.diffoscope) | 661K |
+| [4.0.2](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-utils/4.0.2/pom) | [mvn jdk21](plexus-utils-4.0.2.buildspec) | [result](plexus-utils-4.0.2.buildinfo): [1 :white_check_mark:  3 :warning:](plexus-utils-4.0.2.buildcompare) [:mag:](plexus-utils-4.0.2.diffoscope) | 656K |
 | [4.0.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-utils/4.0.1/pom) | [mvn jdk21](plexus-utils-4.0.1.buildspec) | [result](plexus-utils-4.0.1.buildinfo): [4 :white_check_mark: ](plexus-utils-4.0.1.buildcompare) | 656K |
 | [4.0.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-utils/4.0.0/pom) | [mvn jdk17](plexus-utils-4.0.0.buildspec) | [result](plexus-utils-4.0.0.buildinfo): [4 :white_check_mark: ](plexus-utils-4.0.0.buildcompare) | 655K |
 | [3.5.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-utils/3.5.1/pom) | [mvn jdk11](plexus-utils-3.5.1.buildspec) | [result](plexus-utils-3.5.1.buildinfo): [4 :white_check_mark: ](plexus-utils-3.5.1.buildcompare) | 1.4M |
