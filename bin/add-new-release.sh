@@ -96,6 +96,7 @@ then
   echo "commenting out diffoscope entry"
   sed -i "s/^diffoscope=/#diffoscope=/" ${nextBuildspec}
 fi
+echo -n -e "\033[0;31m" ; grep "# extracted from:" ${nextBuildspec} ; echo -n -e "\033[0m" # display hint on extracting data from jar to inject into buildspec
 
 if [ "$CI" = true ]
 then
