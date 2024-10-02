@@ -1,0 +1,69 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Context-Aware Configuration Editor Root
+group-id=io.wcm
+artifact-id=io.wcm.caconfig.editor.root
+version=1.16.6
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/io.wcm.caconfig.editor.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=io.wcm.caconfig.editor.package
+
+# aggregated output
+
+outputs.0.coordinates=io.wcm:io.wcm.caconfig.editor.parent
+
+outputs.0.0.groupId=io.wcm
+outputs.0.0.filename=io.wcm.caconfig.editor.parent-1.16.6.pom
+outputs.0.0.length=2187
+outputs.0.0.checksums.sha512=a77e7c57956501e8c9d3464ab6fb8f61b26fcea8f556f618777c3571fd6d3295c22a72102cda82b6fb8242e3acd55e2eca16a080680585b763850d37138894f0
+
+outputs.1.coordinates=io.wcm:io.wcm.caconfig.editor
+
+outputs.1.0.groupId=io.wcm
+outputs.1.0.filename=io.wcm.caconfig.editor-1.16.6.pom
+outputs.1.0.length=8854
+outputs.1.0.checksums.sha512=73c821859c54dba6d2faca5a26e324adfd9395482ba554f8b8ec9d531b49fffc6035143c6d44b6518f96b6deb040aa721cc62105f5a92e1400fc51ef95141c05
+
+outputs.1.1.groupId=io.wcm
+outputs.1.1.filename=io.wcm.caconfig.editor-1.16.6.jar
+outputs.1.1.length=201842
+outputs.1.1.checksums.sha512=8de750b3e7cb3d1761c936b2c61ceb55b4952f51ddcb88959863ac01798d3a47997695715b12abe65b761b93573c4887f4b313b691dcb8846314ecc99fce0192
+
+outputs.1.2.groupId=io.wcm
+outputs.1.2.filename=io.wcm.caconfig.editor-1.16.6-sources.jar
+outputs.1.2.length=189762
+outputs.1.2.checksums.sha512=ed534718b66b4d38635908f6d48c4d9c12ca32df2dc813df472b92f043b92a671a2d20ac5d22116ad8a5d7c2d5d07dd153e605a665508c588c7eff9a93bc5405
+
+outputs.1.3.groupId=io.wcm
+outputs.1.3.filename=io.wcm.caconfig.editor-1.16.6-content.zip
+outputs.1.3.length=253605
+outputs.1.3.checksums.sha512=847cfec569571ec9c6b87750fbd988a34365d8ac2abcd3760e5602a5b29a6b23ca8701e585c384e3ccf8e85ec2bf67d47e1b65b43435461898257d3ac7874554
+
+outputs.1.4.groupId=io.wcm
+outputs.1.4.filename=io.wcm.caconfig.editor-1.16.6-bundle.jar
+outputs.1.4.length=65506
+outputs.1.4.checksums.sha512=72bae66ca7a9d1d01ae11963b5b9d0a63faf1f5bf6671ae07e184d00c9441ad3196c80c55aded9258cee7d7c3266909cba6012656d5b35e6b78316e84bc1f72b
+
+outputs.2.coordinates=io.wcm:io.wcm.caconfig.editor.package
+
+outputs.2.0.groupId=io.wcm
+outputs.2.0.filename=io.wcm.caconfig.editor.package-1.16.6.pom
+outputs.2.0.length=3813
+outputs.2.0.checksums.sha512=4e634a3e05f2451cc2d4c2f7a322fdc105a3e1cf33e83767b443fa523bbed15e0e139b04a74c6acaeb186e6b67a32f3a17611a0bbe1b296b4f971459c2f34ebd
+
+outputs.2.1.groupId=io.wcm
+outputs.2.1.filename=io.wcm.caconfig.editor.package-1.16.6.zip
+outputs.2.1.length=196797
+outputs.2.1.checksums.sha512=1828234de399de543157258ad64c65fb08857fe47f8d95f71fd1200f28b41f8e8639ba13fac79924b50c09bd360aacc814664e7c25864ead95cd09952595beab
