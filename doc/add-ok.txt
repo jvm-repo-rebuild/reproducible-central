@@ -2,6 +2,5 @@ content/com/flowlogix/flowlogix-9.0.5.buildspec:9.0.6
 content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.8.6.3.buildspec:4.8.6.4
 content/org/jline/jline-3.26.3.buildspec:3.27.0
 content/org/apache/httpcomponents/parent/httpcomponents-parent-13.buildspec:14
-content/org/eclipse/jetty/jetty-project/jetty-project-12.0.13.buildspec:12.0.14
 content/org/mybatis/mybatis2/mybatis2-2.5.0.buildspec:2.6.0
 content/org/mybatis/scripting/mybatis-thymeleaf/mybatis-thymeleaf-1.0.4.buildspec:1.1.0
