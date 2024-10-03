@@ -1,5 +1,8 @@
 content/com/flowlogix/flowlogix-9.0.5.buildspec:9.0.6
 content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.8.6.3.buildspec:4.8.6.4
+content/io/trino/trino-459.buildspec:460
+content/io/dropwizard/metrics/dropwizard-metrics-4.2.27.buildspec:4.2.28
+content/io/dropwizard/metrics5/dropwizard-metrics-5.0.0-rc21.buildspec:5.0.0-rc22
 content/org/jline/jline-3.26.3.buildspec:3.27.0
 content/org/apache/httpcomponents/parent/httpcomponents-parent-13.buildspec:14
 content/org/mybatis/mybatis2/mybatis2-2.5.0.buildspec:2.6.0
