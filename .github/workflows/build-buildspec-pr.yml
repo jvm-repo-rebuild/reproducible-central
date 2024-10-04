@@ -38,13 +38,16 @@ jobs:
 
               . $file
               buildcompare="$(dirname $file)/$(basename $buildinfo .buildinfo).buildcompare"
+              echo '```' >> buildcompare.txt
               grep -v okFiles "$buildcompare" >> buildcompare.txt
+              echo '```' >> buildcompare.txt
 
               if [ $(grep "ko=0" buildcompare.txt | wc -l) -eq 0 ]
               then
                 ./build_diffoscope.sh "$buildcompare" buildcache/$artifactId
                 diffoscope="$(dirname $file)/$(basename $buildinfo .buildinfo).diffoscope"
-                [ -f $diffoscope ] && mv "$diffoscope" .
+                [ -f $diffoscope ] && mv "$diffoscope" . \
+                  && echo "diffoscope uploaded to ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> buildcompare.txt
               fi
             fi
           done
@@ -55,7 +58,6 @@ jobs:
         with:
           message-path: |
             buildcompare.txt
-          preformatted: true
 
       - name: Merge PR
         if: ${{ hashFiles('buildcompare.txt') != '' }}
@@ -73,9 +75,3 @@ jobs:
         with:
           name: diffoscope
           path: "*.diffoscope"
-
-      - name: Add diffoscope comment
-        if: ${{ hashFiles('*.diffoscope') != '' }}
-        uses: mshick/add-pr-comment@v2
-        with:
-          message: "diffoscope uploaded to ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
