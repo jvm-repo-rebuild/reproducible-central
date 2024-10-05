@@ -38,33 +38,38 @@ jobs:
 
               . $file
               buildcompare="$(dirname $file)/$(basename $buildinfo .buildinfo).buildcompare"
-              echo '```' >> buildcompare.txt
-              grep -v okFiles "$buildcompare" >> buildcompare.txt
-              echo '```' >> buildcompare.txt
 
-              if [ $(grep "ko=0" buildcompare.txt | wc -l) -eq 0 ]
+              echo '```' >> PRcomment.txt
+              grep -v okFiles "$buildcompare" >> PRcomment.txt
+              echo '```' >> PRcomment.txt
+
+              if [ $(grep "ko=0" PRcomment.txt | wc -l) -eq 0 ]
               then
                 ./build_diffoscope.sh "$buildcompare" buildcache/$artifactId
                 diffoscope="$(dirname $file)/$(basename $buildinfo .buildinfo).diffoscope"
                 [ -f $diffoscope ] && mv "$diffoscope" . \
-                  && echo "diffoscope uploaded to ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> buildcompare.txt
+                  && echo "diffoscope uploaded to ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> PRcomment.txt
               fi
+
+              echo '```' >> PRcomment.txt
+              cat time.txt >> PRcomment.txt
+              echo '```' >> PRcomment.txt
             fi
           done
 
       - name: Add PR comment with results
-        if: ${{ hashFiles('buildcompare.txt') != '' }}
+        if: ${{ hashFiles('PRcomment.txt') != '' }}
         uses: mshick/add-pr-comment@v2
         with:
           message-path: |
-            buildcompare.txt
+            PRcomment.txt
 
       - name: Merge PR
-        if: ${{ hashFiles('buildcompare.txt') != '' }}
+        if: ${{ hashFiles('PRcomment.txt') != '' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [ $(grep "ko=0" buildcompare.txt | wc -l) -eq 1 ]
+          if [ $(grep "ko=0" PRcomment.txt | wc -l) -eq 1 ]
           then
             gh pr merge -m -d
           fi

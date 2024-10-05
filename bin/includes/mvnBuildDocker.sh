@@ -115,7 +115,7 @@ mvnBuildDocker() {
   [ -d $base/.npm ] || mkdir -p $base/.npm
   [ -d $base/.sbt ] || mkdir -p $base/.sbt
 
-  local engine_command="$RB_OCI_ENGINE run $([ "$CI" != true ] && echo "-it ")--rm --name rebuild-central\
+  local engine_command="$RB_OCI_ENGINE run --name rebuild-central $([ "$CI" != true ] && echo "-it ")--rm\
     ${RB_OCI_ENGINE_RUN_OPTS}\
     -v $PWD:/var/maven/app${RB_OCI_VOLUME_FLAGS}\
     -v $base/m2:/var/maven/.m2${RB_OCI_VOLUME_FLAGS}\
@@ -131,13 +131,34 @@ mvnBuildDocker() {
   then
     if [[ "${crlfDocker}" == "yes" ]]
     then
-      runcommand ${engine_command} ${mvnImage} ${mvnCommand} ${mvn_engine_params} -Dline.separator=$'\r\n'
+      runcommand_time ${engine_command} ${mvnImage} ${mvnCommand} ${mvn_engine_params} -Dline.separator=$'\r\n'
     else
       mvnCommand="$(echo "${mvnCommand}" | sed "s_^mvn _/var/maven/.m2/mvncrlf _")"
-      runcommand ${engine_command} ${mvnImage} ${mvnCommand} ${mvn_engine_params}
+      runcommand_time ${engine_command} ${mvnImage} ${mvnCommand} ${mvn_engine_params}
     fi
   else
-    runcommand ${engine_command} ${mvnImage} ${mvnCommand} ${mvn_engine_params}
+    runcommand_time ${engine_command} ${mvnImage} ${mvnCommand} ${mvn_engine_params}
+  fi
+}
+
+runcommand_time() {
+  runlog "$*"
+  echo -e "\033[90m"
+  if [ "$CI" != true ]
+  then
+    echo -n "$*" | cut -d ' ' -f 1-4 >> $base/time.txt
+    /usr/bin/time -a -o $base/time.txt -f "\t%E real,\t%U user,\t%S sys" bash -c "$*"
+  else
+    bash -c "$*"
+  end
+}
+
+buildImage() {
+  local image="$1"
+  local dockerFile="$2"
+  if ! runcommand_time "${RB_OCI_ENGINE}" build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${image}" -f "${DOCKERFILES_TMP_DIR}/${dockerFile}" "${SCRIPTDIR}/bin" ;
+  then
+    fatal "Unable to build ${image} using ${dockerFile}"
   fi
 }
 
@@ -189,10 +210,7 @@ mvnBuildDockerBuildBaseToolchainsImage() {
     fi
 
     info "Building base Reproducible Builder toolchains image \033[1m${mvnImage}\033[0m"
-    if ! runcommand "${RB_OCI_ENGINE}" build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
-    then
-      fatal "Unable to build ${mvnImage} using ${DOCKERFILE}"
-    fi
+    buildImage "${mvnImage}" "${DOCKERFILE}"
 }
 
 # ################## INSTALL MAVEN ######################
@@ -211,10 +229,7 @@ mvnBuildDockerAddMaven() {
       sed "s/@@MAVEN_MAJOR@@/$(echo "${mvnVersion}" | cut -c 1)/g"
   ) > "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}"
 
-  if ! runcommand "${RB_OCI_ENGINE}" build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
-  then
-    fatal "Unable to build ${mvnImage} using ${DOCKERFILE}"
-  fi
+  buildImage "${mvnImage}" "${DOCKERFILE}"
 }
 
 # ################## LOCAL USER ######################
@@ -240,10 +255,7 @@ mvnBuildDockerAddUserLayer() {
     sed -i.bak 's/##TOOLCHAINS##//' "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}"
   fi
 
-  if ! runcommand "${RB_OCI_ENGINE}" build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
-  then
-    fatal "Unable to build ${mvnImage} using ${DOCKERFILE}"
-  fi
+  buildImage "${mvnImage}" "${DOCKERFILE}"
 }
 
 # ################## BUILD ENVIRONMENT CHOICES ######################
@@ -265,8 +277,5 @@ mvnBuildDockerAddEnvironmentLayer() {
       sed "s@\@\@BUILD_TIMEZONE\@\@@${timezone}@g"
    ) > "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}"
 
-  if ! runcommand "${RB_OCI_ENGINE}" build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
-  then
-    fatal "Unable to build ${mvnImage} using ${DOCKERFILE}"
-  fi
+  buildImage "${mvnImage}" "${DOCKERFILE}"
 }
