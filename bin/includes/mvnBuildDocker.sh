@@ -141,18 +141,6 @@ mvnBuildDocker() {
   fi
 }
 
-runcommand_time() {
-  runlog "$*"
-  echo -e "\033[90m"
-  if [ "$CI" != true ]
-  then
-    echo -n "$*" | cut -d ' ' -f 1-4 >> $base/time.txt
-    /usr/bin/time -a -o $base/time.txt -f "\t%E real,\t%U user,\t%S sys" bash -c "$*"
-  else
-    bash -c "$*"
-  end
-}
-
 buildImage() {
   local image="$1"
   local dockerFile="$2"

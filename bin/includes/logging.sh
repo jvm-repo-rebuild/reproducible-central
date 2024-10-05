@@ -41,15 +41,27 @@ function fatal() {
   exit 1
 }
 
-runlog() {
+function runlog() {
   echo -e "${Color_Off}${IWhite}[${BIGreen}RUN ${IWhite}] ${Green}$* ${Color_Off}"
 }
 
-runcommand() {
+function runcommand() {
   runlog "$*"
 #  echo -e "\033[2m$*\033[0m"
   echo -e "\033[90m"
   bash -c "$*"
+}
+
+function runcommand_time() {
+  runlog "$*"
+  echo -e "\033[90m"
+  if [ "$CI" == true ]
+  then
+    echo -n "$*" | cut -d ' ' -f 1-4 >> $base/time.txt
+    /usr/bin/time -a -o $base/time.txt -f "\t%E real,\t%U user,\t%S sys" bash -c "$*"
+  else
+    bash -c "$*"
+  fi
 }
 
 function displayMandatory() {
