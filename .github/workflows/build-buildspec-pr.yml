@@ -54,6 +54,7 @@ jobs:
               echo '```' >> PRcomment.txt
               cat time.txt >> PRcomment.txt
               echo '```' >> PRcomment.txt
+              rm -f time.txt
             fi
           done
 
