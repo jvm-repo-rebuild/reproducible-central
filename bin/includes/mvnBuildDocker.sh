@@ -144,7 +144,7 @@ mvnBuildDocker() {
 buildImage() {
   local image="$1"
   local dockerFile="$2"
-  if ! runcommand_time "${RB_OCI_ENGINE}" build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${image}" -f "${DOCKERFILES_TMP_DIR}/${dockerFile}" "${SCRIPTDIR}/bin" ;
+  if ! runcommand_time "${RB_OCI_ENGINE}" build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${image}" -f "${DOCKERFILES_TMP_DIR}/${dockerFile}" $([ "$CI" == true ] && echo "--push --cache-to type=gha,mode=max --cache-from type=gha") "${SCRIPTDIR}/bin" ;
   then
     fatal "Unable to build ${image} using ${dockerFile}"
   fi
@@ -180,8 +180,8 @@ mvnBuildDockerBuildBaseToolchainsImage() {
       esac
     done
 
-    mvnImage="rb-ubuntu-2204-${JDKTAG}"
-    local DOCKERFILE="Dockerfile-${mvnImage}"
+    mvnImage="ghcr.io/jvm-repo-rebuild/rb-ubuntu-2204-${JDKTAG}"
+    local DOCKERFILE="Dockerfile-$(basename ${mvnImage})"
     (
       cat "${DOCKERFILES_TEMPLATES_DIR}/Dockerfile.toolchains.template" | \
         sed "s_@@BASEIMAGE@@_${baseMvnImage}_g" | \
@@ -208,8 +208,8 @@ mvnBuildDockerAddMaven() {
 
   local baseMvnImage="${mvnImage}"
 
-  mvnImage="$(basename ${mvnImage})-maven"
-  local DOCKERFILE="Dockerfile-${mvnImage}"
+  mvnImage="ghcr.io/jvm-repo-rebuild/$(basename ${mvnImage})-maven"
+  local DOCKERFILE="Dockerfile-$(basename ${mvnImage})"
   (
     cat "${DOCKERFILES_TEMPLATES_DIR}/Dockerfile.maven.template" | \
       sed "s_@@BASEIMAGE@@_${baseMvnImage}_g" | \
@@ -227,8 +227,8 @@ mvnBuildDockerAddUserLayer() {
 
   local baseMvnImage="${mvnImage}"
 
-  mvnImage="$(basename ${mvnImage})-${USER_NAME}"
-  local DOCKERFILE="Dockerfile-${mvnImage}"
+  mvnImage="ghcr.io/jvm-repo-rebuild/$(basename ${mvnImage})-${USER_NAME}"
+  local DOCKERFILE="Dockerfile-$(basename ${mvnImage})"
   (
     cat "${DOCKERFILES_TEMPLATES_DIR}/Dockerfile.localuser.template" | \
       sed "s_@@BASEIMAGE@@_${baseMvnImage}_g" | \
@@ -255,10 +255,10 @@ mvnBuildDockerAddEnvironmentLayer() {
 
   local ENVTAG="$(echo "${timezone}-${locale}-${umask}" | tr '[:upper:]' '[:lower:]' | tr '/' '_' | tr '+' '_' )"
   mvnImage="${mvnImage}-${ENVTAG}"
-  local DOCKERFILE="Dockerfile-${mvnImage}"
+  local DOCKERFILE="Dockerfile-$(basename ${mvnImage})"
   (
     cat "${DOCKERFILES_TEMPLATES_DIR}/Dockerfile.environment.template" | \
-      sed "s/@@BASEIMAGE@@/${baseMvnImage}/g" | \
+      sed "s_@@BASEIMAGE@@_${baseMvnImage}_g" | \
       sed "s/@@BUILD_LOCALE@@/${locale}/g" | \
       sed "s/@@BUILD_UMASK@@/${umask}/g" | \
       sed "s/@@MAVEN_OPTS@@/${MAVEN_OPTS}/g" | \

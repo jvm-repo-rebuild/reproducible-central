@@ -21,6 +21,13 @@ jobs:
           git config --local user.email "reproducible-central@github.io"
           git config --local user.name "Reproducible Central CI"
 
+      - name: Log into ghcr.io registry
+        uses: docker/login-action@v3.0.0
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
       - name: List changed files
         id: changed-files
         uses: tj-actions/changed-files@v45
