@@ -29,7 +29,7 @@ mvnBuildDocker() {
   case ${jdk} in
     # Supported openjdk-*-jdk on ubuntu 22.04 (checked on 2024-09-14)
     8 | 11 | 17 | 18 | 19 | 21)
-      mvnImage=docker.io/library/ubuntu:22.04
+      mvnImage=ghcr.io/jvm-repo-rebuild/rb-ubuntu
       baseImageAlreadyHasJavaAndMaven=false
       [ -z "${toolchains}" ] && toolchains=${jdk}
       # will use/create custom "toolchains" rebuilder image
@@ -87,7 +87,7 @@ mvnBuildDocker() {
   mkdir -p "${DOCKERFILES_TMP_DIR}"
   if [ ! -z "${toolchains}" ];
   then
-    info "Preparing custom Reproducible Builder image rb-ubuntu-2204-jdk${jdk}-mvn${mvnVersion}-toolchains*"
+    info "Preparing custom Reproducible Builder image rb-ubuntu-jdk${jdk}-mvn${mvnVersion}-toolchains*"
     mvnBuildDockerBuildBaseToolchainsImage
     if [ "${baseImageAlreadyHasJavaAndMaven}" == "false" ];
     then
@@ -180,7 +180,7 @@ mvnBuildDockerBuildBaseToolchainsImage() {
       esac
     done
 
-    mvnImage="ghcr.io/jvm-repo-rebuild/rb-ubuntu-2204-${JDKTAG}"
+    mvnImage="ghcr.io/jvm-repo-rebuild/rb-ubuntu-${JDKTAG}"
     local DOCKERFILE="Dockerfile-$(basename ${mvnImage})"
     (
       cat "${DOCKERFILES_TEMPLATES_DIR}/Dockerfile.toolchains.template" | \
