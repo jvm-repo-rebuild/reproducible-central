@@ -10,8 +10,12 @@ tool=gradle
 jdk=17
 newline=lf
 
-# Gradle 8.2.1
-command="./gradlew clean assemble -x test -x signMavenPublication --no-daemon --no-build-cache publishToMavenLocal"
+# extracted from: wget https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/$version/junit-jupiter-api-$version.jar ; unzip -q -c junit-jupiter-api-$version.jar META-INF/MANIFEST.MF
+buildDate='2023-11-05'
+buildTime='17:49:13.996+0100'
+createdBy='17.0.5 (BellSoft 17.0.5+8-LTS)'
+
+command="./gradlew clean assemble -x test -x signMavenPublication --no-daemon --no-build-cache -Ppublishing.signArtifacts=false publishToMavenLocal -Pmanifest.buildTimestamp='$buildDate $buildTime' -Pmanifest.createdBy='$createdBy'"
 buildinfo=${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope
