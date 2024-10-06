@@ -19,6 +19,7 @@ rebuilding **5 releases** of dk.mada.style:mada-style-gradle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.2](https://central.sonatype.com/artifact/dk.mada.style/mada-style-gradle/1.0.2/pom) | | | |
 | [1.0.1](https://central.sonatype.com/artifact/dk.mada.style/mada-style-gradle/1.0.1/pom) | [gradle jdk21](mada-style-gradle-1.0.1.buildspec) | [result](mada-style-gradle-1.0.1.buildinfo): [4 :white_check_mark: ](mada-style-gradle-1.0.1.buildcompare) | 58K |
 | [1.0.0](https://central.sonatype.com/artifact/dk.mada.style/mada-style-gradle/1.0.0/pom) | [gradle jdk21](mada-style-gradle-1.0.0.buildspec) | [result](mada-style-gradle-1.0.0.buildinfo): [5 :white_check_mark: ](mada-style-gradle-1.0.0.buildcompare) | 62K |
 | [0.9.9](https://central.sonatype.com/artifact/dk.mada.style/mada-style-gradle/0.9.9/pom) | [gradle jdk21](mada-style-gradle-0.9.9.buildspec) | [result](mada-style-gradle-0.9.9.buildinfo): [5 :white_check_mark: ](mada-style-gradle-0.9.9.buildcompare) | 62K |

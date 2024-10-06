@@ -1,7 +1,10 @@
 content/com/flowlogix/flowlogix-9.0.5.buildspec:9.0.6
 content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.8.6.3.buildspec:4.8.6.4
-content/nl/basjes/codeowners/codeowners-parent/codeowners-parent-1.8.0.buildspec:1.9.0
+content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.0.1.buildspec:1.0.2
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-7.buildspec:11.1.1-beta-8
+content/io/airlift/airbase/airbase-184.buildspec:185
 content/org/jline/jline-3.26.3.buildspec:3.27.0
 content/org/apache/httpcomponents/parent/httpcomponents-parent-13.buildspec:14
+content/org/codehaus/plexus/plexus-velocity/plexus-velocity-2.1.0.buildspec:2.2.0
 content/org/mybatis/mybatis2/mybatis2-2.5.0.buildspec:2.6.0
 content/org/mybatis/scripting/mybatis-thymeleaf/mybatis-thymeleaf-1.0.4.buildspec:1.1.0
