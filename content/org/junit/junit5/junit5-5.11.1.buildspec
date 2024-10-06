@@ -10,10 +10,12 @@ tool=gradle
 jdk=21
 newline=lf
 
-buildTimestamp='2024-08-14 11:20:33.375+0200'
-createdBy='21.0.3 (Eclipse Adoptium 21.0.3+9-LTS)'
+# extracted from: wget https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/$version/junit-jupiter-api-$version.jar ; unzip -q -c junit-jupiter-api-$version.jar META-INF/MANIFEST.MF
+buildDate='2024-09-25'
+buildTime='08:58:36.235+0200'
+createdBy='21.0.2 (Eclipse Adoptium 21.0.2+13-LTS)'
 
-command="./gradlew clean assemble -x test -x signMavenPublication --no-daemon --no-build-cache -Ppublishing.signArtifacts=false publishToMavenLocal -Pmanifest.buildTimestamp='$buildTimestamp' -Pmanifest.createdBy='$createdBy'"
+command="./gradlew clean assemble -x test -x signMavenPublication --no-daemon --no-build-cache -Ppublishing.signArtifacts=false publishToMavenLocal -Pmanifest.buildTimestamp='$buildDate $buildTime' -Pmanifest.createdBy='$createdBy'"
 buildinfo=${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope
