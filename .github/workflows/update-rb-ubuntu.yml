@@ -31,3 +31,11 @@ jobs:
           tags: ghcr.io/jvm-repo-rebuild/rb-ubuntu:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
+
+      - name: Copy Diffoscope to ghcr.io
+        uses: truemark/skopeo-copy-action@v1
+        with:
+          src-image: "docker://registry.salsa.debian.org/reproducible-builds/diffoscope:latest"
+          dest-image: "docker://ghcr.io/jvm-repo-rebuild/diffoscope:latest"
+          dest-username: ${{ github.actor }}
+          dest-password: ${{ secrets.GITHUB_TOKEN }}
