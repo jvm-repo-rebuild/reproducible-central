@@ -24,14 +24,14 @@ Source code: [https://github.com/io7m/certusine.git](https://github.com/io7m/cer
 * [com.io7m.certusine:com.io7m.certusine.vultr](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.vultr/overview)
 </details>
 
-rebuilding **3 releases** of com.io7m.certusine:com.io7m.certusine:
+rebuilding **4 releases** of com.io7m.certusine:com.io7m.certusine:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [3.1.0](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/3.1.0/pom) | [mvn jdk21](com.io7m.certusine-3.1.0.buildspec) | [result](com.io7m.certusine-3.1.0.buildinfo): [43 :white_check_mark:  2 :warning:](com.io7m.certusine-3.1.0.buildcompare) | 939K |
-| [3.0.0](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/3.0.0/pom) | | | |
+| [3.0.0](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/3.0.0/pom) | [mvn jdk21](com.io7m.certusine-3.0.0.buildspec) | [result](com.io7m.certusine-3.0.0.buildinfo): [34 :white_check_mark:  11 :warning:](com.io7m.certusine-3.0.0.buildcompare) | 917K |
 | [2.0.0](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/2.0.0/pom) | [mvn jdk17.0.7](com.io7m.certusine-2.0.0.buildspec) | [result](com.io7m.certusine-2.0.0.buildinfo): [44 :white_check_mark:  2 :warning:](com.io7m.certusine-2.0.0.buildcompare) [:mag:](com.io7m.certusine-2.0.0.diffoscope) | 905K |
 | [1.1.0](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/1.1.0/pom) | | | |
 | [1.0.0](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/1.0.0/pom) | | | |
