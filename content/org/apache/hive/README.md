@@ -61,13 +61,13 @@ Source code: [https://github.com/apache/hive.git](https://github.com/apache/hive
 * [org.apache.hive:metastore-tools-common](https://central.sonatype.com/artifact/org.apache.hive/metastore-tools-common/overview)
 </details>
 
-rebuilding **2 releases** of org.apache.hive:hive:
+rebuilding **3 releases** of org.apache.hive:hive:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.0.1](https://central.sonatype.com/artifact/org.apache.hive/hive/4.0.1/pom) | | | |
+| [4.0.1](https://central.sonatype.com/artifact/org.apache.hive/hive/4.0.1/pom) | [mvn jdk8](hive-4.0.1.buildspec) | [result](hive-4.0.1.buildinfo): [135 :white_check_mark:  19 :warning:](hive-4.0.1.buildcompare) [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) | 536M |
 | [4.0.0](https://central.sonatype.com/artifact/org.apache.hive/hive/4.0.0/pom) | [mvn jdk8](hive-4.0.0.buildspec) | [result](hive-4.0.0.buildinfo): [135 :white_check_mark:  18 :warning:](hive-4.0.0.buildcompare) [:mag:](hive-4.0.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) | 516M |
 | [4.0.0-beta-1](https://central.sonatype.com/artifact/org.apache.hive/hive/4.0.0-beta-1/pom) | | | |
 | [4.0.0-alpha-2](https://central.sonatype.com/artifact/org.apache.hive/hive/4.0.0-alpha-2/pom) | [mvn jdk8](hive-4.0.0-alpha-2.buildspec) | [result](hive-4.0.0-alpha-2.buildinfo): [142 :white_check_mark:  20 :warning:](hive-4.0.0-alpha-2.buildcompare) [:mag:](hive-4.0.0-alpha-2.diffoscope) | 351M |
