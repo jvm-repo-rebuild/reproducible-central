@@ -24,7 +24,7 @@ grep '# diffoscope ' ${compare} | ${sed} -e 's/# diffoscope //' | ( while read -
 do
   ((counter++))
   echo -e "$counter / $count \033[1m$line\033[0m"
-  docker run $([ "$CI" != true ] && echo "-it ")--rm -w /mnt -v $(pwd)/$(dirname ${compare})/${builddir}:/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress --exclude META-INF/jandex.idx $line
+  docker run --rm -w /mnt -v $(pwd)/$(dirname ${compare})/${builddir}:/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress --exclude META-INF/jandex.idx $line
   echo
 done ) | tee ${diffoscope_file}
 
