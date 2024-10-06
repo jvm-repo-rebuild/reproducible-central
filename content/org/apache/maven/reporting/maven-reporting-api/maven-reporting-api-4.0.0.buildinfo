@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Reporting API
+group-id=org.apache.maven.reporting
+artifact-id=maven-reporting-api
+version=4.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-reporting-api.git
+source.scm.tag=maven-reporting-api-4.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.maven.reporting
+outputs.0.filename=maven-reporting-api-4.0.0.pom
+outputs.0.length=2793
+outputs.0.checksums.sha512=eb31bfbec646efe693c9633334c5f0777d6b664cf988feee52936463c44e74c988a051e92b787d49489435cc8aba7e0ff3d3f6c6d4e82eb4182436ea337d46dc
+
+outputs.1.groupId=org.apache.maven.reporting
+outputs.1.filename=maven-reporting-api-4.0.0.jar
+outputs.1.length=9763
+outputs.1.checksums.sha512=5a76ac4d7d9bbd2c834bfa16062bbf9523588e4ace9badfd2820b5cc5b7efbd1aa148479e4aa1a0f94347fa9ab7fd1ab6e9055d35b6f9c49161aa6a9c2ba6bc0
+
+outputs.2.groupId=org.apache.maven.reporting
+outputs.2.filename=maven-reporting-api-4.0.0-source-release.zip
+outputs.2.length=20041
+outputs.2.checksums.sha512=9c5ffea32d01fa650ff5749daefa8a9f53f3bc2d3f427a5a551269101a64d42aa9dd236f99d1c16248a295bb6c1a3b6e7b9169887571b4c89ec697142b66beb0
+
+outputs.3.groupId=org.apache.maven.reporting
+outputs.3.filename=maven-reporting-api-4.0.0-sources.jar
+outputs.3.length=12246
+outputs.3.checksums.sha512=b24a2f8a4d442fd3a2bf0b161bfd97b0b47f177d4b962630e0e42ce7d96a2cffbff75a03162361c5e7c6d3d7d3a9351b5ce68ad6891a9424c1e6cbe2994ea9af
+
+outputs.4.groupId=org.apache.maven.reporting
+outputs.4.filename=maven-reporting-api-4.0.0-cyclonedx.xml
+outputs.4.length=5051
+outputs.4.checksums.sha512=49bb6fafbfbc3f18ab49d8af81fa9b6a2e3f92d9339bd3abb88b9a9ad14335cbb578ade45647a83c5f047460fcb29a76876263f7fd3546b63d1ec02cecfc6050
+
+outputs.5.groupId=org.apache.maven.reporting
+outputs.5.filename=maven-reporting-api-4.0.0-cyclonedx.json
+outputs.5.length=5821
+outputs.5.checksums.sha512=a54b119d5f894ad2b8690bfc7adfd4d6cb3b513b3418f3cc5baf80e275d16c3b1bdf8b6aad67374c4ed62db279aebedd4e6a989b87c16769c51f3ee078df9043
