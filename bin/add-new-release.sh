@@ -26,7 +26,9 @@ then
   referenceRepo="https://repo.maven.apache.org/maven2" && [ -n "$3" ] && referenceRepo=https://repository.apache.org/content/repositories/$3
   echo "detecting JDK from $nextJar downloaded from $referenceRepo/${jarGroupIdAsDir}/${jarArtifactId}/${nextVersion}/"
   [ -d tmp ] || mkdir tmp
+  nextPom="$jarArtifactId-$nextVersion.pom"
   [ -f tmp/$nextJar ] || curl -s --fail $referenceRepo/${jarGroupIdAsDir}/${jarArtifactId}/${nextVersion}/$nextJar --output tmp/$nextJar
+  [ -f tmp/$nextPom ] || curl -s --fail $referenceRepo/${jarGroupIdAsDir}/${jarArtifactId}/${nextVersion}/$nextPom --output tmp/$nextPom
 fi
 if [ -f tmp/$nextJar ]
 then
@@ -58,6 +60,11 @@ then
   unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF > tmp/$jarArtifactId-$nextVersion-MANIFEST.MF
   unzip -q -c tmp/$nextJar META-INF/maven/$groupId/$jarArtifactId/pom.properties > tmp/$jarArtifactId-$nextVersion-pom.properties
   unzip -q -c tmp/$nextJar META-INF/maven/$groupId/$jarArtifactId/pom.xml > tmp/$jarArtifactId-$nextVersion-pom.xml
+  if ! diff -q tmp/$nextPom tmp/$jarArtifactId-$nextVersion-pom.xml
+  then
+    echo -e "\033[0;31mbuild done with Maven 4: consumer pom in Maven Central differs from build pom in jar\033[0m"
+  fi
+  echo "buildspec tool=$tool"
   du --apparent-size -h tmp/$jarArtifactId-$nextVersion*
   detectNewline() {
     [ -s $1 ] || return
