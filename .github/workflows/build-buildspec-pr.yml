@@ -58,7 +58,7 @@ jobs:
                 ./build_diffoscope.sh "$buildcompare" buildcache/$artifactId
                 diffoscope="$(dirname $file)/$(basename $buildinfo .buildinfo).diffoscope"
                 [ -f $diffoscope ] && mv "$diffoscope" . \
-                  && echo "diffoscope uploaded to ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> PRcomment.txt
+                  && echo ":mag: diffoscope analysis uploaded to ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> PRcomment.txt
               fi
 
               echo '```' >> PRcomment.txt
