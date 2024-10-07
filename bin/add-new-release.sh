@@ -60,11 +60,6 @@ then
   unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF > tmp/$jarArtifactId-$nextVersion-MANIFEST.MF
   unzip -q -c tmp/$nextJar META-INF/maven/$groupId/$jarArtifactId/pom.properties > tmp/$jarArtifactId-$nextVersion-pom.properties
   unzip -q -c tmp/$nextJar META-INF/maven/$groupId/$jarArtifactId/pom.xml > tmp/$jarArtifactId-$nextVersion-pom.xml
-  if ! diff -q tmp/$nextPom tmp/$jarArtifactId-$nextVersion-pom.xml
-  then
-    echo -e "\033[0;31mbuild done with Maven 4: consumer pom in Maven Central differs from build pom in jar\033[0m"
-  fi
-  echo "buildspec tool=$tool"
   du --apparent-size -h tmp/$jarArtifactId-$nextVersion*
   detectNewline() {
     [ -s $1 ] || return
@@ -77,6 +72,10 @@ then
   }
   detectNewline tmp/$jarArtifactId-$nextVersion-pom.properties
   detectNewline tmp/$jarArtifactId-$nextVersion-pom.xml
+  [ -s tmp/$jarArtifactId-$nextVersion-pom.xml ] && if ! diff -q tmp/$nextPom tmp/$jarArtifactId-$nextVersion-pom.xml
+  then
+    echo -e "\033[0;31mbuild done with Maven 4\033[0m: consumer pom in Maven Central differs from build pom in jar"
+  fi
 else
   [ -n "$jarArtifactId" ] && echo -e "\033[0;31m  $nextJar not found\033[0;0m"
 fi
@@ -84,6 +83,7 @@ fi
 echo "buildspec newline=$newline"
 [ -n "$os" ] && echo "buildspec os=$os"
 [ -n "$arch" ] && echo "buildspec os=$arch"
+echo "buildspec tool=$tool"
 # TODO add a way to check if new release requires same os/arch (probably requires some config in buildspec: it's ok given it does not happen often and has by nature a hard to guess impact)
 
 # check git tag existence
