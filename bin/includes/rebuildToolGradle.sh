@@ -55,6 +55,11 @@ rebuildToolGradle() {
   if [ $? -eq 0 ]; then
       # output content is expected to be available in repository/ directory
 
+      # fix line endings of pom files for gradle on windows
+      if [[ "${newline}" == crlf* ]]; then
+        find ${OUTPUTDIR} -name "*.pom" -exec sed -i -z "s/\n/\r\n/g" {} \;
+      fi
+
       # compare against reference from Maven Central and generate buildinfo and buildcompare
       compareOutput ${OUTPUTDIR}
   fi
