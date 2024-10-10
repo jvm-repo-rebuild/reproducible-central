@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/jline/jline3.git](https://github.com/jline/jline3.git)
 
-<details><summary>This project defines 20 modules:</summary>
+<details><summary>This project defines 21 modules:</summary>
 
 * [org.jline:jansi](https://central.sonatype.com/artifact/org.jline/jansi/overview)
 * [org.jline:jansi-core](https://central.sonatype.com/artifact/org.jline/jansi-core/overview)
@@ -15,6 +15,7 @@ Source code: [https://github.com/jline/jline3.git](https://github.com/jline/jlin
 * [org.jline:jline-builtins](https://central.sonatype.com/artifact/org.jline/jline-builtins/overview)
 * [org.jline:jline-console](https://central.sonatype.com/artifact/org.jline/jline-console/overview)
 * [org.jline:jline-console-ui](https://central.sonatype.com/artifact/org.jline/jline-console-ui/overview)
+* [org.jline:jline-curses](https://central.sonatype.com/artifact/org.jline/jline-curses/overview)
 * [org.jline:jline-demo](https://central.sonatype.com/artifact/org.jline/jline-demo/overview)
 * [org.jline:jline-graal](https://central.sonatype.com/artifact/org.jline/jline-graal/overview)
 * [org.jline:jline-groovy](https://central.sonatype.com/artifact/org.jline/jline-groovy/overview)
@@ -31,13 +32,13 @@ Source code: [https://github.com/jline/jline3.git](https://github.com/jline/jlin
 * [org.jline:jline-terminal-jni](https://central.sonatype.com/artifact/org.jline/jline-terminal-jni/overview)
 </details>
 
-rebuilding **12 releases** of org.jline:jline:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **13 releases** of org.jline:jline:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.27.0](https://central.sonatype.com/artifact/org.jline/jline/3.27.0/pom) | | | |
+| [3.27.0](https://central.sonatype.com/artifact/org.jline/jline/3.27.0/pom) | [mvn jdk22](jline-3.27.0.buildspec) | [result](jline-parent-3.27.0.buildinfo): [62 :white_check_mark: ](jline-parent-3.27.0.buildcompare) | 7.1M |
 | [3.26.3](https://central.sonatype.com/artifact/org.jline/jline/3.26.3/pom) | [mvn jdk22](jline-3.26.3.buildspec) | [result](jline-parent-3.26.3.buildinfo): [59 :white_check_mark: ](jline-parent-3.26.3.buildcompare) | 7.1M |
 | [3.26.2](https://central.sonatype.com/artifact/org.jline/jline/3.26.2/pom) | [mvn jdk22](jline-3.26.2.buildspec) | [result](jline-parent-3.26.2.buildinfo): [59 :white_check_mark: ](jline-parent-3.26.2.buildcompare) | 7.0M |
 | [3.26.1](https://central.sonatype.com/artifact/org.jline/jline/3.26.1/pom) | [mvn jdk22](jline-3.26.1.buildspec) | [result](jline-parent-3.26.1.buildinfo): [59 :white_check_mark: ](jline-parent-3.26.1.buildcompare) | 7.1M |
