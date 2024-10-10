@@ -39,6 +39,31 @@ jobs:
         run: |
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             if [[ $file == *.buildspec ]]; then
+              if [[ "$command" == SHELL* ]]
+              then
+                # don't even try to automatically build, but prepare message for PR comment
+                echo "command=$command"
+                echo <<EOF >> PRcomment.txt
+          Configured build command requires interactive shell:" >> PRcomment.txt
+          ```
+          command=$command
+          ```
+          Run
+          ```
+          git switch $artifactId-$version
+          ./rebuild.sh $file
+
+               ( ... interactive shell ... )
+
+          git add $(dirname $file)
+          git commit -m "./rebuild.sh $file"
+          git push
+          gh pr merge -m
+          ```
+          EOF
+                continue
+              fi
+
               sudo apt-get install -y dos2unix
               ./rebuild.sh $file
               bin/update-project-summary.sh "$(dirname $file)"
