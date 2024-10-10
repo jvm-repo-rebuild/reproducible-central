@@ -27,42 +27,18 @@ mvnBuildDocker() {
   esac
 
   case ${jdk} in
-    # Supported openjdk-*-jdk on ubuntu 22.04 (checked on 2024-09-14)
-    8 | 11 | 17 | 18 | 19 | 21)
+    # Supported openjdk-*-jdk on ubuntu 22.04 (checked on 2024-09-14) and Azul ones https://docs.azul.com/core/tpl
+    6 | 7 | 8 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 21 | 22 | 23 | 24)
       mvnImage=ghcr.io/jvm-repo-rebuild/rb-ubuntu
       baseImageAlreadyHasJavaAndMaven=false
       [ -z "${toolchains}" ] && toolchains=${jdk}
       # will use/create custom "toolchains" rebuilder image
       ;;
     # for other JDK, select "official" Maven Docker image to match required JDK version: https://hub.docker.com/_/maven
-    6 )
-      # This is the latest image available
-      mvnVersion="3.2.5"
-      mvnImage=docker.io/library/maven:3.2.5-jdk-6b32
-      baseImageAlreadyHasJavaAndMaven=true
-      crlfDocker="yes"
-      ;;
-    7)
-      # This is the latest image available
-      mvnVersion="3.6.1"
-      mvnImage=docker.io/library/maven:3.6.1-jdk-7-alpine
-      baseImageAlreadyHasJavaAndMaven=true
-      crlfDocker="yes"
-      ;;
     9)
       # This is the latest image available
       mvnVersion="3.5.4"
       mvnImage=docker.io/library/maven:3.5.4-jdk-9-slim
-      baseImageAlreadyHasJavaAndMaven=true
-      ;;
-    14 | 15 | 16 )
-      mvnImage=docker.io/library/maven:${mvnVersion}-openjdk-${jdk}-slim
-      baseImageAlreadyHasJavaAndMaven=true
-      ;;
-    22 | 23 | 24 )
-      # For this non-LTS version we use the Ubuntu 22.04 base image that already has this JDK built in.
-      # Only a single non-LTS per build is supported.
-      mvnImage=docker.io/library/maven:${mvnVersion}-eclipse-temurin-${jdk}-jammy
       baseImageAlreadyHasJavaAndMaven=true
       ;;
     *)
@@ -169,10 +145,9 @@ mvnBuildDockerBuildBaseToolchainsImage() {
           JDKPACKAGES="${JDKPACKAGES} openjdk-${toolchainsjdk}-jdk "
           JDKTAG="${JDKTAG}-${toolchainsjdk}"
           ;;
-        22 | 23 | 24 )
-          # This non-LTS version we use the Ubuntu 22.04 base image that already has this JDK built in.
-          baseMvnImage=docker.io/library/maven:${mvnVersion}-eclipse-temurin-${toolchainsjdk}-jammy
-          baseImageAlreadyHasJavaAndMaven=true
+        12 | 13 | 14 | 15 | 16 | 22 | 23 | 24 )
+          # For these non-LTS versions, we use Azul JDK
+          JDKPACKAGES="${JDKPACKAGES} zulu${toolchainsjdk}-jdk"
           JDKTAG="${JDKTAG}-${toolchainsjdk}"
           ;;
         *)
