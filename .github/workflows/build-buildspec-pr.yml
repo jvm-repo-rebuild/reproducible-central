@@ -39,6 +39,7 @@ jobs:
         run: |
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             if [[ $file == *.buildspec ]]; then
+              . $file
               if [[ "$command" == SHELL* ]]
               then
                 # don't even try to automatically build, but prepare message for PR comment
@@ -71,7 +72,6 @@ jobs:
               git commit -m "./rebuild.sh $file"
               git push
 
-              . $file
               buildcompare="$(dirname $file)/$(basename $buildinfo .buildinfo).buildcompare"
 
               echo '```' >> PRcomment.txt
