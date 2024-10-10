@@ -14,7 +14,6 @@
 FROM @@BASEIMAGE@@
 
 # By running the JDKs as a separate command they become a separate layer and thus we have less layers if we need to do more builds.
-# Adding 'bash' as a dummy to ensure the command is always valid (even if there are no additional JDKs to install)
 RUN apt-get -q update \
     && apt-get -q install -y --no-install-recommends \
     bash @@JDKPACKAGES@@
