@@ -44,24 +44,23 @@ jobs:
               then
                 # don't even try to automatically build, but prepare message for PR comment
                 echo "command=$command"
-                echo <<EOF >> PRcomment.txt
-          Configured build command requires interactive shell:" >> PRcomment.txt
-          ```
+                echo "Configured build command requires interactive shell:
+          \`\`\`
           command=$command
-          ```
+          \`\`\`
           Run
-          ```
+          \`\`\`
           git switch $artifactId-$version
           ./rebuild.sh $file
 
                ( ... interactive shell ... )
 
           git add $(dirname $file)
-          git commit -m "./rebuild.sh $file"
+          git commit -m './rebuild.sh $file'
           git push
           gh pr merge -m
-          ```
-          EOF
+          \`\`\`" >> PRcomment.txt
+                cat PRcomment.txt
                 continue
               fi
 
