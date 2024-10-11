@@ -239,6 +239,11 @@
       <url>https://repo.gradle.org/gradle/libs-releases/</url>
     </mirror>
     <mirror>
+      <id>hope-repository</id>
+      <mirrorOf>hope-repository</mirrorOf>
+      <url>https://nexus.hope.nyc.ny.us/repository/maven-releases/</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>
