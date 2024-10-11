@@ -17,13 +17,13 @@ Source code: [https://github.com/flowlogix/flowlogix.git](https://github.com/flo
 * [com.flowlogix:jee-examples](https://central.sonatype.com/artifact/com.flowlogix/jee-examples/overview)
 </details>
 
-rebuilding **18 releases** of com.flowlogix:flowlogix:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **19 releases** of com.flowlogix:flowlogix:
+- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [9.0.7](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/9.0.7/pom) | | | |
+| [9.0.7](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/9.0.7/pom) | [mvn jdk23](flowlogix-9.0.7.buildspec) | [result](flowlogix-9.0.7.buildinfo): [9 :white_check_mark: ](flowlogix-9.0.7.buildcompare) | 219K |
 | [9.0.6](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/9.0.6/pom) | | | |
 | [9.0.5](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/9.0.5/pom) | [mvn jdk22](flowlogix-9.0.5.buildspec) | [result](flowlogix-9.0.5.buildinfo): [9 :white_check_mark: ](flowlogix-9.0.5.buildcompare) | 218K |
 | [9.0.4](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/9.0.4/pom) | [mvn jdk22](flowlogix-9.0.4.buildspec) | [result](flowlogix-9.0.4.buildinfo): [9 :white_check_mark: ](flowlogix-9.0.4.buildcompare) | 218K |
