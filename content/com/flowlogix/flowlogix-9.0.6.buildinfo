@@ -1,0 +1,78 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Flow Logix Root
+group-id=com.flowlogix
+artifact-id=flowlogix
+version=9.0.6
+
+# source information
+source.scm.uri=scm:git:git://github.com:flowlogix/flowlogix.git
+source.scm.tag=Version-9.0.6
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=23
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=flowlogix-datamodel
+
+# aggregated output
+
+outputs.0.coordinates=com.flowlogix:flowlogix
+
+outputs.0.0.groupId=com.flowlogix
+outputs.0.0.filename=flowlogix-9.0.6.pom
+outputs.0.0.length=8900
+outputs.0.0.checksums.sha512=d96277e4093eb96e9312d7e0b56453b856d892c65cb25fedd6cdae1ac7c83c799a9de2e5440e7dad15bf7dae05899f9bd8b025c984d7ccba3e4677aea36b2038
+
+outputs.1.coordinates=com.flowlogix:flowlogix-bom
+
+outputs.1.0.groupId=com.flowlogix
+outputs.1.0.filename=flowlogix-bom-9.0.6.pom
+outputs.1.0.length=3005
+outputs.1.0.checksums.sha512=17b90147f14b12ec77bb9dc6d805d5090f4318cbf50e43b6f0967cd3de448f77ffa0e07fd915cd8c60605a85705286329feadd61fca75c6e7564acbe2ef023da
+
+outputs.2.coordinates=com.flowlogix:jakarta-ee
+
+outputs.2.0.groupId=com.flowlogix
+outputs.2.0.filename=jakarta-ee-9.0.6.pom
+outputs.2.0.length=1826
+outputs.2.0.checksums.sha512=2e4fc372f9808971da5adeea9abcef5511aad77fba066ed8707b1b390630123d9468503479e54d6ae383a8f5f63f1ee9d45f7959c11c7ea47ee6a9d29523ca10
+
+outputs.3.coordinates=com.flowlogix:flowlogix-jee
+
+outputs.3.0.groupId=com.flowlogix
+outputs.3.0.filename=flowlogix-jee-9.0.6.pom
+outputs.3.0.length=37570
+outputs.3.0.checksums.sha512=ed9c12ff0f9166b9b58583c30e79d799464a5a8c7a0e42225fff52edaa30ff884addca71079353c5a50f13d0597eb4e1ce03edb2ffb8e49e765762114718c4a5
+
+outputs.3.1.groupId=com.flowlogix
+outputs.3.1.filename=flowlogix-jee-9.0.6.jar
+outputs.3.1.length=44505
+outputs.3.1.checksums.sha512=e347b9e4b7519e90c6d23c74bbd3baac311b4ffa60697224d2efd5b16d1f1cefdbf4286c36a50487e89d8065e377533f459ebde12d94d9b5ca8fab8bd1047f6e
+
+outputs.3.2.groupId=com.flowlogix
+outputs.3.2.filename=flowlogix-jee-9.0.6-tests.jar
+outputs.3.2.length=37634
+outputs.3.2.checksums.sha512=f1bf8b010d5638ddbef883bf273f89de9bb79eb65a9270cc08020ac4c3c6830f362ea5ade9752ac054f7fed09ca10f533913f519bd6642c3067999f3af956c2d
+
+outputs.4.coordinates=com.flowlogix:flowlogix-datamodel
+
+outputs.4.0.groupId=com.flowlogix
+outputs.4.0.filename=flowlogix-datamodel-9.0.6.pom
+outputs.4.0.length=7322
+outputs.4.0.checksums.sha512=3754dae63fe72d72a4196ffc16307d476ecf0012b45b1aecb7a2c9c127f73076c672d5bf7f64f670dbe55930acad0b8fdec2fda92bf8f489f36b8026935e3dae
+
+outputs.4.1.groupId=com.flowlogix
+outputs.4.1.filename=flowlogix-datamodel-9.0.6.jar
+outputs.4.1.length=43632
+outputs.4.1.checksums.sha512=c5d58602889ac93ea67c284b80e27f0d7bef94f7cc2b9cec5cd90383afe81ad4ef05ab3d21ba6dd878023bcbc74d9a601d82a0e68744f823b598ad53b4036c48
+
+outputs.4.2.groupId=com.flowlogix
+outputs.4.2.filename=flowlogix-datamodel-9.0.6-tests.jar
+outputs.4.2.length=39096
+outputs.4.2.checksums.sha512=dc613047842be342420ed205e8e061fc239f6a54b0e76671d0ebad2c2a6b92fa2fdaedfa4bcc39a5a058bf3000799665351c8ee9a21731f9c9555390ddae7ea2
