@@ -68,6 +68,7 @@ rebuilding **4 releases** of io.opentelemetry:opentelemetry-sdk:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.43.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.43.0/pom) | | | |
 | [1.42.1](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.42.1/pom) | [gradle jdk17](opentelemetry-sdk-1.42.1.buildspec) | [result](opentelemetry-sdk-1.42.1.buildinfo): [30 :white_check_mark:  53 :warning:](opentelemetry-sdk-1.42.1.buildcompare) | 3.0M |
 | [1.42.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.42.0/pom) | | | |
 | [1.41.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.41.0/pom) | | | |

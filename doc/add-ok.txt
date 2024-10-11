@@ -1,9 +1,6 @@
-content/ch/qos/logback/logback-1.5.8.buildspec:1.5.9
-content/com/flowlogix/flowlogix-9.0.5.buildspec:9.0.7
 content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.8.6.3.buildspec:4.8.6.4
-content/io/airlift/airbase/airbase-185.buildspec:186
-content/org/jline/jline-3.26.3.buildspec:3.27.0
+content/io/trino/trino-460.buildspec:461
 content/org/apache/httpcomponents/parent/httpcomponents-parent-13.buildspec:14
-content/org/codehaus/plexus/plexus-velocity/plexus-velocity-2.1.0.buildspec:2.2.0
+content/org/codehaus/mojo/taglist-maven-plugin/taglist-maven-plugin-3.1.0.buildspec:3.2.0
 content/org/mybatis/mybatis2/mybatis2-2.5.0.buildspec:2.6.0
 content/org/mybatis/scripting/mybatis-thymeleaf/mybatis-thymeleaf-1.0.4.buildspec:1.1.0
