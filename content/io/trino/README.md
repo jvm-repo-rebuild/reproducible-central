@@ -122,13 +122,13 @@ Source code: [https://github.com/trinodb/trino.git](https://github.com/trinodb/t
 * [io.trino:trino-web-ui](https://central.sonatype.com/artifact/io.trino/trino-web-ui/overview)
 </details>
 
-rebuilding **15 releases** of io.trino:trino-root:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **16 releases** of io.trino:trino-root:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [461](https://central.sonatype.com/artifact/io.trino/trino-root/461/pom) | | | |
+| [461](https://central.sonatype.com/artifact/io.trino/trino-root/461/pom) | [mvn jdk23](trino-461.buildspec) | [result](trino-root-461.buildinfo): [596 :white_check_mark: ](trino-root-461.buildcompare) | 5.4G |
 | [460](https://central.sonatype.com/artifact/io.trino/trino-root/460/pom) | [mvn jdk22](trino-460.buildspec) | [result](trino-root-460.buildinfo): [596 :white_check_mark: ](trino-root-460.buildcompare) | 5.4G |
 | [459](https://central.sonatype.com/artifact/io.trino/trino-root/459/pom) | [mvn jdk22](trino-459.buildspec) | [result](trino-root-459.buildinfo): [603 :white_check_mark: ](trino-root-459.buildcompare) | 5.4G |
 | [458](https://central.sonatype.com/artifact/io.trino/trino-root/458/pom) | [mvn jdk22](trino-458.buildspec) | [result](trino-root-458.buildinfo): [609 :white_check_mark: ](trino-root-458.buildcompare) | 5.5G |
