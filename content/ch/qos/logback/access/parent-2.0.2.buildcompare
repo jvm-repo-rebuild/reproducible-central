@@ -1,0 +1,9 @@
+version=2.0.2
+ok=18
+ko=0
+ignored=0
+okFiles="parent-2.0.2.pom common-2.0.2.pom common-2.0.2.jar common-2.0.2-sources.jar common-2.0.2-test-sources.jar common-2.0.2-tests.jar tomcat-2.0.2.pom tomcat-2.0.2.jar tomcat-2.0.2-sources.jar tomcat-2.0.2-test-sources.jar jetty11-2.0.2.pom jetty11-2.0.2.jar jetty11-2.0.2-sources.jar jetty11-2.0.2-test-sources.jar jetty12-2.0.2.pom jetty12-2.0.2.jar jetty12-2.0.2-sources.jar jetty12-2.0.2-test-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
