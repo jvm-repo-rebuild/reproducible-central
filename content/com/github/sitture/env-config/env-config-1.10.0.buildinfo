@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=env-config
+group-id=com.github.sitture
+artifact-id=env-config
+version=1.10.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/sitture/env-config.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.github.sitture
+outputs.0.filename=env-config-1.10.0.pom
+outputs.0.length=10312
+outputs.0.checksums.sha512=f3ef37937b1fd6de0d60e4f7b2cfe7abe16855d0bc08e2f5925525d150606be1af46b5a46d4dd1de27877d2c2f736e193289059a7de053d46c0fe4e19d0b0771
+
+outputs.1.groupId=com.github.sitture
+outputs.1.filename=env-config-1.10.0.jar
+outputs.1.length=31272
+outputs.1.checksums.sha512=08151295d1ade0660ed8874c0cba86f354a49b548b68a6244199cb2265d5f42e55671ecd42c6de4037a062baa64ba862530c15510af3fc8fe819c15f1ec9584a
+
+outputs.2.groupId=com.github.sitture
+outputs.2.filename=env-config-1.10.0-sources.jar
+outputs.2.length=18293
+outputs.2.checksums.sha512=631fccc8ac61253d05064a7c0c226064fd2c8c0b68d30d7ce3343e12894fe4968a373d8bdb427ebda80a2aca7f31533ddee628addac9e55d54fca2ef1e04e5ce
