@@ -32,7 +32,7 @@ then
 fi
 if [ -f tmp/$nextJar ]
 then
-  unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep Jdk
+  unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep -i Jdk
   nextJdk="$(unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep Jdk | cut -d ' ' -f 2 | sed -e 's/^1\.//' | sed -e 's/\r//')"
   if [ -z "$nextJdk" ]
   then
