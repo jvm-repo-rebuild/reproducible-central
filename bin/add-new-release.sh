@@ -45,6 +45,7 @@ then
       sed -i "s/^jdk=.*/jdk=${nextJdk}/" ${nextBuildspec}
     fi
   fi
+  unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep "Built-"
 
   if [[ ${groupId} == io.wcm* ]]
   then
