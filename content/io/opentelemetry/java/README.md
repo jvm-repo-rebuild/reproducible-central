@@ -7,9 +7,10 @@
 
 Source code: [https://github.com/open-telemetry/opentelemetry-java.git](https://github.com/open-telemetry/opentelemetry-java.git)
 
-<details><summary>This project defines 51 modules:</summary>
+<details><summary>This project defines 52 modules:</summary>
 
 * [io.opentelemetry:opentelemetry-api](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-api/overview)
+* [io.opentelemetry:opentelemetry-api-events](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-api-events/overview)
 * [io.opentelemetry:opentelemetry-api-incubator](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-api-incubator/overview)
 * [io.opentelemetry:opentelemetry-bom](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-bom/overview)
 * [io.opentelemetry:opentelemetry-bom-alpha](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-bom-alpha/overview)
@@ -62,9 +63,9 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java.git](https://
 * [io.opentelemetry:opentelemetry-semconv](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-semconv/overview)
 </details>
 
-rebuilding **9 releases** of io.opentelemetry:opentelemetry-sdk:
+rebuilding **10 releases** of io.opentelemetry:opentelemetry-sdk:
 - **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -76,7 +77,7 @@ rebuilding **9 releases** of io.opentelemetry:opentelemetry-sdk:
 | [1.39.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.39.0/pom) | [gradle jdk17](opentelemetry-sdk-1.39.0.buildspec) | [result](opentelemetry-sdk-1.39.0.buildinfo): [83 :white_check_mark: ](opentelemetry-sdk-1.39.0.buildcompare) | 2.9M |
 | [1.38.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.38.0/pom) | [gradle jdk17](opentelemetry-sdk-1.38.0.buildspec) | [result](opentelemetry-sdk-1.38.0.buildinfo): [30 :white_check_mark:  53 :warning:](opentelemetry-sdk-1.38.0.buildcompare) [:memo:](https://github.com/open-telemetry/opentelemetry-java/pull/6471) | 2.9M |
 | [1.37.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.37.0/pom) | [gradle jdk17](opentelemetry-sdk-1.37.0.buildspec) | [result](opentelemetry-sdk-1.37.0.buildinfo): [30 :white_check_mark:  53 :warning:](opentelemetry-sdk-1.37.0.buildcompare) | 2.7M |
-| [1.36.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.36.0/pom) | | | |
+| [1.36.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.36.0/pom) | [gradle jdk17](opentelemetry-sdk-1.36.0.buildspec) | [result](opentelemetry-sdk-1.36.0.buildinfo): [30 :white_check_mark:  56 :warning:](opentelemetry-sdk-1.36.0.buildcompare) [:memo:](https://github.com/open-telemetry/opentelemetry-java/issues/4488) | 2.7M |
 | [1.35.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.35.0/pom) | | | |
 | [1.34.1](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.34.1/pom) | | | |
 | [1.34.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.34.0/pom) | | | |
@@ -102,6 +103,6 @@ rebuilding **9 releases** of io.opentelemetry:opentelemetry-sdk:
 | [1.17.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.17.0/pom) | | | |
 | [1.16.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.16.0/pom) | | | |
 | [1.15.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.15.0/pom) | | | |
-| [1.14.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.14.0/pom) | [gradle jdk11](opentelemetry-sdk-1.14.0.buildspec) | [result](opentelemetry-sdk-1.14.0.buildinfo): [47 :white_check_mark:  129 :warning:](opentelemetry-api-1.14.0.buildcompare) [:mag:](opentelemetry-sdk-1.14.0.diffoscope) [:memo:](https://github.com/open-telemetry/opentelemetry-java/issues/4488) | 2.9M |
+| [1.14.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.14.0/pom) | [gradle jdk17](opentelemetry-sdk-1.14.0.buildspec) | [result](opentelemetry-sdk-1.14.0.buildinfo): [45 :white_check_mark:  86 :warning:](opentelemetry-sdk-1.14.0.buildcompare) [:mag:](opentelemetry-sdk-1.14.0.diffoscope) [:memo:](https://github.com/open-telemetry/opentelemetry-java/issues/4488) | 2.7M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
