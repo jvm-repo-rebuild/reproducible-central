@@ -9,12 +9,12 @@ os.name=lf
 outputs.1.coordinates=io.opentelemetry:opentelemetry-api-incubator
 
 outputs.1.0.filename=opentelemetry-api-incubator-1.39.0-alpha-sources.jar
-outputs.1.0.length=25668
-outputs.1.0.checksums.sha512=190ba411ae5ebc1b8f9ed02f3be3cfc0d845b942791ed46b4a68d3fd90fe2bfc7790a63af32f368c82984bfa4fa0b5d0288cb2d588a9351b15d23cfa7ced745e
+outputs.1.0.length=25667
+outputs.1.0.checksums.sha512=519baedf3679f280ecdb716160890abc014f909b2b5e1daf8cd5b0494b46e8f57288ea8d8e2d0416748198e4291012f433f5461262c2c828e93f6637eb6b6688
 
 outputs.1.1.filename=opentelemetry-api-incubator-1.39.0-alpha.jar
-outputs.1.1.length=37362
-outputs.1.1.checksums.sha512=562052a7f7e1a1cdc7fc21403d6f089bf180eadac12bd8437d59bbb7f500141d8016a464b9c6fa7603749309aed0694e89e9b353d04f407f8685756d7d331890
+outputs.1.1.length=37361
+outputs.1.1.checksums.sha512=6da3f0fb2c38503c3e55b48ab5489eb579d142eef55f9595bff2a72fb525a98d092dd0d83229125fdb8058bd4e7c1bea919c193da9c157f124e72e053eb58776
 
 outputs.1.2.filename=opentelemetry-api-incubator-1.39.0-alpha.pom
 outputs.1.2.length=1801
@@ -25,11 +25,11 @@ outputs.2.coordinates=io.opentelemetry:opentelemetry-api
 
 outputs.2.0.filename=opentelemetry-api-1.39.0-sources.jar
 outputs.2.0.length=111200
-outputs.2.0.checksums.sha512=dca1185b24f37162f466d15ddd70fd28d01807ab38a687141021dda2e939094ff4e563d1575d4166c5e5043d75a4e8a6fa5d2d752da3b5a248fc34a7097c5be7
+outputs.2.0.checksums.sha512=a5127dc6ff6fe22517fda29f6a39371e163e2b8e5810d17340f0333c92a5681ec454c86dc6f82fb5cd3c49bd055d552ab7066f3dec742c3203564555e79b84a1
 
 outputs.2.1.filename=opentelemetry-api-1.39.0.jar
 outputs.2.1.length=141734
-outputs.2.1.checksums.sha512=77091625ea15c8696914311a5509acdb40c3760c34f638cb8d9663286ef82b41d59ef719faad59c7fd879d1618a4413b66a22575894d1cf56b67cb6c03ddcf42
+outputs.2.1.checksums.sha512=2f1a695ed809004e8bbd105aa5d3ff4601c9fe0c7b4a36a5f022ca064f025059bd64911c4aaeac287eef6b5b7ca5030a8f88d078b241d10764159a132d5255c2
 
 outputs.2.2.filename=opentelemetry-api-1.39.0.pom
 outputs.2.2.length=1779
@@ -54,11 +54,11 @@ outputs.5.coordinates=io.opentelemetry:opentelemetry-context
 
 outputs.5.0.filename=opentelemetry-context-1.39.0-sources.jar
 outputs.5.0.length=37339
-outputs.5.0.checksums.sha512=5c8ce935891f3c6f93fc2ae16612830824728525f7a892c858b910b12363dc1d6a5713f840ccafe5465716b4f0007453c85922727ba092e30dff08b972ea545a
+outputs.5.0.checksums.sha512=f7fae7b9bb97e8cae20ad2de0aa3a280111d0b2434f11edd48b35421b292a2135a7c664488d3f9dc329488595e208beba89f93cc819521e55479cd5b17d5c4c4
 
 outputs.5.1.filename=opentelemetry-context-1.39.0.jar
 outputs.5.1.length=47252
-outputs.5.1.checksums.sha512=aa5461b15086ff2e0372cce4451c75ae8834e3145be13a503dcefe6fcc6722acadab5adee6b65449f2f74fdfd1601efc1c7c41ed3cb5b3cf9cfcf466eaa04a2f
+outputs.5.1.checksums.sha512=54adfcc063dbefcdadd7381fd624ca5ae24c3c2288074107918f570f53debd51afe466670d79a39b437f5b906a4a5d5c279a56e68c2c9520075bc3d0dc1d5313
 
 outputs.5.2.filename=opentelemetry-context-1.39.0.pom
 outputs.5.2.length=1573
@@ -69,11 +69,11 @@ outputs.6.coordinates=io.opentelemetry:opentelemetry-exporter-common
 
 outputs.6.0.filename=opentelemetry-exporter-common-1.39.0-sources.jar
 outputs.6.0.length=64033
-outputs.6.0.checksums.sha512=066e37bb1f4a9e843a9c9489a1934caa8825ef5075307a6928d1499558c60317b5fb5c474afc6962e1663ce09f2fad694eb4aef6c911529a5e8670b812403dc2
+outputs.6.0.checksums.sha512=c40e14d8513bef2979a58ca38d3cee58c2c6c88dad33514aa9db31bef42ff9472b22883127f3f506479a58b500956acff3f6c8537655d79017dcc6154258f8c4
 
 outputs.6.1.filename=opentelemetry-exporter-common-1.39.0.jar
 outputs.6.1.length=102859
-outputs.6.1.checksums.sha512=1c6d6a3a066a6f11ccf42ef1b8ba9f71d05808fd72d034ce6dc37cf11ec2f2ee1e22ff266a50f49c7857b2ff95190ccdc512a389485eaee9c97919ad36863e5f
+outputs.6.1.checksums.sha512=d30a66a85a5b0bf5b0ed1df8e3c33a52e9b8e90a6b858736c432acbf2d8b55148cf22ab0066007cd5518de69770f85868cd8279d94f83df70213b2e6181f05a0
 
 outputs.6.2.filename=opentelemetry-exporter-common-1.39.0.pom
 outputs.6.2.length=2014
@@ -84,11 +84,11 @@ outputs.7.coordinates=io.opentelemetry:opentelemetry-exporter-logging-otlp
 
 outputs.7.0.filename=opentelemetry-exporter-logging-otlp-1.39.0-sources.jar
 outputs.7.0.length=8842
-outputs.7.0.checksums.sha512=a6fb87b16ce26b04d3ee5be857bf21837cad99e15f7945ab59df92ba684b03221ed2d0d213f7bc7e772afede4d7a79218f87ddd780e842597d0489118cd23bda
+outputs.7.0.checksums.sha512=d469070c46c9dadbf4b1d382a03a173c563c669327950471e0d85f5fd85c4883caff90c1eff895bf67104cad5703b37840c6d1edc2a3d7b55acca16c8d8bb17d
 
 outputs.7.1.filename=opentelemetry-exporter-logging-otlp-1.39.0.jar
 outputs.7.1.length=11819
-outputs.7.1.checksums.sha512=9e06d30bd6b9451d3b3580922804d25e5224ee07ac59f8a032ca42c5e7616ee701c44b04e9e188cb563056f186d9b4e703dbd432812ba914a163b11b9f78625e
+outputs.7.1.checksums.sha512=1e1572150b120a118f002bc4735f0d7a90216b33143be8b88ef70c58dcf4924ec037f0171b83dd356765fbc540aeb66045265e37c96896aec87388061d61b7e1
 
 outputs.7.2.filename=opentelemetry-exporter-logging-otlp-1.39.0.pom
 outputs.7.2.length=2825
@@ -99,11 +99,11 @@ outputs.8.coordinates=io.opentelemetry:opentelemetry-exporter-logging
 
 outputs.8.0.filename=opentelemetry-exporter-logging-1.39.0-sources.jar
 outputs.8.0.length=10117
-outputs.8.0.checksums.sha512=320f07a2c88c2becc5440994bdfae49209057b141ac0844691acb12b0e71eb1c8f473b71f8f153095a72aee60f8c3d09ea660c2a748d69f36f783d988806436d
+outputs.8.0.checksums.sha512=6a7bb42f9f91cfd4073cbc7c8a08072b27a0bdb5cdaf32b35bd66b595c4f68b1efe8e26dcefe1d44ac243c7fbcb7f58eb469e6b362b0c470ac8873f765857650
 
 outputs.8.1.filename=opentelemetry-exporter-logging-1.39.0.jar
 outputs.8.1.length=13429
-outputs.8.1.checksums.sha512=d2838388a513d0f54341e2026a8d7d6824c0d49bfde869de6ef664e984390164d47fd35cd0a50c22171af3175d6a2a3f27e921fde68fd0729a09479fa8e6f0a8
+outputs.8.1.checksums.sha512=b52c05164f1003010c89168a1526481b3c88c535229922f1795b6f4697509426317b6d65b4626adc9051fc9ca7795404171a02ab5584e0d8c65ea014886b8b6b
 
 outputs.8.2.filename=opentelemetry-exporter-logging-1.39.0.pom
 outputs.8.2.length=2018
@@ -114,11 +114,11 @@ outputs.9.coordinates=io.opentelemetry:opentelemetry-exporter-otlp-common
 
 outputs.9.0.filename=opentelemetry-exporter-otlp-common-1.39.0-sources.jar
 outputs.9.0.length=104400
-outputs.9.0.checksums.sha512=0e57bab4b42992c9e26459f5ab862af0a6ffd58e527b00dce70dc18055fb793499e1e973a9fee91353198034eecfe10ee72cc8aee7205fc520284f6db6baf6e8
+outputs.9.0.checksums.sha512=786bfec9e33dfbbb5c6097f575f5736ef7f3fddeee5437e8057dd4b3e251f6d01638351042e9b37d8099884c153d8ae0d15bb98a8736767242158b70811fc724
 
 outputs.9.1.filename=opentelemetry-exporter-otlp-common-1.39.0.jar
 outputs.9.1.length=192027
-outputs.9.1.checksums.sha512=4bc3026c79fdf44154a9b51d8746ae4f0ebc72c1df918d555b8de78d8c58f02c3fed60250bc5fefd6b37b2e99493f79f08abc2ccb690b594b2e68f8fdc5c1b41
+outputs.9.1.checksums.sha512=a22eb609b48711e415ea497c11f203d3208284e8c5b339d9d10a1ed7369caed38be6db833b1cc19eff7bd93a96620429e503f47fd6ad481c4ecc0a8b121980fe
 
 outputs.9.2.filename=opentelemetry-exporter-otlp-common-1.39.0.pom
 outputs.9.2.length=2021
@@ -128,12 +128,12 @@ outputs.9.2.checksums.sha512=50e1924d81811917dcc2c390b9e993217b27d1de0d34ea05252
 outputs.10.coordinates=io.opentelemetry:opentelemetry-exporter-otlp
 
 outputs.10.0.filename=opentelemetry-exporter-otlp-1.39.0-sources.jar
-outputs.10.0.length=44793
-outputs.10.0.checksums.sha512=c46d4b52284920df910608b7ce3307710e28536b93cff82dbd86735ebf4d7f030bb0567bc6d5a195e1d7e4ed4238e4d0d34484133d500abb4e4170c3bc5f319f
+outputs.10.0.length=44794
+outputs.10.0.checksums.sha512=9f06e6adab7c23aa2c1b0d78b0dd975423bae2fc5738b8de7db794bf4edd922da3e99208c52fea81fccb8df8c02b8c82686b9ae2115a1bbb006771b028f0b9b4
 
 outputs.10.1.filename=opentelemetry-exporter-otlp-1.39.0.jar
-outputs.10.1.length=69623
-outputs.10.1.checksums.sha512=e542071fc98cc225571bac3b773f3da2699a348ee53a9b6a7497755ba841448c51a0075615e091df625bda69fca0bac590670e65992c4616075e1703640df5d3
+outputs.10.1.length=69624
+outputs.10.1.checksums.sha512=750844df33fc8298ffd147a521cbad48ec03fcd4365b19f3e0a0d3a05b57c7d6301d6de842f7b671d2a25afb4c0c69c44ba6d49388dab3dd406eec4cd27fa003
 
 outputs.10.2.filename=opentelemetry-exporter-otlp-1.39.0.pom
 outputs.10.2.length=2825
@@ -144,11 +144,11 @@ outputs.11.coordinates=io.opentelemetry:opentelemetry-exporter-prometheus
 
 outputs.11.0.filename=opentelemetry-exporter-prometheus-1.39.0-alpha-sources.jar
 outputs.11.0.length=15130
-outputs.11.0.checksums.sha512=d42dfe8247d699a98f4ad11fe7f7dc1ce9f3d71597cdec42bc97ed557a3180bfd9821469cdb776ad85206a520ad2a9cd1801df539ccc49df145e18f2eae3e942
+outputs.11.0.checksums.sha512=f7f8dde5d54fe1014d3d2cd8bb215ef72964421c71f522e952a5baba7afc9555dcf1a6663f718b24e045446cee489f800a1b15225ea4e71bd92cb95ca8592cf9
 
 outputs.11.1.filename=opentelemetry-exporter-prometheus-1.39.0-alpha.jar
 outputs.11.1.length=25835
-outputs.11.1.checksums.sha512=e56c3c1e4c0699fa59fff32cfff7cdbb4dc48c7a298ed1b75a7a63f87e4e9204fa86d2d2e0f3253691fec2b9b6707c9985a701469eb570b0d71d555135b4663d
+outputs.11.1.checksums.sha512=7d0099624c4d02e62c2627492a3a958a66412b16d7999c01b402294073bd127110a229abf9697fd00a8ef5b79feb627f150e60f12df47504fbe408192f9a4605
 
 outputs.11.2.filename=opentelemetry-exporter-prometheus-1.39.0-alpha.pom
 outputs.11.2.length=2439
@@ -159,11 +159,11 @@ outputs.12.coordinates=io.opentelemetry:opentelemetry-exporter-sender-grpc-manag
 
 outputs.12.0.filename=opentelemetry-exporter-sender-grpc-managed-channel-1.39.0-sources.jar
 outputs.12.0.length=5403
-outputs.12.0.checksums.sha512=66986d1536f2437cd633ffcb39a379fe8ba5a94723a23ef835fe547bede52857b8a75e269ce04496ebfa132cfcfe0c0626bf2a38652d3d5a92d19e4fa9f3aba2
+outputs.12.0.checksums.sha512=1f1e9edd717ea5d4fef4b77fbc316ed2ba7e01f37aba7363aff4864d9ee0657dc8dcea472dcd80dd8ec084664783b3f109a0cb9d00cddb2df86c73b316878e96
 
 outputs.12.1.filename=opentelemetry-exporter-sender-grpc-managed-channel-1.39.0.jar
 outputs.12.1.length=9429
-outputs.12.1.checksums.sha512=002acdedcb0f8f266b2e44a36ce3b8e90c01d8fab51390c9f6de739d9e39d1625a415c4948116d246095c7b06c2309af663b7fc1b0ca0e42acdae887fbec9e7f
+outputs.12.1.checksums.sha512=0f58d849b5ea523a733b79b41ece6abeaae8463702f797ea501c6dc5aa1c0d3c062ccf9bdee795bbb5ce2536a2bb048c8aa5821585420687d202f66567846452
 
 outputs.12.2.filename=opentelemetry-exporter-sender-grpc-managed-channel-1.39.0.pom
 outputs.12.2.length=2201
@@ -173,12 +173,12 @@ outputs.12.2.checksums.sha512=ec1577f42826e052ddcc164276bde41b24a2d33d53ffc640ea
 outputs.13.coordinates=io.opentelemetry:opentelemetry-exporter-sender-jdk
 
 outputs.13.0.filename=opentelemetry-exporter-sender-jdk-1.39.0-sources.jar
-outputs.13.0.length=6568
-outputs.13.0.checksums.sha512=a29fa9e00cc620531d02388c1cfb6a9e6f8460f9042dc591a04285b0e42ae236714a33c50ca49b0c65ea460aba231e18f3b33b06c566392b6cbe56b9c73a7bfd
+outputs.13.0.length=6567
+outputs.13.0.checksums.sha512=5334da01a5bd910a84a5576c0c2c8388f9081fb69bba142bbcbf19a3a6ef07eeb1b00542a3eb9f808e4d93c0a13a514bf1ccb1f949044b5d6a1915a37b343c67
 
 outputs.13.1.filename=opentelemetry-exporter-sender-jdk-1.39.0.jar
-outputs.13.1.length=14158
-outputs.13.1.checksums.sha512=0d0ad4fdefcf570c3b5161dd3f1bb0e5f18853590ae32ceaf3255b0e31c103b171b3968a5fe769f72ac2bdb12bf580540819a2b2d1c722683db444128ea668f9
+outputs.13.1.length=14157
+outputs.13.1.checksums.sha512=a6af8615ef6057ffa688b22e412a201b434e0c5524c7445c46eeaa6e1fab29937b2b1d92a2b546c0ae05dfa7ad66423992a424adc8ab7bbb6cdbe24a18402cba
 
 outputs.13.2.filename=opentelemetry-exporter-sender-jdk-1.39.0.pom
 outputs.13.2.length=2008
@@ -189,11 +189,11 @@ outputs.14.coordinates=io.opentelemetry:opentelemetry-exporter-sender-okhttp
 
 outputs.14.0.filename=opentelemetry-exporter-sender-okhttp-1.39.0-sources.jar
 outputs.14.0.length=12965
-outputs.14.0.checksums.sha512=c07809077cec2ee617f1e0976e09d4d0727aed06be5f2ecd8129d4297b6727e189e32b476f04360cef2b298dbc861f8c542b988a44b9f2546b82237fe6a1dc22
+outputs.14.0.checksums.sha512=c2afcccbe53eebf7a5dd346377fde10972989f95ede3de639e79af62accd4e41dc453160fb78ef45c2d91d7c5f83fb274f8fb89b20ce32192a891d80efd22669
 
 outputs.14.1.filename=opentelemetry-exporter-sender-okhttp-1.39.0.jar
 outputs.14.1.length=25646
-outputs.14.1.checksums.sha512=16d3434db4753281d94cd612f9e336eb55266ebec3742ba82b6019154a38458de79a9b09f018329c0e2ebc0f1c6b92283d6483e940a0ea0e6df144e75b223832
+outputs.14.1.checksums.sha512=140c87129ca2381019957ab842939a009ca0447dcd2b507f4962628c920627e5ebffaed73263a996fbc2fd9aa4a1a3a7b24d0ea08a4d73c0b8d048c6690e842c
 
 outputs.14.2.filename=opentelemetry-exporter-sender-okhttp-1.39.0.pom
 outputs.14.2.length=2191
@@ -204,11 +204,11 @@ outputs.15.coordinates=io.opentelemetry:opentelemetry-exporter-zipkin
 
 outputs.15.0.filename=opentelemetry-exporter-zipkin-1.39.0-sources.jar
 outputs.15.0.length=11589
-outputs.15.0.checksums.sha512=2ad809ae0b33432472d3654d953a1bb4d3694647b987d98bda77407576bda6e70599f7906775b92b9b84789d3355c1ab9be178b75743e3d2c8a30e6cae8eaaad
+outputs.15.0.checksums.sha512=62b573e0d698f31863ddd69ef031f90ec434f4db3e8b9ee91e6f2b6e81b33cc94bcf5037d15e582d8d0a2a126c7c939b738acff1b48fd6ac7564f623fd236615
 
 outputs.15.1.filename=opentelemetry-exporter-zipkin-1.39.0.jar
 outputs.15.1.length=19651
-outputs.15.1.checksums.sha512=85c5e91919a06d4def9472cd7902e7dae5c1d89e824b554d776ddf5095b8be9ca8222a007b333df4501292762211bf4a9ada8d987363e6683e47242e3592d225
+outputs.15.1.checksums.sha512=ce47ec3486a2c901db4fe0f319bef240281587b49db8b1ce2d3aae771c7d6b6705fcb12f23c93f5220f9be688997cbd18722a3a45e8b848396e322c0c596eef9
 
 outputs.15.2.filename=opentelemetry-exporter-zipkin-1.39.0.pom
 outputs.15.2.length=2595
@@ -223,7 +223,7 @@ outputs.16.0.checksums.sha512=a174300acc5c2e0d667dc7ab657d65e30c5ed8d746b518fe73
 
 outputs.16.1.filename=opentelemetry-extension-kotlin-1.39.0.jar
 outputs.16.1.length=4876
-outputs.16.1.checksums.sha512=547f81ebaf72b934670709138c51b5c8327f630695bc6bd43579295a4ee7d3da4372dfaf7a04dbd407fd610b6a1001319801cb6c66b34e243b4d4b85d2ab7665
+outputs.16.1.checksums.sha512=d0f3475c81c9322ac9d60fc0e4775863976a9a8627020b9572574cc787da92c6cd2bda777063ceabd6a0c8bca29ba759b511bc82bd738b26ff174b35cfef39a5
 
 outputs.16.2.filename=opentelemetry-extension-kotlin-1.39.0.pom
 outputs.16.2.length=2293
@@ -234,11 +234,11 @@ outputs.17.coordinates=io.opentelemetry:opentelemetry-extension-trace-propagator
 
 outputs.17.0.filename=opentelemetry-extension-trace-propagators-1.39.0-sources.jar
 outputs.17.0.length=16509
-outputs.17.0.checksums.sha512=99b96011cb6489dcb5bb3d4023c72043f693335307cef84982fcccb4830ec39d0086caddc1cf9903ccbc956bae52964fbd36ae9a6477cb4e0105bfbdad92836d
+outputs.17.0.checksums.sha512=856e2bd1b73b1f370d30485afd5670c5ba1383c17513977efa3a12a75ab33ea7f95bc1a8c38c71c6ca682d8861045fd3a11f49d7cf358b83d3d9b477bf66ab45
 
 outputs.17.1.filename=opentelemetry-extension-trace-propagators-1.39.0.jar
 outputs.17.1.length=25420
-outputs.17.1.checksums.sha512=333b76aef325982d7da88dc81607f5f648e7ca8393e001217eedc0b93442359eb850c05f6d09917712c8ec00af6bd4e8aa8c8abe2aec18b911d4463c2a441888
+outputs.17.1.checksums.sha512=ffd3618f56ccc2dc0c26a29b29145b00ea9f283a0f3f39f621948347de4d048ede9cce4b6a6408df2f159f82e6a7f35f5ac7b95bc6d1213cef9e5faf6f7c7d8e
 
 outputs.17.2.filename=opentelemetry-extension-trace-propagators-1.39.0.pom
 outputs.17.2.length=1825
@@ -249,11 +249,11 @@ outputs.18.coordinates=io.opentelemetry:opentelemetry-opencensus-shim
 
 outputs.18.0.filename=opentelemetry-opencensus-shim-1.39.0-alpha-sources.jar
 outputs.18.0.length=19604
-outputs.18.0.checksums.sha512=2ef4b5ae2a79bb9407392b70e3da44afedba69c8c1b6bc591d12f687a80c37a9278c7de84dab1e4e2ef4ccc2e1c52b04ef3808889e02ee3d9d7f3c6827a0c001
+outputs.18.0.checksums.sha512=e9486aab5710966b8ab3e1393e2e2a2447df477c6325a9b1c4306c97bc3a438871759abe17bce6364f4a8116d0e888733205de1debe13a49142038a38f7a21a1
 
 outputs.18.1.filename=opentelemetry-opencensus-shim-1.39.0-alpha.jar
 outputs.18.1.length=36227
-outputs.18.1.checksums.sha512=0e85b71390d41b0a02633f9f40c7637d6b4210fb8f04db03169d6fb333cd54a3fa7f586b336bc14963758e4098cfa7a25e253b0ce441e1c4e251c1de26949ee3
+outputs.18.1.checksums.sha512=ca32622f6cb1c9812d8e14e6e104f2092c93724c5609073b0ca8a43cde315d76ce44bc9ff45b0805b41ebf18434be0815d398454beae7de62c848e98b11dab6c
 
 outputs.18.2.filename=opentelemetry-opencensus-shim-1.39.0-alpha.pom
 outputs.18.2.length=2770
@@ -264,11 +264,11 @@ outputs.19.coordinates=io.opentelemetry:opentelemetry-opentracing-shim
 
 outputs.19.0.filename=opentelemetry-opentracing-shim-1.39.0-sources.jar
 outputs.19.0.length=13601
-outputs.19.0.checksums.sha512=e50e747a91d10cd4f1cebcd7c485111ddcace8a5b0fdb8b286404c47e404211eab8caefc08486d7ff244d5a24b746ba80840101e79f943a00fd3864d3aa73d68
+outputs.19.0.checksums.sha512=8323b2e63dad99eb20307fe337be9cb78cce75377bfe945a70e159d8512363e351d1bb426775f27b1522474ca0337c3cc4101a0ccdce6f43fd7e12d99c693e91
 
 outputs.19.1.filename=opentelemetry-opentracing-shim-1.39.0.jar
 outputs.19.1.length=28769
-outputs.19.1.checksums.sha512=02d8f99c72624bccf022d453e3d4e37fc33a9ede3f0e6d986999a906c1e7a9b7fdb4eaf653fb4e987dd94bc558b5ab1936ad2e78b1fad858893591cfb9d266d7
+outputs.19.1.checksums.sha512=2c86205548a615d5ba0901dee2a2b079d08c96f8cf64199cf0d3a96873311f2b56a31e4affd3379e5519f818c14e44545129dcdf7574b4c8b5501605ecaa4b75
 
 outputs.19.2.filename=opentelemetry-opentracing-shim-1.39.0.pom
 outputs.19.2.length=2170
@@ -278,12 +278,12 @@ outputs.19.2.checksums.sha512=32c0ab760a39222fedfbc3325ef64a4f3e685833e0ccd37369
 outputs.20.coordinates=io.opentelemetry:opentelemetry-sdk-common
 
 outputs.20.0.filename=opentelemetry-sdk-common-1.39.0-sources.jar
-outputs.20.0.length=37224
-outputs.20.0.checksums.sha512=8184c34ececd8ad95ca66d7d92ced97307667cf442d329034f2586f4c2235fa5fa359de7af254cbe497e9fad5933c26d693771b77ec464b914b0ac58768739c2
+outputs.20.0.length=37225
+outputs.20.0.checksums.sha512=36cd1382874e605f7b2da5629b57fef4e4c62187623dcdfbee1f723ae1499781db619d7141c7e7fddc4605c9de176ed3c2e86ca875abe7dd4349029300e2a68c
 
 outputs.20.1.filename=opentelemetry-sdk-common-1.39.0.jar
-outputs.20.1.length=54032
-outputs.20.1.checksums.sha512=812153c25c3c8a7457e7b53dd116c3a132582b94d4e3e0535e4e5e1cf52536548651be30d9dc90add7ee8393b4f4e16f226f8169913c82a706925c60be470944
+outputs.20.1.length=54033
+outputs.20.1.checksums.sha512=1d71402f1124e440a2a1003e57a708a747fb5b1b70e7307c23f830f4923b79dad881380f5c42748c0d6019b8a5aa50572614432a9d1c1d3fb152a70d650dacfe
 
 outputs.20.2.filename=opentelemetry-sdk-common-1.39.0.pom
 outputs.20.2.length=1789
@@ -294,11 +294,11 @@ outputs.21.coordinates=io.opentelemetry:opentelemetry-sdk-extension-autoconfigur
 
 outputs.21.0.filename=opentelemetry-sdk-extension-autoconfigure-spi-1.39.0-sources.jar
 outputs.21.0.length=21288
-outputs.21.0.checksums.sha512=f9dfdf0793bc9128e5dd41ebc4ff2e78107e815ed17a336f6002f34af2b33ab7e92b1c64a6cc3a583a5ba228072e9a8cdad70530c34fe2ade6b551851bf6473e
+outputs.21.0.checksums.sha512=16c1cfdaf1d2996c7a6ec378476c1ce919e902371aa67e8926cdaaf2c8725e0284cf8275cae0128edf8efe6caba51aa234bee88ca79c77f45a2d102e1a871633
 
 outputs.21.1.filename=opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar
 outputs.21.1.length=19269
-outputs.21.1.checksums.sha512=c750f4eba0f1eae5cc30dbc576e786299ae25f8a95752dcf038111818ff2dcf77a8bccee0fef059104c787b861fb9340f36ef0d81565f55573204fbc629a8f74
+outputs.21.1.checksums.sha512=526f27eefb293503811b032c3e35a3acf2d9aa3d1a6ee6b427f1666e975a3de37447e3161138f24027288d66c3c9c3e80ca0adf59ede6b73ab9093ba7673dbb1
 
 outputs.21.2.filename=opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.pom
 outputs.21.2.length=1826
@@ -308,12 +308,12 @@ outputs.21.2.checksums.sha512=d1d78a193d859c78373147281db5dc0d90fc87453f821020f4
 outputs.22.coordinates=io.opentelemetry:opentelemetry-sdk-extension-autoconfigure
 
 outputs.22.0.filename=opentelemetry-sdk-extension-autoconfigure-1.39.0-sources.jar
-outputs.22.0.length=24504
-outputs.22.0.checksums.sha512=769b73793fcbeddbf853a63e1d7b3eae433edfc045753057a84432cb4e95055e50ed662e4abb0d3fa985fbab2cf5d63a99adf27f888597f8fe5f9a6e1cca034b
+outputs.22.0.length=24505
+outputs.22.0.checksums.sha512=79251719a0c49b20e0aa50d567c22cc7aab46b5632ee4a41ae91db2e3523eb9e18a314fb41f464261cfaee45745dc5a8c899c9cd7036d67022166ce5f6f73715
 
 outputs.22.1.filename=opentelemetry-sdk-extension-autoconfigure-1.39.0.jar
-outputs.22.1.length=46155
-outputs.22.1.checksums.sha512=3c3fdbd08b8c5bd6936b8b297c9d6afd8b7e872b27b1986e49008f20bf227841eacb732042a5df256cc59018ac28af2f37d55e978e58ab7b089dd30516f9f1ee
+outputs.22.1.length=46156
+outputs.22.1.checksums.sha512=16169e2558aeda9303c24163561f26cd009b2969efb3ae1a29f4f64fdf43eb2667443e33caeba639f352772ec01288f3f12aa6c722b5a0a7b5edb10aa70a3ddf
 
 outputs.22.2.filename=opentelemetry-sdk-extension-autoconfigure-1.39.0.pom
 outputs.22.2.length=2236
@@ -324,11 +324,11 @@ outputs.23.coordinates=io.opentelemetry:opentelemetry-sdk-extension-incubator
 
 outputs.23.0.filename=opentelemetry-sdk-extension-incubator-1.39.0-alpha-sources.jar
 outputs.23.0.length=97598
-outputs.23.0.checksums.sha512=5496677f812085ba307583a3421ce1503a9f4eabeb6026b0e3ce00c77cde208d893995bfd76836f896a3b9fac2adb5bb4a7bd24f70517781b0a1488c08094e3d
+outputs.23.0.checksums.sha512=d91c2bdde37343c0c2e910f274f5c6410e451b026f200b0e8efb74db48cae4c549d5cbec8b420b10dc4840f83db4a9f85fb19ec0f9e5c8a13f6e38ec06a982c2
 
 outputs.23.1.filename=opentelemetry-sdk-extension-incubator-1.39.0-alpha.jar
 outputs.23.1.length=185887
-outputs.23.1.checksums.sha512=13e69d9246f92a81d044862b283d66992b1fb3790635e89074fe19d2622320e9548064e66fefa0d8f0a9ade44a693249854669cfbe78e61a6d1c1753a126fe14
+outputs.23.1.checksums.sha512=0e00e6afb1e6698a7d48da13899e2ab7bcd762bbb5e4b3182fdec851373032d94228e796e4d322c6293ba1718e9ddfedebc9f100c661053cb1e6b8490eadb94e
 
 outputs.23.2.filename=opentelemetry-sdk-extension-incubator-1.39.0-alpha.pom
 outputs.23.2.length=2822
@@ -338,12 +338,12 @@ outputs.23.2.checksums.sha512=736ba349c03bf3478a7067e5180323a4be605f78b26b864e6d
 outputs.24.coordinates=io.opentelemetry:opentelemetry-sdk-extension-jaeger-remote-sampler
 
 outputs.24.0.filename=opentelemetry-sdk-extension-jaeger-remote-sampler-1.39.0-sources.jar
-outputs.24.0.length=23601
-outputs.24.0.checksums.sha512=cd0241b2add38b1c462669fb5f2b5286a41db91d62faf3b7fa8373de7d4ecf8ecd745e376c097f44f499a9d67675a8bbb9274f05210bdb64e87c7d60341f628a
+outputs.24.0.length=23600
+outputs.24.0.checksums.sha512=68f757a8fd29677d378857e5e8342e207297ac226fde3489453fee1674ab18b02055d486049bcd87030525a7a10b9185e6ffb08ddff94b005c032aebd87b5b43
 
 outputs.24.1.filename=opentelemetry-sdk-extension-jaeger-remote-sampler-1.39.0.jar
-outputs.24.1.length=137128
-outputs.24.1.checksums.sha512=684290c8388a1b7e02d835adfb238feaa7f55ff6beaf151abfb9d8f2105312ce99e719918c452f484ce14d8049017742a08cccc4d06e169e8c098be42ec09af3
+outputs.24.1.length=137127
+outputs.24.1.checksums.sha512=3cf076c3631778e60469700f9f72cb299629743a2bff399c3bc9f458ba44f897b1e151a28583eef8e049851b1bbc6e155502342fca696dec4ee6d85b48c6c34f
 
 outputs.24.2.filename=opentelemetry-sdk-extension-jaeger-remote-sampler-1.39.0.pom
 outputs.24.2.length=2412
@@ -354,11 +354,11 @@ outputs.25.coordinates=io.opentelemetry:opentelemetry-sdk-logs
 
 outputs.25.0.filename=opentelemetry-sdk-logs-1.39.0-sources.jar
 outputs.25.0.length=31713
-outputs.25.0.checksums.sha512=125646721ba92b0bb1ad110f2993df815b003e56a739894a467c292ff109c627a5fc8e80587f9931505c2a6427b342818fde30f7c9de1ad320de1cdb5ce0dff0
+outputs.25.0.checksums.sha512=9f9ae7254c6848daad806f52da200cfaae558ffc565e07cb9ef053f3ae24c5c829669f027efd6657e26f71ca647a5ef7beab1665a50d528c92054898a417bbad
 
 outputs.25.1.filename=opentelemetry-sdk-logs-1.39.0.jar
 outputs.25.1.length=54264
-outputs.25.1.checksums.sha512=d50617b13b56232ce1d09c0ce418aa0746dbc5f61ce20f5fdd7a5ba9a3a5b12d14f1940958638411ff75b14fa8a79f98583d411bd34034d14f4e61d9dbbdcc33
+outputs.25.1.checksums.sha512=280bf1003903b9394cf871b922986243d46c4470310cd2d3754270f6bd97906aad075641ab07e266813c0d3e6e2e956a27564e05bab6edd7a62a237bb0f05907
 
 outputs.25.2.filename=opentelemetry-sdk-logs-1.39.0.pom
 outputs.25.2.length=2181
@@ -368,12 +368,12 @@ outputs.25.2.checksums.sha512=9eba71210a94e31646f02b4348adfcad13cb385855dc94ee16
 outputs.26.coordinates=io.opentelemetry:opentelemetry-sdk-metrics
 
 outputs.26.0.filename=opentelemetry-sdk-metrics-1.39.0-sources.jar
-outputs.26.0.length=171587
-outputs.26.0.checksums.sha512=a677c0b06b766ef3103b34a72861c9f5961d8085cac8e880111baf40bf5a4fca54a57268ad342c8a481bf2671061d6df7cbc0defefcc75e9e451f1fe0a57e169
+outputs.26.0.length=171586
+outputs.26.0.checksums.sha512=ce4d53d4705e6418e395ba515bad07f81bf457236706993aa3246512332600cb3ed3c6b03f71e3669723d769c6ffdacb6df482e6d7223c1bea9ca795dead1dad
 
 outputs.26.1.filename=opentelemetry-sdk-metrics-1.39.0.jar
-outputs.26.1.length=307190
-outputs.26.1.checksums.sha512=c2894bc061797fee67a7904aee274edf1f1ec6790edf3258f5fbd46bf7d84239b164fa60e0478b6eefaca968382a865bb67b17f58f9341096faeba8902e4da30
+outputs.26.1.length=307189
+outputs.26.1.checksums.sha512=3690540c69907aebbea4b1b35972697fe8b744bad8bc9c69ab9ea31388a4feaa7127ad5312ecc6d3c6248f0240f9965aa694f2a79b86eb15a26f38b0c883fe9c
 
 outputs.26.2.filename=opentelemetry-sdk-metrics-1.39.0.pom
 outputs.26.2.length=2188
@@ -384,11 +384,11 @@ outputs.27.coordinates=io.opentelemetry:opentelemetry-sdk-testing
 
 outputs.27.0.filename=opentelemetry-sdk-testing-1.39.0-sources.jar
 outputs.27.0.length=56239
-outputs.27.0.checksums.sha512=dcb6dfc13f2c8028920d3f69931d24751521cfccadaa4699f99ba4738f7a25f961cb6004018ea05b7c3e11dcf9c81039d298289b3976a2d3275d8d57c1b4e53f
+outputs.27.0.checksums.sha512=f6c06393de48c69f66b48f1f03d28568b04be25fdc7d7dd8f29eac956c330dada8cec5d7cde85ed5efb1c591fb12c4711a503f6ef41f3ba5ad34ac0529723657
 
 outputs.27.1.filename=opentelemetry-sdk-testing-1.39.0.jar
 outputs.27.1.length=108818
-outputs.27.1.checksums.sha512=89d23d7cd861704b97177d72de05109815a06ac83c51fccfc369dba8d41967ea3e3a5e65fbce21b57e5f35fcd3123750683d9d1c577aa3cbfcc941005017dcd2
+outputs.27.1.checksums.sha512=41a57050835f9811350a7cf65552bc8b28df678900fc40a09c645ce7eb3753cd338b25e254eb708b498b8cb588bc611cde33ac4f3e5bec05e80a7ac4699386fa
 
 outputs.27.2.filename=opentelemetry-sdk-testing-1.39.0.pom
 outputs.27.2.length=1988
@@ -399,11 +399,11 @@ outputs.28.coordinates=io.opentelemetry:opentelemetry-sdk-trace
 
 outputs.28.0.filename=opentelemetry-sdk-trace-1.39.0-sources.jar
 outputs.28.0.length=59370
-outputs.28.0.checksums.sha512=f4063cce8d3f8d3b314dc579970f328a136990d4db95f50098884a0e46ae455fb43294d22be9b851971fd55c75949fa6bc5623cce8c230c73d8681d27d620d1f
+outputs.28.0.checksums.sha512=b9638a41b65fa1fa8d0cbbee283705ef18095277491b79e7baa2d127be36007350576842cf48bf8bfa5c2a8a901a921f091e6ca8353261f2124b2d69d965b3cf
 
 outputs.28.1.filename=opentelemetry-sdk-trace-1.39.0.jar
 outputs.28.1.length=127846
-outputs.28.1.checksums.sha512=02db7262be26d04e1e96f5db451f12fb162031b4cd1d01501e6469de8936550816c3443dc0ef057b93f4445b7926956863e0a89d8d117b62e6ed02fd2b426e3a
+outputs.28.1.checksums.sha512=47533742b7e8a7eca2ff916bf2edff480022f55c5da0a1c772fe1599e15c1c04c9985f9560330e3598804bc9da49d6e2db27ef874e014ffaaa1a1621b4e86a04
 
 outputs.28.2.filename=opentelemetry-sdk-trace-1.39.0.pom
 outputs.28.2.length=2190
@@ -414,11 +414,11 @@ outputs.29.coordinates=io.opentelemetry:opentelemetry-sdk
 
 outputs.29.0.filename=opentelemetry-sdk-1.39.0-sources.jar
 outputs.29.0.length=3895
-outputs.29.0.checksums.sha512=964b237f8ae450d17abc82266a28d255413277cddc1412d78b3d5ef59f329c2033e5c478003716a99b6fd01f17180dfc95aad722d07463013a3c349f97f472d6
+outputs.29.0.checksums.sha512=b58766a0ef4dd3a8a7471ca93b8fef9cbdd876740347919381f848a31e031b2390f8c4bc4396b2b076fba621d6adcd6afb1610d21be798b3d8a44f80c347e042
 
 outputs.29.1.filename=opentelemetry-sdk-1.39.0.jar
 outputs.29.1.length=6770
-outputs.29.1.checksums.sha512=36c4fc032027dae083bea1bea979ba1e8d2ae697f0722e47fe8ffbc594222aada4bca4b57e128722cc6b3d6af8489c414f0be92398eeff3e596da727a0b8e0df
+outputs.29.1.checksums.sha512=1a5e18009644ae08f30f6def944ce4d00851e36c03618cbf666ab58af9380d0715804628ef5f6ab1b73848547d4340a045eee767742a52ca9e6c5c7a1b1dc95a
 
 outputs.29.2.filename=opentelemetry-sdk-1.39.0.pom
 outputs.29.2.length=2549
