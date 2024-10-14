@@ -1,8 +1,4 @@
-content/ch/qos/logback/logback-1.5.9.buildspec:1.5.10
 content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.8.6.3.buildspec:4.8.6.4
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-8.buildspec:11.1.1-beta-9
 content/org/apache/httpcomponents/parent/httpcomponents-parent-13.buildspec:14
-content/org/jpmml/jpmml-evaluator/jpmml-evaluator-1.6.5.buildspec:1.6.6
-content/org/jpmml/jpmml-transpiler/jpmml-transpiler-1.3.6.buildspec:1.3.7
 content/org/mybatis/mybatis2/mybatis2-2.5.0.buildspec:2.6.0
 content/org/mybatis/scripting/mybatis-thymeleaf/mybatis-thymeleaf-1.0.4.buildspec:1.1.0
