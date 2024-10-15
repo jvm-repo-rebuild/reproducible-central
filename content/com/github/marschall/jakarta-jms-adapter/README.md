@@ -13,6 +13,7 @@ rebuilding **6 releases** of com.github.marschall:jakarta-jms-adapter:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.5.0](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.5.0/pom) | | | |
 | [1.4.1](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.4.1/pom) | [mvn jdk17](jakarta-jms-adapter-1.4.1.buildspec) | [result](jakarta-jms-adapter-1.4.1.buildinfo): [3 :white_check_mark: ](jakarta-jms-adapter-1.4.1.buildcompare) | 102K |
 | [1.3.0](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.3.0/pom) | [mvn jdk17](jakarta-jms-adapter-1.3.0.buildspec) | [result](jakarta-jms-adapter-1.3.0.buildinfo): [3 :white_check_mark: ](jakarta-jms-adapter-1.3.0.buildcompare) | 102K |
 | [1.2.0](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.2.0/pom) | [mvn jdk17](jakarta-jms-adapter-1.2.0.buildspec) | [result](jakarta-jms-adapter-1.2.0.buildinfo): [3 :white_check_mark: ](jakarta-jms-adapter-1.2.0.buildcompare) | 102K |

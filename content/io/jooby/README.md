@@ -82,6 +82,7 @@ rebuilding **21 releases** of io.jooby:jooby:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.4.2](https://central.sonatype.com/artifact/io.jooby/jooby/3.4.2/pom) | | | |
 | [3.4.1](https://central.sonatype.com/artifact/io.jooby/jooby/3.4.1/pom) | [mvn jdk17](jooby-3.4.1.buildspec) | [result](jooby-project-3.4.1.buildinfo): [174 :white_check_mark:  3 :warning:](jooby-project-3.4.1.buildcompare) | 15M |
 | [3.4.0](https://central.sonatype.com/artifact/io.jooby/jooby/3.4.0/pom) | [mvn jdk17](jooby-3.4.0.buildspec) | [result](jooby-project-3.4.0.buildinfo): [174 :white_check_mark:  3 :warning:](jooby-project-3.4.0.buildcompare) | 15M |
 | [3.3.1](https://central.sonatype.com/artifact/io.jooby/jooby/3.3.1/pom) | [mvn jdk17](jooby-3.3.1.buildspec) | [result](jooby-project-3.3.1.buildinfo): [174 :white_check_mark:  3 :warning:](jooby-project-3.3.1.buildcompare) [:mag:](jooby-project-3.3.1.diffoscope) | 15M |
