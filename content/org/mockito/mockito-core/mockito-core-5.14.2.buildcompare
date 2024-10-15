@@ -1,0 +1,5 @@
+version=5.14.2
+ok=19
+ko=0
+okFiles="mockito-android-5.14.2-sources.jar mockito-android-5.14.2.jar mockito-android-5.14.2.pom mockito-bom-5.14.2.pom mockito-core-5.14.2-sources.jar mockito-core-5.14.2.jar mockito-core-5.14.2.pom mockito-errorprone-5.14.2-sources.jar mockito-errorprone-5.14.2.jar mockito-errorprone-5.14.2.pom mockito-junit-jupiter-5.14.2-sources.jar mockito-junit-jupiter-5.14.2.jar mockito-junit-jupiter-5.14.2.pom mockito-proxy-5.14.2-sources.jar mockito-proxy-5.14.2.jar mockito-proxy-5.14.2.pom mockito-subclass-5.14.2-sources.jar mockito-subclass-5.14.2.jar mockito-subclass-5.14.2.pom"
+koFiles=""
