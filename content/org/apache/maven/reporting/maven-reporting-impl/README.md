@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/maven-reporting-impl.git](https://github.com/apache/maven-reporting-impl.git)
 
-rebuilding **17 releases** of org.apache.maven.reporting:maven-reporting-impl:
-- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **18 releases** of org.apache.maven.reporting:maven-reporting-impl:
+- **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.0.0](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-impl/4.0.0/pom) | | | |
+| [4.0.0](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-impl/4.0.0/pom) | [mvn jdk8 w](maven-reporting-impl-4.0.0.buildspec) | [result](maven-reporting-impl-4.0.0.buildinfo): [6 :white_check_mark: ](maven-reporting-impl-4.0.0.buildcompare) | 408K |
 | [4.0.0-M15](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-impl/4.0.0-M15/pom) | [mvn jdk8 w](maven-reporting-impl-4.0.0-M15.buildspec) | [result](maven-reporting-impl-4.0.0-M15.buildinfo): [6 :white_check_mark: ](maven-reporting-impl-4.0.0-M15.buildcompare) | 415K |
 | [4.0.0-M14](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-impl/4.0.0-M14/pom) | [mvn jdk8 w](maven-reporting-impl-4.0.0-M14.buildspec) | [result](maven-reporting-impl-4.0.0-M14.buildinfo): [6 :white_check_mark: ](maven-reporting-impl-4.0.0-M14.buildcompare) | 381K |
 | [4.0.0-M13](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-impl/4.0.0-M13/pom) | [mvn jdk8 w](maven-reporting-impl-4.0.0-M13.buildspec) | [result](maven-reporting-impl-4.0.0-M13.buildinfo): [6 :white_check_mark: ](maven-reporting-impl-4.0.0-M13.buildcompare) | 378K |
