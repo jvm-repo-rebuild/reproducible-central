@@ -49,6 +49,7 @@ rebuilding **5 releases** of org.jdbi.internal:jdbi3-root:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.46.0](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.46.0/pom) | | | |
 | [3.45.4](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.45.4/pom) | [mvn jdk22](jdbi3-root-3.45.4.buildspec) | [result](jdbi3-parent-3.45.4.buildinfo): [94 :white_check_mark:  106 :warning:](jdbi3-parent-3.45.4.buildcompare) [:memo:](https://github.com/basepom/basepom/pull/73) | 7.0M |
 | [3.45.3](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.45.3/pom) | [mvn jdk22](jdbi3-root-3.45.3.buildspec) | [result](jdbi3-parent-3.45.3.buildinfo): [94 :white_check_mark:  106 :warning:](jdbi3-parent-3.45.3.buildcompare) [:memo:](https://github.com/basepom/basepom/pull/73) | 7.0M |
 | [3.45.2](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.45.2/pom) | [mvn jdk22](jdbi3-root-3.45.2.buildspec) | [result](jdbi3-parent-3.45.2.buildinfo): [94 :white_check_mark:  106 :warning:](jdbi3-parent-3.45.2.buildcompare) [:mag:](jdbi3-parent-3.45.2.diffoscope) [:memo:](https://github.com/basepom/basepom/pull/73) | 7.0M |

@@ -1,10 +1,8 @@
-content/ch/qos/logback/logback-1.5.10.buildspec:1.5.11
-content/com/github/marschall/jakarta-jms-adapter/jakarta-jms-adapter-1.4.1.buildspec:1.5.0
 content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.8.6.3.buildspec:4.8.6.4
-content/org/jline/jline-3.27.0.buildspec:3.27.1
+content/eu/maveniverse/maven/nisse/nisse-0.3.0.buildspec:0.3.1
+content/io/telicent/jena/rdf-abac/rdf-abac-0.71.9.buildspec:0.71.10
 content/org/apache/httpcomponents/parent/httpcomponents-parent-13.buildspec:14
-content/org/apache/maven/reporting/maven-reporting-impl/maven-reporting-impl-4.0.0-M15.buildspec:4.0.0
-content/org/mockito/mockito-core/mockito-5.14.1.buildspec:5.14.2
+content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-9.0.5.buildspec:9.1.0
 content/org/mybatis/mybatis2/mybatis2-2.5.0.buildspec:2.6.0
 content/org/mybatis/scripting/mybatis-thymeleaf/mybatis-thymeleaf-1.0.4.buildspec:1.1.0
-content/org/webjars/flexmonster/flexmonster-2.9.87.buildspec:2.9.88
+content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.29.buildspec:1.29.1
