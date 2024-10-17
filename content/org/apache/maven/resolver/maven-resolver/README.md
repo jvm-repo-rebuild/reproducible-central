@@ -47,6 +47,7 @@ rebuilding **43 releases** of org.apache.maven.resolver:maven-resolver:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.2](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.2/pom) | | | |
 | [2.0.1](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.1/pom) | [mvn jdk21](maven-resolver-2.0.1.buildspec) | [result](maven-resolver-2.0.1.buildinfo): [118 :white_check_mark: ](maven-resolver-2.0.1.buildcompare) | 14M |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0/pom) | [mvn jdk21](maven-resolver-2.0.0.buildspec) | [result](maven-resolver-2.0.0.buildinfo): [118 :white_check_mark: ](maven-resolver-2.0.0.buildcompare) | 14M |
 | [2.0.0-alpha-11](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0-alpha-11/pom) | [mvn jdk21](maven-resolver-2.0.0-alpha-11.buildspec) | [result](maven-resolver-2.0.0-alpha-11.buildinfo): [118 :white_check_mark: ](maven-resolver-2.0.0-alpha-11.buildcompare) | 14M |
