@@ -7,12 +7,13 @@
 
 Source code: [https://github.com/apache/maven-resolver.git](https://github.com/apache/maven-resolver.git)
 
-<details><summary>This project defines 30 modules:</summary>
+<details><summary>This project defines 32 modules:</summary>
 
 * [org.apache.maven.resolver:maven-resolver](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/overview)
 * [org.apache.maven.resolver:maven-resolver-api](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-api/overview)
 * [org.apache.maven.resolver:maven-resolver-connector-basic](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-connector-basic/overview)
 * [org.apache.maven.resolver:maven-resolver-generator-gnupg](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-generator-gnupg/overview)
+* [org.apache.maven.resolver:maven-resolver-generator-sigstore](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-generator-sigstore/overview)
 * [org.apache.maven.resolver:maven-resolver-impl](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-impl/overview)
 * [org.apache.maven.resolver:maven-resolver-named-locks](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks/overview)
 * [org.apache.maven.resolver:maven-resolver-named-locks-hazelcast](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks-hazelcast/overview)
@@ -37,17 +38,18 @@ Source code: [https://github.com/apache/maven-resolver.git](https://github.com/a
 * [org.apache.maven.resolver:maven-resolver-transport-jdk-8](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-jdk-8/overview)
 * [org.apache.maven.resolver:maven-resolver-transport-jdk-parent](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-jdk-parent/overview)
 * [org.apache.maven.resolver:maven-resolver-transport-jetty](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-jetty/overview)
+* [org.apache.maven.resolver:maven-resolver-transport-minio](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-minio/overview)
 * [org.apache.maven.resolver:maven-resolver-transport-wagon](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-wagon/overview)
 * [org.apache.maven.resolver:maven-resolver-util](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-util/overview)
 </details>
 
-rebuilding **43 releases** of org.apache.maven.resolver:maven-resolver:
-- **41** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **44 releases** of org.apache.maven.resolver:maven-resolver:
+- **42** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0.2](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.2/pom) | | | |
+| [2.0.2](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.2/pom) | [mvn jdk21](maven-resolver-2.0.2.buildspec) | [result](maven-resolver-2.0.2.buildinfo): [128 :white_check_mark: ](maven-resolver-2.0.2.buildcompare) | 15M |
 | [2.0.1](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.1/pom) | [mvn jdk21](maven-resolver-2.0.1.buildspec) | [result](maven-resolver-2.0.1.buildinfo): [118 :white_check_mark: ](maven-resolver-2.0.1.buildcompare) | 14M |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0/pom) | [mvn jdk21](maven-resolver-2.0.0.buildspec) | [result](maven-resolver-2.0.0.buildinfo): [118 :white_check_mark: ](maven-resolver-2.0.0.buildcompare) | 14M |
 | [2.0.0-alpha-11](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0-alpha-11/pom) | [mvn jdk21](maven-resolver-2.0.0-alpha-11.buildspec) | [result](maven-resolver-2.0.0-alpha-11.buildinfo): [118 :white_check_mark: ](maven-resolver-2.0.0-alpha-11.buildcompare) | 14M |
