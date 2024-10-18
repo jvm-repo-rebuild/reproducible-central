@@ -57,6 +57,7 @@ rebuilding **23 releases** of org.apache.struts:struts2-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [6.6.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.6.1/pom) | | | |
 | [6.6.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.6.0/pom) | [mvn jdk8](struts2-6.6.0.buildspec) | [result](struts2-parent-6.6.0.buildinfo): [107 :white_check_mark: ](struts2-parent-6.6.0.buildcompare) | 48M |
 | [6.4.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.4.0/pom) | [mvn jdk8](struts2-6.4.0.buildspec) | [result](struts2-parent-6.4.0.buildinfo): [107 :white_check_mark: ](struts2-parent-6.4.0.buildcompare) | 48M |
 | [6.3.0.2](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.3.0.2/pom) | [mvn jdk8](struts2-6.3.0.2.buildspec) | [result](struts2-parent-6.3.0.2.buildinfo): [107 :white_check_mark: ](struts2-parent-6.3.0.2.buildcompare) | 49M |

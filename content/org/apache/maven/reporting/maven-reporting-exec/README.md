@@ -13,6 +13,7 @@ rebuilding **16 releases** of org.apache.maven.reporting:maven-reporting-exec:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-exec/2.0.0/pom) | | | |
 | [2.0.0-M14](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-exec/2.0.0-M14/pom) | [mvn jdk8 w](maven-reporting-exec-2.0.0-M14.buildspec) | [result](maven-reporting-exec-2.0.0-M14.buildinfo): [6 :white_check_mark: ](maven-reporting-exec-2.0.0-M14.buildcompare) | 302K |
 | [2.0.0-M13](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-exec/2.0.0-M13/pom) | [mvn jdk8 w](maven-reporting-exec-2.0.0-M13.buildspec) | [result](maven-reporting-exec-2.0.0-M13.buildinfo): [6 :white_check_mark: ](maven-reporting-exec-2.0.0-M13.buildcompare) | 261K |
 | [2.0.0-M12](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-exec/2.0.0-M12/pom) | [mvn jdk8 w](maven-reporting-exec-2.0.0-M12.buildspec) | [result](maven-reporting-exec-2.0.0-M12.buildinfo): [6 :white_check_mark: ](maven-reporting-exec-2.0.0-M12.buildcompare) | 261K |
