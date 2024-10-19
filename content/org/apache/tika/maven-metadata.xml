@@ -3,8 +3,8 @@
   <groupId>org.apache.tika</groupId>
   <artifactId>tika</artifactId>
   <versioning>
-    <latest>3.0.0-BETA2</latest>
-    <release>3.0.0-BETA2</release>
+    <latest>3.0.0</latest>
+    <release>3.0.0</release>
     <versions>
       <version>0.2</version>
       <version>0.3</version>
@@ -56,7 +56,8 @@
       <version>2.9.2</version>
       <version>3.0.0-BETA</version>
       <version>3.0.0-BETA2</version>
+      <version>3.0.0</version>
     </versions>
-    <lastUpdated>20240715200235</lastUpdated>
+    <lastUpdated>20241019172008</lastUpdated>
   </versioning>
 </metadata>
