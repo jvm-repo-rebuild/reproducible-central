@@ -45,9 +45,11 @@ RUN sed -i 's@^\(deb http://security.ubuntu.com\)@# -------- Disabled because of
 RUN apt clean cache \
    && apt-get -qq update \
    && apt-get -q install -y software-properties-common apt-utils apt-transport-https gnupg ca-certificates curl sudo \
+   && echo "===== add Azul repo" \
    && curl -s https://repos.azul.com/azul-repo.key | sudo gpg --dearmor -o /usr/share/keyrings/azul.gpg \
    && echo "deb [signed-by=/usr/share/keyrings/azul.gpg] https://repos.azul.com/zulu/deb stable main" | sudo tee /etc/apt/sources.list.d/zulu.list \
    && apt-get -qq update \
+   && echo "===== install useful packages for rebuild" \
    && apt-get -q install -y --no-install-recommends \
     bash-completion \
     build-essential \
@@ -71,4 +73,6 @@ RUN apt clean cache \
     tlsh-tools \
     unzip \
     less \
-    graphviz
+    graphviz \
+  && echo "===== install OpenJDK dependencies" \
+  && apt-get -q install -y $(apt-cache depends openjdk-21-jre | grep -v headless | awk '/Depends:/{print$2}')
