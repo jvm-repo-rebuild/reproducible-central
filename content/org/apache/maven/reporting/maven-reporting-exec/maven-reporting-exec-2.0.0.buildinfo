@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Reporting Executor
+group-id=org.apache.maven.reporting
+artifact-id=maven-reporting-exec
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-reporting-exec.git
+source.scm.tag=maven-reporting-exec-2.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.maven.reporting
+outputs.0.filename=maven-reporting-exec-2.0.0.pom
+outputs.0.length=9638
+outputs.0.checksums.sha512=5e8aa70add70bef5e3d58a4a20fddeca1770093deadb92b40e8a8ac8e9db5136fdaa52575a911f99d4a28b91f5ad2da8092884c737b14653661ff5cac3f600a2
+
+outputs.1.groupId=org.apache.maven.reporting
+outputs.1.filename=maven-reporting-exec-2.0.0.jar
+outputs.1.length=27936
+outputs.1.checksums.sha512=c1daaeedd9d4f331b8856a0720043c0c2457d11d89c2f025abec1df4a81151b3a50ceaa3d8d703fd561c86436f796259ceef9d49b880a069f7f3656e528e47a7
+
+outputs.2.groupId=org.apache.maven.reporting
+outputs.2.filename=maven-reporting-exec-2.0.0-source-release.zip
+outputs.2.length=56992
+outputs.2.checksums.sha512=f387ef16660fa9c05457637571ee691ca24775a9a4b9f24145865f5924492c4c185d9cf948763ee27a886a39883efb392df50defa524427d18994a0fbedb343b
+
+outputs.3.groupId=org.apache.maven.reporting
+outputs.3.filename=maven-reporting-exec-2.0.0-sources.jar
+outputs.3.length=25514
+outputs.3.checksums.sha512=f158caea587ed44579180c25969707eb40edc13037b1e842ae2b73f815b6dd4366556b200579ad21bd938d23c100429f980647dac4e4f4d17ced5e359c026802
+
+outputs.4.groupId=org.apache.maven.reporting
+outputs.4.filename=maven-reporting-exec-2.0.0-cyclonedx.xml
+outputs.4.length=83680
+outputs.4.checksums.sha512=5929b83e49fc9ac9943910d546e8df19d5115bbf754a3628ddacc63403c848616cf409a349468c4f06262f33bc557e131937a3492235fd594b1bd737066c4906
+
+outputs.5.groupId=org.apache.maven.reporting
+outputs.5.filename=maven-reporting-exec-2.0.0-cyclonedx.json
+outputs.5.length=96688
+outputs.5.checksums.sha512=9e940dceff39d9ec3e549ba21d3c5bde3de4b55fc6a9708092d8a8d26bc14bbd6ad4aa61bf899d5b1f0b1ec8214481423e3dfa3913b572092e9c2bcf180b2be6
