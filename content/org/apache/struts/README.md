@@ -51,13 +51,13 @@ Source code: [https://github.com/apache/struts.git](https://github.com/apache/st
 * [org.apache.struts:struts2-xslt-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-xslt-plugin/overview)
 </details>
 
-rebuilding **23 releases** of org.apache.struts:struts2-parent:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **24 releases** of org.apache.struts:struts2-parent:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 18 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [6.6.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.6.1/pom) | | | |
+| [6.6.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.6.1/pom) | [mvn jdk8](struts2-6.6.1.buildspec) | [result](struts2-parent-6.6.1.buildinfo): [107 :white_check_mark: ](struts2-parent-6.6.1.buildcompare) | 48M |
 | [6.6.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.6.0/pom) | [mvn jdk8](struts2-6.6.0.buildspec) | [result](struts2-parent-6.6.0.buildinfo): [107 :white_check_mark: ](struts2-parent-6.6.0.buildcompare) | 48M |
 | [6.4.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.4.0/pom) | [mvn jdk8](struts2-6.4.0.buildspec) | [result](struts2-parent-6.4.0.buildinfo): [107 :white_check_mark: ](struts2-parent-6.4.0.buildcompare) | 48M |
 | [6.3.0.2](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.3.0.2/pom) | [mvn jdk8](struts2-6.3.0.2.buildspec) | [result](struts2-parent-6.3.0.2.buildinfo): [107 :white_check_mark: ](struts2-parent-6.3.0.2.buildcompare) | 49M |
