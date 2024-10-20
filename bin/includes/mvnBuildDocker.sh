@@ -142,7 +142,9 @@ mvnBuildDockerBuildBaseToolchainsImage() {
       case ${toolchainsjdk} in
         # Supported openjdk-*-jdk on ubuntu 22.04 (checked on 2024-09-14)
         8 | 11 | 17 | 18 | 19 | 21 )
-          JDKPACKAGES="${JDKPACKAGES} openjdk-${toolchainsjdk}-jdk "
+          local packagePrefix="openjdk-"
+          [ $jdkForceAzul = "true" ] && packagePrefix="zulu"
+          JDKPACKAGES="${JDKPACKAGES} ${packagePrefix}${toolchainsjdk}-jdk "
           JDKTAG="${JDKTAG}-${toolchainsjdk}"
           ;;
         12 | 13 | 14 | 15 | 16 | 22 | 23 | 24 )
