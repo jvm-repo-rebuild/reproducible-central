@@ -1,0 +1,14 @@
+version=8.3.1
+ok=9
+ko=7
+ignored=0
+okFiles="com.io7m.primogenitor-8.3.1.pom com.io7m.primogenitor-8.3.1-cyclonedx.xml com.io7m.primogenitor.lite-8.3.1.pom com.io7m.primogenitor.lite-8.3.1-cyclonedx.xml com.io7m.primogenitor.full-8.3.1.pom com.io7m.primogenitor.full-8.3.1-cyclonedx.xml com.io7m.primogenitor.support-8.3.1.pom com.io7m.primogenitor.support-8.3.1-cyclonedx.xml com.io7m.primogenitor.tests-8.3.1.pom"
+koFiles="com.io7m.primogenitor.support-8.3.1.jar com.io7m.primogenitor.support-8.3.1-sources.jar com.io7m.primogenitor.support-8.3.1-tests.jar com.io7m.primogenitor.tests-8.3.1.jar com.io7m.primogenitor.tests-8.3.1-sources.jar com.io7m.primogenitor.tests-8.3.1-cyclonedx.xml com.io7m.primogenitor.tests-8.3.1-tests.jar"
+ignoredFiles=""
+# diffoscope target/reference/com.io7m.primogenitor/com.io7m.primogenitor.support-8.3.1.jar com.io7m.primogenitor.support/target/com.io7m.primogenitor.support-8.3.1.jar
+# diffoscope target/reference/com.io7m.primogenitor/com.io7m.primogenitor.support-8.3.1-sources.jar com.io7m.primogenitor.support/target/com.io7m.primogenitor.support-8.3.1-sources.jar
+# diffoscope target/reference/com.io7m.primogenitor/com.io7m.primogenitor.support-8.3.1-tests.jar com.io7m.primogenitor.support/target/com.io7m.primogenitor.support-8.3.1-tests.jar
+# diffoscope target/reference/com.io7m.primogenitor/com.io7m.primogenitor.tests-8.3.1.jar com.io7m.primogenitor.tests/target/com.io7m.primogenitor.tests-8.3.1.jar
+# diffoscope target/reference/com.io7m.primogenitor/com.io7m.primogenitor.tests-8.3.1-sources.jar com.io7m.primogenitor.tests/target/com.io7m.primogenitor.tests-8.3.1-sources.jar
+# diffoscope target/reference/com.io7m.primogenitor/com.io7m.primogenitor.tests-8.3.1-cyclonedx.xml com.io7m.primogenitor.tests/target/bom.xml
+# diffoscope target/reference/com.io7m.primogenitor/com.io7m.primogenitor.tests-8.3.1-tests.jar com.io7m.primogenitor.tests/target/com.io7m.primogenitor.tests-8.3.1-tests.jar
