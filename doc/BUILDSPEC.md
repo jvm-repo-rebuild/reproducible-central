@@ -44,12 +44,14 @@ newline=crlf
 # if rebuild output depends on OS and/or processor architecture
 #os=
 #arch=
+# if rebuild output depends on Azul JDK even when default OpenJDK is available, like with JDK 8 and cyclonedx-maven-plugin
+#jdkForceAzul=true
 
 # 4. rebuild command
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 # optional:
-# execBefore=
-# execAfter=
+#execBefore=
+#execAfter=
 
 # 5. location of the buildinfo file generated during rebuild to record output fingerprints
 buildinfo=target/${artifactId}-${version}.buildinfo
