@@ -120,7 +120,7 @@ mvnBuildDocker() {
 buildImage() {
   local image="$1"
   local dockerFile="$2"
-  if ! runcommand_time "${RB_OCI_ENGINE}" build ${RB_OCI_ENGINE_BUILD_OPTS} -t "${image}" -f "${DOCKERFILES_TMP_DIR}/${dockerFile}" $([ "$CI" == true ] && echo "--push --cache-to type=gha,mode=max --cache-from type=gha") "${SCRIPTDIR}/bin" ;
+  if ! runcommand_time "${RB_OCI_ENGINE}" build ${RB_OCI_ENGINE_BUILD_OPTS} -q -t "${image}" -f "${DOCKERFILES_TMP_DIR}/${dockerFile}" $([ "$CI" == true ] && echo "--push --cache-to type=gha,mode=max --cache-from type=gha") "${SCRIPTDIR}/bin" ;
   then
     fatal "Unable to build ${image} using ${dockerFile}"
   fi

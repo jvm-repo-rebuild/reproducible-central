@@ -55,7 +55,7 @@ then
   runlog "git fetch"
   git fetch --tags || fatal "failed to git fetch"
 
-  runlog "git checkout -f ${gitTag}"
+  runlog "git checkout -q -f ${gitTag}"
   git checkout -f ${gitTag} || fatal "failed to git checkout ${gitTag}"
   if [ "${newline}" == "crlf" ]
   then
