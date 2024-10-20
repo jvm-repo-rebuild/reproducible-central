@@ -64,7 +64,7 @@ jobs:
                 continue
               fi
 
-              sudo apt-get install -y dos2unix
+              sudo apt-get -qq install -y dos2unix
               ./rebuild.sh $file
               bin/update-project-summary.sh "$(dirname $file)"
               git add "$(dirname $file)"
