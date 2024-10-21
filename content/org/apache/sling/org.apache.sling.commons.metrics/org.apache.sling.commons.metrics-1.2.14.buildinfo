@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Commons Metrics
+group-id=org.apache.sling
+artifact-id=org.apache.sling.commons.metrics
+version=1.2.14
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-metrics.git
+source.scm.tag=org.apache.sling.commons.metrics-1.2.14
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.commons.metrics-1.2.14.pom
+outputs.0.length=8353
+outputs.0.checksums.sha512=b20345da2c6609858159ae5e8c1e9d6f856ccbbb601c87a821209f88a9588b0c118cad4f7cf58e1ffa4d9ad36ba7c25e6385df5ac6649580290e37fbe759cc3e
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.commons.metrics-1.2.14.jar
+outputs.1.length=74590
+outputs.1.checksums.sha512=b83dd62c24c3769557d310d3105b8614ece18b6d56b2bba03ae429e4791487108f4305196c2017175e4eb90bbce2995149809eb59c3ee53ba9700cd78d9eb279
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.commons.metrics-1.2.14-source-release.zip
+outputs.2.length=71030
+outputs.2.checksums.sha512=f39c5ff131210b777ebfc3aa78fc516b60b2b7e2d92493b6f1b213a1e21de92402b332275df66ea2f53e1c246061390fcc64c2b24dd6417c33d1147722b46dd9
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.commons.metrics-1.2.14-sources.jar
+outputs.3.length=43311
+outputs.3.checksums.sha512=86184e30da9a7d49d661def752da3e9057bc0cb06f91d86094bc133b801b7e292581864556f15dfa004cc9d9794e327c8fb28666ac510f9f0a49ceb63d34297e
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.commons.metrics-1.2.14-sources.jar
+outputs.4.length=43311
+outputs.4.checksums.sha512=86184e30da9a7d49d661def752da3e9057bc0cb06f91d86094bc133b801b7e292581864556f15dfa004cc9d9794e327c8fb28666ac510f9f0a49ceb63d34297e
