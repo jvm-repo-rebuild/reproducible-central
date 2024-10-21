@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Invoker Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-invoker-plugin
+version=3.8.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/maven-invoker-plugin.git
+source.scm.tag=maven-invoker-plugin-3.8.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-invoker-plugin-3.8.1.pom
+outputs.0.length=16194
+outputs.0.checksums.sha512=ff243e49d85384b230c210331ac52bc4d968240a11267d2b5766409596d5e2c6ee8f24e7bfdfd18e475228aaf1405da7710666e0a522fe5e62b5695cf66dbb6b
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-invoker-plugin-3.8.1.jar
+outputs.1.length=139447
+outputs.1.checksums.sha512=20365c88155ac46a40678db28d261139d9a01e7c1416074b1b325c1c0678c837f404fd42164bff54e13776cb48359bf9b3cbbbe3239538381a5d5e0273d2bc4e
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-invoker-plugin-3.8.1-source-release.zip
+outputs.2.length=735502
+outputs.2.checksums.sha512=0193e858c6f34d67dda07b67ae959c53122de92d3cced46bd43ba26765ef11f1b959e790c3146d02482fed876fa915b4d2cd972a9598b2cf72d74b7ee6ee8f70
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-invoker-plugin-3.8.1-sources.jar
+outputs.3.length=83104
+outputs.3.checksums.sha512=371ee7df5736cd06146d72a411dc348c98f65357cf9cc7810186692aba0a415c167104e99ec8066f18d6000abca7a3debcff71b72890ba49e4905c639d9e46b0
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-invoker-plugin-3.8.1-cyclonedx.xml
+outputs.4.length=161054
+outputs.4.checksums.sha512=1c80b8ee71214af510e814fecba15a93edd99700e891e036a775fa58f97d22dba1ce70260c8d9c70ab1d07da939d8be51428a97f96fbf1edfc12e00e12a6f37e
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-invoker-plugin-3.8.1-cyclonedx.json
+outputs.5.length=184379
+outputs.5.checksums.sha512=c5c059bd147df2002e47191a549054fbaee2b2ce31f1a6a981c2415563a44873e20896960d111aa138c2640ac8aaf872a7e9155b0161124989703b045b4b1e0c
