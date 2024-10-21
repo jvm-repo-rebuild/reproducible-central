@@ -16,13 +16,13 @@ Source code: [https://github.com/telicent-oss/jena-fuseki-kafka](https://github.
 * [io.telicent.jena:jena-kafka-connector](https://central.sonatype.com/artifact/io.telicent.jena/jena-kafka-connector/overview)
 </details>
 
-rebuilding **1 releases** of io.telicent.jena:jena-kafka:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of io.telicent.jena:jena-kafka:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.5.0](https://central.sonatype.com/artifact/io.telicent.jena/jena-kafka/1.5.0/pom) | | | |
+| [1.5.0](https://central.sonatype.com/artifact/io.telicent.jena/jena-kafka/1.5.0/pom) | [mvn jdk17](jena-kafka-1.5.0.buildspec) | [result](jena-kafka-1.5.0.buildinfo): [30 :white_check_mark: ](jena-kafka-1.5.0.buildcompare) | 25M |
 | [1.4.0](https://central.sonatype.com/artifact/io.telicent.jena/jena-kafka/1.4.0/pom) | [mvn jdk17](jena-kafka-1.4.0.buildspec) | [result](jena-kafka-1.4.0.buildinfo): [30 :white_check_mark: ](jena-kafka-1.4.0.buildcompare) | 27M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
