@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-commons-metrics.git](https://github.com/apache/sling-org-apache-sling-commons-metrics.git)
 
-rebuilding **2 releases** of org.apache.sling:org.apache.sling.commons.metrics:
+rebuilding **3 releases** of org.apache.sling:org.apache.sling.commons.metrics:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.2.14](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.metrics/1.2.14/pom) | | | |
+| [1.2.14](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.metrics/1.2.14/pom) | [mvn jdk11](org.apache.sling.commons.metrics-1.2.14.buildspec) | [result](org.apache.sling.commons.metrics-1.2.14.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.commons.metrics-1.2.14.buildcompare) | 235K |
 | [1.2.12](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.metrics/1.2.12/pom) | [mvn jdk11](org.apache.sling.commons.metrics-1.2.12.buildspec) | [result](org.apache.sling.commons.metrics-1.2.12.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.commons.metrics-1.2.12.buildcompare) [:mag:](org.apache.sling.commons.metrics-1.2.12.diffoscope) | 228K |
 | [1.2.10](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.metrics/1.2.10/pom) | [mvn jdk11](org.apache.sling.commons.metrics-1.2.10.buildspec) | [result](org.apache.sling.commons.metrics-1.2.10.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.commons.metrics-1.2.10.buildcompare) [:mag:](org.apache.sling.commons.metrics-1.2.10.diffoscope) | 212K |
 
