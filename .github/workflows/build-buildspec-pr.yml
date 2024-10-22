@@ -20,6 +20,7 @@ jobs:
           gh pr checkout ${{ github.event.pull_request.number }}
           git config --local user.email "reproducible-central@github.io"
           git config --local user.name "Reproducible Central CI"
+          git config --local advice.detachedHead false
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3.0.0
@@ -64,7 +65,7 @@ jobs:
                 continue
               fi
 
-              sudo apt-get -qq install -y dos2unix
+              sudo apt-get -qq install -y dos2unix 2>&1 > /dev/null
               ./rebuild.sh $file
               bin/update-project-summary.sh "$(dirname $file)"
               git add "$(dirname $file)"
