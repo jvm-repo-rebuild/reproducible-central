@@ -76,7 +76,7 @@ else
   info "Fetching source code from distribution \033[1m${sourceDistribution}\033[0m"
   [ -f $(basename ${sourceDistribution}) ] || wget -q ${sourceDistribution}
   [ -d ${sourcePath} ] && \rm -rf ${sourcePath}
-  unzip $(basename ${sourceDistribution})
+  unzip -q $(basename ${sourceDistribution})
   cd ${sourcePath}
   [ -n "${sourceRmFiles}" ] && \rm ${sourceRmFiles}
 fi
