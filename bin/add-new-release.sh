@@ -42,7 +42,7 @@ then
     if [ "$jdk" != "$nextJdk" ]
     then
       echo -e "\033[0;1mupdating jdk: $jdk => $nextJdk\033[0;0m"
-      sed -i "s/^jdk=.*/jdk=${nextJdk}/" ${nextBuildspec}
+      sed -e "s/^jdk=.*/jdk=${nextJdk}/" ${nextBuildspec} > ${nextBuildspec}.new ; mv -f  ${nextBuildspec}.new  ${nextBuildspec}
     fi
   fi
   unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep "Built-"
@@ -51,8 +51,8 @@ then
   then
     buildNumber="$(unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep Scm-Revision | cut -d ' ' -f 2)"
     timestamp="$(unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep Scm-Revision | cut -d ' ' -f 4 | sed -e 's/\r//')"
-    sed -i "s/^buildNumber=.*/buildNumber=${buildNumber}/" ${nextBuildspec}
-    sed -i "s/^timestamp=.*/timestamp=${timestamp}/" ${nextBuildspec}
+    sed -e "s/^buildNumber=.*/buildNumber=${buildNumber}/" ${nextBuildspec} > ${nextBuildspec}.new ; mv -f  ${nextBuildspec}.new  ${nextBuildspec}
+    sed -e "s/^timestamp=.*/timestamp=${timestamp}/" ${nextBuildspec} > ${nextBuildspec}.new ; mv -f  ${nextBuildspec}.new  ${nextBuildspec}
     echo "io.wcm timestamp=${timestamp}"
     echo "io.wcm buildNumber=${buildNumber}"
   fi
@@ -102,7 +102,7 @@ fi
 if [ -n "$diffoscope" ]
 then
   echo "commenting out diffoscope entry"
-  sed -i "s/^diffoscope=/#diffoscope=/" ${nextBuildspec}
+  sed -e "s/^diffoscope=/#diffoscope=/" ${nextBuildspec} > ${nextBuildspec}.new ; mv -f  ${nextBuildspec}.new  ${nextBuildspec}
 fi
 echo -n -e "\033[0;31m" ; grep -A2 "# extracted from:" ${nextBuildspec} ; echo -n -e "\033[0m" # display hint on extracting data from jar to inject into buildspec
 
