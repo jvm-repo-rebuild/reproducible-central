@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/spotbugs/spotbugs-maven-plugin.git](https://github.com/spotbugs/spotbugs-maven-plugin.git)
 
-rebuilding **25 releases** of com.github.spotbugs:spotbugs-maven-plugin:
-- **25** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **26 releases** of com.github.spotbugs:spotbugs-maven-plugin:
+- **26** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [4.8.6.5](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.8.6.5/pom) | [mvn jdk22 w](spotbugs-maven-plugin-4.8.6.5.buildspec) | [result](spotbugs-maven-plugin-4.8.6.5.buildinfo): [5 :white_check_mark: ](spotbugs-maven-plugin-4.8.6.5.buildcompare) | 815K |
-| [4.8.6.4](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.8.6.4/pom) | | | |
+| [4.8.6.4](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.8.6.4/pom) | [mvn jdk22 w](spotbugs-maven-plugin-4.8.6.4.buildspec) | [result](spotbugs-maven-plugin-4.8.6.4.buildinfo): [5 :white_check_mark: ](spotbugs-maven-plugin-4.8.6.4.buildcompare) | 816K |
 | [4.8.6.3](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.8.6.3/pom) | [mvn jdk22 w](spotbugs-maven-plugin-4.8.6.3.buildspec) | [result](spotbugs-maven-plugin-4.8.6.3.buildinfo): [5 :white_check_mark: ](spotbugs-maven-plugin-4.8.6.3.buildcompare) | 816K |
 | [4.8.6.2](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.8.6.2/pom) | [mvn jdk22 w](spotbugs-maven-plugin-4.8.6.2.buildspec) | [result](spotbugs-maven-plugin-4.8.6.2.buildinfo): [5 :white_check_mark: ](spotbugs-maven-plugin-4.8.6.2.buildcompare) | 815K |
 | [4.8.6.1](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.8.6.1/pom) | [mvn jdk22 w](spotbugs-maven-plugin-4.8.6.1.buildspec) | [result](spotbugs-maven-plugin-4.8.6.1.buildinfo): [5 :white_check_mark: ](spotbugs-maven-plugin-4.8.6.1.buildcompare) | 815K |
