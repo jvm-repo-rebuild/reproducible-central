@@ -34,7 +34,7 @@ if [ -z "${sourceDistribution}" ]
 then
   # use provided Git repository and tag
   info "Fetching source code from Git \033[1m${gitRepo}\033[0m on tag \033[1m${gitTag}\033[0m"
-  [ -d ${artifactId} ] || git clone ${gitRepo} ${artifactId} || fatal "failed to clone ${artifactId}"
+  [ -d ${artifactId} ] || git clone -q ${gitRepo} ${artifactId} || fatal "failed to clone ${artifactId}"
   cd ${artifactId}
   pwd
 
@@ -56,7 +56,7 @@ then
   git fetch --tags || fatal "failed to git fetch"
 
   runlog "git checkout -q -f ${gitTag}"
-  git checkout -f ${gitTag} || fatal "failed to git checkout ${gitTag}"
+  git checkout -q -f ${gitTag} || fatal "failed to git checkout ${gitTag}"
   if [ "${newline}" == "crlf" ]
   then
     echo "converting newlines to crlf"
@@ -74,7 +74,7 @@ then
 else
   # use provided sourceDistribution
   info "Fetching source code from distribution \033[1m${sourceDistribution}\033[0m"
-  [ -f $(basename ${sourceDistribution}) ] || wget ${sourceDistribution}
+  [ -f $(basename ${sourceDistribution}) ] || wget -q ${sourceDistribution}
   [ -d ${sourcePath} ] && \rm -rf ${sourcePath}
   unzip $(basename ${sourceDistribution})
   cd ${sourcePath}
