@@ -7,11 +7,12 @@
 
 Source code: [https://github.com/apache/maven.git](https://github.com/apache/maven.git)
 
-<details><summary>This project defines 37 modules:</summary>
+<details><summary>This project defines 40 modules:</summary>
 
 * [org.apache.maven:apache-maven](https://central.sonatype.com/artifact/org.apache.maven/apache-maven/overview)
 * [org.apache.maven:maven](https://central.sonatype.com/artifact/org.apache.maven/maven/overview)
 * [org.apache.maven:maven-api](https://central.sonatype.com/artifact/org.apache.maven/maven-api/overview)
+* [org.apache.maven:maven-api-cli](https://central.sonatype.com/artifact/org.apache.maven/maven-api-cli/overview)
 * [org.apache.maven:maven-api-core](https://central.sonatype.com/artifact/org.apache.maven/maven-api-core/overview)
 * [org.apache.maven:maven-api-di](https://central.sonatype.com/artifact/org.apache.maven/maven-api-di/overview)
 * [org.apache.maven:maven-api-impl](https://central.sonatype.com/artifact/org.apache.maven/maven-api-impl/overview)
@@ -26,11 +27,13 @@ Source code: [https://github.com/apache/maven.git](https://github.com/apache/mav
 * [org.apache.maven:maven-artifact](https://central.sonatype.com/artifact/org.apache.maven/maven-artifact/overview)
 * [org.apache.maven:maven-bom](https://central.sonatype.com/artifact/org.apache.maven/maven-bom/overview)
 * [org.apache.maven:maven-builder-support](https://central.sonatype.com/artifact/org.apache.maven/maven-builder-support/overview)
+* [org.apache.maven:maven-cli](https://central.sonatype.com/artifact/org.apache.maven/maven-cli/overview)
 * [org.apache.maven:maven-compat](https://central.sonatype.com/artifact/org.apache.maven/maven-compat/overview)
 * [org.apache.maven:maven-core](https://central.sonatype.com/artifact/org.apache.maven/maven-core/overview)
 * [org.apache.maven:maven-di](https://central.sonatype.com/artifact/org.apache.maven/maven-di/overview)
 * [org.apache.maven:maven-embedder](https://central.sonatype.com/artifact/org.apache.maven/maven-embedder/overview)
 * [org.apache.maven:maven-jline](https://central.sonatype.com/artifact/org.apache.maven/maven-jline/overview)
+* [org.apache.maven:maven-logging](https://central.sonatype.com/artifact/org.apache.maven/maven-logging/overview)
 * [org.apache.maven:maven-model](https://central.sonatype.com/artifact/org.apache.maven/maven-model/overview)
 * [org.apache.maven:maven-model-builder](https://central.sonatype.com/artifact/org.apache.maven/maven-model-builder/overview)
 * [org.apache.maven:maven-model-transform](https://central.sonatype.com/artifact/org.apache.maven/maven-model-transform/overview)
