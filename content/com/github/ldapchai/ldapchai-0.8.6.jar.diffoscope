@@ -1,0 +1,1068 @@
+--- /reference/ldapchai-0.8.6.jar
++++ /rebuild/ldapchai-0.8.6.jar
+├── com/novell/ldapchai/impl/AbstractChaiEntry.class
+│ ├── procyon -ec {}
+│ │ @@ -51,15 +51,15 @@
+│ │              return true;
+│ │          }
+│ │          if (!(o instanceof ChaiEntry)) {
+│ │              return false;
+│ │          }
+│ │          final AbstractChaiEntry chaiEntry = (AbstractChaiEntry)o;
+│ │          if (this.chaiProvider != null) {
+│ │ -            if (!this.chaiProvider.equals((Object)chaiEntry.chaiProvider)) {
+│ │ +            if (!this.chaiProvider.equals(chaiEntry.chaiProvider)) {
+│ │                  return false;
+│ │              }
+│ │          }
+│ │          else if (chaiEntry.chaiProvider != null) {
+│ │              return false;
+│ │          }
+│ │          if (this.entryDN != null) {
+│ │ @@ -206,16 +206,16 @@
+│ │          int i = 0;
+│ │          while (i < length) {
+│ │              final byte[] value = array[i];
+│ │              final String strValue = new String(value, Charset.forName(characterEncoding));
+│ │              final int sepPos = strValue.indexOf(35);
+│ │              final int typeInt = Integer.parseInt(strValue.substring(0, sepPos));
+│ │              final AbstractChaiEntry.NetworkAddressType type = AbstractChaiEntry.NetworkAddressType.forIdentifier(typeInt);
+│ │ -            switch (type.ordinal()) {
+│ │ -                case 0: {
+│ │ +            switch (AbstractChaiEntry.AbstractChaiEntry$1.$SwitchMap$com$novell$ldapchai$impl$AbstractChaiEntry$NetworkAddressType[type.ordinal()]) {
+│ │ +                case 1: {
+│ │                      final StringBuilder sb = new StringBuilder();
+│ │                      try {
+│ │                          sb.append(256 + value[sepPos + 3] % 256).append(".");
+│ │                          sb.append(256 + value[sepPos + 4] % 256).append(".");
+│ │                          sb.append(256 + value[sepPos + 5] % 256).append(".");
+│ │                          sb.append(256 + value[sepPos + 6] % 256);
+│ │                          returnValues.add(InetAddress.getByName(sb.toString()));
+├── com/novell/ldapchai/impl/ad/ADErrorMap$ADError.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,8 +1,8 @@
+│ │ -  SHA-256 checksum c76b957f4ff12bc472e056271d6ee7db556e9f5e5e9f08cd8d6fc951aba73eee
+│ │ +  SHA-256 checksum 61f46af30eef934da42f3195c21b5600ea8167ddc70b2bc275a2fc6092a42835
+│ │    Compiled from "ADErrorMap.java"
+│ │  final class com.novell.ldapchai.impl.ad.ADErrorMap$ADError extends java.lang.Enum<com.novell.ldapchai.impl.ad.ADErrorMap$ADError>
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x4030) ACC_FINAL, ACC_SUPER, ACC_ENUM
+│ │    this_class: #2                          // com/novell/ldapchai/impl/ad/ADErrorMap$ADError
+│ │    super_class: #60                        // java/lang/Enum
+│ │ @@ -184,40 +184,39 @@
+│ │    #174 = Utf8               Ljava/util/List<Ljava/lang/String;>;
+│ │    #175 = Utf8               values
+│ │    #176 = Utf8               Code
+│ │    #177 = Utf8               LineNumberTable
+│ │    #178 = Utf8               (Ljava/lang/String;)Lcom/novell/ldapchai/impl/ad/ADErrorMap$ADError;
+│ │    #179 = Utf8               LocalVariableTable
+│ │    #180 = Utf8               name
+│ │ -  #181 = Utf8               MethodParameters
+│ │ -  #182 = Utf8               this
+│ │ -  #183 = Utf8               [Ljava/lang/String;
+│ │ -  #184 = Utf8               (Ljava/lang/String;Lcom/novell/ldapchai/exception/ChaiError;ZZ[Ljava/lang/String;)V
+│ │ -  #185 = Utf8               getErrorCodeString
+│ │ -  #186 = Utf8               ()Ljava/lang/String;
+│ │ -  #187 = Utf8               isPermanent
+│ │ -  #188 = Utf8               ()Z
+│ │ -  #189 = Utf8               isAuthentication
+│ │ -  #190 = Utf8               getChaiErrorCode
+│ │ -  #191 = Utf8               ()Lcom/novell/ldapchai/exception/ChaiError;
+│ │ -  #192 = Utf8               getErrorStrings
+│ │ -  #193 = Utf8               ()Ljava/util/List;
+│ │ -  #194 = Utf8               ()Ljava/util/List<Ljava/lang/String;>;
+│ │ -  #195 = Utf8               access$000
+│ │ -  #196 = Utf8               (Lcom/novell/ldapchai/impl/ad/ADErrorMap$ADError;)Lcom/novell/ldapchai/exception/ChaiError;
+│ │ -  #197 = Utf8               x0
+│ │ -  #198 = Utf8               <clinit>
+│ │ -  #199 = Utf8               ()V
+│ │ -  #200 = Utf8               Ljava/lang/Enum<Lcom/novell/ldapchai/impl/ad/ADErrorMap$ADError;>;
+│ │ -  #201 = Utf8               SourceFile
+│ │ -  #202 = Utf8               ADErrorMap.java
+│ │ -  #203 = Utf8               InnerClasses
+│ │ -  #204 = Class              #205          // com/novell/ldapchai/impl/ad/ADErrorMap
+│ │ -  #205 = Utf8               com/novell/ldapchai/impl/ad/ADErrorMap
+│ │ -  #206 = Utf8               ADError
+│ │ +  #181 = Utf8               this
+│ │ +  #182 = Utf8               [Ljava/lang/String;
+│ │ +  #183 = Utf8               (Ljava/lang/String;Lcom/novell/ldapchai/exception/ChaiError;ZZ[Ljava/lang/String;)V
+│ │ +  #184 = Utf8               getErrorCodeString
+│ │ +  #185 = Utf8               ()Ljava/lang/String;
+│ │ +  #186 = Utf8               isPermanent
+│ │ +  #187 = Utf8               ()Z
+│ │ +  #188 = Utf8               isAuthentication
+│ │ +  #189 = Utf8               getChaiErrorCode
+│ │ +  #190 = Utf8               ()Lcom/novell/ldapchai/exception/ChaiError;
+│ │ +  #191 = Utf8               getErrorStrings
+│ │ +  #192 = Utf8               ()Ljava/util/List;
+│ │ +  #193 = Utf8               ()Ljava/util/List<Ljava/lang/String;>;
+│ │ +  #194 = Utf8               access$000
+│ │ +  #195 = Utf8               (Lcom/novell/ldapchai/impl/ad/ADErrorMap$ADError;)Lcom/novell/ldapchai/exception/ChaiError;
+│ │ +  #196 = Utf8               x0
+│ │ +  #197 = Utf8               <clinit>
+│ │ +  #198 = Utf8               ()V
+│ │ +  #199 = Utf8               Ljava/lang/Enum<Lcom/novell/ldapchai/impl/ad/ADErrorMap$ADError;>;
+│ │ +  #200 = Utf8               SourceFile
+│ │ +  #201 = Utf8               ADErrorMap.java
+│ │ +  #202 = Utf8               InnerClasses
+│ │ +  #203 = Class              #204          // com/novell/ldapchai/impl/ad/ADErrorMap
+│ │ +  #204 = Utf8               com/novell/ldapchai/impl/ad/ADErrorMap
+│ │ +  #205 = Utf8               ADError
+│ │  {
+│ │    public static final com.novell.ldapchai.impl.ad.ADErrorMap$ADError NO_SUCH_OBJECT;
+│ │      descriptor: Lcom/novell/ldapchai/impl/ad/ADErrorMap$ADError;
+│ │      flags: (0x4019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL, ACC_ENUM
+│ │  
+│ │    public static final com.novell.ldapchai.impl.ad.ADErrorMap$ADError NO_SUCH_ATTRIBUTE;
+│ │      descriptor: Lcom/novell/ldapchai/impl/ad/ADErrorMap$ADError;
+│ │ @@ -319,17 +318,14 @@
+│ │           6: checkcast     #2                  // class com/novell/ldapchai/impl/ad/ADErrorMap$ADError
+│ │           9: areturn
+│ │        LineNumberTable:
+│ │          line 99: 0
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      10     0  name   Ljava/lang/String;
+│ │ -    MethodParameters:
+│ │ -      Name                           Flags
+│ │ -      <no name>                      mandated
+│ │  
+│ │    private com.novell.ldapchai.impl.ad.ADErrorMap$ADError(java.lang.String, com.novell.ldapchai.exception.ChaiError, boolean, boolean, java.lang.String...);
+│ │      descriptor: (Ljava/lang/String;ILjava/lang/String;Lcom/novell/ldapchai/exception/ChaiError;ZZ[Ljava/lang/String;)V
+│ │      flags: (0x0082) ACC_PRIVATE, ACC_VARARGS
+│ │      Code:
+│ │        stack=3, locals=8, args_size=8
+│ │           0: aload_0
+│ │ @@ -366,24 +362,15 @@
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      42     0  this   Lcom/novell/ldapchai/impl/ad/ADErrorMap$ADError;
+│ │              0      42     3 errorCodeString   Ljava/lang/String;
+│ │              0      42     4 chaiErrorCode   Lcom/novell/ldapchai/exception/ChaiError;
+│ │              0      42     5 permanent   Z
+│ │              0      42     6 authentication   Z
+│ │              0      42     7 errorStrings   [Ljava/lang/String;
+│ │ -    MethodParameters:
+│ │ -      Name                           Flags
+│ │ -      <no name>                      synthetic
+│ │ -      <no name>                      synthetic
+│ │ -      <no name>                      final
+│ │ -      <no name>                      final
+│ │ -      <no name>                      final
+│ │ -      <no name>                      final
+│ │ -      <no name>                      final
+│ │ -    Signature: #184                         // (Ljava/lang/String;Lcom/novell/ldapchai/exception/ChaiError;ZZ[Ljava/lang/String;)V
+│ │ +    Signature: #183                         // (Ljava/lang/String;Lcom/novell/ldapchai/exception/ChaiError;ZZ[Ljava/lang/String;)V
+│ │  
+│ │    public java.lang.String getErrorCodeString();
+│ │      descriptor: ()Ljava/lang/String;
+│ │      flags: (0x0001) ACC_PUBLIC
+│ │      Code:
+│ │        stack=1, locals=1, args_size=1
+│ │           0: aload_0
+│ │ @@ -446,15 +433,15 @@
+│ │           1: getfield      #92                 // Field errorStrings:Ljava/util/List;
+│ │           4: areturn
+│ │        LineNumberTable:
+│ │          line 163: 0
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0       5     0  this   Lcom/novell/ldapchai/impl/ad/ADErrorMap$ADError;
+│ │ -    Signature: #194                         // ()Ljava/util/List<Ljava/lang/String;>;
+│ │ +    Signature: #193                         // ()Ljava/util/List<Ljava/lang/String;>;
+│ │  
+│ │    static com.novell.ldapchai.exception.ChaiError access$000(com.novell.ldapchai.impl.ad.ADErrorMap$ADError);
+│ │      descriptor: (Lcom/novell/ldapchai/impl/ad/ADErrorMap$ADError;)Lcom/novell/ldapchai/exception/ChaiError;
+│ │      flags: (0x1008) ACC_STATIC, ACC_SYNTHETIC
+│ │      Code:
+│ │        stack=1, locals=1, args_size=1
+│ │           0: aload_0
+│ │ @@ -762,11 +749,11 @@
+│ │          line 112: 254
+│ │          line 113: 284
+│ │          line 114: 314
+│ │          line 115: 344
+│ │          line 117: 369
+│ │          line 99: 394
+│ │  }
+│ │ -Signature: #200                         // Ljava/lang/Enum<Lcom/novell/ldapchai/impl/ad/ADErrorMap$ADError;>;
+│ │ +Signature: #199                         // Ljava/lang/Enum<Lcom/novell/ldapchai/impl/ad/ADErrorMap$ADError;>;
+│ │  SourceFile: "ADErrorMap.java"
+│ │  InnerClasses:
+│ │ -  static final #206= #2 of #204;          // ADError=class com/novell/ldapchai/impl/ad/ADErrorMap$ADError of class com/novell/ldapchai/impl/ad/ADErrorMap
+│ │ +  static final #205= #2 of #203;          // ADError=class com/novell/ldapchai/impl/ad/ADErrorMap$ADError of class com/novell/ldapchai/impl/ad/ADErrorMap
+├── com/novell/ldapchai/provider/ApacheLdapProviderImpl$2.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,27 +1,27 @@
+│ │ -  SHA-256 checksum 51dc13b7150e834d5e19411cccfcd1881f7f1b18f2c2980bd62e864efba1ad48
+│ │ +  SHA-256 checksum 203ad109cae193f4f0b4c87cd60e2af20b1ddc60940e259d20faebfb1d675ef4
+│ │    Compiled from "ApacheLdapProviderImpl.java"
+│ │  class com.novell.ldapchai.provider.ApacheLdapProviderImpl$2 implements javax.naming.ldap.ExtendedResponse
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0020) ACC_SUPER
+│ │    this_class: #2                          // com/novell/ldapchai/provider/ApacheLdapProviderImpl$2
+│ │    super_class: #12                        // java/lang/Object
+│ │    interfaces: 1, fields: 2, methods: 3, attributes: 3
+│ │  Constant pool:
+│ │ -   #1 = Fieldref           #2.#3          // com/novell/ldapchai/provider/ApacheLdapProviderImpl$2.val$apacheResponse:Lorg/apache/directory/api/ldap/model/message/ExtendedResponse;
+│ │ +   #1 = Fieldref           #2.#3          // com/novell/ldapchai/provider/ApacheLdapProviderImpl$2.this$0:Lcom/novell/ldapchai/provider/ApacheLdapProviderImpl;
+│ │     #2 = Class              #4             // com/novell/ldapchai/provider/ApacheLdapProviderImpl$2
+│ │ -   #3 = NameAndType        #5:#6          // val$apacheResponse:Lorg/apache/directory/api/ldap/model/message/ExtendedResponse;
+│ │ +   #3 = NameAndType        #5:#6          // this$0:Lcom/novell/ldapchai/provider/ApacheLdapProviderImpl;
+│ │     #4 = Utf8               com/novell/ldapchai/provider/ApacheLdapProviderImpl$2
+│ │ -   #5 = Utf8               val$apacheResponse
+│ │ -   #6 = Utf8               Lorg/apache/directory/api/ldap/model/message/ExtendedResponse;
+│ │ -   #7 = Fieldref           #2.#8          // com/novell/ldapchai/provider/ApacheLdapProviderImpl$2.this$0:Lcom/novell/ldapchai/provider/ApacheLdapProviderImpl;
+│ │ -   #8 = NameAndType        #9:#10         // this$0:Lcom/novell/ldapchai/provider/ApacheLdapProviderImpl;
+│ │ -   #9 = Utf8               this$0
+│ │ -  #10 = Utf8               Lcom/novell/ldapchai/provider/ApacheLdapProviderImpl;
+│ │ +   #5 = Utf8               this$0
+│ │ +   #6 = Utf8               Lcom/novell/ldapchai/provider/ApacheLdapProviderImpl;
+│ │ +   #7 = Fieldref           #2.#8          // com/novell/ldapchai/provider/ApacheLdapProviderImpl$2.val$apacheResponse:Lorg/apache/directory/api/ldap/model/message/ExtendedResponse;
+│ │ +   #8 = NameAndType        #9:#10         // val$apacheResponse:Lorg/apache/directory/api/ldap/model/message/ExtendedResponse;
+│ │ +   #9 = Utf8               val$apacheResponse
+│ │ +  #10 = Utf8               Lorg/apache/directory/api/ldap/model/message/ExtendedResponse;
+│ │    #11 = Methodref          #12.#13        // java/lang/Object."<init>":()V
+│ │    #12 = Class              #14            // java/lang/Object
+│ │    #13 = NameAndType        #15:#16        // "<init>":()V
+│ │    #14 = Utf8               java/lang/Object
+│ │    #15 = Utf8               <init>
+│ │    #16 = Utf8               ()V
+│ │    #17 = InterfaceMethodref #18.#19        // org/apache/directory/api/ldap/model/message/ExtendedResponse.getResponseName:()Ljava/lang/String;
+│ │ @@ -34,28 +34,27 @@
+│ │    #24 = Utf8               javax/naming/ldap/ExtendedResponse
+│ │    #25 = Utf8               (Lcom/novell/ldapchai/provider/ApacheLdapProviderImpl;Lorg/apache/directory/api/ldap/model/message/ExtendedResponse;)V
+│ │    #26 = Utf8               Code
+│ │    #27 = Utf8               LineNumberTable
+│ │    #28 = Utf8               LocalVariableTable
+│ │    #29 = Utf8               this
+│ │    #30 = Utf8               Lcom/novell/ldapchai/provider/ApacheLdapProviderImpl$2;
+│ │ -  #31 = Utf8               MethodParameters
+│ │ -  #32 = Utf8               Signature
+│ │ -  #33 = Utf8               getID
+│ │ -  #34 = Utf8               getEncodedValue
+│ │ -  #35 = Utf8               ()[B
+│ │ -  #36 = Utf8               SourceFile
+│ │ -  #37 = Utf8               ApacheLdapProviderImpl.java
+│ │ -  #38 = Utf8               EnclosingMethod
+│ │ -  #39 = Class              #40            // com/novell/ldapchai/provider/ApacheLdapProviderImpl
+│ │ -  #40 = Utf8               com/novell/ldapchai/provider/ApacheLdapProviderImpl
+│ │ -  #41 = NameAndType        #42:#43        // extendedOperation:(Ljavax/naming/ldap/ExtendedRequest;)Ljavax/naming/ldap/ExtendedResponse;
+│ │ -  #42 = Utf8               extendedOperation
+│ │ -  #43 = Utf8               (Ljavax/naming/ldap/ExtendedRequest;)Ljavax/naming/ldap/ExtendedResponse;
+│ │ -  #44 = Utf8               InnerClasses
+│ │ +  #31 = Utf8               Signature
+│ │ +  #32 = Utf8               getID
+│ │ +  #33 = Utf8               getEncodedValue
+│ │ +  #34 = Utf8               ()[B
+│ │ +  #35 = Utf8               SourceFile
+│ │ +  #36 = Utf8               ApacheLdapProviderImpl.java
+│ │ +  #37 = Utf8               EnclosingMethod
+│ │ +  #38 = Class              #39            // com/novell/ldapchai/provider/ApacheLdapProviderImpl
+│ │ +  #39 = Utf8               com/novell/ldapchai/provider/ApacheLdapProviderImpl
+│ │ +  #40 = NameAndType        #41:#42        // extendedOperation:(Ljavax/naming/ldap/ExtendedRequest;)Ljavax/naming/ldap/ExtendedResponse;
+│ │ +  #41 = Utf8               extendedOperation
+│ │ +  #42 = Utf8               (Ljavax/naming/ldap/ExtendedRequest;)Ljavax/naming/ldap/ExtendedResponse;
+│ │ +  #43 = Utf8               InnerClasses
+│ │  {
+│ │    final org.apache.directory.api.ldap.model.message.ExtendedResponse val$apacheResponse;
+│ │      descriptor: Lorg/apache/directory/api/ldap/model/message/ExtendedResponse;
+│ │      flags: (0x1010) ACC_FINAL, ACC_SYNTHETIC
+│ │  
+│ │    final com.novell.ldapchai.provider.ApacheLdapProviderImpl this$0;
+│ │      descriptor: Lcom/novell/ldapchai/provider/ApacheLdapProviderImpl;
+│ │ @@ -63,41 +62,37 @@
+│ │  
+│ │    com.novell.ldapchai.provider.ApacheLdapProviderImpl$2();
+│ │      descriptor: (Lcom/novell/ldapchai/provider/ApacheLdapProviderImpl;Lorg/apache/directory/api/ldap/model/message/ExtendedResponse;)V
+│ │      flags: (0x0000)
+│ │      Code:
+│ │        stack=2, locals=3, args_size=3
+│ │           0: aload_0
+│ │ -         1: aload_2
+│ │ -         2: putfield      #1                  // Field val$apacheResponse:Lorg/apache/directory/api/ldap/model/message/ExtendedResponse;
+│ │ +         1: aload_1
+│ │ +         2: putfield      #1                  // Field this$0:Lcom/novell/ldapchai/provider/ApacheLdapProviderImpl;
+│ │           5: aload_0
+│ │ -         6: aload_1
+│ │ -         7: putfield      #7                  // Field this$0:Lcom/novell/ldapchai/provider/ApacheLdapProviderImpl;
+│ │ +         6: aload_2
+│ │ +         7: putfield      #7                  // Field val$apacheResponse:Lorg/apache/directory/api/ldap/model/message/ExtendedResponse;
+│ │          10: aload_0
+│ │          11: invokespecial #11                 // Method java/lang/Object."<init>":()V
+│ │          14: return
+│ │        LineNumberTable:
+│ │          line 484: 0
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      15     0  this   Lcom/novell/ldapchai/provider/ApacheLdapProviderImpl$2;
+│ │              0      15     1 this$0   Lcom/novell/ldapchai/provider/ApacheLdapProviderImpl;
+│ │ -    MethodParameters:
+│ │ -      Name                           Flags
+│ │ -      <no name>                      final mandated
+│ │ -      <no name>                      final synthetic
+│ │      Signature: #16                          // ()V
+│ │  
+│ │    public java.lang.String getID();
+│ │      descriptor: ()Ljava/lang/String;
+│ │      flags: (0x0001) ACC_PUBLIC
+│ │      Code:
+│ │        stack=1, locals=1, args_size=1
+│ │           0: aload_0
+│ │ -         1: getfield      #1                  // Field val$apacheResponse:Lorg/apache/directory/api/ldap/model/message/ExtendedResponse;
+│ │ +         1: getfield      #7                  // Field val$apacheResponse:Lorg/apache/directory/api/ldap/model/message/ExtendedResponse;
+│ │           4: invokeinterface #17,  1           // InterfaceMethod org/apache/directory/api/ldap/model/message/ExtendedResponse.getResponseName:()Ljava/lang/String;
+│ │           9: areturn
+│ │        LineNumberTable:
+│ │          line 488: 0
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      10     0  this   Lcom/novell/ldapchai/provider/ApacheLdapProviderImpl$2;
+│ │ @@ -112,10 +107,10 @@
+│ │        LineNumberTable:
+│ │          line 494: 0
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0       2     0  this   Lcom/novell/ldapchai/provider/ApacheLdapProviderImpl$2;
+│ │  }
+│ │  SourceFile: "ApacheLdapProviderImpl.java"
+│ │ -EnclosingMethod: #39.#41                // com.novell.ldapchai.provider.ApacheLdapProviderImpl.extendedOperation
+│ │ +EnclosingMethod: #38.#40                // com.novell.ldapchai.provider.ApacheLdapProviderImpl.extendedOperation
+│ │  InnerClasses:
+│ │    #2;                                     // class com/novell/ldapchai/provider/ApacheLdapProviderImpl$2
+├── com/novell/ldapchai/provider/WireTraceWrapper.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,8 +1,8 @@
+│ │ -  SHA-256 checksum 6cbcf3766b97fcde4618764a672ee715ff95f5a95c9e0b038ccd425de1b2d6c2
+│ │ +  SHA-256 checksum d2e24bca3e3ce7e563d8dd1805e98c1a11d9aea8cc3a778a6a94a7db45f3c59e
+│ │    Compiled from "WireTraceWrapper.java"
+│ │  class com.novell.ldapchai.provider.WireTraceWrapper extends com.novell.ldapchai.provider.AbstractWrapper
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0020) ACC_SUPER
+│ │    this_class: #28                         // com/novell/ldapchai/provider/WireTraceWrapper
+│ │    super_class: #80                        // com/novell/ldapchai/provider/AbstractWrapper
+│ │ @@ -52,41 +52,41 @@
+│ │     #42 = Utf8               (Ljava/util/function/Supplier;)V
+│ │     #43 = Class              #44           // java/lang/IllegalStateException
+│ │     #44 = Utf8               java/lang/IllegalStateException
+│ │     #45 = Methodref          #43.#46       // java/lang/IllegalStateException."<init>":(Ljava/lang/String;)V
+│ │     #46 = NameAndType        #47:#48       // "<init>":(Ljava/lang/String;)V
+│ │     #47 = Utf8               <init>
+│ │     #48 = Utf8               (Ljava/lang/String;)V
+│ │ -   #49 = InterfaceMethodref #2.#50        // com/novell/ldapchai/provider/ChaiProviderImplementor.getClass:()Ljava/lang/Class;
+│ │ -   #50 = NameAndType        #51:#52       // getClass:()Ljava/lang/Class;
+│ │ -   #51 = Utf8               getClass
+│ │ -   #52 = Utf8               ()Ljava/lang/Class;
+│ │ -   #53 = Methodref          #54.#55       // java/lang/reflect/Proxy.isProxyClass:(Ljava/lang/Class;)Z
+│ │ -   #54 = Class              #56           // java/lang/reflect/Proxy
+│ │ -   #55 = NameAndType        #57:#58       // isProxyClass:(Ljava/lang/Class;)Z
+│ │ -   #56 = Utf8               java/lang/reflect/Proxy
+│ │ -   #57 = Utf8               isProxyClass
+│ │ -   #58 = Utf8               (Ljava/lang/Class;)Z
+│ │ -   #59 = InvokeDynamic      #1:#34        // #1:get:()Ljava/util/function/Supplier;
+│ │ -   #60 = InterfaceMethodref #2.#50        // com/novell/ldapchai/provider/ChaiProviderImplementor.getClass:()Ljava/lang/Class;
+│ │ -   #61 = Methodref          #62.#63       // java/lang/Class.getClassLoader:()Ljava/lang/ClassLoader;
+│ │ -   #62 = Class              #64           // java/lang/Class
+│ │ -   #63 = NameAndType        #65:#66       // getClassLoader:()Ljava/lang/ClassLoader;
+│ │ -   #64 = Utf8               java/lang/Class
+│ │ -   #65 = Utf8               getClassLoader
+│ │ -   #66 = Utf8               ()Ljava/lang/ClassLoader;
+│ │ -   #67 = InterfaceMethodref #2.#50        // com/novell/ldapchai/provider/ChaiProviderImplementor.getClass:()Ljava/lang/Class;
+│ │ -   #68 = Methodref          #62.#69       // java/lang/Class.getInterfaces:()[Ljava/lang/Class;
+│ │ +   #49 = Methodref          #50.#51       // java/lang/Object.getClass:()Ljava/lang/Class;
+│ │ +   #50 = Class              #52           // java/lang/Object
+│ │ +   #51 = NameAndType        #53:#54       // getClass:()Ljava/lang/Class;
+│ │ +   #52 = Utf8               java/lang/Object
+│ │ +   #53 = Utf8               getClass
+│ │ +   #54 = Utf8               ()Ljava/lang/Class;
+│ │ +   #55 = Methodref          #56.#57       // java/lang/reflect/Proxy.isProxyClass:(Ljava/lang/Class;)Z
+│ │ +   #56 = Class              #58           // java/lang/reflect/Proxy
+│ │ +   #57 = NameAndType        #59:#60       // isProxyClass:(Ljava/lang/Class;)Z
+│ │ +   #58 = Utf8               java/lang/reflect/Proxy
+│ │ +   #59 = Utf8               isProxyClass
+│ │ +   #60 = Utf8               (Ljava/lang/Class;)Z
+│ │ +   #61 = InvokeDynamic      #1:#34        // #1:get:()Ljava/util/function/Supplier;
+│ │ +   #62 = Methodref          #63.#64       // java/lang/Class.getClassLoader:()Ljava/lang/ClassLoader;
+│ │ +   #63 = Class              #65           // java/lang/Class
+│ │ +   #64 = NameAndType        #66:#67       // getClassLoader:()Ljava/lang/ClassLoader;
+│ │ +   #65 = Utf8               java/lang/Class
+│ │ +   #66 = Utf8               getClassLoader
+│ │ +   #67 = Utf8               ()Ljava/lang/ClassLoader;
+│ │ +   #68 = Methodref          #63.#69       // java/lang/Class.getInterfaces:()[Ljava/lang/Class;
+│ │     #69 = NameAndType        #70:#71       // getInterfaces:()[Ljava/lang/Class;
+│ │     #70 = Utf8               getInterfaces
+│ │     #71 = Utf8               ()[Ljava/lang/Class;
+│ │     #72 = Methodref          #28.#73       // com/novell/ldapchai/provider/WireTraceWrapper."<init>":(Lcom/novell/ldapchai/provider/ChaiProviderImplementor;)V
+│ │     #73 = NameAndType        #47:#74       // "<init>":(Lcom/novell/ldapchai/provider/ChaiProviderImplementor;)V
+│ │     #74 = Utf8               (Lcom/novell/ldapchai/provider/ChaiProviderImplementor;)V
+│ │ -   #75 = Methodref          #54.#76       // java/lang/reflect/Proxy.newProxyInstance:(Ljava/lang/ClassLoader;[Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
+│ │ +   #75 = Methodref          #56.#76       // java/lang/reflect/Proxy.newProxyInstance:(Ljava/lang/ClassLoader;[Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
+│ │     #76 = NameAndType        #77:#78       // newProxyInstance:(Ljava/lang/ClassLoader;[Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
+│ │     #77 = Utf8               newProxyInstance
+│ │     #78 = Utf8               (Ljava/lang/ClassLoader;[Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
+│ │     #79 = Methodref          #80.#81       // com/novell/ldapchai/provider/AbstractWrapper."<init>":()V
+│ │     #80 = Class              #82           // com/novell/ldapchai/provider/AbstractWrapper
+│ │     #81 = NameAndType        #47:#83       // "<init>":()V
+│ │     #82 = Utf8               com/novell/ldapchai/provider/AbstractWrapper
+│ │ @@ -249,152 +249,149 @@
+│ │    #239 = Utf8               parameterToString
+│ │    #240 = Class              #241          // java/lang/Throwable
+│ │    #241 = Utf8               java/lang/Throwable
+│ │    #242 = String             #243          // <binary>
+│ │    #243 = Utf8               <binary>
+│ │    #244 = String             #245          // null
+│ │    #245 = Utf8               null
+│ │ -  #246 = Methodref          #247.#50      // java/lang/Object.getClass:()Ljava/lang/Class;
+│ │ -  #247 = Class              #248          // java/lang/Object
+│ │ -  #248 = Utf8               java/lang/Object
+│ │ -  #249 = Methodref          #62.#250      // java/lang/Class.isArray:()Z
+│ │ -  #250 = NameAndType        #251:#232     // isArray:()Z
+│ │ -  #251 = Utf8               isArray
+│ │ -  #252 = String             #253          // [
+│ │ -  #253 = Utf8               [
+│ │ -  #254 = Class              #255          // "[Ljava/lang/Object;"
+│ │ -  #255 = Utf8               [Ljava/lang/Object;
+│ │ -  #256 = String             #257          // ,
+│ │ -  #257 = Utf8               ,
+│ │ -  #258 = Methodref          #259.#260     // java/lang/String.valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+│ │ -  #259 = Class              #261          // java/lang/String
+│ │ -  #260 = NameAndType        #262:#198     // valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+│ │ -  #261 = Utf8               java/lang/String
+│ │ -  #262 = Utf8               valueOf
+│ │ -  #263 = String             #264          // error converting object to debug string:
+│ │ -  #264 = Utf8               error converting object to debug string:
+│ │ -  #265 = String             #266          // finish
+│ │ -  #266 = Utf8               finish
+│ │ -  #267 = String             #268          //  result:
+│ │ -  #268 = Utf8                result:
+│ │ -  #269 = Methodref          #28.#270      // com/novell/ldapchai/provider/WireTraceWrapper.objectToDebugString:(Ljava/lang/Object;)Ljava/lang/String;
+│ │ -  #270 = NameAndType        #271:#198     // objectToDebugString:(Ljava/lang/Object;)Ljava/lang/String;
+│ │ -  #271 = Utf8               objectToDebugString
+│ │ -  #272 = String             #273          //  (
+│ │ -  #273 = Utf8                (
+│ │ -  #274 = Methodref          #38.#275      // com/novell/ldapchai/util/internal/ChaiLogger.format:(Ljava/time/Duration;)Ljava/lang/String;
+│ │ -  #275 = NameAndType        #276:#277     // format:(Ljava/time/Duration;)Ljava/lang/String;
+│ │ -  #276 = Utf8               format
+│ │ -  #277 = Utf8               (Ljava/time/Duration;)Ljava/lang/String;
+│ │ -  #278 = String             #279          // )
+│ │ -  #279 = Utf8               )
+│ │ -  #280 = String             #281          // begin
+│ │ -  #281 = Utf8               begin
+│ │ -  #282 = String             #283          //  method
+│ │ -  #283 = Utf8                method
+│ │ -  #284 = Methodref          #28.#285      // com/novell/ldapchai/provider/WireTraceWrapper.methodToDebugStr:(Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/String;
+│ │ -  #285 = NameAndType        #286:#287     // methodToDebugStr:(Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/String;
+│ │ -  #286 = Utf8               methodToDebugStr
+│ │ -  #287 = Utf8               (Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/String;
+│ │ -  #288 = String             #289          // attempt to obtain WireTraceWrapper wrapper for already wrapped Provider.
+│ │ -  #289 = Utf8               attempt to obtain WireTraceWrapper wrapper for already wrapped Provider.
+│ │ -  #290 = Methodref          #38.#291      // com/novell/ldapchai/util/internal/ChaiLogger.getLogger:(Ljava/lang/Class;)Lcom/novell/ldapchai/util/internal/ChaiLogger;
+│ │ -  #291 = NameAndType        #292:#293     // getLogger:(Ljava/lang/Class;)Lcom/novell/ldapchai/util/internal/ChaiLogger;
+│ │ -  #292 = Utf8               getLogger
+│ │ -  #293 = Utf8               (Ljava/lang/Class;)Lcom/novell/ldapchai/util/internal/ChaiLogger;
+│ │ -  #294 = Utf8               forProvider
+│ │ -  #295 = Utf8               (Lcom/novell/ldapchai/provider/ChaiProviderImplementor;)Lcom/novell/ldapchai/provider/ChaiProviderImplementor;
+│ │ -  #296 = Utf8               Code
+│ │ -  #297 = Utf8               LineNumberTable
+│ │ -  #298 = Utf8               LocalVariableTable
+│ │ -  #299 = Utf8               errorStr
+│ │ -  #300 = Utf8               Ljava/lang/String;
+│ │ -  #301 = Utf8               chaiProvider
+│ │ -  #302 = Utf8               watchDogEnabled
+│ │ -  #303 = Utf8               Z
+│ │ -  #304 = Utf8               StackMapTable
+│ │ -  #305 = Utf8               this
+│ │ -  #306 = Utf8               Lcom/novell/ldapchai/provider/WireTraceWrapper;
+│ │ -  #307 = Utf8               (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
+│ │ -  #308 = Utf8               e
+│ │ -  #309 = Utf8               Ljava/lang/reflect/InvocationTargetException;
+│ │ -  #310 = Utf8               Ljava/lang/Exception;
+│ │ -  #311 = Utf8               proxy
+│ │ -  #312 = Utf8               Ljava/lang/Object;
+│ │ -  #313 = Utf8               method
+│ │ -  #314 = Utf8               Ljava/lang/reflect/Method;
+│ │ -  #315 = Utf8               args
+│ │ -  #316 = Utf8               isLdap
+│ │ -  #317 = Utf8               Exceptions
+│ │ -  #318 = Utf8               opNumber
+│ │ -  #319 = Utf8               J
+│ │ -  #320 = Utf8               messageLabel
+│ │ -  #321 = Utf8               startTime
+│ │ -  #322 = Utf8               Ljava/time/Instant;
+│ │ -  #323 = Utf8               result
+│ │ -  #324 = Utf8               totalTime
+│ │ -  #325 = Utf8               Ljava/time/Duration;
+│ │ -  #326 = Utf8               object
+│ │ -  #327 = Utf8               Ljava/lang/Throwable;
+│ │ -  #328 = Utf8               nextValue
+│ │ -  #329 = Utf8               iter
+│ │ -  #330 = Utf8               Ljava/util/Iterator;
+│ │ -  #331 = Utf8               theMethod
+│ │ -  #332 = Utf8               parameters
+│ │ -  #333 = Utf8               debugStr
+│ │ -  #334 = Utf8               Ljava/lang/StringBuilder;
+│ │ -  #335 = Utf8               LocalVariableTypeTable
+│ │ -  #336 = Utf8               Ljava/util/Iterator<Ljava/lang/Object;>;
+│ │ -  #337 = Utf8               loopValue
+│ │ -  #338 = Utf8               sb
+│ │ -  #339 = Utf8               lambda$objectToDebugString$4
+│ │ -  #340 = Utf8               (Ljava/lang/Exception;)Ljava/lang/String;
+│ │ -  #341 = Utf8               lambda$traceInvocation$3
+│ │ -  #342 = Utf8               (Ljava/lang/String;Ljava/lang/Object;Ljava/time/Duration;)Ljava/lang/String;
+│ │ -  #343 = Utf8               lambda$traceInvocation$2
+│ │ -  #344 = Utf8               (Ljava/lang/String;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/String;
+│ │ -  #345 = Utf8               lambda$forProvider$1
+│ │ -  #346 = Utf8               lambda$forProvider$0
+│ │ -  #347 = Utf8               <clinit>
+│ │ -  #348 = Utf8               SourceFile
+│ │ -  #349 = Utf8               WireTraceWrapper.java
+│ │ -  #350 = Utf8               BootstrapMethods
+│ │ -  #351 = MethodType         #236          //  ()Ljava/lang/Object;
+│ │ -  #352 = MethodHandle       6:#353        // REF_invokeStatic com/novell/ldapchai/provider/WireTraceWrapper.lambda$forProvider$0:()Ljava/lang/String;
+│ │ -  #353 = Methodref          #28.#354      // com/novell/ldapchai/provider/WireTraceWrapper.lambda$forProvider$0:()Ljava/lang/String;
+│ │ -  #354 = NameAndType        #346:#135     // lambda$forProvider$0:()Ljava/lang/String;
+│ │ -  #355 = MethodType         #135          //  ()Ljava/lang/String;
+│ │ -  #356 = MethodHandle       6:#357        // REF_invokeStatic com/novell/ldapchai/provider/WireTraceWrapper.lambda$forProvider$1:()Ljava/lang/String;
+│ │ -  #357 = Methodref          #28.#358      // com/novell/ldapchai/provider/WireTraceWrapper.lambda$forProvider$1:()Ljava/lang/String;
+│ │ -  #358 = NameAndType        #345:#135     // lambda$forProvider$1:()Ljava/lang/String;
+│ │ -  #359 = MethodHandle       6:#360        // REF_invokeStatic com/novell/ldapchai/provider/WireTraceWrapper.lambda$traceInvocation$2:(Ljava/lang/String;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/String;
+│ │ -  #360 = Methodref          #28.#361      // com/novell/ldapchai/provider/WireTraceWrapper.lambda$traceInvocation$2:(Ljava/lang/String;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/String;
+│ │ -  #361 = NameAndType        #343:#344     // lambda$traceInvocation$2:(Ljava/lang/String;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/String;
+│ │ -  #362 = MethodHandle       7:#363        // REF_invokeSpecial com/novell/ldapchai/provider/WireTraceWrapper.lambda$traceInvocation$3:(Ljava/lang/String;Ljava/lang/Object;Ljava/time/Duration;)Ljava/lang/String;
+│ │ -  #363 = Methodref          #28.#364      // com/novell/ldapchai/provider/WireTraceWrapper.lambda$traceInvocation$3:(Ljava/lang/String;Ljava/lang/Object;Ljava/time/Duration;)Ljava/lang/String;
+│ │ -  #364 = NameAndType        #341:#342     // lambda$traceInvocation$3:(Ljava/lang/String;Ljava/lang/Object;Ljava/time/Duration;)Ljava/lang/String;
+│ │ -  #365 = MethodHandle       6:#366        // REF_invokeStatic com/novell/ldapchai/provider/WireTraceWrapper.lambda$objectToDebugString$4:(Ljava/lang/Exception;)Ljava/lang/String;
+│ │ -  #366 = Methodref          #28.#367      // com/novell/ldapchai/provider/WireTraceWrapper.lambda$objectToDebugString$4:(Ljava/lang/Exception;)Ljava/lang/String;
+│ │ -  #367 = NameAndType        #339:#340     // lambda$objectToDebugString$4:(Ljava/lang/Exception;)Ljava/lang/String;
+│ │ -  #368 = MethodHandle       6:#369        // REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+│ │ -  #369 = Methodref          #370.#371     // java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+│ │ -  #370 = Class              #372          // java/lang/invoke/LambdaMetafactory
+│ │ -  #371 = NameAndType        #373:#374     // metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+│ │ -  #372 = Utf8               java/lang/invoke/LambdaMetafactory
+│ │ -  #373 = Utf8               metafactory
+│ │ -  #374 = Utf8               (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+│ │ -  #375 = Utf8               InnerClasses
+│ │ -  #376 = Class              #377          // com/novell/ldapchai/provider/ChaiProvider
+│ │ -  #377 = Utf8               com/novell/ldapchai/provider/ChaiProvider
+│ │ -  #378 = Utf8               LdapOperation
+│ │ -  #379 = Class              #380          // java/lang/invoke/MethodHandles$Lookup
+│ │ -  #380 = Utf8               java/lang/invoke/MethodHandles$Lookup
+│ │ -  #381 = Class              #382          // java/lang/invoke/MethodHandles
+│ │ -  #382 = Utf8               java/lang/invoke/MethodHandles
+│ │ -  #383 = Utf8               Lookup
+│ │ +  #246 = Methodref          #63.#247      // java/lang/Class.isArray:()Z
+│ │ +  #247 = NameAndType        #248:#232     // isArray:()Z
+│ │ +  #248 = Utf8               isArray
+│ │ +  #249 = String             #250          // [
+│ │ +  #250 = Utf8               [
+│ │ +  #251 = Class              #252          // "[Ljava/lang/Object;"
+│ │ +  #252 = Utf8               [Ljava/lang/Object;
+│ │ +  #253 = String             #254          // ,
+│ │ +  #254 = Utf8               ,
+│ │ +  #255 = Methodref          #256.#257     // java/lang/String.valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+│ │ +  #256 = Class              #258          // java/lang/String
+│ │ +  #257 = NameAndType        #259:#198     // valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+│ │ +  #258 = Utf8               java/lang/String
+│ │ +  #259 = Utf8               valueOf
+│ │ +  #260 = String             #261          // error converting object to debug string:
+│ │ +  #261 = Utf8               error converting object to debug string:
+│ │ +  #262 = String             #263          // finish
+│ │ +  #263 = Utf8               finish
+│ │ +  #264 = String             #265          //  result:
+│ │ +  #265 = Utf8                result:
+│ │ +  #266 = Methodref          #28.#267      // com/novell/ldapchai/provider/WireTraceWrapper.objectToDebugString:(Ljava/lang/Object;)Ljava/lang/String;
+│ │ +  #267 = NameAndType        #268:#198     // objectToDebugString:(Ljava/lang/Object;)Ljava/lang/String;
+│ │ +  #268 = Utf8               objectToDebugString
+│ │ +  #269 = String             #270          //  (
+│ │ +  #270 = Utf8                (
+│ │ +  #271 = Methodref          #38.#272      // com/novell/ldapchai/util/internal/ChaiLogger.format:(Ljava/time/Duration;)Ljava/lang/String;
+│ │ +  #272 = NameAndType        #273:#274     // format:(Ljava/time/Duration;)Ljava/lang/String;
+│ │ +  #273 = Utf8               format
+│ │ +  #274 = Utf8               (Ljava/time/Duration;)Ljava/lang/String;
+│ │ +  #275 = String             #276          // )
+│ │ +  #276 = Utf8               )
+│ │ +  #277 = String             #278          // begin
+│ │ +  #278 = Utf8               begin
+│ │ +  #279 = String             #280          //  method
+│ │ +  #280 = Utf8                method
+│ │ +  #281 = Methodref          #28.#282      // com/novell/ldapchai/provider/WireTraceWrapper.methodToDebugStr:(Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/String;
+│ │ +  #282 = NameAndType        #283:#284     // methodToDebugStr:(Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/String;
+│ │ +  #283 = Utf8               methodToDebugStr
+│ │ +  #284 = Utf8               (Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/String;
+│ │ +  #285 = String             #286          // attempt to obtain WireTraceWrapper wrapper for already wrapped Provider.
+│ │ +  #286 = Utf8               attempt to obtain WireTraceWrapper wrapper for already wrapped Provider.
+│ │ +  #287 = Methodref          #38.#288      // com/novell/ldapchai/util/internal/ChaiLogger.getLogger:(Ljava/lang/Class;)Lcom/novell/ldapchai/util/internal/ChaiLogger;
+│ │ +  #288 = NameAndType        #289:#290     // getLogger:(Ljava/lang/Class;)Lcom/novell/ldapchai/util/internal/ChaiLogger;
+│ │ +  #289 = Utf8               getLogger
+│ │ +  #290 = Utf8               (Ljava/lang/Class;)Lcom/novell/ldapchai/util/internal/ChaiLogger;
+│ │ +  #291 = Utf8               forProvider
+│ │ +  #292 = Utf8               (Lcom/novell/ldapchai/provider/ChaiProviderImplementor;)Lcom/novell/ldapchai/provider/ChaiProviderImplementor;
+│ │ +  #293 = Utf8               Code
+│ │ +  #294 = Utf8               LineNumberTable
+│ │ +  #295 = Utf8               LocalVariableTable
+│ │ +  #296 = Utf8               errorStr
+│ │ +  #297 = Utf8               Ljava/lang/String;
+│ │ +  #298 = Utf8               chaiProvider
+│ │ +  #299 = Utf8               watchDogEnabled
+│ │ +  #300 = Utf8               Z
+│ │ +  #301 = Utf8               StackMapTable
+│ │ +  #302 = Utf8               this
+│ │ +  #303 = Utf8               Lcom/novell/ldapchai/provider/WireTraceWrapper;
+│ │ +  #304 = Utf8               (Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;
+│ │ +  #305 = Utf8               e
+│ │ +  #306 = Utf8               Ljava/lang/reflect/InvocationTargetException;
+│ │ +  #307 = Utf8               Ljava/lang/Exception;
+│ │ +  #308 = Utf8               proxy
+│ │ +  #309 = Utf8               Ljava/lang/Object;
+│ │ +  #310 = Utf8               method
+│ │ +  #311 = Utf8               Ljava/lang/reflect/Method;
+│ │ +  #312 = Utf8               args
+│ │ +  #313 = Utf8               isLdap
+│ │ +  #314 = Utf8               Exceptions
+│ │ +  #315 = Utf8               opNumber
+│ │ +  #316 = Utf8               J
+│ │ +  #317 = Utf8               messageLabel
+│ │ +  #318 = Utf8               startTime
+│ │ +  #319 = Utf8               Ljava/time/Instant;
+│ │ +  #320 = Utf8               result
+│ │ +  #321 = Utf8               totalTime
+│ │ +  #322 = Utf8               Ljava/time/Duration;
+│ │ +  #323 = Utf8               object
+│ │ +  #324 = Utf8               Ljava/lang/Throwable;
+│ │ +  #325 = Utf8               nextValue
+│ │ +  #326 = Utf8               iter
+│ │ +  #327 = Utf8               Ljava/util/Iterator;
+│ │ +  #328 = Utf8               theMethod
+│ │ +  #329 = Utf8               parameters
+│ │ +  #330 = Utf8               debugStr
+│ │ +  #331 = Utf8               Ljava/lang/StringBuilder;
+│ │ +  #332 = Utf8               LocalVariableTypeTable
+│ │ +  #333 = Utf8               Ljava/util/Iterator<Ljava/lang/Object;>;
+│ │ +  #334 = Utf8               loopValue
+│ │ +  #335 = Utf8               sb
+│ │ +  #336 = Utf8               lambda$objectToDebugString$4
+│ │ +  #337 = Utf8               (Ljava/lang/Exception;)Ljava/lang/String;
+│ │ +  #338 = Utf8               lambda$traceInvocation$3
+│ │ +  #339 = Utf8               (Ljava/lang/String;Ljava/lang/Object;Ljava/time/Duration;)Ljava/lang/String;
+│ │ +  #340 = Utf8               lambda$traceInvocation$2
+│ │ +  #341 = Utf8               (Ljava/lang/String;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/String;
+│ │ +  #342 = Utf8               lambda$forProvider$1
+│ │ +  #343 = Utf8               lambda$forProvider$0
+│ │ +  #344 = Utf8               <clinit>
+│ │ +  #345 = Utf8               SourceFile
+│ │ +  #346 = Utf8               WireTraceWrapper.java
+│ │ +  #347 = Utf8               BootstrapMethods
+│ │ +  #348 = MethodHandle       6:#349        // REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+│ │ +  #349 = Methodref          #350.#351     // java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+│ │ +  #350 = Class              #352          // java/lang/invoke/LambdaMetafactory
+│ │ +  #351 = NameAndType        #353:#354     // metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+│ │ +  #352 = Utf8               java/lang/invoke/LambdaMetafactory
+│ │ +  #353 = Utf8               metafactory
+│ │ +  #354 = Utf8               (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+│ │ +  #355 = MethodType         #236          //  ()Ljava/lang/Object;
+│ │ +  #356 = MethodHandle       6:#357        // REF_invokeStatic com/novell/ldapchai/provider/WireTraceWrapper.lambda$forProvider$0:()Ljava/lang/String;
+│ │ +  #357 = Methodref          #28.#358      // com/novell/ldapchai/provider/WireTraceWrapper.lambda$forProvider$0:()Ljava/lang/String;
+│ │ +  #358 = NameAndType        #343:#135     // lambda$forProvider$0:()Ljava/lang/String;
+│ │ +  #359 = MethodType         #135          //  ()Ljava/lang/String;
+│ │ +  #360 = MethodHandle       6:#361        // REF_invokeStatic com/novell/ldapchai/provider/WireTraceWrapper.lambda$forProvider$1:()Ljava/lang/String;
+│ │ +  #361 = Methodref          #28.#362      // com/novell/ldapchai/provider/WireTraceWrapper.lambda$forProvider$1:()Ljava/lang/String;
+│ │ +  #362 = NameAndType        #342:#135     // lambda$forProvider$1:()Ljava/lang/String;
+│ │ +  #363 = MethodHandle       6:#364        // REF_invokeStatic com/novell/ldapchai/provider/WireTraceWrapper.lambda$traceInvocation$2:(Ljava/lang/String;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/String;
+│ │ +  #364 = Methodref          #28.#365      // com/novell/ldapchai/provider/WireTraceWrapper.lambda$traceInvocation$2:(Ljava/lang/String;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/String;
+│ │ +  #365 = NameAndType        #340:#341     // lambda$traceInvocation$2:(Ljava/lang/String;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/String;
+│ │ +  #366 = MethodHandle       7:#367        // REF_invokeSpecial com/novell/ldapchai/provider/WireTraceWrapper.lambda$traceInvocation$3:(Ljava/lang/String;Ljava/lang/Object;Ljava/time/Duration;)Ljava/lang/String;
+│ │ +  #367 = Methodref          #28.#368      // com/novell/ldapchai/provider/WireTraceWrapper.lambda$traceInvocation$3:(Ljava/lang/String;Ljava/lang/Object;Ljava/time/Duration;)Ljava/lang/String;
+│ │ +  #368 = NameAndType        #338:#339     // lambda$traceInvocation$3:(Ljava/lang/String;Ljava/lang/Object;Ljava/time/Duration;)Ljava/lang/String;
+│ │ +  #369 = MethodHandle       6:#370        // REF_invokeStatic com/novell/ldapchai/provider/WireTraceWrapper.lambda$objectToDebugString$4:(Ljava/lang/Exception;)Ljava/lang/String;
+│ │ +  #370 = Methodref          #28.#371      // com/novell/ldapchai/provider/WireTraceWrapper.lambda$objectToDebugString$4:(Ljava/lang/Exception;)Ljava/lang/String;
+│ │ +  #371 = NameAndType        #336:#337     // lambda$objectToDebugString$4:(Ljava/lang/Exception;)Ljava/lang/String;
+│ │ +  #372 = Utf8               InnerClasses
+│ │ +  #373 = Class              #374          // com/novell/ldapchai/provider/ChaiProvider
+│ │ +  #374 = Utf8               com/novell/ldapchai/provider/ChaiProvider
+│ │ +  #375 = Utf8               LdapOperation
+│ │ +  #376 = Class              #377          // java/lang/invoke/MethodHandles$Lookup
+│ │ +  #377 = Utf8               java/lang/invoke/MethodHandles$Lookup
+│ │ +  #378 = Class              #379          // java/lang/invoke/MethodHandles
+│ │ +  #379 = Utf8               java/lang/invoke/MethodHandles
+│ │ +  #380 = Utf8               Lookup
+│ │  {
+│ │    private static final com.novell.ldapchai.util.internal.ChaiLogger LOGGER;
+│ │      descriptor: Lcom/novell/ldapchai/util/internal/ChaiLogger;
+│ │      flags: (0x001a) ACC_PRIVATE, ACC_STATIC, ACC_FINAL
+│ │  
+│ │    private final java.util.concurrent.atomic.AtomicLong operationCounter;
+│ │      descriptor: Ljava/util/concurrent/atomic/AtomicLong;
+│ │ @@ -420,61 +417,61 @@
+│ │          31: invokevirtual #37                 // Method com/novell/ldapchai/util/internal/ChaiLogger.warn:(Ljava/util/function/Supplier;)V
+│ │          34: new           #43                 // class java/lang/IllegalStateException
+│ │          37: dup
+│ │          38: ldc           #25                 // String attempt to obtain WireTrace wrapper when watchdog is not enabled in chai config
+│ │          40: invokespecial #45                 // Method java/lang/IllegalStateException."<init>":(Ljava/lang/String;)V
+│ │          43: athrow
+│ │          44: aload_0
+│ │ -        45: invokeinterface #49,  1           // InterfaceMethod com/novell/ldapchai/provider/ChaiProviderImplementor.getClass:()Ljava/lang/Class;
+│ │ -        50: invokestatic  #53                 // Method java/lang/reflect/Proxy.isProxyClass:(Ljava/lang/Class;)Z
+│ │ -        53: ifeq          76
+│ │ -        56: aload_0
+│ │ -        57: instanceof    #28                 // class com/novell/ldapchai/provider/WireTraceWrapper
+│ │ -        60: ifeq          76
+│ │ -        63: getstatic     #27                 // Field LOGGER:Lcom/novell/ldapchai/util/internal/ChaiLogger;
+│ │ -        66: invokedynamic #59,  0             // InvokeDynamic #1:get:()Ljava/util/function/Supplier;
+│ │ -        71: invokevirtual #37                 // Method com/novell/ldapchai/util/internal/ChaiLogger.warn:(Ljava/util/function/Supplier;)V
+│ │ +        45: invokevirtual #49                 // Method java/lang/Object.getClass:()Ljava/lang/Class;
+│ │ +        48: invokestatic  #55                 // Method java/lang/reflect/Proxy.isProxyClass:(Ljava/lang/Class;)Z
+│ │ +        51: ifeq          74
+│ │ +        54: aload_0
+│ │ +        55: instanceof    #28                 // class com/novell/ldapchai/provider/WireTraceWrapper
+│ │ +        58: ifeq          74
+│ │ +        61: getstatic     #27                 // Field LOGGER:Lcom/novell/ldapchai/util/internal/ChaiLogger;
+│ │ +        64: invokedynamic #61,  0             // InvokeDynamic #1:get:()Ljava/util/function/Supplier;
+│ │ +        69: invokevirtual #37                 // Method com/novell/ldapchai/util/internal/ChaiLogger.warn:(Ljava/util/function/Supplier;)V
+│ │ +        72: aload_0
+│ │ +        73: areturn
+│ │          74: aload_0
+│ │ -        75: areturn
+│ │ -        76: aload_0
+│ │ -        77: invokeinterface #60,  1           // InterfaceMethod com/novell/ldapchai/provider/ChaiProviderImplementor.getClass:()Ljava/lang/Class;
+│ │ -        82: invokevirtual #61                 // Method java/lang/Class.getClassLoader:()Ljava/lang/ClassLoader;
+│ │ -        85: aload_0
+│ │ -        86: invokeinterface #67,  1           // InterfaceMethod com/novell/ldapchai/provider/ChaiProviderImplementor.getClass:()Ljava/lang/Class;
+│ │ -        91: invokevirtual #68                 // Method java/lang/Class.getInterfaces:()[Ljava/lang/Class;
+│ │ -        94: new           #28                 // class com/novell/ldapchai/provider/WireTraceWrapper
+│ │ -        97: dup
+│ │ -        98: aload_0
+│ │ -        99: invokespecial #72                 // Method "<init>":(Lcom/novell/ldapchai/provider/ChaiProviderImplementor;)V
+│ │ -       102: invokestatic  #75                 // Method java/lang/reflect/Proxy.newProxyInstance:(Ljava/lang/ClassLoader;[Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
+│ │ -       105: checkcast     #2                  // class com/novell/ldapchai/provider/ChaiProviderImplementor
+│ │ -       108: areturn
+│ │ +        75: invokevirtual #49                 // Method java/lang/Object.getClass:()Ljava/lang/Class;
+│ │ +        78: invokevirtual #62                 // Method java/lang/Class.getClassLoader:()Ljava/lang/ClassLoader;
+│ │ +        81: aload_0
+│ │ +        82: invokevirtual #49                 // Method java/lang/Object.getClass:()Ljava/lang/Class;
+│ │ +        85: invokevirtual #68                 // Method java/lang/Class.getInterfaces:()[Ljava/lang/Class;
+│ │ +        88: new           #28                 // class com/novell/ldapchai/provider/WireTraceWrapper
+│ │ +        91: dup
+│ │ +        92: aload_0
+│ │ +        93: invokespecial #72                 // Method "<init>":(Lcom/novell/ldapchai/provider/ChaiProviderImplementor;)V
+│ │ +        96: invokestatic  #75                 // Method java/lang/reflect/Proxy.newProxyInstance:(Ljava/lang/ClassLoader;[Ljava/lang/Class;Ljava/lang/reflect/InvocationHandler;)Ljava/lang/Object;
+│ │ +        99: checkcast     #2                  // class com/novell/ldapchai/provider/ChaiProviderImplementor
+│ │ +       102: areturn
+│ │        LineNumberTable:
+│ │          line 57: 0
+│ │          line 58: 16
+│ │          line 60: 20
+│ │          line 61: 23
+│ │          line 62: 34
+│ │          line 65: 44
+│ │ -        line 67: 63
+│ │ -        line 68: 74
+│ │ -        line 71: 76
+│ │ -        line 72: 77
+│ │ -        line 73: 86
+│ │ -        line 71: 102
+│ │ +        line 67: 61
+│ │ +        line 68: 72
+│ │ +        line 71: 74
+│ │ +        line 72: 75
+│ │ +        line 73: 82
+│ │ +        line 71: 96
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             23      21     2 errorStr   Ljava/lang/String;
+│ │ -            0     109     0 chaiProvider   Lcom/novell/ldapchai/provider/ChaiProviderImplementor;
+│ │ -           16      93     1 watchDogEnabled   Z
+│ │ +            0     103     0 chaiProvider   Lcom/novell/ldapchai/provider/ChaiProviderImplementor;
+│ │ +           16      87     1 watchDogEnabled   Z
+│ │        StackMapTable: number_of_entries = 2
+│ │          frame_type = 252 /* append */
+│ │            offset_delta = 44
+│ │            locals = [ int ]
+│ │ -        frame_type = 31 /* same */
+│ │ +        frame_type = 29 /* same */
+│ │  
+│ │    com.novell.ldapchai.provider.WireTraceWrapper(com.novell.ldapchai.provider.ChaiProviderImplementor);
+│ │      descriptor: (Lcom/novell/ldapchai/provider/ChaiProviderImplementor;)V
+│ │      flags: (0x0000)
+│ │      Code:
+│ │        stack=5, locals=2, args_size=2
+│ │           0: aload_0
+│ │ @@ -829,99 +826,99 @@
+│ │      Code:
+│ │        stack=2, locals=6, args_size=1
+│ │           0: aload_0
+│ │           1: ifnonnull     7
+│ │           4: ldc           #244                // String null
+│ │           6: areturn
+│ │           7: aload_0
+│ │ -         8: invokevirtual #246                // Method java/lang/Object.getClass:()Ljava/lang/Class;
+│ │ -        11: invokevirtual #249                // Method java/lang/Class.isArray:()Z
+│ │ -        14: ifeq          91
+│ │ +         8: invokevirtual #49                 // Method java/lang/Object.getClass:()Ljava/lang/Class;
+│ │ +        11: invokevirtual #246                // Method java/lang/Class.isArray:()Z
+│ │ +        14: ifeq          90
+│ │          17: new           #123                // class java/lang/StringBuilder
+│ │          20: dup
+│ │          21: invokespecial #125                // Method java/lang/StringBuilder."<init>":()V
+│ │          24: astore_1
+│ │          25: aload_1
+│ │ -        26: ldc           #252                // String [
+│ │ +        26: ldc           #249                // String [
+│ │          28: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │          31: pop
+│ │          32: aload_0
+│ │ -        33: checkcast     #254                // class "[Ljava/lang/Object;"
+│ │ +        33: checkcast     #251                // class "[Ljava/lang/Object;"
+│ │          36: astore_2
+│ │          37: aload_2
+│ │          38: arraylength
+│ │          39: istore_3
+│ │          40: iconst_0
+│ │          41: istore        4
+│ │          43: iload         4
+│ │          45: iload_3
+│ │ -        46: if_icmpge     79
+│ │ +        46: if_icmpge     78
+│ │          49: aload_2
+│ │          50: iload         4
+│ │          52: aaload
+│ │          53: astore        5
+│ │          55: aload_1
+│ │          56: aload         5
+│ │          58: invokestatic  #237                // Method parameterToString:(Ljava/lang/Object;)Ljava/lang/String;
+│ │          61: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │          64: pop
+│ │          65: aload_1
+│ │ -        66: ldc_w         #256                // String ,
+│ │ -        69: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │ -        72: pop
+│ │ -        73: iinc          4, 1
+│ │ -        76: goto          43
+│ │ -        79: aload_1
+│ │ -        80: ldc           #207                // String ]
+│ │ -        82: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │ -        85: pop
+│ │ -        86: aload_1
+│ │ -        87: invokevirtual #136                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+│ │ -        90: areturn
+│ │ -        91: aload_0
+│ │ -        92: invokestatic  #258                // Method java/lang/String.valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+│ │ -        95: areturn
+│ │ +        66: ldc           #253                // String ,
+│ │ +        68: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │ +        71: pop
+│ │ +        72: iinc          4, 1
+│ │ +        75: goto          43
+│ │ +        78: aload_1
+│ │ +        79: ldc           #207                // String ]
+│ │ +        81: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │ +        84: pop
+│ │ +        85: aload_1
+│ │ +        86: invokevirtual #136                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+│ │ +        89: areturn
+│ │ +        90: aload_0
+│ │ +        91: invokestatic  #255                // Method java/lang/String.valueOf:(Ljava/lang/Object;)Ljava/lang/String;
+│ │ +        94: areturn
+│ │        LineNumberTable:
+│ │          line 194: 0
+│ │          line 196: 4
+│ │          line 198: 7
+│ │          line 200: 17
+│ │          line 201: 25
+│ │          line 202: 32
+│ │          line 204: 55
+│ │          line 205: 65
+│ │ -        line 202: 73
+│ │ -        line 207: 79
+│ │ -        line 208: 86
+│ │ -        line 212: 91
+│ │ +        line 202: 72
+│ │ +        line 207: 78
+│ │ +        line 208: 85
+│ │ +        line 212: 90
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │ -           55      18     5 loopValue   Ljava/lang/Object;
+│ │ -           25      66     1    sb   Ljava/lang/StringBuilder;
+│ │ -            0      96     0 nextValue   Ljava/lang/Object;
+│ │ +           55      17     5 loopValue   Ljava/lang/Object;
+│ │ +           25      65     1    sb   Ljava/lang/StringBuilder;
+│ │ +            0      95     0 nextValue   Ljava/lang/Object;
+│ │        StackMapTable: number_of_entries = 4
+│ │          frame_type = 7 /* same */
+│ │          frame_type = 255 /* full_frame */
+│ │            offset_delta = 35
+│ │            locals = [ class java/lang/Object, class java/lang/StringBuilder, class "[Ljava/lang/Object;", int, int ]
+│ │            stack = []
+│ │          frame_type = 248 /* chop */
+│ │ -          offset_delta = 35
+│ │ +          offset_delta = 34
+│ │          frame_type = 250 /* chop */
+│ │            offset_delta = 11
+│ │  
+│ │    private static java.lang.String lambda$objectToDebugString$4(java.lang.Exception);
+│ │      descriptor: (Ljava/lang/Exception;)Ljava/lang/String;
+│ │      flags: (0x100a) ACC_PRIVATE, ACC_STATIC, ACC_SYNTHETIC
+│ │      Code:
+│ │        stack=2, locals=1, args_size=1
+│ │           0: new           #123                // class java/lang/StringBuilder
+│ │           3: dup
+│ │           4: invokespecial #125                // Method java/lang/StringBuilder."<init>":()V
+│ │ -         7: ldc_w         #263                // String error converting object to debug string:
+│ │ +         7: ldc_w         #260                // String error converting object to debug string:
+│ │          10: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │          13: aload_0
+│ │          14: invokevirtual #132                // Method java/lang/Exception.getMessage:()Ljava/lang/String;
+│ │          17: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │          20: invokevirtual #136                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+│ │          23: areturn
+│ │        LineNumberTable:
+│ │ @@ -934,30 +931,30 @@
+│ │      descriptor: (Ljava/lang/String;Ljava/lang/Object;Ljava/time/Duration;)Ljava/lang/String;
+│ │      flags: (0x1002) ACC_PRIVATE, ACC_SYNTHETIC
+│ │      Code:
+│ │        stack=3, locals=4, args_size=4
+│ │           0: new           #123                // class java/lang/StringBuilder
+│ │           3: dup
+│ │           4: invokespecial #125                // Method java/lang/StringBuilder."<init>":()V
+│ │ -         7: ldc_w         #265                // String finish
+│ │ +         7: ldc_w         #262                // String finish
+│ │          10: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │          13: aload_1
+│ │          14: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │ -        17: ldc_w         #267                // String  result:
+│ │ +        17: ldc_w         #264                // String  result:
+│ │          20: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │          23: aload_0
+│ │          24: aload_2
+│ │ -        25: invokespecial #269                // Method objectToDebugString:(Ljava/lang/Object;)Ljava/lang/String;
+│ │ +        25: invokespecial #266                // Method objectToDebugString:(Ljava/lang/Object;)Ljava/lang/String;
+│ │          28: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │ -        31: ldc_w         #272                // String  (
+│ │ +        31: ldc_w         #269                // String  (
+│ │          34: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │          37: aload_3
+│ │ -        38: invokestatic  #274                // Method com/novell/ldapchai/util/internal/ChaiLogger.format:(Ljava/time/Duration;)Ljava/lang/String;
+│ │ +        38: invokestatic  #271                // Method com/novell/ldapchai/util/internal/ChaiLogger.format:(Ljava/time/Duration;)Ljava/lang/String;
+│ │          41: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │ -        44: ldc_w         #278                // String )
+│ │ +        44: ldc_w         #275                // String )
+│ │          47: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │          50: invokevirtual #136                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+│ │          53: areturn
+│ │        LineNumberTable:
+│ │          line 132: 0
+│ │          line 133: 25
+│ │          line 134: 38
+│ │ @@ -973,23 +970,23 @@
+│ │      descriptor: (Ljava/lang/String;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/String;
+│ │      flags: (0x100a) ACC_PRIVATE, ACC_STATIC, ACC_SYNTHETIC
+│ │      Code:
+│ │        stack=3, locals=3, args_size=3
+│ │           0: new           #123                // class java/lang/StringBuilder
+│ │           3: dup
+│ │           4: invokespecial #125                // Method java/lang/StringBuilder."<init>":()V
+│ │ -         7: ldc_w         #280                // String begin
+│ │ +         7: ldc_w         #277                // String begin
+│ │          10: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │          13: aload_0
+│ │          14: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │ -        17: ldc_w         #282                // String  method
+│ │ +        17: ldc_w         #279                // String  method
+│ │          20: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │          23: aload_1
+│ │          24: aload_2
+│ │ -        25: invokestatic  #284                // Method methodToDebugStr:(Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/String;
+│ │ +        25: invokestatic  #281                // Method methodToDebugStr:(Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/String;
+│ │          28: invokevirtual #128                // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │          31: invokevirtual #136                // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+│ │          34: areturn
+│ │        LineNumberTable:
+│ │          line 124: 0
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │ @@ -998,15 +995,15 @@
+│ │              0      35     2  args   [Ljava/lang/Object;
+│ │  
+│ │    private static java.lang.String lambda$forProvider$1();
+│ │      descriptor: ()Ljava/lang/String;
+│ │      flags: (0x100a) ACC_PRIVATE, ACC_STATIC, ACC_SYNTHETIC
+│ │      Code:
+│ │        stack=1, locals=0, args_size=0
+│ │ -         0: ldc_w         #288                // String attempt to obtain WireTraceWrapper wrapper for already wrapped Provider.
+│ │ +         0: ldc_w         #285                // String attempt to obtain WireTraceWrapper wrapper for already wrapped Provider.
+│ │           3: areturn
+│ │        LineNumberTable:
+│ │          line 67: 0
+│ │  
+│ │    private static java.lang.String lambda$forProvider$0();
+│ │      descriptor: ()Ljava/lang/String;
+│ │      flags: (0x100a) ACC_PRIVATE, ACC_STATIC, ACC_SYNTHETIC
+│ │ @@ -1019,43 +1016,43 @@
+│ │  
+│ │    static {};
+│ │      descriptor: ()V
+│ │      flags: (0x0008) ACC_STATIC
+│ │      Code:
+│ │        stack=1, locals=0, args_size=0
+│ │           0: ldc           #28                 // class com/novell/ldapchai/provider/WireTraceWrapper
+│ │ -         2: invokestatic  #290                // Method com/novell/ldapchai/util/internal/ChaiLogger.getLogger:(Ljava/lang/Class;)Lcom/novell/ldapchai/util/internal/ChaiLogger;
+│ │ +         2: invokestatic  #287                // Method com/novell/ldapchai/util/internal/ChaiLogger.getLogger:(Ljava/lang/Class;)Lcom/novell/ldapchai/util/internal/ChaiLogger;
+│ │           5: putstatic     #27                 // Field LOGGER:Lcom/novell/ldapchai/util/internal/ChaiLogger;
+│ │           8: return
+│ │        LineNumberTable:
+│ │          line 42: 0
+│ │  }
+│ │  SourceFile: "WireTraceWrapper.java"
+│ │  BootstrapMethods:
+│ │ -  0: #368 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+│ │ +  0: #348 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+│ │      Method arguments:
+│ │ -      #351 ()Ljava/lang/Object;
+│ │ -      #352 REF_invokeStatic com/novell/ldapchai/provider/WireTraceWrapper.lambda$forProvider$0:()Ljava/lang/String;
+│ │ -      #355 ()Ljava/lang/String;
+│ │ -  1: #368 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+│ │ +      #355 ()Ljava/lang/Object;
+│ │ +      #356 REF_invokeStatic com/novell/ldapchai/provider/WireTraceWrapper.lambda$forProvider$0:()Ljava/lang/String;
+│ │ +      #359 ()Ljava/lang/String;
+│ │ +  1: #348 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+│ │      Method arguments:
+│ │ -      #351 ()Ljava/lang/Object;
+│ │ -      #356 REF_invokeStatic com/novell/ldapchai/provider/WireTraceWrapper.lambda$forProvider$1:()Ljava/lang/String;
+│ │ -      #355 ()Ljava/lang/String;
+│ │ -  2: #368 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+│ │ +      #355 ()Ljava/lang/Object;
+│ │ +      #360 REF_invokeStatic com/novell/ldapchai/provider/WireTraceWrapper.lambda$forProvider$1:()Ljava/lang/String;
+│ │ +      #359 ()Ljava/lang/String;
+│ │ +  2: #348 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+│ │      Method arguments:
+│ │ -      #351 ()Ljava/lang/Object;
+│ │ -      #359 REF_invokeStatic com/novell/ldapchai/provider/WireTraceWrapper.lambda$traceInvocation$2:(Ljava/lang/String;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/String;
+│ │ -      #355 ()Ljava/lang/String;
+│ │ -  3: #368 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+│ │ +      #355 ()Ljava/lang/Object;
+│ │ +      #363 REF_invokeStatic com/novell/ldapchai/provider/WireTraceWrapper.lambda$traceInvocation$2:(Ljava/lang/String;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/String;
+│ │ +      #359 ()Ljava/lang/String;
+│ │ +  3: #348 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+│ │      Method arguments:
+│ │ -      #351 ()Ljava/lang/Object;
+│ │ -      #362 REF_invokeSpecial com/novell/ldapchai/provider/WireTraceWrapper.lambda$traceInvocation$3:(Ljava/lang/String;Ljava/lang/Object;Ljava/time/Duration;)Ljava/lang/String;
+│ │ -      #355 ()Ljava/lang/String;
+│ │ -  4: #368 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+│ │ +      #355 ()Ljava/lang/Object;
+│ │ +      #366 REF_invokeSpecial com/novell/ldapchai/provider/WireTraceWrapper.lambda$traceInvocation$3:(Ljava/lang/String;Ljava/lang/Object;Ljava/time/Duration;)Ljava/lang/String;
+│ │ +      #359 ()Ljava/lang/String;
+│ │ +  4: #348 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+│ │      Method arguments:
+│ │ -      #351 ()Ljava/lang/Object;
+│ │ -      #365 REF_invokeStatic com/novell/ldapchai/provider/WireTraceWrapper.lambda$objectToDebugString$4:(Ljava/lang/Exception;)Ljava/lang/String;
+│ │ -      #355 ()Ljava/lang/String;
+│ │ +      #355 ()Ljava/lang/Object;
+│ │ +      #369 REF_invokeStatic com/novell/ldapchai/provider/WireTraceWrapper.lambda$objectToDebugString$4:(Ljava/lang/Exception;)Ljava/lang/String;
+│ │ +      #359 ()Ljava/lang/String;
+│ │  InnerClasses:
+│ │ -  public static #378= #97 of #376;        // LdapOperation=class com/novell/ldapchai/provider/ChaiProvider$LdapOperation of class com/novell/ldapchai/provider/ChaiProvider
+│ │ -  public static final #383= #379 of #381; // Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
+│ │ +  public static #375= #97 of #373;        // LdapOperation=class com/novell/ldapchai/provider/ChaiProvider$LdapOperation of class com/novell/ldapchai/provider/ChaiProvider
+│ │ +  public static final #380= #376 of #378; // Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
