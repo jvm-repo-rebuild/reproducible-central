@@ -46,6 +46,8 @@ newline=crlf
 #arch=
 # if rebuild output depends on Azul JDK even when default OpenJDK is available, like with JDK 8 and cyclonedx-maven-plugin
 #jdkForceAzul=true
+# if rebuild output depends on working directory where source code is stored:
+#workdir=/var/<tool>/app
 
 # 4. rebuild command
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"

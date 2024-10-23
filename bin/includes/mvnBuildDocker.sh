@@ -91,9 +91,11 @@ mvnBuildDocker() {
   [ -d $base/.npm ] || mkdir -p $base/.npm
   [ -d $base/.sbt ] || mkdir -p $base/.sbt
 
+  [ "${workdir}" = "" ] && workdir="/var/maven/app"
+
   local engine_command="$RB_OCI_ENGINE run --name rebuild-central $([ "$CI" != true ] && echo "-it ")--rm\
     ${RB_OCI_ENGINE_RUN_OPTS}\
-    -v $PWD:/var/maven/app${RB_OCI_VOLUME_FLAGS}\
+    -v $PWD:${workdir}${RB_OCI_VOLUME_FLAGS}\
     -v $base/m2:/var/maven/.m2${RB_OCI_VOLUME_FLAGS}\
     -v $base/.sbt:/var/maven/.sbt${RB_OCI_VOLUME_FLAGS}\
     -v $base/.npm:/.npm${RB_OCI_VOLUME_FLAGS}\
@@ -101,7 +103,7 @@ mvnBuildDocker() {
     -u $USER_ID:$GROUP_ID\
     -e MAVEN_CONFIG=/var/maven/.m2\
     -e MVN_UMASK=${MVN_UMASK}\
-    -w /var/maven/app"
+    -w ${workdir}"
 
   if [[ "${newline}" == crlf* ]]
   then
