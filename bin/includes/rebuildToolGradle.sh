@@ -37,9 +37,11 @@ rebuildToolGradle() {
   [ -d $PWD/.bnd ] || mkdir -p $PWD/.bnd
   find . -name build -exec \rm -rf {} \;
 
+  [ "${workdir}" = "" ] && workdir="/var/gradle/app"
+
   local engine_command="$RB_OCI_ENGINE run $([ "$CI" != true ] && echo "-it ")--rm --name rebuild-central\
     ${RB_OCI_ENGINE_RUN_OPTS}\
-    -v $PWD:/var/gradle/app${RB_OCI_VOLUME_FLAGS}\
+    -v $PWD:${workdir}${RB_OCI_VOLUME_FLAGS}\
     -v $PWD/userhome:/home/gradle${RB_OCI_VOLUME_FLAGS}\
     -v $PWD:/home/gradle/.m2${RB_OCI_VOLUME_FLAGS}\
     -v $PWD/userhome/.gradle:/home/gradle/.gradle${RB_OCI_VOLUME_FLAGS}\
@@ -47,7 +49,7 @@ rebuildToolGradle() {
     -u $(id -u ${USER}):$(id -g ${USER})\
     -e MAVEN_CONFIG=/home/gradle/.m2\
     -e GRADLE_USER_HOME=/home/gradle/.gradle\
-    -w /var/gradle/app"
+    -w ${workdir}"
   local gradle_engine_params="-Duser.home=/home/gradle"
 
   runcommand_time ${engine_command} ${jdkImage} ${command} ${gradle_engine_params}
