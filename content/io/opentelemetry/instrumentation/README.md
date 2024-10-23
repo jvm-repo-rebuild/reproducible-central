@@ -407,8 +407,8 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentati
 </details>
 
 rebuilding **24 releases** of io.opentelemetry.instrumentation:opentelemetry-instrumentation-api:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 20 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 19 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -430,7 +430,7 @@ rebuilding **24 releases** of io.opentelemetry.instrumentation:opentelemetry-ins
 | [1.33.1](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.33.1/pom) | [gradle jdk17](opentelemetry-1.33.1.buildspec) | [result](opentelemetry-instrumentation-api-1.33.1.buildinfo): [987 :white_check_mark:  1 :warning:](opentelemetry-instrumentation-api-1.33.1.buildcompare) | 75M |
 | [1.33.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.33.0/pom) | [gradle jdk17](opentelemetry-1.33.0.buildspec) | [result](opentelemetry-instrumentation-api-1.33.0.buildinfo): [987 :white_check_mark:  1 :warning:](opentelemetry-instrumentation-api-1.33.0.buildcompare) | 71M |
 | [1.32.1](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.32.1/pom) | [gradle jdk17](opentelemetry-1.32.1.buildspec) | [result](opentelemetry-instrumentation-api-1.32.1.buildinfo): [990 :white_check_mark:  1 :warning:](opentelemetry-instrumentation-api-1.32.1.buildcompare) | 71M |
-| [1.32.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.32.0/pom) | [gradle jdk17](opentelemetry-1.32.0.buildspec) | [result](opentelemetry-instrumentation-api-1.32.0.buildinfo): [987 :white_check_mark:  1 :warning:](opentelemetry-instrumentation-api-1.32.0.buildcompare) | 66M |
+| [1.32.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.32.0/pom) | [gradle jdk17](opentelemetry-1.32.0.buildspec) | [result](opentelemetry-instrumentation-api-1.32.0.buildinfo): [988 :white_check_mark: ](opentelemetry-instrumentation-api-1.32.0.buildcompare) | 66M |
 | [1.31.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.31.0/pom) | [gradle jdk17](opentelemetry-1.31.0.buildspec) | [result](opentelemetry-instrumentation-api-1.31.0.buildinfo): [976 :white_check_mark: ](opentelemetry-instrumentation-api-1.31.0.buildcompare) | 66M |
 | [1.30.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.30.0/pom) | [gradle jdk17](opentelemetry-1.30.0.buildspec) | [result](opentelemetry-instrumentation-api-1.30.0.buildinfo): [970 :white_check_mark: ](opentelemetry-instrumentation-api-1.30.0.buildcompare) | 66M |
 | [1.29.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.29.0/pom) | [gradle jdk17](opentelemetry-1.29.0.buildspec) | [result](opentelemetry-instrumentation-api-1.29.0.buildinfo): [965 :white_check_mark:  2 :warning:](opentelemetry-instrumentation-api-1.29.0.buildcompare) | 65M |
