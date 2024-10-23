@@ -309,8 +309,8 @@ outputs.20.2.checksums.sha512=c1b30f4bb39f062dbdcddbd6b12343ddc4478327c79cf9c48f
 outputs.21.coordinates=io.opentelemetry.instrumentation:opentelemetry-instrumentation-api-semconv
 
 outputs.21.0.filename=opentelemetry-instrumentation-api-semconv-1.33.0-alpha-sources.jar
-outputs.21.0.length=122573
-outputs.21.0.checksums.sha512=13bda6fd0aceca38dc1d7b64536ab22c5deba1d3c4c88e678014a9df531a375efb76137d7765c6af5781c3e9241006d4f332bf8f05a7fe5b419071db98b42e45
+outputs.21.0.length=122586
+outputs.21.0.checksums.sha512=6f7a3b7b7ca0e817a0bb0d6b64f05a9199bdbab8778eccaf446a205cbfd3acde07af5dc4e6bb1107245238d2e3562ef11cd00b058a4a463262fe5941fa44e6d2
 
 outputs.21.1.filename=opentelemetry-instrumentation-api-semconv-1.33.0-alpha.jar
 outputs.21.1.length=196132
