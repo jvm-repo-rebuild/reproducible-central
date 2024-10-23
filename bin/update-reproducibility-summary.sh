@@ -94,7 +94,7 @@ do
     rebuildOk="ok" && [ $ko -gt 0 ] && rebuildOk="ko"
     echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | [${previousVersion}](../$dir/${previousBuildspec}) $rebuildStatus" \
          "| [${addVersion}](../$addBuildspec) | \`bin/add-new-release.sh $dir/${previousBuildspec} ${addVersion}\` |" >> tmp/add-${rebuildOk}.md
-    echo "$dir/${previousBuildspec}:${addVersion}" >> doc/add-${rebuildOk}.txt
+    [ "${rebuildOk}" = "ok" ] && echo "$dir/${previousBuildspec}:${addVersion}" >> doc/add-ok.txt # for bin/create-new-release-PRs.sh
   else
     # no release already exists, list it if it was not reproducible: it requires rework to prepare next release
     if [ ! -f "${dir}/${previousBuildcompare}" ] || [ $ko -ne 0 ]
