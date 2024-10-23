@@ -23,6 +23,7 @@ rebuilding **3 releases** of org.kordamp.maven:pomchecker:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.14.0](https://central.sonatype.com/artifact/org.kordamp.maven/pomchecker/1.14.0/pom) | | | |
 | [1.13.0](https://central.sonatype.com/artifact/org.kordamp.maven/pomchecker/1.13.0/pom) | [mvn jdk11](pomchecker-1.13.0.buildspec) | [result](pomchecker-1.13.0.buildinfo): [17 :white_check_mark: ](pomchecker-1.13.0.buildcompare) | 20M |
 | [1.12.0](https://central.sonatype.com/artifact/org.kordamp.maven/pomchecker/1.12.0/pom) | [mvn jdk11](pomchecker-1.12.0.buildspec) | [result](pomchecker-1.12.0.buildinfo): [17 :white_check_mark: ](pomchecker-1.12.0.buildcompare) | 20M |
 | [1.11.0](https://central.sonatype.com/artifact/org.kordamp.maven/pomchecker/1.11.0/pom) | [mvn jdk11](pomchecker-1.11.0.buildspec) | [result](pomchecker-1.11.0.buildinfo): [17 :white_check_mark: ](pomchecker-1.11.0.buildcompare) | 21M |
