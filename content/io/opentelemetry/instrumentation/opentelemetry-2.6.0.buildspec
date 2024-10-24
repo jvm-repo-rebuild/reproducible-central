@@ -9,7 +9,6 @@ gitTag=v$(echo "${version}" | cut -d \- -f 1)
 tool=gradle
 jdk=17
 newline=lf
-workdir="/home/runner/work/opentelemetry-java-instrumentation/opentelemetry-java-instrumentation"
 
 command="./gradlew --no-daemon clean assemble publishToMavenLocal -x test"
 buildinfo=${artifactId}-${version}.buildinfo
