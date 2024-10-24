@@ -369,8 +369,8 @@ outputs.24.2.checksums.sha512=5c961fe65da375b0eba31ee79639ee43781276d5fb44996054
 outputs.25.coordinates=io.opentelemetry.instrumentation:opentelemetry-instrumentation-api-incubator
 
 outputs.25.0.filename=opentelemetry-instrumentation-api-incubator-2.7.0-alpha-sources.jar
-outputs.25.0.length=72493
-outputs.25.0.checksums.sha512=754c7c6a6af373182c0101f4d142afff7342e443e56fd58d33c72a4da5f64e5d48b33be295a54c97d7ce4847b8c63b7d2f81dc2dad9ed4c612f630dea03fdcc0
+outputs.25.0.length=72503
+outputs.25.0.checksums.sha512=19f3cd8cc4dd35b176a4abce2b4f355e07fabcee263115e545d7e4f82560b9541eb8d496d4175e3da42950b51694abfeb2946302931748686a4356d1698f3f49
 
 outputs.25.1.filename=opentelemetry-instrumentation-api-incubator-2.7.0-alpha.jar
 outputs.25.1.length=133492
@@ -5316,7 +5316,7 @@ outputs.355.0.checksums.sha512=1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc19
 
 outputs.355.1.filename=opentelemetry-javaagent-2.7.0-spdx.json
 outputs.355.1.length=74788
-outputs.355.1.checksums.sha512=a8e65c8e75b40821a170ce5f993403129e59617551b0f3aac3aafd835be6a75118e5f31673c6cd18b748b3d20b3200761a94ba8bcb17152bb959ab8f33253254
+outputs.355.1.checksums.sha512=96b1436adb73d4ea6f2c59c0228a5c854e5ca447d16819c6527f7d21f248b5b39750ace819bdb4d4b58f03abfd95cb9f203dd29322f2a9ade11274365cf3b0e9
 
 outputs.355.2.filename=opentelemetry-javaagent-2.7.0.jar
 outputs.355.2.length=21520550
