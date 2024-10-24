@@ -1,0 +1,33 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache HttpComponents Parent
+group-id=org.apache.httpcomponents
+artifact-id=httpcomponents-parent
+version=14
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/httpcomponents-parent.git
+source.scm.tag=master
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.toolchain.jdk=openjdk version "1
+
+# output
+
+outputs.0.groupId=org.apache.httpcomponents
+outputs.0.filename=httpcomponents-parent-14.pom
+outputs.0.length=30369
+outputs.0.checksums.sha512=156d13bf0fa2be5a5d10c5f2b9933d1e5b21fba1093e03a79605b6537309d222b12e6b24664f379bb5d7a41e1c72bd898acc238558cb8370ce9f6169fd1005be
+
+outputs.1.groupId=org.apache.httpcomponents
+outputs.1.filename=httpcomponents-parent-14-source-release.zip
+outputs.1.length=30435
+outputs.1.checksums.sha512=40aef387d760c6260d32d03febba37134b8abc0793eab88aefb74ec7eacfde8843ba1c47d8f6c82aff4d2521d9fe2e35df66421f134a171ec683efe937b3c1d1
