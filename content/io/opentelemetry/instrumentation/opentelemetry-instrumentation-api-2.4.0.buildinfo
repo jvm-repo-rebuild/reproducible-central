@@ -369,8 +369,8 @@ outputs.24.2.checksums.sha512=1c9711153e2c50958d3a4a4d8badbb30dc1febd1b22753e044
 outputs.25.coordinates=io.opentelemetry.instrumentation:opentelemetry-instrumentation-api-incubator
 
 outputs.25.0.filename=opentelemetry-instrumentation-api-incubator-2.4.0-alpha-sources.jar
-outputs.25.0.length=58806
-outputs.25.0.checksums.sha512=7e31bc7b773b6ed34f22deb7db5fc7b8bc703ab4ba22df3a2426c10d4537ff3f5121010c3642a593c125badada0873f738777c114c5db31be1d77c7299c225bc
+outputs.25.0.length=58816
+outputs.25.0.checksums.sha512=83f66cc533c3cfcd813097182a4601ea298e517383b215c91a165ac7a9c9e5eeef3a31d5b9e4ec74e9e04da2fd8068134bab1bc57599f4a561deb6c4afb47356
 
 outputs.25.1.filename=opentelemetry-instrumentation-api-incubator-2.4.0-alpha.jar
 outputs.25.1.length=109704
