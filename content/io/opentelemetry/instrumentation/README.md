@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentation.git](https://github.com/open-telemetry/opentelemetry-java-instrumentation.git)
 
-<details><summary>This project defines 397 modules:</summary>
+<details><summary>This project defines 398 modules:</summary>
 
 * [io.opentelemetry.instrumentation:opentelemetry-alibaba-druid-1.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-alibaba-druid-1.0/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-apache-dbcp-2.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-apache-dbcp-2.0/overview)
@@ -118,6 +118,7 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentati
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-apache-httpclient-2.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-apache-httpclient-2.0/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-apache-httpclient-4.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-apache-httpclient-4.0/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-apache-httpclient-5.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-apache-httpclient-5.0/overview)
+* [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-apache-pulsar-2.8](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-apache-pulsar-2.8/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-apache-shenyu-2.4](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-apache-shenyu-2.4/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-armeria-1.3](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-armeria-1.3/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-armeria-grpc-1.14](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-armeria-grpc-1.14/overview)
@@ -409,8 +410,8 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentati
 </details>
 
 rebuilding **31 releases** of io.opentelemetry.instrumentation:opentelemetry-instrumentation-api:
-- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 17 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 16 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -441,7 +442,7 @@ rebuilding **31 releases** of io.opentelemetry.instrumentation:opentelemetry-ins
 | [1.26.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.26.0/pom) | [gradle jdk17](opentelemetry-1.26.0.buildspec) | :x: | |
 | [1.25.1](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.25.1/pom) | [gradle jdk17](opentelemetry-1.25.1.buildspec) | :x: | |
 | [1.25.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.25.0/pom) | [gradle jdk17](opentelemetry-1.25.0.buildspec) | :x: | |
-| [1.24.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.24.0/pom) | [gradle jdk17](opentelemetry-1.24.0.buildspec) | :x: | |
+| [1.24.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.24.0/pom) | [gradle jdk17](opentelemetry-1.24.0.buildspec) | [result](opentelemetry-instrumentation-api-1.24.0.buildinfo): [916 :white_check_mark: ](opentelemetry-instrumentation-api-1.24.0.buildcompare) | 60M |
 | [1.23.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.23.0/pom) | [gradle jdk17](opentelemetry-1.23.0.buildspec) | [result](opentelemetry-instrumentation-api-1.23.0.buildinfo): [900 :white_check_mark:  4 :warning:](opentelemetry-instrumentation-api-1.23.0.buildcompare) | 59M |
 | [1.22.1](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.22.1/pom) | | | |
 | [1.22.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.22.0/pom) | | | |
