@@ -55,6 +55,11 @@ outputs.3.1.filename=jdplus-dfm-base-api-2.0.0.jar
 outputs.3.1.length=41665
 outputs.3.1.checksums.sha512=7ebd63e26ac652fb129f89436e0336b5a635e0c0abc211f439b1a7e14bf57349b39d8305c63d3a58dd5e21e934ee6679274f052011e471a1521b0581f1883bf5
 
+outputs.3.2.groupId=eu.europa.ec.joinup.sat
+outputs.3.2.filename=jdplus-dfm-base-api-2.0.0-sources.jar
+outputs.3.2.length=25155
+outputs.3.2.checksums.sha512=f67d99a20a20895476656d1819b2534f711ca86e5c9979ac4cc3293cd6e8a65124b7ba9485518c759296b8a7d5b2b6c9af9fccecfaaece14c94690615efd5c78
+
 outputs.4.coordinates=eu.europa.ec.joinup.sat:jdplus-dfm-base-core
 
 outputs.4.0.groupId=eu.europa.ec.joinup.sat
@@ -67,6 +72,11 @@ outputs.4.1.filename=jdplus-dfm-base-core-2.0.0.jar
 outputs.4.1.length=132660
 outputs.4.1.checksums.sha512=ba241b4d18bd3bf0b4075ad5079a286acd5cc01ce77e5afe2bba2c696357007b6c6b957e85636f1cd0dbe04d6161eb91a25bbec5e1ef5ddf40ed4805ccbfa3e6
 
+outputs.4.2.groupId=eu.europa.ec.joinup.sat
+outputs.4.2.filename=jdplus-dfm-base-core-2.0.0-sources.jar
+outputs.4.2.length=71773
+outputs.4.2.checksums.sha512=dfd0eb0fb7409bf34dc7e5ff89bd775132e54554d6efc038ebdccf13070d68bda8f00fb9fe06c0a94b1e6e98c86ac4a966acbbb4014604233c034085df1eff04
+
 outputs.5.coordinates=eu.europa.ec.joinup.sat:jdplus-dfm-base-r
 
 outputs.5.0.groupId=eu.europa.ec.joinup.sat
@@ -78,6 +88,11 @@ outputs.5.1.groupId=eu.europa.ec.joinup.sat
 outputs.5.1.filename=jdplus-dfm-base-r-2.0.0.jar
 outputs.5.1.length=19422
 outputs.5.1.checksums.sha512=59d7447e6074d9853b65803d75283105771342852546685333990791869e41f64ba895c48dc8ea6e7758a35a93844b5fe907b27c7c3adb5d1056a298f44c0f20
+
+outputs.5.2.groupId=eu.europa.ec.joinup.sat
+outputs.5.2.filename=jdplus-dfm-base-r-2.0.0-sources.jar
+outputs.5.2.length=12550
+outputs.5.2.checksums.sha512=22d2b898d24513b11bdd275eb21fa3d99d4216718a8c80eb4d767dffcb1df737ffe56b940b25837507eca318344b71400a53e21da32369377a22380591b05871
 
 outputs.6.coordinates=eu.europa.ec.joinup.sat:jdplus-nowcasting-desktop
 

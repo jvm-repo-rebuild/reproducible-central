@@ -26,6 +26,6 @@ rebuilding **1 releases** of eu.europa.ec.joinup.sat:jdplus-nowcasting:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-nowcasting/2.0.0/pom) | [mvn jdk21](jdplus-nowcasting-2.0.0.buildspec) | [result](jdplus-nowcasting-2.0.0.buildinfo): [12 :white_check_mark: ](jdplus-nowcasting-2.0.0.buildcompare) | 226K |
+| [2.0.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-nowcasting/2.0.0/pom) | [mvn jdk21](jdplus-nowcasting-2.0.0.buildspec) | [result](jdplus-nowcasting-2.0.0.buildinfo): [15 :white_check_mark: ](jdplus-nowcasting-2.0.0.buildcompare) | 333K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
