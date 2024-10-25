@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Checkstyle Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-checkstyle-plugin
+version=3.6.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-checkstyle-plugin.git
+source.scm.tag=maven-checkstyle-plugin-3.6.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-checkstyle-plugin-3.6.0.pom
+outputs.0.length=14634
+outputs.0.checksums.sha512=b92c02d955d86b6b3a7046551112a54f0985cb4ece53d5db02df56db838fb2f0fea5518a9eb4fba1867790472982c223197e3063080e0e8f2d65e530f2f889ed
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-checkstyle-plugin-3.6.0.jar
+outputs.1.length=100220
+outputs.1.checksums.sha512=a1c9a4b56f869f56411447d96b4d2cf621379bce921efa2c560ae995892826fdfa1b754c3d02f26015cab544fac7f0bf91a226aff7d9cd7df2ac7c76840faea2
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-checkstyle-plugin-3.6.0-source-release.zip
+outputs.2.length=460439
+outputs.2.checksums.sha512=6126b0e5932f1832afc7970fa6ab5083f5e0c220eb66d0b4702267431482eb22528199eeab587c15e43c8725a90719cd41bf0e11bd868e155a5a53608718f959
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-checkstyle-plugin-3.6.0-sources.jar
+outputs.3.length=68051
+outputs.3.checksums.sha512=f8232504a601b2d7bebd635c27a107f8e98eab7b150d00509b2fb7d1459c80edfe82d0904fc07ff7f9cbeea5ee611facbdc79aaccd4029be599d2d4dc9fd47ac
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-checkstyle-plugin-3.6.0-cyclonedx.xml
+outputs.4.length=155218
+outputs.4.checksums.sha512=870c9fe43940467f0e2ff615feeafedc29ce6cb52a305aa2bcd07935089c2fc7ea12453e7c12b0f38d9b724fc2e27a3d00b3f15bd339ad30eef228b4d934770f
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-checkstyle-plugin-3.6.0-cyclonedx.json
+outputs.5.length=177752
+outputs.5.checksums.sha512=ba5d763a3c686f3fd953eb21462300e988fffab1a3def2f56b51c1a0d77847dd0d04e61cb79c01cd3f8967afefc43b466e5d87292db08dbe3c0ffa2523f633fc
