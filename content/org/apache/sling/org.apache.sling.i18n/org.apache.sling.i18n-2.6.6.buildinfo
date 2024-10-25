@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling I18N Support
+group-id=org.apache.sling
+artifact-id=org.apache.sling.i18n
+version=2.6.6
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-i18n.git
+source.scm.tag=org.apache.sling.i18n-2.6.6
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.i18n-2.6.6.pom
+outputs.0.length=11068
+outputs.0.checksums.sha512=66e4a33c49bcec4a4217b47c1aa586cb4d0801955d3de1b25fdd35cec71fb0980ad3e71827538d65ed6ea2c6f19ce828d3e06fb9caa497278b5601b03ca36cec
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.i18n-2.6.6.jar
+outputs.1.length=101609
+outputs.1.checksums.sha512=a5bd74fbccbe491683d8460ec3fafbaeb67a68779fbee7ebff781d42c00bde23e2b72dd5e3444212648dbcf92c5fddf52fea7758d91b3d6070399ed57a305420
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.i18n-2.6.6-source-release.zip
+outputs.2.length=72859
+outputs.2.checksums.sha512=f86e4b18fcb95b86f5510f33371329edc393b0d70ea19b338a5df54a64d4aef042d276a6c03d2759e43ae8e845842b83e0bd7eb068664f1548b668907327536f
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.i18n-2.6.6-sources.jar
+outputs.3.length=41528
+outputs.3.checksums.sha512=51b158765a9dab8264820e1142030d8a771ca153af9d12333f8e1209bd23a52b48d1c50b122609b5bb536e58cdb7eb76a5a388e2953ee1931b40b2e4b545dbad
