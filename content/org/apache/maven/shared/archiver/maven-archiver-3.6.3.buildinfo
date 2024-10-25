@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Archiver
+group-id=org.apache.maven
+artifact-id=maven-archiver
+version=3.6.3
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-archiver.git
+source.scm.tag=maven-archiver-3.6.3
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.maven
+outputs.0.filename=maven-archiver-3.6.3.pom
+outputs.0.length=4206
+outputs.0.checksums.sha512=7502a5b013de60c58312557ebb4c2f0dad9cd8c545b8e95105c7c45edcfbbe813884da4261d171d6789ac94cffa69186d5888e50972ae57f8c4b5b1265c57f14
+
+outputs.1.groupId=org.apache.maven
+outputs.1.filename=maven-archiver-3.6.3.jar
+outputs.1.length=26718
+outputs.1.checksums.sha512=8cf9f229541c4747db74520e98451bf98b52de6669d464cfe2ba5f61ffd8f89950d49bd78e298ed7fbeceaa75916db88e4c39c596f234ec593359dcac98958b0
+
+outputs.2.groupId=org.apache.maven
+outputs.2.filename=maven-archiver-3.6.3-source-release.zip
+outputs.2.length=134911
+outputs.2.checksums.sha512=4b5bde993ef1d248e89a8f6ea54115924f7acf6a4b2c10a175d6a8303a56f1dc09567dafc89fbccae2eb3c0d8016fce4a99230e4eb3c2adef408357d522cab89
+
+outputs.3.groupId=org.apache.maven
+outputs.3.filename=maven-archiver-3.6.3-sources.jar
+outputs.3.length=24365
+outputs.3.checksums.sha512=794fd82577e2c9f95ae766fe10a56ec5a18d9c6026b349fcc2902de345f826f02f548a59327e997aea04f76287833ef76b1635519a643f718d09fccf7560ab9b
+
+outputs.4.groupId=org.apache.maven
+outputs.4.filename=maven-archiver-3.6.3-cyclonedx.xml
+outputs.4.length=77543
+outputs.4.checksums.sha512=6a4c3580367bee2d5d9fe713a5bb344baababcf9ce7952cf488e6d7668c31eb262302a0377c37d7a26f43db2acca298a057e1c3341cebedd7257e3f809f3468c
+
+outputs.5.groupId=org.apache.maven
+outputs.5.filename=maven-archiver-3.6.3-cyclonedx.json
+outputs.5.length=89870
+outputs.5.checksums.sha512=61e0c499b6a89c3ca064354202f2cbf9d1ab3de3d218a6a3a4d730bbf2b02282c389f27b65b6fd7eba31419c10fa7834a1d393715e15351ca487198f999d7f4c
