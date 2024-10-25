@@ -7,12 +7,13 @@
 
 Source code: [https://github.com/apache/maven-checkstyle-plugin.git](https://github.com/apache/maven-checkstyle-plugin.git)
 
-rebuilding **9 releases** of org.apache.maven.plugins:maven-checkstyle-plugin:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of org.apache.maven.plugins:maven-checkstyle-plugin:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.6.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-checkstyle-plugin/3.6.0/pom) | [mvn jdk8 w](maven-checkstyle-plugin-3.6.0.buildspec) | [result](maven-checkstyle-plugin-3.6.0.buildinfo): [6 :white_check_mark: ](maven-checkstyle-plugin-3.6.0.buildcompare) | 954K |
 | [3.5.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-checkstyle-plugin/3.5.0/pom) | [mvn jdk8 w](maven-checkstyle-plugin-3.5.0.buildspec) | [result](maven-checkstyle-plugin-3.5.0.buildinfo): [6 :white_check_mark: ](maven-checkstyle-plugin-3.5.0.buildcompare) | 956K |
 | [3.4.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-checkstyle-plugin/3.4.0/pom) | [mvn jdk8 w](maven-checkstyle-plugin-3.4.0.buildspec) | [result](maven-checkstyle-plugin-3.4.0.buildinfo): [6 :white_check_mark: ](maven-checkstyle-plugin-3.4.0.buildcompare) | 979K |
 | [3.3.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-checkstyle-plugin/3.3.1/pom) | [mvn jdk8 w](maven-checkstyle-plugin-3.3.1.buildspec) | [result](maven-checkstyle-plugin-3.3.1.buildinfo): [6 :white_check_mark: ](maven-checkstyle-plugin-3.3.1.buildcompare) | 963K |

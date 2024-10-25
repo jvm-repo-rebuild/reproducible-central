@@ -235,6 +235,7 @@ rebuilding **13 releases** of org.apache.activemq:artemis-pom:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.38.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.38.0/pom) | | | |
 | [2.37.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.37.0/pom) | [mvn jdk11](artemis-2.37.0.buildspec) | [result](artemis-project-2.37.0.buildinfo): [156 :white_check_mark: ](artemis-project-2.37.0.buildcompare) | 262M |
 | [2.36.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.36.0/pom) | [mvn jdk11](artemis-2.36.0.buildspec) | [result](artemis-project-2.36.0.buildinfo): [156 :white_check_mark: ](artemis-project-2.36.0.buildcompare) | 262M |
 | [2.35.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.35.0/pom) | [mvn jdk11](artemis-2.35.0.buildspec) | [result](artemis-project-2.35.0.buildinfo): [150 :white_check_mark:  6 :warning:](artemis-project-2.35.0.buildcompare) [:memo:](https://issues.apache.org/jira/browse/ARTEMIS-4822) | 262M |
