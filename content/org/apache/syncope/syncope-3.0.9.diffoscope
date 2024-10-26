@@ -1,0 +1,38 @@
+# org.webjars.npm uses ranges for dependencies: https://repo.maven.apache.org/maven2/org/webjars/npm/material__menu/14.0.0/material__menu-14.0.0.pom
+1 / 4 target/reference/org.apache.syncope.wa/syncope-wa-starter-3.0.9.jar wa/starter/target/syncope-wa-starter-3.0.9.jar
+--- target/reference/org.apache.syncope.wa/syncope-wa-starter-3.0.9.jar
++++ wa/starter/target/syncope-wa-starter-3.0.9.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 129303 bytes, number of entries: 89
+│ +Zip file size: 129304 bytes, number of entries: 89
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-21 05:16 META-INF/
+│  -rw-r--r--  2.0 unx      370 b- defN 24-Oct-21 05:16 META-INF/MANIFEST.MF
+│ @@ -84,8 +84,8 @@
+│  -rw-r--r--  2.0 unx    16965 b- defN 24-Oct-21 05:16 META-INF/maven/org.apache.syncope.wa/syncope-wa-starter/pom.xml
+│  -rw-r--r--  2.0 unx       74 b- defN 24-Oct-21 05:16 META-INF/maven/org.apache.syncope.wa/syncope-wa-starter/pom.properties
+│ -89 files, 391323 bytes uncompressed, 114001 bytes compressed:  70.9%
+│ +89 files, 391323 bytes uncompressed, 114002 bytes compressed:  70.9%
+├── META-INF/DEPENDENCIES
+│ @@ -510,15 +510,15 @@
+│    - normalize.css (http://webjars.org) org.webjars.npm:normalize.css:jar:8.0.1
+│      License: MIT  (https://spdx.org/licenses/MIT#licenseText)
+│  
+│    - text-encoding (http://webjars.org) org.webjars.npm:text-encoding:jar:0.7.0
+│      License: Unlicense  (https://spdx.org/licenses/Unlicense#licenseText)
+│      License: Apache-2.0  (https://spdx.org/licenses/Apache-2.0#licenseText)
+│  
+│ -  - tslib (https://www.webjars.org) org.webjars.npm:tslib:jar:2.7.0
+│ +  - tslib (https://www.webjars.org) org.webjars.npm:tslib:jar:2.8.0
+│      License: 0BSD 
+│  
+│    - whatwg-fetch (https://www.webjars.org) org.webjars.npm:whatwg-fetch:jar:3.6.2
+│      License: MIT 
+│  
+│    - SnakeYAML (https://bitbucket.org/snakeyaml/snakeyaml) org.yaml:snakeyaml:bundle:1.30
+│      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+# same as previous...
+2 / 4 target/reference/org.apache.syncope.wa/syncope-wa-starter-3.0.9-sources.jar wa/starter/target/syncope-wa-starter-3.0.9-sources.jar
+3 / 4 target/reference/org.apache.syncope.wa/syncope-wa-starter-3.0.9-cyclonedx.xml wa/starter/target/bom.xml
+4 / 4 target/reference/org.apache.syncope.wa/syncope-wa-starter-3.0.9-cyclonedx.json wa/starter/target/bom.json
