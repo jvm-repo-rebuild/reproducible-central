@@ -161,13 +161,13 @@ Source code: [https://gitbox.apache.org/repos/asf/syncope.git](https://gitbox.ap
 * [org.apache.syncope:syncope-wa](https://central.sonatype.com/artifact/org.apache.syncope/syncope-wa/overview)
 </details>
 
-rebuilding **12 releases** of org.apache.syncope:syncope:
+rebuilding **13 releases** of org.apache.syncope:syncope:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.0.9](https://central.sonatype.com/artifact/org.apache.syncope/syncope/3.0.9/pom) | | | |
+| [3.0.9](https://central.sonatype.com/artifact/org.apache.syncope/syncope/3.0.9/pom) | [mvn jdk11](syncope-3.0.9.buildspec) | [result](syncope-3.0.9.buildinfo): [483 :white_check_mark:  4 :warning:](syncope-3.0.9.buildcompare) [:mag:](syncope-3.0.9.diffoscope) | 215M |
 | [3.0.8](https://central.sonatype.com/artifact/org.apache.syncope/syncope/3.0.8/pom) | [mvn jdk11](syncope-3.0.8.buildspec) | [result](syncope-3.0.8.buildinfo): [487 :white_check_mark: ](syncope-3.0.8.buildcompare) | 213M |
 | [3.0.7](https://central.sonatype.com/artifact/org.apache.syncope/syncope/3.0.7/pom) | [mvn jdk11](syncope-3.0.7.buildspec) | [result](syncope-3.0.7.buildinfo): [487 :white_check_mark: ](syncope-3.0.7.buildcompare) | 212M |
 | [3.0.6](https://central.sonatype.com/artifact/org.apache.syncope/syncope/3.0.6/pom) | [mvn jdk11](syncope-3.0.6.buildspec) | [result](syncope-3.0.6.buildinfo): [278 :white_check_mark:  1 :warning:](syncope-3.0.6.buildcompare) | 161M |
