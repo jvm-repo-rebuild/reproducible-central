@@ -19,13 +19,13 @@ Source code: [https://github.com/apache/zookeeper.git](https://github.com/apache
 * [org.apache.zookeeper:zookeeper-prometheus-metrics](https://central.sonatype.com/artifact/org.apache.zookeeper/zookeeper-prometheus-metrics/overview)
 </details>
 
-rebuilding **4 releases** of org.apache.zookeeper:parent:
+rebuilding **5 releases** of org.apache.zookeeper:parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.9.3](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.3/pom) | | | |
+| [3.9.3](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.3/pom) | [mvn jdk11](zookeeper-3.9.3.buildspec) | [result](parent-3.9.3.buildinfo): [21 :white_check_mark:  3 :warning:](parent-3.9.3.buildcompare) | 17M |
 | [3.9.2](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.2/pom) | [mvn jdk11](zookeeper-3.9.2.buildspec) | [result](parent-3.9.2.buildinfo): [19 :white_check_mark:  5 :warning:](parent-3.9.2.buildcompare) [:mag:](parent-3.9.2.diffoscope) | 17M |
 | [3.9.1](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.1/pom) | [mvn jdk11](zookeeper-3.9.1.buildspec) | [result](parent-3.9.1.buildinfo): [17 :white_check_mark:  7 :warning:](parent-3.9.1.buildcompare) [:memo:](https://github.com/apache/zookeeper/pull/2042) | 17M |
 | [3.9.0](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.0/pom) | [mvn jdk11](zookeeper-3.9.0.buildspec) | [result](parent-3.9.0.buildinfo): [17 :white_check_mark:  7 :warning:](parent-3.9.0.buildcompare) [:mag:](parent-3.9.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/ZOOKEEPER-4732) | 17M |

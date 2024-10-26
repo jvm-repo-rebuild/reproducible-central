@@ -1,0 +1,12 @@
+version=3.9.3
+ok=21
+ko=3
+ignored=0
+okFiles="parent-3.9.3.pom parent-3.9.3.tar.gz parent-3.9.3-source-release.zip zookeeper-jute-3.9.3.pom zookeeper-jute-3.9.3.jar zookeeper-jute-3.9.3-tests.jar zookeeper-jute-3.9.3-sources.jar zookeeper-3.9.3.pom zookeeper-3.9.3.jar zookeeper-3.9.3-tests.jar zookeeper-3.9.3-sources.jar zookeeper-metrics-providers-3.9.3.pom zookeeper-prometheus-metrics-3.9.3.pom zookeeper-prometheus-metrics-3.9.3.jar zookeeper-prometheus-metrics-3.9.3-tests.jar zookeeper-prometheus-metrics-3.9.3-sources.jar zookeeper-it-3.9.3.pom zookeeper-it-3.9.3-sources.jar zookeeper-contrib-3.9.3.pom zookeeper-contrib-fatjar-3.9.3.pom zookeeper-contrib-fatjar-3.9.3.jar"
+koFiles="zookeeper-jute-3.9.3-osgi.jar zookeeper-3.9.3-osgi.jar zookeeper-it-3.9.3.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.zookeeper/zookeeper-jute-3.9.3-osgi.jar zookeeper-jute/target/zookeeper-jute-3.9.3-osgi.jar
+# diffoscope target/reference/org.apache.zookeeper/zookeeper-3.9.3-osgi.jar zookeeper-server/target/zookeeper-3.9.3-osgi.jar
+# diffoscope target/reference/org.apache.zookeeper/zookeeper-it-3.9.3.jar zookeeper-it/target/zookeeper-it-3.9.3.jar
