@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika.git)
 
-<details><summary>This project defines 108 modules:</summary>
+<details><summary>This project defines 113 modules:</summary>
 
 * [org.apache.tika:tika](https://central.sonatype.com/artifact/org.apache.tika/tika/overview)
 * [org.apache.tika:tika-age-recogniser](https://central.sonatype.com/artifact/org.apache.tika/tika-age-recogniser/overview)
@@ -37,9 +37,13 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-fetcher-az-blob](https://central.sonatype.com/artifact/org.apache.tika/tika-fetcher-az-blob/overview)
 * [org.apache.tika:tika-fetcher-gcs](https://central.sonatype.com/artifact/org.apache.tika/tika-fetcher-gcs/overview)
 * [org.apache.tika:tika-fetcher-http](https://central.sonatype.com/artifact/org.apache.tika/tika-fetcher-http/overview)
+* [org.apache.tika:tika-fetcher-microsoft-graph](https://central.sonatype.com/artifact/org.apache.tika/tika-fetcher-microsoft-graph/overview)
 * [org.apache.tika:tika-fetcher-s3](https://central.sonatype.com/artifact/org.apache.tika/tika-fetcher-s3/overview)
 * [org.apache.tika:tika-fetchers](https://central.sonatype.com/artifact/org.apache.tika/tika-fetchers/overview)
 * [org.apache.tika:tika-fuzzing](https://central.sonatype.com/artifact/org.apache.tika/tika-fuzzing/overview)
+* [org.apache.tika:tika-grpc](https://central.sonatype.com/artifact/org.apache.tika/tika-grpc/overview)
+* [org.apache.tika:tika-handler-boilerpipe](https://central.sonatype.com/artifact/org.apache.tika/tika-handler-boilerpipe/overview)
+* [org.apache.tika:tika-handlers](https://central.sonatype.com/artifact/org.apache.tika/tika-handlers/overview)
 * [org.apache.tika:tika-httpclient-commons](https://central.sonatype.com/artifact/org.apache.tika/tika-httpclient-commons/overview)
 * [org.apache.tika:tika-integration-tests](https://central.sonatype.com/artifact/org.apache.tika/tika-integration-tests/overview)
 * [org.apache.tika:tika-java7](https://central.sonatype.com/artifact/org.apache.tika/tika-java7/overview)
@@ -95,6 +99,7 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-pipes-iterator-csv](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-iterator-csv/overview)
 * [org.apache.tika:tika-pipes-iterator-gcs](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-iterator-gcs/overview)
 * [org.apache.tika:tika-pipes-iterator-jdbc](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-iterator-jdbc/overview)
+* [org.apache.tika:tika-pipes-iterator-json](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-iterator-json/overview)
 * [org.apache.tika:tika-pipes-iterator-kafka](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-iterator-kafka/overview)
 * [org.apache.tika:tika-pipes-iterator-s3](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-iterator-s3/overview)
 * [org.apache.tika:tika-pipes-iterator-solr](https://central.sonatype.com/artifact/org.apache.tika/tika-pipes-iterator-solr/overview)
@@ -119,13 +124,13 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-xmp](https://central.sonatype.com/artifact/org.apache.tika/tika-xmp/overview)
 </details>
 
-rebuilding **6 releases** of org.apache.tika:tika:
+rebuilding **7 releases** of org.apache.tika:tika:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.0.0](https://central.sonatype.com/artifact/org.apache.tika/tika/3.0.0/pom) | | | |
+| [3.0.0](https://central.sonatype.com/artifact/org.apache.tika/tika/3.0.0/pom) | [mvn jdk17](tika-3.0.0.buildspec) | [result](tika-3.0.0.buildinfo): [357 :white_check_mark:  8 :warning:](tika-3.0.0.buildcompare) | 1.5G |
 | [3.0.0-BETA2](https://central.sonatype.com/artifact/org.apache.tika/tika/3.0.0-BETA2/pom) | | | |
 | [3.0.0-BETA](https://central.sonatype.com/artifact/org.apache.tika/tika/3.0.0-BETA/pom) | | | |
 | [2.9.2](https://central.sonatype.com/artifact/org.apache.tika/tika/2.9.2/pom) | | | |
