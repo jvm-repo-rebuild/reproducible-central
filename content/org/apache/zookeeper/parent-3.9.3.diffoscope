@@ -1,0 +1,100 @@
+1 / 3 target/reference/org.apache.zookeeper/zookeeper-jute-3.9.3-osgi.jar zookeeper-jute/target/zookeeper-jute-3.9.3-osgi.jar
+--- target/reference/org.apache.zookeeper/zookeeper-jute-3.9.3-osgi.jar
++++ zookeeper-jute/target/zookeeper-jute-3.9.3-osgi.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 258351 bytes, number of entries: 131
+│ +Zip file size: 258358 bytes, number of entries: 131
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1687 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1696 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.zookeeper/
+│ @@ -126,8 +126,8 @@
+│  -rw----     2.0 fat     4338 bl defN 80-Feb-01 00:00 org/apache/zookeeper/txn/TxnDigest.class
+│  -rw----     2.0 fat     5412 bl defN 80-Feb-01 00:00 org/apache/zookeeper/txn/TxnHeader.class
+│ -131 files, 520996 bytes uncompressed, 235137 bytes compressed:  54.9%
+│ +131 files, 521005 bytes uncompressed, 235144 bytes compressed:  54.9%
+├── META-INF/MANIFEST.MF
+│ @@ -4,16 +4,16 @@
+│  Bundle-DocURL: https://zookeeper.apache.org/doc/current/
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: ZooKeeper Jute Bundle
+│  Bundle-SymbolicName: org.apache.zookeeper.jute
+│  Bundle-Vendor: The Apache Software Foundation
+│  Bundle-Version: 3.9.3
+│ -Created-By: 11.0.12 (Oracle Corporation),Apache Maven Bundle Plugin 5.
+│ - 1.9
+│ +Created-By: 11.0.12 (Oracle Corporation) (Ubuntu),Apache Maven Bundle 
+│ + Plugin 5.1.9
+│  Export-Package: org.apache.zookeeper.data;uses:="org.apache.jute,org.a
+│   pache.yetus.audience";version="3.9.3",org.apache.zookeeper.proto;uses
+│   :="org.apache.jute,org.apache.yetus.audience,org.apache.zookeeper.dat
+│   a";version="3.9.3",org.apache.zookeeper.txn;uses:="org.apache.jute,or
+│   g.apache.yetus.audience,org.apache.zookeeper.data";version="3.9.3",or
+│   g.apache.jute;uses:="org.apache.yetus.audience";version="3.9.3",org.a
+│   pache.jute.compiler;version="3.9.3",org.apache.jute.compiler.generate
+
+2 / 3 target/reference/org.apache.zookeeper/zookeeper-3.9.3-osgi.jar zookeeper-server/target/zookeeper-3.9.3-osgi.jar
+--- target/reference/org.apache.zookeeper/zookeeper-3.9.3-osgi.jar
++++ zookeeper-server/target/zookeeper-3.9.3-osgi.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 1387482 bytes, number of entries: 764
+│ +Zip file size: 1387491 bytes, number of entries: 764
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat    10286 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat    10295 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.zookeeper/
+│ @@ -759,8 +759,8 @@
+│  -rw----     2.0 fat      617 bl defN 80-Feb-01 00:00 org/apache/zookeeper/version/Info.class
+│  -rw----     2.0 fat      688 bl defN 80-Feb-01 00:00 org/apache/zookeeper/version/VersionInfoMain.class
+│ -764 files, 2803973 bytes uncompressed, 1232418 bytes compressed:  56.1%
+│ +764 files, 2803982 bytes uncompressed, 1232427 bytes compressed:  56.1%
+├── META-INF/MANIFEST.MF
+│ @@ -4,16 +4,16 @@
+│  Bundle-DocURL: https://zookeeper.apache.org/doc/current/
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: ZooKeeper Bundle
+│  Bundle-SymbolicName: org.apache.zookeeper
+│  Bundle-Vendor: The Apache Software Foundation
+│  Bundle-Version: 3.9.3
+│ -Created-By: 11.0.12 (Oracle Corporation),Apache Maven Bundle Plugin 5.
+│ - 1.9
+│ +Created-By: 11.0.12 (Oracle Corporation) (Ubuntu),Apache Maven Bundle 
+│ + Plugin 5.1.9
+│  Export-Package: org.apache.zookeeper;uses:="javax.security.auth,javax.
+│   security.auth.callback,javax.security.auth.login,org.apache.jute,org.
+│   apache.yetus.audience,org.apache.zookeeper.cli,org.apache.zookeeper.c
+│   lient,org.apache.zookeeper.common,org.apache.zookeeper.data,org.apach
+│   e.zookeeper.proto,org.apache.zookeeper.version,org.slf4j";version="3.
+│   9.3",org.apache.zookeeper.admin;uses:="org.apache.yetus.audience,org.
+│   apache.zookeeper,org.apache.zookeeper.client,org.apache.zookeeper.dat
+
+3 / 3 target/reference/org.apache.zookeeper/zookeeper-it-3.9.3.jar zookeeper-it/target/zookeeper-it-3.9.3.jar
+--- target/reference/org.apache.zookeeper/zookeeper-it-3.9.3.jar
++++ zookeeper-it/target/zookeeper-it-3.9.3.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 120512 bytes, number of entries: 74
+│ +Zip file size: 120511 bytes, number of entries: 74
+│  -rw-r--r--  2.0 unx      408 b- defN 24-Oct-17 23:16 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-17 23:16 META-INF/
+│ @@ -69,8 +69,8 @@
+│  -rw-r--r--  2.0 unx     3047 b- defN 24-Oct-17 23:16 META-INF/maven/org.apache.zookeeper/zookeeper-it/pom.xml
+│  -rw-r--r--  2.0 unx       67 b- defN 24-Oct-17 23:16 META-INF/maven/org.apache.zookeeper/zookeeper-it/pom.properties
+│ -74 files, 256703 bytes uncompressed, 105716 bytes compressed:  58.8%
+│ +74 files, 256703 bytes uncompressed, 105715 bytes compressed:  58.8%
+├── META-INF/BenchmarkList
+│┄ Ordering differences only
+│ @@ -1,4 +1,4 @@
+│  JMH S 44 org.apache.zookeeper.server.watch.WatchBench S 81 org.apache.zookeeper.server.watch.generated.WatchBench_testAddSparseWatch_jmhTest S 18 testAddSparseWatch S 11 AverageTime E A 1 1 1 E I 1 1 T 4 10 s E I 1 3 T 4 10 s E I 1 3 E E E E E M 3 9 pathCount 1 5 10000 17 watchManagerClass 2 12 WatchManager 21 WatchManagerOptimized 12 watcherCount 1 5 10000 U 12 MILLISECONDS E E 
+│ -JMH S 44 org.apache.zookeeper.server.watch.WatchBench S 86 org.apache.zookeeper.server.watch.generated.WatchBench_testAddConcentrateWatch_jmhTest S 23 testAddConcentrateWatch S 11 AverageTime E A 1 1 1 E I 1 1 T 4 10 s E I 1 3 T 4 10 s E I 1 3 E E E E E M 2 9 pathCount 1 5 10000 17 watchManagerClass 2 12 WatchManager 21 WatchManagerOptimized U 12 MILLISECONDS E E 
+│ -JMH S 44 org.apache.zookeeper.server.watch.WatchBench S 90 org.apache.zookeeper.server.watch.generated.WatchBench_testTriggerConcentrateWatch_jmhTest S 27 testTriggerConcentrateWatch S 11 AverageTime E A 1 1 1 E I 1 1 T 4 10 s E I 1 3 T 4 10 s E I 1 3 E E E E E M 3 9 pathCount 2 1 1 4 1000 17 watchManagerClass 2 12 WatchManager 21 WatchManagerOptimized 12 watcherCount 2 1 1 4 1000 U 12 MILLISECONDS E E 
+│  JMH S 44 org.apache.zookeeper.server.watch.WatchBench S 85 org.apache.zookeeper.server.watch.generated.WatchBench_testTriggerSparseWatch_jmhTest S 22 testTriggerSparseWatch S 11 AverageTime E A 1 1 1 E I 1 1 T 4 10 s E I 1 3 T 4 10 s E I 1 3 E E E E E M 3 9 pathCount 1 5 10000 17 watchManagerClass 2 12 WatchManager 21 WatchManagerOptimized 12 watcherCount 1 5 10000 U 12 MILLISECONDS E E 
+│ +JMH S 44 org.apache.zookeeper.server.watch.WatchBench S 90 org.apache.zookeeper.server.watch.generated.WatchBench_testTriggerConcentrateWatch_jmhTest S 27 testTriggerConcentrateWatch S 11 AverageTime E A 1 1 1 E I 1 1 T 4 10 s E I 1 3 T 4 10 s E I 1 3 E E E E E M 3 9 pathCount 2 1 1 4 1000 17 watchManagerClass 2 12 WatchManager 21 WatchManagerOptimized 12 watcherCount 2 1 1 4 1000 U 12 MILLISECONDS E E 
+│ +JMH S 44 org.apache.zookeeper.server.watch.WatchBench S 86 org.apache.zookeeper.server.watch.generated.WatchBench_testAddConcentrateWatch_jmhTest S 23 testAddConcentrateWatch S 11 AverageTime E A 1 1 1 E I 1 1 T 4 10 s E I 1 3 T 4 10 s E I 1 3 E E E E E M 2 9 pathCount 1 5 10000 17 watchManagerClass 2 12 WatchManager 21 WatchManagerOptimized U 12 MILLISECONDS E E
+
