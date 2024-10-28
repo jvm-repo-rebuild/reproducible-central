@@ -1,4 +1,10 @@
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-10.buildspec:11.1.1-beta-11
+content/io/cucumber/cucumber-expressions/cucumber-expressions-18.0.0.buildspec:18.0.1
+content/io/cucumber/tag-expressions/tag-expressions-6.1.0.buildspec:6.1.1
 content/net/bytebuddy/byte-buddy-1.15.5.buildspec:1.15.7
+content/org/apache/maven/archetype/archetype-3.3.0.buildspec:3.3.1
+content/org/apache/maven/plugins/maven-pmd-plugin/maven-pmd-plugin-3.25.0.buildspec:3.26.0
+content/org/jpmml/jpmml-python/jpmml-python-1.2.4.buildspec:1.2.5
+content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.8.5.buildspec:1.8.6
 content/org/mybatis/mybatis2/mybatis2-2.5.0.buildspec:2.6.0
 content/org/mybatis/scripting/mybatis-thymeleaf/mybatis-thymeleaf-1.0.4.buildspec:1.1.0
+content/org/webjars/flexmonster/flexmonster-2.9.88.buildspec:2.9.89

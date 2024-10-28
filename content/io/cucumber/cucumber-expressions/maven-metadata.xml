@@ -3,8 +3,8 @@
   <groupId>io.cucumber</groupId>
   <artifactId>cucumber-expressions</artifactId>
   <versioning>
-    <latest>18.0.0</latest>
-    <release>18.0.0</release>
+    <latest>18.0.1</latest>
+    <release>18.0.1</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.2</version>
@@ -85,7 +85,8 @@
       <version>17.0.2</version>
       <version>17.1.0</version>
       <version>18.0.0</version>
+      <version>18.0.1</version>
     </versions>
-    <lastUpdated>20241024094002</lastUpdated>
+    <lastUpdated>20241028114146</lastUpdated>
   </versioning>
 </metadata>

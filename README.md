@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **5115 releases** of **715 projects**:
-   - **3827** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 1288 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **5117 releases** of **715 projects**:
+   - **3828** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 1289 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 715 projects, 619 have at least one fully reproducible release, 96 have none
 
 <!-- END GENERATED INTRO -->
@@ -230,7 +230,7 @@ Its objectives are to provide:
 | eu.maveniverse.maven.nisse | [nisse](content/eu/maveniverse/maven/nisse/README.md) | 8 | 8 :white_check_mark: |
 | eu.maveniverse.maven.toolbox | [toolbox](content/eu/maveniverse/maven/toolbox/README.md) | 46 | 45 :white_check_mark: / 1 :warning: |
 | eu.maveniverse.maven.mase | [mase](content/eu/maveniverse/maven/mase/mase/README.md) | 3 | 3 :white_check_mark: |
-| fr.inria.gforge.spoon | [spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 121 | 17 :white_check_mark: / 104 :warning: |
+| fr.inria.gforge.spoon | [spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 122 | 18 :white_check_mark: / 104 :warning: |
 | fr.marcwrobel | [jbanking](content/fr/marcwrobel/jbanking/README.md) | 2 | 2 :white_check_mark: |
 | fr.vidal.oss | [atom-jaxb](content/fr/vidal/oss/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | io.jooby | [jooby](content/io/jooby/README.md) | 22 | 22 :warning: |
@@ -340,7 +340,7 @@ Its objectives are to provide:
 | org.apache | [jdo](content/org/apache/jdo/README.md) | 2 | 2 :warning: |
 | org.apache.johnzon | [johnzon](content/org/apache/johnzon/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | org.apache.jspwiki | [jspwiki-builder](content/org/apache/jspwiki/README.md) | 9 | 1 :white_check_mark: / 8 :warning: |
-| org.apache.mina | [mina-parent](content/org/apache/mina/README.md) | 7 | 2 :white_check_mark: / 5 :warning: |
+| org.apache.mina | [mina-parent](content/org/apache/mina/README.md) | 8 | 2 :white_check_mark: / 6 :warning: |
 | org.apache.orc | [orc](content/org/apache/orc/README.md) | 20 | 13 :white_check_mark: / 7 :warning: |
 | org.apache.paimon | [paimon-parent](content/org/apache/paimon/README.md) | 4 | 4 :warning: |
 | org.apache.pulsar | [pulsar](content/org/apache/pulsar/README.md) | 3 | 3 :warning: |
@@ -738,7 +738,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 4 | 4 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 18 | 1 :white_check_mark: / 17 :warning: |
-| **Count:** | **715** | **5115** | **3827** :white_check_mark: **1288** :warning: |
+| **Count:** | **715** | **5117** | **3828** :white_check_mark: **1289** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -774,7 +774,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      14 mvn        18
      33 mvn        19
      16 mvn        20
-    218 mvn        21
+    219 mvn        21
      12 mvn        22
       1 mvn        23
       2 mvn-3.5.4   8
@@ -860,7 +860,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.7  21
       2 mvn-3.9.7  22
       3 mvn-3.9.8   8
-      4 mvn-3.9.8  11
+      5 mvn-3.9.8  11
       5 mvn-3.9.8  16
      61 mvn-3.9.8  17
       1 mvn-3.9.8  17.0.12
