@@ -10,8 +10,9 @@ gitTag=${version}
 tool=mvn
 jdk=11
 newline=lf
+umask=022
 
-command="mvn clean package -Prelease -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+command="mvn clean package -Prelease -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.skipModules='*/*-test,*/*-tests,*/bundle*'"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 # everything under osgi-tests should probably be ignored, not published to Maven Central
