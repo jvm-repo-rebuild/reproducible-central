@@ -1,0 +1,18 @@
+1 / 111 target/reference/org.jdbi.internal/jdbi3-policy-3.46.0.jar internal/policy/target/jdbi3-policy-3.46.0.jar
+--- target/reference/org.jdbi.internal/jdbi3-policy-3.46.0.jar
++++ internal/policy/target/jdbi3-policy-3.46.0.jar
+├── META-INF/MANIFEST.MF
+│ @@ -12,11 +12,11 @@
+│  Name: org.jdbi.internal:jdbi3-policy
+│  Project-Version: 3.46.0
+│  Project-Name: jdbi3 - internal - policy
+│  Git-Branch: 760d11071795d302c8d55712426629796d133c80
+│  Project-ArtifactId: jdbi3-policy
+│  Git-Commit-Id-Describe: v3.46.0
+│  Build-Time: 2024-10-15T13:47:46-07:00
+│ -Git-Remote-Origin-Url: file:///home/steven/ws-code/jdbi3
+│ +Git-Remote-Origin-Url: https://github.com/jdbi/jdbi.git
+│  Project-GroupId: org.jdbi.internal
+│  Git-Commit-Id: 760d11071795d302c8d55712426629796d133c80
+
+# same issue on every jar, impacts CycloneDX output

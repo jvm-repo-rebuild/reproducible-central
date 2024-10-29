@@ -15,5 +15,5 @@ umask=022
 command="mvn -Pjdbi-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/jdbi3-parent-${version}.buildinfo
 
-#diffoscope=jdbi3-parent-${version}.diffoscope
-issue=https://github.com/basepom/basepom/pull/73
+diffoscope=jdbi3-parent-${version}.diffoscope
+issue=https://github.com/jdbi/jdbi/issues/2732
