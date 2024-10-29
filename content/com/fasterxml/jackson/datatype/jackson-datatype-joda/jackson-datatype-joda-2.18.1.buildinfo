@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson datatype: Joda
+group-id=com.fasterxml.jackson.datatype
+artifact-id=jackson-datatype-joda
+version=2.18.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-datatype-joda.git
+source.scm.tag=jackson-datatype-joda-2.18.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.fasterxml.jackson.datatype
+outputs.0.filename=jackson-datatype-joda-2.18.1.pom
+outputs.0.length=5008
+outputs.0.checksums.sha512=a6a6b89b878fe3681916aa5576bddb1c53be86ae961eac2381730511dd7055ee4220aa51c3ba25647275ed71ee660db01222034b3364a6a267909d3fb400c4d5
+
+outputs.1.groupId=com.fasterxml.jackson.datatype
+outputs.1.filename=jackson-datatype-joda-2.18.1.jar
+outputs.1.length=75521
+outputs.1.checksums.sha512=dc175bd6b32682734844d599e6a08087a716fdb94e2159a399e780cb964da98579c34783b43b444fbda2edc53b67762e9cf21730239b3adc6a7f0541cd6855fd
+
+outputs.2.groupId=com.fasterxml.jackson.datatype
+outputs.2.filename=jackson-datatype-joda-2.18.1-sources.jar
+outputs.2.length=49393
+outputs.2.checksums.sha512=68a2ae0c612228c820c9cb2056ee8c3c8b1de3127740fc7821d9e12d0c1a75885fc1631966b8622f218096a2c3b20269f147ac46a39e256eaa8cee1a8691ead0
+
+outputs.3.groupId=com.fasterxml.jackson.datatype
+outputs.3.filename=jackson-datatype-joda-2.18.1.module
+outputs.3.length=3915
+outputs.3.checksums.sha512=9f13792546a49a6324ceaf74a0a493382de90ea7472e86ca60b8b5132e63acba77876a81fba997af70be6233d376be632f3ff66a8b3552655d08501c429aee89
