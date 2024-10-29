@@ -9,9 +9,10 @@ gitTag=release-${version}-rc1
 tool=mvn
 jdk=8
 newline=lf
+umask=022
 
 command="SHELL ./build.sh docker
-mvn -Pdist clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+mvn -Pdist clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.ignore='*/*-tests.jar,*/*-test-resource.jar' -Dcyclonedx.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope
