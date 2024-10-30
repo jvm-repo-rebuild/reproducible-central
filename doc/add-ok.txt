@@ -1,16 +1,1 @@
-content/com/fasterxml/jackson/annotations/jackson-annotations-2.18.0.buildspec:2.18.1
-content/com/fasterxml/jackson/core/jackson-core-2.18.0.buildspec:2.18.1
-content/com/fasterxml/jackson/databind/jackson-databind-2.18.0.buildspec:2.18.1
-content/com/fasterxml/jackson/jackson-bom/jackson-bom-2.18.0.buildspec:2.18.1
-content/com/fasterxml/jackson/jackson-parent/jackson-parent-2.18.buildspec:2.18.1
-content/com/fasterxml/jackson/jr/jackson-jr-2.18.0.buildspec:2.18.1
-content/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/jackson-dataformat-xml-2.18.0.buildspec:2.18.1
-content/com/fasterxml/jackson/dataformat/jackson-dataformats-binary/jackson-dataformats-binary-2.18.0.buildspec:2.18.1
-content/com/fasterxml/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-2.18.0.buildspec:2.18.1
-content/com/fasterxml/jackson/datatype/jackson-datatype-joda/jackson-datatype-joda-2.18.0.buildspec:2.18.1
-content/com/fasterxml/jackson/datatype/jackson-datatypes-collections/jackson-datatypes-collections-2.18.0.buildspec:2.18.1
-content/com/fasterxml/jackson/datatype/jackson-datatypes-misc-parent/jackson-datatypes-misc-parent-2.18.0.buildspec:2.18.1
-content/io/airlift/airbase/airbase-193.buildspec:194
-content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.6.3.buildspec:4.7.0
-content/net/bytebuddy/byte-buddy-1.15.5.buildspec:1.15.7
-content/org/apache/sling/org.apache.sling.engine/org.apache.sling.engine-2.15.16.buildspec:2.15.18
+content/org/owasp/dependency-check/dependency-check-11.0.0.buildspec:11.1.0
