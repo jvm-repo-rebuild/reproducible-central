@@ -7,26 +7,28 @@
 
 Source code: [https://github.com/Adobe-Consulting-Services/acs-aem-commons.git](https://github.com/Adobe-Consulting-Services/acs-aem-commons.git)
 
-<details><summary>This project defines 7 modules:</summary>
+<details><summary>This project defines 9 modules:</summary>
 
 * [com.adobe.acs:acs-aem-commons](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/overview)
 * [com.adobe.acs:acs-aem-commons-all](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-all/overview)
 * [com.adobe.acs:acs-aem-commons-bundle](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-bundle/overview)
+* [com.adobe.acs:acs-aem-commons-bundle-onprem](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-bundle-onprem/overview)
 * [com.adobe.acs:acs-aem-commons-content](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-content/overview)
 * [com.adobe.acs:acs-aem-commons-oakpal-checks](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-oakpal-checks/overview)
 * [com.adobe.acs:acs-aem-commons-ui.apps](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-ui.apps/overview)
+* [com.adobe.acs:acs-aem-commons-ui.config](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-ui.config/overview)
 * [com.adobe.acs:acs-aem-commons-ui.content](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-ui.content/overview)
 </details>
 
-rebuilding **3 releases** of com.adobe.acs:acs-aem-commons:
+rebuilding **4 releases** of com.adobe.acs:acs-aem-commons:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [6.9.0](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.9.0/pom) | | | |
 | [6.8.0](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.8.0/pom) | | | |
-| [6.7.0](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.7.0/pom) | | | |
+| [6.7.0](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.7.0/pom) | [mvn jdk18](acs-aem-commons-6.7.0.buildspec) | [result](acs-aem-commons-6.7.0.buildinfo): [18 :white_check_mark:  8 :warning:](acs-aem-commons-6.7.0.buildcompare) | 80M |
 | [6.6.4](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.6.4/pom) | | | |
 | [6.6.2](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.6.2/pom) | | | |
 | [6.6.0](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.6.0/pom) | | | |
