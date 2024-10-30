@@ -1,0 +1,23 @@
+1 / 1 target/reference/net.bytebuddy/byte-buddy-1.15.7.pom byte-buddy/dependency-reduced-pom.xml
+--- target/reference/net.bytebuddy/byte-buddy-1.15.7.pom
++++ byte-buddy/dependency-reduced-pom.xml
+│   --- target/reference/net.bytebuddy/byte-buddy-1.15.7.pom
+├── +++ byte-buddy/dependency-reduced-pom.xml
+│ @@ -323,15 +323,15 @@
+│                <execution>
+│                  <id>multi-release</id>
+│                  <phase>prepare-package</phase>
+│                  <goals>
+│                    <goal>update-bytecode</goal>
+│                  </goals>
+│                  <configuration>
+│ -                  <outputDirectory>/home/runner/work/byte-buddy/byte-buddy/target/checkout/byte-buddy/target/classes/META-INF/versions/9</outputDirectory>
+│ +                  <outputDirectory>/home/herve/dev/maven/misc/reproducible-central/content/net/bytebuddy/buildcache/byte-buddy-parent/byte-buddy/target/classes/META-INF/versions/9</outputDirectory>
+│                    <oldPackage>org.objectweb.asm</oldPackage>
+│                    <newPackage>net.bytebuddy.jar.asm</newPackage>
+│                    <artifacts>
+│                      <artifact>org\.ow2\.asm:.*</artifact>
+│                    </artifacts>
+│                    <includes>
+│                      <include>org/objectweb/asm/[a-zA-Z\.]+</include>
+
