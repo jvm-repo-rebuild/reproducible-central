@@ -18,13 +18,13 @@ Source code: [https://github.com/jeremylong/DependencyCheck](https://github.com/
 * [org.owasp:dependency-check-utils](https://central.sonatype.com/artifact/org.owasp/dependency-check-utils/overview)
 </details>
 
-rebuilding **55 releases** of org.owasp:dependency-check-parent:
-- **36** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **56 releases** of org.owasp:dependency-check-parent:
+- **37** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 19 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [11.1.0](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/11.1.0/pom) | | | |
+| [11.1.0](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/11.1.0/pom) | [mvn jdk11](dependency-check-11.1.0.buildspec) | [result](dependency-check-parent-11.1.0.buildinfo): [22 :white_check_mark: ](dependency-check-parent-11.1.0.buildcompare) | 71M |
 | [11.0.0](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/11.0.0/pom) | [mvn jdk11](dependency-check-11.0.0.buildspec) | [result](dependency-check-parent-11.0.0.buildinfo): [22 :white_check_mark: ](dependency-check-parent-11.0.0.buildcompare) | 71M |
 | [10.0.4](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/10.0.4/pom) | [mvn jdk8](dependency-check-10.0.4.buildspec) | [result](dependency-check-parent-10.0.4.buildinfo): [22 :white_check_mark: ](dependency-check-parent-10.0.4.buildcompare) | 65M |
 | [10.0.3](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/10.0.3/pom) | [mvn jdk8](dependency-check-10.0.3.buildspec) | [result](dependency-check-parent-10.0.3.buildinfo): [22 :white_check_mark: ](dependency-check-parent-10.0.3.buildcompare) | 65M |
