@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=webjars-locator-lite
+group-id=org.webjars
+artifact-id=webjars-locator-lite
+version=1.0.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/webjars/webjars-locator-lite.git
+source.scm.tag=webjars-locator-lite-1.0.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.webjars
+outputs.0.filename=webjars-locator-lite-1.0.1.pom
+outputs.0.length=6148
+outputs.0.checksums.sha512=7620477b39bbd625d79e54340e890495f748505954081c14009499de171521475e56cdf879e771f2cb99f48db90ae8610ae494d3169b856d2e8a406f86cb4b25
+
+outputs.1.groupId=org.webjars
+outputs.1.filename=webjars-locator-lite-1.0.1.jar
+outputs.1.length=8094
+outputs.1.checksums.sha512=83f7c1d9f5eb2cee73c248ec647a7da69a7ef654067a207f5220dc359d1bf25c340a56d1f6fabd250fa523e2dceb1ed07c02c3f2317f44b9a6b9aa1c96df58e9
+
+outputs.2.groupId=org.webjars
+outputs.2.filename=webjars-locator-lite-1.0.1-sources.jar
+outputs.2.length=6109
+outputs.2.checksums.sha512=8a3c11f44c77c76dfa41cb029856d76f71875cf42a768bd75170330f5c01cfb4b3fa799b4d3d8941a6a87724560b786e7824dcc66f211a22eacde198f7db36d6
