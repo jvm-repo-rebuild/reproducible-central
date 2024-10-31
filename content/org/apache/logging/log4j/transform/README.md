@@ -16,13 +16,13 @@ Source code: [https://github.com/apache/logging-log4j-transform.git](https://git
 * [org.apache.logging.log4j:log4j-weaver](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-weaver/overview)
 </details>
 
-rebuilding **1 releases** of org.apache.logging.log4j:log4j-transform-bom:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of org.apache.logging.log4j:log4j-transform-bom:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.2.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-transform-bom/0.2.0/pom) | | | |
+| [0.2.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-transform-bom/0.2.0/pom) | [mvn jdk17](log4j-transform-0.2.0.buildspec) | [result](log4j-transform-bom-0.2.0.buildinfo): [16 :white_check_mark: ](log4j-transform-bom-0.2.0.buildcompare) | 446K |
 | [0.1.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-transform-bom/0.1.0/pom) | [mvn jdk17](log4j-transform-0.1.0.buildspec) | [result](log4j-transform-bom-0.1.0.buildinfo): [12 :white_check_mark: ](log4j-transform-bom-0.1.0.buildcompare) | 265K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
