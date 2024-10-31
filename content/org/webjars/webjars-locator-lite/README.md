@@ -13,6 +13,7 @@ rebuilding **7 releases** of org.webjars:webjars-locator-lite:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.1](https://central.sonatype.com/artifact/org.webjars/webjars-locator-lite/1.0.1/pom) | | | |
 | [1.0.0](https://central.sonatype.com/artifact/org.webjars/webjars-locator-lite/1.0.0/pom) | [mvn jdk17](webjars-locator-lite-1.0.0.buildspec) | [result](webjars-locator-lite-1.0.0.buildinfo): [3 :white_check_mark: ](webjars-locator-lite-1.0.0.buildcompare) | 16K |
 | [0.0.6](https://central.sonatype.com/artifact/org.webjars/webjars-locator-lite/0.0.6/pom) | [mvn jdk8](webjars-locator-lite-0.0.6.buildspec) | [result](webjars-locator-lite-0.0.6.buildinfo): [3 :white_check_mark: ](webjars-locator-lite-0.0.6.buildcompare) | 16K |
 | [0.0.5](https://central.sonatype.com/artifact/org.webjars/webjars-locator-lite/0.0.5/pom) | [mvn jdk8](webjars-locator-lite-0.0.5.buildspec) | [result](webjars-locator-lite-0.0.5.buildinfo): [3 :white_check_mark: ](webjars-locator-lite-0.0.5.buildcompare) | 16K |

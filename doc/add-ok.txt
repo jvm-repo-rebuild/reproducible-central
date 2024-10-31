@@ -1,1 +1,8 @@
-content/org/owasp/dependency-check/dependency-check-11.0.0.buildspec:11.1.0
+content/eu/maveniverse/maven/toolbox/toolbox-0.3.5.buildspec:0.3.6
+content/io/liftwizard/liftwizard-2.1.20.buildspec:2.1.21
+content/io/trino/trino-463.buildspec:464
+content/org/jreleaser/jreleaser-1.14.0.buildspec:1.15.0
+content/org/apache/logging/log4j/transform/log4j-transform-0.1.0.buildspec:0.2.0
+content/org/codehaus/mojo/l10n-maven-plugin/l10n-maven-plugin-1.0.0.buildspec:1.1.0
+content/org/webjars/webjars-locator-lite/webjars-locator-lite-1.0.0.buildspec:1.0.1
+content/tech/picnic/error-prone-support/error-prone-support/error-prone-support-0.18.0.buildspec:0.19.0
