@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quarkusio/quarkus.git)
 
-<details><summary>This project defines 996 modules:</summary>
+<details><summary>This project defines 1001 modules:</summary>
 
 * [io.quarkus.arc:arc](https://central.sonatype.com/artifact/io.quarkus.arc/arc/overview)
 * [io.quarkus.arc:arc-arquillian](https://central.sonatype.com/artifact/io.quarkus.arc/arc-arquillian/overview)
@@ -181,6 +181,7 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-devservices-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-devservices-deployment/overview)
 * [io.quarkus:quarkus-devservices-derby](https://central.sonatype.com/artifact/io.quarkus/quarkus-devservices-derby/overview)
 * [io.quarkus:quarkus-devservices-h2](https://central.sonatype.com/artifact/io.quarkus/quarkus-devservices-h2/overview)
+* [io.quarkus:quarkus-devservices-keycloak](https://central.sonatype.com/artifact/io.quarkus/quarkus-devservices-keycloak/overview)
 * [io.quarkus:quarkus-devservices-mariadb](https://central.sonatype.com/artifact/io.quarkus/quarkus-devservices-mariadb/overview)
 * [io.quarkus:quarkus-devservices-mssql](https://central.sonatype.com/artifact/io.quarkus/quarkus-devservices-mssql/overview)
 * [io.quarkus:quarkus-devservices-mysql](https://central.sonatype.com/artifact/io.quarkus/quarkus-devservices-mysql/overview)
@@ -560,6 +561,10 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-oidc-client-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-client-parent/overview)
 * [io.quarkus:quarkus-oidc-client-reactive-filter](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-client-reactive-filter/overview)
 * [io.quarkus:quarkus-oidc-client-reactive-filter-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-client-reactive-filter-deployment/overview)
+* [io.quarkus:quarkus-oidc-client-registration](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-client-registration/overview)
+* [io.quarkus:quarkus-oidc-client-registration-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-client-registration-deployment/overview)
+* [io.quarkus:quarkus-oidc-client-registration-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-client-registration-parent/overview)
+* [io.quarkus:quarkus-oidc-client-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-client-spi/overview)
 * [io.quarkus:quarkus-oidc-common](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-common/overview)
 * [io.quarkus:quarkus-oidc-common-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-common-deployment/overview)
 * [io.quarkus:quarkus-oidc-common-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-common-parent/overview)
@@ -1007,15 +1012,15 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **3 releases** of io.quarkus:quarkus-project:
+rebuilding **4 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [3.16.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.16.1/pom) | | | |
 | [3.16.0](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.16.0/pom) | | | |
-| [3.16.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.16.0.CR1/pom) | | | |
+| [3.16.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.16.0.CR1/pom) | [mvn jdk17](quarkus-3.16.0.CR1.buildspec) | [result](quarkus-project-3.16.0.CR1.buildinfo): [2209 :white_check_mark:  7 :warning:](quarkus-project-3.16.0.CR1.buildcompare) | 129M |
 | [3.15.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.15.1/pom) | [mvn jdk17](quarkus-3.15.1.buildspec) | [result](quarkus-project-3.15.1.buildinfo): [2340 :white_check_mark:  11 :warning:](quarkus-project-3.15.1.buildcompare) | 129M |
 | [3.15.0](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.15.0/pom) | [mvn jdk17](quarkus-3.15.0.buildspec) | [result](quarkus-project-3.15.0.buildinfo): [2339 :white_check_mark:  12 :warning:](quarkus-project-3.15.0.buildcompare) | 129M |
 | [3.15.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.15.0.CR1/pom) | | | |
