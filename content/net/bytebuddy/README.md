@@ -25,6 +25,7 @@ rebuilding **38 releases** of net.bytebuddy:byte-buddy-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.15.8](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.15.8/pom) | | | |
 | [1.15.7](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.15.7/pom) | [mvn jdk8](byte-buddy-1.15.7.buildspec) | [result](byte-buddy-parent-1.15.7.buildinfo): [21 :white_check_mark:  1 :warning:](byte-buddy-parent-1.15.7.buildcompare) [:mag:](byte-buddy-parent-1.15.7.diffoscope) | 32M |
 | [1.15.5](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.15.5/pom) | [mvn jdk8](byte-buddy-1.15.5.buildspec) | [result](byte-buddy-parent-1.15.5.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.15.5.buildcompare) | 31M |
 | [1.15.4](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.15.4/pom) | [mvn jdk8](byte-buddy-1.15.4.buildspec) | [result](byte-buddy-parent-1.15.4.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.15.4.buildcompare) | 20M |

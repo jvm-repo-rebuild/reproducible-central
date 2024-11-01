@@ -13,6 +13,8 @@ rebuilding **2 releases** of com.github.sitture:env-config:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.12.0](https://central.sonatype.com/artifact/com.github.sitture/env-config/1.12.0/pom) | | | |
+| [1.11.0](https://central.sonatype.com/artifact/com.github.sitture/env-config/1.11.0/pom) | | | |
 | [1.10.0](https://central.sonatype.com/artifact/com.github.sitture/env-config/1.10.0/pom) | [mvn jdk11](env-config-1.10.0.buildspec) | [result](env-config-1.10.0.buildinfo): [3 :white_check_mark: ](env-config-1.10.0.buildcompare) | 59K |
 | [1.9.0](https://central.sonatype.com/artifact/com.github.sitture/env-config/1.9.0/pom) | [mvn jdk11](env-config-1.9.0.buildspec) | [result](env-config-1.9.0.buildinfo): [1 :white_check_mark:  1 :warning:](env-config-1.9.0.buildcompare) [:memo:](https://github.com/sitture/env-config/pull/226) | 41K |
 

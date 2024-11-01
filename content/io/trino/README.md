@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/trinodb/trino.git](https://github.com/trinodb/trino.git)
 
-<details><summary>This project defines 111 modules:</summary>
+<details><summary>This project defines 113 modules:</summary>
 
 * [io.trino:trino-accumulo](https://central.sonatype.com/artifact/io.trino/trino-accumulo/overview)
 * [io.trino:trino-accumulo-iterators](https://central.sonatype.com/artifact/io.trino/trino-accumulo-iterators/overview)
@@ -32,6 +32,7 @@ Source code: [https://github.com/trinodb/trino.git](https://github.com/trinodb/t
 * [io.trino:trino-exasol](https://central.sonatype.com/artifact/io.trino/trino-exasol/overview)
 * [io.trino:trino-exchange-filesystem](https://central.sonatype.com/artifact/io.trino/trino-exchange-filesystem/overview)
 * [io.trino:trino-exchange-hdfs](https://central.sonatype.com/artifact/io.trino/trino-exchange-hdfs/overview)
+* [io.trino:trino-faker](https://central.sonatype.com/artifact/io.trino/trino-faker/overview)
 * [io.trino:trino-faulttolerant-tests](https://central.sonatype.com/artifact/io.trino/trino-faulttolerant-tests/overview)
 * [io.trino:trino-filesystem](https://central.sonatype.com/artifact/io.trino/trino-filesystem/overview)
 * [io.trino:trino-filesystem-alluxio](https://central.sonatype.com/artifact/io.trino/trino-filesystem-alluxio/overview)
@@ -119,16 +120,17 @@ Source code: [https://github.com/trinodb/trino.git](https://github.com/trinodb/t
 * [io.trino:trino-tpcds](https://central.sonatype.com/artifact/io.trino/trino-tpcds/overview)
 * [io.trino:trino-tpch](https://central.sonatype.com/artifact/io.trino/trino-tpch/overview)
 * [io.trino:trino-verifier](https://central.sonatype.com/artifact/io.trino/trino-verifier/overview)
+* [io.trino:trino-vertica](https://central.sonatype.com/artifact/io.trino/trino-vertica/overview)
 * [io.trino:trino-web-ui](https://central.sonatype.com/artifact/io.trino/trino-web-ui/overview)
 </details>
 
-rebuilding **18 releases** of io.trino:trino-root:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **19 releases** of io.trino:trino-root:
+- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [464](https://central.sonatype.com/artifact/io.trino/trino-root/464/pom) | | | |
+| [464](https://central.sonatype.com/artifact/io.trino/trino-root/464/pom) | [mvn jdk23](trino-464.buildspec) | [result](trino-root-464.buildinfo): [597 :white_check_mark: ](trino-root-464.buildcompare) | 5.7G |
 | [463](https://central.sonatype.com/artifact/io.trino/trino-root/463/pom) | [mvn jdk23](trino-463.buildspec) | [result](trino-root-463.buildinfo): [596 :white_check_mark: ](trino-root-463.buildcompare) | 5.6G |
 | [462](https://central.sonatype.com/artifact/io.trino/trino-root/462/pom) | [mvn jdk23](trino-462.buildspec) | [result](trino-root-462.buildinfo): [596 :white_check_mark: ](trino-root-462.buildcompare) | 5.4G |
 | [461](https://central.sonatype.com/artifact/io.trino/trino-root/461/pom) | [mvn jdk23](trino-461.buildspec) | [result](trino-root-461.buildinfo): [596 :white_check_mark: ](trino-root-461.buildcompare) | 5.4G |
