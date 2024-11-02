@@ -1,2 +1,5 @@
-content/com/github/sitture/env-config/env-config-1.10.0.buildspec:1.12.0
-content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.2.buildspec:2.0.3
+content/io/airlift/airbase/airbase-194.buildspec:195
+content/org/apache/maven/surefire/surefire-3.5.1.buildspec:3.5.2
+content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.10.1.buildspec:3.11.1
+content/org/apache/tomee/jakartaee-api/jakartaee-api-10.0-M2.buildspec:10.0
+content/org/jpmml/jpmml-r/jpmml-r-1.5.6.buildspec:1.6.0
