@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Servlets Resolver
+group-id=org.apache.sling
+artifact-id=org.apache.sling.servlets.resolver
+version=2.11.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-servlets-resolver.git
+source.scm.tag=org.apache.sling.servlets.resolver-2.11.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.servlets.resolver-2.11.4.pom
+outputs.0.length=16916
+outputs.0.checksums.sha512=5ec206003853f41a304c1c576bb11d5c300e46e663a3c06a1415062fff4299e95daf8aad5bd20f99595c45c6a711a8107b1da06b1c4ff64cf8f1e62d500a17e3
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.servlets.resolver-2.11.4.jar
+outputs.1.length=149842
+outputs.1.checksums.sha512=080524ee642fba5fc901b32516b35496eb9865e87dbc2f99b2b290434991421919791dfaa11a05b231b9112c52e183a02e5bf71e37bd9a49d4dc4a5d7769d079
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.servlets.resolver-2.11.4-source-release.zip
+outputs.2.length=161353
+outputs.2.checksums.sha512=1baff0af9589f1d65c72bdba4a424764c60861dc8136081ab55d0864b73d500c582e050f6f0026b1740f9e08edf44ac78f588f27ab6a325fce8e229e9ad444c8
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.servlets.resolver-2.11.4-sources.jar
+outputs.3.length=93879
+outputs.3.checksums.sha512=0e5aae67c274d73ec609073697773139e1fd126fa87afb2861dc180cfba180382b21bd70b558e0a77e8becfc8888446ebfec834927f3750961a14b655e52626a
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.servlets.resolver-2.11.4-sources.jar
+outputs.4.length=93879
+outputs.4.checksums.sha512=0e5aae67c274d73ec609073697773139e1fd126fa87afb2861dc180cfba180382b21bd70b558e0a77e8becfc8888446ebfec834927f3750961a14b655e52626a
