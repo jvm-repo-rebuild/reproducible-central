@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/maven-javadoc-plugin.git](https://github.com/apache/maven-javadoc-plugin.git)
 
-rebuilding **14 releases** of org.apache.maven.plugins:maven-javadoc-plugin:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **15 releases** of org.apache.maven.plugins:maven-javadoc-plugin:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.11.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin/3.11.1/pom) | | | |
+| [3.11.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin/3.11.1/pom) | [mvn jdk11 w](maven-javadoc-plugin-3.11.1.buildspec) | [result](maven-javadoc-plugin-3.11.1.buildinfo): [6 :white_check_mark: ](maven-javadoc-plugin-3.11.1.buildcompare) | 4.6M |
 | [3.10.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin/3.10.1/pom) | [mvn jdk8 w](maven-javadoc-plugin-3.10.1.buildspec) | [result](maven-javadoc-plugin-3.10.1.buildinfo): [6 :white_check_mark: ](maven-javadoc-plugin-3.10.1.buildcompare) | 4.6M |
 | [3.10.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin/3.10.0/pom) | [mvn jdk11 w](maven-javadoc-plugin-3.10.0.buildspec) | [result](maven-javadoc-plugin-3.10.0.buildinfo): [6 :white_check_mark: ](maven-javadoc-plugin-3.10.0.buildcompare) | 4.6M |
 | [3.8.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin/3.8.0/pom) | [mvn jdk11 w](maven-javadoc-plugin-3.8.0.buildspec) | [result](maven-javadoc-plugin-3.8.0.buildinfo): [6 :white_check_mark: ](maven-javadoc-plugin-3.8.0.buildcompare) | 4.6M |
