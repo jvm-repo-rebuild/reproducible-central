@@ -244,6 +244,11 @@
       <url>https://nexus.hope.nyc.ny.us/repository/maven-releases/</url>
     </mirror>
     <mirror>
+      <id>sonatype-nexus-staging</id>
+      <mirrorOf>sonatype-nexus-staging</mirrorOf>
+      <url>https://jakarta.oss.sonatype.org/content/groups/staging/</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>
