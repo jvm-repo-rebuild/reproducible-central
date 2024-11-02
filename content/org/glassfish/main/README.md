@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.glassfish.main:glassfish-parent](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/glassfish/main/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/glassfish/main/README.md)
+## Project: [org.glassfish.main:glassfish-parent](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/glassfish/main//badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/glassfish/main//README.md)
 
 Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/eclipse-ee4j/glassfish.git)
 
@@ -307,9 +307,9 @@ Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/
 * [org.glassfish.main:test-utils](https://central.sonatype.com/artifact/org.glassfish.main/test-utils/overview)
 </details>
 
-rebuilding **13 releases** of org.glassfish.main:glassfish-parent:
+rebuilding **14 releases** of org.glassfish.main:glassfish-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 14 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -324,7 +324,7 @@ rebuilding **13 releases** of org.glassfish.main:glassfish-parent:
 | [8.0.0-M2](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M2/pom) | | | |
 | [8.0.0-M1](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M1/pom) | [mvn jdk17.0.9](glassfish-8.0.0-M1.buildspec) | [result](glassfish-main-aggregator-8.0.0-M1.buildinfo): [667 :white_check_mark:  69 :warning:](glassfish-main-aggregator-8.0.0-M1.buildcompare) [:mag:](glassfish-main-aggregator-8.0.0-M1.diffoscope) | 453M |
 | [7.0.19](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.19/pom) | | | |
-| [7.0.18](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.18/pom) | | | |
+| [7.0.18](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.18/pom) | [mvn jdk21](glassfish-7.0.18.buildspec) | [result](glassfish-main-aggregator-7.0.18.buildinfo): [1307 :white_check_mark:  11 :warning:](glassfish-main-aggregator-7.0.18.buildcompare) | 536M |
 | [7.0.17](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.17/pom) | [mvn jdk21](glassfish-7.0.17.buildspec) | [result](glassfish-main-aggregator-7.0.17.buildinfo): [1307 :white_check_mark:  11 :warning:](glassfish-main-aggregator-7.0.17.buildcompare) | 536M |
 | [7.0.16](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.16/pom) | [mvn jdk21](glassfish-7.0.16.buildspec) | [result](glassfish-main-aggregator-7.0.16.buildinfo): [1312 :white_check_mark:  11 :warning:](glassfish-main-aggregator-7.0.16.buildcompare) | 536M |
 | [7.0.15](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.15/pom) | [mvn jdk21](glassfish-7.0.15.buildspec) | [result](glassfish-main-aggregator-7.0.15.buildinfo): [731 :white_check_mark:  5 :warning:](glassfish-main-aggregator-7.0.15.buildcompare) | 455M |
