@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Servlets Resolver
+group-id=org.apache.sling
+artifact-id=org.apache.sling.servlets.resolver
+version=2.10.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-servlets-resolver.git
+source.scm.tag=org.apache.sling.servlets.resolver-2.10.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.servlets.resolver-2.10.0.pom
+outputs.0.length=16927
+outputs.0.checksums.sha512=6539f5e3321c9659db16ff48178e518accc3e0f16a958e1e26a8f34cf20e465f9c264fd0c2dce2ebff90d4a4b6bc356d019c7fa35aacc15f8d74fb9fd0a32d88
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.servlets.resolver-2.10.0.jar
+outputs.1.length=148918
+outputs.1.checksums.sha512=63dfc97b8bdd44f72d4a5a4df2c048599c0b4cc81bb8e638e4d2f5bf1f97ee76529ca72eb32c672aca9479cbcbf929db355df5097da6be8c281926a262268675
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.servlets.resolver-2.10.0-source-release.zip
+outputs.2.length=159659
+outputs.2.checksums.sha512=0fb4cd59665200be9d64e77856100a24969fe2432775759b8b8695eb9547770fd28543f677737f692ad8206b4f21ab084196ab583d7d17862fbbc25711b4a8c4
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.servlets.resolver-2.10.0-sources.jar
+outputs.3.length=93252
+outputs.3.checksums.sha512=18ca6b85e26a45c228e74e26a5d6eeb88acb2c7fe9f85301628f41a15dd8e7c71e927f6fd6945e5875a35f3cc8e91a70a77a5324a62383d84e5e395635793342
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.servlets.resolver-2.10.0-sources.jar
+outputs.4.length=93252
+outputs.4.checksums.sha512=18ca6b85e26a45c228e74e26a5d6eeb88acb2c7fe9f85301628f41a15dd8e7c71e927f6fd6945e5875a35f3cc8e91a70a77a5324a62383d84e5e395635793342
