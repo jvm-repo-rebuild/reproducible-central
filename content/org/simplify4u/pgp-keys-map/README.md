@@ -13,6 +13,7 @@ rebuilding **21 releases** of org.simplify4u:pgp-keys-map:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2024.11.03](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/2024.11.03/pom) | | | |
 | [2024.06.29](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/2024.06.29/pom) | [mvn jdk8](pgp-keys-map-2024.06.29.buildspec) | [result](pgp-keys-map-2024.06.29.buildinfo): [2 :white_check_mark: ](pgp-keys-map-2024.06.29.buildcompare) | 30K |
 | [2024.04.04](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/2024.04.04/pom) | [mvn jdk8](pgp-keys-map-2024.04.04.buildspec) | [result](pgp-keys-map-2024.04.04.buildinfo): [2 :white_check_mark: ](pgp-keys-map-2024.04.04.buildcompare) | 29K |
 | [2023.11.23](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/2023.11.23/pom) | [mvn jdk8](pgp-keys-map-2023.11.23.buildspec) | [result](pgp-keys-map-2023.11.23.buildinfo): [2 :white_check_mark: ](pgp-keys-map-2023.11.23.buildcompare) | 29K |

@@ -1,5 +1,4 @@
-content/io/airlift/airbase/airbase-194.buildspec:195
-content/org/apache/maven/surefire/surefire-3.5.1.buildspec:3.5.2
-content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.10.1.buildspec:3.11.1
-content/org/apache/tomee/jakartaee-api/jakartaee-api-10.0-M2.buildspec:10.0
-content/org/jpmml/jpmml-r/jpmml-r-1.5.6.buildspec:1.6.0
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-11.buildspec:11.1.1-beta-12
+content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.3.16.buildspec:5.3.17
+content/org/simplify4u/pgp-keys-map/pgp-keys-map-2024.06.29.buildspec:2024.11.03
+content/tech/picnic/error-prone-support/error-prone-support/error-prone-support-0.19.0.buildspec:0.19.1
