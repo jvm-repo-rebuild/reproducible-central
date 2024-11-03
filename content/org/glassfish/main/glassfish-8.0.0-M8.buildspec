@@ -18,5 +18,5 @@ execBefore="find . -type d -name target -exec \rm -rf {} \; ; find . -type d -ex
 
 buildinfo=target/glassfish-main-aggregator-${version}.buildinfo
 
-#diffoscope=glassfish-main-aggregator-${version}.diffoscope
+diffoscope=glassfish-main-aggregator-${version}.diffoscope
 issue=
