@@ -26,6 +26,7 @@ rebuilding **4 releases** of com.adobe.acs:acs-aem-commons:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [6.9.2](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.9.2/pom) | | | |
 | [6.9.0](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.9.0/pom) | | | |
 | [6.8.0](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.8.0/pom) | | | |
 | [6.7.0](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.7.0/pom) | [mvn jdk18](acs-aem-commons-6.7.0.buildspec) | [result](acs-aem-commons-6.7.0.buildinfo): [18 :white_check_mark:  8 :warning:](acs-aem-commons-6.7.0.buildcompare) | 80M |
