@@ -5,15 +5,15 @@
 
 ## Project: [org.simplify4u:pgp-keys-map](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/simplify4u/pgp-keys-map/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/simplify4u/pgp-keys-map/README.md)
 
-Source code: [git@github.com:s4u/pgp-keys-map.git](git@github.com:s4u/pgp-keys-map.git)
+Source code: [https://github.com/s4u/pgp-keys-map.git](https://github.com/s4u/pgp-keys-map.git)
 
-rebuilding **21 releases** of org.simplify4u:pgp-keys-map:
-- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **22 releases** of org.simplify4u:pgp-keys-map:
+- **22** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2024.11.03](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/2024.11.03/pom) | | | |
+| [2024.11.03](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/2024.11.03/pom) | [mvn jdk8](pgp-keys-map-2024.11.03.buildspec) | [result](pgp-keys-map-2024.11.03.buildinfo): [2 :white_check_mark: ](pgp-keys-map-2024.11.03.buildcompare) | 30K |
 | [2024.06.29](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/2024.06.29/pom) | [mvn jdk8](pgp-keys-map-2024.06.29.buildspec) | [result](pgp-keys-map-2024.06.29.buildinfo): [2 :white_check_mark: ](pgp-keys-map-2024.06.29.buildcompare) | 30K |
 | [2024.04.04](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/2024.04.04/pom) | [mvn jdk8](pgp-keys-map-2024.04.04.buildspec) | [result](pgp-keys-map-2024.04.04.buildinfo): [2 :white_check_mark: ](pgp-keys-map-2024.04.04.buildcompare) | 29K |
 | [2023.11.23](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/2023.11.23/pom) | [mvn jdk8](pgp-keys-map-2023.11.23.buildspec) | [result](pgp-keys-map-2023.11.23.buildinfo): [2 :white_check_mark: ](pgp-keys-map-2023.11.23.buildcompare) | 29K |
