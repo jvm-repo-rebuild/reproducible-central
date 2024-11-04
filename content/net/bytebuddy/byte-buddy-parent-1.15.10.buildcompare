@@ -1,0 +1,10 @@
+version=1.15.10
+ok=21
+ko=1
+ignored=0
+okFiles="byte-buddy-parent-1.15.10.pom byte-buddy-agent-1.15.10.pom byte-buddy-agent-1.15.10.jar byte-buddy-agent-1.15.10-sources.jar byte-buddy-dep-1.15.10.pom byte-buddy-dep-1.15.10.jar byte-buddy-dep-1.15.10-sources.jar byte-buddy-1.15.10.jar byte-buddy-1.15.10-sources.jar byte-buddy-benchmark-1.15.10.pom byte-buddy-benchmark-1.15.10.jar byte-buddy-benchmark-1.15.10-sources.jar byte-buddy-android-1.15.10.pom byte-buddy-android-1.15.10.jar byte-buddy-android-1.15.10-sources.jar byte-buddy-maven-plugin-1.15.10.pom byte-buddy-maven-plugin-1.15.10.jar byte-buddy-maven-plugin-1.15.10-sources.jar byte-buddy-gradle-plugin-1.15.10.pom byte-buddy-gradle-plugin-1.15.10.jar byte-buddy-gradle-plugin-1.15.10-sources.jar"
+koFiles="byte-buddy-1.15.10.pom"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/net.bytebuddy/byte-buddy-1.15.10.pom byte-buddy/dependency-reduced-pom.xml
