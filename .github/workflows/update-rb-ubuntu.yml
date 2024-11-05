@@ -32,6 +32,13 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
+      - name: Status Diffoscope Before
+        run: |
+          docker image ls registry.salsa.debian.org/reproducible-builds/diffoscope:latest
+          docker run --rm registry.salsa.debian.org/reproducible-builds/diffoscope:latest --version
+          docker image ls ghcr.io/jvm-repo-rebuild/diffoscope:latest
+          docker run --rm ghcr.io/jvm-repo-rebuild/diffoscope:latest --version
+
       - name: Copy Diffoscope to ghcr.io
         uses: truemark/skopeo-copy-action@v1
         with:
@@ -39,3 +46,10 @@ jobs:
           dest-image: "docker://ghcr.io/jvm-repo-rebuild/diffoscope:latest"
           dest-username: ${{ github.actor }}
           dest-password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Status Diffoscope After
+        run: |
+          docker image ls registry.salsa.debian.org/reproducible-builds/diffoscope:latest
+          docker run --rm registry.salsa.debian.org/reproducible-builds/diffoscope:latest --version
+          docker image ls ghcr.io/jvm-repo-rebuild/diffoscope:latest
+          docker run --rm ghcr.io/jvm-repo-rebuild/diffoscope:latest --version
