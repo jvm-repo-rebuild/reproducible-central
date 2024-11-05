@@ -3,8 +3,8 @@
   <groupId>org.sonatype.nexus.archetypes</groupId>
   <artifactId>nexus-format-archetype</artifactId>
   <versioning>
-    <latest>1.0.63</latest>
-    <release>1.0.63</release>
+    <latest>1.0.65</latest>
+    <release>1.0.65</release>
     <versions>
       <version>1.0.1</version>
       <version>1.0.3</version>
@@ -63,7 +63,9 @@
       <version>1.0.61</version>
       <version>1.0.62</version>
       <version>1.0.63</version>
+      <version>1.0.64</version>
+      <version>1.0.65</version>
     </versions>
-    <lastUpdated>20240926163302</lastUpdated>
+    <lastUpdated>20241105195500</lastUpdated>
   </versioning>
 </metadata>

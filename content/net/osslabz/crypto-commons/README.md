@@ -13,6 +13,8 @@ rebuilding **1 releases** of net.osslabz:crypto-commons:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.3.4](https://central.sonatype.com/artifact/net.osslabz/crypto-commons/0.3.4/pom) | | | |
+| [0.3.3](https://central.sonatype.com/artifact/net.osslabz/crypto-commons/0.3.3/pom) | | | |
 | [0.3.2](https://central.sonatype.com/artifact/net.osslabz/crypto-commons/0.3.2/pom) | [mvn jdk21](crypto-commons-0.3.2.buildspec) | [result](crypto-commons-0.3.2.buildinfo): [1 :white_check_mark:  2 :warning:](crypto-commons-0.3.2.buildcompare) [:memo:](https://github.com/osslabz/crypto-commons/pull/33) | 43K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

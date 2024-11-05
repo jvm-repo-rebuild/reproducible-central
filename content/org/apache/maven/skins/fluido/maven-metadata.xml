@@ -3,8 +3,8 @@
   <groupId>org.apache.maven.skins</groupId>
   <artifactId>maven-fluido-skin</artifactId>
   <versioning>
-    <latest>2.0.0-M11</latest>
-    <release>2.0.0-M11</release>
+    <latest>2.0.0</latest>
+    <release>2.0.0</release>
     <versions>
       <version>1.0</version>
       <version>1.1</version>
@@ -33,7 +33,8 @@
       <version>2.0.0-M9</version>
       <version>2.0.0-M10</version>
       <version>2.0.0-M11</version>
+      <version>2.0.0</version>
     </versions>
-    <lastUpdated>20241001070539</lastUpdated>
+    <lastUpdated>20241105182727</lastUpdated>
   </versioning>
 </metadata>
