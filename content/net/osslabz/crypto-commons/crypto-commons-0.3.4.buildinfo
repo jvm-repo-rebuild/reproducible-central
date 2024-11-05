@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=net.osslabz:crypto-commons
+group-id=net.osslabz
+artifact-id=crypto-commons
+version=0.3.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/osslabz/crypto-commons.git
+source.scm.tag=0.3.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=net.osslabz
+outputs.0.filename=crypto-commons-0.3.4.pom
+outputs.0.length=10754
+outputs.0.checksums.sha512=aff5e1db2f58e1e305246a3266340b8407ab28db88a35ad9e3841d4e43fca86dd865c5cf1350f82a728629c8befbc09a0241a79a28d49e77e8ac9588cc9b026b
+
+outputs.1.groupId=net.osslabz
+outputs.1.filename=crypto-commons-0.3.4.jar
+outputs.1.length=24363
+outputs.1.checksums.sha512=f346207a78a1fd7761a83b35668bfbf6a10d6f345fb6806570b3a0e8c05a7bfcf45007a5899b88b462c513041df09f861377c7ac2932dcfddfedbf23bd434453
+
+outputs.2.groupId=net.osslabz
+outputs.2.filename=crypto-commons-0.3.4-sources.jar
+outputs.2.length=8668
+outputs.2.checksums.sha512=77387c2ab1294307ee0229b50c8e4cde58931884fa97795902e8e8df8fd73fdab7497928ae529f80e8a4f4531ab9f2c9a4a73a43c885da6a792a60d0289719bb
