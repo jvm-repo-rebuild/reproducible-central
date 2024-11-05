@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Fluido Skin
+group-id=org.apache.maven.skins
+artifact-id=maven-fluido-skin
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-fluido-skin.git
+source.scm.tag=maven-fluido-skin-2.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.maven.skins
+outputs.0.filename=maven-fluido-skin-2.0.0.pom
+outputs.0.length=31924
+outputs.0.checksums.sha512=06a5c4d244946f1de16b751aca687acf14586ccfe76581d1ac93ba1767982735dd0e84b728203e11fc74cd2866c4d4d14d38390567fec02a5dd493721d0f3e92
+
+outputs.1.groupId=org.apache.maven.skins
+outputs.1.filename=maven-fluido-skin-2.0.0.jar
+outputs.1.length=355314
+outputs.1.checksums.sha512=4de230ac92dadb24df4524485f7dc819e21fa35528f2ffcd0a1b2efeb0017ce4491491768859217a1a82b9fb2eeef127ad2923d2c27e16e62771fa2fc555876d
+
+outputs.2.groupId=org.apache.maven.skins
+outputs.2.filename=maven-fluido-skin-2.0.0-source-release.zip
+outputs.2.length=630868
+outputs.2.checksums.sha512=47c729759b80d9f54180ac81670be51ef1a31b745427ad159bf419cc8f71c863575663fe16f894186dacebe256816e2d974a428f6c6a44eab5604cf5a197e4bd
+
+outputs.3.groupId=org.apache.maven.skins
+outputs.3.filename=maven-fluido-skin-2.0.0-sources.jar
+outputs.3.length=348870
+outputs.3.checksums.sha512=87db831fc62044700de68e29a9ed4aa1c819279ba0be7e1a32940a6d723e6abbd35d882c222493243a7bb2f45cee73d51a511ee593cdfcad2e481724af19939f
+
+outputs.4.groupId=org.apache.maven.skins
+outputs.4.filename=maven-fluido-skin-2.0.0-cyclonedx.xml
+outputs.4.length=2928
+outputs.4.checksums.sha512=1233d449d8525cb150e81b94372c5665563122b8f793fee0c0e06f69ed1c63b7270216d3e4545c5a79386366b86c7626ba73e9d2ce28aa603a27e2210937b0d3
+
+outputs.5.groupId=org.apache.maven.skins
+outputs.5.filename=maven-fluido-skin-2.0.0-cyclonedx.json
+outputs.5.length=3337
+outputs.5.checksums.sha512=884e72a92fe4c3d6f74b636f0a7edb396b7f6218f64c086c96ac2ab16ae640676afab8c19e149b44d8d0dbb4cde0dda1344c065860ae1ed4a1cbe567876d3877
