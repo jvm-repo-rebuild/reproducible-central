@@ -1,0 +1,9 @@
+version=4.0.3
+ok=6
+ko=0
+ignored=0
+okFiles="xmlsec-4.0.3.pom xmlsec-4.0.3.jar xmlsec-4.0.3-source-release.zip xmlsec-4.0.3-sources.jar xmlsec-4.0.3-cyclonedx.xml xmlsec-4.0.3-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
