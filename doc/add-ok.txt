@@ -1,4 +1,2 @@
-content/io/avaje/inject/avaje-inject-10.5-RC4.buildspec:10.5-RC6
-content/org/apache/maven/skins/fluido/maven-fluido-skin-2.0.0-M11.buildspec:2.0.0
-content/org/apache/santuario/xmlsec/xmlsec-4.0.2.buildspec:4.0.3
-content/org/sonatype/nexus/archetypes/nexus-format-archetype/nexus-format-archetype-1.0.63.buildspec:1.0.65
+content/net/osslabz/crypto-commons/crypto-commons-0.3.4.buildspec:0.4.0
+content/net/sf/michael-o/tomcat/tomcat-authnz-spnego-ad/tomcat-authnz-spnego-ad-4.2.1.buildspec:4.2.4
