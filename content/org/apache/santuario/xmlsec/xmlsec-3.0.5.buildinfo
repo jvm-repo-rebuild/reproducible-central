@@ -28,8 +28,8 @@ outputs.0.checksums.sha512=93d77ac674f8d214f174464860f74d0bd2bea9ee92d159d3bd7ec
 
 outputs.1.groupId=org.apache.santuario
 outputs.1.filename=xmlsec-3.0.5.jar
-outputs.1.length=1207524
-outputs.1.checksums.sha512=145fdb18b88c7997b35715f9d105e2752a58fb710aa662af20618ed572c2c9d5fc3d2f7f6317e5f963fb65606b0898262453ea49503efad9d106154ff320d769
+outputs.1.length=1203552
+outputs.1.checksums.sha512=c33a34cb10cbbbf884b6ac43f5b82cdf5d0f99db524abaac0c1b317c6b0e2fb0495a7d16882490dc6b88b94958d600be953008daf904c8a70fc30a8657337cd4
 
 outputs.2.groupId=org.apache.santuario
 outputs.2.filename=xmlsec-3.0.5-source-release.zip
