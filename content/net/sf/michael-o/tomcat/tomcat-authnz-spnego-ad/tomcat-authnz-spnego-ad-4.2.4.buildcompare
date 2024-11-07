@@ -1,0 +1,11 @@
+version=4.2.4
+ok=9
+ko=2
+ignored=0
+okFiles="tomcat-authnz-spnego-ad-4.2.4.pom tomcat-authnz-spnego-ad-4.2.4-site.xml tomcat85-authnz-spnego-ad-4.2.4.pom tomcat85-authnz-spnego-ad-4.2.4.jar tomcat85-authnz-spnego-ad-4.2.4-sources.jar tomcat90-authnz-spnego-ad-4.2.4.pom tomcat90-authnz-spnego-ad-4.2.4-sources.jar tomcat101-authnz-spnego-ad-4.2.4.pom tomcat101-authnz-spnego-ad-4.2.4-sources.jar"
+koFiles="tomcat90-authnz-spnego-ad-4.2.4.jar tomcat101-authnz-spnego-ad-4.2.4.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/net.sf.michael-o.tomcat/tomcat90-authnz-spnego-ad-4.2.4.jar tomcat90/target/tomcat90-authnz-spnego-ad-4.2.4.jar
+# diffoscope target/reference/net.sf.michael-o.tomcat/tomcat101-authnz-spnego-ad-4.2.4.jar tomcat101/target/tomcat101-authnz-spnego-ad-4.2.4.jar
