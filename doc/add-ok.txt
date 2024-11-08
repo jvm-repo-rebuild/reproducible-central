@@ -1,4 +1,2 @@
-content/io/airlift/airbase/airbase-196.buildspec:197
-content/net/sf/michael-o/tomcat/tomcat-authnz-spnego-ad/tomcat-authnz-spnego-ad-4.2.1.buildspec:4.2.4
-content/org/apache/dubbo/dubbo-3.3.1.buildspec:3.3.2
-content/org/eclipse/jetty/jetty-project/jetty-project-12.0.14.buildspec:12.1.0.alpha0
+content/io/airlift/airbase/airbase-197.buildspec:198
+content/org/simplify4u/slf4j-mock/slf4j-mock-2.3.0.buildspec:2.4.0
