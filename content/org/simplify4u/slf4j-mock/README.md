@@ -5,7 +5,7 @@
 
 ## Project: [org.simplify4u:slf4j-mock](https://central.sonatype.com/artifact/org.simplify4u/slf4j-mock/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/simplify4u/slf4j-mock/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/simplify4u/slf4j-mock/README.md)
 
-Source code: [git@github.com:s4u/slf4j-mock.git](git@github.com:s4u/slf4j-mock.git)
+Source code: [https://github.com/s4u/slf4j-mock.git](https://github.com/s4u/slf4j-mock.git)
 
 <details><summary>This project defines 6 modules:</summary>
 
@@ -17,13 +17,13 @@ Source code: [git@github.com:s4u/slf4j-mock.git](git@github.com:s4u/slf4j-mock.g
 * [org.simplify4u:slf4j2-mock](https://central.sonatype.com/artifact/org.simplify4u/slf4j2-mock/overview)
 </details>
 
-rebuilding **4 releases** of org.simplify4u:slf4j-mock:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **5 releases** of org.simplify4u:slf4j-mock:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.4.0](https://central.sonatype.com/artifact/org.simplify4u/slf4j-mock/2.4.0/pom) | | | |
+| [2.4.0](https://central.sonatype.com/artifact/org.simplify4u/slf4j-mock/2.4.0/pom) | [mvn jdk8](slf4j-mock-2.4.0.buildspec) | [result](slf4j-mock-parent-2.4.0.buildinfo): [10 :white_check_mark: ](slf4j-mock-parent-2.4.0.buildcompare) | 111K |
 | [2.3.0](https://central.sonatype.com/artifact/org.simplify4u/slf4j-mock/2.3.0/pom) | [mvn jdk8](slf4j-mock-2.3.0.buildspec) | [result](slf4j-mock-parent-2.3.0.buildinfo): [10 :white_check_mark: ](slf4j-mock-parent-2.3.0.buildcompare) | 119K |
 | [2.2.0](https://central.sonatype.com/artifact/org.simplify4u/slf4j-mock/2.2.0/pom) | [mvn jdk8](slf4j-mock-2.2.0.buildspec) | [result](slf4j-mock-2.2.0.buildinfo): [3 :white_check_mark: ](slf4j-mock-2.2.0.buildcompare) | 62K |
 | [2.1.1](https://central.sonatype.com/artifact/org.simplify4u/slf4j-mock/2.1.1/pom) | [mvn jdk8](slf4j-mock-2.1.1.buildspec) | [result](slf4j-mock-2.1.1.buildinfo): [3 :white_check_mark: ](slf4j-mock-2.1.1.buildcompare) | 64K |
