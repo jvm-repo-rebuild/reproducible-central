@@ -1,0 +1,9 @@
+version=2.4.0
+ok=10
+ko=0
+ignored=0
+okFiles="slf4j-mock-parent-2.4.0.pom slf4j-mock-common-2.4.0.pom slf4j-mock-common-2.4.0.jar slf4j-mock-common-2.4.0-sources.jar slf4j-mock-2.4.0.pom slf4j-mock-2.4.0.jar slf4j-mock-2.4.0-sources.jar slf4j2-mock-2.4.0.pom slf4j2-mock-2.4.0.jar slf4j2-mock-2.4.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
