@@ -76,13 +76,13 @@ Source code: [https://github.com/jooby-project/jooby.git](https://github.com/joo
 * [io.jooby:tests](https://central.sonatype.com/artifact/io.jooby/tests/overview)
 </details>
 
-rebuilding **24 releases** of io.jooby:jooby:
+rebuilding **25 releases** of io.jooby:jooby:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 24 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 25 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.5.1](https://central.sonatype.com/artifact/io.jooby/jooby/3.5.1/pom) | | | |
+| [3.5.1](https://central.sonatype.com/artifact/io.jooby/jooby/3.5.1/pom) | [mvn jdk17](jooby-3.5.1.buildspec) | [result](jooby-project-3.5.1.buildinfo): [173 :white_check_mark:  4 :warning:](jooby-project-3.5.1.buildcompare) | 15M |
 | [3.5.0](https://central.sonatype.com/artifact/io.jooby/jooby/3.5.0/pom) | [mvn jdk17](jooby-3.5.0.buildspec) | [result](jooby-project-3.5.0.buildinfo): [173 :white_check_mark:  4 :warning:](jooby-project-3.5.0.buildcompare) | 15M |
 | [3.4.3](https://central.sonatype.com/artifact/io.jooby/jooby/3.4.3/pom) | [mvn jdk17](jooby-3.4.3.buildspec) | [result](jooby-project-3.4.3.buildinfo): [174 :white_check_mark:  3 :warning:](jooby-project-3.4.3.buildcompare) | 15M |
 | [3.4.2](https://central.sonatype.com/artifact/io.jooby/jooby/3.4.2/pom) | [mvn jdk17](jooby-3.4.2.buildspec) | [result](jooby-project-3.4.2.buildinfo): [174 :white_check_mark:  3 :warning:](jooby-project-3.4.2.buildcompare) | 15M |
