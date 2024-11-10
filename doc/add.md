@@ -4,9 +4,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241109182017 --> [jpmml-r](../content/org/jpmml/jpmml-r/README.md) | [1.6.0](../content/org/jpmml/jpmml-r/jpmml-r-1.6.0.buildspec) :white_check_mark: | [1.6.1](../content/org/jpmml/jpmml-r/jpmml-r-1.6.1.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-r/jpmml-r-1.6.0.buildspec 1.6.1` |
-| <!-- 20241109101259 --> [michael-o-parent](../content/net/sf/michael-o/michael-o-parent/README.md) | [17](../content/net/sf/michael-o/michael-o-parent/michael-o-parent-17.buildspec) :white_check_mark: | [18](../content/net/sf/michael-o/michael-o-parent/michael-o-parent-18.buildspec) | `bin/add-new-release.sh content/net/sf/michael-o/michael-o-parent/michael-o-parent-17.buildspec 18` |
-| <!-- 20241108203131 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | [1.43.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.43.0.buildspec) :white_check_mark: | [1.44.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.44.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/java/opentelemetry-sdk-1.43.0.buildspec 1.44.0` |
+| <!-- 20241110192905 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [10.5-RC6](../content/io/avaje/inject/avaje-inject-10.5-RC6.buildspec) :white_check_mark: | [10.5](../content/io/avaje/inject/avaje-inject-10.5.buildspec) | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-10.5-RC6.buildspec 10.5` |
+| <!-- 20241110015720 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [11.1.1-beta-12](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-12.buildspec) :white_check_mark: | [11.1.1-beta-13](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-13.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-12.buildspec 11.1.1-beta-13` |
+| <!-- 20241110014449 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | [1.44.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.44.0.buildspec) :white_check_mark: | [1.44.1](../content/io/opentelemetry/java/opentelemetry-sdk-1.44.1.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/java/opentelemetry-sdk-1.44.0.buildspec 1.44.1` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -36,12 +36,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241109124721 --> [commons-release-plugin](../content/org/apache/commons/commons-release-plugin/README.md) | [1.8.2](../content/org/apache/commons/commons-release-plugin/commons-release-plugin-1.8.2.buildspec) :warning: | [1.8.3](../content/org/apache/commons/commons-release-plugin/commons-release-plugin-1.8.3.buildspec) | `bin/add-new-release.sh content/org/apache/commons/commons-release-plugin/commons-release-plugin-1.8.2.buildspec 1.8.3` |
+| <!-- 20241110060152 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.18.2](../content/org/webjars/swagger-ui/swagger-ui-5.18.2.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.18.2` |
 | <!-- 20241109100609 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.65.3](../content/org/finos/legend/engine/legend-engine-4.65.3.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.65.3` |
 | <!-- 20241107173050 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | [6.7.0](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.7.0.buildspec) :warning: | [6.9.4](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.9.4.buildspec) | `bin/add-new-release.sh content/com/adobe/acs/aem-commons/acs-aem-commons-6.7.0.buildspec 6.9.4` |
-| <!-- 20241107152003 --> [jooby](../content/io/jooby/README.md) | [3.5.0](../content/io/jooby/jooby-3.5.0.buildspec) :warning: | [3.5.1](../content/io/jooby/jooby-3.5.1.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-3.5.0.buildspec 3.5.1` |
-| <!-- 20241106205518 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.18.1](../content/org/webjars/swagger-ui/swagger-ui-5.18.1.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.18.1` |
-| <!-- 20241106115115 --> [quarkus-project](../content/io/quarkus/README.md) | [3.16.1](../content/io/quarkus/quarkus-3.16.1.buildspec) :warning: | [3.16.2](../content/io/quarkus/quarkus-3.16.2.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.16.1.buildspec 3.16.2` |
 | <!-- 20241102040852 --> [nifi](../content/org/apache/nifi/nifi/README.md) | [2.0.0-M4](../content/org/apache/nifi/nifi/nifi-2.0.0-M4.buildspec) :warning: | [2.0.0](../content/org/apache/nifi/nifi/nifi-2.0.0.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-2.0.0-M4.buildspec 2.0.0` |
 | <!-- 20241025185600 --> [jdbi3-root](../content/org/jdbi/README.md) | [3.46.0](../content/org/jdbi/jdbi3-root-3.46.0.buildspec) :warning: [:memo:](https://github.com/jdbi/jdbi/issues/2732) | [3.47.0](../content/org/jdbi/jdbi3-root-3.47.0.buildspec) | `bin/add-new-release.sh content/org/jdbi/jdbi3-root-3.46.0.buildspec 3.47.0` |
 | <!-- 20241024125949 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.8.1](../content/org/apache/camel/camel/camel-4.8.1.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.8.1` |
@@ -63,7 +60,10 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20241109124721 --> [commons-release-plugin](../content/org/apache/commons/commons-release-plugin/README.md) | 1.8.3 :warning: |
+| <!-- 20241107152003 --> [jooby](../content/io/jooby/README.md) | 3.5.1 :warning: |
 | <!-- 20241106160454 --> [tomcat-authnz-spnego-ad](../content/net/sf/michael-o/tomcat/tomcat-authnz-spnego-ad/README.md) | 4.2.4 :warning: [:memo:](https://github.com/michael-o/tomcatspnegoad/issues/32) |
+| <!-- 20241106115115 --> [quarkus-project](../content/io/quarkus/README.md) | 3.16.2 :warning: |
 | <!-- 20241105103840 --> [atom-jaxb-parent](../content/fr/vidal/oss/README.md) | 2.0.0 :x: |
 | <!-- 20241103233526 --> [byte-buddy-parent](../content/net/bytebuddy/README.md) | 1.15.10 :warning: |
 | <!-- 20241101211119 --> [jackson-dataformats-binary](../content/com/fasterxml/jackson/dataformat/jackson-dataformats-binary/README.md) | 2.18.1 :warning: |
