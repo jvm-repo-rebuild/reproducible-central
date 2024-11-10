@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Release Plugin
+group-id=org.apache.commons
+artifact-id=commons-release-plugin
+version=1.8.3
+
+# source information
+source.scm.uri=scm:git:http://gitbox.apache.org/repos/asf/commons-release-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-release-plugin-1.8.3.pom
+outputs.0.length=27421
+outputs.0.checksums.sha512=4592cbf08f537dd0eb8e87cdafa32ee1631249279431a25cf5be3d1026e476dcd06966cb2ae07de1dd8f86186637b3ec96209268516984b8b7c0799fe52e7185
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-release-plugin-1.8.3.jar
+outputs.1.length=57206
+outputs.1.checksums.sha512=d8617f2c3c18c68219eb90c40bcf44c54d95076411688f65788236a15c724c6e048b441857f9c1ec24052d728544dd1c87d1af496d6baf6ba19d369f50d3f9bd
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-release-plugin-1.8.3-tests.jar
+outputs.2.length=5905966
+outputs.2.checksums.sha512=ccc5ec9187bdc96d6987990615dea53e69e3ed8e092e12ca82b5c8d1c8cabd6f5e90be498e212cc541e90fc9c8d30e801f27610b90b675bc001f8e0d9fa235fc
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-release-plugin-1.8.3-sources.jar
+outputs.3.length=43864
+outputs.3.checksums.sha512=e29e70d284b944a3950a3a61db83ec9e345d24d84c34f97d35d052b583f9efd9268de03ab5582ac564aa11b663f6c06d1d58ad8b95c8eec9cc4a6921df31623e
+
+outputs.4.groupId=org.apache.commons
+outputs.4.filename=commons-release-plugin-1.8.3-test-sources.jar
+outputs.4.length=5901417
+outputs.4.checksums.sha512=a47ee65313633c687d688161c2ac551cbaea2cb893ad4c272441fa8e6a8e644f35df899c62d3d412ba03f6a4fdf2409f15533c26a52697253d1c8230394af176
+
+outputs.5.groupId=org.apache.commons
+outputs.5.filename=commons-release-plugin-1.8.3-cyclonedx.xml
+outputs.5.length=165040
+outputs.5.checksums.sha512=6319e85b3a28acbb13780cadf64184e59781bf64bbf0f5165db2477939bbbe269dba4993f22318f5056693416a3ae53c5978e1f52be8517a1cab0ee014e1ac3b
+
+outputs.6.groupId=org.apache.commons
+outputs.6.filename=commons-release-plugin-1.8.3-cyclonedx.json
+outputs.6.length=179367
+outputs.6.checksums.sha512=ffbdd86cda2d19a3d49d869c297c6b72bd28e592836a23faeb917561d17e5306a5a5c679bac1c945913d67d97f061b354820e0b75feaf90671dccf1c08869d60
+# ignored commons-release-plugin-1.8.3.spdx.json
