@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/logging-log4j2.git](https://github.com/apache/logging-log4j2.git)
 
-<details><summary>This project defines 60 modules:</summary>
+<details><summary>This project defines 64 modules:</summary>
 
 * [org.apache.logging.log4j:log4j](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/overview)
 * [org.apache.logging.log4j:log4j-1.2-api](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-1.2-api/overview)
@@ -17,9 +17,11 @@ Source code: [https://github.com/apache/logging-log4j2.git](https://github.com/a
 * [org.apache.logging.log4j:log4j-async-logger](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-async-logger/overview)
 * [org.apache.logging.log4j:log4j-bom](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-bom/overview)
 * [org.apache.logging.log4j:log4j-cassandra](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-cassandra/overview)
+* [org.apache.logging.log4j:log4j-compress](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-compress/overview)
 * [org.apache.logging.log4j:log4j-config-jackson](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-config-jackson/overview)
 * [org.apache.logging.log4j:log4j-config-properties](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-config-properties/overview)
 * [org.apache.logging.log4j:log4j-config-yaml](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-config-yaml/overview)
+* [org.apache.logging.log4j:log4j-conversant](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-conversant/overview)
 * [org.apache.logging.log4j:log4j-core](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-core/overview)
 * [org.apache.logging.log4j:log4j-core-test](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-core-test/overview)
 * [org.apache.logging.log4j:log4j-couchdb](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-couchdb/overview)
@@ -33,6 +35,7 @@ Source code: [https://github.com/apache/logging-log4j2.git](https://github.com/a
 * [org.apache.logging.log4j:log4j-jctools](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-jctools/overview)
 * [org.apache.logging.log4j:log4j-jdbc](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-jdbc/overview)
 * [org.apache.logging.log4j:log4j-jdbc-dbcp2](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-jdbc-dbcp2/overview)
+* [org.apache.logging.log4j:log4j-jdbc-jndi](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-jdbc-jndi/overview)
 * [org.apache.logging.log4j:log4j-jeromq](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-jeromq/overview)
 * [org.apache.logging.log4j:log4j-jms](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-jms/overview)
 * [org.apache.logging.log4j:log4j-jmx-gui](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-jmx-gui/overview)
@@ -42,6 +45,7 @@ Source code: [https://github.com/apache/logging-log4j2.git](https://github.com/a
 * [org.apache.logging.log4j:log4j-jpl](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-jpl/overview)
 * [org.apache.logging.log4j:log4j-jul](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-jul/overview)
 * [org.apache.logging.log4j:log4j-kafka](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-kafka/overview)
+* [org.apache.logging.log4j:log4j-kit](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-kit/overview)
 * [org.apache.logging.log4j:log4j-kubernetes](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-kubernetes/overview)
 * [org.apache.logging.log4j:log4j-layout-jackson](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-layout-jackson/overview)
 * [org.apache.logging.log4j:log4j-layout-jackson-json](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-layout-jackson-json/overview)
@@ -71,13 +75,13 @@ Source code: [https://github.com/apache/logging-log4j2.git](https://github.com/a
 * [org.apache.logging.log4j:log4j-web](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-web/overview)
 </details>
 
-rebuilding **11 releases** of org.apache.logging.log4j:log4j:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **12 releases** of org.apache.logging.log4j:log4j:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.0.0-beta3](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/3.0.0-beta3/pom) | | | |
+| [3.0.0-beta3](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/3.0.0-beta3/pom) | [mvn jdk17](log4j-3.0.0-beta3.buildspec) | [result](log4j-bom-3.0.0-beta3.buildinfo): [105 :white_check_mark: ](log4j-bom-3.0.0-beta3.buildcompare) | 5.6M |
 | [3.0.0-beta2](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/3.0.0-beta2/pom) | [mvn jdk17](log4j-3.0.0-beta2.buildspec) | [result](log4j-bom-3.0.0-beta2.buildinfo): [137 :white_check_mark: ](log4j-bom-3.0.0-beta2.buildcompare) | 8.2M |
 | [3.0.0-beta1](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/3.0.0-beta1/pom) | [mvn jdk17](log4j-3.0.0-beta1.buildspec) | [result](log4j-bom-3.0.0-beta1.buildinfo): [138 :white_check_mark: ](log4j-bom-3.0.0-beta1.buildcompare) | 8.5M |
 | [3.0.0-alpha1](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/3.0.0-alpha1/pom) | [mvn jdk11.0.18](log4j-3.0.0-alpha1.buildspec) | [result](log4j-3.0.0-alpha1.buildinfo): [175 :white_check_mark:  33 :warning:](log4j-3.0.0-alpha1.buildcompare) [:mag:](log4j-3.0.0-alpha1.diffoscope) | 9.6M |
