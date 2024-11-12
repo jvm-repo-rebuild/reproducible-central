@@ -1,3 +1,0 @@
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-12.buildspec:11.1.1-beta-13
-content/io/avaje/inject/avaje-inject-10.5-RC6.buildspec:10.5
-content/io/opentelemetry/java/opentelemetry-sdk-1.44.0.buildspec:1.44.1
