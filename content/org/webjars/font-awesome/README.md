@@ -13,6 +13,7 @@ rebuilding **7 releases** of org.webjars:font-awesome:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [6.6.0](https://central.sonatype.com/artifact/org.webjars/font-awesome/6.6.0/pom) | | | |
 | [6.5.2](https://central.sonatype.com/artifact/org.webjars/font-awesome/6.5.2/pom) | [mvn jdk8](font-awesome-6.5.2.buildspec) | [result](font-awesome-6.5.2.buildinfo): [2 :white_check_mark: ](font-awesome-6.5.2.buildcompare) | 6.5M |
 | [6.5.1](https://central.sonatype.com/artifact/org.webjars/font-awesome/6.5.1/pom) | [mvn jdk8](font-awesome-6.5.1.buildspec) | [result](font-awesome-6.5.1.buildinfo): [2 :white_check_mark: ](font-awesome-6.5.1.buildcompare) | 6.5M |
 | [6.4.2](https://central.sonatype.com/artifact/org.webjars/font-awesome/6.4.2/pom) | [mvn jdk8](font-awesome-6.4.2.buildspec) | [result](font-awesome-6.4.2.buildinfo): [2 :white_check_mark: ](font-awesome-6.4.2.buildcompare) | 6.4M |

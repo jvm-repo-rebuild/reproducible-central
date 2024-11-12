@@ -31,6 +31,7 @@ rebuilding **20 releases** of org.apache.orc:orc:
 | [1.9.2](https://central.sonatype.com/artifact/org.apache.orc/orc/1.9.2/pom) | [mvn jdk8](orc-1.9.2.buildspec) | [result](orc-1.9.2.buildinfo): [30 :white_check_mark:  5 :warning:](orc-1.9.2.buildcompare) [:mag:](orc-1.9.2.diffoscope) | 81M |
 | [1.9.1](https://central.sonatype.com/artifact/org.apache.orc/orc/1.9.1/pom) | [mvn jdk8](orc-1.9.1.buildspec) | [result](orc-1.9.1.buildinfo): [35 :white_check_mark: ](orc-1.9.1.buildcompare) | 81M |
 | [1.9.0](https://central.sonatype.com/artifact/org.apache.orc/orc/1.9.0/pom) | [mvn jdk8](orc-1.9.0.buildspec) | [result](orc-1.9.0.buildinfo): [35 :white_check_mark: ](orc-1.9.0.buildcompare) | 81M |
+| [1.8.8](https://central.sonatype.com/artifact/org.apache.orc/orc/1.8.8/pom) | | | |
 | [1.8.7](https://central.sonatype.com/artifact/org.apache.orc/orc/1.8.7/pom) | [mvn jdk8](orc-1.8.7.buildspec) | [result](orc-1.8.7.buildinfo): [35 :white_check_mark: ](orc-1.8.7.buildcompare) | 82M |
 | [1.8.6](https://central.sonatype.com/artifact/org.apache.orc/orc/1.8.6/pom) | [mvn jdk8](orc-1.8.6.buildspec) | [result](orc-1.8.6.buildinfo): [30 :white_check_mark:  5 :warning:](orc-1.8.6.buildcompare) [:mag:](orc-1.8.6.diffoscope) | 82M |
 | [1.8.5](https://central.sonatype.com/artifact/org.apache.orc/orc/1.8.5/pom) | [mvn jdk8](orc-1.8.5.buildspec) | [result](orc-1.8.5.buildinfo): [33 :white_check_mark:  2 :warning:](orc-1.8.5.buildcompare) [:mag:](orc-1.8.5.diffoscope) | 82M |
