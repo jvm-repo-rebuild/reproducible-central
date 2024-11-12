@@ -33,3 +33,4 @@ tmp/
 .wip/*.diffoscope
 .wip/*.buildinfo
 .wip/*.buildcompare
+gh-pages/
