@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=spotbugs-maven-plugin
+group-id=com.github.spotbugs
+artifact-id=spotbugs-maven-plugin
+version=4.8.6.6
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/spotbugs/spotbugs-maven-plugin.git
+source.scm.tag=spotbugs-maven-plugin-4.8.6.6
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=22
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.github.spotbugs
+outputs.0.filename=spotbugs-maven-plugin-4.8.6.6.pom
+outputs.0.length=43091
+outputs.0.checksums.sha512=2c29bf47331bc3293dc27a3678088426ea0048a0a932ba7967690597cbb0783ae8c11c8be7062479bcfaeff585fc4a8e2e31c3d8582c5e255f6efbdf0e72cab5
+
+outputs.1.groupId=com.github.spotbugs
+outputs.1.filename=spotbugs-maven-plugin-4.8.6.6.jar
+outputs.1.length=168863
+outputs.1.checksums.sha512=0d727a22e00bd41c17cc6a630c8ca825f2a6271616d59bcc462c07a442af797dcc526417ea5169fa4d89f797a5bebd2ce36e14361742d16f41da7cc9e7117eab
+
+outputs.2.groupId=com.github.spotbugs
+outputs.2.filename=spotbugs-maven-plugin-4.8.6.6-sources.jar
+outputs.2.length=50834
+outputs.2.checksums.sha512=1b4ef30ea9906643495faaa683c68098f959bd345e9ddf9514df9b6ec2457659cb7bb0970b8c90315514f11e116f64be42b6f3ab5de4cd3ff93612883dff2f60
+
+outputs.3.groupId=com.github.spotbugs
+outputs.3.filename=spotbugs-maven-plugin-4.8.6.6-cyclonedx.xml
+outputs.3.length=262774
+outputs.3.checksums.sha512=db8a31bcc5c5fc95091c7ad3a8ae11f4c532bbba7e8b3ddf3b153061d84e68a4c82220e87f94b633412daa5f22365c1e2961a2503df26ba0359a7d71a56ebce2
+
+outputs.4.groupId=com.github.spotbugs
+outputs.4.filename=spotbugs-maven-plugin-4.8.6.6-cyclonedx.json
+outputs.4.length=308651
+outputs.4.checksums.sha512=13f83de1f8733918d4045c54c257bd9436115b416c1a0fa8044ae23206035b22928ebe8b2d207bbe884a041c593f9a4b80a3a947e35b42a54b23ccd2916139ca
