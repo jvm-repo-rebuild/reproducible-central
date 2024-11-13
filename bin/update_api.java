@@ -12,17 +12,21 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.Set;
 import java.util.TreeMap;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import org.apache.maven.artifact.repository.metadata.Metadata;
 import org.apache.maven.artifact.repository.metadata.io.xpp3.MetadataXpp3Reader;
@@ -32,6 +36,8 @@ import org.codehaus.plexus.util.xml.pull.XmlPullParserException;
 public class update_api extends SimpleFileVisitor<Path> {
     public static void main(String... args) throws Exception {
         Files.walkFileTree(Path.of("content"), new update_api());
+        System.out.println(PROJECT_BASE + ": " + projectsCount + " projects, " + projectsReleasesCount + " releases");
+        System.out.println(ARTIFACT_BASE + ": " + ga.size() + " ga, " + gavCount + " gav");
     }
 
     @Override
@@ -53,17 +59,69 @@ public class update_api extends SimpleFileVisitor<Path> {
         return FileVisitResult.CONTINUE;
     }
 
+    private static final Path CONTENT_BASE = Path.of("content");
+    private static final Path PROJECT_BASE = Path.of("gh-pages/project");
+    private static final Path ARTIFACT_BASE = Path.of("gh-pages/artifact");
+
+    private static long projectsCount = 0;
+    private static long projectsReleasesCount = 0;
+    private static Set<String> ga = new HashSet<>();
+    private static long gavCount = 0;
+
     private void updateProject(Path path, Metadata metadata) throws IOException {
-        System.out.println(path);
+        System.out.print(++projectsCount + " " + path);
+        Path project = PROJECT_BASE.resolve(CONTENT_BASE.relativize(path));
+        Files.createDirectories(project);
+
+        List<String> filenames;
+        try (Stream<Path> walk = Files.walk(path, 1)) {
+            filenames = walk.map(p -> p.getFileName().toString()).collect(Collectors.toList());
+        }
+
+        List<String> versions = new ArrayList<>();
+        Set<String> projectGa = new HashSet<>();
+        long projectGav = 0;
         for(String v: metadata.getVersioning().getVersions()) {
-            Optional<Path> o = Files.walk(path, 1).filter(p -> p.getFileName().toString().endsWith("-" + v + ".buildspec")).findFirst();
-            if (!o.isPresent()) {
+            String buildspec = findFile(filenames, "-" + v + ".buildspec");
+            if (buildspec == null) {
                 continue;
             }
-            Path buildspec = o.get();
-            System.out.println("     " + buildspec.getFileName());
-            //Path buildinfo = Files.walk(path, 0).filter(p -> p.endsWith("-" + v + ".buildinfo")).findFirst();
-            //Path buildcompare = Files.walk(path, 0).filter(p -> p.endsWith("-" + v + ".buildcompare")).findFirst().get();
+            versions.add(v);
+            projectsReleasesCount++;
+            String buildinfo = findFile(filenames, "-" + v + ".buildinfo");
+            String buildcompare = findFile(filenames, "-" + v + ".buildcompare");
+
+            // TODO define what to save for project release
+            Files.write(project.resolve(v + ".json"), Arrays.asList(buildspec, buildinfo, buildcompare));
+
+            // extrapolate from project release to artifacts
+            if (buildinfo == null) {
+                continue;
+            }
+            List<String> coordinates = Files.readAllLines(path.resolve(buildinfo)).stream().filter(s -> s.contains(".coordinates=")).collect(Collectors.toList());
+            if (coordinates.size() == 0) {
+                // mono-module build: project dir = ga
+                coordinates = Arrays.asList("=" + metadata.getGroupId() + ":" + metadata.getArtifactId());
+            }
+            for(String c: coordinates) {
+                c = c.substring(c.indexOf('=') + 1);
+                projectGa.add(c);
+                gavCount++;
+                projectGav++;
+                String groupId = c.substring(0, c.indexOf(':'));
+                String artifactId = c.substring(groupId.length() + 1);
+                Path artifactPath = ARTIFACT_BASE.resolve(groupId.replace('.', '/')).resolve(artifactId);
+                Files.createDirectories(artifactPath);
+                Files.write(artifactPath.resolve(v + ".json"), Arrays.asList(CONTENT_BASE.relativize(path).toString()));
+            }
+            ga.addAll(projectGa);
         }
+        // TODO define what to save for project index of releases
+        Files.write(project.resolve("index.json"), versions);
+        System.out.println(" " + versions.size() + " versions, " + projectGa.size() + " ga, " + projectGav + " gav");
+    }
+
+    private String findFile(List<String> filenames, String endsWith) {
+        return filenames.stream().filter(s -> s.endsWith(endsWith)).findFirst().orElse(null);
     }
 }
