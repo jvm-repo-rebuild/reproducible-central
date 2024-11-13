@@ -31,13 +31,13 @@ Source code: [https://github.com/apache/ratis.git](https://github.com/apache/rat
 * [org.apache.ratis:ratis-tools](https://central.sonatype.com/artifact/org.apache.ratis/ratis-tools/overview)
 </details>
 
-rebuilding **5 releases** of org.apache.ratis:ratis:
+rebuilding **6 releases** of org.apache.ratis:ratis:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.1.2](https://central.sonatype.com/artifact/org.apache.ratis/ratis/3.1.2/pom) | | | |
+| [3.1.2](https://central.sonatype.com/artifact/org.apache.ratis/ratis/3.1.2/pom) | [mvn jdk8](ratis-3.1.2.buildspec) | [result](ratis-3.1.2.buildinfo): [123 :white_check_mark:  4 :warning:](ratis-3.1.2.buildcompare) | 86M |
 | [3.1.1](https://central.sonatype.com/artifact/org.apache.ratis/ratis/3.1.1/pom) | [mvn jdk8](ratis-3.1.1.buildspec) | [result](ratis-3.1.1.buildinfo): [127 :white_check_mark: ](ratis-3.1.1.buildcompare) | 86M |
 | [3.1.0](https://central.sonatype.com/artifact/org.apache.ratis/ratis/3.1.0/pom) | [mvn jdk8](ratis-3.1.0.buildspec) | [result](ratis-3.1.0.buildinfo): [52 :white_check_mark:  20 :warning:](ratis-3.1.0.buildcompare) [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) | 83M |
 | [3.0.1](https://central.sonatype.com/artifact/org.apache.ratis/ratis/3.0.1/pom) | [mvn jdk8](ratis-3.0.1.buildspec) | [result](ratis-3.0.1.buildinfo): [52 :white_check_mark:  20 :warning:](ratis-3.0.1.buildcompare) [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) | 83M |
