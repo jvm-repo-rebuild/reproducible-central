@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=net.osslabz:mexc-client
+group-id=net.osslabz
+artifact-id=mexc-client
+version=0.2.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/osslabz/mexc-client.git
+source.scm.tag=0.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=net.osslabz
+outputs.0.filename=mexc-client-0.2.0.pom
+outputs.0.length=12153
+outputs.0.checksums.sha512=1f03af53f33aa38cb2305d0f968843de7555d9c949fef1974ace73ff56b4d058907233ca47fd042a195b42b49c09e8ca2852a55cecbbcda2c33ffef53deba16b
+
+outputs.1.groupId=net.osslabz
+outputs.1.filename=mexc-client-0.2.0.jar
+outputs.1.length=60885
+outputs.1.checksums.sha512=587e836cc5e509dd3db06398cf0d25e18fc911d1c1671f949dae188b021dab98fb18b48c97ca5c1399ff5af6278b9de8c4db39e64c4765e75e1f9f93ec917f93
+
+outputs.2.groupId=net.osslabz
+outputs.2.filename=mexc-client-0.2.0-sources.jar
+outputs.2.length=21820
+outputs.2.checksums.sha512=5a37d984c9a982ccb598abd52a6c2dc547cd95700c912a5d02dbf66a893be980b71feef83fa68b545e8b13936bc67aa322b4969e3a2ede08c84571458e9cb4eb
