@@ -1,3 +1,8 @@
 content/dev/langchain4j/langchain4j-0.35.0.buildspec:0.36.0
-content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.6.buildspec:0.82.7
+content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.7.buildspec:0.82.8
+content/org/apache/orc/orc-2.0.2.buildspec:2.0.3
 content/org/apache/shiro/shiro-2.0.1.buildspec:2.0.2
+content/org/apache/wss4j/wss4j-3.0.3.buildspec:3.0.4
+content/org/apache/maven/plugin-testing/maven-plugin-testing/maven-plugin-testing-4.0.0-beta-1.buildspec:4.0.0-beta-2
+content/org/codehaus/mojo/versions-maven-plugin/versions-maven-plugin-2.17.1.buildspec:2.18.0
+content/org/itsallcode/openfasttrace-maven-plugin/openfasttrace-maven-plugin-2.2.0.buildspec:2.3.0
