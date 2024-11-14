@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=OpenFastTrace Maven Plugin
+group-id=org.itsallcode
+artifact-id=openfasttrace-maven-plugin
+version=2.3.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/itsallcode/openfasttrace-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.8.7
+mvn.toolchain.jdk=openjdk version "17
+
+# output
+
+outputs.0.groupId=org.itsallcode
+outputs.0.filename=openfasttrace-maven-plugin-2.3.0.pom
+outputs.0.length=24262
+outputs.0.checksums.sha512=39f9245b95ec55b1db50c66695c0e88adfcff751614c41e9c0bab83dec5adb747e50b5ed2f5305761d1ba518aeb2bed2537f1696f06f8ac7a42fe1693e0aa5b9
+
+outputs.1.groupId=org.itsallcode
+outputs.1.filename=openfasttrace-maven-plugin-2.3.0.jar
+outputs.1.length=22579
+outputs.1.checksums.sha512=8c0d9ecca508a19d43fed3e8f6bb63701ca207e637e3dcc957323eac2f75cd9a32ee283519f0f844050608cdf1de208b7458c03b11f5f5f989b89f418e1e25e1
+
+outputs.2.groupId=org.itsallcode
+outputs.2.filename=openfasttrace-maven-plugin-2.3.0-sources.jar
+outputs.2.length=12502
+outputs.2.checksums.sha512=a85cc281c74e92994aebada5246041d2141d27abf2f6e4756c036859e48ffc574fb5e8fbcb5d1b1134e457ef0a4166fde7e862fe9e40ba8163cf876c6473262e
