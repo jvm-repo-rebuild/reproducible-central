@@ -6,7 +6,7 @@ version=4.0.0-beta-2
 gitRepo=https://gitbox.apache.org/repos/asf/maven-plugin-testing.git
 gitTag=${artifactId}-${version}
 
-tool=mvn-4.0.0-beta-3
+tool=mvn-4.0.0-beta-5
 jdk=22
 newline=lf
 #umask=022
