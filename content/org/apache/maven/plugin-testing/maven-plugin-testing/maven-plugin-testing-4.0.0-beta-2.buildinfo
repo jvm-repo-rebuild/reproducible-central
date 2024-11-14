@@ -1,0 +1,82 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Plugin Testing
+group-id=org.apache.maven.plugin-testing
+artifact-id=maven-plugin-testing
+version=4.0.0-beta-2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-plugin-testing.git
+source.scm.tag=maven-plugin-testing-4.0.0-beta-2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=22
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=maven-plugin-testing-harness
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.maven.plugin-testing:maven-plugin-testing
+
+outputs.0.0.groupId=org.apache.maven.plugin-testing
+outputs.0.0.filename=maven-plugin-testing-4.0.0-beta-2.pom
+outputs.0.0.length=2156
+outputs.0.0.checksums.sha512=5ffa9727b8820b13bd598a893dcf93fb1aefc9c0bd9eff715ebcfe58f886d9178459ca4fa2726b1acd8757594dcea737e1fc5811c31aa49e8d3c003e9770ef8d
+
+outputs.0.1.groupId=org.apache.maven.plugin-testing
+outputs.0.1.filename=maven-plugin-testing-4.0.0-beta-2-build.pom
+outputs.0.1.length=3130
+outputs.0.1.checksums.sha512=47eb57c07a9c73b3ea4084048f941811cfd3dfb5949f0d0a7aae8a17a1fab0a6dca364d547fdbfb854739b35d9aa70b13433465ac8f64c53536f37dcbb1f47b1
+
+outputs.0.2.groupId=org.apache.maven.plugin-testing
+outputs.0.2.filename=maven-plugin-testing-4.0.0-beta-2-source-release.zip
+outputs.0.2.length=80644
+outputs.0.2.checksums.sha512=9bec059c84082e94eed1220b88a7624947fed479b6298d0b5bc56a3da3fdd11e23d1cf593ac172393764cc0288a4ebcc506600ad1988bf6f73ecf8f1c8baafb6
+
+outputs.0.3.groupId=org.apache.maven.plugin-testing
+outputs.0.3.filename=maven-plugin-testing-4.0.0-beta-2-cyclonedx.xml
+outputs.0.3.length=184454
+outputs.0.3.checksums.sha512=97dd9a68fb211bc27125de46ab7e02a941dbf38e6cd11a2119aea84b733400c45bb58dd3a4b33d00ddcc80a815d313a9ca3b054129fbbd0ded0e3721cbdfd67c
+
+outputs.0.4.groupId=org.apache.maven.plugin-testing
+outputs.0.4.filename=maven-plugin-testing-4.0.0-beta-2-cyclonedx.json
+outputs.0.4.length=212633
+outputs.0.4.checksums.sha512=01882d716211ddc3f04810513be695e4797724256a183b71d7d988ddda33386d8ac5ff23c1cf6fa5a369ddf048af37ad2e3c0a25928528b87e9e5c78faae5c4a
+
+outputs.1.coordinates=org.apache.maven.plugin-testing:maven-plugin-testing-harness
+
+outputs.1.0.groupId=org.apache.maven.plugin-testing
+outputs.1.0.filename=maven-plugin-testing-harness-4.0.0-beta-2.pom
+outputs.1.0.length=32677
+outputs.1.0.checksums.sha512=26a376b79f015f31a94a7af6f6eff67dd2c647254d684c96e6b716f3e532db8a0754d216a0e73a1fcdf9946b095a4ffb3c35a88b79c1093d2b3f7d5ebe0f8ccf
+
+outputs.1.1.groupId=org.apache.maven.plugin-testing
+outputs.1.1.filename=maven-plugin-testing-harness-4.0.0-beta-2-build.pom
+outputs.1.1.length=3927
+outputs.1.1.checksums.sha512=41332b393a6e6c123035c2970848f469192f28d6e09a03af9bbd68668b16c8d773aa3b04ccda9a446def87fd30f53421b051dd4f5efb4923257ea621d024c0f1
+
+outputs.1.2.groupId=org.apache.maven.plugin-testing
+outputs.1.2.filename=maven-plugin-testing-harness-4.0.0-beta-2.jar
+outputs.1.2.length=66609
+outputs.1.2.checksums.sha512=c350a24e2b2551af0fdcffec4830334897f0d5df605fffbb4eb0d3d757445f74071f1fc2d915581bf185b9cd302b1c7ad684faf6d8438a7e65f37da5343dd57e
+
+outputs.1.3.groupId=org.apache.maven.plugin-testing
+outputs.1.3.filename=maven-plugin-testing-harness-4.0.0-beta-2-sources.jar
+outputs.1.3.length=44099
+outputs.1.3.checksums.sha512=85c3f1d1f57a892c49d56b01df17f596a5882382a53aeb949d20e012592e21075488ca5f28616fcd87046dc778cbff4aec64c7651f1c390f70722b3d160043c4
+
+outputs.1.4.groupId=org.apache.maven.plugin-testing
+outputs.1.4.filename=maven-plugin-testing-harness-4.0.0-beta-2-cyclonedx.xml
+outputs.1.4.length=182730
+outputs.1.4.checksums.sha512=afc5b4ddac0cdacc88805a2b1bafc0b34c62e46aba1b90340be07154452e13f45b0ff75d4553378d111ab89460da9bd43298604a8a0f618b4418e4b6751af278
+
+outputs.1.5.groupId=org.apache.maven.plugin-testing
+outputs.1.5.filename=maven-plugin-testing-harness-4.0.0-beta-2-cyclonedx.json
+outputs.1.5.length=210780
+outputs.1.5.checksums.sha512=4e61140330bd016904fc72e161905b13daaeaf3d788d2c946692c8e4e444e3a84793d9651ec1c980da200821e18417b647466e78803bf566b1361c3a0e35f642
