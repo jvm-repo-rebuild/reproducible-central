@@ -27,8 +27,9 @@ jobs:
           git commit -m "nightly update of content"
           git push
 
+      - name: Setup JBang
+        uses: jbangdev/setup-jbang@main
+
       - name: Update APIs
-        run: |
-          curl -Ls https://sh.jbang.dev | bash -s - app setup
-          ./bin/update_api.java
+        run: ./bin/update_api.java
   
