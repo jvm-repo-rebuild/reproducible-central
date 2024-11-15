@@ -28,6 +28,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: bin/docker
+          platforms: linux/amd64,linux/arm64
           push: true
           tags: ghcr.io/jvm-repo-rebuild/rb-ubuntu:latest
           cache-from: type=gha
