@@ -6,7 +6,7 @@ version=2.11.3
 gitRepo=https://github.com/apache/jspwiki.git
 gitTag=${version}
 
-tool=mvn
+tool=mvn-3.9.9
 jdk=8
 newline=crlf
 
