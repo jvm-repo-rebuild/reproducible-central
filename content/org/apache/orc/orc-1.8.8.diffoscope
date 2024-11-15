@@ -1,0 +1,126 @@
+# it looks like initial build failed, then source code lightly updated and manual rebuilkd done, which added output html files to -source-release.zip
+1 / 2 target/reference/org.apache.orc/orc-1.8.8.pom pom.xml
+--- target/reference/org.apache.orc/orc-1.8.8.pom
++++ pom.xml
+│   --- target/reference/org.apache.orc/orc-1.8.8.pom
+├── +++ pom.xml
+│ @@ -643,15 +643,14 @@
+│              <execution>
+│                <goals>
+│                  <goal>run</goal>
+│                </goals>
+│                <phase>generate-sources</phase>
+│                <configuration>
+│                  <protocVersion>3.17.3</protocVersion>
+│ -                <protocArtifact>com.google.protobuf:protoc:3.17.3</protocArtifact>
+│                  <addSources>none</addSources>
+│                  <includeDirectories>
+│                    <include>../../proto</include>
+│                  </includeDirectories>
+│                  <inputDirectories>
+│                    <include>../../proto</include>
+│                  </inputDirectories>
+
+2 / 2 target/reference/org.apache.orc/orc-1.8.8-source-release.zip target/orc-1.8.8-source-release.zip
+--- target/reference/org.apache.orc/orc-1.8.8-source-release.zip
++++ target/orc-1.8.8-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 3059088 bytes, number of entries: 1409
+│ +Zip file size: 1032852 bytes, number of entries: 601
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/
+│  -rw-r--r--  2.0 unx     3887 b- defN 00-Jan-01 00:00 orc-1.8.8/CMakeLists.txt
+│  -rw-r--r--  2.0 unx      260 b- defN 00-Jan-01 00:00 orc-1.8.8/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 00-Jan-01 00:00 orc-1.8.8/LICENSE
+│  -rw-r--r--  2.0 unx      167 b- defN 00-Jan-01 00:00 orc-1.8.8/NOTICE
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/bench/
+│  -rw-r--r--  2.0 unx     1352 b- defN 00-Jan-01 00:00 orc-1.8.8/bench/README.md
+│ @@ -125,637 +125,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/bench/spark/src/java/org/apache/orc/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/bench/spark/src/java/org/apache/orc/bench/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/bench/spark/src/java/org/apache/orc/bench/spark/
+│  -rw-r--r--  2.0 unx    12620 b- defN 00-Jan-01 00:00 orc-1.8.8/bench/spark/src/java/org/apache/orc/bench/spark/SparkBenchmark.java
+│  -rw-r--r--  2.0 unx     3471 b- defN 00-Jan-01 00:00 orc-1.8.8/bench/spark/src/java/org/apache/orc/bench/spark/SparkSchema.java
+│  -rw-r--r--  2.0 unx     2865 b- defN 00-Jan-01 00:00 orc-1.8.8/checkstyle.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/core/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/core/orc-core/
+│ --rw-r--r--  2.0 unx    44136 b- defN 00-Jan-01 00:00 orc-1.8.8/core/orc-core/allclasses-frame.html
+...
+│ --rw-r--r--  2.0 unx    12842 b- defN 00-Jan-01 00:00 orc-1.8.8/core/orc-core/stylesheet.css
+│ -drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/core/orc-mapreduce/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/core/orc-tools/
+│  -rw-r--r--  2.0 unx     6571 b- defN 00-Jan-01 00:00 orc-1.8.8/core/pom.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/core/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/core/src/findbugs/
+│  -rw-r--r--  2.0 unx     3456 b- defN 00-Jan-01 00:00 orc-1.8.8/core/src/findbugs/exclude.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/core/src/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/core/src/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/core/src/java/org/apache/
+│ @@ -1070,74 +447,14 @@
+│  -rw-r--r--  2.0 unx     2596 b- defN 00-Jan-01 00:00 orc-1.8.8/examples/src/java/org/apache/orc/examples/CompressionWriter.java
+│  -rw-r--r--  2.0 unx     2844 b- defN 00-Jan-01 00:00 orc-1.8.8/examples/src/java/org/apache/orc/examples/CoreReader.java
+│  -rw-r--r--  2.0 unx     2436 b- defN 00-Jan-01 00:00 orc-1.8.8/examples/src/java/org/apache/orc/examples/CoreWriter.java
+│  -rw-r--r--  2.0 unx     4434 b- defN 00-Jan-01 00:00 orc-1.8.8/examples/src/java/org/apache/orc/examples/Driver.java
+│  -rw-r--r--  2.0 unx     2906 b- defN 00-Jan-01 00:00 orc-1.8.8/examples/src/java/org/apache/orc/examples/InMemoryEncryptionReader.java
+│  -rw-r--r--  2.0 unx     2885 b- defN 00-Jan-01 00:00 orc-1.8.8/examples/src/java/org/apache/orc/examples/InMemoryEncryptionWriter.java
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/mapreduce/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/mapreduce/orc-mapreduce/
+│ --rw-r--r--  2.0 unx     2641 b- defN 00-Jan-01 00:00 orc-1.8.8/mapreduce/orc-mapreduce/allclasses-frame.html
+...
+│ --rw-r--r--  2.0 unx    12842 b- defN 00-Jan-01 00:00 orc-1.8.8/shims/orc-shims/stylesheet.css
+│ -drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/shims/orc-tools/
+│  -rw-r--r--  2.0 unx     3801 b- defN 00-Jan-01 00:00 orc-1.8.8/shims/pom.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/shims/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/shims/src/findbugs/
+│  -rw-r--r--  2.0 unx      696 b- defN 00-Jan-01 00:00 orc-1.8.8/shims/src/findbugs/exclude.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/shims/src/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/shims/src/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/shims/src/java/org/apache/
+│ @@ -1275,79 +532,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/shims/src/test/org/apache/orc/impl/
+│  -rw-r--r--  2.0 unx     2368 b- defN 00-Jan-01 00:00 orc-1.8.8/shims/src/test/org/apache/orc/impl/TestHadoopShimsPre2_7.java
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/shims/src/test/resources/
+│  -rw-r--r--  2.0 unx      893 b- defN 00-Jan-01 00:00 orc-1.8.8/shims/src/test/resources/log4j.properties
+│  -rw-r--r--  2.0 unx     2174 b- defN 00-Jan-01 00:00 orc-1.8.8/spotbugs-exclude.xml
+│  -rw-r--r--  2.0 unx     1013 b- defN 00-Jan-01 00:00 orc-1.8.8/spotbugs-include.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/tools/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/tools/orc-tools/
+│ --rw-r--r--  2.0 unx     2545 b- defN 00-Jan-01 00:00 orc-1.8.8/tools/orc-tools/allclasses-frame.html
+...
+│ --rw-r--r--  2.0 unx    12842 b- defN 00-Jan-01 00:00 orc-1.8.8/tools/orc-tools/stylesheet.css
+│  -rw-r--r--  2.0 unx     7946 b- defN 00-Jan-01 00:00 orc-1.8.8/tools/pom.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/tools/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/tools/src/assembly/
+│  -rw-r--r--  2.0 unx     1107 b- defN 00-Jan-01 00:00 orc-1.8.8/tools/src/assembly/uber.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/tools/src/findbugs/
+│  -rw-r--r--  2.0 unx     1207 b- defN 00-Jan-01 00:00 orc-1.8.8/tools/src/findbugs/exclude.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-1.8.8/tools/src/java/
+│ @@ -1404,8 +596,8 @@
+│  -rw-r--r--  2.0 unx      937 b- defN 00-Jan-01 00:00 orc-1.8.8/tools/src/test/resources/log4j.properties
+│  -rw-r--r--  2.0 unx    12232 b- defN 00-Jan-01 00:00 orc-1.8.8/tools/src/test/resources/orc-file-dump-bloomfilter.out
+│  -rw-r--r--  2.0 unx    13478 b- defN 00-Jan-01 00:00 orc-1.8.8/tools/src/test/resources/orc-file-dump-bloomfilter2.out
+│  -rw-r--r--  2.0 unx    33740 b- defN 00-Jan-01 00:00 orc-1.8.8/tools/src/test/resources/orc-file-dump-dictionary-threshold.out
+│  -rw-r--r--  2.0 unx    32969 b- defN 00-Jan-01 00:00 orc-1.8.8/tools/src/test/resources/orc-file-dump.json
+│  -rw-r--r--  2.0 unx    13947 b- defN 00-Jan-01 00:00 orc-1.8.8/tools/src/test/resources/orc-file-dump.out
+│  -rw-r--r--  2.0 unx     5806 b- defN 00-Jan-01 00:00 orc-1.8.8/tools/src/test/resources/orc-file-has-null.out
+│ -1409 files, 16416463 bytes uncompressed, 2763660 bytes compressed:  83.2%
+│ +601 files, 4197882 bytes uncompressed, 916154 bytes compressed:  78.2%
+├── orc-1.8.8/pom.xml
+│ ├── orc-1.8.8/pom.xml
+│ │ @@ -643,15 +643,14 @@
+│ │              <execution>
+│ │                <goals>
+│ │                  <goal>run</goal>
+│ │                </goals>
+│ │                <phase>generate-sources</phase>
+│ │                <configuration>
+│ │                  <protocVersion>3.17.3</protocVersion>
+│ │ -                <protocArtifact>com.google.protobuf:protoc:3.17.3</protocArtifact>
+│ │                  <addSources>none</addSources>
+│ │                  <includeDirectories>
+│ │                    <include>../../proto</include>
+│ │                  </includeDirectories>
+│ │                  <inputDirectories>
+│ │                    <include>../../proto</include>
+│ │                  </inputDirectories>
+
