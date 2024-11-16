@@ -1,6 +1,1 @@
-content/dev/langchain4j/langchain4j-0.35.0.buildspec:0.36.0
-content/io/cucumber/gherkin/gherkin-30.0.1.buildspec:30.0.4
-content/io/cucumber/junit-xml-formatter/junit-xml-formatter-0.5.0.buildspec:0.6.0
-content/io/cucumber/messages/messages-27.0.0.buildspec:27.0.2
-content/org/apache/shiro/shiro-2.0.1.buildspec:2.0.2
-content/org/codehaus/plexus/plexus-sec-dispatcher/plexus-sec-dispatcher-4.0.1.buildspec:4.0.2
+content/eu/maveniverse/maven/toolbox/toolbox-0.3.6.buildspec:0.5.0
