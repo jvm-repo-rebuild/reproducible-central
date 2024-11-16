@@ -70,13 +70,13 @@ Source code: [https://github.com/apache/drill.git](https://github.com/apache/dri
 * [org.apache.drill:drill-yarn](https://central.sonatype.com/artifact/org.apache.drill/drill-yarn/overview)
 </details>
 
-rebuilding **3 releases** of org.apache.drill:drill-root:
+rebuilding **4 releases** of org.apache.drill:drill-root:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.21.2](https://central.sonatype.com/artifact/org.apache.drill/drill-root/1.21.2/pom) | | | |
+| [1.21.2](https://central.sonatype.com/artifact/org.apache.drill/drill-root/1.21.2/pom) | [mvn jdk17](drill-1.21.2.buildspec) | [result](drill-root-1.21.2.buildinfo): [200 :white_check_mark:  14 :warning:](drill-root-1.21.2.buildcompare) | 677M |
 | [1.21.1](https://central.sonatype.com/artifact/org.apache.drill/drill-root/1.21.1/pom) | [mvn jdk17](drill-1.21.1.buildspec) | [result](drill-root-1.21.1.buildinfo): [166 :white_check_mark:  48 :warning:](drill-root-1.21.1.buildcompare) [:mag:](drill-root-1.21.1.diffoscope) [:memo:](https://github.com/apache/drill/pull/2805) | 659M |
 | [1.21.0](https://central.sonatype.com/artifact/org.apache.drill/drill-root/1.21.0/pom) | [mvn jdk17](drill-1.21.0.buildspec) | [result](drill-root-1.21.0.buildinfo): [108 :white_check_mark:  106 :warning:](drill-root-1.21.0.buildcompare) [:mag:](drill-root-1.21.0.diffoscope) [:memo:](https://github.com/apache/drill/pull/2766) | 662M |
 | [1.20.3](https://central.sonatype.com/artifact/org.apache.drill/drill-root/1.20.3/pom) | | | |
