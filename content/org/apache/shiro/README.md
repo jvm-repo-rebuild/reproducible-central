@@ -49,13 +49,13 @@ Source code: [https://github.com/apache/shiro.git](https://github.com/apache/shi
 * [org.apache.shiro:shiro-web](https://central.sonatype.com/artifact/org.apache.shiro/shiro-web/overview)
 </details>
 
-rebuilding **13 releases** of org.apache.shiro:shiro-root:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **14 releases** of org.apache.shiro:shiro-root:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0.2](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.0.2/pom) | | | |
+| [2.0.2](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.0.2/pom) | [mvn jdk23](shiro-2.0.2.buildspec) | [result](shiro-root-2.0.2.buildinfo): [142 :white_check_mark: ](shiro-root-2.0.2.buildcompare) | 19M |
 | [2.0.1](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.0.1/pom) | [mvn jdk22](shiro-2.0.1.buildspec) | [result](shiro-root-2.0.1.buildinfo): [106 :white_check_mark: ](shiro-root-2.0.1.buildcompare) | 17M |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.0.0/pom) | [mvn jdk21](shiro-2.0.0.buildspec) | [result](shiro-root-2.0.0.buildinfo): [107 :white_check_mark: ](shiro-root-2.0.0.buildcompare) | 18M |
 | [2.0.0-alpha-4](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.0.0-alpha-4/pom) | [mvn jdk21](shiro-2.0.0-alpha-4.buildspec) | [result](shiro-root-2.0.0-alpha-4.buildinfo): [107 :white_check_mark: ](shiro-root-2.0.0-alpha-4.buildcompare) | 17M |
