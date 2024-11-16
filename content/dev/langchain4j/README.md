@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com/langchain4j/langchain4j.git)
 
-<details><summary>This project defines 67 modules:</summary>
+<details><summary>This project defines 68 modules:</summary>
 
 * [dev.langchain4j:langchain4j](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/overview)
 * [dev.langchain4j:langchain4j-anthropic](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-anthropic/overview)
@@ -23,6 +23,7 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-code-execution-engine-graalvm-polyglot](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-code-execution-engine-graalvm-polyglot/overview)
 * [dev.langchain4j:langchain4j-code-execution-engine-judge0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-code-execution-engine-judge0/overview)
 * [dev.langchain4j:langchain4j-cohere](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-cohere/overview)
+* [dev.langchain4j:langchain4j-coherence](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-coherence/overview)
 * [dev.langchain4j:langchain4j-core](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-core/overview)
 * [dev.langchain4j:langchain4j-couchbase](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-couchbase/overview)
 * [dev.langchain4j:langchain4j-dashscope](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-dashscope/overview)
@@ -78,13 +79,13 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-zhipu-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-zhipu-ai/overview)
 </details>
 
-rebuilding **13 releases** of dev.langchain4j:langchain4j:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **14 releases** of dev.langchain4j:langchain4j:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.36.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.36.0/pom) | | | |
+| [0.36.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.36.0/pom) | [mvn jdk21](langchain4j-0.36.0.buildspec) | [result](langchain4j-aggregator-0.36.0.buildinfo): [202 :white_check_mark: ](langchain4j-aggregator-0.36.0.buildcompare) | 4.7M |
 | [0.35.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.35.0/pom) | [mvn jdk21](langchain4j-0.35.0.buildspec) | [result](langchain4j-aggregator-0.35.0.buildinfo): [199 :white_check_mark: ](langchain4j-aggregator-0.35.0.buildcompare) | 4.5M |
 | [0.34.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.34.0/pom) | [mvn jdk21](langchain4j-0.34.0.buildspec) | [result](langchain4j-aggregator-0.34.0.buildinfo): [180 :white_check_mark: ](langchain4j-aggregator-0.34.0.buildcompare) | 3.8M |
 | [0.33.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/0.33.0/pom) | [mvn jdk21](langchain4j-0.33.0.buildspec) | [result](langchain4j-aggregator-0.33.0.buildinfo): [168 :white_check_mark: ](langchain4j-aggregator-0.33.0.buildcompare) | 3.4M |
