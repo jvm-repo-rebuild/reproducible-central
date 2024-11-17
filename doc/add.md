@@ -4,8 +4,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241116170116 --> [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | [0.3.6](../content/eu/maveniverse/maven/toolbox/toolbox-0.3.6.buildspec) :white_check_mark: | [0.5.0](../content/eu/maveniverse/maven/toolbox/toolbox-0.5.0.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/toolbox/toolbox-0.3.6.buildspec 0.5.0` |
-| <!-- 20241116150919 --> [mima](../content/eu/maveniverse/maven/mima/README.md) | [3.0.0-alpha-3](../content/eu/maveniverse/maven/mima/mima-3.0.0-alpha-3.buildspec) :white_check_mark: | 2.4.21  | `bin/add-new-release.sh content/eu/maveniverse/maven/mima/mima-3.0.0-alpha-3.buildspec ...` |
+| <!-- 20241117133509 --> [mada-style-gradle](../content/dk/mada/style/mada-style-gradle/README.md) | [1.0.3](../content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.0.3.buildspec) :white_check_mark: | [1.0.4](../content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.0.4.buildspec) | `bin/add-new-release.sh content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.0.3.buildspec 1.0.4` |
+| <!-- 20241117020412 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [11.1.1-beta-13](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-13.buildspec) :white_check_mark: | [11.1.1-beta-14](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-14.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-13.buildspec 11.1.1-beta-14` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -47,7 +47,6 @@ New Releases To Add
 | <!-- 20241015135826 --> [jena](../content/org/apache/jena/jena/README.md) | [4.5.0](../content/org/apache/jena/jena/jena-4.5.0.buildspec) :warning: | [5.2.0](../content/org/apache/jena/jena/jena-5.2.0.buildspec) | `bin/add-new-release.sh content/org/apache/jena/jena/jena-4.5.0.buildspec 5.2.0` |
 | <!-- 20240812114051 --> [html-formatter](../content/io/cucumber/html-formatter/README.md) | [20.2.0](../content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec) :warning: [:memo:](https://github.com/cucumber/html-formatter/issues/207) | [21.7.0](../content/io/cucumber/html-formatter/html-formatter-21.7.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec 21.7.0` |
 | <!-- 20240702171741 --> [git-commit-id-maven-plugin](../content/io/github/git-commit-id/README.md) | [9.0.0](../content/io/github/git-commit-id/git-commit-id-maven-plugin-9.0.0.buildspec) :x: | [9.0.1](../content/io/github/git-commit-id/git-commit-id-maven-plugin-9.0.1.buildspec) | `bin/add-new-release.sh content/io/github/git-commit-id/git-commit-id-maven-plugin-9.0.0.buildspec 9.0.1` |
-| <!-- 20240623065435 --> [drill-root](../content/org/apache/drill/README.md) | [1.21.1](../content/org/apache/drill/drill-1.21.1.buildspec) :warning: [:memo:](https://github.com/apache/drill/pull/2805) | [1.21.2](../content/org/apache/drill/drill-1.21.2.buildspec) | `bin/add-new-release.sh content/org/apache/drill/drill-1.21.1.buildspec 1.21.2` |
 | <!-- 20240509124549 --> [paimon-shade](../content/org/apache/paimon/shade/README.md) | [0.6.0-incubating](../content/org/apache/paimon/shade/paimon-shade-0.6.0-incubating.buildspec) :warning: [:memo:](https://github.com/apache/incubator-paimon-shade/pull/18) | [0.8.0](../content/org/apache/paimon/shade/paimon-shade-0.8.0.buildspec) | `bin/add-new-release.sh content/org/apache/paimon/shade/paimon-shade-0.6.0-incubating.buildspec 0.8.0` |
 | <!-- 20240420172655 --> [unexepack](../content/io/github/albertus82/unexepack/README.md) | [0.2.1](../content/io/github/albertus82/unexepack/unexepack-0.2.1.buildspec) :warning: | [0.3.1](../content/io/github/albertus82/unexepack/unexepack-0.3.1.buildspec) | `bin/add-new-release.sh content/io/github/albertus82/unexepack/unexepack-0.2.1.buildspec 0.3.1` |
 | <!-- 20240321101833 --> [io.wcm.wcm.ui.granite](../content/io/wcm/io.wcm.wcm/ui/granite/README.md) | [1.9.12](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec) :warning: | [1.10.4](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.10.4.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec 1.10.4` |
@@ -112,6 +111,7 @@ New Releases To Add
 | <!-- 20240708085755 --> [io.wcm.handler.link](../content/io/wcm/io.wcm.handler/link/README.md) | 2.2.2 :warning: |
 | <!-- 20240708084644 --> [io.wcm.wcm.commons](../content/io/wcm/io.wcm.wcm/commons/README.md) | 1.11.0 :warning: |
 | <!-- 20240704232838 --> [hk2-parent](../content/org/glassfish/hk2/README.md) | 4.0.0-M3 :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/1071) |
+| <!-- 20240623065435 --> [drill-root](../content/org/apache/drill/README.md) | 1.21.2 :warning: |
 | <!-- 20240617100002 --> [jspwiki-builder](../content/org/apache/jspwiki/README.md) | 2.12.2 :warning: [:memo:](https://issues.apache.org/jira/browse/JSPWIKI-1202) |
 | <!-- 20240610180453 --> [com.io7m.certusine](../content/com/io7m/certusine/README.md) | 3.1.0 :warning: |
 | <!-- 20240609233725 --> [javacan](../content/tel/schich/javacan/README.md) | 3.4.0 :x: |

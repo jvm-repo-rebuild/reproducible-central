@@ -1,1 +1,2 @@
-content/eu/maveniverse/maven/toolbox/toolbox-0.3.6.buildspec:0.5.0
+content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.0.3.buildspec:1.0.4
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-13.buildspec:11.1.1-beta-14
