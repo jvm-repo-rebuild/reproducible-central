@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=net.osslabz:bitcoin-commons
+group-id=net.osslabz
+artifact-id=bitcoin-commons
+version=0.2.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/osslabz/bitcoin-commons.git
+source.scm.tag=0.2.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=net.osslabz
+outputs.0.filename=bitcoin-commons-0.2.1.pom
+outputs.0.length=10738
+outputs.0.checksums.sha512=da20b4bc1c3cd58d08d08b0b98f2be267d75fbbc9e53fe9f444dd437c0ec523da79a929bf7fd16045a5d0d9426bb18246be02bf563b0f02291a72e259f5951f0
+
+outputs.1.groupId=net.osslabz
+outputs.1.filename=bitcoin-commons-0.2.1.jar
+outputs.1.length=7259
+outputs.1.checksums.sha512=63f4beda800dd1317e52313c50ea2b4d321bade0ea44a8f66f05fb5ce74ad46cb50fd96634a5496de69634da9fc6331dd47365d9c7d3c87be261f1feeca846d6
+
+outputs.2.groupId=net.osslabz
+outputs.2.filename=bitcoin-commons-0.2.1-sources.jar
+outputs.2.length=5154
+outputs.2.checksums.sha512=c8b8df0d8569b82c1f9d499ea4d1147495256849a59821db10e99962bbc1f63c1ffbdba2147946776e74adcd213c19ce5ee636b7fad5d79952c9e2ac0da64e8c
