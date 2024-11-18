@@ -1012,14 +1012,14 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **7 releases** of io.quarkus:quarkus-project:
+rebuilding **8 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [3.17.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.17.0.CR1/pom) | | | |
-| [3.16.3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.16.3/pom) | | | |
+| [3.16.3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.16.3/pom) | [mvn jdk17](quarkus-3.16.3.buildspec) | [result](quarkus-project-3.16.3.buildinfo): [2209 :white_check_mark:  7 :warning:](quarkus-project-3.16.3.buildcompare) | 129M |
 | [3.16.2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.16.2/pom) | [mvn jdk17](quarkus-3.16.2.buildspec) | [result](quarkus-project-3.16.2.buildinfo): [2209 :white_check_mark:  7 :warning:](quarkus-project-3.16.2.buildcompare) | 129M |
 | [3.16.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.16.1/pom) | [mvn jdk17](quarkus-3.16.1.buildspec) | [result](quarkus-project-3.16.1.buildinfo): [2209 :white_check_mark:  7 :warning:](quarkus-project-3.16.1.buildcompare) | 129M |
 | [3.16.0](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.16.0/pom) | [mvn jdk17](quarkus-3.16.0.buildspec) | [result](quarkus-project-3.16.0.buildinfo): [2209 :white_check_mark:  7 :warning:](quarkus-project-3.16.0.buildcompare) | 129M |
