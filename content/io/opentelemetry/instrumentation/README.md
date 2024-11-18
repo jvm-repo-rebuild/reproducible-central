@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentation.git](https://github.com/open-telemetry/opentelemetry-java-instrumentation.git)
 
-<details><summary>This project defines 400 modules:</summary>
+<details><summary>This project defines 403 modules:</summary>
 
 * [io.opentelemetry.instrumentation:opentelemetry-alibaba-druid-1.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-alibaba-druid-1.0/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-apache-dbcp-2.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-apache-dbcp-2.0/overview)
@@ -53,7 +53,9 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentati
 * [io.opentelemetry.instrumentation:opentelemetry-kafka-clients-2.6](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-kafka-clients-2.6/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-kafka-clients-common](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-kafka-clients-common/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-ktor-1.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-ktor-1.0/overview)
+* [io.opentelemetry.instrumentation:opentelemetry-ktor-2-common](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-ktor-2-common/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-ktor-2.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-ktor-2.0/overview)
+* [io.opentelemetry.instrumentation:opentelemetry-ktor-3.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-ktor-3.0/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-ktor-common](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-ktor-common/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-lettuce-5.1](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-lettuce-5.1/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-lettuce-common](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-lettuce-common/overview)
@@ -251,6 +253,7 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentati
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-kotlinx-coroutines-1.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-kotlinx-coroutines-1.0/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-kotlinx-coroutines-flow-1.3](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-kotlinx-coroutines-flow-1.3/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-ktor-2.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-ktor-2.0/overview)
+* [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-ktor-3.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-ktor-3.0/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-kubernetes-client-7.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-kubernetes-client-7.0/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-lettuce-4.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-lettuce-4.0/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-lettuce-5.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-lettuce-5.0/overview)
@@ -411,13 +414,13 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentati
 * [io.opentelemetry.javaagent:opentelemetry-testing-common](https://central.sonatype.com/artifact/io.opentelemetry.javaagent/opentelemetry-testing-common/overview)
 </details>
 
-rebuilding **32 releases** of io.opentelemetry.instrumentation:opentelemetry-instrumentation-api:
+rebuilding **33 releases** of io.opentelemetry.instrumentation:opentelemetry-instrumentation-api:
 - **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 14 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 15 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.10.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.10.0/pom) | | | |
+| [2.10.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.10.0/pom) | [gradle jdk17](opentelemetry-2.10.0.buildspec) | [result](opentelemetry-instrumentation-api-2.10.0.buildinfo): [1088 :white_check_mark:  3 :warning:](opentelemetry-instrumentation-api-2.10.0.buildcompare) | 76M |
 | [2.9.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.9.0/pom) | [gradle jdk17](opentelemetry-2.9.0.buildspec) | [result](opentelemetry-instrumentation-api-2.9.0.buildinfo): [1079 :white_check_mark:  3 :warning:](opentelemetry-instrumentation-api-2.9.0.buildcompare) | 84M |
 | [2.8.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.8.0/pom) | [gradle jdk17](opentelemetry-2.8.0.buildspec) | [result](opentelemetry-instrumentation-api-2.8.0.buildinfo): [1073 :white_check_mark:  3 :warning:](opentelemetry-instrumentation-api-2.8.0.buildcompare) | 75M |
 | [2.7.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.7.0/pom) | [gradle jdk17](opentelemetry-2.7.0.buildspec) | [result](opentelemetry-instrumentation-api-2.7.0.buildinfo): [1067 :white_check_mark:  3 :warning:](opentelemetry-instrumentation-api-2.7.0.buildcompare) | 75M |
