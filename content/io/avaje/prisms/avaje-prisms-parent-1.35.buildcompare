@@ -1,0 +1,8 @@
+version=1.35
+ok=7
+ko=0
+ignored=0
+okFiles="avaje-prisms-parent-1.35.pom avaje-prism-core-1.35.pom avaje-prism-core-1.35.jar avaje-prism-core-1.35-sources.jar avaje-prisms-1.35.pom avaje-prisms-1.35.jar avaje-prisms-1.35-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
