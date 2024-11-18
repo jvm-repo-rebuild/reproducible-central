@@ -1,2 +1,2 @@
-content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.0.3.buildspec:1.0.4
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-13.buildspec:11.1.1-beta-14
+content/com/cognite/units/units-catalog/units-catalog-0.1.14.buildspec:0.1.15
+content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.3.buildspec:2.0.4
