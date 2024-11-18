@@ -1,0 +1,10 @@
+version=1.2.0
+ok=2
+ko=1
+ignored=0
+okFiles="coingecko-java-1.2.0.pom coingecko-java-1.2.0-sources.jar"
+koFiles="coingecko-java-1.2.0.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/net.osslabz/coingecko-java-1.2.0.jar target/coingecko-java-1.2.0.jar
