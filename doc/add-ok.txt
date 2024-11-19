@@ -1,2 +1,2 @@
-content/com/cognite/units/units-catalog/units-catalog-0.1.14.buildspec:0.1.15
-content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.3.buildspec:2.0.4
+content/dev/langchain4j/langchain4j-0.36.0.buildspec:0.36.1
+content/io/airlift/airbase/airbase-199.buildspec:200

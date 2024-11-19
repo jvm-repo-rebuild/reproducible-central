@@ -13,6 +13,6 @@ rebuilding **1 releases** of net.osslabz:coingecko-java:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.2.0](https://central.sonatype.com/artifact/net.osslabz/coingecko-java/1.2.0/pom) | [mvn jdk21](coingecko-java-1.2.0.buildspec) | [result](coingecko-java-1.2.0.buildinfo): [2 :white_check_mark:  1 :warning:](coingecko-java-1.2.0.buildcompare) | 173K |
+| [1.2.0](https://central.sonatype.com/artifact/net.osslabz/coingecko-java/1.2.0/pom) | [mvn jdk21](coingecko-java-1.2.0.buildspec) | [result](coingecko-java-1.2.0.buildinfo): [2 :white_check_mark:  1 :warning:](coingecko-java-1.2.0.buildcompare) [:mag:](coingecko-java-1.2.0.diffoscope) | 173K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
