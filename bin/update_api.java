@@ -35,9 +35,10 @@ import org.codehaus.plexus.util.xml.pull.XmlPullParserException;
 
 public class update_api extends SimpleFileVisitor<Path> {
     public static void main(String... args) throws Exception {
-        Files.walkFileTree(Path.of("content"), new update_api());
-        System.out.println(PROJECT_BASE + ": " + projectsCount + " projects, " + projectsReleasesCount + " releases");
-        System.out.println(ARTIFACT_BASE + ": " + ga.size() + " ga, " + gavCount + " gav");
+        update_api u = new update_api();
+        Files.walkFileTree(Path.of("content"), u);
+        u.summarize();
+        u.checkOutputTimestamps();
     }
 
     @Override
@@ -68,6 +69,11 @@ public class update_api extends SimpleFileVisitor<Path> {
     private static Set<String> ga = new HashSet<>();
     private static long gavCount = 0;
 
+    private void summarize() {
+        System.out.println(PROJECT_BASE + ": " + projectsCount + " projects, " + projectsReleasesCount + " releases");
+        System.out.println(ARTIFACT_BASE + ": " + ga.size() + " ga, " + gavCount + " gav");
+    }
+
     private void updateProject(Path path, Metadata metadata) throws IOException {
         System.out.print(++projectsCount + " " + path);
         Path project = PROJECT_BASE.resolve(CONTENT_BASE.relativize(path));
@@ -91,8 +97,8 @@ public class update_api extends SimpleFileVisitor<Path> {
             String buildinfo = findFile(filenames, "-" + v + ".buildinfo");
             String buildcompare = findFile(filenames, "-" + v + ".buildcompare");
 
-            // TODO define what to save for project release
-            Files.write(project.resolve(v + ".json"), Arrays.asList(buildspec, buildinfo, buildcompare));
+            // TODO define what to save for project release json file
+            Files.write(project.resolve(v + ".txt"), Arrays.asList(buildspec, buildinfo, buildcompare));
 
             // extrapolate from project release to artifacts
             if (buildinfo == null) {
@@ -112,16 +118,40 @@ public class update_api extends SimpleFileVisitor<Path> {
                 String artifactId = c.substring(groupId.length() + 1);
                 Path artifactPath = ARTIFACT_BASE.resolve(groupId.replace('.', '/')).resolve(artifactId);
                 Files.createDirectories(artifactPath);
-                Files.write(artifactPath.resolve(v + ".json"), Arrays.asList(CONTENT_BASE.relativize(path).toString()));
+                Files.write(artifactPath.resolve(v + ".txt"), Arrays.asList(CONTENT_BASE.relativize(path).toString()));
             }
             ga.addAll(projectGa);
         }
-        // TODO define what to save for project index of releases
-        Files.write(project.resolve("index.json"), versions);
+        // TODO define what to save for project index of releases  json file
+        Files.write(project.resolve("index.txt"), versions);
         System.out.println(" " + versions.size() + " versions, " + projectGa.size() + " ga, " + projectGav + " gav");
     }
 
     private String findFile(List<String> filenames, String endsWith) {
         return filenames.stream().filter(s -> s.endsWith(endsWith)).findFirst().orElse(null);
+    }
+
+    private void checkOutputTimestamps() throws IOException {
+        List<String> missed = Files.readAllLines(Path.of("outputTimestamp.txt")).stream()
+                .filter(s -> s.contains("/") && keep(s) && !Files.exists(ARTIFACT_BASE.resolve(s.substring(0, s.lastIndexOf('/')) + ".txt")))
+                .collect(Collectors.toList());
+        missed.subList(missed.size() - 100, missed.size()).stream()
+                .forEach(System.out::println);
+    }
+
+    private static final String[] IGNORE = {
+        "com/flowlogix/checkstyle",
+        "com/flowlogix/infra-pom",
+        "com/taobao/arthas/",
+        "net/osslabz/crypto-commons",
+        "org/finos/legend/engine/"
+    };
+    private boolean keep(String s) {
+        for(String i: IGNORE) {
+            if (s.startsWith(i)) {
+                return false;
+            }
+        }
+        return true;
     }
 }

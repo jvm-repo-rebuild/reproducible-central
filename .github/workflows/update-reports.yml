@@ -31,5 +31,6 @@ jobs:
         uses: jbangdev/setup-jbang@main
 
       - name: Update APIs
-        run: ./bin/update_api.java
-  
+        run: |
+          wget https://raw.githubusercontent.com/hboutemy/mcmm-logs/refs/heads/master/outputTimestamp.txt
+          ./bin/update_api.java
