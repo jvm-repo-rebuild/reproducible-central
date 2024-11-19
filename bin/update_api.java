@@ -87,6 +87,7 @@ public class update_api extends SimpleFileVisitor<Path> {
         List<String> versions = new ArrayList<>();
         Set<String> projectGa = new HashSet<>();
         long projectGav = 0;
+        List<String> coordinates = null;
         for(String v: metadata.getVersioning().getVersions()) {
             String buildspec = findFile(filenames, "-" + v + ".buildspec");
             if (buildspec == null) {
@@ -102,12 +103,20 @@ public class update_api extends SimpleFileVisitor<Path> {
 
             // extrapolate from project release to artifacts
             if (buildinfo == null) {
-                continue;
-            }
-            List<String> coordinates = Files.readAllLines(path.resolve(buildinfo)).stream().filter(s -> s.contains(".coordinates=")).collect(Collectors.toList());
-            if (coordinates.size() == 0) {
-                // mono-module build: project dir = ga
-                coordinates = Arrays.asList("=" + metadata.getGroupId() + ":" + metadata.getArtifactId());
+                // build failed: reuse previous coordinates
+                System.out.print(" (" + v + ")");
+                if (coordinates == null) {
+                    // no previous
+                    System.out.print("*");
+                    continue;
+                }
+            } else {
+                // extract coordinates
+                coordinates = Files.readAllLines(path.resolve(buildinfo)).stream().filter(s -> s.contains(".coordinates=")).collect(Collectors.toList());
+                if (coordinates.size() == 0) {
+                    // mono-module build: project dir = ga
+                    coordinates = Arrays.asList("=" + metadata.getGroupId() + ":" + metadata.getArtifactId());
+                }
             }
             for(String c: coordinates) {
                 c = c.substring(c.indexOf('=') + 1);
@@ -132,7 +141,12 @@ public class update_api extends SimpleFileVisitor<Path> {
     }
 
     private void checkOutputTimestamps() throws IOException {
-        List<String> missed = Files.readAllLines(Path.of("outputTimestamp.txt")).stream()
+        Path outputTimestamps = Path.of("outputTimestamp.txt");
+        if (!Files.exists(outputTimestamps)) {
+            System.out.println("Missing outputTimestamp.txt to check missed rebuilds.");
+            return;
+        }
+        List<String> missed = Files.readAllLines(outputTimestamps).stream()
                 .filter(s -> s.contains("/") && keep(s) && !Files.exists(ARTIFACT_BASE.resolve(s.substring(0, s.lastIndexOf('/')) + ".txt")))
                 .collect(Collectors.toList());
         missed.subList(missed.size() - 100, missed.size()).stream()
