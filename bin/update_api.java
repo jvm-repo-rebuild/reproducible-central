@@ -11,6 +11,7 @@ import java.nio.file.FileVisitResult;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.SimpleFileVisitor;
+import java.nio.file.StandardCopyOption;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -22,6 +23,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.Properties;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.stream.Collector;
@@ -61,8 +63,10 @@ public class update_api extends SimpleFileVisitor<Path> {
     }
 
     private static final Path CONTENT_BASE = Path.of("content");
-    private static final Path PROJECT_BASE = Path.of("gh-pages/project");
-    private static final Path ARTIFACT_BASE = Path.of("gh-pages/artifact");
+    private static final Path API_PROJECT_BASE = Path.of("gh-pages/api/project");
+    private static final Path API_ARTIFACT_BASE = Path.of("gh-pages/api/artifact");
+    private static final Path BADGE_PROJECT_BASE = Path.of("gh-pages/badge/project");
+    private static final Path BADGE_ARTIFACT_BASE = Path.of("gh-pages/badge/artifact");
 
     private static long projectsCount = 0;
     private static long projectsReleasesCount = 0;
@@ -70,13 +74,13 @@ public class update_api extends SimpleFileVisitor<Path> {
     private static long gavCount = 0;
 
     private void summarize() {
-        System.out.println(PROJECT_BASE + ": " + projectsCount + " projects, " + projectsReleasesCount + " releases");
-        System.out.println(ARTIFACT_BASE + ": " + ga.size() + " ga, " + gavCount + " gav");
+        System.out.println(API_PROJECT_BASE + ": " + projectsCount + " projects, " + projectsReleasesCount + " releases");
+        System.out.println(API_ARTIFACT_BASE + ": " + ga.size() + " ga, " + gavCount + " gav");
     }
 
     private void updateProject(Path path, Metadata metadata) throws IOException {
         System.out.print(++projectsCount + " " + path);
-        Path project = PROJECT_BASE.resolve(CONTENT_BASE.relativize(path));
+        Path project = API_PROJECT_BASE.resolve(CONTENT_BASE.relativize(path));
         Files.createDirectories(project);
 
         List<String> filenames;
@@ -88,6 +92,9 @@ public class update_api extends SimpleFileVisitor<Path> {
         Set<String> projectGa = new HashSet<>();
         long projectGav = 0;
         List<String> coordinates = null;
+        int ok;
+        int ko;
+
         for(String v: metadata.getVersioning().getVersions()) {
             String buildspec = findFile(filenames, "-" + v + ".buildspec");
             if (buildspec == null) {
@@ -118,6 +125,25 @@ public class update_api extends SimpleFileVisitor<Path> {
                     coordinates = Arrays.asList("=" + metadata.getGroupId() + ":" + metadata.getArtifactId());
                 }
             }
+
+            // read buildcompare
+            ok = ko = -1;
+            if (buildcompare != null) {
+                Path buildcomparePath = path.resolve(buildcompare);
+                Properties p = new Properties();
+                try (InputStream in = Files.newInputStream(buildcomparePath)) {
+                    p.load(in);
+                }
+                ok = Integer.parseInt(p.getProperty("ok"));
+                ko = Integer.parseInt(p.getProperty("ko"));
+                //List<String> koFiles = Files.readAllLines(buildcomparePath).stream()
+                //    .filter(s -> s.startsWith("# diffoscope"))
+                //    .map(s -> s.substring("# diffoscope target/reference/".length(), s.lastIndexOf(' ')))
+                //    .collect(Collectors.toList());
+            }
+
+            Path badge = writeBadge(BADGE_PROJECT_BASE.resolve(CONTENT_BASE.relativize(path)).resolve(v + ".json"), ok, ko);
+
             for(String c: coordinates) {
                 c = c.substring(c.indexOf('=') + 1);
                 projectGa.add(c);
@@ -125,9 +151,14 @@ public class update_api extends SimpleFileVisitor<Path> {
                 projectGav++;
                 String groupId = c.substring(0, c.indexOf(':'));
                 String artifactId = c.substring(groupId.length() + 1);
-                Path artifactPath = ARTIFACT_BASE.resolve(groupId.replace('.', '/')).resolve(artifactId);
+
+                Path artifactPath = API_ARTIFACT_BASE.resolve(groupId.replace('.', '/')).resolve(artifactId);
                 Files.createDirectories(artifactPath);
                 Files.write(artifactPath.resolve(v + ".txt"), Arrays.asList(CONTENT_BASE.relativize(path).toString()));
+
+                Path badgePath = BADGE_ARTIFACT_BASE.resolve(groupId.replace('.', '/')).resolve(artifactId);
+                Files.createDirectories(badgePath);
+                Files.copy(badge, badgePath.resolve(v + ".json"), StandardCopyOption.REPLACE_EXISTING);
             }
             ga.addAll(projectGa);
         }
@@ -140,6 +171,19 @@ public class update_api extends SimpleFileVisitor<Path> {
         return filenames.stream().filter(s -> s.endsWith(endsWith)).findFirst().orElse(null);
     }
 
+    private Path writeBadge(Path badgePath, int ok, int ko) throws IOException {
+        String message = (ok < 0) ? "X" : (ok + "/" + (ok + ko));
+        String color = (ko == 0) ? "green" : ((ko < ok) ? "yellow" : "red");
+        Files.createDirectories(badgePath.getParent());
+        Files.write(badgePath, Arrays.asList("{ \"schemaVersion\": 1,",
+            "  \"label\": \"Reproducible Builds\",",
+            "  \"labelColor\": \"1e5b96\",",
+            "  \"message\": \"" + message + "\",",
+            "  \"color\": \"" + color + "\",",
+            "  \"isError\": \"true\" }"));
+        return badgePath;
+    }
+
     private void checkOutputTimestamps() throws IOException {
         Path outputTimestamps = Path.of("outputTimestamp.txt");
         if (!Files.exists(outputTimestamps)) {
@@ -147,7 +191,7 @@ public class update_api extends SimpleFileVisitor<Path> {
             return;
         }
         List<String> missed = Files.readAllLines(outputTimestamps).stream()
-                .filter(s -> s.contains("/") && keep(s) && !Files.exists(ARTIFACT_BASE.resolve(s.substring(0, s.lastIndexOf('/')) + ".txt")))
+                .filter(s -> s.contains("/") && keep(s) && !Files.exists(API_ARTIFACT_BASE.resolve(s.substring(0, s.lastIndexOf('/')) + ".txt")))
                 .collect(Collectors.toList());
         missed.subList(missed.size() - 100, missed.size()).stream()
                 .forEach(System.out::println);
