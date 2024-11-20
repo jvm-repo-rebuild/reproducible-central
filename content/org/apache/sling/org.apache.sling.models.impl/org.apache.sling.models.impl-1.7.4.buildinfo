@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Models Implementation
+group-id=org.apache.sling
+artifact-id=org.apache.sling.models.impl
+version=1.7.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-models-impl.git
+source.scm.tag=org.apache.sling.models.impl-1.7.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.models.impl-1.7.4.pom
+outputs.0.length=9562
+outputs.0.checksums.sha512=9f4945f803ae6040f29a0b39680e827d5ba7bac9294f7f0dad5ed09a8ea29192c52c72d8577db4865e4cc58949cecc1a96d4839018f685b701c03d92144bee9b
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.models.impl-1.7.4.jar
+outputs.1.length=140727
+outputs.1.checksums.sha512=b145bb93b6e73e1185ac161084939f44d94d8f48b336b7348fd7531cd79a596ebbcccf31e075fbf37b8eae20ca2f35e0232af6080dccf716e6d2d824103a5bd1
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.models.impl-1.7.4-source-release.zip
+outputs.2.length=285721
+outputs.2.checksums.sha512=963d72ff607c09c2abdaea70d1059578a6c5fa65d055043c76977e84c2aed532f04637768de06a78c525557a9a8c6b23516446233d7665c3458cf0aff392a767
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.models.impl-1.7.4-sources.jar
+outputs.3.length=89710
+outputs.3.checksums.sha512=9fcee2a387cf17242cd40dac1178db12442d06c3c563eac07a5e636862ae43090c2e2e5af491db734fd68a986c87106c2647f01e5c0ae25fe31e5df38fd272e9
