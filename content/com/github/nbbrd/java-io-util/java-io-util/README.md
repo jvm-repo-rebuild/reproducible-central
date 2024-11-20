@@ -20,12 +20,13 @@ Source code: [https://github.com/nbbrd/java-io-util.git](https://github.com/nbbr
 * [com.github.nbbrd.java-io-util:java-io-xml-bind](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-xml-bind/overview)
 </details>
 
-rebuilding **1 releases** of com.github.nbbrd.java-io-util:java-io-parent:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of com.github.nbbrd.java-io-util:java-io-parent:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [0.0.32](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-parent/0.0.32/pom) | [mvn jdk21](java-io-parent-0.0.32.buildspec) | [result](java-io-parent-0.0.32.buildinfo): [25 :white_check_mark: ](java-io-parent-0.0.32.buildcompare) | 570K |
+| [0.0.31](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-parent/0.0.31/pom) | [mvn jdk21](java-io-parent-0.0.31.buildspec) | [result](java-io-parent-0.0.31.buildinfo): [25 :white_check_mark: ](java-io-parent-0.0.31.buildcompare) | 569K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
