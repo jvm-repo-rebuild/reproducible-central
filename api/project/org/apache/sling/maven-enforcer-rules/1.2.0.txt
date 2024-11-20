@@ -1,0 +1,3 @@
+maven-enforcer-rules-1.2.0.buildspec
+maven-enforcer-rules-1.2.0.buildinfo
+maven-enforcer-rules-1.2.0.buildcompare

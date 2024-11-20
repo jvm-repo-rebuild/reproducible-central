@@ -1,0 +1,3 @@
+com.io7m.primogenitor-6.4.1.buildspec
+com.io7m.primogenitor-6.4.1.buildinfo
+com.io7m.primogenitor-6.4.1.buildcompare

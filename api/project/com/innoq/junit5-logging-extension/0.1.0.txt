@@ -1,0 +1,3 @@
+junit5-logging-extension-0.1.0.buildspec
+junit5-logging-extension-0.1.0.buildinfo
+junit5-logging-extension-0.1.0.buildcompare

@@ -1,0 +1,3 @@
+plexus-pom-12.buildspec
+plexus-12.buildinfo
+plexus-12.buildcompare

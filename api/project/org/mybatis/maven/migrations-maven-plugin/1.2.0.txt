@@ -1,0 +1,3 @@
+migrations-maven-plugin-1.2.0.buildspec
+migrations-maven-plugin-1.2.0.buildinfo
+migrations-maven-plugin-1.2.0.buildcompare

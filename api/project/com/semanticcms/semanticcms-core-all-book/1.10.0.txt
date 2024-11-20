@@ -1,0 +1,3 @@
+semanticcms-core-all-book-1.10.0.buildspec
+semanticcms-core-all-book-1.10.0.buildinfo
+semanticcms-core-all-book-1.10.0.buildcompare

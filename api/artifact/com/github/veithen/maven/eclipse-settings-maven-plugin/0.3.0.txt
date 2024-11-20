@@ -1,0 +1,1 @@
+com/github/veithen/maven/eclipse-settings-maven-plugin

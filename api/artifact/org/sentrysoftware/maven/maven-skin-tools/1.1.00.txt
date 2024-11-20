@@ -1,0 +1,1 @@
+org/sentrysoftware/maven/maven-skin-tools

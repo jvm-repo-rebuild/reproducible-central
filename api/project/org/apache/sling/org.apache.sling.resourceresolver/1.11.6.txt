@@ -1,0 +1,3 @@
+org.apache.sling.resourceresolver-1.11.6.buildspec
+org.apache.sling.resourceresolver-1.11.6.buildinfo
+org.apache.sling.resourceresolver-1.11.6.buildcompare

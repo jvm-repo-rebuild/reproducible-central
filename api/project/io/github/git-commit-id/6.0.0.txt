@@ -1,0 +1,3 @@
+git-commit-id-maven-plugin-6.0.0.buildspec
+git-commit-id-maven-plugin-6.0.0.buildinfo
+git-commit-id-maven-plugin-6.0.0.buildcompare

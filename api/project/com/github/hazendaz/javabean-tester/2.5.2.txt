@@ -1,0 +1,3 @@
+javabean-tester-2.5.2.buildspec
+javabean-tester-2.5.2.buildinfo
+javabean-tester-2.5.2.buildcompare

@@ -1,0 +1,3 @@
+nexus-format-archetype-1.0.65.buildspec
+nexus-format-archetype-1.0.65.buildinfo
+nexus-format-archetype-1.0.65.buildcompare

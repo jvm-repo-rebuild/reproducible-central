@@ -1,0 +1,3 @@
+hsac-fitnesse-fixtures-5.3.7.buildspec
+hsac-fitnesse-fixtures-5.3.7.buildinfo
+hsac-fitnesse-fixtures-5.3.7.buildcompare

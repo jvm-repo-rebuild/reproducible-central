@@ -1,0 +1,3 @@
+cosmos-0.6.0.buildspec
+cosmos-0.6.0.buildinfo
+cosmos-0.6.0.buildcompare

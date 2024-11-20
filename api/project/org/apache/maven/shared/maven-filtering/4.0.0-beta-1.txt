@@ -1,0 +1,3 @@
+maven-filtering-4.0.0-beta-1.buildspec
+maven-filtering-4.0.0-beta-1.buildinfo
+maven-filtering-4.0.0-beta-1.buildcompare

@@ -1,0 +1,3 @@
+maven-plugin-tools-3.9.0.buildspec
+maven-plugin-tools-3.9.0.buildinfo
+maven-plugin-tools-3.9.0.buildcompare

@@ -1,0 +1,1 @@
+org/codehaus/mojo/jaxb2-maven-plugin

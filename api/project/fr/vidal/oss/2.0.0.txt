@@ -1,0 +1,3 @@
+atom-jaxb-2.0.0.buildspec
+null
+null

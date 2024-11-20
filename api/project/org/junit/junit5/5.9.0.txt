@@ -1,0 +1,3 @@
+junit5-5.9.0.buildspec
+junit-bom-5.9.0.buildinfo
+junit-bom-5.9.0.buildcompare

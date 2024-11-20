@@ -1,0 +1,3 @@
+reproducible-build-maven-plugin-0.17.buildspec
+reproducible-build-maven-plugin-0.17.buildinfo
+reproducible-build-maven-plugin-0.17.buildcompare

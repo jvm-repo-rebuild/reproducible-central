@@ -1,0 +1,3 @@
+jdplus-main-3.2.2.buildspec
+jdplus-main-3.2.2.buildinfo
+jdplus-main-3.2.2.buildcompare

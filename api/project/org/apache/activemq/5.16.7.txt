@@ -1,0 +1,3 @@
+activemq-5.16.7.buildspec
+activemq-parent-5.16.7.buildinfo
+activemq-parent-5.16.7.buildcompare

@@ -1,0 +1,3 @@
+maven-jar-plugin-3.4.1.buildspec
+maven-jar-plugin-3.4.1.buildinfo
+maven-jar-plugin-3.4.1.buildcompare

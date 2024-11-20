@@ -1,0 +1,3 @@
+json-printable-maven-plugin-1.0.0.buildspec
+json-printable-maven-plugin-1.0.0.buildinfo
+json-printable-maven-plugin-1.0.0.buildcompare

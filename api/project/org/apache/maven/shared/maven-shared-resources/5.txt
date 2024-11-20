@@ -1,0 +1,3 @@
+maven-shared-resources-5.buildspec
+maven-shared-resources-5.buildinfo
+maven-shared-resources-5.buildcompare

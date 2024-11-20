@@ -1,0 +1,3 @@
+logback-db-1.2.11.1.buildspec
+logback-parent-db-1.2.11.1.buildinfo
+logback-parent-db-1.2.11.1.buildcompare

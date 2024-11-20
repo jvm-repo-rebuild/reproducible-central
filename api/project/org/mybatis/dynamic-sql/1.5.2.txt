@@ -1,0 +1,3 @@
+mybatis-dynamic-sql-1.5.2.buildspec
+mybatis-dynamic-sql-1.5.2.buildinfo
+mybatis-dynamic-sql-1.5.2.buildcompare

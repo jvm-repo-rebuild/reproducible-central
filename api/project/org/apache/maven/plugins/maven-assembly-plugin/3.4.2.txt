@@ -1,0 +1,3 @@
+maven-assembly-plugin-3.4.2.buildspec
+maven-assembly-plugin-3.4.2.buildinfo
+maven-assembly-plugin-3.4.2.buildcompare

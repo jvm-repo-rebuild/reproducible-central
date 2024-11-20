@@ -1,0 +1,3 @@
+quick-perf-1.0.1.buildspec
+quick-perf-bom-1.0.1.buildinfo
+quick-perf-bom-1.0.1.buildcompare

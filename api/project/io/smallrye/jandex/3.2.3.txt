@@ -1,0 +1,3 @@
+jandex-3.2.3.buildspec
+jandex-parent-3.2.3.buildinfo
+jandex-parent-3.2.3.buildcompare

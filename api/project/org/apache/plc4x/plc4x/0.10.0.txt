@@ -1,0 +1,3 @@
+plc4x-0.10.0.buildspec
+plc4x-parent-0.10.0.buildinfo
+plc4x-parent-0.10.0.buildcompare

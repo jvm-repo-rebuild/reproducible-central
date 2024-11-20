@@ -1,0 +1,1 @@
+com/semanticcms/semanticcms-core-all-book

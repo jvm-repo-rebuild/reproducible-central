@@ -1,0 +1,1 @@
+dk/mada/jaxrs/openapi-jaxrs-client

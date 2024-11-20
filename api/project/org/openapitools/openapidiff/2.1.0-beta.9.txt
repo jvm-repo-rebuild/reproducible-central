@@ -1,0 +1,3 @@
+openapi-diff-2.1.0-beta.9.buildspec
+openapi-diff-parent-2.1.0-beta.9.buildinfo
+openapi-diff-parent-2.1.0-beta.9.buildcompare

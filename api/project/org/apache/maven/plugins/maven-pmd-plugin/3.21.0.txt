@@ -1,0 +1,3 @@
+maven-pmd-plugin-3.21.0.buildspec
+maven-pmd-plugin-3.21.0.buildinfo
+maven-pmd-plugin-3.21.0.buildcompare

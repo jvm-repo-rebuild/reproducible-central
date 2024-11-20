@@ -1,0 +1,3 @@
+wcm-media-1.9.6.buildspec
+io.wcm.handler.media-1.9.6.buildinfo
+io.wcm.handler.media-1.9.6.buildcompare

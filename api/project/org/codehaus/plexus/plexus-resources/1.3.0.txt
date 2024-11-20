@@ -1,0 +1,3 @@
+plexus-resources-1.3.0.buildspec
+plexus-resources-1.3.0.buildinfo
+plexus-resources-1.3.0.buildcompare

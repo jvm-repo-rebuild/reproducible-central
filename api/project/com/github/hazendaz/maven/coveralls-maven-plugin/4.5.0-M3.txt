@@ -1,0 +1,3 @@
+coveralls-maven-plugin-4.5.0-M3.buildspec
+coveralls-maven-plugin-4.5.0-M3.buildinfo
+coveralls-maven-plugin-4.5.0-M3.buildcompare

@@ -1,0 +1,1 @@
+com/github/adangel/liquibase/ext/liquibase-percona

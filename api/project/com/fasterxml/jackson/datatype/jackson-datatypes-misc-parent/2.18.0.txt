@@ -1,0 +1,3 @@
+jackson-datatypes-misc-parent-2.18.0.buildspec
+jackson-datatypes-misc-parent-2.18.0.buildinfo
+jackson-datatypes-misc-parent-2.18.0.buildcompare

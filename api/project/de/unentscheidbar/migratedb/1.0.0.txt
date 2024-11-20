@@ -1,0 +1,3 @@
+migratedb-1.0.0.buildspec
+migratedb-1.0.0.buildinfo
+migratedb-1.0.0.buildcompare

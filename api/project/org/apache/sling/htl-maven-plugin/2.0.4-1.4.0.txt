@@ -1,0 +1,3 @@
+htl-maven-plugin-2.0.4-1.4.0.buildspec
+htl-maven-plugin-2.0.4-1.4.0.buildinfo
+htl-maven-plugin-2.0.4-1.4.0.buildcompare

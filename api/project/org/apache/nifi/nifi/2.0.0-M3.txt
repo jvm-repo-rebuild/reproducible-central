@@ -1,0 +1,3 @@
+nifi-2.0.0-M3.buildspec
+nifi-2.0.0-M3.buildinfo
+nifi-2.0.0-M3.buildcompare

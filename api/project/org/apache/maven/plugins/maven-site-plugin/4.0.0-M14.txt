@@ -1,0 +1,3 @@
+maven-site-plugin-4.0.0-M14.buildspec
+maven-site-plugin-4.0.0-M14.buildinfo
+maven-site-plugin-4.0.0-M14.buildcompare

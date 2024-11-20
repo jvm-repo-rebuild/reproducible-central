@@ -1,0 +1,3 @@
+directory-maven-plugin-1.2.0.buildspec
+directory-maven-plugin-1.2.0.buildinfo
+directory-maven-plugin-1.2.0.buildcompare

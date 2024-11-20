@@ -1,0 +1,3 @@
+karaf-decanter-2.10.0.buildspec
+decanter-2.10.0.buildinfo
+decanter-2.10.0.buildcompare

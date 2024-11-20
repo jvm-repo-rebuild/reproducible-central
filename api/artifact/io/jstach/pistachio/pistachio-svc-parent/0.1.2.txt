@@ -1,0 +1,1 @@
+io/jstach/pistachio/pistachio-maven-parent

@@ -1,0 +1,3 @@
+plexus-io-3.4.2.buildspec
+plexus-io-3.4.2.buildinfo
+plexus-io-3.4.2.buildcompare

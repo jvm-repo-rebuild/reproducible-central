@@ -1,0 +1,3 @@
+plexus-compiler-2.8.7.buildspec
+plexus-compiler-j2objc-2.8.7.buildinfo
+plexus-compiler-j2objc-2.8.7.buildcompare

@@ -1,0 +1,3 @@
+plexus-archiver-4.7.0.buildspec
+plexus-archiver-4.7.0.buildinfo
+plexus-archiver-4.7.0.buildcompare

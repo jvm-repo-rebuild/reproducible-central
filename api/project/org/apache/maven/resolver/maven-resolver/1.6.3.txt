@@ -1,0 +1,3 @@
+maven-resolver-1.6.3.buildspec
+maven-resolver-synccontext-redisson-1.6.3.buildinfo
+maven-resolver-synccontext-redisson-1.6.3.buildcompare

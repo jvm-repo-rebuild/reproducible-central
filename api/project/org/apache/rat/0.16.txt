@@ -1,0 +1,3 @@
+apache-rat-0.16.buildspec
+apache-rat-project-0.16.buildinfo
+apache-rat-project-0.16.buildcompare

@@ -1,0 +1,3 @@
+antisamy-1.7.2.buildspec
+antisamy-1.7.2.buildinfo
+antisamy-1.7.2.buildcompare

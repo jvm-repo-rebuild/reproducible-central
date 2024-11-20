@@ -1,0 +1,3 @@
+java-uuid-generator-5.0.0.buildspec
+java-uuid-generator-5.0.0.buildinfo
+java-uuid-generator-5.0.0.buildcompare

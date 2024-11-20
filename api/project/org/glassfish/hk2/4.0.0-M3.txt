@@ -1,0 +1,3 @@
+hk2-4.0.0-M3.buildspec
+hk2-parent-4.0.0-M3.buildinfo
+hk2-parent-4.0.0-M3.buildcompare

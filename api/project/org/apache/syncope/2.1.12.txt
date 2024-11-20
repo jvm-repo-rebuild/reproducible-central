@@ -1,0 +1,3 @@
+syncope-2.1.12.buildspec
+syncope-2.1.12.buildinfo
+syncope-2.1.12.buildcompare

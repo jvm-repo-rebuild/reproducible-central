@@ -1,0 +1,3 @@
+nifi-nar-maven-plugin-1.5.1.buildspec
+nifi-nar-maven-plugin-1.5.1.buildinfo
+nifi-nar-maven-plugin-1.5.1.buildcompare

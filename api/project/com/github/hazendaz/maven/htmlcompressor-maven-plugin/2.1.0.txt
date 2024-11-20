@@ -1,0 +1,3 @@
+htmlcompressor-maven-plugin-2.1.0.buildspec
+htmlcompressor-maven-plugin-2.1.0.buildinfo
+htmlcompressor-maven-plugin-2.1.0.buildcompare

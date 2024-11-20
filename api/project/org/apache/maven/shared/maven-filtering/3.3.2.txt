@@ -1,0 +1,3 @@
+maven-filtering-3.3.2.buildspec
+maven-filtering-3.3.2.buildinfo
+maven-filtering-3.3.2.buildcompare

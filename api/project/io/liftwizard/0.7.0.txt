@@ -1,0 +1,3 @@
+liftwizard-0.7.0.buildspec
+liftwizard-0.7.0.buildinfo
+liftwizard-0.7.0.buildcompare

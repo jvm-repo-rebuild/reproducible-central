@@ -1,0 +1,3 @@
+jooby-3.3.0.buildspec
+jooby-project-3.3.0.buildinfo
+jooby-project-3.3.0.buildcompare

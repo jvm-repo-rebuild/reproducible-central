@@ -1,0 +1,3 @@
+maven-artifact-transfer-0.13.1.buildspec
+maven-artifact-transfer-0.13.1.buildinfo
+maven-artifact-transfer-0.13.1.buildcompare

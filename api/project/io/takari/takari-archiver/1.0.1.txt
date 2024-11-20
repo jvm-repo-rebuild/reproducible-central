@@ -1,0 +1,3 @@
+takari-archiver-1.0.1.buildspec
+takari-archiver-1.0.1.buildinfo
+takari-archiver-1.0.1.buildcompare

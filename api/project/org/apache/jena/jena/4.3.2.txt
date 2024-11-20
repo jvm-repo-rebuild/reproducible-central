@@ -1,0 +1,3 @@
+jena-4.3.2.buildspec
+jena-4.3.2.buildinfo
+jena-4.3.2.buildcompare

@@ -1,0 +1,3 @@
+semanticcms-news-all-1.8.0.buildspec
+semanticcms-news-all-1.8.0.buildinfo
+semanticcms-news-all-1.8.0.buildcompare

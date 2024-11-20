@@ -1,0 +1,3 @@
+micronaut-maven-plugin-4.5.0.buildspec
+micronaut-maven-plugin-parent-4.5.0.buildinfo
+micronaut-maven-plugin-parent-4.5.0.buildcompare

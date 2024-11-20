@@ -1,0 +1,1 @@
+com/innoq/junit5-logging-extension

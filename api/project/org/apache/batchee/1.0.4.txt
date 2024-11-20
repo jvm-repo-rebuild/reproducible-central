@@ -1,0 +1,3 @@
+batchee-1.0.4.buildspec
+batchee-1.0.4.buildinfo
+batchee-1.0.4.buildcompare

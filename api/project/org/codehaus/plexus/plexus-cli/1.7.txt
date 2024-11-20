@@ -1,0 +1,3 @@
+plexus-cli-1.7.buildspec
+plexus-cli-1.7.buildinfo
+plexus-cli-1.7.buildcompare

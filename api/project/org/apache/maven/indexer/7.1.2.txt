@@ -1,0 +1,3 @@
+maven-indexer-7.1.2.buildspec
+maven-indexer-7.1.2.buildinfo
+maven-indexer-7.1.2.buildcompare

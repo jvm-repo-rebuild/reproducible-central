@@ -1,0 +1,3 @@
+avaje-inject-10.5-RC6.buildspec
+avaje-inject-parent-10.5-RC6.buildinfo
+avaje-inject-parent-10.5-RC6.buildcompare

@@ -1,0 +1,3 @@
+maven-shade-plugin-3.5.0.buildspec
+maven-shade-plugin-3.5.0.buildinfo
+maven-shade-plugin-3.5.0.buildcompare

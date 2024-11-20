@@ -1,0 +1,3 @@
+maven-build-cache-extension-1.0.1.buildspec
+maven-build-cache-extension-1.0.1.buildinfo
+maven-build-cache-extension-1.0.1.buildcompare

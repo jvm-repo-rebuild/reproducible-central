@@ -1,0 +1,3 @@
+jackrabbit-filevault-3.8.2.buildspec
+jackrabbit-filevault-3.8.2.buildinfo
+jackrabbit-filevault-3.8.2.buildcompare

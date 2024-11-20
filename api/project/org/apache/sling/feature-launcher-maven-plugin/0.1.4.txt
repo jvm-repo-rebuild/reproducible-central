@@ -1,0 +1,3 @@
+feature-launcher-maven-plugin-0.1.4.buildspec
+feature-launcher-maven-plugin-0.1.4.buildinfo
+feature-launcher-maven-plugin-0.1.4.buildcompare

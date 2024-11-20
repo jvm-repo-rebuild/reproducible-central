@@ -1,0 +1,1 @@
+com/github/hazendaz/maven/whitespace-maven-plugin

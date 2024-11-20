@@ -1,0 +1,3 @@
+org.apache.sling.caconfig.impl-1.6.0.buildspec
+org.apache.sling.caconfig.impl-1.6.0.buildinfo
+org.apache.sling.caconfig.impl-1.6.0.buildcompare

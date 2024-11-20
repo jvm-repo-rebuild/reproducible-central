@@ -1,0 +1,3 @@
+depends-maven-plugin-1.5.0.buildspec
+depends-maven-plugin-1.5.0.buildinfo
+depends-maven-plugin-1.5.0.buildcompare

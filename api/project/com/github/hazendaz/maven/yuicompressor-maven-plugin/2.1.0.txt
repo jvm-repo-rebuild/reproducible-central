@@ -1,0 +1,3 @@
+yuicompressor-maven-plugin-2.1.0.buildspec
+yuicompressor-maven-plugin-2.1.0.buildinfo
+yuicompressor-maven-plugin-2.1.0.buildcompare

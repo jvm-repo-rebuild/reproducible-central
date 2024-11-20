@@ -1,0 +1,3 @@
+trino-456.buildspec
+trino-root-456.buildinfo
+trino-root-456.buildcompare

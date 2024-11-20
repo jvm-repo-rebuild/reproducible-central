@@ -1,0 +1,3 @@
+osgi-test-0.10.0.buildspec
+org.osgi.test.parent-0.10.0.buildinfo
+org.osgi.test.parent-0.10.0.buildcompare

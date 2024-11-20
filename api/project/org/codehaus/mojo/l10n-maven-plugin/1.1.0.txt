@@ -1,0 +1,3 @@
+l10n-maven-plugin-1.1.0.buildspec
+l10n-maven-plugin-1.1.0.buildinfo
+l10n-maven-plugin-1.1.0.buildcompare

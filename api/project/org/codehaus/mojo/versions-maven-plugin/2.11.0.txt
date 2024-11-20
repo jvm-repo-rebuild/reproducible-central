@@ -1,0 +1,3 @@
+versions-maven-plugin-2.11.0.buildspec
+versions-maven-plugin-2.11.0.buildinfo
+versions-maven-plugin-2.11.0.buildcompare

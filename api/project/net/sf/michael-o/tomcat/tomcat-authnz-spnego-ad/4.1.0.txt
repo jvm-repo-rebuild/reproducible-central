@@ -1,0 +1,3 @@
+tomcat-authnz-spnego-ad-4.1.0.buildspec
+tomcat-authnz-spnego-ad-4.1.0.buildinfo
+tomcat-authnz-spnego-ad-4.1.0.buildcompare

@@ -1,0 +1,3 @@
+struts2-6.1.2.buildspec
+struts2-parent-6.1.2.buildinfo
+struts2-parent-6.1.2.buildcompare

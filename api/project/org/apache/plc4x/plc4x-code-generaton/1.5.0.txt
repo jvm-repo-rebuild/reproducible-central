@@ -1,0 +1,3 @@
+plc4x-code-generaton-1.5.0.buildspec
+plc4x-code-generaton-1.5.0.buildinfo
+plc4x-code-generaton-1.5.0.buildcompare

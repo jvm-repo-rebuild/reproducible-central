@@ -1,0 +1,3 @@
+displaytag-doc-3.0.0-M2.buildspec
+displaytag-doc-3.0.0-M2.buildinfo
+displaytag-doc-3.0.0-M2.buildcompare

@@ -1,0 +1,3 @@
+jackrabbit-oak-1.62.0.buildspec
+jackrabbit-oak-1.62.0.buildinfo
+jackrabbit-oak-1.62.0.buildcompare

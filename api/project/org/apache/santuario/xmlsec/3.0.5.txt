@@ -1,0 +1,3 @@
+xmlsec-3.0.5.buildspec
+xmlsec-3.0.5.buildinfo
+xmlsec-3.0.5.buildcompare

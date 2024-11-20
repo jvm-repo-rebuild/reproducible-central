@@ -1,0 +1,3 @@
+aspectj-maven-plugin-1.14.0.buildspec
+aspectj-maven-plugin-1.14.0.buildinfo
+aspectj-maven-plugin-1.14.0.buildcompare

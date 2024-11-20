@@ -1,0 +1,3 @@
+fediz-1.7.0.buildspec
+fediz-1.7.0.buildinfo
+fediz-1.7.0.buildcompare

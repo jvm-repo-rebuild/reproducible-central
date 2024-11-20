@@ -1,0 +1,3 @@
+jawk-3.0.00.buildspec
+jawk-3.0.00.buildinfo
+jawk-3.0.00.buildcompare

@@ -1,0 +1,3 @@
+liquibase-percona-2.0.0.buildspec
+liquibase-percona-2.0.0.buildinfo
+liquibase-percona-2.0.0.buildcompare

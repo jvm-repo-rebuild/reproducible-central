@@ -1,0 +1,3 @@
+maven-release-plugin-3.0.0-M5.buildspec
+maven-release-3.0.0-M5.buildinfo
+maven-release-3.0.0-M5.buildcompare

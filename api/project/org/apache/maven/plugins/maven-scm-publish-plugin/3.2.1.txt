@@ -1,0 +1,3 @@
+maven-scm-publish-plugin-3.2.1.buildspec
+maven-scm-publish-plugin-3.2.1.buildinfo
+maven-scm-publish-plugin-3.2.1.buildcompare

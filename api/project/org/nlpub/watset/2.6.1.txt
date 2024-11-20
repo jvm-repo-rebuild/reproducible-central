@@ -1,0 +1,3 @@
+watset-2.6.1.buildspec
+watset-2.6.1.buildinfo
+watset-2.6.1.buildcompare

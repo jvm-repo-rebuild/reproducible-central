@@ -1,0 +1,3 @@
+aries-cdi-1.1.5.buildspec
+org.apache.aries.cdi-1.1.5.buildinfo
+org.apache.aries.cdi-1.1.5.buildcompare

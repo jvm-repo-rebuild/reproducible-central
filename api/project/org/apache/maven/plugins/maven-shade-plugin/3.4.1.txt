@@ -1,0 +1,3 @@
+maven-shade-plugin-3.4.1.buildspec
+maven-shade-plugin-3.4.1.buildinfo
+maven-shade-plugin-3.4.1.buildcompare

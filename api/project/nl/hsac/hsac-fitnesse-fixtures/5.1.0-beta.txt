@@ -1,0 +1,3 @@
+hsac-fitnesse-fixtures-5.1.0-beta.buildspec
+null
+null

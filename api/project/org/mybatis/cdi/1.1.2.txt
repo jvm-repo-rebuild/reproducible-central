@@ -1,0 +1,3 @@
+mybatis-cdi-1.1.2.buildspec
+mybatis-cdi-1.1.2.buildinfo
+mybatis-cdi-1.1.2.buildcompare

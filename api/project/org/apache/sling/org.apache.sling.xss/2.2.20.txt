@@ -1,0 +1,3 @@
+org.apache.sling.xss-2.2.20.buildspec
+org.apache.sling.xss-2.2.20.buildinfo
+org.apache.sling.xss-2.2.20.buildcompare

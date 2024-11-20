@@ -1,0 +1,3 @@
+dubbo-3.2.10.buildspec
+dubbo-parent-3.2.10.buildinfo
+dubbo-parent-3.2.10.buildcompare

@@ -1,0 +1,3 @@
+org.eclipse.transformer.parent-0.1.1a.buildspec
+org.eclipse.transformer.maven-0.1.1a.buildinfo
+org.eclipse.transformer.maven-0.1.1a.buildcompare

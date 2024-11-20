@@ -1,0 +1,3 @@
+qpid-jms-2.6.0.buildspec
+qpid-jms-parent-2.6.0.buildinfo
+qpid-jms-parent-2.6.0.buildcompare

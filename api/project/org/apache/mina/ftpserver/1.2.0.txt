@@ -1,0 +1,3 @@
+mina-ftpserver-1.2.0.buildspec
+ftpserver-parent-1.2.0.buildinfo
+ftpserver-parent-1.2.0.buildcompare

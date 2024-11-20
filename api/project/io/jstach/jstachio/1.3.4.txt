@@ -1,0 +1,3 @@
+jstachio-1.3.4.buildspec
+jstachio-maven-parent-1.3.4.buildinfo
+jstachio-maven-parent-1.3.4.buildcompare

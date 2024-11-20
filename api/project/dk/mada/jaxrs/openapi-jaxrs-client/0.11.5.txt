@@ -1,0 +1,3 @@
+openapi-jaxrs-client-0.11.5.buildspec
+openapi-jaxrs-client-0.11.5.buildinfo
+openapi-jaxrs-client-0.11.5.buildcompare

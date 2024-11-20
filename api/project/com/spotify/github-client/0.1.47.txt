@@ -1,0 +1,3 @@
+github-client-0.1.47.buildspec
+github-client-0.1.47.buildinfo
+github-client-0.1.47.buildcompare

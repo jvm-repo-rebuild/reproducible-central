@@ -1,0 +1,3 @@
+buildnumber-maven-plugin-3.2.0.buildspec
+buildnumber-maven-plugin-3.2.0.buildinfo
+buildnumber-maven-plugin-3.2.0.buildcompare

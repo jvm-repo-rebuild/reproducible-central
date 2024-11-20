@@ -1,0 +1,3 @@
+pmd-6.28.0.buildspec
+pmd-scala_2.12-6.28.0.buildinfo
+pmd-scala_2.12-6.28.0.buildcompare

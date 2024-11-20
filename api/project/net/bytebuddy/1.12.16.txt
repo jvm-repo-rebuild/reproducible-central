@@ -1,0 +1,3 @@
+byte-buddy-1.12.16.buildspec
+byte-buddy-parent-1.12.16.buildinfo
+byte-buddy-parent-1.12.16.buildcompare

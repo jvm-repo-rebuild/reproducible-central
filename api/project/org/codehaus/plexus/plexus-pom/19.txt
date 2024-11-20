@@ -1,0 +1,3 @@
+plexus-pom-19.buildspec
+plexus-19.buildinfo
+plexus-19.buildcompare

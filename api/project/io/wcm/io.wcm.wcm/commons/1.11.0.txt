@@ -1,0 +1,3 @@
+wcm-commons-1.11.0.buildspec
+io.wcm.wcm.commons-1.11.0.buildinfo
+io.wcm.wcm.commons-1.11.0.buildcompare

@@ -1,0 +1,3 @@
+webjars-locator-lite-0.0.3.buildspec
+webjars-locator-lite-0.0.3.buildinfo
+webjars-locator-lite-0.0.3.buildcompare

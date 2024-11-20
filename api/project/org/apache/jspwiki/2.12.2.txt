@@ -1,0 +1,3 @@
+jspwiki-2.12.2.buildspec
+jspwiki-builder-2.12.2.buildinfo
+jspwiki-builder-2.12.2.buildcompare

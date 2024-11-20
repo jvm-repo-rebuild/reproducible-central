@@ -1,0 +1,3 @@
+xflat-1.0.00.buildspec
+xflat-1.0.00.buildinfo
+xflat-1.0.00.buildcompare

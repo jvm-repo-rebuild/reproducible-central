@@ -1,0 +1,3 @@
+junit-xml-formatter-0.6.0.buildspec
+junit-xml-formatter-0.6.0.buildinfo
+junit-xml-formatter-0.6.0.buildcompare

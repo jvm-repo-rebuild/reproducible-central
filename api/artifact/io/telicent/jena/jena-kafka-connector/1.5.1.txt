@@ -1,0 +1,1 @@
+io/telicent/jena/jena-kafka

@@ -1,0 +1,3 @@
+semanticcms-tag-reference-book-1.10.1.buildspec
+semanticcms-tag-reference-book-1.10.1.buildinfo
+semanticcms-tag-reference-book-1.10.1.buildcompare

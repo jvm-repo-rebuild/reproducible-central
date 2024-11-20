@@ -1,0 +1,3 @@
+maven-resources-plugin-3.3.0.buildspec
+maven-resources-plugin-3.3.0.buildinfo
+maven-resources-plugin-3.3.0.buildcompare

@@ -1,0 +1,3 @@
+maven-reporting-exec-1.6.0.buildspec
+maven-reporting-exec-1.6.0.buildinfo
+maven-reporting-exec-1.6.0.buildcompare

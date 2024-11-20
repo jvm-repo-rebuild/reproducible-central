@@ -1,0 +1,3 @@
+pmd-6.35.0.buildspec
+pmd-6.35.0.buildinfo
+pmd-6.35.0.buildcompare

@@ -1,0 +1,3 @@
+maven-dependency-plugin-3.2.0.buildspec
+maven-dependency-plugin-3.2.0.buildinfo
+maven-dependency-plugin-3.2.0.buildcompare

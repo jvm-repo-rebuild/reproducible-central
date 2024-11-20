@@ -1,0 +1,1 @@
+com/github/veithen/maven/p2-maven-connector

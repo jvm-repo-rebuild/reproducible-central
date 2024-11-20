@@ -1,0 +1,3 @@
+cyclonedx-core-java-8.0.1.buildspec
+cyclonedx-core-java-8.0.1.buildinfo
+cyclonedx-core-java-8.0.1.buildcompare

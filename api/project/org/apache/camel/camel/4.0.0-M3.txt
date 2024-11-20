@@ -1,0 +1,3 @@
+camel-4.0.0-M3.buildspec
+camel-4.0.0-M3.buildinfo
+camel-4.0.0-M3.buildcompare

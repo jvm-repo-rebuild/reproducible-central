@@ -1,0 +1,3 @@
+protostream-5.0.7.Final.buildspec
+protostream-aggregator-5.0.7.Final.buildinfo
+protostream-aggregator-5.0.7.Final.buildcompare

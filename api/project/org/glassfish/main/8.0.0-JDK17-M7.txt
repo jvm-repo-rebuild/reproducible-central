@@ -1,0 +1,3 @@
+glassfish-8.0.0-JDK17-M7.buildspec
+glassfish-main-aggregator-8.0.0-JDK17-M7.buildinfo
+glassfish-main-aggregator-8.0.0-JDK17-M7.buildcompare

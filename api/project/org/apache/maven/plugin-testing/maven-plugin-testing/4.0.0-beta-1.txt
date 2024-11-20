@@ -1,0 +1,3 @@
+maven-plugin-testing-4.0.0-beta-1.buildspec
+maven-plugin-testing-4.0.0-beta-1.buildinfo
+maven-plugin-testing-4.0.0-beta-1.buildcompare

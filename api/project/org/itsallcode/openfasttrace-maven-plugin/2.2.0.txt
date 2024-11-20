@@ -1,0 +1,3 @@
+openfasttrace-maven-plugin-2.2.0.buildspec
+openfasttrace-maven-plugin-2.2.0.buildinfo
+openfasttrace-maven-plugin-2.2.0.buildcompare

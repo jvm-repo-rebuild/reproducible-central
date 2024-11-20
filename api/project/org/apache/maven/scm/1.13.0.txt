@@ -1,0 +1,3 @@
+maven-scm-1.13.0.buildspec
+maven-scm-1.13.0.buildinfo
+maven-scm-1.13.0.buildcompare

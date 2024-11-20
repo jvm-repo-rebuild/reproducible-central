@@ -1,0 +1,3 @@
+jpmml-transpiler-1.3.6.buildspec
+jpmml-transpiler-1.3.6.buildinfo
+jpmml-transpiler-1.3.6.buildcompare

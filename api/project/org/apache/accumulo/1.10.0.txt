@@ -1,0 +1,3 @@
+accumulo-1.10.0.buildspec
+accumulo-maven-plugin-1.10.0.buildinfo
+accumulo-maven-plugin-1.10.0.buildcompare

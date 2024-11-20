@@ -1,0 +1,3 @@
+felix-http-parent-13.buildspec
+org.apache.felix.http.parent-13.buildinfo
+org.apache.felix.http.parent-13.buildcompare

@@ -1,0 +1,3 @@
+org.apache.sling.fsresource-2.2.0.buildspec
+org.apache.sling.fsresource-2.2.0.buildinfo
+org.apache.sling.fsresource-2.2.0.buildcompare

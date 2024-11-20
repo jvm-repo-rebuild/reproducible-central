@@ -1,0 +1,3 @@
+maven-resolver-ant-tasks-1.5.0.buildspec
+maven-resolver-ant-tasks-1.5.0.buildinfo
+maven-resolver-ant-tasks-1.5.0.buildcompare

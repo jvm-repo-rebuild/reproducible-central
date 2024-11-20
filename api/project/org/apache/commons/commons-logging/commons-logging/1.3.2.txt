@@ -1,0 +1,3 @@
+commons-logging-1.3.2.buildspec
+commons-logging-1.3.2.buildinfo
+commons-logging-1.3.2.buildcompare

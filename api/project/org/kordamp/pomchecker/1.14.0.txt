@@ -1,0 +1,3 @@
+pomchecker-1.14.0.buildspec
+pomchecker-1.14.0.buildinfo
+pomchecker-1.14.0.buildcompare

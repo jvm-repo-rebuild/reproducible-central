@@ -1,0 +1,3 @@
+flexmonster-2.9.32.buildspec
+flexmonster-2.9.32.buildinfo
+flexmonster-2.9.32.buildcompare

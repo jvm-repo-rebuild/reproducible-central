@@ -1,0 +1,3 @@
+wagon-3.5.1.buildspec
+wagon-3.5.1.buildinfo
+wagon-3.5.1.buildcompare

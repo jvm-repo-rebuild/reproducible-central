@@ -1,0 +1,1 @@
+dk/mada/style/mada-style-gradle

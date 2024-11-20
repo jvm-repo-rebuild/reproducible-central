@@ -1,0 +1,3 @@
+org.apache.sling.scripting.sightly-1.4.14-1.4.0.buildspec
+org.apache.sling.scripting.sightly-1.4.14-1.4.0.buildinfo
+org.apache.sling.scripting.sightly-1.4.14-1.4.0.buildcompare

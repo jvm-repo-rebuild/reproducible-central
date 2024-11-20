@@ -1,0 +1,3 @@
+shiro-1.13.0.buildspec
+shiro-root-1.13.0.buildinfo
+shiro-root-1.13.0.buildcompare

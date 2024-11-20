@@ -1,0 +1,3 @@
+pmd-6.27.0.buildspec
+pmd-scala_2.12-6.27.0.buildinfo
+pmd-scala_2.12-6.27.0.buildcompare

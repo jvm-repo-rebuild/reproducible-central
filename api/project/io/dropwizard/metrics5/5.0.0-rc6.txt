@@ -1,0 +1,3 @@
+dropwizard-metrics-5.0.0-rc6.buildspec
+metrics-parent-5.0.0-rc6.buildinfo
+metrics-parent-5.0.0-rc6.buildcompare

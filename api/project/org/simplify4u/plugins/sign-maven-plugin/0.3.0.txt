@@ -1,0 +1,3 @@
+sign-maven-plugin-0.3.0.buildspec
+sign-maven-plugin-0.3.0.buildinfo
+sign-maven-plugin-0.3.0.buildcompare

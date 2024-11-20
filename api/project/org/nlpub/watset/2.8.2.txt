@@ -1,0 +1,3 @@
+watset-2.8.2.buildspec
+watset-2.8.2.buildinfo
+watset-2.8.2.buildcompare

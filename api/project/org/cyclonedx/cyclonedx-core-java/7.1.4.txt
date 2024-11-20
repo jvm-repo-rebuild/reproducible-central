@@ -1,0 +1,3 @@
+cyclonedx-core-java-7.1.4.buildspec
+cyclonedx-core-java-7.1.4.buildinfo
+cyclonedx-core-java-7.1.4.buildcompare

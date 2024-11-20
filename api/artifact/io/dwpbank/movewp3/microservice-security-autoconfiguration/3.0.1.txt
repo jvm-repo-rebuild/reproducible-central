@@ -1,0 +1,1 @@
+io/dwpbank/movewp3/microservice-security-autoconfiguration

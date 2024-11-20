@@ -1,0 +1,3 @@
+plexus-languages-1.0.5.buildspec
+plexus-java-1.0.5.buildinfo
+plexus-java-1.0.5.buildcompare

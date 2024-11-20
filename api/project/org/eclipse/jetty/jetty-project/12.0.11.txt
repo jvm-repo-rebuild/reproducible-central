@@ -1,0 +1,3 @@
+jetty-project-12.0.11.buildspec
+jetty-project-12.0.11.buildinfo
+jetty-project-12.0.11.buildcompare

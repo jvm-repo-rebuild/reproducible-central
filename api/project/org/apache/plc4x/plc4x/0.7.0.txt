@@ -1,0 +1,3 @@
+plc4x-0.7.0.buildspec
+plc4x-tools-0.7.0.buildinfo
+plc4x-tools-0.7.0.buildcompare

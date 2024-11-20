@@ -1,0 +1,3 @@
+maven-reporting-impl-4.0.0-M4.buildspec
+maven-reporting-impl-4.0.0-M4.buildinfo
+maven-reporting-impl-4.0.0-M4.buildcompare

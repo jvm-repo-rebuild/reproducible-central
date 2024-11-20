@@ -1,0 +1,3 @@
+takari-plugin-testing-3.0.4.buildspec
+takari-plugin-testing-project-3.0.4.buildinfo
+takari-plugin-testing-project-3.0.4.buildcompare

@@ -1,0 +1,3 @@
+spdx-maven-plugin-0.7.4.buildspec
+spdx-maven-plugin-0.7.4.buildinfo
+spdx-maven-plugin-0.7.4.buildcompare

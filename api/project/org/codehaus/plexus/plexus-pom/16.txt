@@ -1,0 +1,3 @@
+plexus-pom-16.buildspec
+plexus-16.buildinfo
+plexus-16.buildcompare

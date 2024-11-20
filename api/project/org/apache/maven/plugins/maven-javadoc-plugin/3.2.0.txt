@@ -1,0 +1,3 @@
+maven-javadoc-plugin-3.2.0.buildspec
+maven-javadoc-plugin-3.2.0.buildinfo
+maven-javadoc-plugin-3.2.0.buildcompare

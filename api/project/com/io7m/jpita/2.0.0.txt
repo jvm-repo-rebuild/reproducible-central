@@ -1,0 +1,3 @@
+com.io7m.jpita-2.0.0.buildspec
+com.io7m.jpita-2.0.0.buildinfo
+com.io7m.jpita-2.0.0.buildcompare

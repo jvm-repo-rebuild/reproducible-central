@@ -1,0 +1,1 @@
+org/apache/nifi/nifi-nar-maven-plugin

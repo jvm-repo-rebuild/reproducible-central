@@ -1,0 +1,3 @@
+micronaut-maven-plugin-1.0.0.RC4.buildspec
+micronaut-maven-plugin-1.0.0.RC4.buildinfo
+micronaut-maven-plugin-1.0.0.RC4.buildcompare

@@ -1,0 +1,3 @@
+minho-0.1.buildspec
+minho-0.1.buildinfo
+minho-0.1.buildcompare

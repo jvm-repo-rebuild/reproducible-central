@@ -1,0 +1,3 @@
+jaxb2-maven-plugin-3.1.0.buildspec
+jaxb2-maven-plugin-3.1.0.buildinfo
+jaxb2-maven-plugin-3.1.0.buildcompare

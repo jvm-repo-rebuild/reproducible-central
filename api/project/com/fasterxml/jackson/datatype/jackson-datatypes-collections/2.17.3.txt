@@ -1,0 +1,3 @@
+jackson-datatypes-collections-2.17.3.buildspec
+jackson-datatypes-collections-2.17.3.buildinfo
+jackson-datatypes-collections-2.17.3.buildcompare

@@ -1,0 +1,3 @@
+eclipse-settings-maven-plugin-0.3.0.buildspec
+eclipse-settings-maven-plugin-0.3.0.buildinfo
+eclipse-settings-maven-plugin-0.3.0.buildcompare

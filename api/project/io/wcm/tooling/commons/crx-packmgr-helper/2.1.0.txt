@@ -1,0 +1,3 @@
+wcm-crx-packmgr-helper-2.1.0.buildspec
+io.wcm.tooling.commons.crx-packmgr-helper-2.1.0.buildinfo
+io.wcm.tooling.commons.crx-packmgr-helper-2.1.0.buildcompare

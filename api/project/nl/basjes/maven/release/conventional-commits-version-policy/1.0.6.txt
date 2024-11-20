@@ -1,0 +1,3 @@
+conventional-commits-version-policy-1.0.6.buildspec
+conventional-commits-version-policy-1.0.6.buildinfo
+conventional-commits-version-policy-1.0.6.buildcompare

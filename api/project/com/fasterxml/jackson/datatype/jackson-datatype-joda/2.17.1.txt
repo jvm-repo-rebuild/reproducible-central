@@ -1,0 +1,3 @@
+jackson-datatype-joda-2.17.1.buildspec
+jackson-datatype-joda-2.17.1.buildinfo
+jackson-datatype-joda-2.17.1.buildcompare

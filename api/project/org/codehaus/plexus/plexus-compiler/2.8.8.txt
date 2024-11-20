@@ -1,0 +1,3 @@
+plexus-compiler-2.8.8.buildspec
+plexus-compiler-its-2.8.8.buildinfo
+plexus-compiler-its-2.8.8.buildcompare

@@ -1,0 +1,3 @@
+maven-reporting-exec-1.5.1.buildspec
+maven-reporting-exec-1.5.1.buildinfo
+maven-reporting-exec-1.5.1.buildcompare

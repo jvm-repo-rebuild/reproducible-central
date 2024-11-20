@@ -1,0 +1,3 @@
+mada-style-gradle-1.0.3.buildspec
+mada-style-gradle-1.0.3.buildinfo
+mada-style-gradle-1.0.3.buildcompare

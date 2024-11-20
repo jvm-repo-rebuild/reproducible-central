@@ -1,0 +1,3 @@
+okapibarcode-0.4.7.buildspec
+okapibarcode-0.4.7.buildinfo
+okapibarcode-0.4.7.buildcompare

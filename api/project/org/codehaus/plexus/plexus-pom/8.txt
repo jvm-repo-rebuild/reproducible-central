@@ -1,0 +1,3 @@
+plexus-pom-8.buildspec
+plexus-8.buildinfo
+plexus-8.buildcompare

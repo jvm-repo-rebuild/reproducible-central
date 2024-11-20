@@ -1,0 +1,3 @@
+license-maven-plugin-2.2.0.buildspec
+license-maven-plugin-2.2.0.buildinfo
+license-maven-plugin-2.2.0.buildcompare

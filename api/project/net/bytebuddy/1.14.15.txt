@@ -1,0 +1,3 @@
+byte-buddy-1.14.15.buildspec
+byte-buddy-parent-1.14.15.buildinfo
+byte-buddy-parent-1.14.15.buildcompare

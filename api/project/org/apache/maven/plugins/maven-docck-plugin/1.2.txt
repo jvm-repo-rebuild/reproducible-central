@@ -1,0 +1,3 @@
+maven-docck-plugin-1.2.buildspec
+maven-docck-plugin-1.2.buildinfo
+maven-docck-plugin-1.2.buildcompare

@@ -1,0 +1,3 @@
+syncope-3.0.7.buildspec
+syncope-3.0.7.buildinfo
+syncope-3.0.7.buildcompare

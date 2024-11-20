@@ -1,0 +1,3 @@
+project-47.buildspec
+project-47.buildinfo
+project-47.buildcompare

@@ -1,0 +1,3 @@
+mybatis-ehcache-1.2.3.buildspec
+mybatis-ehcache-1.2.3.buildinfo
+mybatis-ehcache-1.2.3.buildcompare

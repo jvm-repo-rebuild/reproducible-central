@@ -1,0 +1,3 @@
+maven-jlink-plugin-3.0.0.buildspec
+maven-jlink-plugin-3.0.0.buildinfo
+maven-jlink-plugin-3.0.0.buildcompare

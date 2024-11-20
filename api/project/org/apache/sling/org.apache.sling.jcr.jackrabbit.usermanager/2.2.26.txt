@@ -1,0 +1,3 @@
+org.apache.sling.jcr.jackrabbit.usermanager-2.2.26.buildspec
+org.apache.sling.jcr.jackrabbit.usermanager-2.2.26.buildinfo
+org.apache.sling.jcr.jackrabbit.usermanager-2.2.26.buildcompare

@@ -1,0 +1,3 @@
+base-bundle-descriptor-11.buildspec
+base-bundle-descriptor-11.buildinfo
+base-bundle-descriptor-11.buildcompare

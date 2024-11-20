@@ -1,0 +1,3 @@
+glassfishbuild-maven-plugin-4.0.1.buildspec
+glassfishbuild-maven-plugin-4.0.1.buildinfo
+glassfishbuild-maven-plugin-4.0.1.buildcompare

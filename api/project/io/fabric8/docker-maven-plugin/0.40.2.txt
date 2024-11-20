@@ -1,0 +1,3 @@
+docker-maven-plugin-0.40.2.buildspec
+docker-maven-plugin-0.40.2.buildinfo
+docker-maven-plugin-0.40.2.buildcompare

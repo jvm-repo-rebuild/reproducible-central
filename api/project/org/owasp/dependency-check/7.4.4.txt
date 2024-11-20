@@ -1,0 +1,3 @@
+dependency-check-7.4.4.buildspec
+dependency-check-parent-7.4.4.buildinfo
+dependency-check-parent-7.4.4.buildcompare

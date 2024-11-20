@@ -1,0 +1,3 @@
+hive-4.0.0-beta-1.buildspec
+hive-4.0.0-beta-1.buildinfo
+hive-4.0.0-beta-1.buildcompare

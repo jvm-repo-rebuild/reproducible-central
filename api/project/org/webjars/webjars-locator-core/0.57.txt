@@ -1,0 +1,3 @@
+webjars-locator-core-0.57.buildspec
+webjars-locator-core-0.57.buildinfo
+webjars-locator-core-0.57.buildcompare

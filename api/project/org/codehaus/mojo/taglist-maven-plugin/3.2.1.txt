@@ -1,0 +1,3 @@
+taglist-maven-plugin-3.2.1.buildspec
+taglist-maven-plugin-3.2.1.buildinfo
+taglist-maven-plugin-3.2.1.buildcompare

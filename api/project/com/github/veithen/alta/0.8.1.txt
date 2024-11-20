@@ -1,0 +1,3 @@
+alta-maven-plugin-0.8.1.buildspec
+alta-maven-plugin-0.8.1.buildinfo
+alta-maven-plugin-0.8.1.buildcompare

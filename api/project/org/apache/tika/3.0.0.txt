@@ -1,0 +1,3 @@
+tika-3.0.0.buildspec
+tika-3.0.0.buildinfo
+tika-3.0.0.buildcompare

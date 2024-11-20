@@ -1,0 +1,3 @@
+jpdftest-0.11.0.buildspec
+jpdftest-0.11.0.buildinfo
+jpdftest-0.11.0.buildcompare

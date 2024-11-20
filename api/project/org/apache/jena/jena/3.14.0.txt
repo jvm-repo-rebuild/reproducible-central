@@ -1,0 +1,3 @@
+jena-3.14.0.buildspec
+jena-osgi-features-3.14.0.buildinfo
+jena-osgi-features-3.14.0.buildcompare

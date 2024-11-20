@@ -1,0 +1,3 @@
+fmt-maven-plugin-2.22.1.buildspec
+fmt-maven-plugin-2.22.1.buildinfo
+fmt-maven-plugin-2.22.1.buildcompare

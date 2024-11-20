@@ -1,0 +1,3 @@
+maven-war-plugin-3.4.0.buildspec
+maven-war-plugin-3.4.0.buildinfo
+maven-war-plugin-3.4.0.buildcompare

@@ -1,0 +1,3 @@
+maven-help-plugin-3.5.0.buildspec
+maven-help-plugin-3.5.0.buildinfo
+maven-help-plugin-3.5.0.buildcompare

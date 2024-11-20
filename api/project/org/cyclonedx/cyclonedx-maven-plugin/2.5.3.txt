@@ -1,0 +1,3 @@
+cyclonedx-maven-plugin-2.5.3.buildspec
+cyclonedx-maven-plugin-2.5.3.buildinfo
+cyclonedx-maven-plugin-2.5.3.buildcompare

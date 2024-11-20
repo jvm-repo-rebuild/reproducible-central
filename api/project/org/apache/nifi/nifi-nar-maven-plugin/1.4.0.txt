@@ -1,0 +1,3 @@
+nifi-nar-maven-plugin-1.4.0.buildspec
+nifi-nar-maven-plugin-1.4.0.buildinfo
+nifi-nar-maven-plugin-1.4.0.buildcompare

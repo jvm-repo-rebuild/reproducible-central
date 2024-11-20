@@ -1,0 +1,3 @@
+wcm-ui-granite-1.9.12.buildspec
+io.wcm.wcm.ui.granite-1.9.12.buildinfo
+io.wcm.wcm.ui.granite-1.9.12.buildcompare

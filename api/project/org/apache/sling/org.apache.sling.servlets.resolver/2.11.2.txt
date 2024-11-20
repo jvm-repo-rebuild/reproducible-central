@@ -1,0 +1,3 @@
+org.apache.sling.servlets.resolver-2.11.2.buildspec
+org.apache.sling.servlets.resolver-2.11.2.buildinfo
+org.apache.sling.servlets.resolver-2.11.2.buildcompare

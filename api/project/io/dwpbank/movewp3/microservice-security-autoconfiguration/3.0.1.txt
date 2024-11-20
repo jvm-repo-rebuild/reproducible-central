@@ -1,0 +1,3 @@
+microservice-security-autoconfiguration-3.0.1.buildspec
+microservice-security-autoconfiguration-3.0.1.buildinfo
+microservice-security-autoconfiguration-3.0.1.buildcompare

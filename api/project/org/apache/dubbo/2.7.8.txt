@@ -1,0 +1,3 @@
+dubbo-2.7.8.buildspec
+dubbo-metadata-processor-2.7.8.buildinfo
+dubbo-metadata-processor-2.7.8.buildcompare

@@ -1,0 +1,3 @@
+log4j-jmx-gui-2.22.0.buildspec
+log4j-jmx-gui-2.22.0.buildinfo
+log4j-jmx-gui-2.22.0.buildcompare

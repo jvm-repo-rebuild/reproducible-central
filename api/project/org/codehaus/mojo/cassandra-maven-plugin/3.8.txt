@@ -1,0 +1,3 @@
+cassandra-maven-plugin-3.8.buildspec
+cassandra-maven-plugin-3.8.buildinfo
+cassandra-maven-plugin-3.8.buildcompare

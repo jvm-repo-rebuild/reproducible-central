@@ -1,0 +1,3 @@
+logback-1.3.0-alpha16.buildspec
+logback-parent-1.3.0-alpha16.buildinfo
+logback-parent-1.3.0-alpha16.buildcompare

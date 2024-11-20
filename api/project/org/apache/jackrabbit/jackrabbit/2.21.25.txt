@@ -1,0 +1,3 @@
+jackrabbit-2.21.25.buildspec
+jackrabbit-2.21.25.buildinfo
+jackrabbit-2.21.25.buildcompare

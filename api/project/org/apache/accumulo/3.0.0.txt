@@ -1,0 +1,3 @@
+accumulo-3.0.0.buildspec
+accumulo-project-3.0.0.buildinfo
+accumulo-project-3.0.0.buildcompare

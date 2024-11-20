@@ -1,0 +1,3 @@
+maven-enforcer-plugin-3.5.0.buildspec
+enforcer-3.5.0.buildinfo
+enforcer-3.5.0.buildcompare

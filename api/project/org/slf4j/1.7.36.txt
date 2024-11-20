@@ -1,0 +1,3 @@
+slf4j-1.7.36.buildspec
+slf4j-parent-1.7.36.buildinfo
+slf4j-parent-1.7.36.buildcompare

@@ -1,0 +1,3 @@
+maven-gpg-plugin-3.2.5.buildspec
+maven-gpg-plugin-3.2.5.buildinfo
+maven-gpg-plugin-3.2.5.buildcompare

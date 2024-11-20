@@ -1,0 +1,3 @@
+slf4j-2.0.10.buildspec
+slf4j-bom-2.0.10.buildinfo
+slf4j-bom-2.0.10.buildcompare

@@ -1,0 +1,3 @@
+fediz-1.6.1.buildspec
+fediz-1.6.1.buildinfo
+fediz-1.6.1.buildcompare

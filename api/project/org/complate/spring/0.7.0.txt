@@ -1,0 +1,3 @@
+complate-spring-mvc-0.7.0.buildspec
+complate-spring-mvc-0.7.0.buildinfo
+complate-spring-mvc-0.7.0.buildcompare

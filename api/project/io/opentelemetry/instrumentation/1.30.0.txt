@@ -1,0 +1,3 @@
+opentelemetry-1.30.0.buildspec
+opentelemetry-instrumentation-api-1.30.0.buildinfo
+opentelemetry-instrumentation-api-1.30.0.buildcompare

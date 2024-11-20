@@ -1,0 +1,3 @@
+packageurl-java-1.5.0.buildspec
+packageurl-java-1.5.0.buildinfo
+packageurl-java-1.5.0.buildcompare

@@ -1,0 +1,3 @@
+bom-builder-1.0.0.buildspec
+bom-builder-1.0.0.buildinfo
+bom-builder-1.0.0.buildcompare

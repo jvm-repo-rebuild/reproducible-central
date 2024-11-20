@@ -1,0 +1,3 @@
+glassfish-7.0.16.buildspec
+glassfish-main-aggregator-7.0.16.buildinfo
+glassfish-main-aggregator-7.0.16.buildcompare

@@ -1,0 +1,3 @@
+jackson-jr-2.17.1.buildspec
+jackson-jr-parent-2.17.1.buildinfo
+jackson-jr-parent-2.17.1.buildcompare

@@ -1,0 +1,3 @@
+domain-driven-desgin-0.7.0.buildspec
+domain-driven-desgin-0.7.0.buildinfo
+domain-driven-desgin-0.7.0.buildcompare

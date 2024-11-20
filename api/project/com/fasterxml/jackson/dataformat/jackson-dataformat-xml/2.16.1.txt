@@ -1,0 +1,3 @@
+jackson-dataformat-xml-2.16.1.buildspec
+jackson-dataformat-xml-2.16.1.buildinfo
+jackson-dataformat-xml-2.16.1.buildcompare

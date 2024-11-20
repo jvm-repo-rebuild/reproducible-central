@@ -1,0 +1,1 @@
+com/github/marschall/jakarta-jms-adapter

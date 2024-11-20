@@ -1,0 +1,3 @@
+maven-resolver-1.9.16.buildspec
+maven-resolver-1.9.16.buildinfo
+maven-resolver-1.9.16.buildcompare

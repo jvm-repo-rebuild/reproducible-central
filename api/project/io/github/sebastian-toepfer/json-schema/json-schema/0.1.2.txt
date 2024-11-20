@@ -1,0 +1,3 @@
+json-schema-0.1.2.buildspec
+json-schema-0.1.2.buildinfo
+json-schema-0.1.2.buildcompare

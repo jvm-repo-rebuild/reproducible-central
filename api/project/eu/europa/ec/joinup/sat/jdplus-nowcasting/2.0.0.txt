@@ -1,0 +1,3 @@
+jdplus-nowcasting-2.0.0.buildspec
+jdplus-nowcasting-2.0.0.buildinfo
+jdplus-nowcasting-2.0.0.buildcompare

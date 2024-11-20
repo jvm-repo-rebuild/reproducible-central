@@ -1,0 +1,3 @@
+org.apache.sling.testing.clients-3.0.14.buildspec
+org.apache.sling.testing.clients-3.0.14.buildinfo
+org.apache.sling.testing.clients-3.0.14.buildcompare

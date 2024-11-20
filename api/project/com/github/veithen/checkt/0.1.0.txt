@@ -1,0 +1,3 @@
+checkt-0.1.0.buildspec
+checkt-0.1.0.buildinfo
+checkt-0.1.0.buildcompare

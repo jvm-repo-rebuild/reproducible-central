@@ -1,0 +1,3 @@
+stamina-0.1.6.buildspec
+stamina-core_2.13-0.1.6.buildinfo
+stamina-0.1.6.buildcompare

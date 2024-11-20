@@ -1,0 +1,3 @@
+camel-k-runtime-1.11.0.buildspec
+camel-k-runtime-project-1.11.0.buildinfo
+camel-k-runtime-project-1.11.0.buildcompare

@@ -1,0 +1,1 @@
+io/micronaut/maven/micronaut-maven-plugin

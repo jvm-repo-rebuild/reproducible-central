@@ -1,0 +1,3 @@
+org.apache.sling.feature.launcher-1.1.22.buildspec
+org.apache.sling.feature.launcher-1.1.22.buildinfo
+org.apache.sling.feature.launcher-1.1.22.buildcompare

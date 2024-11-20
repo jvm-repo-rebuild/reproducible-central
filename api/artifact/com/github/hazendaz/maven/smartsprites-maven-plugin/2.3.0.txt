@@ -1,0 +1,1 @@
+com/github/hazendaz/maven/smartsprites-maven-plugin

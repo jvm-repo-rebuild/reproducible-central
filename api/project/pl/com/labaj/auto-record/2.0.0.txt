@@ -1,0 +1,3 @@
+auto-record-2.0.0.buildspec
+auto-record-2.0.0.buildinfo
+auto-record-2.0.0.buildcompare

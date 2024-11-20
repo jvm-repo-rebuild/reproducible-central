@@ -1,0 +1,3 @@
+tablejoin-1.0.00.buildspec
+tablejoin-1.0.00.buildinfo
+tablejoin-1.0.00.buildcompare

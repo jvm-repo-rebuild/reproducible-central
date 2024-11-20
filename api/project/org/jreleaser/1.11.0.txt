@@ -1,0 +1,3 @@
+jreleaser-1.11.0.buildspec
+jreleaser-1.11.0.buildinfo
+jreleaser-1.11.0.buildcompare

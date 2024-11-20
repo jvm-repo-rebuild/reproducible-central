@@ -1,0 +1,3 @@
+jszip-3.10.1.buildspec
+jszip-3.10.1.buildinfo
+jszip-3.10.1.buildcompare

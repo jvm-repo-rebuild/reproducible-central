@@ -1,0 +1,3 @@
+pgp-keys-map-2022.09.15.buildspec
+pgp-keys-map-2022.09.15.buildinfo
+pgp-keys-map-2022.09.15.buildcompare

@@ -1,0 +1,3 @@
+jackson-core-2.14.0-rc3.buildspec
+jackson-core-2.14.0-rc3.buildinfo
+jackson-core-2.14.0-rc3.buildcompare

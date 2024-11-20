@@ -1,0 +1,3 @@
+maven-scripting-plugin-3.0.0.buildspec
+maven-scripting-plugin-3.0.0.buildinfo
+maven-scripting-plugin-3.0.0.buildcompare

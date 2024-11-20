@@ -1,0 +1,3 @@
+karaf-4.4.4.buildspec
+karaf-4.4.4.buildinfo
+karaf-4.4.4.buildcompare

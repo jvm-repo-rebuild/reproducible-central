@@ -1,0 +1,3 @@
+takari-lifecycle-plugin-2.2.0.buildspec
+takari-lifecycle-2.2.0.buildinfo
+takari-lifecycle-2.2.0.buildcompare

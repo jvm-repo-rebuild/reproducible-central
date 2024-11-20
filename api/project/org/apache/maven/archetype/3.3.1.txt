@@ -1,0 +1,3 @@
+archetype-3.3.1.buildspec
+maven-archetype-plugin-3.3.1.buildinfo
+maven-archetype-plugin-3.3.1.buildcompare

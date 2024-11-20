@@ -1,0 +1,3 @@
+micronaut-maven-plugin-1.1.0.M1.buildspec
+micronaut-maven-plugin-1.1.0.M1.buildinfo
+micronaut-maven-plugin-1.1.0.M1.buildcompare

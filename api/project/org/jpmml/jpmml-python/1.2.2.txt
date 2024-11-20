@@ -1,0 +1,3 @@
+jpmml-python-1.2.2.buildspec
+jpmml-python-1.2.2.buildinfo
+jpmml-python-1.2.2.buildcompare

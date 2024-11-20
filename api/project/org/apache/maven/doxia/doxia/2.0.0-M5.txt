@@ -1,0 +1,3 @@
+doxia-2.0.0-M5.buildspec
+doxia-2.0.0-M5.buildinfo
+doxia-2.0.0-M5.buildcompare

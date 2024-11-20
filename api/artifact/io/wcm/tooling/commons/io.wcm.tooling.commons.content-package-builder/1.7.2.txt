@@ -1,0 +1,1 @@
+io/wcm/tooling/commons/content-package-builder

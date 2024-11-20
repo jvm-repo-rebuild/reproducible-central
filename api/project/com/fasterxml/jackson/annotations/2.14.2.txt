@@ -1,0 +1,3 @@
+jackson-annotations-2.14.2.buildspec
+jackson-annotations-2.14.2.buildinfo
+jackson-annotations-2.14.2.buildcompare

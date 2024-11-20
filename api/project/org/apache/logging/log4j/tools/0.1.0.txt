@@ -1,0 +1,3 @@
+log4j-tools-0.1.0.buildspec
+log4j-tools-bom-0.1.0.buildinfo
+log4j-tools-bom-0.1.0.buildcompare

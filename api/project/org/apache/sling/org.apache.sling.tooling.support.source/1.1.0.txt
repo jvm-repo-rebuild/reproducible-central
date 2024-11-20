@@ -1,0 +1,3 @@
+org.apache.sling.tooling.support.source-1.1.0.buildspec
+org.apache.sling.tooling.support.source-1.1.0.buildinfo
+org.apache.sling.tooling.support.source-1.1.0.buildcompare

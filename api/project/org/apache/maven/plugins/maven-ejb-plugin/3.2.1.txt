@@ -1,0 +1,3 @@
+maven-ejb-plugin-3.2.1.buildspec
+maven-ejb-plugin-3.2.1.buildinfo
+maven-ejb-plugin-3.2.1.buildcompare

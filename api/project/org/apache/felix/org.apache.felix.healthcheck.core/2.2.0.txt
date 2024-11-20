@@ -1,0 +1,3 @@
+org.apache.felix.healthcheck.core-2.2.0.buildspec
+org.apache.felix.healthcheck.core-2.2.0.buildinfo
+org.apache.felix.healthcheck.core-2.2.0.buildcompare

@@ -1,0 +1,3 @@
+vcenter-1.0.00.buildspec
+vcenter-1.0.00.buildinfo
+vcenter-1.0.00.buildcompare

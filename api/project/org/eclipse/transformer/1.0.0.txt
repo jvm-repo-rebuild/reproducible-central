@@ -1,0 +1,3 @@
+eclipse-transformer-1.0.0.buildspec
+org.eclipse.transformer.bnd.analyzer-1.0.0.buildinfo
+org.eclipse.transformer.bnd.analyzer-1.0.0.buildcompare

@@ -1,0 +1,3 @@
+maven-archiver-3.6.0.buildspec
+maven-archiver-3.6.0.buildinfo
+maven-archiver-3.6.0.buildcompare

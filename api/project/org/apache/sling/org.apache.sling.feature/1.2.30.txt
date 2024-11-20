@@ -1,0 +1,3 @@
+org.apache.sling.feature-1.2.30.buildspec
+org.apache.sling.feature-1.2.30.buildinfo
+org.apache.sling.feature-1.2.30.buildcompare

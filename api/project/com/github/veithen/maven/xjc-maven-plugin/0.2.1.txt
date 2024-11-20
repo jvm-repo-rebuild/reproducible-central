@@ -1,0 +1,3 @@
+xjc-maven-plugin-0.2.1.buildspec
+xjc-maven-plugin-0.2.1.buildinfo
+xjc-maven-plugin-0.2.1.buildcompare

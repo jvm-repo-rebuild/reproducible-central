@@ -1,0 +1,3 @@
+nifi-1.20.0.buildspec
+nifi-1.20.0.buildinfo
+nifi-1.20.0.buildcompare

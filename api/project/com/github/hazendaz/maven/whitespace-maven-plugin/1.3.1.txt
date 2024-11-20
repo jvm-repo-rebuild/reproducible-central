@@ -1,0 +1,3 @@
+whitespace-maven-plugin-1.3.1.buildspec
+whitespace-maven-plugin-1.3.1.buildinfo
+whitespace-maven-plugin-1.3.1.buildcompare

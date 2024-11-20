@@ -1,0 +1,3 @@
+openlayers-8.2.0.buildspec
+openlayers-8.2.0.buildinfo
+openlayers-8.2.0.buildcompare

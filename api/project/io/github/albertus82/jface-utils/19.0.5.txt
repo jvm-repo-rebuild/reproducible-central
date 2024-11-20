@@ -1,0 +1,3 @@
+jface-utils-19.0.5.buildspec
+jface-utils-19.0.5.buildinfo
+jface-utils-19.0.5.buildcompare

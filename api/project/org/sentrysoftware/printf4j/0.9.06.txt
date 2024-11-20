@@ -1,0 +1,3 @@
+printf4j-0.9.06.buildspec
+printf4j-0.9.06.buildinfo
+printf4j-0.9.06.buildcompare

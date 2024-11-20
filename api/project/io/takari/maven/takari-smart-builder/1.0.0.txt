@@ -1,0 +1,3 @@
+takari-smart-builder-1.0.0.buildspec
+takari-smart-builder-1.0.0.buildinfo
+takari-smart-builder-1.0.0.buildcompare

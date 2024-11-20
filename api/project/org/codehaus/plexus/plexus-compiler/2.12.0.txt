@@ -1,0 +1,3 @@
+plexus-compiler-2.12.0.buildspec
+plexus-compiler-2.12.0.buildinfo
+plexus-compiler-2.12.0.buildcompare

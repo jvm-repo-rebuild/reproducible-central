@@ -1,0 +1,1 @@
+com/homeofthewizard/spring-bridge-maven-plugin

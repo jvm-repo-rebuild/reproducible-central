@@ -1,0 +1,3 @@
+org.apache.sling.jcr.contentloader-2.6.0.buildspec
+org.apache.sling.jcr.contentloader-2.6.0.buildinfo
+org.apache.sling.jcr.contentloader-2.6.0.buildcompare

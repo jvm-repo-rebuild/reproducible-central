@@ -1,0 +1,3 @@
+tiles-maven-plugin-2.39.buildspec
+tiles-maven-plugin-2.39.buildinfo
+tiles-maven-plugin-2.39.buildcompare

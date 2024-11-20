@@ -1,0 +1,3 @@
+wagon-3.4.2.buildspec
+wagon-webdav-jackrabbit-3.4.2.buildinfo
+wagon-webdav-jackrabbit-3.4.2.buildcompare

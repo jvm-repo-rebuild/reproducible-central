@@ -1,0 +1,3 @@
+versions-maven-plugin-2.8.1.buildspec
+versions-maven-plugin-2.8.1.buildinfo
+versions-maven-plugin-2.8.1.buildcompare

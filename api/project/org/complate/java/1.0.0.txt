@@ -1,0 +1,3 @@
+complate-core-1.0.0.buildspec
+complate-parent-1.0.0.buildinfo
+complate-parent-1.0.0.buildcompare

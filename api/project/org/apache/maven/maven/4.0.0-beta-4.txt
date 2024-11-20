@@ -1,0 +1,3 @@
+maven-4.0.0-beta-4.buildspec
+maven-4.0.0-beta-4.buildinfo
+maven-4.0.0-beta-4.buildcompare

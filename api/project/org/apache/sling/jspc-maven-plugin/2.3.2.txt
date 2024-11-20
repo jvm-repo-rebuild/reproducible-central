@@ -1,0 +1,3 @@
+jspc-maven-plugin-2.3.2.buildspec
+jspc-maven-plugin-2.3.2.buildinfo
+jspc-maven-plugin-2.3.2.buildcompare

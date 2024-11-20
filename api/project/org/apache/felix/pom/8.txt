@@ -1,0 +1,3 @@
+felix-parent-8.buildspec
+felix-parent-8.buildinfo
+felix-parent-8.buildcompare

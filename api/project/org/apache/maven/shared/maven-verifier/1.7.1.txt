@@ -1,0 +1,3 @@
+maven-verifier-1.7.1.buildspec
+maven-verifier-1.7.1.buildinfo
+maven-verifier-1.7.1.buildcompare

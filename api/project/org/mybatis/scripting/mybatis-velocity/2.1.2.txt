@@ -1,0 +1,3 @@
+mybatis-velocity-2.1.2.buildspec
+mybatis-velocity-2.1.2.buildinfo
+mybatis-velocity-2.1.2.buildcompare

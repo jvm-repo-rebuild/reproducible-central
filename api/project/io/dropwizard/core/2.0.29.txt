@@ -1,0 +1,3 @@
+dropwizard-2.0.29.buildspec
+dropwizard-project-2.0.29.buildinfo
+dropwizard-project-2.0.29.buildcompare

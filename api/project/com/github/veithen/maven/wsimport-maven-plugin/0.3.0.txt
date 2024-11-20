@@ -1,0 +1,3 @@
+wsimport-maven-plugin-0.3.0.buildspec
+wsimport-maven-plugin-0.3.0.buildinfo
+wsimport-maven-plugin-0.3.0.buildcompare

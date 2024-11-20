@@ -1,0 +1,3 @@
+maven-compiler-plugin-3.10.1.buildspec
+maven-compiler-plugin-3.10.1.buildinfo
+maven-compiler-plugin-3.10.1.buildcompare

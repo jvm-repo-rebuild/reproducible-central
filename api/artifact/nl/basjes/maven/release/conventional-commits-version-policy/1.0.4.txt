@@ -1,0 +1,1 @@
+nl/basjes/maven/release/conventional-commits-version-policy

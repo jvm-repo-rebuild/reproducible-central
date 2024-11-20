@@ -1,0 +1,3 @@
+properties-maven-plugin-1.2.1.buildspec
+properties-maven-plugin-1.2.1.buildinfo
+properties-maven-plugin-1.2.1.buildcompare

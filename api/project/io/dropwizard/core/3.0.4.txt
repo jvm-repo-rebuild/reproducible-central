@@ -1,0 +1,3 @@
+dropwizard-3.0.4.buildspec
+dropwizard-project-3.0.4.buildinfo
+dropwizard-project-3.0.4.buildcompare

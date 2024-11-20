@@ -1,0 +1,3 @@
+wcm-richtext-1.6.4.buildspec
+io.wcm.handler.richtext-1.6.4.buildinfo
+io.wcm.handler.richtext-1.6.4.buildcompare

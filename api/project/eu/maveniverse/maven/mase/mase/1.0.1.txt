@@ -1,0 +1,3 @@
+mase-1.0.1.buildspec
+mase-1.0.1.buildinfo
+mase-1.0.1.buildcompare

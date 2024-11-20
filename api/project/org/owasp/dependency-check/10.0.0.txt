@@ -1,0 +1,3 @@
+dependency-check-10.0.0.buildspec
+dependency-check-parent-10.0.0.buildinfo
+dependency-check-parent-10.0.0.buildcompare

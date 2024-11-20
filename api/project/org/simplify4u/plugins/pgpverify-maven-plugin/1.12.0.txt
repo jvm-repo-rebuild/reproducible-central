@@ -1,0 +1,3 @@
+pgpverify-maven-plugin-1.12.0.buildspec
+pgpverify-maven-plugin-1.12.0.buildinfo
+pgpverify-maven-plugin-1.12.0.buildcompare

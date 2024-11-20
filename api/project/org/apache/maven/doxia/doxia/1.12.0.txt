@@ -1,0 +1,3 @@
+doxia-1.12.0.buildspec
+doxia-module-markdown-1.12.0.buildinfo
+doxia-module-markdown-1.12.0.buildcompare

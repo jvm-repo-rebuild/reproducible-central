@@ -1,0 +1,3 @@
+maven-dependency-analyzer-1.11.2.buildspec
+maven-dependency-analyzer-1.11.2.buildinfo
+maven-dependency-analyzer-1.11.2.buildcompare

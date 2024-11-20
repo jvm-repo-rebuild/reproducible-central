@@ -1,0 +1,3 @@
+wcm-ui-granite-1.7.4.buildspec
+io.wcm.wcm.ui.granite-1.7.4.buildinfo
+io.wcm.wcm.ui.granite-1.7.4.buildcompare

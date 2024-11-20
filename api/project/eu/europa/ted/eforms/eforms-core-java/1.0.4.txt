@@ -1,0 +1,3 @@
+eforms-core-java-1.0.4.buildspec
+eforms-core-java-1.0.4.buildinfo
+eforms-core-java-1.0.4.buildcompare

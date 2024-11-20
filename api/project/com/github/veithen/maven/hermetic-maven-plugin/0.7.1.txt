@@ -1,0 +1,3 @@
+hermetic-maven-plugin-0.7.1.buildspec
+hermetic-maven-plugin-0.7.1.buildinfo
+hermetic-maven-plugin-0.7.1.buildcompare

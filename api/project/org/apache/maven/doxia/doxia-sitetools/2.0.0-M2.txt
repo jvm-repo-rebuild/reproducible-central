@@ -1,0 +1,3 @@
+doxia-sitetools-2.0.0-M2.buildspec
+doxia-sitetools-2.0.0-M2.buildinfo
+doxia-sitetools-2.0.0-M2.buildcompare

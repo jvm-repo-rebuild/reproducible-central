@@ -1,0 +1,3 @@
+incrementalbuild-1.0.3.buildspec
+io.takari.incrementalbuild-1.0.3.buildinfo
+io.takari.incrementalbuild-1.0.3.buildcompare

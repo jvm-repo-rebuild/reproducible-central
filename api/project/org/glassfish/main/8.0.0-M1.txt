@@ -1,0 +1,3 @@
+glassfish-8.0.0-M1.buildspec
+glassfish-main-aggregator-8.0.0-M1.buildinfo
+glassfish-main-aggregator-8.0.0-M1.buildcompare

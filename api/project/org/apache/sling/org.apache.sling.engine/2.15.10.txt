@@ -1,0 +1,3 @@
+org.apache.sling.engine-2.15.10.buildspec
+org.apache.sling.engine-2.15.10.buildinfo
+org.apache.sling.engine-2.15.10.buildcompare

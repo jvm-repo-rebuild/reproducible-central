@@ -1,0 +1,3 @@
+com.io7m.trasco-1.0.0-beta0002.buildspec
+com.io7m.trasco-1.0.0-beta0002.buildinfo
+com.io7m.trasco-1.0.0-beta0002.buildcompare

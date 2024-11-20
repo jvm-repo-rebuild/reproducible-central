@@ -1,0 +1,1 @@
+io/wcm/tooling/commons/crx-packmgr-helper

@@ -1,0 +1,3 @@
+sling-initial-content-transform-maven-plugin-1.1.4.buildspec
+sling-initial-content-transform-maven-plugin-1.1.4.buildinfo
+sling-initial-content-transform-maven-plugin-1.1.4.buildcompare

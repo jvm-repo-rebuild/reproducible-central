@@ -1,0 +1,3 @@
+camel-4.0.0-RC1.buildspec
+camel-4.0.0-RC1.buildinfo
+camel-4.0.0-RC1.buildcompare

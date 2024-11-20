@@ -1,0 +1,3 @@
+checksum-maven-plugin-1.11.buildspec
+checksum-maven-plugin-1.11.buildinfo
+checksum-maven-plugin-1.11.buildcompare

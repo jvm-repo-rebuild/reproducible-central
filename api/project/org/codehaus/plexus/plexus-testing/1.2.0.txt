@@ -1,0 +1,3 @@
+plexus-testing-1.2.0.buildspec
+plexus-testing-1.2.0.buildinfo
+plexus-testing-1.2.0.buildcompare

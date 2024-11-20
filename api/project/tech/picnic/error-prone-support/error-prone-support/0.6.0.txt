@@ -1,0 +1,3 @@
+error-prone-support-0.6.0.buildspec
+error-prone-support-0.6.0.buildinfo
+error-prone-support-0.6.0.buildcompare

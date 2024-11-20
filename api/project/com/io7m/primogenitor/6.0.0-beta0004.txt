@@ -1,0 +1,3 @@
+com.io7m.primogenitor-6.0.0-beta0004.buildspec
+com.io7m.primogenitor-6.0.0-beta0004.buildinfo
+com.io7m.primogenitor-6.0.0-beta0004.buildcompare

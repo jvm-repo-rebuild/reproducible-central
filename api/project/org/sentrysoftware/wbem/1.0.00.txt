@@ -1,0 +1,3 @@
+wbem-1.0.00.buildspec
+wbem-1.0.00.buildinfo
+wbem-1.0.00.buildcompare

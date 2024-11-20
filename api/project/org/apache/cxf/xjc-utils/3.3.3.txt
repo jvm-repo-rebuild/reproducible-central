@@ -1,0 +1,3 @@
+xjc-utils-3.3.3.buildspec
+xjc-utils-3.3.3.buildinfo
+xjc-utils-3.3.3.buildcompare

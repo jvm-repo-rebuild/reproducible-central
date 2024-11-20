@@ -1,0 +1,3 @@
+woodstox-core-6.7.0.buildspec
+woodstox-core-6.7.0.buildinfo
+woodstox-core-6.7.0.buildcompare

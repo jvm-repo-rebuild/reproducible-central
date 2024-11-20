@@ -1,0 +1,3 @@
+reload4j-1.2.20.buildspec
+reload4j-1.2.20.buildinfo
+reload4j-1.2.20.buildcompare

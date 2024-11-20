@@ -1,0 +1,3 @@
+spoon-core-10.3.0-beta-8.buildspec
+null
+null

@@ -1,0 +1,3 @@
+org.apache.sling.testing.resourceresolver-mock-1.2.0.buildspec
+null
+null

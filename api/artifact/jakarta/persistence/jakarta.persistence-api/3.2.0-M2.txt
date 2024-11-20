@@ -1,0 +1,1 @@
+jakarta/persistence/jakarta.persistence-api

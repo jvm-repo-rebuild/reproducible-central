@@ -1,0 +1,3 @@
+langchain4j-0.36.1.buildspec
+langchain4j-aggregator-0.36.1.buildinfo
+langchain4j-aggregator-0.36.1.buildcompare

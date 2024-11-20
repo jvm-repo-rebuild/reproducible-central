@@ -1,0 +1,1 @@
+org/simplify4u/plugins/pgpverify-maven-plugin

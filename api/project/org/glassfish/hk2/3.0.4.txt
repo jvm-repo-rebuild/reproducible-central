@@ -1,0 +1,3 @@
+hk2-3.0.4.buildspec
+hk2-parent-3.0.4.buildinfo
+hk2-parent-3.0.4.buildcompare

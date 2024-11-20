@@ -1,0 +1,3 @@
+wcm-ui-clientlibs-1.4.0.buildspec
+io.wcm.wcm.ui.clientlibs-1.4.0.buildinfo
+io.wcm.wcm.ui.clientlibs-1.4.0.buildcompare

@@ -1,0 +1,3 @@
+maven-native-1.0-M1.buildspec
+maven-native-1.0-M1.buildinfo
+maven-native-1.0-M1.buildcompare

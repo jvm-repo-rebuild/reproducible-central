@@ -1,0 +1,3 @@
+trino-447.buildspec
+trino-root-447.buildinfo
+trino-root-447.buildcompare

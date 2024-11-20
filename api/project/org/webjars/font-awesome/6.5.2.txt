@@ -1,0 +1,3 @@
+font-awesome-6.5.2.buildspec
+font-awesome-6.5.2.buildinfo
+font-awesome-6.5.2.buildcompare

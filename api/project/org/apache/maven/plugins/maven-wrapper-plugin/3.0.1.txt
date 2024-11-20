@@ -1,0 +1,3 @@
+maven-wrapper-plugin-3.0.1.buildspec
+maven-wrapper-plugin-3.0.1.buildinfo
+maven-wrapper-plugin-3.0.1.buildcompare

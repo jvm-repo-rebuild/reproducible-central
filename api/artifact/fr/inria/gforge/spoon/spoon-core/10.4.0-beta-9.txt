@@ -1,0 +1,1 @@
+fr/inria/gforge/spoon/spoon-core

@@ -1,0 +1,3 @@
+javabean-tester-2.8.0.buildspec
+javabean-tester-2.8.0.buildinfo
+javabean-tester-2.8.0.buildcompare

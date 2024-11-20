@@ -1,0 +1,3 @@
+acs-aem-commons-5.2.0.buildspec
+acs-aem-commons-5.2.0.buildinfo
+acs-aem-commons-5.2.0.buildcompare

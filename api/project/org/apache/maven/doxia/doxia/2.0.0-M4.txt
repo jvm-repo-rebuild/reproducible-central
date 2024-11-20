@@ -1,0 +1,3 @@
+doxia-2.0.0-M4.buildspec
+doxia-2.0.0-M4.buildinfo
+doxia-2.0.0-M4.buildcompare

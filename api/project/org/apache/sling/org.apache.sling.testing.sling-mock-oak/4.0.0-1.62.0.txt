@@ -1,0 +1,3 @@
+org.apache.sling.testing.sling-mock-oak-4.0.0-1.62.0.buildspec
+org.apache.sling.testing.sling-mock-oak-4.0.0-1.62.0.buildinfo
+org.apache.sling.testing.sling-mock-oak-4.0.0-1.62.0.buildcompare

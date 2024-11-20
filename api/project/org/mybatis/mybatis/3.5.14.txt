@@ -1,0 +1,3 @@
+mybatis-3.5.14.buildspec
+mybatis-3.5.14.buildinfo
+mybatis-3.5.14.buildcompare

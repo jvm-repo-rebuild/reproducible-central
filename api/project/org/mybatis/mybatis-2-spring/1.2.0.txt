@@ -1,0 +1,3 @@
+mybatis-2-spring-1.2.0.buildspec
+mybatis-2-spring-1.2.0.buildinfo
+mybatis-2-spring-1.2.0.buildcompare

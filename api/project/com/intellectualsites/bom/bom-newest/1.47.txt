@@ -1,0 +1,3 @@
+bom-newest-1.47.buildspec
+bom-newest-1.47.buildinfo
+bom-newest-1.47.buildcompare

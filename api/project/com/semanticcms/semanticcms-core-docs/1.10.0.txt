@@ -1,0 +1,3 @@
+semanticcms-core-docs-1.10.0.buildspec
+semanticcms-core-docs-1.10.0.buildinfo
+semanticcms-core-docs-1.10.0.buildcompare

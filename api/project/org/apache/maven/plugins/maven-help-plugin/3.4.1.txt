@@ -1,0 +1,3 @@
+maven-help-plugin-3.4.1.buildspec
+maven-help-plugin-3.4.1.buildinfo
+maven-help-plugin-3.4.1.buildcompare

@@ -1,0 +1,3 @@
+makeself-maven-plugin-1.8.0.buildspec
+makeself-maven-plugin-1.8.0.buildinfo
+makeself-maven-plugin-1.8.0.buildcompare

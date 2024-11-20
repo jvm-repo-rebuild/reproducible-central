@@ -1,0 +1,3 @@
+maven-invoker-plugin-3.5.0.buildspec
+maven-invoker-plugin-3.5.0.buildinfo
+maven-invoker-plugin-3.5.0.buildcompare

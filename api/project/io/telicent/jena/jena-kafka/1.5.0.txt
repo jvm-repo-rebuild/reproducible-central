@@ -1,0 +1,3 @@
+jena-kafka-1.5.0.buildspec
+jena-kafka-1.5.0.buildinfo
+jena-kafka-1.5.0.buildcompare

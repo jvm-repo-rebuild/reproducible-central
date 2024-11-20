@@ -1,0 +1,3 @@
+maven-site-plugin-3.21.0.buildspec
+maven-site-plugin-3.21.0.buildinfo
+maven-site-plugin-3.21.0.buildcompare

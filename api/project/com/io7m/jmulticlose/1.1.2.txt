@@ -1,0 +1,3 @@
+com.io7m.jmulticlose-1.1.2.buildspec
+com.io7m.jmulticlose-1.1.2.buildinfo
+com.io7m.jmulticlose-1.1.2.buildcompare

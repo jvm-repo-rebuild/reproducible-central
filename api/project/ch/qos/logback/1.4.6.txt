@@ -1,0 +1,3 @@
+logback-1.4.6.buildspec
+logback-parent-1.4.6.buildinfo
+logback-parent-1.4.6.buildcompare

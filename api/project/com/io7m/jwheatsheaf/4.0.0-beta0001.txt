@@ -1,0 +1,3 @@
+com.io7m.jwheatsheaf-4.0.0-beta0001.buildspec
+com.io7m.jwheatsheaf-4.0.0-beta0001.buildinfo
+com.io7m.jwheatsheaf-4.0.0-beta0001.buildcompare

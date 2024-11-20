@@ -1,0 +1,3 @@
+org.apache.sling.starter-12.buildspec
+org.apache.sling.starter-12.buildinfo
+org.apache.sling.starter-12.buildcompare

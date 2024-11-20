@@ -1,0 +1,3 @@
+vault-maven-plugin-1.1.7.buildspec
+vault-maven-plugin-1.1.7.buildinfo
+vault-maven-plugin-1.1.7.buildcompare

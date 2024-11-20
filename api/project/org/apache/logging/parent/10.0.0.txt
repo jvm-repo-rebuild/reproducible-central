@@ -1,0 +1,3 @@
+logging-parent-10.0.0.buildspec
+logging-parent-10.0.0.buildinfo
+logging-parent-10.0.0.buildcompare

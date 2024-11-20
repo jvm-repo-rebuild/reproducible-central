@@ -1,0 +1,3 @@
+spring-bridge-maven-plugin-1.0.0-alpha.buildspec
+spring-bridge-maven-plugin-1.0.0-alpha.buildinfo
+spring-bridge-maven-plugin-1.0.0-alpha.buildcompare

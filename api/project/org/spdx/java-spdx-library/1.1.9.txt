@@ -1,0 +1,3 @@
+java-spdx-library-1.1.9.buildspec
+java-spdx-library-1.1.9.buildinfo
+java-spdx-library-1.1.9.buildcompare

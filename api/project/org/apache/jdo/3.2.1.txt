@@ -1,0 +1,3 @@
+jdo-3.2.1.buildspec
+jdo-3.2.1.buildinfo
+jdo-3.2.1.buildcompare

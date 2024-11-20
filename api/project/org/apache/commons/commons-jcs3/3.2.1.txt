@@ -1,0 +1,3 @@
+commons-jcs3-3.2.1.buildspec
+commons-jcs3-3.2.1.buildinfo
+commons-jcs3-3.2.1.buildcompare

@@ -1,0 +1,3 @@
+slf4j-mock-2.1.1.buildspec
+slf4j-mock-2.1.1.buildinfo
+slf4j-mock-2.1.1.buildcompare

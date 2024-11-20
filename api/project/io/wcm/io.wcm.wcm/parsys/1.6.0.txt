@@ -1,0 +1,3 @@
+wcm-parsys-1.6.0.buildspec
+io.wcm.wcm.parsys-1.6.0.buildinfo
+io.wcm.wcm.parsys-1.6.0.buildcompare

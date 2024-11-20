@@ -1,0 +1,3 @@
+antisamy-1.6.3.buildspec
+antisamy-1.6.3.buildinfo
+antisamy-1.6.3.buildcompare

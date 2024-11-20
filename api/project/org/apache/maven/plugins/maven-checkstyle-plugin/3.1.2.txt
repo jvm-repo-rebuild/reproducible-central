@@ -1,0 +1,3 @@
+maven-checkstyle-plugin-3.1.2.buildspec
+maven-checkstyle-plugin-3.1.2.buildinfo
+maven-checkstyle-plugin-3.1.2.buildcompare

@@ -1,0 +1,3 @@
+build-helper-maven-plugin-3.4.0.buildspec
+build-helper-maven-plugin-3.4.0.buildinfo
+build-helper-maven-plugin-3.4.0.buildcompare

@@ -1,0 +1,3 @@
+smartsprites-maven-plugin-2.2.0.buildspec
+smartsprites-maven-plugin-2.2.0.buildinfo
+smartsprites-maven-plugin-2.2.0.buildcompare

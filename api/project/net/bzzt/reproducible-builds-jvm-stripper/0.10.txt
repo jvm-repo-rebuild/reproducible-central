@@ -1,0 +1,3 @@
+reproducible-builds-jvm-stripper-0.10.buildspec
+reproducible-builds-jvm-stripper-0.10.buildinfo
+reproducible-builds-jvm-stripper-0.10.buildcompare

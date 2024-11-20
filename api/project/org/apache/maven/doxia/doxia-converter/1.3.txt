@@ -1,0 +1,3 @@
+doxia-converter-1.3.buildspec
+doxia-converter-1.3.buildinfo
+doxia-converter-1.3.buildcompare

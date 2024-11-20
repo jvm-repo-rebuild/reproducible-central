@@ -1,0 +1,3 @@
+resolver-proxy-maven-plugin-0.4.0.buildspec
+resolver-proxy-maven-plugin-0.4.0.buildinfo
+resolver-proxy-maven-plugin-0.4.0.buildcompare

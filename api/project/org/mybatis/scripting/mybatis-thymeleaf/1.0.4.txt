@@ -1,0 +1,3 @@
+mybatis-thymeleaf-1.0.4.buildspec
+mybatis-thymeleaf-1.0.4.buildinfo
+mybatis-thymeleaf-1.0.4.buildcompare

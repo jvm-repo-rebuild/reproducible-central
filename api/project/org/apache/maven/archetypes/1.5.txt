@@ -1,0 +1,3 @@
+archetypes-1.5.buildspec
+maven-archetype-bundles-1.5.buildinfo
+maven-archetype-bundles-1.5.buildcompare

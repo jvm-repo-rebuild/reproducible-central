@@ -1,0 +1,1 @@
+io/github/sebastian-toepfer/json/rpc/json-printable-maven-plugin

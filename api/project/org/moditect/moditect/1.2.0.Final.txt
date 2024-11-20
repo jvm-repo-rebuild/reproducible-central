@@ -1,0 +1,3 @@
+moditect-1.2.0.Final.buildspec
+moditect-aggregator-1.2.0.Final.buildinfo
+moditect-aggregator-1.2.0.Final.buildcompare

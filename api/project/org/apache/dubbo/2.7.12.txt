@@ -1,0 +1,3 @@
+dubbo-2.7.12.buildspec
+dubbo-parent-2.7.12.buildinfo
+dubbo-parent-2.7.12.buildcompare

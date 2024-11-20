@@ -1,0 +1,3 @@
+filevault-package-maven-plugin-1.1.8.buildspec
+filevault-package-maven-plugin-1.1.8.buildinfo
+filevault-package-maven-plugin-1.1.8.buildcompare

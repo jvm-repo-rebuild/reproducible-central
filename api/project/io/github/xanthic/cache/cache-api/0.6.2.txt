@@ -1,0 +1,3 @@
+cache-api-0.6.2.buildspec
+cache-api-0.6.2.buildinfo
+cache-api-0.6.2.buildcompare

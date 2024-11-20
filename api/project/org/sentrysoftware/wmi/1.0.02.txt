@@ -1,0 +1,3 @@
+wmi-1.0.02.buildspec
+wmi-1.0.02.buildinfo
+wmi-1.0.02.buildcompare

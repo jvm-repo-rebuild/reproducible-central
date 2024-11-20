@@ -1,0 +1,3 @@
+jkube-1.6.0.buildspec
+jkube-1.6.0.buildinfo
+jkube-1.6.0.buildcompare

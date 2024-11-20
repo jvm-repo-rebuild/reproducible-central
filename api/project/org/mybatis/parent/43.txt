@@ -1,0 +1,3 @@
+mybatis-parent-43.buildspec
+mybatis-parent-43.buildinfo
+mybatis-parent-43.buildcompare

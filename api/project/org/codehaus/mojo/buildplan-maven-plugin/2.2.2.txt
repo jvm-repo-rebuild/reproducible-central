@@ -1,0 +1,3 @@
+buildplan-maven-plugin-2.2.2.buildspec
+buildplan-maven-plugin-2.2.2.buildinfo
+buildplan-maven-plugin-2.2.2.buildcompare

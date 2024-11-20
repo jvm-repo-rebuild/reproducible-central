@@ -1,0 +1,3 @@
+jackson-bom-2.18.0.buildspec
+jackson-bom-2.18.0.buildinfo
+jackson-bom-2.18.0.buildcompare

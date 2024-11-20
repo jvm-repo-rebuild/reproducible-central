@@ -1,0 +1,3 @@
+jstream-1.0.20.buildspec
+jstream-root-1.0.20.buildinfo
+jstream-root-1.0.20.buildcompare

@@ -1,0 +1,3 @@
+mybatis-guice-4.0.0.buildspec
+mybatis-guice-4.0.0.buildinfo
+mybatis-guice-4.0.0.buildcompare

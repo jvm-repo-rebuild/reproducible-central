@@ -1,0 +1,3 @@
+camel-k-runtime-1.9.1.buildspec
+camel-k-runtime-project-1.9.1.buildinfo
+camel-k-runtime-project-1.9.1.buildcompare

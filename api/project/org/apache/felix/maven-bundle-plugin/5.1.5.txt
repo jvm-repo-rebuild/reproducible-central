@@ -1,0 +1,3 @@
+maven-bundle-plugin-5.1.5.buildspec
+maven-bundle-plugin-5.1.5.buildinfo
+maven-bundle-plugin-5.1.5.buildcompare

@@ -1,0 +1,3 @@
+maven-pdf-plugin-1.6.1.buildspec
+maven-pdf-plugin-1.6.1.buildinfo
+maven-pdf-plugin-1.6.1.buildcompare

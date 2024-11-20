@@ -1,0 +1,3 @@
+efx-toolkit-java-2.0.0-alpha.3.buildspec
+efx-toolkit-java-2.0.0-alpha.3.buildinfo
+efx-toolkit-java-2.0.0-alpha.3.buildcompare

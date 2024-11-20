@@ -1,0 +1,3 @@
+plexus-xml-4.0.3.buildspec
+plexus-xml-4.0.3.buildinfo
+plexus-xml-4.0.3.buildcompare

@@ -1,0 +1,3 @@
+jbanking-4.1.0.buildspec
+jbanking-4.1.0.buildinfo
+jbanking-4.1.0.buildcompare

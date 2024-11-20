@@ -1,0 +1,3 @@
+displaytag-doc-3.0.0.buildspec
+displaytag-doc-3.0.0.buildinfo
+displaytag-doc-3.0.0.buildcompare

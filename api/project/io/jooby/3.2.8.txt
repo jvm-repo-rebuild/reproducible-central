@@ -1,0 +1,3 @@
+jooby-3.2.8.buildspec
+jooby-project-3.2.8.buildinfo
+jooby-project-3.2.8.buildcompare

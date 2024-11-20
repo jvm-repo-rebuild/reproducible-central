@@ -1,0 +1,3 @@
+struts2-2.5.32.buildspec
+struts2-assembly-2.5.32.buildinfo
+struts2-assembly-2.5.32.buildcompare

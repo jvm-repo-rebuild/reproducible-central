@@ -1,0 +1,3 @@
+mybatis-hazelcast-1.2.0.buildspec
+mybatis-hazelcast-1.2.0.buildinfo
+mybatis-hazelcast-1.2.0.buildcompare

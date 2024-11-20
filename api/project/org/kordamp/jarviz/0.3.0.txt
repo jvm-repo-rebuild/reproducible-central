@@ -1,0 +1,3 @@
+jarviz-0.3.0.buildspec
+jarviz-core-0.3.0.buildinfo
+jarviz-core-0.3.0.buildcompare

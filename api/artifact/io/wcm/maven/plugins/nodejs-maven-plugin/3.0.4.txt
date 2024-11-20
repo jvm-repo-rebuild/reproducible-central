@@ -1,0 +1,1 @@
+io/wcm/maven/plugins/nodejs-maven-plugin

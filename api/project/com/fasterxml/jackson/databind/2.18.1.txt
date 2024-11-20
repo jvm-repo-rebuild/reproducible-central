@@ -1,0 +1,3 @@
+jackson-databind-2.18.1.buildspec
+jackson-databind-2.18.1.buildinfo
+jackson-databind-2.18.1.buildcompare

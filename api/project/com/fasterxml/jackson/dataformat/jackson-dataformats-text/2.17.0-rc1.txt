@@ -1,0 +1,3 @@
+jackson-dataformats-text-2.17.0-rc1.buildspec
+jackson-dataformats-text-2.17.0-rc1.buildinfo
+jackson-dataformats-text-2.17.0-rc1.buildcompare

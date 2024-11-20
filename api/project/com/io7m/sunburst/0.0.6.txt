@@ -1,0 +1,3 @@
+com.io7m.sunburst-0.0.6.buildspec
+com.io7m.sunburst-0.0.6.buildinfo
+com.io7m.sunburst-0.0.6.buildcompare

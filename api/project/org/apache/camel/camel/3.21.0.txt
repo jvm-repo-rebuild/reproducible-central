@@ -1,0 +1,3 @@
+camel-3.21.0.buildspec
+camel-3.21.0.buildinfo
+camel-3.21.0.buildcompare

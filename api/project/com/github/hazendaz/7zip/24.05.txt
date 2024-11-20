@@ -1,0 +1,3 @@
+7zip-24.05.buildspec
+7zip-24.05.buildinfo
+7zip-24.05.buildcompare

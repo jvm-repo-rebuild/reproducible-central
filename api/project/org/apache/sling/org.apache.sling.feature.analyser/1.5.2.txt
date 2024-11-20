@@ -1,0 +1,3 @@
+org.apache.sling.feature.analyser-1.5.2.buildspec
+org.apache.sling.feature.analyser-1.5.2.buildinfo
+org.apache.sling.feature.analyser-1.5.2.buildcompare

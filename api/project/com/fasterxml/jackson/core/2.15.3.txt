@@ -1,0 +1,3 @@
+jackson-core-2.15.3.buildspec
+jackson-core-2.15.3.buildinfo
+jackson-core-2.15.3.buildcompare

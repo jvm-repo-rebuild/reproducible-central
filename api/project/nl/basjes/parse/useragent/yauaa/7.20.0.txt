@@ -1,0 +1,3 @@
+yauaa-7.20.0.buildspec
+yauaa-parent-7.20.0.buildinfo
+yauaa-parent-7.20.0.buildcompare

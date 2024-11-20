@@ -1,0 +1,3 @@
+bnd-plugins-7.0.0.buildspec
+bnd-generate-maven-plugin-7.0.0.buildinfo
+bnd-generate-maven-plugin-7.0.0.buildcompare

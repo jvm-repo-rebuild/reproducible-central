@@ -1,0 +1,3 @@
+wcm-content-package-builder-1.6.2.buildspec
+io.wcm.tooling.commons.content-package-builder-1.6.2.buildinfo
+io.wcm.tooling.commons.content-package-builder-1.6.2.buildcompare

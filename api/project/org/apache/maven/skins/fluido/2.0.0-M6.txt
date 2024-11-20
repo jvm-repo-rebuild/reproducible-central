@@ -1,0 +1,3 @@
+maven-fluido-skin-2.0.0-M6.buildspec
+maven-fluido-skin-2.0.0-M6.buildinfo
+maven-fluido-skin-2.0.0-M6.buildcompare

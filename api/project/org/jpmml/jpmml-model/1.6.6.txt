@@ -1,0 +1,3 @@
+jpmml-model-1.6.6.buildspec
+jpmml-model-1.6.6.buildinfo
+jpmml-model-1.6.6.buildcompare
