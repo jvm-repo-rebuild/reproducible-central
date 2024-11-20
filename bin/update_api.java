@@ -2,6 +2,7 @@
 
 //DEPS org.apache.maven:maven-repository-metadata:3.9.9
 
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
@@ -12,6 +13,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.StandardCopyOption;
+import java.nio.file.StandardOpenOption;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -63,6 +65,7 @@ public class update_api extends SimpleFileVisitor<Path> {
     }
 
     private static final Path CONTENT_BASE = Path.of("content");
+    // https://jvm-repo-rebuild.github.io/reproducible-central/
     private static final Path API_PROJECT_BASE = Path.of("gh-pages/api/project");
     private static final Path API_ARTIFACT_BASE = Path.of("gh-pages/api/artifact");
     private static final Path BADGE_PROJECT_BASE = Path.of("gh-pages/badge/project");
@@ -164,6 +167,46 @@ public class update_api extends SimpleFileVisitor<Path> {
         }
         // TODO define what to save for project index of releases  json file
         Files.write(project.resolve("index.txt"), versions);
+
+        // index.html for artifacts badges: link to project's README.md and displays badge for each version
+        Collections.reverse(metadata.getVersioning().getVersions()); // list versions in descending order
+        for(String ga: projectGa) {
+            String groupId = ga.substring(0, ga.indexOf(':'));
+            String artifactId = ga.substring(groupId.length() + 1);
+            Path badgePath = BADGE_ARTIFACT_BASE.resolve(groupId.replace('.', '/')).resolve(artifactId);
+
+            Set<String> gaVersions;
+            try (Stream<Path> walk = Files.walk(badgePath, 1)) {
+                gaVersions = walk.map(p -> p.getFileName().toString())
+                    .filter(s -> s.endsWith(".json"))
+                    .map(s -> s.substring(0, s.length() - 5))
+                    .collect(Collectors.toSet());
+            }
+
+            try (BufferedWriter w = Files.newBufferedWriter(badgePath.resolve("index.html"), StandardOpenOption.CREATE)) {
+                w.write("<!DOCTYPE html><html><body>");
+                w.newLine();
+                w.write("<h1>" + ga + "</h1>");
+                w.newLine();
+                Path p = CONTENT_BASE.relativize(path);
+                if (projectGa.size() > 1) {
+                    w.write("one module on " + projectGa.size() + " ");
+                }
+                w.write("built from project <a href=\"https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/" + p + "/README.md\">" + p + "</p>");
+                w.newLine();
+                w.write("<ul>");
+                w.newLine();
+                for(String v: metadata.getVersioning().getVersions()) {
+                    if (gaVersions.contains(v)) {
+                        w.write("<li><img src=\"https://img.shields.io/endpoint?url=https://jvm-repo-rebuild.github.io/reproducible-central/badge/artifact/" + groupId.replace('.', '/') + '/' + artifactId + '/' + v + ".json\"/> " + v + "</li>");
+                        w.newLine();
+                    }
+                }
+                w.write("</ul>");
+                w.newLine();
+                w.write("</body></html>");
+            }
+        }
         System.out.println(" " + versions.size() + " versions, " + projectGa.size() + " ga, " + projectGav + " gav");
     }
 
