@@ -1,0 +1,11 @@
+version=1.9.0-1
+ok=1
+ko=2
+ignored=0
+okFiles="gwt-commons-validator-1.9.0-1.pom"
+koFiles="gwt-commons-validator-1.9.0-1.jar gwt-commons-validator-1.9.0-1-sources.jar"
+ignoredFiles=""
+reference_java_version="17.0.13 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/de.knightsoft-net/gwt-commons-validator-1.9.0-1.jar target/gwt-commons-validator-1.9.0-1.jar
+# diffoscope target/reference/de.knightsoft-net/gwt-commons-validator-1.9.0-1-sources.jar target/gwt-commons-validator-1.9.0-1-sources.jar

@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Validator
+group-id=de.knightsoft-net
+artifact-id=gwt-commons-validator
+version=1.9.0-1
+
+# source information
+source.scm.uri=scm:git:git@gitlab.com/ManfredTremmel/gwt-commons-validator.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=de.knightsoft-net
+outputs.0.filename=gwt-commons-validator-1.9.0-1.pom
+outputs.0.length=19555
+outputs.0.checksums.sha512=3213c0bfe763bcd6256d6702c843b0d7d9750bc47b3480deea4198406f903760d9beaceeb8beed9753e04851df313efab9a3634f72f053e1edd545594038ead0
+
+outputs.1.groupId=de.knightsoft-net
+outputs.1.filename=gwt-commons-validator-1.9.0-1.jar
+outputs.1.length=426856
+outputs.1.checksums.sha512=fb506fb73b37961fb54ad0d532a7016a6ffa5091bdd109595a4d1ec8ceccbefd9053d127c5faa4a0fcff829a0882ddc1ba8ea7db819ac2d4f30f95fba376ea04
+
+outputs.2.groupId=de.knightsoft-net
+outputs.2.filename=gwt-commons-validator-1.9.0-1-sources.jar
+outputs.2.length=253251
+outputs.2.checksums.sha512=616226fa3b2e911e4a4d6196c1dd72ad97267144aafaed357be08453070b3d37664d99311d17f0f69507901d0c70d11eaff29193cb799422b255704840286814
