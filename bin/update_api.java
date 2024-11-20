@@ -192,7 +192,7 @@ public class update_api extends SimpleFileVisitor<Path> {
                 if (projectGa.size() > 1) {
                     w.write("one module on " + projectGa.size() + " ");
                 }
-                w.write("built from project <a href=\"https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/" + p + "/README.md\">" + p + "</p>");
+                w.write("built from project <a href=\"https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/" + p + "/README.md\">" + p + "</a></p>");
                 w.newLine();
                 w.write("<ul>");
                 w.newLine();
