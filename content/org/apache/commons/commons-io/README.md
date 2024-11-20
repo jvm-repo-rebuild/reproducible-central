@@ -13,6 +13,7 @@ rebuilding **3 releases** of commons-io:commons-io:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.18.0](https://central.sonatype.com/artifact/commons-io/commons-io/2.18.0/pom) | | | |
 | [2.17.0](https://central.sonatype.com/artifact/commons-io/commons-io/2.17.0/pom) | [mvn jdk17](commons-io-2.17.0.buildspec) | [result](commons-io-2.17.0.buildinfo): [7 :white_check_mark: ](commons-io-2.17.0.buildcompare) | 2.5M |
 | [2.16.1](https://central.sonatype.com/artifact/commons-io/commons-io/2.16.1/pom) | [mvn jdk17](commons-io-2.16.1.buildspec) | [result](commons-io-2.16.1.buildinfo): [7 :white_check_mark: ](commons-io-2.16.1.buildcompare) | 2.5M |
 | [2.16.0](https://central.sonatype.com/artifact/commons-io/commons-io/2.16.0/pom) | [mvn jdk17](commons-io-2.16.0.buildspec) | [result](commons-io-2.16.0.buildinfo): [7 :white_check_mark: ](commons-io-2.16.0.buildcompare) | 2.5M |

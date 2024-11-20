@@ -26,6 +26,7 @@ rebuilding **2 releases** of org.jpmml:jpmml-model:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.6.7](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.6.7/pom) | | | |
 | [1.6.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.6.6/pom) | [mvn jdk8](jpmml-model-1.6.6.buildspec) | [result](jpmml-model-1.6.6.buildinfo): [25 :white_check_mark:  1 :warning:](jpmml-model-1.6.6.buildcompare) [:mag:](jpmml-model-1.6.6.diffoscope) | 3.0M |
 | [1.6.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.6.5/pom) | [mvn jdk8](jpmml-model-1.6.5.buildspec) | [result](jpmml-model-1.6.5.buildinfo): [25 :white_check_mark:  1 :warning:](jpmml-model-1.6.5.buildcompare) [:mag:](jpmml-model-1.6.5.diffoscope) | 2.9M |
 

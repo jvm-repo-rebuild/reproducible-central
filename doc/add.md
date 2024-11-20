@@ -4,14 +4,14 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241119144614 --> [langchain4j](../content/dev/langchain4j/README.md) | [0.36.0](../content/dev/langchain4j/langchain4j-0.36.0.buildspec) :white_check_mark: | [0.36.1](../content/dev/langchain4j/langchain4j-0.36.1.buildspec) | `bin/add-new-release.sh content/dev/langchain4j/langchain4j-0.36.0.buildspec 0.36.1` |
-| <!-- 20241119051048 --> [airbase](../content/io/airlift/airbase/README.md) | [199](../content/io/airlift/airbase/airbase-199.buildspec) :white_check_mark: | [200](../content/io/airlift/airbase/airbase-200.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-199.buildspec 200` |
+| <!-- 20241120061459 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [10.5](../content/io/avaje/inject/avaje-inject-10.5.buildspec) :white_check_mark: | [10.6-javax](../content/io/avaje/inject/avaje-inject-10.6-javax.buildspec) | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-10.5.buildspec 10.6-javax` |
+| <!-- 20241120061459 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [10.5](../content/io/avaje/inject/avaje-inject-10.5.buildspec) :white_check_mark: | 10.6  | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-10.5.buildspec ...` |
+| <!-- 20241119205217 --> [commons-io](../content/org/apache/commons/commons-io/README.md) | [2.17.0](../content/org/apache/commons/commons-io/commons-io-2.17.0.buildspec) :white_check_mark: | [2.18.0](../content/org/apache/commons/commons-io/commons-io-2.18.0.buildspec) | `bin/add-new-release.sh content/org/apache/commons/commons-io/commons-io-2.17.0.buildspec 2.18.0` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
 `buildcompare` says `ko=0` but `buildspec` configures a `diffoscope` value in following releases:
 <!-- BEGIN GENERATED UNEXPECTED DIFFOSCOPE -->
-      content/org/jpmml/jpmml-converter/jpmml-converter-1.5.8.buildspec
 <!-- END GENERATED UNEXPECTED DIFFOSCOPE -->
 
 ## Apache Release Candidate in Staging
@@ -30,13 +30,13 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241119151133 --> [org.apache.sling.feature.cpconverter](../content/org/apache/sling/org.apache.sling.feature.cpconverter/README.md) | [1.3.6](../content/org/apache/sling/org.apache.sling.feature.cpconverter/org.apache.sling.feature.cpconverter-1.3.6.buildspec) :warning: | [1.3.8](../content/org/apache/sling/org.apache.sling.feature.cpconverter/org.apache.sling.feature.cpconverter-1.3.8.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.feature.cpconverter/org.apache.sling.feature.cpconverter-1.3.6.buildspec 1.3.8` |
+| <!-- 20241120144345 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.0.2](../content/com/taobao/arthas/arthas-4.0.2.buildspec) :warning: | [4.0.4](../content/com/taobao/arthas/arthas-4.0.4.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.0.2.buildspec 4.0.4` |
+| <!-- 20241120141927 --> [nifi](../content/org/apache/nifi/nifi/README.md) | [2.0.0-M4](../content/org/apache/nifi/nifi/nifi-2.0.0-M4.buildspec) :warning: | [2.0.0](../content/org/apache/nifi/nifi/nifi-2.0.0.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-2.0.0-M4.buildspec 2.0.0` |
+| <!-- 20241120114535 --> [quarkus-project](../content/io/quarkus/README.md) | [3.17.0.CR1](../content/io/quarkus/quarkus-3.17.0.CR1.buildspec) :warning: | [3.17.0](../content/io/quarkus/quarkus-3.17.0.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.17.0.CR1.buildspec 3.17.0` |
+| <!-- 20241120081600 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | [1.6.6](../content/org/jpmml/jpmml-model/jpmml-model-1.6.6.buildspec) :warning: | [1.6.7](../content/org/jpmml/jpmml-model/jpmml-model-1.6.7.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-model/jpmml-model-1.6.6.buildspec 1.6.7` |
 | <!-- 20241119062729 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.66.1](../content/org/finos/legend/engine/legend-engine-4.66.1.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.66.1` |
-| <!-- 20241118100302 --> [org.apache.sling.models.impl](../content/org/apache/sling/org.apache.sling.models.impl/README.md) | [1.7.2](../content/org/apache/sling/org.apache.sling.models.impl/org.apache.sling.models.impl-1.7.2.buildspec) :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-models-impl/pull/58) | [1.7.4](../content/org/apache/sling/org.apache.sling.models.impl/org.apache.sling.models.impl-1.7.4.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.models.impl/org.apache.sling.models.impl-1.7.2.buildspec 1.7.4` |
-| <!-- 20241113093742 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.0.2](../content/com/taobao/arthas/arthas-4.0.2.buildspec) :warning: | [4.0.3](../content/com/taobao/arthas/arthas-4.0.3.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.0.2.buildspec 4.0.3` |
 | <!-- 20241110060152 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.18.2](../content/org/webjars/swagger-ui/swagger-ui-5.18.2.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.18.2` |
 | <!-- 20241107173050 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | [6.7.0](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.7.0.buildspec) :warning: | [6.9.4](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.9.4.buildspec) | `bin/add-new-release.sh content/com/adobe/acs/aem-commons/acs-aem-commons-6.7.0.buildspec 6.9.4` |
-| <!-- 20241102040852 --> [nifi](../content/org/apache/nifi/nifi/README.md) | [2.0.0-M4](../content/org/apache/nifi/nifi/nifi-2.0.0-M4.buildspec) :warning: | [2.0.0](../content/org/apache/nifi/nifi/nifi-2.0.0.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-2.0.0-M4.buildspec 2.0.0` |
 | <!-- 20241024125949 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.8.1](../content/org/apache/camel/camel/camel-4.8.1.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.8.1` |
 | <!-- 20241021180745 --> [pulsar](../content/org/apache/pulsar/README.md) | [3.3.1](../content/org/apache/pulsar/pulsar-3.3.1.buildspec) :warning: | [4.0.0-preview.1](../content/org/apache/pulsar/pulsar-4.0.0-preview.1.buildspec) | `bin/add-new-release.sh content/org/apache/pulsar/pulsar-3.3.1.buildspec 4.0.0-preview.1` |
 | <!-- 20241015135826 --> [jena](../content/org/apache/jena/jena/README.md) | [4.5.0](../content/org/apache/jena/jena/jena-4.5.0.buildspec) :warning: | [5.2.0](../content/org/apache/jena/jena/jena-5.2.0.buildspec) | `bin/add-new-release.sh content/org/apache/jena/jena/jena-4.5.0.buildspec 5.2.0` |
@@ -55,8 +55,13 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
-| <!-- 20241118113644 --> [quarkus-project](../content/io/quarkus/README.md) | 3.17.0.CR1 :warning: |
+| <!-- 20241119151133 --> [org.apache.sling.feature.cpconverter](../content/org/apache/sling/org.apache.sling.feature.cpconverter/README.md) | 1.3.8 :warning: |
+| <!-- 20241119144614 --> [langchain4j](../content/dev/langchain4j/README.md) | 0.36.1 :warning: |
+| <!-- 20241118100302 --> [org.apache.sling.models.impl](../content/org/apache/sling/org.apache.sling.models.impl/README.md) | 1.7.4 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-models-impl/pull/58) |
 | <!-- 20241114173118 --> [jooby](../content/io/jooby/README.md) | 3.5.3 :warning: [:memo:](https://github.com/jooby-project/jooby/pull/3585) |
+| <!-- 20241114164109 --> [gwt-commons-codec](../content/de/knightsoft-net/gwt-commons-codec/README.md) | 1.17.1-1 :warning: |
+| <!-- 20241114163736 --> [gwt-commons-validator](../content/de/knightsoft-net/gwt-commons-validator/README.md) | 1.9.0-1 :warning: |
+| <!-- 20241114163441 --> [gwt-commons-lang3](../content/de/knightsoft-net/gwt-commons-lang3/README.md) | 3.17.0-1 :warning: |
 | <!-- 20241114145222 --> [fediz](../content/org/apache/cxf/fediz/README.md) | 1.7.0 :warning: |
 | <!-- 20241114074423 --> [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | 1.72.0 :warning: [:memo:](https://issues.apache.org/jira/browse/OAK-10662) |
 | <!-- 20241113115211 --> [bitcoin-commons](../content/net/osslabz/bitcoin-commons/README.md) | 0.2.1 :warning: |
@@ -84,9 +89,9 @@ New Releases To Add
 | <!-- 20241018014427 --> [migratedb](../content/de/unentscheidbar/migratedb/README.md) | 1.3.0 :warning: |
 | <!-- 20241009192643 --> [camel-k-runtime-project](../content/org/apache/camel/camel-k-runtime/README.md) | 3.15.0 :warning: |
 | <!-- 20241009111429 --> [protostream-aggregator](../content/org/infinispan/protostream/README.md) | 5.0.12.Final :warning: [:memo:](https://github.com/infinispan/protostream/pull/358) |
+| <!-- 20241004105528 --> [jdplus-sdmx](../content/com/github/nbbrd/jdplus-sdmx/README.md) | 3.2.0 :warning: |
 | <!-- 20241002220928 --> [sshd](../content/org/apache/sshd/README.md) | 2.14.0 :warning: |
 | <!-- 20241002073844 --> [hive](../content/org/apache/hive/README.md) | 4.0.1 :warning: [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) |
-| <!-- 20241001162900 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | 1.6.6 :warning: |
 | <!-- 20240930082825 --> [io.wcm.caconfig.editor.root](../content/io/wcm/io.wcm.caconfig/README.md) | 1.16.6 :warning: |
 | <!-- 20240925091104 --> [kubernetes-client-project](../content/io/fabric8/kubernetes-client/README.md) | 6.13.4 :warning: |
 | <!-- 20240924045546 --> [plexus-utils](../content/org/codehaus/plexus/plexus-utils/README.md) | 4.0.2 :warning: |

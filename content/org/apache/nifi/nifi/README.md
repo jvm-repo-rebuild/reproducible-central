@@ -904,6 +904,7 @@ rebuilding **11 releases** of org.apache.nifi:nifi:
 | [2.0.0-M3](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0-M3/pom) | [mvn jdk21](nifi-2.0.0-M3.buildspec) | [result](nifi-2.0.0-M3.buildinfo): [1570 :white_check_mark:  45 :warning:](nifi-2.0.0-M3.buildcompare) | 2.1G |
 | [2.0.0-M2](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0-M2/pom) | | | |
 | [2.0.0-M1](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0-M1/pom) | | | |
+| [1.28.1](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.28.1/pom) | | | |
 | [1.28.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.28.0/pom) | | | |
 | [1.27.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.27.0/pom) | [mvn jdk8](nifi-1.27.0.buildspec) | [result](nifi-1.27.0.buildinfo): [1801 :white_check_mark:  62 :warning:](nifi-1.27.0.buildcompare) | 3.9G |
 | [1.26.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.26.0/pom) | | | |
