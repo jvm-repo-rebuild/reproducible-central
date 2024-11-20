@@ -1,0 +1,62 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Lang
+group-id=de.knightsoft-net
+artifact-id=gwt-commons-lang3
+version=3.17.0-1
+
+# source information
+source.scm.uri=scm:git:git@gitlab.com/ManfredTremmel/gwt-commons-lang3.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=de.knightsoft-net
+outputs.0.filename=gwt-commons-lang3-3.17.0-1.pom
+outputs.0.length=46789
+outputs.0.checksums.sha512=fe77d237a27fd58f956b06af1946af74dc9d26980dea591f92d59e4ef56fcf8e2e2d1334a7e8d05a0d1696469679490652a5916eed821236986e89afc24b080c
+
+outputs.1.groupId=de.knightsoft-net
+outputs.1.filename=gwt-commons-lang3-3.17.0-1.jar
+outputs.1.length=1411020
+outputs.1.checksums.sha512=9c44754eb1a1a58afaec94a97069e321a6846a99bb2c979d5957b008398096615eb1c8137107bb1b1a8eeff1cf1300a4639f467949fb43adba5061a24ef77ed8
+
+outputs.2.groupId=de.knightsoft-net
+outputs.2.filename=gwt-commons-lang3-3.17.0-1-tests.jar
+outputs.2.length=1434845
+outputs.2.checksums.sha512=d99368b659838049189b9945348f3f2972cc07540d046785c2bc71189cdbe539d6a46488f66c0cccccb0fa6ebebd0325ffed4657eed725d976fb8d44c6ad5fad
+
+outputs.3.groupId=de.knightsoft-net
+outputs.3.filename=gwt-commons-lang3-3.17.0-1-sources.jar
+outputs.3.length=734305
+outputs.3.checksums.sha512=d5e74204a5d7a2c498022de2d0efafbae875f960173b23058c13c830a5edf2b9830c2f3cc385e05e25a54b8cf855f471f770842b5f8641a54c619504702918aa
+
+outputs.4.groupId=de.knightsoft-net
+outputs.4.filename=gwt-commons-lang3-3.17.0-1-test-sources.jar
+outputs.4.length=641846
+outputs.4.checksums.sha512=4acebcbfd14a4673c87379719e26502c70a181ac3b4290c6b9fbad7a8d584b2adba09e09e138f35151efc27c01815bfac9ab7e1500a0ae18f6d1a547d53ca702
+
+outputs.5.groupId=de.knightsoft-net
+outputs.5.filename=gwt-commons-lang3-3.17.0-1-sources.jar
+outputs.5.length=734305
+outputs.5.checksums.sha512=d5e74204a5d7a2c498022de2d0efafbae875f960173b23058c13c830a5edf2b9830c2f3cc385e05e25a54b8cf855f471f770842b5f8641a54c619504702918aa
+
+outputs.6.groupId=de.knightsoft-net
+outputs.6.filename=gwt-commons-lang3-3.17.0-1-cyclonedx.xml
+outputs.6.length=160814
+outputs.6.checksums.sha512=011da6681757b62ac7c959f9f2ac30e95e5421892bb4f1b809195904cc57147ddb6dae7cd6ba8a25f33dfab3e1ac6f255ec30f2cdbf14f2e634a673f4665c30c
+
+outputs.7.groupId=de.knightsoft-net
+outputs.7.filename=gwt-commons-lang3-3.17.0-1-cyclonedx.json
+outputs.7.length=188336
+outputs.7.checksums.sha512=8406eb38fb4258c743fe85d81a95a2ee09fbe482c0dcbe0ccc69e08b47f5291819bdcfd2126d23d43021fa0e6ca9854b7df96904674bd9fbfae44958405f8ab0
