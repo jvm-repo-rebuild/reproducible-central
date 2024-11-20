@@ -17,6 +17,21 @@ jobs:
       - name: Update Reports
         run: ./bin/update-reproducibility-summary.sh update
 
+      - name: Setup JBang
+        uses: jbangdev/setup-jbang@main
+
+      - name: Checkout gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: 'gh-pages'
+          path: 'gh-pages'
+
+      - name: Update APIs
+        run: |
+          wget https://raw.githubusercontent.com/hboutemy/mcmm-logs/refs/heads/master/outputTimestamp.txt
+          ./bin/update_api.java
+          rm outputTimestamp.txt
+
       - name: Commit Push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -26,11 +41,8 @@ jobs:
           git add -A
           git commit -m "nightly update of content"
           git push
+          cd gh-pages
+          git add -A
+          git commit -m "nightly update of content"
+          git push
 
-      - name: Setup JBang
-        uses: jbangdev/setup-jbang@main
-
-      - name: Update APIs
-        run: |
-          wget https://raw.githubusercontent.com/hboutemy/mcmm-logs/refs/heads/master/outputTimestamp.txt
-          ./bin/update_api.java

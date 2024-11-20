@@ -244,6 +244,9 @@ public class update_api extends SimpleFileVisitor<Path> {
         "com/flowlogix/checkstyle",
         "com/flowlogix/infra-pom",
         "com/taobao/arthas/",
+        "com/vegardit/maven/vegardit-maven-parent",
+        "eu/maveniverse/maven/parent/parent",
+        "io/streamnative",
         "net/osslabz/crypto-commons",
         "org/finos/legend/engine/"
     };
