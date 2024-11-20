@@ -1,0 +1,31 @@
+[com.github.nbbrd.java-io-util:java-io-parent](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-parent/versions) RB check
+=======
+
+[![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
+
+## Project: [com.github.nbbrd.java-io-util:java-io-parent](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/github/nbbrd/java-io-util/java-io-util/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/github/nbbrd/java-io-util/java-io-util/README.md)
+
+Source code: [https://github.com/nbbrd/java-io-util.git](https://github.com/nbbrd/java-io-util.git)
+
+<details><summary>This project defines 9 modules:</summary>
+
+* [com.github.nbbrd.java-io-util:java-io-base](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-base/overview)
+* [com.github.nbbrd.java-io-util:java-io-bom](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-bom/overview)
+* [com.github.nbbrd.java-io-util:java-io-curl](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-curl/overview)
+* [com.github.nbbrd.java-io-util:java-io-http](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-http/overview)
+* [com.github.nbbrd.java-io-util:java-io-parent](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-parent/overview)
+* [com.github.nbbrd.java-io-util:java-io-picocsv](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-picocsv/overview)
+* [com.github.nbbrd.java-io-util:java-io-win](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-win/overview)
+* [com.github.nbbrd.java-io-util:java-io-xml](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-xml/overview)
+* [com.github.nbbrd.java-io-util:java-io-xml-bind](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-xml-bind/overview)
+</details>
+
+rebuilding **1 releases** of com.github.nbbrd.java-io-util:java-io-parent:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [0.0.32](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-parent/0.0.32/pom) | [mvn jdk21](java-io-parent-0.0.32.buildspec) | [result](java-io-parent-0.0.32.buildinfo): [25 :white_check_mark: ](java-io-parent-0.0.32.buildcompare) | 570K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
