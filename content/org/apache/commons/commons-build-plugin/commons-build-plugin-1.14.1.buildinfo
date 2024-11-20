@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Build Plugin Maven Mojo
+group-id=org.apache.commons
+artifact-id=commons-build-plugin
+version=1.14.1
+
+# source information
+source.scm.uri=scm:git:http://gitbox.apache.org/repos/asf/commons-build-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-build-plugin-1.14.1.pom
+outputs.0.length=12672
+outputs.0.checksums.sha512=b9aac1a930df631fc6e6a2f820118699b1f4583ad50ad1d742e3a8287b510b7d7bc9513e28ed374b424f70a8e8c4384bc2747d544d6b3633a0d08da5648e6b94
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-build-plugin-1.14.1.jar
+outputs.1.length=35570
+outputs.1.checksums.sha512=794312fd011d43dc85f13583cf0d42f964f241cdc043559f9e78354704484c89173f82ab027b8e2ed8b7c49249fc45163a54aecfc83c5cfeec7aa03c85d11747
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-build-plugin-1.14.1-tests.jar
+outputs.2.length=9008
+outputs.2.checksums.sha512=fc440742b38716752601d1942e1f49210e363b565e30e2a6d9c10bcfba95e08871ec04ffa14d873fee26895fb8f0a83347b566674fc0492d855e65a4c44b4561
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-build-plugin-1.14.1-sources.jar
+outputs.3.length=25242
+outputs.3.checksums.sha512=4d363eb9a9ba4856b4fe2c7afed7081f726896bb277188735ca995bf8cb186ae9e01ec630dd1e34201a56e1fddacb3760bfd8e1a0859a5c7d97f5c2881a8fae8
+
+outputs.4.groupId=org.apache.commons
+outputs.4.filename=commons-build-plugin-1.14.1-test-sources.jar
+outputs.4.length=8957
+outputs.4.checksums.sha512=0c069b20f0dd41704d6d54906dd09b186e34989215641087e391a705e0b8b8876c8c89446f73a36a45766585a407c4465f856f2d00f7cf515216863a318b2985
