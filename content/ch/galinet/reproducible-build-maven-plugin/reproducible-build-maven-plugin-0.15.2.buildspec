@@ -1,0 +1,18 @@
+groupId=ch.galinet
+artifactId=reproducible-build-maven-plugin
+display=${groupId}:${artifactId}
+version=0.15.2
+
+gitRepo=https://github.com/nilsaellen/reproducible-build-maven-plugin.git
+gitTag=v${version}
+
+tool=mvn
+jdk=8
+newline=lf
+#umask=022
+
+command="mvn -Psonatype-oss-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
