@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Reproducible Build Maven Plugin
+group-id=ch.galinet
+artifact-id=reproducible-build-maven-plugin
+version=0.17.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:nilsaellen/reproducible-build-maven-plugin.git
+source.scm.tag=ossrh-deploy
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=ch.galinet
+outputs.0.filename=reproducible-build-maven-plugin-0.17.0.pom
+outputs.0.length=17705
+outputs.0.checksums.sha512=9656333059b7709045ff1f53432ca6506cf98d31584d4e3272e3242e56eee140ec1e257d16fa59efc7ce6d04381e183ed99d82b083d6997a7b88208d007f8d24
+
+outputs.1.groupId=ch.galinet
+outputs.1.filename=reproducible-build-maven-plugin-0.17.0.jar
+outputs.1.length=63091
+outputs.1.checksums.sha512=10da31e2d1871e1d4e6e0d519d6ce3282c3ce11d43858e503cd04f9a46dc80dd9986efe1122ef49551a5e33a4af6ca9118a1429981096d87bed4ccf75da96ad9
+
+outputs.2.groupId=ch.galinet
+outputs.2.filename=reproducible-build-maven-plugin-0.17.0-sources.jar
+outputs.2.length=40387
+outputs.2.checksums.sha512=07f0e75a4ffdf69c9e016e40df00c14a3faa22af94f59583c53055a35fc05a1ff06127a480f2c0920d11e8011c5abb2132fbee9b244636f4e321a034c59a63ed
