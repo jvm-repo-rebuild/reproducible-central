@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Installer Configuration Factory
+group-id=org.apache.sling
+artifact-id=org.apache.sling.installer.factory.configuration
+version=1.4.8
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-installer-factory-configuration.git
+source.scm.tag=org.apache.sling.installer.factory.configuration-1.4.8
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.installer.factory.configuration-1.4.8.pom
+outputs.0.length=6038
+outputs.0.checksums.sha512=272c76ed1d4e60c4acf016e249b52a2e41a22f33f3ca0c1d518f1329a9598a45cebc3bc84a85f1a69d1b0bd7cb9e85ba822468f5e1c3db9c2b2139f9a84afd2d
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.installer.factory.configuration-1.4.8.jar
+outputs.1.length=51536
+outputs.1.checksums.sha512=cc02324cfb72bba56961800e1e0ff9d24657a63cde72bff5fb17be4205d0c9358d1215b4f69068dc078e3a7ed61dd310a855f92aee808ed2e7cac36da5648336
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.installer.factory.configuration-1.4.8-source-release.zip
+outputs.2.length=53357
+outputs.2.checksums.sha512=84848c8a5fea90b3a14ad1cf20ba2eee26c38c44dc027c7a0db19e76a7c530d9d809b9038a27b38d9e886b40ff0bb63eed07aa6214a634c02cd667602d01daa7
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.installer.factory.configuration-1.4.8-sources.jar
+outputs.3.length=38348
+outputs.3.checksums.sha512=e2d8b7c43745028a8cce16929726805f550154b59fad026ebdf380f61a8065613c42eed107d48fab3b843c6dcf1d6bfd8d3795d5070d707485d7114237545857
