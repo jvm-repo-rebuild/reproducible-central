@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-installer-factory-configuration.git](https://github.com/apache/sling-org-apache-sling-installer-factory-configuration.git)
 
-rebuilding **7 releases** of org.apache.sling:org.apache.sling.installer.factory.configuration:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of org.apache.sling:org.apache.sling.installer.factory.configuration:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.4.8](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.installer.factory.configuration/1.4.8/pom) | | | |
+| [1.4.8](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.installer.factory.configuration/1.4.8/pom) | [mvn jdk21](org.apache.sling.installer.factory.configuration-1.4.8.buildspec) | [result](org.apache.sling.installer.factory.configuration-1.4.8.buildinfo): [4 :white_check_mark: ](org.apache.sling.installer.factory.configuration-1.4.8.buildcompare) | 146K |
 | [1.4.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.installer.factory.configuration/1.4.6/pom) | [mvn jdk11](org.apache.sling.installer.factory.configuration-1.4.6.buildspec) | [result](org.apache.sling.installer.factory.configuration-1.4.6.buildinfo): [4 :white_check_mark: ](org.apache.sling.installer.factory.configuration-1.4.6.buildcompare) | 182K |
 | [1.4.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.installer.factory.configuration/1.4.4/pom) | [mvn jdk11](org.apache.sling.installer.factory.configuration-1.4.4.buildspec) | [result](org.apache.sling.installer.factory.configuration-1.4.4.buildinfo): [4 :white_check_mark: ](org.apache.sling.installer.factory.configuration-1.4.4.buildcompare) | 181K |
 | [1.4.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.installer.factory.configuration/1.4.2/pom) | [mvn jdk8](org.apache.sling.installer.factory.configuration-1.4.2.buildspec) | [result](org.apache.sling.installer.factory.configuration-1.4.2.buildinfo): [4 :white_check_mark: ](org.apache.sling.installer.factory.configuration-1.4.2.buildcompare) | 154K |
