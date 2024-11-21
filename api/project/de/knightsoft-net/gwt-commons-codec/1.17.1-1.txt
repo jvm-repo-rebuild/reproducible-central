@@ -1,0 +1,3 @@
+gwt-commons-codec-1.17.1-1.buildspec
+gwt-commons-codec-1.17.1-1.buildinfo
+gwt-commons-codec-1.17.1-1.buildcompare

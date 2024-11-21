@@ -1,0 +1,3 @@
+gwt-commons-lang3-3.17.0-1.buildspec
+gwt-commons-lang3-3.17.0-1.buildinfo
+gwt-commons-lang3-3.17.0-1.buildcompare

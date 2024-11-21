@@ -1,0 +1,3 @@
+avaje-inject-10.6-javax.buildspec
+avaje-inject-parent-10.6-javax.buildinfo
+avaje-inject-parent-10.6-javax.buildcompare

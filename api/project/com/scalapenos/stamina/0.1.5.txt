@@ -1,3 +1,3 @@
 stamina-0.1.5.buildspec
-stamina-core_2.13-0.1.5.buildinfo
+stamina_2.11-0.1.5.buildinfo
 stamina-0.1.5.buildcompare
