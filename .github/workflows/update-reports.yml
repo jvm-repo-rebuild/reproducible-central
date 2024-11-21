@@ -42,6 +42,8 @@ jobs:
           git commit -m "nightly update of content"
           git push
           cd gh-pages
+          git config --local user.email "reproducible-central@github.io"
+          git config --local user.name "Reproducible Central CI"
           git add -A
           git commit -m "nightly update of content"
           git push
