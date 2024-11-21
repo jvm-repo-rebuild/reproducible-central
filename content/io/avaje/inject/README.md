@@ -19,13 +19,13 @@ Source code: [https://github.com/avaje/avaje-inject.git](https://github.com/avaj
 </details>
 
 rebuilding **6 releases** of io.avaje:avaje-inject-parent:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [10.6-javax](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/10.6-javax/pom) | [mvn jdk21](avaje-inject-10.6-javax.buildspec) | [result](avaje-inject-parent-10.6-javax.buildinfo): [6 :white_check_mark:  13 :warning:](avaje-inject-parent-10.6-javax.buildcompare) | 760K |
-| [10.6](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/10.6/pom) | [mvn jdk21](avaje-inject-10.6.buildspec) | :x: | |
+| [10.6](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/10.6/pom) | [mvn jdk21](avaje-inject-10.6.buildspec) | [result](avaje-inject-parent-10.6.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-10.6.buildcompare) | 760K |
 | [10.5](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/10.5/pom) | [mvn jdk21](avaje-inject-10.5.buildspec) | [result](avaje-inject-parent-10.5.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-10.5.buildcompare) | 736K |
 | [10.5-RC6](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/10.5-RC6/pom) | [mvn jdk21](avaje-inject-10.5-RC6.buildspec) | [result](avaje-inject-parent-10.5-RC6.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-10.5-RC6.buildcompare) | 736K |
 | [10.5-RC5](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/10.5-RC5/pom) | [mvn jdk21](avaje-inject-10.5-RC5.buildspec) | [result](avaje-inject-parent-10.5-RC5.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-10.5-RC5.buildcompare) | 736K |
