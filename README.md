@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **5306 releases** of **731 projects**:
-   - **3961** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 1345 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 731 projects, 630 have at least one fully reproducible release, 101 have none
+   rebuilding **5314 releases** of **733 projects**:
+   - **3966** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 1348 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 733 projects, 631 have at least one fully reproducible release, 102 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -244,7 +244,7 @@ Its objectives are to provide:
 | io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 9 | 9 :warning: |
 | io.trino | [trino-root](content/io/trino/README.md) | 19 | 14 :white_check_mark: / 5 :warning: |
 | io.airlift | [airbase](content/io/airlift/airbase/README.md) | 44 | 42 :white_check_mark: / 2 :warning: |
-| io.avaje | [avaje-inject-parent](content/io/avaje/inject/README.md) | 4 | 4 :white_check_mark: |
+| io.avaje | [avaje-inject-parent](content/io/avaje/inject/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
 | | [avaje-prisms-parent](content/io/avaje/prisms/README.md) | 2 | 2 :white_check_mark: |
 | | [avaje-spi-parent](content/io/avaje/spi/README.md) | 1 | 1 :white_check_mark: |
 | io.cucumber | [ci-environment](content/io/cucumber/ci-environment/README.md) | 2 | 2 :white_check_mark: |
@@ -317,6 +317,7 @@ Its objectives are to provide:
 | net.osslabz | [bitcoin-commons](content/net/osslabz/bitcoin-commons/README.md) | 2 | 2 :warning: |
 | | [coingecko-java](content/net/osslabz/coingecko-java/README.md) | 1 | 1 :warning: |
 | | [crypto-commons](content/net/osslabz/crypto-commons/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
+| | [evm-abi-decoder](content/net/osslabz/evm-abi-decode/README.md) | 1 | 1 :warning: |
 | | [mexc-client](content/net/osslabz/mexc-client/README.md) | 1 | 1 :white_check_mark: |
 | net.revelc.code | [impsort-maven-plugin](content/net/revelc/code/impsort-maven-plugin/README.md) | 6 | 6 :white_check_mark: |
 | net.sf.michael-o | [michael-o-parent](content/net/sf/michael-o/michael-o-parent/README.md) | 3 | 3 :white_check_mark: |
@@ -381,9 +382,10 @@ Its objectives are to provide:
 | commons-cli | [*](content/org/apache/commons/commons-cli/README.md) | 2 | 2 :warning: |
 | commons-daemon | [*](content/org/apache/commons/commons-daemon/README.md) | 1 | 1 :warning: |
 | org.apache.commons | [commons-exec](content/org/apache/commons/commons-exec/README.md) | 1 | 1 :white_check_mark: |
-| commons-io | [*](content/org/apache/commons/commons-io/README.md) | 3 | 3 :white_check_mark: |
+| commons-io | [*](content/org/apache/commons/commons-io/README.md) | 4 | 4 :white_check_mark: |
 | org.apache.commons | [commons-jcs3](content/org/apache/commons/commons-jcs3/README.md) | 1 | 1 :warning: |
 | | [commons-jexl3](content/org/apache/commons/commons-jexl3/README.md) | 1 | 1 :white_check_mark: |
+| | [commons-lang3](content/org/apache/commons/commons-lang3/README.md) | 3 | 3 :white_check_mark: |
 | | [commons-release-plugin](content/org/apache/commons/commons-release-plugin/README.md) | 2 | 2 :warning: |
 | | [commons-compress](content/org/apache/commons/compress/README.md) | 9 | 5 :white_check_mark: / 4 :warning: |
 | | [commons-configuration2](content/org/apache/commons/configuration2/README.md) | 1 | 1 :white_check_mark: |
@@ -666,7 +668,7 @@ Its objectives are to provide:
 | | [jpmml-evaluator](content/org/jpmml/jpmml-evaluator/README.md) | 2 | 2 :white_check_mark: |
 | | [jpmml-h2o](content/org/jpmml/jpmml-h2o/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | | [jpmml-lightgbm](content/org/jpmml/jpmml-lightgbm/README.md) | 1 | 1 :white_check_mark: |
-| | [jpmml-model](content/org/jpmml/jpmml-model/README.md) | 2 | 2 :warning: |
+| | [jpmml-model](content/org/jpmml/jpmml-model/README.md) | 3 | 3 :warning: |
 | | [jpmml-python](content/org/jpmml/jpmml-python/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
 | | [jpmml-r](content/org/jpmml/jpmml-r/README.md) | 6 | 6 :white_check_mark: |
 | | [jpmml-sklearn](content/org/jpmml/jpmml-sklearn/README.md) | 9 | 8 :white_check_mark: / 1 :warning: |
@@ -754,7 +756,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 4 | 4 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 18 | 1 :white_check_mark: / 17 :warning: |
-| **Count:** | **731** | **5306** | **3961** :white_check_mark: **1345** :warning: |
+| **Count:** | **733** | **5314** | **3966** :white_check_mark: **1348** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -779,7 +781,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn        14
      10 mvn        15
      12 mvn        16
-    446 mvn        17
+    449 mvn        17
       1 mvn        17.0.10
       2 mvn        17.0.11
       1 mvn        17.0.12
@@ -790,7 +792,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      15 mvn        18
      33 mvn        19
      16 mvn        20
-    252 mvn        21
+    256 mvn        21
      12 mvn        22
       1 mvn        23
       2 mvn-3.5.4   8
@@ -866,7 +868,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.5  17.0.9
      39 mvn-3.9.5  21
      11 mvn-3.9.5  22
-     46 mvn-3.9.6   8
+     47 mvn-3.9.6   8
       7 mvn-3.9.6  11
      43 mvn-3.9.6  17
       2 mvn-3.9.6  17.0.7

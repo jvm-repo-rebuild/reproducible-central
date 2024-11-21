@@ -21,6 +21,7 @@ rebuilding **19 releases** of io.telicent.smart-caches.graph:scg-base:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.82.9](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-base/0.82.9/pom) | | | |
 | [0.82.8](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-base/0.82.8/pom) | [mvn jdk21](scg-base-0.82.8.buildspec) | [result](scg-base-0.82.8.buildinfo): [19 :white_check_mark: ](scg-base-0.82.8.buildcompare) | 125M |
 | [0.82.7](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-base/0.82.7/pom) | [mvn jdk21](scg-base-0.82.7.buildspec) | [result](scg-base-0.82.7.buildinfo): [19 :white_check_mark: ](scg-base-0.82.7.buildcompare) | 123M |
 | [0.82.6](https://central.sonatype.com/artifact/io.telicent.smart-caches.graph/scg-base/0.82.6/pom) | [mvn jdk21](scg-base-0.82.6.buildspec) | [result](scg-base-0.82.6.buildinfo): [19 :white_check_mark: ](scg-base-0.82.6.buildcompare) | 122M |

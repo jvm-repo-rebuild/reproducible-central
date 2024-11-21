@@ -1,2 +1,4 @@
-content/io/avaje/inject/avaje-inject-10.5.buildspec:10.6-javax
-content/org/apache/commons/commons-io/commons-io-2.17.0.buildspec:2.18.0
+content/io/trino/trino-464.buildspec:465
+content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.8.buildspec:0.82.9
+content/org/apache/sling/org.apache.sling.installer.factory.configuration/org.apache.sling.installer.factory.configuration-1.4.6.buildspec:1.4.8
+content/org/owasp/antisamy/antisamy-1.7.6.buildspec:1.7.7
