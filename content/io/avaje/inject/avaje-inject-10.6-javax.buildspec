@@ -13,7 +13,7 @@ newline=lf
 
 command="mvn -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
-execBefore="./jakarta-to-javax.sh"
+execBefore="sed -i 's/2024-11-20T04:48:30Z/2024-11-20T06:11:58Z/' pom.xml ; ./jakarta-to-javax.sh"
 
 #diffoscope=${artifactId}-${version}.diffoscope
 issue=
