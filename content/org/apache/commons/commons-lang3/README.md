@@ -7,12 +7,14 @@
 
 Source code: [https://github.com/apache/commons-lang.git](https://github.com/apache/commons-lang.git)
 
-rebuilding **1 releases** of org.apache.commons:commons-lang3:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of org.apache.commons:commons-lang3:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [3.17.0](https://central.sonatype.com/artifact/org.apache.commons/commons-lang3/3.17.0/pom) | [mvn jdk17](commons-lang3-3.17.0.buildspec) | [result](commons-lang3-3.17.0.buildinfo): [7 :white_check_mark: ](commons-lang3-3.17.0.buildcompare) [:mag:](commons-lang3-3.17.0.diffoscope) | 3.4M |
+| [3.16.0](https://central.sonatype.com/artifact/org.apache.commons/commons-lang3/3.16.0/pom) | | | |
+| [3.15.0](https://central.sonatype.com/artifact/org.apache.commons/commons-lang3/3.15.0/pom) | [mvn jdk17](commons-lang3-3.15.0.buildspec) | [result](commons-lang3-3.15.0.buildinfo): [7 :white_check_mark: ](commons-lang3-3.15.0.buildcompare) | 3.4M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
