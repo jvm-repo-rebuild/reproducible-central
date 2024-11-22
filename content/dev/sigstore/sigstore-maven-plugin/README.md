@@ -13,13 +13,13 @@ Source code: [https://github.com/sigstore/sigstore-java.git](https://github.com/
 * [dev.sigstore:sigstore-maven-plugin](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/overview)
 </details>
 
-rebuilding **4 releases** of dev.sigstore:sigstore-maven-plugin:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **5 releases** of dev.sigstore:sigstore-maven-plugin:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.1.0](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/1.1.0/pom) | | | |
+| [1.1.0](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/1.1.0/pom) | [gradle jdk11](sigstore-maven-plugin-1.1.0.buildspec) | [result](sigstore-maven-plugin-1.1.0.buildinfo): [6 :white_check_mark: ](sigstore-maven-plugin-1.1.0.buildcompare) | 1.7M |
 | [1.0.0](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/1.0.0/pom) | [gradle jdk11](sigstore-maven-plugin-1.0.0.buildspec) | [result](sigstore-maven-plugin-1.0.0.buildinfo): [5 :white_check_mark:  3 :warning:](sigstore-maven-plugin-1.0.0.buildcompare) [:mag:](sigstore-maven-plugin-1.0.0.diffoscope) | 1.7M |
 | [0.12.0](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/0.12.0/pom) | [gradle jdk11](sigstore-maven-plugin-0.12.0.buildspec) | [result](sigstore-maven-plugin-0.12.0.buildinfo): [5 :white_check_mark:  3 :warning:](sigstore-maven-plugin-0.12.0.buildcompare) [:mag:](sigstore-maven-plugin-0.12.0.diffoscope) | 1.7M |
 | [0.11.0](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/0.11.0/pom) | [gradle jdk11](sigstore-maven-plugin-0.11.0.buildspec) | [result](sigstore-maven-plugin-0.11.0.buildinfo): [5 :white_check_mark:  3 :warning:](sigstore-maven-plugin-0.11.0.buildcompare) [:mag:](sigstore-maven-plugin-0.11.0.diffoscope) | 1.7M |
