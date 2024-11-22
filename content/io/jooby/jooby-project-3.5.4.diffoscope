@@ -1,0 +1,77 @@
+1 / 2 target/reference/io.jooby/jooby-cli-3.5.4.jar modules/jooby-cli/target/jooby-cli-3.5.4.jar
+--- target/reference/io.jooby/jooby-cli-3.5.4.jar
++++ modules/jooby-cli/target/jooby-cli-3.5.4.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 91264 bytes, number of entries: 62
+│ +Zip file size: 91263 bytes, number of entries: 62
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Nov-21 17:50 META-INF/
+│  -rw-r--r--  2.0 unx      242 b- defN 24-Nov-21 17:50 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Nov-21 17:50 META-INF/native-image/
+│ @@ -43,22 +43,22 @@
+│  -rw-r--r--  2.0 unx     7292 b- defN 24-Nov-21 17:50 cli/pom.xml.hbs
+│  -rw-r--r--  2.0 unx     1187 b- defN 24-Nov-21 17:50 cli/src/etc/stork/stork.yml
+│ --rw-r--r--  2.0 unx     3730 b- defN 24-Nov-21 17:50 dependencies.properties
+│ +-rw-r--r--  2.0 unx     3718 b- defN 24-Nov-21 17:50 dependencies.properties
+│  -rw-r--r--  2.0 unx     8384 b- defN 24-Nov-21 17:50 io/jooby/cli/Cli.class
+│  -rw-r--r--  2.0 unx     1183 b- defN 24-Nov-21 17:50 io/jooby/cli/CliContext.class
+│  -rw-r--r--  2.0 unx     1028 b- defN 24-Nov-21 17:50 io/jooby/cli/Cmd.class
+│  -rw-r--r--  2.0 unx    13853 b- defN 24-Nov-21 17:50 io/jooby/cli/CreateCmd.class
+│  -rw-r--r--  2.0 unx      790 b- defN 24-Nov-21 17:50 io/jooby/cli/ExitCmd.class
+│  -rw-r--r--  2.0 unx     3180 b- defN 24-Nov-21 17:50 io/jooby/cli/SetCmd.class
+│  -rw-r--r--  2.0 unx     3847 b- defN 24-Nov-21 17:50 io/jooby/cli/Version.class
+│  -rw-r--r--  2.0 unx     9842 b- defN 24-Nov-21 17:50 io/jooby/internal/cli/CommandContextImpl.class
+│  -rw-r--r--  2.0 unx     1518 b- defN 24-Nov-21 17:50 io/jooby/internal/cli/Dependency.class
+│  -rw-r--r--  2.0 unx     2187 b- defN 24-Nov-21 17:50 io/jooby/internal/cli/JLineCompleter.class
+│  -rw-r--r--  2.0 unx      378 b- defN 24-Nov-21 17:50 logback.xml
+│  -rw-r--r--  2.0 unx     5356 b- defN 24-Nov-21 17:50 META-INF/maven/io.jooby/jooby-cli/pom.xml
+│  -rw-r--r--  2.0 unx       52 b- defN 24-Nov-21 17:50 META-INF/maven/io.jooby/jooby-cli/pom.properties
+│ -62 files, 136928 bytes uncompressed, 83230 bytes compressed:  39.2%
+│ +62 files, 136916 bytes uncompressed, 83229 bytes compressed:  39.2%
+├── dependencies.properties
+│ @@ -1,12 +1,12 @@
+│  #Properties
+│  HikariCP.version=6.2.0
+│  Module-Name=io.jooby.cli
+│  archetype-packaging.version=3.2.1
+│ -argLine=-javaagent\:/home/runner/.m2/repository/org/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar\=destfile\=/home/runner/work/jooby/jooby/modules/jooby-cli/target/jacoco.exec
+│ +argLine=-javaagent\:/var/maven/.m2/repository-0002/org/jacoco/org.jacoco.agent/0.8.12/org.jacoco.agent-0.8.12-runtime.jar\=destfile\=/var/maven/app/modules/jooby-cli/target/jacoco.exec
+│  asm.version=9.7.1
+│  assertj-core.version=3.26.3
+│  auto-service.version=1.1.1
+│  avaje.inject.version=10.5
+│  avaje.jsonb.version=2.3
+│  avaje.validator.version=2.3
+│  aws-java-sdk.version=1.12.778
+│ @@ -113,12 +113,12 @@
+│  sonar.organization=jooby-project
+│  sonar.projectKey=jooby-project_jooby
+│  spotbugs-annotations.version=4.8.6
+│  stork-maven-plugin.version=3.1.3
+│  swagger-parser.version=2.1.23
+│  swagger.version=2.2.25
+│  thymeleaf.version=3.1.2.RELEASE
+│ -timestamp=2024-11-21 17\:54\:07PM
+│ +timestamp=2024-11-22 08\:06\:58AM
+│  truth.version=1.4.4
+│  undertow.version=2.3.18.Final
+│  versions-maven-plugin.version=2.18.0
+│  yasson.version=3.0.4
+
+2 / 2 target/reference/io.jooby/jooby-cli-3.5.4.zip modules/jooby-cli/target/jooby-cli-3.5.4.zip
+--- target/reference/io.jooby/jooby-cli-3.5.4.zip
++++ modules/jooby-cli/target/jooby-cli-3.5.4.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 8429984 bytes, number of entries: 25
+│ +Zip file size: 8429986 bytes, number of entries: 25
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Nov-21 17:50 bin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Nov-21 17:50 lib/
+│  -rwxr--r--  2.0 unx    21971 b- defN 24-Nov-21 17:50 bin/jooby
+│ @@ -19,9 +19,9 @@
+│  -rw-r--r--  2.0 unx    15704 b- defN 24-Nov-21 17:50 lib/slf4j-simple-2.0.16.jar
+│  -rw-r--r--  2.0 unx   298435 b- defN 24-Nov-21 17:50 lib/gson-2.11.0.jar
+│ --rw-r--r--  2.0 unx    91264 b- defN 24-Nov-21 17:50 lib/jooby-cli-3.5.4.jar
+│ -25 files, 9039917 bytes uncompressed, 8426968 bytes compressed:  6.8%
+│ +-rw-r--r--  2.0 unx    91263 b- defN 24-Nov-21 17:50 lib/jooby-cli-3.5.4.jar
+│ +25 files, 9039916 bytes uncompressed, 8426970 bytes compressed:  6.8%
