@@ -13,6 +13,7 @@ rebuilding **10 releases** of net.sourceforge.pmd:pmd-build-tools-config:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [28](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-build-tools-config/28/pom) | | | |
 | [27](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-build-tools-config/27/pom) | [mvn jdk11](pmd-build-tools-config-27.buildspec) | [result](pmd-build-tools-config-27.buildinfo): [3 :white_check_mark: ](pmd-build-tools-config-27.buildcompare) | 65K |
 | [26](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-build-tools-config/26/pom) | [mvn jdk11](pmd-build-tools-config-26.buildspec) | [result](pmd-build-tools-config-26.buildinfo): [3 :white_check_mark: ](pmd-build-tools-config-26.buildcompare) | 65K |
 | [25](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-build-tools-config/25/pom) | [mvn jdk11](pmd-build-tools-config-25.buildspec) | [result](pmd-build-tools-config-25.buildinfo): [3 :white_check_mark: ](pmd-build-tools-config-25.buildcompare) | 65K |

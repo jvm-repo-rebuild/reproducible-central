@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **5314 releases** of **733 projects**:
-   - **3966** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 1348 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **5320 releases** of **733 projects**:
+   - **3971** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 1349 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 733 projects, 631 have at least one fully reproducible release, 102 have none
 
 <!-- END GENERATED INTRO -->
@@ -216,7 +216,7 @@ Its objectives are to provide:
 | | [gwt-commons-lang3](content/de/knightsoft-net/gwt-commons-lang3/README.md) | 1 | 1 :warning: |
 | | [gwt-commons-validator](content/de/knightsoft-net/gwt-commons-validator/README.md) | 1 | 1 :warning: |
 | de.unentscheidbar | [migratedb](content/de/unentscheidbar/migratedb/README.md) | 7 | 5 :white_check_mark: / 2 :warning: |
-| dev.langchain4j | [langchain4j](content/dev/langchain4j/README.md) | 15 | 11 :white_check_mark: / 4 :warning: |
+| dev.langchain4j | [langchain4j](content/dev/langchain4j/README.md) | 16 | 12 :white_check_mark: / 4 :warning: |
 | dev.cdevents | [cdevents-sdk-java](content/dev/cdevents/cdevents-sdk-java/README.md) | 3 | 3 :warning: |
 | dev.notmyfault.serverlib | [ServerLib](content/dev/notmyfault/serverlib/ServerLib/README.md) | 1 | 1 :white_check_mark: |
 | dev.sigstore | [sigstore-maven-plugin](content/dev/sigstore/sigstore-maven-plugin/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
@@ -239,10 +239,10 @@ Its objectives are to provide:
 | fr.inria.gforge.spoon | [spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 125 | 21 :white_check_mark: / 104 :warning: |
 | fr.marcwrobel | [jbanking](content/fr/marcwrobel/jbanking/README.md) | 2 | 2 :white_check_mark: |
 | fr.vidal.oss | [atom-jaxb](content/fr/vidal/oss/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
-| io.jooby | [jooby](content/io/jooby/README.md) | 27 | 27 :warning: |
+| io.jooby | [jooby](content/io/jooby/README.md) | 28 | 28 :warning: |
 | io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 63 | 62 :white_check_mark: / 1 :warning: |
 | io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 9 | 9 :warning: |
-| io.trino | [trino-root](content/io/trino/README.md) | 19 | 14 :white_check_mark: / 5 :warning: |
+| io.trino | [trino-root](content/io/trino/README.md) | 20 | 15 :white_check_mark: / 5 :warning: |
 | io.airlift | [airbase](content/io/airlift/airbase/README.md) | 44 | 42 :white_check_mark: / 2 :warning: |
 | io.avaje | [avaje-inject-parent](content/io/avaje/inject/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
 | | [avaje-prisms-parent](content/io/avaje/prisms/README.md) | 2 | 2 :white_check_mark: |
@@ -292,7 +292,7 @@ Its objectives are to provide:
 | | [takari-plugin-testing](content/io/takari/maven/plugins/takari-plugin-testing/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | io.telicent.jena | [jena-kafka](content/io/telicent/jena/jena-kafka/README.md) | 3 | 3 :white_check_mark: |
 | | [rdf-abac](content/io/telicent/jena/rdf-abac/README.md) | 9 | 9 :white_check_mark: |
-| io.telicent.smart-caches.graph | [scg-base](content/io/telicent/smart-caches/graph/scg-base/README.md) | 19 | 19 :white_check_mark: |
+| io.telicent.smart-caches.graph | [scg-base](content/io/telicent/smart-caches/graph/scg-base/README.md) | 20 | 20 :white_check_mark: |
 | io.wcm | [*.caconfig.editor.parent](content/io/wcm/io.wcm.caconfig/README.md) | 10 | 10 :warning: |
 | | [*.parent_toplevel](content/io/wcm/tooling/README.md) | 18 | 18 :white_check_mark: |
 | | [*.handler.commons](content/io/wcm/io.wcm.handler/commons/README.md) | 1 | 1 :white_check_mark: |
@@ -544,7 +544,7 @@ Its objectives are to provide:
 | | [*.i18n](content/org/apache/sling/org.apache.sling.i18n/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
 | | [*.installer.console](content/org/apache/sling/org.apache.sling.installer.console/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
 | | [*.installer.core](content/org/apache/sling/org.apache.sling.installer.core/README.md) | 5 | 1 :white_check_mark: / 4 :warning: |
-| | [*.installer.factory.configuration](content/org/apache/sling/org.apache.sling.installer.factory.configuration/README.md) | 7 | 3 :white_check_mark: / 4 :warning: |
+| | [*.installer.factory.configuration](content/org/apache/sling/org.apache.sling.installer.factory.configuration/README.md) | 8 | 4 :white_check_mark: / 4 :warning: |
 | | [*.installer.factory.packages](content/org/apache/sling/org.apache.sling.installer.factory.packages/README.md) | 2 | 2 :warning: |
 | | [*.installer.hc](content/org/apache/sling/org.apache.sling.installer.hc/README.md) | 1 | 1 :white_check_mark: |
 | | [*.installer.provider.file](content/org/apache/sling/org.apache.sling.installer.provider.file/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
@@ -711,7 +711,7 @@ Its objectives are to provide:
 | org.nlpub | [watset](content/org/nlpub/watset/README.md) | 14 | 11 :white_check_mark: / 3 :warning: |
 | org.openapitools.openapidiff | [openapi-diff-parent](content/org/openapitools/openapidiff/README.md) | 12 | 12 :white_check_mark: |
 | org.osgi | [*.test.parent](content/org/osgi/test/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
-| org.owasp.antisamy | [antisamy](content/org/owasp/antisamy/README.md) | 17 | 16 :white_check_mark: / 1 :warning: |
+| org.owasp.antisamy | [antisamy](content/org/owasp/antisamy/README.md) | 18 | 17 :white_check_mark: / 1 :warning: |
 | org.owasp | [dependency-check-parent](content/org/owasp/dependency-check/README.md) | 56 | 37 :white_check_mark: / 19 :warning: |
 | org.sentrysoftware | [http](content/org/sentrysoftware/http/README.md) | 2 | 2 :white_check_mark: |
 | | [ipmi](content/org/sentrysoftware/ipmi/README.md) | 3 | 3 :white_check_mark: |
@@ -756,7 +756,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 4 | 4 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 18 | 1 :white_check_mark: / 17 :warning: |
-| **Count:** | **733** | **5314** | **3966** :white_check_mark: **1348** :warning: |
+| **Count:** | **733** | **5320** | **3971** :white_check_mark: **1349** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -771,7 +771,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      84 gradle     17
      32 gradle     21
      33 mvn         7
-   1384 mvn         8
+   1385 mvn         8
       1 mvn         9
    1303 mvn        11
       2 mvn        11.0.19
@@ -792,7 +792,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      15 mvn        18
      33 mvn        19
      16 mvn        20
-    256 mvn        21
+    257 mvn        21
      12 mvn        22
       1 mvn        23
       2 mvn-3.5.4   8
@@ -839,7 +839,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       7 mvn-3.9.3  14
      12 mvn-3.9.3  14.0.2
       1 mvn-3.9.3  15.0.2
-     94 mvn-3.9.3  17
+     95 mvn-3.9.3  17
       6 mvn-3.9.3  17.0.1
       4 mvn-3.9.3  17.0.2
      51 mvn-3.9.3  17.0.3
@@ -885,11 +885,11 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.8  17.0.12
      40 mvn-3.9.8  21
      44 mvn-3.9.8  22
-      6 mvn-3.9.8  23
+      7 mvn-3.9.8  23
       1 mvn-3.9.9   8
       3 mvn-3.9.9  11
       4 mvn-3.9.9  17
-     19 mvn-3.9.9  21
+     21 mvn-3.9.9  21
       4 mvn-3.9.9  22
       2 mvn-4.0.0-alpha-12  21
       2 mvn-4.0.0-alpha-12  22

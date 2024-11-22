@@ -1,4 +1,2 @@
-content/io/trino/trino-464.buildspec:465
-content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.8.buildspec:0.82.9
-content/org/apache/sling/org.apache.sling.installer.factory.configuration/org.apache.sling.installer.factory.configuration-1.4.6.buildspec:1.4.8
-content/org/owasp/antisamy/antisamy-1.7.6.buildspec:1.7.7
+content/com/intellectualsites/bom/bom-newest/bom-newest-1.50.buildspec:1.51
+content/net/sourceforge/pmd/pmd-build-tools-config/pmd-build-tools-config-27.buildspec:28

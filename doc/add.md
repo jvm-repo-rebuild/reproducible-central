@@ -4,16 +4,14 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241121134942 --> [org.apache.sling.installer.factory.configuration](../content/org/apache/sling/org.apache.sling.installer.factory.configuration/README.md) | [1.4.6](../content/org/apache/sling/org.apache.sling.installer.factory.configuration/org.apache.sling.installer.factory.configuration-1.4.6.buildspec) :white_check_mark: | [1.4.8](../content/org/apache/sling/org.apache.sling.installer.factory.configuration/org.apache.sling.installer.factory.configuration-1.4.8.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.installer.factory.configuration/org.apache.sling.installer.factory.configuration-1.4.6.buildspec 1.4.8` |
-| <!-- 20241121094115 --> [scg-base](../content/io/telicent/smart-caches/graph/scg-base/README.md) | [0.82.8](../content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.8.buildspec) :white_check_mark: | [0.82.9](../content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.9.buildspec) | `bin/add-new-release.sh content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.8.buildspec 0.82.9` |
-| <!-- 20241121011607 --> [trino-root](../content/io/trino/README.md) | [464](../content/io/trino/trino-464.buildspec) :white_check_mark: | [465](../content/io/trino/trino-465.buildspec) | `bin/add-new-release.sh content/io/trino/trino-464.buildspec 465` |
-| <!-- 20241121005230 --> [antisamy](../content/org/owasp/antisamy/README.md) | [1.7.6](../content/org/owasp/antisamy/antisamy-1.7.6.buildspec) :white_check_mark: | [1.7.7](../content/org/owasp/antisamy/antisamy-1.7.7.buildspec) | `bin/add-new-release.sh content/org/owasp/antisamy/antisamy-1.7.6.buildspec 1.7.7` |
+| <!-- 20241122192536 --> [bom-newest](../content/com/intellectualsites/bom/bom-newest/README.md) | [1.50](../content/com/intellectualsites/bom/bom-newest/bom-newest-1.50.buildspec) :white_check_mark: | [1.51](../content/com/intellectualsites/bom/bom-newest/bom-newest-1.51.buildspec) | `bin/add-new-release.sh content/com/intellectualsites/bom/bom-newest/bom-newest-1.50.buildspec 1.51` |
+| <!-- 20241122133912 --> [pmd-build-tools-config](../content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | [27](../content/net/sourceforge/pmd/pmd-build-tools-config/pmd-build-tools-config-27.buildspec) :white_check_mark: | [28](../content/net/sourceforge/pmd/pmd-build-tools-config/pmd-build-tools-config-28.buildspec) | `bin/add-new-release.sh content/net/sourceforge/pmd/pmd-build-tools-config/pmd-build-tools-config-27.buildspec 28` |
+| <!-- 20241121223004 --> [log4j](../content/org/apache/logging/log4j/log4j/README.md) | [3.0.0-beta3](../content/org/apache/logging/log4j/log4j/log4j-3.0.0-beta3.buildspec) :white_check_mark: | 2.24.2  | `bin/add-new-release.sh content/org/apache/logging/log4j/log4j/log4j-3.0.0-beta3.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
 `buildcompare` says `ko=0` but `buildspec` configures a `diffoscope` value in following releases:
 <!-- BEGIN GENERATED UNEXPECTED DIFFOSCOPE -->
-      content/org/apache/commons/commons-lang3/commons-lang3-3.17.0.buildspec
 <!-- END GENERATED UNEXPECTED DIFFOSCOPE -->
 
 ## Apache Release Candidate in Staging
@@ -22,6 +20,7 @@ New Releases To Add
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
 | <!-- 20241029101611 --> [:mailbox:](https://lists.apache.org/list?dev@sling.apache.org:lte=1M:VOTE) | [org.apache.sling.engine](../content/org/apache/sling/org.apache.sling.engine/README.md) | [2.15.18](../content/org/apache/sling/org.apache.sling.engine/org.apache.sling.engine-2.15.18.buildspec) :white_check_mark: | [2.16.0](../content/org/apache/sling/org.apache.sling.engine/org.apache.sling.engine-2.16.0.buildspec)  | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.engine/org.apache.sling.engine-2.15.18.buildspec 2.16.0 staging` |
+| <!-- 20241021180745 --> [:mailbox:](https://lists.apache.org/list?dev@pulsar.apache.org:lte=1M:VOTE) | [pulsar](../content/org/apache/pulsar/README.md) | [3.3.1](../content/org/apache/pulsar/pulsar-3.3.1.buildspec) :warning: | [4.0.1](../content/org/apache/pulsar/pulsar-4.0.1.buildspec)  | `bin/add-new-release.sh content/org/apache/pulsar/pulsar-3.3.1.buildspec 4.0.1 staging` |
 | <!-- 20241018060702 --> [:mailbox:](https://lists.apache.org/list?dev@struts.apache.org:lte=1M:VOTE) | [struts2-parent](../content/org/apache/struts/README.md) | [6.6.1](../content/org/apache/struts/struts2-6.6.1.buildspec) :white_check_mark: | [7.0.0-M10](../content/org/apache/struts/struts2-7.0.0-M10.buildspec)  | `bin/add-new-release.sh content/org/apache/struts/struts2-6.6.1.buildspec 7.0.0-M10 staging` |
 | <!-- 20240909061438 --> [:mailbox:](https://lists.apache.org/list?dev@helix.apache.org:lte=1M:VOTE) | [helix](../content/org/apache/helix/README.md) | [1.4.1](../content/org/apache/helix/helix-1.4.1.buildspec) :white_check_mark: | [1.4.2](../content/org/apache/helix/helix-1.4.2.buildspec)  | `bin/add-new-release.sh content/org/apache/helix/helix-1.4.1.buildspec 1.4.2 staging` |
 | <!-- 20230523070720 --> [:mailbox:](https://lists.apache.org/list?dev@royale.apache.org:lte=1M:VOTE) | [compiler](../content/org/apache/royale/compiler/README.md) | [0.9.10](../content/org/apache/royale/compiler/royale-compiler-0.9.10.buildspec) :warning: | [0.9.12](../content/org/apache/royale/compiler/royale-compiler-0.9.12.buildspec)  | `bin/add-new-release.sh content/org/apache/royale/compiler/royale-compiler-0.9.10.buildspec 0.9.12 staging` |
@@ -32,13 +31,12 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241121180135 --> [jooby](../content/io/jooby/README.md) | [3.5.3](../content/io/jooby/jooby-3.5.3.buildspec) :warning: [:memo:](https://github.com/jooby-project/jooby/pull/3585) | [3.5.4](../content/io/jooby/jooby-3.5.4.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-3.5.3.buildspec 3.5.4` |
-| <!-- 20241121164259 --> [langchain4j](../content/dev/langchain4j/README.md) | [0.36.1](../content/dev/langchain4j/langchain4j-0.36.1.buildspec) :warning: | [0.36.2](../content/dev/langchain4j/langchain4j-0.36.2.buildspec) | `bin/add-new-release.sh content/dev/langchain4j/langchain4j-0.36.1.buildspec 0.36.2` |
+| <!-- 20241122181207 --> [sigstore-maven-plugin](../content/dev/sigstore/sigstore-maven-plugin/README.md) | [1.0.0](../content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-1.0.0.buildspec) :warning: | [1.1.0](../content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-1.1.0.buildspec) | `bin/add-new-release.sh content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-1.0.0.buildspec 1.1.0` |
+| <!-- 20241122162409 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.67.0](../content/org/finos/legend/engine/legend-engine-4.67.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.67.0` |
 | <!-- 20241120204544 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | [6.7.0](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.7.0.buildspec) :warning: | [6.9.6](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.9.6.buildspec) | `bin/add-new-release.sh content/com/adobe/acs/aem-commons/acs-aem-commons-6.7.0.buildspec 6.9.6` |
 | <!-- 20241120144345 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.0.2](../content/com/taobao/arthas/arthas-4.0.2.buildspec) :warning: | [4.0.4](../content/com/taobao/arthas/arthas-4.0.4.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.0.2.buildspec 4.0.4` |
 | <!-- 20241120141927 --> [nifi](../content/org/apache/nifi/nifi/README.md) | [2.0.0-M4](../content/org/apache/nifi/nifi/nifi-2.0.0-M4.buildspec) :warning: | [2.0.0](../content/org/apache/nifi/nifi/nifi-2.0.0.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-2.0.0-M4.buildspec 2.0.0` |
 | <!-- 20241120114535 --> [quarkus-project](../content/io/quarkus/README.md) | [3.17.0.CR1](../content/io/quarkus/quarkus-3.17.0.CR1.buildspec) :warning: | [3.17.0](../content/io/quarkus/quarkus-3.17.0.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.17.0.CR1.buildspec 3.17.0` |
-| <!-- 20241119062729 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.66.1](../content/org/finos/legend/engine/legend-engine-4.66.1.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.66.1` |
 | <!-- 20241110060152 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.18.2](../content/org/webjars/swagger-ui/swagger-ui-5.18.2.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.18.2` |
 | <!-- 20241024125949 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.8.1](../content/org/apache/camel/camel/camel-4.8.1.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.8.1` |
 | <!-- 20241021180745 --> [pulsar](../content/org/apache/pulsar/README.md) | [3.3.1](../content/org/apache/pulsar/pulsar-3.3.1.buildspec) :warning: | [4.0.0-preview.1](../content/org/apache/pulsar/pulsar-4.0.0-preview.1.buildspec) | `bin/add-new-release.sh content/org/apache/pulsar/pulsar-3.3.1.buildspec 4.0.0-preview.1` |
@@ -58,6 +56,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20241121180135 --> [jooby](../content/io/jooby/README.md) | 3.5.4 :warning: |
 | <!-- 20241120081600 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | 1.6.7 :warning: |
 | <!-- 20241120061459 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | 10.6-javax :warning: |
 | <!-- 20241119151133 --> [org.apache.sling.feature.cpconverter](../content/org/apache/sling/org.apache.sling.feature.cpconverter/README.md) | 1.3.8 :warning: |
@@ -105,7 +104,6 @@ New Releases To Add
 | <!-- 20240916090911 --> [io.wcm.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | 2.2.2 :warning: |
 | <!-- 20240913092416 --> [paimon-parent](../content/org/apache/paimon/README.md) | 0.9.0 :warning: [:memo:](https://github.com/apache/paimon/pull/4190) |
 | <!-- 20240905060651 --> [org.apache.sling.scripting.core](../content/org/apache/sling/org.apache.sling.scripting.core/README.md) | 2.4.10 :warning: [:memo:](https://issues.apache.org/jira/browse/SLING-12422) |
-| <!-- 20240828185349 --> [sigstore-maven-plugin](../content/dev/sigstore/sigstore-maven-plugin/README.md) | 1.0.0 :warning: |
 | <!-- 20240826174802 --> [ldapchai](../content/com/github/ldapchai/README.md) | 0.8.6 :warning: [:memo:](https://github.com/ldapchai/ldapchai/issues/28) |
 | <!-- 20240825173904 --> [io.takari.incrementalbuild](../content/io/takari/incrementalbuild/README.md) | 1.0.3 :warning: |
 | <!-- 20240817210045 --> [mybatis-2-spring](../content/org/mybatis/mybatis-2-spring/README.md) | 1.2.1 :warning: |
