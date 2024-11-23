@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **5320 releases** of **733 projects**:
-   - **3971** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **5323 releases** of **733 projects**:
+   - **3974** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 1349 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 733 projects, 631 have at least one fully reproducible release, 102 have none
 
@@ -92,7 +92,7 @@ Its objectives are to provide:
 | | [vault-maven-plugin](content/com/homeofthewizard/vault-maven-plugin/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | com.innoq | [junit5-logging-extension](content/com/innoq/junit5-logging-extension/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | com.intellectualsites.arkitektonika | [Arkitektonika-Client](content/com/intellectualsites/arkitektonika/Arkitektonika-Client/README.md) | 1 | 1 :white_check_mark: |
-| com.intellectualsites.bom | [bom-newest](content/com/intellectualsites/bom/bom-newest/README.md) | 7 | 7 :white_check_mark: |
+| com.intellectualsites.bom | [bom-newest](content/com/intellectualsites/bom/bom-newest/README.md) | 8 | 8 :white_check_mark: |
 | com.intellectualsites.fastasyncvoxelsniper | [fastasyncvoxelsniper](content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/README.md) | 3 | 3 :white_check_mark: |
 | com.intellectualsites.informative-annotations | [informative-annotations](content/com/intellectualsites/informative-annotations/informative-annotations/README.md) | 1 | 1 :white_check_mark: |
 | com.intellectualsites.paster | [Paster](content/com/intellectualsites/paster/Paster/README.md) | 1 | 1 :white_check_mark: |
@@ -219,7 +219,7 @@ Its objectives are to provide:
 | dev.langchain4j | [langchain4j](content/dev/langchain4j/README.md) | 16 | 12 :white_check_mark: / 4 :warning: |
 | dev.cdevents | [cdevents-sdk-java](content/dev/cdevents/cdevents-sdk-java/README.md) | 3 | 3 :warning: |
 | dev.notmyfault.serverlib | [ServerLib](content/dev/notmyfault/serverlib/ServerLib/README.md) | 1 | 1 :white_check_mark: |
-| dev.sigstore | [sigstore-maven-plugin](content/dev/sigstore/sigstore-maven-plugin/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
+| dev.sigstore | [sigstore-maven-plugin](content/dev/sigstore/sigstore-maven-plugin/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
 | dk.mada.jaxrs | [openapi-jaxrs-bom](content/dk/mada/jaxrs/openapi-jaxrs-client/README.md) | 5 | 3 :white_check_mark: / 2 :warning: |
 | dk.mada.reproducible | [reproducible-gradle](content/dk/mada/reproducible/reproducible-gradle/README.md) | 1 | 1 :white_check_mark: |
 | dk.mada.style | [mada-style-gradle](content/dk/mada/style/mada-style-gradle/README.md) | 8 | 7 :white_check_mark: / 1 :warning: |
@@ -323,7 +323,7 @@ Its objectives are to provide:
 | net.sf.michael-o | [michael-o-parent](content/net/sf/michael-o/michael-o-parent/README.md) | 3 | 3 :white_check_mark: |
 | net.sf.michael-o.tomcat | [tomcat-authnz-spnego-ad](content/net/sf/michael-o/tomcat/tomcat-authnz-spnego-ad/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
 | net.sourceforge.pmd | [pmd](content/net/sourceforge/pmd/README.md) | 44 | 39 :white_check_mark: / 5 :warning: |
-| | [pmd-build-tools-config](content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | 10 | 10 :white_check_mark: |
+| | [pmd-build-tools-config](content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | 11 | 11 :white_check_mark: |
 | nl.basjes.energy | [energy-parent](content/nl/basjes/energy/README.md) | 2 | 2 :white_check_mark: |
 | nl.basjes.codeowners | [codeowners-parent](content/nl/basjes/codeowners/codeowners-parent/README.md) | 20 | 20 :white_check_mark: |
 | nl.basjes.maven.release | [conventional-commits-version-policy](content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 7 | 7 :white_check_mark: |
@@ -756,7 +756,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 4 | 4 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 18 | 1 :white_check_mark: / 17 :warning: |
-| **Count:** | **733** | **5320** | **3971** :white_check_mark: **1349** :warning: |
+| **Count:** | **733** | **5323** | **3974** :white_check_mark: **1349** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -767,13 +767,13 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 
 <!-- BEGIN GENERATED STATS -->
 ```
-     30 gradle     11
-     84 gradle     17
+     31 gradle     11
+     85 gradle     17
      32 gradle     21
      33 mvn         7
    1385 mvn         8
       1 mvn         9
-   1303 mvn        11
+   1304 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6

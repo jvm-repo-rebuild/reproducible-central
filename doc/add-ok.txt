@@ -1,2 +1,0 @@
-content/com/intellectualsites/bom/bom-newest/bom-newest-1.50.buildspec:1.51
-content/net/sourceforge/pmd/pmd-build-tools-config/pmd-build-tools-config-27.buildspec:28

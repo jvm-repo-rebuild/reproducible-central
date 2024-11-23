@@ -4,8 +4,6 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241122192536 --> [bom-newest](../content/com/intellectualsites/bom/bom-newest/README.md) | [1.50](../content/com/intellectualsites/bom/bom-newest/bom-newest-1.50.buildspec) :white_check_mark: | [1.51](../content/com/intellectualsites/bom/bom-newest/bom-newest-1.51.buildspec) | `bin/add-new-release.sh content/com/intellectualsites/bom/bom-newest/bom-newest-1.50.buildspec 1.51` |
-| <!-- 20241122133912 --> [pmd-build-tools-config](../content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | [27](../content/net/sourceforge/pmd/pmd-build-tools-config/pmd-build-tools-config-27.buildspec) :white_check_mark: | [28](../content/net/sourceforge/pmd/pmd-build-tools-config/pmd-build-tools-config-28.buildspec) | `bin/add-new-release.sh content/net/sourceforge/pmd/pmd-build-tools-config/pmd-build-tools-config-27.buildspec 28` |
 | <!-- 20241121223004 --> [log4j](../content/org/apache/logging/log4j/log4j/README.md) | [3.0.0-beta3](../content/org/apache/logging/log4j/log4j/log4j-3.0.0-beta3.buildspec) :white_check_mark: | 2.24.2  | `bin/add-new-release.sh content/org/apache/logging/log4j/log4j/log4j-3.0.0-beta3.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
@@ -31,7 +29,6 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241122181207 --> [sigstore-maven-plugin](../content/dev/sigstore/sigstore-maven-plugin/README.md) | [1.0.0](../content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-1.0.0.buildspec) :warning: | [1.1.0](../content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-1.1.0.buildspec) | `bin/add-new-release.sh content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-1.0.0.buildspec 1.1.0` |
 | <!-- 20241122162409 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.67.0](../content/org/finos/legend/engine/legend-engine-4.67.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.67.0` |
 | <!-- 20241120204544 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | [6.7.0](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.7.0.buildspec) :warning: | [6.9.6](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.9.6.buildspec) | `bin/add-new-release.sh content/com/adobe/acs/aem-commons/acs-aem-commons-6.7.0.buildspec 6.9.6` |
 | <!-- 20241120144345 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.0.2](../content/com/taobao/arthas/arthas-4.0.2.buildspec) :warning: | [4.0.4](../content/com/taobao/arthas/arthas-4.0.4.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.0.2.buildspec 4.0.4` |
