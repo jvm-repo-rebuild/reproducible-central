@@ -1,0 +1,3 @@
+spdx-java-core-0.1.0-Alpha.buildspec
+spdx-java-core-0.1.0-Alpha.buildinfo
+spdx-java-core-0.1.0-Alpha.buildcompare

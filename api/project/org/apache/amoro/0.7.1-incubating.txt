@@ -1,0 +1,3 @@
+amoro-0.7.1-incubating.buildspec
+amoro-parent-0.7.1-incubating.buildinfo
+amoro-parent-0.7.1-incubating.buildcompare
