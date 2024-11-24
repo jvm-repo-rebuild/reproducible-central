@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.amoro</groupId>
+  <artifactId>amoro-parent</artifactId>
+  <versioning>
+    <latest>0.7.1-incubating</latest>
+    <release>0.7.1-incubating</release>
+    <versions>
+      <version>0.7.0-incubating</version>
+      <version>0.7.1-incubating</version>
+    </versions>
+    <lastUpdated>20241120023729</lastUpdated>
+  </versioning>
+</metadata>
