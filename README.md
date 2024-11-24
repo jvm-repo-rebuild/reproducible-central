@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **5323 releases** of **733 projects**:
-   - **3974** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 1349 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 733 projects, 631 have at least one fully reproducible release, 102 have none
+   rebuilding **5333 releases** of **737 projects**:
+   - **3979** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 1354 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 737 projects, 633 have at least one fully reproducible release, 104 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -65,9 +65,11 @@ Its objectives are to provide:
 | | [yuicompressor-maven-plugin](content/com/github/hazendaz/maven/yuicompressor-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
 | com.github.marschall | [jakarta-jms-adapter](content/com/github/marschall/jakarta-jms-adapter/README.md) | 7 | 4 :white_check_mark: / 3 :warning: |
 | | [jfr-servlet](content/com/github/marschall/jfr-servlet/README.md) | 2 | 2 :white_check_mark: |
+| com.github.nbbrd.java-desktop-util | [java-desktop-util-parent](content/com/github/nbbrd/java-desktop-util/README.md) | 3 | 3 :white_check_mark: |
+| com.github.nbbrd.java-io-util | [java-io-parent](content/com/github/nbbrd/java-io-util/README.md) | 5 | 5 :white_check_mark: |
+| com.github.nbbrd.java-sql-util | [java-sql-parent](content/com/github/nbbrd/java-sql-util/README.md) | 1 | 1 :warning: |
 | com.github.nbbrd.jdplus-sdmx | [jdplus-sdmx](content/com/github/nbbrd/jdplus-sdmx/README.md) | 1 | 1 :warning: |
 | com.github.nbbrd.spreadsheet4j | [spreadsheet-parent](content/com/github/nbbrd/spreadsheet4j/README.md) | 2 | 2 :white_check_mark: |
-| com.github.nbbrd.java-io-util | [java-io-parent](content/com/github/nbbrd/java-io-util/java-io-util/README.md) | 5 | 5 :white_check_mark: |
 | com.github.package-url | [packageurl-java](content/com/github/package-url/packageurl-java/README.md) | 5 | 5 :white_check_mark: |
 | com.github.philippheuer.credentialmanager | [credentialmanager](content/com/github/philippheuer/credentialmanager/README.md) | 1 | 1 :white_check_mark: |
 | com.github.sitture | [env-config](content/com/github/sitture/env-config/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
@@ -241,7 +243,7 @@ Its objectives are to provide:
 | fr.vidal.oss | [atom-jaxb](content/fr/vidal/oss/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
 | io.jooby | [jooby](content/io/jooby/README.md) | 28 | 28 :warning: |
 | io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 63 | 62 :white_check_mark: / 1 :warning: |
-| io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 9 | 9 :warning: |
+| io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 12 | 12 :warning: |
 | io.trino | [trino-root](content/io/trino/README.md) | 20 | 15 :white_check_mark: / 5 :warning: |
 | io.airlift | [airbase](content/io/airlift/airbase/README.md) | 44 | 42 :white_check_mark: / 2 :warning: |
 | io.avaje | [avaje-inject-parent](content/io/avaje/inject/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
@@ -341,6 +343,7 @@ Its objectives are to provide:
 | org.antlr | [antlr4-master](content/org/antlr/antlr4/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
 | org.apache.accumulo | [accumulo](content/org/apache/accumulo/README.md) | 11 | 4 :white_check_mark: / 7 :warning: |
 | org.apache.activemq | [activemq-parent](content/org/apache/activemq/README.md) | 25 | 10 :white_check_mark: / 15 :warning: |
+| org.apache.amoro | [amoro-parent](content/org/apache/amoro/README.md) | 1 | 1 :warning: |
 | org.apache.any23 | [apache-any23](content/org/apache/any23/README.md) | 1 | 1 :warning: |
 | org.apache | [apache](content/org/apache/apache/README.md) | 11 | 10 :white_check_mark: / 1 :warning: |
 | org.apache.avro | [avro-toplevel](content/org/apache/avro/README.md) | 5 | 3 :white_check_mark: / 2 :warning: |
@@ -418,7 +421,7 @@ Its objectives are to provide:
 | | [karaf](content/org/apache/karaf/karaf/README.md) | 8 | 8 :warning: |
 | org.apache.karaf.minho | [minho](content/org/apache/karaf/minho/README.md) | 1 | 1 :white_check_mark: |
 | org.apache.logging | [logging-parent](content/org/apache/logging/parent/README.md) | 17 | 16 :white_check_mark: / 1 :warning: |
-| org.apache.logging.log4j | [log4j](content/org/apache/logging/log4j/log4j/README.md) | 12 | 9 :white_check_mark: / 3 :warning: |
+| org.apache.logging.log4j | [log4j](content/org/apache/logging/log4j/log4j/README.md) | 13 | 10 :white_check_mark: / 3 :warning: |
 | | [log4j-jmx-gui](content/org/apache/logging/log4j/log4j-jmx-gui/README.md) | 1 | 1 :white_check_mark: |
 | | [log4j-tools-bom](content/org/apache/logging/log4j/tools/README.md) | 9 | 9 :white_check_mark: |
 | | [log4j-transform-bom](content/org/apache/logging/log4j/transform/README.md) | 2 | 2 :white_check_mark: |
@@ -734,6 +737,7 @@ Its objectives are to provide:
 | | [sign-maven-plugin](content/org/simplify4u/plugins/sign-maven-plugin/README.md) | 8 | 6 :white_check_mark: / 2 :warning: |
 | org.sonatype.nexus.archetypes | [nexus-format-archetype](content/org/sonatype/nexus/archetypes/nexus-format-archetype/README.md) | 10 | 10 :white_check_mark: |
 | org.spdx | [java-spdx-library](content/org/spdx/java-spdx-library/README.md) | 6 | 6 :white_check_mark: |
+| | [spdx-java-core](content/org/spdx/spdx-java-core/README.md) | 1 | 1 :white_check_mark: |
 | | [spdx-maven-plugin](content/org/spdx/spdx-maven-plugin/README.md) | 6 | 4 :white_check_mark: / 2 :warning: |
 | org.tomitribe.transformer | [org.eclipse.transformer.parent](content/org/tomitribe/transformer/README.md) | 2 | 2 :white_check_mark: |
 | org.webjars | [angularjs](content/org/webjars/angularjs/README.md) | 1 | 1 :white_check_mark: |
@@ -756,7 +760,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 4 | 4 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 18 | 1 :white_check_mark: / 17 :warning: |
-| **Count:** | **733** | **5323** | **3974** :white_check_mark: **1349** :warning: |
+| **Count:** | **737** | **5333** | **3979** :white_check_mark: **1354** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -771,7 +775,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      85 gradle     17
      32 gradle     21
      33 mvn         7
-   1385 mvn         8
+   1386 mvn         8
       1 mvn         9
    1304 mvn        11
       2 mvn        11.0.19
@@ -781,7 +785,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn        14
      10 mvn        15
      12 mvn        16
-    449 mvn        17
+    450 mvn        17
       1 mvn        17.0.10
       2 mvn        17.0.11
       1 mvn        17.0.12
@@ -792,7 +796,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      15 mvn        18
      33 mvn        19
      16 mvn        20
-    257 mvn        21
+    261 mvn        21
      12 mvn        22
       1 mvn        23
       2 mvn-3.5.4   8
@@ -839,7 +843,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       7 mvn-3.9.3  14
      12 mvn-3.9.3  14.0.2
       1 mvn-3.9.3  15.0.2
-     95 mvn-3.9.3  17
+     96 mvn-3.9.3  17
       6 mvn-3.9.3  17.0.1
       4 mvn-3.9.3  17.0.2
      51 mvn-3.9.3  17.0.3
@@ -881,7 +885,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn-3.9.8   8
       5 mvn-3.9.8  11
       5 mvn-3.9.8  16
-     78 mvn-3.9.8  17
+     81 mvn-3.9.8  17
       1 mvn-3.9.8  17.0.12
      40 mvn-3.9.8  21
      44 mvn-3.9.8  22
