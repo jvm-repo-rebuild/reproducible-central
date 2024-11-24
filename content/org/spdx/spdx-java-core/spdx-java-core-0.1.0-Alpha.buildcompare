@@ -1,0 +1,9 @@
+version=0.1.0-Alpha
+ok=2
+ko=0
+ignored=0
+okFiles="spdx-java-core-0.1.0-Alpha.pom spdx-java-core-0.1.0-Alpha.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.spdx</groupId>
+  <artifactId>spdx-java-core</artifactId>
+  <versioning>
+    <latest>0.1.0-Alpha</latest>
+    <release>0.1.0-Alpha</release>
+    <versions>
+      <version>0.1.0-Alpha</version>
+    </versions>
+    <lastUpdated>20240903034829</lastUpdated>
+  </versioning>
+</metadata>
