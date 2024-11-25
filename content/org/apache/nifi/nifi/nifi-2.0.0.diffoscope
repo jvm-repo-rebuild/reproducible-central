@@ -1,0 +1,427 @@
+1 / 76 target/reference/org.apache.nifi/nifi-nar-utils-2.0.0.jar nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/nifi-nar-utils-2.0.0.jar
+--- target/reference/org.apache.nifi/nifi-nar-utils-2.0.0.jar
++++ nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/nifi-nar-utils-2.0.0.jar
+├── zipinfo {}
+│ @@ -1,23 +1,23 @@
+│ -Zip file size: 51184 bytes, number of entries: 34
+│ +Zip file size: 51169 bytes, number of entries: 34
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 META-INF/
+│  -rw-r--r--  2.0 unx      302 b- defN 24-Oct-30 00:53 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 org/apache/nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 org/apache/nifi/nar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 org/apache/nifi/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 META-INF/maven/org.apache.nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 META-INF/maven/org.apache.nifi/nifi-nar-utils/
+│  -rw-r--r--  2.0 unx      264 b- defN 24-Oct-30 00:53 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 24-Oct-30 00:53 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      153 b- defN 24-Oct-30 00:53 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx      959 b- defN 24-Oct-30 00:53 META-INF/aop.xml
+│ --rw-r--r--  2.0 unx     6950 b- defN 24-Oct-30 00:53 builddef.lst
+│ +-rw-r--r--  2.0 unx     6230 b- defN 24-Oct-30 00:53 builddef.lst
+│  -rw-r--r--  2.0 unx     8214 b- defN 24-Oct-30 00:53 org/apache/nifi/nar/AbstractNativeLibHandlingClassLoader.class
+│  -rw-r--r--  2.0 unx     1799 b- defN 24-Oct-30 00:53 org/apache/nifi/nar/FileDigestUtils.class
+│  -rw-r--r--  2.0 unx     5806 b- defN 24-Oct-30 00:53 org/apache/nifi/nar/LoadNativeLibAspect.class
+│  -rw-r--r--  2.0 unx     3377 b- defN 24-Oct-30 00:53 org/apache/nifi/nar/NarBundleUtil.class
+│  -rw-r--r--  2.0 unx      875 b- defN 24-Oct-30 00:53 org/apache/nifi/nar/NarClassLoader$1.class
+│  -rw-r--r--  2.0 unx     4245 b- defN 24-Oct-30 00:53 org/apache/nifi/nar/NarClassLoader.class
+│  -rw-r--r--  2.0 unx     1964 b- defN 24-Oct-30 00:53 org/apache/nifi/nar/NarClassLoaders$InitContext.class
+│ @@ -29,8 +29,8 @@
+│  -rw-r--r--  2.0 unx    26519 b- defN 24-Oct-30 00:53 org/apache/nifi/nar/NarUnpacker.class
+│  -rw-r--r--  2.0 unx      872 b- defN 24-Oct-30 00:53 org/apache/nifi/nar/OSUtil.class
+│  -rw-r--r--  2.0 unx     2442 b- defN 24-Oct-30 00:53 org/apache/nifi/nar/PythonBundle.class
+│  -rw-r--r--  2.0 unx     2439 b- defN 24-Oct-30 00:53 org/apache/nifi/nar/SystemBundle.class
+│  -rw-r--r--  2.0 unx     5099 b- defN 24-Oct-30 00:53 org/apache/nifi/util/FileUtils.class
+│  -rw-r--r--  2.0 unx     4457 b- defN 24-Oct-30 00:53 META-INF/maven/org.apache.nifi/nifi-nar-utils/pom.xml
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Oct-30 00:53 META-INF/maven/org.apache.nifi/nifi-nar-utils/pom.properties
+│ -34 files, 110740 bytes uncompressed, 46390 bytes compressed:  58.1%
+│ +34 files, 110020 bytes uncompressed, 46375 bytes compressed:  57.8%
+├── builddef.lst
+│ @@ -5,13 +5,13 @@
+│  -showWeaveInfo
+│  -source
+│  7
+│  -target
+│  7
+│  -verbose
+│  -classpath
+│ -/home/exceptionfactory/releases/nifi-work/nifi/nifi-framework-api/target/nifi-framework-api-2.0.0.jar:/home/exceptionfactory/releases/nifi-work/nifi/nifi-server-api/target/nifi-server-api-2.0.0.jar:/home/exceptionfactory/.m2/repository/org/aspectj/aspectjrt/1.9.22.1/aspectjrt-1.9.22.1.jar:/home/exceptionfactory/.m2/repository/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/toolchain/jetty-schemas/5.2/jetty-schemas-5.2.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-server/12.0.14/jetty-server-12.0.14.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-http/12.0.14/jetty-http-12.0.14.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-io/12.0.14/jetty-io-12.0.14.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.0.14/jetty-ee10-servlet-12.0.14.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-security/12.0.14/jetty-security-12.0.14.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-session/12.0.14/jetty-session-12.0.14.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/ee10/jetty-ee10-webapp/12.0.14/jetty-ee10-webapp-12.0.14.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-ee/12.0.14/jetty-ee-12.0.14.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-xml/12.0.14/jetty-xml-12.0.14.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-deploy/12.0.14/jetty-deploy-12.0.14.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/ee10/jetty-ee10-servlets/12.0.14/jetty-ee10-servlets-12.0.14.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-util/12.0.14/jetty-util-12.0.14.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/ee10/jetty-ee10-annotations/12.0.14/jetty-ee10-annotations-12.0.14.jar:/home/exceptionfactory/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/ee10/jetty-ee10-plus/12.0.14/jetty-ee10-plus-12.0.14.jar:/home/exceptionfactory/.m2/repository/jakarta/enterprise/jakarta.enterprise.cdi-api/4.0.1/jakarta.enterprise.cdi-api-4.0.1.jar:/home/exceptionfactory/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/home/exceptionfactory/.m2/repository/jakarta/enterprise/jakarta.enterprise.lang-model/4.0.1/jakarta.enterprise.lang-model-4.0.1.jar:/home/exceptionfactory/.m2/repository/jakarta/interceptor/jakarta.interceptor-api/2.1.0/jakarta.interceptor-api-2.1.0.jar:/home/exceptionfactory/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-jndi/12.0.14/jetty-jndi-12.0.14.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-plus/12.0.14/jetty-plus-12.0.14.jar:/home/exceptionfactory/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar:/home/exceptionfactory/.m2/repository/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar:/home/exceptionfactory/.m2/repository/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/ee10/jetty-ee10-apache-jsp/12.0.14/jetty-ee10-apache-jsp-12.0.14.jar:/home/exceptionfactory/.m2/repository/org/mortbay/jasper/apache-jsp/10.1.31/apache-jsp-10.1.31.jar:/home/exceptionfactory/.m2/repository/org/mortbay/jasper/apache-el/10.1.31/apache-el-10.1.31.jar:/home/exceptionfactory/.m2/repository/jakarta/el/jakarta.el-api/5.0.1/jakarta.el-api-5.0.1.jar:/home/exceptionfactory/.m2/repository/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.1.1/jakarta.servlet.jsp-api-3.1.1.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jdt/ecj/3.38.0/ecj-3.38.0.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/ee10/jetty-ee10-glassfish-jstl/12.0.14/jetty-ee10-glassfish-jstl-12.0.14.jar:/home/exceptionfactory/.m2/repository/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.0/jakarta.servlet.jsp.jstl-api-3.0.0.jar:/home/exceptionfactory/.m2/repository/org/glassfish/web/jakarta.servlet.jsp.jstl/3.0.1/jakarta.servlet.jsp.jstl-3.0.1.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-alpn-server/12.0.14/jetty-alpn-server-12.0.14.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-alpn-java-server/12.0.14/jetty-alpn-java-server-12.0.14.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/http2/jetty-http2-server/12.0.14/jetty-http2-server-12.0.14.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/http2/jetty-http2-common/12.0.14/jetty-http2-common-12.0.14.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/http2/jetty-http2-hpack/12.0.14/jetty-http2-hpack-12.0.14.jar:/home/exceptionfactory/.m2/repository/org/apache/nifi/nifi-api/2.0.0/nifi-api-2.0.0.jar:/home/exceptionfactory/releases/nifi-work/nifi/nifi-commons/nifi-properties/target/nifi-properties-2.0.0.jar:/home/exceptionfactory/releases/nifi-work/nifi/nifi-commons/nifi-property-utils/target/nifi-property-utils-2.0.0.jar:/home/exceptionfactory/.m2/repository/org/slf4j/jcl-over-slf4j/2.0.16/jcl-over-slf4j-2.0.16.jar:/home/exceptionfactory/.m2/repository/org/slf4j/log4j-over-slf4j/2.0.16/log4j-over-slf4j-2.0.16.jar:/home/exceptionfactory/.m2/repository/org/slf4j/jul-to-slf4j/2.0.16/jul-to-slf4j-2.0.16.jar:/home/exceptionfactory/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/home/exceptionfactory/releases/nifi-work/nifi/nifi-mock/target/nifi-mock-2.0.0.jar:/home/exceptionfactory/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.3/junit-jupiter-api-5.11.3.jar:/home/exceptionfactory/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.3/junit-jupiter-engine-5.11.3.jar:/home/exceptionfactory/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.3/junit-jupiter-params-5.11.3.jar:/home/exceptionfactory/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar:/home/exceptionfactory/.m2/repository/org/mockito/mockito-junit-jupiter/5.14.2/mockito-junit-jupiter-5.14.2.jar:/home/exceptionfactory/.m2/repository/org/junit/platform/junit-platform-commons/1.11.3/junit-platform-commons-1.11.3.jar:/home/exceptionfactory/.m2/repository/org/slf4j/slf4j-simple/2.0.16/slf4j-simple-2.0.16.jar:/home/exceptionfactory/releases/nifi-work/nifi/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/classes
+│ +/var/maven/app/nifi-framework-api/target/nifi-framework-api-2.0.0.jar:/var/maven/app/nifi-server-api/target/nifi-server-api-2.0.0.jar:/var/maven/.m2/repository-002/org/aspectj/aspectjrt/1.9.22.1/aspectjrt-1.9.22.1.jar:/var/maven/.m2/repository-002/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/toolchain/jetty-schemas/5.2/jetty-schemas-5.2.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-server/12.0.14/jetty-server-12.0.14.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-http/12.0.14/jetty-http-12.0.14.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-io/12.0.14/jetty-io-12.0.14.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.0.14/jetty-ee10-servlet-12.0.14.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-security/12.0.14/jetty-security-12.0.14.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-session/12.0.14/jetty-session-12.0.14.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/ee10/jetty-ee10-webapp/12.0.14/jetty-ee10-webapp-12.0.14.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-ee/12.0.14/jetty-ee-12.0.14.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-xml/12.0.14/jetty-xml-12.0.14.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-deploy/12.0.14/jetty-deploy-12.0.14.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/ee10/jetty-ee10-servlets/12.0.14/jetty-ee10-servlets-12.0.14.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-util/12.0.14/jetty-util-12.0.14.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/ee10/jetty-ee10-annotations/12.0.14/jetty-ee10-annotations-12.0.14.jar:/var/maven/.m2/repository-002/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/ee10/jetty-ee10-plus/12.0.14/jetty-ee10-plus-12.0.14.jar:/var/maven/.m2/repository-002/jakarta/enterprise/jakarta.enterprise.cdi-api/4.0.1/jakarta.enterprise.cdi-api-4.0.1.jar:/var/maven/.m2/repository-002/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/var/maven/.m2/repository-002/jakarta/enterprise/jakarta.enterprise.lang-model/4.0.1/jakarta.enterprise.lang-model-4.0.1.jar:/var/maven/.m2/repository-002/jakarta/interceptor/jakarta.interceptor-api/2.1.0/jakarta.interceptor-api-2.1.0.jar:/var/maven/.m2/repository-002/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-jndi/12.0.14/jetty-jndi-12.0.14.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-plus/12.0.14/jetty-plus-12.0.14.jar:/var/maven/.m2/repository-002/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar:/var/maven/.m2/repository-002/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar:/var/maven/.m2/repository-002/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/ee10/jetty-ee10-apache-jsp/12.0.14/jetty-ee10-apache-jsp-12.0.14.jar:/var/maven/.m2/repository-002/org/mortbay/jasper/apache-jsp/10.1.31/apache-jsp-10.1.31.jar:/var/maven/.m2/repository-002/org/mortbay/jasper/apache-el/10.1.31/apache-el-10.1.31.jar:/var/maven/.m2/repository-002/jakarta/el/jakarta.el-api/5.0.1/jakarta.el-api-5.0.1.jar:/var/maven/.m2/repository-002/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.1.1/jakarta.servlet.jsp-api-3.1.1.jar:/var/maven/.m2/repository-002/org/eclipse/jdt/ecj/3.38.0/ecj-3.38.0.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/ee10/jetty-ee10-glassfish-jstl/12.0.14/jetty-ee10-glassfish-jstl-12.0.14.jar:/var/maven/.m2/repository-002/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.0/jakarta.servlet.jsp.jstl-api-3.0.0.jar:/var/maven/.m2/repository-002/org/glassfish/web/jakarta.servlet.jsp.jstl/3.0.1/jakarta.servlet.jsp.jstl-3.0.1.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-alpn-server/12.0.14/jetty-alpn-server-12.0.14.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-alpn-java-server/12.0.14/jetty-alpn-java-server-12.0.14.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/http2/jetty-http2-server/12.0.14/jetty-http2-server-12.0.14.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/http2/jetty-http2-common/12.0.14/jetty-http2-common-12.0.14.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/http2/jetty-http2-hpack/12.0.14/jetty-http2-hpack-12.0.14.jar:/var/maven/.m2/repository-002/org/apache/nifi/nifi-api/2.0.0/nifi-api-2.0.0.jar:/var/maven/app/nifi-commons/nifi-properties/target/nifi-properties-2.0.0.jar:/var/maven/app/nifi-commons/nifi-property-utils/target/nifi-property-utils-2.0.0.jar:/var/maven/.m2/repository-002/org/slf4j/jcl-over-slf4j/2.0.16/jcl-over-slf4j-2.0.16.jar:/var/maven/.m2/repository-002/org/slf4j/log4j-over-slf4j/2.0.16/log4j-over-slf4j-2.0.16.jar:/var/maven/.m2/repository-002/org/slf4j/jul-to-slf4j/2.0.16/jul-to-slf4j-2.0.16.jar:/var/maven/.m2/repository-002/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/var/maven/app/nifi-mock/target/nifi-mock-2.0.0.jar:/var/maven/.m2/repository-002/org/junit/jupiter/junit-jupiter-api/5.11.3/junit-jupiter-api-5.11.3.jar:/var/maven/.m2/repository-002/org/junit/jupiter/junit-jupiter-engine/5.11.3/junit-jupiter-engine-5.11.3.jar:/var/maven/.m2/repository-002/org/junit/jupiter/junit-jupiter-params/5.11.3/junit-jupiter-params-5.11.3.jar:/var/maven/.m2/repository-002/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar:/var/maven/.m2/repository-002/org/mockito/mockito-junit-jupiter/5.14.2/mockito-junit-jupiter-5.14.2.jar:/var/maven/.m2/repository-002/org/junit/platform/junit-platform-commons/1.11.3/junit-platform-commons-1.11.3.jar:/var/maven/.m2/repository-002/org/slf4j/slf4j-simple/2.0.16/slf4j-simple-2.0.16.jar:/var/maven/app/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/classes
+│  -d
+│ -/home/exceptionfactory/releases/nifi-work/nifi/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/classes
+│ +/var/maven/app/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/classes
+│  -s
+│ -/home/exceptionfactory/releases/nifi-work/nifi/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/generated-sources/aspectj-maven-plugin
+│ -/home/exceptionfactory/releases/nifi-work/nifi/nifi-framework-bundle/nifi-framework/nifi-nar-utils/src/main/java/org/apache/nifi/nar/LoadNativeLibAspect.java
+│ +/var/maven/app/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/generated-sources/aspectj-maven-plugin
+│ +/var/maven/app/nifi-framework-bundle/nifi-framework/nifi-nar-utils/src/main/java/org/apache/nifi/nar/LoadNativeLibAspect.java
+
+# grep "^... META-INF/sun-jaxb.episode" content/org/apache/nifi/nifi/nifi-2.0.0.diffoscope | wc -l
+# 6
+2 / 76 target/reference/org.apache.nifi/nifi-authorizer-2.0.0.jar nifi-framework-bundle/nifi-framework/nifi-authorizer/target/nifi-authorizer-2.0.0.jar
+--- target/reference/org.apache.nifi/nifi-authorizer-2.0.0.jar
++++ nifi-framework-bundle/nifi-framework/nifi-authorizer/target/nifi-authorizer-2.0.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 44393 bytes, number of entries: 40
+│ +Zip file size: 44394 bytes, number of entries: 40
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 META-INF/
+│  -rw-r--r--  2.0 unx      304 b- defN 24-Oct-30 00:53 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 org/apache/nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 org/apache/nifi/authorization/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 org/apache/nifi/authorization/generated/
+│ @@ -35,8 +35,8 @@
+│  -rw-r--r--  2.0 unx     1737 b- defN 24-Oct-30 00:53 org/apache/nifi/authorization/generated/Authorizers.class
+│  -rw-r--r--  2.0 unx     1485 b- defN 24-Oct-30 00:53 org/apache/nifi/authorization/generated/ObjectFactory.class
+│  -rw-r--r--  2.0 unx     1325 b- defN 24-Oct-30 00:53 org/apache/nifi/authorization/generated/Property.class
+│  -rw-r--r--  2.0 unx     1571 b- defN 24-Oct-30 00:53 org/apache/nifi/authorization/generated/UserGroupProvider.class
+│  -rw-r--r--  2.0 unx     1530 b- defN 24-Oct-30 00:53 org/apache/nifi/framework/configuration/AuthorizerConfiguration.class
+│  -rw-r--r--  2.0 unx     5323 b- defN 24-Oct-30 00:53 META-INF/maven/org.apache.nifi/nifi-authorizer/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 24-Oct-30 00:53 META-INF/maven/org.apache.nifi/nifi-authorizer/pom.properties
+│ -40 files, 109331 bytes uncompressed, 37767 bytes compressed:  65.5%
+│ +40 files, 109331 bytes uncompressed, 37768 bytes compressed:  65.5%
+├── META-INF/sun-jaxb.episode
+│ ├── META-INF/sun-jaxb.episode
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <jaxb:bindings xmlns:jaxb="https://jakarta.ee/xml/ns/jaxb" if-exists="true" version="3.0">
+│ │    <!--
+│ │  
+│ │  This file was generated by the Eclipse Implementation of JAXB, v4.0.5 
+│ │  See https://eclipse-ee4j.github.io/jaxb-ri 
+│ │  Any modifications to this file will be lost upon recompilation of the source schema. 
+│ │ -Generated on: 2024.10.29 at 08:59:30 PM EDT
+│ │ +Generated on: 2024.11.25 at 07:16:59 AM UTC
+│ │    -->
+│ │    <jaxb:bindings auto-acknowledge="true" if-exists="true" scd="x-schema::">
+│ │      <jaxb:schemaBindings map="false">
+│ │        <jaxb:package name="org.apache.nifi.authorization.generated"/>
+│ │      </jaxb:schemaBindings>
+│ │      <jaxb:bindings auto-acknowledge="true" if-exists="true" scd="authorizers">
+│ │        <jaxb:class ref="org.apache.nifi.authorization.generated.Authorizers"/>
+
+# 3 to 7 are same JAXB issue as 2
+3 / 76 target/reference/org.apache.nifi/nifi-authorizer-2.0.0-sources.jar nifi-framework-bundle/nifi-framework/nifi-authorizer/target/nifi-authorizer-2.0.0-sources.jar
+
+8 / 76 target/reference/org.apache.nifi/nifi-web-api-2.0.0.war nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-api/target/nifi-web-api-2.0.0.war
+--- target/reference/org.apache.nifi/nifi-web-api-2.0.0.war
++++ nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-api/target/nifi-web-api-2.0.0.war
+├── docs/rest-api/swagger.json
+│ ├── Pretty-printed
+│ │┄ Ordering differences only
+│ │ @@ -26507,14 +26507,22 @@
+│ │                          "type": "string",
+│ │                          "description": "The maximum amount of time that the flow is allows to run using the Stateless engine before it times out and is considered a failure"
+│ │                      },
+│ │                      "logFileSuffix": {
+│ │                          "type": "string",
+│ │                          "description": "The log file suffix for this Process Group for dedicated logging."
+│ │                      },
+│ │ +                    "flowFileConcurrency": {
+│ │ +                        "type": "string",
+│ │ +                        "description": "The configured FlowFile Concurrency for the Process Group"
+│ │ +                    },
+│ │ +                    "flowFileOutboundPolicy": {
+│ │ +                        "type": "string",
+│ │ +                        "description": "The FlowFile Outbound Policy for the Process Group"
+│ │ +                    },
+│ │                      "componentType": {
+│ │                          "type": "string",
+│ │                          "enum": [
+│ │                              "CONNECTION",
+│ │                              "PROCESSOR",
+│ │                              "PROCESS_GROUP",
+│ │                              "REMOTE_PROCESS_GROUP",
+│ │ @@ -26528,22 +26536,14 @@
+│ │                              "REPORTING_TASK",
+│ │                              "FLOW_ANALYSIS_RULE",
+│ │                              "PARAMETER_CONTEXT",
+│ │                              "PARAMETER_PROVIDER",
+│ │                              "FLOW_REGISTRY_CLIENT"
+│ │                          ]
+│ │                      },
+│ │ -                    "flowFileConcurrency": {
+│ │ -                        "type": "string",
+│ │ -                        "description": "The configured FlowFile Concurrency for the Process Group"
+│ │ -                    },
+│ │ -                    "flowFileOutboundPolicy": {
+│ │ -                        "type": "string",
+│ │ -                        "description": "The FlowFile Outbound Policy for the Process Group"
+│ │ -                    },
+│ │                      "groupIdentifier": {
+│ │                          "type": "string",
+│ │                          "description": "The ID of the Process Group that this component belongs to"
+│ │                      }
+│ │                  }
+│ │              },
+│ │              "VersionedProcessor": {
+├── docs/rest-api/swagger.yaml
+│┄ Ordering differences only
+│ @@ -18794,14 +18794,20 @@
+│          statelessFlowTimeout:
+│            type: string
+│            description: The maximum amount of time that the flow is allows to run using
+│              the Stateless engine before it times out and is considered a failure
+│          logFileSuffix:
+│            type: string
+│            description: The log file suffix for this Process Group for dedicated logging.
+│ +        flowFileConcurrency:
+│ +          type: string
+│ +          description: The configured FlowFile Concurrency for the Process Group
+│ +        flowFileOutboundPolicy:
+│ +          type: string
+│ +          description: The FlowFile Outbound Policy for the Process Group
+│          componentType:
+│            type: string
+│            enum:
+│            - CONNECTION
+│            - PROCESSOR
+│            - PROCESS_GROUP
+│            - REMOTE_PROCESS_GROUP
+│ @@ -18813,20 +18819,14 @@
+│            - LABEL
+│            - CONTROLLER_SERVICE
+│            - REPORTING_TASK
+│            - FLOW_ANALYSIS_RULE
+│            - PARAMETER_CONTEXT
+│            - PARAMETER_PROVIDER
+│            - FLOW_REGISTRY_CLIENT
+│ -        flowFileConcurrency:
+│ -          type: string
+│ -          description: The configured FlowFile Concurrency for the Process Group
+│ -        flowFileOutboundPolicy:
+│ -          type: string
+│ -          description: The FlowFile Outbound Policy for the Process Group
+│          groupIdentifier:
+│            type: string
+│            description: The ID of the Process Group that this component belongs to
+│      VersionedProcessor:
+│        type: object
+│        properties:
+│          identifier:
+
+# grep "^... META-INF/MANIFEST.MF" content/org/apache/nifi/nifi/nifi-2.0.0.diffoscope | wc -l
+# 9
+# grep "^... META-INF/docs/extension-manifest.xml" content/org/apache/nifi/nifi/nifi-2.0.0.diffoscope | wc -l
+# 28
+9 / 76 target/reference/org.apache.nifi/nifi-jetty-nar-2.0.0.nar nifi-framework-bundle/nifi-jetty-nar/target/nifi-jetty-nar-2.0.0.nar
+--- target/reference/org.apache.nifi/nifi-jetty-nar-2.0.0.nar
++++ nifi-framework-bundle/nifi-jetty-nar/target/nifi-jetty-nar-2.0.0.nar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 12354075 bytes, number of entries: 56
+│ +Zip file size: 12354063 bytes, number of entries: 56
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 META-INF/
+│ --rw-r--r--  2.0 unx      320 b- defN 24-Oct-30 00:53 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx      313 b- defN 24-Oct-30 00:53 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 META-INF/bundled-dependencies/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 META-INF/docs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 META-INF/docs/additional-details/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 META-INF/maven/org.apache.nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 META-INF/maven/org.apache.nifi/nifi-jetty-nar/
+│  -rw-r--r--  2.0 unx    12578 b- defN 24-Oct-30 00:53 META-INF/DEPENDENCIES
+│ @@ -48,11 +48,11 @@
+│  -rw-r--r--  2.0 unx    44220 b- defN 24-Oct-30 00:53 META-INF/bundled-dependencies/jetty-rewrite-12.0.14.jar
+│  -rw-r--r--  2.0 unx   564365 b- defN 24-Oct-30 00:53 META-INF/bundled-dependencies/jetty-schemas-5.2.jar
+│  -rw-r--r--  2.0 unx   145304 b- defN 24-Oct-30 00:53 META-INF/bundled-dependencies/jetty-security-12.0.14.jar
+│  -rw-r--r--  2.0 unx   618841 b- defN 24-Oct-30 00:53 META-INF/bundled-dependencies/jetty-server-12.0.14.jar
+│  -rw-r--r--  2.0 unx   117241 b- defN 24-Oct-30 00:53 META-INF/bundled-dependencies/jetty-session-12.0.14.jar
+│  -rw-r--r--  2.0 unx   676595 b- defN 24-Oct-30 00:53 META-INF/bundled-dependencies/jetty-util-12.0.14.jar
+│  -rw-r--r--  2.0 unx    81417 b- defN 24-Oct-30 00:53 META-INF/bundled-dependencies/jetty-xml-12.0.14.jar
+│ --rw-r--r--  2.0 unx      300 b- defN 24-Oct-30 00:53 META-INF/docs/extension-manifest.xml
+│ +-rw-r--r--  2.0 unx      293 b- defN 24-Oct-30 00:53 META-INF/docs/extension-manifest.xml
+│  -rw-r--r--  2.0 unx     9412 b- defN 24-Oct-30 00:53 META-INF/maven/org.apache.nifi/nifi-jetty-nar/pom.xml
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Oct-30 00:53 META-INF/maven/org.apache.nifi/nifi-jetty-nar/pom.properties
+│ -56 files, 13432966 bytes uncompressed, 12344209 bytes compressed:  8.1%
+│ +56 files, 13432952 bytes uncompressed, 12344197 bytes compressed:  8.1%
+├── META-INF/MANIFEST.MF
+│ @@ -1,12 +1,12 @@
+│  Manifest-Version: 1.0
+│  Created-By: Apache NiFi Nar Maven Plugin 2.1.0
+│  Build-Jdk-Spec: 21
+│  Nar-Id: nifi-jetty-nar
+│  Nar-Group: org.apache.nifi
+│  Nar-Version: 2.0.0
+│  Build-Tag: HEAD
+│ -Build-Branch: NIFI-13915-RC2
+│ +Build-Branch: UNKNOWN
+│  Build-Revision: 2f13b60
+│  Build-Timestamp: 2024-10-30T00:53:37Z
+│  Clone-During-Instance-Class-Loading: false
+├── META-INF/docs/extension-manifest.xml
+│ ├── META-INF/docs/extension-manifest.xml
+│ │ @@ -2,12 +2,12 @@
+│ │  <extensionManifest>
+│ │    <groupId>org.apache.nifi</groupId>
+│ │    <artifactId>nifi-jetty-nar</artifactId>
+│ │    <version>2.0.0</version>
+│ │    <systemApiVersion>2.0.0</systemApiVersion>
+│ │    <buildInfo>
+│ │      <tag>HEAD</tag>
+│ │ -    <branch>NIFI-13915-RC2</branch>
+│ │ +    <branch>UNKNOWN</branch>
+│ │      <revision>2f13b60</revision>
+│ │    </buildInfo>
+│ │    <extensions/>
+│ │  </extensionManifest>
+
+10 / 76 target/reference/org.apache.nifi/nifi-jetty-nar-2.0.0-nar-extension-manifest.xml nifi-framework-bundle/nifi-jetty-nar/target/META-INF/docs/extension-manifest.xml
+--- target/reference/org.apache.nifi/nifi-jetty-nar-2.0.0-nar-extension-manifest.xml
++++ nifi-framework-bundle/nifi-jetty-nar/target/META-INF/docs/extension-manifest.xml
+│   --- target/reference/org.apache.nifi/nifi-jetty-nar-2.0.0-nar-extension-manifest.xml
+├── +++ nifi-framework-bundle/nifi-jetty-nar/target/META-INF/docs/extension-manifest.xml
+│ @@ -2,12 +2,12 @@
+│  <extensionManifest>
+│    <groupId>org.apache.nifi</groupId>
+│    <artifactId>nifi-jetty-nar</artifactId>
+│    <version>2.0.0</version>
+│    <systemApiVersion>2.0.0</systemApiVersion>
+│    <buildInfo>
+│      <tag>HEAD</tag>
+│ -    <branch>NIFI-13915-RC2</branch>
+│ +    <branch>UNKNOWN</branch>
+│      <revision>2f13b60</revision>
+│    </buildInfo>
+│    <extensions/>
+│  </extensionManifest>
+
+...
+
+76 / 76 target/reference/org.apache.nifi/nifi-runtime-manifest-2.0.0.jar nifi-manifest/nifi-runtime-manifest/target/nifi-runtime-manifest-2.0.0.jar
+--- target/reference/org.apache.nifi/nifi-runtime-manifest-2.0.0.jar
++++ nifi-manifest/nifi-runtime-manifest/target/nifi-runtime-manifest-2.0.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 799488 bytes, number of entries: 396
+│ +Zip file size: 800370 bytes, number of entries: 396
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 META-INF/
+│  -rw-r--r--  2.0 unx      316 b- defN 24-Oct-30 00:53 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 docs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 docs/org.apache.nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 docs/org.apache.nifi/nifi-airtable-nar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 docs/org.apache.nifi/nifi-airtable-nar/2.0.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 docs/org.apache.nifi/nifi-airtable-nar/2.0.0/org.apache.nifi.processors.airtable.QueryAirtableTable/
+│ @@ -237,15 +237,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 docs/org.apache.nifi/nifi-zendesk-services-nar/2.0.0/org.apache.nifi.services.zendesk.ZendeskRecordSink/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 META-INF/maven/org.apache.nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-30 00:53 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/
+│  -rw-r--r--  2.0 unx    45007 b- defN 24-Oct-30 00:53 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 24-Oct-30 00:53 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      160 b- defN 24-Oct-30 00:53 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx     1277 b- defN 24-Oct-30 00:53 build.properties
+│ +-rw-r--r--  2.0 unx     1185 b- defN 24-Oct-30 00:53 build.properties
+│  -rw-r--r--  2.0 unx     2361 b- defN 24-Oct-30 00:53 docs/org.apache.nifi/nifi-airtable-nar/2.0.0/org.apache.nifi.processors.airtable.QueryAirtableTable/additionalDetails.md
+│  -rw-r--r--  2.0 unx     3518 b- defN 24-Oct-30 00:53 docs/org.apache.nifi/nifi-amqp-nar/2.0.0/org.apache.nifi.amqp.processors.ConsumeAMQP/additionalDetails.md
+│  -rw-r--r--  2.0 unx     5807 b- defN 24-Oct-30 00:53 docs/org.apache.nifi/nifi-amqp-nar/2.0.0/org.apache.nifi.amqp.processors.PublishAMQP/additionalDetails.md
+│  -rw-r--r--  2.0 unx     4378 b- defN 24-Oct-30 00:53 docs/org.apache.nifi/nifi-asana-processors-nar/2.0.0/org.apache.nifi.processors.asana.GetAsanaObject/additionalDetails.md
+│  -rw-r--r--  2.0 unx     2155 b- defN 24-Oct-30 00:53 docs/org.apache.nifi/nifi-aws-nar/2.0.0/org.apache.nifi.parameter.aws.AwsSecretsManagerParameterProvider/additionalDetails.md
+│  -rw-r--r--  2.0 unx    10287 b- defN 24-Oct-30 00:53 docs/org.apache.nifi/nifi-aws-nar/2.0.0/org.apache.nifi.processors.aws.dynamodb.PutDynamoDBRecord/additionalDetails.md
+│  -rw-r--r--  2.0 unx     1995 b- defN 24-Oct-30 00:53 docs/org.apache.nifi/nifi-aws-nar/2.0.0/org.apache.nifi.processors.aws.kinesis.stream.ConsumeKinesisStream/additionalDetails.md
+│ @@ -388,11 +388,11 @@
+│  -rw-r--r--  2.0 unx    16031 b- defN 24-Oct-30 00:53 docs/org.apache.nifi/nifi-update-attribute-nar/2.0.0/org.apache.nifi.processors.attributes.UpdateAttribute/additionalDetails.md
+│  -rw-r--r--  2.0 unx     1996 b- defN 24-Oct-30 00:53 docs/org.apache.nifi/nifi-websocket-processors-nar/2.0.0/org.apache.nifi.processors.websocket.ConnectWebSocket/additionalDetails.md
+│  -rw-r--r--  2.0 unx     3221 b- defN 24-Oct-30 00:53 docs/org.apache.nifi/nifi-windows-event-log-nar/2.0.0/org.apache.nifi.processors.windows.event.log.ConsumeWindowsEventLog/additionalDetails.md
+│  -rw-r--r--  2.0 unx     2119 b- defN 24-Oct-30 00:53 docs/org.apache.nifi/nifi-workday-processors-nar/2.0.0/org.apache.nifi.processors.workday.GetWorkdayReport/additionalDetails.md
+│  -rw-r--r--  2.0 unx     2822 b- defN 24-Oct-30 00:53 docs/org.apache.nifi/nifi-zendesk-nar/2.0.0/org.apache.nifi.processors.zendesk.GetZendesk/additionalDetails.md
+│  -rw-r--r--  2.0 unx     4308 b- defN 24-Oct-30 00:53 docs/org.apache.nifi/nifi-zendesk-nar/2.0.0/org.apache.nifi.processors.zendesk.PutZendeskTicket/additionalDetails.md
+│  -rw-r--r--  2.0 unx     4373 b- defN 24-Oct-30 00:53 docs/org.apache.nifi/nifi-zendesk-services-nar/2.0.0/org.apache.nifi.services.zendesk.ZendeskRecordSink/additionalDetails.md
+│ --rw-r--r--  2.0 unx  4138195 b- defN 24-Oct-30 00:53 nifi-runtime-manifest.json
+│ +-rw-r--r--  2.0 unx  4138172 b- defN 24-Oct-30 00:53 nifi-runtime-manifest.json
+│  -rw-r--r--  2.0 unx     7838 b- defN 24-Oct-30 00:53 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/pom.xml
+│  -rw-r--r--  2.0 unx       71 b- defN 24-Oct-30 00:53 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/pom.properties
+│ -396 files, 4979209 bytes uncompressed, 694832 bytes compressed:  86.0%
+│ +396 files, 4979094 bytes uncompressed, 695714 bytes compressed:  86.0%
+├── build.properties
+│ @@ -12,18 +12,18 @@
+│  # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│  # See the License for the specific language governing permissions and
+│  # limitations under the License.
+│  
+│  Project-Version:2.0.0
+│  Build-Branch:UNKNOWN
+│  Build-Revision:2f13b60
+│ -Build-Timestamp:2024-11-04T14:09:54Z
+│ -Built-By:exceptionfactory
+│ -Maven-Home:/home/exceptionfactory/.m2/wrapper/dists/apache-maven-3.9.9/3477a4f1
+│ -Maven-Version:3.9.9
+│ -Created-By:Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+│ -Build-Java-Home:/home/exceptionfactory/.sdkman/candidates/java/21.0.5-zulu
+│ +Build-Timestamp:2024-11-25T07:31:48Z
+│ +Built-By:herve
+│ +Maven-Home:/usr/local/apache-maven
+│ +Maven-Version:3.9.8
+│ +Created-By:Apache Maven 3.9.8 (36645f6c9b5079805ea5009217e36f2cffd34256)
+│ +Build-Java-Home:/usr/lib/jvm/java-21-openjdk-amd64
+│  Build-Jdk:21.0.5
+│ -Build-Jdk-Vendor:Azul Systems, Inc.
+│ +Build-Jdk-Vendor:Ubuntu
+│  Build-Arch:amd64
+│  Build-Os:Linux
+│ -Build-Os-Version:6.8.0-47-generic
+│ +Build-Os-Version:6.8.0-49-generic
+├── nifi-runtime-manifest.json
+│ ├── Pretty-printed
+│ │┄ Similarity: 0.9673273104674571%
+│ │┄ Differences: {"'buildInfo'": "{'timestamp': 1732519908240, 'compiler': 'Ubuntu 21.0.5'}",
+│ │┄  "'bundles'": "{0: {'artifact': 'nifi-smb-smbj-client-nar', 'componentManifest': "
+│ │┄               "{'controllerServices': {0: {'artifact': 'nifi-smb-smbj-client-nar', 'type': "
+│ │┄               "'org.apache.nifi.services.smb.SmbjClientProviderService', 'typeDescription': "
+│ │┄               "'Provides access to SMB Sessions with shared authentication credentials.', "
+│ │┄               "'providedApiImplementations': {0: {'artifact': 'nifi-smb-c […]
+│ │ @@ -1,17 +1,714 @@
+│ │  {
+│ │      "agentType": "nifi",
+│ │      "buildInfo": {
+│ │ -        "compiler": "Azul Systems, Inc. 21.0.5",
+│ │ +        "compiler": "Ubuntu 21.0.5",
+│ │          "revision": "2f13b60",
+│ │ -        "timestamp": 1730729394556,
+│ │ +        "timestamp": 1732519908240,
+│ │          "version": "2.0.0"
+│ │      },
+│ │      "bundles": [
+│ │          {
+│ │ +            "artifact": "nifi-smb-smbj-client-nar",
+│ │ +            "componentManifest": {
+│ │ +                "controllerServices": [
+│ │ +                    {
+│ │ +                        "additionalDetails": false,
+│ │ +                        "artifact": "nifi-smb-smbj-client-nar",
+│ │ +                        "buildInfo": {
+│ │ +                            "revision": "2f13b60"
+│ │ +                        },
+...
+│ │ +            },
+│ │ +            "group": "org.apache.nifi",
+│ │ +            "version": "2.0.0"
+│ │ +        },
+│ │ +        {
+│ │              "artifact": "nifi-hashicorp-vault-nar",
+│ │              "componentManifest": {
+│ │                  "controllerServices": [
+│ │                      {
+│ │                          "additionalDetails": true,
+│ │                          "artifact": "nifi-hashicorp-vault-nar",
+│ │                          "buildInfo": {
+│ │ @@ -311,1063 +1008,1730 @@
+│ │                  "processors": [],
+│ │                  "reportingTasks": []
+│ │              },
+│ │              "group": "org.apache.nifi",
+│ │              "version": "2.0.0"
+│ │          },
+│ │          {
+│ │ -            "artifact": "nifi-elasticsearch-client-service-api-nar",
+│ │ -            "componentManifest": {
+│ │ -                "controllerServices": [],
+│ │ -                "flowAnalysisRules": [],
+│ │ -                "parameterProviders": [],
+│ │ -                "processors": [],
+│ │ -                "reportingTasks": []
+...
