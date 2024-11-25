@@ -1,0 +1,3 @@
+sasquatch-1.1.0.buildspec
+sasquatch-parent-1.1.0.buildinfo
+sasquatch-parent-1.1.0.buildcompare

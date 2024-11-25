@@ -1,0 +1,3 @@
+java-console-properties-1.4.1.buildspec
+java-console-properties-1.4.1.buildinfo
+java-console-properties-1.4.1.buildcompare

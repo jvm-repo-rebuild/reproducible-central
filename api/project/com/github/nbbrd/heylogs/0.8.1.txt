@@ -1,0 +1,3 @@
+heylogs-0.8.1.buildspec
+heylogs-parent-0.8.1.buildinfo
+heylogs-parent-0.8.1.buildcompare
