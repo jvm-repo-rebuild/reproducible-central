@@ -1,0 +1,18 @@
+groupId=com.github.nbbrd.java-console-properties
+artifactId=java-console-properties
+display=${groupId}:${artifactId}
+version=1.4.1
+
+gitRepo=https://github.com/nbbrd/java-console-properties.git
+gitTag=v${version}
+
+tool=mvn
+jdk=21
+newline=lf
+#umask=022
+
+command="mvn -Pbase-deploy clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
