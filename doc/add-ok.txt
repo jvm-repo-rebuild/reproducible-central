@@ -1,3 +1,4 @@
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-14.buildspec:11.1.1-beta-15
-content/io/cucumber/junit-xml-formatter/junit-xml-formatter-0.6.0.buildspec:0.7.1
-content/org/jpmml/jpmml-evaluator/jpmml-evaluator-1.6.6.buildspec:1.6.7
+content/net/osslabz/crypto-commons/crypto-commons-0.4.1.buildspec:0.5.0
+content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-7.2.1.Final.buildspec:7.2.2.Final
+content/org/jpmml/jpmml-converter/jpmml-converter-1.5.8.buildspec:1.5.9
+content/uk/org/okapibarcode/okapibarcode/okapibarcode-0.4.8.buildspec:0.4.9
