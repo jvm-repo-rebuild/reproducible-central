@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=java-console-properties
+group-id=com.github.nbbrd.java-console-properties
+artifact-id=java-console-properties
+version=1.4.1
+
+# source information
+source.scm.uri=scm:git:git://github.com/nbbrd/java-console-properties.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.github.nbbrd.java-console-properties
+outputs.0.filename=java-console-properties-1.4.1.pom
+outputs.0.length=34322
+outputs.0.checksums.sha512=1e61c3a8e78ee3ac507453bcb07682e4d8c4ace038f6210a5db672de84b0098267b5f9d6155897c7a5771d9466a8f655ae11c74f30362c5d4f4fc74eb52c4045
+
+outputs.1.groupId=com.github.nbbrd.java-console-properties
+outputs.1.filename=java-console-properties-1.4.1.jar
+outputs.1.length=118992
+outputs.1.checksums.sha512=13e9e8126c77162e351053a3c75a55e892153f719c7d8b52ec8a6c09cefe12ba4c52bc8a9fd63e711ad60b2e6b614412859b1ee49616c6198e7d9b015d5aa1ab
+
+outputs.2.groupId=com.github.nbbrd.java-console-properties
+outputs.2.filename=java-console-properties-1.4.1-sources.jar
+outputs.2.length=55163
+outputs.2.checksums.sha512=8a960b93fb72a189415968c7f928f85d621f38c2e68df281661ea9f78af14b4106ede48dd789302bc467f4c8b2c202c3fc3a0d0f954ce0a62181e89f254ad4be

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.nbbrd.java-console-properties</groupId>
+  <artifactId>java-console-properties</artifactId>
+  <versioning>
+    <latest>1.4.1</latest>
+    <release>1.4.1</release>
+    <versions>
+      <version>1.3.2</version>
+      <version>1.3.3</version>
+      <version>1.3.4</version>
+      <version>1.4.0</version>
+      <version>1.4.1</version>
+    </versions>
+    <lastUpdated>20240417082918</lastUpdated>
+  </versioning>
+</metadata>
