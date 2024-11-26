@@ -1,4 +1,4 @@
-groupId=io.yupiik
+groupId=io.yupiik.fusion
 artifactId=fusion
 display=${groupId}:${artifactId}
 version=1.0.21
