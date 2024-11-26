@@ -1012,9 +1012,9 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **13 releases** of io.quarkus:quarkus-project:
+rebuilding **14 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 14 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -1029,7 +1029,7 @@ rebuilding **13 releases** of io.quarkus:quarkus-project:
 | [3.15.2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.15.2/pom) | [mvn jdk17](quarkus-3.15.2.buildspec) | [result](quarkus-project-3.15.2.buildinfo): [2344 :white_check_mark:  7 :warning:](quarkus-project-3.15.2.buildcompare) | 129M |
 | [3.15.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.15.1/pom) | [mvn jdk17](quarkus-3.15.1.buildspec) | [result](quarkus-project-3.15.1.buildinfo): [2340 :white_check_mark:  11 :warning:](quarkus-project-3.15.1.buildcompare) | 129M |
 | [3.15.0](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.15.0/pom) | [mvn jdk17](quarkus-3.15.0.buildspec) | [result](quarkus-project-3.15.0.buildinfo): [2339 :white_check_mark:  12 :warning:](quarkus-project-3.15.0.buildcompare) | 129M |
-| [3.15.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.15.0.CR1/pom) | | | |
+| [3.15.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.15.0.CR1/pom) | [mvn jdk17](quarkus-3.15.0.CR1.buildspec) | [result](quarkus-project-3.15.0.CR1.buildinfo): [2339 :white_check_mark:  12 :warning:](quarkus-project-3.15.0.CR1.buildcompare) | 129M |
 | [3.14.4](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.14.4/pom) | [mvn jdk17.0.12](quarkus-3.14.4.buildspec) | [result](quarkus-project-3.14.4.buildinfo): [2339 :white_check_mark:  14 :warning:](quarkus-project-3.14.4.buildcompare) [:mag:](quarkus-project-3.14.4.diffoscope) | 183M |
 | [3.14.3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.14.3/pom) | [mvn jdk17](quarkus-3.14.3.buildspec) | [result](quarkus-project-3.14.3.buildinfo): [2339 :white_check_mark:  12 :warning:](quarkus-project-3.14.3.buildcompare) | 129M |
 
