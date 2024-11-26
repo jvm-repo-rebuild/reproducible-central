@@ -141,7 +141,7 @@ rebuilding **4 releases** of org.apache.pulsar:pulsar:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [4.0.0-preview.1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.0-preview.1/pom) | | | |
-| [4.0.0](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.0/pom) | [mvn jdk21](pulsar-4.0.0.buildspec) | [result](pulsar-4.0.0.buildinfo): [288 :white_check_mark:  35 :warning:](pulsar-4.0.0.buildcompare) [:mag:](pulsar-4.0.0.diffoscope) [:memo:](https://github.com/apache/pulsar/pull/23639) | 3.4G |
+| [4.0.0](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.0/pom) | [mvn jdk21](pulsar-4.0.0.buildspec) | [result](pulsar-4.0.0.buildinfo): [287 :white_check_mark:  36 :warning:](pulsar-4.0.0.buildcompare) [:mag:](pulsar-4.0.0.diffoscope) [:memo:](https://github.com/apache/pulsar/pull/23639) | 3.4G |
 | [3.3.2](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.3.2/pom) | | | |
 | [3.3.1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.3.1/pom) | [mvn jdk17](pulsar-3.3.1.buildspec) | [result](pulsar-3.3.1.buildinfo): [297 :white_check_mark:  36 :warning:](pulsar-3.3.1.buildcompare) | 3.2G |
 | [3.3.0](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.3.0/pom) | | | |
