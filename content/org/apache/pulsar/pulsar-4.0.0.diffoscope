@@ -1,0 +1,146 @@
+# notice: apache-pulsar-4.0.0-src.tar.gz seems to be the official source release, -source-release.zip should probably be simply not built and even less deployed to Maven Central
+1 / 35 target/reference/org.apache.pulsar/pulsar-4.0.0-source-release.zip target/pulsar-source-release.zip
+--- target/reference/org.apache.pulsar/pulsar-4.0.0-source-release.zip
++++ target/pulsar-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 11554189 bytes, number of entries: 7625
+│ +Zip file size: 11319955 bytes, number of entries: 7473
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 pulsar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 pulsar/.github/
+│ @@ -484,16 +484,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/api/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/avro/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/avro/generated/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/examples/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/impl/
+│ @@ -1027,15 +1025,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 pulsar/pulsar-functions/worker/src/test/java/org/apache/pulsar/functions/worker/rest/api/v3/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 pulsar/pulsar-functions/worker/src/test/java/org/apache/pulsar/functions/worker/scheduler/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 pulsar/pulsar-functions/worker/src/test/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 pulsar/pulsar-io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 pulsar/pulsar-io/aerospike/
+│ @@ -2315,38 +2312,33 @@
+│  -rw-r--r--  2.0 unx    11702 b- defN 24-Oct-14 14:03 pulsar/bouncy-castle/bc/LICENSE
+│  -rw-r--r--  2.0 unx     2933 b- defN 24-Oct-14 14:03 pulsar/bouncy-castle/bc/pom.xml
+│ --rw-r--r--  2.0 unx     2942 b- defN 24-Oct-14 14:03 pulsar/bouncy-castle/bc/pom.xml.versionsBackup
+│  -rw-r--r--  2.0 unx     1606 b- defN 24-Oct-14 14:03 pulsar/bouncy-castle/bc/src/main/java/org/apache/pulsar/bcloader/BouncyCastleLoader.java
+│  -rw-r--r--  2.0 unx      898 b- defN 24-Oct-14 14:03 pulsar/bouncy-castle/bc/src/main/java/org/apache/pulsar/bcloader/package-info.java
+│  -rw-r--r--  2.0 unx      918 b- defN 24-Oct-14 14:03 pulsar/bouncy-castle/bc/src/main/resources/META-INF/services/bouncy-castle.yaml
+│  -rw-r--r--  2.0 unx    11690 b- defN 24-Oct-14 14:03 pulsar/bouncy-castle/bcfips/LICENSE
+│  -rw-r--r--  2.0 unx     2582 b- defN 24-Oct-14 14:03 pulsar/bouncy-castle/bcfips/pom.xml
+│ --rw-r--r--  2.0 unx     2591 b- defN 24-Oct-14 14:03 pulsar/bouncy-castle/bcfips/pom.xml.versionsBackup
+│  -rw-r--r--  2.0 unx     1667 b- defN 24-Oct-14 14:03 pulsar/bouncy-castle/bcfips/src/main/java/org/apache/pulsar/bcloader/BouncyCastleFipsLoader.java
+...
+│  -rw-r--r--  2.0 unx     1702 b- defN 24-Oct-14 14:03 pulsar/tiered-storage/jcloud/src/test/resources/log4j2-test.yml
+│  -rw-r--r--  2.0 unx     1547 b- defN 24-Oct-14 14:03 pulsar/tiered-storage/pom.xml
+│ --rw-r--r--  2.0 unx     1556 b- defN 24-Oct-14 14:03 pulsar/tiered-storage/pom.xml.versionsBackup
+│  -rw-r--r--  2.0 unx     1924 b- defN 24-Oct-14 14:03 pulsar/wireshark/README.md
+│  -rw-r--r--  2.0 unx     3216 b- defN 24-Oct-14 14:03 pulsar/wireshark/pulsar.lua
+│  -rw-r--r--  2.0 unx      256 b- defN 24-Oct-14 14:03 pulsar/DEPENDENCIES
+│ -7625 files, 42909723 bytes uncompressed, 9745723 bytes compressed:  77.3%
+│ +7473 files, 42005553 bytes uncompressed, 9539339 bytes compressed:  77.3%
+├── pulsar/.mvn/.develocity/develocity-workspace-id
+│ @@ -1 +1 @@
+│ -sy27cg3pg5f3ffv6yovr3rnrhe
+│ +janmj5zonffrfb7dks3uadixda
+
+2 / 35 target/reference/org.apache.pulsar/pulsar-common-4.0.0.jar pulsar-common/target/pulsar-common.jar
+--- target/reference/org.apache.pulsar/pulsar-common-4.0.0.jar
++++ pulsar-common/target/pulsar-common.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1031636 bytes, number of entries: 530
+│ +Zip file size: 1031597 bytes, number of entries: 530
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 META-INF/
+│  -rw-r--r--  2.0 unx      314 b- defN 24-Oct-14 14:03 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 io/
+│ @@ -57,15 +57,15 @@
+│  -rw-r--r--  2.0 unx      635 b- defN 24-Oct-14 14:03 io/airlift/compress/zstd/ZStdRawDecompressor.class
+│  -rw-r--r--  2.0 unx      130 b- defN 24-Oct-14 14:03 io/airlift/compress/zstd/package-info.class
+│ --rw-r--r--  2.0 unx     2730 b- defN 24-Oct-14 14:03 org/apache/pulsar/PulsarVersion.class
+│ +-rw-r--r--  2.0 unx     2672 b- defN 24-Oct-14 14:03 org/apache/pulsar/PulsarVersion.class
+│  -rw-r--r--  2.0 unx     3463 b- defN 24-Oct-14 14:03 org/apache/pulsar/client/admin/internal/data/AuthPoliciesImpl$AuthPoliciesImplBuilder.class
+│  -rw-r--r--  2.0 unx     5147 b- defN 24-Oct-14 14:03 org/apache/pulsar/client/admin/internal/data/AuthPoliciesImpl.class
+│ @@ -525,8 +525,8 @@
+│  -rw-r--r--  2.0 unx    12360 b- defN 24-Oct-14 14:03 META-INF/maven/org.apache.pulsar/pulsar-common/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 24-Oct-14 14:03 META-INF/maven/org.apache.pulsar/pulsar-common/pom.properties
+│ -530 files, 2327085 bytes uncompressed, 928060 bytes compressed:  60.1%
+│ +530 files, 2327027 bytes uncompressed, 928021 bytes compressed:  60.1%
+
+3 / 35 target/reference/org.apache.pulsar/pulsar-common-4.0.0-sources.jar pulsar-common/target/pulsar-common-sources.jar
+--- target/reference/org.apache.pulsar/pulsar-common-4.0.0-sources.jar
++++ pulsar-common/target/pulsar-common-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 606421 bytes, number of entries: 402
+│ +Zip file size: 606398 bytes, number of entries: 402
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Oct-14 14:03 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 META-INF/
+│ @@ -397,8 +397,8 @@
+│  -rw-r--r--  2.0 unx    12360 b- defN 24-Oct-14 14:03 META-INF/maven/org.apache.pulsar/pulsar-common/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 24-Oct-14 14:03 META-INF/maven/org.apache.pulsar/pulsar-common/pom.properties
+│ -402 files, 2254072 bytes uncompressed, 532431 bytes compressed:  76.4%
+│ +402 files, 2254072 bytes uncompressed, 532408 bytes compressed:  76.4%
+├── org/apache/pulsar/PulsarVersion.java
+│ @@ -79,24 +79,24 @@
+│              return commit + "(dirty)";
+│          } else {
+│              return commit;
+│          }
+│      }
+│  
+│      public static String getGitBranch() {
+│ -        return "branch-4.0";
+│ +        return "92448d5f3113d783d41de6bae718d34cd73ca934";
+│      }
+│  
+│      public static String getBuildUser() {
+│ -        String email = "lhotari@apache.org";
+│ -        String name = "Lari Hotari";
+│ +        String email = "";
+│ +        String name = "";
+│          return String.format("%s <%s>", name, email);
+│      }
+│  
+│      public static String getBuildHost() {
+│ -        return "Laris-MBP.lan";
+│ +        return "21f5df73f047";
+│      }
+│  
+│      public static String getBuildTime() {
+│ -        return "2024-10-14T17:03:04+0300";
+│ +        return "2024-10-14T14:03:04+0000";
+│      }
+│  }
+
+4 / 35 target/reference/org.apache.pulsar/jetcd-core-shaded-4.0.0.jar jetcd-core-shaded/target/jetcd-core-shaded.jar
+--- target/reference/org.apache.pulsar/jetcd-core-shaded-4.0.0.jar
++++ jetcd-core-shaded/target/jetcd-core-shaded.jar
+├── zipinfo {}
+│ @@ -1,1745 +1,12 @@
+│ -Zip file size: 3221364 bytes, number of entries: 1743
+│ +Zip file size: 8961 bytes, number of entries: 10
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 META-INF/
+│  -rw-r--r--  2.0 unx      356 b- defN 24-Oct-14 14:03 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 META-INF/maven/io.vertx/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 META-INF/maven/io.vertx/vertx-core/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 META-INF/maven/io.vertx/vertx-grpc/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 META-INF/maven/org.apache.pulsar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 META-INF/maven/org.apache.pulsar/jetcd-core-shaded/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 META-INF/services/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 META-INF/versions/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 META-INF/versions/11/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 14:03 META-INF/versions/11/org/
+...
+│ --rw-r--r--  2.0 unx     7048 b- defN 24-Oct-14 14:03 org/apache/pulsar/jetcd/shaded/io/vertx/grpc/stub/ServerCalls.class
+│ --rw-r--r--  2.0 unx     3641 b- defN 24-Oct-14 14:03 org/apache/pulsar/jetcd/shaded/io/vertx/grpc/stub/StreamObserverReadStream.class
+│ --rw-r--r--  2.0 unx    29855 b- defN 24-Oct-14 14:03 rpc.proto
+│ -1743 files, 9150212 bytes uncompressed, 2873368 bytes compressed:  68.6%
+│ +10 files, 26591 bytes uncompressed, 7573 bytes compressed:  71.5%
+├── META-INF/maven/org.apache.pulsar/jetcd-core-shaded/pom.xml
+│ ├── META-INF/maven/org.apache.pulsar/jetcd-core-shaded/pom.xml
+
+...
