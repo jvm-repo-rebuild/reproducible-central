@@ -1,0 +1,21 @@
+1 / 1 target/reference/com.github.nbbrd.java-sql-util/java-sql-lhod-1.0.6-sources.jar java-sql-lhod/target/java-sql-lhod-1.0.6-sources.jar
+--- target/reference/com.github.nbbrd.java-sql-util/java-sql-lhod-1.0.6-sources.jar
++++ java-sql-lhod/target/java-sql-lhod-1.0.6-sources.jar
+├── zipinfo {}
+│ @@ -38,15 +38,15 @@
+│  -rw-r--r--  2.0 unx     2415 b- defN 24-Jun-27 09:31 internal/sql/lhod/ps/PsExecutor.java
+│  -rw-r--r--  2.0 unx     1397 b- defN 24-Jun-27 09:31 internal/sql/lhod/vbs/VbsEngine.java
+│  -rw-r--r--  2.0 unx     2400 b- defN 24-Jun-27 09:31 internal/sql/lhod/vbs/VbsExecutor.java
+│  -rw-r--r--  2.0 unx     2725 b- defN 24-Jun-27 09:31 internal/sys/CachedResourceExtractor.java
+│  -rw-r--r--  2.0 unx     2538 b- defN 24-Jun-27 09:31 internal/sys/DefaultResourceExtractor.java
+│  -rw-r--r--  2.0 unx      953 b- defN 24-Jun-27 09:31 internal/sys/ResourceExtractor.java
+│  -rw-r--r--  2.0 unx     1167 b- defN 24-Jun-27 09:31 module-info.java
+│ --rw-------  2.0 unx    57612 b- defN 24-Jun-27 09:31 internal/nbbrd/picocsv/Csv.java
+│ +-rw-r--r--  2.0 unx    57612 b- defN 24-Jun-27 09:31 internal/nbbrd/picocsv/Csv.java
+│  -rw-r--r--  2.0 unx     4533 b- defN 24-Jun-27 09:31 internal/sql/lhod/ps/DbProperties.ps1
+│  -rw-r--r--  2.0 unx     4869 b- defN 24-Jun-27 09:31 internal/sql/lhod/ps/OpenSchema.ps1
+│  -rw-r--r--  2.0 unx     4994 b- defN 24-Jun-27 09:31 internal/sql/lhod/ps/PreparedStatement.ps1
+│  -rw-r--r--  2.0 unx     4701 b- defN 24-Jun-27 09:31 internal/sql/lhod/vbs/DbProperties.vbs
+│  -rw-r--r--  2.0 unx     5081 b- defN 24-Jun-27 09:31 internal/sql/lhod/vbs/OpenSchema.vbs
+│  -rw-r--r--  2.0 unx     4668 b- defN 24-Jun-27 09:31 internal/sql/lhod/vbs/PreparedStatement.vbs
+│  -rw-r--r--  2.0 unx     7019 b- defN 24-Jun-27 09:31 META-INF/maven/com.github.nbbrd.java-sql-util/java-sql-lhod/pom.xml
