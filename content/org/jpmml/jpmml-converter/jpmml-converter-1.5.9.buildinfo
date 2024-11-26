@@ -1,0 +1,64 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-Converter
+group-id=org.jpmml
+artifact-id=jpmml-converter
+version=1.5.9
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-converter.git
+source.scm.tag=1.5.9
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=pmml-converter-testing
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-converter
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-converter-1.5.9.pom
+outputs.0.0.length=6188
+outputs.0.0.checksums.sha512=68c1795e43b1584dbf93ff78f11031e7186b79b188b9728f04d69510c89eb03379ae8998cbcfdcf548c0e0ddcdbe687b74538a9310ee18031a24e0e80413795b
+
+outputs.1.coordinates=org.jpmml:pmml-converter
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-converter-1.5.9.pom
+outputs.1.0.length=2180
+outputs.1.0.checksums.sha512=dddb66da5547becebe7d9cd39e9af92aacda508990d23ead4be8d15f78dd89b0ec548594f897e4240b8c530311f30453076f1c751c6241dfff6b549fc8e100d2
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-converter-1.5.9.jar
+outputs.1.1.length=203514
+outputs.1.1.checksums.sha512=48ec8540358f5ddc4efbda20cc77b6898729730b769fdd74618d2e6ccf61b45ab86c83a4d483d206ef5c8f7778e9bc88d46db20c4d9b65019195f39ad46346db
+
+outputs.1.2.groupId=org.jpmml
+outputs.1.2.filename=pmml-converter-1.5.9-sources.jar
+outputs.1.2.length=129815
+outputs.1.2.checksums.sha512=3061be6978845afa999e3ab1af9d236e7430aba813150e8e94dc88446a3487b8cc39802ffed0d08707263cc58a7f4ed9cfcec7b8ab67d0fb74a8ccf7e35722fe
+
+outputs.2.coordinates=org.jpmml:pmml-converter-testing
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-converter-testing-1.5.9.pom
+outputs.2.0.length=1339
+outputs.2.0.checksums.sha512=8869d53f690d2fe7378b2b40e19eeb4b3e3e396ba95748c0420988a76481354c2160725918e25231b9f5a40c52a6c4c80addd933081cb29ef0f6bd0735bb8154
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-converter-testing-1.5.9.jar
+outputs.2.1.length=8307
+outputs.2.1.checksums.sha512=3159053b3a8abe041c99aeb741d52c9536c75940354a1d142e9064a90c4e2b890d0177c285164d918b37cf1ccb5d099388b4982e0de2abf27adffa2e8cc27774
+
+outputs.2.2.groupId=org.jpmml
+outputs.2.2.filename=pmml-converter-testing-1.5.9-sources.jar
+outputs.2.2.length=7428
+outputs.2.2.checksums.sha512=e3c39a7a945cdb6453ab9f873b6a2b35dca095e806a407360a511e4b83c86b080301aa204bfa942c76efca9cd8528af29321f951d4a7cfe9a30146269bf039a0
