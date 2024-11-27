@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=makeself-maven-plugin
+group-id=com.github.hazendaz.maven
+artifact-id=makeself-maven-plugin
+version=1.8.4
+
+# source information
+source.scm.uri=scm:git:ssh://github.com/hazendaz/makeself-maven-plugin.git
+source.scm.tag=makeself-maven-plugin-1.8.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=23
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.github.hazendaz.maven
+outputs.0.filename=makeself-maven-plugin-1.8.4.pom
+outputs.0.length=16534
+outputs.0.checksums.sha512=3169105ab51f315afb56c67a7e7cf17360e15c76af6300201fb287c496769ba533425923f6d6a3f595dfd611df33c3d05cc40845930d67715e1555d99e3a9472
+
+outputs.1.groupId=com.github.hazendaz.maven
+outputs.1.filename=makeself-maven-plugin-1.8.4.jar
+outputs.1.length=47704
+outputs.1.checksums.sha512=5b2703a4b67012dc6651690ae2f7aeec21c1cc75d4c43b6c33680f93df6817e1599d59d5d237ea095f374d3b873f8aca47cb99ddf7298344d29401e6d7ed486f
+
+outputs.2.groupId=com.github.hazendaz.maven
+outputs.2.filename=makeself-maven-plugin-1.8.4-tests.jar
+outputs.2.length=5882
+outputs.2.checksums.sha512=ff0c482796c6cd6ddd4e5a12b7c3398898c6c89e960a6e6e2dcc29e7e3faf1c301a8e25321e5ee5cdd563b1c6731f47702c7e5aa95bf67417e14e01607bd3eb6
+
+outputs.3.groupId=com.github.hazendaz.maven
+outputs.3.filename=makeself-maven-plugin-1.8.4-sources.jar
+outputs.3.length=23319
+outputs.3.checksums.sha512=e6b0cd8da0bb44b383655198e4d7ae304d263299014c052b1a8e08892fa7b10312d80a0b6fbbb4fe8e92278cde8d1810ace458749c98b171ab567ab6decb5ad6
+
+outputs.4.groupId=com.github.hazendaz.maven
+outputs.4.filename=makeself-maven-plugin-1.8.4-test-sources.jar
+outputs.4.length=5916
+outputs.4.checksums.sha512=3fcd98117c519b87c5ef1c40f4d62acdb5a8547d68d9c6a68004b2e27eca034e71e573ff304933b9ff081649d1e1bdbacd4526cb2ac438cd969c16dd2b17d589
+
+outputs.5.groupId=com.github.hazendaz.maven
+outputs.5.filename=makeself-maven-plugin-1.8.4-cyclonedx.xml
+outputs.5.length=124543
+outputs.5.checksums.sha512=c1e5837c5f8f152535fee880a5d441c61e2d1c1b9064726c6164d9cf9e1c018efc0d1da908f5dca27540f0af0bcaaf2b65317773e50c0a681f329435150525c5
+
+outputs.6.groupId=com.github.hazendaz.maven
+outputs.6.filename=makeself-maven-plugin-1.8.4-cyclonedx.json
+outputs.6.length=137142
+outputs.6.checksums.sha512=a6d72c69ab58716e74db5dcaf00fbf2aad7ac1c80817e1e759801528c6677d564006921b9bb0510c39189709d57b1e0d140390226b1857e81a4e8630d6642be9
