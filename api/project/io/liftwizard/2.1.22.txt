@@ -1,0 +1,3 @@
+liftwizard-2.1.22.buildspec
+liftwizard-2.1.22.buildinfo
+liftwizard-2.1.22.buildcompare
