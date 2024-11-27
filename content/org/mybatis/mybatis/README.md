@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/mybatis/mybatis-3.git](https://github.com/mybatis/mybatis-3.git)
 
-rebuilding **6 releases** of org.mybatis:mybatis:
+rebuilding **7 releases** of org.mybatis:mybatis:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.5.17](https://central.sonatype.com/artifact/org.mybatis/mybatis/3.5.17/pom) | | | |
+| [3.5.17](https://central.sonatype.com/artifact/org.mybatis/mybatis/3.5.17/pom) | [mvn jdk17](mybatis-3.5.17.buildspec) | [result](mybatis-3.5.17.buildinfo): [1 :white_check_mark:  2 :warning:](mybatis-3.5.17.buildcompare) | 3.1M |
 | [3.5.16](https://central.sonatype.com/artifact/org.mybatis/mybatis/3.5.16/pom) | [mvn jdk22](mybatis-3.5.16.buildspec) | [result](mybatis-3.5.16.buildinfo): [1 :white_check_mark:  2 :warning:](mybatis-3.5.16.buildcompare) [:mag:](mybatis-3.5.16.diffoscope) | 3.1M |
 | [3.5.15](https://central.sonatype.com/artifact/org.mybatis/mybatis/3.5.15/pom) | [mvn jdk11 w](mybatis-3.5.15.buildspec) | [result](mybatis-3.5.15.buildinfo): [3 :white_check_mark: ](mybatis-3.5.15.buildcompare) | 2.3M |
 | [3.5.14](https://central.sonatype.com/artifact/org.mybatis/mybatis/3.5.14/pom) | [mvn jdk11](mybatis-3.5.14.buildspec) | [result](mybatis-3.5.14.buildinfo): [3 :white_check_mark: ](mybatis-3.5.14.buildcompare) | 2.2M |
