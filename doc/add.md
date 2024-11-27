@@ -4,10 +4,13 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241126161158 --> [liftwizard](../content/io/liftwizard/README.md) | [2.1.21](../content/io/liftwizard/liftwizard-2.1.21.buildspec) :white_check_mark: | [2.1.22](../content/io/liftwizard/liftwizard-2.1.22.buildspec) | `bin/add-new-release.sh content/io/liftwizard/liftwizard-2.1.21.buildspec 2.1.22` |
-| <!-- 20241126150109 --> [org.apache.sling.engine](../content/org/apache/sling/org.apache.sling.engine/README.md) | [2.15.18](../content/org/apache/sling/org.apache.sling.engine/org.apache.sling.engine-2.15.18.buildspec) :white_check_mark: | [2.16.0](../content/org/apache/sling/org.apache.sling.engine/org.apache.sling.engine-2.16.0.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.engine/org.apache.sling.engine-2.15.18.buildspec 2.16.0` |
-| <!-- 20241126052901 --> [jpmml-transpiler](../content/org/jpmml/jpmml-transpiler/README.md) | [1.3.7](../content/org/jpmml/jpmml-transpiler/jpmml-transpiler-1.3.7.buildspec) :white_check_mark: | [1.3.8](../content/org/jpmml/jpmml-transpiler/jpmml-transpiler-1.3.8.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-transpiler/jpmml-transpiler-1.3.7.buildspec 1.3.8` |
-| <!-- 20241126043436 --> [makeself-maven-plugin](../content/com/github/hazendaz/maven/makeself-maven-plugin/README.md) | [1.8.3](../content/com/github/hazendaz/maven/makeself-maven-plugin/makeself-maven-plugin-1.8.3.buildspec) :white_check_mark: | [1.8.4](../content/com/github/hazendaz/maven/makeself-maven-plugin/makeself-maven-plugin-1.8.4.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/maven/makeself-maven-plugin/makeself-maven-plugin-1.8.3.buildspec 1.8.4` |
+| <!-- 20241127162933 --> [airbase](../content/io/airlift/airbase/README.md) | [200](../content/io/airlift/airbase/airbase-200.buildspec) :white_check_mark: | [201](../content/io/airlift/airbase/airbase-201.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-200.buildspec 201` |
+| <!-- 20241127152503 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/mybatis-spring-boot/README.md) | [3.0.3](../content/org/mybatis/spring/boot/mybatis-spring-boot/mybatis-spring-boot-3.0.3.buildspec) :white_check_mark: | [3.0.4](../content/org/mybatis/spring/boot/mybatis-spring-boot/mybatis-spring-boot-3.0.4.buildspec) | `bin/add-new-release.sh content/org/mybatis/spring/boot/mybatis-spring-boot/mybatis-spring-boot-3.0.3.buildspec 3.0.4` |
+| <!-- 20241127133544 --> [scg-base](../content/io/telicent/smart-caches/graph/scg-base/README.md) | [0.82.9](../content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.9.buildspec) :white_check_mark: | [0.82.10](../content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.10.buildspec) | `bin/add-new-release.sh content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.9.buildspec 0.82.10` |
+| <!-- 20241127120310 --> [gemLibPki](../content/de/gematik/pki/gemLibPki/README.md) | [3.0.0](../content/de/gematik/pki/gemLibPki/gemLibPki-3.0.0.buildspec) :white_check_mark: | [3.0.1](../content/de/gematik/pki/gemLibPki/gemLibPki-3.0.1.buildspec) | `bin/add-new-release.sh content/de/gematik/pki/gemLibPki/gemLibPki-3.0.0.buildspec 3.0.1` |
+| <!-- 20241127102235 --> [metrics-parent](../content/io/dropwizard/metrics/README.md) | [4.2.28](../content/io/dropwizard/metrics/dropwizard-metrics-4.2.28.buildspec) :white_check_mark: | [4.2.29](../content/io/dropwizard/metrics/dropwizard-metrics-4.2.29.buildspec) | `bin/add-new-release.sh content/io/dropwizard/metrics/dropwizard-metrics-4.2.28.buildspec 4.2.29` |
+| <!-- 20241127100657 --> [metrics-parent](../content/io/dropwizard/metrics5/README.md) | [5.0.0-rc22](../content/io/dropwizard/metrics5/dropwizard-metrics-5.0.0-rc22.buildspec) :white_check_mark: | [5.0.0-rc23](../content/io/dropwizard/metrics5/dropwizard-metrics-5.0.0-rc23.buildspec) | `bin/add-new-release.sh content/io/dropwizard/metrics5/dropwizard-metrics-5.0.0-rc22.buildspec 5.0.0-rc23` |
+| <!-- 20241127074846 --> [bnd-plugin-parent](../content/biz/aQute/bnd/plugins/README.md) | [7.0.0](../content/biz/aQute/bnd/plugins/bnd-plugins-7.0.0.buildspec) :white_check_mark: | [7.1.0](../content/biz/aQute/bnd/plugins/bnd-plugins-7.1.0.buildspec) | `bin/add-new-release.sh content/biz/aQute/bnd/plugins/bnd-plugins-7.0.0.buildspec 7.1.0` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -35,7 +38,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241126142609 --> [mybatis](../content/org/mybatis/mybatis/README.md) | [3.5.16](../content/org/mybatis/mybatis/mybatis-3.5.16.buildspec) :warning: | [3.5.17](../content/org/mybatis/mybatis/mybatis-3.5.17.buildspec) | `bin/add-new-release.sh content/org/mybatis/mybatis/mybatis-3.5.16.buildspec 3.5.17` |
+| <!-- 20241127152503 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | [3.0.3](../content/org/mybatis/spring/boot/mybatis-spring-boot-3.0.3.buildspec) :warning: | [3.0.4](../content/org/mybatis/spring/boot/mybatis-spring-boot-3.0.4.buildspec) | `bin/add-new-release.sh content/org/mybatis/spring/boot/mybatis-spring-boot-3.0.3.buildspec 3.0.4` |
 | <!-- 20241125160527 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.67.1](../content/org/finos/legend/engine/legend-engine-4.67.1.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.67.1` |
 | <!-- 20241120144345 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.0.2](../content/com/taobao/arthas/arthas-4.0.2.buildspec) :warning: | [4.0.4](../content/com/taobao/arthas/arthas-4.0.4.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.0.2.buildspec 4.0.4` |
 | <!-- 20241110060152 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.18.2](../content/org/webjars/swagger-ui/swagger-ui-5.18.2.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.18.2` |
@@ -56,6 +59,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20241126142609 --> [mybatis](../content/org/mybatis/mybatis/README.md) | 3.5.17 :warning: |
 | <!-- 20241125131237 --> [crypto-commons](../content/net/osslabz/crypto-commons/README.md) | 0.5.0 :warning: |
 | <!-- 20241124190430 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | 11.0-javax :warning: |
 | <!-- 20241121180135 --> [jooby](../content/io/jooby/README.md) | 3.5.4 :warning: |
@@ -154,7 +158,6 @@ New Releases To Add
 | <!-- 20240110201843 --> [parent](../content/org/phoebus/README.md) | 4.7.3 :warning: [:memo:](https://github.com/ControlSystemStudio/phoebus/pull/2904) |
 | <!-- 20240106130206 --> [com.io7m.cardant](../content/com/io7m/cardant/README.md) | 0.0.2 :warning: |
 | <!-- 20231205162118 --> [hsac-fitnesse-pdf](../content/nl/hsac/hsac-fitnesse-pdf/README.md) | 0.1.4 :warning: |
-| <!-- 20231125131040 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 3.0.3 :warning: |
 | <!-- 20231109041226 --> [org.apache.sling.cms](../content/org/apache/sling/org.apache.sling.cms/README.md) | 1.1.8 :warning: |
 | <!-- 20231012084342 --> [jansi](../content/org/fusesource/jansi/jansi/README.md) | 2.4.1 :warning: [:memo:](https://github.com/moditect/moditect/pull/211) |
 | <!-- 20230916081916 --> [org.apache.felix.healthcheck.core](../content/org/apache/felix/org.apache.felix.healthcheck.core/README.md) | 2.2.0 :warning: [:memo:](https://github.com/apache/felix-dev/pull/234) |
