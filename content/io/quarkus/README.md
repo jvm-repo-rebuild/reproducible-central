@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quarkusio/quarkus.git)
 
-<details><summary>This project defines 1001 modules:</summary>
+<details><summary>This project defines 1009 modules:</summary>
 
 * [io.quarkus.arc:arc](https://central.sonatype.com/artifact/io.quarkus.arc/arc/overview)
 * [io.quarkus.arc:arc-arquillian](https://central.sonatype.com/artifact/io.quarkus.arc/arc-arquillian/overview)
@@ -360,6 +360,8 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-jacoco](https://central.sonatype.com/artifact/io.quarkus/quarkus-jacoco/overview)
 * [io.quarkus:quarkus-jacoco-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-jacoco-deployment/overview)
 * [io.quarkus:quarkus-jacoco-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-jacoco-parent/overview)
+* [io.quarkus:quarkus-jaeger](https://central.sonatype.com/artifact/io.quarkus/quarkus-jaeger/overview)
+* [io.quarkus:quarkus-jaeger-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-jaeger-deployment/overview)
 * [io.quarkus:quarkus-jaxb](https://central.sonatype.com/artifact/io.quarkus/quarkus-jaxb/overview)
 * [io.quarkus:quarkus-jaxb-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-jaxb-deployment/overview)
 * [io.quarkus:quarkus-jaxb-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-jaxb-parent/overview)
@@ -585,6 +587,10 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-openshift-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-openshift-parent/overview)
 * [io.quarkus:quarkus-opentelemetry](https://central.sonatype.com/artifact/io.quarkus/quarkus-opentelemetry/overview)
 * [io.quarkus:quarkus-opentelemetry-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-opentelemetry-deployment/overview)
+* [io.quarkus:quarkus-opentelemetry-exporter-jaeger](https://central.sonatype.com/artifact/io.quarkus/quarkus-opentelemetry-exporter-jaeger/overview)
+* [io.quarkus:quarkus-opentelemetry-exporter-jaeger-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-opentelemetry-exporter-jaeger-deployment/overview)
+* [io.quarkus:quarkus-opentelemetry-exporter-otlp](https://central.sonatype.com/artifact/io.quarkus/quarkus-opentelemetry-exporter-otlp/overview)
+* [io.quarkus:quarkus-opentelemetry-exporter-otlp-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-opentelemetry-exporter-otlp-deployment/overview)
 * [io.quarkus:quarkus-opentelemetry-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-opentelemetry-parent/overview)
 * [io.quarkus:quarkus-panache-common](https://central.sonatype.com/artifact/io.quarkus/quarkus-panache-common/overview)
 * [io.quarkus:quarkus-panache-common-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-panache-common-deployment/overview)
@@ -876,6 +882,8 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-smallrye-openapi-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-openapi-deployment/overview)
 * [io.quarkus:quarkus-smallrye-openapi-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-openapi-parent/overview)
 * [io.quarkus:quarkus-smallrye-openapi-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-openapi-spi/overview)
+* [io.quarkus:quarkus-smallrye-opentracing](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-opentracing/overview)
+* [io.quarkus:quarkus-smallrye-opentracing-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-opentracing-deployment/overview)
 * [io.quarkus:quarkus-smallrye-reactive-messaging](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-reactive-messaging/overview)
 * [io.quarkus:quarkus-smallrye-reactive-messaging-amqp](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-reactive-messaging-amqp/overview)
 * [io.quarkus:quarkus-smallrye-reactive-messaging-amqp-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-reactive-messaging-amqp-deployment/overview)
@@ -1012,9 +1020,9 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **21 releases** of io.quarkus:quarkus-project:
+rebuilding **22 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 21 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 22 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -1040,5 +1048,7 @@ rebuilding **21 releases** of io.quarkus:quarkus-project:
 | [3.13.2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.13.2/pom) | [mvn jdk17](quarkus-3.13.2.buildspec) | [result](quarkus-project-3.13.2.buildinfo): [2320 :white_check_mark:  12 :warning:](quarkus-project-3.13.2.buildcompare) | 105M |
 | [3.13.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.13.1/pom) | [mvn jdk17](quarkus-3.13.1.buildspec) | [result](quarkus-project-3.13.1.buildinfo): [2320 :white_check_mark:  12 :warning:](quarkus-project-3.13.1.buildcompare) | 105M |
 | [3.13.0](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.13.0/pom) | [mvn jdk17](quarkus-3.13.0.buildspec) | [result](quarkus-project-3.13.0.buildinfo): [2320 :white_check_mark:  12 :warning:](quarkus-project-3.13.0.buildcompare) | 105M |
+| [3.13.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.13.0.CR1/pom) | | | |
+| [3.12.3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.12.3/pom) | [mvn jdk17](quarkus-3.12.3.buildspec) | [result](quarkus-project-3.12.3.buildinfo): [2294 :white_check_mark:  12 :warning:](quarkus-project-3.12.3.buildcompare) | 95M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
