@@ -13,6 +13,7 @@ rebuilding **7 releases** of org.apache.felix:maven-bundle-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [6.0.0](https://central.sonatype.com/artifact/org.apache.felix/maven-bundle-plugin/6.0.0/pom) | | | |
 | [5.1.9](https://central.sonatype.com/artifact/org.apache.felix/maven-bundle-plugin/5.1.9/pom) | [mvn jdk11](maven-bundle-plugin-5.1.9.buildspec) | [result](maven-bundle-plugin-5.1.9.buildinfo): [5 :white_check_mark: ](maven-bundle-plugin-5.1.9.buildcompare) | 3.0M |
 | [5.1.8](https://central.sonatype.com/artifact/org.apache.felix/maven-bundle-plugin/5.1.8/pom) | [mvn jdk8](maven-bundle-plugin-5.1.8.buildspec) | [result](maven-bundle-plugin-5.1.8.buildinfo): [5 :white_check_mark: ](maven-bundle-plugin-5.1.8.buildcompare) | 3.0M |
 | [5.1.7](https://central.sonatype.com/artifact/org.apache.felix/maven-bundle-plugin/5.1.7/pom) | [mvn jdk8](maven-bundle-plugin-5.1.7.buildspec) | [result](maven-bundle-plugin-5.1.7.buildinfo): [5 :white_check_mark: ](maven-bundle-plugin-5.1.7.buildcompare) | 3.0M |

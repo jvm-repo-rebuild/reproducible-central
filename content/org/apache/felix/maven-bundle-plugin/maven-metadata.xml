@@ -3,8 +3,8 @@
   <groupId>org.apache.felix</groupId>
   <artifactId>maven-bundle-plugin</artifactId>
   <versioning>
-    <latest>5.1.9</latest>
-    <release>5.1.9</release>
+    <latest>6.0.0</latest>
+    <release>6.0.0</release>
     <versions>
       <version>1.0.0</version>
       <version>1.2.0</version>
@@ -46,7 +46,8 @@
       <version>5.1.7</version>
       <version>5.1.8</version>
       <version>5.1.9</version>
+      <version>6.0.0</version>
     </versions>
-    <lastUpdated>20230518052533</lastUpdated>
+    <lastUpdated>20241128114535</lastUpdated>
   </versioning>
 </metadata>

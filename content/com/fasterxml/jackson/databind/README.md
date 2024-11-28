@@ -13,6 +13,7 @@ rebuilding **27 releases** of com.fasterxml.jackson.core:jackson-databind:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.18.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.18.2/pom) | | | |
 | [2.18.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.18.1/pom) | [mvn jdk8](jackson-databind-2.18.1.buildspec) | [result](jackson-databind-2.18.1.buildinfo): [4 :white_check_mark: ](jackson-databind-2.18.1.buildcompare) | 2.8M |
 | [2.18.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.18.0/pom) | [mvn jdk8](jackson-databind-2.18.0.buildspec) | [result](jackson-databind-2.18.0.buildinfo): [4 :white_check_mark: ](jackson-databind-2.18.0.buildcompare) | 2.8M |
 | [2.18.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.18.0-rc1/pom) | [mvn jdk8](jackson-databind-2.18.0-rc1.buildspec) | [result](jackson-databind-2.18.0-rc1.buildinfo): [4 :white_check_mark: ](jackson-databind-2.18.0-rc1.buildcompare) | 2.8M |

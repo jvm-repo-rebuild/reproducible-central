@@ -3,8 +3,8 @@
   <groupId>io.trino</groupId>
   <artifactId>trino-root</artifactId>
   <versioning>
-    <latest>465</latest>
-    <release>465</release>
+    <latest>466</latest>
+    <release>466</release>
     <versions>
       <version>351</version>
       <version>352</version>
@@ -120,7 +120,8 @@
       <version>463</version>
       <version>464</version>
       <version>465</version>
+      <version>466</version>
     </versions>
-    <lastUpdated>20241121011607</lastUpdated>
+    <lastUpdated>20241128034829</lastUpdated>
   </versioning>
 </metadata>
