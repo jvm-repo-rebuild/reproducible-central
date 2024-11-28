@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Scripting HTL Engine
+group-id=org.apache.sling
+artifact-id=org.apache.sling.scripting.sightly
+version=1.4.26-1.4.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-scripting-sightly.git
+source.scm.tag=org.apache.sling.scripting.sightly-1.4.26-1.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.scripting.sightly-1.4.26-1.4.0.pom
+outputs.0.length=16325
+outputs.0.checksums.sha512=facdb13cad2d5bcf969435da52c1827b336180f564f09580010a739381c31450d16239769440b21eec4f27bfb739686aad1707a374baf783ba20f834f03815f7
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.scripting.sightly-1.4.26-1.4.0.jar
+outputs.1.length=126288
+outputs.1.checksums.sha512=7d2970dce27130b56876323330458c71df8cf8f6cfe1574ff0e20ff04fcbd1ed62466e1d92e6e53654b6d1bf46c2466fadcc499845ea5af99c720618f4aba994
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.scripting.sightly-1.4.26-1.4.0-source-release.zip
+outputs.2.length=122199
+outputs.2.checksums.sha512=884d98a2d372869172d50ae52fbfabc55d4258ea68dc128d1d3d29f17254d9ab2c513cfdb59c8332ec3ad5ed14e7c3721dc0b8618647faa77979da39b5a854ab
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.scripting.sightly-1.4.26-1.4.0-sources.jar
+outputs.3.length=80620
+outputs.3.checksums.sha512=3ec58c55cfaaf8c1698dd6a1b6e8dac949f29d3fd8e5a5d9230ce4ea5839ba0e23b3c05a2d6f3b786122454179036fe174349b706361c8f3968d2904dce65a07
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.scripting.sightly-1.4.26-1.4.0-sources.jar
+outputs.4.length=80620
+outputs.4.checksums.sha512=3ec58c55cfaaf8c1698dd6a1b6e8dac949f29d3fd8e5a5d9230ce4ea5839ba0e23b3c05a2d6f3b786122454179036fe174349b706361c8f3968d2904dce65a07
