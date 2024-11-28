@@ -48,13 +48,13 @@ Source code: [https://github.com/dropwizard/metrics.git](https://github.com/drop
 * [io.dropwizard.metrics:metrics-servlets](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-servlets/overview)
 </details>
 
-rebuilding **63 releases** of io.dropwizard.metrics:metrics-parent:
-- **25** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **64 releases** of io.dropwizard.metrics:metrics-parent:
+- **26** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 38 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.2.29](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.29/pom) | | | |
+| [4.2.29](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.29/pom) | [mvn jdk17](dropwizard-metrics-4.2.29.buildspec) | [result](metrics-parent-4.2.29.buildinfo): [107 :white_check_mark: ](metrics-parent-4.2.29.buildcompare) | 1.1M |
 | [4.2.28](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.28/pom) | [mvn jdk17](dropwizard-metrics-4.2.28.buildspec) | [result](metrics-parent-4.2.28.buildinfo): [107 :white_check_mark: ](metrics-parent-4.2.28.buildcompare) | 1.1M |
 | [4.2.27](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.27/pom) | [mvn jdk17](dropwizard-metrics-4.2.27.buildspec) | [result](metrics-parent-4.2.27.buildinfo): [107 :white_check_mark: ](metrics-parent-4.2.27.buildcompare) | 1.1M |
 | [4.2.26](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.26/pom) | [mvn jdk17](dropwizard-metrics-4.2.26.buildspec) | [result](metrics-parent-4.2.26.buildinfo): [107 :white_check_mark: ](metrics-parent-4.2.26.buildcompare) | 1.1M |
