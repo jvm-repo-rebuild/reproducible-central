@@ -1,0 +1,3 @@
+scg-base-0.82.10.buildspec
+scg-base-0.82.10.buildinfo
+scg-base-0.82.10.buildcompare
