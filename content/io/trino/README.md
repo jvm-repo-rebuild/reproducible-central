@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/trinodb/trino.git](https://github.com/trinodb/trino.git)
 
-<details><summary>This project defines 113 modules:</summary>
+<details><summary>This project defines 114 modules:</summary>
 
 * [io.trino:trino-accumulo](https://central.sonatype.com/artifact/io.trino/trino-accumulo/overview)
 * [io.trino:trino-accumulo-iterators](https://central.sonatype.com/artifact/io.trino/trino-accumulo-iterators/overview)
@@ -89,6 +89,7 @@ Source code: [https://github.com/trinodb/trino.git](https://github.com/trinodb/t
 * [io.trino:trino-product-tests-launcher](https://central.sonatype.com/artifact/io.trino/trino-product-tests-launcher/overview)
 * [io.trino:trino-prometheus](https://central.sonatype.com/artifact/io.trino/trino-prometheus/overview)
 * [io.trino:trino-proxy](https://central.sonatype.com/artifact/io.trino/trino-proxy/overview)
+* [io.trino:trino-ranger](https://central.sonatype.com/artifact/io.trino/trino-ranger/overview)
 * [io.trino:trino-raptor-legacy](https://central.sonatype.com/artifact/io.trino/trino-raptor-legacy/overview)
 * [io.trino:trino-record-decoder](https://central.sonatype.com/artifact/io.trino/trino-record-decoder/overview)
 * [io.trino:trino-redis](https://central.sonatype.com/artifact/io.trino/trino-redis/overview)
@@ -124,13 +125,13 @@ Source code: [https://github.com/trinodb/trino.git](https://github.com/trinodb/t
 * [io.trino:trino-web-ui](https://central.sonatype.com/artifact/io.trino/trino-web-ui/overview)
 </details>
 
-rebuilding **20 releases** of io.trino:trino-root:
-- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **21 releases** of io.trino:trino-root:
+- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [466](https://central.sonatype.com/artifact/io.trino/trino-root/466/pom) | | | |
+| [466](https://central.sonatype.com/artifact/io.trino/trino-root/466/pom) | [mvn jdk23](trino-466.buildspec) | [result](trino-root-466.buildinfo): [603 :white_check_mark: ](trino-root-466.buildcompare) | 6.1G |
 | [465](https://central.sonatype.com/artifact/io.trino/trino-root/465/pom) | [mvn jdk23](trino-465.buildspec) | [result](trino-root-465.buildinfo): [597 :white_check_mark: ](trino-root-465.buildcompare) | 5.8G |
 | [464](https://central.sonatype.com/artifact/io.trino/trino-root/464/pom) | [mvn jdk23](trino-464.buildspec) | [result](trino-root-464.buildinfo): [597 :white_check_mark: ](trino-root-464.buildcompare) | 5.7G |
 | [463](https://central.sonatype.com/artifact/io.trino/trino-root/463/pom) | [mvn jdk23](trino-463.buildspec) | [result](trino-root-463.buildinfo): [596 :white_check_mark: ](trino-root-463.buildcompare) | 5.6G |
