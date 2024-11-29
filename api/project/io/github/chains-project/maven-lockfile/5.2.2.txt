@@ -1,0 +1,3 @@
+maven-lockfile-5.2.2.buildspec
+maven-lockfile-parent-5.2.2.buildinfo
+maven-lockfile-parent-5.2.2.buildcompare

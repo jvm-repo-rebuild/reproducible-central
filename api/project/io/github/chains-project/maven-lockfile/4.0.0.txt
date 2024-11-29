@@ -1,0 +1,3 @@
+maven-lockfile-4.0.0.buildspec
+maven-lockfile-parent-4.0.0.buildinfo
+maven-lockfile-parent-4.0.0.buildcompare
