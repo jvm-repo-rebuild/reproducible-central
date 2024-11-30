@@ -1,7 +1,2 @@
 content/eu/maveniverse/maven/toolbox/toolbox-0.5.1.buildspec:0.5.2
-content/io/airlift/airbase/airbase-201.buildspec:202
-content/net/sourceforge/pmd/pmd-7.7.0.buildspec:7.8.0
 content/org/apache/helix/helix-1.4.1.buildspec:1.4.2
-content/org/apache/struts/struts2-6.6.1.buildspec:6.7.0
-content/org/codehaus/mojo/license-maven-plugin/license-maven-plugin-2.4.0.buildspec:2.5.0
-content/org/cyclonedx/cyclonedx-maven-plugin/cyclonedx-maven-plugin-2.9.0.buildspec:2.9.1
