@@ -6,13 +6,13 @@ version=2.0.0
 gitRepo=https://github.com/apache/${artifactId}.git
 gitTag=rel/${artifactId}-${version}
 
-tool=mvn-3.9.8
+tool=mvn
 jdk=21
 newline=lf
 locale=en_US
 umask=002
 
-command="mvn -Papache-release,include-grpc,include-ranger clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+command="./mvnw -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
