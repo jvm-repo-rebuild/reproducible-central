@@ -1,0 +1,3 @@
+quarkus-3.12.0.buildspec
+quarkus-project-3.12.0.buildinfo
+quarkus-project-3.12.0.buildcompare
