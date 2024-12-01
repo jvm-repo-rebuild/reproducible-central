@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Journal based Content Distribution - Core bundle
+group-id=org.apache.sling
+artifact-id=org.apache.sling.distribution.journal
+version=0.5.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-distribution-journal.git
+source.scm.tag=org.apache.sling.distribution.journal-0.5.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=22
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.distribution.journal-0.5.0.pom
+outputs.0.length=12601
+outputs.0.checksums.sha512=10d2b9f9f4666c18516c3143661b8f9758433b5cd1d849d59dbff4f44500c49e7d4efa4e6321c9dc38694e39b678cb66e934b637c925c08dd8b4677dbcf3689c
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.distribution.journal-0.5.0.jar
+outputs.1.length=193822
+outputs.1.checksums.sha512=0fa07af80252fc9cba044e5b32cd632ef1e7f73337819c5c28471eb3bfb0f08d038af11c370d775c8fd15ffae9bd80fef4af01d860ba008a4e01ad6a2d660aee
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.distribution.journal-0.5.0-source-release.zip
+outputs.2.length=747506
+outputs.2.checksums.sha512=41a1588666d6b85ebadd1f9c6f2c01773de687885f89058190be596b24fd5676208b3848582d55a8b8ee36fa3e8427a76a1181485cb24cab1ccedfee3cf69f01
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.distribution.journal-0.5.0-sources.jar
+outputs.3.length=134981
+outputs.3.checksums.sha512=4e3ad90a852a9c304532fb845700e44ebca9c7eaac9bb2d4a80796344dd16cb33ac92449085d4527e4bec2779668c9232714ce15aa9f444e2d67444abd001fea
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.distribution.journal-0.5.0-sources.jar
+outputs.4.length=134981
+outputs.4.checksums.sha512=4e3ad90a852a9c304532fb845700e44ebca9c7eaac9bb2d4a80796344dd16cb33ac92449085d4527e4bec2779668c9232714ce15aa9f444e2d67444abd001fea
