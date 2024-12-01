@@ -1,2 +1,6 @@
-content/eu/maveniverse/maven/toolbox/toolbox-0.5.1.buildspec:0.5.2
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-15.buildspec:11.1.1-beta-16
+content/io/avaje/jex/avaje-jex-3.0-RC1.buildspec:3.0-RC4
 content/org/apache/helix/helix-1.4.1.buildspec:1.4.2
+content/org/apache/sling/org.apache.sling.distribution.journal/org.apache.sling.distribution.journal-0.4.0.buildspec:0.5.0
+content/org/jpmml/jpmml-r/jpmml-r-1.6.1.buildspec:1.6.2
+content/org/webjars/flexmonster/flexmonster-2.9.90.buildspec:2.9.91

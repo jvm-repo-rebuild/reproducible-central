@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **5423 releases** of **743 projects**:
-   - **4036** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 1387 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 743 projects, 639 have at least one fully reproducible release, 104 have none
+   rebuilding **5427 releases** of **745 projects**:
+   - **4038** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 1389 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 745 projects, 640 have at least one fully reproducible release, 105 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -241,17 +241,19 @@ Its objectives are to provide:
 | eu.maveniverse.maven.bom-builder | [bom-builder](content/eu/maveniverse/maven/bom-builder/README.md) | 3 | 3 :white_check_mark: |
 | eu.maveniverse.maven.mima | [mima](content/eu/maveniverse/maven/mima/README.md) | 44 | 41 :white_check_mark: / 3 :warning: |
 | eu.maveniverse.maven.nisse | [nisse](content/eu/maveniverse/maven/nisse/README.md) | 8 | 8 :white_check_mark: |
-| eu.maveniverse.maven.toolbox | [toolbox](content/eu/maveniverse/maven/toolbox/README.md) | 49 | 48 :white_check_mark: / 1 :warning: |
+| eu.maveniverse.maven.toolbox | [toolbox](content/eu/maveniverse/maven/toolbox/README.md) | 50 | 49 :white_check_mark: / 1 :warning: |
 | eu.maveniverse.maven.mase | [mase](content/eu/maveniverse/maven/mase/mase/README.md) | 3 | 3 :white_check_mark: |
 | fr.inria.gforge.spoon | [spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 126 | 22 :white_check_mark: / 104 :warning: |
 | fr.marcwrobel | [jbanking](content/fr/marcwrobel/jbanking/README.md) | 2 | 2 :white_check_mark: |
 | fr.vidal.oss | [atom-jaxb](content/fr/vidal/oss/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
 | io.jooby | [jooby](content/io/jooby/README.md) | 28 | 28 :warning: |
 | io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 64 | 63 :white_check_mark: / 1 :warning: |
-| io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 25 | 25 :warning: |
+| io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 26 | 26 :warning: |
 | io.trino | [trino-root](content/io/trino/README.md) | 21 | 16 :white_check_mark: / 5 :warning: |
 | io.airlift | [airbase](content/io/airlift/airbase/README.md) | 46 | 44 :white_check_mark: / 2 :warning: |
-| io.avaje | [avaje-inject-parent](content/io/avaje/inject/README.md) | 8 | 6 :white_check_mark: / 2 :warning: |
+| io.avaje | [avaje-http-parent](content/io/avaje/http/README.md) | 1 | 1 :warning: |
+| | [avaje-inject-parent](content/io/avaje/inject/README.md) | 8 | 6 :white_check_mark: / 2 :warning: |
+| | [avaje-jex-parent](content/io/avaje/jex/README.md) | 1 | 1 :white_check_mark: |
 | | [avaje-prisms-parent](content/io/avaje/prisms/README.md) | 2 | 2 :white_check_mark: |
 | | [avaje-spi-parent](content/io/avaje/spi/README.md) | 1 | 1 :white_check_mark: |
 | io.cucumber | [ci-environment](content/io/cucumber/ci-environment/README.md) | 2 | 2 :white_check_mark: |
@@ -766,7 +768,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 5 | 5 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 18 | 1 :white_check_mark: / 17 :warning: |
-| **Count:** | **743** | **5423** | **4036** :white_check_mark: **1387** :warning: |
+| **Count:** | **745** | **5427** | **4038** :white_check_mark: **1389** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -802,7 +804,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      16 mvn        18
      33 mvn        19
      16 mvn        20
-    281 mvn        21
+    283 mvn        21
      12 mvn        22
       1 mvn        23
       2 mvn-3.5.4   8
@@ -891,7 +893,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn-3.9.8   8
       5 mvn-3.9.8  11
       5 mvn-3.9.8  16
-     96 mvn-3.9.8  17
+     97 mvn-3.9.8  17
       1 mvn-3.9.8  17.0.12
      42 mvn-3.9.8  21
      44 mvn-3.9.8  22
@@ -915,6 +917,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       2 mvn-4.0.0-beta-4  22
       3 mvn-4.0.0-beta-4  23
       1 mvn-4.0.0-beta-5  22
+      1 mvn-4.0.0-rc-1  21
       2 sbt         8
 ```
 <!-- END GENERATED STATS -->
