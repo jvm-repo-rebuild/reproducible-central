@@ -23,6 +23,9 @@ rebuilding **4 releases** of io.avaje:avaje-jex-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0-RC7](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.0-RC7/pom) | | | |
+| [3.0-RC6](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.0-RC6/pom) | | | |
+| [3.0-RC5](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.0-RC5/pom) | | | |
 | [3.0-RC4](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.0-RC4/pom) | [mvn jdk21](avaje-jex-3.0-RC4.buildspec) | [result](avaje-jex-parent-3.0-RC4.buildinfo): [16 :white_check_mark: ](avaje-jex-parent-3.0-RC4.buildcompare) | 217K |
 | [3.0-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.0-RC3/pom) | [mvn jdk21](avaje-jex-3.0-RC3.buildspec) | [result](avaje-jex-parent-3.0-RC3.buildinfo): [16 :white_check_mark: ](avaje-jex-parent-3.0-RC3.buildcompare) | 215K |
 | [3.0-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.0-RC2/pom) | [mvn jdk21](avaje-jex-3.0-RC2.buildspec) | [result](avaje-jex-parent-3.0-RC2.buildinfo): [14 :white_check_mark:  2 :warning:](avaje-jex-parent-3.0-RC2.buildcompare) | 216K |
