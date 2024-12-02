@@ -1,0 +1,7 @@
+version=45
+ok=3
+ko=0
+ignored=0
+okFiles="base-parent-45.pom base-parent-45-cyclonedx.xml base-parent-45-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
