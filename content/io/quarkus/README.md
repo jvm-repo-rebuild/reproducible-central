@@ -1020,9 +1020,9 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **27 releases** of io.quarkus:quarkus-project:
+rebuilding **28 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 27 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 28 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -1055,5 +1055,7 @@ rebuilding **27 releases** of io.quarkus:quarkus-project:
 | [3.12.2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.12.2/pom) | [mvn jdk17](quarkus-3.12.2.buildspec) | [result](quarkus-project-3.12.2.buildinfo): [2294 :white_check_mark:  12 :warning:](quarkus-project-3.12.2.buildcompare) | 95M |
 | [3.12.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.12.1/pom) | [mvn jdk17](quarkus-3.12.1.buildspec) | [result](quarkus-project-3.12.1.buildinfo): [2294 :white_check_mark:  12 :warning:](quarkus-project-3.12.1.buildcompare) | 95M |
 | [3.12.0](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.12.0/pom) | [mvn jdk17](quarkus-3.12.0.buildspec) | [result](quarkus-project-3.12.0.buildinfo): [2294 :white_check_mark:  12 :warning:](quarkus-project-3.12.0.buildcompare) | 95M |
+| [3.12.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.12.0.CR1/pom) | | | |
+| [3.11.3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.11.3/pom) | [mvn jdk17](quarkus-3.11.3.buildspec) | [result](quarkus-project-3.11.3.buildinfo): [2246 :white_check_mark:  12 :warning:](quarkus-project-3.11.3.buildcompare) | 94M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
