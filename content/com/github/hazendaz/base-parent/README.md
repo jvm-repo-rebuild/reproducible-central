@@ -8,15 +8,15 @@
 Source code: [https://github.com/hazendaz/base-parent.git](https://github.com/hazendaz/base-parent.git)
 
 rebuilding **19 releases** of com.github.hazendaz:base-parent:
-- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [50](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/50/pom) | [mvn jdk17 w](base-parent-50.buildspec) | [result](base-parent-50.buildinfo): [3 :white_check_mark: ](base-parent-50.buildcompare) | 127K |
 | [49](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/49/pom) | [mvn jdk17 w](base-parent-49.buildspec) | [result](base-parent-49.buildinfo): [3 :white_check_mark: ](base-parent-49.buildcompare) | 126K |
 | [48](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/48/pom) | [mvn jdk17 w](base-parent-48.buildspec) | :x: | |
-| [47](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/47/pom) | [mvn jdk17 w](base-parent-47.buildspec) | :x: | |
+| [47](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/47/pom) | [mvn jdk17 w](base-parent-47.buildspec) | [result](base-parent-47.buildinfo): [3 :white_check_mark: ](base-parent-47.buildcompare) | 125K |
 | [46](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/46/pom) | [mvn jdk17 w](base-parent-46.buildspec) | [result](base-parent-46.buildinfo): [3 :white_check_mark: ](base-parent-46.buildcompare) | 125K |
 | [45](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/45/pom) | [mvn jdk17 w](base-parent-45.buildspec) | [result](base-parent-45.buildinfo): [3 :white_check_mark: ](base-parent-45.buildcompare) | 126K |
 | [44](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/44/pom) | [mvn jdk17 w](base-parent-44.buildspec) | [result](base-parent-44.buildinfo): [3 :white_check_mark: ](base-parent-44.buildcompare) | 131K |
