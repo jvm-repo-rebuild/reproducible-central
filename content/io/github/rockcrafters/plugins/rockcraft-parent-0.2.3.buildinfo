@@ -1,0 +1,64 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Rockcraft support for Maven
+group-id=io.github.rockcrafters
+artifact-id=rockcraft-parent
+version=0.2.3
+
+# source information
+source.scm.uri=scm:git:git://github.com/rockcrafters/java-rockcraft-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=rockcraft-maven-plugin
+
+# aggregated output
+
+outputs.0.coordinates=io.github.rockcrafters:rockcraft-parent
+
+outputs.0.0.groupId=io.github.rockcrafters
+outputs.0.0.filename=rockcraft-parent-0.2.3.pom
+outputs.0.0.length=5319
+outputs.0.0.checksums.sha512=4dbe672b288496e799fea1a661d34a95923e8ce0623ba029fd458f35ff5763a48df3c81d49bd82c5a23c8b031dc4e7731afae6f339a116093cdb9d7fced4307d
+
+outputs.1.coordinates=io.github.rockcrafters:rockcraft-common
+
+outputs.1.0.groupId=io.github.rockcrafters
+outputs.1.0.filename=rockcraft-common-0.2.3.pom
+outputs.1.0.length=1807
+outputs.1.0.checksums.sha512=a84184510e929b142c70982f2a1ffab976cdb0baeb6de4c5fb7678c553e311652fc1ca15ad4f89d216c5d113cdf96b58231fd81c80d21380f92d2bc37b0906ac
+
+outputs.1.1.groupId=io.github.rockcrafters
+outputs.1.1.filename=rockcraft-common-0.2.3.jar
+outputs.1.1.length=21375
+outputs.1.1.checksums.sha512=de3930dc00cbe1e7beb95d95ac08f49267667ea28d0181fb509d5d9a7f48b960c520ebbe59323077930cfe43a13ab9cfeb7caf01e9361e63bae4e05a9803eb1d
+
+outputs.1.2.groupId=io.github.rockcrafters
+outputs.1.2.filename=rockcraft-common-0.2.3-sources.jar
+outputs.1.2.length=15148
+outputs.1.2.checksums.sha512=3b48f02233b9695a0df488d880678076db077fef791bd9a73822d1bf09ec5ef3783b647a0d36542b8783e27ae1bc6c3570e4d960de4dd51f6d5985f6e5cb025a
+
+outputs.2.coordinates=io.github.rockcrafters:rockcraft-maven-plugin
+
+outputs.2.0.groupId=io.github.rockcrafters
+outputs.2.0.filename=rockcraft-maven-plugin-0.2.3.pom
+outputs.2.0.length=7457
+outputs.2.0.checksums.sha512=5be54920e2c891b4b39b737005cd6ca1ebcca76e351a8ff7c446efb680364004fa3c5bf0d0c8f66e36f31ee8700d265c83e96609ba81919e45895f8bab9f83e4
+
+outputs.2.1.groupId=io.github.rockcrafters
+outputs.2.1.filename=rockcraft-maven-plugin-0.2.3.jar
+outputs.2.1.length=18284
+outputs.2.1.checksums.sha512=318e1f38a9a1537476d71290df8bee1774b33da39abcfb7ce36e83d20e2be9d4fde4fc9549bd51c28289a4c337524de08b5c92039e6db55a0c2b321e62f93de3
+
+outputs.2.2.groupId=io.github.rockcrafters
+outputs.2.2.filename=rockcraft-maven-plugin-0.2.3-sources.jar
+outputs.2.2.length=12584
+outputs.2.2.checksums.sha512=f112445b050349ddfcda81481bac32b0f9cfc9e4e6cd90ffbdb78b4da4f2845425d4df29b9ea20de8d0a1f8756b703f0b93ee62cbed5b2a67704c16aa5a1dd97
