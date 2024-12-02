@@ -41,7 +41,9 @@ public class update_api extends SimpleFileVisitor<Path> {
     public static void main(String... args) throws Exception {
         update_api u = new update_api();
         Files.walkFileTree(Path.of("content"), u);
+        System.out.println();
         u.summarize();
+        System.out.println();
         u.checkOutputTimestamps();
     }
 
@@ -248,7 +250,11 @@ public class update_api extends SimpleFileVisitor<Path> {
         "eu/maveniverse/maven/parent/parent",
         "io/streamnative",
         "net/osslabz/crypto-commons",
-        "org/finos/legend/engine/"
+        "org/mevenide/mevenide-parent/",
+        "org/finos/legend/engine/",
+        "org/glassfish/main/glassfish-main-aggregator/",
+        "org/mevenide/mevenide-parent",
+        "org/sonatype/buldsupport/"
     };
     private boolean keep(String s) {
         for(String i: IGNORE) {
