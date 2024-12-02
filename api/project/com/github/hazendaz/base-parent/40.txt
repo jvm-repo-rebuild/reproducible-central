@@ -1,0 +1,3 @@
+base-parent-40.buildspec
+base-parent-40.buildinfo
+base-parent-40.buildcompare

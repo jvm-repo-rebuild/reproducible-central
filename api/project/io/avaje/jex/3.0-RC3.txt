@@ -1,0 +1,3 @@
+avaje-jex-3.0-RC3.buildspec
+avaje-jex-parent-3.0-RC3.buildinfo
+avaje-jex-parent-3.0-RC3.buildcompare
