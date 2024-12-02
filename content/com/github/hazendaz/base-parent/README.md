@@ -8,8 +8,8 @@
 Source code: [https://github.com/hazendaz/base-parent.git](https://github.com/hazendaz/base-parent.git)
 
 rebuilding **11 releases** of com.github.hazendaz:base-parent:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -29,7 +29,7 @@ rebuilding **11 releases** of com.github.hazendaz:base-parent:
 | [37](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/37/pom) | [mvn jdk17 w](base-parent-37.buildspec) | :x: | |
 | [36](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/36/pom) | [mvn jdk17 w](base-parent-36.buildspec) | :x: | |
 | [35](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/35/pom) | [mvn jdk17 w](base-parent-35.buildspec) | :x: | |
-| [34](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/34/pom) | [mvn jdk17 w](base-parent-34.buildspec) | :x: | |
+| [34](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/34/pom) | [mvn jdk17 w](base-parent-34.buildspec) | [result](base-parent-34.buildinfo): [1 :white_check_mark: ](base-parent-34.buildcompare) | 79K |
 | [33](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/33/pom) | [mvn jdk17 w](base-parent-33.buildspec) | [result](base-parent-33.buildinfo): [1 :white_check_mark: ](base-parent-33.buildcompare) | 79K |
 | [32](https://central.sonatype.com/artifact/com.github.hazendaz/base-parent/32/pom) | [mvn jdk17 w](base-parent-32.buildspec) | [result](base-parent-32.buildinfo): [1 :white_check_mark: ](base-parent-32.buildcompare) | 79K |
 
