@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Feature Model
+group-id=org.apache.sling
+artifact-id=org.apache.sling.feature
+version=2.0.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-feature.git
+source.scm.tag=org.apache.sling.feature-2.0.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.feature-2.0.2.pom
+outputs.0.length=6571
+outputs.0.checksums.sha512=9f78e897fef57fa275ffe4e82620f2cf9ff1bcf7d7b2fc3c72f56bd7f85fc1dc76692ceb755e6384d3e825bf69f107fdf2dbab4d1cda7e825eede4b916ac1eb9
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.feature-2.0.2.jar
+outputs.1.length=210308
+outputs.1.checksums.sha512=64382146e43e32d91df656706665db9248c806f6ee0379c7f0bfc35103edae4238c54312d865941914fae5bd49cc2f6ed9e25d8501f7ca4892d925c1e7003401
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.feature-2.0.2-source-release.zip
+outputs.2.length=970271
+outputs.2.checksums.sha512=61156d1b8e3099b288009cec786a6173a98332cbc8241bf3fb3af20470fe0860cf32a3c1181d87738210484b85bc0ebe44f46a5a4bf0750948517cdac0347882
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.feature-2.0.2-sources.jar
+outputs.3.length=105861
+outputs.3.checksums.sha512=5b623a63382216f0b3ddbfd8b78c7500914f18482aecdaa255150b26ba1a03c290ee707733bcb623c8ca4d6636f24fe358fabc9303bcd289f73af269a261dfa2
