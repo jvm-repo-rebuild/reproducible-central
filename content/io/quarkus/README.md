@@ -1022,9 +1022,9 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **32 releases** of io.quarkus:quarkus-project:
+rebuilding **33 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 32 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 33 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -1064,5 +1064,6 @@ rebuilding **32 releases** of io.quarkus:quarkus-project:
 | [3.11.0](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.11.0/pom) | [mvn jdk17](quarkus-3.11.0.buildspec) | [result](quarkus-project-3.11.0.buildinfo): [2246 :white_check_mark:  12 :warning:](quarkus-project-3.11.0.buildcompare) | 93M |
 | [3.11.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.11.0.CR1/pom) | | | |
 | [3.10.2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.10.2/pom) | [mvn jdk17](quarkus-3.10.2.buildspec) | [result](quarkus-project-3.10.2.buildinfo): [2205 :white_check_mark:  12 :warning:](quarkus-project-3.10.2.buildcompare) | 97M |
+| [3.10.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.10.1/pom) | [mvn jdk17](quarkus-3.10.1.buildspec) | [result](quarkus-project-3.10.1.buildinfo): [2205 :white_check_mark:  12 :warning:](quarkus-project-3.10.1.buildcompare) | 97M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
