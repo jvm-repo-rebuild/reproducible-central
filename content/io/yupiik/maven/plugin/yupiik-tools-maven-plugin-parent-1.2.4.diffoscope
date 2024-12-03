@@ -1,0 +1,162 @@
+1 / 2 target/reference/io.yupiik.maven/yupiik-tools-cli-1.2.4.jar yupiik-tools-cli/target/yupiik-tools-cli-1.2.4.jar
+--- target/reference/io.yupiik.maven/yupiik-tools-cli-1.2.4.jar
++++ yupiik-tools-cli/target/yupiik-tools-cli-1.2.4.jar
+├── META-INF/crest/io.yupiik.tools.cli.command.Ascii2SVGCommand/ascii2svg.0.properties
+│ @@ -1,8 +1,8 @@
+│ -#Thu Nov 07 21:54:46 CET 2024
+│ +#Tue Dec 03 08:33:26 UTC 2024
+│  scale-x=scaleX
+│  input=input
+│  scale-y=scaleY
+│  tab=tabWidth
+│  blur=blur
+│  @arg.names=input, font, tabWidth, scaleX, scaleY, blur
+│  @arg.types=java.lang.String, java.lang.String, int, int, int, boolean
+├── META-INF/crest/io.yupiik.tools.cli.command.CryptCommand/crypt.0.properties
+│ @@ -1,6 +1,6 @@
+│ -#Thu Nov 07 21:54:46 CET 2024
+│ +#Tue Dec 03 08:33:26 UTC 2024
+│  masterPassword=masterPassword
+│  use-AES256GCM=useAes256Gcm
+│  @arg.names=masterPassword, value, useAes256Gcm
+│  value=value
+│  @arg.types=java.lang.String, java.lang.String, java.lang.Boolean
+├── META-INF/crest/io.yupiik.tools.cli.command.CryptCommand/decrypt.0.properties
+│ @@ -1,6 +1,6 @@
+│ -#Thu Nov 07 21:54:46 CET 2024
+│ +#Tue Dec 03 08:33:26 UTC 2024
+│  masterPassword=masterPassword
+│  use-AES256GCM=useAes256Gcm
+│  @arg.names=masterPassword, value, useAes256Gcm
+│  value=value
+│  @arg.types=java.lang.String, java.lang.String, java.lang.Boolean
+├── META-INF/crest/io.yupiik.tools.cli.command.MinisiteCommand/minisite.0.properties
+│ @@ -1,8 +1,8 @@
+│ -#Thu Nov 07 21:54:46 CET 2024
+│ +#Tue Dec 03 08:33:26 UTC 2024
+│  indexText=indexText
+│  copyright=copyright
+│  customHead=customHead
+│  templatePrefixes=templatePrefixes
+│  blogPageSize=blogPageSize
+│  customMenu=customMenu
+│  reverseBlogOrder=reverseBlogOrder
+├── META-INF/crest/io.yupiik.tools.cli.command.SlidesCommand/slides.0.properties
+│ @@ -1,8 +1,8 @@
+│ -#Thu Nov 07 21:54:46 CET 2024
+│ +#Tue Dec 03 08:33:26 UTC 2024
+│  slider=slider
+│  synchronizationFolders=synchronizationFolders
+│  customGems=customGems
+│  source=source
+│  templateDirs=templateDirs
+│  @arg.types=java.nio.file.Path, java.nio.file.Path, java.nio.file.Path, java.nio.file.Path, java.util.Map, java.lang.String, java.util.List, java.lang.String[], java.nio.file.Path, io.yupiik.tools.slides.SlidesConfiguration.Mode, io.yupiik.tools.slides.SlidesConfiguration.SliderType, int, int, java.util.List, java.io.PrintStream, java.io.PrintStream, io.yupiik.tools.cli.service.AsciidoctorProvider
+│  customScripts=customScripts
+├── META-INF/crest/io.yupiik.tools.cli.command.VersionInjectorCommand/inject-version.0.properties
+│ @@ -1,8 +1,8 @@
+│ -#Thu Nov 07 21:54:46 CET 2024
+│ +#Tue Dec 03 08:33:26 UTC 2024
+│  charset=charset
+│  include=includes
+│  inplace=inPlace
+│  replaced-string=replacedString
+│  source=source
+│  version-folder-pattern=versionFolderPattern
+│  @arg.types=java.nio.file.Path, java.nio.file.Path, boolean, java.nio.charset.Charset, java.util.List, java.util.List, java.lang.String, java.lang.String, java.nio.file.Path, java.lang.String, java.util.List, java.util.Map, java.io.PrintStream, java.io.PrintStream, io.yupiik.tools.cli.service.AsciidoctorProvider
+
+2 / 2 target/reference/io.yupiik.maven/yupiik-tools-cli-1.2.4-fatjar.jar yupiik-tools-cli/target/yupiik-tools-cli-1.2.4-fatjar.jar
+--- target/reference/io.yupiik.maven/yupiik-tools-cli-1.2.4-fatjar.jar
++++ yupiik-tools-cli/target/yupiik-tools-cli-1.2.4-fatjar.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 54272191 bytes, number of entries: 16405
+│ +Zip file size: 54272187 bytes, number of entries: 16405
+│  -rw----     2.0 fat      128 bX defN 24-Nov-07 20:49 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 24-Nov-07 20:49 META-INF/
+│  -rw----     2.0 fat        0 bl defN 24-Nov-07 20:49 META-INF/crest/
+│ @@ -2328,86 +2328,86 @@
+│  -rw----     2.0 fat      525 bl defN 21-Aug-08 10:43 org/asciidoctor/syntaxhighlighter/SyntaxHighlighterAdapter.class
+│  -rw----     2.0 fat      351 bl defN 21-Aug-08 10:43 org/asciidoctor/syntaxhighlighter/SyntaxHighlighterRegistry.class
+│  -rw----     2.0 fat      219 bl defN 21-Aug-08 10:43 org/asciidoctor/syntaxhighlighter/package-info.class
+│ --rw----     2.0 fat        0 bl defN 17-May-15 21:00 com/
+│ --rw----     2.0 fat        0 bl defN 17-May-15 21:00 com/beust/
+│ --rw----     2.0 fat        0 bl defN 17-May-15 21:00 com/beust/jcommander/
+...
+│ --rw----     2.0 fat      837 bl defN 17-May-15 21:00 com/beust/jcommander/validators/PositiveInteger.class
+│ --rw----     2.0 fat     4660 bl defN 17-May-15 21:00 com/beust/jcommander/WrappedParameter.class
+│ +-rw----     2.0 fat        0 bl defN 17-May-15 19:00 com/
+│ +-rw----     2.0 fat        0 bl defN 17-May-15 19:00 com/beust/
+│ +-rw----     2.0 fat        0 bl defN 17-May-15 19:00 com/beust/jcommander/
+...
+│ +-rw----     2.0 fat      837 bl defN 17-May-15 19:00 com/beust/jcommander/validators/PositiveInteger.class
+│ +-rw----     2.0 fat     4660 bl defN 17-May-15 19:00 com/beust/jcommander/WrappedParameter.class
+│  -rw----     2.0 fat     1282 bl defN 22-Jun-27 12:36 META-INF/BSDL
+│  -rw----     2.0 fat    76023 bl defN 22-Jun-27 12:36 META-INF/COPYING
+│ @@ -16400,8 +16400,8 @@
+│  -rw----     2.0 fat     3444 bl defN 20-Jan-05 13:58 META-INF/maven/org.tomitribe/tomitribe-util/pom.xml
+│  -rw----     2.0 fat      120 bl defN 20-Jan-05 13:58 META-INF/maven/org.tomitribe/tomitribe-util/pom.properties
+│ -16405 files, 89854259 bytes uncompressed, 51108997 bytes compressed:  43.1%
+│ +16405 files, 89854259 bytes uncompressed, 51108993 bytes compressed:  43.1%
+├── META-INF/crest/io.yupiik.tools.cli.command.Ascii2SVGCommand/ascii2svg.0.properties
+│ @@ -1,8 +1,8 @@
+│ -#Thu Nov 07 21:54:46 CET 2024
+│ +#Tue Dec 03 08:33:26 UTC 2024
+│  scale-x=scaleX
+│  input=input
+│  scale-y=scaleY
+│  tab=tabWidth
+│  blur=blur
+│  @arg.names=input, font, tabWidth, scaleX, scaleY, blur
+│  @arg.types=java.lang.String, java.lang.String, int, int, int, boolean
+├── META-INF/crest/io.yupiik.tools.cli.command.CryptCommand/crypt.0.properties
+│ @@ -1,6 +1,6 @@
+│ -#Thu Nov 07 21:54:46 CET 2024
+│ +#Tue Dec 03 08:33:26 UTC 2024
+│  masterPassword=masterPassword
+│  use-AES256GCM=useAes256Gcm
+│  @arg.names=masterPassword, value, useAes256Gcm
+│  value=value
+│  @arg.types=java.lang.String, java.lang.String, java.lang.Boolean
+├── META-INF/crest/io.yupiik.tools.cli.command.CryptCommand/decrypt.0.properties
+│ @@ -1,6 +1,6 @@
+│ -#Thu Nov 07 21:54:46 CET 2024
+│ +#Tue Dec 03 08:33:26 UTC 2024
+│  masterPassword=masterPassword
+│  use-AES256GCM=useAes256Gcm
+│  @arg.names=masterPassword, value, useAes256Gcm
+│  value=value
+│  @arg.types=java.lang.String, java.lang.String, java.lang.Boolean
+├── META-INF/crest/io.yupiik.tools.cli.command.MinisiteCommand/minisite.0.properties
+│ @@ -1,8 +1,8 @@
+│ -#Thu Nov 07 21:54:46 CET 2024
+│ +#Tue Dec 03 08:33:26 UTC 2024
+│  indexText=indexText
+│  copyright=copyright
+│  customHead=customHead
+│  templatePrefixes=templatePrefixes
+│  blogPageSize=blogPageSize
+│  customMenu=customMenu
+│  reverseBlogOrder=reverseBlogOrder
+├── META-INF/crest/io.yupiik.tools.cli.command.SlidesCommand/slides.0.properties
+│ @@ -1,8 +1,8 @@
+│ -#Thu Nov 07 21:54:46 CET 2024
+│ +#Tue Dec 03 08:33:26 UTC 2024
+│  slider=slider
+│  synchronizationFolders=synchronizationFolders
+│  customGems=customGems
+│  source=source
+│  templateDirs=templateDirs
+│  @arg.types=java.nio.file.Path, java.nio.file.Path, java.nio.file.Path, java.nio.file.Path, java.util.Map, java.lang.String, java.util.List, java.lang.String[], java.nio.file.Path, io.yupiik.tools.slides.SlidesConfiguration.Mode, io.yupiik.tools.slides.SlidesConfiguration.SliderType, int, int, java.util.List, java.io.PrintStream, java.io.PrintStream, io.yupiik.tools.cli.service.AsciidoctorProvider
+│  customScripts=customScripts
+├── META-INF/crest/io.yupiik.tools.cli.command.VersionInjectorCommand/inject-version.0.properties
+│ @@ -1,8 +1,8 @@
+│ -#Thu Nov 07 21:54:46 CET 2024
+│ +#Tue Dec 03 08:33:26 UTC 2024
+│  charset=charset
+│  include=includes
+│  inplace=inPlace
+│  replaced-string=replacedString
+│  source=source
+│  version-folder-pattern=versionFolderPattern
+│  @arg.types=java.nio.file.Path, java.nio.file.Path, boolean, java.nio.charset.Charset, java.util.List, java.util.List, java.lang.String, java.lang.String, java.nio.file.Path, java.lang.String, java.util.List, java.util.Map, java.io.PrintStream, java.io.PrintStream, io.yupiik.tools.cli.service.AsciidoctorProvider
+
