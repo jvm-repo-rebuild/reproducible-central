@@ -158,7 +158,7 @@ outputs.8.0.checksums.sha512=7a5b20945e5b8b0272cc2462638ab6977dba57bce37d0dd8416
 outputs.8.1.groupId=io.avaje
 outputs.8.1.filename=avaje-http-generator-core-2.9-RC3.jar
 outputs.8.1.length=526289
-outputs.8.1.checksums.sha512=3088fc2b19a5ba5685a7aceec94728c0c7369adbf79aaaa6d60d83ebcd420e53d0b2c4333aafd0a9f2ff5ae4631e3ad70b76d213098852623edd10e6e1a83661
+outputs.8.1.checksums.sha512=4dc9de5cca3b1633fb0acd6256a3b2eb900d63286c9be28ed29e2a1e7287662048dee9352021a8a9f5ff4dcbda37a1359f2596050bda44f89353b1cf85bfd6f9
 
 outputs.8.2.groupId=io.avaje
 outputs.8.2.filename=avaje-http-generator-core-2.9-RC3-sources.jar
@@ -175,7 +175,7 @@ outputs.9.0.checksums.sha512=1f351bcf7b7f60c6f08d5ca1b364674b33ed049054d63be4c48
 outputs.9.1.groupId=io.avaje
 outputs.9.1.filename=avaje-http-javalin-generator-2.9-RC3.jar
 outputs.9.1.length=554316
-outputs.9.1.checksums.sha512=dde9800c6baf07e0e5fd1a96a7e2f3b0928a2b7728a102fbf156aa4d8460b3417f85b3595617106368c250f21183ecab192907a0671f20481ef977bd2d90177b
+outputs.9.1.checksums.sha512=6e38d0878d8548cb24ce5ac359ca16687836b937331afa045ed6692a667639474b9189b31e00e024a7f4b96fc3029fcf1797c4c9290965e8a841416a0655cb08
 
 outputs.9.2.groupId=io.avaje
 outputs.9.2.filename=avaje-http-javalin-generator-2.9-RC3-sources.jar
@@ -192,7 +192,7 @@ outputs.10.0.checksums.sha512=07ef250d027642c15ed95b5d03dac66d85c771f125a83743fb
 outputs.10.1.groupId=io.avaje
 outputs.10.1.filename=avaje-http-sigma-generator-2.9-RC3.jar
 outputs.10.1.length=536568
-outputs.10.1.checksums.sha512=50c983c394337ed8d9e2e8b230a401250da27026ad5b355faf212cbc06fe0c67125b29bc208c5be3871d6db98c38d8e958dce04e81f33545c44c25c159f3aca3
+outputs.10.1.checksums.sha512=314f4724c766067fb0342b67e6c98d1f5d7f549cbefdc96a7fd2ca47553cdc8537d9e648271951771210c5f5173f2b4a1f2b4a61cffd826186f2f2541f5a5b98
 
 outputs.10.2.groupId=io.avaje
 outputs.10.2.filename=avaje-http-sigma-generator-2.9-RC3-sources.jar
@@ -209,7 +209,7 @@ outputs.11.0.checksums.sha512=e08d5ca87798da3bcb059ec5614b3e563d8c47d49b43a3e928
 outputs.11.1.groupId=io.avaje
 outputs.11.1.filename=avaje-http-client-generator-2.9-RC3.jar
 outputs.11.1.length=564279
-outputs.11.1.checksums.sha512=d95250612b67003f2392bb723d2aa28eabf9b7696818874c93baed7da9c3e3eec624096cdbfd47359ed0c3c027b60971f0956f2874244a36c5936d0e31b6509f
+outputs.11.1.checksums.sha512=ab3148e471b7b8fe064c1272e6f5bfe9b0b4b4ca5478c81045646522c1f7b65f9bbd1308eaad3cea887ff6c45ab325340c64cb847c8e88343a7462023949ad0d
 
 outputs.11.2.groupId=io.avaje
 outputs.11.2.filename=avaje-http-client-generator-2.9-RC3-sources.jar
@@ -260,7 +260,7 @@ outputs.14.0.checksums.sha512=d854cb8a4b2b52b00e5d93cb669c9d8e7ad4cf823692e1bf07
 outputs.14.1.groupId=io.avaje
 outputs.14.1.filename=avaje-http-helidon-generator-2.9-RC3.jar
 outputs.14.1.length=546783
-outputs.14.1.checksums.sha512=082175c2597e5c07df7a90f79e321796178722a8128e04158b3c335ea97e70b8e2504b1347d293de7dfa5119f7dcdb579800eb32550c66e852f6909cf90f38dd
+outputs.14.1.checksums.sha512=fdb13e04d61599cc9a69056346c62dcb4451135524142dffe250359150130f1a87ec8882ed2bb0e9885db915b06d7b3b575b9aa56f32f87997134fb040464768
 
 outputs.14.2.groupId=io.avaje
 outputs.14.2.filename=avaje-http-helidon-generator-2.9-RC3-sources.jar
@@ -277,7 +277,7 @@ outputs.15.0.checksums.sha512=dbac7c55b72d3ecf207512e8e24199596658b98276f80ecfe2
 outputs.15.1.groupId=io.avaje
 outputs.15.1.filename=avaje-http-jex-generator-2.9-RC3.jar
 outputs.15.1.length=542127
-outputs.15.1.checksums.sha512=5d378ec766ad32aa0428cc10d98406b566ef5d289906ac5d6119746234d78e629c54085cec4a8c2c7604e5cf63f1a52f02db42921289a31bc51cbfb4683a7ac1
+outputs.15.1.checksums.sha512=a3c3715d024c20efffe591c6377bac095d030e1788f7f9a28cfddca76f34fca117bd1db8b806c5d1261dd209f47f0685a335b9185c368592b3c97348cf10b0c9
 
 outputs.15.2.groupId=io.avaje
 outputs.15.2.filename=avaje-http-jex-generator-2.9-RC3-sources.jar
