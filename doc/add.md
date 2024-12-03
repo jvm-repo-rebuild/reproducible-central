@@ -4,14 +4,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241202150531 --> [org.apache.sling.feature.analyser](../content/org/apache/sling/org.apache.sling.feature.analyser/README.md) | [2.0.10](../content/org/apache/sling/org.apache.sling.feature.analyser/org.apache.sling.feature.analyser-2.0.10.buildspec) :white_check_mark: | [2.0.12](../content/org/apache/sling/org.apache.sling.feature.analyser/org.apache.sling.feature.analyser-2.0.12.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.feature.analyser/org.apache.sling.feature.analyser-2.0.10.buildspec 2.0.12` |
-| <!-- 20241202150525 --> [org.apache.sling.feature](../content/org/apache/sling/org.apache.sling.feature/README.md) | [2.0.0](../content/org/apache/sling/org.apache.sling.feature/org.apache.sling.feature-2.0.0.buildspec) :white_check_mark: | [2.0.2](../content/org/apache/sling/org.apache.sling.feature/org.apache.sling.feature-2.0.2.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.feature/org.apache.sling.feature-2.0.0.buildspec 2.0.2` |
-| <!-- 20241202085621 --> [avaje-jex-parent](../content/io/avaje/jex/README.md) | [3.0-RC4](../content/io/avaje/jex/avaje-jex-3.0-RC4.buildspec) :white_check_mark: | [3.0-RC7](../content/io/avaje/jex/avaje-jex-3.0-RC7.buildspec) | `bin/add-new-release.sh content/io/avaje/jex/avaje-jex-3.0-RC4.buildspec 3.0-RC7` |
-| <!-- 20241202085621 --> [avaje-jex-parent](../content/io/avaje/jex/README.md) | [3.0-RC4](../content/io/avaje/jex/avaje-jex-3.0-RC4.buildspec) :white_check_mark: | 3.0-RC6 3.0-RC5  | `bin/add-new-release.sh content/io/avaje/jex/avaje-jex-3.0-RC4.buildspec ...` |
+| <!-- 20241203053542 --> [avaje-jex-parent](../content/io/avaje/jex/README.md) | [3.0-RC7](../content/io/avaje/jex/avaje-jex-3.0-RC7.buildspec) :white_check_mark: | [3.0-RC8](../content/io/avaje/jex/avaje-jex-3.0-RC8.buildspec) | `bin/add-new-release.sh content/io/avaje/jex/avaje-jex-3.0-RC7.buildspec 3.0-RC8` |
+| <!-- 20241202231433 --> [mybatis-parent](../content/org/mybatis/parent/README.md) | [45](../content/org/mybatis/parent/mybatis-parent-45.buildspec) :white_check_mark: | [46](../content/org/mybatis/parent/mybatis-parent-46.buildspec) | `bin/add-new-release.sh content/org/mybatis/parent/mybatis-parent-45.buildspec 46` |
 | <!-- 20241129052209 --> [helix](../content/org/apache/helix/README.md) | [1.4.1](../content/org/apache/helix/helix-1.4.1.buildspec) :white_check_mark: | [1.4.2](../content/org/apache/helix/helix-1.4.2.buildspec) | `bin/add-new-release.sh content/org/apache/helix/helix-1.4.1.buildspec 1.4.2` |
-| <!-- 20241118183025 --> [base-parent](../content/com/github/hazendaz/base-parent/README.md) | [50](../content/com/github/hazendaz/base-parent/base-parent-50.buildspec) :white_check_mark: | 48 47 46 45 44 43 42 41  | `bin/add-new-release.sh content/com/github/hazendaz/base-parent/base-parent-50.buildspec ...` |
-| <!-- 20240828195741 --> [module-parent](../content/io/dropwizard/modules/parent/README.md) | [2.1.0](../content/io/dropwizard/modules/parent/module-parent-2.1.0.buildspec) :white_check_mark: | [4.0.3](../content/io/dropwizard/modules/parent/module-parent-4.0.3.buildspec) | `bin/add-new-release.sh content/io/dropwizard/modules/parent/module-parent-2.1.0.buildspec 4.0.3` |
-| <!-- 20240828195741 --> [module-parent](../content/io/dropwizard/modules/parent/README.md) | [2.1.0](../content/io/dropwizard/modules/parent/module-parent-2.1.0.buildspec) :white_check_mark: | 4.0.2 4.0.1 4.0.0 4.0.0-rc.2 4.0.0-rc.1 3.0.3 3.0.2 3.0.1 3.0.0 3.0.0-rc.2 3.0.0-rc.1 2.1.3 2.1.2 2.1.1  | `bin/add-new-release.sh content/io/dropwizard/modules/parent/module-parent-2.1.0.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -25,6 +20,7 @@ New Releases To Add
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
 | <!-- 20241129063107 --> [:mailbox:](https://lists.apache.org/list?dev@struts.apache.org:lte=1M:VOTE) | [struts2-parent](../content/org/apache/struts/README.md) | [6.7.0](../content/org/apache/struts/struts2-6.7.0.buildspec) :white_check_mark: | [7.0.0-M10](../content/org/apache/struts/struts2-7.0.0-M10.buildspec)  | `bin/add-new-release.sh content/org/apache/struts/struts2-6.7.0.buildspec 7.0.0-M10 staging` |
+| <!-- 20241118100302 --> [:mailbox:](https://lists.apache.org/list?dev@sling.apache.org:lte=1M:VOTE) | [org.apache.sling.models.impl](../content/org/apache/sling/org.apache.sling.models.impl/README.md) | [1.7.4](../content/org/apache/sling/org.apache.sling.models.impl/org.apache.sling.models.impl-1.7.4.buildspec) :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-models-impl/pull/58) | [1.7.6](../content/org/apache/sling/org.apache.sling.models.impl/org.apache.sling.models.impl-1.7.6.buildspec)  | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.models.impl/org.apache.sling.models.impl-1.7.4.buildspec 1.7.6 staging` |
 | <!-- 20241024125949 --> [:mailbox:](https://lists.apache.org/list?dev@camel.apache.org:lte=1M:VOTE) | [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.9.0](../content/org/apache/camel/camel/camel-4.9.0.buildspec)  | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.9.0 staging` |
 | <!-- 20240826212953 --> [:mailbox:](https://lists.apache.org/list?dev@cxf.apache.org:lte=1M:VOTE) | [xjc-utils](../content/org/apache/cxf/xjc-utils/README.md) | [4.0.2](../content/org/apache/cxf/xjc-utils/xjc-utils-4.0.2.buildspec) :white_check_mark: | [4.1.0](../content/org/apache/cxf/xjc-utils/xjc-utils-4.1.0.buildspec)  | `bin/add-new-release.sh content/org/apache/cxf/xjc-utils/xjc-utils-4.0.2.buildspec 4.1.0 staging` |
 | <!-- 20230523070720 --> [:mailbox:](https://lists.apache.org/list?dev@royale.apache.org:lte=1M:VOTE) | [compiler](../content/org/apache/royale/compiler/README.md) | [0.9.10](../content/org/apache/royale/compiler/royale-compiler-0.9.10.buildspec) :warning: | [0.9.12](../content/org/apache/royale/compiler/royale-compiler-0.9.12.buildspec)  | `bin/add-new-release.sh content/org/apache/royale/compiler/royale-compiler-0.9.10.buildspec 0.9.12 staging` |
@@ -36,9 +32,10 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241202185648 --> [pulsar](../content/org/apache/pulsar/README.md) | [4.0.0](../content/org/apache/pulsar/pulsar-4.0.0.buildspec) :warning: [:memo:](https://github.com/apache/pulsar/pull/23639) | [4.0.1](../content/org/apache/pulsar/pulsar-4.0.1.buildspec) | `bin/add-new-release.sh content/org/apache/pulsar/pulsar-4.0.0.buildspec 4.0.1` |
-| <!-- 20241202101055 --> [avaje-http-parent](../content/io/avaje/http/README.md) | [2.9-RC2](../content/io/avaje/http/avaje-http-2.9-RC2.buildspec) :warning: | [2.9-RC3](../content/io/avaje/http/avaje-http-2.9-RC3.buildspec) | `bin/add-new-release.sh content/io/avaje/http/avaje-http-2.9-RC2.buildspec 2.9-RC3` |
-| <!-- 20241128191029 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.67.2](../content/org/finos/legend/engine/legend-engine-4.67.2.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.67.2` |
+| <!-- 20241203144539 --> [pulsar](../content/org/apache/pulsar/README.md) | [4.0.0](../content/org/apache/pulsar/pulsar-4.0.0.buildspec) :warning: [:memo:](https://github.com/apache/pulsar/pull/23639) | [4.0.1](../content/org/apache/pulsar/pulsar-4.0.1.buildspec) | `bin/add-new-release.sh content/org/apache/pulsar/pulsar-4.0.0.buildspec 4.0.1` |
+| <!-- 20241203114430 --> [kubernetes-client-project](../content/io/fabric8/kubernetes-client/README.md) | [6.13.4](../content/io/fabric8/kubernetes-client/kubernetes-client-6.13.4.buildspec) :warning: | [7.0.0](../content/io/fabric8/kubernetes-client/kubernetes-client-7.0.0.buildspec) | `bin/add-new-release.sh content/io/fabric8/kubernetes-client/kubernetes-client-6.13.4.buildspec 7.0.0` |
+| <!-- 20241203095654 --> [avaje-http-parent](../content/io/avaje/http/README.md) | [2.9-RC3](../content/io/avaje/http/avaje-http-2.9-RC3.buildspec) :warning: | [2.9-RC4](../content/io/avaje/http/avaje-http-2.9-RC4.buildspec) | `bin/add-new-release.sh content/io/avaje/http/avaje-http-2.9-RC3.buildspec 2.9-RC4` |
+| <!-- 20241202205530 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.67.3](../content/org/finos/legend/engine/legend-engine-4.67.3.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.67.3` |
 | <!-- 20241120144345 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.0.2](../content/com/taobao/arthas/arthas-4.0.2.buildspec) :warning: | [4.0.4](../content/com/taobao/arthas/arthas-4.0.4.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.0.2.buildspec 4.0.4` |
 | <!-- 20241110060152 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.18.2](../content/org/webjars/swagger-ui/swagger-ui-5.18.2.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.18.2` |
 | <!-- 20241024125949 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.8.1](../content/org/apache/camel/camel/camel-4.8.1.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.8.1` |
@@ -57,6 +54,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20241203132335 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 8.0.0-JDK17-M7 :warning: |
 | <!-- 20241129071420 --> [license-maven-plugin](../content/org/codehaus/mojo/license-maven-plugin/README.md) | 2.5.0 :warning: |
 | <!-- 20241128212009 --> [quarkus-project](../content/io/quarkus/README.md) | 3.17.2 :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) |
 | <!-- 20241128150725 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | 5.2.3 :x: |
@@ -82,11 +80,11 @@ New Releases To Add
 | <!-- 20241112082354 --> [evm-abi-decoder](../content/net/osslabz/evm-abi-decode/README.md) | 0.1.0 :warning: |
 | <!-- 20241111015604 --> [ratis](../content/org/apache/ratis/README.md) | 3.1.2 :warning: |
 | <!-- 20241109124721 --> [commons-release-plugin](../content/org/apache/commons/commons-release-plugin/README.md) | 1.8.3 :warning: |
+| <!-- 20241107205610 --> [yupiik-tools-maven-plugin-parent](../content/io/yupiik/maven/plugin/README.md) | 1.2.4 :warning: |
 | <!-- 20241106160454 --> [tomcat-authnz-spnego-ad](../content/net/sf/michael-o/tomcat/tomcat-authnz-spnego-ad/README.md) | 4.2.4 :warning: [:memo:](https://github.com/michael-o/tomcatspnegoad/issues/32) |
 | <!-- 20241105103840 --> [atom-jaxb-parent](../content/fr/vidal/oss/README.md) | 2.0.0 :x: |
 | <!-- 20241103233526 --> [byte-buddy-parent](../content/net/bytebuddy/README.md) | 1.15.10 :warning: |
 | <!-- 20241101123729 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 2.11.4 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-resolver/pull/39) |
-| <!-- 20241101102917 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 8.0.0-JDK17-M7 :warning: |
 | <!-- 20241101075826 --> [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | 1.1.2 :warning: [:memo:](https://github.com/jpmml/jpmml-statsmodels/pull/4) |
 | <!-- 20241028173435 --> [flink-kubernetes-operator-parent](../content/org/apache/flink/flink-kubernetes-operator/README.md) | 1.10.0 :warning: |
 | <!-- 20241025185600 --> [jdbi3-root](../content/org/jdbi/README.md) | 3.47.0 :warning: [:memo:](https://github.com/jdbi/jdbi/issues/2732) |
@@ -104,7 +102,6 @@ New Releases To Add
 | <!-- 20241002220928 --> [sshd](../content/org/apache/sshd/README.md) | 2.14.0 :warning: |
 | <!-- 20241002073844 --> [hive](../content/org/apache/hive/README.md) | 4.0.1 :warning: [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) |
 | <!-- 20240930082825 --> [io.wcm.caconfig.editor.root](../content/io/wcm/io.wcm.caconfig/README.md) | 1.16.6 :warning: |
-| <!-- 20240925091104 --> [kubernetes-client-project](../content/io/fabric8/kubernetes-client/README.md) | 6.13.4 :warning: |
 | <!-- 20240924045546 --> [plexus-utils](../content/org/codehaus/plexus/plexus-utils/README.md) | 4.0.2 :warning: |
 | <!-- 20240923204413 --> [guava](../content/com/google/guava/README.md) | 33.3.1-jre :warning: |
 | <!-- 20240916091231 --> [io.wcm.wcm.ui.clientlibs](../content/io/wcm/io.wcm.wcm/ui/clientlibs/README.md) | 1.4.0 :warning: |
