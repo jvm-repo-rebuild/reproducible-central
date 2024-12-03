@@ -25,3 +25,13 @@ outputs.0.groupId=io.dropwizard.modules
 outputs.0.filename=module-parent-4.0.3.pom
 outputs.0.length=10008
 outputs.0.checksums.sha512=25b20876dce51780b3b39f88d72a92212354fbe47c7c05d6a287aa391864e2c06066a535251b87a6cfdb9760e0c79a2c60b6bae297f7e211a95f97cf3b1edd4f
+
+outputs.1.groupId=io.dropwizard.modules
+outputs.1.filename=module-parent-4.0.3-cyclonedx.xml
+outputs.1.length=3084
+outputs.1.checksums.sha512=f907abf3f47facbfc79036afa5c6ff11f61578858fb8520621732a7defbc6bf75f90053f765c45f591908720bd0dd4fd16daeb01bead78282b31a02863f664d8
+
+outputs.2.groupId=io.dropwizard.modules
+outputs.2.filename=module-parent-4.0.3-cyclonedx.json
+outputs.2.length=3584
+outputs.2.checksums.sha512=b383692834a070ab69eb99426838b030f57100d7b3596fae684909121baac796847f12005b118c1d973ba6e8d367cf88814c5424b32c20dc52413d43f2ea2875

@@ -13,7 +13,7 @@ rebuilding **2 releases** of io.dropwizard.modules:module-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.0.3](https://central.sonatype.com/artifact/io.dropwizard.modules/module-parent/4.0.3/pom) | [mvn jdk11](module-parent-4.0.3.buildspec) | [result](module-parent-4.0.3.buildinfo): [1 :white_check_mark: ](module-parent-4.0.3.buildcompare) | 9.8K |
+| [4.0.3](https://central.sonatype.com/artifact/io.dropwizard.modules/module-parent/4.0.3/pom) | [mvn jdk11](module-parent-4.0.3.buildspec) | [result](module-parent-4.0.3.buildinfo): [3 :white_check_mark: ](module-parent-4.0.3.buildcompare) | 17K |
 | [4.0.2](https://central.sonatype.com/artifact/io.dropwizard.modules/module-parent/4.0.2/pom) | | | |
 | [4.0.1](https://central.sonatype.com/artifact/io.dropwizard.modules/module-parent/4.0.1/pom) | | | |
 | [4.0.0](https://central.sonatype.com/artifact/io.dropwizard.modules/module-parent/4.0.0/pom) | | | |
