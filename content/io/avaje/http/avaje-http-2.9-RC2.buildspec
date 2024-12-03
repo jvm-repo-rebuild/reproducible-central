@@ -11,7 +11,7 @@ tool=mvn
 jdk=21
 newline=lf
 #umask=022
-timezone="America/New_York"
+timezone="Pacific/Auckland"
 
 command="mvn -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
