@@ -200,16 +200,16 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:zjsonpatch](https://central.sonatype.com/artifact/io.fabric8/zjsonpatch/overview)
 </details>
 
-rebuilding **13 releases** of io.fabric8:kubernetes-client-project:
+rebuilding **14 releases** of io.fabric8:kubernetes-client-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 14 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [7.0.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.0.0/pom) | [mvn jdk11](kubernetes-client-7.0.0.buildspec) | [result](kubernetes-client-project-7.0.0.buildinfo): [360 :white_check_mark:  2 :warning:](kubernetes-client-project-7.0.0.buildcompare) [:mag:](kubernetes-client-project-7.0.0.diffoscope) | 210M |
 | [6.13.4](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.13.4/pom) | [mvn jdk8](kubernetes-client-6.13.4.buildspec) | [result](kubernetes-client-project-6.13.4.buildinfo): [451 :white_check_mark:  8 :warning:](kubernetes-client-project-6.13.4.buildcompare) [:mag:](kubernetes-client-project-6.13.4.diffoscope) | 182M |
 | [6.13.3](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.13.3/pom) | [mvn jdk8](kubernetes-client-6.13.3.buildspec) | [result](kubernetes-client-project-6.13.3.buildinfo): [451 :white_check_mark:  8 :warning:](kubernetes-client-project-6.13.3.buildcompare) [:mag:](kubernetes-client-project-6.13.3.diffoscope) | 182M |
-| [6.13.2](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.13.2/pom) | | | |
+| [6.13.2](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.13.2/pom) | [mvn jdk8](kubernetes-client-6.13.2.buildspec) | [result](kubernetes-client-project-6.13.2.buildinfo): [452 :white_check_mark:  3 :warning:](kubernetes-client-project-6.13.2.buildcompare) | 182M |
 | [6.13.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.13.1/pom) | | | |
 | [6.13.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.13.0/pom) | | | |
 | [6.12.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.12.1/pom) | | | |
