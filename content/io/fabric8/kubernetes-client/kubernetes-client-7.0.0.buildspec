@@ -16,5 +16,5 @@ execBefore="chmod a+x kubernetes-client-api/src/test/resources/*-generator"
 
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=
