@@ -7,22 +7,23 @@
 
 Source code: [https://github.com/telicent-oss/rdf-abac](https://github.com/telicent-oss/rdf-abac)
 
-<details><summary>This project defines 5 modules:</summary>
+<details><summary>This project defines 6 modules:</summary>
 
 * [io.telicent.jena:rdf-abac](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/overview)
 * [io.telicent.jena:rdf-abac-core](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac-core/overview)
+* [io.telicent.jena:rdf-abac-coverage-report](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac-coverage-report/overview)
 * [io.telicent.jena:rdf-abac-eval](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac-eval/overview)
 * [io.telicent.jena:rdf-abac-fuseki](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac-fuseki/overview)
 * [io.telicent.jena:rdf-abac-fuseki-server](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac-fuseki-server/overview)
 </details>
 
-rebuilding **9 releases** of io.telicent.jena:rdf-abac:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of io.telicent.jena:rdf-abac:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.72.1](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.72.1/pom) | | | |
+| [0.72.1](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.72.1/pom) | [mvn jdk17](rdf-abac-0.72.1.buildspec) | [result](rdf-abac-0.72.1.buildinfo): [32 :white_check_mark: ](rdf-abac-0.72.1.buildcompare) | 100M |
 | [0.72.0](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.72.0/pom) | [mvn jdk17](rdf-abac-0.72.0.buildspec) | [result](rdf-abac-0.72.0.buildinfo): [28 :white_check_mark: ](rdf-abac-0.72.0.buildcompare) | 100M |
 | [0.71.10](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.71.10/pom) | [mvn jdk17](rdf-abac-0.71.10.buildspec) | [result](rdf-abac-0.71.10.buildinfo): [28 :white_check_mark: ](rdf-abac-0.71.10.buildcompare) | 98M |
 | [0.71.9](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.71.9/pom) | [mvn jdk17](rdf-abac-0.71.9.buildspec) | [result](rdf-abac-0.71.9.buildinfo): [28 :white_check_mark: ](rdf-abac-0.71.9.buildcompare) | 97M |
