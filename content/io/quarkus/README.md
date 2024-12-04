@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quarkusio/quarkus.git)
 
-<details><summary>This project defines 1011 modules:</summary>
+<details><summary>This project defines 1014 modules:</summary>
 
 * [io.quarkus.arc:arc](https://central.sonatype.com/artifact/io.quarkus.arc/arc/overview)
 * [io.quarkus.arc:arc-arquillian](https://central.sonatype.com/artifact/io.quarkus.arc/arc-arquillian/overview)
@@ -541,6 +541,9 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-narayana-stm-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-narayana-stm-parent/overview)
 * [io.quarkus:quarkus-netty](https://central.sonatype.com/artifact/io.quarkus/quarkus-netty/overview)
 * [io.quarkus:quarkus-netty-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-netty-deployment/overview)
+* [io.quarkus:quarkus-netty-loom-adaptor](https://central.sonatype.com/artifact/io.quarkus/quarkus-netty-loom-adaptor/overview)
+* [io.quarkus:quarkus-netty-loom-adaptor-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-netty-loom-adaptor-deployment/overview)
+* [io.quarkus:quarkus-netty-loom-adaptor-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-netty-loom-adaptor-parent/overview)
 * [io.quarkus:quarkus-netty-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-netty-parent/overview)
 * [io.quarkus:quarkus-observability-devresource-common](https://central.sonatype.com/artifact/io.quarkus/quarkus-observability-devresource-common/overview)
 * [io.quarkus:quarkus-observability-devresource-lgtm](https://central.sonatype.com/artifact/io.quarkus/quarkus-observability-devresource-lgtm/overview)
@@ -1022,9 +1025,9 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **34 releases** of io.quarkus:quarkus-project:
+rebuilding **35 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 34 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 35 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -1066,5 +1069,7 @@ rebuilding **34 releases** of io.quarkus:quarkus-project:
 | [3.10.2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.10.2/pom) | [mvn jdk17](quarkus-3.10.2.buildspec) | [result](quarkus-project-3.10.2.buildinfo): [2205 :white_check_mark:  12 :warning:](quarkus-project-3.10.2.buildcompare) | 97M |
 | [3.10.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.10.1/pom) | [mvn jdk17](quarkus-3.10.1.buildspec) | [result](quarkus-project-3.10.1.buildinfo): [2205 :white_check_mark:  12 :warning:](quarkus-project-3.10.1.buildcompare) | 97M |
 | [3.10.0](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.10.0/pom) | [mvn jdk17](quarkus-3.10.0.buildspec) | [result](quarkus-project-3.10.0.buildinfo): [2205 :white_check_mark:  12 :warning:](quarkus-project-3.10.0.buildcompare) | 97M |
+| [3.10.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.10.0.CR1/pom) | | | |
+| [3.9.5](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.9.5/pom) | [mvn jdk17](quarkus-3.9.5.buildspec) | [result](quarkus-project-3.9.5.buildinfo): [2204 :white_check_mark:  12 :warning:](quarkus-project-3.9.5.buildcompare) | 94M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
