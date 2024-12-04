@@ -17,4 +17,4 @@ execBefore="chmod a+x kubernetes-client-api/src/test/resources/*-generator"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/fabric8io/kubernetes-client/commit/3c889e7752fa2b841c8764a62c1754df0bdf963f#diff-9c5fb3d1b7e3b0f54bc5c4182965c4fe1f9023d449017cece3005d3f90e8e4d8L167
