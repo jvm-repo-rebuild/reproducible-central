@@ -24,6 +24,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.LinkedHashMap;
 import java.util.Optional;
 import java.util.Properties;
 import java.util.Set;
@@ -94,6 +95,7 @@ public class update_api extends SimpleFileVisitor<Path> {
         }
 
         List<String> versions = new ArrayList<>();
+        Map<String, String> versionsMap = new LinkedHashMap<>();
         Set<String> projectGa = new HashSet<>();
         long projectGav = 0;
         List<String> coordinates = null;
@@ -103,6 +105,7 @@ public class update_api extends SimpleFileVisitor<Path> {
         for(String v: metadata.getVersioning().getVersions()) {
             String buildspec = findFile(filenames, "-" + v + ".buildspec");
             if (buildspec == null) {
+                versionsMap.put(v, "?");
                 continue;
             }
             versions.add(v);
@@ -145,8 +148,12 @@ public class update_api extends SimpleFileVisitor<Path> {
                 //    .filter(s -> s.startsWith("# diffoscope"))
                 //    .map(s -> s.substring("# diffoscope target/reference/".length(), s.lastIndexOf(' ')))
                 //    .collect(Collectors.toList());
+                versionsMap.put(v, ok + "/" + (ok + ko));
+            } else {
+                versionsMap.put(v, "X");
             }
 
+            // project badge at /badge/project/{projectPath}/{version}.json
             Path badge = writeBadge(BADGE_PROJECT_BASE.resolve(CONTENT_BASE.relativize(path)).resolve(v + ".json"), ok, ko);
 
             for(String c: coordinates) {
@@ -161,9 +168,10 @@ public class update_api extends SimpleFileVisitor<Path> {
                 Files.createDirectories(artifactPath);
                 Files.write(artifactPath.resolve(v + ".txt"), Arrays.asList(CONTENT_BASE.relativize(path).toString()));
 
-                Path badgePath = BADGE_ARTIFACT_BASE.resolve(groupId.replace('.', '/')).resolve(artifactId);
-                Files.createDirectories(badgePath);
-                Files.copy(badge, badgePath.resolve(v + ".json"), StandardCopyOption.REPLACE_EXISTING);
+                // artifact badge at /badge/artifact/{groupId as dir}/{artifactId}/{version}.json
+                Path artifactBadgePath = BADGE_ARTIFACT_BASE.resolve(groupId.replace('.', '/')).resolve(artifactId);
+                Files.createDirectories(artifactBadgePath);
+                Files.copy(badge, artifactBadgePath.resolve(v + ".json"), StandardCopyOption.REPLACE_EXISTING);
             }
             ga.addAll(projectGa);
         }
@@ -175,17 +183,18 @@ public class update_api extends SimpleFileVisitor<Path> {
         for(String ga: projectGa) {
             String groupId = ga.substring(0, ga.indexOf(':'));
             String artifactId = ga.substring(groupId.length() + 1);
-            Path badgePath = BADGE_ARTIFACT_BASE.resolve(groupId.replace('.', '/')).resolve(artifactId);
+            Path artifactBadgePath = BADGE_ARTIFACT_BASE.resolve(groupId.replace('.', '/')).resolve(artifactId);
 
             Set<String> gaVersions;
-            try (Stream<Path> walk = Files.walk(badgePath, 1)) {
+            try (Stream<Path> walk = Files.walk(artifactBadgePath, 1)) {
                 gaVersions = walk.map(p -> p.getFileName().toString())
                     .filter(s -> s.endsWith(".json"))
                     .map(s -> s.substring(0, s.length() - 5))
                     .collect(Collectors.toSet());
             }
 
-            try (BufferedWriter w = Files.newBufferedWriter(badgePath.resolve("index.html"), StandardOpenOption.CREATE)) {
+            // artifact badge index at /badge/artifact/{groupId as dir}/{artifactId}/index.html
+            try (BufferedWriter w = Files.newBufferedWriter(artifactBadgePath.resolve("index.html"), StandardOpenOption.CREATE)) {
                 w.write("<!DOCTYPE html><html><body>");
                 w.newLine();
                 w.write("<h1>" + ga + "</h1>");
@@ -200,13 +209,38 @@ public class update_api extends SimpleFileVisitor<Path> {
                 w.newLine();
                 for(String v: metadata.getVersioning().getVersions()) {
                     if (gaVersions.contains(v)) {
-                        w.write("<li><img src=\"https://img.shields.io/endpoint?url=https://jvm-repo-rebuild.github.io/reproducible-central/badge/artifact/" + groupId.replace('.', '/') + '/' + artifactId + '/' + v + ".json\"/> " + v + "</li>");
+                        w.write("<li><img src=\"https://img.shields.io/endpoint?url=https://jvm-repo-rebuild.github.io/reproducible-central/badge/artifact/" + groupId.replace('.', '/') + '/' + artifactId + '/' + v + ".json\"/>" + v + "</li>");
                         w.newLine();
                     }
                 }
                 w.write("</ul>");
                 w.newLine();
                 w.write("</body></html>");
+                w.newLine();
+            }
+
+            // new Shields artifact badge index at /badge/artifact/{groupId as dir}/{artifactId}.html
+            // TODO: once https://github.com/badges/shields/pull/10705 rewrite to use the new badge
+            Files.copy(artifactBadgePath.resolve("index.html"), artifactBadgePath.getParent().resolve(artifactId + ".html"), StandardCopyOption.REPLACE_EXISTING);
+
+            // new Shields artifact badge json at /badge/artifact/{groupId as dir}/{artifactId}.json
+            try (BufferedWriter w = Files.newBufferedWriter(artifactBadgePath.getParent().resolve(artifactId + ".json"), StandardOpenOption.CREATE)) {
+                w.write("{");
+                List<Map.Entry<String, String>> entries = new ArrayList<>(versionsMap.entrySet());
+                Collections.reverse(entries);
+                boolean first = true;
+                for(Map.Entry<String, String> e: entries) {
+                    if (first) {
+                        first = false;
+                    } else {
+                        w.write(",");
+                    }
+                    w.newLine();
+                    w.write("\"" + e.getKey() + "\": \"" + e.getValue() + "\"");
+                }
+                w.newLine();
+                w.write("}");
+                w.newLine();
             }
         }
         System.out.println(" " + versions.size() + " versions, " + projectGa.size() + " ga, " + projectGav + " gav");
