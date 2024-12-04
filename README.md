@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **5484 releases** of **749 projects**:
-   - **4085** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 1399 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 749 projects, 643 have at least one fully reproducible release, 106 have none
+   rebuilding **5498 releases** of **749 projects**:
+   - **4090** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 1408 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 749 projects, 644 have at least one fully reproducible release, 105 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -249,12 +249,12 @@ Its objectives are to provide:
 | fr.vidal.oss | [atom-jaxb](content/fr/vidal/oss/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
 | io.jooby | [jooby](content/io/jooby/README.md) | 28 | 28 :warning: |
 | io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 64 | 63 :white_check_mark: / 1 :warning: |
-| io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 32 | 32 :warning: |
+| io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 37 | 37 :warning: |
 | io.trino | [trino-root](content/io/trino/README.md) | 21 | 16 :white_check_mark: / 5 :warning: |
 | io.airlift | [airbase](content/io/airlift/airbase/README.md) | 46 | 44 :white_check_mark: / 2 :warning: |
-| io.avaje | [avaje-http-parent](content/io/avaje/http/README.md) | 3 | 3 :warning: |
+| io.avaje | [avaje-http-parent](content/io/avaje/http/README.md) | 4 | 4 :white_check_mark: |
 | | [avaje-inject-parent](content/io/avaje/inject/README.md) | 8 | 6 :white_check_mark: / 2 :warning: |
-| | [avaje-jex-parent](content/io/avaje/jex/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
+| | [avaje-jex-parent](content/io/avaje/jex/README.md) | 8 | 6 :white_check_mark: / 2 :warning: |
 | | [avaje-prisms-parent](content/io/avaje/prisms/README.md) | 2 | 2 :white_check_mark: |
 | | [avaje-spi-parent](content/io/avaje/spi/README.md) | 1 | 1 :white_check_mark: |
 | io.cucumber | [ci-environment](content/io/cucumber/ci-environment/README.md) | 2 | 2 :white_check_mark: |
@@ -273,7 +273,7 @@ Its objectives are to provide:
 | io.dropwizard.modules | [module-parent](content/io/dropwizard/modules/parent/README.md) | 16 | 16 :white_check_mark: |
 | io.dwpbank.movewp3 | [microservice-security-autoconfiguration](content/io/dwpbank/movewp3/microservice-security-autoconfiguration/README.md) | 2 | 2 :warning: |
 | io.fabric8 | [docker-maven-plugin](content/io/fabric8/docker-maven-plugin/README.md) | 23 | 20 :white_check_mark: / 3 :warning: |
-| | [kubernetes-client-project](content/io/fabric8/kubernetes-client/README.md) | 12 | 12 :warning: |
+| | [kubernetes-client-project](content/io/fabric8/kubernetes-client/README.md) | 18 | 18 :warning: |
 | io.github.git-commit-id | [git-commit-id-maven-plugin](content/io/github/git-commit-id/README.md) | 6 | 2 :white_check_mark: / 4 :warning: |
 | io.github.albertus82 | [jface-utils](content/io/github/albertus82/jface-utils/README.md) | 10 | 10 :white_check_mark: |
 | | [unexepack](content/io/github/albertus82/unexepack/README.md) | 4 | 4 :warning: |
@@ -710,7 +710,7 @@ Its objectives are to provide:
 | | [mybatis-spring](content/org/mybatis/mybatis-spring/README.md) | 8 | 3 :white_check_mark: / 5 :warning: |
 | | [mybatis-typehandlers-threeten-extra](content/org/mybatis/mybatis-typehandlers-threeten-extra/README.md) | 1 | 1 :white_check_mark: |
 | | [mybatis2](content/org/mybatis/mybatis2/README.md) | 2 | 2 :white_check_mark: |
-| | [mybatis-parent](content/org/mybatis/parent/README.md) | 12 | 12 :white_check_mark: |
+| | [mybatis-parent](content/org/mybatis/parent/README.md) | 13 | 13 :white_check_mark: |
 | org.mybatis.scala | [mybatis-scala-parent_2.13](content/org/mybatis/scala/README.md) | 1 | 1 :white_check_mark: |
 | org.mybatis.caches | [mybatis-caffeine](content/org/mybatis/caches/mybatis-caffeine/README.md) | 3 | 3 :white_check_mark: |
 | | [mybatis-ehcache](content/org/mybatis/caches/mybatis-ehcache/README.md) | 2 | 2 :white_check_mark: |
@@ -772,7 +772,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 5 | 5 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 18 | 1 :white_check_mark: / 17 :warning: |
-| **Count:** | **749** | **5484** | **4085** :white_check_mark: **1399** :warning: |
+| **Count:** | **749** | **5498** | **4090** :white_check_mark: **1408** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -787,9 +787,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      85 gradle     17
      33 gradle     21
      33 mvn         7
-   1392 mvn         8
+   1397 mvn         8
       1 mvn         9
-   1329 mvn        11
+   1330 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
@@ -808,7 +808,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      16 mvn        18
      33 mvn        19
      16 mvn        20
-    293 mvn        21
+    295 mvn        21
      13 mvn        22
       1 mvn        23
       2 mvn-3.5.4   8
@@ -897,7 +897,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn-3.9.8   8
       5 mvn-3.9.8  11
       5 mvn-3.9.8  16
-    103 mvn-3.9.8  17
+    109 mvn-3.9.8  17
       1 mvn-3.9.8  17.0.12
      42 mvn-3.9.8  21
      44 mvn-3.9.8  22

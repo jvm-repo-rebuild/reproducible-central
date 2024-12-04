@@ -1,3 +1,2 @@
-content/io/avaje/jex/avaje-jex-3.0-RC7.buildspec:3.0-RC8
 content/org/apache/helix/helix-1.4.1.buildspec:1.4.2
-content/org/mybatis/parent/mybatis-parent-45.buildspec:46
+content/org/owasp/dependency-check/dependency-check-11.1.0.buildspec:11.1.1

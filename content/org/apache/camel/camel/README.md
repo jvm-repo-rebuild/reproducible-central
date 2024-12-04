@@ -639,6 +639,7 @@ rebuilding **7 releases** of org.apache.camel:camel:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.9.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.9.0/pom) | | | |
 | [4.8.1](https://central.sonatype.com/artifact/org.apache.camel/camel/4.8.1/pom) | | | |
 | [4.8.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.8.0/pom) | | | |
 | [4.7.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.7.0/pom) | | | |
