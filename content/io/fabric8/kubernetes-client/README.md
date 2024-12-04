@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github.com/fabric8io/kubernetes-client.git)
 
-<details><summary>This project defines 167 modules:</summary>
+<details><summary>This project defines 189 modules:</summary>
 
 * [io.fabric8.java-generator:io.fabric8.java-generator.gradle.plugin](https://central.sonatype.com/artifact/io.fabric8.java-generator/io.fabric8.java-generator.gradle.plugin/overview)
 * [io.fabric8.kubernetes:karaf](https://central.sonatype.com/artifact/io.fabric8.kubernetes/karaf/overview)
@@ -23,6 +23,7 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:certmanager-client](https://central.sonatype.com/artifact/io.fabric8/certmanager-client/overview)
 * [io.fabric8:certmanager-examples](https://central.sonatype.com/artifact/io.fabric8/certmanager-examples/overview)
 * [io.fabric8:certmanager-extension-pom](https://central.sonatype.com/artifact/io.fabric8/certmanager-extension-pom/overview)
+* [io.fabric8:certmanager-model](https://central.sonatype.com/artifact/io.fabric8/certmanager-model/overview)
 * [io.fabric8:certmanager-model-v1](https://central.sonatype.com/artifact/io.fabric8/certmanager-model-v1/overview)
 * [io.fabric8:certmanager-model-v1alpha2](https://central.sonatype.com/artifact/io.fabric8/certmanager-model-v1alpha2/overview)
 * [io.fabric8:certmanager-model-v1alpha3](https://central.sonatype.com/artifact/io.fabric8/certmanager-model-v1alpha3/overview)
@@ -39,6 +40,9 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:crd-generator-api](https://central.sonatype.com/artifact/io.fabric8/crd-generator-api/overview)
 * [io.fabric8:crd-generator-api-v2](https://central.sonatype.com/artifact/io.fabric8/crd-generator-api-v2/overview)
 * [io.fabric8:crd-generator-apt](https://central.sonatype.com/artifact/io.fabric8/crd-generator-apt/overview)
+* [io.fabric8:crd-generator-cli](https://central.sonatype.com/artifact/io.fabric8/crd-generator-cli/overview)
+* [io.fabric8:crd-generator-collector](https://central.sonatype.com/artifact/io.fabric8/crd-generator-collector/overview)
+* [io.fabric8:crd-generator-maven-plugin](https://central.sonatype.com/artifact/io.fabric8/crd-generator-maven-plugin/overview)
 * [io.fabric8:crd-generator-parent](https://central.sonatype.com/artifact/io.fabric8/crd-generator-parent/overview)
 * [io.fabric8:crd-generator-test](https://central.sonatype.com/artifact/io.fabric8/crd-generator-test/overview)
 * [io.fabric8:crd-generator-test-apt](https://central.sonatype.com/artifact/io.fabric8/crd-generator-test-apt/overview)
@@ -46,6 +50,7 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:istio-client](https://central.sonatype.com/artifact/io.fabric8/istio-client/overview)
 * [io.fabric8:istio-examples](https://central.sonatype.com/artifact/io.fabric8/istio-examples/overview)
 * [io.fabric8:istio-extension-pom](https://central.sonatype.com/artifact/io.fabric8/istio-extension-pom/overview)
+* [io.fabric8:istio-model](https://central.sonatype.com/artifact/io.fabric8/istio-model/overview)
 * [io.fabric8:istio-model-v1alpha3](https://central.sonatype.com/artifact/io.fabric8/istio-model-v1alpha3/overview)
 * [io.fabric8:istio-model-v1beta1](https://central.sonatype.com/artifact/io.fabric8/istio-model-v1beta1/overview)
 * [io.fabric8:istio-server-mock](https://central.sonatype.com/artifact/io.fabric8/istio-server-mock/overview)
@@ -62,6 +67,9 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:knative-mock](https://central.sonatype.com/artifact/io.fabric8/knative-mock/overview)
 * [io.fabric8:knative-model](https://central.sonatype.com/artifact/io.fabric8/knative-model/overview)
 * [io.fabric8:knative-tests](https://central.sonatype.com/artifact/io.fabric8/knative-tests/overview)
+* [io.fabric8:kube-api-test](https://central.sonatype.com/artifact/io.fabric8/kube-api-test/overview)
+* [io.fabric8:kube-api-test-client-inject](https://central.sonatype.com/artifact/io.fabric8/kube-api-test-client-inject/overview)
+* [io.fabric8:kube-api-test-parent](https://central.sonatype.com/artifact/io.fabric8/kube-api-test-parent/overview)
 * [io.fabric8:kubernetes-client](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client/overview)
 * [io.fabric8:kubernetes-client-api](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-api/overview)
 * [io.fabric8:kubernetes-client-deps-compatibility-tests](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-deps-compatibility-tests/overview)
@@ -69,6 +77,8 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:kubernetes-client-project](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/overview)
 * [io.fabric8:kubernetes-examples](https://central.sonatype.com/artifact/io.fabric8/kubernetes-examples/overview)
 * [io.fabric8:kubernetes-extensions](https://central.sonatype.com/artifact/io.fabric8/kubernetes-extensions/overview)
+* [io.fabric8:kubernetes-httpclient-jdk](https://central.sonatype.com/artifact/io.fabric8/kubernetes-httpclient-jdk/overview)
+* [io.fabric8:kubernetes-httpclient-jetty](https://central.sonatype.com/artifact/io.fabric8/kubernetes-httpclient-jetty/overview)
 * [io.fabric8:kubernetes-httpclient-okhttp](https://central.sonatype.com/artifact/io.fabric8/kubernetes-httpclient-okhttp/overview)
 * [io.fabric8:kubernetes-httpclient-vertx](https://central.sonatype.com/artifact/io.fabric8/kubernetes-httpclient-vertx/overview)
 * [io.fabric8:kubernetes-junit-jupiter](https://central.sonatype.com/artifact/io.fabric8/kubernetes-junit-jupiter/overview)
@@ -100,6 +110,7 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:kubernetes-model-resource](https://central.sonatype.com/artifact/io.fabric8/kubernetes-model-resource/overview)
 * [io.fabric8:kubernetes-model-scheduling](https://central.sonatype.com/artifact/io.fabric8/kubernetes-model-scheduling/overview)
 * [io.fabric8:kubernetes-model-storageclass](https://central.sonatype.com/artifact/io.fabric8/kubernetes-model-storageclass/overview)
+* [io.fabric8:kubernetes-model-validator](https://central.sonatype.com/artifact/io.fabric8/kubernetes-model-validator/overview)
 * [io.fabric8:kubernetes-openshift-uberjar](https://central.sonatype.com/artifact/io.fabric8/kubernetes-openshift-uberjar/overview)
 * [io.fabric8:kubernetes-server-mock](https://central.sonatype.com/artifact/io.fabric8/kubernetes-server-mock/overview)
 * [io.fabric8:kubernetes-test](https://central.sonatype.com/artifact/io.fabric8/kubernetes-test/overview)
@@ -111,6 +122,7 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:open-cluster-management-client](https://central.sonatype.com/artifact/io.fabric8/open-cluster-management-client/overview)
 * [io.fabric8:open-cluster-management-cluster-model](https://central.sonatype.com/artifact/io.fabric8/open-cluster-management-cluster-model/overview)
 * [io.fabric8:open-cluster-management-discovery-model](https://central.sonatype.com/artifact/io.fabric8/open-cluster-management-discovery-model/overview)
+* [io.fabric8:open-cluster-management-model](https://central.sonatype.com/artifact/io.fabric8/open-cluster-management-model/overview)
 * [io.fabric8:open-cluster-management-observability-model](https://central.sonatype.com/artifact/io.fabric8/open-cluster-management-observability-model/overview)
 * [io.fabric8:open-cluster-management-operator-model](https://central.sonatype.com/artifact/io.fabric8/open-cluster-management-operator-model/overview)
 * [io.fabric8:open-cluster-management-placementruleapps-model](https://central.sonatype.com/artifact/io.fabric8/open-cluster-management-placementruleapps-model/overview)
@@ -126,6 +138,7 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:openshift-client](https://central.sonatype.com/artifact/io.fabric8/openshift-client/overview)
 * [io.fabric8:openshift-client-api](https://central.sonatype.com/artifact/io.fabric8/openshift-client-api/overview)
 * [io.fabric8:openshift-model](https://central.sonatype.com/artifact/io.fabric8/openshift-model/overview)
+* [io.fabric8:openshift-model-autoscaling](https://central.sonatype.com/artifact/io.fabric8/openshift-model-autoscaling/overview)
 * [io.fabric8:openshift-model-clusterautoscaling](https://central.sonatype.com/artifact/io.fabric8/openshift-model-clusterautoscaling/overview)
 * [io.fabric8:openshift-model-config](https://central.sonatype.com/artifact/io.fabric8/openshift-model-config/overview)
 * [io.fabric8:openshift-model-console](https://central.sonatype.com/artifact/io.fabric8/openshift-model-console/overview)
@@ -133,6 +146,7 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:openshift-model-installer](https://central.sonatype.com/artifact/io.fabric8/openshift-model-installer/overview)
 * [io.fabric8:openshift-model-machine](https://central.sonatype.com/artifact/io.fabric8/openshift-model-machine/overview)
 * [io.fabric8:openshift-model-machineconfig](https://central.sonatype.com/artifact/io.fabric8/openshift-model-machineconfig/overview)
+* [io.fabric8:openshift-model-machineconfiguration](https://central.sonatype.com/artifact/io.fabric8/openshift-model-machineconfiguration/overview)
 * [io.fabric8:openshift-model-miscellaneous](https://central.sonatype.com/artifact/io.fabric8/openshift-model-miscellaneous/overview)
 * [io.fabric8:openshift-model-monitoring](https://central.sonatype.com/artifact/io.fabric8/openshift-model-monitoring/overview)
 * [io.fabric8:openshift-model-operator](https://central.sonatype.com/artifact/io.fabric8/openshift-model-operator/overview)
@@ -141,6 +155,10 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:openshift-model-tuned](https://central.sonatype.com/artifact/io.fabric8/openshift-model-tuned/overview)
 * [io.fabric8:openshift-model-whereabouts](https://central.sonatype.com/artifact/io.fabric8/openshift-model-whereabouts/overview)
 * [io.fabric8:openshift-server-mock](https://central.sonatype.com/artifact/io.fabric8/openshift-server-mock/overview)
+* [io.fabric8:ovn](https://central.sonatype.com/artifact/io.fabric8/ovn/overview)
+* [io.fabric8:ovn-client](https://central.sonatype.com/artifact/io.fabric8/ovn-client/overview)
+* [io.fabric8:ovn-model](https://central.sonatype.com/artifact/io.fabric8/ovn-model/overview)
+* [io.fabric8:ovn-tests](https://central.sonatype.com/artifact/io.fabric8/ovn-tests/overview)
 * [io.fabric8:service-catalog](https://central.sonatype.com/artifact/io.fabric8/service-catalog/overview)
 * [io.fabric8:service-catalog-examples](https://central.sonatype.com/artifact/io.fabric8/service-catalog-examples/overview)
 * [io.fabric8:servicecatalog-client](https://central.sonatype.com/artifact/io.fabric8/servicecatalog-client/overview)
@@ -151,6 +169,7 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:tekton-examples](https://central.sonatype.com/artifact/io.fabric8/tekton-examples/overview)
 * [io.fabric8:tekton-extension-pom](https://central.sonatype.com/artifact/io.fabric8/tekton-extension-pom/overview)
 * [io.fabric8:tekton-mock](https://central.sonatype.com/artifact/io.fabric8/tekton-mock/overview)
+* [io.fabric8:tekton-model](https://central.sonatype.com/artifact/io.fabric8/tekton-model/overview)
 * [io.fabric8:tekton-model-triggers](https://central.sonatype.com/artifact/io.fabric8/tekton-model-triggers/overview)
 * [io.fabric8:tekton-model-triggers-v1alpha1](https://central.sonatype.com/artifact/io.fabric8/tekton-model-triggers-v1alpha1/overview)
 * [io.fabric8:tekton-model-triggers-v1beta1](https://central.sonatype.com/artifact/io.fabric8/tekton-model-triggers-v1beta1/overview)
@@ -161,12 +180,14 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:verticalpodautoscaler-client](https://central.sonatype.com/artifact/io.fabric8/verticalpodautoscaler-client/overview)
 * [io.fabric8:verticalpodautoscaler-examples](https://central.sonatype.com/artifact/io.fabric8/verticalpodautoscaler-examples/overview)
 * [io.fabric8:verticalpodautoscaler-extension-pom](https://central.sonatype.com/artifact/io.fabric8/verticalpodautoscaler-extension-pom/overview)
+* [io.fabric8:verticalpodautoscaler-model](https://central.sonatype.com/artifact/io.fabric8/verticalpodautoscaler-model/overview)
 * [io.fabric8:verticalpodautoscaler-model-v1](https://central.sonatype.com/artifact/io.fabric8/verticalpodautoscaler-model-v1/overview)
 * [io.fabric8:verticalpodautoscaler-server-mock](https://central.sonatype.com/artifact/io.fabric8/verticalpodautoscaler-server-mock/overview)
 * [io.fabric8:verticalpodautoscaler-tests](https://central.sonatype.com/artifact/io.fabric8/verticalpodautoscaler-tests/overview)
 * [io.fabric8:volcano-client](https://central.sonatype.com/artifact/io.fabric8/volcano-client/overview)
 * [io.fabric8:volcano-examples](https://central.sonatype.com/artifact/io.fabric8/volcano-examples/overview)
 * [io.fabric8:volcano-extension-pom](https://central.sonatype.com/artifact/io.fabric8/volcano-extension-pom/overview)
+* [io.fabric8:volcano-model](https://central.sonatype.com/artifact/io.fabric8/volcano-model/overview)
 * [io.fabric8:volcano-model-v1beta1](https://central.sonatype.com/artifact/io.fabric8/volcano-model-v1beta1/overview)
 * [io.fabric8:volcano-server-mock](https://central.sonatype.com/artifact/io.fabric8/volcano-server-mock/overview)
 * [io.fabric8:volcano-tests](https://central.sonatype.com/artifact/io.fabric8/volcano-tests/overview)
@@ -176,15 +197,16 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:volumesnapshot-model](https://central.sonatype.com/artifact/io.fabric8/volumesnapshot-model/overview)
 * [io.fabric8:volumesnapshot-server-mock](https://central.sonatype.com/artifact/io.fabric8/volumesnapshot-server-mock/overview)
 * [io.fabric8:volumesnapshot-tests](https://central.sonatype.com/artifact/io.fabric8/volumesnapshot-tests/overview)
+* [io.fabric8:zjsonpatch](https://central.sonatype.com/artifact/io.fabric8/zjsonpatch/overview)
 </details>
 
-rebuilding **12 releases** of io.fabric8:kubernetes-client-project:
+rebuilding **13 releases** of io.fabric8:kubernetes-client-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [7.0.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.0.0/pom) | | | |
+| [7.0.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.0.0/pom) | [mvn jdk11](kubernetes-client-7.0.0.buildspec) | [result](kubernetes-client-project-7.0.0.buildinfo): [360 :white_check_mark:  2 :warning:](kubernetes-client-project-7.0.0.buildcompare) | 210M |
 | [6.13.4](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.13.4/pom) | [mvn jdk8](kubernetes-client-6.13.4.buildspec) | [result](kubernetes-client-project-6.13.4.buildinfo): [451 :white_check_mark:  8 :warning:](kubernetes-client-project-6.13.4.buildcompare) [:mag:](kubernetes-client-project-6.13.4.diffoscope) | 182M |
 | [6.13.3](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.13.3/pom) | [mvn jdk8](kubernetes-client-6.13.3.buildspec) | [result](kubernetes-client-project-6.13.3.buildinfo): [451 :white_check_mark:  8 :warning:](kubernetes-client-project-6.13.3.buildcompare) [:mag:](kubernetes-client-project-6.13.3.diffoscope) | 182M |
 | [6.13.2](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.13.2/pom) | | | |
