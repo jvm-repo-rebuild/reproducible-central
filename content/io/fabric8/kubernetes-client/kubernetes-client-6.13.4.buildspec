@@ -11,9 +11,10 @@ tool=mvn
 jdk=8
 newline=lf
 
-command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.skipModules='io.fabric8/crd-generator-test,io.fabric8/crd-generator-test-apt'"
+execBefore="chmod a+x kubernetes-client-api/src/test/resources/*-generator"
 
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-diffoscope=${artifactId}-${version}.diffoscope
+#diffoscope=${artifactId}-${version}.diffoscope
 issue=
