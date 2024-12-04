@@ -4,6 +4,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20241204170932 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | [1.8.6](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.8.6.buildspec) :white_check_mark: | [1.8.7](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.8.7.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.8.6.buildspec 1.8.7` |
+| <!-- 20241204153744 --> [rdf-abac](../content/io/telicent/jena/rdf-abac/README.md) | [0.72.0](../content/io/telicent/jena/rdf-abac/rdf-abac-0.72.0.buildspec) :white_check_mark: | [0.72.1](../content/io/telicent/jena/rdf-abac/rdf-abac-0.72.1.buildspec) | `bin/add-new-release.sh content/io/telicent/jena/rdf-abac/rdf-abac-0.72.0.buildspec 0.72.1` |
 | <!-- 20241204110900 --> [dependency-check-parent](../content/org/owasp/dependency-check/README.md) | [11.1.0](../content/org/owasp/dependency-check/dependency-check-11.1.0.buildspec) :white_check_mark: | [11.1.1](../content/org/owasp/dependency-check/dependency-check-11.1.1.buildspec) | `bin/add-new-release.sh content/org/owasp/dependency-check/dependency-check-11.1.0.buildspec 11.1.1` |
 | <!-- 20241129052209 --> [helix](../content/org/apache/helix/README.md) | [1.4.1](../content/org/apache/helix/helix-1.4.1.buildspec) :white_check_mark: | [1.4.2](../content/org/apache/helix/helix-1.4.2.buildspec) | `bin/add-new-release.sh content/org/apache/helix/helix-1.4.1.buildspec 1.4.2` |
 <!-- END GENERATED ADD OK -->
@@ -31,6 +33,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20241204130414 --> [quarkus-project](../content/io/quarkus/README.md) | [3.17.2](../content/io/quarkus/quarkus-3.17.2.buildspec) :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | [3.17.3](../content/io/quarkus/quarkus-3.17.3.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.17.2.buildspec 3.17.3` |
 | <!-- 20241204090629 --> [avaje-jex-parent](../content/io/avaje/jex/README.md) | [3.0-RC8](../content/io/avaje/jex/avaje-jex-3.0-RC8.buildspec) :x: | [3.0-RC9](../content/io/avaje/jex/avaje-jex-3.0-RC9.buildspec) | `bin/add-new-release.sh content/io/avaje/jex/avaje-jex-3.0-RC8.buildspec 3.0-RC9` |
 | <!-- 20241204065136 --> [yupiik-tools-maven-plugin-parent](../content/io/yupiik/maven/plugin/README.md) | [1.2.4](../content/io/yupiik/maven/plugin/yupiik-tools-maven-plugin-1.2.4.buildspec) :warning: | [1.2.5](../content/io/yupiik/maven/plugin/yupiik-tools-maven-plugin-1.2.5.buildspec) | `bin/add-new-release.sh content/io/yupiik/maven/plugin/yupiik-tools-maven-plugin-1.2.4.buildspec 1.2.5` |
 | <!-- 20241204064603 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.9.0](../content/org/apache/camel/camel/camel-4.9.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.9.0` |
@@ -56,7 +59,6 @@ New Releases To Add
 | <!-- 20241203132335 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 8.0.0-JDK17-M7 :warning: |
 | <!-- 20241203114430 --> [kubernetes-client-project](../content/io/fabric8/kubernetes-client/README.md) | 7.0.0 :warning: |
 | <!-- 20241129071420 --> [license-maven-plugin](../content/org/codehaus/mojo/license-maven-plugin/README.md) | 2.5.0 :warning: |
-| <!-- 20241128212009 --> [quarkus-project](../content/io/quarkus/README.md) | 3.17.2 :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) |
 | <!-- 20241128150725 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | 5.2.3 :x: |
 | <!-- 20241127152503 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 3.0.4 :warning: |
 | <!-- 20241126142609 --> [mybatis](../content/org/mybatis/mybatis/README.md) | 3.5.17 :warning: |

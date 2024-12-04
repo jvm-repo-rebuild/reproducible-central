@@ -1,2 +1,4 @@
+content/io/telicent/jena/rdf-abac/rdf-abac-0.72.0.buildspec:0.72.1
 content/org/apache/helix/helix-1.4.1.buildspec:1.4.2
+content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.8.6.buildspec:1.8.7
 content/org/owasp/dependency-check/dependency-check-11.1.0.buildspec:11.1.1
