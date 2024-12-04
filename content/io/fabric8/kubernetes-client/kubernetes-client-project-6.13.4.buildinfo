@@ -928,7 +928,7 @@ outputs.43.1.checksums.sha512=7738e62c7dd93d3958d3f0eebaaa2678eaf5ebb2f90a1e44e5
 outputs.43.2.groupId=io.fabric8
 outputs.43.2.filename=kubernetes-client-api-6.13.4-tests.jar
 outputs.43.2.length=433344
-outputs.43.2.checksums.sha512=4bee7817d9436b97ef04b54f2b90a2c43099752ec1bc473da8d7dd6c73b0fa8da902f0c1911a657ded7e8f177f2c6ed1d8f5678d377109c80471f5bb53a6a360
+outputs.43.2.checksums.sha512=2728e65b16c0e7dc73727a38df513c145bb139bc67dc7306e397a94084f3782c1afb0bfa9a5953d935b6a2eb14ee34c537ad6035ff76e4632fce3a0d32970ab1
 
 outputs.43.3.groupId=io.fabric8
 outputs.43.3.filename=kubernetes-client-api-6.13.4-bundle.jar
@@ -2417,198 +2417,174 @@ outputs.134.2.filename=crd-generator-api-v2-6.13.4-sources.jar
 outputs.134.2.length=27599
 outputs.134.2.checksums.sha512=33339c8184e28d1e1ed177c7c27f86a225869797734625e4d1fa09b8272be627d182da0bde38ea93af21dc80f31e8c8ef4338e1a4917293a0d893ffda8200335
 
-outputs.135.coordinates=io.fabric8:crd-generator-test
+outputs.135.coordinates=io.fabric8:java-generator-parent
 
 outputs.135.0.groupId=io.fabric8
-outputs.135.0.filename=crd-generator-test-6.13.4.pom
-outputs.135.0.length=2401
-outputs.135.0.checksums.sha512=f62fb4d25dd1e50766d24a25710e5bcb80c3bd918b347b48b0e17223999784909a1a7ea5b141c5976cd6cbbb476b871a7420e54fea7fc4246d897786d6698c16
+outputs.135.0.filename=java-generator-parent-6.13.4.pom
+outputs.135.0.length=3137
+outputs.135.0.checksums.sha512=62a453c8edad2498a5f77a30a806b2cf4e8aea2f91f37c53f8ff66473b7479e3730cfc22905c81bdeb44ce6caa32d6878bc6b31024c036d56b05b065b7417e46
 
-outputs.135.1.groupId=io.fabric8
-outputs.135.1.filename=crd-generator-test-6.13.4.jar
-outputs.135.1.length=2092
-outputs.135.1.checksums.sha512=a70912c19a55cc6b9d15769b6691cfdb3d8b41c929ae5b0e222cc04be5044c192e05c8cadc2564e35a934ea53a6474a96ad757a559747546a55114e26e5f07f6
-
-outputs.136.coordinates=io.fabric8:crd-generator-test-apt
+outputs.136.coordinates=io.fabric8:java-generator-core
 
 outputs.136.0.groupId=io.fabric8
-outputs.136.0.filename=crd-generator-test-apt-6.13.4.pom
-outputs.136.0.length=3560
-outputs.136.0.checksums.sha512=364d400ea95e23a3986e76e05316773ae4535604f6a701daf9cfdc3686349cb2db9db73558642ab4f47c1f23dd796dc26e58a761eb8c6142a7fef5a6c5c1304e
+outputs.136.0.filename=java-generator-core-6.13.4.pom
+outputs.136.0.length=3122
+outputs.136.0.checksums.sha512=436d14b4caa50b1417f5b639ba38cf4e598cff7a38a0631dce38afed5e06852fe3095dd1ba50d2fd0ea24f9e09fb9e03ce7934294bcf38a6b74e3be9f2be1167
 
 outputs.136.1.groupId=io.fabric8
-outputs.136.1.filename=crd-generator-test-apt-6.13.4.jar
-outputs.136.1.length=2395
-outputs.136.1.checksums.sha512=9c5518c986156c852fa4e534039c463fa2d24b79ab58d1963e9d385a9047b256138b9091af26bc089f0f1ec67176b0378ab91849e33887f4753579e59f49080d
+outputs.136.1.filename=java-generator-core-6.13.4.jar
+outputs.136.1.length=60827
+outputs.136.1.checksums.sha512=b4263744271b35cefeb90c48ca261ddd8a99b936a0830b6c8333c99bdd0edffd254b78ade86d919b51ca90fda978c504a201160915bcdd9f3f57cd05ffc2ce7a
 
-outputs.137.coordinates=io.fabric8:java-generator-parent
+outputs.136.2.groupId=io.fabric8
+outputs.136.2.filename=java-generator-core-6.13.4-sources.jar
+outputs.136.2.length=35765
+outputs.136.2.checksums.sha512=6fa4083a7a0ddc5913bbd8f0573275f9731a33f85bbf2ece265af37414e9ea5816889c79d7671ee9991855c3945fb473a3b5d69d04f62dbba172a761558f2b08
+
+outputs.137.coordinates=io.fabric8:java-generator-cli
 
 outputs.137.0.groupId=io.fabric8
-outputs.137.0.filename=java-generator-parent-6.13.4.pom
-outputs.137.0.length=3137
-outputs.137.0.checksums.sha512=62a453c8edad2498a5f77a30a806b2cf4e8aea2f91f37c53f8ff66473b7479e3730cfc22905c81bdeb44ce6caa32d6878bc6b31024c036d56b05b065b7417e46
+outputs.137.0.filename=java-generator-cli-6.13.4.pom
+outputs.137.0.length=4623
+outputs.137.0.checksums.sha512=90255da2fcf260a3d9438e04d80b0ef0f8f71c045a447b90569f5c4d2e54aa334e497229e56c1f1a7f783e5ef975b3da12b53f6353a33fd0655b4f1d4f409494
 
-outputs.138.coordinates=io.fabric8:java-generator-core
+outputs.137.1.groupId=io.fabric8
+outputs.137.1.filename=java-generator-cli-6.13.4.jar
+outputs.137.1.length=16689910
+outputs.137.1.checksums.sha512=104b69c2d7ffa6ef32b406234c0189a6b0643e542eee62af5bb09b9ae9893156e629e5e68abc1e6790fd6e1630e600f7fdb43afdf587b3eec7f8dbf44eeea47a
 
-outputs.138.0.groupId=io.fabric8
-outputs.138.0.filename=java-generator-core-6.13.4.pom
-outputs.138.0.length=3122
-outputs.138.0.checksums.sha512=436d14b4caa50b1417f5b639ba38cf4e598cff7a38a0631dce38afed5e06852fe3095dd1ba50d2fd0ea24f9e09fb9e03ce7934294bcf38a6b74e3be9f2be1167
+outputs.137.2.groupId=io.fabric8
+outputs.137.2.filename=java-generator-cli-6.13.4-sources.jar
+outputs.137.2.length=5796
+outputs.137.2.checksums.sha512=8fb04205b883c7cebae02b4b44d8976169aea7a02a7ec43ae5fb9a5ef00c2b1043e24feea3b90a6791f298ddf043e043802e734451876c5b6addc07f45f58304
 
-outputs.138.1.groupId=io.fabric8
-outputs.138.1.filename=java-generator-core-6.13.4.jar
-outputs.138.1.length=60827
-outputs.138.1.checksums.sha512=b4263744271b35cefeb90c48ca261ddd8a99b936a0830b6c8333c99bdd0edffd254b78ade86d919b51ca90fda978c504a201160915bcdd9f3f57cd05ffc2ce7a
+outputs.137.3.groupId=io.fabric8
+outputs.137.3.filename=java-generator-cli-6.13.4.sh
+outputs.137.3.length=16689954
+outputs.137.3.checksums.sha512=3d5bee79799c7c76729094c99d6693238463a703d3708915a0dfaf47b4db14755f24819e470aa3f9ac9682a51b1dcb5680f1f5511808b92d32cbd19838ce9d20
 
-outputs.138.2.groupId=io.fabric8
-outputs.138.2.filename=java-generator-core-6.13.4-sources.jar
-outputs.138.2.length=35765
-outputs.138.2.checksums.sha512=6fa4083a7a0ddc5913bbd8f0573275f9731a33f85bbf2ece265af37414e9ea5816889c79d7671ee9991855c3945fb473a3b5d69d04f62dbba172a761558f2b08
+outputs.138.coordinates=io.fabric8.java-generator:io.fabric8.java-generator.gradle.plugin
 
-outputs.139.coordinates=io.fabric8:java-generator-cli
+outputs.138.0.groupId=io.fabric8.java-generator
+outputs.138.0.filename=io.fabric8.java-generator.gradle.plugin-6.13.4.pom
+outputs.138.0.length=2773
+outputs.138.0.checksums.sha512=9e0039aea34cecc4b70bf8e416405991e73b282733476c4136d2084a3817255ac0cbbe159edb74861c928b30dd168d84f52f14f0b4e8982214d89ca42d38f9ea
+
+outputs.138.1.groupId=io.fabric8.java-generator
+outputs.138.1.filename=io.fabric8.java-generator.gradle.plugin-6.13.4.jar
+outputs.138.1.length=10871
+outputs.138.1.checksums.sha512=013d2d1d1111344a8f462cc5ffd29e53b0fd4a5d0da312aa44f1827d940ac83308622469ed9dd44f1b1ff16f027c0ae66a48694335749d06cab677d3d701c6eb
+
+outputs.138.2.groupId=io.fabric8.java-generator
+outputs.138.2.filename=io.fabric8.java-generator.gradle.plugin-6.13.4-sources.jar
+outputs.138.2.length=7918
+outputs.138.2.checksums.sha512=88f195933448edaa1b5b4bc23d76bc9615db62afe6966b5d206fdd098058a7425a570b98cbccd4aacc8423b4d30389ee3bd5b4bd1433ed0e8cc959f3cf9c4c6b
+
+outputs.139.coordinates=io.fabric8:java-generator-maven-plugin
 
 outputs.139.0.groupId=io.fabric8
-outputs.139.0.filename=java-generator-cli-6.13.4.pom
-outputs.139.0.length=4623
-outputs.139.0.checksums.sha512=90255da2fcf260a3d9438e04d80b0ef0f8f71c045a447b90569f5c4d2e54aa334e497229e56c1f1a7f783e5ef975b3da12b53f6353a33fd0655b4f1d4f409494
+outputs.139.0.filename=java-generator-maven-plugin-6.13.4.pom
+outputs.139.0.length=2219
+outputs.139.0.checksums.sha512=347b2ff67f7c778719558e8708bda3ba6eaa7ad4f0a4f455ada4b417a0c3f61dd986f1659fd5c2e38d724937fdfdb34d295427732894c9197ae29167b60e3782
 
 outputs.139.1.groupId=io.fabric8
-outputs.139.1.filename=java-generator-cli-6.13.4.jar
-outputs.139.1.length=16689910
-outputs.139.1.checksums.sha512=104b69c2d7ffa6ef32b406234c0189a6b0643e542eee62af5bb09b9ae9893156e629e5e68abc1e6790fd6e1630e600f7fdb43afdf587b3eec7f8dbf44eeea47a
+outputs.139.1.filename=java-generator-maven-plugin-6.13.4.jar
+outputs.139.1.length=10469
+outputs.139.1.checksums.sha512=f18707a04f9e52919b48d3393a1414a9a2160fbee33d12ad992e57f64148e176379b6a5a0c5d9f48bec13c85c9ab61bf0b85a121de018e95c8f6b365eab93800
 
 outputs.139.2.groupId=io.fabric8
-outputs.139.2.filename=java-generator-cli-6.13.4-sources.jar
-outputs.139.2.length=5796
-outputs.139.2.checksums.sha512=8fb04205b883c7cebae02b4b44d8976169aea7a02a7ec43ae5fb9a5ef00c2b1043e24feea3b90a6791f298ddf043e043802e734451876c5b6addc07f45f58304
+outputs.139.2.filename=java-generator-maven-plugin-6.13.4-sources.jar
+outputs.139.2.length=4720
+outputs.139.2.checksums.sha512=5dba623c382b1851dc0e53b56dc8414969bfbed4158a960f212925d2a370c89fc734f18e39de6750665d9a7347b009be086867cf71cf50c67b355681414fa55c
 
-outputs.139.3.groupId=io.fabric8
-outputs.139.3.filename=java-generator-cli-6.13.4.sh
-outputs.139.3.length=16689954
-outputs.139.3.checksums.sha512=3d5bee79799c7c76729094c99d6693238463a703d3708915a0dfaf47b4db14755f24819e470aa3f9ac9682a51b1dcb5680f1f5511808b92d32cbd19838ce9d20
+outputs.140.coordinates=io.fabric8:java-generator-integration-tests
 
-outputs.140.coordinates=io.fabric8.java-generator:io.fabric8.java-generator.gradle.plugin
+outputs.140.0.groupId=io.fabric8
+outputs.140.0.filename=java-generator-integration-tests-6.13.4.pom
+outputs.140.0.length=5230
+outputs.140.0.checksums.sha512=c832363978de66dc0f7bb6cf491fd7c56a6f4950c355a3624633aaccf6e387f9a2820d7647e70f570592ba9d7cf54ecf06a6cd1f50a01be8a725876b42e77686
 
-outputs.140.0.groupId=io.fabric8.java-generator
-outputs.140.0.filename=io.fabric8.java-generator.gradle.plugin-6.13.4.pom
-outputs.140.0.length=2773
-outputs.140.0.checksums.sha512=9e0039aea34cecc4b70bf8e416405991e73b282733476c4136d2084a3817255ac0cbbe159edb74861c928b30dd168d84f52f14f0b4e8982214d89ca42d38f9ea
+outputs.140.1.groupId=io.fabric8
+outputs.140.1.filename=java-generator-integration-tests-6.13.4.jar
+outputs.140.1.length=7433
+outputs.140.1.checksums.sha512=75a0dd576b6a289afb8a1215870af991ad1670d0e4763bd39eeea3be4a840735a8d094f5a65df2a822661f67de51f379fdfd689f34fd457544726d7eba0c562b
 
-outputs.140.1.groupId=io.fabric8.java-generator
-outputs.140.1.filename=io.fabric8.java-generator.gradle.plugin-6.13.4.jar
-outputs.140.1.length=10871
-outputs.140.1.checksums.sha512=013d2d1d1111344a8f462cc5ffd29e53b0fd4a5d0da312aa44f1827d940ac83308622469ed9dd44f1b1ff16f027c0ae66a48694335749d06cab677d3d701c6eb
+outputs.140.2.groupId=io.fabric8
+outputs.140.2.filename=java-generator-integration-tests-6.13.4-sources.jar
+outputs.140.2.length=5446
+outputs.140.2.checksums.sha512=76abae036edc51a01f99b1af9e662289c90bfbd07803b3dddc3f9a95a122fc624b8d737d970dbf37d020d6cbbf2a1e90e3bf22ac4d2439dcab75cb1b6b17defe
 
-outputs.140.2.groupId=io.fabric8.java-generator
-outputs.140.2.filename=io.fabric8.java-generator.gradle.plugin-6.13.4-sources.jar
-outputs.140.2.length=7918
-outputs.140.2.checksums.sha512=88f195933448edaa1b5b4bc23d76bc9615db62afe6966b5d206fdd098058a7425a570b98cbccd4aacc8423b4d30389ee3bd5b4bd1433ed0e8cc959f3cf9c4c6b
-
-outputs.141.coordinates=io.fabric8:java-generator-maven-plugin
+outputs.141.coordinates=io.fabric8:java-generator-benchmark
 
 outputs.141.0.groupId=io.fabric8
-outputs.141.0.filename=java-generator-maven-plugin-6.13.4.pom
-outputs.141.0.length=2219
-outputs.141.0.checksums.sha512=347b2ff67f7c778719558e8708bda3ba6eaa7ad4f0a4f455ada4b417a0c3f61dd986f1659fd5c2e38d724937fdfdb34d295427732894c9197ae29167b60e3782
+outputs.141.0.filename=java-generator-benchmark-6.13.4.pom
+outputs.141.0.length=1735
+outputs.141.0.checksums.sha512=9a0d04f8cc8004128a91e25a85fc159a4720fd986b7aa169f85af1c2e5aa093ba8a9eefd4d01b49e8f30b3ba1a6dca8692546229c12cbb5b9de6b55a605ab28a
 
 outputs.141.1.groupId=io.fabric8
-outputs.141.1.filename=java-generator-maven-plugin-6.13.4.jar
-outputs.141.1.length=10469
-outputs.141.1.checksums.sha512=f18707a04f9e52919b48d3393a1414a9a2160fbee33d12ad992e57f64148e176379b6a5a0c5d9f48bec13c85c9ab61bf0b85a121de018e95c8f6b365eab93800
+outputs.141.1.filename=java-generator-benchmark-6.13.4.jar
+outputs.141.1.length=59291
+outputs.141.1.checksums.sha512=fdc3b1a37d779d011a31c30a694a30e2798d4c68e3ee63a65a68a058bc937cd5d46955d18c0da031fd9126b145854e72df6b2d58de02990d166fed7dca1ced74
 
 outputs.141.2.groupId=io.fabric8
-outputs.141.2.filename=java-generator-maven-plugin-6.13.4-sources.jar
-outputs.141.2.length=4720
-outputs.141.2.checksums.sha512=5dba623c382b1851dc0e53b56dc8414969bfbed4158a960f212925d2a370c89fc734f18e39de6750665d9a7347b009be086867cf71cf50c67b355681414fa55c
+outputs.141.2.filename=java-generator-benchmark-6.13.4-sources.jar
+outputs.141.2.length=46575
+outputs.141.2.checksums.sha512=71d1336cbf025d931bc311aa55962c3b7a8c85c36d54d0d11524130d082a293a0bac2781169d0be32da1e1fbf10b5927ac4923741e44b7baac700f30ec81b0f9
 
-outputs.142.coordinates=io.fabric8:java-generator-integration-tests
+outputs.142.coordinates=io.fabric8:kubernetes-httpclient-vertx
 
 outputs.142.0.groupId=io.fabric8
-outputs.142.0.filename=java-generator-integration-tests-6.13.4.pom
-outputs.142.0.length=5230
-outputs.142.0.checksums.sha512=c832363978de66dc0f7bb6cf491fd7c56a6f4950c355a3624633aaccf6e387f9a2820d7647e70f570592ba9d7cf54ecf06a6cd1f50a01be8a725876b42e77686
+outputs.142.0.filename=kubernetes-httpclient-vertx-6.13.4.pom
+outputs.142.0.length=7033
+outputs.142.0.checksums.sha512=04bb4b107de260f3e04188cea0397cd7d315995b6563385482bf350305e1e8fc83fe25f34b397871ff8d3733179b7e079983f288ff5306efb11636e2f73f7de4
 
 outputs.142.1.groupId=io.fabric8
-outputs.142.1.filename=java-generator-integration-tests-6.13.4.jar
-outputs.142.1.length=7433
-outputs.142.1.checksums.sha512=75a0dd576b6a289afb8a1215870af991ad1670d0e4763bd39eeea3be4a840735a8d094f5a65df2a822661f67de51f379fdfd689f34fd457544726d7eba0c562b
+outputs.142.1.filename=kubernetes-httpclient-vertx-6.13.4.jar
+outputs.142.1.length=30620
+outputs.142.1.checksums.sha512=9a3cc4d302d29a51e49ebb2ea39bb86f00d7c6618e953a875df1f9008caf27af364bf30b440f637f8d650de01984a0691314d41e6db41f77c083c637ef1e5ba9
 
 outputs.142.2.groupId=io.fabric8
-outputs.142.2.filename=java-generator-integration-tests-6.13.4-sources.jar
-outputs.142.2.length=5446
-outputs.142.2.checksums.sha512=76abae036edc51a01f99b1af9e662289c90bfbd07803b3dddc3f9a95a122fc624b8d737d970dbf37d020d6cbbf2a1e90e3bf22ac4d2439dcab75cb1b6b17defe
+outputs.142.2.filename=kubernetes-httpclient-vertx-6.13.4-bundle.jar
+outputs.142.2.length=27924
+outputs.142.2.checksums.sha512=aa0b79076327c12e0e8868e24856677649f8fea82904f1cd5ebedd60d6d2ccd394c843971efa079f13b2f30268fb12e7e69b9df18e859567180545766ff85de2
 
-outputs.143.coordinates=io.fabric8:java-generator-benchmark
+outputs.142.3.groupId=io.fabric8
+outputs.142.3.filename=kubernetes-httpclient-vertx-6.13.4-sources.jar
+outputs.142.3.length=14434
+outputs.142.3.checksums.sha512=a08a393f26cb5c59fa89c544c212664245d6337ba7ca144f43cf7c0fc801368348079cf36dcf7528d5ce53adaeb4ea3293dfe0c4c6ad76db9a86d823eb6a1e8e
+
+outputs.143.coordinates=io.fabric8:kubernetes-client-deps-compatibility-tests
 
 outputs.143.0.groupId=io.fabric8
-outputs.143.0.filename=java-generator-benchmark-6.13.4.pom
-outputs.143.0.length=1735
-outputs.143.0.checksums.sha512=9a0d04f8cc8004128a91e25a85fc159a4720fd986b7aa169f85af1c2e5aa093ba8a9eefd4d01b49e8f30b3ba1a6dca8692546229c12cbb5b9de6b55a605ab28a
+outputs.143.0.filename=kubernetes-client-deps-compatibility-tests-6.13.4.pom
+outputs.143.0.length=2992
+outputs.143.0.checksums.sha512=1cc231cf3daabbcc679d28f2f3c2ba7538fe3be29ac7b093346e9eb5c4dea4c75ae72fe1da9d8a2d94e9f9023022d845507204d90c3442956f92db143acb3707
 
-outputs.143.1.groupId=io.fabric8
-outputs.143.1.filename=java-generator-benchmark-6.13.4.jar
-outputs.143.1.length=59291
-outputs.143.1.checksums.sha512=fdc3b1a37d779d011a31c30a694a30e2798d4c68e3ee63a65a68a058bc937cd5d46955d18c0da031fd9126b145854e72df6b2d58de02990d166fed7dca1ced74
-
-outputs.143.2.groupId=io.fabric8
-outputs.143.2.filename=java-generator-benchmark-6.13.4-sources.jar
-outputs.143.2.length=46575
-outputs.143.2.checksums.sha512=71d1336cbf025d931bc311aa55962c3b7a8c85c36d54d0d11524130d082a293a0bac2781169d0be32da1e1fbf10b5927ac4923741e44b7baac700f30ec81b0f9
-
-outputs.144.coordinates=io.fabric8:kubernetes-httpclient-vertx
+outputs.144.coordinates=io.fabric8:kubernetes-client-init-bc-fips
 
 outputs.144.0.groupId=io.fabric8
-outputs.144.0.filename=kubernetes-httpclient-vertx-6.13.4.pom
-outputs.144.0.length=7033
-outputs.144.0.checksums.sha512=04bb4b107de260f3e04188cea0397cd7d315995b6563385482bf350305e1e8fc83fe25f34b397871ff8d3733179b7e079983f288ff5306efb11636e2f73f7de4
+outputs.144.0.filename=kubernetes-client-init-bc-fips-6.13.4.pom
+outputs.144.0.length=2333
+outputs.144.0.checksums.sha512=3f4da38ff660c668b7c50460cdfff201443ac21db62cd0429871a9035dfc0c1fd7b55c7ad63f4d10d3ae4678f04986b9d2d5a8013424a0583ce4092443e4849f
 
 outputs.144.1.groupId=io.fabric8
-outputs.144.1.filename=kubernetes-httpclient-vertx-6.13.4.jar
-outputs.144.1.length=30620
-outputs.144.1.checksums.sha512=9a3cc4d302d29a51e49ebb2ea39bb86f00d7c6618e953a875df1f9008caf27af364bf30b440f637f8d650de01984a0691314d41e6db41f77c083c637ef1e5ba9
+outputs.144.1.filename=kubernetes-client-init-bc-fips-6.13.4.jar
+outputs.144.1.length=2203
+outputs.144.1.checksums.sha512=72b60063cbcd729618490944a30521b0df18cd1852367694518f3edb4a4d9f9d04098e9f0ab29f9633d247ecdb3e413a29ffcab29b1781150e2615022856e011
 
-outputs.144.2.groupId=io.fabric8
-outputs.144.2.filename=kubernetes-httpclient-vertx-6.13.4-bundle.jar
-outputs.144.2.length=27924
-outputs.144.2.checksums.sha512=aa0b79076327c12e0e8868e24856677649f8fea82904f1cd5ebedd60d6d2ccd394c843971efa079f13b2f30268fb12e7e69b9df18e859567180545766ff85de2
-
-outputs.144.3.groupId=io.fabric8
-outputs.144.3.filename=kubernetes-httpclient-vertx-6.13.4-sources.jar
-outputs.144.3.length=14434
-outputs.144.3.checksums.sha512=a08a393f26cb5c59fa89c544c212664245d6337ba7ca144f43cf7c0fc801368348079cf36dcf7528d5ce53adaeb4ea3293dfe0c4c6ad76db9a86d823eb6a1e8e
-
-outputs.145.coordinates=io.fabric8:kubernetes-client-deps-compatibility-tests
+outputs.145.coordinates=io.fabric8:kubernetes-log4j
 
 outputs.145.0.groupId=io.fabric8
-outputs.145.0.filename=kubernetes-client-deps-compatibility-tests-6.13.4.pom
-outputs.145.0.length=2992
-outputs.145.0.checksums.sha512=1cc231cf3daabbcc679d28f2f3c2ba7538fe3be29ac7b093346e9eb5c4dea4c75ae72fe1da9d8a2d94e9f9023022d845507204d90c3442956f92db143acb3707
+outputs.145.0.filename=kubernetes-log4j-6.13.4.pom
+outputs.145.0.length=3496
+outputs.145.0.checksums.sha512=6d559fe2151c8306f268994eafce0d706f752153509bc491c3faf404e486f5dd2b7bcff0f9b3e8e30d6357e8ee3f7520b7f111669f1de0970120916e44ca9422
 
-outputs.146.coordinates=io.fabric8:kubernetes-client-init-bc-fips
+outputs.145.1.groupId=io.fabric8
+outputs.145.1.filename=kubernetes-log4j-6.13.4.jar
+outputs.145.1.length=22748
+outputs.145.1.checksums.sha512=4b39990c06e10838629517eaecfca4ab6ae4794da9f5fc38947682d26a1619d30278e833781effc688b12895daf143ae8f34cad8ea75cfc8f30460d23846dfb3
 
-outputs.146.0.groupId=io.fabric8
-outputs.146.0.filename=kubernetes-client-init-bc-fips-6.13.4.pom
-outputs.146.0.length=2333
-outputs.146.0.checksums.sha512=3f4da38ff660c668b7c50460cdfff201443ac21db62cd0429871a9035dfc0c1fd7b55c7ad63f4d10d3ae4678f04986b9d2d5a8013424a0583ce4092443e4849f
-
-outputs.146.1.groupId=io.fabric8
-outputs.146.1.filename=kubernetes-client-init-bc-fips-6.13.4.jar
-outputs.146.1.length=2203
-outputs.146.1.checksums.sha512=72b60063cbcd729618490944a30521b0df18cd1852367694518f3edb4a4d9f9d04098e9f0ab29f9633d247ecdb3e413a29ffcab29b1781150e2615022856e011
-
-outputs.147.coordinates=io.fabric8:kubernetes-log4j
-
-outputs.147.0.groupId=io.fabric8
-outputs.147.0.filename=kubernetes-log4j-6.13.4.pom
-outputs.147.0.length=3496
-outputs.147.0.checksums.sha512=6d559fe2151c8306f268994eafce0d706f752153509bc491c3faf404e486f5dd2b7bcff0f9b3e8e30d6357e8ee3f7520b7f111669f1de0970120916e44ca9422
-
-outputs.147.1.groupId=io.fabric8
-outputs.147.1.filename=kubernetes-log4j-6.13.4.jar
-outputs.147.1.length=22748
-outputs.147.1.checksums.sha512=4b39990c06e10838629517eaecfca4ab6ae4794da9f5fc38947682d26a1619d30278e833781effc688b12895daf143ae8f34cad8ea75cfc8f30460d23846dfb3
-
-outputs.147.2.groupId=io.fabric8
-outputs.147.2.filename=kubernetes-log4j-6.13.4-sources.jar
-outputs.147.2.length=11969
-outputs.147.2.checksums.sha512=90888cd3bff54fbd3b031b478e47c814ae4ec4846c7b469cee0ef1ace14c9d513ff28b63f52455b736d6e9c5ad09df72a11eeff26a3a616e641ed06a3fb8b492
+outputs.145.2.groupId=io.fabric8
+outputs.145.2.filename=kubernetes-log4j-6.13.4-sources.jar
+outputs.145.2.length=11969
+outputs.145.2.checksums.sha512=90888cd3bff54fbd3b031b478e47c814ae4ec4846c7b469cee0ef1ace14c9d513ff28b63f52455b736d6e9c5ad09df72a11eeff26a3a616e641ed06a3fb8b492
