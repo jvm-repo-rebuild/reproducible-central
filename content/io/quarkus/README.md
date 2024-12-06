@@ -1076,7 +1076,7 @@ rebuilding **40 releases** of io.quarkus:quarkus-project:
 | [3.9.3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.9.3/pom) | [mvn jdk17](quarkus-3.9.3.buildspec) | [result](quarkus-project-3.9.3.buildinfo): [2204 :white_check_mark:  12 :warning:](quarkus-project-3.9.3.buildcompare) | 94M |
 | [3.9.2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.9.2/pom) | [mvn jdk17](quarkus-3.9.2.buildspec) | [result](quarkus-project-3.9.2.buildinfo): [2204 :white_check_mark:  12 :warning:](quarkus-project-3.9.2.buildcompare) | 90M |
 | [3.9.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.9.1/pom) | [mvn jdk17](quarkus-3.9.1.buildspec) | [result](quarkus-project-3.9.1.buildinfo): [2204 :white_check_mark:  12 :warning:](quarkus-project-3.9.1.buildcompare) | 90M |
-| [3.9.0](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.9.0/pom) | | | |
+| [3.9.0](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.9.0/pom) | [mvn jdk17](quarkus-3.9.0.buildspec) | [result](quarkus-project-3.9.0.buildinfo): [2204 :white_check_mark:  12 :warning:](quarkus-project-3.9.0.buildcompare) | 89M |
 | [3.9.0.CR2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.9.0.CR2/pom) | [mvn jdk17](quarkus-3.9.0.CR2.buildspec) | [result](quarkus-project-3.9.0.CR2.buildinfo): [2204 :white_check_mark:  12 :warning:](quarkus-project-3.9.0.CR2.buildcompare) | 89M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
