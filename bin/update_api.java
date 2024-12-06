@@ -223,7 +223,7 @@ public class update_api extends SimpleFileVisitor<Path> {
             Files.copy(artifactBadgePath.resolve("index.html"), artifactBadgePath.getParent().resolve(artifactId + ".html"), StandardCopyOption.REPLACE_EXISTING);
 
             // new Shields artifact badge json at /badge/artifact/{groupId as dir}/{artifactId}.json
-            try (BufferedWriter w = Files.newBufferedWriter(artifactBadgePath.getParent().resolve(artifactId + ".json"), , StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
+            try (BufferedWriter w = Files.newBufferedWriter(artifactBadgePath.getParent().resolve(artifactId + ".json"), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
                 w.write("{");
                 List<Map.Entry<String, String>> entries = new ArrayList<>(versionsMap.entrySet());
                 Collections.reverse(entries);
