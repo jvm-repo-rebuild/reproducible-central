@@ -1,0 +1,21 @@
+version=1.2.5
+ok=23
+ko=12
+ignored=0
+okFiles="yupiik-tools-maven-plugin-parent-1.2.5.pom codec-core-1.2.5.pom codec-core-1.2.5-sources.jar yupiik-tools-common-1.2.5.pom yupiik-tools-common-1.2.5-sources.jar ascii2svg-1.2.5.pom ascii2svg-1.2.5-sources.jar asciidoc-java-1.2.5.pom asciidoc-java-1.2.5-sources.jar minisite-core-1.2.5.pom minisite-core-1.2.5-sources.jar slides-core-1.2.5.pom slides-core-1.2.5-sources.jar html-versioning-injector-1.2.5.pom html-versioning-injector-1.2.5-sources.jar yupiik-tools-maven-plugin-1.2.5.pom yupiik-tools-maven-plugin-1.2.5-sources.jar yupiik-tools-cli-1.2.5.pom yupiik-tools-cli-1.2.5-sources.jar env-manager-1.2.5.pom env-manager-1.2.5-sources.jar _documentation-1.2.5.pom _documentation-1.2.5-sources.jar"
+koFiles="codec-core-1.2.5.jar yupiik-tools-common-1.2.5.jar ascii2svg-1.2.5.jar asciidoc-java-1.2.5.jar minisite-core-1.2.5.jar slides-core-1.2.5.jar html-versioning-injector-1.2.5.jar yupiik-tools-maven-plugin-1.2.5.jar yupiik-tools-cli-1.2.5.jar yupiik-tools-cli-1.2.5-fatjar.jar env-manager-1.2.5.jar _documentation-1.2.5.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.yupiik.maven/codec-core-1.2.5.jar codec-core/target/codec-core-1.2.5.jar
+# diffoscope target/reference/io.yupiik.maven/yupiik-tools-common-1.2.5.jar yupiik-tools-common/target/yupiik-tools-common-1.2.5.jar
+# diffoscope target/reference/io.yupiik.maven/ascii2svg-1.2.5.jar ascii2svg/target/ascii2svg-1.2.5.jar
+# diffoscope target/reference/io.yupiik.maven/asciidoc-java-1.2.5.jar asciidoc-java/target/asciidoc-java-1.2.5.jar
+# diffoscope target/reference/io.yupiik.maven/minisite-core-1.2.5.jar minisite-core/target/minisite-core-1.2.5.jar
+# diffoscope target/reference/io.yupiik.maven/slides-core-1.2.5.jar slides-core/target/slides-core-1.2.5.jar
+# diffoscope target/reference/io.yupiik.maven/html-versioning-injector-1.2.5.jar html-versioning-injector/target/html-versioning-injector-1.2.5.jar
+# diffoscope target/reference/io.yupiik.maven/yupiik-tools-maven-plugin-1.2.5.jar yupiik-tools-maven-plugin/target/yupiik-tools-maven-plugin-1.2.5.jar
+# diffoscope target/reference/io.yupiik.maven/yupiik-tools-cli-1.2.5.jar yupiik-tools-cli/target/yupiik-tools-cli-1.2.5.jar
+# diffoscope target/reference/io.yupiik.maven/yupiik-tools-cli-1.2.5-fatjar.jar yupiik-tools-cli/target/yupiik-tools-cli-1.2.5-fatjar.jar
+# diffoscope target/reference/io.yupiik.dev/env-manager-1.2.5.jar env-manager/target/env-manager-1.2.5.jar
+# diffoscope target/reference/io.yupiik.maven/_documentation-1.2.5.jar _documentation/target/_documentation-1.2.5.jar
