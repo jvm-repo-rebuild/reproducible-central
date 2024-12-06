@@ -1,0 +1,21 @@
+groupId=io.quarkus
+artifactId=quarkus-project
+display=${groupId}:${artifactId}
+version=3.8.6
+
+gitRepo=https://github.com/quarkusio/quarkus.git
+gitTag=${version}
+
+tool=mvn-3.9.8
+jdk=17
+newline=lf
+#umask=022
+
+javaVersion="17.0.10"
+javaVendor="Eclipse Adoptium"
+command="mvn -Djava.version='$javaVersion' -Djava.vendor='$javaVendor' -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dformat.skip -Ddevelocity.cache.local.enabled=false -Ddevelocity.cache.remote.storeEnabled=false -Dbuildinfo.ignore='*/quarkus-documentation-*.zip,*/quarkus-documentation-*.tar.gz'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/quarkusio/quarkus/commit/f1da40e2664ab233e430ba93172d1e84bbd2d7be
+
