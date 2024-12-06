@@ -1025,9 +1025,9 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **42 releases** of io.quarkus:quarkus-project:
+rebuilding **46 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 42 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 46 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -1078,5 +1078,6 @@ rebuilding **42 releases** of io.quarkus:quarkus-project:
 | [3.9.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.9.1/pom) | [mvn jdk17](quarkus-3.9.1.buildspec) | [result](quarkus-project-3.9.1.buildinfo): [2204 :white_check_mark:  12 :warning:](quarkus-project-3.9.1.buildcompare) | 90M |
 | [3.9.0](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.9.0/pom) | [mvn jdk17](quarkus-3.9.0.buildspec) | [result](quarkus-project-3.9.0.buildinfo): [2204 :white_check_mark:  12 :warning:](quarkus-project-3.9.0.buildcompare) | 89M |
 | [3.9.0.CR2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.9.0.CR2/pom) | [mvn jdk17](quarkus-3.9.0.CR2.buildspec) | [result](quarkus-project-3.9.0.CR2.buildinfo): [2204 :white_check_mark:  12 :warning:](quarkus-project-3.9.0.CR2.buildcompare) | 89M |
+| [3.9.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.9.0.CR1/pom) | [mvn jdk17](quarkus-3.9.0.CR1.buildspec) | [result](quarkus-project-3.9.0.CR1.buildinfo): [2204 :white_check_mark:  12 :warning:](quarkus-project-3.9.0.CR1.buildcompare) [:memo:](https://github.com/quarkusio/quarkus/commit/f1da40e2664ab233e430ba93172d1e84bbd2d7be) | 89M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
