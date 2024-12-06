@@ -1,0 +1,3 @@
+sigstore-maven-plugin-1.2.0.buildspec
+sigstore-maven-plugin-1.2.0.buildinfo
+sigstore-maven-plugin-1.2.0.buildcompare

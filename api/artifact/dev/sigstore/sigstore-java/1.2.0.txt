@@ -1,0 +1,1 @@
+dev/sigstore/sigstore-maven-plugin
