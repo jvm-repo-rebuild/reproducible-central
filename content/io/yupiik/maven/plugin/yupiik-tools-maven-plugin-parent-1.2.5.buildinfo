@@ -174,8 +174,8 @@ outputs.9.0.checksums.sha512=bdbbc6f40c9118e9a196719a67cedf168827efe909fc59c1403
 
 outputs.9.1.groupId=io.yupiik.maven
 outputs.9.1.filename=yupiik-tools-cli-1.2.5.jar
-outputs.9.1.length=36878
-outputs.9.1.checksums.sha512=dd2f731e43225994fff1ade7277cc318631941d5318457db77dffde70b613ff108043c04fd1132521abd2dfe0ad5a75469c4b753f283d88fba1ccc2acfc4b65b
+outputs.9.1.length=36877
+outputs.9.1.checksums.sha512=606201a89083dd29d4e02bf663e66d28f258f09d82492e1614c2be2c4a132e017b4b4cf0e0622a64d4db42d3151dc01a7b54870c3d09ecec02516fe8bc033a4d
 
 outputs.9.2.groupId=io.yupiik.maven
 outputs.9.2.filename=yupiik-tools-cli-1.2.5-sources.jar
@@ -184,8 +184,8 @@ outputs.9.2.checksums.sha512=6000ddc0dc29955ae28757d23bb8a564dfcfa5e90fa4ee73a0e
 
 outputs.9.3.groupId=io.yupiik.maven
 outputs.9.3.filename=yupiik-tools-cli-1.2.5-fatjar.jar
-outputs.9.3.length=54272188
-outputs.9.3.checksums.sha512=d4cbfd80a55f84c702efcf40ba5b81550c343fe2268ef02a771b27a6e20006cdf79d3ded955c7440bd9393163d5c8e83b56ca3bc74c2a4bc4a36121f41258303
+outputs.9.3.length=54272187
+outputs.9.3.checksums.sha512=b5fb2518c10009e74060afc9e2e1b938090b1ba938230d56a627692e1d6cd201f86f029dfa12f412dee50e7adbe43593e59db49001e04f2108d0e1f10ae79605
 
 outputs.10.coordinates=io.yupiik.dev:env-manager
 
