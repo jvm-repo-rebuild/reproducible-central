@@ -32,6 +32,7 @@ rebuilding **5 releases** of org.apache.cxf.xjc-utils:xjc-utils:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.1.0](https://central.sonatype.com/artifact/org.apache.cxf.xjc-utils/xjc-utils/4.1.0/pom) | | | |
 | [4.0.2](https://central.sonatype.com/artifact/org.apache.cxf.xjc-utils/xjc-utils/4.0.2/pom) | [mvn jdk11 w](xjc-utils-4.0.2.buildspec) | [result](xjc-utils-4.0.2.buildinfo): [44 :white_check_mark: ](xjc-utils-4.0.2.buildcompare) | 596K |
 | [4.0.1](https://central.sonatype.com/artifact/org.apache.cxf.xjc-utils/xjc-utils/4.0.1/pom) | [mvn jdk11](xjc-utils-4.0.1.buildspec) | [result](xjc-utils-4.0.1.buildinfo): [44 :white_check_mark: ](xjc-utils-4.0.1.buildcompare) | 595K |
 | [4.0.0](https://central.sonatype.com/artifact/org.apache.cxf.xjc-utils/xjc-utils/4.0.0/pom) | [mvn jdk11](xjc-utils-4.0.0.buildspec) | [result](xjc-utils-4.0.0.buildinfo): [43 :white_check_mark:  1 :warning:](xjc-utils-4.0.0.buildcompare) [:mag:](xjc-utils-4.0.0.diffoscope) [:memo:](https://github.com/apache/cxf-xjc-utils/pull/73) | 591K |
