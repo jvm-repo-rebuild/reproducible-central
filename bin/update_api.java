@@ -194,7 +194,7 @@ public class update_api extends SimpleFileVisitor<Path> {
             }
 
             // artifact badge index at /badge/artifact/{groupId as dir}/{artifactId}/index.html
-            try (BufferedWriter w = Files.newBufferedWriter(artifactBadgePath.resolve("index.html"), StandardOpenOption.CREATE)) {
+            try (BufferedWriter w = Files.newBufferedWriter(artifactBadgePath.resolve("index.html"), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
                 w.write("<!DOCTYPE html><html><body>");
                 w.newLine();
                 w.write("<h1>" + ga + "</h1>");
@@ -216,7 +216,6 @@ public class update_api extends SimpleFileVisitor<Path> {
                 w.write("</ul>");
                 w.newLine();
                 w.write("</body></html>");
-                w.newLine();
             }
 
             // new Shields artifact badge index at /badge/artifact/{groupId as dir}/{artifactId}.html
@@ -224,7 +223,7 @@ public class update_api extends SimpleFileVisitor<Path> {
             Files.copy(artifactBadgePath.resolve("index.html"), artifactBadgePath.getParent().resolve(artifactId + ".html"), StandardCopyOption.REPLACE_EXISTING);
 
             // new Shields artifact badge json at /badge/artifact/{groupId as dir}/{artifactId}.json
-            try (BufferedWriter w = Files.newBufferedWriter(artifactBadgePath.getParent().resolve(artifactId + ".json"), StandardOpenOption.CREATE)) {
+            try (BufferedWriter w = Files.newBufferedWriter(artifactBadgePath.getParent().resolve(artifactId + ".json"), , StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
                 w.write("{");
                 List<Map.Entry<String, String>> entries = new ArrayList<>(versionsMap.entrySet());
                 Collections.reverse(entries);
