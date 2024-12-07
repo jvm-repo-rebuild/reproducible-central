@@ -112,6 +112,7 @@ do
       # detect unexpected issue or diffoscope but 0 non-reproducible artifact (probably cause by previous buildspec copy)
       [[ -z "${issue}" ]] && [[ -n "${diffoscope}" ]] && issue="${diffoscope}"
       [[ -n "${issue}" ]] && [ "${ko}" -eq 0 ] && echo "      $dir/$buildspec" >> ${unexpectedDiffoscope}
+      [[ -n "${diffoscope}" ]] && [[ ! -r "$dir/$(basename ${diffoscope})" ]] && echo "      $dir/$buildspec" >> ${missingDiffoscope}
       row+=" | $(grep length= ${dir}/${_buildinfo} | cut -d = -f 2 | paste -sd+ - | bc | $numfmt --to=iec) |"
       echo "$row" >> tmp/${projectReadme}
     else

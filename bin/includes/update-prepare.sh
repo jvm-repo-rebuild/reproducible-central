@@ -16,6 +16,7 @@ export LC_ALL=C
 [ -d tmp ] || mkdir tmp
 
 unexpectedDiffoscope="tmp/unexpected-diffoscope.txt"
+missingDiffoscope="tmp/missing-diffoscope.txt"
 stats="tmp/stats.txt"
 
 tac="tac"

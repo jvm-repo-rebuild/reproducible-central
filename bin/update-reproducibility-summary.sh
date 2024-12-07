@@ -196,8 +196,10 @@ echo "| ---------- | ------ |" >> tmp/newest-not-reproducible-table.md
 sort -r tmp/newest-not-reproducible.md >> tmp/newest-not-reproducible-table.md
 lead='^<!-- BEGIN GENERATED ADD OK -->$'
 tail='^<!-- END GENERATED ADD OK -->$'
-lead_diffoscope='^<!-- BEGIN GENERATED UNEXPECTED DIFFOSCOPE -->$'
-tail_diffoscope='^<!-- END GENERATED UNEXPECTED DIFFOSCOPE -->$'
+lead_unexpected_diffoscope='^<!-- BEGIN GENERATED UNEXPECTED DIFFOSCOPE -->$'
+tail_unexpected_diffoscope='^<!-- END GENERATED UNEXPECTED DIFFOSCOPE -->$'
+lead_missing_diffoscope='^<!-- BEGIN GENERATED MISSING DIFFOSCOPE -->$'
+tail_missing_diffoscope='^<!-- END GENERATED MISSING DIFFOSCOPE -->$'
 lead_staging='^<!-- BEGIN GENERATED ADD STAGING -->$'
 tail_staging='^<!-- END GENERATED ADD STAGING -->$'
 lead_ko='^<!-- BEGIN GENERATED ADD KO -->$'
@@ -206,8 +208,10 @@ lead_newest='^<!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->$'
 tail_newest='^<!-- END GENERATED NEWEST NOT REPRODUCIBLE -->$'
 sed -e "/$lead/,/$tail/{ /$lead/{p; r tmp/add-ok-table.md
         }; /$tail/p; d }" doc/add.md | \
-    sed -e "/$lead_diffoscope/,/$tail_diffoscope/{ /$lead_diffoscope/{p; r $unexpectedDiffoscope
-        }; /$tail_diffoscope/p; d }" | \
+    sed -e "/$lead_unexpected_diffoscope/,/$tail_unexpected_diffoscope/{ /$lead_unexpected_diffoscope/{p; r $unexpectedDiffoscope
+        }; /$tail_unexpected_diffoscope/p; d }" | \
+    sed -e "/$lead_missing_diffoscope/,/$tail_missing_diffoscope/{ /$lead_missing_diffoscope/{p; r $missingDiffoscope
+        }; /$tail_missing_diffoscope/p; d }" | \
     sed -e "/$lead_staging/,/$tail_staging/{ /$lead_staging/{p; r tmp/add-staging-table.md
         }; /$tail_staging/p; d }" | \
     sed -e "/$lead_ko/,/$tail_ko/{ /$lead_ko/{p; r tmp/add-ko-table.md

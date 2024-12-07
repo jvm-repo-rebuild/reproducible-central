@@ -16,6 +16,11 @@ New Releases To Add
 <!-- BEGIN GENERATED UNEXPECTED DIFFOSCOPE -->
 <!-- END GENERATED UNEXPECTED DIFFOSCOPE -->
 
+### Missing Diffoscope in Buildspec
+`buildspec` configures a `diffoscope` value to missing file in following releases:
+<!-- BEGIN GENERATED MISSING DIFFOSCOPE -->
+<!-- END GENERATED MISSING DIFFOSCOPE -->
+
 ## Apache Release Candidate in Staging
 
 <!-- BEGIN GENERATED ADD STAGING -->
