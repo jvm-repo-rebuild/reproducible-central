@@ -1,5 +1,4 @@
-content/io/opentelemetry/java/opentelemetry-sdk-1.44.1.buildspec:1.45.0
+content/com/github/hazendaz/javabean-tester/javabean-tester-2.8.3.buildspec:2.8.4
+content/io/trino/trino-466.buildspec:467
 content/org/apache/helix/helix-1.4.1.buildspec:1.4.2
-content/org/apache/cxf/cxf-build-utils/cxf-build-utils-4.0.1.buildspec:4.0.2
-content/org/apache/cxf/xjc-utils/xjc-utils-4.0.2.buildspec:4.1.0
-content/org/webjars/font-awesome/font-awesome-6.6.0.buildspec:6.7.1
+content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.11.1.buildspec:3.11.2

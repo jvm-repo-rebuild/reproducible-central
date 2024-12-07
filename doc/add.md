@@ -4,10 +4,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241206195318 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | [1.44.1](../content/io/opentelemetry/java/opentelemetry-sdk-1.44.1.buildspec) :white_check_mark: | [1.45.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.45.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/java/opentelemetry-sdk-1.44.1.buildspec 1.45.0` |
-| <!-- 20241206191244 --> [font-awesome](../content/org/webjars/font-awesome/README.md) | [6.6.0](../content/org/webjars/font-awesome/font-awesome-6.6.0.buildspec) :white_check_mark: | [6.7.1](../content/org/webjars/font-awesome/font-awesome-6.7.1.buildspec) | `bin/add-new-release.sh content/org/webjars/font-awesome/font-awesome-6.6.0.buildspec 6.7.1` |
-| <!-- 20241206021342 --> [cxf-build-utils](../content/org/apache/cxf/cxf-build-utils/README.md) | [4.0.1](../content/org/apache/cxf/cxf-build-utils/cxf-build-utils-4.0.1.buildspec) :white_check_mark: | [4.0.2](../content/org/apache/cxf/cxf-build-utils/cxf-build-utils-4.0.2.buildspec) | `bin/add-new-release.sh content/org/apache/cxf/cxf-build-utils/cxf-build-utils-4.0.1.buildspec 4.0.2` |
-| <!-- 20241206012754 --> [xjc-utils](../content/org/apache/cxf/xjc-utils/README.md) | [4.0.2](../content/org/apache/cxf/xjc-utils/xjc-utils-4.0.2.buildspec) :white_check_mark: | [4.1.0](../content/org/apache/cxf/xjc-utils/xjc-utils-4.1.0.buildspec) | `bin/add-new-release.sh content/org/apache/cxf/xjc-utils/xjc-utils-4.0.2.buildspec 4.1.0` |
+| <!-- 20241207095552 --> [maven-javadoc-plugin](../content/org/apache/maven/plugins/maven-javadoc-plugin/README.md) | [3.11.1](../content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.11.1.buildspec) :white_check_mark: | [3.11.2](../content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.11.2.buildspec) | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.11.1.buildspec 3.11.2` |
+| <!-- 20241207050229 --> [javabean-tester](../content/com/github/hazendaz/javabean-tester/README.md) | [2.8.3](../content/com/github/hazendaz/javabean-tester/javabean-tester-2.8.3.buildspec) :white_check_mark: | [2.8.4](../content/com/github/hazendaz/javabean-tester/javabean-tester-2.8.4.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/javabean-tester/javabean-tester-2.8.3.buildspec 2.8.4` |
+| <!-- 20241207021944 --> [trino-root](../content/io/trino/README.md) | [466](../content/io/trino/trino-466.buildspec) :white_check_mark: | [467](../content/io/trino/trino-467.buildspec) | `bin/add-new-release.sh content/io/trino/trino-466.buildspec 467` |
 | <!-- 20241129052209 --> [helix](../content/org/apache/helix/README.md) | [1.4.1](../content/org/apache/helix/helix-1.4.1.buildspec) :white_check_mark: | [1.4.2](../content/org/apache/helix/helix-1.4.2.buildspec) | `bin/add-new-release.sh content/org/apache/helix/helix-1.4.1.buildspec 1.4.2` |
 <!-- END GENERATED ADD OK -->
 
@@ -19,6 +18,20 @@ New Releases To Add
 ### Missing Diffoscope in Buildspec
 `buildspec` configures a `diffoscope` value to missing file in following releases:
 <!-- BEGIN GENERATED MISSING DIFFOSCOPE -->
+      content/com/taobao/arthas/arthas-3.5.0.buildspec
+      content/io/dropwizard/metrics/dropwizard-metrics-4.2.7.buildspec
+      content/io/dropwizard/metrics/dropwizard-metrics-4.2.5.buildspec
+      content/io/dropwizard/metrics/dropwizard-metrics-4.1.29.buildspec
+      content/io/dropwizard/metrics/dropwizard-metrics-4.1.23.buildspec
+      content/io/dropwizard/metrics/dropwizard-metrics-4.1.22.buildspec
+      content/io/dropwizard/metrics/dropwizard-metrics-4.1.19.buildspec
+      content/io/dropwizard/metrics5/dropwizard-metrics-5.0.0-rc10.buildspec
+      content/io/fabric8/kubernetes-client/kubernetes-client-5.2.1.buildspec
+      content/io/fabric8/kubernetes-client/kubernetes-client-5.2.0.buildspec
+      content/io/fabric8/kubernetes-client/kubernetes-client-5.1.1.buildspec
+      content/org/apache/jackrabbit/jackrabbit/jackrabbit-2.21.19.buildspec
+      content/org/apache/jackrabbit/jackrabbit/jackrabbit-2.21.18.buildspec
+      content/org/apache/jackrabbit/jackrabbit/jackrabbit-2.21.16.buildspec
 <!-- END GENERATED MISSING DIFFOSCOPE -->
 
 ## Apache Release Candidate in Staging
@@ -27,9 +40,8 @@ New Releases To Add
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
 | <!-- 20241129063107 --> [:mailbox:](https://lists.apache.org/list?dev@struts.apache.org:lte=1M:VOTE) | [struts2-parent](../content/org/apache/struts/README.md) | [6.7.0](../content/org/apache/struts/struts2-6.7.0.buildspec) :white_check_mark: | [7.0.0-M10](../content/org/apache/struts/struts2-7.0.0-M10.buildspec)  | `bin/add-new-release.sh content/org/apache/struts/struts2-6.7.0.buildspec 7.0.0-M10 staging` |
-| <!-- 20241118100302 --> [:mailbox:](https://lists.apache.org/list?dev@sling.apache.org:lte=1M:VOTE) | [org.apache.sling.models.impl](../content/org/apache/sling/org.apache.sling.models.impl/README.md) | [1.7.4](../content/org/apache/sling/org.apache.sling.models.impl/org.apache.sling.models.impl-1.7.4.buildspec) :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-models-impl/pull/58) | [1.7.6](../content/org/apache/sling/org.apache.sling.models.impl/org.apache.sling.models.impl-1.7.6.buildspec)  | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.models.impl/org.apache.sling.models.impl-1.7.4.buildspec 1.7.6 staging` |
 | <!-- 20241105182727 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-fluido-skin](../content/org/apache/maven/skins/fluido/README.md) | [2.0.0](../content/org/apache/maven/skins/fluido/maven-fluido-skin-2.0.0.buildspec) :white_check_mark: | [2.0.1](../content/org/apache/maven/skins/fluido/maven-fluido-skin-2.0.1.buildspec)  | `bin/add-new-release.sh content/org/apache/maven/skins/fluido/maven-fluido-skin-2.0.0.buildspec 2.0.1 staging` |
-| <!-- 20241102195919 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-javadoc-plugin](../content/org/apache/maven/plugins/maven-javadoc-plugin/README.md) | [3.11.1](../content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.11.1.buildspec) :white_check_mark: | [3.11.2](../content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.11.2.buildspec)  | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.11.1.buildspec 3.11.2 staging` |
+| <!-- 20241101123729 --> [:mailbox:](https://lists.apache.org/list?dev@sling.apache.org:lte=1M:VOTE) | [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | [2.11.4](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.4.buildspec) :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-resolver/pull/39) | [2.11.6](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.6.buildspec)  | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.4.buildspec 2.11.6 staging` |
 | <!-- 20241021181730 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-invoker-plugin](../content/org/apache/maven/plugins/maven-invoker-plugin/README.md) | [3.8.1](../content/org/apache/maven/plugins/maven-invoker-plugin/maven-invoker-plugin-3.8.1.buildspec) :white_check_mark: | [3.9.0](../content/org/apache/maven/plugins/maven-invoker-plugin/maven-invoker-plugin-3.9.0.buildspec)  | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-invoker-plugin/maven-invoker-plugin-3.8.1.buildspec 3.9.0 staging` |
 | <!-- 20230523070720 --> [:mailbox:](https://lists.apache.org/list?dev@royale.apache.org:lte=1M:VOTE) | [compiler](../content/org/apache/royale/compiler/README.md) | [0.9.10](../content/org/apache/royale/compiler/royale-compiler-0.9.10.buildspec) :warning: | [0.9.12](../content/org/apache/royale/compiler/royale-compiler-0.9.12.buildspec)  | `bin/add-new-release.sh content/org/apache/royale/compiler/royale-compiler-0.9.10.buildspec 0.9.12 staging` |
 <!-- END GENERATED ADD STAGING -->
@@ -39,10 +51,13 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20241207202534 --> [com.io7m.cardant](../content/com/io7m/cardant/README.md) | [0.0.2](../content/com/io7m/cardant/com.io7m.cardant-0.0.2.buildspec) :warning: | [1.0.0-beta0001](../content/com/io7m/cardant/com.io7m.cardant-1.0.0-beta0001.buildspec) | `bin/add-new-release.sh content/com/io7m/cardant/com.io7m.cardant-0.0.2.buildspec 1.0.0-beta0001` |
+| <!-- 20241207193652 --> [com.io7m.primogenitor](../content/com/io7m/primogenitor/README.md) | [8.3.1](../content/com/io7m/primogenitor/com.io7m.primogenitor-8.3.1.buildspec) :warning: | [8.4.0](../content/com/io7m/primogenitor/com.io7m.primogenitor-8.4.0.buildspec) | `bin/add-new-release.sh content/com/io7m/primogenitor/com.io7m.primogenitor-8.3.1.buildspec 8.4.0` |
+| <!-- 20241207165447 --> [hsac-fitnesse-pdf](../content/nl/hsac/hsac-fitnesse-pdf/README.md) | [0.1.4](../content/nl/hsac/hsac-fitnesse-pdf/hsac-fitnesse-pdf-0.1.4.buildspec) :warning: | [0.1.6](../content/nl/hsac/hsac-fitnesse-pdf/hsac-fitnesse-pdf-0.1.6.buildspec) | `bin/add-new-release.sh content/nl/hsac/hsac-fitnesse-pdf/hsac-fitnesse-pdf-0.1.4.buildspec 0.1.6` |
+| <!-- 20241207104017 --> [org.apache.sling.models.impl](../content/org/apache/sling/org.apache.sling.models.impl/README.md) | [1.7.4](../content/org/apache/sling/org.apache.sling.models.impl/org.apache.sling.models.impl-1.7.4.buildspec) :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-models-impl/pull/58) | [1.7.6](../content/org/apache/sling/org.apache.sling.models.impl/org.apache.sling.models.impl-1.7.6.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.models.impl/org.apache.sling.models.impl-1.7.4.buildspec 1.7.6` |
 | <!-- 20241206035137 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.67.5](../content/org/finos/legend/engine/legend-engine-4.67.5.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.67.5` |
 | <!-- 20241205125356 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.9.0](../content/org/apache/camel/camel/camel-4.9.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.9.0` |
 | <!-- 20241204090629 --> [avaje-jex-parent](../content/io/avaje/jex/README.md) | [3.0-RC8](../content/io/avaje/jex/avaje-jex-3.0-RC8.buildspec) :x: | [3.0-RC9](../content/io/avaje/jex/avaje-jex-3.0-RC9.buildspec) | `bin/add-new-release.sh content/io/avaje/jex/avaje-jex-3.0-RC8.buildspec 3.0-RC9` |
-| <!-- 20241204065136 --> [yupiik-tools-maven-plugin-parent](../content/io/yupiik/maven/plugin/README.md) | [1.2.4](../content/io/yupiik/maven/plugin/yupiik-tools-maven-plugin-1.2.4.buildspec) :warning: | [1.2.5](../content/io/yupiik/maven/plugin/yupiik-tools-maven-plugin-1.2.5.buildspec) | `bin/add-new-release.sh content/io/yupiik/maven/plugin/yupiik-tools-maven-plugin-1.2.4.buildspec 1.2.5` |
 | <!-- 20241203144539 --> [pulsar](../content/org/apache/pulsar/README.md) | [4.0.0](../content/org/apache/pulsar/pulsar-4.0.0.buildspec) :warning: [:memo:](https://github.com/apache/pulsar/pull/23639) | [4.0.1](../content/org/apache/pulsar/pulsar-4.0.1.buildspec) | `bin/add-new-release.sh content/org/apache/pulsar/pulsar-4.0.0.buildspec 4.0.1` |
 | <!-- 20241120144345 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.0.2](../content/com/taobao/arthas/arthas-4.0.2.buildspec) :warning: | [4.0.4](../content/com/taobao/arthas/arthas-4.0.4.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.0.2.buildspec 4.0.4` |
 | <!-- 20241110060152 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.18.2](../content/org/webjars/swagger-ui/swagger-ui-5.18.2.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.18.2` |
@@ -62,6 +77,7 @@ New Releases To Add
 | artifactId | newest |
 | ---------- | ------ |
 | <!-- 20241204130414 --> [quarkus-project](../content/io/quarkus/README.md) | 3.17.3 :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) |
+| <!-- 20241204065136 --> [yupiik-tools-maven-plugin-parent](../content/io/yupiik/maven/plugin/README.md) | 1.2.5 :warning: |
 | <!-- 20241203132335 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 8.0.0-JDK17-M7 :warning: |
 | <!-- 20241203114430 --> [kubernetes-client-project](../content/io/fabric8/kubernetes-client/README.md) | 7.0.0 :warning: |
 | <!-- 20241129071420 --> [license-maven-plugin](../content/org/codehaus/mojo/license-maven-plugin/README.md) | 2.5.0 :warning: |
@@ -76,7 +92,6 @@ New Releases To Add
 | <!-- 20241120081600 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | 1.6.7 :warning: |
 | <!-- 20241120023729 --> [amoro-parent](../content/org/apache/amoro/README.md) | 0.7.1-incubating :warning: |
 | <!-- 20241119151133 --> [org.apache.sling.feature.cpconverter](../content/org/apache/sling/org.apache.sling.feature.cpconverter/README.md) | 1.3.8 :warning: |
-| <!-- 20241118100302 --> [org.apache.sling.models.impl](../content/org/apache/sling/org.apache.sling.models.impl/README.md) | 1.7.4 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-models-impl/pull/58) |
 | <!-- 20241114164109 --> [gwt-commons-codec](../content/de/knightsoft-net/gwt-commons-codec/README.md) | 1.17.1-1 :warning: |
 | <!-- 20241114163736 --> [gwt-commons-validator](../content/de/knightsoft-net/gwt-commons-validator/README.md) | 1.9.0-1 :warning: |
 | <!-- 20241114163441 --> [gwt-commons-lang3](../content/de/knightsoft-net/gwt-commons-lang3/README.md) | 3.17.0-1 :warning: |
@@ -99,7 +114,6 @@ New Releases To Add
 | <!-- 20241024144320 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.2.3 :warning: |
 | <!-- 20241024075630 --> [syncope](../content/org/apache/syncope/README.md) | 3.0.9 :warning: |
 | <!-- 20241021102016 --> [jdplus-main](../content/eu/europa/ec/joinup/sat/jdplus-main/README.md) | 3.3.0 :warning: |
-| <!-- 20241020103244 --> [com.io7m.primogenitor](../content/com/io7m/primogenitor/README.md) | 8.3.1 :warning: |
 | <!-- 20241019172008 --> [tika](../content/org/apache/tika/README.md) | 3.0.0 :warning: |
 | <!-- 20241018172054 --> [org.apache.sling.commons.metrics](../content/org/apache/sling/org.apache.sling.commons.metrics/README.md) | 1.2.14 :warning: |
 | <!-- 20241018014427 --> [migratedb](../content/de/unentscheidbar/migratedb/README.md) | 1.3.0 :warning: |
@@ -158,8 +172,6 @@ New Releases To Add
 | <!-- 20240118001405 --> [scimple](../content/org/apache/directory/scimple/README.md) | 1.0.0-M1 :warning: |
 | <!-- 20240117130511 --> [jsign](../content/net/jsign/README.md) | 6.0 :warning: [:memo:](https://github.com/wvengen/proguard-maven-plugin/issues/279) |
 | <!-- 20240110201843 --> [parent](../content/org/phoebus/README.md) | 4.7.3 :warning: [:memo:](https://github.com/ControlSystemStudio/phoebus/pull/2904) |
-| <!-- 20240106130206 --> [com.io7m.cardant](../content/com/io7m/cardant/README.md) | 0.0.2 :warning: |
-| <!-- 20231205162118 --> [hsac-fitnesse-pdf](../content/nl/hsac/hsac-fitnesse-pdf/README.md) | 0.1.4 :warning: |
 | <!-- 20231109041226 --> [org.apache.sling.cms](../content/org/apache/sling/org.apache.sling.cms/README.md) | 1.1.8 :warning: |
 | <!-- 20231012084342 --> [jansi](../content/org/fusesource/jansi/jansi/README.md) | 2.4.1 :warning: [:memo:](https://github.com/moditect/moditect/pull/211) |
 | <!-- 20230916081916 --> [org.apache.felix.healthcheck.core](../content/org/apache/felix/org.apache.felix.healthcheck.core/README.md) | 2.2.0 :warning: [:memo:](https://github.com/apache/felix-dev/pull/234) |

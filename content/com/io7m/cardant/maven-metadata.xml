@@ -3,12 +3,13 @@
   <groupId>com.io7m.cardant</groupId>
   <artifactId>com.io7m.cardant</artifactId>
   <versioning>
-    <latest>0.0.2</latest>
-    <release>0.0.2</release>
+    <latest>1.0.0-beta0001</latest>
+    <release>1.0.0-beta0001</release>
     <versions>
       <version>0.0.1</version>
       <version>0.0.2</version>
+      <version>1.0.0-beta0001</version>
     </versions>
-    <lastUpdated>20240106130206</lastUpdated>
+    <lastUpdated>20241207202534</lastUpdated>
   </versioning>
 </metadata>

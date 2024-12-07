@@ -65,6 +65,7 @@ rebuilding **1 releases** of com.io7m.cardant:com.io7m.cardant:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.cardant/com.io7m.cardant/1.0.0-beta0001/pom) | | | |
 | [0.0.2](https://central.sonatype.com/artifact/com.io7m.cardant/com.io7m.cardant/0.0.2/pom) | [mvn jdk21.ea](com.io7m.cardant-0.0.2.buildspec) | [result](com.io7m.cardant-0.0.2.buildinfo): [235 :white_check_mark:  4 :warning:](com.io7m.cardant-0.0.2.buildcompare) | 58M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
