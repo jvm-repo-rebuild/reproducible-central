@@ -18,5 +18,5 @@ umask=022
 command="mvn -Papache-release package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/jackrabbit-${version}.buildinfo
 
-diffoscope=jackrabbit-${version}.diffoscope
+#diffoscope=jackrabbit-${version}.diffoscope
 issue=https://github.com/apache/jackrabbit/pull/138

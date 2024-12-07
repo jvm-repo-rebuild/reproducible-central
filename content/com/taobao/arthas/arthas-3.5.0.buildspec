@@ -13,5 +13,5 @@ newline=lf
 command="./mvnw clean package -DskipTests -Drpm.disabled"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-diffoscope=https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/$(echo ${groupId} | tr '.' '/')/${artifactId}-${version}.diffoscope
+#diffoscope=https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/$(echo ${groupId} | tr '.' '/')/${artifactId}-${version}.diffoscope
 issue=
