@@ -1,0 +1,86 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache CXF Build Utilities
+group-id=org.apache.cxf.build-utils
+artifact-id=cxf-build-utils
+version=4.0.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/cxf-build-utils.git
+source.scm.tag=cxf-build-utils-4.0.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=cxf-xml2fastinfoset-test
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.cxf.build-utils:cxf-build-utils
+
+outputs.0.0.groupId=org.apache.cxf.build-utils
+outputs.0.0.filename=cxf-build-utils-4.0.2.pom
+outputs.0.0.length=10635
+outputs.0.0.checksums.sha512=5554c0b3e3736cf196accdbcc49ef62bc98589e6cb2ff772c09bf2d690a2f914f1c80223413ff86669c8e995943717374d62e2f99635663a0b64836b72fc2846
+
+outputs.0.1.groupId=org.apache.cxf.build-utils
+outputs.0.1.filename=cxf-build-utils-4.0.2-source-release.zip
+outputs.0.1.length=46890
+outputs.0.1.checksums.sha512=2bacfb5a7ec1071035fb1fb74fe3d31d3cdf864fb31dc39803a9a9fbd1f9568e9b071b4d2eb557bf5473a2e8ef2e1eb69718cf64a7003a94a6cfc0c47a43e009
+
+outputs.1.coordinates=org.apache.cxf.build-utils:cxf-buildtools
+
+outputs.1.0.groupId=org.apache.cxf.build-utils
+outputs.1.0.filename=cxf-buildtools-4.0.2.pom
+outputs.1.0.length=3075
+outputs.1.0.checksums.sha512=4dfe9fa18799cb8e68df29baa0d843725e887346443f18a593ba448e3dbeadf4b25715c69ef589ce3243e2ce6481520569a972016b53103c5bcbb4613396fbea
+
+outputs.1.1.groupId=org.apache.cxf.build-utils
+outputs.1.1.filename=cxf-buildtools-4.0.2.jar
+outputs.1.1.length=29653
+outputs.1.1.checksums.sha512=8acdf3e92f14c0a62e68d907e720d954a850ba2a86b376c63cf02c12549ffd019762e3329c917a863394bbc54892772859ae557e485b7764787cbd611aac6634
+
+outputs.1.2.groupId=org.apache.cxf.build-utils
+outputs.1.2.filename=cxf-buildtools-4.0.2-sources.jar
+outputs.1.2.length=28316
+outputs.1.2.checksums.sha512=7bd7a94d799e7c22b1954a84f4a4561bddf3053b19f7d3ad0278c24b0b5750318ac8ee66c940cfceaa2131e85974666c80eff5e101cbd27f8098efbe8e513694
+
+outputs.2.coordinates=org.apache.cxf.build-utils:cxf-xml2fastinfoset-plugin
+
+outputs.2.0.groupId=org.apache.cxf.build-utils
+outputs.2.0.filename=cxf-xml2fastinfoset-plugin-4.0.2.pom
+outputs.2.0.length=3471
+outputs.2.0.checksums.sha512=2e09c348b2706c295daf930d7ff21a77424e7e8046400f1c8e6a6e4cd81ad1c5ccb1e1d5b42af4d7a8244591a1d4235fada0dae6afaede72af52145737c802d7
+
+outputs.2.1.groupId=org.apache.cxf.build-utils
+outputs.2.1.filename=cxf-xml2fastinfoset-plugin-4.0.2.jar
+outputs.2.1.length=14617
+outputs.2.1.checksums.sha512=d850a8a7d18afea3bd20cb8300f7f94841353dff01c20739b92b4e0bd7dd7345fd4f4e7dbfba1111b918fe12db23be08f4bfe3a58476c22661d3a603509de3c7
+
+outputs.2.2.groupId=org.apache.cxf.build-utils
+outputs.2.2.filename=cxf-xml2fastinfoset-plugin-4.0.2-sources.jar
+outputs.2.2.length=11043
+outputs.2.2.checksums.sha512=2cc74df826faf9cb04d3cf93a64ad0f152ed37fe5cf8d62c0f59cdcf00e9f393597318bfc84b7f5880f39d7ba47a1652fc2e9e24ed79f4c9f982ea1195e34fd0
+
+outputs.3.coordinates=org.apache.cxf.build-utils:cxf-xml2fastinfoset-test
+
+outputs.3.0.groupId=org.apache.cxf.build-utils
+outputs.3.0.filename=cxf-xml2fastinfoset-test-4.0.2.pom
+outputs.3.0.length=2325
+outputs.3.0.checksums.sha512=0999e123518d14846c9b44593465a068810301e4f101bb9a9186c1656e2c313b41797e501b7289f86249e7c85e0c78ed04a3ac44d0e215d887c71d1647aea387
+
+outputs.3.1.groupId=org.apache.cxf.build-utils
+outputs.3.1.filename=cxf-xml2fastinfoset-test-4.0.2.jar
+outputs.3.1.length=9951
+outputs.3.1.checksums.sha512=3cf8ead09c628ee1e575e094d316f5bc0f24529443dc850b0da5a6b6decf14bba227dbd9d7f1ba63d7a673984b70a87beac879a1122d93f9876d9b017945dfef
+
+outputs.3.2.groupId=org.apache.cxf.build-utils
+outputs.3.2.filename=cxf-xml2fastinfoset-test-4.0.2-sources.jar
+outputs.3.2.length=8297
+outputs.3.2.checksums.sha512=fbf0a2f94750d7c61b24c76ccb35e9e584b195960ddfdc8eadc9faad1fd6cb5ad5a6c9c6331d2700747f56c106d92d540f4b98b314d1b524fdc4fb133ac39305
