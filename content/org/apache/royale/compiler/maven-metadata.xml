@@ -3,8 +3,8 @@
   <groupId>org.apache.royale.compiler</groupId>
   <artifactId>compiler</artifactId>
   <versioning>
-    <latest>0.9.10</latest>
-    <release>0.9.10</release>
+    <latest>0.9.12</latest>
+    <release>0.9.12</release>
     <versions>
       <version>0.9.0</version>
       <version>0.9.1</version>
@@ -15,7 +15,8 @@
       <version>0.9.8</version>
       <version>0.9.9</version>
       <version>0.9.10</version>
+      <version>0.9.12</version>
     </versions>
-    <lastUpdated>20230523070720</lastUpdated>
+    <lastUpdated>20241207221427</lastUpdated>
   </versioning>
 </metadata>

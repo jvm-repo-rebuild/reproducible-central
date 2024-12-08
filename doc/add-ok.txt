@@ -1,4 +1,7 @@
-content/com/github/hazendaz/javabean-tester/javabean-tester-2.8.3.buildspec:2.8.4
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-16.buildspec:11.1.1-beta-17
 content/io/trino/trino-466.buildspec:467
+content/io/avaje/http/avaje-http-2.9-RC4.buildspec:2.9-RC5
+content/io/avaje/jex/avaje-jex-3.0-RC9.buildspec:3.0-RC10
+content/io/avaje/prisms/avaje-prisms-1.35.buildspec:1.36
+content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.3.17.buildspec:5.3.18
 content/org/apache/helix/helix-1.4.1.buildspec:1.4.2
-content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.11.1.buildspec:3.11.2

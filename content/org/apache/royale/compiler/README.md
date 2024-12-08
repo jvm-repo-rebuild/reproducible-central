@@ -32,6 +32,7 @@ rebuilding **2 releases** of org.apache.royale.compiler:compiler:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.9.12](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler/0.9.12/pom) | | | |
 | [0.9.10](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler/0.9.10/pom) | [mvn jdk8 w](royale-compiler-0.9.10.buildspec) | [result](royale-maven-plugin-0.9.10.buildinfo): [36 :white_check_mark:  14 :warning:](royale-maven-plugin-0.9.10.buildcompare) [:mag:](royale-maven-plugin-0.9.10.diffoscope) | 21M |
 | [0.9.9](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler/0.9.9/pom) | | | |
 | [0.9.8](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler/0.9.8/pom) | | | |
