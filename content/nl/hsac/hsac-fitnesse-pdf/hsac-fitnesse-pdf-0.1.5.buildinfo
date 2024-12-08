@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Fixtures to work with PDFs in FitNesse
+group-id=nl.hsac
+artifact-id=hsac-fitnesse-pdf
+version=0.1.5
+
+# source information
+source.scm.uri=scm:git:git://github.com/fhoeben/hsac-fitnesse-pdf.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=nl.hsac
+outputs.0.filename=hsac-fitnesse-pdf-0.1.5.pom
+outputs.0.length=7962
+outputs.0.checksums.sha512=ada1640714bc504413c7cf5a2b556c4ca6109970bb1ea6367f02945c294c6ceacd3b61bc1ccc4c21d210bc9c26ee8cc5d4cadb532788e7c12db92101ed783cb6
+
+outputs.1.groupId=nl.hsac
+outputs.1.filename=hsac-fitnesse-pdf-0.1.5.jar
+outputs.1.length=8303
+outputs.1.checksums.sha512=6bb7c549009933a6d00c53409476ac5cfbeb5266ab3726567f1499850b4332f80f6019ba8814cb20aa757f7c871b3f69ae0980e85ada44ed15a020d9082db5d8
+
+outputs.2.groupId=nl.hsac
+outputs.2.filename=hsac-fitnesse-pdf-0.1.5-sources.jar
+outputs.2.length=5689
+outputs.2.checksums.sha512=ff001e018a685813e9bfd3a8ced8a3502f080ffd81f148d0acf215e6bd831d7f1c11b6fd05743feb1d48a20dc69f30a63c2e35d6c5c102b24e7a90ebccf5111c
