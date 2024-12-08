@@ -1,0 +1,3 @@
+hsac-fitnesse-pdf-0.1.5.buildspec
+hsac-fitnesse-pdf-0.1.5.buildinfo
+hsac-fitnesse-pdf-0.1.5.buildcompare
