@@ -10,9 +10,10 @@ tool=mvn-3.9.6
 jdk=8
 newline=lf
 umask=022
+workdir="/home/vfed/Workspace/jpmml-model/target/checkout"
 
 command="mvn -Psonatype-oss-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-diffoscope=${artifactId}-${version}.diffoscope
+#diffoscope=${artifactId}-${version}.diffoscope
 issue=
