@@ -11,6 +11,10 @@ jdk=8
 newline=lf
 umask=022
 workdir="/home/vfed/Workspace/jpmml-model/target/checkout"
+#--- target/reference/org.jpmml/pmml-model-${version}-tests.jar
+#├── pmml/XXEAttackTest.pmml
+#│ <!DOCTYPE lolz
+#│  SYSTEM '${workdir}/pmml-model/src/test/resources/dtd/lolz.dtd'
 
 command="mvn -Psonatype-oss-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
