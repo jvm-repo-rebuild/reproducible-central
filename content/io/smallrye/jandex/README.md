@@ -16,9 +16,9 @@ Source code: [https://github.com/smallrye/jandex.git](https://github.com/smallry
 * [io.smallrye:jandex-test-data](https://central.sonatype.com/artifact/io.smallrye/jandex-test-data/overview)
 </details>
 
-rebuilding **10 releases** of io.smallrye:jandex-parent:
+rebuilding **11 releases** of io.smallrye:jandex-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -34,7 +34,7 @@ rebuilding **10 releases** of io.smallrye:jandex-parent:
 | [3.1.4](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.1.4/pom) | | | |
 | [3.1.3](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.1.3/pom) | [mvn jdk17.0.8](jandex-3.1.3.buildspec) | [result](jandex-parent-3.1.3.buildinfo): [9 :white_check_mark:  2 :warning:](jandex-parent-3.1.3.buildcompare) [:mag:](jandex-parent-3.1.3.diffoscope) [:memo:](https://github.com/smallrye/smallrye-parent/pull/420) | 650K |
 | [3.1.2](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.1.2/pom) | [mvn jdk17.0.7](jandex-3.1.2.buildspec) | [result](jandex-parent-3.1.2.buildinfo): [9 :white_check_mark:  2 :warning:](jandex-parent-3.1.2.buildcompare) [:mag:](jandex-parent-3.1.2.diffoscope) | 649K |
-| [3.1.1](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.1.1/pom) | | | |
+| [3.1.1](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.1.1/pom) | [mvn jdk17](jandex-3.1.1.buildspec) | [result](jandex-parent-3.1.1.buildinfo): [9 :white_check_mark:  2 :warning:](jandex-parent-3.1.1.buildcompare) | 644K |
 | [3.1.0](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.1.0/pom) | [mvn jdk17](jandex-3.1.0.buildspec) | [result](jandex-parent-3.1.0.buildinfo): [9 :white_check_mark:  2 :warning:](jandex-parent-3.1.0.buildcompare) [:mag:](jandex-parent-3.1.0.diffoscope) | 644K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
