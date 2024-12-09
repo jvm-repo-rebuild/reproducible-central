@@ -1,0 +1,9 @@
+version=5.4.1
+ok=9
+ko=0
+ignored=0
+okFiles="across-core-dependencies-5.4.1.pom across-base-5.4.1.pom across-core-5.4.1.pom across-core-5.4.1.jar across-web-5.4.1.pom across-web-5.4.1.jar across-test-5.4.1.pom across-test-5.4.1.jar across-standard-module-parent-5.4.1.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
