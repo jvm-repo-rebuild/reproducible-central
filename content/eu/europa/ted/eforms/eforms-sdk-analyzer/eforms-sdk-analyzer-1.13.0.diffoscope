@@ -1,0 +1,127 @@
+1 / 2 target/reference/eu.europa.ted.eforms/eforms-sdk-analyzer-1.13.0.jar target/eforms-sdk-analyzer-1.13.0.jar
+--- target/reference/eu.europa.ted.eforms/eforms-sdk-analyzer-1.13.0.jar
++++ target/eforms-sdk-analyzer-1.13.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 907913 bytes, number of entries: 739
+│ +Zip file size: 908404 bytes, number of entries: 739
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 15:54 META-INF/
+│  -rw-r--r--  2.0 unx       81 b- defN 24-Oct-14 15:54 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 15:54 META-INF/kie/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 15:54 META-INF/kie/eu.europa.ted.eforms/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 15:54 META-INF/kie/eu.europa.ted.eforms/eforms-sdk-analyzer/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 15:54 META-INF/native-image/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Oct-14 15:54 META-INF/native-image/picocli-generated/
+│ @@ -670,26 +670,26 @@
+│  -rw-r--r--  2.0 unx     3243 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/PFD/LambdaConsequenceFDDC34EC9C9E621391489F9492155AAC.class
+│  -rw-r--r--  2.0 unx     2797 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/PFD/LambdaPredicateFDECC602A567F7DF919910D8B44B41AA.class
+│  -rw-r--r--  2.0 unx     2908 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/PFE/LambdaConsequenceFE7137BD1A859D6FA8AFD4BE66289FB1.class
+│  -rw-r--r--  2.0 unx     3295 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/PFF/LambdaConsequenceFFFB1FFBC2A9E472CDCA6B83BB6F41FD.class
+│  -rw-r--r--  2.0 unx      418 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RuleUnit.class
+│  -rw-r--r--  2.0 unx     1598 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF.class
+│  -rw-r--r--  2.0 unx    14960 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnit.class
+│ --rw-r--r--  2.0 unx    14194 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods0.class
+│ --rw-r--r--  2.0 unx    14972 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods1.class
+│ --rw-r--r--  2.0 unx    19482 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods10.class
+│ --rw-r--r--  2.0 unx    24428 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods11.class
+│ --rw-r--r--  2.0 unx    17385 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods2.class
+│ --rw-r--r--  2.0 unx    18418 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods3.class
+│ --rw-r--r--  2.0 unx    11026 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods4.class
+│ --rw-r--r--  2.0 unx    17438 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods5.class
+│ --rw-r--r--  2.0 unx    17967 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods6.class
+│ --rw-r--r--  2.0 unx    18310 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods7.class
+│ --rw-r--r--  2.0 unx    16732 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods8.class
+│ --rw-r--r--  2.0 unx    14991 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods9.class
+│ +-rw-r--r--  2.0 unx    14718 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods0.class
+│ +-rw-r--r--  2.0 unx    16633 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods1.class
+│ +-rw-r--r--  2.0 unx    21536 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods10.class
+│ +-rw-r--r--  2.0 unx    17051 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods11.class
+│ +-rw-r--r--  2.0 unx    16980 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods2.class
+│ +-rw-r--r--  2.0 unx    14479 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods3.class
+│ +-rw-r--r--  2.0 unx    15040 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods4.class
+│ +-rw-r--r--  2.0 unx    19236 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods5.class
+│ +-rw-r--r--  2.0 unx    14630 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods6.class
+│ +-rw-r--r--  2.0 unx    14437 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods7.class
+│ +-rw-r--r--  2.0 unx    18883 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods8.class
+│ +-rw-r--r--  2.0 unx    22754 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods9.class
+│  -rw-r--r--  2.0 unx     1290 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesRunner$1.class
+│  -rw-r--r--  2.0 unx     3698 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesRunner.class
+│  -rw-r--r--  2.0 unx    10783 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/SdkUnit.class
+│  -rw-r--r--  2.0 unx     3158 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/SdkUnitRuleUnit.class
+│  -rw-r--r--  2.0 unx     4992 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/SdkUnitRuleUnitInstance.class
+│  -rw-r--r--  2.0 unx     3495 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/codelistRules.drl
+│  -rw-r--r--  2.0 unx    11330 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/fieldsAndNodesRules.drl
+│ @@ -734,8 +734,8 @@
+│  -rw-r--r--  2.0 unx     3153 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/validator/Validator.class
+│  -rw-r--r--  2.0 unx    16673 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/validator/XmlSchemaValidator.class
+│  -rw-r--r--  2.0 unx     1477 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/vo/SdkMetadata.class
+│  -rw-r--r--  2.0 unx     1860 b- defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/vo/ValidationResult.class
+│  -rw-r--r--  2.0 unx      608 b- defN 24-Oct-14 15:54 logback.xml
+│  -rw-r--r--  2.0 unx    21166 b- defN 24-Oct-14 15:54 META-INF/maven/eu.europa.ted.eforms/eforms-sdk-analyzer/pom.xml
+│  -rw-r--r--  2.0 unx       75 b- defN 24-Oct-14 15:54 META-INF/maven/eu.europa.ted.eforms/eforms-sdk-analyzer/pom.properties
+│ -739 files, 13421755 bytes uncompressed, 737099 bytes compressed:  94.5%
+│ +739 files, 13422789 bytes uncompressed, 737590 bytes compressed:  94.5%
+
+2 / 2 target/reference/eu.europa.ted.eforms/eforms-sdk-analyzer-1.13.0-all.jar target/eforms-sdk-analyzer-1.13.0-all.jar
+--- target/reference/eu.europa.ted.eforms/eforms-sdk-analyzer-1.13.0-all.jar
++++ target/eforms-sdk-analyzer-1.13.0-all.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 39486035 bytes, number of entries: 24552
+│ +Zip file size: 39486526 bytes, number of entries: 24552
+│  -rw----     2.0 fat      336 bX defN 24-Oct-14 15:54 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 24-Oct-14 15:54 META-INF/
+│  -rw----     2.0 fat      382 bl defN 24-Oct-14 15:54 META-INF/BenchmarkList
+│  -rw----     2.0 fat      286 bl defN 24-Oct-14 15:54 META-INF/CompilerHints
+│  -rw----     2.0 fat        0 bl defN 24-Oct-14 15:54 META-INF/kie/
+│  -rw----     2.0 fat        0 bl defN 24-Oct-14 15:54 META-INF/kie/eu.europa.ted.eforms/
+│  -rw----     2.0 fat        0 bl defN 24-Oct-14 15:54 META-INF/kie/eu.europa.ted.eforms/eforms-sdk-analyzer/
+│ @@ -658,26 +658,26 @@
+│  -rw----     2.0 fat        0 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/PFE/
+│  -rw----     2.0 fat     2908 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/PFE/LambdaConsequenceFE7137BD1A859D6FA8AFD4BE66289FB1.class
+│  -rw----     2.0 fat        0 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/PFF/
+│  -rw----     2.0 fat     3295 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/PFF/LambdaConsequenceFFFB1FFBC2A9E472CDCA6B83BB6F41FD.class
+│  -rw----     2.0 fat      418 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RuleUnit.class
+│  -rw----     2.0 fat     1598 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF.class
+│  -rw----     2.0 fat    14960 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnit.class
+│ --rw----     2.0 fat    14194 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods0.class
+│ --rw----     2.0 fat    14972 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods1.class
+│ --rw----     2.0 fat    19482 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods10.class
+│ --rw----     2.0 fat    24428 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods11.class
+│ --rw----     2.0 fat    17385 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods2.class
+│ --rw----     2.0 fat    18418 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods3.class
+│ --rw----     2.0 fat    11026 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods4.class
+│ --rw----     2.0 fat    17438 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods5.class
+│ --rw----     2.0 fat    17967 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods6.class
+│ --rw----     2.0 fat    18310 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods7.class
+│ --rw----     2.0 fat    16732 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods8.class
+│ --rw----     2.0 fat    14991 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods9.class
+│ +-rw----     2.0 fat    14718 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods0.class
+│ +-rw----     2.0 fat    16633 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods1.class
+│ +-rw----     2.0 fat    21536 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods10.class
+│ +-rw----     2.0 fat    17051 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods11.class
+│ +-rw----     2.0 fat    16980 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods2.class
+│ +-rw----     2.0 fat    14479 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods3.class
+│ +-rw----     2.0 fat    15040 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods4.class
+│ +-rw----     2.0 fat    19236 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods5.class
+│ +-rw----     2.0 fat    14630 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods6.class
+│ +-rw----     2.0 fat    14437 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods7.class
+│ +-rw----     2.0 fat    18883 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods8.class
+│ +-rw----     2.0 fat    22754 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesD38678986AFD54C5B0C6EFBC2A81A2FF_SdkUnitRuleMethods9.class
+│  -rw----     2.0 fat     1290 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesRunner$1.class
+│  -rw----     2.0 fat     3698 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/RulesRunner.class
+│  -rw----     2.0 fat    10783 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/SdkUnit.class
+│  -rw----     2.0 fat     3158 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/SdkUnitRuleUnit.class
+│  -rw----     2.0 fat     4992 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/SdkUnitRuleUnitInstance.class
+│  -rw----     2.0 fat     3495 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/codelistRules.drl
+│  -rw----     2.0 fat    11330 bl defN 24-Oct-14 15:54 eu/europa/ted/eforms/sdk/analysis/drools/fieldsAndNodesRules.drl
+│ @@ -24547,8 +24547,8 @@
+│  -rw----     2.0 fat       63 bl defN 24-Oct-14 15:54 META-INF/services/org.kie.internal.ruleunit.RuleUnitComponentFactory
+│  -rw----     2.0 fat       42 bl defN 24-Oct-14 15:54 META-INF/services/org.kie.api.internal.runtime.KieRuntimes
+│  -rw----     2.0 fat      121 bl defN 24-Oct-14 15:54 META-INF/services/com.thaiopensource.datatype.xsd.regex.RegexEngine
+│  -rw----     2.0 fat       66 bl defN 24-Oct-14 15:54 META-INF/services/jakarta.servlet.ServletContainerInitializer
+│  -rw----     2.0 fat       37 bl defN 24-Oct-14 15:54 META-INF/services/javax.annotation.processing.Processor
+│  -rw----     2.0 fat      379 bl defN 24-Oct-14 15:54 META-INF/services/jakarta.activation.spi.MailcapRegistryProvider
+│  -rw----     2.0 fat      124 bl defN 24-Oct-14 15:54 META-INF/services/org.drools.core.reteoo.RuntimeComponentFactory
+│ -24552 files, 103698416 bytes uncompressed, 34511149 bytes compressed:  66.7%
+│ +24552 files, 103699450 bytes uncompressed, 34511640 bytes compressed:  66.7%
