@@ -30,7 +30,7 @@ outputs.0.checksums.sha512=45a78affb13f28beed156bd49b1c25339fc4e52514dd89b370558
 outputs.1.groupId=de.knightsoft-net
 outputs.1.filename=gwt-commons-codec-1.17.1-1.jar
 outputs.1.length=691977
-outputs.1.checksums.sha512=76f0947b691bc9676491031515fca919c44b83dde250f81de45345d995f3de84ecd06e93772c72ff03677b36be6b792364db73e4de5e97ff6b4af12f6d2bcf67
+outputs.1.checksums.sha512=ec2e5634b32c88e662833b0d7d563f4bae2f6601cd2f9d4f01aac6b7b49b6ed1880e5806f5e3bf1eeda9ab44e2b9797fe10f1686c8c2f5ea0bf773591e701f5f
 
 outputs.2.groupId=de.knightsoft-net
 outputs.2.filename=gwt-commons-codec-1.17.1-1-tests.jar

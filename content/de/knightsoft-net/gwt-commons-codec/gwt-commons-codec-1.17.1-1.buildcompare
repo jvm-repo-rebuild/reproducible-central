@@ -1,10 +1,9 @@
 version=1.17.1-1
-ok=6
-ko=1
+ok=7
+ko=0
 ignored=0
-okFiles="gwt-commons-codec-1.17.1-1.pom gwt-commons-codec-1.17.1-1-tests.jar gwt-commons-codec-1.17.1-1-sources.jar gwt-commons-codec-1.17.1-1-test-sources.jar gwt-commons-codec-1.17.1-1-cyclonedx.xml gwt-commons-codec-1.17.1-1-cyclonedx.json"
-koFiles="gwt-commons-codec-1.17.1-1.jar"
+okFiles="gwt-commons-codec-1.17.1-1.pom gwt-commons-codec-1.17.1-1.jar gwt-commons-codec-1.17.1-1-tests.jar gwt-commons-codec-1.17.1-1-sources.jar gwt-commons-codec-1.17.1-1-test-sources.jar gwt-commons-codec-1.17.1-1-cyclonedx.xml gwt-commons-codec-1.17.1-1-cyclonedx.json"
+koFiles=""
 ignoredFiles=""
 reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
-# diffoscope target/reference/de.knightsoft-net/gwt-commons-codec-1.17.1-1.jar target/gwt-commons-codec-1.17.1-1.jar

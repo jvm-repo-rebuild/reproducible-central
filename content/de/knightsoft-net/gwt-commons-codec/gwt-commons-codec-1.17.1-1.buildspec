@@ -10,6 +10,7 @@ tool=mvn
 jdk=17
 newline=lf
 #umask=022
+timezone="Europe/Paris"
 
 command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcommons.release.dryRun -Dcommons.release.isDistModule=false -Dspdx.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
