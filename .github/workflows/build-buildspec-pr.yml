@@ -105,7 +105,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if [ $(grep "ko=0" PRcomment.txt | wc -l) -eq 1 ]
+          if [ $(grep "^ko=" PRcomment.txt | grep -v "ko=0" | wc -l) -eq 0 ]
           then
             gh pr merge -m -d
           fi
