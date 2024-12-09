@@ -1,0 +1,68 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Codec
+group-id=de.knightsoft-net
+artifact-id=gwt-commons-codec
+version=1.16.1-0
+
+# source information
+source.scm.uri=scm:git:git@gitlab.com:ManfredTremmel/gwt-commons-codec.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.0
+
+# output
+
+outputs.0.groupId=de.knightsoft-net
+outputs.0.filename=gwt-commons-codec-1.16.1-0.pom
+outputs.0.length=21324
+outputs.0.checksums.sha512=8faa820d43fdf9473788a0b5d63e1a2f010a8eda74eee8cd97f122c4fb78d83da5f1e7ae19e1714a5b6ef47274a8861e9d6b44d2661e8cade1124b14ae5370d7
+
+outputs.1.groupId=de.knightsoft-net
+outputs.1.filename=gwt-commons-codec-1.16.1-0.jar
+outputs.1.length=675889
+outputs.1.checksums.sha512=74c26f93b437dbd3ace8392fb7f1232560bb88d0fe46e0fcc20bbce66b98bebf613aab49fc265a84e38e33fabc92a26aaf09d141110f57efc3655e453348eb42
+
+outputs.2.groupId=de.knightsoft-net
+outputs.2.filename=gwt-commons-codec-1.16.1-0-tests.jar
+outputs.2.length=395201
+outputs.2.checksums.sha512=a9dd127e5c5fe4e34195e29621845943d0978fe53e429aff0c59ad3bb9e966453a811c7a890b8ac9b15a30e28219ba38a1c27a98372d08ee032f546b95d68f1f
+
+outputs.3.groupId=de.knightsoft-net
+outputs.3.filename=gwt-commons-codec-1.16.1-0-sources.jar
+outputs.3.length=394926
+outputs.3.checksums.sha512=8e695e3a8d16b21ede890f628ff441cd1f334c7adf763679312618472286e9b67bb13b89b0ac97b3b32dc9f483bb2266b5c5de608c916e886a0ecbda8b2c93a1
+
+outputs.4.groupId=de.knightsoft-net
+outputs.4.filename=gwt-commons-codec-1.16.1-0-test-sources.jar
+outputs.4.length=267766
+outputs.4.checksums.sha512=6954a3f30313a7cd31ee76b6e5a23812157665357ba67d49bd5fee9602ba7ebf1b1f4b45308494fe07d8f2fe543eb59167d65f746abd71f807b98c955d95a822
+
+outputs.5.groupId=de.knightsoft-net
+outputs.5.filename=gwt-commons-codec-1.16.1-0-sources.jar
+outputs.5.length=394926
+outputs.5.checksums.sha512=8e695e3a8d16b21ede890f628ff441cd1f334c7adf763679312618472286e9b67bb13b89b0ac97b3b32dc9f483bb2266b5c5de608c916e886a0ecbda8b2c93a1
+
+outputs.6.groupId=de.knightsoft-net
+outputs.6.filename=gwt-commons-codec-1.16.1-0-cyclonedx.xml
+outputs.6.length=134602
+outputs.6.checksums.sha512=d2c1bac67541c62111a466d53f24dc41c3cbaa3b257d766881fbc0c376e5386ccdc352f791f5a8325578c50c330d312c932926393d04ad73d4407312400dc16c
+
+outputs.7.groupId=de.knightsoft-net
+outputs.7.filename=gwt-commons-codec-1.16.1-0-cyclonedx.json
+outputs.7.length=154227
+outputs.7.checksums.sha512=e82ce805a7ec3191729b8398bd776c9fa742f29502b7cb521c04132af630892063296fd6d6cd0ddfcebe3152f0632fc6562635461b2eca1b6d1c9bea4c82c819
+
+outputs.8.groupId=de.knightsoft-net
+outputs.8.filename=gwt-commons-codec-1.16.1-0.spdx.json
+outputs.8.length=227147
+outputs.8.checksums.sha512=29d9ede2f0eef3de69e618337df175a7beeac4b2a7f21bfd360e42fb92b89fa0d57949c3384c2538be2876a4f448e6ddf571bc245de115e8d6b832afe2191c51
