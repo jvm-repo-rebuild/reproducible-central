@@ -1,0 +1,3 @@
+avaje-prisms-1.36.buildspec
+avaje-prisms-parent-1.36.buildinfo
+avaje-prisms-parent-1.36.buildcompare
