@@ -76,7 +76,10 @@ then
   detectNewline tmp/$jarArtifactId-$nextVersion-pom.xml
   [ -s tmp/$jarArtifactId-$nextVersion-pom.xml ] && if ! diff -q tmp/$nextPom tmp/$jarArtifactId-$nextVersion-pom.xml
   then
-    echo -e "\033[0;31mbuild done with Maven 4\033[0m: consumer pom in Maven Central differs from build pom in jar"
+    echo -e "\033[0;31mbuild done with shade or Maven 4\033[0m: pom in Maven Central differs from build pom in jar, trying to download build pom"
+    nextBuildPom="$jarArtifactId-$nextVersion-build.pom"
+    [ -f tmp/$nextBuildPom ] || curl -s --fail $referenceRepo/${jarGroupIdAsDir}/${jarArtifactId}/${nextVersion}/$nextBuildPom --output tmp/$nextBuildPom
+    ls -l tmp/$nextBuildPom
   fi
 else
   [ -n "$jarArtifactId" ] && echo -e "\033[0;31m  $nextJar not found\033[0;0m"
