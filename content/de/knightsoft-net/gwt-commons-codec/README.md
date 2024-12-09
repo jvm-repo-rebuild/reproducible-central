@@ -7,15 +7,15 @@
 
 Source code: [https://gitlab.com/ManfredTremmel/gwt-commons-codec.git](https://gitlab.com/ManfredTremmel/gwt-commons-codec.git)
 
-rebuilding **2 releases** of de.knightsoft-net:gwt-commons-codec:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **3 releases** of de.knightsoft-net:gwt-commons-codec:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [1.17.1-1](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-codec/1.17.1-1/pom) | [mvn jdk17](gwt-commons-codec-1.17.1-1.buildspec) | [result](gwt-commons-codec-1.17.1-1.buildinfo): [6 :white_check_mark:  1 :warning:](gwt-commons-codec-1.17.1-1.buildcompare) | 2.5M |
 | [1.17.1-0](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-codec/1.17.1-0/pom) | | | |
-| [1.17.0-0](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-codec/1.17.0-0/pom) | | | |
+| [1.17.0-0](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-codec/1.17.0-0/pom) | [mvn jdk8](gwt-commons-codec-1.17.0-0.buildspec) | [result](gwt-commons-codec-1.17.0-0.buildinfo): [7 :white_check_mark: ](gwt-commons-codec-1.17.0-0.buildcompare) | 2.4M |
 | [1.16.1-0](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-codec/1.16.1-0/pom) | [mvn jdk8](gwt-commons-codec-1.16.1-0.buildspec) | [result](gwt-commons-codec-1.16.1-0.buildinfo): [7 :white_check_mark:  1 :warning:](gwt-commons-codec-1.16.1-0.buildcompare) | 2.6M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
