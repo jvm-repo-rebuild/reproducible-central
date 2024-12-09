@@ -4,11 +4,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241208195035 --> [avaje-http-parent](../content/io/avaje/http/README.md) | [2.9-RC4](../content/io/avaje/http/avaje-http-2.9-RC4.buildspec) :white_check_mark: | [2.9-RC5](../content/io/avaje/http/avaje-http-2.9-RC5.buildspec) | `bin/add-new-release.sh content/io/avaje/http/avaje-http-2.9-RC4.buildspec 2.9-RC5` |
-| <!-- 20241208183207 --> [avaje-prisms-parent](../content/io/avaje/prisms/README.md) | [1.35](../content/io/avaje/prisms/avaje-prisms-1.35.buildspec) :white_check_mark: | [1.36](../content/io/avaje/prisms/avaje-prisms-1.36.buildspec) | `bin/add-new-release.sh content/io/avaje/prisms/avaje-prisms-1.35.buildspec 1.36` |
-| <!-- 20241208182856 --> [avaje-jex-parent](../content/io/avaje/jex/README.md) | [3.0-RC9](../content/io/avaje/jex/avaje-jex-3.0-RC9.buildspec) :white_check_mark: | [3.0-RC10](../content/io/avaje/jex/avaje-jex-3.0-RC10.buildspec) | `bin/add-new-release.sh content/io/avaje/jex/avaje-jex-3.0-RC9.buildspec 3.0-RC10` |
-| <!-- 20241208130556 --> [hsac-fitnesse-fixtures](../content/nl/hsac/hsac-fitnesse-fixtures/README.md) | [5.3.17](../content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.3.17.buildspec) :white_check_mark: | [5.3.18](../content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.3.18.buildspec) | `bin/add-new-release.sh content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.3.17.buildspec 5.3.18` |
-| <!-- 20241208021029 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [11.1.1-beta-16](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-16.buildspec) :white_check_mark: | [11.1.1-beta-17](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-17.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-16.buildspec 11.1.1-beta-17` |
+| <!-- 20241209161019 --> [flexmonster](../content/org/webjars/flexmonster/README.md) | [2.9.91](../content/org/webjars/flexmonster/flexmonster-2.9.91.buildspec) :white_check_mark: | [2.9.92](../content/org/webjars/flexmonster/flexmonster-2.9.92.buildspec) | `bin/add-new-release.sh content/org/webjars/flexmonster/flexmonster-2.9.91.buildspec 2.9.92` |
+| <!-- 20241209155409 --> [io.wcm.parent_toplevel](../content/io/wcm/tooling/README.md) | [2.3.2](../content/io/wcm/tooling/wcm-parent_toplevel-2.3.2.buildspec) :white_check_mark: | [2.3.4](../content/io/wcm/tooling/wcm-parent_toplevel-2.3.4.buildspec) | `bin/add-new-release.sh content/io/wcm/tooling/wcm-parent_toplevel-2.3.2.buildspec 2.3.4` |
+| <!-- 20241209123817 --> [plexus-sec-dispatcher](../content/org/codehaus/plexus/plexus-sec-dispatcher/README.md) | [4.0.2](../content/org/codehaus/plexus/plexus-sec-dispatcher/plexus-sec-dispatcher-4.0.2.buildspec) :white_check_mark: | [4.0.3](../content/org/codehaus/plexus/plexus-sec-dispatcher/plexus-sec-dispatcher-4.0.3.buildspec) | `bin/add-new-release.sh content/org/codehaus/plexus/plexus-sec-dispatcher/plexus-sec-dispatcher-4.0.2.buildspec 4.0.3` |
 | <!-- 20241207021944 --> [trino-root](../content/io/trino/README.md) | [466](../content/io/trino/trino-466.buildspec) :white_check_mark: | [467](../content/io/trino/trino-467.buildspec) | `bin/add-new-release.sh content/io/trino/trino-466.buildspec 467` |
 | <!-- 20241129052209 --> [helix](../content/org/apache/helix/README.md) | [1.4.1](../content/org/apache/helix/helix-1.4.1.buildspec) :white_check_mark: | [1.4.2](../content/org/apache/helix/helix-1.4.2.buildspec) | `bin/add-new-release.sh content/org/apache/helix/helix-1.4.1.buildspec 1.4.2` |
 <!-- END GENERATED ADD OK -->
@@ -21,7 +19,6 @@ New Releases To Add
 ### Missing Diffoscope in Buildspec
 `buildspec` configures a `diffoscope` value to missing file in following releases:
 <!-- BEGIN GENERATED MISSING DIFFOSCOPE -->
-      content/io/dropwizard/metrics/dropwizard-metrics-4.1.29.buildspec
 <!-- END GENERATED MISSING DIFFOSCOPE -->
 
 ## Apache Release Candidate in Staging
@@ -33,6 +30,8 @@ New Releases To Add
 | <!-- 20241105182727 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-fluido-skin](../content/org/apache/maven/skins/fluido/README.md) | [2.0.0](../content/org/apache/maven/skins/fluido/maven-fluido-skin-2.0.0.buildspec) :white_check_mark: | [2.0.1](../content/org/apache/maven/skins/fluido/maven-fluido-skin-2.0.1.buildspec)  | `bin/add-new-release.sh content/org/apache/maven/skins/fluido/maven-fluido-skin-2.0.0.buildspec 2.0.1 staging` |
 | <!-- 20241101123729 --> [:mailbox:](https://lists.apache.org/list?dev@sling.apache.org:lte=1M:VOTE) | [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | [2.11.4](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.4.buildspec) :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-resolver/pull/39) | [2.11.6](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.6.buildspec)  | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.4.buildspec 2.11.6 staging` |
 | <!-- 20241021181730 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-invoker-plugin](../content/org/apache/maven/plugins/maven-invoker-plugin/README.md) | [3.8.1](../content/org/apache/maven/plugins/maven-invoker-plugin/maven-invoker-plugin-3.8.1.buildspec) :white_check_mark: | [3.9.0](../content/org/apache/maven/plugins/maven-invoker-plugin/maven-invoker-plugin-3.9.0.buildspec)  | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-invoker-plugin/maven-invoker-plugin-3.8.1.buildspec 3.9.0 staging` |
+| <!-- 20240924184351 --> [:mailbox:](https://lists.apache.org/list?dev@wicket.apache.org:lte=1M:VOTE) | [wicket-parent](../content/org/apache/wicket/README.md) | [10.2.0](../content/org/apache/wicket/wicket-parent-10.2.0.buildspec) :white_check_mark: | [10.3.0](../content/org/apache/wicket/wicket-parent-10.3.0.buildspec)  | `bin/add-new-release.sh content/org/apache/wicket/wicket-parent-10.2.0.buildspec 10.3.0 staging` |
+| <!-- 20240826081616 --> [:mailbox:](https://lists.apache.org/list?dev@sling.apache.org:lte=1M:VOTE) | [org.apache.sling.testing.osgi-mock](../content/org/apache/sling/org.apache.sling.testing.osgi-mock/README.md) | [3.5.0](../content/org/apache/sling/org.apache.sling.testing.osgi-mock/org.apache.sling.testing.osgi-mock-3.5.0.buildspec) :white_check_mark: | [3.5.2](../content/org/apache/sling/org.apache.sling.testing.osgi-mock/org.apache.sling.testing.osgi-mock-3.5.2.buildspec)  | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.testing.osgi-mock/org.apache.sling.testing.osgi-mock-3.5.0.buildspec 3.5.2 staging` |
 <!-- END GENERATED ADD STAGING -->
 
 ## New Release of non-Reproducible Previous
@@ -41,7 +40,6 @@ New Releases To Add
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
 | <!-- 20241208185620 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [11.0-javax](../content/io/avaje/inject/avaje-inject-11.0-javax.buildspec) :warning: | [11.1-RC1](../content/io/avaje/inject/avaje-inject-11.1-RC1.buildspec) | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-11.0-javax.buildspec 11.1-RC1` |
-| <!-- 20241208110550 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | [1.6.7](../content/org/jpmml/jpmml-model/jpmml-model-1.6.7.buildspec) :warning: | [1.6.8](../content/org/jpmml/jpmml-model/jpmml-model-1.6.8.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-model/jpmml-model-1.6.7.buildspec 1.6.8` |
 | <!-- 20241207221427 --> [compiler](../content/org/apache/royale/compiler/README.md) | [0.9.10](../content/org/apache/royale/compiler/royale-compiler-0.9.10.buildspec) :warning: | [0.9.12](../content/org/apache/royale/compiler/royale-compiler-0.9.12.buildspec) | `bin/add-new-release.sh content/org/apache/royale/compiler/royale-compiler-0.9.10.buildspec 0.9.12` |
 | <!-- 20241207202534 --> [com.io7m.cardant](../content/com/io7m/cardant/README.md) | [0.0.2](../content/com/io7m/cardant/com.io7m.cardant-0.0.2.buildspec) :warning: | [1.0.0-beta0001](../content/com/io7m/cardant/com.io7m.cardant-1.0.0-beta0001.buildspec) | `bin/add-new-release.sh content/com/io7m/cardant/com.io7m.cardant-0.0.2.buildspec 1.0.0-beta0001` |
 | <!-- 20241206035137 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.67.5](../content/org/finos/legend/engine/legend-engine-4.67.5.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.67.5` |
@@ -79,7 +77,6 @@ New Releases To Add
 | <!-- 20241120141927 --> [nifi](../content/org/apache/nifi/nifi/README.md) | 2.0.0 :warning: |
 | <!-- 20241120023729 --> [amoro-parent](../content/org/apache/amoro/README.md) | 0.7.1-incubating :warning: |
 | <!-- 20241119151133 --> [org.apache.sling.feature.cpconverter](../content/org/apache/sling/org.apache.sling.feature.cpconverter/README.md) | 1.3.8 :warning: |
-| <!-- 20241114164109 --> [gwt-commons-codec](../content/de/knightsoft-net/gwt-commons-codec/README.md) | 1.17.1-1 :warning: |
 | <!-- 20241114163736 --> [gwt-commons-validator](../content/de/knightsoft-net/gwt-commons-validator/README.md) | 1.9.0-1 :warning: |
 | <!-- 20241114163441 --> [gwt-commons-lang3](../content/de/knightsoft-net/gwt-commons-lang3/README.md) | 3.17.0-1 :warning: |
 | <!-- 20241114145222 --> [fediz](../content/org/apache/cxf/fediz/README.md) | 1.7.0 :warning: |
@@ -104,6 +101,7 @@ New Releases To Add
 | <!-- 20241019172008 --> [tika](../content/org/apache/tika/README.md) | 3.0.0 :warning: |
 | <!-- 20241018172054 --> [org.apache.sling.commons.metrics](../content/org/apache/sling/org.apache.sling.commons.metrics/README.md) | 1.2.14 :warning: |
 | <!-- 20241018014427 --> [migratedb](../content/de/unentscheidbar/migratedb/README.md) | 1.3.0 :warning: |
+| <!-- 20241014160814 --> [eforms-sdk-analyzer](../content/eu/europa/ted/eforms/eforms-sdk-analyzer/README.md) | 1.13.0 :warning: |
 | <!-- 20241009192643 --> [camel-k-runtime-project](../content/org/apache/camel/camel-k-runtime/README.md) | 3.15.0 :warning: |
 | <!-- 20241009111429 --> [protostream-aggregator](../content/org/infinispan/protostream/README.md) | 5.0.12.Final :warning: [:memo:](https://github.com/infinispan/protostream/pull/358) |
 | <!-- 20241004105528 --> [jdplus-sdmx](../content/com/github/nbbrd/jdplus-sdmx/README.md) | 3.2.0 :warning: |

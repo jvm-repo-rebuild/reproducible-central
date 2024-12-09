@@ -1,7 +1,5 @@
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-16.buildspec:11.1.1-beta-17
 content/io/trino/trino-466.buildspec:467
-content/io/avaje/http/avaje-http-2.9-RC4.buildspec:2.9-RC5
-content/io/avaje/jex/avaje-jex-3.0-RC9.buildspec:3.0-RC10
-content/io/avaje/prisms/avaje-prisms-1.35.buildspec:1.36
-content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.3.17.buildspec:5.3.18
+content/io/wcm/tooling/wcm-parent_toplevel-2.3.2.buildspec:2.3.4
 content/org/apache/helix/helix-1.4.1.buildspec:1.4.2
+content/org/codehaus/plexus/plexus-sec-dispatcher/plexus-sec-dispatcher-4.0.2.buildspec:4.0.3
+content/org/webjars/flexmonster/flexmonster-2.9.91.buildspec:2.9.92
