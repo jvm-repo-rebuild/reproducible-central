@@ -1,7 +1,7 @@
 groupId=de.knightsoft-net
 artifactId=gwt-commons-codec
 display=${groupId}:${artifactId}
-version=1.16.1-0
+version=1.17.0-0
 
 gitRepo=https://gitlab.com/ManfredTremmel/gwt-commons-codec.git
 gitTag=v${version}
