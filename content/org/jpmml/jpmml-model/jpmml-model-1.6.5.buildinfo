@@ -82,8 +82,8 @@ outputs.3.2.checksums.sha512=c20a220bb6ba6889ee764a2b192f548fcc48767f70e8f763831
 
 outputs.3.3.groupId=org.jpmml
 outputs.3.3.filename=pmml-model-1.6.5-tests.jar
-outputs.3.3.length=134748
-outputs.3.3.checksums.sha512=7511d8a7e5a09125a25c2839117c9ebed70172a77251ce183f2c2bf988fb53b56675c12bab62938a8709bf95805f505d486a57e000926ac857894958448bcab9
+outputs.3.3.length=134768
+outputs.3.3.checksums.sha512=3e58debd65d6a53754627e70f397bb090fb425ab3ee32a3f8c0dbe156bb7a9ba5f5b301cf9a6e8ac91ec5f945c3a788f1b42b813a29c874d2ec06c03ce536a65
 
 outputs.4.coordinates=org.jpmml:pmml-model-jackson
 
