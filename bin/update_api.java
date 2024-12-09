@@ -276,18 +276,21 @@ public class update_api extends SimpleFileVisitor<Path> {
     }
 
     private static final String[] IGNORE = {
+        "ai/platon",
         "com/flowlogix/checkstyle",
         "com/flowlogix/infra-pom",
+        "com/google/guava",
         "com/taobao/arthas/",
         "com/vegardit/maven/vegardit-maven-parent",
         "eu/maveniverse/maven/parent/parent",
+        "fr/ebruno/maven/poms/maven-parentpom",
         "io/streamnative",
         "net/osslabz/crypto-commons",
-        "org/mevenide/mevenide-parent/",
+        "org/basepom/",
         "org/finos/legend/engine/",
         "org/glassfish/main/glassfish-main-aggregator/",
         "org/mevenide/mevenide-parent",
-        "org/sonatype/buldsupport/"
+        "org/sonatype/buildsupport/"
     };
     private boolean keep(String s) {
         for(String i: IGNORE) {
