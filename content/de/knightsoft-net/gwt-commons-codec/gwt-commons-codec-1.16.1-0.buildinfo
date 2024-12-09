@@ -61,8 +61,4 @@ outputs.7.groupId=de.knightsoft-net
 outputs.7.filename=gwt-commons-codec-1.16.1-0-cyclonedx.json
 outputs.7.length=154227
 outputs.7.checksums.sha512=e82ce805a7ec3191729b8398bd776c9fa742f29502b7cb521c04132af630892063296fd6d6cd0ddfcebe3152f0632fc6562635461b2eca1b6d1c9bea4c82c819
-
-outputs.8.groupId=de.knightsoft-net
-outputs.8.filename=gwt-commons-codec-1.16.1-0.spdx.json
-outputs.8.length=227147
-outputs.8.checksums.sha512=29d9ede2f0eef3de69e618337df175a7beeac4b2a7f21bfd360e42fb92b89fa0d57949c3384c2538be2876a4f448e6ddf571bc245de115e8d6b832afe2191c51
+# ignored gwt-commons-codec-1.16.1-0.spdx.json
