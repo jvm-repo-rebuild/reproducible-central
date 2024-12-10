@@ -1,0 +1,9 @@
+version=0.73.0
+ok=32
+ko=0
+ignored=0
+okFiles="rdf-abac-0.73.0.pom rdf-abac-0.73.0-cyclonedx.xml rdf-abac-0.73.0-cyclonedx.json rdf-abac-0.73.0-tests.jar rdf-abac-core-0.73.0.pom rdf-abac-core-0.73.0.jar rdf-abac-core-0.73.0-cyclonedx.xml rdf-abac-core-0.73.0-cyclonedx.json rdf-abac-core-0.73.0-tests.jar rdf-abac-core-0.73.0-sources.jar rdf-abac-fuseki-0.73.0.pom rdf-abac-fuseki-0.73.0.jar rdf-abac-fuseki-0.73.0-cyclonedx.xml rdf-abac-fuseki-0.73.0-cyclonedx.json rdf-abac-fuseki-0.73.0-tests.jar rdf-abac-fuseki-0.73.0-sources.jar rdf-abac-fuseki-server-0.73.0.pom rdf-abac-fuseki-server-0.73.0.jar rdf-abac-fuseki-server-0.73.0-cyclonedx.xml rdf-abac-fuseki-server-0.73.0-cyclonedx.json rdf-abac-fuseki-server-0.73.0-tests.jar rdf-abac-fuseki-server-0.73.0-sources.jar rdf-abac-eval-0.73.0.pom rdf-abac-eval-0.73.0.jar rdf-abac-eval-0.73.0-cyclonedx.xml rdf-abac-eval-0.73.0-cyclonedx.json rdf-abac-eval-0.73.0-tests.jar rdf-abac-eval-0.73.0-sources.jar rdf-abac-coverage-report-0.73.0.pom rdf-abac-coverage-report-0.73.0-cyclonedx.xml rdf-abac-coverage-report-0.73.0-cyclonedx.json rdf-abac-coverage-report-0.73.0-tests.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
