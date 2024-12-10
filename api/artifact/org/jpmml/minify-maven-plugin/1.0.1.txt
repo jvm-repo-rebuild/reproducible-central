@@ -1,0 +1,1 @@
+org/jpmml/minify-maven-plugin

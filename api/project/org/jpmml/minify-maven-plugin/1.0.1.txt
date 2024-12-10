@@ -1,0 +1,3 @@
+minify-maven-plugin-1.0.1.buildspec
+minify-maven-plugin-1.0.1.buildinfo
+minify-maven-plugin-1.0.1.buildcompare

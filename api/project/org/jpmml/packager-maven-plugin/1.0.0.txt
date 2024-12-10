@@ -1,0 +1,3 @@
+packager-maven-plugin-1.0.0.buildspec
+packager-maven-plugin-1.0.0.buildinfo
+packager-maven-plugin-1.0.0.buildcompare
