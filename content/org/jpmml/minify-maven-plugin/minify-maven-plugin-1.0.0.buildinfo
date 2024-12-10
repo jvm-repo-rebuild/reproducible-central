@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Minify Apache Maven Plugin
+group-id=org.jpmml
+artifact-id=minify-maven-plugin
+version=1.0.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/minify-maven-plugin.git
+source.scm.tag=1.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.jpmml
+outputs.0.filename=minify-maven-plugin-1.0.0.pom
+outputs.0.length=2784
+outputs.0.checksums.sha512=4d1aac4c12e92dddbbbffd586bec23c5c4ce1af2b8a9298daaab22ba193ad8e9015f8b416eed179a53476a587b112e1bfa2abf9c4f6bdd31d4c23dc955d6e67e
+
+outputs.1.groupId=org.jpmml
+outputs.1.filename=minify-maven-plugin-1.0.0.jar
+outputs.1.length=9640
+outputs.1.checksums.sha512=399e7fb214a76e153b5b1b3ea0c962c3e4bb8b04cce53b53c297b01b2c562bb6ff776ca65f1f535956cce30cf2077e3a49f09debd1656e93cdb52954c7844434
+
+outputs.2.groupId=org.jpmml
+outputs.2.filename=minify-maven-plugin-1.0.0-sources.jar
+outputs.2.length=2661
+outputs.2.checksums.sha512=24bf37c8517835d3b875cfa19463c32677741c2361676516d14de1b6e0b972311bedbfc712bd1e7a2d2142e8dc4542b7b3c2a5eefaa55ab7a7b07a72cdb7c378
