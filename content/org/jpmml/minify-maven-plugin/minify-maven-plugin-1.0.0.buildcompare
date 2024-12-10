@@ -1,0 +1,10 @@
+version=1.0.0
+ok=2
+ko=1
+ignored=0
+okFiles="minify-maven-plugin-1.0.0.pom minify-maven-plugin-1.0.0.jar"
+koFiles="minify-maven-plugin-1.0.0-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/minify-maven-plugin-1.0.0-sources.jar target/minify-maven-plugin-1.0.0-sources.jar
