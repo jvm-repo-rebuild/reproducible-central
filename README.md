@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **5547 releases** of **751 projects**:
-   - **4124** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **5551 releases** of **753 projects**:
+   - **4128** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 1423 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 751 projects, 647 have at least one fully reproducible release, 104 have none
+   - on 753 projects, 649 have at least one fully reproducible release, 104 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -657,7 +657,7 @@ Its objectives are to provide:
 | | [plexus-languages](content/org/codehaus/plexus/plexus-languages/README.md) | 8 | 3 :white_check_mark: / 5 :warning: |
 | | [plexus](content/org/codehaus/plexus/plexus-pom/README.md) | 18 | 16 :white_check_mark: / 2 :warning: |
 | | [plexus-resources](content/org/codehaus/plexus/plexus-resources/README.md) | 1 | 1 :white_check_mark: |
-| | [plexus-sec-dispatcher](content/org/codehaus/plexus/plexus-sec-dispatcher/README.md) | 4 | 4 :white_check_mark: |
+| | [plexus-sec-dispatcher](content/org/codehaus/plexus/plexus-sec-dispatcher/README.md) | 5 | 5 :white_check_mark: |
 | | [plexus-testing](content/org/codehaus/plexus/plexus-testing/README.md) | 4 | 4 :white_check_mark: |
 | | [plexus-utils](content/org/codehaus/plexus/plexus-utils/README.md) | 8 | 5 :white_check_mark: / 3 :warning: |
 | | [plexus-velocity](content/org/codehaus/plexus/plexus-velocity/README.md) | 4 | 4 :white_check_mark: |
@@ -692,6 +692,8 @@ Its objectives are to provide:
 | | [jpmml-statsmodels](content/org/jpmml/jpmml-statsmodels/README.md) | 3 | 3 :warning: |
 | | [jpmml-transpiler](content/org/jpmml/jpmml-transpiler/README.md) | 4 | 4 :white_check_mark: |
 | | [jpmml-xgboost](content/org/jpmml/jpmml-xgboost/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
+| | [minify-maven-plugin](content/org/jpmml/minify-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
+| | [packager-maven-plugin](content/org/jpmml/packager-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | org.jrivard.xmlchai | [xmlchai](content/org/jrivard/xmlchai/README.md) | 2 | 2 :warning: |
 | org.junit | [junit-bom](content/org/junit/junit5/README.md) | 23 | 6 :white_check_mark: / 17 :warning: |
 | org.kocakosm | [jblake2](content/org/kocakosm/jblake2/README.md) | 2 | 2 :white_check_mark: |
@@ -756,7 +758,7 @@ Its objectives are to provide:
 | org.tomitribe.transformer | [org.eclipse.transformer.parent](content/org/tomitribe/transformer/README.md) | 2 | 2 :white_check_mark: |
 | org.webjars | [angularjs](content/org/webjars/angularjs/README.md) | 1 | 1 :white_check_mark: |
 | | [bootstrap](content/org/webjars/bootstrap/README.md) | 8 | 8 :white_check_mark: |
-| | [flexmonster](content/org/webjars/flexmonster/README.md) | 71 | 67 :white_check_mark: / 4 :warning: |
+| | [flexmonster](content/org/webjars/flexmonster/README.md) | 72 | 68 :white_check_mark: / 4 :warning: |
 | | [font-awesome](content/org/webjars/font-awesome/README.md) | 9 | 9 :white_check_mark: |
 | | [highcharts](content/org/webjars/highcharts/README.md) | 3 | 3 :white_check_mark: |
 | | [jszip](content/org/webjars/jszip/README.md) | 1 | 1 :white_check_mark: |
@@ -774,7 +776,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 5 | 5 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 18 | 1 :white_check_mark: / 17 :warning: |
-| **Count:** | **751** | **5547** | **4124** :white_check_mark: **1423** :warning: |
+| **Count:** | **753** | **5551** | **4128** :white_check_mark: **1423** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -810,7 +812,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      16 mvn        18
      33 mvn        19
      16 mvn        20
-    304 mvn        21
+    305 mvn        21
      13 mvn        22
       1 mvn        23
       2 mvn-3.5.4   8
@@ -886,7 +888,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.5  17.0.9
      39 mvn-3.9.5  21
      11 mvn-3.9.5  22
-     55 mvn-3.9.6   8
+     57 mvn-3.9.6   8
       7 mvn-3.9.6  11
      45 mvn-3.9.6  17
       2 mvn-3.9.6  17.0.7
@@ -923,7 +925,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       2 mvn-4.0.0-beta-4  22
       3 mvn-4.0.0-beta-4  23
       1 mvn-4.0.0-beta-5  22
-      1 mvn-4.0.0-rc-1  21
+      2 mvn-4.0.0-rc-1  21
       2 sbt         8
 ```
 <!-- END GENERATED STATS -->

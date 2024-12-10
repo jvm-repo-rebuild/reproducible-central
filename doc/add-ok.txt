@@ -1,5 +1,8 @@
+content/eu/maveniverse/maven/toolbox/toolbox-0.5.2.buildspec:0.6.0
 content/io/trino/trino-466.buildspec:467
+content/io/telicent/jena/rdf-abac/rdf-abac-0.72.1.buildspec:0.73.0
 content/io/wcm/tooling/wcm-parent_toplevel-2.3.2.buildspec:2.3.4
+content/io/yupiik/fusion/fusion-1.0.21.buildspec:1.0.22
+content/org/jline/jline-3.27.1.buildspec:3.28.0
 content/org/apache/helix/helix-1.4.1.buildspec:1.4.2
-content/org/codehaus/plexus/plexus-sec-dispatcher/plexus-sec-dispatcher-4.0.2.buildspec:4.0.3
-content/org/webjars/flexmonster/flexmonster-2.9.91.buildspec:2.9.92
+content/org/apache/maven/plugins/maven-invoker-plugin/maven-invoker-plugin-3.8.1.buildspec:3.9.0
