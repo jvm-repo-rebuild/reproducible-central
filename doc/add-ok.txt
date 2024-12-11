@@ -1,8 +1,8 @@
-content/eu/maveniverse/maven/toolbox/toolbox-0.5.2.buildspec:0.6.0
 content/io/trino/trino-466.buildspec:467
-content/io/telicent/jena/rdf-abac/rdf-abac-0.72.1.buildspec:0.73.0
+content/io/airlift/airbase/airbase-203.buildspec:204
+content/io/telicent/jena/jena-kafka/jena-kafka-1.5.1.buildspec:1.5.2
 content/io/wcm/tooling/wcm-parent_toplevel-2.3.2.buildspec:2.3.4
-content/io/yupiik/fusion/fusion-1.0.21.buildspec:1.0.22
-content/org/jline/jline-3.27.1.buildspec:3.28.0
 content/org/apache/helix/helix-1.4.1.buildspec:1.4.2
-content/org/apache/maven/plugins/maven-invoker-plugin/maven-invoker-plugin-3.8.1.buildspec:3.9.0
+content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-9.1.0.buildspec:10.0.0
+content/org/jpmml/jpmml-converter/jpmml-converter-1.5.9.buildspec:1.5.10
+content/org/jpmml/jpmml-evaluator/jpmml-evaluator-1.6.7.buildspec:1.6.8
