@@ -29,6 +29,7 @@ import java.util.Optional;
 import java.util.Properties;
 import java.util.Set;
 import java.util.TreeMap;
+import java.util.function.Predicate;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -269,10 +270,32 @@ public class update_api extends SimpleFileVisitor<Path> {
             return;
         }
         List<String> missed = Files.readAllLines(outputTimestamps).stream()
-                .filter(s -> s.contains("/") && keep(s) && !Files.exists(API_ARTIFACT_BASE.resolve(s.substring(0, s.lastIndexOf('/')) + ".txt")))
+                .filter(s -> s.endsWith(".pom") && keep(s) && !Files.exists(API_ARTIFACT_BASE.resolve(s.substring(0, s.lastIndexOf('/')) + ".txt")))
                 .collect(Collectors.toList());
         missed.subList(missed.size() - 100, missed.size()).stream()
                 .forEach(System.out::println);
+
+        Map<String, List<String>> missedGroups = missed.stream()
+            .collect(Collectors.groupingBy(s -> s.substring(0, s.lastIndexOf('/', s.lastIndexOf('/') - 1))));
+        missedGroups = new TreeMap<>(missedGroups);
+        System.out.println();
+        System.out.println("projects with missing releases:");
+        list(missedGroups, s -> Files.exists(BADGE_ARTIFACT_BASE.resolve(s + ".html")));
+        System.out.println();
+        System.out.println("missed projects:");
+        list(missedGroups, s -> !Files.exists(BADGE_ARTIFACT_BASE.resolve(s + ".html")));
+    }
+
+    private void list(Map<String, List<String>> missedGroups, Predicate<String> p) {
+        for(Map.Entry<String, List<String>> e: missedGroups.entrySet()) {
+            if (!p.test(e.getKey())) continue;
+            System.out.print(e.getKey());
+            int i = e.getKey().length() + 1;
+            System.out.print(e.getValue().get(0).substring(i - 1));
+            e.getValue().stream().map(s -> ' ' + s.substring(i, s.lastIndexOf('/')))
+                .forEach(System.out::print);
+            System.out.println();
+        }
     }
 
     private static final String[] IGNORE = {
