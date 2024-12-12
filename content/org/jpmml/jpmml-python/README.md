@@ -14,9 +14,9 @@ Source code: [https://github.com/jpmml/jpmml-python.git](https://github.com/jpmm
 * [org.jpmml:pmml-python-testing](https://central.sonatype.com/artifact/org.jpmml/pmml-python-testing/overview)
 </details>
 
-rebuilding **5 releases** of org.jpmml:jpmml-python:
+rebuilding **6 releases** of org.jpmml:jpmml-python:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
