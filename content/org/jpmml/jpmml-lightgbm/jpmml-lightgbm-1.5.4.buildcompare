@@ -1,0 +1,10 @@
+version=1.5.4
+ok=3
+ko=1
+ignored=0
+okFiles="jpmml-lightgbm-1.5.4.pom pmml-lightgbm-1.5.4.pom pmml-lightgbm-1.5.4.jar"
+koFiles="pmml-lightgbm-1.5.4-sources.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/pmml-lightgbm-1.5.4-sources.jar pmml-lightgbm/target/pmml-lightgbm-1.5.4-sources.jar
