@@ -70,8 +70,6 @@ public class update_api extends SimpleFileVisitor<Path> {
 
     private static final Path CONTENT_BASE = Path.of("content");
     // https://jvm-repo-rebuild.github.io/reproducible-central/
-    private static final Path API_PROJECT_BASE = Path.of("gh-pages/api/project");
-    private static final Path API_ARTIFACT_BASE = Path.of("gh-pages/api/artifact");
     private static final Path BADGE_PROJECT_BASE = Path.of("gh-pages/badge/project");
     private static final Path BADGE_ARTIFACT_BASE = Path.of("gh-pages/badge/artifact");
 
@@ -81,13 +79,13 @@ public class update_api extends SimpleFileVisitor<Path> {
     private static long gavCount = 0;
 
     private void summarize() {
-        System.out.println(API_PROJECT_BASE + ": " + projectsCount + " projects, " + projectsReleasesCount + " releases");
-        System.out.println(API_ARTIFACT_BASE + ": " + ga.size() + " ga, " + gavCount + " gav");
+        System.out.println(BADGE_PROJECT_BASE + ": " + projectsCount + " projects, " + projectsReleasesCount + " releases");
+        System.out.println(BADGE_ARTIFACT_BASE + ": " + ga.size() + " ga, " + gavCount + " gav");
     }
 
     private void updateProject(Path path, Metadata metadata) throws IOException {
         System.out.print(++projectsCount + " " + path);
-        Path project = API_PROJECT_BASE.resolve(CONTENT_BASE.relativize(path));
+        Path project = BADGE_PROJECT_BASE.resolve(CONTENT_BASE.relativize(path));
         Files.createDirectories(project);
 
         List<String> filenames;
@@ -113,9 +111,6 @@ public class update_api extends SimpleFileVisitor<Path> {
             projectsReleasesCount++;
             String buildinfo = findFile(filenames, "-" + v + ".buildinfo");
             String buildcompare = findFile(filenames, "-" + v + ".buildcompare");
-
-            // TODO define what to save for project release json file
-            Files.write(project.resolve(v + ".txt"), Arrays.asList(buildspec, buildinfo, buildcompare));
 
             // extrapolate from project release to artifacts
             if (buildinfo == null) {
@@ -155,7 +150,7 @@ public class update_api extends SimpleFileVisitor<Path> {
             }
 
             // project badge at /badge/project/{projectPath}/{version}.json
-            Path badge = writeBadge(BADGE_PROJECT_BASE.resolve(CONTENT_BASE.relativize(path)).resolve(v + ".json"), ok, ko);
+            Path badge = writeBadge(project.resolve(v + ".json"), ok, ko);
 
             for(String c: coordinates) {
                 c = c.substring(c.indexOf('=') + 1);
@@ -165,19 +160,13 @@ public class update_api extends SimpleFileVisitor<Path> {
                 String groupId = c.substring(0, c.indexOf(':'));
                 String artifactId = c.substring(groupId.length() + 1);
 
-                Path artifactPath = API_ARTIFACT_BASE.resolve(groupId.replace('.', '/')).resolve(artifactId);
-                Files.createDirectories(artifactPath);
-                Files.write(artifactPath.resolve(v + ".txt"), Arrays.asList(CONTENT_BASE.relativize(path).toString()));
-
-                // artifact badge at /badge/artifact/{groupId as dir}/{artifactId}/{version}.json
+                // artifact badge at /badge/artifact/{groupId as dir}/{artifactId}/{version}.json: TODO drop this requirement
                 Path artifactBadgePath = BADGE_ARTIFACT_BASE.resolve(groupId.replace('.', '/')).resolve(artifactId);
                 Files.createDirectories(artifactBadgePath);
                 Files.copy(badge, artifactBadgePath.resolve(v + ".json"), StandardCopyOption.REPLACE_EXISTING);
             }
             ga.addAll(projectGa);
         }
-        // TODO define what to save for project index of releases  json file
-        Files.write(project.resolve("index.txt"), versions);
 
         // index.html for artifacts badges: link to project's README.md and displays badge for each version
         Collections.reverse(metadata.getVersioning().getVersions()); // list versions in descending order
@@ -186,7 +175,7 @@ public class update_api extends SimpleFileVisitor<Path> {
             String artifactId = ga.substring(groupId.length() + 1);
             Path artifactBadgePath = BADGE_ARTIFACT_BASE.resolve(groupId.replace('.', '/')).resolve(artifactId);
 
-            Set<String> gaVersions;
+            Set<String> gaVersions; // TODO do not read from disk artifactBadgePath
             try (Stream<Path> walk = Files.walk(artifactBadgePath, 1)) {
                 gaVersions = walk.map(p -> p.getFileName().toString())
                     .filter(s -> s.endsWith(".json"))
@@ -194,8 +183,8 @@ public class update_api extends SimpleFileVisitor<Path> {
                     .collect(Collectors.toSet());
             }
 
-            // artifact badge index at /badge/artifact/{groupId as dir}/{artifactId}/index.html
-            try (BufferedWriter w = Files.newBufferedWriter(artifactBadgePath.resolve("index.html"), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
+            // artifact badge index at /badge/artifact/{groupId as dir}/{artifactId}.html
+            try (BufferedWriter w = Files.newBufferedWriter(artifactBadgePath.getParent().resolve(artifactId + ".html"), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
                 w.write("<!DOCTYPE html><html><body>");
                 w.newLine();
                 w.write("<h1>" + ga + "</h1>");
@@ -210,7 +199,7 @@ public class update_api extends SimpleFileVisitor<Path> {
                 w.newLine();
                 for(String v: metadata.getVersioning().getVersions()) {
                     if (gaVersions.contains(v)) {
-                        w.write("<li><img src=\"https://img.shields.io/endpoint?url=https://jvm-repo-rebuild.github.io/reproducible-central/badge/artifact/" + groupId.replace('.', '/') + '/' + artifactId + '/' + v + ".json\"/>" + v + "</li>");
+                        w.write("<li><img src=\"https://img.shields.io/reproducible-central/artifact/" + groupId + '/' + artifactId + '/' + v + "?labelColor=1e5b96\"/>" + v + "</li>");
                         w.newLine();
                     }
                 }
@@ -218,10 +207,6 @@ public class update_api extends SimpleFileVisitor<Path> {
                 w.newLine();
                 w.write("</body></html>");
             }
-
-            // new Shields artifact badge index at /badge/artifact/{groupId as dir}/{artifactId}.html
-            // TODO: once https://github.com/badges/shields/pull/10705 rewrite to use the new badge
-            Files.copy(artifactBadgePath.resolve("index.html"), artifactBadgePath.getParent().resolve(artifactId + ".html"), StandardCopyOption.REPLACE_EXISTING);
 
             // new Shields artifact badge json at /badge/artifact/{groupId as dir}/{artifactId}.json
             try (BufferedWriter w = Files.newBufferedWriter(artifactBadgePath.getParent().resolve(artifactId + ".json"), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
@@ -270,7 +255,7 @@ public class update_api extends SimpleFileVisitor<Path> {
             return;
         }
         List<String> missed = Files.readAllLines(outputTimestamps).stream()
-                .filter(s -> s.endsWith(".pom") && keep(s) && !Files.exists(API_ARTIFACT_BASE.resolve(s.substring(0, s.lastIndexOf('/')) + ".txt")))
+                .filter(s -> s.endsWith(".pom") && keep(s) && !Files.exists(BADGE_ARTIFACT_BASE.resolve(s.substring(0, s.lastIndexOf('/')) + ".json")))
                 .collect(Collectors.toList());
         missed.subList(missed.size() - 100, missed.size()).stream()
                 .forEach(System.out::println);
