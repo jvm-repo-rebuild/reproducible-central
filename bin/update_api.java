@@ -256,14 +256,22 @@ public class update_api extends SimpleFileVisitor<Path> {
 
     private int list(Map<String, List<String>> missedGroups, Predicate<String> p) {
         int count = 0;
+        List<String> lastVersions = null;
         for(Map.Entry<String, List<String>> e: missedGroups.entrySet()) {
             if (!p.test(e.getKey())) continue;
             count++;
-            System.out.print(e.getKey());
             int i = e.getKey().length() + 1;
+            List<String> versions = e.getValue().stream().map(s -> ' ' + s.substring(i, s.lastIndexOf('/')))
+                .collect(Collectors.toList());
+            if (versions.equals(lastVersions)) {
+                int index = e.getKey().lastIndexOf('/');
+                System.out.printf("%-" + index + "s%s%n", "", e.getKey().substring(e.getKey().lastIndexOf('/')));
+                continue;
+            }
+            lastVersions = versions;
+            System.out.print(e.getKey());
             System.out.print(e.getValue().get(0).substring(i - 1));
-            e.getValue().stream().map(s -> ' ' + s.substring(i, s.lastIndexOf('/')))
-                .forEach(System.out::print);
+            versions.stream().forEach(System.out::print);
             System.out.println();
         }
         return count;
