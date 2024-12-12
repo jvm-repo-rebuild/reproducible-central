@@ -70,7 +70,6 @@ public class update_api extends SimpleFileVisitor<Path> {
 
     private static final Path CONTENT_BASE = Path.of("content");
     // https://jvm-repo-rebuild.github.io/reproducible-central/
-    private static final Path BADGE_PROJECT_BASE = Path.of("gh-pages/badge/project");
     private static final Path BADGE_ARTIFACT_BASE = Path.of("gh-pages/badge/artifact");
 
     private static long projectsCount = 0;
@@ -79,14 +78,12 @@ public class update_api extends SimpleFileVisitor<Path> {
     private static long gavCount = 0;
 
     private void summarize() {
-        System.out.println(BADGE_PROJECT_BASE + ": " + projectsCount + " projects, " + projectsReleasesCount + " releases");
+        System.out.print( "based on " + projectsCount + " projects, " + projectsReleasesCount + " releases, ");
         System.out.println(BADGE_ARTIFACT_BASE + ": " + ga.size() + " ga, " + gavCount + " gav");
     }
 
     private void updateProject(Path path, Metadata metadata) throws IOException {
         System.out.print(++projectsCount + " " + path);
-        Path project = BADGE_PROJECT_BASE.resolve(CONTENT_BASE.relativize(path));
-        Files.createDirectories(project);
 
         List<String> filenames;
         try (Stream<Path> walk = Files.walk(path, 1)) {
@@ -149,9 +146,6 @@ public class update_api extends SimpleFileVisitor<Path> {
                 versionsMap.put(v, "X");
             }
 
-            // project badge at /badge/project/{projectPath}/{version}.json
-            Path badge = writeBadge(project.resolve(v + ".json"), ok, ko);
-
             for(String c: coordinates) {
                 c = c.substring(c.indexOf('=') + 1);
                 projectGa.add(c);
@@ -160,10 +154,10 @@ public class update_api extends SimpleFileVisitor<Path> {
                 String groupId = c.substring(0, c.indexOf(':'));
                 String artifactId = c.substring(groupId.length() + 1);
 
-                // artifact badge at /badge/artifact/{groupId as dir}/{artifactId}/{version}.json: TODO drop this requirement
+                // artifact release flag at /badge/artifact/{groupId as dir}/{artifactId}/{version}.flag
                 Path artifactBadgePath = BADGE_ARTIFACT_BASE.resolve(groupId.replace('.', '/')).resolve(artifactId);
                 Files.createDirectories(artifactBadgePath);
-                Files.copy(badge, artifactBadgePath.resolve(v + ".json"), StandardCopyOption.REPLACE_EXISTING);
+                Files.write(artifactBadgePath.resolve(v + ".flag"), Collections.emptyList());
             }
             ga.addAll(projectGa);
         }
@@ -175,10 +169,10 @@ public class update_api extends SimpleFileVisitor<Path> {
             String artifactId = ga.substring(groupId.length() + 1);
             Path artifactBadgePath = BADGE_ARTIFACT_BASE.resolve(groupId.replace('.', '/')).resolve(artifactId);
 
-            Set<String> gaVersions; // TODO do not read from disk artifactBadgePath
+            Set<String> gaVersions;
             try (Stream<Path> walk = Files.walk(artifactBadgePath, 1)) {
                 gaVersions = walk.map(p -> p.getFileName().toString())
-                    .filter(s -> s.endsWith(".json"))
+                    .filter(s -> s.endsWith(".flag"))
                     .map(s -> s.substring(0, s.length() - 5))
                     .collect(Collectors.toSet());
             }
@@ -235,19 +229,6 @@ public class update_api extends SimpleFileVisitor<Path> {
         return filenames.stream().filter(s -> s.endsWith(endsWith)).findFirst().orElse(null);
     }
 
-    private Path writeBadge(Path badgePath, int ok, int ko) throws IOException {
-        String message = (ok < 0) ? "X" : (ok + "/" + (ok + ko));
-        String color = (ko == 0) ? "green" : ((ko < ok) ? "yellow" : "red");
-        Files.createDirectories(badgePath.getParent());
-        Files.write(badgePath, Arrays.asList("{ \"schemaVersion\": 1,",
-            "  \"label\": \"Reproducible Builds\",",
-            "  \"labelColor\": \"1e5b96\",",
-            "  \"message\": \"" + message + "\",",
-            "  \"color\": \"" + color + "\",",
-            "  \"isError\": \"true\" }"));
-        return badgePath;
-    }
-
     private void checkOutputTimestamps() throws IOException {
         Path outputTimestamps = Path.of("outputTimestamp.txt");
         if (!Files.exists(outputTimestamps)) {
@@ -255,7 +236,7 @@ public class update_api extends SimpleFileVisitor<Path> {
             return;
         }
         List<String> missed = Files.readAllLines(outputTimestamps).stream()
-                .filter(s -> s.endsWith(".pom") && keep(s) && !Files.exists(BADGE_ARTIFACT_BASE.resolve(s.substring(0, s.lastIndexOf('/')) + ".json")))
+                .filter(s -> s.endsWith(".pom") && keep(s) && !Files.exists(BADGE_ARTIFACT_BASE.resolve(s.substring(0, s.lastIndexOf('/')) + ".flag")))
                 .collect(Collectors.toList());
         missed.subList(missed.size() - 100, missed.size()).stream()
                 .forEach(System.out::println);
@@ -265,15 +246,19 @@ public class update_api extends SimpleFileVisitor<Path> {
         missedGroups = new TreeMap<>(missedGroups);
         System.out.println();
         System.out.println("projects with missing releases:");
-        list(missedGroups, s -> Files.exists(BADGE_ARTIFACT_BASE.resolve(s + ".html")));
+        int missingReleases = list(missedGroups, s -> Files.exists(BADGE_ARTIFACT_BASE.resolve(s + ".html")));
+        System.out.println("=> " + missingReleases + " projects with missing releases.");
         System.out.println();
         System.out.println("missed projects:");
-        list(missedGroups, s -> !Files.exists(BADGE_ARTIFACT_BASE.resolve(s + ".html")));
+        int missingProjects = list(missedGroups, s -> !Files.exists(BADGE_ARTIFACT_BASE.resolve(s + ".html")));
+        System.out.println("=> " + missingProjects + " missed projects.");
     }
 
-    private void list(Map<String, List<String>> missedGroups, Predicate<String> p) {
+    private int list(Map<String, List<String>> missedGroups, Predicate<String> p) {
+        int count = 0;
         for(Map.Entry<String, List<String>> e: missedGroups.entrySet()) {
             if (!p.test(e.getKey())) continue;
+            count++;
             System.out.print(e.getKey());
             int i = e.getKey().length() + 1;
             System.out.print(e.getValue().get(0).substring(i - 1));
@@ -281,6 +266,7 @@ public class update_api extends SimpleFileVisitor<Path> {
                 .forEach(System.out::print);
             System.out.println();
         }
+        return count;
     }
 
     private static final String[] IGNORE = {
