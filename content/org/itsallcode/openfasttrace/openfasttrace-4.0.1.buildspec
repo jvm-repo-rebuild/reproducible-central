@@ -1,0 +1,18 @@
+groupId=org.itsallcode.openfasttrace
+artifactId=openfasttrace
+display=${groupId}:${artifactId}
+version=4.0.1
+
+gitRepo=https://github.com/itsallcode/openfasttrace.git
+gitTag=${version}
+
+tool=mvn
+jdk=17
+newline=lf
+#umask=022
+
+command="mvn package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=product/target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
