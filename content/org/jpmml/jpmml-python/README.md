@@ -25,5 +25,6 @@ rebuilding **5 releases** of org.jpmml:jpmml-python:
 | [1.2.3](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.2.3/pom) | [mvn jdk8](jpmml-python-1.2.3.buildspec) | [result](jpmml-python-1.2.3.buildinfo): [7 :white_check_mark: ](jpmml-python-1.2.3.buildcompare) | 388K |
 | [1.2.2](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.2.2/pom) | [mvn jdk8](jpmml-python-1.2.2.buildspec) | [result](jpmml-python-1.2.2.buildinfo): [5 :white_check_mark:  2 :warning:](jpmml-python-1.2.2.buildcompare) | 383K |
 | [1.2.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.2.1/pom) | [mvn jdk8](jpmml-python-1.2.1.buildspec) | [result](jpmml-python-1.2.1.buildinfo): [5 :white_check_mark:  2 :warning:](jpmml-python-1.2.1.buildcompare) | 380K |
+| [1.2.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.2.0/pom) | [mvn jdk8](jpmml-python-1.2.0.buildspec) | [result](jpmml-python-1.2.0.buildinfo): [5 :white_check_mark:  2 :warning:](jpmml-python-1.2.0.buildcompare) | 379K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
