@@ -42,7 +42,7 @@ rebuilding **21 releases** of com.fasterxml.jackson.datatype:jackson-datatypes-m
 | [2.15.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.15.1/pom) | [mvn jdk8](jackson-datatypes-misc-parent-2.15.1.buildspec) | :x: | |
 | [2.15.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.15.0/pom) | [mvn jdk8](jackson-datatypes-misc-parent-2.15.0.buildspec) | :x: | |
 | [2.15.0-rc3](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.15.0-rc3/pom) | [mvn jdk8](jackson-datatypes-misc-parent-2.15.0-rc3.buildspec) | :x: | |
-| [2.15.0-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.15.0-rc2/pom) | [mvn jdk8](jackson-datatypes-misc-parent-2.15.0-rc2.buildspec) | :x: | |
+| [2.15.0-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.15.0-rc2/pom) | [mvn jdk8](jackson-datatypes-misc-parent-2.15.0-rc2.buildspec) | [result](jackson-datatypes-misc-parent-2.15.0-rc2.buildinfo): [11 :white_check_mark:  10 :warning:](jackson-datatypes-misc-parent-2.15.0-rc2.buildcompare) | 177K |
 | [2.15.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.15.0-rc1/pom) | [mvn jdk8](jackson-datatypes-misc-parent-2.15.0-rc1.buildspec) | [result](jackson-datatypes-misc-parent-2.15.0-rc1.buildinfo): [11 :white_check_mark:  10 :warning:](jackson-datatypes-misc-parent-2.15.0-rc1.buildcompare) | 177K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
