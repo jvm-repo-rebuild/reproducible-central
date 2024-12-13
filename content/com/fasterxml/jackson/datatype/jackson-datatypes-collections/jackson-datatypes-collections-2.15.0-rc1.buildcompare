@@ -1,0 +1,17 @@
+version=2.15.0-rc1
+ok=9
+ko=8
+ignored=0
+okFiles="jackson-datatypes-collections-2.15.0-rc1.pom jackson-datatype-guava-2.15.0-rc1.pom jackson-datatype-guava-2.15.0-rc1-sources.jar jackson-datatype-hppc-2.15.0-rc1.pom jackson-datatype-hppc-2.15.0-rc1-sources.jar jackson-datatype-pcollections-2.15.0-rc1.pom jackson-datatype-pcollections-2.15.0-rc1-sources.jar jackson-datatype-eclipse-collections-2.15.0-rc1.pom jackson-datatype-eclipse-collections-2.15.0-rc1-sources.jar"
+koFiles="jackson-datatype-guava-2.15.0-rc1.jar jackson-datatype-guava-2.15.0-rc1.module jackson-datatype-hppc-2.15.0-rc1.jar jackson-datatype-hppc-2.15.0-rc1.module jackson-datatype-pcollections-2.15.0-rc1.jar jackson-datatype-pcollections-2.15.0-rc1.module jackson-datatype-eclipse-collections-2.15.0-rc1.jar jackson-datatype-eclipse-collections-2.15.0-rc1.module"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-guava-2.15.0-rc1.jar guava/target/jackson-datatype-guava-2.15.0-rc1.jar
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-guava-2.15.0-rc1.module guava/target/publications/maven/module.json
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-hppc-2.15.0-rc1.jar hppc/target/jackson-datatype-hppc-2.15.0-rc1.jar
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-hppc-2.15.0-rc1.module hppc/target/publications/maven/module.json
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-pcollections-2.15.0-rc1.jar pcollections/target/jackson-datatype-pcollections-2.15.0-rc1.jar
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-pcollections-2.15.0-rc1.module pcollections/target/publications/maven/module.json
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-eclipse-collections-2.15.0-rc1.jar eclipse-collections/target/jackson-datatype-eclipse-collections-2.15.0-rc1.jar
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-eclipse-collections-2.15.0-rc1.module eclipse-collections/target/publications/maven/module.json
