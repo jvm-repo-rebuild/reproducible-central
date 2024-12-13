@@ -1,0 +1,13 @@
+version=2.15.4
+ok=13
+ko=4
+ignored=0
+okFiles="jackson-dataformats-text-2.15.4.pom jackson-dataformat-csv-2.15.4.pom jackson-dataformat-csv-2.15.4-sources.jar jackson-dataformat-csv-2.15.4.module jackson-dataformat-properties-2.15.4.pom jackson-dataformat-properties-2.15.4-sources.jar jackson-dataformat-properties-2.15.4.module jackson-dataformat-yaml-2.15.4.pom jackson-dataformat-yaml-2.15.4-sources.jar jackson-dataformat-yaml-2.15.4.module jackson-dataformat-toml-2.15.4.pom jackson-dataformat-toml-2.15.4-sources.jar jackson-dataformat-toml-2.15.4.module"
+koFiles="jackson-dataformat-csv-2.15.4.jar jackson-dataformat-properties-2.15.4.jar jackson-dataformat-yaml-2.15.4.jar jackson-dataformat-toml-2.15.4.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-csv-2.15.4.jar csv/target/jackson-dataformat-csv-2.15.4.jar
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-properties-2.15.4.jar properties/target/jackson-dataformat-properties-2.15.4.jar
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml-2.15.4.jar yaml/target/jackson-dataformat-yaml-2.15.4.jar
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-toml-2.15.4.jar toml/target/jackson-dataformat-toml-2.15.4.jar
