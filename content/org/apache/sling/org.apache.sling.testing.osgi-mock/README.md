@@ -17,13 +17,13 @@ Source code: [https://github.com/apache/sling-org-apache-sling-testing-osgi-mock
 * [org.apache.sling:org.apache.sling.testing.osgi-mock.test-services](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.test-services/overview)
 </details>
 
-rebuilding **9 releases** of org.apache.sling:org.apache.sling.testing.osgi-mock:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of org.apache.sling:org.apache.sling.testing.osgi-mock:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.5.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.5.2/pom) | | | |
+| [3.5.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.5.2/pom) | [mvn jdk17 w](org.apache.sling.testing.osgi-mock-3.5.2.buildspec) | [result](org.apache.sling.testing.osgi-mock-3.5.2.buildinfo): [21 :white_check_mark: ](org.apache.sling.testing.osgi-mock-3.5.2.buildcompare) | 1.7M |
 | [3.5.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.5.0/pom) | [mvn jdk17 w](org.apache.sling.testing.osgi-mock-3.5.0.buildspec) | [result](org.apache.sling.testing.osgi-mock-3.5.0.buildinfo): [21 :white_check_mark: ](org.apache.sling.testing.osgi-mock-3.5.0.buildcompare) | 1.7M |
 | [3.4.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.4.2/pom) | [mvn jdk11 w](org.apache.sling.testing.osgi-mock-3.4.2.buildspec) | [result](org.apache.sling.testing.osgi-mock-3.4.2.buildinfo): [21 :white_check_mark: ](org.apache.sling.testing.osgi-mock-3.4.2.buildcompare) | 2.1M |
 | [3.4.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.4.0/pom) | [mvn jdk11 w](org.apache.sling.testing.osgi-mock-3.4.0.buildspec) | [result](org.apache.sling.testing.osgi-mock-3.4.0.buildinfo): [21 :white_check_mark: ](org.apache.sling.testing.osgi-mock-3.4.0.buildcompare) | 1.7M |
