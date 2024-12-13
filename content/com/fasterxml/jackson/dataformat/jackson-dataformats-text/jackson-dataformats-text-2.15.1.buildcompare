@@ -1,0 +1,17 @@
+version=2.15.1
+ok=9
+ko=8
+ignored=0
+okFiles="jackson-dataformats-text-2.15.1.pom jackson-dataformat-csv-2.15.1.pom jackson-dataformat-csv-2.15.1-sources.jar jackson-dataformat-properties-2.15.1.pom jackson-dataformat-properties-2.15.1-sources.jar jackson-dataformat-yaml-2.15.1.pom jackson-dataformat-yaml-2.15.1-sources.jar jackson-dataformat-toml-2.15.1.pom jackson-dataformat-toml-2.15.1-sources.jar"
+koFiles="jackson-dataformat-csv-2.15.1.jar jackson-dataformat-csv-2.15.1.module jackson-dataformat-properties-2.15.1.jar jackson-dataformat-properties-2.15.1.module jackson-dataformat-yaml-2.15.1.jar jackson-dataformat-yaml-2.15.1.module jackson-dataformat-toml-2.15.1.jar jackson-dataformat-toml-2.15.1.module"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-csv-2.15.1.jar csv/target/jackson-dataformat-csv-2.15.1.jar
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-csv-2.15.1.module csv/target/publications/maven/module.json
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-properties-2.15.1.jar properties/target/jackson-dataformat-properties-2.15.1.jar
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-properties-2.15.1.module properties/target/publications/maven/module.json
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml-2.15.1.jar yaml/target/jackson-dataformat-yaml-2.15.1.jar
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml-2.15.1.module yaml/target/publications/maven/module.json
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-toml-2.15.1.jar toml/target/jackson-dataformat-toml-2.15.1.jar
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-toml-2.15.1.module toml/target/publications/maven/module.json
