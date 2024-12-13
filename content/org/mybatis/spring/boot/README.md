@@ -16,9 +16,9 @@ Source code: [https://github.com/mybatis/spring-boot-starter.git](https://github
 * [org.mybatis.spring.boot:mybatis-spring-boot-test-autoconfigure](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-test-autoconfigure/overview)
 </details>
 
-rebuilding **6 releases** of org.mybatis.spring.boot:mybatis-spring-boot:
+rebuilding **8 releases** of org.mybatis.spring.boot:mybatis-spring-boot:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -27,8 +27,8 @@ rebuilding **6 releases** of org.mybatis.spring.boot:mybatis-spring-boot:
 | [3.0.2](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/3.0.2/pom) | [mvn jdk17](mybatis-spring-boot-3.0.2.buildspec) | [result](mybatis-spring-boot-3.0.2.buildinfo): [10 :white_check_mark:  1 :warning:](mybatis-spring-boot-3.0.2.buildcompare) [:mag:](mybatis-spring-boot-3.0.2.diffoscope) | 98K |
 | [3.0.1](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/3.0.1/pom) | [mvn jdk17](mybatis-spring-boot-3.0.1.buildspec) | [result](mybatis-spring-boot-3.0.1.buildinfo): [ 11 :warning:](mybatis-spring-boot-3.0.1.buildcompare) | 98K |
 | [3.0.0](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/3.0.0/pom) | [mvn jdk17](mybatis-spring-boot-3.0.0.buildspec) | [result](mybatis-spring-boot-3.0.0.buildinfo): [7 :white_check_mark:  4 :warning:](mybatis-spring-boot-3.0.0.buildcompare) | 146K |
-| [2.3.2](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/2.3.2/pom) | | | |
-| [2.3.1](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/2.3.1/pom) | | | |
+| [2.3.2](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/2.3.2/pom) | [mvn jdk11](mybatis-spring-boot-2.3.2.buildspec) | [result](mybatis-spring-boot-2.3.2.buildinfo): [8 :white_check_mark:  3 :warning:](mybatis-spring-boot-2.3.2.buildcompare) [:memo:](https://github.com/mybatis/spring-boot-starter/pull/759) | 87K |
+| [2.3.1](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/2.3.1/pom) | [mvn jdk17](mybatis-spring-boot-2.3.1.buildspec) | [result](mybatis-spring-boot-2.3.1.buildinfo): [8 :white_check_mark:  3 :warning:](mybatis-spring-boot-2.3.1.buildcompare) [:memo:](https://github.com/mybatis/spring-boot-starter/pull/759) | 87K |
 | [2.3.0](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/2.3.0/pom) | [mvn jdk18](mybatis-spring-boot-2.3.0.buildspec) | [result](mybatis-spring-boot-2.3.0.buildinfo): [7 :white_check_mark:  4 :warning:](mybatis-spring-boot-2.3.0.buildcompare) [:mag:](mybatis-spring-boot-2.3.0.diffoscope) [:memo:](https://github.com/mybatis/spring-boot-starter/pull/759) | 137K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
