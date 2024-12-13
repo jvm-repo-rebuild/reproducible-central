@@ -1,0 +1,12 @@
+version=0.1
+ok=0
+ko=3
+ignored=0
+okFiles=""
+koFiles="units-catalog-0.1.pom units-catalog-0.1.jar units-catalog-0.1-sources.jar"
+ignoredFiles=""
+reference_java_version="17.0.8.1 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.cognite.units/units-catalog-0.1.pom pom.xml
+# diffoscope target/reference/com.cognite.units/units-catalog-0.1.jar target/units-catalog-0.1.jar
+# diffoscope target/reference/com.cognite.units/units-catalog-0.1-sources.jar target/units-catalog-0.1-sources.jar
