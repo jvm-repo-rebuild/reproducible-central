@@ -1,0 +1,20 @@
+version=1.2.11
+ok=4
+ko=11
+ignored=0
+okFiles="logback-parent-db-1.2.11.pom logback-core-db-1.2.11.pom logback-clasisc-db-1.2.11.pom logback-access-db-1.2.11.pom"
+koFiles="logback-core-db-1.2.11.jar logback-core-db-1.2.11-sources.jar logback-core-db-1.2.11-tests.jar logback-clasisc-db-1.2.11.jar logback-clasisc-db-1.2.11-sources.jar logback-clasisc-db-1.2.11-test-sources.jar logback-clasisc-db-1.2.11-tests.jar logback-access-db-1.2.11.jar logback-access-db-1.2.11-sources.jar logback-access-db-1.2.11-test-sources.jar logback-access-db-1.2.11-tests.jar"
+ignoredFiles=""
+reference_java_version="1.8.0_311 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/ch.qos.logback.db/logback-core-db-1.2.11.jar logback-core-db/target/logback-core-db-1.2.11.jar
+# diffoscope target/reference/ch.qos.logback.db/logback-core-db-1.2.11-sources.jar logback-core-db/target/logback-core-db-1.2.11-sources.jar
+# diffoscope target/reference/ch.qos.logback.db/logback-core-db-1.2.11-tests.jar logback-core-db/target/logback-core-db-1.2.11-tests.jar
+# diffoscope target/reference/ch.qos.logback.db/logback-clasisc-db-1.2.11.jar logback-classic-db/target/logback-clasisc-db-1.2.11.jar
+# diffoscope target/reference/ch.qos.logback.db/logback-clasisc-db-1.2.11-sources.jar logback-classic-db/target/logback-clasisc-db-1.2.11-sources.jar
+# diffoscope target/reference/ch.qos.logback.db/logback-clasisc-db-1.2.11-test-sources.jar logback-classic-db/target/logback-clasisc-db-1.2.11-test-sources.jar
+# diffoscope target/reference/ch.qos.logback.db/logback-clasisc-db-1.2.11-tests.jar logback-classic-db/target/logback-clasisc-db-1.2.11-tests.jar
+# diffoscope target/reference/ch.qos.logback.db/logback-access-db-1.2.11.jar logback-access-db/target/logback-access-db-1.2.11.jar
+# diffoscope target/reference/ch.qos.logback.db/logback-access-db-1.2.11-sources.jar logback-access-db/target/logback-access-db-1.2.11-sources.jar
+# diffoscope target/reference/ch.qos.logback.db/logback-access-db-1.2.11-test-sources.jar logback-access-db/target/logback-access-db-1.2.11-test-sources.jar
+# diffoscope target/reference/ch.qos.logback.db/logback-access-db-1.2.11-tests.jar logback-access-db/target/logback-access-db-1.2.11-tests.jar
