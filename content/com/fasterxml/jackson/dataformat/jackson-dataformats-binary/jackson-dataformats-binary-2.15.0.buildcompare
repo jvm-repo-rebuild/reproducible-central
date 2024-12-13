@@ -1,0 +1,19 @@
+version=2.15.0
+ok=6
+ko=10
+ignored=0
+okFiles="jackson-dataformats-binary-2.15.0.pom jackson-dataformat-cbor-2.15.0.pom jackson-dataformat-smile-2.15.0.pom jackson-dataformat-avro-2.15.0.pom jackson-dataformat-protobuf-2.15.0.pom jackson-dataformat-ion-2.15.0.pom"
+koFiles="jackson-dataformat-cbor-2.15.0.jar jackson-dataformat-cbor-2.15.0.module jackson-dataformat-smile-2.15.0.jar jackson-dataformat-smile-2.15.0.module jackson-dataformat-avro-2.15.0.jar jackson-dataformat-avro-2.15.0.module jackson-dataformat-protobuf-2.15.0.jar jackson-dataformat-protobuf-2.15.0.module jackson-dataformat-ion-2.15.0.jar jackson-dataformat-ion-2.15.0.module"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor-2.15.0.jar cbor/target/jackson-dataformat-cbor-2.15.0.jar
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor-2.15.0.module cbor/target/publications/maven/module.json
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-smile-2.15.0.jar smile/target/jackson-dataformat-smile-2.15.0.jar
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-smile-2.15.0.module smile/target/publications/maven/module.json
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-avro-2.15.0.jar avro/target/jackson-dataformat-avro-2.15.0.jar
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-avro-2.15.0.module avro/target/publications/maven/module.json
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-protobuf-2.15.0.jar protobuf/target/jackson-dataformat-protobuf-2.15.0.jar
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-protobuf-2.15.0.module protobuf/target/publications/maven/module.json
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-ion-2.15.0.jar ion/target/jackson-dataformat-ion-2.15.0.jar
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-ion-2.15.0.module ion/target/publications/maven/module.json
