@@ -1,0 +1,19 @@
+groupId=ch.qos.logback.db
+artifactId=logback-parent-db
+version=1.2.11
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/qos-ch/logback-db.git
+gitTag=v_${version}
+gitTag=6b1e1bbbaa706e9138094bf14328b7d425cfd257
+
+tool=mvn
+jdk=8
+newline=crlf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/qos-ch/logback-db/pull/2
