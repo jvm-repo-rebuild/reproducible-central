@@ -1,6 +1,6 @@
 content/io/trino/trino-466.buildspec:467
-content/io/avaje/http/avaje-http-2.9-RC5.buildspec:2.9-RC6
+content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.12.buildspec:0.82.13
 content/io/wcm/tooling/wcm-parent_toplevel-2.3.2.buildspec:2.3.4
 content/org/apache/helix/helix-1.4.1.buildspec:1.4.2
-content/org/apache/maven/skins/fluido/maven-fluido-skin-2.0.0.buildspec:2.0.1
-content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-9.1.0.buildspec:10.0.0
+content/org/apache/sling/org.apache.sling.testing.osgi-mock/org.apache.sling.testing.osgi-mock-3.5.0.buildspec:3.5.2
+content/org/hibernate/validator/hibernate-validator/hibernate-validator-9.0.0.Beta3.buildspec:9.0.0.CR1

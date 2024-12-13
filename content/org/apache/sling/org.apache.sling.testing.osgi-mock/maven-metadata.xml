@@ -3,8 +3,8 @@
   <groupId>org.apache.sling</groupId>
   <artifactId>org.apache.sling.testing.osgi-mock</artifactId>
   <versioning>
-    <latest>3.5.0</latest>
-    <release>3.5.0</release>
+    <latest>3.5.2</latest>
+    <release>3.5.2</release>
     <versions>
       <version>1.0.0</version>
       <version>1.1.0</version>
@@ -58,7 +58,8 @@
       <version>3.4.0</version>
       <version>3.4.2</version>
       <version>3.5.0</version>
+      <version>3.5.2</version>
     </versions>
-    <lastUpdated>20240826081616</lastUpdated>
+    <lastUpdated>20241212210112</lastUpdated>
   </versioning>
 </metadata>
