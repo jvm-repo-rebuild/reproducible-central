@@ -32,7 +32,7 @@ rebuilding **19 releases** of com.fasterxml.jackson.dataformat:jackson-dataforma
 | [2.15.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.15.1/pom) | [mvn jdk8](jackson-dataformat-xml-2.15.1.buildspec) | :x: | |
 | [2.15.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.15.0/pom) | [mvn jdk8](jackson-dataformat-xml-2.15.0.buildspec) | :x: | |
 | [2.15.0-rc3](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.15.0-rc3/pom) | [mvn jdk8](jackson-dataformat-xml-2.15.0-rc3.buildspec) | :x: | |
-| [2.15.0-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.15.0-rc2/pom) | [mvn jdk8](jackson-dataformat-xml-2.15.0-rc2.buildspec) | :x: | |
+| [2.15.0-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.15.0-rc2/pom) | [mvn jdk8](jackson-dataformat-xml-2.15.0-rc2.buildspec) | [result](jackson-dataformat-xml-2.15.0-rc2.buildinfo): [2 :white_check_mark:  2 :warning:](jackson-dataformat-xml-2.15.0-rc2.buildcompare) | 232K |
 | [2.15.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.15.0-rc1/pom) | [mvn jdk8](jackson-dataformat-xml-2.15.0-rc1.buildspec) | [result](jackson-dataformat-xml-2.15.0-rc1.buildinfo): [2 :white_check_mark:  2 :warning:](jackson-dataformat-xml-2.15.0-rc1.buildcompare) | 232K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

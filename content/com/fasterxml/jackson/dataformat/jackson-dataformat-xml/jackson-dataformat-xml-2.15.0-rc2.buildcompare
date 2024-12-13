@@ -1,0 +1,11 @@
+version=2.15.0-rc2
+ok=2
+ko=2
+ignored=0
+okFiles="jackson-dataformat-xml-2.15.0-rc2.pom jackson-dataformat-xml-2.15.0-rc2-sources.jar"
+koFiles="jackson-dataformat-xml-2.15.0-rc2.jar jackson-dataformat-xml-2.15.0-rc2.module"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-xml-2.15.0-rc2.jar target/jackson-dataformat-xml-2.15.0-rc2.jar
+# diffoscope target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-xml-2.15.0-rc2.module target/publications/maven/module.json
