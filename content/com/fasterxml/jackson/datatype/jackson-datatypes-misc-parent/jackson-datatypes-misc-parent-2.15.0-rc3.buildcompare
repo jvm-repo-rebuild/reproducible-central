@@ -1,0 +1,19 @@
+version=2.15.0-rc3
+ok=11
+ko=10
+ignored=0
+okFiles="jackson-datatypes-misc-parent-2.15.0-rc3.pom jackson-datatype-joda-money-2.15.0-rc3.pom jackson-datatype-joda-money-2.15.0-rc3-sources.jar jackson-datatype-json-org-2.15.0-rc3.pom jackson-datatype-json-org-2.15.0-rc3-sources.jar jackson-datatype-jsr353-2.15.0-rc3.pom jackson-datatype-jsr353-2.15.0-rc3-sources.jar jackson-datatype-jakarta-jsonp-2.15.0-rc3.pom jackson-datatype-jakarta-jsonp-2.15.0-rc3-sources.jar jackson-datatype-jakarta-mail-2.15.0-rc3.pom jackson-datatype-jakarta-mail-2.15.0-rc3-sources.jar"
+koFiles="jackson-datatype-joda-money-2.15.0-rc3.jar jackson-datatype-joda-money-2.15.0-rc3.module jackson-datatype-json-org-2.15.0-rc3.jar jackson-datatype-json-org-2.15.0-rc3.module jackson-datatype-jsr353-2.15.0-rc3.jar jackson-datatype-jsr353-2.15.0-rc3.module jackson-datatype-jakarta-jsonp-2.15.0-rc3.jar jackson-datatype-jakarta-jsonp-2.15.0-rc3.module jackson-datatype-jakarta-mail-2.15.0-rc3.jar jackson-datatype-jakarta-mail-2.15.0-rc3.module"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-joda-money-2.15.0-rc3.jar joda-money/target/jackson-datatype-joda-money-2.15.0-rc3.jar
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-joda-money-2.15.0-rc3.module joda-money/target/publications/maven/module.json
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-json-org-2.15.0-rc3.jar json-org/target/jackson-datatype-json-org-2.15.0-rc3.jar
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-json-org-2.15.0-rc3.module json-org/target/publications/maven/module.json
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-jsr353-2.15.0-rc3.jar jsr-353/target/jackson-datatype-jsr353-2.15.0-rc3.jar
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-jsr353-2.15.0-rc3.module jsr-353/target/publications/maven/module.json
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-jakarta-jsonp-2.15.0-rc3.jar jakarta-jsonp/target/jackson-datatype-jakarta-jsonp-2.15.0-rc3.jar
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-jakarta-jsonp-2.15.0-rc3.module jakarta-jsonp/target/publications/maven/module.json
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-jakarta-mail-2.15.0-rc3.jar jakarta-mail/target/jackson-datatype-jakarta-mail-2.15.0-rc3.jar
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-jakarta-mail-2.15.0-rc3.module jakarta-mail/target/publications/maven/module.json
