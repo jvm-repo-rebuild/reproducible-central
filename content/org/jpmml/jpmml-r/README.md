@@ -16,13 +16,13 @@ Source code: [https://github.com/jpmml/jpmml-r.git](https://github.com/jpmml/jpm
 * [org.jpmml:pmml-rexp-xgboost](https://central.sonatype.com/artifact/org.jpmml/pmml-rexp-xgboost/overview)
 </details>
 
-rebuilding **7 releases** of org.jpmml:jpmml-r:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of org.jpmml:jpmml-r:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.6.3](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.6.3/pom) | | | |
+| [1.6.3](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.6.3/pom) | [mvn jdk8](jpmml-r-1.6.3.buildspec) | [result](jpmml-r-1.6.3.buildinfo): [13 :white_check_mark: ](jpmml-r-1.6.3.buildcompare) | 505K |
 | [1.6.2](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.6.2/pom) | [mvn jdk8](jpmml-r-1.6.2.buildspec) | [result](jpmml-r-1.6.2.buildinfo): [13 :white_check_mark: ](jpmml-r-1.6.2.buildcompare) | 501K |
 | [1.6.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.6.1/pom) | [mvn jdk8](jpmml-r-1.6.1.buildspec) | [result](jpmml-r-1.6.1.buildinfo): [13 :white_check_mark: ](jpmml-r-1.6.1.buildcompare) | 485K |
 | [1.6.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.6.0/pom) | [mvn jdk8](jpmml-r-1.6.0.buildspec) | [result](jpmml-r-1.6.0.buildinfo): [13 :white_check_mark: ](jpmml-r-1.6.0.buildcompare) | 476K |
