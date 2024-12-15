@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Patch Plugin (RETIRED)
+group-id=org.apache.maven.plugins
+artifact-id=maven-patch-plugin
+version=1.3
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-patch-plugin.git
+source.scm.tag=maven-patch-plugin-1.3
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-patch-plugin-1.3.pom
+outputs.0.length=4366
+outputs.0.checksums.sha512=ef3fd79eed5eec96fff7e36922edfe807be496d77016788e74335922520809bcbb9f3ca6279b82da5e2a8d9f9053dd693ad37f3df4196d2da6a1828280f5b1ee
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-patch-plugin-1.3.jar
+outputs.1.length=27484
+outputs.1.checksums.sha512=aa0e4c42dd4a3e94d83b490f6feb5c766674fc3f966c13c1edf18f8e59038b0b521e877a1ccd5fc55deaaa455820481bbc0e2a6ed4b634c2e59dc7782577584c
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-patch-plugin-1.3-source-release.zip
+outputs.2.length=69733
+outputs.2.checksums.sha512=eb58ff49f1d3085e6fb1c34f62987f069505dd6aff7fdd8e44ff541f762c6de38e99fac823daba1301c4de4ae805b89eb82b80e0e7488314479db202da35cd0e
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-patch-plugin-1.3-sources.jar
+outputs.3.length=17308
+outputs.3.checksums.sha512=41a481c9db0725521bd977864a2ec6d1be830438d91cfda7ba4d6c5aedefd6b09c7a45362c9f088631df29dcc6e5a399a2591b830d6fac00f735204c33e7a89c
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-patch-plugin-1.3-cyclonedx.xml
+outputs.4.length=30963
+outputs.4.checksums.sha512=b923d13412172aee112379d179223b109e6a18fbaade3e8d72ba70e2671191dd01d8d22269b5874f29243fe991eadadcdc8ea03837950f7f55a2b0a9abd2c5a3
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-patch-plugin-1.3-cyclonedx.json
+outputs.5.length=36150
+outputs.5.checksums.sha512=7c77e43f3436138cff43bd402c596005fb84c34ab1faed7a5360279f26fd859618225ccd531e7d28269bd2a9fb47c9eae768dd66ada16a83c0eab34f709bdce4
