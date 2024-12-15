@@ -3,8 +3,8 @@
   <groupId>ch.qos.reload4j</groupId>
   <artifactId>reload4j</artifactId>
   <versioning>
-    <latest>1.2.25</latest>
-    <release>1.2.25</release>
+    <latest>1.2.26</latest>
+    <release>1.2.26</release>
     <versions>
       <version>1.2.18.0</version>
       <version>1.2.18.1</version>
@@ -19,7 +19,8 @@
       <version>1.2.23</version>
       <version>1.2.24</version>
       <version>1.2.25</version>
+      <version>1.2.26</version>
     </versions>
-    <lastUpdated>20230322192308</lastUpdated>
+    <lastUpdated>20241215170740</lastUpdated>
   </versioning>
 </metadata>

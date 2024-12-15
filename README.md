@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **5652 releases** of **754 projects**:
-   - **4155** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **5656 releases** of **755 projects**:
+   - **4159** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 1497 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 754 projects, 650 have at least one fully reproducible release, 104 have none
+   - on 755 projects, 651 have at least one fully reproducible release, 104 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -474,6 +474,7 @@ Its objectives are to provide:
 | | [maven-jarsigner-plugin](content/org/apache/maven/plugins/maven-jarsigner-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [maven-javadoc-plugin](content/org/apache/maven/plugins/maven-javadoc-plugin/README.md) | 16 | 12 :white_check_mark: / 4 :warning: |
 | | [maven-jlink-plugin](content/org/apache/maven/plugins/maven-jlink-plugin/README.md) | 3 | 3 :white_check_mark: |
+| | [maven-patch-plugin](content/org/apache/maven/plugins/maven-patch-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [maven-pdf-plugin](content/org/apache/maven/plugins/maven-pdf-plugin/README.md) | 3 | 3 :white_check_mark: |
 | | [maven-pmd-plugin](content/org/apache/maven/plugins/maven-pmd-plugin/README.md) | 14 | 14 :white_check_mark: |
 | | [maven-project-info-reports-plugin](content/org/apache/maven/plugins/maven-project-info-reports-plugin/README.md) | 18 | 17 :white_check_mark: / 1 :warning: |
@@ -687,9 +688,9 @@ Its objectives are to provide:
 | | [jpmml-h2o](content/org/jpmml/jpmml-h2o/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | | [jpmml-lightgbm](content/org/jpmml/jpmml-lightgbm/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | | [jpmml-model](content/org/jpmml/jpmml-model/README.md) | 4 | 4 :white_check_mark: |
-| | [jpmml-python](content/org/jpmml/jpmml-python/README.md) | 6 | 3 :white_check_mark: / 3 :warning: |
+| | [jpmml-python](content/org/jpmml/jpmml-python/README.md) | 7 | 4 :white_check_mark: / 3 :warning: |
 | | [jpmml-r](content/org/jpmml/jpmml-r/README.md) | 7 | 7 :white_check_mark: |
-| | [jpmml-sklearn](content/org/jpmml/jpmml-sklearn/README.md) | 10 | 9 :white_check_mark: / 1 :warning: |
+| | [jpmml-sklearn](content/org/jpmml/jpmml-sklearn/README.md) | 11 | 10 :white_check_mark: / 1 :warning: |
 | | [jpmml-statsmodels](content/org/jpmml/jpmml-statsmodels/README.md) | 3 | 3 :warning: |
 | | [jpmml-transpiler](content/org/jpmml/jpmml-transpiler/README.md) | 4 | 4 :white_check_mark: |
 | | [jpmml-xgboost](content/org/jpmml/jpmml-xgboost/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
@@ -753,7 +754,7 @@ Its objectives are to provide:
 | org.simplify4u.plugins | [pgpverify-maven-plugin](content/org/simplify4u/plugins/pgpverify-maven-plugin/README.md) | 11 | 11 :white_check_mark: |
 | | [sign-maven-plugin](content/org/simplify4u/plugins/sign-maven-plugin/README.md) | 8 | 6 :white_check_mark: / 2 :warning: |
 | org.sonatype.nexus.archetypes | [nexus-format-archetype](content/org/sonatype/nexus/archetypes/nexus-format-archetype/README.md) | 10 | 10 :white_check_mark: |
-| org.spdx | [java-spdx-library](content/org/spdx/java-spdx-library/README.md) | 6 | 6 :white_check_mark: |
+| org.spdx | [java-spdx-library](content/org/spdx/java-spdx-library/README.md) | 7 | 7 :white_check_mark: |
 | | [spdx-java-core](content/org/spdx/spdx-java-core/README.md) | 1 | 1 :white_check_mark: |
 | | [spdx-maven-plugin](content/org/spdx/spdx-maven-plugin/README.md) | 6 | 4 :white_check_mark: / 2 :warning: |
 | org.tomitribe.transformer | [org.eclipse.transformer.parent](content/org/tomitribe/transformer/README.md) | 2 | 2 :white_check_mark: |
@@ -777,7 +778,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 5 | 5 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 18 | 1 :white_check_mark: / 17 :warning: |
-| **Count:** | **754** | **5652** | **4155** :white_check_mark: **1497** :warning: |
+| **Count:** | **755** | **5656** | **4159** :white_check_mark: **1497** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -813,9 +814,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      16 mvn        18
      33 mvn        19
      16 mvn        20
-    311 mvn        21
+    312 mvn        21
      13 mvn        22
-      1 mvn        23
+      2 mvn        23
       2 mvn-3.5.4   8
       5 mvn-3.6.2   8
       1 mvn-3.8.3  11
@@ -889,7 +890,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.5  17.0.9
      39 mvn-3.9.5  21
      11 mvn-3.9.5  22
-     63 mvn-3.9.6   8
+     65 mvn-3.9.6   8
       8 mvn-3.9.6  11
      46 mvn-3.9.6  17
       2 mvn-3.9.6  17.0.7

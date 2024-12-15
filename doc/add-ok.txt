@@ -1,7 +1,6 @@
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-17.buildspec:11.1.1-beta-18
 content/io/trino/trino-466.buildspec:467
 content/io/wcm/tooling/wcm-parent_toplevel-2.3.2.buildspec:2.3.4
 content/org/apache/helix/helix-1.4.1.buildspec:1.4.2
-content/org/jpmml/jpmml-python/jpmml-python-1.2.5.buildspec:1.2.6
-content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.8.7.buildspec:1.8.8
-content/org/spdx/java-spdx-library/java-spdx-library-2.0.0-Alpha.buildspec:2.0.0-RC1
+content/org/jpmml/jpmml-r/jpmml-r-1.6.2.buildspec:1.6.3
 content/org/spdx/spdx-java-core/spdx-java-core-0.1.0-Alpha.buildspec:1.0.0-RC1

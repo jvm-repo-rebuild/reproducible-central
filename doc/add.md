@@ -4,9 +4,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241214165254 --> [jpmml-python](../content/org/jpmml/jpmml-python/README.md) | [1.2.5](../content/org/jpmml/jpmml-python/jpmml-python-1.2.5.buildspec) :white_check_mark: | [1.2.6](../content/org/jpmml/jpmml-python/jpmml-python-1.2.6.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-python/jpmml-python-1.2.5.buildspec 1.2.6` |
-| <!-- 20241214080030 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | [1.8.7](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.8.7.buildspec) :white_check_mark: | [1.8.8](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.8.8.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.8.7.buildspec 1.8.8` |
-| <!-- 20241214061005 --> [java-spdx-library](../content/org/spdx/java-spdx-library/README.md) | [2.0.0-Alpha](../content/org/spdx/java-spdx-library/java-spdx-library-2.0.0-Alpha.buildspec) :white_check_mark: | [2.0.0-RC1](../content/org/spdx/java-spdx-library/java-spdx-library-2.0.0-RC1.buildspec) | `bin/add-new-release.sh content/org/spdx/java-spdx-library/java-spdx-library-2.0.0-Alpha.buildspec 2.0.0-RC1` |
+| <!-- 20241215095226 --> [jpmml-r](../content/org/jpmml/jpmml-r/README.md) | [1.6.2](../content/org/jpmml/jpmml-r/jpmml-r-1.6.2.buildspec) :white_check_mark: | [1.6.3](../content/org/jpmml/jpmml-r/jpmml-r-1.6.3.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-r/jpmml-r-1.6.2.buildspec 1.6.3` |
+| <!-- 20241215021021 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [11.1.1-beta-17](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-17.buildspec) :white_check_mark: | [11.1.1-beta-18](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-18.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-17.buildspec 11.1.1-beta-18` |
 | <!-- 20241214051612 --> [spdx-java-core](../content/org/spdx/spdx-java-core/README.md) | [0.1.0-Alpha](../content/org/spdx/spdx-java-core/spdx-java-core-0.1.0-Alpha.buildspec) :white_check_mark: | [1.0.0-RC1](../content/org/spdx/spdx-java-core/spdx-java-core-1.0.0-RC1.buildspec) | `bin/add-new-release.sh content/org/spdx/spdx-java-core/spdx-java-core-0.1.0-Alpha.buildspec 1.0.0-RC1` |
 | <!-- 20241213122645 --> [log4j](../content/org/apache/logging/log4j/log4j/README.md) | [3.0.0-beta3](../content/org/apache/logging/log4j/log4j/log4j-3.0.0-beta3.buildspec) :white_check_mark: | 2.24.3  | `bin/add-new-release.sh content/org/apache/logging/log4j/log4j/log4j-3.0.0-beta3.buildspec ...` |
 | <!-- 20241209155409 --> [io.wcm.parent_toplevel](../content/io/wcm/tooling/README.md) | [2.3.2](../content/io/wcm/tooling/wcm-parent_toplevel-2.3.2.buildspec) :white_check_mark: | [2.3.4](../content/io/wcm/tooling/wcm-parent_toplevel-2.3.4.buildspec) | `bin/add-new-release.sh content/io/wcm/tooling/wcm-parent_toplevel-2.3.2.buildspec 2.3.4` |
@@ -43,6 +42,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20241215170740 --> [reload4j](../content/ch/qos/reload4j/README.md) | [1.2.25](../content/ch/qos/reload4j/reload4j-1.2.25.buildspec) :warning: | [1.2.26](../content/ch/qos/reload4j/reload4j-1.2.26.buildspec) | `bin/add-new-release.sh content/ch/qos/reload4j/reload4j-1.2.25.buildspec 1.2.26` |
+| <!-- 20241215091021 --> [byte-buddy-parent](../content/net/bytebuddy/README.md) | [1.15.10](../content/net/bytebuddy/byte-buddy-1.15.10.buildspec) :warning: | [1.15.11](../content/net/bytebuddy/byte-buddy-1.15.11.buildspec) | `bin/add-new-release.sh content/net/bytebuddy/byte-buddy-1.15.10.buildspec 1.15.11` |
 | <!-- 20241213164219 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | [6.9.6](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.9.6.buildspec) :warning: | [6.10.0](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.10.0.buildspec) | `bin/add-new-release.sh content/com/adobe/acs/aem-commons/acs-aem-commons-6.9.6.buildspec 6.10.0` |
 | <!-- 20241212071734 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | [2.11.4](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.4.buildspec) :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-resolver/pull/39) | [2.11.6](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.6.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.4.buildspec 2.11.6` |
 | <!-- 20241211104935 --> [protostream-aggregator](../content/org/infinispan/protostream/README.md) | [5.0.12.Final](../content/org/infinispan/protostream/protostream-5.0.12.Final.buildspec) :warning: [:memo:](https://github.com/infinispan/protostream/pull/358) | [6.0.0.Dev01](../content/org/infinispan/protostream/protostream-6.0.0.Dev01.buildspec) | `bin/add-new-release.sh content/org/infinispan/protostream/protostream-5.0.12.Final.buildspec 6.0.0.Dev01` |
@@ -72,7 +73,7 @@ New Releases To Add
 | ---------- | ------ |
 | <!-- 20241211095528 --> [quarkus-project](../content/io/quarkus/README.md) | 3.17.4 :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) |
 | <!-- 20241210081421 --> [io.wcm.handler.link](../content/io/wcm/io.wcm.handler/link/README.md) | 2.2.4 :warning: |
-| <!-- 20241207104017 --> [org.apache.sling.models.impl](../content/org/apache/sling/org.apache.sling.models.impl/README.md) | 1.7.6 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-models-impl/pull/58) |
+| <!-- 20241207104017 --> [org.apache.sling.models.impl](../content/org/apache/sling/org.apache.sling.models.impl/README.md) | 1.7.6 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-models-impl/pull/62) |
 | <!-- 20241204065136 --> [yupiik-tools-maven-plugin-parent](../content/io/yupiik/maven/plugin/README.md) | 1.2.5 :warning: |
 | <!-- 20241203132335 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 8.0.0-JDK17-M7 :warning: |
 | <!-- 20241203114430 --> [kubernetes-client-project](../content/io/fabric8/kubernetes-client/README.md) | 7.0.0 :warning: |
@@ -96,7 +97,6 @@ New Releases To Add
 | <!-- 20241109124721 --> [commons-release-plugin](../content/org/apache/commons/commons-release-plugin/README.md) | 1.8.3 :warning: |
 | <!-- 20241106160454 --> [tomcat-authnz-spnego-ad](../content/net/sf/michael-o/tomcat/tomcat-authnz-spnego-ad/README.md) | 4.2.4 :warning: [:memo:](https://github.com/michael-o/tomcatspnegoad/issues/32) |
 | <!-- 20241105103840 --> [atom-jaxb-parent](../content/fr/vidal/oss/README.md) | 2.0.0 :x: |
-| <!-- 20241103233526 --> [byte-buddy-parent](../content/net/bytebuddy/README.md) | 1.15.10 :warning: |
 | <!-- 20241101075826 --> [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | 1.1.2 :warning: [:memo:](https://github.com/jpmml/jpmml-statsmodels/pull/4) |
 | <!-- 20241028173435 --> [flink-kubernetes-operator-parent](../content/org/apache/flink/flink-kubernetes-operator/README.md) | 1.10.0 :warning: |
 | <!-- 20241025185600 --> [jdbi3-root](../content/org/jdbi/README.md) | 3.47.0 :warning: [:memo:](https://github.com/jdbi/jdbi/issues/2732) |
@@ -167,7 +167,6 @@ New Releases To Add
 | <!-- 20230721020416 --> [auto-record](../content/pl/com/labaj/auto-record/README.md) | 2.1.0 :x: |
 | <!-- 20230620223800 --> [xml-maven-plugin](../content/org/codehaus/mojo/xml-maven-plugin/README.md) | 1.1.0 :warning: |
 | <!-- 20230510171047 --> [Apache-Synapse](../content/org/apache/synapse/README.md) | 3.0.2 :warning: [:memo:](https://issues.apache.org/jira/browse/SYNAPSE-1128) |
-| <!-- 20230322192308 --> [reload4j](../content/ch/qos/reload4j/README.md) | 1.2.25 :warning: |
 | <!-- 20230305132220 --> [jarviz-core](../content/org/kordamp/jarviz/README.md) | 0.3.0 :warning: |
 | <!-- 20230224162220 --> [decanter](../content/org/apache/karaf/decanter/README.md) | 2.10.0 :warning: |
 | <!-- 20230219230122 --> [mybatis-generator](../content/org/mybatis/generator/README.md) | 1.4.2 :warning: |
