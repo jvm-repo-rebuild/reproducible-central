@@ -30,3 +30,8 @@ outputs.1.groupId=org.spdx
 outputs.1.filename=spdx-java-core-1.0.0-RC1.jar
 outputs.1.length=74931
 outputs.1.checksums.sha512=834b8a36930a906aa72d316406ecdf47740862f65d0959441a67ebd91d2982283eba2cef80b92386cfeea1f8477bd1471f50a6c77af1f75551fe6da814f8edac
+
+outputs.2.groupId=org.spdx
+outputs.2.filename=spdx-java-core-1.0.0-RC1-sources.jar
+outputs.2.length=69150
+outputs.2.checksums.sha512=3dd77df09b96c68253d0efc3e7b75134074b50b659e248334cf61f53dcf3e870dac8fbc7f4c60e4abf4f61dcc3cea2266d09657afdca157ee814658f35dc5090
