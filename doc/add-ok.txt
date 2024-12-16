@@ -1,6 +1,11 @@
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-17.buildspec:11.1.1-beta-18
-content/io/trino/trino-466.buildspec:467
+content/com/github/veithen/parent/veithen-parent-52.buildspec:53
+content/eu/maveniverse/maven/nisse/nisse-0.3.3.buildspec:0.3.4
+content/io/liftwizard/liftwizard-2.1.22.buildspec:2.1.23
+content/io/airlift/airbase/airbase-204.buildspec:205
+content/io/avaje/http/avaje-http-2.9-RC6.buildspec:2.9-RC7
+content/io/avaje/jex/avaje-jex-3.0-RC10.buildspec:3.0-RC11
 content/io/wcm/tooling/wcm-parent_toplevel-2.3.2.buildspec:2.3.4
-content/org/apache/helix/helix-1.4.1.buildspec:1.4.2
-content/org/jpmml/jpmml-r/jpmml-r-1.6.2.buildspec:1.6.3
-content/org/spdx/spdx-java-core/spdx-java-core-0.1.0-Alpha.buildspec:1.0.0-RC1
+content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.4.buildspec:2.0.5
+content/org/apache/sling/org.apache.sling.launchpad.test-services/org.apache.sling.launchpad.test-services-12.buildspec:13
+content/org/apache/sling/org.apache.sling.starter.content/org.apache.sling.starter.content-1.0.14.buildspec:1.0.16
+content/org/junit/junit5/junit5-5.11.3.buildspec:5.11.4
