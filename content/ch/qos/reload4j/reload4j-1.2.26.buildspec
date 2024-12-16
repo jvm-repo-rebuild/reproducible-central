@@ -8,7 +8,7 @@ gitTag=v_${version}
 
 tool=mvn
 jdk=8
-newline=lf
+newline=crlf # source code with crlf, but runtime on *nix
 
 # added "test bundle:manifest" invocation to simulate the effective release process done in 2 mvn runs: see https://github.com/qos-ch/reload4j/issues/57
 # but I don't see how to avoid impacting -tests.jar
