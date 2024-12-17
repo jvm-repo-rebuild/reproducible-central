@@ -219,7 +219,7 @@ rebuilding **25 releases** of io.fabric8:kubernetes-client-project:
 | [6.9.2](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.9.2/pom) | [mvn jdk8](kubernetes-client-6.9.2.buildspec) | :x: | |
 | [6.9.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.9.1/pom) | [mvn jdk8](kubernetes-client-6.9.1.buildspec) | :x: | |
 | [6.9.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.9.0/pom) | [mvn jdk8](kubernetes-client-6.9.0.buildspec) | :x: | |
-| [6.8.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.8.1/pom) | [mvn jdk8](kubernetes-client-6.8.1.buildspec) | :x: | |
+| [6.8.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.8.1/pom) | [mvn jdk8](kubernetes-client-6.8.1.buildspec) | [result](kubernetes-client-project-6.8.1.buildinfo): [301 :white_check_mark:  133 :warning:](kubernetes-client-project-6.8.1.buildcompare) | 172M |
 | [6.8.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.8.0/pom) | [mvn jdk8](kubernetes-client-6.8.0.buildspec) | [result](kubernetes-client-project-6.8.0.buildinfo): [299 :white_check_mark:  135 :warning:](kubernetes-client-project-6.8.0.buildcompare) | 172M |
 | [6.7.2](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.7.2/pom) | | | |
 | [6.7.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.7.1/pom) | | | |
