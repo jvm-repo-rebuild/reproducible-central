@@ -1,0 +1,17 @@
+version=0.9.8
+ok=34
+ko=8
+ignored=0
+okFiles="royale-compiler-parent-0.9.8.pom royale-compiler-parent-0.9.8-site.xml royale-compiler-parent-0.9.8-source-release.zip compiler-common-0.9.8.pom compiler-common-0.9.8.jar compiler-common-0.9.8-sources.jar compiler-test-utils-0.9.8.pom compiler-test-utils-0.9.8.jar compiler-test-utils-0.9.8-sources.jar compiler-externc-0.9.8.pom compiler-externc-0.9.8.jar compiler-externc-0.9.8-sources.jar compiler-externc-0.9.8-tests.jar compiler-playerglobalc-0.9.8.pom compiler-playerglobalc-0.9.8.jar compiler-playerglobalc-0.9.8-sources.jar compiler-playerglobalc-0.9.8-tests.jar compiler-0.9.8.pom compiler-0.9.8-scripts.jar compiler-jx-0.9.8.pom swfutils-0.9.8.pom swfutils-0.9.8.jar swfutils-0.9.8-sources.jar debugger-0.9.8.pom flex-compiler-oem-0.9.8.pom royale-ant-tasks-0.9.8.pom royale-ant-tasks-0.9.8.jar royale-ant-tasks-0.9.8-sources.jar royaleunit-ant-tasks-0.9.8.pom royaleunit-ant-tasks-0.9.8.jar royaleunit-ant-tasks-0.9.8-sources.jar royale-maven-plugin-0.9.8.pom royale-maven-plugin-0.9.8.jar royale-maven-plugin-0.9.8-sources.jar"
+koFiles="compiler-0.9.8.jar compiler-0.9.8-sources.jar compiler-jx-0.9.8.jar compiler-jx-0.9.8-sources.jar debugger-0.9.8.jar debugger-0.9.8-sources.jar flex-compiler-oem-0.9.8.jar flex-compiler-oem-0.9.8-sources.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/org.apache.royale.compiler/compiler-0.9.8.jar compiler/target/compiler-0.9.8.jar
+# diffoscope target/reference/org.apache.royale.compiler/compiler-0.9.8-sources.jar compiler/target/compiler-0.9.8-sources.jar
+# diffoscope target/reference/org.apache.royale.compiler/compiler-jx-0.9.8.jar compiler-jx/target/compiler-jx-0.9.8.jar
+# diffoscope target/reference/org.apache.royale.compiler/compiler-jx-0.9.8-sources.jar compiler-jx/target/compiler-jx-0.9.8-sources.jar
+# diffoscope target/reference/org.apache.royale.compiler/debugger-0.9.8.jar debugger/target/debugger-0.9.8.jar
+# diffoscope target/reference/org.apache.royale.compiler/debugger-0.9.8-sources.jar debugger/target/debugger-0.9.8-sources.jar
+# diffoscope target/reference/org.apache.royale.compiler/flex-compiler-oem-0.9.8.jar flex-compiler-oem/target/flex-compiler-oem-0.9.8.jar
+# diffoscope target/reference/org.apache.royale.compiler/flex-compiler-oem-0.9.8-sources.jar flex-compiler-oem/target/flex-compiler-oem-0.9.8-sources.jar
