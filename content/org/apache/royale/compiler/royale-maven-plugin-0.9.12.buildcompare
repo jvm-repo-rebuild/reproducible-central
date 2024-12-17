@@ -1,0 +1,23 @@
+version=0.9.12
+ok=36
+ko=14
+ignored=0
+okFiles="royale-compiler-parent-0.9.12.pom royale-compiler-parent-0.9.12-site.xml royale-compiler-parent-0.9.12-source-release.zip compiler-common-0.9.12.pom compiler-common-0.9.12.jar compiler-common-0.9.12-sources.jar compiler-test-utils-0.9.12.pom compiler-test-utils-0.9.12.jar compiler-test-utils-0.9.12-sources.jar compiler-externc-0.9.12.pom compiler-externc-0.9.12.jar compiler-externc-0.9.12-sources.jar compiler-externc-0.9.12-tests.jar compiler-playerglobalc-0.9.12.pom compiler-playerglobalc-0.9.12.jar compiler-playerglobalc-0.9.12-sources.jar compiler-playerglobalc-0.9.12-tests.jar compiler-0.9.12.pom compiler-0.9.12-scripts.jar compiler-jx-0.9.12.pom swfutils-0.9.12.pom swfutils-0.9.12.jar swfutils-0.9.12-sources.jar debugger-0.9.12.pom formatter-0.9.12.pom linter-0.9.12.pom flex-compiler-oem-0.9.12.pom royale-ant-tasks-0.9.12.pom royale-ant-tasks-0.9.12.jar royale-ant-tasks-0.9.12-sources.jar royaleunit-ant-tasks-0.9.12.pom royaleunit-ant-tasks-0.9.12.jar royaleunit-ant-tasks-0.9.12-sources.jar royale-maven-plugin-0.9.12.pom royale-maven-plugin-0.9.12.jar royale-maven-plugin-0.9.12-sources.jar"
+koFiles="compiler-0.9.12.jar compiler-0.9.12-sources.jar compiler-jx-0.9.12.jar compiler-jx-0.9.12-sources.jar debugger-0.9.12.jar debugger-0.9.12-sources.jar formatter-0.9.12.jar formatter-0.9.12-sources.jar formatter-0.9.12-tests.jar linter-0.9.12.jar linter-0.9.12-sources.jar linter-0.9.12-tests.jar flex-compiler-oem-0.9.12.jar flex-compiler-oem-0.9.12-sources.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/org.apache.royale.compiler/compiler-0.9.12.jar compiler/target/compiler-0.9.12.jar
+# diffoscope target/reference/org.apache.royale.compiler/compiler-0.9.12-sources.jar compiler/target/compiler-0.9.12-sources.jar
+# diffoscope target/reference/org.apache.royale.compiler/compiler-jx-0.9.12.jar compiler-jx/target/compiler-jx-0.9.12.jar
+# diffoscope target/reference/org.apache.royale.compiler/compiler-jx-0.9.12-sources.jar compiler-jx/target/compiler-jx-0.9.12-sources.jar
+# diffoscope target/reference/org.apache.royale.compiler/debugger-0.9.12.jar debugger/target/debugger-0.9.12.jar
+# diffoscope target/reference/org.apache.royale.compiler/debugger-0.9.12-sources.jar debugger/target/debugger-0.9.12-sources.jar
+# diffoscope target/reference/org.apache.royale.compiler/formatter-0.9.12.jar formatter/target/formatter-0.9.12.jar
+# diffoscope target/reference/org.apache.royale.compiler/formatter-0.9.12-sources.jar formatter/target/formatter-0.9.12-sources.jar
+# diffoscope target/reference/org.apache.royale.compiler/formatter-0.9.12-tests.jar formatter/target/formatter-0.9.12-tests.jar
+# diffoscope target/reference/org.apache.royale.compiler/linter-0.9.12.jar linter/target/linter-0.9.12.jar
+# diffoscope target/reference/org.apache.royale.compiler/linter-0.9.12-sources.jar linter/target/linter-0.9.12-sources.jar
+# diffoscope target/reference/org.apache.royale.compiler/linter-0.9.12-tests.jar linter/target/linter-0.9.12-tests.jar
+# diffoscope target/reference/org.apache.royale.compiler/flex-compiler-oem-0.9.12.jar flex-compiler-oem/target/flex-compiler-oem-0.9.12.jar
+# diffoscope target/reference/org.apache.royale.compiler/flex-compiler-oem-0.9.12-sources.jar flex-compiler-oem/target/flex-compiler-oem-0.9.12-sources.jar
