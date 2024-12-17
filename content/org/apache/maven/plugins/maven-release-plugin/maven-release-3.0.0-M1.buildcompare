@@ -1,0 +1,18 @@
+version=3.0.0-M1
+ok=7
+ko=11
+okFiles="maven-release-3.0.0-M1.pom maven-release-3.0.0-M1-site.xml maven-release-api-3.0.0-M1.pom maven-release-manager-3.0.0-M1.pom maven-release-plugin-3.0.0-M1.pom maven-release-oddeven-policy-3.0.0-M1.pom maven-release-semver-policy-3.0.0-M1.pom"
+koFiles="maven-release-3.0.0-M1-source-release.zip maven-release-api-3.0.0-M1.jar maven-release-api-3.0.0-M1-sources.jar maven-release-manager-3.0.0-M1.jar maven-release-manager-3.0.0-M1-sources.jar maven-release-plugin-3.0.0-M1.jar maven-release-plugin-3.0.0-M1-sources.jar maven-release-oddeven-policy-3.0.0-M1.jar maven-release-oddeven-policy-3.0.0-M1-sources.jar maven-release-semver-policy-3.0.0-M1.jar maven-release-semver-policy-3.0.0-M1-sources.jar"
+reference_java_version="1.7 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/maven-release-3.0.0-M1-source-release.zip target/maven-release-3.0.0-M1-source-release.zip
+# diffoscope target/reference/maven-release-api-3.0.0-M1.jar maven-release-api/target/maven-release-api-3.0.0-M1.jar
+# diffoscope target/reference/maven-release-api-3.0.0-M1-sources.jar maven-release-api/target/maven-release-api-3.0.0-M1-sources.jar
+# diffoscope target/reference/maven-release-manager-3.0.0-M1.jar maven-release-manager/target/maven-release-manager-3.0.0-M1.jar
+# diffoscope target/reference/maven-release-manager-3.0.0-M1-sources.jar maven-release-manager/target/maven-release-manager-3.0.0-M1-sources.jar
+# diffoscope target/reference/maven-release-plugin-3.0.0-M1.jar maven-release-plugin/target/maven-release-plugin-3.0.0-M1.jar
+# diffoscope target/reference/maven-release-plugin-3.0.0-M1-sources.jar maven-release-plugin/target/maven-release-plugin-3.0.0-M1-sources.jar
+# diffoscope target/reference/maven-release-oddeven-policy-3.0.0-M1.jar maven-release-policies/maven-release-oddeven-policy/target/maven-release-oddeven-policy-3.0.0-M1.jar
+# diffoscope target/reference/maven-release-oddeven-policy-3.0.0-M1-sources.jar maven-release-policies/maven-release-oddeven-policy/target/maven-release-oddeven-policy-3.0.0-M1-sources.jar
+# diffoscope target/reference/maven-release-semver-policy-3.0.0-M1.jar maven-release-policies/maven-release-semver-policy/target/maven-release-semver-policy-3.0.0-M1.jar
+# diffoscope target/reference/maven-release-semver-policy-3.0.0-M1-sources.jar maven-release-policies/maven-release-semver-policy/target/maven-release-semver-policy-3.0.0-M1-sources.jar
