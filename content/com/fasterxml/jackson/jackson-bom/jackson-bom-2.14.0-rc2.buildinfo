@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson BOM
+group-id=com.fasterxml.jackson
+artifact-id=jackson-bom
+version=2.14.0-rc2
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-bom.git
+source.scm.tag=jackson-bom-2.14.0-rc2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=jackson-base
+
+# aggregated output
+
+outputs.0.coordinates=com.fasterxml.jackson:jackson-bom
+
+outputs.0.0.groupId=com.fasterxml.jackson
+outputs.0.0.filename=jackson-bom-2.14.0-rc2.pom
+outputs.0.0.length=17503
+outputs.0.0.checksums.sha512=d2f9a552c948875b5a1c0a63b347bd20eb1a813d85155bcfd20cef98c9f2d70d7c205712a4d4e650ad8ff4c4ba8d8308d948b33d54a87677721c43b0e81c94d0
+
+outputs.1.coordinates=com.fasterxml.jackson:jackson-base
+
+outputs.1.0.groupId=com.fasterxml.jackson
+outputs.1.0.filename=jackson-base-2.14.0-rc2.pom
+outputs.1.0.length=10232
+outputs.1.0.checksums.sha512=5d76f18366b049b03d9bec8a2011e687ffc136bdff2e4cffc4a0ccc171b49ef39725d01918550ca15b1478aa31f2d36bfd8a868d5138ed8c1f2c65925d5d86cf

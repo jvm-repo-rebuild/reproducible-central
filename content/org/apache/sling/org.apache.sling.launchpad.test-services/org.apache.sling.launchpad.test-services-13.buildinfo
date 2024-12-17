@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Launchpad Testing Services
+group-id=org.apache.sling
+artifact-id=org.apache.sling.launchpad.test-services
+version=13
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-launchpad-test-services.git
+source.scm.tag=org.apache.sling.launchpad.test-services-13
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.launchpad.test-services-13.pom
+outputs.0.length=8531
+outputs.0.checksums.sha512=3729664f214ff194e8957d5de3adcbdb7e0f870d940fe2126e88def9325d18377fc3be1e66147fc610c0c2271b50609870642a55801e474d8b214c60885ff38c
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.launchpad.test-services-13.jar
+outputs.1.length=179046
+outputs.1.checksums.sha512=c404ba92c0f6914931c0e173f61b1f8e7dd65a10d6ffd9879128cc50fae5e6e5f0cfe7d7d5b651afdd0d11bc1bb3e8cb453cf0f4c0e7ca64a178a0674be6ba48
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.launchpad.test-services-13-source-release.zip
+outputs.2.length=147734
+outputs.2.checksums.sha512=6f225dfa1f627c01b479fc55394dac49a8691b7effab2781ea952cbff772b8021728069505ba1aee0443ff26a9fe32906f4916aa768af1049e432cb4158df974
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.launchpad.test-services-13-sources.jar
+outputs.3.length=128474
+outputs.3.checksums.sha512=8e3ed0c37413bc54b033bf49cdebe546d9a928f26edb452f83709c2e0a16f34c8d2b7f99c2adb35268f07c7128aed1d27645d7a49b4082e60e15ac1f220ed099

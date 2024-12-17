@@ -3,6 +3,7 @@
 previousBuildspec=$1
 nextVersion=$2
 
+[ ! -f ${previousBuildspec} ] && echo "Previous buildspec not found: ${previousBuildspec}" && exit 1
 diffoscope=
 . ${previousBuildspec}
 
