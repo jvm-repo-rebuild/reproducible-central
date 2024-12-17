@@ -1,11 +1,4 @@
-content/com/github/veithen/parent/veithen-parent-52.buildspec:53
-content/eu/maveniverse/maven/nisse/nisse-0.3.3.buildspec:0.3.4
-content/io/liftwizard/liftwizard-2.1.22.buildspec:2.1.23
-content/io/airlift/airbase/airbase-204.buildspec:205
-content/io/avaje/http/avaje-http-2.9-RC6.buildspec:2.9-RC7
-content/io/avaje/jex/avaje-jex-3.0-RC10.buildspec:3.0-RC11
+content/eu/maveniverse/maven/bom-builder/bom-builder-1.0.2.buildspec:1.0.3
+content/io/airlift/airbase/airbase-205.buildspec:206
 content/io/wcm/tooling/wcm-parent_toplevel-2.3.2.buildspec:2.3.4
-content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.4.buildspec:2.0.5
-content/org/apache/sling/org.apache.sling.launchpad.test-services/org.apache.sling.launchpad.test-services-12.buildspec:13
-content/org/apache/sling/org.apache.sling.starter.content/org.apache.sling.starter.content-1.0.14.buildspec:1.0.16
-content/org/junit/junit5/junit5-5.11.3.buildspec:5.11.4
+content/org/apache/maven/maven/maven-4.0.0-rc-1.buildspec:4.0.0-rc-2
