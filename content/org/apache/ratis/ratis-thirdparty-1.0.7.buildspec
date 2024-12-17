@@ -1,0 +1,14 @@
+groupId=org.apache.ratis
+artifactId=ratis-thirdparty
+display=${groupId}:${artifactId}
+version=1.0.7
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn -Papache-release -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
