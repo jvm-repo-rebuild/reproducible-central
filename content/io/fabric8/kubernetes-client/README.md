@@ -200,9 +200,9 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:zjsonpatch](https://central.sonatype.com/artifact/io.fabric8/zjsonpatch/overview)
 </details>
 
-rebuilding **20 releases** of io.fabric8:kubernetes-client-project:
+rebuilding **23 releases** of io.fabric8:kubernetes-client-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 20 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 23 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -262,12 +262,12 @@ rebuilding **20 releases** of io.fabric8:kubernetes-client-project:
 | [5.4.2](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/5.4.2/pom) | | | |
 | [5.4.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/5.4.1/pom) | [mvn jdk8](kubernetes-client-5.4.1.buildspec) | [result](kubernetes-client-project-5.4.1.buildinfo): [186 :white_check_mark:  66 :warning:](kubernetes-client-project-5.4.1.buildcompare) [:mag:](kubernetes-client-project-5.4.1.diffoscope) | 79M |
 | [5.4.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/5.4.0/pom) | [mvn jdk8](kubernetes-client-5.4.0.buildspec) | [result](kubernetes-client-project-5.4.0.buildinfo): [186 :white_check_mark:  66 :warning:](kubernetes-client-project-5.4.0.buildcompare) [:mag:](kubernetes-client-project-5.4.0.diffoscope) | 79M |
-| [5.3.2](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/5.3.2/pom) | | | |
-| [5.3.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/5.3.1/pom) | | | |
-| [5.3.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/5.3.0/pom) | | | |
+| [5.3.2](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/5.3.2/pom) | [mvn jdk8](kubernetes-client-5.3.2.buildspec) | [result](kubernetes-client-project-5.3.2.buildinfo): [184 :white_check_mark:  64 :warning:](kubernetes-client-project-5.3.2.buildcompare) | 83M |
+| [5.3.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/5.3.1/pom) | [mvn jdk8](kubernetes-client-5.3.1.buildspec) | [result](kubernetes-client-project-5.3.1.buildinfo): [183 :white_check_mark:  65 :warning:](kubernetes-client-project-5.3.1.buildcompare) | 83M |
+| [5.3.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/5.3.0/pom) | [mvn jdk8](kubernetes-client-5.3.0.buildspec) | [result](kubernetes-client-project-5.3.0.buildinfo): [181 :white_check_mark:  67 :warning:](kubernetes-client-project-5.3.0.buildcompare) | 83M |
 | [5.2.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/5.2.1/pom) | [mvn jdk11](kubernetes-client-5.2.1.buildspec) | [result](kubernetes-client-project-5.2.1.buildinfo): [180 :white_check_mark:  53 :warning:](kubernetes-client-project-5.2.1.buildcompare) | 77M |
 | [5.2.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/5.2.0/pom) | [mvn jdk8](kubernetes-client-5.2.0.buildspec) | [result](kubernetes-client-project-5.2.0.buildinfo): [174 :white_check_mark:  59 :warning:](kubernetes-client-project-5.2.0.buildcompare) | 78M |
-| [5.1.2](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/5.1.2/pom) | | | |
+| [5.1.2](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/5.1.2/pom) | [mvn jdk8](kubernetes-client-5.1.2.buildspec) | [result](kubernetes-client-project-5.1.2.buildinfo): [173 :white_check_mark:  56 :warning:](kubernetes-client-project-5.1.2.buildcompare) | 77M |
 | [5.1.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/5.1.1/pom) | [mvn jdk8](kubernetes-client-5.1.1.buildspec) | [result](kubernetes-client-project-5.1.1.buildinfo): [175 :white_check_mark:  54 :warning:](kubernetes-client-project-5.1.1.buildcompare) | 77M |
 | [5.1.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/5.1.0/pom) | [mvn jdk8](kubernetes-client-5.1.0.buildspec) | [result](kubernetes-client-project-5.1.0.buildinfo): [175 :white_check_mark:  54 :warning:](kubernetes-client-project-5.1.0.buildcompare) [:mag:](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/fabric8/kubernetes-client/kubernetes-client-project-5.1.0.diffoscope) | 77M |
 
