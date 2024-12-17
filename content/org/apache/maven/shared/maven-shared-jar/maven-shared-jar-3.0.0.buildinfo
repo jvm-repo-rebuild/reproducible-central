@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven JAR Utilities
+group-id=org.apache.maven.shared
+artifact-id=maven-shared-jar
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-shared-jar.git
+source.scm.tag=maven-shared-jar-3.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=20
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.maven.shared
+outputs.0.filename=maven-shared-jar-3.0.0.pom
+outputs.0.length=4964
+outputs.0.checksums.sha512=9a1137c134ebfe9d9b1771c6433693ce403ba69e211f399c99c433259414b2f2e6002af2ed92f4c6eb05680861214a16ea963959b76f045a440ef3ba44012d87
+
+outputs.1.groupId=org.apache.maven.shared
+outputs.1.filename=maven-shared-jar-3.0.0.jar
+outputs.1.length=40306
+outputs.1.checksums.sha512=0887406d4a5994d11dc88760dc776df4afbda7d654600b5fdd2d89d347b1c87306f122efaa25a630a8574ac652e5399eb41c06bf16f9b76c66a5db58b229ea82
+
+outputs.2.groupId=org.apache.maven.shared
+outputs.2.filename=maven-shared-jar-3.0.0-source-release.zip
+outputs.2.length=1094736
+outputs.2.checksums.sha512=f290c743eb8675c6052709d431f8ba59de6c2e06749e9617386ea5ce7a505e822157ade7ce9459996ae6f71bb7a83689cd884358704207e27c154da7c5bf1602
+
+outputs.3.groupId=org.apache.maven.shared
+outputs.3.filename=maven-shared-jar-3.0.0-sources.jar
+outputs.3.length=38680
+outputs.3.checksums.sha512=5894afc51043827d5a5e8069f8b270080e0c61fdb27834b6aeb0f2ff1ff4bd62891f6ce98a6008a58c8e2a6310b3bba9ffcec4d2b963256976a14875160388c0

@@ -17,9 +17,9 @@ Source code: [https://github.com/apache/maven-release.git](https://github.com/ap
 * [org.apache.maven.release:maven-release-semver-policy](https://central.sonatype.com/artifact/org.apache.maven.release/maven-release-semver-policy/overview)
 </details>
 
-rebuilding **8 releases** of org.apache.maven.plugins:maven-release-plugin:
+rebuilding **9 releases** of org.apache.maven.plugins:maven-release-plugin:
 - **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -31,5 +31,6 @@ rebuilding **8 releases** of org.apache.maven.plugins:maven-release-plugin:
 | [3.0.0-M6](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-release-plugin/3.0.0-M6/pom) | [mvn jdk8](maven-release-plugin-3.0.0-M6.buildspec) | [result](maven-release-3.0.0-M6.buildinfo): [18 :white_check_mark: ](maven-release-3.0.0-M6.buildcompare) | 2.4M |
 | [3.0.0-M5](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-release-plugin/3.0.0-M5/pom) | [mvn jdk8 w](maven-release-plugin-3.0.0-M5.buildspec) | [result](maven-release-3.0.0-M5.buildinfo): [18 :white_check_mark: ](maven-release-3.0.0-M5.buildcompare) | 2.4M |
 | [3.0.0-M4](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-release-plugin/3.0.0-M4/pom) | [mvn jdk8 w](maven-release-plugin-3.0.0-M4.buildspec) | [result](maven-release-3.0.0-M4.buildinfo): [18 :white_check_mark: ](maven-release-3.0.0-M4.buildcompare) | 2.4M |
+| [3.0.0-M1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-release-plugin/3.0.0-M1/pom) | [mvn jdk7](maven-release-plugin-3.0.0-M1.buildspec) | [result](maven-release-3.0.0-M1.buildinfo): [7 :white_check_mark:  11 :warning:](maven-release-3.0.0-M1.buildcompare) | 2.3M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

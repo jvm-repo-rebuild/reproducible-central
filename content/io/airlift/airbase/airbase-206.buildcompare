@@ -1,0 +1,9 @@
+version=206
+ok=4
+ko=0
+ignored=0
+okFiles="airbase-root-206.pom airbase-policy-206.pom airbase-policy-206.jar airbase-206.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

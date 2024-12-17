@@ -14,12 +14,13 @@ Source code: [https://github.com/airlift/airbase.git](https://github.com/airlift
 * [io.airlift:airbase-root](https://central.sonatype.com/artifact/io.airlift/airbase-root/overview)
 </details>
 
-rebuilding **49 releases** of io.airlift:airbase:
-- **47** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **50 releases** of io.airlift:airbase:
+- **48** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [206](https://central.sonatype.com/artifact/io.airlift/airbase/206/pom) | [mvn jdk17](airbase-206.buildspec) | [result](airbase-206.buildinfo): [4 :white_check_mark: ](airbase-206.buildcompare) | 98K |
 | [205](https://central.sonatype.com/artifact/io.airlift/airbase/205/pom) | [mvn jdk17](airbase-205.buildspec) | [result](airbase-205.buildinfo): [4 :white_check_mark: ](airbase-205.buildcompare) | 98K |
 | [204](https://central.sonatype.com/artifact/io.airlift/airbase/204/pom) | [mvn jdk17](airbase-204.buildspec) | [result](airbase-204.buildinfo): [4 :white_check_mark: ](airbase-204.buildcompare) | 98K |
 | [203](https://central.sonatype.com/artifact/io.airlift/airbase/203/pom) | [mvn jdk17](airbase-203.buildspec) | [result](airbase-203.buildinfo): [4 :white_check_mark: ](airbase-203.buildcompare) | 98K |
