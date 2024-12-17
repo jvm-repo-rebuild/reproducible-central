@@ -200,9 +200,9 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:zjsonpatch](https://central.sonatype.com/artifact/io.fabric8/zjsonpatch/overview)
 </details>
 
-rebuilding **30 releases** of io.fabric8:kubernetes-client-project:
+rebuilding **35 releases** of io.fabric8:kubernetes-client-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 30 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 35 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -216,11 +216,11 @@ rebuilding **30 releases** of io.fabric8:kubernetes-client-project:
 | [6.12.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.12.0/pom) | [mvn jdk8](kubernetes-client-6.12.0.buildspec) | [result](kubernetes-client-project-6.12.0.buildinfo): [355 :white_check_mark:  97 :warning:](kubernetes-client-project-6.12.0.buildcompare) [:memo:](https://github.com/fabric8io/kubernetes-client/commit/3c889e7752fa2b841c8764a62c1754df0bdf963f#diff-9c5fb3d1b7e3b0f54bc5c4182965c4fe1f9023d449017cece3005d3f90e8e4d8L167) | 184M |
 | [6.11.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.11.0/pom) | [mvn jdk8](kubernetes-client-6.11.0.buildspec) | [result](kubernetes-client-project-6.11.0.buildinfo): [356 :white_check_mark:  96 :warning:](kubernetes-client-project-6.11.0.buildcompare) | 184M |
 | [6.10.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.10.0/pom) | [mvn jdk8](kubernetes-client-6.10.0.buildspec) | [result](kubernetes-client-project-6.10.0.buildinfo): [301 :white_check_mark:  136 :warning:](kubernetes-client-project-6.10.0.buildcompare) | 176M |
-| [6.9.2](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.9.2/pom) | | | |
-| [6.9.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.9.1/pom) | | | |
-| [6.9.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.9.0/pom) | | | |
-| [6.8.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.8.1/pom) | | | |
-| [6.8.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.8.0/pom) | | | |
+| [6.9.2](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.9.2/pom) | [mvn jdk8](kubernetes-client-6.9.2.buildspec) | [result](kubernetes-client-project-6.9.2.buildinfo): [304 :white_check_mark:  133 :warning:](kubernetes-client-project-6.9.2.buildcompare) | 175M |
+| [6.9.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.9.1/pom) | [mvn jdk8](kubernetes-client-6.9.1.buildspec) | [result](kubernetes-client-project-6.9.1.buildinfo): [301 :white_check_mark:  136 :warning:](kubernetes-client-project-6.9.1.buildcompare) | 173M |
+| [6.9.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.9.0/pom) | [mvn jdk8](kubernetes-client-6.9.0.buildspec) | [result](kubernetes-client-project-6.9.0.buildinfo): [302 :white_check_mark:  135 :warning:](kubernetes-client-project-6.9.0.buildcompare) | 172M |
+| [6.8.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.8.1/pom) | [mvn jdk8](kubernetes-client-6.8.1.buildspec) | [result](kubernetes-client-project-6.8.1.buildinfo): [301 :white_check_mark:  133 :warning:](kubernetes-client-project-6.8.1.buildcompare) | 172M |
+| [6.8.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.8.0/pom) | [mvn jdk8](kubernetes-client-6.8.0.buildspec) | [result](kubernetes-client-project-6.8.0.buildinfo): [299 :white_check_mark:  135 :warning:](kubernetes-client-project-6.8.0.buildcompare) | 172M |
 | [6.7.2](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.7.2/pom) | | | |
 | [6.7.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.7.1/pom) | | | |
 | [6.7.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.7.0/pom) | | | |
