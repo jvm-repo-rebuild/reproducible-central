@@ -1,0 +1,9 @@
+version=13
+ok=4
+ko=0
+ignored=0
+okFiles="org.apache.sling.launchpad.test-services-13.pom org.apache.sling.launchpad.test-services-13.jar org.apache.sling.launchpad.test-services-13-source-release.zip org.apache.sling.launchpad.test-services-13-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
