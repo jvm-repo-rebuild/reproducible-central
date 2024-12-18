@@ -1,0 +1,64 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=avaje-spi-parent
+group-id=io.avaje
+artifact-id=avaje-spi-parent
+version=2.9
+
+# source information
+source.scm.uri=null
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=avaje-spi-service
+
+# aggregated output
+
+outputs.0.coordinates=io.avaje:avaje-spi-parent
+
+outputs.0.0.groupId=io.avaje
+outputs.0.0.filename=avaje-spi-parent-2.9.pom
+outputs.0.0.length=1316
+outputs.0.0.checksums.sha512=0b7b90df62008416ccb1697fa7f21697e9318e456829e56dbf0bb8976bd6a17bd290c395866b4ea279e747f6355838206720598a0f717afa8fab21424a72716f
+
+outputs.1.coordinates=io.avaje:avaje-spi-core
+
+outputs.1.0.groupId=io.avaje
+outputs.1.0.filename=avaje-spi-core-2.9.pom
+outputs.1.0.length=1276
+outputs.1.0.checksums.sha512=22ae3002274e457d2814a08f75190b8abb27ddec32196dcfce36b5907f29a35cea98e04a85f981708d5d6eff1420697f18195ef9314d9273bd5cebdd27d2b29d
+
+outputs.1.1.groupId=io.avaje
+outputs.1.1.filename=avaje-spi-core-2.9.jar
+outputs.1.1.length=52520
+outputs.1.1.checksums.sha512=83d18ec45e27f0478acc8954ae0f8fa23ccd3bcf29213a9608887b568a87f44d10866f77ebe2f59eb08ad1ef1586e2021aacc83e576c6bef615b75422fdc8e10
+
+outputs.1.2.groupId=io.avaje
+outputs.1.2.filename=avaje-spi-core-2.9-sources.jar
+outputs.1.2.length=25812
+outputs.1.2.checksums.sha512=47096b47df7e75dd2554bdc67d540343303727f6e38997aed50fc6cca204617a1a56750ab49de1598e7616493b8275430e5e0ebd5563e4a967ec0c6ed53c726e
+
+outputs.2.coordinates=io.avaje:avaje-spi-service
+
+outputs.2.0.groupId=io.avaje
+outputs.2.0.filename=avaje-spi-service-2.9.pom
+outputs.2.0.length=808
+outputs.2.0.checksums.sha512=7fdf31a6648845c9d31a35dcebca376d99fb344a37e1b87ed2a6de2a161616ee51cd9ec502edba13a6c1475bbfbcb83c8d289c576d80fdb0b4b79e311c1e76ef
+
+outputs.2.1.groupId=io.avaje
+outputs.2.1.filename=avaje-spi-service-2.9.jar
+outputs.2.1.length=2132
+outputs.2.1.checksums.sha512=4fd6f9c8ba0f65d913871133ee68df2a024d436ab752e14f6e9faea63b9ae4252d493f23a350b76de457cc4d0845c8be409df6dbf3cb85a7e72ca3d888fad8b4
+
+outputs.2.2.groupId=io.avaje
+outputs.2.2.filename=avaje-spi-service-2.9-sources.jar
+outputs.2.2.length=3331
+outputs.2.2.checksums.sha512=64478297d190a743ada5b4360457f24100f52eb4405aaa5fd705bed91c2fbc2c23e39d6be2825d7ff9d47253bc0b369889f96da92f86308a3ce20999020af6f1
