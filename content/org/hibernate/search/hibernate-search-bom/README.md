@@ -7,11 +7,12 @@
 
 Source code: [https://github.com/hibernate/hibernate-search.git](https://github.com/hibernate/hibernate-search.git)
 
-<details><summary>This project defines 17 modules:</summary>
+<details><summary>This project defines 18 modules:</summary>
 
 * [org.hibernate.search:hibernate-search-backend-elasticsearch](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-backend-elasticsearch/overview)
 * [org.hibernate.search:hibernate-search-backend-elasticsearch-aws](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-backend-elasticsearch-aws/overview)
 * [org.hibernate.search:hibernate-search-backend-lucene](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-backend-lucene/overview)
+* [org.hibernate.search:hibernate-search-backend-lucene-next](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-backend-lucene-next/overview)
 * [org.hibernate.search:hibernate-search-bom](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/overview)
 * [org.hibernate.search:hibernate-search-engine](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-engine/overview)
 * [org.hibernate.search:hibernate-search-mapper-orm](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-mapper-orm/overview)
@@ -28,13 +29,13 @@ Source code: [https://github.com/hibernate/hibernate-search.git](https://github.
 * [org.hibernate.search:hibernate-search-v5migrationhelper-orm](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-v5migrationhelper-orm/overview)
 </details>
 
-rebuilding **6 releases** of org.hibernate.search:hibernate-search-bom:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of org.hibernate.search:hibernate-search-bom:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [8.0.0.Alpha1](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.0.0.Alpha1/pom) | | | |
+| [8.0.0.Alpha1](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.0.0.Alpha1/pom) | [mvn jdk21](hibernate-search-parent-8.0.0.Alpha1.buildspec) | [result](hibernate-search-parent-8.0.0.Alpha1.buildinfo): [32 :white_check_mark: ](hibernate-search-parent-8.0.0.Alpha1.buildcompare) | 6.9M |
 | [7.2.2.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/7.2.2.Final/pom) | [mvn jdk21](hibernate-search-parent-7.2.2.Final.buildspec) | [result](hibernate-search-parent-7.2.2.Final.buildinfo): [30 :white_check_mark: ](hibernate-search-parent-7.2.2.Final.buildcompare) | 5.3M |
 | [7.2.1.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/7.2.1.Final/pom) | [mvn jdk21](hibernate-search-parent-7.2.1.Final.buildspec) | [result](hibernate-search-parent-7.2.1.Final.buildinfo): [30 :white_check_mark: ](hibernate-search-parent-7.2.1.Final.buildcompare) | 5.3M |
 | [7.2.0.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/7.2.0.Final/pom) | [mvn jdk21](hibernate-search-parent-7.2.0.Final.buildspec) | [result](hibernate-search-parent-7.2.0.Final.buildinfo): [29 :white_check_mark:  1 :warning:](hibernate-search-parent-7.2.0.Final.buildcompare) | 5.3M |
