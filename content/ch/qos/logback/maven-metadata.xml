@@ -3,8 +3,8 @@
   <groupId>ch.qos.logback</groupId>
   <artifactId>logback-parent</artifactId>
   <versioning>
-    <latest>1.5.12</latest>
-    <release>1.5.12</release>
+    <latest>1.5.13</latest>
+    <release>1.5.13</release>
     <versions>
       <version>0.6</version>
       <version>0.7</version>
@@ -144,7 +144,8 @@
       <version>1.5.10</version>
       <version>1.5.11</version>
       <version>1.5.12</version>
+      <version>1.5.13</version>
     </versions>
-    <lastUpdated>20241025204507</lastUpdated>
+    <lastUpdated>20241218162134</lastUpdated>
   </versioning>
 </metadata>

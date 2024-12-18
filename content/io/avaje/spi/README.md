@@ -20,6 +20,7 @@ rebuilding **1 releases** of io.avaje:avaje-spi-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.9](https://central.sonatype.com/artifact/io.avaje/avaje-spi-parent/2.9/pom) | | | |
 | [2.8](https://central.sonatype.com/artifact/io.avaje/avaje-spi-parent/2.8/pom) | [mvn jdk21](avaje-spi-2.8.buildspec) | [result](avaje-spi-parent-2.8.buildinfo): [7 :white_check_mark: ](avaje-spi-parent-2.8.buildcompare) | 83K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

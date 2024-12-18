@@ -1,4 +1,9 @@
-content/eu/maveniverse/maven/bom-builder/bom-builder-1.0.2.buildspec:1.0.3
-content/io/airlift/airbase/airbase-205.buildspec:206
+content/ch/qos/logback/logback-1.5.12.buildspec:1.5.13
+content/com/foreach/across/across-5.5.1.buildspec:6.0.0
+content/io/trino/trino-467.buildspec:468
+content/io/avaje/jex/avaje-jex-3.0-RC11.buildspec:3.0-RC12
+content/io/avaje/prisms/avaje-prisms-1.36.buildspec:1.37
+content/io/avaje/spi/avaje-spi-2.8.buildspec:2.9
 content/io/wcm/tooling/wcm-parent_toplevel-2.3.2.buildspec:2.3.4
 content/org/apache/maven/maven/maven-4.0.0-rc-1.buildspec:4.0.0-rc-2
+content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-7.2.2.Final.buildspec:8.0.0.Alpha1
