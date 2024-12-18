@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Servlets Resolver
+group-id=org.apache.sling
+artifact-id=org.apache.sling.servlets.resolver
+version=2.11.6
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-servlets-resolver.git
+source.scm.tag=org.apache.sling.servlets.resolver-2.11.6
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.servlets.resolver-2.11.6.pom
+outputs.0.length=17150
+outputs.0.checksums.sha512=d79ef8abed6d7231d924dedeee9f6af3160647b35c0c2124d7f4be34fa9e26d5ca2be189fdeb156548a21ad5a64ec329ed5e12b2bbfaa1b744e46c0d5378efe0
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.servlets.resolver-2.11.6.jar
+outputs.1.length=154139
+outputs.1.checksums.sha512=722bbcfef0750a89253bd4510ac9fd600b3b79731e055ef3a0bbb5899e4e2d1342d3a87b040850eebe4d83fe88a6e75c76379d9aac439c0fdf9b5672b82a3c5e
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.servlets.resolver-2.11.6-source-release.zip
+outputs.2.length=162168
+outputs.2.checksums.sha512=b91d1d0030675dbe7e2c627f6eb50e93baf6426544ea0cb7f62a8702a48b73b57be4d35ff66d6f5ab4903ab56c035b3551967737d342a24b7a4881f911ebb2dd
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.servlets.resolver-2.11.6-sources.jar
+outputs.3.length=94634
+outputs.3.checksums.sha512=c90d077e90b0d9d69032569e79e9a0ecf798f0053bc9b2333a84d5f4cc84260920c28267fda0bda5ad616b21aa022a1a042335d128a058549ecb3590d2ed53f4
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.servlets.resolver-2.11.6-sources.jar
+outputs.4.length=94634
+outputs.4.checksums.sha512=c90d077e90b0d9d69032569e79e9a0ecf798f0053bc9b2333a84d5f4cc84260920c28267fda0bda5ad616b21aa022a1a042335d128a058549ecb3590d2ed53f4
