@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/ratis.git](https://github.com/apache/ratis.git)
 
-<details><summary>This project defines 20 modules:</summary>
+<details><summary>This project defines 22 modules:</summary>
 
 * [org.apache.ratis:ratis](https://central.sonatype.com/artifact/org.apache.ratis/ratis/overview)
 * [org.apache.ratis:ratis-assembly](https://central.sonatype.com/artifact/org.apache.ratis/ratis-assembly/overview)
@@ -28,6 +28,8 @@ Source code: [https://github.com/apache/ratis.git](https://github.com/apache/rat
 * [org.apache.ratis:ratis-server-api](https://central.sonatype.com/artifact/org.apache.ratis/ratis-server-api/overview)
 * [org.apache.ratis:ratis-shell](https://central.sonatype.com/artifact/org.apache.ratis/ratis-shell/overview)
 * [org.apache.ratis:ratis-test](https://central.sonatype.com/artifact/org.apache.ratis/ratis-test/overview)
+* [org.apache.ratis:ratis-thirdparty](https://central.sonatype.com/artifact/org.apache.ratis/ratis-thirdparty/overview)
+* [org.apache.ratis:ratis-thirdparty-misc](https://central.sonatype.com/artifact/org.apache.ratis/ratis-thirdparty-misc/overview)
 * [org.apache.ratis:ratis-tools](https://central.sonatype.com/artifact/org.apache.ratis/ratis-tools/overview)
 </details>
 
