@@ -31,13 +31,13 @@ outputs.0.0.checksums.sha512=1dba056940c4941236cafbb713a0bc27325b0c6b11fb3cea0f1
 
 outputs.0.1.groupId=org.apache.ratis
 outputs.0.1.filename=ratis-thirdparty-1.0.7-cyclonedx.xml
-outputs.0.1.length=2468
-outputs.0.1.checksums.sha512=e4cd1d4078f0e4cbf894908e37df1cf49a0481eacb0d9f88fe99205d873e5658c2d58fe50319b0163b36044bbefe9c0807320eda6cf6a0ce1bac09e81ff33e11
+outputs.0.1.length=2873
+outputs.0.1.checksums.sha512=70d3fe351f6cdbedc76bd8f6e61f1dd9ad12a878039449e617d6befac1b8633261bdef263f57218eeb71ce2ff5f94467060a1e69c63e8529272951cab2462221
 
 outputs.0.2.groupId=org.apache.ratis
 outputs.0.2.filename=ratis-thirdparty-1.0.7-cyclonedx.json
-outputs.0.2.length=2798
-outputs.0.2.checksums.sha512=7f68ebaac4ae3c49201fa27600ab09913627b4137a84208825ae0ad600185eb263b3d4683fc21030086168f3ad297194a281812efe5402a46e22063e6e04d4fd
+outputs.0.2.length=3338
+outputs.0.2.checksums.sha512=c2eeeb1fc3a8f7bfb048b2ac74d48d7a4f454dbac2ed097928d4adc88fa86a73052c534c77090f5e1cb911d818858e2b8424bcd96dc4b7c860b5d4715a75e796
 
 outputs.1.coordinates=org.apache.ratis:ratis-thirdparty-misc
 
@@ -68,13 +68,13 @@ outputs.1.4.checksums.sha512=aace94343fb68031402bcdda9bd49fd3428ff276f25659b128e
 
 outputs.1.5.groupId=org.apache.ratis
 outputs.1.5.filename=ratis-thirdparty-misc-1.0.7-cyclonedx.xml
-outputs.1.5.length=106063
-outputs.1.5.checksums.sha512=9c061da486af06dafdac41d4280523de0b5845b61a964e6b965da4d386482d04976d77b8b5b6930f271543d9cd4e3fce65d36fbc680bfa13756bd34ba3cc0fb8
+outputs.1.5.length=128413
+outputs.1.5.checksums.sha512=3325b50c8e0b5a5b6343f7b688f2835e7bc5593722d907500e90eb0719cb52cb478a0b1643981495575ca4a1af36ea1da5788ff2d3338d9b01573dfa2a2de38b
 
 outputs.1.6.groupId=org.apache.ratis
 outputs.1.6.filename=ratis-thirdparty-misc-1.0.7-cyclonedx.json
-outputs.1.6.length=118417
-outputs.1.6.checksums.sha512=0aaaea53dc6077095258efc4f776e9117be0b1bf89cae14d122429ebd1ef95a2378f41cce48f8411ac26ced215c0323644f82697b10e474d5c4a777af32d73a2
+outputs.1.6.length=147337
+outputs.1.6.checksums.sha512=959a83a72a73ce6dc0692bef408d3f753307a6eebf2f0c2e01186fed2a4877fb1447b6d94b5631e60f53d80b60aef5e1e69c15c52d6e05c65571d39c1688906a
 
 outputs.1.7.groupId=org.apache.ratis
 outputs.1.7.filename=ratis-thirdparty-misc-1.0.7-sources.jar
