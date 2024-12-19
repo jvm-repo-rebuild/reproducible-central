@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/struts.git](https://github.com/apache/struts.git)
 
-<details><summary>This project defines 40 modules:</summary>
+<details><summary>This project defines 43 modules:</summary>
 
 * [org.apache.struts:struts2-apps](https://central.sonatype.com/artifact/org.apache.struts/struts2-apps/overview)
 * [org.apache.struts:struts2-assembly](https://central.sonatype.com/artifact/org.apache.struts/struts2-assembly/overview)
@@ -21,6 +21,7 @@ Source code: [https://github.com/apache/struts.git](https://github.com/apache/st
 * [org.apache.struts:struts2-dwr-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-dwr-plugin/overview)
 * [org.apache.struts:struts2-embeddedjsp-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-embeddedjsp-plugin/overview)
 * [org.apache.struts:struts2-gxp-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-gxp-plugin/overview)
+* [org.apache.struts:struts2-jakarta](https://central.sonatype.com/artifact/org.apache.struts/struts2-jakarta/overview)
 * [org.apache.struts:struts2-jasperreports-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-jasperreports-plugin/overview)
 * [org.apache.struts:struts2-javatemplates-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-javatemplates-plugin/overview)
 * [org.apache.struts:struts2-jfreechart-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-jfreechart-plugin/overview)
@@ -48,16 +49,18 @@ Source code: [https://github.com/apache/struts.git](https://github.com/apache/st
 * [org.apache.struts:struts2-testng-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-testng-plugin/overview)
 * [org.apache.struts:struts2-tiles-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-tiles-plugin/overview)
 * [org.apache.struts:struts2-velocity-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-velocity-plugin/overview)
+* [org.apache.struts:struts2-velocity-tools-jsp-jakarta](https://central.sonatype.com/artifact/org.apache.struts/struts2-velocity-tools-jsp-jakarta/overview)
+* [org.apache.struts:struts2-velocity-tools-view-jakarta](https://central.sonatype.com/artifact/org.apache.struts/struts2-velocity-tools-view-jakarta/overview)
 * [org.apache.struts:struts2-xslt-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-xslt-plugin/overview)
 </details>
 
-rebuilding **25 releases** of org.apache.struts:struts2-parent:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **26 releases** of org.apache.struts:struts2-parent:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 18 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [7.0.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/7.0.0/pom) | | | |
+| [7.0.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/7.0.0/pom) | [mvn jdk17](struts2-7.0.0.buildspec) | [result](struts2-parent-7.0.0.buildinfo): [70 :white_check_mark: ](struts2-parent-7.0.0.buildcompare) | 45M |
 | [6.7.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.7.0/pom) | [mvn jdk8](struts2-6.7.0.buildspec) | [result](struts2-parent-6.7.0.buildinfo): [107 :white_check_mark: ](struts2-parent-6.7.0.buildcompare) | 49M |
 | [6.6.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.6.1/pom) | [mvn jdk8](struts2-6.6.1.buildspec) | [result](struts2-parent-6.6.1.buildinfo): [107 :white_check_mark: ](struts2-parent-6.6.1.buildcompare) | 48M |
 | [6.6.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.6.0/pom) | [mvn jdk8](struts2-6.6.0.buildspec) | [result](struts2-parent-6.6.0.buildinfo): [107 :white_check_mark: ](struts2-parent-6.6.0.buildcompare) | 48M |
