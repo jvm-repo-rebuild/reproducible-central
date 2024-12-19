@@ -1,0 +1,22 @@
+version=2.0.5
+ok=5
+ko=13
+ignored=0
+okFiles="parent-2.0.5.pom logback-access-common-2.0.5.pom logback-access-tomcat-2.0.5.pom logback-access-jetty11-2.0.5.pom logback-access-jetty12-2.0.5.pom"
+koFiles="logback-access-common-2.0.5.jar logback-access-common-2.0.5-sources.jar logback-access-common-2.0.5-test-sources.jar logback-access-common-2.0.5-tests.jar logback-access-tomcat-2.0.5.jar logback-access-tomcat-2.0.5-sources.jar logback-access-tomcat-2.0.5-test-sources.jar logback-access-jetty11-2.0.5.jar logback-access-jetty11-2.0.5-sources.jar logback-access-jetty11-2.0.5-test-sources.jar logback-access-jetty12-2.0.5.jar logback-access-jetty12-2.0.5-sources.jar logback-access-jetty12-2.0.5-test-sources.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/ch.qos.logback.access/logback-access-common-2.0.5.jar logback-access-common/target/logback-access-common-2.0.5.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-common-2.0.5-sources.jar logback-access-common/target/logback-access-common-2.0.5-sources.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-common-2.0.5-test-sources.jar logback-access-common/target/logback-access-common-2.0.5-test-sources.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-common-2.0.5-tests.jar logback-access-common/target/logback-access-common-2.0.5-tests.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-tomcat-2.0.5.jar logback-access-tomcat/target/logback-access-tomcat-2.0.5.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-tomcat-2.0.5-sources.jar logback-access-tomcat/target/logback-access-tomcat-2.0.5-sources.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-tomcat-2.0.5-test-sources.jar logback-access-tomcat/target/logback-access-tomcat-2.0.5-test-sources.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-jetty11-2.0.5.jar logback-access-jetty11/target/logback-access-jetty11-2.0.5.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-jetty11-2.0.5-sources.jar logback-access-jetty11/target/logback-access-jetty11-2.0.5-sources.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-jetty11-2.0.5-test-sources.jar logback-access-jetty11/target/logback-access-jetty11-2.0.5-test-sources.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-jetty12-2.0.5.jar logback-access-jetty12/target/logback-access-jetty12-2.0.5.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-jetty12-2.0.5-sources.jar logback-access-jetty12/target/logback-access-jetty12-2.0.5-sources.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-jetty12-2.0.5-test-sources.jar logback-access-jetty12/target/logback-access-jetty12-2.0.5-test-sources.jar

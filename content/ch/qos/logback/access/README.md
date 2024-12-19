@@ -20,13 +20,13 @@ Source code: [https://github.com/qos-ch/logback-access.git](https://github.com/q
 * [ch.qos.logback.access:tomcat](https://central.sonatype.com/artifact/ch.qos.logback.access/tomcat/overview)
 </details>
 
-rebuilding **5 releases** of ch.qos.logback.access:parent:
+rebuilding **6 releases** of ch.qos.logback.access:parent:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0.5](https://central.sonatype.com/artifact/ch.qos.logback.access/parent/2.0.5/pom) | | | |
+| [2.0.5](https://central.sonatype.com/artifact/ch.qos.logback.access/parent/2.0.5/pom) | [mvn jdk21 w](access-2.0.5.buildspec) | [result](parent-2.0.5.buildinfo): [5 :white_check_mark:  13 :warning:](parent-2.0.5.buildcompare) | 313K |
 | [2.0.4](https://central.sonatype.com/artifact/ch.qos.logback.access/parent/2.0.4/pom) | [mvn jdk21 w](access-2.0.4.buildspec) | [result](parent-2.0.4.buildinfo): [18 :white_check_mark: ](parent-2.0.4.buildcompare) | 315K |
 | [2.0.3](https://central.sonatype.com/artifact/ch.qos.logback.access/parent/2.0.3/pom) | [mvn jdk21 w](access-2.0.3.buildspec) | [result](parent-2.0.3.buildinfo): [18 :white_check_mark: ](parent-2.0.3.buildcompare) | 313K |
 | [2.0.2](https://central.sonatype.com/artifact/ch.qos.logback.access/parent/2.0.2/pom) | [mvn jdk21 w](access-2.0.2.buildspec) | [result](parent-2.0.2.buildinfo): [18 :white_check_mark: ](parent-2.0.2.buildcompare) | 313K |
