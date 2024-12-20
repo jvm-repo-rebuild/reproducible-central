@@ -1,0 +1,12 @@
+version=32.1.3-android
+ok=8
+ko=3
+ignored=0
+okFiles="guava-parent-32.1.3-android.pom guava-32.1.3-android.pom guava-32.1.3-android.module guava-32.1.3-android-sources.jar guava-bom-32.1.3-android.pom guava-testlib-32.1.3-android.pom guava-testlib-32.1.3-android-test-sources.jar guava-testlib-32.1.3-android-sources.jar"
+koFiles="guava-32.1.3-android.jar guava-testlib-32.1.3-android.jar guava-testlib-32.1.3-android-tests.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.google.guava/guava-32.1.3-android.jar guava/target/guava-32.1.3-android.jar
+# diffoscope target/reference/com.google.guava/guava-testlib-32.1.3-android.jar guava-testlib/target/guava-testlib-32.1.3-android.jar
+# diffoscope target/reference/com.google.guava/guava-testlib-32.1.3-android-tests.jar guava-testlib/target/guava-testlib-32.1.3-android-tests.jar
