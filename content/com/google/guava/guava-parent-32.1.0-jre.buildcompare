@@ -1,0 +1,12 @@
+version=32.1.0-jre
+ok=11
+ko=3
+ignored=0
+okFiles="guava-parent-32.1.0-jre.pom guava-32.1.0-jre.pom guava-32.1.0-jre.module guava-32.1.0-jre-sources.jar guava-bom-32.1.0-jre.pom guava-testlib-32.1.0-jre.pom guava-testlib-32.1.0-jre-sources.jar guava-testlib-32.1.0-jre-test-sources.jar guava-gwt-32.1.0-jre.pom guava-gwt-32.1.0-jre.jar guava-gwt-32.1.0-jre-sources.jar"
+koFiles="guava-32.1.0-jre.jar guava-testlib-32.1.0-jre.jar guava-testlib-32.1.0-jre-tests.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.google.guava/guava-32.1.0-jre.jar guava/target/guava-32.1.0-jre.jar
+# diffoscope target/reference/com.google.guava/guava-testlib-32.1.0-jre.jar guava-testlib/target/guava-testlib-32.1.0-jre.jar
+# diffoscope target/reference/com.google.guava/guava-testlib-32.1.0-jre-tests.jar guava-testlib/target/guava-testlib-32.1.0-jre-tests.jar
