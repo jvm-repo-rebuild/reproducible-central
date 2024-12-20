@@ -119,7 +119,7 @@ else
   echo
   echo -e "once buildspec is ok:"
   echo -e "1. either create a PR:"
-  echo -e "\033[0;32mgit checkout -b $artifactId-$nextVersion ; git add ${nextBuildspec} ; git commit -m 'add ${artifactId} ${nextVersion}' -m '' -m 'https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/${dir}/README.md' ; git push --set-upstream origin $artifactId-$nextVersion ; gh pr create --fill --head $artifactId-$nextVersion ; git switch master\033[0m"
+  echo -e "\033[0;32mbranch=$artifactId-$nextVersion ; git checkout -b \$branch ; git add ${nextBuildspec} ; git commit -m 'add ${artifactId} ${nextVersion}' -m '' -m 'https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/${dir}/README.md' ; git push --set-upstream origin \$branch ; gh pr create --fill --head \$branch ; git switch master\033[0m"
   echo -e "2. or commit directly to master:"
   echo -e "\033[0;32mbin/update-project-summary.sh ${dir} ; git add ${dir} ; git commit -m \"add ${artifactId} ${nextVersion}\" ; git push\033[0m"
   echo -e "3. or drop the local test:"
