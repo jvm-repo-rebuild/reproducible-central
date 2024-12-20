@@ -1,0 +1,19 @@
+groupId=com.google.guava
+artifactId=guava
+version=32.1.2-android
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/google/${artifactId}.git
+gitTag=v$(echo "${version}" | cut -d '-' -f 1)
+
+tool=mvn-3.8.2
+jdk=11
+newline=lf
+umask=027
+
+command="mvn -f android/ clean verify -Psonatype-oss-release -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=android/target/${artifactId}-parent-${version}.buildinfo
+
+#diffoscope=${artifactId}-parent-${version}.diffoscope
+issue=
