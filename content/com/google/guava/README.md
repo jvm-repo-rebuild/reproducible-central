@@ -16,9 +16,9 @@ Source code: [https://github.com/google/guava.git](https://github.com/google/gua
 * [com.google.guava:guava-testlib](https://central.sonatype.com/artifact/com.google.guava/guava-testlib/overview)
 </details>
 
-rebuilding **22 releases** of com.google.guava:guava:
+rebuilding **24 releases** of com.google.guava:guava:
 - **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 14 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 16 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -40,8 +40,8 @@ rebuilding **22 releases** of com.google.guava:guava:
 | [32.1.3-android](https://central.sonatype.com/artifact/com.google.guava/guava/32.1.3-android/pom) | [mvn jdk11](guava-32.1.3-android.buildspec) | [result](guava-parent-32.1.3-android.buildinfo): [8 :white_check_mark:  3 :warning:](guava-parent-32.1.3-android.buildcompare) | 6.1M |
 | [32.1.2-jre](https://central.sonatype.com/artifact/com.google.guava/guava/32.1.2-jre/pom) | [mvn jdk11](guava-32.1.2-jre.buildspec) | [result](guava-parent-32.1.2-jre.buildinfo): [11 :white_check_mark:  3 :warning:](guava-parent-32.1.2-jre.buildcompare) | 8.8M |
 | [32.1.2-android](https://central.sonatype.com/artifact/com.google.guava/guava/32.1.2-android/pom) | [mvn jdk11](guava-32.1.2-android.buildspec) | [result](guava-parent-32.1.2-android.buildinfo): [8 :white_check_mark:  3 :warning:](guava-parent-32.1.2-android.buildcompare) | 6.1M |
-| [32.1.1-jre](https://central.sonatype.com/artifact/com.google.guava/guava/32.1.1-jre/pom) | | | |
-| [32.1.1-android](https://central.sonatype.com/artifact/com.google.guava/guava/32.1.1-android/pom) | | | |
+| [32.1.1-jre](https://central.sonatype.com/artifact/com.google.guava/guava/32.1.1-jre/pom) | [mvn jdk11](guava-32.1.1-jre.buildspec) | [result](guava-parent-32.1.1-jre.buildinfo): [11 :white_check_mark:  3 :warning:](guava-parent-32.1.1-jre.buildcompare) | 8.8M |
+| [32.1.1-android](https://central.sonatype.com/artifact/com.google.guava/guava/32.1.1-android/pom) | [mvn jdk11](guava-32.1.1-android.buildspec) | [result](guava-parent-32.1.1-android.buildinfo): [8 :white_check_mark:  3 :warning:](guava-parent-32.1.1-android.buildcompare) | 6.1M |
 | [32.1.0-jre](https://central.sonatype.com/artifact/com.google.guava/guava/32.1.0-jre/pom) | | | |
 | [32.1.0-android](https://central.sonatype.com/artifact/com.google.guava/guava/32.1.0-android/pom) | | | |
 | [32.0.1-jre](https://central.sonatype.com/artifact/com.google.guava/guava/32.0.1-jre/pom) | [mvn jdk11](guava-32.0.1-jre.buildspec) | [result](guava-parent-32.0.1-jre.buildinfo): [10 :white_check_mark:  3 :warning:](guava-parent-32.0.1-jre.buildcompare) | 13M |
