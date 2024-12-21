@@ -107,7 +107,12 @@ jobs:
         run: |
           if [ $(grep "^ko=" PRcomment.txt | grep -v "ko=0" | wc -l) -eq 0 ]
           then
-            gh pr merge -m -d
+            if [ "${{ github.event.pull_request.user.login }}" -eq "hboutemy" ]
+            then
+              gh pr merge -m -d
+            else
+              gh pr edit --add-reviewer hboutemy
+            fi
           fi
 
       - name: Archive diffoscope output
