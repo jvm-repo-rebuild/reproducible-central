@@ -13,6 +13,7 @@ rebuilding **4 releases** of org.apache.sling:org.apache.sling.feature:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature/2.0.4/pom) | | | |
 | [2.0.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature/2.0.2/pom) | [mvn jdk17](org.apache.sling.feature-2.0.2.buildspec) | [result](org.apache.sling.feature-2.0.2.buildinfo): [4 :white_check_mark: ](org.apache.sling.feature-2.0.2.buildcompare) | 1.3M |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature/2.0.0/pom) | [mvn jdk11](org.apache.sling.feature-2.0.0.buildspec) | [result](org.apache.sling.feature-2.0.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.feature-2.0.0.buildcompare) | 1.5M |
 | [1.3.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature/1.3.0/pom) | [mvn jdk11](org.apache.sling.feature-1.3.0.buildspec) | [result](org.apache.sling.feature-1.3.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.feature-1.3.0.buildcompare) | 1.5M |

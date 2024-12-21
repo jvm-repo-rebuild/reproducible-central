@@ -1,12 +1,6 @@
 content/ch/qos/logback/access/access-2.0.4.buildspec:2.0.5
-content/io/airlift/airbase/airbase-206.buildspec:207
-content/io/telicent/jena/rdf-abac/rdf-abac-0.73.0.buildspec:0.73.1
 content/io/wcm/tooling/wcm-parent_toplevel-2.3.2.buildspec:2.3.4
-content/org/apache/struts/struts2-6.7.0.buildspec:7.0.0
-content/org/apache/wicket/wicket-parent-10.2.0.buildspec:10.3.0
-content/org/apache/activemq/artemis/artemis-2.38.0.buildspec:2.39.0
 content/org/apache/maven/maven/maven-4.0.0-rc-1.buildspec:4.0.0-rc-2
-content/org/apache/sling/org.apache.sling.xss/org.apache.sling.xss-2.4.2.buildspec:2.4.4
-content/org/jpmml/jpmml-r/jpmml-r-1.6.3.buildspec:1.6.4
-content/org/liquibase/ext/liquibase-percona/liquibase-percona-4.29.2.buildspec:4.30.0
-content/org/webjars/highcharts/highcharts-11.2.0.buildspec:12.1.0
+content/org/apache/sling/org.apache.sling.feature/org.apache.sling.feature-2.0.2.buildspec:2.0.4
+content/org/apache/sling/org.apache.sling.installer.core/org.apache.sling.installer.core-3.14.0.buildspec:3.14.2
+content/org/apache/sling/org.apache.sling.testing.clients/org.apache.sling.testing.clients-3.0.24.buildspec:3.1.0
