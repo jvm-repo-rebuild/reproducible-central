@@ -107,7 +107,7 @@ jobs:
         run: |
           if [ $(grep "^ko=" PRcomment.txt | grep -v "ko=0" | wc -l) -eq 0 ]
           then
-            if [ "${{ github.event.pull_request.user.login }}" -eq "hboutemy" ]
+            if [ "${{ github.event.pull_request.user.login }}" = "hboutemy" ]
             then
               gh pr merge -m -d
             else
