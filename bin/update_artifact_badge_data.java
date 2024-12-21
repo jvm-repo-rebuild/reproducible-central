@@ -39,18 +39,28 @@ import org.apache.maven.artifact.repository.metadata.io.xpp3.MetadataXpp3Reader;
 
 import org.codehaus.plexus.util.xml.pull.XmlPullParserException;
 
-public class update_api extends SimpleFileVisitor<Path> {
+/**
+ * Update artifact badge data = https://github.com/jvm-repo-rebuild/reproducible-central/tree/gh-pages/badge/artifact
+ * consumed through public url https://jvm-repo-rebuild.github.io/reproducible-central/
+ * by badge https://shields.io/badges/reproducible-central-artifact = https://github.com/badges/shields/tree/master/services/reproducible-central
+ */
+public class update_artifact_badge_data extends SimpleFileVisitor<Path> {
+    // https://jvm-repo-rebuild.github.io/reproducible-central/
+    private static final Path BADGE_ARTIFACT_BASE = Path.of("gh-pages/badge/artifact");
+
     public static void main(String... args) throws Exception {
-        update_api u = new update_api();
-        Files.walkFileTree(Path.of("content"), u);
+        update_artifact_badge_data uabd = new update_artifact_badge_data();
+        Files.walkFileTree(Path.of("content"), uabd);
+
         System.out.println();
-        u.summarize();
+        uabd.summarize();
         System.out.println();
-        u.checkOutputTimestamps();
+        uabd.checkOutputTimestamps();
     }
 
     @Override
     public FileVisitResult preVisitDirectory(Path dir, BasicFileAttributes attrs) throws IOException {
+        // skip buildcache content when run in a Git workspace that has been used to rebuild a project
         return dir.endsWith("buildcache") ? FileVisitResult.SKIP_SUBTREE : FileVisitResult.CONTINUE;
     }
 
@@ -69,8 +79,6 @@ public class update_api extends SimpleFileVisitor<Path> {
     }
 
     private static final Path CONTENT_BASE = Path.of("content");
-    // https://jvm-repo-rebuild.github.io/reproducible-central/
-    private static final Path BADGE_ARTIFACT_BASE = Path.of("gh-pages/badge/artifact");
 
     private static long projectsCount = 0;
     private static long projectsReleasesCount = 0;

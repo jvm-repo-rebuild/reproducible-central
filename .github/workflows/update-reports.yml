@@ -1,4 +1,4 @@
-name: Update Reports
+name: Update Reports and Artifact Badge Data
 
 on:
   schedule:
@@ -8,29 +8,14 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  update-project-reports:
     if: github.repository == 'jvm-repo-rebuild/reproducible-central'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Update Reports
+      - name: Update Project Reports
         run: ./bin/update-reproducibility-summary.sh update
-
-      - name: Setup JBang
-        uses: jbangdev/setup-jbang@main
-
-      - name: Checkout gh-pages
-        uses: actions/checkout@v4
-        with:
-          ref: 'gh-pages'
-          path: 'gh-pages'
-
-      - name: Update APIs
-        run: |
-          wget https://raw.githubusercontent.com/hboutemy/mcmm-logs/refs/heads/master/outputTimestamp.txt
-          ./bin/update_api.java
-          rm outputTimestamp.txt
 
       - name: Commit Push
         env:
@@ -41,6 +26,31 @@ jobs:
           git add -A
           git commit -m "nightly update of content"
           git push
+
+  update-artifact-badge-data:
+    needs: update-project-reports
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup JBang
+        uses: jbangdev/setup-jbang@main
+
+      - name: Checkout gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: 'gh-pages'
+          path: 'gh-pages'
+
+      - name: Update Badge Data
+        run: |
+          wget https://raw.githubusercontent.com/hboutemy/mcmm-logs/refs/heads/master/outputTimestamp.txt
+          ./bin/update_artifact_badge_data.java
+
+      - name: Commit Push gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
           cd gh-pages
           git config --local user.email "reproducible-central@github.io"
           git config --local user.name "Reproducible Central CI"
