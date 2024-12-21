@@ -1,0 +1,19 @@
+groupId=com.io7m.cardant
+artifactId=com.io7m.cardant
+display=${groupId}:${artifactId}
+version=1.0.0-beta0001
+
+gitRepo="https://github.com/io7m/$(echo "${artifactId}" | sed s/com.io7m.//).git"
+gitTag=${artifactId}-${version}
+#gitTag=
+
+tool=mvn-3.9.3
+jdk=21
+newline=lf
+umask=022
+
+command="mvn -Dio7m.release -Pio7m-oci-image -Dio7m.quickBuild -DbuildNumber=bd84bd5f917f1b4f489915a3b2e00570b999c265 clean package"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
