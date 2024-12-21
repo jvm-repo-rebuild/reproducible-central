@@ -11,7 +11,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-FROM @@BASEIMAGE@@
+FROM ghcr.io/jvm-repo-rebuild/rb-ubuntu
 
 # By running the JDKs as a separate command they become a separate layer and thus we have less layers if we need to do more builds.
 RUN apt-get -q update \
