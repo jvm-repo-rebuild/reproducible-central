@@ -29,7 +29,7 @@ outputs.0.checksums.sha512=fe77d237a27fd58f956b06af1946af74dc9d26980dea591f92d59
 outputs.1.groupId=de.knightsoft-net
 outputs.1.filename=gwt-commons-lang3-3.17.0-1.jar
 outputs.1.length=1411020
-outputs.1.checksums.sha512=9c44754eb1a1a58afaec94a97069e321a6846a99bb2c979d5957b008398096615eb1c8137107bb1b1a8eeff1cf1300a4639f467949fb43adba5061a24ef77ed8
+outputs.1.checksums.sha512=0e9386a71a90327c59d19a49f4edab04a754363e3172ea7a7880db2520b4144b5a7365ece7a139b122c4ab6fb7a757c00718d5e4a45d5e33db6b0ed1378805ca
 
 outputs.2.groupId=de.knightsoft-net
 outputs.2.filename=gwt-commons-lang3-3.17.0-1-tests.jar

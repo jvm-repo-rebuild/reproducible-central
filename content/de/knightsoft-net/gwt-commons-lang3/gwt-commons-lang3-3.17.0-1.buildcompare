@@ -1,10 +1,9 @@
 version=3.17.0-1
-ok=6
-ko=1
+ok=7
+ko=0
 ignored=0
-okFiles="gwt-commons-lang3-3.17.0-1.pom gwt-commons-lang3-3.17.0-1-tests.jar gwt-commons-lang3-3.17.0-1-sources.jar gwt-commons-lang3-3.17.0-1-test-sources.jar gwt-commons-lang3-3.17.0-1-cyclonedx.xml gwt-commons-lang3-3.17.0-1-cyclonedx.json"
-koFiles="gwt-commons-lang3-3.17.0-1.jar"
+okFiles="gwt-commons-lang3-3.17.0-1.pom gwt-commons-lang3-3.17.0-1.jar gwt-commons-lang3-3.17.0-1-tests.jar gwt-commons-lang3-3.17.0-1-sources.jar gwt-commons-lang3-3.17.0-1-test-sources.jar gwt-commons-lang3-3.17.0-1-cyclonedx.xml gwt-commons-lang3-3.17.0-1-cyclonedx.json"
+koFiles=""
 ignoredFiles=""
 reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
-# diffoscope target/reference/de.knightsoft-net/gwt-commons-lang3-3.17.0-1.jar target/gwt-commons-lang3-3.17.0-1.jar
