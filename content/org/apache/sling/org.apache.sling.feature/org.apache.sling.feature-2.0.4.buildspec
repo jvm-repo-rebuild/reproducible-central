@@ -1,0 +1,18 @@
+groupId=org.apache.sling
+artifactId=org.apache.sling.feature
+display=${groupId}:.feature
+version=2.0.4
+
+gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.9
+jdk=17
+newline=crlf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+execBefore="chmod a-x src/main/java/org/apache/sling/feature/osgi/Converters.java"
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
