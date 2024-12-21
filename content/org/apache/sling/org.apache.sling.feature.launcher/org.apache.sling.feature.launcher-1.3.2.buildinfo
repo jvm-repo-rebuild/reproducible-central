@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Feature Model Launcher
+group-id=org.apache.sling
+artifact-id=org.apache.sling.feature.launcher
+version=1.3.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-feature-launcher.git
+source.scm.tag=org.apache.sling.feature.launcher-1.3.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.feature.launcher-1.3.2.pom
+outputs.0.length=17702
+outputs.0.checksums.sha512=75adb7b39be5bfe07500f95bf666c0a6be2eb77d77aefd7af7f23e4a40781e700cd1503d85017230c1f541a9f15f9a10628fbaca29b6d74a3ee9c99563e97a7b
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.feature.launcher-1.3.2.jar
+outputs.1.length=71285
+outputs.1.checksums.sha512=31e5fb1399240814bf1975075cefc41cfb07ed655581d96892a48ca07c5869b6afd0f57fd187e33dab12e575fe88d4a27f8b009546786542dc61b73062a512a8
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.feature.launcher-1.3.2-source-release.zip
+outputs.2.length=69772
+outputs.2.checksums.sha512=0a13887cbeb3d0c8045a08179bacd0d3f9452c04b5a94760e876d8bc5bdf19ac84eea0b14580027c45225040220f77fe5ecb50f823432ea42b37bcb0fb27a495
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.feature.launcher-1.3.2.tar.gz
+outputs.3.length=1992185
+outputs.3.checksums.sha512=b859ba8ade52ba489d014d4bfca6a36eefd63e451d5831de7b9e59c42fbbc2c836c0fce546b6e403e27ac68a81faac4c52e3ac91df574152c072fc094cad0c9d
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.feature.launcher-1.3.2.zip
+outputs.4.length=1999869
+outputs.4.checksums.sha512=54edfed8880af81aca10915e6729854045292a07c672720b964ef364a40e8a0a1efe94cc0afed29ee9fd9103850aa619f23db4ada2288133a5c1c7f1d5106858
+
+outputs.5.groupId=org.apache.sling
+outputs.5.filename=org.apache.sling.feature.launcher-1.3.2-sources.jar
+outputs.5.length=44781
+outputs.5.checksums.sha512=b7fc2573ab047580b6cc8ff925aeb829b9cfa61c1f56e78af13e42a335be3fa6a6f2969326eb13ef56d2cadc3c9d0e46f0aeb3b64731526b5d3e034790081467
