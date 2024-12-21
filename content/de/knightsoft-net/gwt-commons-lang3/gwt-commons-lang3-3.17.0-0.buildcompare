@@ -1,0 +1,9 @@
+version=3.17.0-0
+ok=7
+ko=0
+ignored=1
+okFiles="gwt-commons-lang3-3.17.0-0.pom gwt-commons-lang3-3.17.0-0.jar gwt-commons-lang3-3.17.0-0-tests.jar gwt-commons-lang3-3.17.0-0-sources.jar gwt-commons-lang3-3.17.0-0-test-sources.jar gwt-commons-lang3-3.17.0-0-cyclonedx.xml gwt-commons-lang3-3.17.0-0-cyclonedx.json"
+koFiles=""
+ignoredFiles="gwt-commons-lang3-3.17.0-0.spdx.rdf.xml"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
