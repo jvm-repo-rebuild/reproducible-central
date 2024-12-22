@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **5770 releases** of **756 projects**:
+   rebuilding **5772 releases** of **756 projects**:
    - **4227** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 1543 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - 1545 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 756 projects, 654 have at least one fully reproducible release, 102 have none
 
 <!-- END GENERATED INTRO -->
@@ -558,7 +558,7 @@ Its objectives are to provide:
 | | [*.feature.diff](content/org/apache/sling/org.apache.sling.feature.diff/README.md) | 1 | 1 :white_check_mark: |
 | | [*.feature.extension.apiregions](content/org/apache/sling/org.apache.sling.feature.extension.apiregions/README.md) | 9 | 9 :white_check_mark: |
 | | [*.feature.extension.unpack](content/org/apache/sling/org.apache.sling.feature.extension.unpack/README.md) | 2 | 2 :warning: |
-| | [*.feature.launcher](content/org/apache/sling/org.apache.sling.feature.launcher/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
+| | [*.feature.launcher](content/org/apache/sling/org.apache.sling.feature.launcher/README.md) | 6 | 2 :white_check_mark: / 4 :warning: |
 | | [*.fsresource](content/org/apache/sling/org.apache.sling.fsresource/README.md) | 1 | 1 :white_check_mark: |
 | | [*.hc.support](content/org/apache/sling/org.apache.sling.hc.support/README.md) | 2 | 2 :warning: |
 | | [*.i18n](content/org/apache/sling/org.apache.sling.i18n/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
@@ -581,7 +581,7 @@ Its objectives are to provide:
 | | [*.launchpad.test-services](content/org/apache/sling/org.apache.sling.launchpad.test-services/README.md) | 2 | 2 :white_check_mark: |
 | | [*.models.api](content/org/apache/sling/org.apache.sling.models.api/README.md) | 5 | 5 :white_check_mark: |
 | | [*.models.caconfig](content/org/apache/sling/org.apache.sling.models.caconfig/README.md) | 2 | 2 :white_check_mark: |
-| | [*.models.impl](content/org/apache/sling/org.apache.sling.models.impl/README.md) | 10 | 5 :white_check_mark: / 5 :warning: |
+| | [*.models.impl](content/org/apache/sling/org.apache.sling.models.impl/README.md) | 11 | 5 :white_check_mark: / 6 :warning: |
 | | [*.models.jacksonexporter](content/org/apache/sling/org.apache.sling.models.jacksonexporter/README.md) | 3 | 3 :white_check_mark: |
 | | [*.models.validation-impl](content/org/apache/sling/org.apache.sling.models.validation-impl/README.md) | 2 | 2 :white_check_mark: |
 | | [*.pipes](content/org/apache/sling/org.apache.sling.pipes/README.md) | 5 | 5 :warning: |
@@ -779,7 +779,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 5 | 5 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 18 | 1 :white_check_mark: / 17 :warning: |
-| **Count:** | **756** | **5770** | **4227** :white_check_mark: **1543** :warning: |
+| **Count:** | **756** | **5772** | **4227** :white_check_mark: **1545** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -804,7 +804,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn        14
      10 mvn        15
      13 mvn        16
-    476 mvn        17
+    477 mvn        17
       1 mvn        17.0.10
       2 mvn        17.0.11
       1 mvn        17.0.12
@@ -912,7 +912,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      10 mvn-3.9.8  23
       7 mvn-3.9.9   8
       5 mvn-3.9.9  11
-     35 mvn-3.9.9  17
+     36 mvn-3.9.9  17
      30 mvn-3.9.9  21
       4 mvn-3.9.9  22
       1 mvn-3.9.9  23
