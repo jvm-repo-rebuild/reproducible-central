@@ -1,0 +1,53 @@
+1 / 4 target/reference/org.apache.ratis/ratis-resource-bundle-3.1.2.jar ratis-resource-bundle/target/ratis-resource-bundle-3.1.2.jar
+--- target/reference/org.apache.ratis/ratis-resource-bundle-3.1.2.jar
++++ ratis-resource-bundle/target/ratis-resource-bundle-3.1.2.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 46985 bytes, number of entries: 15
+│ +Zip file size: 46984 bytes, number of entries: 15
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Nov-04 07:06 META-INF/
+│  -rw-r--r--  2.0 unx      357 b- defN 24-Nov-04 07:06 META-INF/MANIFEST.MF
+│ @@ -10,8 +10,8 @@
+│  -rw-r--r--  2.0 unx     2532 b- defN 24-Nov-04 07:06 META-INF/maven/org.apache.ratis/ratis-resource-bundle/pom.xml
+│  -rw-r--r--  2.0 unx       72 b- defN 24-Nov-04 07:06 META-INF/maven/org.apache.ratis/ratis-resource-bundle/pom.properties
+│ -15 files, 179392 bytes uncompressed, 44963 bytes compressed:  74.9%
+│ +15 files, 179392 bytes uncompressed, 44962 bytes compressed:  74.9%
+├── META-INF/maven/remote-resources.xml
+│ ├── META-INF/maven/remote-resources.xml
+│ │┄ Ordering differences only
+│ │ @@ -1,8 +1,8 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <remoteResourcesBundle xmlns="http://maven.apache.org/remote-resources/1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/remote-resources/1.1.0 https://maven.apache.org/xsd/remote-resources-1.1.0.xsd">
+│ │    <remoteResources>
+│ │ -    <remoteResource>META-INF/LICENSE.vm</remoteResource>
+│ │      <remoteResource>META-INF/NOTICE.vm</remoteResource>
+│ │ +    <remoteResource>META-INF/LICENSE.vm</remoteResource>
+│ │    </remoteResources>
+│ │    <sourceEncoding>UTF-8</sourceEncoding>
+│ │  </remoteResourcesBundle>
+
+2 / 4 target/reference/org.apache.ratis/ratis-assembly-3.1.2-bin.tar.gz ratis-assembly/target/ratis-assembly-3.1.2-bin.tar.gz
+--- target/reference/org.apache.ratis/ratis-assembly-3.1.2-bin.tar.gz
++++ ratis-assembly/target/ratis-assembly-3.1.2-bin.tar.gz
+├── ratis-assembly-3.1.2-bin.tar
+│ ├── file list
+│ │ @@ -25,15 +25,15 @@
+│ │  -rwxr-xr-x   0 root         (0) root         (0)      922 2024-11-04 07:06:57.000000 apache-ratis-3.1.2-bin/examples/bin/stop-all.sh
+│ │  -rw-r--r--   0 root         (0) root         (0)      968 2024-11-04 07:06:57.000000 apache-ratis-3.1.2-bin/examples/conf/conf.properties
+│ │  -rw-r--r--   0 root         (0) root         (0)     1181 2024-11-04 07:06:57.000000 apache-ratis-3.1.2-bin/examples/conf/log4j.properties
+│ │  -rw-r--r--   0 root         (0) root         (0)    99698 2024-11-04 07:06:57.000000 apache-ratis-3.1.2-bin/jars/ratis-server-api-3.1.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    18663 2024-11-04 07:06:57.000000 apache-ratis-3.1.2-bin/jars/ratis-metrics-api-3.1.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    20895 2024-11-04 07:06:57.000000 apache-ratis-3.1.2-bin/jars/ratis-metrics-default-3.1.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   484032 2024-11-04 07:06:57.000000 apache-ratis-3.1.2-bin/jars/ratis-server-3.1.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    46985 2024-11-04 07:06:57.000000 apache-ratis-3.1.2-bin/jars/ratis-resource-bundle-3.1.2.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)    46984 2024-11-04 07:06:57.000000 apache-ratis-3.1.2-bin/jars/ratis-resource-bundle-3.1.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   156486 2024-11-04 07:06:57.000000 apache-ratis-3.1.2-bin/jars/ratis-grpc-3.1.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   134175 2024-11-04 07:06:57.000000 apache-ratis-3.1.2-bin/jars/ratis-netty-3.1.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    67863 2024-11-04 07:06:57.000000 apache-ratis-3.1.2-bin/jars/ratis-shell-3.1.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)     7352 2024-11-04 07:06:57.000000 apache-ratis-3.1.2-bin/jars/ratis-test-3.1.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    12128 2024-11-04 07:06:57.000000 apache-ratis-3.1.2-bin/jars/ratis-tools-3.1.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)     7585 2024-11-04 07:06:57.000000 apache-ratis-3.1.2-bin/jars/ratis-replicated-map-3.1.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    21377 2024-11-04 07:06:57.000000 apache-ratis-3.1.2-bin/jars/ratis-metrics-dropwizard3-3.1.2.jar
+
+3 / 4 target/reference/org.apache.ratis/ratis-assembly-3.1.2-cyclonedx.xml ratis-assembly/target/bom.xml
+4 / 4 target/reference/org.apache.ratis/ratis-assembly-3.1.2-cyclonedx.json ratis-assembly/target/bom.json
