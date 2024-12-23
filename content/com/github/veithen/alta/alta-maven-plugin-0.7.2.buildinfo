@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Alta Maven Plugin
+group-id=com.github.veithen.alta
+artifact-id=alta-maven-plugin
+version=0.7.2
+
+# source information
+source.scm.uri=scm:git:http://github.com/veithen/alta.git
+source.scm.tag=0.7.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.github.veithen.alta
+outputs.0.filename=alta-maven-plugin-0.7.2.pom
+outputs.0.length=10590
+outputs.0.checksums.sha512=ed3e62d160d18e059818951691d59f507cd999b3518bd64bf063410b1f454c467790ba4c871d156390857052a683f8ca510d40e19163d0cfcc90e16bac99da94
+
+outputs.1.groupId=com.github.veithen.alta
+outputs.1.filename=alta-maven-plugin-0.7.2.jar
+outputs.1.length=33942
+outputs.1.checksums.sha512=b4ca4ac34116a442ebc392f610345a15335bca5c597fada9aa35ff19e0451e8e72c1a29ab7336d415ac78e406aebb5e94498fe151b9605edf12c64650533bda1
+
+outputs.2.groupId=com.github.veithen.alta
+outputs.2.filename=alta-maven-plugin-0.7.2-sources.jar
+outputs.2.length=26803
+outputs.2.checksums.sha512=2e55a227c11ee39ff0a1fa2bee6e7d1fe3b4c659c79b6d827d201a17a17406a2cf1a353e32d191cc6312a20d8b1a23ab38b38b0e3b3b768e49de8759ff177afc
+
+outputs.3.groupId=com.github.veithen.alta
+outputs.3.filename=alta-maven-plugin-0.7.2-source-release.zip
+outputs.3.length=77351
+outputs.3.checksums.sha512=f130df7a0fafd5cac65b418aebf24a87d268d38ef675d74692d84eb6ad120f13109d0b842a2751bb23160cafdf35c29ac7fcb7bc0a1e32358dfee2add0ac7e93
