@@ -1,0 +1,8 @@
+version=22
+ok=1
+ko=1
+ignored=0
+okFiles="apache-22.pom"
+koFiles="apache-22-source-release.zip"
+ignoredFiles=""
+# diffoscope target/reference/org.apache/apache-22-source-release.zip target/apache-22-source-release.zip
