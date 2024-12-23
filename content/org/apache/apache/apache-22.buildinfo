@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=The Apache Software Foundation
+group-id=org.apache
+artifact-id=apache
+version=22
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-apache-parent.git
+source.scm.tag=apache-22
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache
+outputs.0.filename=apache-22.pom
+outputs.0.length=18212
+outputs.0.checksums.sha512=d26e29b7cbc757e228a575515ec013fc0bda86f67167e28fd204f6a31d33b54489c4c4889efde83eed33a696e0feb0205f5bfda51e6fbb4a91dbfbcae7a54b73
+
+outputs.1.groupId=org.apache
+outputs.1.filename=apache-22-source-release.zip
+outputs.1.length=18073
+outputs.1.checksums.sha512=8a4a838e3af641520ff61b9655ff0ea4e7f8057bc145fc7ed70fea870831882878f04dfac1f513dd6ce6ce6743119bb38129dddcad020ff4dd68eb962812a7b1
