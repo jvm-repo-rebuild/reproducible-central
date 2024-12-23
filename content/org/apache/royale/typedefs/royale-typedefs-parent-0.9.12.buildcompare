@@ -1,0 +1,15 @@
+version=0.9.12
+ok=27
+ko=8
+ignored=0
+okFiles="royale-typedefs-parent-0.9.12.pom royale-typedefs-parent-0.9.12-source-release.zip royale-typedefs-js-0.9.12.pom royale-typedefs-js-0.9.12-typedefs.swc royale-typedefs-ace-0.9.12.pom royale-typedefs-ace-0.9.12-typedefs.swc royale-typedefs-cordova-0.9.12.pom royale-typedefs-cordova-0.9.12-typedefs.swc royale-typedefs-createjs-0.9.12.pom royale-typedefs-createjs-0.9.12-typedefs.swc royale-typedefs-gcl-0.9.12.pom royale-typedefs-gcl-0.9.12-typedefs.swc royale-typedefs-gcl-0.9.12-sources.jar royale-typedefs-googlemaps-0.9.12.pom royale-typedefs-googlemaps-0.9.12-typedefs.swc royale-typedefs-jasmine-0.9.12.pom royale-typedefs-jasmine-0.9.12-typedefs.swc royale-typedefs-jquery-0.9.12.pom royale-typedefs-jquery-0.9.12-typedefs.swc royale-typedefs-node-0.9.12.pom royale-typedefs-node-0.9.12-typedefs.swc royale-typedefs-airglobal-0.9.12.pom royale-typedefs-airglobal-0.9.12-swf.swc royale-typedefs-airglobal-0.9.12-sources.jar royale-typedefs-playerglobal-0.9.12.pom royale-typedefs-playerglobal-0.9.12-swf.swc royale-typedefs-playerglobal-0.9.12-sources.jar"
+koFiles="royale-typedefs-js-0.9.12-sources.jar royale-typedefs-ace-0.9.12-sources.jar royale-typedefs-cordova-0.9.12-sources.jar royale-typedefs-createjs-0.9.12-sources.jar royale-typedefs-googlemaps-0.9.12-sources.jar royale-typedefs-jasmine-0.9.12-sources.jar royale-typedefs-jquery-0.9.12-sources.jar royale-typedefs-node-0.9.12-sources.jar"
+ignoredFiles=""
+# diffoscope target/reference/org.apache.royale.typedefs/royale-typedefs-js-0.9.12-sources.jar js/target/royale-typedefs-js-0.9.12-sources.jar
+# diffoscope target/reference/org.apache.royale.typedefs/royale-typedefs-ace-0.9.12-sources.jar ace/target/royale-typedefs-ace-0.9.12-sources.jar
+# diffoscope target/reference/org.apache.royale.typedefs/royale-typedefs-cordova-0.9.12-sources.jar cordova/target/royale-typedefs-cordova-0.9.12-sources.jar
+# diffoscope target/reference/org.apache.royale.typedefs/royale-typedefs-createjs-0.9.12-sources.jar createjs/target/royale-typedefs-createjs-0.9.12-sources.jar
+# diffoscope target/reference/org.apache.royale.typedefs/royale-typedefs-googlemaps-0.9.12-sources.jar google_maps/target/royale-typedefs-googlemaps-0.9.12-sources.jar
+# diffoscope target/reference/org.apache.royale.typedefs/royale-typedefs-jasmine-0.9.12-sources.jar jasmine/target/royale-typedefs-jasmine-0.9.12-sources.jar
+# diffoscope target/reference/org.apache.royale.typedefs/royale-typedefs-jquery-0.9.12-sources.jar jquery/target/royale-typedefs-jquery-0.9.12-sources.jar
+# diffoscope target/reference/org.apache.royale.typedefs/royale-typedefs-node-0.9.12-sources.jar node/target/royale-typedefs-node-0.9.12-sources.jar
