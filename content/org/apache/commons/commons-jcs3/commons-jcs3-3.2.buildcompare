@@ -1,0 +1,9 @@
+version=3.2
+ok=38
+ko=0
+ignored=0
+okFiles="commons-jcs3-3.2.pom commons-jcs3-3.2-site.xml commons-jcs3-3.2-cyclonedx.xml commons-jcs3-3.2-cyclonedx.json commons-jcs3-core-3.2.pom commons-jcs3-core-3.2.jar commons-jcs3-core-3.2-tests.jar commons-jcs3-core-3.2-sources.jar commons-jcs3-core-3.2-test-sources.jar commons-jcs3-core-3.2-cyclonedx.xml commons-jcs3-core-3.2-cyclonedx.json commons-jcs3-jcache-3.2.pom commons-jcs3-jcache-3.2.jar commons-jcs3-jcache-3.2-tests.jar commons-jcs3-jcache-3.2-cdi.jar commons-jcs3-jcache-3.2-nocdi.jar commons-jcs3-jcache-3.2-sources.jar commons-jcs3-jcache-3.2-test-sources.jar commons-jcs3-jcache-3.2-cyclonedx.xml commons-jcs3-jcache-3.2-cyclonedx.json commons-jcs3-jcache-tck-3.2.pom commons-jcs3-jcache-tck-3.2.jar commons-jcs3-jcache-tck-3.2-cyclonedx.xml commons-jcs3-jcache-tck-3.2-cyclonedx.json commons-jcs3-jcache-extras-3.2.pom commons-jcs3-jcache-extras-3.2.jar commons-jcs3-jcache-extras-3.2-tests.jar commons-jcs3-jcache-extras-3.2-sources.jar commons-jcs3-jcache-extras-3.2-test-sources.jar commons-jcs3-jcache-extras-3.2-cyclonedx.xml commons-jcs3-jcache-extras-3.2-cyclonedx.json commons-jcs3-jcache-openjpa-3.2.pom commons-jcs3-jcache-openjpa-3.2.jar commons-jcs3-jcache-openjpa-3.2-tests.jar commons-jcs3-jcache-openjpa-3.2-sources.jar commons-jcs3-jcache-openjpa-3.2-test-sources.jar commons-jcs3-jcache-openjpa-3.2-cyclonedx.xml commons-jcs3-jcache-openjpa-3.2-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
