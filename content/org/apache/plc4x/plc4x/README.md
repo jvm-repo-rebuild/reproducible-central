@@ -113,13 +113,13 @@ Source code: [https://github.com/apache/plc4x.git](https://github.com/apache/plc
 * [org.apache.plc4x:plc4x-tools](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-tools/overview)
 </details>
 
-rebuilding **3 releases** of org.apache.plc4x:plc4x-parent:
+rebuilding **4 releases** of org.apache.plc4x:plc4x-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.12.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.12.0/pom) | | | |
+| [0.12.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.12.0/pom) | [mvn jdk11](plc4x-0.12.0.buildspec) | :x: | |
 | [0.11.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.11.0/pom) | [mvn jdk20](plc4x-0.11.0.buildspec) | [result](plc4x-parent-0.11.0.buildinfo): [231 :white_check_mark:  79 :warning:](plc4x-parent-0.11.0.buildcompare) [:mag:](plc4x-parent-0.11.0.diffoscope) [:memo:](https://github.com/apache/plc4x/pull/1202) | 301M |
 | [0.10.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.10.0/pom) | [mvn jdk19](plc4x-0.10.0.buildspec) | [result](plc4x-parent-0.10.0.buildinfo): [138 :white_check_mark:  66 :warning:](plc4x-parent-0.10.0.buildcompare) [:mag:](plc4x-parent-0.10.0.diffoscope) [:memo:](https://github.com/apache/plc4x/pull/1202) | 212M |
 | [0.9.1](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.9.1/pom) | | | |

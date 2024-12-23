@@ -1,3 +1,4 @@
-content/dev/langchain4j/langchain4j-0.36.2.buildspec:1.0.0-alpha1
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-18.buildspec:11.1.1-beta-19
-content/io/cucumber/query/query-13.0.2.buildspec:13.0.3
+content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.13.buildspec:0.82.14
+content/org/apache/mina/mina-2.2.3.buildspec:2.2.4
+content/org/eclipse/jetty/jetty-project/jetty-project-12.1.0.alpha0.buildspec:12.1.0.alpha1
+content/org/jpmml/jpmml-python/jpmml-python-1.2.6.buildspec:1.2.7
