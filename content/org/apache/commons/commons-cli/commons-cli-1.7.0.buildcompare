@@ -1,0 +1,10 @@
+version=1.7.0
+ok=6
+ko=1
+ignored=1
+okFiles="commons-cli-1.7.0.pom commons-cli-1.7.0.jar commons-cli-1.7.0-tests.jar commons-cli-1.7.0-sources.jar commons-cli-1.7.0-cyclonedx.xml commons-cli-1.7.0-cyclonedx.json"
+koFiles="commons-cli-1.7.0-test-sources.jar"
+ignoredFiles="commons-cli-1.7.0.spdx.json"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/commons-cli/commons-cli-1.7.0-test-sources.jar target/commons-cli-1.7.0-test-sources.jar
