@@ -7,19 +7,22 @@
 
 Source code: [https://github.com/jflex-de/jflex.git](https://github.com/jflex-de/jflex.git)
 
-<details><summary>This project defines 3 modules:</summary>
+<details><summary>This project defines 5 modules:</summary>
 
+* [de.jflex:benchmark](https://central.sonatype.com/artifact/de.jflex/benchmark/overview)
+* [de.jflex:cup-maven-plugin](https://central.sonatype.com/artifact/de.jflex/cup-maven-plugin/overview)
 * [de.jflex:jflex](https://central.sonatype.com/artifact/de.jflex/jflex/overview)
 * [de.jflex:jflex-maven-plugin](https://central.sonatype.com/artifact/de.jflex/jflex-maven-plugin/overview)
 * [de.jflex:jflex-parent](https://central.sonatype.com/artifact/de.jflex/jflex-parent/overview)
 </details>
 
-rebuilding **1 releases** of de.jflex:jflex-parent:
+rebuilding **2 releases** of de.jflex:jflex-parent:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [1.9.1](https://central.sonatype.com/artifact/de.jflex/jflex-parent/1.9.1/pom) | [mvn jdk11](jflex-1.9.1.buildspec) | [result](jflex-parent-1.9.1.buildinfo): [8 :white_check_mark: ](jflex-parent-1.9.1.buildcompare) | 4.3M |
+| [1.9.0](https://central.sonatype.com/artifact/de.jflex/jflex-parent/1.9.0/pom) | [mvn jdk19](jflex-1.9.0.buildspec) | [result](jflex-parent-1.9.0.buildinfo): [12 :white_check_mark:  2 :warning:](jflex-parent-1.9.0.buildcompare) | 4.4M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
