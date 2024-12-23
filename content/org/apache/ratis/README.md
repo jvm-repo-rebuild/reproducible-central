@@ -31,9 +31,9 @@ Source code: [https://github.com/apache/ratis.git](https://github.com/apache/rat
 * [org.apache.ratis:ratis-tools](https://central.sonatype.com/artifact/org.apache.ratis/ratis-tools/overview)
 </details>
 
-rebuilding **6 releases** of org.apache.ratis:ratis:
+rebuilding **7 releases** of org.apache.ratis:ratis:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -43,5 +43,6 @@ rebuilding **6 releases** of org.apache.ratis:ratis:
 | [3.0.1](https://central.sonatype.com/artifact/org.apache.ratis/ratis/3.0.1/pom) | [mvn jdk8](ratis-3.0.1.buildspec) | [result](ratis-3.0.1.buildinfo): [52 :white_check_mark:  20 :warning:](ratis-3.0.1.buildcompare) [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) | 83M |
 | [3.0.0](https://central.sonatype.com/artifact/org.apache.ratis/ratis/3.0.0/pom) | [mvn jdk8](ratis-3.0.0.buildspec) | [result](ratis-3.0.0.buildinfo): [52 :white_check_mark:  20 :warning:](ratis-3.0.0.buildcompare) [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) | 84M |
 | [2.5.1](https://central.sonatype.com/artifact/org.apache.ratis/ratis/2.5.1/pom) | [mvn jdk8](ratis-2.5.1.buildspec) | [result](ratis-2.5.1.buildinfo): [46 :white_check_mark:  18 :warning:](ratis-2.5.1.buildcompare) [:mag:](ratis-2.5.1.diffoscope) [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) | 81M |
+| [2.5.0](https://central.sonatype.com/artifact/org.apache.ratis/ratis/2.5.0/pom) | [mvn jdk8](ratis-2.5.0.buildspec) | [result](ratis-2.5.0.buildinfo): [46 :white_check_mark:  19 :warning:](ratis-2.5.0.buildcompare) [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) | 81M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
