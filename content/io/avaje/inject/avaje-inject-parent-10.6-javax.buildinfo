@@ -27,7 +27,7 @@ outputs.0.coordinates=io.avaje:avaje-inject-parent
 outputs.0.0.groupId=io.avaje
 outputs.0.0.filename=avaje-inject-parent-10.6-javax.pom
 outputs.0.0.length=2462
-outputs.0.0.checksums.sha512=519e905c1f63bed71489807e1dcc5a34c4c9ed624d6994ada37c3e6bf117a32b6f1e6c7c7d452e7d3e6044a3d0ffad1d2bdf1792187aee02881e4a86fab944e6
+outputs.0.0.checksums.sha512=4e2fd7189efc7ac74f0c9cece77d1f3a0d51e7bfa7dce8f8ac53dc2d23078f774f647b1f5d53b1f5169009747d0ef2e0da7ddd45dca9b1fce4cb3230c51bb993
 
 outputs.1.coordinates=io.avaje:avaje-inject-aop
 
@@ -39,12 +39,12 @@ outputs.1.0.checksums.sha512=b893ab96e1e9097deff305b17305a1012a9d5befad19078fa39
 outputs.1.1.groupId=io.avaje
 outputs.1.1.filename=avaje-inject-aop-10.6-javax.jar
 outputs.1.1.length=10747
-outputs.1.1.checksums.sha512=707572d892ca3171469da30355a2d7adcb7ea284f822f782a5a35e1b6a521a290a7686133a6e658e1313bbce7fdc21181848f20c41c94d52f6d7a38efc094cae
+outputs.1.1.checksums.sha512=4460e430f8c25e2585b1f8f7ad9e12424bcfafc99012e624e91d1629fc9eb9d975a8ef571f5e3db55afee1599379678f9fdb1f1c639723724ea7e988d678beb7
 
 outputs.1.2.groupId=io.avaje
 outputs.1.2.filename=avaje-inject-aop-10.6-javax-sources.jar
 outputs.1.2.length=6866
-outputs.1.2.checksums.sha512=8bf9f5b1a350e5d23e3a0604e3e3867bcd11e5de0c9d25e155db0040d6f7554630c122bf544b83efac5031fb0a173e3196073c1ba68dabb90f770254636ac382
+outputs.1.2.checksums.sha512=b3377dd44a700cfaa3d378bf05e7d58a786bea6f094e26b3892a0bf6c59871dd7b66570fba5f7063ecc44099abec09fb47c11dd7bb150d888edd1bcdd00b9b8b
 
 outputs.2.coordinates=io.avaje:avaje-inject-events
 
@@ -56,12 +56,12 @@ outputs.2.0.checksums.sha512=c235bb961961f97d0711efc11f1e7d8baa0dc7fada97ed11a96
 outputs.2.1.groupId=io.avaje
 outputs.2.1.filename=avaje-inject-events-10.6-javax.jar
 outputs.2.1.length=9401
-outputs.2.1.checksums.sha512=2a7fd39828dd5b960f823bd4debc339b45e87677420e37abaa0c1ca4c6d0a17572135bcfc8f8ba06749b7facba8eaf23f7ba08e0a5b500f84b5fb833d0edfd04
+outputs.2.1.checksums.sha512=ece470858fbd8e03cd86a51bb3c8ef4ce2efefacf06da68eaff8c473eb2479f11307bb0ffd352fedd20bd8b084b9e711022b4e2d27b96f0e4a4b1293f86ec60b
 
 outputs.2.2.groupId=io.avaje
 outputs.2.2.filename=avaje-inject-events-10.6-javax-sources.jar
 outputs.2.2.length=7441
-outputs.2.2.checksums.sha512=be2bdc40c9fabee811afd757d74e589b63b23184f54d0ed8a7e3e450868ae5c8aa9d4967776726146c0fa55d7b9f0e1918781874fc0a422b9bcaeb35da503df6
+outputs.2.2.checksums.sha512=de0bfd7dd7e50d86eb352c7e9f4dd34e9b9ae912832a0b0d1442d15a5227d6cfdd5d6b63548812b65bf51d2fe1b867ccc1a4e16fcb534b2cc6f8a9096cf11f21
 
 outputs.3.coordinates=io.avaje:avaje-inject
 
@@ -73,12 +73,12 @@ outputs.3.0.checksums.sha512=0bfdb8caf3eb311c3d101ee896aa96f3b932e3c229a5633d654
 outputs.3.1.groupId=io.avaje
 outputs.3.1.filename=avaje-inject-10.6-javax.jar
 outputs.3.1.length=81777
-outputs.3.1.checksums.sha512=ed02fca4bcf8b5a102a42ddd8b8ae629821d1b2ccf037ff31aa2f1ef8b6675362144baf7af1218df02ead3f6dd005d62f2aeb04bc688d756e8b0dd432bf0d15e
+outputs.3.1.checksums.sha512=e37cb15bb92df54cdfdcb1c2bef2f5f8b354fa3aa37838543b0d8e63727e2f1fdb89619d85dc966aa30115022ad511a94c67267affb5eb3c8f2cab26ac40f18a
 
 outputs.3.2.groupId=io.avaje
 outputs.3.2.filename=avaje-inject-10.6-javax-sources.jar
 outputs.3.2.length=56198
-outputs.3.2.checksums.sha512=700cc2c1f8349f7fe55bf5621bd7e57c49f8b8322c209f186f3b5e6175061574968ea566e1ea87b6afaf50cd0951fa0d5cde70d5072a78e5c8edf1631f33173e
+outputs.3.2.checksums.sha512=aa0edc3a41fcdbd33e9261788d918cc27ae6a1aeb0cf5213c9952fe32451861669f97c5dec20dde11926cbf91d30572a0ef47a14b4bc80cc2a9a7f6adc8cf12d
 
 outputs.4.coordinates=io.avaje:avaje-inject-generator
 
@@ -90,12 +90,12 @@ outputs.4.0.checksums.sha512=72d42e23faae5a0a8cad7f6570f7794e7adb36a3d8221c3fe8f
 outputs.4.1.groupId=io.avaje
 outputs.4.1.filename=avaje-inject-generator-10.6-javax.jar
 outputs.4.1.length=359200
-outputs.4.1.checksums.sha512=e5e6c4eb640b47e9dc1e826ca1cfcc27f11aab904b7efbb34d46c2bb363612d3dcde2c7a10f53277dbd4da6176860944eaa95f9efef98552eae7bd030d52261d
+outputs.4.1.checksums.sha512=16f958f126157685c2570b2ac134c92df4103671df220be2b2f64160f837a41ba38263d6ebc12c0c697328fda274c53b9466e2cde7778a7459ca92530b849dae
 
 outputs.4.2.groupId=io.avaje
 outputs.4.2.filename=avaje-inject-generator-10.6-javax-sources.jar
 outputs.4.2.length=173577
-outputs.4.2.checksums.sha512=d364d8a221ea871d96b46d645e6ad0a7bd4060e4ca9c7c022dd527e3e7d299808a8730643ce793f7f7683cbfa6dbc548cd49a63643052039b7d8e44a9bac6ae7
+outputs.4.2.checksums.sha512=19c842458843ac791a0fd9a079ce2794621d1fd2d81082dba3c894961fb685813a2db00f9e831e0d9d7659132c53b480e1c4112686edac04d8735385c5cacc64
 
 outputs.5.coordinates=io.avaje:avaje-inject-test
 
@@ -107,12 +107,12 @@ outputs.5.0.checksums.sha512=a0c9385bf4bc7afc0f858e124cb1e9305594ec44beccfeca2a3
 outputs.5.1.groupId=io.avaje
 outputs.5.1.filename=avaje-inject-test-10.6-javax.jar
 outputs.5.1.length=27727
-outputs.5.1.checksums.sha512=713c5cae431ab2b3d3fa25e0e8d4efc5d240e3456403c90f518ad134dc415c4d7f0e3aa131100ea194c1dcf6e3b0db147606b3db776236a92768a8aec8edf515
+outputs.5.1.checksums.sha512=aed613741f39c2b87bc7ffb952950f385eb9ebf8cf4d5b845b8f890c792baf541d70887a5778810f85d36857b04c162182b53f42ac7c081034b70bc88aacfca9
 
 outputs.5.2.groupId=io.avaje
 outputs.5.2.filename=avaje-inject-test-10.6-javax-sources.jar
 outputs.5.2.length=15737
-outputs.5.2.checksums.sha512=52ffdaca63730d17b64d22896e01e6904c9d5d2197f0ec3b073ba2d85cfba232e28d42a67fba0dbefd9e3aab9b8a3c45d87246b78e81c5953e10e4e2fa8d7e5c
+outputs.5.2.checksums.sha512=00f23efa3f605909ef08b7c637bdd0142d8bad5034b507125d501e584373f8316511b2463cf7d60cc2bcd2bf7e9b15f7a6fcd63bf68a0d77d0cab6358320bb40
 
 outputs.6.coordinates=io.avaje:avaje-inject-maven-plugin
 
@@ -124,9 +124,9 @@ outputs.6.0.checksums.sha512=664b3da3af0ff2e6bdce3a042e7ae492909ecb94f9193d9ee33
 outputs.6.1.groupId=io.avaje
 outputs.6.1.filename=avaje-inject-maven-plugin-10.6-javax.jar
 outputs.6.1.length=9618
-outputs.6.1.checksums.sha512=c1764e6f08d2f21a32c98a890bf2d2b5146a828340161c43552dbc4bc75c3c7af1cd827f1bbcb42653d2786b52786943b2a0e62c1b78f36dec7b548aa84669e6
+outputs.6.1.checksums.sha512=3e79c3c8dfced7a67ac8a1a6df06d636720d85dd711c42b4095b9376ef631b69ac83171b580003195d1baa93243c58622a6f9e59399aee88755c9a7d27662027
 
 outputs.6.2.groupId=io.avaje
 outputs.6.2.filename=avaje-inject-maven-plugin-10.6-javax-sources.jar
 outputs.6.2.length=4942
-outputs.6.2.checksums.sha512=829a15a7df6f4e4b95d829cacaf09aea6098a1f726b407ea265852ada683348d63b3a6eab526d536cfb6f4ea4eadd1b66638463d196169c02a791dc9203788c6
+outputs.6.2.checksums.sha512=68de20c2359c349a649da10ae79b0c00c8efd80090139b5dbc954a8335767bf9c8840eac4bf50f6275f3ce639db920eafcfc7acae3f718b059572751a2683dac
