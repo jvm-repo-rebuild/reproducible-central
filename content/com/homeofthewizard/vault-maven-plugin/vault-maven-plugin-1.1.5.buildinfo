@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Vault Maven Plugin
+group-id=com.homeofthewizard
+artifact-id=vault-maven-plugin
+version=1.1.5
+
+# source information
+source.scm.uri=scm:git:git@github.com:homeofthewizard/vault-maven-plugin
+source.scm.tag=vault-maven-plugin-1.1.5
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.homeofthewizard
+outputs.0.filename=vault-maven-plugin-1.1.5.pom
+outputs.0.length=24750
+outputs.0.checksums.sha512=caddbf809967b73f66849ca0529f0e0c4a0c08f95c7a8150bb35346153f50b3bf4790ddbb5fc72a0cf8907ab19e87f7654b64e1d209fa140c314a68576c469d1
+
+outputs.1.groupId=com.homeofthewizard
+outputs.1.filename=vault-maven-plugin-1.1.5.jar
+outputs.1.length=34616
+outputs.1.checksums.sha512=beeec30d15c252bbc4ad1b40d44d91ca5d83ac1173316a411403f8973782c897e1b34f81c26c43c94e0c0a50a6fae3db0ff4ead6f45ff566562dcff6a42b09cc
+
+outputs.2.groupId=com.homeofthewizard
+outputs.2.filename=vault-maven-plugin-1.1.5-sources.jar
+outputs.2.length=24335
+outputs.2.checksums.sha512=c7f5fd8a394485340a973198a135e19256341febc33c4bf3b19df16e733066dc522e98ece5cf0bfd75d5018e80fb5c58bcc3b4eb494359054c58727fea2678b0
