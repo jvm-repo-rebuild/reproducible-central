@@ -1,0 +1,11 @@
+version=1.9.0
+ok=12
+ko=2
+ignored=0
+okFiles="jflex-parent-1.9.0.pom jflex-parent-1.9.0-site.xml cup-maven-plugin-1.3.pom cup-maven-plugin-1.3-sources.jar jflex-1.9.0.pom jflex-1.9.0.jar jflex-1.9.0-sources.jar jflex-maven-plugin-1.9.0.pom jflex-maven-plugin-1.9.0.jar jflex-maven-plugin-1.9.0-sources.jar benchmark-1.9.0.pom benchmark-1.9.0-sources.jar"
+koFiles="cup-maven-plugin-1.3.jar benchmark-1.9.0.jar"
+ignoredFiles=""
+reference_java_version="19 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/de.jflex/cup-maven-plugin-1.3.jar cup-maven-plugin/target/cup-maven-plugin-1.3.jar
+# diffoscope target/reference/de.jflex/benchmark-1.9.0.jar benchmark/target/benchmark-1.9.0.jar
