@@ -19,7 +19,7 @@ os.name=Unix
 
 # Maven rebuild instructions and effective environment
 mvn.minimum.version=3.5.0
-mvn.aggregate.artifact-id=mina-http
+mvn.aggregate.artifact-id=mina-transport-serial
 
 # aggregated output
 
@@ -146,8 +146,8 @@ outputs.7.0.checksums.sha512=ab0afcb9f2f0f2cf13a55083cc058b8d11a4bf6506e64f1ed95
 
 outputs.7.1.groupId=org.apache.mina
 outputs.7.1.filename=mina-integration-xbean-2.1.9.jar
-outputs.7.1.length=41327
-outputs.7.1.checksums.sha512=621de0e3f64845df92f296ea4d0947fb6976d120dc9e783f296c10924163e8478ddb3c7428a746a8745511606dd0617b18288318c339953df054599a359e2d9a
+outputs.7.1.length=41329
+outputs.7.1.checksums.sha512=27d256a1015e790d25acfe6b31158b980e03f1235a8a91313a4907c6e69da4de4d926f19fb18acb7ce6e042a2aad7844a82f76ef7112e88a5d282a8097759a2f
 
 outputs.7.2.groupId=org.apache.mina
 outputs.7.2.filename=mina-integration-xbean-2.1.9.xsd
@@ -161,8 +161,8 @@ outputs.7.3.checksums.sha512=be2d9f281d54202f022c214d4bf5afedba68f6abf53d7fdbf94
 
 outputs.7.4.groupId=org.apache.mina
 outputs.7.4.filename=mina-integration-xbean-2.1.9-sources.jar
-outputs.7.4.length=42494
-outputs.7.4.checksums.sha512=9bdbadaf52d2f13b429deb5f973620a4d2a1da22239524f91a2a66264e8b28289573044bedab0068c9e88f51957854c6d8467594c7916f1a22a64b0b30f35ae5
+outputs.7.4.length=42496
+outputs.7.4.checksums.sha512=19c5b224a2419e3cf7e8610efcbd53b224e76dfa0c3438104117155d230fdfd015f9ef38e2d455b5599eb391f5ad149f92d86d93953f05408d23d73dd17c5a59
 
 outputs.7.5.groupId=org.apache.mina
 outputs.7.5.filename=mina-integration-xbean-2.1.9.xsd.html
@@ -236,3 +236,20 @@ outputs.11.2.groupId=org.apache.mina
 outputs.11.2.filename=mina-http-2.1.9-sources.jar
 outputs.11.2.length=35506
 outputs.11.2.checksums.sha512=b0d3cafd1d7f1f104ce01bec73062b43c5ae1b80b4621f09e14bce2820f730eac3bb16291a5213e2aec4da82456e8c3208651bc9317606c9bf019099fa43f05c
+
+outputs.12.coordinates=org.apache.mina:mina-transport-serial
+
+outputs.12.0.groupId=org.apache.mina
+outputs.12.0.filename=mina-transport-serial-2.1.9.pom
+outputs.12.0.length=3485
+outputs.12.0.checksums.sha512=570f308654ff25b0e71168ae15642e899f8da36ba9b9ed4508e204d56acd2aaf98096b2231a797f62f18879e616e7db9c19508ad0649a2b3cf88e473771ebeff
+
+outputs.12.1.groupId=org.apache.mina
+outputs.12.1.filename=mina-transport-serial-2.1.9.jar
+outputs.12.1.length=33336
+outputs.12.1.checksums.sha512=ae65cd720ec02e09094cb61a0876ca46275f7a3fa97b1d0dcb09e16871458d615c706148c99302efebdf3b81ce945af35417376de204ec89017f99ecbac15b3c
+
+outputs.12.2.groupId=org.apache.mina
+outputs.12.2.filename=mina-transport-serial-2.1.9-sources.jar
+outputs.12.2.length=21389
+outputs.12.2.checksums.sha512=71132878a780231a4aa6f961810ab96b442bb9c87802de70d9956813eaa4c64abb2dfc029d836cb77ec36f74033bfaafe047c6c4bbe678a31ea2993fb74be775
