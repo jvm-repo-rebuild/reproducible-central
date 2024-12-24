@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Quick SQL test data
+group-id=org.quickperf
+artifact-id=quick-sql-test-data
+version=0.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/quick-perf/quick-sql-test-data.git
+source.scm.tag=quick-sql-test-data-0.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.quickperf
+outputs.0.filename=quick-sql-test-data-0.1.pom
+outputs.0.length=16752
+outputs.0.checksums.sha512=042eb1e24eb279e4e3caf406bedd35144c1083bc9a5ff80d993e1d50a3448409ac99632106912aa66c44ce2204b2a8518dc94f7be7be776ec2296e5ed118572f
+
+outputs.1.groupId=org.quickperf
+outputs.1.filename=quick-sql-test-data-0.1.jar
+outputs.1.length=72464
+outputs.1.checksums.sha512=b1fcde3f813e57ef95dac578d9097292e93da83ef27d622320abfef8bc8f476a2b56a4122f5dd48d00906e0fda98af3b433aa33ca9080134f7436c3fba8fcb98
+
+outputs.2.groupId=org.quickperf
+outputs.2.filename=quick-sql-test-data-0.1-sources.jar
+outputs.2.length=55737
+outputs.2.checksums.sha512=caf5bd31a7948514bd965e131d8b1487d6df83ee90c78307f8c397870cd5d86e4b3b6b00142bb4920ba9762a16ea2eca58f4553bdc6f188d330a56324afc1222
