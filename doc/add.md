@@ -4,12 +4,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241223190103 --> [jpmml-python](../content/org/jpmml/jpmml-python/README.md) | [1.2.6](../content/org/jpmml/jpmml-python/jpmml-python-1.2.6.buildspec) :white_check_mark: | [1.2.7](../content/org/jpmml/jpmml-python/jpmml-python-1.2.7.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-python/jpmml-python-1.2.6.buildspec 1.2.7` |
-| <!-- 20241223183504 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | [12.1.0.alpha0](../content/org/eclipse/jetty/jetty-project/jetty-project-12.1.0.alpha0.buildspec) :white_check_mark: | [12.1.0.alpha1](../content/org/eclipse/jetty/jetty-project/jetty-project-12.1.0.alpha1.buildspec) | `bin/add-new-release.sh content/org/eclipse/jetty/jetty-project/jetty-project-12.1.0.alpha0.buildspec 12.1.0.alpha1` |
-| <!-- 20241223150404 --> [mina-parent](../content/org/apache/mina/README.md) | [2.2.3](../content/org/apache/mina/mina-2.2.3.buildspec) :white_check_mark: | [2.2.4](../content/org/apache/mina/mina-2.2.4.buildspec) | `bin/add-new-release.sh content/org/apache/mina/mina-2.2.3.buildspec 2.2.4` |
-| <!-- 20241223150404 --> [mina-parent](../content/org/apache/mina/README.md) | [2.2.3](../content/org/apache/mina/mina-2.2.3.buildspec) :white_check_mark: | 2.1.10  | `bin/add-new-release.sh content/org/apache/mina/mina-2.2.3.buildspec ...` |
-| <!-- 20241223090539 --> [scg-base](../content/io/telicent/smart-caches/graph/scg-base/README.md) | [0.82.13](../content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.13.buildspec) :white_check_mark: | [0.82.14](../content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.14.buildspec) | `bin/add-new-release.sh content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.13.buildspec 0.82.14` |
-| <!-- 20240610190100 --> [commons-configuration2](../content/org/apache/commons/configuration2/README.md) | [2.11.0](../content/org/apache/commons/configuration2/commons-configuration2-2.11.0.buildspec) :white_check_mark: | 2.10.1  | `bin/add-new-release.sh content/org/apache/commons/configuration2/commons-configuration2-2.11.0.buildspec ...` |
+| <!-- 20241224181800 --> [airbase](../content/io/airlift/airbase/README.md) | [207](../content/io/airlift/airbase/airbase-207.buildspec) :white_check_mark: | [208](../content/io/airlift/airbase/airbase-208.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-207.buildspec 208` |
+| <!-- 20241223221959 --> [flexmonster](../content/org/webjars/flexmonster/README.md) | [2.9.92](../content/org/webjars/flexmonster/flexmonster-2.9.92.buildspec) :white_check_mark: | [2.9.93](../content/org/webjars/flexmonster/flexmonster-2.9.93.buildspec) | `bin/add-new-release.sh content/org/webjars/flexmonster/flexmonster-2.9.92.buildspec 2.9.93` |
+| <!-- 20240620095218 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | [2.5.1](../content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec) :white_check_mark: | 2.5.0 2.4.1 2.4.0 2.3.2 2.3.1 2.3.0 2.2.3 2.2.2 2.2.1 2.1.3 2.1.2 2.1.1 2.1.0  | `bin/add-new-release.sh content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -30,7 +27,7 @@ New Releases To Add
 | -- | ---------- | ---- | -- | ------- |
 | <!-- 20241212071734 --> [:mailbox:](https://lists.apache.org/list?dev@sling.apache.org:lte=1M:VOTE) | [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | [2.11.6](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.6.buildspec) :warning: | [2.11.8](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.8.buildspec)  | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.6.buildspec 2.11.8 staging` |
 | <!-- 20241128032943 --> [:mailbox:](https://lists.apache.org/list?dev@ratis.apache.org:lte=1M:VOTE) | [ratis-thirdparty](../content/org/apache/ratis/ratis-thirdparty/README.md) | [1.0.7](../content/org/apache/ratis/ratis-thirdparty/ratis-thirdparty-1.0.7.buildspec) :white_check_mark: | [1.0.8](../content/org/apache/ratis/ratis-thirdparty/ratis-thirdparty-1.0.8.buildspec)  | `bin/add-new-release.sh content/org/apache/ratis/ratis-thirdparty/ratis-thirdparty-1.0.7.buildspec 1.0.8 staging` |
-| <!-- 20241120141927 --> [:mailbox:](https://lists.apache.org/list?dev@nifi.apache.org:lte=1M:VOTE) | [nifi](../content/org/apache/nifi/nifi/README.md) | [2.0.0](../content/org/apache/nifi/nifi/nifi-2.0.0.buildspec) :warning: | [2.1.0](../content/org/apache/nifi/nifi/nifi-2.1.0.buildspec)  | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-2.0.0.buildspec 2.1.0 staging` |
+| <!-- 20240913092416 --> [:mailbox:](https://lists.apache.org/list?dev@paimon.apache.org:lte=1M:VOTE) | [paimon-parent](../content/org/apache/paimon/README.md) | [0.9.0](../content/org/apache/paimon/paimon-parent-0.9.0.buildspec) :warning: [:memo:](https://github.com/apache/paimon/pull/4190) | [1.0.0](../content/org/apache/paimon/paimon-parent-1.0.0.buildspec)  | `bin/add-new-release.sh content/org/apache/paimon/paimon-parent-0.9.0.buildspec 1.0.0 staging` |
 | <!-- 20230920202802 --> [:mailbox:](https://lists.apache.org/list?dev@wayang.apache.org:lte=1M:VOTE) | [wayang](../content/org/apache/wayang/README.md) | [0.7.1](../content/org/apache/wayang/wayang-0.7.1.buildspec) :white_check_mark: | [1.0.0-RC3](../content/org/apache/wayang/wayang-1.0.0-RC3.buildspec)  | `bin/add-new-release.sh content/org/apache/wayang/wayang-0.7.1.buildspec 1.0.0-RC3 staging` |
 <!-- END GENERATED ADD STAGING -->
 
@@ -39,9 +36,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241223181554 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | [2.10.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.10.0.buildspec) :warning: | [2.11.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.11.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/instrumentation/opentelemetry-2.10.0.buildspec 2.11.0` |
+| <!-- 20241223223827 --> [nifi](../content/org/apache/nifi/nifi/README.md) | [2.0.0](../content/org/apache/nifi/nifi/nifi-2.0.0.buildspec) :warning: | [2.1.0](../content/org/apache/nifi/nifi/nifi-2.1.0.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-2.0.0.buildspec 2.1.0` |
 | <!-- 20241223162912 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.67.9](../content/org/finos/legend/engine/legend-engine-4.67.9.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.67.9` |
-| <!-- 20241222164157 --> [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | [1.1.2](../content/org/jpmml/jpmml-statsmodels/jpmml-statsmodels-1.1.2.buildspec) :warning: [:memo:](https://github.com/jpmml/jpmml-statsmodels/pull/4) | [1.1.3](../content/org/jpmml/jpmml-statsmodels/jpmml-statsmodels-1.1.3.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-statsmodels/jpmml-statsmodels-1.1.2.buildspec 1.1.3` |
 | <!-- 20241221170212 --> [logback-parent](../content/ch/qos/logback/README.md) | [1.5.13](../content/ch/qos/logback/logback-1.5.13.buildspec) :x: | [1.5.15](../content/ch/qos/logback/logback-1.5.15.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/logback-1.5.13.buildspec 1.5.15` |
 | <!-- 20241220140350 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | [5.2.3](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.2.3.buildspec) :x: | [5.3.5](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.3.5.buildspec) | `bin/add-new-release.sh content/io/github/chains-project/maven-lockfile/maven-lockfile-5.2.3.buildspec 5.3.5` |
 | <!-- 20241220093958 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.9.0](../content/org/apache/camel/camel/camel-4.9.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.9.0` |
@@ -66,6 +62,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20241223181554 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | 2.11.0 :warning: |
 | <!-- 20241221111725 --> [org.apache.sling.feature.launcher](../content/org/apache/sling/org.apache.sling.feature.launcher/README.md) | 1.3.2 :warning: |
 | <!-- 20241220140033 --> [org.apache.sling.models.impl](../content/org/apache/sling/org.apache.sling.models.impl/README.md) | 1.7.8 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-models-impl/pull/62) |
 | <!-- 20241219115849 --> [quarkus-project](../content/io/quarkus/README.md) | 3.17.5 :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) |
@@ -87,7 +84,6 @@ New Releases To Add
 | <!-- 20241127152503 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 3.0.4 :warning: |
 | <!-- 20241126142609 --> [mybatis](../content/org/mybatis/mybatis/README.md) | 3.5.17 :warning: |
 | <!-- 20241125131237 --> [crypto-commons](../content/net/osslabz/crypto-commons/README.md) | 0.5.0 :warning: |
-| <!-- 20241120141927 --> [nifi](../content/org/apache/nifi/nifi/README.md) | 2.0.0 :warning: |
 | <!-- 20241120023729 --> [amoro-parent](../content/org/apache/amoro/README.md) | 0.7.1-incubating :warning: |
 | <!-- 20241119151133 --> [org.apache.sling.feature.cpconverter](../content/org/apache/sling/org.apache.sling.feature.cpconverter/README.md) | 1.3.8 :warning: |
 | <!-- 20241114163736 --> [gwt-commons-validator](../content/de/knightsoft-net/gwt-commons-validator/README.md) | 1.9.0-1 :warning: |
@@ -176,6 +172,8 @@ New Releases To Add
 | <!-- 20230204020210 --> [xmlchai](../content/org/jrivard/xmlchai/README.md) | 0.1.3 :warning: |
 | <!-- 20221209232334 --> [watset](../content/org/nlpub/watset/README.md) | 2.8.2 :warning: |
 | <!-- 20221123032956 --> [org.apache.sling.hc.support](../content/org/apache/sling/org.apache.sling.hc.support/README.md) | 1.0.10 :warning: |
+| <!-- 20221107220203 --> [quick-perf-live](../content/org/quickperf/quick-perf-live/README.md) | 0.12 :warning: |
+| <!-- 20221021224206 --> [quick-sql-test-data](../content/org/quickperf/quick-sql-test-data/README.md) | 0.1 :warning: |
 | <!-- 20220916141422 --> [gemLibPki](../content/de/gematik/pki/gemlibpki-old/README.md) | 0.9.3 :warning: |
 | <!-- 20220821195753 --> [org.apache.sling.pipes](../content/org/apache/sling/org.apache.sling.pipes/README.md) | 4.5.0 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-pipes/pull/20) |
 | <!-- 20220720235831 --> [axis2](../content/org/apache/axis2/README.md) | 1.8.2 :warning: |

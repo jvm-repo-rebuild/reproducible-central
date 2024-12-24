@@ -1,4 +1,2 @@
-content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.13.buildspec:0.82.14
-content/org/apache/mina/mina-2.2.3.buildspec:2.2.4
-content/org/eclipse/jetty/jetty-project/jetty-project-12.1.0.alpha0.buildspec:12.1.0.alpha1
-content/org/jpmml/jpmml-python/jpmml-python-1.2.6.buildspec:1.2.7
+content/io/airlift/airbase/airbase-207.buildspec:208
+content/org/webjars/flexmonster/flexmonster-2.9.92.buildspec:2.9.93

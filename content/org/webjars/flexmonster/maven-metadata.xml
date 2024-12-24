@@ -3,8 +3,8 @@
   <groupId>org.webjars</groupId>
   <artifactId>flexmonster</artifactId>
   <versioning>
-    <latest>2.9.92</latest>
-    <release>2.9.92</release>
+    <latest>2.9.93</latest>
+    <release>2.9.93</release>
     <versions>
       <version>2.8.30</version>
       <version>2.8.31</version>
@@ -102,7 +102,8 @@
       <version>2.9.90</version>
       <version>2.9.91</version>
       <version>2.9.92</version>
+      <version>2.9.93</version>
     </versions>
-    <lastUpdated>20241209161019</lastUpdated>
+    <lastUpdated>20241223221959</lastUpdated>
   </versioning>
 </metadata>
