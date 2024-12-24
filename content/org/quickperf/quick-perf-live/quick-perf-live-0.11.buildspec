@@ -1,0 +1,18 @@
+groupId=org.quickperf
+artifactId=quick-perf-live
+version=0.11
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/quick-perf/quickperf-live.git
+gitTag=release-${version}
+
+tool=mvn
+jdk=11
+newline=crlf
+
+command="mvn clean package -Prelease -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
