@@ -1,0 +1,18 @@
+groupId=org.quickperf
+artifactId=quick-sql-test-data
+version=0.1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/quick-perf/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=crlf
+
+command="mvn clean package -Prelease -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
