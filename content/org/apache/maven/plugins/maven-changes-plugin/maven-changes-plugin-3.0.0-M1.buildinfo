@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Changes Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-changes-plugin
+version=3.0.0-M1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-changes-plugin.git
+source.scm.tag=maven-changes-plugin-3.0.0-M1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-changes-plugin-3.0.0-M1.pom
+outputs.0.length=17281
+outputs.0.checksums.sha512=08471e100e608c9cba4c26087046bc134ba056dd69845b25f267cde7c84b6fc87f7fa19be3084c5c9cd21ffeeb36adbd22f2f6fb1b3c0dc2af56cda19f3da1bb
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-changes-plugin-3.0.0-M1.jar
+outputs.1.length=192594
+outputs.1.checksums.sha512=99ffc00937ca8bb11f26100637e137b37d58d8f59a1f1f1a5aaac8b73473048e93eba0d3ebc6ffb02a11c915619c01984f39812bdff0029c4b67b3bc423ff1ff
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-changes-plugin-3.0.0-M1-source-release.zip
+outputs.2.length=291169
+outputs.2.checksums.sha512=bfdb161e2002def69a028e3a7e8332e1f6a8b2ebcad2cabf6be6d83ece12bd24b4706388f30a83ffb48e1cfb8715993aa0a77ecea2f10d8b854ec0dfdd233557
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-changes-plugin-3.0.0-M1-sources.jar
+outputs.3.length=146974
+outputs.3.checksums.sha512=edbfb7e723471bf5661d3c15117af2e2d5d762f61bf8f53efc74b50e783a0e9ec605c53a4de068a22392ac51650a8fad59b9ff34100befa0a77d8d8125879240
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-changes-plugin-3.0.0-M1-cyclonedx.xml
+outputs.4.length=239050
+outputs.4.checksums.sha512=bc672c99b7b7caabfa7eb39400e10e5193ac9a3d83651ef555c39108111d281d6c4bc4188ff4eee2f882aaeaeeb38044c654cfc063d3696f364f9bfef46680e0
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-changes-plugin-3.0.0-M1-cyclonedx.json
+outputs.5.length=276033
+outputs.5.checksums.sha512=70e3a43204b69dfd99d4a31ff44fad1352935d1dbd0cd9db056d06ebf9201a291f538a3189756907d5feec97e3ee277ac926b03c8a8eb2a45886a833f4d9cb7b
