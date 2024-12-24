@@ -7,12 +7,13 @@
 
 Source code: [https://github.com/eclipse/jetty.project.git](https://github.com/eclipse/jetty.project.git)
 
-<details><summary>This project defines 323 modules:</summary>
+<details><summary>This project defines 324 modules:</summary>
 
 * [org.eclipse.jetty.build:build](https://central.sonatype.com/artifact/org.eclipse.jetty.build/build/overview)
 * [org.eclipse.jetty.compression:jetty-compression](https://central.sonatype.com/artifact/org.eclipse.jetty.compression/jetty-compression/overview)
 * [org.eclipse.jetty.compression:jetty-compression-api](https://central.sonatype.com/artifact/org.eclipse.jetty.compression/jetty-compression-api/overview)
 * [org.eclipse.jetty.compression:jetty-compression-brotli](https://central.sonatype.com/artifact/org.eclipse.jetty.compression/jetty-compression-brotli/overview)
+* [org.eclipse.jetty.compression:jetty-compression-common](https://central.sonatype.com/artifact/org.eclipse.jetty.compression/jetty-compression-common/overview)
 * [org.eclipse.jetty.compression:jetty-compression-gzip](https://central.sonatype.com/artifact/org.eclipse.jetty.compression/jetty-compression-gzip/overview)
 * [org.eclipse.jetty.compression:jetty-compression-server](https://central.sonatype.com/artifact/org.eclipse.jetty.compression/jetty-compression-server/overview)
 * [org.eclipse.jetty.compression:jetty-compression-tests](https://central.sonatype.com/artifact/org.eclipse.jetty.compression/jetty-compression-tests/overview)
@@ -334,13 +335,13 @@ Source code: [https://github.com/eclipse/jetty.project.git](https://github.com/e
 * [org.eclipse.jetty:jetty-xml](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-xml/overview)
 </details>
 
-rebuilding **17 releases** of org.eclipse.jetty:jetty-project:
-- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **18 releases** of org.eclipse.jetty:jetty-project:
+- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [12.1.0.alpha1](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.alpha1/pom) | | | |
+| [12.1.0.alpha1](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.alpha1/pom) | [mvn jdk22](jetty-project-12.1.0.alpha1.buildspec) | [result](jetty-project-12.1.0.alpha1.buildinfo): [889 :white_check_mark: ](jetty-project-12.1.0.alpha1.buildcompare) | 308M |
 | [12.1.0.alpha0](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.alpha0/pom) | [mvn jdk22](jetty-project-12.1.0.alpha0.buildspec) | [result](jetty-project-12.1.0.alpha0.buildinfo): [890 :white_check_mark: ](jetty-project-12.1.0.alpha0.buildcompare) | 308M |
 | [12.0.16](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.16/pom) | [mvn jdk22](jetty-project-12.0.16.buildspec) | [result](jetty-project-12.0.16.buildinfo): [767 :white_check_mark: ](jetty-project-12.0.16.buildcompare) | 246M |
 | [12.0.15](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.15/pom) | [mvn jdk22](jetty-project-12.0.15.buildspec) | [result](jetty-project-12.0.15.buildinfo): [767 :white_check_mark: ](jetty-project-12.0.15.buildcompare) | 246M |
