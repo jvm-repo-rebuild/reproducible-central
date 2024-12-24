@@ -1,0 +1,11 @@
+version=0.12
+ok=2
+ko=2
+ignored=0
+okFiles="quick-perf-live-0.12.pom quick-perf-live-springboot2-0.12.pom"
+koFiles="quick-perf-live-springboot2-0.12.jar quick-perf-live-springboot2-0.12-sources.jar"
+ignoredFiles=""
+reference_java_version="11.0.1 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/org.quickperf/quick-perf-live-springboot2-0.12.jar spring-boot-2/target/quick-perf-live-springboot2-0.12.jar
+# diffoscope target/reference/org.quickperf/quick-perf-live-springboot2-0.12-sources.jar spring-boot-2/target/quick-perf-live-springboot2-0.12-sources.jar
