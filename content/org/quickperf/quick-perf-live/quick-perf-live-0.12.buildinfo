@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=QuickPerf live
+group-id=org.quickperf
+artifact-id=quick-perf-live
+version=0.12
+
+# source information
+source.scm.uri=scm:git:https://github.com/quick-perf/quickperf-live.git
+source.scm.tag=release-0.12
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=quick-perf-live-springboot2
+
+# aggregated output
+
+outputs.0.coordinates=org.quickperf:quick-perf-live
+
+outputs.0.0.groupId=org.quickperf
+outputs.0.0.filename=quick-perf-live-0.12.pom
+outputs.0.0.length=10315
+outputs.0.0.checksums.sha512=aa25df948a5cbded4aa7e9423accd94c647527df2810db0216de0b282d8d0da0d12bce15f57a888b8d3d2a385946450ce7fac2ee9e8909ec679570f7698c035b
+
+outputs.1.coordinates=org.quickperf:quick-perf-live-springboot2
+
+outputs.1.0.groupId=org.quickperf
+outputs.1.0.filename=quick-perf-live-springboot2-0.12.pom
+outputs.1.0.length=3691
+outputs.1.0.checksums.sha512=f3acada7d143e09e04b894400412811f07ebd6a6d977417203fa9523566e2046a264cecea58b2606f74bcb76096dfb80db6a719477e094c0950179037315d057
+
+outputs.1.1.groupId=org.quickperf
+outputs.1.1.filename=quick-perf-live-springboot2-0.12.jar
+outputs.1.1.length=67277
+outputs.1.1.checksums.sha512=5268f693df653254c9f983d1c7ade51bf0c062142c7c8c2fe43a37384dd4cb312bc725ef1058e2562c6a7f3e949ba3de33b2ed0fa9553495794f2f3fc58a4c1f
+
+outputs.1.2.groupId=org.quickperf
+outputs.1.2.filename=quick-perf-live-springboot2-0.12-sources.jar
+outputs.1.2.length=53904
+outputs.1.2.checksums.sha512=611291aba500697c972f7a6edab08d782e37128f81aaa310e6790075b41c582ba9bed6e13804971564c33e526acae2bb7e35e9e527f82849dd0e73c27f4905cc
