@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Archiver
+group-id=org.apache.maven.shared
+artifact-id=maven-archiver
+version=4.0.0-beta-3
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-archiver.git
+source.scm.tag=maven-archiver-4.0.0-beta-3
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.maven.shared
+outputs.0.filename=maven-archiver-4.0.0-beta-3.pom
+outputs.0.length=32285
+outputs.0.checksums.sha512=637d7e6717d2eccd0416f23009354005726ebe888b0ab4df8924fea7cc05103fa7f960591ed85161b02a5e29fe31550643dceaf9a207b154975687f394fb93ea
+
+outputs.1.groupId=org.apache.maven.shared
+outputs.1.filename=maven-archiver-4.0.0-beta-3-build.pom
+outputs.1.length=5398
+outputs.1.checksums.sha512=d373ba8347909a08aa4b49c0219ffe18da7502fbbbc1e12faffec87d87741defd20053bb5c50ec4be304b456574b8dd68e5bd3a8704bef4845ce8e264bd6775f
+
+outputs.2.groupId=org.apache.maven.shared
+outputs.2.filename=maven-archiver-4.0.0-beta-3.jar
+outputs.2.length=27352
+outputs.2.checksums.sha512=bc7e520b7430c1479d27a4168447d4271f9d48ce41b0fa04ecc050781dd25b4914006f10c4bb0aa96012a08a4f9bf0d9f320662d4a81e11f75e56962979adb7e
+
+outputs.3.groupId=org.apache.maven.shared
+outputs.3.filename=maven-archiver-4.0.0-beta-3-source-release.zip
+outputs.3.length=138044
+outputs.3.checksums.sha512=e7659c85386b61bf33f5c5f18dc38d17d15f368fd9c78bc0f0ffd0d52242d692260cdae7a5b96655b1ab26d8957725b3a9af44d25fdaddce4bb1d55e32e1f3e3
+
+outputs.4.groupId=org.apache.maven.shared
+outputs.4.filename=maven-archiver-4.0.0-beta-3-sources.jar
+outputs.4.length=24879
+outputs.4.checksums.sha512=92b9da42f41c8952e3a8c01e7a506882c099133e2d1080b71b31a66d36e74dba7270044adb10630cbcae4e501d1b554728f30b0209280f5d10fdcfe55a04aacc
+
+outputs.5.groupId=org.apache.maven.shared
+outputs.5.filename=maven-archiver-4.0.0-beta-3-cyclonedx.xml
+outputs.5.length=54812
+outputs.5.checksums.sha512=91eb0e4c88cb5e8cf8c6d138c7d842aeec5bc93fec987e7afc3dd2c6301c5d97dec8240373351db4800f14a4d72f9adeee124118e11ce63cf8095cab6123747b
+
+outputs.6.groupId=org.apache.maven.shared
+outputs.6.filename=maven-archiver-4.0.0-beta-3-cyclonedx.json
+outputs.6.length=63970
+outputs.6.checksums.sha512=49c80974a204b29fa8fd90ca5a55e54d516fd7deeb331160492a6cba9ca45af2b754d684d3167ba8d074be3072f4f6dfa9f78345ee07c225fa5e203e844bf658
