@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Common Utilities
+group-id=org.codehaus.plexus
+artifact-id=plexus-utils
+version=3.6.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-utils.git
+source.scm.tag=plexus-utils-3.6.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=23
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-utils-3.6.0.pom
+outputs.0.length=7634
+outputs.0.checksums.sha512=977ba421c5ae582ab1fa053f224cbb5b180ffa706256739e254dbe66c8ba42e2431389bd570d433fa5694519fce395134db8dc26f6d185897c3a4effb0420fbc
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-utils-3.6.0.jar
+outputs.1.length=271773
+outputs.1.checksums.sha512=ff2baf6b717bbd6f64b7f82e6e499a6c38e7b55b63fd363894dc08fbc0edfd7d9d05ed7341f391c24ac90f90e6e8fe6469906f9074a01a98a1b0cc65f4a280ee
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-utils-3.6.0-source-release.zip
+outputs.2.length=457381
+outputs.2.checksums.sha512=fef6e82f09e4858096b29041dd4aa79327397eed2bc51fa438b3bd2276bd935407e07316d65c6dcc3362f6ea3ddac237530801166df48f93c00c7533bd56e11f
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-utils-3.6.0-sources.jar
+outputs.3.length=267092
+outputs.3.checksums.sha512=713ae6a336a4ae3f961748a37d5d71138fcce0fe4c98decd0a11c5affec4a004685617020ff370b543c07de6882eb2dc79b17702f30fac3962745a7bcf4ff3c8
