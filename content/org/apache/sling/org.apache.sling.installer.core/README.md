@@ -7,9 +7,9 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-installer-core.git](https://github.com/apache/sling-org-apache-sling-installer-core.git)
 
-rebuilding **6 releases** of org.apache.sling:org.apache.sling.installer.core:
+rebuilding **7 releases** of org.apache.sling:org.apache.sling.installer.core:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -19,5 +19,7 @@ rebuilding **6 releases** of org.apache.sling:org.apache.sling.installer.core:
 | [3.11.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.installer.core/3.11.4/pom) | [mvn jdk8](org.apache.sling.installer.core-3.11.4.buildspec) | [result](org.apache.sling.installer.core-3.11.4.buildinfo): [2 :white_check_mark:  1 :warning:](org.apache.sling.installer.core-3.11.4.buildcompare) | 730K |
 | [3.11.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.installer.core/3.11.2/pom) | [mvn jdk8](org.apache.sling.installer.core-3.11.2.buildspec) | [result](org.apache.sling.installer.core-3.11.2.buildinfo): [2 :white_check_mark:  1 :warning:](org.apache.sling.installer.core-3.11.2.buildcompare) | 781K |
 | [3.11.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.installer.core/3.11.0/pom) | [mvn jdk8](org.apache.sling.installer.core-3.11.0.buildspec) | [result](org.apache.sling.installer.core-3.11.0.buildinfo): [2 :white_check_mark:  1 :warning:](org.apache.sling.installer.core-3.11.0.buildcompare) | 780K |
+| [3.10.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.installer.core/3.10.2/pom) | | | |
+| [3.10.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.installer.core/3.10.0/pom) | [mvn jdk8](org.apache.sling.installer.core-3.10.0.buildspec) | [result](org.apache.sling.installer.core-3.10.0.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.installer.core-3.10.0.buildcompare) [:memo:](https://github.com/apache/sling-org-apache-sling-installer-core/pull/9) | 762K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
