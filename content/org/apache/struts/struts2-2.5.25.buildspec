@@ -1,0 +1,16 @@
+groupId=org.apache.struts
+artifactId=struts2-parent
+display=${groupId}:${artifactId}
+version=2.5.25
+
+gitRepo=https://github.com/apache/struts.git
+gitTag=STRUTS_`echo ${version} | tr . _`
+
+tool=mvn
+jdk=7
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dmaven.antrun.skip -Dassembly.skipAssembly"
+buildinfo=assembly/target/struts2-assembly-${version}.buildinfo
+
+issue=
