@@ -1,0 +1,10 @@
+version=3.10.2
+ok=3
+ko=1
+ignored=0
+okFiles="org.apache.sling.installer.core-3.10.2.pom org.apache.sling.installer.core-3.10.2.jar org.apache.sling.installer.core-3.10.2-source-release.zip"
+koFiles="org.apache.sling.installer.core-3.10.2-sources.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling/org.apache.sling.installer.core-3.10.2-sources.jar target/org.apache.sling.installer.core-3.10.2-sources.jar
