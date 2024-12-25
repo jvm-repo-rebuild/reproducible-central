@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Installer Content Package Support
+group-id=org.apache.sling
+artifact-id=org.apache.sling.installer.factory.packages
+version=1.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-installer-factory-packages.git
+source.scm.tag=org.apache.sling.installer.factory.packages-1.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.installer.factory.packages-1.0.0.pom
+outputs.0.length=3925
+outputs.0.checksums.sha512=350cc7cf0cd546d6ff1ab183b28553158ad7e64e3da05e495746fc2eb173a7a8dbf36b3d164741588f98b532adc6b63a29a3d0433295e47f01069ed67dcee75a
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.installer.factory.packages-1.0.0.jar
+outputs.1.length=26812
+outputs.1.checksums.sha512=8485dbbc7e555349183ee935abe90a2808e3f56b2c64db0af2c86e529a793597a61420c381663e94005a01f464926f513d418106f689196a70361cff8642fac8
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.installer.factory.packages-1.0.0-source-release.zip
+outputs.2.length=18494
+outputs.2.checksums.sha512=115abce037d5e21e666975733102787a2b2781455cb0150d9ae9f6adc8b243f92abecfa932a797cff1bdc84c904973623ddb5412b0a05e36f05764807d3a6517
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.installer.factory.packages-1.0.0-sources.jar
+outputs.3.length=14704
+outputs.3.checksums.sha512=0f888618789bf0f30cdd3e43f8ce8e0d7bc6ae0aa0600e3098cafc3bc02ea43f443cba81a6492df6807eabe344544cd3e809882a4557c2bf01d7f37274dda31f
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.installer.factory.packages-1.0.0-sources.jar
+outputs.4.length=14704
+outputs.4.checksums.sha512=0f888618789bf0f30cdd3e43f8ce8e0d7bc6ae0aa0600e3098cafc3bc02ea43f443cba81a6492df6807eabe344544cd3e809882a4557c2bf01d7f37274dda31f
