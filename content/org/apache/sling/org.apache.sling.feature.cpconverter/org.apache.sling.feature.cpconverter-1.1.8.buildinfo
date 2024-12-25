@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Content-Package to Feature Model Converter
+group-id=org.apache.sling
+artifact-id=org.apache.sling.feature.cpconverter
+version=1.1.8
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-feature-cpconverter.git
+source.scm.tag=org.apache.sling.feature.cpconverter-1.1.8
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.feature.cpconverter-1.1.8.pom
+outputs.0.length=11750
+outputs.0.checksums.sha512=1d648eb2eefd8d09e23f7607cf707bcd3ea38d7947a41a52135f366e329d2b37374bc8c964982e78d0a509cce9b78090dd7ee3cbb63bcaa0d2ebb56aef031226
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.feature.cpconverter-1.1.8.jar
+outputs.1.length=199550
+outputs.1.checksums.sha512=e9c1cde4509c3275fc2063b297886953381c99fb8159ea3907374e55d039926601a668f070ebbfd23383ed742525c0754b2d7afd26d09f0b5b80cae2d962882a
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.feature.cpconverter-1.1.8-source-release.zip
+outputs.2.length=1499904
+outputs.2.checksums.sha512=0ffce0665d9f74e07b8e7b984598a6ebe1173f9ade494ac06c5b5425f9f811acdc6e4cd05addfccee45aee02b7f839157826cfceddfd5296dd162de0fd2506a6
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.feature.cpconverter-1.1.8.tar.gz
+outputs.3.length=7909933
+outputs.3.checksums.sha512=d7f71dfe2b414c39f18721987b554651c6892a197c4270b50a5cfd29c2a1bd89014eb53c9e26c89054b7bee75eae88c4a7011e4dda7be573c220a71b09a45dbc
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.feature.cpconverter-1.1.8.zip
+outputs.4.length=7941903
+outputs.4.checksums.sha512=54c1908a0040ddeb4b13582260e7c37411679d64b065d382289eb4160f3a076db4d31ceccb950f0660e3ca18016136c0a5e9600ca4a9efad6d7cccdd1774cc38
+
+outputs.5.groupId=org.apache.sling
+outputs.5.filename=org.apache.sling.feature.cpconverter-1.1.8-sources.jar
+outputs.5.length=143434
+outputs.5.checksums.sha512=bf771d24a0d545eb749392e79c3c9df6a930b7adc3ac4044add44da63aa839e5abc4268f8de0f6029b946ff18b148fb600dd97a2f81af56cbe090a6af6782822
+
+outputs.6.groupId=org.apache.sling
+outputs.6.filename=org.apache.sling.feature.cpconverter-1.1.8-sources.jar
+outputs.6.length=143434
+outputs.6.checksums.sha512=bf771d24a0d545eb749392e79c3c9df6a930b7adc3ac4044add44da63aa839e5abc4268f8de0f6029b946ff18b148fb600dd97a2f81af56cbe090a6af6782822
