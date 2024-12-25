@@ -1,0 +1,19 @@
+groupId=world.convex
+artifactId=convex
+version=0.7.0-rc1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/Convex-Dev/${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=16
+newline=crlf
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
