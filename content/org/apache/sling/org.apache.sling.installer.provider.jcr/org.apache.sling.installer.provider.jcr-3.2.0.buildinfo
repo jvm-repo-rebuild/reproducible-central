@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling JCR Installer
+group-id=org.apache.sling
+artifact-id=org.apache.sling.installer.provider.jcr
+version=3.2.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-installer-provider-jcr.git
+source.scm.tag=org.apache.sling.installer.provider.jcr-3.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.installer.provider.jcr-3.2.0.pom
+outputs.0.length=6780
+outputs.0.checksums.sha512=f1a46336e8e56cdc46b3ecc0134dfafe5a5b01b3ab4143a8cb217136413b18b181a127f9e3d1b8f0e773b83f7d269c2203fa37a35cdf8e8e8772933877ed06a4
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.installer.provider.jcr-3.2.0.jar
+outputs.1.length=49677
+outputs.1.checksums.sha512=ebcf91ed9fc30b384bdd7316fd454e49442a1c1e8ae733d649033465b3539478309d6e85311745069e9a6269993acbbce535d57ace161baa9e5d4a84de73fed4
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.installer.provider.jcr-3.2.0-source-release.zip
+outputs.2.length=63120
+outputs.2.checksums.sha512=e75560b220c405ee5232998c1a73807d1e6a8214b51ef4ee268151e0f4bd1c23288f02340bd18a4cf509ca98714eddae0564552de41872f4f4348303c0050c9f
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.installer.provider.jcr-3.2.0-sources.jar
+outputs.3.length=33720
+outputs.3.checksums.sha512=74006bf4f3705f14a0d10c799bdc9ea88d7a7604cc46e4f6f3bdd6a67cdd644e6ba89abcb92cd3b2141e3256f8ec71ac2b872e7adaba97cf11f09ad4202ff0c5
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.installer.provider.jcr-3.2.0-sources.jar
+outputs.4.length=33720
+outputs.4.checksums.sha512=74006bf4f3705f14a0d10c799bdc9ea88d7a7604cc46e4f6f3bdd6a67cdd644e6ba89abcb92cd3b2141e3256f8ec71ac2b872e7adaba97cf11f09ad4202ff0c5
