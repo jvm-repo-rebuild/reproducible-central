@@ -8,6 +8,7 @@ gitTag=v${version}
 
 tool=mvn
 jdk=11
+toolchains="11|8"
 newline=lf
 
 command="mvn -Pmojo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
