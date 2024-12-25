@@ -1,0 +1,27 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=daanse project - parent pom
+group-id=org.eclipse.daanse
+artifact-id=org.eclipse.daanse.pom.parent
+version=0.0.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/eclipse-daanse
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.eclipse.daanse
+outputs.0.filename=org.eclipse.daanse.pom.parent-0.0.1.pom
+outputs.0.length=33438
+outputs.0.checksums.sha512=668d80df9455563405f1a9c2dba292857fff7e1cc20bbacf48cd823ff43d30e30311f1e0848927ea374873ca94b5b16f35ac7f3a94c38126aca86ed7d82da810
