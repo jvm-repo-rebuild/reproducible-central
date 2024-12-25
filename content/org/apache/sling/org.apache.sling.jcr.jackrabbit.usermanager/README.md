@@ -7,9 +7,9 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-jcr-jackrabbit-usermanager.git](https://github.com/apache/sling-org-apache-sling-jcr-jackrabbit-usermanager.git)
 
-rebuilding **9 releases** of org.apache.sling:org.apache.sling.jcr.jackrabbit.usermanager:
+rebuilding **10 releases** of org.apache.sling:org.apache.sling.jcr.jackrabbit.usermanager:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -22,5 +22,6 @@ rebuilding **9 releases** of org.apache.sling:org.apache.sling.jcr.jackrabbit.us
 | [2.2.18](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.jackrabbit.usermanager/2.2.18/pom) | [mvn jdk11](org.apache.sling.jcr.jackrabbit.usermanager-2.2.18.buildspec) | [result](org.apache.sling.jcr.jackrabbit.usermanager-2.2.18.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.jcr.jackrabbit.usermanager-2.2.18.buildcompare) [:mag:](org.apache.sling.jcr.jackrabbit.usermanager-2.2.18.diffoscope) | 480K |
 | [2.2.16](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.jackrabbit.usermanager/2.2.16/pom) | [mvn jdk11](org.apache.sling.jcr.jackrabbit.usermanager-2.2.16.buildspec) | [result](org.apache.sling.jcr.jackrabbit.usermanager-2.2.16.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.jcr.jackrabbit.usermanager-2.2.16.buildcompare) | 411K |
 | [2.2.14](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.jackrabbit.usermanager/2.2.14/pom) | [mvn jdk11](org.apache.sling.jcr.jackrabbit.usermanager-2.2.14.buildspec) | [result](org.apache.sling.jcr.jackrabbit.usermanager-2.2.14.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.jcr.jackrabbit.usermanager-2.2.14.buildcompare) | 369K |
+| [2.2.12](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.jackrabbit.usermanager/2.2.12/pom) | [mvn jdk11](org.apache.sling.jcr.jackrabbit.usermanager-2.2.12.buildspec) | :x: | |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -54,9 +54,9 @@ Source code: [https://github.com/apache/struts.git](https://github.com/apache/st
 * [org.apache.struts:struts2-xslt-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-xslt-plugin/overview)
 </details>
 
-rebuilding **26 releases** of org.apache.struts:struts2-parent:
+rebuilding **27 releases** of org.apache.struts:struts2-parent:
 - **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 18 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 19 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -86,5 +86,6 @@ rebuilding **26 releases** of org.apache.struts:struts2-parent:
 | [2.5.28](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.28/pom) | [mvn jdk7](struts2-2.5.28.buildspec) | [result](struts2-assembly-2.5.28.buildinfo): [37 :white_check_mark:  58 :warning:](struts2-assembly-2.5.28.buildcompare) | 37M |
 | [2.5.27](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.27/pom) | [mvn jdk7](struts2-2.5.27.buildspec) | [result](struts2-assembly-2.5.27.buildinfo): [31 :white_check_mark:  29 :warning:](struts2-assembly-2.5.27.buildcompare) [:mag:](struts2-assembly-2.5.27.diffoscope) | 37M |
 | [2.5.26](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.26/pom) | [mvn jdk7](struts2-2.5.26.buildspec) | [result](struts2-assembly-2.5.26.buildinfo): [31 :white_check_mark:  29 :warning:](struts2-assembly-2.5.26.buildcompare) | 37M |
+| [2.5.25](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.25/pom) | [mvn jdk7](struts2-2.5.25.buildspec) | [result](struts2-assembly-2.5.25.buildinfo): [37 :white_check_mark:  58 :warning:](struts2-assembly-2.5.25.buildcompare) | 37M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

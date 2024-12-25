@@ -4,9 +4,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241224181800 --> [airbase](../content/io/airlift/airbase/README.md) | [207](../content/io/airlift/airbase/airbase-207.buildspec) :white_check_mark: | [208](../content/io/airlift/airbase/airbase-208.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-207.buildspec 208` |
-| <!-- 20241223221959 --> [flexmonster](../content/org/webjars/flexmonster/README.md) | [2.9.92](../content/org/webjars/flexmonster/flexmonster-2.9.92.buildspec) :white_check_mark: | [2.9.93](../content/org/webjars/flexmonster/flexmonster-2.9.93.buildspec) | `bin/add-new-release.sh content/org/webjars/flexmonster/flexmonster-2.9.92.buildspec 2.9.93` |
-| <!-- 20240620095218 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | [2.5.1](../content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec) :white_check_mark: | 2.5.0 2.4.1 2.4.0 2.3.2 2.3.1 2.3.0 2.2.3 2.2.2 2.2.1 2.1.3 2.1.2 2.1.1 2.1.0  | `bin/add-new-release.sh content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec ...` |
+| <!-- 20240620095218 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | [2.5.1](../content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec) :white_check_mark: | 2.5.0 2.4.1 2.4.0 2.3.2 2.3.1 2.3.0 2.2.3 2.1.3 2.1.2 2.1.1 2.1.0  | `bin/add-new-release.sh content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
