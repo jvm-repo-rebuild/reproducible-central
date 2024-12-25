@@ -27,9 +27,9 @@ Source code: [https://github.com/apache/mina-sshd.git](https://github.com/apache
 * [org.apache.sshd:sshd-spring-sftp](https://central.sonatype.com/artifact/org.apache.sshd/sshd-spring-sftp/overview)
 </details>
 
-rebuilding **10 releases** of org.apache.sshd:sshd:
+rebuilding **11 releases** of org.apache.sshd:sshd:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -46,7 +46,7 @@ rebuilding **10 releases** of org.apache.sshd:sshd:
 | [2.9.1](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.9.1/pom) | | | |
 | [2.9.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.9.0/pom) | | | |
 | [2.8.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.8.0/pom) | [mvn jdk8](sshd-2.8.0.buildspec) | [result](sshd-2.8.0.buildinfo): [31 :white_check_mark:  21 :warning:](sshd-2.8.0.buildcompare) [:mag:](sshd-2.8.0.diffoscope) [:memo:](https://github.com/apache/mina-sshd/pull/271) | 61M |
-| [2.7.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.7.0/pom) | | | |
+| [2.7.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.7.0/pom) | [mvn jdk8](sshd-2.7.0.buildspec) | [result](sshd-2.7.0.buildinfo): [31 :white_check_mark:  21 :warning:](sshd-2.7.0.buildcompare) | 60M |
 | [2.6.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.6.0/pom) | [mvn jdk8](sshd-2.6.0.buildspec) | [result](sshd-2.6.0.buildinfo): [15 :white_check_mark:  21 :warning:](sshd-2.6.0.buildcompare) [:mag:](sshd-2.6.0.diffoscope) | 59M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
