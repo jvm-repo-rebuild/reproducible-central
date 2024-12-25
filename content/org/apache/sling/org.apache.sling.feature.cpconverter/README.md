@@ -7,9 +7,9 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-feature-cpconverter.git](https://github.com/apache/sling-org-apache-sling-feature-cpconverter.git)
 
-rebuilding **13 releases** of org.apache.sling:org.apache.sling.feature.cpconverter:
+rebuilding **14 releases** of org.apache.sling:org.apache.sling.feature.cpconverter:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 14 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -26,5 +26,6 @@ rebuilding **13 releases** of org.apache.sling:org.apache.sling.feature.cpconver
 | [1.1.14](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.cpconverter/1.1.14/pom) | [mvn jdk11](org.apache.sling.feature.cpconverter-1.1.14.buildspec) | [result](org.apache.sling.feature.cpconverter-1.1.14.buildinfo): [4 :white_check_mark:  2 :warning:](org.apache.sling.feature.cpconverter-1.1.14.buildcompare) [:mag:](org.apache.sling.feature.cpconverter-1.1.14.diffoscope) | 20M |
 | [1.1.12](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.cpconverter/1.1.12/pom) | [mvn jdk8](org.apache.sling.feature.cpconverter-1.1.12.buildspec) | [result](org.apache.sling.feature.cpconverter-1.1.12.buildinfo): [4 :white_check_mark:  2 :warning:](org.apache.sling.feature.cpconverter-1.1.12.buildcompare) | 20M |
 | [1.1.10](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.cpconverter/1.1.10/pom) | [mvn jdk11](org.apache.sling.feature.cpconverter-1.1.10.buildspec) | [result](org.apache.sling.feature.cpconverter-1.1.10.buildinfo): [4 :white_check_mark:  2 :warning:](org.apache.sling.feature.cpconverter-1.1.10.buildcompare) [:mag:](org.apache.sling.feature.cpconverter-1.1.10.diffoscope) | 18M |
+| [1.1.8](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.cpconverter/1.1.8/pom) | [mvn jdk11](org.apache.sling.feature.cpconverter-1.1.8.buildspec) | [result](org.apache.sling.feature.cpconverter-1.1.8.buildinfo): [4 :white_check_mark:  2 :warning:](org.apache.sling.feature.cpconverter-1.1.8.buildcompare) | 18M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
