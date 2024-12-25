@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.hazendaz</groupId>
+  <artifactId>smartsprites</artifactId>
+  <versioning>
+    <latest>0.3.0</latest>
+    <release>0.3.0</release>
+    <versions>
+      <version>0.2.14</version>
+      <version>0.2.15</version>
+      <version>0.2.16</version>
+      <version>0.3.0</version>
+    </versions>
+    <lastUpdated>20240303040940</lastUpdated>
+  </versioning>
+</metadata>
