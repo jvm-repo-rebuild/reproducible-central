@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling File Installer
+group-id=org.apache.sling
+artifact-id=org.apache.sling.installer.provider.file
+version=1.2.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-installer-provider-file.git
+source.scm.tag=org.apache.sling.installer.provider.file-1.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.installer.provider.file-1.2.0.pom
+outputs.0.length=3417
+outputs.0.checksums.sha512=1ec68c8e017367296f9c5ab15c44336749ba226b20a1fafe81ee210b00e79111c51abff7b2d6d20a385556a207ef152cf013ae8260c192becf3d3444c4e1bb81
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.installer.provider.file-1.2.0.jar
+outputs.1.length=30190
+outputs.1.checksums.sha512=17300737cad3f0c903e26a5b674c63bae99b620d16ca17771f82f62e8160bd0ae416db608be03f0f912e71d0497d75285feca03c59d52736646589e8cae93bea
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.installer.provider.file-1.2.0-source-release.zip
+outputs.2.length=25686
+outputs.2.checksums.sha512=7096fe4955b06f6af3d95f65c32e4ca722bff18bcf4b1aaf55f5e6f2ee306ee01cef9de9de8bf0291073131d6819c6bd2db7d15935d8cff252c9ba8689daae79
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.installer.provider.file-1.2.0-sources.jar
+outputs.3.length=21086
+outputs.3.checksums.sha512=45a26342546d677f09a07451631284a628dfd2a886626a7256e1c4ecdb3e232d106294d85ef857ed95c2bb4fdeeb289b64de67406a2851014c1a606b25ba26fe
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.installer.provider.file-1.2.0-sources.jar
+outputs.4.length=21086
+outputs.4.checksums.sha512=45a26342546d677f09a07451631284a628dfd2a886626a7256e1c4ecdb3e232d106294d85ef857ed95c2bb4fdeeb289b64de67406a2851014c1a606b25ba26fe
