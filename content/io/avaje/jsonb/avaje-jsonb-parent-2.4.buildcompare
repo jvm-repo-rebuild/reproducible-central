@@ -1,0 +1,8 @@
+version=2.4
+ok=16
+ko=0
+ignored=0
+okFiles="avaje-jsonb-parent-2.4.pom avaje-jsonb-inject-plugin-2.4.pom avaje-jsonb-inject-plugin-2.4.jar avaje-jsonb-inject-plugin-2.4-sources.jar avaje-jsonb-2.4.pom avaje-jsonb-2.4.jar avaje-jsonb-2.4-sources.jar avaje-jsonb-generator-2.4.pom avaje-jsonb-generator-2.4.jar avaje-jsonb-generator-2.4-sources.jar avaje-jsonb-jackson-2.4.pom avaje-jsonb-jackson-2.4.jar avaje-jsonb-jackson-2.4-sources.jar avaje-jsonb-spring-starter-2.4.pom avaje-jsonb-spring-starter-2.4.jar avaje-jsonb-spring-starter-2.4-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
