@@ -4,6 +4,11 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20241226201304 --> [7zip](../content/com/github/hazendaz/7zip/README.md) | [24.08](../content/com/github/hazendaz/7zip/7zip-24.08.buildspec) :white_check_mark: | [24.09](../content/com/github/hazendaz/7zip/7zip-24.09.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/7zip/7zip-24.08.buildspec 24.09` |
+| <!-- 20241226194333 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | [1.6.8](../content/org/jpmml/jpmml-model/jpmml-model-1.6.8.buildspec) :white_check_mark: | [1.6.9](../content/org/jpmml/jpmml-model/jpmml-model-1.6.9.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-model/jpmml-model-1.6.8.buildspec 1.6.9` |
+| <!-- 20241217233655 --> [github-desktop](../content/com/github/hazendaz/git/github-desktop/README.md) | [3.4.12](../content/com/github/hazendaz/git/github-desktop/github-desktop-3.4.12.buildspec) :white_check_mark: | 3.2.9 3.2.6 3.2.4 3.2.3 3.2.2  | `bin/add-new-release.sh content/com/github/hazendaz/git/github-desktop/github-desktop-3.4.12.buildspec ...` |
+| <!-- 20241021183722 --> [jmockit-parent](../content/com/github/hazendaz/jmockit/README.md) | [1.53.0](../content/com/github/hazendaz/jmockit/jmockit-1.53.0.buildspec) :white_check_mark: | [1.55.0](../content/com/github/hazendaz/jmockit/jmockit-1.55.0.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/jmockit/jmockit-1.53.0.buildspec 1.55.0` |
+| <!-- 20241021183722 --> [jmockit-parent](../content/com/github/hazendaz/jmockit/README.md) | [1.53.0](../content/com/github/hazendaz/jmockit/jmockit-1.53.0.buildspec) :white_check_mark: | 1.54.0  | `bin/add-new-release.sh content/com/github/hazendaz/jmockit/jmockit-1.53.0.buildspec ...` |
 | <!-- 20240620095218 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | [2.5.1](../content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec) :white_check_mark: | 2.5.0 2.4.1 2.4.0 2.3.2 2.3.1 2.3.0 2.2.3 2.1.3 2.1.2 2.1.1 2.1.0  | `bin/add-new-release.sh content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
@@ -114,6 +119,7 @@ New Releases To Add
 | <!-- 20240905060651 --> [org.apache.sling.scripting.core](../content/org/apache/sling/org.apache.sling.scripting.core/README.md) | 2.4.10 :warning: [:memo:](https://issues.apache.org/jira/browse/SLING-12422) |
 | <!-- 20240826174802 --> [ldapchai](../content/com/github/ldapchai/README.md) | 0.8.6 :warning: [:memo:](https://github.com/ldapchai/ldapchai/issues/28) |
 | <!-- 20240825173904 --> [io.takari.incrementalbuild](../content/io/takari/incrementalbuild/README.md) | 1.0.3 :warning: |
+| <!-- 20240818211009 --> [htmlcompressor](../content/com/github/hazendaz/htmlcompressor/README.md) | 2.0.2 :warning: |
 | <!-- 20240817210045 --> [mybatis-2-spring](../content/org/mybatis/mybatis-2-spring/README.md) | 1.2.1 :warning: |
 | <!-- 20240814231054 --> [commons-cli](../content/org/apache/commons/commons-cli/README.md) | 1.9.0 :warning: |
 | <!-- 20240814100724 --> [org.apache.sling.scripting.sightly.testing](../content/org/apache/sling/org.apache.sling.scripting.sightly.testing/README.md) | 1.0.36-1.4.0 :warning: |
