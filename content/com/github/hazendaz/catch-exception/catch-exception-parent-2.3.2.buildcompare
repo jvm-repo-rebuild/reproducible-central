@@ -1,0 +1,9 @@
+version=2.3.2
+ok=17
+ko=0
+ignored=0
+okFiles="catch-exception-parent-2.3.2.pom catch-exception-parent-2.3.2-cyclonedx.xml catch-exception-parent-2.3.2-cyclonedx.json catch-exception-2.3.2.pom catch-exception-2.3.2.jar catch-exception-2.3.2-tests.jar catch-exception-2.3.2-sources.jar catch-exception-2.3.2-test-sources.jar catch-exception-2.3.2-cyclonedx.xml catch-exception-2.3.2-cyclonedx.json catch-throwable-2.3.2.pom catch-throwable-2.3.2.jar catch-throwable-2.3.2-tests.jar catch-throwable-2.3.2-sources.jar catch-throwable-2.3.2-test-sources.jar catch-throwable-2.3.2-cyclonedx.xml catch-throwable-2.3.2-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="22 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
