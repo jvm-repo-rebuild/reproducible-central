@@ -1,0 +1,9 @@
+version=1.6.9
+ok=26
+ko=0
+ignored=0
+okFiles="jpmml-model-1.6.9.pom pmml-agent-1.6.9.pom pmml-agent-1.6.9.jar pmml-agent-1.6.9-sources.jar pmml-xjc-1.6.9.pom pmml-xjc-1.6.9.jar pmml-xjc-1.6.9-sources.jar pmml-model-1.6.9.pom pmml-model-1.6.9.jar pmml-model-1.6.9-sources.jar pmml-model-1.6.9-tests.jar pmml-model-jackson-1.6.9.pom pmml-model-jackson-1.6.9.jar pmml-model-jackson-1.6.9-sources.jar pmml-model-kryo-1.6.9.pom pmml-model-kryo-1.6.9.jar pmml-model-kryo-1.6.9-sources.jar pmml-model-metro-1.6.9.pom pmml-model-metro-1.6.9.jar pmml-model-metro-1.6.9-sources.jar pmml-model-moxy-1.6.9.pom pmml-model-moxy-1.6.9.jar pmml-model-moxy-1.6.9-sources.jar pmml-model-gwt-1.6.9.pom pmml-model-gwt-1.6.9.jar pmml-model-gwt-1.6.9-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
