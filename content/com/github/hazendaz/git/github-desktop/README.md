@@ -7,9 +7,9 @@
 
 Source code: [https://github.com/hazendaz/github-desktop.git](https://github.com/hazendaz/github-desktop.git)
 
-rebuilding **7 releases** of com.github.hazendaz.git:github-desktop:
+rebuilding **10 releases** of com.github.hazendaz.git:github-desktop:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -19,9 +19,9 @@ rebuilding **7 releases** of com.github.hazendaz.git:github-desktop:
 | [3.4.6](https://central.sonatype.com/artifact/com.github.hazendaz.git/github-desktop/3.4.6/pom) | [mvn jdk21 w](github-desktop-3.4.6.buildspec) | [result](github-desktop-3.4.6.buildinfo): [3 :white_check_mark:  1 :warning:](github-desktop-3.4.6.buildcompare) | 162M |
 | [3.4.5](https://central.sonatype.com/artifact/com.github.hazendaz.git/github-desktop/3.4.5/pom) | [mvn jdk21 w](github-desktop-3.4.5.buildspec) | [result](github-desktop-3.4.5.buildinfo): [3 :white_check_mark:  1 :warning:](github-desktop-3.4.5.buildcompare) | 162M |
 | [3.4.3](https://central.sonatype.com/artifact/com.github.hazendaz.git/github-desktop/3.4.3/pom) | [mvn jdk21 w](github-desktop-3.4.3.buildspec) | [result](github-desktop-3.4.3.buildinfo): [3 :white_check_mark:  1 :warning:](github-desktop-3.4.3.buildcompare) | 162M |
-| [3.4.2](https://central.sonatype.com/artifact/com.github.hazendaz.git/github-desktop/3.4.2/pom) | | | |
-| [3.4.1](https://central.sonatype.com/artifact/com.github.hazendaz.git/github-desktop/3.4.1/pom) | | | |
-| [3.4.0](https://central.sonatype.com/artifact/com.github.hazendaz.git/github-desktop/3.4.0/pom) | | | |
+| [3.4.2](https://central.sonatype.com/artifact/com.github.hazendaz.git/github-desktop/3.4.2/pom) | [mvn jdk21 w](github-desktop-3.4.2.buildspec) | [result](github-desktop-3.4.2.buildinfo): [3 :white_check_mark:  1 :warning:](github-desktop-3.4.2.buildcompare) | 162M |
+| [3.4.1](https://central.sonatype.com/artifact/com.github.hazendaz.git/github-desktop/3.4.1/pom) | [mvn jdk21 w](github-desktop-3.4.1.buildspec) | [result](github-desktop-3.4.1.buildinfo): [3 :white_check_mark:  1 :warning:](github-desktop-3.4.1.buildcompare) | 162M |
+| [3.4.0](https://central.sonatype.com/artifact/com.github.hazendaz.git/github-desktop/3.4.0/pom) | [mvn jdk21 w](github-desktop-3.4.0.buildspec) | [result](github-desktop-3.4.0.buildinfo): [3 :white_check_mark:  1 :warning:](github-desktop-3.4.0.buildcompare) | 162M |
 | [3.3.18](https://central.sonatype.com/artifact/com.github.hazendaz.git/github-desktop/3.3.18/pom) | | | |
 | [3.3.17](https://central.sonatype.com/artifact/com.github.hazendaz.git/github-desktop/3.3.17/pom) | | | |
 | [3.3.14](https://central.sonatype.com/artifact/com.github.hazendaz.git/github-desktop/3.3.14/pom) | | | |
