@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=htmlcompressor
+group-id=com.github.hazendaz
+artifact-id=htmlcompressor
+version=1.9.2
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/htmlcompressor.git
+source.scm.tag=htmlcompressor-1.9.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.github.hazendaz
+outputs.0.filename=htmlcompressor-1.9.2.pom
+outputs.0.length=7975
+outputs.0.checksums.sha512=351aad780c2b96f2959e0b3bde7f5f6fd7158aa52776c00895d659973745e7d5951bbee46c0c8173c0b7ea7a69dcb02c33174912f6cfce664067d54334fc5846
+
+outputs.1.groupId=com.github.hazendaz
+outputs.1.filename=htmlcompressor-1.9.2.jar
+outputs.1.length=78924
+outputs.1.checksums.sha512=a4731d72e994b3a7e2f0a507ad78627b11cf7e93b68db97650c21b39f4ad461f58fb29d1eebceaa49c6e73967a76c4c3a9586c5eacdb05aeafe49871d6005377
+
+outputs.2.groupId=com.github.hazendaz
+outputs.2.filename=htmlcompressor-1.9.2-tests.jar
+outputs.2.length=22933
+outputs.2.checksums.sha512=0abbcd69a1fcf04bb383a7efe282317a2f06f2f47eb4f95def7728c643bc992de877c4ac8ea29998d4ffacce6f6575905244a0aa73dadb2f385f45e95790e9fb
+
+outputs.3.groupId=com.github.hazendaz
+outputs.3.filename=htmlcompressor-1.9.2-sources.jar
+outputs.3.length=64023
+outputs.3.checksums.sha512=b9f8c9376c85b3538923b838dd3c776e48ace9a082e4d5747f4e7cbc896be9066574602bf3b206a258342e6b817bd38f2e03a9c92520f089f8ab56db0c4ff981
+
+outputs.4.groupId=com.github.hazendaz
+outputs.4.filename=htmlcompressor-1.9.2-test-sources.jar
+outputs.4.length=20310
+outputs.4.checksums.sha512=ddd3b66d7702b53c01cd44d8a8a44392b69057a49cb280a331abcdcd2fba9dfb31e076199a1509c6cda1b6ada19880b83b600ac7d27231b1fcead061b61604bd
+
+outputs.5.groupId=com.github.hazendaz
+outputs.5.filename=htmlcompressor-1.9.2.zip
+outputs.5.length=16559600
+outputs.5.checksums.sha512=0776049dbb9f1cd53f46592ba6c565f6214c68461ce81a27afc90d812fd2f408e987760590ff2f117af271d59ef42a91f817d8bf6ff7082cc7c50f38a1700106
