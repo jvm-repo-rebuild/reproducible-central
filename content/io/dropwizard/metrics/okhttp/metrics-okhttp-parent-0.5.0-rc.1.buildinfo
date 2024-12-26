@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Metrics Integration for OkHttp (Parent)
+group-id=io.dropwizard.metrics.okhttp
+artifact-id=metrics-okhttp-parent
+version=0.5.0-rc.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/dropwizard/metrics-okhttp.git
+source.scm.tag=v0.5.0-rc1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=metrics-okhttp
+
+# aggregated output
+
+outputs.0.coordinates=io.dropwizard.metrics.okhttp:metrics-okhttp-parent
+
+outputs.0.0.groupId=io.dropwizard.metrics.okhttp
+outputs.0.0.filename=metrics-okhttp-parent-0.5.0-rc.1.pom
+outputs.0.0.length=5256
+outputs.0.0.checksums.sha512=fbd0b4264c90f8e36d9fbeb13e0b2a4aa5ff06c5ee181237367a4ff9192c431ac5faa2b64848c88619a1310048cb2409bdd18f8f6aebcae78d8bc3c92618d801
+
+outputs.1.coordinates=io.dropwizard.metrics.okhttp:metrics-okhttp
+
+outputs.1.0.groupId=io.dropwizard.metrics.okhttp
+outputs.1.0.filename=metrics-okhttp-0.5.0-rc.1.pom
+outputs.1.0.length=1640
+outputs.1.0.checksums.sha512=da07fefde564e27375ca3e5cef6e1ee323165462c978842a156aaf4527685882a451b1fb059719667f780cfd08c071e6c0537c6d66fad2a36998765ed56469f9
+
+outputs.1.1.groupId=io.dropwizard.metrics.okhttp
+outputs.1.1.filename=metrics-okhttp-0.5.0-rc.1.jar
+outputs.1.1.length=17574
+outputs.1.1.checksums.sha512=3799c93dd26bdb16c906b3ec09b3ea34482110c95a11c9a69717c4cfe7f9a0909b19d8afb903875faf7cf549f188b10c31b4064a063e4db16440c8ad3af7cbfd
