@@ -1,0 +1,9 @@
+version=1.51.0
+ok=32
+ko=0
+ignored=0
+okFiles="jmockit-parent-1.51.0.pom jmockit-1.51.0.pom jmockit-1.51.0.jar jmockit-1.51.0-tests.jar jmockit-1.51.0-sources.jar jmockit-1.51.0-test-sources.jar coverage-tests-1.51.0.pom coverage-tests-1.51.0.jar coverage-tests-1.51.0-tests.jar coverage-tests-1.51.0-sources.jar coverage-tests-1.51.0-test-sources.jar samples-1.51.0.pom tutorial-1.51.0.pom tutorial-1.51.0.jar tutorial-1.51.0-tests.jar tutorial-1.51.0-sources.jar tutorial-1.51.0-test-sources.jar LoginService-1.51.0.pom LoginService-1.51.0.jar LoginService-1.51.0-tests.jar LoginService-1.51.0-sources.jar LoginService-1.51.0-test-sources.jar java8testing-1.51.0.pom java8testing-1.51.0.jar java8testing-1.51.0-tests.jar java8testing-1.51.0-sources.jar java8testing-1.51.0-test-sources.jar petclinic-1.51.0.pom petclinic-1.51.0.war petclinic-1.51.0-tests.jar petclinic-1.51.0-sources.jar petclinic-1.51.0-test-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
