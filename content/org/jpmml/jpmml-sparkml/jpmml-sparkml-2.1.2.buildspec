@@ -1,0 +1,18 @@
+groupId=org.jpmml
+artifactId=jpmml-sparkml
+display=${groupId}:${artifactId}
+version=2.1.2
+
+gitRepo=https://github.com/jpmml/${artifactId}.git
+gitTag=${version}
+
+tool=mvn-3.9.6
+jdk=8
+newline=lf
+umask=022
+
+command="mvn -Psonatype-oss-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
