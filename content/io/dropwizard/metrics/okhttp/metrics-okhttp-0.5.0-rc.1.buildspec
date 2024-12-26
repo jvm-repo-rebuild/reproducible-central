@@ -1,0 +1,18 @@
+groupId=io.dropwizard.metrics.okhttp
+artifactId=metrics-okhttp-parent
+display=${groupId}:metrics-okhhtp
+version=0.5.0-rc.1
+
+gitRepo=https://github.com/dropwizard/metrics-okhttp.git
+gitTag=v0.5.0-rc1
+
+tool=mvn-3.9.6
+jdk=21
+newline=lf
+umask=022
+
+command="mvn -Prelease-sign-artifacts clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcyclonedx.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
