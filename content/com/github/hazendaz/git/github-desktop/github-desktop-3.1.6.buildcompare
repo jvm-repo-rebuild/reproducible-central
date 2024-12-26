@@ -1,0 +1,8 @@
+version=3.1.6
+ok=1
+ko=1
+ignored=0
+okFiles="github-desktop-3.1.6.pom"
+koFiles="github-desktop-3.1.6-distro.tar.gz"
+ignoredFiles=""
+# diffoscope target/reference/com.github.hazendaz.git/github-desktop-3.1.6-distro.tar.gz target/github-desktop-3.1.6-distro.tar.gz
