@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=github-desktop
+group-id=com.github.hazendaz.git
+artifact-id=github-desktop
+version=3.4.3
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/github-desktop.git
+source.scm.tag=github-desktop-3.4.3
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.github.hazendaz.git
+outputs.0.filename=github-desktop-3.4.3.pom
+outputs.0.length=4948
+outputs.0.checksums.sha512=c43807093beb2193ee7b740801ea70910537b0a83731aeacabed3292ca08724f564daa2ab237c6b448fa35041c96d3b6aa01829b86849f932b93ac38349f11fb
+
+outputs.1.groupId=com.github.hazendaz.git
+outputs.1.filename=github-desktop-3.4.3-cyclonedx.xml
+outputs.1.length=17313
+outputs.1.checksums.sha512=a128cd673f8643a38b6f28a366e131c350a81dda713abd5daa89164c60fc6fe8e5542ce04e823e2763bdd33a41d3461bb114f8f394a901b66d72d85625238512
+
+outputs.2.groupId=com.github.hazendaz.git
+outputs.2.filename=github-desktop-3.4.3-cyclonedx.json
+outputs.2.length=20696
+outputs.2.checksums.sha512=a4a38b336cbf53023a9819cbd40df86ac7ccb3b6606657b1a812a330320f26808f6c54121ae07437d3e27c55fff873dd651393983a511a785934f51177598fc8
+
+outputs.3.groupId=com.github.hazendaz.git
+outputs.3.filename=github-desktop-3.4.3-distro.tar.xz
+outputs.3.length=169110232
+outputs.3.checksums.sha512=a7afcadaa13c080f39fdeb1b5bc873051e929ffb2b85021d6445685b1258ac409388308557f2d5405665fc6aba2279f31d34c70723ac29800331a9bb52c34edb
