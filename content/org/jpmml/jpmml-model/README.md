@@ -20,13 +20,13 @@ Source code: [https://github.com/jpmml/jpmml-model.git](https://github.com/jpmml
 * [org.jpmml:pmml-xjc](https://central.sonatype.com/artifact/org.jpmml/pmml-xjc/overview)
 </details>
 
-rebuilding **4 releases** of org.jpmml:jpmml-model:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **5 releases** of org.jpmml:jpmml-model:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.6.9](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.6.9/pom) | | | |
+| [1.6.9](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.6.9/pom) | [mvn jdk8](jpmml-model-1.6.9.buildspec) | [result](jpmml-model-1.6.9.buildinfo): [26 :white_check_mark: ](jpmml-model-1.6.9.buildcompare) | 3.0M |
 | [1.6.8](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.6.8/pom) | [mvn jdk8](jpmml-model-1.6.8.buildspec) | [result](jpmml-model-1.6.8.buildinfo): [26 :white_check_mark: ](jpmml-model-1.6.8.buildcompare) | 3.0M |
 | [1.6.7](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.6.7/pom) | [mvn jdk8](jpmml-model-1.6.7.buildspec) | [result](jpmml-model-1.6.7.buildinfo): [26 :white_check_mark: ](jpmml-model-1.6.7.buildcompare) | 3.0M |
 | [1.6.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.6.6/pom) | [mvn jdk8](jpmml-model-1.6.6.buildspec) | [result](jpmml-model-1.6.6.buildinfo): [26 :white_check_mark: ](jpmml-model-1.6.6.buildcompare) | 3.0M |
