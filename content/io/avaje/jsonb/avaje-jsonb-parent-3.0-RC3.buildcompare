@@ -1,0 +1,8 @@
+version=3.0-RC3
+ok=22
+ko=0
+ignored=0
+okFiles="avaje-jsonb-parent-3.0-RC3.pom avaje-json-core-3.0-RC3.pom avaje-json-core-3.0-RC3.jar avaje-json-core-3.0-RC3-sources.jar avaje-json-node-3.0-RC3.pom avaje-json-node-3.0-RC3.jar avaje-json-node-3.0-RC3-sources.jar avaje-jsonb-inject-plugin-3.0-RC3.pom avaje-jsonb-inject-plugin-3.0-RC3.jar avaje-jsonb-inject-plugin-3.0-RC3-sources.jar avaje-jsonb-3.0-RC3.pom avaje-jsonb-3.0-RC3.jar avaje-jsonb-3.0-RC3-sources.jar avaje-jsonb-generator-3.0-RC3.pom avaje-jsonb-generator-3.0-RC3.jar avaje-jsonb-generator-3.0-RC3-sources.jar avaje-jsonb-jackson-3.0-RC3.pom avaje-jsonb-jackson-3.0-RC3.jar avaje-jsonb-jackson-3.0-RC3-sources.jar avaje-jsonb-spring-starter-3.0-RC3.pom avaje-jsonb-spring-starter-3.0-RC3.jar avaje-jsonb-spring-starter-3.0-RC3-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
