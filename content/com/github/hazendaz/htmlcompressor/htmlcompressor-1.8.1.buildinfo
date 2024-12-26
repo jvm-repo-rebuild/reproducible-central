@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=HTML Compressor and Minifier
+group-id=com.github.hazendaz
+artifact-id=htmlcompressor
+version=1.8.1
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/htmlcompressor.git
+source.scm.tag=htmlcompressor-1.8.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.github.hazendaz
+outputs.0.filename=htmlcompressor-1.8.1.pom
+outputs.0.length=7992
+outputs.0.checksums.sha512=9af5b85a8a59973ca0b83d05e5b0445f80612fe819df66a1b36e0e50bc6ccf219b525a1dda6b7ee1635cd46f4121b86c5a5641cbf0e2b5ae04ba6d578814ebb9
+
+outputs.1.groupId=com.github.hazendaz
+outputs.1.filename=htmlcompressor-1.8.1.jar
+outputs.1.length=78987
+outputs.1.checksums.sha512=38d9f07d4da76879fc0f879f751bc22ab0bf36fa442c24435afbb223916237adfe0d3a9ac7574be85a87e05bb6322ae4f0f0f8f074548acd7203046ab93557a5
+
+outputs.2.groupId=com.github.hazendaz
+outputs.2.filename=htmlcompressor-1.8.1-tests.jar
+outputs.2.length=22727
+outputs.2.checksums.sha512=75d6b174fa246a327a823d041c125c44d9fdafeba2f41de807c6c48d4a6412a5d337e3bbf706744a1341aad2f0bc89c31dc0c9b18afd1dae5d9d68e737bf3ceb
+
+outputs.3.groupId=com.github.hazendaz
+outputs.3.filename=htmlcompressor-1.8.1-sources.jar
+outputs.3.length=64043
+outputs.3.checksums.sha512=f0f9d8c99e347a47b2f69432e897bed28d3e1736daee8de6d6a5e8a5f785e3ab2ca09a62df34f6ec4eff383cb5e5e6b7096ce1b8104cb40adc2d7ee20f721534
+
+outputs.4.groupId=com.github.hazendaz
+outputs.4.filename=htmlcompressor-1.8.1-test-sources.jar
+outputs.4.length=20202
+outputs.4.checksums.sha512=c31815d870b9fac31eda6ca9d80eece02c9c83cabe965dd23623ffec3ee87b039fe39ed531757588eefa9de8296b365d59c976f8ed893817b29c7bde8159a93a
+
+outputs.5.groupId=com.github.hazendaz
+outputs.5.filename=htmlcompressor-1.8.1.zip
+outputs.5.length=16354597
+outputs.5.checksums.sha512=e6e39621b3afecacc904e71ab2a1e8bde4dabe4cc98c4c7810445146a2bf62c1b62c90c1bf8a2aa450408dea30297a411de9960cb99ab4323bb0d4c3c7c52123

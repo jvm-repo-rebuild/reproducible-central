@@ -1,0 +1,10 @@
+version=1.8.1
+ok=5
+ko=1
+ignored=0
+okFiles="htmlcompressor-1.8.1.pom htmlcompressor-1.8.1.jar htmlcompressor-1.8.1-tests.jar htmlcompressor-1.8.1-sources.jar htmlcompressor-1.8.1-test-sources.jar"
+koFiles="htmlcompressor-1.8.1.zip"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/com.github.hazendaz/htmlcompressor-1.8.1.zip target/htmlcompressor-1.8.1.zip
