@@ -1,0 +1,10 @@
+version=1.9.3
+ok=7
+ko=1
+ignored=0
+okFiles="htmlcompressor-1.9.3.pom htmlcompressor-1.9.3.jar htmlcompressor-1.9.3-tests.jar htmlcompressor-1.9.3-sources.jar htmlcompressor-1.9.3-test-sources.jar htmlcompressor-1.9.3-cyclonedx.xml htmlcompressor-1.9.3-cyclonedx.json"
+koFiles="htmlcompressor-1.9.3.zip"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/com.github.hazendaz/htmlcompressor-1.9.3.zip target/htmlcompressor-1.9.3.zip
