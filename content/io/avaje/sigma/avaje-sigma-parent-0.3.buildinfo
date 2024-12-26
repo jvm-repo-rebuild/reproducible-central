@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=avaje-sigma
+group-id=io.avaje
+artifact-id=avaje-sigma-parent
+version=0.3
+
+# source information
+source.scm.uri=null
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=avaje-sigma
+
+# aggregated output
+
+outputs.0.coordinates=io.avaje:avaje-sigma-parent
+
+outputs.0.0.groupId=io.avaje
+outputs.0.0.filename=avaje-sigma-parent-0.3.pom
+outputs.0.0.length=950
+outputs.0.0.checksums.sha512=a9f2fdd6d0d7db019cf5ff6ce331472b3b5069b636162ba503b208b7a35480777339a4dded28580a4a7498fbac3904ad2598fa51e67915cfebb19a155e7ab713
+
+outputs.1.coordinates=io.avaje:avaje-sigma
+
+outputs.1.0.groupId=io.avaje
+outputs.1.0.filename=avaje-sigma-0.3.pom
+outputs.1.0.length=2075
+outputs.1.0.checksums.sha512=ee3da02e51e365ee938940f834d1951f1bb93489aa1526e24ac2683508c8853d41fa2f5b703058f53c323f0409d6e5dd85aea23401628d563e80674cf1ff82c8
+
+outputs.1.1.groupId=io.avaje
+outputs.1.1.filename=avaje-sigma-0.3.jar
+outputs.1.1.length=75717
+outputs.1.1.checksums.sha512=00468a76ffac0ef9ac0ab0c691e0965f2a08d755440dca1338fbeb485a79bdc4bc27feb64e2b1b3381c7ea4ca9da76c258479f499f6897e48046c9cc5d897e71
+
+outputs.1.2.groupId=io.avaje
+outputs.1.2.filename=avaje-sigma-0.3-sources.jar
+outputs.1.2.length=32892
+outputs.1.2.checksums.sha512=9bf0b2ced344f2eade76fbeefda2bd6e791d396357bcf90a3532ab052e4556ef6980e9b5411f3798bafed43ba67ae4b306dc7f9d70f0ad090e77fefb5791bb19
