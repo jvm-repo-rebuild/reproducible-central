@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=github-desktop
+group-id=com.github.hazendaz.git
+artifact-id=github-desktop
+version=3.3.3
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/github-desktop.git
+source.scm.tag=github-desktop-3.3.3
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.github.hazendaz.git
+outputs.0.filename=github-desktop-3.3.3.pom
+outputs.0.length=4948
+outputs.0.checksums.sha512=0f63f28f45701d93575d42025e483fe104a28d3293b721c9b5ada57ff472824bc3f21208f74daefbef543f595154d57e1f2d16473e481e02d6e3e7c36737489e
+
+outputs.1.groupId=com.github.hazendaz.git
+outputs.1.filename=github-desktop-3.3.3-distro.tar.xz
+outputs.1.length=169110268
+outputs.1.checksums.sha512=54b7d73cdf474715896ad0c3d496fe69dc908b895aa5f6e8c2c394f50ae602eebf6daa73c60d1b4e733238786b005edb3f1af2e1f712f10c11262f3f1f6f0fd3
