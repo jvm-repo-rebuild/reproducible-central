@@ -1,0 +1,8 @@
+version=3.2.9
+ok=1
+ko=1
+ignored=0
+okFiles="github-desktop-3.2.9.pom"
+koFiles="github-desktop-3.2.9-distro.tar.xz"
+ignoredFiles=""
+# diffoscope target/reference/com.github.hazendaz.git/github-desktop-3.2.9-distro.tar.xz target/github-desktop-3.2.9-distro.tar.xz
