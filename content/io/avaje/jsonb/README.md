@@ -7,8 +7,9 @@
 
 Source code: [https://github.com/avaje/avaje-jsonb.git](https://github.com/avaje/avaje-jsonb.git)
 
-<details><summary>This project defines 6 modules:</summary>
+<details><summary>This project defines 7 modules:</summary>
 
+* [io.avaje:avaje-json](https://central.sonatype.com/artifact/io.avaje/avaje-json/overview)
 * [io.avaje:avaje-jsonb](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb/overview)
 * [io.avaje:avaje-jsonb-generator](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-generator/overview)
 * [io.avaje:avaje-jsonb-inject-plugin](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-inject-plugin/overview)
@@ -17,8 +18,8 @@ Source code: [https://github.com/avaje/avaje-jsonb.git](https://github.com/avaje
 * [io.avaje:avaje-jsonb-spring-starter](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-spring-starter/overview)
 </details>
 
-rebuilding **1 releases** of io.avaje:avaje-jsonb-parent:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of io.avaje:avaje-jsonb-parent:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -27,7 +28,7 @@ rebuilding **1 releases** of io.avaje:avaje-jsonb-parent:
 | [3.0-RC4](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.0-RC4/pom) | | | |
 | [3.0-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.0-RC3/pom) | | | |
 | [3.0-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.0-RC2/pom) | | | |
-| [3.0-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.0-RC1/pom) | | | |
+| [3.0-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.0-RC1/pom) | [mvn jdk21](avaje-jsonb-3.0-RC1.buildspec) | [result](avaje-jsonb-parent-3.0-RC1.buildinfo): [19 :white_check_mark: ](avaje-jsonb-parent-3.0-RC1.buildcompare) | 679K |
 | [2.4](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/2.4/pom) | [mvn jdk21](avaje-jsonb-2.4.buildspec) | [result](avaje-jsonb-parent-2.4.buildinfo): [16 :white_check_mark: ](avaje-jsonb-parent-2.4.buildcompare) | 655K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
