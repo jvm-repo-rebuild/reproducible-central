@@ -1,0 +1,8 @@
+version=3.3.13
+ok=3
+ko=1
+ignored=0
+okFiles="github-desktop-3.3.13.pom github-desktop-3.3.13-cyclonedx.xml github-desktop-3.3.13-cyclonedx.json"
+koFiles="github-desktop-3.3.13-distro.tar.xz"
+ignoredFiles=""
+# diffoscope target/reference/com.github.hazendaz.git/github-desktop-3.3.13-distro.tar.xz target/github-desktop-3.3.13-distro.tar.xz
