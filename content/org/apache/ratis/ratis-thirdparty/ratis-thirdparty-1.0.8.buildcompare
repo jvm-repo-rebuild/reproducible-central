@@ -1,0 +1,9 @@
+version=1.0.8
+ok=9
+ko=0
+ignored=0
+okFiles="ratis-thirdparty-1.0.8.pom ratis-thirdparty-1.0.8-cyclonedx.xml ratis-thirdparty-1.0.8-cyclonedx.json ratis-thirdparty-misc-1.0.8.pom ratis-thirdparty-misc-1.0.8.jar ratis-thirdparty-misc-1.0.8-sources.jar ratis-thirdparty-misc-1.0.8-test-sources.jar ratis-thirdparty-misc-1.0.8-cyclonedx.xml ratis-thirdparty-misc-1.0.8-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
