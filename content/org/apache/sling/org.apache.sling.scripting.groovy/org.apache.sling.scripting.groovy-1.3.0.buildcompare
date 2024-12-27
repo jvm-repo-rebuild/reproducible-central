@@ -1,0 +1,10 @@
+version=1.3.0
+ok=2
+ko=1
+ignored=0
+okFiles="org.apache.sling.scripting.groovy-1.3.0.pom org.apache.sling.scripting.groovy-1.3.0-source-release.zip"
+koFiles="org.apache.sling.scripting.groovy-1.3.0.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling/org.apache.sling.scripting.groovy-1.3.0.jar target/org.apache.sling.scripting.groovy-1.3.0.jar

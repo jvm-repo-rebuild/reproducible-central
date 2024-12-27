@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Scripting Groovy
+group-id=org.apache.sling
+artifact-id=org.apache.sling.scripting.groovy
+version=1.3.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-scripting-groovy.git
+source.scm.tag=org.apache.sling.scripting.groovy-1.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.scripting.groovy-1.3.0.pom
+outputs.0.length=10372
+outputs.0.checksums.sha512=afdd55183026715ad9707063a8f54e7b2334008bec1377ae4ede55a955aa13c7315b9ca7ff8095d1fe221d15a509b7f85418c313b5018ce1b53c3aacf117e3c4
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.scripting.groovy-1.3.0.jar
+outputs.1.length=17535
+outputs.1.checksums.sha512=db7bca4c8012ad4fefd0f0b10e0b44c373e16c08b59b525082c95f61d4fbc7a638e1f3e69e3a430e76b0f2d10dbf65d71c05c1dbbb93980ac87f8f7c730e0a66
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.scripting.groovy-1.3.0-source-release.zip
+outputs.2.length=32668
+outputs.2.checksums.sha512=3633fdfde474e66c5ffebb3edd268d7594ed8fb83c57d4c4110c19349b0c03eb2cb9bbf0c8efecdcc1f52dd2cc52f8bd8b30bd686dddfd4b1ba2d1ae6e00b42d
