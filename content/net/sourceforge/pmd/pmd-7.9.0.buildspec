@@ -1,0 +1,18 @@
+groupId=net.sourceforge.pmd
+artifactId=pmd
+display=${groupId}:${artifactId}
+version=7.9.0
+
+gitRepo=https://github.com/pmd/${artifactId}.git
+gitTag=pmd_releases/${version}
+
+tool=mvn
+jdk=11
+newline=lf
+umask=022
+
+command="mvn -Ppmd-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
