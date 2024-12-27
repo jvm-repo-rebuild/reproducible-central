@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Scripting JSP Tag Library
+group-id=org.apache.sling
+artifact-id=org.apache.sling.scripting.jsp.taglib
+version=2.4.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-scripting-jsp-taglib.git
+source.scm.tag=org.apache.sling.scripting.jsp.taglib-2.4.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.scripting.jsp.taglib-2.4.2.pom
+outputs.0.length=7561
+outputs.0.checksums.sha512=bc859b6230f36ebec9d1f2fcc280d95f35eb28c99ab03c1e3448efda8e885f70a0cdfc08ddff6b062ff736ec235a03346f4b10d1be9090927ff581dfd73b6bc7
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.scripting.jsp.taglib-2.4.2.jar
+outputs.1.length=66075
+outputs.1.checksums.sha512=c73793dbeabb734aee0aebe0dffa0312eb474cfc643de63888dcc6877c9631f498e019ccd2f73ec36ae48b719ddf3a51219d28a9c49c66dc05d21b40bbad3527
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.scripting.jsp.taglib-2.4.2-source-release.zip
+outputs.2.length=91634
+outputs.2.checksums.sha512=434635577b822c98edbe119ad84a3bb438928aa666d07ffcae36f4730e886c79c12e982bc3f6479af23806a8e4fff8c5fa9b2e2371fdebfa2ecc831844594570
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.scripting.jsp.taglib-2.4.2-sources.jar
+outputs.3.length=61286
+outputs.3.checksums.sha512=bf4c583d8d7a55f1a6758cea8de3badd633fd2f6176b1f37209c41ed57f6476b3178a0fdbac533361bec72fbc996d71bf5c293957afbf3fa11ce804a1027f2f0
