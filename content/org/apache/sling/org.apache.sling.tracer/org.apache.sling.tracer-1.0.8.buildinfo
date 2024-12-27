@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Log Tracer
+group-id=org.apache.sling
+artifact-id=org.apache.sling.tracer
+version=1.0.8
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-tracer.git
+source.scm.tag=org.apache.sling.tracer-1.0.8
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.tracer-1.0.8.pom
+outputs.0.length=5735
+outputs.0.checksums.sha512=1ab9b7b4652df30b148972c00e322139932ea3adb71db7c06eed8a51bf5c35c6f5fe13d5fbd6e7d5826b428b2a1590e4c989d6a9ddc623ce2df54f5a40cde9b4
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.tracer-1.0.8.jar
+outputs.1.length=58557
+outputs.1.checksums.sha512=f9450953211809a82f90866903f8c83ffb0014fba8b68db5f079ac34ee5063259816e2ee500c41af8b13fb8b395e3f70e27e5cebc91646407782ef238c1c07e2
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.tracer-1.0.8-source-release.zip
+outputs.2.length=56100
+outputs.2.checksums.sha512=008fbff9d6e40d27d164b2606b636b46d76be37f5d94ba2a89d03381d544bb8a1844e2f052bb179dca9675310f865bcb4cb94f0db4f773d85eae4dca2fda1ef5
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.tracer-1.0.8-sources.jar
+outputs.3.length=33950
+outputs.3.checksums.sha512=42f7795cf56caa88a9b6d0a692b07b7576fc0e6cde1b7139daf9f4dab9ddfd179c2e1ac23f9ecc52c95c3f94f0f65c77c8e22370881b827f5f0c09312d7c2da2
