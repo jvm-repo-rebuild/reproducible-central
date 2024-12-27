@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.sling</groupId>
+  <artifactId>org.apache.sling.jcr.davex</artifactId>
+  <versioning>
+    <latest>1.3.12</latest>
+    <release>1.3.12</release>
+    <versions>
+      <version>1.0.0</version>
+      <version>1.1.0</version>
+      <version>1.2.0</version>
+      <version>1.2.2</version>
+      <version>1.3.0</version>
+      <version>1.3.2</version>
+      <version>1.3.4</version>
+      <version>1.3.8</version>
+      <version>1.3.10</version>
+      <version>1.3.12</version>
+    </versions>
+    <lastUpdated>20241216105937</lastUpdated>
+  </versioning>
+</metadata>
