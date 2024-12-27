@@ -1,0 +1,18 @@
+groupId=org.eclipse.angus
+artifactId=angus-activation-project
+display=${groupId}:${artifactId}
+version=2.0.2
+
+gitRepo=https://github.com/eclipse-ee4j/angus-activation.git
+gitTag=${version}
+
+tool=mvn
+jdk=21
+newline=lf
+#umask=022
+
+command="mvn -Poss-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
