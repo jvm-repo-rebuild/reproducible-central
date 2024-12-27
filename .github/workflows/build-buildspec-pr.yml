@@ -45,6 +45,7 @@ jobs:
               then
                 # don't even try to automatically build, but prepare message for PR comment
                 echo "command=$command"
+                echo "ko=1" # avoid auto-merge of PR
                 echo "Configured build command requires interactive shell:
           \`\`\`
           command=$command
