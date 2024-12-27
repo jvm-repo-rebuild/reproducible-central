@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-servlets-resolver.git](https://github.com/apache/sling-org-apache-sling-servlets-resolver.git)
 
-rebuilding **15 releases** of org.apache.sling:org.apache.sling.servlets.resolver:
+rebuilding **16 releases** of org.apache.sling:org.apache.sling.servlets.resolver:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 15 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 16 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.11.8](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.servlets.resolver/2.11.8/pom) | | | |
+| [2.11.8](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.servlets.resolver/2.11.8/pom) | [mvn jdk11](org.apache.sling.servlets.resolver-2.11.8.buildspec) | [result](org.apache.sling.servlets.resolver-2.11.8.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.servlets.resolver-2.11.8.buildcompare) | 511K |
 | [2.11.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.servlets.resolver/2.11.6/pom) | [mvn jdk17](org.apache.sling.servlets.resolver-2.11.6.buildspec) | [result](org.apache.sling.servlets.resolver-2.11.6.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.servlets.resolver-2.11.6.buildcompare) | 511K |
 | [2.11.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.servlets.resolver/2.11.4/pom) | [mvn jdk11](org.apache.sling.servlets.resolver-2.11.4.buildspec) | [result](org.apache.sling.servlets.resolver-2.11.4.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.servlets.resolver-2.11.4.buildcompare) [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-resolver/pull/39) | 504K |
 | [2.11.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.servlets.resolver/2.11.2/pom) | [mvn jdk11](org.apache.sling.servlets.resolver-2.11.2.buildspec) | [result](org.apache.sling.servlets.resolver-2.11.2.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.servlets.resolver-2.11.2.buildcompare) [:mag:](org.apache.sling.servlets.resolver-2.11.2.diffoscope) [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-resolver/pull/39) | 503K |
