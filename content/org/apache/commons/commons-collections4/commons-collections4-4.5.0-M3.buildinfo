@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Collections
+group-id=org.apache.commons
+artifact-id=commons-collections4
+version=4.5.0-M3
+
+# source information
+source.scm.uri=scm:git:http://gitbox.apache.org/repos/asf/commons-collections.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-collections4-4.5.0-M3.pom
+outputs.0.length=25102
+outputs.0.checksums.sha512=fdedfc7f6fd08d348b49f296c63a42f89c6bd8dbb8214950804af0044aa64c8425af0846e1ddbf9beda16db1f6c346e802420da66f8ea116758a0fb878c8985d
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-collections4-4.5.0-M3.jar
+outputs.1.length=898397
+outputs.1.checksums.sha512=1b76c15d46a56bd4c9ee43e934065e05feb8b118367f88984c4f3c504760f39580174bcb7026e4ae6dfcffe4ca0c8e620eb1a559bbdbf60bb2e0d3d0af332155
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-collections4-4.5.0-M3-tests.jar
+outputs.2.length=1067062
+outputs.2.checksums.sha512=803308f367c1fb8a8b850770d35d27b0bbea0739817e387d3e3c0f1f481f89b44365d5dad2b0f978e50b2368492c4b7b59667bb6cfbac5cdeaa5e98dd18d6bd5
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-collections4-4.5.0-M3-sources.jar
+outputs.3.length=805558
+outputs.3.checksums.sha512=59ee55ced79379cf6ad2b145f00218fe6134264389a160b74e8b9320d8347556f572258b54f1706c90f7fad600a6f2ed343ada395f27d0d0da04c834c5448e14
+
+outputs.4.groupId=org.apache.commons
+outputs.4.filename=commons-collections4-4.5.0-M3-test-sources.jar
+outputs.4.length=670211
+outputs.4.checksums.sha512=1332980debf3c6f07c9fe8785c4eeb00620ff789b0b15293f971057974f547997e6b6d7cdde11bc9937ef3e2d30eaa7dd7fdb13ef66349a2dfb4b804bc5c477a
+
+outputs.5.groupId=org.apache.commons
+outputs.5.filename=commons-collections4-4.5.0-M3-cyclonedx.xml
+outputs.5.length=6465
+outputs.5.checksums.sha512=dd11ea1891841c4bb745b04f27f6c5cb02470074ed56d4b6c514c8c3037ffee3a0e4cf842358d41c92ba1dc52a38f110d32ac52834f927f12310b3e68bedf57a
+
+outputs.6.groupId=org.apache.commons
+outputs.6.filename=commons-collections4-4.5.0-M3-cyclonedx.json
+outputs.6.length=7040
+outputs.6.checksums.sha512=04302e7b983d994a05e3be4fbf8060a402551b723bfd6db201914cc08bab64fd5c1a057143770cb3809362206f48fcfb87280addfc1fee29d39e997335325c08
+# ignored commons-collections4-4.5.0-M3.spdx.json

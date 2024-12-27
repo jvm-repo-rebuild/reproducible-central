@@ -1,0 +1,18 @@
+groupId=org.apache.commons
+artifactId=commons-collections4
+display=${groupId}:${artifactId}
+version=4.5.0-M3
+
+gitRepo=https://github.com/apache/commons-collections.git
+gitTag=rel/commons-collections-${version}
+
+tool=mvn
+jdk=21
+newline=lf
+#umask=022
+
+command="mvn clean verify -DskipTests -Dgpg.skip -Dmaven.javadoc.skip -Dbuildinfo.ignore='*/*.spdx.json'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
