@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Testing PaxExam
+group-id=org.apache.sling
+artifact-id=org.apache.sling.testing.paxexam
+version=4.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-testing-paxexam.git
+source.scm.tag=org.apache.sling.testing.paxexam-4.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.testing.paxexam-4.0.0.pom
+outputs.0.length=7720
+outputs.0.checksums.sha512=abb326f1a55e66f709aaa432e22ada53483802ec982e8d184b2a91dc3bdc42769805627b8ea720ae1706d093d4e12a6e9dd6b6aac1afc2e5ba29e332a12c497b
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.testing.paxexam-4.0.0.jar
+outputs.1.length=40581
+outputs.1.checksums.sha512=ae946a7c0268f7d354d6cf4e9b8c3f8d9706d6a3b5d1f43cf46c49c10156d5cfc607caff5936e9256fa116a11af328a3eb1992abb3105f8ea4ff0678124da05e
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.testing.paxexam-4.0.0-source-release.zip
+outputs.2.length=141794
+outputs.2.checksums.sha512=1d6600666b4c9e61db8813e4400a01535ee5294f9f5f10650fc9f6a08d2becb19792fac6d888b09d9f5e4eff695695668df918a04e1d8dd1cc24945675d55894
