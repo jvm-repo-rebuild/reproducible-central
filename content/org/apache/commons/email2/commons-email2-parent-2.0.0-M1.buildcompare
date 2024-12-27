@@ -1,0 +1,12 @@
+version=2.0.0-M1
+ok=28
+ko=3
+ignored=10
+okFiles="commons-email2-parent-2.0.0-M1.pom commons-email2-parent-2.0.0-M1-cyclonedx.xml commons-email2-parent-2.0.0-M1-cyclonedx.json commons-email2-parent-2.0.0-M1-site.xml commons-email2-core-2.0.0-M1.pom commons-email2-core-2.0.0-M1.jar commons-email2-core-2.0.0-M1-tests.jar commons-email2-core-2.0.0-M1-sources.jar commons-email2-core-2.0.0-M1-test-sources.jar commons-email2-core-2.0.0-M1-cyclonedx.xml commons-email2-core-2.0.0-M1-cyclonedx.json commons-email2-jakarta-2.0.0-M1.pom commons-email2-jakarta-2.0.0-M1.jar commons-email2-jakarta-2.0.0-M1-tests.jar commons-email2-jakarta-2.0.0-M1-sources.jar commons-email2-jakarta-2.0.0-M1-cyclonedx.xml commons-email2-jakarta-2.0.0-M1-cyclonedx.json commons-email2-javax-2.0.0-M1.pom commons-email2-javax-2.0.0-M1.jar commons-email2-javax-2.0.0-M1-tests.jar commons-email2-javax-2.0.0-M1-sources.jar commons-email2-javax-2.0.0-M1-test-sources.jar commons-email2-javax-2.0.0-M1-cyclonedx.xml commons-email2-javax-2.0.0-M1-cyclonedx.json commons-email2-bom-2.0.0-M1.pom commons-email2-bom-2.0.0-M1-cyclonedx.xml commons-email2-bom-2.0.0-M1-cyclonedx.json commons-email2-distribution-2.0.0-M1.pom"
+koFiles="commons-email2-jakarta-2.0.0-M1-test-sources.jar commons-email2-distribution-2.0.0-M1-cyclonedx.xml commons-email2-distribution-2.0.0-M1-cyclonedx.json"
+ignoredFiles="commons-email2-parent-2.0.0-M1.spdx.json commons-email2-core-2.0.0-M1.spdx.json commons-email2-jakarta-2.0.0-M1.spdx.json commons-email2-javax-2.0.0-M1.spdx.json commons-email2-bom-2.0.0-M1.spdx.json commons-email2-distribution-2.0.0-M1-src.zip commons-email2-distribution-2.0.0-M1-src.tar.gz commons-email2-distribution-2.0.0-M1-bin.tar.gz commons-email2-distribution-2.0.0-M1-bin.zip commons-email2-distribution-2.0.0-M1.spdx.json"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.commons/commons-email2-jakarta-2.0.0-M1-test-sources.jar commons-email2-jakarta/target/commons-email2-jakarta-2.0.0-M1-test-sources.jar
+# diffoscope target/reference/org.apache.commons/commons-email2-distribution-2.0.0-M1-cyclonedx.xml commons-email2-distribution/target/commons-email2-distribution-2.0.0-M1-bom.xml
+# diffoscope target/reference/org.apache.commons/commons-email2-distribution-2.0.0-M1-cyclonedx.json commons-email2-distribution/target/commons-email2-distribution-2.0.0-M1-bom.json
