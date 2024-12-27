@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling JCR WebDAV
+group-id=org.apache.sling
+artifact-id=org.apache.sling.jcr.webdav
+version=2.3.10
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-jcr-webdav.git
+source.scm.tag=org.apache.sling.jcr.webdav-2.3.10
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.jcr.webdav-2.3.10.pom
+outputs.0.length=6807
+outputs.0.checksums.sha512=208af684cf73b7d95bf2d60b1fd23dea30af78d11fb5898de1dafd07ea626f7242cb09220a627df6f8d972f2c3b79a3511e365c05660ee1f32ee9ffaa095457c
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.jcr.webdav-2.3.10.jar
+outputs.1.length=164808
+outputs.1.checksums.sha512=044f7b3daff784ed3fec693b5ed1dec7a00544e25af4d4cfba5f7399e7bcecec024d2dff147c988e252f24985489819e78e6816f0f1982a1b7cfdee524a9a3f4
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.jcr.webdav-2.3.10-source-release.zip
+outputs.2.length=51861
+outputs.2.checksums.sha512=80147a150dbad5e3c13a6662d43b83118183afca1ff2e67042c640a1ab8158fa458ffafb3f1240c693a55d8057095ae4f043fd7cec83a4c6cbfb5179b7cf6c70
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.jcr.webdav-2.3.10-sources.jar
+outputs.3.length=35845
+outputs.3.checksums.sha512=39189c40e508a8a62a17f2de9d2b413a46b5c3b871f1b2de67e957dfe532f6e0a9266e38e06f8e8d505f44f1087398a45b039c5194eab1388e70058d4bb42d4c
