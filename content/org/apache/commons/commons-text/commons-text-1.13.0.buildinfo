@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Text
+group-id=org.apache.commons
+artifact-id=commons-text
+version=1.13.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-text
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-text-1.13.0.pom
+outputs.0.length=23327
+outputs.0.checksums.sha512=6de5676f3e70f088bbbe9a3b86a043318ca6bee3dba416e38095875b3f2e90f79cd445c9a038057c19c0fec095b41a6315944b5e9902a1dbd1809dc241e8bf9f
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-text-1.13.0.jar
+outputs.1.length=257863
+outputs.1.checksums.sha512=d4fdc5b2f1d3cbe1ed4bec867fad4430a38ae7ce7a3a9815c9839c9b16a2af3b67d92bb663854282e71042e3f391fe35a5de0fc9f0fcfb6ae7becaf725f8bfeb
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-text-1.13.0-tests.jar
+outputs.2.length=480275
+outputs.2.checksums.sha512=12220739eb81dd8caf689f6f7f429ceebe2cec93db9c6271533804d87b7a906e6e9b9261624fbfa3bc81876838736cd2d9831cfa73b7cc28bc9d6d2ea7a3eeef
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-text-1.13.0-sources.jar
+outputs.3.length=278275
+outputs.3.checksums.sha512=71641777cb17888aa2b7d3d930928acf97820eebeebb55606ccc8c4017a63ba8762bc48c581d91ef1203ce8836e164f1270754aaab2f518df3a023dddbe53938
+
+outputs.4.groupId=org.apache.commons
+outputs.4.filename=commons-text-1.13.0-test-sources.jar
+outputs.4.length=274821
+outputs.4.checksums.sha512=9557a073f39364895da22d8e49973f648d4ad168f1c2e8c1ae15476161389b50c810c00ed315df2a34b45cd14eb88540cee64d22b74a5ec06a7ce906296270f7
+
+outputs.5.groupId=org.apache.commons
+outputs.5.filename=commons-text-1.13.0-cyclonedx.xml
+outputs.5.length=6692
+outputs.5.checksums.sha512=dbd7a328d3ce8e8e46b13f310c49a4337db6359c55fc8e4ae93304a140668796ea5b7d2f5a3fd087ff192816696fb0d250cae321583afe17b7ac5c891720539a
+
+outputs.6.groupId=org.apache.commons
+outputs.6.filename=commons-text-1.13.0-cyclonedx.json
+outputs.6.length=7262
+outputs.6.checksums.sha512=8f74f521437a8b961c7dd2286a6399ec9f48119cbbb399c7b8a0993eb54412d073756dd7ce5201af4b659ad5eb9a598790a3eb883175f99feb69bc1abbb5ce90
+# ignored commons-text-1.13.0.spdx.json
