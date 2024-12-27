@@ -1,0 +1,9 @@
+version=4.5.0-M3
+ok=7
+ko=0
+ignored=1
+okFiles="commons-collections4-4.5.0-M3.pom commons-collections4-4.5.0-M3.jar commons-collections4-4.5.0-M3-tests.jar commons-collections4-4.5.0-M3-sources.jar commons-collections4-4.5.0-M3-test-sources.jar commons-collections4-4.5.0-M3-cyclonedx.xml commons-collections4-4.5.0-M3-cyclonedx.json"
+koFiles=""
+ignoredFiles="commons-collections4-4.5.0-M3.spdx.json"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
