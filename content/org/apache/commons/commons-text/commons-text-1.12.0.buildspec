@@ -1,0 +1,18 @@
+groupId=org.apache.commons
+artifactId=commons-text
+display=${groupId}:${artifactId}
+version=1.12.0
+
+gitRepo=https://github.com/apache/commons-text.git
+gitTag=rel/commons-text-${version}
+
+tool=mvn
+jdk=17
+newline=lf
+#umask=022
+
+command="mvn clean verify -DskipTests -Dgpg.skip -Dmaven.javadoc.skip -Dbuildinfo.ignore='*/*.spdx.*'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
