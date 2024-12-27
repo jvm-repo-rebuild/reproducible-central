@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi.git)
 
-<details><summary>This project defines 900 modules:</summary>
+<details><summary>This project defines 902 modules:</summary>
 
 * [org.apache.nifi.minifi:minifi](https://central.sonatype.com/artifact/org.apache.nifi.minifi/minifi/overview)
 * [org.apache.nifi.minifi:minifi-assembly](https://central.sonatype.com/artifact/org.apache.nifi.minifi/minifi-assembly/overview)
@@ -727,6 +727,7 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-security-kerberos](https://central.sonatype.com/artifact/org.apache.nifi/nifi-security-kerberos/overview)
 * [org.apache.nifi:nifi-security-kerberos-api](https://central.sonatype.com/artifact/org.apache.nifi/nifi-security-kerberos-api/overview)
 * [org.apache.nifi:nifi-security-kms](https://central.sonatype.com/artifact/org.apache.nifi/nifi-security-kms/overview)
+* [org.apache.nifi:nifi-security-proxied-entity](https://central.sonatype.com/artifact/org.apache.nifi/nifi-security-proxied-entity/overview)
 * [org.apache.nifi:nifi-security-socket-ssl](https://central.sonatype.com/artifact/org.apache.nifi/nifi-security-socket-ssl/overview)
 * [org.apache.nifi:nifi-security-ssl](https://central.sonatype.com/artifact/org.apache.nifi/nifi-security-ssl/overview)
 * [org.apache.nifi:nifi-security-utils](https://central.sonatype.com/artifact/org.apache.nifi/nifi-security-utils/overview)
@@ -848,6 +849,7 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-toolkit-api](https://central.sonatype.com/artifact/org.apache.nifi/nifi-toolkit-api/overview)
 * [org.apache.nifi:nifi-toolkit-assembly](https://central.sonatype.com/artifact/org.apache.nifi/nifi-toolkit-assembly/overview)
 * [org.apache.nifi:nifi-toolkit-cli](https://central.sonatype.com/artifact/org.apache.nifi/nifi-toolkit-cli/overview)
+* [org.apache.nifi:nifi-toolkit-client](https://central.sonatype.com/artifact/org.apache.nifi/nifi-toolkit-client/overview)
 * [org.apache.nifi:nifi-toolkit-encrypt-config](https://central.sonatype.com/artifact/org.apache.nifi/nifi-toolkit-encrypt-config/overview)
 * [org.apache.nifi:nifi-toolkit-flowanalyzer](https://central.sonatype.com/artifact/org.apache.nifi/nifi-toolkit-flowanalyzer/overview)
 * [org.apache.nifi:nifi-toolkit-flowfile-repo](https://central.sonatype.com/artifact/org.apache.nifi/nifi-toolkit-flowfile-repo/overview)
@@ -911,13 +913,13 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-zendesk-services-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-zendesk-services-nar/overview)
 </details>
 
-rebuilding **13 releases** of org.apache.nifi:nifi:
+rebuilding **14 releases** of org.apache.nifi:nifi:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 14 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.1.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.1.0/pom) | | | |
+| [2.1.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.1.0/pom) | [mvn jdk21](nifi-2.1.0.buildspec) | [result](nifi-2.1.0.buildinfo): [1540 :white_check_mark:  106 :warning:](nifi-2.1.0.buildcompare) | 1.6G |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0/pom) | [mvn jdk21](nifi-2.0.0.buildspec) | [result](nifi-2.0.0.buildinfo): [1565 :white_check_mark:  76 :warning:](nifi-2.0.0.buildcompare) [:mag:](nifi-2.0.0.diffoscope) | 1.6G |
 | [2.0.0-M4](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0-M4/pom) | [mvn jdk21](nifi-2.0.0-M4.buildspec) | [result](nifi-2.0.0-M4.buildinfo): [1672 :white_check_mark:  73 :warning:](nifi-2.0.0-M4.buildcompare) | 2.0G |
 | [2.0.0-M3](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0-M3/pom) | [mvn jdk21](nifi-2.0.0-M3.buildspec) | [result](nifi-2.0.0-M3.buildinfo): [1570 :white_check_mark:  45 :warning:](nifi-2.0.0-M3.buildcompare) | 2.1G |
