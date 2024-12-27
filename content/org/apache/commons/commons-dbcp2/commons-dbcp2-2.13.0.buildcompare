@@ -1,0 +1,11 @@
+version=2.13.0
+ok=5
+ko=2
+ignored=1
+okFiles="commons-dbcp2-2.13.0.pom commons-dbcp2-2.13.0.jar commons-dbcp2-2.13.0-tests.jar commons-dbcp2-2.13.0-sources.jar commons-dbcp2-2.13.0-test-sources.jar"
+koFiles="commons-dbcp2-2.13.0-cyclonedx.xml commons-dbcp2-2.13.0-cyclonedx.json"
+ignoredFiles="commons-dbcp2-2.13.0.spdx.rdf.xml"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.commons/commons-dbcp2-2.13.0-cyclonedx.xml target/commons-dbcp2-2.13.0-bom.xml
+# diffoscope target/reference/org.apache.commons/commons-dbcp2-2.13.0-cyclonedx.json target/commons-dbcp2-2.13.0-bom.json
