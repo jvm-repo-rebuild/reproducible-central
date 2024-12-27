@@ -1,3 +1,4 @@
-content/com/github/hazendaz/7zip/7zip-24.08.buildspec:24.09
-content/com/github/hazendaz/jmockit/jmockit-1.53.0.buildspec:1.55.0
-content/org/jpmml/jpmml-model/jpmml-model-1.6.8.buildspec:1.6.9
+content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.0.3.buildspec:3.1.0
+content/net/sourceforge/pmd/pmd-7.8.0.buildspec:7.9.0
+content/org/apache/ratis/ratis-thirdparty/ratis-thirdparty-1.0.7.buildspec:1.0.8
+content/org/mybatis/parent/mybatis-parent-46.buildspec:48

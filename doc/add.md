@@ -4,12 +4,12 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241226201304 --> [7zip](../content/com/github/hazendaz/7zip/README.md) | [24.08](../content/com/github/hazendaz/7zip/7zip-24.08.buildspec) :white_check_mark: | [24.09](../content/com/github/hazendaz/7zip/7zip-24.09.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/7zip/7zip-24.08.buildspec 24.09` |
-| <!-- 20241226194333 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | [1.6.8](../content/org/jpmml/jpmml-model/jpmml-model-1.6.8.buildspec) :white_check_mark: | [1.6.9](../content/org/jpmml/jpmml-model/jpmml-model-1.6.9.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-model/jpmml-model-1.6.8.buildspec 1.6.9` |
-| <!-- 20241217233655 --> [github-desktop](../content/com/github/hazendaz/git/github-desktop/README.md) | [3.4.12](../content/com/github/hazendaz/git/github-desktop/github-desktop-3.4.12.buildspec) :white_check_mark: | 3.2.9 3.2.6 3.2.4 3.2.3 3.2.2  | `bin/add-new-release.sh content/com/github/hazendaz/git/github-desktop/github-desktop-3.4.12.buildspec ...` |
-| <!-- 20241021183722 --> [jmockit-parent](../content/com/github/hazendaz/jmockit/README.md) | [1.53.0](../content/com/github/hazendaz/jmockit/jmockit-1.53.0.buildspec) :white_check_mark: | [1.55.0](../content/com/github/hazendaz/jmockit/jmockit-1.55.0.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/jmockit/jmockit-1.53.0.buildspec 1.55.0` |
-| <!-- 20241021183722 --> [jmockit-parent](../content/com/github/hazendaz/jmockit/README.md) | [1.53.0](../content/com/github/hazendaz/jmockit/jmockit-1.53.0.buildspec) :white_check_mark: | 1.54.0  | `bin/add-new-release.sh content/com/github/hazendaz/jmockit/jmockit-1.53.0.buildspec ...` |
-| <!-- 20240620095218 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | [2.5.1](../content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec) :white_check_mark: | 2.5.0 2.4.1 2.4.0 2.3.2 2.3.1 2.3.0 2.2.3 2.1.3 2.1.2 2.1.1 2.1.0  | `bin/add-new-release.sh content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec ...` |
+| <!-- 20241227130051 --> [pmd](../content/net/sourceforge/pmd/README.md) | [7.8.0](../content/net/sourceforge/pmd/pmd-7.8.0.buildspec) :white_check_mark: | [7.9.0](../content/net/sourceforge/pmd/pmd-7.9.0.buildspec) | `bin/add-new-release.sh content/net/sourceforge/pmd/pmd-7.8.0.buildspec 7.9.0` |
+| <!-- 20241227121355 --> [ratis-thirdparty](../content/org/apache/ratis/ratis-thirdparty/README.md) | [1.0.7](../content/org/apache/ratis/ratis-thirdparty/ratis-thirdparty-1.0.7.buildspec) :white_check_mark: | [1.0.8](../content/org/apache/ratis/ratis-thirdparty/ratis-thirdparty-1.0.8.buildspec) | `bin/add-new-release.sh content/org/apache/ratis/ratis-thirdparty/ratis-thirdparty-1.0.7.buildspec 1.0.8` |
+| <!-- 20241227013729 --> [displaytag-doc](../content/com/github/hazendaz/displaytag-doc/README.md) | [3.0.3](../content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.0.3.buildspec) :white_check_mark: | [3.1.0](../content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.1.0.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.0.3.buildspec 3.1.0` |
+| <!-- 20241227013729 --> [displaytag-doc](../content/com/github/hazendaz/displaytag-doc/README.md) | [3.0.3](../content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.0.3.buildspec) :white_check_mark: | 2.6.0  | `bin/add-new-release.sh content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.0.3.buildspec ...` |
+| <!-- 20241226203910 --> [mybatis-parent](../content/org/mybatis/parent/README.md) | [46](../content/org/mybatis/parent/mybatis-parent-46.buildspec) :white_check_mark: | [48](../content/org/mybatis/parent/mybatis-parent-48.buildspec) | `bin/add-new-release.sh content/org/mybatis/parent/mybatis-parent-46.buildspec 48` |
+| <!-- 20240620095218 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | [2.5.1](../content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec) :white_check_mark: | 2.5.0 2.4.1 2.3.2 2.2.3 2.1.3  | `bin/add-new-release.sh content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -28,8 +28,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD STAGING -->
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
-| <!-- 20241212071734 --> [:mailbox:](https://lists.apache.org/list?dev@sling.apache.org:lte=1M:VOTE) | [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | [2.11.6](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.6.buildspec) :warning: | [2.11.8](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.8.buildspec)  | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.6.buildspec 2.11.8 staging` |
-| <!-- 20241128032943 --> [:mailbox:](https://lists.apache.org/list?dev@ratis.apache.org:lte=1M:VOTE) | [ratis-thirdparty](../content/org/apache/ratis/ratis-thirdparty/README.md) | [1.0.7](../content/org/apache/ratis/ratis-thirdparty/ratis-thirdparty-1.0.7.buildspec) :white_check_mark: | [1.0.8](../content/org/apache/ratis/ratis-thirdparty/ratis-thirdparty-1.0.8.buildspec)  | `bin/add-new-release.sh content/org/apache/ratis/ratis-thirdparty/ratis-thirdparty-1.0.7.buildspec 1.0.8 staging` |
+| <!-- 20241024075630 --> [:mailbox:](https://lists.apache.org/list?dev@syncope.apache.org:lte=1M:VOTE) | [syncope](../content/org/apache/syncope/README.md) | [3.0.9](../content/org/apache/syncope/syncope-3.0.9.buildspec) :warning: | [4.0.0-M0](../content/org/apache/syncope/syncope-4.0.0-M0.buildspec)  | `bin/add-new-release.sh content/org/apache/syncope/syncope-3.0.9.buildspec 4.0.0-M0 staging` |
 | <!-- 20240913092416 --> [:mailbox:](https://lists.apache.org/list?dev@paimon.apache.org:lte=1M:VOTE) | [paimon-parent](../content/org/apache/paimon/README.md) | [0.9.0](../content/org/apache/paimon/paimon-parent-0.9.0.buildspec) :warning: [:memo:](https://github.com/apache/paimon/pull/4190) | [1.0.0](../content/org/apache/paimon/paimon-parent-1.0.0.buildspec)  | `bin/add-new-release.sh content/org/apache/paimon/paimon-parent-0.9.0.buildspec 1.0.0 staging` |
 | <!-- 20230920202802 --> [:mailbox:](https://lists.apache.org/list?dev@wayang.apache.org:lte=1M:VOTE) | [wayang](../content/org/apache/wayang/README.md) | [0.7.1](../content/org/apache/wayang/wayang-0.7.1.buildspec) :white_check_mark: | [1.0.0-RC3](../content/org/apache/wayang/wayang-1.0.0-RC3.buildspec)  | `bin/add-new-release.sh content/org/apache/wayang/wayang-0.7.1.buildspec 1.0.0-RC3 staging` |
 <!-- END GENERATED ADD STAGING -->
@@ -39,8 +38,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20241227183453 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.67.10](../content/org/finos/legend/engine/legend-engine-4.67.10.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.67.10` |
+| <!-- 20241226222731 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | [2.11.6](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.6.buildspec) :warning: | [2.11.8](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.8.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.6.buildspec 2.11.8` |
 | <!-- 20241223223827 --> [nifi](../content/org/apache/nifi/nifi/README.md) | [2.0.0](../content/org/apache/nifi/nifi/nifi-2.0.0.buildspec) :warning: | [2.1.0](../content/org/apache/nifi/nifi/nifi-2.1.0.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-2.0.0.buildspec 2.1.0` |
-| <!-- 20241223162912 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.67.9](../content/org/finos/legend/engine/legend-engine-4.67.9.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.67.9` |
 | <!-- 20241221170212 --> [logback-parent](../content/ch/qos/logback/README.md) | [1.5.13](../content/ch/qos/logback/logback-1.5.13.buildspec) :x: | [1.5.15](../content/ch/qos/logback/logback-1.5.15.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/logback-1.5.13.buildspec 1.5.15` |
 | <!-- 20241220140350 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | [5.2.3](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.2.3.buildspec) :x: | [5.3.5](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.3.5.buildspec) | `bin/add-new-release.sh content/io/github/chains-project/maven-lockfile/maven-lockfile-5.2.3.buildspec 5.3.5` |
 | <!-- 20241220093958 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.9.0](../content/org/apache/camel/camel/camel-4.9.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.9.0` |
@@ -72,9 +72,9 @@ New Releases To Add
 | <!-- 20241218050201 --> [kubernetes-client-project](../content/io/fabric8/kubernetes-client/README.md) | 7.0.1 :warning: |
 | <!-- 20241217223309 --> [trino-root](../content/io/trino/README.md) | 468 :x: |
 | <!-- 20241216231422 --> [maven](../content/org/apache/maven/maven/README.md) | 4.0.0-rc-2 :warning: |
+| <!-- 20241216105905 --> [org.apache.sling.commons.log.webconsole](../content/org/apache/sling/org.apache.sling.commons.log.webconsole/README.md) | 1.0.2 :warning: |
 | <!-- 20241215214119 --> [plexus-utils](../content/org/codehaus/plexus/plexus-utils/README.md) | 4.0.2 :warning: |
 | <!-- 20241215091021 --> [byte-buddy-parent](../content/net/bytebuddy/README.md) | 1.15.11 :x: |
-| <!-- 20241212071734 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 2.11.6 :warning: |
 | <!-- 20241210081421 --> [io.wcm.handler.link](../content/io/wcm/io.wcm.handler/link/README.md) | 2.2.4 :warning: |
 | <!-- 20241210081249 --> [io.wcm.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | 2.3.0 :warning: |
 | <!-- 20241209231051 --> [jooby](../content/io/jooby/README.md) | 3.5.5 :warning: |
@@ -83,6 +83,8 @@ New Releases To Add
 | <!-- 20241207221427 --> [compiler](../content/org/apache/royale/compiler/README.md) | 0.9.12 :warning: |
 | <!-- 20241204065136 --> [yupiik-tools-maven-plugin-parent](../content/io/yupiik/maven/plugin/README.md) | 1.2.5 :warning: |
 | <!-- 20241203144539 --> [pulsar](../content/org/apache/pulsar/README.md) | 4.0.1 :warning: |
+| <!-- 20241202181948 --> [commons-dbcp2](../content/org/apache/commons/commons-dbcp2/README.md) | 2.13.0 :warning: |
+| <!-- 20241201082316 --> [org.apache.sling.distribution.core](../content/org/apache/sling/org.apache.sling.distribution.core/README.md) | 0.6.0 :warning: |
 | <!-- 20241129071420 --> [license-maven-plugin](../content/org/codehaus/mojo/license-maven-plugin/README.md) | 2.5.0 :warning: |
 | <!-- 20241127152503 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 3.0.4 :warning: |
 | <!-- 20241126142609 --> [mybatis](../content/org/mybatis/mybatis/README.md) | 3.5.17 :warning: |
@@ -133,6 +135,7 @@ New Releases To Add
 | <!-- 20240712083513 --> [jdplus-incubator](../content/eu/europa/ec/joinup/sat/jdplus-incubator/README.md) | 2.2.0 :warning: |
 | <!-- 20240708084644 --> [io.wcm.wcm.commons](../content/io/wcm/io.wcm.wcm/commons/README.md) | 1.11.0 :warning: |
 | <!-- 20240704232838 --> [hk2-parent](../content/org/glassfish/hk2/README.md) | 4.0.0-M3 :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/1071) |
+| <!-- 20240627192818 --> [commons-email2-parent](../content/org/apache/commons/email2/README.md) | 2.0.0-M1 :warning: |
 | <!-- 20240627094116 --> [java-sql-parent](../content/com/github/nbbrd/java-sql-util/README.md) | 1.0.6 :warning: |
 | <!-- 20240623065435 --> [drill-root](../content/org/apache/drill/README.md) | 1.21.2 :warning: |
 | <!-- 20240617100002 --> [jspwiki-builder](../content/org/apache/jspwiki/README.md) | 2.12.2 :warning: [:memo:](https://issues.apache.org/jira/browse/JSPWIKI-1202) |
@@ -166,6 +169,7 @@ New Releases To Add
 | <!-- 20230916081916 --> [org.apache.felix.healthcheck.core](../content/org/apache/felix/org.apache.felix.healthcheck.core/README.md) | 2.2.0 :warning: [:memo:](https://github.com/apache/felix-dev/pull/234) |
 | <!-- 20230818102937 --> [microservice-security-autoconfiguration](../content/io/dwpbank/movewp3/microservice-security-autoconfiguration/README.md) | 3.0.2 :warning: [:memo:](https://github.com/movewp3/microservice-security-autoconfiguration/pull/19) |
 | <!-- 20230721020416 --> [auto-record](../content/pl/com/labaj/auto-record/README.md) | 2.1.0 :x: |
+| <!-- 20230713001648 --> [org.apache.sling.scripting.groovy](../content/org/apache/sling/org.apache.sling.scripting.groovy/README.md) | 1.3.0 :warning: |
 | <!-- 20230620223800 --> [xml-maven-plugin](../content/org/codehaus/mojo/xml-maven-plugin/README.md) | 1.1.0 :warning: |
 | <!-- 20230510171047 --> [Apache-Synapse](../content/org/apache/synapse/README.md) | 3.0.2 :warning: [:memo:](https://issues.apache.org/jira/browse/SYNAPSE-1128) |
 | <!-- 20230305132220 --> [jarviz-core](../content/org/kordamp/jarviz/README.md) | 0.3.0 :warning: |
@@ -180,11 +184,13 @@ New Releases To Add
 | <!-- 20221021224206 --> [quick-sql-test-data](../content/org/quickperf/quick-sql-test-data/README.md) | 0.1 :warning: |
 | <!-- 20220916141422 --> [gemLibPki](../content/de/gematik/pki/gemlibpki-old/README.md) | 0.9.3 :warning: |
 | <!-- 20220821195753 --> [org.apache.sling.pipes](../content/org/apache/sling/org.apache.sling.pipes/README.md) | 4.5.0 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-pipes/pull/20) |
+| <!-- 20220803085924 --> [org.apache.sling.discovery.commons](../content/org/apache/sling/org.apache.sling.discovery.commons/README.md) | 1.0.28 :warning: |
 | <!-- 20220720235831 --> [axis2](../content/org/apache/axis2/README.md) | 1.8.2 :warning: |
 | <!-- 20220525193321 --> [jdo](../content/org/apache/jdo/README.md) | 3.2.1 :warning: [:memo:](https://github.com/apache/db-jdo/pull/49) |
 | <!-- 20220525171200 --> [axiom](../content/org/apache/ws/commons/axiom/README.md) | 1.4.0 :warning: |
 | <!-- 20220420183148 --> [logback-parent-db](../content/ch/qos/logback/db/README.md) | 1.2.11.1 :warning: [:memo:](https://github.com/qos-ch/logback-db/pull/2) |
 | <!-- 20220318151210 --> [org.apache.sling.starter](../content/org/apache/sling/org.apache.sling.starter/README.md) | 12 :warning: |
+| <!-- 20220314110853 --> [org.apache.sling.launchpad.testing](../content/org/apache/sling/org.apache.sling.launchpad.testing/README.md) | 12 :warning: |
 | <!-- 20220313222929 --> [ftpserver-parent](../content/org/apache/mina/ftpserver/README.md) | 1.2.0 :warning: [:memo:](https://github.com/apache/mina-ftpserver/pull/13) |
 | <!-- 20220303223913 --> [apache-any23](../content/org/apache/any23/README.md) | 2.7 :warning: [:memo:](https://github.com/apache/any23/pull/270) |
 | <!-- 20220228062841 --> [isis-parent](../content/org/apache/isis/README.md) | 2.0.0-M7 :warning: |

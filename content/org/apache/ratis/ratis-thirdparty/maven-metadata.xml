@@ -3,8 +3,8 @@
   <groupId>org.apache.ratis</groupId>
   <artifactId>ratis-thirdparty</artifactId>
   <versioning>
-    <latest>1.0.7</latest>
-    <release>1.0.7</release>
+    <latest>1.0.8</latest>
+    <release>1.0.8</release>
     <versions>
       <version>0.1.0</version>
       <version>0.2.0</version>
@@ -21,7 +21,8 @@
       <version>1.0.5</version>
       <version>1.0.6</version>
       <version>1.0.7</version>
+      <version>1.0.8</version>
     </versions>
-    <lastUpdated>20241128032943</lastUpdated>
+    <lastUpdated>20241227121355</lastUpdated>
   </versioning>
 </metadata>
