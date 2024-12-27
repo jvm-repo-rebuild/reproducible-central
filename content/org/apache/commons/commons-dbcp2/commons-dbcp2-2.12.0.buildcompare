@@ -1,0 +1,9 @@
+version=2.12.0
+ok=7
+ko=0
+ignored=1
+okFiles="commons-dbcp2-2.12.0.pom commons-dbcp2-2.12.0.jar commons-dbcp2-2.12.0-tests.jar commons-dbcp2-2.12.0-sources.jar commons-dbcp2-2.12.0-test-sources.jar commons-dbcp2-2.12.0-cyclonedx.xml commons-dbcp2-2.12.0-cyclonedx.json"
+koFiles=""
+ignoredFiles="commons-dbcp2-2.12.0.spdx.rdf.xml"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons DBCP
+group-id=org.apache.commons
+artifact-id=commons-dbcp2
+version=2.12.0
+
+# source information
+source.scm.uri=scm:git:http://gitbox.apache.org/repos/asf/commons-dbcp.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-dbcp2-2.12.0.pom
+outputs.0.length=17621
+outputs.0.checksums.sha512=6569b45c96db5b4587cdbb0f5bac3d75fd8bd07c640d101f5b5a70370068117119d154c4e2ea05709cb406953c06e22609a1a86ed9b6cfb7f971fc6b4b1a4f46
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-dbcp2-2.12.0.jar
+outputs.1.length=218071
+outputs.1.checksums.sha512=f0a30c8115f9e497eda15c66c5b2e87e97ed9196100d6afd4513640c62727d014821ad55fb26c063465e710c94aefa08507ed0c4054fbca11aa8ba1234e2ff2b
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-dbcp2-2.12.0-tests.jar
+outputs.2.length=287290
+outputs.2.checksums.sha512=c1fbe0ef2655f32ec8c04ce853d5418176d16bf84f7af94193d8e37c465ef9e26c150e35c9ef0e35fdabfb366f9a49596212c01280f3524198323eaeb00980fe
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-dbcp2-2.12.0-sources.jar
+outputs.3.length=195870
+outputs.3.checksums.sha512=a35d60fcc5835be64f93049823c17c65bd34ceb6fb4c444de122be5e2ea9039dd1df755ff7dd80c2a82a120a8e4dea1beb2d4f178efd8762e00b42e491c17bdb
+
+outputs.4.groupId=org.apache.commons
+outputs.4.filename=commons-dbcp2-2.12.0-test-sources.jar
+outputs.4.length=162209
+outputs.4.checksums.sha512=2262f12da577c7458ef7e12c57ecea399be2837b6a0a675355859e78c337aa961e9a0f99225ad0d15e64ca25b321fb6aaea1aa4ec8e65350c9ace7eeb15eee22
+
+outputs.5.groupId=org.apache.commons
+outputs.5.filename=commons-dbcp2-2.12.0-cyclonedx.xml
+outputs.5.length=10324
+outputs.5.checksums.sha512=3b4e2a3066085d3ea0ecb1e1c8106ed0b817a7939e85df7fd4d6d2cd386206f1d2a774e77998f25e1c39c577d784c02078d470f2b7998f8af175a22de3f7bc89
+
+outputs.6.groupId=org.apache.commons
+outputs.6.filename=commons-dbcp2-2.12.0-cyclonedx.json
+outputs.6.length=12159
+outputs.6.checksums.sha512=f128916347a2a72e8dd7705f54049041814e40765f75536c10ef18fa43ca1d7e5a77a74a74aa10f446927be35189f3d092edf6abc9436c616eddce293bfa590a
+# ignored commons-dbcp2-2.12.0.spdx.rdf.xml
