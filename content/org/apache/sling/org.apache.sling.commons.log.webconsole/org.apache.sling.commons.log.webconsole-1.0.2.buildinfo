@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Commons Log WebConsole
+group-id=org.apache.sling
+artifact-id=org.apache.sling.commons.log.webconsole
+version=1.0.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-log-webconsole.git
+source.scm.tag=org.apache.sling.commons.log.webconsole-1.0.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.commons.log.webconsole-1.0.2.pom
+outputs.0.length=18265
+outputs.0.checksums.sha512=2c34956e9ac9921b2b9d928c6a01fe9bb11b63086be241548eca7bd1ec9540f8a821ae1d607ee3765736167e18544605a1b3e00c5a9047c828704bc84e2aabcd
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.commons.log.webconsole-1.0.2.jar
+outputs.1.length=37366
+outputs.1.checksums.sha512=ce9dca1a971f114caf83cbd142afdc9be10b2fc4ad02febda024d0fbc8ffb5441914f101021a9d29dfc02939714dc6ec2c63bac494d08d297975c69b60fc66d6
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.commons.log.webconsole-1.0.2-source-release.zip
+outputs.2.length=53692
+outputs.2.checksums.sha512=74659a9eca2cdcc794be2c70cdde082a694434d385294a58225c85803b24493af97634bf99744f1a3c4f7427fd3d6832fb3afdaa63e6542d070f0162302e9504
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.commons.log.webconsole-1.0.2-sources.jar
+outputs.3.length=33209
+outputs.3.checksums.sha512=b716ab47b7f5f71f0e66396d79d217bf443d90cae8c8d2e16b9e102307ff04ee3e5fadf004b39b8ff8b90624e9bedf87c4c984847165457f121515d403c08241
