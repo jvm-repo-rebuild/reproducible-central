@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/pmd/pmd.git](https://github.com/pmd/pmd.git)
 
-<details><summary>This project defines 47 modules:</summary>
+<details><summary>This project defines 48 modules:</summary>
 
 * [net.sourceforge.pmd:pmd](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/overview)
 * [net.sourceforge.pmd:pmd-ant](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-ant/overview)
@@ -44,6 +44,7 @@ Source code: [https://github.com/pmd/pmd.git](https://github.com/pmd/pmd.git)
 * [net.sourceforge.pmd:pmd-plsql](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-plsql/overview)
 * [net.sourceforge.pmd:pmd-python](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-python/overview)
 * [net.sourceforge.pmd:pmd-ruby](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-ruby/overview)
+* [net.sourceforge.pmd:pmd-rust](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-rust/overview)
 * [net.sourceforge.pmd:pmd-scala](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-scala/overview)
 * [net.sourceforge.pmd:pmd-scala-common](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-scala-common/overview)
 * [net.sourceforge.pmd:pmd-scala_2.12](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-scala_2.12/overview)
@@ -58,13 +59,13 @@ Source code: [https://github.com/pmd/pmd.git](https://github.com/pmd/pmd.git)
 * [net.sourceforge.pmd:pmd-xml](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-xml/overview)
 </details>
 
-rebuilding **45 releases** of net.sourceforge.pmd:pmd:
-- **40** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **46 releases** of net.sourceforge.pmd:pmd:
+- **41** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [7.9.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.9.0/pom) | | | |
+| [7.9.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.9.0/pom) | [mvn jdk11](pmd-7.9.0.buildspec) | [result](pmd-7.9.0.buildinfo): [210 :white_check_mark: ](pmd-7.9.0.buildcompare) | 18M |
 | [7.8.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.8.0/pom) | [mvn jdk11](pmd-7.8.0.buildspec) | [result](pmd-7.8.0.buildinfo): [205 :white_check_mark: ](pmd-7.8.0.buildcompare) | 18M |
 | [7.7.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.7.0/pom) | [mvn jdk11](pmd-7.7.0.buildspec) | [result](pmd-7.7.0.buildinfo): [205 :white_check_mark: ](pmd-7.7.0.buildcompare) | 18M |
 | [7.6.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.6.0/pom) | [mvn jdk11](pmd-7.6.0.buildspec) | [result](pmd-7.6.0.buildinfo): [205 :white_check_mark: ](pmd-7.6.0.buildcompare) | 18M |
