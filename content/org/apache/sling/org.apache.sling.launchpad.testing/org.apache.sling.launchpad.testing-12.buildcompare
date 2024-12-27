@@ -1,0 +1,10 @@
+version=12
+ok=5
+ko=1
+ignored=0
+okFiles="org.apache.sling.launchpad.testing-12.pom org.apache.sling.launchpad.testing-12.jar org.apache.sling.launchpad.testing-12-source-release.zip org.apache.sling.launchpad.testing-12-sources.jar org.apache.sling.launchpad.testing-12-model.slingosgifeature"
+koFiles="org.apache.sling.launchpad.testing-12-testing-oak_tar.slingosgifeature"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling/org.apache.sling.launchpad.testing-12-testing-oak_tar.slingosgifeature target/slingfeature-tmp/feature-testing-oak_tar.json

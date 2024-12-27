@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Launchpad Testing
+group-id=org.apache.sling
+artifact-id=org.apache.sling.launchpad.testing
+version=12
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-launchpad-testing.git
+source.scm.tag=org.apache.sling.launchpad.testing-12
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.launchpad.testing-12.pom
+outputs.0.length=12769
+outputs.0.checksums.sha512=87767621ed073a652068a8311f25de97445fb1f34c5c8b5bfc1462bd2a17e32a764816c3b86d98fa4567fd6b6a214cc35565102ebf3df69de63a1a541925dd8c
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.launchpad.testing-12.jar
+outputs.1.length=8802
+outputs.1.checksums.sha512=183c05c10ca1dca6dbe2d890fd703697f27edc71290920bede62049b55bc3e0d56023d55ed16f97f8798e35e93f56afc8467f921abf3851aa2e4533116788dc8
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.launchpad.testing-12-source-release.zip
+outputs.2.length=14314
+outputs.2.checksums.sha512=2daf35273f61e2d483261291110e36ee7b540d34c91ff7760c0f0bac09baf2cee647ca554841d90df22bf1abe72323e2a6b6a9bf6cb7804621c0c194aee1787c
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.launchpad.testing-12-sources.jar
+outputs.3.length=8697
+outputs.3.checksums.sha512=c921924f1481f1294575a50aeb5eec673bc64d55c3c3673e467460e8e31d6c7e06d8efc8733ceff745bbf45b71d7966492ddd13f6a4febc5296f483342afa72c
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.launchpad.testing-12-model.slingosgifeature
+outputs.4.length=1449
+outputs.4.checksums.sha512=de000a25b56bf554e309cedd9c6372de96fbb9860b1a833ab50b61e2149a9c2a90e83052ab5bcbe0b06ebd68c3100cfdbab837de6d57337738a3801b2018f3c3
+
+outputs.5.groupId=org.apache.sling
+outputs.5.filename=org.apache.sling.launchpad.testing-12-testing-oak_tar.slingosgifeature
+outputs.5.length=98171
+outputs.5.checksums.sha512=1940de948a9fdd89901e878fc62b119a65c5e87037cfd72716bed17afc177d61c8d02451f1c0ff21ddd7089e7ca6dd4b6958c67d2bf65a6de7cb891532f66719
