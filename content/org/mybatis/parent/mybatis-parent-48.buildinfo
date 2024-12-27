@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis-parent
+group-id=org.mybatis
+artifact-id=mybatis-parent
+version=48
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/parent.git
+source.scm.tag=mybatis-parent-48
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.mybatis
+outputs.0.filename=mybatis-parent-48.pom
+outputs.0.length=49851
+outputs.0.checksums.sha512=4e564d68319302d17ea8e002307f2f718c2c40cdffbbf270d229f8a016da2e74986602f1661cbab9157291d641706a872e56a7940de15b14e53439c1d01c4156
+
+outputs.1.groupId=org.mybatis
+outputs.1.filename=mybatis-parent-48-site.xml
+outputs.1.length=1500
+outputs.1.checksums.sha512=7735ee75a979dc0c6e62840b816fa4b4e8cdc31487e2bd0605e274dbf64626b646d77617bd824ceb0ac3877f0a4c18fcd5cd66c6ad198507593cc9a3b2d797ac
