@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Testing Rules
+group-id=org.apache.sling
+artifact-id=org.apache.sling.testing.rules
+version=2.0.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-testing-rules.git
+source.scm.tag=org.apache.sling.testing.rules-2.0.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.testing.rules-2.0.2.pom
+outputs.0.length=4049
+outputs.0.checksums.sha512=8234ee1d3479493249ce4c937f1b1376dae5740802caa2a28f6a146eae4446692de7a1a3af6d0d0ba4fedc6ae9cd179991c59db22a77f607d6cd3c6759d66450
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.testing.rules-2.0.2.jar
+outputs.1.length=50992
+outputs.1.checksums.sha512=12f7683918e9dc49a336271706c2a0a0e195067fef2185f01b5ad140bc453ae384629adae71cc227de2f99c37237164f4d1200705abc668473e5a95dee933aa5
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.testing.rules-2.0.2-source-release.zip
+outputs.2.length=81283
+outputs.2.checksums.sha512=6c1d3ba84f11339ae877e6e9bd8cf4879d2e67187c7a0b0988835960063cbafadd034742d89cb1ff6332ed949a94136fde697fdaff578e22c3f70afac6ad5863
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.testing.rules-2.0.2-sources.jar
+outputs.3.length=52072
+outputs.3.checksums.sha512=347d47f206a28c1e2f5fde129ef50c806cc1b3359d748f1b3800a607a70aebd994111eb1c886b91071f9cce9efb0eece16beb1f298f3c850c2137e4cd26f5c03
