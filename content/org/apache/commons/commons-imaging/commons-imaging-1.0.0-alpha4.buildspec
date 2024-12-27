@@ -1,0 +1,18 @@
+groupId=org.apache.commons
+artifactId=commons-imaging
+display=${groupId}:${artifactId}
+version=1.0.0-alpha4
+
+gitRepo=https://github.com/apache/commons-imaging.git
+gitTag=rel/commons-imaging-${version}
+
+tool=mvn
+jdk=17
+newline=lf
+#umask=022
+
+command="mvn clean verify -DskipTests -Dgpg.skip -Dmaven.javadoc.skip -Dbuildinfo.ignore='*/*.spdx.*'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
