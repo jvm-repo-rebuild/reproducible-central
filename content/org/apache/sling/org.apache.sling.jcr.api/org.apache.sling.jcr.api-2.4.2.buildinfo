@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling JCR API
+group-id=org.apache.sling
+artifact-id=org.apache.sling.jcr.api
+version=2.4.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-jcr-api.git
+source.scm.tag=org.apache.sling.jcr.api-2.4.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.jcr.api-2.4.2.pom
+outputs.0.length=2797
+outputs.0.checksums.sha512=6b7d13c9bdd445f768415535d4b5e0522592991681eae81d17b6e8d5a0586b21c5ac718f8e60e91f4a572f5764c4f41c93f5a03be7a51f651a49f7e33b44e3e1
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.jcr.api-2.4.2.jar
+outputs.1.length=13500
+outputs.1.checksums.sha512=0196ae0c858cc62adf31334bed6a79d376bce1dc4e297520dfc26b23b6271bf8cc3d3ecee77fe6bac29de8afbef0615d2a1a6b6ebd33f6238ba09b305d70cae7
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.jcr.api-2.4.2-source-release.zip
+outputs.2.length=25863
+outputs.2.checksums.sha512=db0380a392013c17c309b4f53950598e7dc98bbb2aeacfc7ec1d4d8bf045c7b084578dc901ad84248e84172efb17e87a8e8ee68ce749c50fe88df92c80fe45f8
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.jcr.api-2.4.2-sources.jar
+outputs.3.length=16565
+outputs.3.checksums.sha512=f7724faec084f7b395db46347c961939985f1f268374cac9176586f6c4f9b48b9dca49600e9395d29e2f0c675adc698f662848070e9a4dd9b53360898ed2fc96
