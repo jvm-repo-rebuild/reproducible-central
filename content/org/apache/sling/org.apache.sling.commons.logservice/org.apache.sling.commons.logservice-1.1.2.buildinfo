@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling OSGi LogService Implementation
+group-id=org.apache.sling
+artifact-id=org.apache.sling.commons.logservice
+version=1.1.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-logservice.git
+source.scm.tag=org.apache.sling.commons.logservice-1.1.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.commons.logservice-1.1.2.pom
+outputs.0.length=4816
+outputs.0.checksums.sha512=5e9d7d8135a4da01e99f797ee54c667eb34e9213db1b4f65e2357a82f838f5bb3f6d7582df811ca628e5faf90241c55186b6787c772adcb985d1805f15c43d39
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.commons.logservice-1.1.2.jar
+outputs.1.length=14890
+outputs.1.checksums.sha512=5e4e209404d93a83c9bd1835fa3fb6a81a6fdc966c69aec78117f5783bae80474d255089ff55834036d07c870e114f882120c12b74d4ee5c542629ef4324ce76
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.commons.logservice-1.1.2-source-release.zip
+outputs.2.length=16483
+outputs.2.checksums.sha512=ae01ac97296b5abcc8228a0bd328107c7041cf9ffa8a995b6427faf7cda3c200c082eb7d8f4954e0dfbdb9bbf1b7ab5cffc68dd9cfea0761ed541284948d79c9
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.commons.logservice-1.1.2-sources.jar
+outputs.3.length=11702
+outputs.3.checksums.sha512=5cafd76ab743e2720cb59ee038c6e8ec4d10089e7b9b1b86d8e0ad74acd11053866c723542f2b8679355e4c6a9ec407a3cc74215f8d7a467aef5dcaddf483bd2
