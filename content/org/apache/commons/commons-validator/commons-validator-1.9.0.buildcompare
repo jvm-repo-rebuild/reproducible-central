@@ -1,0 +1,9 @@
+version=1.9.0
+ok=7
+ko=0
+ignored=1
+okFiles="commons-validator-1.9.0.pom commons-validator-1.9.0.jar commons-validator-1.9.0-tests.jar commons-validator-1.9.0-sources.jar commons-validator-1.9.0-test-sources.jar commons-validator-1.9.0-cyclonedx.xml commons-validator-1.9.0-cyclonedx.json"
+koFiles=""
+ignoredFiles="commons-validator-1.9.0.spdx.json"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
