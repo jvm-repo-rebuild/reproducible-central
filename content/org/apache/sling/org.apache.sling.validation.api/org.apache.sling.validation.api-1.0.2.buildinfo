@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Validation Framework API
+group-id=org.apache.sling
+artifact-id=org.apache.sling.validation.api
+version=1.0.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-validation-api.git
+source.scm.tag=org.apache.sling.validation.api-1.0.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.validation.api-1.0.2.pom
+outputs.0.length=2812
+outputs.0.checksums.sha512=56390ec6f66cf2148b437577f2c41315090736d2dc3cd7336086c2f913de2ad022cc5704fe46a493b5f9dfa2c037fe1958299844595dccc66954dd0e5df7311e
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.validation.api-1.0.2.jar
+outputs.1.length=20421
+outputs.1.checksums.sha512=72cf588402b7e7238d2cd741ad13392fd870e9f8237034f63d2edcf673ee713e4a75af29be78f37b83064cd96a24f16a9623b00eba75058671ca9784f9ce8be8
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.validation.api-1.0.2-source-release.zip
+outputs.2.length=36767
+outputs.2.checksums.sha512=bde690fb902eab888b66589b0f5081ccf1074651722c7f56be9d823a555493cf1e328a275ba4d21ec52383b49acf050af9bde666e51b2a06dcedc36cf3068c5e
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.validation.api-1.0.2-sources.jar
+outputs.3.length=30394
+outputs.3.checksums.sha512=2ac3b74c7e17abc5f1fb35f6b59c24a85ad335a382657bf77248eb34308dc406b714ad2cb7472f33504b33e6f1e11b9bf556cb1f173f783bb885141fea67fa25
