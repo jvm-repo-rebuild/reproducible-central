@@ -6,7 +6,7 @@ version=3.1.0
 gitRepo=https://github.com/hazendaz/displaytag.git
 gitTag=${artifactId}-${version}
 
-tool=mvn-3.9.6
+tool=mvn-3.9.9
 jdk=21
 newline=crlf
 umask=022
