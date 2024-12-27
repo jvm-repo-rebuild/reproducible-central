@@ -1,0 +1,9 @@
+version=1.12.0
+ok=7
+ko=0
+ignored=1
+okFiles="commons-text-1.12.0.pom commons-text-1.12.0.jar commons-text-1.12.0-tests.jar commons-text-1.12.0-sources.jar commons-text-1.12.0-test-sources.jar commons-text-1.12.0-cyclonedx.xml commons-text-1.12.0-cyclonedx.json"
+koFiles=""
+ignoredFiles="commons-text-1.12.0.spdx.json"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
