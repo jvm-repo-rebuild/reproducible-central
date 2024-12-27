@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Discovery API
+group-id=org.apache.sling
+artifact-id=org.apache.sling.discovery.api
+version=1.0.6
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-discovery-api.git
+source.scm.tag=org.apache.sling.discovery.api-1.0.6
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.discovery.api-1.0.6.pom
+outputs.0.length=2316
+outputs.0.checksums.sha512=a7641d1a9af522e62aaea3df606dcdcdacedd0cb5399ef23177885f8469ba1913cd39f5cbfe5fecf0bace52c158d4883600eb6665a5f7327cbce86dacf0153b3
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.discovery.api-1.0.6.jar
+outputs.1.length=13217
+outputs.1.checksums.sha512=e184afc256e23afdb84a9d434e2785631261e98027195bb723abf90956de0878a27765a8b3a7fa390fe102bfd3cc9e3ff72d682104b7827708eec5b88535c13c
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.discovery.api-1.0.6-source-release.zip
+outputs.2.length=24147
+outputs.2.checksums.sha512=a0291dc2999d761672b2724a2b193750ffd92b3d5b33861d4f105ff880d0fa62bf2e249350baeb8943d3bc901231ef6bca2ea732f5e8d164a93db99c086ea0e7
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.discovery.api-1.0.6-sources.jar
+outputs.3.length=19432
+outputs.3.checksums.sha512=b59db51aa7c42d13d50ad9b5f377db6f8df32725b2ce9a7a3dfce9a3f403b5b5ed253a0590c787b7744d82ad5def0a9cda0f20fcea9f371cb5d82d598ecf5859
