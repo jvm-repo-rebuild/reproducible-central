@@ -1,0 +1,10 @@
+version=1.0.0-alpha4
+ok=6
+ko=1
+ignored=1
+okFiles="commons-imaging-1.0.0-alpha4.pom commons-imaging-1.0.0-alpha4.jar commons-imaging-1.0.0-alpha4-tests.jar commons-imaging-1.0.0-alpha4-sources.jar commons-imaging-1.0.0-alpha4-cyclonedx.xml commons-imaging-1.0.0-alpha4-cyclonedx.json"
+koFiles="commons-imaging-1.0.0-alpha4-test-sources.jar"
+ignoredFiles="commons-imaging-1.0.0-alpha4.spdx.json"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.commons/commons-imaging-1.0.0-alpha4-test-sources.jar target/commons-imaging-1.0.0-alpha4-test-sources.jar
