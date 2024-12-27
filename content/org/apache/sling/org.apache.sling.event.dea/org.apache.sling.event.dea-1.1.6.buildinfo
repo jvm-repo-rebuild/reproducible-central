@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Distributed Event Admin
+group-id=org.apache.sling
+artifact-id=org.apache.sling.event.dea
+version=1.1.6
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-event-dea.git
+source.scm.tag=org.apache.sling.event.dea-1.1.6
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.event.dea-1.1.6.pom
+outputs.0.length=5789
+outputs.0.checksums.sha512=8088f0d91784023ff5ef636e181b271d1cb7c96d81ec2a016f9dff07ad48a4e9fd369ec3d66257e675a7efe4fb3059adbc77f938f3c66c2f4ad3956f8baab764
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.event.dea-1.1.6.jar
+outputs.1.length=29780
+outputs.1.checksums.sha512=5b6bd82246de861b22368a7e4df61f2c89765ff857726f8bbd3427699169cca99de2c9eb9fddf2482826efdb724388ce88609e5d83e8de6c75327ec8b7da1634
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.event.dea-1.1.6-source-release.zip
+outputs.2.length=29401
+outputs.2.checksums.sha512=1f549b3ad67b1ea75c478c709b6d1ba8e105780f959ec8015fa5c2646887c8ee33fae1bc7e414292b4e0c3f4ec0e5303b305997ec4873a5a41bda04ca984273d
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.event.dea-1.1.6-sources.jar
+outputs.3.length=21382
+outputs.3.checksums.sha512=fb2674c3dd7b40a17f4d2a58fdde5104cc2faf5b29aa2994bb8a7aae232450d2f95fa03d79b7a18f818abfedf6e7c4a3be316089e966c3b0d2f2ccb538224c37
