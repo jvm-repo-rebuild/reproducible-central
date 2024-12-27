@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Imaging
+group-id=org.apache.commons
+artifact-id=commons-imaging
+version=1.0.0-alpha5
+
+# source information
+source.scm.uri=scm:git:http://gitbox.apache.org/repos/asf/commons-imaging.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-imaging-1.0.0-alpha5.pom
+outputs.0.length=18575
+outputs.0.checksums.sha512=fa0d02c2fd3eb4ee29c22759ae713843b66090cb4db33e2cc9e6cd3da75333e8d0c982a2e4d9f37df7884c8c1d0784ac0ae1e3996219a12e1c593fdc46e50eca
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-imaging-1.0.0-alpha5.jar
+outputs.1.length=856220
+outputs.1.checksums.sha512=eb3e6e438b6e60d8794407f31e0af633c5d19209155b0204763fd38efaed111938a7ba40678adc09ead38e444aef8b60b61b905c201def06092354dac13bf2ac
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-imaging-1.0.0-alpha5-tests.jar
+outputs.2.length=40651738
+outputs.2.checksums.sha512=4a371d7c4fd0f16c084533cedfaafd0eb98d229758ed3455d749bc135564504e788bcf3ceb20a5c8db29aaa837744be3e06ed29d312ffbfbebfa32ff4030c9ce
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-imaging-1.0.0-alpha5-sources.jar
+outputs.3.length=685752
+outputs.3.checksums.sha512=ee27d8161b2b2b93d26b44153b319a790bb0227894cf9ab241182f02f51e2b499911253cbf0f6deef60964559bbb31414e5ee695916ef8275482d11a51b4de1d
+
+outputs.4.groupId=org.apache.commons
+outputs.4.filename=commons-imaging-1.0.0-alpha5-test-sources.jar
+outputs.4.length=40562794
+outputs.4.checksums.sha512=9cc2712d43a5f7d3591940a20dde807730cf0c9e9e74d3105b487f6929f3df5635e4499c9c174550516779cad02b44c7b853c971b9f0a2c206c5357a2d95345d
+
+outputs.5.groupId=org.apache.commons
+outputs.5.filename=commons-imaging-1.0.0-alpha5-cyclonedx.xml
+outputs.5.length=5702
+outputs.5.checksums.sha512=b76ae4de3f358c9d3c47925005ba0ea76ad48c0c523e6785d34d9e106dbb2b019b43e974ceb3eff598c03e6ae507b51bf9a5b0cee6fa04664f0dd589540a359e
+
+outputs.6.groupId=org.apache.commons
+outputs.6.filename=commons-imaging-1.0.0-alpha5-cyclonedx.json
+outputs.6.length=6619
+outputs.6.checksums.sha512=79e8a06869238c75a84f817986ba090bbde0124ea885efee11f24eb2f18efc8ab5ffb9699233feb08f3dedfb89580ca702c65bcc9948be5ebcbe3a9796049721
+# ignored commons-imaging-1.0.0-alpha5.spdx.json
