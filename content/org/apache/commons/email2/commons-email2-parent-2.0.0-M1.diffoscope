@@ -1,0 +1,24 @@
+1 / 3 target/reference/org.apache.commons/commons-email2-jakarta-2.0.0-M1-test-sources.jar commons-email2-jakarta/target/commons-email2-jakarta-2.0.0-M1-test-sources.jar
+--- target/reference/org.apache.commons/commons-email2-jakarta-2.0.0-M1-test-sources.jar
++++ commons-email2-jakarta/target/commons-email2-jakarta-2.0.0-M1-test-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 244885 bytes, number of entries: 76
+│ +Zip file size: 244793 bytes, number of entries: 75
+│  -rw-r--r--  2.0 unx      346 b- defN 24-Jun-15 13:06 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-15 13:06 META-INF/
+│ @@ -12,15 +12,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-15 13:06 images/logos/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-15 13:06 mockito-extensions/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-15 13:06 scripts/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-15 13:06 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jun-15 13:06 META-INF/maven/org.apache.commons/
+│ @@ -71,8 +70,8 @@
+│  -rw-r--r--  2.0 unx     4621 b- defN 24-Jun-15 13:06 META-INF/maven/org.apache.commons/commons-email2-jakarta/pom.xml
+│  -rw-r--r--  2.0 unx       78 b- defN 24-Jun-15 13:06 META-INF/maven/org.apache.commons/commons-email2-jakarta/pom.properties
+│ -76 files, 460210 bytes uncompressed, 232833 bytes compressed:  49.4%
+│ +75 files, 460210 bytes uncompressed, 232833 bytes compressed:  49.4%
+
+# consequence on fingeprints from previous issue
+2 / 3 target/reference/org.apache.commons/commons-email2-distribution-2.0.0-M1-cyclonedx.xml commons-email2-distribution/target/commons-email2-distribution-2.0.0-M1-bom.xml
+3 / 3 target/reference/org.apache.commons/commons-email2-distribution-2.0.0-M1-cyclonedx.json commons-email2-distribution/target/commons-email2-distribution-2.0.0-M1-bom.json
