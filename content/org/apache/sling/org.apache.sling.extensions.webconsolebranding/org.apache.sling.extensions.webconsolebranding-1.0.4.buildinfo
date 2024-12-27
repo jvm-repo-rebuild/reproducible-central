@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Web Console Branding
+group-id=org.apache.sling
+artifact-id=org.apache.sling.extensions.webconsolebranding
+version=1.0.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-extensions-webconsolebranding.git
+source.scm.tag=org.apache.sling.extensions.webconsolebranding-1.0.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.extensions.webconsolebranding-1.0.4.pom
+outputs.0.length=3186
+outputs.0.checksums.sha512=dfb1106d728de08282921b16c978ff3dab6d8f42570a37f63c1ae646010d6163f4e57dd206ed14f6cb7a094ae08a76ba82616198f721cf0ca2aa0a260f05aa62
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.extensions.webconsolebranding-1.0.4.jar
+outputs.1.length=13793
+outputs.1.checksums.sha512=a191024deb97826d2e5c6fa4985b861d741c76742cfdcd80647209138dbf7fa1e778fa532984815ea49e68ab1c3149ad33a6566362360dcdd3736e0cb0739d6a
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.extensions.webconsolebranding-1.0.4-source-release.zip
+outputs.2.length=18018
+outputs.2.checksums.sha512=c0232ab987bf9ab8765adc18092524c9163d94d2eab470930f4836958597f99429c3761d83e285336f929ab65c0cb733f46c507f4fea95aa4f17cb9d8adc8a35
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.extensions.webconsolebranding-1.0.4-sources.jar
+outputs.3.length=13288
+outputs.3.checksums.sha512=9f0dd52fd7f3c5979b1098f7af7c9efd5aa460a00612edbdfa9ecf0788b3418b48b164aa1a5cb09889b14f4e410cb23b378029404c833f105424071409f550f7
