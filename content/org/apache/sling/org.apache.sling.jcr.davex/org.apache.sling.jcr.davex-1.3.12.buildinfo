@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling JCR DavEx
+group-id=org.apache.sling
+artifact-id=org.apache.sling.jcr.davex
+version=1.3.12
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-jcr-davex.git
+source.scm.tag=org.apache.sling.jcr.davex-1.3.12
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.jcr.davex-1.3.12.pom
+outputs.0.length=6656
+outputs.0.checksums.sha512=42b208be50479a37a046c9d5848c43ca51c9736839f56764808dfab3750a46f6d1761413acecb65da770c377f407eae982cac7e1dca616d8f3fd74681c165323
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.jcr.davex-1.3.12.jar
+outputs.1.length=269181
+outputs.1.checksums.sha512=2a0d18fb8de0631bd82995587d24ad2e5e86000e9b68708f49b0103679715b49649a12d3d376420264e701887cab30ecaf792c4173e492e42455ba824a6f3984
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.jcr.davex-1.3.12-source-release.zip
+outputs.2.length=23697
+outputs.2.checksums.sha512=ab4d5ef14152d67165ee26837352de1c6192cc913581007c4608bdbf462010d270277fbdbfd43718a123484bdf9c24b93bac2cf9d12127731c7907e7e065cb75
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.jcr.davex-1.3.12-sources.jar
+outputs.3.length=14413
+outputs.3.checksums.sha512=3cbb1e3c2a803c4a4333848e4674d255cf4e104fb3932d700947025cbfe0c392bfddd35be7ce80f772f88ae36d434fc24bcde6dccd469f550689c8801ae37245
