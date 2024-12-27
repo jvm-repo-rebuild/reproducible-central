@@ -1,0 +1,8 @@
+version=2.0.2
+ok=7
+ko=1
+ignored=0
+okFiles="angus-activation-project-2.0.2.pom angus-activation-project-2.0.2-cyclonedx.xml angus-activation-project-2.0.2-cyclonedx.json angus-activation-2.0.2.pom angus-activation-2.0.2-cyclonedx.xml angus-activation-2.0.2-cyclonedx.json angus-activation-2.0.2-sources.jar"
+koFiles="angus-activation-2.0.2.jar"
+ignoredFiles=""
+# diffoscope target/reference/org.eclipse.angus/angus-activation-2.0.2.jar activation-registry/target/angus-activation-2.0.2.jar
