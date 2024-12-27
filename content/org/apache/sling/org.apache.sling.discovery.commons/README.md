@@ -13,6 +13,6 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.discovery.commons
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.0.28](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.discovery.commons/1.0.28/pom) | [mvn jdk8](org.apache.sling.discovery.commons-1.0.28.buildspec) | [result](org.apache.sling.discovery.commons-1.0.28.buildinfo): [3 :white_check_mark:  2 :warning:](org.apache.sling.discovery.commons-1.0.28.buildcompare) | 447K |
+| [1.0.28](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.discovery.commons/1.0.28/pom) | [mvn jdk8](org.apache.sling.discovery.commons-1.0.28.buildspec) | [result](org.apache.sling.discovery.commons-1.0.28.buildinfo): [3 :white_check_mark:  2 :warning:](org.apache.sling.discovery.commons-1.0.28.buildcompare) [:mag:](org.apache.sling.discovery.commons-1.0.28.diffoscope) | 447K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
