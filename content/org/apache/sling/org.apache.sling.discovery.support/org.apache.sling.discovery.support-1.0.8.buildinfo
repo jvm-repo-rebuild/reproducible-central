@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Discovery Support Bundle
+group-id=org.apache.sling
+artifact-id=org.apache.sling.discovery.support
+version=1.0.8
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-discovery-support.git
+source.scm.tag=org.apache.sling.discovery.support-1.0.8
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.discovery.support-1.0.8.pom
+outputs.0.length=4514
+outputs.0.checksums.sha512=35396716d38cd91ea9a20e938a88428d3010dc27cd1e96a9401436ef2bae65fa50b2cd670cfa048d3c8e407c5281ccc026d16855d842759febec3fcfd8f8c2b7
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.discovery.support-1.0.8.jar
+outputs.1.length=18816
+outputs.1.checksums.sha512=a2fdc99f654a781a44895458447fc7db5581f65c5408026337b7c4564a8755ddd21236252f0bc95de3b0f347d4de2ed1e121cd49dddb8945a586c217972d7d92
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.discovery.support-1.0.8-source-release.zip
+outputs.2.length=25201
+outputs.2.checksums.sha512=8ecbbb00e4694a74f42180c9d3fa7909b5a89afb08d51b05d1ca8cbc8bc6f521e41f14262b3059cd9b5726e6d97f44807ecb34c3980f7740053a1436913b2441
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.discovery.support-1.0.8-sources.jar
+outputs.3.length=13661
+outputs.3.checksums.sha512=6c08d890db6d9746fe186357b1756e44e407bb54f312be224ed4b9dc3ac36f220da3b8dd9b00743ec601cdce9a81a7e2af89fa16698d9ae60bc39d3290cd0352
