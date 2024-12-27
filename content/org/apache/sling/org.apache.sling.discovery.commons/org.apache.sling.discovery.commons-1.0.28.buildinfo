@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Discovery Commons
+group-id=org.apache.sling
+artifact-id=org.apache.sling.discovery.commons
+version=1.0.28
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-discovery-commons.git
+source.scm.tag=org.apache.sling.discovery.commons-1.0.28
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.discovery.commons-1.0.28.pom
+outputs.0.length=9808
+outputs.0.checksums.sha512=563c420d4acaa4dc55f3ddf04902e087b7278a98e2ca27c77a3719e185b39f4b4277932576076cbaf14cc8edeb5181ac5a387887b5702ca6528b879e326594b0
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.discovery.commons-1.0.28.jar
+outputs.1.length=96759
+outputs.1.checksums.sha512=85c26fb47099678dc7102e0a65e7850311e659ae55345f19ac25d792762a2a708f447654d0a37a0f4a47909340d622ff05d69b8827ac821d111f8a861ec50fc5
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.discovery.commons-1.0.28-source-release.zip
+outputs.2.length=146702
+outputs.2.checksums.sha512=92c02d8a6c4243a60da1b31ee96613d5f9fc0563ef942942a1e13382ddd7c4065e3ba3c26dea5d5d38be9eae5fdc855c712069f2db2ee427b278810ea29c1abe
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.discovery.commons-1.0.28-sources.jar
+outputs.3.length=75030
+outputs.3.checksums.sha512=91dbbd547432a4f4da26a97cd5d4dffe62cd5878397387431d430765165a9ad4275dddbfef8a0df0080ae7390112a2be696c4930f534c897b1696bb432f1a6ab
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.discovery.commons-1.0.28-tests.jar
+outputs.4.length=128720
+outputs.4.checksums.sha512=a5af4cc34b61cebbedef2ec1a20e78aabd151c7e73c04a12bffc69152fef1d2d7d9e50b61d2fffa81fe38483ee08f7626f84554bbe61b3d17450c503e89d400a
