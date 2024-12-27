@@ -1,0 +1,11 @@
+version=1.0.28
+ok=3
+ko=2
+ignored=0
+okFiles="org.apache.sling.discovery.commons-1.0.28.pom org.apache.sling.discovery.commons-1.0.28-source-release.zip org.apache.sling.discovery.commons-1.0.28-sources.jar"
+koFiles="org.apache.sling.discovery.commons-1.0.28.jar org.apache.sling.discovery.commons-1.0.28-tests.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling/org.apache.sling.discovery.commons-1.0.28.jar target/org.apache.sling.discovery.commons-1.0.28.jar
+# diffoscope target/reference/org.apache.sling/org.apache.sling.discovery.commons-1.0.28-tests.jar target/org.apache.sling.discovery.commons-1.0.28-tests.jar
