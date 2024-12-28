@@ -913,9 +913,9 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-zendesk-services-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-zendesk-services-nar/overview)
 </details>
 
-rebuilding **19 releases** of org.apache.nifi:nifi:
+rebuilding **20 releases** of org.apache.nifi:nifi:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 19 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 20 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -931,7 +931,7 @@ rebuilding **19 releases** of org.apache.nifi:nifi:
 | [1.26.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.26.0/pom) | [mvn jdk8](nifi-1.26.0.buildspec) | [result](nifi-1.26.0.buildinfo): [1807 :white_check_mark:  56 :warning:](nifi-1.26.0.buildcompare) | 4.0G |
 | [1.25.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.25.0/pom) | [mvn jdk8](nifi-1.25.0.buildspec) | [result](nifi-1.25.0.buildinfo): [1797 :white_check_mark:  60 :warning:](nifi-1.25.0.buildcompare) | 3.8G |
 | [1.24.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.24.0/pom) | [mvn jdk8](nifi-1.24.0.buildspec) | [result](nifi-1.24.0.buildinfo): [1779 :white_check_mark:  55 :warning:](nifi-1.24.0.buildcompare) | 3.7G |
-| [1.23.2](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.23.2/pom) | | | |
+| [1.23.2](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.23.2/pom) | [mvn jdk8](nifi-1.23.2.buildspec) | [result](nifi-1.23.2.buildinfo): [1352 :white_check_mark:  643 :warning:](nifi-1.23.2.buildcompare) | 3.9G |
 | [1.23.1](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.23.1/pom) | | | |
 | [1.23.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.23.0/pom) | | | |
 | [1.22.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.22.0/pom) | [mvn jdk8](nifi-1.22.0.buildspec) | [result](nifi-1.22.0.buildinfo): [1900 :white_check_mark:  64 :warning:](nifi-1.22.0.buildcompare) [:mag:](nifi-1.22.0.diffoscope) | 3.8G |
