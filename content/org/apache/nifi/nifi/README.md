@@ -913,9 +913,9 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-zendesk-services-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-zendesk-services-nar/overview)
 </details>
 
-rebuilding **23 releases** of org.apache.nifi:nifi:
+rebuilding **24 releases** of org.apache.nifi:nifi:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 23 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 24 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -939,7 +939,7 @@ rebuilding **23 releases** of org.apache.nifi:nifi:
 | [1.20.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.20.0/pom) | [mvn jdk8](nifi-1.20.0.buildspec) | [result](nifi-1.20.0.buildinfo): [1893 :white_check_mark:  55 :warning:](nifi-1.20.0.buildcompare) [:mag:](nifi-1.20.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/NIFI-10892) | 3.9G |
 | [1.19.1](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.19.1/pom) | [mvn jdk8](nifi-1.19.1.buildspec) | [result](nifi-1.19.1.buildinfo): [1679 :white_check_mark:  198 :warning:](nifi-1.19.1.buildcompare) | 3.8G |
 | [1.19.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.19.0/pom) | [mvn jdk8](nifi-1.19.0.buildspec) | [result](nifi-1.19.0.buildinfo): [1677 :white_check_mark:  200 :warning:](nifi-1.19.0.buildcompare) [:mag:](nifi-1.19.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/NIFI-10892) | 3.8G |
-| [1.18.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.18.0/pom) | | | |
+| [1.18.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.18.0/pom) | [mvn jdk8](nifi-1.18.0.buildspec) | [result](nifi-1.18.0.buildinfo): [1620 :white_check_mark:  194 :warning:](nifi-1.18.0.buildcompare) | 3.5G |
 | [1.17.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.17.0/pom) | [mvn jdk8](nifi-1.17.0.buildspec) | [result](nifi-1.17.0.buildinfo): [1505 :white_check_mark:  171 :warning:](nifi-1.17.0.buildcompare) [:mag:](nifi-1.17.0.diffoscope) [:memo:](https://github.com/apache/nifi/pull/6500) | 2.9G |
 | [1.16.3](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.16.3/pom) | | | |
 | [1.16.2](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.16.2/pom) | [mvn jdk8](nifi-1.16.2.buildspec) | [result](nifi-1.16.2.buildinfo): [1282 :white_check_mark:  371 :warning:](nifi-1.16.2.buildcompare) [:memo:](https://github.com/apache/nifi/pull/5915) | 3.2G |
