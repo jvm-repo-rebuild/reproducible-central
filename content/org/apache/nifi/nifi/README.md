@@ -913,9 +913,9 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-zendesk-services-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-zendesk-services-nar/overview)
 </details>
 
-rebuilding **18 releases** of org.apache.nifi:nifi:
+rebuilding **19 releases** of org.apache.nifi:nifi:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 18 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 19 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -930,7 +930,7 @@ rebuilding **18 releases** of org.apache.nifi:nifi:
 | [1.27.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.27.0/pom) | [mvn jdk8](nifi-1.27.0.buildspec) | [result](nifi-1.27.0.buildinfo): [1801 :white_check_mark:  62 :warning:](nifi-1.27.0.buildcompare) | 3.9G |
 | [1.26.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.26.0/pom) | [mvn jdk8](nifi-1.26.0.buildspec) | [result](nifi-1.26.0.buildinfo): [1807 :white_check_mark:  56 :warning:](nifi-1.26.0.buildcompare) | 4.0G |
 | [1.25.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.25.0/pom) | [mvn jdk8](nifi-1.25.0.buildspec) | [result](nifi-1.25.0.buildinfo): [1797 :white_check_mark:  60 :warning:](nifi-1.25.0.buildcompare) | 3.8G |
-| [1.24.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.24.0/pom) | | | |
+| [1.24.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.24.0/pom) | [mvn jdk8](nifi-1.24.0.buildspec) | [result](nifi-1.24.0.buildinfo): [1779 :white_check_mark:  55 :warning:](nifi-1.24.0.buildcompare) | 3.7G |
 | [1.23.2](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.23.2/pom) | | | |
 | [1.23.1](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.23.1/pom) | | | |
 | [1.23.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.23.0/pom) | | | |
