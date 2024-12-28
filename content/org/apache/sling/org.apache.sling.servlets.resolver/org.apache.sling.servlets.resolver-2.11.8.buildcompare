@@ -1,0 +1,10 @@
+version=2.11.8
+ok=3
+ko=1
+ignored=0
+okFiles="org.apache.sling.servlets.resolver-2.11.8.pom org.apache.sling.servlets.resolver-2.11.8-source-release.zip org.apache.sling.servlets.resolver-2.11.8-sources.jar"
+koFiles="org.apache.sling.servlets.resolver-2.11.8.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling/org.apache.sling.servlets.resolver-2.11.8.jar target/org.apache.sling.servlets.resolver-2.11.8.jar
