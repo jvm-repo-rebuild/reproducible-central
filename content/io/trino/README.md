@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.trino:trino-root](https://central.sonatype.com/artifact/io.trino/trino-root/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/io/trino//badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/trino//README.md)
+## Project: [io.trino:trino-root](https://central.sonatype.com/artifact/io.trino/trino-root/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/io/trino/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/trino/README.md)
 
 Source code: [https://github.com/trinodb/trino.git](https://github.com/trinodb/trino.git)
 

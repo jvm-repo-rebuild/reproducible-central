@@ -4,12 +4,10 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241227130051 --> [pmd](../content/net/sourceforge/pmd/README.md) | [7.8.0](../content/net/sourceforge/pmd/pmd-7.8.0.buildspec) :white_check_mark: | [7.9.0](../content/net/sourceforge/pmd/pmd-7.9.0.buildspec) | `bin/add-new-release.sh content/net/sourceforge/pmd/pmd-7.8.0.buildspec 7.9.0` |
-| <!-- 20241227121355 --> [ratis-thirdparty](../content/org/apache/ratis/ratis-thirdparty/README.md) | [1.0.7](../content/org/apache/ratis/ratis-thirdparty/ratis-thirdparty-1.0.7.buildspec) :white_check_mark: | [1.0.8](../content/org/apache/ratis/ratis-thirdparty/ratis-thirdparty-1.0.8.buildspec) | `bin/add-new-release.sh content/org/apache/ratis/ratis-thirdparty/ratis-thirdparty-1.0.7.buildspec 1.0.8` |
-| <!-- 20241227013729 --> [displaytag-doc](../content/com/github/hazendaz/displaytag-doc/README.md) | [3.0.3](../content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.0.3.buildspec) :white_check_mark: | [3.1.0](../content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.1.0.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.0.3.buildspec 3.1.0` |
-| <!-- 20241227013729 --> [displaytag-doc](../content/com/github/hazendaz/displaytag-doc/README.md) | [3.0.3](../content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.0.3.buildspec) :white_check_mark: | 2.6.0  | `bin/add-new-release.sh content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.0.3.buildspec ...` |
-| <!-- 20241226203910 --> [mybatis-parent](../content/org/mybatis/parent/README.md) | [46](../content/org/mybatis/parent/mybatis-parent-46.buildspec) :white_check_mark: | [48](../content/org/mybatis/parent/mybatis-parent-48.buildspec) | `bin/add-new-release.sh content/org/mybatis/parent/mybatis-parent-46.buildspec 48` |
+| <!-- 20241228024737 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [11.1-RC1](../content/io/avaje/inject/avaje-inject-11.1-RC1.buildspec) :white_check_mark: | [11.1-RC2](../content/io/avaje/inject/avaje-inject-11.1-RC2.buildspec) | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-11.1-RC1.buildspec 11.1-RC2` |
+| <!-- 20241227013729 --> [displaytag-doc](../content/com/github/hazendaz/displaytag-doc/README.md) | [3.1.0](../content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.1.0.buildspec) :white_check_mark: | 2.6.0  | `bin/add-new-release.sh content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.1.0.buildspec ...` |
 | <!-- 20240620095218 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | [2.5.1](../content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec) :white_check_mark: | 2.5.0 2.4.1 2.3.2 2.2.3 2.1.3  | `bin/add-new-release.sh content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec ...` |
+| <!-- 20231025165637 --> [project](../content/org/eclipse/ee4j/project/README.md) | [1.0.8](../content/org/eclipse/ee4j/project/project-1.0.8.buildspec) :white_check_mark: | [1.0.9](../content/org/eclipse/ee4j/project/project-1.0.9.buildspec) | `bin/add-new-release.sh content/org/eclipse/ee4j/project/project-1.0.8.buildspec 1.0.9` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -39,8 +37,6 @@ New Releases To Add
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
 | <!-- 20241227183453 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.67.10](../content/org/finos/legend/engine/legend-engine-4.67.10.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.67.10` |
-| <!-- 20241226222731 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | [2.11.6](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.6.buildspec) :warning: | [2.11.8](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.8.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.6.buildspec 2.11.8` |
-| <!-- 20241223223827 --> [nifi](../content/org/apache/nifi/nifi/README.md) | [2.0.0](../content/org/apache/nifi/nifi/nifi-2.0.0.buildspec) :warning: | [2.1.0](../content/org/apache/nifi/nifi/nifi-2.1.0.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-2.0.0.buildspec 2.1.0` |
 | <!-- 20241221170212 --> [logback-parent](../content/ch/qos/logback/README.md) | [1.5.13](../content/ch/qos/logback/logback-1.5.13.buildspec) :x: | [1.5.15](../content/ch/qos/logback/logback-1.5.15.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/logback-1.5.13.buildspec 1.5.15` |
 | <!-- 20241220140350 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | [5.2.3](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.2.3.buildspec) :x: | [5.3.5](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.3.5.buildspec) | `bin/add-new-release.sh content/io/github/chains-project/maven-lockfile/maven-lockfile-5.2.3.buildspec 5.3.5` |
 | <!-- 20241220093958 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.9.0](../content/org/apache/camel/camel/camel-4.9.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.9.0` |
@@ -65,16 +61,16 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20241226222731 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 2.11.8 :warning: |
+| <!-- 20241223223827 --> [nifi](../content/org/apache/nifi/nifi/README.md) | 2.1.0 :warning: |
 | <!-- 20241223181554 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | 2.11.0 :warning: |
 | <!-- 20241221111725 --> [org.apache.sling.feature.launcher](../content/org/apache/sling/org.apache.sling.feature.launcher/README.md) | 1.3.2 :warning: |
 | <!-- 20241220140033 --> [org.apache.sling.models.impl](../content/org/apache/sling/org.apache.sling.models.impl/README.md) | 1.7.8 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-models-impl/pull/62) |
 | <!-- 20241219115849 --> [quarkus-project](../content/io/quarkus/README.md) | 3.17.5 :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) |
 | <!-- 20241218050201 --> [kubernetes-client-project](../content/io/fabric8/kubernetes-client/README.md) | 7.0.1 :warning: |
-| <!-- 20241217223309 --> [trino-root](../content/io/trino/README.md) | 468 :x: |
 | <!-- 20241216231422 --> [maven](../content/org/apache/maven/maven/README.md) | 4.0.0-rc-2 :warning: |
 | <!-- 20241216105905 --> [org.apache.sling.commons.log.webconsole](../content/org/apache/sling/org.apache.sling.commons.log.webconsole/README.md) | 1.0.2 :warning: |
 | <!-- 20241215214119 --> [plexus-utils](../content/org/codehaus/plexus/plexus-utils/README.md) | 4.0.2 :warning: |
-| <!-- 20241215091021 --> [byte-buddy-parent](../content/net/bytebuddy/README.md) | 1.15.11 :x: |
 | <!-- 20241210081421 --> [io.wcm.handler.link](../content/io/wcm/io.wcm.handler/link/README.md) | 2.2.4 :warning: |
 | <!-- 20241210081249 --> [io.wcm.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | 2.3.0 :warning: |
 | <!-- 20241209231051 --> [jooby](../content/io/jooby/README.md) | 3.5.5 :warning: |
@@ -158,6 +154,7 @@ New Releases To Add
 | <!-- 20240317040144 --> [systemds](../content/org/apache/systemds/README.md) | 3.2.0 :warning: |
 | <!-- 20240312215350 --> [cdevents-sdk-java](../content/dev/cdevents/cdevents-sdk-java/README.md) | 0.3.1 :x: |
 | <!-- 20240310140556 --> [maven-remote-resources-plugin](../content/org/apache/maven/plugins/maven-remote-resources-plugin/README.md) | 3.2.0 :warning: |
+| <!-- 20240229131606 --> [angus-activation-project](../content/org/eclipse/angus/activation/README.md) | 2.0.2 :warning: |
 | <!-- 20240219171831 --> [plc4x-parent](../content/org/apache/plc4x/plc4x/README.md) | 0.12.0 :x: |
 | <!-- 20240126192007 --> [io.wcm.handler.richtext](../content/io/wcm/io.wcm.handler/richtext/README.md) | 2.0.0 :warning: |
 | <!-- 20240122143033 --> [org.apache.sling.feature.extension.unpack](../content/org/apache/sling/org.apache.sling.feature.extension.unpack/README.md) | 0.4.0 :warning: |

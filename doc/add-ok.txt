@@ -1,4 +1,2 @@
-content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.0.3.buildspec:3.1.0
-content/net/sourceforge/pmd/pmd-7.8.0.buildspec:7.9.0
-content/org/apache/ratis/ratis-thirdparty/ratis-thirdparty-1.0.7.buildspec:1.0.8
-content/org/mybatis/parent/mybatis-parent-46.buildspec:48
+content/io/avaje/inject/avaje-inject-11.1-RC1.buildspec:11.1-RC2
+content/org/eclipse/ee4j/project/project-1.0.8.buildspec:1.0.9

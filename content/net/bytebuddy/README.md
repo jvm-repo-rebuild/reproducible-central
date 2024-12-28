@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [net.bytebuddy:byte-buddy-parent](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/net/bytebuddy//badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/net/bytebuddy//README.md)
+## Project: [net.bytebuddy:byte-buddy-parent](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/net/bytebuddy/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/net/bytebuddy/README.md)
 
 Source code: [https://github.com/raphw/byte-buddy.git](https://github.com/raphw/byte-buddy.git)
 
