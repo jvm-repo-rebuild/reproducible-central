@@ -24,6 +24,6 @@ rebuilding **2 releases** of org.apache.commons:commons-jcs3:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [3.2.1](https://central.sonatype.com/artifact/org.apache.commons/commons-jcs3/3.2.1/pom) | [mvn jdk17](commons-jcs3-3.2.1.buildspec) | [result](commons-jcs3-3.2.1.buildinfo): [23 :white_check_mark:  15 :warning:](commons-jcs3-3.2.1.buildcompare) [:mag:](commons-jcs3-3.2.1.diffoscope) [:memo:](https://github.com/apache/commons-jcs/commit/61661616d8cb586bc41c0bea5cd3a206ba0ec94d) | 3.6M |
-| [3.2](https://central.sonatype.com/artifact/org.apache.commons/commons-jcs3/3.2/pom) | [mvn jdk8](commons-jcs3-3.2.buildspec) | [result](commons-jcs3-3.2.buildinfo): [38 :white_check_mark: ](commons-jcs3-3.2.buildcompare) [:memo:](https://github.com/apache/commons-jcs/commit/61661616d8cb586bc41c0bea5cd3a206ba0ec94d) | 3.6M |
+| [3.2](https://central.sonatype.com/artifact/org.apache.commons/commons-jcs3/3.2/pom) | [mvn jdk8](commons-jcs3-3.2.buildspec) | [result](commons-jcs3-3.2.buildinfo): [38 :white_check_mark: ](commons-jcs3-3.2.buildcompare) | 3.6M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
