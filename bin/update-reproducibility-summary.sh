@@ -46,8 +46,8 @@ do
     # for example com.io7m.*
     groupId="${groupId%.*}"
   fi
-  [[ "$groupId" != "$prevGroupId" ]] && prevGroupId="$groupId" && row+=" ${groupId}"
-  row+=" | [$(echo "${artifactId}" | sed -e "s/$groupId/*/")](${dir}/README.md)"
+  [[ "$groupId" != "$prevGroupId" ]] && prevGroupId="$groupId" && row+=" ${displayGroupId}"
+  row+=" | [${displayArtifactId}](${dir}/README.md)"
   row+=" | ${countVersion} | "
   if [ "${countVersionOk}" == "0" ]
   then
