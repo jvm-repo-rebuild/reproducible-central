@@ -1,2 +1,2 @@
-content/io/avaje/inject/avaje-inject-11.1-RC1.buildspec:11.1-RC2
-content/org/eclipse/ee4j/project/project-1.0.8.buildspec:1.0.9
+content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/fastasyncvoxelsniper-3.2.1.buildspec:3.2.2
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-19.buildspec:11.1.1-beta-20

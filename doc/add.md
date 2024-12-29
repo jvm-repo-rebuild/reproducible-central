@@ -4,10 +4,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241228024737 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [11.1-RC1](../content/io/avaje/inject/avaje-inject-11.1-RC1.buildspec) :white_check_mark: | [11.1-RC2](../content/io/avaje/inject/avaje-inject-11.1-RC2.buildspec) | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-11.1-RC1.buildspec 11.1-RC2` |
-| <!-- 20241227013729 --> [displaytag-doc](../content/com/github/hazendaz/displaytag-doc/README.md) | [3.1.0](../content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.1.0.buildspec) :white_check_mark: | 2.6.0  | `bin/add-new-release.sh content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.1.0.buildspec ...` |
+| <!-- 20241229191559 --> [fastasyncvoxelsniper](../content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/README.md) | [3.2.1](../content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/fastasyncvoxelsniper-3.2.1.buildspec) :white_check_mark: | [3.2.2](../content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/fastasyncvoxelsniper-3.2.2.buildspec) | `bin/add-new-release.sh content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/fastasyncvoxelsniper-3.2.1.buildspec 3.2.2` |
+| <!-- 20241229020154 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [11.1.1-beta-19](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-19.buildspec) :white_check_mark: | [11.1.1-beta-20](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-20.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-19.buildspec 11.1.1-beta-20` |
 | <!-- 20240620095218 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | [2.5.1](../content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec) :white_check_mark: | 2.5.0 2.4.1 2.3.2 2.2.3 2.1.3  | `bin/add-new-release.sh content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec ...` |
-| <!-- 20231025165637 --> [project](../content/org/eclipse/ee4j/project/README.md) | [1.0.8](../content/org/eclipse/ee4j/project/project-1.0.8.buildspec) :white_check_mark: | [1.0.9](../content/org/eclipse/ee4j/project/project-1.0.9.buildspec) | `bin/add-new-release.sh content/org/eclipse/ee4j/project/project-1.0.8.buildspec 1.0.9` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -27,6 +26,7 @@ New Releases To Add
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
 | <!-- 20241024075630 --> [:mailbox:](https://lists.apache.org/list?dev@syncope.apache.org:lte=1M:VOTE) | [syncope](../content/org/apache/syncope/README.md) | [3.0.9](../content/org/apache/syncope/syncope-3.0.9.buildspec) :warning: | [4.0.0-M0](../content/org/apache/syncope/syncope-4.0.0-M0.buildspec)  | `bin/add-new-release.sh content/org/apache/syncope/syncope-3.0.9.buildspec 4.0.0-M0 staging` |
+| <!-- 20241022110853 --> [:mailbox:](https://lists.apache.org/list?dev@commons.apache.org:lte=1M:VOTE) | [commons-parent](../content/org/apache/commons/parent/README.md) | [78](../content/org/apache/commons/parent/commons-parent-78.buildspec) :white_check_mark: | [79](../content/org/apache/commons/parent/commons-parent-79.buildspec)  | `bin/add-new-release.sh content/org/apache/commons/parent/commons-parent-78.buildspec 79 staging` |
 | <!-- 20240913092416 --> [:mailbox:](https://lists.apache.org/list?dev@paimon.apache.org:lte=1M:VOTE) | [paimon-parent](../content/org/apache/paimon/README.md) | [0.9.0](../content/org/apache/paimon/paimon-parent-0.9.0.buildspec) :warning: [:memo:](https://github.com/apache/paimon/pull/4190) | [1.0.0](../content/org/apache/paimon/paimon-parent-1.0.0.buildspec)  | `bin/add-new-release.sh content/org/apache/paimon/paimon-parent-0.9.0.buildspec 1.0.0 staging` |
 | <!-- 20230920202802 --> [:mailbox:](https://lists.apache.org/list?dev@wayang.apache.org:lte=1M:VOTE) | [wayang](../content/org/apache/wayang/README.md) | [0.7.1](../content/org/apache/wayang/wayang-0.7.1.buildspec) :white_check_mark: | [1.0.0-RC3](../content/org/apache/wayang/wayang-1.0.0-RC3.buildspec)  | `bin/add-new-release.sh content/org/apache/wayang/wayang-0.7.1.buildspec 1.0.0-RC3 staging` |
 <!-- END GENERATED ADD STAGING -->
@@ -36,6 +36,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20241229065804 --> [migratedb](../content/de/unentscheidbar/migratedb/README.md) | [1.3.0](../content/de/unentscheidbar/migratedb/migratedb-1.3.0.buildspec) :warning: | [1.4.0](../content/de/unentscheidbar/migratedb/migratedb-1.4.0.buildspec) | `bin/add-new-release.sh content/de/unentscheidbar/migratedb/migratedb-1.3.0.buildspec 1.4.0` |
 | <!-- 20241227183453 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.67.10](../content/org/finos/legend/engine/legend-engine-4.67.10.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.67.10` |
 | <!-- 20241221170212 --> [logback-parent](../content/ch/qos/logback/README.md) | [1.5.13](../content/ch/qos/logback/logback-1.5.13.buildspec) :x: | [1.5.15](../content/ch/qos/logback/logback-1.5.15.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/logback-1.5.13.buildspec 1.5.15` |
 | <!-- 20241220140350 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | [5.2.3](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.2.3.buildspec) :x: | [5.3.5](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.3.5.buildspec) | `bin/add-new-release.sh content/io/github/chains-project/maven-lockfile/maven-lockfile-5.2.3.buildspec 5.3.5` |
@@ -105,7 +106,6 @@ New Releases To Add
 | <!-- 20241021102016 --> [jdplus-main](../content/eu/europa/ec/joinup/sat/jdplus-main/README.md) | 3.3.0 :warning: |
 | <!-- 20241019172008 --> [tika](../content/org/apache/tika/README.md) | 3.0.0 :warning: |
 | <!-- 20241018172054 --> [org.apache.sling.commons.metrics](../content/org/apache/sling/org.apache.sling.commons.metrics/README.md) | 1.2.14 :warning: |
-| <!-- 20241018014427 --> [migratedb](../content/de/unentscheidbar/migratedb/README.md) | 1.3.0 :warning: |
 | <!-- 20241014160814 --> [eforms-sdk-analyzer](../content/eu/europa/ted/eforms/eforms-sdk-analyzer/README.md) | 1.13.0 :warning: |
 | <!-- 20241009192643 --> [camel-k-runtime-project](../content/org/apache/camel/camel-k-runtime/README.md) | 3.15.0 :warning: |
 | <!-- 20241004105528 --> [jdplus-sdmx](../content/com/github/nbbrd/jdplus-sdmx/README.md) | 3.2.0 :warning: |

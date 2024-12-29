@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **5976 releases** of **808 projects**:
-   - **4325** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 1651 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **5980 releases** of **808 projects**:
+   - **4327** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 1653 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 808 projects, 696 have at least one fully reproducible release, 112 have none
 
 <!-- END GENERATED INTRO -->
@@ -58,7 +58,7 @@ Its objectives are to provide:
 | com.github.hazendaz.7zip | [7zip](content/com/github/hazendaz/7zip/README.md) | 7 | 7 :white_check_mark: |
 | com.github.hazendaz | [base-parent](content/com/github/hazendaz/base-parent/README.md) | 19 | 19 :white_check_mark: |
 | com.github.hazendaz.catch-exception | [catch-exception-parent](content/com/github/hazendaz/catch-exception/README.md) | 3 | 3 :white_check_mark: |
-| com.github.hazendaz | [displaytag-doc](content/com/github/hazendaz/displaytag-doc/README.md) | 10 | 8 :white_check_mark: / 2 :warning: |
+| com.github.hazendaz | [displaytag-doc](content/com/github/hazendaz/displaytag-doc/README.md) | 11 | 8 :white_check_mark: / 3 :warning: |
 | | [htmlcompressor](content/com/github/hazendaz/htmlcompressor/README.md) | 9 | 9 :warning: |
 | | [javabean-tester](content/com/github/hazendaz/javabean-tester/README.md) | 15 | 13 :white_check_mark: / 2 :warning: |
 | com.github.hazendaz.jmockit | [jmockit-parent](content/com/github/hazendaz/jmockit/README.md) | 5 | 5 :white_check_mark: |
@@ -263,7 +263,7 @@ Its objectives are to provide:
 | io.trino | [trino-root](content/io/trino/README.md) | 23 | 18 :white_check_mark: / 5 :warning: |
 | io.airlift | [airbase](content/io/airlift/airbase/README.md) | 52 | 50 :white_check_mark: / 2 :warning: |
 | io.avaje | [avaje-http-parent](content/io/avaje/http/README.md) | 7 | 7 :white_check_mark: |
-| | [avaje-inject-parent](content/io/avaje/inject/README.md) | 9 | 7 :white_check_mark: / 2 :warning: |
+| | [avaje-inject-parent](content/io/avaje/inject/README.md) | 10 | 8 :white_check_mark: / 2 :warning: |
 | | [avaje-jex-parent](content/io/avaje/jex/README.md) | 12 | 10 :white_check_mark: / 2 :warning: |
 | | [avaje-jsonb-parent](content/io/avaje/jsonb/README.md) | 6 | 6 :white_check_mark: |
 | | [avaje-prisms-parent](content/io/avaje/prisms/README.md) | 4 | 4 :white_check_mark: |
@@ -532,7 +532,7 @@ Its objectives are to provide:
 | org.apache.maven.skins | [maven-fluido-skin](content/org/apache/maven/skins/fluido/README.md) | 17 | 14 :white_check_mark: / 3 :warning: |
 | org.apache.maven.wagon | [wagon](content/org/apache/maven/wagon/wagon/README.md) | 8 | 8 :white_check_mark: |
 | org.apache.ftpserver | [ftpserver-parent](content/org/apache/mina/ftpserver/README.md) | 3 | 3 :warning: |
-| org.apache.nifi | [nifi](content/org/apache/nifi/nifi/README.md) | 25 | 25 :warning: |
+| org.apache.nifi | [nifi](content/org/apache/nifi/nifi/README.md) | 26 | 26 :warning: |
 | | [nifi-nar-maven-plugin](content/org/apache/nifi/nifi-nar-maven-plugin/README.md) | 7 | 7 :white_check_mark: |
 | org.apache.paimon | [paimon-shade](content/org/apache/paimon/shade/README.md) | 1 | 1 :warning: |
 | org.apache.plc4x | [plc4x-parent](content/org/apache/plc4x/plc4x/README.md) | 4 | 4 :warning: |
@@ -719,7 +719,7 @@ Its objectives are to provide:
 | org.eclipse.transformer | [*.parent](content/org/eclipse/transformer/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
 | org.eclipse.angus | [angus-activation-project](content/org/eclipse/angus/activation/README.md) | 1 | 1 :warning: |
 | org.eclipse.daanse | [*.pom.parent](content/org/eclipse/daanse/org.eclipse.daanse.pom.parent/README.md) | 2 | 2 :white_check_mark: |
-| org.eclipse.ee4j | [project](content/org/eclipse/ee4j/project/README.md) | 1 | 1 :white_check_mark: |
+| org.eclipse.ee4j | [project](content/org/eclipse/ee4j/project/README.md) | 2 | 2 :white_check_mark: |
 | org.eclipse.jetty | [jetty-project](content/org/eclipse/jetty/jetty-project/README.md) | 18 | 12 :white_check_mark: / 6 :warning: |
 | org.finos.legend.engine | [legend-engine](content/org/finos/legend/engine/README.md) | 10 | 10 :warning: |
 | org.fusesource.jansi | [jansi](content/org/fusesource/jansi/jansi/README.md) | 9 | 5 :white_check_mark: / 4 :warning: |
@@ -831,7 +831,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 5 | 5 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 19 | 1 :white_check_mark: / 18 :warning: |
-| **Count:** | **808** | **5976** | **4325** :white_check_mark: **1651** :warning: |
+| **Count:** | **808** | **5980** | **4327** :white_check_mark: **1653** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -867,7 +867,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      16 mvn        18
      34 mvn        19
      17 mvn        20
-    341 mvn        21
+    343 mvn        21
      13 mvn        22
       4 mvn        23
       2 mvn-3.5.4   8
@@ -959,13 +959,13 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.8  16
     131 mvn-3.9.8  17
       1 mvn-3.9.8  17.0.12
-     44 mvn-3.9.8  21
+     45 mvn-3.9.8  21
      45 mvn-3.9.8  22
      10 mvn-3.9.8  23
      10 mvn-3.9.9   8
      15 mvn-3.9.9  11
      60 mvn-3.9.9  17
-     79 mvn-3.9.9  21
+     80 mvn-3.9.9  21
      11 mvn-3.9.9  22
       1 mvn-3.9.9  23
       2 mvn-4.0.0-alpha-12  21
