@@ -62,6 +62,8 @@ do
     if [ ! -f "${projectReadme}" ]
     then
       ((countGa++))
+      displayGroupId="$(echo "$display" | cut -d : -f 1)"
+      displayArtifactId="$(echo "$display" | cut -d : -f 2)"
       # prepare README.md intro
       echo "[$groupId:$artifactId](https://central.sonatype.com/artifact/${groupId}/${artifactId}/versions) RB check" > ${projectReadme}
       echo "=======" >> ${projectReadme}
@@ -180,7 +182,9 @@ echo "{ \"schemaVersion\": 1,
   \"color\": \"${badgeColor}\",
   \"isError\": \"true\" }" > ${projectBadge}
 
-echo "countVersion=$countVersion
+echo "displayGroupId=$displayGroupId
+displayArtifactId=$displayArtifactId
+countVersion=$countVersion
 countVersionOk=$countVersionOk
 newestBuildspecVersion=$newestBuildspecVersion
 highestVersion=$highestVersion
