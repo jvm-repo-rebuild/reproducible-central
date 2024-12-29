@@ -1,0 +1,7 @@
+version=1.0.9
+ok=3
+ko=0
+ignored=0
+okFiles="project-1.0.9.pom project-1.0.9-cyclonedx.xml project-1.0.9-cyclonedx.json"
+koFiles=""
+ignoredFiles=""

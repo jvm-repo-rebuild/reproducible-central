@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=EE4J Project
+group-id=org.eclipse.ee4j
+artifact-id=project
+version=1.0.9
+
+# source information
+source.scm.uri=scm:git:git@github.com:eclipse-ee4j/ee4j.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.eclipse.ee4j
+outputs.0.filename=project-1.0.9.pom
+outputs.0.length=16135
+outputs.0.checksums.sha512=aeeea347260f1282a89eb3ab42d779c0eb99a80e5efb5a1385333d032e8a72074ee4926b6e85891c4b21500d34041b7eda2b3b7deca02d884893efe7840ef183
+
+outputs.1.groupId=org.eclipse.ee4j
+outputs.1.filename=project-1.0.9-cyclonedx.xml
+outputs.1.length=3133
+outputs.1.checksums.sha512=9025f1e8fa62b0dc9477c1e5f8a6ad460dc6fdbe4967e14ab703862aa1f1d9b1792d7f3caa9320dfcca6713a40e6dd39ce7933fadfd615683a1bfdb208db69ce
+
+outputs.2.groupId=org.eclipse.ee4j
+outputs.2.filename=project-1.0.9-cyclonedx.json
+outputs.2.length=3628
+outputs.2.checksums.sha512=cff19ac55893b534500ee4311a9d03b9e09f55847d343e9b06a616641dc83559681a7d1422062eb54d7d998075c27cbb6c71ae105b1e105b4e30610cae104f29
