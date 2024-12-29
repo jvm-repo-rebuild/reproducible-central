@@ -14,13 +14,13 @@ Source code: [https://github.com/inria/spoon.git](https://github.com/inria/spoon
 * [fr.inria.gforge.spoon:spoon-pom](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-pom/overview)
 </details>
 
-rebuilding **130 releases** of fr.inria.gforge.spoon:spoon-core:
-- **26** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **131 releases** of fr.inria.gforge.spoon:spoon-core:
+- **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 104 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [11.1.1-beta-20](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.1.1-beta-20/pom) | | | |
+| [11.1.1-beta-20](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.1.1-beta-20/pom) | [mvn jdk21](spoon-core-11.1.1-beta-20.buildspec) | [result](spoon-pom-11.1.1-beta-20.buildinfo): [8 :white_check_mark: ](spoon-pom-11.1.1-beta-20.buildcompare) | 18M |
 | [11.1.1-beta-19](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.1.1-beta-19/pom) | [mvn jdk21](spoon-core-11.1.1-beta-19.buildspec) | [result](spoon-pom-11.1.1-beta-19.buildinfo): [8 :white_check_mark: ](spoon-pom-11.1.1-beta-19.buildcompare) | 18M |
 | [11.1.1-beta-18](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.1.1-beta-18/pom) | [mvn jdk21](spoon-core-11.1.1-beta-18.buildspec) | [result](spoon-pom-11.1.1-beta-18.buildinfo): [8 :white_check_mark: ](spoon-pom-11.1.1-beta-18.buildcompare) | 18M |
 | [11.1.1-beta-17](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.1.1-beta-17/pom) | [mvn jdk21](spoon-core-11.1.1-beta-17.buildspec) | [result](spoon-pom-11.1.1-beta-17.buildinfo): [8 :white_check_mark: ](spoon-pom-11.1.1-beta-17.buildcompare) | 18M |
