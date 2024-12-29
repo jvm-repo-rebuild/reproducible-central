@@ -1,0 +1,5 @@
+version=3.2.2
+ok=3
+ko=0
+okFiles="fastasyncvoxelsniper-3.2.2-sources.jar fastasyncvoxelsniper-3.2.2.jar fastasyncvoxelsniper-3.2.2.pom"
+koFiles=""
