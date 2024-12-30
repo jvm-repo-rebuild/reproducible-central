@@ -1,0 +1,9 @@
+version=1.4.0
+ok=14
+ko=0
+ignored=0
+okFiles="migratedb-1.4.0.pom migratedb-dependency-downloader-1.4.0.pom migratedb-dependency-downloader-1.4.0.jar migratedb-core-1.4.0.pom migratedb-core-1.4.0.jar migratedb-scanner-1.4.0.pom migratedb-scanner-1.4.0.jar migratedb-maven-plugin-1.4.0.pom migratedb-maven-plugin-1.4.0.jar migratedb-spring-boot-v3-1.4.0.pom migratedb-spring-boot-v3-autoconfig-1.4.0.pom migratedb-spring-boot-v3-autoconfig-1.4.0.jar migratedb-spring-boot-v3-starter-1.4.0.pom migratedb-spring-boot-v3-starter-1.4.0.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
