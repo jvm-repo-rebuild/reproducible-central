@@ -12,9 +12,9 @@ jdk=17
 toolchains="11|17"
 newline=lf
 
-command="mvn clean package package -DskipTests"
+command="mvn clean package -DskipTests"
 buildinfo=target/${artifactId}-${version}.buildinfo
 execBefore="sed -i 's_<localRepository>.*</localRepository>__' ../../../../../../m2/settings.xml"
 
-diffoscope=${artifactId}-${version}.diffoscope
+#diffoscope=${artifactId}-${version}.diffoscope
 issue=
