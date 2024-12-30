@@ -29,6 +29,16 @@ outputs.0.0.filename=maven-lockfile-parent-5.3.2.pom
 outputs.0.0.length=7898
 outputs.0.0.checksums.sha512=907a06c4ad172f18f2dab1f2b279e298a915976a17e5542f7f644fffbed3d410406f858a360438c8d524f846eec19a43fe3dc4fb00c526b393e7f9108a108f22
 
+outputs.0.1.groupId=io.github.chains-project
+outputs.0.1.filename=maven-lockfile-parent-5.3.2-cyclonedx.xml
+outputs.0.1.length=3276
+outputs.0.1.checksums.sha512=e6b6b24812e5d55ce26a7f04c9a9ca5cd01984eec75dd342a9fefbecdfd232b0d8d4a2cc568a143f753eb6f3f863cba4382b7dcef8609f3272583d55d5edf6ee
+
+outputs.0.2.groupId=io.github.chains-project
+outputs.0.2.filename=maven-lockfile-parent-5.3.2-cyclonedx.json
+outputs.0.2.length=3626
+outputs.0.2.checksums.sha512=6630c0ff85aa3e6321eb44860bd79b65899a50f827c1ce0a9e4b372c29b73fc0ab2c621f3d2a31902d9befa973e9ff4cceec2bf5eb2d57674b651cf3832b1d08
+
 outputs.1.coordinates=io.github.chains-project:maven-lockfile
 
 outputs.1.0.groupId=io.github.chains-project
@@ -42,14 +52,24 @@ outputs.1.1.length=59921
 outputs.1.1.checksums.sha512=e76769dc8ea3877fc2632afdd791a8c783c6bd57ae3b0220d72140d5220fbefa28b85b09adb9c4f6319a4d1139de2414c3e0a4fb2cba6ff16539e34f09f51056
 
 outputs.1.2.groupId=io.github.chains-project
-outputs.1.2.filename=maven-lockfile-5.3.2-sources.jar
-outputs.1.2.length=31740
-outputs.1.2.checksums.sha512=d05d6f9c38a94df8cda253d20cc2fe984303b93f0bf250c743c92bd5423e6df4610923c38a96a355a89a66f957224f2660428f7833600481fd4a95493832def8
+outputs.1.2.filename=maven-lockfile-5.3.2-cyclonedx.xml
+outputs.1.2.length=195451
+outputs.1.2.checksums.sha512=83e583269407fad198ccb04376166332f0fd60954b3f3ac11ced4997ee64236634a1abff697c611c2e4137726a1e95dcf8152b09891c38122a81ce8142643b9d
 
 outputs.1.3.groupId=io.github.chains-project
-outputs.1.3.filename=maven-lockfile-5.3.2-tests.jar
-outputs.1.3.length=19028
-outputs.1.3.checksums.sha512=1a77201389ba03184715324baea0c5b6132a69704fbb52c3a1a38cb93cb9bfbec57af72d4babdb8b89e846c8c89e2f342baca46b51fc73cb89395f1b430ad1b8
+outputs.1.3.filename=maven-lockfile-5.3.2-cyclonedx.json
+outputs.1.3.length=213486
+outputs.1.3.checksums.sha512=3089411a109e14f189a37ebc040f82acbe5264e48893cc7ed1001f4e428862ba7f139684e4339e0e08b64abc3e6251d2cd94b6ff6a9683118780c6cba4d8054f
+
+outputs.1.4.groupId=io.github.chains-project
+outputs.1.4.filename=maven-lockfile-5.3.2-sources.jar
+outputs.1.4.length=31740
+outputs.1.4.checksums.sha512=d05d6f9c38a94df8cda253d20cc2fe984303b93f0bf250c743c92bd5423e6df4610923c38a96a355a89a66f957224f2660428f7833600481fd4a95493832def8
+
+outputs.1.5.groupId=io.github.chains-project
+outputs.1.5.filename=maven-lockfile-5.3.2-tests.jar
+outputs.1.5.length=19028
+outputs.1.5.checksums.sha512=1a77201389ba03184715324baea0c5b6132a69704fbb52c3a1a38cb93cb9bfbec57af72d4babdb8b89e846c8c89e2f342baca46b51fc73cb89395f1b430ad1b8
 
 outputs.2.coordinates=io.github.chains-project:maven-lockfile-github-action
 
@@ -60,10 +80,20 @@ outputs.2.0.checksums.sha512=615e3a92ca67512c1fd696cf6fa9aeb1ee77c164a9708ff2698
 
 outputs.2.1.groupId=io.github.chains-project
 outputs.2.1.filename=maven-lockfile-github-action-5.3.2.jar
-outputs.2.1.length=17955506
-outputs.2.1.checksums.sha512=9257e05e963e4cf97e72899ac7b2d4184ce23e57d05c6b7f28aefcd021cc9844c27746827f61886c328ef49889341c9bc0acb7b01fb8d44370a508cb780a1bc9
+outputs.2.1.length=17955547
+outputs.2.1.checksums.sha512=5d605c6d6f1f4d99def54390150fdb1c560f3d994dc8f1e05d2e4c93caf795d8af854eb1dec19729942e5c9b38454d9f1e3471bbd3caa189e4bb5f7c38f316b9
 
 outputs.2.2.groupId=io.github.chains-project
-outputs.2.2.filename=maven-lockfile-github-action-5.3.2-sources.jar
-outputs.2.2.length=5249
-outputs.2.2.checksums.sha512=54f759a326b28c32ccf52dcd7885596554356b41b1fb2f6eb02957952c4a6e5f17ac371be4ec3b05f1aad0b9e7d5568ebe7c9d99488dcdfb01786cfed9760f62
+outputs.2.2.filename=maven-lockfile-github-action-5.3.2-cyclonedx.xml
+outputs.2.2.length=493606
+outputs.2.2.checksums.sha512=306c3a2b21eb1fcb08ac4515b4bb0403fbfa9336a5239248f6828971e244e7a93986b97981c916eb3a27e7cca5cbdbd31d59d7ca1f9032f950c0ed6b1c5fc546
+
+outputs.2.3.groupId=io.github.chains-project
+outputs.2.3.filename=maven-lockfile-github-action-5.3.2-cyclonedx.json
+outputs.2.3.length=541689
+outputs.2.3.checksums.sha512=28bf2669cb7dbe97b6520f3e51a0c7aecfcb7a0133b66a02dcf89b7ee4d63b3997a4b937e64911f8281de0b8179ed97b32fbccba636f3d7f298441a6aef59c6c
+
+outputs.2.4.groupId=io.github.chains-project
+outputs.2.4.filename=maven-lockfile-github-action-5.3.2-sources.jar
+outputs.2.4.length=5249
+outputs.2.4.checksums.sha512=54f759a326b28c32ccf52dcd7885596554356b41b1fb2f6eb02957952c4a6e5f17ac371be4ec3b05f1aad0b9e7d5568ebe7c9d99488dcdfb01786cfed9760f62
