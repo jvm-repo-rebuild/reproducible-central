@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=CycloneDX Core (Java)
+group-id=org.cyclonedx
+artifact-id=cyclonedx-core-java
+version=10.1.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/CycloneDX/cyclonedx-core-java.git
+source.scm.tag=cyclonedx-core-java-10.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.cyclonedx
+outputs.0.filename=cyclonedx-core-java-10.1.0.pom
+outputs.0.length=14311
+outputs.0.checksums.sha512=b53b431f7dde1c639be75bc23291e17fee53b70af5d78472e56f292bbaf194c451d1b952668cf096f2e612bdb90fab0b51af2dca38dcbaa72487d84d15084db4
+
+outputs.1.groupId=org.cyclonedx
+outputs.1.filename=cyclonedx-core-java-10.1.0.jar
+outputs.1.length=2419341
+outputs.1.checksums.sha512=d92bfb20a866f44cf1ea771bb5f7c41ee87f13db26e7d77bcd63a910745b4a79f1d5661dfec621891e41cba573e524ca3a759e8a1bc1568a41bd6525c1d4fbbe
+
+outputs.2.groupId=org.cyclonedx
+outputs.2.filename=cyclonedx-core-java-10.1.0-sources.jar
+outputs.2.length=2245727
+outputs.2.checksums.sha512=c1ad480e9659934f112ce5d3d9d7cb0f02202411f0467b7dab9f14c44c333a04a6a99757dbcc158ee4a71e2ab3595671367cebc13d4cd9153c751d9b38e7c423
+
+outputs.3.groupId=org.cyclonedx
+outputs.3.filename=cyclonedx-core-java-10.1.0-cyclonedx.xml
+outputs.3.length=36264
+outputs.3.checksums.sha512=ef2eeb22177b75531f9c9cee19a39d4a130857cf4754acc7c954cf331e5f61534ca1cb90256329219c11de9b633bdf3da35e6fad5a1adfdd96c546349d6b28b2
+
+outputs.4.groupId=org.cyclonedx
+outputs.4.filename=cyclonedx-core-java-10.1.0-cyclonedx.json
+outputs.4.length=38790
+outputs.4.checksums.sha512=033a689d9ef6528585f4ba4d6ed5c1fc07b2b01bef13d81aa80ca8c31266c60f0051e6a87bb4e735aad014f3067ccf56e2e827642c8c202d570ebda3aa763086
