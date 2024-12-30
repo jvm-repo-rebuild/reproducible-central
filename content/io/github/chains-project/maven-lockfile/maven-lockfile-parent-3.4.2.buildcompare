@@ -1,0 +1,10 @@
+version=3.4.2
+ok=7
+ko=1
+ignored=0
+okFiles="maven-lockfile-parent-3.4.2.pom maven-lockfile-3.4.2.pom maven-lockfile-3.4.2.jar maven-lockfile-3.4.2-sources.jar maven-lockfile-3.4.2-tests.jar maven-lockfile-github-action-3.4.2.pom maven-lockfile-github-action-3.4.2-sources.jar"
+koFiles="maven-lockfile-github-action-3.4.2.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.github.chains-project/maven-lockfile-github-action-3.4.2.jar github_action/target/maven-lockfile-github-action-3.4.2.jar
