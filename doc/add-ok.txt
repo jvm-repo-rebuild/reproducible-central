@@ -1,2 +1,2 @@
-content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/fastasyncvoxelsniper-3.2.1.buildspec:3.2.2
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-19.buildspec:11.1.1-beta-20
+content/io/airlift/airbase/airbase-208.buildspec:209
+content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-10.0.0.buildspec:10.1.0
