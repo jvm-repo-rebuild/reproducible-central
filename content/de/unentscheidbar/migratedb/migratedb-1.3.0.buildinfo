@@ -51,8 +51,8 @@ outputs.2.0.checksums.sha512=e39c47a931be133e70aa9e6b4c7d1b74cb30cd96bcd24c079e6
 
 outputs.2.1.groupId=de.unentscheidbar
 outputs.2.1.filename=migratedb-core-1.3.0.jar
-outputs.2.1.length=662334
-outputs.2.1.checksums.sha512=80897e6b92c07cc142325b9f8fc3647aaf358694e1e1b64478b245f4bb9c3ce861257b5d9f77d68f93231f56f74aab555ecab4ab3be4471d95094ab4cd704bb5
+outputs.2.1.length=662319
+outputs.2.1.checksums.sha512=0c247ec3c27dbf99bd3311ed54f02e9478282d9629ee4352afb0352e5d1c6ce1f26353cd320788bdd3957db0f1e83e7e3e26d261386236cb913fb6feda2cc68b
 
 outputs.3.coordinates=de.unentscheidbar:migratedb-scanner
 
