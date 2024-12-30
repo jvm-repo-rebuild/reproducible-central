@@ -11,7 +11,7 @@ jdk=11
 newline=lf
 umask=022
 
-command="mvn -Ppublication clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcyclonedx.skip"
+command="mvn -Ppublication clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-parent-${version}.buildinfo
 
 #diffoscope=${artifactId}-parent-${version}.diffoscope
