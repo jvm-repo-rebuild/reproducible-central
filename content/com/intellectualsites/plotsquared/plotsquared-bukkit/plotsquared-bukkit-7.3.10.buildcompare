@@ -1,0 +1,5 @@
+version=7.3.10
+ok=6
+ko=0
+okFiles="plotsquared-bukkit-7.3.10-sources.jar plotsquared-bukkit-7.3.10.jar plotsquared-bukkit-7.3.10.pom plotsquared-core-7.3.10-sources.jar plotsquared-core-7.3.10.jar plotsquared-core-7.3.10.pom"
+koFiles=""
