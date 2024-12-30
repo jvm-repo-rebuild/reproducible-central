@@ -1,0 +1,19 @@
+groupId=com.intellectualsites.plotsquared
+artifactId=plotsquared-bukkit
+display=${groupId}:${artifactId}
+version=7.3.11
+
+gitRepo=https://github.com/IntellectualSites/PlotSquared.git
+gitTag=${version}
+
+tool=gradle
+jdk=21
+newline=lf
+umask=022
+
+command="./gradlew --no-daemon --no-build-cache clean assemble publishToMavenLocal -Pskip.signing -x test"
+
+buildinfo=${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
