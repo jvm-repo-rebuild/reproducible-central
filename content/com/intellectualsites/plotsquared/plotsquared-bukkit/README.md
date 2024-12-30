@@ -13,12 +13,13 @@ Source code: [https://github.com/IntellectualSites/PlotSquared.git](https://gith
 * [com.intellectualsites.plotsquared:plotsquared-core](https://central.sonatype.com/artifact/com.intellectualsites.plotsquared/plotsquared-core/overview)
 </details>
 
-rebuilding **1 releases** of com.intellectualsites.plotsquared:plotsquared-bukkit:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of com.intellectualsites.plotsquared:plotsquared-bukkit:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [7.4.1](https://central.sonatype.com/artifact/com.intellectualsites.plotsquared/plotsquared-bukkit/7.4.1/pom) | [gradle jdk21](plotsquared-7.4.1.buildspec) | [result](plotsquared-bukkit-7.4.1.buildinfo): [6 :white_check_mark: ](plotsquared-bukkit-7.4.1.buildcompare) | 2.8M |
+| [7.4.0](https://central.sonatype.com/artifact/com.intellectualsites.plotsquared/plotsquared-bukkit/7.4.0/pom) | [gradle jdk21](plotsquared-7.4.0.buildspec) | [result](plotsquared-bukkit-7.4.0.buildinfo): [6 :white_check_mark: ](plotsquared-bukkit-7.4.0.buildcompare) | 2.8M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
