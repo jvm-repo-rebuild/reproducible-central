@@ -1,0 +1,11 @@
+version=2.2.0
+ok=6
+ko=2
+ignored=0
+okFiles="maven-lockfile-parent-2.2.0.pom maven-lockfile-2.2.0.pom maven-lockfile-2.2.0.jar maven-lockfile-2.2.0-tests.jar maven-lockfile-2.2.0-sources.jar maven-lockfile-github-action-2.2.0.pom"
+koFiles="maven-lockfile-github-action-2.2.0.jar maven-lockfile-github-action-2.2.0-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.github.chains-project/maven-lockfile-github-action-2.2.0.jar github_action/target/maven-lockfile-github-action-2.2.0.jar
+# diffoscope target/reference/io.github.chains-project/maven-lockfile-github-action-2.2.0-sources.jar github_action/target/maven-lockfile-github-action-2.2.0-sources.jar

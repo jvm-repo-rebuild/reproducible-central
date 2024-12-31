@@ -1,0 +1,69 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=maven-lockfile-parent
+group-id=io.github.chains-project
+artifact-id=maven-lockfile-parent
+version=2.2.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/chains-project/maven-lockfile
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=maven-lockfile-github-action
+
+# aggregated output
+
+outputs.0.coordinates=io.github.chains-project:maven-lockfile-parent
+
+outputs.0.0.groupId=io.github.chains-project
+outputs.0.0.filename=maven-lockfile-parent-2.2.0.pom
+outputs.0.0.length=4714
+outputs.0.0.checksums.sha512=8df7991e89ceed50e56bdbdb2f2d3b5024f97d7f9fa0804adee8d0566d8d466d94946d644b4bdd53695d57f9c2cd822e83a7453b9522cdaaab650f5691b0ac41
+
+outputs.1.coordinates=io.github.chains-project:maven-lockfile
+
+outputs.1.0.groupId=io.github.chains-project
+outputs.1.0.filename=maven-lockfile-2.2.0.pom
+outputs.1.0.length=9110
+outputs.1.0.checksums.sha512=282d4073129381f35de08cd4aac05bfb7c12aa31fce7e7f21161d4f30b9d9397e88863d74037e716286dd620a07a5e4522e00f8e3255c6baa199fb4ce6ff6f0c
+
+outputs.1.1.groupId=io.github.chains-project
+outputs.1.1.filename=maven-lockfile-2.2.0.jar
+outputs.1.1.length=46656
+outputs.1.1.checksums.sha512=e7066c9e4f8a346230b1945bc12d61439e71f0d0e1c8c2ed8b15207e4861ade769ae68af8047af2b13ab2840462cd0b9f5dc7da7dea16a65b533a06bfde27215
+
+outputs.1.2.groupId=io.github.chains-project
+outputs.1.2.filename=maven-lockfile-2.2.0-tests.jar
+outputs.1.2.length=10337
+outputs.1.2.checksums.sha512=54f91c6465a4181179d4c8218e29b0b19389aa649e89f9203db4bf05709c96bb28a05871e7f39fedf674427b002c9eaa4f70141b05604ad556ecac91a48aae21
+
+outputs.1.3.groupId=io.github.chains-project
+outputs.1.3.filename=maven-lockfile-2.2.0-sources.jar
+outputs.1.3.length=25220
+outputs.1.3.checksums.sha512=8815a1424f698469e384e1f0ac17a13581c0b215809f194a7ece9261901b722849174cfaf7fca5f1ffaed90884518b68adcc66c15ec6cd545ab4110872bc85b0
+
+outputs.2.coordinates=io.github.chains-project:maven-lockfile-github-action
+
+outputs.2.0.groupId=io.github.chains-project
+outputs.2.0.filename=maven-lockfile-github-action-2.2.0.pom
+outputs.2.0.length=7717
+outputs.2.0.checksums.sha512=ae5f6fe77fcc779dec2eeea478a121be47af9705fbe7503fa755bf61f20d8218f30800be6e79771d90cd56c948ff08a0790660c1a0b8d8ac2fbcfd24f7981512
+
+outputs.2.1.groupId=io.github.chains-project
+outputs.2.1.filename=maven-lockfile-github-action-2.2.0.jar
+outputs.2.1.length=16420224
+outputs.2.1.checksums.sha512=5827d170bab981af007ec3af0e55c582157387384398000a3b2fca3b863107a236ed492b1d9302ed5e8ba84f2b3f23d1ea3bd0efa97ad325d3e5fcb4441f0e89
+
+outputs.2.2.groupId=io.github.chains-project
+outputs.2.2.filename=maven-lockfile-github-action-2.2.0-sources.jar
+outputs.2.2.length=5048
+outputs.2.2.checksums.sha512=8e700dae777be342d3b0aa004b5762d53a75f0c421e57754010652ab05a4a3549cd1fe8e1cf13f316d69234baf158e17f81244e916bf6439062f401cb7687ad6
