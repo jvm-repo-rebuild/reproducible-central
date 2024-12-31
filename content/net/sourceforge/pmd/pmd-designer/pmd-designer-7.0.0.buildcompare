@@ -1,0 +1,10 @@
+version=7.0.0
+ok=2
+ko=1
+ignored=0
+okFiles="pmd-designer-7.0.0.pom pmd-designer-7.0.0-sources.jar"
+koFiles="pmd-designer-7.0.0.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/net.sourceforge.pmd/pmd-designer-7.0.0.jar target/pmd-designer-7.0.0.jar

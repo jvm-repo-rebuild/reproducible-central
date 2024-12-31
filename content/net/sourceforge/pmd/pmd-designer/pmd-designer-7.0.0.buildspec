@@ -1,0 +1,19 @@
+groupId=net.sourceforge.pmd
+artifactId=pmd-designer
+display=${groupId}:${artifactId}
+version=7.0.0
+
+gitRepo=https://github.com/pmd/${artifactId}.git
+gitTag=${version}
+
+tool=mvn-3.9.6
+jdk=11
+newline=lf
+umask=022
+workdir=/home/runner/work/pmd-designer/pmd-designer
+
+command="mvn -Pshading clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=

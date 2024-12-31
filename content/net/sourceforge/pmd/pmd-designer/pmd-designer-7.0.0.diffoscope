@@ -1,0 +1,38 @@
+1 / 1 target/reference/net.sourceforge.pmd/pmd-designer-7.0.0.jar target/pmd-designer-7.0.0.jar
+--- target/reference/net.sourceforge.pmd/pmd-designer-7.0.0.jar
++++ target/pmd-designer-7.0.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 4694293 bytes, number of entries: 2395
+│ +Zip file size: 4694235 bytes, number of entries: 2395
+│  -rw----     2.0 fat        0 bX defN 24-Mar-22 08:39 META-INF/
+│  -rw----     2.0 fat      102 bl defN 24-Mar-22 08:39 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 24-Mar-22 08:39 net/
+│ @@ -60,15 +60,15 @@
+│  -rw----     2.0 fat     2943 bl defN 24-Mar-22 08:39 net/sourceforge/pmd/util/fxdesigner/css/tabs.css
+│  -rw----     2.0 fat     7006 bl defN 24-Mar-22 08:39 net/sourceforge/pmd/util/fxdesigner/css/tests.css
+│ --rw----     2.0 fat      819 bl defN 24-Mar-22 08:39 net/sourceforge/pmd/util/fxdesigner/designer.properties
+│ +-rw----     2.0 fat      752 bl defN 24-Mar-22 08:39 net/sourceforge/pmd/util/fxdesigner/designer.properties
+│  -rw----     2.0 fat        0 bl defN 24-Mar-22 08:39 net/sourceforge/pmd/util/fxdesigner/fxml/
+│  -rw----     2.0 fat     3975 bl defN 24-Mar-22 08:39 net/sourceforge/pmd/util/fxdesigner/fxml/auxclasspath-setup-popup.fxml
+│ @@ -2390,8 +2390,8 @@
+│  -rw----     2.0 fat      339 bl defN 18-Sep-19 16:53 META-INF/services/org.kordamp.ikonli.IkonHandler
+│  -rw----     2.0 fat       37 bl defN 18-Sep-19 16:53 META-INF/services/org.controlsfx.glyphfont.GlyphFont
+│ -2395 files, 10260301 bytes uncompressed, 4210699 bytes compressed:  59.0%
+│ +2395 files, 10260234 bytes uncompressed, 4210641 bytes compressed:  59.0%
+├── net/sourceforge/pmd/util/fxdesigner/designer.properties
+│ @@ -1,14 +1,12 @@
+│  #Properties
+│  checkstyle.plugin.version=3.3.1
+│  checkstyle.version=10.14.0
+│  jar.plugin.version=3.3.0
+│ -java.version=11.0.22
+│ +java.version=11.0.25
+│  javadoc.plugin.version=3.6.3
+│  jflex-output=/home/runner/work/pmd-designer/pmd-designer/target/generated-sources/jflex
+│  junit5.version=5.8.2
+│  kotest.version=5.5.5
+│  kotlin.version=1.7.20
+│  local.lib.repo=/home/runner/work/pmd-designer/pmd-designer/lib/mvn-repo
+│  openjfx.scope=provided
+
