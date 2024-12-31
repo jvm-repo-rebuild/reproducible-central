@@ -1,2 +1,4 @@
-content/io/airlift/airbase/airbase-208.buildspec:209
-content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-10.0.0.buildspec:10.1.0
+content/com/intellectualsites/bom/bom-newest/bom-newest-1.51.buildspec:1.52
+content/org/jreleaser/jreleaser-1.15.0.buildspec:1.16.0
+content/org/jpmml/jpmml-converter/jpmml-converter-1.5.10.buildspec:1.5.11
+content/org/jpmml/jpmml-evaluator/jpmml-evaluator-1.6.8.buildspec:1.6.9

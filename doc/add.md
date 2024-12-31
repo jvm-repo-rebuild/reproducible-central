@@ -4,14 +4,17 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241230142032 --> [airbase](../content/io/airlift/airbase/README.md) | [208](../content/io/airlift/airbase/airbase-208.buildspec) :white_check_mark: | [209](../content/io/airlift/airbase/airbase-209.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-208.buildspec 209` |
-| <!-- 20241230003524 --> [cyclonedx-core-java](../content/org/cyclonedx/cyclonedx-core-java/README.md) | [10.0.0](../content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-10.0.0.buildspec) :white_check_mark: | [10.1.0](../content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-10.1.0.buildspec) | `bin/add-new-release.sh content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-10.0.0.buildspec 10.1.0` |
+| <!-- 20241231193512 --> [bom-newest](../content/com/intellectualsites/bom/bom-newest/README.md) | [1.51](../content/com/intellectualsites/bom/bom-newest/bom-newest-1.51.buildspec) :white_check_mark: | [1.52](../content/com/intellectualsites/bom/bom-newest/bom-newest-1.52.buildspec) | `bin/add-new-release.sh content/com/intellectualsites/bom/bom-newest/bom-newest-1.51.buildspec 1.52` |
+| <!-- 20241231183435 --> [jpmml-converter](../content/org/jpmml/jpmml-converter/README.md) | [1.5.10](../content/org/jpmml/jpmml-converter/jpmml-converter-1.5.10.buildspec) :white_check_mark: | [1.5.11](../content/org/jpmml/jpmml-converter/jpmml-converter-1.5.11.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-converter/jpmml-converter-1.5.10.buildspec 1.5.11` |
+| <!-- 20241231124754 --> [jpmml-evaluator](../content/org/jpmml/jpmml-evaluator/README.md) | [1.6.8](../content/org/jpmml/jpmml-evaluator/jpmml-evaluator-1.6.8.buildspec) :white_check_mark: | [1.6.9](../content/org/jpmml/jpmml-evaluator/jpmml-evaluator-1.6.9.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-evaluator/jpmml-evaluator-1.6.8.buildspec 1.6.9` |
+| <!-- 20241231111121 --> [jreleaser](../content/org/jreleaser/README.md) | [1.15.0](../content/org/jreleaser/jreleaser-1.15.0.buildspec) :white_check_mark: | [1.16.0](../content/org/jreleaser/jreleaser-1.16.0.buildspec) | `bin/add-new-release.sh content/org/jreleaser/jreleaser-1.15.0.buildspec 1.16.0` |
 | <!-- 20240620095218 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | [2.5.1](../content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec) :white_check_mark: | 2.5.0 2.4.1 2.3.2 2.2.3 2.1.3  | `bin/add-new-release.sh content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
 `buildcompare` says `ko=0` but `buildspec` configures a `diffoscope` value in following releases:
 <!-- BEGIN GENERATED UNEXPECTED DIFFOSCOPE -->
+      content/com/fasterxml/uuid/java-uuid-generator-5.1.0.buildspec
 <!-- END GENERATED UNEXPECTED DIFFOSCOPE -->
 
 ### Missing Diffoscope in Buildspec
@@ -37,13 +40,11 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20241230142117 --> [syncope](../content/org/apache/syncope/README.md) | [3.0.9](../content/org/apache/syncope/syncope-3.0.9.buildspec) :warning: | [4.0.0-M0](../content/org/apache/syncope/syncope-4.0.0-M0.buildspec) | `bin/add-new-release.sh content/org/apache/syncope/syncope-3.0.9.buildspec 4.0.0-M0` |
 | <!-- 20241230095252 --> [logback-parent](../content/ch/qos/logback/README.md) | [1.5.13](../content/ch/qos/logback/logback-1.5.13.buildspec) :x: | [1.5.15](../content/ch/qos/logback/logback-1.5.15.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/logback-1.5.13.buildspec 1.5.15` |
 | <!-- 20241227183453 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.67.10](../content/org/finos/legend/engine/legend-engine-4.67.10.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.67.10` |
 | <!-- 20241220093958 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.9.0](../content/org/apache/camel/camel/camel-4.9.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.9.0` |
 | <!-- 20241219122805 --> [glassfish-parent](../content/org/glassfish/main/README.md) | [8.0.0-JDK17-M7](../content/org/glassfish/main/glassfish-8.0.0-JDK17-M7.buildspec) :warning: | [8.0.0-JDK17-M9](../content/org/glassfish/main/glassfish-8.0.0-JDK17-M9.buildspec) | `bin/add-new-release.sh content/org/glassfish/main/glassfish-8.0.0-JDK17-M7.buildspec 8.0.0-JDK17-M9` |
 | <!-- 20241215170740 --> [reload4j](../content/ch/qos/reload4j/README.md) | [1.2.25](../content/ch/qos/reload4j/reload4j-1.2.25.buildspec) :warning: | [1.2.26](../content/ch/qos/reload4j/reload4j-1.2.26.buildspec) | `bin/add-new-release.sh content/ch/qos/reload4j/reload4j-1.2.25.buildspec 1.2.26` |
-| <!-- 20241213164219 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | [6.9.6](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.9.6.buildspec) :warning: | [6.10.0](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.10.0.buildspec) | `bin/add-new-release.sh content/com/adobe/acs/aem-commons/acs-aem-commons-6.9.6.buildspec 6.10.0` |
 | <!-- 20241211104935 --> [protostream-aggregator](../content/org/infinispan/protostream/README.md) | [5.0.12.Final](../content/org/infinispan/protostream/protostream-5.0.12.Final.buildspec) :warning: [:memo:](https://github.com/infinispan/protostream/pull/358) | [6.0.0.Dev01](../content/org/infinispan/protostream/protostream-6.0.0.Dev01.buildspec) | `bin/add-new-release.sh content/org/infinispan/protostream/protostream-5.0.12.Final.buildspec 6.0.0.Dev01` |
 | <!-- 20241207202534 --> [com.io7m.cardant](../content/com/io7m/cardant/README.md) | [0.0.2](../content/com/io7m/cardant/com.io7m.cardant-0.0.2.buildspec) :warning: | [1.0.0-beta0001](../content/com/io7m/cardant/com.io7m.cardant-1.0.0-beta0001.buildspec) | `bin/add-new-release.sh content/com/io7m/cardant/com.io7m.cardant-0.0.2.buildspec 1.0.0-beta0001` |
 | <!-- 20241120144345 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.0.2](../content/com/taobao/arthas/arthas-4.0.2.buildspec) :warning: | [4.0.4](../content/com/taobao/arthas/arthas-4.0.4.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.0.2.buildspec 4.0.4` |
@@ -51,6 +52,7 @@ New Releases To Add
 | <!-- 20241015135826 --> [jena](../content/org/apache/jena/jena/README.md) | [4.5.0](../content/org/apache/jena/jena/jena-4.5.0.buildspec) :warning: | [5.2.0](../content/org/apache/jena/jena/jena-5.2.0.buildspec) | `bin/add-new-release.sh content/org/apache/jena/jena/jena-4.5.0.buildspec 5.2.0` |
 | <!-- 20240812114051 --> [html-formatter](../content/io/cucumber/html-formatter/README.md) | [20.2.0](../content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec) :warning: [:memo:](https://github.com/cucumber/html-formatter/issues/207) | [21.7.0](../content/io/cucumber/html-formatter/html-formatter-21.7.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec 21.7.0` |
 | <!-- 20240702171741 --> [git-commit-id-maven-plugin](../content/io/github/git-commit-id/README.md) | [9.0.0](../content/io/github/git-commit-id/git-commit-id-maven-plugin-9.0.0.buildspec) :x: | [9.0.1](../content/io/github/git-commit-id/git-commit-id-maven-plugin-9.0.1.buildspec) | `bin/add-new-release.sh content/io/github/git-commit-id/git-commit-id-maven-plugin-9.0.0.buildspec 9.0.1` |
+| <!-- 20240531090932 --> [pmd-designer](../content/net/sourceforge/pmd/pmd-designer/README.md) | [7.0.0](../content/net/sourceforge/pmd/pmd-designer/pmd-designer-7.0.0.buildspec) :warning: | [7.2.0](../content/net/sourceforge/pmd/pmd-designer/pmd-designer-7.2.0.buildspec) | `bin/add-new-release.sh content/net/sourceforge/pmd/pmd-designer/pmd-designer-7.0.0.buildspec 7.2.0` |
 | <!-- 20240509124549 --> [paimon-shade](../content/org/apache/paimon/shade/README.md) | [0.6.0-incubating](../content/org/apache/paimon/shade/paimon-shade-0.6.0-incubating.buildspec) :warning: [:memo:](https://github.com/apache/incubator-paimon-shade/pull/18) | [0.8.0](../content/org/apache/paimon/shade/paimon-shade-0.8.0.buildspec) | `bin/add-new-release.sh content/org/apache/paimon/shade/paimon-shade-0.6.0-incubating.buildspec 0.8.0` |
 | <!-- 20240321101833 --> [io.wcm.wcm.ui.granite](../content/io/wcm/io.wcm.wcm/ui/granite/README.md) | [1.9.12](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec) :warning: | [1.10.4](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.10.4.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec 1.10.4` |
 | <!-- 20240313094557 --> [io.wcm.wcm.parsys](../content/io/wcm/io.wcm.wcm/parsys/README.md) | [1.6.4](../content/io/wcm/io.wcm.wcm/parsys/wcm-parsys-1.6.4.buildspec) :warning: | [1.7.4](../content/io/wcm/io.wcm.wcm/parsys/wcm-parsys-1.7.4.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/parsys/wcm-parsys-1.6.4.buildspec 1.7.4` |
@@ -73,6 +75,7 @@ New Releases To Add
 | <!-- 20241216231422 --> [maven](../content/org/apache/maven/maven/README.md) | 4.0.0-rc-2 :warning: |
 | <!-- 20241216105905 --> [org.apache.sling.commons.log.webconsole](../content/org/apache/sling/org.apache.sling.commons.log.webconsole/README.md) | 1.0.2 :warning: |
 | <!-- 20241215214119 --> [plexus-utils](../content/org/codehaus/plexus/plexus-utils/README.md) | 4.0.2 :warning: |
+| <!-- 20241213164219 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | 6.10.0 :warning: |
 | <!-- 20241210081421 --> [io.wcm.handler.link](../content/io/wcm/io.wcm.handler/link/README.md) | 2.2.4 :warning: |
 | <!-- 20241210081249 --> [io.wcm.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | 2.3.0 :warning: |
 | <!-- 20241209231051 --> [jooby](../content/io/jooby/README.md) | 3.5.5 :warning: |
@@ -138,7 +141,6 @@ New Releases To Add
 | <!-- 20240610180453 --> [com.io7m.certusine](../content/com/io7m/certusine/README.md) | 3.1.0 :warning: |
 | <!-- 20240609233725 --> [javacan](../content/tel/schich/javacan/README.md) | 3.4.0 :x: |
 | <!-- 20240603092651 --> [commons-jcs3](../content/org/apache/commons/commons-jcs3/README.md) | 3.2.1 :warning: [:memo:](https://github.com/apache/commons-jcs/commit/61661616d8cb586bc41c0bea5cd3a206ba0ec94d) |
-| <!-- 20240603000134 --> [java-uuid-generator](../content/com/fasterxml/uuid/README.md) | 5.1.0 :warning: |
 | <!-- 20240527225823 --> [com.io7m.gtyrell](../content/com/io7m/gtyrell/README.md) | 4.0.0 :warning: |
 | <!-- 20240524153720 --> [com.io7m.sunburst](../content/com/io7m/sunburst/README.md) | 0.0.7 :warning: |
 | <!-- 20240524074513 --> [commons-daemon](../content/org/apache/commons/commons-daemon/README.md) | 1.4.0 :warning: |
@@ -154,6 +156,7 @@ New Releases To Add
 | <!-- 20240317040144 --> [systemds](../content/org/apache/systemds/README.md) | 3.2.0 :warning: |
 | <!-- 20240312215350 --> [cdevents-sdk-java](../content/dev/cdevents/cdevents-sdk-java/README.md) | 0.3.1 :x: |
 | <!-- 20240310140556 --> [maven-remote-resources-plugin](../content/org/apache/maven/plugins/maven-remote-resources-plugin/README.md) | 3.2.0 :warning: |
+| <!-- 20240304110456 --> [jakarta.mail-api](../content/jakarta/mail/jakarta.mail-api/README.md) | 2.1.3 :warning: |
 | <!-- 20240229131606 --> [angus-activation-project](../content/org/eclipse/angus/activation/README.md) | 2.0.2 :warning: |
 | <!-- 20240219171831 --> [plc4x-parent](../content/org/apache/plc4x/plc4x/README.md) | 0.12.0 :x: |
 | <!-- 20240126192007 --> [io.wcm.handler.richtext](../content/io/wcm/io.wcm.handler/richtext/README.md) | 2.0.0 :warning: |
