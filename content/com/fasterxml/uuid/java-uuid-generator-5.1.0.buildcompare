@@ -1,8 +1,9 @@
 version=5.1.0
-ok=2
-ko=1
+ok=3
+ko=0
 ignored=0
-okFiles="java-uuid-generator-5.1.0.pom java-uuid-generator-5.1.0-sources.jar"
-koFiles="java-uuid-generator-5.1.0.jar"
+okFiles="java-uuid-generator-5.1.0.pom java-uuid-generator-5.1.0.jar java-uuid-generator-5.1.0-sources.jar"
+koFiles=""
 ignoredFiles=""
-# diffoscope target/reference/com.fasterxml.uuid/java-uuid-generator-5.1.0.jar target/java-uuid-generator-5.1.0.jar
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

@@ -11,7 +11,7 @@ tool=mvn-3.8.6
 jdk=8
 newline=lf
 umask=022
-timezone="Etc/GMT+8"
+timezone="America/Los_Angeles"
 
 command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 

@@ -29,7 +29,7 @@ outputs.0.checksums.sha512=2d4335e8e13dfee1c7f03b9b991a418d84d2913ff467adbc82cbf
 outputs.1.groupId=com.fasterxml.uuid
 outputs.1.filename=java-uuid-generator-5.1.0.jar
 outputs.1.length=56068
-outputs.1.checksums.sha512=6304fea16879090a7b26c3f590a2e9dfcdf0fdd104cfb90787bd3a02cbcf6e7fea803ce3b444412fcfc159936b9b196b56e77f1ed45a552f227ede2607162eef
+outputs.1.checksums.sha512=a7d17dea261775418ce6a8d64ad5af627232c62f7151ebedf1e43c8661ab1dfd406b7409331061fdfdca08757a3af22e6dc379b8ff5802072ddee25197aae712
 
 outputs.2.groupId=com.fasterxml.uuid
 outputs.2.filename=java-uuid-generator-5.1.0-sources.jar
