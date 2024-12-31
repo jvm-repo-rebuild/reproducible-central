@@ -8,12 +8,12 @@
 Source code: [https://github.com/cowtowncoder/java-uuid-generator.git](https://github.com/cowtowncoder/java-uuid-generator.git)
 
 rebuilding **6 releases** of com.fasterxml.uuid:java-uuid-generator:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [5.1.0](https://central.sonatype.com/artifact/com.fasterxml.uuid/java-uuid-generator/5.1.0/pom) | [mvn jdk8](java-uuid-generator-5.1.0.buildspec) | [result](java-uuid-generator-5.1.0.buildinfo): [2 :white_check_mark:  1 :warning:](java-uuid-generator-5.1.0.buildcompare) [:mag:](java-uuid-generator-5.1.0.diffoscope) | 119K |
+| [5.1.0](https://central.sonatype.com/artifact/com.fasterxml.uuid/java-uuid-generator/5.1.0/pom) | [mvn jdk8](java-uuid-generator-5.1.0.buildspec) | [result](java-uuid-generator-5.1.0.buildinfo): [3 :white_check_mark: ](java-uuid-generator-5.1.0.buildcompare) [:mag:](java-uuid-generator-5.1.0.diffoscope) | 119K |
 | [5.0.0](https://central.sonatype.com/artifact/com.fasterxml.uuid/java-uuid-generator/5.0.0/pom) | [mvn jdk8](java-uuid-generator-5.0.0.buildspec) | [result](java-uuid-generator-5.0.0.buildinfo): [3 :white_check_mark: ](java-uuid-generator-5.0.0.buildcompare) | 119K |
 | [4.3.0](https://central.sonatype.com/artifact/com.fasterxml.uuid/java-uuid-generator/4.3.0/pom) | [mvn jdk8](java-uuid-generator-4.3.0.buildspec) | [result](java-uuid-generator-4.3.0.buildinfo): [2 :white_check_mark:  1 :warning:](java-uuid-generator-4.3.0.buildcompare) [:mag:](java-uuid-generator-4.3.0.diffoscope) [:memo:](https://github.com/moditect/moditect/issues/199) | 114K |
 | [4.2.0](https://central.sonatype.com/artifact/com.fasterxml.uuid/java-uuid-generator/4.2.0/pom) | [mvn jdk8](java-uuid-generator-4.2.0.buildspec) | [result](java-uuid-generator-4.2.0.buildinfo): [2 :white_check_mark:  1 :warning:](java-uuid-generator-4.2.0.buildcompare) [:memo:](https://github.com/moditect/moditect/issues/199) | 112K |
