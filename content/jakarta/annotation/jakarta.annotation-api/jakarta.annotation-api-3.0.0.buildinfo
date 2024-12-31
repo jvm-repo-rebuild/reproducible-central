@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jakarta Annotations API
+group-id=jakarta.annotation
+artifact-id=jakarta.annotation-api
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/jakartaee/common-annotations-api.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=18
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=jakarta.annotation
+outputs.0.filename=jakarta.annotation-api-3.0.0.pom
+outputs.0.length=15112
+outputs.0.checksums.sha512=bc0a858cd8debbd71b53547fc08cf50b86e0824b58e6211df734ab0e0e7f303b460e19d7fb73e0d4e5034d0f69871211d06c30afe9814f0b994f48a5b0de3424
+
+outputs.1.groupId=jakarta.annotation
+outputs.1.filename=jakarta.annotation-api-3.0.0.jar
+outputs.1.length=26378
+outputs.1.checksums.sha512=2bd5a16684c4e8144897ba6dc467628d1b8a85326235240e4c20101b6df3681d23aeebc30ca99e395ec848f33cb5244085031b2a0fbce746c8ede7148a5e7c1d
+
+outputs.2.groupId=jakarta.annotation
+outputs.2.filename=jakarta.annotation-api-3.0.0-cyclonedx.xml
+outputs.2.length=2842
+outputs.2.checksums.sha512=dfe8184484affe03d6c716628f7b87f71eff1897476189983f05de356b4b062d5899d2627b7097c3cf94ea6c7482fc6fa386da0a2ed028b513b84a216ecc0243
+
+outputs.3.groupId=jakarta.annotation
+outputs.3.filename=jakarta.annotation-api-3.0.0-cyclonedx.json
+outputs.3.length=3353
+outputs.3.checksums.sha512=5a25a56c789dc0951ed1248193fd9f16bff3b7ae56edd8513bef11dc6c2f75added402b23e01ed9a87f2c98168526e03bd6396e965a77d83f485d3ddd1cad193
