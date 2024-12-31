@@ -1,0 +1,18 @@
+groupId=jakarta.mail
+artifactId=jakarta.mail-api
+display=${groupId}:${artifactId}
+version=2.1.3
+
+gitRepo=https://github.com/jakartaee/mail-api.git
+gitTag=${version}
+
+tool=mvn-3.9.9
+jdk=11
+newline=lf
+#umask=022
+
+command="mvn -f api/ clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=api/target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
