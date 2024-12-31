@@ -1,8 +1,8 @@
 version=5.3.3
-ok=7
+ok=13
 ko=1
 ignored=0
-okFiles="maven-lockfile-parent-5.3.3.pom maven-lockfile-5.3.3.pom maven-lockfile-5.3.3.jar maven-lockfile-5.3.3-sources.jar maven-lockfile-5.3.3-tests.jar maven-lockfile-github-action-5.3.3.pom maven-lockfile-github-action-5.3.3-sources.jar"
+okFiles="maven-lockfile-parent-5.3.3.pom maven-lockfile-parent-5.3.3-cyclonedx.xml maven-lockfile-parent-5.3.3-cyclonedx.json maven-lockfile-5.3.3.pom maven-lockfile-5.3.3.jar maven-lockfile-5.3.3-cyclonedx.xml maven-lockfile-5.3.3-cyclonedx.json maven-lockfile-5.3.3-sources.jar maven-lockfile-5.3.3-tests.jar maven-lockfile-github-action-5.3.3.pom maven-lockfile-github-action-5.3.3-cyclonedx.xml maven-lockfile-github-action-5.3.3-cyclonedx.json maven-lockfile-github-action-5.3.3-sources.jar"
 koFiles="maven-lockfile-github-action-5.3.3.jar"
 ignoredFiles=""
 reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
