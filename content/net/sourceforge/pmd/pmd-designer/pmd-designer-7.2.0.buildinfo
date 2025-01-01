@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=PMD Designer
+group-id=net.sourceforge.pmd
+artifact-id=pmd-designer
+version=7.2.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/pmd/pmd-designer.git
+source.scm.tag=7.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=net.sourceforge.pmd
+outputs.0.filename=pmd-designer-7.2.0.pom
+outputs.0.length=31808
+outputs.0.checksums.sha512=ed809166db702f6a6715feb79c467a17f0c0d0d7200ee669eb59689adc528beb4f9636753830a50cf8a400694e7e45415de5e2e1528286e16868ef48ddedcf14
+
+outputs.1.groupId=net.sourceforge.pmd
+outputs.1.filename=pmd-designer-7.2.0.jar
+outputs.1.length=4694391
+outputs.1.checksums.sha512=639eac6d4f5a08bae8a8bc84ca12f46ceb64440f2530c7de2ce3b72bae7f25b43be0bcd64320f0344b650aea399410a5e51c081da4a8fadd4d1e4e0cde8c034e
+
+outputs.2.groupId=net.sourceforge.pmd
+outputs.2.filename=pmd-designer-7.2.0-sources.jar
+outputs.2.length=311697
+outputs.2.checksums.sha512=72025bf3727c7e81111b6cf250508def2f364d63a4dd21ffc834f5656539067649f5edf9c890aedac8f183c18478ce933c49f83c430999c378a065ae2b484f81
