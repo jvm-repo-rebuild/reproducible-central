@@ -1,0 +1,19 @@
+groupId=com.intellectualsites.bom
+artifactId=bom-newest
+display=${groupId}:${artifactId}
+version=1.52
+
+gitRepo=https://github.com/IntellectualSites/bom.git
+gitTag=${version}
+
+tool=gradle
+jdk=17
+newline=lf
+umask=022
+
+command="./gradlew --no-daemon --no-build-cache clean assemble publishToMavenLocal -Pskip.signing"
+
+buildinfo=${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
