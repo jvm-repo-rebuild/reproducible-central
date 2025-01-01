@@ -1,6 +1,6 @@
 groupId=org.apache.tomee
 artifactId=jakartaee-api
-display=${groupId}:${artifactId}
+display=${groupId}:*.${artifactId}
 version=9.1
 
 gitRepo=https://github.com/apache/tomee-${artifactId}.git

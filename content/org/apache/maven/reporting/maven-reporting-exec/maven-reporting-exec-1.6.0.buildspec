@@ -1,6 +1,6 @@
 groupId=org.apache.maven.reporting
 artifactId=maven-reporting-exec
-display=${groupId}:m-reporting-exec
+display=${groupId}:${artifactId}
 version=1.6.0
 
 gitRepo=https://github.com/apache/${artifactId}.git

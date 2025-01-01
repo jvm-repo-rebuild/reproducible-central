@@ -8,7 +8,7 @@ version=1.0.1
 display=${groupId}:${artifactId}
 
 # Source code
-gitRepo=git@github.com:vidal-community/atom-jaxb.git
+gitRepo=https://github.com/vidal-community/atom-jaxb.git
 gitTag=v${version}
 
 # Rebuild environment prerequisites

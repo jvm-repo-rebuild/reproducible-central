@@ -5,7 +5,7 @@ groupId=org.eclipse.transformer
 artifactId=org.eclipse.transformer.parent
 version=0.2.0
 
-display=${groupId}
+display=${groupId}:transformer
 
 # Source code
 gitRepo=https://github.com/eclipse/transformer.git

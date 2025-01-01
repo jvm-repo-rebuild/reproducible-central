@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.commons.logservice
-display=${groupId}:.commons.logservice
+display=${groupId}:*.commons.logservice
 version=1.1.2
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

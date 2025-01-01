@@ -1,6 +1,6 @@
 groupId=org.apache.felix
 artifactId=org.apache.felix.http.parent
-display=${groupId}:${artifactId}
+display=${groupId}:*.http.parent
 version=13
 
 gitRepo=https://github.com/apache/felix-dev.git

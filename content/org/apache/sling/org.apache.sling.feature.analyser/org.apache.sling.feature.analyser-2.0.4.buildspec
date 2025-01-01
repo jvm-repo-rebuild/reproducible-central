@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.feature.analyser
-display=${groupId}:.feature.analyser
+display=${groupId}:*.feature.analyser
 version=2.0.4
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

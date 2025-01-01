@@ -1,6 +1,6 @@
 groupId=com.io7m.streamtime
 artifactId=com.io7m.streamtime
-display=${groupId}:${artifactId}
+display=com.io7m:*.$(echo $artifactId | cut -c 10-)
 version=0.0.1
 
 gitRepo="https://github.com/io7m/$(echo "${artifactId}" | sed s/com.io7m.//).git"

@@ -1,6 +1,6 @@
 groupId=io.wcm
 artifactId=io.wcm.parent_toplevel
-display=${groupId}-tooling:parent_toplevel
+display=${groupId}:*.parent_toplevel
 version=2.3.0
 
 gitRepo=https://github.com/wcm-io/${artifactId}.git

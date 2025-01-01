@@ -2,7 +2,7 @@ groupId=org.apache.aries.cdi
 artifactId=org.apache.aries.cdi
 version=1.1.4
 
-display=${groupId}
+display=${groupId}:*
 
 gitRepo=https://github.com/apache/aries-cdi.git
 gitTag=${artifactId}-${version}

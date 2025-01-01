@@ -1,6 +1,6 @@
 groupId=io.wcm
 artifactId=io.wcm.caconfig.editor.parent
-display=${groupId}-caconfig:editor
+display=${groupId}:*.caconfig.editor
 version=1.7.6
 
 gitRepo=https://github.com/wcm-io/wcm-io-caconfig.git

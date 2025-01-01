@@ -1,6 +1,6 @@
 groupId=io.wcm
 artifactId=io.wcm.handler.link
-display=${groupId}-handler:link
+display=${groupId}:*.handler.link
 version=1.5.2
 
 gitRepo=https://github.com/wcm-io/wcm-io-handler.git

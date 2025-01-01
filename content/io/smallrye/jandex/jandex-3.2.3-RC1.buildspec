@@ -2,7 +2,7 @@ groupId=io.smallrye
 artifactId=jandex-parent
 version=3.2.3-RC1
 
-display=${groupId}:${artifactId}
+display=${groupId}:jandex
 
 gitRepo=https://github.com/smallrye/jandex.git
 gitTag=${version}

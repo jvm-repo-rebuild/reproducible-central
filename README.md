@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **6018 releases** of **813 projects**:
-   - **4346** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 1672 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 813 projects, 699 have at least one fully reproducible release, 114 have none
+   rebuilding **6023 releases** of **814 projects**:
+   - **4350** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 1673 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 814 projects, 699 have at least one fully reproducible release, 115 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -23,7 +23,7 @@ Its objectives are to provide:
 <!-- BEGIN GENERATED RESULTS TABLE -->
 | [Central Repository](https://central.sonatype.com/) groupId | artifactId(s) | versions | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
 | ----------------- | --------------- | --------- | -------- |
-| biz.aQute.bnd | [maven-plugins](content/biz/aQute/bnd/plugins/README.md) | 10 | 10 :white_check_mark: |
+| biz.aQute.bnd | [bnd-maven-plugin](content/biz/aQute/bnd/plugins/README.md) | 10 | 10 :white_check_mark: |
 | ch.galinet | [reproducible-build-maven-plugin](content/ch/galinet/reproducible-build-maven-plugin/README.md) | 5 | 5 :white_check_mark: |
 | ch.qos.logback | [logback-parent](content/ch/qos/logback/README.md) | 53 | 37 :white_check_mark: / 16 :warning: |
 | ch.qos.reload4j | [reload4j](content/ch/qos/reload4j/README.md) | 8 | 1 :white_check_mark: / 7 :warning: |
@@ -33,8 +33,8 @@ Its objectives are to provide:
 | com.flowlogix | [flowlogix](content/com/flowlogix/README.md) | 20 | 15 :white_check_mark: / 5 :warning: |
 | com.adobe.acs | [acs-aem-commons](content/com/adobe/acs/aem-commons/README.md) | 6 | 6 :warning: |
 | com.cognite.units | [units-catalog](content/com/cognite/units/units-catalog/README.md) | 17 | 9 :white_check_mark: / 8 :warning: |
-|  | [](content/com/corgibytes/mrm/README.md) | 1 | 1 :white_check_mark: |
-| | [](content/com/corgibytes/versions-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
+| com.corgibytes | [mrm](content/com/corgibytes/mrm/README.md) | 1 | 1 :white_check_mark: |
+| | [versions-maven-plugin](content/com/corgibytes/versions-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | com.fasterxml | [oss-parent](content/com/fasterxml/oss-parent/README.md) | 16 | 16 :white_check_mark: |
 | com.fasterxml.uuid | [java-uuid-generator](content/com/fasterxml/uuid/README.md) | 6 | 2 :white_check_mark: / 4 :warning: |
 | com.fasterxml.woodstox | [woodstox-core](content/com/fasterxml/woodstox/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
@@ -54,7 +54,7 @@ Its objectives are to provide:
 | | [across-platform-bom](content/com/foreach/across/platform/README.md) | 1 | 1 :white_check_mark: |
 | com.github.ldapchai | [ldapchai](content/com/github/ldapchai/README.md) | 8 | 1 :white_check_mark: / 7 :warning: |
 | com.github.psi-probe | [psi-probe](content/com/github/psi-probe/README.md) | 20 | 15 :white_check_mark: / 5 :warning: |
-| com.github.adangel.liquibase.ext | [.-percona](content/com/github/adangel/liquibase/ext/liquibase-percona/README.md) | 1 | 1 :white_check_mark: |
+| com.github.adangel.liquibase.ext | [liquibase-percona](content/com/github/adangel/liquibase/ext/liquibase-percona/README.md) | 1 | 1 :white_check_mark: |
 | com.github.hazendaz.7zip | [7zip](content/com/github/hazendaz/7zip/README.md) | 7 | 7 :white_check_mark: |
 | com.github.hazendaz | [base-parent](content/com/github/hazendaz/base-parent/README.md) | 19 | 19 :white_check_mark: |
 | com.github.hazendaz.catch-exception | [catch-exception-parent](content/com/github/hazendaz/catch-exception/README.md) | 3 | 3 :white_check_mark: |
@@ -109,98 +109,98 @@ Its objectives are to provide:
 | | [vault-maven-plugin](content/com/homeofthewizard/vault-maven-plugin/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | com.innoq | [junit5-logging-extension](content/com/innoq/junit5-logging-extension/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | com.intellectualsites.arkitektonika | [Arkitektonika-Client](content/com/intellectualsites/arkitektonika/Arkitektonika-Client/README.md) | 1 | 1 :white_check_mark: |
-| com.intellectualsites.bom | [bom-newest](content/com/intellectualsites/bom/bom-newest/README.md) | 8 | 8 :white_check_mark: |
+| com.intellectualsites.bom | [bom-newest](content/com/intellectualsites/bom/bom-newest/README.md) | 9 | 9 :white_check_mark: |
 | com.intellectualsites.fastasyncvoxelsniper | [fastasyncvoxelsniper](content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/README.md) | 4 | 4 :white_check_mark: |
 | com.intellectualsites.informative-annotations | [informative-annotations](content/com/intellectualsites/informative-annotations/informative-annotations/README.md) | 1 | 1 :white_check_mark: |
 | com.intellectualsites.paster | [Paster](content/com/intellectualsites/paster/Paster/README.md) | 1 | 1 :white_check_mark: |
 | com.intellectualsites.plotsquared | [plotsquared-bukkit](content/com/intellectualsites/plotsquared/plotsquared-bukkit/README.md) | 7 | 7 :white_check_mark: |
-| com.io7m.abstand | [com.io7m.abstand](content/com/io7m/abstand/README.md) | 4 | 4 :white_check_mark: |
-| | [com.io7m.anethum](content/com/io7m/anethum/README.md) | 6 | 6 :white_check_mark: |
-| | [com.io7m.blackthorne](content/com/io7m/blackthorne/README.md) | 13 | 9 :white_check_mark: / 4 :warning: |
-| | [com.io7m.calino](content/com/io7m/calino/README.md) | 1 | 1 :white_check_mark: |
-| | [com.io7m.canonmill](content/com/io7m/canonmill/README.md) | 8 | 8 :white_check_mark: |
-| | [com.io7m.cardant](content/com/io7m/cardant/README.md) | 1 | 1 :warning: |
-| | [com.io7m.cedarbridge](content/com/io7m/cedarbridge/README.md) | 3 | 3 :warning: |
-| | [com.io7m.certusine](content/com/io7m/certusine/README.md) | 4 | 4 :warning: |
-| | [com.io7m.chione](content/com/io7m/chione/README.md) | 1 | 1 :warning: |
-| | [com.io7m.claypot](content/com/io7m/claypot/README.md) | 2 | 2 :white_check_mark: |
-| | [com.io7m.cxbutton](content/com/io7m/cxbutton/README.md) | 4 | 4 :white_check_mark: |
-| | [com.io7m.digal](content/com/io7m/digal/README.md) | 6 | 6 :white_check_mark: |
-| | [com.io7m.dixmont](content/com/io7m/dixmont/README.md) | 4 | 4 :white_check_mark: |
-| | [com.io7m.ervilla](content/com/io7m/ervilla/README.md) | 8 | 8 :white_check_mark: |
-| | [com.io7m.genevan](content/com/io7m/genevan/README.md) | 3 | 3 :white_check_mark: |
-| | [com.io7m.gtyrell](content/com/io7m/gtyrell/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
-| | [com.io7m.hibiscus](content/com/io7m/hibiscus/README.md) | 10 | 10 :white_check_mark: |
-| | [com.io7m.idstore](content/com/io7m/idstore/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
-| | [com.io7m.ieee754b16](content/com/io7m/ieee754b16/README.md) | 2 | 2 :white_check_mark: |
-| | [com.io7m.immutables-style](content/com/io7m/immutables-style/README.md) | 1 | 1 :white_check_mark: |
-| | [com.io7m.jade](content/com/io7m/jade/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
-| | [com.io7m.jaffirm](content/com/io7m/jaffirm/README.md) | 4 | 4 :white_check_mark: |
-| | [com.io7m.jattribute](content/com/io7m/jattribute/README.md) | 3 | 3 :white_check_mark: |
-| | [com.io7m.jbssio](content/com/io7m/jbssio/README.md) | 9 | 8 :white_check_mark: / 1 :warning: |
-| | [com.io7m.jcolorspace](content/com/io7m/jcolorspace/README.md) | 4 | 4 :white_check_mark: |
-| | [com.io7m.jcoords](content/com/io7m/jcoords/README.md) | 2 | 2 :white_check_mark: |
-| | [com.io7m.jdeferthrow](content/com/io7m/jdeferthrow/README.md) | 4 | 4 :white_check_mark: |
-| | [com.io7m.jdownload](content/com/io7m/jdownload/README.md) | 2 | 2 :white_check_mark: |
-| | [com.io7m.jequality](content/com/io7m/jequality/README.md) | 2 | 2 :white_check_mark: |
-| | [com.io7m.jeucreader](content/com/io7m/jeucreader/README.md) | 2 | 2 :white_check_mark: |
-| | [com.io7m.jfsm](content/com/io7m/jfsm/README.md) | 2 | 2 :white_check_mark: |
-| | [com.io7m.jintegers](content/com/io7m/jintegers/README.md) | 2 | 2 :white_check_mark: |
-| | [com.io7m.jinterp](content/com/io7m/jinterp/README.md) | 1 | 1 :white_check_mark: |
-| | [com.io7m.jlexing](content/com/io7m/jlexing/README.md) | 1 | 1 :white_check_mark: |
-| | [com.io7m.jmulticlose](content/com/io7m/jmulticlose/README.md) | 6 | 6 :white_check_mark: |
-| | [com.io7m.jmurmur](content/com/io7m/jmurmur/README.md) | 2 | 2 :white_check_mark: |
-| | [com.io7m.jmutnum](content/com/io7m/jmutnum/README.md) | 1 | 1 :white_check_mark: |
-| | [com.io7m.jnfp](content/com/io7m/jnfp/README.md) | 1 | 1 :white_check_mark: |
-| | [com.io7m.jnoisetype](content/com/io7m/jnoisetype/README.md) | 3 | 3 :white_check_mark: |
-| | [com.io7m.jobj](content/com/io7m/jobj/README.md) | 1 | 1 :white_check_mark: |
-| | [com.io7m.jodist](content/com/io7m/jodist/README.md) | 2 | 2 :white_check_mark: |
-| | [com.io7m.jorchard](content/com/io7m/jorchard/README.md) | 3 | 3 :white_check_mark: |
-| | [com.io7m.jpita](content/com/io7m/jpita/README.md) | 1 | 1 :white_check_mark: |
-| | [com.io7m.jpplib](content/com/io7m/jpplib/README.md) | 1 | 1 :white_check_mark: |
-| | [com.io7m.jproperties](content/com/io7m/jproperties/README.md) | 4 | 4 :white_check_mark: |
-| | [com.io7m.jptbox](content/com/io7m/jptbox/README.md) | 1 | 1 :white_check_mark: |
-| | [com.io7m.jpuddle](content/com/io7m/jpuddle/README.md) | 1 | 1 :white_check_mark: |
-| | [com.io7m.jqpage](content/com/io7m/jqpage/README.md) | 4 | 4 :white_check_mark: |
-| | [com.io7m.jranges](content/com/io7m/jranges/README.md) | 2 | 2 :white_check_mark: |
-| | [com.io7m.jregions](content/com/io7m/jregions/README.md) | 3 | 3 :white_check_mark: |
-| | [com.io7m.jsamplebuffer](content/com/io7m/jsamplebuffer/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
-| | [com.io7m.jserial](content/com/io7m/jserial/README.md) | 2 | 2 :white_check_mark: |
-| | [com.io7m.jsx](content/com/io7m/jsx/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
-| | [com.io7m.jtensors](content/com/io7m/jtensors/README.md) | 1 | 1 :white_check_mark: |
-| | [com.io7m.junreachable](content/com/io7m/junreachable/README.md) | 2 | 2 :white_check_mark: |
-| | [com.io7m.junsigned](content/com/io7m/junsigned/README.md) | 2 | 2 :white_check_mark: |
-| | [com.io7m.jvindicator](content/com/io7m/jvindicator/README.md) | 3 | 3 :white_check_mark: |
-| | [com.io7m.jwheatsheaf](content/com/io7m/jwheatsheaf/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
-| | [com.io7m.jxe](content/com/io7m/jxe/README.md) | 5 | 5 :white_check_mark: |
-| | [com.io7m.jxtrand](content/com/io7m/jxtrand/README.md) | 4 | 4 :white_check_mark: |
-| | [com.io7m.kabstand](content/com/io7m/kabstand/README.md) | 3 | 3 :white_check_mark: |
-| | [com.io7m.lanark](content/com/io7m/lanark/README.md) | 4 | 4 :white_check_mark: |
-| | [com.io7m.looseleaf](content/com/io7m/looseleaf/README.md) | 7 | 7 :white_check_mark: |
-| | [com.io7m.medrina](content/com/io7m/medrina/README.md) | 7 | 7 :white_check_mark: |
-| | [com.io7m.mesquida](content/com/io7m/mesquida/README.md) | 2 | 2 :white_check_mark: |
-| | [com.io7m.mime2045](content/com/io7m/mime2045/README.md) | 4 | 4 :white_check_mark: |
-| | [com.io7m.percentpass](content/com/io7m/percentpass/README.md) | 5 | 5 :white_check_mark: |
-| | [com.io7m.primogenitor](content/com/io7m/primogenitor/README.md) | 37 | 34 :white_check_mark: / 3 :warning: |
-| | [com.io7m.quarrel](content/com/io7m/quarrel/README.md) | 11 | 11 :white_check_mark: |
-| | [com.io7m.quixote](content/com/io7m/quixote/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
-| | [com.io7m.repetoir](content/com/io7m/repetoir/README.md) | 3 | 3 :white_check_mark: |
-| | [com.io7m.scando](content/com/io7m/scando/README.md) | 1 | 1 :white_check_mark: |
-| | [com.io7m.seltzer](content/com/io7m/seltzer/README.md) | 2 | 2 :white_check_mark: |
+| com.io7m | [*.abstand](content/com/io7m/abstand/README.md) | 4 | 4 :white_check_mark: |
+| | [*.anethum](content/com/io7m/anethum/README.md) | 6 | 6 :white_check_mark: |
+| | [*.blackthorne](content/com/io7m/blackthorne/README.md) | 13 | 9 :white_check_mark: / 4 :warning: |
+| | [*.calino](content/com/io7m/calino/README.md) | 1 | 1 :white_check_mark: |
+| | [*.canonmill](content/com/io7m/canonmill/README.md) | 8 | 8 :white_check_mark: |
+| | [*.cardant](content/com/io7m/cardant/README.md) | 1 | 1 :warning: |
+| | [*.cedarbridge](content/com/io7m/cedarbridge/README.md) | 3 | 3 :warning: |
+| | [*.certusine](content/com/io7m/certusine/README.md) | 4 | 4 :warning: |
+| | [*.chione](content/com/io7m/chione/README.md) | 1 | 1 :warning: |
+| | [*.claypot](content/com/io7m/claypot/README.md) | 2 | 2 :white_check_mark: |
+| | [*.cxbutton](content/com/io7m/cxbutton/README.md) | 4 | 4 :white_check_mark: |
+| | [*.digal](content/com/io7m/digal/README.md) | 6 | 6 :white_check_mark: |
+| | [*.dixmont](content/com/io7m/dixmont/README.md) | 4 | 4 :white_check_mark: |
+| | [*.ervilla](content/com/io7m/ervilla/README.md) | 8 | 8 :white_check_mark: |
+| | [*.genevan](content/com/io7m/genevan/README.md) | 3 | 3 :white_check_mark: |
+| | [*.gtyrell](content/com/io7m/gtyrell/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
+| | [*.hibiscus](content/com/io7m/hibiscus/README.md) | 10 | 10 :white_check_mark: |
+| | [*.idstore](content/com/io7m/idstore/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
+| | [*.ieee754b16](content/com/io7m/ieee754b16/README.md) | 2 | 2 :white_check_mark: |
+| | [*.immutables-style](content/com/io7m/immutables-style/README.md) | 1 | 1 :white_check_mark: |
+| | [*.jade](content/com/io7m/jade/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
+| | [*.jaffirm](content/com/io7m/jaffirm/README.md) | 4 | 4 :white_check_mark: |
+| | [*.jattribute](content/com/io7m/jattribute/README.md) | 3 | 3 :white_check_mark: |
+| | [*.jbssio](content/com/io7m/jbssio/README.md) | 9 | 8 :white_check_mark: / 1 :warning: |
+| | [*.jcolorspace](content/com/io7m/jcolorspace/README.md) | 4 | 4 :white_check_mark: |
+| | [*.jcoords](content/com/io7m/jcoords/README.md) | 2 | 2 :white_check_mark: |
+| | [*.jdeferthrow](content/com/io7m/jdeferthrow/README.md) | 4 | 4 :white_check_mark: |
+| | [*.jdownload](content/com/io7m/jdownload/README.md) | 2 | 2 :white_check_mark: |
+| | [*.jequality](content/com/io7m/jequality/README.md) | 2 | 2 :white_check_mark: |
+| | [*.jeucreader](content/com/io7m/jeucreader/README.md) | 2 | 2 :white_check_mark: |
+| | [*.jfsm](content/com/io7m/jfsm/README.md) | 2 | 2 :white_check_mark: |
+| | [*.jintegers](content/com/io7m/jintegers/README.md) | 2 | 2 :white_check_mark: |
+| | [*.jinterp](content/com/io7m/jinterp/README.md) | 1 | 1 :white_check_mark: |
+| | [*.jlexing](content/com/io7m/jlexing/README.md) | 1 | 1 :white_check_mark: |
+| | [*.jmulticlose](content/com/io7m/jmulticlose/README.md) | 6 | 6 :white_check_mark: |
+| | [*.jmurmur](content/com/io7m/jmurmur/README.md) | 2 | 2 :white_check_mark: |
+| | [*.jmutnum](content/com/io7m/jmutnum/README.md) | 1 | 1 :white_check_mark: |
+| | [*.jnfp](content/com/io7m/jnfp/README.md) | 1 | 1 :white_check_mark: |
+| | [*.jnoisetype](content/com/io7m/jnoisetype/README.md) | 3 | 3 :white_check_mark: |
+| | [*.jobj](content/com/io7m/jobj/README.md) | 1 | 1 :white_check_mark: |
+| | [*.jodist](content/com/io7m/jodist/README.md) | 2 | 2 :white_check_mark: |
+| | [*.jorchard](content/com/io7m/jorchard/README.md) | 3 | 3 :white_check_mark: |
+| | [*.jpita](content/com/io7m/jpita/README.md) | 1 | 1 :white_check_mark: |
+| | [*.jpplib](content/com/io7m/jpplib/README.md) | 1 | 1 :white_check_mark: |
+| | [*.jproperties](content/com/io7m/jproperties/README.md) | 4 | 4 :white_check_mark: |
+| | [*.jptbox](content/com/io7m/jptbox/README.md) | 1 | 1 :white_check_mark: |
+| | [*.jpuddle](content/com/io7m/jpuddle/README.md) | 1 | 1 :white_check_mark: |
+| | [*.jqpage](content/com/io7m/jqpage/README.md) | 4 | 4 :white_check_mark: |
+| | [*.jranges](content/com/io7m/jranges/README.md) | 2 | 2 :white_check_mark: |
+| | [*.jregions](content/com/io7m/jregions/README.md) | 3 | 3 :white_check_mark: |
+| | [*.jsamplebuffer](content/com/io7m/jsamplebuffer/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
+| | [*.jserial](content/com/io7m/jserial/README.md) | 2 | 2 :white_check_mark: |
+| | [*.jsx](content/com/io7m/jsx/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
+| | [*.jtensors](content/com/io7m/jtensors/README.md) | 1 | 1 :white_check_mark: |
+| | [*.junreachable](content/com/io7m/junreachable/README.md) | 2 | 2 :white_check_mark: |
+| | [*.junsigned](content/com/io7m/junsigned/README.md) | 2 | 2 :white_check_mark: |
+| | [*.jvindicator](content/com/io7m/jvindicator/README.md) | 3 | 3 :white_check_mark: |
+| | [*.jwheatsheaf](content/com/io7m/jwheatsheaf/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
+| | [*.jxe](content/com/io7m/jxe/README.md) | 5 | 5 :white_check_mark: |
+| | [*.jxtrand](content/com/io7m/jxtrand/README.md) | 4 | 4 :white_check_mark: |
+| | [*.kabstand](content/com/io7m/kabstand/README.md) | 3 | 3 :white_check_mark: |
+| | [*.lanark](content/com/io7m/lanark/README.md) | 4 | 4 :white_check_mark: |
+| | [*.looseleaf](content/com/io7m/looseleaf/README.md) | 7 | 7 :white_check_mark: |
+| | [*.medrina](content/com/io7m/medrina/README.md) | 7 | 7 :white_check_mark: |
+| | [*.mesquida](content/com/io7m/mesquida/README.md) | 2 | 2 :white_check_mark: |
+| | [*.mime2045](content/com/io7m/mime2045/README.md) | 4 | 4 :white_check_mark: |
+| | [*.percentpass](content/com/io7m/percentpass/README.md) | 5 | 5 :white_check_mark: |
+| | [*.primogenitor](content/com/io7m/primogenitor/README.md) | 37 | 34 :white_check_mark: / 3 :warning: |
+| | [*.quarrel](content/com/io7m/quarrel/README.md) | 11 | 11 :white_check_mark: |
+| | [*.quixote](content/com/io7m/quixote/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
+| | [*.repetoir](content/com/io7m/repetoir/README.md) | 3 | 3 :white_check_mark: |
+| | [*.scando](content/com/io7m/scando/README.md) | 1 | 1 :white_check_mark: |
+| | [*.seltzer](content/com/io7m/seltzer/README.md) | 2 | 2 :white_check_mark: |
 | com.io7m.stmp | [string-template-maven-plugin](content/com/io7m/stmp/README.md) | 1 | 1 :white_check_mark: |
-| com.io7m.streamtime | [com.io7m.streamtime](content/com/io7m/streamtime/README.md) | 2 | 2 :white_check_mark: |
-| | [com.io7m.sunburst](content/com/io7m/sunburst/README.md) | 2 | 2 :warning: |
-| | [com.io7m.tabla](content/com/io7m/tabla/README.md) | 3 | 3 :white_check_mark: |
-| | [com.io7m.taskrecorder](content/com/io7m/taskrecorder/README.md) | 3 | 3 :white_check_mark: |
-| | [com.io7m.tavella](content/com/io7m/tavella/README.md) | 1 | 1 :white_check_mark: |
-| | [com.io7m.timehack6435126](content/com/io7m/timehack6435126/README.md) | 2 | 2 :white_check_mark: |
-| | [com.io7m.trasco](content/com/io7m/trasco/README.md) | 14 | 14 :white_check_mark: |
-| | [com.io7m.verdant](content/com/io7m/verdant/README.md) | 3 | 3 :white_check_mark: |
-| | [com.io7m.verona](content/com/io7m/verona/README.md) | 5 | 5 :white_check_mark: |
-| | [com.io7m.wendover](content/com/io7m/wendover/README.md) | 6 | 6 :white_check_mark: |
-| | [com.io7m.xoanon](content/com/io7m/xoanon/README.md) | 7 | 7 :white_check_mark: |
-| | [com.io7m.xstructural](content/com/io7m/xstructural/README.md) | 8 | 8 :white_check_mark: |
-| | [com.io7m.zelador](content/com/io7m/zelador/README.md) | 2 | 2 :white_check_mark: |
+| com.io7m | [*.streamtime](content/com/io7m/streamtime/README.md) | 2 | 2 :white_check_mark: |
+| | [*.sunburst](content/com/io7m/sunburst/README.md) | 2 | 2 :warning: |
+| | [*.tabla](content/com/io7m/tabla/README.md) | 3 | 3 :white_check_mark: |
+| | [*.taskrecorder](content/com/io7m/taskrecorder/README.md) | 3 | 3 :white_check_mark: |
+| | [*.tavella](content/com/io7m/tavella/README.md) | 1 | 1 :white_check_mark: |
+| | [*.timehack6435126](content/com/io7m/timehack6435126/README.md) | 2 | 2 :white_check_mark: |
+| | [*.trasco](content/com/io7m/trasco/README.md) | 14 | 14 :white_check_mark: |
+| | [*.verdant](content/com/io7m/verdant/README.md) | 3 | 3 :white_check_mark: |
+| | [*.verona](content/com/io7m/verona/README.md) | 5 | 5 :white_check_mark: |
+| | [*.wendover](content/com/io7m/wendover/README.md) | 6 | 6 :white_check_mark: |
+| | [*.xoanon](content/com/io7m/xoanon/README.md) | 7 | 7 :white_check_mark: |
+| | [*.xstructural](content/com/io7m/xstructural/README.md) | 8 | 8 :white_check_mark: |
+| | [*.zelador](content/com/io7m/zelador/README.md) | 2 | 2 :white_check_mark: |
 | com.newmediaworks | [nmw-oss-parent](content/com/newmediaworks/nmw-oss-parent/README.md) | 5 | 5 :white_check_mark: |
 | com.ongres | [scram](content/com/ongres/scram/README.md) | 1 | 1 :white_check_mark: |
 | com.ongres | [stringprep](content/com/ongres/stringprep/README.md) | 1 | 1 :white_check_mark: |
@@ -257,7 +257,7 @@ Its objectives are to provide:
 | eu.maveniverse.maven.mase | [mase](content/eu/maveniverse/maven/mase/mase/README.md) | 3 | 3 :white_check_mark: |
 | fr.inria.gforge.spoon | [spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 131 | 27 :white_check_mark: / 104 :warning: |
 | fr.marcwrobel | [jbanking](content/fr/marcwrobel/jbanking/README.md) | 2 | 2 :white_check_mark: |
-| fr.vidal.oss | [atom-jaxb-parent](content/fr/vidal/oss/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
+| fr.vidal.oss | [atom-jaxb](content/fr/vidal/oss/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
 | io.jooby | [jooby](content/io/jooby/README.md) | 29 | 29 :warning: |
 | io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 65 | 64 :white_check_mark: / 1 :warning: |
 | io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 50 | 50 :warning: |
@@ -300,7 +300,7 @@ Its objectives are to provide:
 | io.github.sebastian-toepfer.json-schema | [json-schema](content/io/github/sebastian-toepfer/json-schema/json-schema/README.md) | 5 | 5 :white_check_mark: |
 | io.github.sebastian-toepfer.json.rpc | [json-printable-maven-plugin](content/io/github/sebastian-toepfer/json/rpc/json-printable-maven-plugin/README.md) | 6 | 6 :white_check_mark: |
 | | [json-rpc](content/io/github/sebastian-toepfer/json/rpc/json-rpc/README.md) | 5 | 5 :white_check_mark: |
-|  | [](content/io/github/shanqiang-sq/jstream/README.md) | 28 | 28 :white_check_mark: |
+| io.github.shanqiang-sq | [jstream](content/io/github/shanqiang-sq/jstream/README.md) | 28 | 28 :white_check_mark: |
 | io.github.xanthic.cache | [cache-api](content/io/github/xanthic/cache/cache-api/README.md) | 1 | 1 :white_check_mark: |
 | io.github.zlika | [reproducible-build-maven-plugin](content/io/github/zlika/reproducible-build-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
 | io.jstach | [jstachio](content/io/jstach/jstachio/README.md) | 13 | 13 :white_check_mark: |
@@ -310,31 +310,31 @@ Its objectives are to provide:
 | io.opentelemetry.instrumentation | [opentelemetry-instrumentation-api](content/io/opentelemetry/instrumentation/README.md) | 34 | 18 :white_check_mark: / 16 :warning: |
 | io.opentelemetry | [opentelemetry-sdk](content/io/opentelemetry/java/README.md) | 12 | 9 :white_check_mark: / 3 :warning: |
 | io.repaint.maven | [tiles-maven-plugin](content/io/repaint/maven/tiles-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
-| io.smallrye | [jandex-parent](content/io/smallrye/jandex/README.md) | 14 | 14 :warning: |
-| io.takari | [io.takari.incrementalbuild](content/io/takari/incrementalbuild/README.md) | 2 | 2 :warning: |
+| io.smallrye | [jandex](content/io/smallrye/jandex/README.md) | 14 | 14 :warning: |
+| io.takari | [*.incrementalbuild](content/io/takari/incrementalbuild/README.md) | 2 | 2 :warning: |
 | | [takari-archiver](content/io/takari/takari-archiver/README.md) | 4 | 4 :white_check_mark: |
 | io.takari.maven | [maven-timeline](content/io/takari/maven/maven-timeline/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
 | | [takari-smart-builder](content/io/takari/maven/takari-smart-builder/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
 | io.takari.maven.plugins | [takari-lifecycle-plugin](content/io/takari/maven/plugins/takari-lifecycle-plugin/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
-| | [takari-plugin-testing-project](content/io/takari/maven/plugins/takari-plugin-testing/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
+| | [takari-plugin-testing](content/io/takari/maven/plugins/takari-plugin-testing/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | io.telicent.jena | [jena-kafka](content/io/telicent/jena/jena-kafka/README.md) | 4 | 4 :white_check_mark: |
 | | [rdf-abac](content/io/telicent/jena/rdf-abac/README.md) | 12 | 12 :white_check_mark: |
 | io.telicent.smart-caches.graph | [scg-base](content/io/telicent/smart-caches/graph/scg-base/README.md) | 25 | 25 :white_check_mark: |
-| io.wcm-caconfig | [editor](content/io/wcm/io.wcm.caconfig/README.md) | 10 | 10 :warning: |
-| | [parent_toplevel](content/io/wcm/tooling/README.md) | 19 | 19 :white_check_mark: |
-| | [io.wcm.handler.commons](content/io/wcm/io.wcm.handler/commons/README.md) | 1 | 1 :white_check_mark: |
+| io.wcm | [*.caconfig.editor](content/io/wcm/io.wcm.caconfig/README.md) | 10 | 10 :warning: |
+| | [*.parent_toplevel](content/io/wcm/tooling/README.md) | 19 | 19 :white_check_mark: |
+| | [*.handler.commons](content/io/wcm/io.wcm.handler/commons/README.md) | 1 | 1 :white_check_mark: |
 | | [io.wcm.handler.link](content/io/wcm/io.wcm.handler/link/README.md) | 7 | 7 :warning: |
-| | [media](content/io/wcm/io.wcm.handler/media/README.md) | 10 | 5 :white_check_mark: / 5 :warning: |
-| | [richtext](content/io/wcm/io.wcm.handler/richtext/README.md) | 5 | 5 :warning: |
-| | [commons](content/io/wcm/io.wcm.wcm/commons/README.md) | 6 | 2 :white_check_mark: / 4 :warning: |
-| | [parsys](content/io/wcm/io.wcm.wcm/parsys/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
-| | [ui.clientlibs](content/io/wcm/io.wcm.wcm/ui/clientlibs/README.md) | 6 | 3 :white_check_mark: / 3 :warning: |
-| | [ui.granite](content/io/wcm/io.wcm.wcm/ui/granite/README.md) | 8 | 4 :white_check_mark: / 4 :warning: |
-| io.wcm.maven.plugins-tooling | [parent_toplevel](content/io/wcm/maven/plugins/cq-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
-| | [parent_toplevel](content/io/wcm/maven/plugins/nodejs-maven-plugin/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
+| | [*.handler.media](content/io/wcm/io.wcm.handler/media/README.md) | 10 | 5 :white_check_mark: / 5 :warning: |
+| | [*.handler.richtext](content/io/wcm/io.wcm.handler/richtext/README.md) | 5 | 5 :warning: |
+| | [*.wcm.commons](content/io/wcm/io.wcm.wcm/commons/README.md) | 6 | 2 :white_check_mark: / 4 :warning: |
+| | [*.wcm.parsys](content/io/wcm/io.wcm.wcm/parsys/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
+| | [*.wcm.ui.clientlibs](content/io/wcm/io.wcm.wcm/ui/clientlibs/README.md) | 6 | 3 :white_check_mark: / 3 :warning: |
+| | [*.wcm.ui.granite](content/io/wcm/io.wcm.wcm/ui/granite/README.md) | 8 | 4 :white_check_mark: / 4 :warning: |
+| io.wcm.maven.plugins | [cq-maven-plugin](content/io/wcm/maven/plugins/cq-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
+| | [nodejs-maven-plugin](content/io/wcm/maven/plugins/nodejs-maven-plugin/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
 | | [sling-initial-content-transform-maven-plugin](content/io/wcm/maven/plugins/sling-initial-content-transform-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
-| io.wcm-tooling | [content-package-builder](content/io/wcm/tooling/commons/content-package-builder/README.md) | 6 | 4 :white_check_mark: / 2 :warning: |
-| | [crx-packmgr-helper](content/io/wcm/tooling/commons/crx-packmgr-helper/README.md) | 9 | 7 :white_check_mark: / 2 :warning: |
+| io.wcm.tooling.commons | [*.content-package-builder](content/io/wcm/tooling/commons/content-package-builder/README.md) | 6 | 4 :white_check_mark: / 2 :warning: |
+| | [*.crx-packmgr-helper](content/io/wcm/tooling/commons/crx-packmgr-helper/README.md) | 9 | 7 :white_check_mark: / 2 :warning: |
 | io.yupiik.fusion | [fusion](content/io/yupiik/fusion/README.md) | 2 | 2 :white_check_mark: |
 | io.yupiik.maven | [yupiik-tools-maven-plugin-parent](content/io/yupiik/maven/plugin/README.md) | 2 | 2 :warning: |
 | jakarta.activation | [jakarta.activation-api](content/jakarta/activation/jakarta.activation-api/README.md) | 1 | 1 :white_check_mark: |
@@ -356,7 +356,7 @@ Its objectives are to provide:
 | net.sf.michael-o.tomcat | [tomcat-authnz-spnego-ad](content/net/sf/michael-o/tomcat/tomcat-authnz-spnego-ad/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
 | net.sourceforge.pmd | [pmd](content/net/sourceforge/pmd/README.md) | 46 | 41 :white_check_mark: / 5 :warning: |
 | | [pmd-build-tools-config](content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | 11 | 11 :white_check_mark: |
-| | [pmd-designer](content/net/sourceforge/pmd/pmd-designer/README.md) | 1 | 1 :warning: |
+| | [pmd-designer](content/net/sourceforge/pmd/pmd-designer/README.md) | 2 | 2 :warning: |
 | nl.basjes.energy | [energy-parent](content/nl/basjes/energy/README.md) | 2 | 2 :white_check_mark: |
 | nl.basjes.codeowners | [codeowners-parent](content/nl/basjes/codeowners/codeowners-parent/README.md) | 20 | 20 :white_check_mark: |
 | nl.basjes.maven.release | [conventional-commits-version-policy](content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 7 | 7 :white_check_mark: |
@@ -366,7 +366,7 @@ Its objectives are to provide:
 | | [hsac-fitnesse-pdf](content/nl/hsac/hsac-fitnesse-pdf/README.md) | 7 | 4 :white_check_mark: / 3 :warning: |
 | org.jdbi.internal | [jdbi3-root](content/org/jdbi/README.md) | 7 | 7 :warning: |
 | org.jline | [jline](content/org/jline/README.md) | 15 | 13 :white_check_mark: / 2 :warning: |
-| org.jreleaser | [jreleaser](content/org/jreleaser/README.md) | 11 | 5 :white_check_mark: / 6 :warning: |
+| org.jreleaser | [jreleaser](content/org/jreleaser/README.md) | 12 | 6 :white_check_mark: / 6 :warning: |
 | org.phoebus | [parent](content/org/phoebus/README.md) | 1 | 1 :warning: |
 | org.quickperf | [quick-perf](content/org/quickperf/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
 | org.slf4j | [slf4j](content/org/slf4j/README.md) | 13 | 6 :white_check_mark: / 7 :warning: |
@@ -384,6 +384,7 @@ Its objectives are to provide:
 | org.apache.dubbo | [dubbo](content/org/apache/dubbo/README.md) | 78 | 19 :white_check_mark: / 59 :warning: |
 | org.apache.helix | [helix](content/org/apache/helix/README.md) | 9 | 3 :white_check_mark: / 6 :warning: |
 | org.apache.hive | [hive](content/org/apache/hive/README.md) | 4 | 4 :warning: |
+|  | [](content/org/apache/ignite/README.md) | 0 | 0 :warning: |
 | org.apache.isis | [isis-parent](content/org/apache/isis/README.md) | 1 | 1 :warning: |
 | org.apache | [jdo](content/org/apache/jdo/README.md) | 2 | 2 :warning: |
 | org.apache.johnzon | [johnzon](content/org/apache/johnzon/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
@@ -407,8 +408,8 @@ Its objectives are to provide:
 | org.apache.wss4j | [wss4j](content/org/apache/wss4j/README.md) | 9 | 8 :white_check_mark: / 1 :warning: |
 | org.apache.zookeeper | [parent](content/org/apache/zookeeper/README.md) | 5 | 5 :warning: |
 | org.apache.activemq | [artemis-pom](content/org/apache/activemq/artemis/README.md) | 15 | 4 :white_check_mark: / 11 :warning: |
-| org.apache.aries.cdi | [org.apache.aries.cdi](content/org/apache/aries/cdi/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
-| org.apache.aries.jax.rs | [org.apache.aries.jax.rs](content/org/apache/aries/jax-rs/README.md) | 1 | 1 :white_check_mark: |
+| org.apache.aries.cdi | [*](content/org/apache/aries/cdi/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
+| org.apache.aries.jax.rs | [*](content/org/apache/aries/jax-rs/README.md) | 1 | 1 :white_check_mark: |
 | org.apache.camel | [camel](content/org/apache/camel/camel/README.md) | 7 | 7 :warning: |
 | org.apache.camel.k | [camel-k-runtime-project](content/org/apache/camel/camel-k-runtime/README.md) | 6 | 6 :warning: |
 | org.apache.bcel | [bcel](content/org/apache/commons/bcel/README.md) | 6 | 6 :warning: |
@@ -443,13 +444,13 @@ Its objectives are to provide:
 | org.apache.directory.api | [api-parent](content/org/apache/directory/api/README.md) | 7 | 7 :white_check_mark: |
 | org.apache.directory.project | [project](content/org/apache/directory/project/README.md) | 4 | 4 :white_check_mark: |
 | org.apache.directory.scimple | [scimple](content/org/apache/directory/scimple/README.md) | 1 | 1 :warning: |
-| org.apache.felix | [org.apache.felix.feature](content/org/apache/felix/features/README.md) | 5 | 5 :white_check_mark: |
+| org.apache.felix | [*.feature](content/org/apache/felix/features/README.md) | 5 | 5 :white_check_mark: |
 | | [maven-bundle-plugin](content/org/apache/felix/maven-bundle-plugin/README.md) | 8 | 8 :white_check_mark: |
-| | [org.apache.felix.healthcheck.core](content/org/apache/felix/org.apache.felix.healthcheck.core/README.md) | 2 | 2 :warning: |
+| | [*.healthcheck.core](content/org/apache/felix/org.apache.felix.healthcheck.core/README.md) | 2 | 2 :warning: |
 | | [felix-parent](content/org/apache/felix/pom/README.md) | 3 | 3 :white_check_mark: |
-| | [org.apache.felix.http.parent](content/org/apache/felix/http/parent/README.md) | 1 | 1 :white_check_mark: |
-| org.apache.flink | [flink-kubernetes-operator-parent](content/org/apache/flink/flink-kubernetes-operator/README.md) | 1 | 1 :warning: |
-| org.apache.httpcomponents | [parent](content/org/apache/httpcomponents/parent/README.md) | 3 | 3 :white_check_mark: |
+| | [*.http.parent](content/org/apache/felix/http/parent/README.md) | 1 | 1 :white_check_mark: |
+| org.apache.flink | [flink-kubernetes-operator](content/org/apache/flink/flink-kubernetes-operator/README.md) | 1 | 1 :warning: |
+| org.apache.httpcomponents | [httpcomponents-parent](content/org/apache/httpcomponents/parent/README.md) | 3 | 3 :white_check_mark: |
 | org.apache.jackrabbit.vault | [jackrabbit-filevault](content/org/apache/jackrabbit/filevault/README.md) | 14 | 6 :white_check_mark: / 8 :warning: |
 | org.apache.jackrabbit | [filevault-package-maven-plugin](content/org/apache/jackrabbit/filevault-package-maven-plugin/README.md) | 9 | 9 :white_check_mark: |
 | | [jackrabbit-parent](content/org/apache/jackrabbit/jackrabbit/README.md) | 16 | 5 :white_check_mark: / 11 :warning: |
@@ -480,12 +481,12 @@ Its objectives are to provide:
 | org.apache.maven.plugin-tools | [maven-plugin-tools](content/org/apache/maven/plugin-tools/maven-plugin-tools/README.md) | 18 | 18 :white_check_mark: |
 | org.apache.maven.plugins | [maven-antrun-plugin](content/org/apache/maven/plugins/maven-antrun-plugin/README.md) | 2 | 2 :white_check_mark: |
 | | [maven-artifact-plugin](content/org/apache/maven/plugins/maven-artifact-plugin/README.md) | 10 | 10 :white_check_mark: |
-| | [m-assembly-p](content/org/apache/maven/plugins/maven-assembly-plugin/README.md) | 8 | 8 :white_check_mark: |
+| | [maven-assembly-plugin](content/org/apache/maven/plugins/maven-assembly-plugin/README.md) | 8 | 8 :white_check_mark: |
 | | [maven-changes-plugin](content/org/apache/maven/plugins/maven-changes-plugin/README.md) | 1 | 1 :white_check_mark: |
-| | [m-checkstyle-p](content/org/apache/maven/plugins/maven-checkstyle-plugin/README.md) | 10 | 10 :white_check_mark: |
+| | [maven-checkstyle-plugin](content/org/apache/maven/plugins/maven-checkstyle-plugin/README.md) | 10 | 10 :white_check_mark: |
 | | [maven-clean-plugin](content/org/apache/maven/plugins/maven-clean-plugin/README.md) | 5 | 5 :white_check_mark: |
 | | [maven-compiler-plugin](content/org/apache/maven/plugins/maven-compiler-plugin/README.md) | 8 | 8 :white_check_mark: |
-| | [m-dependency-p](content/org/apache/maven/plugins/maven-dependency-plugin/README.md) | 11 | 11 :white_check_mark: |
+| | [maven-dependency-plugin](content/org/apache/maven/plugins/maven-dependency-plugin/README.md) | 11 | 11 :white_check_mark: |
 | | [maven-deploy-plugin](content/org/apache/maven/plugins/maven-deploy-plugin/README.md) | 7 | 7 :white_check_mark: |
 | | [maven-docck-plugin](content/org/apache/maven/plugins/maven-docck-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [maven-ear-plugin](content/org/apache/maven/plugins/maven-ear-plugin/README.md) | 3 | 3 :white_check_mark: |
@@ -505,7 +506,7 @@ Its objectives are to provide:
 | | [maven-rar-plugin](content/org/apache/maven/plugins/maven-rar-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [maven-release-plugin](content/org/apache/maven/plugins/maven-release-plugin/README.md) | 9 | 8 :white_check_mark: / 1 :warning: |
 | | [maven-remote-resources-plugin](content/org/apache/maven/plugins/maven-remote-resources-plugin/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
-| | [m-resources-plugin](content/org/apache/maven/plugins/maven-resources-plugin/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
+| | [maven-resources-plugin](content/org/apache/maven/plugins/maven-resources-plugin/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
 | | [m-scm-publish-plugin](content/org/apache/maven/plugins/maven-scm-publish-plugin/README.md) | 3 | 3 :white_check_mark: |
 | | [maven-scripting-plugin](content/org/apache/maven/plugins/maven-scripting-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [maven-shade-plugin](content/org/apache/maven/plugins/maven-shade-plugin/README.md) | 11 | 11 :white_check_mark: |
@@ -514,18 +515,18 @@ Its objectives are to provide:
 | | [maven-toolchains-plugin](content/org/apache/maven/plugins/maven-toolchains-plugin/README.md) | 2 | 2 :white_check_mark: |
 | | [maven-war-plugin](content/org/apache/maven/plugins/maven-war-plugin/README.md) | 4 | 4 :white_check_mark: |
 | | [maven-wrapper](content/org/apache/maven/plugins/maven-wrapper-plugin/README.md) | 8 | 7 :white_check_mark: / 1 :warning: |
-| org.apache.maven.reporting | [m-reporting-api](content/org/apache/maven/reporting/maven-reporting-api/README.md) | 15 | 15 :white_check_mark: |
-| | [m-reporting-exec](content/org/apache/maven/reporting/maven-reporting-exec/README.md) | 17 | 17 :white_check_mark: |
-| | [m-reporting-impl](content/org/apache/maven/reporting/maven-reporting-impl/README.md) | 18 | 18 :white_check_mark: |
+| org.apache.maven.reporting | [maven-reporting-api](content/org/apache/maven/reporting/maven-reporting-api/README.md) | 15 | 15 :white_check_mark: |
+| | [maven-reporting-exec](content/org/apache/maven/reporting/maven-reporting-exec/README.md) | 17 | 17 :white_check_mark: |
+| | [maven-reporting-impl](content/org/apache/maven/reporting/maven-reporting-impl/README.md) | 18 | 18 :white_check_mark: |
 | org.apache.maven.resolver | [maven-resolver](content/org/apache/maven/resolver/maven-resolver/README.md) | 47 | 45 :white_check_mark: / 2 :warning: |
-| | [m-r-ant-tasks](content/org/apache/maven/resolver/maven-resolver-ant-tasks/README.md) | 6 | 6 :white_check_mark: |
+| | [maven-resolver-ant-tasks](content/org/apache/maven/resolver/maven-resolver-ant-tasks/README.md) | 6 | 6 :white_check_mark: |
 | org.apache.maven | [maven-archiver](content/org/apache/maven/shared/archiver/README.md) | 7 | 7 :white_check_mark: |
 | org.apache.maven.shared | [file-management](content/org/apache/maven/shared/file-management/README.md) | 1 | 1 :white_check_mark: |
 | | [maven-archiver](content/org/apache/maven/shared/maven-archiver/README.md) | 1 | 1 :white_check_mark: |
 | | [maven-artifact-transfer](content/org/apache/maven/shared/maven-artifact-transfer/README.md) | 1 | 1 :warning: |
-| | [m-common-artifact-filters](content/org/apache/maven/shared/maven-common-artifact-filters/README.md) | 6 | 6 :white_check_mark: |
-| | [m-dependency-analyzer](content/org/apache/maven/shared/maven-dependency-analyzer/README.md) | 10 | 10 :white_check_mark: |
-| | [m-dependency-tree](content/org/apache/maven/shared/maven-dependency-tree/README.md) | 5 | 5 :white_check_mark: |
+| | [maven-common-artifact-filters](content/org/apache/maven/shared/maven-common-artifact-filters/README.md) | 6 | 6 :white_check_mark: |
+| | [maven-dependency-analyzer](content/org/apache/maven/shared/maven-dependency-analyzer/README.md) | 10 | 10 :white_check_mark: |
+| | [maven-dependency-tree](content/org/apache/maven/shared/maven-dependency-tree/README.md) | 5 | 5 :white_check_mark: |
 | | [maven-filtering](content/org/apache/maven/shared/maven-filtering/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
 | | [maven-invoker](content/org/apache/maven/shared/maven-invoker/README.md) | 3 | 3 :white_check_mark: |
 | | [maven-jarsigner](content/org/apache/maven/shared/maven-jarsigner/README.md) | 1 | 1 :white_check_mark: |
@@ -557,121 +558,121 @@ Its objectives are to provide:
 | | [htl-maven-plugin](content/org/apache/sling/htl-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [jspc-maven-plugin](content/org/apache/sling/jspc-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
 | | [maven-enforcer-rules](content/org/apache/sling/maven-enforcer-rules/README.md) | 3 | 3 :white_check_mark: |
-| | [.adapter](content/org/apache/sling/org.apache.sling.adapter/README.md) | 1 | 1 :white_check_mark: |
-| | [.api](content/org/apache/sling/org.apache.sling.api/README.md) | 10 | 10 :white_check_mark: |
-| | [.auth.core](content/org/apache/sling/org.apache.sling.auth.core/README.md) | 5 | 5 :white_check_mark: |
-| | [.auth.oauth-client](content/org/apache/sling/org.apache.sling.auth.oauth-client/README.md) | 1 | 1 :white_check_mark: |
-| | [.bundleresource.impl](content/org/apache/sling/org.apache.sling.bundleresource.impl/README.md) | 1 | 1 :white_check_mark: |
-| | [.caconfig.api](content/org/apache/sling/org.apache.sling.caconfig.api/README.md) | 1 | 1 :white_check_mark: |
-| | [.caconfig.impl](content/org/apache/sling/org.apache.sling.caconfig.impl/README.md) | 1 | 1 :white_check_mark: |
-| | [.caconfig.spi](content/org/apache/sling/org.apache.sling.caconfig.spi/README.md) | 1 | 1 :white_check_mark: |
-| | [.cms](content/org/apache/sling/org.apache.sling.cms/README.md) | 4 | 4 :warning: |
-| | [.commons.content.analyzing](content/org/apache/sling/org.apache.sling.commons.content.analyzing/README.md) | 1 | 1 :white_check_mark: |
-| | [.commons.content.processing](content/org/apache/sling/org.apache.sling.commons.content.processing/README.md) | 1 | 1 :white_check_mark: |
-| | [.commons.crypto](content/org/apache/sling/org.apache.sling.commons.crypto/README.md) | 1 | 1 :warning: |
-| | [.commons.johnzon](content/org/apache/sling/org.apache.sling.commons.johnzon/README.md) | 7 | 5 :white_check_mark: / 2 :warning: |
-| | [.commons.log](content/org/apache/sling/org.apache.sling.commons.log/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
-| | [.commons.log.webconsole](content/org/apache/sling/org.apache.sling.commons.log.webconsole/README.md) | 1 | 1 :warning: |
-| | [.commons.logservice](content/org/apache/sling/org.apache.sling.commons.logservice/README.md) | 1 | 1 :white_check_mark: |
-| | [.commons.messaging](content/org/apache/sling/org.apache.sling.commons.messaging/README.md) | 1 | 1 :white_check_mark: |
-| | [.commons.messaging.mail](content/org/apache/sling/org.apache.sling.commons.messaging.mail/README.md) | 1 | 1 :warning: |
-| | [.commons.metrics](content/org/apache/sling/org.apache.sling.commons.metrics/README.md) | 3 | 3 :warning: |
-| | [.commons.threads](content/org/apache/sling/org.apache.sling.commons.threads/README.md) | 1 | 1 :white_check_mark: |
-| | [.discovery.api](content/org/apache/sling/org.apache.sling.discovery.api/README.md) | 1 | 1 :white_check_mark: |
-| | [.discovery.commons](content/org/apache/sling/org.apache.sling.discovery.commons/README.md) | 1 | 1 :warning: |
-| | [.discovery.support](content/org/apache/sling/org.apache.sling.discovery.support/README.md) | 1 | 1 :white_check_mark: |
-| | [.distribution.api](content/org/apache/sling/org.apache.sling.distribution.api/README.md) | 1 | 1 :white_check_mark: |
-| | [.distribution.core](content/org/apache/sling/org.apache.sling.distribution.core/README.md) | 1 | 1 :warning: |
-| | [.distribution.journal](content/org/apache/sling/org.apache.sling.distribution.journal/README.md) | 6 | 6 :white_check_mark: |
-| | [.distribution.journal.kafka](content/org/apache/sling/org.apache.sling.distribution.journal.kafka/README.md) | 1 | 1 :white_check_mark: |
-| | [.distribution.journal.messages](content/org/apache/sling/org.apache.sling.distribution.journal.messages/README.md) | 4 | 4 :white_check_mark: |
-| | [.engine](content/org/apache/sling/org.apache.sling.engine/README.md) | 20 | 20 :white_check_mark: |
-| | [.event](content/org/apache/sling/org.apache.sling.event/README.md) | 10 | 1 :white_check_mark: / 9 :warning: |
-| | [.event](content/org/apache/sling/org.apache.sling.event.api/README.md) | 1 | 1 :white_check_mark: |
-| | [.event.dea](content/org/apache/sling/org.apache.sling.event.dea/README.md) | 1 | 1 :white_check_mark: |
-| | [.extensions.webconsolebranding](content/org/apache/sling/org.apache.sling.extensions.webconsolebranding/README.md) | 1 | 1 :white_check_mark: |
-| | [.feature](content/org/apache/sling/org.apache.sling.feature/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
-| | [.feature.analyser](content/org/apache/sling/org.apache.sling.feature.analyser/README.md) | 16 | 8 :white_check_mark: / 8 :warning: |
-| | [.feature.apiregions](content/org/apache/sling/org.apache.sling.feature.apiregions/README.md) | 1 | 1 :white_check_mark: |
-| | [.feature.cpconverter](content/org/apache/sling/org.apache.sling.feature.cpconverter/README.md) | 14 | 14 :warning: |
-| | [.feature.diff](content/org/apache/sling/org.apache.sling.feature.diff/README.md) | 1 | 1 :white_check_mark: |
-| | [.feature.extension.apiregions](content/org/apache/sling/org.apache.sling.feature.extension.apiregions/README.md) | 9 | 9 :white_check_mark: |
-| | [.feature.extension.unpack](content/org/apache/sling/org.apache.sling.feature.extension.unpack/README.md) | 2 | 2 :warning: |
-| | [.feature.launcher](content/org/apache/sling/org.apache.sling.feature.launcher/README.md) | 8 | 2 :white_check_mark: / 6 :warning: |
-| | [.fsresource](content/org/apache/sling/org.apache.sling.fsresource/README.md) | 1 | 1 :white_check_mark: |
-| | [.hc.support](content/org/apache/sling/org.apache.sling.hc.support/README.md) | 2 | 2 :warning: |
-| | [.i18n](content/org/apache/sling/org.apache.sling.i18n/README.md) | 5 | 1 :white_check_mark: / 4 :warning: |
-| | [.installer.console](content/org/apache/sling/org.apache.sling.installer.console/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
-| | [.installer.core](content/org/apache/sling/org.apache.sling.installer.core/README.md) | 8 | 2 :white_check_mark: / 6 :warning: |
-| | [.installer.factory.configuration](content/org/apache/sling/org.apache.sling.installer.factory.configuration/README.md) | 8 | 4 :white_check_mark: / 4 :warning: |
-| | [.installer.factory.packages](content/org/apache/sling/org.apache.sling.installer.factory.packages/README.md) | 3 | 3 :warning: |
-| | [.installer.hc](content/org/apache/sling/org.apache.sling.installer.hc/README.md) | 1 | 1 :white_check_mark: |
-| | [.installer.provider.file](content/org/apache/sling/org.apache.sling.installer.provider.file/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
-| | [.installer.provider.jcr](content/org/apache/sling/org.apache.sling.installer.provider.jcr/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
-| | [.javax.activation](content/org/apache/sling/org.apache.sling.javax.activation/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
-| | [.jcr.api](content/org/apache/sling/org.apache.sling.jcr.api/README.md) | 1 | 1 :white_check_mark: |
-| | [.jcr.contentloader](content/org/apache/sling/org.apache.sling.jcr.contentloader/README.md) | 4 | 4 :warning: |
-| | [.jcr.davex](content/org/apache/sling/org.apache.sling.jcr.davex/README.md) | 1 | 1 :white_check_mark: |
-| | [.jcr.jackrabbit.accessmanager](content/org/apache/sling/org.apache.sling.jcr.jackrabbit.accessmanager/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
-| | [.jcr.jackrabbit.usermanager](content/org/apache/sling/org.apache.sling.jcr.jackrabbit.usermanager/README.md) | 10 | 2 :white_check_mark: / 8 :warning: |
-| | [.jcr.maintenance](content/org/apache/sling/org.apache.sling.jcr.maintenance/README.md) | 2 | 2 :white_check_mark: |
-| | [.jcr.oak.server](content/org/apache/sling/org.apache.sling.jcr.oak.server/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
-| | [.jcr.packageinit](content/org/apache/sling/org.apache.sling.jcr.packageinit/README.md) | 1 | 1 :white_check_mark: |
-| | [.jcr.resource](content/org/apache/sling/org.apache.sling.jcr.resource/README.md) | 6 | 6 :white_check_mark: |
-| | [.jcr.resourcesecurity](content/org/apache/sling/org.apache.sling.jcr.resourcesecurity/README.md) | 1 | 1 :white_check_mark: |
-| | [.jcr.webdav](content/org/apache/sling/org.apache.sling.jcr.webdav/README.md) | 1 | 1 :white_check_mark: |
-| | [.launchpad.test-services](content/org/apache/sling/org.apache.sling.launchpad.test-services/README.md) | 2 | 2 :white_check_mark: |
-| | [.launchpad.testing](content/org/apache/sling/org.apache.sling.launchpad.testing/README.md) | 1 | 1 :warning: |
-| | [.models.api](content/org/apache/sling/org.apache.sling.models.api/README.md) | 5 | 5 :white_check_mark: |
-| | [.models.caconfig](content/org/apache/sling/org.apache.sling.models.caconfig/README.md) | 2 | 2 :white_check_mark: |
-| | [.models.impl](content/org/apache/sling/org.apache.sling.models.impl/README.md) | 11 | 5 :white_check_mark: / 6 :warning: |
-| | [.models.jacksonexporter](content/org/apache/sling/org.apache.sling.models.jacksonexporter/README.md) | 3 | 3 :white_check_mark: |
-| | [.models.validation-impl](content/org/apache/sling/org.apache.sling.models.validation-impl/README.md) | 2 | 2 :white_check_mark: |
-| | [.pipes](content/org/apache/sling/org.apache.sling.pipes/README.md) | 5 | 5 :warning: |
+| | [*.adapter](content/org/apache/sling/org.apache.sling.adapter/README.md) | 1 | 1 :white_check_mark: |
+| | [*.api](content/org/apache/sling/org.apache.sling.api/README.md) | 10 | 10 :white_check_mark: |
+| | [*.auth.core](content/org/apache/sling/org.apache.sling.auth.core/README.md) | 5 | 5 :white_check_mark: |
+| | [*.auth.oauth-client](content/org/apache/sling/org.apache.sling.auth.oauth-client/README.md) | 1 | 1 :white_check_mark: |
+| | [*.bundleresource.impl](content/org/apache/sling/org.apache.sling.bundleresource.impl/README.md) | 1 | 1 :white_check_mark: |
+| | [*.caconfig.api](content/org/apache/sling/org.apache.sling.caconfig.api/README.md) | 1 | 1 :white_check_mark: |
+| | [*.caconfig.impl](content/org/apache/sling/org.apache.sling.caconfig.impl/README.md) | 1 | 1 :white_check_mark: |
+| | [*.caconfig.spi](content/org/apache/sling/org.apache.sling.caconfig.spi/README.md) | 1 | 1 :white_check_mark: |
+| | [*.cms](content/org/apache/sling/org.apache.sling.cms/README.md) | 4 | 4 :warning: |
+| | [*.commons.content.analyzing](content/org/apache/sling/org.apache.sling.commons.content.analyzing/README.md) | 1 | 1 :white_check_mark: |
+| | [*.commons.content.processing](content/org/apache/sling/org.apache.sling.commons.content.processing/README.md) | 1 | 1 :white_check_mark: |
+| | [*.commons.crypto](content/org/apache/sling/org.apache.sling.commons.crypto/README.md) | 1 | 1 :warning: |
+| | [*.commons.johnzon](content/org/apache/sling/org.apache.sling.commons.johnzon/README.md) | 7 | 5 :white_check_mark: / 2 :warning: |
+| | [*.commons.log](content/org/apache/sling/org.apache.sling.commons.log/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
+| | [*.commons.log.webconsole](content/org/apache/sling/org.apache.sling.commons.log.webconsole/README.md) | 1 | 1 :warning: |
+| | [*.commons.logservice](content/org/apache/sling/org.apache.sling.commons.logservice/README.md) | 1 | 1 :white_check_mark: |
+| | [*.commons.messaging](content/org/apache/sling/org.apache.sling.commons.messaging/README.md) | 1 | 1 :white_check_mark: |
+| | [*.commons.messaging.mail](content/org/apache/sling/org.apache.sling.commons.messaging.mail/README.md) | 1 | 1 :warning: |
+| | [*.commons.metrics](content/org/apache/sling/org.apache.sling.commons.metrics/README.md) | 3 | 3 :warning: |
+| | [*.commons.threads](content/org/apache/sling/org.apache.sling.commons.threads/README.md) | 1 | 1 :white_check_mark: |
+| | [*.discovery.api](content/org/apache/sling/org.apache.sling.discovery.api/README.md) | 1 | 1 :white_check_mark: |
+| | [*.discovery.commons](content/org/apache/sling/org.apache.sling.discovery.commons/README.md) | 1 | 1 :warning: |
+| | [*.discovery.support](content/org/apache/sling/org.apache.sling.discovery.support/README.md) | 1 | 1 :white_check_mark: |
+| | [*.distribution.api](content/org/apache/sling/org.apache.sling.distribution.api/README.md) | 1 | 1 :white_check_mark: |
+| | [*.distribution.core](content/org/apache/sling/org.apache.sling.distribution.core/README.md) | 1 | 1 :warning: |
+| | [*.distribution.journal](content/org/apache/sling/org.apache.sling.distribution.journal/README.md) | 6 | 6 :white_check_mark: |
+| | [*.distribution.journal.kafka](content/org/apache/sling/org.apache.sling.distribution.journal.kafka/README.md) | 1 | 1 :white_check_mark: |
+| | [*.distribution.journal.messages](content/org/apache/sling/org.apache.sling.distribution.journal.messages/README.md) | 4 | 4 :white_check_mark: |
+| | [*.engine](content/org/apache/sling/org.apache.sling.engine/README.md) | 20 | 20 :white_check_mark: |
+| | [*.event](content/org/apache/sling/org.apache.sling.event/README.md) | 10 | 1 :white_check_mark: / 9 :warning: |
+| | [*.event](content/org/apache/sling/org.apache.sling.event.api/README.md) | 1 | 1 :white_check_mark: |
+| | [*.event.dea](content/org/apache/sling/org.apache.sling.event.dea/README.md) | 1 | 1 :white_check_mark: |
+| | [*.extensions.webconsolebranding](content/org/apache/sling/org.apache.sling.extensions.webconsolebranding/README.md) | 1 | 1 :white_check_mark: |
+| | [*.feature](content/org/apache/sling/org.apache.sling.feature/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
+| | [*.feature.analyser](content/org/apache/sling/org.apache.sling.feature.analyser/README.md) | 16 | 8 :white_check_mark: / 8 :warning: |
+| | [*.feature.apiregions](content/org/apache/sling/org.apache.sling.feature.apiregions/README.md) | 1 | 1 :white_check_mark: |
+| | [*.feature.cpconverter](content/org/apache/sling/org.apache.sling.feature.cpconverter/README.md) | 14 | 14 :warning: |
+| | [*.feature.diff](content/org/apache/sling/org.apache.sling.feature.diff/README.md) | 1 | 1 :white_check_mark: |
+| | [*.feature.extension.apiregions](content/org/apache/sling/org.apache.sling.feature.extension.apiregions/README.md) | 9 | 9 :white_check_mark: |
+| | [*.feature.extension.unpack](content/org/apache/sling/org.apache.sling.feature.extension.unpack/README.md) | 2 | 2 :warning: |
+| | [*.feature.launcher](content/org/apache/sling/org.apache.sling.feature.launcher/README.md) | 8 | 2 :white_check_mark: / 6 :warning: |
+| | [*.fsresource](content/org/apache/sling/org.apache.sling.fsresource/README.md) | 1 | 1 :white_check_mark: |
+| | [*.hc.support](content/org/apache/sling/org.apache.sling.hc.support/README.md) | 2 | 2 :warning: |
+| | [*.i18n](content/org/apache/sling/org.apache.sling.i18n/README.md) | 5 | 1 :white_check_mark: / 4 :warning: |
+| | [*.installer.console](content/org/apache/sling/org.apache.sling.installer.console/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
+| | [*.installer.core](content/org/apache/sling/org.apache.sling.installer.core/README.md) | 8 | 2 :white_check_mark: / 6 :warning: |
+| | [*.installer.factory.configuration](content/org/apache/sling/org.apache.sling.installer.factory.configuration/README.md) | 8 | 4 :white_check_mark: / 4 :warning: |
+| | [*.installer.factory.packages](content/org/apache/sling/org.apache.sling.installer.factory.packages/README.md) | 3 | 3 :warning: |
+| | [*.installer.hc](content/org/apache/sling/org.apache.sling.installer.hc/README.md) | 1 | 1 :white_check_mark: |
+| | [*.installer.provider.file](content/org/apache/sling/org.apache.sling.installer.provider.file/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
+| | [*.installer.provider.jcr](content/org/apache/sling/org.apache.sling.installer.provider.jcr/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
+| | [*.javax.activation](content/org/apache/sling/org.apache.sling.javax.activation/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
+| | [*.jcr.api](content/org/apache/sling/org.apache.sling.jcr.api/README.md) | 1 | 1 :white_check_mark: |
+| | [*.jcr.contentloader](content/org/apache/sling/org.apache.sling.jcr.contentloader/README.md) | 4 | 4 :warning: |
+| | [*.jcr.davex](content/org/apache/sling/org.apache.sling.jcr.davex/README.md) | 1 | 1 :white_check_mark: |
+| | [*.jcr.jackrabbit.accessmanager](content/org/apache/sling/org.apache.sling.jcr.jackrabbit.accessmanager/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
+| | [*.jcr.jackrabbit.usermanager](content/org/apache/sling/org.apache.sling.jcr.jackrabbit.usermanager/README.md) | 10 | 2 :white_check_mark: / 8 :warning: |
+| | [*.jcr.maintenance](content/org/apache/sling/org.apache.sling.jcr.maintenance/README.md) | 2 | 2 :white_check_mark: |
+| | [*.jcr.oak.server](content/org/apache/sling/org.apache.sling.jcr.oak.server/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
+| | [*.jcr.packageinit](content/org/apache/sling/org.apache.sling.jcr.packageinit/README.md) | 1 | 1 :white_check_mark: |
+| | [*.jcr.resource](content/org/apache/sling/org.apache.sling.jcr.resource/README.md) | 6 | 6 :white_check_mark: |
+| | [*.jcr.resourcesecurity](content/org/apache/sling/org.apache.sling.jcr.resourcesecurity/README.md) | 1 | 1 :white_check_mark: |
+| | [*.jcr.webdav](content/org/apache/sling/org.apache.sling.jcr.webdav/README.md) | 1 | 1 :white_check_mark: |
+| | [*.launchpad.test-services](content/org/apache/sling/org.apache.sling.launchpad.test-services/README.md) | 2 | 2 :white_check_mark: |
+| | [*.launchpad.testing](content/org/apache/sling/org.apache.sling.launchpad.testing/README.md) | 1 | 1 :warning: |
+| | [*.models.api](content/org/apache/sling/org.apache.sling.models.api/README.md) | 5 | 5 :white_check_mark: |
+| | [*.models.caconfig](content/org/apache/sling/org.apache.sling.models.caconfig/README.md) | 2 | 2 :white_check_mark: |
+| | [*.models.impl](content/org/apache/sling/org.apache.sling.models.impl/README.md) | 11 | 5 :white_check_mark: / 6 :warning: |
+| | [*.models.jacksonexporter](content/org/apache/sling/org.apache.sling.models.jacksonexporter/README.md) | 3 | 3 :white_check_mark: |
+| | [*.models.validation-impl](content/org/apache/sling/org.apache.sling.models.validation-impl/README.md) | 2 | 2 :white_check_mark: |
+| | [*.pipes](content/org/apache/sling/org.apache.sling.pipes/README.md) | 5 | 5 :warning: |
 | | [org.apache.sling.providertype.bnd-plugin](content/org/apache/sling/org.apache.sling.providertype.bnd-plugin/README.md) | 1 | 1 :white_check_mark: |
-| | [.query](content/org/apache/sling/org.apache.sling.query/README.md) | 1 | 1 :white_check_mark: |
-| | [.repoinit.parser](content/org/apache/sling/org.apache.sling.repoinit.parser/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
-| | [.resource.observation.annotations](content/org/apache/sling/org.apache.sling.resource.observation.annotations/README.md) | 1 | 1 :white_check_mark: |
-| | [.resourceaccesssecurity](content/org/apache/sling/org.apache.sling.resourceaccesssecurity/README.md) | 1 | 1 :white_check_mark: |
-| | [.resourcemerger](content/org/apache/sling/org.apache.sling.resourcemerger/README.md) | 3 | 3 :white_check_mark: |
-| | [.resourceresolver](content/org/apache/sling/org.apache.sling.resourceresolver/README.md) | 12 | 12 :white_check_mark: |
-| | [.rewriter](content/org/apache/sling/org.apache.sling.rewriter/README.md) | 8 | 8 :warning: |
-| | [.scripting.core](content/org/apache/sling/org.apache.sling.scripting.core/README.md) | 5 | 5 :warning: |
-| | [.scripting.groovy](content/org/apache/sling/org.apache.sling.scripting.groovy/README.md) | 1 | 1 :warning: |
-| | [.scripting.jsp.taglib](content/org/apache/sling/org.apache.sling.scripting.jsp.taglib/README.md) | 1 | 1 :white_check_mark: |
-| | [.scripting.sightly](content/org/apache/sling/org.apache.sling.scripting.sightly/README.md) | 8 | 8 :white_check_mark: |
-| | [.scripting.sightly.repl](content/org/apache/sling/org.apache.sling.scripting.sightly.repl/README.md) | 1 | 1 :white_check_mark: |
-| | [.scripting.sightly.testing](content/org/apache/sling/org.apache.sling.scripting.sightly.testing/README.md) | 3 | 3 :warning: |
-| | [.scripting.sightly.testing-content](content/org/apache/sling/org.apache.sling.scripting.sightly.testing-content/README.md) | 3 | 3 :white_check_mark: |
-| | [.scripting.spi](content/org/apache/sling/org.apache.sling.scripting.spi/README.md) | 1 | 1 :white_check_mark: |
-| | [.security](content/org/apache/sling/org.apache.sling.security/README.md) | 3 | 3 :white_check_mark: |
-| | [.serviceuser.webconsole](content/org/apache/sling/org.apache.sling.serviceuser.webconsole/README.md) | 1 | 1 :white_check_mark: |
-| | [.servlets.annotations](content/org/apache/sling/org.apache.sling.servlets.annotations/README.md) | 1 | 1 :white_check_mark: |
-| | [.servlets.post](content/org/apache/sling/org.apache.sling.servlets.post/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
-| | [.servlets.resolver](content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 16 | 16 :warning: |
-| | [.settings](content/org/apache/sling/org.apache.sling.settings/README.md) | 2 | 2 :white_check_mark: |
-| | [.sitemap](content/org/apache/sling/org.apache.sling.sitemap/README.md) | 2 | 2 :white_check_mark: |
-| | [.starter](content/org/apache/sling/org.apache.sling.starter/README.md) | 1 | 1 :warning: |
-| | [.starter.content](content/org/apache/sling/org.apache.sling.starter.content/README.md) | 4 | 4 :white_check_mark: |
-| | [.tenant](content/org/apache/sling/org.apache.sling.tenant/README.md) | 2 | 2 :white_check_mark: |
-| | [.testing.caconfig-mock-plugin](content/org/apache/sling/org.apache.sling.testing.caconfig-mock-plugin/README.md) | 7 | 7 :white_check_mark: |
-| | [.testing.clients](content/org/apache/sling/org.apache.sling.testing.clients/README.md) | 11 | 11 :white_check_mark: |
-| | [.testing.jcr-mock](content/org/apache/sling/org.apache.sling.testing.jcr-mock/README.md) | 9 | 9 :white_check_mark: |
-| | [.testing.osgi-mock](content/org/apache/sling/org.apache.sling.testing.osgi-mock/README.md) | 11 | 11 :white_check_mark: |
-| | [.testing.paxexam](content/org/apache/sling/org.apache.sling.testing.paxexam/README.md) | 1 | 1 :white_check_mark: |
-| | [.testing.resourceresolver-mock](content/org/apache/sling/org.apache.sling.testing.resourceresolver-mock/README.md) | 11 | 9 :white_check_mark: / 2 :warning: |
-| | [.testing.rules](content/org/apache/sling/org.apache.sling.testing.rules/README.md) | 1 | 1 :white_check_mark: |
-| | [.testing.sling-mock](content/org/apache/sling/org.apache.sling.testing.sling-mock/README.md) | 15 | 15 :white_check_mark: |
-| | [.testing.sling-mock-oak](content/org/apache/sling/org.apache.sling.testing.sling-mock-oak/README.md) | 8 | 8 :white_check_mark: |
-| | [.tooling.support.install](content/org/apache/sling/org.apache.sling.tooling.support.install/README.md) | 1 | 1 :white_check_mark: |
-| | [.tooling.support.source](content/org/apache/sling/org.apache.sling.tooling.support.source/README.md) | 1 | 1 :white_check_mark: |
-| | [.tracer](content/org/apache/sling/org.apache.sling.tracer/README.md) | 1 | 1 :white_check_mark: |
-| | [.validation.api](content/org/apache/sling/org.apache.sling.validation.api/README.md) | 1 | 1 :white_check_mark: |
-| | [.xss](content/org/apache/sling/org.apache.sling.xss/README.md) | 9 | 7 :white_check_mark: / 2 :warning: |
+| | [*.query](content/org/apache/sling/org.apache.sling.query/README.md) | 1 | 1 :white_check_mark: |
+| | [*.repoinit.parser](content/org/apache/sling/org.apache.sling.repoinit.parser/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
+| | [*.resource.observation.annotations](content/org/apache/sling/org.apache.sling.resource.observation.annotations/README.md) | 1 | 1 :white_check_mark: |
+| | [*.resourceaccesssecurity](content/org/apache/sling/org.apache.sling.resourceaccesssecurity/README.md) | 1 | 1 :white_check_mark: |
+| | [*.resourcemerger](content/org/apache/sling/org.apache.sling.resourcemerger/README.md) | 3 | 3 :white_check_mark: |
+| | [*.resourceresolver](content/org/apache/sling/org.apache.sling.resourceresolver/README.md) | 12 | 12 :white_check_mark: |
+| | [*.rewriter](content/org/apache/sling/org.apache.sling.rewriter/README.md) | 8 | 8 :warning: |
+| | [*.scripting.core](content/org/apache/sling/org.apache.sling.scripting.core/README.md) | 5 | 5 :warning: |
+| | [*.scripting.groovy](content/org/apache/sling/org.apache.sling.scripting.groovy/README.md) | 1 | 1 :warning: |
+| | [*.scripting.jsp.taglib](content/org/apache/sling/org.apache.sling.scripting.jsp.taglib/README.md) | 1 | 1 :white_check_mark: |
+| | [*.scripting.sightly](content/org/apache/sling/org.apache.sling.scripting.sightly/README.md) | 8 | 8 :white_check_mark: |
+| | [*.scripting.sightly.repl](content/org/apache/sling/org.apache.sling.scripting.sightly.repl/README.md) | 1 | 1 :white_check_mark: |
+| | [*.scripting.sightly.testing](content/org/apache/sling/org.apache.sling.scripting.sightly.testing/README.md) | 3 | 3 :warning: |
+| | [*.scripting.sightly.testing-content](content/org/apache/sling/org.apache.sling.scripting.sightly.testing-content/README.md) | 3 | 3 :white_check_mark: |
+| | [*.scripting.spi](content/org/apache/sling/org.apache.sling.scripting.spi/README.md) | 1 | 1 :white_check_mark: |
+| | [*.security](content/org/apache/sling/org.apache.sling.security/README.md) | 3 | 3 :white_check_mark: |
+| | [*.serviceuser.webconsole](content/org/apache/sling/org.apache.sling.serviceuser.webconsole/README.md) | 1 | 1 :white_check_mark: |
+| | [*.servlets.annotations](content/org/apache/sling/org.apache.sling.servlets.annotations/README.md) | 1 | 1 :white_check_mark: |
+| | [*.servlets.post](content/org/apache/sling/org.apache.sling.servlets.post/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
+| | [*.servlets.resolver](content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 16 | 16 :warning: |
+| | [*.settings](content/org/apache/sling/org.apache.sling.settings/README.md) | 2 | 2 :white_check_mark: |
+| | [*.sitemap](content/org/apache/sling/org.apache.sling.sitemap/README.md) | 2 | 2 :white_check_mark: |
+| | [*.starter](content/org/apache/sling/org.apache.sling.starter/README.md) | 1 | 1 :warning: |
+| | [*.starter.content](content/org/apache/sling/org.apache.sling.starter.content/README.md) | 4 | 4 :white_check_mark: |
+| | [*.tenant](content/org/apache/sling/org.apache.sling.tenant/README.md) | 2 | 2 :white_check_mark: |
+| | [*.testing.caconfig-mock-plugin](content/org/apache/sling/org.apache.sling.testing.caconfig-mock-plugin/README.md) | 7 | 7 :white_check_mark: |
+| | [*.testing.clients](content/org/apache/sling/org.apache.sling.testing.clients/README.md) | 11 | 11 :white_check_mark: |
+| | [*.testing.jcr-mock](content/org/apache/sling/org.apache.sling.testing.jcr-mock/README.md) | 9 | 9 :white_check_mark: |
+| | [*.testing.osgi-mock](content/org/apache/sling/org.apache.sling.testing.osgi-mock/README.md) | 11 | 11 :white_check_mark: |
+| | [*.testing.paxexam](content/org/apache/sling/org.apache.sling.testing.paxexam/README.md) | 1 | 1 :white_check_mark: |
+| | [*.testing.resourceresolver-mock](content/org/apache/sling/org.apache.sling.testing.resourceresolver-mock/README.md) | 11 | 9 :white_check_mark: / 2 :warning: |
+| | [*.testing.rules](content/org/apache/sling/org.apache.sling.testing.rules/README.md) | 1 | 1 :white_check_mark: |
+| | [*.testing.sling-mock](content/org/apache/sling/org.apache.sling.testing.sling-mock/README.md) | 15 | 15 :white_check_mark: |
+| | [*.testing.sling-mock-oak](content/org/apache/sling/org.apache.sling.testing.sling-mock-oak/README.md) | 8 | 8 :white_check_mark: |
+| | [*.tooling.support.install](content/org/apache/sling/org.apache.sling.tooling.support.install/README.md) | 1 | 1 :white_check_mark: |
+| | [*.tooling.support.source](content/org/apache/sling/org.apache.sling.tooling.support.source/README.md) | 1 | 1 :white_check_mark: |
+| | [*.tracer](content/org/apache/sling/org.apache.sling.tracer/README.md) | 1 | 1 :white_check_mark: |
+| | [*.validation.api](content/org/apache/sling/org.apache.sling.validation.api/README.md) | 1 | 1 :white_check_mark: |
+| | [*.xss](content/org/apache/sling/org.apache.sling.xss/README.md) | 9 | 7 :white_check_mark: / 2 :warning: |
 | | [scriptingbundle-maven-plugin](content/org/apache/sling/scriptingbundle-maven-plugin/README.md) | 3 | 3 :warning: |
 | | [sling-maven-plugin](content/org/apache/sling/sling-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [slingfeature-maven-plugin](content/org/apache/sling/slingfeature-maven-plugin/README.md) | 15 | 11 :white_check_mark: / 4 :warning: |
-| org.apache.tomee | [jakartaee-api-parent](content/org/apache/tomee/jakartaee-api/README.md) | 6 | 4 :white_check_mark: / 2 :warning: |
+| org.apache.tomee | [jakartaee-api](content/org/apache/tomee/jakartaee-api/README.md) | 6 | 4 :white_check_mark: / 2 :warning: |
 | org.apache.turbine | [turbine-webapp-6.0](content/org/apache/turbine/turbine-webapp-6.0/README.md) | 1 | 1 :warning: |
 | org.apache.ws.commons.axiom | [axiom](content/org/apache/ws/commons/axiom/README.md) | 1 | 1 :warning: |
 | org.apache.ws.xmlschema | [xmlschema](content/org/apache/ws/xmlschema/xmlschema/README.md) | 1 | 1 :white_check_mark: |
@@ -716,14 +717,14 @@ Its objectives are to provide:
 | | [plexus-utils](content/org/codehaus/plexus/plexus-utils/README.md) | 9 | 6 :white_check_mark: / 3 :warning: |
 | | [plexus-velocity](content/org/codehaus/plexus/plexus-velocity/README.md) | 4 | 4 :white_check_mark: |
 | | [plexus-xml](content/org/codehaus/plexus/plexus-xml/README.md) | 7 | 7 :white_check_mark: |
-| org.complate | [complate-parent](content/org/complate/java/README.md) | 3 | 3 :white_check_mark: |
+| org.complate | [complate-java](content/org/complate/java/README.md) | 3 | 3 :white_check_mark: |
 | | [complate-spring-mvc](content/org/complate/spring/README.md) | 2 | 2 :white_check_mark: |
 | org.cyclonedx | [cyclonedx-core-java](content/org/cyclonedx/cyclonedx-core-java/README.md) | 41 | 41 :white_check_mark: |
 | | [cyclonedx-maven-plugin](content/org/cyclonedx/cyclonedx-maven-plugin/README.md) | 28 | 28 :white_check_mark: |
 | org.eclipse.jkube | [jkube](content/org/eclipse/jkube/README.md) | 24 | 24 :white_check_mark: |
-| org.eclipse.transformer | [org.eclipse.transformer](content/org/eclipse/transformer/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
+| org.eclipse.transformer | [transformer](content/org/eclipse/transformer/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
 | org.eclipse.angus | [angus-activation-project](content/org/eclipse/angus/activation/README.md) | 1 | 1 :warning: |
-| org.eclipse.daanse | [org.eclipse.daanse.pom.parent](content/org/eclipse/daanse/org.eclipse.daanse.pom.parent/README.md) | 2 | 2 :white_check_mark: |
+| org.eclipse.daanse | [*.pom.parent](content/org/eclipse/daanse/org.eclipse.daanse.pom.parent/README.md) | 2 | 2 :white_check_mark: |
 | org.eclipse.ee4j | [project](content/org/eclipse/ee4j/project/README.md) | 2 | 2 :white_check_mark: |
 | org.eclipse.jetty | [jetty-project](content/org/eclipse/jetty/jetty-project/README.md) | 18 | 12 :white_check_mark: / 6 :warning: |
 | org.finos.legend.engine | [legend-engine](content/org/finos/legend/engine/README.md) | 10 | 10 :warning: |
@@ -733,12 +734,12 @@ Its objectives are to provide:
 | org.glassfish.build | [glassfishbuild-maven-plugin](content/org/glassfish/build/glassfishbuild-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
 | org.hibernate.search | [hibernate-search](content/org/hibernate/search/hibernate-search-bom/README.md) | 7 | 5 :white_check_mark: / 2 :warning: |
 | org.hibernate.validator | [hibernate-validator](content/org/hibernate/validator/hibernate-validator/README.md) | 3 | 3 :white_check_mark: |
-| org.infinispan.protostream | [protostream-aggregator](content/org/infinispan/protostream/README.md) | 2 | 2 :warning: |
+| org.infinispan.protostream | [protostream](content/org/infinispan/protostream/README.md) | 2 | 2 :warning: |
 | org.itsallcode | [junit5-system-extensions](content/org/itsallcode/junit5-system-extensions/README.md) | 1 | 1 :white_check_mark: |
 | org.itsallcode.openfasttrace | [openfasttrace](content/org/itsallcode/openfasttrace/README.md) | 4 | 4 :warning: |
 | org.itsallcode | [openfasttrace-maven-plugin](content/org/itsallcode/openfasttrace-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
-| org.jpmml | [jpmml-converter](content/org/jpmml/jpmml-converter/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
-| | [jpmml-evaluator](content/org/jpmml/jpmml-evaluator/README.md) | 4 | 4 :white_check_mark: |
+| org.jpmml | [jpmml-converter](content/org/jpmml/jpmml-converter/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
+| | [jpmml-evaluator](content/org/jpmml/jpmml-evaluator/README.md) | 5 | 5 :white_check_mark: |
 | | [jpmml-h2o](content/org/jpmml/jpmml-h2o/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | | [jpmml-lightgbm](content/org/jpmml/jpmml-lightgbm/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | | [jpmml-model](content/org/jpmml/jpmml-model/README.md) | 5 | 5 :white_check_mark: |
@@ -787,7 +788,7 @@ Its objectives are to provide:
 | | [mybatis-spring-boot](content/org/mybatis/spring/boot/mybatis-spring-boot/README.md) | 2 | 2 :white_check_mark: |
 | org.nlpub | [watset](content/org/nlpub/watset/README.md) | 14 | 11 :white_check_mark: / 3 :warning: |
 | org.openapitools.openapidiff | [openapi-diff-parent](content/org/openapitools/openapidiff/README.md) | 12 | 12 :white_check_mark: |
-| org.osgi.test | [org.osgi.test](content/org/osgi/test/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
+| org.osgi | [test](content/org/osgi/test/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
 | org.owasp.antisamy | [antisamy](content/org/owasp/antisamy/README.md) | 18 | 17 :white_check_mark: / 1 :warning: |
 | org.owasp | [dependency-check-parent](content/org/owasp/dependency-check/README.md) | 57 | 38 :white_check_mark: / 19 :warning: |
 | org.quickperf | [quick-perf-live](content/org/quickperf/quick-perf-live/README.md) | 3 | 3 :warning: |
@@ -836,7 +837,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 5 | 5 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 19 | 1 :white_check_mark: / 18 :warning: |
-| **Count:** | **813** | **6018** | **4346** :white_check_mark: **1672** :warning: |
+| **Count:** | **814** | **6023** | **4350** :white_check_mark: **1673** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -848,8 +849,8 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
 ```
      32 gradle     11
-     89 gradle     17
-     40 gradle     21
+     90 gradle     17
+     41 gradle     21
      35 mvn         7
    1479 mvn         8
       1 mvn         9
@@ -949,8 +950,8 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.5  17.0.9
      39 mvn-3.9.5  21
      11 mvn-3.9.5  22
-     85 mvn-3.9.6   8
-     17 mvn-3.9.6  11
+     87 mvn-3.9.6   8
+     18 mvn-3.9.6  11
      49 mvn-3.9.6  17
       2 mvn-3.9.6  17.0.7
      65 mvn-3.9.6  21

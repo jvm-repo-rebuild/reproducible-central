@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.scripting.jsp.taglib
-display=${groupId}:.scripting.jsp.taglib
+display=${groupId}:*.scripting.jsp.taglib
 version=2.4.2
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

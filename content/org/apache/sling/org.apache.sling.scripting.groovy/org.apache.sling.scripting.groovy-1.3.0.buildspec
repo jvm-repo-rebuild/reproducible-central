@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.scripting.groovy
-display=${groupId}:.scripting.groovy
+display=${groupId}:*.scripting.groovy
 version=1.3.0
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

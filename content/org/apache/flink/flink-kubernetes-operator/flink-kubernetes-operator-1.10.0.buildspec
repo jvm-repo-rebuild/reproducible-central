@@ -1,6 +1,6 @@
 groupId=org.apache.flink
 artifactId=flink-kubernetes-operator-parent
-display=${groupId}:${artifactId}
+display=${groupId}:flink-kubernetes-operator
 version=1.10.0
 
 gitRepo=https://github.com/apache/flink-kubernetes-operator.git

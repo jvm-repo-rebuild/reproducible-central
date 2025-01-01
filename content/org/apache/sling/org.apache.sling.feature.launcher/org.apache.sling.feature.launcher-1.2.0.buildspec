@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.feature.launcher
-display=${groupId}:.feature.launcher
+display=${groupId}:*.feature.launcher
 version=1.2.0
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

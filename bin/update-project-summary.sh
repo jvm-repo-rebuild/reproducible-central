@@ -53,6 +53,7 @@ do
     ((countVersion++))
 
     # reset recent fields added to buildspec, to avoid rework of older specs
+    display="${groupId}:${artifactId}"
     diffoscope=
     issue=
     os=

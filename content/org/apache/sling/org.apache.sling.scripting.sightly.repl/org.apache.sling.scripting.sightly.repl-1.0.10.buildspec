@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.scripting.sightly.repl
-display=${groupId}:.scripting.sightly.repl
+display=${groupId}:*.scripting.sightly.repl
 version=1.0.10
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

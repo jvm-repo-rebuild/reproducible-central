@@ -1,6 +1,6 @@
 groupId=io.wcm.tooling.commons
 artifactId=io.wcm.tooling.commons.content-package-builder
-display=io.wcm-tooling:content-package-builder
+display=${groupId}:*.content-package-builder
 version=1.5.4
 
 gitRepo=https://github.com/wcm-io/wcm-io-tooling.git

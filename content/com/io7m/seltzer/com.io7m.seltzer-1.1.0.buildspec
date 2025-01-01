@@ -1,6 +1,6 @@
 groupId=com.io7m.seltzer
 artifactId=com.io7m.seltzer
-display=${groupId}:${artifactId}
+display=com.io7m:*.$(echo $artifactId | cut -c 10-)
 version=1.1.0
 
 gitRepo="https://github.com/io7m/$(echo "${artifactId}" | sed s/com.io7m.//).git"

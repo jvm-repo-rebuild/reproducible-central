@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.jcr.api
-display=${groupId}:.jcr.api
+display=${groupId}:*.jcr.api
 version=2.4.2
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

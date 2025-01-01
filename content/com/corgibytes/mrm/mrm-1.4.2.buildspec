@@ -1,6 +1,7 @@
 # Central Repository coordinates for the Reference release (for multi-module, pick an artitrary module)
 groupId=com.corgibytes
 artifactId=mrm
+display=${groupId}:${artifactId}
 version=1.4.2
 
 # Source code

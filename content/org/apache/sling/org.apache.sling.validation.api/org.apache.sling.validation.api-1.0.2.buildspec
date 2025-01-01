@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.validation.api
-display=${groupId}:.validation.api
+display=${groupId}:*.validation.api
 version=1.0.2
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

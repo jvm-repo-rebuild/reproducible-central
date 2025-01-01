@@ -1,6 +1,6 @@
 groupId=io.wcm
 artifactId=io.wcm.wcm.ui.granite
-display=${groupId}-WCM:ui.granite
+display=${groupId}:*.wcm.ui.granite
 version=1.9.0
 
 gitRepo=https://github.com/wcm-io/${artifactId}.git

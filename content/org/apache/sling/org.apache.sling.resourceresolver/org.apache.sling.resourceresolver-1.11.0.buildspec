@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.resourceresolver
-display=${groupId}:.resourceresolver
+display=${groupId}:*.resourceresolver
 version=1.11.0
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

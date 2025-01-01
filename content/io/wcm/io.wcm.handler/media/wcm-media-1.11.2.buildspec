@@ -1,6 +1,6 @@
 groupId=io.wcm
 artifactId=io.wcm.handler.media
-display=${groupId}-handler:media
+display=${groupId}:*.handler.media
 version=1.11.2
 
 gitRepo=https://github.com/wcm-io/wcm-io-handler.git

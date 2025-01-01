@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.jcr.webdav
-display=${groupId}:.jcr.webdav
+display=${groupId}:*.jcr.webdav
 version=2.3.10
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

@@ -1,6 +1,6 @@
 groupId=io.wcm
 artifactId=io.wcm.wcm.commons
-display=${groupId}-WCM:commons
+display=${groupId}:*.wcm.commons
 version=1.8.2
 
 gitRepo=https://github.com/wcm-io/wcm-io-wcm.git

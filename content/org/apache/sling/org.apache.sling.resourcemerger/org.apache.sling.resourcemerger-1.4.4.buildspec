@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.resourcemerger
-display=${groupId}:.resourcemerger
+display=${groupId}:*.resourcemerger
 version=1.4.4
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

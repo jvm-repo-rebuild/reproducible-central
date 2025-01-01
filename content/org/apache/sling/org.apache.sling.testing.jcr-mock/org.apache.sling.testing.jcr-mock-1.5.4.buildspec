@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.testing.jcr-mock
-display=${groupId}:.testing.jcr-mock
+display=${groupId}:*.testing.jcr-mock
 version=1.5.4
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

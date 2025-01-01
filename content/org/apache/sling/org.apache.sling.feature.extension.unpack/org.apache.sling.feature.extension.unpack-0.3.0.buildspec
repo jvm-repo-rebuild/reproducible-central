@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.feature.extension.unpack
-display=${groupId}:.feature.extension.unpack
+display=${groupId}:*.feature.extension.unpack
 version=0.3.0
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

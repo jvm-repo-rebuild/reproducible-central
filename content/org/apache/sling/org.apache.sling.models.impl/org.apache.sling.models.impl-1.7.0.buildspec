@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.models.impl
-display=${groupId}:.models.impl
+display=${groupId}:*.models.impl
 version=1.7.0
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

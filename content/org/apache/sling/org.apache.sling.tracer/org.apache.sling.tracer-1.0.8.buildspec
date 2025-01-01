@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.tracer
-display=${groupId}:.tracer
+display=${groupId}:*.tracer
 version=1.0.8
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

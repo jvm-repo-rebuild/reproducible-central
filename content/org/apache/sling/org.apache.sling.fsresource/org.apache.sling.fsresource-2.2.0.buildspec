@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.fsresource
-display=${groupId}:.fsresource
+display=${groupId}:*.fsresource
 version=2.2.0
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

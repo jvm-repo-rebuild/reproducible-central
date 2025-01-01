@@ -1,6 +1,6 @@
 groupId=org.apache.maven.plugins
 artifactId=maven-checkstyle-plugin
-display=${groupId}:m-checkstyle-p
+display=${groupId}:${artifactId}
 version=3.6.0
 
 gitRepo=https://github.com/apache/${artifactId}.git

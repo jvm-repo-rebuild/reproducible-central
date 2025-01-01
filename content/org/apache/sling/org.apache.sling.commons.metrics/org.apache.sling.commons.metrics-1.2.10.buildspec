@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.commons.metrics
-display=${groupId}:.commons.metrics
+display=${groupId}:*.commons.metrics
 version=1.2.10
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

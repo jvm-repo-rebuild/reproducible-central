@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.servlets.post
-display=${groupId}:.servlets.post
+display=${groupId}:*.servlets.post
 version=2.4.6
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

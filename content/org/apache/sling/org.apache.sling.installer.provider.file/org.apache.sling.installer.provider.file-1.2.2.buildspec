@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.installer.provider.file
-display=${groupId}:.installer.provider.file
+display=${groupId}:*.installer.provider.file
 version=1.2.2
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

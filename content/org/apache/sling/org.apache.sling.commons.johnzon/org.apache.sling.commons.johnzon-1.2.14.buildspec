@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.commons.johnzon
-display=${groupId}:.commons.johnzon
+display=${groupId}:*.commons.johnzon
 version=1.2.14
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

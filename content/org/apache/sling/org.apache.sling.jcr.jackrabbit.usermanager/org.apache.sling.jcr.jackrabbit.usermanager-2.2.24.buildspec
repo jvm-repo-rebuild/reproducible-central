@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.jcr.jackrabbit.usermanager
-display=${groupId}:.jcr.jackrabbit.usermanager
+display=${groupId}:*.jcr.jackrabbit.usermanager
 version=2.2.24
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

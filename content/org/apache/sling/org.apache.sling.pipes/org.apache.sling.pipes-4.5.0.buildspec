@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.pipes
-display=${groupId}:.pipes
+display=${groupId}:*.pipes
 version=4.5.0
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

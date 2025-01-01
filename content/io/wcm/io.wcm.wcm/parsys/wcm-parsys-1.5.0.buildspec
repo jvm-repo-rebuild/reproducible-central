@@ -1,6 +1,6 @@
 groupId=io.wcm
 artifactId=io.wcm.wcm.parsys
-display=${groupId}-WCM:parsys
+display=${groupId}:*.wcm.parsys
 version=1.5.0
 
 gitRepo=https://github.com/wcm-io/wcm-io-wcm.git

@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.query
-display=${groupId}:.query
+display=${groupId}:*.query
 version=4.0.4
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

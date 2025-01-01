@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.xss
-display=${groupId}:.xss
+display=${groupId}:*.xss
 version=2.3.4
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

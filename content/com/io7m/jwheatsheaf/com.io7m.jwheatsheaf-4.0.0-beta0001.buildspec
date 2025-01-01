@@ -1,6 +1,6 @@
 groupId=com.io7m.jwheatsheaf
 artifactId=com.io7m.jwheatsheaf
-display=${groupId}:${artifactId}
+display=com.io7m:*.$(echo $artifactId | cut -c 10-)
 version=4.0.0-beta0001
 
 gitRepo="https://github.com/io7m/$(echo "${artifactId}" | sed s/com.io7m.//).git"

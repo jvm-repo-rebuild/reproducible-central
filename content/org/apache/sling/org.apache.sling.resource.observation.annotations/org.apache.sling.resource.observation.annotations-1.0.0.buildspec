@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.resource.observation.annotations
-display=${groupId}:.resource.observation.annotations
+display=${groupId}:*.resource.observation.annotations
 version=1.0.0
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

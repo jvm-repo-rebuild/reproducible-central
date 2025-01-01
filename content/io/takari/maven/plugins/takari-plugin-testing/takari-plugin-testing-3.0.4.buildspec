@@ -1,6 +1,6 @@
 groupId=io.takari.maven.plugins
 artifactId=takari-plugin-testing-project
-display=${groupId}:${artifactId}
+display=${groupId}:takari-plugin-testing
 version=3.0.4
 
 gitRepo=https://github.com/takari/takari-plugin-testing-project.git

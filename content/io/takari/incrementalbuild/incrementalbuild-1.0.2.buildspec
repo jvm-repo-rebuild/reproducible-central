@@ -1,6 +1,6 @@
 groupId=io.takari
 artifactId=io.takari.incrementalbuild
-display=${groupId}:${artifactId}
+display=${groupId}:*.incrementalbuild
 version=1.0.2
 
 gitRepo=https://github.com/takari/${artifactId}.git

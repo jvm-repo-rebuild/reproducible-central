@@ -1,6 +1,6 @@
 groupId=org.apache.felix
 artifactId=org.apache.felix.healthcheck.core
-display=${groupId}:${artifactId}
+display=${groupId}:*.healthcheck.core
 version=2.1.0
 
 gitRepo=https://github.com/apache/felix-dev.git

@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.feature.cpconverter
-display=${groupId}:.feature.cpconverter
+display=${groupId}:*.feature.cpconverter
 version=1.3.0
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

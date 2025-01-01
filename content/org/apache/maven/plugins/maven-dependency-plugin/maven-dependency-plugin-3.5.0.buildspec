@@ -1,6 +1,6 @@
 groupId=org.apache.maven.plugins
 artifactId=maven-dependency-plugin
-display=${groupId}:m-dependency-p
+display=${groupId}:${artifactId}
 version=3.5.0
 
 gitRepo=https://github.com/apache/${artifactId}.git

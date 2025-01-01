@@ -1,6 +1,6 @@
 groupId=org.infinispan.protostream
 artifactId=protostream-aggregator
-display=${groupId}:${artifactId}
+display=${groupId}:protostream
 version=5.0.12.Final
 
 gitRepo=https://github.com/infinispan/protostream.git

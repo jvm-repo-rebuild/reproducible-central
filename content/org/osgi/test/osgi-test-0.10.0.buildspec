@@ -5,7 +5,7 @@ groupId=org.osgi
 artifactId=org.osgi.test.parent
 version=0.10.0
 
-display=${groupId}.test
+display=${groupId}:test
 
 # Source code
 gitRepo=https://github.com/osgi/osgi-test.git

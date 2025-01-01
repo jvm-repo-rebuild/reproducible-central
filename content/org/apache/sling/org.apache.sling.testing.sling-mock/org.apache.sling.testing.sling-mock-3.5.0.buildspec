@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.testing.sling-mock
-display=${groupId}:.testing.sling-mock
+display=${groupId}:*.testing.sling-mock
 version=3.5.0
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

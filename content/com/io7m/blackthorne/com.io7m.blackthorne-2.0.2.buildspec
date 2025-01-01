@@ -1,6 +1,6 @@
 groupId=com.io7m.blackthorne
 artifactId=com.io7m.blackthorne
-display=${groupId}:${artifactId}
+display=com.io7m:*.$(echo $artifactId | cut -c 10-)
 version=2.0.2
 
 gitRepo="https://github.com/io7m/$(echo "${artifactId}" | sed s/com.io7m.//).git"

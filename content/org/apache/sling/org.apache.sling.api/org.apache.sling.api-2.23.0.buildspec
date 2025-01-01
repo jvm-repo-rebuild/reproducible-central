@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.api
-display=${groupId}:.api
+display=${groupId}:*.api
 version=2.23.0
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

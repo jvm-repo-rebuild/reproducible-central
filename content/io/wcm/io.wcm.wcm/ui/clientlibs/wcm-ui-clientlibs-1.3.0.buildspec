@@ -1,6 +1,6 @@
 groupId=io.wcm
 artifactId=io.wcm.wcm.ui.clientlibs
-display=${groupId}-WCM:ui.clientlibs
+display=${groupId}:*.wcm.ui.clientlibs
 version=1.3.0
 
 gitRepo=https://github.com/wcm-io/${artifactId}.git

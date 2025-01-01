@@ -1,6 +1,6 @@
 groupId=org.apache.maven.resolver
 artifactId=maven-resolver-ant-tasks
-display=${groupId}:m-r-ant-tasks
+display=${groupId}:${artifactId}
 version=1.3.1
 
 gitRepo=https://github.com/apache/${artifactId}.git

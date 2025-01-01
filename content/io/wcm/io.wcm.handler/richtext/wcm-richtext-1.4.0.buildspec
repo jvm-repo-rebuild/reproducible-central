@@ -1,6 +1,6 @@
 groupId=io.wcm
 artifactId=io.wcm.handler.richtext
-display=${groupId}-handler:richtext
+display=${groupId}:*.handler.richtext
 version=1.4.0
 
 gitRepo=https://github.com/wcm-io/wcm-io-handler.git

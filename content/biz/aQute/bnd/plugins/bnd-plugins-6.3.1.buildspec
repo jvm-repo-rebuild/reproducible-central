@@ -1,6 +1,6 @@
 groupId=biz.aQute.bnd
 artifactId=bnd-plugin-parent
-display=${groupId}:maven-plugins
+display=${groupId}:bnd-maven-plugin
 version=6.3.1
 
 gitRepo=https://github.com/bndtools/bnd

@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.distribution.journal.kafka
-display=${groupId}:.distribution.journal.kafka
+display=${groupId}:*.distribution.journal.kafka
 version=0.3.0
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

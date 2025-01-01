@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.discovery.support
-display=${groupId}:.discovery.support
+display=${groupId}:*.discovery.support
 version=1.0.8
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

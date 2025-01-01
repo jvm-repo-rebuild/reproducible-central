@@ -1,6 +1,6 @@
 groupId=org.eclipse.daanse
 artifactId=org.eclipse.daanse.pom.parent
-display=${groupId}:${artifactId}
+display=${groupId}:*.pom.parent
 version=0.0.2
 
 gitRepo=https://github.com/eclipse-daanse/org.eclipse.daanse.pom

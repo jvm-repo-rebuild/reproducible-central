@@ -2,7 +2,7 @@ groupId=com.github.adangel.liquibase.ext
 artifactId=liquibase-percona
 version=2.0.0
 
-display=${groupId}:.-percona
+display=${groupId}:${artifactId}
 
 # Source code
 gitRepo=https://github.com/liquibase/${artifactId}.git

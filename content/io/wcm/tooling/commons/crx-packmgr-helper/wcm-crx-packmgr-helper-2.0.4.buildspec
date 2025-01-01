@@ -1,6 +1,6 @@
 groupId=io.wcm.tooling.commons
 artifactId=io.wcm.tooling.commons.crx-packmgr-helper
-display=io.wcm-tooling:crx-packmgr-helper
+display=${groupId}:*.crx-packmgr-helper
 version=2.0.4
 
 gitRepo=https://github.com/wcm-io/${artifactId}.git

@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.distribution.journal.messages
-display=${groupId}:.distribution.journal.messages
+display=${groupId}:*.distribution.journal.messages
 version=0.5.10
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

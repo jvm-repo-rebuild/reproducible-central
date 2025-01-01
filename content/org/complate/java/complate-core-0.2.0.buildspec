@@ -2,7 +2,7 @@ groupId=org.complate
 artifactId=complate-core
 version=0.2.0
 
-display=${groupId}:${artifactId}
+display=${groupId}:complate-java
 
 # Source code
 gitRepo=https://github.com/complate/complate-java.git

@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.models.caconfig
-display=${groupId}:.models.caconfig
+display=${groupId}:*.models.caconfig
 version=1.0.0
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

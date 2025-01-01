@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.jcr.contentloader
-display=${groupId}:.jcr.contentloader
+display=${groupId}:*.jcr.contentloader
 version=2.6.0
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

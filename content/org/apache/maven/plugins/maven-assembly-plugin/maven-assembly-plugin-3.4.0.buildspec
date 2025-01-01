@@ -1,6 +1,6 @@
 groupId=org.apache.maven.plugins
 artifactId=maven-assembly-plugin
-display=${groupId}:m-assembly-p
+display=${groupId}:${artifactId}
 version=3.4.0
 
 gitRepo=https://github.com/apache/${artifactId}.git

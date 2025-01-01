@@ -1,6 +1,6 @@
 groupId=org.apache.httpcomponents
 artifactId=httpcomponents-parent
-display=${groupId}:parent
+display=${groupId}:${artifactId}
 version=13
 
 gitRepo=https://github.com/apache/${artifactId}.git

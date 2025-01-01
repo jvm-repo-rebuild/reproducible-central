@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.rewriter
-display=${groupId}:.rewriter
+display=${groupId}:*.rewriter
 version=1.4.4
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

@@ -1,6 +1,7 @@
 # Central Repository coordinates for the Reference release (for multi-module, pick an artitrary module)
 groupId=com.corgibytes
 artifactId=versions-maven-plugin
+display=${groupId}:${artifactId}
 version=2.11.1
 
 # Source code

@@ -1,6 +1,6 @@
 groupId=org.apache.felix
 artifactId=org.apache.felix.feature
-display=${groupId}:${artifactId}
+display=${groupId}:*.feature
 version=1.0.2
 
 gitRepo=https://github.com/apache/felix-dev.git

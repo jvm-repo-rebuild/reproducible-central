@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.installer.console
-display=${groupId}:.installer.console
+display=${groupId}:*.installer.console
 version=1.0.4
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

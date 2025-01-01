@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.feature.extension.apiregions
-display=${groupId}:.feature.extension.apiregions
+display=${groupId}:*.feature.extension.apiregions
 version=1.6.2
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git

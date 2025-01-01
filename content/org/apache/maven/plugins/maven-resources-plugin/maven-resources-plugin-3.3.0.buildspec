@@ -1,6 +1,6 @@
 groupId=org.apache.maven.plugins
 artifactId=maven-resources-plugin
-display=${groupId}:m-resources-plugin
+display=${groupId}:${artifactId}
 version=3.3.0
 
 gitRepo=https://github.com/apache/${artifactId}.git
