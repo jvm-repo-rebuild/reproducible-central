@@ -16,4 +16,5 @@ command="mvn -Pshading clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/pmd/pmd-designer/commit/1548f5f27ba2981b890827fecbd0612fa70a0362
+
