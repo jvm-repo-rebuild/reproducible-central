@@ -3,8 +3,8 @@
   <groupId>org.jpmml</groupId>
   <artifactId>jpmml-statsmodels</artifactId>
   <versioning>
-    <latest>1.1.3</latest>
-    <release>1.1.3</release>
+    <latest>1.2.0</latest>
+    <release>1.2.0</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.1</version>
@@ -19,7 +19,8 @@
       <version>1.1.1</version>
       <version>1.1.2</version>
       <version>1.1.3</version>
+      <version>1.2.0</version>
     </versions>
-    <lastUpdated>20241222164157</lastUpdated>
+    <lastUpdated>20250101142555</lastUpdated>
   </versioning>
 </metadata>

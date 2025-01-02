@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **6023 releases** of **814 projects**:
+   rebuilding **6023 releases** of **813 projects**:
    - **4350** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 1673 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 814 projects, 699 have at least one fully reproducible release, 115 have none
+   - on 813 projects, 699 have at least one fully reproducible release, 114 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -384,7 +384,6 @@ Its objectives are to provide:
 | org.apache.dubbo | [dubbo](content/org/apache/dubbo/README.md) | 78 | 19 :white_check_mark: / 59 :warning: |
 | org.apache.helix | [helix](content/org/apache/helix/README.md) | 9 | 3 :white_check_mark: / 6 :warning: |
 | org.apache.hive | [hive](content/org/apache/hive/README.md) | 4 | 4 :warning: |
-|  | [](content/org/apache/ignite/README.md) | 0 | 0 :warning: |
 | org.apache.isis | [isis-parent](content/org/apache/isis/README.md) | 1 | 1 :warning: |
 | org.apache | [jdo](content/org/apache/jdo/README.md) | 2 | 2 :warning: |
 | org.apache.johnzon | [johnzon](content/org/apache/johnzon/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
@@ -837,7 +836,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 5 | 5 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 19 | 1 :white_check_mark: / 18 :warning: |
-| **Count:** | **814** | **6023** | **4350** :white_check_mark: **1673** :warning: |
+| **Count:** | **813** | **6023** | **4350** :white_check_mark: **1673** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)

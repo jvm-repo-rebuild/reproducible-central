@@ -13,6 +13,7 @@ rebuilding **8 releases** of org.mybatis:mybatis:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.5.18](https://central.sonatype.com/artifact/org.mybatis/mybatis/3.5.18/pom) | | | |
 | [3.5.17](https://central.sonatype.com/artifact/org.mybatis/mybatis/3.5.17/pom) | [mvn jdk17](mybatis-3.5.17.buildspec) | [result](mybatis-3.5.17.buildinfo): [1 :white_check_mark:  2 :warning:](mybatis-3.5.17.buildcompare) | 3.1M |
 | [3.5.16](https://central.sonatype.com/artifact/org.mybatis/mybatis/3.5.16/pom) | [mvn jdk22](mybatis-3.5.16.buildspec) | [result](mybatis-3.5.16.buildinfo): [1 :white_check_mark:  2 :warning:](mybatis-3.5.16.buildcompare) [:mag:](mybatis-3.5.16.diffoscope) | 3.1M |
 | [3.5.15](https://central.sonatype.com/artifact/org.mybatis/mybatis/3.5.15/pom) | [mvn jdk11 w](mybatis-3.5.15.buildspec) | [result](mybatis-3.5.15.buildinfo): [3 :white_check_mark: ](mybatis-3.5.15.buildcompare) | 2.3M |
