@@ -1,6 +1,6 @@
 groupId=net.bytebuddy
 artifactId=byte-buddy-parent
-display=${groupId}:${artifactId}
+display=${groupId}:byte-buddy
 version=1.14.10
 
 gitRepo=https://github.com/raphw/byte-buddy.git

@@ -2,7 +2,7 @@ groupId=com.github.hazendaz.catch-exception
 artifactId=catch-exception-parent
 version=2.3.2
 
-display=${groupId}:${artifactId}
+display=com.github.hazendaz.*:catch-exception
 
 gitRepo=https://github.com/hazendaz/catch-exception.git
 gitTag=${artifactId}-${version}

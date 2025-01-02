@@ -1,6 +1,6 @@
 groupId=io.jstach.pistachio
 artifactId=pistachio-maven-parent
-display=${groupId}:${artifactId}
+display=${groupId}:pistachio
 version=0.1.2
 
 gitRepo=https://github.com/jstachio/pistachio.git

@@ -1,6 +1,6 @@
 groupId=com.github.hypfvieh
 artifactId=dbus-java-parent
-display=${groupId}:${artifactId}
+display=${groupId}:dbus-java
 version=5.1.0
 
 gitRepo=https://github.com/hypfvieh/dbus-java.git

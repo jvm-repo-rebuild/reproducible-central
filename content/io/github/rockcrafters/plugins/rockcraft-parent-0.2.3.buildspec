@@ -1,6 +1,6 @@
 groupId=io.github.rockcrafters
 artifactId=rockcraft-parent
-display=${groupId}:${artifactId}
+display=${groupId}:java-rockcraft-plugins
 version=0.2.3
 
 gitRepo=https://github.com/rockcrafters/java-rockcraft-plugins.git
