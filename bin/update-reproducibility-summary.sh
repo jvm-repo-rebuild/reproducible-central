@@ -150,7 +150,7 @@ do
   fi
 done
 
-echo "| **Count:** | **${countGa}** | **${globalVersion}** | **${globalVersionOk}** :white_check_mark: **$((globalVersion - globalVersionOk))** :warning: |" >> ${summary}
+echo "| **Count:** | **${countGa}** | **${globalVersion}** | **${globalVersionOk}** :white_check_mark:<br>**$((globalVersion - globalVersionOk))** :warning: |" >> ${summary}
 
 echo "   rebuilding **${globalVersion} releases** of **${countGa} projects**:" > tmp/summary-intro.md
 echo "   - **${globalVersionOk}** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:)," >> tmp/summary-intro.md
