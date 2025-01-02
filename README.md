@@ -119,8 +119,8 @@ Its objectives are to provide:
 | | [*.blackthorne](content/com/io7m/blackthorne/README.md) | 13 | 9 :white_check_mark: / 4 :warning: |
 | | [*.calino](content/com/io7m/calino/README.md) | 1 | 1 :white_check_mark: |
 | | [*.canonmill](content/com/io7m/canonmill/README.md) | 8 | 8 :white_check_mark: |
-| com.io7m.cardant | [com.io7m.cardant](content/com/io7m/cardant/README.md) | 2 | 2 :warning: |
-| com.io7m.* | [*.cedarbridge](content/com/io7m/cedarbridge/README.md) | 3 | 3 :warning: |
+| | [*.cardant](content/com/io7m/cardant/README.md) | 2 | 2 :warning: |
+| | [*.cedarbridge](content/com/io7m/cedarbridge/README.md) | 3 | 3 :warning: |
 | | [*.certusine](content/com/io7m/certusine/README.md) | 4 | 4 :warning: |
 | | [*.chione](content/com/io7m/chione/README.md) | 1 | 1 :warning: |
 | | [*.claypot](content/com/io7m/claypot/README.md) | 2 | 2 :white_check_mark: |
