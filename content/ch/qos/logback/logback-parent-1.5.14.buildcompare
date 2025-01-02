@@ -1,0 +1,9 @@
+version=1.5.14
+ok=12
+ko=0
+ignored=0
+okFiles="logback-parent-1.5.14.pom logback-core-1.5.14.pom logback-core-1.5.14.jar logback-core-1.5.14-sources.jar logback-core-1.5.14-test-sources.jar logback-core-1.5.14-tests.jar logback-classic-1.5.14.pom logback-classic-1.5.14.jar logback-classic-1.5.14-sources.jar logback-classic-1.5.14-test-sources.jar logback-classic-1.5.14-tests.jar logback-access-1.5.14.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
