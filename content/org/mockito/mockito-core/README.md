@@ -19,13 +19,13 @@ Source code: [https://github.com/mockito/mockito.git](https://github.com/mockito
 * [org.mockito:mockito-subclass](https://central.sonatype.com/artifact/org.mockito/mockito-subclass/overview)
 </details>
 
-rebuilding **30 releases** of org.mockito:mockito-core:
+rebuilding **31 releases** of org.mockito:mockito-core:
 - **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [5.15.2](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.15.2/pom) | | | |
+| [5.15.2](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.15.2/pom) | [gradle jdk21](mockito-5.15.2.buildspec) | [result](mockito-core-5.15.2.buildinfo): [16 :white_check_mark:  3 :warning:](mockito-core-5.15.2.buildcompare) | 1.3M |
 | [5.14.2](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.14.2/pom) | [gradle jdk21](mockito-5.14.2.buildspec) | [result](mockito-core-5.14.2.buildinfo): [19 :white_check_mark: ](mockito-core-5.14.2.buildcompare) | 1.3M |
 | [5.14.1](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.14.1/pom) | [gradle jdk21](mockito-5.14.1.buildspec) | [result](mockito-core-5.14.1.buildinfo): [19 :white_check_mark: ](mockito-core-5.14.1.buildcompare) | 1.3M |
 | [5.14.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.14.0/pom) | [gradle jdk21](mockito-5.14.0.buildspec) | [result](mockito-core-5.14.0.buildinfo): [19 :white_check_mark: ](mockito-core-5.14.0.buildcompare) | 1.3M |
