@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-Transpiler
+group-id=org.jpmml
+artifact-id=jpmml-transpiler
+version=1.3.9
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-transpiler.git
+source.scm.tag=1.3.9
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=pmml-transpiler
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-transpiler
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-transpiler-1.3.9.pom
+outputs.0.0.length=8445
+outputs.0.0.checksums.sha512=aa1fef0c38989095ba55643389ffdbe70f2b43b7ae85c5b54cee72e60ee76e88ecf16a9e0364446aa8d0952ea59f4d628b897b2896b8d55580bfbd0d964f511c
+
+outputs.1.coordinates=org.jpmml:pmml-transpiler
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-transpiler-1.3.9.pom
+outputs.1.0.length=1793
+outputs.1.0.checksums.sha512=ae7f9257211e4aa8e3b460ebc18418c6fd4e22bb5f69a73553dd758060b6224b4c88048692b20ba7508a1ccc60b7a784e619b6c8506aa69e318cf536f8098212
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-transpiler-1.3.9.jar
+outputs.1.1.length=255139
+outputs.1.1.checksums.sha512=526c88d23e86a169285e8ec96ee251cf427aaa8d346a02167af7bc8e68568fdfefcf3c25064d0e54ddae28bd41e79e196da59e019954386c7635a97a206aed72
+
+outputs.1.2.groupId=org.jpmml
+outputs.1.2.filename=pmml-transpiler-1.3.9-sources.jar
+outputs.1.2.length=133482
+outputs.1.2.checksums.sha512=84201729aef6a37bd0cc3e9cf6dfa08c4f6330f1fe711de4269b1ed7aeb2f025884711c52fc4fbf2c2d742928ec97cf06abb2cc0c358895159afdf5f2de0f93d
