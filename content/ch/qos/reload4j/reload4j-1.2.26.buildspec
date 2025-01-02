@@ -12,7 +12,7 @@ newline=crlf # source code with crlf, but runtime on *nix
 
 # added "test bundle:manifest" invocation to simulate the effective release process done in 2 mvn runs: see https://github.com/qos-ch/reload4j/issues/57
 # but I don't see how to avoid impacting -tests.jar
-command="mvn clean test bundle:manifest package -DskipTests"
+command="SHELL mvn clean test bundle:manifest package -DskipTests"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope

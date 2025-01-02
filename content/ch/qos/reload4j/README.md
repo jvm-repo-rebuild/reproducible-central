@@ -13,7 +13,7 @@ rebuilding **9 releases** of ch.qos.reload4j:reload4j:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.2.26](https://central.sonatype.com/artifact/ch.qos.reload4j/reload4j/1.2.26/pom) | [mvn jdk8](reload4j-1.2.26.buildspec) | [result](reload4j-1.2.26.buildinfo): [ 4 :warning:](reload4j-1.2.26.buildcompare) | 951K |
+| [1.2.26](https://central.sonatype.com/artifact/ch.qos.reload4j/reload4j/1.2.26/pom) | [mvn jdk8 w](reload4j-1.2.26.buildspec) | [result](reload4j-1.2.26.buildinfo): [3 :white_check_mark:  1 :warning:](reload4j-1.2.26.buildcompare) | 954K |
 | [1.2.25](https://central.sonatype.com/artifact/ch.qos.reload4j/reload4j/1.2.25/pom) | [mvn jdk8](reload4j-1.2.25.buildspec) | [result](reload4j-1.2.25.buildinfo): [3 :white_check_mark:  1 :warning:](reload4j-1.2.25.buildcompare) [:mag:](reload4j-1.2.25.diffoscope) | 938K |
 | [1.2.24](https://central.sonatype.com/artifact/ch.qos.reload4j/reload4j/1.2.24/pom) | [mvn jdk8](reload4j-1.2.24.buildspec) | [result](reload4j-1.2.24.buildinfo): [3 :white_check_mark:  1 :warning:](reload4j-1.2.24.buildcompare) [:mag:](reload4j-1.2.24.diffoscope) | 934K |
 | [1.2.23](https://central.sonatype.com/artifact/ch.qos.reload4j/reload4j/1.2.23/pom) | [mvn jdk8](reload4j-1.2.23.buildspec) | [result](reload4j-1.2.23.buildinfo): [3 :white_check_mark:  1 :warning:](reload4j-1.2.23.buildcompare) [:mag:](reload4j-1.2.23.diffoscope) | 933K |
