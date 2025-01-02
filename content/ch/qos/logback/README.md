@@ -17,8 +17,8 @@ Source code: [https://github.com/qos-ch/logback.git](https://github.com/qos-ch/l
 * [ch.qos.logback:logback-site](https://central.sonatype.com/artifact/ch.qos.logback/logback-site/overview)
 </details>
 
-rebuilding **55 releases** of ch.qos.logback:logback-parent:
-- **40** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **56 releases** of ch.qos.logback:logback-parent:
+- **41** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 15 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -54,7 +54,7 @@ rebuilding **55 releases** of ch.qos.logback:logback-parent:
 | [1.4.2](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.2/pom) | [mvn jdk19](logback-1.4.2.buildspec) | [result](logback-parent-1.4.2.buildinfo): [10 :white_check_mark:  6 :warning:](logback-parent-1.4.2.buildcompare) | 3.1M |
 | [1.4.1](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.1/pom) | [mvn jdk18](logback-1.4.1.buildspec) | [result](logback-parent-1.4.1.buildinfo): [14 :white_check_mark:  2 :warning:](logback-parent-1.4.1.buildcompare) [:mag:](logback-parent-1.4.1.diffoscope) | 3.1M |
 | [1.4.0](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.0/pom) | [mvn jdk18](logback-1.4.0.buildspec) | [result](logback-parent-1.4.0.buildinfo): [13 :white_check_mark:  3 :warning:](logback-parent-1.4.0.buildcompare) | 3.1M |
-| [1.3.15](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.3.15/pom) | | | |
+| [1.3.15](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.3.15/pom) | [mvn jdk21 w](logback-1.3.15.buildspec) | [result](logback-parent-1.3.15.buildinfo): [16 :white_check_mark: ](logback-parent-1.3.15.buildcompare) | 3.1M |
 | [1.3.14](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.3.14/pom) | [mvn jdk21 w](logback-1.3.14.buildspec) | [result](logback-parent-1.3.14.buildinfo): [16 :white_check_mark: ](logback-parent-1.3.14.buildcompare) | 3.2M |
 | [1.3.13](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.3.13/pom) | [mvn jdk21 w](logback-1.3.13.buildspec) | [result](logback-parent-1.3.13.buildinfo): [16 :white_check_mark: ](logback-parent-1.3.13.buildcompare) | 3.2M |
 | [1.3.12](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.3.12/pom) | [mvn jdk21 w](logback-1.3.12.buildspec) | [result](logback-parent-1.3.12.buildinfo): [16 :white_check_mark: ](logback-parent-1.3.12.buildcompare) | 3.2M |
