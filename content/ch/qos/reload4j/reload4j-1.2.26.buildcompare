@@ -1,0 +1,10 @@
+version=1.2.26
+ok=3
+ko=1
+ignored=0
+okFiles="reload4j-1.2.26.pom reload4j-1.2.26.jar reload4j-1.2.26-sources.jar"
+koFiles="reload4j-1.2.26-tests.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/ch.qos.reload4j/reload4j-1.2.26-tests.jar target/reload4j-1.2.26-tests.jar
