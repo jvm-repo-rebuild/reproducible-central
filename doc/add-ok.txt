@@ -1,2 +1,2 @@
-content/org/jpmml/jpmml-statsmodels/jpmml-statsmodels-1.1.3.buildspec:1.2.0
-content/org/jpmml/jpmml-transpiler/jpmml-transpiler-1.3.8.buildspec:1.3.9
+content/io/github/xanthic/cache/cache-api/cache-api-0.6.2.buildspec:0.7.0
+content/org/mockito/mockito-core/mockito-5.14.2.buildspec:5.15.2

@@ -4,15 +4,14 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250101142555 --> [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | [1.1.3](../content/org/jpmml/jpmml-statsmodels/jpmml-statsmodels-1.1.3.buildspec) :white_check_mark: | [1.2.0](../content/org/jpmml/jpmml-statsmodels/jpmml-statsmodels-1.2.0.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-statsmodels/jpmml-statsmodels-1.1.3.buildspec 1.2.0` |
-| <!-- 20241231214440 --> [jpmml-transpiler](../content/org/jpmml/jpmml-transpiler/README.md) | [1.3.8](../content/org/jpmml/jpmml-transpiler/jpmml-transpiler-1.3.8.buildspec) :white_check_mark: | [1.3.9](../content/org/jpmml/jpmml-transpiler/jpmml-transpiler-1.3.9.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-transpiler/jpmml-transpiler-1.3.8.buildspec 1.3.9` |
-| <!-- 20240620095218 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | [2.5.1](../content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec) :white_check_mark: | 2.5.0 2.4.1 2.3.2 2.2.3 2.1.3  | `bin/add-new-release.sh content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec ...` |
+| <!-- 20250102202851 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | [2.5.1](../content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec) :white_check_mark: | 2.5.0 2.4.1 2.3.4 2.3.2 2.2.5 2.2.3 2.1.5 2.1.3 2.0.5  | `bin/add-new-release.sh content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec ...` |
+| <!-- 20250102183014 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | [5.14.2](../content/org/mockito/mockito-core/mockito-5.14.2.buildspec) :white_check_mark: | [5.15.2](../content/org/mockito/mockito-core/mockito-5.15.2.buildspec) | `bin/add-new-release.sh content/org/mockito/mockito-core/mockito-5.14.2.buildspec 5.15.2` |
+| <!-- 20250102013801 --> [cache-api](../content/io/github/xanthic/cache/cache-api/README.md) | [0.6.2](../content/io/github/xanthic/cache/cache-api/cache-api-0.6.2.buildspec) :white_check_mark: | [0.7.0](../content/io/github/xanthic/cache/cache-api/cache-api-0.7.0.buildspec) | `bin/add-new-release.sh content/io/github/xanthic/cache/cache-api/cache-api-0.6.2.buildspec 0.7.0` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
 `buildcompare` says `ko=0` but `buildspec` configures a `diffoscope` value in following releases:
 <!-- BEGIN GENERATED UNEXPECTED DIFFOSCOPE -->
-      content/com/fasterxml/uuid/java-uuid-generator-5.1.0.buildspec
 <!-- END GENERATED UNEXPECTED DIFFOSCOPE -->
 
 ### Missing Diffoscope in Buildspec
@@ -40,13 +39,9 @@ New Releases To Add
 | ---------- | ---- | -- | ------- |
 | <!-- 20250101040326 --> [mybatis](../content/org/mybatis/mybatis/README.md) | [3.5.17](../content/org/mybatis/mybatis/mybatis-3.5.17.buildspec) :warning: | [3.5.18](../content/org/mybatis/mybatis/mybatis-3.5.18.buildspec) | `bin/add-new-release.sh content/org/mybatis/mybatis/mybatis-3.5.17.buildspec 3.5.18` |
 | <!-- 20250101010215 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.67.11](../content/org/finos/legend/engine/legend-engine-4.67.11.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.67.11` |
-| <!-- 20241230095252 --> [logback-parent](../content/ch/qos/logback/README.md) | [1.5.13](../content/ch/qos/logback/logback-1.5.13.buildspec) :x: | [1.5.15](../content/ch/qos/logback/logback-1.5.15.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/logback-1.5.13.buildspec 1.5.15` |
 | <!-- 20241220093958 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.9.0](../content/org/apache/camel/camel/camel-4.9.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.9.0` |
 | <!-- 20241219122805 --> [glassfish-parent](../content/org/glassfish/main/README.md) | [8.0.0-JDK17-M7](../content/org/glassfish/main/glassfish-8.0.0-JDK17-M7.buildspec) :warning: | [8.0.0-JDK17-M9](../content/org/glassfish/main/glassfish-8.0.0-JDK17-M9.buildspec) | `bin/add-new-release.sh content/org/glassfish/main/glassfish-8.0.0-JDK17-M7.buildspec 8.0.0-JDK17-M9` |
-| <!-- 20241215170740 --> [reload4j](../content/ch/qos/reload4j/README.md) | [1.2.25](../content/ch/qos/reload4j/reload4j-1.2.25.buildspec) :warning: | [1.2.26](../content/ch/qos/reload4j/reload4j-1.2.26.buildspec) | `bin/add-new-release.sh content/ch/qos/reload4j/reload4j-1.2.25.buildspec 1.2.26` |
 | <!-- 20241211104935 --> [protostream-aggregator](../content/org/infinispan/protostream/README.md) | [5.0.12.Final](../content/org/infinispan/protostream/protostream-5.0.12.Final.buildspec) :warning: [:memo:](https://github.com/infinispan/protostream/pull/358) | [6.0.0.Dev01](../content/org/infinispan/protostream/protostream-6.0.0.Dev01.buildspec) | `bin/add-new-release.sh content/org/infinispan/protostream/protostream-5.0.12.Final.buildspec 6.0.0.Dev01` |
-| <!-- 20241207202534 --> [com.io7m.cardant](../content/com/io7m/cardant/README.md) | [0.0.2](../content/com/io7m/cardant/com.io7m.cardant-0.0.2.buildspec) :warning: | [1.0.0-beta0001](../content/com/io7m/cardant/com.io7m.cardant-1.0.0-beta0001.buildspec) | `bin/add-new-release.sh content/com/io7m/cardant/com.io7m.cardant-0.0.2.buildspec 1.0.0-beta0001` |
-| <!-- 20241120144345 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.0.2](../content/com/taobao/arthas/arthas-4.0.2.buildspec) :warning: | [4.0.4](../content/com/taobao/arthas/arthas-4.0.4.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.0.2.buildspec 4.0.4` |
 | <!-- 20241110060152 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.18.2](../content/org/webjars/swagger-ui/swagger-ui-5.18.2.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.18.2` |
 | <!-- 20241015135826 --> [jena](../content/org/apache/jena/jena/README.md) | [4.5.0](../content/org/apache/jena/jena/jena-4.5.0.buildspec) :warning: | [5.2.0](../content/org/apache/jena/jena/jena-5.2.0.buildspec) | `bin/add-new-release.sh content/org/apache/jena/jena/jena-4.5.0.buildspec 5.2.0` |
 | <!-- 20240812114051 --> [html-formatter](../content/io/cucumber/html-formatter/README.md) | [20.2.0](../content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec) :warning: [:memo:](https://github.com/cucumber/html-formatter/issues/207) | [21.7.0](../content/io/cucumber/html-formatter/html-formatter-21.7.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec 21.7.0` |
@@ -73,6 +68,7 @@ New Releases To Add
 | <!-- 20241216231422 --> [maven](../content/org/apache/maven/maven/README.md) | 4.0.0-rc-2 :warning: |
 | <!-- 20241216105905 --> [org.apache.sling.commons.log.webconsole](../content/org/apache/sling/org.apache.sling.commons.log.webconsole/README.md) | 1.0.2 :warning: |
 | <!-- 20241215214119 --> [plexus-utils](../content/org/codehaus/plexus/plexus-utils/README.md) | 4.0.2 :warning: |
+| <!-- 20241215170740 --> [reload4j](../content/ch/qos/reload4j/README.md) | 1.2.26 :warning: |
 | <!-- 20241213164219 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | 6.10.0 :warning: |
 | <!-- 20241210081421 --> [io.wcm.handler.link](../content/io/wcm/io.wcm.handler/link/README.md) | 2.2.4 :warning: |
 | <!-- 20241210081249 --> [io.wcm.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | 2.3.0 :warning: |
@@ -80,6 +76,7 @@ New Releases To Add
 | <!-- 20241207223709 --> [royale-typedefs-parent](../content/org/apache/royale/typedefs/README.md) | 0.9.12 :warning: |
 | <!-- 20241207223516 --> [royale-framework-parent](../content/org/apache/royale/framework/README.md) | 0.9.12 :warning: |
 | <!-- 20241207221427 --> [compiler](../content/org/apache/royale/compiler/README.md) | 0.9.12 :warning: |
+| <!-- 20241207202534 --> [com.io7m.cardant](../content/com/io7m/cardant/README.md) | 1.0.0-beta0001 :warning: |
 | <!-- 20241204065136 --> [yupiik-tools-maven-plugin-parent](../content/io/yupiik/maven/plugin/README.md) | 1.2.5 :warning: |
 | <!-- 20241203144539 --> [pulsar](../content/org/apache/pulsar/README.md) | 4.0.1 :warning: |
 | <!-- 20241202181948 --> [commons-dbcp2](../content/org/apache/commons/commons-dbcp2/README.md) | 2.13.0 :warning: |
@@ -87,6 +84,7 @@ New Releases To Add
 | <!-- 20241129071420 --> [license-maven-plugin](../content/org/codehaus/mojo/license-maven-plugin/README.md) | 2.5.0 :warning: |
 | <!-- 20241127152503 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 3.0.4 :warning: |
 | <!-- 20241125131237 --> [crypto-commons](../content/net/osslabz/crypto-commons/README.md) | 0.5.0 :warning: |
+| <!-- 20241120144345 --> [arthas-all](../content/com/taobao/arthas/README.md) | 4.0.4 :warning: |
 | <!-- 20241120023729 --> [amoro-parent](../content/org/apache/amoro/README.md) | 0.7.1-incubating :warning: |
 | <!-- 20241119151133 --> [org.apache.sling.feature.cpconverter](../content/org/apache/sling/org.apache.sling.feature.cpconverter/README.md) | 1.3.8 :warning: |
 | <!-- 20241114163736 --> [gwt-commons-validator](../content/de/knightsoft-net/gwt-commons-validator/README.md) | 1.9.0-1 :warning: |
