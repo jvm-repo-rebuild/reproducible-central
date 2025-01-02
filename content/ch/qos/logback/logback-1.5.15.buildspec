@@ -1,0 +1,20 @@
+groupId=ch.qos.logback
+artifactId=logback-parent
+version=1.5.15
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/qos-ch/logback.git
+gitTag=v_${version}
+
+tool=mvn-3.9.1
+jdk=21
+# strangely, Git checkout is crlf but build is done on *nix...
+newline=crlf
+
+# double mvn invocation because it's the release manage process: see https://github.com/qos-ch/reload4j/issues/57
+command="SHELL mvn clean package -DskipTests && mvn package -DskipTests"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=
+issue=
