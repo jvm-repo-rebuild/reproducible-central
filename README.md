@@ -25,10 +25,10 @@ Its objectives are to provide:
 | ----------------- | --------------- | --------- | -------- |
 | biz.aQute.bnd | [bnd-maven-plugin](content/biz/aQute/bnd/plugins/README.md) | 10 | 10 :white_check_mark: |
 | ch.galinet | [reproducible-build-maven-plugin](content/ch/galinet/reproducible-build-maven-plugin/README.md) | 5 | 5 :white_check_mark: |
-| ch.qos.logback | [logback-parent](content/ch/qos/logback/README.md) | 53 | 37 :white_check_mark: / 16 :warning: |
+| ch.qos.logback | [logback](content/ch/qos/logback/README.md) | 53 | 37 :white_check_mark: / 16 :warning: |
 | ch.qos.reload4j | [reload4j](content/ch/qos/reload4j/README.md) | 8 | 1 :white_check_mark: / 7 :warning: |
-| ch.qos.logback.access | [parent](content/ch/qos/logback/access/README.md) | 6 | 6 :white_check_mark: |
-| ch.qos.logback.db | [logback-parent-db](content/ch/qos/logback/db/README.md) | 2 | 2 :warning: |
+| ch.qos.logback.access | [logback-access](content/ch/qos/logback/access/README.md) | 6 | 6 :white_check_mark: |
+| ch.qos.logback.db | [logback-db](content/ch/qos/logback/db/README.md) | 2 | 2 :warning: |
 | ch.vorburger.mariaDB4j | [mariaDB4j](content/ch/vorburger/mariaDB4j/README.md) | 1 | 1 :white_check_mark: |
 | com.flowlogix | [flowlogix](content/com/flowlogix/README.md) | 20 | 15 :white_check_mark: / 5 :warning: |
 | com.adobe.acs | [acs-aem-commons](content/com/adobe/acs/aem-commons/README.md) | 6 | 6 :warning: |

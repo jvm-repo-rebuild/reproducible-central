@@ -2,7 +2,7 @@ groupId=ch.qos.logback.db
 artifactId=logback-parent-db
 version=1.2.11
 
-display=${groupId}:${artifactId}
+display=${groupId}:logback-db
 
 gitRepo=https://github.com/qos-ch/logback-db.git
 gitTag=v_${version}

@@ -1,6 +1,6 @@
 groupId=ch.qos.logback.access
 artifactId=parent
-display=${groupId}:${artifactId}
+display=${groupId}:logback-access
 version=2.0.4
 
 gitRepo=https://github.com/qos-ch/logback-access.git
