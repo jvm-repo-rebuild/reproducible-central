@@ -1,6 +1,6 @@
 groupId=com.github.nbbrd.java-sql-util
 artifactId=java-sql-parent
-display=${groupId}:${artifactId}
+display=com.github.nbbrd.*:java-sql-util
 version=1.0.5
 
 gitRepo=https://github.com/nbbrd/java-sql-util.git

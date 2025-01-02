@@ -1,6 +1,6 @@
 groupId=com.intellectualsites.plotsquared
 artifactId=plotsquared-bukkit
-display=${groupId}:${artifactId}
+display=com.intellectualsites.*:plotsquared
 version=7.4.1
 
 gitRepo=https://github.com/IntellectualSites/PlotSquared.git

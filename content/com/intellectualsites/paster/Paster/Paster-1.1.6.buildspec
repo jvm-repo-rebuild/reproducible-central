@@ -1,6 +1,6 @@
 groupId=com.intellectualsites.paster
 artifactId=Paster
-display=${groupId}:${artifactId}
+display=com.intellectualsites.*:paster
 version=1.1.6
 
 gitRepo=https://github.com/IntellectualSites/Paster.git

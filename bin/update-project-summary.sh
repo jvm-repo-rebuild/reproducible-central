@@ -63,8 +63,14 @@ do
     if [ ! -f "${projectReadme}" ]
     then
       ((countGa++))
-      displayGroupId="$(echo "$display" | cut -d : -f 1)"
-      displayArtifactId="$(echo "$display" | cut -d : -f 2)"
+      if [ -n "$display" ]
+      then
+        displayGroupId="$(echo "$display" | cut -d : -f 1)"
+        displayArtifactId="$(echo "$display" | cut -d : -f 2)"
+      else
+        displayGroupId="${groupId}"
+        displayArtifactId="${artifactId}"
+      fi
       # prepare README.md intro
       echo "[$groupId:$artifactId](https://central.sonatype.com/artifact/${groupId}/${artifactId}/versions) RB check" > ${projectReadme}
       echo "=======" >> ${projectReadme}

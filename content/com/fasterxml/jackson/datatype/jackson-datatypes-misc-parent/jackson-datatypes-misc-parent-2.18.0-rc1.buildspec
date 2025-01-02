@@ -1,6 +1,6 @@
 groupId=com.fasterxml.jackson.datatype
 artifactId=jackson-datatypes-misc-parent
-display=${groupId}:${artifactId}
+display=${groupId}:jackson-datatypes-misc
 version=2.18.0-rc1
 
 gitRepo=https://github.com/FasterXML/jackson-datatypes-misc.git

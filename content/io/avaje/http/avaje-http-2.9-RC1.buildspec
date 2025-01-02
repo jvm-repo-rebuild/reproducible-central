@@ -1,6 +1,6 @@
 groupId=io.avaje
 artifactId=avaje-http-parent
-display=${groupId}:${artifactId}
+display=${groupId}:$(echo "${artifactId}" | sed -e "s/-parent//")
 version=2.9-RC1
 
 gitRepo=https://github.com/avaje/avaje-http.git

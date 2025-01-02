@@ -2,7 +2,7 @@ groupId=com.github.veithen.cosmos
 artifactId=cosmos
 version=0.5.0
 
-display=${groupId}:${artifactId}
+display=com.github.veithen.*:${artifactId}
 
 gitRepo=https://github.com/veithen/${artifactId}.git
 gitTag=${version}

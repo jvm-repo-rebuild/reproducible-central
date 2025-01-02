@@ -1,6 +1,6 @@
 groupId=com.github.nbbrd.java-design-util
 artifactId=java-design-parent
-display=${groupId}:${artifactId}
+display=com.github.nbbrd.*:${artifactId}
 version=1.5.1
 
 gitRepo=https://github.com/nbbrd/java-design-util.git

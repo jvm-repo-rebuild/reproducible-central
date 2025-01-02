@@ -1,6 +1,6 @@
 groupId=eu.maveniverse.maven.toolbox
 artifactId=toolbox
-display=${groupId}:${artifactId}
+display=eu.maveniverse.maven.*:${artifactId}
 version=0.6.1
 
 gitRepo=https://github.com/maveniverse/toolbox.git

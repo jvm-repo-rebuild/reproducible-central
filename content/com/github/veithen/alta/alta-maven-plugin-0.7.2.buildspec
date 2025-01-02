@@ -2,7 +2,7 @@ groupId=com.github.veithen.alta
 artifactId=alta-maven-plugin
 version=0.7.2
 
-display=${groupId}:${artifactId}
+display=com.github.veithen.*:alta
 
 gitRepo=https://github.com/veithen/alta.git
 gitTag=${version}

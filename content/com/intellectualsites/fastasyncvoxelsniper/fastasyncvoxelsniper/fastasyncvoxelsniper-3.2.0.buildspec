@@ -1,6 +1,6 @@
 groupId=com.intellectualsites.fastasyncvoxelsniper
 artifactId=fastasyncvoxelsniper
-display=${groupId}:${artifactId}
+display=com.intellectualsites.*:fastasyncvoxelsniper
 version=3.2.0
 
 gitRepo=https://github.com/IntellectualSites/fastasyncvoxelsniper.git

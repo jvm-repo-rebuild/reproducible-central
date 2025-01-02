@@ -1,6 +1,6 @@
 groupId=io.avaje
 artifactId=avaje-prisms-parent
-display=${groupId}:${artifactId}
+display=${groupId}:$(echo "${artifactId}" | sed -e "s/-parent//")
 version=1.34
 
 gitRepo=https://github.com/avaje/avaje-prisms.git

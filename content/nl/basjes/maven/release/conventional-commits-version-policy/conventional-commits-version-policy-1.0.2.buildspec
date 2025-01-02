@@ -3,7 +3,7 @@ groupId=nl.basjes.maven.release
 artifactId=conventional-commits-version-policy
 version=1.0.2
 
-display=${groupId}:${artifactId}
+display=${groupId}:conventional-commits-v*-p*
 
 # Source code
 gitRepo=https://github.com/nielsbasjes/conventional-commits-maven-release.git

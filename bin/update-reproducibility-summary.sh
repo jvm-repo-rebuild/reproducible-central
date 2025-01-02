@@ -41,12 +41,7 @@ do
 
   # add project entry to main README
   row="|"
-  if [ "$artifactId" == "$groupId" ]
-  then
-    # for example com.io7m.*
-    groupId="${groupId%.*}"
-  fi
-  [[ "$groupId" != "$prevGroupId" ]] && prevGroupId="$groupId" && row+=" ${displayGroupId}"
+  [[ "$displayGroupId" != "$prevGroupId" ]] && prevGroupId="$displayGroupId" && row+=" ${displayGroupId}"
   row+=" | [${displayArtifactId}](${dir}/README.md)"
   row+=" | ${countVersion} | "
   if [ "${countVersionOk}" == "0" ]

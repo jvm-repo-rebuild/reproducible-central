@@ -1,6 +1,6 @@
 groupId=org.mybatis
 artifactId=mybatis-typehandlers-threeten-extra
-display=${groupId}:${artifactId}
+display=${groupId}:mybatis-typehandlers-t*-extra
 version=1.1.0
 
 gitRepo=https://github.com/mybatis/typehandlers-threeten-extra.git

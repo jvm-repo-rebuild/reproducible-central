@@ -1,6 +1,6 @@
 groupId=com.github.nbbrd.spreadsheet4j
 artifactId=spreadsheet-parent
-display=${groupId}:${artifactId}
+display=com.github.nbbrd.*:spreadsheet4j
 version=2.5.8
 
 gitRepo=https://github.com/nbbrd/spreadsheet4j.git

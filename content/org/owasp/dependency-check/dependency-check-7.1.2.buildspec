@@ -2,7 +2,7 @@ groupId=org.owasp
 artifactId=dependency-check-parent
 version=7.1.2
 
-display=${groupId}:${artifactId}
+display=${groupId}:dependency-check
 
 gitRepo=https://github.com/jeremylong/DependencyCheck
 gitTag=v${version}

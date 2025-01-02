@@ -1,6 +1,6 @@
 groupId=com.github.nbbrd.heylogs
 artifactId=heylogs-parent
-display=${groupId}:${artifactId}
+display=com.github.nbbrd.*:heylogs
 version=0.9.2
 
 gitRepo=https://github.com/nbbrd/heylogs.git

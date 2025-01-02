@@ -1,6 +1,6 @@
 groupId=com.io7m.jcoords
 artifactId=com.io7m.jcoords
-display=com.io7m:*.$(echo $artifactId | cut -c 10-)
+display=com.io7m.*:*.$(echo $artifactId | cut -c 10-)
 version=2.0.0
 
 gitRepo="https://github.com/io7m/$(echo "${artifactId}" | sed s/com.io7m.//).git"

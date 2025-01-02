@@ -1,6 +1,6 @@
 groupId=com.semanticcms
 artifactId=semanticcms-parent-book
-display=${groupId}:${artifactId}
+display=${groupId}:$(echo "${artifactId}" | sed -e 's/semanticcms/s8cms/')
 version=1.20.0
 
 gitRepo=https://github.com/ao-apps/semanticcms-parent.git

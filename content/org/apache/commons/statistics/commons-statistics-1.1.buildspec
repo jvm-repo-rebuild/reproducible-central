@@ -1,6 +1,6 @@
 groupId=org.apache.commons
 artifactId=commons-statistics-parent
-display=${groupId}:${artifactId}
+display=${groupId}:commons-statistics
 version=1.1
 
 gitRepo=https://github.com/apache/commons-statistics.git

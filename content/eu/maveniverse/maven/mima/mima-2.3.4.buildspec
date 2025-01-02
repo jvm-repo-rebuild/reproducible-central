@@ -1,6 +1,6 @@
 groupId=eu.maveniverse.maven.mima
 artifactId=mima
-display=${groupId}:${artifactId}
+display=eu.maveniverse.maven.*:${artifactId}
 version=2.3.4
 
 gitRepo=https://github.com/maveniverse/${artifactId}.git

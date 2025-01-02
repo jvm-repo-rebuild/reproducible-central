@@ -1,6 +1,6 @@
 groupId=com.intellectualsites.arkitektonika
 artifactId=Arkitektonika-Client
-display=${groupId}:${artifactId}
+display=com.intellectualsites.*:arkitektonika
 version=2.1.3
 
 gitRepo=https://github.com/IntellectualSites/Arkitektonika-Client.git

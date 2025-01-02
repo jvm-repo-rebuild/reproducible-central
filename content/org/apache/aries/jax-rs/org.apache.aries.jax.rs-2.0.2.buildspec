@@ -2,7 +2,7 @@ groupId=org.apache.aries.jax.rs
 artifactId=org.apache.aries.jax.rs
 version=2.0.2
 
-display=${groupId}:*
+display=org.apache.aries.*:*.jax.rs
 
 gitRepo=https://github.com/apache/aries-jax-rs-whiteboard.git
 gitTag=${artifactId}-${version}

@@ -1,6 +1,6 @@
 groupId=com.semanticcms
 artifactId=semanticcms-core-breadcrumblist-json-ld
-display=${groupId}:${artifactId}
+display=${groupId}:$(echo "${artifactId}" | sed -e 's/semanticcms/s8cms/' | sed -e 's/breadcrumblist/bcl/')
 version=1.5.0
 
 gitRepo=https://github.com/ao-apps/semanticcms-core-breadcrumblist-json-ld.git

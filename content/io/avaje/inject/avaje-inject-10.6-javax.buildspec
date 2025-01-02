@@ -1,6 +1,6 @@
 groupId=io.avaje
 artifactId=avaje-inject-parent
-display=${groupId}:${artifactId}
+display=${groupId}:$(echo "${artifactId}" | sed -e "s/-parent//")
 version=10.6-javax
 
 gitRepo=https://github.com/avaje/avaje-inject.git

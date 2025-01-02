@@ -1,6 +1,6 @@
 groupId=com.github.nbbrd.java-console-properties
 artifactId=java-console-properties
-display=${groupId}:${artifactId}
+display=com.github.nbbrd.*:${artifactId}
 version=1.4.1
 
 gitRepo=https://github.com/nbbrd/java-console-properties.git

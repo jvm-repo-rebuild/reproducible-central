@@ -2,7 +2,7 @@ groupId=com.github.hazendaz.jmockit
 artifactId=jmockit-parent
 version=1.55.0
 
-display=${groupId}:${artifactId}
+display=com.github.hazendaz:jmockit
 
 gitRepo=https://github.com/hazendaz/jmockit1.git
 gitTag=${artifactId}-${version}

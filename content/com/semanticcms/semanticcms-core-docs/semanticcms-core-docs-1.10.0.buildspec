@@ -1,6 +1,6 @@
 groupId=com.semanticcms
 artifactId=semanticcms-core-docs
-display=${groupId}:${artifactId}
+display=${groupId}:$(echo "${artifactId}" | sed -e 's/semanticcms/s8cms/')
 version=1.10.0
 
 gitRepo=https://github.com/ao-apps/semanticcms-core-docs.git

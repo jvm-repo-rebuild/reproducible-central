@@ -1,6 +1,6 @@
 groupId=io.opentelemetry.instrumentation
 artifactId=opentelemetry-instrumentation-api
-display=${groupId}:${artifactId}
+display=${groupId}:opentelemetry-instrumentation
 version=2.0.0
 
 gitRepo=https://github.com/open-telemetry/opentelemetry-java-instrumentation.git

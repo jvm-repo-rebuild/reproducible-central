@@ -2,7 +2,7 @@ groupId=org.apache.camel.k
 artifactId=camel-k-runtime-project
 version=1.11.0
 
-display=${groupId}:${artifactId}
+display=${groupId}:camel-k-runtime
 
 # Source code
 gitRepo=https://github.com/apache/camel-k-runtime.git

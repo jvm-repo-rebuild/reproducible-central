@@ -1,9 +1,9 @@
 groupId=com.io7m.stmp
 artifactId=string-template-maven-plugin
-display=${groupId}:${artifactId}
+display=com.io7m.*:${artifactId}
 version=2.0.0
 
-gitRepo="https://github.com/io7m/$(echo "${artifactId}" | sed s/com.io7m.//).git"
+gitRepo="https://github.com/io7m/${artifactId}.git"
 gitTag=com.io7m.${artifactId}-${version}
 #gitTag=
 

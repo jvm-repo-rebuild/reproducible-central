@@ -2,7 +2,7 @@ groupId=us.abstracta.jmeter
 artifactId=jmeter-java-dsl-parent
 version=1.0.1
 
-display=${groupId}:${artifactId}
+display=${groupId}:jmeter-java-dsl
 
 gitRepo=https://github.com/hboutemy/jmeter-java-dsl.git
 gitTag=145f9600ae8150ca1bde55815377904a7568f483

@@ -1,6 +1,6 @@
 groupId=com.io7m.hibiscus
 artifactId=com.io7m.hibiscus
-display=com.io7m:*.$(echo $artifactId | cut -c 10-)
+display=com.io7m.*:*.$(echo $artifactId | cut -c 10-)
 version=0.0.5
 
 gitRepo="https://github.com/io7m/$(echo "${artifactId}" | sed s/com.io7m.//).git"

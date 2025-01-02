@@ -1,6 +1,6 @@
 groupId=eu.maveniverse.maven.bom-builder
 artifactId=bom-builder
-display=${groupId}:${artifactId}
+display=eu.maveniverse.maven.*:${artifactId}
 version=1.0.2
 
 gitRepo=https://github.com/maveniverse/${artifactId}-maven-plugin.git

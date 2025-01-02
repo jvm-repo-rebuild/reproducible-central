@@ -1,7 +1,7 @@
 groupId=com.intellectualsites.informative-annotations
 artifactId=informative-annotations
+display=com.intellectualsites.*:informative-annotations
 version=1.5
-display=${groupId}:${artifactId}
 
 gitRepo=https://github.com/IntellectualSites/informative-annotations.git
 gitTag=${version}

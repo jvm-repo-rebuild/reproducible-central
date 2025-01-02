@@ -43,13 +43,13 @@ Its objectives are to provide:
 | | [jackson-databind](content/com/fasterxml/jackson/databind/README.md) | 28 | 12 :white_check_mark: / 16 :warning: |
 | com.fasterxml.jackson | [jackson-bom](content/com/fasterxml/jackson/jackson-bom/README.md) | 28 | 28 :white_check_mark: |
 | | [jackson-parent](content/com/fasterxml/jackson/jackson-parent/README.md) | 15 | 15 :white_check_mark: |
-| com.fasterxml.jackson.jr | [jackson-jr-parent](content/com/fasterxml/jackson/jr/README.md) | 28 | 7 :white_check_mark: / 21 :warning: |
+| com.fasterxml.jackson.jr | [jackson-jr](content/com/fasterxml/jackson/jr/README.md) | 28 | 7 :white_check_mark: / 21 :warning: |
 | com.fasterxml.jackson.dataformat | [jackson-dataformat-xml](content/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/README.md) | 21 | 12 :white_check_mark: / 9 :warning: |
 | | [jackson-dataformats-binary](content/com/fasterxml/jackson/dataformat/jackson-dataformats-binary/README.md) | 21 | 7 :white_check_mark: / 14 :warning: |
 | | [jackson-dataformats-text](content/com/fasterxml/jackson/dataformat/jackson-dataformats-text/README.md) | 21 | 12 :white_check_mark: / 9 :warning: |
 | com.fasterxml.jackson.datatype | [jackson-datatype-joda](content/com/fasterxml/jackson/datatype/jackson-datatype-joda/README.md) | 21 | 12 :white_check_mark: / 9 :warning: |
 | | [jackson-datatypes-collections](content/com/fasterxml/jackson/datatype/jackson-datatypes-collections/README.md) | 21 | 12 :white_check_mark: / 9 :warning: |
-| | [jackson-datatypes-misc-parent](content/com/fasterxml/jackson/datatype/jackson-datatypes-misc-parent/README.md) | 21 | 12 :white_check_mark: / 9 :warning: |
+| | [jackson-datatypes-misc](content/com/fasterxml/jackson/datatype/jackson-datatypes-misc-parent/README.md) | 21 | 12 :white_check_mark: / 9 :warning: |
 | com.foreach.across | [across-base](content/com/foreach/across/README.md) | 7 | 7 :white_check_mark: |
 | | [across-platform-bom](content/com/foreach/across/platform/README.md) | 1 | 1 :white_check_mark: |
 | com.github.ldapchai | [ldapchai](content/com/github/ldapchai/README.md) | 8 | 1 :white_check_mark: / 7 :warning: |
@@ -61,8 +61,8 @@ Its objectives are to provide:
 | com.github.hazendaz | [displaytag-doc](content/com/github/hazendaz/displaytag-doc/README.md) | 11 | 8 :white_check_mark: / 3 :warning: |
 | | [htmlcompressor](content/com/github/hazendaz/htmlcompressor/README.md) | 9 | 9 :warning: |
 | | [javabean-tester](content/com/github/hazendaz/javabean-tester/README.md) | 15 | 13 :white_check_mark: / 2 :warning: |
-| com.github.hazendaz.jmockit | [jmockit-parent](content/com/github/hazendaz/jmockit/README.md) | 5 | 5 :white_check_mark: |
-| com.github.hazendaz | [sitemesh](content/com/github/hazendaz/sitemesh/README.md) | 5 | 5 :white_check_mark: |
+| | [jmockit](content/com/github/hazendaz/jmockit/README.md) | 5 | 5 :white_check_mark: |
+| | [sitemesh](content/com/github/hazendaz/sitemesh/README.md) | 5 | 5 :white_check_mark: |
 | | [smartsprites](content/com/github/hazendaz/smartsprites/README.md) | 1 | 1 :white_check_mark: |
 | com.github.hazendaz.git | [github-desktop](content/com/github/hazendaz/git/github-desktop/README.md) | 37 | 1 :white_check_mark: / 36 :warning: |
 | com.github.hazendaz.maven | [coveralls-maven-plugin](content/com/github/hazendaz/maven/coveralls-maven-plugin/README.md) | 5 | 5 :white_check_mark: |
@@ -75,27 +75,27 @@ Its objectives are to provide:
 | com.github.hypfvieh | [dbus-java-parent](content/com/github/hypfvieh/dbus-java/README.md) | 1 | 1 :white_check_mark: |
 | com.github.marschall | [jakarta-jms-adapter](content/com/github/marschall/jakarta-jms-adapter/README.md) | 7 | 4 :white_check_mark: / 3 :warning: |
 | | [jfr-servlet](content/com/github/marschall/jfr-servlet/README.md) | 2 | 2 :white_check_mark: |
-| com.github.nbbrd.heylogs | [heylogs-parent](content/com/github/nbbrd/heylogs/README.md) | 4 | 4 :white_check_mark: |
-| com.github.nbbrd.java-console-properties | [java-console-properties](content/com/github/nbbrd/java-console-properties/README.md) | 1 | 1 :white_check_mark: |
-| com.github.nbbrd.java-design-util | [java-design-parent](content/com/github/nbbrd/java-design-util/README.md) | 1 | 1 :white_check_mark: |
-| com.github.nbbrd.java-desktop-util | [java-desktop-util-parent](content/com/github/nbbrd/java-desktop-util/README.md) | 3 | 3 :white_check_mark: |
-| com.github.nbbrd.java-io-util | [java-io-parent](content/com/github/nbbrd/java-io-util/README.md) | 5 | 5 :white_check_mark: |
-| com.github.nbbrd.java-sql-util | [java-sql-parent](content/com/github/nbbrd/java-sql-util/README.md) | 3 | 3 :warning: |
-| com.github.nbbrd.jdplus-sdmx | [jdplus-sdmx](content/com/github/nbbrd/jdplus-sdmx/README.md) | 1 | 1 :warning: |
-| com.github.nbbrd.picocsv | [picocsv](content/com/github/nbbrd/picocsv/README.md) | 2 | 2 :white_check_mark: |
-| com.github.nbbrd.sasquatch | [sasquatch-parent](content/com/github/nbbrd/sasquatch/README.md) | 1 | 1 :white_check_mark: |
-| com.github.nbbrd.spreadsheet4j | [spreadsheet-parent](content/com/github/nbbrd/spreadsheet4j/README.md) | 2 | 2 :white_check_mark: |
+| com.github.nbbrd.* | [heylogs](content/com/github/nbbrd/heylogs/README.md) | 4 | 4 :white_check_mark: |
+| | [java-console-properties](content/com/github/nbbrd/java-console-properties/README.md) | 1 | 1 :white_check_mark: |
+| | [java-design-parent](content/com/github/nbbrd/java-design-util/README.md) | 1 | 1 :white_check_mark: |
+| | [java-desktop-util](content/com/github/nbbrd/java-desktop-util/README.md) | 3 | 3 :white_check_mark: |
+| | [java-io-util](content/com/github/nbbrd/java-io-util/README.md) | 5 | 5 :white_check_mark: |
+| | [java-sql-util](content/com/github/nbbrd/java-sql-util/README.md) | 3 | 3 :warning: |
+| | [jdplus-sdmx](content/com/github/nbbrd/jdplus-sdmx/README.md) | 1 | 1 :warning: |
+| | [picocsv](content/com/github/nbbrd/picocsv/README.md) | 2 | 2 :white_check_mark: |
+| | [sasquatch](content/com/github/nbbrd/sasquatch/README.md) | 1 | 1 :white_check_mark: |
+| | [spreadsheet4j](content/com/github/nbbrd/spreadsheet4j/README.md) | 2 | 2 :white_check_mark: |
 | com.github.package-url | [packageurl-java](content/com/github/package-url/packageurl-java/README.md) | 5 | 5 :white_check_mark: |
-| com.github.philippheuer.credentialmanager | [credentialmanager](content/com/github/philippheuer/credentialmanager/README.md) | 1 | 1 :white_check_mark: |
+| com.github.philippheuer.* | [credentialmanager](content/com/github/philippheuer/credentialmanager/README.md) | 1 | 1 :white_check_mark: |
 | com.github.sitture | [env-config](content/com/github/sitture/env-config/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
 | com.github.spotbugs | [spotbugs-maven-plugin](content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 27 | 27 :white_check_mark: |
-| com.github.veithen.alta | [alta-maven-plugin](content/com/github/veithen/alta/README.md) | 3 | 3 :white_check_mark: |
-| com.github.veithen.checkt | [checkt](content/com/github/veithen/checkt/README.md) | 1 | 1 :white_check_mark: |
-| com.github.veithen.cosmos | [cosmos](content/com/github/veithen/cosmos/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
-| com.github.veithen.daemon | [daemon](content/com/github/veithen/daemon/README.md) | 9 | 9 :white_check_mark: |
+| com.github.veithen.* | [alta](content/com/github/veithen/alta/README.md) | 3 | 3 :white_check_mark: |
+| | [checkt](content/com/github/veithen/checkt/README.md) | 1 | 1 :white_check_mark: |
+| | [cosmos](content/com/github/veithen/cosmos/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
+| | [daemon](content/com/github/veithen/daemon/README.md) | 9 | 9 :white_check_mark: |
 | com.github.veithen | [jrel](content/com/github/veithen/jrel/README.md) | 1 | 1 :white_check_mark: |
 | | [parent](content/com/github/veithen/parent/README.md) | 17 | 16 :white_check_mark: / 1 :warning: |
-| com.github.veithen.phos | [phos](content/com/github/veithen/phos/README.md) | 1 | 1 :white_check_mark: |
+| com.github.veithen.* | [phos](content/com/github/veithen/phos/README.md) | 1 | 1 :white_check_mark: |
 | com.github.veithen.maven | [eclipse-settings-maven-plugin](content/com/github/veithen/maven/eclipse-settings-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [hermetic-maven-plugin](content/com/github/veithen/maven/hermetic-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
 | | [jacoco-report-maven-plugin](content/com/github/veithen/maven/jacoco-report-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
@@ -108,13 +108,13 @@ Its objectives are to provide:
 | com.homeofthewizard | [spring-bridge-maven-plugin](content/com/homeofthewizard/spring-bridge-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [vault-maven-plugin](content/com/homeofthewizard/vault-maven-plugin/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | com.innoq | [junit5-logging-extension](content/com/innoq/junit5-logging-extension/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
-| com.intellectualsites.arkitektonika | [Arkitektonika-Client](content/com/intellectualsites/arkitektonika/Arkitektonika-Client/README.md) | 1 | 1 :white_check_mark: |
+| com.intellectualsites.* | [arkitektonika](content/com/intellectualsites/arkitektonika/Arkitektonika-Client/README.md) | 1 | 1 :white_check_mark: |
 | com.intellectualsites.bom | [bom-newest](content/com/intellectualsites/bom/bom-newest/README.md) | 9 | 9 :white_check_mark: |
-| com.intellectualsites.fastasyncvoxelsniper | [fastasyncvoxelsniper](content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/README.md) | 4 | 4 :white_check_mark: |
-| com.intellectualsites.informative-annotations | [informative-annotations](content/com/intellectualsites/informative-annotations/informative-annotations/README.md) | 1 | 1 :white_check_mark: |
-| com.intellectualsites.paster | [Paster](content/com/intellectualsites/paster/Paster/README.md) | 1 | 1 :white_check_mark: |
-| com.intellectualsites.plotsquared | [plotsquared-bukkit](content/com/intellectualsites/plotsquared/plotsquared-bukkit/README.md) | 7 | 7 :white_check_mark: |
-| com.io7m | [*.abstand](content/com/io7m/abstand/README.md) | 4 | 4 :white_check_mark: |
+| com.intellectualsites.* | [fastasyncvoxelsniper](content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/README.md) | 4 | 4 :white_check_mark: |
+| | [informative-annotations](content/com/intellectualsites/informative-annotations/informative-annotations/README.md) | 1 | 1 :white_check_mark: |
+| | [paster](content/com/intellectualsites/paster/Paster/README.md) | 1 | 1 :white_check_mark: |
+| | [plotsquared](content/com/intellectualsites/plotsquared/plotsquared-bukkit/README.md) | 7 | 7 :white_check_mark: |
+| com.io7m.* | [*.abstand](content/com/io7m/abstand/README.md) | 4 | 4 :white_check_mark: |
 | | [*.anethum](content/com/io7m/anethum/README.md) | 6 | 6 :white_check_mark: |
 | | [*.blackthorne](content/com/io7m/blackthorne/README.md) | 13 | 9 :white_check_mark: / 4 :warning: |
 | | [*.calino](content/com/io7m/calino/README.md) | 1 | 1 :white_check_mark: |
@@ -187,8 +187,8 @@ Its objectives are to provide:
 | | [*.repetoir](content/com/io7m/repetoir/README.md) | 3 | 3 :white_check_mark: |
 | | [*.scando](content/com/io7m/scando/README.md) | 1 | 1 :white_check_mark: |
 | | [*.seltzer](content/com/io7m/seltzer/README.md) | 2 | 2 :white_check_mark: |
-| com.io7m.stmp | [string-template-maven-plugin](content/com/io7m/stmp/README.md) | 1 | 1 :white_check_mark: |
-| com.io7m | [*.streamtime](content/com/io7m/streamtime/README.md) | 2 | 2 :white_check_mark: |
+| | [string-template-maven-plugin](content/com/io7m/stmp/README.md) | 1 | 1 :white_check_mark: |
+| | [*.streamtime](content/com/io7m/streamtime/README.md) | 2 | 2 :white_check_mark: |
 | | [*.sunburst](content/com/io7m/sunburst/README.md) | 2 | 2 :warning: |
 | | [*.tabla](content/com/io7m/tabla/README.md) | 3 | 3 :white_check_mark: |
 | | [*.taskrecorder](content/com/io7m/taskrecorder/README.md) | 3 | 3 :white_check_mark: |
@@ -203,31 +203,31 @@ Its objectives are to provide:
 | | [*.zelador](content/com/io7m/zelador/README.md) | 2 | 2 :white_check_mark: |
 | com.newmediaworks | [nmw-oss-parent](content/com/newmediaworks/nmw-oss-parent/README.md) | 5 | 5 :white_check_mark: |
 | com.ongres | [scram](content/com/ongres/scram/README.md) | 1 | 1 :white_check_mark: |
-| com.ongres | [stringprep](content/com/ongres/stringprep/README.md) | 1 | 1 :white_check_mark: |
+| | [stringprep](content/com/ongres/stringprep/README.md) | 1 | 1 :white_check_mark: |
 | com.scalapenos | [stamina](content/com/scalapenos/stamina/README.md) | 2 | 2 :white_check_mark: |
-| com.semanticcms | [semanticcms-all](content/com/semanticcms/semanticcms-all/README.md) | 1 | 1 :white_check_mark: |
-| | [semanticcms-all-book](content/com/semanticcms/semanticcms-all-book/README.md) | 1 | 1 :white_check_mark: |
-| | [semanticcms-bom](content/com/semanticcms/semanticcms-bom/README.md) | 1 | 1 :white_check_mark: |
-| | [semanticcms-bom-book](content/com/semanticcms/semanticcms-bom-book/README.md) | 1 | 1 :white_check_mark: |
-| | [semanticcms-core-all](content/com/semanticcms/semanticcms-core-all/README.md) | 1 | 1 :white_check_mark: |
-| | [semanticcms-core-all-book](content/com/semanticcms/semanticcms-core-all-book/README.md) | 1 | 1 :white_check_mark: |
-| | [semanticcms-core-bom](content/com/semanticcms/semanticcms-core-bom/README.md) | 1 | 1 :white_check_mark: |
-| | [semanticcms-core-bom-book](content/com/semanticcms/semanticcms-core-bom-book/README.md) | 1 | 1 :white_check_mark: |
-| | [semanticcms-core-breadcrumblist-json-ld](content/com/semanticcms/semanticcms-core-breadcrumblist-json-ld/README.md) | 1 | 1 :white_check_mark: |
-| | [semanticcms-core-breadcrumblist-json-ld-book](content/com/semanticcms/semanticcms-core-breadcrumblist-json-ld-book/README.md) | 1 | 1 :white_check_mark: |
-| | [semanticcms-core-docs](content/com/semanticcms/semanticcms-core-docs/README.md) | 1 | 1 :white_check_mark: |
-| | [semanticcms-core-docs-book](content/com/semanticcms/semanticcms-core-docs-book/README.md) | 1 | 1 :white_check_mark: |
-| | [semanticcms-news-all](content/com/semanticcms/semanticcms-news-all/README.md) | 1 | 1 :white_check_mark: |
-| | [semanticcms-news-all-book](content/com/semanticcms/semanticcms-news-all-book/README.md) | 1 | 1 :white_check_mark: |
-| | [semanticcms-parent](content/com/semanticcms/semanticcms-parent/README.md) | 3 | 3 :white_check_mark: |
-| | [semanticcms-parent-book](content/com/semanticcms/semanticcms-parent-book/README.md) | 9 | 9 :white_check_mark: |
-| | [semanticcms-tag-reference](content/com/semanticcms/semanticcms-tag-reference/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
-| | [semanticcms-tag-reference-book](content/com/semanticcms/semanticcms-tag-reference-book/README.md) | 2 | 2 :white_check_mark: |
+| com.semanticcms | [s8cms-all](content/com/semanticcms/semanticcms-all/README.md) | 1 | 1 :white_check_mark: |
+| | [s8cms-all-book](content/com/semanticcms/semanticcms-all-book/README.md) | 1 | 1 :white_check_mark: |
+| | [s8cms-bom](content/com/semanticcms/semanticcms-bom/README.md) | 1 | 1 :white_check_mark: |
+| | [s8cms-bom-book](content/com/semanticcms/semanticcms-bom-book/README.md) | 1 | 1 :white_check_mark: |
+| | [s8cms-core-all](content/com/semanticcms/semanticcms-core-all/README.md) | 1 | 1 :white_check_mark: |
+| | [s8cms-core-all-book](content/com/semanticcms/semanticcms-core-all-book/README.md) | 1 | 1 :white_check_mark: |
+| | [s8cms-core-bom](content/com/semanticcms/semanticcms-core-bom/README.md) | 1 | 1 :white_check_mark: |
+| | [s8cms-core-bom-book](content/com/semanticcms/semanticcms-core-bom-book/README.md) | 1 | 1 :white_check_mark: |
+| | [s8cms-core-bcl-json-ld](content/com/semanticcms/semanticcms-core-breadcrumblist-json-ld/README.md) | 1 | 1 :white_check_mark: |
+| | [s8cms-core-bcl-json-ld-book](content/com/semanticcms/semanticcms-core-breadcrumblist-json-ld-book/README.md) | 1 | 1 :white_check_mark: |
+| | [s8cms-core-docs](content/com/semanticcms/semanticcms-core-docs/README.md) | 1 | 1 :white_check_mark: |
+| | [s8cms-core-docs-book](content/com/semanticcms/semanticcms-core-docs-book/README.md) | 1 | 1 :white_check_mark: |
+| | [s8cms-news-all](content/com/semanticcms/semanticcms-news-all/README.md) | 1 | 1 :white_check_mark: |
+| | [s8cms-news-all-book](content/com/semanticcms/semanticcms-news-all-book/README.md) | 1 | 1 :white_check_mark: |
+| | [s8cms-parent](content/com/semanticcms/semanticcms-parent/README.md) | 3 | 3 :white_check_mark: |
+| | [s8cms-parent-book](content/com/semanticcms/semanticcms-parent-book/README.md) | 9 | 9 :white_check_mark: |
+| | [s8cms-tag-reference](content/com/semanticcms/semanticcms-tag-reference/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
+| | [s8cms-tag-reference-book](content/com/semanticcms/semanticcms-tag-reference-book/README.md) | 2 | 2 :white_check_mark: |
 | com.spotify.fmt | [fmt-maven-plugin](content/com/spotify/fmt-maven-plugin/README.md) | 8 | 8 :white_check_mark: |
 | com.spotify | [github-client](content/com/spotify/github-client/README.md) | 40 | 39 :white_check_mark: / 1 :warning: |
 | com.taobao.arthas | [arthas-all](content/com/taobao/arthas/README.md) | 15 | 15 :warning: |
 | com.vladsch.flexmark | [flexmark-java](content/com/vladsch/flexmark/flexmark-java/README.md) | 4 | 4 :white_check_mark: |
-| de.jflex | [jflex-parent](content/de/jflex/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
+| de.jflex | [jflex](content/de/jflex/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | de.gematik.pki | [gemLibPki](content/de/gematik/pki/gemLibPki/README.md) | 20 | 20 :white_check_mark: |
 | de.gematik.pki.gemlibpki | [gemLibPki](content/de/gematik/pki/gemlibpki-old/README.md) | 2 | 2 :warning: |
 | de.knightsoft-net | [gwt-commons-codec](content/de/knightsoft-net/gwt-commons-codec/README.md) | 4 | 4 :white_check_mark: |
@@ -250,11 +250,11 @@ Its objectives are to provide:
 | | [eforms-sdk](content/eu/europa/ted/eforms/eforms-sdk/README.md) | 37 | 32 :white_check_mark: / 5 :warning: |
 | | [eforms-sdk-analyzer](content/eu/europa/ted/eforms/eforms-sdk-analyzer/README.md) | 1 | 1 :warning: |
 | | [efx-toolkit-java](content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 4 | 4 :warning: |
-| eu.maveniverse.maven.bom-builder | [bom-builder](content/eu/maveniverse/maven/bom-builder/README.md) | 4 | 4 :white_check_mark: |
-| eu.maveniverse.maven.mima | [mima](content/eu/maveniverse/maven/mima/README.md) | 44 | 41 :white_check_mark: / 3 :warning: |
-| eu.maveniverse.maven.nisse | [nisse](content/eu/maveniverse/maven/nisse/README.md) | 9 | 9 :white_check_mark: |
-| eu.maveniverse.maven.toolbox | [toolbox](content/eu/maveniverse/maven/toolbox/README.md) | 52 | 51 :white_check_mark: / 1 :warning: |
-| eu.maveniverse.maven.mase | [mase](content/eu/maveniverse/maven/mase/mase/README.md) | 3 | 3 :white_check_mark: |
+| eu.maveniverse.maven.* | [bom-builder](content/eu/maveniverse/maven/bom-builder/README.md) | 4 | 4 :white_check_mark: |
+| | [mima](content/eu/maveniverse/maven/mima/README.md) | 44 | 41 :white_check_mark: / 3 :warning: |
+| | [nisse](content/eu/maveniverse/maven/nisse/README.md) | 9 | 9 :white_check_mark: |
+| | [toolbox](content/eu/maveniverse/maven/toolbox/README.md) | 52 | 51 :white_check_mark: / 1 :warning: |
+| | [mase](content/eu/maveniverse/maven/mase/mase/README.md) | 3 | 3 :white_check_mark: |
 | fr.inria.gforge.spoon | [spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 131 | 27 :white_check_mark: / 104 :warning: |
 | fr.marcwrobel | [jbanking](content/fr/marcwrobel/jbanking/README.md) | 2 | 2 :white_check_mark: |
 | fr.vidal.oss | [atom-jaxb](content/fr/vidal/oss/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
@@ -263,14 +263,14 @@ Its objectives are to provide:
 | io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 50 | 50 :warning: |
 | io.trino | [trino-root](content/io/trino/README.md) | 23 | 18 :white_check_mark: / 5 :warning: |
 | io.airlift | [airbase](content/io/airlift/airbase/README.md) | 53 | 51 :white_check_mark: / 2 :warning: |
-| io.avaje | [avaje-http-parent](content/io/avaje/http/README.md) | 7 | 7 :white_check_mark: |
-| | [avaje-inject-parent](content/io/avaje/inject/README.md) | 10 | 8 :white_check_mark: / 2 :warning: |
-| | [avaje-jex-parent](content/io/avaje/jex/README.md) | 12 | 10 :white_check_mark: / 2 :warning: |
-| | [avaje-jsonb-parent](content/io/avaje/jsonb/README.md) | 6 | 6 :white_check_mark: |
-| | [avaje-prisms-parent](content/io/avaje/prisms/README.md) | 4 | 4 :white_check_mark: |
-| | [avaje-sigma-parent](content/io/avaje/sigma/README.md) | 2 | 2 :white_check_mark: |
-| | [avaje-spi-parent](content/io/avaje/spi/README.md) | 2 | 2 :white_check_mark: |
-| | [avaje-validator-parent](content/io/avaje/validator/README.md) | 1 | 1 :white_check_mark: |
+| io.avaje | [avaje-http](content/io/avaje/http/README.md) | 7 | 7 :white_check_mark: |
+| | [avaje-inject](content/io/avaje/inject/README.md) | 10 | 8 :white_check_mark: / 2 :warning: |
+| | [avaje-jex](content/io/avaje/jex/README.md) | 12 | 10 :white_check_mark: / 2 :warning: |
+| | [avaje-jsonb](content/io/avaje/jsonb/README.md) | 6 | 6 :white_check_mark: |
+| | [avaje-prisms](content/io/avaje/prisms/README.md) | 4 | 4 :white_check_mark: |
+| | [avaje-sigma](content/io/avaje/sigma/README.md) | 2 | 2 :white_check_mark: |
+| | [avaje-spi](content/io/avaje/spi/README.md) | 2 | 2 :white_check_mark: |
+| | [avaje-validator](content/io/avaje/validator/README.md) | 1 | 1 :white_check_mark: |
 | io.cucumber | [ci-environment](content/io/cucumber/ci-environment/README.md) | 2 | 2 :white_check_mark: |
 | | [cucumber-expressions](content/io/cucumber/cucumber-expressions/README.md) | 9 | 9 :white_check_mark: |
 | | [cucumber-jvm](content/io/cucumber/cucumber-jvm/README.md) | 19 | 19 :white_check_mark: |
@@ -307,7 +307,7 @@ Its objectives are to provide:
 | io.jstach.pistachio | [pistachio-maven-parent](content/io/jstach/pistachio/pistachio-maven-parent/README.md) | 1 | 1 :white_check_mark: |
 | io.micronaut.build | [micronaut-maven-plugin](content/io/micronaut/build/micronaut-maven-plugin/README.md) | 35 | 35 :white_check_mark: |
 | io.micronaut.maven | [micronaut-maven-plugin](content/io/micronaut/maven/micronaut-maven-plugin/README.md) | 33 | 33 :white_check_mark: |
-| io.opentelemetry.instrumentation | [opentelemetry-instrumentation-api](content/io/opentelemetry/instrumentation/README.md) | 34 | 18 :white_check_mark: / 16 :warning: |
+| io.opentelemetry.instrumentation | [opentelemetry-instrumentation](content/io/opentelemetry/instrumentation/README.md) | 34 | 18 :white_check_mark: / 16 :warning: |
 | io.opentelemetry | [opentelemetry-sdk](content/io/opentelemetry/java/README.md) | 12 | 9 :white_check_mark: / 3 :warning: |
 | io.repaint.maven | [tiles-maven-plugin](content/io/repaint/maven/tiles-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
 | io.smallrye | [jandex](content/io/smallrye/jandex/README.md) | 14 | 14 :warning: |
@@ -359,7 +359,7 @@ Its objectives are to provide:
 | | [pmd-designer](content/net/sourceforge/pmd/pmd-designer/README.md) | 2 | 2 :warning: |
 | nl.basjes.energy | [energy-parent](content/nl/basjes/energy/README.md) | 2 | 2 :white_check_mark: |
 | nl.basjes.codeowners | [codeowners-parent](content/nl/basjes/codeowners/codeowners-parent/README.md) | 20 | 20 :white_check_mark: |
-| nl.basjes.maven.release | [conventional-commits-version-policy](content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 7 | 7 :white_check_mark: |
+| nl.basjes.maven.release | [conventional-commits-v*-p*](content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 7 | 7 :white_check_mark: |
 | nl.basjes.parse.httpdlog | [httpdlog-parser](content/nl/basjes/parse/httpdlog/httpdlog-parser/README.md) | 3 | 3 :white_check_mark: |
 | nl.basjes.parse.useragent | [yauaa](content/nl/basjes/parse/useragent/yauaa/README.md) | 20 | 16 :white_check_mark: / 4 :warning: |
 | nl.hsac | [hsac-fitnesse-fixtures](content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 103 | 72 :white_check_mark: / 31 :warning: |
@@ -397,20 +397,20 @@ Its objectives are to provide:
 | org.apache.shiro | [shiro-root](content/org/apache/shiro/README.md) | 14 | 4 :white_check_mark: / 10 :warning: |
 | org.apache.sis | [parent](content/org/apache/sis/README.md) | 1 | 1 :warning: |
 | org.apache.sshd | [sshd](content/org/apache/sshd/README.md) | 11 | 11 :warning: |
-| org.apache.struts | [struts2-parent](content/org/apache/struts/README.md) | 27 | 8 :white_check_mark: / 19 :warning: |
+| org.apache.struts | [struts2](content/org/apache/struts/README.md) | 27 | 8 :white_check_mark: / 19 :warning: |
 | org.apache.synapse | [Apache-Synapse](content/org/apache/synapse/README.md) | 1 | 1 :warning: |
 | org.apache.syncope | [syncope](content/org/apache/syncope/README.md) | 15 | 4 :white_check_mark: / 11 :warning: |
 | org.apache.systemds | [systemds](content/org/apache/systemds/README.md) | 2 | 2 :warning: |
 | org.apache.tika | [tika](content/org/apache/tika/README.md) | 8 | 8 :warning: |
 | org.apache.wayang | [wayang](content/org/apache/wayang/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
-| org.apache.wicket | [wicket-parent](content/org/apache/wicket/README.md) | 3 | 3 :white_check_mark: |
+| org.apache.wicket | [wicket](content/org/apache/wicket/README.md) | 3 | 3 :white_check_mark: |
 | org.apache.wss4j | [wss4j](content/org/apache/wss4j/README.md) | 9 | 8 :white_check_mark: / 1 :warning: |
-| org.apache.zookeeper | [parent](content/org/apache/zookeeper/README.md) | 5 | 5 :warning: |
+| org.apache.zookeeper | [zookeeper](content/org/apache/zookeeper/README.md) | 5 | 5 :warning: |
 | org.apache.activemq | [artemis-pom](content/org/apache/activemq/artemis/README.md) | 15 | 4 :white_check_mark: / 11 :warning: |
-| org.apache.aries.cdi | [*](content/org/apache/aries/cdi/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
-| org.apache.aries.jax.rs | [*](content/org/apache/aries/jax-rs/README.md) | 1 | 1 :white_check_mark: |
+| org.apache.aries.* | [*.cdi](content/org/apache/aries/cdi/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
+| | [*.jax.rs](content/org/apache/aries/jax-rs/README.md) | 1 | 1 :white_check_mark: |
 | org.apache.camel | [camel](content/org/apache/camel/camel/README.md) | 7 | 7 :warning: |
-| org.apache.camel.k | [camel-k-runtime-project](content/org/apache/camel/camel-k-runtime/README.md) | 6 | 6 :warning: |
+| org.apache.camel.k | [camel-k-runtime](content/org/apache/camel/camel-k-runtime/README.md) | 6 | 6 :warning: |
 | org.apache.bcel | [bcel](content/org/apache/commons/bcel/README.md) | 6 | 6 :warning: |
 | org.apache.commons | [commons-build-plugin](content/org/apache/commons/commons-build-plugin/README.md) | 2 | 2 :white_check_mark: |
 | commons-cli | [commons-cli](content/org/apache/commons/commons-cli/README.md) | 3 | 3 :warning: |
@@ -430,12 +430,12 @@ Its objectives are to provide:
 | org.apache.commons | [commons-compress](content/org/apache/commons/compress/README.md) | 9 | 5 :white_check_mark: / 4 :warning: |
 | | [commons-configuration2](content/org/apache/commons/configuration2/README.md) | 3 | 3 :white_check_mark: |
 | | [commons-csv](content/org/apache/commons/csv/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
-| | [commons-email2-parent](content/org/apache/commons/email2/README.md) | 1 | 1 :warning: |
+| | [commons-email2](content/org/apache/commons/email2/README.md) | 1 | 1 :warning: |
 | commons-net | [commons-net](content/org/apache/commons/net/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
-| org.apache.commons | [commons-numbers-parent](content/org/apache/commons/numbers/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
+| org.apache.commons | [commons-numbers](content/org/apache/commons/numbers/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | | [commons-parent](content/org/apache/commons/parent/README.md) | 26 | 25 :white_check_mark: / 1 :warning: |
-| | [commons-rng-parent](content/org/apache/commons/rng/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
-| | [commons-statistics-parent](content/org/apache/commons/statistics/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
+| | [commons-rng](content/org/apache/commons/rng/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
+| | [commons-statistics](content/org/apache/commons/statistics/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | commons-logging | [commons-logging](content/org/apache/commons/commons-logging/commons-logging/README.md) | 5 | 5 :white_check_mark: |
 | org.apache.cxf.build-utils | [cxf-build-utils](content/org/apache/cxf/cxf-build-utils/README.md) | 2 | 2 :white_check_mark: |
 | org.apache.cxf.fediz | [fediz](content/org/apache/cxf/fediz/README.md) | 4 | 4 :warning: |
@@ -513,7 +513,7 @@ Its objectives are to provide:
 | | [maven-source-plugin](content/org/apache/maven/plugins/maven-source-plugin/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
 | | [maven-toolchains-plugin](content/org/apache/maven/plugins/maven-toolchains-plugin/README.md) | 2 | 2 :white_check_mark: |
 | | [maven-war-plugin](content/org/apache/maven/plugins/maven-war-plugin/README.md) | 4 | 4 :white_check_mark: |
-| | [maven-wrapper](content/org/apache/maven/plugins/maven-wrapper-plugin/README.md) | 8 | 7 :white_check_mark: / 1 :warning: |
+| org.apache.maven.wrapper | [maven-wrapper](content/org/apache/maven/plugins/maven-wrapper-plugin/README.md) | 8 | 7 :white_check_mark: / 1 :warning: |
 | org.apache.maven.reporting | [maven-reporting-api](content/org/apache/maven/reporting/maven-reporting-api/README.md) | 15 | 15 :white_check_mark: |
 | | [maven-reporting-exec](content/org/apache/maven/reporting/maven-reporting-exec/README.md) | 17 | 17 :white_check_mark: |
 | | [maven-reporting-impl](content/org/apache/maven/reporting/maven-reporting-impl/README.md) | 18 | 18 :white_check_mark: |
@@ -628,7 +628,7 @@ Its objectives are to provide:
 | | [*.models.jacksonexporter](content/org/apache/sling/org.apache.sling.models.jacksonexporter/README.md) | 3 | 3 :white_check_mark: |
 | | [*.models.validation-impl](content/org/apache/sling/org.apache.sling.models.validation-impl/README.md) | 2 | 2 :white_check_mark: |
 | | [*.pipes](content/org/apache/sling/org.apache.sling.pipes/README.md) | 5 | 5 :warning: |
-| | [org.apache.sling.providertype.bnd-plugin](content/org/apache/sling/org.apache.sling.providertype.bnd-plugin/README.md) | 1 | 1 :white_check_mark: |
+| | [*.providertype.bnd-plugin](content/org/apache/sling/org.apache.sling.providertype.bnd-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [*.query](content/org/apache/sling/org.apache.sling.query/README.md) | 1 | 1 :white_check_mark: |
 | | [*.repoinit.parser](content/org/apache/sling/org.apache.sling.repoinit.parser/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
 | | [*.resource.observation.annotations](content/org/apache/sling/org.apache.sling.resource.observation.annotations/README.md) | 1 | 1 :white_check_mark: |
@@ -770,7 +770,7 @@ Its objectives are to provide:
 | | [mybatis](content/org/mybatis/mybatis/README.md) | 8 | 2 :white_check_mark: / 6 :warning: |
 | | [mybatis-2-spring](content/org/mybatis/mybatis-2-spring/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | | [mybatis-spring](content/org/mybatis/mybatis-spring/README.md) | 8 | 3 :white_check_mark: / 5 :warning: |
-| | [mybatis-typehandlers-threeten-extra](content/org/mybatis/mybatis-typehandlers-threeten-extra/README.md) | 1 | 1 :white_check_mark: |
+| | [mybatis-typehandlers-t*-extra](content/org/mybatis/mybatis-typehandlers-threeten-extra/README.md) | 1 | 1 :white_check_mark: |
 | | [mybatis2](content/org/mybatis/mybatis2/README.md) | 2 | 2 :white_check_mark: |
 | | [mybatis-parent](content/org/mybatis/parent/README.md) | 14 | 14 :white_check_mark: |
 | org.mybatis.scala | [mybatis-scala-parent_2.13](content/org/mybatis/scala/README.md) | 1 | 1 :white_check_mark: |
@@ -789,7 +789,7 @@ Its objectives are to provide:
 | org.openapitools.openapidiff | [openapi-diff-parent](content/org/openapitools/openapidiff/README.md) | 12 | 12 :white_check_mark: |
 | org.osgi | [test](content/org/osgi/test/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
 | org.owasp.antisamy | [antisamy](content/org/owasp/antisamy/README.md) | 18 | 17 :white_check_mark: / 1 :warning: |
-| org.owasp | [dependency-check-parent](content/org/owasp/dependency-check/README.md) | 57 | 38 :white_check_mark: / 19 :warning: |
+| org.owasp | [dependency-check](content/org/owasp/dependency-check/README.md) | 57 | 38 :white_check_mark: / 19 :warning: |
 | org.quickperf | [quick-perf-live](content/org/quickperf/quick-perf-live/README.md) | 3 | 3 :warning: |
 | | [quick-sql-test-data](content/org/quickperf/quick-sql-test-data/README.md) | 1 | 1 :warning: |
 | org.sentrysoftware | [http](content/org/sentrysoftware/http/README.md) | 2 | 2 :white_check_mark: |
@@ -834,9 +834,9 @@ Its objectives are to provide:
 | tech.picnic.error-prone-support | [error-prone-support](content/tech/picnic/error-prone-support/error-prone-support/README.md) | 19 | 18 :white_check_mark: / 1 :warning: |
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 2 | 2 :warning: |
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 5 | 5 :white_check_mark: |
-| us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
+| us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 19 | 1 :white_check_mark: / 18 :warning: |
-| **Count:** | **813** | **6023** | **4350** :white_check_mark: **1673** :warning: |
+| **Count:** | **814** | **6023** | **4350** :white_check_mark: **1673** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)

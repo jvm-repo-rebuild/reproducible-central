@@ -1,6 +1,6 @@
 groupId=eu.maveniverse.maven.mase
 artifactId=mase
-display=${groupId}:${artifactId}
+display=eu.maveniverse.maven.*:${artifactId}
 version=1.0.0
 
 gitRepo=https://github.com/maveniverse/mase.git

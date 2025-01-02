@@ -1,6 +1,6 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.providertype.bnd-plugin
-display=${groupId}:${artifactId}
+display=${groupId}:*.providertype.bnd-plugin
 version=1.0.0
 
 gitRepo=https://gitbox.apache.org/repos/asf/sling-org-apache-sling-providertype-bnd-plugin.git

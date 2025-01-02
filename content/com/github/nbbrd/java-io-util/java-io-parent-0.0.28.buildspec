@@ -1,6 +1,6 @@
 groupId=com.github.nbbrd.java-io-util
 artifactId=java-io-parent
-display=${groupId}:${artifactId}
+display=com.github.nbbrd.*:java-io-util
 version=0.0.28
 
 gitRepo=https://github.com/nbbrd/java-io-util.git

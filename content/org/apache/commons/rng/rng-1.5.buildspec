@@ -1,6 +1,6 @@
 groupId=org.apache.commons
 artifactId=commons-rng-parent
-display=${groupId}:${artifactId}
+display=${groupId}:commons-rng
 version=1.5
 
 gitRepo=https://github.com/apache/commons-rng.git

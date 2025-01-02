@@ -1,6 +1,6 @@
 groupId=org.apache.wicket
 artifactId=wicket-parent
-display=${groupId}:${artifactId}
+display=${groupId}:wicket
 version=10.3.0
 
 gitRepo=https://git-wip-us.apache.org/repos/asf/wicket.git

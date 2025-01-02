@@ -2,7 +2,7 @@ groupId=org.apache.zookeeper
 artifactId=parent
 version=3.9.0
 
-display=${groupId}:${artifactId}
+display=${groupId}:zookeeper
 
 gitRepo=https://github.com/apache/zookeeper.git
 gitTag=release-${version}

@@ -1,6 +1,6 @@
 groupId=com.semanticcms
 artifactId=semanticcms-bom
-display=${groupId}:${artifactId}
+display=${groupId}:$(echo "${artifactId}" | sed -e 's/semanticcms/s8cms/')
 version=1.14.0
 
 gitRepo=https://github.com/ao-apps/semanticcms-bom.git

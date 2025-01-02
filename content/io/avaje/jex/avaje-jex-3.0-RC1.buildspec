@@ -1,6 +1,6 @@
 groupId=io.avaje
 artifactId=avaje-jex-parent
-display=${groupId}:${artifactId}
+display=${groupId}:$(echo "${artifactId}" | sed -e "s/-parent//")
 version=3.0-RC1
 
 gitRepo=https://github.com/avaje/avaje-jex.git

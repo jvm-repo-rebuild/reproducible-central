@@ -1,6 +1,6 @@
 groupId=com.github.nbbrd.java-desktop-util
 artifactId=java-desktop-util-parent
-display=${groupId}:${artifactId}
+display=com.github.nbbrd.*:java-desktop-util
 version=2.4.0
 
 gitRepo=https://github.com/nbbrd/java-desktop-util.git

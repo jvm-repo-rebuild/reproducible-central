@@ -2,7 +2,7 @@ groupId=de.jflex
 artifactId=jflex-parent
 version=1.9.0
 
-display=${groupId}:${artifactId}
+display=${groupId}:jflex
 
 gitRepo=https://github.com/jflex-de/jflex.git
 gitTag=v${version}

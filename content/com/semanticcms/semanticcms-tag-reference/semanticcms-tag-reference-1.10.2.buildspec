@@ -1,6 +1,6 @@
 groupId=com.semanticcms
 artifactId=semanticcms-tag-reference
-display=${groupId}:${artifactId}
+display=${groupId}:$(echo "${artifactId}" | sed -e 's/semanticcms/s8cms/')
 version=1.10.2
 
 gitRepo=https://github.com/ao-apps/${artifactId}.git

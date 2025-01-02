@@ -1,6 +1,6 @@
 groupId=com.github.nbbrd.sasquatch
 artifactId=sasquatch-parent
-display=${groupId}:${artifactId}
+display=com.github.nbbrd.*:sasquatch
 version=1.1.0
 
 gitRepo=https://github.com/nbbrd/sasquatch.git
