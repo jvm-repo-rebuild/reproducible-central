@@ -1,0 +1,9 @@
+version=3.3.0
+ok=4
+ko=0
+ignored=2
+okFiles="maven-remote-resources-plugin-3.3.0.pom maven-remote-resources-plugin-3.3.0.jar maven-remote-resources-plugin-3.3.0-source-release.zip maven-remote-resources-plugin-3.3.0-sources.jar"
+koFiles=""
+ignoredFiles="maven-remote-resources-plugin-3.3.0-cyclonedx.xml maven-remote-resources-plugin-3.3.0-cyclonedx.json"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
