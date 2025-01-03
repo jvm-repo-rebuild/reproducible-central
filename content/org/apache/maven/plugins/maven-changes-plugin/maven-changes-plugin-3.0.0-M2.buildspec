@@ -1,0 +1,17 @@
+groupId=org.apache.maven.plugins
+artifactId=maven-changes-plugin
+display=${groupId}:${artifactId}
+version=3.0.0-M2
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=21
+newline=lf
+#umask=022
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
