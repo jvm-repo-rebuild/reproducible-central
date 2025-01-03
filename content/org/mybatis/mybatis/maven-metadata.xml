@@ -3,8 +3,8 @@
   <groupId>org.mybatis</groupId>
   <artifactId>mybatis</artifactId>
   <versioning>
-    <latest>3.5.18</latest>
-    <release>3.5.18</release>
+    <latest>3.5.19</latest>
+    <release>3.5.19</release>
     <versions>
       <version>2.3.5</version>
       <version>3.0.1</version>
@@ -52,7 +52,8 @@
       <version>3.5.16</version>
       <version>3.5.17</version>
       <version>3.5.18</version>
+      <version>3.5.19</version>
     </versions>
-    <lastUpdated>20250101040326</lastUpdated>
+    <lastUpdated>20250102211301</lastUpdated>
   </versioning>
 </metadata>

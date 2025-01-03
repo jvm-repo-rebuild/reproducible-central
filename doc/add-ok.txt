@@ -1,2 +1,4 @@
-content/io/github/xanthic/cache/cache-api/cache-api-0.6.2.buildspec:0.7.0
-content/org/mockito/mockito-core/mockito-5.14.2.buildspec:5.15.2
+content/com/github/hazendaz/maven/coveralls-maven-plugin/coveralls-maven-plugin-4.5.0-M5.buildspec:4.5.0-M6
+content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.11.6.buildspec:0.11.8
+content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec:2.5.2
+content/org/mybatis/mybatis/mybatis-3.5.18.buildspec:3.5.19

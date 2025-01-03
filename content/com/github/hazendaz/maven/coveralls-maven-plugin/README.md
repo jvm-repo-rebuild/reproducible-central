@@ -13,6 +13,7 @@ rebuilding **5 releases** of com.github.hazendaz.maven:coveralls-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.5.0-M6](https://central.sonatype.com/artifact/com.github.hazendaz.maven/coveralls-maven-plugin/4.5.0-M6/pom) | | | |
 | [4.5.0-M5](https://central.sonatype.com/artifact/com.github.hazendaz.maven/coveralls-maven-plugin/4.5.0-M5/pom) | [mvn jdk22 w](coveralls-maven-plugin-4.5.0-M5.buildspec) | [result](coveralls-maven-plugin-4.5.0-M5.buildinfo): [7 :white_check_mark: ](coveralls-maven-plugin-4.5.0-M5.buildcompare) | 660K |
 | [4.5.0-M4](https://central.sonatype.com/artifact/com.github.hazendaz.maven/coveralls-maven-plugin/4.5.0-M4/pom) | [mvn jdk22 w](coveralls-maven-plugin-4.5.0-M4.buildspec) | [result](coveralls-maven-plugin-4.5.0-M4.buildinfo): [7 :white_check_mark: ](coveralls-maven-plugin-4.5.0-M4.buildcompare) | 655K |
 | [4.5.0-M3](https://central.sonatype.com/artifact/com.github.hazendaz.maven/coveralls-maven-plugin/4.5.0-M3/pom) | [mvn jdk21 w](coveralls-maven-plugin-4.5.0-M3.buildspec) | [result](coveralls-maven-plugin-4.5.0-M3.buildinfo): [7 :white_check_mark: ](coveralls-maven-plugin-4.5.0-M3.buildcompare) | 660K |
