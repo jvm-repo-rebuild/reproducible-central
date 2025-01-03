@@ -1,0 +1,9 @@
+version=0.4.3
+ok=14
+ko=0
+ignored=0
+okFiles="cosmos-0.4.3.pom cosmos-0.4.3-source-release.zip cosmos-osgi-runtime-0.4.3.pom cosmos-osgi-runtime-0.4.3.jar cosmos-osgi-runtime-0.4.3-sources.jar cosmos-log-service-0.4.3.pom cosmos-log-service-0.4.3.jar cosmos-log-service-0.4.3-sources.jar cosmos-equinox-0.4.3.pom cosmos-equinox-0.4.3.jar cosmos-equinox-0.4.3-sources.jar cosmos-testing-0.4.3.pom cosmos-testing-0.4.3.jar cosmos-testing-0.4.3-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

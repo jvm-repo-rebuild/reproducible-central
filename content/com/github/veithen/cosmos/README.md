@@ -28,13 +28,14 @@ Source code: [https://github.com/veithen/cosmos.git](https://github.com/veithen/
 * [com.github.veithen.cosmos:tracker-test](https://central.sonatype.com/artifact/com.github.veithen.cosmos/tracker-test/overview)
 </details>
 
-rebuilding **2 releases** of com.github.veithen.cosmos:cosmos:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **3 releases** of com.github.veithen.cosmos:cosmos:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [0.6.0](https://central.sonatype.com/artifact/com.github.veithen.cosmos/cosmos/0.6.0/pom) | [mvn jdk17](cosmos-0.6.0.buildspec) | [result](cosmos-0.6.0.buildinfo): [14 :white_check_mark: ](cosmos-0.6.0.buildcompare) | 368K |
 | [0.5.0](https://central.sonatype.com/artifact/com.github.veithen.cosmos/cosmos/0.5.0/pom) | [mvn jdk11](cosmos-0.5.0.buildspec) | [result](cosmos-0.5.0.buildinfo): [14 :white_check_mark:  25 :warning:](cosmos-0.5.0.buildcompare) | 447K |
+| [0.4.3](https://central.sonatype.com/artifact/com.github.veithen.cosmos/cosmos/0.4.3/pom) | [mvn jdk11](cosmos-0.4.3.buildspec) | [result](cosmos-0.4.3.buildinfo): [14 :white_check_mark: ](cosmos-0.4.3.buildcompare) | 368K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
