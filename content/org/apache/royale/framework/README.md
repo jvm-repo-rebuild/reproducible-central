@@ -183,14 +183,14 @@ Source code: [https://github.com/apache/royale-asjs.git](https://github.com/apac
 * [org.apache.royale.framework:themes](https://central.sonatype.com/artifact/org.apache.royale.framework/themes/overview)
 </details>
 
-rebuilding **2 releases** of org.apache.royale.framework:royale-framework-parent:
+rebuilding **3 releases** of org.apache.royale.framework:royale-framework-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [0.9.12](https://central.sonatype.com/artifact/org.apache.royale.framework/royale-framework-parent/0.9.12/pom) | [mvn jdk17 w](royale-framework-0.9.12.buildspec) | [result](royale-framework-parent-0.9.12.buildinfo): [351 :white_check_mark:  455 :warning:](royale-framework-parent-0.9.12.buildcompare) | 526M |
-| [0.9.10](https://central.sonatype.com/artifact/org.apache.royale.framework/royale-framework-parent/0.9.10/pom) | | | |
+| [0.9.10](https://central.sonatype.com/artifact/org.apache.royale.framework/royale-framework-parent/0.9.10/pom) | [mvn jdk8 w](royale-framework-0.9.10.buildspec) | [result](royale-framework-parent-0.9.10.buildinfo): [351 :white_check_mark:  455 :warning:](royale-framework-parent-0.9.10.buildcompare) | 517M |
 | [0.9.9](https://central.sonatype.com/artifact/org.apache.royale.framework/royale-framework-parent/0.9.9/pom) | | | |
 | [0.9.8](https://central.sonatype.com/artifact/org.apache.royale.framework/royale-framework-parent/0.9.8/pom) | | | |
 | [0.9.7](https://central.sonatype.com/artifact/org.apache.royale.framework/royale-framework-parent/0.9.7/pom) | [mvn jdk8 w](royale-framework-0.9.7.buildspec) | [result](royale-framework-parent-0.9.7.buildinfo): [168 :white_check_mark:  327 :warning:](royale-framework-parent-0.9.7.buildcompare) | 234M |
