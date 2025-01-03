@@ -1,0 +1,13 @@
+version=2.9.3
+ok=48
+ko=4
+ignored=0
+okFiles="sshd-2.9.3.pom sshd-common-2.9.3.pom sshd-common-2.9.3.jar sshd-common-2.9.3-sources.jar sshd-common-2.9.3-tests.jar sshd-putty-2.9.3.pom sshd-putty-2.9.3.jar sshd-putty-2.9.3-sources.jar sshd-openpgp-2.9.3.pom sshd-openpgp-2.9.3.jar sshd-openpgp-2.9.3-sources.jar sshd-core-2.9.3.pom sshd-core-2.9.3.jar sshd-core-2.9.3-sources.jar sshd-core-2.9.3-tests.jar sshd-core-2.9.3-reusable-tests.jar sshd-mina-2.9.3.pom sshd-mina-2.9.3.jar sshd-mina-2.9.3-sources.jar sshd-netty-2.9.3.pom sshd-netty-2.9.3.jar sshd-netty-2.9.3-sources.jar sshd-scp-2.9.3.pom sshd-scp-2.9.3.jar sshd-scp-2.9.3-sources.jar sshd-sftp-2.9.3.pom sshd-sftp-2.9.3.jar sshd-sftp-2.9.3-sources.jar sshd-ldap-2.9.3.pom sshd-ldap-2.9.3.jar sshd-ldap-2.9.3-sources.jar sshd-git-2.9.3.pom sshd-git-2.9.3.jar sshd-git-2.9.3-sources.jar sshd-contrib-2.9.3.pom sshd-contrib-2.9.3.jar sshd-contrib-2.9.3-sources.jar sshd-spring-sftp-2.9.3.pom sshd-spring-sftp-2.9.3.jar sshd-spring-sftp-2.9.3-sources.jar sshd-cli-2.9.3.pom sshd-cli-2.9.3.jar sshd-cli-2.9.3-sources.jar sshd-osgi-2.9.3.pom sshd-osgi-2.9.3.jar apache-sshd-2.9.3.pom apache-sshd-2.9.3-src.tar.gz apache-sshd-2.9.3-src.zip"
+koFiles="sshd-osgi-2.9.3-sources.jar sshd-osgi-2.9.3-sources.jar apache-sshd-2.9.3.tar.gz apache-sshd-2.9.3.zip"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sshd/sshd-osgi-2.9.3-sources.jar sshd-osgi/target/sshd-osgi-2.9.3-sources.jar
+# diffoscope target/reference/org.apache.sshd/sshd-osgi-2.9.3-sources.jar sshd-osgi/target/sshd-osgi-2.9.3-sources.jar
+# diffoscope target/reference/org.apache.sshd/apache-sshd-2.9.3.tar.gz assembly/target/apache-sshd-2.9.3.tar.gz
+# diffoscope target/reference/org.apache.sshd/apache-sshd-2.9.3.zip assembly/target/apache-sshd-2.9.3.zip
