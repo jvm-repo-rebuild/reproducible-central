@@ -1,0 +1,5 @@
+version=0.9.3
+ok=6
+ko=0
+okFiles="hibernate-models-jandex-0.9.3-sources.jar hibernate-models-jandex-0.9.3.jar hibernate-models-jandex-0.9.3.pom hibernate-models-0.9.3-sources.jar hibernate-models-0.9.3.jar hibernate-models-0.9.3.pom"
+koFiles=""
