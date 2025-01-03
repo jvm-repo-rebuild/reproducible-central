@@ -15,5 +15,5 @@ umask=022
 command="./gradlew --no-daemon -Pgnupg.skip clean assemble publishToMavenLocal -x test"
 buildinfo=${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=
