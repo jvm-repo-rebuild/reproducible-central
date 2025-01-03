@@ -1,0 +1,9 @@
+version=3.5.18
+ok=3
+ko=0
+ignored=0
+okFiles="mybatis-3.5.18.pom mybatis-3.5.18.jar mybatis-3.5.18-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
