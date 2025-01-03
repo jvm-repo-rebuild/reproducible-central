@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=makeself-maven-plugin
+group-id=com.github.hazendaz.maven
+artifact-id=makeself-maven-plugin
+version=1.6.0
+
+# source information
+source.scm.uri=scm:git:ssh://github.com/hazendaz/makeself-maven-plugin.git
+source.scm.tag=makeself-maven-plugin-1.6.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.5.0
+
+# output
+
+outputs.0.groupId=com.github.hazendaz.maven
+outputs.0.filename=makeself-maven-plugin-1.6.0.pom
+outputs.0.length=15998
+outputs.0.checksums.sha512=18371b68e5310298a85dd434ada23c8313cd9ddb2b0c9ff2c83b075267ab52070f06f409ef46dee0d27a62645603a1fcdfac6e6f04d00007a8cb6f10bf1d66c8
+
+outputs.1.groupId=com.github.hazendaz.maven
+outputs.1.filename=makeself-maven-plugin-1.6.0.jar
+outputs.1.length=46715
+outputs.1.checksums.sha512=930547e24402195929801a14ee04af64bf4934d9140ff69acfe50bf6072805d77ce0800ac061042efd0748aa7873502b238295ce9617f81e9d0d706924281e36
+
+outputs.2.groupId=com.github.hazendaz.maven
+outputs.2.filename=makeself-maven-plugin-1.6.0-tests.jar
+outputs.2.length=5765
+outputs.2.checksums.sha512=9f49d992604b796ed59d297259d3b37cec1fec8c46b3f43f1747ff5991f323ec195d42715b93a6e43a758f80ed1a57bb1f226b3e24d765334a0c7262c4895e42
+
+outputs.3.groupId=com.github.hazendaz.maven
+outputs.3.filename=makeself-maven-plugin-1.6.0-sources.jar
+outputs.3.length=23088
+outputs.3.checksums.sha512=8a7aca6f05a8b9e02280cc0a2368c264a6608752b345efec4af0fc9523546dbc136977c43f2cc42684092b1ef9380b100b2481055a5e948f2b159431265b9148
+
+outputs.4.groupId=com.github.hazendaz.maven
+outputs.4.filename=makeself-maven-plugin-1.6.0-test-sources.jar
+outputs.4.length=5800
+outputs.4.checksums.sha512=f07908beecc720f8f0343fb2bc0e5a2cb1b9075c0a3c6861be131d3a06744c7fc2feb8c6c033258795e6d06e13831acb0099457537f449d9a9bd6eecafc698e7

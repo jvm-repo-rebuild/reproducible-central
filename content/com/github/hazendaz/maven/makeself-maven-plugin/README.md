@@ -7,8 +7,8 @@
 
 Source code: [https://github.com/hazendaz/makeself-maven-plugin.git](https://github.com/hazendaz/makeself-maven-plugin.git)
 
-rebuilding **9 releases** of com.github.hazendaz.maven:makeself-maven-plugin:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of com.github.hazendaz.maven:makeself-maven-plugin:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -22,5 +22,6 @@ rebuilding **9 releases** of com.github.hazendaz.maven:makeself-maven-plugin:
 | [1.7.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/makeself-maven-plugin/1.7.0/pom) | [mvn jdk22 w](makeself-maven-plugin-1.7.0.buildspec) | [result](makeself-maven-plugin-1.7.0.buildinfo): [7 :white_check_mark: ](makeself-maven-plugin-1.7.0.buildcompare) | 348K |
 | [1.6.2](https://central.sonatype.com/artifact/com.github.hazendaz.maven/makeself-maven-plugin/1.6.2/pom) | [mvn jdk21 w](makeself-maven-plugin-1.6.2.buildspec) | [result](makeself-maven-plugin-1.6.2.buildinfo): [7 :white_check_mark: ](makeself-maven-plugin-1.6.2.buildcompare) | 344K |
 | [1.6.1](https://central.sonatype.com/artifact/com.github.hazendaz.maven/makeself-maven-plugin/1.6.1/pom) | [mvn jdk21 w](makeself-maven-plugin-1.6.1.buildspec) | [result](makeself-maven-plugin-1.6.1.buildinfo): [5 :white_check_mark: ](makeself-maven-plugin-1.6.1.buildcompare) | 96K |
+| [1.6.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/makeself-maven-plugin/1.6.0/pom) | [mvn jdk17 w](makeself-maven-plugin-1.6.0.buildspec) | [result](makeself-maven-plugin-1.6.0.buildinfo): [5 :white_check_mark: ](makeself-maven-plugin-1.6.0.buildcompare) | 96K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
