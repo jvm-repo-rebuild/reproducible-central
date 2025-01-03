@@ -1,0 +1,99 @@
+# how to inject a fake "Created-By" entry value? or how to force a very specific JDK into Gradle build?
+# in theory, build is reproducible: but in practice, this detailed environment prerequisite makes it not practical to rebuild
+1 / 3 central/org/mockito/mockito-errorprone/5.15.2/mockito-errorprone-5.15.2.jar repository/org/mockito/mockito-errorprone/5.15.2/mockito-errorprone-5.15.2.jar
+--- central/org/mockito/mockito-errorprone/5.15.2/mockito-errorprone-5.15.2.jar
++++ repository/org/mockito/mockito-errorprone/5.15.2/mockito-errorprone-5.15.2.jar
+├── zipinfo {}
+│ @@ -1,16 +1,16 @@
+│ -Zip file size: 12437 bytes, number of entries: 14
+│ +Zip file size: 12433 bytes, number of entries: 14
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat      878 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      876 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     1080 bl defN 80-Feb-01 00:00 LICENSE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/services/
+│  -rw----     2.0 fat      248 bl defN 80-Feb-01 00:00 META-INF/services/com.google.errorprone.bugpatterns.BugChecker
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/errorprone/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/errorprone/bugpatterns/
+│  -rw----     2.0 fat     7101 bl defN 80-Feb-01 00:00 org/mockito/errorprone/bugpatterns/AbstractMockitoAnyForPrimitiveType.class
+│  -rw----     2.0 fat     3696 bl defN 80-Feb-01 00:00 org/mockito/errorprone/bugpatterns/MockitoAnyClassWithPrimitiveType.class
+│  -rw----     2.0 fat     4318 bl defN 80-Feb-01 00:00 org/mockito/errorprone/bugpatterns/MockitoAnyIncorrectPrimitiveType.class
+│  -rw----     2.0 fat     3293 bl defN 80-Feb-01 00:00 org/mockito/errorprone/bugpatterns/MockitoInternalUsage.class
+│  -rw----     2.0 fat     3245 bl defN 80-Feb-01 00:00 org/mockito/errorprone/bugpatterns/MockitoNotExtensible.class
+│ -14 files, 23859 bytes uncompressed, 10053 bytes compressed:  57.9%
+│ +14 files, 23857 bytes uncompressed, 10049 bytes compressed:  57.9%
+├── META-INF/MANIFEST.MF
+│ @@ -1,13 +1,13 @@
+│  Manifest-Version: 1.0
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: mockito-errorprone
+│  Bundle-SymbolicName: mockito-errorprone
+│  Bundle-Version: 5.15.2
+│ -Created-By: 21.0.5 (Azul Systems, Inc.)
+│ +Created-By: 21.0.5 (Eclipse Adoptium)
+│  Import-Package: com.google.errorprone;version="[2.23,3)",com.google.er
+│   rorprone.bugpatterns;version="[2.23,3)",com.google.errorprone.fixes;v
+│   ersion="[2.23,3)",com.google.errorprone.matchers;version="[2.23,3)",c
+│   om.google.errorprone.matchers.method;version="[2.23,3)",com.google.er
+│   rorprone.util;version="[2.23,3)",com.sun.source.tree,com.sun.source.u
+│   til,com.sun.tools.javac.code,com.sun.tools.javac.util,java.lang,java.
+│   lang.invoke,java.util,java.util.function,java.util.regex,java.util.st
+
+2 / 3 central/org/mockito/mockito-proxy/5.15.2/mockito-proxy-5.15.2.jar repository/org/mockito/mockito-proxy/5.15.2/mockito-proxy-5.15.2.jar
+--- central/org/mockito/mockito-proxy/5.15.2/mockito-proxy-5.15.2.jar
++++ repository/org/mockito/mockito-proxy/5.15.2/mockito-proxy-5.15.2.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1746 bytes, number of entries: 6
+│ +Zip file size: 1744 bytes, number of entries: 6
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat      248 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      246 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     1080 bl defN 80-Feb-01 00:00 LICENSE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 mockito-extensions/
+│  -rw----     2.0 fat       27 bl defN 80-Feb-01 00:00 mockito-extensions/org.mockito.plugins.MemberAccessor
+│  -rw----     2.0 fat       17 bl defN 80-Feb-01 00:00 mockito-extensions/org.mockito.plugins.MockMaker
+│ -6 files, 1372 bytes uncompressed, 852 bytes compressed:  37.9%
+│ +6 files, 1370 bytes uncompressed, 850 bytes compressed:  38.0%
+├── META-INF/MANIFEST.MF
+│ @@ -1,9 +1,9 @@
+│  Manifest-Version: 1.0
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: mockito-proxy
+│  Bundle-SymbolicName: mockito-proxy
+│  Bundle-Version: 5.15.2
+│ -Created-By: 21.0.5 (Azul Systems, Inc.)
+│ +Created-By: 21.0.5 (Eclipse Adoptium)
+│  Private-Package: mockito-extensions
+│  Tool: Bnd-7.1.0.202411251545
+
+3 / 3 central/org/mockito/mockito-subclass/5.15.2/mockito-subclass-5.15.2.jar repository/org/mockito/mockito-subclass/5.15.2/mockito-subclass-5.15.2.jar
+--- central/org/mockito/mockito-subclass/5.15.2/mockito-subclass-5.15.2.jar
++++ repository/org/mockito/mockito-subclass/5.15.2/mockito-subclass-5.15.2.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1746 bytes, number of entries: 6
+│ +Zip file size: 1744 bytes, number of entries: 6
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat      254 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      252 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     1080 bl defN 80-Feb-01 00:00 LICENSE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 mockito-extensions/
+│  -rw----     2.0 fat       23 bl defN 80-Feb-01 00:00 mockito-extensions/org.mockito.plugins.MemberAccessor
+│  -rw----     2.0 fat       20 bl defN 80-Feb-01 00:00 mockito-extensions/org.mockito.plugins.MockMaker
+│ -6 files, 1377 bytes uncompressed, 852 bytes compressed:  38.1%
+│ +6 files, 1375 bytes uncompressed, 850 bytes compressed:  38.2%
+├── META-INF/MANIFEST.MF
+│ @@ -1,9 +1,9 @@
+│  Manifest-Version: 1.0
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: mockito-subclass
+│  Bundle-SymbolicName: mockito-subclass
+│  Bundle-Version: 5.15.2
+│ -Created-By: 21.0.5 (Azul Systems, Inc.)
+│ +Created-By: 21.0.5 (Eclipse Adoptium)
+│  Private-Package: mockito-extensions
+│  Tool: Bnd-7.1.0.202411251545
+
