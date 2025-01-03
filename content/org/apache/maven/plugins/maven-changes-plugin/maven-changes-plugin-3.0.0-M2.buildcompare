@@ -1,0 +1,9 @@
+version=3.0.0-M2
+ok=6
+ko=0
+ignored=0
+okFiles="maven-changes-plugin-3.0.0-M2.pom maven-changes-plugin-3.0.0-M2.jar maven-changes-plugin-3.0.0-M2-source-release.zip maven-changes-plugin-3.0.0-M2-sources.jar maven-changes-plugin-3.0.0-M2-cyclonedx.xml maven-changes-plugin-3.0.0-M2-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
