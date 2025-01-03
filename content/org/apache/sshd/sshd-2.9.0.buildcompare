@@ -1,0 +1,30 @@
+version=2.9.0
+ok=31
+ko=21
+ignored=0
+okFiles="sshd-2.9.0.pom sshd-common-2.9.0.pom sshd-common-2.9.0-sources.jar sshd-putty-2.9.0.pom sshd-putty-2.9.0-sources.jar sshd-openpgp-2.9.0.pom sshd-openpgp-2.9.0-sources.jar sshd-core-2.9.0.pom sshd-core-2.9.0-sources.jar sshd-mina-2.9.0.pom sshd-mina-2.9.0-sources.jar sshd-netty-2.9.0.pom sshd-netty-2.9.0-sources.jar sshd-scp-2.9.0.pom sshd-scp-2.9.0-sources.jar sshd-sftp-2.9.0.pom sshd-sftp-2.9.0-sources.jar sshd-ldap-2.9.0.pom sshd-ldap-2.9.0-sources.jar sshd-git-2.9.0.pom sshd-git-2.9.0-sources.jar sshd-contrib-2.9.0.pom sshd-contrib-2.9.0-sources.jar sshd-spring-sftp-2.9.0.pom sshd-spring-sftp-2.9.0-sources.jar sshd-cli-2.9.0.pom sshd-cli-2.9.0-sources.jar sshd-osgi-2.9.0.pom apache-sshd-2.9.0.pom apache-sshd-2.9.0-src.tar.gz apache-sshd-2.9.0-src.zip"
+koFiles="sshd-common-2.9.0.jar sshd-common-2.9.0-tests.jar sshd-putty-2.9.0.jar sshd-openpgp-2.9.0.jar sshd-core-2.9.0.jar sshd-core-2.9.0-tests.jar sshd-core-2.9.0-reusable-tests.jar sshd-mina-2.9.0.jar sshd-netty-2.9.0.jar sshd-scp-2.9.0.jar sshd-sftp-2.9.0.jar sshd-ldap-2.9.0.jar sshd-git-2.9.0.jar sshd-contrib-2.9.0.jar sshd-spring-sftp-2.9.0.jar sshd-cli-2.9.0.jar sshd-osgi-2.9.0.jar sshd-osgi-2.9.0-sources.jar sshd-osgi-2.9.0-sources.jar apache-sshd-2.9.0.tar.gz apache-sshd-2.9.0.zip"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sshd/sshd-common-2.9.0.jar sshd-common/target/sshd-common-2.9.0.jar
+# diffoscope target/reference/org.apache.sshd/sshd-common-2.9.0-tests.jar sshd-common/target/sshd-common-2.9.0-tests.jar
+# diffoscope target/reference/org.apache.sshd/sshd-putty-2.9.0.jar sshd-putty/target/sshd-putty-2.9.0.jar
+# diffoscope target/reference/org.apache.sshd/sshd-openpgp-2.9.0.jar sshd-openpgp/target/sshd-openpgp-2.9.0.jar
+# diffoscope target/reference/org.apache.sshd/sshd-core-2.9.0.jar sshd-core/target/sshd-core-2.9.0.jar
+# diffoscope target/reference/org.apache.sshd/sshd-core-2.9.0-tests.jar sshd-core/target/sshd-core-2.9.0-tests.jar
+# diffoscope target/reference/org.apache.sshd/sshd-core-2.9.0-reusable-tests.jar sshd-core/target/sshd-core-2.9.0-reusable-reusable-tests.jar
+# diffoscope target/reference/org.apache.sshd/sshd-mina-2.9.0.jar sshd-mina/target/sshd-mina-2.9.0.jar
+# diffoscope target/reference/org.apache.sshd/sshd-netty-2.9.0.jar sshd-netty/target/sshd-netty-2.9.0.jar
+# diffoscope target/reference/org.apache.sshd/sshd-scp-2.9.0.jar sshd-scp/target/sshd-scp-2.9.0.jar
+# diffoscope target/reference/org.apache.sshd/sshd-sftp-2.9.0.jar sshd-sftp/target/sshd-sftp-2.9.0.jar
+# diffoscope target/reference/org.apache.sshd/sshd-ldap-2.9.0.jar sshd-ldap/target/sshd-ldap-2.9.0.jar
+# diffoscope target/reference/org.apache.sshd/sshd-git-2.9.0.jar sshd-git/target/sshd-git-2.9.0.jar
+# diffoscope target/reference/org.apache.sshd/sshd-contrib-2.9.0.jar sshd-contrib/target/sshd-contrib-2.9.0.jar
+# diffoscope target/reference/org.apache.sshd/sshd-spring-sftp-2.9.0.jar sshd-spring-sftp/target/sshd-spring-sftp-2.9.0.jar
+# diffoscope target/reference/org.apache.sshd/sshd-cli-2.9.0.jar sshd-cli/target/sshd-cli-2.9.0.jar
+# diffoscope target/reference/org.apache.sshd/sshd-osgi-2.9.0.jar sshd-osgi/target/sshd-osgi-2.9.0.jar
+# diffoscope target/reference/org.apache.sshd/sshd-osgi-2.9.0-sources.jar sshd-osgi/target/sshd-osgi-2.9.0-sources.jar
+# diffoscope target/reference/org.apache.sshd/sshd-osgi-2.9.0-sources.jar sshd-osgi/target/sshd-osgi-2.9.0-sources.jar
+# diffoscope target/reference/org.apache.sshd/apache-sshd-2.9.0.tar.gz assembly/target/apache-sshd-2.9.0.tar.gz
+# diffoscope target/reference/org.apache.sshd/apache-sshd-2.9.0.zip assembly/target/apache-sshd-2.9.0.zip
