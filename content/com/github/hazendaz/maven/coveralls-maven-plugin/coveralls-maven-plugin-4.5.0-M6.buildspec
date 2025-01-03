@@ -1,0 +1,18 @@
+groupId=com.github.hazendaz.maven
+artifactId=coveralls-maven-plugin
+display=${groupId}:${artifactId}
+version=4.5.0-M6
+
+gitRepo=https://github.com/hazendaz/coveralls-maven-plugin.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.5
+jdk=21
+newline=crlf
+umask=022
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Denforcer.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
