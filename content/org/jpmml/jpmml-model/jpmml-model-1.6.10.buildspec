@@ -1,0 +1,23 @@
+groupId=org.jpmml
+artifactId=jpmml-model
+display=${groupId}:${artifactId}
+version=1.6.10
+
+gitRepo=https://github.com/jpmml/${artifactId}.git
+gitTag=${version}
+
+tool=mvn-3.9.6
+jdk=8
+newline=lf
+umask=022
+workdir="/home/vfed/Workspace/jpmml-model/target/checkout"
+#--- target/reference/org.jpmml/pmml-model-${version}-tests.jar
+#├── pmml/XXEAttackTest.pmml
+#│ <!DOCTYPE lolz
+#│  SYSTEM '${workdir}/pmml-model/src/test/resources/dtd/lolz.dtd'
+
+command="mvn -Psonatype-oss-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
