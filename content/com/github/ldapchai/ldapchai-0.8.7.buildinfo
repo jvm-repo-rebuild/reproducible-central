@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=LDAP Chai Library
+group-id=com.github.ldapchai
+artifact-id=ldapchai
+version=0.8.7
+
+# source information
+source.scm.uri=scm:git:git@www.github.com:ldapchai/ldapchai.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=22
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.github.ldapchai
+outputs.0.filename=ldapchai-0.8.7.pom
+outputs.0.length=30651
+outputs.0.checksums.sha512=014443d107d9ea5d6a1f35433bcb6643393428d989997fe32a82b4d2f7f18b54c52ef5d2419b2990d797e8746775ed6b7919a0a23699d34c63461cebd3560f45
+
+outputs.1.groupId=com.github.ldapchai
+outputs.1.filename=ldapchai-0.8.7.jar
+outputs.1.length=900719
+outputs.1.checksums.sha512=c743616f5151a0f492f79d1c0983d8df5ccb95ece178668eff763194e247d87585fe11c7fcca9dcf6fa2b9fe80d3031fb77b92fabfe21e15106621823972befe
+
+outputs.2.groupId=com.github.ldapchai
+outputs.2.filename=ldapchai-0.8.7-sources.jar
+outputs.2.length=740574
+outputs.2.checksums.sha512=d0d2e56676cab580d35c3a88765fb0e468f95152be9225e7029398447846f9f9d617854de7fd4fa6985ed0fa4c68309ccef206e7bf6dde1291fff4b4e22d0e40

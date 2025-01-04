@@ -1,0 +1,68 @@
+# in addition to issues with Git data, removal of default entries makes it hard to find the fact that this was built with JDK 22 (yes, non-LTS)
+# reverting most of https://github.com/ldapchai/ldapchai/commit/e621fe82af7e0e1c431ba56032838c91d65ea94b will definitively help go back to a working situation
+1 / 2 target/reference/com.github.ldapchai/ldapchai-0.8.7.jar target/ldapchai-0.8.7.jar
+--- target/reference/com.github.ldapchai/ldapchai-0.8.7.jar
++++ target/ldapchai-0.8.7.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 900730 bytes, number of entries: 558
+│ +Zip file size: 900719 bytes, number of entries: 558
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-03 19:52 META-INF/
+│ --rw-r--r--  2.0 unx      688 b- defN 25-Jan-03 19:52 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx      676 b- defN 25-Jan-03 19:52 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-03 19:52 META-INF/source/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-03 19:52 META-INF/source/com/
+│ @@ -553,8 +553,8 @@
+│  -rw-r--r--  2.0 unx    30651 b- defN 25-Jan-03 19:52 META-INF/maven/com.github.ldapchai/ldapchai/pom.xml
+│  -rw-r--r--  2.0 unx       62 b- defN 25-Jan-03 19:52 META-INF/maven/com.github.ldapchai/ldapchai/pom.properties
+│ -558 files, 2364879 bytes uncompressed, 791418 bytes compressed:  66.6%
+│ +558 files, 2364867 bytes uncompressed, 791407 bytes compressed:  66.6%
+├── META-INF/MANIFEST.MF
+│ @@ -7,11 +7,11 @@
+│  Implementation-Title: LDAP Chai Library
+│  Implementation-URL: https://github.com/ldapchai/ldapchai
+│  Implementation-Vendor: LDAP Chai Project
+│  Implementation-Version: 0.8.7
+│  SCM-Git-Commit-Dirty: false
+│  SCM-Git-Commit-ID: c5eacf8f27fedbe981f80ff8890c52bd248ec787
+│  SCM-Git-Commit-ID-Abbrev: c5eacf8
+│ -SCM-Git-Commit-ID-Description: v0_8_6-10-gc5eacf8
+│ +SCM-Git-Commit-ID-Description: v0.8.7
+│  SCM-Git-Commit-Timestamp: 2025-01-03T19:52:19Z
+│  SCM-Git-Remote-Origin-URL: https://github.com/ldapchai/ldapchai.git
+
+2 / 2 target/reference/com.github.ldapchai/ldapchai-0.8.7-sources.jar target/ldapchai-0.8.7-sources.jar
+--- target/reference/com.github.ldapchai/ldapchai-0.8.7-sources.jar
++++ target/ldapchai-0.8.7-sources.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 740584 bytes, number of entries: 468
+│ +Zip file size: 740574 bytes, number of entries: 468
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-03 19:52 META-INF/
+│ --rw-r--r--  2.0 unx      613 b- defN 25-Jan-03 19:52 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx      635 b- defN 25-Jan-03 19:52 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-03 19:52 com/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-03 19:52 com/novell/
+│ @@ -463,8 +463,8 @@
+│  -rw-r--r--  2.0 unx    30651 b- defN 25-Jan-03 19:52 META-INF/maven/com.github.ldapchai/ldapchai/pom.xml
+│  -rw-r--r--  2.0 unx       62 b- defN 25-Jan-03 19:52 META-INF/maven/com.github.ldapchai/ldapchai/pom.properties
+│ -468 files, 2504040 bytes uncompressed, 650590 bytes compressed:  74.0%
+│ +468 files, 2504062 bytes uncompressed, 650580 bytes compressed:  74.0%
+├── META-INF/MANIFEST.MF
+│ @@ -2,15 +2,15 @@
+│  Created-By: Maven Source Plugin 3.3.1
+│  Archive-Type: source
+│  Implementation-Build-Java-Version: 8
+│  Implementation-Title: LDAP Chai Library
+│  Implementation-URL: https://github.com/ldapchai/ldapchai
+│  Implementation-Vendor: LDAP Chai Project
+│  Implementation-Version: 0.8.7
+│ -SCM-Git-Branch: master
+│ +SCM-Git-Branch: c5eacf8f27fedbe981f80ff8890c52bd248ec787
+│  SCM-Git-Commit-Dirty: false
+│  SCM-Git-Commit-ID: c5eacf8f27fedbe981f80ff8890c52bd248ec787
+│  SCM-Git-Commit-ID-Abbrev: c5eacf8
+│ -SCM-Git-Commit-ID-Description: v0_8_6-10-gc5eacf8
+│ +SCM-Git-Commit-ID-Description: v0.8.7
+│  SCM-Git-Commit-Timestamp: 2025-01-03T19:52:19Z
+│  SCM-Git-Remote-Origin-URL: https://github.com/ldapchai/ldapchai.git
