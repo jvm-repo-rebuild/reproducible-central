@@ -1,0 +1,11 @@
+version=2.5.0-M2
+ok=3
+ko=2
+ignored=0
+okFiles="javabean-tester-2.5.0-M2.pom javabean-tester-2.5.0-M2.jar javabean-tester-2.5.0-M2-tests.jar"
+koFiles="javabean-tester-2.5.0-M2-sources.jar javabean-tester-2.5.0-M2-test-sources.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/com.github.hazendaz/javabean-tester-2.5.0-M2-sources.jar target/javabean-tester-2.5.0-M2-sources.jar
+# diffoscope target/reference/com.github.hazendaz/javabean-tester-2.5.0-M2-test-sources.jar target/javabean-tester-2.5.0-M2-test-sources.jar
