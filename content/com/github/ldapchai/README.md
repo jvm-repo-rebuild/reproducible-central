@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/ldapchai/ldapchai.git](https://github.com/ldapchai/ldapchai.git)
 
-rebuilding **8 releases** of com.github.ldapchai:ldapchai:
+rebuilding **9 releases** of com.github.ldapchai:ldapchai:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.8.7](https://central.sonatype.com/artifact/com.github.ldapchai/ldapchai/0.8.7/pom) | | | |
+| [0.8.7](https://central.sonatype.com/artifact/com.github.ldapchai/ldapchai/0.8.7/pom) | [mvn jdk22](ldapchai-0.8.7.buildspec) | [result](ldapchai-0.8.7.buildinfo): [1 :white_check_mark:  2 :warning:](ldapchai-0.8.7.buildcompare) | 1.6M |
 | [0.8.6](https://central.sonatype.com/artifact/com.github.ldapchai/ldapchai/0.8.6/pom) | [mvn jdk17](ldapchai-0.8.6.buildspec) | [result](ldapchai-0.8.6.buildinfo): [1 :white_check_mark:  2 :warning:](ldapchai-0.8.6.buildcompare) [:memo:](https://github.com/ldapchai/ldapchai/issues/28) | 1.6M |
 | [0.8.5](https://central.sonatype.com/artifact/com.github.ldapchai/ldapchai/0.8.5/pom) | [mvn jdk17](ldapchai-0.8.5.buildspec) | [result](ldapchai-0.8.5.buildinfo): [1 :white_check_mark:  2 :warning:](ldapchai-0.8.5.buildcompare) [:mag:](ldapchai-0.8.5.diffoscope) [:memo:](https://github.com/ldapchai/ldapchai/issues/28) | 1.6M |
 | [0.8.4](https://central.sonatype.com/artifact/com.github.ldapchai/ldapchai/0.8.4/pom) | [mvn jdk17](ldapchai-0.8.4.buildspec) | [result](ldapchai-0.8.4.buildinfo): [1 :white_check_mark:  2 :warning:](ldapchai-0.8.4.buildcompare) [:memo:](https://github.com/ldapchai/ldapchai/issues/28) | 1.6M |
