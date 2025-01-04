@@ -1,0 +1,87 @@
+# see https://issues.apache.org/jira/browse/MSHADE-482 and https://github.com/jvm-repo-rebuild/reproducible-central/issues/1345
+# affects 42 of the 43 issues...
+1 / 43 target/reference/org.apache.paimon/paimon-test-utils-1.0.0.jar paimon-test-utils/target/paimon-test-utils-1.0.0.jar
+--- target/reference/org.apache.paimon/paimon-test-utils-1.0.0.jar
++++ paimon-test-utils/target/paimon-test-utils-1.0.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 25972 bytes, number of entries: 30
+│ +Zip file size: 25976 bytes, number of entries: 30
+│  -rw----     2.0 fat        0 bX defN 24-Dec-31 09:09 META-INF/
+│  -rw----     2.0 fat      391 bl defN 24-Dec-31 09:09 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     5935 bl defN 24-Dec-31 09:09 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 24-Dec-31 09:09 META-INF/LICENSE
+│  -rw----     2.0 fat        0 bl defN 24-Dec-31 09:09 org/
+│  -rw----     2.0 fat        0 bl defN 24-Dec-31 09:09 org/apache/
+│  -rw----     2.0 fat        0 bl defN 24-Dec-31 09:09 org/apache/paimon/
+│ @@ -25,8 +25,8 @@
+│  -rw----     2.0 fat      498 bl defN 24-Dec-31 09:09 org/apache/paimon/testutils/junit/parameterized/Parameters.class
+│  -rw----     2.0 fat        0 bl defN 24-Dec-31 09:09 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 24-Dec-31 09:09 META-INF/maven/org.apache.paimon/
+│  -rw----     2.0 fat        0 bl defN 24-Dec-31 09:09 META-INF/maven/org.apache.paimon/paimon-test-utils/
+│  -rw----     2.0 fat     2950 bl defN 24-Dec-31 09:09 META-INF/maven/org.apache.paimon/paimon-test-utils/pom.xml
+│  -rw----     2.0 fat       69 bl defN 24-Dec-31 09:09 META-INF/maven/org.apache.paimon/paimon-test-utils/pom.properties
+│  -rw----     2.0 fat      499 bl defN 24-Dec-31 09:09 META-INF/NOTICE
+│ -30 files, 55835 bytes uncompressed, 19946 bytes compressed:  64.3%
+│ +30 files, 55835 bytes uncompressed, 19950 bytes compressed:  64.3%
+├── META-INF/NOTICE
+│ @@ -1,14 +1,14 @@
+│  // ------------------------------------------------------------------
+│  // NOTICE file corresponding to the section 4d of The Apache License,
+│  // Version 2.0, in this case for Apache Paimon
+│  // ------------------------------------------------------------------
+│  
+│  Apache Paimon
+│ -Copyright 2023-2024 The Apache Software Foundation
+│ +Copyright 2023-2025 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+│  
+│  
+│  Paimon : Test utils
+│  Copyright 2023-2024 The Apache Software Foundation
+
+...
+
+# something is missing in command from buildspec?
+6 / 43 target/reference/org.apache.paimon/paimon-format-1.0.0-sources.jar paimon-format/target/paimon-format-1.0.0-sources.jar
+--- target/reference/org.apache.paimon/paimon-format-1.0.0-sources.jar
++++ paimon-format/target/paimon-format-1.0.0-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 265755 bytes, number of entries: 151
+│ +Zip file size: 265611 bytes, number of entries: 150
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Dec-31 09:09 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-31 09:09 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-31 09:09 org/
+│ @@ -16,15 +16,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-31 09:09 org/apache/parquet/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-31 09:09 org/apache/parquet/filter2/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-31 09:09 org/apache/parquet/filter2/compat/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-31 09:09 org/apache/parquet/filter2/predicate/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-31 09:09 org/apache/parquet/hadoop/
+│ @@ -146,8 +145,8 @@
+│  -rw-r--r--  2.0 unx    12424 b- defN 24-Dec-31 09:09 META-INF/maven/org.apache.paimon/paimon-format/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 24-Dec-31 09:09 META-INF/maven/org.apache.paimon/paimon-format/pom.properties
+│ -151 files, 961708 bytes uncompressed, 239201 bytes compressed:  75.1%
+│ +150 files, 961708 bytes uncompressed, 239201 bytes compressed:  75.1%
+├── zipnote «TEMP»/diffoscope_qqydijgc_target/tmp_7uu7vqv_.zip
+│ @@ -57,17 +57,14 @@
+│  
+│  Filename: org/apache/parquet/
+│  Comment: 
+│  
+│  Filename: org/apache/parquet/filter2/
+│  Comment: 
+│  
+│ -Filename: org/apache/parquet/filter2/compat/
+│ -Comment: 
+│ -
+│  Filename: org/apache/parquet/filter2/predicate/
+│  Comment: 
+│  
+│  Filename: org/apache/parquet/hadoop/
+│  Comment: 
+│  
+│  Filename: org/apache/parquet/internal/
