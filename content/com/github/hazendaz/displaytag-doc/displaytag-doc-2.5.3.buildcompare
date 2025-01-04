@@ -1,0 +1,9 @@
+version=2.5.3
+ok=9
+ko=0
+ignored=0
+okFiles="displaytag-doc-2.5.3.pom displaytag-2.5.3.pom displaytag-2.5.3.jar displaytag-2.5.3-tests.jar displaytag-2.5.3-sources.jar displaytag-2.5.3-test-sources.jar displaytag-examples-2.5.3.pom displaytag-examples-2.5.3.war displaytag-examples-2.5.3-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
