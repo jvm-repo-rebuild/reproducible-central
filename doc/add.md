@@ -4,13 +4,11 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250103120004 --> [openapi-jaxrs-client](../content/dk/mada/jaxrs/openapi-jaxrs-client/README.md) | [0.11.6](../content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.11.6.buildspec) :white_check_mark: | [0.11.8](../content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.11.8.buildspec) | `bin/add-new-release.sh content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.11.6.buildspec 0.11.8` |
-| <!-- 20250103120004 --> [openapi-jaxrs-client](../content/dk/mada/jaxrs/openapi-jaxrs-client/README.md) | [0.11.6](../content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.11.6.buildspec) :white_check_mark: | 0.11.7  | `bin/add-new-release.sh content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.11.6.buildspec ...` |
-| <!-- 20250103010253 --> [coveralls-maven-plugin](../content/com/github/hazendaz/maven/coveralls-maven-plugin/README.md) | [4.5.0-M5](../content/com/github/hazendaz/maven/coveralls-maven-plugin/coveralls-maven-plugin-4.5.0-M5.buildspec) :white_check_mark: | [4.5.0-M6](../content/com/github/hazendaz/maven/coveralls-maven-plugin/coveralls-maven-plugin-4.5.0-M6.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/maven/coveralls-maven-plugin/coveralls-maven-plugin-4.5.0-M5.buildspec 4.5.0-M6` |
-| <!-- 20250102211301 --> [mybatis](../content/org/mybatis/mybatis/README.md) | [3.5.18](../content/org/mybatis/mybatis/mybatis-3.5.18.buildspec) :white_check_mark: | [3.5.19](../content/org/mybatis/mybatis/mybatis-3.5.19.buildspec) | `bin/add-new-release.sh content/org/mybatis/mybatis/mybatis-3.5.18.buildspec 3.5.19` |
-| <!-- 20250102205135 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | [2.5.1](../content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec) :white_check_mark: | [2.5.2](../content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.2.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec 2.5.2` |
-| <!-- 20250102205135 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | [2.5.1](../content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec) :white_check_mark: | 2.5.0 2.4.3 2.4.1 2.3.4 2.3.2 2.2.5 2.2.3 2.1.5 2.1.3 2.0.5  | `bin/add-new-release.sh content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.1.buildspec ...` |
+| <!-- 20250104094059 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | [1.6.9](../content/org/jpmml/jpmml-model/jpmml-model-1.6.9.buildspec) :white_check_mark: | [1.6.10](../content/org/jpmml/jpmml-model/jpmml-model-1.6.10.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-model/jpmml-model-1.6.9.buildspec 1.6.10` |
+| <!-- 20250103205900 --> [htmlcompressor-maven-plugin](../content/com/github/hazendaz/maven/htmlcompressor-maven-plugin/README.md) | [2.1.0](../content/com/github/hazendaz/maven/htmlcompressor-maven-plugin/htmlcompressor-maven-plugin-2.1.0.buildspec) :white_check_mark: | 1.10.1  | `bin/add-new-release.sh content/com/github/hazendaz/maven/htmlcompressor-maven-plugin/htmlcompressor-maven-plugin-2.1.0.buildspec ...` |
+| <!-- 20250102205135 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | [2.5.2](../content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.2.buildspec) :white_check_mark: | 2.5.0 2.4.3 2.4.1 2.3.4 2.3.2 2.2.5 2.2.3 2.1.5 2.1.3 2.0.5  | `bin/add-new-release.sh content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.2.buildspec ...` |
 | <!-- 20241227013729 --> [displaytag-doc](../content/com/github/hazendaz/displaytag-doc/README.md) | [3.1.0](../content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.1.0.buildspec) :white_check_mark: | 2.5.3  | `bin/add-new-release.sh content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.1.0.buildspec ...` |
+| <!-- 20241218171150 --> [across-platform-bom](../content/com/foreach/across/platform/README.md) | [6.0.0](../content/com/foreach/across/platform/platform-6.0.0.buildspec) :white_check_mark: | 5.5.1 5.5.0 5.4.2 5.4.1 5.4.0  | `bin/add-new-release.sh content/com/foreach/across/platform/platform-6.0.0.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -28,6 +26,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD STAGING -->
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
+| <!-- 20241203144539 --> [:mailbox:](https://lists.apache.org/list?dev@pulsar.apache.org:lte=1M:VOTE) | [pulsar](../content/org/apache/pulsar/README.md) | [4.0.1](../content/org/apache/pulsar/pulsar-4.0.1.buildspec) :warning: | [4.0.2](../content/org/apache/pulsar/pulsar-4.0.2.buildspec)  | `bin/add-new-release.sh content/org/apache/pulsar/pulsar-4.0.1.buildspec 4.0.2 staging` |
 | <!-- 20241022110853 --> [:mailbox:](https://lists.apache.org/list?dev@commons.apache.org:lte=1M:VOTE) | [commons-parent](../content/org/apache/commons/parent/README.md) | [78](../content/org/apache/commons/parent/commons-parent-78.buildspec) :white_check_mark: | [79](../content/org/apache/commons/parent/commons-parent-79.buildspec)  | `bin/add-new-release.sh content/org/apache/commons/parent/commons-parent-78.buildspec 79 staging` |
 | <!-- 20230920202802 --> [:mailbox:](https://lists.apache.org/list?dev@wayang.apache.org:lte=1M:VOTE) | [wayang](../content/org/apache/wayang/README.md) | [0.7.1](../content/org/apache/wayang/wayang-0.7.1.buildspec) :white_check_mark: | [1.0.0-RC3](../content/org/apache/wayang/wayang-1.0.0-RC3.buildspec)  | `bin/add-new-release.sh content/org/apache/wayang/wayang-0.7.1.buildspec 1.0.0-RC3 staging` |
 <!-- END GENERATED ADD STAGING -->
@@ -37,9 +36,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250103195806 --> [ldapchai](../content/com/github/ldapchai/README.md) | [0.8.6](../content/com/github/ldapchai/ldapchai-0.8.6.buildspec) :warning: [:memo:](https://github.com/ldapchai/ldapchai/issues/28) | [0.8.7](../content/com/github/ldapchai/ldapchai-0.8.7.buildspec) | `bin/add-new-release.sh content/com/github/ldapchai/ldapchai-0.8.6.buildspec 0.8.7` |
 | <!-- 20250103114348 --> [glassfish-parent](../content/org/glassfish/main/README.md) | [8.0.0-JDK17-M7](../content/org/glassfish/main/glassfish-8.0.0-JDK17-M7.buildspec) :warning: | [8.0.0-JDK17-M9](../content/org/glassfish/main/glassfish-8.0.0-JDK17-M9.buildspec) | `bin/add-new-release.sh content/org/glassfish/main/glassfish-8.0.0-JDK17-M7.buildspec 8.0.0-JDK17-M9` |
-| <!-- 20250103094453 --> [paimon-parent](../content/org/apache/paimon/README.md) | [0.9.0](../content/org/apache/paimon/paimon-parent-0.9.0.buildspec) :warning: [:memo:](https://github.com/apache/paimon/pull/4190) | [1.0.0](../content/org/apache/paimon/paimon-parent-1.0.0.buildspec) | `bin/add-new-release.sh content/org/apache/paimon/paimon-parent-0.9.0.buildspec 1.0.0` |
 | <!-- 20250101010215 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.67.11](../content/org/finos/legend/engine/legend-engine-4.67.11.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.67.11` |
 | <!-- 20241220093958 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.9.0](../content/org/apache/camel/camel/camel-4.9.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.9.0` |
 | <!-- 20241211104935 --> [protostream-aggregator](../content/org/infinispan/protostream/README.md) | [5.0.12.Final](../content/org/infinispan/protostream/protostream-5.0.12.Final.buildspec) :warning: [:memo:](https://github.com/infinispan/protostream/pull/358) | [6.0.0.Dev01](../content/org/infinispan/protostream/protostream-6.0.0.Dev01.buildspec) | `bin/add-new-release.sh content/org/infinispan/protostream/protostream-5.0.12.Final.buildspec 6.0.0.Dev01` |
@@ -58,6 +55,8 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20250103195806 --> [ldapchai](../content/com/github/ldapchai/README.md) | 0.8.7 :warning: |
+| <!-- 20250103094453 --> [paimon-parent](../content/org/apache/paimon/README.md) | 1.0.0 :warning: |
 | <!-- 20250102183014 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | 5.15.2 :warning: [:memo:](https://github.com/mockito/mockito/issues/3563) |
 | <!-- 20250102013801 --> [cache-api](../content/io/github/xanthic/cache/cache-api/README.md) | 0.7.0 :warning: |
 | <!-- 20241226222731 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 2.11.8 :warning: |
