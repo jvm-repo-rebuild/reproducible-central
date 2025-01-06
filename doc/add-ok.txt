@@ -1,2 +1,4 @@
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-20.buildspec:11.1.1-beta-21
-content/org/jpmml/jpmml-r/jpmml-r-1.6.4.buildspec:1.6.5
+content/ch/qos/logback/logback-1.5.15.buildspec:1.5.16
+content/com/github/sitture/env-config/env-config-1.12.1.buildspec:1.13.1
+content/io/avaje/jex/avaje-jex-3.0-RC12.buildspec:3.0-RC13
+content/org/webjars/flexmonster/flexmonster-2.9.93.buildspec:2.9.94
