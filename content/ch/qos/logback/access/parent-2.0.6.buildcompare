@@ -1,0 +1,9 @@
+version=2.0.6
+ok=18
+ko=0
+ignored=0
+okFiles="parent-2.0.6.pom logback-access-common-2.0.6.pom logback-access-common-2.0.6.jar logback-access-common-2.0.6-sources.jar logback-access-common-2.0.6-test-sources.jar logback-access-common-2.0.6-tests.jar logback-access-tomcat-2.0.6.pom logback-access-tomcat-2.0.6.jar logback-access-tomcat-2.0.6-sources.jar logback-access-tomcat-2.0.6-test-sources.jar logback-access-jetty11-2.0.6.pom logback-access-jetty11-2.0.6.jar logback-access-jetty11-2.0.6-sources.jar logback-access-jetty11-2.0.6-test-sources.jar logback-access-jetty12-2.0.6.pom logback-access-jetty12-2.0.6.jar logback-access-jetty12-2.0.6-sources.jar logback-access-jetty12-2.0.6-test-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
