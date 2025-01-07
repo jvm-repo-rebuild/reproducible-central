@@ -1,0 +1,9 @@
+version=1.17.2
+ok=7
+ko=0
+ignored=1
+okFiles="commons-codec-1.17.2.pom commons-codec-1.17.2.jar commons-codec-1.17.2-tests.jar commons-codec-1.17.2-sources.jar commons-codec-1.17.2-test-sources.jar commons-codec-1.17.2-cyclonedx.xml commons-codec-1.17.2-cyclonedx.json"
+koFiles=""
+ignoredFiles="commons-codec-1.17.2.spdx.json"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
