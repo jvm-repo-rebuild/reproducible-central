@@ -4,11 +4,11 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250106163714 --> [env-config](../content/com/github/sitture/env-config/README.md) | [1.12.1](../content/com/github/sitture/env-config/env-config-1.12.1.buildspec) :white_check_mark: | [1.13.1](../content/com/github/sitture/env-config/env-config-1.13.1.buildspec) | `bin/add-new-release.sh content/com/github/sitture/env-config/env-config-1.12.1.buildspec 1.13.1` |
-| <!-- 20250106163714 --> [env-config](../content/com/github/sitture/env-config/README.md) | [1.12.1](../content/com/github/sitture/env-config/env-config-1.12.1.buildspec) :white_check_mark: | 1.13.0  | `bin/add-new-release.sh content/com/github/sitture/env-config/env-config-1.12.1.buildspec ...` |
-| <!-- 20250106154457 --> [flexmonster](../content/org/webjars/flexmonster/README.md) | [2.9.93](../content/org/webjars/flexmonster/flexmonster-2.9.93.buildspec) :white_check_mark: | [2.9.94](../content/org/webjars/flexmonster/flexmonster-2.9.94.buildspec) | `bin/add-new-release.sh content/org/webjars/flexmonster/flexmonster-2.9.93.buildspec 2.9.94` |
-| <!-- 20250106030054 --> [avaje-jex-parent](../content/io/avaje/jex/README.md) | [3.0-RC12](../content/io/avaje/jex/avaje-jex-3.0-RC12.buildspec) :white_check_mark: | [3.0-RC13](../content/io/avaje/jex/avaje-jex-3.0-RC13.buildspec) | `bin/add-new-release.sh content/io/avaje/jex/avaje-jex-3.0-RC12.buildspec 3.0-RC13` |
-| <!-- 20250105220717 --> [logback-parent](../content/ch/qos/logback/README.md) | [1.5.15](../content/ch/qos/logback/logback-1.5.15.buildspec) :white_check_mark: | [1.5.16](../content/ch/qos/logback/logback-1.5.16.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/logback-1.5.15.buildspec 1.5.16` |
+| <!-- 20250107195356 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [11.1-RC2](../content/io/avaje/inject/avaje-inject-11.1-RC2.buildspec) :white_check_mark: | [11.1-javax](../content/io/avaje/inject/avaje-inject-11.1-javax.buildspec) | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-11.1-RC2.buildspec 11.1-javax` |
+| <!-- 20250107195356 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [11.1-RC2](../content/io/avaje/inject/avaje-inject-11.1-RC2.buildspec) :white_check_mark: | 11.1  | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-11.1-RC2.buildspec ...` |
+| <!-- 20250107115523 --> [parent](../content/ch/qos/logback/access/README.md) | [2.0.5](../content/ch/qos/logback/access/access-2.0.5.buildspec) :white_check_mark: | [2.0.6](../content/ch/qos/logback/access/access-2.0.6.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/access/access-2.0.5.buildspec 2.0.6` |
+| <!-- 20250107082744 --> [units-catalog](../content/com/cognite/units/units-catalog/README.md) | [0.1.16](../content/com/cognite/units/units-catalog/units-catalog-0.1.16.buildspec) :white_check_mark: | [0.1.17](../content/com/cognite/units/units-catalog/units-catalog-0.1.17.buildspec) | `bin/add-new-release.sh content/com/cognite/units/units-catalog/units-catalog-0.1.16.buildspec 0.1.17` |
+| <!-- 20250106215847 --> [commons-codec](../content/org/apache/commons/commons-codec/README.md) | [1.17.1](../content/org/apache/commons/commons-codec/commons-codec-1.17.1.buildspec) :white_check_mark: | [1.17.2](../content/org/apache/commons/commons-codec/commons-codec-1.17.2.buildspec) | `bin/add-new-release.sh content/org/apache/commons/commons-codec/commons-codec-1.17.1.buildspec 1.17.2` |
 | <!-- 20250102205135 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | [2.5.2](../content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.2.buildspec) :white_check_mark: | 2.5.0 2.4.3 2.4.1 2.3.4 2.3.2 2.2.5 2.2.3 2.1.5 2.1.3 2.0.5  | `bin/add-new-release.sh content/org/jpmml/jpmml-sparkml/jpmml-sparkml-2.5.2.buildspec ...` |
 | <!-- 20241218171150 --> [across-platform-bom](../content/com/foreach/across/platform/README.md) | [6.0.0](../content/com/foreach/across/platform/platform-6.0.0.buildspec) :white_check_mark: | 5.5.1 5.5.0 5.4.2 5.4.1 5.4.0  | `bin/add-new-release.sh content/com/foreach/across/platform/platform-6.0.0.buildspec ...` |
 <!-- END GENERATED ADD OK -->
@@ -40,6 +40,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20250107004118 --> [jooby](../content/io/jooby/README.md) | [3.5.5](../content/io/jooby/jooby-3.5.5.buildspec) :warning: | [3.6.0](../content/io/jooby/jooby-3.6.0.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-3.5.5.buildspec 3.6.0` |
 | <!-- 20250106062110 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.67.12](../content/org/finos/legend/engine/legend-engine-4.67.12.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.67.12` |
 | <!-- 20250103114348 --> [glassfish-parent](../content/org/glassfish/main/README.md) | [8.0.0-JDK17-M7](../content/org/glassfish/main/glassfish-8.0.0-JDK17-M7.buildspec) :warning: | [8.0.0-JDK17-M9](../content/org/glassfish/main/glassfish-8.0.0-JDK17-M9.buildspec) | `bin/add-new-release.sh content/org/glassfish/main/glassfish-8.0.0-JDK17-M7.buildspec 8.0.0-JDK17-M9` |
 | <!-- 20241220093958 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.9.0](../content/org/apache/camel/camel/camel-4.9.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.9.0` |
@@ -59,6 +60,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20250106163714 --> [env-config](../content/com/github/sitture/env-config/README.md) | 1.13.1 :x: |
 | <!-- 20250103195806 --> [ldapchai](../content/com/github/ldapchai/README.md) | 0.8.7 :warning: |
 | <!-- 20250103094453 --> [paimon-parent](../content/org/apache/paimon/README.md) | 1.0.0 :warning: |
 | <!-- 20250102183014 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | 5.15.2 :warning: [:memo:](https://github.com/mockito/mockito/issues/3563) |
@@ -78,7 +80,6 @@ New Releases To Add
 | <!-- 20241213164219 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | 6.10.0 :warning: |
 | <!-- 20241210081421 --> [io.wcm.handler.link](../content/io/wcm/io.wcm.handler/link/README.md) | 2.2.4 :warning: |
 | <!-- 20241210081249 --> [io.wcm.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | 2.3.0 :warning: |
-| <!-- 20241209231051 --> [jooby](../content/io/jooby/README.md) | 3.5.5 :warning: |
 | <!-- 20241207223709 --> [royale-typedefs-parent](../content/org/apache/royale/typedefs/README.md) | 0.9.12 :warning: |
 | <!-- 20241207223516 --> [royale-framework-parent](../content/org/apache/royale/framework/README.md) | 0.9.12 :warning: |
 | <!-- 20241207221427 --> [compiler](../content/org/apache/royale/compiler/README.md) | 0.9.12 :warning: |

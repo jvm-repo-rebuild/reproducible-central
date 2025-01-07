@@ -1,4 +1,4 @@
-content/ch/qos/logback/logback-1.5.15.buildspec:1.5.16
-content/com/github/sitture/env-config/env-config-1.12.1.buildspec:1.13.1
-content/io/avaje/jex/avaje-jex-3.0-RC12.buildspec:3.0-RC13
-content/org/webjars/flexmonster/flexmonster-2.9.93.buildspec:2.9.94
+content/ch/qos/logback/access/access-2.0.5.buildspec:2.0.6
+content/com/cognite/units/units-catalog/units-catalog-0.1.16.buildspec:0.1.17
+content/io/avaje/inject/avaje-inject-11.1-RC2.buildspec:11.1-javax
+content/org/apache/commons/commons-codec/commons-codec-1.17.1.buildspec:1.17.2
