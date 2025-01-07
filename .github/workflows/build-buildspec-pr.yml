@@ -36,10 +36,26 @@ jobs:
         id: changed-files
         uses: tj-actions/changed-files@v45
 
+      - name: List buildspecs
+        run: |
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            if [[ $file == *.buildspec ]]; then
+              echo "- \`$file\`" >> PRcomment.txt
+            fi
+          done
+
+      - name: Init PR comment with buildspecs
+        if: ${{ hashFiles('PRcomment.txt') != '' }}
+        uses: mshick/add-pr-comment@v2
+        with:
+          message-path: |
+            PRcomment.txt
+
       - name: Build from buildspec
         run: |
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             if [[ $file == *.buildspec ]]; then
+              echo "- \`$file\`" >> PRcomment.txt
               . $file
               if [[ "$command" == SHELL* ]]
               then
@@ -57,6 +73,7 @@ jobs:
 
                ( ... interactive shell ... )
 
+          bin/update-project-summary.sh $(dirname $file)
           git add $(dirname $file)
           git commit -m './rebuild.sh $file'
           git push
