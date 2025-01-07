@@ -40,7 +40,10 @@ jobs:
         run: |
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             if [[ $file == *.buildspec ]]; then
-              echo "- \`$file\`" >> PRcomment.txt
+              display=""
+              . $file
+              [ -n "$display" ] || display="$groupId:$artifactId"
+              echo "- \`$file\` [$display](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/$(dirname $file)/README.md)" >> PRcomment.txt
             fi
           done
 
@@ -55,8 +58,10 @@ jobs:
         run: |
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             if [[ $file == *.buildspec ]]; then
-              echo "- \`$file\`" >> PRcomment.txt
+              display=""
               . $file
+              [ -n "$display" ] || display="$groupId:$artifactId"
+              echo "- \`$file\` [$display](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/$(dirname $file)/README.md)" >> PRcomment.txt
               if [[ "$command" == SHELL* ]]
               then
                 # don't even try to automatically build, but prepare message for PR comment
