@@ -15,5 +15,5 @@ command="mvn -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip
 buildinfo=target/${artifactId}-${version}.buildinfo
 execBefore="./jakarta-to-javax.sh"
 
-#diffoscope=${artifactId}-${version}.diffoscope
-issue=
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/avaje/avaje-inject/issues/757

@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.avaje:avaje-inject-parent](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/io/avaje/inject/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/avaje/inject/README.md)
+## Project: [io.avaje:avaje-inject-parent](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/io/avaje/inject//badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/avaje/inject//README.md)
 
 Source code: [https://github.com/avaje/avaje-inject.git](https://github.com/avaje/avaje-inject.git)
 
@@ -24,7 +24,7 @@ rebuilding **12 releases** of io.avaje:avaje-inject-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [11.1-javax](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.1-javax/pom) | [mvn jdk21](avaje-inject-11.1-javax.buildspec) | [result](avaje-inject-parent-11.1-javax.buildinfo): [6 :white_check_mark:  13 :warning:](avaje-inject-parent-11.1-javax.buildcompare) | 766K |
+| [11.1-javax](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.1-javax/pom) | [mvn jdk21](avaje-inject-11.1-javax.buildspec) | [result](avaje-inject-parent-11.1-javax.buildinfo): [6 :white_check_mark:  13 :warning:](avaje-inject-parent-11.1-javax.buildcompare) [:mag:](avaje-inject-parent-11.1-javax.diffoscope) [:memo:](https://github.com/avaje/avaje-inject/issues/757) | 766K |
 | [11.1](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.1/pom) | [mvn jdk21](avaje-inject-11.1.buildspec) | [result](avaje-inject-parent-11.1.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-11.1.buildcompare) | 766K |
 | [11.1-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.1-RC2/pom) | [mvn jdk21](avaje-inject-11.1-RC2.buildspec) | [result](avaje-inject-parent-11.1-RC2.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-11.1-RC2.buildcompare) | 756K |
 | [11.1-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.1-RC1/pom) | [mvn jdk21](avaje-inject-11.1-RC1.buildspec) | [result](avaje-inject-parent-11.1-RC1.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-11.1-RC1.buildcompare) | 753K |

@@ -1,0 +1,86 @@
+# not same content as what is in Git
+1 / 13 target/reference/io.avaje/avaje-inject-parent-11.1-javax.pom pom.xml
+--- target/reference/io.avaje/avaje-inject-parent-11.1-javax.pom
++++ pom.xml
+│   --- target/reference/io.avaje/avaje-inject-parent-11.1-javax.pom
+├── +++ pom.xml
+│ @@ -17,15 +17,15 @@
+│      <tag>HEAD</tag>
+│    </scm>
+│    <properties>
+│      <nexus.staging.autoReleaseAfterClose>true</nexus.staging.autoReleaseAfterClose>
+│      <surefire.useModulePath>false</surefire.useModulePath>
+│      <argLine>-Dnet.bytebuddy.experimental=true</argLine>
+│      <!-- default-build-start -->
+│ -    <project.build.outputTimestamp>2025-01-07T19:49:11Z</project.build.outputTimestamp>
+│ +    <project.build.outputTimestamp>2025-01-07T19:41:49Z</project.build.outputTimestamp>
+│      <!-- default-build-end -->
+│      <!-- valhalla-build-start ___
+│      <maven.compiler.release>23</maven.compiler.release>
+│      <maven.compiler.enablePreview>true</maven.compiler.enablePreview>
+│      ____ valhalla-build-end -->
+│    </properties>
+│    <modules>
+
+# just a consequence of previous difference
+2 / 13 target/reference/io.avaje/avaje-inject-aop-11.1-javax.jar inject-aop/target/avaje-inject-aop-11.1-javax.jar
+--- target/reference/io.avaje/avaje-inject-aop-11.1-javax.jar
++++ inject-aop/target/avaje-inject-aop-11.1-javax.jar
+├── zipinfo {}
+│ @@ -1,23 +1,23 @@
+│  Zip file size: 10744 bytes, number of entries: 21
+│ --rw----     1.0 fat        0 bx stor 25-Jan-07 19:49 META-INF/
+│ --rw----     2.0 fat      157 bl defN 25-Jan-07 19:49 META-INF/MANIFEST.MF
+...
+│ --rw----     2.0 fat      125 bl defN 25-Jan-07 19:49 io/avaje/inject/aop/package-info.class
+│ --rw----     2.0 fat      229 bl defN 25-Jan-07 19:49 module-info.class
+│ +-rw----     1.0 fat        0 bx stor 25-Jan-07 19:41 META-INF/
+│ +-rw----     2.0 fat      157 bl defN 25-Jan-07 19:41 META-INF/MANIFEST.MF
+...
+│ +-rw----     2.0 fat      125 bl defN 25-Jan-07 19:41 io/avaje/inject/aop/package-info.class
+│ +-rw----     2.0 fat      229 bl defN 25-Jan-07 19:41 module-info.class
+│  21 files, 16567 bytes uncompressed, 7508 bytes compressed:  54.7%
+
+# timestamp difference expected like in .jar
+# but there are also for each .java file a .java-e additional one: where does it come fram???
+3 / 13 target/reference/io.avaje/avaje-inject-aop-11.1-javax-sources.jar inject-aop/target/avaje-inject-aop-11.1-javax-sources.jar
+--- target/reference/io.avaje/avaje-inject-aop-11.1-javax-sources.jar
++++ inject-aop/target/avaje-inject-aop-11.1-javax-sources.jar
+├── zipinfo {}
+│ @@ -1,29 +1,21 @@
+│ -Zip file size: 11966 bytes, number of entries: 27
+...
+│ --rw-r--r--  2.0 unx      458 b- defN 25-Jan-07 19:49 io/avaje/inject/aop/AOPFallback.java
+│ --rw-r--r--  2.0 unx      458 b- defN 25-Jan-07 19:49 io/avaje/inject/aop/AOPFallback.java-e
+│ --rw-r--r--  2.0 unx     1885 b- defN 25-Jan-07 19:49 io/avaje/inject/aop/Aspect.java
+│ --rw-r--r--  2.0 unx     1885 b- defN 25-Jan-07 19:49 io/avaje/inject/aop/Aspect.java-e
+│ --rw-r--r--  2.0 unx      461 b- defN 25-Jan-07 19:49 io/avaje/inject/aop/AspectProvider.java
+│ --rw-r--r--  2.0 unx      461 b- defN 25-Jan-07 19:49 io/avaje/inject/aop/AspectProvider.java-e
+│ --rw-r--r--  2.0 unx     7006 b- defN 25-Jan-07 19:49 io/avaje/inject/aop/Invocation.java
+│ --rw-r--r--  2.0 unx     7006 b- defN 25-Jan-07 19:49 io/avaje/inject/aop/Invocation.java-e
+│ --rw-r--r--  2.0 unx      708 b- defN 25-Jan-07 19:49 io/avaje/inject/aop/InvocationException.java
+│ --rw-r--r--  2.0 unx      708 b- defN 25-Jan-07 19:49 io/avaje/inject/aop/InvocationException.java-e
+│ --rw-r--r--  2.0 unx      760 b- defN 25-Jan-07 19:49 io/avaje/inject/aop/MethodInterceptor.java
+│ --rw-r--r--  2.0 unx      760 b- defN 25-Jan-07 19:49 io/avaje/inject/aop/MethodInterceptor.java-e
+│ --rw-r--r--  2.0 unx      350 b- defN 25-Jan-07 19:49 io/avaje/inject/aop/package-info.java
+│ --rw-r--r--  2.0 unx      350 b- defN 25-Jan-07 19:49 io/avaje/inject/aop/package-info.java-e
+│ --rw-r--r--  2.0 unx       64 b- defN 25-Jan-07 19:49 module-info.java
+│ --rw-r--r--  2.0 unx       64 b- defN 25-Jan-07 19:49 module-info.java-e
+│ --rw-r--r--  2.0 unx      667 b- defN 25-Jan-07 19:49 META-INF/maven/io.avaje/avaje-inject-aop/pom.xml
+│ --rw-r--r--  2.0 unx       64 b- defN 25-Jan-07 19:49 META-INF/maven/io.avaje/avaje-inject-aop/pom.properties
+│ -27 files, 24179 bytes uncompressed, 8220 bytes compressed:  66.0%
+│ +Zip file size: 6861 bytes, number of entries: 19
+...
+│ +-rw-r--r--  2.0 unx      458 b- defN 25-Jan-07 19:41 io/avaje/inject/aop/AOPFallback.java
+│ +-rw-r--r--  2.0 unx     1885 b- defN 25-Jan-07 19:41 io/avaje/inject/aop/Aspect.java
+│ +-rw-r--r--  2.0 unx      461 b- defN 25-Jan-07 19:41 io/avaje/inject/aop/AspectProvider.java
+│ +-rw-r--r--  2.0 unx     7006 b- defN 25-Jan-07 19:41 io/avaje/inject/aop/Invocation.java
+│ +-rw-r--r--  2.0 unx      708 b- defN 25-Jan-07 19:41 io/avaje/inject/aop/InvocationException.java
+│ +-rw-r--r--  2.0 unx      760 b- defN 25-Jan-07 19:41 io/avaje/inject/aop/MethodInterceptor.java
+│ +-rw-r--r--  2.0 unx      350 b- defN 25-Jan-07 19:41 io/avaje/inject/aop/package-info.java
+│ +-rw-r--r--  2.0 unx       64 b- defN 25-Jan-07 19:41 module-info.java
+│ +-rw-r--r--  2.0 unx      667 b- defN 25-Jan-07 19:41 META-INF/maven/io.avaje/avaje-inject-aop/pom.xml
+│ +-rw-r--r--  2.0 unx       64 b- defN 25-Jan-07 19:41 META-INF/maven/io.avaje/avaje-inject-aop/pom.properties
+│ +19 files, 12487 bytes uncompressed, 4315 bytes compressed:  65.4%
+
+# same issue for each module
