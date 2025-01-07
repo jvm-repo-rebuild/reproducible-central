@@ -1,0 +1,19 @@
+groupId=io.avaje
+artifactId=avaje-inject-parent
+display=${groupId}:$(echo "${artifactId}" | sed -e "s/-parent//")
+version=11.1-javax
+
+gitRepo=https://github.com/avaje/avaje-inject.git
+gitTag=$(echo "${version}" | cut -d '-' -f 1)
+
+tool=mvn
+jdk=21
+newline=lf
+#umask=022
+
+command="mvn -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+execBefore="./jakarta-to-javax.sh"
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/avaje/avaje-inject/issues/757
