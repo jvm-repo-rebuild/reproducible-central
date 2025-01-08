@@ -1,0 +1,9 @@
+version=1.6.10
+ok=19
+ko=0
+ignored=0
+okFiles="jpmml-evaluator-1.6.10.pom pmml-evaluator-1.6.10.pom pmml-evaluator-1.6.10.jar pmml-evaluator-1.6.10-sources.jar pmml-evaluator-jackson-1.6.10.pom pmml-evaluator-jackson-1.6.10.jar pmml-evaluator-metro-1.6.10.pom pmml-evaluator-metro-1.6.10.jar pmml-evaluator-moxy-1.6.10.pom pmml-evaluator-moxy-1.6.10.jar pmml-evaluator-reporting-1.6.10.pom pmml-evaluator-reporting-1.6.10.jar pmml-evaluator-reporting-1.6.10-sources.jar pmml-evaluator-testing-1.6.10.pom pmml-evaluator-testing-1.6.10.jar pmml-evaluator-testing-1.6.10-sources.jar pmml-evaluator-kryo-1.6.10.pom pmml-evaluator-kryo-1.6.10.jar pmml-evaluator-kryo-1.6.10-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
