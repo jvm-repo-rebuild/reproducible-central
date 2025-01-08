@@ -65,8 +65,8 @@ outputs.4.2.checksums.sha512=db10197f4d7ab90094adad9208affd510c0aeb8aa8979431a21
 outputs.5.coordinates=io.github.xanthic.cache:cache-kotlin
 
 outputs.5.0.filename=cache-kotlin-0.7.0-sources.jar
-outputs.5.0.length=2108
-outputs.5.0.checksums.sha512=05ae3530a690b5553e12642584e0a197b307cc886f6180921e17731700531b2016c8070df8291f5453c802cfb86b743a618b09fbe4b37f5254f62e7140970273
+outputs.5.0.length=1950
+outputs.5.0.checksums.sha512=6aaf8a589aae64ae7fafc37af4cc671f6db40be6bbf5e0576565b6457f32ae00e0d4b8d92931354f61e01acd14fe41bf8870e76d812a71974562116e7dcbe9ab
 
 outputs.5.1.filename=cache-kotlin-0.7.0.jar
 outputs.5.1.length=5342
