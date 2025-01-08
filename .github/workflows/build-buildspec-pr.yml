@@ -134,8 +134,6 @@ jobs:
             if [ "${{ github.event.pull_request.user.login }}" = "hboutemy" ]
             then
               gh pr merge -m -d
-            else
-              gh pr edit --add-reviewer hboutemy
             fi
           fi
 
