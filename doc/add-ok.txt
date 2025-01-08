@@ -1,4 +1,5 @@
-content/ch/qos/logback/access/access-2.0.5.buildspec:2.0.6
-content/com/cognite/units/units-catalog/units-catalog-0.1.16.buildspec:0.1.17
-content/io/avaje/inject/avaje-inject-11.1-RC2.buildspec:11.1-javax
-content/org/apache/commons/commons-codec/commons-codec-1.17.1.buildspec:1.17.2
+content/io/airlift/airbase/airbase-209.buildspec:210
+content/io/avaje/jsonb/avaje-jsonb-3.0-RC5.buildspec:3.0-RC6
+content/io/wcm/tooling/wcm-parent_toplevel-2.3.4.buildspec:2.4.2
+content/org/apache/commons/parent/commons-parent-78.buildspec:79
+content/org/jpmml/jpmml-evaluator/jpmml-evaluator-1.6.9.buildspec:1.6.10
