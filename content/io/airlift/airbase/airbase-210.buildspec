@@ -1,0 +1,20 @@
+groupId=io.airlift
+artifactId=airbase
+display=${groupId}:${artifactId}
+version=210
+
+gitRepo=https://github.com/airlift/airbase.git
+gitTag=${version}
+# wrong Git tag: https://github.com/airlift/airbase/issues/460
+gitTag=5c84dbe5972f4a57ff4599c6dc76b4a97af1a3ca
+
+tool=mvn-3.9.8
+jdk=17
+newline=lf
+#umask=022
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=${artifactId}/target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
