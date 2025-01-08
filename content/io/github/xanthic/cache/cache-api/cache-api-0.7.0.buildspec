@@ -12,8 +12,8 @@ jdk=21
 newline=lf
 umask=022
 
-command="./gradlew --no-daemon -Pgnupg.skip clean assemble publishToMavenLocal -x test"
+command="./gradlew --no-daemon -Pgnupg.skip clean assemble publishToMavenLocal -x test -x :cache-kotlin:kotlinSourcesJar"
 buildinfo=${artifactId}-${version}.buildinfo
 
-diffoscope=${artifactId}-${version}.diffoscope
+#diffoscope=${artifactId}-${version}.diffoscope
 issue=
