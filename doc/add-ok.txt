@@ -1,5 +1,2 @@
-content/io/airlift/airbase/airbase-209.buildspec:210
-content/io/avaje/jsonb/avaje-jsonb-3.0-RC5.buildspec:3.0-RC6
+content/com/fasterxml/oss-parent/oss-parent-61.buildspec:62
 content/io/wcm/tooling/wcm-parent_toplevel-2.3.4.buildspec:2.4.2
-content/org/apache/commons/parent/commons-parent-78.buildspec:79
-content/org/jpmml/jpmml-evaluator/jpmml-evaluator-1.6.9.buildspec:1.6.10
