@@ -1025,13 +1025,13 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **50 releases** of io.quarkus:quarkus-project:
+rebuilding **51 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 50 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 51 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.17.6](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.17.6/pom) | | | |
+| [3.17.6](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.17.6/pom) | [mvn jdk17](quarkus-3.17.6.buildspec) | [result](quarkus-project-3.17.6.buildinfo): [2208 :white_check_mark:  8 :warning:](quarkus-project-3.17.6.buildcompare) [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | 130M |
 | [3.17.5](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.17.5/pom) | [mvn jdk17](quarkus-3.17.5.buildspec) | [result](quarkus-project-3.17.5.buildinfo): [2209 :white_check_mark:  7 :warning:](quarkus-project-3.17.5.buildcompare) [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | 130M |
 | [3.17.4](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.17.4/pom) | [mvn jdk17](quarkus-3.17.4.buildspec) | [result](quarkus-project-3.17.4.buildinfo): [2209 :white_check_mark:  7 :warning:](quarkus-project-3.17.4.buildcompare) [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | 130M |
 | [3.17.3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.17.3/pom) | [mvn jdk17](quarkus-3.17.3.buildspec) | [result](quarkus-project-3.17.3.buildinfo): [2209 :white_check_mark:  7 :warning:](quarkus-project-3.17.3.buildcompare) [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | 129M |
