@@ -1,2 +1,7 @@
-content/com/fasterxml/oss-parent/oss-parent-61.buildspec:62
+content/io/opentelemetry/java/opentelemetry-sdk-1.45.0.buildspec:1.46.0
 content/io/wcm/tooling/wcm-parent_toplevel-2.3.4.buildspec:2.4.2
+content/org/apache/orc/orc-2.0.3.buildspec:2.1.0
+content/org/jpmml/jpmml-converter/jpmml-converter-1.5.11.buildspec:1.5.12
+content/org/jpmml/jpmml-evaluator/jpmml-evaluator-1.6.10.buildspec:1.6.11
+content/org/jpmml/jpmml-model/jpmml-model-1.6.10.buildspec:1.6.11
+content/org/jpmml/jpmml-python/jpmml-python-1.2.7.buildspec:1.2.8
