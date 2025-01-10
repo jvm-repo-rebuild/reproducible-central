@@ -1,0 +1,23 @@
+version=2.1.0
+ok=15
+ko=14
+ignored=0
+okFiles="orc-2.1.0.pom orc-shims-2.1.0.pom orc-shims-2.1.0.jar orc-shims-2.1.0-sources.jar orc-shims-2.1.0-test-sources.jar orc-shims-2.1.0-tests.jar orc-core-2.1.0.pom orc-core-2.1.0-shaded-protobuf.jar orc-core-2.1.0-nohive.jar orc-mapreduce-2.1.0.pom orc-mapreduce-2.1.0-shaded-protobuf.jar orc-mapreduce-2.1.0-nohive.jar orc-tools-2.1.0.pom orc-tools-2.1.0-shaded-protobuf.jar orc-tools-2.1.0-nohive.jar"
+koFiles="orc-2.1.0-source-release.zip orc-core-2.1.0.jar orc-core-2.1.0-sources.jar orc-core-2.1.0-test-sources.jar orc-core-2.1.0-tests.jar orc-mapreduce-2.1.0.jar orc-mapreduce-2.1.0-sources.jar orc-mapreduce-2.1.0-test-sources.jar orc-mapreduce-2.1.0-tests.jar orc-tools-2.1.0.jar orc-tools-2.1.0-sources.jar orc-tools-2.1.0-test-sources.jar orc-tools-2.1.0-uber.jar orc-tools-2.1.0-tests.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/org.apache.orc/orc-2.1.0-source-release.zip target/orc-2.1.0-source-release.zip
+# diffoscope target/reference/org.apache.orc/orc-core-2.1.0.jar core/target/orc-core-2.1.0.jar
+# diffoscope target/reference/org.apache.orc/orc-core-2.1.0-sources.jar core/target/orc-core-2.1.0-sources.jar
+# diffoscope target/reference/org.apache.orc/orc-core-2.1.0-test-sources.jar core/target/orc-core-2.1.0-test-sources.jar
+# diffoscope target/reference/org.apache.orc/orc-core-2.1.0-tests.jar core/target/orc-core-2.1.0-tests.jar
+# diffoscope target/reference/org.apache.orc/orc-mapreduce-2.1.0.jar mapreduce/target/orc-mapreduce-2.1.0.jar
+# diffoscope target/reference/org.apache.orc/orc-mapreduce-2.1.0-sources.jar mapreduce/target/orc-mapreduce-2.1.0-sources.jar
+# diffoscope target/reference/org.apache.orc/orc-mapreduce-2.1.0-test-sources.jar mapreduce/target/orc-mapreduce-2.1.0-test-sources.jar
+# diffoscope target/reference/org.apache.orc/orc-mapreduce-2.1.0-tests.jar mapreduce/target/orc-mapreduce-2.1.0-tests.jar
+# diffoscope target/reference/org.apache.orc/orc-tools-2.1.0.jar tools/target/orc-tools-2.1.0.jar
+# diffoscope target/reference/org.apache.orc/orc-tools-2.1.0-sources.jar tools/target/orc-tools-2.1.0-sources.jar
+# diffoscope target/reference/org.apache.orc/orc-tools-2.1.0-test-sources.jar tools/target/orc-tools-2.1.0-test-sources.jar
+# diffoscope target/reference/org.apache.orc/orc-tools-2.1.0-uber.jar tools/target/orc-tools-2.1.0-uber.jar
+# diffoscope target/reference/org.apache.orc/orc-tools-2.1.0-tests.jar tools/target/orc-tools-2.1.0-tests.jar
