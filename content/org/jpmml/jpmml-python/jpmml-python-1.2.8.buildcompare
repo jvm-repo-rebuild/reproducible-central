@@ -1,0 +1,9 @@
+version=1.2.8
+ok=7
+ko=0
+ignored=0
+okFiles="jpmml-python-1.2.8.pom pmml-python-1.2.8.pom pmml-python-1.2.8.jar pmml-python-1.2.8-sources.jar pmml-python-testing-1.2.8.pom pmml-python-testing-1.2.8.jar pmml-python-testing-1.2.8-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
