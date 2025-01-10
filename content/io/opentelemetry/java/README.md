@@ -42,13 +42,13 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java.git](https://
 * [io.opentelemetry:opentelemetry-sdk-trace](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-trace/overview)
 </details>
 
-rebuilding **12 releases** of io.opentelemetry:opentelemetry-sdk:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **13 releases** of io.opentelemetry:opentelemetry-sdk:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.46.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.46.0/pom) | | | |
+| [1.46.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.46.0/pom) | [gradle jdk17](opentelemetry-sdk-1.46.0.buildspec) | [result](opentelemetry-sdk-1.46.0.buildinfo): [83 :white_check_mark: ](opentelemetry-sdk-1.46.0.buildcompare) | 3.1M |
 | [1.45.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.45.0/pom) | [gradle jdk17](opentelemetry-sdk-1.45.0.buildspec) | [result](opentelemetry-sdk-1.45.0.buildinfo): [83 :white_check_mark: ](opentelemetry-sdk-1.45.0.buildcompare) | 3.1M |
 | [1.44.1](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.44.1/pom) | [gradle jdk17](opentelemetry-sdk-1.44.1.buildspec) | [result](opentelemetry-sdk-1.44.1.buildinfo): [83 :white_check_mark: ](opentelemetry-sdk-1.44.1.buildcompare) | 3.1M |
 | [1.44.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.44.0/pom) | [gradle jdk17](opentelemetry-sdk-1.44.0.buildspec) | [result](opentelemetry-sdk-1.44.0.buildinfo): [83 :white_check_mark: ](opentelemetry-sdk-1.44.0.buildcompare) | 3.1M |
