@@ -14,13 +14,13 @@ Source code: [https://github.com/jpmml/jpmml-python.git](https://github.com/jpmm
 * [org.jpmml:pmml-python-testing](https://central.sonatype.com/artifact/org.jpmml/pmml-python-testing/overview)
 </details>
 
-rebuilding **8 releases** of org.jpmml:jpmml-python:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **9 releases** of org.jpmml:jpmml-python:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.2.8](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.2.8/pom) | | | |
+| [1.2.8](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.2.8/pom) | [mvn jdk8](jpmml-python-1.2.8.buildspec) | [result](jpmml-python-1.2.8.buildinfo): [7 :white_check_mark: ](jpmml-python-1.2.8.buildcompare) | 400K |
 | [1.2.7](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.2.7/pom) | [mvn jdk8](jpmml-python-1.2.7.buildspec) | [result](jpmml-python-1.2.7.buildinfo): [7 :white_check_mark: ](jpmml-python-1.2.7.buildcompare) | 400K |
 | [1.2.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.2.6/pom) | [mvn jdk8](jpmml-python-1.2.6.buildspec) | [result](jpmml-python-1.2.6.buildinfo): [7 :white_check_mark: ](jpmml-python-1.2.6.buildcompare) | 392K |
 | [1.2.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.2.5/pom) | [mvn jdk8](jpmml-python-1.2.5.buildspec) | [result](jpmml-python-1.2.5.buildinfo): [7 :white_check_mark: ](jpmml-python-1.2.5.buildcompare) | 392K |
