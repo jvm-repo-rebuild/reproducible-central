@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons CSV
+group-id=org.apache.commons
+artifact-id=commons-csv
+version=1.13.0
+
+# source information
+source.scm.uri=scm:git:http://gitbox.apache.org/repos/asf/commons-csv.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-csv-1.13.0.pom
+outputs.0.length=21297
+outputs.0.checksums.sha512=3be4bfcc60c0bb77da7f266a4bc099b897d19753c426f46efefbe093de26065fc85d547d05728aba7b98bb14ab005d3468dd228402285ea2484b04f19a373215
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-csv-1.13.0.jar
+outputs.1.length=59301
+outputs.1.checksums.sha512=c155d65f0df1fa0de256b4ab7df8d46886807bc877c5116d4bfb444f6afff760f189699bcd349669ed7620673a38ea65cd325bb6423df20da69d200136a67b97
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-csv-1.13.0-tests.jar
+outputs.2.length=36930789
+outputs.2.checksums.sha512=ab0db37debd42bc8bfe164c7ff2c9d8767ad839b39207e7082aa09ce650b899871defe743dccc5bc83edaef6e74e12d09d927b0ae1580ccf581d88610044f7d3
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-csv-1.13.0-sources.jar
+outputs.3.length=58929
+outputs.3.checksums.sha512=27aedde71ab0f0540c4d9b0828dd76e831bc84dda4bda5f5ea24e2c41ddb7cc5e0bf33a1acbe7c0f08b416915ce2ad08ecf4e75fb62a0be416e8ab99b4235c8b
+
+outputs.4.groupId=org.apache.commons
+outputs.4.filename=commons-csv-1.13.0-test-sources.jar
+outputs.4.length=36863762
+outputs.4.checksums.sha512=8805e9761c808951f13ff9f5fdbd04d01128011c81e846ccc84afbd3593ddd538502c2716626db85e5ba93c90740cfe061de38cd322d5a32539c6c0e1b33f14e
+
+outputs.5.groupId=org.apache.commons
+outputs.5.filename=commons-csv-1.13.0-cyclonedx.xml
+outputs.5.length=9064
+outputs.5.checksums.sha512=4da5f8de1f69c5be6c7f0fbe996b1a5015fe15a0c64684c7191e0a36f4277181fecb4f796ab735f9ab9d456f5358ed86cca62d07ac7ce8ad3c15ef62553b1112
+
+outputs.6.groupId=org.apache.commons
+outputs.6.filename=commons-csv-1.13.0-cyclonedx.json
+outputs.6.length=9905
+outputs.6.checksums.sha512=0a33161bef16d46982ef09a9b01f6a3967ea457b91cf878ac7d4de18168585003075d8ae1e110f41b285eca7e67d23eaf12de856567b34196b4ba5bd36d8729e
