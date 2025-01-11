@@ -19,6 +19,7 @@ rebuilding **5 releases** of org.jpmml:jpmml-statsmodels:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.2.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.2.1/pom) | | | |
 | [1.2.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.2.0/pom) | [mvn jdk8](jpmml-statsmodels-1.2.0.buildspec) | [result](jpmml-statsmodels-1.2.0.buildinfo): [4 :white_check_mark: ](jpmml-statsmodels-1.2.0.buildcompare) | 82K |
 | [1.1.3](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.1.3/pom) | [mvn jdk8](jpmml-statsmodels-1.1.3.buildspec) | [result](jpmml-statsmodels-1.1.3.buildinfo): [4 :white_check_mark: ](jpmml-statsmodels-1.1.3.buildcompare) | 63K |
 | [1.1.2](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.1.2/pom) | [mvn jdk8](jpmml-statsmodels-1.1.2.buildspec) | [result](jpmml-statsmodels-1.1.2.buildinfo): [3 :white_check_mark:  1 :warning:](jpmml-statsmodels-1.1.2.buildcompare) [:memo:](https://github.com/jpmml/jpmml-statsmodels/pull/4) | 61K |

@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.apache.commons:commons-build-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.15.0](https://central.sonatype.com/artifact/org.apache.commons/commons-build-plugin/1.15.0/pom) | | | |
 | [1.14.1](https://central.sonatype.com/artifact/org.apache.commons/commons-build-plugin/1.14.1/pom) | [mvn jdk17](commons-build-plugin-1.14.1.buildspec) | [result](commons-build-plugin-1.14.1.buildinfo): [5 :white_check_mark: ](commons-build-plugin-1.14.1.buildcompare) | 90K |
 | [1.14.0](https://central.sonatype.com/artifact/org.apache.commons/commons-build-plugin/1.14.0/pom) | [mvn jdk17](commons-build-plugin-1.14.0.buildspec) | [result](commons-build-plugin-1.14.0.buildinfo): [5 :white_check_mark: ](commons-build-plugin-1.14.0.buildcompare) | 90K |
 
