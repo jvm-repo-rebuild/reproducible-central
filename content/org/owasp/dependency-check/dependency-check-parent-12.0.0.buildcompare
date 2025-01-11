@@ -1,0 +1,9 @@
+version=12.0.0
+ok=22
+ko=0
+ignored=0
+okFiles="dependency-check-parent-12.0.0.pom dependency-check-utils-12.0.0.pom dependency-check-utils-12.0.0.jar dependency-check-utils-12.0.0-sources.jar dependency-check-core-12.0.0.pom dependency-check-core-12.0.0.jar dependency-check-core-12.0.0-sources.jar dependency-check-core-12.0.0-tests.jar dependency-check-cli-12.0.0.pom dependency-check-cli-12.0.0.jar dependency-check-cli-12.0.0-sources.jar dependency-check-cli-12.0.0-release.zip dependency-check-ant-12.0.0.pom dependency-check-ant-12.0.0.jar dependency-check-ant-12.0.0-sources.jar dependency-check-ant-12.0.0-release.zip dependency-check-maven-12.0.0.pom dependency-check-maven-12.0.0.jar dependency-check-maven-12.0.0-sources.jar dependency-check-plugin-12.0.0.pom dependency-check-plugin-12.0.0.jar dependency-check-plugin-12.0.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
