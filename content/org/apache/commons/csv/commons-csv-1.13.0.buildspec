@@ -1,0 +1,17 @@
+groupId=org.apache.commons
+artifactId=commons-csv
+display=${groupId}:${artifactId}
+version=1.13.0
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=rel/${artifactId}-${version}
+
+tool=mvn
+jdk=17
+newline=lf
+
+command="mvn -Prelease clean:clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dspdx.skip -Dcommons.release.dryRun -Dcommons.release.isDistModule"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
