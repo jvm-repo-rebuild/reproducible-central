@@ -1,0 +1,9 @@
+version=1.15.0
+ok=5
+ko=0
+ignored=0
+okFiles="commons-build-plugin-1.15.0.pom commons-build-plugin-1.15.0.jar commons-build-plugin-1.15.0-tests.jar commons-build-plugin-1.15.0-sources.jar commons-build-plugin-1.15.0-test-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
