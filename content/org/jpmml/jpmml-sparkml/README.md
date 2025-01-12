@@ -15,15 +15,15 @@ Source code: [https://github.com/jpmml/jpmml-sparkml.git](https://github.com/jpm
 * [org.jpmml:pmml-sparkml-xgboost](https://central.sonatype.com/artifact/org.jpmml/pmml-sparkml-xgboost/overview)
 </details>
 
-rebuilding **16 releases** of org.jpmml:jpmml-sparkml:
+rebuilding **17 releases** of org.jpmml:jpmml-sparkml:
 - **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [2.5.2](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/2.5.2/pom) | [mvn jdk8](jpmml-sparkml-2.5.2.buildspec) | [result](jpmml-sparkml-2.5.2.buildinfo): [10 :white_check_mark: ](jpmml-sparkml-2.5.2.buildcompare) | 349K |
 | [2.5.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/2.5.1/pom) | [mvn jdk8](jpmml-sparkml-2.5.1.buildspec) | [result](jpmml-sparkml-2.5.1.buildinfo): [10 :white_check_mark: ](jpmml-sparkml-2.5.1.buildcompare) | 349K |
-| [2.5.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/2.5.0/pom) | | | |
+| [2.5.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/2.5.0/pom) | [mvn jdk8](jpmml-sparkml-2.5.0.buildspec) | [result](jpmml-sparkml-2.5.0.buildinfo): [4 :white_check_mark:  6 :warning:](jpmml-sparkml-2.5.0.buildcompare) | 350K |
 | [2.4.3](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/2.4.3/pom) | | | |
 | [2.4.2](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/2.4.2/pom) | [mvn jdk8](jpmml-sparkml-2.4.2.buildspec) | [result](jpmml-sparkml-2.4.2.buildinfo): [10 :white_check_mark: ](jpmml-sparkml-2.4.2.buildcompare) | 349K |
 | [2.4.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/2.4.1/pom) | | | |
