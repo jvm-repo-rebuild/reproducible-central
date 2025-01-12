@@ -1,0 +1,16 @@
+groupId=org.apache.maven.plugins
+artifactId=maven-artifact-plugin
+display=${groupId}:${artifactId}
+version=3.6.0
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Papache-release clean package -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=

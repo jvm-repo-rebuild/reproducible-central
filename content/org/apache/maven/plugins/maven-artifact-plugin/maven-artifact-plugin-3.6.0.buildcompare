@@ -1,0 +1,9 @@
+version=3.6.0
+ok=6
+ko=0
+ignored=0
+okFiles="maven-artifact-plugin-3.6.0.pom maven-artifact-plugin-3.6.0.jar maven-artifact-plugin-3.6.0-source-release.zip maven-artifact-plugin-3.6.0-sources.jar maven-artifact-plugin-3.6.0-cyclonedx.xml maven-artifact-plugin-3.6.0-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
