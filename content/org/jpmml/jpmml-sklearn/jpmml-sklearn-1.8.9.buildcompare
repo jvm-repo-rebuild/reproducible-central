@@ -1,0 +1,9 @@
+version=1.8.9
+ok=19
+ko=0
+ignored=0
+okFiles="jpmml-sklearn-1.8.9.pom pmml-sklearn-1.8.9.pom pmml-sklearn-1.8.9.jar pmml-sklearn-1.8.9-sources.jar pmml-sklearn-extension-1.8.9.pom pmml-sklearn-extension-1.8.9.jar pmml-sklearn-extension-1.8.9-sources.jar pmml-sklearn-h2o-1.8.9.pom pmml-sklearn-h2o-1.8.9.jar pmml-sklearn-h2o-1.8.9-sources.jar pmml-sklearn-lightgbm-1.8.9.pom pmml-sklearn-lightgbm-1.8.9.jar pmml-sklearn-lightgbm-1.8.9-sources.jar pmml-sklearn-statsmodels-1.8.9.pom pmml-sklearn-statsmodels-1.8.9.jar pmml-sklearn-statsmodels-1.8.9-sources.jar pmml-sklearn-xgboost-1.8.9.pom pmml-sklearn-xgboost-1.8.9.jar pmml-sklearn-xgboost-1.8.9-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
