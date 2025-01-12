@@ -15,8 +15,8 @@ Source code: [https://github.com/jpmml/jpmml-sparkml.git](https://github.com/jpm
 * [org.jpmml:pmml-sparkml-xgboost](https://central.sonatype.com/artifact/org.jpmml/pmml-sparkml-xgboost/overview)
 </details>
 
-rebuilding **19 releases** of org.jpmml:jpmml-sparkml:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **20 releases** of org.jpmml:jpmml-sparkml:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -45,7 +45,7 @@ rebuilding **19 releases** of org.jpmml:jpmml-sparkml:
 | [2.1.2](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/2.1.2/pom) | [mvn jdk8](jpmml-sparkml-2.1.2.buildspec) | :x: | |
 | [2.1.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/2.1.1/pom) | [mvn jdk8](jpmml-sparkml-2.1.1.buildspec) | :x: | |
 | [2.1.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/2.1.0/pom) | [mvn jdk8](jpmml-sparkml-2.1.0.buildspec) | :x: | |
-| [2.0.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/2.0.5/pom) | | | |
+| [2.0.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/2.0.5/pom) | [mvn jdk8](jpmml-sparkml-2.0.5.buildspec) | [result](jpmml-sparkml-2.0.5.buildinfo): [10 :white_check_mark: ](jpmml-sparkml-2.0.5.buildcompare) | 349K |
 | [2.0.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/2.0.4/pom) | [mvn jdk8](jpmml-sparkml-2.0.4.buildspec) | [result](jpmml-sparkml-2.0.4.buildinfo): [10 :white_check_mark: ](jpmml-sparkml-2.0.4.buildcompare) | 349K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
