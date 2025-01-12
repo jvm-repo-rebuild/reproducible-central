@@ -1,0 +1,102 @@
+1 / 2 target/reference/org.apache.commons/commons-csv-1.13.0-cyclonedx.xml target/commons-csv-1.13.0-bom.xml
+--- target/reference/org.apache.commons/commons-csv-1.13.0-cyclonedx.xml
++++ target/commons-csv-1.13.0-bom.xml
+│   --- target/reference/org.apache.commons/commons-csv-1.13.0-cyclonedx.xml
+├── +++ target/commons-csv-1.13.0-bom.xml
+│ @@ -121,22 +121,22 @@
+│        <version>1.17.2</version>
+│        <description>The Apache Commons Codec component contains encoders and decoders for
+│       formats such as Base16, Base32, Base64, digest, and Hexadecimal. In addition to these
+│       widely used encoders and decoders, the codec package also maintains a
+│       collection of phonetic encoding utilities.</description>
+│        <scope>required</scope>
+│        <hashes>
+│ -        <hash alg="MD5">01ac8f212d19d5edf2e67514463da69c</hash>
+│ -        <hash alg="SHA-1">760ed4706b8f689b4ad422cb6ebbcd3b9ad2b1c0</hash>
+│ -        <hash alg="SHA-256">8685c2f8c53a384e6807f6f4721c717183ebcbf8e8a671ee145358a23c6a013e</hash>
+│ -        <hash alg="SHA-512">1e0204b3ab910775e4a9298863716bbbfc1b0f6a3ecccd19129746c8b4cc226b5a9873e1b74e6450a2c75d76ee17e69137dca58484b0ec5743f9184bcc0991a2</hash>
+│ -        <hash alg="SHA-384">ed9b9319d5502cf24d174db99cea748b24e2becf9a198a046e5a81819263625379de9b2e245abcf3ddc17fd274312c56</hash>
+│ -        <hash alg="SHA3-384">6384fc955221bb66c52373f28c88d2bd2d83dc75959b28563d8b4a1c3c49d2d760636a2026c7404734ec62f382d9a538</hash>
+│ -        <hash alg="SHA3-256">2432cdc1b25736fc11bcb9ae907dc8e7359ae95b37fe74babc010f6ea83c0a24</hash>
+│ -        <hash alg="SHA3-512">0e66da0c462fe3707581386f32cbdccfa89e54876f7de8002698ff0328ca59e3c7f76923907de2256ba6b8d72257ea2955987a141b406deefafe3e1b4fcdbcdd</hash>
+│ +        <hash alg="MD5">52e5f2054151cf878744451e6a46b8f0</hash>
+│ +        <hash alg="SHA-1">cd6bb9d856db5f61871a94d5801efd0b93b7fcb2</hash>
+│ +        <hash alg="SHA-256">4148332728490cef12b29dac4c385f46982f04285132c6fa51ad7267d7dc7a8b</hash>
+│ +        <hash alg="SHA-512">a7f9cb90a37bb1e2c80958f6de1baa5a8c82b7f96e5900dba13d7679019a0c2b1cc7b551b338e24b9a782c961112675e02f439498b96f389b1f899945f08071b</hash>
+│ +        <hash alg="SHA-384">0f8b3761bac50af319f81e51f077c97958cb4a571f1a78a6e660b97d3b25979a51495f578e643e0145a3c02ebbec2693</hash>
+│ +        <hash alg="SHA3-384">2db277092499618e6f621cea68f368167a45415260b36731662b8b9d3bbd28b2b99683cfb93b70b3a427ddb4493221f4</hash>
+│ +        <hash alg="SHA3-256">4f3e278f3525050144ca4fe27f097a5c8f9514d47f0e4deb2817f2964fda3130</hash>
+│ +        <hash alg="SHA3-512">760e46f5d41a57bf0576ca89c467e8c0f664e09954b16c25d63a9db26a0226f4f15737a2ad776f82e0fe39ff33e9da0729e329e4782f12d8d69be1e1ead60c5d</hash>
+│        </hashes>
+│        <licenses>
+│          <license>
+│            <id>Apache-2.0</id>
+│            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+│          </license>
+│        </licenses>
+
+2 / 2 target/reference/org.apache.commons/commons-csv-1.13.0-cyclonedx.json target/commons-csv-1.13.0-bom.json
+--- target/reference/org.apache.commons/commons-csv-1.13.0-cyclonedx.json
++++ target/commons-csv-1.13.0-bom.json
+├── Pretty-printed
+│┄ Similarity: 0.9996279761904762%
+│┄ Differences: {"'components'": "{1: {'hashes': {0: {'content': '52e5f2054151cf878744451e6a46b8f0'}, 1: "
+│┄                  "{'content': 'cd6bb9d856db5f61871a94d5801efd0b93b7fcb2'}, 2: {'content': "
+│┄                  "'4148332728490cef12b29dac4c385f46982f04285132c6fa51ad7267d7dc7a8b'}, 3: "
+│┄                  "{'content': "
+│┄                  "'a7f9cb90a37bb1e2c80958f6de1baa5a8c82b7f96e5900dba13d7679019a0c2b1cc7b551b338e24b9a782c961112675e02f439498b96f389b1f899945f08071b'}, "
+│┄                  "4: {'content': "
+│┄                   […]
+│ @@ -109,43 +109,43 @@
+│                      "url": "https://github.com/apache/commons-codec"
+│                  }
+│              ],
+│              "group": "commons-codec",
+│              "hashes": [
+│                  {
+│                      "alg": "MD5",
+│ -                    "content": "01ac8f212d19d5edf2e67514463da69c"
+│ +                    "content": "52e5f2054151cf878744451e6a46b8f0"
+│                  },
+│                  {
+│                      "alg": "SHA-1",
+│ -                    "content": "760ed4706b8f689b4ad422cb6ebbcd3b9ad2b1c0"
+│ +                    "content": "cd6bb9d856db5f61871a94d5801efd0b93b7fcb2"
+│                  },
+│                  {
+│                      "alg": "SHA-256",
+│ -                    "content": "8685c2f8c53a384e6807f6f4721c717183ebcbf8e8a671ee145358a23c6a013e"
+│ +                    "content": "4148332728490cef12b29dac4c385f46982f04285132c6fa51ad7267d7dc7a8b"
+│                  },
+│                  {
+│                      "alg": "SHA-512",
+│ -                    "content": "1e0204b3ab910775e4a9298863716bbbfc1b0f6a3ecccd19129746c8b4cc226b5a9873e1b74e6450a2c75d76ee17e69137dca58484b0ec5743f9184bcc0991a2"
+│ +                    "content": "a7f9cb90a37bb1e2c80958f6de1baa5a8c82b7f96e5900dba13d7679019a0c2b1cc7b551b338e24b9a782c961112675e02f439498b96f389b1f899945f08071b"
+│                  },
+│                  {
+│                      "alg": "SHA-384",
+│ -                    "content": "ed9b9319d5502cf24d174db99cea748b24e2becf9a198a046e5a81819263625379de9b2e245abcf3ddc17fd274312c56"
+│ +                    "content": "0f8b3761bac50af319f81e51f077c97958cb4a571f1a78a6e660b97d3b25979a51495f578e643e0145a3c02ebbec2693"
+│                  },
+│                  {
+│                      "alg": "SHA3-384",
+│ -                    "content": "6384fc955221bb66c52373f28c88d2bd2d83dc75959b28563d8b4a1c3c49d2d760636a2026c7404734ec62f382d9a538"
+│ +                    "content": "2db277092499618e6f621cea68f368167a45415260b36731662b8b9d3bbd28b2b99683cfb93b70b3a427ddb4493221f4"
+│                  },
+│                  {
+│                      "alg": "SHA3-256",
+│ -                    "content": "2432cdc1b25736fc11bcb9ae907dc8e7359ae95b37fe74babc010f6ea83c0a24"
+│ +                    "content": "4f3e278f3525050144ca4fe27f097a5c8f9514d47f0e4deb2817f2964fda3130"
+│                  },
+│                  {
+│                      "alg": "SHA3-512",
+│ -                    "content": "0e66da0c462fe3707581386f32cbdccfa89e54876f7de8002698ff0328ca59e3c7f76923907de2256ba6b8d72257ea2955987a141b406deefafe3e1b4fcdbcdd"
+│ +                    "content": "760e46f5d41a57bf0576ca89c467e8c0f664e09954b16c25d63a9db26a0226f4f15737a2ad776f82e0fe39ff33e9da0729e329e4782f12d8d69be1e1ead60c5d"
+│                  }
+│              ],
+│              "licenses": [
+│                  {
+│                      "license": {
+│                          "id": "Apache-2.0",
+│                          "url": "https://www.apache.org/licenses/LICENSE-2.0"
+
