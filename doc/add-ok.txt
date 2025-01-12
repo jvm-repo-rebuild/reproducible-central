@@ -1,13 +1,3 @@
-content/io/airlift/airbase/airbase-210.buildspec:211
-content/io/wcm/tooling/wcm-parent_toplevel-2.3.4.buildspec:2.4.2
+content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.0.4.buildspec:1.0.5
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-21.buildspec:11.1.1-beta-22
 content/org/apache/orc/orc-2.0.3.buildspec:2.1.0
-content/org/apache/commons/commons-build-plugin/commons-build-plugin-1.14.1.buildspec:1.15.0
-content/org/apache/commons/csv/commons-csv-1.12.0.buildspec:1.13.0
-content/org/jpmml/jpmml-h2o/jpmml-h2o-1.2.14.buildspec:1.2.15
-content/org/jpmml/jpmml-lightgbm/jpmml-lightgbm-1.5.5.buildspec:1.5.6
-content/org/jpmml/jpmml-r/jpmml-r-1.6.5.buildspec:1.6.6
-content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.8.8.buildspec:1.8.9
-content/org/jpmml/jpmml-statsmodels/jpmml-statsmodels-1.2.0.buildspec:1.2.1
-content/org/jpmml/jpmml-transpiler/jpmml-transpiler-1.3.9.buildspec:1.3.10
-content/org/jpmml/jpmml-xgboost/jpmml-xgboost-1.8.7.buildspec:1.8.8
-content/org/owasp/dependency-check/dependency-check-11.1.1.buildspec:12.0.0
