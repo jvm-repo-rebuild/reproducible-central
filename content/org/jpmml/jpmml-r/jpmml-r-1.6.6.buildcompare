@@ -1,0 +1,9 @@
+version=1.6.6
+ok=13
+ko=0
+ignored=0
+okFiles="jpmml-r-1.6.6.pom pmml-rexp-evaluator-1.6.6.pom pmml-rexp-evaluator-1.6.6.jar pmml-rexp-evaluator-1.6.6-sources.jar pmml-rexp-1.6.6.pom pmml-rexp-1.6.6.jar pmml-rexp-1.6.6-sources.jar pmml-rexp-lightgbm-1.6.6.pom pmml-rexp-lightgbm-1.6.6.jar pmml-rexp-lightgbm-1.6.6-sources.jar pmml-rexp-xgboost-1.6.6.pom pmml-rexp-xgboost-1.6.6.jar pmml-rexp-xgboost-1.6.6-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
