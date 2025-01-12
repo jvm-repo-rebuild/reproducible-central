@@ -1,0 +1,5 @@
+version=1.0.5
+ok=4
+ko=0
+okFiles="dk.mada.style.gradle.plugin-1.0.5.pom mada-style-gradle-1.0.5-sources.jar mada-style-gradle-1.0.5.jar mada-style-gradle-1.0.5.pom"
+koFiles=""
