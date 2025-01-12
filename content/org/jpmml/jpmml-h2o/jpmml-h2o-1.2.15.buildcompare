@@ -1,0 +1,9 @@
+version=1.2.15
+ok=4
+ko=0
+ignored=0
+okFiles="jpmml-h2o-1.2.15.pom pmml-h2o-1.2.15.pom pmml-h2o-1.2.15.jar pmml-h2o-1.2.15-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
