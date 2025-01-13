@@ -1,0 +1,7 @@
+version=2.4.4
+ok=2
+ko=0
+ignored=0
+okFiles="io.wcm.parent_toplevel-2.4.4.pom io.wcm.parent_toplevel-2.4.4-site.xml"
+koFiles=""
+ignoredFiles=""
