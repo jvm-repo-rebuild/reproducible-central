@@ -145,8 +145,9 @@
       <version>5.0.11.Final</version>
       <version>5.0.12.Final</version>
       <version>6.0.0.Dev01</version>
+      <version>6.0.0.Dev02</version>
       <version>14.0.0.CR2</version>
     </versions>
-    <lastUpdated>20241211104935</lastUpdated>
+    <lastUpdated>20250113133522</lastUpdated>
   </versioning>
 </metadata>

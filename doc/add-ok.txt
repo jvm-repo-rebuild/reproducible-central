@@ -1,3 +1,3 @@
-content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.0.4.buildspec:1.0.5
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-21.buildspec:11.1.1-beta-22
+content/io/wcm/tooling/wcm-parent_toplevel-2.4.2.buildspec:2.4.4
+content/org/apache/activemq/activemq-6.1.4.buildspec:6.1.5
 content/org/apache/orc/orc-2.0.3.buildspec:2.1.0
