@@ -1,0 +1,11 @@
+version=1.9.0
+ok=5
+ko=2
+ignored=1
+okFiles="commons-release-plugin-1.9.0.pom commons-release-plugin-1.9.0.jar commons-release-plugin-1.9.0-tests.jar commons-release-plugin-1.9.0-sources.jar commons-release-plugin-1.9.0-test-sources.jar"
+koFiles="commons-release-plugin-1.9.0-cyclonedx.xml commons-release-plugin-1.9.0-cyclonedx.json"
+ignoredFiles="commons-release-plugin-1.9.0.spdx.json"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.commons/commons-release-plugin-1.9.0-cyclonedx.xml target/commons-release-plugin-1.9.0-bom.xml
+# diffoscope target/reference/org.apache.commons/commons-release-plugin-1.9.0-cyclonedx.json target/commons-release-plugin-1.9.0-bom.json
