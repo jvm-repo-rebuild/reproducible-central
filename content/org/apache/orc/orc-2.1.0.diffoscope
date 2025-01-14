@@ -1,0 +1,96 @@
+# javadoc html content in source-release.zip?
+1 /        1 target/reference/org.apache.orc/orc-2.1.0-source-release.zip target/orc-2.1.0-source-release.zip
+--- target/reference/org.apache.orc/orc-2.1.0-source-release.zip
++++ target/orc-2.1.0-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 3327298 bytes, number of entries: 1471
+│ +Zip file size: 1065530 bytes, number of entries: 601
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/
+│  -rw-r--r--  2.0 unx     3862 b- defN 00-Jan-01 00:00 orc-2.1.0/CMakeLists.txt
+│  -rw-r--r--  2.0 unx      260 b- defN 00-Jan-01 00:00 orc-2.1.0/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 00-Jan-01 00:00 orc-2.1.0/LICENSE
+│  -rw-r--r--  2.0 unx      167 b- defN 00-Jan-01 00:00 orc-2.1.0/NOTICE
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/bench/
+│  -rw-r--r--  2.0 unx       40 b- defN 00-Jan-01 00:00 orc-2.1.0/bench/.gitignore
+│ @@ -121,652 +121,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/bench/spark/src/java/org/apache/orc/bench/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/bench/spark/src/java/org/apache/orc/bench/spark/
+│  -rw-r--r--  2.0 unx    13234 b- defN 00-Jan-01 00:00 orc-2.1.0/bench/spark/src/java/org/apache/orc/bench/spark/SparkBenchmark.java
+│  -rw-r--r--  2.0 unx     3471 b- defN 00-Jan-01 00:00 orc-2.1.0/bench/spark/src/java/org/apache/orc/bench/spark/SparkSchema.java
+│  -rw-r--r--  2.0 unx     3026 b- defN 00-Jan-01 00:00 orc-2.1.0/checkstyle-suppressions.xml
+│  -rw-r--r--  2.0 unx     2607 b- defN 00-Jan-01 00:00 orc-2.1.0/checkstyle.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/core/
+│ --rw-r--r--  2.0 unx     8279 b- defN 00-Jan-01 00:00 orc-2.1.0/core/dependency-reduced-pom.xml
+│ -drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/core/orc-core/
+│ --rw-r--r--  2.0 unx    96862 b- defN 00-Jan-01 00:00 orc-2.1.0/core/orc-core/allclasses-index.html
+│ --rw-r--r--  2.0 unx     4636 b- defN 00-Jan-01 00:00 orc-2.1.0/core/orc-core/allpackages-index.html
+...
+│ --rw-r--r--  2.0 unx    91768 b- defN 00-Jan-01 00:00 orc-2.1.0/core/orc-core/serialized-form.html
+│ --rw-r--r--  2.0 unx    18737 b- defN 00-Jan-01 00:00 orc-2.1.0/core/orc-core/stylesheet.css
+│ --rw-r--r--  2.0 unx      163 b- defN 00-Jan-01 00:00 orc-2.1.0/core/orc-core/tag-search-index.js
+│ --rw-r--r--  2.0 unx    16167 b- defN 00-Jan-01 00:00 orc-2.1.0/core/orc-core/type-search-index.js
+│ -drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/core/orc-mapreduce/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/core/orc-tools/
+│  -rw-r--r--  2.0 unx     5917 b- defN 00-Jan-01 00:00 orc-2.1.0/core/pom.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/core/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/core/src/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/core/src/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/core/src/java/org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/core/src/java/org/apache/orc/
+│  -rw-r--r--  2.0 unx      959 b- defN 00-Jan-01 00:00 orc-2.1.0/core/src/java/org/apache/orc/BinaryColumnStatistics.java
+│ @@ -1083,91 +445,14 @@
+│  -rw-r--r--  2.0 unx     2596 b- defN 00-Jan-01 00:00 orc-2.1.0/examples/src/java/org/apache/orc/examples/CompressionWriter.java
+│  -rw-r--r--  2.0 unx     2864 b- defN 00-Jan-01 00:00 orc-2.1.0/examples/src/java/org/apache/orc/examples/CoreReader.java
+│  -rw-r--r--  2.0 unx     2436 b- defN 00-Jan-01 00:00 orc-2.1.0/examples/src/java/org/apache/orc/examples/CoreWriter.java
+│  -rw-r--r--  2.0 unx     4439 b- defN 00-Jan-01 00:00 orc-2.1.0/examples/src/java/org/apache/orc/examples/Driver.java
+│  -rw-r--r--  2.0 unx     2926 b- defN 00-Jan-01 00:00 orc-2.1.0/examples/src/java/org/apache/orc/examples/InMemoryEncryptionReader.java
+│  -rw-r--r--  2.0 unx     2885 b- defN 00-Jan-01 00:00 orc-2.1.0/examples/src/java/org/apache/orc/examples/InMemoryEncryptionWriter.java
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/mapreduce/
+│ --rw-r--r--  2.0 unx     5432 b- defN 00-Jan-01 00:00 orc-2.1.0/mapreduce/dependency-reduced-pom.xml
+│ -drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/mapreduce/orc-mapreduce/
+│ --rw-r--r--  2.0 unx    11351 b- defN 00-Jan-01 00:00 orc-2.1.0/mapreduce/orc-mapreduce/allclasses-index.html
+│ --rw-r--r--  2.0 unx     3112 b- defN 00-Jan-01 00:00 orc-2.1.0/mapreduce/orc-mapreduce/allpackages-index.html
+...
+│ --rw-r--r--  2.0 unx     6492 b- defN 00-Jan-01 00:00 orc-2.1.0/mapreduce/orc-mapreduce/serialized-form.html
+│ --rw-r--r--  2.0 unx    18737 b- defN 00-Jan-01 00:00 orc-2.1.0/mapreduce/orc-mapreduce/stylesheet.css
+│ --rw-r--r--  2.0 unx      163 b- defN 00-Jan-01 00:00 orc-2.1.0/mapreduce/orc-mapreduce/tag-search-index.js
+│ --rw-r--r--  2.0 unx      876 b- defN 00-Jan-01 00:00 orc-2.1.0/mapreduce/orc-mapreduce/type-search-index.js
+│  -rw-r--r--  2.0 unx     3882 b- defN 00-Jan-01 00:00 orc-2.1.0/mapreduce/pom.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/mapreduce/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/mapreduce/src/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/mapreduce/src/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/mapreduce/src/java/org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/mapreduce/src/java/org/apache/orc/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/mapreduce/src/java/org/apache/orc/mapred/
+│ @@ -1210,84 +495,14 @@
+│  -rw-r--r--  2.0 unx     2182 b- defN 00-Jan-01 00:00 orc-2.1.0/mapreduce/src/test/org/apache/orc/mapreduce/TestOrcRecordWriter.java
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/mapreduce/src/test/resources/
+│  -rw-r--r--  2.0 unx    47024 b- defN 00-Jan-01 00:00 orc-2.1.0/mapreduce/src/test/resources/acid5k.orc
+│  -rw-r--r--  2.0 unx      893 b- defN 00-Jan-01 00:00 orc-2.1.0/mapreduce/src/test/resources/log4j.properties
+│  -rw-r--r--  2.0 unx     4075 b- defN 00-Jan-01 00:00 orc-2.1.0/mvnw
+│  -rw-r--r--  2.0 unx    28613 b- defN 00-Jan-01 00:00 orc-2.1.0/pom.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/shims/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/shims/orc-core/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/shims/orc-shims/
+│ --rw-r--r--  2.0 unx     8164 b- defN 00-Jan-01 00:00 orc-2.1.0/shims/orc-shims/allclasses-index.html
+...
+│ --rw-r--r--  2.0 unx      105 b- defN 00-Jan-01 00:00 orc-2.1.0/tools/orc-tools/tag-search-index.js
+│ --rw-r--r--  2.0 unx      921 b- defN 00-Jan-01 00:00 orc-2.1.0/tools/orc-tools/type-search-index.js
+│  -rw-r--r--  2.0 unx     7052 b- defN 00-Jan-01 00:00 orc-2.1.0/tools/pom.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/tools/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/tools/src/assembly/
+│  -rw-r--r--  2.0 unx     1107 b- defN 00-Jan-01 00:00 orc-2.1.0/tools/src/assembly/uber.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/tools/src/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/tools/src/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.1.0/tools/src/java/org/apache/
+│ @@ -1466,8 +596,8 @@
+│  -rw-r--r--  2.0 unx    13512 b- defN 00-Jan-01 00:00 orc-2.1.0/tools/src/test/resources/orc-file-dump-bloomfilter2.out
+│  -rw-r--r--  2.0 unx     6745 b- defN 00-Jan-01 00:00 orc-2.1.0/tools/src/test/resources/orc-file-dump-column-type.out
+│  -rw-r--r--  2.0 unx    33774 b- defN 00-Jan-01 00:00 orc-2.1.0/tools/src/test/resources/orc-file-dump-dictionary-threshold.out
+│  -rw-r--r--  2.0 unx     2074 b- defN 00-Jan-01 00:00 orc-2.1.0/tools/src/test/resources/orc-file-dump-nan-and-infinite.json
+│  -rw-r--r--  2.0 unx    32662 b- defN 00-Jan-01 00:00 orc-2.1.0/tools/src/test/resources/orc-file-dump.json
+│  -rw-r--r--  2.0 unx    13981 b- defN 00-Jan-01 00:00 orc-2.1.0/tools/src/test/resources/orc-file-dump.out
+│  -rw-r--r--  2.0 unx     5839 b- defN 00-Jan-01 00:00 orc-2.1.0/tools/src/test/resources/orc-file-has-null.out
+│ -1471 files, 16579669 bytes uncompressed, 3021328 bytes compressed:  81.8%
+│ +601 files, 4322941 bytes uncompressed, 948082 bytes compressed:  78.1%

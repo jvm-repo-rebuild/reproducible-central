@@ -18,5 +18,5 @@ buildinfo=java/target/${artifactId}-${version}.buildinfo
 execBefore="rm -f java/*/dependency-reduced-pom.xml"
 execAfter="(unzip -t java/target/reference/*/orc-tools-${version}-uber.jar ; unzip -t java/tools/target/orc-tools-${version}-uber.jar ) | grep .brotli4j/native"
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=
