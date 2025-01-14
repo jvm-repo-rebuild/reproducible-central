@@ -1,0 +1,19 @@
+groupId=io.avaje
+artifactId=avaje-jex-parent
+display=${groupId}:$(echo "${artifactId}" | sed -e "s/-parent//")
+version=3.0-RC14
+
+gitRepo=https://github.com/avaje/avaje-jex.git
+gitTag=${artifactId}-${version}
+gitTag=03c4c40790d360bd34bf449e9b500bf643ebffb7
+
+tool=mvn
+jdk=21
+newline=lf
+#umask=022
+
+command="mvn -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
