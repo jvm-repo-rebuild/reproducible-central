@@ -4,9 +4,12 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250113094544 --> [io.wcm.parent_toplevel](../content/io/wcm/tooling/README.md) | [2.4.2](../content/io/wcm/tooling/wcm-parent_toplevel-2.4.2.buildspec) :white_check_mark: | [2.4.4](../content/io/wcm/tooling/wcm-parent_toplevel-2.4.4.buildspec) | `bin/add-new-release.sh content/io/wcm/tooling/wcm-parent_toplevel-2.4.2.buildspec 2.4.4` |
-| <!-- 20250113072943 --> [activemq-parent](../content/org/apache/activemq/README.md) | [6.1.4](../content/org/apache/activemq/activemq-6.1.4.buildspec) :white_check_mark: | [6.1.5](../content/org/apache/activemq/activemq-6.1.5.buildspec) | `bin/add-new-release.sh content/org/apache/activemq/activemq-6.1.4.buildspec 6.1.5` |
-| <!-- 20250110074207 --> [orc](../content/org/apache/orc/README.md) | [2.0.3](../content/org/apache/orc/orc-2.0.3.buildspec) :white_check_mark: | [2.1.0](../content/org/apache/orc/orc-2.1.0.buildspec) | `bin/add-new-release.sh content/org/apache/orc/orc-2.0.3.buildspec 2.1.0` |
+| <!-- 20250114185316 --> [avaje-jex-parent](../content/io/avaje/jex/README.md) | [3.0-RC13](../content/io/avaje/jex/avaje-jex-3.0-RC13.buildspec) :white_check_mark: | [3.0-RC14](../content/io/avaje/jex/avaje-jex-3.0-RC14.buildspec) | `bin/add-new-release.sh content/io/avaje/jex/avaje-jex-3.0-RC13.buildspec 3.0-RC14` |
+| <!-- 20250114155156 --> [metrics-parent](../content/io/dropwizard/metrics/README.md) | [4.2.29](../content/io/dropwizard/metrics/dropwizard-metrics-4.2.29.buildspec) :white_check_mark: | [4.2.30](../content/io/dropwizard/metrics/dropwizard-metrics-4.2.30.buildspec) | `bin/add-new-release.sh content/io/dropwizard/metrics/dropwizard-metrics-4.2.29.buildspec 4.2.30` |
+| <!-- 20250114145545 --> [query](../content/io/cucumber/query/README.md) | [13.0.3](../content/io/cucumber/query/query-13.0.3.buildspec) :white_check_mark: | [13.1.0](../content/io/cucumber/query/query-13.1.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/query/query-13.0.3.buildspec 13.1.0` |
+| <!-- 20250114135323 --> [metrics-parent](../content/io/dropwizard/metrics5/README.md) | [5.0.0-rc23](../content/io/dropwizard/metrics5/dropwizard-metrics-5.0.0-rc23.buildspec) :white_check_mark: | [5.0.0-rc24](../content/io/dropwizard/metrics5/dropwizard-metrics-5.0.0-rc24.buildspec) | `bin/add-new-release.sh content/io/dropwizard/metrics5/dropwizard-metrics-5.0.0-rc23.buildspec 5.0.0-rc24` |
+| <!-- 20250114124105 --> [units-catalog](../content/com/cognite/units/units-catalog/README.md) | [0.1.17](../content/com/cognite/units/units-catalog/units-catalog-0.1.17.buildspec) :white_check_mark: | [0.1.18](../content/com/cognite/units/units-catalog/units-catalog-0.1.18.buildspec) | `bin/add-new-release.sh content/com/cognite/units/units-catalog/units-catalog-0.1.17.buildspec 0.1.18` |
+| <!-- 20250113133522 --> [protostream-aggregator](../content/org/infinispan/protostream/README.md) | [6.0.0.Dev02](../content/org/infinispan/protostream/protostream-6.0.0.Dev02.buildspec) :white_check_mark: | 6.0.0.Dev01 5.0.11.Final 5.0.10.Final 5.0.9.Final 5.0.8.Final  | `bin/add-new-release.sh content/org/infinispan/protostream/protostream-6.0.0.Dev02.buildspec ...` |
 | <!-- 20241218171150 --> [across-platform-bom](../content/com/foreach/across/platform/README.md) | [6.0.0](../content/com/foreach/across/platform/platform-6.0.0.buildspec) :white_check_mark: | 5.5.1 5.5.0 5.4.2 5.4.1 5.4.0  | `bin/add-new-release.sh content/com/foreach/across/platform/platform-6.0.0.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
@@ -30,6 +33,7 @@ New Releases To Add
 | <!-- 20241107092851 --> [:mailbox:](https://lists.apache.org/list?dev@dubbo.apache.org:lte=1M:VOTE) | [dubbo](../content/org/apache/dubbo/README.md) | [3.3.2](../content/org/apache/dubbo/dubbo-3.3.2.buildspec) :white_check_mark: | [3.3.3](../content/org/apache/dubbo/dubbo-3.3.3.buildspec)  | `bin/add-new-release.sh content/org/apache/dubbo/dubbo-3.3.2.buildspec 3.3.3 staging` |
 | <!-- 20240801072232 --> [:mailbox:](https://lists.apache.org/list?dev@directory.apache.org:lte=1M:VOTE) | [project](../content/org/apache/directory/project/README.md) | [49](../content/org/apache/directory/project/project-49.buildspec) :white_check_mark: | [50](../content/org/apache/directory/project/project-50.buildspec)  | `bin/add-new-release.sh content/org/apache/directory/project/project-49.buildspec 50 staging` |
 | <!-- 20230920202802 --> [:mailbox:](https://lists.apache.org/list?dev@wayang.apache.org:lte=1M:VOTE) | [wayang](../content/org/apache/wayang/README.md) | [0.7.1](../content/org/apache/wayang/wayang-0.7.1.buildspec) :white_check_mark: | [1.0.0-RC3](../content/org/apache/wayang/wayang-1.0.0-RC3.buildspec)  | `bin/add-new-release.sh content/org/apache/wayang/wayang-0.7.1.buildspec 1.0.0-RC3 staging` |
+| <!-- 20220318151210 --> [:mailbox:](https://lists.apache.org/list?dev@sling.apache.org:lte=1M:VOTE) | [org.apache.sling.starter](../content/org/apache/sling/org.apache.sling.starter/README.md) | [12](../content/org/apache/sling/org.apache.sling.starter/org.apache.sling.starter-12.buildspec) :warning: | [13](../content/org/apache/sling/org.apache.sling.starter/org.apache.sling.starter-13.buildspec)  | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.starter/org.apache.sling.starter-12.buildspec 13 staging` |
 <!-- END GENERATED ADD STAGING -->
 
 ## New Release of non-Reproducible Previous
@@ -37,10 +41,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250113133522 --> [protostream-aggregator](../content/org/infinispan/protostream/README.md) | [5.0.12.Final](../content/org/infinispan/protostream/protostream-5.0.12.Final.buildspec) :warning: [:memo:](https://github.com/infinispan/protostream/pull/358) | [6.0.0.Dev02](../content/org/infinispan/protostream/protostream-6.0.0.Dev02.buildspec) | `bin/add-new-release.sh content/org/infinispan/protostream/protostream-5.0.12.Final.buildspec 6.0.0.Dev02` |
-| <!-- 20250113041401 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [11.1-javax](../content/io/avaje/inject/avaje-inject-11.1-javax.buildspec) :warning: [:memo:](https://github.com/avaje/avaje-inject/issues/757) | [11.2-RC1](../content/io/avaje/inject/avaje-inject-11.2-RC1.buildspec) | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-11.1-javax.buildspec 11.2-RC1` |
+| <!-- 20250114121312 --> [commons-daemon](../content/org/apache/commons/commons-daemon/README.md) | [1.4.0](../content/org/apache/commons/commons-daemon/commons-daemon-1.4.0.buildspec) :warning: | [1.4.1](../content/org/apache/commons/commons-daemon/commons-daemon-1.4.1.buildspec) | `bin/add-new-release.sh content/org/apache/commons/commons-daemon/commons-daemon-1.4.0.buildspec 1.4.1` |
 | <!-- 20250112112946 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.9.0](../content/org/apache/camel/camel/camel-4.9.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.9.0` |
-| <!-- 20250111133702 --> [commons-release-plugin](../content/org/apache/commons/commons-release-plugin/README.md) | [1.8.3](../content/org/apache/commons/commons-release-plugin/commons-release-plugin-1.8.3.buildspec) :warning: | [1.9.0](../content/org/apache/commons/commons-release-plugin/commons-release-plugin-1.9.0.buildspec) | `bin/add-new-release.sh content/org/apache/commons/commons-release-plugin/commons-release-plugin-1.8.3.buildspec 1.9.0` |
 | <!-- 20250106062110 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.67.12](../content/org/finos/legend/engine/legend-engine-4.67.12.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.67.12` |
 | <!-- 20250103114348 --> [glassfish-parent](../content/org/glassfish/main/README.md) | [8.0.0-JDK17-M7](../content/org/glassfish/main/glassfish-8.0.0-JDK17-M7.buildspec) :warning: | [8.0.0-JDK17-M9](../content/org/glassfish/main/glassfish-8.0.0-JDK17-M9.buildspec) | `bin/add-new-release.sh content/org/glassfish/main/glassfish-8.0.0-JDK17-M7.buildspec 8.0.0-JDK17-M9` |
 | <!-- 20241110060152 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.18.2](../content/org/webjars/swagger-ui/swagger-ui-5.18.2.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.18.2` |
@@ -58,8 +60,10 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20250114101523 --> [quarkus-project](../content/io/quarkus/README.md) | 3.17.6 :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) |
 | <!-- 20250111140352 --> [commons-csv](../content/org/apache/commons/csv/README.md) | 1.13.0 :warning: |
-| <!-- 20250108122616 --> [quarkus-project](../content/io/quarkus/README.md) | 3.17.6 :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) |
+| <!-- 20250111133702 --> [commons-release-plugin](../content/org/apache/commons/commons-release-plugin/README.md) | 1.9.0 :warning: |
+| <!-- 20250110074207 --> [orc](../content/org/apache/orc/README.md) | 2.1.0 :warning: |
 | <!-- 20250107004118 --> [jooby](../content/io/jooby/README.md) | 3.6.0 :warning: |
 | <!-- 20250106163714 --> [env-config](../content/com/github/sitture/env-config/README.md) | 1.13.1 :x: |
 | <!-- 20250103195806 --> [ldapchai](../content/com/github/ldapchai/README.md) | 0.8.7 :warning: |
@@ -142,7 +146,6 @@ New Releases To Add
 | <!-- 20240531090932 --> [pmd-designer](../content/net/sourceforge/pmd/pmd-designer/README.md) | 7.2.0 :warning: [:memo:](https://github.com/pmd/pmd-designer/commit/1548f5f27ba2981b890827fecbd0612fa70a0362) |
 | <!-- 20240527225823 --> [com.io7m.gtyrell](../content/com/io7m/gtyrell/README.md) | 4.0.0 :warning: |
 | <!-- 20240524153720 --> [com.io7m.sunburst](../content/com/io7m/sunburst/README.md) | 0.0.7 :warning: |
-| <!-- 20240524074513 --> [commons-daemon](../content/org/apache/commons/commons-daemon/README.md) | 1.4.0 :warning: |
 | <!-- 20240522202533 --> [com.io7m.idstore](../content/com/io7m/idstore/README.md) | 2.0.1 :warning: |
 | <!-- 20240510194112 --> [com.io7m.cedarbridge](../content/com/io7m/cedarbridge/README.md) | 2.0.0 :warning: [:memo:](https://github.com/io7m-com/cedarbridge/issues/62) |
 | <!-- 20240510171359 --> [com.io7m.jsx](../content/com/io7m/jsx/README.md) | 4.0.0 :warning: |

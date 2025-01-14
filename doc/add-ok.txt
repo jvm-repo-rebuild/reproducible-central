@@ -1,3 +1,5 @@
-content/io/wcm/tooling/wcm-parent_toplevel-2.4.2.buildspec:2.4.4
-content/org/apache/activemq/activemq-6.1.4.buildspec:6.1.5
-content/org/apache/orc/orc-2.0.3.buildspec:2.1.0
+content/com/cognite/units/units-catalog/units-catalog-0.1.17.buildspec:0.1.18
+content/io/avaje/jex/avaje-jex-3.0-RC13.buildspec:3.0-RC14
+content/io/cucumber/query/query-13.0.3.buildspec:13.1.0
+content/io/dropwizard/metrics/dropwizard-metrics-4.2.29.buildspec:4.2.30
+content/io/dropwizard/metrics5/dropwizard-metrics-5.0.0-rc23.buildspec:5.0.0-rc24
