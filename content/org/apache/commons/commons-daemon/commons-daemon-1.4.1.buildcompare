@@ -1,0 +1,14 @@
+version=1.4.1
+ok=7
+ko=5
+ignored=3
+okFiles="commons-daemon-1.4.1.pom commons-daemon-1.4.1.jar commons-daemon-1.4.1-sources.jar commons-daemon-1.4.1-cyclonedx.xml commons-daemon-1.4.1-cyclonedx.json commons-daemon-1.4.1-bin.tar.gz commons-daemon-1.4.1-bin.zip"
+koFiles="commons-daemon-1.4.1-native-src.tar.gz commons-daemon-1.4.1-native-src.zip commons-daemon-1.4.1-src.tar.gz commons-daemon-1.4.1-src.zip commons-daemon-1.4.1-bin-windows.zip"
+ignoredFiles="commons-daemon-1.4.1-tests.jar commons-daemon-1.4.1-test-sources.jar commons-daemon-1.4.1.spdx.json"
+reference_java_version="23 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/commons-daemon/commons-daemon-1.4.1-native-src.tar.gz target/commons-daemon-1.4.1-native-src.tar.gz
+# diffoscope target/reference/commons-daemon/commons-daemon-1.4.1-native-src.zip target/commons-daemon-1.4.1-native-src.zip
+# diffoscope target/reference/commons-daemon/commons-daemon-1.4.1-src.tar.gz target/commons-daemon-1.4.1-src.tar.gz
+# diffoscope target/reference/commons-daemon/commons-daemon-1.4.1-src.zip target/commons-daemon-1.4.1-src.zip
+# diffoscope target/reference/commons-daemon/commons-daemon-1.4.1-bin-windows.zip target/commons-daemon-1.4.1-bin-windows.zip

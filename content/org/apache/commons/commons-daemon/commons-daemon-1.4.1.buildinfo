@@ -1,0 +1,85 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Daemon
+group-id=commons-daemon
+artifact-id=commons-daemon
+version=1.4.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-daemon.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=23
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=commons-daemon
+outputs.0.filename=commons-daemon-1.4.1.pom
+outputs.0.length=8849
+outputs.0.checksums.sha512=4d20c821a4734bf4dfb076d60addf00c0c8fbbb2f88777ab57f0657ab59ade6064a0b44acc2f8f5ba3ce6f985f302bddf5a04bf0caa4180e70fd112a649e015a
+
+outputs.1.groupId=commons-daemon
+outputs.1.filename=commons-daemon-1.4.1.jar
+outputs.1.length=26670
+outputs.1.checksums.sha512=870582f0b2ffdf4d4ab53b87afac737aeb7cd2d19da7b40176faae615548b8001b67b9231c99f9493a7c7e12736ea4680ffd3af9ccbd3f5cc30717e115aa31b0
+# ignored commons-daemon-1.4.1-tests.jar
+
+outputs.2.groupId=commons-daemon
+outputs.2.filename=commons-daemon-1.4.1-sources.jar
+outputs.2.length=26694
+outputs.2.checksums.sha512=55dbeb7b0dd8474a786d20b336cd86cb767692f1fd6b476c33e45f8c66adb85596d7f1b303bd9a039fe5939270fef198697347bf646574a32aa5e478d51ee5c7
+# ignored commons-daemon-1.4.1-test-sources.jar
+
+outputs.3.groupId=commons-daemon
+outputs.3.filename=commons-daemon-1.4.1-cyclonedx.xml
+outputs.3.length=3671
+outputs.3.checksums.sha512=f1faf168562749df30d268ab50d36c77b675d78d181d595c15f1de5fde5ffb1645ab183fe03524885a89465ec3fb8bfea983f4bb1b2d4c50b579bb08806646a7
+
+outputs.4.groupId=commons-daemon
+outputs.4.filename=commons-daemon-1.4.1-cyclonedx.json
+outputs.4.length=4003
+outputs.4.checksums.sha512=d6a6877f3714a2ebd87d7601cf17bfeff03c7be68a8e14ef9ad6f4766b95a327f980e7c141eee0f6eb2353d67c1f873d41679088f363b8f796620ea81924999a
+# ignored commons-daemon-1.4.1.spdx.json
+
+outputs.5.groupId=commons-daemon
+outputs.5.filename=commons-daemon-1.4.1-native-src.tar.gz
+outputs.5.length=151728
+outputs.5.checksums.sha512=cc3a8f7f67b4e5121af31e274304cb21a760c89712610d0131ca6c57420b2bd880782b71377d55f067692dca87135144bfe68be608c035bb30ac1698ee5f8775
+
+outputs.6.groupId=commons-daemon
+outputs.6.filename=commons-daemon-1.4.1-native-src.zip
+outputs.6.length=206763
+outputs.6.checksums.sha512=0c26469eb2265aa1cc8c26f5bc1008072b87fe3c53ed495ab65668bbbac0d3ae9e8baf3e95267ca4240856c5a1b1d2a62c2ac23cff4dad9699d6b0375858af90
+
+outputs.7.groupId=commons-daemon
+outputs.7.filename=commons-daemon-1.4.1-bin.tar.gz
+outputs.7.length=4314313
+outputs.7.checksums.sha512=6e1e590d1b25b1c543b7e149748b25b7a200a20a70d490b1f2628ce808dd9da170d33c62b57421bdf7db0a9e0ac1df7f67de5e9ea4e70d500ec97ff7e6662e6a
+
+outputs.8.groupId=commons-daemon
+outputs.8.filename=commons-daemon-1.4.1-bin.zip
+outputs.8.length=4336500
+outputs.8.checksums.sha512=bc9f1f27c450556893b738e4ff1068c5289be56c2fc333abbe418abe42a039e1e8677608b54e4514d7fa82d220060c35c8492c23cd73515f961fc5091c8ec43f
+
+outputs.9.groupId=commons-daemon
+outputs.9.filename=commons-daemon-1.4.1-src.tar.gz
+outputs.9.length=228874
+outputs.9.checksums.sha512=95404a02fd84226ddaf5b4029d30da0e906c4552d85c727c59db2faf6a9d273779bedcb254c322a9fcee2dc31ce6374db3ec3b6058d5f311642c9fe9b2ab3050
+
+outputs.10.groupId=commons-daemon
+outputs.10.filename=commons-daemon-1.4.1-src.zip
+outputs.10.length=327036
+outputs.10.checksums.sha512=e1c652451fcc9ade80fbd2ebfa5b8687bb237e40fdc996ee5096c3d5928202cfc1f2259df907399c7b32ea8be3bd51b660644ae44b4c35db220ce44e6caeb387
+
+outputs.11.groupId=commons-daemon
+outputs.11.filename=commons-daemon-1.4.1-bin-windows.zip
+outputs.11.length=5261
+outputs.11.checksums.sha512=944de65e5a49d2f8bd8fb3890f623707e91f327c222bd6c1378a34bd90ee0211e96bab40f82e2552d3105918831eac8552be29c504d209d6b924138c9240cabe

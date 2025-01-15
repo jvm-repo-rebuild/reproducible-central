@@ -1,0 +1,18 @@
+groupId=commons-daemon
+artifactId=commons-daemon
+display=${groupId}:${artifactId}
+version=1.4.1
+
+gitRepo=https://github.com/apache/commons-daemon.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=23
+newline=lf
+umask=022
+
+command="mvn clean verify -Prelease -Dcommons.release.isDistModule=false -DskipTests -Dgpg.skip -Dbuildinfo.ignore='*/*.spdx.json,*/*-tests.jar,*/*-test-sources.jar'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
