@@ -4,11 +4,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250114185316 --> [avaje-jex-parent](../content/io/avaje/jex/README.md) | [3.0-RC13](../content/io/avaje/jex/avaje-jex-3.0-RC13.buildspec) :white_check_mark: | [3.0-RC14](../content/io/avaje/jex/avaje-jex-3.0-RC14.buildspec) | `bin/add-new-release.sh content/io/avaje/jex/avaje-jex-3.0-RC13.buildspec 3.0-RC14` |
-| <!-- 20250114155156 --> [metrics-parent](../content/io/dropwizard/metrics/README.md) | [4.2.29](../content/io/dropwizard/metrics/dropwizard-metrics-4.2.29.buildspec) :white_check_mark: | [4.2.30](../content/io/dropwizard/metrics/dropwizard-metrics-4.2.30.buildspec) | `bin/add-new-release.sh content/io/dropwizard/metrics/dropwizard-metrics-4.2.29.buildspec 4.2.30` |
-| <!-- 20250114145545 --> [query](../content/io/cucumber/query/README.md) | [13.0.3](../content/io/cucumber/query/query-13.0.3.buildspec) :white_check_mark: | [13.1.0](../content/io/cucumber/query/query-13.1.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/query/query-13.0.3.buildspec 13.1.0` |
-| <!-- 20250114135323 --> [metrics-parent](../content/io/dropwizard/metrics5/README.md) | [5.0.0-rc23](../content/io/dropwizard/metrics5/dropwizard-metrics-5.0.0-rc23.buildspec) :white_check_mark: | [5.0.0-rc24](../content/io/dropwizard/metrics5/dropwizard-metrics-5.0.0-rc24.buildspec) | `bin/add-new-release.sh content/io/dropwizard/metrics5/dropwizard-metrics-5.0.0-rc23.buildspec 5.0.0-rc24` |
-| <!-- 20250114124105 --> [units-catalog](../content/com/cognite/units/units-catalog/README.md) | [0.1.17](../content/com/cognite/units/units-catalog/units-catalog-0.1.17.buildspec) :white_check_mark: | [0.1.18](../content/com/cognite/units/units-catalog/units-catalog-0.1.18.buildspec) | `bin/add-new-release.sh content/com/cognite/units/units-catalog/units-catalog-0.1.17.buildspec 0.1.18` |
+| <!-- 20250115192208 --> [github-desktop](../content/com/github/hazendaz/git/github-desktop/README.md) | [3.4.12](../content/com/github/hazendaz/git/github-desktop/github-desktop-3.4.12.buildspec) :white_check_mark: | [3.4.13](../content/com/github/hazendaz/git/github-desktop/github-desktop-3.4.13.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/git/github-desktop/github-desktop-3.4.12.buildspec 3.4.13` |
+| <!-- 20250115122048 --> [jkube](../content/org/eclipse/jkube/README.md) | [1.17.0](../content/org/eclipse/jkube/jkube-1.17.0.buildspec) :white_check_mark: | [1.18.0](../content/org/eclipse/jkube/jkube-1.18.0.buildspec) | `bin/add-new-release.sh content/org/eclipse/jkube/jkube-1.17.0.buildspec 1.18.0` |
 | <!-- 20250113133522 --> [protostream-aggregator](../content/org/infinispan/protostream/README.md) | [6.0.0.Dev02](../content/org/infinispan/protostream/protostream-6.0.0.Dev02.buildspec) :white_check_mark: | 6.0.0.Dev01 5.0.11.Final 5.0.10.Final 5.0.9.Final 5.0.8.Final  | `bin/add-new-release.sh content/org/infinispan/protostream/protostream-6.0.0.Dev02.buildspec ...` |
 | <!-- 20241218171150 --> [across-platform-bom](../content/com/foreach/across/platform/README.md) | [6.0.0](../content/com/foreach/across/platform/platform-6.0.0.buildspec) :white_check_mark: | 5.5.1 5.5.0 5.4.2 5.4.1 5.4.0  | `bin/add-new-release.sh content/com/foreach/across/platform/platform-6.0.0.buildspec ...` |
 <!-- END GENERATED ADD OK -->
@@ -41,7 +38,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250114121312 --> [commons-daemon](../content/org/apache/commons/commons-daemon/README.md) | [1.4.0](../content/org/apache/commons/commons-daemon/commons-daemon-1.4.0.buildspec) :warning: | [1.4.1](../content/org/apache/commons/commons-daemon/commons-daemon-1.4.1.buildspec) | `bin/add-new-release.sh content/org/apache/commons/commons-daemon/commons-daemon-1.4.0.buildspec 1.4.1` |
+| <!-- 20250115125010 --> [quarkus-project](../content/io/quarkus/README.md) | [3.17.6](../content/io/quarkus/quarkus-3.17.6.buildspec) :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | [3.18.0.CR1](../content/io/quarkus/quarkus-3.18.0.CR1.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.17.6.buildspec 3.18.0.CR1` |
 | <!-- 20250112112946 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.9.0](../content/org/apache/camel/camel/camel-4.9.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.9.0` |
 | <!-- 20250106062110 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.67.12](../content/org/finos/legend/engine/legend-engine-4.67.12.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.67.12` |
 | <!-- 20250103114348 --> [glassfish-parent](../content/org/glassfish/main/README.md) | [8.0.0-JDK17-M7](../content/org/glassfish/main/glassfish-8.0.0-JDK17-M7.buildspec) :warning: | [8.0.0-JDK17-M9](../content/org/glassfish/main/glassfish-8.0.0-JDK17-M9.buildspec) | `bin/add-new-release.sh content/org/glassfish/main/glassfish-8.0.0-JDK17-M7.buildspec 8.0.0-JDK17-M9` |
@@ -60,7 +57,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
-| <!-- 20250114101523 --> [quarkus-project](../content/io/quarkus/README.md) | 3.17.6 :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) |
+| <!-- 20250114121312 --> [commons-daemon](../content/org/apache/commons/commons-daemon/README.md) | 1.4.1 :warning: |
 | <!-- 20250111140352 --> [commons-csv](../content/org/apache/commons/csv/README.md) | 1.13.0 :warning: |
 | <!-- 20250111133702 --> [commons-release-plugin](../content/org/apache/commons/commons-release-plugin/README.md) | 1.9.0 :warning: |
 | <!-- 20250110074207 --> [orc](../content/org/apache/orc/README.md) | 2.1.0 :warning: |

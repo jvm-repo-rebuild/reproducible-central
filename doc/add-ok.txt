@@ -1,5 +1,2 @@
-content/com/cognite/units/units-catalog/units-catalog-0.1.17.buildspec:0.1.18
-content/io/avaje/jex/avaje-jex-3.0-RC13.buildspec:3.0-RC14
-content/io/cucumber/query/query-13.0.3.buildspec:13.1.0
-content/io/dropwizard/metrics/dropwizard-metrics-4.2.29.buildspec:4.2.30
-content/io/dropwizard/metrics5/dropwizard-metrics-5.0.0-rc23.buildspec:5.0.0-rc24
+content/com/github/hazendaz/git/github-desktop/github-desktop-3.4.12.buildspec:3.4.13
+content/org/eclipse/jkube/jkube-1.17.0.buildspec:1.18.0
