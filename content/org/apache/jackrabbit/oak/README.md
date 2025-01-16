@@ -56,6 +56,7 @@ rebuilding **7 releases** of org.apache.jackrabbit:jackrabbit-oak:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.74.0](https://central.sonatype.com/artifact/org.apache.jackrabbit/oak-parent/1.74.0/pom) | | | |
 | [1.72.0](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-oak/1.72.0/pom) | [mvn jdk11](jackrabbit-oak-1.72.0.buildspec) | [result](jackrabbit-oak-1.72.0.buildinfo): [144 :white_check_mark:  6 :warning:](jackrabbit-oak-1.72.0.buildcompare) [:memo:](https://issues.apache.org/jira/browse/OAK-10662) | 354M |
 | [1.70.0](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-oak/1.70.0/pom) | [mvn jdk11](jackrabbit-oak-1.70.0.buildspec) | [result](jackrabbit-oak-1.70.0.buildinfo): [144 :white_check_mark:  6 :warning:](jackrabbit-oak-1.70.0.buildcompare) [:memo:](https://issues.apache.org/jira/browse/OAK-10662) | 353M |
 | [1.68.0](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-oak/1.68.0/pom) | [mvn jdk11](jackrabbit-oak-1.68.0.buildspec) | [result](jackrabbit-oak-1.68.0.buildinfo): [141 :white_check_mark:  9 :warning:](jackrabbit-oak-1.68.0.buildcompare) [:memo:](https://issues.apache.org/jira/browse/OAK-10662) | 351M |
