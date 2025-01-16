@@ -1,0 +1,8 @@
+version=1.8.5
+ok=7
+ko=0
+ignored=0
+okFiles="makeself-maven-plugin-1.8.5.pom makeself-maven-plugin-1.8.5.jar makeself-maven-plugin-1.8.5-tests.jar makeself-maven-plugin-1.8.5-sources.jar makeself-maven-plugin-1.8.5-test-sources.jar makeself-maven-plugin-1.8.5-cyclonedx.xml makeself-maven-plugin-1.8.5-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
