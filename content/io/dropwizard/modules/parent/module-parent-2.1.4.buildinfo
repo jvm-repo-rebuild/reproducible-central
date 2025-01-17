@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Dropwizard Module Parent
+group-id=io.dropwizard.modules
+artifact-id=module-parent
+version=2.1.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/dropwizard/module-parent.git
+source.scm.tag=module-parent-2.1.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=io.dropwizard.modules
+outputs.0.filename=module-parent-2.1.4.pom
+outputs.0.length=10088
+outputs.0.checksums.sha512=76ed3595aab4291c8db758348430c382a7a10c2706e874174103b6fe8d0d77d4fea475e1c4ea8debcb8b7a521593f6c9c51cd6c28d4d6a5d1485f5aa1854bd7b
+
+outputs.1.groupId=io.dropwizard.modules
+outputs.1.filename=module-parent-2.1.4-cyclonedx.xml
+outputs.1.length=3236
+outputs.1.checksums.sha512=e678348d319460b21ea34e05c9ac944e20ea487071cc15d0c2e5a8767a8e275822ba147d40c2b16e8c68ffd793f2a6c1f9682550ff0cf4434d814801c1426fb2
+
+outputs.2.groupId=io.dropwizard.modules
+outputs.2.filename=module-parent-2.1.4-cyclonedx.json
+outputs.2.length=3584
+outputs.2.checksums.sha512=f7f2c92ce02dd2cf45fac1c3a650093f05b727a5714c6abbac684dbdf1997c1ca4c73972147701affe8cf8c99b3439065c592b9961ebea0b0aa02ae00309a52e
