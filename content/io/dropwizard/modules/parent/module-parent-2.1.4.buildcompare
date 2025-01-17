@@ -1,0 +1,7 @@
+version=2.1.4
+ok=3
+ko=0
+ignored=0
+okFiles="module-parent-2.1.4.pom module-parent-2.1.4-cyclonedx.xml module-parent-2.1.4-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
