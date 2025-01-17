@@ -1,0 +1,11 @@
+version=7.0
+ok=22
+ko=2
+ignored=0
+okFiles="jsign-parent-7.0.pom jsign-crypto-7.0.pom jsign-crypto-7.0.jar jsign-crypto-7.0-sources.jar jsign-crypto-7.0-tests.jar jsign-core-7.0.pom jsign-core-7.0.jar jsign-core-7.0-sources.jar jsign-core-7.0-tests.jar jsign-ant-7.0.pom jsign-ant-7.0.jar jsign-ant-7.0-sources.jar jsign-cli-7.0.pom jsign-cli-7.0.jar jsign-cli-7.0-sources.jar jsign-7.0.jar jsign-maven-plugin-7.0.pom jsign-maven-plugin-7.0.jar jsign-maven-plugin-7.0-sources.jar jsign-gradle-plugin-7.0.pom jsign-gradle-plugin-7.0.jar jsign-gradle-plugin-7.0-sources.jar"
+koFiles="jsign-7.0.pom jsign-7.0-sources.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/net.jsign/jsign-7.0.pom jsign/dependency-reduced-pom.xml
+# diffoscope target/reference/net.jsign/jsign-7.0-sources.jar jsign/target/jsign-7.0-sources.jar
