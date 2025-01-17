@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/dropwizard/module-parent.git](https://github.com/dropwizard/module-parent.git)
 
-rebuilding **17 releases** of io.dropwizard.modules:module-parent:
-- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **18 releases** of io.dropwizard.modules:module-parent:
+- **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [5.0.0-rc.1](https://central.sonatype.com/artifact/io.dropwizard.modules/module-parent/5.0.0-rc.1/pom) | [mvn jdk11](module-parent-5.0.0-rc.1.buildspec) | [result](module-parent-5.0.0-rc.1.buildinfo): [3 :white_check_mark: ](module-parent-5.0.0-rc.1.buildcompare) | 17K |
-| [4.0.4](https://central.sonatype.com/artifact/io.dropwizard.modules/module-parent/4.0.4/pom) | | | |
+| [4.0.4](https://central.sonatype.com/artifact/io.dropwizard.modules/module-parent/4.0.4/pom) | [mvn jdk11](module-parent-4.0.4.buildspec) | [result](module-parent-4.0.4.buildinfo): [3 :white_check_mark: ](module-parent-4.0.4.buildcompare) | 17K |
 | [4.0.3](https://central.sonatype.com/artifact/io.dropwizard.modules/module-parent/4.0.3/pom) | [mvn jdk11](module-parent-4.0.3.buildspec) | [result](module-parent-4.0.3.buildinfo): [3 :white_check_mark: ](module-parent-4.0.3.buildcompare) | 17K |
 | [4.0.2](https://central.sonatype.com/artifact/io.dropwizard.modules/module-parent/4.0.2/pom) | [mvn jdk11](module-parent-4.0.2.buildspec) | [result](module-parent-4.0.2.buildinfo): [3 :white_check_mark: ](module-parent-4.0.2.buildcompare) | 16K |
 | [4.0.1](https://central.sonatype.com/artifact/io.dropwizard.modules/module-parent/4.0.1/pom) | [mvn jdk11](module-parent-4.0.1.buildspec) | [result](module-parent-4.0.1.buildinfo): [3 :white_check_mark: ](module-parent-4.0.1.buildcompare) | 16K |
