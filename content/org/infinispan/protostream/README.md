@@ -18,14 +18,14 @@ Source code: [https://github.com/infinispan/protostream.git](https://github.com/
 * [org.infinispan.protostream:protostream-types](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-types/overview)
 </details>
 
-rebuilding **3 releases** of org.infinispan.protostream:protostream-aggregator:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of org.infinispan.protostream:protostream-aggregator:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [6.0.0.Dev02](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev02/pom) | [mvn jdk17](protostream-6.0.0.Dev02.buildspec) | [result](protostream-aggregator-6.0.0.Dev02.buildinfo): [19 :white_check_mark: ](protostream-aggregator-6.0.0.Dev02.buildcompare) | 1.6M |
-| [6.0.0.Dev01](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev01/pom) | | | |
+| [6.0.0.Dev01](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev01/pom) | [mvn jdk17](protostream-6.0.0.Dev01.buildspec) | [result](protostream-aggregator-6.0.0.Dev01.buildinfo): [19 :white_check_mark: ](protostream-aggregator-6.0.0.Dev01.buildcompare) | 1.5M |
 | [5.0.12.Final](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/5.0.12.Final/pom) | [mvn jdk17](protostream-5.0.12.Final.buildspec) | [result](protostream-aggregator-5.0.12.Final.buildinfo): [7 :white_check_mark:  16 :warning:](protostream-aggregator-5.0.12.Final.buildcompare) [:memo:](https://github.com/infinispan/protostream/pull/358) | 1.8M |
 | [5.0.11.Final](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/5.0.11.Final/pom) | | | |
 | [5.0.10.Final](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/5.0.10.Final/pom) | | | |
