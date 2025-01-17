@@ -1,0 +1,7 @@
+version=6.0.1
+ok=4
+ko=0
+ignored=0
+okFiles="across-platform-bom-6.0.1.pom across-platform-dependencies-6.0.1.pom across-application-parent-6.0.1.pom across-module-parent-6.0.1.pom"
+koFiles=""
+ignoredFiles=""
