@@ -1,5 +1,3 @@
-content/com/github/hazendaz/maven/makeself-maven-plugin/makeself-maven-plugin-1.8.4.buildspec:1.8.5
-content/io/avaje/http/avaje-http-2.9-RC7.buildspec:2.9-RC8
-content/io/avaje/inject/avaje-inject-11.2-RC1.buildspec:11.2-RC2
-content/io/dropwizard/core/dropwizard-5.0.0-alpha.5.buildspec:5.0.0-rc.1
-content/io/dropwizard/modules/parent/module-parent-4.0.3.buildspec:5.0.0-rc.1
+content/com/foreach/across/across-6.0.0.buildspec:6.0.1
+content/com/foreach/across/platform/platform-6.0.0.buildspec:6.0.1
+content/com/spotify/github-client/github-client-0.3.2.buildspec:0.3.3

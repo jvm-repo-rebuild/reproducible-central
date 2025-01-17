@@ -21,6 +21,7 @@ rebuilding **2 releases** of com.foreach.across:across-platform-bom:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [6.0.1](https://central.sonatype.com/artifact/com.foreach.across/across-platform-bom/6.0.1/pom) | | | |
 | [6.0.0](https://central.sonatype.com/artifact/com.foreach.across/across-platform-bom/6.0.0/pom) | [mvn jdk17](platform-6.0.0.buildspec) | [result](across-module-parent-6.0.0.buildinfo): [4 :white_check_mark: ](across-module-parent-6.0.0.buildcompare) | 20K |
 | [5.5.1](https://central.sonatype.com/artifact/com.foreach.across/across-platform-bom/5.5.1/pom) | | | |
 | [5.5.0](https://central.sonatype.com/artifact/com.foreach.across/across-platform-bom/5.5.0/pom) | | | |

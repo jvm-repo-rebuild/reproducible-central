@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.jackrabbit:jackrabbit-oak](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-oak/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/jackrabbit/oak//badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/jackrabbit/oak//README.md)
+## Project: [org.apache.jackrabbit:jackrabbit-oak](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-oak/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/jackrabbit/oak/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/jackrabbit/oak/README.md)
 
 Source code: [https://github.com/apache/jackrabbit-oak.git](https://github.com/apache/jackrabbit-oak.git)
 

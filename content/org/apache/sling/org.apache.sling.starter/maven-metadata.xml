@@ -3,13 +3,14 @@
   <groupId>org.apache.sling</groupId>
   <artifactId>org.apache.sling.starter</artifactId>
   <versioning>
-    <latest>12</latest>
-    <release>12</release>
+    <latest>13</latest>
+    <release>13</release>
     <versions>
       <version>10</version>
       <version>11</version>
       <version>12</version>
+      <version>13</version>
     </versions>
-    <lastUpdated>20220318151210</lastUpdated>
+    <lastUpdated>20250117094427</lastUpdated>
   </versioning>
 </metadata>

@@ -23,6 +23,7 @@ rebuilding **7 releases** of com.foreach.across:across-base:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [6.0.1](https://central.sonatype.com/artifact/com.foreach.across/across-base/6.0.1/pom) | | | |
 | [6.0.0](https://central.sonatype.com/artifact/com.foreach.across/across-base/6.0.0/pom) | [mvn jdk17](across-6.0.0.buildspec) | [result](across-base-6.0.0.buildinfo): [12 :white_check_mark: ](across-base-6.0.0.buildcompare) | 1.5M |
 | [5.5.1](https://central.sonatype.com/artifact/com.foreach.across/across-base/5.5.1/pom) | [mvn jdk8](across-5.5.1.buildspec) | [result](across-base-5.5.1.buildinfo): [12 :white_check_mark: ](across-base-5.5.1.buildcompare) | 1.5M |
 | [5.5.0](https://central.sonatype.com/artifact/com.foreach.across/across-base/5.5.0/pom) | [mvn jdk8](across-5.5.0.buildspec) | [result](across-base-5.5.0.buildinfo): [12 :white_check_mark: ](across-base-5.5.0.buildcompare) | 1.5M |
