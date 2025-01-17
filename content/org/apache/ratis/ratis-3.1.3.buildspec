@@ -8,7 +8,7 @@ gitTag=${artifactId}-${version}
 
 tool=mvn
 jdk=8
-jdkForceAzul=true # require a distribution that has backported from JDK SHA-3 algorithms
+#jdkForceAzul=true # require a distribution that has backported from JDK SHA-3 algorithms
 newline=lf
 
 command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
