@@ -1,0 +1,9 @@
+version=6.0.1
+ok=12
+ko=0
+ignored=0
+okFiles="across-core-dependencies-6.0.1.pom across-base-6.0.1.pom across-core-6.0.1.pom across-core-6.0.1.jar across-core-6.0.1-sources.jar across-web-6.0.1.pom across-web-6.0.1.jar across-web-6.0.1-sources.jar across-test-6.0.1.pom across-test-6.0.1.jar across-test-6.0.1-sources.jar across-standard-module-parent-6.0.1.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
