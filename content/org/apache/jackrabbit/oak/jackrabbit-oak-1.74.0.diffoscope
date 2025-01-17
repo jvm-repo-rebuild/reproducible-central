@@ -1,0 +1,101 @@
+1 / 2 target/reference/org.apache.jackrabbit/oak-it-1.74.0.jar oak-it/target/oak-it-1.74.0.jar
+--- target/reference/org.apache.jackrabbit/oak-it-1.74.0.jar
++++ oak-it/target/oak-it-1.74.0.jar
+├── zipinfo {}
+│ @@ -1,22 +1,12 @@
+│ -Zip file size: 208703 bytes, number of entries: 20
+│ +Zip file size: 7189 bytes, number of entries: 10
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 META-INF/
+│  -rw-r--r--  2.0 unx      340 b- defN 25-Jan-12 09:04 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 META-INF/maven/org.apache.jackrabbit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 META-INF/maven/org.apache.jackrabbit/oak-it/
+│  -rw-r--r--  2.0 unx      271 b- defN 25-Jan-12 09:04 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 25-Jan-12 09:04 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      178 b- defN 25-Jan-12 09:04 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx    40960 b- defN 25-Jan-12 09:04 document-deep.mv.db
+│ --rw-r--r--  2.0 unx    50500 b- defN 25-Jan-12 09:04 document-deep.trace.db
+│ --rw-r--r--  2.0 unx  1261568 b- defN 25-Jan-12 09:04 document-empty.mv.db
+│ --rw-r--r--  2.0 unx    50278 b- defN 25-Jan-12 09:04 document-empty.trace.db
+│ --rw-r--r--  2.0 unx   454656 b- defN 25-Jan-12 09:04 document-readOnly.mv.db
+│ --rw-r--r--  2.0 unx    50500 b- defN 25-Jan-12 09:04 document-readOnly.trace.db
+│ --rw-r--r--  2.0 unx    40960 b- defN 25-Jan-12 09:04 document-temp.mv.db
+│ --rw-r--r--  2.0 unx    50500 b- defN 25-Jan-12 09:04 document-temp.trace.db
+│ --rw-r--r--  2.0 unx   978944 b- defN 25-Jan-12 09:04 document.mv.db
+│ --rw-r--r--  2.0 unx   101054 b- defN 25-Jan-12 09:04 document.trace.db
+│  -rw-r--r--  2.0 unx    10145 b- defN 25-Jan-12 09:04 META-INF/maven/org.apache.jackrabbit/oak-it/pom.xml
+│  -rw-r--r--  2.0 unx       63 b- defN 25-Jan-12 09:04 META-INF/maven/org.apache.jackrabbit/oak-it/pom.properties
+│ -20 files, 3102275 bytes uncompressed, 206179 bytes compressed:  93.4%
+│ +10 files, 22355 bytes uncompressed, 5835 bytes compressed:  73.9%
+
+2 / 2 target/reference/org.apache.jackrabbit/oak-solr-core-1.74.0-tests.jar oak-solr-core/target/oak-solr-core-1.74.0-tests.jar
+--- target/reference/org.apache.jackrabbit/oak-solr-core-1.74.0-tests.jar
++++ oak-solr-core/target/oak-solr-core-1.74.0-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 136378 bytes, number of entries: 114
+│ +Zip file size: 130211 bytes, number of entries: 88
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 META-INF/
+│  -rw-r--r--  2.0 unx      324 b- defN 25-Jan-12 09:04 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 org/apache/jackrabbit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 org/apache/jackrabbit/oak/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 org/apache/jackrabbit/oak/jcr/
+│ @@ -15,22 +15,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 org/apache/jackrabbit/oak/plugins/index/solr/index/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 org/apache/jackrabbit/oak/plugins/index/solr/osgi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 org/apache/jackrabbit/oak/plugins/index/solr/query/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 org/apache/jackrabbit/oak/plugins/index/solr/server/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 org/apache/jackrabbit/oak/plugins/index/solr/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 org/apache/jackrabbit/oak/query/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 solr/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 solr/filestore/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 solr/oak/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 solr/oak/conf/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 solr/oak/data/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 solr/oak/data/index/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 solr/oak/data/snapshot_metadata/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 solr/oak/data/tlog/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 solr/userfiles/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 META-INF/maven/org.apache.jackrabbit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-12 09:04 META-INF/maven/org.apache.jackrabbit/oak-solr-core/
+│  -rw-r--r--  2.0 unx     3620 b- defN 25-Jan-12 09:04 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 25-Jan-12 09:04 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      170 b- defN 25-Jan-12 09:04 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1608 b- defN 25-Jan-12 09:04 org/apache/jackrabbit/oak/jcr/SolrOakRepositoryStub$1.class
+│ @@ -85,32 +79,12 @@
+│  -rw-r--r--  2.0 unx    24678 b- defN 25-Jan-12 09:04 repositoryStubImpl.properties
+│  -rw-r--r--  2.0 unx      781 b- defN 25-Jan-12 09:04 solr/oak/conf/protwords.txt
+│  -rw-r--r--  2.0 unx     9651 b- defN 25-Jan-12 09:04 solr/oak/conf/schema.xml
+│  -rw-r--r--  2.0 unx    57967 b- defN 25-Jan-12 09:04 solr/oak/conf/solrconfig.xml
+│  -rw-r--r--  2.0 unx      781 b- defN 25-Jan-12 09:04 solr/oak/conf/stopwords.txt
+│  -rw-r--r--  2.0 unx      781 b- defN 25-Jan-12 09:04 solr/oak/conf/synonyms.txt
+│  -rw-r--r--  2.0 unx      792 b- defN 25-Jan-12 09:04 solr/oak/core.properties
+│ --rw-r--r--  2.0 unx      158 b- defN 25-Jan-12 09:04 solr/oak/data/index/_1.fdm
+│ --rw-r--r--  2.0 unx      106 b- defN 25-Jan-12 09:04 solr/oak/data/index/_1.fdt
+│ --rw-r--r--  2.0 unx       64 b- defN 25-Jan-12 09:04 solr/oak/data/index/_1.fdx
+│ --rw-r--r--  2.0 unx     1211 b- defN 25-Jan-12 09:04 solr/oak/data/index/_1.fnm
+│ --rw-r--r--  2.0 unx       59 b- defN 25-Jan-12 09:04 solr/oak/data/index/_1.nvd
+│ --rw-r--r--  2.0 unx      247 b- defN 25-Jan-12 09:04 solr/oak/data/index/_1.nvm
+│ --rw-r--r--  2.0 unx      610 b- defN 25-Jan-12 09:04 solr/oak/data/index/_1.si
+│ --rw-r--r--  2.0 unx      106 b- defN 25-Jan-12 09:04 solr/oak/data/index/_1.tvd
+│ --rw-r--r--  2.0 unx      162 b- defN 25-Jan-12 09:04 solr/oak/data/index/_1.tvm
+│ --rw-r--r--  2.0 unx       69 b- defN 25-Jan-12 09:04 solr/oak/data/index/_1.tvx
+│ --rw-r--r--  2.0 unx       77 b- defN 25-Jan-12 09:04 solr/oak/data/index/_1_Lucene80_0.dvd
+│ --rw-r--r--  2.0 unx      403 b- defN 25-Jan-12 09:04 solr/oak/data/index/_1_Lucene80_0.dvm
+│ --rw-r--r--  2.0 unx       78 b- defN 25-Jan-12 09:04 solr/oak/data/index/_1_Lucene84_0.doc
+│ --rw-r--r--  2.0 unx       86 b- defN 25-Jan-12 09:04 solr/oak/data/index/_1_Lucene84_0.pos
+│ --rw-r--r--  2.0 unx      321 b- defN 25-Jan-12 09:04 solr/oak/data/index/_1_Lucene84_0.tim
+│ --rw-r--r--  2.0 unx       80 b- defN 25-Jan-12 09:04 solr/oak/data/index/_1_Lucene84_0.tip
+│ --rw-r--r--  2.0 unx      488 b- defN 25-Jan-12 09:04 solr/oak/data/index/_1_Lucene84_0.tmd
+│ --rw-r--r--  2.0 unx      220 b- defN 25-Jan-12 09:04 solr/oak/data/index/segments_3
+│ --rw-r--r--  2.0 unx      129 b- defN 25-Jan-12 09:04 solr/oak/data/tlog/tlog.0000000000000000000
+│ --rw-r--r--  2.0 unx      161 b- defN 25-Jan-12 09:04 solr/oak/data/tlog/tlog.0000000000000000001
+│  -rw-r--r--  2.0 unx     1772 b- defN 25-Jan-12 09:04 solr/solr.xml
+│  -rw-r--r--  2.0 unx     1284 b- defN 25-Jan-12 09:04 solr/zoo.cfg
+│  -rw-r--r--  2.0 unx    13927 b- defN 25-Jan-12 09:04 META-INF/maven/org.apache.jackrabbit/oak-solr-core/pom.xml
+│  -rw-r--r--  2.0 unx       70 b- defN 25-Jan-12 09:04 META-INF/maven/org.apache.jackrabbit/oak-solr-core/pom.properties
+│ -114 files, 344160 bytes uncompressed, 116078 bytes compressed:  66.3%
+│ +88 files, 339325 bytes uncompressed, 113385 bytes compressed:  66.6%
