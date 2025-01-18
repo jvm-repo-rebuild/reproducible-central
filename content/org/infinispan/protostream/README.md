@@ -18,9 +18,9 @@ Source code: [https://github.com/infinispan/protostream.git](https://github.com/
 * [org.infinispan.protostream:protostream-types](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-types/overview)
 </details>
 
-rebuilding **5 releases** of org.infinispan.protostream:protostream-aggregator:
+rebuilding **6 releases** of org.infinispan.protostream:protostream-aggregator:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -29,7 +29,7 @@ rebuilding **5 releases** of org.infinispan.protostream:protostream-aggregator:
 | [5.0.12.Final](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/5.0.12.Final/pom) | [mvn jdk17](protostream-5.0.12.Final.buildspec) | [result](protostream-aggregator-5.0.12.Final.buildinfo): [7 :white_check_mark:  16 :warning:](protostream-aggregator-5.0.12.Final.buildcompare) [:memo:](https://github.com/infinispan/protostream/pull/358) | 1.8M |
 | [5.0.11.Final](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/5.0.11.Final/pom) | | | |
 | [5.0.10.Final](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/5.0.10.Final/pom) | | | |
-| [5.0.9.Final](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/5.0.9.Final/pom) | | | |
+| [5.0.9.Final](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/5.0.9.Final/pom) | [mvn jdk17](protostream-5.0.9.Final.buildspec) | [result](protostream-aggregator-5.0.9.Final.buildinfo): [7 :white_check_mark:  16 :warning:](protostream-aggregator-5.0.9.Final.buildcompare) | 1.8M |
 | [5.0.8.Final](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/5.0.8.Final/pom) | [mvn jdk17](protostream-5.0.8.Final.buildspec) | [result](protostream-aggregator-5.0.8.Final.buildinfo): [7 :white_check_mark:  16 :warning:](protostream-aggregator-5.0.8.Final.buildcompare) | 1.8M |
 | [5.0.7.Final](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/5.0.7.Final/pom) | [mvn jdk17](protostream-5.0.7.Final.buildspec) | [result](protostream-aggregator-5.0.7.Final.buildinfo): [7 :white_check_mark:  16 :warning:](protostream-aggregator-5.0.7.Final.buildcompare) [:mag:](protostream-aggregator-5.0.7.Final.diffoscope) | 1.8M |
 
