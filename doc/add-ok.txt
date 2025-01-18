@@ -1,3 +1,1 @@
-content/com/foreach/across/across-6.0.0.buildspec:6.0.1
-content/com/foreach/across/platform/platform-6.0.0.buildspec:6.0.1
-content/com/spotify/github-client/github-client-0.3.2.buildspec:0.3.3
+content/net/bytebuddy/byte-buddy-1.15.11.buildspec:1.16.0
