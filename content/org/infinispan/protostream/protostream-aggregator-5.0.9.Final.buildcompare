@@ -1,0 +1,25 @@
+version=5.0.9.Final
+ok=7
+ko=16
+ignored=0
+okFiles="parent-5.0.9.Final.pom protostream-5.0.9.Final.pom protostream-processor-5.0.9.Final.pom protostream-types-5.0.9.Final.pom protostream-integrationtests-5.0.9.Final.pom proto-schema-compatibility-maven-plugin-5.0.9.Final.pom protostream-aggregator-5.0.9.Final.pom"
+koFiles="protostream-5.0.9.Final.jar protostream-5.0.9.Final-test-sources.jar protostream-5.0.9.Final-sources.jar protostream-5.0.9.Final-tests.jar protostream-processor-5.0.9.Final.jar protostream-processor-5.0.9.Final-test-sources.jar protostream-processor-5.0.9.Final-sources.jar protostream-processor-5.0.9.Final-tests.jar protostream-types-5.0.9.Final.jar protostream-types-5.0.9.Final-test-sources.jar protostream-types-5.0.9.Final-sources.jar protostream-integrationtests-5.0.9.Final.jar protostream-integrationtests-5.0.9.Final-test-sources.jar protostream-integrationtests-5.0.9.Final-sources.jar proto-schema-compatibility-maven-plugin-5.0.9.Final.jar proto-schema-compatibility-maven-plugin-5.0.9.Final-sources.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.infinispan.protostream/protostream-5.0.9.Final.jar core/target/protostream-5.0.9.Final.jar
+# diffoscope target/reference/org.infinispan.protostream/protostream-5.0.9.Final-test-sources.jar core/target/protostream-5.0.9.Final-test-sources.jar
+# diffoscope target/reference/org.infinispan.protostream/protostream-5.0.9.Final-sources.jar core/target/protostream-5.0.9.Final-sources.jar
+# diffoscope target/reference/org.infinispan.protostream/protostream-5.0.9.Final-tests.jar core/target/protostream-5.0.9.Final-tests.jar
+# diffoscope target/reference/org.infinispan.protostream/protostream-processor-5.0.9.Final.jar processor/target/protostream-processor-5.0.9.Final.jar
+# diffoscope target/reference/org.infinispan.protostream/protostream-processor-5.0.9.Final-test-sources.jar processor/target/protostream-processor-5.0.9.Final-test-sources.jar
+# diffoscope target/reference/org.infinispan.protostream/protostream-processor-5.0.9.Final-sources.jar processor/target/protostream-processor-5.0.9.Final-sources.jar
+# diffoscope target/reference/org.infinispan.protostream/protostream-processor-5.0.9.Final-tests.jar processor/target/protostream-processor-5.0.9.Final-tests.jar
+# diffoscope target/reference/org.infinispan.protostream/protostream-types-5.0.9.Final.jar types/target/protostream-types-5.0.9.Final.jar
+# diffoscope target/reference/org.infinispan.protostream/protostream-types-5.0.9.Final-test-sources.jar types/target/protostream-types-5.0.9.Final-test-sources.jar
+# diffoscope target/reference/org.infinispan.protostream/protostream-types-5.0.9.Final-sources.jar types/target/protostream-types-5.0.9.Final-sources.jar
+# diffoscope target/reference/org.infinispan.protostream/protostream-integrationtests-5.0.9.Final.jar integrationtests/target/protostream-integrationtests-5.0.9.Final.jar
+# diffoscope target/reference/org.infinispan.protostream/protostream-integrationtests-5.0.9.Final-test-sources.jar integrationtests/target/protostream-integrationtests-5.0.9.Final-test-sources.jar
+# diffoscope target/reference/org.infinispan.protostream/protostream-integrationtests-5.0.9.Final-sources.jar integrationtests/target/protostream-integrationtests-5.0.9.Final-sources.jar
+# diffoscope target/reference/org.infinispan.protostream/proto-schema-compatibility-maven-plugin-5.0.9.Final.jar maven-plugin/target/proto-schema-compatibility-maven-plugin-5.0.9.Final.jar
+# diffoscope target/reference/org.infinispan.protostream/proto-schema-compatibility-maven-plugin-5.0.9.Final-sources.jar maven-plugin/target/proto-schema-compatibility-maven-plugin-5.0.9.Final-sources.jar
