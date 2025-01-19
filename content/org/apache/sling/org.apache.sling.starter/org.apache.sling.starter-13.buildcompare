@@ -1,0 +1,26 @@
+version=13
+ok=16
+ko=17
+ignored=0
+okFiles="org.apache.sling.starter-13-composum.slingosgifeature org.apache.sling.starter-13-htl_repl.slingosgifeature org.apache.sling.starter-13-starter.slingosgifeature org.apache.sling.starter-13-boot.slingosgifeature org.apache.sling.starter-13-docker.slingosgifeature org.apache.sling.starter-13-groovy.slingosgifeature org.apache.sling.starter-13-healthcheck.slingosgifeature org.apache.sling.starter-13-maintenance.slingosgifeature org.apache.sling.starter-13-models-jacksonexporter.slingosgifeature org.apache.sling.starter-13-oak_base.slingosgifeature org.apache.sling.starter-13-oak_persistence_mongods.slingosgifeature org.apache.sling.starter-13-oak_persistence_sns.slingosgifeature org.apache.sling.starter-13-scripting.slingosgifeature org.apache.sling.starter-13-junit.slingosgifeature org.apache.sling.starter-13-validation.slingosgifeature org.apache.sling.starter-13-webconsole.slingosgifeature"
+koFiles="org.apache.sling.starter-13.pom org.apache.sling.starter-13.jar org.apache.sling.starter-13-slingshot.slingosgifeature org.apache.sling.starter-13-base.slingosgifeature org.apache.sling.starter-13-caconfig.slingosgifeature org.apache.sling.starter-13-discovery.slingosgifeature org.apache.sling.starter-13-event.slingosgifeature org.apache.sling.starter-13-test-content.slingosgifeature org.apache.sling.starter-13-nosample_base.slingosgifeature org.apache.sling.starter-13-oak_mongo.slingosgifeature org.apache.sling.starter-13-oak_tar.slingosgifeature org.apache.sling.starter-13-oak_tar_test.slingosgifeature org.apache.sling.starter-13-oak_tar_far.far org.apache.sling.starter-13-oak_mongo_far.far org.apache.sling.starter-13-source-release.zip org.apache.sling.starter-13-sources.jar org.apache.sling.starter-13.xml.gz"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling/org.apache.sling.starter-13.pom pom.xml
+# diffoscope target/reference/org.apache.sling/org.apache.sling.starter-13.jar target/org.apache.sling.starter-13.jar
+# diffoscope target/reference/org.apache.sling/org.apache.sling.starter-13-slingshot.slingosgifeature target/slingfeature-tmp/feature-slingshot.json
+# diffoscope target/reference/org.apache.sling/org.apache.sling.starter-13-base.slingosgifeature target/slingfeature-tmp/feature-base.json
+# diffoscope target/reference/org.apache.sling/org.apache.sling.starter-13-caconfig.slingosgifeature target/slingfeature-tmp/feature-caconfig.json
+# diffoscope target/reference/org.apache.sling/org.apache.sling.starter-13-discovery.slingosgifeature target/slingfeature-tmp/feature-discovery.json
+# diffoscope target/reference/org.apache.sling/org.apache.sling.starter-13-event.slingosgifeature target/slingfeature-tmp/feature-event.json
+# diffoscope target/reference/org.apache.sling/org.apache.sling.starter-13-test-content.slingosgifeature target/slingfeature-tmp/feature-test-content.json
+# diffoscope target/reference/org.apache.sling/org.apache.sling.starter-13-nosample_base.slingosgifeature target/slingfeature-tmp/feature-nosample_base.json
+# diffoscope target/reference/org.apache.sling/org.apache.sling.starter-13-oak_mongo.slingosgifeature target/slingfeature-tmp/feature-oak_mongo.json
+# diffoscope target/reference/org.apache.sling/org.apache.sling.starter-13-oak_tar.slingosgifeature target/slingfeature-tmp/feature-oak_tar.json
+# diffoscope target/reference/org.apache.sling/org.apache.sling.starter-13-oak_tar_test.slingosgifeature target/slingfeature-tmp/feature-oak_tar_test.json
+# diffoscope target/reference/org.apache.sling/org.apache.sling.starter-13-oak_tar_far.far target/org.apache.sling.starter-13-oak_tar_far.far
+# diffoscope target/reference/org.apache.sling/org.apache.sling.starter-13-oak_mongo_far.far target/org.apache.sling.starter-13-oak_mongo_far.far
+# diffoscope target/reference/org.apache.sling/org.apache.sling.starter-13-source-release.zip target/org.apache.sling.starter-13-source-release.zip
+# diffoscope target/reference/org.apache.sling/org.apache.sling.starter-13-sources.jar target/org.apache.sling.starter-13-sources.jar
+# diffoscope target/reference/org.apache.sling/org.apache.sling.starter-13.xml.gz target/index.xml.gz
