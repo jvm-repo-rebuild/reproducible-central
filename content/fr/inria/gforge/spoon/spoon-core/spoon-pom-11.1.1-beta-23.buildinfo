@@ -1,0 +1,69 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Spoon POM
+group-id=fr.inria.gforge.spoon
+artifact-id=spoon-pom
+version=11.1.1-beta-23
+
+# source information
+source.scm.uri=scm:git:https://github.com/INRIA/spoon.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=spoon-javadoc
+
+# aggregated output
+
+outputs.0.coordinates=fr.inria.gforge.spoon:spoon-pom
+
+outputs.0.0.groupId=fr.inria.gforge.spoon
+outputs.0.0.filename=spoon-pom-11.1.1-beta-23.pom
+outputs.0.0.length=24009
+outputs.0.0.checksums.sha512=540d082b83ca2802e67fed82060d261ccd3879e18f29011cc5cba28c8d7604ed940091d766b655133039d752d0e5533dd764a20e2f1da5507ae9fdefb1b12ddb
+
+outputs.1.coordinates=fr.inria.gforge.spoon:spoon-core
+
+outputs.1.0.groupId=fr.inria.gforge.spoon
+outputs.1.0.filename=spoon-core-11.1.1-beta-23.pom
+outputs.1.0.length=9366
+outputs.1.0.checksums.sha512=26929017e6f3a52156e9776640e6f9a44388563511b698ce3f2be77f59d51d9fd0f39927298dfad56b5555cf1274c4046a506b08d528a62e94a46ce1ca00be37
+
+outputs.1.1.groupId=fr.inria.gforge.spoon
+outputs.1.1.filename=spoon-core-11.1.1-beta-23.jar
+outputs.1.1.length=1953347
+outputs.1.1.checksums.sha512=417985595c3cf77395eb208099b2d9c8e557cceeb24019fe20c79c0b3442de3303abe7403998a2eaee6a15af6a6393c57016a5546bb8b40304de90de2423d64f
+
+outputs.1.2.groupId=fr.inria.gforge.spoon
+outputs.1.2.filename=spoon-core-11.1.1-beta-23-jar-with-dependencies.jar
+outputs.1.2.length=14946639
+outputs.1.2.checksums.sha512=7da3151e1467f86ba7204dca5c03326522d04484f6f5ac0289937441712f08c807f2e507bf0fe4298c53a21db365f96ba5cf117b38c01f957cc4af560921d4d1
+
+outputs.1.3.groupId=fr.inria.gforge.spoon
+outputs.1.3.filename=spoon-core-11.1.1-beta-23-sources.jar
+outputs.1.3.length=1078429
+outputs.1.3.checksums.sha512=71c34a628412657e02eaac801ca0279fa9781a77661c24603d495d663ada609e0cbc39c66bfec9ddeebb20c240cf7058bdf59fad5270595584b2879128039001
+
+outputs.2.coordinates=fr.inria.gforge.spoon:spoon-javadoc
+
+outputs.2.0.groupId=fr.inria.gforge.spoon
+outputs.2.0.filename=spoon-javadoc-11.1.1-beta-23.pom
+outputs.2.0.length=3018
+outputs.2.0.checksums.sha512=7fe5c1350214d07915be332dc22b3aa62086e263df18f5176e1d565d648f49ebcd90133d2eeff8cddb39d8039e6a0f1db55f689ad88f24f336eb9262bae6c593
+
+outputs.2.1.groupId=fr.inria.gforge.spoon
+outputs.2.1.filename=spoon-javadoc-11.1.1-beta-23.jar
+outputs.2.1.length=60793
+outputs.2.1.checksums.sha512=d674518a7849e808cbcb8f88fa66690b1e3f72392ad950d8efe3230077a40b95bd8005587919fe5f459a148689b16f4ac4c3c5c13e9a3daa6a6bd62d59eb5871
+
+outputs.2.2.groupId=fr.inria.gforge.spoon
+outputs.2.2.filename=spoon-javadoc-11.1.1-beta-23-sources.jar
+outputs.2.2.length=30903
+outputs.2.2.checksums.sha512=6bfe8499707a91f2b07911a5328d3ddcdb80f8965ef25cf98cb3a68f774a89ccac922861722c6314656290103c8ef050ac5c83be5eb2a177ecd1c9a44573b1e9
