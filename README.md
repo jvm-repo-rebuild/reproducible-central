@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **6144 releases** of **815 projects**:
-   - **4439** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 1705 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **6151 releases** of **815 projects**:
+   - **4441** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 1710 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 815 projects, 702 have at least one fully reproducible release, 113 have none
 
 <!-- END GENERATED INTRO -->
@@ -307,7 +307,7 @@ Its objectives are to provide:
 | io.jstach.pistachio | [pistachio](content/io/jstach/pistachio/pistachio-maven-parent/README.md) | 1 | 1 :white_check_mark: |
 | io.micronaut.build | [micronaut-maven-plugin](content/io/micronaut/build/micronaut-maven-plugin/README.md) | 35 | 35 :white_check_mark: |
 | io.micronaut.maven | [micronaut-maven-plugin](content/io/micronaut/maven/micronaut-maven-plugin/README.md) | 33 | 33 :white_check_mark: |
-| io.opentelemetry.instrumentation | [opentelemetry-instrumentation](content/io/opentelemetry/instrumentation/README.md) | 34 | 18 :white_check_mark: / 16 :warning: |
+| io.opentelemetry.instrumentation | [opentelemetry-instrumentation](content/io/opentelemetry/instrumentation/README.md) | 35 | 18 :white_check_mark: / 17 :warning: |
 | io.opentelemetry | [opentelemetry-sdk](content/io/opentelemetry/java/README.md) | 13 | 10 :white_check_mark: / 3 :warning: |
 | io.repaint.maven | [tiles-maven-plugin](content/io/repaint/maven/tiles-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
 | io.smallrye | [jandex](content/io/smallrye/jandex/README.md) | 14 | 14 :warning: |
@@ -342,8 +342,8 @@ Its objectives are to provide:
 | jakarta.mail | [jakarta.mail-api](content/jakarta/mail/jakarta.mail-api/README.md) | 1 | 1 :warning: |
 | jakarta.persistence | [jakarta.persistence-api](content/jakarta/persistence/jakarta.persistence-api/README.md) | 4 | 4 :white_check_mark: |
 | jakarta.servlet | [jakarta.servlet-api](content/jakarta/servlet/jakarta.servlet-api/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
-| net.bytebuddy | [byte-buddy](content/net/bytebuddy/README.md) | 42 | 36 :white_check_mark: / 6 :warning: |
-| net.jsign | [jsign](content/net/jsign/README.md) | 3 | 3 :warning: |
+| net.bytebuddy | [byte-buddy](content/net/bytebuddy/README.md) | 43 | 37 :white_check_mark: / 6 :warning: |
+| net.jsign | [jsign](content/net/jsign/README.md) | 4 | 4 :warning: |
 | net.bzzt | [reproducible-builds-jvm-stripper](content/net/bzzt/reproducible-builds-jvm-stripper/README.md) | 1 | 1 :white_check_mark: |
 | net.nicoulaj.maven.plugins | [checksum-maven-plugin](content/net/nicoulaj/maven/plugins/checksum-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | net.osslabz | [bitcoin-commons](content/net/osslabz/bitcoin-commons/README.md) | 2 | 2 :warning: |
@@ -393,7 +393,7 @@ Its objectives are to provide:
 | org.apache.paimon | [paimon-parent](content/org/apache/paimon/README.md) | 5 | 5 :warning: |
 | org.apache.pulsar | [pulsar](content/org/apache/pulsar/README.md) | 5 | 5 :warning: |
 | org.apache.rat | [apache-rat-project](content/org/apache/rat/README.md) | 4 | 4 :white_check_mark: |
-| org.apache.ratis | [ratis](content/org/apache/ratis/README.md) | 7 | 1 :white_check_mark: / 6 :warning: |
+| org.apache.ratis | [ratis](content/org/apache/ratis/README.md) | 8 | 2 :white_check_mark: / 6 :warning: |
 | org.apache.shiro | [shiro-root](content/org/apache/shiro/README.md) | 14 | 4 :white_check_mark: / 10 :warning: |
 | org.apache.sis | [parent](content/org/apache/sis/README.md) | 1 | 1 :warning: |
 | org.apache.sshd | [sshd](content/org/apache/sshd/README.md) | 15 | 15 :warning: |
@@ -735,7 +735,7 @@ Its objectives are to provide:
 | org.hibernate.models | [hibernate-models](content/org/hibernate/models/hibernate-models/README.md) | 1 | 1 :white_check_mark: |
 | org.hibernate.search | [hibernate-search](content/org/hibernate/search/hibernate-search-bom/README.md) | 7 | 5 :white_check_mark: / 2 :warning: |
 | org.hibernate.validator | [hibernate-validator](content/org/hibernate/validator/hibernate-validator/README.md) | 3 | 3 :white_check_mark: |
-| org.infinispan.protostream | [protostream](content/org/infinispan/protostream/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
+| org.infinispan.protostream | [protostream](content/org/infinispan/protostream/README.md) | 8 | 2 :white_check_mark: / 6 :warning: |
 | org.itsallcode | [junit5-system-extensions](content/org/itsallcode/junit5-system-extensions/README.md) | 1 | 1 :white_check_mark: |
 | org.itsallcode.openfasttrace | [openfasttrace](content/org/itsallcode/openfasttrace/README.md) | 4 | 4 :warning: |
 | org.itsallcode | [openfasttrace-maven-plugin](content/org/itsallcode/openfasttrace-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
@@ -838,7 +838,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 5 | 5 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 19 | 1 :white_check_mark: / 18 :warning: |
-| **Count:** | **815** | **6144** | **4439** :white_check_mark:<br>**1705** :warning: |
+| **Count:** | **815** | **6151** | **4441** :white_check_mark:<br>**1710** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -850,10 +850,10 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
 ```
      32 gradle     11
-     92 gradle     17
+     93 gradle     17
      46 gradle     21
      35 mvn         7
-   1481 mvn         8
+   1483 mvn         8
       1 mvn         9
    1400 mvn        11
       2 mvn        11.0.19
@@ -863,7 +863,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn        14
      10 mvn        15
      14 mvn        16
-    505 mvn        17
+    508 mvn        17
       1 mvn        17.0.10
       2 mvn        17.0.11
       1 mvn        17.0.12
@@ -966,7 +966,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      45 mvn-3.9.8  21
      45 mvn-3.9.8  22
      10 mvn-3.9.8  23
-     30 mvn-3.9.9   8
+     31 mvn-3.9.9   8
      20 mvn-3.9.9  11
      65 mvn-3.9.9  17
       2 mvn-3.9.9  18

@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [net.jsign:jsign](https://central.sonatype.com/artifact/net.jsign/jsign/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/net/jsign//badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/net/jsign//README.md)
+## Project: [net.jsign:jsign](https://central.sonatype.com/artifact/net.jsign/jsign/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/net/jsign/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/net/jsign/README.md)
 
 Source code: [https://github.com/ebourg/jsign.git](https://github.com/ebourg/jsign.git)
 
