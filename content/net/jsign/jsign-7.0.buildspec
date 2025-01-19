@@ -16,5 +16,5 @@ command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip
 
 buildinfo=target/${artifactId}-parent-${version}.buildinfo
 
-#diffoscope=${artifactId}-parent-${version}.diffoscope
-issue=https://github.com/wvengen/proguard-maven-plugin/issues/279
+diffoscope=${artifactId}-parent-${version}.diffoscope
+issue=

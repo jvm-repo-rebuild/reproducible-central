@@ -1,0 +1,59 @@
+1 / 2 target/reference/net.jsign/jsign-7.0.pom jsign/dependency-reduced-pom.xml
+--- target/reference/net.jsign/jsign-7.0.pom
++++ jsign/dependency-reduced-pom.xml
+│   --- target/reference/net.jsign/jsign-7.0.pom
+├── +++ jsign/dependency-reduced-pom.xml
+│ @@ -409,14 +409,15 @@
+│                      <replaceregexp/>
+│                      <replaceregexp/>
+│                      <replaceregexp/>
+│                      <replaceregexp/>
+│                      <replaceregexp/>
+│                      <replaceregexp/>
+│                      <replaceregexp/>
+│ +                    <replaceregexp/>
+│                    </target>
+│                  </configuration>
+│                </execution>
+│              </executions>
+│            </plugin>
+│          </plugins>
+│        </build>
+
+2 / 2 target/reference/net.jsign/jsign-7.0-sources.jar jsign/target/jsign-7.0-sources.jar
+--- target/reference/net.jsign/jsign-7.0-sources.jar
++++ jsign/target/jsign-7.0-sources.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 4650 bytes, number of entries: 8
+│ +Zip file size: 4659 bytes, number of entries: 8
+│  -rw-r--r--  2.0 unx       25 b- defN 25-Jan-16 08:34 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-16 08:34 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-16 08:34 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-16 08:34 META-INF/maven/net.jsign/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-16 08:34 META-INF/maven/net.jsign/jsign/
+│  -rw-r--r--  2.0 unx       50 b- defN 25-Jan-16 08:34 META-INF/maven/net.jsign/jsign/pom.properties
+│ --rw-r--r--  2.0 unx    20405 b- defN 25-Jan-16 08:34 META-INF/maven/net.jsign/jsign/pom.xml
+│ +-rw-r--r--  2.0 unx    20610 b- defN 25-Jan-16 08:34 META-INF/maven/net.jsign/jsign/pom.xml
+│  -rw-r--r--  2.0 unx       77 b- defN 25-Jan-16 08:34 log4j2.component.properties
+│ -8 files, 20557 bytes uncompressed, 3600 bytes compressed:  82.5%
+│ +8 files, 20762 bytes uncompressed, 3609 bytes compressed:  82.6%
+├── META-INF/maven/net.jsign/jsign/pom.xml
+│ ├── META-INF/maven/net.jsign/jsign/pom.xml
+│ │ @@ -445,14 +445,15 @@
+│ │                      <!-- Documentation -->
+│ │                      <replaceregexp file="../docs/index.html" flags="g" match="jsign([-_])[\d.]+([-_.])" replace="jsign\1${project.version}\2"/>
+│ │                      <replaceregexp file="../docs/index.html" flags="g" match="/[\d.]+/jsign" replace="/${project.version}/jsign"/>
+│ │                      <replaceregexp file="../docs/index.html" flags="g" match="version&gt;[\d.]+" replace="version&gt;${project.version}"/>
+│ │                      <replaceregexp file="../docs/index.html" flags="g" match="version '[\d.]+'" replace="version '${project.version}'"/>
+│ │                      <replaceregexp file="../docs/index.html" flags="g" match="version &quot;[\d.]+&quot;" replace="version &quot;${project.version}&quot;"/>
+│ │                      <!-- Gradle examples -->
+│ │ +                    <replaceregexp file="../jsign-gradle-plugin/example.gradle" match="net.jsign:jsign-gradle-plugin:[\d.]+(?:-SNAPSHOT)?" replace="net.jsign:jsign-gradle-plugin:${project.version}"/>
+│ │                      <replaceregexp file="../jsign-gradle-plugin/example.gradle.kts" match="net.jsign:jsign-gradle-plugin:[\d.]+(?:-SNAPSHOT)?" replace="net.jsign:jsign-gradle-plugin:${project.version}"/>
+│ │                    </target>
+│ │                  </configuration>
+│ │                </execution>
+│ │              </executions>
+│ │            </plugin>
+│ │          </plugins>
+
