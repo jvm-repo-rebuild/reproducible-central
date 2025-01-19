@@ -31,13 +31,13 @@ outputs.0.0.checksums.sha512=e9e6847f6937ec659a78e88d8af227e30eea98b3f1b9b277a1a
 
 outputs.0.1.groupId=org.apache.ratis
 outputs.0.1.filename=ratis-3.1.3-cyclonedx.xml
-outputs.0.1.length=2877
-outputs.0.1.checksums.sha512=2d1050a74923b8f9ed2f98f9988874b5f41af3e935c0be404131c56d0080cced054cff61fd4400336b8d6b10ab80ec6e1637a5d61ec6c2f416af433247e09ed6
+outputs.0.1.length=2472
+outputs.0.1.checksums.sha512=489853f54c8cbd0d553275e474e97d0d9d44cb759b6ddeefe04d699bc2daecc274886feffc3c0ee9eb06e1dfd80e38930dfada6ea7a082971e28e051d1ee0834
 
 outputs.0.2.groupId=org.apache.ratis
 outputs.0.2.filename=ratis-3.1.3-cyclonedx.json
-outputs.0.2.length=3342
-outputs.0.2.checksums.sha512=1c00cbda6f9b38c275d2c802b7822ff87595e3004947cceaa7b80a31bc42089fba0fe62ab7d63c719480b5b3a7cf2d9376522b733249418a951ae0fa2592aba9
+outputs.0.2.length=2802
+outputs.0.2.checksums.sha512=35be87b48aa6cfefe021977604d2e7e141a0bbe38c4d2c8295d75638cc00f547f7db32815cfb6a4c0d35263cb41cf4b58e30469f8bcf5724902f1bdce30e52a4
 
 outputs.1.coordinates=org.apache.ratis:ratis-docs
 
@@ -73,13 +73,13 @@ outputs.1.5.checksums.sha512=c6971b16e09959534a77f2bb15c59c31e479d8eaba9a4e0db17
 
 outputs.1.6.groupId=org.apache.ratis
 outputs.1.6.filename=ratis-docs-3.1.3-cyclonedx.xml
-outputs.1.6.length=2919
-outputs.1.6.checksums.sha512=0e1842a2f2adfe0a7dc13df31207b371ff898099ff99ada6d79438cb048cf83e2d52b73030489cb26386372964a95442d4b77d529895dc0cd859cf8d3f3dc747
+outputs.1.6.length=2514
+outputs.1.6.checksums.sha512=93580c7f44097214108176cf614977d4319d3fb25135b8936ad333dab0e41b9c7fdff5a6c19fa4da8db1df97fa5d04f82febfa57d291a4ef71b83dbfa0f31425
 
 outputs.1.7.groupId=org.apache.ratis
 outputs.1.7.filename=ratis-docs-3.1.3-cyclonedx.json
-outputs.1.7.length=3384
-outputs.1.7.checksums.sha512=fac52769dbf7db305a5e7d01d169763971fa6493f60876fce18ff6262b9abb603b713e698ab0eb5355d676f1732421aba4dc72255f2f66ce39067e8761e98182
+outputs.1.7.length=2844
+outputs.1.7.checksums.sha512=eccf57b881ff4c81e9275101d29f06183d3e11a52774807ffb056f23bc9910e2e41113b24e2079266a3cf7502f83886bd7aab1aa6a16d461e85cd64858f7cfea
 
 outputs.2.coordinates=org.apache.ratis:ratis-proto
 
@@ -115,13 +115,13 @@ outputs.2.5.checksums.sha512=abc185f3f9fad48a716470eeaae93e72e14e084d6335e90bd90
 
 outputs.2.6.groupId=org.apache.ratis
 outputs.2.6.filename=ratis-proto-3.1.3-cyclonedx.xml
-outputs.2.6.length=7039
-outputs.2.6.checksums.sha512=2846196ea4dad2cc494a063e8dbbf99a87db74cff1f4d4835ca75146cae9597254473d862d1dffdfd6a56b7d5ed2f49dfa93b6fc46158718f85769a83f9163df
+outputs.2.6.length=5836
+outputs.2.6.checksums.sha512=240dc48ef1275b82a4232ce5d501463cb885486df47b2a163f197e13937ae8b356f7a93f5f3ca3bff0dd8513901faf69e628c18757d8427561fc620adcb34060
 
 outputs.2.7.groupId=org.apache.ratis
 outputs.2.7.filename=ratis-proto-3.1.3-cyclonedx.json
-outputs.2.7.length=8242
-outputs.2.7.checksums.sha512=3723a850f969c229de1e07f25f663a86abbb1246bf21e007d6c0e78bc69d4c539173fafa1fb0273874309130171d14eed9b5ffc9489b2f95c7bbcc0ea66cb987
+outputs.2.7.length=6670
+outputs.2.7.checksums.sha512=2d3ea5cbd4f2ac92fd858710662be040572260bcffbae6c5a259fb65dbed4dec062d31ab5da78105d48580d2512c281e97dfe611dd8c7f2d13e2b430a6f222de
 
 outputs.3.coordinates=org.apache.ratis:ratis-common
 
@@ -157,13 +157,13 @@ outputs.3.5.checksums.sha512=9da34a73dfda1e5f1a00b1b2b2e02bf7249aac81994c7e51af9
 
 outputs.3.6.groupId=org.apache.ratis
 outputs.3.6.filename=ratis-common-3.1.3-cyclonedx.xml
-outputs.3.6.length=9646
-outputs.3.6.checksums.sha512=025da7851286fb2d09566411c2ef7ae6ed9027a8371cb6dab2a3c06eb34c0a0b41e16cecebd2201534c5dfd56c26bc67cd1c3ccb93ae5356cf0d3aa6b8410fec
+outputs.3.6.length=8044
+outputs.3.6.checksums.sha512=98bb6ea32bb948c962e56287e365c6ca62229d2dd71f5d024a118131f621da1a5c289e1a3a98da13c33ca6b0d41ea6db76477c5cf5f231529b5e43abaa7b776f
 
 outputs.3.7.groupId=org.apache.ratis
 outputs.3.7.filename=ratis-common-3.1.3-cyclonedx.json
-outputs.3.7.length=11286
-outputs.3.7.checksums.sha512=012cf936bd01b0911add720d80f52504aa38b40894de1485187f44f29df6e3d8db62c82c89d80e86b60f98d676bf02cec4be20d3d8fd35727ddbe03051b0c67f
+outputs.3.7.length=9198
+outputs.3.7.checksums.sha512=cae862ccb15e7c1a810784617a9bb5f6215850a527bd7283fd1b4c08e8251489cd0426b8caf4967adebe6be71ad86e5753e818a47cc0b1b021bb514542ba056e
 
 outputs.4.coordinates=org.apache.ratis:ratis-client
 
@@ -199,13 +199,13 @@ outputs.4.5.checksums.sha512=982f54f04078a34488927a7387c37bd0b0482fc32a74b0d9abe
 
 outputs.4.6.groupId=org.apache.ratis
 outputs.4.6.filename=ratis-client-3.1.3-cyclonedx.xml
-outputs.4.6.length=12197
-outputs.4.6.checksums.sha512=a4358dca074a870edf2fd547abf42a835fab14aba244d6ab8e0c80c7acbc51ffa9178c86741bc77b77b8e1f8274787c9611d2114c99a37c22f5701a28ecf2fe1
+outputs.4.6.length=10196
+outputs.4.6.checksums.sha512=2ed65a47857fedd9037324d10be6dcf3fa472562e6056573c697aa09d45372ca036a82f26be7afae2558497e2fc143148ec672d1787ed20c0b7b394b470cca8c
 
 outputs.4.7.groupId=org.apache.ratis
 outputs.4.7.filename=ratis-client-3.1.3-cyclonedx.json
-outputs.4.7.length=14202
-outputs.4.7.checksums.sha512=71ffb852df2c4d0418d948b2a79d7b5980f29fa41ca112ce2d841a309f0990fd74ccb36dfcb1ee7c3f7a32f105ca47cdaefb5a26eaaa745b86b38008f737a49a
+outputs.4.7.length=11598
+outputs.4.7.checksums.sha512=b534e851bb822781249aee96205713133d5c87d38c87f37c2a87e25c1193efa7a49922e51cf2094f2c4ada8319b51cc64e9a3bd6c4cb2b7c2974c451e39e6cb6
 
 outputs.5.coordinates=org.apache.ratis:ratis-server-api
 
@@ -241,13 +241,13 @@ outputs.5.5.checksums.sha512=2ad181b99deffd420d467bef2c5e7a2fb9939b85697f82f575d
 
 outputs.5.6.groupId=org.apache.ratis
 outputs.5.6.filename=ratis-server-api-3.1.3-cyclonedx.xml
-outputs.5.6.length=14853
-outputs.5.6.checksums.sha512=91ad1b658455b3b9f2d71665f06a9fac4e32ac08f0f761f35c563f3791a8cb09bf17f45bcbb6cbd488135079139830ea4e8b27670a216384f13996a48e34e5a7
+outputs.5.6.length=12453
+outputs.5.6.checksums.sha512=a9fdc2231ed99f2ff785db498b27e50324ccd6ebca57c001cabf4d5e68f295bb642d59e5dd8ae7e10c003ffb79186cd9fb7781262486c5b8e67bc393c8226a41
 
 outputs.5.7.groupId=org.apache.ratis
 outputs.5.7.filename=ratis-server-api-3.1.3-cyclonedx.json
-outputs.5.7.length=17208
-outputs.5.7.checksums.sha512=5eb4adbcc0058ef616d9187b60a390a9b2df4268b0bd18b1ee329582610ddf7e753cf2f60785fdd4c4f97c5554af23b563df8f23630ea186530b4b9b5985cbab
+outputs.5.7.length=14088
+outputs.5.7.checksums.sha512=b1dcea8b055cc0eb022d7b43986aabf0170b7e4428b1f8aca133fe6caf1bd216925312e89ff6abe790e8130f64fb2ce398190c072608ec3b75c2414660e9a235
 
 outputs.6.coordinates=org.apache.ratis:ratis-metrics-api
 
@@ -283,13 +283,13 @@ outputs.6.5.checksums.sha512=de550a2558387a4925bd19797173db23b84ba46b2186c145db0
 
 outputs.6.6.groupId=org.apache.ratis
 outputs.6.6.filename=ratis-metrics-api-3.1.3-cyclonedx.xml
-outputs.6.6.length=12057
-outputs.6.6.checksums.sha512=9262bdccc399e7b88438d931f6e17ce0f6d85474270cfd0646108c7a84abf46d7146dadf0cc1a771d28cbaa375711f8d10412c2dbc9d2238b3f85e5be453e38a
+outputs.6.6.length=10056
+outputs.6.6.checksums.sha512=9a994083604fcf0ab22d1a55c6a149903df9252b290d0d2abb6b2a5c4bbe85468efb6bb246aa9ae1e96b050bd549b5ae26c4d5ec34990c3a21329eb670a1ec81
 
 outputs.6.7.groupId=org.apache.ratis
 outputs.6.7.filename=ratis-metrics-api-3.1.3-cyclonedx.json
-outputs.6.7.length=14092
-outputs.6.7.checksums.sha512=fbc0faaa695ba1a3f0a61c7fa77ba3e6b7c2109beb0f4b7c8f30d667b6e18ea036668117f81481ab45ded8b019b3ce5a172ac50201931fd0597907a2c3ad760e
+outputs.6.7.length=11488
+outputs.6.7.checksums.sha512=58699387f3257691dabbe8dc2bd5f4b577478cfb6d4619bce5902ee632924abc49121d0ac9bee3ccd0521761eeae5bfab8a2eb37ece798e3de72db2d1290d818
 
 outputs.7.coordinates=org.apache.ratis:ratis-metrics-default
 
@@ -325,13 +325,13 @@ outputs.7.5.checksums.sha512=6a8b6127c6a101f4fda47f3dcb491d20411044497ca548c199f
 
 outputs.7.6.groupId=org.apache.ratis
 outputs.7.6.filename=ratis-metrics-default-3.1.3-cyclonedx.xml
-outputs.7.6.length=14658
-outputs.7.6.checksums.sha512=759459e7c12c1dd6b06f2d26e75bfb6c12edc0c8674e0250769f45bbfe02cbd6b8a84a5267d17834b65ede173dd36f1b82c0853358ec102ff32b06c1f102c909
+outputs.7.6.length=12258
+outputs.7.6.checksums.sha512=dc57a94751cb330361dae5f24418fb694bff07978a2ba9e1f780931185bba63db88cdf30f888f22ee1b50aa34ed950d50cdc51d7a1220ceae658578e4742bc1e
 
 outputs.7.7.groupId=org.apache.ratis
 outputs.7.7.filename=ratis-metrics-default-3.1.3-cyclonedx.json
-outputs.7.7.length=17058
-outputs.7.7.checksums.sha512=a1812d71c640d965d11ae219992aa2b82825192650ba89511000e050782771ec88f150a7746316af3377483742ca0fbe68d9c5023077fa957896533c3691e1b4
+outputs.7.7.length=13938
+outputs.7.7.checksums.sha512=69fdeb64de5f0c37cc7910f0c578f52557f46f540c607f9c12bef4960dff50422933d469f9b03c3a06b4e331d5c229f40b3c00168c9d73d3a75e2551640a3b9a
 
 outputs.8.coordinates=org.apache.ratis:ratis-server
 
@@ -367,13 +367,13 @@ outputs.8.5.checksums.sha512=3e96c99e088bdf318e83cdf7b0b992abd6dcb85962be3b690e0
 
 outputs.8.6.groupId=org.apache.ratis
 outputs.8.6.filename=ratis-server-3.1.3-cyclonedx.xml
-outputs.8.6.length=20067
-outputs.8.6.checksums.sha512=bb4198a3105b2d330273698e6898a013494fd968556304611fd3668168cd621132cf6bc4596a65f173c289abc071965223779a48b4cf00e0b274d1233c5b4f7f
+outputs.8.6.length=16869
+outputs.8.6.checksums.sha512=8afc0c76100c90d349a31abe3409404e8fda595d96634f3cca9b3ed7c838186a70946f989c34045e5a6433105766764c502e55db7042c9382958d3a2b2ec14bf
 
 outputs.8.7.groupId=org.apache.ratis
 outputs.8.7.filename=ratis-server-3.1.3-cyclonedx.json
-outputs.8.7.length=23137
-outputs.8.7.checksums.sha512=36d33e5a7fb4d33a2a045945c180541c08d490f95421cd08908464d040b4c5dbd1c6eb5c7fbbf3ca2ed32e70c7f0eef232d0f747c0d1993a437ec780f23f87b7
+outputs.8.7.length=18985
+outputs.8.7.checksums.sha512=89f810428d285b4088dc5127f2b82917d619758bf7c43e7a4d3503258d19ee203804a41944e20ae35b0ae0e10dfb56d07e07b970312e278e561319a8375da1ca
 
 outputs.9.coordinates=org.apache.ratis:ratis-resource-bundle
 
@@ -404,13 +404,13 @@ outputs.9.4.checksums.sha512=7dd505de34c7eef026c3ae3bbfa0fbf4ed30ae2cbf4c5d94c8a
 
 outputs.9.5.groupId=org.apache.ratis
 outputs.9.5.filename=ratis-resource-bundle-3.1.3-cyclonedx.xml
-outputs.9.5.length=2949
-outputs.9.5.checksums.sha512=3c00559d85ce0fe01e28b09c0d72955bbf9ee1b66d789f9ecb887d5e22b8a4f2d6af2a51119587e977a3233c2056e570eca504c2497dcbb1930c69a76ba5210a
+outputs.9.5.length=2544
+outputs.9.5.checksums.sha512=9c64c6e3afeb3aaa7e4ab03370d2c4485b04a2156eb5805654f554345dbc4e06bab1a85c659e7b502708c144e6a303e5024aa892c77d80f4e5453c168204a544
 
 outputs.9.6.groupId=org.apache.ratis
 outputs.9.6.filename=ratis-resource-bundle-3.1.3-cyclonedx.json
-outputs.9.6.length=3414
-outputs.9.6.checksums.sha512=4d8fa754ca96a048b13c33e7bb1bd82d0e66e6add6eda5c8925795023d72111d1eb92d1e1b06f310573e6409add316670f2bb6c4fce9336f68576ed7faee38a0
+outputs.9.6.length=2874
+outputs.9.6.checksums.sha512=d14c0d9e0528ab41d91e801c6d0c225017260bbe0be3087308025a8ac555cc1eaa2ec898c79fdb4e194dc62198a0e7f2289c27b8d81bddfdfc0b2479a3625931
 
 outputs.10.coordinates=org.apache.ratis:ratis-grpc
 
@@ -446,13 +446,13 @@ outputs.10.5.checksums.sha512=6694f4bee8216c2700ec23b152df8e9135ef12a291e6c43a84
 
 outputs.10.6.groupId=org.apache.ratis
 outputs.10.6.filename=ratis-grpc-3.1.3-cyclonedx.xml
-outputs.10.6.length=22768
-outputs.10.6.checksums.sha512=5c2109866b87954c14f95fb1bb91a9f0aca00bcf2f306a698137a47d5aaf4c4102a58bf0ffe880f42d93f38d6c05af29e15b36b9cf9d261f47fa6e2d59ba6aff
+outputs.10.6.length=19171
+outputs.10.6.checksums.sha512=7c48fbf629d8505249bdf1abf9672862b6d53eff07787df8c050e259abf0e411377049a5eab924e279af0b7302a8ad1946086c3065eb628a9090c84b216f594f
 
 outputs.10.7.groupId=org.apache.ratis
 outputs.10.7.filename=ratis-grpc-3.1.3-cyclonedx.json
-outputs.10.7.length=26173
-outputs.10.7.checksums.sha512=8c3937253cd39d22985540b119d4ab34fbb6bd5a55a65306d0902711a22ea424c51d7b6989fe43ab2db1cc22d9cc151c0d4494807b70853e13f2e966da173b20
+outputs.10.7.length=21505
+outputs.10.7.checksums.sha512=fc8b32304ad175da3dc9a0aeca84143595af424eeaf5a1f8fe8a3c88243f379fd9b6918bb59c29b5cfe3124cd3c9fb46ee0db129606c99edd3d58743cf1a3ea1
 
 outputs.11.coordinates=org.apache.ratis:ratis-netty
 
@@ -488,13 +488,13 @@ outputs.11.5.checksums.sha512=b54249ed30560201eb2815779b3f03adce3389fea9e635340a
 
 outputs.11.6.groupId=org.apache.ratis
 outputs.11.6.filename=ratis-netty-3.1.3-cyclonedx.xml
-outputs.11.6.length=22774
-outputs.11.6.checksums.sha512=986ccef8b245f59c8f148165eff67508819441730eb7240ddd80fcd195e5e0d1ec9430ff82bf2c72e3af8c1a8b881fec2be2cc66127f04eb4d775b7345cc33c0
+outputs.11.6.length=19177
+outputs.11.6.checksums.sha512=8160d3195ae186bb1bb0b0aad27158e326228c2f918d02d0ddf28a2a0bd84fa192f8682067e94cbcd93de59e3453ca808ff986328ac6128e6a3d455b42f10578
 
 outputs.11.7.groupId=org.apache.ratis
 outputs.11.7.filename=ratis-netty-3.1.3-cyclonedx.json
-outputs.11.7.length=26179
-outputs.11.7.checksums.sha512=f429e328d483a6c839c612e16086acd68ef072896becd3ba9b66dce6bcba40adc1ecd8c4e6a23b88fa6801b53bc54fe314ae24022acd0ddcdd79a57a0e9fca8a
+outputs.11.7.length=21511
+outputs.11.7.checksums.sha512=8ecae6368e9c71eb8fd586b40a9204f4890293aca4e329cdf33488ca5a53597aba6245eb5182da3a6038b11fc2afe96fff4826e9c03395ef9211e2286f3b1262
 
 outputs.12.coordinates=org.apache.ratis:ratis-shell
 
@@ -530,13 +530,13 @@ outputs.12.5.checksums.sha512=5057165b26ff775990efbbce39dd6f5070fbf40a8174cf1731
 
 outputs.12.6.groupId=org.apache.ratis
 outputs.12.6.filename=ratis-shell-3.1.3-cyclonedx.xml
-outputs.12.6.length=19086
-outputs.12.6.checksums.sha512=3d595a2922b1bcaa7ff6a9916acc2f0dd6b4fff09b35a568844350e13bcfa1b98ff8a8c2801a5d0ec47b569c4a129f677ad1f2e458c7f769f8e73a3ca7265b31
+outputs.12.6.length=15888
+outputs.12.6.checksums.sha512=b30b667069dd4705d116271fa87f996f3ad4ff5a44087d07f49f3f782fa2230b7e972e683d07b2a53fbc364b72120c701530041c4a0a48d7d32004eca4c75146
 
 outputs.12.7.groupId=org.apache.ratis
 outputs.12.7.filename=ratis-shell-3.1.3-cyclonedx.json
-outputs.12.7.length=22267
-outputs.12.7.checksums.sha512=c73b5a0b27343d89bea20aee38dbabedd63c6ab8338c18a3df3a08c76d092aa339a1c0171cc192742349cea905910b3cc7a4b1594f8a973fae491c27777017e0
+outputs.12.7.length=18115
+outputs.12.7.checksums.sha512=1623373dff80288498ef1980a1d2758d96f8befcc269ed7f86ea10b7e44cedd8db3136587e37a11f99cfa1c07f39de7c8f9db5209bf0ee59db1d9b4ce9a4a5d6
 
 outputs.13.coordinates=org.apache.ratis:ratis-test
 
@@ -572,13 +572,13 @@ outputs.13.5.checksums.sha512=ef815ed85e0582dbc01cee8d6737973a8015d9cf1f19d02fa3
 
 outputs.13.6.groupId=org.apache.ratis
 outputs.13.6.filename=ratis-test-3.1.3-cyclonedx.xml
-outputs.13.6.length=2919
-outputs.13.6.checksums.sha512=8c0aa2a988510875bc5414054e813b535eb809950f549dd660b92c10059121aaeec98330f6892f460565caef0d9c4960951f36767f596ddaa45b28702c4be0a3
+outputs.13.6.length=2514
+outputs.13.6.checksums.sha512=6a3529f7d494f2759cd69f7d4a83fb6f487fa2b9780a0cacbc91085f5082a230489fb19ee5a0a9f9ef9d69f27313df8ffc694b7e8d026e101694397196661c46
 
 outputs.13.7.groupId=org.apache.ratis
 outputs.13.7.filename=ratis-test-3.1.3-cyclonedx.json
-outputs.13.7.length=3384
-outputs.13.7.checksums.sha512=2be5e7b18ce317873c8d50bb27f4042474d810edde7367c1ef1f4ac6a80c52b72709f117c5ca1f64a4ec78b4dbe317d5a772891d6ddeb6008452021343514b9f
+outputs.13.7.length=2844
+outputs.13.7.checksums.sha512=d5532a337bb066358aa9c58783abe06d093efc62f3742aa438304448a456d04a01772c6ea7867bbb4a8023c81812494d33985f443c11f8605dd12e3471476e1f
 
 outputs.14.coordinates=org.apache.ratis:ratis-tools
 
@@ -614,13 +614,13 @@ outputs.14.5.checksums.sha512=c916a795f741f16d0a49d016a64b0e68c25498f3be8e267aae
 
 outputs.14.6.groupId=org.apache.ratis
 outputs.14.6.filename=ratis-tools-3.1.3-cyclonedx.xml
-outputs.14.6.length=22532
-outputs.14.6.checksums.sha512=06f89303a558cb3c170aa514f0a143e1d36acb20ca32093fd4541b36ee64ee3d036c044096e06431ca09182dcd21e4eda2b75a24f3f2b7aea5b73b050ef887c5
+outputs.14.6.length=18935
+outputs.14.6.checksums.sha512=5c23d10e3caf5bbbb6fc667b5db89377244213c9edbf4ff50171761b78dd1c7229bb38393020ee188c28a742b5aca2b86988fadf8369420094137c4851f23b7e
 
 outputs.14.7.groupId=org.apache.ratis
 outputs.14.7.filename=ratis-tools-3.1.3-cyclonedx.json
-outputs.14.7.length=25982
-outputs.14.7.checksums.sha512=3b2cd7b1f106f4d1a0851bf48dce7a960c027a276eda166ea4a95913c7546911973cf243a2895f032bbef9a28ec9c1c7823ddad808592721dd40d54f6d27432f
+outputs.14.7.length=21314
+outputs.14.7.checksums.sha512=dd8b8718dab8ee748a60950d86496a654f5522f161380b307b96e9a4f76f2947a5456a4d3e9bc312f59f98080bbcb85f8ec8668b53f33207aa7535fe3c34a443
 
 outputs.15.coordinates=org.apache.ratis:ratis-examples
 
@@ -656,13 +656,13 @@ outputs.15.5.checksums.sha512=536c9264f7c99b7cbcd0c78e5b6aa790280ab8affcaa96e9b4
 
 outputs.15.6.groupId=org.apache.ratis
 outputs.15.6.filename=ratis-examples-3.1.3-cyclonedx.xml
-outputs.15.6.length=39262
-outputs.15.6.checksums.sha512=b71d45a1ae258b37d375d9085100764cb2e591024afc133c1bdb5de836276ddf591e3ab808dffce00a6a3bf8456995ef54865affa886796ffd3b736da0db2b15
+outputs.15.6.length=32872
+outputs.15.6.checksums.sha512=9924a4cbc0e95b1f00a396c3579349a8019aa2a76a86ebe922ca222b49f73c1c91ad8f51b9037039419079b7a4310d4dff6c135cf15c6a4096d233a1bfcb4ff2
 
 outputs.15.7.groupId=org.apache.ratis
 outputs.15.7.filename=ratis-examples-3.1.3-cyclonedx.json
-outputs.15.7.length=45176
-outputs.15.7.checksums.sha512=037657ff59836db58bc91aa79ca361e0fce03a215cf142c7b105b8ed1e33c2361a44062c5dfa03b0f1d6a10c2ca2ccb47dad17e68e0d0eb4355556655853d552
+outputs.15.7.length=36896
+outputs.15.7.checksums.sha512=b2d566c94867c087580ec031fe5762667a5a22635a645b40fde168f5eaff4f5e4538cb8ad8223931fcd82845c20ada0db31b0e3a28ce3bdce2696560af8fc5b1
 
 outputs.16.coordinates=org.apache.ratis:ratis-replicated-map
 
@@ -698,13 +698,13 @@ outputs.16.5.checksums.sha512=51739c69f4a7d5e3681c59a99f6f82074368e2e3979e486fd2
 
 outputs.16.6.groupId=org.apache.ratis
 outputs.16.6.filename=ratis-replicated-map-3.1.3-cyclonedx.xml
-outputs.16.6.length=28152
-outputs.16.6.checksums.sha512=5e6f6a6a3f21423374a88efd7f5381b9ad5b166105aa1cbbd4000257ce7238b1300ef138dbd89cb1d0f520e72abccf2eacf4b15f283125973452a8f75f5a9215
+outputs.16.6.length=23757
+outputs.16.6.checksums.sha512=156f82e16a53a516caa7337f99a199ef4c004b02c8b01fb7d636f3c1b6b5f370685973582b156161e338fcb53beeec99c06adf078b913a8610caf3b13e37798a
 
 outputs.16.7.groupId=org.apache.ratis
 outputs.16.7.filename=ratis-replicated-map-3.1.3-cyclonedx.json
-outputs.16.7.length=32242
-outputs.16.7.checksums.sha512=65c69e7b325b6233e19906e0693f918348b9234ef14bbda6284dbcec3cf3a9b038eed5f0411002d24913055486ebbbcd80aadcd64e9587826701a90e7d3d41f5
+outputs.16.7.length=26542
+outputs.16.7.checksums.sha512=26dc977dc55db3c127cd75c7c519e2d64414419c5a55804ec70204ccdef85af3b07f0a38399418f5cdc77b1c37cb07b1b0323f8bf361109e93d83a7b1f72529e
 
 outputs.17.coordinates=org.apache.ratis:ratis-metrics-dropwizard3
 
@@ -740,13 +740,13 @@ outputs.17.5.checksums.sha512=7e64742c1bbc64592bba85d5893f5cfe9d69db2eb5f9ede089
 
 outputs.17.6.groupId=org.apache.ratis
 outputs.17.6.filename=ratis-metrics-dropwizard3-3.1.3-cyclonedx.xml
-outputs.17.6.length=23901
-outputs.17.6.checksums.sha512=779a0c2a5824faca97445703c5626c47d3c60e50eeac1ee0783176802a0aae835c09b5c9d698e18a0b221d1bad72ec08f2f653eb94f1329c97f9a9022d6bfd08
+outputs.17.6.length=19905
+outputs.17.6.checksums.sha512=99ba04a25161efa377719af44b22f976d0bb04bda7edc964bc33f3b2c07f6a0f5f404f96748b8a20175e06ce71f7c106c71a44924d0eb4fffc10685fff39abda
 
 outputs.17.7.groupId=org.apache.ratis
 outputs.17.7.filename=ratis-metrics-dropwizard3-3.1.3-cyclonedx.json
-outputs.17.7.length=27769
-outputs.17.7.checksums.sha512=b1721cf37023ccda8c58ee5649ffaf59368d4f9abac8b04ff5f77cb4e38978bbfd2d4f5de0af2c259e8f3ae55df239837008ad0daab1cf51526429f7b6f886c6
+outputs.17.7.length=22585
+outputs.17.7.checksums.sha512=8b3ec99996570d345e3d7a7259d25418814c9254e81a0ea673809455362f809000ffa0f694cca8ebae566bf64b580fa360608936d1a3ae224664ead85d664531
 
 outputs.18.coordinates=org.apache.ratis:ratis-assembly
 
@@ -762,15 +762,15 @@ outputs.18.1.checksums.sha512=a124972e05e3022231c2b8f39a66bc114be6a5df8e775e7083
 
 outputs.18.2.groupId=org.apache.ratis
 outputs.18.2.filename=ratis-assembly-3.1.3-bin.tar.gz
-outputs.18.2.length=39221938
-outputs.18.2.checksums.sha512=1b9e695f007481ce2886965ce9df23c938c6239772ba24ac0c9f02f3d2ea9bd23996f6173cfe57352cbcd6c8f283bef32487c8aeda20f03877cc51ea7588613c
+outputs.18.2.length=39221654
+outputs.18.2.checksums.sha512=e2a5d0bee81340cdba00b12012bf241d2dbe196b9dc9db14a72ed363416a4caeecd91d0ebc0bd8bf540cddba6bb97ad372fe4a607923a305c37059a8408372bc
 
 outputs.18.3.groupId=org.apache.ratis
 outputs.18.3.filename=ratis-assembly-3.1.3-cyclonedx.xml
-outputs.18.3.length=54987
-outputs.18.3.checksums.sha512=4c9e56c50b87dc589e9fb43ca5dd58446fbdb54cc9a3b5132b9b3069aa0315c5c37e9d86e5759676996024b0cc1e00eac3c675ec553f0d362f939fdacfb18d0f
+outputs.18.3.length=46203
+outputs.18.3.checksums.sha512=07d013c1fe6c121181dbe3ec13574de1cb01236e31275bec9f6de3fe9185cecae32c46ac0d2c1fba24d3e2320c4d798aeaa4dfc939224a0d0ed462a531509ffa
 
 outputs.18.4.groupId=org.apache.ratis
 outputs.18.4.filename=ratis-assembly-3.1.3-cyclonedx.json
-outputs.18.4.length=63196
-outputs.18.4.checksums.sha512=a34f3d27c1c657bbd0de33499fa6f4177352a1ade4acb36ed6d0886510ae08d0f8728639bd9014c12cec4aab6be8eec73abf78af1b9cee5609adec48167cb4d3
+outputs.18.4.length=51820
+outputs.18.4.checksums.sha512=8ed0e2def33729649f8bfc241d779de6a04030c62ee4e557a313611ff5bef763699940deb66180ea3883f5d64f71009a7971e590ce259321d3a7a216e4f4012d
