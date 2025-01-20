@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/webjars/flexmonster.git](https://github.com/webjars/flexmonster.git)
 
-rebuilding **74 releases** of org.webjars:flexmonster:
-- **70** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **75 releases** of org.webjars:flexmonster:
+- **71** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.9.95](https://central.sonatype.com/artifact/org.webjars/flexmonster/2.9.95/pom) | | | |
+| [2.9.95](https://central.sonatype.com/artifact/org.webjars/flexmonster/2.9.95/pom) | [mvn jdk21](flexmonster-2.9.95.buildspec) | [result](flexmonster-2.9.95.buildinfo): [2 :white_check_mark: ](flexmonster-2.9.95.buildcompare) | 2.2M |
 | [2.9.94](https://central.sonatype.com/artifact/org.webjars/flexmonster/2.9.94/pom) | [mvn jdk21](flexmonster-2.9.94.buildspec) | [result](flexmonster-2.9.94.buildinfo): [2 :white_check_mark: ](flexmonster-2.9.94.buildcompare) | 2.2M |
 | [2.9.93](https://central.sonatype.com/artifact/org.webjars/flexmonster/2.9.93/pom) | [mvn jdk21](flexmonster-2.9.93.buildspec) | [result](flexmonster-2.9.93.buildinfo): [2 :white_check_mark: ](flexmonster-2.9.93.buildcompare) | 2.2M |
 | [2.9.92](https://central.sonatype.com/artifact/org.webjars/flexmonster/2.9.92/pom) | [mvn jdk21](flexmonster-2.9.92.buildspec) | [result](flexmonster-2.9.92.buildinfo): [2 :white_check_mark: ](flexmonster-2.9.92.buildcompare) | 2.2M |
