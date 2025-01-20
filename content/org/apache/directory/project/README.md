@@ -13,6 +13,7 @@ rebuilding **4 releases** of org.apache.directory.project:project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [50](https://central.sonatype.com/artifact/org.apache.directory.project/project/50/pom) | | | |
 | [49](https://central.sonatype.com/artifact/org.apache.directory.project/project/49/pom) | [mvn jdk8](project-49.buildspec) | [result](project-49.buildinfo): [2 :white_check_mark: ](project-49.buildcompare) | 80K |
 | [48](https://central.sonatype.com/artifact/org.apache.directory.project/project/48/pom) | [mvn jdk8](project-48.buildspec) | [result](project-48.buildinfo): [3 :white_check_mark: ](project-48.buildcompare) | 82K |
 | [47](https://central.sonatype.com/artifact/org.apache.directory.project/project/47/pom) | [mvn jdk8](project-47.buildspec) | [result](project-47.buildinfo): [3 :white_check_mark: ](project-47.buildcompare) | 82K |

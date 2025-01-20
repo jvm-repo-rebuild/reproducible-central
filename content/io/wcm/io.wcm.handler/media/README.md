@@ -13,6 +13,7 @@ rebuilding **10 releases** of io.wcm:io.wcm.handler.media:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.4.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.4.0/pom) | | | |
 | [2.3.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.3.0/pom) | [mvn jdk17 w](wcm-media-2.3.0.buildspec) | [result](io.wcm.handler.media-2.3.0.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.handler.media-2.3.0.buildcompare) | 3.1M |
 | [2.2.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.2.2/pom) | [mvn jdk17 w](wcm-media-2.2.2.buildspec) | [result](io.wcm.handler.media-2.2.2.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.handler.media-2.2.2.buildcompare) [:mag:](io.wcm.handler.media-2.2.2.diffoscope) | 3.0M |
 | [2.2.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.2.0/pom) | | | |
