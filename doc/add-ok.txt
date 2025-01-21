@@ -1,4 +1,3 @@
-content/io/airlift/airbase/airbase-211.buildspec:212
-content/org/apache/directory/project/project-49.buildspec:50
+content/io/liftwizard/liftwizard-2.1.23.buildspec:2.1.24
+content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.14.buildspec:0.82.15
 content/org/jpmml/jpmml-model/jpmml-model-1.6.11.buildspec:1.7.0
-content/org/webjars/flexmonster/flexmonster-2.9.94.buildspec:2.9.95
