@@ -13,6 +13,7 @@ rebuilding **1 releases** of io.cucumber:html-formatter:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [21.8.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/21.8.0/pom) | | | |
 | [21.7.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/21.7.0/pom) | | | |
 | [21.6.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/21.6.0/pom) | | | |
 | [21.5.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/21.5.0/pom) | | | |

@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **6158 releases** of **815 projects**:
-   - **4448** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **6160 releases** of **815 projects**:
+   - **4450** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 1710 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 815 projects, 702 have at least one fully reproducible release, 113 have none
 
@@ -259,7 +259,7 @@ Its objectives are to provide:
 | fr.marcwrobel | [jbanking](content/fr/marcwrobel/jbanking/README.md) | 2 | 2 :white_check_mark: |
 | fr.vidal.oss | [atom-jaxb](content/fr/vidal/oss/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
 | io.jooby | [jooby](content/io/jooby/README.md) | 30 | 30 :warning: |
-| io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 65 | 64 :white_check_mark: / 1 :warning: |
+| io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 66 | 65 :white_check_mark: / 1 :warning: |
 | io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 53 | 53 :warning: |
 | io.trino | [trino-root](content/io/trino/README.md) | 23 | 18 :white_check_mark: / 5 :warning: |
 | io.airlift | [airbase](content/io/airlift/airbase/README.md) | 56 | 54 :white_check_mark: / 2 :warning: |
@@ -319,7 +319,7 @@ Its objectives are to provide:
 | | [takari-plugin-testing](content/io/takari/maven/plugins/takari-plugin-testing/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | io.telicent.jena | [jena-kafka](content/io/telicent/jena/jena-kafka/README.md) | 4 | 4 :white_check_mark: |
 | | [rdf-abac](content/io/telicent/jena/rdf-abac/README.md) | 12 | 12 :white_check_mark: |
-| io.telicent.smart-caches.graph | [scg-base](content/io/telicent/smart-caches/graph/scg-base/README.md) | 25 | 25 :white_check_mark: |
+| io.telicent.smart-caches.graph | [scg-base](content/io/telicent/smart-caches/graph/scg-base/README.md) | 26 | 26 :white_check_mark: |
 | io.wcm | [*.caconfig.editor](content/io/wcm/io.wcm.caconfig/README.md) | 10 | 10 :warning: |
 | | [*.parent_toplevel](content/io/wcm/tooling/README.md) | 22 | 22 :white_check_mark: |
 | | [*.handler.commons](content/io/wcm/io.wcm.handler/commons/README.md) | 1 | 1 :white_check_mark: |
@@ -838,7 +838,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 5 | 5 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 19 | 1 :white_check_mark: / 18 :warning: |
-| **Count:** | **815** | **6158** | **4448** :white_check_mark:<br>**1710** :warning: |
+| **Count:** | **815** | **6160** | **4450** :white_check_mark:<br>**1710** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -874,7 +874,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn        18
      34 mvn        19
      17 mvn        20
-    363 mvn        21
+    364 mvn        21
      14 mvn        22
       5 mvn        23
       2 mvn-3.5.4   8
@@ -950,7 +950,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      11 mvn-3.9.5  22
     100 mvn-3.9.6   8
      18 mvn-3.9.6  11
-     51 mvn-3.9.6  17
+     52 mvn-3.9.6  17
       2 mvn-3.9.6  17.0.7
      65 mvn-3.9.6  21
      24 mvn-3.9.6  22

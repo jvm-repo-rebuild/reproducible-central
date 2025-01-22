@@ -1,3 +1,4 @@
-content/io/liftwizard/liftwizard-2.1.23.buildspec:2.1.24
-content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.14.buildspec:0.82.15
-content/org/jpmml/jpmml-model/jpmml-model-1.6.11.buildspec:1.7.0
+content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.0.5.buildspec:1.1.0
+content/io/cucumber/gherkin-utils/gherkin-utils-9.0.0.buildspec:9.1.0
+content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.15.buildspec:0.82.17
+content/org/jpmml/jpmml-model/jpmml-model-1.6.11.buildspec:1.7.1
