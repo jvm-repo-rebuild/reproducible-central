@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=PMD Build Tools Configurations
+group-id=net.sourceforge.pmd
+artifact-id=pmd-build-tools-config
+version=29
+
+# source information
+source.scm.uri=scm:git:git://github.com/pmd/build-tools.git
+source.scm.tag=29
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=net.sourceforge.pmd
+outputs.0.filename=pmd-build-tools-config-29.pom
+outputs.0.length=13275
+outputs.0.checksums.sha512=10ef389b1bf3d38574977a96512780a15bbd59abbc7d781339b3793bf2ff9481d85573fdc8e9190ef5aa90c98616d60b54ee566b9f4be6b2a42496aeb1fe8817
+
+outputs.1.groupId=net.sourceforge.pmd
+outputs.1.filename=pmd-build-tools-config-29.jar
+outputs.1.length=30262
+outputs.1.checksums.sha512=29c598ea32adb21d3ddcb6290b301c0e1d4dfb9b2547711cc4ee0beda56e0166032a55dca3cd1be47a57a09d1ae9866b2343c8814204c72fbdd551086b9eaec1
+
+outputs.2.groupId=net.sourceforge.pmd
+outputs.2.filename=pmd-build-tools-config-29-sources.jar
+outputs.2.length=22414
+outputs.2.checksums.sha512=bdbe1a62b1cbbfb81fa25fd12c5f0839f261123619f40e233110310709d601e3231f75ee66488ce1f64f59569d2d0a2e107c040b4edf9b26833b77a29a0df9dc
