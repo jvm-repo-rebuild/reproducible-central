@@ -1,4 +1,6 @@
-content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.0.5.buildspec:1.1.0
-content/io/cucumber/gherkin-utils/gherkin-utils-9.0.0.buildspec:9.1.0
-content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.15.buildspec:0.82.17
+content/com/cognite/units/units-catalog/units-catalog-0.1.18.buildspec:0.1.19
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.1.1-beta-23.buildspec:11.2.0
+content/net/sourceforge/pmd/pmd-build-tools-config/pmd-build-tools-config-28.buildspec:29
+content/org/infinispan/protostream/protostream-6.0.0.Dev02.buildspec:15.0.13.Final
 content/org/jpmml/jpmml-model/jpmml-model-1.6.11.buildspec:1.7.1
+content/org/webjars/redoc/redoc-2.1.5.buildspec:2.3.0

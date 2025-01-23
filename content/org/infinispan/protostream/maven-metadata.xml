@@ -3,8 +3,8 @@
   <groupId>org.infinispan.protostream</groupId>
   <artifactId>parent</artifactId>
   <versioning>
-    <latest>14.0.0.CR2</latest>
-    <release>14.0.0.CR2</release>
+    <latest>15.0.13.Final</latest>
+    <release>15.0.13.Final</release>
     <versions>
       <version>1.0.0.Alpha1</version>
       <version>1.0.0.Alpha2</version>
@@ -144,10 +144,12 @@
       <version>5.0.10.Final</version>
       <version>5.0.11.Final</version>
       <version>5.0.12.Final</version>
+      <version>5.0.13.Final</version>
       <version>6.0.0.Dev01</version>
       <version>6.0.0.Dev02</version>
       <version>14.0.0.CR2</version>
+      <version>15.0.13.Final</version>
     </versions>
-    <lastUpdated>20250113133522</lastUpdated>
+    <lastUpdated>20250123135533</lastUpdated>
   </versioning>
 </metadata>

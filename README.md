@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **6160 releases** of **815 projects**:
-   - **4450** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **6165 releases** of **815 projects**:
+   - **4455** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 1710 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 815 projects, 702 have at least one fully reproducible release, 113 have none
 
@@ -240,7 +240,7 @@ Its objectives are to provide:
 | dev.sigstore | [sigstore-maven-plugin](content/dev/sigstore/sigstore-maven-plugin/README.md) | 6 | 3 :white_check_mark: / 3 :warning: |
 | dk.mada.jaxrs | [openapi-jaxrs-client](content/dk/mada/jaxrs/openapi-jaxrs-client/README.md) | 7 | 5 :white_check_mark: / 2 :warning: |
 | dk.mada.reproducible | [reproducible-gradle](content/dk/mada/reproducible/reproducible-gradle/README.md) | 1 | 1 :white_check_mark: |
-| dk.mada.style | [mada-style-gradle](content/dk/mada/style/mada-style-gradle/README.md) | 9 | 8 :white_check_mark: / 1 :warning: |
+| dk.mada.style | [mada-style-gradle](content/dk/mada/style/mada-style-gradle/README.md) | 10 | 9 :white_check_mark: / 1 :warning: |
 | eu.europa.ec.joinup.sat | [jdplus-benchmarking](content/eu/europa/ec/joinup/sat/jdplus-benchmarking/README.md) | 1 | 1 :warning: |
 | | [jdplus-experimental](content/eu/europa/ec/joinup/sat/jdplus-experimental/README.md) | 1 | 1 :white_check_mark: |
 | | [jdplus-incubator](content/eu/europa/ec/joinup/sat/jdplus-incubator/README.md) | 1 | 1 :warning: |
@@ -275,7 +275,7 @@ Its objectives are to provide:
 | | [cucumber-expressions](content/io/cucumber/cucumber-expressions/README.md) | 9 | 9 :white_check_mark: |
 | | [cucumber-jvm](content/io/cucumber/cucumber-jvm/README.md) | 19 | 19 :white_check_mark: |
 | | [gherkin](content/io/cucumber/gherkin/README.md) | 14 | 14 :white_check_mark: |
-| | [gherkin-utils](content/io/cucumber/gherkin-utils/README.md) | 6 | 6 :white_check_mark: |
+| | [gherkin-utils](content/io/cucumber/gherkin-utils/README.md) | 8 | 8 :white_check_mark: |
 | | [html-formatter](content/io/cucumber/html-formatter/README.md) | 1 | 1 :warning: |
 | | [junit-xml-formatter](content/io/cucumber/junit-xml-formatter/README.md) | 9 | 9 :white_check_mark: |
 | | [messages](content/io/cucumber/messages/README.md) | 14 | 14 :white_check_mark: |
@@ -319,7 +319,7 @@ Its objectives are to provide:
 | | [takari-plugin-testing](content/io/takari/maven/plugins/takari-plugin-testing/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | io.telicent.jena | [jena-kafka](content/io/telicent/jena/jena-kafka/README.md) | 4 | 4 :white_check_mark: |
 | | [rdf-abac](content/io/telicent/jena/rdf-abac/README.md) | 12 | 12 :white_check_mark: |
-| io.telicent.smart-caches.graph | [scg-base](content/io/telicent/smart-caches/graph/scg-base/README.md) | 26 | 26 :white_check_mark: |
+| io.telicent.smart-caches.graph | [scg-base](content/io/telicent/smart-caches/graph/scg-base/README.md) | 28 | 28 :white_check_mark: |
 | io.wcm | [*.caconfig.editor](content/io/wcm/io.wcm.caconfig/README.md) | 10 | 10 :warning: |
 | | [*.parent_toplevel](content/io/wcm/tooling/README.md) | 22 | 22 :white_check_mark: |
 | | [*.handler.commons](content/io/wcm/io.wcm.handler/commons/README.md) | 1 | 1 :white_check_mark: |
@@ -838,7 +838,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 5 | 5 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 19 | 1 :white_check_mark: / 18 :warning: |
-| **Count:** | **815** | **6160** | **4450** :white_check_mark:<br>**1710** :warning: |
+| **Count:** | **815** | **6165** | **4455** :white_check_mark:<br>**1710** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -851,11 +851,11 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 ```
      32 gradle     11
      93 gradle     17
-     46 gradle     21
+     47 gradle     21
      35 mvn         7
    1483 mvn         8
       1 mvn         9
-   1401 mvn        11
+   1403 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
@@ -874,7 +874,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn        18
      34 mvn        19
      17 mvn        20
-    364 mvn        21
+    366 mvn        21
      14 mvn        22
       5 mvn        23
       2 mvn-3.5.4   8
