@@ -1,0 +1,17 @@
+groupId=net.sourceforge.pmd
+artifactId=pmd-build-tools-config
+display=${groupId}:${artifactId}
+version=29
+
+gitRepo=https://github.com/pmd/build-tools.git
+gitTag=${version}
+
+tool=mvn
+jdk=11
+newline=lf
+umask=022
+
+command="mvn -Ppmd-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
