@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/cognitedata/units-catalog.git](https://github.com/cognitedata/units-catalog.git)
 
-rebuilding **19 releases** of com.cognite.units:units-catalog:
-- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **20 releases** of com.cognite.units:units-catalog:
+- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.1.19](https://central.sonatype.com/artifact/com.cognite.units/units-catalog/0.1.19/pom) | | | |
+| [0.1.19](https://central.sonatype.com/artifact/com.cognite.units/units-catalog/0.1.19/pom) | [mvn jdk17](units-catalog-0.1.19.buildspec) | [result](units-catalog-0.1.19.buildinfo): [3 :white_check_mark: ](units-catalog-0.1.19.buildcompare) | 106K |
 | [0.1.18](https://central.sonatype.com/artifact/com.cognite.units/units-catalog/0.1.18/pom) | [mvn jdk17](units-catalog-0.1.18.buildspec) | [result](units-catalog-0.1.18.buildinfo): [3 :white_check_mark: ](units-catalog-0.1.18.buildcompare) | 106K |
 | [0.1.17](https://central.sonatype.com/artifact/com.cognite.units/units-catalog/0.1.17/pom) | [mvn jdk17](units-catalog-0.1.17.buildspec) | [result](units-catalog-0.1.17.buildinfo): [3 :white_check_mark: ](units-catalog-0.1.17.buildcompare) | 106K |
 | [0.1.16](https://central.sonatype.com/artifact/com.cognite.units/units-catalog/0.1.16/pom) | [mvn jdk17](units-catalog-0.1.16.buildspec) | [result](units-catalog-0.1.16.buildinfo): [3 :white_check_mark: ](units-catalog-0.1.16.buildcompare) | 105K |
