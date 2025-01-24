@@ -25,6 +25,7 @@ rebuilding **7 releases** of org.jpmml:jpmml-evaluator:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.7.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/1.7.0/pom) | | | |
 | [1.6.11](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/1.6.11/pom) | [mvn jdk8](jpmml-evaluator-1.6.11.buildspec) | [result](jpmml-evaluator-1.6.11.buildinfo): [19 :white_check_mark: ](jpmml-evaluator-1.6.11.buildcompare) | 1.2M |
 | [1.6.10](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/1.6.10/pom) | [mvn jdk8](jpmml-evaluator-1.6.10.buildspec) | [result](jpmml-evaluator-1.6.10.buildinfo): [19 :white_check_mark: ](jpmml-evaluator-1.6.10.buildcompare) | 1.2M |
 | [1.6.9](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/1.6.9/pom) | [mvn jdk8](jpmml-evaluator-1.6.9.buildspec) | [result](jpmml-evaluator-1.6.9.buildinfo): [19 :white_check_mark: ](jpmml-evaluator-1.6.9.buildcompare) | 1.1M |
