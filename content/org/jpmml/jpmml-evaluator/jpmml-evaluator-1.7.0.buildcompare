@@ -1,0 +1,20 @@
+version=1.7.0
+ok=8
+ko=11
+ignored=0
+okFiles="jpmml-evaluator-1.7.0.pom pmml-evaluator-1.7.0.pom pmml-evaluator-jackson-1.7.0.pom pmml-evaluator-metro-1.7.0.pom pmml-evaluator-moxy-1.7.0.pom pmml-evaluator-reporting-1.7.0.pom pmml-evaluator-testing-1.7.0.pom pmml-evaluator-kryo-1.7.0.pom"
+koFiles="pmml-evaluator-1.7.0.jar pmml-evaluator-1.7.0-sources.jar pmml-evaluator-jackson-1.7.0.jar pmml-evaluator-metro-1.7.0.jar pmml-evaluator-moxy-1.7.0.jar pmml-evaluator-reporting-1.7.0.jar pmml-evaluator-reporting-1.7.0-sources.jar pmml-evaluator-testing-1.7.0.jar pmml-evaluator-testing-1.7.0-sources.jar pmml-evaluator-kryo-1.7.0.jar pmml-evaluator-kryo-1.7.0-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/pmml-evaluator-1.7.0.jar pmml-evaluator/target/pmml-evaluator-1.7.0.jar
+# diffoscope target/reference/org.jpmml/pmml-evaluator-1.7.0-sources.jar pmml-evaluator/target/pmml-evaluator-1.7.0-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-evaluator-jackson-1.7.0.jar pmml-evaluator-jackson/target/pmml-evaluator-jackson-1.7.0.jar
+# diffoscope target/reference/org.jpmml/pmml-evaluator-metro-1.7.0.jar pmml-evaluator-metro/target/pmml-evaluator-metro-1.7.0.jar
+# diffoscope target/reference/org.jpmml/pmml-evaluator-moxy-1.7.0.jar pmml-evaluator-moxy/target/pmml-evaluator-moxy-1.7.0.jar
+# diffoscope target/reference/org.jpmml/pmml-evaluator-reporting-1.7.0.jar pmml-evaluator-reporting/target/pmml-evaluator-reporting-1.7.0.jar
+# diffoscope target/reference/org.jpmml/pmml-evaluator-reporting-1.7.0-sources.jar pmml-evaluator-reporting/target/pmml-evaluator-reporting-1.7.0-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-evaluator-testing-1.7.0.jar pmml-evaluator-testing/target/pmml-evaluator-testing-1.7.0.jar
+# diffoscope target/reference/org.jpmml/pmml-evaluator-testing-1.7.0-sources.jar pmml-evaluator-testing/target/pmml-evaluator-testing-1.7.0-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-evaluator-kryo-1.7.0.jar pmml-evaluator-kryo/target/pmml-evaluator-kryo-1.7.0.jar
+# diffoscope target/reference/org.jpmml/pmml-evaluator-kryo-1.7.0-sources.jar pmml-evaluator-kryo/target/pmml-evaluator-kryo-1.7.0-sources.jar
