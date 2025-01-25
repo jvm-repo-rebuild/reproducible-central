@@ -1,0 +1,19 @@
+groupId=org.apache.wicket
+artifactId=wicket-parent
+display=${groupId}:wicket
+version=10.4.0
+
+gitRepo=https://git-wip-us.apache.org/repos/asf/wicket.git
+gitTag=rel/wicket-${version}
+
+tool=mvn
+jdk=17
+toolchains="17|21"
+newline=lf
+#umask=022
+
+command="mvn -Papache-release,release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
