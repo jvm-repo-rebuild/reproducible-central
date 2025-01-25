@@ -1,3 +1,4 @@
+content/org/apache/wicket/wicket-parent-10.3.0.buildspec:10.4.0
 content/org/infinispan/protostream/protostream-6.0.0.Dev02.buildspec:15.0.13.Final
 content/org/jpmml/jpmml-evaluator/jpmml-evaluator-1.6.11.buildspec:1.7.0
 content/org/jpmml/jpmml-model/jpmml-model-1.6.11.buildspec:1.7.1
