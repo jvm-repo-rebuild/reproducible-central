@@ -20,6 +20,7 @@ rebuilding **4 releases** of io.avaje:avaje-prisms-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.38](https://central.sonatype.com/artifact/io.avaje/avaje-prisms-parent/1.38/pom) | | | |
 | [1.37](https://central.sonatype.com/artifact/io.avaje/avaje-prisms-parent/1.37/pom) | [mvn jdk21](avaje-prisms-1.37.buildspec) | [result](avaje-prisms-parent-1.37.buildinfo): [7 :white_check_mark: ](avaje-prisms-parent-1.37.buildcompare) | 125K |
 | [1.36](https://central.sonatype.com/artifact/io.avaje/avaje-prisms-parent/1.36/pom) | [mvn jdk21](avaje-prisms-1.36.buildspec) | [result](avaje-prisms-parent-1.36.buildinfo): [7 :white_check_mark: ](avaje-prisms-parent-1.36.buildcompare) | 125K |
 | [1.35](https://central.sonatype.com/artifact/io.avaje/avaje-prisms-parent/1.35/pom) | [mvn jdk21](avaje-prisms-1.35.buildspec) | [result](avaje-prisms-parent-1.35.buildinfo): [7 :white_check_mark: ](avaje-prisms-parent-1.35.buildcompare) | 125K |

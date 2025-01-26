@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **6172 releases** of **815 projects**:
-   - **4459** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **6173 releases** of **815 projects**:
+   - **4460** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 1713 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 815 projects, 702 have at least one fully reproducible release, 113 have none
 
@@ -403,7 +403,7 @@ Its objectives are to provide:
 | org.apache.systemds | [systemds](content/org/apache/systemds/README.md) | 2 | 2 :warning: |
 | org.apache.tika | [tika](content/org/apache/tika/README.md) | 8 | 8 :warning: |
 | org.apache.wayang | [wayang](content/org/apache/wayang/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
-| org.apache.wicket | [wicket](content/org/apache/wicket/README.md) | 3 | 3 :white_check_mark: |
+| org.apache.wicket | [wicket](content/org/apache/wicket/README.md) | 4 | 4 :white_check_mark: |
 | org.apache.wss4j | [wss4j](content/org/apache/wss4j/README.md) | 9 | 8 :white_check_mark: / 1 :warning: |
 | org.apache.zookeeper | [zookeeper](content/org/apache/zookeeper/README.md) | 5 | 5 :warning: |
 | org.apache.activemq | [artemis-pom](content/org/apache/activemq/artemis/README.md) | 15 | 4 :white_check_mark: / 11 :warning: |
@@ -838,7 +838,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 5 | 5 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 19 | 1 :white_check_mark: / 18 :warning: |
-| **Count:** | **815** | **6172** | **4459** :white_check_mark:<br>**1713** :warning: |
+| **Count:** | **815** | **6173** | **4460** :white_check_mark:<br>**1713** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -863,7 +863,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn        14
      10 mvn        15
      14 mvn        16
-    509 mvn        17
+    510 mvn        17
       1 mvn        17.0.10
       2 mvn        17.0.11
       1 mvn        17.0.12

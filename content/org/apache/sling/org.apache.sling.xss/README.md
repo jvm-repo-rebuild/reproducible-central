@@ -13,6 +13,7 @@ rebuilding **9 releases** of org.apache.sling:org.apache.sling.xss:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.4.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.xss/2.4.6/pom) | | | |
 | [2.4.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.xss/2.4.4/pom) | [mvn jdk11](org.apache.sling.xss-2.4.4.buildspec) | [result](org.apache.sling.xss-2.4.4.buildinfo): [4 :white_check_mark: ](org.apache.sling.xss-2.4.4.buildcompare) | 2.2M |
 | [2.4.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.xss/2.4.2/pom) | [mvn jdk11](org.apache.sling.xss-2.4.2.buildspec) | [result](org.apache.sling.xss-2.4.2.buildinfo): [4 :white_check_mark: ](org.apache.sling.xss-2.4.2.buildcompare) | 2.2M |
 | [2.4.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.xss/2.4.0/pom) | [mvn jdk17](org.apache.sling.xss-2.4.0.buildspec) | [result](org.apache.sling.xss-2.4.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.xss-2.4.0.buildcompare) | 4.5M |

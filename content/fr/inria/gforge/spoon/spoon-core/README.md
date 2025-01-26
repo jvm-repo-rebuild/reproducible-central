@@ -20,6 +20,7 @@ rebuilding **135 releases** of fr.inria.gforge.spoon:spoon-core:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [11.2.1-beta-1](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.2.1-beta-1/pom) | | | |
 | [11.2.0](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.2.0/pom) | [mvn jdk21](spoon-core-11.2.0.buildspec) | [result](spoon-pom-11.2.0.buildinfo): [8 :white_check_mark: ](spoon-pom-11.2.0.buildcompare) | 18M |
 | [11.1.1-beta-23](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.1.1-beta-23/pom) | [mvn jdk21](spoon-core-11.1.1-beta-23.buildspec) | [result](spoon-pom-11.1.1-beta-23.buildinfo): [8 :white_check_mark: ](spoon-pom-11.1.1-beta-23.buildcompare) | 18M |
 | [11.1.1-beta-22](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.1.1-beta-22/pom) | [mvn jdk21](spoon-core-11.1.1-beta-22.buildspec) | [result](spoon-pom-11.1.1-beta-22.buildinfo): [8 :white_check_mark: ](spoon-pom-11.1.1-beta-22.buildcompare) | 18M |

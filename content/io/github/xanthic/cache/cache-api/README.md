@@ -34,6 +34,7 @@ rebuilding **2 releases** of io.github.xanthic.cache:cache-api:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.7.1](https://central.sonatype.com/artifact/io.github.xanthic.cache/cache-api/0.7.1/pom) | | | |
 | [0.7.0](https://central.sonatype.com/artifact/io.github.xanthic.cache/cache-api/0.7.0/pom) | [gradle jdk21](cache-api-0.7.0.buildspec) | [result](cache-api-0.7.0.buildinfo): [50 :white_check_mark: ](cache-api-0.7.0.buildcompare) | 250K |
 | [0.6.2](https://central.sonatype.com/artifact/io.github.xanthic.cache/cache-api/0.6.2/pom) | [gradle jdk21](cache-api-0.6.2.buildspec) | [result](cache-api-0.6.2.buildinfo): [50 :white_check_mark: ](cache-api-0.6.2.buildcompare) | 239K |
 

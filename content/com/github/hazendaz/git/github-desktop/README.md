@@ -13,6 +13,7 @@ rebuilding **38 releases** of com.github.hazendaz.git:github-desktop:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.4.15](https://central.sonatype.com/artifact/com.github.hazendaz.git/github-desktop/3.4.15/pom) | | | |
 | [3.4.13](https://central.sonatype.com/artifact/com.github.hazendaz.git/github-desktop/3.4.13/pom) | [mvn jdk21 w](github-desktop-3.4.13.buildspec) | [result](github-desktop-3.4.13.buildinfo): [4 :white_check_mark: ](github-desktop-3.4.13.buildcompare) | 162M |
 | [3.4.12](https://central.sonatype.com/artifact/com.github.hazendaz.git/github-desktop/3.4.12/pom) | [mvn jdk21 w](github-desktop-3.4.12.buildspec) | [result](github-desktop-3.4.12.buildinfo): [4 :white_check_mark: ](github-desktop-3.4.12.buildcompare) | 162M |
 | [3.4.9](https://central.sonatype.com/artifact/com.github.hazendaz.git/github-desktop/3.4.9/pom) | [mvn jdk21 w](github-desktop-3.4.9.buildspec) | [result](github-desktop-3.4.9.buildinfo): [3 :white_check_mark:  1 :warning:](github-desktop-3.4.9.buildcompare) | 162M |
