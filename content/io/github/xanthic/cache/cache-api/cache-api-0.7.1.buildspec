@@ -1,0 +1,19 @@
+groupId=io.github.xanthic.cache
+artifactId=cache-api
+version=0.7.1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/Xanthic/cache-api.git
+gitTag=v${version}
+
+tool=gradle
+jdk=21
+newline=lf
+umask=022
+
+command="./gradlew --no-daemon -Pgnupg.skip clean assemble publishToMavenLocal -x test -x :cache-kotlin:kotlinSourcesJar"
+buildinfo=${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
