@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dubbo.git)
 
-<details><summary>This project defines 177 modules:</summary>
+<details><summary>This project defines 182 modules:</summary>
 
 * [org.apache.dubbo:dubbo](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/overview)
 * [org.apache.dubbo:dubbo-all-shaded](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-all-shaded/overview)
@@ -121,10 +121,12 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-remoting-netty4](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-remoting-netty4/overview)
 * [org.apache.dubbo:dubbo-remoting-p2p](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-remoting-p2p/overview)
 * [org.apache.dubbo:dubbo-remoting-redis](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-remoting-redis/overview)
+* [org.apache.dubbo:dubbo-remoting-websocket](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-remoting-websocket/overview)
 * [org.apache.dubbo:dubbo-remoting-zookeeper](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-remoting-zookeeper/overview)
 * [org.apache.dubbo:dubbo-remoting-zookeeper-api](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-remoting-zookeeper-api/overview)
 * [org.apache.dubbo:dubbo-remoting-zookeeper-curator5](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-remoting-zookeeper-curator5/overview)
 * [org.apache.dubbo:dubbo-rest-jaxrs](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-rest-jaxrs/overview)
+* [org.apache.dubbo:dubbo-rest-openapi](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-rest-openapi/overview)
 * [org.apache.dubbo:dubbo-rest-servlet](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-rest-servlet/overview)
 * [org.apache.dubbo:dubbo-rest-spring](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-rest-spring/overview)
 * [org.apache.dubbo:dubbo-rpc](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-rpc/overview)
@@ -164,6 +166,8 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-spring-boot](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-spring-boot/overview)
 * [org.apache.dubbo:dubbo-spring-boot-3-autoconfigure](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-spring-boot-3-autoconfigure/overview)
 * [org.apache.dubbo:dubbo-spring-boot-actuator](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-spring-boot-actuator/overview)
+* [org.apache.dubbo:dubbo-spring-boot-actuator-autoconfigure](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-spring-boot-actuator-autoconfigure/overview)
+* [org.apache.dubbo:dubbo-spring-boot-actuator-autoconfigure-compatible](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-spring-boot-actuator-autoconfigure-compatible/overview)
 * [org.apache.dubbo:dubbo-spring-boot-actuator-compatible](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-spring-boot-actuator-compatible/overview)
 * [org.apache.dubbo:dubbo-spring-boot-autoconfigure](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-spring-boot-autoconfigure/overview)
 * [org.apache.dubbo:dubbo-spring-boot-autoconfigure-compatible](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-spring-boot-autoconfigure-compatible/overview)
@@ -183,18 +187,19 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-tracing-otel-otlp-spring-boot-starter](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-tracing-otel-otlp-spring-boot-starter/overview)
 * [org.apache.dubbo:dubbo-tracing-otel-zipkin-spring-boot-starter](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-tracing-otel-zipkin-spring-boot-starter/overview)
 * [org.apache.dubbo:dubbo-triple-servlet](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-triple-servlet/overview)
+* [org.apache.dubbo:dubbo-triple-websocket](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-triple-websocket/overview)
 * [org.apache.dubbo:dubbo-xds](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-xds/overview)
 * [org.apache.dubbo:dubbo-zookeeper-curator5-spring-boot-starter](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-zookeeper-curator5-spring-boot-starter/overview)
 * [org.apache.dubbo:dubbo-zookeeper-spring-boot-starter](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-zookeeper-spring-boot-starter/overview)
 </details>
 
-rebuilding **78 releases** of org.apache.dubbo:dubbo:
-- **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **79 releases** of org.apache.dubbo:dubbo:
+- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 59 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.3.3](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.3/pom) | | | |
+| [3.3.3](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.3/pom) | [mvn jdk21](dubbo-3.3.3.buildspec) | [result](dubbo-parent-3.3.3.buildinfo): [253 :white_check_mark: ](dubbo-parent-3.3.3.buildcompare) | 49M |
 | [3.3.2](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.2/pom) | [mvn jdk21](dubbo-3.3.2.buildspec) | [result](dubbo-parent-3.3.2.buildinfo): [250 :white_check_mark: ](dubbo-parent-3.3.2.buildcompare) | 47M |
 | [3.3.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.1/pom) | [mvn jdk21](dubbo-3.3.1.buildspec) | [result](dubbo-parent-3.3.1.buildinfo): [250 :white_check_mark: ](dubbo-parent-3.3.1.buildcompare) | 47M |
 | [3.3.0](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.0/pom) | [mvn jdk21](dubbo-3.3.0.buildspec) | [result](dubbo-parent-3.3.0.buildinfo): [253 :white_check_mark: ](dubbo-parent-3.3.0.buildcompare) | 47M |
