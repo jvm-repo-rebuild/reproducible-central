@@ -1,9 +1,8 @@
-content/com/github/hazendaz/git/github-desktop/github-desktop-3.4.13.buildspec:3.4.15
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.0.buildspec:11.2.1-beta-1
-content/io/avaje/jex/avaje-jex-3.0-RC14.buildspec:3.0-RC15
-content/io/avaje/prisms/avaje-prisms-1.37.buildspec:1.38
-content/io/github/xanthic/cache/cache-api/cache-api-0.7.0.buildspec:0.7.1
-content/org/apache/dubbo/dubbo-3.3.2.buildspec:3.3.3
+content/io/airlift/airbase/airbase-212.buildspec:213
+content/io/avaje/http/avaje-http-2.9-RC8.buildspec:3.0-RC1
+content/io/avaje/jex/avaje-jex-3.0-RC15.buildspec:3.0-RC16
+content/io/avaje/validator/avaje-validator-2.4.buildspec:2.5
+content/org/apache/commons/commons-codec/commons-codec-1.17.2.buildspec:1.18.0
 content/org/apache/sling/org.apache.sling.xss/org.apache.sling.xss-2.4.4.buildspec:2.4.6
 content/org/infinispan/protostream/protostream-6.0.0.Dev02.buildspec:15.0.13.Final
 content/org/jpmml/jpmml-evaluator/jpmml-evaluator-1.6.11.buildspec:1.7.0

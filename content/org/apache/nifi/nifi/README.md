@@ -919,6 +919,7 @@ rebuilding **26 releases** of org.apache.nifi:nifi:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.2.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.2.0/pom) | | | |
 | [2.1.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.1.0/pom) | [mvn jdk21](nifi-2.1.0.buildspec) | [result](nifi-2.1.0.buildinfo): [1540 :white_check_mark:  106 :warning:](nifi-2.1.0.buildcompare) | 1.6G |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0/pom) | [mvn jdk21](nifi-2.0.0.buildspec) | [result](nifi-2.0.0.buildinfo): [1565 :white_check_mark:  76 :warning:](nifi-2.0.0.buildcompare) [:mag:](nifi-2.0.0.diffoscope) | 1.6G |
 | [2.0.0-M4](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0-M4/pom) | [mvn jdk21](nifi-2.0.0-M4.buildspec) | [result](nifi-2.0.0-M4.buildinfo): [1672 :white_check_mark:  73 :warning:](nifi-2.0.0-M4.buildcompare) | 2.0G |
