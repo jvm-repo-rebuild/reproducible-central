@@ -1,0 +1,63 @@
+1 / 1 target/reference/org.apache.sling/org.apache.sling.xss-2.4.6.jar target/org.apache.sling.xss-2.4.6.jar
+--- target/reference/org.apache.sling/org.apache.sling.xss-2.4.6.jar
++++ target/org.apache.sling.xss-2.4.6.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1919921 bytes, number of entries: 1240
+│ +Zip file size: 1919926 bytes, number of entries: 1240
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-21 10:03 META-INF/
+│  -rw-r--r--  2.0 unx     6997 b- defN 25-Jan-21 10:03 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-21 10:03 META-INF/maven/
+│ @@ -92,15 +92,15 @@
+│  -rw-r--r--  2.0 unx      524 b- defN 25-Jan-21 10:03 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx    10277 b- defN 25-Jan-21 10:03 META-INF/esapi.tld
+│  -rw-r--r--  2.0 unx       57 b- defN 25-Jan-21 10:03 META-INF/maven/org.owasp.esapi/esapi/pom.properties
+│ --rw-r--r--  2.0 unx    44127 b- defN 25-Jan-21 10:03 META-INF/maven/org.owasp.esapi/esapi/pom.xml
+│ +-rw-r--r--  2.0 unx    44132 b- defN 25-Jan-21 10:03 META-INF/maven/org.owasp.esapi/esapi/pom.xml
+│  -rw-r--r--  2.0 unx      741 b- defN 25-Jan-21 10:03 OSGI-INF/metatype/org.apache.sling.xss.impl.XSSFilterImpl$Configuration.xml
+│  -rw-r--r--  2.0 unx      859 b- defN 25-Jan-21 10:03 OSGI-INF/metatype/org.apache.sling.xss.impl.status.XSSStatusService$Configuration.xml
+│  -rw-r--r--  2.0 unx      536 b- defN 25-Jan-21 10:03 OSGI-INF/org.apache.sling.xss.impl.XSSAPIImpl.xml
+│ @@ -1235,8 +1235,8 @@
+│  -rw-r--r--  2.0 unx     2461 b- defN 25-Jan-21 10:03 webconsole/xss.js
+│  -rw-r--r--  2.0 unx    15478 b- defN 25-Jan-21 10:03 META-INF/maven/org.apache.sling/org.apache.sling.xss/pom.xml
+│  -rw-r--r--  2.0 unx       71 b- defN 25-Jan-21 10:03 META-INF/maven/org.apache.sling/org.apache.sling.xss/pom.properties
+│ -1240 files, 4023114 bytes uncompressed, 1693935 bytes compressed:  57.9%
+│ +1240 files, 4023119 bytes uncompressed, 1693940 bytes compressed:  57.9%
+├── META-INF/MANIFEST.MF
+│ @@ -35,15 +35,15 @@
+│   ile,java.security,java.security.spec,java.sql,java.text,java.util,java.
+│   util.concurrent,java.util.concurrent.atomic,java.util.function,java.uti
+│   l.jar,java.util.logging,java.util.regex,java.util.stream,java.util.zip,
+│   javax.crypto,javax.crypto.spec,javax.naming,javax.servlet;version="[3.1
+│   ,4)",javax.servlet.http;version="[3.1,4)",javax.sql,javax.xml.parsers,j
+│   avax.xml.stream,javax.xml.transform,javax.xml.transform.dom,javax.xml.t
+│   ransform.stream,javax.xml.validation,org.apache.commons.codec.binary,or
+│ - g.apache.commons.collections4.iterators;version="[4.4,5)",org.apache.co
+│ + g.apache.commons.collections4.iterators;version="[4.5,5)",org.apache.co
+│   mmons.io;version="[1.4,2)",org.apache.commons.lang3;version="[3.12,4)",
+│   org.apache.commons.logging;version="[1.2,2)",org.apache.commons.text;ve
+│   rsion="[1.10,2)",org.apache.commons.text.translate;version="[1.10,2)",o
+│   rg.apache.log4j,org.apache.sling.api.resource;version="[2.13,3)",org.ap
+│   ache.sling.api.resource.observation;version="[1.2,2)",org.apache.sling.
+│   serviceusermapping;version="[1.4,2)",org.apache.sling.xss;version="[2.0
+│   ,2.1)",org.osgi.framework;version="[1.9,2)",org.osgi.service.component;
+├── META-INF/maven/org.owasp.esapi/esapi/pom.xml
+│ ├── META-INF/maven/org.owasp.esapi/esapi/pom.xml
+│ │ @@ -218,15 +218,15 @@
+│ │            <artifactId>commons-io</artifactId>
+│ │          </exclusion>
+│ │        </exclusions>
+│ │      </dependency>
+│ │      <dependency>
+│ │        <groupId>org.apache.commons</groupId>
+│ │        <artifactId>commons-collections4</artifactId>
+│ │ -      <version>4.4</version>
+│ │ +      <version>4.5.0-M2</version>
+│ │      </dependency>
+│ │      <dependency>
+│ │        <groupId>org.apache-extras.beanshell</groupId>
+│ │        <artifactId>bsh</artifactId>
+│ │        <version>2.0b6</version>
+│ │      </dependency>
+│ │      <dependency>
+
