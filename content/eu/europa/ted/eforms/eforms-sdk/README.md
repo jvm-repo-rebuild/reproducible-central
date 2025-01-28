@@ -20,7 +20,7 @@ rebuilding **38 releases** of eu.europa.ted.eforms:eforms-sdk:
 | [1.11.2](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.11.2/pom) | | | |
 | [1.11.1](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.11.1/pom) | [mvn jdk11](eforms-sdk-1.11.1.buildspec) | [result](eforms-sdk-1.11.1.buildinfo): [3 :white_check_mark: ](eforms-sdk-1.11.1.buildcompare) | 49M |
 | [1.11.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.11.0/pom) | [mvn jdk11](eforms-sdk-1.11.0.buildspec) | [result](eforms-sdk-1.11.0.buildinfo): [3 :white_check_mark: ](eforms-sdk-1.11.0.buildcompare) | 49M |
-| [1.10.5](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.10.5/pom) | | | |
+| [1.10.5](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.10.5/pom) | [mvn jdk11](eforms-sdk-1.10.5.buildspec) | [result](eforms-sdk-1.10.5.buildinfo): [3 :white_check_mark: ](eforms-sdk-1.10.5.buildcompare) | 48M |
 | [1.10.4](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.10.4/pom) | [mvn jdk11](eforms-sdk-1.10.4.buildspec) | [result](eforms-sdk-1.10.4.buildinfo): [3 :white_check_mark: ](eforms-sdk-1.10.4.buildcompare) | 48M |
 | [1.10.3](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.10.3/pom) | [mvn jdk11](eforms-sdk-1.10.3.buildspec) | [result](eforms-sdk-1.10.3.buildinfo): [3 :white_check_mark: ](eforms-sdk-1.10.3.buildcompare) | 48M |
 | [1.10.2](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.10.2/pom) | [mvn jdk11](eforms-sdk-1.10.2.buildspec) | [result](eforms-sdk-1.10.2.buildinfo): [3 :white_check_mark: ](eforms-sdk-1.10.2.buildcompare) | 48M |
