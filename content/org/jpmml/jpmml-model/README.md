@@ -21,14 +21,14 @@ Source code: [https://github.com/jpmml/jpmml-model.git](https://github.com/jpmml
 * [org.jpmml:pmml-xjc](https://central.sonatype.com/artifact/org.jpmml/pmml-xjc/overview)
 </details>
 
-rebuilding **8 releases** of org.jpmml:jpmml-model:
+rebuilding **9 releases** of org.jpmml:jpmml-model:
 - **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [1.7.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.7.1/pom) | [mvn jdk11](jpmml-model-1.7.1.buildspec) | [result](jpmml-model-1.7.1.buildinfo): [9 :white_check_mark:  17 :warning:](jpmml-model-1.7.1.buildcompare) [:mag:](jpmml-model-1.7.1.diffoscope) [:memo:](https://github.com/jpmml/jpmml-model/issues/42) | 2.1M |
-| [1.7.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.7.0/pom) | | | |
+| [1.7.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.7.0/pom) | [mvn jdk11](jpmml-model-1.7.0.buildspec) | [result](jpmml-model-1.7.0.buildinfo): [9 :white_check_mark:  17 :warning:](jpmml-model-1.7.0.buildcompare) | 2.1M |
 | [1.6.11](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.6.11/pom) | [mvn jdk8](jpmml-model-1.6.11.buildspec) | [result](jpmml-model-1.6.11.buildinfo): [26 :white_check_mark: ](jpmml-model-1.6.11.buildcompare) | 3.0M |
 | [1.6.10](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.6.10/pom) | [mvn jdk8](jpmml-model-1.6.10.buildspec) | [result](jpmml-model-1.6.10.buildinfo): [26 :white_check_mark: ](jpmml-model-1.6.10.buildcompare) | 3.0M |
 | [1.6.9](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.6.9/pom) | [mvn jdk8](jpmml-model-1.6.9.buildspec) | [result](jpmml-model-1.6.9.buildinfo): [26 :white_check_mark: ](jpmml-model-1.6.9.buildcompare) | 3.0M |
