@@ -13,6 +13,7 @@ rebuilding **2 releases** of com.github.nbbrd.picocsv:picocsv:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.5.0](https://central.sonatype.com/artifact/com.github.nbbrd.picocsv/picocsv/2.5.0/pom) | | | |
 | [2.4.0](https://central.sonatype.com/artifact/com.github.nbbrd.picocsv/picocsv/2.4.0/pom) | [mvn jdk21](picocsv-2.4.0.buildspec) | [result](picocsv-2.4.0.buildinfo): [3 :white_check_mark: ](picocsv-2.4.0.buildcompare) | 72K |
 | [2.3.0](https://central.sonatype.com/artifact/com.github.nbbrd.picocsv/picocsv/2.3.0/pom) | [mvn jdk21](picocsv-2.3.0.buildspec) | [result](picocsv-2.3.0.buildinfo): [3 :white_check_mark: ](picocsv-2.3.0.buildcompare) | 76K |
 

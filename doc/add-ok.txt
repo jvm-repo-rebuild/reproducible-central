@@ -1,9 +1,7 @@
-content/io/airlift/airbase/airbase-212.buildspec:213
-content/io/avaje/http/avaje-http-2.9-RC8.buildspec:3.0-RC1
+content/com/github/nbbrd/picocsv/picocsv-2.4.0.buildspec:2.5.0
+content/io/trino/trino-468.buildspec:469
+content/io/airlift/airbase/airbase-213.buildspec:214
 content/io/avaje/jex/avaje-jex-3.0-RC15.buildspec:3.0-RC16
-content/io/avaje/validator/avaje-validator-2.4.buildspec:2.5
-content/org/apache/commons/commons-codec/commons-codec-1.17.2.buildspec:1.18.0
-content/org/apache/sling/org.apache.sling.xss/org.apache.sling.xss-2.4.4.buildspec:2.4.6
+content/io/cucumber/messages/messages-27.0.2.buildspec:27.1.0
 content/org/infinispan/protostream/protostream-6.0.0.Dev02.buildspec:15.0.13.Final
-content/org/jpmml/jpmml-evaluator/jpmml-evaluator-1.6.11.buildspec:1.7.0
-content/org/jpmml/jpmml-model/jpmml-model-1.6.11.buildspec:1.7.1
+content/org/openapitools/openapidiff/openapi-diff-2.1.0-beta.11.buildspec:2.1.0-beta.12
