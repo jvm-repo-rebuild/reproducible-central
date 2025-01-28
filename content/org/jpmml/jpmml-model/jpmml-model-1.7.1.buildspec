@@ -20,4 +20,4 @@ command="mvn -Psonatype-oss-release clean package -DskipTests -Dmaven.javadoc.sk
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/jpmml/jpmml-model/issues/42
