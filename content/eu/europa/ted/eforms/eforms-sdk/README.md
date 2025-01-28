@@ -7,8 +7,8 @@
 
 Source code: [https://github.com/OP-TED/eForms-SDK.git](https://github.com/OP-TED/eForms-SDK.git)
 
-rebuilding **37 releases** of eu.europa.ted.eforms:eforms-sdk:
-- **32** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **38 releases** of eu.europa.ted.eforms:eforms-sdk:
+- **33** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -20,7 +20,7 @@ rebuilding **37 releases** of eu.europa.ted.eforms:eforms-sdk:
 | [1.11.2](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.11.2/pom) | | | |
 | [1.11.1](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.11.1/pom) | [mvn jdk11](eforms-sdk-1.11.1.buildspec) | [result](eforms-sdk-1.11.1.buildinfo): [3 :white_check_mark: ](eforms-sdk-1.11.1.buildcompare) | 49M |
 | [1.11.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.11.0/pom) | [mvn jdk11](eforms-sdk-1.11.0.buildspec) | [result](eforms-sdk-1.11.0.buildinfo): [3 :white_check_mark: ](eforms-sdk-1.11.0.buildcompare) | 49M |
-| [1.10.5](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.10.5/pom) | | | |
+| [1.10.5](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.10.5/pom) | [mvn jdk11](eforms-sdk-1.10.5.buildspec) | [result](eforms-sdk-1.10.5.buildinfo): [3 :white_check_mark: ](eforms-sdk-1.10.5.buildcompare) | 48M |
 | [1.10.4](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.10.4/pom) | [mvn jdk11](eforms-sdk-1.10.4.buildspec) | [result](eforms-sdk-1.10.4.buildinfo): [3 :white_check_mark: ](eforms-sdk-1.10.4.buildcompare) | 48M |
 | [1.10.3](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.10.3/pom) | [mvn jdk11](eforms-sdk-1.10.3.buildspec) | [result](eforms-sdk-1.10.3.buildinfo): [3 :white_check_mark: ](eforms-sdk-1.10.3.buildcompare) | 48M |
 | [1.10.2](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.10.2/pom) | [mvn jdk11](eforms-sdk-1.10.2.buildspec) | [result](eforms-sdk-1.10.2.buildinfo): [3 :white_check_mark: ](eforms-sdk-1.10.2.buildcompare) | 48M |
