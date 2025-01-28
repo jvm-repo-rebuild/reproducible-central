@@ -266,13 +266,13 @@ Source code: [https://github.com/apache/karaf.git](https://github.com/apache/kar
 * [org.apache.karaf:org.apache.karaf.util](https://central.sonatype.com/artifact/org.apache.karaf/org.apache.karaf.util/overview)
 </details>
 
-rebuilding **8 releases** of org.apache.karaf:karaf:
+rebuilding **9 releases** of org.apache.karaf:karaf:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.4.7](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.7/pom) | | | |
+| [4.4.7](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.7/pom) | [mvn jdk11](karaf-4.4.7.buildspec) | [result](karaf-4.4.7.buildinfo): [593 :white_check_mark:  19 :warning:](karaf-4.4.7.buildcompare) [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) | 292M |
 | [4.4.6](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.6/pom) | [mvn jdk11](karaf-4.4.6.buildspec) | [result](karaf-4.4.6.buildinfo): [592 :white_check_mark:  20 :warning:](karaf-4.4.6.buildcompare) [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) | 290M |
 | [4.4.5](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.5/pom) | [mvn jdk11](karaf-4.4.5.buildspec) | [result](karaf-4.4.5.buildinfo): [596 :white_check_mark:  16 :warning:](karaf-4.4.5.buildcompare) [:mag:](karaf-4.4.5.diffoscope) [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) | 289M |
 | [4.4.4](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.4/pom) | [mvn jdk11](karaf-4.4.4.buildspec) | [result](karaf-4.4.4.buildinfo): [585 :white_check_mark:  23 :warning:](karaf-4.4.4.buildcompare) [:mag:](karaf-4.4.4.diffoscope) [:memo:](https://issues.apache.org/jira/browse/KARAF-7751) | 288M |
