@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/jpmml/jpmml-model.git](https://github.com/jpmml/jpmml-model.git)
 
-<details><summary>This project defines 9 modules:</summary>
+<details><summary>This project defines 10 modules:</summary>
 
 * [org.jpmml:jpmml-model](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/overview)
 * [org.jpmml:pmml-agent](https://central.sonatype.com/artifact/org.jpmml/pmml-agent/overview)
@@ -17,16 +17,17 @@ Source code: [https://github.com/jpmml/jpmml-model.git](https://github.com/jpmml
 * [org.jpmml:pmml-model-kryo](https://central.sonatype.com/artifact/org.jpmml/pmml-model-kryo/overview)
 * [org.jpmml:pmml-model-metro](https://central.sonatype.com/artifact/org.jpmml/pmml-model-metro/overview)
 * [org.jpmml:pmml-model-moxy](https://central.sonatype.com/artifact/org.jpmml/pmml-model-moxy/overview)
+* [org.jpmml:pmml-model-teavm](https://central.sonatype.com/artifact/org.jpmml/pmml-model-teavm/overview)
 * [org.jpmml:pmml-xjc](https://central.sonatype.com/artifact/org.jpmml/pmml-xjc/overview)
 </details>
 
-rebuilding **7 releases** of org.jpmml:jpmml-model:
+rebuilding **8 releases** of org.jpmml:jpmml-model:
 - **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.7.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.7.1/pom) | | | |
+| [1.7.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.7.1/pom) | [mvn jdk11](jpmml-model-1.7.1.buildspec) | [result](jpmml-model-1.7.1.buildinfo): [9 :white_check_mark:  17 :warning:](jpmml-model-1.7.1.buildcompare) | 2.1M |
 | [1.7.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.7.0/pom) | | | |
 | [1.6.11](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.6.11/pom) | [mvn jdk8](jpmml-model-1.6.11.buildspec) | [result](jpmml-model-1.6.11.buildinfo): [26 :white_check_mark: ](jpmml-model-1.6.11.buildcompare) | 3.0M |
 | [1.6.10](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.6.10/pom) | [mvn jdk8](jpmml-model-1.6.10.buildspec) | [result](jpmml-model-1.6.10.buildinfo): [26 :white_check_mark: ](jpmml-model-1.6.10.buildcompare) | 3.0M |
