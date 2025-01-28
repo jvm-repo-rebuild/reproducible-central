@@ -1,0 +1,56 @@
+# it seems there is only a compression difference between rebuild and reference binary:
+# no idea exactly why, will need to investigate with release manager
+# rebuild on GHA
+Apache Maven 3.9.6 (bc0240f3c744dd6b6ec2920b3cd08dcc295161ae)
+Maven home: /usr/local/apache-maven
+Java version: 11.0.25, vendor: Ubuntu, runtime: /usr/lib/jvm/java-11-openjdk-amd64
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "6.8.0-1020-azure", arch: "amd64", family: "unix"
+
+1 / 17 target/reference/org.jpmml/pmml-agent-1.7.1.jar pmml-agent/target/pmml-agent-1.7.1.jar
+--- target/reference/org.jpmml/pmml-agent-1.7.1.jar
++++ pmml-agent/target/pmml-agent-1.7.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 9676 bytes, number of entries: 17
+│ +Zip file size: 9705 bytes, number of entries: 17
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-22 16:35 META-INF/
+│  -rw-r--r--  2.0 unx      177 b- defN 25-Jan-22 16:35 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-22 16:35 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-22 16:35 org/jpmml/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-22 16:35 org/jpmml/agent/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-22 16:35 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jan-22 16:35 META-INF/maven/org.jpmml/
+│ @@ -12,8 +12,8 @@
+│  -rw-r--r--  2.0 unx      851 b- defN 25-Jan-22 16:35 org/jpmml/agent/InstrumentationProvider.class
+│  -rw-r--r--  2.0 unx     1435 b- defN 25-Jan-22 16:35 org/jpmml/agent/LocatorRemover.class
+│  -rw-r--r--  2.0 unx     1888 b- defN 25-Jan-22 16:35 org/jpmml/agent/Main.class
+│  -rw-r--r--  2.0 unx     2048 b- defN 25-Jan-22 16:35 org/jpmml/agent/SimpleTransformer.class
+│  -rw-r--r--  2.0 unx     5332 b- defN 25-Jan-22 16:35 org/jpmml/agent/TransformationUtil.class
+│  -rw-r--r--  2.0 unx     1523 b- defN 25-Jan-22 16:35 META-INF/maven/org.jpmml/pmml-agent/pom.xml
+│  -rw-r--r--  2.0 unx       54 b- defN 25-Jan-22 16:35 META-INF/maven/org.jpmml/pmml-agent/pom.properties
+│ -17 files, 15537 bytes uncompressed, 7376 bytes compressed:  52.5%
+│ +17 files, 15537 bytes uncompressed, 7405 bytes compressed:  52.3%
+├── zipdetails --redact --scan --utc {}
+│ @@ -22,848 +22,848 @@
+│  002C Extract OS            00 (0) 'MS-DOS'
+│  002D General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│  002F Compression Method    0008 (8) 'Deflated'
+│  0031 Modification Time     5A36846C (1513522284) 'Wed Jan 22 16:35:24 2025'
+│  0035 CRC                   F2B56D0D (4071976205)
+│ -0039 Compressed Size       00000089 (137)
+│ +0039 Compressed Size       0000008A (138)
+│  003D Uncompressed Size     000000B1 (177)
+│  0041 Filename Length       0014 (20)
+│  0043 Extra Length          0000 (0)
+│  0045 Filename              'META-INF/MANIFEST.MF'
+│  #
+│  # WARNING: Offset 0x45: Filename 'META-INF/MANIFEST.MF'
+│  #          Zero length filename
+│  #
+│  0059 PAYLOAD               XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+│ -                           XXXX
+│ +                           XXXXX
+...
