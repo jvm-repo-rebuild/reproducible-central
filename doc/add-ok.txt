@@ -1,7 +1,8 @@
-content/com/github/nbbrd/picocsv/picocsv-2.4.0.buildspec:2.5.0
-content/io/trino/trino-468.buildspec:469
-content/io/airlift/airbase/airbase-213.buildspec:214
 content/io/avaje/jex/avaje-jex-3.0-RC15.buildspec:3.0-RC16
-content/io/cucumber/messages/messages-27.0.2.buildspec:27.1.0
+content/io/avaje/validator/avaje-validator-2.5.buildspec:2.6
+content/io/cucumber/gherkin/gherkin-30.0.4.buildspec:31.0.0
+content/io/cucumber/tag-expressions/tag-expressions-6.1.1.buildspec:6.1.2
+content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.7.1.buildspec:4.7.2
+content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.17.buildspec:0.82.18
+content/org/apache/commons/parent/commons-parent-79.buildspec:80
 content/org/infinispan/protostream/protostream-6.0.0.Dev02.buildspec:15.0.13.Final
-content/org/openapitools/openapidiff/openapi-diff-2.1.0-beta.11.buildspec:2.1.0-beta.12

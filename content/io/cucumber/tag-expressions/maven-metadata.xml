@@ -3,8 +3,8 @@
   <groupId>io.cucumber</groupId>
   <artifactId>tag-expressions</artifactId>
   <versioning>
-    <latest>6.1.1</latest>
-    <release>6.1.1</release>
+    <latest>6.1.2</latest>
+    <release>6.1.2</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.1</version>
@@ -28,7 +28,8 @@
       <version>6.0.0</version>
       <version>6.1.0</version>
       <version>6.1.1</version>
+      <version>6.1.2</version>
     </versions>
-    <lastUpdated>20241028120609</lastUpdated>
+    <lastUpdated>20250129181208</lastUpdated>
   </versioning>
 </metadata>
