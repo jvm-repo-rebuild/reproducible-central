@@ -13,6 +13,7 @@ rebuilding **12 releases** of org.apache.sling:org.apache.sling.resourceresolver
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.12.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.12.4/pom) | | | |
 | [1.12.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.12.2/pom) | [mvn jdk11](org.apache.sling.resourceresolver-1.12.2.buildspec) | [result](org.apache.sling.resourceresolver-1.12.2.buildinfo): [4 :white_check_mark: ](org.apache.sling.resourceresolver-1.12.2.buildcompare) | 776K |
 | [1.12.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.12.0/pom) | [mvn jdk11](org.apache.sling.resourceresolver-1.12.0.buildspec) | [result](org.apache.sling.resourceresolver-1.12.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.resourceresolver-1.12.0.buildcompare) | 775K |
 | [1.11.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.11.6/pom) | [mvn jdk11](org.apache.sling.resourceresolver-1.11.6.buildspec) | [result](org.apache.sling.resourceresolver-1.11.6.buildinfo): [4 :white_check_mark: ](org.apache.sling.resourceresolver-1.11.6.buildcompare) | 772K |
