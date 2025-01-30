@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/cucumber/tag-expressions.git](https://github.com/cucumber/tag-expressions.git)
 
-rebuilding **10 releases** of io.cucumber:tag-expressions:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **11 releases** of io.cucumber:tag-expressions:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [6.1.2](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/6.1.2/pom) | | | |
+| [6.1.2](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/6.1.2/pom) | [mvn jdk17](tag-expressions-6.1.2.buildspec) | [result](tag-expressions-6.1.2.buildinfo): [3 :white_check_mark: ](tag-expressions-6.1.2.buildcompare) | 21K |
 | [6.1.1](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/6.1.1/pom) | [mvn jdk17](tag-expressions-6.1.1.buildspec) | [result](tag-expressions-6.1.1.buildinfo): [3 :white_check_mark: ](tag-expressions-6.1.1.buildcompare) | 21K |
 | [6.1.0](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/6.1.0/pom) | [mvn jdk11](tag-expressions-6.1.0.buildspec) | [result](tag-expressions-6.1.0.buildinfo): [3 :white_check_mark: ](tag-expressions-6.1.0.buildcompare) | 20K |
 | [6.0.0](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/6.0.0/pom) | [mvn jdk11](tag-expressions-6.0.0.buildspec) | [result](tag-expressions-6.0.0.buildinfo): [3 :white_check_mark: ](tag-expressions-6.0.0.buildcompare) | 20K |
