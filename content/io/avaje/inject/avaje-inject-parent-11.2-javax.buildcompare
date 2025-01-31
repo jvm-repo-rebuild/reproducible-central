@@ -1,0 +1,8 @@
+version=11.2-javax
+ok=19
+ko=0
+ignored=0
+okFiles="avaje-inject-parent-11.2-javax.pom avaje-inject-aop-11.2-javax.pom avaje-inject-aop-11.2-javax.jar avaje-inject-aop-11.2-javax-sources.jar avaje-inject-events-11.2-javax.pom avaje-inject-events-11.2-javax.jar avaje-inject-events-11.2-javax-sources.jar avaje-inject-11.2-javax.pom avaje-inject-11.2-javax.jar avaje-inject-11.2-javax-sources.jar avaje-inject-generator-11.2-javax.pom avaje-inject-generator-11.2-javax.jar avaje-inject-generator-11.2-javax-sources.jar avaje-inject-test-11.2-javax.pom avaje-inject-test-11.2-javax.jar avaje-inject-test-11.2-javax-sources.jar avaje-inject-maven-plugin-11.2-javax.pom avaje-inject-maven-plugin-11.2-javax.jar avaje-inject-maven-plugin-11.2-javax-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
