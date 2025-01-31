@@ -1,0 +1,9 @@
+version=3.29.0
+ok=62
+ko=0
+ignored=0
+okFiles="jline-parent-3.29.0.pom jline-native-3.29.0.pom jline-native-3.29.0.jar jline-native-3.29.0-sources.jar jline-terminal-3.29.0.pom jline-terminal-3.29.0.jar jline-terminal-3.29.0-sources.jar jline-terminal-ffm-3.29.0.pom jline-terminal-ffm-3.29.0.jar jline-terminal-ffm-3.29.0-sources.jar jline-terminal-jna-3.29.0.pom jline-terminal-jna-3.29.0.jar jline-terminal-jna-3.29.0-sources.jar jline-terminal-jansi-3.29.0.pom jline-terminal-jansi-3.29.0.jar jline-terminal-jansi-3.29.0-sources.jar jline-terminal-jni-3.29.0.pom jline-terminal-jni-3.29.0.jar jline-terminal-jni-3.29.0-sources.jar jline-reader-3.29.0.pom jline-reader-3.29.0.jar jline-reader-3.29.0-sources.jar jline-style-3.29.0.pom jline-style-3.29.0.jar jline-style-3.29.0-sources.jar jline-builtins-3.29.0.pom jline-builtins-3.29.0.jar jline-builtins-3.29.0-sources.jar jline-console-ui-3.29.0.pom jline-console-ui-3.29.0.jar jline-console-ui-3.29.0-sources.jar jline-console-3.29.0.pom jline-console-3.29.0.jar jline-console-3.29.0-sources.jar jline-groovy-3.29.0.pom jline-groovy-3.29.0.jar jline-groovy-3.29.0-sources.jar jline-remote-ssh-3.29.0.pom jline-remote-ssh-3.29.0.jar jline-remote-ssh-3.29.0-sources.jar jline-remote-telnet-3.29.0.pom jline-remote-telnet-3.29.0.jar jline-remote-telnet-3.29.0-sources.jar jline-curses-3.29.0.pom jline-curses-3.29.0.jar jline-curses-3.29.0-sources.jar jline-demo-3.29.0.pom jline-demo-3.29.0.jar jline-demo-3.29.0-sources.jar jline-graal-3.29.0.pom jline-graal-3.29.0.jar jline-graal-3.29.0-sources.jar jansi-core-3.29.0.pom jansi-core-3.29.0.jar jansi-core-3.29.0-sources.jar jline-3.29.0.pom jline-3.29.0.jar jline-3.29.0-jdk8.jar jline-3.29.0-sources.jar jansi-3.29.0.pom jansi-3.29.0.jar jansi-3.29.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="22 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
