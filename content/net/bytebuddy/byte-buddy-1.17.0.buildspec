@@ -1,0 +1,20 @@
+groupId=net.bytebuddy
+artifactId=byte-buddy-parent
+display=${groupId}:byte-buddy
+version=1.17.0
+
+gitRepo=https://github.com/raphw/byte-buddy.git
+gitTag=byte-buddy-${version}
+
+tool=mvn-3.9.9
+jdk=8
+# tests show that JDK 1.0.8_362 (provided by our Reproducible Builder Docker image) gives different bytecode, but JDK 1.8.0_345 gives same bytecode as Bytebuddy reference build
+newline=lf
+umask=022
+workdir="/home/runner/work/byte-buddy/byte-buddy/target/checkout/byte-buddy"
+
+command="SHELL mvn -Pextras,gradle-release,multi-release clean package -DskipTests -Dmaven.javadoc.skip -Duser.timezone=Etc/UTC"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
