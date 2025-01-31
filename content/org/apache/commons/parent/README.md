@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/commons-parent.git](https://github.com/apache/commons-parent.git)
 
-rebuilding **28 releases** of org.apache.commons:commons-parent:
-- **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **29 releases** of org.apache.commons:commons-parent:
+- **28** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [81](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/81/pom) | | | |
+| [81](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/81/pom) | [mvn jdk21](commons-parent-81.buildspec) | [result](commons-parent-81.buildinfo): [4 :white_check_mark: ](commons-parent-81.buildcompare) | 90K |
 | [80](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/80/pom) | [mvn jdk21](commons-parent-80.buildspec) | [result](commons-parent-80.buildinfo): [4 :white_check_mark: ](commons-parent-80.buildcompare) | 90K |
 | [79](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/79/pom) | [mvn jdk21](commons-parent-79.buildspec) | [result](commons-parent-79.buildinfo): [4 :white_check_mark: ](commons-parent-79.buildcompare) | 90K |
 | [78](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/78/pom) | [mvn jdk21](commons-parent-78.buildspec) | [result](commons-parent-78.buildinfo): [4 :white_check_mark: ](commons-parent-78.buildcompare) | 91K |
