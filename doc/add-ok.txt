@@ -1,11 +1,8 @@
 content/com/spotify/github-client/github-client-0.3.3.buildspec:0.3.6
-content/io/airlift/airbase/airbase-214.buildspec:215
-content/io/avaje/inject/avaje-inject-11.2-RC2.buildspec:11.2-javax
 content/io/avaje/jex/avaje-jex-3.0-RC15.buildspec:3.0-RC16
+content/io/cucumber/messages/messages-27.1.0.buildspec:27.2.0
 content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.7.1.buildspec:4.7.2
-content/net/bytebuddy/byte-buddy-1.16.1.buildspec:1.17.0
-content/org/jline/jline-3.28.0.buildspec:3.29.0
-content/org/apache/commons/parent/commons-parent-80.buildspec:81
-content/org/apache/sling/org.apache.sling.resourceresolver/org.apache.sling.resourceresolver-1.12.2.buildspec:1.12.4
+content/net/sourceforge/pmd/pmd-7.9.0.buildspec:7.10.0
 content/org/infinispan/protostream/protostream-6.0.0.Dev02.buildspec:15.0.13.Final
-content/org/owasp/dependency-check/dependency-check-12.0.1.buildspec:12.0.2
+content/org/junit/junit5/junit5-5.11.4.buildspec:5.12.0-M1
+content/org/webjars/font-awesome/font-awesome-6.7.1.buildspec:6.7.2

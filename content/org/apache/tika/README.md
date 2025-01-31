@@ -130,6 +130,7 @@ rebuilding **8 releases** of org.apache.tika:tika:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.1.0](https://central.sonatype.com/artifact/org.apache.tika/tika/3.1.0/pom) | | | |
 | [3.0.0](https://central.sonatype.com/artifact/org.apache.tika/tika/3.0.0/pom) | [mvn jdk17](tika-3.0.0.buildspec) | [result](tika-3.0.0.buildinfo): [357 :white_check_mark:  8 :warning:](tika-3.0.0.buildcompare) | 1.5G |
 | [3.0.0-BETA2](https://central.sonatype.com/artifact/org.apache.tika/tika/3.0.0-BETA2/pom) | | | |
 | [3.0.0-BETA](https://central.sonatype.com/artifact/org.apache.tika/tika/3.0.0-BETA/pom) | | | |
