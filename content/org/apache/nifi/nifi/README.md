@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi.git)
 
-<details><summary>This project defines 902 modules:</summary>
+<details><summary>This project defines 906 modules:</summary>
 
 * [org.apache.nifi.minifi:minifi](https://central.sonatype.com/artifact/org.apache.nifi.minifi/minifi/overview)
 * [org.apache.nifi.minifi:minifi-assembly](https://central.sonatype.com/artifact/org.apache.nifi.minifi/minifi-assembly/overview)
@@ -231,6 +231,10 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-cybersecurity-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-cybersecurity-nar/overview)
 * [org.apache.nifi:nifi-cybersecurity-processors](https://central.sonatype.com/artifact/org.apache.nifi/nifi-cybersecurity-processors/overview)
 * [org.apache.nifi:nifi-data-provenance-utils](https://central.sonatype.com/artifact/org.apache.nifi/nifi-data-provenance-utils/overview)
+* [org.apache.nifi:nifi-database-dialect-service](https://central.sonatype.com/artifact/org.apache.nifi/nifi-database-dialect-service/overview)
+* [org.apache.nifi:nifi-database-dialect-service-api](https://central.sonatype.com/artifact/org.apache.nifi/nifi-database-dialect-service-api/overview)
+* [org.apache.nifi:nifi-database-dialect-service-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-database-dialect-service-bundle/overview)
+* [org.apache.nifi:nifi-database-dialect-service-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-database-dialect-service-nar/overview)
 * [org.apache.nifi:nifi-database-test-utils](https://central.sonatype.com/artifact/org.apache.nifi/nifi-database-test-utils/overview)
 * [org.apache.nifi:nifi-database-utils](https://central.sonatype.com/artifact/org.apache.nifi/nifi-database-utils/overview)
 * [org.apache.nifi:nifi-datadog-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-datadog-bundle/overview)
@@ -913,13 +917,13 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-zendesk-services-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-zendesk-services-nar/overview)
 </details>
 
-rebuilding **26 releases** of org.apache.nifi:nifi:
+rebuilding **27 releases** of org.apache.nifi:nifi:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 26 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 27 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.2.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.2.0/pom) | | | |
+| [2.2.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.2.0/pom) | [mvn jdk21](nifi-2.2.0.buildspec) | [result](nifi-2.2.0.buildinfo): [1574 :white_check_mark:  82 :warning:](nifi-2.2.0.buildcompare) | 1.6G |
 | [2.1.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.1.0/pom) | [mvn jdk21](nifi-2.1.0.buildspec) | [result](nifi-2.1.0.buildinfo): [1540 :white_check_mark:  106 :warning:](nifi-2.1.0.buildcompare) | 1.6G |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0/pom) | [mvn jdk21](nifi-2.0.0.buildspec) | [result](nifi-2.0.0.buildinfo): [1565 :white_check_mark:  76 :warning:](nifi-2.0.0.buildcompare) [:mag:](nifi-2.0.0.diffoscope) | 1.6G |
 | [2.0.0-M4](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0-M4/pom) | [mvn jdk21](nifi-2.0.0-M4.buildspec) | [result](nifi-2.0.0-M4.buildinfo): [1672 :white_check_mark:  73 :warning:](nifi-2.0.0-M4.buildcompare) | 2.0G |
