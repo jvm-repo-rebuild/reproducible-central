@@ -1,8 +1,6 @@
 content/com/spotify/github-client/github-client-0.3.3.buildspec:0.3.6
-content/io/avaje/jex/avaje-jex-3.0-RC15.buildspec:3.0-RC16
-content/io/cucumber/messages/messages-27.1.0.buildspec:27.2.0
 content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.7.1.buildspec:4.7.2
-content/net/sourceforge/pmd/pmd-7.9.0.buildspec:7.10.0
 content/org/infinispan/protostream/protostream-6.0.0.Dev02.buildspec:15.0.13.Final
-content/org/junit/junit5/junit5-5.11.4.buildspec:5.12.0-M1
-content/org/webjars/font-awesome/font-awesome-6.7.1.buildspec:6.7.2
+content/org/liquibase/ext/liquibase-percona/liquibase-percona-4.30.0.buildspec:4.31.0
+content/org/spdx/java-spdx-library/java-spdx-library-2.0.0-RC1.buildspec:2.0.0-RC2
+content/org/spdx/spdx-java-core/spdx-java-core-1.0.0-RC1.buildspec:1.0.0-RC2

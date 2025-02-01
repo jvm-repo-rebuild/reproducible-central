@@ -167,6 +167,7 @@
       <version>8.14.0</version>
       <version>8.15.0</version>
       <version>8.16.0</version>
+      <version>8.17.0</version>
       <version>9.0.0-M1</version>
       <version>9.0.0-M2</version>
       <version>9.0.0-M3</version>
@@ -202,6 +203,6 @@
       <version>10.3.0</version>
       <version>10.4.0</version>
     </versions>
-    <lastUpdated>20250127210443</lastUpdated>
+    <lastUpdated>20250131211042</lastUpdated>
   </versioning>
 </metadata>
