@@ -1,0 +1,9 @@
+version=4.31.0
+ok=3
+ko=0
+ignored=0
+okFiles="liquibase-percona-4.31.0.pom liquibase-percona-4.31.0.jar liquibase-percona-4.31.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
