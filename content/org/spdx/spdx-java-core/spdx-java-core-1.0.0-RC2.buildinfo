@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=spdx-java-core
+group-id=org.spdx
+artifact-id=spdx-java-core
+version=1.0.0-RC2
+
+# source information
+source.scm.uri=scm:git:git://github.com/spdx/spdx-java-core.git
+source.scm.tag=v1.0.0-RC2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=23
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.spdx
+outputs.0.filename=spdx-java-core-1.0.0-RC2.pom
+outputs.0.length=10124
+outputs.0.checksums.sha512=1207edaaa9a33069e2db2c90a24a9236a354392f17fbea43badfedd31de09c2f15828019bb5ba8790868aff36055282b6ea15ef23a0338c50d62d0354513599f
+
+outputs.1.groupId=org.spdx
+outputs.1.filename=spdx-java-core-1.0.0-RC2.jar
+outputs.1.length=76088
+outputs.1.checksums.sha512=7c7d95c4b0538f455350b0ff6b527addf3284daa3e9a24a528dda8e9f7b26dd38275943a705f7bf7792efd64d97d10c8b89f4a84ec8ba5c8c23864eabd4ad89a
+
+outputs.2.groupId=org.spdx
+outputs.2.filename=spdx-java-core-1.0.0-RC2-sources.jar
+outputs.2.length=62198
+outputs.2.checksums.sha512=e1114b233962c32ef6914be1114943b89b6d39bd99074071ab30d82e8863b1c1cd0414b9b6558d6b91bbfc02229d4515d9e0b444a4caadb2c0a4dd22d088b072
