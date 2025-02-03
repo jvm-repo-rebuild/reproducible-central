@@ -1,0 +1,18 @@
+groupId=tech.picnic.error-prone-support
+artifactId=error-prone-support
+version=0.20.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/PicnicSupermarket/${artifactId}.git
+gitTag=v${version}
+
+tool=mvn-3.9.9
+jdk=21
+newline=lf
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
