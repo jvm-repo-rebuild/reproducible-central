@@ -1,0 +1,20 @@
+groupId=org.apache.helix
+artifactId=helix
+display=${groupId}:${artifactId}
+version=1.4.3
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+# Need to delete build cache before building because "mvn clean" does not remove helix-front/node_modules, and other files
+command="SHELL mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+# need SHELL because missing bzip2 in Docker image: see issue #15
+# [ERROR] tar (child): bzip2: Cannot exec: No such file or directory
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
