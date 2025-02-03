@@ -19,6 +19,7 @@ rebuilding **6 releases** of org.jpmml:jpmml-transpiler:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.4.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-transpiler/1.4.0/pom) | | | |
 | [1.3.10](https://central.sonatype.com/artifact/org.jpmml/jpmml-transpiler/1.3.10/pom) | [mvn jdk8](jpmml-transpiler-1.3.10.buildspec) | [result](jpmml-transpiler-1.3.10.buildinfo): [4 :white_check_mark: ](jpmml-transpiler-1.3.10.buildcompare) | 390K |
 | [1.3.9](https://central.sonatype.com/artifact/org.jpmml/jpmml-transpiler/1.3.9/pom) | [mvn jdk8](jpmml-transpiler-1.3.9.buildspec) | [result](jpmml-transpiler-1.3.9.buildinfo): [4 :white_check_mark: ](jpmml-transpiler-1.3.9.buildcompare) | 390K |
 | [1.3.8](https://central.sonatype.com/artifact/org.jpmml/jpmml-transpiler/1.3.8/pom) | [mvn jdk8](jpmml-transpiler-1.3.8.buildspec) | [result](jpmml-transpiler-1.3.8.buildinfo): [4 :white_check_mark: ](jpmml-transpiler-1.3.8.buildcompare) | 390K |
