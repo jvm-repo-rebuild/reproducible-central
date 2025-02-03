@@ -1,0 +1,18 @@
+groupId=com.cognite.units
+artifactId=units-catalog
+display=${groupId}:${artifactId}
+version=0.1.20
+
+gitRepo=https://github.com/cognitedata/units-catalog.git
+gitTag=bbe2714a7f0ef7c95e2114207d08b9d44f2472f2
+
+tool=mvn
+jdk=17
+newline=lf
+umask=022
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
