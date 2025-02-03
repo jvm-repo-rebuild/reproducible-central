@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Security Dispatcher Component
+group-id=org.codehaus.plexus
+artifact-id=plexus-sec-dispatcher
+version=4.1.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-sec-dispatcher.git
+source.scm.tag=plexus-sec-dispatcher-4.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-sec-dispatcher-4.1.0.pom
+outputs.0.length=3913
+outputs.0.checksums.sha512=6ca38415a202c93d95e30992fbfab4073508aeb0a76b941f07f5b18aaf3ced289b785ecdea7ef407ccece7fbafcc1164ff93a2a5fbf390505fad61f94aed52f3
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-sec-dispatcher-4.1.0.jar
+outputs.1.length=78001
+outputs.1.checksums.sha512=599002557fc250ebbe16b15116ccc5d4cd866c272063585f7828f852dc1903b686b4799f09a634deaa2a2832c09335871988e85002a8269a6b50b2c9a6b0fd0d
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-sec-dispatcher-4.1.0-source-release.zip
+outputs.2.length=60502
+outputs.2.checksums.sha512=2de25e789f54b9f6d3a8116febb77d9a052a070d023fe54d1bc5512168b13cccee9ad1d7836dfdd05bb9279d9e242fd8fa068eb0da25aaab709ed82eda2ed2d2
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-sec-dispatcher-4.1.0-sources.jar
+outputs.3.length=53086
+outputs.3.checksums.sha512=b8db11f4342ca38cdc23bfe906554448c35fd38b37657b35b108531f742ff7c896436d08afe608d5114bcdcfe784e99dd4245af03766fcd306115e4a60502b88

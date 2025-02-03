@@ -9,6 +9,8 @@ gitTag=${artifactId}-${version}
 #sourcePath=${artifactId}-${version}
 #sourceRmFiles=""
 
+# build on MacOS arm64 gives same output, but not Linux x86, that creates a small bytecode difference in DefaultSecDispatcher.class and SecUtil.class
+# no exact idea why, but the result is there...
 tool=mvn-3.9.9
 jdk=17
 newline=lf
