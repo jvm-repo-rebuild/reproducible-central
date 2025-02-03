@@ -34,13 +34,13 @@ Source code: [https://github.com/cucumber/cucumber-jvm.git](https://github.com/c
 * [io.cucumber:docstring](https://central.sonatype.com/artifact/io.cucumber/docstring/overview)
 </details>
 
-rebuilding **19 releases** of io.cucumber:cucumber-jvm:
-- **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **20 releases** of io.cucumber:cucumber-jvm:
+- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [7.21.0](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/7.21.0/pom) | | | |
+| [7.21.0](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/7.21.0/pom) | [mvn jdk17](cucumber-jvm-7.21.0.buildspec) | [result](cucumber-jvm-7.21.0.buildinfo): [65 :white_check_mark: ](cucumber-jvm-7.21.0.buildcompare) | 5.5M |
 | [7.20.1](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/7.20.1/pom) | [mvn jdk17](cucumber-jvm-7.20.1.buildspec) | [result](cucumber-jvm-7.20.1.buildinfo): [65 :white_check_mark: ](cucumber-jvm-7.20.1.buildcompare) | 5.5M |
 | [7.20.0](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/7.20.0/pom) | [mvn jdk17](cucumber-jvm-7.20.0.buildspec) | [result](cucumber-jvm-7.20.0.buildinfo): [65 :white_check_mark: ](cucumber-jvm-7.20.0.buildcompare) | 5.5M |
 | [7.19.0](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/7.19.0/pom) | [mvn jdk17](cucumber-jvm-7.19.0.buildspec) | [result](cucumber-jvm-7.19.0.buildinfo): [65 :white_check_mark: ](cucumber-jvm-7.19.0.buildcompare) | 5.5M |
