@@ -3,8 +3,8 @@
   <groupId>io.avaje</groupId>
   <artifactId>avaje-jex-parent</artifactId>
   <versioning>
-    <latest>3.0-RC16</latest>
-    <release>3.0-RC16</release>
+    <latest>3.0-RC17</latest>
+    <release>3.0-RC17</release>
     <versions>
       <version>0.1</version>
       <version>0.2</version>
@@ -44,7 +44,8 @@
       <version>3.0-RC14</version>
       <version>3.0-RC15</version>
       <version>3.0-RC16</version>
+      <version>3.0-RC17</version>
     </versions>
-    <lastUpdated>20250127183643</lastUpdated>
+    <lastUpdated>20250204192740</lastUpdated>
   </versioning>
 </metadata>

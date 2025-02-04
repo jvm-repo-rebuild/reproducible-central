@@ -26,6 +26,7 @@ rebuilding **1 releases** of com.github.nbbrd.jdplus-sdmx:jdplus-sdmx:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.3.0](https://central.sonatype.com/artifact/com.github.nbbrd.jdplus-sdmx/jdplus-sdmx/3.3.0/pom) | | | |
 | [3.2.0](https://central.sonatype.com/artifact/com.github.nbbrd.jdplus-sdmx/jdplus-sdmx/3.2.0/pom) | [mvn jdk21](jdplus-sdmx-3.2.0.buildspec) | [result](jdplus-sdmx-3.2.0.buildinfo): [13 :white_check_mark:  1 :warning:](jdplus-sdmx-3.2.0.buildcompare) | 2.2M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

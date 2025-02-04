@@ -51,6 +51,7 @@ rebuilding **1 releases** of org.apache.ws.commons.axiom:axiom:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0](https://central.sonatype.com/artifact/org.apache.ws.commons.axiom/axiom/2.0.0/pom) | | | |
 | [1.4.0](https://central.sonatype.com/artifact/org.apache.ws.commons.axiom/axiom/1.4.0/pom) | [mvn jdk11](axiom-1.4.0.buildspec) | [result](axiom-1.4.0.buildinfo): [88 :white_check_mark:  5 :warning:](axiom-1.4.0.buildcompare) [:mag:](axiom-1.4.0.diffoscope) | 19M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
