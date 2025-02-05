@@ -19,6 +19,7 @@ rebuilding **4 releases** of org.jpmml:jpmml-h2o:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.3.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-h2o/1.3.0/pom) | | | |
 | [1.2.15](https://central.sonatype.com/artifact/org.jpmml/jpmml-h2o/1.2.15/pom) | [mvn jdk8](jpmml-h2o-1.2.15.buildspec) | [result](jpmml-h2o-1.2.15.buildinfo): [4 :white_check_mark: ](jpmml-h2o-1.2.15.buildcompare) | 99K |
 | [1.2.14](https://central.sonatype.com/artifact/org.jpmml/jpmml-h2o/1.2.14/pom) | [mvn jdk8](jpmml-h2o-1.2.14.buildspec) | [result](jpmml-h2o-1.2.14.buildinfo): [4 :white_check_mark: ](jpmml-h2o-1.2.14.buildcompare) | 99K |
 | [1.2.13](https://central.sonatype.com/artifact/org.jpmml/jpmml-h2o/1.2.13/pom) | [mvn jdk8](jpmml-h2o-1.2.13.buildspec) | [result](jpmml-h2o-1.2.13.buildinfo): [3 :white_check_mark:  1 :warning:](jpmml-h2o-1.2.13.buildcompare) | 97K |

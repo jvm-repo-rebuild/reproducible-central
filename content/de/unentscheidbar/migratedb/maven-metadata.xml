@@ -3,8 +3,8 @@
   <groupId>de.unentscheidbar</groupId>
   <artifactId>migratedb</artifactId>
   <versioning>
-    <latest>1.4.0</latest>
-    <release>1.4.0</release>
+    <latest>1.4.1</latest>
+    <release>1.4.1</release>
     <versions>
       <version>0.1.0</version>
       <version>0.2.0</version>
@@ -14,7 +14,8 @@
       <version>1.2.0</version>
       <version>1.3.0</version>
       <version>1.4.0</version>
+      <version>1.4.1</version>
     </versions>
-    <lastUpdated>20241229065804</lastUpdated>
+    <lastUpdated>20250205010623</lastUpdated>
   </versioning>
 </metadata>
