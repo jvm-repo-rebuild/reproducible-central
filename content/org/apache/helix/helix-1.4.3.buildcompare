@@ -1,0 +1,9 @@
+version=1.4.3
+ok=56
+ko=0
+ignored=0
+okFiles="helix-1.4.3.pom helix-1.4.3-source-release.zip metrics-common-1.4.3.pom metrics-common-1.4.3.jar metrics-common-1.4.3-tests.jar metrics-common-1.4.3-jdk8.jar metrics-common-1.4.3-pkg.tar metrics-common-1.4.3-sources.jar metadata-store-directory-common-1.4.3.pom metadata-store-directory-common-1.4.3.jar metadata-store-directory-common-1.4.3-tests.jar metadata-store-directory-common-1.4.3-jdk8.jar metadata-store-directory-common-1.4.3-pkg.tar metadata-store-directory-common-1.4.3-sources.jar zookeeper-api-1.4.3.pom zookeeper-api-1.4.3.jar zookeeper-api-1.4.3-tests.jar zookeeper-api-1.4.3-jdk8.jar zookeeper-api-1.4.3-pkg.tar zookeeper-api-1.4.3-sources.jar helix-common-1.4.3.pom helix-common-1.4.3.jar helix-common-1.4.3-tests.jar helix-common-1.4.3-jdk8.jar helix-common-1.4.3-pkg.tar helix-common-1.4.3-sources.jar helix-core-1.4.3.pom helix-core-1.4.3.jar helix-core-1.4.3-tests.jar helix-core-1.4.3-jdk8.jar helix-core-1.4.3-pkg.tar helix-core-1.4.3-sources.jar helix-rest-1.4.3.pom helix-rest-1.4.3.jar helix-rest-1.4.3-pkg.tar helix-rest-1.4.3-sources.jar helix-lock-1.4.3.pom helix-lock-1.4.3.jar helix-lock-1.4.3-tests.jar helix-lock-1.4.3-jdk8.jar helix-lock-1.4.3-pkg.tar helix-lock-1.4.3-sources.jar helix-agent-1.4.3.pom helix-agent-1.4.3.jar helix-agent-1.4.3-pkg.tar helix-agent-1.4.3-sources.jar helix-view-aggregator-1.4.3.pom helix-view-aggregator-1.4.3.jar helix-view-aggregator-1.4.3-pkg.tar helix-view-aggregator-1.4.3-sources.jar meta-client-1.4.3.pom meta-client-1.4.3.jar meta-client-1.4.3-tests.jar meta-client-1.4.3-jdk8.jar meta-client-1.4.3-pkg.tar meta-client-1.4.3-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
