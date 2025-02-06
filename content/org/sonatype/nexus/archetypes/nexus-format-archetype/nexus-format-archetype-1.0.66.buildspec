@@ -1,0 +1,16 @@
+groupId=org.sonatype.nexus.archetypes
+artifactId=nexus-format-archetype
+display=${groupId}:${artifactId}
+version=1.0.66
+
+gitRepo=https://github.com/sonatype-nexus-community/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
