@@ -1,0 +1,10 @@
+version=3.3.0
+ok=13
+ko=1
+ignored=0
+okFiles="jdplus-sdmx-3.3.0.pom jdplus-sdmx-base-3.3.0.pom jdplus-sdmx-base-parent-3.3.0.pom jdplus-sdmx-base-api-3.3.0.pom jdplus-sdmx-base-api-3.3.0.jar jdplus-sdmx-base-api-3.3.0-sources.jar jdplus-sdmx-cli-3.3.0.pom jdplus-sdmx-cli-plugin-3.3.0.pom jdplus-sdmx-desktop-3.3.0.pom jdplus-sdmx-desktop-plugin-3.3.0.pom jdplus-sdmx-desktop-plugin-3.3.0.jar jdplus-sdmx-desktop-plugin-3.3.0-sources.jar jdplus-sdmx-bom-3.3.0.pom"
+koFiles="jdplus-sdmx-desktop-plugin-3.3.0.nbm"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.github.nbbrd.jdplus-sdmx/jdplus-sdmx-desktop-plugin-3.3.0.nbm jdplus-sdmx-desktop/jdplus-sdmx-desktop-plugin/target/jdplus-sdmx-desktop-plugin-3.3.0.nbm
