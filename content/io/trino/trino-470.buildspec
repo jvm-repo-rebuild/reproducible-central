@@ -1,0 +1,20 @@
+groupId=io.trino
+artifactId=trino-root
+display=${groupId}:${artifactId}
+version=470
+
+gitRepo=https://github.com/trinodb/trino.git
+gitTag=${version}
+
+tool=mvn-3.9.8
+jdk=23
+newline=lf
+timezone="Etc/UTC"
+umask=022
+
+# interactive build necessary because documentation is built with Docker
+command="SHELL mvn -b singlethreaded -Duser.timezone=${timezone} -Poss-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcheckstyle.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
