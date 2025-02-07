@@ -1,7 +1,0 @@
-version=1.0.1
-ok=4
-ko=0
-okFiles="maven-build-cache-extension-1.0.1.pom maven-build-cache-extension-1.0.1.jar maven-build-cache-extension-1.0.1-source-release.zip maven-build-cache-extension-1.0.1-sources.jar"
-koFiles=""
-reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
-reference_os_name="Unix (from pom.properties newline)"
