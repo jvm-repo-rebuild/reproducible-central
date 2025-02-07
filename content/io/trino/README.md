@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/trinodb/trino.git](https://github.com/trinodb/trino.git)
 
-<details><summary>This project defines 115 modules:</summary>
+<details><summary>This project defines 117 modules:</summary>
 
 * [io.trino:trino-accumulo](https://central.sonatype.com/artifact/io.trino/trino-accumulo/overview)
 * [io.trino:trino-accumulo-iterators](https://central.sonatype.com/artifact/io.trino/trino-accumulo-iterators/overview)
@@ -26,6 +26,7 @@ Source code: [https://github.com/trinodb/trino.git](https://github.com/trinodb/t
 * [io.trino:trino-delta-lake](https://central.sonatype.com/artifact/io.trino/trino-delta-lake/overview)
 * [io.trino:trino-docs](https://central.sonatype.com/artifact/io.trino/trino-docs/overview)
 * [io.trino:trino-druid](https://central.sonatype.com/artifact/io.trino/trino-druid/overview)
+* [io.trino:trino-duckdb](https://central.sonatype.com/artifact/io.trino/trino-duckdb/overview)
 * [io.trino:trino-elasticsearch](https://central.sonatype.com/artifact/io.trino/trino-elasticsearch/overview)
 * [io.trino:trino-example-http](https://central.sonatype.com/artifact/io.trino/trino-example-http/overview)
 * [io.trino:trino-example-jdbc](https://central.sonatype.com/artifact/io.trino/trino-example-jdbc/overview)
@@ -61,6 +62,7 @@ Source code: [https://github.com/trinodb/trino.git](https://github.com/trinodb/t
 * [io.trino:trino-kinesis](https://central.sonatype.com/artifact/io.trino/trino-kinesis/overview)
 * [io.trino:trino-kudu](https://central.sonatype.com/artifact/io.trino/trino-kudu/overview)
 * [io.trino:trino-local-file](https://central.sonatype.com/artifact/io.trino/trino-local-file/overview)
+* [io.trino:trino-loki](https://central.sonatype.com/artifact/io.trino/trino-loki/overview)
 * [io.trino:trino-main](https://central.sonatype.com/artifact/io.trino/trino-main/overview)
 * [io.trino:trino-mariadb](https://central.sonatype.com/artifact/io.trino/trino-mariadb/overview)
 * [io.trino:trino-matching](https://central.sonatype.com/artifact/io.trino/trino-matching/overview)
@@ -126,13 +128,13 @@ Source code: [https://github.com/trinodb/trino.git](https://github.com/trinodb/t
 * [io.trino:trino-web-ui](https://central.sonatype.com/artifact/io.trino/trino-web-ui/overview)
 </details>
 
-rebuilding **24 releases** of io.trino:trino-root:
-- **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **25 releases** of io.trino:trino-root:
+- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [470](https://central.sonatype.com/artifact/io.trino/trino-root/470/pom) | | | |
+| [470](https://central.sonatype.com/artifact/io.trino/trino-root/470/pom) | [mvn jdk23](trino-470.buildspec) | [result](trino-root-470.buildinfo): [615 :white_check_mark: ](trino-root-470.buildcompare) | 6.4G |
 | [469](https://central.sonatype.com/artifact/io.trino/trino-root/469/pom) | [mvn jdk23](trino-469.buildspec) | [result](trino-root-469.buildinfo): [609 :white_check_mark: ](trino-root-469.buildcompare) | 6.2G |
 | [468](https://central.sonatype.com/artifact/io.trino/trino-root/468/pom) | [mvn jdk23](trino-468.buildspec) | [result](trino-root-468.buildinfo): [609 :white_check_mark: ](trino-root-468.buildcompare) | 6.1G |
 | [467](https://central.sonatype.com/artifact/io.trino/trino-root/467/pom) | [mvn jdk23](trino-467.buildspec) | [result](trino-root-467.buildinfo): [603 :white_check_mark: ](trino-root-467.buildcompare) | 6.1G |
