@@ -44,13 +44,13 @@ Source code: [https://github.com/apache/maven-resolver.git](https://github.com/a
 * [org.apache.maven.resolver:maven-resolver-util](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-util/overview)
 </details>
 
-rebuilding **47 releases** of org.apache.maven.resolver:maven-resolver:
-- **45** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **48 releases** of org.apache.maven.resolver:maven-resolver:
+- **46** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0.6](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.6/pom) | | | |
+| [2.0.6](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.6/pom) | [mvn jdk21](maven-resolver-2.0.6.buildspec) | [result](maven-resolver-2.0.6.buildinfo): [135 :white_check_mark: ](maven-resolver-2.0.6.buildcompare) | 16M |
 | [2.0.5](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.5/pom) | [mvn jdk21](maven-resolver-2.0.5.buildspec) | [result](maven-resolver-2.0.5.buildinfo): [135 :white_check_mark: ](maven-resolver-2.0.5.buildcompare) | 16M |
 | [2.0.4](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.4/pom) | [mvn jdk21](maven-resolver-2.0.4.buildspec) | [result](maven-resolver-2.0.4.buildinfo): [135 :white_check_mark: ](maven-resolver-2.0.4.buildcompare) | 16M |
 | [2.0.3](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.3/pom) | [mvn jdk21](maven-resolver-2.0.3.buildspec) | [result](maven-resolver-2.0.3.buildinfo): [135 :white_check_mark: ](maven-resolver-2.0.3.buildcompare) | 16M |
