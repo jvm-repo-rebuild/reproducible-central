@@ -1,0 +1,9 @@
+version=1.3.5
+ok=9
+ko=0
+ignored=0
+okFiles="commons-logging-1.3.5.pom commons-logging-1.3.5.jar commons-logging-1.3.5-tests.jar commons-logging-1.3.5-api.jar commons-logging-1.3.5-adapters.jar commons-logging-1.3.5-sources.jar commons-logging-1.3.5-test-sources.jar commons-logging-1.3.5-cyclonedx.xml commons-logging-1.3.5-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
