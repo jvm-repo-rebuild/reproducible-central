@@ -1,0 +1,7 @@
+version=20
+ok=3
+ko=0
+ignored=0
+okFiles="plexus-20.pom plexus-20-site.xml plexus-20-source-release.zip"
+koFiles=""
+ignoredFiles=""
