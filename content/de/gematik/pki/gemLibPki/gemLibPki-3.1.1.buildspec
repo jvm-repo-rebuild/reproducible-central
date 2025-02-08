@@ -8,7 +8,7 @@ gitRepo=https://github.com/gematik/ref-GemLibPki.git
 gitTag=${version}
 
 tool=mvn
-jdk=17
+jdk=17 # need a patch release up to 17.0.13, but not 17.0.14 as it generates different bytecode
 newline=lf
 
 command="mvn clean package -DskipTests -Dmaven.javadoc.skip"
