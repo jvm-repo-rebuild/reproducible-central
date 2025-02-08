@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Languages
+group-id=org.codehaus.plexus
+artifact-id=plexus-languages
+version=1.4.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-languages.git
+source.scm.tag=plexus-languages-1.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=plexus-java
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.plexus:plexus-languages
+
+outputs.0.0.groupId=org.codehaus.plexus
+outputs.0.0.filename=plexus-languages-1.4.0.pom
+outputs.0.0.length=3858
+outputs.0.0.checksums.sha512=0ccf2e239cfba647972d7970db470760562ead7abdf14d514bfbcbf0600f9de5b0f752be299aef795f37988dfc7ec7e0c2dccbe7e597616349295248512b7cc2
+
+outputs.0.1.groupId=org.codehaus.plexus
+outputs.0.1.filename=plexus-languages-1.4.0-source-release.zip
+outputs.0.1.length=500705
+outputs.0.1.checksums.sha512=1b226b05a094b1d263a71bf5f489ede0fd82c032112682a18ed8a3d9741b3bb7f2d3697821e7f26809911639342603368db2987ebd0d707e2448dbcde531c374
+
+outputs.1.coordinates=org.codehaus.plexus:plexus-java
+
+outputs.1.0.groupId=org.codehaus.plexus
+outputs.1.0.filename=plexus-java-1.4.0.pom
+outputs.1.0.length=4083
+outputs.1.0.checksums.sha512=a257f57f7a0a777254d326db319a7e7d0de4883c89609f9616f30294ab9a58bc9411e2acd554c446596ca423e13b7ba0e3b3778c501c20d2c9db263ecf52051e
+
+outputs.1.1.groupId=org.codehaus.plexus
+outputs.1.1.filename=plexus-java-1.4.0.jar
+outputs.1.1.length=57318
+outputs.1.1.checksums.sha512=6462eb1db944232bb1b4aae9ca9c07dae0edc349f42b0090ad1ca96b28091f0117513a95b5861c6f0b7a1f16ecccc74bbacd9714ccc109c5be2b44f1d01a1f29
+
+outputs.1.2.groupId=org.codehaus.plexus
+outputs.1.2.filename=plexus-java-1.4.0-sources.jar
+outputs.1.2.length=32515
+outputs.1.2.checksums.sha512=4b1df919f34cfde2518f3554fadd42a53bc5f4b17284995514d6d5c0bfc53b7984017236b448ba33fb9a33a31ae1f2b1fd741291b4f900e612a54233c92e9ec4
