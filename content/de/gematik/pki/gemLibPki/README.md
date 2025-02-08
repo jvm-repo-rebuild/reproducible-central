@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/gematik/ref-GemLibPki.git](https://github.com/gematik/ref-GemLibPki.git)
 
-rebuilding **20 releases** of de.gematik.pki:gemLibPki:
-- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **21 releases** of de.gematik.pki:gemLibPki:
+- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.1.1](https://central.sonatype.com/artifact/de.gematik.pki/gemLibPki/3.1.1/pom) | | | |
+| [3.1.1](https://central.sonatype.com/artifact/de.gematik.pki/gemLibPki/3.1.1/pom) | [mvn jdk17](gemLibPki-3.1.1.buildspec) | [result](gemLibPki-3.1.1.buildinfo): [3 :white_check_mark: ](gemLibPki-3.1.1.buildcompare) | 316K |
 | [3.0.1](https://central.sonatype.com/artifact/de.gematik.pki/gemLibPki/3.0.1/pom) | [mvn jdk17](gemLibPki-3.0.1.buildspec) | [result](gemLibPki-3.0.1.buildinfo): [3 :white_check_mark: ](gemLibPki-3.0.1.buildcompare) | 315K |
 | [3.0.0](https://central.sonatype.com/artifact/de.gematik.pki/gemLibPki/3.0.0/pom) | [mvn jdk17](gemLibPki-3.0.0.buildspec) | [result](gemLibPki-3.0.0.buildinfo): [3 :white_check_mark: ](gemLibPki-3.0.0.buildcompare) | 315K |
 | [2.1.8](https://central.sonatype.com/artifact/de.gematik.pki/gemLibPki/2.1.8/pom) | [mvn jdk17](gemLibPki-2.1.8.buildspec) | [result](gemLibPki-2.1.8.buildinfo): [3 :white_check_mark: ](gemLibPki-2.1.8.buildcompare) | 313K |
