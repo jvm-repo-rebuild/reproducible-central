@@ -1,6 +1,6 @@
 { "schemaVersion": 1,
   "label": "Reproducible Builds",
   "labelColor": "1e5b96",
-  "message": "19/19",
-  "color": "green",
+  "message": "8/22",
+  "color": "red",
   "isError": "true" }

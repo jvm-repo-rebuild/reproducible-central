@@ -7,10 +7,11 @@
 
 Source code: [https://github.com/jpmml/jpmml-sklearn.git](https://github.com/jpmml/jpmml-sklearn.git)
 
-<details><summary>This project defines 7 modules:</summary>
+<details><summary>This project defines 8 modules:</summary>
 
 * [org.jpmml:jpmml-sklearn](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/overview)
 * [org.jpmml:pmml-sklearn](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn/overview)
+* [org.jpmml:pmml-sklearn-evaluator](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-evaluator/overview)
 * [org.jpmml:pmml-sklearn-extension](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-extension/overview)
 * [org.jpmml:pmml-sklearn-h2o](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-h2o/overview)
 * [org.jpmml:pmml-sklearn-lightgbm](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-lightgbm/overview)
@@ -18,13 +19,13 @@ Source code: [https://github.com/jpmml/jpmml-sklearn.git](https://github.com/jpm
 * [org.jpmml:pmml-sklearn-xgboost](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-xgboost/overview)
 </details>
 
-rebuilding **12 releases** of org.jpmml:jpmml-sklearn:
+rebuilding **13 releases** of org.jpmml:jpmml-sklearn:
 - **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.9.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.9.0/pom) | | | |
+| [1.9.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.9.0/pom) | [mvn jdk11](jpmml-sklearn-1.9.0.buildspec) | [result](jpmml-sklearn-1.9.0.buildinfo): [8 :white_check_mark:  14 :warning:](jpmml-sklearn-1.9.0.buildcompare) | 1.2M |
 | [1.8.9](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.8.9/pom) | [mvn jdk8](jpmml-sklearn-1.8.9.buildspec) | [result](jpmml-sklearn-1.8.9.buildinfo): [19 :white_check_mark: ](jpmml-sklearn-1.8.9.buildcompare) | 1.2M |
 | [1.8.8](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.8.8/pom) | [mvn jdk8](jpmml-sklearn-1.8.8.buildspec) | [result](jpmml-sklearn-1.8.8.buildinfo): [19 :white_check_mark: ](jpmml-sklearn-1.8.8.buildcompare) | 1.2M |
 | [1.8.7](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.8.7/pom) | [mvn jdk8](jpmml-sklearn-1.8.7.buildspec) | [result](jpmml-sklearn-1.8.7.buildinfo): [19 :white_check_mark: ](jpmml-sklearn-1.8.7.buildcompare) | 1.2M |
