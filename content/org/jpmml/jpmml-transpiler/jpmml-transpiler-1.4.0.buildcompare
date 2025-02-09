@@ -1,0 +1,11 @@
+version=1.4.0
+ok=2
+ko=2
+ignored=0
+okFiles="jpmml-transpiler-1.4.0.pom pmml-transpiler-1.4.0.pom"
+koFiles="pmml-transpiler-1.4.0.jar pmml-transpiler-1.4.0-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/pmml-transpiler-1.4.0.jar pmml-transpiler/target/pmml-transpiler-1.4.0.jar
+# diffoscope target/reference/org.jpmml/pmml-transpiler-1.4.0-sources.jar pmml-transpiler/target/pmml-transpiler-1.4.0-sources.jar
