@@ -1,0 +1,13 @@
+version=1.2.1
+ok=20
+ko=5
+ignored=0
+okFiles="ftpserver-parent-1.2.1.pom ftpserver-parent-1.2.1-source-release.zip ftplet-api-1.2.1.pom ftplet-api-1.2.1.jar ftplet-api-1.2.1-sources.jar ftpserver-core-1.2.1.pom ftpserver-core-1.2.1-sources.jar ftpserver-spring-war-1.2.1.pom ftpserver-spring-war-1.2.1-sources.jar ftpserver-osgi-ftplet-service-1.2.1.pom ftpserver-osgi-ftplet-service-1.2.1.jar ftpserver-osgi-ftplet-service-1.2.1-sources.jar ftpserver-osgi-spring-service-1.2.1.pom ftpserver-osgi-spring-service-1.2.1.jar ftpserver-osgi-spring-service-1.2.1-sources.jar ftpserver-examples-1.2.1.pom ftpserver-1.2.1.pom ftpserver-1.2.1-src.zip ftpserver-1.2.1-src.tar.gz ftpserver-1.2.1-src.tar.bz2"
+koFiles="ftpserver-core-1.2.1.jar ftpserver-spring-war-1.2.1.war ftpserver-1.2.1-bin.zip ftpserver-1.2.1-bin.tar.gz ftpserver-1.2.1-bin.tar.bz2"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+# diffoscope target/reference/org.apache.ftpserver/ftpserver-core-1.2.1.jar core/target/ftpserver-core-1.2.1.jar
+# diffoscope target/reference/org.apache.ftpserver.examples/ftpserver-spring-war-1.2.1.war examples/ftpserver-example-spring-war/target/ftpserver-spring-war.war
+# diffoscope target/reference/org.apache.ftpserver/ftpserver-1.2.1-bin.zip distribution/target/apache-ftpserver-1.2.1-bin.zip
+# diffoscope target/reference/org.apache.ftpserver/ftpserver-1.2.1-bin.tar.gz distribution/target/apache-ftpserver-1.2.1-bin.tar.gz
+# diffoscope target/reference/org.apache.ftpserver/ftpserver-1.2.1-bin.tar.bz2 distribution/target/apache-ftpserver-1.2.1-bin.tar.bz2
