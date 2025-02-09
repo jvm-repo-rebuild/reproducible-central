@@ -1,0 +1,9 @@
+version=11.2.1-beta-3
+ok=8
+ko=0
+ignored=0
+okFiles="spoon-pom-11.2.1-beta-3.pom spoon-core-11.2.1-beta-3.pom spoon-core-11.2.1-beta-3.jar spoon-core-11.2.1-beta-3-jar-with-dependencies.jar spoon-core-11.2.1-beta-3-sources.jar spoon-javadoc-11.2.1-beta-3.pom spoon-javadoc-11.2.1-beta-3.jar spoon-javadoc-11.2.1-beta-3-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
