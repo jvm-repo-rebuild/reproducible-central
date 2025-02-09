@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-LightGBM
+group-id=org.jpmml
+artifact-id=jpmml-lightgbm
+version=1.6.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-lightgbm.git
+source.scm.tag=1.6.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=pmml-lightgbm
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-lightgbm
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-lightgbm-1.6.0.pom
+outputs.0.0.length=6433
+outputs.0.0.checksums.sha512=0eaa924439f4d981eebee05fd4b724e099af3ef271c526fe6ddc3dd50a21e32137c97528f59254c452e17cd6b764ea73054d3c4d4b103e4bd376b9ef1f7cf40e
+
+outputs.1.coordinates=org.jpmml:pmml-lightgbm
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-lightgbm-1.6.0.pom
+outputs.1.0.length=1896
+outputs.1.0.checksums.sha512=f70b697f7a4bf5dd27105a8e0a551fff3998bb69439d63556b9c1493387c56af0d8a4b16ee8acf00d9bc101d71930420dc58c4cf3a16ab4e5100c3f464bc0403
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-lightgbm-1.6.0.jar
+outputs.1.1.length=48600
+outputs.1.1.checksums.sha512=bc2d1221ea37f047a0d681f3097f071973ad4281ce4de0ee3c29e6c3182b5c8f041f8bdf811841f1c7a2c3d4b340514e360170a51ad204bcca7b188be2f826c5
+
+outputs.1.2.groupId=org.jpmml
+outputs.1.2.filename=pmml-lightgbm-1.6.0-sources.jar
+outputs.1.2.length=30281
+outputs.1.2.checksums.sha512=7daa958c6655272e2c3adf57c47a9f8b88a81872adf7ab5102e912848b0b1f449839a8fd1ea191a357928885011cc519cc386d3c8d48d30ad058a8e45a87e2ce
