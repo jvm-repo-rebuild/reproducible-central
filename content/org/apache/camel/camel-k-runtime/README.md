@@ -119,7 +119,7 @@ rebuilding **8 releases** of org.apache.camel.k:camel-k-runtime-project:
 | [2.16.0](https://central.sonatype.com/artifact/org.apache.camel.k/camel-k-runtime-project/2.16.0/pom) | | | |
 | [1.17.1](https://central.sonatype.com/artifact/org.apache.camel.k/camel-k-runtime-project/1.17.1/pom) | | | |
 | [1.17.0](https://central.sonatype.com/artifact/org.apache.camel.k/camel-k-runtime-project/1.17.0/pom) | | | |
-| [1.16.0](https://central.sonatype.com/artifact/org.apache.camel.k/camel-k-runtime-project/1.16.0/pom) | | | |
+| [1.16.0](https://central.sonatype.com/artifact/org.apache.camel.k/camel-k-runtime-project/1.16.0/pom) | [mvn jdk11](camel-k-runtime-1.16.0.buildspec) | [result](camel-k-runtime-project-1.16.0.buildinfo): [164 :white_check_mark:  19 :warning:](camel-k-runtime-project-1.16.0.buildcompare) | 9.8M |
 | [1.15.2](https://central.sonatype.com/artifact/org.apache.camel.k/camel-k-runtime-project/1.15.2/pom) | | | |
 | [1.15.1](https://central.sonatype.com/artifact/org.apache.camel.k/camel-k-runtime-project/1.15.1/pom) | | | |
 | [1.15.0](https://central.sonatype.com/artifact/org.apache.camel.k/camel-k-runtime-project/1.15.0/pom) | | | |
