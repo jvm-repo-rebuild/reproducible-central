@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Logging Parent
+group-id=org.apache.logging
+artifact-id=logging-parent
+version=12.0.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:apache/logging-parent.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.logging
+outputs.0.filename=logging-parent-12.0.0.pom
+outputs.0.length=52855
+outputs.0.checksums.sha512=0495c1ec6006a67b8db7289fe2c7150ecc1a3ee62ee5a7aae3bfa2f5e0acbb289e6230b771d1fa0d9d2555f1490b7c2a370493399b7f2551c7f2bc79595e2d30
+
+outputs.1.groupId=org.apache.logging
+outputs.1.filename=logging-parent-12.0.0-cyclonedx.xml
+outputs.1.length=3761
+outputs.1.checksums.sha512=e3349555417f72dd19df9b74d414e740f96709f935c40ebb266aa93ba26816ee1b6e69eb0f443ef40f39591911110dab4b2947340e219f6b9c64183380c15dbb

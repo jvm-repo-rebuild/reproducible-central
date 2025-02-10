@@ -1,0 +1,7 @@
+version=12.0.0
+ok=2
+ko=0
+ignored=0
+okFiles="logging-parent-12.0.0.pom logging-parent-12.0.0-cyclonedx.xml"
+koFiles=""
+ignoredFiles=""
