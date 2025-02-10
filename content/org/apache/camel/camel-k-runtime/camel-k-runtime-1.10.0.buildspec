@@ -1,0 +1,24 @@
+groupId=org.apache.camel.k
+artifactId=camel-k-runtime-project
+version=1.10.0
+
+display=${groupId}:camel-k-runtime
+
+# Source code
+gitRepo=https://github.com/apache/camel-k-runtime.git
+gitTag=${artifactId}-${version}
+
+# Rebuild environment prerequisites
+tool=mvn
+jdk=11
+newline=lf
+
+# Rebuild command
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+# Location of the buildinfo file generated during rebuild to record output fingerprints
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+# if the release is finally not reproducible, link to an issue tracker entry if one was created
+issue=
