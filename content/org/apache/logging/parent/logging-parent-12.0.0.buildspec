@@ -1,0 +1,16 @@
+groupId=org.apache.logging
+artifactId=logging-parent
+display=${groupId}:${artifactId}
+version=12.0.0
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=rel/${version}
+
+tool=mvn-3.9.5
+jdk=17
+newline=lf
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
