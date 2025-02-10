@@ -16,13 +16,13 @@ Source code: [https://github.com/micronaut-projects/micronaut-maven-plugin.git](
 * [io.micronaut.maven:micronaut-maven-plugin-parent](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin-parent/overview)
 </details>
 
-rebuilding **33 releases** of io.micronaut.maven:micronaut-maven-plugin:
-- **33** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **34 releases** of io.micronaut.maven:micronaut-maven-plugin:
+- **34** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.7.2](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.7.2/pom) | | | |
+| [4.7.2](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.7.2/pom) | [mvn jdk17](micronaut-maven-plugin-4.7.2.buildspec) | [result](micronaut-maven-plugin-parent-4.7.2.buildinfo): [13 :white_check_mark: ](micronaut-maven-plugin-parent-4.7.2.buildcompare) | 367K |
 | [4.7.1](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.7.1/pom) | [mvn jdk17](micronaut-maven-plugin-4.7.1.buildspec) | [result](micronaut-maven-plugin-parent-4.7.1.buildinfo): [13 :white_check_mark: ](micronaut-maven-plugin-parent-4.7.1.buildcompare) | 366K |
 | [4.7.0](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.7.0/pom) | [mvn jdk17](micronaut-maven-plugin-4.7.0.buildspec) | [result](micronaut-maven-plugin-parent-4.7.0.buildinfo): [13 :white_check_mark: ](micronaut-maven-plugin-parent-4.7.0.buildcompare) | 365K |
 | [4.6.3](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.6.3/pom) | [mvn jdk17](micronaut-maven-plugin-4.6.3.buildspec) | [result](micronaut-maven-plugin-parent-4.6.3.buildinfo): [13 :white_check_mark: ](micronaut-maven-plugin-parent-4.6.3.buildcompare) | 346K |
