@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika.git)
 
-<details><summary>This project defines 113 modules:</summary>
+<details><summary>This project defines 114 modules:</summary>
 
 * [org.apache.tika:tika](https://central.sonatype.com/artifact/org.apache.tika/tika/overview)
 * [org.apache.tika:tika-age-recogniser](https://central.sonatype.com/artifact/org.apache.tika/tika-age-recogniser/overview)
@@ -18,6 +18,7 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-bundle-standard](https://central.sonatype.com/artifact/org.apache.tika/tika-bundle-standard/overview)
 * [org.apache.tika:tika-bundles](https://central.sonatype.com/artifact/org.apache.tika/tika-bundles/overview)
 * [org.apache.tika:tika-core](https://central.sonatype.com/artifact/org.apache.tika/tika-core/overview)
+* [org.apache.tika:tika-detector-magika](https://central.sonatype.com/artifact/org.apache.tika/tika-detector-magika/overview)
 * [org.apache.tika:tika-detector-siegfried](https://central.sonatype.com/artifact/org.apache.tika/tika-detector-siegfried/overview)
 * [org.apache.tika:tika-detectors](https://central.sonatype.com/artifact/org.apache.tika/tika-detectors/overview)
 * [org.apache.tika:tika-dl](https://central.sonatype.com/artifact/org.apache.tika/tika-dl/overview)
@@ -124,13 +125,13 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-xmp](https://central.sonatype.com/artifact/org.apache.tika/tika-xmp/overview)
 </details>
 
-rebuilding **8 releases** of org.apache.tika:tika:
+rebuilding **9 releases** of org.apache.tika:tika:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.1.0](https://central.sonatype.com/artifact/org.apache.tika/tika/3.1.0/pom) | | | |
+| [3.1.0](https://central.sonatype.com/artifact/org.apache.tika/tika/3.1.0/pom) | [mvn jdk11](tika-3.1.0.buildspec) | [result](tika-3.1.0.buildinfo): [367 :white_check_mark:  1 :warning:](tika-3.1.0.buildcompare) | 1.6G |
 | [3.0.0](https://central.sonatype.com/artifact/org.apache.tika/tika/3.0.0/pom) | [mvn jdk17](tika-3.0.0.buildspec) | [result](tika-3.0.0.buildinfo): [357 :white_check_mark:  8 :warning:](tika-3.0.0.buildcompare) | 1.5G |
 | [3.0.0-BETA2](https://central.sonatype.com/artifact/org.apache.tika/tika/3.0.0-BETA2/pom) | | | |
 | [3.0.0-BETA](https://central.sonatype.com/artifact/org.apache.tika/tika/3.0.0-BETA/pom) | | | |
