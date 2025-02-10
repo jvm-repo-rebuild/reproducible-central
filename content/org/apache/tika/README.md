@@ -143,7 +143,7 @@ rebuilding **10 releases** of org.apache.tika:tika:
 | [2.7.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.7.0/pom) | | | |
 | [2.6.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.6.0/pom) | | | |
 | [2.5.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.5.0/pom) | | | |
-| [2.4.1](https://central.sonatype.com/artifact/org.apache.tika/tika/2.4.1/pom) | | | |
+| [2.4.1](https://central.sonatype.com/artifact/org.apache.tika/tika/2.4.1/pom) | [mvn jdk8](tika-2.4.1.buildspec) | [result](tika-2.4.1.buildinfo): [269 :white_check_mark:  50 :warning:](tika-2.4.1.buildcompare) | 1.2G |
 | [2.4.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.4.0/pom) | [mvn jdk8](tika-2.4.0.buildspec) | [result](tika-2.4.0.buildinfo): [272 :white_check_mark:  44 :warning:](tika-2.4.0.buildcompare) [:mag:](tika-2.4.0.diffoscope) [:memo:](https://github.com/apache/tika/commit/57d29fb6633a3c65fd40a29b93287f4d4695727d) | 1.2G |
 | [2.3.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.3.0/pom) | [mvn jdk8](tika-2.3.0.buildspec) | [result](tika-2.3.0.buildinfo): [214 :white_check_mark:  74 :warning:](tika-2.3.0.buildcompare) [:mag:](tika-2.3.0.diffoscope) | 1.8G |
 | [2.2.1](https://central.sonatype.com/artifact/org.apache.tika/tika/2.2.1/pom) | [mvn jdk8](tika-2.2.1.buildspec) | [result](tika-2.2.1.buildinfo): [91 :white_check_mark:  196 :warning:](tika-2.2.1.buildcompare) [:mag:](tika-2.2.1.diffoscope) | 1.8G |
