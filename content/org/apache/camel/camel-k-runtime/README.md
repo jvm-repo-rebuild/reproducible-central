@@ -104,9 +104,9 @@ Source code: [https://github.com/apache/camel-k-runtime.git](https://github.com/
 * [org.apache.camel.k:camel-knative-test](https://central.sonatype.com/artifact/org.apache.camel.k/camel-knative-test/overview)
 </details>
 
-rebuilding **7 releases** of org.apache.camel.k:camel-k-runtime-project:
+rebuilding **8 releases** of org.apache.camel.k:camel-k-runtime-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -127,7 +127,7 @@ rebuilding **7 releases** of org.apache.camel.k:camel-k-runtime-project:
 | [1.13.0](https://central.sonatype.com/artifact/org.apache.camel.k/camel-k-runtime-project/1.13.0/pom) | [mvn jdk11](camel-k-runtime-1.13.0.buildspec) | [result](camel-k-runtime-project-1.13.0.buildinfo): [177 :white_check_mark:  22 :warning:](camel-k-runtime-project-1.13.0.buildcompare) [:mag:](camel-k-runtime-project-1.13.0.diffoscope) | 3.3M |
 | [1.12.0](https://central.sonatype.com/artifact/org.apache.camel.k/camel-k-runtime-project/1.12.0/pom) | [mvn jdk11](camel-k-runtime-1.12.0.buildspec) | [result](camel-k-runtime-project-1.12.0.buildinfo): [191 :white_check_mark:  30 :warning:](camel-k-runtime-project-1.12.0.buildcompare) [:mag:](camel-k-runtime-project-1.12.0.diffoscope) | 3.7M |
 | [1.11.0](https://central.sonatype.com/artifact/org.apache.camel.k/camel-k-runtime-project/1.11.0/pom) | [mvn jdk11](camel-k-runtime-1.11.0.buildspec) | [result](camel-k-runtime-project-1.11.0.buildinfo): [197 :white_check_mark:  31 :warning:](camel-k-runtime-project-1.11.0.buildcompare) [:mag:](camel-k-runtime-project-1.11.0.diffoscope) | 3.8M |
-| [1.10.0](https://central.sonatype.com/artifact/org.apache.camel.k/camel-k-runtime-project/1.10.0/pom) | | | |
+| [1.10.0](https://central.sonatype.com/artifact/org.apache.camel.k/camel-k-runtime-project/1.10.0/pom) | [mvn jdk11](camel-k-runtime-1.10.0.buildspec) | [result](camel-k-runtime-project-1.10.0.buildinfo): [197 :white_check_mark:  31 :warning:](camel-k-runtime-project-1.10.0.buildcompare) | 3.8M |
 | [1.9.1](https://central.sonatype.com/artifact/org.apache.camel.k/camel-k-runtime-project/1.9.1/pom) | [mvn jdk11](camel-k-runtime-1.9.1.buildspec) | [result](camel-k-runtime-project-1.9.1.buildinfo): [109 :white_check_mark:  31 :warning:](camel-k-runtime-project-1.9.1.buildcompare) [:mag:](camel-k-runtime-project-1.9.1.diffoscope) | 3.4M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
