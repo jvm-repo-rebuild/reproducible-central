@@ -125,9 +125,9 @@ Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika
 * [org.apache.tika:tika-xmp](https://central.sonatype.com/artifact/org.apache.tika/tika-xmp/overview)
 </details>
 
-rebuilding **9 releases** of org.apache.tika:tika:
+rebuilding **10 releases** of org.apache.tika:tika:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -139,7 +139,7 @@ rebuilding **9 releases** of org.apache.tika:tika:
 | [2.9.2](https://central.sonatype.com/artifact/org.apache.tika/tika/2.9.2/pom) | [mvn jdk8](tika-2.9.2.buildspec) | [result](tika-2.9.2.buildinfo): [327 :white_check_mark:  27 :warning:](tika-2.9.2.buildcompare) | 1.4G |
 | [2.9.1](https://central.sonatype.com/artifact/org.apache.tika/tika/2.9.1/pom) | | | |
 | [2.9.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.9.0/pom) | [mvn jdk17](tika-2.9.0.buildspec) | [result](tika-2.9.0.buildinfo): [338 :white_check_mark:  16 :warning:](tika-2.9.0.buildcompare) [:mag:](tika-2.9.0.diffoscope) | 1.3G |
-| [2.8.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.8.0/pom) | | | |
+| [2.8.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.8.0/pom) | [mvn jdk11](tika-2.8.0.buildspec) | [result](tika-2.8.0.buildinfo): [310 :white_check_mark:  44 :warning:](tika-2.8.0.buildcompare) | 1.3G |
 | [2.7.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.7.0/pom) | | | |
 | [2.6.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.6.0/pom) | | | |
 | [2.5.0](https://central.sonatype.com/artifact/org.apache.tika/tika/2.5.0/pom) | | | |
