@@ -1,0 +1,9 @@
+version=2.4.22
+ok=27
+ko=0
+ignored=0
+okFiles="mima-2.4.22.pom context-2.4.22.pom context-2.4.22.jar context-2.4.22-sources.jar runtime-2.4.22.pom embedded-maven-2.4.22.pom embedded-maven-2.4.22.jar embedded-maven-2.4.22-sources.jar standalone-shared-2.4.22.pom standalone-shared-2.4.22.jar standalone-shared-2.4.22-sources.jar standalone-sisu-2.4.22.pom standalone-sisu-2.4.22.jar standalone-sisu-2.4.22-sources.jar standalone-sisu-uber-2.4.22.pom standalone-sisu-uber-2.4.22.jar standalone-sisu-uber-2.4.22-sources.jar standalone-static-2.4.22.pom standalone-static-2.4.22.jar standalone-static-2.4.22-sources.jar standalone-static-uber-2.4.22.pom standalone-static-uber-2.4.22.jar standalone-static-uber-2.4.22-sources.jar extensions-2.4.22.pom mmr-2.4.22.pom mmr-2.4.22.jar mmr-2.4.22-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
