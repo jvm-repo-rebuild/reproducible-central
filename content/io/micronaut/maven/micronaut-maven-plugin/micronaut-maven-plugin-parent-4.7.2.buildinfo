@@ -73,7 +73,7 @@ outputs.3.0.checksums.sha512=8fe33486fec6c2c1daafbb5c0c1564a741e41a47b0f7de7c301
 outputs.3.1.groupId=io.micronaut.maven
 outputs.3.1.filename=micronaut-maven-jib-integration-4.7.2.jar
 outputs.3.1.length=18358
-outputs.3.1.checksums.sha512=d3b31620c695a3271b4f4dbe53b64dc44877893ae6978664015dad68ea728976f421c5ac4eb83cd5e53117b5965e172f41689d535d574c200fe64cdeb5973ed5
+outputs.3.1.checksums.sha512=307ef3cafbd9140db513e9b33e2b27dc571779837de770ab7aacbab3ce84aa7d1bb79f1d76525a8cc4c049871df3b2a94982fc6827c2313007ce1cb65687aaf5
 
 outputs.3.2.groupId=io.micronaut.maven
 outputs.3.2.filename=micronaut-maven-jib-integration-4.7.2-sources.jar
@@ -89,8 +89,8 @@ outputs.4.0.checksums.sha512=cd4f86f516a4ef478cc0cb9cae10c888beaaff968c5ac6c919c
 
 outputs.4.1.groupId=io.micronaut.maven
 outputs.4.1.filename=micronaut-maven-plugin-4.7.2.jar
-outputs.4.1.length=179711
-outputs.4.1.checksums.sha512=24c2647f72e47c33c1d208b64305e5a6e6ba0955a7585996a47a19822cc3d179a936503560b5d48799db0ec08477e71a9f915f9d346e1223f60f33321c551769
+outputs.4.1.length=179787
+outputs.4.1.checksums.sha512=9c5c36cee8315a46894a18a3fe93ad7612d156748a8bd38a1eb53b4b09293b1dd76fad5206dcfc73855bdfc05f38865caf53b66746ec81c67fc249e54647fa17
 
 outputs.4.2.groupId=io.micronaut.maven
 outputs.4.2.filename=micronaut-maven-plugin-4.7.2-sources.jar
