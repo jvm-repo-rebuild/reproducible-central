@@ -50,7 +50,7 @@ rebuilding **29 releases** of org.jpmml:jpmml-sparkml:
 | [2.1.2](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/2.1.2/pom) | [mvn jdk8](jpmml-sparkml-2.1.2.buildspec) | :x: | |
 | [2.1.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/2.1.1/pom) | [mvn jdk8](jpmml-sparkml-2.1.1.buildspec) | :x: | |
 | [2.1.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/2.1.0/pom) | [mvn jdk8](jpmml-sparkml-2.1.0.buildspec) | :x: | |
-| [2.0.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/2.0.6/pom) | | | |
+| [2.0.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/2.0.6/pom) | [mvn jdk8](jpmml-sparkml-2.0.6.buildspec) | [result](jpmml-sparkml-2.0.6.buildinfo): [10 :white_check_mark: ](jpmml-sparkml-2.0.6.buildcompare) | 350K |
 | [2.0.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/2.0.5/pom) | [mvn jdk8](jpmml-sparkml-2.0.5.buildspec) | [result](jpmml-sparkml-2.0.5.buildinfo): [10 :white_check_mark: ](jpmml-sparkml-2.0.5.buildcompare) | 349K |
 | [2.0.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/2.0.4/pom) | [mvn jdk8](jpmml-sparkml-2.0.4.buildspec) | [result](jpmml-sparkml-2.0.4.buildinfo): [10 :white_check_mark: ](jpmml-sparkml-2.0.4.buildcompare) | 349K |
 
