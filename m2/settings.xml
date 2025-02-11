@@ -145,6 +145,11 @@
       <url>https://packages.atlassian.com/maven-external</url>
     </mirror>
     <mirror>
+      <id>atlassian</id>
+      <mirrorOf>atlassian</mirrorOf>
+      <url>https://packages.atlassian.com/maven-external</url>
+    </mirror>
+    <mirror>
       <id>jboss.thirdparty</id>
       <mirrorOf>jboss.thirdparty</mirrorOf>
       <url>https://repository.jboss.org/nexus/service/local/repositories/thirdparty-releases/content/</url>
