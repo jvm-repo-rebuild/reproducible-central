@@ -1,0 +1,10 @@
+version=3.2.5
+ok=10
+ko=1
+ignored=0
+okFiles="jandex-parent-3.2.5.pom jandex-test-data-3.2.5.pom jandex-test-data-3.2.5-sources.jar jandex-3.2.5.pom jandex-3.2.5.jar jandex-3.2.5-sources.jar jandex-maven-plugin-3.2.5.pom jandex-maven-plugin-3.2.5.jar jandex-maven-plugin-3.2.5-sources.jar jandex-release-3.2.5.pom"
+koFiles="jandex-test-data-3.2.5.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.smallrye/jandex-test-data-3.2.5.jar test-data/target/jandex-test-data-3.2.5.jar
