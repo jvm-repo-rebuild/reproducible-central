@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/sentrysoftware/ipmi.git](https://github.com/sentrysoftware/ipmi.git)
 
-rebuilding **3 releases** of org.sentrysoftware:ipmi:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of org.sentrysoftware:ipmi:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.2.00](https://central.sonatype.com/artifact/org.sentrysoftware/ipmi/1.2.00/pom) | | | |
+| [1.2.00](https://central.sonatype.com/artifact/org.sentrysoftware/ipmi/1.2.00/pom) | [mvn jdk17](ipmi-1.2.00.buildspec) | [result](ipmi-1.2.00.buildinfo): [3 :white_check_mark: ](ipmi-1.2.00.buildcompare) | 843K |
 | [1.1.00](https://central.sonatype.com/artifact/org.sentrysoftware/ipmi/1.1.00/pom) | [mvn jdk17](ipmi-1.1.00.buildspec) | [result](ipmi-1.1.00.buildinfo): [3 :white_check_mark: ](ipmi-1.1.00.buildcompare) | 835K |
 | [1.0.01](https://central.sonatype.com/artifact/org.sentrysoftware/ipmi/1.0.01/pom) | [mvn jdk17](ipmi-1.0.01.buildspec) | [result](ipmi-1.0.01.buildinfo): [3 :white_check_mark: ](ipmi-1.0.01.buildcompare) | 844K |
 | [1.0.00](https://central.sonatype.com/artifact/org.sentrysoftware/ipmi/1.0.00/pom) | [mvn jdk17](ipmi-1.0.00.buildspec) | [result](ipmi-1.0.00.buildinfo): [3 :white_check_mark: ](ipmi-1.0.00.buildcompare) | 844K |
