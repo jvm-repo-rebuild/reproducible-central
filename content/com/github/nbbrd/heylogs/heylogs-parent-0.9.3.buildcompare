@@ -1,0 +1,9 @@
+version=0.9.3
+ok=22
+ko=0
+ignored=0
+okFiles="heylogs-parent-0.9.3.pom heylogs-api-0.9.3.pom heylogs-api-0.9.3.jar heylogs-api-0.9.3-sources.jar heylogs-api-0.9.3-tests.jar heylogs-ext-github-0.9.3.pom heylogs-ext-github-0.9.3.jar heylogs-ext-github-0.9.3-sources.jar heylogs-ext-json-0.9.3.pom heylogs-ext-json-0.9.3.jar heylogs-ext-json-0.9.3-sources.jar heylogs-ext-semver-0.9.3.pom heylogs-ext-semver-0.9.3.jar heylogs-ext-semver-0.9.3-sources.jar heylogs-cli-0.9.3.pom heylogs-cli-0.9.3.jar heylogs-cli-0.9.3-sources.jar heylogs-cli-0.9.3-bin.jar heylogs-maven-plugin-0.9.3.pom heylogs-maven-plugin-0.9.3.jar heylogs-maven-plugin-0.9.3-sources.jar heylogs-bom-0.9.3.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
