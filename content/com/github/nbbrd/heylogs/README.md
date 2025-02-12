@@ -19,13 +19,13 @@ Source code: [https://github.com/nbbrd/heylogs.git](https://github.com/nbbrd/hey
 * [com.github.nbbrd.heylogs:heylogs-parent](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/overview)
 </details>
 
-rebuilding **4 releases** of com.github.nbbrd.heylogs:heylogs-parent:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **5 releases** of com.github.nbbrd.heylogs:heylogs-parent:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.9.3](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.9.3/pom) | | | |
+| [0.9.3](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.9.3/pom) | [mvn jdk21](heylogs-0.9.3.buildspec) | [result](heylogs-parent-0.9.3.buildinfo): [22 :white_check_mark: ](heylogs-parent-0.9.3.buildcompare) | 2.9M |
 | [0.9.2](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.9.2/pom) | [mvn jdk21](heylogs-0.9.2.buildspec) | [result](heylogs-parent-0.9.2.buildinfo): [22 :white_check_mark: ](heylogs-parent-0.9.2.buildcompare) | 2.9M |
 | [0.9.1](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.9.1/pom) | [mvn jdk21](heylogs-0.9.1.buildspec) | [result](heylogs-parent-0.9.1.buildinfo): [22 :white_check_mark: ](heylogs-parent-0.9.1.buildcompare) | 2.9M |
 | [0.8.1](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.8.1/pom) | [mvn jdk21](heylogs-0.8.1.buildspec) | [result](heylogs-parent-0.8.1.buildinfo): [12 :white_check_mark: ](heylogs-parent-0.8.1.buildcompare) | 2.8M |
