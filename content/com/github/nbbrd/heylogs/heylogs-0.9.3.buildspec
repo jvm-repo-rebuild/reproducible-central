@@ -1,0 +1,18 @@
+groupId=com.github.nbbrd.heylogs
+artifactId=heylogs-parent
+display=com.github.nbbrd.*:heylogs
+version=0.9.3
+
+gitRepo=https://github.com/nbbrd/heylogs.git
+gitTag=v${version}
+
+tool=mvn
+jdk=21
+newline=lf
+umask=022
+
+command="mvn -Pbase-deploy clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
