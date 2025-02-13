@@ -13,6 +13,7 @@ rebuilding **10 releases** of org.sentrysoftware:jawk:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.3.04](https://central.sonatype.com/artifact/org.sentrysoftware/jawk/3.3.04/pom) | | | |
 | [3.3.03](https://central.sonatype.com/artifact/org.sentrysoftware/jawk/3.3.03/pom) | [mvn jdk17](jawk-3.3.03.buildspec) | [result](jawk-3.3.03.buildinfo): [4 :white_check_mark: ](jawk-3.3.03.buildcompare) | 724K |
 | [3.3.02](https://central.sonatype.com/artifact/org.sentrysoftware/jawk/3.3.02/pom) | [mvn jdk17](jawk-3.3.02.buildspec) | [result](jawk-3.3.02.buildinfo): [4 :white_check_mark: ](jawk-3.3.02.buildcompare) | 723K |
 | [3.3.01](https://central.sonatype.com/artifact/org.sentrysoftware/jawk/3.3.01/pom) | [mvn jdk17](jawk-3.3.01.buildspec) | [result](jawk-3.3.01.buildinfo): [4 :white_check_mark: ](jawk-3.3.01.buildcompare) | 723K |

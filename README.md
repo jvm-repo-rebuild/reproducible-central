@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **6326 releases** of **815 projects**:
-   - **4558** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **6328 releases** of **815 projects**:
+   - **4560** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 1768 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 815 projects, 704 have at least one fully reproducible release, 111 have none
 
@@ -113,7 +113,7 @@ Its objectives are to provide:
 | com.intellectualsites.* | [fastasyncvoxelsniper](content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/README.md) | 4 | 4 :white_check_mark: |
 | | [informative-annotations](content/com/intellectualsites/informative-annotations/informative-annotations/README.md) | 1 | 1 :white_check_mark: |
 | | [paster](content/com/intellectualsites/paster/Paster/README.md) | 1 | 1 :white_check_mark: |
-| | [plotsquared](content/com/intellectualsites/plotsquared/plotsquared-bukkit/README.md) | 7 | 7 :white_check_mark: |
+| | [plotsquared](content/com/intellectualsites/plotsquared/plotsquared-bukkit/README.md) | 8 | 8 :white_check_mark: |
 | com.io7m.* | [*.abstand](content/com/io7m/abstand/README.md) | 4 | 4 :white_check_mark: |
 | | [*.anethum](content/com/io7m/anethum/README.md) | 6 | 6 :white_check_mark: |
 | | [*.blackthorne](content/com/io7m/blackthorne/README.md) | 13 | 9 :white_check_mark: / 4 :warning: |
@@ -318,7 +318,7 @@ Its objectives are to provide:
 | io.takari.maven.plugins | [takari-lifecycle-plugin](content/io/takari/maven/plugins/takari-lifecycle-plugin/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
 | | [takari-plugin-testing](content/io/takari/maven/plugins/takari-plugin-testing/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | io.telicent.jena | [jena-kafka](content/io/telicent/jena/jena-kafka/README.md) | 4 | 4 :white_check_mark: |
-| | [rdf-abac](content/io/telicent/jena/rdf-abac/README.md) | 13 | 13 :white_check_mark: |
+| | [rdf-abac](content/io/telicent/jena/rdf-abac/README.md) | 14 | 14 :white_check_mark: |
 | io.telicent.smart-caches.graph | [scg-base](content/io/telicent/smart-caches/graph/scg-base/README.md) | 29 | 29 :white_check_mark: |
 | io.wcm | [*.caconfig.editor](content/io/wcm/io.wcm.caconfig/README.md) | 10 | 10 :warning: |
 | | [*.parent_toplevel](content/io/wcm/tooling/README.md) | 22 | 22 :white_check_mark: |
@@ -838,7 +838,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 5 | 5 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 19 | 1 :white_check_mark: / 18 :warning: |
-| **Count:** | **815** | **6326** | **4558** :white_check_mark:<br>**1768** :warning: |
+| **Count:** | **815** | **6328** | **4560** :white_check_mark:<br>**1768** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -851,7 +851,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 ```
      32 gradle     11
      94 gradle     17
-     53 gradle     21
+     54 gradle     21
      35 mvn         7
    1491 mvn         8
       1 mvn         9
@@ -950,7 +950,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      11 mvn-3.9.5  22
     100 mvn-3.9.6   8
      26 mvn-3.9.6  11
-     53 mvn-3.9.6  17
+     54 mvn-3.9.6  17
       2 mvn-3.9.6  17.0.7
      65 mvn-3.9.6  21
      24 mvn-3.9.6  22

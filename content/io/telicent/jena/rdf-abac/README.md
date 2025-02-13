@@ -23,6 +23,7 @@ rebuilding **14 releases** of io.telicent.jena:rdf-abac:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.73.4](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.73.4/pom) | | | |
 | [0.73.3](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.73.3/pom) | [mvn jdk17](rdf-abac-0.73.3.buildspec) | [result](rdf-abac-0.73.3.buildinfo): [32 :white_check_mark: ](rdf-abac-0.73.3.buildcompare) | 100M |
 | [0.73.2](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.73.2/pom) | [mvn jdk17](rdf-abac-0.73.2.buildspec) | [result](rdf-abac-0.73.2.buildinfo): [32 :white_check_mark: ](rdf-abac-0.73.2.buildcompare) | 100M |
 | [0.73.1](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.73.1/pom) | [mvn jdk17](rdf-abac-0.73.1.buildspec) | [result](rdf-abac-0.73.1.buildinfo): [32 :white_check_mark: ](rdf-abac-0.73.1.buildcompare) | 100M |
