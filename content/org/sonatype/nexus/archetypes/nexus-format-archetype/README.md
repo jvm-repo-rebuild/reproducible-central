@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/sonatype-nexus-community/nexus-format-archetype.git](https://github.com/sonatype-nexus-community/nexus-format-archetype.git)
 
-rebuilding **16 releases** of org.sonatype.nexus.archetypes:nexus-format-archetype:
-- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **17 releases** of org.sonatype.nexus.archetypes:nexus-format-archetype:
+- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [1.0.72](https://central.sonatype.com/artifact/org.sonatype.nexus.archetypes/nexus-format-archetype/1.0.72/pom) | [mvn jdk8](nexus-format-archetype-1.0.72.buildspec) | [result](nexus-format-archetype-1.0.72.buildinfo): [2 :white_check_mark: ](nexus-format-archetype-1.0.72.buildcompare) | 69K |
-| [1.0.71](https://central.sonatype.com/artifact/org.sonatype.nexus.archetypes/nexus-format-archetype/1.0.71/pom) | | | |
+| [1.0.71](https://central.sonatype.com/artifact/org.sonatype.nexus.archetypes/nexus-format-archetype/1.0.71/pom) | [mvn jdk8](nexus-format-archetype-1.0.71.buildspec) | [result](nexus-format-archetype-1.0.71.buildinfo): [2 :white_check_mark: ](nexus-format-archetype-1.0.71.buildcompare) | 69K |
 | [1.0.70](https://central.sonatype.com/artifact/org.sonatype.nexus.archetypes/nexus-format-archetype/1.0.70/pom) | [mvn jdk8](nexus-format-archetype-1.0.70.buildspec) | [result](nexus-format-archetype-1.0.70.buildinfo): [2 :white_check_mark: ](nexus-format-archetype-1.0.70.buildcompare) | 69K |
 | [1.0.69](https://central.sonatype.com/artifact/org.sonatype.nexus.archetypes/nexus-format-archetype/1.0.69/pom) | [mvn jdk8](nexus-format-archetype-1.0.69.buildspec) | [result](nexus-format-archetype-1.0.69.buildinfo): [2 :white_check_mark: ](nexus-format-archetype-1.0.69.buildcompare) | 69K |
 | [1.0.68](https://central.sonatype.com/artifact/org.sonatype.nexus.archetypes/nexus-format-archetype/1.0.68/pom) | [mvn jdk8](nexus-format-archetype-1.0.68.buildspec) | [result](nexus-format-archetype-1.0.68.buildinfo): [2 :white_check_mark: ](nexus-format-archetype-1.0.68.buildcompare) | 69K |
