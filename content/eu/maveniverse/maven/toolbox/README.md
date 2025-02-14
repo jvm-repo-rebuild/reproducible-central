@@ -14,13 +14,13 @@ Source code: [https://github.com/maveniverse/toolbox.git](https://github.com/mav
 * [eu.maveniverse.maven.toolbox:toolbox](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/overview)
 </details>
 
-rebuilding **53 releases** of eu.maveniverse.maven.toolbox:toolbox:
-- **52** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **54 releases** of eu.maveniverse.maven.toolbox:toolbox:
+- **53** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.6.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.6.3/pom) | | | |
+| [0.6.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.6.3/pom) | [mvn jdk21](toolbox-0.6.3.buildspec) | [result](toolbox-0.6.3.buildinfo): [8 :white_check_mark: ](toolbox-0.6.3.buildcompare) | 8.9M |
 | [0.6.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.6.2/pom) | [mvn jdk21](toolbox-0.6.2.buildspec) | [result](toolbox-0.6.2.buildinfo): [8 :white_check_mark: ](toolbox-0.6.2.buildcompare) | 8.7M |
 | [0.6.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.6.1/pom) | [mvn jdk21](toolbox-0.6.1.buildspec) | [result](toolbox-0.6.1.buildinfo): [8 :white_check_mark: ](toolbox-0.6.1.buildcompare) | 8.7M |
 | [0.6.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.6.0/pom) | [mvn jdk21](toolbox-0.6.0.buildspec) | [result](toolbox-0.6.0.buildinfo): [8 :white_check_mark: ](toolbox-0.6.0.buildcompare) | 8.7M |
