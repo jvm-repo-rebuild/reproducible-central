@@ -1,0 +1,11 @@
+version=2.0.0-M1
+ok=5
+ko=2
+ignored=1
+okFiles="commons-beanutils2-2.0.0-M1.pom commons-beanutils2-2.0.0-M1.jar commons-beanutils2-2.0.0-M1-tests.jar commons-beanutils2-2.0.0-M1-sources.jar commons-beanutils2-2.0.0-M1-test-sources.jar"
+koFiles="commons-beanutils2-2.0.0-M1-cyclonedx.xml commons-beanutils2-2.0.0-M1-cyclonedx.json"
+ignoredFiles="commons-beanutils2-2.0.0-M1.spdx.json"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.commons/commons-beanutils2-2.0.0-M1-cyclonedx.xml target/commons-beanutils2-2.0.0-M1-bom.xml
+# diffoscope target/reference/org.apache.commons/commons-beanutils2-2.0.0-M1-cyclonedx.json target/commons-beanutils2-2.0.0-M1-bom.json
