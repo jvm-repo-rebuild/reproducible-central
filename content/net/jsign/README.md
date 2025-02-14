@@ -25,6 +25,7 @@ rebuilding **4 releases** of net.jsign:jsign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [7.1](https://central.sonatype.com/artifact/net.jsign/jsign/7.1/pom) | | | |
 | [7.0](https://central.sonatype.com/artifact/net.jsign/jsign/7.0/pom) | [mvn jdk8 w](jsign-7.0.buildspec) | [result](jsign-parent-7.0.buildinfo): [22 :white_check_mark:  2 :warning:](jsign-parent-7.0.buildcompare) [:mag:](jsign-parent-7.0.diffoscope) | 3.2M |
 | [6.0](https://central.sonatype.com/artifact/net.jsign/jsign/6.0/pom) | [mvn jdk8 w](jsign-6.0.buildspec) | [result](jsign-parent-6.0.buildinfo): [19 :white_check_mark:  1 :warning:](jsign-parent-6.0.buildcompare) [:mag:](jsign-parent-6.0.diffoscope) [:memo:](https://github.com/wvengen/proguard-maven-plugin/issues/279) | 1.7M |
 | [5.0](https://central.sonatype.com/artifact/net.jsign/jsign/5.0/pom) | [mvn jdk8 w](jsign-5.0.buildspec) | [result](jsign-parent-5.0.buildinfo): [19 :white_check_mark:  1 :warning:](jsign-parent-5.0.buildcompare) [:mag:](jsign-parent-5.0.diffoscope) | 1.5M |

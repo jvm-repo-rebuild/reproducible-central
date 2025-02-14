@@ -27,6 +27,7 @@ rebuilding **9 releases** of org.apache.wss4j:wss4j:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.0](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/4.0.0/pom) | | | |
 | [3.0.4](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/3.0.4/pom) | [mvn jdk11](wss4j-3.0.4.buildspec) | [result](wss4j-3.0.4.buildinfo): [51 :white_check_mark: ](wss4j-3.0.4.buildcompare) | 6.8M |
 | [3.0.3](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/3.0.3/pom) | [mvn jdk11](wss4j-3.0.3.buildspec) | [result](wss4j-3.0.3.buildinfo): [52 :white_check_mark: ](wss4j-3.0.3.buildcompare) | 6.8M |
 | [3.0.2](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/3.0.2/pom) | [mvn jdk11](wss4j-3.0.2.buildspec) | [result](wss4j-3.0.2.buildinfo): [52 :white_check_mark: ](wss4j-3.0.2.buildcompare) | 6.7M |
