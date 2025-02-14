@@ -1,0 +1,9 @@
+version=6.0.0.Dev03
+ok=19
+ko=0
+ignored=0
+okFiles="parent-6.0.0.Dev03.pom protostream-6.0.0.Dev03.pom protostream-6.0.0.Dev03.jar protostream-6.0.0.Dev03-sources.jar protostream-6.0.0.Dev03-tests.jar protostream-processor-6.0.0.Dev03.pom protostream-processor-6.0.0.Dev03.jar protostream-processor-6.0.0.Dev03-sources.jar protostream-processor-6.0.0.Dev03-tests.jar protostream-types-6.0.0.Dev03.pom protostream-types-6.0.0.Dev03.jar protostream-types-6.0.0.Dev03-sources.jar protostream-integrationtests-6.0.0.Dev03.pom protostream-integrationtests-6.0.0.Dev03.jar protostream-integrationtests-6.0.0.Dev03-sources.jar proto-schema-compatibility-maven-plugin-6.0.0.Dev03.pom proto-schema-compatibility-maven-plugin-6.0.0.Dev03.jar proto-schema-compatibility-maven-plugin-6.0.0.Dev03-sources.jar protostream-aggregator-6.0.0.Dev03.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
