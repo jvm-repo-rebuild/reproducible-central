@@ -20,8 +20,8 @@ Source code: [https://github.com/maveniverse/mimir.git](https://github.com/maven
 * [eu.maveniverse.maven.mimir:mimir](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/overview)
 </details>
 
-rebuilding **7 releases** of eu.maveniverse.maven.mimir:mimir:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of eu.maveniverse.maven.mimir:mimir:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -29,7 +29,7 @@ rebuilding **7 releases** of eu.maveniverse.maven.mimir:mimir:
 | [0.3.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.3.4/pom) | [mvn jdk21](mimir-0.3.4.buildspec) | [result](mimir-0.3.4.buildinfo): [24 :white_check_mark: ](mimir-0.3.4.buildcompare) | 27M |
 | [0.3.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.3.3/pom) | | | |
 | [0.3.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.3.2/pom) | | | |
-| [0.3.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.3.1/pom) | | | |
+| [0.3.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.3.1/pom) | [mvn jdk21](mimir-0.3.1.buildspec) | [result](mimir-0.3.1.buildinfo): [24 :white_check_mark: ](mimir-0.3.1.buildcompare) | 27M |
 | [0.3.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.3.0/pom) | [mvn jdk21](mimir-0.3.0.buildspec) | [result](mimir-0.3.0.buildinfo): [24 :white_check_mark: ](mimir-0.3.0.buildcompare) | 27M |
 | [0.2.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.2.3/pom) | [mvn jdk21](mimir-0.2.3.buildspec) | [result](mimir-0.2.3.buildinfo): [19 :white_check_mark: ](mimir-0.2.3.buildcompare) | 9.8M |
 | [0.2.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.2.2/pom) | [mvn jdk21](mimir-0.2.2.buildspec) | [result](mimir-0.2.2.buildinfo): [19 :white_check_mark: ](mimir-0.2.2.buildcompare) | 9.8M |

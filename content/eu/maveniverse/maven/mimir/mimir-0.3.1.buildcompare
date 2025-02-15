@@ -1,0 +1,9 @@
+version=0.3.1
+ok=24
+ko=0
+ignored=0
+okFiles="mimir-0.3.1.pom core-0.3.1.pom core-0.3.1.jar core-0.3.1-sources.jar node-0.3.1.pom daemon-0.3.1.pom daemon-0.3.1.jar daemon-0.3.1-sources.jar file-0.3.1.pom file-0.3.1.jar file-0.3.1-sources.jar jgroups-0.3.1.pom jgroups-0.3.1.jar jgroups-0.3.1-sources.jar minio-0.3.1.pom minio-0.3.1.jar minio-0.3.1-sources.jar extension3-0.3.1.pom extension3-0.3.1.jar extension3-0.3.1-sources.jar daemon-0.3.1.pom daemon-0.3.1.jar daemon-0.3.1-sources.jar daemon-0.3.1-daemon.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
