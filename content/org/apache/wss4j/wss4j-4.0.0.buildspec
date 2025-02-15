@@ -1,0 +1,19 @@
+groupId=org.apache.wss4j
+artifactId=wss4j
+display=${groupId}:${artifactId}
+version=4.0.0
+
+gitRepo=https://github.com/apache/ws-${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=17
+newline=lf
+umask=022
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=
+issue=
