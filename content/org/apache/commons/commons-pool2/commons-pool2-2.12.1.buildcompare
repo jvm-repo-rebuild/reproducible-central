@@ -1,0 +1,9 @@
+version=2.12.1
+ok=7
+ko=0
+ignored=1
+okFiles="commons-pool2-2.12.1.pom commons-pool2-2.12.1.jar commons-pool2-2.12.1-tests.jar commons-pool2-2.12.1-sources.jar commons-pool2-2.12.1-test-sources.jar commons-pool2-2.12.1-cyclonedx.xml commons-pool2-2.12.1-cyclonedx.json"
+koFiles=""
+ignoredFiles="commons-pool2-2.12.1.spdx.json"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
