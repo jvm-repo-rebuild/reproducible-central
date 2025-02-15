@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/spotbugs/spotbugs-maven-plugin.git](https://github.com/spotbugs/spotbugs-maven-plugin.git)
 
-rebuilding **27 releases** of com.github.spotbugs:spotbugs-maven-plugin:
-- **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **28 releases** of com.github.spotbugs:spotbugs-maven-plugin:
+- **28** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.9.1.0](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.9.1.0/pom) | | | |
+| [4.9.1.0](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.9.1.0/pom) | [mvn jdk21 w](spotbugs-maven-plugin-4.9.1.0.buildspec) | [result](spotbugs-maven-plugin-4.9.1.0.buildinfo): [5 :white_check_mark: ](spotbugs-maven-plugin-4.9.1.0.buildcompare) | 824K |
 | [4.9.0.0](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.9.0.0/pom) | | | |
 | [4.8.6.6](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.8.6.6/pom) | [mvn jdk22 w](spotbugs-maven-plugin-4.8.6.6.buildspec) | [result](spotbugs-maven-plugin-4.8.6.6.buildinfo): [5 :white_check_mark: ](spotbugs-maven-plugin-4.8.6.6.buildcompare) | 815K |
 | [4.8.6.5](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.8.6.5/pom) | [mvn jdk22 w](spotbugs-maven-plugin-4.8.6.5.buildspec) | [result](spotbugs-maven-plugin-4.8.6.5.buildinfo): [5 :white_check_mark: ](spotbugs-maven-plugin-4.8.6.5.buildcompare) | 815K |
