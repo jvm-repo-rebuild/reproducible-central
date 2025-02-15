@@ -1,0 +1,9 @@
+version=5.0.0
+ok=7
+ko=0
+ignored=1
+okFiles="commons-skin-5.0.0.pom commons-skin-5.0.0.jar commons-skin-5.0.0-tests.jar commons-skin-5.0.0-sources.jar commons-skin-5.0.0-test-sources.jar commons-skin-5.0.0-cyclonedx.xml commons-skin-5.0.0-cyclonedx.json"
+koFiles=""
+ignoredFiles="commons-skin-5.0.0.spdx.json"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
