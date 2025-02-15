@@ -13,6 +13,6 @@ rebuilding **1 releases** of org.apache.commons:commons-beanutils2:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0.0-M1](https://central.sonatype.com/artifact/org.apache.commons/commons-beanutils2/2.0.0-M1/pom) | [mvn jdk21](commons-beanutils2-2.0.0-M1.buildspec) | [result](commons-beanutils2-2.0.0-M1.buildinfo): [5 :white_check_mark:  2 :warning:](commons-beanutils2-2.0.0-M1.buildcompare) | 1.3M |
+| [2.0.0-M1](https://central.sonatype.com/artifact/org.apache.commons/commons-beanutils2/2.0.0-M1/pom) | [mvn jdk21](commons-beanutils2-2.0.0-M1.buildspec) | [result](commons-beanutils2-2.0.0-M1.buildinfo): [5 :white_check_mark:  2 :warning:](commons-beanutils2-2.0.0-M1.buildcompare) [:mag:](commons-beanutils2-2.0.0-M1.diffoscope) [:memo:](https://lists.apache.org/thread/5m2sq74rqyws91onxmk77jty239qtfd8) | 1.3M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

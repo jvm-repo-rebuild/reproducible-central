@@ -14,5 +14,5 @@ newline=lf
 command="mvn clean verify -DskipTests -Dgpg.skip -Dmaven.javadoc.skip -Dbuildinfo.ignore='*/*.spdx.json'"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
-issue=
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://lists.apache.org/thread/5m2sq74rqyws91onxmk77jty239qtfd8
