@@ -1,0 +1,9 @@
+version=1.5.3
+ok=30
+ko=0
+ignored=0
+okFiles="jena-kafka-1.5.3.pom jena-kafka-1.5.3-tests.jar jena-kafka-1.5.3-cyclonedx.xml jena-kafka-1.5.3-cyclonedx.json jena-kafka-connector-1.5.3.pom jena-kafka-connector-1.5.3.jar jena-kafka-connector-1.5.3-tests.jar jena-kafka-connector-1.5.3-sources.jar jena-kafka-connector-1.5.3-test-sources.jar jena-kafka-connector-1.5.3-cyclonedx.xml jena-kafka-connector-1.5.3-cyclonedx.json jena-fuseki-kafka-module-1.5.3.pom jena-fuseki-kafka-module-1.5.3.jar jena-fuseki-kafka-module-1.5.3-tests.jar jena-fuseki-kafka-module-1.5.3-sources.jar jena-fuseki-kafka-module-1.5.3-test-sources.jar jena-fuseki-kafka-module-1.5.3-cyclonedx.xml jena-fuseki-kafka-module-1.5.3-cyclonedx.json jena-kafka-client-1.5.3.pom jena-kafka-client-1.5.3.jar jena-kafka-client-1.5.3-tests.jar jena-kafka-client-1.5.3-sources.jar jena-kafka-client-1.5.3-cyclonedx.xml jena-kafka-client-1.5.3-cyclonedx.json jena-fmod-kafka-1.5.3.pom jena-fmod-kafka-1.5.3.jar jena-fmod-kafka-1.5.3-tests.jar jena-fmod-kafka-1.5.3-sources.jar jena-fmod-kafka-1.5.3-cyclonedx.xml jena-fmod-kafka-1.5.3-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
