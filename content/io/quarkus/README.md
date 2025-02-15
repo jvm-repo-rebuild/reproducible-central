@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quarkusio/quarkus.git)
 
-<details><summary>This project defines 1023 modules:</summary>
+<details><summary>This project defines 1030 modules:</summary>
 
 * [io.quarkus.arc:arc](https://central.sonatype.com/artifact/io.quarkus.arc/arc/overview)
 * [io.quarkus.arc:arc-arquillian](https://central.sonatype.com/artifact/io.quarkus.arc/arc-arquillian/overview)
@@ -508,6 +508,9 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-messaging-rabbitmq-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-messaging-rabbitmq-parent/overview)
 * [io.quarkus:quarkus-micrometer](https://central.sonatype.com/artifact/io.quarkus/quarkus-micrometer/overview)
 * [io.quarkus:quarkus-micrometer-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-micrometer-deployment/overview)
+* [io.quarkus:quarkus-micrometer-opentelemetry](https://central.sonatype.com/artifact/io.quarkus/quarkus-micrometer-opentelemetry/overview)
+* [io.quarkus:quarkus-micrometer-opentelemetry-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-micrometer-opentelemetry-deployment/overview)
+* [io.quarkus:quarkus-micrometer-opentelemetry-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-micrometer-opentelemetry-parent/overview)
 * [io.quarkus:quarkus-micrometer-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-micrometer-parent/overview)
 * [io.quarkus:quarkus-micrometer-registry-prometheus](https://central.sonatype.com/artifact/io.quarkus/quarkus-micrometer-registry-prometheus/overview)
 * [io.quarkus:quarkus-micrometer-registry-prometheus-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-micrometer-registry-prometheus-deployment/overview)
@@ -588,6 +591,9 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-oidc-redis-token-state-manager-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-redis-token-state-manager-deployment/overview)
 * [io.quarkus:quarkus-oidc-redis-token-state-manager-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-redis-token-state-manager-parent/overview)
 * [io.quarkus:quarkus-oidc-token-propagation](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-token-propagation/overview)
+* [io.quarkus:quarkus-oidc-token-propagation-common](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-token-propagation-common/overview)
+* [io.quarkus:quarkus-oidc-token-propagation-common-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-token-propagation-common-deployment/overview)
+* [io.quarkus:quarkus-oidc-token-propagation-common-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-token-propagation-common-parent/overview)
 * [io.quarkus:quarkus-oidc-token-propagation-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-token-propagation-deployment/overview)
 * [io.quarkus:quarkus-oidc-token-propagation-reactive](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-token-propagation-reactive/overview)
 * [io.quarkus:quarkus-oidc-token-propagation-reactive-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-oidc-token-propagation-reactive-deployment/overview)
@@ -974,6 +980,7 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-test-ldap](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-ldap/overview)
 * [io.quarkus:quarkus-test-maven](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-maven/overview)
 * [io.quarkus:quarkus-test-mongodb](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-mongodb/overview)
+* [io.quarkus:quarkus-test-observability](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-observability/overview)
 * [io.quarkus:quarkus-test-oidc-server](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-oidc-server/overview)
 * [io.quarkus:quarkus-test-openshift-client](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-openshift-client/overview)
 * [io.quarkus:quarkus-test-security](https://central.sonatype.com/artifact/io.quarkus/quarkus-test-security/overview)
@@ -1034,13 +1041,13 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **58 releases** of io.quarkus:quarkus-project:
+rebuilding **59 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 58 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 59 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.19.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.19.0.CR1/pom) | | | |
+| [3.19.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.19.0.CR1/pom) | [mvn jdk17](quarkus-3.19.0.CR1.buildspec) | [result](quarkus-project-3.19.0.CR1.buildinfo): [2243 :white_check_mark:  7 :warning:](quarkus-project-3.19.0.CR1.buildcompare) [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | 131M |
 | [3.18.3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.18.3/pom) | | | |
 | [3.18.2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.18.2/pom) | [mvn jdk17](quarkus-3.18.2.buildspec) | [result](quarkus-project-3.18.2.buildinfo): [2226 :white_check_mark:  7 :warning:](quarkus-project-3.18.2.buildcompare) [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | 130M |
 | [3.18.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.18.1/pom) | [mvn jdk17](quarkus-3.18.1.buildspec) | [result](quarkus-project-3.18.1.buildinfo): [2226 :white_check_mark:  7 :warning:](quarkus-project-3.18.1.buildcompare) [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | 130M |
