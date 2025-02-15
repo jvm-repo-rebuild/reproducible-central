@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=WinRM Java Client
+group-id=org.sentrysoftware
+artifact-id=winrm
+version=1.1.00
+
+# source information
+source.scm.uri=scm:git:https://github.com/sentrysoftware/winrm.git
+source.scm.tag=v1.1.00
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.sentrysoftware
+outputs.0.filename=winrm-1.1.00.pom
+outputs.0.length=4815
+outputs.0.checksums.sha512=c89dc9261e06d5d7ac24acec91499e0478cee7320458f14a88971503891e1771120a34e4a5cfe1e63b5fce9b4ed2b122cd92d3765fde46a4b3010e1f91adb95e
+
+outputs.1.groupId=org.sentrysoftware
+outputs.1.filename=winrm-1.1.00.jar
+outputs.1.length=225882
+outputs.1.checksums.sha512=fac350e2418149a8f4be765ea3399566f36bfb5c16bb57b746b851e0bd57eef0fde10857c3a8aaf862de827cdac67e736e592d9233e5bf41ea513da1e15b63e7
+
+outputs.2.groupId=org.sentrysoftware
+outputs.2.filename=winrm-1.1.00-sources.jar
+outputs.2.length=202497
+outputs.2.checksums.sha512=6d08f90c70488709c068561acd0b4da700b18ee907768d83187e41bac326f3c92bce447c02face156ae58f581e19d0d83207cd79a5f8e025b268cbb495b09574
