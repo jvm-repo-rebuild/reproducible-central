@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SNMP Java Client
+group-id=org.sentrysoftware
+artifact-id=snmp
+version=2.0.00
+
+# source information
+source.scm.uri=scm:git:https://github.com/sentrysoftware/snmp.git
+source.scm.tag=v2.0.00
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.sentrysoftware
+outputs.0.filename=snmp-2.0.00.pom
+outputs.0.length=3659
+outputs.0.checksums.sha512=93461c14ec59a75c304a7df0695a128d0e0c862d731903fa4d12dc3c0585aa32b707b100030145e722bb2a8a571664d728e5d9422fff4f80006131b496a93f8b
+
+outputs.1.groupId=org.sentrysoftware
+outputs.1.filename=snmp-2.0.00.jar
+outputs.1.length=294111
+outputs.1.checksums.sha512=feeee74a650f7c9240a9bf3e648952951fa91bb712ba611194f52e17e402bb96dc717991101d60426d5813c36346ba61d47ac82e802aec4fce4749b2a61f786c
+
+outputs.2.groupId=org.sentrysoftware
+outputs.2.filename=snmp-2.0.00-sources.jar
+outputs.2.length=365813
+outputs.2.checksums.sha512=36698230303341a3c922ebd3d7e8d68afa8ddfd9a3980026955299952a685159f1543ebafb28bfa4a76c674132c872da0b8b643eeda7244f44bb698327ca2ef8
