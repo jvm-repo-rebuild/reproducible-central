@@ -1,0 +1,22 @@
+groupId=org.apache.camel
+artifactId=camel
+version=4.10.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+#sourceDistribution=https://archive.apache.org/dist/camel//apache-camel/${version}/apache-camel-${version}-src.zip
+#sourcePath=apache-camel-${version}
+#sourceRmFiles=
+
+tool=mvn-3.9.9
+jdk=21
+newline=lf
+umask=022
+
+command="mvn -Prelease,fastinstall,hibernate clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
