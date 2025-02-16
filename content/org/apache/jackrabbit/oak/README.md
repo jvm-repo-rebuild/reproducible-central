@@ -50,12 +50,13 @@ Source code: [https://github.com/apache/jackrabbit-oak.git](https://github.com/a
 * [org.apache.jackrabbit:oak-upgrade](https://central.sonatype.com/artifact/org.apache.jackrabbit/oak-upgrade/overview)
 </details>
 
-rebuilding **8 releases** of org.apache.jackrabbit:jackrabbit-oak:
+rebuilding **9 releases** of org.apache.jackrabbit:jackrabbit-oak:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.76.0](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-oak/1.76.0/pom) | [mvn jdk11](jackrabbit-oak-1.76.0.buildspec) | [result](jackrabbit-oak-1.76.0.buildinfo): [148 :white_check_mark:  2 :warning:](jackrabbit-oak-1.76.0.buildcompare) [:memo:](https://issues.apache.org/jira/browse/OAK-10662) | 353M |
 | [1.74.0](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-oak/1.74.0/pom) | [mvn jdk11](jackrabbit-oak-1.74.0.buildspec) | [result](jackrabbit-oak-1.74.0.buildinfo): [148 :white_check_mark:  2 :warning:](jackrabbit-oak-1.74.0.buildcompare) [:mag:](jackrabbit-oak-1.74.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/OAK-10662) | 353M |
 | [1.72.0](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-oak/1.72.0/pom) | [mvn jdk11](jackrabbit-oak-1.72.0.buildspec) | [result](jackrabbit-oak-1.72.0.buildinfo): [144 :white_check_mark:  6 :warning:](jackrabbit-oak-1.72.0.buildcompare) [:memo:](https://issues.apache.org/jira/browse/OAK-10662) | 354M |
 | [1.70.0](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-oak/1.70.0/pom) | [mvn jdk11](jackrabbit-oak-1.70.0.buildspec) | [result](jackrabbit-oak-1.70.0.buildinfo): [144 :white_check_mark:  6 :warning:](jackrabbit-oak-1.70.0.buildcompare) [:memo:](https://issues.apache.org/jira/browse/OAK-10662) | 353M |

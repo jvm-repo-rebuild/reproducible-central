@@ -1,0 +1,18 @@
+groupId=eu.maveniverse.maven.mimir
+artifactId=mimir
+display=eu.maveniverse.maven.*:${artifactId}
+version=0.2.0
+
+gitRepo=https://github.com/maveniverse/${artifactId}.git
+gitTag=release-${version}
+
+tool=mvn-3.9.1
+jdk=21
+newline=lf
+umask=022
+
+command="mvn -Pmaveniverse-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Denforcer.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=

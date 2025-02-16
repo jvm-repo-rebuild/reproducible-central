@@ -1,0 +1,20 @@
+groupId=net.jsign
+artifactId=jsign
+version=7.1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/ebourg/${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=8
+newline=crlf-nogit
+umask=022
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-parent-${version}.buildinfo
+
+#diffoscope=${artifactId}-parent-${version}.diffoscope
+issue=

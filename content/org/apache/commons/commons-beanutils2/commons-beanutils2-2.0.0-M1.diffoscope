@@ -1,0 +1,104 @@
+# release manager had a non-official commons-collections4 jar in his local repository:
+# worked with Commons project to change their release instructions
+1 / 2 target/reference/org.apache.commons/commons-beanutils2-2.0.0-M1-cyclonedx.xml target/commons-beanutils2-2.0.0-M1-bom.xml
+--- target/reference/org.apache.commons/commons-beanutils2-2.0.0-M1-cyclonedx.xml
++++ target/commons-beanutils2-2.0.0-M1-bom.xml
+│   --- target/reference/org.apache.commons/commons-beanutils2-2.0.0-M1-cyclonedx.xml
+├── +++ target/commons-beanutils2-2.0.0-M1-bom.xml
+│ @@ -171,22 +171,22 @@
+│        <publisher>The Apache Software Foundation</publisher>
+│        <group>org.apache.commons</group>
+│        <name>commons-collections4</name>
+│        <version>4.5.0-M3</version>
+│        <description>The Apache Commons Collections package contains types that extend and augment the Java Collections Framework.</description>
+│        <scope>required</scope>
+│        <hashes>
+│ -        <hash alg="MD5">fc93b02eaae0cf3a9beb83b67b02207f</hash>
+│ -        <hash alg="SHA-1">63960d450e5551e15ffa359cb79085e3c4c1efa7</hash>
+│ -        <hash alg="SHA-256">183bb672706afc2df6a0ac7677e18696ed38af6195ec0fab1bc10e9448e408c0</hash>
+│ -        <hash alg="SHA-512">dac072f4d8713b34fe5a96f2d1456a11fb1ab109ce0807455431b781ee73d5d0cd42d6639048c11dfcf908989a68127d746a41ab83c05d30a631953d20dffede</hash>
+│ -        <hash alg="SHA-384">5f677268451949c7c318a9e7743b47e5b1548c8d5636da718840979406c66eb01b85dcef2c810cfa90a52763d30b5ce9</hash>
+│ -        <hash alg="SHA3-384">97f52a4733a1c1432279e688bd53f11a6450ebd1c8c5a8f96accd89189512e1c62ab2943ed3393e3e43deb27d8b757fd</hash>
+│ -        <hash alg="SHA3-256">ee6c8e6091147c07be380047f3df7b053269e4491571cbcb6334c82bc4368326</hash>
+│ -        <hash alg="SHA3-512">79fe3982d93752b4d9913751c39adf745caf97690e7962c465584651a79b2407889234f9e33799faefe759048d38cf7feca55dc9da804663a99f0ad6b5990a86</hash>
+│ +        <hash alg="MD5">357f51207137d5e53cfe363c0feed77f</hash>
+│ +        <hash alg="SHA-1">f1628527ce15709f5a0a521a2bcb2455682f7577</hash>
+│ +        <hash alg="SHA-256">2719966979cdc68fadf5e0ec17050084ce46473930d9419ae1b65890dc094349</hash>
+│ +        <hash alg="SHA-512">1b76c15d46a56bd4c9ee43e934065e05feb8b118367f88984c4f3c504760f39580174bcb7026e4ae6dfcffe4ca0c8e620eb1a559bbdbf60bb2e0d3d0af332155</hash>
+│ +        <hash alg="SHA-384">e9f5795d602502c151217a4df24b2fcdf83f9bb0c6b3af3cedf73d3f02a98e59039faf52cecd828561f2b4a853080410</hash>
+│ +        <hash alg="SHA3-384">482bc131c31ad162a3fd9b61fd0009528af917a4526891a4a6ab6408964e4a0c72224b6c667ffdb6369848338f9a5ff4</hash>
+│ +        <hash alg="SHA3-256">f7a59f81fd8a1e2725bff717fd7c9596c26caa68cdb1ea88589069bcd9781e02</hash>
+│ +        <hash alg="SHA3-512">a134bf7926976176d55e6b89e7bd0b4c5d46ba4cdc8a5ab663ed54eaeccab52699f138b5a369b917c09c9c9d312470bc81d0a6199bb1e8b9e5d83d6e42d20031</hash>
+│        </hashes>
+│        <licenses>
+│          <license>
+│            <id>Apache-2.0</id>
+│            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+│          </license>
+│        </licenses>
+
+2 / 2 target/reference/org.apache.commons/commons-beanutils2-2.0.0-M1-cyclonedx.json target/commons-beanutils2-2.0.0-M1-bom.json
+--- target/reference/org.apache.commons/commons-beanutils2-2.0.0-M1-cyclonedx.json
++++ target/commons-beanutils2-2.0.0-M1-bom.json
+├── Pretty-printed
+│┄ Similarity: 0.9997519841269842%
+│┄ Differences: {"'components'": "{2: {'hashes': {0: {'content': '357f51207137d5e53cfe363c0feed77f'}, 1: "
+│┄                  "{'content': 'f1628527ce15709f5a0a521a2bcb2455682f7577'}, 2: {'content': "
+│┄                  "'2719966979cdc68fadf5e0ec17050084ce46473930d9419ae1b65890dc094349'}, 3: "
+│┄                  "{'content': "
+│┄                  "'1b76c15d46a56bd4c9ee43e934065e05feb8b118367f88984c4f3c504760f39580174bcb7026e4ae6dfcffe4ca0c8e620eb1a559bbdbf60bb2e0d3d0af332155'}, "
+│┄                  "4: {'content': "
+│┄                   […]
+│ @@ -188,43 +188,43 @@
+│                      "url": "https://gitbox.apache.org/repos/asf?p=commons-collections.git"
+│                  }
+│              ],
+│              "group": "org.apache.commons",
+│              "hashes": [
+│                  {
+│                      "alg": "MD5",
+│ -                    "content": "fc93b02eaae0cf3a9beb83b67b02207f"
+│ +                    "content": "357f51207137d5e53cfe363c0feed77f"
+│                  },
+│                  {
+│                      "alg": "SHA-1",
+│ -                    "content": "63960d450e5551e15ffa359cb79085e3c4c1efa7"
+│ +                    "content": "f1628527ce15709f5a0a521a2bcb2455682f7577"
+│                  },
+│                  {
+│                      "alg": "SHA-256",
+│ -                    "content": "183bb672706afc2df6a0ac7677e18696ed38af6195ec0fab1bc10e9448e408c0"
+│ +                    "content": "2719966979cdc68fadf5e0ec17050084ce46473930d9419ae1b65890dc094349"
+│                  },
+│                  {
+│                      "alg": "SHA-512",
+│ -                    "content": "dac072f4d8713b34fe5a96f2d1456a11fb1ab109ce0807455431b781ee73d5d0cd42d6639048c11dfcf908989a68127d746a41ab83c05d30a631953d20dffede"
+│ +                    "content": "1b76c15d46a56bd4c9ee43e934065e05feb8b118367f88984c4f3c504760f39580174bcb7026e4ae6dfcffe4ca0c8e620eb1a559bbdbf60bb2e0d3d0af332155"
+│                  },
+│                  {
+│                      "alg": "SHA-384",
+│ -                    "content": "5f677268451949c7c318a9e7743b47e5b1548c8d5636da718840979406c66eb01b85dcef2c810cfa90a52763d30b5ce9"
+│ +                    "content": "e9f5795d602502c151217a4df24b2fcdf83f9bb0c6b3af3cedf73d3f02a98e59039faf52cecd828561f2b4a853080410"
+│                  },
+│                  {
+│                      "alg": "SHA3-384",
+│ -                    "content": "97f52a4733a1c1432279e688bd53f11a6450ebd1c8c5a8f96accd89189512e1c62ab2943ed3393e3e43deb27d8b757fd"
+│ +                    "content": "482bc131c31ad162a3fd9b61fd0009528af917a4526891a4a6ab6408964e4a0c72224b6c667ffdb6369848338f9a5ff4"
+│                  },
+│                  {
+│                      "alg": "SHA3-256",
+│ -                    "content": "ee6c8e6091147c07be380047f3df7b053269e4491571cbcb6334c82bc4368326"
+│ +                    "content": "f7a59f81fd8a1e2725bff717fd7c9596c26caa68cdb1ea88589069bcd9781e02"
+│                  },
+│                  {
+│                      "alg": "SHA3-512",
+│ -                    "content": "79fe3982d93752b4d9913751c39adf745caf97690e7962c465584651a79b2407889234f9e33799faefe759048d38cf7feca55dc9da804663a99f0ad6b5990a86"
+│ +                    "content": "a134bf7926976176d55e6b89e7bd0b4c5d46ba4cdc8a5ab663ed54eaeccab52699f138b5a369b917c09c9c9d312470bc81d0a6199bb1e8b9e5d83d6e42d20031"
+│                  }
+│              ],
+│              "licenses": [
+│                  {
+│                      "license": {
+│                          "id": "Apache-2.0",
+│                          "url": "https://www.apache.org/licenses/LICENSE-2.0"
+

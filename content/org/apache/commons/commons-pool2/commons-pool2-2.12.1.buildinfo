@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Pool
+group-id=org.apache.commons
+artifact-id=commons-pool2
+version=2.12.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-pool.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-pool2-2.12.1.pom
+outputs.0.length=15748
+outputs.0.checksums.sha512=83765fdaecf4b3a932248ab1b652f85abb433945cc6c52d0545d7c84efc04cccf0f768495059ac5a51dd8abff9c27f8a32320b105e758a0f560d1a2d84707a46
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-pool2-2.12.1.jar
+outputs.1.length=152289
+outputs.1.checksums.sha512=186dabefa07a38cc106e5aca3fcec6d2d8c79fc2787d448632c24a61cad3574c53809895f85181ba097012b60a86116eec22ae3ab4c6e47ac7dddac00a0b71a7
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-pool2-2.12.1-tests.jar
+outputs.2.length=267500
+outputs.2.checksums.sha512=790cd2edf2af7732c2c6443a9a888d1f5a268d7f7b9f0d2b991335b0280ef49e07509c90674357ee89b51bc4735713039d084745f90098899af7eab649716f66
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-pool2-2.12.1-sources.jar
+outputs.3.length=145757
+outputs.3.checksums.sha512=8ece356dc3e4f435d562c87d3fcd9080fd2ec8e7ba28df18b055e7f54a28f612626f007b447b35cc65c3dc77036507d91cd1394f468bc9ad66fcd85111058042
+
+outputs.4.groupId=org.apache.commons
+outputs.4.filename=commons-pool2-2.12.1-test-sources.jar
+outputs.4.length=149079
+outputs.4.checksums.sha512=9b7c45749655c23fc4116ffb0a93f8f5261d66d53ae44fb4d43071961e0c83e963a1d1ec90d4e8ca1e85107ca454548bede99e5d693e20a63644baa4e8396419
+
+outputs.5.groupId=org.apache.commons
+outputs.5.filename=commons-pool2-2.12.1-cyclonedx.xml
+outputs.5.length=15441
+outputs.5.checksums.sha512=97fb9114ba6c507f094fa8bc96f34a314ff68320d7113634e21e2687be8b13ee053bbf3b8da83de3f6ba5f1366398ce8f8b18b5e253e329f0a9174bd54da3f96
+
+outputs.6.groupId=org.apache.commons
+outputs.6.filename=commons-pool2-2.12.1-cyclonedx.json
+outputs.6.length=17034
+outputs.6.checksums.sha512=365460af3c2bf33eec17604e5b41bb98333eed8a9699f5335546f66938b3fefe8262e6c74cfbac4ab99b22643e9077addd070da79ee8728e99f5bea226621431
+# ignored commons-pool2-2.12.1.spdx.json

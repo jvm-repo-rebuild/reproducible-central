@@ -62,20 +62,20 @@ Source code: [https://github.com/apache/paimon.git](https://github.com/apache/pa
 * [org.apache.paimon:paimon-test-utils](https://central.sonatype.com/artifact/org.apache.paimon/paimon-test-utils/overview)
 </details>
 
-rebuilding **5 releases** of org.apache.paimon:paimon-parent:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+rebuilding **9 releases** of org.apache.paimon:paimon-parent:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.0.1](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/1.0.1/pom) | | | |
+| [1.0.1](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/1.0.1/pom) | [mvn jdk8](paimon-parent-1.0.1.buildspec) | [result](paimon-parent-1.0.1.buildinfo): [139 :white_check_mark: ](paimon-parent-1.0.1.buildcompare) | 994M |
 | [1.0.0](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/1.0.0/pom) | [mvn jdk8](paimon-parent-1.0.0.buildspec) | [result](paimon-parent-1.0.0.buildinfo): [96 :white_check_mark:  43 :warning:](paimon-parent-1.0.0.buildcompare) [:mag:](paimon-parent-1.0.0.diffoscope) | 992M |
 | [0.9.0](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/0.9.0/pom) | [mvn jdk8](paimon-parent-0.9.0.buildspec) | [result](paimon-parent-0.9.0.buildinfo): [81 :white_check_mark:  51 :warning:](paimon-parent-0.9.0.buildcompare) [:mag:](paimon-parent-0.9.0.diffoscope) [:memo:](https://github.com/apache/paimon/pull/4190) | 983M |
 | [0.8.2](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/0.8.2/pom) | [mvn jdk8](paimon-parent-0.8.2.buildspec) | [result](paimon-parent-0.8.2.buildinfo): [43 :white_check_mark:  83 :warning:](paimon-parent-0.8.2.buildcompare) [:mag:](paimon-parent-0.8.2.diffoscope) [:memo:](https://github.com/apache/paimon/pull/3719) | 917M |
 | [0.8.1](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/0.8.1/pom) | [mvn jdk8](paimon-parent-0.8.1.buildspec) | [result](paimon-parent-0.8.1.buildinfo): [43 :white_check_mark:  83 :warning:](paimon-parent-0.8.1.buildcompare) [:memo:](https://github.com/apache/paimon/pull/3719) | 917M |
-| [0.8.0](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/0.8.0/pom) | | | |
-| [0.7.0-incubating](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/0.7.0-incubating/pom) | | | |
-| [0.6.1-incubating](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/0.6.1-incubating/pom) | | | |
+| [0.8.0](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/0.8.0/pom) | [mvn jdk8](paimon-parent-0.8.0.buildspec) | [result](paimon-parent-0.8.0.buildinfo): [43 :white_check_mark:  83 :warning:](paimon-parent-0.8.0.buildcompare) | 901M |
+| [0.7.0-incubating](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/0.7.0-incubating/pom) | [mvn jdk8](paimon-parent-0.7.0-incubating.buildspec) | [result](paimon-parent-0.7.0-incubating.buildinfo): [44 :white_check_mark:  84 :warning:](paimon-parent-0.7.0-incubating.buildcompare) | 889M |
+| [0.6.1-incubating](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/0.6.1-incubating/pom) | [mvn jdk8](paimon-parent-0.6.1-incubating.buildspec) | [result](paimon-parent-0.6.1-incubating.buildinfo): [40 :white_check_mark:  80 :warning:](paimon-parent-0.6.1-incubating.buildcompare) | 885M |
 | [0.6.0-incubating](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/0.6.0-incubating/pom) | [mvn jdk8](paimon-parent-0.6.0-incubating.buildspec) | [result](paimon-parent-0.6.0-incubating.buildinfo): [23 :white_check_mark:  96 :warning:](paimon-parent-0.6.0-incubating.buildcompare) [:memo:](https://github.com/apache/incubator-paimon/pull/2519) | 884M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

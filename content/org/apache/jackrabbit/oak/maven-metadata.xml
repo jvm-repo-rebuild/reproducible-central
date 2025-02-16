@@ -3,8 +3,8 @@
   <groupId>org.apache.jackrabbit</groupId>
   <artifactId>oak-parent</artifactId>
   <versioning>
-    <latest>1.74.0</latest>
-    <release>1.74.0</release>
+    <latest>1.76.0</latest>
+    <release>1.76.0</release>
     <versions>
       <version>0.1</version>
       <version>0.2.1</version>
@@ -311,7 +311,8 @@
       <version>1.70.0</version>
       <version>1.72.0</version>
       <version>1.74.0</version>
+      <version>1.76.0</version>
     </versions>
-    <lastUpdated>20250116074622</lastUpdated>
+    <lastUpdated>20250213063710</lastUpdated>
   </versioning>
 </metadata>

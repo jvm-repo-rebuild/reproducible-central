@@ -3,13 +3,14 @@
   <groupId>org.sentrysoftware</groupId>
   <artifactId>ipmi</artifactId>
   <versioning>
-    <latest>1.1.00</latest>
-    <release>1.1.00</release>
+    <latest>1.2.00</latest>
+    <release>1.2.00</release>
     <versions>
       <version>1.0.00</version>
       <version>1.0.01</version>
       <version>1.1.00</version>
+      <version>1.2.00</version>
     </versions>
-    <lastUpdated>20240607151655</lastUpdated>
+    <lastUpdated>20250211093931</lastUpdated>
   </versioning>
 </metadata>
