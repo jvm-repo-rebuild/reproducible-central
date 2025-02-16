@@ -1,0 +1,71 @@
+# in addition to build failed because could not resolve org.hibernate:hibernate-core-jakarta:jar:6.3.2.Final that has been relocated to org.hibernate.orm:hibernate-core-jakarta:jar:6.3.2.Final
+# systematic issue on every *.jar with filesystem executable flag (Windows mount?)
+1 / ... diffoscope buildingtools/target/reference/org.apache.camel/camel-buildtools-4.9.0.jar buildingtools/target/camel-buildtools-4.9.0.jar
+--- buildingtools/target/reference/org.apache.camel/camel-buildtools-4.9.0.jar
++++ buildingtools/target/camel-buildtools-4.9.0.jar
+├── zipinfo {}
+│ @@ -1,18 +1,18 @@
+│  Zip file size: 17343 bytes, number of entries: 16
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Nov-29 18:51 META-INF/
+│  -rw-r--r--  2.0 unx      334 b- defN 24-Nov-29 18:51 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Nov-29 18:51 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Nov-29 18:51 META-INF/maven/org.apache.camel/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Nov-29 18:51 META-INF/maven/org.apache.camel/camel-buildtools/
+│ --rwx--x--x  2.0 unx    11358 b- defN 24-Nov-29 18:51 META-INF/LICENSE
+│ --rwx--x--x  2.0 unx     3751 b- defN 24-Nov-29 18:51 META-INF/NOTICE
+│ --rwx--x--x  2.0 unx    42099 b- defN 24-Nov-29 18:51 camel-eclipse-formatter-config.xml
+│ --rwx--x--x  2.0 unx      927 b- defN 24-Nov-29 18:51 camel-eclipse-pmd
+│ --rwx--x--x  2.0 unx    11851 b- defN 24-Nov-29 18:51 camel-pmd-ruleset.xml
+│ --rwx--x--x  2.0 unx      756 b- defN 24-Nov-29 18:51 header.txt
+│ --rwx--x--x  2.0 unx     1607 b- defN 24-Nov-29 18:51 ldif-properties-headerdefinition.xml
+│ --rwx--x--x  2.0 unx     1448 b- defN 24-Nov-29 18:51 license-properties-headerdefinition.xml
+│ --rwx--x--x  2.0 unx     6229 b- defN 24-Nov-29 18:51 notice-supplements.xml
+│ --rwx--x--x  2.0 unx     1723 b- defN 24-Nov-29 18:51 META-INF/maven/org.apache.camel/camel-buildtools/pom.xml
+│ --rwx--x--x  2.0 unx       67 b- defN 24-Nov-29 18:51 META-INF/maven/org.apache.camel/camel-buildtools/pom.properties
+│ +-rw-r--r--  2.0 unx    11358 b- defN 24-Nov-29 18:51 META-INF/LICENSE
+│ +-rw-r--r--  2.0 unx     3751 b- defN 24-Nov-29 18:51 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx    42099 b- defN 24-Nov-29 18:51 camel-eclipse-formatter-config.xml
+│ +-rw-r--r--  2.0 unx      927 b- defN 24-Nov-29 18:51 camel-eclipse-pmd
+│ +-rw-r--r--  2.0 unx    11851 b- defN 24-Nov-29 18:51 camel-pmd-ruleset.xml
+│ +-rw-r--r--  2.0 unx      756 b- defN 24-Nov-29 18:51 header.txt
+│ +-rw-r--r--  2.0 unx     1607 b- defN 24-Nov-29 18:51 ldif-properties-headerdefinition.xml
+│ +-rw-r--r--  2.0 unx     1448 b- defN 24-Nov-29 18:51 license-properties-headerdefinition.xml
+│ +-rw-r--r--  2.0 unx     6229 b- defN 24-Nov-29 18:51 notice-supplements.xml
+│ +-rw-r--r--  2.0 unx     1723 b- defN 24-Nov-29 18:51 META-INF/maven/org.apache.camel/camel-buildtools/pom.xml
+│ +-rw-r--r--  2.0 unx       67 b- defN 24-Nov-29 18:51 META-INF/maven/org.apache.camel/camel-buildtools/pom.properties
+│  16 files, 82150 bytes uncompressed, 15197 bytes compressed:  81.5%
+
+2 / ... diffoscope buildingtools/target/reference/org.apache.camel/camel-buildtools-4.9.0-sources.jar buildingtools/target/camel-buildtools-4.9.0-sources.jar
+--- buildingtools/target/reference/org.apache.camel/camel-buildtools-4.9.0-sources.jar
++++ buildingtools/target/camel-buildtools-4.9.0-sources.jar
+├── zipinfo {}
+│ @@ -1,18 +1,18 @@
+│  Zip file size: 17237 bytes, number of entries: 16
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Nov-29 18:51 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Nov-29 18:51 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Nov-29 18:51 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Nov-29 18:51 META-INF/maven/org.apache.camel/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Nov-29 18:51 META-INF/maven/org.apache.camel/camel-buildtools/
+│ --rwx--x--x  2.0 unx    11358 b- defN 24-Nov-29 18:51 META-INF/LICENSE
+│ --rwx--x--x  2.0 unx     3751 b- defN 24-Nov-29 18:51 META-INF/NOTICE
+│ --rwx--x--x  2.0 unx    42099 b- defN 24-Nov-29 18:51 camel-eclipse-formatter-config.xml
+│ --rwx--x--x  2.0 unx      927 b- defN 24-Nov-29 18:51 camel-eclipse-pmd
+│ --rwx--x--x  2.0 unx    11851 b- defN 24-Nov-29 18:51 camel-pmd-ruleset.xml
+│ --rwx--x--x  2.0 unx      756 b- defN 24-Nov-29 18:51 header.txt
+│ --rwx--x--x  2.0 unx     1607 b- defN 24-Nov-29 18:51 ldif-properties-headerdefinition.xml
+│ --rwx--x--x  2.0 unx     1448 b- defN 24-Nov-29 18:51 license-properties-headerdefinition.xml
+│ --rwx--x--x  2.0 unx     6229 b- defN 24-Nov-29 18:51 notice-supplements.xml
+│ --rwx--x--x  2.0 unx     1723 b- defN 24-Nov-29 18:51 META-INF/maven/org.apache.camel/camel-buildtools/pom.xml
+│ --rwx--x--x  2.0 unx       67 b- defN 24-Nov-29 18:51 META-INF/maven/org.apache.camel/camel-buildtools/pom.properties
+│ +-rw-r--r--  2.0 unx    11358 b- defN 24-Nov-29 18:51 META-INF/LICENSE
+│ +-rw-r--r--  2.0 unx     3751 b- defN 24-Nov-29 18:51 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx    42099 b- defN 24-Nov-29 18:51 camel-eclipse-formatter-config.xml
+│ +-rw-r--r--  2.0 unx      927 b- defN 24-Nov-29 18:51 camel-eclipse-pmd
+│ +-rw-r--r--  2.0 unx    11851 b- defN 24-Nov-29 18:51 camel-pmd-ruleset.xml
+│ +-rw-r--r--  2.0 unx      756 b- defN 24-Nov-29 18:51 header.txt
+│ +-rw-r--r--  2.0 unx     1607 b- defN 24-Nov-29 18:51 ldif-properties-headerdefinition.xml
+│ +-rw-r--r--  2.0 unx     1448 b- defN 24-Nov-29 18:51 license-properties-headerdefinition.xml
+│ +-rw-r--r--  2.0 unx     6229 b- defN 24-Nov-29 18:51 notice-supplements.xml
+│ +-rw-r--r--  2.0 unx     1723 b- defN 24-Nov-29 18:51 META-INF/maven/org.apache.camel/camel-buildtools/pom.xml
+│ +-rw-r--r--  2.0 unx       67 b- defN 24-Nov-29 18:51 META-INF/maven/org.apache.camel/camel-buildtools/pom.properties
+│  16 files, 81880 bytes uncompressed, 15091 bytes compressed:  81.6%

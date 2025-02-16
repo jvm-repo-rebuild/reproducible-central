@@ -1,0 +1,11 @@
+version=4.9.0
+ok=1
+ko=2
+ignored=0
+okFiles="camel-joor-4.9.0.pom"
+koFiles="camel-joor-4.9.0.jar camel-joor-4.9.0-sources.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope components/camel-joor/target/reference/org.apache.camel/camel-joor-4.9.0.jar components/camel-joor/target/camel-joor-4.9.0.jar
+# diffoscope components/camel-joor/target/reference/org.apache.camel/camel-joor-4.9.0-sources.jar components/camel-joor/target/camel-joor-4.9.0-sources.jar

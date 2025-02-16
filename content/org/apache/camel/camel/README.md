@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.camel:camel](https://central.sonatype.com/artifact/org.apache.camel/camel/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/camel/camel/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/camel/camel/README.md)
+## Project: [org.apache.camel:camel](https://central.sonatype.com/artifact/org.apache.camel/camel/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/camel/camel//badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/camel/camel//README.md)
 
 Source code: [https://github.com/apache/camel.git](https://github.com/apache/camel.git)
 
@@ -633,13 +633,13 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:tooling-parent](https://central.sonatype.com/artifact/org.apache.camel/tooling-parent/overview)
 </details>
 
-rebuilding **7 releases** of org.apache.camel:camel:
+rebuilding **8 releases** of org.apache.camel:camel:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.9.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.9.0/pom) | | | |
+| [4.9.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.9.0/pom) | [mvn jdk21](camel-4.9.0.buildspec) | [result](camel-4.9.0.buildinfo): [1 :white_check_mark:  2 :warning:](camel-4.9.0.buildcompare) [:mag:](camel-4.9.0.diffoscope) | 13M |
 | [4.8.3](https://central.sonatype.com/artifact/org.apache.camel/camel/4.8.3/pom) | | | |
 | [4.8.2](https://central.sonatype.com/artifact/org.apache.camel/camel/4.8.2/pom) | | | |
 | [4.8.1](https://central.sonatype.com/artifact/org.apache.camel/camel/4.8.1/pom) | | | |
