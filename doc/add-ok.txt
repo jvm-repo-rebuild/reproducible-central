@@ -1,7 +1,9 @@
-content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.8.6.6.buildspec:4.9.1.0
 content/de/unentscheidbar/migratedb/migratedb-1.4.0.buildspec:1.4.1
 content/dev/langchain4j/langchain4j-1.0.0-alpha1.buildspec:1.0.0-beta1
-content/io/airlift/airbase/airbase-216.buildspec:217
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.1-beta-3.buildspec:11.2.1-beta-4
+content/io/airlift/airbase/airbase-217.buildspec:218
 content/io/avaje/jsonb/avaje-jsonb-3.0-RC7.buildspec:3.0
 content/org/infinispan/protostream/protostream-6.0.0.Dev03.buildspec:15.0.13.Final
-content/uk/org/okapibarcode/okapibarcode/okapibarcode-0.4.9.buildspec:0.5.0
+content/org/jpmml/packager-maven-plugin/packager-maven-plugin-1.0.0.buildspec:1.0.1
+content/org/owasp/dependency-check/dependency-check-12.0.2.buildspec:12.1.0
+content/world/convex/convex-0.7.15.buildspec:0.8.0

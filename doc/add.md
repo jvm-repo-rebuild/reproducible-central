@@ -4,13 +4,13 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250215202125 --> [spotbugs-maven-plugin](../content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | [4.8.6.6](../content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.8.6.6.buildspec) :white_check_mark: | [4.9.1.0](../content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.9.1.0.buildspec) | `bin/add-new-release.sh content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.8.6.6.buildspec 4.9.1.0` |
-| <!-- 20250215202125 --> [spotbugs-maven-plugin](../content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | [4.8.6.6](../content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.8.6.6.buildspec) :white_check_mark: | 4.9.0.0  | `bin/add-new-release.sh content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.8.6.6.buildspec ...` |
-| <!-- 20250215144509 --> [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | [0.4.9](../content/uk/org/okapibarcode/okapibarcode/okapibarcode-0.4.9.buildspec) :white_check_mark: | [0.5.0](../content/uk/org/okapibarcode/okapibarcode/okapibarcode-0.5.0.buildspec) | `bin/add-new-release.sh content/uk/org/okapibarcode/okapibarcode/okapibarcode-0.4.9.buildspec 0.5.0` |
-| <!-- 20250215105303 --> [airbase](../content/io/airlift/airbase/README.md) | [216](../content/io/airlift/airbase/airbase-216.buildspec) :white_check_mark: | [217](../content/io/airlift/airbase/airbase-217.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-216.buildspec 217` |
+| <!-- 20250216165557 --> [airbase](../content/io/airlift/airbase/README.md) | [217](../content/io/airlift/airbase/airbase-217.buildspec) :white_check_mark: | [218](../content/io/airlift/airbase/airbase-218.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-217.buildspec 218` |
+| <!-- 20250216161224 --> [convex](../content/world/convex/README.md) | [0.7.15](../content/world/convex/convex-0.7.15.buildspec) :white_check_mark: | [0.8.0](../content/world/convex/convex-0.8.0.buildspec) | `bin/add-new-release.sh content/world/convex/convex-0.7.15.buildspec 0.8.0` |
+| <!-- 20250216143755 --> [dependency-check-parent](../content/org/owasp/dependency-check/README.md) | [12.0.2](../content/org/owasp/dependency-check/dependency-check-12.0.2.buildspec) :white_check_mark: | [12.1.0](../content/org/owasp/dependency-check/dependency-check-12.1.0.buildspec) | `bin/add-new-release.sh content/org/owasp/dependency-check/dependency-check-12.0.2.buildspec 12.1.0` |
+| <!-- 20250216125759 --> [packager-maven-plugin](../content/org/jpmml/packager-maven-plugin/README.md) | [1.0.0](../content/org/jpmml/packager-maven-plugin/packager-maven-plugin-1.0.0.buildspec) :white_check_mark: | [1.0.1](../content/org/jpmml/packager-maven-plugin/packager-maven-plugin-1.0.1.buildspec) | `bin/add-new-release.sh content/org/jpmml/packager-maven-plugin/packager-maven-plugin-1.0.0.buildspec 1.0.1` |
+| <!-- 20250216020107 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [11.2.1-beta-3](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.1-beta-3.buildspec) :white_check_mark: | [11.2.1-beta-4](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.1-beta-4.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.1-beta-3.buildspec 11.2.1-beta-4` |
 | <!-- 20250211163848 --> [protostream-aggregator](../content/org/infinispan/protostream/README.md) | [6.0.0.Dev03](../content/org/infinispan/protostream/protostream-6.0.0.Dev03.buildspec) :white_check_mark: | [15.0.13.Final](../content/org/infinispan/protostream/protostream-15.0.13.Final.buildspec) | `bin/add-new-release.sh content/org/infinispan/protostream/protostream-6.0.0.Dev03.buildspec 15.0.13.Final` |
 | <!-- 20250210083353 --> [avaje-jsonb-parent](../content/io/avaje/jsonb/README.md) | [3.0-RC7](../content/io/avaje/jsonb/avaje-jsonb-3.0-RC7.buildspec) :white_check_mark: | [3.0](../content/io/avaje/jsonb/avaje-jsonb-3.0.buildspec) | `bin/add-new-release.sh content/io/avaje/jsonb/avaje-jsonb-3.0-RC7.buildspec 3.0` |
-| <!-- 20250210041608 --> [paimon-parent](../content/org/apache/paimon/README.md) | [1.0.1](../content/org/apache/paimon/paimon-parent-1.0.1.buildspec) :white_check_mark: | 0.6.1-incubating  | `bin/add-new-release.sh content/org/apache/paimon/paimon-parent-1.0.1.buildspec ...` |
 | <!-- 20250205122652 --> [langchain4j](../content/dev/langchain4j/README.md) | [1.0.0-alpha1](../content/dev/langchain4j/langchain4j-1.0.0-alpha1.buildspec) :white_check_mark: | [1.0.0-beta1](../content/dev/langchain4j/langchain4j-1.0.0-beta1.buildspec) | `bin/add-new-release.sh content/dev/langchain4j/langchain4j-1.0.0-alpha1.buildspec 1.0.0-beta1` |
 | <!-- 20250205010623 --> [migratedb](../content/de/unentscheidbar/migratedb/README.md) | [1.4.0](../content/de/unentscheidbar/migratedb/migratedb-1.4.0.buildspec) :white_check_mark: | [1.4.1](../content/de/unentscheidbar/migratedb/migratedb-1.4.1.buildspec) | `bin/add-new-release.sh content/de/unentscheidbar/migratedb/migratedb-1.4.0.buildspec 1.4.1` |
 | <!-- 20250117135925 --> [across-platform-bom](../content/com/foreach/across/platform/README.md) | [6.0.1](../content/com/foreach/across/platform/platform-6.0.1.buildspec) :white_check_mark: | 5.5.1 5.5.0 5.4.2 5.4.1 5.4.0  | `bin/add-new-release.sh content/com/foreach/across/platform/platform-6.0.1.buildspec ...` |
@@ -19,6 +19,7 @@ New Releases To Add
 ### Unexpected Diffoscope in Buildspec
 `buildcompare` says `ko=0` but `buildspec` configures a `diffoscope` value in following releases:
 <!-- BEGIN GENERATED UNEXPECTED DIFFOSCOPE -->
+      content/org/jdbi/jdbi3-root-3.48.0.buildspec
 <!-- END GENERATED UNEXPECTED DIFFOSCOPE -->
 
 ### Missing Diffoscope in Buildspec
@@ -44,15 +45,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250214175300 --> [jsign](../content/net/jsign/README.md) | [7.0](../content/net/jsign/jsign-7.0.buildspec) :warning: | [7.1](../content/net/jsign/jsign-7.1.buildspec) | `bin/add-new-release.sh content/net/jsign/jsign-7.0.buildspec 7.1` |
-| <!-- 20250213170218 --> [jooby](../content/io/jooby/README.md) | [3.6.0](../content/io/jooby/jooby-3.6.0.buildspec) :warning: | [3.6.1](../content/io/jooby/jooby-3.6.1.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-3.6.0.buildspec 3.6.1` |
-| <!-- 20250213093110 --> [jdplus-main](../content/eu/europa/ec/joinup/sat/jdplus-main/README.md) | [3.3.0](../content/eu/europa/ec/joinup/sat/jdplus-main/jdplus-main-3.3.0.buildspec) :warning: | [3.4.0](../content/eu/europa/ec/joinup/sat/jdplus-main/jdplus-main-3.4.0.buildspec) | `bin/add-new-release.sh content/eu/europa/ec/joinup/sat/jdplus-main/jdplus-main-3.3.0.buildspec 3.4.0` |
-| <!-- 20250213063710 --> [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | [1.74.0](../content/org/apache/jackrabbit/oak/jackrabbit-oak-1.74.0.buildspec) :warning: [:memo:](https://issues.apache.org/jira/browse/OAK-10662) | [1.76.0](../content/org/apache/jackrabbit/oak/jackrabbit-oak-1.76.0.buildspec) | `bin/add-new-release.sh content/org/apache/jackrabbit/oak/jackrabbit-oak-1.74.0.buildspec 1.76.0` |
+| <!-- 20250216004231 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | [2.12.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.12.0.buildspec) :warning: | [2.13.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.13.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/instrumentation/opentelemetry-2.12.0.buildspec 2.13.0` |
 | <!-- 20250213040521 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.56.0](../content/org/finos/legend/engine/legend-engine-4.56.0.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.70.0](../content/org/finos/legend/engine/legend-engine-4.70.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.56.0.buildspec 4.70.0` |
-| <!-- 20250212170511 --> [jdbi3-root](../content/org/jdbi/README.md) | [3.47.0](../content/org/jdbi/jdbi3-root-3.47.0.buildspec) :warning: [:memo:](https://github.com/jdbi/jdbi/issues/2732) | [3.48.0](../content/org/jdbi/jdbi3-root-3.48.0.buildspec) | `bin/add-new-release.sh content/org/jdbi/jdbi3-root-3.47.0.buildspec 3.48.0` |
-| <!-- 20250212111501 --> [quarkus-project](../content/io/quarkus/README.md) | [3.18.2](../content/io/quarkus/quarkus-3.18.2.buildspec) :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | [3.19.0.CR1](../content/io/quarkus/quarkus-3.19.0.CR1.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.18.2.buildspec 3.19.0.CR1` |
 | <!-- 20250211174750 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | [3.2.5](../content/io/smallrye/jandex/jandex-3.2.5.buildspec) :warning: | [3.2.6](../content/io/smallrye/jandex/jandex-3.2.6.buildspec) | `bin/add-new-release.sh content/io/smallrye/jandex/jandex-3.2.5.buildspec 3.2.6` |
-| <!-- 20250211064550 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.10.0` |
 | <!-- 20250202164211 --> [html-formatter](../content/io/cucumber/html-formatter/README.md) | [20.2.0](../content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec) :warning: [:memo:](https://github.com/cucumber/html-formatter/issues/207) | [21.9.0](../content/io/cucumber/html-formatter/html-formatter-21.9.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec 21.9.0` |
 | <!-- 20250202131345 --> [glassfish-parent](../content/org/glassfish/main/README.md) | [8.0.0-JDK17-M7](../content/org/glassfish/main/glassfish-8.0.0-JDK17-M7.buildspec) :warning: | [8.0.0-JDK17-M9](../content/org/glassfish/main/glassfish-8.0.0-JDK17-M9.buildspec) | `bin/add-new-release.sh content/org/glassfish/main/glassfish-8.0.0-JDK17-M7.buildspec 8.0.0-JDK17-M9` |
 | <!-- 20250131081819 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.18.3](../content/org/webjars/swagger-ui/swagger-ui-5.18.3.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.18.3` |
@@ -69,6 +64,11 @@ New Releases To Add
 | artifactId | newest |
 | ---------- | ------ |
 | <!-- 20250214204823 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | 3.1.0 :warning: |
+| <!-- 20250213170218 --> [jooby](../content/io/jooby/README.md) | 3.6.1 :warning: |
+| <!-- 20250213093110 --> [jdplus-main](../content/eu/europa/ec/joinup/sat/jdplus-main/README.md) | 3.4.0 :warning: |
+| <!-- 20250213063710 --> [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | 1.76.0 :warning: [:memo:](https://issues.apache.org/jira/browse/OAK-10662) |
+| <!-- 20250212111501 --> [quarkus-project](../content/io/quarkus/README.md) | 3.19.0.CR1 :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) |
+| <!-- 20250211064550 --> [camel](../content/org/apache/camel/camel/README.md) | 4.10.0 :x: |
 | <!-- 20250207001301 --> [tika](../content/org/apache/tika/README.md) | 3.1.0 :warning: |
 | <!-- 20250206105135 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | 1.9.0 :warning: |
 | <!-- 20250206083829 --> [jpmml-r](../content/org/jpmml/jpmml-r/README.md) | 1.7.0 :warning: |
@@ -95,7 +95,6 @@ New Releases To Add
 | <!-- 20250120144912 --> [pulsar](../content/org/apache/pulsar/README.md) | 4.0.2 :warning: |
 | <!-- 20250120124948 --> [io.wcm.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | 2.4.0 :warning: |
 | <!-- 20250117094427 --> [org.apache.sling.starter](../content/org/apache/sling/org.apache.sling.starter/README.md) | 13 :warning: |
-| <!-- 20250117032600 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | 2.12.0 :warning: |
 | <!-- 20250114121312 --> [commons-daemon](../content/org/apache/commons/commons-daemon/README.md) | 1.4.1 :warning: |
 | <!-- 20250111140352 --> [commons-csv](../content/org/apache/commons/csv/README.md) | 1.13.0 :warning: |
 | <!-- 20250111133702 --> [commons-release-plugin](../content/org/apache/commons/commons-release-plugin/README.md) | 1.9.0 :warning: |
