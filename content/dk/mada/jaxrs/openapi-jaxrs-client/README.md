@@ -16,13 +16,13 @@ Source code: [https://github.com/jskov/openapi-jaxrs-client.git](https://github.
 * [dk.mada.jaxrs:parser](https://central.sonatype.com/artifact/dk.mada.jaxrs/parser/overview)
 </details>
 
-rebuilding **8 releases** of dk.mada.jaxrs:openapi-jaxrs-client:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **9 releases** of dk.mada.jaxrs:openapi-jaxrs-client:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.11.10](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-bom/0.11.10/pom) | | | |
+| [0.11.10](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-client/0.11.10/pom) | [gradle jdk21](openapi-jaxrs-client-0.11.10.buildspec) | [result](openapi-jaxrs-client-0.11.10.buildinfo): [13 :white_check_mark: ](openapi-jaxrs-client-0.11.10.buildcompare) | 692K |
 | [0.11.9](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-client/0.11.9/pom) | [gradle jdk21](openapi-jaxrs-client-0.11.9.buildspec) | [result](openapi-jaxrs-client-0.11.9.buildinfo): [13 :white_check_mark: ](openapi-jaxrs-client-0.11.9.buildcompare) | 689K |
 | [0.11.8](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-client/0.11.8/pom) | [gradle jdk21](openapi-jaxrs-client-0.11.8.buildspec) | [result](openapi-jaxrs-client-0.11.8.buildinfo): [13 :white_check_mark: ](openapi-jaxrs-client-0.11.8.buildcompare) | 680K |
 | [0.11.7](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-client/0.11.7/pom) | [gradle jdk21](openapi-jaxrs-client-0.11.7.buildspec) | [result](openapi-jaxrs-client-0.11.7.buildinfo): [13 :white_check_mark: ](openapi-jaxrs-client-0.11.7.buildcompare) | 680K |
