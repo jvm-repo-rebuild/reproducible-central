@@ -1,0 +1,18 @@
+groupId=io.opentelemetry.instrumentation
+artifactId=opentelemetry-instrumentation-api
+display=${groupId}:opentelemetry-instrumentation
+version=2.13.0
+
+gitRepo=https://github.com/open-telemetry/opentelemetry-java-instrumentation.git
+gitTag=v$(echo "${version}" | cut -d \- -f 1)
+
+tool=gradle
+jdk=17
+newline=lf
+workdir="/home/runner/work/opentelemetry-java-instrumentation/opentelemetry-java-instrumentation"
+
+command="./gradlew --no-daemon clean assemble publishToMavenLocal -x test"
+buildinfo=${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
