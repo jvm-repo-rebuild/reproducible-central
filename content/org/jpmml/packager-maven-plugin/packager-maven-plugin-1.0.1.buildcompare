@@ -1,0 +1,11 @@
+version=1.0.1
+ok=1
+ko=2
+ignored=0
+okFiles="packager-maven-plugin-1.0.1.pom"
+koFiles="packager-maven-plugin-1.0.1.jar packager-maven-plugin-1.0.1-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/packager-maven-plugin-1.0.1.jar target/packager-maven-plugin-1.0.1.jar
+# diffoscope target/reference/org.jpmml/packager-maven-plugin-1.0.1-sources.jar target/packager-maven-plugin-1.0.1-sources.jar
