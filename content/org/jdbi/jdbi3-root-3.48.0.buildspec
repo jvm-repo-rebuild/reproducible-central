@@ -16,4 +16,4 @@ command="mvn -Pjdbi-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg
 buildinfo=target/jdbi3-parent-${version}.buildinfo
 
 #diffoscope=jdbi3-parent-${version}.diffoscope
-issue=https://github.com/jdbi/jdbi/issues/2732
+issue=
