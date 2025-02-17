@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.sentrysoftware:winrm:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.1.01](https://central.sonatype.com/artifact/org.sentrysoftware/winrm/1.1.01/pom) | | | |
 | [1.1.00](https://central.sonatype.com/artifact/org.sentrysoftware/winrm/1.1.00/pom) | [mvn jdk17](winrm-1.1.00.buildspec) | [result](winrm-1.1.00.buildinfo): [3 :white_check_mark: ](winrm-1.1.00.buildcompare) | 424K |
 | [1.0.01](https://central.sonatype.com/artifact/org.sentrysoftware/winrm/1.0.01/pom) | [mvn jdk17](winrm-1.0.01.buildspec) | [result](winrm-1.0.01.buildinfo): [3 :white_check_mark: ](winrm-1.0.01.buildcompare) | 434K |
 | [1.0.00](https://central.sonatype.com/artifact/org.sentrysoftware/winrm/1.0.00/pom) | [mvn jdk17](winrm-1.0.00.buildspec) | [result](winrm-1.0.00.buildinfo): [3 :white_check_mark: ](winrm-1.0.00.buildcompare) | 434K |

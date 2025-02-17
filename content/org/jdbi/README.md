@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.jdbi.internal:jdbi3-root](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/jdbi//badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/jdbi//README.md)
+## Project: [org.jdbi.internal:jdbi3-root](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/jdbi/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/jdbi/README.md)
 
 Source code: [https://github.com/jdbi/jdbi.git](https://github.com/jdbi/jdbi.git)
 

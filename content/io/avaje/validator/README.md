@@ -24,6 +24,7 @@ rebuilding **4 releases** of io.avaje:avaje-validator-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.8-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.8-RC1/pom) | | | |
 | [2.7](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.7/pom) | [mvn jdk21](avaje-validator-2.7.buildspec) | [result](avaje-validator-parent-2.7.buildinfo): [19 :white_check_mark: ](avaje-validator-parent-2.7.buildcompare) | 607K |
 | [2.6](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.6/pom) | [mvn jdk21](avaje-validator-2.6.buildspec) | [result](avaje-validator-parent-2.6.buildinfo): [19 :white_check_mark: ](avaje-validator-parent-2.6.buildcompare) | 600K |
 | [2.5](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.5/pom) | [mvn jdk21](avaje-validator-2.5.buildspec) | [result](avaje-validator-parent-2.5.buildinfo): [19 :white_check_mark: ](avaje-validator-parent-2.5.buildcompare) | 600K |

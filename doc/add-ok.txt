@@ -1,9 +1,7 @@
-content/de/unentscheidbar/migratedb/migratedb-1.4.0.buildspec:1.4.1
 content/dev/langchain4j/langchain4j-1.0.0-alpha1.buildspec:1.0.0-beta1
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.1-beta-3.buildspec:11.2.1-beta-4
-content/io/airlift/airbase/airbase-217.buildspec:218
-content/io/avaje/jsonb/avaje-jsonb-3.0-RC7.buildspec:3.0
-content/org/infinispan/protostream/protostream-6.0.0.Dev03.buildspec:15.0.13.Final
-content/org/jpmml/packager-maven-plugin/packager-maven-plugin-1.0.0.buildspec:1.0.1
-content/org/owasp/dependency-check/dependency-check-12.0.2.buildspec:12.1.0
+content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.11.9.buildspec:0.11.10
+content/io/avaje/validator/avaje-validator-2.7.buildspec:2.8-RC1
+content/io/cucumber/gherkin/gherkin-31.0.0.buildspec:32.0.0
+content/io/telicent/smart-caches/graph/scg-base/scg-base-0.82.18.buildspec:0.82.19
+content/org/sentrysoftware/winrm/winrm-1.1.00.buildspec:1.1.01
 content/world/convex/convex-0.7.15.buildspec:0.8.0

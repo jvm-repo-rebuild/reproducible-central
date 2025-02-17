@@ -633,9 +633,9 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:tooling-parent](https://central.sonatype.com/artifact/org.apache.camel/tooling-parent/overview)
 </details>
 
-rebuilding **9 releases** of org.apache.camel:camel:
+rebuilding **10 releases** of org.apache.camel:camel:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -669,7 +669,7 @@ rebuilding **9 releases** of org.apache.camel:camel:
 | [4.0.0-M3](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-M3/pom) | [mvn jdk17](camel-4.0.0-M3.buildspec) | [result](camel-4.0.0-M3.buildinfo): [1095 :white_check_mark:  403 :warning:](camel-4.0.0-M3.buildcompare) [:mag:](camel-4.0.0-M3.diffoscope) | 168M |
 | [4.0.0-M2](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-M2/pom) | | | |
 | [4.0.0-M1](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-M1/pom) | | | |
-| [3.22.3](https://central.sonatype.com/artifact/org.apache.camel/camel/3.22.3/pom) | | | |
+| [3.22.3](https://central.sonatype.com/artifact/org.apache.camel/camel/3.22.3/pom) | [mvn jdk11](camel-3.22.3.buildspec) | :x: | |
 | [3.22.2](https://central.sonatype.com/artifact/org.apache.camel/camel/3.22.2/pom) | | | |
 | [3.22.1](https://central.sonatype.com/artifact/org.apache.camel/camel/3.22.1/pom) | | | |
 | [3.22.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.22.0/pom) | | | |
