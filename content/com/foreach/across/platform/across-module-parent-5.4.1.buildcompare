@@ -1,0 +1,10 @@
+version=5.4.1
+ok=1
+ko=3
+ignored=0
+okFiles="across-module-parent-5.4.1.pom"
+koFiles="across-platform-bom-5.4.1.pom across-platform-dependencies-5.4.1.pom across-application-parent-5.4.1.pom"
+ignoredFiles=""
+# diffoscope target/reference/com.foreach.across/across-platform-bom-5.4.1.pom across-platform-bom/.flattened-pom.xml
+# diffoscope target/reference/com.foreach.across/across-platform-dependencies-5.4.1.pom across-platform-dependencies/.flattened-pom.xml
+# diffoscope target/reference/com.foreach.across/across-application-parent-5.4.1.pom across-application-parent/.flattened-pom.xml
