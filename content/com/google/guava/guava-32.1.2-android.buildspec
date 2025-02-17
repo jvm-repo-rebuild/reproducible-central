@@ -16,4 +16,4 @@ command="mvn -f android/ clean verify -Psonatype-oss-release -DskipTests -Dmaven
 buildinfo=android/target/${artifactId}-parent-${version}.buildinfo
 
 #diffoscope=${artifactId}-parent-${version}.diffoscope
-issue=
+issue=https://github.com/google/guava/issues/6321#issuecomment-2659533100
