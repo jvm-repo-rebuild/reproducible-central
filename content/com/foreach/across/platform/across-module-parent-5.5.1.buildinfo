@@ -1,0 +1,51 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=platform
+group-id=com.foreach.across
+artifact-id=platform
+version=5.5.1
+
+# source information
+source.scm.uri=null
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=across-module-parent
+
+# aggregated output
+
+outputs.0.coordinates=com.foreach.across:across-platform-bom
+
+outputs.0.0.groupId=com.foreach.across
+outputs.0.0.filename=across-platform-bom-5.5.1.pom
+outputs.0.0.length=7360
+outputs.0.0.checksums.sha512=9c0cab92143b89128ce59823911be8cc25ddafc8548e6adb884d3218483e2667246ff4b7527cebb4f8224caf8f003efe45b88925987541004be11a4f492e5909
+
+outputs.1.coordinates=com.foreach.across:across-platform-dependencies
+
+outputs.1.0.groupId=com.foreach.across
+outputs.1.0.filename=across-platform-dependencies-5.5.1.pom
+outputs.1.0.length=6747
+outputs.1.0.checksums.sha512=e54945164a2f3450c0352fea20da2abf517c388bc5a62bfbb9a831bd14544e3b261e30f7f7118689a332f05f4dad6c814a5e6fb6f3e12654ef4ae885a94091fc
+
+outputs.2.coordinates=com.foreach.across:across-application-parent
+
+outputs.2.0.groupId=com.foreach.across
+outputs.2.0.filename=across-application-parent-5.5.1.pom
+outputs.2.0.length=5117
+outputs.2.0.checksums.sha512=26c914ca4266a653a528628be6edb8137ea3652bfea992e19c252d3d06aa0f31d86ff8eda9e33deade3e97e21aca08d358d9396d0bc4be801d8f658f7d162609
+
+outputs.3.coordinates=com.foreach.across:across-module-parent
+
+outputs.3.0.groupId=com.foreach.across
+outputs.3.0.filename=across-module-parent-5.5.1.pom
+outputs.3.0.length=3151
+outputs.3.0.checksums.sha512=1b8087a49fe530eb44b50a5429791b7c502f6f99f23e684907edadf9e800baeadd26ef8e8fb7e4ffcba1d83bb7e5b97a47efeda1b6cb36f99a4e5f44366d8870
