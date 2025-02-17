@@ -1,0 +1,19 @@
+groupId=com.foreach.across
+artifactId=across-platform-bom
+display=${groupId}:${artifactId}
+version=5.5.1
+
+gitRepo=https://github.com/foreach-across/across-platform.git
+gitTag=v${version}
+
+tool=mvn-3.9.9
+jdk=17
+newline=lf
+#umask=022
+
+command="mvn package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -pl !platform-bom-test"
+buildinfo=across-module-parent/target/across-module-parent-${version}.buildinfo
+execBefore="REVISION=${version} ACROSS_FRAMEWORK_VERSION=${version} ACROSS_AUTOCONFIGURE_VERSION=${version} ACROSS_BASE_MODULES_VERSION=${version} ACROSS_ENTITY_ADMIN_MODULES_VERSION=${version} ACROSS_USER_AUTH_MODULES_VERSION=${version} ACROSS_MEDIA_MODULES_VERSION=${version} ./ci-before.sh"
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
