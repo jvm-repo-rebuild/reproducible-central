@@ -29,13 +29,13 @@ Source code: [https://github.com/nielsbasjes/yauaa.git](https://github.com/niels
 * [nl.basjes.parse.useragent:yauaa-webapp](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-webapp/overview)
 </details>
 
-rebuilding **20 releases** of nl.basjes.parse.useragent:yauaa:
-- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **21 releases** of nl.basjes.parse.useragent:yauaa:
+- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [7.30.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.30.0/pom) | | | |
+| [7.30.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.30.0/pom) | [mvn jdk21](yauaa-7.30.0.buildspec) | [result](yauaa-parent-7.30.0.buildinfo): [52 :white_check_mark: ](yauaa-parent-7.30.0.buildcompare) | 81M |
 | [7.29.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.29.0/pom) | [mvn jdk21](yauaa-7.29.0.buildspec) | [result](yauaa-parent-7.29.0.buildinfo): [52 :white_check_mark: ](yauaa-parent-7.29.0.buildcompare) | 81M |
 | [7.28.1](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.28.1/pom) | [mvn jdk21](yauaa-7.28.1.buildspec) | [result](yauaa-parent-7.28.1.buildinfo): [52 :white_check_mark: ](yauaa-parent-7.28.1.buildcompare) | 82M |
 | [7.28.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.28.0/pom) | [mvn jdk21](yauaa-7.28.0.buildspec) | [result](yauaa-parent-7.28.0.buildinfo): [39 :white_check_mark:  9 :warning:](yauaa-parent-7.28.0.buildcompare) | 76M |
