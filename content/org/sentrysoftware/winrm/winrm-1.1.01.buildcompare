@@ -1,0 +1,11 @@
+version=1.1.01
+ok=1
+ko=2
+ignored=0
+okFiles="winrm-1.1.01.pom"
+koFiles="winrm-1.1.01.jar winrm-1.1.01-sources.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.sentrysoftware/winrm-1.1.01.jar target/winrm-1.1.01.jar
+# diffoscope target/reference/org.sentrysoftware/winrm-1.1.01-sources.jar target/winrm-1.1.01-sources.jar
