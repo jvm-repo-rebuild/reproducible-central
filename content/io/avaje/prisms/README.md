@@ -14,13 +14,13 @@ Source code: [https://github.com/avaje/avaje-prisms.git](https://github.com/avaj
 * [io.avaje:avaje-prisms-parent](https://central.sonatype.com/artifact/io.avaje/avaje-prisms-parent/overview)
 </details>
 
-rebuilding **5 releases** of io.avaje:avaje-prisms-parent:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **6 releases** of io.avaje:avaje-prisms-parent:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.39](https://central.sonatype.com/artifact/io.avaje/avaje-prisms-parent/1.39/pom) | | | |
+| [1.39](https://central.sonatype.com/artifact/io.avaje/avaje-prisms-parent/1.39/pom) | [mvn jdk21](avaje-prisms-1.39.buildspec) | [result](avaje-prisms-parent-1.39.buildinfo): [7 :white_check_mark: ](avaje-prisms-parent-1.39.buildcompare) | 125K |
 | [1.38](https://central.sonatype.com/artifact/io.avaje/avaje-prisms-parent/1.38/pom) | [mvn jdk21](avaje-prisms-1.38.buildspec) | [result](avaje-prisms-parent-1.38.buildinfo): [7 :white_check_mark: ](avaje-prisms-parent-1.38.buildcompare) | 125K |
 | [1.37](https://central.sonatype.com/artifact/io.avaje/avaje-prisms-parent/1.37/pom) | [mvn jdk21](avaje-prisms-1.37.buildspec) | [result](avaje-prisms-parent-1.37.buildinfo): [7 :white_check_mark: ](avaje-prisms-parent-1.37.buildcompare) | 125K |
 | [1.36](https://central.sonatype.com/artifact/io.avaje/avaje-prisms-parent/1.36/pom) | [mvn jdk21](avaje-prisms-1.36.buildspec) | [result](avaje-prisms-parent-1.36.buildinfo): [7 :white_check_mark: ](avaje-prisms-parent-1.36.buildcompare) | 125K |
