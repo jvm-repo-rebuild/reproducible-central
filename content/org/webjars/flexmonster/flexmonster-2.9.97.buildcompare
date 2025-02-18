@@ -1,0 +1,9 @@
+version=2.9.97
+ok=2
+ko=0
+ignored=0
+okFiles="flexmonster-2.9.97.pom flexmonster-2.9.97.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

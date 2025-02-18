@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=flexmonster
+group-id=org.webjars
+artifact-id=flexmonster
+version=2.9.97
+
+# source information
+source.scm.uri=scm:git:https://github.com/webjars/flexmonster.git
+source.scm.tag=flexmonster-2.9.97
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.webjars
+outputs.0.filename=flexmonster-2.9.97.pom
+outputs.0.length=4921
+outputs.0.checksums.sha512=6ce9693aa127308f0a6309d84c96c9215b5ba99aca4aa11119b0f0b99b24619f2d503393b8aa7bd8195034891673af242826a4ef2cc7878ddc2c607e96ff0a2f
+
+outputs.1.groupId=org.webjars
+outputs.1.filename=flexmonster-2.9.97.jar
+outputs.1.length=2243366
+outputs.1.checksums.sha512=b82acaaa83ea269b06a4a5d8872ea9a327bf33fc6a462d2f5ae5192e89d5a1b937d3c2b51bae334e0f76e93def09b7ec81569dab9859892aec3f6e767d9624f7
