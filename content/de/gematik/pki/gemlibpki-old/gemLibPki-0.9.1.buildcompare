@@ -1,0 +1,10 @@
+version=0.9.1
+ok=2
+ko=1
+ignored=0
+okFiles="gemLibPki-0.9.1.pom gemLibPki-0.9.1-sources.jar"
+koFiles="gemLibPki-0.9.1.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/de.gematik.pki.gemlibpki/gemLibPki-0.9.1.jar target/gemLibPki-0.9.1.jar
