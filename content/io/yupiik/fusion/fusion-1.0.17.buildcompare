@@ -1,0 +1,9 @@
+version=1.0.17
+ok=50
+ko=0
+ignored=0
+okFiles="fusion-1.0.17.pom fusion-build-api-1.0.17.pom fusion-build-api-1.0.17.jar fusion-build-api-1.0.17-sources.jar fusion-api-1.0.17.pom fusion-api-1.0.17.jar fusion-api-1.0.17-sources.jar fusion-json-1.0.17.pom fusion-json-1.0.17.jar fusion-json-1.0.17-sources.jar fusion-http-server-1.0.17.pom fusion-http-server-1.0.17.jar fusion-http-server-1.0.17-sources.jar fusion-jsonrpc-1.0.17.pom fusion-jsonrpc-1.0.17.jar fusion-jsonrpc-1.0.17-sources.jar fusion-cli-1.0.17.pom fusion-cli-1.0.17.jar fusion-cli-1.0.17-sources.jar fusion-persistence-1.0.17.pom fusion-persistence-1.0.17.jar fusion-persistence-1.0.17-sources.jar fusion-processor-1.0.17.pom fusion-processor-1.0.17.jar fusion-processor-1.0.17-sources.jar fusion-httpclient-parent-1.0.17.pom fusion-httpclient-1.0.17.pom fusion-httpclient-1.0.17.jar fusion-httpclient-1.0.17-sources.jar fusion-testing-1.0.17.pom fusion-testing-1.0.17.jar fusion-testing-1.0.17-sources.jar fusion-kubernetes-client-1.0.17.pom fusion-kubernetes-client-1.0.17.jar fusion-kubernetes-client-1.0.17-sources.jar fusion-tracing-1.0.17.pom fusion-tracing-1.0.17.jar fusion-tracing-1.0.17-sources.jar fusion-observability-1.0.17.pom fusion-observability-1.0.17.jar fusion-observability-1.0.17-sources.jar fusion-handlebars-1.0.17.pom fusion-handlebars-1.0.17.jar fusion-handlebars-1.0.17-sources.jar fusion-jwt-1.0.17.pom fusion-jwt-1.0.17.jar fusion-jwt-1.0.17-sources.jar fusion-kubernetes-operator-base-1.0.17.pom fusion-kubernetes-operator-base-1.0.17.jar fusion-kubernetes-operator-base-1.0.17-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
