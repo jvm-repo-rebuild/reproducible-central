@@ -1,0 +1,10 @@
+version=155
+ok=3
+ko=1
+ignored=0
+okFiles="airbase-root-155.pom airbase-policy-155.pom airbase-155.pom"
+koFiles="airbase-policy-155.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.airlift/airbase-policy-155.jar airbase-policy/target/airbase-policy-155.jar
