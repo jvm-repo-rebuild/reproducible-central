@@ -3,8 +3,8 @@
   <groupId>org.apache.qpid</groupId>
   <artifactId>protonj2-parent</artifactId>
   <versioning>
-    <latest>1.0.0-M22</latest>
-    <release>1.0.0-M22</release>
+    <latest>1.0.0-M23</latest>
+    <release>1.0.0-M23</release>
     <versions>
       <version>1.0.0-M1</version>
       <version>1.0.0-M2</version>
@@ -28,7 +28,8 @@
       <version>1.0.0-M20</version>
       <version>1.0.0-M21</version>
       <version>1.0.0-M22</version>
+      <version>1.0.0-M23</version>
     </versions>
-    <lastUpdated>20240920140904</lastUpdated>
+    <lastUpdated>20250219191740</lastUpdated>
   </versioning>
 </metadata>

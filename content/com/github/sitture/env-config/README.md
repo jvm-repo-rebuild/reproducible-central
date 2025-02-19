@@ -7,9 +7,9 @@
 
 Source code: [https://github.com/sitture/env-config.git](https://github.com/sitture/env-config.git)
 
-rebuilding **7 releases** of com.github.sitture:env-config:
+rebuilding **8 releases** of com.github.sitture:env-config:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -20,5 +20,8 @@ rebuilding **7 releases** of com.github.sitture:env-config:
 | [1.11.0](https://central.sonatype.com/artifact/com.github.sitture/env-config/1.11.0/pom) | [mvn jdk11](env-config-1.11.0.buildspec) | [result](env-config-1.11.0.buildinfo): [3 :white_check_mark: ](env-config-1.11.0.buildcompare) | 59K |
 | [1.10.0](https://central.sonatype.com/artifact/com.github.sitture/env-config/1.10.0/pom) | [mvn jdk11](env-config-1.10.0.buildspec) | [result](env-config-1.10.0.buildinfo): [3 :white_check_mark: ](env-config-1.10.0.buildcompare) | 59K |
 | [1.9.0](https://central.sonatype.com/artifact/com.github.sitture/env-config/1.9.0/pom) | [mvn jdk11](env-config-1.9.0.buildspec) | [result](env-config-1.9.0.buildinfo): [1 :white_check_mark:  1 :warning:](env-config-1.9.0.buildcompare) [:memo:](https://github.com/sitture/env-config/pull/226) | 41K |
+| [1.8.0](https://central.sonatype.com/artifact/com.github.sitture/env-config/1.8.0/pom) | | | |
+| [1.7.0](https://central.sonatype.com/artifact/com.github.sitture/env-config/1.7.0/pom) | | | |
+| [1.6.0](https://central.sonatype.com/artifact/com.github.sitture/env-config/1.6.0/pom) | [mvn jdk11](env-config-1.6.0.buildspec) | :x: | |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

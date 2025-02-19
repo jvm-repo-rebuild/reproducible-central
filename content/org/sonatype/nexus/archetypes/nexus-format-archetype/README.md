@@ -13,6 +13,7 @@ rebuilding **17 releases** of org.sonatype.nexus.archetypes:nexus-format-archety
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.73](https://central.sonatype.com/artifact/org.sonatype.nexus.archetypes/nexus-format-archetype/1.0.73/pom) | | | |
 | [1.0.72](https://central.sonatype.com/artifact/org.sonatype.nexus.archetypes/nexus-format-archetype/1.0.72/pom) | [mvn jdk8](nexus-format-archetype-1.0.72.buildspec) | [result](nexus-format-archetype-1.0.72.buildinfo): [2 :white_check_mark: ](nexus-format-archetype-1.0.72.buildcompare) | 69K |
 | [1.0.71](https://central.sonatype.com/artifact/org.sonatype.nexus.archetypes/nexus-format-archetype/1.0.71/pom) | [mvn jdk8](nexus-format-archetype-1.0.71.buildspec) | [result](nexus-format-archetype-1.0.71.buildinfo): [2 :white_check_mark: ](nexus-format-archetype-1.0.71.buildcompare) | 69K |
 | [1.0.70](https://central.sonatype.com/artifact/org.sonatype.nexus.archetypes/nexus-format-archetype/1.0.70/pom) | [mvn jdk8](nexus-format-archetype-1.0.70.buildspec) | [result](nexus-format-archetype-1.0.70.buildinfo): [2 :white_check_mark: ](nexus-format-archetype-1.0.70.buildcompare) | 69K |
