@@ -1,0 +1,17 @@
+groupId=io.yupiik.fusion
+artifactId=fusion
+display=${groupId}:${artifactId}
+version=1.0.17
+
+gitRepo=https://github.com/yupiik/fusion.git
+gitTag=fusion-${version}
+
+tool=mvn
+jdk=21
+newline=lf
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -pl !fusion-documentation"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
