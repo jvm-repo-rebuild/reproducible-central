@@ -3,7 +3,9 @@
 . bin/includes/update-prepare.sh
 
 dir=$1
+[ -f $dir ] && dir="$(dirname $dir)"
 metadata=$dir/maven-metadata.xml
+[ ! -f $metadata ] && echo "Could not find $metadata" && exit 1
 groupId=$(cat "${metadata}" | grep 'groupId>' | cut -d '>' -f 2 | cut -d '<' -f 1)
 artifactId=$(cat "${metadata}" | grep 'artifactId>' | cut -d '>' -f 2 | cut -d '<' -f 1)
 
