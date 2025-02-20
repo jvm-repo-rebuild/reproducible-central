@@ -1,0 +1,20 @@
+groupId=org.apache.qpid
+artifactId=qpid-jms-parent
+version=2.7.0
+
+display=${groupId}:qpid-jms
+
+gitRepo=https://github.com/apache/qpid-jms.git
+gitTag=${version}
+
+tool=mvn
+jdk=17
+newline=lf
+umask=022
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
