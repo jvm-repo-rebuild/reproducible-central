@@ -16,13 +16,13 @@ Source code: [https://github.com/apache/qpid-protonj2.git](https://github.com/ap
 * [org.apache.qpid:protonj2-test-driver](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-test-driver/overview)
 </details>
 
-rebuilding **14 releases** of org.apache.qpid:protonj2-parent:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **15 releases** of org.apache.qpid:protonj2-parent:
+- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.0.0-M23](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M23/pom) | | | |
+| [1.0.0-M23](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M23/pom) | [mvn jdk21](protonj2-1.0.0-M23.buildspec) | [result](protonj2-parent-1.0.0-M23.buildinfo): [13 :white_check_mark: ](protonj2-parent-1.0.0-M23.buildcompare) | 8.5M |
 | [1.0.0-M22](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M22/pom) | [mvn jdk21](protonj2-1.0.0-M22.buildspec) | [result](protonj2-parent-1.0.0-M22.buildinfo): [13 :white_check_mark: ](protonj2-parent-1.0.0-M22.buildcompare) | 8.7M |
 | [1.0.0-M21](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M21/pom) | [mvn jdk17](protonj2-1.0.0-M21.buildspec) | [result](protonj2-parent-1.0.0-M21.buildinfo): [13 :white_check_mark: ](protonj2-parent-1.0.0-M21.buildcompare) | 8.6M |
 | [1.0.0-M20](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M20/pom) | [mvn jdk17](protonj2-1.0.0-M20.buildspec) | [result](protonj2-parent-1.0.0-M20.buildinfo): [13 :white_check_mark: ](protonj2-parent-1.0.0-M20.buildcompare) | 8.6M |
