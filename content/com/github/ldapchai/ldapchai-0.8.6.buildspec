@@ -8,11 +8,11 @@ gitRepo=https://github.com/ldapchai/${artifactId}.git
 gitTag="v$(echo "${version}" | sed -e 's/\./_/g')"
 
 tool=mvn
-jdk=17
+jdk=22
 newline=lf
 
 command="mvn clean package -DskipJavadoc=true -Dcheckstyle.skip=true -Dmaven.test.skip=true -DskipSpotbugs=true"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=https://github.com/ldapchai/ldapchai/issues/28

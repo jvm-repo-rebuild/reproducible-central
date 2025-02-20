@@ -1,0 +1,92 @@
+# in addition to issues with Git data (SCM-Git-Branch in sources.jar and SCM-Git-Commit-ID-Description),
+# removal of default entries (particularly Build-Jdk-Spec) makes it hard to find the fact that this was built with JDK 22 (yes, non-LTS)
+# reverting most of https://github.com/ldapchai/ldapchai/commit/e621fe82af7e0e1c431ba56032838c91d65ea94b will definitively help go back to a working situation as it was in 0.8.3
+1 / 2 target/reference/com.github.ldapchai/ldapchai-0.8.6.jar target/ldapchai-0.8.6.jar
+--- target/reference/com.github.ldapchai/ldapchai-0.8.6.jar
++++ target/ldapchai-0.8.6.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│  Zip file size: 878667 bytes, number of entries: 541
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-26 16:07 META-INF/
+│ --rw-r--r--  2.0 unx      700 b- defN 24-Aug-26 16:07 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx      734 b- defN 24-Aug-26 16:07 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-26 16:07 META-INF/source/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-26 16:07 META-INF/source/com/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-26 16:07 META-INF/source/com/novell/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-26 16:07 META-INF/source/com/novell/ldapchai/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-26 16:07 META-INF/source/com/novell/ldapchai/cr/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-26 16:07 META-INF/source/com/novell/ldapchai/cr/bean/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-26 16:07 META-INF/source/com/novell/ldapchai/exception/
+│ @@ -536,8 +536,8 @@
+│  -rw-r--r--  2.0 unx     2200 b- defN 24-Aug-26 16:07 com/novell/ldapchai/util/internal/MainHandler.class
+│  -rw-r--r--  2.0 unx     4125 b- defN 24-Aug-26 16:07 com/novell/ldapchai/util/internal/SCryptUtil.class
+│  -rw-r--r--  2.0 unx     1385 b- defN 24-Aug-26 16:07 com/novell/ldapchai/util/internal/StringHelper$Base64Options.class
+│  -rw-r--r--  2.0 unx     8735 b- defN 24-Aug-26 16:07 com/novell/ldapchai/util/internal/StringHelper.class
+│  -rw-r--r--  2.0 unx      130 b- defN 24-Aug-26 16:07 com/novell/ldapchai/util/package-info.class
+│  -rw-r--r--  2.0 unx    30731 b- defN 24-Aug-26 16:07 META-INF/maven/com.github.ldapchai/ldapchai/pom.xml
+│  -rw-r--r--  2.0 unx       62 b- defN 24-Aug-26 16:07 META-INF/maven/com.github.ldapchai/ldapchai/pom.properties
+│ -541 files, 2313004 bytes uncompressed, 772679 bytes compressed:  66.6%
+│ +541 files, 2313038 bytes uncompressed, 772679 bytes compressed:  66.6%
+├── META-INF/MANIFEST.MF
+│ @@ -4,15 +4,15 @@
+│  Archive-UID: 854FF0D1B8B9E20E9476A6658AEF997E0ACB09ED6F9B593E086D2C8FBD8
+│   3DBA8
+│  Implementation-Build-Java-Version: 8
+│  Implementation-Title: LDAP Chai Library
+│  Implementation-URL: https://github.com/ldapchai/ldapchai
+│  Implementation-Vendor: LDAP Chai Project
+│  Implementation-Version: 0.8.6
+│ -SCM-Git-Branch: master
+│ +SCM-Git-Branch: a9de4ccc8db9a4862f3819f3dfb63e57a6450bdf
+│  SCM-Git-Commit-Dirty: false
+│  SCM-Git-Commit-ID: a9de4ccc8db9a4862f3819f3dfb63e57a6450bdf
+│  SCM-Git-Commit-ID-Abbrev: a9de4cc
+│  SCM-Git-Commit-ID-Description: v0_8_6
+│  SCM-Git-Commit-Timestamp: 2024-08-26T16:07:08Z
+│  SCM-Git-Remote-Origin-URL: https://github.com/ldapchai/ldapchai.git
+
+2 / 2 target/reference/com.github.ldapchai/ldapchai-0.8.6-sources.jar target/ldapchai-0.8.6-sources.jar
+--- target/reference/com.github.ldapchai/ldapchai-0.8.6-sources.jar
++++ target/ldapchai-0.8.6-sources.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 723176 bytes, number of entries: 454
+│ +Zip file size: 723175 bytes, number of entries: 454
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-26 16:07 META-INF/
+│ --rw-r--r--  2.0 unx      601 b- defN 24-Aug-26 16:07 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx      635 b- defN 24-Aug-26 16:07 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-26 16:07 com/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-26 16:07 com/novell/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-26 16:07 com/novell/ldapchai/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-26 16:07 com/novell/ldapchai/cr/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-26 16:07 com/novell/ldapchai/cr/bean/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-26 16:07 com/novell/ldapchai/exception/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Aug-26 16:07 com/novell/ldapchai/impl/
+│ @@ -449,8 +449,8 @@
+│  -rw-r--r--  2.0 unx     4123 b- defN 24-Aug-26 16:07 META-INF/source/com/novell/ldapchai/util/internal/ChaiLogger.java
+│  -rw-r--r--  2.0 unx     2296 b- defN 24-Aug-26 16:07 META-INF/source/com/novell/ldapchai/util/internal/MainHandler.java
+│  -rw-r--r--  2.0 unx     4876 b- defN 24-Aug-26 16:07 META-INF/source/com/novell/ldapchai/util/internal/SCryptUtil.java
+│  -rw-r--r--  2.0 unx    10205 b- defN 24-Aug-26 16:07 META-INF/source/com/novell/ldapchai/util/internal/StringHelper.java
+│  -rw-r--r--  2.0 unx      932 b- defN 24-Aug-26 16:07 META-INF/source/com/novell/ldapchai/util/package-info.java
+│  -rw-r--r--  2.0 unx    30731 b- defN 24-Aug-26 16:07 META-INF/maven/com.github.ldapchai/ldapchai/pom.xml
+│  -rw-r--r--  2.0 unx       62 b- defN 24-Aug-26 16:07 META-INF/maven/com.github.ldapchai/ldapchai/pom.properties
+│ -454 files, 2453484 bytes uncompressed, 635810 bytes compressed:  74.1%
+│ +454 files, 2453518 bytes uncompressed, 635809 bytes compressed:  74.1%
+├── META-INF/MANIFEST.MF
+│ @@ -2,15 +2,15 @@
+│  Created-By: Maven Source Plugin 3.3.1
+│  Archive-Type: source
+│  Implementation-Build-Java-Version: 8
+│  Implementation-Title: LDAP Chai Library
+│  Implementation-URL: https://github.com/ldapchai/ldapchai
+│  Implementation-Vendor: LDAP Chai Project
+│  Implementation-Version: 0.8.6
+│ -SCM-Git-Branch: master
+│ +SCM-Git-Branch: a9de4ccc8db9a4862f3819f3dfb63e57a6450bdf
+│  SCM-Git-Commit-Dirty: false
+│  SCM-Git-Commit-ID: a9de4ccc8db9a4862f3819f3dfb63e57a6450bdf
+│  SCM-Git-Commit-ID-Abbrev: a9de4cc
+│  SCM-Git-Commit-ID-Description: v0_8_6
+│  SCM-Git-Commit-Timestamp: 2024-08-26T16:07:08Z
+│  SCM-Git-Remote-Origin-URL: https://github.com/ldapchai/ldapchai.git
+

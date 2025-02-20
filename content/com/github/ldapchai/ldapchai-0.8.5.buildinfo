@@ -21,14 +21,17 @@ os.name=Unix
 
 # output
 
+outputs.0.groupId=com.github.ldapchai
 outputs.0.filename=ldapchai-0.8.5.pom
 outputs.0.length=30661
 outputs.0.checksums.sha512=486f1254cb59479fec214f1c25e17ae10fcb174d314c36c3d211b9634c96a847f4ae1d0749f4f8233046227baf1aee525b60b00d02d1a2b91240e0137e2292d6
 
+outputs.1.groupId=com.github.ldapchai
 outputs.1.filename=ldapchai-0.8.5.jar
 outputs.1.length=877942
 outputs.1.checksums.sha512=3e815320b9c33c9b3b3bf35d5782f3964970be69ff08d4a8026d7c1886b7a0f780a0d2e815a3f09b6eb2b042680e0a6ccc05c6732133b0cd4ee8eb6aaad45170
 
+outputs.2.groupId=com.github.ldapchai
 outputs.2.filename=ldapchai-0.8.5-sources.jar
 outputs.2.length=722920
 outputs.2.checksums.sha512=a26c61690a50a59618dd236a97b5b845564e29f1ba8644b8d382292f4ca3303cd874e009ef9fd1480c25f96c59b06a86bae96571dfe2781d4e3859ddd33fef8d
