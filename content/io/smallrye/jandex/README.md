@@ -16,13 +16,13 @@ Source code: [https://github.com/smallrye/jandex.git](https://github.com/smallry
 * [io.smallrye:jandex-test-data](https://central.sonatype.com/artifact/io.smallrye/jandex-test-data/overview)
 </details>
 
-rebuilding **17 releases** of io.smallrye:jandex-parent:
+rebuilding **18 releases** of io.smallrye:jandex-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 17 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 18 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.2.7](https://central.sonatype.com/artifact/io.smallrye/jandex/3.2.7/pom) | | | |
+| [3.2.7](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.2.7/pom) | [mvn jdk21](jandex-3.2.7.buildspec) | [result](jandex-parent-3.2.7.buildinfo): [10 :white_check_mark:  1 :warning:](jandex-parent-3.2.7.buildcompare) | 760K |
 | [3.2.6](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.2.6/pom) | [mvn jdk21](jandex-3.2.6.buildspec) | [result](jandex-parent-3.2.6.buildinfo): [10 :white_check_mark:  1 :warning:](jandex-parent-3.2.6.buildcompare) | 760K |
 | [3.2.5](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.2.5/pom) | [mvn jdk21](jandex-3.2.5.buildspec) | [result](jandex-parent-3.2.5.buildinfo): [10 :white_check_mark:  1 :warning:](jandex-parent-3.2.5.buildcompare) | 758K |
 | [3.2.4](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.2.4/pom) | [mvn jdk21](jandex-3.2.4.buildspec) | [result](jandex-parent-3.2.4.buildinfo): [9 :white_check_mark:  2 :warning:](jandex-parent-3.2.4.buildcompare) | 751K |
