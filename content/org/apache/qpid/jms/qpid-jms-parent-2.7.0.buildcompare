@@ -1,0 +1,9 @@
+version=2.7.0
+ok=10
+ko=0
+ignored=0
+okFiles="qpid-jms-parent-2.7.0.pom qpid-jms-client-2.7.0.pom qpid-jms-client-2.7.0.jar qpid-jms-client-2.7.0-sources.jar qpid-jms-discovery-2.7.0.pom qpid-jms-discovery-2.7.0.jar qpid-jms-discovery-2.7.0-sources.jar apache-qpid-jms-2.7.0.pom apache-qpid-jms-2.7.0-bin.tar.gz apache-qpid-jms-2.7.0-src.tar.gz"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
