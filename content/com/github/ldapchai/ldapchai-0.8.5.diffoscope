@@ -1,5 +1,7 @@
-1 / 2 target/reference/ldapchai-0.8.5.jar target/ldapchai-0.8.5.jar
---- target/reference/ldapchai-0.8.5.jar
+# 1. Git-Branch not reproducible: value during release is master, but on git checkout it is the Git commit
+# 2. removal of default entries (particularly Build-Jdk-Spec) makes it hard to find the fact that this was built with JDK 17: need to test with a range of JDKs
+1 / 2 target/reference/com.github.ldapchai/ldapchai-0.8.5.jar target/ldapchai-0.8.5.jar
+--- target/reference/com.github.ldapchai/ldapchai-0.8.5.jar
 +++ target/ldapchai-0.8.5.jar
 ├── zipinfo {}
 │ @@ -1,10 +1,10 @@
@@ -27,24 +29,24 @@
 │ +543 files, 2310293 bytes uncompressed, 771612 bytes compressed:  66.6%
 ├── META-INF/MANIFEST.MF
 │ @@ -4,15 +4,15 @@
-│  Archive-UID: 854FF0D1B8B9E20E9476A6658AEF997E0ACB09ED6F9B593E086D2C8FBD8
-│   3DBA8
-│  Implementation-Build-Java-Version: 8
-│  Implementation-Title: LDAP Chai Library
-│  Implementation-URL: https://github.com/ldapchai/ldapchai
-│  Implementation-Vendor: LDAP Chai Project
-│  Implementation-Version: 0.8.5
-│ -SCM-Git-Branch: master
-│ +SCM-Git-Branch: ad898966c0d1af36f9ab081f53fd3dcadb881458
-│  SCM-Git-Commit-Dirty: false
-│  SCM-Git-Commit-ID: ad898966c0d1af36f9ab081f53fd3dcadb881458
-│  SCM-Git-Commit-ID-Abbrev: ad89896
-│  SCM-Git-Commit-ID-Description: v0.8.5
-│  SCM-Git-Commit-Timestamp: 2023-05-02T22:49:51Z
+│  Archive-UID: 854FF0D1B8B9E20E9476A6658AEF997E0ACB09ED6F9B593E086D2C8FBD8
+│   3DBA8
+│  Implementation-Build-Java-Version: 8
+│  Implementation-Title: LDAP Chai Library
+│  Implementation-URL: https://github.com/ldapchai/ldapchai
+│  Implementation-Vendor: LDAP Chai Project
+│  Implementation-Version: 0.8.5
+│ -SCM-Git-Branch: master
+│ +SCM-Git-Branch: ad898966c0d1af36f9ab081f53fd3dcadb881458
+│  SCM-Git-Commit-Dirty: false
+│  SCM-Git-Commit-ID: ad898966c0d1af36f9ab081f53fd3dcadb881458
+│  SCM-Git-Commit-ID-Abbrev: ad89896
+│  SCM-Git-Commit-ID-Description: v0.8.5
+│  SCM-Git-Commit-Timestamp: 2023-05-02T22:49:51Z
 │  SCM-Git-Remote-Origin-URL: https://github.com/ldapchai/ldapchai.git
 
-2 / 2 target/reference/ldapchai-0.8.5-sources.jar target/ldapchai-0.8.5-sources.jar
---- target/reference/ldapchai-0.8.5-sources.jar
+2 / 2 target/reference/com.github.ldapchai/ldapchai-0.8.5-sources.jar target/ldapchai-0.8.5-sources.jar
+--- target/reference/com.github.ldapchai/ldapchai-0.8.5-sources.jar
 +++ target/ldapchai-0.8.5-sources.jar
 ├── zipinfo {}
 │ @@ -1,9 +1,9 @@
@@ -71,19 +73,19 @@
 │ +454 files, 2451494 bytes uncompressed, 635554 bytes compressed:  74.1%
 ├── META-INF/MANIFEST.MF
 │ @@ -2,15 +2,15 @@
-│  Created-By: Maven Source Plugin 3.2.1
-│  Archive-Type: source
-│  Implementation-Build-Java-Version: 8
-│  Implementation-Title: LDAP Chai Library
-│  Implementation-URL: https://github.com/ldapchai/ldapchai
-│  Implementation-Vendor: LDAP Chai Project
-│  Implementation-Version: 0.8.5
-│ -SCM-Git-Branch: master
-│ +SCM-Git-Branch: ad898966c0d1af36f9ab081f53fd3dcadb881458
-│  SCM-Git-Commit-Dirty: false
-│  SCM-Git-Commit-ID: ad898966c0d1af36f9ab081f53fd3dcadb881458
-│  SCM-Git-Commit-ID-Abbrev: ad89896
-│  SCM-Git-Commit-ID-Description: v0.8.5
-│  SCM-Git-Commit-Timestamp: 2023-05-02T22:49:51Z
+│  Created-By: Maven Source Plugin 3.2.1
+│  Archive-Type: source
+│  Implementation-Build-Java-Version: 8
+│  Implementation-Title: LDAP Chai Library
+│  Implementation-URL: https://github.com/ldapchai/ldapchai
+│  Implementation-Vendor: LDAP Chai Project
+│  Implementation-Version: 0.8.5
+│ -SCM-Git-Branch: master
+│ +SCM-Git-Branch: ad898966c0d1af36f9ab081f53fd3dcadb881458
+│  SCM-Git-Commit-Dirty: false
+│  SCM-Git-Commit-ID: ad898966c0d1af36f9ab081f53fd3dcadb881458
+│  SCM-Git-Commit-ID-Abbrev: ad89896
+│  SCM-Git-Commit-ID-Description: v0.8.5
+│  SCM-Git-Commit-Timestamp: 2023-05-02T22:49:51Z
 │  SCM-Git-Remote-Origin-URL: https://github.com/ldapchai/ldapchai.git
 

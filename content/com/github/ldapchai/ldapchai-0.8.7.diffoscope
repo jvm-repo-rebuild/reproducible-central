@@ -1,5 +1,6 @@
-# in addition to issues with Git data, removal of default entries makes it hard to find the fact that this was built with JDK 22 (yes, non-LTS)
-# reverting most of https://github.com/ldapchai/ldapchai/commit/e621fe82af7e0e1c431ba56032838c91d65ea94b will definitively help go back to a working situation
+# in addition to issues with Git data (SCM-Git-Branch in sources.jar and SCM-Git-Commit-ID-Description),
+# removal of default entries (particularly Build-Jdk-Spec) makes it hard to find the fact that this was built with JDK 22 (yes, non-LTS)
+# reverting most of https://github.com/ldapchai/ldapchai/commit/e621fe82af7e0e1c431ba56032838c91d65ea94b will definitively help go back to a working situation as it was in 0.8.3
 1 / 2 target/reference/com.github.ldapchai/ldapchai-0.8.7.jar target/ldapchai-0.8.7.jar
 --- target/reference/com.github.ldapchai/ldapchai-0.8.7.jar
 +++ target/ldapchai-0.8.7.jar

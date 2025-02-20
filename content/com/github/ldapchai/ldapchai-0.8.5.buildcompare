@@ -1,7 +1,9 @@
 version=0.8.5
 ok=1
 ko=2
+ignored=0
 okFiles="ldapchai-0.8.5.pom"
 koFiles="ldapchai-0.8.5.jar ldapchai-0.8.5-sources.jar"
-# diffoscope target/reference/ldapchai-0.8.5.jar target/ldapchai-0.8.5.jar
-# diffoscope target/reference/ldapchai-0.8.5-sources.jar target/ldapchai-0.8.5-sources.jar
+ignoredFiles=""
+# diffoscope target/reference/com.github.ldapchai/ldapchai-0.8.5.jar target/ldapchai-0.8.5.jar
+# diffoscope target/reference/com.github.ldapchai/ldapchai-0.8.5-sources.jar target/ldapchai-0.8.5-sources.jar
