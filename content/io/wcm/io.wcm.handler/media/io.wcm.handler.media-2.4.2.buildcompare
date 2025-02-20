@@ -1,0 +1,11 @@
+version=2.4.2
+ok=3
+ko=2
+ignored=0
+okFiles="io.wcm.handler.media-2.4.2.pom io.wcm.handler.media-2.4.2.jar io.wcm.handler.media-2.4.2-sources.jar"
+koFiles="io.wcm.handler.media-2.4.2-content.zip io.wcm.handler.media-2.4.2-bundle.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/io.wcm/io.wcm.handler.media-2.4.2-content.zip target/io.wcm.handler.media-2.4.2-content.zip
+# diffoscope target/reference/io.wcm/io.wcm.handler.media-2.4.2-bundle.jar target/io.wcm.handler.media-2.4.2-bundle.jar
