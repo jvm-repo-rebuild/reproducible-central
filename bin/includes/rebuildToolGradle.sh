@@ -35,7 +35,6 @@ rebuildToolGradle() {
   [ -d userhome/.m2 ] || mkdir -p userhome/.m2
   [ -d userhome/.gradle ] || mkdir -p userhome/.gradle
   [ -d $PWD/.bnd ] || mkdir -p $PWD/.bnd
-  find . -name build -exec \rm -rf {} \;
 
   [ "${workdir}" = "" ] && workdir="/var/gradle/app"
 
