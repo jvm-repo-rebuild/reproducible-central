@@ -1,0 +1,9 @@
+version=0.8.0
+ok=21
+ko=0
+ignored=0
+okFiles="convex-0.8.0.pom convex-core-0.8.0.pom convex-core-0.8.0.jar convex-peer-0.8.0.pom convex-peer-0.8.0.jar convex-sodium-0.8.0.pom convex-sodium-0.8.0.jar convex-java-0.8.0.pom convex-java-0.8.0.jar convex-observer-0.8.0.pom convex-observer-0.8.0.jar convex-restapi-0.8.0.pom convex-restapi-0.8.0.jar convex-gui-0.8.0.pom convex-gui-0.8.0.jar convex-cli-0.8.0.pom convex-cli-0.8.0.jar convex-benchmarks-0.8.0.pom convex-benchmarks-0.8.0.jar convex-integration-0.8.0.pom convex-integration-0.8.0.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
