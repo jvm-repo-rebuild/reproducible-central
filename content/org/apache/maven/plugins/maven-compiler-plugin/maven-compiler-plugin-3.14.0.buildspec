@@ -14,4 +14,5 @@ umask=022
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
+diffoscope=${artifactId}-${version}.diffoscope
 issue=

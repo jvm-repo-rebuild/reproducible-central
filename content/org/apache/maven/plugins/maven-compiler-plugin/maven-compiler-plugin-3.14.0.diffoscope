@@ -1,0 +1,30 @@
+1 / 1 target/reference/org.apache.maven.plugins/maven-compiler-plugin-3.14.0-source-release.zip target/maven-compiler-plugin-3.14.0-source-release.zip
+--- target/reference/org.apache.maven.plugins/maven-compiler-plugin-3.14.0-source-release.zip
++++ target/maven-compiler-plugin-3.14.0-source-release.zip
+├── zipinfo {}
+│ @@ -1,14 +1,9 @@
+│ -Zip file size: 784280 bytes, number of entries: 1479
+│ +Zip file size: 783118 bytes, number of entries: 1474
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Feb-17 21:03 maven-compiler-plugin-3.14.0/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Feb-17 21:03 maven-compiler-plugin-3.14.0/${project.build.directory}/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Feb-17 21:03 maven-compiler-plugin-3.14.0/${project.build.directory}/generated-sources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Feb-17 21:03 maven-compiler-plugin-3.14.0/${project.build.directory}/generated-sources/annotations/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Feb-17 21:03 maven-compiler-plugin-3.14.0/${project.build.directory}/generated-test-sources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Feb-17 21:03 maven-compiler-plugin-3.14.0/${project.build.directory}/generated-test-sources/test-annotations/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Feb-17 21:03 maven-compiler-plugin-3.14.0/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Feb-17 21:03 maven-compiler-plugin-3.14.0/src/it/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Feb-17 21:03 maven-compiler-plugin-3.14.0/src/it/MCOMPILER-129/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Feb-17 21:03 maven-compiler-plugin-3.14.0/src/it/MCOMPILER-129/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Feb-17 21:03 maven-compiler-plugin-3.14.0/src/it/MCOMPILER-129/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Feb-17 21:03 maven-compiler-plugin-3.14.0/src/it/MCOMPILER-129/src/main/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Feb-17 21:03 maven-compiler-plugin-3.14.0/src/it/MCOMPILER-157/
+│ @@ -1474,8 +1469,8 @@
+│  -rw-r--r--  2.0 unx      910 b- defN 25-Feb-17 21:03 maven-compiler-plugin-3.14.0/src/test/resources/unit/compiler-skip-main/src/test/java/TestSkipMainCompile0Test.java
+│  -rw-r--r--  2.0 unx     1493 b- defN 25-Feb-17 21:03 maven-compiler-plugin-3.14.0/src/test/resources/unit/compiler-skip-test/plugin-config.xml
+│  -rw-r--r--  2.0 unx      944 b- defN 25-Feb-17 21:03 maven-compiler-plugin-3.14.0/src/test/resources/unit/compiler-skip-test/src/main/java/TestSkipTestCompile0.java
+│  -rw-r--r--  2.0 unx      979 b- defN 25-Feb-17 21:03 maven-compiler-plugin-3.14.0/src/test/resources/unit/compiler-skip-test/src/test/java/TestSkipTestCompile0Test.java
+│  -rw-r--r--  2.0 unx     3140 b- defN 25-Feb-17 21:03 maven-compiler-plugin-3.14.0/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 25-Feb-17 21:03 maven-compiler-plugin-3.14.0/LICENSE
+│  -rw-r--r--  2.0 unx      183 b- defN 25-Feb-17 21:03 maven-compiler-plugin-3.14.0/NOTICE
+│ -1479 files, 975154 bytes uncompressed, 423154 bytes compressed:  56.6%
+│ +1474 files, 975154 bytes uncompressed, 423154 bytes compressed:  56.6%
