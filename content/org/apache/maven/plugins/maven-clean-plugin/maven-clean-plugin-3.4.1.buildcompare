@@ -1,0 +1,9 @@
+version=3.4.1
+ok=6
+ko=0
+ignored=0
+okFiles="maven-clean-plugin-3.4.1.pom maven-clean-plugin-3.4.1.jar maven-clean-plugin-3.4.1-source-release.zip maven-clean-plugin-3.4.1-sources.jar maven-clean-plugin-3.4.1-cyclonedx.xml maven-clean-plugin-3.4.1-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
