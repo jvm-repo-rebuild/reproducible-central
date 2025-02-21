@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.avaje</groupId>
+  <artifactId>avaje-logback-encoder</artifactId>
+  <versioning>
+    <latest>0.11-java8</latest>
+    <release>0.11-java8</release>
+    <versions>
+      <version>0.1</version>
+      <version>0.2</version>
+      <version>0.3</version>
+      <version>0.4</version>
+      <version>0.5</version>
+      <version>0.7</version>
+      <version>0.7-java8</version>
+      <version>0.8</version>
+      <version>0.8-java8</version>
+      <version>0.9</version>
+      <version>0.9-java8</version>
+      <version>0.9.1-java8</version>
+      <version>0.10</version>
+      <version>0.10-java8</version>
+      <version>0.11</version>
+      <version>0.11-java8</version>
+    </versions>
+    <lastUpdated>20250210092041</lastUpdated>
+  </versioning>
+</metadata>
