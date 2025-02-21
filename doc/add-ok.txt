@@ -1,10 +1,6 @@
 content/com/spotify/github-client/github-client-0.3.6.buildspec:0.3.7
 content/dev/langchain4j/langchain4j-1.0.0-alpha1.buildspec:1.0.0-beta1
-content/io/airlift/airbase/airbase-218.buildspec:219
-content/io/avaje/jex/avaje-jex-3.0-RC18.buildspec:3.0-RC19
-content/org/apache/maven/plugins/maven-clean-plugin/maven-clean-plugin-4.0.0-beta-1.buildspec:4.0.0-beta-2
-content/org/apache/qpid/jms/qpid-jms-2.6.1.buildspec:2.7.0
-content/org/apache/qpid/protonj2/protonj2-1.0.0-M22.buildspec:1.0.0-M23
-content/org/infinispan/protostream/protostream-6.0.0.Dev03.buildspec:6.0.0.Dev04
-content/org/sonatype/nexus/archetypes/nexus-format-archetype/nexus-format-archetype-1.0.72.buildspec:1.0.73
+content/io/trino/trino-470.buildspec:471
+content/io/airlift/airbase/airbase-219.buildspec:220
+content/io/avaje/jex/avaje-jex-3.0-RC18.buildspec:3.0-RC20
 content/world/convex/convex-0.7.15.buildspec:0.8.0
