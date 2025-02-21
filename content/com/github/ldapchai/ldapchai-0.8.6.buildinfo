@@ -14,7 +14,7 @@ source.scm.tag=HEAD
 build-tool=mvn
 
 # build environment information (simplified for reproducibility)
-java.version=17
+java.version=22
 os.name=Unix
 
 # Maven rebuild instructions and effective environment
@@ -28,8 +28,8 @@ outputs.0.checksums.sha512=2bef48cacbaee17b984b9ec47fdb4fc8cd74e1c9cdd758d18dc18
 
 outputs.1.groupId=com.github.ldapchai
 outputs.1.filename=ldapchai-0.8.6.jar
-outputs.1.length=878345
-outputs.1.checksums.sha512=5a36ceed4b29ebada744fd368737c4d35e0b8d6414883e1c2600e739181bb5ff1a6feb13771068f5be70c717ad59d59754b44948ce2bcc3d9adc11ef9f97bd76
+outputs.1.length=878667
+outputs.1.checksums.sha512=a976a67d9923d5d9d1d6935199c968821f7e7bb75148aab128f2e4d80b2ad1211caafaa4f6a3875f73479e9a39db2f19da68b117f4a00cee524c7cfb8d80e4fa
 
 outputs.2.groupId=com.github.ldapchai
 outputs.2.filename=ldapchai-0.8.6-sources.jar
