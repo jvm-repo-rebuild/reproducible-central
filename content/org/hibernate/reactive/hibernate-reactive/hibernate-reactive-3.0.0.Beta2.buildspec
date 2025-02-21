@@ -2,7 +2,7 @@
 
 # Central Repository coordinates for the Reference release (for multi-module, pick an arbitrary module)
 groupId=org.hibernate.reactive
-artifactId=hibernate-reactive
+artifactId=hibernate-reactive-core
 version=3.0.0.Beta2
 
 display=${groupId}:${artifactId}
