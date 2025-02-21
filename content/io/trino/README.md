@@ -7,10 +7,11 @@
 
 Source code: [https://github.com/trinodb/trino.git](https://github.com/trinodb/trino.git)
 
-<details><summary>This project defines 117 modules:</summary>
+<details><summary>This project defines 118 modules:</summary>
 
 * [io.trino:trino-accumulo](https://central.sonatype.com/artifact/io.trino/trino-accumulo/overview)
 * [io.trino:trino-accumulo-iterators](https://central.sonatype.com/artifact/io.trino/trino-accumulo-iterators/overview)
+* [io.trino:trino-ai-functions](https://central.sonatype.com/artifact/io.trino/trino-ai-functions/overview)
 * [io.trino:trino-array](https://central.sonatype.com/artifact/io.trino/trino-array/overview)
 * [io.trino:trino-atop](https://central.sonatype.com/artifact/io.trino/trino-atop/overview)
 * [io.trino:trino-base-jdbc](https://central.sonatype.com/artifact/io.trino/trino-base-jdbc/overview)
@@ -128,13 +129,13 @@ Source code: [https://github.com/trinodb/trino.git](https://github.com/trinodb/t
 * [io.trino:trino-web-ui](https://central.sonatype.com/artifact/io.trino/trino-web-ui/overview)
 </details>
 
-rebuilding **25 releases** of io.trino:trino-root:
-- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **26 releases** of io.trino:trino-root:
+- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [471](https://central.sonatype.com/artifact/io.trino/trino-root/471/pom) | | | |
+| [471](https://central.sonatype.com/artifact/io.trino/trino-root/471/pom) | [mvn jdk23](trino-471.buildspec) | [result](trino-root-471.buildinfo): [616 :white_check_mark: ](trino-root-471.buildcompare) | 5.5G |
 | [470](https://central.sonatype.com/artifact/io.trino/trino-root/470/pom) | [mvn jdk23](trino-470.buildspec) | [result](trino-root-470.buildinfo): [615 :white_check_mark: ](trino-root-470.buildcompare) | 6.4G |
 | [469](https://central.sonatype.com/artifact/io.trino/trino-root/469/pom) | [mvn jdk23](trino-469.buildspec) | [result](trino-root-469.buildinfo): [609 :white_check_mark: ](trino-root-469.buildcompare) | 6.2G |
 | [468](https://central.sonatype.com/artifact/io.trino/trino-root/468/pom) | [mvn jdk23](trino-468.buildspec) | [result](trino-root-468.buildinfo): [609 :white_check_mark: ](trino-root-468.buildcompare) | 6.1G |
