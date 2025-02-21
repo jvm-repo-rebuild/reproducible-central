@@ -1,6 +1,4 @@
-content/com/spotify/github-client/github-client-0.3.6.buildspec:0.3.7
 content/dev/langchain4j/langchain4j-1.0.0-alpha1.buildspec:1.0.0-beta1
-content/io/trino/trino-470.buildspec:471
-content/io/airlift/airbase/airbase-219.buildspec:220
-content/io/avaje/jex/avaje-jex-3.0-RC18.buildspec:3.0-RC20
-content/world/convex/convex-0.7.15.buildspec:0.8.0
+content/io/avaje/http/avaje-http-3.0.buildspec:3.1-RC1
+content/io/avaje/jex/avaje-jex-3.0-RC19.buildspec:3.0-RC20
+content/org/junit/junit5/junit5-5.12.0-RC2.buildspec:5.12.0
