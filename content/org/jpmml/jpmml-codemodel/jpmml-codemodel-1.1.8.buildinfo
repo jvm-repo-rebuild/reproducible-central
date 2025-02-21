@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-CodeModel
+group-id=org.jpmml
+artifact-id=jpmml-codemodel
+version=1.1.8
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-codemodel.git
+source.scm.tag=1.1.8
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.jpmml
+outputs.0.filename=jpmml-codemodel-1.1.8.pom
+outputs.0.length=4529
+outputs.0.checksums.sha512=948dfe32dd23e1ffed1c43f0aaa8f151291622bb3808ef41faa07d5ef01095b00be3d72164603f7104190e37602aec5a47e6e30f65bf9f48952596ed8f1f6a5c
+
+outputs.1.groupId=org.jpmml
+outputs.1.filename=jpmml-codemodel-1.1.8.jar
+outputs.1.length=27981
+outputs.1.checksums.sha512=11a6ac6a7656419511d1c1537ef9fc8d324d7d058802c3708dc77de981baae378cef009fa5d32a4215063b8052fda323b66e90594625dd4f04a8870ed4afb1b5
+
+outputs.2.groupId=org.jpmml
+outputs.2.filename=jpmml-codemodel-1.1.8-sources.jar
+outputs.2.length=13238
+outputs.2.checksums.sha512=a070b3d727cc3301aa587f8e0dab7c6bef25fbe00dc9e0b4ebb3c87aeabed648df08e8b388b9cb831a5973a7fc1bfaf6a62d2477e62b218b6d8090391790ecb8
