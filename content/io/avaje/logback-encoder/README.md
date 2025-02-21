@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/avaje/avaje-logback-encoder.git](https://github.com/avaje/avaje-logback-encoder.git)
 
-rebuilding **2 releases** of io.avaje:avaje-logback-encoder:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **3 releases** of io.avaje:avaje-logback-encoder:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [0.11-java8](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/0.11-java8/pom) | | | |
-| [0.11](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/0.11/pom) | | | |
+| [0.11](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/0.11/pom) | [mvn jdk21](avaje-logback-encoder-0.11.buildspec) | [result](avaje-logback-encoder-0.11.buildinfo): [3 :white_check_mark: ](avaje-logback-encoder-0.11.buildcompare) | 54K |
 | [0.10-java8](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/0.10-java8/pom) | | | |
 | [0.10](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/0.10/pom) | | | |
 | [0.9.1-java8](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/0.9.1-java8/pom) | | | |
