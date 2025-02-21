@@ -1,0 +1,228 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons VFS Project
+group-id=org.apache.commons
+artifact-id=commons-vfs2-project
+version=2.10.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-vfs.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=commons-vfs2-distribution
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.commons:commons-vfs2-project
+
+outputs.0.0.groupId=org.apache.commons
+outputs.0.0.filename=commons-vfs2-project-2.10.0.pom
+outputs.0.0.length=27340
+outputs.0.0.checksums.sha512=06f7815982367eb68f8d118bace4d94b45333ba95969a30129545fbf8b500f0edc9b773da4d38bda1690d4678d0d03e2d564e046ba9699f253fd8401b104bd71
+# ignored commons-vfs2-project-2.10.0-cyclonedx.xml
+# ignored commons-vfs2-project-2.10.0-cyclonedx.json
+# ignored commons-vfs2-project-2.10.0.spdx.json
+
+outputs.0.1.groupId=org.apache.commons
+outputs.0.1.filename=commons-vfs2-project-2.10.0-site.xml
+outputs.0.1.length=3294
+outputs.0.1.checksums.sha512=96d77c532da52920973883e349985d453ed9a15a0d8131e013b6d1714436b7c21df14b7230f07a9bc47949cc5f19ba7a7bb0da8c2fb3b416121958fd33f3fc35
+
+outputs.1.coordinates=org.apache.commons:commons-vfs2
+
+outputs.1.0.groupId=org.apache.commons
+outputs.1.0.filename=commons-vfs2-2.10.0.pom
+outputs.1.0.length=13818
+outputs.1.0.checksums.sha512=7df3af4964e153c971901f3ef72bf51db8d0a98e6bd7591e8b1ca99be906aa09fd9422ce5f6418cbd305a65f2a218d93c544c3eb3af6d05086f1089b6c686e7e
+
+outputs.1.1.groupId=org.apache.commons
+outputs.1.1.filename=commons-vfs2-2.10.0.jar
+outputs.1.1.length=534044
+outputs.1.1.checksums.sha512=c8302e679e0d0f0d9467f263dc37e792f35802e9762f78a7fb5a59108668d3751bc63f415c61e46a4eca409f306091abb6ef8bc95c2bc72807a0f91553195c7a
+
+outputs.1.2.groupId=org.apache.commons
+outputs.1.2.filename=commons-vfs2-2.10.0-tests.jar
+outputs.1.2.length=443534
+outputs.1.2.checksums.sha512=cbc4507ca89db7e7bcc1b48db53aee307d203c42e8b1b09c67421767df7535b54065300ba23c251037ba486c68f4de7b3b8b611337c892aa89f17b4449f803be
+
+outputs.1.3.groupId=org.apache.commons
+outputs.1.3.filename=commons-vfs2-2.10.0-sources.jar
+outputs.1.3.length=518812
+outputs.1.3.checksums.sha512=aa639118c5a08e38b97e1a8f5972f400b7e9db864ad141468515713e081d07cb8ec3b2026ec16a49da0007bb9580a349e8bcc6bb96c7a29ea122a6744e0bbefa
+
+outputs.1.4.groupId=org.apache.commons
+outputs.1.4.filename=commons-vfs2-2.10.0-test-sources.jar
+outputs.1.4.length=336120
+outputs.1.4.checksums.sha512=ee8efbe4eedd19d0165b335cc57f938318bcc3b0b2b3cae161116ce06cbfd27bf393453c4dc39b6df0a466698e87c39784c51abc8c70d09972d9ec8948020b39
+# ignored commons-vfs2-2.10.0-cyclonedx.xml
+# ignored commons-vfs2-2.10.0-cyclonedx.json
+# ignored commons-vfs2-2.10.0.spdx.json
+
+outputs.2.coordinates=org.apache.commons:commons-vfs2-ant
+
+outputs.2.0.groupId=org.apache.commons
+outputs.2.0.filename=commons-vfs2-ant-2.10.0.pom
+outputs.2.0.length=7471
+outputs.2.0.checksums.sha512=b8b74c8a643ddc00c7a5ff53f935407f19bb5c16d4cf80a49ee90bafa5141900e117c0a39e9f06bc2c0d5a07594b7504dfac8a765627ab27eda968cc4017a19d
+
+outputs.2.1.groupId=org.apache.commons
+outputs.2.1.filename=commons-vfs2-ant-2.10.0.jar
+outputs.2.1.length=24370
+outputs.2.1.checksums.sha512=4a09d333483df8de8be09bebd73bb068738485cbe558879ec8cb1270ecdffb08801bd2e9d9face378f924fb0b81c57844a578d9c2cac710d987d61d57990a1c5
+
+outputs.2.2.groupId=org.apache.commons
+outputs.2.2.filename=commons-vfs2-ant-2.10.0-tests.jar
+outputs.2.2.length=7736
+outputs.2.2.checksums.sha512=5f7173b730e6305646e6d915c01bd01e09a21333d7175e5893e2b252f13369b70fac90a9053908b6a1f852abe6a2731eb3676a20a0623527d34390ca7e7ad5c2
+
+outputs.2.3.groupId=org.apache.commons
+outputs.2.3.filename=commons-vfs2-ant-2.10.0-sources.jar
+outputs.2.3.length=21678
+outputs.2.3.checksums.sha512=bae4894fd92295438afca837ce54f57ea34670df10549f59e9fb96a48affef9947eaf7c4bde66edf0703e4c3f8f06caf4df6231f269eb6cd9cb5ad226ebc13f4
+
+outputs.2.4.groupId=org.apache.commons
+outputs.2.4.filename=commons-vfs2-ant-2.10.0-test-sources.jar
+outputs.2.4.length=7322
+outputs.2.4.checksums.sha512=4d17f028783a842be35121ba5c877f6d22e19d293d469ac2155cb874f58a7a1586af57a98eee37fdd28199b94fa9c1d0f1174f8f5f16f3ffebe4328488a06a21
+# ignored commons-vfs2-ant-2.10.0-cyclonedx.xml
+# ignored commons-vfs2-ant-2.10.0-cyclonedx.json
+# ignored commons-vfs2-ant-2.10.0.spdx.json
+
+outputs.3.coordinates=org.apache.commons:commons-vfs2-hdfs
+
+outputs.3.0.groupId=org.apache.commons
+outputs.3.0.filename=commons-vfs2-hdfs-2.10.0.pom
+outputs.3.0.length=10580
+outputs.3.0.checksums.sha512=1a7f27a99eb18198eba2568e01c8238a1297d3f8442c5b0defda337468e22b6f1fe5a87afcc03113c34b3ee280bf8e69884f53a4e513c914b723101c4fe37ec1
+
+outputs.3.1.groupId=org.apache.commons
+outputs.3.1.filename=commons-vfs2-hdfs-2.10.0.jar
+outputs.3.1.length=24225
+outputs.3.1.checksums.sha512=ca910d25bc4e812e19f47b16423ed7c8eb796821e39415c9a3546c3587e7f5087788547cd058de1172d25c72fbe12da8b0ebd6d11c36ff5f8ab2aaaf90971748
+
+outputs.3.2.groupId=org.apache.commons
+outputs.3.2.filename=commons-vfs2-hdfs-2.10.0-tests.jar
+outputs.3.2.length=19108
+outputs.3.2.checksums.sha512=024b3b39561d62b044a62622d1e10ace5234e55af1bdbaaa9f046562aed50d3a6732ab488767fdc675bf2dca0eda0faf055b806e7a5dfa4eba730ab28de8c991
+
+outputs.3.3.groupId=org.apache.commons
+outputs.3.3.filename=commons-vfs2-hdfs-2.10.0-sources.jar
+outputs.3.3.length=21640
+outputs.3.3.checksums.sha512=efcfd183a7452c6dbffa810093e8b051968fc8dd64cd89a2102b39822188f1b5ffb980cac2d5f39c6634d8741ab36089dba033f59733c43cb1b585b8a9453509
+
+outputs.3.4.groupId=org.apache.commons
+outputs.3.4.filename=commons-vfs2-hdfs-2.10.0-test-sources.jar
+outputs.3.4.length=14263
+outputs.3.4.checksums.sha512=2bfc30b3fd1647656e543379f71ba0116fef0ae9aaa9604ccac782030e91dbe79464c72076a8375b96bc05c886c9e134be490ce20663b2d71ebb3bd7d4bbae80
+# ignored commons-vfs2-hdfs-2.10.0-cyclonedx.xml
+# ignored commons-vfs2-hdfs-2.10.0-cyclonedx.json
+# ignored commons-vfs2-hdfs-2.10.0.spdx.json
+
+outputs.4.coordinates=org.apache.commons:commons-vfs2-jackrabbit1
+
+outputs.4.0.groupId=org.apache.commons
+outputs.4.0.filename=commons-vfs2-jackrabbit1-2.10.0.pom
+outputs.4.0.length=7598
+outputs.4.0.checksums.sha512=109e5a2de690a37f243eb4355d1db5c8893ae0e2c6bf2e59cf823d33c98e0045482f824966b91e4455c31320d7c14be4a37c543cfc8ab519c9baa233be59e458
+
+outputs.4.1.groupId=org.apache.commons
+outputs.4.1.filename=commons-vfs2-jackrabbit1-2.10.0.jar
+outputs.4.1.length=29576
+outputs.4.1.checksums.sha512=974efc46e19ed807ffefc45cd5574d3f0715be2cda198b88431ff0cca9aab84f03fd3b5fbc968841c577553eb6594d96b5b3bb55a7c0ad64406ee06266214790
+
+outputs.4.2.groupId=org.apache.commons
+outputs.4.2.filename=commons-vfs2-jackrabbit1-2.10.0-tests.jar
+outputs.4.2.length=68974
+outputs.4.2.checksums.sha512=b19764473f9b1c45f48eef6504315e09fa924a3fc38063ffff91982665a5ac70e0c90699724e5661cb0ac7dd9c2f950e97a1a1b2160db683fce6e1d9d0bf3340
+
+outputs.4.3.groupId=org.apache.commons
+outputs.4.3.filename=commons-vfs2-jackrabbit1-2.10.0-sources.jar
+outputs.4.3.length=23983
+outputs.4.3.checksums.sha512=ec17ff9ff8d5b9f78dc8691e53d4c2768d4a89802e4e3352b05a0a91bd0689918d40e73b5a817085374a55c3efd8510c83b74a2e11923290fd36633b12afb4fb
+
+outputs.4.4.groupId=org.apache.commons
+outputs.4.4.filename=commons-vfs2-jackrabbit1-2.10.0-test-sources.jar
+outputs.4.4.length=62741
+outputs.4.4.checksums.sha512=e3234bdf7e6577049d3a82ed34ba4f06a6f39459376cecdbdaefcaf7002ec21544e4ce6f01f27e3b3c3eecef4d2def403cbeedcf70cf2024e911435af52fc9f2
+# ignored commons-vfs2-jackrabbit1-2.10.0-cyclonedx.xml
+# ignored commons-vfs2-jackrabbit1-2.10.0-cyclonedx.json
+# ignored commons-vfs2-jackrabbit1-2.10.0.spdx.json
+
+outputs.5.coordinates=org.apache.commons:commons-vfs2-jackrabbit2
+
+outputs.5.0.groupId=org.apache.commons
+outputs.5.0.filename=commons-vfs2-jackrabbit2-2.10.0.pom
+outputs.5.0.length=7036
+outputs.5.0.checksums.sha512=22b0e0e666d408c5ca2ed98fc30f77681bd5c5ba0da2457190e8c4cacb4eefafaf90b87adb0ee30c92d0cc37dd1ea7c87012bbfcac2e5e983333191c2ebc4ac7
+
+outputs.5.1.groupId=org.apache.commons
+outputs.5.1.filename=commons-vfs2-jackrabbit2-2.10.0.jar
+outputs.5.1.length=34586
+outputs.5.1.checksums.sha512=e31450a4be4bc100607f3a3a48622f9c08227be9cdbda5e7758c7d0d5888c0e52fbe1bfd4438fb67638ee8ed6f02383003d402429494492373535948d6dbc464
+
+outputs.5.2.groupId=org.apache.commons
+outputs.5.2.filename=commons-vfs2-jackrabbit2-2.10.0-tests.jar
+outputs.5.2.length=74637
+outputs.5.2.checksums.sha512=969eaba9dc2e0c0c853082310595b9e2260af6cfb5ba6d8bb85144819c3fa37124381856aac32d3df894ba79bc5742e23b6f4d113cbaa0dd57a805e656af99d0
+
+outputs.5.3.groupId=org.apache.commons
+outputs.5.3.filename=commons-vfs2-jackrabbit2-2.10.0-sources.jar
+outputs.5.3.length=28270
+outputs.5.3.checksums.sha512=35ea8118c7a7b92b4f7db3dcd20b0f903763e22fde42c5e85534999ba054bdf91aeb025facec486789dc741d2b13083275c0a60b07604cfc9c55001dd3eb9cec
+
+outputs.5.4.groupId=org.apache.commons
+outputs.5.4.filename=commons-vfs2-jackrabbit2-2.10.0-test-sources.jar
+outputs.5.4.length=65143
+outputs.5.4.checksums.sha512=3a6342ea4f8dbfc5004767f98e39b655639f8338bd401d69948d708c0b4fe5d29101a4977f0ededba5210ebac9d4f66a7f26fa5fff0540c040c15b489e99928e
+# ignored commons-vfs2-jackrabbit2-2.10.0-cyclonedx.xml
+# ignored commons-vfs2-jackrabbit2-2.10.0-cyclonedx.json
+# ignored commons-vfs2-jackrabbit2-2.10.0.spdx.json
+
+outputs.6.coordinates=org.apache.commons:commons-vfs2-examples
+
+outputs.6.0.groupId=org.apache.commons
+outputs.6.0.filename=commons-vfs2-examples-2.10.0.pom
+outputs.6.0.length=6808
+outputs.6.0.checksums.sha512=fa96949533cb0d6f514ab94548c2ffcaf943554f588921230d115b45dd04b0f6e3e5891843c74f6fdd80c887b5564e0af0a0e576ef68f756e3305bfd82d80837
+
+outputs.6.1.groupId=org.apache.commons
+outputs.6.1.filename=commons-vfs2-examples-2.10.0.jar
+outputs.6.1.length=38802
+outputs.6.1.checksums.sha512=fb1ea40a3d4bb54f215287f42306f9981dd3e8a5ef2955aab9123e73ccadd20f25d0318983ee9862db600a2bd77097014aea654fe6fdb23a29553f2899fc1583
+
+outputs.6.2.groupId=org.apache.commons
+outputs.6.2.filename=commons-vfs2-examples-2.10.0-sources.jar
+outputs.6.2.length=35732
+outputs.6.2.checksums.sha512=ea29566758ddee1e2716b9e5df6c6133e786ee71d76acf8c70dd7969024e5dcc995453c34eec904164209a744eb7344d87ce0922bb3a124088515a577f2b7b8b
+# ignored commons-vfs2-examples-2.10.0-cyclonedx.xml
+# ignored commons-vfs2-examples-2.10.0-cyclonedx.json
+# ignored commons-vfs2-examples-2.10.0.spdx.json
+
+outputs.7.coordinates=org.apache.commons:commons-vfs2-bom
+
+outputs.7.0.groupId=org.apache.commons
+outputs.7.0.filename=commons-vfs2-bom-2.10.0.pom
+outputs.7.0.length=3046
+outputs.7.0.checksums.sha512=1fe3b3a3aaaa452547227affcc67eaccc29b3d16e37084e85b88fea101be128ee4861d74667a052634bede1cf49fa49cbe596844839773e6c71ca12568412f25
+# ignored commons-vfs2-bom-2.10.0-cyclonedx.xml
+# ignored commons-vfs2-bom-2.10.0-cyclonedx.json
+# ignored commons-vfs2-bom-2.10.0.spdx.json
+
+outputs.8.coordinates=org.apache.commons:commons-vfs2-distribution
+
+outputs.8.0.groupId=org.apache.commons
+outputs.8.0.filename=commons-vfs2-distribution-2.10.0.pom
+outputs.8.0.length=10281
+outputs.8.0.checksums.sha512=c696c151f9e15b5ff8695e83eef4388895cad3d0a06504c9f6f0f658fdfeb0addd5152bef91e1ec03e121fe0ae7ba202aaf03dea1cdcbe7d267fdd0f61a3316b
+# ignored commons-vfs2-distribution-2.10.0-cyclonedx.xml
+# ignored commons-vfs2-distribution-2.10.0-cyclonedx.json
+# ignored commons-vfs2-distribution-2.10.0.spdx.json

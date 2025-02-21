@@ -1,0 +1,18 @@
+groupId=org.apache.commons
+artifactId=commons-vfs2
+display=${groupId}:${artifactId}
+version=2.10.0
+
+gitRepo=https://github.com/apache/commons-vfs.git
+gitTag=rel/commons-vfs-${version}
+
+tool=mvn
+jdk=21
+newline=lf
+#umask=022
+
+command="mvn clean verify -DskipTests -Dgpg.skip -Dmaven.javadoc.skip -Dbuildinfo.ignore='*/*.spdx.json,*/*-cyclonedx.*'"
+buildinfo=target/${artifactId}-project-${version}.buildinfo
+
+#diffoscope=${artifactId}-project-${version}.diffoscope
+issue=
