@@ -1,0 +1,10 @@
+version=3.14.0
+ok=5
+ko=1
+ignored=0
+okFiles="maven-compiler-plugin-3.14.0.pom maven-compiler-plugin-3.14.0.jar maven-compiler-plugin-3.14.0-sources.jar maven-compiler-plugin-3.14.0-cyclonedx.xml maven-compiler-plugin-3.14.0-cyclonedx.json"
+koFiles="maven-compiler-plugin-3.14.0-source-release.zip"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.maven.plugins/maven-compiler-plugin-3.14.0-source-release.zip target/maven-compiler-plugin-3.14.0-source-release.zip
