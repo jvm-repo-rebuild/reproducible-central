@@ -1,0 +1,11 @@
+version=1.2.0
+ok=1
+ko=2
+ignored=0
+okFiles="jpmml-codemodel-1.2.0.pom"
+koFiles="jpmml-codemodel-1.2.0.jar jpmml-codemodel-1.2.0-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/jpmml-codemodel-1.2.0.jar target/jpmml-codemodel-1.2.0.jar
+# diffoscope target/reference/org.jpmml/jpmml-codemodel-1.2.0-sources.jar target/jpmml-codemodel-1.2.0-sources.jar
