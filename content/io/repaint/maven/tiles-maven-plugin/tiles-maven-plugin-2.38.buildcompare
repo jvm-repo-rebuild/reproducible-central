@@ -1,0 +1,9 @@
+version=2.38
+ok=3
+ko=0
+ignored=0
+okFiles="tiles-maven-plugin-2.38.pom tiles-maven-plugin-2.38.jar tiles-maven-plugin-2.38-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
