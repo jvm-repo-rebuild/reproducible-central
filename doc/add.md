@@ -4,8 +4,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250221133735 --> [junit-bom](../content/org/junit/junit5/README.md) | [5.12.0-RC2](../content/org/junit/junit5/junit5-5.12.0-RC2.buildspec) :white_check_mark: | [5.12.0](../content/org/junit/junit5/junit5-5.12.0.buildspec) | `bin/add-new-release.sh content/org/junit/junit5/junit5-5.12.0-RC2.buildspec 5.12.0` |
-| <!-- 20250221100134 --> [avaje-http-parent](../content/io/avaje/http/README.md) | [3.0](../content/io/avaje/http/avaje-http-3.0.buildspec) :white_check_mark: | [3.1-RC1](../content/io/avaje/http/avaje-http-3.1-RC1.buildspec) | `bin/add-new-release.sh content/io/avaje/http/avaje-http-3.0.buildspec 3.1-RC1` |
+| <!-- 20250222193650 --> [airbase](../content/io/airlift/airbase/README.md) | [221](../content/io/airlift/airbase/airbase-221.buildspec) :white_check_mark: | [223](../content/io/airlift/airbase/airbase-223.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-221.buildspec 223` |
+| <!-- 20250222193650 --> [airbase](../content/io/airlift/airbase/README.md) | [221](../content/io/airlift/airbase/airbase-221.buildspec) :white_check_mark: | 222  | `bin/add-new-release.sh content/io/airlift/airbase/airbase-221.buildspec ...` |
 | <!-- 20250220074216 --> [avaje-jex-parent](../content/io/avaje/jex/README.md) | [3.0-RC19](../content/io/avaje/jex/avaje-jex-3.0-RC19.buildspec) :white_check_mark: | [3.0-RC20](../content/io/avaje/jex/avaje-jex-3.0-RC20.buildspec) | `bin/add-new-release.sh content/io/avaje/jex/avaje-jex-3.0-RC19.buildspec 3.0-RC20` |
 | <!-- 20250205122652 --> [langchain4j](../content/dev/langchain4j/README.md) | [1.0.0-alpha1](../content/dev/langchain4j/langchain4j-1.0.0-alpha1.buildspec) :white_check_mark: | [1.0.0-beta1](../content/dev/langchain4j/langchain4j-1.0.0-beta1.buildspec) | `bin/add-new-release.sh content/dev/langchain4j/langchain4j-1.0.0-alpha1.buildspec 1.0.0-beta1` |
 <!-- END GENERATED ADD OK -->
@@ -26,6 +26,7 @@ New Releases To Add
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
 | <!-- 20250120144912 --> [:mailbox:](https://lists.apache.org/list?dev@pulsar.apache.org:lte=1M:VOTE) | [pulsar](../content/org/apache/pulsar/README.md) | [4.0.2](../content/org/apache/pulsar/pulsar-4.0.2.buildspec) :warning: | [4.0.3](../content/org/apache/pulsar/pulsar-4.0.3.buildspec)  | `bin/add-new-release.sh content/org/apache/pulsar/pulsar-4.0.2.buildspec 4.0.3 staging` |
+| <!-- 20250104085837 --> [:mailbox:](https://lists.apache.org/list?dev@baremaps.apache.org:lte=1M:VOTE) | [baremaps](../content/org/apache/baremaps/README.md) | [0.8.1](../content/org/apache/baremaps/baremaps-0.8.1.buildspec) :warning: [:memo:](https://github.com/apache/incubator-baremaps/pull/951) | [0.8.2](../content/org/apache/baremaps/baremaps-0.8.2.buildspec)  | `bin/add-new-release.sh content/org/apache/baremaps/baremaps-0.8.1.buildspec 0.8.2 staging` |
 | <!-- 20241219175744 --> [:mailbox:](https://lists.apache.org/list?dev@struts.apache.org:lte=1M:VOTE) | [struts2-parent](../content/org/apache/struts/README.md) | [7.0.0](../content/org/apache/struts/struts2-7.0.0.buildspec) :white_check_mark: | [7.0.3](../content/org/apache/struts/struts2-7.0.3.buildspec)  | `bin/add-new-release.sh content/org/apache/struts/struts2-7.0.0.buildspec 7.0.3 staging` |
 | <!-- 20241002220928 --> [:mailbox:](https://lists.apache.org/list?dev@sshd.apache.org:lte=1M:VOTE) | [sshd](../content/org/apache/sshd/README.md) | [2.14.0](../content/org/apache/sshd/sshd-2.14.0.buildspec) :warning: | [2.15.0](../content/org/apache/sshd/sshd-2.15.0.buildspec)  | `bin/add-new-release.sh content/org/apache/sshd/sshd-2.14.0.buildspec 2.15.0 staging` |
 | <!-- 20240118001405 --> [:mailbox:](https://lists.apache.org/list?dev@directory.apache.org:lte=1M:VOTE) | [scimple](../content/org/apache/directory/scimple/README.md) | [1.0.0-M1](../content/org/apache/directory/scimple/scimple-1.0.0-M1.buildspec) :warning: | [1.0.0-M2](../content/org/apache/directory/scimple/scimple-1.0.0-M2.buildspec)  | `bin/add-new-release.sh content/org/apache/directory/scimple/scimple-1.0.0-M1.buildspec 1.0.0-M2 staging` |
@@ -60,6 +61,7 @@ New Releases To Add
 | <!-- 20250217093704 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.2.7 :warning: |
 | <!-- 20250216125759 --> [packager-maven-plugin](../content/org/jpmml/packager-maven-plugin/README.md) | 1.0.1 :warning: |
 | <!-- 20250214204823 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | 3.1.0 :warning: |
+| <!-- 20250214132638 --> [commons-vfs2](../content/org/apache/commons/commons-vfs2/README.md) | 2.10.0 :warning: |
 | <!-- 20250213170218 --> [jooby](../content/io/jooby/README.md) | 3.6.1 :warning: |
 | <!-- 20250213093110 --> [jdplus-main](../content/eu/europa/ec/joinup/sat/jdplus-main/README.md) | 3.4.0 :warning: |
 | <!-- 20250213063710 --> [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | 1.76.0 :warning: [:memo:](https://issues.apache.org/jira/browse/OAK-10662) |
@@ -76,6 +78,7 @@ New Releases To Add
 | <!-- 20250203233329 --> [axiom](../content/org/apache/ws/commons/axiom/README.md) | 2.0.0 :warning: |
 | <!-- 20250203102219 --> [jpmml-python](../content/org/jpmml/jpmml-python/README.md) | 1.3.0 :warning: |
 | <!-- 20250203075334 --> [jpmml-transpiler](../content/org/jpmml/jpmml-transpiler/README.md) | 1.4.0 :warning: |
+| <!-- 20250202185956 --> [jpmml-codemodel](../content/org/jpmml/jpmml-codemodel/README.md) | 1.2.0 :warning: |
 | <!-- 20250202112421 --> [jpmml-converter](../content/org/jpmml/jpmml-converter/README.md) | 1.6.0 :warning: |
 | <!-- 20250201215052 --> [ftpserver-parent](../content/org/apache/mina/ftpserver/README.md) | 1.2.1 :warning: |
 | <!-- 20250201142024 --> [jpmml-evaluator](../content/org/jpmml/jpmml-evaluator/README.md) | 1.7.1 :warning: |
@@ -95,12 +98,14 @@ New Releases To Add
 | <!-- 20250110074207 --> [orc](../content/org/apache/orc/README.md) | 2.1.0 :warning: |
 | <!-- 20250107124852 --> [commons-beanutils2](../content/org/apache/commons/commons-beanutils2/README.md) | 2.0.0-M1 :warning: [:memo:](https://lists.apache.org/thread/5m2sq74rqyws91onxmk77jty239qtfd8) |
 | <!-- 20250106163714 --> [env-config](../content/com/github/sitture/env-config/README.md) | 1.13.1 :x: |
+| <!-- 20250104085837 --> [baremaps](../content/org/apache/baremaps/README.md) | 0.8.1 :warning: [:memo:](https://github.com/apache/incubator-baremaps/pull/951) |
 | <!-- 20250103195806 --> [ldapchai](../content/com/github/ldapchai/README.md) | 0.8.7 :warning: |
 | <!-- 20250102183014 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | 5.15.2 :warning: [:memo:](https://github.com/mockito/mockito/issues/3563) |
 | <!-- 20241226222731 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 2.11.8 :warning: |
 | <!-- 20241221111725 --> [org.apache.sling.feature.launcher](../content/org/apache/sling/org.apache.sling.feature.launcher/README.md) | 1.3.2 :warning: |
 | <!-- 20241220140350 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | 5.3.5 :warning: |
 | <!-- 20241220140033 --> [org.apache.sling.models.impl](../content/org/apache/sling/org.apache.sling.models.impl/README.md) | 1.7.8 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-models-impl/pull/62) |
+| <!-- 20241218133420 --> [hsac-fitnesse-plugin](../content/nl/hsac/hsac-fitnesse-plugin/README.md) | 1.33.1 :warning: [:memo:](https://github.com/fhoeben/hsac-fitnesse-plugin/pull/64) |
 | <!-- 20241216231422 --> [maven](../content/org/apache/maven/maven/README.md) | 4.0.0-rc-2 :warning: |
 | <!-- 20241216105905 --> [org.apache.sling.commons.log.webconsole](../content/org/apache/sling/org.apache.sling.commons.log.webconsole/README.md) | 1.0.2 :warning: |
 | <!-- 20241215214119 --> [plexus-utils](../content/org/codehaus/plexus/plexus-utils/README.md) | 4.0.2 :warning: |
@@ -208,5 +213,4 @@ New Releases To Add
 | <!-- 20211018122406 --> [org.apache.sling.commons.crypto](../content/org/apache/sling/org.apache.sling.commons.crypto/README.md) | 1.1.0 :warning: [:memo:](https://issues.apache.org/jira/browse/SLING-11907) |
 | <!-- 20201226140242 --> [maven-artifact-transfer](../content/org/apache/maven/shared/maven-artifact-transfer/README.md) | 0.13.1 :warning: [:memo:](https://github.com/apache/maven-artifact-transfer/commit/c2106c0500cc7c70c27581f117bf86e6185073c6) |
 | <!-- 20200511133844 --> [org.apache.sling.installer.factory.packages](../content/org/apache/sling/org.apache.sling.installer.factory.packages/README.md) | 1.0.4 :warning: |
-| <!--  --> [](../content/org/hibernate/reactive/hibernate-reactive/README.md) |  :x: |
 <!-- END GENERATED NEWEST NOT REPRODUCIBLE -->
