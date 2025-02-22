@@ -259,6 +259,11 @@
       <url>https://raw.githubusercontent.com/pmd/pmd-designer/refs/heads/main/lib/mvn-repo</url>
     </mirror>
     <mirror>
+      <id>google</id>
+      <mirrorOf>google</mirrorOf>
+      <url>https://maven.google.com/</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>
