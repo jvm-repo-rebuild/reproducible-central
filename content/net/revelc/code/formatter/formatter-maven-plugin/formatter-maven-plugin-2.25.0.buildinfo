@@ -31,3 +31,8 @@ outputs.1.groupId=net.revelc.code.formatter
 outputs.1.filename=formatter-maven-plugin-2.25.0.jar
 outputs.1.length=75238
 outputs.1.checksums.sha512=e6eb203ff19e9735b14297c5f101a2170692ddd81d24fed92d36d2bc6d14c0c6f64d433c32de1bc64094b8419bf3909463fe0d28f088f2ebb89c4473470943b5
+
+outputs.2.groupId=net.revelc.code.formatter
+outputs.2.filename=formatter-maven-plugin-2.25.0-sources.jar
+outputs.2.length=58302
+outputs.2.checksums.sha512=047bc960be282fefbdc18648afa882fb9e562b9f99caa7ffa6d6d43c81e367b5fd9aa09a69b6fb491fa74c469d8a68ca16fb0aa39e8c512b19b5ca5ac0e8b471
