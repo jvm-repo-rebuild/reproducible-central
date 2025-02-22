@@ -7,8 +7,8 @@
 
 Source code: [https://github.com/avaje/avaje-logback-encoder.git](https://github.com/avaje/avaje-logback-encoder.git)
 
-rebuilding **10 releases** of io.avaje:avaje-logback-encoder:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **11 releases** of io.avaje:avaje-logback-encoder:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -21,7 +21,7 @@ rebuilding **10 releases** of io.avaje:avaje-logback-encoder:
 | [0.9-java8](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/0.9-java8/pom) | [mvn jdk8](avaje-logback-encoder-0.9-java8.buildspec) | [result](avaje-logback-encoder-0.9-java8.buildinfo): [3 :white_check_mark: ](avaje-logback-encoder-0.9-java8.buildcompare) | 40K |
 | [0.9](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/0.9/pom) | [mvn jdk21](avaje-logback-encoder-0.9.buildspec) | [result](avaje-logback-encoder-0.9.buildinfo): [3 :white_check_mark: ](avaje-logback-encoder-0.9.buildcompare) | 42K |
 | [0.8-java8](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/0.8-java8/pom) | [mvn jdk8](avaje-logback-encoder-0.8-java8.buildspec) | [result](avaje-logback-encoder-0.8-java8.buildinfo): [3 :white_check_mark: ](avaje-logback-encoder-0.8-java8.buildcompare) | 39K |
-| [0.8](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/0.8/pom) | | | |
+| [0.8](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/0.8/pom) | [mvn jdk21](avaje-logback-encoder-0.8.buildspec) | [result](avaje-logback-encoder-0.8.buildinfo): [3 :white_check_mark: ](avaje-logback-encoder-0.8.buildcompare) | 40K |
 | [0.7-java8](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/0.7-java8/pom) | [mvn jdk21](avaje-logback-encoder-0.7-java8.buildspec) | [result](avaje-logback-encoder-0.7-java8.buildinfo): [3 :white_check_mark: ](avaje-logback-encoder-0.7-java8.buildcompare) | 39K |
 | [0.7](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/0.7/pom) | [mvn jdk21](avaje-logback-encoder-0.7.buildspec) | [result](avaje-logback-encoder-0.7.buildinfo): [3 :white_check_mark: ](avaje-logback-encoder-0.7.buildcompare) | 40K |
 
