@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=avaje-logback-encoder
+group-id=io.avaje
+artifact-id=avaje-logback-encoder
+version=0.10-java8
+
+# source information
+source.scm.uri=scm:git:git@github.com:avaje-pom/java8-oss.git/avaje-logback-encoder
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=io.avaje
+outputs.0.filename=avaje-logback-encoder-0.10-java8.pom
+outputs.0.length=1432
+outputs.0.checksums.sha512=181024a71b531a343332726ffb6a5e65c093195249fa96a18f6b0579a5d40ee5d6af0ba4805bb794bb4611d2b71ab2a9a9ea92a36cd942e6b0481392ad1ee543
+
+outputs.1.groupId=io.avaje
+outputs.1.filename=avaje-logback-encoder-0.10-java8.jar
+outputs.1.length=31251
+outputs.1.checksums.sha512=21cd51cdd642d7c7ead624105761fc28203f18490956449f0c59675ec27db19d17f79224495937c70ed30d0806f195f049d04817dbae8b3cef0c395494375c44
+
+outputs.2.groupId=io.avaje
+outputs.2.filename=avaje-logback-encoder-0.10-java8-sources.jar
+outputs.2.length=20948
+outputs.2.checksums.sha512=bb64d627a1cf16da105e3f01ffa44588a8f8e2adc756feac29f67b7eb5102b330f83a452c5b7f8b7186a162d55e632ad0bce66cb56278f5d0286245b3e806fd7
