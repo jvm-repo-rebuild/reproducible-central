@@ -1,0 +1,20 @@
+groupId=io.avaje
+artifactId=avaje-logback-encoder
+display=${groupId}:${artifactId}
+version=0.7-java8
+
+gitRepo=https://github.com/avaje/avaje-logback-encoder.git
+gitTag=${version}
+gitTag=d1bf675f09a848dc388d813f4d32e8584376400a
+
+tool=mvn
+jdk=21
+newline=lf
+#umask=022
+timezone="Pacific/Auckland"
+
+command="mvn -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
