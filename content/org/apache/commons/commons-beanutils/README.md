@@ -13,6 +13,6 @@ rebuilding **1 releases** of commons-beanutils:commons-beanutils:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.10.1](https://central.sonatype.com/artifact/commons-beanutils/commons-beanutils/1.10.1/pom) | [mvn jdk21](commons-beanutils-1.10.1.buildspec) | [result](commons-beanutils-1.10.1.buildinfo): [7 :white_check_mark: ](commons-beanutils-1.10.1.buildcompare) [:mag:](commons-beanutils-1.10.1.diffoscope) | 1.3M |
+| [1.10.1](https://central.sonatype.com/artifact/commons-beanutils/commons-beanutils/1.10.1/pom) | [mvn jdk21](commons-beanutils-1.10.1.buildspec) | [result](commons-beanutils-1.10.1.buildinfo): [7 :white_check_mark: ](commons-beanutils-1.10.1.buildcompare) | 1.3M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
