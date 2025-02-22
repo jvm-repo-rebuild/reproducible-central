@@ -1,0 +1,18 @@
+groupId=org.apache.baremaps
+artifactId=baremaps
+display=${groupId}:${artifactId}
+version=0.8.1
+
+gitRepo=https://github.com/apache/baremaps.git
+gitTag=v${version}
+
+tool=mvn
+jdk=21
+newline=lf
+#umask=022
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Djava.version='21.0.4'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
