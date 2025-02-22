@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Tiles Maven Plugin
+group-id=io.repaint.maven
+artifact-id=tiles-maven-plugin
+version=2.37
+
+# source information
+source.scm.uri=scm:git:git@github.com:repaint-io/maven-tiles
+source.scm.tag=tiles-maven-plugin-2.37
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=io.repaint.maven
+outputs.0.filename=tiles-maven-plugin-2.37.pom
+outputs.0.length=12021
+outputs.0.checksums.sha512=155952a789ca85b9ebe1e198d84b0c9a4548a6c755598d559fdd0e70d872969025253316176420c5124f7b2fbc429ae9cd79d9a3b438b1c556e48cb0c18edeb6
+
+outputs.1.groupId=io.repaint.maven
+outputs.1.filename=tiles-maven-plugin-2.37.jar
+outputs.1.length=114168
+outputs.1.checksums.sha512=607058d29c6efcb699351e4a9a94954e989c9bf115aaa7035cf0acb6e5ba0c344ccd4ad549b6a5ca1a03a47157a23375450c9729e2aab01fd8e51efb486d9a8f
+
+outputs.2.groupId=io.repaint.maven
+outputs.2.filename=tiles-maven-plugin-2.37-sources.jar
+outputs.2.length=29057
+outputs.2.checksums.sha512=ef53c0f462cd7b8ef6b8591977241abc8df2f87ad10e2492bd84f200867b373c30396ac171228c49b9237ad13f93c3784949aa56f991ad7928c76974ff75fc24
