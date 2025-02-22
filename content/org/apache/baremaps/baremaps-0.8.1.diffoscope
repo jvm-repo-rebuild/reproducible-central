@@ -1,0 +1,38 @@
+1 / 1 target/reference/org.apache.baremaps/baremaps-0.8.1-source-release.zip target/baremaps-0.8.1-source-release.zip
+--- target/reference/org.apache.baremaps/baremaps-0.8.1-source-release.zip
++++ target/baremaps-0.8.1-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 3174883 bytes, number of entries: 2242
+│ +Zip file size: 3150675 bytes, number of entries: 2223
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Nov-09 13:13 baremaps-0.8.1/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Nov-09 13:13 baremaps-0.8.1/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Nov-09 13:13 baremaps-0.8.1/.github/workflows/
+│ @@ -581,19 +581,17 @@
+│  -rw-r--r--  2.0 unx     4933 b- defN 24-Nov-09 13:13 baremaps-0.8.1/baremaps-benchmarking/dependency-reduced-pom.xml
+│  -rw-r--r--  2.0 unx     2789 b- defN 24-Nov-09 13:13 baremaps-0.8.1/baremaps-benchmarking/pom.xml
+│ --rw-r--r--  2.0 unx     2789 b- defN 24-Nov-09 13:13 baremaps-0.8.1/baremaps-benchmarking/pom.xml.versionsBackup
+│  -rw-r--r--  2.0 unx     3596 b- defN 24-Nov-09 13:13 baremaps-0.8.1/baremaps-benchmarking/src/main/java/org/apache/baremaps/benchmarking/geoparquet/OvertureMapsBenchmark.java
+│  -rw-r--r--  2.0 unx     2718 b- defN 24-Nov-09 13:13 baremaps-0.8.1/baremaps-benchmarking/src/main/java/org/apache/baremaps/benchmarking/geoparquet/SmallFileBenchmark.java
+│  -rw-r--r--  2.0 unx     7346 b- defN 24-Nov-09 13:13 baremaps-0.8.1/baremaps-cli/pom.xml
+│ --rw-r--r--  2.0 unx     7346 b- defN 24-Nov-09 13:13 baremaps-0.8.1/baremaps-cli/pom.xml.versionsBackup
+│  -rw-r--r--  2.0 unx     3108 b- defN 24-Nov-09 13:13 baremaps-0.8.1/baremaps-cli/src/assembly/bin.xml
+│  -rw-r--r--  2.0 unx     2800 b- defN 24-Nov-09 13:13 baremaps-0.8.1/baremaps-cli/src/assembly/src.xml
+│ @@ -622,15 +620,14 @@
+│  -rw-r--r--  2.0 unx       48 b- defN 24-Nov-09 13:13 baremaps-0.8.1/baremaps-cli/src/main/resources/org/apache/baremaps/cli/version.txt
+│  -rw-r--r--  2.0 unx     5114 b- defN 24-Nov-09 13:13 baremaps-0.8.1/baremaps-core/pom.xml
+│ --rw-r--r--  2.0 unx     5114 b- defN 24-Nov-09 13:13 baremaps-0.8.1/baremaps-core/pom.xml.versionsBackup
+│  -rw-r--r--  2.0 unx     2428 b- defN 24-Nov-09 13:13 baremaps-0.8.1/baremaps-core/src/main/java/org/apache/baremaps/config/ConfigReader.java
+│  -rw-r--r--  2.0 unx     1636 b- defN 24-Nov-09 13:13 baremaps-0.8.1/baremaps-core/src/main/java/org/apache/baremaps/geocoder/DataRowConsumer.java
+│ @@ -725,22 +722,20 @@
+│  -rw-r--r--  2.0 unx     5939 b- defN 24-Nov-09 13:13 baremaps-0.8.1/baremaps-core/src/test/java/org/apache/baremaps/workflow/WorkflowTest.java
+│  -rw-r--r--  2.0 unx     1819 b- defN 24-Nov-09 13:13 baremaps-0.8.1/baremaps-csv/pom.xml
+│ --rw-r--r--  2.0 unx     1819 b- defN 24-Nov-09 13:13 baremaps-0.8.1/baremaps-csv/pom.xml.versionsBackup
+│  -rw-r--r--  2.0 unx     3127 b- defN 24-Nov-09 13:13 baremaps-0.8.1/baremaps-csv/src/main/java/org/apache/baremaps/csv/CsvDataStore.java
+│  -rw-r--r--  2.0 unx     6480 b- defN 24-Nov-09 13:13 baremaps-0.8.1/baremaps-csv/src/main/java/org/apache/baremaps/csv/CsvDataTable.java
+...
+│  -rw-r--r--  2.0 unx     2454 b- defN 24-Nov-09 13:13 baremaps-0.8.1/scripts/test-basemap.sh
+│  -rw-r--r--  2.0 unx     4239 b- defN 24-Nov-09 13:13 baremaps-0.8.1/scripts/test-examples.sh
+│  -rw-r--r--  2.0 unx     3156 b- defN 24-Nov-09 13:13 baremaps-0.8.1/DEPENDENCIES
+│ -2242 files, 6544325 bytes uncompressed, 2708697 bytes compressed:  58.6%
+│ +2223 files, 6464345 bytes uncompressed, 2687951 bytes compressed:  58.4%
