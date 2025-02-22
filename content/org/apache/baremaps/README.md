@@ -31,6 +31,6 @@ rebuilding **1 releases** of org.apache.baremaps:baremaps:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.8.1](https://central.sonatype.com/artifact/org.apache.baremaps/baremaps/0.8.1/pom) | [mvn jdk21](baremaps-0.8.1.buildspec) | [result](baremaps-0.8.1.buildinfo): [40 :white_check_mark:  1 :warning:](baremaps-0.8.1.buildcompare) [:mag:](baremaps-0.8.1.diffoscope) | 4.6M |
+| [0.8.1](https://central.sonatype.com/artifact/org.apache.baremaps/baremaps/0.8.1/pom) | [mvn jdk21](baremaps-0.8.1.buildspec) | [result](baremaps-0.8.1.buildinfo): [40 :white_check_mark:  1 :warning:](baremaps-0.8.1.buildcompare) [:mag:](baremaps-0.8.1.diffoscope) [:memo:](https://github.com/apache/incubator-baremaps/pull/951) | 4.6M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
