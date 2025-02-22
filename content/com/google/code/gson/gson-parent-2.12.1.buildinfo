@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Gson Parent
+group-id=com.google.code.gson
+artifact-id=gson-parent
+version=2.12.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/google/gson.git
+source.scm.tag=gson-parent-2.12.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=gson
+
+# aggregated output
+
+outputs.0.coordinates=com.google.code.gson:gson-parent
+
+outputs.0.0.groupId=com.google.code.gson
+outputs.0.0.filename=gson-parent-2.12.1.pom
+outputs.0.0.length=26657
+outputs.0.0.checksums.sha512=e099a89999f863e95465baceeba2490fec16032a4eedf0955e3ec230ede9d5e2e6658a3f527a34a651ff3f3121713148e4afd4a03a97f8b0e145f152dae199b7
+
+outputs.1.coordinates=com.google.code.gson:gson
+
+outputs.1.0.groupId=com.google.code.gson
+outputs.1.0.filename=gson-2.12.1.pom
+outputs.1.0.length=13489
+outputs.1.0.checksums.sha512=49aca8b17b4b4377dd358a356aec85d2105b5c8fca2a88fd4f5b5454a7f7e952980e0754e070adfa7136d01b9442c6efacc989c8a25d9928267c9fe3e869c61f
+
+outputs.1.1.groupId=com.google.code.gson
+outputs.1.1.filename=gson-2.12.1.jar
+outputs.1.1.length=285943
+outputs.1.1.checksums.sha512=fafc369544e2d4a89f32c353dcbd012410a64a315a3cae9165d4ead6f8960aef5f77ced84c374d6a09af117748adca571b0426eb0e2864f584debb59707ebc03
+
+outputs.1.2.groupId=com.google.code.gson
+outputs.1.2.filename=gson-2.12.1-sources.jar
+outputs.1.2.length=207271
+outputs.1.2.checksums.sha512=dd95bbd6a5a4f86599b8eb6179b87d5a85b48d172ca0442203b9809f1776c81243d1454c61708e460ea810a249b2d64c3fe4fa22b8fe13934b82bd9432d5e939
