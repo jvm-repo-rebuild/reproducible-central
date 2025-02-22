@@ -1,0 +1,33 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=formatter-maven-plugin
+group-id=net.revelc.code.formatter
+artifact-id=formatter-maven-plugin
+version=2.25.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/revelc/formatter-maven-plugin.git
+source.scm.tag=formatter-maven-plugin-2.25.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=net.revelc.code.formatter
+outputs.0.filename=formatter-maven-plugin-2.25.0.pom
+outputs.0.length=10663
+outputs.0.checksums.sha512=ca7f64ae718634e7c9e5ead36a4a31770c34081573eb14dc9cdf05603d92615837137c76a17cd8de02e26840089b81fd36892a26831cdd0c235642637e4f7fb1
+
+outputs.1.groupId=net.revelc.code.formatter
+outputs.1.filename=formatter-maven-plugin-2.25.0.jar
+outputs.1.length=75238
+outputs.1.checksums.sha512=e6eb203ff19e9735b14297c5f101a2170692ddd81d24fed92d36d2bc6d14c0c6f64d433c32de1bc64094b8419bf3909463fe0d28f088f2ebb89c4473470943b5
