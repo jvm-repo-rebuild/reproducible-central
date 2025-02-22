@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=HSAC's FitNesse Plugin
+group-id=nl.hsac
+artifact-id=hsac-fitnesse-plugin
+version=1.33.1
+
+# source information
+source.scm.uri=scm:git:git://github.com/fhoeben/hsac-fitnesse-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=nl.hsac
+outputs.0.filename=hsac-fitnesse-plugin-1.33.1.pom
+outputs.0.length=5100
+outputs.0.checksums.sha512=c665b005983c78eaba8ddf20dc204fad6c188e6857d626d56dde0e9f23264f0f583b61aac6cb7d6fe8c8cb906dba4d64ea396e2be23bcf3488f751c458bfdb8e
+
+outputs.1.groupId=nl.hsac
+outputs.1.filename=hsac-fitnesse-plugin-1.33.1.jar
+outputs.1.length=251220
+outputs.1.checksums.sha512=40d375b5a46a8c7941ceb6e7eff54e19e1610feda951469b97d64150e1698821a409238172a9303f66a74d7ecfdcfee339120e7aa688a91465f94c6a3247ed24
+
+outputs.2.groupId=nl.hsac
+outputs.2.filename=hsac-fitnesse-plugin-1.33.1-sources.jar
+outputs.2.length=157451
+outputs.2.checksums.sha512=dd09b110d99abcd341ad2f8b247917685944be16d51e4349c36c46f81674e502205fba25d338d5bd7d5d5707b0a4aa12290c35b7acd92ea58d2b511617c5bb95
