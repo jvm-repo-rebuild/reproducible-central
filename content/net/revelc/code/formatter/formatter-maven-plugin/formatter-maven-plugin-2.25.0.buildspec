@@ -1,4 +1,4 @@
-groupId=net.revelc.code
+groupId=net.revelc.code.formatter
 artifactId=formatter-maven-plugin
 display=${groupId}:${artifactId}
 version=2.25.0

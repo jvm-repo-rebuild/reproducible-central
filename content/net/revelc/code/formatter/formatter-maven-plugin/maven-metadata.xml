@@ -1,13 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>net.revelc.code</groupId>
+  <groupId>net.revelc.code.formatter</groupId>
   <artifactId>formatter-maven-plugin</artifactId>
   <versioning>
-    <latest>0.5.2</latest>
-    <release>0.5.2</release>
+    <latest>2.25.0</latest>
+    <release>2.25.0</release>
     <versions>
-      <version>0.5.2</version>
+      <version>2.0.0</version>
+      <version>2.0.1</version>
+      <version>2.1.0.RC1</version>
+      <version>2.5.0</version>
+      <version>2.6.0</version>
+      <version>2.7.0</version>
+      <version>2.7.1</version>
+      <version>2.7.2</version>
+      <version>2.7.3</version>
+      <version>2.7.4</version>
+      <version>2.7.5</version>
+      <version>2.8.0</version>
+      <version>2.8.1</version>
+      <version>2.9.0</version>
+      <version>2.10.0</version>
+      <version>2.11.0</version>
+      <version>2.12.0</version>
+      <version>2.12.1</version>
+      <version>2.12.2</version>
+      <version>2.13.0</version>
+      <version>2.14.0</version>
+      <version>2.15.0</version>
+      <version>2.16.0</version>
+      <version>2.17.0</version>
+      <version>2.17.1</version>
+      <version>2.18.0</version>
+      <version>2.19.0</version>
+      <version>2.20.0</version>
+      <version>2.21.0</version>
+      <version>2.22.0</version>
+      <version>2.23.0</version>
+      <version>2.24.0</version>
+      <version>2.24.1</version>
+      <version>2.25.0</version>
     </versions>
-    <lastUpdated>20150605010041</lastUpdated>
+    <lastUpdated>20250213221128</lastUpdated>
   </versioning>
 </metadata>
