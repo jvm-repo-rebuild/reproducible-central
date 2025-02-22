@@ -1,0 +1,11 @@
+version=1.33.0
+ok=1
+ko=2
+ignored=0
+okFiles="hsac-fitnesse-plugin-1.33.0.pom"
+koFiles="hsac-fitnesse-plugin-1.33.0.jar hsac-fitnesse-plugin-1.33.0-sources.jar"
+ignoredFiles=""
+reference_java_version="11.0.25 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/nl.hsac/hsac-fitnesse-plugin-1.33.0.jar target/hsac-fitnesse-plugin-1.33.0.jar
+# diffoscope target/reference/nl.hsac/hsac-fitnesse-plugin-1.33.0-sources.jar target/hsac-fitnesse-plugin-1.33.0-sources.jar
