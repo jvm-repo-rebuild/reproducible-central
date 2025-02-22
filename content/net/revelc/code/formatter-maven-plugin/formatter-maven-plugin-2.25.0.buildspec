@@ -1,0 +1,17 @@
+groupId=net.revelc.code
+artifactId=formatter-maven-plugin
+display=${groupId}:${artifactId}
+version=2.25.0
+
+gitRepo=https://github.com/revelc/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=17
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
