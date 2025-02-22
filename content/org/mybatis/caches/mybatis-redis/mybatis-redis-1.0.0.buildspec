@@ -1,0 +1,18 @@
+groupId=org.mybatis.caches
+artifactId=mybatis-redis
+version=1.0.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/mybatis/redis-cache.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.9
+jdk=21
+newline=crlf
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
