@@ -1,0 +1,19 @@
+groupId=fr.inria.gforge.spoon
+artifactId=spoon-core
+version=11.2.1-beta-5
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/inria/spoon.git
+gitTag=v${version}
+
+tool=mvn
+jdk=21
+newline=lf
+umask=022
+
+command="mvn -f spoon-pom -Prelease clean package -DskipDepClean -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.ignore='*/spoon-pom-*-cyclonedx.*'"
+buildinfo=spoon-pom/target/spoon-pom-${version}.buildinfo
+
+#diffoscope=spoon-pom-${version}.diffoscope
+issue=
