@@ -1,3 +1,5 @@
+content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.4.2.buildspec:7.5.0
 content/dev/langchain4j/langchain4j-1.0.0-alpha1.buildspec:1.0.0-beta1
-content/io/airlift/airbase/airbase-221.buildspec:223
-content/io/avaje/jex/avaje-jex-3.0-RC19.buildspec:3.0-RC20
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.1-beta-4.buildspec:11.2.1-beta-5
+content/io/avaje/validator/avaje-validator-2.8-RC1.buildspec:2.8
+content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.3.19.buildspec:5.3.20

@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **6456 releases** of **829 projects**:
-   - **4649** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 1807 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **6460 releases** of **829 projects**:
+   - **4652** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 1808 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 829 projects, 716 have at least one fully reproducible release, 113 have none
 
 <!-- END GENERATED INTRO -->
@@ -262,12 +262,12 @@ Its objectives are to provide:
 | fr.vidal.oss | [atom-jaxb](content/fr/vidal/oss/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
 | io.jooby | [jooby](content/io/jooby/README.md) | 31 | 31 :warning: |
 | io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 66 | 65 :white_check_mark: / 1 :warning: |
-| io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 61 | 61 :warning: |
+| io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 62 | 62 :warning: |
 | io.trino | [trino-root](content/io/trino/README.md) | 26 | 21 :white_check_mark: / 5 :warning: |
-| io.airlift | [airbase](content/io/airlift/airbase/README.md) | 67 | 63 :white_check_mark: / 4 :warning: |
+| io.airlift | [airbase](content/io/airlift/airbase/README.md) | 69 | 65 :white_check_mark: / 4 :warning: |
 | io.avaje | [avaje-http](content/io/avaje/http/README.md) | 12 | 12 :white_check_mark: |
 | | [avaje-inject](content/io/avaje/inject/README.md) | 16 | 13 :white_check_mark: / 3 :warning: |
-| | [avaje-jex](content/io/avaje/jex/README.md) | 19 | 16 :white_check_mark: / 3 :warning: |
+| | [avaje-jex](content/io/avaje/jex/README.md) | 20 | 17 :white_check_mark: / 3 :warning: |
 | | [avaje-jsonb](content/io/avaje/jsonb/README.md) | 9 | 9 :white_check_mark: |
 | | [avaje-logback-encoder](content/io/avaje/logback-encoder/README.md) | 11 | 11 :white_check_mark: |
 | | [avaje-prisms](content/io/avaje/prisms/README.md) | 6 | 6 :white_check_mark: |
@@ -852,7 +852,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 6 | 6 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 20 | 2 :white_check_mark: / 18 :warning: |
-| **Count:** | **829** | **6456** | **4649** :white_check_mark:<br>**1807** :warning: |
+| **Count:** | **829** | **6460** | **4652** :white_check_mark:<br>**1808** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -888,7 +888,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn        18
      34 mvn        19
      17 mvn        20
-    429 mvn        21
+    430 mvn        21
      15 mvn        22
       7 mvn        23
       2 mvn-3.5.4   8
@@ -975,7 +975,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      15 mvn-3.9.8   8
       4 mvn-3.9.8  11
       5 mvn-3.9.8  16
-    162 mvn-3.9.8  17
+    165 mvn-3.9.8  17
       1 mvn-3.9.8  17.0.12
      47 mvn-3.9.8  21
      46 mvn-3.9.8  22
