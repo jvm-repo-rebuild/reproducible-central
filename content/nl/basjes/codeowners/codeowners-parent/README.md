@@ -15,13 +15,13 @@ Source code: [https://github.com/nielsbasjes/codeowners.git](https://github.com/
 * [nl.basjes.maven.enforcer.codeowners:codeowners-enforcer-rules](https://central.sonatype.com/artifact/nl.basjes.maven.enforcer.codeowners/codeowners-enforcer-rules/overview)
 </details>
 
-rebuilding **21 releases** of nl.basjes.codeowners:codeowners-parent:
-- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **22 releases** of nl.basjes.codeowners:codeowners-parent:
+- **22** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.11.0](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.11.0/pom) | | | |
+| [1.11.0](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.11.0/pom) | [mvn jdk21](codeowners-parent-1.11.0.buildspec) | [result](codeowners-parent-1.11.0.buildinfo): [10 :white_check_mark: ](codeowners-parent-1.11.0.buildcompare) | 464K |
 | [1.10.0](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.10.0/pom) | [mvn jdk21](codeowners-parent-1.10.0.buildspec) | [result](codeowners-parent-1.10.0.buildinfo): [10 :white_check_mark: ](codeowners-parent-1.10.0.buildcompare) | 429K |
 | [1.9.0](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.9.0/pom) | [mvn jdk21](codeowners-parent-1.9.0.buildspec) | [result](codeowners-parent-1.9.0.buildinfo): [10 :white_check_mark: ](codeowners-parent-1.9.0.buildcompare) | 428K |
 | [1.8.0](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.8.0/pom) | [mvn jdk21](codeowners-parent-1.8.0.buildspec) | [result](codeowners-parent-1.8.0.buildinfo): [10 :white_check_mark: ](codeowners-parent-1.8.0.buildcompare) | 424K |
