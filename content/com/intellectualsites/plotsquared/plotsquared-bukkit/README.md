@@ -19,6 +19,7 @@ rebuilding **9 releases** of com.intellectualsites.plotsquared:plotsquared-bukki
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [7.5.1](https://central.sonatype.com/artifact/com.intellectualsites.plotsquared/plotsquared-bukkit/7.5.1/pom) | | | |
 | [7.5.0](https://central.sonatype.com/artifact/com.intellectualsites.plotsquared/plotsquared-bukkit/7.5.0/pom) | [gradle jdk21](plotsquared-7.5.0.buildspec) | [result](plotsquared-bukkit-7.5.0.buildinfo): [6 :white_check_mark: ](plotsquared-bukkit-7.5.0.buildcompare) | 2.8M |
 | [7.4.2](https://central.sonatype.com/artifact/com.intellectualsites.plotsquared/plotsquared-bukkit/7.4.2/pom) | [gradle jdk21](plotsquared-7.4.2.buildspec) | [result](plotsquared-bukkit-7.4.2.buildinfo): [6 :white_check_mark: ](plotsquared-bukkit-7.4.2.buildcompare) | 2.8M |
 | [7.4.1](https://central.sonatype.com/artifact/com.intellectualsites.plotsquared/plotsquared-bukkit/7.4.1/pom) | [gradle jdk21](plotsquared-7.4.1.buildspec) | [result](plotsquared-bukkit-7.4.1.buildinfo): [6 :white_check_mark: ](plotsquared-bukkit-7.4.1.buildcompare) | 2.8M |
