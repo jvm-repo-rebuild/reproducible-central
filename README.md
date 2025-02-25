@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **6464 releases** of **829 projects**:
-   - **4656** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **6467 releases** of **829 projects**:
+   - **4659** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 1808 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 829 projects, 716 have at least one fully reproducible release, 113 have none
+   - on 829 projects, 717 have at least one fully reproducible release, 112 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -114,7 +114,7 @@ Its objectives are to provide:
 | com.intellectualsites.* | [fastasyncvoxelsniper](content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/README.md) | 4 | 4 :white_check_mark: |
 | | [informative-annotations](content/com/intellectualsites/informative-annotations/informative-annotations/README.md) | 1 | 1 :white_check_mark: |
 | | [paster](content/com/intellectualsites/paster/Paster/README.md) | 1 | 1 :white_check_mark: |
-| | [plotsquared](content/com/intellectualsites/plotsquared/plotsquared-bukkit/README.md) | 9 | 9 :white_check_mark: |
+| | [plotsquared](content/com/intellectualsites/plotsquared/plotsquared-bukkit/README.md) | 10 | 10 :white_check_mark: |
 | com.io7m.* | [*.abstand](content/com/io7m/abstand/README.md) | 4 | 4 :white_check_mark: |
 | | [*.anethum](content/com/io7m/anethum/README.md) | 6 | 6 :white_check_mark: |
 | | [*.blackthorne](content/com/io7m/blackthorne/README.md) | 13 | 9 :white_check_mark: / 4 :warning: |
@@ -362,13 +362,13 @@ Its objectives are to provide:
 | | [pmd-build-tools-config](content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | 12 | 12 :white_check_mark: |
 | | [pmd-designer](content/net/sourceforge/pmd/pmd-designer/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | nl.basjes.energy | [energy-parent](content/nl/basjes/energy/README.md) | 2 | 2 :white_check_mark: |
-| nl.basjes.codeowners | [codeowners-parent](content/nl/basjes/codeowners/codeowners-parent/README.md) | 21 | 21 :white_check_mark: |
+| nl.basjes.codeowners | [codeowners-parent](content/nl/basjes/codeowners/codeowners-parent/README.md) | 22 | 22 :white_check_mark: |
 | nl.basjes.maven.release | [conventional-commits-v*-p*](content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 7 | 7 :white_check_mark: |
 | nl.basjes.parse.httpdlog | [httpdlog-parser](content/nl/basjes/parse/httpdlog/httpdlog-parser/README.md) | 3 | 3 :white_check_mark: |
 | nl.basjes.parse.useragent | [yauaa](content/nl/basjes/parse/useragent/yauaa/README.md) | 21 | 17 :white_check_mark: / 4 :warning: |
 | nl.hsac | [hsac-fitnesse-fixtures](content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 105 | 74 :white_check_mark: / 31 :warning: |
 | | [hsac-fitnesse-pdf](content/nl/hsac/hsac-fitnesse-pdf/README.md) | 7 | 4 :white_check_mark: / 3 :warning: |
-| | [hsac-fitnesse-plugin](content/nl/hsac/hsac-fitnesse-plugin/README.md) | 2 | 2 :warning: |
+| | [hsac-fitnesse-plugin](content/nl/hsac/hsac-fitnesse-plugin/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | org.jdbi.internal | [jdbi3-root](content/org/jdbi/README.md) | 8 | 1 :white_check_mark: / 7 :warning: |
 | org.jline | [jline](content/org/jline/README.md) | 16 | 14 :white_check_mark: / 2 :warning: |
 | org.jreleaser | [jreleaser](content/org/jreleaser/README.md) | 12 | 6 :white_check_mark: / 6 :warning: |
@@ -852,7 +852,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 6 | 6 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 20 | 2 :white_check_mark: / 18 :warning: |
-| **Count:** | **829** | **6464** | **4656** :white_check_mark:<br>**1808** :warning: |
+| **Count:** | **829** | **6467** | **4659** :white_check_mark:<br>**1808** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -865,11 +865,11 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 ```
      32 gradle     11
      97 gradle     17
-     59 gradle     21
+     60 gradle     21
      35 mvn         7
    1503 mvn         8
       1 mvn         9
-   1446 mvn        11
+   1447 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
@@ -960,7 +960,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      25 mvn-3.9.5  17
       2 mvn-3.9.5  17.0.7
       1 mvn-3.9.5  17.0.9
-     43 mvn-3.9.5  21
+     44 mvn-3.9.5  21
      11 mvn-3.9.5  22
     100 mvn-3.9.6   8
      27 mvn-3.9.6  11

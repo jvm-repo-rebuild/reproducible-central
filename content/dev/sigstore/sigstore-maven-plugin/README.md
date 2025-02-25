@@ -19,6 +19,7 @@ rebuilding **6 releases** of dev.sigstore:sigstore-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.3.0](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/1.3.0/pom) | | | |
 | [1.2.0](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/1.2.0/pom) | [gradle jdk11](sigstore-maven-plugin-1.2.0.buildspec) | [result](sigstore-maven-plugin-1.2.0.buildinfo): [6 :white_check_mark: ](sigstore-maven-plugin-1.2.0.buildcompare) | 1.7M |
 | [1.1.0](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/1.1.0/pom) | [gradle jdk11](sigstore-maven-plugin-1.1.0.buildspec) | [result](sigstore-maven-plugin-1.1.0.buildinfo): [6 :white_check_mark: ](sigstore-maven-plugin-1.1.0.buildcompare) | 1.7M |
 | [1.0.0](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/1.0.0/pom) | [gradle jdk11](sigstore-maven-plugin-1.0.0.buildspec) | [result](sigstore-maven-plugin-1.0.0.buildinfo): [5 :white_check_mark:  3 :warning:](sigstore-maven-plugin-1.0.0.buildcompare) [:mag:](sigstore-maven-plugin-1.0.0.diffoscope) | 1.7M |

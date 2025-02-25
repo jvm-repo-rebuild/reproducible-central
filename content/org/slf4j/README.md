@@ -37,6 +37,7 @@ rebuilding **13 releases** of org.slf4j:slf4j-parent:
 | -- | --------- | ------ | -- |
 | [2.1.0-alpha1](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.1.0-alpha1/pom) | [mvn jdk21 w](slf4j-2.1.0-alpha1.buildspec) | [result](slf4j-bom-2.1.0-alpha1.buildinfo): [39 :white_check_mark:  1 :warning:](slf4j-bom-2.1.0-alpha1.buildcompare) [:mag:](slf4j-bom-2.1.0-alpha1.diffoscope) | 591K |
 | [2.1.0-alpha0](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.1.0-alpha0/pom) | | | |
+| [2.0.17](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.17/pom) | | | |
 | [2.0.16](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.16/pom) | | | |
 | [2.0.15](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.15/pom) | | | |
 | [2.0.14](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.14/pom) | | | |

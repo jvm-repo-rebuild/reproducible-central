@@ -3,8 +3,8 @@
   <groupId>dev.sigstore</groupId>
   <artifactId>sigstore-maven-plugin</artifactId>
   <versioning>
-    <latest>1.2.0</latest>
-    <release>1.2.0</release>
+    <latest>1.3.0</latest>
+    <release>1.3.0</release>
     <versions>
       <version>0.4.0</version>
       <version>0.11.0</version>
@@ -12,7 +12,8 @@
       <version>1.0.0</version>
       <version>1.1.0</version>
       <version>1.2.0</version>
+      <version>1.3.0</version>
     </versions>
-    <lastUpdated>20241204212230</lastUpdated>
+    <lastUpdated>20250225192524</lastUpdated>
   </versioning>
 </metadata>
