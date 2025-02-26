@@ -1,0 +1,30 @@
+# see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/doc/BUILDSPEC.md
+
+groupId=dk.mada.jaxrs
+artifactId=openapi-jaxrs-client
+version=0.11.11
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=https://github.com/jskov/${artifactId}.git
+gitTag=${version}
+
+# Rebuild environment prerequisites
+tool=gradle
+jdk=21
+newline=lf
+umask=022
+
+# Rebuild command
+#  Gradle plugin is excluded as it is published on plugins.gradle.org
+#  Cli is exluded as it is only made available on the GitHub release page
+#
+command="bash ./gradlew --no-daemon javadoc publish publishToMavenLocal -x :gradle-plugin:publishToMavenLocal -x :generator-cli:publishToMavenLocal -Pversion=${version}"
+
+# Location of the buildinfo file generated during rebuild (by attifact:compare for Maven) to record output fingerprints
+buildinfo=${artifactId}-${version}.buildinfo
+
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
