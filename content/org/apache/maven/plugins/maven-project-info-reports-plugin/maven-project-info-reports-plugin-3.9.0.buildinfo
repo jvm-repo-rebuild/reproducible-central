@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Project Info Reports Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-project-info-reports-plugin
+version=3.9.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-project-info-reports-plugin.git
+source.scm.tag=maven-project-info-reports-plugin-3.9.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-project-info-reports-plugin-3.9.0.pom
+outputs.0.length=18151
+outputs.0.checksums.sha512=904b9cb580a7ff053a06dd0fb9313559f9787fa98c97f14b456d39952bc3a214b0f348db3adcccd154ef9a5929f71e8021f7a8e589e5b203d606f001880a3f34
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-project-info-reports-plugin-3.9.0.jar
+outputs.1.length=302810
+outputs.1.checksums.sha512=fae5654d902b584e6d79b0068e8d77bf355c8767a692c0a088dc0f333a1ea63dae35a53c984b2912bdf5e76e852bec34d2b464416d550527eeae2c2b1f5cf06e
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-project-info-reports-plugin-3.9.0-source-release.zip
+outputs.2.length=451894
+outputs.2.checksums.sha512=4d2dcdb108320f03ce7c2ab8484b99acc2a95c29f87e923d0233657e24f22249c6ddf64f490a9e9c8785c782dcb669fb5869c394d5c0d3c21f26cd69764e507f
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-project-info-reports-plugin-3.9.0-sources.jar
+outputs.3.length=225431
+outputs.3.checksums.sha512=3d13a21d5f0229d786bf00a08d493034345f65f82bb3b666b7b43a153beedcfd4efe2a3dff159ce9240268901fe44ad5141e6ce257f0372bd095730ba373ed13
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-project-info-reports-plugin-3.9.0-cyclonedx.xml
+outputs.4.length=204644
+outputs.4.checksums.sha512=d547771e36ad1a43e963efdd4d51d2fac487f3e6aaad7e47114eddef5ee5f7e9deaa7c6500cf34d14f2e4f75e34703618c7657d34ca177737271e5114907e8ec
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-project-info-reports-plugin-3.9.0-cyclonedx.json
+outputs.5.length=235075
+outputs.5.checksums.sha512=3ef615082841bc05b8fecc4842c05c7f62430064c1318fef3f817ac2abd0201d58399972c57533ac740df76b6d1b5ca4eefaae2dcc2fb00eb025fbd3b0fbd1bd

@@ -1,0 +1,9 @@
+version=3.9.0
+ok=6
+ko=0
+ignored=0
+okFiles="maven-project-info-reports-plugin-3.9.0.pom maven-project-info-reports-plugin-3.9.0.jar maven-project-info-reports-plugin-3.9.0-source-release.zip maven-project-info-reports-plugin-3.9.0-sources.jar maven-project-info-reports-plugin-3.9.0-cyclonedx.xml maven-project-info-reports-plugin-3.9.0-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
