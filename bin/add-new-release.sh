@@ -35,7 +35,7 @@ if [ -f tmp/$nextJar ]
 then
   # Build-Jdk-Spec or Built-JDK or Build-Jdk
   unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep -i Buil.-Jdk
-  nextJdk="$(unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep -i Buil.-Jdk | cut -d ' ' -f 2 | sed -e 's/^1\.//' | sed -e 's/\r//' | cut -d '.' -f 1)"
+  nextJdk="$(unzip -q -c tmp/$nextJar META-INF/MANIFEST.MF | grep -i Buil.-Jdk | cut -d ' ' -f 2 | sed -e 's/^1\.//' | sed -e 's/\r//' | cut -d '.' -f 1 | head -1)"
   if [ -z "$nextJdk" ]
   then
     echo -e "\033[0;31mcould not detect JDK\033[0;0m"
