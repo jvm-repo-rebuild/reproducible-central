@@ -1,0 +1,10 @@
+version=0.8.2
+ok=40
+ko=1
+ignored=0
+okFiles="baremaps-0.8.2.pom baremaps-store-0.8.2.pom baremaps-store-0.8.2.jar baremaps-store-0.8.2-sources.jar baremaps-geoparquet-0.8.2.pom baremaps-geoparquet-0.8.2.jar baremaps-geoparquet-0.8.2-sources.jar baremaps-csv-0.8.2.pom baremaps-csv-0.8.2.jar baremaps-csv-0.8.2-sources.jar baremaps-data-0.8.2.pom baremaps-data-0.8.2.jar baremaps-data-0.8.2-sources.jar baremaps-dem-0.8.2.pom baremaps-dem-0.8.2.jar baremaps-dem-0.8.2-sources.jar baremaps-flatgeobuf-0.8.2.pom baremaps-flatgeobuf-0.8.2.jar baremaps-flatgeobuf-0.8.2-sources.jar baremaps-geopackage-0.8.2.pom baremaps-geopackage-0.8.2.jar baremaps-geopackage-0.8.2-sources.jar baremaps-maplibre-0.8.2.pom baremaps-maplibre-0.8.2.jar baremaps-maplibre-0.8.2-sources.jar baremaps-openstreetmap-0.8.2.pom baremaps-openstreetmap-0.8.2.jar baremaps-openstreetmap-0.8.2-sources.jar baremaps-pmtiles-0.8.2.pom baremaps-pmtiles-0.8.2.jar baremaps-pmtiles-0.8.2-sources.jar baremaps-postgres-0.8.2.pom baremaps-postgres-0.8.2.jar baremaps-postgres-0.8.2-sources.jar baremaps-rpsl-0.8.2.pom baremaps-rpsl-0.8.2.jar baremaps-rpsl-0.8.2-sources.jar baremaps-shapefile-0.8.2.pom baremaps-shapefile-0.8.2.jar baremaps-shapefile-0.8.2-sources.jar"
+koFiles="baremaps-0.8.2-source-release.zip"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.baremaps/baremaps-0.8.2-source-release.zip target/baremaps-0.8.2-source-release.zip
