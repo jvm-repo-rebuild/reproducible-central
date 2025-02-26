@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **6467 releases** of **829 projects**:
-   - **4659** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 1808 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **6472 releases** of **829 projects**:
+   - **4663** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 1809 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 829 projects, 717 have at least one fully reproducible release, 112 have none
 
 <!-- END GENERATED INTRO -->
@@ -25,7 +25,7 @@ Its objectives are to provide:
 | ----------------- | --------------- | --------- | -------- |
 | biz.aQute.bnd | [bnd-maven-plugin](content/biz/aQute/bnd/plugins/README.md) | 10 | 10 :white_check_mark: |
 | ch.galinet | [reproducible-build-maven-plugin](content/ch/galinet/reproducible-build-maven-plugin/README.md) | 5 | 5 :white_check_mark: |
-| ch.qos.logback | [logback](content/ch/qos/logback/README.md) | 57 | 42 :white_check_mark: / 15 :warning: |
+| ch.qos.logback | [logback](content/ch/qos/logback/README.md) | 58 | 43 :white_check_mark: / 15 :warning: |
 | ch.qos.reload4j | [reload4j](content/ch/qos/reload4j/README.md) | 9 | 1 :white_check_mark: / 8 :warning: |
 | ch.qos.logback.access | [logback-access](content/ch/qos/logback/access/README.md) | 7 | 7 :white_check_mark: |
 | ch.qos.logback.db | [logback-db](content/ch/qos/logback/db/README.md) | 2 | 2 :warning: |
@@ -225,7 +225,7 @@ Its objectives are to provide:
 | | [s8cms-tag-reference](content/com/semanticcms/semanticcms-tag-reference/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | | [s8cms-tag-reference-book](content/com/semanticcms/semanticcms-tag-reference-book/README.md) | 2 | 2 :white_check_mark: |
 | com.spotify.fmt | [fmt-maven-plugin](content/com/spotify/fmt-maven-plugin/README.md) | 8 | 8 :white_check_mark: |
-| com.spotify | [github-client](content/com/spotify/github-client/README.md) | 43 | 42 :white_check_mark: / 1 :warning: |
+| com.spotify | [github-client](content/com/spotify/github-client/README.md) | 45 | 44 :white_check_mark: / 1 :warning: |
 | com.taobao.arthas | [arthas-all](content/com/taobao/arthas/README.md) | 16 | 16 :warning: |
 | com.vladsch.flexmark | [flexmark-java](content/com/vladsch/flexmark/flexmark-java/README.md) | 4 | 4 :white_check_mark: |
 | de.jflex | [jflex](content/de/jflex/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
@@ -238,7 +238,7 @@ Its objectives are to provide:
 | dev.langchain4j | [langchain4j](content/dev/langchain4j/README.md) | 17 | 13 :white_check_mark: / 4 :warning: |
 | dev.cdevents | [cdevents-sdk-java](content/dev/cdevents/cdevents-sdk-java/README.md) | 3 | 3 :warning: |
 | dev.notmyfault.serverlib | [ServerLib](content/dev/notmyfault/serverlib/ServerLib/README.md) | 1 | 1 :white_check_mark: |
-| dev.sigstore | [sigstore-maven-plugin](content/dev/sigstore/sigstore-maven-plugin/README.md) | 6 | 3 :white_check_mark: / 3 :warning: |
+| dev.sigstore | [sigstore-maven-plugin](content/dev/sigstore/sigstore-maven-plugin/README.md) | 7 | 4 :white_check_mark: / 3 :warning: |
 | dk.mada.jaxrs | [openapi-jaxrs-client](content/dk/mada/jaxrs/openapi-jaxrs-client/README.md) | 9 | 7 :white_check_mark: / 2 :warning: |
 | dk.mada.reproducible | [reproducible-gradle](content/dk/mada/reproducible/reproducible-gradle/README.md) | 1 | 1 :white_check_mark: |
 | dk.mada.style | [mada-style-gradle](content/dk/mada/style/mada-style-gradle/README.md) | 12 | 11 :white_check_mark: / 1 :warning: |
@@ -756,7 +756,7 @@ Its objectives are to provide:
 | | [jpmml-evaluator](content/org/jpmml/jpmml-evaluator/README.md) | 9 | 7 :white_check_mark: / 2 :warning: |
 | | [jpmml-h2o](content/org/jpmml/jpmml-h2o/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
 | | [jpmml-lightgbm](content/org/jpmml/jpmml-lightgbm/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
-| | [jpmml-model](content/org/jpmml/jpmml-model/README.md) | 9 | 7 :white_check_mark: / 2 :warning: |
+| | [jpmml-model](content/org/jpmml/jpmml-model/README.md) | 10 | 7 :white_check_mark: / 3 :warning: |
 | | [jpmml-python](content/org/jpmml/jpmml-python/README.md) | 10 | 6 :white_check_mark: / 4 :warning: |
 | | [jpmml-r](content/org/jpmml/jpmml-r/README.md) | 12 | 11 :white_check_mark: / 1 :warning: |
 | | [jpmml-sklearn](content/org/jpmml/jpmml-sklearn/README.md) | 13 | 11 :white_check_mark: / 2 :warning: |
@@ -852,7 +852,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 6 | 6 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 20 | 2 :white_check_mark: / 18 :warning: |
-| **Count:** | **829** | **6467** | **4659** :white_check_mark:<br>**1808** :warning: |
+| **Count:** | **829** | **6472** | **4663** :white_check_mark:<br>**1809** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -863,7 +863,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 
 <!-- BEGIN GENERATED STATS -->
 ```
-     32 gradle     11
+     33 gradle     11
      97 gradle     17
      60 gradle     21
      35 mvn         7
@@ -920,7 +920,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      52 mvn-3.9.1  17
       1 mvn-3.9.1  19
       7 mvn-3.9.1  20
-     74 mvn-3.9.1  21
+     75 mvn-3.9.1  21
      36 mvn-3.9.2   8
      19 mvn-3.9.2  17
       4 mvn-3.9.2  21
@@ -963,7 +963,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      44 mvn-3.9.5  21
      11 mvn-3.9.5  22
     100 mvn-3.9.6   8
-     27 mvn-3.9.6  11
+     28 mvn-3.9.6  11
      55 mvn-3.9.6  17
       2 mvn-3.9.6  17.0.7
      65 mvn-3.9.6  21
@@ -981,7 +981,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      46 mvn-3.9.8  22
      14 mvn-3.9.8  23
      46 mvn-3.9.9   8
-     35 mvn-3.9.9  11
+     37 mvn-3.9.9  11
      74 mvn-3.9.9  17
       2 mvn-3.9.9  18
      99 mvn-3.9.9  21

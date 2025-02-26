@@ -19,6 +19,7 @@ rebuilding **2 releases** of io.avaje:avaje-sigma-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0](https://central.sonatype.com/artifact/io.avaje/avaje-sigma-parent/1.0/pom) | | | |
 | [0.4](https://central.sonatype.com/artifact/io.avaje/avaje-sigma-parent/0.4/pom) | [mvn jdk21](avaje-sigma-0.4.buildspec) | [result](avaje-sigma-parent-0.4.buildinfo): [4 :white_check_mark: ](avaje-sigma-parent-0.4.buildcompare) | 110K |
 | [0.3](https://central.sonatype.com/artifact/io.avaje/avaje-sigma-parent/0.3/pom) | [mvn jdk21](avaje-sigma-0.3.buildspec) | [result](avaje-sigma-parent-0.3.buildinfo): [4 :white_check_mark: ](avaje-sigma-parent-0.3.buildcompare) | 110K |
 
