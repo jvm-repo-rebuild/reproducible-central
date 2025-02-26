@@ -1,0 +1,11 @@
+version=2.15.0
+ok=49
+ko=2
+ignored=0
+okFiles="sshd-2.15.0.pom sshd-common-2.15.0.pom sshd-common-2.15.0.jar sshd-common-2.15.0-sources.jar sshd-common-2.15.0-tests.jar sshd-core-2.15.0.pom sshd-core-2.15.0.jar sshd-core-2.15.0-sources.jar sshd-core-2.15.0-tests.jar sshd-mina-2.15.0.pom sshd-mina-2.15.0.jar sshd-mina-2.15.0-sources.jar sshd-netty-2.15.0.pom sshd-netty-2.15.0.jar sshd-netty-2.15.0-sources.jar sshd-sftp-2.15.0.pom sshd-sftp-2.15.0.jar sshd-sftp-2.15.0-sources.jar sshd-putty-2.15.0.pom sshd-putty-2.15.0.jar sshd-putty-2.15.0-sources.jar sshd-openpgp-2.15.0.pom sshd-openpgp-2.15.0.jar sshd-openpgp-2.15.0-sources.jar sshd-scp-2.15.0.pom sshd-scp-2.15.0.jar sshd-scp-2.15.0-sources.jar sshd-ldap-2.15.0.pom sshd-ldap-2.15.0.jar sshd-ldap-2.15.0-sources.jar sshd-git-2.15.0.pom sshd-git-2.15.0.jar sshd-git-2.15.0-sources.jar sshd-contrib-2.15.0.pom sshd-contrib-2.15.0.jar sshd-contrib-2.15.0-sources.jar sshd-spring-sftp-2.15.0.pom sshd-spring-sftp-2.15.0.jar sshd-spring-sftp-2.15.0-sources.jar sshd-cli-2.15.0.pom sshd-cli-2.15.0.jar sshd-cli-2.15.0-sources.jar sshd-osgi-2.15.0.pom sshd-osgi-2.15.0.jar apache-sshd-2.15.0.pom apache-sshd-2.15.0.tar.gz apache-sshd-2.15.0.zip apache-sshd-2.15.0-src.tar.gz apache-sshd-2.15.0-src.zip"
+koFiles="sshd-core-2.15.0-reusable-tests.jar sshd-osgi-2.15.0-sources.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sshd/sshd-core-2.15.0-reusable-tests.jar sshd-core/target/sshd-core-2.15.0-reusable-reusable-tests.jar
+# diffoscope target/reference/org.apache.sshd/sshd-osgi-2.15.0-sources.jar sshd-osgi/target/sshd-osgi-2.15.0-sources.jar
