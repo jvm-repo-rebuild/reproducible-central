@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **6472 releases** of **829 projects**:
-   - **4663** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 1809 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **6480 releases** of **829 projects**:
+   - **4670** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 1810 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 829 projects, 717 have at least one fully reproducible release, 112 have none
 
 <!-- END GENERATED INTRO -->
@@ -68,7 +68,7 @@ Its objectives are to provide:
 | com.github.hazendaz.maven | [coveralls-maven-plugin](content/com/github/hazendaz/maven/coveralls-maven-plugin/README.md) | 6 | 6 :white_check_mark: |
 | | [directory-maven-plugin](content/com/github/hazendaz/maven/directory-maven-plugin/README.md) | 5 | 5 :white_check_mark: |
 | | [htmlcompressor-maven-plugin](content/com/github/hazendaz/maven/htmlcompressor-maven-plugin/README.md) | 13 | 13 :white_check_mark: |
-| | [makeself-maven-plugin](content/com/github/hazendaz/maven/makeself-maven-plugin/README.md) | 11 | 11 :white_check_mark: |
+| | [makeself-maven-plugin](content/com/github/hazendaz/maven/makeself-maven-plugin/README.md) | 12 | 12 :white_check_mark: |
 | | [smartsprites-maven-plugin](content/com/github/hazendaz/maven/smartsprites-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
 | | [whitespace-maven-plugin](content/com/github/hazendaz/maven/whitespace-maven-plugin/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
 | | [yuicompressor-maven-plugin](content/com/github/hazendaz/maven/yuicompressor-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
@@ -239,7 +239,7 @@ Its objectives are to provide:
 | dev.cdevents | [cdevents-sdk-java](content/dev/cdevents/cdevents-sdk-java/README.md) | 3 | 3 :warning: |
 | dev.notmyfault.serverlib | [ServerLib](content/dev/notmyfault/serverlib/ServerLib/README.md) | 1 | 1 :white_check_mark: |
 | dev.sigstore | [sigstore-maven-plugin](content/dev/sigstore/sigstore-maven-plugin/README.md) | 7 | 4 :white_check_mark: / 3 :warning: |
-| dk.mada.jaxrs | [openapi-jaxrs-client](content/dk/mada/jaxrs/openapi-jaxrs-client/README.md) | 9 | 7 :white_check_mark: / 2 :warning: |
+| dk.mada.jaxrs | [openapi-jaxrs-client](content/dk/mada/jaxrs/openapi-jaxrs-client/README.md) | 10 | 8 :white_check_mark: / 2 :warning: |
 | dk.mada.reproducible | [reproducible-gradle](content/dk/mada/reproducible/reproducible-gradle/README.md) | 1 | 1 :white_check_mark: |
 | dk.mada.style | [mada-style-gradle](content/dk/mada/style/mada-style-gradle/README.md) | 12 | 11 :white_check_mark: / 1 :warning: |
 | eu.europa.ec.joinup.sat | [jdplus-benchmarking](content/eu/europa/ec/joinup/sat/jdplus-benchmarking/README.md) | 1 | 1 :warning: |
@@ -264,14 +264,14 @@ Its objectives are to provide:
 | io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 66 | 65 :white_check_mark: / 1 :warning: |
 | io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 62 | 62 :warning: |
 | io.trino | [trino-root](content/io/trino/README.md) | 26 | 21 :white_check_mark: / 5 :warning: |
-| io.airlift | [airbase](content/io/airlift/airbase/README.md) | 69 | 65 :white_check_mark: / 4 :warning: |
+| io.airlift | [airbase](content/io/airlift/airbase/README.md) | 70 | 66 :white_check_mark: / 4 :warning: |
 | io.avaje | [avaje-http](content/io/avaje/http/README.md) | 12 | 12 :white_check_mark: |
 | | [avaje-inject](content/io/avaje/inject/README.md) | 16 | 13 :white_check_mark: / 3 :warning: |
 | | [avaje-jex](content/io/avaje/jex/README.md) | 20 | 17 :white_check_mark: / 3 :warning: |
 | | [avaje-jsonb](content/io/avaje/jsonb/README.md) | 9 | 9 :white_check_mark: |
 | | [avaje-logback-encoder](content/io/avaje/logback-encoder/README.md) | 11 | 11 :white_check_mark: |
 | | [avaje-prisms](content/io/avaje/prisms/README.md) | 6 | 6 :white_check_mark: |
-| | [avaje-sigma](content/io/avaje/sigma/README.md) | 2 | 2 :white_check_mark: |
+| | [avaje-sigma](content/io/avaje/sigma/README.md) | 3 | 3 :white_check_mark: |
 | | [avaje-spi](content/io/avaje/spi/README.md) | 3 | 3 :white_check_mark: |
 | | [avaje-validator](content/io/avaje/validator/README.md) | 6 | 6 :white_check_mark: |
 | io.cucumber | [ci-environment](content/io/cucumber/ci-environment/README.md) | 3 | 3 :white_check_mark: |
@@ -322,7 +322,7 @@ Its objectives are to provide:
 | | [takari-plugin-testing](content/io/takari/maven/plugins/takari-plugin-testing/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | io.telicent.jena | [jena-kafka](content/io/telicent/jena/jena-kafka/README.md) | 5 | 5 :white_check_mark: |
 | | [rdf-abac](content/io/telicent/jena/rdf-abac/README.md) | 15 | 15 :white_check_mark: |
-| io.telicent.smart-caches.graph | [scg-base](content/io/telicent/smart-caches/graph/scg-base/README.md) | 30 | 30 :white_check_mark: |
+| io.telicent.smart-caches.graph | [scg-base](content/io/telicent/smart-caches/graph/scg-base/README.md) | 31 | 31 :white_check_mark: |
 | io.wcm | [*.caconfig.editor](content/io/wcm/io.wcm.caconfig/README.md) | 10 | 10 :warning: |
 | | [*.parent_toplevel](content/io/wcm/tooling/README.md) | 22 | 22 :white_check_mark: |
 | | [*.handler.commons](content/io/wcm/io.wcm.handler/commons/README.md) | 1 | 1 :white_check_mark: |
@@ -384,7 +384,7 @@ Its objectives are to provide:
 | org.apache | [apache](content/org/apache/apache/README.md) | 12 | 10 :white_check_mark: / 2 :warning: |
 | org.apache.avro | [avro-toplevel](content/org/apache/avro/README.md) | 5 | 3 :white_check_mark: / 2 :warning: |
 | org.apache.axis2 | [axis2](content/org/apache/axis2/README.md) | 2 | 2 :warning: |
-| org.apache.baremaps | [baremaps](content/org/apache/baremaps/README.md) | 1 | 1 :warning: |
+| org.apache.baremaps | [baremaps](content/org/apache/baremaps/README.md) | 2 | 2 :warning: |
 | org.apache.batchee | [batchee](content/org/apache/batchee/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
 | org.apache.drill | [drill-root](content/org/apache/drill/README.md) | 4 | 4 :warning: |
 | org.apache.dubbo | [dubbo](content/org/apache/dubbo/README.md) | 79 | 20 :white_check_mark: / 59 :warning: |
@@ -513,7 +513,7 @@ Its objectives are to provide:
 | | [maven-patch-plugin](content/org/apache/maven/plugins/maven-patch-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [maven-pdf-plugin](content/org/apache/maven/plugins/maven-pdf-plugin/README.md) | 3 | 3 :white_check_mark: |
 | | [maven-pmd-plugin](content/org/apache/maven/plugins/maven-pmd-plugin/README.md) | 14 | 14 :white_check_mark: |
-| | [maven-p-i-r-plugin](content/org/apache/maven/plugins/maven-project-info-reports-plugin/README.md) | 18 | 17 :white_check_mark: / 1 :warning: |
+| | [maven-p-i-r-plugin](content/org/apache/maven/plugins/maven-project-info-reports-plugin/README.md) | 19 | 18 :white_check_mark: / 1 :warning: |
 | | [maven-rar-plugin](content/org/apache/maven/plugins/maven-rar-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [maven-release-plugin](content/org/apache/maven/plugins/maven-release-plugin/README.md) | 9 | 8 :white_check_mark: / 1 :warning: |
 | | [maven-remote-resources-plugin](content/org/apache/maven/plugins/maven-remote-resources-plugin/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
@@ -697,7 +697,7 @@ Its objectives are to provide:
 | | [cassandra-maven-plugin](content/org/codehaus/mojo/cassandra-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
 | | [exec-maven-plugin](content/org/codehaus/mojo/exec-maven-plugin/README.md) | 7 | 7 :white_check_mark: |
 | | [extra-enforcer-rules](content/org/codehaus/mojo/extra-enforcer-rules/README.md) | 9 | 9 :white_check_mark: |
-| | [flatten-maven-plugin](content/org/codehaus/mojo/flatten-maven-plugin/README.md) | 6 | 3 :white_check_mark: / 3 :warning: |
+| | [flatten-maven-plugin](content/org/codehaus/mojo/flatten-maven-plugin/README.md) | 7 | 4 :white_check_mark: / 3 :warning: |
 | | [jaxb2-maven-plugin](content/org/codehaus/mojo/jaxb2-maven-plugin/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | | [l10n-maven-plugin](content/org/codehaus/mojo/l10n-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
 | | [license-maven-plugin](content/org/codehaus/mojo/license-maven-plugin/README.md) | 6 | 4 :white_check_mark: / 2 :warning: |
@@ -852,7 +852,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 6 | 6 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 20 | 2 :white_check_mark: / 18 :warning: |
-| **Count:** | **829** | **6472** | **4663** :white_check_mark:<br>**1809** :warning: |
+| **Count:** | **829** | **6480** | **4670** :white_check_mark:<br>**1810** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -865,7 +865,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 ```
      33 gradle     11
      97 gradle     17
-     60 gradle     21
+     61 gradle     21
      35 mvn         7
    1503 mvn         8
       1 mvn         9
@@ -888,7 +888,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn        18
      34 mvn        19
      17 mvn        20
-    432 mvn        21
+    435 mvn        21
      15 mvn        22
       7 mvn        23
       2 mvn-3.5.4   8
@@ -920,7 +920,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      52 mvn-3.9.1  17
       1 mvn-3.9.1  19
       7 mvn-3.9.1  20
-     75 mvn-3.9.1  21
+     76 mvn-3.9.1  21
      36 mvn-3.9.2   8
      19 mvn-3.9.2  17
       4 mvn-3.9.2  21
@@ -975,16 +975,16 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      15 mvn-3.9.8   8
       4 mvn-3.9.8  11
       5 mvn-3.9.8  16
-    165 mvn-3.9.8  17
+    166 mvn-3.9.8  17
       1 mvn-3.9.8  17.0.12
      47 mvn-3.9.8  21
      46 mvn-3.9.8  22
      14 mvn-3.9.8  23
      46 mvn-3.9.9   8
      37 mvn-3.9.9  11
-     74 mvn-3.9.9  17
+     75 mvn-3.9.9  17
       2 mvn-3.9.9  18
-     99 mvn-3.9.9  21
+    100 mvn-3.9.9  21
      11 mvn-3.9.9  22
       1 mvn-3.9.9  23
       2 mvn-4.0.0-alpha-12  21

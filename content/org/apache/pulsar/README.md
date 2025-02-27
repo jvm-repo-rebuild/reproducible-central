@@ -140,10 +140,12 @@ rebuilding **6 releases** of org.apache.pulsar:pulsar:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.3](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.3/pom) | | | |
 | [4.0.2](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.2/pom) | [mvn jdk21](pulsar-4.0.2.buildspec) | [result](pulsar-4.0.2.buildinfo): [289 :white_check_mark:  33 :warning:](pulsar-4.0.2.buildcompare) | 3.7G |
 | [4.0.1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.1/pom) | [mvn jdk21](pulsar-4.0.1.buildspec) | [result](pulsar-4.0.1.buildinfo): [289 :white_check_mark:  33 :warning:](pulsar-4.0.1.buildcompare) | 3.4G |
 | [4.0.0-preview.1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.0-preview.1/pom) | | | |
 | [4.0.0](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.0/pom) | [mvn jdk21](pulsar-4.0.0.buildspec) | [result](pulsar-4.0.0.buildinfo): [287 :white_check_mark:  36 :warning:](pulsar-4.0.0.buildcompare) [:mag:](pulsar-4.0.0.diffoscope) [:memo:](https://github.com/apache/pulsar/pull/23639) | 3.4G |
+| [3.3.5](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.3.5/pom) | | | |
 | [3.3.4](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.3.4/pom) | | | |
 | [3.3.3](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.3.3/pom) | | | |
 | [3.3.2](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.3.2/pom) | | | |
@@ -158,6 +160,7 @@ rebuilding **6 releases** of org.apache.pulsar:pulsar:
 | [3.1.2](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.1.2/pom) | | | |
 | [3.1.1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.1.1/pom) | | | |
 | [3.1.0](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.1.0/pom) | | | |
+| [3.0.10](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.0.10/pom) | | | |
 | [3.0.9](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.0.9/pom) | | | |
 | [3.0.8](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.0.8/pom) | | | |
 | [3.0.7](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.0.7/pom) | | | |
