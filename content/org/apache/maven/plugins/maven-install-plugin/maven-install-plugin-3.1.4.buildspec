@@ -1,0 +1,16 @@
+groupId=org.apache.maven.plugins
+artifactId=maven-install-plugin
+display=${groupId}:${artifactId}
+version=3.1.4
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=21
+newline=lf
+
+command="mvn -Papache-release,run-its clean package -DskipTests -Dinvoker.skip -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
