@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-repoinit-parser.git](https://github.com/apache/sling-org-apache-sling-repoinit-parser.git)
 
-rebuilding **7 releases** of org.apache.sling:org.apache.sling.repoinit.parser:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of org.apache.sling:org.apache.sling.repoinit.parser:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.9.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.repoinit.parser/1.9.2/pom) | | | |
+| [1.9.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.repoinit.parser/1.9.2/pom) | [mvn jdk17 w](org.apache.sling.repoinit.parser-1.9.2.buildspec) | [result](org.apache.sling.repoinit.parser-1.9.2.buildinfo): [4 :white_check_mark: ](org.apache.sling.repoinit.parser-1.9.2.buildcompare) | 371K |
 | [1.9.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.repoinit.parser/1.9.0/pom) | [mvn jdk11](org.apache.sling.repoinit.parser-1.9.0.buildspec) | [result](org.apache.sling.repoinit.parser-1.9.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.repoinit.parser-1.9.0.buildcompare) | 461K |
 | [1.8.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.repoinit.parser/1.8.0/pom) | [mvn jdk11](org.apache.sling.repoinit.parser-1.8.0.buildspec) | [result](org.apache.sling.repoinit.parser-1.8.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.repoinit.parser-1.8.0.buildcompare) | 438K |
 | [1.7.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.repoinit.parser/1.7.0/pom) | [mvn jdk11](org.apache.sling.repoinit.parser-1.7.0.buildspec) | [result](org.apache.sling.repoinit.parser-1.7.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.repoinit.parser-1.7.0.buildcompare) | 423K |
