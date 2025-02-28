@@ -1,0 +1,18 @@
+groupId=org.apache.sling
+artifactId=org.apache.sling.repoinit.parser
+display=${groupId}:*.repoinit.parser
+version=1.9.2
+
+gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.9
+jdk=17
+newline=crlf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+execBefore="chmod a-x concatenate-test-scenarios.sh" # Windows does not support executable flag...
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
