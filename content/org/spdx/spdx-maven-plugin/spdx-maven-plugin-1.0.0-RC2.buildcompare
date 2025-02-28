@@ -1,0 +1,10 @@
+version=1.0.0-RC2
+ok=2
+ko=1
+ignored=0
+okFiles="spdx-maven-plugin-1.0.0-RC2.pom spdx-maven-plugin-1.0.0-RC2-sources.jar"
+koFiles="spdx-maven-plugin-1.0.0-RC2.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/org.spdx/spdx-maven-plugin-1.0.0-RC2.jar target/spdx-maven-plugin-1.0.0-RC2.jar
