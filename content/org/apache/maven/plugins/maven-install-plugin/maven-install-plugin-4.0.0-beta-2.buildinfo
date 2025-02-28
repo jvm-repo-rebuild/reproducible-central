@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Install Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-install-plugin
+version=4.0.0-beta-2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-install-plugin.git
+source.scm.tag=maven-install-plugin-4.0.0-beta-2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=4.0.0-rc-2
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-install-plugin-4.0.0-beta-2.pom
+outputs.0.length=9164
+outputs.0.checksums.sha512=918ac4e5eadc27cda96ddd2b772b0b7df77a60f0be432450a2ed4ad5c1981bdba2cb44c24aa5759aaf7f78a7f5013840d6200b9957690a69001491d0885f88b6
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-install-plugin-4.0.0-beta-2.jar
+outputs.1.length=32912
+outputs.1.checksums.sha512=85e8d1f1f0e7de55f0a73dcd94816aa53625e823f4f31fdc1fa5835699dd4153d6a934fd27a0a7ca54b9e560694bb3066c8a89b0ba225e25d8b59744e4861679
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-install-plugin-4.0.0-beta-2-source-release.zip
+outputs.2.length=195149
+outputs.2.checksums.sha512=dd0062fddf6ee7c2d4ad069cb18b0e875bd3315488fa369a006b0c04dfde05eba5d34547e3c74cecffc95fc416e73e85cbe7b6075c1c244a0897e0a7bd53d824
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-install-plugin-4.0.0-beta-2-sources.jar
+outputs.3.length=19704
+outputs.3.checksums.sha512=3857c10eb1aab3ea62801e865f8fda1152d28b987dcc39fe79509e7928ac6be5e8197fba0614587af6df383edffd63699460af4f99f43c45db95976e3d140d32
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-install-plugin-4.0.0-beta-2-cyclonedx.xml
+outputs.4.length=25254
+outputs.4.checksums.sha512=912db7680dded89c3e139716f8c90d1b122e6dac97fadef1bb24f5f38226c10f4d89299c434be100d61b3b39b42ba59f0b9b6c0c6589c60f9432837ed431efd4
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-install-plugin-4.0.0-beta-2-cyclonedx.json
+outputs.5.length=29259
+outputs.5.checksums.sha512=93558516bf2f2144e4dd0173bde9a15a35726f9275da3a25c9470b8885038c89418479ee02fe354f859242139ea050b803fd45eed4fe824e2f7ea42d28fd5c20
