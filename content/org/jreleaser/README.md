@@ -63,13 +63,13 @@ Source code: [https://github.com/jreleaser/jreleaser.git](https://github.com/jre
 * [org.jreleaser:jreleaser-zulip-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-zulip-java-sdk/overview)
 </details>
 
-rebuilding **12 releases** of org.jreleaser:jreleaser:
+rebuilding **13 releases** of org.jreleaser:jreleaser:
 - **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.17.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.17.0/pom) | | | |
+| [1.17.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.17.0/pom) | [gradle jdk21](jreleaser-1.17.0.buildspec) | [result](jreleaser-1.17.0.buildinfo): [155 :white_check_mark:  1 :warning:](jreleaser-1.17.0.buildcompare) | 51M |
 | [1.16.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.16.0/pom) | [gradle jdk21](jreleaser-1.16.0.buildspec) | [result](jreleaser-1.16.0.buildinfo): [156 :white_check_mark: ](jreleaser-1.16.0.buildcompare) | 51M |
 | [1.15.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.15.0/pom) | [gradle jdk17](jreleaser-1.15.0.buildspec) | [result](jreleaser-1.15.0.buildinfo): [156 :white_check_mark: ](jreleaser-1.15.0.buildcompare) | 50M |
 | [1.14.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.14.0/pom) | [gradle jdk17](jreleaser-1.14.0.buildspec) | [result](jreleaser-1.14.0.buildinfo): [156 :white_check_mark: ](jreleaser-1.14.0.buildcompare) | 49M |
