@@ -1,3 +1,11 @@
+content/com/flowlogix/flowlogix-9.0.7.buildspec:9.0.8
+content/com/cognite/units/units-catalog/units-catalog-0.1.20.buildspec:0.1.21
 content/dev/langchain4j/langchain4j-1.0.0-alpha1.buildspec:1.0.0-beta1
-content/eu/maveniverse/maven/toolbox/toolbox-0.6.3.buildspec:0.6.4
-content/io/airlift/airbase/airbase-224.buildspec:226
+content/net/sourceforge/pmd/pmd-7.10.0.buildspec:7.11.0
+content/nl/basjes/codeowners/codeowners-parent/codeowners-parent-1.11.0.buildspec:1.11.1
+content/org/jreleaser/jreleaser-1.16.0.buildspec:1.17.0
+content/org/apache/cxf/cxf-build-utils/cxf-build-utils-4.0.2.buildspec:4.1.0
+content/org/apache/maven/plugins/maven-deploy-plugin/maven-deploy-plugin-4.0.0-beta-1.buildspec:4.0.0-beta-2
+content/org/apache/maven/plugins/maven-install-plugin/maven-install-plugin-4.0.0-beta-1.buildspec:4.0.0-beta-2
+content/org/apache/sling/org.apache.sling.repoinit.parser/org.apache.sling.repoinit.parser-1.9.0.buildspec:1.9.2
+content/org/spdx/spdx-maven-plugin/spdx-maven-plugin-1.0.0-RC1.buildspec:1.0.0-RC2

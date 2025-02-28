@@ -13,6 +13,7 @@ rebuilding **21 releases** of com.cognite.units:units-catalog:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.1.21](https://central.sonatype.com/artifact/com.cognite.units/units-catalog/0.1.21/pom) | | | |
 | [0.1.20](https://central.sonatype.com/artifact/com.cognite.units/units-catalog/0.1.20/pom) | [mvn jdk17](units-catalog-0.1.20.buildspec) | [result](units-catalog-0.1.20.buildinfo): [3 :white_check_mark: ](units-catalog-0.1.20.buildcompare) | 106K |
 | [0.1.19](https://central.sonatype.com/artifact/com.cognite.units/units-catalog/0.1.19/pom) | [mvn jdk17](units-catalog-0.1.19.buildspec) | [result](units-catalog-0.1.19.buildinfo): [3 :white_check_mark: ](units-catalog-0.1.19.buildcompare) | 106K |
 | [0.1.18](https://central.sonatype.com/artifact/com.cognite.units/units-catalog/0.1.18/pom) | [mvn jdk17](units-catalog-0.1.18.buildspec) | [result](units-catalog-0.1.18.buildinfo): [3 :white_check_mark: ](units-catalog-0.1.18.buildcompare) | 106K |

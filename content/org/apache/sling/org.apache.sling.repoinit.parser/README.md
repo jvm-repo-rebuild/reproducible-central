@@ -13,6 +13,7 @@ rebuilding **7 releases** of org.apache.sling:org.apache.sling.repoinit.parser:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.9.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.repoinit.parser/1.9.2/pom) | | | |
 | [1.9.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.repoinit.parser/1.9.0/pom) | [mvn jdk11](org.apache.sling.repoinit.parser-1.9.0.buildspec) | [result](org.apache.sling.repoinit.parser-1.9.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.repoinit.parser-1.9.0.buildcompare) | 461K |
 | [1.8.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.repoinit.parser/1.8.0/pom) | [mvn jdk11](org.apache.sling.repoinit.parser-1.8.0.buildspec) | [result](org.apache.sling.repoinit.parser-1.8.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.repoinit.parser-1.8.0.buildcompare) | 438K |
 | [1.7.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.repoinit.parser/1.7.0/pom) | [mvn jdk11](org.apache.sling.repoinit.parser-1.7.0.buildspec) | [result](org.apache.sling.repoinit.parser-1.7.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.repoinit.parser-1.7.0.buildcompare) | 423K |
