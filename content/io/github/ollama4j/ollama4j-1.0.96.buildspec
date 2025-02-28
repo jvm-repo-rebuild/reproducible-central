@@ -1,0 +1,19 @@
+groupId=io.github.ollama4j
+artifactId=ollama4j
+display=${groupId}:${artifactId}
+version=1.0.96
+
+gitRepo=https://github.com/ollama4j/ollama4j.git
+gitTag=${version}
+
+tool=mvn
+jdk=17
+newline=lf
+#umask=022
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+execBefore="sed -e 's/ollama4j-revision/${version}/' -e 's/mvn-repo-id/central/' pom.xml > pom.xml.tmp && mv pom.xml.tmp pom.xml"
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
