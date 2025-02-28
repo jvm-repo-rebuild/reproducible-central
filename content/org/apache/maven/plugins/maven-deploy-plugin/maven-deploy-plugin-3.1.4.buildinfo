@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Deploy Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-deploy-plugin
+version=3.1.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-deploy-plugin.git
+source.scm.tag=maven-deploy-plugin-3.1.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-deploy-plugin-3.1.4.pom
+outputs.0.length=9210
+outputs.0.checksums.sha512=61dc5e099ca04b1a7c3594a4ea2335a95c2a49eb5e7d573ab96b0131fb0ffc8daf250ff64cee7e2fcff733f6a8842d95addaed30a31bd4bb5584c8ca1a87e1e0
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-deploy-plugin-3.1.4.jar
+outputs.1.length=39816
+outputs.1.checksums.sha512=326fc6d1a3f0ca4ff9d809f37b736024cd34dec13cc7a2fa2a758649d006e454a7978b859aafc9001bb4e8a6f20454d3768c18a998df64b5e91241b9f4771981
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-deploy-plugin-3.1.4-source-release.zip
+outputs.2.length=279848
+outputs.2.checksums.sha512=14e97d7d80ffd00b787b1d59c13a6ac6e627d82fce94b9fb8b4d8e42222ed1f302c94c2ccef7becd7bdf44a128d5edfd467f45b930bedd61a03a7177d95cd7c3
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-deploy-plugin-3.1.4-sources.jar
+outputs.3.length=25414
+outputs.3.checksums.sha512=be569a4221a649f3a4ca7d0025f0d36395918f103951f0aebe7c0424305f07e8d5499f8be41601aceca719c82c594a0f9538b6180ca0e2e26b21196b79b031d7
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-deploy-plugin-3.1.4-cyclonedx.xml
+outputs.4.length=86548
+outputs.4.checksums.sha512=6d65203a889ec6f10f2ad053f7e51be07a2ddb72d08dcfc15f86bd8f64f4656cc9c7dbdbf67aa47b448f4787f47de21942c49262289146231b3e0514a2573dbc
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-deploy-plugin-3.1.4-cyclonedx.json
+outputs.5.length=99990
+outputs.5.checksums.sha512=3d6d460ae85e2590eab3fd8b89c190889d4f2cde68474c7d190805e9cf8059bf6a4a7bf94379bdf7ad283f4838a6f5e6f0ca120147fbe93503a26588bc352a77

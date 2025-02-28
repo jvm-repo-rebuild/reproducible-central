@@ -1,0 +1,9 @@
+version=3.1.4
+ok=6
+ko=0
+ignored=0
+okFiles="maven-deploy-plugin-3.1.4.pom maven-deploy-plugin-3.1.4.jar maven-deploy-plugin-3.1.4-source-release.zip maven-deploy-plugin-3.1.4-sources.jar maven-deploy-plugin-3.1.4-cyclonedx.xml maven-deploy-plugin-3.1.4-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
