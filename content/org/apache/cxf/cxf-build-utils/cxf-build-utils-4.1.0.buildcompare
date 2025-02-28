@@ -1,0 +1,9 @@
+version=4.1.0
+ok=11
+ko=0
+ignored=0
+okFiles="cxf-build-utils-4.1.0.pom cxf-build-utils-4.1.0-source-release.zip cxf-buildtools-4.1.0.pom cxf-buildtools-4.1.0.jar cxf-buildtools-4.1.0-sources.jar cxf-xml2fastinfoset-plugin-4.1.0.pom cxf-xml2fastinfoset-plugin-4.1.0.jar cxf-xml2fastinfoset-plugin-4.1.0-sources.jar cxf-xml2fastinfoset-test-4.1.0.pom cxf-xml2fastinfoset-test-4.1.0.jar cxf-xml2fastinfoset-test-4.1.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
