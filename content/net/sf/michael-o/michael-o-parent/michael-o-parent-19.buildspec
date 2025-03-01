@@ -1,0 +1,17 @@
+groupId=net.sf.michael-o
+artifactId=michael-o-parent
+display=${groupId}:${artifactId}
+version=19
+
+gitRepo=https://github.com/michael-o/${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=17
+newline=crlf
+umask=022
+
+command="mvn -Pmichael-o-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
