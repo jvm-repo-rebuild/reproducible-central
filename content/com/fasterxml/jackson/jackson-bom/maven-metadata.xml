@@ -3,8 +3,8 @@
   <groupId>com.fasterxml.jackson</groupId>
   <artifactId>jackson-bom</artifactId>
   <versioning>
-    <latest>2.18.2</latest>
-    <release>2.18.2</release>
+    <latest>2.18.3</latest>
+    <release>2.18.3</release>
     <versions>
       <version>2.6.7</version>
       <version>2.6.7.1</version>
@@ -129,7 +129,8 @@
       <version>2.18.0</version>
       <version>2.18.1</version>
       <version>2.18.2</version>
+      <version>2.18.3</version>
     </versions>
-    <lastUpdated>20241128003305</lastUpdated>
+    <lastUpdated>20250228231829</lastUpdated>
   </versioning>
 </metadata>

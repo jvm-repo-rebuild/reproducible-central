@@ -13,6 +13,7 @@ rebuilding **3 releases** of net.sf.michael-o:michael-o-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [19](https://central.sonatype.com/artifact/net.sf.michael-o/michael-o-parent/19/pom) | | | |
 | [18](https://central.sonatype.com/artifact/net.sf.michael-o/michael-o-parent/18/pom) | [mvn jdk17 w](michael-o-parent-18.buildspec) | [result](michael-o-parent-18.buildinfo): [3 :white_check_mark: ](michael-o-parent-18.buildcompare) | 15K |
 | [17](https://central.sonatype.com/artifact/net.sf.michael-o/michael-o-parent/17/pom) | [mvn jdk17 w](michael-o-parent-17.buildspec) | [result](michael-o-parent-17.buildinfo): [3 :white_check_mark: ](michael-o-parent-17.buildcompare) | 15K |
 | [16](https://central.sonatype.com/artifact/net.sf.michael-o/michael-o-parent/16/pom) | [mvn jdk17 w](michael-o-parent-16.buildspec) | [result](michael-o-parent-16.buildinfo): [3 :white_check_mark: ](michael-o-parent-16.buildcompare) | 18K |
