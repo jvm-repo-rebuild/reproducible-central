@@ -1,0 +1,10 @@
+version=2.18.3
+ok=3
+ko=1
+ignored=0
+okFiles="jackson-core-2.18.3.pom jackson-core-2.18.3.jar jackson-core-2.18.3-sources.jar"
+koFiles="jackson-core-2.18.3.module"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.fasterxml.jackson.core/jackson-core-2.18.3.module target/publications/maven/module.json
