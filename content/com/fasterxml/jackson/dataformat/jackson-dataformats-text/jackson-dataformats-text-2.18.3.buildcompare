@@ -1,0 +1,9 @@
+version=2.18.3
+ok=17
+ko=0
+ignored=0
+okFiles="jackson-dataformats-text-2.18.3.pom jackson-dataformat-csv-2.18.3.pom jackson-dataformat-csv-2.18.3.jar jackson-dataformat-csv-2.18.3-sources.jar jackson-dataformat-csv-2.18.3.module jackson-dataformat-properties-2.18.3.pom jackson-dataformat-properties-2.18.3.jar jackson-dataformat-properties-2.18.3-sources.jar jackson-dataformat-properties-2.18.3.module jackson-dataformat-yaml-2.18.3.pom jackson-dataformat-yaml-2.18.3.jar jackson-dataformat-yaml-2.18.3-sources.jar jackson-dataformat-yaml-2.18.3.module jackson-dataformat-toml-2.18.3.pom jackson-dataformat-toml-2.18.3.jar jackson-dataformat-toml-2.18.3-sources.jar jackson-dataformat-toml-2.18.3.module"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
