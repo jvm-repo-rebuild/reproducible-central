@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Michael Osipov's Parent POM
+group-id=net.sf.michael-o
+artifact-id=michael-o-parent
+version=19
+
+# source information
+source.scm.uri=scm:git:https://github.com/michael-o/michael-o-parent.git
+source.scm.tag=19
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=net.sf.michael-o
+outputs.0.filename=michael-o-parent-19.pom
+outputs.0.length=12793
+outputs.0.checksums.sha512=dda9d1d5339a363a267487e95b3eafce89c56bb3617f7a77c52712addb494856581a06085e7b8d5b5a3d59312d3d268cf1c3d20af0b4946e5a0c517172442af2
+
+outputs.1.groupId=net.sf.michael-o
+outputs.1.filename=michael-o-parent-19-site.xml
+outputs.1.length=1518
+outputs.1.checksums.sha512=75c1af30802ada7e2fff77edd9bf5e9ffb2d4372628ce5cf7a0aa9220096be610dfc1f1234d89b717f4a0c93a6e739a82fddea89cb54ee229bbe1e454d479f67
+
+outputs.2.groupId=net.sf.michael-o
+outputs.2.filename=michael-o-parent-19-site-resources.zip
+outputs.2.length=707
+outputs.2.checksums.sha512=491e67c8dc666f7afeedbf40bcba688c5e5af383bf929fd5fe99cd6d3b30da7ee69d183f9c9a0b1748339989f4fb3e9c12716ed300ba4c27543d4fd4d03eb373
