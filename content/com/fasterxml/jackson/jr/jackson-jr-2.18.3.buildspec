@@ -1,0 +1,21 @@
+groupId=com.fasterxml.jackson.jr
+artifactId=jackson-jr-parent
+version=2.18.3
+
+display=com.fasterxml.jackson.jr:jackson-jr
+
+gitRepo=https://github.com/FasterXML/jackson-jr.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.3
+jdk=8
+newline=lf
+#umask=022
+timezone="America/Los_Angeles"
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
