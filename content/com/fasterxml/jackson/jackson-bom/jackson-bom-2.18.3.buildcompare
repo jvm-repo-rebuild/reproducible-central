@@ -1,0 +1,7 @@
+version=2.18.3
+ok=2
+ko=0
+ignored=0
+okFiles="jackson-bom-2.18.3.pom jackson-base-2.18.3.pom"
+koFiles=""
+ignoredFiles=""
