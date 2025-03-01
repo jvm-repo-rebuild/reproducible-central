@@ -1,0 +1,19 @@
+groupId=com.fasterxml.jackson.datatype
+artifactId=jackson-datatypes-misc-parent
+display=${groupId}:jackson-datatypes-misc
+version=2.18.3
+
+gitRepo=https://github.com/FasterXML/jackson-datatypes-misc.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+timezone="Etc/GMT+8"
+#umask=022
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
