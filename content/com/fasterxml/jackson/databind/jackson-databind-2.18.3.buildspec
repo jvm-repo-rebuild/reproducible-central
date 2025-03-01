@@ -8,7 +8,7 @@ gitRepo=https://github.com/FasterXML/${artifactId}.git
 gitTag=${artifactId}-${version}
 
 # gradle-module-metadata:0.4.0:gmm records the exact Maven version used
-tool=mvn-3.9.6
+tool=mvn-3.9.9
 jdk=8
 newline=lf
 timezone="America/Los_Angeles"
