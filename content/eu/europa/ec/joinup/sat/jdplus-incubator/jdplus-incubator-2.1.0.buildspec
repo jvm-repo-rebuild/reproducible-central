@@ -1,0 +1,18 @@
+groupId=eu.europa.ec.joinup.sat
+artifactId=jdplus-incubator
+display=${groupId}:${artifactId}
+version=2.1.0
+
+gitRepo=https://github.com/jdemetra/jdplus-incubator.git
+gitTag=v${version}
+
+tool=mvn
+jdk=21
+newline=lf
+#umask=022
+
+command="mvn -Pbase-deploy clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
