@@ -1,0 +1,91 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Spoon POM
+group-id=fr.inria.gforge.spoon
+artifact-id=spoon-pom
+version=11.2.1-beta-6
+
+# source information
+source.scm.uri=scm:git:https://github.com/INRIA/spoon.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=spoon-javadoc
+
+# aggregated output
+
+outputs.0.coordinates=fr.inria.gforge.spoon:spoon-pom
+
+outputs.0.0.groupId=fr.inria.gforge.spoon
+outputs.0.0.filename=spoon-pom-11.2.1-beta-6.pom
+outputs.0.0.length=24321
+outputs.0.0.checksums.sha512=f7dc195fabb37ccb9591b7d439b7984a831e2aae7eabeec4524e0799b7b1816282c63cf21ef780fcb2afe753a068e557c377483aad60182a1de14fa091eb8b91
+# ignored spoon-pom-11.2.1-beta-6-cyclonedx.xml
+# ignored spoon-pom-11.2.1-beta-6-cyclonedx.json
+
+outputs.1.coordinates=fr.inria.gforge.spoon:spoon-core
+
+outputs.1.0.groupId=fr.inria.gforge.spoon
+outputs.1.0.filename=spoon-core-11.2.1-beta-6.pom
+outputs.1.0.length=9536
+outputs.1.0.checksums.sha512=20236febe2877e3947c1f664127cb59f206dc6af1bd396b8ca8f81e66e6efcffb959249a1d4e31556db6eca61bf98b34a56b669974e604d357e64886f43774eb
+
+outputs.1.1.groupId=fr.inria.gforge.spoon
+outputs.1.1.filename=spoon-core-11.2.1-beta-6.jar
+outputs.1.1.length=1954006
+outputs.1.1.checksums.sha512=56f319493404d2eabdd6ed42524edfe0e2df2d891a1f2a503a667e63350ec416bcd9d33e40e2ce8c70a8993bd6a7d9e55000cf3224062df9d508941c100da92c
+
+outputs.1.2.groupId=fr.inria.gforge.spoon
+outputs.1.2.filename=spoon-core-11.2.1-beta-6-jar-with-dependencies.jar
+outputs.1.2.length=15010667
+outputs.1.2.checksums.sha512=90bc091b6e2d2e7f8cb87a19429280e6619a5096da8fa35f57836047f0393f2ecca464a2ac9ee3db72810f55c0e7ef36961dc2784c023e48b2e68ea72c93e00c
+
+outputs.1.3.groupId=fr.inria.gforge.spoon
+outputs.1.3.filename=spoon-core-11.2.1-beta-6-sources.jar
+outputs.1.3.length=1079579
+outputs.1.3.checksums.sha512=56971a1c4ae25b3951a614f3217695d6e6ec531d48165cd063963eefd61444bf70f152beec6101e2c9bebb182e1731f22d765bf5cf2f06b6d832988818092188
+
+outputs.1.4.groupId=fr.inria.gforge.spoon
+outputs.1.4.filename=spoon-core-11.2.1-beta-6-cyclonedx.xml
+outputs.1.4.length=44805
+outputs.1.4.checksums.sha512=c1e573ff49325378acdf98ddfec5a123efa11bbd5c4f498cdf5be534c0eade128a0e2736d09bb9dda95729266deb3ea05eb7fa93eb22bdfddb673032044c3891
+
+outputs.1.5.groupId=fr.inria.gforge.spoon
+outputs.1.5.filename=spoon-core-11.2.1-beta-6-cyclonedx.json
+outputs.1.5.length=49680
+outputs.1.5.checksums.sha512=8abc515ce57bdbc6814554a4c49dc3ad7986a2880b438d16f51ba810e382830abcf38b92aa0830d28f11c5837f99c2ea5cd4918814096fa44384ba1d638d23fb
+
+outputs.2.coordinates=fr.inria.gforge.spoon:spoon-javadoc
+
+outputs.2.0.groupId=fr.inria.gforge.spoon
+outputs.2.0.filename=spoon-javadoc-11.2.1-beta-6.pom
+outputs.2.0.length=3016
+outputs.2.0.checksums.sha512=2bbed60a94e199ae06792df4aaadd370d8263914f5b620385bca5a629ac33432f6a07856ae80468be66ee0bfad784e9b331760065ac05f9817f5cd803d908cd3
+
+outputs.2.1.groupId=fr.inria.gforge.spoon
+outputs.2.1.filename=spoon-javadoc-11.2.1-beta-6.jar
+outputs.2.1.length=60792
+outputs.2.1.checksums.sha512=eb14449607640392faff62549e190d2d4bc3db601e33163f5e94bdefe65c1de19e9197f8c6dcd4f62aae81754a318f8e74e5e0710c99bc72dfe9338d38148dd9
+
+outputs.2.2.groupId=fr.inria.gforge.spoon
+outputs.2.2.filename=spoon-javadoc-11.2.1-beta-6-sources.jar
+outputs.2.2.length=30902
+outputs.2.2.checksums.sha512=bd5ef4759a081850d596a7b31de4211229cef80dce0d6491403d05dc61c6ec7ece9be553fcf1d86d226f9cb9f9af2cef6ab234b6ba3b8a54937f2643aa2c3a5f
+
+outputs.2.3.groupId=fr.inria.gforge.spoon
+outputs.2.3.filename=spoon-javadoc-11.2.1-beta-6-cyclonedx.xml
+outputs.2.3.length=47306
+outputs.2.3.checksums.sha512=30444fdcaf77f055c56ada2b64a7882ffc3d765ed86c68f1a720ef4eb40058e4c8586a4837e3d15ca6e141be059ad5454620564329ce9d3159ee81fbc912a5bb
+
+outputs.2.4.groupId=fr.inria.gforge.spoon
+outputs.2.4.filename=spoon-javadoc-11.2.1-beta-6-cyclonedx.json
+outputs.2.4.length=52471
+outputs.2.4.checksums.sha512=0b5709c9f6215a73d27392bb5064110bc83ae668481c1433d0d6225ef65949ebb75ae78e05905e09bede0762f87d096230602163539c838dc41af5172fcd239c
