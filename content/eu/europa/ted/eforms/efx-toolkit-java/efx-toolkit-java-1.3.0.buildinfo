@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=EFX Toolkit for Java
+group-id=eu.europa.ted.eforms
+artifact-id=efx-toolkit-java
+version=1.3.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/OP-TED/efx-toolkit-java.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=eu.europa.ted.eforms
+outputs.0.filename=efx-toolkit-java-1.3.0.pom
+outputs.0.length=14791
+outputs.0.checksums.sha512=ae02e27a7ee4a6f60490a7ec2dac9416370472a0c6c6523654e29b9d15ac4e56cf22f0dc14dfe23ff5a338452089614ab4486a8b4a4eceb29b3bdc4fcd02db53
+
+outputs.1.groupId=eu.europa.ted.eforms
+outputs.1.filename=efx-toolkit-java-1.3.0.jar
+outputs.1.length=949490
+outputs.1.checksums.sha512=cfcacc0083c677d07e5c18613427379acbd7b12224eb1406c9c504a88a2d42c4fea79c967067e3d310361e39ed95de081d11ae09219adc14c2e000cfe8d46327
+
+outputs.2.groupId=eu.europa.ted.eforms
+outputs.2.filename=efx-toolkit-java-1.3.0-sources.jar
+outputs.2.length=359274
+outputs.2.checksums.sha512=33f13c3f1098b3272e259f31b3d7215fae7d83e9bb0ae73705cf45179e0975789eb8901c6279cb4d552f8f47cc4df94ad15b56c38e7ff812232e0535f6e77639
