@@ -134,13 +134,13 @@ Source code: [https://github.com/apache/pulsar.git](https://github.com/apache/pu
 * [org.apache.pulsar:tiered-storage-parent](https://central.sonatype.com/artifact/org.apache.pulsar/tiered-storage-parent/overview)
 </details>
 
-rebuilding **6 releases** of org.apache.pulsar:pulsar:
+rebuilding **7 releases** of org.apache.pulsar:pulsar:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.0.3](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.3/pom) | | | |
+| [4.0.3](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.3/pom) | [mvn jdk21](pulsar-4.0.3.buildspec) | [result](pulsar-4.0.3.buildinfo): [288 :white_check_mark:  34 :warning:](pulsar-4.0.3.buildcompare) | 3.7G |
 | [4.0.2](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.2/pom) | [mvn jdk21](pulsar-4.0.2.buildspec) | [result](pulsar-4.0.2.buildinfo): [289 :white_check_mark:  33 :warning:](pulsar-4.0.2.buildcompare) | 3.7G |
 | [4.0.1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.1/pom) | [mvn jdk21](pulsar-4.0.1.buildspec) | [result](pulsar-4.0.1.buildinfo): [289 :white_check_mark:  33 :warning:](pulsar-4.0.1.buildcompare) | 3.4G |
 | [4.0.0-preview.1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.0-preview.1/pom) | | | |
