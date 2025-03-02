@@ -24,12 +24,13 @@ Source code: [https://github.com/jdemetra/jdplus-benchmarking.git](https://githu
 * [eu.europa.ec.joinup.sat:jdplus-benchmarking-desktop-plugin](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-benchmarking-desktop-plugin/overview)
 </details>
 
-rebuilding **1 releases** of eu.europa.ec.joinup.sat:jdplus-benchmarking:
+rebuilding **2 releases** of eu.europa.ec.joinup.sat:jdplus-benchmarking:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [1.2.1](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-benchmarking/1.2.1/pom) | [mvn jdk21](jdplus-benchmarking-1.2.1.buildspec) | [result](jdplus-benchmarking-1.2.1.buildinfo): [27 :white_check_mark:  1 :warning:](jdplus-benchmarking-1.2.1.buildcompare) | 1.2M |
+| [1.2.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-benchmarking/1.2.0/pom) | [mvn jdk21](jdplus-benchmarking-1.2.0.buildspec) | [result](jdplus-benchmarking-1.2.0.buildinfo): [26 :white_check_mark:  1 :warning:](jdplus-benchmarking-1.2.0.buildcompare) | 1.2M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
