@@ -1,0 +1,10 @@
+version=1.2.0
+ok=26
+ko=1
+ignored=0
+okFiles="jdplus-benchmarking-1.2.0.pom jdplus-benchmarking-base-1.2.0.pom jdplus-benchmarking-base-parent-1.2.0.pom jdplus-benchmarking-base-api-1.2.0.pom jdplus-benchmarking-base-api-1.2.0.jar jdplus-benchmarking-base-api-1.2.0-sources.jar jdplus-benchmarking-base-core-1.2.0.pom jdplus-benchmarking-base-core-1.2.0.jar jdplus-benchmarking-base-core-1.2.0-sources.jar jdplus-benchmarking-base-information-1.2.0.pom jdplus-benchmarking-base-information-1.2.0.jar jdplus-benchmarking-base-information-1.2.0-sources.jar jdplus-benchmarking-base-protobuf-1.2.0.pom jdplus-benchmarking-base-protobuf-1.2.0.jar jdplus-benchmarking-base-protobuf-1.2.0-sources.jar jdplus-benchmarking-base-r-1.2.0.pom jdplus-benchmarking-base-r-1.2.0.jar jdplus-benchmarking-base-r-1.2.0-sources.jar jdplus-benchmarking-base-workspace-1.2.0.pom jdplus-benchmarking-base-workspace-1.2.0.jar jdplus-benchmarking-base-workspace-1.2.0-sources.jar jdplus-benchmarking-desktop-1.2.0.pom jdplus-benchmarking-desktop-plugin-1.2.0.pom jdplus-benchmarking-desktop-plugin-1.2.0.jar jdplus-benchmarking-desktop-plugin-1.2.0-sources.jar jdplus-benchmarking-cli-1.2.0.pom"
+koFiles="jdplus-benchmarking-desktop-plugin-1.2.0.nbm"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/eu.europa.ec.joinup.sat/jdplus-benchmarking-desktop-plugin-1.2.0.nbm jdplus-benchmarking-desktop/jdplus-benchmarking-desktop-plugin/target/jdplus-benchmarking-desktop-plugin-1.2.0.nbm
