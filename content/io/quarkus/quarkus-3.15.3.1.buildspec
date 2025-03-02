@@ -11,7 +11,7 @@ jdk=17
 newline=lf
 #umask=022
 
-javaVersion="17.0.13"
+javaVersion="17.0.14"
 javaVendor="Eclipse Adoptium"
 command="mvn -Djava.version='$javaVersion' -Djava.vendor='$javaVendor' -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dformat.skip -Ddevelocity.cache.local.enabled=false -Ddevelocity.cache.remote.storeEnabled=false -Dbuildinfo.ignore='*/quarkus-documentation-*.zip,*/quarkus-documentation-*.tar.gz'"
 buildinfo=target/${artifactId}-${version}.buildinfo
