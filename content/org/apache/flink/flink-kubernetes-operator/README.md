@@ -25,6 +25,7 @@ rebuilding **1 releases** of org.apache.flink:flink-kubernetes-operator-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.11.0](https://central.sonatype.com/artifact/org.apache.flink/flink-kubernetes-operator/1.11.0/pom) | | | |
 | [1.10.0](https://central.sonatype.com/artifact/org.apache.flink/flink-kubernetes-operator-parent/1.10.0/pom) | [mvn jdk17](flink-kubernetes-operator-1.10.0.buildspec) | [result](flink-kubernetes-operator-parent-1.10.0.buildinfo): [25 :white_check_mark:  17 :warning:](flink-kubernetes-operator-parent-1.10.0.buildcompare) | 35M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

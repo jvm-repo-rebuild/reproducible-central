@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **6508 releases** of **830 projects**:
-   - **4694** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **6510 releases** of **830 projects**:
+   - **4696** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 1814 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 830 projects, 718 have at least one fully reproducible release, 112 have none
 
@@ -239,7 +239,7 @@ Its objectives are to provide:
 | dev.cdevents | [cdevents-sdk-java](content/dev/cdevents/cdevents-sdk-java/README.md) | 3 | 3 :warning: |
 | dev.notmyfault.serverlib | [ServerLib](content/dev/notmyfault/serverlib/ServerLib/README.md) | 1 | 1 :white_check_mark: |
 | dev.sigstore | [sigstore-maven-plugin](content/dev/sigstore/sigstore-maven-plugin/README.md) | 7 | 4 :white_check_mark: / 3 :warning: |
-| dk.mada.jaxrs | [openapi-jaxrs-client](content/dk/mada/jaxrs/openapi-jaxrs-client/README.md) | 10 | 8 :white_check_mark: / 2 :warning: |
+| dk.mada.jaxrs | [openapi-jaxrs-client](content/dk/mada/jaxrs/openapi-jaxrs-client/README.md) | 11 | 9 :white_check_mark: / 2 :warning: |
 | dk.mada.reproducible | [reproducible-gradle](content/dk/mada/reproducible/reproducible-gradle/README.md) | 1 | 1 :white_check_mark: |
 | dk.mada.style | [mada-style-gradle](content/dk/mada/style/mada-style-gradle/README.md) | 12 | 11 :white_check_mark: / 1 :warning: |
 | eu.europa.ec.joinup.sat | [jdplus-benchmarking](content/eu/europa/ec/joinup/sat/jdplus-benchmarking/README.md) | 2 | 2 :warning: |
@@ -257,7 +257,7 @@ Its objectives are to provide:
 | | [nisse](content/eu/maveniverse/maven/nisse/README.md) | 9 | 9 :white_check_mark: |
 | | [toolbox](content/eu/maveniverse/maven/toolbox/README.md) | 55 | 54 :white_check_mark: / 1 :warning: |
 | | [mase](content/eu/maveniverse/maven/mase/mase/README.md) | 3 | 3 :white_check_mark: |
-| fr.inria.gforge.spoon | [spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 140 | 36 :white_check_mark: / 104 :warning: |
+| fr.inria.gforge.spoon | [spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 141 | 37 :white_check_mark: / 104 :warning: |
 | fr.marcwrobel | [jbanking](content/fr/marcwrobel/jbanking/README.md) | 2 | 2 :white_check_mark: |
 | fr.vidal.oss | [atom-jaxb](content/fr/vidal/oss/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
 | io.jooby | [jooby](content/io/jooby/README.md) | 31 | 31 :warning: |
@@ -853,7 +853,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 6 | 6 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 20 | 2 :white_check_mark: / 18 :warning: |
-| **Count:** | **830** | **6508** | **4694** :white_check_mark:<br>**1814** :warning: |
+| **Count:** | **830** | **6510** | **4696** :white_check_mark:<br>**1814** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -866,7 +866,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 ```
      33 gradle     11
      97 gradle     17
-     61 gradle     21
+     62 gradle     21
      35 mvn         7
    1507 mvn         8
       1 mvn         9
@@ -889,7 +889,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn        18
      34 mvn        19
      17 mvn        20
-    439 mvn        21
+    440 mvn        21
      15 mvn        22
       7 mvn        23
       2 mvn-3.5.4   8
