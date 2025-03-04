@@ -16,5 +16,5 @@ umask=022
 command="./gradlew --no-daemon --no-build-cache -Dorg.kordamp.gradle.inline.enabled=false -PreproducibleBuild=true publish publishToMavenLocal -x :jdks-gradle-plugin:publishToMavenLocal -x :jreleaser-gradle-plugin:publishToMavenLocal"
 buildinfo=${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=

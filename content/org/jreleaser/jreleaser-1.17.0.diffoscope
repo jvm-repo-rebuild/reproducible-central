@@ -1,0 +1,38 @@
+1 / 1 central/org/jreleaser/jdks-maven-plugin/1.17.0/jdks-maven-plugin-1.17.0.jar repository/org/jreleaser/jdks-maven-plugin/1.17.0/jdks-maven-plugin-1.17.0.jar
+--- central/org/jreleaser/jdks-maven-plugin/1.17.0/jdks-maven-plugin-1.17.0.jar
++++ repository/org/jreleaser/jdks-maven-plugin/1.17.0/jdks-maven-plugin-1.17.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 41380 bytes, number of entries: 30
+│ +Zip file size: 41374 bytes, number of entries: 30
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/
+│  -rw-r--r--  2.0 unx      388 b- defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw-r--r--  2.0 unx    12857 b- defN 80-Feb-01 00:00 META-INF/LICENSE
+│ @@ -23,10 +23,10 @@
+│  -rw-r--r--  2.0 unx    10841 b- defN 80-Feb-01 00:00 org/jreleaser/jdks/maven/plugin/help/HelpMojo.class
+│  -rw-r--r--  2.0 unx      808 b- defN 80-Feb-01 00:00 org/jreleaser/jdks/maven/plugin/Banner.properties
+│ --rw-r--r--  2.0 unx    19753 b- defN 80-Feb-01 00:00 META-INF/maven/plugin.xml
+│ +-rw-r--r--  2.0 unx    19756 b- defN 80-Feb-01 00:00 META-INF/maven/plugin.xml
+│  -rw-r--r--  2.0 unx    12152 b- defN 80-Feb-01 00:00 META-INF/maven/org.jreleaser/jdks-maven-plugin/plugin-help.xml
+│ -30 files, 109178 bytes uncompressed, 36716 bytes compressed:  66.4%
+│ +30 files, 109181 bytes uncompressed, 36710 bytes compressed:  66.4%
+├── META-INF/maven/plugin.xml
+│ ├── META-INF/maven/plugin.xml
+│ │ @@ -357,15 +357,15 @@
+│ │        </requirements>
+│ │      </mojo>
+│ │    </mojos>
+│ │    <dependencies>
+│ │      <dependency>
+│ │        <groupId>org.jreleaser</groupId>
+│ │        <artifactId>jreleaser-disco-java-sdk</artifactId>
+│ │ -      <type/>
+│ │ +      <type>jar</type>
+│ │        <version>1.17.0</version>
+│ │      </dependency>
+│ │      <dependency>
+│ │        <groupId>org.twdata.maven</groupId>
+│ │        <artifactId>mojo-executor</artifactId>
+│ │        <type>jar</type>
+│ │        <version>2.4.0</version>
+
