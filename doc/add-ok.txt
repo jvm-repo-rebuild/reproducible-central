@@ -1,10 +1,7 @@
 content/com/flowlogix/flowlogix-9.0.7.buildspec:9.0.8
-content/com/fasterxml/jackson/annotations/jackson-annotations-2.18.2.buildspec:2.18.3
-content/com/fasterxml/jackson/core/jackson-core-2.18.2.buildspec:2.18.3
-content/com/fasterxml/jackson/databind/jackson-databind-2.18.2.buildspec:2.18.3
+content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.9.1.0.buildspec:4.9.2.0
 content/dev/langchain4j/langchain4j-1.0.0-alpha1.buildspec:1.0.0-beta1
-content/io/avaje/jsonb/avaje-jsonb-3.0.buildspec:3.1-RC1
-content/net/bytebuddy/byte-buddy-1.17.1.buildspec:1.17.2
-content/org/jreleaser/jreleaser-1.16.0.buildspec:1.17.0
-content/org/apache/struts/struts2-7.0.0.buildspec:7.0.3
-content/org/spdx/spdx-maven-plugin/spdx-maven-plugin-1.0.0-RC1.buildspec:1.0.0-RC2
+content/eu/maveniverse/maven/mimir/mimir-0.3.4.buildspec:0.3.5
+content/eu/maveniverse/maven/nisse/nisse-0.3.4.buildspec:0.4.0
+content/io/airlift/airbase/airbase-227.buildspec:229
+content/org/webjars/flexmonster/flexmonster-2.9.97.buildspec:2.9.98

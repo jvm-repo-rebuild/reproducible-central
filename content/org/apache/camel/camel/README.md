@@ -639,8 +639,10 @@ rebuilding **10 releases** of org.apache.camel:camel:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.10.1](https://central.sonatype.com/artifact/org.apache.camel/camel/4.10.1/pom) | | | |
 | [4.10.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.10.0/pom) | [mvn jdk21](camel-4.10.0.buildspec) | :x: | |
 | [4.9.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.9.0/pom) | [mvn jdk21](camel-4.9.0.buildspec) | [result](camel-4.9.0.buildinfo): [1 :white_check_mark:  2 :warning:](camel-4.9.0.buildcompare) [:mag:](camel-4.9.0.diffoscope) | 13M |
+| [4.8.4](https://central.sonatype.com/artifact/org.apache.camel/camel/4.8.4/pom) | | | |
 | [4.8.3](https://central.sonatype.com/artifact/org.apache.camel/camel/4.8.3/pom) | | | |
 | [4.8.2](https://central.sonatype.com/artifact/org.apache.camel/camel/4.8.2/pom) | | | |
 | [4.8.1](https://central.sonatype.com/artifact/org.apache.camel/camel/4.8.1/pom) | | | |

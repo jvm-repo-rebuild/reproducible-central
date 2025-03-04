@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **6510 releases** of **830 projects**:
-   - **4696** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 1814 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 830 projects, 718 have at least one fully reproducible release, 112 have none
+   rebuilding **6519 releases** of **831 projects**:
+   - **4704** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 1815 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 831 projects, 719 have at least one fully reproducible release, 112 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -38,9 +38,9 @@ Its objectives are to provide:
 | com.fasterxml | [oss-parent](content/com/fasterxml/oss-parent/README.md) | 18 | 18 :white_check_mark: |
 | com.fasterxml.uuid | [java-uuid-generator](content/com/fasterxml/uuid/README.md) | 6 | 2 :white_check_mark: / 4 :warning: |
 | com.fasterxml.woodstox | [woodstox-core](content/com/fasterxml/woodstox/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
-| com.fasterxml.jackson.core | [jackson-annotations](content/com/fasterxml/jackson/annotations/README.md) | 28 | 12 :white_check_mark: / 16 :warning: |
-| | [jackson-core](content/com/fasterxml/jackson/core/README.md) | 28 | 16 :white_check_mark: / 12 :warning: |
-| | [jackson-databind](content/com/fasterxml/jackson/databind/README.md) | 28 | 12 :white_check_mark: / 16 :warning: |
+| com.fasterxml.jackson.core | [jackson-annotations](content/com/fasterxml/jackson/annotations/README.md) | 29 | 13 :white_check_mark: / 16 :warning: |
+| | [jackson-core](content/com/fasterxml/jackson/core/README.md) | 29 | 17 :white_check_mark: / 12 :warning: |
+| | [jackson-databind](content/com/fasterxml/jackson/databind/README.md) | 29 | 13 :white_check_mark: / 16 :warning: |
 | com.fasterxml.jackson | [jackson-bom](content/com/fasterxml/jackson/jackson-bom/README.md) | 29 | 29 :white_check_mark: |
 | | [jackson-parent](content/com/fasterxml/jackson/jackson-parent/README.md) | 15 | 15 :white_check_mark: |
 | com.fasterxml.jackson.jr | [jackson-jr](content/com/fasterxml/jackson/jr/README.md) | 29 | 8 :white_check_mark: / 21 :warning: |
@@ -268,7 +268,7 @@ Its objectives are to provide:
 | io.avaje | [avaje-http](content/io/avaje/http/README.md) | 12 | 12 :white_check_mark: |
 | | [avaje-inject](content/io/avaje/inject/README.md) | 16 | 13 :white_check_mark: / 3 :warning: |
 | | [avaje-jex](content/io/avaje/jex/README.md) | 20 | 17 :white_check_mark: / 3 :warning: |
-| | [avaje-jsonb](content/io/avaje/jsonb/README.md) | 9 | 9 :white_check_mark: |
+| | [avaje-jsonb](content/io/avaje/jsonb/README.md) | 10 | 10 :white_check_mark: |
 | | [avaje-logback-encoder](content/io/avaje/logback-encoder/README.md) | 11 | 11 :white_check_mark: |
 | | [avaje-prisms](content/io/avaje/prisms/README.md) | 6 | 6 :white_check_mark: |
 | | [avaje-sigma](content/io/avaje/sigma/README.md) | 3 | 3 :white_check_mark: |
@@ -346,7 +346,8 @@ Its objectives are to provide:
 | jakarta.mail | [jakarta.mail-api](content/jakarta/mail/jakarta.mail-api/README.md) | 1 | 1 :warning: |
 | jakarta.persistence | [jakarta.persistence-api](content/jakarta/persistence/jakarta.persistence-api/README.md) | 4 | 4 :white_check_mark: |
 | jakarta.servlet | [jakarta.servlet-api](content/jakarta/servlet/jakarta.servlet-api/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
-| net.bytebuddy | [byte-buddy](content/net/bytebuddy/README.md) | 46 | 40 :white_check_mark: / 6 :warning: |
+| land.oras | [oras-java-sdk](content/land/oras/oras-java-sdk/README.md) | 1 | 1 :white_check_mark: |
+| net.bytebuddy | [byte-buddy](content/net/bytebuddy/README.md) | 47 | 41 :white_check_mark: / 6 :warning: |
 | net.jsign | [jsign](content/net/jsign/README.md) | 5 | 1 :white_check_mark: / 4 :warning: |
 | net.bzzt | [reproducible-builds-jvm-stripper](content/net/bzzt/reproducible-builds-jvm-stripper/README.md) | 1 | 1 :white_check_mark: |
 | net.nicoulaj.maven.plugins | [checksum-maven-plugin](content/net/nicoulaj/maven/plugins/checksum-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
@@ -372,7 +373,7 @@ Its objectives are to provide:
 | | [hsac-fitnesse-plugin](content/nl/hsac/hsac-fitnesse-plugin/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | org.jdbi.internal | [jdbi3-root](content/org/jdbi/README.md) | 8 | 1 :white_check_mark: / 7 :warning: |
 | org.jline | [jline](content/org/jline/README.md) | 16 | 14 :white_check_mark: / 2 :warning: |
-| org.jreleaser | [jreleaser](content/org/jreleaser/README.md) | 12 | 6 :white_check_mark: / 6 :warning: |
+| org.jreleaser | [jreleaser](content/org/jreleaser/README.md) | 13 | 6 :white_check_mark: / 7 :warning: |
 | org.phoebus | [parent](content/org/phoebus/README.md) | 1 | 1 :warning: |
 | org.quickperf | [quick-perf](content/org/quickperf/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
 | org.slf4j | [slf4j](content/org/slf4j/README.md) | 13 | 6 :white_check_mark: / 7 :warning: |
@@ -404,7 +405,7 @@ Its objectives are to provide:
 | org.apache.shiro | [shiro-root](content/org/apache/shiro/README.md) | 14 | 4 :white_check_mark: / 10 :warning: |
 | org.apache.sis | [parent](content/org/apache/sis/README.md) | 1 | 1 :warning: |
 | org.apache.sshd | [sshd](content/org/apache/sshd/README.md) | 15 | 15 :warning: |
-| org.apache.struts | [struts2](content/org/apache/struts/README.md) | 27 | 8 :white_check_mark: / 19 :warning: |
+| org.apache.struts | [struts2](content/org/apache/struts/README.md) | 28 | 9 :white_check_mark: / 19 :warning: |
 | org.apache.synapse | [Apache-Synapse](content/org/apache/synapse/README.md) | 1 | 1 :warning: |
 | org.apache.syncope | [syncope](content/org/apache/syncope/README.md) | 15 | 4 :white_check_mark: / 11 :warning: |
 | org.apache.systemds | [systemds](content/org/apache/systemds/README.md) | 2 | 2 :warning: |
@@ -831,7 +832,7 @@ Its objectives are to provide:
 | org.sonatype.nexus.archetypes | [nexus-format-archetype](content/org/sonatype/nexus/archetypes/nexus-format-archetype/README.md) | 18 | 18 :white_check_mark: |
 | org.spdx | [java-spdx-library](content/org/spdx/java-spdx-library/README.md) | 8 | 8 :white_check_mark: |
 | | [spdx-java-core](content/org/spdx/spdx-java-core/README.md) | 3 | 3 :white_check_mark: |
-| | [spdx-maven-plugin](content/org/spdx/spdx-maven-plugin/README.md) | 7 | 5 :white_check_mark: / 2 :warning: |
+| | [spdx-maven-plugin](content/org/spdx/spdx-maven-plugin/README.md) | 8 | 6 :white_check_mark: / 2 :warning: |
 | org.tomitribe | [org.eclipse.transformer.parent](content/org/tomitribe/transformer/README.md) | 2 | 2 :white_check_mark: |
 | org.webjars | [angularjs](content/org/webjars/angularjs/README.md) | 1 | 1 :white_check_mark: |
 | | [bootstrap](content/org/webjars/bootstrap/README.md) | 8 | 8 :white_check_mark: |
@@ -853,7 +854,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 6 | 6 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 20 | 2 :white_check_mark: / 18 :warning: |
-| **Count:** | **830** | **6510** | **4696** :white_check_mark:<br>**1814** :warning: |
+| **Count:** | **831** | **6519** | **4704** :white_check_mark:<br>**1815** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -866,7 +867,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 ```
      33 gradle     11
      97 gradle     17
-     62 gradle     21
+     63 gradle     21
      35 mvn         7
    1507 mvn         8
       1 mvn         9
@@ -878,7 +879,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn        14
      10 mvn        15
      14 mvn        16
-    536 mvn        17
+    538 mvn        17
       1 mvn        17.0.10
       2 mvn        17.0.11
       1 mvn        17.0.12
@@ -889,7 +890,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn        18
      34 mvn        19
      17 mvn        20
-    440 mvn        21
+    441 mvn        21
      15 mvn        22
       7 mvn        23
       2 mvn-3.5.4   8
@@ -925,7 +926,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      36 mvn-3.9.2   8
      19 mvn-3.9.2  17
       4 mvn-3.9.2  21
-    163 mvn-3.9.3   8
+    164 mvn-3.9.3   8
      92 mvn-3.9.3  11
       1 mvn-3.9.3  11.0.18
       3 mvn-3.9.3  11.0.2
@@ -981,9 +982,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      47 mvn-3.9.8  21
      46 mvn-3.9.8  22
      14 mvn-3.9.8  23
-     46 mvn-3.9.9   8
+     49 mvn-3.9.9   8
      37 mvn-3.9.9  11
-     77 mvn-3.9.9  17
+     78 mvn-3.9.9  17
       2 mvn-3.9.9  18
     102 mvn-3.9.9  21
      11 mvn-3.9.9  22
