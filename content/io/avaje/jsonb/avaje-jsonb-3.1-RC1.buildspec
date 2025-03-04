@@ -1,0 +1,18 @@
+groupId=io.avaje
+artifactId=avaje-jsonb-parent
+display=${groupId}:$(echo "${artifactId}" | sed -e "s/-parent//")
+version=3.1-RC1
+
+gitRepo=https://github.com/avaje/avaje-jsonb.git
+gitTag=ace5afc156f370ad3062167a5e1d702e0577fc06
+
+tool=mvn
+jdk=21
+newline=lf
+#umask=022
+
+command="mvn -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
