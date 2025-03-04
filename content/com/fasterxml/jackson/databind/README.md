@@ -8,12 +8,12 @@
 Source code: [https://github.com/FasterXML/jackson-databind.git](https://github.com/FasterXML/jackson-databind.git)
 
 rebuilding **29 releases** of com.fasterxml.jackson.core:jackson-databind:
-- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 17 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 16 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.18.3](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.18.3/pom) | [mvn jdk8](jackson-databind-2.18.3.buildspec) | [result](jackson-databind-2.18.3.buildinfo): [3 :white_check_mark:  1 :warning:](jackson-databind-2.18.3.buildcompare) | 2.8M |
+| [2.18.3](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.18.3/pom) | [mvn jdk8](jackson-databind-2.18.3.buildspec) | [result](jackson-databind-2.18.3.buildinfo): [4 :white_check_mark: ](jackson-databind-2.18.3.buildcompare) | 2.8M |
 | [2.18.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.18.2/pom) | [mvn jdk8](jackson-databind-2.18.2.buildspec) | [result](jackson-databind-2.18.2.buildinfo): [4 :white_check_mark: ](jackson-databind-2.18.2.buildcompare) | 2.8M |
 | [2.18.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.18.1/pom) | [mvn jdk8](jackson-databind-2.18.1.buildspec) | [result](jackson-databind-2.18.1.buildinfo): [4 :white_check_mark: ](jackson-databind-2.18.1.buildcompare) | 2.8M |
 | [2.18.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.18.0/pom) | [mvn jdk8](jackson-databind-2.18.0.buildspec) | [result](jackson-databind-2.18.0.buildinfo): [4 :white_check_mark: ](jackson-databind-2.18.0.buildcompare) | 2.8M |
