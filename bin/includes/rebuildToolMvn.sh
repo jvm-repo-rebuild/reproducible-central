@@ -20,7 +20,7 @@
 rebuildToolMvn() {
   # the effective rebuild command, adding artifact:buildinfo goal to compare with central content
   #local mvn_rebuild="${command} -V -e artifact:compare -Dbuildinfo.reproducible"
-  local mvn_rebuild="${command} -V -e org.apache.maven.plugins:maven-artifact-plugin:3.6.0:compare org.apache.maven.plugins:maven-artifact-plugin:3.6.0:describe-build-output -Dbuildinfo.reproducible -Dcompare.fail=false"
+  local mvn_rebuild="${command} -V -e org.apache.maven.plugins:maven-artifact-plugin:3.6.0:compare org.apache.maven.plugins:maven-artifact-plugin:3.6.0:describe-build-output -Dcompare.fail=false"
   if [ -n "${referenceRepo}" ]
   then
     mvn_rebuild="${mvn_rebuild} -Dreference.repo=${referenceRepo}"
