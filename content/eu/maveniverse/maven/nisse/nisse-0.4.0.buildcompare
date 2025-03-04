@@ -1,0 +1,9 @@
+version=0.4.0
+ok=29
+ko=0
+ignored=0
+okFiles="nisse-0.4.0.pom core-0.4.0.pom core-0.4.0.jar core-0.4.0-sources.jar sources-0.4.0.pom file-source-0.4.0.pom file-source-0.4.0.jar file-source-0.4.0-sources.jar jgit-source-0.4.0.pom jgit-source-0.4.0.jar jgit-source-0.4.0-sources.jar mvn-source-0.4.0.pom mvn-source-0.4.0.jar mvn-source-0.4.0-sources.jar os-source-0.4.0.pom os-source-0.4.0.jar os-source-0.4.0-sources.jar extension3-0.4.0.pom extension3-0.4.0.jar extension3-0.4.0-sources.jar extension4-0.4.0.pom extension4-0.4.0.jar extension4-0.4.0-sources.jar extension-0.4.0.pom extension-0.4.0.jar extension-0.4.0-sources.jar nisse-plugin3-0.4.0.pom nisse-plugin3-0.4.0.jar nisse-plugin3-0.4.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
