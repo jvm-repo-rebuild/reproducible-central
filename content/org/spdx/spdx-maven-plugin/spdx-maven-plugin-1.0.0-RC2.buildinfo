@@ -13,11 +13,13 @@ source.scm.tag=v1.0.0-RC2
 # build instructions
 build-tool=mvn
 
-# build environment information (simplified for reproducibility)
-java.version=17
-os.name=Windows
+# effective build environment information
+java.version=17.0.13
+java.vendor=Ubuntu
+os.name=Linux
 
 # Maven rebuild instructions and effective environment
+mvn.version=3.6.3
 
 # output
 
@@ -28,8 +30,8 @@ outputs.0.checksums.sha512=df0c7294550c4ba9c5e9edc12b6c555d81e5ddf862935550ae1f0
 
 outputs.1.groupId=org.spdx
 outputs.1.filename=spdx-maven-plugin-1.0.0-RC2.jar
-outputs.1.length=171450
-outputs.1.checksums.sha512=e6c70234a39805bf3da16f272528a5369f5dddfd0de52c1225b636ee8678d2fa8fe267e93b1aa1573d3f5a366a2bed345c03d6b3be08cb12214256c4b651f549
+outputs.1.length=171446
+outputs.1.checksums.sha512=87f21a55bd29dab2fa2ce53b3f29d9312e06693cc85b728ff8ffa96a1c2edfa2a4c66372653fb97992e7a690a70f56ca1ed6629a37ee69dc43819ddaaba635cd
 
 outputs.2.groupId=org.spdx
 outputs.2.filename=spdx-maven-plugin-1.0.0-RC2-sources.jar
