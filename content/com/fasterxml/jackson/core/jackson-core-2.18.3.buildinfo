@@ -13,11 +13,13 @@ source.scm.tag=jackson-core-2.18.3
 # build instructions
 build-tool=mvn
 
-# build environment information (simplified for reproducibility)
-java.version=8
-os.name=Unix
+# effective build environment information
+java.version=1.8.0_442
+java.vendor=Private Build
+os.name=Linux
 
 # Maven rebuild instructions and effective environment
+mvn.version=3.9.9
 
 # output
 
@@ -34,7 +36,7 @@ outputs.1.checksums.sha512=f741ece5a41f1d27c04bdbe839092fec0fac1a7b139d9f5fc9214
 outputs.2.groupId=com.fasterxml.jackson.core
 outputs.2.filename=jackson-core-2.18.3.module
 outputs.2.length=2492
-outputs.2.checksums.sha512=2d8b09ce36d7b29e9e019b22f766ade34b3705bca94e3d6e0069feeda5e4a8527cc2d0da63cea8792fb24bef989fa4cd05c61c67bd010e4386dddb5edb221c44
+outputs.2.checksums.sha512=b5f1835a0a6d2511a0ec6304b8c730782c2eec930cf346c5e5b54cddb7a22dcccbef990e28be317110b7ee1c56b57c678976b70639612923c18134ed830c8de7
 
 outputs.3.groupId=com.fasterxml.jackson.core
 outputs.3.filename=jackson-core-2.18.3-sources.jar
