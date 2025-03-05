@@ -1,0 +1,34 @@
+version=1.11.0
+ok=17
+ko=25
+ignored=0
+okFiles="flink-kubernetes-operator-parent-1.11.0.pom flink-kubernetes-operator-parent-1.11.0-cyclonedx.xml flink-kubernetes-operator-parent-1.11.0-cyclonedx.json flink-kubernetes-standalone-1.11.0.pom flink-kubernetes-standalone-1.11.0.jar flink-kubernetes-standalone-1.11.0-sources.jar flink-kubernetes-operator-api-1.11.0.pom flink-autoscaler-1.11.0.pom flink-autoscaler-1.11.0.jar flink-autoscaler-1.11.0-sources.jar flink-autoscaler-1.11.0-tests.jar flink-kubernetes-operator-1.11.0.pom flink-kubernetes-webhook-1.11.0.pom flink-autoscaler-plugin-jdbc-1.11.0.pom flink-autoscaler-plugin-jdbc-1.11.0.jar flink-autoscaler-plugin-jdbc-1.11.0-sources.jar flink-autoscaler-standalone-1.11.0.pom"
+koFiles="flink-kubernetes-standalone-1.11.0-cyclonedx.xml flink-kubernetes-standalone-1.11.0-cyclonedx.json flink-kubernetes-operator-api-1.11.0.jar flink-kubernetes-operator-api-1.11.0-cyclonedx.xml flink-kubernetes-operator-api-1.11.0-cyclonedx.json flink-kubernetes-operator-api-1.11.0-sources.jar flink-kubernetes-operator-api-1.11.0-tests.jar flink-autoscaler-1.11.0-cyclonedx.xml flink-autoscaler-1.11.0-cyclonedx.json flink-kubernetes-operator-1.11.0.jar flink-kubernetes-operator-1.11.0-cyclonedx.xml flink-kubernetes-operator-1.11.0-cyclonedx.json flink-kubernetes-operator-1.11.0-sources.jar flink-kubernetes-operator-1.11.0-tests.jar flink-kubernetes-webhook-1.11.0.jar flink-kubernetes-webhook-1.11.0-shaded.jar flink-kubernetes-webhook-1.11.0-cyclonedx.xml flink-kubernetes-webhook-1.11.0-cyclonedx.json flink-kubernetes-webhook-1.11.0-sources.jar flink-autoscaler-plugin-jdbc-1.11.0-cyclonedx.xml flink-autoscaler-plugin-jdbc-1.11.0-cyclonedx.json flink-autoscaler-standalone-1.11.0.jar flink-autoscaler-standalone-1.11.0-cyclonedx.xml flink-autoscaler-standalone-1.11.0-cyclonedx.json flink-autoscaler-standalone-1.11.0-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.flink/flink-kubernetes-standalone-1.11.0-cyclonedx.xml flink-kubernetes-standalone/target/bom.xml
+# diffoscope target/reference/org.apache.flink/flink-kubernetes-standalone-1.11.0-cyclonedx.json flink-kubernetes-standalone/target/bom.json
+# diffoscope target/reference/org.apache.flink/flink-kubernetes-operator-api-1.11.0.jar flink-kubernetes-operator-api/target/flink-kubernetes-operator-api-1.11.0.jar
+# diffoscope target/reference/org.apache.flink/flink-kubernetes-operator-api-1.11.0-cyclonedx.xml flink-kubernetes-operator-api/target/bom.xml
+# diffoscope target/reference/org.apache.flink/flink-kubernetes-operator-api-1.11.0-cyclonedx.json flink-kubernetes-operator-api/target/bom.json
+# diffoscope target/reference/org.apache.flink/flink-kubernetes-operator-api-1.11.0-sources.jar flink-kubernetes-operator-api/target/flink-kubernetes-operator-api-1.11.0-sources.jar
+# diffoscope target/reference/org.apache.flink/flink-kubernetes-operator-api-1.11.0-tests.jar flink-kubernetes-operator-api/target/flink-kubernetes-operator-api-1.11.0-tests.jar
+# diffoscope target/reference/org.apache.flink/flink-autoscaler-1.11.0-cyclonedx.xml flink-autoscaler/target/bom.xml
+# diffoscope target/reference/org.apache.flink/flink-autoscaler-1.11.0-cyclonedx.json flink-autoscaler/target/bom.json
+# diffoscope target/reference/org.apache.flink/flink-kubernetes-operator-1.11.0.jar flink-kubernetes-operator/target/flink-kubernetes-operator-1.11.0.jar
+# diffoscope target/reference/org.apache.flink/flink-kubernetes-operator-1.11.0-cyclonedx.xml flink-kubernetes-operator/target/bom.xml
+# diffoscope target/reference/org.apache.flink/flink-kubernetes-operator-1.11.0-cyclonedx.json flink-kubernetes-operator/target/bom.json
+# diffoscope target/reference/org.apache.flink/flink-kubernetes-operator-1.11.0-sources.jar flink-kubernetes-operator/target/flink-kubernetes-operator-1.11.0-sources.jar
+# diffoscope target/reference/org.apache.flink/flink-kubernetes-operator-1.11.0-tests.jar flink-kubernetes-operator/target/flink-kubernetes-operator-1.11.0-tests.jar
+# diffoscope target/reference/org.apache.flink/flink-kubernetes-webhook-1.11.0.jar flink-kubernetes-webhook/target/flink-kubernetes-webhook-1.11.0.jar
+# diffoscope target/reference/org.apache.flink/flink-kubernetes-webhook-1.11.0-shaded.jar flink-kubernetes-webhook/target/flink-kubernetes-webhook-1.11.0-shaded.jar
+# diffoscope target/reference/org.apache.flink/flink-kubernetes-webhook-1.11.0-cyclonedx.xml flink-kubernetes-webhook/target/bom.xml
+# diffoscope target/reference/org.apache.flink/flink-kubernetes-webhook-1.11.0-cyclonedx.json flink-kubernetes-webhook/target/bom.json
+# diffoscope target/reference/org.apache.flink/flink-kubernetes-webhook-1.11.0-sources.jar flink-kubernetes-webhook/target/flink-kubernetes-webhook-1.11.0-sources.jar
+# diffoscope target/reference/org.apache.flink/flink-autoscaler-plugin-jdbc-1.11.0-cyclonedx.xml flink-autoscaler-plugin-jdbc/target/bom.xml
+# diffoscope target/reference/org.apache.flink/flink-autoscaler-plugin-jdbc-1.11.0-cyclonedx.json flink-autoscaler-plugin-jdbc/target/bom.json
+# diffoscope target/reference/org.apache.flink/flink-autoscaler-standalone-1.11.0.jar flink-autoscaler-standalone/target/flink-autoscaler-standalone-1.11.0.jar
+# diffoscope target/reference/org.apache.flink/flink-autoscaler-standalone-1.11.0-cyclonedx.xml flink-autoscaler-standalone/target/bom.xml
+# diffoscope target/reference/org.apache.flink/flink-autoscaler-standalone-1.11.0-cyclonedx.json flink-autoscaler-standalone/target/bom.json
+# diffoscope target/reference/org.apache.flink/flink-autoscaler-standalone-1.11.0-sources.jar flink-autoscaler-standalone/target/flink-autoscaler-standalone-1.11.0-sources.jar

@@ -19,13 +19,13 @@ Source code: [https://github.com/apache/flink-kubernetes-operator.git](https://g
 * [org.apache.flink:flink-kubernetes-webhook](https://central.sonatype.com/artifact/org.apache.flink/flink-kubernetes-webhook/overview)
 </details>
 
-rebuilding **1 releases** of org.apache.flink:flink-kubernetes-operator-parent:
+rebuilding **2 releases** of org.apache.flink:flink-kubernetes-operator-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.11.0](https://central.sonatype.com/artifact/org.apache.flink/flink-kubernetes-operator/1.11.0/pom) | | | |
+| [1.11.0](https://central.sonatype.com/artifact/org.apache.flink/flink-kubernetes-operator-parent/1.11.0/pom) | [mvn jdk11](flink-kubernetes-operator-1.11.0.buildspec) | [result](flink-kubernetes-operator-parent-1.11.0.buildinfo): [17 :white_check_mark:  25 :warning:](flink-kubernetes-operator-parent-1.11.0.buildcompare) | 34M |
 | [1.10.0](https://central.sonatype.com/artifact/org.apache.flink/flink-kubernetes-operator-parent/1.10.0/pom) | [mvn jdk17](flink-kubernetes-operator-1.10.0.buildspec) | [result](flink-kubernetes-operator-parent-1.10.0.buildinfo): [25 :white_check_mark:  17 :warning:](flink-kubernetes-operator-parent-1.10.0.buildcompare) | 35M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
