@@ -106,9 +106,10 @@
       <version>6.6.0</version>
       <version>6.6.1</version>
       <version>6.7.0</version>
+      <version>6.7.4</version>
       <version>7.0.0</version>
       <version>7.0.3</version>
     </versions>
-    <lastUpdated>20250303062228</lastUpdated>
+    <lastUpdated>20250305133533</lastUpdated>
   </versioning>
 </metadata>

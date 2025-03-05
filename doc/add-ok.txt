@@ -1,7 +1,4 @@
-content/com/flowlogix/flowlogix-9.0.7.buildspec:9.0.8
-content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.9.1.0.buildspec:4.9.2.0
 content/dev/langchain4j/langchain4j-1.0.0-alpha1.buildspec:1.0.0-beta1
-content/eu/maveniverse/maven/mimir/mimir-0.3.4.buildspec:0.3.5
-content/eu/maveniverse/maven/nisse/nisse-0.3.4.buildspec:0.4.0
-content/io/airlift/airbase/airbase-227.buildspec:229
-content/org/webjars/flexmonster/flexmonster-2.9.97.buildspec:2.9.98
+content/eu/maveniverse/maven/mimir/mimir-0.3.5.buildspec:0.4.0
+content/io/avaje/jsonb/avaje-jsonb-3.1-RC1.buildspec:3.1-RC2
+content/org/infinispan/protostream/protostream-6.0.0.Dev04.buildspec:6.0.0.Dev05
