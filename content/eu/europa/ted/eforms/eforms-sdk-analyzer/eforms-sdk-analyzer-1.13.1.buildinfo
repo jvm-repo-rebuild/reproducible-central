@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=eForms SDK Analyzer
+group-id=eu.europa.ted.eforms
+artifact-id=eforms-sdk-analyzer
+version=1.13.1
+
+# source information
+source.scm.uri=scm:git:git://github.com/OP-TED/eforms-sdk-analyzer.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.26
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=eu.europa.ted.eforms
+outputs.0.filename=eforms-sdk-analyzer-1.13.1.pom
+outputs.0.length=21166
+outputs.0.checksums.sha512=083d4347c427b726b4fed00cffcf3a4673fa73eb9238c448589444b02f71281eb0343f66c210df47581007b014c71c4f089aa52c1d1fe3c25bfbc6135f742446
+
+outputs.1.groupId=eu.europa.ted.eforms
+outputs.1.filename=eforms-sdk-analyzer-1.13.1.jar
+outputs.1.length=906870
+outputs.1.checksums.sha512=e11181beeb026c3cc5ced5fce7b15ce271b86b55be1af98548822844f166937dab633b954a44fae882bad485f8c02646927bdee06bfe3394591408a8a366080c
+
+outputs.2.groupId=eu.europa.ted.eforms
+outputs.2.filename=eforms-sdk-analyzer-1.13.1-all.jar
+outputs.2.length=39484795
+outputs.2.checksums.sha512=8c9dd97577ff422b5ef0814d36ecda659c774bf5819bd27ef43f431e99bdba13c216ae52fbab773ed2fa8aef24798b9c01df705acc199717a701cde8eb6be729
+
+outputs.3.groupId=eu.europa.ted.eforms
+outputs.3.filename=eforms-sdk-analyzer-1.13.1-sources.jar
+outputs.3.length=243090
+outputs.3.checksums.sha512=3a548aeadacf8e5966a8f98e991d8cbafc6cdce0bb252348a4e539db6cdf400eaf96987f4c4b40ac71510ffd20134d3eade174057981c09ae0965dc7513af158
