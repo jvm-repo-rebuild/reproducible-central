@@ -1,0 +1,20 @@
+groupId=org.finos.legend.engine
+artifactId=legend-engine
+display=${groupId}:${artifactId}
+version=4.71.1
+
+gitRepo=https://github.com/finos/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+# RB PR fully reverted https://github.com/finos/legend-engine/pull/1688 for 4.7.1
+# because complaining maven-release-plugin upgrade (done through parent upgrade) "no longer allow parallelism for the release:perform goal"
+# notice: Legend Engine .par reproducibility issue (seen in 4.4.5) requires specific project work to get to full reproducibility
+issue=https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457
