@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.flowlogix:flowlogix](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/flowlogix/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/flowlogix/README.md)
+## Project: [com.flowlogix:flowlogix](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/flowlogix//badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/flowlogix//README.md)
 
 Source code: [https://github.com/flowlogix/flowlogix.git](https://github.com/flowlogix/flowlogix.git)
 
@@ -23,7 +23,7 @@ rebuilding **21 releases** of com.flowlogix:flowlogix:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [9.0.8](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/9.0.8/pom) | [mvn jdk23](flowlogix-9.0.8.buildspec) | [result](flowlogix-9.0.8.buildinfo): [12 :white_check_mark:  2 :warning:](flowlogix-9.0.8.buildcompare) | 214K |
+| [9.0.8](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/9.0.8/pom) | [mvn jdk23](flowlogix-9.0.8.buildspec) | [result](flowlogix-9.0.8.buildinfo): [12 :white_check_mark:  2 :warning:](flowlogix-9.0.8.buildcompare) [:mag:](flowlogix-9.0.8.diffoscope) | 214K |
 | [9.0.7](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/9.0.7/pom) | [mvn jdk23](flowlogix-9.0.7.buildspec) | [result](flowlogix-9.0.7.buildinfo): [9 :white_check_mark: ](flowlogix-9.0.7.buildcompare) | 219K |
 | [9.0.6](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/9.0.6/pom) | [mvn jdk23](flowlogix-9.0.6.buildspec) | [result](flowlogix-9.0.6.buildinfo): [9 :white_check_mark: ](flowlogix-9.0.6.buildcompare) | 219K |
 | [9.0.5](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/9.0.5/pom) | [mvn jdk22](flowlogix-9.0.5.buildspec) | [result](flowlogix-9.0.5.buildinfo): [9 :white_check_mark: ](flowlogix-9.0.5.buildcompare) | 218K |
