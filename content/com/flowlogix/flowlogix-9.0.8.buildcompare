@@ -7,5 +7,5 @@ koFiles="flowlogix-jee-9.0.8.pom flowlogix-datamodel-9.0.8.pom"
 ignoredFiles=""
 reference_java_version="23 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
-# diffoscope target/reference/com.flowlogix/flowlogix-jee-9.0.8.pom jakarta-ee/flowlogix-jee/target/consumer-11613681133407835433.pom
-# diffoscope target/reference/com.flowlogix/flowlogix-datamodel-9.0.8.pom jakarta-ee/flowlogix-datamodel/target/consumer-17202766824716402110.pom
+# diffoscope target/reference/com.flowlogix/flowlogix-jee-9.0.8.pom jakarta-ee/flowlogix-jee/target/consumer-822416785304941712.pom
+# diffoscope target/reference/com.flowlogix/flowlogix-datamodel-9.0.8.pom jakarta-ee/flowlogix-datamodel/target/consumer-2622781415673495844.pom

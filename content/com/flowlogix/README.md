@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.flowlogix:flowlogix](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/flowlogix//badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/flowlogix//README.md)
+## Project: [com.flowlogix:flowlogix](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/flowlogix/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/flowlogix/README.md)
 
 Source code: [https://github.com/flowlogix/flowlogix.git](https://github.com/flowlogix/flowlogix.git)
 
