@@ -1,0 +1,18 @@
+groupId=org.apache.flink
+artifactId=flink-kubernetes-operator-parent
+display=${groupId}:flink-kubernetes-operator
+version=1.11.0
+
+gitRepo=https://github.com/apache/flink-kubernetes-operator.git
+gitTag=release-${version}
+
+tool=mvn
+jdk=11
+newline=lf
+#umask=022
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
