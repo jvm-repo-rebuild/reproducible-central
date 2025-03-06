@@ -1,0 +1,9 @@
+version=1.1.1
+ok=28
+ko=0
+ignored=0
+okFiles="sasquatch-parent-1.1.1.pom sasquatch-api-1.1.1.pom sasquatch-api-1.1.1.jar sasquatch-api-1.1.1-sources.jar sasquatch-tck-1.1.1.pom sasquatch-tck-1.1.1.jar sasquatch-tck-1.1.1-sources.jar sasquatch-sassy-1.1.1.pom sasquatch-sassy-1.1.1.jar sasquatch-sassy-1.1.1-sources.jar sasquatch-parso-1.1.1.pom sasquatch-parso-1.1.1.jar sasquatch-parso-1.1.1-sources.jar sasquatch-ri-1.1.1.pom sasquatch-ri-1.1.1.jar sasquatch-ri-1.1.1-sources.jar sasquatch-biostatmatt-1.1.1.pom sasquatch-biostatmatt-1.1.1.jar sasquatch-biostatmatt-1.1.1-sources.jar sasquatch-desktop-1.1.1.pom sasquatch-desktop-1.1.1.jar sasquatch-desktop-1.1.1-sources.jar sasquatch-desktop-1.1.1-bin.jar sasquatch-cli-1.1.1.pom sasquatch-cli-1.1.1.jar sasquatch-cli-1.1.1-sources.jar sasquatch-cli-1.1.1-bin.jar sasquatch-bom-1.1.1.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
