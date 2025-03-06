@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 displayResult() {
-  local buildcompare version ok ko okFiles koFiles reference_java_version reference_os_name
+  local pomDirectory="$1"
+  local buildcompare version ok ko okFiles koFiles reference_java_version reference_os_name pomDirectoryInBuildcache
   buildcompare="$(dirname "${buildinfo}")/$(basename ${buildinfo} .buildinfo).buildcompare"
 
   info "rebuild from \033[1m${buildspec}\033[0m"
@@ -28,13 +29,19 @@ displayResult() {
     then
       info "    check .buildspec \033[1mnewline=${newline}\033[0m vs reference \033[1mos.name=${reference_os_name}\033[0m (newline should be crlf if os.name is Windows, lf instead)"
     fi
-    info "build available in \033[1m$(dirname ${buildspec})/buildcache/${artifactId}\033[0m, where you can execute \033[36mdiffoscope\033[0m"
+    if [[ -z $pomDirectory ]]
+    then
+      pomDirectoryInBuildcache="buildcache/${artifactId}"
+    else
+      pomDirectoryInBuildcache="buildcache/${artifactId}/${pomDirectory}"
+    fi
+    info "build available in \033[1m$(dirname ${buildspec})/${pomDirectoryInBuildcache}\033[0m, where you can execute \033[36mdiffoscope\033[0m"
     grep '# diffoscope ' ${buildcompare}
 #    echo -e "run \033[36mdiffoscope\033[0m as container with \033[1mdocker run --rm -t -w /mnt -v $(pwd):/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope\033[0m"
     info "To see every differences between current rebuild and reference, run:"
     if [ -z "${sourcePath}" ]
     then
-      info "    \033[1m./build_diffoscope.sh $(dirname ${buildspec})/$(basename ${compare}) buildcache/${artifactId}\033[0m"
+      info "    \033[1m./build_diffoscope.sh $(dirname ${buildspec})/$(basename ${compare}) $pomDirectoryInBuildcache\033[0m"
     else
       info "    \033[1m./build_diffoscope.sh $(dirname ${buildspec})/$(basename ${compare}) buildcache/${sourcePath}\033[0m"
     fi

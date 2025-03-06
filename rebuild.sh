@@ -115,7 +115,13 @@ case ${tool} in
 esac
 
 echo
-displayResult
+
+pomFile=$(echo "$command" | grep -oP '(?<=-f )[^ ]+')
+if [ -n "$pomFile" ]; then
+  displayResult $(dirname $pomFile)
+else
+  displayResult ""
+fi
 
 displayOptional  "os"
 displayOptional  "arch"
