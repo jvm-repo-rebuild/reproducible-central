@@ -27,6 +27,7 @@ rebuilding **1 releases** of com.github.nbbrd.sasquatch:sasquatch-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.1.1](https://central.sonatype.com/artifact/com.github.nbbrd.sasquatch/sasquatch-parent/1.1.1/pom) | | | |
 | [1.1.0](https://central.sonatype.com/artifact/com.github.nbbrd.sasquatch/sasquatch-parent/1.1.0/pom) | [mvn jdk21](sasquatch-1.1.0.buildspec) | [result](sasquatch-parent-1.1.0.buildinfo): [28 :white_check_mark: ](sasquatch-parent-1.1.0.buildcompare) | 4.0M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

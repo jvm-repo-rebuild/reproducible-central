@@ -1,4 +1,9 @@
+content/com/github/nbbrd/java-io-util/java-io-parent-0.0.32.buildspec:0.0.33
+content/com/github/nbbrd/sasquatch/sasquatch-1.1.0.buildspec:1.1.1
 content/dev/langchain4j/langchain4j-1.0.0-alpha1.buildspec:1.0.0-beta1
-content/eu/maveniverse/maven/mimir/mimir-0.3.5.buildspec:0.4.0
+content/io/trino/trino-471.buildspec:472
+content/io/airlift/airbase/airbase-229.buildspec:230
 content/io/avaje/jsonb/avaje-jsonb-3.1-RC1.buildspec:3.1-RC2
+content/io/telicent/smart-caches/graph/scg-base/scg-base-0.83.0.buildspec:0.83.1
 content/org/infinispan/protostream/protostream-6.0.0.Dev04.buildspec:6.0.0.Dev05
+content/org/simplify4u/plugins/pgpverify-maven-plugin/pgpverify-maven-plugin-1.18.2.buildspec:1.19.0

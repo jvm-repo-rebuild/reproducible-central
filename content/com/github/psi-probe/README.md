@@ -29,6 +29,7 @@ rebuilding **20 releases** of com.github.psi-probe:psi-probe:
 | [5.1.1](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/5.1.1/pom) | [mvn jdk22 w](psi-probe-5.1.1.buildspec) | [result](psi-probe-5.1.1.buildinfo): [24 :white_check_mark: ](psi-probe-5.1.1.buildcompare) | 34M |
 | [5.1.0](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/5.1.0/pom) | [mvn jdk22 w](psi-probe-5.1.0.buildspec) | [result](psi-probe-5.1.0.buildinfo): [24 :white_check_mark: ](psi-probe-5.1.0.buildcompare) | 34M |
 | [5.0.0](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/5.0.0/pom) | [mvn jdk22 w](psi-probe-5.0.0.buildspec) | [result](psi-probe-5.0.0.buildinfo): [24 :white_check_mark: ](psi-probe-5.0.0.buildcompare) | 34M |
+| [4.3.2](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/4.3.2/pom) | | | |
 | [4.3.1](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/4.3.1/pom) | [mvn jdk22 w](psi-probe-4.3.1.buildspec) | [result](psi-probe-4.3.1.buildinfo): [19 :white_check_mark: ](psi-probe-4.3.1.buildcompare) | 33M |
 | [4.3.0](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/4.3.0/pom) | [mvn jdk22 w](psi-probe-4.3.0.buildspec) | [result](psi-probe-4.3.0.buildinfo): [19 :white_check_mark: ](psi-probe-4.3.0.buildcompare) | 33M |
 | [4.2.0](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/4.2.0/pom) | [mvn jdk22 w](psi-probe-4.2.0.buildspec) | [result](psi-probe-4.2.0.buildinfo): [24 :white_check_mark: ](psi-probe-4.2.0.buildcompare) | 36M |
