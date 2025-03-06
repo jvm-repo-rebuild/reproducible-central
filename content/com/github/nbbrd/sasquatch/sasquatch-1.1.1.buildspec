@@ -1,0 +1,18 @@
+groupId=com.github.nbbrd.sasquatch
+artifactId=sasquatch-parent
+display=com.github.nbbrd.*:sasquatch
+version=1.1.1
+
+gitRepo=https://github.com/nbbrd/sasquatch.git
+gitTag=v${version}
+
+tool=mvn
+jdk=21
+newline=lf
+umask=022
+
+command="mvn -Pbase-deploy clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
