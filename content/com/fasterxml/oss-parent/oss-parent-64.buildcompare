@@ -1,0 +1,7 @@
+version=64
+ok=2
+ko=0
+ignored=0
+okFiles="oss-parent-64.pom oss-parent-64-site.xml"
+koFiles=""
+ignoredFiles=""
