@@ -1,0 +1,16 @@
+groupId=org.codehaus.mojo
+artifactId=tidy-maven-plugin
+display=${groupId}:${artifactId}
+version=1.4.0
+
+gitRepo=https://github.com/mojohaus/${artifactId}.git
+gitTag=${version}
+
+tool=mvn-3.9.3
+jdk=21
+newline=lf
+
+command="mvn -Pmojo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
