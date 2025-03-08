@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.codehaus.mojo:tidy-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.4.0](https://central.sonatype.com/artifact/org.codehaus.mojo/tidy-maven-plugin/1.4.0/pom) | | | |
 | [1.3.0](https://central.sonatype.com/artifact/org.codehaus.mojo/tidy-maven-plugin/1.3.0/pom) | [mvn jdk21](tidy-maven-plugin-1.3.0.buildspec) | [result](tidy-maven-plugin-1.3.0.buildinfo): [4 :white_check_mark: ](tidy-maven-plugin-1.3.0.buildcompare) | 128K |
 | [1.2.0](https://central.sonatype.com/artifact/org.codehaus.mojo/tidy-maven-plugin/1.2.0/pom) | [mvn jdk8](tidy-maven-plugin-1.2.0.buildspec) | [result](tidy-maven-plugin-1.2.0.buildinfo): [3 :white_check_mark: ](tidy-maven-plugin-1.2.0.buildcompare) | 56K |
 
