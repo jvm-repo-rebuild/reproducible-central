@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/s4u/pgpverify-maven-plugin.git](https://github.com/s4u/pgpverify-maven-plugin.git)
 
-rebuilding **12 releases** of org.simplify4u.plugins:pgpverify-maven-plugin:
-- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **13 releases** of org.simplify4u.plugins:pgpverify-maven-plugin:
+- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.19.1](https://central.sonatype.com/artifact/org.simplify4u.plugins/pgpverify-maven-plugin/1.19.1/pom) | | | |
+| [1.19.1](https://central.sonatype.com/artifact/org.simplify4u.plugins/pgpverify-maven-plugin/1.19.1/pom) | [mvn jdk8](pgpverify-maven-plugin-1.19.1.buildspec) | [result](pgpverify-maven-plugin-1.19.1.buildinfo): [3 :white_check_mark: ](pgpverify-maven-plugin-1.19.1.buildcompare) | 281K |
 | [1.19.0](https://central.sonatype.com/artifact/org.simplify4u.plugins/pgpverify-maven-plugin/1.19.0/pom) | [mvn jdk8](pgpverify-maven-plugin-1.19.0.buildspec) | [result](pgpverify-maven-plugin-1.19.0.buildinfo): [3 :white_check_mark: ](pgpverify-maven-plugin-1.19.0.buildcompare) | 281K |
 | [1.18.2](https://central.sonatype.com/artifact/org.simplify4u.plugins/pgpverify-maven-plugin/1.18.2/pom) | [mvn jdk8](pgpverify-maven-plugin-1.18.2.buildspec) | [result](pgpverify-maven-plugin-1.18.2.buildinfo): [3 :white_check_mark: ](pgpverify-maven-plugin-1.18.2.buildcompare) | 266K |
 | [1.18.1](https://central.sonatype.com/artifact/org.simplify4u.plugins/pgpverify-maven-plugin/1.18.1/pom) | [mvn jdk8](pgpverify-maven-plugin-1.18.1.buildspec) | [result](pgpverify-maven-plugin-1.18.1.buildinfo): [3 :white_check_mark: ](pgpverify-maven-plugin-1.18.1.buildcompare) | 264K |

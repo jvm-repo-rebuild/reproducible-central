@@ -1,0 +1,9 @@
+version=1.19.1
+ok=3
+ko=0
+ignored=0
+okFiles="pgpverify-maven-plugin-1.19.1.pom pgpverify-maven-plugin-1.19.1.jar pgpverify-maven-plugin-1.19.1-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
