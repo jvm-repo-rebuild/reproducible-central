@@ -1,0 +1,9 @@
+version=9.0.9
+ok=14
+ko=0
+ignored=0
+okFiles="flowlogix-9.0.9.pom flowlogix-9.0.9-build.pom flowlogix-bom-9.0.9.pom flowlogix-bom-9.0.9-build.pom jakarta-ee-9.0.9.pom jakarta-ee-9.0.9-build.pom flowlogix-jee-9.0.9.pom flowlogix-jee-9.0.9-build.pom flowlogix-jee-9.0.9.jar flowlogix-jee-9.0.9-tests.jar flowlogix-datamodel-9.0.9.pom flowlogix-datamodel-9.0.9-build.pom flowlogix-datamodel-9.0.9.jar flowlogix-datamodel-9.0.9-tests.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="23 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
