@@ -1,0 +1,18 @@
+groupId=org.apache.paimon
+artifactId=paimon-shade
+display=${groupId}:${artifactId}
+version=0.8.0
+
+gitRepo=https://github.com/apache/incubator-paimon-shade.git
+gitTag=release-${version}
+
+tool=mvn-3.9.4
+jdk=8
+newline=lf
+umask=022
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/apache/incubator-paimon-shade/pull/18

@@ -1,0 +1,13 @@
+version=4.1.100.Final-0.8.0
+ok=7
+ko=5
+ignored=0
+okFiles="paimon-shade-0.8.0.pom paimon-shade-guava-30-30.1.1-jre-0.8.0.pom paimon-shade-caffeine-2-2.9.3-0.8.0.pom paimon-shade-jackson-parent-2.14.2-0.8.0.pom paimon-shade-jackson-2-2.14.2-0.8.0.pom paimon-shade-jackson-module-jsonSchema-2-2.14.2-0.8.0.pom paimon-shade-netty-4-4.1.100.Final-0.8.0.pom"
+koFiles="paimon-shade-guava-30-30.1.1-jre-0.8.0.jar paimon-shade-caffeine-2-2.9.3-0.8.0.jar paimon-shade-jackson-2-2.14.2-0.8.0.jar paimon-shade-jackson-module-jsonSchema-2-2.14.2-0.8.0.jar paimon-shade-netty-4-4.1.100.Final-0.8.0.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+# diffoscope target/reference/org.apache.paimon/paimon-shade-guava-30-30.1.1-jre-0.8.0.jar paimon-shade-guava-30/target/paimon-shade-guava-30-30.1.1-jre-0.8.0.jar
+# diffoscope target/reference/org.apache.paimon/paimon-shade-caffeine-2-2.9.3-0.8.0.jar paimon-shade-caffeine-2/target/paimon-shade-caffeine-2-2.9.3-0.8.0.jar
+# diffoscope target/reference/org.apache.paimon/paimon-shade-jackson-2-2.14.2-0.8.0.jar paimon-shade-jackson-parent/paimon-shade-jackson-2/target/paimon-shade-jackson-2-2.14.2-0.8.0.jar
+# diffoscope target/reference/org.apache.paimon/paimon-shade-jackson-module-jsonSchema-2-2.14.2-0.8.0.jar paimon-shade-jackson-parent/paimon-shade-jackson-module-jsonSchema-2/target/paimon-shade-jackson-module-jsonSchema-2-2.14.2-0.8.0.jar
+# diffoscope target/reference/org.apache.paimon/paimon-shade-netty-4-4.1.100.Final-0.8.0.jar paimon-shade-netty-4/target/paimon-shade-netty-4-4.1.100.Final-0.8.0.jar
