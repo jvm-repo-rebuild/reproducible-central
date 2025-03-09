@@ -1,0 +1,18 @@
+groupId=org.jpmml
+artifactId=jpmml-sklearn
+display=${groupId}:${artifactId}
+version=1.9.1
+
+gitRepo=https://github.com/jpmml/jpmml-sklearn.git
+gitTag=${version}
+
+tool=mvn-3.9.9
+jdk=11
+newline=lf
+#umask=022
+
+command="mvn -Psonatype-oss-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
