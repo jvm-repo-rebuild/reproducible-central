@@ -1,0 +1,22 @@
+groupId=org.apache.orc
+artifactId=orc
+version=2.1.1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=rel/release-${version}
+
+tool=mvn-3.9.9
+jdk=17
+newline=lf
+os=osx
+arch=aarm64
+
+command="mvn -f java/pom.xml -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcyclonedx.skip"
+buildinfo=java/target/${artifactId}-${version}.buildinfo
+execBefore="rm -f java/*/dependency-reduced-pom.xml"
+execAfter="(unzip -t java/target/reference/*/orc-tools-${version}-uber.jar ; unzip -t java/tools/target/orc-tools-${version}-uber.jar ) | grep .brotli4j/native"
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
