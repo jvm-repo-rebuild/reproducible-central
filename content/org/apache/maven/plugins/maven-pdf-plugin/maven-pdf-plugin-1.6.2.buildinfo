@@ -1,0 +1,55 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=(RETIRED) Apache Maven PDF Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-pdf-plugin
+version=1.6.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-pdf-plugin.git
+source.scm.tag=maven-pdf-plugin-1.6.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.6
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-pdf-plugin-1.6.2.pom
+outputs.0.length=14841
+outputs.0.checksums.sha512=80a5481e37412306466cfbbaf38ac4227de78eb102654945e0638f0cf8a351b6991ef51ac2873059bfb97fbde1c9d35037c7a3d3ce4877ab921155db766a1a47
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-pdf-plugin-1.6.2.jar
+outputs.1.length=60723
+outputs.1.checksums.sha512=ce7378af5799bf7b5c9a3a24fb8a66fc115187d07446bab105f6e94e21f5853e0c19569373d3da296964e57610ef00e6677c235b1b9e95e7480038c9ddaed9c6
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-pdf-plugin-1.6.2-source-release.zip
+outputs.2.length=136910
+outputs.2.checksums.sha512=c5890b8aa9cf2990cf03fc65eea7736b68d990d5d78206cbc8f364078469b4eb4f339882f75bff380231259a920e930b1d53a011ebbc9b8302ae5fa4c4ddaae4
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-pdf-plugin-1.6.2-sources.jar
+outputs.3.length=42683
+outputs.3.checksums.sha512=c7d3a6f41b9eb2a2af0c3ac90287952eb49a3a82ba1b37aa023b1cdc422896598f781958a8e2e4c87364fd4b64fcff53372bcce97367a27ebcee0440c1b6b68d
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-pdf-plugin-1.6.2-cyclonedx.xml
+outputs.4.length=349247
+outputs.4.checksums.sha512=73a6be49063c9da28bbbd925d86356e5812c973843e5572c51f7b56ffba024d72dc6f6d4eb3ab9c9959b4758a3f5e8dad7d1817ee7b74c14d6245f51f112d8ae
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-pdf-plugin-1.6.2-cyclonedx.json
+outputs.5.length=405581
+outputs.5.checksums.sha512=07a4eac728a44bbebaae88eb593185ab03c86359f27835970bdc71a5436e41a5b1210f67ea760ae068ee5ec3ab899468fc2176de0dfbe96c3df0da65a850de06
