@@ -1,0 +1,17 @@
+version=1.7.1
+ok=5
+ko=8
+ignored=0
+okFiles="jpmml-r-1.7.1.pom pmml-rexp-evaluator-1.7.1.pom pmml-rexp-1.7.1.pom pmml-rexp-lightgbm-1.7.1.pom pmml-rexp-xgboost-1.7.1.pom"
+koFiles="pmml-rexp-evaluator-1.7.1.jar pmml-rexp-evaluator-1.7.1-sources.jar pmml-rexp-1.7.1.jar pmml-rexp-1.7.1-sources.jar pmml-rexp-lightgbm-1.7.1.jar pmml-rexp-lightgbm-1.7.1-sources.jar pmml-rexp-xgboost-1.7.1.jar pmml-rexp-xgboost-1.7.1-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/pmml-rexp-evaluator-1.7.1.jar pmml-rexp-evaluator/target/pmml-rexp-evaluator-1.7.1.jar
+# diffoscope target/reference/org.jpmml/pmml-rexp-evaluator-1.7.1-sources.jar pmml-rexp-evaluator/target/pmml-rexp-evaluator-1.7.1-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-rexp-1.7.1.jar pmml-rexp/target/pmml-rexp-1.7.1.jar
+# diffoscope target/reference/org.jpmml/pmml-rexp-1.7.1-sources.jar pmml-rexp/target/pmml-rexp-1.7.1-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-rexp-lightgbm-1.7.1.jar pmml-rexp-lightgbm/target/pmml-rexp-lightgbm-1.7.1.jar
+# diffoscope target/reference/org.jpmml/pmml-rexp-lightgbm-1.7.1-sources.jar pmml-rexp-lightgbm/target/pmml-rexp-lightgbm-1.7.1-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-rexp-xgboost-1.7.1.jar pmml-rexp-xgboost/target/pmml-rexp-xgboost-1.7.1.jar
+# diffoscope target/reference/org.jpmml/pmml-rexp-xgboost-1.7.1-sources.jar pmml-rexp-xgboost/target/pmml-rexp-xgboost-1.7.1-sources.jar
