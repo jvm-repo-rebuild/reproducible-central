@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/finos/legend-engine.git](https://github.com/finos/legend-engine.git)
 
-<details><summary>This project defines 527 modules:</summary>
+<details><summary>This project defines 562 modules:</summary>
 
 * [org.finos.legend.engine:legend-engine](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/overview)
 * [org.finos.legend.engine:legend-engine-application-query](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-application-query/overview)
@@ -75,10 +75,15 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-pure-code-compiled-core](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-code-compiled-core/overview)
 * [org.finos.legend.engine:legend-engine-pure-code-compiled-core-configuration](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-code-compiled-core-configuration/overview)
 * [org.finos.legend.engine:legend-engine-pure-code-core-extension](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-code-core-extension/overview)
+* [org.finos.legend.engine:legend-engine-pure-code-functions-javaCompiler](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-code-functions-javaCompiler/overview)
 * [org.finos.legend.engine:legend-engine-pure-code-functions-json](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-code-functions-json/overview)
+* [org.finos.legend.engine:legend-engine-pure-code-functions-legendCompiler](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-code-functions-legendCompiler/overview)
+* [org.finos.legend.engine:legend-engine-pure-code-functions-planExecution](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-code-functions-planExecution/overview)
+* [org.finos.legend.engine:legend-engine-pure-code-functions-pureExtensions](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-code-functions-pureExtensions/overview)
 * [org.finos.legend.engine:legend-engine-pure-code-functions-relation](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-code-functions-relation/overview)
 * [org.finos.legend.engine:legend-engine-pure-code-functions-standard](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-code-functions-standard/overview)
 * [org.finos.legend.engine:legend-engine-pure-code-functions-unclassified](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-code-functions-unclassified/overview)
+* [org.finos.legend.engine:legend-engine-pure-code-precisePrimitives-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-code-precisePrimitives-pure/overview)
 * [org.finos.legend.engine:legend-engine-pure-functions-javaCompiler-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-functions-javaCompiler-pure/overview)
 * [org.finos.legend.engine:legend-engine-pure-functions-json-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-functions-json-pure/overview)
 * [org.finos.legend.engine:legend-engine-pure-functions-legendCompiler-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-functions-legendCompiler-pure/overview)
@@ -91,8 +96,10 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-pure-ide](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-ide/overview)
 * [org.finos.legend.engine:legend-engine-pure-ide-light](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-ide-light/overview)
 * [org.finos.legend.engine:legend-engine-pure-ide-light-http-server](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-ide-light-http-server/overview)
+* [org.finos.legend.engine:legend-engine-pure-ide-light-interpreted-functions](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-ide-light-interpreted-functions/overview)
 * [org.finos.legend.engine:legend-engine-pure-ide-light-metadata-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-ide-light-metadata-pure/overview)
 * [org.finos.legend.engine:legend-engine-pure-ide-light-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-ide-light-pure/overview)
+* [org.finos.legend.engine:legend-engine-pure-ide-light-pure-debug](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-ide-light-pure-debug/overview)
 * [org.finos.legend.engine:legend-engine-pure-platform-dsl-diagram-java](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-platform-dsl-diagram-java/overview)
 * [org.finos.legend.engine:legend-engine-pure-platform-dsl-graph-java](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-platform-dsl-graph-java/overview)
 * [org.finos.legend.engine:legend-engine-pure-platform-dsl-mapping-java](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-pure-platform-dsl-mapping-java/overview)
@@ -157,6 +164,7 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-shared-vault](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-shared-vault/overview)
 * [org.finos.legend.engine:legend-engine-shared-vault-aws](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-shared-vault-aws/overview)
 * [org.finos.legend.engine:legend-engine-shared-vault-core](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-shared-vault-core/overview)
+* [org.finos.legend.engine:legend-engine-test-fct](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-test-fct/overview)
 * [org.finos.legend.engine:legend-engine-test-framework](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-test-framework/overview)
 * [org.finos.legend.engine:legend-engine-test-reports](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-test-reports/overview)
 * [org.finos.legend.engine:legend-engine-test-runner-function](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-test-runner-function/overview)
@@ -177,6 +185,7 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-xt-analytics-lineage-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-analytics-lineage-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-analytics-mapping-api](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-analytics-mapping-api/overview)
 * [org.finos.legend.engine:legend-engine-xt-analytics-mapping-http-api](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-analytics-mapping-http-api/overview)
+* [org.finos.legend.engine:legend-engine-xt-analytics-mapping-integration](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-analytics-mapping-integration/overview)
 * [org.finos.legend.engine:legend-engine-xt-analytics-mapping-protocol](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-analytics-mapping-protocol/overview)
 * [org.finos.legend.engine:legend-engine-xt-analytics-mapping-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-analytics-mapping-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-analytics-quality-http-api](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-analytics-quality-http-api/overview)
@@ -186,6 +195,8 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-xt-analytics-store-entitlement](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-analytics-store-entitlement/overview)
 * [org.finos.legend.engine:legend-engine-xt-analytics-store-entitlement-api](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-analytics-store-entitlement-api/overview)
 * [org.finos.legend.engine:legend-engine-xt-analytics-store-entitlement-http-api](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-analytics-store-entitlement-http-api/overview)
+* [org.finos.legend.engine:legend-engine-xt-analytics-test-coverage-http-api](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-analytics-test-coverage-http-api/overview)
+* [org.finos.legend.engine:legend-engine-xt-analytics-test-coverage-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-analytics-test-coverage-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-arrow-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-arrow-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-arrow-runtime](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-arrow-runtime/overview)
 * [org.finos.legend.engine:legend-engine-xt-artifact-generation-api](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-artifact-generation-api/overview)
@@ -207,6 +218,7 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-xt-bigqueryFunction-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-bigqueryFunction-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-changetoken-compiler](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-changetoken-compiler/overview)
 * [org.finos.legend.engine:legend-engine-xt-changetoken-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-changetoken-pure/overview)
+* [org.finos.legend.engine:legend-engine-xt-changetoken-test-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-changetoken-test-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-daml-grammar](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-daml-grammar/overview)
 * [org.finos.legend.engine:legend-engine-xt-daml-http-api](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-daml-http-api/overview)
 * [org.finos.legend.engine:legend-engine-xt-daml-model](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-daml-model/overview)
@@ -249,8 +261,10 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-xt-flatdata-runtime](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-flatdata-runtime/overview)
 * [org.finos.legend.engine:legend-engine-xt-flatdata-shared](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-flatdata-shared/overview)
 * [org.finos.legend.engine:legend-engine-xt-flatdata-test](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-flatdata-test/overview)
+* [org.finos.legend.engine:legend-engine-xt-functionActivator-compiler](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-functionActivator-compiler/overview)
 * [org.finos.legend.engine:legend-engine-xt-functionActivator-deployment](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-functionActivator-deployment/overview)
 * [org.finos.legend.engine:legend-engine-xt-functionActivator-generation](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-functionActivator-generation/overview)
+* [org.finos.legend.engine:legend-engine-xt-functionActivator-grammar](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-functionActivator-grammar/overview)
 * [org.finos.legend.engine:legend-engine-xt-functionActivator-http-api](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-functionActivator-http-api/overview)
 * [org.finos.legend.engine:legend-engine-xt-functionActivator-protocol](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-functionActivator-protocol/overview)
 * [org.finos.legend.engine:legend-engine-xt-functionActivator-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-functionActivator-pure/overview)
@@ -283,7 +297,11 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-xt-identity-pac4j](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-identity-pac4j/overview)
 * [org.finos.legend.engine:legend-engine-xt-identity-plainTextUserPassword](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-identity-plainTextUserPassword/overview)
 * [org.finos.legend.engine:legend-engine-xt-identity-privateKey](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-identity-privateKey/overview)
+* [org.finos.legend.engine:legend-engine-xt-ingest-protocol](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-ingest-protocol/overview)
+* [org.finos.legend.engine:legend-engine-xt-ingest-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-ingest-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-java-runtime-compiler](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-java-runtime-compiler/overview)
+* [org.finos.legend.engine:legend-engine-xt-javaGeneration-conventions-essential-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-javaGeneration-conventions-essential-pure/overview)
+* [org.finos.legend.engine:legend-engine-xt-javaGeneration-conventions-standard-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-javaGeneration-conventions-standard-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-javaGeneration-featureBased-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-javaGeneration-featureBased-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-javaGeneration-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-javaGeneration-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-javaPlatformBinding-PCT](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-javaPlatformBinding-PCT/overview)
@@ -345,7 +363,9 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-xt-protobuf-http-api](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-protobuf-http-api/overview)
 * [org.finos.legend.engine:legend-engine-xt-protobuf-protocol](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-protobuf-protocol/overview)
 * [org.finos.legend.engine:legend-engine-xt-protobuf-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-protobuf-pure/overview)
+* [org.finos.legend.engine:legend-engine-xt-relationalStore-FCT-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-FCT-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-PCT](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-PCT/overview)
+* [org.finos.legend.engine:legend-engine-xt-relationalStore-SDT-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-SDT-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-analytics](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-analytics/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-api](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-api/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-athena](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-athena/overview)
@@ -361,7 +381,9 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-bigquery-protocol](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-bigquery-protocol/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-bigquery-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-bigquery-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-connection-http-api](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-connection-http-api/overview)
+* [org.finos.legend.engine:legend-engine-xt-relationalStore-core-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-core-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-databricks](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-databricks/overview)
+* [org.finos.legend.engine:legend-engine-xt-relationalStore-databricks-PCT](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-databricks-PCT/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-databricks-execution](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-databricks-execution/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-databricks-execution-tests](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-databricks-execution-tests/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-databricks-grammar](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-databricks-grammar/overview)
@@ -375,6 +397,7 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-duckdb-grammar](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-duckdb-grammar/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-duckdb-protocol](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-duckdb-protocol/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-duckdb-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-duckdb-pure/overview)
+* [org.finos.legend.engine:legend-engine-xt-relationalStore-duckdb-sqlDialectTranslation-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-duckdb-sqlDialectTranslation-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-execution](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-execution/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-executionPlan](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-executionPlan/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-executionPlan-authorizer](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-executionPlan-authorizer/overview)
@@ -406,6 +429,13 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-postgres-execution](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-postgres-execution/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-postgres-execution-tests](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-postgres-execution-tests/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-postgres-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-postgres-pure/overview)
+* [org.finos.legend.engine:legend-engine-xt-relationalStore-postgresSql](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-postgresSql/overview)
+* [org.finos.legend.engine:legend-engine-xt-relationalStore-postgresSql-grammar](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-postgresSql-grammar/overview)
+* [org.finos.legend.engine:legend-engine-xt-relationalStore-postgresSql-protocol](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-postgresSql-protocol/overview)
+* [org.finos.legend.engine:legend-engine-xt-relationalStore-postgresSqlModel-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-postgresSqlModel-pure/overview)
+* [org.finos.legend.engine:legend-engine-xt-relationalStore-postgresSqlParser-functions-compiled](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-postgresSqlParser-functions-compiled/overview)
+* [org.finos.legend.engine:legend-engine-xt-relationalStore-postgresSqlParser-functions-interpreted](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-postgresSqlParser-functions-interpreted/overview)
+* [org.finos.legend.engine:legend-engine-xt-relationalStore-postgresSqlParser-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-postgresSqlParser-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-presto](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-presto/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-presto-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-presto-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-protocol](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-protocol/overview)
@@ -432,6 +462,8 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-spanner-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-spanner-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-sparksql](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-sparksql/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-sparksql-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-sparksql-pure/overview)
+* [org.finos.legend.engine:legend-engine-xt-relationalStore-sqlDialectTranslation-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-sqlDialectTranslation-pure/overview)
+* [org.finos.legend.engine:legend-engine-xt-relationalStore-sqlPlanning-pure](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-sqlPlanning-pure/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-sqlserver](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-sqlserver/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-sqlserver-connection](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-sqlserver-connection/overview)
 * [org.finos.legend.engine:legend-engine-xt-relationalStore-sqlserver-execution](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xt-relationalStore-sqlserver-execution/overview)
@@ -500,6 +532,7 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-xts-analytics-quality](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-analytics-quality/overview)
 * [org.finos.legend.engine:legend-engine-xts-analytics-search](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-analytics-search/overview)
 * [org.finos.legend.engine:legend-engine-xts-analytics-store](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-analytics-store/overview)
+* [org.finos.legend.engine:legend-engine-xts-analytics-test-coverage](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-analytics-test-coverage/overview)
 * [org.finos.legend.engine:legend-engine-xts-arrow](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-arrow/overview)
 * [org.finos.legend.engine:legend-engine-xts-authentication](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-authentication/overview)
 * [org.finos.legend.engine:legend-engine-xts-avro](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-avro/overview)
@@ -508,6 +541,7 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-xts-daml](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-daml/overview)
 * [org.finos.legend.engine:legend-engine-xts-data-space](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-data-space/overview)
 * [org.finos.legend.engine:legend-engine-xts-dataquality](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-dataquality/overview)
+* [org.finos.legend.engine:legend-engine-xts-deployment-model](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-deployment-model/overview)
 * [org.finos.legend.engine:legend-engine-xts-diagram](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-diagram/overview)
 * [org.finos.legend.engine:legend-engine-xts-elasticsearch](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-elasticsearch/overview)
 * [org.finos.legend.engine:legend-engine-xts-flatdata](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-flatdata/overview)
@@ -518,6 +552,7 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-xts-hostedService](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-hostedService/overview)
 * [org.finos.legend.engine:legend-engine-xts-iceberg](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-iceberg/overview)
 * [org.finos.legend.engine:legend-engine-xts-identity](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-identity/overview)
+* [org.finos.legend.engine:legend-engine-xts-ingest](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-ingest/overview)
 * [org.finos.legend.engine:legend-engine-xts-java](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-java/overview)
 * [org.finos.legend.engine:legend-engine-xts-json](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-json/overview)
 * [org.finos.legend.engine:legend-engine-xts-memsqlFunction](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-memsqlFunction/overview)
@@ -538,14 +573,14 @@ Source code: [https://github.com/finos/legend-engine.git](https://github.com/fin
 * [org.finos.legend.engine:legend-engine-xts-xml](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine-xts-xml/overview)
 </details>
 
-rebuilding **10 releases** of org.finos.legend.engine:legend-engine:
+rebuilding **11 releases** of org.finos.legend.engine:legend-engine:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [4.72.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.72.0/pom) | | | |
-| [4.71.1](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.71.1/pom) | | | |
+| [4.71.1](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.71.1/pom) | [mvn jdk11](legend-engine-4.71.1.buildspec) | [result](legend-engine-4.71.1.buildinfo): [839 :white_check_mark:  533 :warning:](legend-engine-4.71.1.buildcompare) [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | 1.3G |
 | [4.70.1](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.70.1/pom) | | | |
 | [4.70.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.70.0/pom) | | | |
 | [4.69.4](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.69.4/pom) | | | |
