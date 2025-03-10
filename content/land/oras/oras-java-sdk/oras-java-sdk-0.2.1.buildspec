@@ -1,0 +1,16 @@
+groupId=land.oras
+artifactId=oras-java-sdk
+version=0.2.1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/oras-project/oras-java
+gitTag=${version}
+
+tool=mvn-3.9.9
+jdk=17
+newline=lf
+
+command="mvn -DskipTests -Dspdx.skip=true clean verify"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
