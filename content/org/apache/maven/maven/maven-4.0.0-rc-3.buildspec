@@ -1,0 +1,22 @@
+groupId=org.apache.maven
+artifactId=maven
+display=${groupId}:${artifactId}
+version=4.0.0-rc-3
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+sourceDistribution=https://archive.apache.org/dist/maven/maven-4/${version}/source/apache-maven-${version}-src.zip
+sourcePath=apache-maven-${version}
+sourceRmFiles=DEPENDENCIES
+
+tool=mvn-4.0.0-rc-3
+jdk=17
+newline=lf
+umask=022
+
+buildNumber="$(git ls-remote --tags $gitRepo | grep "refs/tags/$gitTag^{}$" | cut -f 1)"
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -DbuildNumber=${buildNumber}"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=

@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/maven.git](https://github.com/apache/maven.git)
 
-<details><summary>This project defines 46 modules:</summary>
+<details><summary>This project defines 47 modules:</summary>
 
 * [org.apache.maven:apache-maven](https://central.sonatype.com/artifact/org.apache.maven/apache-maven/overview)
 * [org.apache.maven:maven](https://central.sonatype.com/artifact/org.apache.maven/maven/overview)
@@ -49,6 +49,7 @@ Source code: [https://github.com/apache/maven.git](https://github.com/apache/mav
 * [org.apache.maven:maven-settings-builder](https://central.sonatype.com/artifact/org.apache.maven/maven-settings-builder/overview)
 * [org.apache.maven:maven-slf4j-provider](https://central.sonatype.com/artifact/org.apache.maven/maven-slf4j-provider/overview)
 * [org.apache.maven:maven-slf4j-wrapper](https://central.sonatype.com/artifact/org.apache.maven/maven-slf4j-wrapper/overview)
+* [org.apache.maven:maven-support](https://central.sonatype.com/artifact/org.apache.maven/maven-support/overview)
 * [org.apache.maven:maven-toolchain-builder](https://central.sonatype.com/artifact/org.apache.maven/maven-toolchain-builder/overview)
 * [org.apache.maven:maven-toolchain-model](https://central.sonatype.com/artifact/org.apache.maven/maven-toolchain-model/overview)
 * [org.apache.maven:maven-xml](https://central.sonatype.com/artifact/org.apache.maven/maven-xml/overview)
@@ -57,13 +58,13 @@ Source code: [https://github.com/apache/maven.git](https://github.com/apache/mav
 * [org.apache.maven:plexus-utils](https://central.sonatype.com/artifact/org.apache.maven/plexus-utils/overview)
 </details>
 
-rebuilding **34 releases** of org.apache.maven:maven:
-- **29** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **35 releases** of org.apache.maven:maven:
+- **30** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.0.0-rc-3](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-rc-3/pom) | | | |
+| [4.0.0-rc-3](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-rc-3/pom) | [mvn jdk17](maven-4.0.0-rc-3.buildspec) | [result](maven-4.0.0-rc-3.buildinfo): [226 :white_check_mark: ](maven-4.0.0-rc-3.buildcompare) | 62M |
 | [4.0.0-rc-2](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-rc-2/pom) | [mvn jdk17](maven-4.0.0-rc-2.buildspec) | [result](maven-4.0.0-rc-2.buildinfo): [171 :white_check_mark:  11 :warning:](maven-4.0.0-rc-2.buildcompare) | 60M |
 | [4.0.0-rc-1](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-rc-1/pom) | [mvn jdk21](maven-4.0.0-rc-1.buildspec) | [result](maven-4.0.0-rc-1.buildinfo): [182 :white_check_mark: ](maven-4.0.0-rc-1.buildcompare) | 60M |
 | [4.0.0-beta-5](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-beta-5/pom) | [mvn jdk21](maven-4.0.0-beta-5.buildspec) | [result](maven-4.0.0-beta-5.buildinfo): [171 :white_check_mark: ](maven-4.0.0-beta-5.buildcompare) | 51M |
