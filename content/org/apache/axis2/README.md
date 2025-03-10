@@ -71,6 +71,7 @@ rebuilding **2 releases** of org.apache.axis2:axis2:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0](https://central.sonatype.com/artifact/org.apache.axis2/axis2/2.0.0/pom) | | | |
 | [1.8.2](https://central.sonatype.com/artifact/org.apache.axis2/axis2/1.8.2/pom) | [mvn jdk11](axis2-1.8.2.buildspec) | [result](axis2-1.8.2.buildinfo): [138 :white_check_mark:  28 :warning:](axis2-1.8.2.buildcompare) | 42M |
 | [1.8.1](https://central.sonatype.com/artifact/org.apache.axis2/axis2/1.8.1/pom) | [mvn jdk11](axis2-1.8.1.buildspec) | [result](axis2-1.8.1.buildinfo): [138 :white_check_mark:  28 :warning:](axis2-1.8.1.buildcompare) [:mag:](axis2-1.8.1.diffoscope) | 42M |
 

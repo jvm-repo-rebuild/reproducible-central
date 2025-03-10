@@ -4,6 +4,6 @@ rebuilding **0 releases** of io.github.ollama4j:ollama4j:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [gh-actions](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/gh-actions/pom) | | | |
+| [1.0.98](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.0.98/pom) | | | |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

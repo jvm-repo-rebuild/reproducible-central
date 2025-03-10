@@ -56,12 +56,13 @@ Source code: [https://github.com/apache/activemq.git](https://github.com/apache/
 * [org.apache.activemq:apache-activemq](https://central.sonatype.com/artifact/org.apache.activemq/apache-activemq/overview)
 </details>
 
-rebuilding **26 releases** of org.apache.activemq:activemq-parent:
-- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **27 releases** of org.apache.activemq:activemq-parent:
+- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 15 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [6.1.6](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.1.6/pom) | [mvn jdk17](activemq-6.1.6.buildspec) | [result](activemq-parent-6.1.6.buildinfo): [126 :white_check_mark: ](activemq-parent-6.1.6.buildcompare) | 220M |
 | [6.1.5](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.1.5/pom) | [mvn jdk17](activemq-6.1.5.buildspec) | [result](activemq-parent-6.1.5.buildinfo): [95 :white_check_mark: ](activemq-parent-6.1.5.buildcompare) | 215M |
 | [6.1.4](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.1.4/pom) | [mvn jdk17](activemq-6.1.4.buildspec) | [result](activemq-parent-6.1.4.buildinfo): [95 :white_check_mark: ](activemq-parent-6.1.4.buildcompare) | 217M |
 | [6.1.3](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/6.1.3/pom) | [mvn jdk17](activemq-6.1.3.buildspec) | [result](activemq-parent-6.1.3.buildinfo): [95 :white_check_mark: ](activemq-parent-6.1.3.buildcompare) | 216M |

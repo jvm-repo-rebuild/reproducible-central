@@ -3,8 +3,8 @@
   <groupId>io.avaje</groupId>
   <artifactId>avaje-jsonb-parent</artifactId>
   <versioning>
-    <latest>3.1-RC2</latest>
-    <release>3.1-RC2</release>
+    <latest>3.1-RC3</latest>
+    <release>3.1-RC3</release>
     <versions>
       <version>0.2</version>
       <version>0.4</version>
@@ -96,7 +96,8 @@
       <version>3.0</version>
       <version>3.1-RC1</version>
       <version>3.1-RC2</version>
+      <version>3.1-RC3</version>
     </versions>
-    <lastUpdated>20250304223809</lastUpdated>
+    <lastUpdated>20250310190912</lastUpdated>
   </versioning>
 </metadata>

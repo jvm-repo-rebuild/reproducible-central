@@ -1,2 +1,10 @@
+content/com/spotify/github-client/github-client-0.3.9.buildspec:0.3.10
 content/dev/langchain4j/langchain4j-1.0.0-alpha1.buildspec:1.0.0-beta1
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.1-beta-6.buildspec:11.2.1-beta-7
+content/io/avaje/http/avaje-http-3.1-RC1.buildspec:3.1-RC2
+content/io/avaje/jex/avaje-jex-3.0-RC20.buildspec:3.0-RC21
+content/io/avaje/jsonb/avaje-jsonb-3.1-RC2.buildspec:3.1-RC3
+content/io/jstach/jstachio/jstachio-1.3.6.buildspec:1.3.7
+content/land/oras/oras-java-sdk/oras-java-sdk-0.2.0.buildspec:0.2.1
+content/org/apache/syncope/syncope-4.0.0-M0.buildspec:4.0.0-M1
+content/org/apache/sling/org.apache.sling.fsresource/org.apache.sling.fsresource-2.2.0.buildspec:2.3.0
+content/org/apache/sling/sling-maven-plugin/sling-maven-plugin-3.0.2.buildspec:3.0.4

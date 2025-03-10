@@ -3,11 +3,11 @@
   <groupId>io.github.ollama4j</groupId>
   <artifactId>ollama4j</artifactId>
   <versioning>
-    <latest>gh-actions</latest>
-    <release>gh-actions</release>
+    <latest>1.0.98</latest>
+    <release>1.0.98</release>
     <versions>
-      <version>gh-actions</version>
+      <version>1.0.98</version>
     </versions>
-    <lastUpdated>20250308120456</lastUpdated>
+    <lastUpdated>20250310184544</lastUpdated>
   </versioning>
 </metadata>
