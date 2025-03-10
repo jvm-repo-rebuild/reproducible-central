@@ -116,9 +116,9 @@ esac
 
 echo
 
-pomFile=$(echo "$command" | grep -oP '(?<=-f )[^ ]+')
+pomFile=$(echo "$command" | sed -nE 's/.*-f ([^ ]+).*/\1/p')
 if [ -n "$pomFile" ]; then
-  displayResult $(dirname $pomFile)
+  displayResult "$(dirname "$pomFile")"
 else
   displayResult ""
 fi
