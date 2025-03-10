@@ -1,0 +1,17 @@
+groupId=org.apache.sling
+artifactId=sling-maven-plugin
+display=${groupId}:${artifactId}
+version=3.0.4
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=17
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
