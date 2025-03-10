@@ -1,0 +1,49 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling File System Resource Provider
+group-id=org.apache.sling
+artifact-id=org.apache.sling.fsresource
+version=2.3.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-fsresource.git
+source.scm.tag=org.apache.sling.fsresource-2.3.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.14
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.fsresource-2.3.0.pom
+outputs.0.length=11587
+outputs.0.checksums.sha512=1b22007b02285d13e95b95f9c737804d2c8dd4c0b8f0de48a88697bf6f345bb221b2ccf1eff8367b0a58d8c5948854d3431d3eda259dc6744a0e923f994625ef
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.fsresource-2.3.0.jar
+outputs.1.length=124923
+outputs.1.checksums.sha512=31d7537ebab283b8f945fbfe0fe50a5df87d66865d1bae448bcec6bd14a2f584812d3d1d7976d518d95cc3d6edc227b66561b0ab334050fc99998065b369e3dd
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.fsresource-2.3.0-source-release.zip
+outputs.2.length=153321
+outputs.2.checksums.sha512=483ab94e11010ac343a76a24c8504494e823b91d10eb02637a47474e865298a6519d7bb9f9bca8e5a3380c2f364d868145084df817af71fa11627a811fa2e6db
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.fsresource-2.3.0-sources.jar
+outputs.3.length=63345
+outputs.3.checksums.sha512=db48e75b2eccaea406888ac21033f69afa3eb4859c224dd9339bea8729958504950a2709cc1af615813721a324468502268f8172db8e7fec4387006e0c9436dd
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.fsresource-2.3.0-simple.jar
+outputs.4.length=91306
+outputs.4.checksums.sha512=758d9dd76e842a79c617b2be0411991e1981cbcdced1378768f23775442d66c62b344c906ba2b50420e8231c5aafd907d3e62073b04a28f937221c20cdaf3c7d

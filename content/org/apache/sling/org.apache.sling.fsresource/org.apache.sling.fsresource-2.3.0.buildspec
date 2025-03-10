@@ -1,0 +1,21 @@
+groupId=org.apache.sling
+artifactId=org.apache.sling.fsresource
+display=${groupId}:*.fsresource
+version=2.3.0
+
+gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git
+gitTag=${artifactId}-${version}
+# reference build done on Windows, Git checkout does not match reference, need to use Apache source-release.zip
+sourceDistribution=https://repo1.maven.org/maven2/org/apache/sling/${artifactId}/${version}/${artifactId}-${version}-source-release.zip
+sourcePath=${artifactId}-${version}
+sourceRmFiles="DEPENDENCIES NOTICE"
+
+tool=mvn-3.9.9
+jdk=17
+newline=crlf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
