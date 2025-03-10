@@ -1,22 +1,13 @@
 version=2.1.1
-ok=16
-ko=13
+ok=25
+ko=4
 ignored=0
-okFiles="orc-2.1.1.pom orc-2.1.1-source-release.zip orc-shims-2.1.1.pom orc-shims-2.1.1.jar orc-shims-2.1.1-sources.jar orc-shims-2.1.1-test-sources.jar orc-shims-2.1.1-tests.jar orc-core-2.1.1.pom orc-core-2.1.1-shaded-protobuf.jar orc-core-2.1.1-nohive.jar orc-mapreduce-2.1.1.pom orc-mapreduce-2.1.1-shaded-protobuf.jar orc-mapreduce-2.1.1-nohive.jar orc-tools-2.1.1.pom orc-tools-2.1.1-shaded-protobuf.jar orc-tools-2.1.1-nohive.jar"
-koFiles="orc-core-2.1.1.jar orc-core-2.1.1-sources.jar orc-core-2.1.1-test-sources.jar orc-core-2.1.1-tests.jar orc-mapreduce-2.1.1.jar orc-mapreduce-2.1.1-sources.jar orc-mapreduce-2.1.1-test-sources.jar orc-mapreduce-2.1.1-tests.jar orc-tools-2.1.1.jar orc-tools-2.1.1-sources.jar orc-tools-2.1.1-test-sources.jar orc-tools-2.1.1-uber.jar orc-tools-2.1.1-tests.jar"
+okFiles="orc-2.1.1.pom orc-2.1.1-source-release.zip orc-shims-2.1.1.pom orc-shims-2.1.1.jar orc-shims-2.1.1-sources.jar orc-shims-2.1.1-test-sources.jar orc-core-2.1.1.pom orc-core-2.1.1.jar orc-core-2.1.1-sources.jar orc-core-2.1.1-test-sources.jar orc-core-2.1.1-shaded-protobuf.jar orc-core-2.1.1-nohive.jar orc-mapreduce-2.1.1.pom orc-mapreduce-2.1.1.jar orc-mapreduce-2.1.1-sources.jar orc-mapreduce-2.1.1-test-sources.jar orc-mapreduce-2.1.1-shaded-protobuf.jar orc-mapreduce-2.1.1-nohive.jar orc-tools-2.1.1.pom orc-tools-2.1.1.jar orc-tools-2.1.1-sources.jar orc-tools-2.1.1-test-sources.jar orc-tools-2.1.1-shaded-protobuf.jar orc-tools-2.1.1-nohive.jar orc-tools-2.1.1-uber.jar"
+koFiles="orc-shims-2.1.1-tests.jar orc-core-2.1.1-tests.jar orc-mapreduce-2.1.1-tests.jar orc-tools-2.1.1-tests.jar"
 ignoredFiles=""
 reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Windows (from pom.properties newline)"
-# diffoscope target/reference/org.apache.orc/orc-core-2.1.1.jar core/target/orc-core-2.1.1.jar
-# diffoscope target/reference/org.apache.orc/orc-core-2.1.1-sources.jar core/target/orc-core-2.1.1-sources.jar
-# diffoscope target/reference/org.apache.orc/orc-core-2.1.1-test-sources.jar core/target/orc-core-2.1.1-test-sources.jar
+# diffoscope target/reference/org.apache.orc/orc-shims-2.1.1-tests.jar shims/target/orc-shims-2.1.1-tests.jar
 # diffoscope target/reference/org.apache.orc/orc-core-2.1.1-tests.jar core/target/orc-core-2.1.1-tests.jar
-# diffoscope target/reference/org.apache.orc/orc-mapreduce-2.1.1.jar mapreduce/target/orc-mapreduce-2.1.1.jar
-# diffoscope target/reference/org.apache.orc/orc-mapreduce-2.1.1-sources.jar mapreduce/target/orc-mapreduce-2.1.1-sources.jar
-# diffoscope target/reference/org.apache.orc/orc-mapreduce-2.1.1-test-sources.jar mapreduce/target/orc-mapreduce-2.1.1-test-sources.jar
 # diffoscope target/reference/org.apache.orc/orc-mapreduce-2.1.1-tests.jar mapreduce/target/orc-mapreduce-2.1.1-tests.jar
-# diffoscope target/reference/org.apache.orc/orc-tools-2.1.1.jar tools/target/orc-tools-2.1.1.jar
-# diffoscope target/reference/org.apache.orc/orc-tools-2.1.1-sources.jar tools/target/orc-tools-2.1.1-sources.jar
-# diffoscope target/reference/org.apache.orc/orc-tools-2.1.1-test-sources.jar tools/target/orc-tools-2.1.1-test-sources.jar
-# diffoscope target/reference/org.apache.orc/orc-tools-2.1.1-uber.jar tools/target/orc-tools-2.1.1-uber.jar
 # diffoscope target/reference/org.apache.orc/orc-tools-2.1.1-tests.jar tools/target/orc-tools-2.1.1-tests.jar
