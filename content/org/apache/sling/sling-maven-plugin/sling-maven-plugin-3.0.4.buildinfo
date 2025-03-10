@@ -1,0 +1,45 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Maven Plugin
+group-id=org.apache.sling
+artifact-id=sling-maven-plugin
+version=3.0.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-maven-plugin.git
+source.scm.tag=sling-maven-plugin-3.0.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.13
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.8.1
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=sling-maven-plugin-3.0.4.pom
+outputs.0.length=16235
+outputs.0.checksums.sha512=6115bd5af2012ef3829afd95daec6d3fcbb82f55f43c00734a662da057a9e16c6a1bcd6e8ad2cdfdc566e111032f1e14ffde0caa7e2692163cd55ff99fd8a5f8
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=sling-maven-plugin-3.0.4.jar
+outputs.1.length=107690
+outputs.1.checksums.sha512=744f0666676ca32ec64266dd4ec779ac6aa8517569a790f4dd6210e1a2489cf829837b6b95b0a69a5c6aa74968605ad8fa2dda7678922a01989955f12787c618
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=sling-maven-plugin-3.0.4-source-release.zip
+outputs.2.length=119295
+outputs.2.checksums.sha512=5065d54dd0ef262c82bb979a2b90ec0dc76a227186ae44de309dba832bf3f2f6a224b69995ebc8fc2096e43346bed5db62ddcd4ded138c7bf9cfdec4789f1d13
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=sling-maven-plugin-3.0.4-sources.jar
+outputs.3.length=75685
+outputs.3.checksums.sha512=f5258dd00eaa4a95a470440a2ef758539b1a82c5a5514db1c89cb70c0d7c4b9b01f5fa54d7f33e19a015be77a97e7ae9d5c6a1de604df4603f133904cd231dfe
