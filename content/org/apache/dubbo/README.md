@@ -193,13 +193,13 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-zookeeper-spring-boot-starter](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-zookeeper-spring-boot-starter/overview)
 </details>
 
-rebuilding **79 releases** of org.apache.dubbo:dubbo:
-- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **80 releases** of org.apache.dubbo:dubbo:
+- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 59 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.3.4](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.4/pom) | | | |
+| [3.3.4](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.4/pom) | [mvn jdk21](dubbo-3.3.4.buildspec) | [result](dubbo-parent-3.3.4.buildinfo): [253 :white_check_mark: ](dubbo-parent-3.3.4.buildcompare) | 49M |
 | [3.3.3](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.3/pom) | [mvn jdk21](dubbo-3.3.3.buildspec) | [result](dubbo-parent-3.3.3.buildinfo): [253 :white_check_mark: ](dubbo-parent-3.3.3.buildcompare) | 49M |
 | [3.3.2](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.2/pom) | [mvn jdk21](dubbo-3.3.2.buildspec) | [result](dubbo-parent-3.3.2.buildinfo): [250 :white_check_mark: ](dubbo-parent-3.3.2.buildcompare) | 47M |
 | [3.3.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.1/pom) | [mvn jdk21](dubbo-3.3.1.buildspec) | [result](dubbo-parent-3.3.1.buildinfo): [250 :white_check_mark: ](dubbo-parent-3.3.1.buildcompare) | 47M |
