@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.activemq:artemis-pom](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/activemq/artemis/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/activemq/artemis/README.md)
+## Project: [org.apache.activemq:artemis-pom](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/activemq/artemis//badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/activemq/artemis//README.md)
 
 Source code: [https://github.com/apache/activemq-artemis.git](https://github.com/apache/activemq-artemis.git)
 
