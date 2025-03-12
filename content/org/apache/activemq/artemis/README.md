@@ -3,11 +3,11 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.activemq:artemis-pom](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/activemq/artemis//badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/activemq/artemis//README.md)
+## Project: [org.apache.activemq:artemis-pom](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/activemq/artemis/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/activemq/artemis/README.md)
 
 Source code: [https://github.com/apache/activemq-artemis.git](https://github.com/apache/activemq-artemis.git)
 
-<details><summary>This project defines 218 modules:</summary>
+<details><summary>This project defines 219 modules:</summary>
 
 * [org.apache.activemq.examples.amqp:amqp](https://central.sonatype.com/artifact/org.apache.activemq.examples.amqp/amqp/overview)
 * [org.apache.activemq.examples.amqp:proton-clustered-cpp](https://central.sonatype.com/artifact/org.apache.activemq.examples.amqp/proton-clustered-cpp/overview)
@@ -188,6 +188,7 @@ Source code: [https://github.com/apache/activemq-artemis.git](https://github.com
 * [org.apache.activemq:artemis-hqclient-protocol](https://central.sonatype.com/artifact/org.apache.activemq/artemis-hqclient-protocol/overview)
 * [org.apache.activemq:artemis-image](https://central.sonatype.com/artifact/org.apache.activemq/artemis-image/overview)
 * [org.apache.activemq:artemis-image-examples](https://central.sonatype.com/artifact/org.apache.activemq/artemis-image-examples/overview)
+* [org.apache.activemq:artemis-jakarta-cdi-client](https://central.sonatype.com/artifact/org.apache.activemq/artemis-jakarta-cdi-client/overview)
 * [org.apache.activemq:artemis-jakarta-client](https://central.sonatype.com/artifact/org.apache.activemq/artemis-jakarta-client/overview)
 * [org.apache.activemq:artemis-jakarta-client-all](https://central.sonatype.com/artifact/org.apache.activemq/artemis-jakarta-client-all/overview)
 * [org.apache.activemq:artemis-jakarta-openwire-protocol](https://central.sonatype.com/artifact/org.apache.activemq/artemis-jakarta-openwire-protocol/overview)
