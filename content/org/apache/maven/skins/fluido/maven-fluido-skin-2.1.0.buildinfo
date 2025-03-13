@@ -1,0 +1,54 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Fluido Skin
+group-id=org.apache.maven.skins
+artifact-id=maven-fluido-skin
+version=2.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-fluido-skin.git
+source.scm.tag=maven-fluido-skin-2.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.6
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.skins
+outputs.0.filename=maven-fluido-skin-2.1.0.pom
+outputs.0.length=12936
+outputs.0.checksums.sha512=d4defa4ffd7f1ae0da5f660873e4060b56484419e5d33a696ec29a04b171ba00c8abd7d9a597c5886e6d67b6e51b3d54e8083e0e8208e316f66b2dce08b749fd
+
+outputs.1.groupId=org.apache.maven.skins
+outputs.1.filename=maven-fluido-skin-2.1.0.jar
+outputs.1.length=347733
+outputs.1.checksums.sha512=323f66afc21ab108023b6496e7db11ef54ce16d7f200e086f9866d0c4e7fa40ab144653a1766e92b7555dc50f299a7de6cb7a60357588731b31e23daec7d5e80
+
+outputs.2.groupId=org.apache.maven.skins
+outputs.2.filename=maven-fluido-skin-2.1.0-source-release.zip
+outputs.2.length=621628
+outputs.2.checksums.sha512=eb1f459969f129e65f87f1e9d1d9e1512c2063931ad8a46726ba8f5cb3665653c086f12ad04bf7e3aa39dbbd6ca67877bfc8a0e2d3d5a44ed6f6a9e2b6788743
+
+outputs.3.groupId=org.apache.maven.skins
+outputs.3.filename=maven-fluido-skin-2.1.0-sources.jar
+outputs.3.length=341315
+outputs.3.checksums.sha512=4539e2bf0893249b71edd1df129908952cad5eb576cb075db250cc928212cffa5a534760854017526e0f6b2eebe821697308a817849852e1b046dfa2731f77de
+
+outputs.4.groupId=org.apache.maven.skins
+outputs.4.filename=maven-fluido-skin-2.1.0-cyclonedx.xml
+outputs.4.length=3225
+outputs.4.checksums.sha512=225765995a366a693475810fa05f8a99250e46273db5965b58ebb51189dfe1e4f545c947e75e9d4d7e0d56cb8d74b35da29faef36571b327e2333d1017c94384
+
+outputs.5.groupId=org.apache.maven.skins
+outputs.5.filename=maven-fluido-skin-2.1.0-cyclonedx.json
+outputs.5.length=3711
+outputs.5.checksums.sha512=80daa69f217a031f58e16dc5a7af5240ddca6d9d977e427a54acd7a5a25f15b7488a1ed46b484bbf1a3d757de9279e75a42149c8a899de14f16449f7cd240015
