@@ -1,0 +1,20 @@
+groupId=org.apache.activemq
+artifactId=activemq-parent
+version=5.19.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/apache/activemq.git
+gitTag=activemq-${version}
+
+tool=mvn-3.9.9
+jdk=11
+newline=lf
+umask=022
+locale=fr_FR # cxf-xjc-plugin:xsdtojava used in activemq-runtime-config is sensitive to locale, and release manager had french locale
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
