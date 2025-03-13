@@ -7,12 +7,13 @@
 
 Source code: [https://github.com/apache/maven-fluido-skin.git](https://github.com/apache/maven-fluido-skin.git)
 
-rebuilding **17 releases** of org.apache.maven.skins:maven-fluido-skin:
-- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **18 releases** of org.apache.maven.skins:maven-fluido-skin:
+- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.1.0](https://central.sonatype.com/artifact/org.apache.maven.skins/maven-fluido-skin/2.1.0/pom) | [mvn jdk21](maven-fluido-skin-2.1.0.buildspec) | [result](maven-fluido-skin-2.1.0.buildinfo): [6 :white_check_mark: ](maven-fluido-skin-2.1.0.buildcompare) | 1.3M |
 | [2.0.1](https://central.sonatype.com/artifact/org.apache.maven.skins/maven-fluido-skin/2.0.1/pom) | [mvn jdk11](maven-fluido-skin-2.0.1.buildspec) | [result](maven-fluido-skin-2.0.1.buildinfo): [6 :white_check_mark: ](maven-fluido-skin-2.0.1.buildcompare) | 1.3M |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.maven.skins/maven-fluido-skin/2.0.0/pom) | [mvn jdk8 w](maven-fluido-skin-2.0.0.buildspec) | [result](maven-fluido-skin-2.0.0.buildinfo): [6 :white_check_mark: ](maven-fluido-skin-2.0.0.buildcompare) | 1.4M |
 | [2.0.0-M11](https://central.sonatype.com/artifact/org.apache.maven.skins/maven-fluido-skin/2.0.0-M11/pom) | [mvn jdk8 w](maven-fluido-skin-2.0.0-M11.buildspec) | [result](maven-fluido-skin-2.0.0-M11.buildinfo): [6 :white_check_mark: ](maven-fluido-skin-2.0.0-M11.buildcompare) | 1.4M |
