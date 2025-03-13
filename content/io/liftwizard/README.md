@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/motlin/liftwizard.git](https://github.com/motlin/liftwizard.git)
 
-<details><summary>This project defines 175 modules:</summary>
+<details><summary>This project defines 177 modules:</summary>
 
 * [io.liftwizard:docs](https://central.sonatype.com/artifact/io.liftwizard/docs/overview)
 * [io.liftwizard:liftwizard](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/overview)
@@ -16,6 +16,7 @@ Source code: [https://github.com/motlin/liftwizard.git](https://github.com/motli
 * [io.liftwizard:liftwizard-auth](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-auth/overview)
 * [io.liftwizard:liftwizard-bom](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-bom/overview)
 * [io.liftwizard:liftwizard-bundle](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-bundle/overview)
+* [io.liftwizard:liftwizard-bundle-assets-cache](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-bundle-assets-cache/overview)
 * [io.liftwizard:liftwizard-bundle-auth-filter](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-bundle-auth-filter/overview)
 * [io.liftwizard:liftwizard-bundle-clock](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-bundle-clock/overview)
 * [io.liftwizard:liftwizard-bundle-connection-manager](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-bundle-connection-manager/overview)
@@ -164,6 +165,7 @@ Source code: [https://github.com/motlin/liftwizard.git](https://github.com/motli
 * [io.liftwizard:liftwizard-reladomo-timestamp](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-reladomo-timestamp/overview)
 * [io.liftwizard:liftwizard-rewrite](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-rewrite/overview)
 * [io.liftwizard:liftwizard-servlet](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-servlet/overview)
+* [io.liftwizard:liftwizard-servlet-assets-cache](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-servlet-assets-cache/overview)
 * [io.liftwizard:liftwizard-servlet-logging](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-servlet-logging/overview)
 * [io.liftwizard:liftwizard-servlet-logging-correlation-id](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-servlet-logging-correlation-id/overview)
 * [io.liftwizard:liftwizard-servlet-logging-log4j-map](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-servlet-logging-log4j-map/overview)
@@ -186,13 +188,13 @@ Source code: [https://github.com/motlin/liftwizard.git](https://github.com/motli
 * [io.liftwizard:liftwizard-uuid](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-uuid/overview)
 </details>
 
-rebuilding **66 releases** of io.liftwizard:liftwizard:
-- **65** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **67 releases** of io.liftwizard:liftwizard:
+- **66** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.1.25](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.25/pom) | | | |
+| [2.1.25](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.25/pom) | [mvn jdk17](liftwizard-2.1.25.buildspec) | [result](liftwizard-2.1.25.buildinfo): [425 :white_check_mark: ](liftwizard-2.1.25.buildcompare) | 2.3M |
 | [2.1.24](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.24/pom) | [mvn jdk17](liftwizard-2.1.24.buildspec) | [result](liftwizard-2.1.24.buildinfo): [419 :white_check_mark: ](liftwizard-2.1.24.buildcompare) | 2.3M |
 | [2.1.23](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.23/pom) | [mvn jdk17](liftwizard-2.1.23.buildspec) | [result](liftwizard-2.1.23.buildinfo): [414 :white_check_mark: ](liftwizard-2.1.23.buildcompare) | 2.3M |
 | [2.1.22](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.22/pom) | [mvn jdk17](liftwizard-2.1.22.buildspec) | [result](liftwizard-2.1.22.buildinfo): [414 :white_check_mark: ](liftwizard-2.1.22.buildcompare) | 2.3M |
