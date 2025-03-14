@@ -8,7 +8,7 @@ gitRepo=https://github.com/jstachio/${artifactId}.git
 gitTag=v${version}
 
 tool=mvn-3.9.6
-jdk=17
+jdk=17.0.7
 newline=lf
 umask=022
 
