@@ -11,7 +11,8 @@ jdk=21
 newline=lf
 #umask=022
 
-command="mvn package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+# SHELL required because langchain4j/pom.xml defines a local directory as repository: it does not get mirrored in settings.xml
+command="SHELL mvn package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-aggregator-${version}.buildinfo
 execBefore="mvn clean"
 
