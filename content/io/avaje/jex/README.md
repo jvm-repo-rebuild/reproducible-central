@@ -18,13 +18,13 @@ Source code: [https://github.com/avaje/avaje-jex.git](https://github.com/avaje/a
 * [io.avaje:avaje-jex-test](https://central.sonatype.com/artifact/io.avaje/avaje-jex-test/overview)
 </details>
 
-rebuilding **21 releases** of io.avaje:avaje-jex-parent:
-- **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **22 releases** of io.avaje:avaje-jex-parent:
+- **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.0-RC22](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.0-RC22/pom) | | | |
+| [3.0-RC22](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.0-RC22/pom) | [mvn jdk21](avaje-jex-3.0-RC22.buildspec) | [result](avaje-jex-parent-3.0-RC22.buildinfo): [19 :white_check_mark: ](avaje-jex-parent-3.0-RC22.buildcompare) | 262K |
 | [3.0-RC21](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.0-RC21/pom) | [mvn jdk21](avaje-jex-3.0-RC21.buildspec) | [result](avaje-jex-parent-3.0-RC21.buildinfo): [19 :white_check_mark: ](avaje-jex-parent-3.0-RC21.buildcompare) | 261K |
 | [3.0-RC20](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.0-RC20/pom) | [mvn jdk21](avaje-jex-3.0-RC20.buildspec) | [result](avaje-jex-parent-3.0-RC20.buildinfo): [19 :white_check_mark: ](avaje-jex-parent-3.0-RC20.buildcompare) | 249K |
 | [3.0-RC19](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.0-RC19/pom) | [mvn jdk21](avaje-jex-3.0-RC19.buildspec) | [result](avaje-jex-parent-3.0-RC19.buildinfo): [19 :white_check_mark: ](avaje-jex-parent-3.0-RC19.buildcompare) | 247K |
