@@ -18,13 +18,13 @@ Source code: [https://github.com/avaje/avaje-inject.git](https://github.com/avaj
 * [io.avaje:avaje-inject-test](https://central.sonatype.com/artifact/io.avaje/avaje-inject-test/overview)
 </details>
 
-rebuilding **16 releases** of io.avaje:avaje-inject-parent:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **17 releases** of io.avaje:avaje-inject-parent:
+- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [11.3-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.3-RC1/pom) | | | |
+| [11.3-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.3-RC1/pom) | [mvn jdk21](avaje-inject-11.3-RC1.buildspec) | [result](avaje-inject-parent-11.3-RC1.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-11.3-RC1.buildcompare) | 776K |
 | [11.2-javax](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.2-javax/pom) | [mvn jdk21](avaje-inject-11.2-javax.buildspec) | [result](avaje-inject-parent-11.2-javax.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-11.2-javax.buildcompare) | 769K |
 | [11.2](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.2/pom) | [mvn jdk21](avaje-inject-11.2.buildspec) | [result](avaje-inject-parent-11.2.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-11.2.buildcompare) | 769K |
 | [11.2-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.2-RC2/pom) | [mvn jdk21](avaje-inject-11.2-RC2.buildspec) | [result](avaje-inject-parent-11.2-RC2.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-11.2-RC2.buildcompare) | 768K |
