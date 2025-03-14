@@ -1,0 +1,8 @@
+version=3.0-RC22
+ok=19
+ko=0
+ignored=0
+okFiles="avaje-jex-parent-3.0-RC22.pom avaje-jex-3.0-RC22.pom avaje-jex-3.0-RC22.jar avaje-jex-3.0-RC22-sources.jar avaje-jex-test-3.0-RC22.pom avaje-jex-test-3.0-RC22.jar avaje-jex-test-3.0-RC22-sources.jar avaje-jex-freemarker-3.0-RC22.pom avaje-jex-freemarker-3.0-RC22.jar avaje-jex-freemarker-3.0-RC22-sources.jar avaje-jex-mustache-3.0-RC22.pom avaje-jex-mustache-3.0-RC22.jar avaje-jex-mustache-3.0-RC22-sources.jar avaje-jex-htmx-3.0-RC22.pom avaje-jex-htmx-3.0-RC22.jar avaje-jex-htmx-3.0-RC22-sources.jar avaje-jex-static-content-3.0-RC22.pom avaje-jex-static-content-3.0-RC22.jar avaje-jex-static-content-3.0-RC22-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
