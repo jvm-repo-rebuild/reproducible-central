@@ -55,6 +55,8 @@ then
   runlog "git fetch"
   git fetch --tags || fatal "failed to git fetch"
 
+  [[ "${gitTag}" == git* ]] && echo "evaluating: $gitTag" && gitTag="$(eval ${gitTag})"
+
   runlog "git checkout -q -f ${gitTag}"
   git checkout -q -f ${gitTag} || fatal "failed to git checkout ${gitTag}"
   if [ "${newline}" == "crlf" ]
