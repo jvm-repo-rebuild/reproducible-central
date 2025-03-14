@@ -1,0 +1,8 @@
+version=11.3-RC1
+ok=19
+ko=0
+ignored=0
+okFiles="avaje-inject-parent-11.3-RC1.pom avaje-inject-aop-11.3-RC1.pom avaje-inject-aop-11.3-RC1.jar avaje-inject-aop-11.3-RC1-sources.jar avaje-inject-events-11.3-RC1.pom avaje-inject-events-11.3-RC1.jar avaje-inject-events-11.3-RC1-sources.jar avaje-inject-11.3-RC1.pom avaje-inject-11.3-RC1.jar avaje-inject-11.3-RC1-sources.jar avaje-inject-generator-11.3-RC1.pom avaje-inject-generator-11.3-RC1.jar avaje-inject-generator-11.3-RC1-sources.jar avaje-inject-test-11.3-RC1.pom avaje-inject-test-11.3-RC1.jar avaje-inject-test-11.3-RC1-sources.jar avaje-inject-maven-plugin-11.3-RC1.pom avaje-inject-maven-plugin-11.3-RC1.jar avaje-inject-maven-plugin-11.3-RC1-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
