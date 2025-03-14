@@ -12,7 +12,7 @@ jdk=17
 newline=lf
 umask=022
 
-command="bin/rebuild.sh"
+command="SHELL bin/rebuild.sh"
 
 buildinfo=target/jstachio-maven-parent-${version}.buildinfo
 

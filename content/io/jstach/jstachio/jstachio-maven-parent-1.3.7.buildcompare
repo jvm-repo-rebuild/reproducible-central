@@ -1,0 +1,9 @@
+version=1.3.7
+ok=41
+ko=0
+ignored=0
+okFiles="jstachio-maven-parent-1.3.7.pom jstachio-api-parent-1.3.7.pom jstachio-annotation-1.3.7.pom jstachio-annotation-1.3.7.jar jstachio-annotation-1.3.7-sources.jar jstachio-1.3.7.pom jstachio-1.3.7.jar jstachio-1.3.7-sources.jar jstachio-opt-parent-1.3.7.pom jstachio-spring-1.3.7.pom jstachio-spring-1.3.7.jar jstachio-spring-1.3.7-sources.jar jstachio-spring-webmvc-1.3.7.pom jstachio-spring-webmvc-1.3.7.jar jstachio-spring-webmvc-1.3.7-sources.jar jstachio-spring-boot-starter-webmvc-1.3.7.pom jstachio-spring-boot-starter-webmvc-1.3.7.jar jstachio-spring-boot-starter-webmvc-1.3.7-sources.jar jstachio-compiler-parent-1.3.7.pom jstachio-apt-1.3.7.pom jstachio-apt-1.3.7.jar jstachio-apt-1.3.7-sources.jar jstachio-spring-example-1.3.7.pom jstachio-spring-example-1.3.7.jar jstachio-spring-example-1.3.7-sources.jar jstachio-jmustache-1.3.7.pom jstachio-jmustache-1.3.7.jar jstachio-jmustache-1.3.7-sources.jar jstachio-spring-webflux-1.3.7.pom jstachio-spring-webflux-1.3.7.jar jstachio-spring-webflux-1.3.7-sources.jar jstachio-spring-webflux-example-1.3.7.pom jstachio-spring-webflux-example-1.3.7.jar jstachio-spring-webflux-example-1.3.7-sources.jar jstachio-dropwizard-1.3.7.pom jstachio-dropwizard-1.3.7.jar jstachio-dropwizard-1.3.7-sources.jar jstachio-dropwizard-example-1.3.7.pom jstachio-dropwizard-example-1.3.7.jar jstachio-dropwizard-example-1.3.7-sources.jar jstachio-etc-parent-1.3.7.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
