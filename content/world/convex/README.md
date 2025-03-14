@@ -28,6 +28,7 @@ rebuilding **20 releases** of world.convex:convex:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.8.1](https://central.sonatype.com/artifact/world.convex/convex/0.8.1/pom) | | | |
 | [0.8.0](https://central.sonatype.com/artifact/world.convex/convex/0.8.0/pom) | [mvn jdk21 w](convex-0.8.0.buildspec) | [result](convex-0.8.0.buildinfo): [21 :white_check_mark: ](convex-0.8.0.buildcompare) | 6.0M |
 | [0.7.15](https://central.sonatype.com/artifact/world.convex/convex/0.7.15/pom) | [mvn jdk21 w](convex-0.7.15.buildspec) | [result](convex-0.7.15.buildinfo): [21 :white_check_mark: ](convex-0.7.15.buildcompare) | 5.9M |
 | [0.7.13](https://central.sonatype.com/artifact/world.convex/convex/0.7.13/pom) | [mvn jdk22 w](convex-0.7.13.buildspec) | [result](convex-0.7.13.buildinfo): [28 :white_check_mark:  1 :warning:](convex-0.7.13.buildcompare) | 152M |
