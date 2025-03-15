@@ -14,14 +14,14 @@ Source code: [https://github.com/chains-project/maven-lockfile.git](https://gith
 * [io.github.chains-project:maven-lockfile-parent](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile-parent/overview)
 </details>
 
-rebuilding **33 releases** of io.github.chains-project:maven-lockfile:
+rebuilding **34 releases** of io.github.chains-project:maven-lockfile:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 33 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 34 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [5.4.1](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/5.4.1/pom) | [mvn jdk17](maven-lockfile-5.4.1.buildspec) | [result](maven-lockfile-parent-5.4.1.buildinfo): [13 :white_check_mark:  1 :warning:](maven-lockfile-parent-5.4.1.buildcompare) | 19M |
-| [5.4.0](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/5.4.0/pom) | | | |
+| [5.4.0](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/5.4.0/pom) | [mvn jdk17](maven-lockfile-5.4.0.buildspec) | [result](maven-lockfile-parent-5.4.0.buildinfo): [13 :white_check_mark:  1 :warning:](maven-lockfile-parent-5.4.0.buildcompare) | 19M |
 | [5.3.5](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/5.3.5/pom) | [mvn jdk17](maven-lockfile-5.3.5.buildspec) | [result](maven-lockfile-parent-5.3.5.buildinfo): [13 :white_check_mark:  1 :warning:](maven-lockfile-parent-5.3.5.buildcompare) | 19M |
 | [5.3.4](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/5.3.4/pom) | [mvn jdk17](maven-lockfile-5.3.4.buildspec) | [result](maven-lockfile-parent-5.3.4.buildinfo): [13 :white_check_mark:  1 :warning:](maven-lockfile-parent-5.3.4.buildcompare) | 19M |
 | [5.3.3](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/5.3.3/pom) | [mvn jdk17](maven-lockfile-5.3.3.buildspec) | [result](maven-lockfile-parent-5.3.3.buildinfo): [13 :white_check_mark:  1 :warning:](maven-lockfile-parent-5.3.3.buildcompare) | 19M |
