@@ -1,0 +1,8 @@
+version=2.9
+ok=19
+ko=0
+ignored=0
+okFiles="avaje-validator-parent-2.9.pom avaje-validator-constraints-2.9.pom avaje-validator-constraints-2.9.jar avaje-validator-constraints-2.9-sources.jar avaje-validator-inject-plugin-2.9.pom avaje-validator-inject-plugin-2.9.jar avaje-validator-inject-plugin-2.9-sources.jar avaje-validator-http-plugin-2.9.pom avaje-validator-http-plugin-2.9.jar avaje-validator-http-plugin-2.9-sources.jar avaje-validator-2.9.pom avaje-validator-2.9.jar avaje-validator-2.9-sources.jar avaje-validator-generator-2.9.pom avaje-validator-generator-2.9.jar avaje-validator-generator-2.9-sources.jar avaje-validator-spring-starter-2.9.pom avaje-validator-spring-starter-2.9.jar avaje-validator-spring-starter-2.9-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
