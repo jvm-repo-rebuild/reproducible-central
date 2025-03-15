@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/s4u/pgp-keys-map.git](https://github.com/s4u/pgp-keys-map.git)
 
-rebuilding **22 releases** of org.simplify4u:pgp-keys-map:
-- **22** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **23 releases** of org.simplify4u:pgp-keys-map:
+- **23** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2025.03.15](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/2025.03.15/pom) | | | |
+| [2025.03.15](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/2025.03.15/pom) | [mvn jdk8](pgp-keys-map-2025.03.15.buildspec) | [result](pgp-keys-map-2025.03.15.buildinfo): [2 :white_check_mark: ](pgp-keys-map-2025.03.15.buildcompare) | 30K |
 | [2024.11.03](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/2024.11.03/pom) | [mvn jdk8](pgp-keys-map-2024.11.03.buildspec) | [result](pgp-keys-map-2024.11.03.buildinfo): [2 :white_check_mark: ](pgp-keys-map-2024.11.03.buildcompare) | 30K |
 | [2024.06.29](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/2024.06.29/pom) | [mvn jdk8](pgp-keys-map-2024.06.29.buildspec) | [result](pgp-keys-map-2024.06.29.buildinfo): [2 :white_check_mark: ](pgp-keys-map-2024.06.29.buildcompare) | 30K |
 | [2024.04.04](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/2024.04.04/pom) | [mvn jdk8](pgp-keys-map-2024.04.04.buildspec) | [result](pgp-keys-map-2024.04.04.buildinfo): [2 :white_check_mark: ](pgp-keys-map-2024.04.04.buildcompare) | 29K |
