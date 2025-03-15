@@ -71,7 +71,7 @@ rebuilding **3 releases** of org.apache.axis2:axis2:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0.0](https://central.sonatype.com/artifact/org.apache.axis2/axis2/2.0.0/pom) | [mvn jdk17](axis2-2.0.0.buildspec) | [result](axis2-2.0.0.buildinfo): [149 :white_check_mark:  16 :warning:](axis2-2.0.0.buildcompare) | 51M |
+| [2.0.0](https://central.sonatype.com/artifact/org.apache.axis2/axis2/2.0.0/pom) | [mvn jdk17](axis2-2.0.0.buildspec) | [result](axis2-2.0.0.buildinfo): [149 :white_check_mark:  16 :warning:](axis2-2.0.0.buildcompare) [:memo:](https://github.com/apache/axis-axis2-java-core/pull/879) | 51M |
 | [1.8.2](https://central.sonatype.com/artifact/org.apache.axis2/axis2/1.8.2/pom) | [mvn jdk11](axis2-1.8.2.buildspec) | [result](axis2-1.8.2.buildinfo): [138 :white_check_mark:  28 :warning:](axis2-1.8.2.buildcompare) | 42M |
 | [1.8.1](https://central.sonatype.com/artifact/org.apache.axis2/axis2/1.8.1/pom) | [mvn jdk11](axis2-1.8.1.buildspec) | [result](axis2-1.8.1.buildinfo): [138 :white_check_mark:  28 :warning:](axis2-1.8.1.buildcompare) [:mag:](axis2-1.8.1.diffoscope) | 42M |
 

@@ -14,4 +14,4 @@ command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dg
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/apache/axis-axis2-java-core/pull/879
