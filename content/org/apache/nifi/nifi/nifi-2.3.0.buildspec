@@ -12,6 +12,8 @@ newline=lf
 locale=en_US
 umask=022
 workdir=/Users/pvillard/dev/apache/nifi-release/releases/nifi-work/nifi
+os=osx
+arch=aarm64
 
 command="mvn -Papache-release,include-grpc,include-ranger clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
