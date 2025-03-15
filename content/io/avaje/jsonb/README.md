@@ -7,12 +7,13 @@
 
 Source code: [https://github.com/avaje/avaje-jsonb.git](https://github.com/avaje/avaje-jsonb.git)
 
-<details><summary>This project defines 9 modules:</summary>
+<details><summary>This project defines 10 modules:</summary>
 
 * [io.avaje:avaje-json](https://central.sonatype.com/artifact/io.avaje/avaje-json/overview)
 * [io.avaje:avaje-json-core](https://central.sonatype.com/artifact/io.avaje/avaje-json-core/overview)
 * [io.avaje:avaje-json-node](https://central.sonatype.com/artifact/io.avaje/avaje-json-node/overview)
 * [io.avaje:avaje-jsonb](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb/overview)
+* [io.avaje:avaje-jsonb-bom](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-bom/overview)
 * [io.avaje:avaje-jsonb-generator](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-generator/overview)
 * [io.avaje:avaje-jsonb-inject-plugin](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-inject-plugin/overview)
 * [io.avaje:avaje-jsonb-jackson](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-jackson/overview)
@@ -20,13 +21,13 @@ Source code: [https://github.com/avaje/avaje-jsonb.git](https://github.com/avaje
 * [io.avaje:avaje-jsonb-spring-starter](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-spring-starter/overview)
 </details>
 
-rebuilding **12 releases** of io.avaje:avaje-jsonb-parent:
-- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **13 releases** of io.avaje:avaje-jsonb-parent:
+- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.1](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.1/pom) | | | |
+| [3.1](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.1/pom) | [mvn jdk21](avaje-jsonb-3.1.buildspec) | [result](avaje-jsonb-parent-3.1.buildinfo): [23 :white_check_mark: ](avaje-jsonb-parent-3.1.buildcompare) | 765K |
 | [3.1-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.1-RC3/pom) | [mvn jdk21](avaje-jsonb-3.1-RC3.buildspec) | [result](avaje-jsonb-parent-3.1-RC3.buildinfo): [22 :white_check_mark: ](avaje-jsonb-parent-3.1-RC3.buildcompare) | 762K |
 | [3.1-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.1-RC2/pom) | [mvn jdk21](avaje-jsonb-3.1-RC2.buildspec) | [result](avaje-jsonb-parent-3.1-RC2.buildinfo): [22 :white_check_mark: ](avaje-jsonb-parent-3.1-RC2.buildcompare) | 758K |
 | [3.1-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.1-RC1/pom) | [mvn jdk21](avaje-jsonb-3.1-RC1.buildspec) | [result](avaje-jsonb-parent-3.1-RC1.buildinfo): [22 :white_check_mark: ](avaje-jsonb-parent-3.1-RC1.buildcompare) | 757K |
