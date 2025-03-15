@@ -1,0 +1,19 @@
+groupId=com.github.hypfvieh
+artifactId=dbus-java-parent
+display=${groupId}:dbus-java
+version=5.1.1
+
+gitRepo=https://github.com/hypfvieh/dbus-java.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=21
+newline=lf
+#umask=022
+timezone="Europe/Paris"
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/hypfvieh/dbus-java/pull/279

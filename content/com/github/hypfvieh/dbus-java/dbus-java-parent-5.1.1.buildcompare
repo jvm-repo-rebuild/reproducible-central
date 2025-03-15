@@ -1,0 +1,10 @@
+version=5.1.1
+ok=31
+ko=1
+ignored=0
+okFiles="dbus-java-parent-5.1.1.pom dbus-java-core-5.1.1.pom dbus-java-core-5.1.1.jar dbus-java-core-5.1.1-sources.jar dbus-java-core-5.1.1-tests.jar dbus-java-osgi-5.1.1.pom dbus-java-osgi-5.1.1.jar dbus-java-osgi-5.1.1-sources.jar dbus-java-transport-jnr-unixsocket-5.1.1.pom dbus-java-transport-jnr-unixsocket-5.1.1.jar dbus-java-transport-jnr-unixsocket-5.1.1-sources.jar dbus-java-transport-jnr-unixsocket-5.1.1-tests.jar dbus-java-transport-tcp-5.1.1.pom dbus-java-transport-tcp-5.1.1.jar dbus-java-transport-tcp-5.1.1-sources.jar dbus-java-transport-tcp-5.1.1-tests.jar dbus-java-utils-5.1.1.pom dbus-java-utils-5.1.1-sources.jar dbus-java-utils-5.1.1-tests.jar dbus-java-transport-junixsocket-5.1.1.pom dbus-java-transport-junixsocket-5.1.1.jar dbus-java-transport-junixsocket-5.1.1-sources.jar dbus-java-transport-junixsocket-5.1.1-tests.jar dbus-java-transport-native-unixsocket-5.1.1.pom dbus-java-transport-native-unixsocket-5.1.1.jar dbus-java-transport-native-unixsocket-5.1.1-sources.jar dbus-java-transport-native-unixsocket-5.1.1-tests.jar dbus-java-bom-5.1.1.pom dbus-java-tests-5.1.1.pom dbus-java-tests-5.1.1.jar dbus-java-tests-5.1.1-tests.jar"
+koFiles="dbus-java-utils-5.1.1.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.github.hypfvieh/dbus-java-utils-5.1.1.jar dbus-java-utils/target/dbus-java-utils-5.1.1.jar

@@ -1,0 +1,38 @@
+1 / 1 target/reference/com.github.hypfvieh/dbus-java-utils-5.1.1.jar dbus-java-utils/target/dbus-java-utils-5.1.1.jar
+--- target/reference/com.github.hypfvieh/dbus-java-utils-5.1.1.jar
++++ dbus-java-utils/target/dbus-java-utils-5.1.1.jar
+├── zipinfo {}
+│ @@ -1,22 +1,22 @@
+│ -Zip file size: 78774 bytes, number of entries: 48
+│ +Zip file size: 78777 bytes, number of entries: 48
+│  -rw----     1.0 fat        0 bx stor 25-Mar-14 09:11 META-INF/
+│  -rw----     2.0 fat      255 bl defN 25-Mar-14 09:11 META-INF/MANIFEST.MF
+│  -rw----     1.0 fat        0 b- stor 25-Mar-14 09:11 org/
+│  -rw----     1.0 fat        0 b- stor 25-Mar-14 09:11 org/freedesktop/
+│  -rw----     1.0 fat        0 b- stor 25-Mar-14 09:11 org/freedesktop/dbus/
+│  -rw----     1.0 fat        0 b- stor 25-Mar-14 09:11 org/freedesktop/dbus/utils/
+│  -rw----     1.0 fat        0 b- stor 25-Mar-14 09:11 org/freedesktop/dbus/utils/bin/
+│  -rw----     1.0 fat        0 b- stor 25-Mar-14 09:11 org/freedesktop/dbus/utils/generator/
+│  -rw----     1.0 fat        0 b- stor 25-Mar-14 09:11 org/freedesktop/dbus/utils/translator/
+│  -rw----     1.0 fat        0 b- stor 25-Mar-14 09:11 org/freedesktop/dbus/viewer/
+│  -rw----     1.0 fat        0 b- stor 25-Mar-14 09:11 META-INF/maven/
+│  -rw----     1.0 fat        0 b- stor 25-Mar-14 09:11 META-INF/maven/com.github.hypfvieh/
+│  -rw----     1.0 fat        0 b- stor 25-Mar-14 09:11 META-INF/maven/com.github.hypfvieh/dbus-java-utils/
+│ --rw----     2.0 fat       62 bl defN 25-Mar-14 09:11 dbus-java.version
+│ +-rw----     2.0 fat       66 bl defN 25-Mar-14 09:11 dbus-java.version
+│  -rw----     2.0 fat     4855 bl defN 25-Mar-14 09:11 org/freedesktop/dbus/utils/bin/Caller.class
+│  -rw----     2.0 fat     2613 bl defN 25-Mar-14 09:11 org/freedesktop/dbus/utils/bin/IdentifierMangler.class
+│ @@ -43,8 +43,8 @@
+│  -rw----     2.0 fat       69 bl defN 25-Mar-14 09:11 META-INF/maven/com.github.hypfvieh/dbus-java-utils/pom.properties
+│  -rw----     2.0 fat      460 bl defN 25-Mar-14 09:11 module-info.class
+│ -48 files, 155287 bytes uncompressed, 69992 bytes compressed:  54.9%
+│ +48 files, 155291 bytes uncompressed, 69995 bytes compressed:  54.9%
+├── dbus-java.version
+│ @@ -1,4 +1,4 @@
+│  version=5.1.1
+│  revision=d6b59ff
+│ -user=David M
+│ -jdk=21.0.5+11-LTS
+│ +user=
+│ +jdk=21.0.6+7-Ubuntu-122.04.1
+
