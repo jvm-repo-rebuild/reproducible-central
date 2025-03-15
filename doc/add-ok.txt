@@ -1,4 +1,7 @@
-content/com/github/hypfvieh/dbus-java/dbus-java-core-5.1.0.buildspec:5.1.1
+content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.9.2.0.buildspec:4.9.3.0
+content/io/avaje/jsonb/avaje-jsonb-3.1-RC3.buildspec:3.1
+content/io/avaje/prisms/avaje-prisms-1.39.buildspec:1.40
+content/io/avaje/validator/avaje-validator-2.8.buildspec:2.9
+content/nl/basjes/codeowners/codeowners-parent/codeowners-parent-1.11.2.buildspec:1.11.3
 content/org/apache/syncope/syncope-4.0.0-M0.buildspec:4.0.0-M1
-content/org/junit/junit5/junit5-5.12.0.buildspec:5.12.1
-content/world/convex/convex-0.8.0.buildspec:0.8.1
+content/org/simplify4u/pgp-keys-map/pgp-keys-map-2024.11.03.buildspec:2025.03.15
