@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=MetricsHub Connector Maven Plugin
+group-id=org.sentrysoftware.maven
+artifact-id=metricshub-connector-maven-plugin
+version=1.0.01
+
+# source information
+source.scm.uri=scm:git:https://github.com/sentrysoftware/metricshub-connector-maven-plugin.git
+source.scm.tag=v1.0.01
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.13
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.sentrysoftware.maven
+outputs.0.filename=metricshub-connector-maven-plugin-1.0.01.pom
+outputs.0.length=15579
+outputs.0.checksums.sha512=08b8ad7ad3f2998e6c0495b8082739b78aaf4e9c9c4a0332c5fff80c13445b82f9d8d555ee685fd11fc75ae8ae3002dadda468861bdf12ffb3d3e967491f2388
+
+outputs.1.groupId=org.sentrysoftware.maven
+outputs.1.filename=metricshub-connector-maven-plugin-1.0.01.jar
+outputs.1.length=115614
+outputs.1.checksums.sha512=37f3db56cfb7dcad83d0a66904a5542a7cac6ee0150e5740c7a254421e072629d4e043700ec043b89203553da9ef34217cbfb259c059be59a39c97ab2e885ed7
+
+outputs.2.groupId=org.sentrysoftware.maven
+outputs.2.filename=metricshub-connector-maven-plugin-1.0.01-sources.jar
+outputs.2.length=83061
+outputs.2.checksums.sha512=49bdc0bd7d9ccba67deac717fe66f76304c2bc7e7b2a77a7afdb098a89634c295e8772f55575d1524406e392a78c47e8bccf3115d0d76fe582b570d28d4b8cc7

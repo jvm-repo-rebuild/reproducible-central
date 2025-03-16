@@ -1,0 +1,9 @@
+version=1.0.01
+ok=3
+ko=0
+ignored=0
+okFiles="metricshub-connector-maven-plugin-1.0.01.pom metricshub-connector-maven-plugin-1.0.01.jar metricshub-connector-maven-plugin-1.0.01-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
