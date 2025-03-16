@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=MetricsHub Community Connectors
+group-id=org.sentrysoftware
+artifact-id=metricshub-community-connectors
+version=1.0.04
+
+# source information
+source.scm.uri=scm:git:https://github.com/sentrysoftware/metricshub-community-connectors.git
+source.scm.tag=v1.0.04
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.14
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.sentrysoftware
+outputs.0.filename=metricshub-community-connectors-1.0.04.pom
+outputs.0.length=3628
+outputs.0.checksums.sha512=d1bf4bf9a5959c302206b692006c7dd3ad9a816cf685dffa3b2029c1ed87bfc44949f3d1aba45c83d57dc6cad36f9c38b3cbf05e073ea23a19a97ebd36a79639
+
+outputs.1.groupId=org.sentrysoftware
+outputs.1.filename=metricshub-community-connectors-1.0.04.jar
+outputs.1.length=2496
+outputs.1.checksums.sha512=ea60200c7526cc9122be854708b8786c23bb74396ea305af58432ce2976006fbde940fc68ac4d01a6cd975dc340ddba06c1fa3cefb5076d3cd83f872fb90a815
+
+outputs.2.groupId=org.sentrysoftware
+outputs.2.filename=metricshub-community-connectors-1.0.04-sources.jar
+outputs.2.length=75885
+outputs.2.checksums.sha512=339674c6826a58aa154d3196978d0cfc8d1452760d10b1cab9ef2a57581d9b9b24ad7ad65d91885f99462486a5f4e3d7d68768e9ed12448e7df536045fe13eb3
