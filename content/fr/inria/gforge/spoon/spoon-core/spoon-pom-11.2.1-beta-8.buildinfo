@@ -1,0 +1,93 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Spoon POM
+group-id=fr.inria.gforge.spoon
+artifact-id=spoon-pom
+version=11.2.1-beta-8
+
+# source information
+source.scm.uri=scm:git:https://github.com/INRIA/spoon.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.6
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.aggregate.artifact-id=spoon-javadoc
+
+# aggregated output
+
+outputs.0.coordinates=fr.inria.gforge.spoon:spoon-pom
+
+outputs.0.0.groupId=fr.inria.gforge.spoon
+outputs.0.0.filename=spoon-pom-11.2.1-beta-8.pom
+outputs.0.0.length=24321
+outputs.0.0.checksums.sha512=0e321ac501fa64cb62ddcd8b78c67870108703eb51690c77fb7d553d8527af0e0ab6bacb4bde021613d15ffe64a8176c42ce8f9b86797e9e3407e178f3fed307
+# ignored spoon-pom-11.2.1-beta-8-cyclonedx.xml
+# ignored spoon-pom-11.2.1-beta-8-cyclonedx.json
+
+outputs.1.coordinates=fr.inria.gforge.spoon:spoon-core
+
+outputs.1.0.groupId=fr.inria.gforge.spoon
+outputs.1.0.filename=spoon-core-11.2.1-beta-8.pom
+outputs.1.0.length=9536
+outputs.1.0.checksums.sha512=14def431ba80804988e88a9a33179c41e4da7af976f7319a92fa29d69f10fc10782603e9b4b3a7158136f20d41ac365e4668b03fdd5506a5fca980f98da8f6ae
+
+outputs.1.1.groupId=fr.inria.gforge.spoon
+outputs.1.1.filename=spoon-core-11.2.1-beta-8.jar
+outputs.1.1.length=1955418
+outputs.1.1.checksums.sha512=3519912cec92c849922a14a80c5ac2b757f7ae7bb1d5133e9fa494431fa252148ead806cf230dc97f374ffc4b2dceb11b023c1bed72fcd53cf2d7888dca0ff30
+
+outputs.1.2.groupId=fr.inria.gforge.spoon
+outputs.1.2.filename=spoon-core-11.2.1-beta-8-jar-with-dependencies.jar
+outputs.1.2.length=15012079
+outputs.1.2.checksums.sha512=87710625b8a8b64e24524d15f280cf9b550872f0dd0a1125a53289fffbcfa7811fdb0edda506df46f8f3871ad696e572c500efbad12513ae60c3f59c647af14e
+
+outputs.1.3.groupId=fr.inria.gforge.spoon
+outputs.1.3.filename=spoon-core-11.2.1-beta-8-sources.jar
+outputs.1.3.length=1080032
+outputs.1.3.checksums.sha512=590aaf77e5419a3da9e6d9b768cd93d281259a24dbcb1ad15b5c6bb6034bd176d8f9bd5fc45045cca192959afa1745e064c8ae625b2e729809cf0c115877d511
+
+outputs.1.4.groupId=fr.inria.gforge.spoon
+outputs.1.4.filename=spoon-core-11.2.1-beta-8-cyclonedx.xml
+outputs.1.4.length=44805
+outputs.1.4.checksums.sha512=f87c6f4cbed60a686e62eb8f876d126495b1ee027b661aa54409982cea045510637251b1848d423b1d147c5ed96d33cfe0e21da4e1d63374e1c1eb0c27a5b0b0
+
+outputs.1.5.groupId=fr.inria.gforge.spoon
+outputs.1.5.filename=spoon-core-11.2.1-beta-8-cyclonedx.json
+outputs.1.5.length=49680
+outputs.1.5.checksums.sha512=5f19d3dbfa6fec2abb506af9e216da2bd7e4883467b98ac5566146eb4c621019c61850a5ae694dfc3d9bffba14beb01cb42b1ba457c60420b029214820b88821
+
+outputs.2.coordinates=fr.inria.gforge.spoon:spoon-javadoc
+
+outputs.2.0.groupId=fr.inria.gforge.spoon
+outputs.2.0.filename=spoon-javadoc-11.2.1-beta-8.pom
+outputs.2.0.length=3016
+outputs.2.0.checksums.sha512=0f44c5782676e58421752957e9c9173556861c13c77adde3c151905759d69f86b318b9f5d9383116b4c92b6c77448cec63386435d5b321f320fab6ebd064b459
+
+outputs.2.1.groupId=fr.inria.gforge.spoon
+outputs.2.1.filename=spoon-javadoc-11.2.1-beta-8.jar
+outputs.2.1.length=60792
+outputs.2.1.checksums.sha512=80b32e0c2a41a897eac4a17d0c20b777a06ccc5a4929e396db4e7ab22652c59679511ed9bdaaf33bec0f2a26e5ed222cce3e0758ff863a18ec4e94a3dd8ddbe5
+
+outputs.2.2.groupId=fr.inria.gforge.spoon
+outputs.2.2.filename=spoon-javadoc-11.2.1-beta-8-sources.jar
+outputs.2.2.length=30902
+outputs.2.2.checksums.sha512=5cabc0f8249105b4be3824c77bd45769fec3f9bae14b5da003f329ae388c3ceed74e58cfd9bab0da4554588048406d758afc3ec5820792e01371d660845a35a2
+
+outputs.2.3.groupId=fr.inria.gforge.spoon
+outputs.2.3.filename=spoon-javadoc-11.2.1-beta-8-cyclonedx.xml
+outputs.2.3.length=47306
+outputs.2.3.checksums.sha512=ee58d7d067ada2a94a489acef83ff43eb97009c5bde7333939372b2cf9ca66ad1719adc302d93bdd3d1229b5af4bf535aaacc393da8487c804920419337ce42e
+
+outputs.2.4.groupId=fr.inria.gforge.spoon
+outputs.2.4.filename=spoon-javadoc-11.2.1-beta-8-cyclonedx.json
+outputs.2.4.length=52471
+outputs.2.4.checksums.sha512=5cd14d28c4302a4732ce29867459c7fc662bfccf9fd9b66f115e6aba549116196741359506cd22b0a93151da98131ff61587a1d06a0cc055ac55262bdfcf710a
