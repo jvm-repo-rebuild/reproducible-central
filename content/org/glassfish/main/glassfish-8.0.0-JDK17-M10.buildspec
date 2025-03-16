@@ -1,0 +1,22 @@
+groupId=org.glassfish.main
+artifactId=glassfish-parent
+version=8.0.0-JDK17-M10
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/eclipse-ee4j/glassfish.git
+gitTag=${version}
+
+tool=mvn-3.9.8
+jdk=17
+newline=lf
+umask=022
+
+# mvn run twice as currently configured in release Jenkins job https://ci.eclipse.org/glassfish/view/GlassFish/job/glassfish_1-build-and-stage/
+command="mvn package -Poss-release,fastest,staging -DskipTests -Dmaven.javadoc.skip -Djavadoc.skip -Dgpg.skip"
+execBefore="find . -type d -name target -exec \rm -rf {} \; ; find . -type d -exec chmod g+s {} \;"
+
+buildinfo=target/glassfish-main-aggregator-${version}.buildinfo
+
+diffoscope=glassfish-main-aggregator-${version}.diffoscope
+issue=
