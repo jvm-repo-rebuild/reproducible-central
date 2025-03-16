@@ -91,7 +91,7 @@ public class update_artifact_badge_data extends SimpleFileVisitor<Path> {
     }
 
     private void updateProject(Path path, Metadata metadata) throws IOException {
-        System.out.print(++projectsCount + " " + path);
+        System.out.print("    - " + ++projectsCount + "  " + path);
 
         List<String> filenames;
         try (Stream<Path> walk = Files.walk(path, 1)) {
@@ -230,7 +230,7 @@ public class update_artifact_badge_data extends SimpleFileVisitor<Path> {
                 w.newLine();
             }
         }
-        System.out.println(" " + versions.size() + " versions, " + projectGa.size() + " ga, " + projectGav + " gav");
+        System.out.println("  = " + versions.size() + " versions, " + projectGa.size() + " ga, " + projectGav + " gav");
     }
 
     private String findFile(List<String> filenames, String endsWith) {
@@ -238,6 +238,7 @@ public class update_artifact_badge_data extends SimpleFileVisitor<Path> {
     }
 
     private void checkOutputTimestamps() throws IOException {
+        System.out.println("Missed rebuilds on last 100 from https://raw.githubusercontent.com/hboutemy/mcmm-logs/refs/heads/master/outputTimestamp.txt");
         Path outputTimestamps = Path.of("outputTimestamp.txt");
         if (!Files.exists(outputTimestamps)) {
             System.out.println("Missing outputTimestamp.txt to check missed rebuilds.");
@@ -273,11 +274,11 @@ public class update_artifact_badge_data extends SimpleFileVisitor<Path> {
                 .collect(Collectors.toList());
             if (versions.equals(lastVersions)) {
                 int index = e.getKey().lastIndexOf('/');
-                System.out.printf("%-" + index + "s%s%n", "", e.getKey().substring(e.getKey().lastIndexOf('/')));
+                System.out.printf("    %-" + index + "s%s%n", "", e.getKey().substring(e.getKey().lastIndexOf('/')));
                 continue;
             }
             lastVersions = versions;
-            System.out.print(e.getKey());
+            System.out.print("  - " + e.getKey());
             System.out.print(e.getValue().get(0).substring(i - 1));
             versions.stream().forEach(System.out::print);
             System.out.println();
@@ -291,7 +292,6 @@ public class update_artifact_badge_data extends SimpleFileVisitor<Path> {
         "com/aoindustries/",
         "com/flowlogix/checkstyle",
         "com/flowlogix/infra-pom",
-        "com/google/guava",
         "com/semanticcms/",
         "com/taobao/arthas/",
         "com/vegardit/maven/vegardit-maven-parent",
