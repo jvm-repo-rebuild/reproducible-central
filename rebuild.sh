@@ -115,7 +115,13 @@ case ${tool} in
 esac
 
 echo
-displayResult
+
+pomFile=$(echo "$command" | sed -nE 's/.*-f ([^ ]+).*/\1/p')
+if [ -n "$pomFile" ]; then
+  displayResult "$(dirname "$pomFile")"
+else
+  displayResult ""
+fi
 
 displayOptional  "os"
 displayOptional  "arch"
