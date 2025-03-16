@@ -1,0 +1,19 @@
+groupId=com.adobe.acs
+artifactId=acs-aem-commons
+version=6.11.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/Adobe-Consulting-Services/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=17
+newline=lf
+umask=022
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
