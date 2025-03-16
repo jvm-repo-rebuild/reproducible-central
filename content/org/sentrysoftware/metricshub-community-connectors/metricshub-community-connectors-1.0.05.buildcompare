@@ -1,0 +1,9 @@
+version=1.0.05
+ok=3
+ko=0
+ignored=1
+okFiles="metricshub-community-connectors-1.0.05.pom metricshub-community-connectors-1.0.05.jar metricshub-community-connectors-1.0.05-sources.jar"
+koFiles=""
+ignoredFiles="metricshub-community-connectors-1.0.05-site.jar"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
