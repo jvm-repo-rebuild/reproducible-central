@@ -169,7 +169,7 @@ Source code: [https://gitbox.apache.org/repos/asf/syncope.git](https://gitbox.ap
 * [org.apache.syncope:syncope-wa](https://central.sonatype.com/artifact/org.apache.syncope/syncope-wa/overview)
 </details>
 
-rebuilding **16 releases** of org.apache.syncope:syncope:
+rebuilding **17 releases** of org.apache.syncope:syncope:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 

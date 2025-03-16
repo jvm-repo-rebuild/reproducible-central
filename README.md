@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **6609 releases** of **831 projects**:
-   - **4767** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 1842 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 831 projects, 719 have at least one fully reproducible release, 112 have none
+   rebuilding **6639 releases** of **834 projects**:
+   - **4790** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 1849 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 834 projects, 722 have at least one fully reproducible release, 112 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -31,7 +31,7 @@ Its objectives are to provide:
 | ch.qos.logback.db | [logback-db](content/ch/qos/logback/db/README.md) | 2 | 2 :warning: |
 | ch.vorburger.mariaDB4j | [mariaDB4j](content/ch/vorburger/mariaDB4j/README.md) | 1 | 1 :white_check_mark: |
 | com.flowlogix | [flowlogix](content/com/flowlogix/README.md) | 22 | 17 :white_check_mark: / 5 :warning: |
-| com.adobe.acs | [acs-aem-commons](content/com/adobe/acs/aem-commons/README.md) | 6 | 6 :warning: |
+| com.adobe.acs | [acs-aem-commons](content/com/adobe/acs/aem-commons/README.md) | 7 | 7 :warning: |
 | com.cognite.units | [units-catalog](content/com/cognite/units/units-catalog/README.md) | 22 | 14 :white_check_mark: / 8 :warning: |
 | com.corgibytes | [mrm](content/com/corgibytes/mrm/README.md) | 1 | 1 :white_check_mark: |
 | | [versions-maven-plugin](content/com/corgibytes/versions-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
@@ -88,7 +88,7 @@ Its objectives are to provide:
 | com.github.package-url | [packageurl-java](content/com/github/package-url/packageurl-java/README.md) | 5 | 5 :white_check_mark: |
 | com.github.philippheuer.* | [credentialmanager](content/com/github/philippheuer/credentialmanager/README.md) | 1 | 1 :white_check_mark: |
 | com.github.sitture | [env-config](content/com/github/sitture/env-config/README.md) | 8 | 5 :white_check_mark: / 3 :warning: |
-| com.github.spotbugs | [spotbugs-maven-plugin](content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 30 | 30 :white_check_mark: |
+| com.github.spotbugs | [spotbugs-maven-plugin](content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 31 | 31 :white_check_mark: |
 | com.github.veithen.* | [alta](content/com/github/veithen/alta/README.md) | 3 | 3 :white_check_mark: |
 | | [checkt](content/com/github/veithen/checkt/README.md) | 1 | 1 :white_check_mark: |
 | | [cosmos](content/com/github/veithen/cosmos/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
@@ -262,18 +262,18 @@ Its objectives are to provide:
 | fr.vidal.oss | [atom-jaxb](content/fr/vidal/oss/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
 | io.jooby | [jooby](content/io/jooby/README.md) | 31 | 31 :warning: |
 | io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 67 | 66 :white_check_mark: / 1 :warning: |
-| io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 68 | 68 :warning: |
+| io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 69 | 69 :warning: |
 | io.trino | [trino-root](content/io/trino/README.md) | 27 | 22 :white_check_mark: / 5 :warning: |
 | io.airlift | [airbase](content/io/airlift/airbase/README.md) | 77 | 73 :white_check_mark: / 4 :warning: |
 | io.avaje | [avaje-http](content/io/avaje/http/README.md) | 13 | 13 :white_check_mark: |
 | | [avaje-inject](content/io/avaje/inject/README.md) | 17 | 14 :white_check_mark: / 3 :warning: |
 | | [avaje-jex](content/io/avaje/jex/README.md) | 22 | 19 :white_check_mark: / 3 :warning: |
-| | [avaje-jsonb](content/io/avaje/jsonb/README.md) | 12 | 12 :white_check_mark: |
+| | [avaje-jsonb](content/io/avaje/jsonb/README.md) | 13 | 13 :white_check_mark: |
 | | [avaje-logback-encoder](content/io/avaje/logback-encoder/README.md) | 11 | 11 :white_check_mark: |
-| | [avaje-prisms](content/io/avaje/prisms/README.md) | 6 | 6 :white_check_mark: |
+| | [avaje-prisms](content/io/avaje/prisms/README.md) | 7 | 7 :white_check_mark: |
 | | [avaje-sigma](content/io/avaje/sigma/README.md) | 3 | 3 :white_check_mark: |
 | | [avaje-spi](content/io/avaje/spi/README.md) | 3 | 3 :white_check_mark: |
-| | [avaje-validator](content/io/avaje/validator/README.md) | 6 | 6 :white_check_mark: |
+| | [avaje-validator](content/io/avaje/validator/README.md) | 7 | 7 :white_check_mark: |
 | io.cucumber | [ci-environment](content/io/cucumber/ci-environment/README.md) | 3 | 3 :white_check_mark: |
 | | [cucumber-expressions](content/io/cucumber/cucumber-expressions/README.md) | 9 | 9 :white_check_mark: |
 | | [cucumber-jvm](content/io/cucumber/cucumber-jvm/README.md) | 21 | 21 :white_check_mark: |
@@ -311,7 +311,7 @@ Its objectives are to provide:
 | io.jstach.pistachio | [pistachio](content/io/jstach/pistachio/pistachio-maven-parent/README.md) | 1 | 1 :white_check_mark: |
 | io.micronaut.build | [micronaut-maven-plugin](content/io/micronaut/build/micronaut-maven-plugin/README.md) | 35 | 35 :white_check_mark: |
 | io.micronaut.maven | [micronaut-maven-plugin](content/io/micronaut/maven/micronaut-maven-plugin/README.md) | 34 | 34 :white_check_mark: |
-| io.opentelemetry.instrumentation | [opentelemetry-instrumentation](content/io/opentelemetry/instrumentation/README.md) | 39 | 18 :white_check_mark: / 21 :warning: |
+| io.opentelemetry.instrumentation | [opentelemetry-instrumentation](content/io/opentelemetry/instrumentation/README.md) | 40 | 18 :white_check_mark: / 22 :warning: |
 | io.opentelemetry | [opentelemetry-sdk](content/io/opentelemetry/java/README.md) | 15 | 12 :white_check_mark: / 3 :warning: |
 | io.repaint.maven | [tiles-maven-plugin](content/io/repaint/maven/tiles-maven-plugin/README.md) | 4 | 4 :white_check_mark: |
 | io.smallrye | [jandex](content/io/smallrye/jandex/README.md) | 18 | 18 :warning: |
@@ -353,7 +353,7 @@ Its objectives are to provide:
 | net.nicoulaj.maven.plugins | [checksum-maven-plugin](content/net/nicoulaj/maven/plugins/checksum-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | net.osslabz | [bitcoin-commons](content/net/osslabz/bitcoin-commons/README.md) | 2 | 2 :warning: |
 | | [coingecko-java](content/net/osslabz/coingecko-java/README.md) | 1 | 1 :warning: |
-| | [crypto-commons](content/net/osslabz/crypto-commons/README.md) | 6 | 4 :white_check_mark: / 2 :warning: |
+| | [crypto-commons](content/net/osslabz/crypto-commons/README.md) | 7 | 4 :white_check_mark: / 3 :warning: |
 | | [evm-abi-decoder](content/net/osslabz/evm-abi-decode/README.md) | 1 | 1 :warning: |
 | | [mexc-client](content/net/osslabz/mexc-client/README.md) | 1 | 1 :white_check_mark: |
 | net.revelc.code | [impsort-maven-plugin](content/net/revelc/code/impsort-maven-plugin/README.md) | 6 | 6 :white_check_mark: |
@@ -364,7 +364,7 @@ Its objectives are to provide:
 | | [pmd-build-tools-config](content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | 12 | 12 :white_check_mark: |
 | | [pmd-designer](content/net/sourceforge/pmd/pmd-designer/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | nl.basjes.energy | [energy-parent](content/nl/basjes/energy/README.md) | 2 | 2 :white_check_mark: |
-| nl.basjes.codeowners | [codeowners-parent](content/nl/basjes/codeowners/codeowners-parent/README.md) | 24 | 24 :white_check_mark: |
+| nl.basjes.codeowners | [codeowners-parent](content/nl/basjes/codeowners/codeowners-parent/README.md) | 25 | 25 :white_check_mark: |
 | nl.basjes.maven.release | [conventional-commits-v*-p*](content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 7 | 7 :white_check_mark: |
 | nl.basjes.parse.httpdlog | [httpdlog-parser](content/nl/basjes/parse/httpdlog/httpdlog-parser/README.md) | 3 | 3 :white_check_mark: |
 | nl.basjes.parse.useragent | [yauaa](content/nl/basjes/parse/useragent/yauaa/README.md) | 21 | 17 :white_check_mark: / 4 :warning: |
@@ -407,7 +407,7 @@ Its objectives are to provide:
 | org.apache.sshd | [sshd](content/org/apache/sshd/README.md) | 16 | 16 :warning: |
 | org.apache.struts | [struts2](content/org/apache/struts/README.md) | 29 | 10 :white_check_mark: / 19 :warning: |
 | org.apache.synapse | [Apache-Synapse](content/org/apache/synapse/README.md) | 1 | 1 :warning: |
-| org.apache.syncope | [syncope](content/org/apache/syncope/README.md) | 16 | 5 :white_check_mark: / 11 :warning: |
+| org.apache.syncope | [syncope](content/org/apache/syncope/README.md) | 17 | 5 :white_check_mark: / 12 :warning: |
 | org.apache.systemds | [systemds](content/org/apache/systemds/README.md) | 2 | 2 :warning: |
 | org.apache.tika | [tika](content/org/apache/tika/README.md) | 18 | 18 :warning: |
 | org.apache.wayang | [wayang](content/org/apache/wayang/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
@@ -551,7 +551,7 @@ Its objectives are to provide:
 | org.apache.maven.skins | [maven-fluido-skin](content/org/apache/maven/skins/fluido/README.md) | 18 | 15 :white_check_mark: / 3 :warning: |
 | org.apache.maven.wagon | [wagon](content/org/apache/maven/wagon/wagon/README.md) | 8 | 8 :white_check_mark: |
 | org.apache.ftpserver | [ftpserver-parent](content/org/apache/mina/ftpserver/README.md) | 4 | 4 :warning: |
-| org.apache.nifi | [nifi](content/org/apache/nifi/nifi/README.md) | 27 | 27 :warning: |
+| org.apache.nifi | [nifi](content/org/apache/nifi/nifi/README.md) | 28 | 28 :warning: |
 | | [nifi-nar-maven-plugin](content/org/apache/nifi/nifi-nar-maven-plugin/README.md) | 7 | 7 :white_check_mark: |
 | org.apache.paimon | [paimon-shade](content/org/apache/paimon/shade/README.md) | 2 | 2 :warning: |
 | org.apache.plc4x | [plc4x](content/org/apache/plc4x/plc4x/README.md) | 4 | 4 :warning: |
@@ -595,7 +595,7 @@ Its objectives are to provide:
 | | [*.discovery.commons](content/org/apache/sling/org.apache.sling.discovery.commons/README.md) | 1 | 1 :warning: |
 | | [*.discovery.support](content/org/apache/sling/org.apache.sling.discovery.support/README.md) | 1 | 1 :white_check_mark: |
 | | [*.distribution.api](content/org/apache/sling/org.apache.sling.distribution.api/README.md) | 1 | 1 :white_check_mark: |
-| | [*.distribution.core](content/org/apache/sling/org.apache.sling.distribution.core/README.md) | 1 | 1 :warning: |
+| | [*.distribution.core](content/org/apache/sling/org.apache.sling.distribution.core/README.md) | 2 | 2 :warning: |
 | | [*.distribution.journal](content/org/apache/sling/org.apache.sling.distribution.journal/README.md) | 6 | 6 :white_check_mark: |
 | | [*.distribution.journal.kafka](content/org/apache/sling/org.apache.sling.distribution.journal.kafka/README.md) | 1 | 1 :white_check_mark: |
 | | [*.distribution.journal.messages](content/org/apache/sling/org.apache.sling.distribution.journal.messages/README.md) | 4 | 4 :white_check_mark: |
@@ -814,6 +814,7 @@ Its objectives are to provide:
 | | [ipmi](content/org/sentrysoftware/ipmi/README.md) | 4 | 4 :white_check_mark: |
 | | [jawk](content/org/sentrysoftware/jawk/README.md) | 11 | 10 :white_check_mark: / 1 :warning: |
 | | [jflat](content/org/sentrysoftware/jflat/README.md) | 2 | 2 :white_check_mark: |
+| | [metricshub-community-connectors](content/org/sentrysoftware/metricshub-community-connectors/README.md) | 5 | 5 :white_check_mark: |
 | | [printf4j](content/org/sentrysoftware/printf4j/README.md) | 3 | 3 :white_check_mark: |
 | | [snmp](content/org/sentrysoftware/snmp/README.md) | 3 | 3 :white_check_mark: |
 | | [ssh](content/org/sentrysoftware/ssh/README.md) | 3 | 3 :white_check_mark: |
@@ -824,8 +825,9 @@ Its objectives are to provide:
 | | [wmi](content/org/sentrysoftware/wmi/README.md) | 3 | 3 :white_check_mark: |
 | | [xflat](content/org/sentrysoftware/xflat/README.md) | 2 | 2 :white_check_mark: |
 | org.sentrysoftware.maven | [maven-skin-tools](content/org/sentrysoftware/maven/maven-skin-tools/README.md) | 4 | 4 :white_check_mark: |
+| | [metricshub-connector-maven-plugin](content/org/sentrysoftware/maven/metricshub-connector-maven-plugin/README.md) | 9 | 9 :white_check_mark: |
 | | [sentry-maven-skin](content/org/sentrysoftware/maven/sentry-maven-skin/README.md) | 9 | 9 :white_check_mark: |
-| org.simplify4u | [pgp-keys-map](content/org/simplify4u/pgp-keys-map/README.md) | 22 | 22 :white_check_mark: |
+| org.simplify4u | [pgp-keys-map](content/org/simplify4u/pgp-keys-map/README.md) | 23 | 23 :white_check_mark: |
 | | [slf4j-mock](content/org/simplify4u/slf4j-mock/README.md) | 5 | 5 :white_check_mark: |
 | org.simplify4u.plugins | [pgpverify-maven-plugin](content/org/simplify4u/plugins/pgpverify-maven-plugin/README.md) | 13 | 13 :white_check_mark: |
 | | [sign-maven-plugin](content/org/simplify4u/plugins/sign-maven-plugin/README.md) | 8 | 6 :white_check_mark: / 2 :warning: |
@@ -839,6 +841,7 @@ Its objectives are to provide:
 | | [flexmonster](content/org/webjars/flexmonster/README.md) | 78 | 74 :white_check_mark: / 4 :warning: |
 | | [font-awesome](content/org/webjars/font-awesome/README.md) | 10 | 10 :white_check_mark: |
 | | [highcharts](content/org/webjars/highcharts/README.md) | 4 | 4 :white_check_mark: |
+| | [jquery-ui](content/org/webjars/jquery-ui/README.md) | 3 | 3 :white_check_mark: |
 | | [jszip](content/org/webjars/jszip/README.md) | 1 | 1 :white_check_mark: |
 | | [openlayers](content/org/webjars/openlayers/README.md) | 1 | 1 :white_check_mark: |
 | | [redoc](content/org/webjars/redoc/README.md) | 4 | 4 :white_check_mark: |
@@ -854,7 +857,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 6 | 6 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 21 | 3 :white_check_mark: / 18 :warning: |
-| **Count:** | **831** | **6609** | **4767** :white_check_mark:<br>**1842** :warning: |
+| **Count:** | **834** | **6639** | **4790** :white_check_mark:<br>**1849** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -866,10 +869,10 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
 ```
      33 gradle     11
-    100 gradle     17
+    101 gradle     17
      65 gradle     21
      35 mvn         7
-   1511 mvn         8
+   1513 mvn         8
       1 mvn         9
    1454 mvn        11
       2 mvn        11.0.19
@@ -879,7 +882,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn        14
      10 mvn        15
      14 mvn        16
-    541 mvn        17
+    556 mvn        17
       1 mvn        17.0.10
       2 mvn        17.0.11
       1 mvn        17.0.12
@@ -890,7 +893,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn        18
      34 mvn        19
      17 mvn        20
-    458 mvn        21
+    464 mvn        21
      15 mvn        22
       7 mvn        23
       2 mvn-3.5.4   8
@@ -962,7 +965,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      25 mvn-3.9.5  17
       2 mvn-3.9.5  17.0.7
       1 mvn-3.9.5  17.0.9
-     47 mvn-3.9.5  21
+     49 mvn-3.9.5  21
      11 mvn-3.9.5  22
     100 mvn-3.9.6   8
      30 mvn-3.9.6  11
@@ -977,7 +980,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      15 mvn-3.9.8   8
       4 mvn-3.9.8  11
       5 mvn-3.9.8  16
-    179 mvn-3.9.8  17
+    180 mvn-3.9.8  17
       1 mvn-3.9.8  17.0.12
      50 mvn-3.9.8  21
      46 mvn-3.9.8  22
@@ -986,7 +989,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      46 mvn-3.9.9  11
      86 mvn-3.9.9  17
       2 mvn-3.9.9  18
-    106 mvn-3.9.9  21
+    109 mvn-3.9.9  21
      12 mvn-3.9.9  22
       1 mvn-3.9.9  23
       2 mvn-4.0.0-alpha-12  21
