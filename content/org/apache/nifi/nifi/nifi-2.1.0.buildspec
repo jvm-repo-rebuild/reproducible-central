@@ -11,9 +11,10 @@ jdk=21
 newline=lf
 locale=en_US
 umask=002
+workdir=/home/exceptionfactory/releases/nifi-work/nifi
 
 command="mvn -Papache-release,include-grpc,include-ranger clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=

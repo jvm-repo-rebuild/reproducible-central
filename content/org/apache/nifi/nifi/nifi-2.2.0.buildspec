@@ -10,7 +10,10 @@ tool=mvn-3.9.9
 jdk=21
 newline=lf
 locale=en_US
-umask=002
+umask=022
+workdir=/home/exceptionfactory/releases/nifi-work/nifi
+os=osx
+arch=aarch64
 
 command="mvn -Papache-release,include-grpc,include-ranger clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo

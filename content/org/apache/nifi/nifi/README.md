@@ -926,10 +926,10 @@ rebuilding **28 releases** of org.apache.nifi:nifi:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.3.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.3.0/pom) | [mvn jdk21 osx aarm64](nifi-2.3.0.buildspec) | [result](nifi-2.3.0.buildinfo): [1618 :white_check_mark:  45 :warning:](nifi-2.3.0.buildcompare) | 1.6G |
-| [2.2.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.2.0/pom) | [mvn jdk21](nifi-2.2.0.buildspec) | [result](nifi-2.2.0.buildinfo): [1574 :white_check_mark:  82 :warning:](nifi-2.2.0.buildcompare) | 1.6G |
-| [2.1.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.1.0/pom) | [mvn jdk21](nifi-2.1.0.buildspec) | [result](nifi-2.1.0.buildinfo): [1540 :white_check_mark:  106 :warning:](nifi-2.1.0.buildcompare) | 1.6G |
-| [2.0.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0/pom) | [mvn jdk21](nifi-2.0.0.buildspec) | [result](nifi-2.0.0.buildinfo): [1565 :white_check_mark:  76 :warning:](nifi-2.0.0.buildcompare) [:mag:](nifi-2.0.0.diffoscope) | 1.6G |
+| [2.3.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.3.0/pom) | [mvn jdk21 osx aarm64](nifi-2.3.0.buildspec) | [result](nifi-2.3.0.buildinfo): [1618 :white_check_mark:  45 :warning:](nifi-2.3.0.buildcompare) [:memo:](https://github.com/apache/nifi/pull/9805) | 1.6G |
+| [2.2.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.2.0/pom) | [mvn jdk21 osx aarch64](nifi-2.2.0.buildspec) | [result](nifi-2.2.0.buildinfo): [1574 :white_check_mark:  82 :warning:](nifi-2.2.0.buildcompare) | 1.6G |
+| [2.1.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.1.0/pom) | [mvn jdk21](nifi-2.1.0.buildspec) | [result](nifi-2.1.0.buildinfo): [1573 :white_check_mark:  73 :warning:](nifi-2.1.0.buildcompare) [:mag:](nifi-2.1.0.diffoscope) | 1.6G |
+| [2.0.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0/pom) | [mvn jdk21](nifi-2.0.0.buildspec) | [result](nifi-2.0.0.buildinfo): [1565 :white_check_mark:  76 :warning:](nifi-2.0.0.buildcompare) [:mag:](nifi-2.0.0.diffoscope) [:memo:](https://github.com/apache/nifi/pull/9558) | 1.6G |
 | [2.0.0-M4](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0-M4/pom) | [mvn jdk21](nifi-2.0.0-M4.buildspec) | [result](nifi-2.0.0-M4.buildinfo): [1672 :white_check_mark:  73 :warning:](nifi-2.0.0-M4.buildcompare) | 2.0G |
 | [2.0.0-M3](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0-M3/pom) | [mvn jdk21](nifi-2.0.0-M3.buildspec) | [result](nifi-2.0.0-M3.buildinfo): [1570 :white_check_mark:  45 :warning:](nifi-2.0.0-M3.buildcompare) | 2.1G |
 | [2.0.0-M2](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0-M2/pom) | [mvn jdk21](nifi-2.0.0-M2.buildspec) | [result](nifi-2.0.0-M2.buildinfo): [1658 :white_check_mark:  58 :warning:](nifi-2.0.0-M2.buildcompare) | 3.2G |

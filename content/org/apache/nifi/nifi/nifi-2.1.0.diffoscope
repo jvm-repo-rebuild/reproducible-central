@@ -1,0 +1,463 @@
+1 / 73 target/reference/org.apache.nifi/nifi-nar-utils-2.1.0.jar nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/nifi-nar-utils-2.1.0.jar
+--- target/reference/org.apache.nifi/nifi-nar-utils-2.1.0.jar
++++ nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/nifi-nar-utils-2.1.0.jar
+├── zipinfo {}
+│ @@ -1,23 +1,23 @@
+│ -Zip file size: 51182 bytes, number of entries: 34
+│ +Zip file size: 51194 bytes, number of entries: 34
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-20 18:37 META-INF/
+│  -rw-r--r--  2.0 unx      302 b- defN 24-Dec-20 18:37 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-20 18:37 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-20 18:37 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-20 18:37 org/apache/nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-20 18:37 org/apache/nifi/nar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-20 18:37 org/apache/nifi/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-20 18:37 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-20 18:37 META-INF/maven/org.apache.nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-20 18:37 META-INF/maven/org.apache.nifi/nifi-nar-utils/
+│  -rw-r--r--  2.0 unx      264 b- defN 24-Dec-20 18:37 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 24-Dec-20 18:37 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      153 b- defN 24-Dec-20 18:37 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx      959 b- defN 24-Dec-20 18:37 META-INF/aop.xml
+│ --rw-r--r--  2.0 unx     6950 b- defN 24-Dec-20 18:37 builddef.lst
+│ +-rw-r--r--  2.0 unx     6518 b- defN 24-Dec-20 18:37 builddef.lst
+│  -rw-r--r--  2.0 unx     8214 b- defN 24-Dec-20 18:37 org/apache/nifi/nar/AbstractNativeLibHandlingClassLoader.class
+│  -rw-r--r--  2.0 unx     1799 b- defN 24-Dec-20 18:37 org/apache/nifi/nar/FileDigestUtils.class
+│ @@ -29,8 +29,8 @@
+│  -rw-r--r--  2.0 unx     4457 b- defN 24-Dec-20 18:37 META-INF/maven/org.apache.nifi/nifi-nar-utils/pom.xml
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Dec-20 18:37 META-INF/maven/org.apache.nifi/nifi-nar-utils/pom.properties
+│ -34 files, 110740 bytes uncompressed, 46388 bytes compressed:  58.1%
+│ +34 files, 110308 bytes uncompressed, 46400 bytes compressed:  57.9%
+├── builddef.lst
+│ @@ -5,13 +5,13 @@
+│  -showWeaveInfo
+│  -source
+│  7
+│  -target
+│  7
+│  -verbose
+│  -classpath
+│ -/home/exceptionfactory/releases/nifi-work/nifi/nifi-framework-api/target/nifi-framework-api-2.1.0.jar:/home/exceptionfactory/releases/nifi-work/nifi/nifi-server-api/target/nifi-server-api-2.1.0.jar:/home/exceptionfactory/.m2/repository/org/aspectj/aspectjrt/1.9.22.1/aspectjrt-1.9.22.1.jar:/home/exceptionfactory/.m2/repository/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/toolchain/jetty-schemas/5.2/jetty-schemas-5.2.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-server/12.0.16/jetty-server-12.0.16.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-http/12.0.16/jetty-http-12.0.16.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-io/12.0.16/jetty-io-12.0.16.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.0.16/jetty-ee10-servlet-12.0.16.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-security/12.0.16/jetty-security-12.0.16.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-session/12.0.16/jetty-session-12.0.16.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/ee10/jetty-ee10-webapp/12.0.16/jetty-ee10-webapp-12.0.16.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-ee/12.0.16/jetty-ee-12.0.16.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-xml/12.0.16/jetty-xml-12.0.16.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-deploy/12.0.16/jetty-deploy-12.0.16.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/ee10/jetty-ee10-servlets/12.0.16/jetty-ee10-servlets-12.0.16.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-util/12.0.16/jetty-util-12.0.16.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/ee10/jetty-ee10-annotations/12.0.16/jetty-ee10-annotations-12.0.16.jar:/home/exceptionfactory/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/ee10/jetty-ee10-plus/12.0.16/jetty-ee10-plus-12.0.16.jar:/home/exceptionfactory/.m2/repository/jakarta/enterprise/jakarta.enterprise.cdi-api/4.0.1/jakarta.enterprise.cdi-api-4.0.1.jar:/home/exceptionfactory/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/home/exceptionfactory/.m2/repository/jakarta/enterprise/jakarta.enterprise.lang-model/4.0.1/jakarta.enterprise.lang-model-4.0.1.jar:/home/exceptionfactory/.m2/repository/jakarta/interceptor/jakarta.interceptor-api/2.1.0/jakarta.interceptor-api-2.1.0.jar:/home/exceptionfactory/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-jndi/12.0.16/jetty-jndi-12.0.16.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-plus/12.0.16/jetty-plus-12.0.16.jar:/home/exceptionfactory/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar:/home/exceptionfactory/.m2/repository/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar:/home/exceptionfactory/.m2/repository/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/ee10/jetty-ee10-apache-jsp/12.0.16/jetty-ee10-apache-jsp-12.0.16.jar:/home/exceptionfactory/.m2/repository/org/mortbay/jasper/apache-jsp/10.1.31/apache-jsp-10.1.31.jar:/home/exceptionfactory/.m2/repository/org/mortbay/jasper/apache-el/10.1.31/apache-el-10.1.31.jar:/home/exceptionfactory/.m2/repository/jakarta/el/jakarta.el-api/5.0.1/jakarta.el-api-5.0.1.jar:/home/exceptionfactory/.m2/repository/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.1.1/jakarta.servlet.jsp-api-3.1.1.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jdt/ecj/3.38.0/ecj-3.38.0.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/ee10/jetty-ee10-glassfish-jstl/12.0.16/jetty-ee10-glassfish-jstl-12.0.16.jar:/home/exceptionfactory/.m2/repository/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.0/jakarta.servlet.jsp.jstl-api-3.0.0.jar:/home/exceptionfactory/.m2/repository/org/glassfish/web/jakarta.servlet.jsp.jstl/3.0.1/jakarta.servlet.jsp.jstl-3.0.1.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-alpn-server/12.0.16/jetty-alpn-server-12.0.16.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/jetty-alpn-java-server/12.0.16/jetty-alpn-java-server-12.0.16.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/http2/jetty-http2-server/12.0.16/jetty-http2-server-12.0.16.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/http2/jetty-http2-common/12.0.16/jetty-http2-common-12.0.16.jar:/home/exceptionfactory/.m2/repository/org/eclipse/jetty/http2/jetty-http2-hpack/12.0.16/jetty-http2-hpack-12.0.16.jar:/home/exceptionfactory/.m2/repository/org/apache/nifi/nifi-api/2.0.0/nifi-api-2.0.0.jar:/home/exceptionfactory/releases/nifi-work/nifi/nifi-commons/nifi-properties/target/nifi-properties-2.1.0.jar:/home/exceptionfactory/releases/nifi-work/nifi/nifi-commons/nifi-property-utils/target/nifi-property-utils-2.1.0.jar:/home/exceptionfactory/.m2/repository/org/slf4j/jcl-over-slf4j/2.0.16/jcl-over-slf4j-2.0.16.jar:/home/exceptionfactory/.m2/repository/org/slf4j/log4j-over-slf4j/2.0.16/log4j-over-slf4j-2.0.16.jar:/home/exceptionfactory/.m2/repository/org/slf4j/jul-to-slf4j/2.0.16/jul-to-slf4j-2.0.16.jar:/home/exceptionfactory/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/home/exceptionfactory/releases/nifi-work/nifi/nifi-mock/target/nifi-mock-2.1.0.jar:/home/exceptionfactory/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.4/junit-jupiter-api-5.11.4.jar:/home/exceptionfactory/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4.jar:/home/exceptionfactory/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.4/junit-jupiter-params-5.11.4.jar:/home/exceptionfactory/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar:/home/exceptionfactory/.m2/repository/org/mockito/mockito-junit-jupiter/5.14.2/mockito-junit-jupiter-5.14.2.jar:/home/exceptionfactory/.m2/repository/org/junit/platform/junit-platform-commons/1.11.4/junit-platform-commons-1.11.4.jar:/home/exceptionfactory/.m2/repository/org/slf4j/slf4j-simple/2.0.16/slf4j-simple-2.0.16.jar:/home/exceptionfactory/releases/nifi-work/nifi/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/classes
+│ +/home/exceptionfactory/releases/nifi-work/nifi/nifi-framework-api/target/nifi-framework-api-2.1.0.jar:/home/exceptionfactory/releases/nifi-work/nifi/nifi-server-api/target/nifi-server-api-2.1.0.jar:/var/maven/.m2/repository-002/org/aspectj/aspectjrt/1.9.22.1/aspectjrt-1.9.22.1.jar:/var/maven/.m2/repository-002/jakarta/servlet/jakarta.servlet-api/6.1.0/jakarta.servlet-api-6.1.0.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/toolchain/jetty-schemas/5.2/jetty-schemas-5.2.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-server/12.0.16/jetty-server-12.0.16.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-http/12.0.16/jetty-http-12.0.16.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-io/12.0.16/jetty-io-12.0.16.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/ee10/jetty-ee10-servlet/12.0.16/jetty-ee10-servlet-12.0.16.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-security/12.0.16/jetty-security-12.0.16.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-session/12.0.16/jetty-session-12.0.16.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/ee10/jetty-ee10-webapp/12.0.16/jetty-ee10-webapp-12.0.16.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-ee/12.0.16/jetty-ee-12.0.16.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-xml/12.0.16/jetty-xml-12.0.16.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-deploy/12.0.16/jetty-deploy-12.0.16.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/ee10/jetty-ee10-servlets/12.0.16/jetty-ee10-servlets-12.0.16.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-util/12.0.16/jetty-util-12.0.16.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/ee10/jetty-ee10-annotations/12.0.16/jetty-ee10-annotations-12.0.16.jar:/var/maven/.m2/repository-002/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/ee10/jetty-ee10-plus/12.0.16/jetty-ee10-plus-12.0.16.jar:/var/maven/.m2/repository-002/jakarta/enterprise/jakarta.enterprise.cdi-api/4.0.1/jakarta.enterprise.cdi-api-4.0.1.jar:/var/maven/.m2/repository-002/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/var/maven/.m2/repository-002/jakarta/enterprise/jakarta.enterprise.lang-model/4.0.1/jakarta.enterprise.lang-model-4.0.1.jar:/var/maven/.m2/repository-002/jakarta/interceptor/jakarta.interceptor-api/2.1.0/jakarta.interceptor-api-2.1.0.jar:/var/maven/.m2/repository-002/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-jndi/12.0.16/jetty-jndi-12.0.16.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-plus/12.0.16/jetty-plus-12.0.16.jar:/var/maven/.m2/repository-002/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar:/var/maven/.m2/repository-002/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar:/var/maven/.m2/repository-002/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/ee10/jetty-ee10-apache-jsp/12.0.16/jetty-ee10-apache-jsp-12.0.16.jar:/var/maven/.m2/repository-002/org/mortbay/jasper/apache-jsp/10.1.31/apache-jsp-10.1.31.jar:/var/maven/.m2/repository-002/org/mortbay/jasper/apache-el/10.1.31/apache-el-10.1.31.jar:/var/maven/.m2/repository-002/jakarta/el/jakarta.el-api/5.0.1/jakarta.el-api-5.0.1.jar:/var/maven/.m2/repository-002/jakarta/servlet/jsp/jakarta.servlet.jsp-api/3.1.1/jakarta.servlet.jsp-api-3.1.1.jar:/var/maven/.m2/repository-002/org/eclipse/jdt/ecj/3.38.0/ecj-3.38.0.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/ee10/jetty-ee10-glassfish-jstl/12.0.16/jetty-ee10-glassfish-jstl-12.0.16.jar:/var/maven/.m2/repository-002/jakarta/servlet/jsp/jstl/jakarta.servlet.jsp.jstl-api/3.0.0/jakarta.servlet.jsp.jstl-api-3.0.0.jar:/var/maven/.m2/repository-002/org/glassfish/web/jakarta.servlet.jsp.jstl/3.0.1/jakarta.servlet.jsp.jstl-3.0.1.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-alpn-server/12.0.16/jetty-alpn-server-12.0.16.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/jetty-alpn-java-server/12.0.16/jetty-alpn-java-server-12.0.16.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/http2/jetty-http2-server/12.0.16/jetty-http2-server-12.0.16.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/http2/jetty-http2-common/12.0.16/jetty-http2-common-12.0.16.jar:/var/maven/.m2/repository-002/org/eclipse/jetty/http2/jetty-http2-hpack/12.0.16/jetty-http2-hpack-12.0.16.jar:/var/maven/.m2/repository-002/org/apache/nifi/nifi-api/2.0.0/nifi-api-2.0.0.jar:/home/exceptionfactory/releases/nifi-work/nifi/nifi-commons/nifi-properties/target/nifi-properties-2.1.0.jar:/home/exceptionfactory/releases/nifi-work/nifi/nifi-commons/nifi-property-utils/target/nifi-property-utils-2.1.0.jar:/var/maven/.m2/repository-002/org/slf4j/jcl-over-slf4j/2.0.16/jcl-over-slf4j-2.0.16.jar:/var/maven/.m2/repository-002/org/slf4j/log4j-over-slf4j/2.0.16/log4j-over-slf4j-2.0.16.jar:/var/maven/.m2/repository-002/org/slf4j/jul-to-slf4j/2.0.16/jul-to-slf4j-2.0.16.jar:/var/maven/.m2/repository-002/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/home/exceptionfactory/releases/nifi-work/nifi/nifi-mock/target/nifi-mock-2.1.0.jar:/var/maven/.m2/repository-002/org/junit/jupiter/junit-jupiter-api/5.11.4/junit-jupiter-api-5.11.4.jar:/var/maven/.m2/repository-002/org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4.jar:/var/maven/.m2/repository-002/org/junit/jupiter/junit-jupiter-params/5.11.4/junit-jupiter-params-5.11.4.jar:/var/maven/.m2/repository-002/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar:/var/maven/.m2/repository-002/org/mockito/mockito-junit-jupiter/5.14.2/mockito-junit-jupiter-5.14.2.jar:/var/maven/.m2/repository-002/org/junit/platform/junit-platform-commons/1.11.4/junit-platform-commons-1.11.4.jar:/var/maven/.m2/repository-002/org/slf4j/slf4j-simple/2.0.16/slf4j-simple-2.0.16.jar:/home/exceptionfactory/releases/nifi-work/nifi/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/classes
+│  -d
+│  /home/exceptionfactory/releases/nifi-work/nifi/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/classes
+│  -s
+│  /home/exceptionfactory/releases/nifi-work/nifi/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/generated-sources/aspectj-maven-plugin
+│  /home/exceptionfactory/releases/nifi-work/nifi/nifi-framework-bundle/nifi-framework/nifi-nar-utils/src/main/java/org/apache/nifi/nar/LoadNativeLibAspect.java
+
+2 / 73 target/reference/org.apache.nifi.registry/nifi-registry-framework-2.1.0.jar nifi-registry/nifi-registry-core/nifi-registry-framework/target/nifi-registry-framework-2.1.0.jar
+--- target/reference/org.apache.nifi.registry/nifi-registry-framework-2.1.0.jar
++++ nifi-registry/nifi-registry-core/nifi-registry-framework/target/nifi-registry-framework-2.1.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 504779 bytes, number of entries: 347
+│ +Zip file size: 504786 bytes, number of entries: 347
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-20 18:37 META-INF/
+│  -rw-r--r--  2.0 unx      320 b- defN 24-Dec-20 18:37 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-20 18:37 META-INF/JAXB/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-20 18:37 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-20 18:37 db/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-20 18:37 db/migration/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-20 18:37 db/migration/default/
+│ @@ -342,8 +342,8 @@
+│  -rw-r--r--  2.0 unx     1127 b- defN 24-Dec-20 18:37 org/apache/nifi/registry/url/aliaser/generated/Alias.class
+│  -rw-r--r--  2.0 unx     1041 b- defN 24-Dec-20 18:37 org/apache/nifi/registry/url/aliaser/generated/Aliases.class
+│  -rw-r--r--  2.0 unx      852 b- defN 24-Dec-20 18:37 org/apache/nifi/registry/url/aliaser/generated/ObjectFactory.class
+│  -rw-r--r--  2.0 unx     2158 b- defN 24-Dec-20 18:37 providers.xsd
+│  -rw-r--r--  2.0 unx     3638 b- defN 24-Dec-20 18:37 tenants.xsd
+│  -rw-r--r--  2.0 unx    18177 b- defN 24-Dec-20 18:37 META-INF/maven/org.apache.nifi.registry/nifi-registry-framework/pom.xml
+│  -rw-r--r--  2.0 unx       82 b- defN 24-Dec-20 18:37 META-INF/maven/org.apache.nifi.registry/nifi-registry-framework/pom.properties
+│ -347 files, 1166289 bytes uncompressed, 434439 bytes compressed:  62.8%
+│ +347 files, 1166289 bytes uncompressed, 434446 bytes compressed:  62.7%
+├── META-INF/JAXB/episode_aliases.xjb
+│ ├── META-INF/JAXB/episode_aliases.xjb
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <jaxb:bindings xmlns:jaxb="https://jakarta.ee/xml/ns/jaxb" version="3.0">
+│ │    <!--
+│ │  
+│ │  This file was generated by the Eclipse Implementation of JAXB, v3.0.2 
+│ │  See https://eclipse-ee4j.github.io/jaxb-ri 
+│ │  Any modifications to this file will be lost upon recompilation of the source schema. 
+│ │ -Generated on: 2024.12.20 at 02:02:27 PM EST 
+│ │ +Generated on: 2025.03.16 at 12:13:43 AM UTC 
+│ │  
+│ │    -->
+│ │    <jaxb:bindings scd="x-schema::">
+│ │      <jaxb:schemaBindings map="false">
+│ │        <jaxb:package name="org.apache.nifi.registry.url.aliaser.generated"/>
+│ │      </jaxb:schemaBindings>
+│ │      <jaxb:bindings scd="aliases">
+├── META-INF/JAXB/episode_authorizations.xjb
+│ ├── META-INF/JAXB/episode_authorizations.xjb
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <jaxb:bindings xmlns:jaxb="https://jakarta.ee/xml/ns/jaxb" version="3.0">
+│ │    <!--
+│ │  
+│ │  This file was generated by the Eclipse Implementation of JAXB, v3.0.2 
+│ │  See https://eclipse-ee4j.github.io/jaxb-ri 
+│ │  Any modifications to this file will be lost upon recompilation of the source schema. 
+│ │ -Generated on: 2024.12.20 at 02:02:27 PM EST 
+│ │ +Generated on: 2025.03.16 at 12:13:43 AM UTC 
+│ │  
+│ │    -->
+│ │    <jaxb:bindings scd="x-schema::">
+│ │      <jaxb:schemaBindings map="false">
+│ │        <jaxb:package name="org.apache.nifi.registry.security.authorization.file.generated"/>
+│ │      </jaxb:schemaBindings>
+│ │      <jaxb:bindings scd="~Policy">
+├── META-INF/JAXB/episode_authorizers.xjb
+│ ├── META-INF/JAXB/episode_authorizers.xjb
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <jaxb:bindings xmlns:jaxb="https://jakarta.ee/xml/ns/jaxb" version="3.0">
+│ │    <!--
+│ │  
+│ │  This file was generated by the Eclipse Implementation of JAXB, v3.0.2 
+│ │  See https://eclipse-ee4j.github.io/jaxb-ri 
+│ │  Any modifications to this file will be lost upon recompilation of the source schema. 
+│ │ -Generated on: 2024.12.20 at 02:02:27 PM EST 
+│ │ +Generated on: 2025.03.16 at 12:13:43 AM UTC 
+│ │  
+│ │    -->
+│ │    <jaxb:bindings scd="x-schema::">
+│ │      <jaxb:schemaBindings map="false">
+│ │        <jaxb:package name="org.apache.nifi.registry.security.authorization.generated"/>
+│ │      </jaxb:schemaBindings>
+│ │      <jaxb:bindings scd="authorizers">
+├── META-INF/JAXB/episode_identity-providers.xjb
+│ ├── META-INF/JAXB/episode_identity-providers.xjb
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <jaxb:bindings xmlns:jaxb="https://jakarta.ee/xml/ns/jaxb" version="3.0">
+│ │    <!--
+│ │  
+│ │  This file was generated by the Eclipse Implementation of JAXB, v3.0.2 
+│ │  See https://eclipse-ee4j.github.io/jaxb-ri 
+│ │  Any modifications to this file will be lost upon recompilation of the source schema. 
+│ │ -Generated on: 2024.12.20 at 02:02:27 PM EST 
+│ │ +Generated on: 2025.03.16 at 12:13:43 AM UTC 
+│ │  
+│ │    -->
+│ │    <jaxb:bindings scd="x-schema::">
+│ │      <jaxb:schemaBindings map="false">
+│ │        <jaxb:package name="org.apache.nifi.registry.security.authentication.generated"/>
+│ │      </jaxb:schemaBindings>
+│ │      <jaxb:bindings scd="identityProviders">
+├── META-INF/JAXB/episode_providers.xjb
+│ ├── META-INF/JAXB/episode_providers.xjb
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <jaxb:bindings xmlns:jaxb="https://jakarta.ee/xml/ns/jaxb" version="3.0">
+│ │    <!--
+│ │  
+│ │  This file was generated by the Eclipse Implementation of JAXB, v3.0.2 
+│ │  See https://eclipse-ee4j.github.io/jaxb-ri 
+│ │  Any modifications to this file will be lost upon recompilation of the source schema. 
+│ │ -Generated on: 2024.12.20 at 02:02:27 PM EST 
+│ │ +Generated on: 2025.03.16 at 12:13:43 AM UTC 
+│ │  
+│ │    -->
+│ │    <jaxb:bindings scd="x-schema::">
+│ │      <jaxb:schemaBindings map="false">
+│ │        <jaxb:package name="org.apache.nifi.registry.provider.generated"/>
+│ │      </jaxb:schemaBindings>
+│ │      <jaxb:bindings scd="providers">
+├── META-INF/JAXB/episode_tenants.xjb
+│ ├── META-INF/JAXB/episode_tenants.xjb
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <jaxb:bindings xmlns:jaxb="https://jakarta.ee/xml/ns/jaxb" version="3.0">
+│ │    <!--
+│ │  
+│ │  This file was generated by the Eclipse Implementation of JAXB, v3.0.2 
+│ │  See https://eclipse-ee4j.github.io/jaxb-ri 
+│ │  Any modifications to this file will be lost upon recompilation of the source schema. 
+│ │ -Generated on: 2024.12.20 at 02:02:27 PM EST 
+│ │ +Generated on: 2025.03.16 at 12:13:43 AM UTC 
+│ │  
+│ │    -->
+│ │    <jaxb:bindings scd="x-schema::">
+│ │      <jaxb:schemaBindings map="false">
+│ │        <jaxb:package name="org.apache.nifi.registry.security.authorization.file.tenants.generated"/>
+│ │      </jaxb:schemaBindings>
+│ │      <jaxb:bindings scd="~Group">
+
+# same as previous
+3 / 73 target/reference/org.apache.nifi.registry/nifi-registry-framework-2.1.0-sources.jar nifi-registry/nifi-registry-core/nifi-registry-framework/target/nifi-registry-framework-2.1.0-sources.jar
+4 / 73 target/reference/org.apache.nifi.registry/nifi-registry-web-api-2.1.0.war nifi-registry/nifi-registry-core/nifi-registry-web-api/target/nifi-registry-web-api-2.1.0.war
+
+5 / 73 target/reference/org.apache.nifi/nifi-hadoop-nar-2.1.0.nar nifi-extension-bundles/nifi-hadoop-bundle/nifi-hadoop-nar/target/nifi-hadoop-nar-2.1.0.nar
+--- target/reference/org.apache.nifi/nifi-hadoop-nar-2.1.0.nar
++++ nifi-extension-bundles/nifi-hadoop-bundle/nifi-hadoop-nar/target/nifi-hadoop-nar-2.1.0.nar
+├── META-INF/docs/extension-manifest.xml
+│ ├── META-INF/docs/extension-manifest.xml
+│ │┄ Ordering differences only
+│ │ @@ -69,16 +69,16 @@
+│ │            <expressionLanguageSupported>false</expressionLanguageSupported>
+│ │            <expressionLanguageScope>NONE</expressionLanguageScope>
+│ │            <dynamicallyModifiesClasspath>true</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │            <resourceDefinition>
+│ │              <cardinality>MULTIPLE</cardinality>
+│ │              <resourceTypes>
+│ │ -              <resourceType>FILE</resourceType>
+│ │                <resourceType>DIRECTORY</resourceType>
+│ │ +              <resourceType>FILE</resourceType>
+│ │              </resourceTypes>
+│ │            </resourceDefinition>
+│ │          </property>
+│ │          <property>
+│ │            <name>compression type</name>
+│ │            <displayName>Compression type</displayName>
+│ │            <description>Type of compression to use when creating Sequence File</description>
+│ │ @@ -236,16 +236,16 @@
+│ │            <expressionLanguageSupported>false</expressionLanguageSupported>
+│ │            <expressionLanguageScope>NONE</expressionLanguageScope>
+│ │            <dynamicallyModifiesClasspath>true</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │            <resourceDefinition>
+│ │              <cardinality>MULTIPLE</cardinality>
+│ │              <resourceTypes>
+│ │ -              <resourceType>FILE</resourceType>
+│ │                <resourceType>DIRECTORY</resourceType>
+│ │ +              <resourceType>FILE</resourceType>
+│ │              </resourceTypes>
+│ │            </resourceDefinition>
+│ │          </property>
+│ │          <property>
+│ │            <name>file_or_directory</name>
+│ │            <displayName>Path</displayName>
+│ │            <description>The HDFS file or directory to delete. A wildcard expression may be used to only delete certain files</description>
+│ │ @@ -382,16 +382,16 @@
+│ │            <expressionLanguageSupported>false</expressionLanguageSupported>
+│ │            <expressionLanguageScope>NONE</expressionLanguageScope>
+│ │            <dynamicallyModifiesClasspath>true</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │            <resourceDefinition>
+│ │              <cardinality>MULTIPLE</cardinality>
+│ │              <resourceTypes>
+│ │ -              <resourceType>FILE</resourceType>
+│ │                <resourceType>DIRECTORY</resourceType>
+│ │ +              <resourceType>FILE</resourceType>
+│ │              </resourceTypes>
+│ │            </resourceDefinition>
+│ │          </property>
+│ │          <property>
+│ │            <name>HDFS Filename</name>
+│ │            <displayName>HDFS Filename</displayName>
+│ │            <description>The name of the HDFS file to retrieve</description>
+│ │ @@ -559,16 +559,16 @@
+│ │            <expressionLanguageSupported>false</expressionLanguageSupported>
+│ │            <expressionLanguageScope>NONE</expressionLanguageScope>
+│ │            <dynamicallyModifiesClasspath>true</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │            <resourceDefinition>
+│ │              <cardinality>MULTIPLE</cardinality>
+│ │              <resourceTypes>
+│ │ -              <resourceType>FILE</resourceType>
+│ │                <resourceType>DIRECTORY</resourceType>
+│ │ +              <resourceType>FILE</resourceType>
+│ │              </resourceTypes>
+│ │            </resourceDefinition>
+│ │          </property>
+│ │          <property>
+│ │            <name>Directory</name>
+│ │            <displayName>Directory</displayName>
+│ │            <description>The HDFS directory from which files should be read</description>
+│ │ @@ -893,16 +893,16 @@
+│ │            <expressionLanguageSupported>false</expressionLanguageSupported>
+│ │            <expressionLanguageScope>NONE</expressionLanguageScope>
+│ │            <dynamicallyModifiesClasspath>true</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │            <resourceDefinition>
+│ │              <cardinality>MULTIPLE</cardinality>
+│ │              <resourceTypes>
+│ │ -              <resourceType>FILE</resourceType>
+│ │                <resourceType>DIRECTORY</resourceType>
+│ │ +              <resourceType>FILE</resourceType>
+│ │              </resourceTypes>
+│ │            </resourceDefinition>
+│ │          </property>
+│ │          <property>
+│ │            <name>gethdfsfileinfo-full-path</name>
+│ │            <displayName>Full path</displayName>
+│ │            <description>A directory to start listing from, or a file's full path.</description>
+│ │ @@ -1226,16 +1226,16 @@
+│ │            <expressionLanguageSupported>false</expressionLanguageSupported>
+│ │            <expressionLanguageScope>NONE</expressionLanguageScope>
+│ │            <dynamicallyModifiesClasspath>true</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │            <resourceDefinition>
+│ │              <cardinality>MULTIPLE</cardinality>
+│ │              <resourceTypes>
+│ │ -              <resourceType>FILE</resourceType>
+│ │                <resourceType>DIRECTORY</resourceType>
+│ │ +              <resourceType>FILE</resourceType>
+│ │              </resourceTypes>
+│ │            </resourceDefinition>
+│ │          </property>
+│ │          <property>
+│ │            <name>Directory</name>
+│ │            <displayName>Directory</displayName>
+│ │            <description>The HDFS directory from which files should be read</description>
+│ │ @@ -1583,16 +1583,16 @@
+│ │            <expressionLanguageSupported>false</expressionLanguageSupported>
+│ │            <expressionLanguageScope>NONE</expressionLanguageScope>
+│ │            <dynamicallyModifiesClasspath>true</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │            <resourceDefinition>
+│ │              <cardinality>MULTIPLE</cardinality>
+│ │              <resourceTypes>
+│ │ -              <resourceType>FILE</resourceType>
+│ │                <resourceType>DIRECTORY</resourceType>
+│ │ +              <resourceType>FILE</resourceType>
+│ │              </resourceTypes>
+│ │            </resourceDefinition>
+│ │          </property>
+│ │          <property>
+│ │            <name>Directory</name>
+│ │            <displayName>Directory</displayName>
+│ │            <description>The HDFS directory from which files should be read</description>
+│ │ @@ -1827,16 +1827,16 @@
+│ │            <expressionLanguageSupported>false</expressionLanguageSupported>
+│ │            <expressionLanguageScope>NONE</expressionLanguageScope>
+│ │            <dynamicallyModifiesClasspath>true</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │            <resourceDefinition>
+│ │              <cardinality>MULTIPLE</cardinality>
+│ │              <resourceTypes>
+│ │ -              <resourceType>FILE</resourceType>
+│ │                <resourceType>DIRECTORY</resourceType>
+│ │ +              <resourceType>FILE</resourceType>
+│ │              </resourceTypes>
+│ │            </resourceDefinition>
+│ │          </property>
+│ │          <property>
+│ │            <name>Conflict Resolution Strategy</name>
+│ │            <displayName>Conflict Resolution Strategy</displayName>
+│ │            <description>Indicates what should happen when a file with the same name already exists in the output directory</description>
+│ │ @@ -2076,16 +2076,16 @@
+│ │            <expressionLanguageSupported>false</expressionLanguageSupported>
+│ │            <expressionLanguageScope>NONE</expressionLanguageScope>
+│ │            <dynamicallyModifiesClasspath>true</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │            <resourceDefinition>
+│ │              <cardinality>MULTIPLE</cardinality>
+│ │              <resourceTypes>
+│ │ -              <resourceType>FILE</resourceType>
+│ │                <resourceType>DIRECTORY</resourceType>
+│ │ +              <resourceType>FILE</resourceType>
+│ │              </resourceTypes>
+│ │            </resourceDefinition>
+│ │          </property>
+│ │          <property>
+│ │            <name>Directory</name>
+│ │            <displayName>Directory</displayName>
+│ │            <description>The parent HDFS directory to which files should be written. The directory will be created if it doesn't exist.</description>
+│ │ @@ -2486,16 +2486,16 @@
+│ │            <expressionLanguageSupported>false</expressionLanguageSupported>
+│ │            <expressionLanguageScope>NONE</expressionLanguageScope>
+│ │            <dynamicallyModifiesClasspath>true</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │            <resourceDefinition>
+│ │              <cardinality>MULTIPLE</cardinality>
+│ │              <resourceTypes>
+│ │ -              <resourceType>FILE</resourceType>
+│ │                <resourceType>DIRECTORY</resourceType>
+│ │ +              <resourceType>FILE</resourceType>
+│ │              </resourceTypes>
+│ │            </resourceDefinition>
+│ │          </property>
+│ │          <property>
+│ │            <name>Poll Duration</name>
+│ │            <displayName>Poll Duration</displayName>
+│ │            <description>The time before the polling method returns with the next batch of events if they exist. It may exceed this amount of time by up to the time required for an RPC to the NameNode.</description>
+
+6 / 73 target/reference/org.apache.nifi/nifi-hadoop-nar-2.1.0-nar-extension-manifest.xml nifi-extension-bundles/nifi-hadoop-bundle/nifi-hadoop-nar/target/META-INF/docs/extension-manifest.xml
+7 / 73 target/reference/org.apache.nifi/nifi-standard-nar-2.1.0.nar nifi-extension-bundles/nifi-standard-bundle/nifi-standard-nar/target/nifi-standard-nar-2.1.0.nar
+8 / 73 target/reference/org.apache.nifi/nifi-standard-nar-2.1.0-nar-extension-manifest.xml nifi-extension-bundles/nifi-standard-bundle/nifi-standard-nar/target/META-INF/docs/extension-manifest.xml
+...
+
+63 / 73 target/reference/org.apache.nifi/nifi-docs-2.1.0-resources.zip nifi-docs/target/nifi-docs-2.1.0-resources.zip
+--- target/reference/org.apache.nifi/nifi-docs-2.1.0-resources.zip
++++ nifi-docs/target/nifi-docs-2.1.0-resources.zip
+├── zipinfo {}
+│ @@ -1,18 +1,18 @@
+│ -Zip file size: 29451719 bytes, number of entries: 331
+│ +Zip file size: 29451710 bytes, number of entries: 331
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-20 18:37 html/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-20 18:37 html/images/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Dec-20 18:37 html/misc/
+│  -rw-r--r--  2.0 unx    12908 b- defN 24-Dec-20 18:37 LICENSE
+│  -rw-r--r--  2.0 unx      163 b- defN 24-Dec-20 18:37 NOTICE
+│ --rw-r--r--  2.0 unx   520550 b- defN 24-Dec-20 18:37 html/administration-guide.html
+│ +-rw-r--r--  2.0 unx   520548 b- defN 24-Dec-20 18:37 html/administration-guide.html
+│  -rw-r--r--  2.0 unx    30934 b- defN 24-Dec-20 18:37 html/asciidoc-mod.css
+│ --rw-r--r--  2.0 unx   219193 b- defN 24-Dec-20 18:37 html/developer-guide.html
+│ --rw-r--r--  2.0 unx   242726 b- defN 24-Dec-20 18:37 html/expression-language-guide.html
+│ --rw-r--r--  2.0 unx   101717 b- defN 24-Dec-20 18:37 html/getting-started.html
+│ +-rw-r--r--  2.0 unx   219191 b- defN 24-Dec-20 18:37 html/developer-guide.html
+│ +-rw-r--r--  2.0 unx   242724 b- defN 24-Dec-20 18:37 html/expression-language-guide.html
+│ +-rw-r--r--  2.0 unx   101715 b- defN 24-Dec-20 18:37 html/getting-started.html
+│  -rw-r--r--  2.0 unx   173743 b- defN 24-Dec-20 18:37 html/images/CopyOnWrite.png
+│  -rw-r--r--  2.0 unx    62849 b- defN 24-Dec-20 18:37 html/images/DataIngress.png
+│  -rw-r--r--  2.0 unx   202859 b- defN 24-Dec-20 18:37 html/images/Funnels.png
+│  -rw-r--r--  2.0 unx   318283 b- defN 24-Dec-20 18:37 html/images/PassByReference.png
+│  -rw-r--r--  2.0 unx   187636 b- defN 24-Dec-20 18:37 html/images/UpdatingAttributes.png
+│  -rw-r--r--  2.0 unx   243031 b- defN 24-Dec-20 18:37 html/images/WebCrawler.png
+│  -rw-r--r--  2.0 unx   179692 b- defN 24-Dec-20 18:37 html/images/abc-restricted-component-flow.png
+│ @@ -319,15 +319,15 @@
+│  -rw-r--r--  2.0 unx   142275 b- defN 24-Dec-20 18:37 html/images/versioned-process-group.png
+│  -rw-r--r--  2.0 unx   180851 b- defN 24-Dec-20 18:37 html/images/xyz-flow.png
+│  -rw-r--r--  2.0 unx   147684 b- defN 24-Dec-20 18:37 html/images/xyz-process-group.png
+│  -rw-r--r--  2.0 unx    77567 b- defN 24-Dec-20 18:37 html/images/zero-leader-cluster-http-access.png
+│  -rw-r--r--  2.0 unx    67158 b- defN 24-Dec-20 18:37 html/images/zero-leader-cluster.png
+│  -rw-r--r--  2.0 unx    44667 b- defN 24-Dec-20 18:37 html/images/zero-leader-node.png
+│  -rw-r--r--  2.0 unx    72175 b- defN 24-Dec-20 18:37 html/misc/WebCrawler.json
+│ --rw-r--r--  2.0 unx    78089 b- defN 24-Dec-20 18:37 html/nifi-in-depth.html
+│ --rw-r--r--  2.0 unx    57493 b- defN 24-Dec-20 18:37 html/overview.html
+│ --rw-r--r--  2.0 unx    94794 b- defN 24-Dec-20 18:37 html/python-developer-guide.html
+│ --rw-r--r--  2.0 unx   114159 b- defN 24-Dec-20 18:37 html/record-path-guide.html
+│ --rw-r--r--  2.0 unx    61044 b- defN 24-Dec-20 18:37 html/toolkit-guide.html
+│ --rw-r--r--  2.0 unx   354768 b- defN 24-Dec-20 18:37 html/user-guide.html
+│ --rw-r--r--  2.0 unx    98764 b- defN 24-Dec-20 18:37 html/walkthroughs.html
+│ -331 files, 34252077 bytes uncompressed, 29401819 bytes compressed:  14.2%
+│ +-rw-r--r--  2.0 unx    78087 b- defN 24-Dec-20 18:37 html/nifi-in-depth.html
+│ +-rw-r--r--  2.0 unx    57491 b- defN 24-Dec-20 18:37 html/overview.html
+│ +-rw-r--r--  2.0 unx    94792 b- defN 24-Dec-20 18:37 html/python-developer-guide.html
+│ +-rw-r--r--  2.0 unx   114157 b- defN 24-Dec-20 18:37 html/record-path-guide.html
+│ +-rw-r--r--  2.0 unx    61042 b- defN 24-Dec-20 18:37 html/toolkit-guide.html
+│ +-rw-r--r--  2.0 unx   354766 b- defN 24-Dec-20 18:37 html/user-guide.html
+│ +-rw-r--r--  2.0 unx    98762 b- defN 24-Dec-20 18:37 html/walkthroughs.html
+│ +331 files, 34252055 bytes uncompressed, 29401810 bytes compressed:  14.2%
+...
+├── html/walkthroughs.html
+│ @@ -6163,11 +6163,11 @@
+│  00018120: 7464 3e0a 3c2f 7472 3e0a 3c2f 7462 6f64  td>.</tr>.</tbod
+│  00018130: 793e 0a3c 2f74 6162 6c65 3e0a 3c2f 6469  y>.</table>.</di
+│  00018140: 763e 0a3c 2f64 6976 3e0a 3c2f 6469 763e  v>.</div>.</div>
+│  00018150: 0a3c 2f64 6976 3e0a 3c2f 6469 763e 0a3c  .</div>.</div>.<
+│  00018160: 6469 7620 6964 3d22 666f 6f74 6572 223e  div id="footer">
+│  00018170: 0a3c 6469 7620 6964 3d22 666f 6f74 6572  .<div id="footer
+│  00018180: 2d74 6578 7422 3e0a 4c61 7374 2075 7064  -text">.Last upd
+│ -00018190: 6174 6564 2032 3032 342d 3132 2d32 3020  ated 2024-12-20 
+│ -000181a0: 3134 3a31 303a 3131 202d 3035 3030 0a3c  14:10:11 -0500.<
+│ -000181b0: 2f64 6976 3e0a 3c2f 6469 763e 0a3c 2f62  /div>.</div>.</b
+│ -000181c0: 6f64 793e 0a3c 2f68 746d 6c3e            ody>.</html>
+│ +00018190: 6174 6564 2032 3032 352d 3033 2d31 3620  ated 2025-03-16 
+│ +000181a0: 3030 3a31 353a 3533 2055 5443 0a3c 2f64  00:15:53 UTC.</d
+│ +000181b0: 6976 3e0a 3c2f 6469 763e 0a3c 2f62 6f64  iv>.</div>.</bod
+│ +000181c0: 793e 0a3c 2f68 746d 6c3e                 y>.</html>
+│ ├── html2text {}
+│ │ @@ -934,8 +934,8 @@
+│ │            o …​
+│ │  After completing these steps, use the generated keystores and truststore as
+│ │  follows:
+│ │  NNooddee  KKeeyyssttoorree  TTrruussttssttoorree
+│ │  nifi1 nifi1.p12 trust.p12
+│ │  nifi2 nifi2.p12 trust.p12
+│ │  …​    …​        trust.p12
+│ │ -Last updated 2024-12-20 14:10:11 -0500
+│ │ +Last updated 2025-03-16 00:15:53 UTC

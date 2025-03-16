@@ -16,4 +16,4 @@ command="mvn -Papache-release,include-grpc,include-ranger clean package -DskipTe
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/apache/nifi/pull/9558
