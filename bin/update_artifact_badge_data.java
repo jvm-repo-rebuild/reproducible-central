@@ -298,6 +298,7 @@ public class update_artifact_badge_data extends SimpleFileVisitor<Path> {
         "eu/maveniverse/maven/parent/parent",
         "fr/ebruno/maven/poms/maven-parentpom",
         "io/streamnative",
+        "io/wcm",
         "net/osslabz/crypto-commons",
         "org/apache/nifi/nifi-",
         "org/apache/plc4x/plc4j-",
