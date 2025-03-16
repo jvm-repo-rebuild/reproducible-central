@@ -20,13 +20,13 @@ Source code: [https://github.com/Adobe-Consulting-Services/acs-aem-commons.git](
 * [com.adobe.acs:acs-aem-commons-ui.content](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-ui.content/overview)
 </details>
 
-rebuilding **6 releases** of com.adobe.acs:acs-aem-commons:
+rebuilding **7 releases** of com.adobe.acs:acs-aem-commons:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [6.11.0](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.11.0/pom) | | | |
+| [6.11.0](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.11.0/pom) | [mvn jdk17](acs-aem-commons-6.11.0.buildspec) | [result](acs-aem-commons-6.11.0.buildinfo): [18 :white_check_mark:  8 :warning:](acs-aem-commons-6.11.0.buildcompare) | 80M |
 | [6.10.0](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.10.0/pom) | [mvn jdk18](acs-aem-commons-6.10.0.buildspec) | [result](acs-aem-commons-6.10.0.buildinfo): [18 :white_check_mark:  8 :warning:](acs-aem-commons-6.10.0.buildcompare) | 80M |
 | [6.9.6](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.9.6/pom) | [mvn jdk18](acs-aem-commons-6.9.6.buildspec) | [result](acs-aem-commons-6.9.6.buildinfo): [18 :white_check_mark:  8 :warning:](acs-aem-commons-6.9.6.buildcompare) | 80M |
 | [6.9.4](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.9.4/pom) | | | |
