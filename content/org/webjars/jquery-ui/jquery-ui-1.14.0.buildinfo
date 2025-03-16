@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=jQuery UI
+group-id=org.webjars
+artifact-id=jquery-ui
+version=1.14.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/webjars/jquery-ui.git
+source.scm.tag=jquery-ui-1.14.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.6
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.webjars
+outputs.0.filename=jquery-ui-1.14.0.pom
+outputs.0.length=5894
+outputs.0.checksums.sha512=f33f176ddedf4bc62e6990a1cd7e000e2927c5b34702ef6be36c7ef84951aa9c7098d3e488a189d6cc8c8ff7f67662c48a4055d05522c99e8758340b8d9d71ff
+
+outputs.1.groupId=org.webjars
+outputs.1.filename=jquery-ui-1.14.0.jar
+outputs.1.length=278571
+outputs.1.checksums.sha512=d168060d31446c4c55f7368c393f8d7732905760147bf46da04af8e56684c5a263ec4300d0b3259b666fbd676b9f55210019c5b30f83b728e09e174347eaf1f1
