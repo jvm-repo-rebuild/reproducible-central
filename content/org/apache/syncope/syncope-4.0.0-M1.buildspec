@@ -16,5 +16,5 @@ timezone="Europe/Paris"
 command="mvn -Papache-release,skipTests clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Ddocker.skip -Dbuildinfo.ignore=org.apache.syncope/syncope-${version}-cyclonedx.*"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=
