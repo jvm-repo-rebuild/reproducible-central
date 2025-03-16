@@ -1,0 +1,10 @@
+version=0.6.0
+ok=2
+ko=1
+ignored=0
+okFiles="crypto-commons-0.6.0.pom crypto-commons-0.6.0-sources.jar"
+koFiles="crypto-commons-0.6.0.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/net.osslabz/crypto-commons-0.6.0.jar target/crypto-commons-0.6.0.jar
