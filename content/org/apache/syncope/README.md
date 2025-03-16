@@ -7,7 +7,7 @@
 
 Source code: [https://gitbox.apache.org/repos/asf/syncope.git](https://gitbox.apache.org/repos/asf/syncope.git)
 
-<details><summary>This project defines 155 modules:</summary>
+<details><summary>This project defines 158 modules:</summary>
 
 * [org.apache.syncope.client.am:syncope-client-am-console](https://central.sonatype.com/artifact/org.apache.syncope.client.am/syncope-client-am-console/overview)
 * [org.apache.syncope.client.am:syncope-client-am-lib](https://central.sonatype.com/artifact/org.apache.syncope.client.am/syncope-client-am-lib/overview)
@@ -107,6 +107,8 @@ Source code: [https://gitbox.apache.org/repos/asf/syncope.git](https://gitbox.ap
 * [org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-provisioning-java](https://central.sonatype.com/artifact/org.apache.syncope.ext.oidcclient/syncope-ext-oidcclient-provisioning-java/overview)
 * [org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-rest-api](https://central.sonatype.com/artifact/org.apache.syncope.ext.oidcclient/syncope-ext-oidcclient-rest-api/overview)
 * [org.apache.syncope.ext.oidcclient:syncope-ext-oidcclient-rest-cxf](https://central.sonatype.com/artifact/org.apache.syncope.ext.oidcclient/syncope-ext-oidcclient-rest-cxf/overview)
+* [org.apache.syncope.ext.openfga:syncope-ext-openfga-client](https://central.sonatype.com/artifact/org.apache.syncope.ext.openfga/syncope-ext-openfga-client/overview)
+* [org.apache.syncope.ext.openfga:syncope-ext-openfga-provisioning-java](https://central.sonatype.com/artifact/org.apache.syncope.ext.openfga/syncope-ext-openfga-provisioning-java/overview)
 * [org.apache.syncope.ext.opensearch:syncope-ext-opensearch-client](https://central.sonatype.com/artifact/org.apache.syncope.ext.opensearch/syncope-ext-opensearch-client/overview)
 * [org.apache.syncope.ext.opensearch:syncope-ext-opensearch-logic](https://central.sonatype.com/artifact/org.apache.syncope.ext.opensearch/syncope-ext-opensearch-logic/overview)
 * [org.apache.syncope.ext.opensearch:syncope-ext-opensearch-persistence](https://central.sonatype.com/artifact/org.apache.syncope.ext.opensearch/syncope-ext-opensearch-persistence/overview)
@@ -146,6 +148,7 @@ Source code: [https://gitbox.apache.org/repos/asf/syncope.git](https://gitbox.ap
 * [org.apache.syncope.ext:syncope-ext-flowable](https://central.sonatype.com/artifact/org.apache.syncope.ext/syncope-ext-flowable/overview)
 * [org.apache.syncope.ext:syncope-ext-oidcc4ui](https://central.sonatype.com/artifact/org.apache.syncope.ext/syncope-ext-oidcc4ui/overview)
 * [org.apache.syncope.ext:syncope-ext-oidcclient](https://central.sonatype.com/artifact/org.apache.syncope.ext/syncope-ext-oidcclient/overview)
+* [org.apache.syncope.ext:syncope-ext-openfga](https://central.sonatype.com/artifact/org.apache.syncope.ext/syncope-ext-openfga/overview)
 * [org.apache.syncope.ext:syncope-ext-opensearch](https://central.sonatype.com/artifact/org.apache.syncope.ext/syncope-ext-opensearch/overview)
 * [org.apache.syncope.ext:syncope-ext-saml2sp](https://central.sonatype.com/artifact/org.apache.syncope.ext/syncope-ext-saml2sp/overview)
 * [org.apache.syncope.ext:syncope-ext-saml2sp4ui](https://central.sonatype.com/artifact/org.apache.syncope.ext/syncope-ext-saml2sp4ui/overview)
@@ -168,11 +171,11 @@ Source code: [https://gitbox.apache.org/repos/asf/syncope.git](https://gitbox.ap
 
 rebuilding **16 releases** of org.apache.syncope:syncope:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.0.0-M1](https://central.sonatype.com/artifact/org.apache.syncope/syncope/4.0.0-M1/pom) | | | |
+| [4.0.0-M1](https://central.sonatype.com/artifact/org.apache.syncope/syncope/4.0.0-M1/pom) | [mvn jdk21](syncope-4.0.0-M1.buildspec) | [result](syncope-4.0.0-M1.buildinfo): [500 :white_check_mark:  1 :warning:](syncope-4.0.0-M1.buildcompare) [:mag:](syncope-4.0.0-M1.diffoscope) | 467M |
 | [4.0.0-M0](https://central.sonatype.com/artifact/org.apache.syncope/syncope/4.0.0-M0/pom) | [mvn jdk21](syncope-4.0.0-M0.buildspec) | [result](syncope-4.0.0-M0.buildinfo): [488 :white_check_mark: ](syncope-4.0.0-M0.buildcompare) | 430M |
 | [3.0.11](https://central.sonatype.com/artifact/org.apache.syncope/syncope/3.0.11/pom) | [mvn jdk11](syncope-3.0.11.buildspec) | [result](syncope-3.0.11.buildinfo): [487 :white_check_mark: ](syncope-3.0.11.buildcompare) | 251M |
 | [3.0.10](https://central.sonatype.com/artifact/org.apache.syncope/syncope/3.0.10/pom) | [mvn jdk11](syncope-3.0.10.buildspec) | [result](syncope-3.0.10.buildinfo): [487 :white_check_mark: ](syncope-3.0.10.buildcompare) | 216M |

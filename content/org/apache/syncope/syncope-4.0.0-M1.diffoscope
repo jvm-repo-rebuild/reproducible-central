@@ -1,0 +1,79 @@
+1 / 1 target/reference/org.apache.syncope.ext.openfga/syncope-ext-openfga-client-4.0.0-M1-sources.jar ext/openfga/client-openfga/target/syncope-ext-openfga-client-4.0.0-M1-sources.jar
+--- target/reference/org.apache.syncope.ext.openfga/syncope-ext-openfga-client-4.0.0-M1-sources.jar
++++ ext/openfga/client-openfga/target/syncope-ext-openfga-client-4.0.0-M1-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 349208 bytes, number of entries: 252
+│ +Zip file size: 349194 bytes, number of entries: 252
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Mar-07 13:33 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 25-Mar-07 13:33 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Mar-07 13:33 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Mar-07 13:33 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Mar-07 13:33 org/apache/syncope/
+│ @@ -34,15 +34,15 @@
+│  -rw-r--r--  2.0 unx     1040 b- defN 25-Mar-07 13:33 .openapi-generator-ignore
+│  -rw-r--r--  2.0 unx      322 b- defN 25-Mar-07 13:33 .travis.yml
+│ --rw-r--r--  2.0 unx    14573 b- defN 25-Mar-07 13:33 README.md
+│ +-rw-r--r--  2.0 unx    14574 b- defN 25-Mar-07 13:33 README.md
+│  -rw-r--r--  2.0 unx   122317 b- defN 25-Mar-07 13:33 api/openapi.yaml
+│  -rw-r--r--  2.0 unx     3023 b- defN 25-Mar-07 13:33 build.gradle
+│ @@ -137,118 +137,118 @@
+│  -rw-r--r--  2.0 unx     8156 b- defN 25-Mar-07 13:33 gradlew
+│  -rw-r--r--  2.0 unx     2826 b- defN 25-Mar-07 13:33 gradlew.bat
+│ --rw-r--r--  2.0 unx    14717 b- defN 25-Mar-07 13:33 org/apache/syncope/ext/openfga/client/ApiClient.java
+...
+│ --rw-r--r--  2.0 unx     6198 b- defN 25-Mar-07 13:33 org/apache/syncope/ext/openfga/client/model/AssertionTupleKey.java
+│ +-rw-r--r--  2.0 unx    14718 b- defN 25-Mar-07 13:33 org/apache/syncope/ext/openfga/client/ApiClient.java
+...
+│ +-rw-r--r--  2.0 unx     6199 b- defN 25-Mar-07 13:33 org/apache/syncope/ext/openfga/client/model/AssertionTupleKey.java
+│  -rw-r--r--  2.0 unx     2131 b- defN 25-Mar-07 13:33 org/apache/syncope/ext/openfga/client/model/AuthErrorCode.java
+│ --rw-r--r--  2.0 unx     9015 b- defN 25-Mar-07 13:33 org/apache/syncope/ext/openfga/client/model/AuthorizationModel.java
+...
+│ --rw-r--r--  2.0 unx     6136 b- defN 25-Mar-07 13:33 org/apache/syncope/ext/openfga/client/model/ConditionParamTypeRef.java
+│ +-rw-r--r--  2.0 unx     9016 b- defN 25-Mar-07 13:33 org/apache/syncope/ext/openfga/client/model/AuthorizationModel.java
+...
+│ +-rw-r--r--  2.0 unx     4745 b- defN 25-Mar-07 13:33 org/apache/syncope/ext/openfga/client/model/WriteRequestWrites.java
+│  -rw-r--r--  2.0 unx    10254 b- defN 25-Mar-07 13:33 pom.xml
+│  -rw-r--r--  2.0 unx       40 b- defN 25-Mar-07 13:33 settings.gradle
+│  -rw-r--r--  2.0 unx      150 b- defN 25-Mar-07 13:33 src/main/AndroidManifest.xml
+│  -rw-r--r--  2.0 unx      844 b- defN 25-Mar-07 13:33 META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports
+│  -rw-r--r--  2.0 unx    98440 b- defN 25-Mar-07 13:33 openfga.yaml
+│  -rw-r--r--  2.0 unx     4079 b- defN 25-Mar-07 13:33 META-INF/maven/org.apache.syncope.ext.openfga/syncope-ext-openfga-client/pom.xml
+│  -rw-r--r--  2.0 unx       94 b- defN 25-Mar-07 13:33 META-INF/maven/org.apache.syncope.ext.openfga/syncope-ext-openfga-client/pom.properties
+│ -252 files, 1277986 bytes uncompressed, 309164 bytes compressed:  75.8%
+│ +252 files, 1278082 bytes uncompressed, 309150 bytes compressed:  75.8%
+├── README.md
+│ @@ -1,14 +1,14 @@
+│  # openapi-java-client
+│  
+│  OpenFGA
+│  
+│  - API version: 1.x
+│  
+│ -- Build date: 2025-03-07T15:19:17.489716657+01:00[Europe/Rome]
+│ +- Build date: 2025-03-16T19:21:53.001231684+01:00[Europe/Paris]
+│  
+│  - Generator version: 7.12.0
+│  
+│  A high performance and flexible authorization/permission engine built for developers and inspired by Google Zanzibar.
+│  
+│    For more information, please visit [https://openfga.dev](https://openfga.dev)
+├── org/apache/syncope/ext/openfga/client/ApiClient.java
+│ @@ -46,15 +46,15 @@
+│   *
+│   * <p>This class is mutable and not synchronized, so it is not thread-safe.
+│   * The API classes generated from this are immutable and thread-safe.</p>
+│   *
+│   * <p>The setter methods of this class return the current object to facilitate
+│   * a fluent style of configuration.</p>
+│   */
+│ -@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-03-07T15:19:17.489716657+01:00[Europe/Rome]", comments = "Generator version: 7.12.0")
+│ +@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-03-16T19:21:53.001231684+01:00[Europe/Paris]", comments = "Generator version: 7.12.0")
+│  public class ApiClient {
+│  
+│    private HttpClient.Builder builder;
+│    private ObjectMapper mapper;
+│    private String scheme;
+│    private String host;
+│    private int port;
+...
