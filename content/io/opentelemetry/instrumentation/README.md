@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentation.git](https://github.com/open-telemetry/opentelemetry-java-instrumentation.git)
 
-<details><summary>This project defines 408 modules:</summary>
+<details><summary>This project defines 415 modules:</summary>
 
 * [io.opentelemetry.instrumentation:opentelemetry-alibaba-druid-1.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-alibaba-druid-1.0/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-apache-dbcp-2.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-apache-dbcp-2.0/overview)
@@ -25,6 +25,7 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentati
 * [io.opentelemetry.instrumentation:opentelemetry-cassandra-4.4](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-cassandra-4.4/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-elasticsearch-rest-7.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-elasticsearch-rest-7.0/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-elasticsearch-rest-common](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-elasticsearch-rest-common/overview)
+* [io.opentelemetry.instrumentation:opentelemetry-elasticsearch-rest-common-5.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-elasticsearch-rest-common-5.0/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-elasticsearch-transport-common](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-elasticsearch-transport-common/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-graphql-java-12.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-graphql-java-12.0/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-graphql-java-20.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-graphql-java-20.0/overview)
@@ -53,6 +54,7 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentati
 * [io.opentelemetry.instrumentation:opentelemetry-jmx-metrics](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-jmx-metrics/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-kafka-clients-2.6](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-kafka-clients-2.6/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-kafka-clients-common](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-kafka-clients-common/overview)
+* [io.opentelemetry.instrumentation:opentelemetry-kafka-clients-common-0.11](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-kafka-clients-common-0.11/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-ktor-1.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-ktor-1.0/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-ktor-2-common](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-ktor-2-common/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-ktor-2.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-ktor-2.0/overview)
@@ -69,6 +71,7 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentati
 * [io.opentelemetry.instrumentation:opentelemetry-netty-4-common](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-netty-4-common/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-netty-4.1](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-netty-4.1/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-netty-common](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-netty-common/overview)
+* [io.opentelemetry.instrumentation:opentelemetry-netty-common-4.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-netty-common-4.0/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-okhttp-3.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-okhttp-3.0/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-oracle-ucp-11.2](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-oracle-ucp-11.2/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-oshi](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-oshi/overview)
@@ -110,6 +113,7 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentati
 * [io.opentelemetry.instrumentation:opentelemetry-vibur-dbcp-11.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-vibur-dbcp-11.0/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-zipkin-exporter-starter](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-zipkin-exporter-starter/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-zipkin-spring-boot-starter](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-zipkin-spring-boot-starter/overview)
+* [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-activej-http-6.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-activej-http-6.0/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-akka-actor-2.3](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-akka-actor-2.3/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-akka-actor-2.5](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-akka-actor-2.5/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-akka-actor-fork-join-2.5](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-akka-actor-fork-join-2.5/overview)
@@ -154,6 +158,7 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentati
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-elasticsearch-rest-6.4](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-elasticsearch-rest-6.4/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-elasticsearch-rest-7.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-elasticsearch-rest-7.0/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-elasticsearch-rest-common](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-elasticsearch-rest-common/overview)
+* [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-elasticsearch-rest-common-5.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-elasticsearch-rest-common-5.0/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-elasticsearch-transport-5.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-elasticsearch-transport-5.0/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-elasticsearch-transport-5.3](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-elasticsearch-transport-5.3/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-elasticsearch-transport-6.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-elasticsearch-transport-6.0/overview)
@@ -283,6 +288,7 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentati
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-netty-4.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-netty-4.0/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-netty-4.1](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-netty-4.1/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-netty-common](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-netty-common/overview)
+* [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-netty-common-4.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-netty-common-4.0/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-okhttp-2.2](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-okhttp-2.2/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-okhttp-3.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-okhttp-3.0/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-opensearch-rest-1.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-opensearch-rest-1.0/overview)
@@ -368,6 +374,7 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentati
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-spring-jms-2.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-spring-jms-2.0/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-spring-jms-6.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-spring-jms-6.0/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-spring-kafka-2.7](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-spring-kafka-2.7/overview)
+* [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-spring-pulsar-1.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-spring-pulsar-1.0/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-spring-rabbit-1.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-spring-rabbit-1.0/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-spring-rmi-4.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-spring-rmi-4.0/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-spring-scheduling-3.1](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-spring-scheduling-3.1/overview)
@@ -419,13 +426,13 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentati
 * [io.opentelemetry.javaagent:opentelemetry-testing-common](https://central.sonatype.com/artifact/io.opentelemetry.javaagent/opentelemetry-testing-common/overview)
 </details>
 
-rebuilding **39 releases** of io.opentelemetry.instrumentation:opentelemetry-instrumentation-api:
+rebuilding **40 releases** of io.opentelemetry.instrumentation:opentelemetry-instrumentation-api:
 - **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 21 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 22 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.14.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.14.0/pom) | | | |
+| [2.14.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.14.0/pom) | [gradle jdk17](opentelemetry-2.14.0.buildspec) | [result](opentelemetry-instrumentation-api-2.14.0.buildinfo): [1106 :white_check_mark:  3 :warning:](opentelemetry-instrumentation-api-2.14.0.buildcompare) | 81M |
 | [2.13.3](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.13.3/pom) | [gradle jdk17](opentelemetry-2.13.3.buildspec) | [result](opentelemetry-instrumentation-api-2.13.3.buildinfo): [1100 :white_check_mark:  3 :warning:](opentelemetry-instrumentation-api-2.13.3.buildcompare) | 80M |
 | [2.13.2](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.13.2/pom) | [gradle jdk17](opentelemetry-2.13.2.buildspec) | [result](opentelemetry-instrumentation-api-2.13.2.buildinfo): [1100 :white_check_mark:  3 :warning:](opentelemetry-instrumentation-api-2.13.2.buildcompare) | 80M |
 | [2.13.1](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.13.1/pom) | [gradle jdk17](opentelemetry-2.13.1.buildspec) | [result](opentelemetry-instrumentation-api-2.13.1.buildinfo): [1100 :white_check_mark:  3 :warning:](opentelemetry-instrumentation-api-2.13.1.buildcompare) | 80M |
