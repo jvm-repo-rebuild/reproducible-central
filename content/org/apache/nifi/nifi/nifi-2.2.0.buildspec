@@ -11,7 +11,7 @@ jdk=21
 newline=lf
 locale=en_US
 umask=022
-workdir=/home/exceptionfactory/releases/nifi-work/nifi
+workdir=/Users/pvillard/dev/apache/nifi-release/releases/nifi-work/nifi
 os=osx
 arch=aarch64
 
