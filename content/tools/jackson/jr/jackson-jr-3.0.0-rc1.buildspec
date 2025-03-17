@@ -7,13 +7,14 @@ display=tool.jackson.jr:jackson-jr
 gitRepo=https://github.com/FasterXML/jackson-jr.git
 gitTag=${artifactId}-${version}
 
-tool=mvn-3.9.9
+# gradle-module-metadata:0.4.0:gmm records the exact Maven version used
+tool=mvn-3.9.3
 jdk=17
 newline=lf
 #umask=022
 timezone="America/Los_Angeles"
 
-command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.ignore='*/*.module'"
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 
 buildinfo=target/${artifactId}-${version}.buildinfo
 
