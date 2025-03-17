@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.caconfig.impl:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.7.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.caconfig.impl/1.7.2/pom) | | | |
 | [1.6.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.caconfig.impl/1.6.0/pom) | [mvn jdk11 w](org.apache.sling.caconfig.impl-1.6.0.buildspec) | [result](org.apache.sling.caconfig.impl-1.6.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.caconfig.impl-1.6.0.buildcompare) | 653K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

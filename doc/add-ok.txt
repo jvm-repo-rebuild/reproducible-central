@@ -1,4 +1,6 @@
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.1-beta-7.buildspec:11.2.1-beta-8
-content/io/airlift/airbase/airbase-231.buildspec:232
-content/io/avaje/inject/avaje-inject-11.3-RC1.buildspec:11.3-javax
-content/org/sentrysoftware/metricshub-community-connectors/metricshub-community-connectors-1.0.04.buildspec:1.0.08
+content/com/spotify/github-client/github-client-0.3.11.buildspec:0.4.0
+content/eu/maveniverse/maven/toolbox/toolbox-0.6.4.buildspec:0.7.0
+content/io/wcm/tooling/commons/crx-packmgr-helper/wcm-crx-packmgr-helper-2.1.6.buildspec:2.2.0
+content/org/apache/activemq/artemis/artemis-2.39.0.buildspec:2.40.0
+content/org/apache/sling/org.apache.sling.caconfig.impl/org.apache.sling.caconfig.impl-1.6.0.buildspec:1.7.2
+content/org/webjars/flexmonster/flexmonster-2.9.98.buildspec:2.9.99
