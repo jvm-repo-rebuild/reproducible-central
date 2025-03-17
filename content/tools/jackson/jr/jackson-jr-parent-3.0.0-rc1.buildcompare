@@ -1,0 +1,9 @@
+version=3.0.0-rc1
+ok=19
+ko=0
+ignored=5
+okFiles="jackson-jr-parent-3.0.0-rc1.pom jackson-jr-objects-3.0.0-rc1.pom jackson-jr-objects-3.0.0-rc1.jar jackson-jr-objects-3.0.0-rc1-sources.jar jackson-jr-retrofit2-3.0.0-rc1.pom jackson-jr-retrofit2-3.0.0-rc1.jar jackson-jr-retrofit2-3.0.0-rc1-sources.jar jackson-jr-stree-3.0.0-rc1.pom jackson-jr-stree-3.0.0-rc1.jar jackson-jr-stree-3.0.0-rc1-sources.jar jackson-jr-annotation-support-3.0.0-rc1.pom jackson-jr-annotation-support-3.0.0-rc1.jar jackson-jr-annotation-support-3.0.0-rc1-sources.jar jackson-jr-extension-javatime-3.0.0-rc1.pom jackson-jr-extension-javatime-3.0.0-rc1.jar jackson-jr-extension-javatime-3.0.0-rc1-sources.jar jackson-jr-all-3.0.0-rc1.pom jackson-jr-all-3.0.0-rc1.jar jackson-jr-all-3.0.0-rc1-sources.jar"
+koFiles=""
+ignoredFiles="jackson-jr-objects-3.0.0-rc1.module jackson-jr-retrofit2-3.0.0-rc1.module jackson-jr-stree-3.0.0-rc1.module jackson-jr-annotation-support-3.0.0-rc1.module jackson-jr-extension-javatime-3.0.0-rc1.module"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
