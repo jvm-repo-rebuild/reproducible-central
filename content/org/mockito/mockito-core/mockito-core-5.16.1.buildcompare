@@ -1,0 +1,8 @@
+version=5.16.1
+ok=16
+ko=3
+okFiles="mockito-android-5.16.1-sources.jar mockito-android-5.16.1.jar mockito-android-5.16.1.pom mockito-bom-5.16.1.pom mockito-core-5.16.1-sources.jar mockito-core-5.16.1.jar mockito-core-5.16.1.pom mockito-errorprone-5.16.1-sources.jar mockito-errorprone-5.16.1.pom mockito-junit-jupiter-5.16.1-sources.jar mockito-junit-jupiter-5.16.1.jar mockito-junit-jupiter-5.16.1.pom mockito-proxy-5.16.1-sources.jar mockito-proxy-5.16.1.pom mockito-subclass-5.16.1-sources.jar mockito-subclass-5.16.1.pom"
+koFiles="mockito-errorprone-5.16.1.jar mockito-proxy-5.16.1.jar mockito-subclass-5.16.1.jar"
+# diffoscope central/org/mockito/mockito-errorprone/5.16.1/mockito-errorprone-5.16.1.jar repository/org/mockito/mockito-errorprone/5.16.1/mockito-errorprone-5.16.1.jar
+# diffoscope central/org/mockito/mockito-proxy/5.16.1/mockito-proxy-5.16.1.jar repository/org/mockito/mockito-proxy/5.16.1/mockito-proxy-5.16.1.jar
+# diffoscope central/org/mockito/mockito-subclass/5.16.1/mockito-subclass-5.16.1.jar repository/org/mockito/mockito-subclass/5.16.1/mockito-subclass-5.16.1.jar
