@@ -1,0 +1,14 @@
+version=1.14.0
+ok=0
+ko=7
+ignored=0
+okFiles=""
+koFiles="commons-csv-1.14.0.pom commons-csv-1.14.0.jar commons-csv-1.14.0-tests.jar commons-csv-1.14.0-sources.jar commons-csv-1.14.0-test-sources.jar commons-csv-1.14.0-cyclonedx.xml commons-csv-1.14.0-cyclonedx.json"
+ignoredFiles=""
+# diffoscope target/reference/org.apache.commons/commons-csv-1.14.0.pom pom.xml
+# diffoscope target/reference/org.apache.commons/commons-csv-1.14.0.jar target/commons-csv-1.14.0.jar
+# diffoscope target/reference/org.apache.commons/commons-csv-1.14.0-tests.jar target/commons-csv-1.14.0-tests.jar
+# diffoscope target/reference/org.apache.commons/commons-csv-1.14.0-sources.jar target/commons-csv-1.14.0-sources.jar
+# diffoscope target/reference/org.apache.commons/commons-csv-1.14.0-test-sources.jar target/commons-csv-1.14.0-test-sources.jar
+# diffoscope target/reference/org.apache.commons/commons-csv-1.14.0-cyclonedx.xml target/commons-csv-1.14.0-bom.xml
+# diffoscope target/reference/org.apache.commons/commons-csv-1.14.0-cyclonedx.json target/commons-csv-1.14.0-bom.json
