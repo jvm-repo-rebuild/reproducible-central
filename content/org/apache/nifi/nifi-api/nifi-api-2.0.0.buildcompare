@@ -1,0 +1,9 @@
+version=2.0.0
+ok=4
+ko=0
+ignored=0
+okFiles="nifi-api-2.0.0.pom nifi-api-2.0.0.jar nifi-api-2.0.0-source-release.zip nifi-api-2.0.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
