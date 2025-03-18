@@ -1,0 +1,19 @@
+groupId=org.apache.activemq
+artifactId=artemis-pom
+version=2.40.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/apache/activemq-artemis.git
+gitTag=${version}
+
+tool=mvn-3.9.3
+jdk=17
+newline=lf
+umask=022
+
+command="mvn -Papache-release,release clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/artemis-project-${version}.buildinfo
+
+#diffoscope=artemis-project-${version}.diffoscope
+issue=
