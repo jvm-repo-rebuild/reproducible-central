@@ -1,0 +1,8 @@
+version=3.0.0-rc1
+ok=1
+ko=1
+ignored=0
+okFiles="jackson-base-3.0.0-rc1.pom"
+koFiles="jackson-bom-3.0.0-rc1.pom"
+ignoredFiles=""
+# diffoscope target/reference/tools.jackson/jackson-bom-3.0.0-rc1.pom pom.xml
