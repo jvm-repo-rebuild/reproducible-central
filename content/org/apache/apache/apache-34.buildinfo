@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=The Apache Software Foundation
+group-id=org.apache
+artifact-id=apache
+version=34
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-apache-parent.git
+source.scm.tag=apache-34
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_442
+java.vendor=Private Build
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.aggregate.artifact-id=apache
+
+# aggregated output
+
+outputs.0.coordinates=org.apache:apache
+
+outputs.0.0.groupId=org.apache
+outputs.0.0.filename=apache-34.pom
+outputs.0.0.length=24249
+outputs.0.0.checksums.sha512=29b34e91977d3490bca8ab046d67f71e336599b2ef3af87d757784e05d6fd2091704d3b8879e11a53fdaccd3d949dfa4d66af2db5fec0d7158e958102a79461a
+
+outputs.0.1.groupId=org.apache
+outputs.0.1.filename=apache-34-source-release.zip
+outputs.0.1.length=22248
+outputs.0.1.checksums.sha512=eda6a3f06f441a44b0799c539f8a7fbaf7f5a7ddfcad3da3e0b9220b45e9408382b867ba7067721b93cae305bbd9d0c81978cc3eec69084c9301d48bb6f74142
