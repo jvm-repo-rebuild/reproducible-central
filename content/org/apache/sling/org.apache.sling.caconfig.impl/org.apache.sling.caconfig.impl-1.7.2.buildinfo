@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Context-Aware Configuration Implementation
+group-id=org.apache.sling
+artifact-id=org.apache.sling.caconfig.impl
+version=1.7.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-caconfig-impl.git
+source.scm.tag=org.apache.sling.caconfig.impl-1.7.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.13
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.caconfig.impl-1.7.2.pom
+outputs.0.length=9305
+outputs.0.checksums.sha512=270bac03b239de00e5a2a7ed75f6484e8b5e75454f8dc790772e94529f56b2476036a5cff2cb243d3afdb9a85d1e7c747b52547623e52c445b6ecbcc53cd464b
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.caconfig.impl-1.7.2.jar
+outputs.1.length=186328
+outputs.1.checksums.sha512=8c123ac53afaa0379bc4dbfc8dc8f4c06f76a3a6f63d8824e07732f6130f00becef02df182ede5c307a95264c5e58cf4a3323dbb6177feda2d9f395327cb9ae0
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.caconfig.impl-1.7.2-source-release.zip
+outputs.2.length=247136
+outputs.2.checksums.sha512=422187c6faaa392a7a12f5aa00d626fd8c2dce58e59eaeca9b1c4cbd7ed62872cb608825aaa7f6032af2d6f6bca2018e6ba5c5a7eb04cb69a60f25314ec18c85
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.caconfig.impl-1.7.2-sources.jar
+outputs.3.length=119190
+outputs.3.checksums.sha512=c4a7c8a9e827b12aa924f489e28c7c5c26888fb1baf753a47cbee47c42bf3d1864ca9c42fbb669ddabb35c2ff7a1349d9cdec3aafeb15762cda3106b25f1e517
