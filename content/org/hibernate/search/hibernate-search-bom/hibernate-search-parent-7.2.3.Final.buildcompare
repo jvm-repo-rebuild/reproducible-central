@@ -1,0 +1,9 @@
+version=7.2.3.Final
+ok=30
+ko=0
+ignored=0
+okFiles="hibernate-search-bom-7.2.3.Final.pom hibernate-search-util-common-7.2.3.Final.pom hibernate-search-util-common-7.2.3.Final.jar hibernate-search-engine-7.2.3.Final.pom hibernate-search-engine-7.2.3.Final.jar hibernate-search-backend-lucene-7.2.3.Final.pom hibernate-search-backend-lucene-7.2.3.Final.jar hibernate-search-backend-elasticsearch-7.2.3.Final.pom hibernate-search-backend-elasticsearch-7.2.3.Final.jar hibernate-search-backend-elasticsearch-aws-7.2.3.Final.pom hibernate-search-backend-elasticsearch-aws-7.2.3.Final.jar hibernate-search-mapper-pojo-base-7.2.3.Final.pom hibernate-search-mapper-pojo-base-7.2.3.Final.jar hibernate-search-mapper-pojo-standalone-7.2.3.Final.pom hibernate-search-mapper-pojo-standalone-7.2.3.Final.jar hibernate-search-mapper-orm-7.2.3.Final.pom hibernate-search-mapper-orm-7.2.3.Final.jar hibernate-search-mapper-orm-outbox-polling-7.2.3.Final.pom hibernate-search-mapper-orm-outbox-polling-7.2.3.Final.jar hibernate-search-mapper-orm-coordination-outbox-polling-7.2.3.Final.pom hibernate-search-mapper-orm-batch-jsr352-core-7.2.3.Final.pom hibernate-search-mapper-orm-batch-jsr352-jberet-7.2.3.Final.pom hibernate-search-mapper-orm-jakarta-batch-core-7.2.3.Final.pom hibernate-search-mapper-orm-jakarta-batch-core-7.2.3.Final.jar hibernate-search-mapper-orm-jakarta-batch-jberet-7.2.3.Final.pom hibernate-search-mapper-orm-jakarta-batch-jberet-7.2.3.Final.jar hibernate-search-v5migrationhelper-engine-7.2.3.Final.pom hibernate-search-v5migrationhelper-engine-7.2.3.Final.jar hibernate-search-v5migrationhelper-orm-7.2.3.Final.pom hibernate-search-v5migrationhelper-orm-7.2.3.Final.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

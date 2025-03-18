@@ -1,0 +1,34 @@
+# Central Repository coordinates for the Reference release (for multi-module, pick an arbitrary module)
+# Hibernate Search publishes multiple artifacts, all of which are created from a single multi-module Maven project:
+groupId=org.hibernate.search
+artifactId=hibernate-search-bom
+version=7.2.3.Final
+
+display=${groupId}:hibernate-search
+
+# Source code
+gitRepo=https://github.com/hibernate/hibernate-search.git
+gitTag=${version}
+
+# Rebuild environment prerequisites
+tool=mvn-3.9.6
+jdk=21
+newline=lf
+
+# Rebuild command
+#
+# NOTE: automatic skip detection is disabled for this command.
+# this is done so as Hibernate Search build explicitly disables
+# the maven-deploy-plugin by adding <skip> to its configuration.
+#
+# And while the nexus plugin is used for deployment and picks which modules to deploy,
+# maven-artifact-plugin will see the skip from the deploy plugin and ignore all modules.
+#
+# Hence, the explicit list of modules to skip:
+command="mvn clean package -Pskip-checks -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dno-build-cache -Dbuildinfo.detect.skip=false -Dbuildinfo.skipModules='**/**internal**,**/**integrationtest**,**/**parent**,**/**documentation**,**/**reports**,**/**build**'"
+
+# Location of the buildinfo file generated during rebuild (by artifact:compare for Maven) to record output fingerprints:
+buildinfo=target/hibernate-search-parent-${version}.buildinfo
+
+# Link to the Hibernate Search issue tracker if any issues had to be reported:
+# issue=https://hibernate.atlassian.net/browse/HSEARCH
