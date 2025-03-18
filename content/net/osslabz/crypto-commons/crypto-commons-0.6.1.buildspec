@@ -1,0 +1,19 @@
+groupId=net.osslabz
+artifactId=crypto-commons
+display=${groupId}:${artifactId}
+version=0.6.1
+
+gitRepo=https://github.com/osslabz/crypto-commons.git
+gitTag=${version}
+
+tool=mvn
+jdk=21
+newline=lf
+#umask=022
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/osslabz/crypto-commons/pull/54
+
