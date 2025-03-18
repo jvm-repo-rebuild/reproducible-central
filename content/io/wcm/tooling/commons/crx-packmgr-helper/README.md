@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/wcm-io/io.wcm.tooling.commons.crx-packmgr-helper.git](https://github.com/wcm-io/io.wcm.tooling.commons.crx-packmgr-helper.git)
 
-rebuilding **9 releases** of io.wcm.tooling.commons:io.wcm.tooling.commons.crx-packmgr-helper:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of io.wcm.tooling.commons:io.wcm.tooling.commons.crx-packmgr-helper:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.2.0](https://central.sonatype.com/artifact/io.wcm.tooling.commons/io.wcm.tooling.commons.crx-packmgr-helper/2.2.0/pom) | | | |
+| [2.2.0](https://central.sonatype.com/artifact/io.wcm.tooling.commons/io.wcm.tooling.commons.crx-packmgr-helper/2.2.0/pom) | [mvn jdk17 w](wcm-crx-packmgr-helper-2.2.0.buildspec) | [result](io.wcm.tooling.commons.crx-packmgr-helper-2.2.0.buildinfo): [3 :white_check_mark: ](io.wcm.tooling.commons.crx-packmgr-helper-2.2.0.buildcompare) | 158K |
 | [2.1.6](https://central.sonatype.com/artifact/io.wcm.tooling.commons/io.wcm.tooling.commons.crx-packmgr-helper/2.1.6/pom) | [mvn jdk11 w](wcm-crx-packmgr-helper-2.1.6.buildspec) | [result](io.wcm.tooling.commons.crx-packmgr-helper-2.1.6.buildinfo): [3 :white_check_mark: ](io.wcm.tooling.commons.crx-packmgr-helper-2.1.6.buildcompare) | 145K |
 | [2.1.4](https://central.sonatype.com/artifact/io.wcm.tooling.commons/io.wcm.tooling.commons.crx-packmgr-helper/2.1.4/pom) | [mvn jdk11 w](wcm-crx-packmgr-helper-2.1.4.buildspec) | [result](io.wcm.tooling.commons.crx-packmgr-helper-2.1.4.buildinfo): [3 :white_check_mark: ](io.wcm.tooling.commons.crx-packmgr-helper-2.1.4.buildcompare) | 144K |
 | [2.1.2](https://central.sonatype.com/artifact/io.wcm.tooling.commons/io.wcm.tooling.commons.crx-packmgr-helper/2.1.2/pom) | [mvn jdk11 w](wcm-crx-packmgr-helper-2.1.2.buildspec) | [result](io.wcm.tooling.commons.crx-packmgr-helper-2.1.2.buildinfo): [3 :white_check_mark: ](io.wcm.tooling.commons.crx-packmgr-helper-2.1.2.buildcompare) | 144K |
