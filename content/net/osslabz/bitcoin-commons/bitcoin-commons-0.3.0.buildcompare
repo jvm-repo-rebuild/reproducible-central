@@ -1,0 +1,10 @@
+version=0.3.0
+ok=2
+ko=1
+ignored=0
+okFiles="bitcoin-commons-0.3.0.pom bitcoin-commons-0.3.0-sources.jar"
+koFiles="bitcoin-commons-0.3.0.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/net.osslabz/bitcoin-commons-0.3.0.jar target/bitcoin-commons-0.3.0.jar
