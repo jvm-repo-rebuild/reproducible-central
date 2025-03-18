@@ -13,6 +13,7 @@ rebuilding **1 releases** of io.github.ollama4j:ollama4j:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.99](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.0.99/pom) | | | |
 | [1.0.98](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.0.98/pom) | [mvn jdk17](ollama4j-1.0.98.buildspec) | [result](ollama4j-1.0.98.buildinfo): [3 :white_check_mark: ](ollama4j-1.0.98.buildcompare) | 215K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

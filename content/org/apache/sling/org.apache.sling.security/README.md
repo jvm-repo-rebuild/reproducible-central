@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.apache.sling:org.apache.sling.security:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.3.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.security/1.3.0/pom) | | | |
 | [1.2.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.security/1.2.0/pom) | [mvn jdk11](org.apache.sling.security-1.2.0.buildspec) | [result](org.apache.sling.security-1.2.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.security-1.2.0.buildcompare) | 106K |
 | [1.1.24](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.security/1.1.24/pom) | [mvn jdk11](org.apache.sling.security-1.1.24.buildspec) | [result](org.apache.sling.security-1.1.24.buildinfo): [4 :white_check_mark: ](org.apache.sling.security-1.1.24.buildcompare) | 92K |
 | [1.1.22](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.security/1.1.22/pom) | [mvn jdk11](org.apache.sling.security-1.1.22.buildspec) | [result](org.apache.sling.security-1.1.22.buildinfo): [4 :white_check_mark: ](org.apache.sling.security-1.1.22.buildcompare) | 93K |
