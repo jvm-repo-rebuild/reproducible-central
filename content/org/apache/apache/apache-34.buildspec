@@ -1,0 +1,16 @@
+groupId=org.apache
+artifactId=apache
+display=${groupId}:${artifactId}
+version=34
+
+gitRepo=https://github.com/apache/maven-apache-parent.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
