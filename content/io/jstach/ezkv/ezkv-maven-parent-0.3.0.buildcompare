@@ -1,0 +1,9 @@
+version=0.3.0
+ok=19
+ko=0
+ignored=0
+okFiles="ezkv-maven-parent-0.3.0.pom ezkv-kvs-0.3.0.pom ezkv-kvs-0.3.0.jar ezkv-kvs-0.3.0-sources.jar ezkv-boot-0.3.0.pom ezkv-boot-0.3.0.jar ezkv-boot-0.3.0-sources.jar ezkv-dotenv-0.3.0.pom ezkv-dotenv-0.3.0.jar ezkv-dotenv-0.3.0-sources.jar ezkv-json5-0.3.0.pom ezkv-json5-0.3.0.jar ezkv-json5-0.3.0-sources.jar ezkv-maven-plugin-0.3.0.pom ezkv-maven-plugin-0.3.0.jar ezkv-maven-plugin-0.3.0-sources.jar ezkv-xml-0.3.0.pom ezkv-xml-0.3.0.jar ezkv-xml-0.3.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
