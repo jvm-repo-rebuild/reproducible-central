@@ -1,11 +1,4 @@
-content/ch/qos/logback/logback-1.5.17.buildspec:1.5.18
-content/com/spotify/github-client/github-client-0.4.0.buildspec:0.4.1
-content/io/airlift/airbase/airbase-232.buildspec:234
-content/io/avaje/http/avaje-http-3.1-RC2.buildspec:3.1
-content/io/avaje/jex/avaje-jex-3.0-RC22.buildspec:3.0-RC23
-content/io/github/ollama4j/ollama4j-1.0.98.buildspec:1.0.99
-content/org/apache/apache/apache-33.buildspec:34
-content/org/apache/maven/parent/maven-parent-43.buildspec:44
-content/org/apache/sling/org.apache.sling.security/org.apache.sling.security-1.2.0.buildspec:1.3.0
-content/org/eclipse/jetty/jetty-project/jetty-project-12.1.0.alpha1.buildspec:12.1.0.alpha2
-content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.0.0.Alpha1.buildspec:8.0.0.Alpha2
+content/eu/maveniverse/maven/toolbox/toolbox-0.7.0.buildspec:0.7.1
+content/io/airlift/airbase/airbase-234.buildspec:235
+content/io/avaje/jsonb/avaje-jsonb-3.1.buildspec:3.2-RC1
+content/io/telicent/smart-caches/graph/scg-base/scg-base-0.83.4.buildspec:0.83.5

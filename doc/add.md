@@ -4,19 +4,11 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250318203132 --> [maven-parent](../content/org/apache/maven/parent/README.md) | [43](../content/org/apache/maven/parent/maven-parent-43.buildspec) :white_check_mark: | [44](../content/org/apache/maven/parent/maven-parent-44.buildspec) | `bin/add-new-release.sh content/org/apache/maven/parent/maven-parent-43.buildspec 44` |
-| <!-- 20250318190040 --> [airbase](../content/io/airlift/airbase/README.md) | [232](../content/io/airlift/airbase/airbase-232.buildspec) :white_check_mark: | [234](../content/io/airlift/airbase/airbase-234.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-232.buildspec 234` |
-| <!-- 20250318190040 --> [airbase](../content/io/airlift/airbase/README.md) | [232](../content/io/airlift/airbase/airbase-232.buildspec) :white_check_mark: | 233  | `bin/add-new-release.sh content/io/airlift/airbase/airbase-232.buildspec ...` |
-| <!-- 20250318185905 --> [avaje-http-parent](../content/io/avaje/http/README.md) | [3.1-RC2](../content/io/avaje/http/avaje-http-3.1-RC2.buildspec) :white_check_mark: | [3.1](../content/io/avaje/http/avaje-http-3.1.buildspec) | `bin/add-new-release.sh content/io/avaje/http/avaje-http-3.1-RC2.buildspec 3.1` |
-| <!-- 20250318185842 --> [avaje-jex-parent](../content/io/avaje/jex/README.md) | [3.0-RC22](../content/io/avaje/jex/avaje-jex-3.0-RC22.buildspec) :white_check_mark: | [3.0-RC23](../content/io/avaje/jex/avaje-jex-3.0-RC23.buildspec) | `bin/add-new-release.sh content/io/avaje/jex/avaje-jex-3.0-RC22.buildspec 3.0-RC23` |
-| <!-- 20250318182511 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | [12.1.0.alpha1](../content/org/eclipse/jetty/jetty-project/jetty-project-12.1.0.alpha1.buildspec) :white_check_mark: | [12.1.0.alpha2](../content/org/eclipse/jetty/jetty-project/jetty-project-12.1.0.alpha2.buildspec) | `bin/add-new-release.sh content/org/eclipse/jetty/jetty-project/jetty-project-12.1.0.alpha1.buildspec 12.1.0.alpha2` |
-| <!-- 20250318181943 --> [apache](../content/org/apache/apache/README.md) | [33](../content/org/apache/apache/apache-33.buildspec) :white_check_mark: | [34](../content/org/apache/apache/apache-34.buildspec) | `bin/add-new-release.sh content/org/apache/apache/apache-33.buildspec 34` |
-| <!-- 20250318181517 --> [hibernate-search-bom](../content/org/hibernate/search/hibernate-search-bom/README.md) | [8.0.0.Alpha1](../content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.0.0.Alpha1.buildspec) :white_check_mark: | [8.0.0.Alpha2](../content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.0.0.Alpha2.buildspec) | `bin/add-new-release.sh content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.0.0.Alpha1.buildspec 8.0.0.Alpha2` |
-| <!-- 20250318181517 --> [hibernate-search-bom](../content/org/hibernate/search/hibernate-search-bom/README.md) | [8.0.0.Alpha1](../content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.0.0.Alpha1.buildspec) :white_check_mark: | 7.2.3.Final  | `bin/add-new-release.sh content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.0.0.Alpha1.buildspec ...` |
-| <!-- 20250318180158 --> [ollama4j](../content/io/github/ollama4j/README.md) | [1.0.98](../content/io/github/ollama4j/ollama4j-1.0.98.buildspec) :white_check_mark: | [1.0.99](../content/io/github/ollama4j/ollama4j-1.0.99.buildspec) | `bin/add-new-release.sh content/io/github/ollama4j/ollama4j-1.0.98.buildspec 1.0.99` |
-| <!-- 20250318143927 --> [github-client](../content/com/spotify/github-client/README.md) | [0.4.0](../content/com/spotify/github-client/github-client-0.4.0.buildspec) :white_check_mark: | [0.4.1](../content/com/spotify/github-client/github-client-0.4.1.buildspec) | `bin/add-new-release.sh content/com/spotify/github-client/github-client-0.4.0.buildspec 0.4.1` |
-| <!-- 20250318125105 --> [logback-parent](../content/ch/qos/logback/README.md) | [1.5.17](../content/ch/qos/logback/logback-1.5.17.buildspec) :white_check_mark: | [1.5.18](../content/ch/qos/logback/logback-1.5.18.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/logback-1.5.17.buildspec 1.5.18` |
-| <!-- 20250318104353 --> [org.apache.sling.security](../content/org/apache/sling/org.apache.sling.security/README.md) | [1.2.0](../content/org/apache/sling/org.apache.sling.security/org.apache.sling.security-1.2.0.buildspec) :white_check_mark: | [1.3.0](../content/org/apache/sling/org.apache.sling.security/org.apache.sling.security-1.3.0.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.security/org.apache.sling.security-1.2.0.buildspec 1.3.0` |
+| <!-- 20250319173654 --> [activemq-parent](../content/org/apache/activemq/README.md) | [6.1.6](../content/org/apache/activemq/activemq-6.1.6.buildspec) :white_check_mark: | 5.18.7  | `bin/add-new-release.sh content/org/apache/activemq/activemq-6.1.6.buildspec ...` |
+| <!-- 20250319171455 --> [airbase](../content/io/airlift/airbase/README.md) | [234](../content/io/airlift/airbase/airbase-234.buildspec) :white_check_mark: | [235](../content/io/airlift/airbase/airbase-235.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-234.buildspec 235` |
+| <!-- 20250319112618 --> [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | [0.7.0](../content/eu/maveniverse/maven/toolbox/toolbox-0.7.0.buildspec) :white_check_mark: | [0.7.1](../content/eu/maveniverse/maven/toolbox/toolbox-0.7.1.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/toolbox/toolbox-0.7.0.buildspec 0.7.1` |
+| <!-- 20250319112319 --> [scg-base](../content/io/telicent/smart-caches/graph/scg-base/README.md) | [0.83.4](../content/io/telicent/smart-caches/graph/scg-base/scg-base-0.83.4.buildspec) :white_check_mark: | [0.83.5](../content/io/telicent/smart-caches/graph/scg-base/scg-base-0.83.5.buildspec) | `bin/add-new-release.sh content/io/telicent/smart-caches/graph/scg-base/scg-base-0.83.4.buildspec 0.83.5` |
+| <!-- 20250319104507 --> [avaje-jsonb-parent](../content/io/avaje/jsonb/README.md) | [3.1](../content/io/avaje/jsonb/avaje-jsonb-3.1.buildspec) :white_check_mark: | [3.2-RC1](../content/io/avaje/jsonb/avaje-jsonb-3.2-RC1.buildspec) | `bin/add-new-release.sh content/io/avaje/jsonb/avaje-jsonb-3.1.buildspec 3.2-RC1` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -45,8 +37,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250318072122 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | [1.9.2](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.2.buildspec) :warning: | [1.9.3](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.3.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.2.buildspec 1.9.3` |
-| <!-- 20250318052855 --> [oras-java-sdk](../content/land/oras/oras-java-sdk/README.md) | [](../content/land/oras/oras-java-sdk/) :x: | [0.2.2](../content/land/oras/oras-java-sdk/-0.2.2.buildspec) | `bin/add-new-release.sh content/land/oras/oras-java-sdk/ 0.2.2` |
+| <!-- 20250319120632 --> [quarkus-project](../content/io/quarkus/README.md) | [3.21.0.CR1](../content/io/quarkus/quarkus-3.21.0.CR1.buildspec) :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | [3.21.0](../content/io/quarkus/quarkus-3.21.0.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.21.0.CR1.buildspec 3.21.0` |
 | <!-- 20250317021621 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.20.1](../content/org/webjars/swagger-ui/swagger-ui-5.20.1.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.20.1` |
 | <!-- 20250312195206 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.73.0](../content/org/finos/legend/engine/legend-engine-4.73.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.73.0` |
 | <!-- 20250311162322 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.0.4](../content/com/taobao/arthas/arthas-4.0.4.buildspec) :warning: | [4.0.5](../content/com/taobao/arthas/arthas-4.0.5.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.0.4.buildspec 4.0.5` |
@@ -63,6 +54,8 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20250318182511 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | 12.1.0.alpha2 :warning: |
+| <!-- 20250318072122 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | 1.9.3 :warning: |
 | <!-- 20250317121336 --> [crypto-commons](../content/net/osslabz/crypto-commons/README.md) | 0.6.1 :warning: [:memo:](https://github.com/osslabz/crypto-commons/pull/54) |
 | <!-- 20250317082151 --> [bitcoin-commons](../content/net/osslabz/bitcoin-commons/README.md) | 0.3.0 :warning: |
 | <!-- 20250315193648 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | 5.16.1 :warning: [:memo:](https://github.com/mockito/mockito/issues/3563) |
@@ -72,7 +65,6 @@ New Releases To Add
 | <!-- 20250314101946 --> [dbus-java-parent](../content/com/github/hypfvieh/dbus-java/README.md) | 5.1.1 :warning: [:memo:](https://github.com/hypfvieh/dbus-java/pull/279) |
 | <!-- 20250314012610 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | 2.14.0 :warning: |
 | <!-- 20250313165409 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | 5.4.1 :warning: |
-| <!-- 20250312134428 --> [quarkus-project](../content/io/quarkus/README.md) | 3.21.0.CR1 :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) |
 | <!-- 20250311103634 --> [nifi](../content/org/apache/nifi/nifi/README.md) | 2.3.0 :warning: [:memo:](https://github.com/apache/nifi/pull/9805) |
 | <!-- 20250310171441 --> [axis2](../content/org/apache/axis2/README.md) | 2.0.0 :warning: [:memo:](https://github.com/apache/axis-axis2-java-core/pull/879) |
 | <!-- 20250310160203 --> [syncope](../content/org/apache/syncope/README.md) | 4.0.0-M1 :warning: |
@@ -90,6 +82,7 @@ New Releases To Add
 | <!-- 20250226101218 --> [baremaps](../content/org/apache/baremaps/README.md) | 0.8.2 :warning: [:memo:](https://github.com/apache/incubator-baremaps/pull/951) |
 | <!-- 20250225165035 --> [slf4j-parent](../content/org/slf4j/README.md) | 2.1.0-alpha1 :warning: |
 | <!-- 20250224172058 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | 1.7.2 :warning: [:memo:](https://github.com/jpmml/jpmml-model/issues/42) |
+| <!-- 20250224140054 --> [sdmx-dl-parent](../content/com/github/nbbrd/sdmx-dl/README.md) | 3.0.0-beta.14 :warning: |
 | <!-- 20250224085936 --> [sshd](../content/org/apache/sshd/README.md) | 2.15.0 :warning: [:memo:](https://github.com/apache/mina-sshd/pull/695) |
 | <!-- 20250219102604 --> [io.wcm.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | 2.4.2 :warning: |
 | <!-- 20250218094231 --> [wayang](../content/org/apache/wayang/README.md) | 1.0.0 :warning: [:memo:](https://github.com/apache/incubator-wayang/pull/503) |
