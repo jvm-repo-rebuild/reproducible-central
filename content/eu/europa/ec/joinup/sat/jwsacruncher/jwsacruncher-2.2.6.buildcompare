@@ -1,0 +1,9 @@
+version=2.2.6
+ok=4
+ko=0
+ignored=0
+okFiles="jwsacruncher-2.2.6.pom jwsacruncher-2.2.6.jar jwsacruncher-2.2.6-bin.zip jwsacruncher-2.2.6-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
