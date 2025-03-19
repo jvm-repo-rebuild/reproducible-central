@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Beanzooka
+group-id=com.github.nbbrd.beanzooka
+artifact-id=beanzooka
+version=1.4.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/nbbrd/beanzooka.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.6
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.github.nbbrd.beanzooka
+outputs.0.filename=beanzooka-1.4.0.pom
+outputs.0.length=37185
+outputs.0.checksums.sha512=062da8281c6f58a2607e858d914e820c4fcbbde876ababb21438c4a5a54ee13f8b742cbc857d3bda4a94b5d349431f37d4857434522224499346ff966452cfbe
+
+outputs.1.groupId=com.github.nbbrd.beanzooka
+outputs.1.filename=beanzooka-1.4.0.jar
+outputs.1.length=213780
+outputs.1.checksums.sha512=1b37951c7e9b6b5c64dca95def2979e9ec7016adaba6a9f6d19599feaf3dba05470dea1b67aa382e533f4a88e3b303e856ce5cb7a05fabf055c24d5a44227df3
+
+outputs.2.groupId=com.github.nbbrd.beanzooka
+outputs.2.filename=beanzooka-1.4.0-bin.jar
+outputs.2.length=1705033
+outputs.2.checksums.sha512=393dc880beff5c4825bad276c607ccb78484f050e445de15a0993db21624d60d84eb7e74388d2e15ea726c07df8bac9d2a35bcf540d60a07420a3d600e41a688
+
+outputs.3.groupId=com.github.nbbrd.beanzooka
+outputs.3.filename=beanzooka-1.4.0-sources.jar
+outputs.3.length=118927
+outputs.3.checksums.sha512=9465cfcab32df020b0cd3e0f0f9c3a6e567ab3bdea18eaaa81c334871edeeeb1885000e7fb0eb7bf9b49624329a43c396a81124953f8282f6eb1c7e69366773f
