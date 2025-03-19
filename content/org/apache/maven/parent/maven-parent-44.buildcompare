@@ -1,0 +1,7 @@
+version=44
+ok=25
+ko=0
+ignored=0
+okFiles="maven-parent-44.pom maven-parent-44-source-release.zip maven-parent-44-site.xml maven-parent-44-cyclonedx.xml maven-parent-44-cyclonedx.json maven-extensions-44.pom maven-extensions-44-site.xml maven-extensions-44-cyclonedx.xml maven-extensions-44-cyclonedx.json maven-plugins-44.pom maven-plugins-44-site.xml maven-plugins-44-cyclonedx.xml maven-plugins-44-cyclonedx.json maven-shared-components-44.pom maven-shared-components-44-site.xml maven-shared-components-44-cyclonedx.xml maven-shared-components-44-cyclonedx.json maven-skins-44.pom maven-skins-44-site.xml maven-skins-44-cyclonedx.xml maven-skins-44-cyclonedx.json doxia-tools-44.pom doxia-tools-44-site.xml doxia-tools-44-cyclonedx.xml doxia-tools-44-cyclonedx.json"
+koFiles=""
+ignoredFiles=""

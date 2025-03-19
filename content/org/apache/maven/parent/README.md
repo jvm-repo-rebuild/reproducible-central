@@ -18,13 +18,13 @@ Source code: [https://github.com/apache/maven-parent.git](https://github.com/apa
 * [org.apache.maven:maven-parent](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/overview)
 </details>
 
-rebuilding **10 releases** of org.apache.maven:maven-parent:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **11 releases** of org.apache.maven:maven-parent:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [44](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/44/pom) | | | |
+| [44](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/44/pom) | [mvn jdk17](maven-parent-44.buildspec) | [result](maven-parent-44.buildinfo): [25 :white_check_mark: ](maven-parent-44.buildcompare) | 386K |
 | [43](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/43/pom) | [mvn jdk17](maven-parent-43.buildspec) | [result](maven-parent-43.buildinfo): [25 :white_check_mark: ](maven-parent-43.buildcompare) | 197K |
 | [42](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/42/pom) | [mvn jdk17](maven-parent-42.buildspec) | [result](maven-parent-42.buildinfo): [25 :white_check_mark: ](maven-parent-42.buildcompare) | 210K |
 | [41](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/41/pom) | [mvn jdk17](maven-parent-41.buildspec) | [result](maven-parent-41.buildinfo): [25 :white_check_mark: ](maven-parent-41.buildcompare) | 196K |
