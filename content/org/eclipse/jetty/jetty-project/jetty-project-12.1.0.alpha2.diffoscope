@@ -1,0 +1,249 @@
+1 / 8 target/reference/org.eclipse.jetty.demos/jetty-servlet4-demo-jspc-webapp-12.1.0.alpha2.war jetty-demos/jetty-servlet4-demos/jetty-servlet4-demo-jspc-webapp/target/jetty-servlet4-demo-jspc-webapp-12.1.0.alpha2.war
+--- target/reference/org.eclipse.jetty.demos/jetty-servlet4-demo-jspc-webapp-12.1.0.alpha2.war
++++ jetty-demos/jetty-servlet4-demos/jetty-servlet4-demo-jspc-webapp/target/jetty-servlet4-demo-jspc-webapp-12.1.0.alpha2.war
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 77582 bytes, number of entries: 52
+│ +Zip file size: 77224 bytes, number of entries: 52
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-26 07:15 META-INF/
+│  -rw-r--r--  2.0 unx     1130 b- defN 24-Apr-26 07:15 META-INF/MANIFEST.MF
+│ @@ -20,18 +20,18 @@
+│  -rw-r--r--  2.0 unx     6233 b- defN 24-Apr-26 07:15 WEB-INF/classes/org/apache/jsp/expr_jsp.class
+│  -rw-r--r--  2.0 unx     6274 b- defN 24-Apr-26 07:15 WEB-INF/classes/org/apache/jsp/expr_jsp.java
+│ --rw-r--r--  2.0 unx     8925 b- defN 24-Apr-26 07:15 WEB-INF/classes/org/apache/jsp/foo/foo_jsp.class
+│ --rw-r--r--  2.0 unx    10830 b- defN 24-Apr-26 07:15 WEB-INF/classes/org/apache/jsp/foo/foo_jsp.java
+│ --rw-r--r--  2.0 unx     8922 b- defN 24-Apr-26 07:15 WEB-INF/classes/org/apache/jsp/jstl_jsp.class
+│ --rw-r--r--  2.0 unx    10814 b- defN 24-Apr-26 07:15 WEB-INF/classes/org/apache/jsp/jstl_jsp.java
+│ +-rw-r--r--  2.0 unx     8409 b- defN 24-Apr-26 07:15 WEB-INF/classes/org/apache/jsp/foo/foo_jsp.class
+│ +-rw-r--r--  2.0 unx    10368 b- defN 24-Apr-26 07:15 WEB-INF/classes/org/apache/jsp/foo/foo_jsp.java
+│ +-rw-r--r--  2.0 unx     8926 b- defN 24-Apr-26 07:15 WEB-INF/classes/org/apache/jsp/jstl_jsp.class
+│ +-rw-r--r--  2.0 unx    10818 b- defN 24-Apr-26 07:15 WEB-INF/classes/org/apache/jsp/jstl_jsp.java
+│  -rw-r--r--  2.0 unx     6634 b- defN 24-Apr-26 07:15 WEB-INF/classes/org/apache/jsp/tag/web/panel_tag.class
+│  -rw-r--r--  2.0 unx     6467 b- defN 24-Apr-26 07:15 WEB-INF/classes/org/apache/jsp/tag/web/panel_tag.java
+│ @@ -47,8 +47,8 @@
+│  -rw-rw-r--  2.0 unx     4813 b- defN 24-Apr-26 07:15 META-INF/maven/org.eclipse.jetty.demos/jetty-servlet4-demo-jspc-webapp/pom.xml
+│  -rw-rw-r--  2.0 unx       97 b- defN 24-Apr-26 07:15 META-INF/maven/org.eclipse.jetty.demos/jetty-servlet4-demo-jspc-webapp/pom.properties
+│ -52 files, 195056 bytes uncompressed, 69850 bytes compressed:  64.2%
+│ +52 files, 194086 bytes uncompressed, 69492 bytes compressed:  64.2%
+├── WEB-INF/classes/org/apache/jsp/foo/foo_jsp.java
+│ @@ -16,20 +16,14 @@
+│                   org.apache.jasper.runtime.JspSourceImports {
+│  
+│    private static final javax.servlet.jsp.JspFactory _jspxFactory =
+│            javax.servlet.jsp.JspFactory.getDefaultFactory();
+│  
+│    private static java.util.Map<java.lang.String,java.lang.Long> _jspx_dependants;
+│  
+│ -  static {
+│ -    _jspx_dependants = new java.util.HashMap<java.lang.String,java.lang.Long>(2);
+│ -    _jspx_dependants.put("file:/home/joakim/.m2/repository/org/glassfish/web/javax.servlet.jsp.jstl/1.2.5/javax.servlet.jsp.jstl-1.2.5.jar", Long.valueOf(1531448975000L));
+│ -    _jspx_dependants.put("jar:file:/home/joakim/.m2/repository/org/glassfish/web/javax.servlet.jsp.jstl/1.2.5/javax.servlet.jsp.jstl-1.2.5.jar!/META-INF/c.tld", Long.valueOf(1531495620000L));
+│ -  }
+│ -
+│    private static final java.util.Set<java.lang.String> _jspx_imports_packages;
+│  
+│    private static final java.util.Set<java.lang.String> _jspx_imports_classes;
+│  
+│    static {
+│      _jspx_imports_packages = new java.util.LinkedHashSet<>(4);
+│      _jspx_imports_packages.add("javax.servlet");
+├── WEB-INF/classes/org/apache/jsp/jstl_jsp.java
+│ @@ -18,16 +18,16 @@
+│    private static final javax.servlet.jsp.JspFactory _jspxFactory =
+│            javax.servlet.jsp.JspFactory.getDefaultFactory();
+│  
+│    private static java.util.Map<java.lang.String,java.lang.Long> _jspx_dependants;
+│  
+│    static {
+│      _jspx_dependants = new java.util.HashMap<java.lang.String,java.lang.Long>(2);
+│ -    _jspx_dependants.put("file:/home/joakim/.m2/repository/org/glassfish/web/javax.servlet.jsp.jstl/1.2.5/javax.servlet.jsp.jstl-1.2.5.jar", Long.valueOf(1531448975000L));
+│ -    _jspx_dependants.put("jar:file:/home/joakim/.m2/repository/org/glassfish/web/javax.servlet.jsp.jstl/1.2.5/javax.servlet.jsp.jstl-1.2.5.jar!/META-INF/c.tld", Long.valueOf(1531495620000L));
+│ +    _jspx_dependants.put("jar:file:/var/maven/.m2/repository-002/org/glassfish/web/javax.servlet.jsp.jstl/1.2.5/javax.servlet.jsp.jstl-1.2.5.jar!/META-INF/c.tld", Long.valueOf(1531477620000L));
+│ +    _jspx_dependants.put("file:/var/maven/.m2/repository-002/org/glassfish/web/javax.servlet.jsp.jstl/1.2.5/javax.servlet.jsp.jstl-1.2.5.jar", Long.valueOf(1531448975000L));
+│    }
+│  
+│    private static final java.util.Set<java.lang.String> _jspx_imports_packages;
+│  
+│    private static final java.util.Set<java.lang.String> _jspx_imports_classes;
+│  
+│    static {
+├── WEB-INF/classes/org/apache/jsp/tag2_jsp.java
+│ @@ -18,15 +18,15 @@
+│    private static final javax.servlet.jsp.JspFactory _jspxFactory =
+│            javax.servlet.jsp.JspFactory.getDefaultFactory();
+│  
+│    private static java.util.Map<java.lang.String,java.lang.Long> _jspx_dependants;
+│  
+│    static {
+│      _jspx_dependants = new java.util.HashMap<java.lang.String,java.lang.Long>(1);
+│ -    _jspx_dependants.put("/WEB-INF/acme-taglib2.tld", Long.valueOf(1742313433800L));
+│ +    _jspx_dependants.put("/WEB-INF/acme-taglib2.tld", Long.valueOf(1742373498054L));
+│    }
+│  
+│    private static final java.util.Set<java.lang.String> _jspx_imports_packages;
+│  
+│    private static final java.util.Set<java.lang.String> _jspx_imports_classes;
+│  
+│    static {
+├── WEB-INF/classes/org/apache/jsp/tag_jsp.java
+│ @@ -18,15 +18,15 @@
+│    private static final javax.servlet.jsp.JspFactory _jspxFactory =
+│            javax.servlet.jsp.JspFactory.getDefaultFactory();
+│  
+│    private static java.util.Map<java.lang.String,java.lang.Long> _jspx_dependants;
+│  
+│    static {
+│      _jspx_dependants = new java.util.HashMap<java.lang.String,java.lang.Long>(1);
+│ -    _jspx_dependants.put("/WEB-INF/acme-taglib.tld", Long.valueOf(1742313433800L));
+│ +    _jspx_dependants.put("/WEB-INF/acme-taglib.tld", Long.valueOf(1742373498054L));
+│    }
+│  
+│    private static final java.util.Set<java.lang.String> _jspx_imports_packages;
+│  
+│    private static final java.util.Set<java.lang.String> _jspx_imports_classes;
+│  
+│    static {
+├── WEB-INF/classes/org/apache/jsp/tagfile_jsp.java
+│ @@ -18,15 +18,15 @@
+│    private static final javax.servlet.jsp.JspFactory _jspxFactory =
+│            javax.servlet.jsp.JspFactory.getDefaultFactory();
+│  
+│    private static java.util.Map<java.lang.String,java.lang.Long> _jspx_dependants;
+│  
+│    static {
+│      _jspx_dependants = new java.util.HashMap<java.lang.String,java.lang.Long>(1);
+│ -    _jspx_dependants.put("/WEB-INF/tags/panel.tag", Long.valueOf(1742313433800L));
+│ +    _jspx_dependants.put("/WEB-INF/tags/panel.tag", Long.valueOf(1742373498054L));
+│    }
+│  
+│    private static final java.util.Set<java.lang.String> _jspx_imports_packages;
+│  
+│    private static final java.util.Set<java.lang.String> _jspx_imports_classes;
+│  
+│    static {
+├── WEB-INF/web.xml
+│ ├── WEB-INF/web.xml
+│ │┄ Ordering differences only
+│ │ @@ -13,82 +13,82 @@
+│ │      <param-name>org.eclipse.jetty.ee8.jsp.precompiled</param-name>
+│ │      <param-value>true</param-value>
+│ │    </context-param>
+│ │    <!--
+│ │  Automatically created by Apache Tomcat JspC.
+│ │  -->
+│ │    <servlet>
+│ │ -    <servlet-name>org.apache.jsp.bean1_jsp</servlet-name>
+│ │ -    <servlet-class>org.apache.jsp.bean1_jsp</servlet-class>
+│ │ +    <servlet-name>org.apache.jsp.bean2_jsp</servlet-name>
+│ │ +    <servlet-class>org.apache.jsp.bean2_jsp</servlet-class>
+│ │ +  </servlet>
+│ │ +  <servlet>
+│ │ +    <servlet-name>org.apache.jsp.tag_jsp</servlet-name>
+│ │ +    <servlet-class>org.apache.jsp.tag_jsp</servlet-class>
+│ │ +  </servlet>
+│ │ +  <servlet>
+│ │ +    <servlet-name>org.apache.jsp.tag2_jsp</servlet-name>
+│ │ +    <servlet-class>org.apache.jsp.tag2_jsp</servlet-class>
+│ │    </servlet>
+│ │    <servlet>
+│ │      <servlet-name>org.apache.jsp.expr_jsp</servlet-name>
+│ │      <servlet-class>org.apache.jsp.expr_jsp</servlet-class>
+│ │    </servlet>
+│ │    <servlet>
+│ │      <servlet-name>org.apache.jsp.dump_jsp</servlet-name>
+│ │      <servlet-class>org.apache.jsp.dump_jsp</servlet-class>
+│ │    </servlet>
+│ │    <servlet>
+│ │ -    <servlet-name>org.apache.jsp.bean2_jsp</servlet-name>
+│ │ -    <servlet-class>org.apache.jsp.bean2_jsp</servlet-class>
+│ │ +    <servlet-name>org.apache.jsp.jstl_jsp</servlet-name>
+│ │ +    <servlet-class>org.apache.jsp.jstl_jsp</servlet-class>
+│ │    </servlet>
+│ │    <servlet>
+│ │ -    <servlet-name>org.apache.jsp.tag2_jsp</servlet-name>
+│ │ -    <servlet-class>org.apache.jsp.tag2_jsp</servlet-class>
+│ │ +    <servlet-name>org.apache.jsp.tagfile_jsp</servlet-name>
+│ │ +    <servlet-class>org.apache.jsp.tagfile_jsp</servlet-class>
+│ │    </servlet>
+│ │    <servlet>
+│ │ -    <servlet-name>org.apache.jsp.jstl_jsp</servlet-name>
+│ │ -    <servlet-class>org.apache.jsp.jstl_jsp</servlet-class>
+│ │ +    <servlet-name>org.apache.jsp.bean1_jsp</servlet-name>
+│ │ +    <servlet-class>org.apache.jsp.bean1_jsp</servlet-class>
+│ │    </servlet>
+│ │    <servlet>
+│ │      <servlet-name>org.apache.jsp.foo.foo_jsp</servlet-name>
+│ │      <servlet-class>org.apache.jsp.foo.foo_jsp</servlet-class>
+│ │    </servlet>
+│ │ -  <servlet>
+│ │ +  <servlet-mapping>
+│ │ +    <servlet-name>org.apache.jsp.bean2_jsp</servlet-name>
+│ │ +    <url-pattern>/bean2.jsp</url-pattern>
+│ │ +  </servlet-mapping>
+│ │ +  <servlet-mapping>
+│ │      <servlet-name>org.apache.jsp.tag_jsp</servlet-name>
+│ │ -    <servlet-class>org.apache.jsp.tag_jsp</servlet-class>
+│ │ -  </servlet>
+│ │ -  <servlet>
+│ │ -    <servlet-name>org.apache.jsp.tagfile_jsp</servlet-name>
+│ │ -    <servlet-class>org.apache.jsp.tagfile_jsp</servlet-class>
+│ │ -  </servlet>
+│ │ +    <url-pattern>/tag.jsp</url-pattern>
+│ │ +  </servlet-mapping>
+│ │    <servlet-mapping>
+│ │ -    <servlet-name>org.apache.jsp.bean1_jsp</servlet-name>
+│ │ -    <url-pattern>/bean1.jsp</url-pattern>
+│ │ +    <servlet-name>org.apache.jsp.tag2_jsp</servlet-name>
+│ │ +    <url-pattern>/tag2.jsp</url-pattern>
+│ │    </servlet-mapping>
+│ │    <servlet-mapping>
+│ │      <servlet-name>org.apache.jsp.expr_jsp</servlet-name>
+│ │      <url-pattern>/expr.jsp</url-pattern>
+│ │    </servlet-mapping>
+│ │    <servlet-mapping>
+│ │      <servlet-name>org.apache.jsp.dump_jsp</servlet-name>
+│ │      <url-pattern>/dump.jsp</url-pattern>
+│ │    </servlet-mapping>
+│ │    <servlet-mapping>
+│ │ -    <servlet-name>org.apache.jsp.bean2_jsp</servlet-name>
+│ │ -    <url-pattern>/bean2.jsp</url-pattern>
+│ │ -  </servlet-mapping>
+│ │ -  <servlet-mapping>
+│ │ -    <servlet-name>org.apache.jsp.tag2_jsp</servlet-name>
+│ │ -    <url-pattern>/tag2.jsp</url-pattern>
+│ │ -  </servlet-mapping>
+│ │ -  <servlet-mapping>
+│ │      <servlet-name>org.apache.jsp.jstl_jsp</servlet-name>
+│ │      <url-pattern>/jstl.jsp</url-pattern>
+│ │    </servlet-mapping>
+│ │    <servlet-mapping>
+│ │ -    <servlet-name>org.apache.jsp.foo.foo_jsp</servlet-name>
+│ │ -    <url-pattern>/foo/foo.jsp</url-pattern>
+│ │ +    <servlet-name>org.apache.jsp.tagfile_jsp</servlet-name>
+│ │ +    <url-pattern>/tagfile.jsp</url-pattern>
+│ │    </servlet-mapping>
+│ │    <servlet-mapping>
+│ │ -    <servlet-name>org.apache.jsp.tag_jsp</servlet-name>
+│ │ -    <url-pattern>/tag.jsp</url-pattern>
+│ │ +    <servlet-name>org.apache.jsp.bean1_jsp</servlet-name>
+│ │ +    <url-pattern>/bean1.jsp</url-pattern>
+│ │    </servlet-mapping>
+│ │    <servlet-mapping>
+│ │ -    <servlet-name>org.apache.jsp.tagfile_jsp</servlet-name>
+│ │ -    <url-pattern>/tagfile.jsp</url-pattern>
+│ │ +    <servlet-name>org.apache.jsp.foo.foo_jsp</servlet-name>
+│ │ +    <url-pattern>/foo/foo.jsp</url-pattern>
+│ │    </servlet-mapping>
+│ │    <!--
+│ │  End of content automatically created by Apache Tomcat JspC.
+│ │  -->
+│ │  </web-app>
+
+# exact same issue
+2 / 8 target/reference/org.eclipse.jetty.demos/jetty-servlet4-demo-jspc-webapp-12.1.0.alpha2-webbundle-ee8.jar jetty-demos/jetty-servlet4-demos/jetty-servlet4-demo-jspc-webapp/target/jetty-servlet4-demo-jspc-webapp-12.1.0.alpha2-webbundle-ee8.jar
+3 / 8 target/reference/org.eclipse.jetty.demos/jetty-servlet5-demo-jspc-webapp-12.1.0.alpha2.war jetty-demos/jetty-servlet5-demos/jetty-servlet5-demo-jspc-webapp/target/jetty-servlet5-demo-jspc-webapp-12.1.0.alpha2.war
+4 / 8 target/reference/org.eclipse.jetty.demos/jetty-servlet5-demo-jspc-webapp-12.1.0.alpha2-webbundle-ee9.jar jetty-demos/jetty-servlet5-demos/jetty-servlet5-demo-jspc-webapp/target/jetty-servlet5-demo-jspc-webapp-12.1.0.alpha2-webbundle-ee9.jar
+5 / 8 target/reference/org.eclipse.jetty.demos/jetty-servlet6-demo-jspc-webapp-12.1.0.alpha2.war jetty-demos/jetty-servlet6-demos/jetty-servlet6-demo-jspc-webapp/target/jetty-servlet6-demo-jspc-webapp-12.1.0.alpha2.war
+6 / 8 target/reference/org.eclipse.jetty.demos/jetty-servlet6-demo-jspc-webapp-12.1.0.alpha2-webbundle-ee10.jar jetty-demos/jetty-servlet6-demos/jetty-servlet6-demo-jspc-webapp/target/jetty-servlet6-demo-jspc-webapp-12.1.0.alpha2-webbundle-ee10.jar
+7 / 8 target/reference/org.eclipse.jetty.demos/jetty-servlet6-demo-jspc-6-1-webapp-12.1.0.alpha2.war jetty-demos/jetty-servlet6-demos/jetty-servlet6-demo-jspc-6-1-webapp/target/jetty-servlet6-demo-jspc-6-1-webapp-12.1.0.alpha2.war
+8 / 8 target/reference/org.eclipse.jetty.demos/jetty-servlet6-demo-jspc-6-1-webapp-12.1.0.alpha2-webbundle-ee11.jar jetty-demos/jetty-servlet6-demos/jetty-servlet6-demo-jspc-6-1-webapp/target/jetty-servlet6-demo-jspc-6-1-webapp-12.1.0.alpha2-webbundle-ee11.jar
