@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/eclipse/jetty.project.git](https://github.com/eclipse/jetty.project.git)
 
-<details><summary>This project defines 327 modules:</summary>
+<details><summary>This project defines 336 modules:</summary>
 
 * [org.eclipse.jetty.build:build](https://central.sonatype.com/artifact/org.eclipse.jetty.build/build/overview)
 * [org.eclipse.jetty.compression:jetty-compression](https://central.sonatype.com/artifact/org.eclipse.jetty.compression/jetty-compression/overview)
@@ -31,6 +31,7 @@ Source code: [https://github.com/eclipse/jetty.project.git](https://github.com/e
 * [org.eclipse.jetty.demos:jetty-servlet4-demo-jetty-webapp](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet4-demo-jetty-webapp/overview)
 * [org.eclipse.jetty.demos:jetty-servlet4-demo-jndi-webapp](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet4-demo-jndi-webapp/overview)
 * [org.eclipse.jetty.demos:jetty-servlet4-demo-jsp-webapp](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet4-demo-jsp-webapp/overview)
+* [org.eclipse.jetty.demos:jetty-servlet4-demo-jspc-webapp](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet4-demo-jspc-webapp/overview)
 * [org.eclipse.jetty.demos:jetty-servlet4-demo-mock-resources](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet4-demo-mock-resources/overview)
 * [org.eclipse.jetty.demos:jetty-servlet4-demo-simple-webapp](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet4-demo-simple-webapp/overview)
 * [org.eclipse.jetty.demos:jetty-servlet4-demo-spec](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet4-demo-spec/overview)
@@ -46,12 +47,20 @@ Source code: [https://github.com/eclipse/jetty.project.git](https://github.com/e
 * [org.eclipse.jetty.demos:jetty-servlet5-demo-jetty-webapp](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet5-demo-jetty-webapp/overview)
 * [org.eclipse.jetty.demos:jetty-servlet5-demo-jndi-webapp](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet5-demo-jndi-webapp/overview)
 * [org.eclipse.jetty.demos:jetty-servlet5-demo-jsp-webapp](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet5-demo-jsp-webapp/overview)
+* [org.eclipse.jetty.demos:jetty-servlet5-demo-jspc-webapp](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet5-demo-jspc-webapp/overview)
 * [org.eclipse.jetty.demos:jetty-servlet5-demo-mock-resources](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet5-demo-mock-resources/overview)
 * [org.eclipse.jetty.demos:jetty-servlet5-demo-simple-webapp](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet5-demo-simple-webapp/overview)
 * [org.eclipse.jetty.demos:jetty-servlet5-demo-spec](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet5-demo-spec/overview)
 * [org.eclipse.jetty.demos:jetty-servlet5-demo-spec-webapp](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet5-demo-spec-webapp/overview)
 * [org.eclipse.jetty.demos:jetty-servlet5-demo-web-fragment](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet5-demo-web-fragment/overview)
 * [org.eclipse.jetty.demos:jetty-servlet5-demos](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet5-demos/overview)
+* [org.eclipse.jetty.demos:jetty-servlet6-demo-embedded](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet6-demo-embedded/overview)
+* [org.eclipse.jetty.demos:jetty-servlet6-demo-jspc-6-1-webapp](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet6-demo-jspc-6-1-webapp/overview)
+* [org.eclipse.jetty.demos:jetty-servlet6-demo-jspc-webapp](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet6-demo-jspc-webapp/overview)
+* [org.eclipse.jetty.demos:jetty-servlet6-demo-mock-resources](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet6-demo-mock-resources/overview)
+* [org.eclipse.jetty.demos:jetty-servlet6-demo-simple-webapp](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet6-demo-simple-webapp/overview)
+* [org.eclipse.jetty.demos:jetty-servlet6-demo-spec-6-1-webapp](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet6-demo-spec-6-1-webapp/overview)
+* [org.eclipse.jetty.demos:jetty-servlet6-demos](https://central.sonatype.com/artifact/org.eclipse.jetty.demos/jetty-servlet6-demos/overview)
 * [org.eclipse.jetty.documentation:code-examples](https://central.sonatype.com/artifact/org.eclipse.jetty.documentation/code-examples/overview)
 * [org.eclipse.jetty.documentation:documentation](https://central.sonatype.com/artifact/org.eclipse.jetty.documentation/documentation/overview)
 * [org.eclipse.jetty.documentation:jetty](https://central.sonatype.com/artifact/org.eclipse.jetty.documentation/jetty/overview)
@@ -338,13 +347,13 @@ Source code: [https://github.com/eclipse/jetty.project.git](https://github.com/e
 * [org.eclipse.jetty:jetty-xml](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-xml/overview)
 </details>
 
-rebuilding **20 releases** of org.eclipse.jetty:jetty-project:
+rebuilding **21 releases** of org.eclipse.jetty:jetty-project:
 - **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [12.1.0.alpha2](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.alpha2/pom) | | | |
+| [12.1.0.alpha2](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.alpha2/pom) | [mvn jdk22](jetty-project-12.1.0.alpha2.buildspec) | [result](jetty-project-12.1.0.alpha2.buildinfo): [929 :white_check_mark:  8 :warning:](jetty-project-12.1.0.alpha2.buildcompare) [:mag:](jetty-project-12.1.0.alpha2.diffoscope) | 322M |
 | [12.1.0.alpha1](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.alpha1/pom) | [mvn jdk22](jetty-project-12.1.0.alpha1.buildspec) | [result](jetty-project-12.1.0.alpha1.buildinfo): [889 :white_check_mark: ](jetty-project-12.1.0.alpha1.buildcompare) | 308M |
 | [12.1.0.alpha0](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.alpha0/pom) | [mvn jdk22](jetty-project-12.1.0.alpha0.buildspec) | [result](jetty-project-12.1.0.alpha0.buildinfo): [890 :white_check_mark: ](jetty-project-12.1.0.alpha0.buildcompare) | 308M |
 | [12.0.18](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.18/pom) | [mvn jdk22](jetty-project-12.0.18.buildspec) | [result](jetty-project-12.0.18.buildinfo): [777 :white_check_mark: ](jetty-project-12.0.18.buildcompare) | 243M |
