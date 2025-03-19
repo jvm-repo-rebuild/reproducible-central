@@ -1,0 +1,18 @@
+groupId=com.github.nbbrd.sdmx-dl
+artifactId=sdmx-dl-parent
+display=com.github.nbbrd.*:sdmx-dl
+version=3.0.0-beta.14
+
+gitRepo=https://github.com/nbbrd/sdmx-dl.git
+gitTag=v${version}
+
+tool=mvn-3.9.9
+jdk=21
+newline=lf
+umask=022
+
+command="mvn -Pbase-deploy clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
