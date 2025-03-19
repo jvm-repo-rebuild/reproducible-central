@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.nbbrd.sdmx-dl</groupId>
+  <artifactId>sdmx-dl-parent</artifactId>
+  <versioning>
+    <latest>3.0.0-beta.14</latest>
+    <release>3.0.0-beta.14</release>
+    <versions>
+      <version>3.0.0-beta.2</version>
+      <version>3.0.0-beta.3</version>
+      <version>3.0.0-beta.4</version>
+      <version>3.0.0-beta.5</version>
+      <version>3.0.0-beta.6</version>
+      <version>3.0.0-beta.7</version>
+      <version>3.0.0-beta.8</version>
+      <version>3.0.0-beta.10</version>
+      <version>3.0.0-beta.11</version>
+      <version>3.0.0-beta.12</version>
+      <version>3.0.0-beta.13</version>
+      <version>3.0.0-beta.14</version>
+    </versions>
+    <lastUpdated>20250224140054</lastUpdated>
+  </versioning>
+</metadata>
