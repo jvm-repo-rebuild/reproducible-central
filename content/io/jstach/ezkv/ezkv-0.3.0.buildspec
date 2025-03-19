@@ -1,0 +1,19 @@
+groupId=io.jstach.ezkv
+artifactId=ezkv-maven-parent
+version=0.3.0
+
+display=${groupId}:ezkv
+
+gitRepo=https://github.com/jstachio/ezkv.git
+gitTag=v${version}
+
+tool=mvn-3.9.9
+jdk=21
+newline=lf
+#umask=022
+
+command="bin/rebuild.sh -Denforcer.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
