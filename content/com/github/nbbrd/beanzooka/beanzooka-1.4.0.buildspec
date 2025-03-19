@@ -1,0 +1,18 @@
+groupId=com.github.nbbrd.beanzooka
+artifactId=beanzooka
+display=com.github.nbbrd.*:beanzooka
+version=1.4.0
+
+gitRepo=https://github.com/nbbrd/beanzooka.git
+gitTag=v${version}
+
+tool=mvn
+jdk=21
+newline=lf
+umask=022
+
+command="mvn -Pbase-deploy clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
