@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quarkusio/quarkus.git)
 
-<details><summary>This project defines 1032 modules:</summary>
+<details><summary>This project defines 1034 modules:</summary>
 
 * [io.quarkus.arc:arc](https://central.sonatype.com/artifact/io.quarkus.arc/arc/overview)
 * [io.quarkus.arc:arc-arquillian](https://central.sonatype.com/artifact/io.quarkus.arc/arc-arquillian/overview)
@@ -469,11 +469,13 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-kubernetes-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-kubernetes-spi/overview)
 * [io.quarkus:quarkus-kubernetes-vanilla-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-kubernetes-vanilla-parent/overview)
 * [io.quarkus:quarkus-liquibase](https://central.sonatype.com/artifact/io.quarkus/quarkus-liquibase/overview)
+* [io.quarkus:quarkus-liquibase-common](https://central.sonatype.com/artifact/io.quarkus/quarkus-liquibase-common/overview)
 * [io.quarkus:quarkus-liquibase-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-liquibase-deployment/overview)
 * [io.quarkus:quarkus-liquibase-mongodb](https://central.sonatype.com/artifact/io.quarkus/quarkus-liquibase-mongodb/overview)
 * [io.quarkus:quarkus-liquibase-mongodb-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-liquibase-mongodb-deployment/overview)
 * [io.quarkus:quarkus-liquibase-mongodb-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-liquibase-mongodb-parent/overview)
 * [io.quarkus:quarkus-liquibase-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-liquibase-parent/overview)
+* [io.quarkus:quarkus-liquibase-parent-aggregator](https://central.sonatype.com/artifact/io.quarkus/quarkus-liquibase-parent-aggregator/overview)
 * [io.quarkus:quarkus-load-shedding](https://central.sonatype.com/artifact/io.quarkus/quarkus-load-shedding/overview)
 * [io.quarkus:quarkus-load-shedding-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-load-shedding-deployment/overview)
 * [io.quarkus:quarkus-load-shedding-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-load-shedding-parent/overview)
@@ -1043,13 +1045,13 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **69 releases** of io.quarkus:quarkus-project:
+rebuilding **70 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 69 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 70 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.21.0](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.21.0/pom) | | | |
+| [3.21.0](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.21.0/pom) | [mvn jdk17](quarkus-3.21.0.buildspec) | [result](quarkus-project-3.21.0.buildinfo): [2253 :white_check_mark:  7 :warning:](quarkus-project-3.21.0.buildcompare) [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | 131M |
 | [3.21.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.21.0.CR1/pom) | [mvn jdk17](quarkus-3.21.0.CR1.buildspec) | [result](quarkus-project-3.21.0.CR1.buildinfo): [2249 :white_check_mark:  7 :warning:](quarkus-project-3.21.0.CR1.buildcompare) [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | 131M |
 | [3.20.0](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.20.0/pom) | | | |
 | [3.20.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.20.0.CR1/pom) | [mvn jdk17](quarkus-3.20.0.CR1.buildspec) | [result](quarkus-project-3.20.0.CR1.buildinfo): [2243 :white_check_mark:  7 :warning:](quarkus-project-3.20.0.CR1.buildcompare) [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | 131M |
