@@ -13,6 +13,7 @@ rebuilding **1 releases** of net.revelc.code.formatter:formatter-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.26.0](https://central.sonatype.com/artifact/net.revelc.code.formatter/formatter-maven-plugin/2.26.0/pom) | | | |
 | [2.25.0](https://central.sonatype.com/artifact/net.revelc.code.formatter/formatter-maven-plugin/2.25.0/pom) | [mvn jdk17](formatter-maven-plugin-2.25.0.buildspec) | [result](formatter-maven-plugin-2.25.0.buildinfo): [3 :white_check_mark: ](formatter-maven-plugin-2.25.0.buildcompare) | 141K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

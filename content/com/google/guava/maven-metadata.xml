@@ -3,8 +3,8 @@
   <groupId>com.google.guava</groupId>
   <artifactId>guava</artifactId>
   <versioning>
-    <latest>33.4.0-jre</latest>
-    <release>33.4.0-jre</release>
+    <latest>33.4.5-jre</latest>
+    <release>33.4.5-jre</release>
     <versions>
       <version>r03</version>
       <version>r05</version>
@@ -140,7 +140,17 @@
       <version>33.3.1-jre</version>
       <version>33.4.0-android</version>
       <version>33.4.0-jre</version>
+      <version>33.4.1-android</version>
+      <version>33.4.1-jre</version>
+      <version>33.4.2-android</version>
+      <version>33.4.2-jre</version>
+      <version>33.4.3-android</version>
+      <version>33.4.3-jre</version>
+      <version>33.4.4-android</version>
+      <version>33.4.4-jre</version>
+      <version>33.4.5-android</version>
+      <version>33.4.5-jre</version>
     </versions>
-    <lastUpdated>20241216222210</lastUpdated>
+    <lastUpdated>20250319222105</lastUpdated>
   </versioning>
 </metadata>

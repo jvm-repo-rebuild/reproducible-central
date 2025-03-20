@@ -4,11 +4,14 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250319173654 --> [activemq-parent](../content/org/apache/activemq/README.md) | [6.1.6](../content/org/apache/activemq/activemq-6.1.6.buildspec) :white_check_mark: | 5.18.7  | `bin/add-new-release.sh content/org/apache/activemq/activemq-6.1.6.buildspec ...` |
-| <!-- 20250319171455 --> [airbase](../content/io/airlift/airbase/README.md) | [234](../content/io/airlift/airbase/airbase-234.buildspec) :white_check_mark: | [235](../content/io/airlift/airbase/airbase-235.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-234.buildspec 235` |
-| <!-- 20250319112618 --> [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | [0.7.0](../content/eu/maveniverse/maven/toolbox/toolbox-0.7.0.buildspec) :white_check_mark: | [0.7.1](../content/eu/maveniverse/maven/toolbox/toolbox-0.7.1.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/toolbox/toolbox-0.7.0.buildspec 0.7.1` |
-| <!-- 20250319112319 --> [scg-base](../content/io/telicent/smart-caches/graph/scg-base/README.md) | [0.83.4](../content/io/telicent/smart-caches/graph/scg-base/scg-base-0.83.4.buildspec) :white_check_mark: | [0.83.5](../content/io/telicent/smart-caches/graph/scg-base/scg-base-0.83.5.buildspec) | `bin/add-new-release.sh content/io/telicent/smart-caches/graph/scg-base/scg-base-0.83.4.buildspec 0.83.5` |
-| <!-- 20250319104507 --> [avaje-jsonb-parent](../content/io/avaje/jsonb/README.md) | [3.1](../content/io/avaje/jsonb/avaje-jsonb-3.1.buildspec) :white_check_mark: | [3.2-RC1](../content/io/avaje/jsonb/avaje-jsonb-3.2-RC1.buildspec) | `bin/add-new-release.sh content/io/avaje/jsonb/avaje-jsonb-3.1.buildspec 3.2-RC1` |
+| <!-- 20250320194638 --> [formatter-maven-plugin](../content/net/revelc/code/formatter/formatter-maven-plugin/README.md) | [2.25.0](../content/net/revelc/code/formatter/formatter-maven-plugin/formatter-maven-plugin-2.25.0.buildspec) :white_check_mark: | [2.26.0](../content/net/revelc/code/formatter/formatter-maven-plugin/formatter-maven-plugin-2.26.0.buildspec) | `bin/add-new-release.sh content/net/revelc/code/formatter/formatter-maven-plugin/formatter-maven-plugin-2.25.0.buildspec 2.26.0` |
+| <!-- 20250320180151 --> [org.apache.sling.testing.sling-mock](../content/org/apache/sling/org.apache.sling.testing.sling-mock/README.md) | [3.5.2](../content/org/apache/sling/org.apache.sling.testing.sling-mock/org.apache.sling.testing.sling-mock-3.5.2.buildspec) :white_check_mark: | [3.5.4](../content/org/apache/sling/org.apache.sling.testing.sling-mock/org.apache.sling.testing.sling-mock-3.5.4.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.testing.sling-mock/org.apache.sling.testing.sling-mock-3.5.2.buildspec 3.5.4` |
+| <!-- 20250320172712 --> [activemq-parent](../content/org/apache/activemq/README.md) | [6.1.6](../content/org/apache/activemq/activemq-6.1.6.buildspec) :white_check_mark: | 5.17.7  | `bin/add-new-release.sh content/org/apache/activemq/activemq-6.1.6.buildspec ...` |
+| <!-- 20250320020854 --> [avaje-jsonb-parent](../content/io/avaje/jsonb/README.md) | [3.2-RC1](../content/io/avaje/jsonb/avaje-jsonb-3.2-RC1.buildspec) :white_check_mark: | [3.2-RC2](../content/io/avaje/jsonb/avaje-jsonb-3.2-RC2.buildspec) | `bin/add-new-release.sh content/io/avaje/jsonb/avaje-jsonb-3.2-RC1.buildspec 3.2-RC2` |
+| <!-- 20250320014016 --> [trino-root](../content/io/trino/README.md) | [472](../content/io/trino/trino-472.buildspec) :white_check_mark: | [473](../content/io/trino/trino-473.buildspec) | `bin/add-new-release.sh content/io/trino/trino-472.buildspec 473` |
+| <!-- 20250320003304 --> [airbase](../content/io/airlift/airbase/README.md) | [235](../content/io/airlift/airbase/airbase-235.buildspec) :white_check_mark: | [236](../content/io/airlift/airbase/airbase-236.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-235.buildspec 236` |
+| <!-- 20250319222105 --> [guava](../content/com/google/guava/README.md) | [33.4.0-jre](../content/com/google/guava/guava-33.4.0-jre.buildspec) :white_check_mark: | [33.4.5-jre](../content/com/google/guava/guava-33.4.5-jre.buildspec) | `bin/add-new-release.sh content/com/google/guava/guava-33.4.0-jre.buildspec 33.4.5-jre` |
+| <!-- 20250319222105 --> [guava](../content/com/google/guava/README.md) | [33.4.0-jre](../content/com/google/guava/guava-33.4.0-jre.buildspec) :white_check_mark: | 33.4.5-android 33.4.4-jre 33.4.4-android 33.4.3-jre 33.4.3-android 33.4.2-jre 33.4.2-android 33.4.1-jre 33.4.1-android  | `bin/add-new-release.sh content/com/google/guava/guava-33.4.0-jre.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -26,8 +29,6 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD STAGING -->
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
-| <!-- 20250111140352 --> [:mailbox:](https://lists.apache.org/list?dev@commons.apache.org:lte=1M:VOTE) | [commons-csv](../content/org/apache/commons/csv/README.md) | [1.13.0](../content/org/apache/commons/csv/commons-csv-1.13.0.buildspec) :warning: | [1.14.0](../content/org/apache/commons/csv/commons-csv-1.14.0.buildspec)  | `bin/add-new-release.sh content/org/apache/commons/csv/commons-csv-1.13.0.buildspec 1.14.0 staging` |
-| <!-- 20240826081855 --> [:mailbox:](https://lists.apache.org/list?dev@sling.apache.org:lte=1M:VOTE) | [org.apache.sling.testing.sling-mock](../content/org/apache/sling/org.apache.sling.testing.sling-mock/README.md) | [3.5.2](../content/org/apache/sling/org.apache.sling.testing.sling-mock/org.apache.sling.testing.sling-mock-3.5.2.buildspec) :white_check_mark: | [3.5.4](../content/org/apache/sling/org.apache.sling.testing.sling-mock/org.apache.sling.testing.sling-mock-3.5.4.buildspec)  | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.testing.sling-mock/org.apache.sling.testing.sling-mock-3.5.2.buildspec 3.5.4 staging` |
 | <!-- 20240118001405 --> [:mailbox:](https://lists.apache.org/list?dev@directory.apache.org:lte=1M:VOTE) | [scimple](../content/org/apache/directory/scimple/README.md) | [1.0.0-M1](../content/org/apache/directory/scimple/scimple-1.0.0-M1.buildspec) :warning: | [1.0.0-M2](../content/org/apache/directory/scimple/scimple-1.0.0-M2.buildspec)  | `bin/add-new-release.sh content/org/apache/directory/scimple/scimple-1.0.0-M1.buildspec 1.0.0-M2 staging` |
 | <!-- 20230224162220 --> [:mailbox:](https://lists.apache.org/list?dev@karaf.apache.org:lte=1M:VOTE) | [decanter](../content/org/apache/karaf/decanter/README.md) | [2.10.0](../content/org/apache/karaf/decanter/karaf-decanter-2.10.0.buildspec) :warning: | [2.11.0](../content/org/apache/karaf/decanter/karaf-decanter-2.11.0.buildspec)  | `bin/add-new-release.sh content/org/apache/karaf/decanter/karaf-decanter-2.10.0.buildspec 2.11.0 staging` |
 <!-- END GENERATED ADD STAGING -->
@@ -37,9 +38,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250319120632 --> [quarkus-project](../content/io/quarkus/README.md) | [3.21.0.CR1](../content/io/quarkus/quarkus-3.21.0.CR1.buildspec) :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | [3.21.0](../content/io/quarkus/quarkus-3.21.0.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.21.0.CR1.buildspec 3.21.0` |
+| <!-- 20250320011240 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.74.0](../content/org/finos/legend/engine/legend-engine-4.74.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.74.0` |
+| <!-- 20250319220703 --> [commons-csv](../content/org/apache/commons/csv/README.md) | [1.13.0](../content/org/apache/commons/csv/commons-csv-1.13.0.buildspec) :warning: | [1.14.0](../content/org/apache/commons/csv/commons-csv-1.14.0.buildspec) | `bin/add-new-release.sh content/org/apache/commons/csv/commons-csv-1.13.0.buildspec 1.14.0` |
 | <!-- 20250317021621 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.20.1](../content/org/webjars/swagger-ui/swagger-ui-5.20.1.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.20.1` |
-| <!-- 20250312195206 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.73.0](../content/org/finos/legend/engine/legend-engine-4.73.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.73.0` |
 | <!-- 20250311162322 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.0.4](../content/com/taobao/arthas/arthas-4.0.4.buildspec) :warning: | [4.0.5](../content/com/taobao/arthas/arthas-4.0.5.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.0.4.buildspec 4.0.5` |
 | <!-- 20250309102258 --> [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.10.2](../content/org/apache/camel/camel/camel-4.10.2.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.10.2` |
 | <!-- 20250304091455 --> [io.wcm.wcm.ui.granite](../content/io/wcm/io.wcm.wcm/ui/granite/README.md) | [1.9.12](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec) :warning: | [1.10.6](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.10.6.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec 1.10.6` |
@@ -54,6 +55,8 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20250320144853 --> [orc](../content/org/apache/orc/README.md) | 2.1.1 :warning: |
+| <!-- 20250319120632 --> [quarkus-project](../content/io/quarkus/README.md) | 3.21.0 :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) |
 | <!-- 20250318182511 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | 12.1.0.alpha2 :warning: |
 | <!-- 20250318072122 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | 1.9.3 :warning: |
 | <!-- 20250317121336 --> [crypto-commons](../content/net/osslabz/crypto-commons/README.md) | 0.6.1 :warning: [:memo:](https://github.com/osslabz/crypto-commons/pull/54) |
@@ -73,7 +76,6 @@ New Releases To Add
 | <!-- 20250308192052 --> [jpmml-transpiler](../content/org/jpmml/jpmml-transpiler/README.md) | 1.4.1 :warning: |
 | <!-- 20250308161859 --> [jpmml-converter](../content/org/jpmml/jpmml-converter/README.md) | 1.6.1 :warning: |
 | <!-- 20250308125140 --> [jpmml-evaluator](../content/org/jpmml/jpmml-evaluator/README.md) | 1.7.2 :warning: |
-| <!-- 20250306143918 --> [orc](../content/org/apache/orc/README.md) | 2.1.1 :warning: |
 | <!-- 20250305103018 --> [protostream-aggregator](../content/org/infinispan/protostream/README.md) | 6.0.0.Dev05 :x: |
 | <!-- 20250303160124 --> [eforms-sdk-analyzer](../content/eu/europa/ted/eforms/eforms-sdk-analyzer/README.md) | 1.13.1 :warning: |
 | <!-- 20250303122342 --> [flink-kubernetes-operator-parent](../content/org/apache/flink/flink-kubernetes-operator/README.md) | 1.11.0 :warning: |
@@ -112,7 +114,6 @@ New Releases To Add
 | <!-- 20250121145905 --> [jena](../content/org/apache/jena/jena/README.md) | 5.3.0 :warning: |
 | <!-- 20250117094427 --> [org.apache.sling.starter](../content/org/apache/sling/org.apache.sling.starter/README.md) | 13 :warning: |
 | <!-- 20250114121312 --> [commons-daemon](../content/org/apache/commons/commons-daemon/README.md) | 1.4.1 :warning: |
-| <!-- 20250111140352 --> [commons-csv](../content/org/apache/commons/csv/README.md) | 1.13.0 :warning: |
 | <!-- 20250111133702 --> [commons-release-plugin](../content/org/apache/commons/commons-release-plugin/README.md) | 1.9.0 :warning: |
 | <!-- 20250107124852 --> [commons-beanutils2](../content/org/apache/commons/commons-beanutils2/README.md) | 2.0.0-M1 :warning: [:memo:](https://lists.apache.org/thread/5m2sq74rqyws91onxmk77jty239qtfd8) |
 | <!-- 20250106163714 --> [env-config](../content/com/github/sitture/env-config/README.md) | 1.13.1 :x: |
