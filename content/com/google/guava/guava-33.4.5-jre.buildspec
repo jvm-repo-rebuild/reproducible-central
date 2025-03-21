@@ -1,0 +1,19 @@
+groupId=com.google.guava
+artifactId=guava
+version=33.4.5-jre
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/google/${artifactId}.git
+gitTag=v$(echo "${version}" | cut -d '-' -f 1)
+
+tool=mvn-3.9.9
+jdk=11
+newline=lf
+umask=007
+
+command="mvn clean verify -Psonatype-oss-release -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-parent-${version}.buildinfo
+
+#diffoscope=${artifactId}-parent-${version}.diffoscope
+issue=
