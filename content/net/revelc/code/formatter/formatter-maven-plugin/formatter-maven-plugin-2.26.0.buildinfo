@@ -1,0 +1,40 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=formatter-maven-plugin
+group-id=net.revelc.code.formatter
+artifact-id=formatter-maven-plugin
+version=2.26.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/revelc/formatter-maven-plugin.git
+source.scm.tag=formatter-maven-plugin-2.26.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.14
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=net.revelc.code.formatter
+outputs.0.filename=formatter-maven-plugin-2.26.0.pom
+outputs.0.length=9046
+outputs.0.checksums.sha512=88adbc59714fadd51fb692296e66a162af52aded15b054dfa0d2eeb89999ba1d549623660cbb10c2aaae824877c52129c90c52e3c18d9ae1694e85319f15ae1b
+
+outputs.1.groupId=net.revelc.code.formatter
+outputs.1.filename=formatter-maven-plugin-2.26.0.jar
+outputs.1.length=75093
+outputs.1.checksums.sha512=7207c93531255900d8064f2a52e2bd9aa2867a512868781de92754a042168de601c205fe226e0781ea85e188bb0e1fca65e12e2b25d2d07597963b85d67cb420
+
+outputs.2.groupId=net.revelc.code.formatter
+outputs.2.filename=formatter-maven-plugin-2.26.0-sources.jar
+outputs.2.length=58177
+outputs.2.checksums.sha512=175bc6edab8bb21165d397c284ac635d606e600db885284052f4c956ba804cebe31061bc201b81067997d5a3983bbab339bc82dc1424e83ebc26ba0cdbcbdff5
