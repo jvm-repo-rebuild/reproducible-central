@@ -1,6 +1,8 @@
 content/com/google/guava/guava-33.4.0-jre.buildspec:33.4.5-jre
+content/eu/maveniverse/maven/toolbox/toolbox-0.7.1.buildspec:0.7.2
 content/io/trino/trino-472.buildspec:473
-content/io/airlift/airbase/airbase-235.buildspec:236
-content/io/avaje/jsonb/avaje-jsonb-3.2-RC1.buildspec:3.2-RC2
-content/net/revelc/code/formatter/formatter-maven-plugin/formatter-maven-plugin-2.25.0.buildspec:2.26.0
+content/io/airlift/airbase/airbase-236.buildspec:237
+content/io/avaje/jsonb/avaje-jsonb-3.2-RC2.buildspec:3.2
+content/net/bytebuddy/byte-buddy-1.17.2.buildspec:1.17.3
 content/org/apache/sling/org.apache.sling.testing.sling-mock/org.apache.sling.testing.sling-mock-3.5.2.buildspec:3.5.4
+content/org/junit/junit5/junit5-5.12.1.buildspec:5.13.0-M1
