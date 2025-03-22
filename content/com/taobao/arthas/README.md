@@ -38,9 +38,9 @@ Source code: [https://github.com/alibaba/arthas.git](https://github.com/alibaba/
 * [com.taobao.arthas:web-ui](https://central.sonatype.com/artifact/com.taobao.arthas/web-ui/overview)
 </details>
 
-rebuilding **32 releases** of com.taobao.arthas:arthas-all:
+rebuilding **33 releases** of com.taobao.arthas:arthas-all:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 32 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 33 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -62,7 +62,7 @@ rebuilding **32 releases** of com.taobao.arthas:arthas-all:
 | [3.6.4](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.6.4/pom) | [mvn jdk8](arthas-3.6.4.buildspec) | [result](arthas-all-3.6.4.buildinfo): [29 :white_check_mark:  22 :warning:](arthas-all-3.6.4.buildcompare) | 86M |
 | [3.6.3](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.6.3/pom) | [mvn jdk8](arthas-3.6.3.buildspec) | [result](arthas-all-3.6.3.buildinfo): [49 :white_check_mark:  4 :warning:](arthas-all-3.6.3.buildcompare) | 85M |
 | [3.6.2](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.6.2/pom) | | | |
-| [3.6.1](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.6.1/pom) | | | |
+| [3.6.1](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.6.1/pom) | [mvn jdk8](arthas-3.6.1.buildspec) | [result](arthas-all-3.6.1.buildinfo): [48 :white_check_mark:  5 :warning:](arthas-all-3.6.1.buildcompare) | 82M |
 | [3.6.0](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.6.0/pom) | [mvn jdk8](arthas-3.6.0.buildspec) | [result](arthas-all-3.6.0.buildinfo): [48 :white_check_mark:  5 :warning:](arthas-all-3.6.0.buildcompare) [:mag:](arthas-all-3.6.0.diffoscope) | 82M |
 | [3.5.6](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.5.6/pom) | | | |
 | [3.5.5](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.5.5/pom) | | | |
