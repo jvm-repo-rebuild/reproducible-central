@@ -38,13 +38,13 @@ Source code: [https://github.com/alibaba/arthas.git](https://github.com/alibaba/
 * [com.taobao.arthas:web-ui](https://central.sonatype.com/artifact/com.taobao.arthas/web-ui/overview)
 </details>
 
-rebuilding **30 releases** of com.taobao.arthas:arthas-all:
+rebuilding **31 releases** of com.taobao.arthas:arthas-all:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 30 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 31 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.0.5](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/4.0.5/pom) | | | |
+| [4.0.5](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/4.0.5/pom) | [mvn jdk21](arthas-4.0.5.buildspec) | [result](arthas-all-4.0.5.buildinfo): [38 :white_check_mark:  35 :warning:](arthas-all-4.0.5.buildcompare) [:memo:](https://github.com/alibaba/arthas/pull/3001) | 168M |
 | [4.0.4](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/4.0.4/pom) | [mvn jdk21](arthas-4.0.4.buildspec) | [result](arthas-all-4.0.4.buildinfo): [6 :white_check_mark:  67 :warning:](arthas-all-4.0.4.buildcompare) | 167M |
 | [4.0.3](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/4.0.3/pom) | | | |
 | [4.0.2](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/4.0.2/pom) | [mvn jdk21](arthas-4.0.2.buildspec) | [result](arthas-all-4.0.2.buildinfo): [31 :white_check_mark:  27 :warning:](arthas-all-4.0.2.buildcompare) [:memo:](https://github.com/alibaba/arthas/pull/3001) | 99M |
