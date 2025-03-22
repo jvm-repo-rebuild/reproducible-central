@@ -6,7 +6,7 @@ version=474
 gitRepo=https://github.com/trinodb/trino.git
 gitTag=${version}
 
-tool=mvn-3.9.8
+tool=mvn-3.9.9
 jdk=23
 newline=lf
 timezone="Etc/UTC"
