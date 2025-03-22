@@ -1,0 +1,9 @@
+version=33.4.3-jre
+ok=14
+ko=0
+ignored=0
+okFiles="guava-parent-33.4.3-jre.pom guava-33.4.3-jre.pom guava-33.4.3-jre.jar guava-33.4.3-jre-sources.jar guava-33.4.3-jre.module guava-bom-33.4.3-jre.pom guava-testlib-33.4.3-jre.pom guava-testlib-33.4.3-jre.jar guava-testlib-33.4.3-jre-sources.jar guava-testlib-33.4.3-jre-tests.jar guava-testlib-33.4.3-jre-test-sources.jar guava-gwt-33.4.3-jre.pom guava-gwt-33.4.3-jre.jar guava-gwt-33.4.3-jre-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
