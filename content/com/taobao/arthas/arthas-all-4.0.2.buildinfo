@@ -13,11 +13,13 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# build environment information (simplified for reproducibility)
-java.version=21
-os.name=Unix
+# effective build environment information
+java.version=21.0.5
+java.vendor=Ubuntu
+os.name=Linux
 
 # Maven rebuild instructions and effective environment
+mvn.version=3.6.3
 mvn.aggregate.artifact-id=arthas-grpc-web-proxy
 
 # aggregated output
@@ -259,23 +261,23 @@ outputs.14.0.checksums.sha512=a1b282d44aefd39483e28fb67cad8563902a62d8e0dcd0aafd
 
 outputs.14.1.groupId=com.taobao.arthas
 outputs.14.1.filename=arthas-packaging-4.0.2.jar
-outputs.14.1.length=16014137
-outputs.14.1.checksums.sha512=ee856b9e3a74a0502c36957c324439f8f28dc1d1755b065d267c483729f7616a44023580a91306b8edac12f2a1e829018574ce04946e2b7edb646d39634c72d5
+outputs.14.1.length=16013989
+outputs.14.1.checksums.sha512=4da16006598fd18db20f9a3396e21190bed93169af4240da20a9a7fb4bae8683611f74e974c719c2c9f4ae64d688f6902b9c9ce497ff22276bf7c30418f87b32
 
 outputs.14.2.groupId=com.taobao.arthas
 outputs.14.2.filename=arthas-packaging-4.0.2-bin.zip
-outputs.14.2.length=16013068
-outputs.14.2.checksums.sha512=f54c7ce598e392fab573872f313e1a3d47ec23ba8c5e0f63e2fe9ada501cf5141a6fce392eda14b480bccab6de7f67b9ed8e5f71bc164a2aa86a53c7b7b43088
+outputs.14.2.length=16012913
+outputs.14.2.checksums.sha512=91a455e6a2d30a370e4884fdbc28ca43191ac420c56decca6d1e0c0bb58e55b5bf8a320247471b4855cbd748d6384ff4d4e4a7ecdcf9e286ed091b49add9fd9a
 
 outputs.14.3.groupId=com.taobao.arthas
 outputs.14.3.filename=arthas-packaging-4.0.2-doc.zip
-outputs.14.3.length=5836342
-outputs.14.3.checksums.sha512=8076f2f45bbe211a0be8581fbaef10b4122f35c7f9505331047be1276083ddd06f78629061e2d98f42cd4619c4dd5648007d24a5ec5441997de263e44a8987dd
+outputs.14.3.length=5835387
+outputs.14.3.checksums.sha512=506a28f45d2a0086147df89351744b5bd4d44a40f2b5a299ee05462eb66327c707336e6a3fcea6243e1d860cde648aade4a8027b33b98b79e2470bad294d794c
 
 outputs.14.4.groupId=com.taobao.arthas
 outputs.14.4.filename=arthas-packaging-4.0.2.deb
-outputs.14.4.length=16023488
-outputs.14.4.checksums.sha512=89da8148dd8b15285c072e36646a7ec534e8709dc31fc6f3ae7b40b08e16f7346b885fe87babccd76f5d4d56ed303cef06b8b692a0617f21c30e5ecde204a297
+outputs.14.4.length=16023186
+outputs.14.4.checksums.sha512=740d9d6ca80dbb58c21e8c3c9112548220441b28bbf10fd8bd5905c56acd0021ef36872c04b7c7d8ce2894b8ac9c09a0815ac631f6d2368e357320474d307ff6
 
 outputs.15.coordinates=com.taobao.arthas:arthas-spring-boot-starter
 
