@@ -1,0 +1,102 @@
+# no idea how this can happen: not using an official Maven?
+1 / 54 target/reference/com.taobao.arthas/math-game-4.0.0.pom math-game/.flattened-pom.xml
+--- target/reference/com.taobao.arthas/math-game-4.0.0.pom
++++ math-game/.flattened-pom.xml
+│   --- target/reference/com.taobao.arthas/math-game-4.0.0.pom
+├── +++ math-game/.flattened-pom.xml
+│┄ Ordering differences only
+│ @@ -58,16 +58,16 @@
+│      <lifecycle-mapping.version>1.0.0</lifecycle-mapping.version>
+│      <netty.version>4.1.112.Final</netty.version>
+│      <arguments/>
+│      <spring-boot3.version>3.1.7</spring-boot3.version>
+│      <spring-boot.version>2.7.18</spring-boot.version>
+│      <maven.compiler.target>1.8</maven.compiler.target>
+│      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+│ -    <maven-invoker-plugin.version>3.0.0</maven-invoker-plugin.version>
+│      <revision>4.0.0</revision>
+│ +    <maven-invoker-plugin.version>3.0.0</maven-invoker-plugin.version>
+│      <sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</sonatypeOssDistMgmtSnapshotsUrl>
+│      <maven.compiler.source>1.8</maven.compiler.source>
+│    </properties>
+│    <repositories>
+│      <repository>
+│        <releases>
+│          <enabled>false</enabled>
+
+2 / 54 target/reference/com.taobao.arthas/math-game-4.0.0.jar math-game/target/math-game.jar
+--- target/reference/com.taobao.arthas/math-game-4.0.0.jar
++++ math-game/target/math-game.jar
+├── zipinfo {}
+│ @@ -1,12 +1,11 @@
+│ -Zip file size: 4509 bytes, number of entries: 10
+│ +Zip file size: 4122 bytes, number of entries: 9
+│  -rw-r--r--  2.0 unx      233 b- defN 20-Sep-27 15:10 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 demo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/math-game/
+│ --rw-r--r--  2.0 unx      588 b- defN 20-Sep-27 15:10 arthas-git.properties
+│  -rw-r--r--  2.0 unx     3128 b- defN 20-Sep-27 15:10 demo/MathGame.class
+│  -rw-r--r--  2.0 unx     3475 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/math-game/pom.xml
+│  -rw-r--r--  2.0 unx       61 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/math-game/pom.properties
+│ -10 files, 7485 bytes uncompressed, 3183 bytes compressed:  57.5%
+│ +9 files, 6897 bytes uncompressed, 2914 bytes compressed:  57.7%
+├── zipnote «TEMP»/diffoscope_85l5z__q_target/tmplajarzf9_.zip
+│ @@ -12,17 +12,14 @@
+│  
+│  Filename: META-INF/maven/com.taobao.arthas/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/com.taobao.arthas/math-game/
+│  Comment: 
+│  
+│ -Filename: arthas-git.properties
+│ -Comment: 
+│ -
+│  Filename: demo/MathGame.class
+│  Comment: 
+│  
+│  Filename: META-INF/maven/com.taobao.arthas/math-game/pom.xml
+│  Comment: 
+│  
+│  Filename: META-INF/maven/com.taobao.arthas/math-game/pom.properties
+
+3 / 54 target/reference/com.taobao.arthas/math-game-4.0.0-sources.jar math-game/target/math-game-sources.jar
+--- target/reference/com.taobao.arthas/math-game-4.0.0-sources.jar
++++ math-game/target/math-game-sources.jar
+├── zipinfo {}
+│ @@ -1,12 +1,11 @@
+│ -Zip file size: 3088 bytes, number of entries: 10
+│ +Zip file size: 2985 bytes, number of entries: 9
+│  -rw-r--r--  2.0 unx       64 b- defN 20-Sep-27 15:10 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 arthas-output/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 demo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/math-game/
+│  -rw-r--r--  2.0 unx     1759 b- defN 20-Sep-27 15:10 demo/MathGame.java
+│  -rw-r--r--  2.0 unx     3475 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/math-game/pom.xml
+│  -rw-r--r--  2.0 unx       61 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/math-game/pom.properties
+│ -10 files, 5359 bytes uncompressed, 1778 bytes compressed:  66.8%
+│ +9 files, 5359 bytes uncompressed, 1779 bytes compressed:  66.8%
+├── zipnote «TEMP»/diffoscope_7emel2th_target/tmpinx5v3ka_.zip
+│ @@ -1,16 +1,13 @@
+│  Filename: META-INF/MANIFEST.MF
+│  Comment: 
+│  
+│  Filename: META-INF/
+│  Comment: 
+│  
+│ -Filename: arthas-output/
+│ -Comment: 
+│ -
+│  Filename: demo/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/com.taobao.arthas/
