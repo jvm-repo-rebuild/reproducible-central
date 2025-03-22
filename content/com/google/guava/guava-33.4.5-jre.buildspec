@@ -14,6 +14,7 @@ umask=007
 
 command="mvn clean verify -Psonatype-oss-release -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-parent-${version}.buildinfo
+execBefore="find . -type d -exec chmod g+s {} \;"
 
 #diffoscope=${artifactId}-parent-${version}.diffoscope
 issue=
