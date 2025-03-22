@@ -6,7 +6,7 @@ version=3.4.7
 gitRepo=https://github.com/alibaba/arthas.git
 gitTag=${artifactId}-${version}
 
-tool=mvn
+tool=mvn-3.5.4
 jdk=8
 newline=lf
 

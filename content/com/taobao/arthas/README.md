@@ -37,9 +37,9 @@ Source code: [https://github.com/alibaba/arthas.git](https://github.com/alibaba/
 * [com.taobao.arthas:web-ui](https://central.sonatype.com/artifact/com.taobao.arthas/web-ui/overview)
 </details>
 
-rebuilding **16 releases** of com.taobao.arthas:arthas-all:
+rebuilding **17 releases** of com.taobao.arthas:arthas-all:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 16 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 17 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -71,7 +71,7 @@ rebuilding **16 releases** of com.taobao.arthas:arthas-all:
 | [3.5.1](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.5.1/pom) | [mvn jdk8](arthas-3.5.1.buildspec) | [result](arthas-all-3.5.1.buildinfo): [48 :white_check_mark:  5 :warning:](arthas-all-3.5.1.buildcompare) [:mag:](arthas-all-3.5.1.diffoscope) | 80M |
 | [3.5.0](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.5.0/pom) | [mvn jdk8](arthas-3.5.0.buildspec) | [result](arthas-all-3.5.0.buildinfo): [48 :white_check_mark:  5 :warning:](arthas-all-3.5.0.buildcompare) | 80M |
 | [3.4.8](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.4.8/pom) | [mvn jdk8](arthas-3.4.8.buildspec) | [result](arthas-all-3.4.8.buildinfo): [48 :white_check_mark:  5 :warning:](arthas-all-3.4.8.buildcompare) [:mag:](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/taobao/arthas/arthas-all-3.4.8.diffoscope) | 80M |
-| [3.4.7](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.4.7/pom) | | | |
+| [3.4.7](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.4.7/pom) | [mvn jdk8](arthas-3.4.7.buildspec) | [result](arthas-all-3.4.7.buildinfo): [46 :white_check_mark:  7 :warning:](arthas-all-3.4.7.buildcompare) | 80M |
 | [3.4.6](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.4.6/pom) | [mvn jdk8](arthas-3.4.6.buildspec) | [result](arthas-all-3.4.6.buildinfo): [48 :white_check_mark:  5 :warning:](arthas-all-3.4.6.buildcompare) [:mag:](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/taobao/arthas/arthas-all-3.4.6.diffoscope) | 79M |
 | [3.4.5](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.4.5/pom) | [mvn jdk8](arthas-3.4.5.buildspec) | [result](arthas-all-3.4.5.buildinfo): [31 :white_check_mark:  22 :warning:](arthas-all-3.4.5.buildcompare) [:memo:](https://github.com/alibaba/arthas/pull/1604) | 79M |
 | [3.4.4](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.4.4/pom) | [mvn jdk8](arthas-3.4.4.buildspec) | [result](arthas-all-3.4.4.buildinfo): [30 :white_check_mark:  23 :warning:](arthas-all-3.4.4.buildcompare) [:memo:](https://github.com/alibaba/arthas/pull/1604) | 78M |
