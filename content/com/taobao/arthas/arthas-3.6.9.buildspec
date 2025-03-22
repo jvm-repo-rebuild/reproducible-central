@@ -6,11 +6,11 @@ version=3.6.9
 gitRepo=https://github.com/alibaba/arthas.git
 gitTag=${artifactId}-${version}
 
-tool=mvn
+tool=mvn-3.6.2
 jdk=8
 newline=lf
 
-command="./mvnw clean package -DskipTests -Drpm.disabled -pl -arthas-vmtool" # arthas-vmtool requires g++...
+command="mvn clean package -DskipTests -Drpm.disabled -pl -arthas-vmtool" # arthas-vmtool requires g++...
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope

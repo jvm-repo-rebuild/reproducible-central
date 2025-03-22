@@ -37,9 +37,9 @@ Source code: [https://github.com/alibaba/arthas.git](https://github.com/alibaba/
 * [com.taobao.arthas:web-ui](https://central.sonatype.com/artifact/com.taobao.arthas/web-ui/overview)
 </details>
 
-rebuilding **16 releases** of com.taobao.arthas:arthas-all:
+rebuilding **17 releases** of com.taobao.arthas:arthas-all:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 16 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 17 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -53,7 +53,7 @@ rebuilding **16 releases** of com.taobao.arthas:arthas-all:
 | [3.7.2](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.7.2/pom) | | | |
 | [3.7.1](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.7.1/pom) | | | |
 | [3.7.0](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.7.0/pom) | | | |
-| [3.6.9](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.6.9/pom) | | | |
+| [3.6.9](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.6.9/pom) | [mvn jdk8](arthas-3.6.9.buildspec) | [result](arthas-all-3.6.9.buildinfo): [48 :white_check_mark:  6 :warning:](arthas-all-3.6.9.buildcompare) | 100M |
 | [3.6.8](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.6.8/pom) | | | |
 | [3.6.7](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.6.7/pom) | | | |
 | [3.6.6](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.6.6/pom) | | | |
