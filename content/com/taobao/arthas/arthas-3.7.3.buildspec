@@ -10,8 +10,8 @@ tool=mvn
 jdk=11
 newline=lf
 
-command="mvn clean package -DskipTests -Drpm.disabled -pl -arthas-vmtool" # arthas-vmtool requires g++...
+command="mvn -Pfull clean package -DskipTests -Drpm.disabled -pl -arthas-vmtool" # arthas-vmtool requires g++...
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
-issue=
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/alibaba/arthas/pull/3001
