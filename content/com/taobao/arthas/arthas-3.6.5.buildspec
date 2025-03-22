@@ -4,7 +4,8 @@ display=${groupId}:${artifactId}
 version=3.6.5
 
 gitRepo=https://github.com/alibaba/arthas.git
-gitTag=${artifactId}-${version}
+gitTag=${artifactId}-${version}^
+#gitTag=b269ba5a572c2a6c705569fd44be5736e7c4e998
 
 tool=mvn-3.6.2
 jdk=8
