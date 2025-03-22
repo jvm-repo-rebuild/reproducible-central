@@ -10,8 +10,9 @@ tool=mvn-3.6.2
 jdk=8
 newline=lf
 
-command="mvn clean package -DskipTests -Drpm.disabled -pl -arthas-vmtool" # arthas-vmtool requires g++...
+command="mvn clean package -DskipTests -Drpm.disabled -pl -arthas-vmtool,-site" # arthas-vmtool requires g++...
 buildinfo=target/${artifactId}-${version}.buildinfo
 
+# release done from Git dirty
 #diffoscope=${artifactId}-${version}.diffoscope
 issue=
