@@ -16,13 +16,13 @@ Source code: [https://github.com/apache/sling-org-apache-sling-testing-sling-moc
 * [org.apache.sling:org.apache.sling.testing.sling-mock.parent](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock.parent/overview)
 </details>
 
-rebuilding **15 releases** of org.apache.sling:org.apache.sling.testing.sling-mock:
-- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **16 releases** of org.apache.sling:org.apache.sling.testing.sling-mock:
+- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.5.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock/3.5.4/pom) | | | |
+| [3.5.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock/3.5.4/pom) | [mvn jdk17 w](org.apache.sling.testing.sling-mock-3.5.4.buildspec) | [result](org.apache.sling.testing.sling-mock-3.5.4.buildinfo): [17 :white_check_mark: ](org.apache.sling.testing.sling-mock-3.5.4.buildcompare) | 733K |
 | [3.5.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock/3.5.2/pom) | [mvn jdk17 w](org.apache.sling.testing.sling-mock-3.5.2.buildspec) | [result](org.apache.sling.testing.sling-mock-3.5.2.buildinfo): [17 :white_check_mark: ](org.apache.sling.testing.sling-mock-3.5.2.buildcompare) | 729K |
 | [3.5.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock/3.5.0/pom) | [mvn jdk17 w](org.apache.sling.testing.sling-mock-3.5.0.buildspec) | [result](org.apache.sling.testing.sling-mock-3.5.0.buildinfo): [17 :white_check_mark: ](org.apache.sling.testing.sling-mock-3.5.0.buildcompare) | 729K |
 | [3.4.18](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock/3.4.18/pom) | [mvn jdk11 w](org.apache.sling.testing.sling-mock-3.4.18.buildspec) | [result](org.apache.sling.testing.sling-mock-3.4.18.buildinfo): [17 :white_check_mark: ](org.apache.sling.testing.sling-mock-3.4.18.buildcompare) | 718K |
