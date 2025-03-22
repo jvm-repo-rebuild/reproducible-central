@@ -16,8 +16,8 @@ Source code: [https://github.com/google/guava.git](https://github.com/google/gua
 * [com.google.guava:guava-testlib](https://central.sonatype.com/artifact/com.google.guava/guava-testlib/overview)
 </details>
 
-rebuilding **31 releases** of com.google.guava:guava:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **32 releases** of com.google.guava:guava:
+- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 18 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -31,7 +31,7 @@ rebuilding **31 releases** of com.google.guava:guava:
 | [33.4.2-jre](https://central.sonatype.com/artifact/com.google.guava/guava/33.4.2-jre/pom) | | | |
 | [33.4.2-android](https://central.sonatype.com/artifact/com.google.guava/guava/33.4.2-android/pom) | | | |
 | [33.4.1-jre](https://central.sonatype.com/artifact/com.google.guava/guava/33.4.1-jre/pom) | [mvn jdk11](guava-33.4.1-jre.buildspec) | [result](guava-parent-33.4.1-jre.buildinfo): [14 :white_check_mark: ](guava-parent-33.4.1-jre.buildcompare) | 8.9M |
-| [33.4.1-android](https://central.sonatype.com/artifact/com.google.guava/guava/33.4.1-android/pom) | | | |
+| [33.4.1-android](https://central.sonatype.com/artifact/com.google.guava/guava/33.4.1-android/pom) | [mvn jdk11](guava-33.4.1-android.buildspec) | [result](guava-parent-33.4.1-android.buildinfo): [11 :white_check_mark: ](guava-parent-33.4.1-android.buildcompare) | 6.3M |
 | [33.4.0-jre](https://central.sonatype.com/artifact/com.google.guava/guava/33.4.0-jre/pom) | [mvn jdk11](guava-33.4.0-jre.buildspec) | [result](guava-parent-33.4.0-jre.buildinfo): [14 :white_check_mark: ](guava-parent-33.4.0-jre.buildcompare) | 9.0M |
 | [33.4.0-android](https://central.sonatype.com/artifact/com.google.guava/guava/33.4.0-android/pom) | [mvn jdk11](guava-33.4.0-android.buildspec) | [result](guava-parent-33.4.0-android.buildinfo): [11 :white_check_mark: ](guava-parent-33.4.0-android.buildcompare) | 6.4M |
 | [33.3.1-jre](https://central.sonatype.com/artifact/com.google.guava/guava/33.3.1-jre/pom) | [mvn jdk11](guava-33.3.1-jre.buildspec) | [result](guava-parent-33.3.1-jre.buildinfo): [14 :white_check_mark: ](guava-parent-33.3.1-jre.buildcompare) | 8.9M |
