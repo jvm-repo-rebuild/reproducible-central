@@ -6,12 +6,12 @@ version=4.0.4
 gitRepo=https://github.com/alibaba/arthas.git
 gitTag=${artifactId}-${version}
 
-tool=mvn-3.9.9
+tool=mvn
 jdk=21
 newline=lf
 
-command="mvn -Pfull clean package -Djavadoc.skip -DskipTests -Drpm.disabled -pl '!arthas-vmtool'" # arthas-vmtool requires g++...
+command="mvn -npu -Pfull clean package -Djavadoc.skip -DskipTests -Drpm.disabled -pl '!arthas-vmtool'" # arthas-vmtool requires g++...
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/alibaba/arthas/pull/3001
