@@ -1,0 +1,17 @@
+groupId=com.taobao.arthas
+artifactId=arthas-all
+display=${groupId}:${artifactId}
+version=3.4.7
+
+gitRepo=https://github.com/alibaba/arthas.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.5.4
+jdk=8
+newline=lf
+
+command="./mvnw clean package -DskipTests -Drpm.disabled"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/$(echo ${groupId} | tr '.' '/')/${artifactId}-${version}.diffoscope
+issue=
