@@ -17,12 +17,12 @@ Source code: [https://github.com/google/guava.git](https://github.com/google/gua
 </details>
 
 rebuilding **28 releases** of com.google.guava:guava:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 19 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 18 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [33.4.5-jre](https://central.sonatype.com/artifact/com.google.guava/guava/33.4.5-jre/pom) | [mvn jdk11](guava-33.4.5-jre.buildspec) | :x: | |
+| [33.4.5-jre](https://central.sonatype.com/artifact/com.google.guava/guava/33.4.5-jre/pom) | [mvn jdk11](guava-33.4.5-jre.buildspec) | [result](guava-parent-33.4.5-jre.buildinfo): [14 :white_check_mark: ](guava-parent-33.4.5-jre.buildcompare) | 12M |
 | [33.4.5-android](https://central.sonatype.com/artifact/com.google.guava/guava/33.4.5-android/pom) | | | |
 | [33.4.4-jre](https://central.sonatype.com/artifact/com.google.guava/guava/33.4.4-jre/pom) | | | |
 | [33.4.4-android](https://central.sonatype.com/artifact/com.google.guava/guava/33.4.4-android/pom) | | | |
