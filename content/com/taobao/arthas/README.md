@@ -7,12 +7,13 @@
 
 Source code: [https://github.com/alibaba/arthas.git](https://github.com/alibaba/arthas.git)
 
-<details><summary>This project defines 26 modules:</summary>
+<details><summary>This project defines 27 modules:</summary>
 
 * [com.taobao.arthas:arthas-agent](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-agent/overview)
 * [com.taobao.arthas:arthas-agent-attach](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-agent-attach/overview)
 * [com.taobao.arthas:arthas-all](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/overview)
 * [com.taobao.arthas:arthas-boot](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-boot/overview)
+* [com.taobao.arthas:arthas-boot3](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-boot3/overview)
 * [com.taobao.arthas:arthas-bytekit](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-bytekit/overview)
 * [com.taobao.arthas:arthas-client](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-client/overview)
 * [com.taobao.arthas:arthas-common](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-common/overview)
@@ -37,9 +38,9 @@ Source code: [https://github.com/alibaba/arthas.git](https://github.com/alibaba/
 * [com.taobao.arthas:web-ui](https://central.sonatype.com/artifact/com.taobao.arthas/web-ui/overview)
 </details>
 
-rebuilding **17 releases** of com.taobao.arthas:arthas-all:
+rebuilding **18 releases** of com.taobao.arthas:arthas-all:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 17 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 18 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -49,7 +50,7 @@ rebuilding **17 releases** of com.taobao.arthas:arthas-all:
 | [4.0.2](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/4.0.2/pom) | [mvn jdk21](arthas-4.0.2.buildspec) | [result](arthas-all-4.0.2.buildinfo): [31 :white_check_mark:  27 :warning:](arthas-all-4.0.2.buildcompare) | 99M |
 | [4.0.1](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/4.0.1/pom) | | | |
 | [4.0.0](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/4.0.0/pom) | | | |
-| [3.7.3](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.7.3/pom) | | | |
+| [3.7.3](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.7.3/pom) | [mvn jdk11](arthas-3.7.3.buildspec) | [result](arthas-all-3.7.3.buildinfo): [30 :white_check_mark:  24 :warning:](arthas-all-3.7.3.buildcompare) | 100M |
 | [3.7.2](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.7.2/pom) | | | |
 | [3.7.1](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.7.1/pom) | | | |
 | [3.7.0](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.7.0/pom) | | | |

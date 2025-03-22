@@ -1,0 +1,33 @@
+version=3.7.3
+ok=30
+ko=24
+ignored=0
+okFiles="arthas-all-3.7.3.pom web-ui-3.7.3.pom math-game-3.7.3.pom math-game-3.7.3-sources.jar arthas-common-3.7.3.pom arthas-common-3.7.3-sources.jar arthas-spy-3.7.3.pom arthas-spy-3.7.3-sources.jar arthas-tunnel-common-3.7.3.pom arthas-tunnel-common-3.7.3-sources.jar arthas-tunnel-client-3.7.3.pom arthas-tunnel-client-3.7.3-sources.jar arthas-memorycompiler-3.7.3.pom arthas-memorycompiler-3.7.3-sources.jar arthas-core-3.7.3.pom arthas-core-3.7.3-sources.jar arthas-agent-3.7.3.pom arthas-agent-3.7.3-sources.jar arthas-client-3.7.3.pom arthas-client-3.7.3-sources.jar arthas-boot3-3.7.3.pom arthas-boot3-3.7.3-sources.jar arthas-agent-attach-3.7.3.pom arthas-agent-attach-3.7.3-sources.jar arthas-site-3.7.3.pom arthas-packaging-3.7.3.pom arthas-spring-boot-starter-3.7.3.pom arthas-spring-boot-starter-3.7.3-sources.jar arthas-testcase-3.7.3.pom arthas-testcase-3.7.3-sources.jar"
+koFiles="math-game-3.7.3.jar arthas-common-3.7.3.jar arthas-spy-3.7.3.jar arthas-tunnel-common-3.7.3.jar arthas-tunnel-client-3.7.3.jar arthas-memorycompiler-3.7.3.jar arthas-core-3.7.3.jar arthas-agent-3.7.3.jar arthas-agent-3.7.3-jar-with-dependencies.jar arthas-client-3.7.3.jar arthas-client-3.7.3-jar-with-dependencies.jar arthas-boot3-3.7.3.jar arthas-boot3-3.7.3-jar-with-dependencies.jar arthas-agent-attach-3.7.3.jar arthas-site-3.7.3.jar arthas-packaging-3.7.3.jar arthas-packaging-3.7.3-bin.zip arthas-packaging-3.7.3.deb arthas-spring-boot-starter-3.7.3.jar arthas-tunnel-server-3.7.3.pom arthas-tunnel-server-3.7.3.jar arthas-tunnel-server-3.7.3-fatjar.jar arthas-tunnel-server-3.7.3-sources.jar arthas-testcase-3.7.3.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.taobao.arthas/math-game-3.7.3.jar math-game/target/math-game.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-common-3.7.3.jar common/target/arthas-common.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-spy-3.7.3.jar spy/target/arthas-spy.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-tunnel-common-3.7.3.jar tunnel-common/target/arthas-tunnel-common.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-tunnel-client-3.7.3.jar tunnel-client/target/arthas-tunnel-client.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-memorycompiler-3.7.3.jar memorycompiler/target/arthas-agent.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-core-3.7.3.jar core/target/arthas-core.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-agent-3.7.3.jar agent/target/arthas-agent.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-agent-3.7.3-jar-with-dependencies.jar agent/target/arthas-agent-jar-with-dependencies.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-client-3.7.3.jar client/target/arthas-client.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-client-3.7.3-jar-with-dependencies.jar client/target/arthas-client-jar-with-dependencies.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-boot3-3.7.3.jar boot/target/arthas-boot3.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-boot3-3.7.3-jar-with-dependencies.jar boot/target/arthas-boot3-jar-with-dependencies.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-agent-attach-3.7.3.jar arthas-agent-attach/target/arthas-agent-attach-3.7.3.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-site-3.7.3.jar site/target/arthas-site.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-packaging-3.7.3.jar packaging/target/arthas.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-packaging-3.7.3-bin.zip packaging/target/arthas-bin.zip
+# diffoscope target/reference/com.taobao.arthas/arthas-packaging-3.7.3.deb packaging/target/arthas-3.7.3.deb
+# diffoscope target/reference/com.taobao.arthas/arthas-spring-boot-starter-3.7.3.jar arthas-spring-boot-starter/target/arthas-spring-boot-starter-3.7.3.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-tunnel-server-3.7.3.pom tunnel-server/.flattened-pom.xml
+# diffoscope target/reference/com.taobao.arthas/arthas-tunnel-server-3.7.3.jar tunnel-server/target/arthas-tunnel-server-3.7.3.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-tunnel-server-3.7.3-fatjar.jar tunnel-server/target/arthas-tunnel-server-3.7.3-fatjar.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-tunnel-server-3.7.3-sources.jar tunnel-server/target/arthas-tunnel-server-3.7.3-sources.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-testcase-3.7.3.jar testcase/target/arthas-testcase-3.7.3.jar
