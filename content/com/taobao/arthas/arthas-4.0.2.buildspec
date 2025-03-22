@@ -14,4 +14,4 @@ command="mvn -Pfull clean package -Djavadoc.skip -DskipTests -Drpm.disabled -pl 
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/alibaba/arthas/pull/3001

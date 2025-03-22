@@ -1,0 +1,77 @@
+# missing arthas-git.properties since git-commit-id-plugin upgraded from 4.0.1 to 4.9.9: no warning in the plugin output, no idea what causes the issue
+1 / 27 target/reference/com.taobao.arthas/math-game-4.0.1.jar math-game/target/math-game.jar
+--- target/reference/com.taobao.arthas/math-game-4.0.1.jar
++++ math-game/target/math-game.jar
+├── zipinfo {}
+│ @@ -1,12 +1,11 @@
+│ -Zip file size: 4508 bytes, number of entries: 10
+│ +Zip file size: 4119 bytes, number of entries: 9
+│  -rw-r--r--  2.0 unx      232 b- defN 20-Sep-27 15:10 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 demo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/math-game/
+│ --rw-r--r--  2.0 unx      588 b- defN 20-Sep-27 15:10 arthas-git.properties
+│  -rw-r--r--  2.0 unx     3113 b- defN 20-Sep-27 15:10 demo/MathGame.class
+│  -rw-r--r--  2.0 unx     3475 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/math-game/pom.xml
+│  -rw-r--r--  2.0 unx       61 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/math-game/pom.properties
+│ -10 files, 7469 bytes uncompressed, 3182 bytes compressed:  57.4%
+│ +9 files, 6881 bytes uncompressed, 2911 bytes compressed:  57.7%
+├── zipnote «TEMP»/diffoscope_q3_d68pr_target/tmp6qhe1g1f_.zip
+│ @@ -12,17 +12,14 @@
+│  
+│  Filename: META-INF/maven/com.taobao.arthas/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/com.taobao.arthas/math-game/
+│  Comment: 
+│  
+│ -Filename: arthas-git.properties
+│ -Comment: 
+│ -
+│  Filename: demo/MathGame.class
+│  Comment: 
+│  
+│  Filename: META-INF/maven/com.taobao.arthas/math-game/pom.xml
+│  Comment: 
+│  
+│  Filename: META-INF/maven/com.taobao.arthas/math-game/pom.properties
+
+2 / 27 target/reference/com.taobao.arthas/math-game-4.0.1-sources.jar math-game/target/math-game-sources.jar
+--- target/reference/com.taobao.arthas/math-game-4.0.1-sources.jar
++++ math-game/target/math-game-sources.jar
+├── zipinfo {}
+│ @@ -1,12 +1,11 @@
+│ -Zip file size: 3090 bytes, number of entries: 10
+│ +Zip file size: 2986 bytes, number of entries: 9
+│  -rw-r--r--  2.0 unx       64 b- defN 20-Sep-27 15:10 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 arthas-output/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 demo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/math-game/
+│  -rw-r--r--  2.0 unx     1759 b- defN 20-Sep-27 15:10 demo/MathGame.java
+│  -rw-r--r--  2.0 unx     3475 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/math-game/pom.xml
+│  -rw-r--r--  2.0 unx       61 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/math-game/pom.properties
+│ -10 files, 5359 bytes uncompressed, 1780 bytes compressed:  66.8%
+│ +9 files, 5359 bytes uncompressed, 1780 bytes compressed:  66.8%
+├── zipnote «TEMP»/diffoscope_a72t33us_target/tmp0sr40dft_.zip
+│ @@ -1,16 +1,13 @@
+│  Filename: META-INF/MANIFEST.MF
+│  Comment: 
+│  
+│  Filename: META-INF/
+│  Comment: 
+│  
+│ -Filename: arthas-output/
+│ -Comment: 
+│ -
+│  Filename: demo/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/com.taobao.arthas/
