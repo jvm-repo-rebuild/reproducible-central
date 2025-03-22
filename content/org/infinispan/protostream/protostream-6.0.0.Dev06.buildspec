@@ -1,0 +1,21 @@
+groupId=org.infinispan.protostream
+artifactId=protostream-aggregator
+display=${groupId}:protostream
+version=6.0.0.Dev06
+
+gitRepo=https://github.com/infinispan/protostream.git
+gitTag=${version}
+
+tool=mvn
+jdk=17
+newline=lf
+umask=022
+osVersion="6.8.0-1021-azure"
+javaVersion="17.0.14"
+javaVendor="Eclipse Adoptium"
+
+command="mvn clean package -Pcommunity-release -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Djava.vendor='$javaVersion' -Djava.vendor='$javaVendor' -Dos.version='$osVersion'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
