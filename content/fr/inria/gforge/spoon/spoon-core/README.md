@@ -14,13 +14,13 @@ Source code: [https://github.com/inria/spoon.git](https://github.com/inria/spoon
 * [fr.inria.gforge.spoon:spoon-pom](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-pom/overview)
 </details>
 
-rebuilding **143 releases** of fr.inria.gforge.spoon:spoon-core:
-- **39** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **144 releases** of fr.inria.gforge.spoon:spoon-core:
+- **40** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 104 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [11.2.1-beta-9](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.2.1-beta-9/pom) | | | |
+| [11.2.1-beta-9](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.2.1-beta-9/pom) | [mvn jdk21](spoon-core-11.2.1-beta-9.buildspec) | [result](spoon-pom-11.2.1-beta-9.buildinfo): [8 :white_check_mark: ](spoon-pom-11.2.1-beta-9.buildcompare) | 18M |
 | [11.2.1-beta-8](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.2.1-beta-8/pom) | [mvn jdk21](spoon-core-11.2.1-beta-8.buildspec) | [result](spoon-pom-11.2.1-beta-8.buildinfo): [12 :white_check_mark: ](spoon-pom-11.2.1-beta-8.buildcompare) | 18M |
 | [11.2.1-beta-7](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.2.1-beta-7/pom) | [mvn jdk21](spoon-core-11.2.1-beta-7.buildspec) | [result](spoon-pom-11.2.1-beta-7.buildinfo): [12 :white_check_mark: ](spoon-pom-11.2.1-beta-7.buildcompare) | 18M |
 | [11.2.1-beta-6](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.2.1-beta-6/pom) | [mvn jdk21](spoon-core-11.2.1-beta-6.buildspec) | [result](spoon-pom-11.2.1-beta-6.buildinfo): [12 :white_check_mark: ](spoon-pom-11.2.1-beta-6.buildcompare) | 18M |
