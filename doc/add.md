@@ -4,9 +4,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250322053711 --> [decanter](../content/org/apache/karaf/decanter/README.md) | [2.10.0](../content/org/apache/karaf/decanter/karaf-decanter-2.10.0.buildspec) :white_check_mark: | [2.11.0](../content/org/apache/karaf/decanter/karaf-decanter-2.11.0.buildspec) | `bin/add-new-release.sh content/org/apache/karaf/decanter/karaf-decanter-2.10.0.buildspec 2.11.0` |
-| <!-- 20250322045001 --> [activemq-parent](../content/org/apache/activemq/README.md) | [6.1.6](../content/org/apache/activemq/activemq-6.1.6.buildspec) :white_check_mark: | 5.16.8  | `bin/add-new-release.sh content/org/apache/activemq/activemq-6.1.6.buildspec ...` |
-| <!-- 20250322040004 --> [trino-root](../content/io/trino/README.md) | [473](../content/io/trino/trino-473.buildspec) :white_check_mark: | [474](../content/io/trino/trino-474.buildspec) | `bin/add-new-release.sh content/io/trino/trino-473.buildspec 474` |
+| <!-- 20250323151221 --> [airbase](../content/io/airlift/airbase/README.md) | [237](../content/io/airlift/airbase/airbase-237.buildspec) :white_check_mark: | [238](../content/io/airlift/airbase/airbase-238.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-237.buildspec 238` |
+| <!-- 20250323105918 --> [openapi-jaxrs-client](../content/dk/mada/jaxrs/openapi-jaxrs-client/README.md) | [0.11.12](../content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.11.12.buildspec) :white_check_mark: | [0.12.0](../content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.12.0.buildspec) | `bin/add-new-release.sh content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.11.12.buildspec 0.12.0` |
+| <!-- 20250323020807 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [11.2.1-beta-8](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.1-beta-8.buildspec) :white_check_mark: | [11.2.1-beta-9](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.1-beta-9.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.1-beta-8.buildspec 11.2.1-beta-9` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -34,9 +34,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20250323131510 --> [packager-maven-plugin](../content/org/jpmml/packager-maven-plugin/README.md) | [1.0.1](../content/org/jpmml/packager-maven-plugin/packager-maven-plugin-1.0.1.buildspec) :warning: | [1.1.0](../content/org/jpmml/packager-maven-plugin/packager-maven-plugin-1.1.0.buildspec) | `bin/add-new-release.sh content/org/jpmml/packager-maven-plugin/packager-maven-plugin-1.0.1.buildspec 1.1.0` |
 | <!-- 20250321230730 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.75.0](../content/org/finos/legend/engine/legend-engine-4.75.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.75.0` |
 | <!-- 20250317021621 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.20.1](../content/org/webjars/swagger-ui/swagger-ui-5.20.1.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.20.1` |
-| <!-- 20250311162322 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.0.4](../content/com/taobao/arthas/arthas-4.0.4.buildspec) :warning: | [4.0.5](../content/com/taobao/arthas/arthas-4.0.5.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.0.4.buildspec 4.0.5` |
 | <!-- 20250309102258 --> [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.10.2](../content/org/apache/camel/camel/camel-4.10.2.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.10.2` |
 | <!-- 20250304091455 --> [io.wcm.wcm.ui.granite](../content/io/wcm/io.wcm.wcm/ui/granite/README.md) | [1.9.12](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec) :warning: | [1.10.6](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.10.6.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec 1.10.6` |
 | <!-- 20250202164211 --> [html-formatter](../content/io/cucumber/html-formatter/README.md) | [20.2.0](../content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec) :warning: [:memo:](https://github.com/cucumber/html-formatter/issues/207) | [21.9.0](../content/io/cucumber/html-formatter/html-formatter-21.9.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec 21.9.0` |
@@ -64,6 +64,7 @@ New Releases To Add
 | <!-- 20250314101946 --> [dbus-java-parent](../content/com/github/hypfvieh/dbus-java/README.md) | 5.1.1 :warning: [:memo:](https://github.com/hypfvieh/dbus-java/pull/279) |
 | <!-- 20250314012610 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | 2.14.0 :warning: |
 | <!-- 20250313165409 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | 5.4.1 :warning: |
+| <!-- 20250311162322 --> [arthas-all](../content/com/taobao/arthas/README.md) | 4.0.5 :warning: [:memo:](https://github.com/alibaba/arthas/pull/3001) |
 | <!-- 20250311103634 --> [nifi](../content/org/apache/nifi/nifi/README.md) | 2.3.0 :warning: [:memo:](https://github.com/apache/nifi/pull/9805) |
 | <!-- 20250310171441 --> [axis2](../content/org/apache/axis2/README.md) | 2.0.0 :warning: [:memo:](https://github.com/apache/axis-axis2-java-core/pull/879) |
 | <!-- 20250310160203 --> [syncope](../content/org/apache/syncope/README.md) | 4.0.0-M1 :warning: |
@@ -85,7 +86,6 @@ New Releases To Add
 | <!-- 20250218094231 --> [wayang](../content/org/apache/wayang/README.md) | 1.0.0 :warning: [:memo:](https://github.com/apache/incubator-wayang/pull/503) |
 | <!-- 20250217124403 --> [winrm](../content/org/sentrysoftware/winrm/README.md) | 1.1.01 :warning: |
 | <!-- 20250217093704 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.2.7 :warning: |
-| <!-- 20250216125759 --> [packager-maven-plugin](../content/org/jpmml/packager-maven-plugin/README.md) | 1.0.1 :warning: |
 | <!-- 20250214204823 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | 3.1.0 :warning: |
 | <!-- 20250214132638 --> [commons-vfs2](../content/org/apache/commons/commons-vfs2/README.md) | 2.10.0 :warning: |
 | <!-- 20250213170218 --> [jooby](../content/io/jooby/README.md) | 3.6.1 :warning: |

@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.jpmml:packager-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.1.0](https://central.sonatype.com/artifact/org.jpmml/packager-maven-plugin/1.1.0/pom) | | | |
 | [1.0.1](https://central.sonatype.com/artifact/org.jpmml/packager-maven-plugin/1.0.1/pom) | [mvn jdk11](packager-maven-plugin-1.0.1.buildspec) | [result](packager-maven-plugin-1.0.1.buildinfo): [1 :white_check_mark:  2 :warning:](packager-maven-plugin-1.0.1.buildcompare) | 23K |
 | [1.0.0](https://central.sonatype.com/artifact/org.jpmml/packager-maven-plugin/1.0.0/pom) | [mvn jdk8](packager-maven-plugin-1.0.0.buildspec) | [result](packager-maven-plugin-1.0.0.buildinfo): [3 :white_check_mark: ](packager-maven-plugin-1.0.0.buildcompare) | 23K |
 
