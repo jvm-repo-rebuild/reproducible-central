@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Packager Apache Maven Plugin
+group-id=org.jpmml
+artifact-id=packager-maven-plugin
+version=1.1.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/packager-maven-plugin.git
+source.scm.tag=1.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.26
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.6
+
+# output
+
+outputs.0.groupId=org.jpmml
+outputs.0.filename=packager-maven-plugin-1.1.0.pom
+outputs.0.length=2371
+outputs.0.checksums.sha512=e737384694a2450f4b16477f7c294d33e23eb7291ba89d659ab6d3a56a51da7c8f2aa3f48602f4ea9c27303d293017e12afeb3fce305eadb4b0d7c468080333b
+
+outputs.1.groupId=org.jpmml
+outputs.1.filename=packager-maven-plugin-1.1.0.jar
+outputs.1.length=18484
+outputs.1.checksums.sha512=b55af7a82d9bd716c38d668512c39190cce88fd90e06b6132a07641788ec91af33d8182717e246a0b91f9b89f6d9e82fd48cf5b4c192294cc0f0baa144f9c2d1
+
+outputs.2.groupId=org.jpmml
+outputs.2.filename=packager-maven-plugin-1.1.0-sources.jar
+outputs.2.length=7915
+outputs.2.checksums.sha512=0ae7559b24a26f37327bcf9f594475b8263b9d3b437a4acfc7acb5e070cd703be1b85dab8e2c01f02d893df5866b909f256b6a2ff70d349d7a0dfdf82fdf7cd3
