@@ -1,0 +1,89 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Guava Maven Parent
+group-id=com.google.guava
+artifact-id=guava-parent
+version=33.4.6-android
+
+# source information
+source.scm.uri=scm:git:https://github.com/google/guava.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.26
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+mvn.toolchain.jdk=openjdk version "23.0.2" 2025-01-21:OpenJDK Runtime Environment Temurin-23.0.2+7 (build 23.0.2+7):OpenJDK 64-Bit Server VM Temurin-23.0.2+7 (build 23.0.2+7, mixed mode, sharing)
+mvn.aggregate.artifact-id=guava-testlib
+
+# aggregated output
+
+outputs.0.coordinates=com.google.guava:guava-parent
+
+outputs.0.0.groupId=com.google.guava
+outputs.0.0.filename=guava-parent-33.4.6-android.pom
+outputs.0.0.length=24545
+outputs.0.0.checksums.sha512=dc5795e02904cb33bdbe5caa868fbf43dff2c2cfe7258e8fda19cc97c5d7d1102b1d6780be7afee8c122ce2368aa4a6bba659e8ac33eee3d038f394fb93bd734
+
+outputs.1.coordinates=com.google.guava:guava
+
+outputs.1.0.groupId=com.google.guava
+outputs.1.0.filename=guava-33.4.6-android.pom
+outputs.1.0.length=9627
+outputs.1.0.checksums.sha512=f67ed7d35cd9ea5acbebd1cb46dd4819e2c6c9358bdb8ca8a60d2de9b8241b74db015dc289e3aee4e0fb87a7d3c1aea9b1c99518adafc7b5cc488c4ebd8f3aba
+
+outputs.1.1.groupId=com.google.guava
+outputs.1.1.filename=guava-33.4.6-android.jar
+outputs.1.1.length=2937097
+outputs.1.1.checksums.sha512=750b0430bc3ed2aee449dd1cd442679e71886e60c7f32457f3904628893d68322e6f0b57c52352a82fa88bfaebb912ad7887a3a7b3db58d1b22222aa1c2baa60
+
+outputs.1.2.groupId=com.google.guava
+outputs.1.2.filename=guava-33.4.6-android-sources.jar
+outputs.1.2.length=1837043
+outputs.1.2.checksums.sha512=d2b5e7c127557e15fc8ca13c6251fd5ad50e6900bbfb1ebee7dd3d31439077c47b82f9ae013ebcaa3757de207332750fbd4b4a6699520a4cd64454fb5aef43db
+
+outputs.1.3.groupId=com.google.guava
+outputs.1.3.filename=guava-33.4.6-android.module
+outputs.1.3.length=7155
+outputs.1.3.checksums.sha512=6792e11fe574ad4c3639abc1ccee0238b3fd813d1ad199a528847c21bfc5e6e4b8e12d0d89167fd2016b95dba83e7c6a29302f58fede7239fe2122948d7dfebf
+
+outputs.2.coordinates=com.google.guava:guava-bom
+
+outputs.2.0.groupId=com.google.guava
+outputs.2.0.filename=guava-bom-33.4.6-android.pom
+outputs.2.0.length=1536
+outputs.2.0.checksums.sha512=c7769072091f5c486c93c8075f0b1e74260250f191c4780df928d4c10b2053d70fa98c340b22670a4f1cea423eb9bae3d4aa98ab31bbdba960b769881e0d81c4
+
+outputs.3.coordinates=com.google.guava:guava-testlib
+
+outputs.3.0.groupId=com.google.guava
+outputs.3.0.filename=guava-testlib-33.4.6-android.pom
+outputs.3.0.length=5040
+outputs.3.0.checksums.sha512=718bdb18cd9d4f803ce05d6dbbc5d714f564e631b18383d0a5b42369357e4b48a80309bcdc3fea1f10a09bc3731ff7959a93a94f79d2f19bded8f33b458e8b1b
+
+outputs.3.1.groupId=com.google.guava
+outputs.3.1.filename=guava-testlib-33.4.6-android.jar
+outputs.3.1.length=907196
+outputs.3.1.checksums.sha512=56b36b6548d6cde2e9068e0c8ccda61e4465b3ca71eafb7583e246f91a7210f4fe64367b5977108c2a16a72d2a81d925b84f924b38171c6190d813f8c26795fe
+
+outputs.3.2.groupId=com.google.guava
+outputs.3.2.filename=guava-testlib-33.4.6-android-sources.jar
+outputs.3.2.length=484771
+outputs.3.2.checksums.sha512=248ba8ed86aabba74c76b76d142c8ba44d1e1db134f072b78408985f8170735c91403b009b4ba09b32977f71820a7cd000bc534bf9b842e8b77d67bbc0e326f4
+
+outputs.3.3.groupId=com.google.guava
+outputs.3.3.filename=guava-testlib-33.4.6-android-tests.jar
+outputs.3.3.length=254235
+outputs.3.3.checksums.sha512=d16ff43d6f375d19921703963487db7341d172d9c4419e350a3dbfd2ddc142747fcbd3975422f2da7d0b851e80e2d8e595109d30b1978aeb0300a4b67e966708
+
+outputs.3.4.groupId=com.google.guava
+outputs.3.4.filename=guava-testlib-33.4.6-android-test-sources.jar
+outputs.3.4.length=62947
+outputs.3.4.checksums.sha512=113def040c59883be96a148c30076dfd8beead07b113964562422f44efb8496f52aa4f32de6c0b63e84619f463cb20f1fb2fa5d5dee0275b042cba6fd0b02a1a
