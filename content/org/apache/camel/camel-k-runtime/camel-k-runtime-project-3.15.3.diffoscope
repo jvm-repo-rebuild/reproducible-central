@@ -1,0 +1,54 @@
+# META-INF/jandex.idx
+1 / 6 target/reference/org.apache.camel.k/camel-k-core-api-3.15.3.jar camel-k-core/api/target/camel-k-core-api-3.15.3.jar
+2 / 6 target/reference/org.apache.camel.k/camel-k-core-support-3.15.3.jar camel-k-core/support/target/camel-k-core-support-3.15.3.jar
+3 / 6 target/reference/org.apache.camel.k/camel-k-runtime-3.15.3.jar camel-k-runtime/runtime/target/camel-k-runtime-3.15.3.jar
+4 / 6 target/reference/org.apache.camel.k/camel-k-cron-impl-3.15.3.jar camel-k-cron/impl/target/camel-k-cron-impl-3.15.3.jar
+5 / 6 target/reference/org.apache.camel.k/camel-k-knative-impl-3.15.3.jar camel-k-knative/impl/target/camel-k-knative-impl-3.15.3.jar
+
+6 / 6 target/reference/org.apache.camel.k/apache-camel-k-runtime-3.15.3-m2.zip distribution/target/apache-camel-k-runtime-3.15.3-m2.zip
+--- target/reference/org.apache.camel.k/apache-camel-k-runtime-3.15.3-m2.zip
++++ distribution/target/apache-camel-k-runtime-3.15.3-m2.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 9722147 bytes, number of entries: 582
+│ +Zip file size: 5201683 bytes, number of entries: 526
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-04 18:52 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-04 18:52 org/apache/
+│ @@ -113,472 +113,416 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-04 18:52 org/apache/camel/k/camel-k-test/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jul-04 18:52 org/apache/camel/k/camel-k-test/3.15.3/
+│ --rw-r--r--  2.0 unx      452 b- defN 24-Jul-04 18:52 org/apache/camel/k/camel-k-annotations/3.15.3/_remote.repositories
+│ --rw-r--r--  2.0 unx   107685 b- defN 24-Jul-04 18:52 org/apache/camel/k/camel-k-annotations/3.15.3/camel-k-annotations-3.15.3-javadoc.jar
+│ --rw-r--r--  2.0 unx      833 b- defN 24-Jul-04 18:52 org/apache/camel/k/camel-k-annotations/3.15.3/camel-k-annotations-3.15.3-javadoc.jar.asc
+│ +-rw-r--r--  2.0 unx      268 b- defN 24-Jul-04 18:52 org/apache/camel/k/camel-k-annotations/3.15.3/_remote.repositories
+│  -rw-r--r--  2.0 unx     7376 b- defN 24-Jul-04 18:52 org/apache/camel/k/camel-k-annotations/3.15.3/camel-k-annotations-3.15.3-sources.jar
+│ --rw-r--r--  2.0 unx      833 b- defN 24-Jul-04 18:52 org/apache/camel/k/camel-k-annotations/3.15.3/camel-k-annotations-3.15.3-sources.jar.asc
+│ +-rw-r--r--  2.0 unx       40 b- defN 24-Jul-04 18:52 org/apache/camel/k/camel-k-annotations/3.15.3/camel-k-annotations-3.15.3-sources.jar.sha1
+│ +-rw-r--r--  2.0 unx      251 b- defN 24-Jul-04 18:52 org/apache/camel/k/camel-k-annotations/3.15.3/camel-k-annotations-3.15.3.buildinfo.lastUpdated
+│  -rw-r--r--  2.0 unx     5631 b- defN 24-Jul-04 18:52 org/apache/camel/k/camel-k-annotations/3.15.3/camel-k-annotations-3.15.3.jar
+...
+│ --rw-r--r--  2.0 unx      833 b- defN 24-Jul-04 18:52 org/apache/camel/k/camel-k-test/3.15.3/camel-k-test-3.15.3.jar.asc
+│ --rw-r--r--  2.0 unx      251 b- defN 24-Jul-04 18:52 org/apache/camel/k/camel-k-test/3.15.3/camel-k-test-3.15.3.jar.lastUpdated
+│ +-rw-r--r--  2.0 unx       40 b- defN 24-Jul-04 18:52 org/apache/camel/k/camel-k-test/3.15.3/camel-k-test-3.15.3.jar.sha1
+│  -rw-r--r--  2.0 unx     2123 b- defN 24-Jul-04 18:52 org/apache/camel/k/camel-k-test/3.15.3/camel-k-test-3.15.3.pom
+│ --rw-r--r--  2.0 unx      833 b- defN 24-Jul-04 18:52 org/apache/camel/k/camel-k-test/3.15.3/camel-k-test-3.15.3.pom.asc
+│ -582 files, 12598853 bytes uncompressed, 9586029 bytes compressed:  23.9%
+│ +-rw-r--r--  2.0 unx       40 b- defN 24-Jul-04 18:52 org/apache/camel/k/camel-k-test/3.15.3/camel-k-test-3.15.3.pom.sha1
+│ +526 files, 5840890 bytes uncompressed, 5079135 bytes compressed:  13.0%
+├── org/apache/camel/k/camel-k-annotations/3.15.3/_remote.repositories
+│ @@ -1,10 +1,5 @@
+│  #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+│ -#Fri Mar 21 12:57:39 CET 2025
+│ -camel-k-annotations-3.15.3.jar.asc>=
+│ -camel-k-annotations-3.15.3.pom>=
+│ -camel-k-annotations-3.15.3.jar>=
+│ -camel-k-annotations-3.15.3-javadoc.jar>=
+│ -camel-k-annotations-3.15.3.pom.asc>=
+│ -camel-k-annotations-3.15.3-sources.jar>=
+│ -camel-k-annotations-3.15.3-javadoc.jar.asc>=
+│ -camel-k-annotations-3.15.3-sources.jar.asc>=
+│ +#Tue Mar 25 21:21:13 UTC 2025
+│ +camel-k-annotations-3.15.3.jar>central=
+│ +camel-k-annotations-3.15.3.pom>central=
+│ +camel-k-annotations-3.15.3-sources.jar>central=
+...
