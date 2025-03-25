@@ -13,6 +13,7 @@ rebuilding **9 releases** of org.sentrysoftware:metricshub-community-connectors:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.09](https://central.sonatype.com/artifact/org.sentrysoftware/metricshub-community-connectors/1.0.09/pom) | | | |
 | [1.0.08](https://central.sonatype.com/artifact/org.sentrysoftware/metricshub-community-connectors/1.0.08/pom) | [mvn jdk17](metricshub-community-connectors-1.0.08.buildspec) | [result](metricshub-community-connectors-1.0.08.buildinfo): [3 :white_check_mark: ](metricshub-community-connectors-1.0.08.buildcompare) | 92K |
 | [1.0.07](https://central.sonatype.com/artifact/org.sentrysoftware/metricshub-community-connectors/1.0.07/pom) | [mvn jdk17](metricshub-community-connectors-1.0.07.buildspec) | [result](metricshub-community-connectors-1.0.07.buildinfo): [3 :white_check_mark: ](metricshub-community-connectors-1.0.07.buildcompare) | 87K |
 | [1.0.06](https://central.sonatype.com/artifact/org.sentrysoftware/metricshub-community-connectors/1.0.06/pom) | [mvn jdk17](metricshub-community-connectors-1.0.06.buildspec) | [result](metricshub-community-connectors-1.0.06.buildinfo): [3 :white_check_mark: ](metricshub-community-connectors-1.0.06.buildcompare) | 87K |

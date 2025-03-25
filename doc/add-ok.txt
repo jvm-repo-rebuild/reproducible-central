@@ -1,4 +1,6 @@
-content/io/airlift/airbase/airbase-238.buildspec:241
-content/net/bytebuddy/byte-buddy-1.17.3.buildspec:1.17.4
-content/org/junit/junit5/junit5-5.13.0-M1.buildspec:5.13.0-M2
-content/tech/picnic/error-prone-support/error-prone-support/error-prone-support-0.20.0.buildspec:0.21.0
+content/com/flowlogix/flowlogix-9.0.9.buildspec:9.0.10
+content/com/google/guava/guava-33.4.5-jre.buildspec:33.4.6-jre
+content/io/avaje/logback-encoder/avaje-logback-encoder-0.11-java8.buildspec:0.12
+content/org/apache/sling/org.apache.sling.testing.paxexam/org.apache.sling.testing.paxexam-4.0.0.buildspec:4.1.0
+content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.0.0.Alpha2.buildspec:8.0.0.Alpha3
+content/org/sentrysoftware/metricshub-community-connectors/metricshub-community-connectors-1.0.08.buildspec:1.0.09

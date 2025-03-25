@@ -3,8 +3,8 @@
   <groupId>org.sentrysoftware</groupId>
   <artifactId>metricshub-community-connectors</artifactId>
   <versioning>
-    <latest>1.0.08</latest>
-    <release>1.0.08</release>
+    <latest>1.0.09</latest>
+    <release>1.0.09</release>
     <versions>
       <version>1.0.00</version>
       <version>1.0.01</version>
@@ -15,7 +15,8 @@
       <version>1.0.06</version>
       <version>1.0.07</version>
       <version>1.0.08</version>
+      <version>1.0.09</version>
     </versions>
-    <lastUpdated>20250122170449</lastUpdated>
+    <lastUpdated>20250325163220</lastUpdated>
   </versioning>
 </metadata>
