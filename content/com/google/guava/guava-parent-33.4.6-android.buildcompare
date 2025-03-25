@@ -1,0 +1,9 @@
+version=33.4.6-android
+ok=11
+ko=0
+ignored=0
+okFiles="guava-parent-33.4.6-android.pom guava-33.4.6-android.pom guava-33.4.6-android.jar guava-33.4.6-android-sources.jar guava-33.4.6-android.module guava-bom-33.4.6-android.pom guava-testlib-33.4.6-android.pom guava-testlib-33.4.6-android.jar guava-testlib-33.4.6-android-sources.jar guava-testlib-33.4.6-android-tests.jar guava-testlib-33.4.6-android-test-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
