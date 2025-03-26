@@ -1,6 +1,4 @@
-content/com/flowlogix/flowlogix-9.0.9.buildspec:9.0.10
-content/com/google/guava/guava-33.4.5-jre.buildspec:33.4.6-jre
-content/io/avaje/logback-encoder/avaje-logback-encoder-0.11-java8.buildspec:0.12
-content/org/apache/sling/org.apache.sling.testing.paxexam/org.apache.sling.testing.paxexam-4.0.0.buildspec:4.1.0
-content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.0.0.Alpha2.buildspec:8.0.0.Alpha3
-content/org/sentrysoftware/metricshub-community-connectors/metricshub-community-connectors-1.0.08.buildspec:1.0.09
+content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.12.0.buildspec:0.12.1
+content/io/avaje/inject/avaje-inject-11.3-javax.buildspec:11.4-RC1
+content/io/avaje/jex/avaje-jex-3.0-RC23.buildspec:3.0-RC24
+content/io/avaje/prisms/avaje-prisms-1.40.buildspec:1.41
