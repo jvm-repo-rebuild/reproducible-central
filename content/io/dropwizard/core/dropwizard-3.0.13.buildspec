@@ -1,0 +1,17 @@
+groupId=io.dropwizard
+artifactId=dropwizard-project
+display=${groupId}:${artifactId}
+version=3.0.13
+
+gitRepo=https://github.com/dropwizard/dropwizard.git
+gitTag=v${version}
+
+tool=mvn
+jdk=11
+newline=lf
+umask=022
+
+command="mvn clean package -Prelease -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dpgpverify.skip -Dcyclonedx.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
