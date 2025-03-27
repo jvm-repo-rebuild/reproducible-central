@@ -1,0 +1,102 @@
+1 / 2 target/reference/org.jdbi/jdbi3-core-3.49.0-cyclonedx.xml core/target/bom.xml
+--- target/reference/org.jdbi/jdbi3-core-3.49.0-cyclonedx.xml
++++ core/target/bom.xml
+│   --- target/reference/org.jdbi/jdbi3-core-3.49.0-cyclonedx.xml
+├── +++ core/target/bom.xml
+│ @@ -382,22 +382,22 @@
+│      <component type="library" bom-ref="pkg:maven/org.inferred/freebuilder@2.8.0?type=jar">
+│        <group>org.inferred</group>
+│        <name>freebuilder</name>
+│        <version>2.8.0</version>
+│        <description>Automatic generation of the Builder pattern for Java 1.8+</description>
+│        <scope>optional</scope>
+│        <hashes>
+│ -        <hash alg="MD5">3814393be0cfc607aa444ca9efe869db</hash>
+│ -        <hash alg="SHA-1">1033f74b8dec1b463089c0c5dea299fb5590ac93</hash>
+│ -        <hash alg="SHA-256">a84f0ac30fa588be19023111836e8b06ecced5d4dc63d2b39628042e744403b5</hash>
+│ -        <hash alg="SHA-512">e9f293f7d21fb01e3e7861d7b20ae05f87e5cc95622cddab292c04c2c7c24a64dbcff8c71e5389410105c1681cc6fd12c899964a026feb06e60d4f4b45e5607e</hash>
+│ -        <hash alg="SHA-384">8c77492c212cb444f8f9197f234fb82fc01d709fdb2cedc5b8028aabb692d63bab40521167270535fae01a0d5619935e</hash>
+│ -        <hash alg="SHA3-384">52c72ab199fc72b10b66c5dfc0e9f8b5164871d028652881105506dbdde2e3a05cb721592f502eaeccf486b2f920529d</hash>
+│ -        <hash alg="SHA3-256">a8a26bffec8f3304c56e5ee38740457a15c5fde464454b4b9c7abc280837d26b</hash>
+│ -        <hash alg="SHA3-512">372402f26f831587d235b81bd16154997e9cd515dc364362e875d05c365f9359927200126e7f119b8a01883dfc2436a91f50682f005073148d41fa9b711989e1</hash>
+│ +        <hash alg="MD5">8314e04cec13723e6ac8af790e168800</hash>
+│ +        <hash alg="SHA-1">bcf3ada8294697a660bad110bc7c2d5c435fe86f</hash>
+│ +        <hash alg="SHA-256">1b9969f15c27676d48255f3095a41759ebd78d86e1193c574f3c89c1ee374dc8</hash>
+│ +        <hash alg="SHA-512">48b4598114ec70df8067f39dad6fed43ceab5b5936ad7717125e208704701768b3edc0b69eecf624601bd8487ec131750b80b098ba12862b0f83b4626b62b50e</hash>
+│ +        <hash alg="SHA-384">3a194907b56f69840971b24bed5493d7edaa7a9ab9b171dccdd3d106efa65778ec9587330d79a3f362848f4be0ec84fd</hash>
+│ +        <hash alg="SHA3-384">2a11c873310a5634e04c20c51b51787f053a7351ad342a36340abbaa7da2724c556a8c5ad052a92357d3922a4b7ebbbf</hash>
+│ +        <hash alg="SHA3-256">0eeb1666b15a040e2f0b04d081fb4596d807118882f2c8e959381fcc7b2259a3</hash>
+│ +        <hash alg="SHA3-512">7a08c243aef8f26027581dd55945b6888660651d3e07b37a486e2d1b1148ca3c71ff72d280e0ecbe99da5ddf661b034f35b0890f5f50044472f1a74e4d60a483</hash>
+│        </hashes>
+│        <licenses>
+│          <license>
+│            <id>Apache-2.0</id>
+│          </license>
+│        </licenses>
+│        <purl>pkg:maven/org.inferred/freebuilder@2.8.0?type=jar</purl>
+
+2 / 2 target/reference/org.jdbi/jdbi3-core-3.49.0-cyclonedx.json core/target/bom.json
+--- target/reference/org.jdbi/jdbi3-core-3.49.0-cyclonedx.json
++++ core/target/bom.json
+├── Pretty-printed
+│┄ Similarity: 0.9999188311688311%
+│┄ Differences: {"'components'": "{9: {'hashes': {0: {'content': '8314e04cec13723e6ac8af790e168800'}, 1: "
+│┄                  "{'content': 'bcf3ada8294697a660bad110bc7c2d5c435fe86f'}, 2: {'content': "
+│┄                  "'1b9969f15c27676d48255f3095a41759ebd78d86e1193c574f3c89c1ee374dc8'}, 3: "
+│┄                  "{'content': "
+│┄                  "'48b4598114ec70df8067f39dad6fed43ceab5b5936ad7717125e208704701768b3edc0b69eecf624601bd8487ec131750b80b098ba12862b0f83b4626b62b50e'}, "
+│┄                  "4: {'content': "
+│┄                   […]
+│ @@ -619,43 +619,43 @@
+│                      "url": "https://github.com/inferred/freebuilder"
+│                  }
+│              ],
+│              "group": "org.inferred",
+│              "hashes": [
+│                  {
+│                      "alg": "MD5",
+│ -                    "content": "3814393be0cfc607aa444ca9efe869db"
+│ +                    "content": "8314e04cec13723e6ac8af790e168800"
+│                  },
+│                  {
+│                      "alg": "SHA-1",
+│ -                    "content": "1033f74b8dec1b463089c0c5dea299fb5590ac93"
+│ +                    "content": "bcf3ada8294697a660bad110bc7c2d5c435fe86f"
+│                  },
+│                  {
+│                      "alg": "SHA-256",
+│ -                    "content": "a84f0ac30fa588be19023111836e8b06ecced5d4dc63d2b39628042e744403b5"
+│ +                    "content": "1b9969f15c27676d48255f3095a41759ebd78d86e1193c574f3c89c1ee374dc8"
+│                  },
+│                  {
+│                      "alg": "SHA-512",
+│ -                    "content": "e9f293f7d21fb01e3e7861d7b20ae05f87e5cc95622cddab292c04c2c7c24a64dbcff8c71e5389410105c1681cc6fd12c899964a026feb06e60d4f4b45e5607e"
+│ +                    "content": "48b4598114ec70df8067f39dad6fed43ceab5b5936ad7717125e208704701768b3edc0b69eecf624601bd8487ec131750b80b098ba12862b0f83b4626b62b50e"
+│                  },
+│                  {
+│                      "alg": "SHA-384",
+│ -                    "content": "8c77492c212cb444f8f9197f234fb82fc01d709fdb2cedc5b8028aabb692d63bab40521167270535fae01a0d5619935e"
+│ +                    "content": "3a194907b56f69840971b24bed5493d7edaa7a9ab9b171dccdd3d106efa65778ec9587330d79a3f362848f4be0ec84fd"
+│                  },
+│                  {
+│                      "alg": "SHA3-384",
+│ -                    "content": "52c72ab199fc72b10b66c5dfc0e9f8b5164871d028652881105506dbdde2e3a05cb721592f502eaeccf486b2f920529d"
+│ +                    "content": "2a11c873310a5634e04c20c51b51787f053a7351ad342a36340abbaa7da2724c556a8c5ad052a92357d3922a4b7ebbbf"
+│                  },
+│                  {
+│                      "alg": "SHA3-256",
+│ -                    "content": "a8a26bffec8f3304c56e5ee38740457a15c5fde464454b4b9c7abc280837d26b"
+│ +                    "content": "0eeb1666b15a040e2f0b04d081fb4596d807118882f2c8e959381fcc7b2259a3"
+│                  },
+│                  {
+│                      "alg": "SHA3-512",
+│ -                    "content": "372402f26f831587d235b81bd16154997e9cd515dc364362e875d05c365f9359927200126e7f119b8a01883dfc2436a91f50682f005073148d41fa9b711989e1"
+│ +                    "content": "7a08c243aef8f26027581dd55945b6888660651d3e07b37a486e2d1b1148ca3c71ff72d280e0ecbe99da5ddf661b034f35b0890f5f50044472f1a74e4d60a483"
+│                  }
+│              ],
+│              "licenses": [
+│                  {
+│                      "license": {
+│                          "id": "Apache-2.0"
+│                      }
+
