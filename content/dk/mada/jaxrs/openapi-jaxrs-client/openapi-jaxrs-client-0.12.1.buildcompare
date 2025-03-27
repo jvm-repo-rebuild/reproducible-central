@@ -1,0 +1,5 @@
+version=0.12.1
+ok=13
+ko=0
+okFiles="generator-api-0.12.1-sources.jar generator-api-0.12.1.jar generator-api-0.12.1.pom model-0.12.1-sources.jar model-0.12.1.jar model-0.12.1.pom openapi-jaxrs-bom-0.12.1.pom openapi-jaxrs-client-0.12.1-sources.jar openapi-jaxrs-client-0.12.1.jar openapi-jaxrs-client-0.12.1.pom parser-0.12.1-sources.jar parser-0.12.1.jar parser-0.12.1.pom"
+koFiles=""
