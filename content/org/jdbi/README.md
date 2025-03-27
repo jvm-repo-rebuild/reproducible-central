@@ -45,13 +45,13 @@ Source code: [https://github.com/jdbi/jdbi.git](https://github.com/jdbi/jdbi.git
 * [org.jdbi:jdbi3-vavr](https://central.sonatype.com/artifact/org.jdbi/jdbi3-vavr/overview)
 </details>
 
-rebuilding **8 releases** of org.jdbi.internal:jdbi3-root:
+rebuilding **9 releases** of org.jdbi.internal:jdbi3-root:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.49.0](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.49.0/pom) | | | |
+| [3.49.0](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.49.0/pom) | [mvn jdk21](jdbi3-root-3.49.0.buildspec) | [result](jdbi3-parent-3.49.0.buildinfo): [211 :white_check_mark:  2 :warning:](jdbi3-parent-3.49.0.buildcompare) | 7.3M |
 | [3.48.0](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.48.0/pom) | [mvn jdk23](jdbi3-root-3.48.0.buildspec) | [result](jdbi3-parent-3.48.0.buildinfo): [213 :white_check_mark: ](jdbi3-parent-3.48.0.buildcompare) | 7.2M |
 | [3.47.0](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.47.0/pom) | [mvn jdk23](jdbi3-root-3.47.0.buildspec) | [result](jdbi3-parent-3.47.0.buildinfo): [100 :white_check_mark:  113 :warning:](jdbi3-parent-3.47.0.buildcompare) [:memo:](https://github.com/jdbi/jdbi/issues/2732) | 7.2M |
 | [3.46.0](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.46.0/pom) | [mvn jdk23](jdbi3-root-3.46.0.buildspec) | [result](jdbi3-parent-3.46.0.buildinfo): [95 :white_check_mark:  111 :warning:](jdbi3-parent-3.46.0.buildcompare) [:mag:](jdbi3-parent-3.46.0.diffoscope) [:memo:](https://github.com/jdbi/jdbi/issues/2732) | 7.1M |
