@@ -43,6 +43,7 @@ rebuilding **14 releases** of org.apache.jackrabbit.vault:jackrabbit-filevault:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.8.4](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.8.4/pom) | | | |
 | [3.8.2](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.8.2/pom) | [mvn jdk11](jackrabbit-filevault-3.8.2.buildspec) | [result](jackrabbit-filevault-3.8.2.buildinfo): [65 :white_check_mark: ](jackrabbit-filevault-3.8.2.buildcompare) | 28M |
 | [3.8.0](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.8.0/pom) | [mvn jdk11](jackrabbit-filevault-3.8.0.buildspec) | [result](jackrabbit-filevault-3.8.0.buildinfo): [64 :white_check_mark: ](jackrabbit-filevault-3.8.0.buildcompare) | 28M |
 | [3.7.2](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.7.2/pom) | [mvn jdk11](jackrabbit-filevault-3.7.2.buildspec) | [result](jackrabbit-filevault-3.7.2.buildinfo): [63 :white_check_mark:  3 :warning:](jackrabbit-filevault-3.7.2.buildcompare) [:mag:](jackrabbit-filevault-3.7.2.diffoscope) | 28M |

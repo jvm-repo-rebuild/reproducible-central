@@ -1,8 +1,4 @@
-content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.12.0.buildspec:0.12.1
-content/io/airlift/airbase/airbase-241.buildspec:242
-content/io/avaje/inject/avaje-inject-11.3-javax.buildspec:11.4-RC1
-content/io/avaje/jex/avaje-jex-3.0-RC23.buildspec:3.0-RC24
-content/io/avaje/prisms/avaje-prisms-1.40.buildspec:1.41
-content/io/dropwizard/core/dropwizard-5.0.0-rc.1.buildspec:5.0.0-rc.2
-content/io/github/rockcrafters/plugins/rockcraft-parent-0.2.3.buildspec:1.0.0
-content/org/jdbi/jdbi3-root-3.48.0.buildspec:3.49.0
+content/io/cucumber/gherkin/gherkin-32.0.0.buildspec:32.0.1
+content/net/sourceforge/pmd/pmd-7.11.0.buildspec:7.12.0
+content/org/apache/jackrabbit/filevault/jackrabbit-filevault-3.8.2.buildspec:3.8.4
+content/org/apache/sling/org.apache.sling.resourceresolver/org.apache.sling.resourceresolver-1.12.4.buildspec:1.12.6
