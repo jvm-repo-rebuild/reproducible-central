@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/cucumber/gherkin.git](https://github.com/cucumber/gherkin.git)
 
-rebuilding **16 releases** of io.cucumber:gherkin:
-- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **17 releases** of io.cucumber:gherkin:
+- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [32.0.1](https://central.sonatype.com/artifact/io.cucumber/gherkin/32.0.1/pom) | | | |
+| [32.0.1](https://central.sonatype.com/artifact/io.cucumber/gherkin/32.0.1/pom) | [mvn jdk11](gherkin-32.0.1.buildspec) | [result](gherkin-32.0.1.buildinfo): [3 :white_check_mark: ](gherkin-32.0.1.buildcompare) | 150K |
 | [32.0.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/32.0.0/pom) | [mvn jdk11](gherkin-32.0.0.buildspec) | [result](gherkin-32.0.0.buildinfo): [3 :white_check_mark: ](gherkin-32.0.0.buildcompare) | 150K |
 | [31.0.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/31.0.0/pom) | [mvn jdk11](gherkin-31.0.0.buildspec) | [result](gherkin-31.0.0.buildinfo): [3 :white_check_mark: ](gherkin-31.0.0.buildcompare) | 150K |
 | [30.0.4](https://central.sonatype.com/artifact/io.cucumber/gherkin/30.0.4/pom) | [mvn jdk11](gherkin-30.0.4.buildspec) | [result](gherkin-30.0.4.buildinfo): [3 :white_check_mark: ](gherkin-30.0.4.buildcompare) | 153K |
