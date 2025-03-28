@@ -37,13 +37,13 @@ Source code: [https://github.com/apache/jackrabbit-filevault.git](https://github
 * [org.apache.jackrabbit.vault:vault-vlt](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/vault-vlt/overview)
 </details>
 
-rebuilding **14 releases** of org.apache.jackrabbit.vault:jackrabbit-filevault:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **15 releases** of org.apache.jackrabbit.vault:jackrabbit-filevault:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.8.4](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.8.4/pom) | | | |
+| [3.8.4](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.8.4/pom) | [mvn jdk11](jackrabbit-filevault-3.8.4.buildspec) | [result](jackrabbit-filevault-3.8.4.buildinfo): [65 :white_check_mark: ](jackrabbit-filevault-3.8.4.buildcompare) | 28M |
 | [3.8.2](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.8.2/pom) | [mvn jdk11](jackrabbit-filevault-3.8.2.buildspec) | [result](jackrabbit-filevault-3.8.2.buildinfo): [65 :white_check_mark: ](jackrabbit-filevault-3.8.2.buildcompare) | 28M |
 | [3.8.0](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.8.0/pom) | [mvn jdk11](jackrabbit-filevault-3.8.0.buildspec) | [result](jackrabbit-filevault-3.8.0.buildinfo): [64 :white_check_mark: ](jackrabbit-filevault-3.8.0.buildcompare) | 28M |
 | [3.7.2](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.7.2/pom) | [mvn jdk11](jackrabbit-filevault-3.7.2.buildspec) | [result](jackrabbit-filevault-3.7.2.buildinfo): [63 :white_check_mark:  3 :warning:](jackrabbit-filevault-3.7.2.buildcompare) [:mag:](jackrabbit-filevault-3.7.2.diffoscope) | 28M |
