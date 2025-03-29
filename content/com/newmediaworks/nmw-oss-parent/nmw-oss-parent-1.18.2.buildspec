@@ -1,0 +1,18 @@
+groupId=com.newmediaworks
+artifactId=nmw-oss-parent
+display=${groupId}:${artifactId}
+version=1.18.2
+
+gitRepo=https://github.com/newmediaworks/nmw-oss-parent.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.3
+jdk=11
+newline=lf
+#umask=022
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
