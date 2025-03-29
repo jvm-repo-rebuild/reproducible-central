@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=jwsacruncher
+group-id=eu.europa.ec.joinup.sat
+artifact-id=jwsacruncher
+version=2.2.5
+
+# source information
+source.scm.uri=scm:git:git://github.com/jdemetra/jwsacruncher.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.6
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=eu.europa.ec.joinup.sat
+outputs.0.filename=jwsacruncher-2.2.5.pom
+outputs.0.length=37599
+outputs.0.checksums.sha512=90a24bed8c719d8dfb80aa79e38dbdb6bc9f18459dcc140cd33bd6a3837ece890e1c6896c93f6c85c3c9e44e5a89192bd524b8f9ca663ce546bb6e2593f2d588
+
+outputs.1.groupId=eu.europa.ec.joinup.sat
+outputs.1.filename=jwsacruncher-2.2.5.jar
+outputs.1.length=33454
+outputs.1.checksums.sha512=c155595143f9612b5096d7a8888c6aabf72b9a7b8aac524c1d3b9cde0ec220ffac072334689c3eb89a35fec52efbf1c2698f0a7f0c6e9ea45d49802ed4104bcc
+
+outputs.2.groupId=eu.europa.ec.joinup.sat
+outputs.2.filename=jwsacruncher-2.2.5-bin.zip
+outputs.2.length=26979092
+outputs.2.checksums.sha512=bf58ab4ae2f6906fc891d96e1619f30b3490fdf3cf5aaa546ccc851eccbd12310d083d7d2c0f74b328adc1b5d83b8acedc5bf0e006f14884c001b556226a2376
+
+outputs.3.groupId=eu.europa.ec.joinup.sat
+outputs.3.filename=jwsacruncher-2.2.5-sources.jar
+outputs.3.length=23213
+outputs.3.checksums.sha512=d4cfc908e085987a4a1b7f36924ce1eff409730588a9d4b5a705ff989bde49c9179d3bf9f44bcf14f6b35c467af0f9ac665d091724611c0856a1d42e59cf8006
