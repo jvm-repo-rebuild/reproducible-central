@@ -44,7 +44,7 @@ jobs:
 
       - name: Update Badge Data
         run: |
-          wget https://raw.githubusercontent.com/hboutemy/mcmm-logs/refs/heads/master/outputTimestamp.txt
+          wget -nv https://raw.githubusercontent.com/hboutemy/mcmm-logs/refs/heads/master/outputTimestamp.txt
           ./bin/update_artifact_badge_data.java
 
       - name: Commit Push gh-pages

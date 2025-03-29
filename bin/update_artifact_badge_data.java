@@ -50,9 +50,10 @@ public class update_artifact_badge_data extends SimpleFileVisitor<Path> {
 
     public static void main(String... args) throws Exception {
         update_artifact_badge_data uabd = new update_artifact_badge_data();
+        System.out.println("::group:: Projects & Releases");
         Files.walkFileTree(Path.of("content"), uabd);
 
-        System.out.println();
+        System.out.println("::endgroup::");
         uabd.summarize();
         System.out.println();
         uabd.checkOutputTimestamps();
@@ -238,7 +239,7 @@ public class update_artifact_badge_data extends SimpleFileVisitor<Path> {
     }
 
     private void checkOutputTimestamps() throws IOException {
-        System.out.println("Missed rebuilds on last 100 from https://raw.githubusercontent.com/hboutemy/mcmm-logs/refs/heads/master/outputTimestamp.txt");
+        System.out.println("::group:: Last 100 missed rebuilds from https://raw.githubusercontent.com/hboutemy/mcmm-logs/refs/heads/master/outputTimestamp.txt");
         Path outputTimestamps = Path.of("outputTimestamp.txt");
         if (!Files.exists(outputTimestamps)) {
             System.out.println("Missing outputTimestamp.txt to check missed rebuilds.");
@@ -253,14 +254,15 @@ public class update_artifact_badge_data extends SimpleFileVisitor<Path> {
         Map<String, List<String>> missedGroups = missed.stream()
             .collect(Collectors.groupingBy(s -> s.substring(0, s.lastIndexOf('/', s.lastIndexOf('/') - 1))));
         missedGroups = new TreeMap<>(missedGroups);
-        System.out.println();
-        System.out.println("projects with missing releases:");
+        System.out.println("::endgroup::");
+        System.out.println("::group:: projects with missing releases");
         int missingReleases = list(missedGroups, s -> Files.exists(BADGE_ARTIFACT_BASE.resolve(s + ".html")));
         System.out.println("=> " + missingReleases + " projects with missing releases.");
-        System.out.println();
-        System.out.println("missed projects:");
+        System.out.println("::endgroup::");
+        System.out.println("::group:: missed projects:");
         int missingProjects = list(missedGroups, s -> !Files.exists(BADGE_ARTIFACT_BASE.resolve(s + ".html")));
         System.out.println("=> " + missingProjects + " missed projects.");
+        System.out.println("::endgroup::");
     }
 
     private int list(Map<String, List<String>> missedGroups, Predicate<String> p) {
