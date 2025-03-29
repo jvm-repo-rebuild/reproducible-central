@@ -23,6 +23,7 @@ rebuilding **1 releases** of tools.jackson.dataformat:jackson-dataformats-binary
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.0-rc2](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/3.0.0-rc2/pom) | | | |
 | [3.0.0-rc1](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/3.0.0-rc1/pom) | [mvn jdk17](jackson-dataformats-binary-3.0.0-rc1.buildspec) | [result](jackson-dataformats-binary-3.0.0-rc1.buildinfo): [21 :white_check_mark: ](jackson-dataformats-binary-3.0.0-rc1.buildcompare) | 1.1M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

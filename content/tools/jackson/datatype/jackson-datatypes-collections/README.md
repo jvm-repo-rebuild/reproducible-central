@@ -23,6 +23,7 @@ rebuilding **1 releases** of tools.jackson.datatype:jackson-datatypes-collection
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.0-rc2](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-collections/3.0.0-rc2/pom) | | | |
 | [3.0.0-rc1](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-collections/3.0.0-rc1/pom) | [mvn jdk17](jackson-datatypes-collections-3.0.0-rc1.buildspec) | [result](jackson-datatypes-collections-3.0.0-rc1.buildinfo): [20 :white_check_mark: ](jackson-datatypes-collections-3.0.0-rc1.buildcompare) | 852K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -23,6 +23,7 @@ rebuilding **1 releases** of tools.jackson.datatype:jackson-datatypes-misc-paren
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.0-rc2](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-misc-parent/3.0.0-rc2/pom) | | | |
 | [3.0.0-rc1](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-misc-parent/3.0.0-rc1/pom) | [mvn jdk17](jackson-datatypes-misc-parent-3.0.0-rc1.buildspec) | [result](jackson-datatypes-misc-parent-3.0.0-rc1.buildinfo): [21 :white_check_mark: ](jackson-datatypes-misc-parent-3.0.0-rc1.buildcompare) | 172K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
