@@ -7,12 +7,13 @@
 
 Source code: [https://github.com/io7m/looseleaf.git](https://github.com/io7m/looseleaf.git)
 
-<details><summary>This project defines 12 modules:</summary>
+<details><summary>This project defines 13 modules:</summary>
 
 * [com.io7m.looseleaf:com.io7m.looseleaf](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/overview)
 * [com.io7m.looseleaf:com.io7m.looseleaf.cmdline](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.cmdline/overview)
 * [com.io7m.looseleaf:com.io7m.looseleaf.database.api](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.database.api/overview)
 * [com.io7m.looseleaf:com.io7m.looseleaf.database.mvstore](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.database.mvstore/overview)
+* [com.io7m.looseleaf:com.io7m.looseleaf.database.sqlite](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.database.sqlite/overview)
 * [com.io7m.looseleaf:com.io7m.looseleaf.documentation](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.documentation/overview)
 * [com.io7m.looseleaf:com.io7m.looseleaf.grafana](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.grafana/overview)
 * [com.io7m.looseleaf:com.io7m.looseleaf.oci](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.oci/overview)
@@ -23,13 +24,13 @@ Source code: [https://github.com/io7m/looseleaf.git](https://github.com/io7m/loo
 * [com.io7m.looseleaf:com.io7m.looseleaf.tests](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.tests/overview)
 </details>
 
-rebuilding **7 releases** of com.io7m.looseleaf:com.io7m.looseleaf:
+rebuilding **8 releases** of com.io7m.looseleaf:com.io7m.looseleaf:
 - **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.0.0](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/3.0.0/pom) | | | |
+| [3.0.0](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/3.0.0/pom) | [mvn jdk21](com.io7m.looseleaf-3.0.0.buildspec) | [result](com.io7m.looseleaf-3.0.0.buildinfo): [16 :white_check_mark:  47 :warning:](com.io7m.looseleaf-3.0.0.buildcompare) | 5.6M |
 | [2.0.0](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/2.0.0/pom) | [mvn jdk21](com.io7m.looseleaf-2.0.0.buildspec) | [result](com.io7m.looseleaf-2.0.0.buildinfo): [58 :white_check_mark: ](com.io7m.looseleaf-2.0.0.buildcompare) | 5.0M |
 | [1.1.0](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/1.1.0/pom) | [mvn jdk17.0.7](com.io7m.looseleaf-1.1.0.buildspec) | [result](com.io7m.looseleaf-1.1.0.buildinfo): [46 :white_check_mark: ](com.io7m.looseleaf-1.1.0.buildcompare) | 698K |
 | [1.0.0](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/1.0.0/pom) | [mvn jdk17.0.7](com.io7m.looseleaf-1.0.0.buildspec) | [result](com.io7m.looseleaf-1.0.0.buildinfo): [46 :white_check_mark: ](com.io7m.looseleaf-1.0.0.buildcompare) | 697K |

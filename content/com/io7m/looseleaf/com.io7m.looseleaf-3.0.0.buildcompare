@@ -1,0 +1,54 @@
+version=3.0.0
+ok=16
+ko=47
+ignored=0
+okFiles="com.io7m.looseleaf-3.0.0.pom com.io7m.looseleaf.security-3.0.0.pom com.io7m.looseleaf.security-3.0.0-cyclonedx.xml com.io7m.looseleaf.database.api-3.0.0.pom com.io7m.looseleaf.database.mvstore-3.0.0.pom com.io7m.looseleaf.database.sqlite-3.0.0.pom com.io7m.looseleaf.protocol.v1-3.0.0.pom com.io7m.looseleaf.protocol.v1-3.0.0-cyclonedx.xml com.io7m.looseleaf.server.api-3.0.0.pom com.io7m.looseleaf.server-3.0.0.pom com.io7m.looseleaf.cmdline-3.0.0.pom com.io7m.looseleaf.grafana-3.0.0.pom com.io7m.looseleaf.grafana-3.0.0-cyclonedx.xml com.io7m.looseleaf.documentation-3.0.0.pom com.io7m.looseleaf.oci-3.0.0.pom com.io7m.looseleaf.tests-3.0.0.pom"
+koFiles="com.io7m.looseleaf-3.0.0-cyclonedx.xml com.io7m.looseleaf.security-3.0.0.jar com.io7m.looseleaf.security-3.0.0-sources.jar com.io7m.looseleaf.security-3.0.0-tests.jar com.io7m.looseleaf.database.api-3.0.0.jar com.io7m.looseleaf.database.api-3.0.0-sources.jar com.io7m.looseleaf.database.api-3.0.0-cyclonedx.xml com.io7m.looseleaf.database.api-3.0.0-tests.jar com.io7m.looseleaf.database.mvstore-3.0.0.jar com.io7m.looseleaf.database.mvstore-3.0.0-sources.jar com.io7m.looseleaf.database.mvstore-3.0.0-cyclonedx.xml com.io7m.looseleaf.database.mvstore-3.0.0-tests.jar com.io7m.looseleaf.database.sqlite-3.0.0.jar com.io7m.looseleaf.database.sqlite-3.0.0-sources.jar com.io7m.looseleaf.database.sqlite-3.0.0-cyclonedx.xml com.io7m.looseleaf.database.sqlite-3.0.0-tests.jar com.io7m.looseleaf.protocol.v1-3.0.0.jar com.io7m.looseleaf.protocol.v1-3.0.0-sources.jar com.io7m.looseleaf.protocol.v1-3.0.0-tests.jar com.io7m.looseleaf.server.api-3.0.0.jar com.io7m.looseleaf.server.api-3.0.0-sources.jar com.io7m.looseleaf.server.api-3.0.0-cyclonedx.xml com.io7m.looseleaf.server.api-3.0.0-tests.jar com.io7m.looseleaf.server-3.0.0.jar com.io7m.looseleaf.server-3.0.0-sources.jar com.io7m.looseleaf.server-3.0.0-cyclonedx.xml com.io7m.looseleaf.server-3.0.0-tests.jar com.io7m.looseleaf.cmdline-3.0.0.jar com.io7m.looseleaf.cmdline-3.0.0-sources.jar com.io7m.looseleaf.cmdline-3.0.0-cyclonedx.xml com.io7m.looseleaf.cmdline-3.0.0-tests.jar com.io7m.looseleaf.grafana-3.0.0.jar com.io7m.looseleaf.grafana-3.0.0-sources.jar com.io7m.looseleaf.grafana-3.0.0-tests.jar com.io7m.looseleaf.documentation-3.0.0.jar com.io7m.looseleaf.documentation-3.0.0-sources.jar com.io7m.looseleaf.documentation-3.0.0-cyclonedx.xml com.io7m.looseleaf.documentation-3.0.0-tests.jar com.io7m.looseleaf.oci-3.0.0.jar com.io7m.looseleaf.oci-3.0.0-sources.jar com.io7m.looseleaf.oci-3.0.0-test-sources.jar com.io7m.looseleaf.oci-3.0.0-cyclonedx.xml com.io7m.looseleaf.oci-3.0.0-tests.jar com.io7m.looseleaf.tests-3.0.0.jar com.io7m.looseleaf.tests-3.0.0-sources.jar com.io7m.looseleaf.tests-3.0.0-cyclonedx.xml com.io7m.looseleaf.tests-3.0.0-tests.jar"
+ignoredFiles=""
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf-3.0.0-cyclonedx.xml target/bom.xml
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.security-3.0.0.jar com.io7m.looseleaf.security/target/com.io7m.looseleaf.security-3.0.0.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.security-3.0.0-sources.jar com.io7m.looseleaf.security/target/com.io7m.looseleaf.security-3.0.0-sources.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.security-3.0.0-tests.jar com.io7m.looseleaf.security/target/com.io7m.looseleaf.security-3.0.0-tests.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.database.api-3.0.0.jar com.io7m.looseleaf.database.api/target/com.io7m.looseleaf.database.api-3.0.0.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.database.api-3.0.0-sources.jar com.io7m.looseleaf.database.api/target/com.io7m.looseleaf.database.api-3.0.0-sources.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.database.api-3.0.0-cyclonedx.xml com.io7m.looseleaf.database.api/target/bom.xml
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.database.api-3.0.0-tests.jar com.io7m.looseleaf.database.api/target/com.io7m.looseleaf.database.api-3.0.0-tests.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.database.mvstore-3.0.0.jar com.io7m.looseleaf.database.mvstore/target/com.io7m.looseleaf.database.mvstore-3.0.0.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.database.mvstore-3.0.0-sources.jar com.io7m.looseleaf.database.mvstore/target/com.io7m.looseleaf.database.mvstore-3.0.0-sources.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.database.mvstore-3.0.0-cyclonedx.xml com.io7m.looseleaf.database.mvstore/target/bom.xml
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.database.mvstore-3.0.0-tests.jar com.io7m.looseleaf.database.mvstore/target/com.io7m.looseleaf.database.mvstore-3.0.0-tests.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.database.sqlite-3.0.0.jar com.io7m.looseleaf.database.sqlite/target/com.io7m.looseleaf.database.sqlite-3.0.0.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.database.sqlite-3.0.0-sources.jar com.io7m.looseleaf.database.sqlite/target/com.io7m.looseleaf.database.sqlite-3.0.0-sources.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.database.sqlite-3.0.0-cyclonedx.xml com.io7m.looseleaf.database.sqlite/target/bom.xml
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.database.sqlite-3.0.0-tests.jar com.io7m.looseleaf.database.sqlite/target/com.io7m.looseleaf.database.sqlite-3.0.0-tests.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.protocol.v1-3.0.0.jar com.io7m.looseleaf.protocol.v1/target/com.io7m.looseleaf.protocol.v1-3.0.0.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.protocol.v1-3.0.0-sources.jar com.io7m.looseleaf.protocol.v1/target/com.io7m.looseleaf.protocol.v1-3.0.0-sources.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.protocol.v1-3.0.0-tests.jar com.io7m.looseleaf.protocol.v1/target/com.io7m.looseleaf.protocol.v1-3.0.0-tests.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.server.api-3.0.0.jar com.io7m.looseleaf.server.api/target/com.io7m.looseleaf.server.api-3.0.0.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.server.api-3.0.0-sources.jar com.io7m.looseleaf.server.api/target/com.io7m.looseleaf.server.api-3.0.0-sources.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.server.api-3.0.0-cyclonedx.xml com.io7m.looseleaf.server.api/target/bom.xml
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.server.api-3.0.0-tests.jar com.io7m.looseleaf.server.api/target/com.io7m.looseleaf.server.api-3.0.0-tests.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.server-3.0.0.jar com.io7m.looseleaf.server/target/com.io7m.looseleaf.server-3.0.0.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.server-3.0.0-sources.jar com.io7m.looseleaf.server/target/com.io7m.looseleaf.server-3.0.0-sources.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.server-3.0.0-cyclonedx.xml com.io7m.looseleaf.server/target/bom.xml
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.server-3.0.0-tests.jar com.io7m.looseleaf.server/target/com.io7m.looseleaf.server-3.0.0-tests.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.cmdline-3.0.0.jar com.io7m.looseleaf.cmdline/target/com.io7m.looseleaf.cmdline-3.0.0.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.cmdline-3.0.0-sources.jar com.io7m.looseleaf.cmdline/target/com.io7m.looseleaf.cmdline-3.0.0-sources.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.cmdline-3.0.0-cyclonedx.xml com.io7m.looseleaf.cmdline/target/bom.xml
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.cmdline-3.0.0-tests.jar com.io7m.looseleaf.cmdline/target/com.io7m.looseleaf.cmdline-3.0.0-tests.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.grafana-3.0.0.jar com.io7m.looseleaf.grafana/target/com.io7m.looseleaf.grafana-3.0.0.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.grafana-3.0.0-sources.jar com.io7m.looseleaf.grafana/target/com.io7m.looseleaf.grafana-3.0.0-sources.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.grafana-3.0.0-tests.jar com.io7m.looseleaf.grafana/target/com.io7m.looseleaf.grafana-3.0.0-tests.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.documentation-3.0.0.jar com.io7m.looseleaf.documentation/target/com.io7m.looseleaf.documentation-3.0.0.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.documentation-3.0.0-sources.jar com.io7m.looseleaf.documentation/target/com.io7m.looseleaf.documentation-3.0.0-sources.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.documentation-3.0.0-cyclonedx.xml com.io7m.looseleaf.documentation/target/bom.xml
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.documentation-3.0.0-tests.jar com.io7m.looseleaf.documentation/target/com.io7m.looseleaf.documentation-3.0.0-tests.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.oci-3.0.0.jar com.io7m.looseleaf.oci/target/com.io7m.looseleaf.oci-3.0.0.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.oci-3.0.0-sources.jar com.io7m.looseleaf.oci/target/com.io7m.looseleaf.oci-3.0.0-sources.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.oci-3.0.0-test-sources.jar com.io7m.looseleaf.oci/target/com.io7m.looseleaf.oci-3.0.0-test-sources.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.oci-3.0.0-cyclonedx.xml com.io7m.looseleaf.oci/target/bom.xml
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.oci-3.0.0-tests.jar com.io7m.looseleaf.oci/target/com.io7m.looseleaf.oci-3.0.0-tests.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.tests-3.0.0.jar com.io7m.looseleaf.tests/target/com.io7m.looseleaf.tests-3.0.0.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.tests-3.0.0-sources.jar com.io7m.looseleaf.tests/target/com.io7m.looseleaf.tests-3.0.0-sources.jar
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.tests-3.0.0-cyclonedx.xml com.io7m.looseleaf.tests/target/bom.xml
+# diffoscope target/reference/com.io7m.looseleaf/com.io7m.looseleaf.tests-3.0.0-tests.jar com.io7m.looseleaf.tests/target/com.io7m.looseleaf.tests-3.0.0-tests.jar
