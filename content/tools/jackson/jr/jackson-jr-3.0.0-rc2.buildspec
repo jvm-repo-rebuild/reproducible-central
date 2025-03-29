@@ -1,0 +1,22 @@
+groupId=tools.jackson.jr
+artifactId=jackson-jr-parent
+version=3.0.0-rc2
+
+display=tool.jackson.jr:jackson-jr
+
+gitRepo=https://github.com/FasterXML/jackson-jr.git
+gitTag=${artifactId}-${version}
+
+# gradle-module-metadata:0.4.0:gmm records the exact Maven version used
+tool=mvn-3.9.3
+jdk=17
+newline=lf
+#umask=022
+timezone="America/Los_Angeles"
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
