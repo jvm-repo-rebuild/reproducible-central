@@ -1,0 +1,21 @@
+groupId=com.github.sitture
+artifactId=env-config
+display=${groupId}:${artifactId}
+version=1.8.0
+
+gitRepo=https://github.com/sitture/env-config.git
+gitTag=${version}
+
+tool=mvn
+jdk=11
+newline=lf
+#umask=022
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+# fix updates not committed to Git...
+execBefore="sed -i 's/1.9.0/1.10.0/' pom.xml ; sed -i 's/2023-01-01T00:00:00Z/2024-10-07T12:08:18Z/' pom.xml"
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
+
