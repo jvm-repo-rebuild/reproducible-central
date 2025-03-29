@@ -7,8 +7,8 @@
 
 Source code: [https://github.com/newmediaworks/nmw-oss-parent.git](https://github.com/newmediaworks/nmw-oss-parent.git)
 
-rebuilding **8 releases** of com.newmediaworks:nmw-oss-parent:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **9 releases** of com.newmediaworks:nmw-oss-parent:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -19,7 +19,7 @@ rebuilding **8 releases** of com.newmediaworks:nmw-oss-parent:
 | [1.20.1](https://central.sonatype.com/artifact/com.newmediaworks/nmw-oss-parent/1.20.1/pom) | [mvn jdk11](nmw-oss-parent-1.20.1.buildspec) | [result](nmw-oss-parent-1.20.1.buildinfo): [1 :white_check_mark: ](nmw-oss-parent-1.20.1.buildcompare) | 245K |
 | [1.20.0](https://central.sonatype.com/artifact/com.newmediaworks/nmw-oss-parent/1.20.0/pom) | [mvn jdk11](nmw-oss-parent-1.20.0.buildspec) | [result](nmw-oss-parent-1.20.0.buildinfo): [1 :white_check_mark: ](nmw-oss-parent-1.20.0.buildcompare) | 222K |
 | [1.19.0](https://central.sonatype.com/artifact/com.newmediaworks/nmw-oss-parent/1.19.0/pom) | | | |
-| [1.18.3](https://central.sonatype.com/artifact/com.newmediaworks/nmw-oss-parent/1.18.3/pom) | | | |
+| [1.18.3](https://central.sonatype.com/artifact/com.newmediaworks/nmw-oss-parent/1.18.3/pom) | [mvn jdk11](nmw-oss-parent-1.18.3.buildspec) | [result](nmw-oss-parent-1.18.3.buildinfo): [1 :white_check_mark: ](nmw-oss-parent-1.18.3.buildcompare) | 220K |
 | [1.18.2](https://central.sonatype.com/artifact/com.newmediaworks/nmw-oss-parent/1.18.2/pom) | [mvn jdk11](nmw-oss-parent-1.18.2.buildspec) | [result](nmw-oss-parent-1.18.2.buildinfo): [1 :white_check_mark: ](nmw-oss-parent-1.18.2.buildcompare) | 220K |
 | [1.18.1](https://central.sonatype.com/artifact/com.newmediaworks/nmw-oss-parent/1.18.1/pom) | [mvn jdk11](nmw-oss-parent-1.18.1.buildspec) | [result](nmw-oss-parent-1.18.1.buildinfo): [1 :white_check_mark: ](nmw-oss-parent-1.18.1.buildcompare) | 193K |
 | [1.18.0](https://central.sonatype.com/artifact/com.newmediaworks/nmw-oss-parent/1.18.0/pom) | [mvn jdk11](nmw-oss-parent-1.18.0.buildspec) | [result](nmw-oss-parent-1.18.0.buildinfo): [1 :white_check_mark: ](nmw-oss-parent-1.18.0.buildcompare) | 192K |
