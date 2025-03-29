@@ -18,13 +18,13 @@ Source code: [https://github.com/FasterXML/jackson-jr.git](https://github.com/Fa
 * [tools.jackson.jr:jackson-jr-stree](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-stree/overview)
 </details>
 
-rebuilding **1 releases** of tools.jackson.jr:jackson-jr-parent:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of tools.jackson.jr:jackson-jr-parent:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.0.0-rc2](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-parent/3.0.0-rc2/pom) | | | |
+| [3.0.0-rc2](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-parent/3.0.0-rc2/pom) | [mvn jdk17](jackson-jr-3.0.0-rc2.buildspec) | [result](jackson-jr-parent-3.0.0-rc2.buildinfo): [24 :white_check_mark: ](jackson-jr-parent-3.0.0-rc2.buildcompare) | 1.6M |
 | [3.0.0-rc1](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-parent/3.0.0-rc1/pom) | [mvn jdk17](jackson-jr-3.0.0-rc1.buildspec) | [result](jackson-jr-parent-3.0.0-rc1.buildinfo): [24 :white_check_mark: ](jackson-jr-parent-3.0.0-rc1.buildcompare) | 1.6M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
