@@ -230,9 +230,9 @@ Source code: [https://github.com/apache/activemq-artemis.git](https://github.com
 * [org.apache.activemq:artemis-website](https://central.sonatype.com/artifact/org.apache.activemq/artemis-website/overview)
 </details>
 
-rebuilding **16 releases** of org.apache.activemq:artemis-pom:
+rebuilding **17 releases** of org.apache.activemq:artemis-pom:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -252,5 +252,6 @@ rebuilding **16 releases** of org.apache.activemq:artemis-pom:
 | [2.29.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.29.0/pom) | [mvn jdk11](artemis-2.29.0.buildspec) | [result](artemis-pom-2.29.0.buildinfo): [105 :white_check_mark:  3 :warning:](artemis-pom-2.29.0.buildcompare) [:mag:](artemis-pom-2.29.0.diffoscope) | 204M |
 | [2.28.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.28.0/pom) | [mvn jdk11](artemis-2.28.0.buildspec) | [result](artemis-pom-2.28.0.buildinfo): [97 :white_check_mark:  8 :warning:](artemis-pom-2.28.0.buildcompare) | 206M |
 | [2.27.1](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.27.1/pom) | [mvn jdk11](artemis-2.27.1.buildspec) | [result](artemis-pom-2.27.1.buildinfo): [92 :white_check_mark:  8 :warning:](artemis-pom-2.27.1.buildcompare) [:mag:](artemis-pom-2.27.1.diffoscope) | 205M |
+| [2.27.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.27.0/pom) | [mvn jdk11](artemis-2.27.0.buildspec) | [result](artemis-pom-2.27.0.buildinfo): [91 :white_check_mark:  9 :warning:](artemis-pom-2.27.0.buildcompare) | 205M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
