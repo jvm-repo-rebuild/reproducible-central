@@ -3,8 +3,8 @@
   <groupId>io.cucumber</groupId>
   <artifactId>html-formatter</artifactId>
   <versioning>
-    <latest>21.9.0</latest>
-    <release>21.9.0</release>
+    <latest>21.10.0</latest>
+    <release>21.10.0</release>
     <versions>
       <version>4.2.0</version>
       <version>4.3.0</version>
@@ -53,7 +53,8 @@
       <version>21.7.0</version>
       <version>21.8.0</version>
       <version>21.9.0</version>
+      <version>21.10.0</version>
     </versions>
-    <lastUpdated>20250202164211</lastUpdated>
+    <lastUpdated>20250330110705</lastUpdated>
   </versioning>
 </metadata>
