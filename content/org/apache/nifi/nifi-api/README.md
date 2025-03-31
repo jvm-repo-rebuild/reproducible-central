@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.nifi:nifi-api:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.1.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi-api/2.1.0/pom) | | | |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi-api/2.0.0/pom) | [mvn jdk21](nifi-api-2.0.0.buildspec) | [result](nifi-api-2.0.0.buildinfo): [4 :white_check_mark: ](nifi-api-2.0.0.buildcompare) | 1.2M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -13,6 +13,7 @@ rebuilding **3 releases** of io.wcm.maven.plugins:sling-initial-content-transfor
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.1.6](https://central.sonatype.com/artifact/io.wcm.maven.plugins/sling-initial-content-transform-maven-plugin/1.1.6/pom) | | | |
 | [1.1.4](https://central.sonatype.com/artifact/io.wcm.maven.plugins/sling-initial-content-transform-maven-plugin/1.1.4/pom) | [mvn jdk11 w](sling-initial-content-transform-maven-plugin-1.1.4.buildspec) | [result](sling-initial-content-transform-maven-plugin-1.1.4.buildinfo): [3 :white_check_mark: ](sling-initial-content-transform-maven-plugin-1.1.4.buildcompare) | 63K |
 | [1.1.2](https://central.sonatype.com/artifact/io.wcm.maven.plugins/sling-initial-content-transform-maven-plugin/1.1.2/pom) | [mvn jdk11 w](sling-initial-content-transform-maven-plugin-1.1.2.buildspec) | [result](sling-initial-content-transform-maven-plugin-1.1.2.buildinfo): [3 :white_check_mark: ](sling-initial-content-transform-maven-plugin-1.1.2.buildcompare) | 63K |
 | [1.1.0](https://central.sonatype.com/artifact/io.wcm.maven.plugins/sling-initial-content-transform-maven-plugin/1.1.0/pom) | [mvn jdk11 w](sling-initial-content-transform-maven-plugin-1.1.0.buildspec) | [result](sling-initial-content-transform-maven-plugin-1.1.0.buildinfo): [3 :white_check_mark: ](sling-initial-content-transform-maven-plugin-1.1.0.buildcompare) | 60K |

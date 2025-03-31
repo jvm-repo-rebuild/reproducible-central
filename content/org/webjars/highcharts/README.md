@@ -13,6 +13,7 @@ rebuilding **4 releases** of org.webjars:highcharts:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [12.1.2](https://central.sonatype.com/artifact/org.webjars/highcharts/12.1.2/pom) | | | |
 | [12.1.0](https://central.sonatype.com/artifact/org.webjars/highcharts/12.1.0/pom) | [mvn jdk21](highcharts-12.1.0.buildspec) | [result](highcharts-12.1.0.buildinfo): [2 :white_check_mark: ](highcharts-12.1.0.buildcompare) | 30M |
 | [11.2.0](https://central.sonatype.com/artifact/org.webjars/highcharts/11.2.0/pom) | [mvn jdk8](highcharts-11.2.0.buildspec) | [result](highcharts-11.2.0.buildinfo): [2 :white_check_mark: ](highcharts-11.2.0.buildcompare) | 23M |
 | [11.1.0](https://central.sonatype.com/artifact/org.webjars/highcharts/11.1.0/pom) | [mvn jdk8](highcharts-11.1.0.buildspec) | [result](highcharts-11.1.0.buildinfo): [2 :white_check_mark: ](highcharts-11.1.0.buildcompare) | 19M |
