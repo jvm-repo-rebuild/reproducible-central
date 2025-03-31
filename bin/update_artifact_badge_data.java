@@ -257,12 +257,12 @@ public class update_artifact_badge_data extends SimpleFileVisitor<Path> {
         System.out.println("::endgroup::");
         System.out.println("::group:: projects with missing releases");
         int missingReleases = list(missedGroups, s -> Files.exists(BADGE_ARTIFACT_BASE.resolve(s + ".html")));
-        System.out.println("=> " + missingReleases + " projects with missing releases.");
         System.out.println("::endgroup::");
+        System.out.println("=> " + missingReleases + " projects with missing releases.");
         System.out.println("::group:: missed projects:");
         int missingProjects = list(missedGroups, s -> !Files.exists(BADGE_ARTIFACT_BASE.resolve(s + ".html")));
-        System.out.println("=> " + missingProjects + " missed projects.");
         System.out.println("::endgroup::");
+        System.out.println("=> " + missingProjects + " missed projects.");
     }
 
     private int list(Map<String, List<String>> missedGroups, Predicate<String> p) {
