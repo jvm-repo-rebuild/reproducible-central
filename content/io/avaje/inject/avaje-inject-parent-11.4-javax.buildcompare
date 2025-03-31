@@ -1,0 +1,14 @@
+version=11.4-javax
+ok=13
+ko=6
+ignored=0
+okFiles="avaje-inject-parent-11.4-javax.pom avaje-inject-aop-11.4-javax.pom avaje-inject-aop-11.4-javax.jar avaje-inject-events-11.4-javax.pom avaje-inject-events-11.4-javax.jar avaje-inject-11.4-javax.pom avaje-inject-11.4-javax.jar avaje-inject-generator-11.4-javax.pom avaje-inject-generator-11.4-javax.jar avaje-inject-test-11.4-javax.pom avaje-inject-test-11.4-javax.jar avaje-inject-maven-plugin-11.4-javax.pom avaje-inject-maven-plugin-11.4-javax.jar"
+koFiles="avaje-inject-aop-11.4-javax-sources.jar avaje-inject-events-11.4-javax-sources.jar avaje-inject-11.4-javax-sources.jar avaje-inject-generator-11.4-javax-sources.jar avaje-inject-test-11.4-javax-sources.jar avaje-inject-maven-plugin-11.4-javax-sources.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+# diffoscope target/reference/io.avaje/avaje-inject-aop-11.4-javax-sources.jar inject-aop/target/avaje-inject-aop-11.4-javax-sources.jar
+# diffoscope target/reference/io.avaje/avaje-inject-events-11.4-javax-sources.jar inject-events/target/avaje-inject-events-11.4-javax-sources.jar
+# diffoscope target/reference/io.avaje/avaje-inject-11.4-javax-sources.jar inject/target/avaje-inject-11.4-javax-sources.jar
+# diffoscope target/reference/io.avaje/avaje-inject-generator-11.4-javax-sources.jar inject-generator/target/avaje-inject-generator-11.4-javax-sources.jar
+# diffoscope target/reference/io.avaje/avaje-inject-test-11.4-javax-sources.jar inject-test/target/avaje-inject-test-11.4-javax-sources.jar
+# diffoscope target/reference/io.avaje/avaje-inject-maven-plugin-11.4-javax-sources.jar inject-maven-plugin/target/avaje-inject-maven-plugin-11.4-javax-sources.jar
