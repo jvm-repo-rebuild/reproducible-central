@@ -1,0 +1,10 @@
+version=0.3.0
+ok=37
+ko=1
+ignored=0
+okFiles="rainbowgum-maven-parent-0.3.0.pom rainbowgum-annotation-0.3.0.pom rainbowgum-annotation-0.3.0.jar rainbowgum-annotation-0.3.0-sources.jar rainbowgum-apt-0.3.0.pom rainbowgum-apt-0.3.0.jar rainbowgum-apt-0.3.0-sources.jar rainbowgum-core-0.3.0.pom rainbowgum-core-0.3.0.jar rainbowgum-core-0.3.0-sources.jar rainbowgum-slf4j-0.3.0.pom rainbowgum-slf4j-0.3.0.jar rainbowgum-slf4j-0.3.0-sources.jar rainbowgum-jdk-0.3.0.pom rainbowgum-jdk-0.3.0.jar rainbowgum-jdk-0.3.0-sources.jar rainbowgum-pattern-0.3.0.pom rainbowgum-pattern-0.3.0-sources.jar rainbowgum-jansi-0.3.0.pom rainbowgum-jansi-0.3.0.jar rainbowgum-jansi-0.3.0-sources.jar rainbowgum-0.3.0.pom rainbowgum-0.3.0.jar rainbowgum-0.3.0-sources.jar rainbowgum-disruptor-0.3.0.pom rainbowgum-disruptor-0.3.0.jar rainbowgum-disruptor-0.3.0-sources.jar rainbowgum-avaje-config-0.3.0.pom rainbowgum-avaje-config-0.3.0.jar rainbowgum-avaje-config-0.3.0-sources.jar rainbowgum-rabbitmq-0.3.0.pom rainbowgum-rabbitmq-0.3.0.jar rainbowgum-rabbitmq-0.3.0-sources.jar rainbowgum-etc-0.3.0.pom rainbowgum-json-0.3.0.pom rainbowgum-json-0.3.0.jar rainbowgum-json-0.3.0-sources.jar"
+koFiles="rainbowgum-pattern-0.3.0.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-pattern-0.3.0.jar rainbowgum-pattern/target/rainbowgum-pattern-0.3.0.jar
