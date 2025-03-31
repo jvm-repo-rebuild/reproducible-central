@@ -1,0 +1,13 @@
+version=0.1.0
+ok=7
+ko=4
+ignored=0
+okFiles="pistachio-maven-parent-0.1.0.pom pistachio-prism-parent-0.1.0.pom pistachio-prism-0.1.0.pom pistachio-prism-apt-0.1.0.pom pistachio-svc-parent-0.1.0.pom pistachio-svc-0.1.0.pom pistachio-svc-apt-0.1.0.pom"
+koFiles="pistachio-prism-0.1.0.jar pistachio-prism-apt-0.1.0.jar pistachio-svc-0.1.0.jar pistachio-svc-apt-0.1.0.jar"
+ignoredFiles=""
+reference_java_version="18 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.jstach.pistachio/pistachio-prism-0.1.0.jar prism/prism-api/target/pistachio-prism-0.1.0.jar
+# diffoscope target/reference/io.jstach.pistachio/pistachio-prism-apt-0.1.0.jar prism/prism-apt/target/pistachio-prism-apt-0.1.0.jar
+# diffoscope target/reference/io.jstach.pistachio/pistachio-svc-0.1.0.jar svc/svc-api/target/pistachio-svc-0.1.0.jar
+# diffoscope target/reference/io.jstach.pistachio/pistachio-svc-apt-0.1.0.jar svc/svc-apt/target/pistachio-svc-apt-0.1.0.jar

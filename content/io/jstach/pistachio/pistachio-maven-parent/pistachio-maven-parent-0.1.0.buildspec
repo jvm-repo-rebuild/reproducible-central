@@ -1,0 +1,18 @@
+groupId=io.jstach.pistachio
+artifactId=pistachio-maven-parent
+display=${groupId}:pistachio
+version=0.1.0
+
+gitRepo=https://github.com/jstachio/pistachio.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.4
+jdk=18
+newline=lf
+#umask=022
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
