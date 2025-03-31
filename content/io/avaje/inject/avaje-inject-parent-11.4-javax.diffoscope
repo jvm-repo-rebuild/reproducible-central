@@ -1,0 +1,36 @@
+1 / 6 target/reference/io.avaje/avaje-inject-aop-11.4-javax-sources.jar inject-aop/target/avaje-inject-aop-11.4-javax-sources.jar
+--- target/reference/io.avaje/avaje-inject-aop-11.4-javax-sources.jar
++++ inject-aop/target/avaje-inject-aop-11.4-javax-sources.jar
+├── zipinfo {}
+│ @@ -1,29 +1,21 @@
+│ -Zip file size: 11966 bytes, number of entries: 27
+│ +Zip file size: 6861 bytes, number of entries: 19
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Mar-30 08:29 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 25-Mar-30 08:29 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Mar-30 08:29 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Mar-30 08:29 io/avaje/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Mar-30 08:29 io/avaje/inject/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Mar-30 08:29 io/avaje/inject/aop/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Mar-30 08:29 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Mar-30 08:29 META-INF/maven/io.avaje/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Mar-30 08:29 META-INF/maven/io.avaje/avaje-inject-aop/
+│  -rw-r--r--  2.0 unx      458 b- defN 25-Mar-30 08:29 io/avaje/inject/aop/AOPFallback.java
+│ --rw-r--r--  2.0 unx      458 b- defN 25-Mar-30 08:29 io/avaje/inject/aop/AOPFallback.java-e
+│  -rw-r--r--  2.0 unx     1885 b- defN 25-Mar-30 08:29 io/avaje/inject/aop/Aspect.java
+│ --rw-r--r--  2.0 unx     1885 b- defN 25-Mar-30 08:29 io/avaje/inject/aop/Aspect.java-e
+│  -rw-r--r--  2.0 unx      461 b- defN 25-Mar-30 08:29 io/avaje/inject/aop/AspectProvider.java
+│ --rw-r--r--  2.0 unx      461 b- defN 25-Mar-30 08:29 io/avaje/inject/aop/AspectProvider.java-e
+│  -rw-r--r--  2.0 unx     7006 b- defN 25-Mar-30 08:29 io/avaje/inject/aop/Invocation.java
+│ --rw-r--r--  2.0 unx     7006 b- defN 25-Mar-30 08:29 io/avaje/inject/aop/Invocation.java-e
+│  -rw-r--r--  2.0 unx      708 b- defN 25-Mar-30 08:29 io/avaje/inject/aop/InvocationException.java
+│ --rw-r--r--  2.0 unx      708 b- defN 25-Mar-30 08:29 io/avaje/inject/aop/InvocationException.java-e
+│  -rw-r--r--  2.0 unx      760 b- defN 25-Mar-30 08:29 io/avaje/inject/aop/MethodInterceptor.java
+│ --rw-r--r--  2.0 unx      760 b- defN 25-Mar-30 08:29 io/avaje/inject/aop/MethodInterceptor.java-e
+│  -rw-r--r--  2.0 unx      350 b- defN 25-Mar-30 08:29 io/avaje/inject/aop/package-info.java
+│ --rw-r--r--  2.0 unx      350 b- defN 25-Mar-30 08:29 io/avaje/inject/aop/package-info.java-e
+│  -rw-r--r--  2.0 unx       64 b- defN 25-Mar-30 08:29 module-info.java
+│ --rw-r--r--  2.0 unx       64 b- defN 25-Mar-30 08:29 module-info.java-e
+│  -rw-r--r--  2.0 unx      667 b- defN 25-Mar-30 08:29 META-INF/maven/io.avaje/avaje-inject-aop/pom.xml
+│  -rw-r--r--  2.0 unx       64 b- defN 25-Mar-30 08:29 META-INF/maven/io.avaje/avaje-inject-aop/pom.properties
+│ -27 files, 24179 bytes uncompressed, 8220 bytes compressed:  66.0%
+│ +19 files, 12487 bytes uncompressed, 4315 bytes compressed:  65.4%

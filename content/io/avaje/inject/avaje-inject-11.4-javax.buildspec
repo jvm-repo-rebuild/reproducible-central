@@ -15,5 +15,5 @@ command="mvn -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip
 execBefore="sed -i 's/-i.. -e/-i -E/' jakarta-to-javax.sh && sed -i -e 's/05:18:11Z/08:29:06Z/' pom.xml && ./jakarta-to-javax.sh"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=
