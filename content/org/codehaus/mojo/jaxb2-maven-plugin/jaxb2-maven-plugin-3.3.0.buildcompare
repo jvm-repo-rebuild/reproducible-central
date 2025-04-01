@@ -1,0 +1,9 @@
+version=3.3.0
+ok=4
+ko=0
+ignored=0
+okFiles="jaxb2-maven-plugin-3.3.0.pom jaxb2-maven-plugin-3.3.0.jar jaxb2-maven-plugin-3.3.0-source-release.zip jaxb2-maven-plugin-3.3.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="24 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

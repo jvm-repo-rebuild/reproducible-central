@@ -1,0 +1,45 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JAXB-2 Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=jaxb2-maven-plugin
+version=3.3.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/jaxb2-maven-plugin.git
+source.scm.tag=jaxb2-maven-plugin-3.3.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=24
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.5
+mvn.minimum.version=3.9.0
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=jaxb2-maven-plugin-3.3.0.pom
+outputs.0.length=13941
+outputs.0.checksums.sha512=0dbb38e676112d7b39a222d98c78eabb486d0948c60c94e35de3c3100b39dde48a8a5e386c9128f64857b398ceeb5b57b4b5ba94902066078b6a1818224e0766
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=jaxb2-maven-plugin-3.3.0.jar
+outputs.1.length=177521
+outputs.1.checksums.sha512=d2bb51d3150de6b3b692418461e865c7a572a47d35ae9784538ea319cf6485baba51e4c7e91792f0c07dbb10ce1c0e6378933f4e5eeacbf0eb32dacfcd092567
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=jaxb2-maven-plugin-3.3.0-source-release.zip
+outputs.2.length=923721
+outputs.2.checksums.sha512=0b4e0a4f87f1e2da47c8dcbf3f588818f539895a14fc77b52863163719ee7bf5b2817df0a15c5985aad98867d6b797595ef9abd7522be120df7bbfe66d47aa3d
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=jaxb2-maven-plugin-3.3.0-sources.jar
+outputs.3.length=164381
+outputs.3.checksums.sha512=7dff078e8703f000f269d93a242900334cb55b14b1b6b6f0cd1754d67bef8ef9398284f2a4570b52fdc91a17fb8150b239d956723b87b8c05e3a20340f5620bf
