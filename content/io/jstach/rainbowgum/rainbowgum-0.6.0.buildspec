@@ -1,0 +1,19 @@
+groupId=io.jstach.rainbowgum
+artifactId=rainbowgum-maven-parent
+version=0.6.0
+
+display=${groupId}:rainbowgum
+
+gitRepo=https://github.com/jstachio/rainbowgum.git
+gitTag=v${version}
+
+tool=mvn-3.9.9
+jdk=21.0.2 # sealed classes give different order with JDK 21.0.5 vs 21.0.2
+newline=lf
+#umask=022
+
+command="bin/rebuild.sh"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
