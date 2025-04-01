@@ -1,0 +1,9 @@
+version=0.4.1
+ok=38
+ko=0
+ignored=0
+okFiles="rainbowgum-maven-parent-0.4.1.pom rainbowgum-annotation-0.4.1.pom rainbowgum-annotation-0.4.1.jar rainbowgum-annotation-0.4.1-sources.jar rainbowgum-apt-0.4.1.pom rainbowgum-apt-0.4.1.jar rainbowgum-apt-0.4.1-sources.jar rainbowgum-core-0.4.1.pom rainbowgum-core-0.4.1.jar rainbowgum-core-0.4.1-sources.jar rainbowgum-slf4j-0.4.1.pom rainbowgum-slf4j-0.4.1.jar rainbowgum-slf4j-0.4.1-sources.jar rainbowgum-jdk-0.4.1.pom rainbowgum-jdk-0.4.1.jar rainbowgum-jdk-0.4.1-sources.jar rainbowgum-pattern-0.4.1.pom rainbowgum-pattern-0.4.1.jar rainbowgum-pattern-0.4.1-sources.jar rainbowgum-jansi-0.4.1.pom rainbowgum-jansi-0.4.1.jar rainbowgum-jansi-0.4.1-sources.jar rainbowgum-json-0.4.1.pom rainbowgum-json-0.4.1.jar rainbowgum-json-0.4.1-sources.jar rainbowgum-rabbitmq-0.4.1.pom rainbowgum-rabbitmq-0.4.1.jar rainbowgum-rabbitmq-0.4.1-sources.jar rainbowgum-0.4.1.pom rainbowgum-0.4.1.jar rainbowgum-0.4.1-sources.jar rainbowgum-disruptor-0.4.1.pom rainbowgum-disruptor-0.4.1.jar rainbowgum-disruptor-0.4.1-sources.jar rainbowgum-avaje-config-0.4.1.pom rainbowgum-avaje-config-0.4.1.jar rainbowgum-avaje-config-0.4.1-sources.jar rainbowgum-etc-0.4.1.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
