@@ -1,0 +1,9 @@
+version=0.6.2
+ok=41
+ko=0
+ignored=0
+okFiles="rainbowgum-maven-parent-0.6.2.pom rainbowgum-annotation-0.6.2.pom rainbowgum-annotation-0.6.2.jar rainbowgum-annotation-0.6.2-sources.jar rainbowgum-apt-0.6.2.pom rainbowgum-apt-0.6.2.jar rainbowgum-apt-0.6.2-sources.jar rainbowgum-core-0.6.2.pom rainbowgum-core-0.6.2.jar rainbowgum-core-0.6.2-sources.jar rainbowgum-slf4j-0.6.2.pom rainbowgum-slf4j-0.6.2.jar rainbowgum-slf4j-0.6.2-sources.jar rainbowgum-systemlogger-0.6.2.pom rainbowgum-systemlogger-0.6.2.jar rainbowgum-systemlogger-0.6.2-sources.jar rainbowgum-jdk-0.6.2.pom rainbowgum-jdk-0.6.2.jar rainbowgum-jdk-0.6.2-sources.jar rainbowgum-pattern-0.6.2.pom rainbowgum-pattern-0.6.2.jar rainbowgum-pattern-0.6.2-sources.jar rainbowgum-jansi-0.6.2.pom rainbowgum-jansi-0.6.2.jar rainbowgum-jansi-0.6.2-sources.jar rainbowgum-json-0.6.2.pom rainbowgum-json-0.6.2.jar rainbowgum-json-0.6.2-sources.jar rainbowgum-rabbitmq-0.6.2.pom rainbowgum-rabbitmq-0.6.2.jar rainbowgum-rabbitmq-0.6.2-sources.jar rainbowgum-0.6.2.pom rainbowgum-0.6.2.jar rainbowgum-0.6.2-sources.jar rainbowgum-disruptor-0.6.2.pom rainbowgum-disruptor-0.6.2.jar rainbowgum-disruptor-0.6.2-sources.jar rainbowgum-avaje-config-0.6.2.pom rainbowgum-avaje-config-0.6.2.jar rainbowgum-avaje-config-0.6.2-sources.jar rainbowgum-etc-0.6.2.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

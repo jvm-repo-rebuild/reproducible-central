@@ -31,8 +31,8 @@ Source code: [https://github.com/jstachio/rainbowgum.git](https://github.com/jst
 * [io.jstach.rainbowgum:rainbowgum-tomcat](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-tomcat/overview)
 </details>
 
-rebuilding **5 releases** of io.jstach.rainbowgum:rainbowgum-maven-parent:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **6 releases** of io.jstach.rainbowgum:rainbowgum-maven-parent:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -41,7 +41,7 @@ rebuilding **5 releases** of io.jstach.rainbowgum:rainbowgum-maven-parent:
 | [0.8.0](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.8.0/pom) | [mvn jdk21.0.2](rainbowgum-0.8.0.buildspec) | [result](rainbowgum-maven-parent-0.8.0.buildinfo): [52 :white_check_mark: ](rainbowgum-maven-parent-0.8.0.buildcompare) | 1.1M |
 | [0.7.1](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.7.1/pom) | [mvn jdk21.0.2](rainbowgum-0.7.1.buildspec) | [result](rainbowgum-maven-parent-0.7.1.buildinfo): [52 :white_check_mark: ](rainbowgum-maven-parent-0.7.1.buildcompare) | 1.1M |
 | [0.7.0](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.7.0/pom) | [mvn jdk21.0.2](rainbowgum-0.7.0.buildspec) | [result](rainbowgum-maven-parent-0.7.0.buildinfo): [51 :white_check_mark: ](rainbowgum-maven-parent-0.7.0.buildcompare) | 1.1M |
-| [0.6.2](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.6.2/pom) | | | |
+| [0.6.2](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.6.2/pom) | [mvn jdk21.0.2](rainbowgum-0.6.2.buildspec) | [result](rainbowgum-maven-parent-0.6.2.buildinfo): [41 :white_check_mark: ](rainbowgum-maven-parent-0.6.2.buildcompare) | 941K |
 | [0.6.1](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.6.1/pom) | | | |
 | [0.6.0](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.6.0/pom) | | | |
 | [0.5.0](https://central.sonatype.com/artifact/io.jstach.rainbowgum/rainbowgum-maven-parent/0.5.0/pom) | | | |
