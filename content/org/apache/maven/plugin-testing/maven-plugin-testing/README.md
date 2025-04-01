@@ -13,13 +13,13 @@ Source code: [https://gitbox.apache.org/repos/asf/maven-plugin-testing.git](http
 * [org.apache.maven.plugin-testing:maven-plugin-testing-harness](https://central.sonatype.com/artifact/org.apache.maven.plugin-testing/maven-plugin-testing-harness/overview)
 </details>
 
-rebuilding **5 releases** of org.apache.maven.plugin-testing:maven-plugin-testing:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **6 releases** of org.apache.maven.plugin-testing:maven-plugin-testing:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.0.0-beta-4](https://central.sonatype.com/artifact/org.apache.maven.plugin-testing/maven-plugin-testing/4.0.0-beta-4/pom) | | | |
+| [4.0.0-beta-4](https://central.sonatype.com/artifact/org.apache.maven.plugin-testing/maven-plugin-testing/4.0.0-beta-4/pom) | [mvn jdk21](maven-plugin-testing-4.0.0-beta-4.buildspec) | [result](maven-plugin-testing-4.0.0-beta-4.buildinfo): [11 :white_check_mark: ](maven-plugin-testing-4.0.0-beta-4.buildcompare) | 979K |
 | [4.0.0-beta-3](https://central.sonatype.com/artifact/org.apache.maven.plugin-testing/maven-plugin-testing/4.0.0-beta-3/pom) | [mvn jdk21](maven-plugin-testing-4.0.0-beta-3.buildspec) | [result](maven-plugin-testing-4.0.0-beta-3.buildinfo): [11 :white_check_mark: ](maven-plugin-testing-4.0.0-beta-3.buildcompare) | 1012K |
 | [4.0.0-beta-2](https://central.sonatype.com/artifact/org.apache.maven.plugin-testing/maven-plugin-testing/4.0.0-beta-2/pom) | [mvn jdk22](maven-plugin-testing-4.0.0-beta-2.buildspec) | [result](maven-plugin-testing-4.0.0-beta-2.buildinfo): [11 :white_check_mark: ](maven-plugin-testing-4.0.0-beta-2.buildcompare) | 1000K |
 | [4.0.0-beta-1](https://central.sonatype.com/artifact/org.apache.maven.plugin-testing/maven-plugin-testing/4.0.0-beta-1/pom) | [mvn jdk21](maven-plugin-testing-4.0.0-beta-1.buildspec) | [result](maven-plugin-testing-4.0.0-beta-1.buildinfo): [9 :white_check_mark: ](maven-plugin-testing-4.0.0-beta-1.buildcompare) | 903K |
