@@ -1,0 +1,19 @@
+groupId=org.apache.ignite
+artifactId=apache-ignite
+version=2.17.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/apache/ignite.git
+gitTag=${version}
+
+tool=mvn-3.9.9
+jdk=11
+newline=lf
+
+command="mvn -Prelease -Drevision=${version} verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+execBefore="mvn clean"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
