@@ -1,7 +1,2 @@
 content/com/io7m/looseleaf/com.io7m.looseleaf-2.0.0.buildspec:3.0.0
-content/io/airlift/airbase/airbase-244.buildspec:245
-content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.7.2.buildspec:4.8.0
-content/io/wcm/maven/plugins/sling-initial-content-transform-maven-plugin/sling-initial-content-transform-maven-plugin-1.1.6.buildspec:1.1.8
-content/org/codehaus/mojo/extra-enforcer-rules/extra-enforcer-rules-1.9.0.buildspec:1.10.0
-content/org/codehaus/mojo/jaxb2-maven-plugin/jaxb2-maven-plugin-3.2.0.buildspec:3.3.0
-content/org/webjars/flexmonster/flexmonster-2.9.99.buildspec:2.9.100
+content/io/airlift/airbase/airbase-245.buildspec:246
