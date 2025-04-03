@@ -1,0 +1,23 @@
+version=1.9.5
+ok=8
+ko=14
+ignored=0
+okFiles="jpmml-sklearn-1.9.5.pom pmml-sklearn-1.9.5.pom pmml-sklearn-evaluator-1.9.5.pom pmml-sklearn-extension-1.9.5.pom pmml-sklearn-h2o-1.9.5.pom pmml-sklearn-lightgbm-1.9.5.pom pmml-sklearn-statsmodels-1.9.5.pom pmml-sklearn-xgboost-1.9.5.pom"
+koFiles="pmml-sklearn-1.9.5.jar pmml-sklearn-1.9.5-sources.jar pmml-sklearn-evaluator-1.9.5.jar pmml-sklearn-evaluator-1.9.5-sources.jar pmml-sklearn-extension-1.9.5.jar pmml-sklearn-extension-1.9.5-sources.jar pmml-sklearn-h2o-1.9.5.jar pmml-sklearn-h2o-1.9.5-sources.jar pmml-sklearn-lightgbm-1.9.5.jar pmml-sklearn-lightgbm-1.9.5-sources.jar pmml-sklearn-statsmodels-1.9.5.jar pmml-sklearn-statsmodels-1.9.5-sources.jar pmml-sklearn-xgboost-1.9.5.jar pmml-sklearn-xgboost-1.9.5-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/pmml-sklearn-1.9.5.jar pmml-sklearn/target/pmml-sklearn-1.9.5.jar
+# diffoscope target/reference/org.jpmml/pmml-sklearn-1.9.5-sources.jar pmml-sklearn/target/pmml-sklearn-1.9.5-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-sklearn-evaluator-1.9.5.jar pmml-sklearn-evaluator/target/pmml-sklearn-evaluator-1.9.5.jar
+# diffoscope target/reference/org.jpmml/pmml-sklearn-evaluator-1.9.5-sources.jar pmml-sklearn-evaluator/target/pmml-sklearn-evaluator-1.9.5-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-sklearn-extension-1.9.5.jar pmml-sklearn-extension/target/pmml-sklearn-extension-1.9.5.jar
+# diffoscope target/reference/org.jpmml/pmml-sklearn-extension-1.9.5-sources.jar pmml-sklearn-extension/target/pmml-sklearn-extension-1.9.5-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-sklearn-h2o-1.9.5.jar pmml-sklearn-h2o/target/pmml-sklearn-h2o-1.9.5.jar
+# diffoscope target/reference/org.jpmml/pmml-sklearn-h2o-1.9.5-sources.jar pmml-sklearn-h2o/target/pmml-sklearn-h2o-1.9.5-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-sklearn-lightgbm-1.9.5.jar pmml-sklearn-lightgbm/target/pmml-sklearn-lightgbm-1.9.5.jar
+# diffoscope target/reference/org.jpmml/pmml-sklearn-lightgbm-1.9.5-sources.jar pmml-sklearn-lightgbm/target/pmml-sklearn-lightgbm-1.9.5-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-sklearn-statsmodels-1.9.5.jar pmml-sklearn-statsmodels/target/pmml-sklearn-statsmodels-1.9.5.jar
+# diffoscope target/reference/org.jpmml/pmml-sklearn-statsmodels-1.9.5-sources.jar pmml-sklearn-statsmodels/target/pmml-sklearn-statsmodels-1.9.5-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-sklearn-xgboost-1.9.5.jar pmml-sklearn-xgboost/target/pmml-sklearn-xgboost-1.9.5.jar
+# diffoscope target/reference/org.jpmml/pmml-sklearn-xgboost-1.9.5-sources.jar pmml-sklearn-xgboost/target/pmml-sklearn-xgboost-1.9.5-sources.jar
