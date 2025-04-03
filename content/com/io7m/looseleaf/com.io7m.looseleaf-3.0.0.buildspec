@@ -1,0 +1,19 @@
+groupId=com.io7m.looseleaf
+artifactId=com.io7m.looseleaf
+display=com.io7m.*:*.$(echo $artifactId | cut -c 10-)
+version=3.0.0
+
+gitRepo="https://github.com/io7m/$(echo "${artifactId}" | sed s/com.io7m.//).git"
+gitTag=${artifactId}-${version}
+#gitTag=
+
+tool=mvn-3.9.3
+jdk=21
+newline=lf
+umask=022
+
+command="mvn -DskipTests clean package -Dassembly.skipAssembly"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/mojohaus/buildnumber-maven-plugin/issues/229
