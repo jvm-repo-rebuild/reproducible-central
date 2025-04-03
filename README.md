@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **6842 releases** of **851 projects**:
-   - **4944** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 1898 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **6844 releases** of **851 projects**:
+   - **4945** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 1899 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 851 projects, 738 have at least one fully reproducible release, 113 have none
 
 <!-- END GENERATED INTRO -->
@@ -179,7 +179,7 @@ Its objectives are to provide:
 | | [*.jxtrand](content/com/io7m/jxtrand/README.md) | 4 | 4 :white_check_mark: |
 | | [*.kabstand](content/com/io7m/kabstand/README.md) | 3 | 3 :white_check_mark: |
 | | [*.lanark](content/com/io7m/lanark/README.md) | 4 | 4 :white_check_mark: |
-| | [*.looseleaf](content/com/io7m/looseleaf/README.md) | 7 | 7 :white_check_mark: |
+| | [*.looseleaf](content/com/io7m/looseleaf/README.md) | 8 | 7 :white_check_mark: / 1 :warning: |
 | | [*.medrina](content/com/io7m/medrina/README.md) | 7 | 7 :white_check_mark: |
 | | [*.mesquida](content/com/io7m/mesquida/README.md) | 2 | 2 :white_check_mark: |
 | | [*.mime2045](content/com/io7m/mime2045/README.md) | 4 | 4 :white_check_mark: |
@@ -267,7 +267,7 @@ Its objectives are to provide:
 | io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 67 | 66 :white_check_mark: / 1 :warning: |
 | io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 72 | 72 :warning: |
 | io.trino | [trino](content/io/trino/README.md) | 29 | 24 :white_check_mark: / 5 :warning: |
-| io.airlift | [airbase](content/io/airlift/airbase/README.md) | 91 | 87 :white_check_mark: / 4 :warning: |
+| io.airlift | [airbase](content/io/airlift/airbase/README.md) | 92 | 88 :white_check_mark: / 4 :warning: |
 | io.avaje | [avaje-http](content/io/avaje/http/README.md) | 15 | 15 :white_check_mark: |
 | | [avaje-inject](content/io/avaje/inject/README.md) | 23 | 19 :white_check_mark: / 4 :warning: |
 | | [avaje-jex](content/io/avaje/jex/README.md) | 25 | 22 :white_check_mark: / 3 :warning: |
@@ -874,7 +874,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 6 | 6 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 21 | 3 :white_check_mark: / 18 :warning: |
-| **Count:** | **851** | **6842** | **4944** :white_check_mark:<br>**1898** :warning: |
+| **Count:** | **851** | **6844** | **4945** :white_check_mark:<br>**1899** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -970,7 +970,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.3  17.0.8.1
       1 mvn-3.9.3  17.0.9
       7 mvn-3.9.3  19
-    152 mvn-3.9.3  21
+    153 mvn-3.9.3  21
       1 mvn-3.9.3  21.ea
       8 mvn-3.9.3  22
       8 mvn-3.9.4   8
@@ -1001,7 +1001,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      15 mvn-3.9.8   8
       4 mvn-3.9.8  11
       5 mvn-3.9.8  16
-    199 mvn-3.9.8  17
+    200 mvn-3.9.8  17
       1 mvn-3.9.8  17.0.12
      51 mvn-3.9.8  21
      46 mvn-3.9.8  22

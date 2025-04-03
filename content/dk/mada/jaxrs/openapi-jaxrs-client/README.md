@@ -22,6 +22,7 @@ rebuilding **13 releases** of dk.mada.jaxrs:openapi-jaxrs-client:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.12.2](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-bom/0.12.2/pom) | | | |
 | [0.12.1](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-client/0.12.1/pom) | [gradle jdk21](openapi-jaxrs-client-0.12.1.buildspec) | [result](openapi-jaxrs-client-0.12.1.buildinfo): [13 :white_check_mark: ](openapi-jaxrs-client-0.12.1.buildcompare) | 677K |
 | [0.12.0](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-client/0.12.0/pom) | [gradle jdk21](openapi-jaxrs-client-0.12.0.buildspec) | [result](openapi-jaxrs-client-0.12.0.buildinfo): [13 :white_check_mark: ](openapi-jaxrs-client-0.12.0.buildcompare) | 675K |
 | [0.11.12](https://central.sonatype.com/artifact/dk.mada.jaxrs/openapi-jaxrs-client/0.11.12/pom) | [gradle jdk21](openapi-jaxrs-client-0.11.12.buildspec) | [result](openapi-jaxrs-client-0.11.12.buildinfo): [13 :white_check_mark: ](openapi-jaxrs-client-0.11.12.buildcompare) | 693K |

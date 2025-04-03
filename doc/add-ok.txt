@@ -1,2 +1,2 @@
-content/com/io7m/looseleaf/com.io7m.looseleaf-2.0.0.buildspec:3.0.0
-content/io/airlift/airbase/airbase-245.buildspec:246
+content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.12.1.buildspec:0.12.2
+content/io/airlift/airbase/airbase-246.buildspec:248
