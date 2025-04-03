@@ -16,4 +16,4 @@ command="mvn -DskipTests clean package -Dassembly.skipAssembly"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/mojohaus/buildnumber-maven-plugin/issues/229
