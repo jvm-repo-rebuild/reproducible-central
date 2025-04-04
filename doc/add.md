@@ -4,9 +4,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250403132322 --> [airbase](../content/io/airlift/airbase/README.md) | [246](../content/io/airlift/airbase/airbase-246.buildspec) :white_check_mark: | [248](../content/io/airlift/airbase/airbase-248.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-246.buildspec 248` |
-| <!-- 20250403132322 --> [airbase](../content/io/airlift/airbase/README.md) | [246](../content/io/airlift/airbase/airbase-246.buildspec) :white_check_mark: | 247  | `bin/add-new-release.sh content/io/airlift/airbase/airbase-246.buildspec ...` |
-| <!-- 20250403062509 --> [openapi-jaxrs-client](../content/dk/mada/jaxrs/openapi-jaxrs-client/README.md) | [0.12.1](../content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.12.1.buildspec) :white_check_mark: | [0.12.2](../content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.12.2.buildspec) | `bin/add-new-release.sh content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.12.1.buildspec 0.12.2` |
+| <!-- 20250404202736 --> [gherkin](../content/io/cucumber/gherkin/README.md) | [32.0.1](../content/io/cucumber/gherkin/gherkin-32.0.1.buildspec) :white_check_mark: | [32.1.0](../content/io/cucumber/gherkin/gherkin-32.1.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/gherkin/gherkin-32.0.1.buildspec 32.1.0` |
+| <!-- 20250404090851 --> [eforms-sdk](../content/eu/europa/ted/eforms/eforms-sdk/README.md) | [2.0.0-alpha.1](../content/eu/europa/ted/eforms/eforms-sdk/eforms-sdk-2.0.0-alpha.1.buildspec) :white_check_mark: | 1.13.1  | `bin/add-new-release.sh content/eu/europa/ted/eforms/eforms-sdk/eforms-sdk-2.0.0-alpha.1.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -28,6 +27,7 @@ New Releases To Add
 | <!-- 20250213084828 --> [:mailbox:](https://lists.apache.org/list?dev@ignite.apache.org:lte=1M:VOTE) | [apache-ignite](../content/org/apache/ignite/README.md) | [2.17.0](../content/org/apache/ignite/ignite-2.17.0.buildspec) :warning: | [3.0.0-alpha5](../content/org/apache/ignite/ignite-3.0.0-alpha5.buildspec)  | `bin/add-new-release.sh content/org/apache/ignite/ignite-2.17.0.buildspec 3.0.0-alpha5 staging` |
 | <!-- 20250210203708 --> [:mailbox:](https://lists.apache.org/list?dev@logging.apache.org:lte=1M:VOTE) | [logging-parent](../content/org/apache/logging/parent/README.md) | [12.0.0](../content/org/apache/logging/parent/logging-parent-12.0.0.buildspec) :white_check_mark: | [12.1.0](../content/org/apache/logging/parent/logging-parent-12.1.0.buildspec)  | `bin/add-new-release.sh content/org/apache/logging/parent/logging-parent-12.0.0.buildspec 12.1.0 staging` |
 | <!-- 20241120023729 --> [:mailbox:](https://lists.apache.org/list?dev@amoro.apache.org:lte=1M:VOTE) | [amoro-parent](../content/org/apache/amoro/README.md) | [0.7.1-incubating](../content/org/apache/amoro/amoro-0.7.1-incubating.buildspec) :warning: | [0.8.0-incubating](../content/org/apache/amoro/amoro-0.8.0-incubating.buildspec)  | `bin/add-new-release.sh content/org/apache/amoro/amoro-0.7.1-incubating.buildspec 0.8.0-incubating staging` |
+| <!-- 20241114145222 --> [:mailbox:](https://lists.apache.org/list?dev@cxf.apache.org:lte=1M:VOTE) | [fediz](../content/org/apache/cxf/fediz/README.md) | [1.7.0](../content/org/apache/cxf/fediz/fediz-1.7.0.buildspec) :warning: | [1.7.1](../content/org/apache/cxf/fediz/fediz-1.7.1.buildspec)  | `bin/add-new-release.sh content/org/apache/cxf/fediz/fediz-1.7.0.buildspec 1.7.1 staging` |
 | <!-- 20240118001405 --> [:mailbox:](https://lists.apache.org/list?dev@directory.apache.org:lte=1M:VOTE) | [scimple](../content/org/apache/directory/scimple/README.md) | [1.0.0-M1](../content/org/apache/directory/scimple/scimple-1.0.0-M1.buildspec) :warning: | [1.0.0-M2](../content/org/apache/directory/scimple/scimple-1.0.0-M2.buildspec)  | `bin/add-new-release.sh content/org/apache/directory/scimple/scimple-1.0.0-M1.buildspec 1.0.0-M2 staging` |
 <!-- END GENERATED ADD STAGING -->
 
@@ -36,13 +36,12 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20250404132711 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | [5.16.1](../content/org/mockito/mockito-core/mockito-5.16.1.buildspec) :warning: [:memo:](https://github.com/mockito/mockito/issues/3563) | [5.17.0](../content/org/mockito/mockito-core/mockito-5.17.0.buildspec) | `bin/add-new-release.sh content/org/mockito/mockito-core/mockito-5.16.1.buildspec 5.17.0` |
+| <!-- 20250404122404 --> [env-config](../content/com/github/sitture/env-config/README.md) | [1.13.1](../content/com/github/sitture/env-config/env-config-1.13.1.buildspec) :x: | [1.14.0](../content/com/github/sitture/env-config/env-config-1.14.0.buildspec) | `bin/add-new-release.sh content/com/github/sitture/env-config/env-config-1.13.1.buildspec 1.14.0` |
+| <!-- 20250404112634 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | [1.7.2](../content/org/jpmml/jpmml-model/jpmml-model-1.7.2.buildspec) :warning: [:memo:](https://github.com/jpmml/jpmml-model/issues/42) | [1.7.3](../content/org/jpmml/jpmml-model/jpmml-model-1.7.3.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-model/jpmml-model-1.7.2.buildspec 1.7.3` |
 | <!-- 20250403165223 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.77.1](../content/org/finos/legend/engine/legend-engine-4.77.1.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.77.1` |
 | <!-- 20250403074244 --> [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.11.0](../content/org/apache/camel/camel/camel-4.11.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.11.0` |
 | <!-- 20250402175247 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.20.3](../content/org/webjars/swagger-ui/swagger-ui-5.20.3.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.20.3` |
-| <!-- 20250402175046 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | [1.9.4](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.4.buildspec) :warning: | [1.9.5](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.5.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.4.buildspec 1.9.5` |
-| <!-- 20250402105531 --> [quarkus-project](../content/io/quarkus/README.md) | [3.21.0](../content/io/quarkus/quarkus-3.21.0.buildspec) :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | [3.21.1](../content/io/quarkus/quarkus-3.21.1.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.21.0.buildspec 3.21.1` |
-| <!-- 20250402102144 --> [jpmml-python](../content/org/jpmml/jpmml-python/README.md) | [1.3.1](../content/org/jpmml/jpmml-python/jpmml-python-1.3.1.buildspec) :warning: | [1.3.2](../content/org/jpmml/jpmml-python/jpmml-python-1.3.2.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-python/jpmml-python-1.3.1.buildspec 1.3.2` |
-| <!-- 20250331140033 --> [jooby](../content/io/jooby/README.md) | [3.6.1](../content/io/jooby/jooby-3.6.1.buildspec) :warning: | [3.7.0](../content/io/jooby/jooby-3.7.0.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-3.6.1.buildspec 3.7.0` |
 | <!-- 20250330110705 --> [html-formatter](../content/io/cucumber/html-formatter/README.md) | [20.2.0](../content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec) :warning: [:memo:](https://github.com/cucumber/html-formatter/issues/207) | [21.10.0](../content/io/cucumber/html-formatter/html-formatter-21.10.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec 21.10.0` |
 | <!-- 20250304091455 --> [io.wcm.wcm.ui.granite](../content/io/wcm/io.wcm.wcm/ui/granite/README.md) | [1.9.12](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec) :warning: | [1.10.6](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.10.6.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec 1.10.6` |
 | <!-- 20250213084828 --> [apache-ignite](../content/org/apache/ignite/README.md) | [2.17.0](../content/org/apache/ignite/ignite-2.17.0.buildspec) :warning: | [3.0.0](../content/org/apache/ignite/ignite-3.0.0.buildspec) | `bin/add-new-release.sh content/org/apache/ignite/ignite-2.17.0.buildspec 3.0.0` |
@@ -56,7 +55,12 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20250404150254 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 8.0.0-JDK17-M10 :warning: |
 | <!-- 20250403114904 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | 12.1.0.alpha2 :warning: |
+| <!-- 20250402175046 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | 1.9.5 :warning: |
+| <!-- 20250402105531 --> [quarkus-project](../content/io/quarkus/README.md) | 3.21.1 :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) |
+| <!-- 20250402102144 --> [jpmml-python](../content/org/jpmml/jpmml-python/README.md) | 1.3.2 :warning: |
+| <!-- 20250331140033 --> [jooby](../content/io/jooby/README.md) | 3.7.0 :warning: |
 | <!-- 20250330083828 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | 11.4-javax :warning: |
 | <!-- 20250330001506 --> [hibernate-core](../content/org/hibernate/orm/hibernate-core/README.md) | 7.0.0.Beta5 :warning: |
 | <!-- 20250329100934 --> [com.io7m.looseleaf](../content/com/io7m/looseleaf/README.md) | 3.0.0 :warning: [:memo:](https://github.com/mojohaus/buildnumber-maven-plugin/issues/229) |
@@ -69,9 +73,7 @@ New Releases To Add
 | <!-- 20250319220703 --> [commons-csv](../content/org/apache/commons/csv/README.md) | 1.14.0 :warning: |
 | <!-- 20250317121336 --> [crypto-commons](../content/net/osslabz/crypto-commons/README.md) | 0.6.1 :warning: [:memo:](https://github.com/osslabz/crypto-commons/pull/54) |
 | <!-- 20250317082151 --> [bitcoin-commons](../content/net/osslabz/bitcoin-commons/README.md) | 0.3.0 :warning: |
-| <!-- 20250315193648 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | 5.16.1 :warning: [:memo:](https://github.com/mockito/mockito/issues/3563) |
 | <!-- 20250314140022 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | 6.11.0 :warning: |
-| <!-- 20250314135003 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 8.0.0-JDK17-M10 :warning: |
 | <!-- 20250314131245 --> [org.apache.sling.distribution.core](../content/org/apache/sling/org.apache.sling.distribution.core/README.md) | 0.7.2 :warning: |
 | <!-- 20250314101946 --> [dbus-java-parent](../content/com/github/hypfvieh/dbus-java/README.md) | 5.1.1 :warning: [:memo:](https://github.com/hypfvieh/dbus-java/pull/279) |
 | <!-- 20250314012610 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | 2.14.0 :warning: |
@@ -89,7 +91,6 @@ New Releases To Add
 | <!-- 20250227115749 --> [pulsar](../content/org/apache/pulsar/README.md) | 4.0.3 :warning: |
 | <!-- 20250226101218 --> [baremaps](../content/org/apache/baremaps/README.md) | 0.8.2 :warning: [:memo:](https://github.com/apache/incubator-baremaps/pull/951) |
 | <!-- 20250225165035 --> [slf4j-parent](../content/org/slf4j/README.md) | 2.1.0-alpha1 :warning: |
-| <!-- 20250224172058 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | 1.7.2 :warning: [:memo:](https://github.com/jpmml/jpmml-model/issues/42) |
 | <!-- 20250224140054 --> [sdmx-dl-parent](../content/com/github/nbbrd/sdmx-dl/README.md) | 3.0.0-beta.14 :warning: |
 | <!-- 20250224085936 --> [sshd](../content/org/apache/sshd/README.md) | 2.15.0 :warning: [:memo:](https://github.com/apache/mina-sshd/pull/695) |
 | <!-- 20250219102604 --> [io.wcm.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | 2.4.2 :warning: |
@@ -118,7 +119,6 @@ New Releases To Add
 | <!-- 20250114121312 --> [commons-daemon](../content/org/apache/commons/commons-daemon/README.md) | 1.4.1 :warning: |
 | <!-- 20250111133702 --> [commons-release-plugin](../content/org/apache/commons/commons-release-plugin/README.md) | 1.9.0 :warning: |
 | <!-- 20250107124852 --> [commons-beanutils2](../content/org/apache/commons/commons-beanutils2/README.md) | 2.0.0-M1 :warning: [:memo:](https://lists.apache.org/thread/5m2sq74rqyws91onxmk77jty239qtfd8) |
-| <!-- 20250106163714 --> [env-config](../content/com/github/sitture/env-config/README.md) | 1.13.1 :x: |
 | <!-- 20250103195806 --> [ldapchai](../content/com/github/ldapchai/README.md) | 0.8.7 :warning: |
 | <!-- 20241226222731 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 2.11.8 :warning: |
 | <!-- 20241221111725 --> [org.apache.sling.feature.launcher](../content/org/apache/sling/org.apache.sling.feature.launcher/README.md) | 1.3.2 :warning: |

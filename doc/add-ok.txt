@@ -1,2 +1,1 @@
-content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.12.1.buildspec:0.12.2
-content/io/airlift/airbase/airbase-246.buildspec:248
+content/io/cucumber/gherkin/gherkin-32.0.1.buildspec:32.1.0
