@@ -1,0 +1,54 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Languages
+group-id=org.codehaus.plexus
+artifact-id=plexus-languages
+version=1.5.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-languages.git
+source.scm.tag=plexus-languages-1.5.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=24
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+mvn.aggregate.artifact-id=plexus-java
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.plexus:plexus-languages
+
+outputs.0.0.groupId=org.codehaus.plexus
+outputs.0.0.filename=plexus-languages-1.5.0.pom
+outputs.0.0.length=3858
+outputs.0.0.checksums.sha512=7b4f9bd2c4805cf21d14ab9382f2e612ea7715a4df9265d1e7b02ffe490d212455d9fdbd985bed124784ee1a36e21ba6814f9a22608c554c83cb531d3db17eb6
+
+outputs.0.1.groupId=org.codehaus.plexus
+outputs.0.1.filename=plexus-languages-1.5.0-source-release.zip
+outputs.0.1.length=500705
+outputs.0.1.checksums.sha512=1e958cf228723ffb12e7d8344b40a47d6b9594d4d1524c8e7c9e655aafc3773654d4b26ffcdb9cfcd347bf887ca24a8c262eb3996a63361b6c4246fdd9ce900e
+
+outputs.1.coordinates=org.codehaus.plexus:plexus-java
+
+outputs.1.0.groupId=org.codehaus.plexus
+outputs.1.0.filename=plexus-java-1.5.0.pom
+outputs.1.0.length=4081
+outputs.1.0.checksums.sha512=0da2bf3bc128271f115b67c83fc18d79ba94b18834719925eefae4c95b13b1c44e669d91b1c225846ab6c97fff7594e0b1efc51c953f204b9c218d881b06d1cf
+
+outputs.1.1.groupId=org.codehaus.plexus
+outputs.1.1.filename=plexus-java-1.5.0.jar
+outputs.1.1.length=57352
+outputs.1.1.checksums.sha512=c1195a362d59714e3babc15448a697e7f4ce7b0172b9cf5ce4f6320a566e78f374d59f6d2509a2919754ed4d38669aa9607ee2771c60da581fffbfa8e534b5ea
+
+outputs.1.2.groupId=org.codehaus.plexus
+outputs.1.2.filename=plexus-java-1.5.0-sources.jar
+outputs.1.2.length=32515
+outputs.1.2.checksums.sha512=490756b37e9318a53057d2d2a998b364b0b0d141816aaa901ed30d81972f31b49f9996fbb3d9de0bb8c5c3b6489789c76f464cb916935daf5bc5fbf96243fb3f

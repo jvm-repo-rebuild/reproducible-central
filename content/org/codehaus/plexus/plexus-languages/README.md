@@ -13,13 +13,13 @@ Source code: [https://github.com/codehaus-plexus/plexus-languages.git](https://g
 * [org.codehaus.plexus:plexus-languages](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-languages/overview)
 </details>
 
-rebuilding **9 releases** of org.codehaus.plexus:plexus-languages:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of org.codehaus.plexus:plexus-languages:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.5.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-languages/1.5.0/pom) | | | |
+| [1.5.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-languages/1.5.0/pom) | [mvn jdk24](plexus-languages-1.5.0.buildspec) | [result](plexus-java-1.5.0.buildinfo): [5 :white_check_mark: ](plexus-java-1.5.0.buildcompare) | 585K |
 | [1.4.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-languages/1.4.0/pom) | [mvn jdk21](plexus-languages-1.4.0.buildspec) | [result](plexus-java-1.4.0.buildinfo): [5 :white_check_mark: ](plexus-java-1.4.0.buildcompare) | 585K |
 | [1.3.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-languages/1.3.0/pom) | [mvn jdk21](plexus-languages-1.3.0.buildspec) | [result](plexus-java-1.3.0.buildinfo): [5 :white_check_mark: ](plexus-java-1.3.0.buildcompare) | 593K |
 | [1.2.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-languages/1.2.0/pom) | [mvn jdk21](plexus-languages-1.2.0.buildspec) | [result](plexus-java-1.2.0.buildinfo): [6 :white_check_mark: ](plexus-java-1.2.0.buildcompare) | 586K |
