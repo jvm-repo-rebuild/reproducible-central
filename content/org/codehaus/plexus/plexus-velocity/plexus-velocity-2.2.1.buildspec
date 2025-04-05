@@ -1,0 +1,17 @@
+groupId=org.codehaus.plexus
+artifactId=plexus-velocity
+display=${groupId}:${artifactId}
+version=2.2.1
+
+gitRepo=https://github.com/codehaus-plexus/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=24
+newline=lf
+umask=022
+
+command="mvn -Pplexus-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
