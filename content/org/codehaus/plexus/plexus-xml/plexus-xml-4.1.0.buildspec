@@ -1,0 +1,18 @@
+groupId=org.codehaus.plexus
+artifactId=plexus-xml
+display=${groupId}:${artifactId}
+version=4.1.0
+
+gitRepo=https://github.com/codehaus-plexus/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=24
+newline=lf
+umask=022
+
+command="mvn -Pplexus-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
