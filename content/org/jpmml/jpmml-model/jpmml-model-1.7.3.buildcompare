@@ -1,0 +1,26 @@
+version=1.7.3
+ok=9
+ko=17
+ignored=0
+okFiles="jpmml-model-1.7.3.pom pmml-agent-1.7.3.pom pmml-xjc-1.7.3.pom pmml-model-1.7.3.pom pmml-model-jackson-1.7.3.pom pmml-model-kryo-1.7.3.pom pmml-model-metro-1.7.3.pom pmml-model-moxy-1.7.3.pom pmml-model-teavm-1.7.3.pom"
+koFiles="pmml-agent-1.7.3.jar pmml-agent-1.7.3-sources.jar pmml-xjc-1.7.3.jar pmml-xjc-1.7.3-sources.jar pmml-model-1.7.3.jar pmml-model-1.7.3-sources.jar pmml-model-1.7.3-tests.jar pmml-model-jackson-1.7.3.jar pmml-model-jackson-1.7.3-sources.jar pmml-model-kryo-1.7.3.jar pmml-model-kryo-1.7.3-sources.jar pmml-model-metro-1.7.3.jar pmml-model-metro-1.7.3-sources.jar pmml-model-moxy-1.7.3.jar pmml-model-moxy-1.7.3-sources.jar pmml-model-teavm-1.7.3.jar pmml-model-teavm-1.7.3-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/pmml-agent-1.7.3.jar pmml-agent/target/pmml-agent-1.7.3.jar
+# diffoscope target/reference/org.jpmml/pmml-agent-1.7.3-sources.jar pmml-agent/target/pmml-agent-1.7.3-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-xjc-1.7.3.jar pmml-xjc/target/pmml-xjc-1.7.3.jar
+# diffoscope target/reference/org.jpmml/pmml-xjc-1.7.3-sources.jar pmml-xjc/target/pmml-xjc-1.7.3-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-model-1.7.3.jar pmml-model/target/pmml-model-1.7.3.jar
+# diffoscope target/reference/org.jpmml/pmml-model-1.7.3-sources.jar pmml-model/target/pmml-model-1.7.3-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-model-1.7.3-tests.jar pmml-model/target/pmml-model-1.7.3-tests.jar
+# diffoscope target/reference/org.jpmml/pmml-model-jackson-1.7.3.jar pmml-model-jackson/target/pmml-model-jackson-1.7.3.jar
+# diffoscope target/reference/org.jpmml/pmml-model-jackson-1.7.3-sources.jar pmml-model-jackson/target/pmml-model-jackson-1.7.3-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-model-kryo-1.7.3.jar pmml-model-kryo/target/pmml-model-kryo-1.7.3.jar
+# diffoscope target/reference/org.jpmml/pmml-model-kryo-1.7.3-sources.jar pmml-model-kryo/target/pmml-model-kryo-1.7.3-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-model-metro-1.7.3.jar pmml-model-metro/target/pmml-model-metro-1.7.3.jar
+# diffoscope target/reference/org.jpmml/pmml-model-metro-1.7.3-sources.jar pmml-model-metro/target/pmml-model-metro-1.7.3-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-model-moxy-1.7.3.jar pmml-model-moxy/target/pmml-model-moxy-1.7.3.jar
+# diffoscope target/reference/org.jpmml/pmml-model-moxy-1.7.3-sources.jar pmml-model-moxy/target/pmml-model-moxy-1.7.3-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-model-teavm-1.7.3.jar pmml-model-teavm/target/pmml-model-teavm-1.7.3.jar
+# diffoscope target/reference/org.jpmml/pmml-model-teavm-1.7.3-sources.jar pmml-model-teavm/target/pmml-model-teavm-1.7.3-sources.jar
