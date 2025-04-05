@@ -13,11 +13,13 @@ rebuilding **7 releases** of org.codehaus.plexus:plexus-xml:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.1.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/4.1.0/pom) | | | |
 | [4.0.4](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/4.0.4/pom) | [mvn jdk21](plexus-xml-4.0.4.buildspec) | [result](plexus-xml-4.0.4.buildinfo): [4 :white_check_mark: ](plexus-xml-4.0.4.buildcompare) | 363K |
 | [4.0.3](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/4.0.3/pom) | [mvn jdk21](plexus-xml-4.0.3.buildspec) | [result](plexus-xml-4.0.3.buildinfo): [4 :white_check_mark: ](plexus-xml-4.0.3.buildcompare) | 361K |
 | [4.0.2](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/4.0.2/pom) | [mvn jdk20](plexus-xml-4.0.2.buildspec) | [result](plexus-xml-4.0.2.buildinfo): [4 :white_check_mark: ](plexus-xml-4.0.2.buildcompare) | 361K |
 | [4.0.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/4.0.1/pom) | [mvn jdk17](plexus-xml-4.0.1.buildspec) | [result](plexus-xml-4.0.1.buildinfo): [4 :white_check_mark: ](plexus-xml-4.0.1.buildcompare) | 361K |
 | [4.0.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/4.0.0/pom) | [mvn jdk17](plexus-xml-4.0.0.buildspec) | [result](plexus-xml-4.0.0.buildinfo): [4 :white_check_mark: ](plexus-xml-4.0.0.buildcompare) | 363K |
+| [3.0.2](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/3.0.2/pom) | | | |
 | [3.0.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/3.0.1/pom) | [mvn jdk21](plexus-xml-3.0.1.buildspec) | [result](plexus-xml-3.0.1.buildinfo): [4 :white_check_mark: ](plexus-xml-3.0.1.buildcompare) | 392K |
 | [3.0.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/3.0.0/pom) | [mvn jdk11](plexus-xml-3.0.0.buildspec) | [result](plexus-xml-3.0.0.buildinfo): [4 :white_check_mark: ](plexus-xml-3.0.0.buildcompare) | 389K |
 

@@ -1,1 +1,11 @@
+content/io/cucumber/cucumber-jvm/cucumber-jvm-7.21.1.buildspec:7.22.0
 content/io/cucumber/gherkin/gherkin-32.0.1.buildspec:32.1.0
+content/io/opentelemetry/java/opentelemetry-sdk-1.48.0.buildspec:1.49.0
+content/org/codehaus/plexus/plexus-classworlds/plexus-classworlds-2.8.0.buildspec:2.9.0
+content/org/codehaus/plexus/plexus-interactivity/plexus-interactivity-1.3.buildspec:1.4
+content/org/codehaus/plexus/plexus-interpolation/plexus-interpolation-1.27.buildspec:1.28
+content/org/codehaus/plexus/plexus-languages/plexus-languages-1.4.0.buildspec:1.5.0
+content/org/codehaus/plexus/plexus-testing/plexus-testing-1.4.0.buildspec:1.5.0
+content/org/codehaus/plexus/plexus-velocity/plexus-velocity-2.2.0.buildspec:2.2.1
+content/org/codehaus/plexus/plexus-xml/plexus-xml-4.0.4.buildspec:4.1.0
+content/org/owasp/dependency-check/dependency-check-12.1.0.buildspec:12.1.1

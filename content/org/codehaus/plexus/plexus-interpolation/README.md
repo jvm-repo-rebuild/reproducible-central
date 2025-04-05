@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.codehaus.plexus:plexus-interpolation:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.28](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-interpolation/1.28/pom) | | | |
 | [1.27](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-interpolation/1.27/pom) | [mvn jdk21](plexus-interpolation-1.27.buildspec) | [result](plexus-interpolation-1.27.buildinfo): [4 :white_check_mark: ](plexus-interpolation-1.27.buildcompare) | 291K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

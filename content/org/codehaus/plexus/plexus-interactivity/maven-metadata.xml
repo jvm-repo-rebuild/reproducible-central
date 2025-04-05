@@ -3,8 +3,8 @@
   <groupId>org.codehaus.plexus</groupId>
   <artifactId>plexus-interactivity</artifactId>
   <versioning>
-    <latest>1.3</latest>
-    <release>1.3</release>
+    <latest>1.4</latest>
+    <release>1.4</release>
     <versions>
       <version>1.0-alpha-4</version>
       <version>1.0-alpha-5</version>
@@ -13,7 +13,8 @@
       <version>1.1</version>
       <version>1.2</version>
       <version>1.3</version>
+      <version>1.4</version>
     </versions>
-    <lastUpdated>20240204165801</lastUpdated>
+    <lastUpdated>20250405162924</lastUpdated>
   </versioning>
 </metadata>

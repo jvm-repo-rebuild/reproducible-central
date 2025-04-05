@@ -3,17 +3,19 @@
   <groupId>org.codehaus.plexus</groupId>
   <artifactId>plexus-xml</artifactId>
   <versioning>
-    <latest>4.0.4</latest>
-    <release>4.0.4</release>
+    <latest>4.1.0</latest>
+    <release>4.1.0</release>
     <versions>
       <version>3.0.0</version>
       <version>3.0.1</version>
+      <version>3.0.2</version>
       <version>4.0.0</version>
       <version>4.0.1</version>
       <version>4.0.2</version>
       <version>4.0.3</version>
       <version>4.0.4</version>
+      <version>4.1.0</version>
     </versions>
-    <lastUpdated>20240521211632</lastUpdated>
+    <lastUpdated>20250405160949</lastUpdated>
   </versioning>
 </metadata>

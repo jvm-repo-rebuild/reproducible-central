@@ -40,6 +40,7 @@ rebuilding **21 releases** of io.cucumber:cucumber-jvm:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [7.22.0](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/7.22.0/pom) | | | |
 | [7.21.1](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/7.21.1/pom) | [mvn jdk17](cucumber-jvm-7.21.1.buildspec) | [result](cucumber-jvm-7.21.1.buildinfo): [65 :white_check_mark: ](cucumber-jvm-7.21.1.buildcompare) | 5.5M |
 | [7.21.0](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/7.21.0/pom) | [mvn jdk17](cucumber-jvm-7.21.0.buildspec) | [result](cucumber-jvm-7.21.0.buildinfo): [65 :white_check_mark: ](cucumber-jvm-7.21.0.buildcompare) | 5.5M |
 | [7.20.1](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/7.20.1/pom) | [mvn jdk17](cucumber-jvm-7.20.1.buildspec) | [result](cucumber-jvm-7.20.1.buildinfo): [65 :white_check_mark: ](cucumber-jvm-7.20.1.buildcompare) | 5.5M |
