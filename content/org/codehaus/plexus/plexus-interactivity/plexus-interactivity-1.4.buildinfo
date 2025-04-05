@@ -1,0 +1,54 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Interactivity Handler Component
+group-id=org.codehaus.plexus
+artifact-id=plexus-interactivity
+version=1.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-interactivity.git
+source.scm.tag=plexus-interactivity-1.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=23.0.2
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.aggregate.artifact-id=plexus-interactivity-api
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.plexus:plexus-interactivity
+
+outputs.0.0.groupId=org.codehaus.plexus
+outputs.0.0.filename=plexus-interactivity-1.4.pom
+outputs.0.0.length=1653
+outputs.0.0.checksums.sha512=bedc1c2447980ab17d433cd8ed537c064f6760f2cb8178f5f81206253c7da3db45d208f767b6aa5d5a16b7e20e997c8c37c4c76a7a071324ebede8fd2714037e
+
+outputs.0.1.groupId=org.codehaus.plexus
+outputs.0.1.filename=plexus-interactivity-1.4-source-release.zip
+outputs.0.1.length=22623
+outputs.0.1.checksums.sha512=64656b086b4c3b737102d8390a854927553979114eed0633718b87d6a5dc54018e1a481f994779a3819999c1d23e06c1df4a5e193329f20fd8e8ac545166e6ad
+
+outputs.1.coordinates=org.codehaus.plexus:plexus-interactivity-api
+
+outputs.1.0.groupId=org.codehaus.plexus
+outputs.1.0.filename=plexus-interactivity-api-1.4.pom
+outputs.1.0.length=1675
+outputs.1.0.checksums.sha512=530a431c9a05c79654f85a1380619d373a01afbd4659ff1d975dd9150707e8b2be32ce18a250c75b0f137f96cd9897377b17eeb97910ffcc364b6311e326634b
+
+outputs.1.1.groupId=org.codehaus.plexus
+outputs.1.1.filename=plexus-interactivity-api-1.4.jar
+outputs.1.1.length=10292
+outputs.1.1.checksums.sha512=fad1a170fcb18b64f97d440c8345d2742bf6ab701569b7ebf6e458881ec0394dc4184a0b0b0a91c7e9a1d1411e3930f05c752cad4c8e360c3bdc5ab3cb3999b0
+
+outputs.1.2.groupId=org.codehaus.plexus
+outputs.1.2.filename=plexus-interactivity-api-1.4-sources.jar
+outputs.1.2.length=13546
+outputs.1.2.checksums.sha512=8d40d0f56733e4d3a89d3c97ef3de6f0f9a389e2208113db0eca153990d2c71a974b1a9187322add009526388fc9ddeaceaa45b92ca6e817a4d827915e328552
