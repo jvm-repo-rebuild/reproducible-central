@@ -1,0 +1,17 @@
+groupId=org.codehaus.plexus
+artifactId=plexus-interactivity
+display=${groupId}:${artifactId}
+version=1.4
+
+gitRepo=https://github.com/codehaus-plexus/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=23
+newline=lf
+umask=022
+
+command="mvn -Pplexus-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
