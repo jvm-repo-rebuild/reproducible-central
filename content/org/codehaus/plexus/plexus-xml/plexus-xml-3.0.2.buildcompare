@@ -1,0 +1,9 @@
+version=3.0.2
+ok=4
+ko=0
+ignored=0
+okFiles="plexus-xml-3.0.2.pom plexus-xml-3.0.2.jar plexus-xml-3.0.2-source-release.zip plexus-xml-3.0.2-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="24 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
