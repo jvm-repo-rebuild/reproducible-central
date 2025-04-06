@@ -13,6 +13,7 @@ rebuilding **23 releases** of io.fabric8:docker-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.46.0](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.46.0/pom) | | | |
 | [0.45.1](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.45.1/pom) | [mvn jdk11](docker-maven-plugin-0.45.1.buildspec) | [result](docker-maven-plugin-0.45.1.buildinfo): [3 :white_check_mark: ](docker-maven-plugin-0.45.1.buildcompare) | 1.1M |
 | [0.45.0](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.45.0/pom) | [mvn jdk11](docker-maven-plugin-0.45.0.buildspec) | [result](docker-maven-plugin-0.45.0.buildinfo): [3 :white_check_mark: ](docker-maven-plugin-0.45.0.buildcompare) | 1.1M |
 | [0.44.0](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.44.0/pom) | [mvn jdk11](docker-maven-plugin-0.44.0.buildspec) | [result](docker-maven-plugin-0.44.0.buildinfo): [2 :white_check_mark:  1 :warning:](docker-maven-plugin-0.44.0.buildcompare) [:mag:](docker-maven-plugin-0.44.0.diffoscope) | 1.1M |

@@ -3,8 +3,8 @@
   <groupId>com.intellectualsites.plotsquared</groupId>
   <artifactId>plotsquared-bukkit</artifactId>
   <versioning>
-    <latest>7.5.1</latest>
-    <release>7.5.1</release>
+    <latest>7.5.2</latest>
+    <release>7.5.2</release>
     <versions>
       <version>7.0.0-rc.2</version>
       <version>7.0.0-rc.3</version>
@@ -31,7 +31,8 @@
       <version>7.4.2</version>
       <version>7.5.0</version>
       <version>7.5.1</version>
+      <version>7.5.2</version>
     </versions>
-    <lastUpdated>20250223204948</lastUpdated>
+    <lastUpdated>20250406195204</lastUpdated>
   </versioning>
 </metadata>
