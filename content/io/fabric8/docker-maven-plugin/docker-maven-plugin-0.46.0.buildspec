@@ -1,0 +1,19 @@
+groupId=io.fabric8
+artifactId=docker-maven-plugin
+version=0.46.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/fabric8io/${artifactId}.git
+gitTag=v${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn clean package source:jar -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=
+issue=
