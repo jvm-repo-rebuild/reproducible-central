@@ -1,0 +1,9 @@
+version=1.0.100
+ok=3
+ko=0
+ignored=0
+okFiles="ollama4j-1.0.100.pom ollama4j-1.0.100.jar ollama4j-1.0.100-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
