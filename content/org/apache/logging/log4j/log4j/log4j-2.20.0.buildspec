@@ -1,0 +1,18 @@
+groupId=org.apache.logging.log4j
+artifactId=log4j
+display=${groupId}:${artifactId}
+version=2.20.0
+
+gitRepo=https://github.com/apache/logging-log4j2.git
+gitTag=rel/${version}
+
+tool=mvn-3.9.3
+jdk=8
+toolchains="8|11"
+newline=lf
+umask=022
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
