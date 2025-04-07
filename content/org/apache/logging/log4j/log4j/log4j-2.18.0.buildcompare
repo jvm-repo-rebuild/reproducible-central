@@ -1,0 +1,46 @@
+version=2.18.0
+ok=36
+ko=37
+ignored=0
+okFiles="log4j-2.18.0.pom log4j-2.18.0-site.xml log4j-api-2.18.0.pom log4j-core-2.18.0.pom log4j-1.2-api-2.18.0.pom log4j-layout-template-json-2.18.0.pom log4j-to-slf4j-2.18.0.pom log4j-slf4j-impl-2.18.0.pom log4j-slf4j18-impl-2.18.0.pom log4j-to-jul-2.18.0.pom log4j-jcl-2.18.0.pom log4j-flume-ng-2.18.0.pom log4j-web-2.18.0.pom log4j-taglib-2.18.0.pom log4j-jmx-gui-2.18.0.pom log4j-bom-2.18.0.pom log4j-jdbc-dbcp2-2.18.0.pom log4j-jpa-2.18.0.pom log4j-couchdb-2.18.0.pom log4j-mongodb3-2.18.0.pom log4j-mongodb4-2.18.0.pom log4j-cassandra-2.18.0.pom log4j-jakarta-web-2.18.0.pom log4j-iostreams-2.18.0.pom log4j-jul-2.18.0.pom log4j-jpl-2.18.0.pom log4j-liquibase-2.18.0.pom log4j-appserver-2.18.0.pom log4j-osgi-2.18.0.pom log4j-docker-2.18.0.pom log4j-kubernetes-2.18.0.pom log4j-spring-boot-2.18.0.pom log4j-spring-cloud-config-2.18.0.pom log4j-spring-cloud-config-2.18.0-site.xml log4j-spring-cloud-config-client-2.18.0.pom log4j-jakarta-smtp-2.18.0.pom"
+koFiles="log4j-api-2.18.0.jar log4j-api-2.18.0-tests.jar log4j-core-2.18.0.jar log4j-core-2.18.0-tests.jar log4j-1.2-api-2.18.0.jar log4j-layout-template-json-2.18.0.jar log4j-layout-template-json-2.18.0-tests.jar log4j-to-slf4j-2.18.0.jar log4j-slf4j-impl-2.18.0.jar log4j-slf4j-impl-2.18.0-tests.jar log4j-slf4j18-impl-2.18.0.jar log4j-to-jul-2.18.0.jar log4j-jcl-2.18.0.jar log4j-flume-ng-2.18.0.jar log4j-flume-ng-2.18.0-tests.jar log4j-web-2.18.0.jar log4j-taglib-2.18.0.jar log4j-jmx-gui-2.18.0.jar log4j-jdbc-dbcp2-2.18.0.jar log4j-jpa-2.18.0.jar log4j-couchdb-2.18.0.jar log4j-mongodb3-2.18.0.jar log4j-mongodb4-2.18.0.jar log4j-cassandra-2.18.0.jar log4j-jakarta-web-2.18.0.jar log4j-iostreams-2.18.0.jar log4j-jul-2.18.0.jar log4j-jpl-2.18.0.jar log4j-liquibase-2.18.0.jar log4j-appserver-2.18.0.jar log4j-osgi-2.18.0.jar log4j-osgi-2.18.0-tests.jar log4j-docker-2.18.0.jar log4j-kubernetes-2.18.0.jar log4j-spring-boot-2.18.0.jar log4j-spring-cloud-config-client-2.18.0.jar log4j-jakarta-smtp-2.18.0.jar"
+ignoredFiles=""
+reference_java_version="1.8.0_144 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.logging.log4j/log4j-api-2.18.0.jar log4j-api/target/log4j-api-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-api-2.18.0-tests.jar log4j-api/target/log4j-api-2.18.0-tests.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-core-2.18.0.jar log4j-core/target/log4j-core-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-core-2.18.0-tests.jar log4j-core/target/log4j-core-2.18.0-tests.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-1.2-api-2.18.0.jar log4j-1.2-api/target/log4j-1.2-api-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-layout-template-json-2.18.0.jar log4j-layout-template-json/target/log4j-layout-template-json-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-layout-template-json-2.18.0-tests.jar log4j-layout-template-json/target/log4j-layout-template-json-2.18.0-tests.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-to-slf4j-2.18.0.jar log4j-to-slf4j/target/log4j-to-slf4j-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-slf4j-impl-2.18.0.jar log4j-slf4j-impl/target/log4j-slf4j-impl-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-slf4j-impl-2.18.0-tests.jar log4j-slf4j-impl/target/log4j-slf4j-impl-2.18.0-tests.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-slf4j18-impl-2.18.0.jar log4j-slf4j18-impl/target/log4j-slf4j18-impl-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-to-jul-2.18.0.jar log4j-to-jul/target/log4j-to-jul-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-jcl-2.18.0.jar log4j-jcl/target/log4j-jcl-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-flume-ng-2.18.0.jar log4j-flume-ng/target/log4j-flume-ng-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-flume-ng-2.18.0-tests.jar log4j-flume-ng/target/log4j-flume-ng-2.18.0-tests.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-web-2.18.0.jar log4j-web/target/log4j-web-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-taglib-2.18.0.jar log4j-taglib/target/log4j-taglib-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-jmx-gui-2.18.0.jar log4j-jmx-gui/target/log4j-jmx-gui-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-jdbc-dbcp2-2.18.0.jar log4j-jdbc-dbcp2/target/log4j-jdbc-dbcp2-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-jpa-2.18.0.jar log4j-jpa/target/log4j-jpa-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-couchdb-2.18.0.jar log4j-couchdb/target/log4j-couchdb-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-mongodb3-2.18.0.jar log4j-mongodb3/target/log4j-mongodb3-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-mongodb4-2.18.0.jar log4j-mongodb4/target/log4j-mongodb4-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-cassandra-2.18.0.jar log4j-cassandra/target/log4j-cassandra-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-jakarta-web-2.18.0.jar log4j-jakarta-web/target/log4j-jakarta-web-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-iostreams-2.18.0.jar log4j-iostreams/target/log4j-iostreams-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-jul-2.18.0.jar log4j-jul/target/log4j-jul-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-jpl-2.18.0.jar log4j-jpl/target/log4j-jpl-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-liquibase-2.18.0.jar log4j-liquibase/target/log4j-liquibase-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-appserver-2.18.0.jar log4j-appserver/target/log4j-appserver-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-osgi-2.18.0.jar log4j-osgi/target/log4j-osgi-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-osgi-2.18.0-tests.jar log4j-osgi/target/log4j-osgi-2.18.0-tests.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-docker-2.18.0.jar log4j-docker/target/log4j-docker-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-kubernetes-2.18.0.jar log4j-kubernetes/target/log4j-kubernetes-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-spring-boot-2.18.0.jar log4j-spring-boot/target/log4j-spring-boot-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-spring-cloud-config-client-2.18.0.jar log4j-spring-cloud-config/log4j-spring-cloud-config-client/target/log4j-spring-cloud-config-client-2.18.0.jar
+# diffoscope target/reference/org.apache.logging.log4j/log4j-jakarta-smtp-2.18.0.jar log4j-jakarta-smtp/target/log4j-jakarta-smtp-2.18.0.jar
