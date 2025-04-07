@@ -9,6 +9,10 @@ metadata=$dir/maven-metadata.xml
 groupId=$(cat "${metadata}" | grep 'groupId>' | cut -d '>' -f 2 | cut -d '<' -f 1)
 artifactId=$(cat "${metadata}" | grep 'artifactId>' | cut -d '>' -f 2 | cut -d '<' -f 1)
 
+# add releases rebuilt in reproducible but removed from maven-metadata.xml
+metadataRB=$dir/maven-metadata.rb.xml
+[ -f $metadataRB ] || metadataRB=""
+
 #
 # render project's README.md with results for every release
 #
@@ -26,7 +30,7 @@ missingBuildspec=""
 
 # detect oldest version with buildspec, to stop reporting
 oldestBuildspecVersion=
-for version in $(cat "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
+for version in $(cat $metadataRB "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
 do
   if [ -n "$(ls $dir | grep "\-${version}\.buildspec")" ]
   then
@@ -36,7 +40,7 @@ do
 done
 
 highestVersion= # highest non-ignored version, with or without buildspec
-for version in $($tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
+for version in $($tac "${metadata}" $metadataRB | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
 do
   # report only on non-ignored versions
   keepVersion $dir $version || continue
@@ -154,7 +158,7 @@ echo "<i>(size is calculated without javadoc, that has been excluded from reprod
 
 # detect newest versions that have a buildspec not to be ignored
 newestBuildspecVersion= # newest version with a buildspec
-for version in $($tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
+for version in $($tac "${metadata}" $metadataRB | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
 do
   if [ -n "$(ls $dir | grep "\-${version}\.buildspec")" ]
   then
