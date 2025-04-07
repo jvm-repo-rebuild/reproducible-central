@@ -76,9 +76,9 @@ Source code: [https://github.com/apache/logging-log4j2.git](https://github.com/a
 * [org.apache.logging.log4j:log4j-web](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-web/overview)
 </details>
 
-rebuilding **15 releases** of org.apache.logging.log4j:log4j:
+rebuilding **16 releases** of org.apache.logging.log4j:log4j:
 - **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -99,7 +99,7 @@ rebuilding **15 releases** of org.apache.logging.log4j:log4j:
 | [2.20.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.20.0/pom) | | | |
 | [2.19.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.19.0/pom) | | | |
 | [2.18.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.18.0/pom) | | | |
-| [2.17.2](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.17.2/pom) | | | |
+| [2.17.2](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.17.2/pom) | [mvn jdk8](log4j-2.17.2.buildspec) | [result](log4j-2.17.2.buildinfo): [35 :white_check_mark:  36 :warning:](log4j-2.17.2.buildcompare) | 5.7M |
 | [2.17.1](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.17.1/pom) | [mvn jdk8](log4j-2.17.1.buildspec) | [result](log4j-2.17.1.buildinfo): [34 :white_check_mark:  35 :warning:](log4j-2.17.1.buildcompare) | 5.5M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
