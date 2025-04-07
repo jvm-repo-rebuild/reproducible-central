@@ -76,9 +76,9 @@ Source code: [https://github.com/apache/logging-log4j2.git](https://github.com/a
 * [org.apache.logging.log4j:log4j-web](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-web/overview)
 </details>
 
-rebuilding **17 releases** of org.apache.logging.log4j:log4j:
+rebuilding **18 releases** of org.apache.logging.log4j:log4j:
 - **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -97,7 +97,7 @@ rebuilding **17 releases** of org.apache.logging.log4j:log4j:
 | [2.21.1](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.21.1/pom) | [mvn jdk11](log4j-2.21.1.buildspec) | [result](log4j-bom-2.21.1.buildinfo): [93 :white_check_mark: ](log4j-bom-2.21.1.buildcompare) | 6.3M |
 | [2.21.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.21.0/pom) | [mvn jdk11](log4j-2.21.0.buildspec) | [result](log4j-bom-2.21.0.buildinfo): [93 :white_check_mark:  3 :warning:](log4j-bom-2.21.0.buildcompare) | 6.8M |
 | [2.20.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.20.0/pom) | [mvn jdk8](log4j-2.20.0.buildspec) | [result](log4j-2.20.0.buildinfo): [133 :white_check_mark:  7 :warning:](log4j-2.20.0.buildcompare) | 11M |
-| [2.19.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.19.0/pom) | | | |
+| [2.19.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.19.0/pom) | [mvn jdk8](log4j-2.19.0.buildspec) | [result](log4j-2.19.0.buildinfo): [36 :white_check_mark:  37 :warning:](log4j-2.19.0.buildcompare) | 5.9M |
 | [2.18.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.18.0/pom) | | | |
 | [2.17.2](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.17.2/pom) | [mvn jdk8](log4j-2.17.2.buildspec) | [result](log4j-2.17.2.buildinfo): [35 :white_check_mark:  36 :warning:](log4j-2.17.2.buildcompare) | 5.7M |
 | [2.17.1](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.17.1/pom) | [mvn jdk8](log4j-2.17.1.buildspec) | [result](log4j-2.17.1.buildinfo): [34 :white_check_mark:  35 :warning:](log4j-2.17.1.buildcompare) | 5.5M |
