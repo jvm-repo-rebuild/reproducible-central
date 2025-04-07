@@ -1,0 +1,13 @@
+version=1.6.2
+ok=3
+ko=4
+ignored=0
+okFiles="jpmml-converter-1.6.2.pom pmml-converter-1.6.2.pom pmml-converter-testing-1.6.2.pom"
+koFiles="pmml-converter-1.6.2.jar pmml-converter-1.6.2-sources.jar pmml-converter-testing-1.6.2.jar pmml-converter-testing-1.6.2-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/pmml-converter-1.6.2.jar pmml-converter/target/pmml-converter-1.6.2.jar
+# diffoscope target/reference/org.jpmml/pmml-converter-1.6.2-sources.jar pmml-converter/target/pmml-converter-1.6.2-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-converter-testing-1.6.2.jar pmml-converter-testing/target/pmml-converter-testing-1.6.2.jar
+# diffoscope target/reference/org.jpmml/pmml-converter-testing-1.6.2-sources.jar pmml-converter-testing/target/pmml-converter-testing-1.6.2-sources.jar
