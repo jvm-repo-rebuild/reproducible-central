@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/logging-log4j2.git](https://github.com/apache/logging-log4j2.git)
 
-<details><summary>This project defines 64 modules:</summary>
+<details><summary>This project defines 65 modules:</summary>
 
 * [org.apache.logging.log4j:log4j](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/overview)
 * [org.apache.logging.log4j:log4j-1.2-api](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-1.2-api/overview)
@@ -64,6 +64,7 @@ Source code: [https://github.com/apache/logging-log4j2.git](https://github.com/a
 * [org.apache.logging.log4j:log4j-plugins-test](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-plugins-test/overview)
 * [org.apache.logging.log4j:log4j-script](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-script/overview)
 * [org.apache.logging.log4j:log4j-slf4j-impl](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl/overview)
+* [org.apache.logging.log4j:log4j-slf4j18-impl](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-slf4j18-impl/overview)
 * [org.apache.logging.log4j:log4j-slf4j2-impl](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-slf4j2-impl/overview)
 * [org.apache.logging.log4j:log4j-smtp](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-smtp/overview)
 * [org.apache.logging.log4j:log4j-spring-boot](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-spring-boot/overview)
@@ -75,9 +76,9 @@ Source code: [https://github.com/apache/logging-log4j2.git](https://github.com/a
 * [org.apache.logging.log4j:log4j-web](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-web/overview)
 </details>
 
-rebuilding **14 releases** of org.apache.logging.log4j:log4j:
+rebuilding **15 releases** of org.apache.logging.log4j:log4j:
 - **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -95,5 +96,10 @@ rebuilding **14 releases** of org.apache.logging.log4j:log4j:
 | [2.22.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.22.0/pom) | [mvn jdk11](log4j-2.22.0.buildspec) | [result](log4j-bom-2.22.0.buildinfo): [126 :white_check_mark: ](log4j-bom-2.22.0.buildcompare) | 8.7M |
 | [2.21.1](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.21.1/pom) | [mvn jdk11](log4j-2.21.1.buildspec) | [result](log4j-bom-2.21.1.buildinfo): [93 :white_check_mark: ](log4j-bom-2.21.1.buildcompare) | 6.3M |
 | [2.21.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.21.0/pom) | [mvn jdk11](log4j-2.21.0.buildspec) | [result](log4j-bom-2.21.0.buildinfo): [93 :white_check_mark:  3 :warning:](log4j-bom-2.21.0.buildcompare) | 6.8M |
+| [2.20.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.20.0/pom) | | | |
+| [2.19.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.19.0/pom) | | | |
+| [2.18.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.18.0/pom) | | | |
+| [2.17.2](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.17.2/pom) | | | |
+| [2.17.1](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.17.1/pom) | [mvn jdk8](log4j-2.17.1.buildspec) | [result](log4j-2.17.1.buildinfo): [34 :white_check_mark:  35 :warning:](log4j-2.17.1.buildcompare) | 5.5M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
