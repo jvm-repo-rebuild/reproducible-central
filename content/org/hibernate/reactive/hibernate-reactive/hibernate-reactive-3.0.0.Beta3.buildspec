@@ -1,0 +1,24 @@
+# see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/doc/BUILDSPEC.md
+
+# Central Repository coordinates for the Reference release (for multi-module, pick an arbitrary module)
+groupId=org.hibernate.reactive
+artifactId=hibernate-reactive-core
+version=3.0.0.Beta3
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=https://github.com/hibernate/hibernate-reactive.git
+gitTag=${version}
+
+# Rebuild environment prerequisites
+tool=gradle
+jdk=17
+newline=lf
+umask=022
+
+# Rebuild command
+command="./gradlew --no-daemon --no-build-cache clean publishToMavenLocal"
+
+# Location of the buildinfo file generated during rebuild (by artifact:compare for Maven) to record output fingerprints
+buildinfo=${artifactId}-${version}.buildinfo
