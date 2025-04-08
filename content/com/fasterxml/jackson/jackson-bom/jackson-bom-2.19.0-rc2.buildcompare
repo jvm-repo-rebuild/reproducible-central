@@ -1,0 +1,7 @@
+version=2.19.0-rc2
+ok=2
+ko=0
+ignored=0
+okFiles="jackson-bom-2.19.0-rc2.pom jackson-base-2.19.0-rc2.pom"
+koFiles=""
+ignoredFiles=""
