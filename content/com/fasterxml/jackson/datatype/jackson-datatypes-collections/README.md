@@ -22,6 +22,7 @@ rebuilding **22 releases** of com.fasterxml.jackson.datatype:jackson-datatypes-c
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.19.0-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/2.19.0-rc2/pom) | | | |
 | [2.18.3](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/2.18.3/pom) | [mvn jdk8](jackson-datatypes-collections-2.18.3.buildspec) | [result](jackson-datatypes-collections-2.18.3.buildinfo): [17 :white_check_mark: ](jackson-datatypes-collections-2.18.3.buildcompare) | 757K |
 | [2.18.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/2.18.2/pom) | [mvn jdk8](jackson-datatypes-collections-2.18.2.buildspec) | [result](jackson-datatypes-collections-2.18.2.buildinfo): [17 :white_check_mark: ](jackson-datatypes-collections-2.18.2.buildcompare) | 757K |
 | [2.18.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/2.18.1/pom) | [mvn jdk8](jackson-datatypes-collections-2.18.1.buildspec) | [result](jackson-datatypes-collections-2.18.1.buildinfo): [17 :white_check_mark: ](jackson-datatypes-collections-2.18.1.buildcompare) | 757K |

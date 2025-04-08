@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.hibernate.reactive:hibernate-reactive-core:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.0.Beta3](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/3.0.0.Beta3/pom) | | | |
 | [3.0.0.Beta2](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/3.0.0.Beta2/pom) | [gradle jdk17](hibernate-reactive-3.0.0.Beta2.buildspec) | [result](hibernate-reactive-3.0.0.Beta2.buildinfo): [3 :white_check_mark: ](hibernate-reactive-3.0.0.Beta2.buildcompare) | 2.0M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

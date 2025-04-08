@@ -13,6 +13,8 @@ rebuilding **15 releases** of com.fasterxml.jackson:jackson-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.19-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-parent/2.19-rc2/pom) | | | |
+| [2.19-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-parent/2.19-rc1/pom) | | | |
 | [2.18.1](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-parent/2.18.1/pom) | [mvn jdk11](jackson-parent-2.18.1.buildspec) | [result](jackson-parent-2.18.1.buildinfo): [1 :white_check_mark: ](jackson-parent-2.18.1.buildcompare) | 6.6K |
 | [2.18](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-parent/2.18/pom) | [mvn jdk11](jackson-parent-2.18.buildspec) | [result](jackson-parent-2.18.buildinfo): [1 :white_check_mark: ](jackson-parent-2.18.buildcompare) | 6.4K |
 | [2.18-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-parent/2.18-rc1/pom) | [mvn jdk11](jackson-parent-2.18-rc1.buildspec) | [result](jackson-parent-2.18-rc1.buildinfo): [1 :white_check_mark: ](jackson-parent-2.18-rc1.buildcompare) | 6.4K |
