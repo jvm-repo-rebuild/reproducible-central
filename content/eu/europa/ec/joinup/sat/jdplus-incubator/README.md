@@ -55,6 +55,7 @@ rebuilding **2 releases** of eu.europa.ec.joinup.sat:jdplus-incubator:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.3.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-incubator/2.3.0/pom) | | | |
 | [2.2.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-incubator/2.2.0/pom) | [mvn jdk21](jdplus-incubator-2.2.0.buildspec) | [result](jdplus-incubator-2.2.0.buildinfo): [92 :white_check_mark:  5 :warning:](jdplus-incubator-2.2.0.buildcompare) | 3.4M |
 | [2.1.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-incubator/2.1.0/pom) | [mvn jdk21](jdplus-incubator-2.1.0.buildspec) | [result](jdplus-incubator-2.1.0.buildinfo): [87 :white_check_mark:  10 :warning:](jdplus-incubator-2.1.0.buildcompare) | 3.3M |
 
