@@ -49,13 +49,13 @@ Source code: [https://github.com/jdemetra/jdplus-incubator.git](https://github.c
 * [eu.europa.ec.joinup.sat:jdplus-x12plus-desktop-plugin](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-x12plus-desktop-plugin/overview)
 </details>
 
-rebuilding **2 releases** of eu.europa.ec.joinup.sat:jdplus-incubator:
+rebuilding **3 releases** of eu.europa.ec.joinup.sat:jdplus-incubator:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.3.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-incubator/2.3.0/pom) | | | |
+| [2.3.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-incubator/2.3.0/pom) | [mvn jdk21](jdplus-incubator-2.3.0.buildspec) | [result](jdplus-incubator-2.3.0.buildinfo): [92 :white_check_mark:  5 :warning:](jdplus-incubator-2.3.0.buildcompare) | 3.5M |
 | [2.2.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-incubator/2.2.0/pom) | [mvn jdk21](jdplus-incubator-2.2.0.buildspec) | [result](jdplus-incubator-2.2.0.buildinfo): [92 :white_check_mark:  5 :warning:](jdplus-incubator-2.2.0.buildcompare) | 3.4M |
 | [2.1.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-incubator/2.1.0/pom) | [mvn jdk21](jdplus-incubator-2.1.0.buildspec) | [result](jdplus-incubator-2.1.0.buildinfo): [87 :white_check_mark:  10 :warning:](jdplus-incubator-2.1.0.buildcompare) | 3.3M |
 
