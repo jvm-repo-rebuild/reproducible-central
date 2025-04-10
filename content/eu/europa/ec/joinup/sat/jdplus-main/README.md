@@ -78,13 +78,13 @@ Source code: [https://github.com/jdemetra/jdplus-main.git](https://github.com/jd
 * [eu.europa.ec.joinup.sat:jdplus-x13-desktop-plugin](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-x13-desktop-plugin/overview)
 </details>
 
-rebuilding **5 releases** of eu.europa.ec.joinup.sat:jdplus-main:
+rebuilding **6 releases** of eu.europa.ec.joinup.sat:jdplus-main:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.5.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.5.0/pom) | | | |
+| [3.5.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.5.0/pom) | [mvn jdk21](jdplus-main-3.5.0.buildspec) | [result](jdplus-main-3.5.0.buildinfo): [186 :white_check_mark:  9 :warning:](jdplus-main-3.5.0.buildcompare) | 87M |
 | [3.4.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.4.0/pom) | [mvn jdk21](jdplus-main-3.4.0.buildspec) | [result](jdplus-main-3.4.0.buildinfo): [186 :white_check_mark:  9 :warning:](jdplus-main-3.4.0.buildcompare) | 86M |
 | [3.3.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.3.0/pom) | [mvn jdk21](jdplus-main-3.3.0.buildspec) | [result](jdplus-main-3.3.0.buildinfo): [186 :white_check_mark:  9 :warning:](jdplus-main-3.3.0.buildcompare) | 86M |
 | [3.2.4](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.2.4/pom) | [mvn jdk21](jdplus-main-3.2.4.buildspec) | [result](jdplus-main-3.2.4.buildinfo): [186 :white_check_mark:  9 :warning:](jdplus-main-3.2.4.buildcompare) | 86M |
