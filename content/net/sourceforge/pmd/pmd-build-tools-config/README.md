@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/pmd/build-tools.git](https://github.com/pmd/build-tools.git)
 
-rebuilding **12 releases** of net.sourceforge.pmd:pmd-build-tools-config:
-- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **13 releases** of net.sourceforge.pmd:pmd-build-tools-config:
+- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [30](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-build-tools-config/30/pom) | | | |
+| [30](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-build-tools-config/30/pom) | [mvn jdk11](pmd-build-tools-config-30.buildspec) | [result](pmd-build-tools-config-30.buildinfo): [3 :white_check_mark: ](pmd-build-tools-config-30.buildcompare) | 65K |
 | [29](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-build-tools-config/29/pom) | [mvn jdk11](pmd-build-tools-config-29.buildspec) | [result](pmd-build-tools-config-29.buildinfo): [3 :white_check_mark: ](pmd-build-tools-config-29.buildcompare) | 65K |
 | [28](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-build-tools-config/28/pom) | [mvn jdk11](pmd-build-tools-config-28.buildspec) | [result](pmd-build-tools-config-28.buildinfo): [3 :white_check_mark: ](pmd-build-tools-config-28.buildcompare) | 65K |
 | [27](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-build-tools-config/27/pom) | [mvn jdk11](pmd-build-tools-config-27.buildspec) | [result](pmd-build-tools-config-27.buildinfo): [3 :white_check_mark: ](pmd-build-tools-config-27.buildcompare) | 65K |
