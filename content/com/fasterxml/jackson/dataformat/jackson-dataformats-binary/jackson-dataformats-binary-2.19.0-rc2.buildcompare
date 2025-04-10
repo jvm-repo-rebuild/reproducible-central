@@ -1,0 +1,9 @@
+version=2.19.0-rc2
+ok=21
+ko=0
+ignored=0
+okFiles="jackson-dataformats-binary-2.19.0-rc2.pom jackson-dataformat-cbor-2.19.0-rc2.pom jackson-dataformat-cbor-2.19.0-rc2.jar jackson-dataformat-cbor-2.19.0-rc2-sources.jar jackson-dataformat-cbor-2.19.0-rc2.module jackson-dataformat-smile-2.19.0-rc2.pom jackson-dataformat-smile-2.19.0-rc2.jar jackson-dataformat-smile-2.19.0-rc2-sources.jar jackson-dataformat-smile-2.19.0-rc2.module jackson-dataformat-avro-2.19.0-rc2.pom jackson-dataformat-avro-2.19.0-rc2.jar jackson-dataformat-avro-2.19.0-rc2-sources.jar jackson-dataformat-avro-2.19.0-rc2.module jackson-dataformat-protobuf-2.19.0-rc2.pom jackson-dataformat-protobuf-2.19.0-rc2.jar jackson-dataformat-protobuf-2.19.0-rc2-sources.jar jackson-dataformat-protobuf-2.19.0-rc2.module jackson-dataformat-ion-2.19.0-rc2.pom jackson-dataformat-ion-2.19.0-rc2.jar jackson-dataformat-ion-2.19.0-rc2-sources.jar jackson-dataformat-ion-2.19.0-rc2.module"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
