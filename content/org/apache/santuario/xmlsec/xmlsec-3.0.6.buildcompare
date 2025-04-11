@@ -1,0 +1,10 @@
+version=3.0.6
+ok=5
+ko=1
+ignored=0
+okFiles="xmlsec-3.0.6.pom xmlsec-3.0.6-source-release.zip xmlsec-3.0.6-sources.jar xmlsec-3.0.6-cyclonedx.xml xmlsec-3.0.6-cyclonedx.json"
+koFiles="xmlsec-3.0.6.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.santuario/xmlsec-3.0.6.jar target/xmlsec-3.0.6.jar
