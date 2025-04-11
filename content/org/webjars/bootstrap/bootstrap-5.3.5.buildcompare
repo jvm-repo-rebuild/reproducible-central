@@ -1,0 +1,9 @@
+version=5.3.5
+ok=2
+ko=0
+ignored=0
+okFiles="bootstrap-5.3.5.pom bootstrap-5.3.5.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
