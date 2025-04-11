@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Bootstrap
+group-id=org.webjars
+artifact-id=bootstrap
+version=5.3.5
+
+# source information
+source.scm.uri=scm:git:https://github.com/webjars/bootstrap.git
+source.scm.tag=bootstrap-5.3.5
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.6
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.webjars
+outputs.0.filename=bootstrap-5.3.5.pom
+outputs.0.length=8190
+outputs.0.checksums.sha512=25447473d2a3884282ad3acac167c19428c48afee0aae3913d18c8606e9df94d544051cc304e7264faa002a9d190f12eca17ca030e4e070e9212caad0d4e0f3d
+
+outputs.1.groupId=org.webjars
+outputs.1.filename=bootstrap-5.3.5.jar
+outputs.1.length=2558742
+outputs.1.checksums.sha512=de14f9720cf5b0434baa9204bd9ed3040af5d4cfc801e91ee7476d9d702ff7872e56ce1a8af7dbc726caec63bc273c10084309c89d6318c5f38cdfcedbc458aa
