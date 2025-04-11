@@ -1,0 +1,19 @@
+groupId=ch.vorburger.mariaDB4j
+artifactId=mariaDB4j
+display=${groupId}:${artifactId}
+version=3.2.0
+
+gitRepo=https://github.com/MariaDB4j/MariaDB4j.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.5
+jdk=21
+newline=lf
+umask=022
+timezone="Europe/Zurich" # necessary for spring-boot:3.4.4:repackage
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-pom-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
