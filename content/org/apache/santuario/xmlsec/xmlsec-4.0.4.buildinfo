@@ -1,0 +1,54 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache XML Security for Java
+group-id=org.apache.santuario
+artifact-id=xmlsec
+version=4.0.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/santuario-xml-security-java.git
+source.scm.tag=xmlsec-4.0.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.26
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.santuario
+outputs.0.filename=xmlsec-4.0.4.pom
+outputs.0.length=30908
+outputs.0.checksums.sha512=e04e0b5e4fa6bc693308c7e68b40d9bf18a095766f74907002988f665c780e94614db582db009aba9a8cc68e585e71de9f39ec54fa395088730536f738964fdd
+
+outputs.1.groupId=org.apache.santuario
+outputs.1.filename=xmlsec-4.0.4.jar
+outputs.1.length=1216523
+outputs.1.checksums.sha512=47ca9e5dc3918555202d70c1d6c13501638ba768456b6020fedab66f9f187db90389780dafc89de4b3efa6ae088eb74618136aa0fe9615dccbde79761186b87c
+
+outputs.2.groupId=org.apache.santuario
+outputs.2.filename=xmlsec-4.0.4-source-release.zip
+outputs.2.length=2745879
+outputs.2.checksums.sha512=d4a24713fd95b8c566ce29d0f240373c6473ff0b4fcdbc6186c164105a6965986f9af77612dafa99576f45075851d8fbe14bfc7391e9dae9f0c37386727494a1
+
+outputs.3.groupId=org.apache.santuario
+outputs.3.filename=xmlsec-4.0.4-sources.jar
+outputs.3.length=920114
+outputs.3.checksums.sha512=0d8280d39b334094d2b9e349c0539516d66c89196b5bb4159c713996f27fab3a3d0bf2ab9f40d65301296b47a9cbabcefe394ee3ca9f53f9b55974a11a8664d0
+
+outputs.4.groupId=org.apache.santuario
+outputs.4.filename=xmlsec-4.0.4-cyclonedx.xml
+outputs.4.length=16148
+outputs.4.checksums.sha512=54931bd80b8af4f979ca49386ecb5bfd22c37be19c53a4d6834e1afa723b3ed401816f924cc5748e373aba5456aa62d2d5c4a8a1c75488e2c92eb952e775ac35
+
+outputs.5.groupId=org.apache.santuario
+outputs.5.filename=xmlsec-4.0.4-cyclonedx.json
+outputs.5.length=17758
+outputs.5.checksums.sha512=88a0dd41b61e3356ab634b8fee28384e7829063cf9323f3ba984169650d9b1ef5257489dabf454d027af9d6e4ca48ce42e5109c49b8de0a77cc90a950a245800
