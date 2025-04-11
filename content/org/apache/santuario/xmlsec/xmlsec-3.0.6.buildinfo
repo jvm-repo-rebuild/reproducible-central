@@ -1,0 +1,54 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache XML Security for Java
+group-id=org.apache.santuario
+artifact-id=xmlsec
+version=3.0.6
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/santuario-xml-security-java.git
+source.scm.tag=xmlsec-3.0.6
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_302
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.santuario
+outputs.0.filename=xmlsec-3.0.6.pom
+outputs.0.length=29181
+outputs.0.checksums.sha512=9c8f9a70889491f8618b2f47315bf6ddb724c5ae46b5d680e870f6dfc3bdd3555816924dd2faeb5bef49fecce23e575f06be6da83a64ce25350ec550767460a5
+
+outputs.1.groupId=org.apache.santuario
+outputs.1.filename=xmlsec-3.0.6.jar
+outputs.1.length=1197468
+outputs.1.checksums.sha512=f974a088b780af5fbf0e7892225be2343a8fafa26662fdc26e600c55923dfc73dd4e7b83020c3ce7ff471bcc4fd8db5293e2544368d6bdccafa8de4c4f80ca9f
+
+outputs.2.groupId=org.apache.santuario
+outputs.2.filename=xmlsec-3.0.6-source-release.zip
+outputs.2.length=2728528
+outputs.2.checksums.sha512=8a4e691523aad671af8c937961f0fd6f1d1cf5670a3c673009c8f5c0fc32ea25403c462d3f0bcf569959dc5756de6b1427d009919fab0d0354ea9d28e4e90072
+
+outputs.3.groupId=org.apache.santuario
+outputs.3.filename=xmlsec-3.0.6-sources.jar
+outputs.3.length=910957
+outputs.3.checksums.sha512=952760f63c24f8ef5af086d9f58e823e7881b5aa072d0954e330a09448ed0e688f66bab83a73fb360b4c62d2d61e60f0d30414b7616c60f97e46c37bf0927d37
+
+outputs.4.groupId=org.apache.santuario
+outputs.4.filename=xmlsec-3.0.6-cyclonedx.xml
+outputs.4.length=15661
+outputs.4.checksums.sha512=81279f433e85bf96a35491d97d79c4887c1a59f33d47512f03accfb2c20ec76a1cb25e983abf411b9cda9ac841735c6a009ad903f768c648b912bbca8f713dee
+
+outputs.5.groupId=org.apache.santuario
+outputs.5.filename=xmlsec-3.0.6-cyclonedx.json
+outputs.5.length=17312
+outputs.5.checksums.sha512=0ad484f2adf11b65e174db8dffce129ff742c0ae86097c01cfb66245061e876c41f06d4251fe376e36b479d4a62add29e10de5ef2f45c358983909351838fff9
