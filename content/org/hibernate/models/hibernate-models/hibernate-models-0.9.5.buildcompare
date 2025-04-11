@@ -1,0 +1,8 @@
+version=0.9.5
+ok=6
+ko=3
+okFiles="hibernate-models-bytebuddy-0.9.5-sources.jar hibernate-models-bytebuddy-0.9.5.pom hibernate-models-jandex-0.9.5-sources.jar hibernate-models-jandex-0.9.5.pom hibernate-models-0.9.5-sources.jar hibernate-models-0.9.5.pom"
+koFiles="hibernate-models-bytebuddy-0.9.5.jar hibernate-models-jandex-0.9.5.jar hibernate-models-0.9.5.jar"
+# diffoscope central/org/hibernate/models/hibernate-models-bytebuddy/0.9.5/hibernate-models-bytebuddy-0.9.5.jar repository/org/hibernate/models/hibernate-models-bytebuddy/0.9.5/hibernate-models-bytebuddy-0.9.5.jar
+# diffoscope central/org/hibernate/models/hibernate-models-jandex/0.9.5/hibernate-models-jandex-0.9.5.jar repository/org/hibernate/models/hibernate-models-jandex/0.9.5/hibernate-models-jandex-0.9.5.jar
+# diffoscope central/org/hibernate/models/hibernate-models/0.9.5/hibernate-models-0.9.5.jar repository/org/hibernate/models/hibernate-models/0.9.5/hibernate-models-0.9.5.jar
