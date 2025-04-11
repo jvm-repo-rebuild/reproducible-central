@@ -13,11 +13,13 @@ rebuilding **11 releases** of org.apache.santuario:xmlsec:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.4](https://central.sonatype.com/artifact/org.apache.santuario/xmlsec/4.0.4/pom) | | | |
 | [4.0.3](https://central.sonatype.com/artifact/org.apache.santuario/xmlsec/4.0.3/pom) | [mvn jdk11](xmlsec-4.0.3.buildspec) | [result](xmlsec-4.0.3.buildinfo): [6 :white_check_mark: ](xmlsec-4.0.3.buildcompare) | 4.8M |
 | [4.0.2](https://central.sonatype.com/artifact/org.apache.santuario/xmlsec/4.0.2/pom) | [mvn jdk11](xmlsec-4.0.2.buildspec) | [result](xmlsec-4.0.2.buildinfo): [6 :white_check_mark: ](xmlsec-4.0.2.buildcompare) | 4.7M |
 | [4.0.1](https://central.sonatype.com/artifact/org.apache.santuario/xmlsec/4.0.1/pom) | [mvn jdk11.0.21](xmlsec-4.0.1.buildspec) | [result](xmlsec-4.0.1.buildinfo): [5 :white_check_mark:  1 :warning:](xmlsec-4.0.1.buildcompare) [:mag:](xmlsec-4.0.1.diffoscope) [:memo:](https://github.com/apache/santuario-xml-security-java/pull/248) | 5.4M |
 | [4.0.0](https://central.sonatype.com/artifact/org.apache.santuario/xmlsec/4.0.0/pom) | [mvn jdk11.0.19](xmlsec-4.0.0.buildspec) | [result](xmlsec-4.0.0.buildinfo): [5 :white_check_mark:  1 :warning:](xmlsec-4.0.0.buildcompare) [:mag:](xmlsec-4.0.0.diffoscope) | 5.4M |
 | [4.0.0-M1](https://central.sonatype.com/artifact/org.apache.santuario/xmlsec/4.0.0-M1/pom) | [mvn jdk11.0.19](xmlsec-4.0.0-M1.buildspec) | [result](xmlsec-4.0.0-M1.buildinfo): [3 :white_check_mark:  2 :warning:](xmlsec-4.0.0-M1.buildcompare) [:mag:](xmlsec-4.0.0-M1.diffoscope) [:memo:](https://github.com/apache/santuario-xml-security-java/pull/77) | 2.1M |
+| [3.0.6](https://central.sonatype.com/artifact/org.apache.santuario/xmlsec/3.0.6/pom) | | | |
 | [3.0.5](https://central.sonatype.com/artifact/org.apache.santuario/xmlsec/3.0.5/pom) | [mvn jdk8](xmlsec-3.0.5.buildspec) | [result](xmlsec-3.0.5.buildinfo): [6 :white_check_mark: ](xmlsec-3.0.5.buildcompare) | 4.7M |
 | [3.0.4](https://central.sonatype.com/artifact/org.apache.santuario/xmlsec/3.0.4/pom) | [mvn jdk8](xmlsec-3.0.4.buildspec) | [result](xmlsec-3.0.4.buildinfo): [6 :white_check_mark: ](xmlsec-3.0.4.buildcompare) | 4.7M |
 | [3.0.3](https://central.sonatype.com/artifact/org.apache.santuario/xmlsec/3.0.3/pom) | [mvn jdk8](xmlsec-3.0.3.buildspec) | [result](xmlsec-3.0.3.buildinfo): [5 :white_check_mark:  1 :warning:](xmlsec-3.0.3.buildcompare) [:mag:](xmlsec-3.0.3.diffoscope) | 5.3M |

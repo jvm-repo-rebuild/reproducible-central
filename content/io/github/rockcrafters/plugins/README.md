@@ -20,6 +20,7 @@ rebuilding **2 releases** of io.github.rockcrafters:rockcraft-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.1.0](https://central.sonatype.com/artifact/io.github.rockcrafters/rockcraft-parent/1.1.0/pom) | | | |
 | [1.0.0](https://central.sonatype.com/artifact/io.github.rockcrafters/rockcraft-parent/1.0.0/pom) | [mvn jdk8](rockcraft-parent-1.0.0.buildspec) | [result](rockcraft-parent-1.0.0.buildinfo): [7 :white_check_mark: ](rockcraft-parent-1.0.0.buildcompare) | 105K |
 | [0.2.3](https://central.sonatype.com/artifact/io.github.rockcrafters/rockcraft-parent/0.2.3/pom) | [mvn jdk8](rockcraft-parent-0.2.3.buildspec) | [result](rockcraft-parent-0.2.3.buildinfo): [7 :white_check_mark: ](rockcraft-parent-0.2.3.buildcompare) | 81K |
 

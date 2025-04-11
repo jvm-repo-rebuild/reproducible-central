@@ -3,12 +3,13 @@
   <groupId>io.github.rockcrafters</groupId>
   <artifactId>rockcraft-parent</artifactId>
   <versioning>
-    <latest>1.0.0</latest>
-    <release>1.0.0</release>
+    <latest>1.1.0</latest>
+    <release>1.1.0</release>
     <versions>
       <version>0.2.3</version>
       <version>1.0.0</version>
+      <version>1.1.0</version>
     </versions>
-    <lastUpdated>20250327070349</lastUpdated>
+    <lastUpdated>20250411052938</lastUpdated>
   </versioning>
 </metadata>

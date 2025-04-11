@@ -3,8 +3,8 @@
   <groupId>org.apache.commons</groupId>
   <artifactId>commons-text</artifactId>
   <versioning>
-    <latest>1.13.0</latest>
-    <release>1.13.0</release>
+    <latest>1.13.1</latest>
+    <release>1.13.1</release>
     <versions>
       <version>1.0-beta-1</version>
       <version>1.0</version>
@@ -21,7 +21,8 @@
       <version>1.11.0</version>
       <version>1.12.0</version>
       <version>1.13.0</version>
+      <version>1.13.1</version>
     </versions>
-    <lastUpdated>20241213155755</lastUpdated>
+    <lastUpdated>20250410213442</lastUpdated>
   </versioning>
 </metadata>
