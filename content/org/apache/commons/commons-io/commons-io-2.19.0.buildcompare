@@ -1,0 +1,9 @@
+version=2.19.0
+ok=7
+ko=0
+ignored=1
+okFiles="commons-io-2.19.0.pom commons-io-2.19.0.jar commons-io-2.19.0-tests.jar commons-io-2.19.0-sources.jar commons-io-2.19.0-test-sources.jar commons-io-2.19.0-cyclonedx.xml commons-io-2.19.0-cyclonedx.json"
+koFiles=""
+ignoredFiles="commons-io-2.19.0.spdx.json"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
