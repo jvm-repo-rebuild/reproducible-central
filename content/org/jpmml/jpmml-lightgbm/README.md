@@ -19,6 +19,7 @@ rebuilding **5 releases** of org.jpmml:jpmml-lightgbm:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.6.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-lightgbm/1.6.1/pom) | | | |
 | [1.6.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-lightgbm/1.6.0/pom) | [mvn jdk11](jpmml-lightgbm-1.6.0.buildspec) | [result](jpmml-lightgbm-1.6.0.buildinfo): [2 :white_check_mark:  2 :warning:](jpmml-lightgbm-1.6.0.buildcompare) | 86K |
 | [1.5.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-lightgbm/1.5.6/pom) | [mvn jdk8](jpmml-lightgbm-1.5.6.buildspec) | [result](jpmml-lightgbm-1.5.6.buildinfo): [4 :white_check_mark: ](jpmml-lightgbm-1.5.6.buildcompare) | 85K |
 | [1.5.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-lightgbm/1.5.5/pom) | [mvn jdk11](jpmml-lightgbm-1.5.5.buildspec) | [result](jpmml-lightgbm-1.5.5.buildinfo): [4 :white_check_mark: ](jpmml-lightgbm-1.5.5.buildcompare) | 85K |

@@ -44,12 +44,13 @@ Source code: [https://github.com/apache/maven-resolver.git](https://github.com/a
 * [org.apache.maven.resolver:maven-resolver-util](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-util/overview)
 </details>
 
-rebuilding **49 releases** of org.apache.maven.resolver:maven-resolver:
-- **47** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **50 releases** of org.apache.maven.resolver:maven-resolver:
+- **48** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.8](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.8/pom) | [mvn jdk21](maven-resolver-2.0.8.buildspec) | [result](maven-resolver-2.0.8.buildinfo): [135 :white_check_mark: ](maven-resolver-2.0.8.buildcompare) | 16M |
 | [2.0.7](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.7/pom) | [mvn jdk21](maven-resolver-2.0.7.buildspec) | [result](maven-resolver-2.0.7.buildinfo): [135 :white_check_mark: ](maven-resolver-2.0.7.buildcompare) | 16M |
 | [2.0.6](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.6/pom) | [mvn jdk21](maven-resolver-2.0.6.buildspec) | [result](maven-resolver-2.0.6.buildinfo): [135 :white_check_mark: ](maven-resolver-2.0.6.buildcompare) | 16M |
 | [2.0.5](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.5/pom) | [mvn jdk21](maven-resolver-2.0.5.buildspec) | [result](maven-resolver-2.0.5.buildinfo): [135 :white_check_mark: ](maven-resolver-2.0.5.buildcompare) | 16M |

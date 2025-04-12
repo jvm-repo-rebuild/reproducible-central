@@ -3,8 +3,8 @@
   <groupId>dk.mada.style</groupId>
   <artifactId>mada-style-gradle</artifactId>
   <versioning>
-    <latest>1.1.2</latest>
-    <release>1.1.2</release>
+    <latest>1.1.3</latest>
+    <release>1.1.3</release>
     <versions>
       <version>0.9.0</version>
       <version>0.9.1</version>
@@ -25,7 +25,8 @@
       <version>1.1.0</version>
       <version>1.1.1</version>
       <version>1.1.2</version>
+      <version>1.1.3</version>
     </versions>
-    <lastUpdated>20250210160227</lastUpdated>
+    <lastUpdated>20250412094556</lastUpdated>
   </versioning>
 </metadata>
