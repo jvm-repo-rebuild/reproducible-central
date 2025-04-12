@@ -1,0 +1,9 @@
+version=32.1.0
+ok=3
+ko=0
+ignored=0
+okFiles="gherkin-32.1.0.pom gherkin-32.1.0.jar gherkin-32.1.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
