@@ -6,7 +6,7 @@ version=2.0.3
 gitRepo=https://github.com/apache/shiro.git
 gitTag=${artifactId}-${version}
 
-tool=mvn-4.0.0-rc-3
+tool=mvn-4.0.0-rc-2
 jdk=23
 newline=lf
 umask=022
