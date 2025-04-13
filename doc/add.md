@@ -4,12 +4,13 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250412141546 --> [liftwizard](../content/io/liftwizard/README.md) | [2.1.26](../content/io/liftwizard/liftwizard-2.1.26.buildspec) :white_check_mark: | [2.1.27](../content/io/liftwizard/liftwizard-2.1.27.buildspec) | `bin/add-new-release.sh content/io/liftwizard/liftwizard-2.1.26.buildspec 2.1.27` |
-| <!-- 20250412094556 --> [mada-style-gradle](../content/dk/mada/style/mada-style-gradle/README.md) | [1.1.2](../content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.1.2.buildspec) :white_check_mark: | [1.1.3](../content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.1.3.buildspec) | `bin/add-new-release.sh content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.1.2.buildspec 1.1.3` |
-| <!-- 20250412001618 --> [commons-io](../content/org/apache/commons/commons-io/README.md) | [2.18.0](../content/org/apache/commons/commons-io/commons-io-2.18.0.buildspec) :white_check_mark: | [2.19.0](../content/org/apache/commons/commons-io/commons-io-2.19.0.buildspec) | `bin/add-new-release.sh content/org/apache/commons/commons-io/commons-io-2.18.0.buildspec 2.19.0` |
+| <!-- 20250413182914 --> [directory-maven-plugin](../content/com/github/hazendaz/maven/directory-maven-plugin/README.md) | [1.2.0](../content/com/github/hazendaz/maven/directory-maven-plugin/directory-maven-plugin-1.2.0.buildspec) :white_check_mark: | [1.2.1](../content/com/github/hazendaz/maven/directory-maven-plugin/directory-maven-plugin-1.2.1.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/maven/directory-maven-plugin/directory-maven-plugin-1.2.0.buildspec 1.2.1` |
+| <!-- 20250413072337 --> [oras-java-sdk](../content/land/oras/oras-java-sdk/README.md) | [0.2.2](../content/land/oras/oras-java-sdk/oras-java-sdk-0.2.2.buildspec) :white_check_mark: | [0.2.4](../content/land/oras/oras-java-sdk/oras-java-sdk-0.2.4.buildspec) | `bin/add-new-release.sh content/land/oras/oras-java-sdk/oras-java-sdk-0.2.2.buildspec 0.2.4` |
+| <!-- 20250413072337 --> [oras-java-sdk](../content/land/oras/oras-java-sdk/README.md) | [0.2.2](../content/land/oras/oras-java-sdk/oras-java-sdk-0.2.2.buildspec) :white_check_mark: | 0.2.3  | `bin/add-new-release.sh content/land/oras/oras-java-sdk/oras-java-sdk-0.2.2.buildspec ...` |
+| <!-- 20250413033015 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [11.2.1-beta-11](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.1-beta-11.buildspec) :white_check_mark: | [11.2.1-beta-12](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.1-beta-12.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.1-beta-11.buildspec 11.2.1-beta-12` |
+| <!-- 20250413031704 --> [coveralls-maven-plugin](../content/com/github/hazendaz/maven/coveralls-maven-plugin/README.md) | [4.5.0-M6](../content/com/github/hazendaz/maven/coveralls-maven-plugin/coveralls-maven-plugin-4.5.0-M6.buildspec) :white_check_mark: | [4.6.0](../content/com/github/hazendaz/maven/coveralls-maven-plugin/coveralls-maven-plugin-4.6.0.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/maven/coveralls-maven-plugin/coveralls-maven-plugin-4.5.0-M6.buildspec 4.6.0` |
+| <!-- 20250412204740 --> [catch-exception-parent](../content/com/github/hazendaz/catch-exception/README.md) | [2.3.3](../content/com/github/hazendaz/catch-exception/catch-exception-2.3.3.buildspec) :white_check_mark: | [2.3.4](../content/com/github/hazendaz/catch-exception/catch-exception-2.3.4.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/catch-exception/catch-exception-2.3.3.buildspec 2.3.4` |
 | <!-- 20250410205154 --> [mariaDB4j](../content/ch/vorburger/mariaDB4j/README.md) | [3.1.0](../content/ch/vorburger/mariaDB4j/mariaDB4j-pom-3.1.0.buildspec) :white_check_mark: | [3.2.0](../content/ch/vorburger/mariaDB4j/mariaDB4j-pom-3.2.0.buildspec) | `bin/add-new-release.sh content/ch/vorburger/mariaDB4j/mariaDB4j-pom-3.1.0.buildspec 3.2.0` |
-| <!-- 20250409192255 --> [shiro-root](../content/org/apache/shiro/README.md) | [2.0.2](../content/org/apache/shiro/shiro-2.0.2.buildspec) :white_check_mark: | [2.0.3](../content/org/apache/shiro/shiro-2.0.3.buildspec) | `bin/add-new-release.sh content/org/apache/shiro/shiro-2.0.2.buildspec 2.0.3` |
-| <!-- 20250408055722 --> [oras-java-sdk](../content/land/oras/oras-java-sdk/README.md) | [0.2.2](../content/land/oras/oras-java-sdk/oras-java-sdk-0.2.2.buildspec) :white_check_mark: | [0.2.3](../content/land/oras/oras-java-sdk/oras-java-sdk-0.2.3.buildspec) | `bin/add-new-release.sh content/land/oras/oras-java-sdk/oras-java-sdk-0.2.2.buildspec 0.2.3` |
 | <!-- 20250408010228 --> [jackson-bom](../content/com/fasterxml/jackson/jackson-bom/README.md) | [2.19.0-rc2](../content/com/fasterxml/jackson/jackson-bom/jackson-bom-2.19.0-rc2.buildspec) :white_check_mark: | 2.19.0-rc1  | `bin/add-new-release.sh content/com/fasterxml/jackson/jackson-bom/jackson-bom-2.19.0-rc2.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
@@ -42,6 +43,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20250413071904 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | [1.9.6](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.6.buildspec) :warning: | [1.9.7](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.7.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.6.buildspec 1.9.7` |
 | <!-- 20250412195812 --> [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | [1.3.0](../content/org/jpmml/jpmml-statsmodels/jpmml-statsmodels-1.3.0.buildspec) :warning: | [1.3.1](../content/org/jpmml/jpmml-statsmodels/jpmml-statsmodels-1.3.1.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-statsmodels/jpmml-statsmodels-1.3.0.buildspec 1.3.1` |
 | <!-- 20250412065115 --> [jpmml-python](../content/org/jpmml/jpmml-python/README.md) | [1.3.3](../content/org/jpmml/jpmml-python/jpmml-python-1.3.3.buildspec) :warning: | [1.3.4](../content/org/jpmml/jpmml-python/jpmml-python-1.3.4.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-python/jpmml-python-1.3.3.buildspec 1.3.4` |
 | <!-- 20250412064600 --> [jpmml-lightgbm](../content/org/jpmml/jpmml-lightgbm/README.md) | [1.6.0](../content/org/jpmml/jpmml-lightgbm/jpmml-lightgbm-1.6.0.buildspec) :warning: | [1.6.1](../content/org/jpmml/jpmml-lightgbm/jpmml-lightgbm-1.6.1.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-lightgbm/jpmml-lightgbm-1.6.0.buildspec 1.6.1` |
@@ -64,6 +66,7 @@ New Releases To Add
 | ---------- | ------ |
 | <!-- 20250410085949 --> [fediz](../content/org/apache/cxf/fediz/README.md) | 1.7.1 :warning: |
 | <!-- 20250410055157 --> [jpmml-xgboost](../content/org/jpmml/jpmml-xgboost/README.md) | 1.9.1 :warning: |
+| <!-- 20250409192255 --> [shiro-root](../content/org/apache/shiro/README.md) | 2.0.3 :warning: |
 | <!-- 20250409102648 --> [quarkus-project](../content/io/quarkus/README.md) | 3.21.2 :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) |
 | <!-- 20250409102540 --> [hibernate-models](../content/org/hibernate/models/hibernate-models/README.md) | 0.9.5 :warning: |
 | <!-- 20250409102346 --> [jdplus-incubator](../content/eu/europa/ec/joinup/sat/jdplus-incubator/README.md) | 2.3.0 :warning: |
@@ -71,7 +74,6 @@ New Releases To Add
 | <!-- 20250409071736 --> [pulsar](../content/org/apache/pulsar/README.md) | 4.0.4 :warning: |
 | <!-- 20250407212539 --> [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | 1.78.0 :warning: [:memo:](https://issues.apache.org/jira/browse/OAK-10662) |
 | <!-- 20250407130336 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.3.0 :warning: |
-| <!-- 20250407073921 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | 1.9.6 :warning: |
 | <!-- 20250406074630 --> [jpmml-converter](../content/org/jpmml/jpmml-converter/README.md) | 1.6.2 :warning: |
 | <!-- 20250406001601 --> [hibernate-core](../content/org/hibernate/orm/hibernate-core/README.md) | 7.0.0.Beta5 :warning: |
 | <!-- 20250405184719 --> [jpmml-evaluator](../content/org/jpmml/jpmml-evaluator/README.md) | 1.7.3 :warning: |
