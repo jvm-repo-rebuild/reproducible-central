@@ -1,0 +1,190 @@
+# what Maven release was used? not 4.0.0-rc3?
+1 / 88 target/reference/org.apache.shiro/shiro-lang-2.0.3.pom lang/target/consumer-5964993398816987179.pom
+--- target/reference/org.apache.shiro/shiro-lang-2.0.3.pom
++++ lang/target/consumer-5964993398816987179.pom
+│   --- target/reference/org.apache.shiro/shiro-lang-2.0.3.pom
+├── +++ lang/target/consumer-5964993398816987179.pom
+│ @@ -109,38 +109,20 @@
+│        <email>lprimak@apache.org</email>
+│        <url>https://hope.nyc.ny.us</url>
+│        <organization>Flow Logix</organization>
+│        <organizationUrl>https://www.flowlogix.com/</organizationUrl>
+│        <timezone>US/Central</timezone>
+│      </developer>
+│    </developers>
+│ -  <mailingLists>
+│ -    <mailingList>
+│ -      <name>Apache Shiro Users Mailing List</name>
+│ -      <subscribe>user-subscribe@shiro.apache.org</subscribe>
+│ -      <unsubscribe>user-unsubscribe@shiro.apache.org</unsubscribe>
+│ -      <post>user@shiro.apache.org</post>
+│ -    </mailingList>
+│ -    <mailingList>
+│ -      <name>Apache Shiro Developers Mailing List</name>
+│ -      <subscribe>dev-subscribe@shiro.apache.org</subscribe>
+│ -      <unsubscribe>dev-unsubscribe@shiro.apache.org</unsubscribe>
+│ -      <post>dev@shiro.apache.org</post>
+│ -    </mailingList>
+│ -  </mailingLists>
+│    <scm>
+│      <connection>scm:git:https://gitbox.apache.org/repos/asf/shiro.git/shiro-lang</connection>
+│      <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/shiro.git/shiro-lang</developerConnection>
+│      <tag>shiro-root-2.0.3</tag>
+│      <url>https://github.com/apache/shiro/tree/shiro-root-2.0.3/shiro-lang</url>
+│    </scm>
+│ -  <issueManagement>
+│ -    <system>Jira</system>
+│ -    <url>https://issues.apache.org/jira/browse/SHIRO</url>
+│ -  </issueManagement>
+│    <ciManagement>
+│      <system>Jenkins</system>
+│      <url>https://builds.apache.org/job/Shiro/</url>
+│    </ciManagement>
+│    <distributionManagement>
+│      <repository>
+│        <id>apache.releases.https</id>
+│ @@ -155,527 +137,14 @@
+│      <site>
+│        <id>shiro.website</id>
+│        <name>Apache Shiro Site</name>
+│        <url>scp://people.apache.org/www/shiro.apache.org/static/latest/shiro-lang</url>
+│      </site>
+│      <downloadUrl>https://shiro.apache.org/download.html</downloadUrl>
+│    </distributionManagement>
+│ -  <dependencyManagement>
+│ -    <dependencies>
+│ -      <dependency>
+│ -        <groupId>org.apache.shiro</groupId>
+│ -        <artifactId>shiro-lang</artifactId>
+│ -        <version>2.0.3</version>
+│ -      </dependency>
+..
+│ -      <dependency>
+│ -        <groupId>org.apache.maven.skins</groupId>
+│ -        <artifactId>maven-fluido-skin</artifactId>
+│ -        <version>2.1.0</version>
+│ -      </dependency>
+│ -    </dependencies>
+│ -  </dependencyManagement>
+│    <dependencies>
+│      <dependency>
+│        <groupId>org.slf4j</groupId>
+│        <artifactId>slf4j-api</artifactId>
+│        <version>2.0.17</version>
+│        <scope>compile</scope>
+│      </dependency>
+│ @@ -749,20 +218,8 @@
+│        <snapshots>
+│          <enabled>false</enabled>
+│        </snapshots>
+│        <id>apache.snapshots</id>
+│        <url>https://repository.apache.org/snapshots</url>
+│      </repository>
+│    </repositories>
+│ -  <pluginRepositories>
+│ -    <pluginRepository>
+│ -      <releases>
+│ -        <enabled>false</enabled>
+│ -      </releases>
+│ -      <snapshots>
+│ -        <enabled>false</enabled>
+│ -      </snapshots>
+│ -      <id>apache.snapshots</id>
+│ -      <url>https://repository.apache.org/snapshots</url>
+│ -    </pluginRepository>
+│ -  </pluginRepositories>
+│  </project>
+
+# what difference in build environment can do that?
+2 / 88 target/reference/org.apache.shiro/shiro-lang-2.0.3.jar lang/target/shiro-lang-2.0.3.jar
+--- target/reference/org.apache.shiro/shiro-lang-2.0.3.jar
++++ lang/target/shiro-lang-2.0.3.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 53503 bytes, number of entries: 57
+│ +Zip file size: 53514 bytes, number of entries: 57
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     2060 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     2114 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      438 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      640 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.shiro/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.shiro/shiro-lang/
+│  -rw----     2.0 fat       61 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.shiro/shiro-lang/pom.properties
+│ @@ -52,8 +52,8 @@
+│  -rw----     2.0 fat      779 bl defN 80-Feb-01 00:00 org/apache/shiro/lang/util/SimpleByteSource$BytesHelper.class
+│  -rw----     2.0 fat     2932 bl defN 80-Feb-01 00:00 org/apache/shiro/lang/util/SimpleByteSource.class
+│  -rw----     2.0 fat     1056 bl defN 80-Feb-01 00:00 org/apache/shiro/lang/util/SoftHashMap$SoftValue.class
+│  -rw----     2.0 fat     6524 bl defN 80-Feb-01 00:00 org/apache/shiro/lang/util/SoftHashMap.class
+│  -rw----     2.0 fat     8431 bl defN 80-Feb-01 00:00 org/apache/shiro/lang/util/StringUtils.class
+│  -rw----     2.0 fat      794 bl defN 80-Feb-01 00:00 org/apache/shiro/lang/util/UnknownClassException.class
+│  -rw----     2.0 fat      132 bl defN 80-Feb-01 00:00 org/apache/shiro/lang/util/package-info.class
+│ -57 files, 94917 bytes uncompressed, 43647 bytes compressed:  54.0%
+│ +57 files, 94971 bytes uncompressed, 43658 bytes compressed:  54.0%
+├── META-INF/MANIFEST.MF
+│ @@ -22,18 +22,19 @@
+│  Implementation-Version: 2.0.3
+│  Import-Package: javax.servlet.jsp;resolution:=optional,java.beans,java
+│   .io,java.lang,java.lang.annotation,java.lang.invoke,java.lang.ref,jav
+│   a.lang.reflect,java.net,java.text,java.util,java.util.concurrent,java
+│   .util.concurrent.locks,org.apache.shiro.lang;version="[2.0,3)",org.ap
+│   ache.shiro.lang.codec;version="[2.0,3)",org.apache.shiro.lang.util;ve
+│   rsion="[2.0,3)",org.slf4j;version="[2.0,3)"
+│ -Include-Resource: META-INF/DEPENDENCIES=target/maven-shared-archive-re
+│ - sources/META-INF/DEPENDENCIES,META-INF/LICENSE=target/maven-shared-ar
+│ - chive-resources/META-INF/LICENSE,META-INF/NOTICE=target/maven-shared-
+│ - archive-resources/META-INF/NOTICE
+│ +Include-Resource: META-INF/NOTICE=src/main/resources/META-INF/NOTICE,M
+│ + ETA-INF/DEPENDENCIES=target/maven-shared-archive-resources/META-INF/D
+│ + EPENDENCIES,META-INF/LICENSE=target/maven-shared-archive-resources/ME
+│ + TA-INF/LICENSE,META-INF/NOTICE=target/maven-shared-archive-resources/
+│ + META-INF/NOTICE
+│  Private-Package: org.apache.shiro.lang,org.apache.shiro.lang.codec,org
+│   .apache.shiro.lang.io,org.apache.shiro.lang.util
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+│  Specification-Title: Apache Shiro :: Lang
+│  Specification-Vendor: The Apache Software Foundation
+│  Specification-Version: 2.0
+│  Tool: Bnd-6.3.1.202206071316
+
+# what difference in build environment can do that?
+3 / 88 target/reference/org.apache.shiro/shiro-lang-2.0.3-sources.jar lang/target/shiro-lang-2.0.3-sources.jar
+--- target/reference/org.apache.shiro/shiro-lang-2.0.3-sources.jar
++++ lang/target/shiro-lang-2.0.3-sources.jar
+├── zipinfo {}
+│ @@ -7,17 +7,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Apr-05 21:06 org/apache/shiro/lang/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Apr-05 21:06 org/apache/shiro/lang/codec/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Apr-05 21:06 org/apache/shiro/lang/io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Apr-05 21:06 org/apache/shiro/lang/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Apr-05 21:06 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Apr-05 21:06 META-INF/maven/org.apache.shiro/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Apr-05 21:06 META-INF/maven/org.apache.shiro/shiro-lang/
+│ --rw-r--r--  2.0 unx      438 b- defN 25-Apr-05 21:06 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx    11358 b- defN 25-Apr-05 21:06 META-INF/LICENSE
+│ --rw-r--r--  2.0 unx      640 b- defN 25-Apr-05 21:06 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     2068 b- defN 25-Apr-05 21:06 org/apache/shiro/lang/ShiroException.java
+│  -rw-r--r--  2.0 unx     4284 b- defN 25-Apr-05 21:06 org/apache/shiro/lang/codec/Base64.java
+│  -rw-r--r--  2.0 unx     1850 b- defN 25-Apr-05 21:06 org/apache/shiro/lang/codec/CodecException.java
+│  -rw-r--r--  2.0 unx    14142 b- defN 25-Apr-05 21:06 org/apache/shiro/lang/codec/CodecSupport.java
+│  -rw-r--r--  2.0 unx     5568 b- defN 25-Apr-05 21:06 org/apache/shiro/lang/codec/H64.java
+│  -rw-r--r--  2.0 unx     6260 b- defN 25-Apr-05 21:06 org/apache/shiro/lang/codec/Hex.java
+│  -rw-r--r--  2.0 unx      996 b- defN 25-Apr-05 21:06 org/apache/shiro/lang/codec/package-info.java
+│ @@ -42,10 +39,13 @@
+│  -rw-r--r--  2.0 unx     3270 b- defN 25-Apr-05 21:06 org/apache/shiro/lang/util/LifecycleUtils.java
+│  -rw-r--r--  2.0 unx     1257 b- defN 25-Apr-05 21:06 org/apache/shiro/lang/util/Nameable.java
+│  -rw-r--r--  2.0 unx     6248 b- defN 25-Apr-05 21:06 org/apache/shiro/lang/util/SimpleByteSource.java
+│  -rw-r--r--  2.0 unx    11989 b- defN 25-Apr-05 21:06 org/apache/shiro/lang/util/SoftHashMap.java
+│  -rw-r--r--  2.0 unx    21700 b- defN 25-Apr-05 21:06 org/apache/shiro/lang/util/StringUtils.java
+│  -rw-r--r--  2.0 unx     2018 b- defN 25-Apr-05 21:06 org/apache/shiro/lang/util/UnknownClassException.java
+│  -rw-r--r--  2.0 unx      888 b- defN 25-Apr-05 21:06 org/apache/shiro/lang/util/package-info.java
+│ +-rw-r--r--  2.0 unx      640 b- defN 25-Apr-05 21:06 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx      438 b- defN 25-Apr-05 21:06 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    11358 b- defN 25-Apr-05 21:06 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx     3543 b- defN 25-Apr-05 21:06 META-INF/maven/org.apache.shiro/shiro-lang/pom.xml
+│  -rw-r--r--  2.0 unx       61 b- defN 25-Apr-05 21:06 META-INF/maven/org.apache.shiro/shiro-lang/pom.properties
+│  49 files, 169378 bytes uncompressed, 52476 bytes compressed:  69.0%
+
+# same issues on each Maven sub-project

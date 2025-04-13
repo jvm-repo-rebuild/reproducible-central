@@ -1,0 +1,19 @@
+groupId=org.apache.shiro
+artifactId=shiro-root
+display=${groupId}:${artifactId}
+version=2.0.3
+
+gitRepo=https://github.com/apache/shiro.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-4.0.0-rc-3
+jdk=23
+newline=lf
+umask=022
+
+command="mvn -Papache-release,skip_jakarta_ee_tests clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dmaven.test.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
