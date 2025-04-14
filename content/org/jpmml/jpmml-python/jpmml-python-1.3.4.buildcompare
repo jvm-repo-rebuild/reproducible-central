@@ -1,0 +1,13 @@
+version=1.3.4
+ok=3
+ko=4
+ignored=0
+okFiles="jpmml-python-1.3.4.pom pmml-python-1.3.4.pom pmml-python-testing-1.3.4.pom"
+koFiles="pmml-python-1.3.4.jar pmml-python-1.3.4-sources.jar pmml-python-testing-1.3.4.jar pmml-python-testing-1.3.4-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/pmml-python-1.3.4.jar pmml-python/target/pmml-python-1.3.4.jar
+# diffoscope target/reference/org.jpmml/pmml-python-1.3.4-sources.jar pmml-python/target/pmml-python-1.3.4-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-python-testing-1.3.4.jar pmml-python-testing/target/pmml-python-testing-1.3.4.jar
+# diffoscope target/reference/org.jpmml/pmml-python-testing-1.3.4-sources.jar pmml-python-testing/target/pmml-python-testing-1.3.4-sources.jar
