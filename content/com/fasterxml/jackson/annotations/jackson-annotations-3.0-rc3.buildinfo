@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson-annotations
+group-id=com.fasterxml.jackson.core
+artifact-id=jackson-annotations
+version=3.0-rc3
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-annotations.git
+source.scm.tag=jackson-annotations-3.0-rc3
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.14
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=com.fasterxml.jackson.core
+outputs.0.filename=jackson-annotations-3.0-rc3.pom
+outputs.0.length=7588
+outputs.0.checksums.sha512=f2fa89944e2ed96bf3926e07d1759b9da9e180777467721492229472290b9cb2ec662d0872c8e5a56407eb4051ec4f23b971d56b5516329306fe9dcd46dfbc8d
+
+outputs.1.groupId=com.fasterxml.jackson.core
+outputs.1.filename=jackson-annotations-3.0-rc3.jar
+outputs.1.length=80160
+outputs.1.checksums.sha512=87bda1aa24a274f61d816c9d497b247627a404d8fb127184d8f472652192a3a8b9b78e0ade37c9728a1cb939908e57a4e48423c024abfa118f740c88add04445
+
+outputs.2.groupId=com.fasterxml.jackson.core
+outputs.2.filename=jackson-annotations-3.0-rc3-sources.jar
+outputs.2.length=84674
+outputs.2.checksums.sha512=064fc5fe7021682945a631171e90065b0420ae80b2517e8da7ab513a88e99830dd3e3e4b2b4e431c144311e8de68a4bc53c9d6897e3c7bd2a28b32e3b6f0c171
+
+outputs.3.groupId=com.fasterxml.jackson.core
+outputs.3.filename=jackson-annotations-3.0-rc3.module
+outputs.3.length=2522
+outputs.3.checksums.sha512=9ba5c7624bb634dc10da684d23a316f23bfa02d2cb0431c33450ce8181945c2781983e51573b202b535608241880698f3cbd26fffb64f1a5f04ee88b4723276b
