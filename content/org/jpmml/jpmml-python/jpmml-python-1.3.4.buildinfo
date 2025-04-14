@@ -1,0 +1,66 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-Python
+group-id=org.jpmml
+artifact-id=jpmml-python
+version=1.3.4
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-python.git
+source.scm.tag=1.3.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.26
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+mvn.aggregate.artifact-id=pmml-python-testing
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-python
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-python-1.3.4.pom
+outputs.0.0.length=3236
+outputs.0.0.checksums.sha512=215c66c82075244599f06633dcac51a4200e8d553ced2f65147c26c72634db26b2d9f6e81f2a9eaa576cc8fe9a4717b751476e67f2cec6d4ace5760b0c8a99f1
+
+outputs.1.coordinates=org.jpmml:pmml-python
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-python-1.3.4.pom
+outputs.1.0.length=5170
+outputs.1.0.checksums.sha512=0b1e508b51cbdeb1615c8a3ed8e0e0247546d4eddabe4f2ed2ccc8a07073de13cbecb25f4ae6a8a2c7655df2d823abb9f6213a2ea45d4e4297257e4155b74cb4
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-python-1.3.4.jar
+outputs.1.1.length=235212
+outputs.1.1.checksums.sha512=6b1dffa7d669bc71f7a0874593d505168d3b75b9a426a280c84fac8ae1824b7c2588ddc47790bb13196dfe4ebf90903f303eca2fd25bbe73e93c538c3821ba8d
+
+outputs.1.2.groupId=org.jpmml
+outputs.1.2.filename=pmml-python-1.3.4-sources.jar
+outputs.1.2.length=161779
+outputs.1.2.checksums.sha512=bf6198708d15ca987ac8ac6f07dc5afe29b012c4e2a19ac277692c0d5a7bbbcfd2e703778c5cd8488c9e3fd1c17b229619b6fb47fbae84be904924b0268bd5bb
+
+outputs.2.coordinates=org.jpmml:pmml-python-testing
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-python-testing-1.3.4.pom
+outputs.2.0.length=1248
+outputs.2.0.checksums.sha512=23b99d27ae91054f27ec50f43ed5a5808a6f4bf0d53637b57883a7196a56d1d84c071e6c250c853f38eff898cb715b710dd7f9cb27a84af5ff946c3c0d64273c
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-python-testing-1.3.4.jar
+outputs.2.1.length=4033
+outputs.2.1.checksums.sha512=199f49196faf80cbbce1e83cfec9acd1b95cdd3ef09c4db500f746aa9c17cb9ba7883e9fade5cf56d4d78a95f35e502698b43c87a694f251e4914f0223fa487a
+
+outputs.2.2.groupId=org.jpmml
+outputs.2.2.filename=pmml-python-testing-1.3.4-sources.jar
+outputs.2.2.length=3829
+outputs.2.2.checksums.sha512=5538ebf2e775598f8a2d94589340284b9f9aeb69e57efa1f29c9316b802f3e0006b4cbdcdc25ba384a731aec3f19dd535083227a0751bb101dcafc31f912563e
