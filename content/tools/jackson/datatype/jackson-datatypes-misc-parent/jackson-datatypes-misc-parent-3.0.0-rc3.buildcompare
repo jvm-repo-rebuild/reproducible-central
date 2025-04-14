@@ -1,0 +1,9 @@
+version=3.0.0-rc3
+ok=29
+ko=0
+ignored=0
+okFiles="jackson-datatypes-misc-parent-3.0.0-rc3.pom jackson-datatype-jsr353-3.0.0-rc3.pom jackson-datatype-jsr353-3.0.0-rc3.jar jackson-datatype-jsr353-3.0.0-rc3-sources.jar jackson-datatype-jsr353-3.0.0-rc3.module jackson-datatype-joda-money-3.0.0-rc3.pom jackson-datatype-joda-money-3.0.0-rc3.jar jackson-datatype-joda-money-3.0.0-rc3-sources.jar jackson-datatype-joda-money-3.0.0-rc3.module jackson-datatype-json-org-3.0.0-rc3.pom jackson-datatype-json-org-3.0.0-rc3.jar jackson-datatype-json-org-3.0.0-rc3-sources.jar jackson-datatype-json-org-3.0.0-rc3.module jackson-datatype-jakarta-jsonp-3.0.0-rc3.pom jackson-datatype-jakarta-jsonp-3.0.0-rc3.jar jackson-datatype-jakarta-jsonp-3.0.0-rc3-sources.jar jackson-datatype-jakarta-jsonp-3.0.0-rc3.module jackson-datatype-jakarta-mail-3.0.0-rc3.pom jackson-datatype-jakarta-mail-3.0.0-rc3.jar jackson-datatype-jakarta-mail-3.0.0-rc3-sources.jar jackson-datatype-jakarta-mail-3.0.0-rc3.module jackson-datatype-javax-money-3.0.0-rc3.pom jackson-datatype-javax-money-3.0.0-rc3.jar jackson-datatype-javax-money-3.0.0-rc3-sources.jar jackson-datatype-javax-money-3.0.0-rc3.module jackson-datatype-moneta-3.0.0-rc3.pom jackson-datatype-moneta-3.0.0-rc3.jar jackson-datatype-moneta-3.0.0-rc3-sources.jar jackson-datatype-moneta-3.0.0-rc3.module"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
