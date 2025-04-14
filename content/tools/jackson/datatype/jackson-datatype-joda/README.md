@@ -13,6 +13,7 @@ rebuilding **2 releases** of tools.jackson.datatype:jackson-datatype-joda:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.0-rc3](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-joda/3.0.0-rc3/pom) | | | |
 | [3.0.0-rc2](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-joda/3.0.0-rc2/pom) | [mvn jdk17](jackson-datatype-joda-3.0.0-rc2.buildspec) | [result](jackson-datatype-joda-3.0.0-rc2.buildinfo): [4 :white_check_mark: ](jackson-datatype-joda-3.0.0-rc2.buildcompare) | 120K |
 | [3.0.0-rc1](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-joda/3.0.0-rc1/pom) | [mvn jdk17](jackson-datatype-joda-3.0.0-rc1.buildspec) | [result](jackson-datatype-joda-3.0.0-rc1.buildinfo): [4 :white_check_mark: ](jackson-datatype-joda-3.0.0-rc1.buildcompare) | 120K |
 
