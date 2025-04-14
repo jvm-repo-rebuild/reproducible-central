@@ -1,0 +1,9 @@
+version=3.2.0
+ok=19
+ko=0
+ignored=0
+okFiles="mariaDB4j-pom-3.2.0.pom mariaDB4j-core-3.2.0.pom mariaDB4j-core-3.2.0.jar mariaDB4j-core-3.2.0-sources.jar mariaDB4j-junit-3.2.0.pom mariaDB4j-junit-3.2.0.jar mariaDB4j-junit-3.2.0-sources.jar mariaDB4j-3.2.0.pom mariaDB4j-3.2.0.jar mariaDB4j-3.2.0-sources.jar mariaDB4j-springboot-3.2.0.pom mariaDB4j-springboot-3.2.0.jar mariaDB4j-springboot-3.2.0-sources.jar mariaDB4j-app-3.2.0.pom mariaDB4j-app-3.2.0.jar mariaDB4j-app-3.2.0-sources.jar mariaDB4j-maven-plugin-3.2.0.pom mariaDB4j-maven-plugin-3.2.0.jar mariaDB4j-maven-plugin-3.2.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
