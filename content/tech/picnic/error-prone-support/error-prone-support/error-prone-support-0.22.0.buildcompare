@@ -1,0 +1,9 @@
+version=0.22.0
+ok=28
+ko=0
+ignored=0
+okFiles="error-prone-support-0.22.0.pom error-prone-utils-0.22.0.pom error-prone-utils-0.22.0.jar error-prone-utils-0.22.0-tests.jar refaster-support-0.22.0.pom refaster-support-0.22.0.jar refaster-support-0.22.0-tests.jar refaster-compiler-0.22.0.pom refaster-compiler-0.22.0.jar refaster-runner-0.22.0.pom refaster-runner-0.22.0.jar refaster-runner-0.22.0-tests.jar refaster-test-support-0.22.0.pom refaster-test-support-0.22.0.jar refaster-test-support-0.22.0-tests.jar documentation-support-0.22.0.pom documentation-support-0.22.0.jar documentation-support-0.22.0-tests.jar error-prone-contrib-0.22.0.pom error-prone-contrib-0.22.0.jar error-prone-contrib-0.22.0-recipes.jar error-prone-contrib-0.22.0-tests.jar error-prone-experimental-0.22.0.pom error-prone-experimental-0.22.0.jar error-prone-experimental-0.22.0-tests.jar error-prone-guidelines-0.22.0.pom error-prone-guidelines-0.22.0.jar error-prone-guidelines-0.22.0-tests.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
