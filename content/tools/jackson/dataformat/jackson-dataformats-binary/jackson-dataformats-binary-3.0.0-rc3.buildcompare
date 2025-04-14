@@ -1,0 +1,9 @@
+version=3.0.0-rc3
+ok=21
+ko=0
+ignored=0
+okFiles="jackson-dataformats-binary-3.0.0-rc3.pom jackson-dataformat-cbor-3.0.0-rc3.pom jackson-dataformat-cbor-3.0.0-rc3.jar jackson-dataformat-cbor-3.0.0-rc3-sources.jar jackson-dataformat-cbor-3.0.0-rc3.module jackson-dataformat-smile-3.0.0-rc3.pom jackson-dataformat-smile-3.0.0-rc3.jar jackson-dataformat-smile-3.0.0-rc3-sources.jar jackson-dataformat-smile-3.0.0-rc3.module jackson-dataformat-avro-3.0.0-rc3.pom jackson-dataformat-avro-3.0.0-rc3.jar jackson-dataformat-avro-3.0.0-rc3-sources.jar jackson-dataformat-avro-3.0.0-rc3.module jackson-dataformat-protobuf-3.0.0-rc3.pom jackson-dataformat-protobuf-3.0.0-rc3.jar jackson-dataformat-protobuf-3.0.0-rc3-sources.jar jackson-dataformat-protobuf-3.0.0-rc3.module jackson-dataformat-ion-3.0.0-rc3.pom jackson-dataformat-ion-3.0.0-rc3.jar jackson-dataformat-ion-3.0.0-rc3-sources.jar jackson-dataformat-ion-3.0.0-rc3.module"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
