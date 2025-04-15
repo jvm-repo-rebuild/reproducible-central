@@ -6,7 +6,7 @@ version=1.8.0
 gitRepo=https://github.com/apache/plc4x-build-tools.git
 gitTag=releases/code-generation/${version}
 
-tool=mvn-3.9.4
+tool=mvn-3.9.9
 jdk=24
 newline=lf
 umask=022

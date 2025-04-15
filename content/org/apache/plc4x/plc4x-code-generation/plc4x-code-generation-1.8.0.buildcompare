@@ -1,0 +1,9 @@
+version=1.8.0
+ok=14
+ko=0
+ignored=0
+okFiles="plc4x-code-generation-1.8.0.pom plc4x-code-generation-1.8.0-source-release.zip plc4x-code-generation-types-base-1.8.0.pom plc4x-code-generation-types-base-1.8.0.jar plc4x-code-generation-types-base-1.8.0-sources.jar plc4x-code-generation-language-base-1.8.0.pom plc4x-code-generation-language-base-1.8.0.jar plc4x-code-generation-language-base-1.8.0-sources.jar plc4x-code-generation-protocol-base-1.8.0.pom plc4x-code-generation-protocol-base-1.8.0.jar plc4x-code-generation-protocol-base-1.8.0-sources.jar plc4x-maven-plugin-1.8.0.pom plc4x-maven-plugin-1.8.0.jar plc4x-maven-plugin-1.8.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="24 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
