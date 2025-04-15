@@ -14,7 +14,6 @@ umask=007
 
 command="mvn clean verify -Psonatype-oss-release -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-parent-${version}.buildinfo
-execBefore="sed -i -e 's/2025-04-07T21:56:46Z/2025-04-08T12:35:08Z/' pom.xml"
 
 #diffoscope=${artifactId}-parent-${version}.diffoscope
 issue=
