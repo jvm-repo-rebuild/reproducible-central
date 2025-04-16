@@ -20,6 +20,7 @@ rebuilding **2 releases** of org.hibernate.models:hibernate-models:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.0.CR1](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/1.0.0.CR1/pom) | | | |
 | [0.9.5](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/0.9.5/pom) | [gradle jdk17](hibernate-models-0.9.5.buildspec) | [result](hibernate-models-0.9.5.buildinfo): [6 :white_check_mark:  3 :warning:](hibernate-models-0.9.5.buildcompare) | 557K |
 | [0.9.4](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/0.9.4/pom) | | | |
 | [0.9.3](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/0.9.3/pom) | [gradle jdk17](hibernate-models-0.9.3.buildspec) | [result](hibernate-models-0.9.3.buildinfo): [6 :white_check_mark: ](hibernate-models-0.9.3.buildcompare) | 444K |

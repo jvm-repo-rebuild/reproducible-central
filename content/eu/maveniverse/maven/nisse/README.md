@@ -29,6 +29,7 @@ rebuilding **11 releases** of eu.maveniverse.maven.nisse:nisse:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.4.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.4.2/pom) | | | |
 | [0.4.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.4.1/pom) | [mvn jdk21](nisse-0.4.1.buildspec) | [result](nisse-0.4.1.buildinfo): [29 :white_check_mark: ](nisse-0.4.1.buildcompare) | 156K |
 | [0.4.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.4.0/pom) | [mvn jdk21](nisse-0.4.0.buildspec) | [result](nisse-0.4.0.buildinfo): [29 :white_check_mark: ](nisse-0.4.0.buildcompare) | 156K |
 | [0.3.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.3.4/pom) | [mvn jdk21](nisse-0.3.4.buildspec) | [result](nisse-0.3.4.buildinfo): [26 :white_check_mark: ](nisse-0.3.4.buildcompare) | 142K |
