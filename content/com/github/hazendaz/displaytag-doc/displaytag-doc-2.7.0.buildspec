@@ -1,0 +1,18 @@
+groupId=com.github.hazendaz
+artifactId=displaytag-doc
+display=${groupId}:${artifactId}
+version=2.7.0
+
+gitRepo=https://github.com/hazendaz/displaytag.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.9
+jdk=21
+newline=crlf
+umask=022
+
+command="SHELL chmod a-x displaytag/src/test/resources/jsps/*.jsp displaytag-examples/src/main/webapp/*.jsp && mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dlicense.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
