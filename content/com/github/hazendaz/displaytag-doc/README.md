@@ -20,6 +20,7 @@ rebuilding **14 releases** of com.github.hazendaz:displaytag-doc:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.7.0](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/2.7.0/pom) | | | |
 | [3.2.0](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.2.0/pom) | [mvn jdk21 w](displaytag-doc-3.2.0.buildspec) | [result](displaytag-doc-3.2.0.buildinfo): [15 :white_check_mark: ](displaytag-doc-3.2.0.buildcompare) | 18M |
 | [3.1.0](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.1.0/pom) | [mvn jdk21 w](displaytag-doc-3.1.0.buildspec) | [result](displaytag-doc-3.1.0.buildinfo): [15 :white_check_mark: ](displaytag-doc-3.1.0.buildcompare) | 18M |
 | [3.0.3](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.0.3/pom) | [mvn jdk22 w](displaytag-doc-3.0.3.buildspec) | [result](displaytag-doc-3.0.3.buildinfo): [15 :white_check_mark: ](displaytag-doc-3.0.3.buildcompare) | 17M |
