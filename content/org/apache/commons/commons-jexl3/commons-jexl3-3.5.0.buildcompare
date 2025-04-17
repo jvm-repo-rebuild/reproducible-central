@@ -1,0 +1,11 @@
+version=3.5.0
+ok=5
+ko=2
+ignored=1
+okFiles="commons-jexl3-3.5.0.pom commons-jexl3-3.5.0.jar commons-jexl3-3.5.0-tests.jar commons-jexl3-3.5.0-sources.jar commons-jexl3-3.5.0-test-sources.jar"
+koFiles="commons-jexl3-3.5.0-cyclonedx.xml commons-jexl3-3.5.0-cyclonedx.json"
+ignoredFiles="commons-jexl3-3.5.0.spdx.json"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.commons/commons-jexl3-3.5.0-cyclonedx.xml target/commons-jexl3-3.5.0-bom.xml
+# diffoscope target/reference/org.apache.commons/commons-jexl3-3.5.0-cyclonedx.json target/commons-jexl3-3.5.0-bom.json

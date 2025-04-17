@@ -1,0 +1,102 @@
+1 / 2 target/reference/org.apache.commons/commons-jexl3-3.5.0-cyclonedx.xml target/commons-jexl3-3.5.0-bom.xml
+--- target/reference/org.apache.commons/commons-jexl3-3.5.0-cyclonedx.xml
++++ target/commons-jexl3-3.5.0-bom.xml
+│   --- target/reference/org.apache.commons/commons-jexl3-3.5.0-cyclonedx.xml
+├── +++ target/commons-jexl3-3.5.0-bom.xml
+│ @@ -74,22 +74,22 @@
+│        <group>commons-logging</group>
+│        <name>commons-logging</name>
+│        <version>1.3.5</version>
+│        <description>Apache Commons Logging is a thin adapter allowing configurable bridging to other,
+│      well-known logging systems.</description>
+│        <scope>required</scope>
+│        <hashes>
+│ -        <hash alg="MD5">1adb70dfe93f7fa729aaa860c34e6c8f</hash>
+│ -        <hash alg="SHA-1">1c58a717f104600600acdf18323fee967ba57dc2</hash>
+│ -        <hash alg="SHA-256">4d980dca8a8d7ef2964f63f2d72c358fd6a66aee536f6939b5cfa26f3470c0a5</hash>
+│ -        <hash alg="SHA-512">b67d1ce3fd4fe635eea6814ae6c6dc85d6f1a9d3f30aeca8ab4822535ff48119a15ab3e493e23679686b803bfcbec85a0b1939f4d87c855969ab449ab7ddc550</hash>
+│ -        <hash alg="SHA-384">034923850acf7e0f36e6a16d2927b4148f6ab979a5c506daa0ccfabb90bf8664e897decc4f537bc25eb5fb947da34faf</hash>
+│ -        <hash alg="SHA3-384">9e8bc8a71b21faae8d6ab89f97277300e2019eb179b9e813eff945b7468959e2c351ba949ee915cac7edd99dcd185732</hash>
+│ -        <hash alg="SHA3-256">c67da04dce8b0532d949e0798df41acc1b168045c5c0e1a5a02cde1a4605a7df</hash>
+│ -        <hash alg="SHA3-512">37050364c6127e7cea9df469d95f946d6f211387d5710928370f6b2b0977963f13a408a43147fc15b0117f7df7fcb215509d80d9ef32f0991b9ede2f7f362a19</hash>
+│ +        <hash alg="MD5">9ca067b073153c86c2da350c0f2cdf70</hash>
+│ +        <hash alg="SHA-1">a3fcc5d3c29b2b03433aa2d2f2d2c1b1638924a1</hash>
+│ +        <hash alg="SHA-256">6d7a744e4027649fbb50895df9497d109f98c766a637062fe8d2eabbb3140ba4</hash>
+│ +        <hash alg="SHA-512">b6d66333cec2746cc410ca3b27099c4647618a1855783bac064c75eec95c643dab184010e5c875aca3c7fa827aed144488a1820604a043bbff93116de509f915</hash>
+│ +        <hash alg="SHA-384">bbfc26f81852dfe8df41b9cd1da6e755b223c51e824898490f96e2aaefb42e5484408f8a245b244bfe4e08170295ee72</hash>
+│ +        <hash alg="SHA3-384">5e17863103757beb582b316f90a02f57f0ea7702b2146d6b318ab0f1105a3e0190dd1dc7b031550a68c047cadd23c114</hash>
+│ +        <hash alg="SHA3-256">c01a09df81fae75d398ef61b168c8f7d70291b480961d392c59bdd1498c254cb</hash>
+│ +        <hash alg="SHA3-512">1ce4f4219542c8f1f0b52f9d2d916d8b11136f7a800bbb24ca93a28a800121e7c48af410076213d05dd715b37b110aa59a7a9609415e0cc5daed89bb13fc4668</hash>
+│        </hashes>
+│        <licenses>
+│          <license>
+│            <id>Apache-2.0</id>
+│            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+│          </license>
+│        </licenses>
+
+2 / 2 target/reference/org.apache.commons/commons-jexl3-3.5.0-cyclonedx.json target/commons-jexl3-3.5.0-bom.json
+--- target/reference/org.apache.commons/commons-jexl3-3.5.0-cyclonedx.json
++++ target/commons-jexl3-3.5.0-bom.json
+├── Pretty-printed
+│┄ Similarity: 0.9992559523809524%
+│┄ Differences: {"'components'": "{0: {'hashes': {0: {'content': '9ca067b073153c86c2da350c0f2cdf70'}, 1: "
+│┄                  "{'content': 'a3fcc5d3c29b2b03433aa2d2f2d2c1b1638924a1'}, 2: {'content': "
+│┄                  "'6d7a744e4027649fbb50895df9497d109f98c766a637062fe8d2eabbb3140ba4'}, 3: "
+│┄                  "{'content': "
+│┄                  "'b6d66333cec2746cc410ca3b27099c4647618a1855783bac064c75eec95c643dab184010e5c875aca3c7fa827aed144488a1820604a043bbff93116de509f915'}, "
+│┄                  "4: {'content': "
+│┄                   […]
+│ @@ -30,43 +30,43 @@
+│                      "url": "https://gitbox.apache.org/repos/asf/commons-logging"
+│                  }
+│              ],
+│              "group": "commons-logging",
+│              "hashes": [
+│                  {
+│                      "alg": "MD5",
+│ -                    "content": "1adb70dfe93f7fa729aaa860c34e6c8f"
+│ +                    "content": "9ca067b073153c86c2da350c0f2cdf70"
+│                  },
+│                  {
+│                      "alg": "SHA-1",
+│ -                    "content": "1c58a717f104600600acdf18323fee967ba57dc2"
+│ +                    "content": "a3fcc5d3c29b2b03433aa2d2f2d2c1b1638924a1"
+│                  },
+│                  {
+│                      "alg": "SHA-256",
+│ -                    "content": "4d980dca8a8d7ef2964f63f2d72c358fd6a66aee536f6939b5cfa26f3470c0a5"
+│ +                    "content": "6d7a744e4027649fbb50895df9497d109f98c766a637062fe8d2eabbb3140ba4"
+│                  },
+│                  {
+│                      "alg": "SHA-512",
+│ -                    "content": "b67d1ce3fd4fe635eea6814ae6c6dc85d6f1a9d3f30aeca8ab4822535ff48119a15ab3e493e23679686b803bfcbec85a0b1939f4d87c855969ab449ab7ddc550"
+│ +                    "content": "b6d66333cec2746cc410ca3b27099c4647618a1855783bac064c75eec95c643dab184010e5c875aca3c7fa827aed144488a1820604a043bbff93116de509f915"
+│                  },
+│                  {
+│                      "alg": "SHA-384",
+│ -                    "content": "034923850acf7e0f36e6a16d2927b4148f6ab979a5c506daa0ccfabb90bf8664e897decc4f537bc25eb5fb947da34faf"
+│ +                    "content": "bbfc26f81852dfe8df41b9cd1da6e755b223c51e824898490f96e2aaefb42e5484408f8a245b244bfe4e08170295ee72"
+│                  },
+│                  {
+│                      "alg": "SHA3-384",
+│ -                    "content": "9e8bc8a71b21faae8d6ab89f97277300e2019eb179b9e813eff945b7468959e2c351ba949ee915cac7edd99dcd185732"
+│ +                    "content": "5e17863103757beb582b316f90a02f57f0ea7702b2146d6b318ab0f1105a3e0190dd1dc7b031550a68c047cadd23c114"
+│                  },
+│                  {
+│                      "alg": "SHA3-256",
+│ -                    "content": "c67da04dce8b0532d949e0798df41acc1b168045c5c0e1a5a02cde1a4605a7df"
+│ +                    "content": "c01a09df81fae75d398ef61b168c8f7d70291b480961d392c59bdd1498c254cb"
+│                  },
+│                  {
+│                      "alg": "SHA3-512",
+│ -                    "content": "37050364c6127e7cea9df469d95f946d6f211387d5710928370f6b2b0977963f13a408a43147fc15b0117f7df7fcb215509d80d9ef32f0991b9ede2f7f362a19"
+│ +                    "content": "1ce4f4219542c8f1f0b52f9d2d916d8b11136f7a800bbb24ca93a28a800121e7c48af410076213d05dd715b37b110aa59a7a9609415e0cc5daed89bb13fc4668"
+│                  }
+│              ],
+│              "licenses": [
+│                  {
+│                      "license": {
+│                          "id": "Apache-2.0",
+│                          "url": "https://www.apache.org/licenses/LICENSE-2.0"
+
