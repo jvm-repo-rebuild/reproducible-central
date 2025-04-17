@@ -21,13 +21,13 @@ Source code: [https://github.com/avaje/avaje-jsonb.git](https://github.com/avaje
 * [io.avaje:avaje-jsonb-spring-starter](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-spring-starter/overview)
 </details>
 
-rebuilding **17 releases** of io.avaje:avaje-jsonb-parent:
-- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **18 releases** of io.avaje:avaje-jsonb-parent:
+- **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.3](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.3/pom) | | | |
+| [3.3](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.3/pom) | [mvn jdk21](avaje-jsonb-3.3.buildspec) | [result](avaje-jsonb-parent-3.3.buildinfo): [23 :white_check_mark: ](avaje-jsonb-parent-3.3.buildcompare) | 760K |
 | [3.3-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.3-RC1/pom) | [mvn jdk21](avaje-jsonb-3.3-RC1.buildspec) | [result](avaje-jsonb-parent-3.3-RC1.buildinfo): [23 :white_check_mark: ](avaje-jsonb-parent-3.3-RC1.buildcompare) | 760K |
 | [3.2](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.2/pom) | [mvn jdk21](avaje-jsonb-3.2.buildspec) | [result](avaje-jsonb-parent-3.2.buildinfo): [23 :white_check_mark: ](avaje-jsonb-parent-3.2.buildcompare) | 760K |
 | [3.2-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.2-RC2/pom) | [mvn jdk21](avaje-jsonb-3.2-RC2.buildspec) | [result](avaje-jsonb-parent-3.2-RC2.buildinfo): [23 :white_check_mark: ](avaje-jsonb-parent-3.2-RC2.buildcompare) | 765K |
