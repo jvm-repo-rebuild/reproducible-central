@@ -1,0 +1,18 @@
+groupId=eu.maveniverse.maven.nisse
+artifactId=nisse
+display=eu.maveniverse.maven.*:${artifactId}
+version=0.4.2
+
+gitRepo=https://github.com/maveniverse/${artifactId}.git
+gitTag=release-${version}
+
+tool=mvn-3.9.8
+jdk=21
+newline=lf
+umask=022
+
+command="mvn -Pmaveniverse-release clean package -DskipTests -Dgpg.skip -Denforcer.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
