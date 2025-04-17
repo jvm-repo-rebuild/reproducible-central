@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/commons-jexl.git](https://github.com/apache/commons-jexl.git)
 
-rebuilding **1 releases** of org.apache.commons:commons-jexl3:
+rebuilding **2 releases** of org.apache.commons:commons-jexl3:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.5.0](https://central.sonatype.com/artifact/org.apache.commons/commons-jexl3/3.5.0/pom) | | | |
+| [3.5.0](https://central.sonatype.com/artifact/org.apache.commons/commons-jexl3/3.5.0/pom) | [mvn jdk21](commons-jexl3-3.5.0.buildspec) | [result](commons-jexl3-3.5.0.buildinfo): [5 :white_check_mark:  2 :warning:](commons-jexl3-3.5.0.buildcompare) | 1.8M |
 | [3.4.0](https://central.sonatype.com/artifact/org.apache.commons/commons-jexl3/3.4.0/pom) | [mvn jdk17](commons-jexl3-3.4.0.buildspec) | [result](commons-jexl3-3.4.0.buildinfo): [7 :white_check_mark: ](commons-jexl3-3.4.0.buildcompare) | 1.8M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
