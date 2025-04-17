@@ -1,0 +1,9 @@
+version=2.7.0
+ok=15
+ko=0
+ignored=0
+okFiles="displaytag-doc-2.7.0.pom displaytag-doc-2.7.0-cyclonedx.xml displaytag-doc-2.7.0-cyclonedx.json displaytag-2.7.0.pom displaytag-2.7.0.jar displaytag-2.7.0-tests.jar displaytag-2.7.0-sources.jar displaytag-2.7.0-test-sources.jar displaytag-2.7.0-cyclonedx.xml displaytag-2.7.0-cyclonedx.json displaytag-examples-2.7.0.pom displaytag-examples-2.7.0.war displaytag-examples-2.7.0-sources.jar displaytag-examples-2.7.0-cyclonedx.xml displaytag-examples-2.7.0-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
