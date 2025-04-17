@@ -1,8 +1,4 @@
-content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.1.0.buildspec:2.7.0
-content/eu/maveniverse/maven/nisse/nisse-0.4.1.buildspec:0.4.2
-content/io/avaje/inject/avaje-inject-11.5-RC2.buildspec:11.5-RC3
-content/io/avaje/jex/avaje-jex-3.1.buildspec:3.2-RC1
-content/io/avaje/jsonb/avaje-jsonb-3.3-RC1.buildspec:3.3
-content/land/oras/oras-java-sdk/oras-java-sdk-0.2.2.buildspec:0.2.4
-content/org/apache/commons/commons-jexl3/commons-jexl3-3.4.0.buildspec:3.5.0
-content/org/webjars/flexmonster/flexmonster-2.9.100.buildspec:2.9.101
+content/io/airlift/airbase/airbase-251.buildspec:252
+content/land/oras/oras-java-sdk/oras-java-sdk-0.2.2.buildspec:0.2.5
+content/org/apache/paimon/paimon-parent-1.0.1.buildspec:1.1.0
+content/org/apache/maven/shared/file-management/file-management-3.1.0.buildspec:3.2.0
