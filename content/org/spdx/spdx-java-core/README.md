@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.spdx:spdx-java-core:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.0](https://central.sonatype.com/artifact/org.spdx/spdx-java-core/1.0.0/pom) | | | |
 | [1.0.0-RC2](https://central.sonatype.com/artifact/org.spdx/spdx-java-core/1.0.0-RC2/pom) | [mvn jdk23 w](spdx-java-core-1.0.0-RC2.buildspec) | [result](spdx-java-core-1.0.0-RC2.buildinfo): [3 :white_check_mark: ](spdx-java-core-1.0.0-RC2.buildcompare) | 145K |
 | [1.0.0-RC1](https://central.sonatype.com/artifact/org.spdx/spdx-java-core/1.0.0-RC1/pom) | [mvn jdk23 w](spdx-java-core-1.0.0-RC1.buildspec) | [result](spdx-java-core-1.0.0-RC1.buildinfo): [3 :white_check_mark: ](spdx-java-core-1.0.0-RC1.buildcompare) | 151K |
 | [0.1.0-Alpha](https://central.sonatype.com/artifact/org.spdx/spdx-java-core/0.1.0-Alpha/pom) | [mvn jdk17 w](spdx-java-core-0.1.0-Alpha.buildspec) | [result](spdx-java-core-0.1.0-Alpha.buildinfo): [3 :white_check_mark: ](spdx-java-core-0.1.0-Alpha.buildcompare) | 151K |

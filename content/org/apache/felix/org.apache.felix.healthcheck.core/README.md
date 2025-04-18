@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.apache.felix:org.apache.felix.healthcheck.core:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.3.0](https://central.sonatype.com/artifact/org.apache.felix/org.apache.felix.healthcheck.core/2.3.0/pom) | | | |
 | [2.2.0](https://central.sonatype.com/artifact/org.apache.felix/org.apache.felix.healthcheck.core/2.2.0/pom) | [mvn jdk11](org.apache.felix.healthcheck.core-2.2.0.buildspec) | [result](org.apache.felix.healthcheck.core-2.2.0.buildinfo): [4 :white_check_mark:  1 :warning:](org.apache.felix.healthcheck.core-2.2.0.buildcompare) [:memo:](https://github.com/apache/felix-dev/pull/234) | 564K |
 | [2.1.0](https://central.sonatype.com/artifact/org.apache.felix/org.apache.felix.healthcheck.core/2.1.0/pom) | [mvn jdk11](org.apache.felix.healthcheck.core-2.1.0.buildspec) | [result](org.apache.felix.healthcheck.core-2.1.0.buildinfo): [4 :white_check_mark:  1 :warning:](org.apache.felix.healthcheck.core-2.1.0.buildcompare) [:mag:](org.apache.felix.healthcheck.core-2.1.0.diffoscope) [:memo:](https://github.com/apache/felix-dev/pull/234) | 563K |
 
