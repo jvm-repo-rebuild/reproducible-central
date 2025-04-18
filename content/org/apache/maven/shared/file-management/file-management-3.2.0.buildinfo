@@ -1,0 +1,54 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven File Management API
+group-id=org.apache.maven.shared
+artifact-id=file-management
+version=3.2.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-file-management.git
+source.scm.tag=v3.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.6
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.shared
+outputs.0.filename=file-management-3.2.0.pom
+outputs.0.length=4488
+outputs.0.checksums.sha512=f608d3f58d461c7f39691de6c3be27bd2c1d9daa4604ca84622ff6b809c9dbdc67bb1a21754927ad3d4c4ce6e19a36e3603ed70b4337ce7ec0bbc0ca8b74715c
+
+outputs.1.groupId=org.apache.maven.shared
+outputs.1.filename=file-management-3.2.0.jar
+outputs.1.length=25912
+outputs.1.checksums.sha512=4d4e454a1259b9a8a2cc16da00b1559929a21429b46748f48d51ba7026cdcc68d974ba9d1b64ed277914ed0a13b4121e27a582856aceef81874876cdeb065c82
+
+outputs.2.groupId=org.apache.maven.shared
+outputs.2.filename=file-management-3.2.0-source-release.zip
+outputs.2.length=56913
+outputs.2.checksums.sha512=5d4b945bbf5a410016a3dc0c8e32a827d635ef3967602a9c7be275af3e741da1949aa0756a4baf9bb70f6470d74122b30793e8266b5412da0e3dc5f83d98b909
+
+outputs.3.groupId=org.apache.maven.shared
+outputs.3.filename=file-management-3.2.0-sources.jar
+outputs.3.length=30096
+outputs.3.checksums.sha512=b1f5f6c97dfa4cfb1ebadca988849a7b7b176ca39c8d6b7766cc39179f317298edbf39f328cb267fa5659bf6d7ac6704d527d5d503d117946038b70c56938a66
+
+outputs.4.groupId=org.apache.maven.shared
+outputs.4.filename=file-management-3.2.0-cyclonedx.xml
+outputs.4.length=10839
+outputs.4.checksums.sha512=eaef02ac90f8ae609a4c4a97414863d52ec62a6e83758010c888e7254f6732aca57d65c78fbc35cd63fc211f54cd72880319c730a57f4569027ab2d2b7da39bb
+
+outputs.5.groupId=org.apache.maven.shared
+outputs.5.filename=file-management-3.2.0-cyclonedx.json
+outputs.5.length=11979
+outputs.5.checksums.sha512=20b017b92e66606e8df86970d3f6b80065a891b1034a8d910238b758fae00cfd2a6317460dd435b903a105f19c97523d74a70bdc76ed6ce62739995a7396de08
