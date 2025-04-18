@@ -1,0 +1,16 @@
+groupId=org.apache.maven.shared
+artifactId=file-management
+display=${groupId}:${artifactId}
+version=3.2.0
+
+gitRepo=https://github.com/apache/maven-${artifactId}.git
+gitTag=v${version}
+
+tool=mvn
+jdk=21
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
