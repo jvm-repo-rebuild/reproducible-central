@@ -1,0 +1,9 @@
+version=1.16.0
+ok=6
+ko=0
+ignored=0
+okFiles="maven-dependency-analyzer-1.16.0.pom maven-dependency-analyzer-1.16.0.jar maven-dependency-analyzer-1.16.0-source-release.zip maven-dependency-analyzer-1.16.0-sources.jar maven-dependency-analyzer-1.16.0-cyclonedx.xml maven-dependency-analyzer-1.16.0-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
