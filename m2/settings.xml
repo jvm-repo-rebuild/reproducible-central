@@ -264,6 +264,11 @@
       <url>https://maven.google.com/</url>
     </mirror>
     <mirror>
+      <id>jindodata</id>
+      <mirrorOf>jindodata</mirrorOf>
+      <url>https://jindodata-binary.oss-cn-shanghai.aliyuncs.com/mvn-repo/</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>
