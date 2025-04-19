@@ -1,0 +1,45 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=GlassFishBuild Maven Plugin
+group-id=org.glassfish.build
+artifact-id=glassfishbuild-maven-plugin
+version=4.1.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/eclipse-ee4j/glassfish-build-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.26
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.9.0
+
+# output
+
+outputs.0.groupId=org.glassfish.build
+outputs.0.filename=glassfishbuild-maven-plugin-4.1.0.pom
+outputs.0.length=11546
+outputs.0.checksums.sha512=a837feac655a321294431dde6d804e56f1647daee823b802e719d7294883dfe756191680e0daef0ae74353b2ec49b1d1a0b868ca0e0cd8bdf222627dafc30d8f
+
+outputs.1.groupId=org.glassfish.build
+outputs.1.filename=glassfishbuild-maven-plugin-4.1.0.jar
+outputs.1.length=34603
+outputs.1.checksums.sha512=c088351193d62468fc52c0da904194098a391495a488b8cb27f62207536eda68cbdeea223af0849c61360db1307e0617e0d655379a8452f5696ed37efd2cb7ab
+
+outputs.2.groupId=org.glassfish.build
+outputs.2.filename=glassfishbuild-maven-plugin-4.1.0-cyclonedx.xml
+outputs.2.length=106175
+outputs.2.checksums.sha512=108e21b3119323b762f6ca35424314141b752ac75f0aebf9e2f7efd6ecb6fa22f273e40ec62bc6b37532cb7c04c8208e5300f4bc43e6961914318b37e29fa98a
+
+outputs.3.groupId=org.glassfish.build
+outputs.3.filename=glassfishbuild-maven-plugin-4.1.0-cyclonedx.json
+outputs.3.length=122998
+outputs.3.checksums.sha512=af6d1a2e5ecea5c81b6342c7984663a2c173e48c2ee767792ec836ec7a86583166751acc2cdeaff086ef8bdf6d421dfa2a6e8e9060170c204fb03a75e476fe95
