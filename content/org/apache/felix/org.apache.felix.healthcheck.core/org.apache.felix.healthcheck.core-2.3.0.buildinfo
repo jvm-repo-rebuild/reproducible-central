@@ -1,0 +1,49 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Felix Health Check Core
+group-id=org.apache.felix
+artifact-id=org.apache.felix.healthcheck.core
+version=2.3.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/felix-dev.git
+source.scm.tag=org.apache.felix.healthcheck.core-2.3.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.26
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.apache.felix
+outputs.0.filename=org.apache.felix.healthcheck.core-2.3.0.pom
+outputs.0.length=10900
+outputs.0.checksums.sha512=96f7c8675772957e116c207c89c84a7b5e293d9796eade8465a6f229639476fc58fbac37769bf1a111b33ec7d6342bfb570e0385d0bd56322c3a52d00bdaab6a
+
+outputs.1.groupId=org.apache.felix
+outputs.1.filename=org.apache.felix.healthcheck.core-2.3.0.jar
+outputs.1.length=206215
+outputs.1.checksums.sha512=e2b6b46ebf658f23e6a450dbc6ba6ab263ffefb7abc28143170c9b99e112a9ad718005d436d7a392c29bdf6170944df62d9f64eb6cdc176c92026c3d325f77be
+
+outputs.2.groupId=org.apache.felix
+outputs.2.filename=org.apache.felix.healthcheck.core-2.3.0-source-release.zip
+outputs.2.length=167413
+outputs.2.checksums.sha512=31505b623f330684eaf3d9e77323b9e26d36388b81b9c3e52ed43ea57ab75e2cc7ef026c188a974d93c488ea46062d59ef88f3e9e07b215a7ff1b8cefbffc992
+
+outputs.3.groupId=org.apache.felix
+outputs.3.filename=org.apache.felix.healthcheck.core-2.3.0-source-release.tar.gz
+outputs.3.length=89993
+outputs.3.checksums.sha512=810bf51fd0bba8df5b8ffcd3d3f01149067bca7682410964c370fd06da31cb560085a9703a32e5c494ecb156aa207b47f3e0bd35382254174ae7c7f2e3272279
+
+outputs.4.groupId=org.apache.felix
+outputs.4.filename=org.apache.felix.healthcheck.core-2.3.0-sources.jar
+outputs.4.length=108411
+outputs.4.checksums.sha512=f1b4aeb11a222a560755a043517eca6cf6a9658a2fcb3178a0525092f2a7e021ea693d10798ca4e491e19f6b0f1576cf028d682cded0c7fd385ef7cec4c1dbea
