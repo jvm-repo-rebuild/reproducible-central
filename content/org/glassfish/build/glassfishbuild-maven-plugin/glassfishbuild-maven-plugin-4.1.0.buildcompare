@@ -1,0 +1,9 @@
+version=4.1.0
+ok=4
+ko=0
+ignored=0
+okFiles="glassfishbuild-maven-plugin-4.1.0.pom glassfishbuild-maven-plugin-4.1.0.jar glassfishbuild-maven-plugin-4.1.0-cyclonedx.xml glassfishbuild-maven-plugin-4.1.0-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
