@@ -1,0 +1,11 @@
+version=1.0.29
+ok=43
+ko=2
+ignored=0
+okFiles="bundlebee-1.0.29.pom bundlebee-core-1.0.29.pom bundlebee-core-1.0.29.jar bundlebee-core-1.0.29-fat.jar bundlebee-core-1.0.29-sources.jar bundlebee-operator-1.0.29.pom bundlebee-operator-1.0.29.jar bundlebee-operator-1.0.29-sources.jar bundlebee-junit5-1.0.29.pom bundlebee-junit5-1.0.29.jar bundlebee-junit5-1.0.29-sources.jar bundlebee-maven-plugin-1.0.29.pom alveolus-1.0.29.pom postgres-local-1.0.29.pom postgres-local-1.0.29.jar postgres-local-1.0.29-sources.jar elasticsearch-local-1.0.29.pom elasticsearch-local-1.0.29.jar elasticsearch-local-1.0.29-sources.jar zipkin-simple-1.0.29.pom zipkin-simple-1.0.29.jar zipkin-simple-1.0.29-sources.jar prometheus-simple-1.0.29.pom prometheus-simple-1.0.29.jar prometheus-simple-1.0.29-sources.jar loki-simple-1.0.29.pom loki-simple-1.0.29.jar loki-simple-1.0.29-sources.jar grafana-simple-1.0.29.pom grafana-simple-1.0.29.jar grafana-simple-1.0.29-sources.jar monitoring-alveolus-1.0.29.pom monitoring-alveolus-1.0.29.jar monitoring-alveolus-1.0.29-sources.jar minio-local-1.0.29.pom minio-local-1.0.29.jar minio-local-1.0.29-sources.jar kafka-local-1.0.29.pom kafka-local-1.0.29.jar kafka-local-1.0.29-sources.jar bundlebee-documentation-1.0.29.pom bundlebee-documentation-1.0.29.jar bundlebee-documentation-1.0.29-sources.jar"
+koFiles="bundlebee-maven-plugin-1.0.29.jar bundlebee-maven-plugin-1.0.29-sources.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.yupiik/bundlebee-maven-plugin-1.0.29.jar bundlebee-maven-plugin/target/bundlebee-maven-plugin-1.0.29.jar
+# diffoscope target/reference/io.yupiik/bundlebee-maven-plugin-1.0.29-sources.jar bundlebee-maven-plugin/target/bundlebee-maven-plugin-1.0.29-sources.jar
