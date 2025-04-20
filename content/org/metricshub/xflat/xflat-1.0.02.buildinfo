@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=XFlat Utility
+group-id=org.metricshub
+artifact-id=xflat
+version=1.0.02
+
+# source information
+source.scm.uri=scm:git:https://github.com/metricshub/xflat.git
+source.scm.tag=v1.0.02
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.14
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.metricshub
+outputs.0.filename=xflat-1.0.02.pom
+outputs.0.length=3886
+outputs.0.checksums.sha512=9212a4522dd575cd2b71f50acb944a11e33671677d8769284a52fd4204751f985d7e37a2e0351123cc745b59315c4e4f49e04ae8df6c9b53e03ee84270e95be9
+
+outputs.1.groupId=org.metricshub
+outputs.1.filename=xflat-1.0.02.jar
+outputs.1.length=23953
+outputs.1.checksums.sha512=400316e8a22ad2b817f6dba74197e1bbaa1464c955ca1e6658e2e729325df94e2eaff402d9caa961ce28f8ba6e7c449cc71a89a9cb41164648a0c4903882a410
+
+outputs.2.groupId=org.metricshub
+outputs.2.filename=xflat-1.0.02-sources.jar
+outputs.2.length=19162
+outputs.2.checksums.sha512=5f25e4010c0916a55bdb3fef2b743eec3e6d5ec3b3f175fd76c6ca88d38a695742822c83597edec87c519b42273cd1d0446a52ec38ab7ebf107f1dc5bf01ddd4
