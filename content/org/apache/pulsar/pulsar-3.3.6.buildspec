@@ -6,13 +6,13 @@ version=3.3.6
 gitRepo=https://github.com/apache/pulsar.git
 gitTag=v${version}
 
-tool=mvn-3.9.5
+tool=mvn-3.9.9
 jdk=17
 newline=lf
-umask=022
-timezone="Etc/GMT-8"
+#umask=022
+timezone="Etc/GMT-7"
 
-gitInfo="-Dgit.branch=branch-3.3 -Dgit.build.host=Laris-MBP.lan -Dgit.build.user.name='Lari Hotari' -Dgit.build.user.email='lhotari@apache.org'"
+gitInfo="-Dgit.branch=branch-3.3 -Dgit.build.host=pop-os -Dgit.build.user.name='Lari Hotari' -Dgit.build.user.email='lhotari@apache.org'"
 command="SHELL mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip ${gitInfo}"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
