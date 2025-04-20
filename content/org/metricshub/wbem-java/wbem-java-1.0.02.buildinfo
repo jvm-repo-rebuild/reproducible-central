@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=WBEM Java Client
+group-id=org.metricshub
+artifact-id=wbem-java
+version=1.0.02
+
+# source information
+source.scm.uri=scm:git:https://github.com/metricshub/wbem-java.git
+source.scm.tag=v1.0.02
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.14
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.metricshub
+outputs.0.filename=wbem-java-1.0.02.pom
+outputs.0.length=3770
+outputs.0.checksums.sha512=1f396fa1fbf75f671b15317ff81b5402c8606d5c3b4eaf036cc81ef0ad2fd2a13d16010c64f1d7ac509f5f82fc8f48a35189a90a125ecbc78a972048b35c1a01
+
+outputs.1.groupId=org.metricshub
+outputs.1.filename=wbem-java-1.0.02.jar
+outputs.1.length=807020
+outputs.1.checksums.sha512=5bbb0200bb61495268dde2451c71ee9d8eb3bddff6aab16db8026b1ebac47f2314bc0c45c08ef76233f89ee583c0baeb97af9559e20338478ee6642122c4c2b7
+
+outputs.2.groupId=org.metricshub
+outputs.2.filename=wbem-java-1.0.02-sources.jar
+outputs.2.length=974333
+outputs.2.checksums.sha512=a843c4711431bb66684c6eb42551c2c0c647b24829f9ede2fa56c622d7b79eee55bf6de2c23c7317f5aa51bd3a40faf0726bd9be3149902b978bdda93aa77dd3
