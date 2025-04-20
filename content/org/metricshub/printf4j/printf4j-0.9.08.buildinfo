@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Printf4J
+group-id=org.metricshub
+artifact-id=printf4j
+version=0.9.08
+
+# source information
+source.scm.uri=scm:git:https://github.com/metricshub/printf4j.git
+source.scm.tag=v0.9.08
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.14
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.metricshub
+outputs.0.filename=printf4j-0.9.08.pom
+outputs.0.length=2988
+outputs.0.checksums.sha512=90bc225889ca4b9acec7fe7b2dd1dc7cf63c9c362167dbc690cd47469bb4cb88df5e7bc806d901d30c19df719512bc541526a008fe6fadc109aadc25b7b9d208
+
+outputs.1.groupId=org.metricshub
+outputs.1.filename=printf4j-0.9.08.jar
+outputs.1.length=6916
+outputs.1.checksums.sha512=dd3038e1110225f60f9176b8399ba03fb324d808d58d275f5a8f3febe5850131f908ee77ad2f2ac6f9e480d87e579619be8e0e035fee06af4e9a7a9763bcb54c
+
+outputs.2.groupId=org.metricshub
+outputs.2.filename=printf4j-0.9.08-sources.jar
+outputs.2.length=7031
+outputs.2.checksums.sha512=32787f3d34671593de1775f00c5aad8ae3b5aea31560a26b37e80877627ecede450c0e1c8d21d096f9a9eb10c3adf95eec47f162996af3ee3f8d904cca2dc764
