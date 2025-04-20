@@ -134,9 +134,9 @@ Source code: [https://github.com/apache/pulsar.git](https://github.com/apache/pu
 * [org.apache.pulsar:tiered-storage-parent](https://central.sonatype.com/artifact/org.apache.pulsar/tiered-storage-parent/overview)
 </details>
 
-rebuilding **11 releases** of org.apache.pulsar:pulsar:
+rebuilding **12 releases** of org.apache.pulsar:pulsar:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -149,7 +149,7 @@ rebuilding **11 releases** of org.apache.pulsar:pulsar:
 | [3.3.6](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.3.6/pom) | [mvn jdk17](pulsar-3.3.6.buildspec) | [result](pulsar-3.3.6.buildinfo): [295 :white_check_mark:  34 :warning:](pulsar-3.3.6.buildcompare) | 3.2G |
 | [3.3.5](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.3.5/pom) | [mvn jdk17](pulsar-3.3.5.buildspec) | [result](pulsar-3.3.5.buildinfo): [293 :white_check_mark:  36 :warning:](pulsar-3.3.5.buildcompare) | 3.2G |
 | [3.3.4](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.3.4/pom) | [mvn jdk17](pulsar-3.3.4.buildspec) | [result](pulsar-3.3.4.buildinfo): [294 :white_check_mark:  35 :warning:](pulsar-3.3.4.buildcompare) | 3.2G |
-| [3.3.3](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.3.3/pom) | | | |
+| [3.3.3](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.3.3/pom) | [mvn jdk21](pulsar-3.3.3.buildspec) | [result](pulsar-3.3.3.buildinfo): [294 :white_check_mark:  35 :warning:](pulsar-3.3.3.buildcompare) | 3.2G |
 | [3.3.2](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.3.2/pom) | | | |
 | [3.3.1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.3.1/pom) | [mvn jdk17](pulsar-3.3.1.buildspec) | [result](pulsar-3.3.1.buildinfo): [297 :white_check_mark:  36 :warning:](pulsar-3.3.1.buildcompare) | 3.2G |
 | [3.3.0](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.3.0/pom) | | | |
