@@ -19,6 +19,7 @@ rebuilding **4 releases** of eu.maveniverse.maven.bom-builder:bom-builder:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.bom-builder/bom-builder/1.0.4/pom) | | | |
 | [1.0.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.bom-builder/bom-builder/1.0.3/pom) | [mvn jdk21](bom-builder-1.0.3.buildspec) | [result](bom-builder-1.0.3.buildinfo): [4 :white_check_mark: ](bom-builder-1.0.3.buildcompare) | 50K |
 | [1.0.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.bom-builder/bom-builder/1.0.2/pom) | [mvn jdk21](bom-builder-1.0.2.buildspec) | [result](bom-builder-1.0.2.buildinfo): [4 :white_check_mark: ](bom-builder-1.0.2.buildcompare) | 50K |
 | [1.0.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.bom-builder/bom-builder/1.0.1/pom) | [mvn jdk21](bom-builder-1.0.1.buildspec) | [result](bom-builder-1.0.1.buildinfo): [4 :white_check_mark: ](bom-builder-1.0.1.buildcompare) | 48K |

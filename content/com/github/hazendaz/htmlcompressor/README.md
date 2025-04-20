@@ -4,6 +4,6 @@ rebuilding **0 releases** of com.github.hazendaz:htmlcompressor:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.2.0](https://central.sonatype.com/artifact/com.github.hazendaz/htmlcompressor/2.2.0/pom) | | | |
+| [1.11.0](https://central.sonatype.com/artifact/com.github.hazendaz/htmlcompressor/1.11.0/pom) | | | |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
