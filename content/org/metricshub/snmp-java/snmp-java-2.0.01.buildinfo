@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SNMP Java Client
+group-id=org.metricshub
+artifact-id=snmp-java
+version=2.0.01
+
+# source information
+source.scm.uri=scm:git:https://github.com/metricshub/snmp-java.git
+source.scm.tag=v2.0.01
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.14
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.metricshub
+outputs.0.filename=snmp-java-2.0.01.pom
+outputs.0.length=3441
+outputs.0.checksums.sha512=e434381ed921dfbc28f897ecf7f3b7c44ad1b7388f96fcf71717d7d0d0aac92817e12362a1901de495a0324397a2dba30d4d03a28da1d8727ab74d147a36f631
+
+outputs.1.groupId=org.metricshub
+outputs.1.filename=snmp-java-2.0.01.jar
+outputs.1.length=293947
+outputs.1.checksums.sha512=1a89a45a0552b629b8e90a2078d1eed92f5e1bff6a95315ddb502e7b80f0a51bf043ea1b6790b3818c6204324db090c91c93a995630ae8f8f16efafe0def3639
+
+outputs.2.groupId=org.metricshub
+outputs.2.filename=snmp-java-2.0.01-sources.jar
+outputs.2.length=365822
+outputs.2.checksums.sha512=c496c99478932424367839565535b4df135aaed63450509ef66007cab813126771413b01df89a551f11aa3435dc63ddef642695fbb9beb44de29586f2abd6773
