@@ -1,0 +1,20 @@
+groupId=org.apache.pulsar
+artifactId=pulsar
+display=${groupId}:${artifactId}
+version=3.3.3
+
+gitRepo=https://github.com/apache/pulsar.git
+gitTag=v${version}
+
+tool=mvn-3.9.9
+jdk=21
+newline=lf
+#umask=022
+timezone="Etc/GMT-7"
+
+gitInfo="-Dgit.branch=branch-3.3 -Dgit.build.host=pop-os -Dgit.build.user.name='Lari Hotari' -Dgit.build.user.email='lhotari@apache.org'"
+command="SHELL mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip ${gitInfo}"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
