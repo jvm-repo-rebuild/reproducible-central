@@ -1,0 +1,9 @@
+version=0.1.1
+ok=17
+ko=0
+ignored=0
+okFiles="njord-0.1.1.pom core-0.1.1.pom core-0.1.1.jar core-0.1.1-sources.jar publisher-0.1.1.pom sonatype-0.1.1.pom sonatype-0.1.1.jar sonatype-0.1.1-sources.jar apache-0.1.1.pom apache-0.1.1.jar apache-0.1.1-sources.jar extension-0.1.1.pom extension-0.1.1.jar extension-0.1.1-sources.jar njord-0.1.1.pom njord-0.1.1.jar njord-0.1.1-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
