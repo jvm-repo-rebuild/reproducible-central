@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=MetricsHub Connector Maven Plugin
+group-id=org.metricshub.maven
+artifact-id=metricshub-connector-maven-plugin
+version=1.0.10
+
+# source information
+source.scm.uri=scm:git:https://github.com/metricshub/metricshub-connector-maven-plugin.git
+source.scm.tag=v1.0.10
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.14
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.metricshub.maven
+outputs.0.filename=metricshub-connector-maven-plugin-1.0.10.pom
+outputs.0.length=8140
+outputs.0.checksums.sha512=3fe88425bdaa27ec301a3f2ce62f7bf5a8a69b49bf99263df0b2c90a1c1ce7d9d61eefa00586c694f2e48edb36c3456fe8a4cff9f649100585fc875fa2256c5d
+
+outputs.1.groupId=org.metricshub.maven
+outputs.1.filename=metricshub-connector-maven-plugin-1.0.10.jar
+outputs.1.length=130570
+outputs.1.checksums.sha512=56f1257b638d9274c53c22d12c64d053b726323b75987bef71171a3d9bc89a25019c4a1fc85642cb13233539185de6c64b91309d716e2d3de68926f47b7b9028
+
+outputs.2.groupId=org.metricshub.maven
+outputs.2.filename=metricshub-connector-maven-plugin-1.0.10-sources.jar
+outputs.2.length=89970
+outputs.2.checksums.sha512=d5baff37d8f2de136898bbd59d374ae4e4c6dd90681388f500053e07d5e5143b5943322128e6ad92b5449a178e62f33c9971404f4998efb41907a4cb9776ec4d
