@@ -1,0 +1,60 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=htmlcompressor-maven-plugin
+group-id=com.github.hazendaz.maven
+artifact-id=htmlcompressor-maven-plugin
+version=2.2.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/htmlcompressor-maven-plugin.git
+source.scm.tag=htmlcompressor-maven-plugin-2.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.6
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.github.hazendaz.maven
+outputs.0.filename=htmlcompressor-maven-plugin-2.2.0.pom
+outputs.0.length=8580
+outputs.0.checksums.sha512=3fc634053b9f50093effaab02a31ed227664b3a66a7dc11fecedc15ff77e7bdd4a1deb903cf53d94f85f8991279015af501a28c8897c7b519e83bf93ede7fa62
+
+outputs.1.groupId=com.github.hazendaz.maven
+outputs.1.filename=htmlcompressor-maven-plugin-2.2.0.jar
+outputs.1.length=38079
+outputs.1.checksums.sha512=98722eaff26d71e117d40895ed263af4b4169796bf1ea66770f72e40ad958206f65cfaf52b11a6159ae3958c73dbbabd7261ef8ced4fb724bac75b5f4243e2ad
+
+outputs.2.groupId=com.github.hazendaz.maven
+outputs.2.filename=htmlcompressor-maven-plugin-2.2.0-tests.jar
+outputs.2.length=15130
+outputs.2.checksums.sha512=a344a4160fbf2ccdc3890d617fa3e10d2850a26f306d4f6c0d0ab3f6b49e489d6cc5dfaa49d725f070ce8efa1375deda85bec26c5775a7336eb80b376c25b2fd
+
+outputs.3.groupId=com.github.hazendaz.maven
+outputs.3.filename=htmlcompressor-maven-plugin-2.2.0-sources.jar
+outputs.3.length=23653
+outputs.3.checksums.sha512=d7e807fe3f45b2394f5b708106e1b064d3e6075688806cf29e75913b4e730d606f68935a9f9364e92332c482f0ef57289b0c6c757a354acb86d91804c14c1d81
+
+outputs.4.groupId=com.github.hazendaz.maven
+outputs.4.filename=htmlcompressor-maven-plugin-2.2.0-test-sources.jar
+outputs.4.length=14660
+outputs.4.checksums.sha512=a28a4445388305c0e6c4e23db2d8d59638b7240bef66b22d14695c5af5745a3e0d4a49cb87a9013ddc9eb94f56c30b085ec7c394e906c241fce41790ede919d8
+
+outputs.5.groupId=com.github.hazendaz.maven
+outputs.5.filename=htmlcompressor-maven-plugin-2.2.0-cyclonedx.xml
+outputs.5.length=71481
+outputs.5.checksums.sha512=0d6c66f1d21c72f64e229254167bbd09d6d8ae4c4ba1800d7276a8952e5419cf9623fc267e5239e8ff9045bb45b045030903da86519f490235d558d60f700802
+
+outputs.6.groupId=com.github.hazendaz.maven
+outputs.6.filename=htmlcompressor-maven-plugin-2.2.0-cyclonedx.json
+outputs.6.length=79882
+outputs.6.checksums.sha512=3911af65199a02c750ff042d9d3e98cf4cdd9d7f2663da4d519e542307b7b0bf30a0d5b89781200c8eb352ea7aec51f6b1d947834f4597bb78e3a0b9b4982d37
