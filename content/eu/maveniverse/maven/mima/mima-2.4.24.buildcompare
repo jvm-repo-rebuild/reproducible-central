@@ -1,0 +1,10 @@
+version=2.4.24
+ok=26
+ko=1
+ignored=0
+okFiles="mima-2.4.24.pom context-2.4.24.pom context-2.4.24.jar context-2.4.24-sources.jar runtime-2.4.24.pom embedded-maven-2.4.24.pom embedded-maven-2.4.24.jar embedded-maven-2.4.24-sources.jar standalone-shared-2.4.24.pom standalone-shared-2.4.24.jar standalone-shared-2.4.24-sources.jar standalone-sisu-2.4.24.pom standalone-sisu-2.4.24.jar standalone-sisu-2.4.24-sources.jar standalone-sisu-uber-2.4.24.pom standalone-sisu-uber-2.4.24-sources.jar standalone-static-2.4.24.pom standalone-static-2.4.24.jar standalone-static-2.4.24-sources.jar standalone-static-uber-2.4.24.pom standalone-static-uber-2.4.24.jar standalone-static-uber-2.4.24-sources.jar extensions-2.4.24.pom mmr-2.4.24.pom mmr-2.4.24.jar mmr-2.4.24-sources.jar"
+koFiles="standalone-sisu-uber-2.4.24.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/eu.maveniverse.maven.mima.runtime/standalone-sisu-uber-2.4.24.jar runtime/standalone-sisu-uber/target/standalone-sisu-uber-2.4.24.jar
