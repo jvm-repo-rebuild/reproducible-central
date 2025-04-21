@@ -1,0 +1,9 @@
+version=2.1.1
+ok=7
+ko=0
+ignored=0
+okFiles="htmlcompressor-maven-plugin-2.1.1.pom htmlcompressor-maven-plugin-2.1.1.jar htmlcompressor-maven-plugin-2.1.1-tests.jar htmlcompressor-maven-plugin-2.1.1-sources.jar htmlcompressor-maven-plugin-2.1.1-test-sources.jar htmlcompressor-maven-plugin-2.1.1-cyclonedx.xml htmlcompressor-maven-plugin-2.1.1-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
