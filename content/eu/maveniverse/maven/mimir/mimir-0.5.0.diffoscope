@@ -1,0 +1,40 @@
+1 / 1 target/reference/eu.maveniverse.maven.mimir/daemon-0.5.0-daemon.jar daemon/target/daemon-0.5.0-daemon.jar
+--- target/reference/eu.maveniverse.maven.mimir/daemon-0.5.0-daemon.jar
++++ daemon/target/daemon-0.5.0-daemon.jar
+├── zipinfo {}
+│ @@ -12315,328 +12315,328 @@
+│  -rw----     2.0 fat        0 bl defN 09-Oct-13 16:07 javax/inject/
+│  -rw----     2.0 fat      450 bl defN 09-Oct-13 16:07 javax/inject/Inject.class
+│  -rw----     2.0 fat      418 bl defN 09-Oct-13 16:07 javax/inject/Named.class
+│  -rw----     2.0 fat      226 bl defN 09-Oct-13 16:07 javax/inject/Provider.class
+│  -rw----     2.0 fat      433 bl defN 09-Oct-13 16:07 javax/inject/Qualifier.class
+│  -rw----     2.0 fat      425 bl defN 09-Oct-13 16:07 javax/inject/Scope.class
+│  -rw----     2.0 fat      359 bl defN 09-Oct-13 16:07 javax/inject/Singleton.class
+│ --rw----     2.0 fat     3976 bl defN 80-Feb-01 00:00 about.html
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/eclipse/
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/eclipse/sisu/
+│ --rw----     2.0 fat      970 bl defN 80-Feb-01 00:00 org/eclipse/sisu/BeanEntry.class
+...
+│ --rw----     2.0 fat     1871 bl defN 80-Feb-01 00:00 overview.html
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.eclipse.sisu/
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.eclipse.sisu/org.eclipse.sisu.inject/
+│ --rw----     2.0 fat    19618 bl defN 80-Feb-01 00:00 META-INF/maven/org.eclipse.sisu/org.eclipse.sisu.inject/pom.xml
+│ --rw----     2.0 fat       77 bl defN 80-Feb-01 00:00 META-INF/maven/org.eclipse.sisu/org.eclipse.sisu.inject/pom.properties
+│ +-rw----     2.0 fat     3976 bl defN 24-Jun-03 17:12 about.html
+│ +-rw----     2.0 fat     1871 bl defN 24-Jun-03 17:12 overview.html
+│ +-rw----     2.0 fat        0 bl defN 24-Jun-03 17:12 org/eclipse/
+│ +-rw----     2.0 fat        0 bl defN 24-Jun-03 17:12 org/eclipse/sisu/
+│ +-rw----     2.0 fat      970 bl defN 24-Jun-03 17:12 org/eclipse/sisu/BeanEntry.class
+...
+│ +-rw----     2.0 fat      125 bl defN 24-Jun-03 17:12 org/sonatype/inject/package-info.class
+│ +-rw----     2.0 fat        0 bl defN 24-Jun-03 17:11 META-INF/maven/org.eclipse.sisu/
+│ +-rw----     2.0 fat        0 bl defN 24-Jun-03 17:11 META-INF/maven/org.eclipse.sisu/org.eclipse.sisu.inject/
+│ +-rw----     2.0 fat    19618 bl defN 24-Jun-03 17:11 META-INF/maven/org.eclipse.sisu/org.eclipse.sisu.inject/pom.xml
+│ +-rw----     2.0 fat       77 bl defN 24-Jun-03 17:12 META-INF/maven/org.eclipse.sisu/org.eclipse.sisu.inject/pom.properties
+│  -rw----     2.0 fat        0 bl defN 22-Jan-24 14:05 com/google/
+│  -rw----     2.0 fat        0 bl defN 22-Jan-24 14:05 com/google/inject/
+│  -rw----     2.0 fat      425 bl defN 22-Jan-24 14:05 com/google/inject/Exposed.class
+│  -rw----     2.0 fat     1013 bl defN 22-Jan-24 14:05 com/google/inject/Stage.class
+│  -rw----     2.0 fat        0 bl defN 22-Jan-24 14:05 com/google/inject/name/
+│  -rw----     2.0 fat      491 bl defN 22-Jan-24 14:05 com/google/inject/name/Named.class
+│  -rw----     2.0 fat     2605 bl defN 22-Jan-24 14:05 com/google/inject/name/Names.class

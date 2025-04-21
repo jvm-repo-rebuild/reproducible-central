@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/maveniverse/mimir.git](https://github.com/maveniverse/mimir.git)
 
-<details><summary>This project defines 10 modules:</summary>
+<details><summary>This project defines 11 modules:</summary>
 
 * [eu.maveniverse.maven.mimir.node:daemon](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir.node/daemon/overview)
 * [eu.maveniverse.maven.mimir.node:file](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir.node/file/overview)
@@ -16,18 +16,19 @@ Source code: [https://github.com/maveniverse/mimir.git](https://github.com/maven
 * [eu.maveniverse.maven.mimir.node:node](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir.node/node/overview)
 * [eu.maveniverse.maven.mimir:core](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/core/overview)
 * [eu.maveniverse.maven.mimir:daemon](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/daemon/overview)
+* [eu.maveniverse.maven.mimir:daemon-protocol](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/daemon-protocol/overview)
 * [eu.maveniverse.maven.mimir:extension](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/extension/overview)
 * [eu.maveniverse.maven.mimir:extension3](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/extension3/overview)
 * [eu.maveniverse.maven.mimir:mimir](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/overview)
 </details>
 
-rebuilding **14 releases** of eu.maveniverse.maven.mimir:mimir:
+rebuilding **15 releases** of eu.maveniverse.maven.mimir:mimir:
 - **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.5.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.5.0/pom) | | | |
+| [0.5.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.5.0/pom) | [mvn jdk21](mimir-0.5.0.buildspec) | [result](mimir-0.5.0.buildinfo): [26 :white_check_mark:  1 :warning:](mimir-0.5.0.buildcompare) [:mag:](mimir-0.5.0.diffoscope) | 27M |
 | [0.4.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.4.1/pom) | [mvn jdk21](mimir-0.4.1.buildspec) | [result](mimir-0.4.1.buildinfo): [24 :white_check_mark: ](mimir-0.4.1.buildcompare) | 27M |
 | [0.4.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.4.0/pom) | [mvn jdk21](mimir-0.4.0.buildspec) | [result](mimir-0.4.0.buildinfo): [24 :white_check_mark: ](mimir-0.4.0.buildcompare) | 27M |
 | [0.3.6](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.3.6/pom) | [mvn jdk21](mimir-0.3.6.buildspec) | [result](mimir-0.3.6.buildinfo): [24 :white_check_mark: ](mimir-0.3.6.buildcompare) | 27M |
