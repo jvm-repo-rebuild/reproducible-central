@@ -1,0 +1,5 @@
+version=1.6
+ok=3
+ko=0
+okFiles="informative-annotations-1.6-sources.jar informative-annotations-1.6.jar informative-annotations-1.6.pom"
+koFiles=""
