@@ -1,0 +1,24 @@
+groupId=dev.notmyfault.serverlib
+artifactId=ServerLib
+display=${groupId}:${artifactId}
+version=2.3.7
+
+# Source code
+gitRepo=https://github.com/NotMyFault/ServerLib.git
+gitTag=${version}
+
+# Rebuild environment prerequisites
+tool=gradle
+jdk=17
+newline=lf
+umask=022
+
+# Rebuild command
+command="./gradlew --no-daemon --no-build-cache clean assemble publishToMavenLocal -Pskip.signing -x test"
+
+# Location of the buildinfo file generated during rebuild (by attifact:compare for Maven) to record output fingerprints
+buildinfo=${artifactId}-${version}.buildinfo
+
+# if the release is finally not reproducible, link to an issue tracker entry if one was created or diffoscope result
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
