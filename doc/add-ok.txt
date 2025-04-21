@@ -1,10 +1,5 @@
-content/com/github/hazendaz/maven/coveralls-maven-plugin/coveralls-maven-plugin-4.6.0.buildspec:4.7.0
-content/eu/maveniverse/maven/bom-builder/bom-builder-1.0.3.buildspec:1.0.4
-content/eu/maveniverse/maven/mimir/mimir-0.4.1.buildspec:0.5.0
-content/eu/maveniverse/maven/nisse/nisse-0.4.2.buildspec:0.4.3
-content/eu/maveniverse/maven/toolbox/toolbox-0.7.2.buildspec:0.7.3
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.1-beta-12.buildspec:11.2.1-beta-13
-content/land/oras/oras-java-sdk/oras-java-sdk-0.2.5.buildspec:0.2.6
-content/org/apache/shiro/shiro-2.0.3.buildspec:2.0.4
-content/org/metricshub/maven/metricshub-connector-maven-plugin/metricshub-connector-maven-plugin-1.0.10.buildspec:1.0.11
-content/org/spdx/spdx-maven-plugin/spdx-maven-plugin-1.0.0-RC2.buildspec:1.0.0
+content/com/intellectualsites/fastasyncvoxelsniper/fastasyncvoxelsniper/fastasyncvoxelsniper-3.2.2.buildspec:3.2.3
+content/com/intellectualsites/informative-annotations/informative-annotations/informative-annotations-1.5.buildspec:1.6
+content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
+content/eu/maveniverse/maven/njord/njord-0.3.0.buildspec:0.3.2
+content/tech/picnic/error-prone-support/error-prone-support/error-prone-support-0.22.0.buildspec:0.23.0

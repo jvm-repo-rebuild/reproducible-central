@@ -13,6 +13,7 @@ rebuilding **1 releases** of com.intellectualsites.informative-annotations:infor
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.6](https://central.sonatype.com/artifact/com.intellectualsites.informative-annotations/informative-annotations/1.6/pom) | | | |
 | [1.5](https://central.sonatype.com/artifact/com.intellectualsites.informative-annotations/informative-annotations/1.5/pom) | [gradle jdk17](informative-annotations-1.5.buildspec) | [result](informative-annotations-1.5.buildinfo): [4 :white_check_mark: ](informative-annotations-1.5.buildcompare) | 13K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
