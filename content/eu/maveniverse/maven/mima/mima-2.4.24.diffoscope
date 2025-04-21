@@ -1,0 +1,33 @@
+1 / 1 target/reference/eu.maveniverse.maven.mima.runtime/standalone-sisu-uber-2.4.24.jar runtime/standalone-sisu-uber/target/standalone-sisu-uber-2.4.24.jar
+--- target/reference/eu.maveniverse.maven.mima.runtime/standalone-sisu-uber-2.4.24.jar
++++ runtime/standalone-sisu-uber/target/standalone-sisu-uber-2.4.24.jar
+├── zipinfo {}
+│ @@ -5020,321 +5020,321 @@
+│  -rw----     2.0 fat      434 bl defN 24-Mar-09 12:12 com/google/j2objc/annotations/AutoreleasePool.class
+│  -rw----     2.0 fat      354 bl defN 24-Mar-09 12:12 com/google/j2objc/annotations/UsedByNative.class
+│  -rw----     2.0 fat     1302 bl defN 24-Mar-09 12:12 com/google/j2objc/annotations/ReflectionSupport$Level.class
+│  -rw----     2.0 fat        0 bl defN 24-Mar-09 12:12 META-INF/maven/com.google.j2objc/
+│  -rw----     2.0 fat        0 bl defN 24-Mar-09 12:12 META-INF/maven/com.google.j2objc/j2objc-annotations/
+│  -rw----     2.0 fat     5057 bl defN 24-Mar-09 12:12 META-INF/maven/com.google.j2objc/j2objc-annotations/pom.xml
+│  -rw----     2.0 fat       70 bl defN 24-Mar-09 12:12 META-INF/maven/com.google.j2objc/j2objc-annotations/pom.properties
+│ --rw----     2.0 fat     3976 bl defN 80-Feb-01 00:00 about.html
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/eclipse/sisu/
+│ --rw----     2.0 fat      970 bl defN 80-Feb-01 00:00 org/eclipse/sisu/BeanEntry.class
+...
+│ --rw----     2.0 fat     1871 bl defN 80-Feb-01 00:00 overview.html
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.eclipse.sisu/
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.eclipse.sisu/org.eclipse.sisu.inject/
+│ --rw----     2.0 fat    19618 bl defN 80-Feb-01 00:00 META-INF/maven/org.eclipse.sisu/org.eclipse.sisu.inject/pom.xml
+│ --rw----     2.0 fat       77 bl defN 80-Feb-01 00:00 META-INF/maven/org.eclipse.sisu/org.eclipse.sisu.inject/pom.properties
+│ +-rw----     2.0 fat     3976 bl defN 24-Jun-03 17:12 about.html
+│ +-rw----     2.0 fat     1871 bl defN 24-Jun-03 17:12 overview.html
+│ +-rw----     2.0 fat        0 bl defN 24-Jun-03 17:12 org/eclipse/sisu/
+│ +-rw----     2.0 fat      970 bl defN 24-Jun-03 17:12 org/eclipse/sisu/BeanEntry.class
+...
+│ +-rw----     2.0 fat      125 bl defN 24-Jun-03 17:12 org/sonatype/inject/package-info.class
+│ +-rw----     2.0 fat        0 bl defN 24-Jun-03 17:11 META-INF/maven/org.eclipse.sisu/
+│ +-rw----     2.0 fat        0 bl defN 24-Jun-03 17:11 META-INF/maven/org.eclipse.sisu/org.eclipse.sisu.inject/
+│ +-rw----     2.0 fat    19618 bl defN 24-Jun-03 17:11 META-INF/maven/org.eclipse.sisu/org.eclipse.sisu.inject/pom.xml
+│ +-rw----     2.0 fat       77 bl defN 24-Jun-03 17:12 META-INF/maven/org.eclipse.sisu/org.eclipse.sisu.inject/pom.properties
+│  -rw----     2.0 fat     6798 bl defN 25-Apr-20 12:48 META-INF/sisu/javax.inject.Named
+│  5338 files, 16356901 bytes uncompressed, 6591350 bytes compressed:  59.7%
