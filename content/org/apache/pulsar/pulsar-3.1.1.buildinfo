@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Pulsar
+group-id=org.apache.pulsar
+artifact-id=pulsar
+version=3.1.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/pulsar.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.8
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.apache.pulsar
+outputs.0.filename=pulsar-3.1.1.pom
+outputs.0.length=94526
+outputs.0.checksums.sha512=dd3793913f7d0fe80ebba5d81fc6ee431821476735ab0d711086ac505cf74efd185183dffb42757a5f6bc144e3f06f958c82ab616740a14864c67968b7ced5c5
+
+outputs.1.groupId=org.apache.pulsar
+outputs.1.filename=pulsar-3.1.1.tar.gz
+outputs.1.length=5832850
+outputs.1.checksums.sha512=b08d8da2f95b871624bdc2a830e990cc484c15465509bf3d3acbb1843ff689233e4d78c0e3afcd4108e1e206466be691c1eaf60e0d52cab3de676ad8b4e59483
+
+outputs.2.groupId=org.apache.pulsar
+outputs.2.filename=pulsar-3.1.1-source-release.zip
+outputs.2.length=10538387
+outputs.2.checksums.sha512=22f8c184e5e3334465671d26888830ef3bfc06407cb92295d8374a521aec18e116beb63efb9362ee5f26d1e81bcff5c802876e18cfe5a54a80f79ae68e773fca
