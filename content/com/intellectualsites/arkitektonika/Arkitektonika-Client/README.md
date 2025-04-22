@@ -13,6 +13,7 @@ rebuilding **1 releases** of com.intellectualsites.arkitektonika:Arkitektonika-C
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.1.4](https://central.sonatype.com/artifact/com.intellectualsites.arkitektonika/Arkitektonika-Client/2.1.4/pom) | | | |
 | [2.1.3](https://central.sonatype.com/artifact/com.intellectualsites.arkitektonika/Arkitektonika-Client/2.1.3/pom) | [gradle jdk17](Arkitektonika-Client-2.1.3.buildspec) | [result](Arkitektonika-Client-2.1.3.buildinfo): [4 :white_check_mark: ](Arkitektonika-Client-2.1.3.buildcompare) | 39K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

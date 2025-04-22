@@ -13,6 +13,7 @@ rebuilding **8 releases** of net.osslabz:crypto-commons:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.6.4](https://central.sonatype.com/artifact/net.osslabz/crypto-commons/0.6.4/pom) | | | |
 | [0.6.1](https://central.sonatype.com/artifact/net.osslabz/crypto-commons/0.6.1/pom) | [mvn jdk21](crypto-commons-0.6.1.buildspec) | [result](crypto-commons-0.6.1.buildinfo): [2 :white_check_mark:  1 :warning:](crypto-commons-0.6.1.buildcompare) [:mag:](crypto-commons-0.6.1.diffoscope) [:memo:](https://github.com/osslabz/crypto-commons/pull/54) | 46K |
 | [0.6.0](https://central.sonatype.com/artifact/net.osslabz/crypto-commons/0.6.0/pom) | [mvn jdk21](crypto-commons-0.6.0.buildspec) | [result](crypto-commons-0.6.0.buildinfo): [2 :white_check_mark:  1 :warning:](crypto-commons-0.6.0.buildcompare) [:memo:](https://github.com/osslabz/crypto-commons/pull/54) | 46K |
 | [0.5.0](https://central.sonatype.com/artifact/net.osslabz/crypto-commons/0.5.0/pom) | [mvn jdk21](crypto-commons-0.5.0.buildspec) | [result](crypto-commons-0.5.0.buildinfo): [2 :white_check_mark:  1 :warning:](crypto-commons-0.5.0.buildcompare) [:mag:](crypto-commons-0.5.0.diffoscope) | 45K |

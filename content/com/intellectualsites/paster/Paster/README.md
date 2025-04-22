@@ -13,6 +13,7 @@ rebuilding **1 releases** of com.intellectualsites.paster:Paster:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.1.7](https://central.sonatype.com/artifact/com.intellectualsites.paster/Paster/1.1.7/pom) | | | |
 | [1.1.6](https://central.sonatype.com/artifact/com.intellectualsites.paster/Paster/1.1.6/pom) | [gradle jdk17](Paster-1.1.6.buildspec) | [result](Paster-1.1.6.buildinfo): [4 :white_check_mark: ](Paster-1.1.6.buildcompare) | 19K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
