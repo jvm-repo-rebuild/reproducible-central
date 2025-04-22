@@ -1,0 +1,19 @@
+groupId=com.intellectualsites.arkitektonika
+artifactId=Arkitektonika-Client
+display=com.intellectualsites.*:arkitektonika
+version=2.1.4
+
+gitRepo=https://github.com/IntellectualSites/Arkitektonika-Client.git
+gitTag=${version}
+
+tool=gradle
+jdk=17
+newline=lf
+umask=022
+
+command="./gradlew --no-daemon --no-build-cache clean assemble publishToMavenLocal -Pskip.signing -x test"
+
+buildinfo=${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
