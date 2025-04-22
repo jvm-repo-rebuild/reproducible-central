@@ -1,0 +1,19 @@
+groupId=com.intellectualsites.informative-annotations
+artifactId=informative-annotations
+display=com.intellectualsites.*:informative-annotations
+version=1.6
+
+gitRepo=https://github.com/IntellectualSites/informative-annotations.git
+gitTag=${version}
+
+tool=gradle
+jdk=17
+newline=lf
+umask=022
+
+command="./gradlew --no-daemon --no-build-cache clean assemble publishToMavenLocal -Pskip.signing -x test"
+
+buildinfo=${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
