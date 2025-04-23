@@ -1,0 +1,11 @@
+version=1.2.7
+ok=33
+ko=2
+ignored=0
+okFiles="yupiik-tools-maven-plugin-parent-1.2.7.pom codec-core-1.2.7.pom codec-core-1.2.7.jar codec-core-1.2.7-sources.jar yupiik-tools-common-1.2.7.pom yupiik-tools-common-1.2.7.jar yupiik-tools-common-1.2.7-sources.jar ascii2svg-1.2.7.pom ascii2svg-1.2.7.jar ascii2svg-1.2.7-sources.jar asciidoc-java-1.2.7.pom asciidoc-java-1.2.7.jar asciidoc-java-1.2.7-sources.jar minisite-core-1.2.7.pom minisite-core-1.2.7.jar minisite-core-1.2.7-sources.jar slides-core-1.2.7.pom slides-core-1.2.7.jar slides-core-1.2.7-sources.jar html-versioning-injector-1.2.7.pom html-versioning-injector-1.2.7.jar html-versioning-injector-1.2.7-sources.jar yupiik-tools-maven-plugin-1.2.7.pom yupiik-tools-maven-plugin-1.2.7.jar yupiik-tools-maven-plugin-1.2.7-sources.jar yupiik-tools-cli-1.2.7.pom yupiik-tools-cli-1.2.7-sources.jar env-manager-1.2.7.pom env-manager-1.2.7.jar env-manager-1.2.7-sources.jar _documentation-1.2.7.pom _documentation-1.2.7.jar _documentation-1.2.7-sources.jar"
+koFiles="yupiik-tools-cli-1.2.7.jar yupiik-tools-cli-1.2.7-fatjar.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.yupiik.maven/yupiik-tools-cli-1.2.7.jar yupiik-tools-cli/target/yupiik-tools-cli-1.2.7.jar
+# diffoscope target/reference/io.yupiik.maven/yupiik-tools-cli-1.2.7-fatjar.jar yupiik-tools-cli/target/yupiik-tools-cli-1.2.7-fatjar.jar
