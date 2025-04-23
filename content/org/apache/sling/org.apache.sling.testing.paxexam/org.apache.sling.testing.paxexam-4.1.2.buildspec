@@ -1,0 +1,18 @@
+groupId=org.apache.sling
+artifactId=org.apache.sling.testing.paxexam
+display=${groupId}:*.testing.paxexam
+version=4.1.2
+
+gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.9
+jdk=21
+newline=lf
+umask=022
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dpmd.skip -Dcheckstyle.skip -Dspotbugs.skip -Dmaven.source.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
