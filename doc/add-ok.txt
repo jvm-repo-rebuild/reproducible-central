@@ -1,7 +1,6 @@
-content/com/intellectualsites/arkitektonika/Arkitektonika-Client/Arkitektonika-Client-2.1.3.buildspec:2.1.4
-content/com/intellectualsites/paster/Paster/Paster-1.1.6.buildspec:1.1.7
+content/com/fasterxml/oss-parent/oss-parent-64.buildspec:65
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
-content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.12.2.buildspec:0.12.3
-content/eu/maveniverse/maven/toolbox/toolbox-0.7.3.buildspec:0.7.5
-content/land/oras/oras-java-sdk/oras-java-sdk-0.2.6.buildspec:0.2.7
-content/org/apache/commons/commons-collections4/commons-collections4-4.5.0-M3.buildspec:4.5.0
+content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.12.3.buildspec:0.12.4
+content/io/avaje/validator/avaje-validator-2.9.buildspec:2.10
+content/land/oras/oras-java-sdk/oras-java-sdk-0.2.7.buildspec:0.2.8
+content/org/apache/sling/org.apache.sling.testing.paxexam/org.apache.sling.testing.paxexam-4.1.0.buildspec:4.1.2
