@@ -1,0 +1,19 @@
+groupId=io.avaje
+artifactId=avaje-validator-parent
+display=${groupId}:$(echo "${artifactId}" | sed -e "s/-parent//")
+version=2.10
+
+gitRepo=https://github.com/avaje/avaje-validator.git
+gitTag=${version}
+gitTag=389b1c1488e7c633772c75f4f78c663909b35e85
+
+tool=mvn
+jdk=24
+newline=crlf
+#umask=022
+
+command="mvn -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
