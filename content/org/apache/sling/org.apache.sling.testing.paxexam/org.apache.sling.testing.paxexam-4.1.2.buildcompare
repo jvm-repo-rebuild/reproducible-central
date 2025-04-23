@@ -1,0 +1,9 @@
+version=4.1.2
+ok=3
+ko=0
+ignored=0
+okFiles="org.apache.sling.testing.paxexam-4.1.2.pom org.apache.sling.testing.paxexam-4.1.2.jar org.apache.sling.testing.paxexam-4.1.2-source-release.zip"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
