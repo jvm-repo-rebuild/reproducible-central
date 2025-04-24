@@ -1,6 +1,5 @@
-content/com/fasterxml/oss-parent/oss-parent-64.buildspec:65
+content/com/google/code/gson/gson-2.13.0.buildspec:2.13.1
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
-content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.12.3.buildspec:0.12.4
-content/io/avaje/validator/avaje-validator-2.9.buildspec:2.10
-content/land/oras/oras-java-sdk/oras-java-sdk-0.2.7.buildspec:0.2.8
-content/org/apache/sling/org.apache.sling.testing.paxexam/org.apache.sling.testing.paxexam-4.1.0.buildspec:4.1.2
+content/io/liftwizard/liftwizard-2.1.28.buildspec:2.1.29
+content/io/trino/trino-474.buildspec:475
+content/io/cucumber/cucumber-jvm/cucumber-jvm-7.22.0.buildspec:7.22.1
