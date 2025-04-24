@@ -1,0 +1,18 @@
+groupId=org.apache.systemds
+artifactId=systemds
+display=${groupId}:${artifactId}
+version=3.3.0
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${version}-rc1
+
+tool=mvn-3.9.9
+jdk=11
+newline=lf
+
+command="mvn -Pdistribution clean package -Dmaven.test.skip -Ddoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+execBefore="chmod -R o+w ."
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
