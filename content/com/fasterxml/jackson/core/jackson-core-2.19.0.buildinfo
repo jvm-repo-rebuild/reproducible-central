@@ -1,0 +1,54 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson-core
+group-id=com.fasterxml.jackson.core
+artifact-id=jackson-core
+version=2.19.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-core.git
+source.scm.tag=jackson-core-2.19.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_442
+java.vendor=Private Build
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=com.fasterxml.jackson.core
+outputs.0.filename=jackson-core-2.19.0.pom
+outputs.0.length=9527
+outputs.0.checksums.sha512=509d110c65da7c90cbcc3e22bac86f3eb04e1a36eb09d42a031d4a2f1112c98549ef17f3c2595dd768a9d15f583ca5ca8ae5c5639bf64cda99cf34b307221221
+
+outputs.1.groupId=com.fasterxml.jackson.core
+outputs.1.filename=jackson-core-2.19.0.jar
+outputs.1.length=599926
+outputs.1.checksums.sha512=2528a8239e19956a67907a7f99db62a85c745535f67e393a7b323123c6488c9c8e7a083804aee9a4c0317d5eeba0b0990545f697b0a38bc0a60286c77caee556
+
+outputs.2.groupId=com.fasterxml.jackson.core
+outputs.2.filename=jackson-core-2.19.0-cyclonedx.xml
+outputs.2.length=4407
+outputs.2.checksums.sha512=1f6b4eb0b8a8c662f103f1d112be829ed586ffdb0f19e8c8494e960d98fa56c5ea38ee3c3da1e695b25bb1cf00b35ac308a7eb50974316bd67bd3e88606987f5
+
+outputs.3.groupId=com.fasterxml.jackson.core
+outputs.3.filename=jackson-core-2.19.0-cyclonedx.json
+outputs.3.length=4767
+outputs.3.checksums.sha512=c51cd3c77c3be888c4c617e6917c789523ce5dec4d5c40a3e0e9ca0ce98dc34b4e4d6b6755a7ce124cc6d07df8827f7434160db3bd54d58548e85cf27fac6e26
+
+outputs.4.groupId=com.fasterxml.jackson.core
+outputs.4.filename=jackson-core-2.19.0.module
+outputs.4.length=2494
+outputs.4.checksums.sha512=f38d1114f50f274061d29e68588c8499efe62b59c0f95118829d697be1bbc62b97d7af2e645e37713e881446c23afce2723d06f4ac64c5ea9b3e02c93e34c8ac
+
+outputs.5.groupId=com.fasterxml.jackson.core
+outputs.5.filename=jackson-core-2.19.0-sources.jar
+outputs.5.length=494538
+outputs.5.checksums.sha512=854aa15a5ca43826acb482c17506a8866e7db9709463c2dfe1bb01b2afd3d5e849bf996b853e01570115b03042eaa3b178d1eb8a050a67698dba8ae3fdbc7cbb
