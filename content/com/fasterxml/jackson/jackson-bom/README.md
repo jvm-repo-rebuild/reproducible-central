@@ -13,13 +13,13 @@ Source code: [https://github.com/FasterXML/jackson-bom.git](https://github.com/F
 * [com.fasterxml.jackson:jackson-bom](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/overview)
 </details>
 
-rebuilding **31 releases** of com.fasterxml.jackson:jackson-bom:
-- **31** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **32 releases** of com.fasterxml.jackson:jackson-bom:
+- **32** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.19.0](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.19.0/pom) | | | |
+| [2.19.0](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.19.0/pom) | [mvn jdk11](jackson-bom-2.19.0.buildspec) | [result](jackson-bom-2.19.0.buildinfo): [2 :white_check_mark: ](jackson-bom-2.19.0.buildcompare) | 32K |
 | [2.19.0-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.19.0-rc2/pom) | [mvn jdk11](jackson-bom-2.19.0-rc2.buildspec) | [result](jackson-bom-2.19.0-rc2.buildinfo): [2 :white_check_mark: ](jackson-bom-2.19.0-rc2.buildcompare) | 32K |
 | [2.19.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.19.0-rc1/pom) | [mvn jdk11](jackson-bom-2.19.0-rc1.buildspec) | [result](jackson-bom-2.19.0-rc1.buildinfo): [2 :white_check_mark: ](jackson-bom-2.19.0-rc1.buildcompare) | 32K |
 | [2.18.3](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.18.3/pom) | [mvn jdk11](jackson-bom-2.18.3.buildspec) | [result](jackson-bom-2.18.3.buildinfo): [2 :white_check_mark: ](jackson-bom-2.18.3.buildcompare) | 31K |
