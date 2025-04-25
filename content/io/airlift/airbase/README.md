@@ -20,6 +20,7 @@ rebuilding **99 releases** of io.airlift:airbase:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [254](https://central.sonatype.com/artifact/io.airlift/airbase/254/pom) | | | |
 | [253](https://central.sonatype.com/artifact/io.airlift/airbase/253/pom) | [mvn jdk17](airbase-253.buildspec) | [result](airbase-253.buildinfo): [4 :white_check_mark: ](airbase-253.buildcompare) | 99K |
 | [252](https://central.sonatype.com/artifact/io.airlift/airbase/252/pom) | [mvn jdk17](airbase-252.buildspec) | [result](airbase-252.buildinfo): [4 :white_check_mark: ](airbase-252.buildcompare) | 99K |
 | [251](https://central.sonatype.com/artifact/io.airlift/airbase/251/pom) | [mvn jdk17](airbase-251.buildspec) | [result](airbase-251.buildinfo): [4 :white_check_mark: ](airbase-251.buildcompare) | 99K |

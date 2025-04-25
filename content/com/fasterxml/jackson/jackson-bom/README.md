@@ -19,6 +19,7 @@ rebuilding **31 releases** of com.fasterxml.jackson:jackson-bom:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.19.0](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.19.0/pom) | | | |
 | [2.19.0-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.19.0-rc2/pom) | [mvn jdk11](jackson-bom-2.19.0-rc2.buildspec) | [result](jackson-bom-2.19.0-rc2.buildinfo): [2 :white_check_mark: ](jackson-bom-2.19.0-rc2.buildcompare) | 32K |
 | [2.19.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.19.0-rc1/pom) | [mvn jdk11](jackson-bom-2.19.0-rc1.buildspec) | [result](jackson-bom-2.19.0-rc1.buildinfo): [2 :white_check_mark: ](jackson-bom-2.19.0-rc1.buildcompare) | 32K |
 | [2.18.3](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.18.3/pom) | [mvn jdk11](jackson-bom-2.18.3.buildspec) | [result](jackson-bom-2.18.3.buildinfo): [2 :white_check_mark: ](jackson-bom-2.18.3.buildcompare) | 31K |
