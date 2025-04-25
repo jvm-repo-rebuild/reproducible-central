@@ -1,0 +1,9 @@
+version=2.19.0
+ok=29
+ko=0
+ignored=0
+okFiles="jackson-datatypes-misc-parent-2.19.0.pom jackson-datatype-joda-money-2.19.0.pom jackson-datatype-joda-money-2.19.0.jar jackson-datatype-joda-money-2.19.0-sources.jar jackson-datatype-joda-money-2.19.0.module jackson-datatype-json-org-2.19.0.pom jackson-datatype-json-org-2.19.0.jar jackson-datatype-json-org-2.19.0-sources.jar jackson-datatype-json-org-2.19.0.module jackson-datatype-jsr353-2.19.0.pom jackson-datatype-jsr353-2.19.0.jar jackson-datatype-jsr353-2.19.0-sources.jar jackson-datatype-jsr353-2.19.0.module jackson-datatype-jakarta-jsonp-2.19.0.pom jackson-datatype-jakarta-jsonp-2.19.0.jar jackson-datatype-jakarta-jsonp-2.19.0-sources.jar jackson-datatype-jakarta-jsonp-2.19.0.module jackson-datatype-jakarta-mail-2.19.0.pom jackson-datatype-jakarta-mail-2.19.0.jar jackson-datatype-jakarta-mail-2.19.0-sources.jar jackson-datatype-jakarta-mail-2.19.0.module jackson-datatype-javax-money-2.19.0.pom jackson-datatype-javax-money-2.19.0.jar jackson-datatype-javax-money-2.19.0-sources.jar jackson-datatype-javax-money-2.19.0.module jackson-datatype-moneta-2.19.0.pom jackson-datatype-moneta-2.19.0.jar jackson-datatype-moneta-2.19.0-sources.jar jackson-datatype-moneta-2.19.0.module"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
