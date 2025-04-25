@@ -1,0 +1,7 @@
+version=2.19
+ok=1
+ko=0
+ignored=0
+okFiles="jackson-parent-2.19.pom"
+koFiles=""
+ignoredFiles=""
