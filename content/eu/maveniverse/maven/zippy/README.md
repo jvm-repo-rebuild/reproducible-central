@@ -14,12 +14,13 @@ Source code: [https://github.com/maveniverse/zippy.git](https://github.com/maven
 * [eu.maveniverse.maven.zippy:zippy](https://central.sonatype.com/artifact/eu.maveniverse.maven.zippy/zippy/overview)
 </details>
 
-rebuilding **1 releases** of eu.maveniverse.maven.zippy:zippy:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of eu.maveniverse.maven.zippy:zippy:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [0.1.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.zippy/zippy/0.1.1/pom) | [mvn jdk21](zippy-0.1.1.buildspec) | [result](zippy-0.1.1.buildinfo): [7 :white_check_mark: ](zippy-0.1.1.buildcompare) | 48K |
+| [0.1.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.zippy/zippy/0.1.0/pom) | [mvn jdk21](zippy-0.1.0.buildspec) | [result](zippy-0.1.0.buildinfo): [7 :white_check_mark: ](zippy-0.1.0.buildcompare) | 53K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
