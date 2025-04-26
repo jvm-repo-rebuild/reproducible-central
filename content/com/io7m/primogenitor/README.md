@@ -22,6 +22,7 @@ rebuilding **37 releases** of com.io7m.primogenitor:com.io7m.primogenitor:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [8.5.0](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/8.5.0/pom) | | | |
 | [8.4.0](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/8.4.0/pom) | [mvn jdk21](com.io7m.primogenitor-8.4.0.buildspec) | [result](com.io7m.primogenitor-8.4.0.buildinfo): [16 :white_check_mark: ](com.io7m.primogenitor-8.4.0.buildcompare) | 2.8M |
 | [8.3.1](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/8.3.1/pom) | [mvn jdk21](com.io7m.primogenitor-8.3.1.buildspec) | [result](com.io7m.primogenitor-8.3.1.buildinfo): [9 :white_check_mark:  7 :warning:](com.io7m.primogenitor-8.3.1.buildcompare) | 2.8M |
 | [8.3.0](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/8.3.0/pom) | [mvn jdk21](com.io7m.primogenitor-8.3.0.buildspec) | [result](com.io7m.primogenitor-8.3.0.buildinfo): [9 :white_check_mark:  7 :warning:](com.io7m.primogenitor-8.3.0.buildcompare) | 2.8M |
