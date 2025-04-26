@@ -1,0 +1,17 @@
+groupId=org.openapitools.openapidiff
+artifactId=openapi-diff-parent
+display=${groupId}:${artifactId}
+version=2.1.0
+
+gitRepo=https://github.com/OpenAPITools/openapi-diff.git
+gitTag=${version}
+
+tool=mvn
+jdk=11
+newline=lf
+umask=022
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcyclonedx.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
