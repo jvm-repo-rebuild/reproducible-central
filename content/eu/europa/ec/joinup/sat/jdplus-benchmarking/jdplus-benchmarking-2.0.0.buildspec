@@ -1,0 +1,18 @@
+groupId=eu.europa.ec.joinup.sat
+artifactId=jdplus-benchmarking
+display=${groupId}:${artifactId}
+version=2.0.0
+
+gitRepo=https://github.com/jdemetra/jdplus-benchmarking.git
+gitTag=v${version}
+
+tool=mvn
+jdk=21
+newline=lf
+#umask=022
+
+command="mvn -Pbase-deploy clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
