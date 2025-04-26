@@ -1,0 +1,9 @@
+version=2.1.0
+ok=11
+ko=0
+ignored=0
+okFiles="openapi-diff-parent-2.1.0.pom openapi-diff-core-2.1.0.pom openapi-diff-core-2.1.0.jar openapi-diff-core-2.1.0-sources.jar openapi-diff-cli-2.1.0.pom openapi-diff-cli-2.1.0.jar openapi-diff-cli-2.1.0-sources.jar openapi-diff-cli-2.1.0-all.jar openapi-diff-maven-2.1.0.pom openapi-diff-maven-2.1.0.jar openapi-diff-maven-2.1.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
