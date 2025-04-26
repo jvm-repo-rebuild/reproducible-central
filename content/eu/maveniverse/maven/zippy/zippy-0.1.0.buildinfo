@@ -1,0 +1,66 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=eu.maveniverse.maven.zippy:zippy
+group-id=eu.maveniverse.maven.zippy
+artifact-id=zippy
+version=0.1.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:maveniverse/zippy.git
+source.scm.tag=release-0.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.6
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+mvn.aggregate.artifact-id=zippy
+
+# aggregated output
+
+outputs.0.coordinates=eu.maveniverse.maven.zippy:zippy
+
+outputs.0.0.groupId=eu.maveniverse.maven.zippy
+outputs.0.0.filename=zippy-0.1.0.pom
+outputs.0.0.length=7513
+outputs.0.0.checksums.sha512=276813621cf17cdc4203a2c6e23bddfee997e1879f998f548d7afd0c1b5444eba065dec680367dbb5107c056d6c90d35e1a9a643c63fefe9abefdfeef6c7ab0a
+
+outputs.1.coordinates=eu.maveniverse.maven.zippy:extension3
+
+outputs.1.0.groupId=eu.maveniverse.maven.zippy
+outputs.1.0.filename=extension3-0.1.0.pom
+outputs.1.0.length=2295
+outputs.1.0.checksums.sha512=82bc15d62658a4fd50a5cb30ebaefa6e9fca5bf0f6517d62468cc153a2884e88a9dd197275a8e421be2e26157a5f328ed29957504c460abe077fa8e72aaede19
+
+outputs.1.1.groupId=eu.maveniverse.maven.zippy
+outputs.1.1.filename=extension3-0.1.0.jar
+outputs.1.1.length=8416
+outputs.1.1.checksums.sha512=375667f8d611ab111c75cc27f454732f4b3e7354c9ff6f0fc67a0417f35ab878a6ec4a11f2fb85c883c2058b4ed3ff8023c324922c323a161a713d6fee637b77
+
+outputs.1.2.groupId=eu.maveniverse.maven.zippy
+outputs.1.2.filename=extension3-0.1.0-sources.jar
+outputs.1.2.length=6735
+outputs.1.2.checksums.sha512=2fa7a72e70040c7659cab96907412595915c2f24253f78766f1ffab21536f43e11fcc1d0228ef912bcce7c6d37601ab7b7b4fc34f08dcefac9010f8ff6ec306c
+
+outputs.2.coordinates=eu.maveniverse.maven.plugins:zippy
+
+outputs.2.0.groupId=eu.maveniverse.maven.plugins
+outputs.2.0.filename=zippy-0.1.0.pom
+outputs.2.0.length=3916
+outputs.2.0.checksums.sha512=0068561089749a6ff217b4d423a906a80ac6f3e55f3a8924dd9de0dd43d60b6746109fadb376e7afd86b873d0091d453f630f202196bc495d042c749e9625fbf
+
+outputs.2.1.groupId=eu.maveniverse.maven.plugins
+outputs.2.1.filename=zippy-0.1.0.jar
+outputs.2.1.length=16577
+outputs.2.1.checksums.sha512=4fd89cf42f614015263480c4762e005d378db16452cd8ead1b64af44c8e3e14a5ed3e6e5e63fe2306b2655c16b52c283311b66142d2690aefb5c9b8a29302588
+
+outputs.2.2.groupId=eu.maveniverse.maven.plugins
+outputs.2.2.filename=zippy-0.1.0-sources.jar
+outputs.2.2.length=8705
+outputs.2.2.checksums.sha512=abd5a6ece9b03f890da702e0db89700eb37cc1551af603fd5fb151fc93723388757ef3d03d5e56d8c20c698342ae1f5ec35bb1a633a5893b0fc2113523c9b1cb
