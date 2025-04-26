@@ -1,0 +1,10 @@
+version=5.5.1
+ok=13
+ko=1
+ignored=0
+okFiles="maven-lockfile-parent-5.5.1.pom maven-lockfile-parent-5.5.1-cyclonedx.xml maven-lockfile-parent-5.5.1-cyclonedx.json maven-lockfile-5.5.1.pom maven-lockfile-5.5.1.jar maven-lockfile-5.5.1-cyclonedx.xml maven-lockfile-5.5.1-cyclonedx.json maven-lockfile-5.5.1-sources.jar maven-lockfile-5.5.1-tests.jar maven-lockfile-github-action-5.5.1.pom maven-lockfile-github-action-5.5.1-cyclonedx.xml maven-lockfile-github-action-5.5.1-cyclonedx.json maven-lockfile-github-action-5.5.1-sources.jar"
+koFiles="maven-lockfile-github-action-5.5.1.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.github.chains-project/maven-lockfile-github-action-5.5.1.jar github_action/target/maven-lockfile-github-action-5.5.1.jar
