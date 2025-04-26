@@ -1,0 +1,9 @@
+version=0.1.1
+ok=7
+ko=0
+ignored=0
+okFiles="zippy-0.1.1.pom extension3-0.1.1.pom extension3-0.1.1.jar extension3-0.1.1-sources.jar zippy-0.1.1.pom zippy-0.1.1.jar zippy-0.1.1-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
