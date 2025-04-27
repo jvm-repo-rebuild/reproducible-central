@@ -1,9 +1,8 @@
-content/com/fasterxml/jackson/dataformat/jackson-dataformats-text/jackson-dataformats-text-2.19.0-rc2.buildspec:2.19.0
-content/com/github/hazendaz/javabean-tester/javabean-tester-2.8.4.buildspec:2.8.5
+content/com/github/hazendaz/jmockit/jmockit-1.55.0.buildspec:1.56.0
 content/com/github/hazendaz/git/github-desktop/github-desktop-3.4.18.buildspec:3.4.19
 content/com/google/code/gson/gson-2.13.0.buildspec:2.13.1
 content/com/io7m/primogenitor/com.io7m.primogenitor-8.4.0.buildspec:8.5.0
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.1-beta-13.buildspec:11.2.1-beta-14
 content/io/liftwizard/liftwizard-2.1.28.buildspec:2.1.29
 content/io/trino/trino-474.buildspec:475
-content/org/openapitools/openapidiff/openapi-diff-2.1.0-beta.12.buildspec:2.1.0

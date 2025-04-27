@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **7104 releases** of **870 projects**:
-   - **5131** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **7099 releases** of **870 projects**:
+   - **5126** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 1973 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 870 projects, 756 have at least one fully reproducible release, 114 have none
+   - on 870 projects, 755 have at least one fully reproducible release, 115 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -46,7 +46,7 @@ Its objectives are to provide:
 | com.fasterxml.jackson.jr | [jackson-jr](content/com/fasterxml/jackson/jr/README.md) | 31 | 10 :white_check_mark: / 21 :warning: |
 | com.fasterxml.jackson.dataformat | [jackson-dataformat-xml](content/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/README.md) | 24 | 15 :white_check_mark: / 9 :warning: |
 | | [jackson-dataformats-binary](content/com/fasterxml/jackson/dataformat/jackson-dataformats-binary/README.md) | 24 | 10 :white_check_mark: / 14 :warning: |
-| | [jackson-dataformats-text](content/com/fasterxml/jackson/dataformat/jackson-dataformats-text/README.md) | 23 | 14 :white_check_mark: / 9 :warning: |
+| | [jackson-dataformats-text](content/com/fasterxml/jackson/dataformat/jackson-dataformats-text/README.md) | 24 | 15 :white_check_mark: / 9 :warning: |
 | com.fasterxml.jackson.datatype | [jackson-datatype-joda](content/com/fasterxml/jackson/datatype/jackson-datatype-joda/README.md) | 24 | 15 :white_check_mark: / 9 :warning: |
 | | [jackson-datatypes-collections](content/com/fasterxml/jackson/datatype/jackson-datatypes-collections/README.md) | 24 | 15 :white_check_mark: / 9 :warning: |
 | | [jackson-datatypes-misc](content/com/fasterxml/jackson/datatype/jackson-datatypes-misc-parent/README.md) | 24 | 15 :white_check_mark: / 9 :warning: |
@@ -60,7 +60,7 @@ Its objectives are to provide:
 | com.github.hazendaz.* | [catch-exception](content/com/github/hazendaz/catch-exception/README.md) | 4 | 4 :white_check_mark: |
 | com.github.hazendaz | [displaytag-doc](content/com/github/hazendaz/displaytag-doc/README.md) | 15 | 12 :white_check_mark: / 3 :warning: |
 | | [htmlcompressor](content/com/github/hazendaz/htmlcompressor/README.md) | 12 | 12 :warning: |
-| | [javabean-tester](content/com/github/hazendaz/javabean-tester/README.md) | 16 | 13 :white_check_mark: / 3 :warning: |
+| | [javabean-tester](content/com/github/hazendaz/javabean-tester/README.md) | 17 | 14 :white_check_mark: / 3 :warning: |
 | | [jmockit](content/com/github/hazendaz/jmockit/README.md) | 5 | 5 :white_check_mark: |
 | | [sitemesh](content/com/github/hazendaz/sitemesh/README.md) | 5 | 5 :white_check_mark: |
 | | [smartsprites](content/com/github/hazendaz/smartsprites/README.md) | 1 | 1 :white_check_mark: |
@@ -355,7 +355,7 @@ Its objectives are to provide:
 | jakarta.mail | [jakarta.mail-api](content/jakarta/mail/jakarta.mail-api/README.md) | 1 | 1 :warning: |
 | jakarta.persistence | [jakarta.persistence-api](content/jakarta/persistence/jakarta.persistence-api/README.md) | 4 | 4 :white_check_mark: |
 | jakarta.servlet | [jakarta.servlet-api](content/jakarta/servlet/jakarta.servlet-api/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
-| land.oras | [oras-java-sdk](content/land/oras/oras-java-sdk/README.md) | 8 | 8 :white_check_mark: |
+|  | [](content/land/oras/oras-java-sdk/README.md) | 0 | 0 :warning: |
 | net.bytebuddy | [byte-buddy](content/net/bytebuddy/README.md) | 50 | 44 :white_check_mark: / 6 :warning: |
 | net.jsign | [jsign](content/net/jsign/README.md) | 5 | 1 :white_check_mark: / 4 :warning: |
 | net.bzzt | [reproducible-builds-jvm-stripper](content/net/bzzt/reproducible-builds-jvm-stripper/README.md) | 1 | 1 :white_check_mark: |
@@ -830,7 +830,7 @@ Its objectives are to provide:
 | org.mybatis.spring.boot | [mybatis-spring-boot](content/org/mybatis/spring/boot/README.md) | 8 | 8 :warning: |
 | | [mybatis-spring-boot](content/org/mybatis/spring/boot/mybatis-spring-boot/README.md) | 2 | 2 :white_check_mark: |
 | org.nlpub | [watset](content/org/nlpub/watset/README.md) | 14 | 11 :white_check_mark: / 3 :warning: |
-| org.openapitools.openapidiff | [openapi-diff-parent](content/org/openapitools/openapidiff/README.md) | 13 | 13 :white_check_mark: |
+| org.openapitools.openapidiff | [openapi-diff-parent](content/org/openapitools/openapidiff/README.md) | 14 | 14 :white_check_mark: |
 | org.osgi | [test](content/org/osgi/test/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
 | org.owasp.antisamy | [antisamy](content/org/owasp/antisamy/README.md) | 18 | 17 :white_check_mark: / 1 :warning: |
 | org.owasp | [dependency-check](content/org/owasp/dependency-check/README.md) | 62 | 43 :white_check_mark: / 19 :warning: |
@@ -893,7 +893,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 6 | 6 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 21 | 3 :white_check_mark: / 18 :warning: |
-| **Count:** | **870** | **7104** | **5131** :white_check_mark:<br>**1973** :warning: |
+| **Count:** | **870** | **7099** | **5126** :white_check_mark:<br>**1973** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -910,7 +910,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      35 mvn         7
    1529 mvn         8
       1 mvn         9
-   1487 mvn        11
+   1488 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
@@ -1008,7 +1008,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      52 mvn-3.9.5  21
      11 mvn-3.9.5  22
       1 mvn-3.9.5  24
-    110 mvn-3.9.6   8
+    111 mvn-3.9.6   8
      38 mvn-3.9.6  11
      66 mvn-3.9.6  17
       3 mvn-3.9.6  17.0.7
@@ -1028,9 +1028,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      16 mvn-3.9.8  23
      62 mvn-3.9.9   8
      79 mvn-3.9.9  11
-    140 mvn-3.9.9  17
+    132 mvn-3.9.9  17
       2 mvn-3.9.9  18
-    149 mvn-3.9.9  21
+    150 mvn-3.9.9  21
      12 mvn-3.9.9  21.0.2
      13 mvn-3.9.9  22
       2 mvn-3.9.9  23
