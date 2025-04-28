@@ -1,0 +1,19 @@
+groupId=com.spotify
+artifactId=github-client
+version=0.4.4
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/spotify/github-java-client.git
+gitTag=v${version}
+
+tool=mvn-3.9.9
+jdk=11
+newline=lf
+
+command="mvn -Pdeploy,coverage clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
