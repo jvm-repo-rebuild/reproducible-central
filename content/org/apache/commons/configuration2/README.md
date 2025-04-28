@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.apache.commons:commons-configuration2:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.12.0](https://central.sonatype.com/artifact/org.apache.commons/commons-configuration2/2.12.0/pom) | | | |
 | [2.11.0](https://central.sonatype.com/artifact/org.apache.commons/commons-configuration2/2.11.0/pom) | [mvn jdk17](commons-configuration2-2.11.0.buildspec) | [result](commons-configuration2-2.11.0.buildinfo): [5 :white_check_mark: ](commons-configuration2-2.11.0.buildcompare) | 2.8M |
 | [2.10.1](https://central.sonatype.com/artifact/org.apache.commons/commons-configuration2/2.10.1/pom) | [mvn jdk17](commons-configuration2-2.10.1.buildspec) | [result](commons-configuration2-2.10.1.buildinfo): [5 :white_check_mark: ](commons-configuration2-2.10.1.buildcompare) | 2.8M |
 | [2.10.0](https://central.sonatype.com/artifact/org.apache.commons/commons-configuration2/2.10.0/pom) | [mvn jdk21](commons-configuration2-2.10.0.buildspec) | [result](commons-configuration2-2.10.0.buildinfo): [5 :white_check_mark: ](commons-configuration2-2.10.0.buildcompare) | 2.8M |

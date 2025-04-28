@@ -3,8 +3,8 @@
   <groupId>org.apache.sling</groupId>
   <artifactId>org.apache.sling.event</artifactId>
   <versioning>
-    <latest>4.3.14</latest>
-    <release>4.3.14</release>
+    <latest>4.3.16</latest>
+    <release>4.3.16</release>
     <versions>
       <version>2.0.2-incubator</version>
       <version>2.0.4-incubator</version>
@@ -58,7 +58,8 @@
       <version>4.3.8</version>
       <version>4.3.12</version>
       <version>4.3.14</version>
+      <version>4.3.16</version>
     </versions>
-    <lastUpdated>20231016093036</lastUpdated>
+    <lastUpdated>20250428162039</lastUpdated>
   </versioning>
 </metadata>
