@@ -19,13 +19,13 @@ Source code: [https://github.com/hazendaz/jmockit1.git](https://github.com/hazen
 * [com.github.hazendaz.jmockit:tutorial](https://central.sonatype.com/artifact/com.github.hazendaz.jmockit/tutorial/overview)
 </details>
 
-rebuilding **5 releases** of com.github.hazendaz.jmockit:jmockit-parent:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **6 releases** of com.github.hazendaz.jmockit:jmockit-parent:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.56.0](https://central.sonatype.com/artifact/com.github.hazendaz.jmockit/jmockit-parent/1.56.0/pom) | | | |
+| [1.56.0](https://central.sonatype.com/artifact/com.github.hazendaz.jmockit/jmockit-parent/1.56.0/pom) | [mvn jdk21 w](jmockit-1.56.0.buildspec) | [result](jmockit-parent-1.56.0.buildinfo): [48 :white_check_mark: ](jmockit-parent-1.56.0.buildcompare) | 19M |
 | [1.55.0](https://central.sonatype.com/artifact/com.github.hazendaz.jmockit/jmockit-parent/1.55.0/pom) | [mvn jdk22 w](jmockit-1.55.0.buildspec) | [result](jmockit-parent-1.55.0.buildinfo): [48 :white_check_mark: ](jmockit-parent-1.55.0.buildcompare) | 19M |
 | [1.54.0](https://central.sonatype.com/artifact/com.github.hazendaz.jmockit/jmockit-parent/1.54.0/pom) | [mvn jdk22 w](jmockit-1.54.0.buildspec) | [result](jmockit-parent-1.54.0.buildinfo): [48 :white_check_mark: ](jmockit-parent-1.54.0.buildcompare) | 19M |
 | [1.53.0](https://central.sonatype.com/artifact/com.github.hazendaz.jmockit/jmockit-parent/1.53.0/pom) | [mvn jdk22 w](jmockit-1.53.0.buildspec) | [result](jmockit-parent-1.53.0.buildinfo): [48 :white_check_mark: ](jmockit-parent-1.53.0.buildcompare) | 19M |
