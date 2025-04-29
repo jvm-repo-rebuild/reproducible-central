@@ -1,0 +1,17 @@
+groupId=io.liftwizard
+artifactId=liftwizard
+display=${groupId}:${artifactId}
+version=2.1.29
+
+gitRepo=https://github.com/motlin/${artifactId}.git
+gitTag=${version}
+
+tool=mvn-3.9.6
+jdk=17
+newline=lf
+umask=022
+
+command="mvn -T 1 -Pdeploy clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
