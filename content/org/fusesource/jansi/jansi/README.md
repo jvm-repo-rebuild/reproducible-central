@@ -13,6 +13,7 @@ rebuilding **9 releases** of org.fusesource.jansi:jansi:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.4.2](https://central.sonatype.com/artifact/org.fusesource.jansi/jansi/2.4.2/pom) | | | |
 | [2.4.1](https://central.sonatype.com/artifact/org.fusesource.jansi/jansi/2.4.1/pom) | [mvn jdk11](jansi-2.4.1.buildspec) | [result](jansi-2.4.1.buildinfo): [2 :white_check_mark:  1 :warning:](jansi-2.4.1.buildcompare) [:mag:](jansi-2.4.1.diffoscope) [:memo:](https://github.com/moditect/moditect/pull/211) | 485K |
 | [2.4.0](https://central.sonatype.com/artifact/org.fusesource.jansi/jansi/2.4.0/pom) | [mvn jdk11](jansi-2.4.0.buildspec) | [result](jansi-2.4.0.buildinfo): [3 :white_check_mark: ](jansi-2.4.0.buildcompare) | 413K |
 | [2.3.4](https://central.sonatype.com/artifact/org.fusesource.jansi/jansi/2.3.4/pom) | [mvn jdk8](jansi-2.3.4.buildspec) | [result](jansi-2.3.4.buildinfo): [ 3 :warning:](jansi-2.3.4.buildcompare) [:mag:](jansi-2.3.4.diffoscope) | 400K |
