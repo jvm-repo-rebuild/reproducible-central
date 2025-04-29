@@ -230,13 +230,13 @@ Source code: [https://github.com/apache/activemq-artemis.git](https://github.com
 * [org.apache.activemq:artemis-website](https://central.sonatype.com/artifact/org.apache.activemq/artemis-website/overview)
 </details>
 
-rebuilding **17 releases** of org.apache.activemq:artemis-pom:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **18 releases** of org.apache.activemq:artemis-pom:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.41.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.41.0/pom) | | | |
+| [2.41.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.41.0/pom) | [mvn jdk17](artemis-2.41.0.buildspec) | [result](artemis-project-2.41.0.buildinfo): [152 :white_check_mark: ](artemis-project-2.41.0.buildcompare) | 201M |
 | [2.40.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.40.0/pom) | [mvn jdk17](artemis-2.40.0.buildspec) | [result](artemis-project-2.40.0.buildinfo): [152 :white_check_mark: ](artemis-project-2.40.0.buildcompare) | 201M |
 | [2.39.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.39.0/pom) | [mvn jdk17](artemis-2.39.0.buildspec) | [result](artemis-project-2.39.0.buildinfo): [156 :white_check_mark: ](artemis-project-2.39.0.buildcompare) | 201M |
 | [2.38.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.38.0/pom) | [mvn jdk11](artemis-2.38.0.buildspec) | [result](artemis-project-2.38.0.buildinfo): [156 :white_check_mark: ](artemis-project-2.38.0.buildcompare) | 257M |
