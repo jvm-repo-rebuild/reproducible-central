@@ -1,0 +1,50 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Configuration
+group-id=org.apache.commons
+artifact-id=commons-configuration2
+version=2.12.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-configuration.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.6
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-configuration2-2.12.0.pom
+outputs.0.length=28914
+outputs.0.checksums.sha512=3c359518174102e70e4d79c9536e52f9518eb5725e3ed2ccc37f700d6a0400db0386579be4b56e5f58e9451d14acc0dc424fd78b866e886df0ec4b4de3014299
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-configuration2-2.12.0.jar
+outputs.1.length=673927
+outputs.1.checksums.sha512=46681fd7f5505f3deec715a3d36fb11dd626eae1b5fd6b24d34c9cc4c68160db7d766cc46a85badfc348e36bc18626709113478badadfb28e3e40dc33d319e82
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-configuration2-2.12.0-tests.jar
+outputs.2.length=912662
+outputs.2.checksums.sha512=4cfb1df42f4ed9be0badda66e54a29424f3ac2792eb5c8745774ffd28164baac90802a35bc983b86ef137ccd930ba909435653f7fd1a0c4750b0acbfbd7a24ff
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-configuration2-2.12.0-sources.jar
+outputs.3.length=691594
+outputs.3.checksums.sha512=cb70b0d0ac63d5da58fab6eb02fd53190834bccd300d4137cb19bea1a064a2a7c82fdf09ec4a175c57cc164dcad4d40313d1121391563cb374631711830a7f46
+
+outputs.4.groupId=org.apache.commons
+outputs.4.filename=commons-configuration2-2.12.0-test-sources.jar
+outputs.4.length=611520
+outputs.4.checksums.sha512=eecf2c2daa5286204d6be3059acd90592b25b407ed6c31352a7ecd239f1bb3b52d5c4c78a9173bc5e06828110d7d31ed9e8e246a582768d06d48214e2845d385
+# ignored commons-configuration2-2.12.0.spdx.json

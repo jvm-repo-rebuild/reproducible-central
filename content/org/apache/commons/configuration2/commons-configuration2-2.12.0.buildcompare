@@ -1,0 +1,10 @@
+version=2.12.0
+ok=4
+ko=1
+ignored=1
+okFiles="commons-configuration2-2.12.0.pom commons-configuration2-2.12.0-tests.jar commons-configuration2-2.12.0-sources.jar commons-configuration2-2.12.0-test-sources.jar"
+koFiles="commons-configuration2-2.12.0.jar"
+ignoredFiles="commons-configuration2-2.12.0.spdx.json"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.commons/commons-configuration2-2.12.0.jar target/commons-configuration2-2.12.0.jar
