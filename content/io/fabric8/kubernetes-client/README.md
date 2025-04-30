@@ -206,6 +206,7 @@ rebuilding **41 releases** of io.fabric8:kubernetes-client-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [7.2.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.2.0/pom) | | | |
 | [7.1.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.1.0/pom) | [mvn jdk11](kubernetes-client-7.1.0.buildspec) | [result](kubernetes-client-project-7.1.0.buildinfo): [360 :white_check_mark:  2 :warning:](kubernetes-client-project-7.1.0.buildcompare) | 219M |
 | [7.0.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.0.1/pom) | [mvn jdk11](kubernetes-client-7.0.1.buildspec) | [result](kubernetes-client-project-7.0.1.buildinfo): [360 :white_check_mark:  2 :warning:](kubernetes-client-project-7.0.1.buildcompare) | 210M |
 | [7.0.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.0.0/pom) | [mvn jdk11](kubernetes-client-7.0.0.buildspec) | [result](kubernetes-client-project-7.0.0.buildinfo): [360 :white_check_mark:  2 :warning:](kubernetes-client-project-7.0.0.buildcompare) [:mag:](kubernetes-client-project-7.0.0.diffoscope) | 210M |
