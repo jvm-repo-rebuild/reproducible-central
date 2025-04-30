@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/jreleaser/jreleaser.git](https://github.com/jreleaser/jreleaser.git)
 
-<details><summary>This project defines 52 modules:</summary>
+<details><summary>This project defines 54 modules:</summary>
 
 * [org.jreleaser:jdks-maven-plugin](https://central.sonatype.com/artifact/org.jreleaser/jdks-maven-plugin/overview)
 * [org.jreleaser:jreleaser](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/overview)
@@ -24,6 +24,7 @@ Source code: [https://github.com/jreleaser/jreleaser.git](https://github.com/jre
 * [org.jreleaser:jreleaser-discord-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-discord-java-sdk/overview)
 * [org.jreleaser:jreleaser-discourse-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-discourse-java-sdk/overview)
 * [org.jreleaser:jreleaser-engine](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-engine/overview)
+* [org.jreleaser:jreleaser-forgejo-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-forgejo-java-sdk/overview)
 * [org.jreleaser:jreleaser-ftp-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-ftp-java-sdk/overview)
 * [org.jreleaser:jreleaser-genericgit-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-genericgit-java-sdk/overview)
 * [org.jreleaser:jreleaser-git-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-git-java-sdk/overview)
@@ -44,6 +45,7 @@ Source code: [https://github.com/jreleaser/jreleaser.git](https://github.com/jre
 * [org.jreleaser:jreleaser-model-api](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-model-api/overview)
 * [org.jreleaser:jreleaser-model-impl](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-model-impl/overview)
 * [org.jreleaser:jreleaser-nexus2-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-nexus2-java-sdk/overview)
+* [org.jreleaser:jreleaser-nexus3-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-nexus3-java-sdk/overview)
 * [org.jreleaser:jreleaser-opencollective-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-opencollective-java-sdk/overview)
 * [org.jreleaser:jreleaser-resource-bundle](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-resource-bundle/overview)
 * [org.jreleaser:jreleaser-s3-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-s3-java-sdk/overview)
@@ -63,13 +65,13 @@ Source code: [https://github.com/jreleaser/jreleaser.git](https://github.com/jre
 * [org.jreleaser:jreleaser-zulip-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-zulip-java-sdk/overview)
 </details>
 
-rebuilding **13 releases** of org.jreleaser:jreleaser:
+rebuilding **14 releases** of org.jreleaser:jreleaser:
 - **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.18.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.18.0/pom) | | | |
+| [1.18.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.18.0/pom) | [gradle jdk21](jreleaser-1.18.0.buildspec) | [result](jreleaser-1.18.0.buildinfo): [161 :white_check_mark:  1 :warning:](jreleaser-1.18.0.buildcompare) | 51M |
 | [1.17.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.17.0/pom) | [gradle jdk21](jreleaser-1.17.0.buildspec) | [result](jreleaser-1.17.0.buildinfo): [155 :white_check_mark:  1 :warning:](jreleaser-1.17.0.buildcompare) [:mag:](jreleaser-1.17.0.diffoscope) | 51M |
 | [1.16.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.16.0/pom) | [gradle jdk21](jreleaser-1.16.0.buildspec) | [result](jreleaser-1.16.0.buildinfo): [156 :white_check_mark: ](jreleaser-1.16.0.buildcompare) | 51M |
 | [1.15.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.15.0/pom) | [gradle jdk17](jreleaser-1.15.0.buildspec) | [result](jreleaser-1.15.0.buildinfo): [156 :white_check_mark: ](jreleaser-1.15.0.buildcompare) | 50M |
