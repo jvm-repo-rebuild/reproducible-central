@@ -1,0 +1,26 @@
+version=3.2
+ok=4
+ko=18
+ignored=0
+okFiles="avaje-jex-3.2.jar avaje-jex-grizzly-spi-0.5.pom avaje-jex-htmx-3.2.jar avaje-jex-static-content-3.2.jar"
+koFiles="avaje-jex-parent-3.2.pom avaje-jex-3.2.pom avaje-jex-3.2-sources.jar avaje-jex-test-3.2.pom avaje-jex-test-3.2.jar avaje-jex-test-3.2-sources.jar avaje-jex-freemarker-3.2.pom avaje-jex-freemarker-3.2.jar avaje-jex-freemarker-3.2-sources.jar avaje-jex-grizzly-spi-0.5.jar avaje-jex-grizzly-spi-0.5-sources.jar avaje-jex-htmx-3.2.pom avaje-jex-htmx-3.2-sources.jar avaje-jex-mustache-3.2.pom avaje-jex-mustache-3.2.jar avaje-jex-mustache-3.2-sources.jar avaje-jex-static-content-3.2.pom avaje-jex-static-content-3.2-sources.jar"
+ignoredFiles=""
+reference_java_version="24 (from MANIFEST.MF Build-Jdk-Spec)"
+# diffoscope target/reference/io.avaje/avaje-jex-parent-3.2.pom pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-3.2.pom avaje-jex/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-3.2-sources.jar avaje-jex/target/avaje-jex-3.2-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jex-test-3.2.pom avaje-jex-test/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-test-3.2.jar avaje-jex-test/target/avaje-jex-test-3.2.jar
+# diffoscope target/reference/io.avaje/avaje-jex-test-3.2-sources.jar avaje-jex-test/target/avaje-jex-test-3.2-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jex-freemarker-3.2.pom avaje-jex-freemarker/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-freemarker-3.2.jar avaje-jex-freemarker/target/avaje-jex-freemarker-3.2.jar
+# diffoscope target/reference/io.avaje/avaje-jex-freemarker-3.2-sources.jar avaje-jex-freemarker/target/avaje-jex-freemarker-3.2-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jex-grizzly-spi-0.5.jar avaje-jex-grizzly-spi/target/avaje-jex-grizzly-spi-0.5.jar
+# diffoscope target/reference/io.avaje/avaje-jex-grizzly-spi-0.5-sources.jar avaje-jex-grizzly-spi/target/avaje-jex-grizzly-spi-0.5-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jex-htmx-3.2.pom avaje-jex-htmx/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-htmx-3.2-sources.jar avaje-jex-htmx/target/avaje-jex-htmx-3.2-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jex-mustache-3.2.pom avaje-jex-mustache/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-mustache-3.2.jar avaje-jex-mustache/target/avaje-jex-mustache-3.2.jar
+# diffoscope target/reference/io.avaje/avaje-jex-mustache-3.2-sources.jar avaje-jex-mustache/target/avaje-jex-mustache-3.2-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jex-static-content-3.2.pom avaje-jex-static-content/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-static-content-3.2-sources.jar avaje-jex-static-content/target/avaje-jex-static-content-3.2-sources.jar

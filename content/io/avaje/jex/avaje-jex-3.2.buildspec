@@ -9,7 +9,7 @@ gitTag=${version}
 
 tool=mvn
 jdk=24
-newline=lf
+newline=crlf
 #umask=022
 
 command="mvn -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dnexus.staging.autoReleaseAfterClose"
