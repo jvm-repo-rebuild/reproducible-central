@@ -1,0 +1,19 @@
+groupId=org.jdbi.internal
+artifactId=jdbi3-root
+display=${groupId}:${artifactId}
+version=3.49.2
+
+gitRepo=https://github.com/jdbi/jdbi.git
+gitTag=v${version}
+
+tool=mvn-3.9.8
+jdk=21
+newline=lf
+timezone="America/Los_Angeles"
+umask=022
+
+command="mvn -Pjdbi-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/jdbi3-parent-${version}.buildinfo
+
+#diffoscope=jdbi3-parent-${version}.diffoscope
+issue=
