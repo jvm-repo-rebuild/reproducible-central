@@ -1,0 +1,20 @@
+groupId=org.jreleaser
+artifactId=jreleaser
+display=${groupId}:${artifactId}
+version=1.18.0
+
+gitRepo=https://github.com/jreleaser/jreleaser.git
+gitTag=v${version}
+
+tool=gradle
+jdk=21
+newline=lf
+umask=022
+
+# Do not publish Gradle plugins
+# Skip kordamp-inline-plugin
+command="./gradlew --no-daemon --no-build-cache -Dorg.kordamp.gradle.inline.enabled=false -PreproducibleBuild=true publish publishToMavenLocal -x :jdks-gradle-plugin:publishToMavenLocal -x :jreleaser-gradle-plugin:publishToMavenLocal"
+buildinfo=${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
