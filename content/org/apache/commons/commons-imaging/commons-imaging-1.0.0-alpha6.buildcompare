@@ -1,0 +1,9 @@
+version=1.0.0-alpha6
+ok=7
+ko=0
+ignored=1
+okFiles="commons-imaging-1.0.0-alpha6.pom commons-imaging-1.0.0-alpha6.jar commons-imaging-1.0.0-alpha6-tests.jar commons-imaging-1.0.0-alpha6-sources.jar commons-imaging-1.0.0-alpha6-test-sources.jar commons-imaging-1.0.0-alpha6-cyclonedx.xml commons-imaging-1.0.0-alpha6-cyclonedx.json"
+koFiles=""
+ignoredFiles="commons-imaging-1.0.0-alpha6.spdx.json"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
