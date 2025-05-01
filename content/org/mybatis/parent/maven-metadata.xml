@@ -3,56 +3,11 @@
   <groupId>org.mybatis</groupId>
   <artifactId>mybatis-parent</artifactId>
   <versioning>
-    <latest>48</latest>
-    <release>48</release>
+    <latest>49</latest>
+    <release>49</release>
     <versions>
-      <version>1.0.0</version>
-      <version>1.0.1</version>
-      <version>3</version>
-      <version>4</version>
-      <version>5</version>
-      <version>6</version>
-      <version>7</version>
-      <version>8</version>
-      <version>9</version>
-      <version>10</version>
-      <version>11</version>
-      <version>12</version>
-      <version>14</version>
-      <version>15</version>
-      <version>16</version>
-      <version>17</version>
-      <version>18</version>
-      <version>19</version>
-      <version>20</version>
-      <version>21</version>
-      <version>22</version>
-      <version>23</version>
-      <version>24</version>
-      <version>25</version>
-      <version>26</version>
-      <version>27</version>
-      <version>28</version>
-      <version>29</version>
-      <version>30</version>
-      <version>31</version>
-      <version>32</version>
-      <version>33</version>
-      <version>34</version>
-      <version>35</version>
-      <version>36</version>
-      <version>37</version>
-      <version>38</version>
-      <version>39</version>
-      <version>40</version>
-      <version>41</version>
-      <version>42</version>
-      <version>43</version>
-      <version>44</version>
-      <version>45</version>
-      <version>46</version>
-      <version>48</version>
+      <version>49</version>
     </versions>
-    <lastUpdated>20241226203910</lastUpdated>
+    <lastUpdated>20250501021233</lastUpdated>
   </versioning>
 </metadata>

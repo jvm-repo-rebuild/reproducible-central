@@ -3,8 +3,8 @@
   <groupId>io.takari.maven.plugins</groupId>
   <artifactId>takari-plugin-testing</artifactId>
   <versioning>
-    <latest>3.0.5</latest>
-    <release>3.0.5</release>
+    <latest>3.1.0</latest>
+    <release>3.1.0</release>
     <versions>
       <version>2.9.2</version>
       <version>3.0.0</version>
@@ -13,7 +13,8 @@
       <version>3.0.3</version>
       <version>3.0.4</version>
       <version>3.0.5</version>
+      <version>3.1.0</version>
     </versions>
-    <lastUpdated>20240910165605</lastUpdated>
+    <lastUpdated>20250501133757</lastUpdated>
   </versioning>
 </metadata>
