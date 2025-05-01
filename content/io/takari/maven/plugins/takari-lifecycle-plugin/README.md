@@ -13,13 +13,13 @@ Source code: [https://github.com/takari/takari-lifecycle.git](https://github.com
 * [io.takari.maven.plugins:takari-lifecycle-plugin](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-lifecycle-plugin/overview)
 </details>
 
-rebuilding **5 releases** of io.takari.maven.plugins:takari-lifecycle-plugin:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **6 releases** of io.takari.maven.plugins:takari-lifecycle-plugin:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.3.0](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-lifecycle-plugin/2.3.0/pom) | | | |
+| [2.3.0](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-lifecycle-plugin/2.3.0/pom) | [mvn jdk21](takari-lifecycle-plugin-2.3.0.buildspec) | [result](takari-lifecycle-2.3.0.buildinfo): [4 :white_check_mark: ](takari-lifecycle-2.3.0.buildcompare) | 469K |
 | [2.2.0](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-lifecycle-plugin/2.2.0/pom) | [mvn jdk21](takari-lifecycle-plugin-2.2.0.buildspec) | [result](takari-lifecycle-2.2.0.buildinfo): [4 :white_check_mark: ](takari-lifecycle-2.2.0.buildcompare) | 468K |
 | [2.1.8](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-lifecycle-plugin/2.1.8/pom) | [mvn jdk11](takari-lifecycle-plugin-2.1.8.buildspec) | [result](takari-lifecycle-2.1.8.buildinfo): [4 :white_check_mark: ](takari-lifecycle-2.1.8.buildcompare) | 474K |
 | [2.1.7](https://central.sonatype.com/artifact/io.takari.maven.plugins/takari-lifecycle-plugin/2.1.7/pom) | [mvn jdk11](takari-lifecycle-plugin-2.1.7.buildspec) | [result](takari-lifecycle-2.1.7.buildinfo): [3 :white_check_mark:  1 :warning:](takari-lifecycle-2.1.7.buildcompare) [:mag:](takari-lifecycle-2.1.7.diffoscope) [:memo:](https://github.com/takari/takari-lifecycle/issues/171) | 461K |
