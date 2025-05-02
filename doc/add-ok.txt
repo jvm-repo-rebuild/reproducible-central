@@ -2,12 +2,12 @@ content/com/github/hazendaz/git/github-desktop/github-desktop-3.4.18.buildspec:3
 content/com/google/code/gson/gson-2.13.0.buildspec:2.13.1
 content/com/io7m/primogenitor/com.io7m.primogenitor-8.4.0.buildspec:8.5.0
 content/com/spotify/github-client/github-client-0.4.3.buildspec:0.4.4
+content/dev/langchain4j/langchain4j-1.0.0-beta3.buildspec:1.0.0-rc1
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
-content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.1.4.buildspec:1.1.5
+content/io/airlift/airbase/airbase-256.buildspec:257
 content/io/avaje/http/avaje-http-3.3-RC2.buildspec:3.3
 content/io/avaje/inject/avaje-inject-11.5-RC3.buildspec:11.5
 content/io/avaje/jex/avaje-jex-3.2-RC1.buildspec:3.2
-content/io/takari/maven/maven-timeline/maven-timeline-2.0.2.buildspec:2.0.3
-content/io/takari/maven/takari-smart-builder/takari-smart-builder-1.0.2.buildspec:1.1.0
-content/io/takari/maven/plugins/takari-lifecycle-plugin/takari-lifecycle-plugin-2.2.0.buildspec:2.3.0
-content/io/takari/maven/plugins/takari-plugin-testing/takari-plugin-testing-3.0.5.buildspec:3.1.0
+content/org/apache/ratis/ratis-thirdparty/ratis-thirdparty-1.0.8.buildspec:1.0.9
+content/org/junit/junit5/junit5-5.13.0-M2.buildspec:5.13.0-M3
+content/org/spdx/spdx-maven-plugin/spdx-maven-plugin-1.0.1.buildspec:1.0.2

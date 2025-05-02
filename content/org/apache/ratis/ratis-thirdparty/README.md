@@ -19,6 +19,7 @@ rebuilding **2 releases** of org.apache.ratis:ratis-thirdparty:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.9](https://central.sonatype.com/artifact/org.apache.ratis/ratis-thirdparty/1.0.9/pom) | | | |
 | [1.0.8](https://central.sonatype.com/artifact/org.apache.ratis/ratis-thirdparty/1.0.8/pom) | [mvn jdk8](ratis-thirdparty-1.0.8.buildspec) | [result](ratis-thirdparty-1.0.8.buildinfo): [9 :white_check_mark: ](ratis-thirdparty-1.0.8.buildcompare) | 40M |
 | [1.0.7](https://central.sonatype.com/artifact/org.apache.ratis/ratis-thirdparty/1.0.7/pom) | [mvn jdk8](ratis-thirdparty-1.0.7.buildspec) | [result](ratis-thirdparty-1.0.7.buildinfo): [9 :white_check_mark: ](ratis-thirdparty-1.0.7.buildcompare) | 39M |
 
