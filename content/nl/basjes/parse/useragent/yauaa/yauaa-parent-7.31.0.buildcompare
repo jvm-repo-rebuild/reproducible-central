@@ -1,0 +1,9 @@
+version=7.31.0
+ok=43
+ko=0
+ignored=0
+okFiles="yauaa-parent-7.31.0.pom yauaa-7.31.0.pom yauaa-7.31.0.jar yauaa-7.31.0-sources.jar yauaa-udf-parent-7.31.0.pom yauaa-logparser-7.31.0.pom yauaa-logparser-7.31.0.jar yauaa-logparser-7.31.0-sources.jar yauaa-logparser-7.31.0-udf.jar yauaa-flink-7.31.0.pom yauaa-flink-7.31.0.jar yauaa-flink-7.31.0-sources.jar yauaa-flink-table-7.31.0.pom yauaa-flink-table-7.31.0.jar yauaa-flink-table-7.31.0-sources.jar yauaa-beam-7.31.0.pom yauaa-beam-7.31.0.jar yauaa-beam-7.31.0-sources.jar yauaa-beam-sql-7.31.0.pom yauaa-beam-sql-7.31.0.jar yauaa-beam-sql-7.31.0-sources.jar yauaa-hive-7.31.0.pom yauaa-hive-7.31.0.jar yauaa-hive-7.31.0-sources.jar yauaa-hive-7.31.0-udf.jar yauaa-drill-7.31.0.pom yauaa-drill-7.31.0.jar yauaa-drill-7.31.0-sources.jar yauaa-nifi-parent-7.31.0.pom yauaa-nifi-7.31.0.pom yauaa-nifi-7.31.0.nar yauaa-nifi-7.31.0-nar-extension-manifest.xml yauaa-snowflake-7.31.0.pom yauaa-snowflake-7.31.0.jar yauaa-snowflake-7.31.0-sources.jar yauaa-snowflake-7.31.0-udf.jar yauaa-trino-7.31.0.pom yauaa-trino-7.31.0.jar yauaa-trino-7.31.0-sources.jar yauaa-trino-7.31.0-udf.jar yauaa-webapp-7.31.0.pom yauaa-webapp-7.31.0.war yauaa-webapp-7.31.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
