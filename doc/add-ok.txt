@@ -1,6 +1,8 @@
+content/com/github/hazendaz/smartsprites/smartsprites-0.3.0.buildspec:0.4.0
 content/com/github/hazendaz/git/github-desktop/github-desktop-3.4.18.buildspec:3.4.19
 content/com/google/code/gson/gson-2.13.0.buildspec:2.13.1
 content/com/io7m/primogenitor/com.io7m.primogenitor-8.4.0.buildspec:8.5.0
+content/com/io7m/trasco/com.io7m.trasco-3.0.0.buildspec:3.1.1
 content/com/spotify/github-client/github-client-0.4.3.buildspec:0.4.4
 content/dev/langchain4j/langchain4j-1.0.0-beta3.buildspec:1.0.0-rc1
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
@@ -8,6 +10,7 @@ content/io/airlift/airbase/airbase-256.buildspec:257
 content/io/avaje/http/avaje-http-3.3-RC2.buildspec:3.3
 content/io/avaje/inject/avaje-inject-11.5-RC3.buildspec:11.5
 content/io/avaje/jex/avaje-jex-3.2-RC1.buildspec:3.2
+content/nl/basjes/parse/useragent/yauaa/yauaa-7.30.0.buildspec:7.31.0
 content/org/apache/ratis/ratis-thirdparty/ratis-thirdparty-1.0.8.buildspec:1.0.9
 content/org/junit/junit5/junit5-5.13.0-M2.buildspec:5.13.0-M3
 content/org/spdx/spdx-maven-plugin/spdx-maven-plugin-1.0.1.buildspec:1.0.2
