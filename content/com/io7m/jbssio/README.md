@@ -7,22 +7,23 @@
 
 Source code: [https://github.com/io7m/jbssio.git](https://github.com/io7m/jbssio.git)
 
-<details><summary>This project defines 5 modules:</summary>
+<details><summary>This project defines 6 modules:</summary>
 
 * [com.io7m.jbssio:com.io7m.jbssio](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio/overview)
 * [com.io7m.jbssio:com.io7m.jbssio.api](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio.api/overview)
+* [com.io7m.jbssio:com.io7m.jbssio.bom](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio.bom/overview)
 * [com.io7m.jbssio:com.io7m.jbssio.ext.bounded](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio.ext.bounded/overview)
 * [com.io7m.jbssio:com.io7m.jbssio.tests](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio.tests/overview)
 * [com.io7m.jbssio:com.io7m.jbssio.vanilla](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio.vanilla/overview)
 </details>
 
-rebuilding **9 releases** of com.io7m.jbssio:com.io7m.jbssio:
+rebuilding **10 releases** of com.io7m.jbssio:com.io7m.jbssio:
 - **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.0.0](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio/3.0.0/pom) | | | |
+| [3.0.0](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio/3.0.0/pom) | [mvn jdk21](com.io7m.jbssio-3.0.0.buildspec) | [result](com.io7m.jbssio-3.0.0.buildinfo): [9 :white_check_mark:  17 :warning:](com.io7m.jbssio-3.0.0.buildcompare) | 1.1M |
 | [2.1.0](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio/2.1.0/pom) | [mvn jdk21](com.io7m.jbssio-2.1.0.buildspec) | [result](com.io7m.jbssio-2.1.0.buildinfo): [22 :white_check_mark: ](com.io7m.jbssio-2.1.0.buildcompare) | 960K |
 | [2.0.0](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio/2.0.0/pom) | [mvn jdk17.0.6](com.io7m.jbssio-2.0.0.buildspec) | [result](com.io7m.jbssio-2.0.0.buildinfo): [17 :white_check_mark: ](com.io7m.jbssio-2.0.0.buildcompare) | 267K |
 | [1.1.1](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio/1.1.1/pom) | [mvn jdk17.0.3](com.io7m.jbssio-1.1.1.buildspec) | [result](com.io7m.jbssio-1.1.1.buildinfo): [13 :white_check_mark: ](com.io7m.jbssio-1.1.1.buildcompare) | 245K |

@@ -1,0 +1,24 @@
+version=3.0.0
+ok=9
+ko=17
+ignored=0
+okFiles="com.io7m.jbssio-3.0.0.pom com.io7m.jbssio-3.0.0-cyclonedx.xml com.io7m.jbssio.api-3.0.0.pom com.io7m.jbssio.api-3.0.0-cyclonedx.xml com.io7m.jbssio.bom-3.0.0.pom com.io7m.jbssio.bom-3.0.0-cyclonedx.xml com.io7m.jbssio.ext.bounded-3.0.0.pom com.io7m.jbssio.vanilla-3.0.0.pom com.io7m.jbssio.tests-3.0.0.pom"
+koFiles="com.io7m.jbssio.api-3.0.0.jar com.io7m.jbssio.api-3.0.0-sources.jar com.io7m.jbssio.api-3.0.0-tests.jar com.io7m.jbssio.bom-3.0.0.jar com.io7m.jbssio.bom-3.0.0-tests.jar com.io7m.jbssio.ext.bounded-3.0.0.jar com.io7m.jbssio.ext.bounded-3.0.0-sources.jar com.io7m.jbssio.ext.bounded-3.0.0-cyclonedx.xml com.io7m.jbssio.ext.bounded-3.0.0-tests.jar com.io7m.jbssio.vanilla-3.0.0.jar com.io7m.jbssio.vanilla-3.0.0-sources.jar com.io7m.jbssio.vanilla-3.0.0-cyclonedx.xml com.io7m.jbssio.vanilla-3.0.0-tests.jar com.io7m.jbssio.tests-3.0.0.jar com.io7m.jbssio.tests-3.0.0-sources.jar com.io7m.jbssio.tests-3.0.0-cyclonedx.xml com.io7m.jbssio.tests-3.0.0-tests.jar"
+ignoredFiles=""
+# diffoscope target/reference/com.io7m.jbssio/com.io7m.jbssio.api-3.0.0.jar com.io7m.jbssio.api/target/com.io7m.jbssio.api-3.0.0.jar
+# diffoscope target/reference/com.io7m.jbssio/com.io7m.jbssio.api-3.0.0-sources.jar com.io7m.jbssio.api/target/com.io7m.jbssio.api-3.0.0-sources.jar
+# diffoscope target/reference/com.io7m.jbssio/com.io7m.jbssio.api-3.0.0-tests.jar com.io7m.jbssio.api/target/com.io7m.jbssio.api-3.0.0-tests.jar
+# diffoscope target/reference/com.io7m.jbssio/com.io7m.jbssio.bom-3.0.0.jar com.io7m.jbssio.bom/target/com.io7m.jbssio.bom-3.0.0.jar
+# diffoscope target/reference/com.io7m.jbssio/com.io7m.jbssio.bom-3.0.0-tests.jar com.io7m.jbssio.bom/target/com.io7m.jbssio.bom-3.0.0-tests.jar
+# diffoscope target/reference/com.io7m.jbssio/com.io7m.jbssio.ext.bounded-3.0.0.jar com.io7m.jbssio.ext.bounded/target/com.io7m.jbssio.ext.bounded-3.0.0.jar
+# diffoscope target/reference/com.io7m.jbssio/com.io7m.jbssio.ext.bounded-3.0.0-sources.jar com.io7m.jbssio.ext.bounded/target/com.io7m.jbssio.ext.bounded-3.0.0-sources.jar
+# diffoscope target/reference/com.io7m.jbssio/com.io7m.jbssio.ext.bounded-3.0.0-cyclonedx.xml com.io7m.jbssio.ext.bounded/target/bom.xml
+# diffoscope target/reference/com.io7m.jbssio/com.io7m.jbssio.ext.bounded-3.0.0-tests.jar com.io7m.jbssio.ext.bounded/target/com.io7m.jbssio.ext.bounded-3.0.0-tests.jar
+# diffoscope target/reference/com.io7m.jbssio/com.io7m.jbssio.vanilla-3.0.0.jar com.io7m.jbssio.vanilla/target/com.io7m.jbssio.vanilla-3.0.0.jar
+# diffoscope target/reference/com.io7m.jbssio/com.io7m.jbssio.vanilla-3.0.0-sources.jar com.io7m.jbssio.vanilla/target/com.io7m.jbssio.vanilla-3.0.0-sources.jar
+# diffoscope target/reference/com.io7m.jbssio/com.io7m.jbssio.vanilla-3.0.0-cyclonedx.xml com.io7m.jbssio.vanilla/target/bom.xml
+# diffoscope target/reference/com.io7m.jbssio/com.io7m.jbssio.vanilla-3.0.0-tests.jar com.io7m.jbssio.vanilla/target/com.io7m.jbssio.vanilla-3.0.0-tests.jar
+# diffoscope target/reference/com.io7m.jbssio/com.io7m.jbssio.tests-3.0.0.jar com.io7m.jbssio.tests/target/com.io7m.jbssio.tests-3.0.0.jar
+# diffoscope target/reference/com.io7m.jbssio/com.io7m.jbssio.tests-3.0.0-sources.jar com.io7m.jbssio.tests/target/com.io7m.jbssio.tests-3.0.0-sources.jar
+# diffoscope target/reference/com.io7m.jbssio/com.io7m.jbssio.tests-3.0.0-cyclonedx.xml com.io7m.jbssio.tests/target/bom.xml
+# diffoscope target/reference/com.io7m.jbssio/com.io7m.jbssio.tests-3.0.0-tests.jar com.io7m.jbssio.tests/target/com.io7m.jbssio.tests-3.0.0-tests.jar
