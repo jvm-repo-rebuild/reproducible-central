@@ -1,0 +1,21 @@
+version=3.1.1
+ok=10
+ko=14
+ignored=0
+okFiles="com.io7m.trasco-3.1.1.pom com.io7m.trasco-3.1.1-cyclonedx.xml com.io7m.trasco.api-3.1.1.pom com.io7m.trasco.api-3.1.1-cyclonedx.xml com.io7m.trasco.bom-3.1.1.pom com.io7m.trasco.bom-3.1.1-cyclonedx.xml com.io7m.trasco.xml.schemas-3.1.1.pom com.io7m.trasco.xml.schemas-3.1.1-cyclonedx.xml com.io7m.trasco.vanilla-3.1.1.pom com.io7m.trasco.tests-3.1.1.pom"
+koFiles="com.io7m.trasco.api-3.1.1.jar com.io7m.trasco.api-3.1.1-sources.jar com.io7m.trasco.api-3.1.1-tests.jar com.io7m.trasco.xml.schemas-3.1.1.jar com.io7m.trasco.xml.schemas-3.1.1-sources.jar com.io7m.trasco.xml.schemas-3.1.1-tests.jar com.io7m.trasco.vanilla-3.1.1.jar com.io7m.trasco.vanilla-3.1.1-sources.jar com.io7m.trasco.vanilla-3.1.1-cyclonedx.xml com.io7m.trasco.vanilla-3.1.1-tests.jar com.io7m.trasco.tests-3.1.1.jar com.io7m.trasco.tests-3.1.1-sources.jar com.io7m.trasco.tests-3.1.1-cyclonedx.xml com.io7m.trasco.tests-3.1.1-tests.jar"
+ignoredFiles=""
+# diffoscope target/reference/com.io7m.trasco/com.io7m.trasco.api-3.1.1.jar com.io7m.trasco.api/target/com.io7m.trasco.api-3.1.1.jar
+# diffoscope target/reference/com.io7m.trasco/com.io7m.trasco.api-3.1.1-sources.jar com.io7m.trasco.api/target/com.io7m.trasco.api-3.1.1-sources.jar
+# diffoscope target/reference/com.io7m.trasco/com.io7m.trasco.api-3.1.1-tests.jar com.io7m.trasco.api/target/com.io7m.trasco.api-3.1.1-tests.jar
+# diffoscope target/reference/com.io7m.trasco/com.io7m.trasco.xml.schemas-3.1.1.jar com.io7m.trasco.xml.schemas/target/com.io7m.trasco.xml.schemas-3.1.1.jar
+# diffoscope target/reference/com.io7m.trasco/com.io7m.trasco.xml.schemas-3.1.1-sources.jar com.io7m.trasco.xml.schemas/target/com.io7m.trasco.xml.schemas-3.1.1-sources.jar
+# diffoscope target/reference/com.io7m.trasco/com.io7m.trasco.xml.schemas-3.1.1-tests.jar com.io7m.trasco.xml.schemas/target/com.io7m.trasco.xml.schemas-3.1.1-tests.jar
+# diffoscope target/reference/com.io7m.trasco/com.io7m.trasco.vanilla-3.1.1.jar com.io7m.trasco.vanilla/target/com.io7m.trasco.vanilla-3.1.1.jar
+# diffoscope target/reference/com.io7m.trasco/com.io7m.trasco.vanilla-3.1.1-sources.jar com.io7m.trasco.vanilla/target/com.io7m.trasco.vanilla-3.1.1-sources.jar
+# diffoscope target/reference/com.io7m.trasco/com.io7m.trasco.vanilla-3.1.1-cyclonedx.xml com.io7m.trasco.vanilla/target/bom.xml
+# diffoscope target/reference/com.io7m.trasco/com.io7m.trasco.vanilla-3.1.1-tests.jar com.io7m.trasco.vanilla/target/com.io7m.trasco.vanilla-3.1.1-tests.jar
+# diffoscope target/reference/com.io7m.trasco/com.io7m.trasco.tests-3.1.1.jar com.io7m.trasco.tests/target/com.io7m.trasco.tests-3.1.1.jar
+# diffoscope target/reference/com.io7m.trasco/com.io7m.trasco.tests-3.1.1-sources.jar com.io7m.trasco.tests/target/com.io7m.trasco.tests-3.1.1-sources.jar
+# diffoscope target/reference/com.io7m.trasco/com.io7m.trasco.tests-3.1.1-cyclonedx.xml com.io7m.trasco.tests/target/bom.xml
+# diffoscope target/reference/com.io7m.trasco/com.io7m.trasco.tests-3.1.1-tests.jar com.io7m.trasco.tests/target/com.io7m.trasco.tests-3.1.1-tests.jar
