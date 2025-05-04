@@ -22,6 +22,7 @@ rebuilding **9 releases** of com.io7m.jbssio:com.io7m.jbssio:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.0](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio/3.0.0/pom) | | | |
 | [2.1.0](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio/2.1.0/pom) | [mvn jdk21](com.io7m.jbssio-2.1.0.buildspec) | [result](com.io7m.jbssio-2.1.0.buildinfo): [22 :white_check_mark: ](com.io7m.jbssio-2.1.0.buildcompare) | 960K |
 | [2.0.0](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio/2.0.0/pom) | [mvn jdk17.0.6](com.io7m.jbssio-2.0.0.buildspec) | [result](com.io7m.jbssio-2.0.0.buildinfo): [17 :white_check_mark: ](com.io7m.jbssio-2.0.0.buildcompare) | 267K |
 | [1.1.1](https://central.sonatype.com/artifact/com.io7m.jbssio/com.io7m.jbssio/1.1.1/pom) | [mvn jdk17.0.3](com.io7m.jbssio-1.1.1.buildspec) | [result](com.io7m.jbssio-1.1.1.buildinfo): [13 :white_check_mark: ](com.io7m.jbssio-1.1.1.buildcompare) | 245K |
