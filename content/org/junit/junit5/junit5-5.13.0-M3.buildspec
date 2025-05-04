@@ -1,0 +1,22 @@
+groupId=org.junit
+artifactId=junit-bom
+display=${groupId}:${artifactId}
+version=5.13.0-M3
+
+gitRepo=https://github.com/junit-team/junit5.git
+gitTag=r${version}
+
+tool=gradle
+jdk=21
+newline=lf
+
+# extracted from: wget https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/$version/junit-jupiter-api-$version.jar ; unzip -q -c junit-jupiter-api-$version.jar META-INF/MANIFEST.MF
+buildDate='2025-05-02'
+buildTime='13:32:48.771+0200'
+createdBy='21.0.7 (Eclipse Adoptium 21.0.7+6-LTS)'
+
+command="./gradlew clean assemble -x test -x signMavenPublication --no-daemon --no-build-cache -Ppublishing.signArtifacts=false publishToMavenLocal -Pmanifest.buildTimestamp='$buildDate $buildTime' -Pmanifest.createdBy='$createdBy'"
+buildinfo=${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
