@@ -1,0 +1,50 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=smartsprites-maven-plugin
+group-id=com.github.hazendaz.maven
+artifact-id=smartsprites-maven-plugin
+version=2.4.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/smartsprites-maven-plugin.git
+source.scm.tag=smartsprites-maven-plugin-2.4.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.6
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.8.6
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.github.hazendaz.maven
+outputs.0.filename=smartsprites-maven-plugin-2.4.0.pom
+outputs.0.length=5474
+outputs.0.checksums.sha512=777aef253018c96dc5c16503d437536a858e49967640de935cae5225ee95c2fd9e92a128756fbe69003ec7012c16de5aabdfb3c27d704fd03f300b5487615aaa
+
+outputs.1.groupId=com.github.hazendaz.maven
+outputs.1.filename=smartsprites-maven-plugin-2.4.0.jar
+outputs.1.length=20845
+outputs.1.checksums.sha512=d7349ed2b60016f5e3b82da821955bae185ae8f4da0b6df5135e457792cbc1fb1d1ab28014a476b41187081afd997ea2bbf015695686ae5657f8a9a6b334537d
+
+outputs.2.groupId=com.github.hazendaz.maven
+outputs.2.filename=smartsprites-maven-plugin-2.4.0-sources.jar
+outputs.2.length=12371
+outputs.2.checksums.sha512=363dc94f9c9935965c61cc8d2eb7d18fe750c67302430bce9e4f361126fb6bbaa995697933fc30b887f3c52cc5b73e2498229ae6ee76d7be8b51d91a8725c493
+
+outputs.3.groupId=com.github.hazendaz.maven
+outputs.3.filename=smartsprites-maven-plugin-2.4.0-cyclonedx.xml
+outputs.3.length=67662
+outputs.3.checksums.sha512=972be8a92dddbeca2a311a40d75a6c020efbddb18a3f1d1a1ed6be9c11695c2265888f9cd3204aa3595a9b4b61a8cc85da2fa3bb17c5672587afb8596942db7e
+
+outputs.4.groupId=com.github.hazendaz.maven
+outputs.4.filename=smartsprites-maven-plugin-2.4.0-cyclonedx.json
+outputs.4.length=75455
+outputs.4.checksums.sha512=366080afa9747f242ba0f05e3cf6a8b785377fb6dcdb67d29525fff1e358130a56a3df244059ba0e1c57f07aa09e64624365bef9fd06aa9b20ddf3948d9dcb32
