@@ -1,0 +1,20 @@
+groupId=com.io7m.trasco
+artifactId=com.io7m.trasco
+display=com.io7m.*:*.$(echo $artifactId | cut -c 10-)
+version=3.1.1
+
+gitRepo="https://github.com/io7m/$(echo "${artifactId}" | sed s/com.io7m.//).git"
+gitTag=${artifactId}-${version}
+gitTag="git log --all --pretty=format:%H --grep 'Release: com.io7m.trasco $version'"
+gitTag=7daf4454ff335c34c76d57c1ac25418cb33cac6c
+
+tool=mvn-3.9.9
+jdk=21
+newline=lf
+umask=022
+
+command="mvn -DskipTests clean package"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
