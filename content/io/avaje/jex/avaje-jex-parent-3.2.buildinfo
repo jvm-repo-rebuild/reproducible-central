@@ -28,15 +28,15 @@ outputs.0.coordinates=io.avaje:avaje-jex-parent
 
 outputs.0.0.groupId=io.avaje
 outputs.0.0.filename=avaje-jex-parent-3.2.pom
-outputs.0.0.length=12476
-outputs.0.0.checksums.sha512=4de41d7b6d74092c1ee27b4b9abcbf039cdd3873559ed0fa74572ab4fe31f75c9a793e3326e9f6afebdaa1195e7e1b55ebd1f7b2f74d1e067ca7c57debda9a1d
+outputs.0.0.length=12865
+outputs.0.0.checksums.sha512=1b99cd505433d4503fbb22e88a715b9323da802fb97d0a907e8524d1119512214961dec51daa9b65372c4e1d6076c5555d03447d741c2c43f6bd687231cfbd65
 
 outputs.1.coordinates=io.avaje:avaje-jex
 
 outputs.1.0.groupId=io.avaje
 outputs.1.0.filename=avaje-jex-3.2.pom
-outputs.1.0.length=2546
-outputs.1.0.checksums.sha512=8860dce228d323625254206813684f06ae70b01b37ed54cc52d8853043e1764ab4ba1d58abaa384fbf3fc75959423ce4ba239669b26e80e59e42f8f76a6d9e35
+outputs.1.0.length=2644
+outputs.1.0.checksums.sha512=cac59a5c8afd328e0692e6366540e8523c39f16202ecb592e9dab023cb55fd30a83bb271a5c8dda74af1fd9d8865aa3d4a8368553849b1ec66eb6992a85d7beb
 
 outputs.1.1.groupId=io.avaje
 outputs.1.1.filename=avaje-jex-3.2.jar
@@ -45,66 +45,66 @@ outputs.1.1.checksums.sha512=39f61dc525202256d70a0db4819424a548bb1dcca1a69a7e0c9
 
 outputs.1.2.groupId=io.avaje
 outputs.1.2.filename=avaje-jex-3.2-sources.jar
-outputs.1.2.length=66932
-outputs.1.2.checksums.sha512=4dd87392ee309b2858bdd3690f87a200faca37d6ee363d87e7133d19008596854416f44c8e408657b8f335b3015a657f119647ae4d272ca91d88cd2b8a57131c
+outputs.1.2.length=67526
+outputs.1.2.checksums.sha512=ce9ac7f02dcd34367a794f44b3e640374c2da8ea2494403a59d71b6e5b74f482e6f0b468dc2c9a8c0ac2dede9fa1101cca67b3fb5421189be9710768ef841414
 
 outputs.2.coordinates=io.avaje:avaje-jex-test
 
 outputs.2.0.groupId=io.avaje
 outputs.2.0.filename=avaje-jex-test-3.2.pom
-outputs.2.0.length=1249
-outputs.2.0.checksums.sha512=44517cb7f0e931c50eee8c1e71f64b3e0db4e511617cd483c4bf84e3e43c84d137b39b460b56e13643ce5cdbf9f6af8dbabafabfd560d24ddbf7ccf4f27c48ca
+outputs.2.0.length=1293
+outputs.2.0.checksums.sha512=7dd6030cb4eff0ba861185fbfd25fd557f7611022a72c018f91f10df3fe5cbcde45eb3600890fa6ef17c03a18e58e9b2cb88cc4ee69a9cbcf0f8b3eab635b54a
 
 outputs.2.1.groupId=io.avaje
 outputs.2.1.filename=avaje-jex-test-3.2.jar
-outputs.2.1.length=5490
-outputs.2.1.checksums.sha512=3d46a456ab49115fd69d7d2ed0e3436f4faa661a64f05e89e141deb4a3c221e6f020b57b8f4caadca75952d97ad21c1db24fbe0ccf5a37510936c991506a14d2
+outputs.2.1.length=5491
+outputs.2.1.checksums.sha512=bd2f04b6a987d67bd6939b75a36b18f9df97dd84cfa8519229b7f3755563332e23aae159668c9f37347e1728b37432ea40e8a497c0927f82eaca4e8cf4690633
 
 outputs.2.2.groupId=io.avaje
 outputs.2.2.filename=avaje-jex-test-3.2-sources.jar
-outputs.2.2.length=4143
-outputs.2.2.checksums.sha512=a5cb304a5e198548760991f57b39cf66e8510f8b744076792f8f596deeb83c10e07d4597c892a883c208ed9c47ae9adaa434d3727420124b1e157a8e6d311f67
+outputs.2.2.length=4169
+outputs.2.2.checksums.sha512=cb2b0356d2e994faf1e5b254846e969d04125cc3f5be127a8b14e51742c646e739fe09d5e41720d1f348e808b7866e42347ee17948e983ee5d3567f5fb01d9f3
 
 outputs.3.coordinates=io.avaje:avaje-jex-freemarker
 
 outputs.3.0.groupId=io.avaje
 outputs.3.0.filename=avaje-jex-freemarker-3.2.pom
-outputs.3.0.length=1425
-outputs.3.0.checksums.sha512=72a2421d1e01f20b6a62881145a61307428f79f1e209fb0aa88a0019b4b672c0420158ab141dfe445c00f822ef9c289cd3fcaea53f0681bb9b2e5f7547337dde
+outputs.3.0.length=1477
+outputs.3.0.checksums.sha512=7c3539b88506ca320b19289066eb0de79fade7f59389c429b50f981b744b91c70e77ebbd9cc429bc5361b4173d835d75478803964155df1d6401e812fb00539b
 
 outputs.3.1.groupId=io.avaje
 outputs.3.1.filename=avaje-jex-freemarker-3.2.jar
-outputs.3.1.length=2979
-outputs.3.1.checksums.sha512=362c4cfd8f94823734e10a5aa986e9a0cdc74c31a08ad9ac8272927d96d53bb7a6ed6900b5b920d59f7e1d536739af38ed25272c4e8151991a501b6836e1667b
+outputs.3.1.length=2980
+outputs.3.1.checksums.sha512=ab84f4eb0aa576a487b1cea13f9b9c0db0b8329f48924bcf18a00c14606129c3d960fca2d3b5b29cda86584924f670fccd3d2e4fdbaf20ee2701cc58f798a8ea
 
 outputs.3.2.groupId=io.avaje
 outputs.3.2.filename=avaje-jex-freemarker-3.2-sources.jar
-outputs.3.2.length=3050
-outputs.3.2.checksums.sha512=dd05215a09db64ce8a9f4702efced57b3318929d8ff8c24870ec337f2ac8d76dda2b131b64f57e9d0b7ed6b791b6c6dfc5fdbe184f5b710d2309cd798942458f
+outputs.3.2.length=3073
+outputs.3.2.checksums.sha512=2c66c46c73d8d0a321f1d6f3a5fa9962a43cf442125759c1dc24f292b1c2b89f9f7a494dc7b417f1ac0c5d2e5d93fc91113883c8dfad4f65c3c5d3bd8a641e4b
 
 outputs.4.coordinates=io.avaje:avaje-jex-grizzly-spi
 
 outputs.4.0.groupId=io.avaje
 outputs.4.0.filename=avaje-jex-grizzly-spi-0.5.pom
-outputs.4.0.length=1098
-outputs.4.0.checksums.sha512=ba494d85b5384bcb6e95be595769e9dae63e959c8baefee3572da32d6224c570a269e8cdcd33db2879ebf4d3c9f4d951b58dac6c086c3feb4ce027ccc2140ceb
+outputs.4.0.length=1137
+outputs.4.0.checksums.sha512=c4ffe07e6b12296e65f5f370a7e29e669e4034029cb94bcff5cb1406e8b61aa841570599591afc73750d367252dd389fd7c0ccf62c0865b53e694e6eef1f1f48
 
 outputs.4.1.groupId=io.avaje
 outputs.4.1.filename=avaje-jex-grizzly-spi-0.5.jar
-outputs.4.1.length=15175
-outputs.4.1.checksums.sha512=88661c7dc6a5e2e2163701b76ce8fe24c36b94d68b5a9e480bc2c9e0ea0b21eb5a0905fb5db3d946b14267b6a927bb27006f67dc16e4815b472558bb5f58f1ba
+outputs.4.1.length=15176
+outputs.4.1.checksums.sha512=77d886197b966b7fcf33827218caa0fce552182037f5ea24206a716f680d519f54a7d0cc216e667ea7282f18e775ea253d5a5acb6887d63c20fdc3431685911a
 
 outputs.4.2.groupId=io.avaje
 outputs.4.2.filename=avaje-jex-grizzly-spi-0.5-sources.jar
-outputs.4.2.length=9021
-outputs.4.2.checksums.sha512=b3ffadb84ed03babb7b1a7a7578d26ba6787ba2772e01a04d19d58d1ea05dc67ae33fbf49b8334cd142e218cc4c24387da2a39debfd420d83d50d8c5b027259c
+outputs.4.2.length=9097
+outputs.4.2.checksums.sha512=b24978dc6cb2953dee993584fd2695e78886d1ab936e31738265c5c88576a46a4fe0772938de7c5f7de03df9d8b74bb71f577aa444610db8ba283b4046b4dab4
 
 outputs.5.coordinates=io.avaje:avaje-jex-htmx
 
 outputs.5.0.groupId=io.avaje
 outputs.5.0.filename=avaje-jex-htmx-3.2.pom
-outputs.5.0.length=775
-outputs.5.0.checksums.sha512=e03b2330b2131288c498adbd48daffa6edcc361df1e0337af50557925892308a0050ee035bf9efaf7d3e7006d0c25c3944a9438a5aa02e2179ee3328b81c463c
+outputs.5.0.length=803
+outputs.5.0.checksums.sha512=9f5d3d13076d753cbf296e6cfa4c7425805062b15274529073cee7b2b1e102805cb5d9dcdf395079c0c60d2b45bdd8534bb5b9b73d2d5192007572a3e38f0f07
 
 outputs.5.1.groupId=io.avaje
 outputs.5.1.filename=avaje-jex-htmx-3.2.jar
@@ -113,32 +113,32 @@ outputs.5.1.checksums.sha512=e03013ef8865d491d013d07c7c05308f253bd82f249ed962a47
 
 outputs.5.2.groupId=io.avaje
 outputs.5.2.filename=avaje-jex-htmx-3.2-sources.jar
-outputs.5.2.length=5503
-outputs.5.2.checksums.sha512=7df1303a99920fbae2877b2da15e6df19c1e30a3f2dfe0f26282090b7c3011122c514f007cd70f89e48bd800580179cb0d06602a0626317c59dde237559d32fd
+outputs.5.2.length=5566
+outputs.5.2.checksums.sha512=2bbb6f33014d6848c6ebcc405fd2551b95a8913f94545ea0f6f294589ec6413edf65177c8e946563877474995d1c7acc9e81cd0539bbb305dbe3edbdf7cfcbb7
 
 outputs.6.coordinates=io.avaje:avaje-jex-mustache
 
 outputs.6.0.groupId=io.avaje
 outputs.6.0.filename=avaje-jex-mustache-3.2.pom
-outputs.6.0.length=1583
-outputs.6.0.checksums.sha512=68ca5c3ed48715329479bb73e5ff0c8998238846efdd2835efd4b42c577cdd7c59a10f64790c1ca71e5af74b5ad64f33ba746febee7b714d7de9fa06820d6f5c
+outputs.6.0.length=1638
+outputs.6.0.checksums.sha512=24b1bd5a6556ccbbf842e8f3af2c01efd8ce9f54a6bc83cde8980647bb66026cb242c5152f72be013d167362f2dc84cb42d5ffee890374ab27189338df30ff39
 
 outputs.6.1.groupId=io.avaje
 outputs.6.1.filename=avaje-jex-mustache-3.2.jar
-outputs.6.1.length=2755
-outputs.6.1.checksums.sha512=fa6e68dc9b9281d656daa9945adc26ee3d9a8abd1b3dfc26bcbf0dc3733347b046ea69d4f0e0a742037e719063d262239c35da1bddd97b32bc6bbad481c1836f
+outputs.6.1.length=2756
+outputs.6.1.checksums.sha512=08dc38b1cd1067c9e50d98fa5f75bd0c32ae39bcc19359b8ea524df611d07dc5f9eb23e7705a5ce462b1dc79b9c8d182999f2e53f37c8a629e5ce62363acf2f8
 
 outputs.6.2.groupId=io.avaje
 outputs.6.2.filename=avaje-jex-mustache-3.2-sources.jar
-outputs.6.2.length=2960
-outputs.6.2.checksums.sha512=4e897ac84e3b7b5fbe36b3fad05ff658fa9dd60ae9daeaa03fbc00607ce41e134c2ae18c2fe78de3f3a522467e9f54326561114347812eb0102d085f3de13ef3
+outputs.6.2.length=2981
+outputs.6.2.checksums.sha512=ca247fa3d37416ca3034a294cc4af6a89711889350b17fc7183691fa5087379ba24916ce79c624314245bc192a91e11859ca4c94ddb52a7ef50ef6a328092cb6
 
 outputs.7.coordinates=io.avaje:avaje-jex-static-content
 
 outputs.7.0.groupId=io.avaje
 outputs.7.0.filename=avaje-jex-static-content-3.2.pom
-outputs.7.0.length=818
-outputs.7.0.checksums.sha512=cfc530daa8a3903dc05a39752d681ed387c03fb060aba7a4c5172aac064527cb26f93856d2c35bb26d830b0949379e2c5587498d32fad5c001f7ae93f2d949ba
+outputs.7.0.length=844
+outputs.7.0.checksums.sha512=acf4074601c6f420e9c280313a1982db21006c3199fd738d7e17dc68224730d0d96a6872dbb62ad00934e944aabb091c122e3367831d803a2e2b46039a6109b2
 
 outputs.7.1.groupId=io.avaje
 outputs.7.1.filename=avaje-jex-static-content-3.2.jar
@@ -147,5 +147,5 @@ outputs.7.1.checksums.sha512=a3d74c4163c0e68bee9fef53fb5ffc57ae47c66752028acc35b
 
 outputs.7.2.groupId=io.avaje
 outputs.7.2.filename=avaje-jex-static-content-3.2-sources.jar
-outputs.7.2.length=10750
-outputs.7.2.checksums.sha512=9eb4be3fe733da16485f6e5d744aae2ba8abbab19ad039e571fc7ed1826b9a6474cb1e1b26ba0da69d8f2b65c390369104524b20a13c71eebd5c6e73288e0d3b
+outputs.7.2.length=10824
+outputs.7.2.checksums.sha512=712a4e69d20d3bdcdc1b2965900ded04121ecba14fef1da6fa4809dd0bd7d63f5b414b49ff5eab7c05a9085acdb77abbb4d858cf983d6093c815decf9b32eb64
