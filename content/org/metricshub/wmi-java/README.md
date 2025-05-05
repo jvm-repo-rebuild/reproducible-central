@@ -13,6 +13,8 @@ rebuilding **1 releases** of org.metricshub:wmi-java:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.05](https://central.sonatype.com/artifact/org.metricshub/wmi-java/1.0.05/pom) | | | |
+| [1.0.04](https://central.sonatype.com/artifact/org.metricshub/wmi-java/1.0.04/pom) | | | |
 | [1.0.03](https://central.sonatype.com/artifact/org.metricshub/wmi-java/1.0.03/pom) | [mvn jdk17](wmi-java-1.0.03.buildspec) | [result](wmi-java-1.0.03.buildinfo): [3 :white_check_mark: ](wmi-java-1.0.03.buildcompare) | 140K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

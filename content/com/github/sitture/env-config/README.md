@@ -7,9 +7,9 @@
 
 Source code: [https://github.com/sitture/env-config.git](https://github.com/sitture/env-config.git)
 
-rebuilding **9 releases** of com.github.sitture:env-config:
+rebuilding **10 releases** of com.github.sitture:env-config:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |

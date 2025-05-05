@@ -24,6 +24,7 @@ rebuilding **14 releases** of org.infinispan.protostream:protostream-aggregator:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [6.0.0.Dev08](https://central.sonatype.com/artifact/org.infinispan.protostream/parent/6.0.0.Dev08/pom) | | | |
 | [6.0.0.Dev07](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev07/pom) | [mvn jdk17](protostream-6.0.0.Dev07.buildspec) | [result](protostream-aggregator-6.0.0.Dev07.buildinfo): [23 :white_check_mark: ](protostream-aggregator-6.0.0.Dev07.buildcompare) | 1.9M |
 | [6.0.0.Dev06](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev06/pom) | [mvn jdk17](protostream-6.0.0.Dev06.buildspec) | [result](protostream-aggregator-6.0.0.Dev06.buildinfo): [23 :white_check_mark: ](protostream-aggregator-6.0.0.Dev06.buildcompare) | 1.9M |
 | [6.0.0.Dev05](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev05/pom) | [mvn jdk17](protostream-6.0.0.Dev05.buildspec) | :x: | |
