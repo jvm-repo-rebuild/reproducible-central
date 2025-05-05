@@ -1,0 +1,10 @@
+version=3.2
+ok=20
+ko=2
+ignored=0
+okFiles="avaje-jex-parent-3.2.pom avaje-jex-3.2.pom avaje-jex-3.2.jar avaje-jex-3.2-sources.jar avaje-jex-test-3.2.pom avaje-jex-test-3.2.jar avaje-jex-test-3.2-sources.jar avaje-jex-freemarker-3.2.pom avaje-jex-freemarker-3.2.jar avaje-jex-freemarker-3.2-sources.jar avaje-jex-grizzly-spi-0.5.jar avaje-jex-htmx-3.2.pom avaje-jex-htmx-3.2.jar avaje-jex-htmx-3.2-sources.jar avaje-jex-mustache-3.2.pom avaje-jex-mustache-3.2.jar avaje-jex-mustache-3.2-sources.jar avaje-jex-static-content-3.2.pom avaje-jex-static-content-3.2.jar avaje-jex-static-content-3.2-sources.jar"
+koFiles="avaje-jex-grizzly-spi-0.5.pom avaje-jex-grizzly-spi-0.5-sources.jar"
+ignoredFiles=""
+reference_java_version="24 (from MANIFEST.MF Build-Jdk-Spec)"
+# diffoscope target/reference/io.avaje/avaje-jex-grizzly-spi-0.5.pom avaje-jex-grizzly-spi/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-grizzly-spi-0.5-sources.jar avaje-jex-grizzly-spi/target/avaje-jex-grizzly-spi-0.5-sources.jar
