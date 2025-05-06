@@ -13,13 +13,13 @@ Source code: [https://github.com/google/gson.git](https://github.com/google/gson
 * [com.google.code.gson:gson-parent](https://central.sonatype.com/artifact/com.google.code.gson/gson-parent/overview)
 </details>
 
-rebuilding **4 releases** of com.google.code.gson:gson-parent:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **5 releases** of com.google.code.gson:gson-parent:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.13.1](https://central.sonatype.com/artifact/com.google.code.gson/gson-parent/2.13.1/pom) | | | |
+| [2.13.1](https://central.sonatype.com/artifact/com.google.code.gson/gson-parent/2.13.1/pom) | [mvn jdk11](gson-2.13.1.buildspec) | [result](gson-parent-2.13.1.buildinfo): [4 :white_check_mark: ](gson-parent-2.13.1.buildcompare) | 524K |
 | [2.13.0](https://central.sonatype.com/artifact/com.google.code.gson/gson-parent/2.13.0/pom) | [mvn jdk11](gson-2.13.0.buildspec) | [result](gson-parent-2.13.0.buildinfo): [4 :white_check_mark: ](gson-parent-2.13.0.buildcompare) | 523K |
 | [2.12.1](https://central.sonatype.com/artifact/com.google.code.gson/gson-parent/2.12.1/pom) | [mvn jdk11](gson-2.12.1.buildspec) | [result](gson-parent-2.12.1.buildinfo): [4 :white_check_mark: ](gson-parent-2.12.1.buildcompare) | 521K |
 | [2.12.0](https://central.sonatype.com/artifact/com.google.code.gson/gson-parent/2.12.0/pom) | [mvn jdk11](gson-2.12.0.buildspec) | [result](gson-parent-2.12.0.buildinfo): [4 :white_check_mark: ](gson-parent-2.12.0.buildcompare) | 521K |
