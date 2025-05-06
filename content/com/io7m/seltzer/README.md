@@ -21,6 +21,7 @@ rebuilding **2 releases** of com.io7m.seltzer:com.io7m.seltzer:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.2.0](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer/1.2.0/pom) | | | |
 | [1.1.0](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer/1.1.0/pom) | [mvn jdk21](com.io7m.seltzer-1.1.0.buildspec) | [result](com.io7m.seltzer-1.1.0.buildinfo): [17 :white_check_mark: ](com.io7m.seltzer-1.1.0.buildcompare) | 571K |
 | [1.0.1](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer/1.0.1/pom) | [mvn jdk21](com.io7m.seltzer-1.0.1.buildspec) | [result](com.io7m.seltzer-1.0.1.buildinfo): [12 :white_check_mark: ](com.io7m.seltzer-1.0.1.buildcompare) | 457K |
 

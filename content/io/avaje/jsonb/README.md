@@ -4,6 +4,7 @@ rebuilding **0 releases** of io.avaje:avaje-jsonb-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.5-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.5-RC1/pom) | | | |
 | [3.4](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.4/pom) | | | |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
