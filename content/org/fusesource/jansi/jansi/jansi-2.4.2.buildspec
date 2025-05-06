@@ -1,0 +1,18 @@
+groupId=org.fusesource.jansi
+artifactId=jansi
+display=${groupId}:${artifactId}
+version=2.4.2
+
+gitRepo=https://github.com/fusesource/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=lf
+timezone=Etc/GMT-2
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=
+issue=https://github.com/fusesource/jansi/pull/303
