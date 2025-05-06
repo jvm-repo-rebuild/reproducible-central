@@ -27,13 +27,13 @@ Source code: [https://github.com/avaje/avaje-http.git](https://github.com/avaje/
 * [io.avaje:avaje-http-sigma-generator](https://central.sonatype.com/artifact/io.avaje/avaje-http-sigma-generator/overview)
 </details>
 
-rebuilding **17 releases** of io.avaje:avaje-http-parent:
-- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **18 releases** of io.avaje:avaje-http-parent:
+- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.3](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.3/pom) | | | |
+| [3.3](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.3/pom) | [mvn jdk24 w](avaje-http-3.3.buildspec) | [result](avaje-http-parent-3.3.buildinfo): [46 :white_check_mark: ](avaje-http-parent-3.3.buildcompare) | 4.3M |
 | [3.3-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.3-RC2/pom) | [mvn jdk21](avaje-http-3.3-RC2.buildspec) | [result](avaje-http-parent-3.3-RC2.buildinfo): [46 :white_check_mark: ](avaje-http-parent-3.3-RC2.buildcompare) | 4.3M |
 | [3.3-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.3-RC1/pom) | [mvn jdk24 w](avaje-http-3.3-RC1.buildspec) | [result](avaje-http-parent-3.3-RC1.buildinfo): [45 :white_check_mark:  1 :warning:](avaje-http-parent-3.3-RC1.buildcompare) | 4.3M |
 | [3.2](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.2/pom) | [mvn jdk21](avaje-http-3.2.buildspec) | [result](avaje-http-parent-3.2.buildinfo): [46 :white_check_mark: ](avaje-http-parent-3.2.buildcompare) | 4.3M |
