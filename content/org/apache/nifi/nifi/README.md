@@ -935,7 +935,7 @@ rebuilding **29 releases** of org.apache.nifi:nifi:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.4.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.4.0/pom) | [mvn jdk21 osx aarm64](nifi-2.4.0.buildspec) | [result](nifi-2.4.0.buildinfo): [1664 :white_check_mark:  22 :warning:](nifi-2.4.0.buildcompare) [:memo:](https://github.com/apache/nifi/pull/9805) | 1.6G |
+| [2.4.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.4.0/pom) | [mvn jdk21 osx aarm64](nifi-2.4.0.buildspec) | [result](nifi-2.4.0.buildinfo): [1672 :white_check_mark:  14 :warning:](nifi-2.4.0.buildcompare) [:mag:](nifi-2.4.0.diffoscope) | 1.6G |
 | [2.3.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.3.0/pom) | [mvn jdk21 osx aarm64](nifi-2.3.0.buildspec) | [result](nifi-2.3.0.buildinfo): [1618 :white_check_mark:  45 :warning:](nifi-2.3.0.buildcompare) [:memo:](https://github.com/apache/nifi/pull/9805) | 1.6G |
 | [2.2.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.2.0/pom) | [mvn jdk21 osx aarch64](nifi-2.2.0.buildspec) | [result](nifi-2.2.0.buildinfo): [1570 :white_check_mark:  86 :warning:](nifi-2.2.0.buildcompare) | 1.6G |
 | [2.1.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.1.0/pom) | [mvn jdk21](nifi-2.1.0.buildspec) | [result](nifi-2.1.0.buildinfo): [1573 :white_check_mark:  73 :warning:](nifi-2.1.0.buildcompare) [:mag:](nifi-2.1.0.diffoscope) | 1.6G |

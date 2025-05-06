@@ -11,12 +11,12 @@ jdk=21
 newline=lf
 locale=en_US
 umask=022
-workdir=/Users/pvillard/dev/apache/nifi-release/releases/nifi-work/nifi
 os=osx
 arch=aarm64
 
-command="mvn -Papache-release,include-grpc,include-ranger clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+# export MAVEN_OPTS="-Duser.language=en -Duser.country=US -Dfile.encoding=UTF-8"
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
-issue=https://github.com/apache/nifi/pull/9805
+diffoscope=${artifactId}-${version}.diffoscope
+issue=

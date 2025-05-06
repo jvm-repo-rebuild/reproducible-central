@@ -1,0 +1,64 @@
+1 /       14 target/reference/org.apache.nifi/nifi-nar-utils-2.4.0.jar nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/nifi-nar-utils-2.4.0.jar
+--- target/reference/org.apache.nifi/nifi-nar-utils-2.4.0.jar
++++ nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/nifi-nar-utils-2.4.0.jar
+├── org/apache/nifi/nar/LoadNativeLibAspect.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -513,15 +513,15 @@
+│ │    0: #166 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+│ │      Method arguments:
+│ │        #167 \u0001@\u0001_
+│ │    1: #166 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+│ │      Method arguments:
+│ │        #169 _\u0001
+│ │    org.aspectj.weaver.WeaverVersion: length = 0xC (unknown attribute)
+│ │ -   00 07 00 00 00 00 01 96 1E 23 7B 60
+│ │ +   00 07 00 00 00 00 01 96 21 5B 74 E0
+│ │    org.aspectj.weaver.WeaverState: length = 0x3CD (unknown attribute)
+│ │     53 00 00 00 00 01 00 29 4C 6F 72 67 2F 61 70 61
+│ │     63 68 65 2F 6E 69 66 69 2F 6E 61 72 2F 4C 6F 61
+│ │     64 4E 61 74 69 76 65 4C 69 62 41 73 70 65 63 74
+│ │     3B 00 00 03 98 00 B1 00 00 0C 12 00 21 00 01 00
+│ │     03 00 00 00 01 00 12 00 05 00 06 00 00 00 02 00
+│ │     01 00 07 00 08 00 01 00 09 00 00 00 42 00 02 00
+
+# most problems due to order of a constant, but also username injected...
+2 /       14 target/reference/org.apache.nifi/nifi-standard-nar-2.4.0.nar nifi-extension-bundles/nifi-standard-bundle/nifi-standard-nar/target/nifi-standard-nar-2.4.0.nar
+--- target/reference/org.apache.nifi/nifi-standard-nar-2.4.0.nar
++++ nifi-extension-bundles/nifi-standard-bundle/nifi-standard-nar/target/nifi-standard-nar-2.4.0.nar
+├── META-INF/docs/extension-manifest.xml
+│ ├── META-INF/docs/extension-manifest.xml
+│ │ @@ -2549,15 +2549,15 @@
+│ │            <expressionLanguageScope>NONE</expressionLanguageScope>
+│ │            <dynamicallyModifiesClasspath>false</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │          </property>
+│ │          <property>
+│ │            <name>proxy-configuration-service</name>
+│ │            <displayName>Proxy Configuration Service</displayName>
+│ │ -          <description>Specifies the Proxy Configuration Controller Service to proxy network requests. Supported proxies: SOCKS + AuthN, HTTP + AuthN</description>
+│ │ +          <description>Specifies the Proxy Configuration Controller Service to proxy network requests. Supported proxies: HTTP + AuthN, SOCKS + AuthN</description>
+│ │            <controllerServiceDefinition>
+│ │              <className>org.apache.nifi.proxy.ProxyConfigurationService</className>
+│ │              <groupId>org.apache.nifi</groupId>
+│ │              <artifactId>nifi-standard-services-api-nar</artifactId>
+│ │              <version>2.4.0</version>
+│ │            </controllerServiceDefinition>
+│ │            <required>false</required>
+│ │ @@ -5985,15 +5985,15 @@
+│ │            <expressionLanguageScope>NONE</expressionLanguageScope>
+│ │            <dynamicallyModifiesClasspath>false</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │          </property>
+│ │          <property>
+│ │            <name>Log level when permission denied</name>
+│ │            <displayName>Log level when permission denied</displayName>
+│ │ -          <description>Log level to use in case user pvillard does not have sufficient permissions to read the file</description>
+│ │ +          <description>Log level to use in case user hboutemy does not have sufficient permissions to read the file</description>
+│ │            <defaultValue>ERROR</defaultValue>
+│ │            <allowableValues>
+│ │              <allowableValue>
+│ │                <displayName>TRACE</displayName>
+│ │                <value>TRACE</value>
+│ │                <description/>
+│ │              </allowableValue>
+...
