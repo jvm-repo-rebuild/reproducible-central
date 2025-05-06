@@ -1,0 +1,20 @@
+groupId=com.spotify.fmt
+artifactId=fmt-maven-plugin
+version=2.27
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/spotify/${artifactId}.git
+gitTag=${version}.0
+
+tool=mvn
+jdk=21
+newline=lf
+umask=022
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
