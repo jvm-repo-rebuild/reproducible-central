@@ -1,0 +1,9 @@
+version=0.1.1
+ok=1
+ko=2
+ignored=0
+okFiles="xmlchai-0.1.1.pom"
+koFiles="xmlchai-0.1.1.jar xmlchai-0.1.1-sources.jar"
+ignoredFiles=""
+# diffoscope target/reference/org.jrivard.xmlchai/xmlchai-0.1.1.jar target/xmlchai-0.1.1.jar
+# diffoscope target/reference/org.jrivard.xmlchai/xmlchai-0.1.1-sources.jar target/xmlchai-0.1.1-sources.jar
