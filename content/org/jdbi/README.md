@@ -45,13 +45,13 @@ Source code: [https://github.com/jdbi/jdbi.git](https://github.com/jdbi/jdbi.git
 * [org.jdbi:jdbi3-vavr](https://central.sonatype.com/artifact/org.jdbi/jdbi3-vavr/overview)
 </details>
 
-rebuilding **11 releases** of org.jdbi.internal:jdbi3-root:
+rebuilding **12 releases** of org.jdbi.internal:jdbi3-root:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.49.3](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.49.3/pom) | | | |
+| [3.49.3](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.49.3/pom) | [mvn jdk21](jdbi3-root-3.49.3.buildspec) | [result](jdbi3-parent-3.49.3.buildinfo): [211 :white_check_mark:  4 :warning:](jdbi3-parent-3.49.3.buildcompare) | 7.2M |
 | [3.49.2](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.49.2/pom) | [mvn jdk21](jdbi3-root-3.49.2.buildspec) | [result](jdbi3-parent-3.49.2.buildinfo): [211 :white_check_mark:  4 :warning:](jdbi3-parent-3.49.2.buildcompare) | 7.2M |
 | [3.49.1](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.49.1/pom) | [mvn jdk21](jdbi3-root-3.49.1.buildspec) | [result](jdbi3-parent-3.49.1.buildinfo): [149 :white_check_mark: ](jdbi3-parent-3.49.1.buildcompare) | 5.6M |
 | [3.49.0](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.49.0/pom) | [mvn jdk21](jdbi3-root-3.49.0.buildspec) | [result](jdbi3-parent-3.49.0.buildinfo): [211 :white_check_mark:  2 :warning:](jdbi3-parent-3.49.0.buildcompare) [:mag:](jdbi3-parent-3.49.0.diffoscope) | 7.3M |
