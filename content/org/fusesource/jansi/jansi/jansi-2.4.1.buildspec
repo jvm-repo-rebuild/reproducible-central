@@ -15,4 +15,4 @@ command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
-issue=https://github.com/moditect/moditect/pull/211
+issue=https://github.com/fusesource/jansi/pull/303
