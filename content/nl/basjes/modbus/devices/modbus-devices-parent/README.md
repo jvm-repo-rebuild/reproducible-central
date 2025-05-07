@@ -14,13 +14,13 @@ Source code: [https://github.com/nielsbasjes/modbus-devices.git](https://github.
 * [nl.basjes.modbus.devices:modbus-devices-parent](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-devices-parent/overview)
 </details>
 
-rebuilding **1 releases** of nl.basjes.modbus.devices:modbus-devices-parent:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of nl.basjes.modbus.devices:modbus-devices-parent:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.2.0](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-devices-parent/0.2.0/pom) | | | |
+| [0.2.0](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-devices-parent/0.2.0/pom) | [mvn jdk21](modbus-devices-parent-0.2.0.buildspec) | [result](modbus-devices-parent-0.2.0.buildinfo): [7 :white_check_mark: ](modbus-devices-parent-0.2.0.buildcompare) | 117K |
 | [0.1.1](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-devices-parent/0.1.1/pom) | [mvn jdk21](modbus-devices-parent-0.1.1.buildspec) | [result](modbus-devices-parent-0.1.1.buildinfo): [7 :white_check_mark: ](modbus-devices-parent-0.1.1.buildcompare) | 115K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
