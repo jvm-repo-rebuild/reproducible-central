@@ -1,0 +1,22 @@
+version=1.2.0
+ok=9
+ko=15
+ignored=0
+okFiles="com.io7m.seltzer-1.2.0.pom com.io7m.seltzer-1.2.0-cyclonedx.xml com.io7m.seltzer.api-1.2.0.pom com.io7m.seltzer.api-1.2.0-cyclonedx.xml com.io7m.seltzer.bom-1.2.0.pom com.io7m.seltzer.bom-1.2.0-cyclonedx.xml com.io7m.seltzer.io-1.2.0.pom com.io7m.seltzer.slf4j-1.2.0.pom com.io7m.seltzer.tests-1.2.0.pom"
+koFiles="com.io7m.seltzer.api-1.2.0.jar com.io7m.seltzer.api-1.2.0-sources.jar com.io7m.seltzer.api-1.2.0-tests.jar com.io7m.seltzer.io-1.2.0.jar com.io7m.seltzer.io-1.2.0-sources.jar com.io7m.seltzer.io-1.2.0-cyclonedx.xml com.io7m.seltzer.io-1.2.0-tests.jar com.io7m.seltzer.slf4j-1.2.0.jar com.io7m.seltzer.slf4j-1.2.0-sources.jar com.io7m.seltzer.slf4j-1.2.0-cyclonedx.xml com.io7m.seltzer.slf4j-1.2.0-tests.jar com.io7m.seltzer.tests-1.2.0.jar com.io7m.seltzer.tests-1.2.0-sources.jar com.io7m.seltzer.tests-1.2.0-cyclonedx.xml com.io7m.seltzer.tests-1.2.0-tests.jar"
+ignoredFiles=""
+# diffoscope target/reference/com.io7m.seltzer/com.io7m.seltzer.api-1.2.0.jar com.io7m.seltzer.api/target/com.io7m.seltzer.api-1.2.0.jar
+# diffoscope target/reference/com.io7m.seltzer/com.io7m.seltzer.api-1.2.0-sources.jar com.io7m.seltzer.api/target/com.io7m.seltzer.api-1.2.0-sources.jar
+# diffoscope target/reference/com.io7m.seltzer/com.io7m.seltzer.api-1.2.0-tests.jar com.io7m.seltzer.api/target/com.io7m.seltzer.api-1.2.0-tests.jar
+# diffoscope target/reference/com.io7m.seltzer/com.io7m.seltzer.io-1.2.0.jar com.io7m.seltzer.io/target/com.io7m.seltzer.io-1.2.0.jar
+# diffoscope target/reference/com.io7m.seltzer/com.io7m.seltzer.io-1.2.0-sources.jar com.io7m.seltzer.io/target/com.io7m.seltzer.io-1.2.0-sources.jar
+# diffoscope target/reference/com.io7m.seltzer/com.io7m.seltzer.io-1.2.0-cyclonedx.xml com.io7m.seltzer.io/target/bom.xml
+# diffoscope target/reference/com.io7m.seltzer/com.io7m.seltzer.io-1.2.0-tests.jar com.io7m.seltzer.io/target/com.io7m.seltzer.io-1.2.0-tests.jar
+# diffoscope target/reference/com.io7m.seltzer/com.io7m.seltzer.slf4j-1.2.0.jar com.io7m.seltzer.slf4j/target/com.io7m.seltzer.slf4j-1.2.0.jar
+# diffoscope target/reference/com.io7m.seltzer/com.io7m.seltzer.slf4j-1.2.0-sources.jar com.io7m.seltzer.slf4j/target/com.io7m.seltzer.slf4j-1.2.0-sources.jar
+# diffoscope target/reference/com.io7m.seltzer/com.io7m.seltzer.slf4j-1.2.0-cyclonedx.xml com.io7m.seltzer.slf4j/target/bom.xml
+# diffoscope target/reference/com.io7m.seltzer/com.io7m.seltzer.slf4j-1.2.0-tests.jar com.io7m.seltzer.slf4j/target/com.io7m.seltzer.slf4j-1.2.0-tests.jar
+# diffoscope target/reference/com.io7m.seltzer/com.io7m.seltzer.tests-1.2.0.jar com.io7m.seltzer.tests/target/com.io7m.seltzer.tests-1.2.0.jar
+# diffoscope target/reference/com.io7m.seltzer/com.io7m.seltzer.tests-1.2.0-sources.jar com.io7m.seltzer.tests/target/com.io7m.seltzer.tests-1.2.0-sources.jar
+# diffoscope target/reference/com.io7m.seltzer/com.io7m.seltzer.tests-1.2.0-cyclonedx.xml com.io7m.seltzer.tests/target/bom.xml
+# diffoscope target/reference/com.io7m.seltzer/com.io7m.seltzer.tests-1.2.0-tests.jar com.io7m.seltzer.tests/target/com.io7m.seltzer.tests-1.2.0-tests.jar
