@@ -1,0 +1,30 @@
+# Central Repository coordinates for the Reference release (for multi-module, pick an arbitrary module)
+groupId=nl.basjes.sunspec
+artifactId=sunspec-device-parent
+version=0.2.0
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=https://github.com/nielsbasjes/sunspec-device.git
+gitTag=v${version}
+
+# Rebuild environment prerequisites
+tool=mvn-3.9.9
+
+# Use JDK-21 (the latest LTS)
+jdk=21
+umask=0002
+timezone=UTC
+newline=lf
+# crlf for Windows, lf for Unix
+
+# Rebuild command
+command='mvn clean verify -PskipQuality'
+
+# Location of the buildinfo file generated during rebuild to record output fingerprints
+buildinfo=target/sunspec-device-parent-${version}.buildinfo
+
+# if the release is finally not reproducible, link to an issue tracker entry if one was created or diffoscope result
+#diffoscope=sunspec-device-parent-${version}.diffoscope
+issue=
