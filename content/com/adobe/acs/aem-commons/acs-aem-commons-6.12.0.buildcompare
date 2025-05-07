@@ -1,0 +1,17 @@
+version=6.12.0
+ok=18
+ko=8
+ignored=0
+okFiles="acs-aem-commons-6.12.0.pom acs-aem-commons-bundle-6.12.0.pom acs-aem-commons-bundle-6.12.0-tests.jar acs-aem-commons-bundle-6.12.0-sources.jar acs-aem-commons-bundle-onprem-6.12.0.pom acs-aem-commons-bundle-onprem-6.12.0.jar acs-aem-commons-bundle-onprem-6.12.0-sources.jar acs-aem-commons-oakpal-checks-6.12.0.pom acs-aem-commons-oakpal-checks-6.12.0.jar acs-aem-commons-oakpal-checks-6.12.0-sources.jar acs-aem-commons-ui.apps-6.12.0.pom acs-aem-commons-ui.apps-6.12.0-sources.jar acs-aem-commons-ui.content-6.12.0.pom acs-aem-commons-ui.content-6.12.0-sources.jar acs-aem-commons-ui.config-6.12.0.pom acs-aem-commons-ui.config-6.12.0-sources.jar acs-aem-commons-all-6.12.0.pom acs-aem-commons-all-6.12.0-sources.jar"
+koFiles="acs-aem-commons-bundle-6.12.0.jar acs-aem-commons-oakpal-checks-6.12.0.opear acs-aem-commons-ui.apps-6.12.0.zip acs-aem-commons-ui.apps-6.12.0-cloud.zip acs-aem-commons-ui.content-6.12.0.zip acs-aem-commons-ui.config-6.12.0.zip acs-aem-commons-all-6.12.0.zip acs-aem-commons-all-6.12.0-cloud.zip"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.adobe.acs/acs-aem-commons-bundle-6.12.0.jar bundle/target/acs-aem-commons-bundle-6.12.0.jar
+# diffoscope target/reference/com.adobe.acs/acs-aem-commons-oakpal-checks-6.12.0.opear oakpal-checks/target/acs-aem-commons-oakpal-checks-6.12.0.opear
+# diffoscope target/reference/com.adobe.acs/acs-aem-commons-ui.apps-6.12.0.zip ui.apps/target/acs-aem-commons-ui.apps-6.12.0.zip
+# diffoscope target/reference/com.adobe.acs/acs-aem-commons-ui.apps-6.12.0-cloud.zip ui.apps/target/acs-aem-commons-ui.apps-6.12.0-cloud.zip
+# diffoscope target/reference/com.adobe.acs/acs-aem-commons-ui.content-6.12.0.zip ui.content/target/acs-aem-commons-ui.content-6.12.0.zip
+# diffoscope target/reference/com.adobe.acs/acs-aem-commons-ui.config-6.12.0.zip ui.config/target/acs-aem-commons-ui.config-6.12.0.zip
+# diffoscope target/reference/com.adobe.acs/acs-aem-commons-all-6.12.0.zip all/target/acs-aem-commons-all-6.12.0.zip
+# diffoscope target/reference/com.adobe.acs/acs-aem-commons-all-6.12.0-cloud.zip all/target/acs-aem-commons-all-6.12.0-cloud.zip
