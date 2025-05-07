@@ -1,10 +1,7 @@
-content/com/github/hazendaz/javabean-tester/javabean-tester-2.8.5.buildspec:2.9.0
 content/com/github/hazendaz/git/github-desktop/github-desktop-3.4.18.buildspec:3.4.19
-content/com/io7m/seltzer/com.io7m.seltzer-1.1.0.buildspec:1.2.0
+content/com/io7m/mime2045/com.io7m.mime2045-1.1.0.buildspec:1.2.0
+content/com/io7m/quarrel/com.io7m.quarrel-1.6.1.buildspec:1.7.0
 content/dev/langchain4j/langchain4j-1.0.0-beta3.buildspec:1.0.0-rc1
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
 content/io/airlift/airbase/airbase-256.buildspec:257
-content/io/telicent/jena/rdf-abac/rdf-abac-0.73.4.buildspec:1.0.0
-content/nl/basjes/modbus/modbus-schema-parent/modbus-schema-parent-0.1.1.buildspec:0.2.0
-content/nl/basjes/modbus/devices/modbus-devices-parent/modbus-devices-parent-0.1.1.buildspec:0.2.0
-content/nl/basjes/sunspec/sunspec-device-parent/sunspec-device-parent-0.1.1.buildspec:0.2.0
+content/org/apache/paimon/paimon-parent-1.1.0.buildspec:1.1.1
