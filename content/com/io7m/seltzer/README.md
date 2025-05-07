@@ -7,21 +7,23 @@
 
 Source code: [https://github.com/io7m/seltzer.git](https://github.com/io7m/seltzer.git)
 
-<details><summary>This project defines 4 modules:</summary>
+<details><summary>This project defines 6 modules:</summary>
 
 * [com.io7m.seltzer:com.io7m.seltzer](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer/overview)
 * [com.io7m.seltzer:com.io7m.seltzer.api](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer.api/overview)
+* [com.io7m.seltzer:com.io7m.seltzer.bom](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer.bom/overview)
 * [com.io7m.seltzer:com.io7m.seltzer.io](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer.io/overview)
+* [com.io7m.seltzer:com.io7m.seltzer.slf4j](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer.slf4j/overview)
 * [com.io7m.seltzer:com.io7m.seltzer.tests](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer.tests/overview)
 </details>
 
-rebuilding **2 releases** of com.io7m.seltzer:com.io7m.seltzer:
+rebuilding **3 releases** of com.io7m.seltzer:com.io7m.seltzer:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.2.0](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer/1.2.0/pom) | | | |
+| [1.2.0](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer/1.2.0/pom) | [mvn jdk21](com.io7m.seltzer-1.2.0.buildspec) | [result](com.io7m.seltzer-1.2.0.buildinfo): [9 :white_check_mark:  15 :warning:](com.io7m.seltzer-1.2.0.buildcompare) | 657K |
 | [1.1.0](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer/1.1.0/pom) | [mvn jdk21](com.io7m.seltzer-1.1.0.buildspec) | [result](com.io7m.seltzer-1.1.0.buildinfo): [17 :white_check_mark: ](com.io7m.seltzer-1.1.0.buildcompare) | 571K |
 | [1.0.1](https://central.sonatype.com/artifact/com.io7m.seltzer/com.io7m.seltzer/1.0.1/pom) | [mvn jdk21](com.io7m.seltzer-1.0.1.buildspec) | [result](com.io7m.seltzer-1.0.1.buildinfo): [12 :white_check_mark: ](com.io7m.seltzer-1.0.1.buildcompare) | 457K |
 
