@@ -1,0 +1,9 @@
+version=1.7.8
+ok=5
+ko=0
+ignored=0
+okFiles="antisamy-1.7.8.pom antisamy-1.7.8.jar antisamy-1.7.8-sources.jar antisamy-1.7.8-cyclonedx.xml antisamy-1.7.8-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="23 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
