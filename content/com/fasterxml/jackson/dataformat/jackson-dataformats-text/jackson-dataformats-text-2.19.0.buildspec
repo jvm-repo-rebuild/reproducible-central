@@ -6,7 +6,7 @@ version=2.19.0
 gitRepo=https://github.com/FasterXML/jackson-dataformats-text.git
 gitTag=${artifactId}-${version}
 
-tool=mvn-3.9.6
+tool=mvn-3.9.6 # extracted from: wget -q -O - https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/$artifactId/$version/$artifactId-$version.module | grep -A2 createdBy
 jdk=8
 newline=lf
 timezone="America/Los_Angeles"
