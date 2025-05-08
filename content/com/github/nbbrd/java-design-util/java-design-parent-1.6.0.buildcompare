@@ -1,0 +1,9 @@
+version=1.6.0
+ok=8
+ko=0
+ignored=0
+okFiles="java-design-parent-1.6.0.pom java-design-annotation-1.6.0.pom java-design-annotation-1.6.0.jar java-design-annotation-1.6.0-sources.jar java-design-processor-1.6.0.pom java-design-processor-1.6.0.jar java-design-processor-1.6.0-sources.jar java-design-bom-1.6.0.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

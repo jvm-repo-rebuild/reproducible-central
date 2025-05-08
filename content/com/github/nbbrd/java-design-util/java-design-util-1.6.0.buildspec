@@ -1,0 +1,18 @@
+groupId=com.github.nbbrd.java-design-util
+artifactId=java-design-parent
+display=com.github.nbbrd.*:java-design-util
+version=1.6.0
+
+gitRepo=https://github.com/nbbrd/java-design-util.git
+gitTag=v${version}
+
+tool=mvn
+jdk=21
+newline=lf
+umask=022
+
+command="mvn -Pbase-deploy clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
