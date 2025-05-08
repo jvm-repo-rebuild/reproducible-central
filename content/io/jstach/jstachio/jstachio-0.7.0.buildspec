@@ -1,0 +1,21 @@
+groupId=io.jstach
+artifactId=jstachio
+version=0.7.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/jstachio/${artifactId}.git
+gitTag=v${version}
+
+tool=mvn-3.9.2
+jdk=17
+newline=lf
+umask=022
+
+# Unfortunately one of the Ant calls to update jstachio-apt jar did not normalize the timestamp on UTC
+# This will be fixed in the next version
+command="bin/rebuild.sh -Duser.timezone=America/New_York"
+
+buildinfo=target/jstachio-maven-parent-${version}.buildinfo
+
+issue=
