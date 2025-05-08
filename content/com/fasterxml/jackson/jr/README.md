@@ -19,15 +19,15 @@ Source code: [https://github.com/FasterXML/jackson-jr.git](https://github.com/Fa
 * [com.fasterxml.jackson.jr:jackson-jr-test-module](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-test-module/overview)
 </details>
 
-rebuilding **31 releases** of com.fasterxml.jackson.jr:jackson-jr-parent:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **32 releases** of com.fasterxml.jackson.jr:jackson-jr-parent:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 21 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [2.19.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.19.0/pom) | [mvn jdk8](jackson-jr-2.19.0.buildspec) | [result](jackson-jr-parent-2.19.0.buildinfo): [24 :white_check_mark: ](jackson-jr-parent-2.19.0.buildcompare) | 1.7M |
 | [2.19.0-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.19.0-rc2/pom) | [mvn jdk8](jackson-jr-2.19.0-rc2.buildspec) | [result](jackson-jr-parent-2.19.0-rc2.buildinfo): [24 :white_check_mark: ](jackson-jr-parent-2.19.0-rc2.buildcompare) | 1.7M |
-| [2.18.4](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.18.4/pom) | | | |
+| [2.18.4](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.18.4/pom) | [mvn jdk8](jackson-jr-2.18.4.buildspec) | [result](jackson-jr-parent-2.18.4.buildinfo): [24 :white_check_mark: ](jackson-jr-parent-2.18.4.buildcompare) | 1.7M |
 | [2.18.3](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.18.3/pom) | [mvn jdk8](jackson-jr-2.18.3.buildspec) | [result](jackson-jr-parent-2.18.3.buildinfo): [24 :white_check_mark: ](jackson-jr-parent-2.18.3.buildcompare) | 1.7M |
 | [2.18.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.18.2/pom) | [mvn jdk8](jackson-jr-2.18.2.buildspec) | [result](jackson-jr-parent-2.18.2.buildinfo): [24 :white_check_mark: ](jackson-jr-parent-2.18.2.buildcompare) | 1.7M |
 | [2.18.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.18.1/pom) | [mvn jdk8](jackson-jr-2.18.1.buildspec) | [result](jackson-jr-parent-2.18.1.buildinfo): [14 :white_check_mark:  10 :warning:](jackson-jr-parent-2.18.1.buildcompare) | 1.7M |
