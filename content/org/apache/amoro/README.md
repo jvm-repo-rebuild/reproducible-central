@@ -43,6 +43,7 @@ rebuilding **1 releases** of org.apache.amoro:amoro-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.8.0-incubating](https://central.sonatype.com/artifact/org.apache.amoro/amoro-parent/0.8.0-incubating/pom) | | | |
 | [0.7.1-incubating](https://central.sonatype.com/artifact/org.apache.amoro/amoro-parent/0.7.1-incubating/pom) | [mvn jdk8](amoro-0.7.1-incubating.buildspec) | [result](amoro-parent-0.7.1-incubating.buildinfo): [79 :white_check_mark:  11 :warning:](amoro-parent-0.7.1-incubating.buildcompare) | 315M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

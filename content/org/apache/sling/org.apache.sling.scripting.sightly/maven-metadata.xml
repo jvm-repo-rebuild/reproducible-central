@@ -3,8 +3,8 @@
   <groupId>org.apache.sling</groupId>
   <artifactId>org.apache.sling.scripting.sightly</artifactId>
   <versioning>
-    <latest>1.4.26-1.4.0</latest>
-    <release>1.4.26-1.4.0</release>
+    <latest>1.4.28-1.4.0</latest>
+    <release>1.4.28-1.4.0</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.2</version>
@@ -51,7 +51,8 @@
       <version>1.4.22-1.4.0</version>
       <version>1.4.24-1.4.0</version>
       <version>1.4.26-1.4.0</version>
+      <version>1.4.28-1.4.0</version>
     </versions>
-    <lastUpdated>20241128181710</lastUpdated>
+    <lastUpdated>20250508083625</lastUpdated>
   </versioning>
 </metadata>

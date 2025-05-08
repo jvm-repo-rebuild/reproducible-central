@@ -13,6 +13,7 @@ rebuilding **18 releases** of org.owasp.antisamy:antisamy:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.7.8](https://central.sonatype.com/artifact/org.owasp.antisamy/antisamy/1.7.8/pom) | | | |
 | [1.7.7](https://central.sonatype.com/artifact/org.owasp.antisamy/antisamy/1.7.7/pom) | [mvn jdk8](antisamy-1.7.7.buildspec) | [result](antisamy-1.7.7.buildinfo): [5 :white_check_mark: ](antisamy-1.7.7.buildcompare) | 431K |
 | [1.7.6](https://central.sonatype.com/artifact/org.owasp.antisamy/antisamy/1.7.6/pom) | [mvn jdk8](antisamy-1.7.6.buildspec) | [result](antisamy-1.7.6.buildinfo): [5 :white_check_mark: ](antisamy-1.7.6.buildcompare) | 425K |
 | [1.7.5](https://central.sonatype.com/artifact/org.owasp.antisamy/antisamy/1.7.5/pom) | [mvn jdk8](antisamy-1.7.5.buildspec) | [result](antisamy-1.7.5.buildinfo): [5 :white_check_mark: ](antisamy-1.7.5.buildcompare) | 424K |
