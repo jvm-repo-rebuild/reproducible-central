@@ -1,0 +1,33 @@
+version=1.7.0
+ok=11
+ko=26
+ignored=0
+okFiles="com.io7m.quarrel-1.7.0.pom com.io7m.quarrel-1.7.0-cyclonedx.xml com.io7m.quarrel.bom-1.7.0.pom com.io7m.quarrel.bom-1.7.0-cyclonedx.xml com.io7m.quarrel.core-1.7.0.pom com.io7m.quarrel.core-1.7.0-cyclonedx.xml com.io7m.quarrel.ext.xstructural-1.7.0.pom com.io7m.quarrel.example-1.7.0.pom com.io7m.quarrel.documentation-1.7.0.pom com.io7m.quarrel.ext.logback-1.7.0.pom com.io7m.quarrel.tests-1.7.0.pom"
+koFiles="com.io7m.quarrel.bom-1.7.0.jar com.io7m.quarrel.bom-1.7.0-tests.jar com.io7m.quarrel.core-1.7.0.jar com.io7m.quarrel.core-1.7.0-sources.jar com.io7m.quarrel.core-1.7.0-tests.jar com.io7m.quarrel.ext.xstructural-1.7.0.jar com.io7m.quarrel.ext.xstructural-1.7.0-sources.jar com.io7m.quarrel.ext.xstructural-1.7.0-cyclonedx.xml com.io7m.quarrel.ext.xstructural-1.7.0-tests.jar com.io7m.quarrel.example-1.7.0.jar com.io7m.quarrel.example-1.7.0-sources.jar com.io7m.quarrel.example-1.7.0-main.jar com.io7m.quarrel.example-1.7.0-cyclonedx.xml com.io7m.quarrel.example-1.7.0-tests.jar com.io7m.quarrel.documentation-1.7.0.jar com.io7m.quarrel.documentation-1.7.0-sources.jar com.io7m.quarrel.documentation-1.7.0-cyclonedx.xml com.io7m.quarrel.documentation-1.7.0-tests.jar com.io7m.quarrel.ext.logback-1.7.0.jar com.io7m.quarrel.ext.logback-1.7.0-sources.jar com.io7m.quarrel.ext.logback-1.7.0-cyclonedx.xml com.io7m.quarrel.ext.logback-1.7.0-tests.jar com.io7m.quarrel.tests-1.7.0.jar com.io7m.quarrel.tests-1.7.0-sources.jar com.io7m.quarrel.tests-1.7.0-cyclonedx.xml com.io7m.quarrel.tests-1.7.0-tests.jar"
+ignoredFiles=""
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.bom-1.7.0.jar com.io7m.quarrel.bom/target/com.io7m.quarrel.bom-1.7.0.jar
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.bom-1.7.0-tests.jar com.io7m.quarrel.bom/target/com.io7m.quarrel.bom-1.7.0-tests.jar
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.core-1.7.0.jar com.io7m.quarrel.core/target/com.io7m.quarrel.core-1.7.0.jar
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.core-1.7.0-sources.jar com.io7m.quarrel.core/target/com.io7m.quarrel.core-1.7.0-sources.jar
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.core-1.7.0-tests.jar com.io7m.quarrel.core/target/com.io7m.quarrel.core-1.7.0-tests.jar
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.ext.xstructural-1.7.0.jar com.io7m.quarrel.ext.xstructural/target/com.io7m.quarrel.ext.xstructural-1.7.0.jar
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.ext.xstructural-1.7.0-sources.jar com.io7m.quarrel.ext.xstructural/target/com.io7m.quarrel.ext.xstructural-1.7.0-sources.jar
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.ext.xstructural-1.7.0-cyclonedx.xml com.io7m.quarrel.ext.xstructural/target/bom.xml
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.ext.xstructural-1.7.0-tests.jar com.io7m.quarrel.ext.xstructural/target/com.io7m.quarrel.ext.xstructural-1.7.0-tests.jar
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.example-1.7.0.jar com.io7m.quarrel.example/target/com.io7m.quarrel.example-1.7.0.jar
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.example-1.7.0-sources.jar com.io7m.quarrel.example/target/com.io7m.quarrel.example-1.7.0-sources.jar
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.example-1.7.0-main.jar com.io7m.quarrel.example/target/com.io7m.quarrel.example-1.7.0-main.jar
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.example-1.7.0-cyclonedx.xml com.io7m.quarrel.example/target/bom.xml
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.example-1.7.0-tests.jar com.io7m.quarrel.example/target/com.io7m.quarrel.example-1.7.0-tests.jar
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.documentation-1.7.0.jar com.io7m.quarrel.documentation/target/com.io7m.quarrel.documentation-1.7.0.jar
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.documentation-1.7.0-sources.jar com.io7m.quarrel.documentation/target/com.io7m.quarrel.documentation-1.7.0-sources.jar
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.documentation-1.7.0-cyclonedx.xml com.io7m.quarrel.documentation/target/bom.xml
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.documentation-1.7.0-tests.jar com.io7m.quarrel.documentation/target/com.io7m.quarrel.documentation-1.7.0-tests.jar
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.ext.logback-1.7.0.jar com.io7m.quarrel.ext.logback/target/com.io7m.quarrel.ext.logback-1.7.0.jar
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.ext.logback-1.7.0-sources.jar com.io7m.quarrel.ext.logback/target/com.io7m.quarrel.ext.logback-1.7.0-sources.jar
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.ext.logback-1.7.0-cyclonedx.xml com.io7m.quarrel.ext.logback/target/bom.xml
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.ext.logback-1.7.0-tests.jar com.io7m.quarrel.ext.logback/target/com.io7m.quarrel.ext.logback-1.7.0-tests.jar
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.tests-1.7.0.jar com.io7m.quarrel.tests/target/com.io7m.quarrel.tests-1.7.0.jar
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.tests-1.7.0-sources.jar com.io7m.quarrel.tests/target/com.io7m.quarrel.tests-1.7.0-sources.jar
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.tests-1.7.0-cyclonedx.xml com.io7m.quarrel.tests/target/bom.xml
+# diffoscope target/reference/com.io7m.quarrel/com.io7m.quarrel.tests-1.7.0-tests.jar com.io7m.quarrel.tests/target/com.io7m.quarrel.tests-1.7.0-tests.jar
