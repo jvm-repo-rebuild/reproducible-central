@@ -1,0 +1,18 @@
+groupId=io.avaje
+artifactId=avaje-provides-maven-plugin
+display=${groupId}:${artifactId}
+version=2.3
+
+gitRepo=https://github.com/avaje/avaje-provides-plugin.git
+gitTag=${version}
+
+tool=mvn
+jdk=24
+newline=crlf
+#umask=022
+
+command="mvn -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
