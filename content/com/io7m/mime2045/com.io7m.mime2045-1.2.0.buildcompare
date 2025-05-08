@@ -1,0 +1,28 @@
+version=1.2.0
+ok=10
+ko=21
+ignored=0
+okFiles="com.io7m.mime2045-1.2.0.pom com.io7m.mime2045-1.2.0-cyclonedx.xml com.io7m.mime2045.bom-1.2.0.pom com.io7m.mime2045.bom-1.2.0-cyclonedx.xml com.io7m.mime2045.core-1.2.0.pom com.io7m.mime2045.core-1.2.0-cyclonedx.xml com.io7m.mime2045.fileext-1.2.0.pom com.io7m.mime2045.parser.api-1.2.0.pom com.io7m.mime2045.parser-1.2.0.pom com.io7m.mime2045.tests-1.2.0.pom"
+koFiles="com.io7m.mime2045.bom-1.2.0.jar com.io7m.mime2045.bom-1.2.0-tests.jar com.io7m.mime2045.core-1.2.0.jar com.io7m.mime2045.core-1.2.0-sources.jar com.io7m.mime2045.core-1.2.0-tests.jar com.io7m.mime2045.fileext-1.2.0.jar com.io7m.mime2045.fileext-1.2.0-sources.jar com.io7m.mime2045.fileext-1.2.0-cyclonedx.xml com.io7m.mime2045.fileext-1.2.0-tests.jar com.io7m.mime2045.parser.api-1.2.0.jar com.io7m.mime2045.parser.api-1.2.0-sources.jar com.io7m.mime2045.parser.api-1.2.0-cyclonedx.xml com.io7m.mime2045.parser.api-1.2.0-tests.jar com.io7m.mime2045.parser-1.2.0.jar com.io7m.mime2045.parser-1.2.0-sources.jar com.io7m.mime2045.parser-1.2.0-cyclonedx.xml com.io7m.mime2045.parser-1.2.0-tests.jar com.io7m.mime2045.tests-1.2.0.jar com.io7m.mime2045.tests-1.2.0-sources.jar com.io7m.mime2045.tests-1.2.0-cyclonedx.xml com.io7m.mime2045.tests-1.2.0-tests.jar"
+ignoredFiles=""
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.bom-1.2.0.jar com.io7m.mime2045.bom/target/com.io7m.mime2045.bom-1.2.0.jar
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.bom-1.2.0-tests.jar com.io7m.mime2045.bom/target/com.io7m.mime2045.bom-1.2.0-tests.jar
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.core-1.2.0.jar com.io7m.mime2045.core/target/com.io7m.mime2045.core-1.2.0.jar
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.core-1.2.0-sources.jar com.io7m.mime2045.core/target/com.io7m.mime2045.core-1.2.0-sources.jar
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.core-1.2.0-tests.jar com.io7m.mime2045.core/target/com.io7m.mime2045.core-1.2.0-tests.jar
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.fileext-1.2.0.jar com.io7m.mime2045.fileext/target/com.io7m.mime2045.fileext-1.2.0.jar
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.fileext-1.2.0-sources.jar com.io7m.mime2045.fileext/target/com.io7m.mime2045.fileext-1.2.0-sources.jar
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.fileext-1.2.0-cyclonedx.xml com.io7m.mime2045.fileext/target/bom.xml
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.fileext-1.2.0-tests.jar com.io7m.mime2045.fileext/target/com.io7m.mime2045.fileext-1.2.0-tests.jar
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.parser.api-1.2.0.jar com.io7m.mime2045.parser.api/target/com.io7m.mime2045.parser.api-1.2.0.jar
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.parser.api-1.2.0-sources.jar com.io7m.mime2045.parser.api/target/com.io7m.mime2045.parser.api-1.2.0-sources.jar
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.parser.api-1.2.0-cyclonedx.xml com.io7m.mime2045.parser.api/target/bom.xml
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.parser.api-1.2.0-tests.jar com.io7m.mime2045.parser.api/target/com.io7m.mime2045.parser.api-1.2.0-tests.jar
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.parser-1.2.0.jar com.io7m.mime2045.parser/target/com.io7m.mime2045.parser-1.2.0.jar
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.parser-1.2.0-sources.jar com.io7m.mime2045.parser/target/com.io7m.mime2045.parser-1.2.0-sources.jar
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.parser-1.2.0-cyclonedx.xml com.io7m.mime2045.parser/target/bom.xml
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.parser-1.2.0-tests.jar com.io7m.mime2045.parser/target/com.io7m.mime2045.parser-1.2.0-tests.jar
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.tests-1.2.0.jar com.io7m.mime2045.tests/target/com.io7m.mime2045.tests-1.2.0.jar
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.tests-1.2.0-sources.jar com.io7m.mime2045.tests/target/com.io7m.mime2045.tests-1.2.0-sources.jar
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.tests-1.2.0-cyclonedx.xml com.io7m.mime2045.tests/target/bom.xml
+# diffoscope target/reference/com.io7m.mime2045/com.io7m.mime2045.tests-1.2.0-tests.jar com.io7m.mime2045.tests/target/com.io7m.mime2045.tests-1.2.0-tests.jar
