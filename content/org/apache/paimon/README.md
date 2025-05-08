@@ -72,13 +72,13 @@ Source code: [https://github.com/apache/paimon.git](https://github.com/apache/pa
 * [org.apache.paimon:paimon-test-utils](https://central.sonatype.com/artifact/org.apache.paimon/paimon-test-utils/overview)
 </details>
 
-rebuilding **10 releases** of org.apache.paimon:paimon-parent:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **11 releases** of org.apache.paimon:paimon-parent:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.1.1](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/1.1.1/pom) | | | |
+| [1.1.1](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/1.1.1/pom) | [mvn jdk8](paimon-parent-1.1.1.buildspec) | [result](paimon-parent-1.1.1.buildinfo): [152 :white_check_mark: ](paimon-parent-1.1.1.buildcompare) | 990M |
 | [1.1.0](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/1.1.0/pom) | [mvn jdk8](paimon-parent-1.1.0.buildspec) | [result](paimon-parent-1.1.0.buildinfo): [152 :white_check_mark: ](paimon-parent-1.1.0.buildcompare) | 990M |
 | [1.0.1](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/1.0.1/pom) | [mvn jdk8](paimon-parent-1.0.1.buildspec) | [result](paimon-parent-1.0.1.buildinfo): [139 :white_check_mark: ](paimon-parent-1.0.1.buildcompare) | 994M |
 | [1.0.0](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/1.0.0/pom) | [mvn jdk8](paimon-parent-1.0.0.buildspec) | [result](paimon-parent-1.0.0.buildinfo): [96 :white_check_mark:  43 :warning:](paimon-parent-1.0.0.buildcompare) [:mag:](paimon-parent-1.0.0.diffoscope) | 992M |
