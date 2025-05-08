@@ -1,0 +1,49 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=OWASP AntiSamy
+group-id=org.owasp.antisamy
+artifact-id=antisamy
+version=1.7.8
+
+# source information
+source.scm.uri=scm:git:git@github.com:nahsra/antisamy.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=23.0.2
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.owasp.antisamy
+outputs.0.filename=antisamy-1.7.8.pom
+outputs.0.length=29889
+outputs.0.checksums.sha512=5fd961ec5125b4d71963e554ebc13ca8041dde1d87f2162c8db26bb0a14d89d3b9250616a66cdec8afd4644ee1b7ec53054e78ea1628b485e96e0c39f1806e79
+
+outputs.1.groupId=org.owasp.antisamy
+outputs.1.filename=antisamy-1.7.8.jar
+outputs.1.length=169740
+outputs.1.checksums.sha512=5bf53bf723e009dd1d951dc466874a00e1be9bc3e3667df87f0ad8f91355041f7d324132deaa70fbf00bd1c48b4265a77ee286d01833098f4e3f9eb587129e09
+
+outputs.2.groupId=org.owasp.antisamy
+outputs.2.filename=antisamy-1.7.8-sources.jar
+outputs.2.length=159713
+outputs.2.checksums.sha512=424710ee5b2da674c709cfa37dc3cfe198e2068c15031e34ea086120f85738354c101a32f842f7bfa0eb2649f6c4c12f8d1b15fc8815b0694f1eb918d36eb8a4
+
+outputs.3.groupId=org.owasp.antisamy
+outputs.3.filename=antisamy-1.7.8-cyclonedx.xml
+outputs.3.length=47047
+outputs.3.checksums.sha512=d2692f5482e224f955028cdef40f8f1dfe81b650d6baccde45a08aadbbfb153122be1f34e858b30b352e149498e22ce3f32a3ac81c0ed92b14ab336de2d26222
+
+outputs.4.groupId=org.owasp.antisamy
+outputs.4.filename=antisamy-1.7.8-cyclonedx.json
+outputs.4.length=52186
+outputs.4.checksums.sha512=bdf7a33f95ae1834291545b828e0610b3624aa3f5822d4874b43acb849024fd5524b3a1240d989f7f27cb22d8bb7c2705cbf4b04e6870bca58cf5cdea81e0858
