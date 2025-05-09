@@ -251,6 +251,7 @@
       <version>4.8.4</version>
       <version>4.8.5</version>
       <version>4.8.6</version>
+      <version>4.8.7</version>
       <version>4.9.0</version>
       <version>4.10.0</version>
       <version>4.10.1</version>
@@ -259,6 +260,6 @@
       <version>4.10.4</version>
       <version>4.11.0</version>
     </versions>
-    <lastUpdated>20250430085550</lastUpdated>
+    <lastUpdated>20250509132905</lastUpdated>
   </versioning>
 </metadata>

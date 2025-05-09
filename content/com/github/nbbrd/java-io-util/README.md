@@ -26,6 +26,7 @@ rebuilding **6 releases** of com.github.nbbrd.java-io-util:java-io-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.0.34](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-parent/0.0.34/pom) | | | |
 | [0.0.33](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-parent/0.0.33/pom) | [mvn jdk21](java-io-parent-0.0.33.buildspec) | [result](java-io-parent-0.0.33.buildinfo): [25 :white_check_mark: ](java-io-parent-0.0.33.buildcompare) | 574K |
 | [0.0.32](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-parent/0.0.32/pom) | [mvn jdk21](java-io-parent-0.0.32.buildspec) | [result](java-io-parent-0.0.32.buildinfo): [25 :white_check_mark: ](java-io-parent-0.0.32.buildcompare) | 570K |
 | [0.0.31](https://central.sonatype.com/artifact/com.github.nbbrd.java-io-util/java-io-parent/0.0.31/pom) | [mvn jdk21](java-io-parent-0.0.31.buildspec) | [result](java-io-parent-0.0.31.buildinfo): [25 :white_check_mark: ](java-io-parent-0.0.31.buildcompare) | 569K |
