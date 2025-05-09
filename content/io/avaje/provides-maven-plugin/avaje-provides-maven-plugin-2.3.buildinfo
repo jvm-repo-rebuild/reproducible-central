@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=avaje-provides-maven-plugin
+group-id=io.avaje
+artifact-id=avaje-provides-maven-plugin
+version=2.3
+
+# source information
+source.scm.uri=null
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=24.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=io.avaje
+outputs.0.filename=avaje-provides-maven-plugin-2.3.pom
+outputs.0.length=1668
+outputs.0.checksums.sha512=bcdb24deac4d1c71ad4cad5bb1be8f5d4713de5480e3b92070bc7b1f0fcb0baa9e329b5d2843d88d82dc057fca8b21f2ce5c4870c13d1f567bbfb3311a34d382
+
+outputs.1.groupId=io.avaje
+outputs.1.filename=avaje-provides-maven-plugin-2.3.jar
+outputs.1.length=14200
+outputs.1.checksums.sha512=8f77cab1b6c2f7c27e1aeb693e034f814920b8a6c19629278972d9335f930d561584315acceca743530c179ff250914787df9d7d418a1b903cf0c9b0fc40a9e4
+
+outputs.2.groupId=io.avaje
+outputs.2.filename=avaje-provides-maven-plugin-2.3-sources.jar
+outputs.2.length=6847
+outputs.2.checksums.sha512=28ebb9507000a6541b10224457d3837ce01dfe305051338772e1c6efeb7e5b2579533bc045d881ea7d2e24313f2828e0c329d22c926f06eb71c6047b230fcf38
