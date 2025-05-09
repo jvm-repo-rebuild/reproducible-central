@@ -1,0 +1,9 @@
+version=0.0.34
+ok=25
+ko=0
+ignored=0
+okFiles="java-io-parent-0.0.34.pom java-io-base-0.0.34.pom java-io-base-0.0.34.jar java-io-base-0.0.34-sources.jar java-io-base-0.0.34-tests.jar java-io-win-0.0.34.pom java-io-win-0.0.34.jar java-io-win-0.0.34-sources.jar java-io-xml-0.0.34.pom java-io-xml-0.0.34.jar java-io-xml-0.0.34-sources.jar java-io-xml-0.0.34-tests.jar java-io-xml-bind-0.0.34.pom java-io-xml-bind-0.0.34.jar java-io-xml-bind-0.0.34-sources.jar java-io-picocsv-0.0.34.pom java-io-picocsv-0.0.34.jar java-io-picocsv-0.0.34-sources.jar java-io-curl-0.0.34.pom java-io-curl-0.0.34.jar java-io-curl-0.0.34-sources.jar java-io-http-0.0.34.pom java-io-http-0.0.34.jar java-io-http-0.0.34-sources.jar java-io-bom-0.0.34.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
