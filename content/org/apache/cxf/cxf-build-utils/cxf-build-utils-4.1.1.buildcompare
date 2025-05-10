@@ -1,0 +1,9 @@
+version=4.1.1
+ok=11
+ko=0
+ignored=0
+okFiles="cxf-build-utils-4.1.1.pom cxf-build-utils-4.1.1-source-release.zip cxf-buildtools-4.1.1.pom cxf-buildtools-4.1.1.jar cxf-buildtools-4.1.1-sources.jar cxf-xml2fastinfoset-plugin-4.1.1.pom cxf-xml2fastinfoset-plugin-4.1.1.jar cxf-xml2fastinfoset-plugin-4.1.1-sources.jar cxf-xml2fastinfoset-test-4.1.1.pom cxf-xml2fastinfoset-test-4.1.1.jar cxf-xml2fastinfoset-test-4.1.1-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
