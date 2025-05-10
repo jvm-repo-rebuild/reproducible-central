@@ -1,0 +1,7 @@
+version=3.4.19
+ok=4
+ko=0
+ignored=0
+okFiles="github-desktop-3.4.19.pom github-desktop-3.4.19-cyclonedx.xml github-desktop-3.4.19-cyclonedx.json github-desktop-3.4.19-distro.tar.xz"
+koFiles=""
+ignoredFiles=""
