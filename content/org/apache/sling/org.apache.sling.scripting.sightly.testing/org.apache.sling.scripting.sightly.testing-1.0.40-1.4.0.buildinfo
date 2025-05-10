@@ -1,0 +1,49 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Scripting HTL Testing
+group-id=org.apache.sling
+artifact-id=org.apache.sling.scripting.sightly.testing
+version=1.0.40-1.4.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-scripting-sightly-testing.git
+source.scm.tag=org.apache.sling.scripting.sightly.testing-1.0.40-1.4.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_452
+java.vendor=Private Build
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.scripting.sightly.testing-1.0.40-1.4.0.pom
+outputs.0.length=20720
+outputs.0.checksums.sha512=11e45f39ec754f6078f55bff9c4b9633029a490737a71adb679164d290ecad30eca86d724ee486ecbff6a4f87afb68379985c5d2b2a5e63d516f3107ce19df90
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.scripting.sightly.testing-1.0.40-1.4.0.jar
+outputs.1.length=24379
+outputs.1.checksums.sha512=c571f365668dd27eb4510cac42d4e2031478d96673ff49563ee3e4925b595bf0ff6091f016400f7aaf3133ccaa49fa78f4ce8cf6be441420281176d5eb8c2cc6
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.scripting.sightly.testing-1.0.40-1.4.0-source-release.zip
+outputs.2.length=70766
+outputs.2.checksums.sha512=ef24f393288c5df71841b86951ea2dcddf3506d43b7b7c229df2760cbbc3034f77530568b64a968c289d3258dc61689dd747106792b1e3ded75846816a0d4642
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.scripting.sightly.testing-1.0.40-1.4.0-sources.jar
+outputs.3.length=23519
+outputs.3.checksums.sha512=19da83ed908d2d2e00efdb477eaff8eadc4239e322b86f7541cf491d5209238d7ac73b15cf8e604221049432cadef71430af497c1865075406dcf0f1f8e09a32
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.scripting.sightly.testing-1.0.40-1.4.0-sources.jar
+outputs.4.length=23519
+outputs.4.checksums.sha512=19da83ed908d2d2e00efdb477eaff8eadc4239e322b86f7541cf491d5209238d7ac73b15cf8e604221049432cadef71430af497c1865075406dcf0f1f8e09a32
