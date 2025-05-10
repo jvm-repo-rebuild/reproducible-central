@@ -1,0 +1,19 @@
+groupId=org.eclipse.jetty
+artifactId=jetty-project
+display=${groupId}:${artifactId}
+version=12.0.20
+
+gitRepo=https://github.com/eclipse/jetty.project.git
+gitTag=jetty-${version}
+
+tool=mvn-3.9.9
+jdk=22
+newline=lf
+umask=002
+
+timestamp=1745949610257 # extracted from: wget https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/$version/jetty-util-$version.jar ; unzip -q -c jetty-util-$version.jar org/eclipse/jetty/version/build.properties | grep timestamp
+command="mvn -Peclipse-release clean package -DskipTests -Dgpg.skip -Dtimestamp=${timestamp} -Dbuildinfo.ignore=*/*-p2site.zip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
