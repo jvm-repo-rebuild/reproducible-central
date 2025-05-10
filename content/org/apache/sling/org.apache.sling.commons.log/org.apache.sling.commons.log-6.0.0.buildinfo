@@ -1,0 +1,49 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Commons Log
+group-id=org.apache.sling
+artifact-id=org.apache.sling.commons.log
+version=6.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-log.git
+source.scm.tag=org.apache.sling.commons.log-6.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.7
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.commons.log-6.0.0.pom
+outputs.0.length=17217
+outputs.0.checksums.sha512=fc50c9403c2558038525d959776cf7e5e041ecf813390e763ab34629108e7c724782732c7e942ce0d2304f56dc2476353d2608704c6aaaf923c8593d4c0f61a5
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.commons.log-6.0.0.jar
+outputs.1.length=155397
+outputs.1.checksums.sha512=5c48b1d3d9a4d3b4f01adfda503d1d2c41c71873f7758773eda3f675e3aad621991e558635eb5121dfc4c4a6e1054a4f4791ad68ecfbe46732fde70cf7d2a579
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.commons.log-6.0.0-source-release.zip
+outputs.2.length=301426
+outputs.2.checksums.sha512=36f8c46b1f1912162c80b07761fba623c638143b0157f6ad21e9af155d6a7cc13d23c02ea06a10368653bd3e189e42bc27932b58a3f46632d9a25791e3607c2c
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.commons.log-6.0.0-sources.jar
+outputs.3.length=123887
+outputs.3.checksums.sha512=5e72579b27ff605269242eb0f99d11a215c11701b1db5824ed5ca5074e5e606f29616331a73b0877ccd24ae5f49b1fc33413ab0560ba9a9883d154d774991b66
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.commons.log-6.0.0-all.jar
+outputs.4.length=1161887
+outputs.4.checksums.sha512=2838598e096072f23095ade18e179f1cc77482da1ce2ee7439701caae9a7be0b461a26d4d2bec174913478f88db985fa679fc17f975906589d22901f0658f2c0
