@@ -1,0 +1,40 @@
+1 / 5 target/reference/org.apache.systemds/systemds-3.3.0-src.tgz target/systemds-3.3.0-src.tgz
+--- target/reference/org.apache.systemds/systemds-3.3.0-src.tgz
++++ target/systemds-3.3.0-src.tgz
+├── systemds-3.3.0-src.tgz-content
+│ ├── file list
+│ │ @@ -616,16 +616,14 @@
+│ │  -rw-rw-rw-   0 root         (0) root         (0)      939 1970-01-01 00:00:01.000000 systemds-3.3.0-src/docker/mountFolder/main.dml
+│ │  -rw-rw-rw-   0 root         (0) root         (0)     1225 1970-01-01 00:00:01.000000 systemds-3.3.0-src/docker/mountFolder/main.py
+│ │  -rwxrwxrwx   0 root         (0) root         (0)     1051 1970-01-01 00:00:01.000000 systemds-3.3.0-src/docker/push.sh
+│ │  -rw-rw-rw-   0 root         (0) root         (0)     2808 1970-01-01 00:00:01.000000 systemds-3.3.0-src/docker/pythonsysds.Dockerfile
+│ │  -rw-rw-rw-   0 root         (0) root         (0)     2462 1970-01-01 00:00:01.000000 systemds-3.3.0-src/docker/sysds.Dockerfile
+│ │  -rw-rw-rw-   0 root         (0) root         (0)     3145 1970-01-01 00:00:01.000000 systemds-3.3.0-src/docker/testsysds.Dockerfile
+│ │  -rw-rw-rw-   0 root         (0) root         (0)    47436 1970-01-01 00:00:01.000000 systemds-3.3.0-src/pom.xml
+│ │ --rw-rw-rw-   0 root         (0) root         (0)    47440 1970-01-01 00:00:01.000000 systemds-3.3.0-src/pom.xml.releaseBackup
+│ │ --rw-rw-rw-   0 root         (0) root         (0)     1081 1970-01-01 00:00:01.000000 systemds-3.3.0-src/release.properties
+│ │  -rw-rw-rw-   0 root         (0) root         (0)     7148 1970-01-01 00:00:01.000000 systemds-3.3.0-src/scripts/algorithms/Cox-predict.dml
+│ │  -rw-rw-rw-   0 root         (0) root         (0)    52223 1970-01-01 00:00:01.000000 systemds-3.3.0-src/scripts/algorithms/StepGLM.dml
+│ │  -rw-rw-rw-   0 root         (0) root         (0)     5725 1970-01-01 00:00:01.000000 systemds-3.3.0-src/scripts/algorithms/Univar-Stats.dml
+│ │  -rw-rw-rw-   0 root         (0) root         (0)     5473 1970-01-01 00:00:01.000000 systemds-3.3.0-src/scripts/aws/README.md
+│ │  -rw-rw-rw-   0 root         (0) root         (0)     6788 1970-01-01 00:00:01.000000 systemds-3.3.0-src/scripts/aws/aws_ec2_table.csv
+│ │  -rwxrwxrwx   0 root         (0) root         (0)     2290 1970-01-01 00:00:01.000000 systemds-3.3.0-src/scripts/aws/run_systemds_script.sh
+│ │  -rwxrwxrwx   0 root         (0) root         (0)     5466 1970-01-01 00:00:01.000000 systemds-3.3.0-src/scripts/aws/spinup_systemds_cluster.sh
+
+2 / 5 target/reference/org.apache.systemds/systemds-3.3.0-src.zip target/systemds-3.3.0-src.zip
+# same as .tar.gz
+
+# https://github.com/apache/systemds/pull/2257
+3 / 5 target/reference/org.apache.systemds/systemds-3.3.0-extra.jar target/systemds-3.3.0-extra.jar
+├── META-INF/MANIFEST.MF
+│ @@ -1,7 +1,7 @@
+│  Manifest-Version: 1.0
+│  Created-By: Maven Archiver 3.6.0
+│  Build-Jdk-Spec: 11
+│  Artifact-Id: systemds-extra
+│ -Build-Time: 2025-04-09 15:48:53 UTC
+│ +Build-Time: 2025-05-11 17:50:52 UTC
+│  Version: 3.3.0
+
+4 / 5 target/reference/org.apache.systemds/systemds-3.3.0-bin.tgz target/systemds-3.3.0-bin.tgz
+...
