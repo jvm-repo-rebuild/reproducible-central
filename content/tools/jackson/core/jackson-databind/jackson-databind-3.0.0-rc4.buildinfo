@@ -1,0 +1,54 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=jackson-databind
+group-id=tools.jackson.core
+artifact-id=jackson-databind
+version=3.0.0-rc4
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-databind.git
+source.scm.tag=jackson-databind-3.0.0-rc4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.15
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=tools.jackson.core
+outputs.0.filename=jackson-databind-3.0.0-rc4.pom
+outputs.0.length=18265
+outputs.0.checksums.sha512=5629d71e9dbf8a03bac00c725c2e8055223e27d1edd163adffa881e59cffc4b7b6a070d661300c459d766950d3fcbb887e3c8b84fc3d0574b7f74f6500ccc4db
+
+outputs.1.groupId=tools.jackson.core
+outputs.1.filename=jackson-databind-3.0.0-rc4.jar
+outputs.1.length=1833224
+outputs.1.checksums.sha512=dc8a62c3485840c5cbdb3809a15e6901cc585880a6d49fa660cb672cc12c7722e0c0acf2b09a7fd4d99c8f77c9fd71287900bfdc842e611e6ec3f15dd3ca4de8
+
+outputs.2.groupId=tools.jackson.core
+outputs.2.filename=jackson-databind-3.0.0-rc4-sources.jar
+outputs.2.length=1267924
+outputs.2.checksums.sha512=ba843a08e31137488774e7aad251247788865493361917764fb80a7facc810415a74f14ef4cd452ecbffb6eaedd89648705c77056e2df41abfcb3525040ba066
+
+outputs.3.groupId=tools.jackson.core
+outputs.3.filename=jackson-databind-3.0.0-rc4-sbom-cyclonedx.xml
+outputs.3.length=7869
+outputs.3.checksums.sha512=185976df763ef0126bca5e3ed2d543a79182a3f3b4bb1843836780ccf3943eb9af83637fd49b45414719842a6ee3cfa3c7e5562192e60ca774624236cccaab74
+
+outputs.4.groupId=tools.jackson.core
+outputs.4.filename=jackson-databind-3.0.0-rc4-sbom-cyclonedx.json
+outputs.4.length=8755
+outputs.4.checksums.sha512=9688f494bdc02686e52a32081d14cc7b77cbbd451cff5b808d699286b32084c88ad19b0365fe66f69b0ca5383911d67554ad27174ba6cc1fd1e9ff3d3c737c58
+
+outputs.5.groupId=tools.jackson.core
+outputs.5.filename=jackson-databind-3.0.0-rc4.module
+outputs.5.length=3215
+outputs.5.checksums.sha512=e2cef13f823ea497c1f4dcfa1e2ad9da93910061743165ea48c99d404ea703257db28f49b5bd6bf909683b77251bea7421b32546640e5db63e4bbe114ebf9b08
