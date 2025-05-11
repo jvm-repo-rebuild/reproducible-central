@@ -1,0 +1,54 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson-annotations
+group-id=com.fasterxml.jackson.core
+artifact-id=jackson-annotations
+version=3.0-rc4
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-annotations.git
+source.scm.tag=jackson-annotations-3.0-rc4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.15
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=com.fasterxml.jackson.core
+outputs.0.filename=jackson-annotations-3.0-rc4.pom
+outputs.0.length=7778
+outputs.0.checksums.sha512=b199b6cf9abb378b1b626177a5e654ede856058f671230573ef160fff8327237e081ae772ba3b8836f5ba1a51f2c8f39a759fa1ec76abf8c2098dade1ddeb109
+
+outputs.1.groupId=com.fasterxml.jackson.core
+outputs.1.filename=jackson-annotations-3.0-rc4.jar
+outputs.1.length=80403
+outputs.1.checksums.sha512=84a8b96a7d45ee7f80b6eb41b7442bd25f88cf1c31178362ef8dbb9fc04371ca3164d67de8f2494a9f2948b377faf4121a36186123671b9838c2aa97bf4a7d30
+
+outputs.2.groupId=com.fasterxml.jackson.core
+outputs.2.filename=jackson-annotations-3.0-rc4-sources.jar
+outputs.2.length=85026
+outputs.2.checksums.sha512=a22a29e6ed33344ecb2c9b9600ae169cd6cb9e2f1ad739756a2a9abd398fb75dd240e6d66a80416a52a1f7d0c57033f1d907105580d94f25ad7dace913aeadf8
+
+outputs.3.groupId=com.fasterxml.jackson.core
+outputs.3.filename=jackson-annotations-3.0-rc4.module
+outputs.3.length=2522
+outputs.3.checksums.sha512=6679810fed4705131456459da6e8220c63c565e873d85a767b08ee8889c6507db77dce3d75f88808c92b8fb3b687865ba1dc27eb3b1f6e9ae5ed7049aa89e440
+
+outputs.4.groupId=com.fasterxml.jackson.core
+outputs.4.filename=jackson-annotations-3.0-rc4-sbom-cyclonedx.xml
+outputs.4.length=3188
+outputs.4.checksums.sha512=17de36ae16e6bce0647465ec6bd3d3a9485b4cba578303482fe106463834c229eacce44fbed4ffe7cfeb2330d46e1aff6cee87d5c3f236bd352d4e2e57b67717
+
+outputs.5.groupId=com.fasterxml.jackson.core
+outputs.5.filename=jackson-annotations-3.0-rc4-sbom-cyclonedx.json
+outputs.5.length=3542
+outputs.5.checksums.sha512=5f4d9420b9c067ec4289ffa927f481099d5efdd523fe9eaaa06d99f7570ddfa1580383720ac59bb3c0cb65d57a963846eb3a8bd2d25fe293a0ec7804ff2809b8
