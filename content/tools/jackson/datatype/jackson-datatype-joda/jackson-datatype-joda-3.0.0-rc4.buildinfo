@@ -1,0 +1,54 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson datatype: Joda
+group-id=tools.jackson.datatype
+artifact-id=jackson-datatype-joda
+version=3.0.0-rc4
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-datatype-joda.git
+source.scm.tag=jackson-datatype-joda-3.0.0-rc4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.15
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=tools.jackson.datatype
+outputs.0.filename=jackson-datatype-joda-3.0.0-rc4.pom
+outputs.0.length=5068
+outputs.0.checksums.sha512=0923581da1c983432eb058d79183ea07c63b4cc644072c602de326bb3645c5b8af06aa3492701a69b71238151e1be50a5c039427dc8640f51215445c525b9c97
+
+outputs.1.groupId=tools.jackson.datatype
+outputs.1.filename=jackson-datatype-joda-3.0.0-rc4.jar
+outputs.1.length=75004
+outputs.1.checksums.sha512=37440c8a787980cea90c62f8fbe0516d48739343d296a7d419ed188dcbb99e2711febae2d1d2948b06e9ace023a76ce5da5dfb7d956b168854c65820cb22375b
+
+outputs.2.groupId=tools.jackson.datatype
+outputs.2.filename=jackson-datatype-joda-3.0.0-rc4-sources.jar
+outputs.2.length=47960
+outputs.2.checksums.sha512=923c940e945051d14b471c8707dda85e0d4d68c07408a9e81b6a1dff0d63e810300029309357392091bac84e7126db6885a3ff74ab0db4e2876075783048ca72
+
+outputs.3.groupId=tools.jackson.datatype
+outputs.3.filename=jackson-datatype-joda-3.0.0-rc4-sbom-cyclonedx.xml
+outputs.3.length=12817
+outputs.3.checksums.sha512=6e3530dd053ac12fda50dffc668ad3c8b3cbd26503674867d863dd1b2d91001e8793cbe49c76e72c536ff8ba1db612e2764f943530e3a0f5dc7016a47a66d25f
+
+outputs.4.groupId=tools.jackson.datatype
+outputs.4.filename=jackson-datatype-joda-3.0.0-rc4-sbom-cyclonedx.json
+outputs.4.length=14207
+outputs.4.checksums.sha512=6a069a93ad40a244a513f205e8bd33dbe798e2137edf2b229b65fb990128186195db8527b34c6ad55d1f6cdcb4b21356944f89131f37687db7863757dd9d27ea
+
+outputs.5.groupId=tools.jackson.datatype
+outputs.5.filename=jackson-datatype-joda-3.0.0-rc4.module
+outputs.5.length=3894
+outputs.5.checksums.sha512=61dc749a0cea7435a27140b7025448548303e548fde2e41af149d8012cbaa149251afa7de2bbe5e081458a25540b94c5c185b215ffac180e4b7dcf5ef1bbcc0e

@@ -1,0 +1,9 @@
+version=3.0.0-rc4
+ok=6
+ko=0
+ignored=0
+okFiles="jackson-datatype-joda-3.0.0-rc4.pom jackson-datatype-joda-3.0.0-rc4.jar jackson-datatype-joda-3.0.0-rc4-sources.jar jackson-datatype-joda-3.0.0-rc4-sbom-cyclonedx.xml jackson-datatype-joda-3.0.0-rc4-sbom-cyclonedx.json jackson-datatype-joda-3.0.0-rc4.module"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
