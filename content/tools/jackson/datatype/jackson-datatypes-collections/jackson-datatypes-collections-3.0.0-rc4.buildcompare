@@ -1,0 +1,9 @@
+version=3.0.0-rc4
+ok=31
+ko=0
+ignored=0
+okFiles="jackson-datatypes-collections-3.0.0-rc4.pom jackson-datatype-guava-3.0.0-rc4.pom jackson-datatype-guava-3.0.0-rc4.jar jackson-datatype-guava-3.0.0-rc4-sources.jar jackson-datatype-guava-3.0.0-rc4-sbom-cyclonedx.xml jackson-datatype-guava-3.0.0-rc4-sbom-cyclonedx.json jackson-datatype-guava-3.0.0-rc4.module jackson-datatype-primitive-collections-base-3.0.0-rc4.pom jackson-datatype-primitive-collections-base-3.0.0-rc4.jar jackson-datatype-primitive-collections-base-3.0.0-rc4-sources.jar jackson-datatype-primitive-collections-base-3.0.0-rc4-sbom-cyclonedx.xml jackson-datatype-primitive-collections-base-3.0.0-rc4-sbom-cyclonedx.json jackson-datatype-primitive-collections-base-3.0.0-rc4.module jackson-datatype-hppc-3.0.0-rc4.pom jackson-datatype-hppc-3.0.0-rc4.jar jackson-datatype-hppc-3.0.0-rc4-sources.jar jackson-datatype-hppc-3.0.0-rc4-sbom-cyclonedx.xml jackson-datatype-hppc-3.0.0-rc4-sbom-cyclonedx.json jackson-datatype-hppc-3.0.0-rc4.module jackson-datatype-eclipse-collections-3.0.0-rc4.pom jackson-datatype-eclipse-collections-3.0.0-rc4.jar jackson-datatype-eclipse-collections-3.0.0-rc4-sbom-cyclonedx.xml jackson-datatype-eclipse-collections-3.0.0-rc4-sbom-cyclonedx.json jackson-datatype-eclipse-collections-3.0.0-rc4-sources.jar jackson-datatype-eclipse-collections-3.0.0-rc4.module jackson-datatype-pcollections-3.0.0-rc4.pom jackson-datatype-pcollections-3.0.0-rc4.jar jackson-datatype-pcollections-3.0.0-rc4-sources.jar jackson-datatype-pcollections-3.0.0-rc4-sbom-cyclonedx.xml jackson-datatype-pcollections-3.0.0-rc4-sbom-cyclonedx.json jackson-datatype-pcollections-3.0.0-rc4.module"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
