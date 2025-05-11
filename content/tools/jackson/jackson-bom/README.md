@@ -19,6 +19,7 @@ rebuilding **2 releases** of tools.jackson:jackson-bom:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.0-rc4](https://central.sonatype.com/artifact/tools.jackson/jackson-bom/3.0.0-rc4/pom) | | | |
 | [3.0.0-rc3](https://central.sonatype.com/artifact/tools.jackson/jackson-bom/3.0.0-rc3/pom) | [mvn jdk17](jackson-bom-3.0.0-rc3.buildspec) | [result](jackson-bom-3.0.0-rc3.buildinfo): [2 :white_check_mark: ](jackson-bom-3.0.0-rc3.buildcompare) | 35K |
 | [3.0.0-rc2](https://central.sonatype.com/artifact/tools.jackson/jackson-bom/3.0.0-rc2/pom) | [mvn jdk17](jackson-bom-3.0.0-rc2.buildspec) | [result](jackson-bom-3.0.0-rc2.buildinfo): [2 :white_check_mark: ](jackson-bom-3.0.0-rc2.buildcompare) | 35K |
 
