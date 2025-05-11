@@ -1,0 +1,19 @@
+groupId=tools.jackson
+artifactId=jackson-bom
+display=${groupId}:${artifactId}
+version=3.0.0-rc4
+
+gitRepo=https://github.com/FasterXML/jackson-bom.git
+gitTag=${artifactId}-${version}
+
+# gradle-module-metadata:0.4.0:gmm records the exact Maven version used
+tool=mvn-3.9.9
+jdk=17
+newline=lf
+#umask=022
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
