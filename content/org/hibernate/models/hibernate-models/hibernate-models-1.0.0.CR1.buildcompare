@@ -1,0 +1,8 @@
+version=1.0.0.CR1
+ok=6
+ko=3
+okFiles="hibernate-models-bytebuddy-1.0.0.CR1-sources.jar hibernate-models-bytebuddy-1.0.0.CR1.pom hibernate-models-jandex-1.0.0.CR1-sources.jar hibernate-models-jandex-1.0.0.CR1.pom hibernate-models-1.0.0.CR1-sources.jar hibernate-models-1.0.0.CR1.pom"
+koFiles="hibernate-models-bytebuddy-1.0.0.CR1.jar hibernate-models-jandex-1.0.0.CR1.jar hibernate-models-1.0.0.CR1.jar"
+# diffoscope central/org/hibernate/models/hibernate-models-bytebuddy/1.0.0.CR1/hibernate-models-bytebuddy-1.0.0.CR1.jar repository/org/hibernate/models/hibernate-models-bytebuddy/1.0.0.CR1/hibernate-models-bytebuddy-1.0.0.CR1.jar
+# diffoscope central/org/hibernate/models/hibernate-models-jandex/1.0.0.CR1/hibernate-models-jandex-1.0.0.CR1.jar repository/org/hibernate/models/hibernate-models-jandex/1.0.0.CR1/hibernate-models-jandex-1.0.0.CR1.jar
+# diffoscope central/org/hibernate/models/hibernate-models/1.0.0.CR1/hibernate-models-1.0.0.CR1.jar repository/org/hibernate/models/hibernate-models/1.0.0.CR1/hibernate-models-1.0.0.CR1.jar
