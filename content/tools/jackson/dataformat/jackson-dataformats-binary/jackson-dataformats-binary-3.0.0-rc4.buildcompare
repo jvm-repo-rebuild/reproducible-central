@@ -1,0 +1,9 @@
+version=3.0.0-rc4
+ok=31
+ko=0
+ignored=0
+okFiles="jackson-dataformats-binary-3.0.0-rc4.pom jackson-dataformat-cbor-3.0.0-rc4.pom jackson-dataformat-cbor-3.0.0-rc4.jar jackson-dataformat-cbor-3.0.0-rc4-sources.jar jackson-dataformat-cbor-3.0.0-rc4-sbom-cyclonedx.xml jackson-dataformat-cbor-3.0.0-rc4-sbom-cyclonedx.json jackson-dataformat-cbor-3.0.0-rc4.module jackson-dataformat-smile-3.0.0-rc4.pom jackson-dataformat-smile-3.0.0-rc4.jar jackson-dataformat-smile-3.0.0-rc4-sources.jar jackson-dataformat-smile-3.0.0-rc4-sbom-cyclonedx.xml jackson-dataformat-smile-3.0.0-rc4-sbom-cyclonedx.json jackson-dataformat-smile-3.0.0-rc4.module jackson-dataformat-avro-3.0.0-rc4.pom jackson-dataformat-avro-3.0.0-rc4.jar jackson-dataformat-avro-3.0.0-rc4-sources.jar jackson-dataformat-avro-3.0.0-rc4-sbom-cyclonedx.xml jackson-dataformat-avro-3.0.0-rc4-sbom-cyclonedx.json jackson-dataformat-avro-3.0.0-rc4.module jackson-dataformat-protobuf-3.0.0-rc4.pom jackson-dataformat-protobuf-3.0.0-rc4.jar jackson-dataformat-protobuf-3.0.0-rc4-sources.jar jackson-dataformat-protobuf-3.0.0-rc4-sbom-cyclonedx.xml jackson-dataformat-protobuf-3.0.0-rc4-sbom-cyclonedx.json jackson-dataformat-protobuf-3.0.0-rc4.module jackson-dataformat-ion-3.0.0-rc4.pom jackson-dataformat-ion-3.0.0-rc4.jar jackson-dataformat-ion-3.0.0-rc4-sources.jar jackson-dataformat-ion-3.0.0-rc4-sbom-cyclonedx.xml jackson-dataformat-ion-3.0.0-rc4-sbom-cyclonedx.json jackson-dataformat-ion-3.0.0-rc4.module"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
