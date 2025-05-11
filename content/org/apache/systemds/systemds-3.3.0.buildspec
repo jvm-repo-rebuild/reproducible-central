@@ -9,10 +9,10 @@ gitTag=${version}-rc1
 tool=mvn-3.9.9
 jdk=11
 newline=lf
+umask=000
 
 command="mvn -Pdistribution clean package -Dmaven.test.skip -Ddoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
-execBefore="chmod -R o+w ."
 
-#diffoscope=${artifactId}-${version}.diffoscope
-issue=
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/apache/systemds/pull/2257

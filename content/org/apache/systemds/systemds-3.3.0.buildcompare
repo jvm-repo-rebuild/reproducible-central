@@ -1,0 +1,14 @@
+version=3.3.0
+ok=4
+ko=5
+ignored=0
+okFiles="systemds-3.3.0.pom systemds-3.3.0.jar systemds-3.3.0-ropt.jar systemds-3.3.0-shaded.jar"
+koFiles="systemds-3.3.0-src.tgz systemds-3.3.0-src.zip systemds-3.3.0-extra.jar systemds-3.3.0-bin.tgz systemds-3.3.0-bin.zip"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.systemds/systemds-3.3.0-src.tgz target/systemds-3.3.0-src.tgz
+# diffoscope target/reference/org.apache.systemds/systemds-3.3.0-src.zip target/systemds-3.3.0-src.zip
+# diffoscope target/reference/org.apache.systemds/systemds-3.3.0-extra.jar target/systemds-3.3.0-extra.jar
+# diffoscope target/reference/org.apache.systemds/systemds-3.3.0-bin.tgz target/systemds-3.3.0-bin.tgz
+# diffoscope target/reference/org.apache.systemds/systemds-3.3.0-bin.zip target/systemds-3.3.0-bin.zip
