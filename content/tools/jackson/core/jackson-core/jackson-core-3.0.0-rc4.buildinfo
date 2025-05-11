@@ -1,0 +1,54 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson-core
+group-id=tools.jackson.core
+artifact-id=jackson-core
+version=3.0.0-rc4
+
+# source information
+source.scm.uri=scm:git:https://github.com/FasterXML/jackson-core.git
+source.scm.tag=jackson-core-3.0.0-rc4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.15
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=tools.jackson.core
+outputs.0.filename=jackson-core-3.0.0-rc4.pom
+outputs.0.length=9337
+outputs.0.checksums.sha512=54945f4fd973a729f079a07c80c65e49a96ba9b478d6f1ee39596d43f4446aadecf825be2a5af63223220c27bd017b99763b8acd5305c593a1aa183f7736944b
+
+outputs.1.groupId=tools.jackson.core
+outputs.1.filename=jackson-core-3.0.0-rc4.jar
+outputs.1.length=591411
+outputs.1.checksums.sha512=dec7babe9871cc74709e4bb66a4e93a2123f377b5ad00988cc6d1af010df748a5a4e0a443e534ef187e1e8f495c06ca1673b1fe2d70a7bc715dd7c991b3cf4fc
+
+outputs.2.groupId=tools.jackson.core
+outputs.2.filename=jackson-core-3.0.0-rc4-sbom-cyclonedx.xml
+outputs.2.length=5200
+outputs.2.checksums.sha512=73021a95ec34faf96fb60c40cd860f7539c237f4d611b6791f8ace49b7ef9328d34a2304d2b3b042f4100928c997c2740d4588b6dc6ae7851d2c8f7e1ea9a589
+
+outputs.3.groupId=tools.jackson.core
+outputs.3.filename=jackson-core-3.0.0-rc4-sbom-cyclonedx.json
+outputs.3.length=5830
+outputs.3.checksums.sha512=be46f6aa8f273effbb1c1f30dedfa47960a38c9551581a19f2d84726e890c63acfc5b71a306c80c258978381ecc8658cede6d5719ffb5e7a75c4483f1cb0eeb8
+
+outputs.4.groupId=tools.jackson.core
+outputs.4.filename=jackson-core-3.0.0-rc4.module
+outputs.4.length=2491
+outputs.4.checksums.sha512=1f2a21c743d3d848877b13916e86583c3ff34f705d25b17fc7f51c94e222e65069f4490382c732fd062e232f104ac8c6b54140a85649b24e3e7c9e1544b5bdb1
+
+outputs.5.groupId=tools.jackson.core
+outputs.5.filename=jackson-core-3.0.0-rc4-sources.jar
+outputs.5.length=478362
+outputs.5.checksums.sha512=c26b93b5d51901c506dd645fbd1cee73bd4cd4fe218478e73b501e1a6859bc7cd4d19917589813710ed06dbb2867ead1df140b7046dd1f11ffc9a9ad755bb1d6
