@@ -1,0 +1,54 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson-dataformat-XML
+group-id=tools.jackson.dataformat
+artifact-id=jackson-dataformat-xml
+version=3.0.0-rc4
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-dataformat-xml.git
+source.scm.tag=jackson-dataformat-xml-3.0.0-rc4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.15
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=tools.jackson.dataformat
+outputs.0.filename=jackson-dataformat-xml-3.0.0-rc4.pom
+outputs.0.length=6560
+outputs.0.checksums.sha512=71710261290d3117d0cdf4c5063f7e33fc794815e931a85ef2b5dd8af313383e5453bd3813e4fc72712a72350f64d0e7cd0751767100cfd6425c7eff0bb56f77
+
+outputs.1.groupId=tools.jackson.dataformat
+outputs.1.filename=jackson-dataformat-xml-3.0.0-rc4.jar
+outputs.1.length=129436
+outputs.1.checksums.sha512=be57d0ddf10cb3a16b385e0509e778414bd325bf8bb072eb2e94f41e61c0a5ea1733f47d34bf2071e84ec61e273a5d5b66105af5feb25c8190bca08da9761434
+
+outputs.2.groupId=tools.jackson.dataformat
+outputs.2.filename=jackson-dataformat-xml-3.0.0-rc4-sources.jar
+outputs.2.length=99962
+outputs.2.checksums.sha512=c268c5cc1d85918d7ed8662ec4e8345f51c75928bdb8d21847160515abc7ab2f900df225eca793570b87d87511faad692fd69188f945a6eb94718cb7040db165
+
+outputs.3.groupId=tools.jackson.dataformat
+outputs.3.filename=jackson-dataformat-xml-3.0.0-rc4-sbom-cyclonedx.xml
+outputs.3.length=15301
+outputs.3.checksums.sha512=96325e4b7bdbbfa8e38a0e8795c50c5586a7863061fb36801285692bc5cd6872ed452ab54812adeb437333b4a1a87953196a9a21a78c83f025f0e664b2576062
+
+outputs.4.groupId=tools.jackson.dataformat
+outputs.4.filename=jackson-dataformat-xml-3.0.0-rc4-sbom-cyclonedx.json
+outputs.4.length=16946
+outputs.4.checksums.sha512=85525d5c3f0b193cb9b96b5adc0a9a143ee57a023deac879fe42d61a194fdd9a16c71878543adece7e4129379460453d67e0d29deae2cf13dd846795996dd6e8
+
+outputs.5.groupId=tools.jackson.dataformat
+outputs.5.filename=jackson-dataformat-xml-3.0.0-rc4.module
+outputs.5.length=4837
+outputs.5.checksums.sha512=3f51004cfc9ecc0f4746423b6a478a9ca9678fc6d08b47b0269066516b58b5d6fa14d0246fcb7a4adbecfb2dbb16ecb41ec2d44441a20c79f3e93b6105ff5bfa
