@@ -18,5 +18,5 @@ execBefore="mvn -q clean ; find . -type d -exec chmod g+s {} \;"
 
 buildinfo=target/glassfish-main-aggregator-${version}.buildinfo
 
-#diffoscope=glassfish-main-aggregator-${version}.diffoscope
+diffoscope=glassfish-main-aggregator-${version}.diffoscope
 issue=
