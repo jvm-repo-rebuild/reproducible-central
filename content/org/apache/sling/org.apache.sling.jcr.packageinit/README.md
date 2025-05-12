@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.jcr.packageinit:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.packageinit/1.0.6/pom) | | | |
 | [1.0.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.packageinit/1.0.4/pom) | [mvn jdk11](org.apache.sling.jcr.packageinit-1.0.4.buildspec) | [result](org.apache.sling.jcr.packageinit-1.0.4.buildinfo): [4 :white_check_mark: ](org.apache.sling.jcr.packageinit-1.0.4.buildcompare) | 58K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -30,6 +30,7 @@ rebuilding **3 releases** of eu.europa.ec.joinup.sat:jdplus-benchmarking:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.1](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-benchmarking/2.0.1/pom) | | | |
 | [2.0.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-benchmarking/2.0.0/pom) | [mvn jdk21](jdplus-benchmarking-2.0.0.buildspec) | [result](jdplus-benchmarking-2.0.0.buildinfo): [27 :white_check_mark:  1 :warning:](jdplus-benchmarking-2.0.0.buildcompare) | 1.5M |
 | [1.2.1](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-benchmarking/1.2.1/pom) | [mvn jdk21](jdplus-benchmarking-1.2.1.buildspec) | [result](jdplus-benchmarking-1.2.1.buildinfo): [27 :white_check_mark:  1 :warning:](jdplus-benchmarking-1.2.1.buildcompare) | 1.2M |
 | [1.2.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-benchmarking/1.2.0/pom) | [mvn jdk21](jdplus-benchmarking-1.2.0.buildspec) | [result](jdplus-benchmarking-1.2.0.buildinfo): [26 :white_check_mark:  1 :warning:](jdplus-benchmarking-1.2.0.buildcompare) | 1.2M |
