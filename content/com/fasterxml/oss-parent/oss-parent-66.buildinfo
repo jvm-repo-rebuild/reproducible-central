@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=FasterXML.com parent pom
+group-id=com.fasterxml
+artifact-id=oss-parent
+version=66
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/oss-parent.git
+source.scm.tag=oss-parent-66
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.27
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.fasterxml
+outputs.0.filename=oss-parent-66.pom
+outputs.0.length=23294
+outputs.0.checksums.sha512=64ea5af04b7da57906ca9b1509d2128e0fce160d4c1227dd7fa5822dbe4cd9a466554cd1b204f47a1a2400e4d708bc6410e5a5e9960b6f78b06e1e9630df67b3
+
+outputs.1.groupId=com.fasterxml
+outputs.1.filename=oss-parent-66-site.xml
+outputs.1.length=1069
+outputs.1.checksums.sha512=90727f3a65f6dfb64fa29ce186ac091d3891f2c538955288e1a0c91a41295385961004393b0d642cfe6daa4c9c91e90bcba220bb8a7b1483a4c82c10ff12dfa4
