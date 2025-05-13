@@ -112,6 +112,7 @@
       <version>6.6.12.Final</version>
       <version>6.6.13.Final</version>
       <version>6.6.14.Final</version>
+      <version>6.6.15.Final</version>
       <version>7.0.0.Alpha1</version>
       <version>7.0.0.Alpha2</version>
       <version>7.0.0.Alpha3</version>
@@ -122,6 +123,6 @@
       <version>7.0.0.Beta5</version>
       <version>7.0.0.CR1</version>
     </versions>
-    <lastUpdated>20250511001540</lastUpdated>
+    <lastUpdated>20250513191403</lastUpdated>
   </versioning>
 </metadata>

@@ -3,8 +3,8 @@
   <groupId>org.hibernate.models</groupId>
   <artifactId>hibernate-models</artifactId>
   <versioning>
-    <latest>1.0.0.CR2</latest>
-    <release>1.0.0.CR2</release>
+    <latest>1.0.0.CR3</latest>
+    <release>1.0.0.CR3</release>
     <versions>
       <version>0.5.0</version>
       <version>0.5.1</version>
@@ -55,7 +55,8 @@
       <version>0.9.5</version>
       <version>1.0.0.CR1</version>
       <version>1.0.0.CR2</version>
+      <version>1.0.0.CR3</version>
     </versions>
-    <lastUpdated>20250422115740</lastUpdated>
+    <lastUpdated>20250512205721</lastUpdated>
   </versioning>
 </metadata>
