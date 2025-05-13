@@ -1,0 +1,18 @@
+groupId=uk.org.okapibarcode
+artifactId=okapibarcode
+display=${groupId}:${artifactId}
+version=0.5.1
+
+gitRepo=https://github.com/woo-j/OkapiBarcode.git
+gitTag=v${version}
+
+tool=gradle
+jdk=21
+newline=lf
+#umask=022
+
+command="./gradlew --no-daemon --no-build-cache clean assemble publishToMavenLocal -x test"
+buildinfo=${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
