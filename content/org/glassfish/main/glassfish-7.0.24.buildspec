@@ -1,0 +1,22 @@
+groupId=org.glassfish.main
+artifactId=glassfish-parent
+version=7.0.24
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/eclipse-ee4j/glassfish.git
+gitTag=${version}
+
+tool=mvn-3.9.9
+jdk=17 # extracted from: wget https://repo.maven.apache.org/maven2/org/glassfish/main/distributions/atomic/${version}/atomic-${version}.zip ; unzip -q -c atomic-${version}.zip nucleus/domains/domain1/init-info/domain-info.xml | grep javahome
+newline=lf
+umask=022
+
+# export LC_ALL=C
+command="mvn package -Poss-release,fastest -DskipTests -Dmaven.javadoc.skip -Djavadoc.skip -Dgpg.skip"
+execBefore="mvn -q clean ; find . -type d -exec chmod g+s {} \;"
+
+buildinfo=target/glassfish-main-aggregator-${version}.buildinfo
+
+#diffoscope=glassfish-main-aggregator-${version}.diffoscope
+issue=
