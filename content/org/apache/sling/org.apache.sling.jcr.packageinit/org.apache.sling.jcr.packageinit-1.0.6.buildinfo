@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling JCR Package Init
+group-id=org.apache.sling
+artifact-id=org.apache.sling.jcr.packageinit
+version=1.0.6
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-jcr-packageinit.git
+source.scm.tag=org.apache.sling.jcr.packageinit-1.0.6
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.7
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.jcr.packageinit-1.0.6.pom
+outputs.0.length=5789
+outputs.0.checksums.sha512=01c73f855db1e69bdb638d13e489295fae49866c45ff222b8b3b216ce6a3aac34f1ef16e2eeceb194a422557aa61d22c62eb7b0bfe53fe5d17ab163506555b3b
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.jcr.packageinit-1.0.6.jar
+outputs.1.length=15101
+outputs.1.checksums.sha512=e9d9dba3a1ef2c7fd9ce5b1831152a1b9b45bf048c8275224ca3ec07ff066128e6a83422ca697ddffdd4cbeeb1bc023a8d4471c44be005688e7462288c70bfd0
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.jcr.packageinit-1.0.6-source-release.zip
+outputs.2.length=17751
+outputs.2.checksums.sha512=3d93c470e8592bfbb41d7fd125d494e1f5a5ef212a226704d0d7a9d541dd60476446a8e3da07d71b4ebdbd848cdb1069f7325d5c628b10f984656052a000dbfd
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.jcr.packageinit-1.0.6-sources.jar
+outputs.3.length=10587
+outputs.3.checksums.sha512=e8874fa228dd995784424b994bb7dda4a02dfde3512993f545b79ab23eeafc00f24c45ddeb476c29e79385f5e773f2ee0c9e39ee83dcde22ac087011cf631cff
