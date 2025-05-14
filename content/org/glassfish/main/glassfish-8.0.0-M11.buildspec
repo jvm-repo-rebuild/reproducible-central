@@ -1,0 +1,22 @@
+groupId=org.glassfish.main
+artifactId=glassfish-parent
+version=8.0.0-M11
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/eclipse-ee4j/glassfish.git
+gitTag=${version}
+
+tool=mvn-3.9.8
+jdk=21
+newline=lf
+umask=022
+
+# skipping CycloneDX as it just reports differences that are the pure result of initial difference in jar
+command="mvn package -Poss-release,fastest,staging -DskipTests -Dmaven.javadoc.skip -Djavadoc.skip -Dgpg.skip -Dcyclonedx.skip"
+execBefore="find . -type d -name target -exec \rm -rf {} \; ; find . -type d -exec chmod g+s {} \;"
+
+buildinfo=target/glassfish-main-aggregator-${version}.buildinfo
+
+#diffoscope=glassfish-main-aggregator-${version}.diffoscope
+issue=
