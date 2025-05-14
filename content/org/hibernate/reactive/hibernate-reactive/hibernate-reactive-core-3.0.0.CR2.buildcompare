@@ -1,0 +1,5 @@
+version=3.0.0.CR2
+ok=3
+ko=0
+okFiles="hibernate-reactive-core-3.0.0.CR2-sources.jar hibernate-reactive-core-3.0.0.CR2.jar hibernate-reactive-core-3.0.0.CR2.pom"
+koFiles=""
