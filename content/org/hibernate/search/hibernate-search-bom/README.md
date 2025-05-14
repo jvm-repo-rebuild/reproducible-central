@@ -35,6 +35,7 @@ rebuilding **10 releases** of org.hibernate.search:hibernate-search-bom:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [8.0.0.Beta1](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.0.0.Beta1/pom) | | | |
 | [8.0.0.Alpha3](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.0.0.Alpha3/pom) | [mvn jdk21](hibernate-search-parent-8.0.0.Alpha3.buildspec) | [result](hibernate-search-parent-8.0.0.Alpha3.buildinfo): [32 :white_check_mark: ](hibernate-search-parent-8.0.0.Alpha3.buildcompare) | 6.9M |
 | [8.0.0.Alpha2](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.0.0.Alpha2/pom) | [mvn jdk21](hibernate-search-parent-8.0.0.Alpha2.buildspec) | [result](hibernate-search-parent-8.0.0.Alpha2.buildinfo): [32 :white_check_mark: ](hibernate-search-parent-8.0.0.Alpha2.buildcompare) | 6.9M |
 | [8.0.0.Alpha1](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.0.0.Alpha1/pom) | [mvn jdk21](hibernate-search-parent-8.0.0.Alpha1.buildspec) | [result](hibernate-search-parent-8.0.0.Alpha1.buildinfo): [32 :white_check_mark: ](hibernate-search-parent-8.0.0.Alpha1.buildcompare) | 6.9M |

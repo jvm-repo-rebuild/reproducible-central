@@ -1,3 +1,10 @@
-content/com/fasterxml/oss-parent/oss-parent-65.buildspec:66
+content/com/fasterxml/jackson/jackson-parent/jackson-parent-2.19.buildspec:2.19.1
+content/dev/langchain4j/langchain4j-1.0.0-rc1.buildspec:1.0.0
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
-content/io/airlift/airbase/airbase-258.buildspec:259
+content/eu/maveniverse/maven/njord/njord-0.4.2.buildspec:0.5.0
+content/io/liftwizard/liftwizard-2.1.30.buildspec:2.1.31
+content/io/avaje/jsonb/avaje-jsonb-3.5-RC1.buildspec:3.5-RC2
+content/io/avaje/logback-encoder/avaje-logback-encoder-0.12.buildspec:0.13
+content/io/telicent/smart-caches/graph/scg-base/scg-base-0.83.6.buildspec:0.83.8
+content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-3.0.0.CR1.buildspec:3.0.0.CR2
+content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.0.0.Alpha3.buildspec:8.0.0.Beta1
