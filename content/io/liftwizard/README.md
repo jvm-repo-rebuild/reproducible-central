@@ -188,13 +188,13 @@ Source code: [https://github.com/motlin/liftwizard.git](https://github.com/motli
 * [io.liftwizard:liftwizard-uuid](https://central.sonatype.com/artifact/io.liftwizard/liftwizard-uuid/overview)
 </details>
 
-rebuilding **72 releases** of io.liftwizard:liftwizard:
-- **71** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **73 releases** of io.liftwizard:liftwizard:
+- **72** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.1.31](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.31/pom) | | | |
+| [2.1.31](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.31/pom) | [mvn jdk17](liftwizard-2.1.31.buildspec) | [result](liftwizard-2.1.31.buildinfo): [425 :white_check_mark: ](liftwizard-2.1.31.buildcompare) | 2.3M |
 | [2.1.30](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.30/pom) | [mvn jdk17](liftwizard-2.1.30.buildspec) | [result](liftwizard-2.1.30.buildinfo): [425 :white_check_mark: ](liftwizard-2.1.30.buildcompare) | 2.3M |
 | [2.1.29](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.29/pom) | [mvn jdk17](liftwizard-2.1.29.buildspec) | [result](liftwizard-2.1.29.buildinfo): [425 :white_check_mark: ](liftwizard-2.1.29.buildcompare) | 2.3M |
 | [2.1.28](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/2.1.28/pom) | [mvn jdk17](liftwizard-2.1.28.buildspec) | [result](liftwizard-2.1.28.buildinfo): [425 :white_check_mark: ](liftwizard-2.1.28.buildcompare) | 2.3M |
