@@ -1,0 +1,43 @@
+version=3.2.0
+ok=13
+ko=36
+ignored=0
+okFiles="com.io7m.certusine-3.2.0.pom com.io7m.certusine.api-3.2.0.pom com.io7m.certusine.certstore.api-3.2.0.pom com.io7m.certusine.vanilla-3.2.0.pom com.io7m.certusine.looseleaf-3.2.0.pom com.io7m.certusine.vultr-3.2.0.pom com.io7m.certusine.gandi-3.2.0.pom com.io7m.certusine.hetzner-3.2.0.pom com.io7m.certusine.cmdline-3.2.0.pom com.io7m.certusine.documentation-3.2.0.pom com.io7m.certusine.grafana-3.2.0.pom com.io7m.certusine.oci-3.2.0.pom com.io7m.certusine.tests-3.2.0.pom"
+koFiles="com.io7m.certusine.api-3.2.0.jar com.io7m.certusine.api-3.2.0-sources.jar com.io7m.certusine.api-3.2.0-tests.jar com.io7m.certusine.certstore.api-3.2.0.jar com.io7m.certusine.certstore.api-3.2.0-sources.jar com.io7m.certusine.certstore.api-3.2.0-tests.jar com.io7m.certusine.vanilla-3.2.0.jar com.io7m.certusine.vanilla-3.2.0-sources.jar com.io7m.certusine.vanilla-3.2.0-tests.jar com.io7m.certusine.looseleaf-3.2.0.jar com.io7m.certusine.looseleaf-3.2.0-sources.jar com.io7m.certusine.looseleaf-3.2.0-tests.jar com.io7m.certusine.vultr-3.2.0.jar com.io7m.certusine.vultr-3.2.0-sources.jar com.io7m.certusine.vultr-3.2.0-tests.jar com.io7m.certusine.gandi-3.2.0.jar com.io7m.certusine.gandi-3.2.0-sources.jar com.io7m.certusine.gandi-3.2.0-tests.jar com.io7m.certusine.hetzner-3.2.0.jar com.io7m.certusine.hetzner-3.2.0-sources.jar com.io7m.certusine.hetzner-3.2.0-tests.jar com.io7m.certusine.cmdline-3.2.0.jar com.io7m.certusine.cmdline-3.2.0-sources.jar com.io7m.certusine.cmdline-3.2.0-tests.jar com.io7m.certusine.documentation-3.2.0.jar com.io7m.certusine.documentation-3.2.0-sources.jar com.io7m.certusine.documentation-3.2.0-tests.jar com.io7m.certusine.grafana-3.2.0.jar com.io7m.certusine.grafana-3.2.0-sources.jar com.io7m.certusine.grafana-3.2.0-tests.jar com.io7m.certusine.oci-3.2.0.jar com.io7m.certusine.oci-3.2.0-sources.jar com.io7m.certusine.oci-3.2.0-tests.jar com.io7m.certusine.tests-3.2.0.jar com.io7m.certusine.tests-3.2.0-sources.jar com.io7m.certusine.tests-3.2.0-tests.jar"
+ignoredFiles=""
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.api-3.2.0.jar com.io7m.certusine.api/target/com.io7m.certusine.api-3.2.0.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.api-3.2.0-sources.jar com.io7m.certusine.api/target/com.io7m.certusine.api-3.2.0-sources.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.api-3.2.0-tests.jar com.io7m.certusine.api/target/com.io7m.certusine.api-3.2.0-tests.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.certstore.api-3.2.0.jar com.io7m.certusine.certstore.api/target/com.io7m.certusine.certstore.api-3.2.0.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.certstore.api-3.2.0-sources.jar com.io7m.certusine.certstore.api/target/com.io7m.certusine.certstore.api-3.2.0-sources.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.certstore.api-3.2.0-tests.jar com.io7m.certusine.certstore.api/target/com.io7m.certusine.certstore.api-3.2.0-tests.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.vanilla-3.2.0.jar com.io7m.certusine.vanilla/target/com.io7m.certusine.vanilla-3.2.0.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.vanilla-3.2.0-sources.jar com.io7m.certusine.vanilla/target/com.io7m.certusine.vanilla-3.2.0-sources.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.vanilla-3.2.0-tests.jar com.io7m.certusine.vanilla/target/com.io7m.certusine.vanilla-3.2.0-tests.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.looseleaf-3.2.0.jar com.io7m.certusine.looseleaf/target/com.io7m.certusine.looseleaf-3.2.0.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.looseleaf-3.2.0-sources.jar com.io7m.certusine.looseleaf/target/com.io7m.certusine.looseleaf-3.2.0-sources.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.looseleaf-3.2.0-tests.jar com.io7m.certusine.looseleaf/target/com.io7m.certusine.looseleaf-3.2.0-tests.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.vultr-3.2.0.jar com.io7m.certusine.vultr/target/com.io7m.certusine.vultr-3.2.0.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.vultr-3.2.0-sources.jar com.io7m.certusine.vultr/target/com.io7m.certusine.vultr-3.2.0-sources.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.vultr-3.2.0-tests.jar com.io7m.certusine.vultr/target/com.io7m.certusine.vultr-3.2.0-tests.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.gandi-3.2.0.jar com.io7m.certusine.gandi/target/com.io7m.certusine.gandi-3.2.0.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.gandi-3.2.0-sources.jar com.io7m.certusine.gandi/target/com.io7m.certusine.gandi-3.2.0-sources.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.gandi-3.2.0-tests.jar com.io7m.certusine.gandi/target/com.io7m.certusine.gandi-3.2.0-tests.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.hetzner-3.2.0.jar com.io7m.certusine.hetzner/target/com.io7m.certusine.hetzner-3.2.0.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.hetzner-3.2.0-sources.jar com.io7m.certusine.hetzner/target/com.io7m.certusine.hetzner-3.2.0-sources.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.hetzner-3.2.0-tests.jar com.io7m.certusine.hetzner/target/com.io7m.certusine.hetzner-3.2.0-tests.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.cmdline-3.2.0.jar com.io7m.certusine.cmdline/target/com.io7m.certusine.cmdline-3.2.0.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.cmdline-3.2.0-sources.jar com.io7m.certusine.cmdline/target/com.io7m.certusine.cmdline-3.2.0-sources.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.cmdline-3.2.0-tests.jar com.io7m.certusine.cmdline/target/com.io7m.certusine.cmdline-3.2.0-tests.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.documentation-3.2.0.jar com.io7m.certusine.documentation/target/com.io7m.certusine.documentation-3.2.0.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.documentation-3.2.0-sources.jar com.io7m.certusine.documentation/target/com.io7m.certusine.documentation-3.2.0-sources.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.documentation-3.2.0-tests.jar com.io7m.certusine.documentation/target/com.io7m.certusine.documentation-3.2.0-tests.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.grafana-3.2.0.jar com.io7m.certusine.grafana/target/com.io7m.certusine.grafana-3.2.0.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.grafana-3.2.0-sources.jar com.io7m.certusine.grafana/target/com.io7m.certusine.grafana-3.2.0-sources.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.grafana-3.2.0-tests.jar com.io7m.certusine.grafana/target/com.io7m.certusine.grafana-3.2.0-tests.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.oci-3.2.0.jar com.io7m.certusine.oci/target/com.io7m.certusine.oci-3.2.0.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.oci-3.2.0-sources.jar com.io7m.certusine.oci/target/com.io7m.certusine.oci-3.2.0-sources.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.oci-3.2.0-tests.jar com.io7m.certusine.oci/target/com.io7m.certusine.oci-3.2.0-tests.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.tests-3.2.0.jar com.io7m.certusine.tests/target/com.io7m.certusine.tests-3.2.0.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.tests-3.2.0-sources.jar com.io7m.certusine.tests/target/com.io7m.certusine.tests-3.2.0-sources.jar
+# diffoscope target/reference/com.io7m.certusine/com.io7m.certusine.tests-3.2.0-tests.jar com.io7m.certusine.tests/target/com.io7m.certusine.tests-3.2.0-tests.jar
