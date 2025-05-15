@@ -1,0 +1,29 @@
+version=3.5-RC2
+ok=2
+ko=21
+ignored=0
+okFiles="avaje-json-core-3.5-RC2.jar avaje-jsonb-3.5-RC2.jar"
+koFiles="avaje-jsonb-parent-3.5-RC2.pom avaje-json-core-3.5-RC2.pom avaje-json-core-3.5-RC2-sources.jar avaje-json-node-3.5-RC2.pom avaje-json-node-3.5-RC2.jar avaje-json-node-3.5-RC2-sources.jar avaje-jsonb-inject-plugin-3.5-RC2.pom avaje-jsonb-inject-plugin-3.5-RC2.jar avaje-jsonb-inject-plugin-3.5-RC2-sources.jar avaje-jsonb-3.5-RC2.pom avaje-jsonb-3.5-RC2-sources.jar avaje-jsonb-generator-3.5-RC2.pom avaje-jsonb-generator-3.5-RC2.jar avaje-jsonb-generator-3.5-RC2-sources.jar avaje-jsonb-jackson-3.5-RC2.pom avaje-jsonb-jackson-3.5-RC2.jar avaje-jsonb-jackson-3.5-RC2-sources.jar avaje-jsonb-spring-starter-3.5-RC2.pom avaje-jsonb-spring-starter-3.5-RC2.jar avaje-jsonb-spring-starter-3.5-RC2-sources.jar avaje-jsonb-bom-3.5-RC2.pom"
+ignoredFiles=""
+reference_java_version="24 (from MANIFEST.MF Build-Jdk-Spec)"
+# diffoscope target/reference/io.avaje/avaje-jsonb-parent-3.5-RC2.pom pom.xml
+# diffoscope target/reference/io.avaje/avaje-json-core-3.5-RC2.pom json-core/pom.xml
+# diffoscope target/reference/io.avaje/avaje-json-core-3.5-RC2-sources.jar json-core/target/avaje-json-core-3.5-RC2-sources.jar
+# diffoscope target/reference/io.avaje/avaje-json-node-3.5-RC2.pom json-node/pom.xml
+# diffoscope target/reference/io.avaje/avaje-json-node-3.5-RC2.jar json-node/target/avaje-json-node-3.5-RC2.jar
+# diffoscope target/reference/io.avaje/avaje-json-node-3.5-RC2-sources.jar json-node/target/avaje-json-node-3.5-RC2-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jsonb-inject-plugin-3.5-RC2.pom jsonb-inject-plugin/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jsonb-inject-plugin-3.5-RC2.jar jsonb-inject-plugin/target/avaje-jsonb-inject-plugin-3.5-RC2.jar
+# diffoscope target/reference/io.avaje/avaje-jsonb-inject-plugin-3.5-RC2-sources.jar jsonb-inject-plugin/target/avaje-jsonb-inject-plugin-3.5-RC2-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jsonb-3.5-RC2.pom jsonb/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jsonb-3.5-RC2-sources.jar jsonb/target/avaje-jsonb-3.5-RC2-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jsonb-generator-3.5-RC2.pom jsonb-generator/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jsonb-generator-3.5-RC2.jar jsonb-generator/target/avaje-jsonb-generator-3.5-RC2.jar
+# diffoscope target/reference/io.avaje/avaje-jsonb-generator-3.5-RC2-sources.jar jsonb-generator/target/avaje-jsonb-generator-3.5-RC2-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jsonb-jackson-3.5-RC2.pom jsonb-jackson/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jsonb-jackson-3.5-RC2.jar jsonb-jackson/target/avaje-jsonb-jackson-3.5-RC2.jar
+# diffoscope target/reference/io.avaje/avaje-jsonb-jackson-3.5-RC2-sources.jar jsonb-jackson/target/avaje-jsonb-jackson-3.5-RC2-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jsonb-spring-starter-3.5-RC2.pom jsonb-spring-adapter/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jsonb-spring-starter-3.5-RC2.jar jsonb-spring-adapter/target/avaje-jsonb-spring-starter-3.5-RC2.jar
+# diffoscope target/reference/io.avaje/avaje-jsonb-spring-starter-3.5-RC2-sources.jar jsonb-spring-adapter/target/avaje-jsonb-spring-starter-3.5-RC2-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jsonb-bom-3.5-RC2.pom jsonb-bom/pom.xml
