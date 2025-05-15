@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/io7m/certusine.git](https://github.com/io7m/certusine.git)
 
-<details><summary>This project defines 13 modules:</summary>
+<details><summary>This project defines 14 modules:</summary>
 
 * [com.io7m.certusine:com.io7m.certusine](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/overview)
 * [com.io7m.certusine:com.io7m.certusine.api](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.api/overview)
@@ -17,6 +17,7 @@ Source code: [https://github.com/io7m/certusine.git](https://github.com/io7m/cer
 * [com.io7m.certusine:com.io7m.certusine.etcd](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.etcd/overview)
 * [com.io7m.certusine:com.io7m.certusine.gandi](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.gandi/overview)
 * [com.io7m.certusine:com.io7m.certusine.grafana](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.grafana/overview)
+* [com.io7m.certusine:com.io7m.certusine.hetzner](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.hetzner/overview)
 * [com.io7m.certusine:com.io7m.certusine.looseleaf](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.looseleaf/overview)
 * [com.io7m.certusine:com.io7m.certusine.oci](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.oci/overview)
 * [com.io7m.certusine:com.io7m.certusine.tests](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.tests/overview)
@@ -24,13 +25,13 @@ Source code: [https://github.com/io7m/certusine.git](https://github.com/io7m/cer
 * [com.io7m.certusine:com.io7m.certusine.vultr](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine.vultr/overview)
 </details>
 
-rebuilding **4 releases** of com.io7m.certusine:com.io7m.certusine:
+rebuilding **5 releases** of com.io7m.certusine:com.io7m.certusine:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.2.0](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/3.2.0/pom) | | | |
+| [3.2.0](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/3.2.0/pom) | [mvn jdk21](com.io7m.certusine-3.2.0.buildspec) | [result](com.io7m.certusine-3.2.0.buildinfo): [13 :white_check_mark:  36 :warning:](com.io7m.certusine-3.2.0.buildcompare) | 993K |
 | [3.1.0](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/3.1.0/pom) | [mvn jdk21](com.io7m.certusine-3.1.0.buildspec) | [result](com.io7m.certusine-3.1.0.buildinfo): [43 :white_check_mark:  2 :warning:](com.io7m.certusine-3.1.0.buildcompare) | 939K |
 | [3.0.0](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/3.0.0/pom) | [mvn jdk21](com.io7m.certusine-3.0.0.buildspec) | [result](com.io7m.certusine-3.0.0.buildinfo): [34 :white_check_mark:  11 :warning:](com.io7m.certusine-3.0.0.buildcompare) | 917K |
 | [2.0.0](https://central.sonatype.com/artifact/com.io7m.certusine/com.io7m.certusine/2.0.0/pom) | [mvn jdk17.0.7](com.io7m.certusine-2.0.0.buildspec) | [result](com.io7m.certusine-2.0.0.buildinfo): [44 :white_check_mark:  2 :warning:](com.io7m.certusine-2.0.0.buildcompare) [:mag:](com.io7m.certusine-2.0.0.diffoscope) | 905K |
