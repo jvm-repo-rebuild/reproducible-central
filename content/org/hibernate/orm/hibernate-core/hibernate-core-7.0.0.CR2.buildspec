@@ -1,0 +1,26 @@
+# see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/doc/BUILDSPEC.md
+
+# Central Repository coordinates for the Reference release (for multi-module, pick an arbitrary module)
+groupId=org.hibernate.orm
+artifactId=hibernate-core
+version=7.0.0.CR2
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=https://github.com/hibernate/hibernate-orm.git
+gitTag=${version}
+
+# Rebuild environment prerequisites
+tool=gradle
+jdk=17
+newline=lf
+umask=022
+
+# Rebuild command
+# note the `hibernate-gradle-plugin` is a gradle plugin published to the Gradle Plugin Portal
+# and won't be available at Maven Central, hence should be ignored:
+command="./gradlew --no-daemon --no-build-cache clean publishToMavenLocal -x :hibernate-gradle-plugin:publishToMavenLocal"
+
+# Location of the buildinfo file generated during rebuild (by artifact:compare for Maven) to record output fingerprints
+buildinfo=${artifactId}-${version}.buildinfo
