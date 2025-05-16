@@ -1,0 +1,20 @@
+groupId=com.io7m.certusine
+artifactId=com.io7m.certusine
+display=com.io7m.*:*.$(echo $artifactId | cut -c 10-)
+version=3.2.0
+
+gitRepo="https://github.com/io7m/$(echo "${artifactId}" | sed s/com.io7m.//).git"
+gitTag=${artifactId}-${version}
+#gitTag=
+
+tool=mvn-3.9.8
+jdk=21
+newline=lf
+umask=022
+locale="en_US"
+
+command="mvn -DskipTests clean package -Dassembly.skipAssembly -Dcyclonedx.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=

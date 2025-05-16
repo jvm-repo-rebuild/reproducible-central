@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=GemLibPki
+group-id=de.gematik.pki
+artifact-id=gemLibPki
+version=3.1.3
+
+# source information
+source.scm.uri=scm:git:git://github.com/gematik/ref-GemLibPki.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.15
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=de.gematik.pki
+outputs.0.filename=gemLibPki-3.1.3.pom
+outputs.0.length=14830
+outputs.0.checksums.sha512=9789ca1724e0e65618b2f43e9e1e226e2f992fa62c24e6d419b45c28ca221b9a76c52e8cdd1afc310b97d5828f854c83729a5aec8ef87791c01bcfa726529d55
+
+outputs.1.groupId=de.gematik.pki
+outputs.1.filename=gemLibPki-3.1.3.jar
+outputs.1.length=191965
+outputs.1.checksums.sha512=bd8034e674672bd2f70fd9604a1de3ab235a1524ad379b2e91c977f088edf2f6de14edb02c20c2af628661db0fb27205989a7570d8e0f981e0a76d3848e5604b
+
+outputs.2.groupId=de.gematik.pki
+outputs.2.filename=gemLibPki-3.1.3-sources.jar
+outputs.2.length=120420
+outputs.2.checksums.sha512=1320cd7a19742fcbb44c5a87e2f7d93e1163b40e6dfac8f30073143e5b24403fc75cce591bab2e6effb1feefa19584b8f4fd22935165efee53a857ec13ab6f60

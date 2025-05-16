@@ -1052,6 +1052,7 @@ rebuilding **80 releases** of io.quarkus:quarkus-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.23.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.23.0.CR1/pom) | | | |
 | [3.22.3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.22.3/pom) | [mvn jdk17](quarkus-3.22.3.buildspec) | [result](quarkus-project-3.22.3.buildinfo): [2256 :white_check_mark:  7 :warning:](quarkus-project-3.22.3.buildcompare) [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | 131M |
 | [3.22.2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.22.2/pom) | | | |
 | [3.22.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.22.1/pom) | [mvn jdk17](quarkus-3.22.1.buildspec) | [result](quarkus-project-3.22.1.buildinfo): [2256 :white_check_mark:  7 :warning:](quarkus-project-3.22.1.buildcompare) [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | 131M |
