@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.apache.maven.plugins:maven-changes-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.0-M3](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-changes-plugin/3.0.0-M3/pom) | | | |
 | [3.0.0-M2](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-changes-plugin/3.0.0-M2/pom) | [mvn jdk21](maven-changes-plugin-3.0.0-M2.buildspec) | [result](maven-changes-plugin-3.0.0-M2.buildinfo): [6 :white_check_mark: ](maven-changes-plugin-3.0.0-M2.buildcompare) | 1.2M |
 | [3.0.0-M1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-changes-plugin/3.0.0-M1/pom) | [mvn jdk21](maven-changes-plugin-3.0.0-M1.buildspec) | [result](maven-changes-plugin-3.0.0-M1.buildinfo): [6 :white_check_mark: ](maven-changes-plugin-3.0.0-M1.buildcompare) | 1.2M |
 

@@ -3,8 +3,8 @@
   <groupId>io.airlift</groupId>
   <artifactId>airbase</artifactId>
   <versioning>
-    <latest>259</latest>
-    <release>259</release>
+    <latest>260</latest>
+    <release>260</release>
     <versions>
       <version>1</version>
       <version>2</version>
@@ -264,7 +264,8 @@
       <version>257</version>
       <version>258</version>
       <version>259</version>
+      <version>260</version>
     </versions>
-    <lastUpdated>20250513094241</lastUpdated>
+    <lastUpdated>20250516104811</lastUpdated>
   </versioning>
 </metadata>
