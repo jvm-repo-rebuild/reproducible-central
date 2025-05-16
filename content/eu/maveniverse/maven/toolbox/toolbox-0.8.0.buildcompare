@@ -1,0 +1,9 @@
+version=0.8.0
+ok=11
+ko=0
+ignored=0
+okFiles="toolbox-0.8.0.pom shared-0.8.0.pom shared-0.8.0.jar shared-0.8.0-sources.jar toolbox-0.8.0.pom toolbox-0.8.0.jar toolbox-0.8.0-sources.jar toolbox-0.8.0-cli.jar mvnsh-0.8.0.pom mvnsh-0.8.0.jar mvnsh-0.8.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
