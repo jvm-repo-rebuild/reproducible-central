@@ -1,0 +1,9 @@
+version=0.7.2
+ok=27
+ko=0
+ignored=0
+okFiles="mimir-0.7.2.pom core-0.7.2.pom core-0.7.2.jar core-0.7.2-sources.jar daemon-protocol-0.7.2.pom daemon-protocol-0.7.2.jar daemon-protocol-0.7.2-sources.jar node-0.7.2.pom daemon-0.7.2.pom daemon-0.7.2.jar daemon-0.7.2-sources.jar file-0.7.2.pom file-0.7.2.jar file-0.7.2-sources.jar jgroups-0.7.2.pom jgroups-0.7.2.jar jgroups-0.7.2-sources.jar minio-0.7.2.pom minio-0.7.2.jar minio-0.7.2-sources.jar daemon-0.7.2.pom daemon-0.7.2.jar daemon-0.7.2-sources.jar daemon-0.7.2-daemon.jar extension-0.7.2.pom extension-0.7.2.jar extension-0.7.2-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
