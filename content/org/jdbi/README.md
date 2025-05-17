@@ -51,6 +51,7 @@ rebuilding **12 releases** of org.jdbi.internal:jdbi3-root:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.49.4](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.49.4/pom) | | | |
 | [3.49.3](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.49.3/pom) | [mvn jdk21](jdbi3-root-3.49.3.buildspec) | [result](jdbi3-parent-3.49.3.buildinfo): [211 :white_check_mark:  4 :warning:](jdbi3-parent-3.49.3.buildcompare) | 7.2M |
 | [3.49.2](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.49.2/pom) | [mvn jdk21](jdbi3-root-3.49.2.buildspec) | [result](jdbi3-parent-3.49.2.buildinfo): [211 :white_check_mark:  4 :warning:](jdbi3-parent-3.49.2.buildcompare) | 7.2M |
 | [3.49.1](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.49.1/pom) | [mvn jdk21](jdbi3-root-3.49.1.buildspec) | [result](jdbi3-parent-3.49.1.buildinfo): [149 :white_check_mark: ](jdbi3-parent-3.49.1.buildcompare) | 5.6M |

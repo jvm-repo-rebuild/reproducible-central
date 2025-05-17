@@ -28,6 +28,7 @@ rebuilding **20 releases** of eu.maveniverse.maven.mimir:mimir:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.7.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.7.4/pom) | | | |
 | [0.7.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.7.3/pom) | [mvn jdk21](mimir-0.7.3.buildspec) | [result](mimir-0.7.3.buildinfo): [27 :white_check_mark: ](mimir-0.7.3.buildcompare) | 28M |
 | [0.7.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.7.2/pom) | [mvn jdk21](mimir-0.7.2.buildspec) | [result](mimir-0.7.2.buildinfo): [27 :white_check_mark: ](mimir-0.7.2.buildcompare) | 28M |
 | [0.7.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.7.1/pom) | [mvn jdk21](mimir-0.7.1.buildspec) | [result](mimir-0.7.1.buildinfo): [27 :white_check_mark: ](mimir-0.7.1.buildcompare) | 27M |

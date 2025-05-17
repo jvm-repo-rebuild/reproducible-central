@@ -1,7 +1,5 @@
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
-content/eu/maveniverse/maven/mimir/mimir-0.7.1.buildspec:0.7.3
-content/eu/maveniverse/maven/njord/njord-0.5.1.buildspec:0.5.2
-content/eu/maveniverse/maven/toolbox/toolbox-0.7.5.buildspec:0.8.1
-content/io/airlift/airbase/airbase-259.buildspec:260
-content/org/apache/maven/plugins/maven-changes-plugin/maven-changes-plugin-3.0.0-M2.buildspec:3.0.0-M3
+content/eu/maveniverse/maven/mimir/mimir-0.7.3.buildspec:0.7.4
+content/eu/maveniverse/maven/njord/njord-0.5.2.buildspec:0.5.3
+content/org/apache/maven/archetype/archetype-3.3.1.buildspec:3.4.0
 content/org/junit/junit5/junit5-5.13.0-M3.buildspec:5.13.0-RC1
