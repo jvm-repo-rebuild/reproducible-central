@@ -22,13 +22,13 @@ Source code: [https://github.com/maveniverse/mimir.git](https://github.com/maven
 * [eu.maveniverse.maven.mimir:mimir](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/overview)
 </details>
 
-rebuilding **20 releases** of eu.maveniverse.maven.mimir:mimir:
-- **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **21 releases** of eu.maveniverse.maven.mimir:mimir:
+- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.7.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.7.4/pom) | | | |
+| [0.7.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.7.4/pom) | [mvn jdk21](mimir-0.7.4.buildspec) | [result](mimir-0.7.4.buildinfo): [27 :white_check_mark: ](mimir-0.7.4.buildcompare) | 28M |
 | [0.7.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.7.3/pom) | [mvn jdk21](mimir-0.7.3.buildspec) | [result](mimir-0.7.3.buildinfo): [27 :white_check_mark: ](mimir-0.7.3.buildcompare) | 28M |
 | [0.7.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.7.2/pom) | [mvn jdk21](mimir-0.7.2.buildspec) | [result](mimir-0.7.2.buildinfo): [27 :white_check_mark: ](mimir-0.7.2.buildcompare) | 28M |
 | [0.7.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.7.1/pom) | [mvn jdk21](mimir-0.7.1.buildspec) | [result](mimir-0.7.1.buildinfo): [27 :white_check_mark: ](mimir-0.7.1.buildcompare) | 27M |
