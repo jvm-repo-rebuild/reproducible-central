@@ -200,13 +200,13 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:zjsonpatch](https://central.sonatype.com/artifact/io.fabric8/zjsonpatch/overview)
 </details>
 
-rebuilding **42 releases** of io.fabric8:kubernetes-client-project:
+rebuilding **43 releases** of io.fabric8:kubernetes-client-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 42 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 43 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [7.3.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.3.0/pom) | | | |
+| [7.3.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.3.0/pom) | [mvn jdk11](kubernetes-client-7.3.0.buildspec) | [result](kubernetes-client-project-7.3.0.buildinfo): [360 :white_check_mark:  2 :warning:](kubernetes-client-project-7.3.0.buildcompare) | 225M |
 | [7.2.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.2.0/pom) | [mvn jdk11](kubernetes-client-7.2.0.buildspec) | [result](kubernetes-client-project-7.2.0.buildinfo): [360 :white_check_mark:  2 :warning:](kubernetes-client-project-7.2.0.buildcompare) | 224M |
 | [7.1.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.1.0/pom) | [mvn jdk11](kubernetes-client-7.1.0.buildspec) | [result](kubernetes-client-project-7.1.0.buildinfo): [360 :white_check_mark:  2 :warning:](kubernetes-client-project-7.1.0.buildcompare) | 219M |
 | [7.0.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/7.0.1/pom) | [mvn jdk11](kubernetes-client-7.0.1.buildspec) | [result](kubernetes-client-project-7.0.1.buildinfo): [360 :white_check_mark:  2 :warning:](kubernetes-client-project-7.0.1.buildcompare) | 210M |
