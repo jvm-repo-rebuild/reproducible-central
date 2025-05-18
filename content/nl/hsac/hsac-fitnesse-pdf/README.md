@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/fhoeben/hsac-fitnesse-pdf.git](https://github.com/fhoeben/hsac-fitnesse-pdf.git)
 
-rebuilding **8 releases** of nl.hsac:hsac-fitnesse-pdf:
+rebuilding **9 releases** of nl.hsac:hsac-fitnesse-pdf:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [0.1.8](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-pdf/0.1.8/pom) | [mvn jdk11](hsac-fitnesse-pdf-0.1.8.buildspec) | [result](hsac-fitnesse-pdf-0.1.8.buildinfo): [3 :white_check_mark: ](hsac-fitnesse-pdf-0.1.8.buildcompare) | 22K |
-| [0.1.7](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-pdf/0.1.7/pom) | | | |
+| [0.1.7](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-pdf/0.1.7/pom) | [mvn jdk11](hsac-fitnesse-pdf-0.1.7.buildspec) | :x: | |
 | [0.1.6](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-pdf/0.1.6/pom) | [mvn jdk11](hsac-fitnesse-pdf-0.1.6.buildspec) | [result](hsac-fitnesse-pdf-0.1.6.buildinfo): [3 :white_check_mark: ](hsac-fitnesse-pdf-0.1.6.buildcompare) | 22K |
 | [0.1.5](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-pdf/0.1.5/pom) | [mvn jdk11](hsac-fitnesse-pdf-0.1.5.buildspec) | [result](hsac-fitnesse-pdf-0.1.5.buildinfo): [3 :white_check_mark: ](hsac-fitnesse-pdf-0.1.5.buildcompare) | 22K |
 | [0.1.4](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-pdf/0.1.4/pom) | [mvn jdk11](hsac-fitnesse-pdf-0.1.4.buildspec) | [result](hsac-fitnesse-pdf-0.1.4.buildinfo): [ 3 :warning:](hsac-fitnesse-pdf-0.1.4.buildcompare) [:mag:](hsac-fitnesse-pdf-0.1.4.diffoscope) | 22K |
