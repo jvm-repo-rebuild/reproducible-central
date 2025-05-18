@@ -1,0 +1,72 @@
+1 / 2 target/reference/org.eclipse.jetty.quic/jetty-quic-quiche-common-12.0.21-sources.jar jetty-core/jetty-quic/jetty-quic-quiche/jetty-quic-quiche-common/target/jetty-quic-quiche-common-12.0.21-sources.jar
+--- target/reference/org.eclipse.jetty.quic/jetty-quic-quiche-common-12.0.21-sources.jar
++++ jetty-core/jetty-quic/jetty-quic-quiche/jetty-quic-quiche-common/target/jetty-quic-quiche-common-12.0.21-sources.jar
+├── zipinfo {}
+│ @@ -1,24 +1,21 @@
+│ -Zip file size: 12918 bytes, number of entries: 22
+│ +Zip file size: 12552 bytes, number of entries: 19
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 META-INF/
+│  -rw-r--r--  2.0 unx      369 b- defN 23-Jun-05 23:12 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/eclipse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/eclipse/jetty/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/eclipse/jetty/quic/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/eclipse/jetty/quic/quiche/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 target/generated-sources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 target/generated-sources/annotations/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 META-INF/maven/org.eclipse.jetty.quic/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 META-INF/maven/org.eclipse.jetty.quic/jetty-quic-quiche-common/
+│  -rw-r--r--  2.0 unx      769 b- defN 23-Jun-05 23:12 module-info.java
+│  -rw-r--r--  2.0 unx     5343 b- defN 23-Jun-05 23:12 org/eclipse/jetty/quic/quiche/PemExporter.java
+│  -rw-r--r--  2.0 unx    11546 b- defN 23-Jun-05 23:12 org/eclipse/jetty/quic/quiche/Quiche.java
+│  -rw-r--r--  2.0 unx     1328 b- defN 23-Jun-05 23:12 org/eclipse/jetty/quic/quiche/QuicheBinding.java
+│  -rw-r--r--  2.0 unx     5547 b- defN 23-Jun-05 23:12 org/eclipse/jetty/quic/quiche/QuicheConfig.java
+│  -rw-r--r--  2.0 unx     7159 b- defN 23-Jun-05 23:12 org/eclipse/jetty/quic/quiche/QuicheConnection.java
+│  -rw-r--r--  2.0 unx     2721 b- defN 23-Jun-05 23:12 org/eclipse/jetty/quic/quiche/QuicheConnectionId.java
+│  -rw-r--r--  2.0 unx     1259 b- defN 23-Jun-05 23:12 META-INF/maven/org.eclipse.jetty.quic/jetty-quic-quiche-common/pom.xml
+│  -rw-r--r--  2.0 unx       83 b- defN 23-Jun-05 23:12 META-INF/maven/org.eclipse.jetty.quic/jetty-quic-quiche-common/pom.properties
+│ -22 files, 36124 bytes uncompressed, 9724 bytes compressed:  73.1%
+│ +19 files, 36124 bytes uncompressed, 9724 bytes compressed:  73.1%
+
+2 / 2 target/reference/org.eclipse.jetty.quic/jetty-quic-quiche-jna-12.0.21-sources.jar jetty-core/jetty-quic/jetty-quic-quiche/jetty-quic-quiche-jna/target/jetty-quic-quiche-jna-12.0.21-sources.jar
+--- target/reference/org.eclipse.jetty.quic/jetty-quic-quiche-jna-12.0.21-sources.jar
++++ jetty-core/jetty-quic/jetty-quic-quiche/jetty-quic-quiche-jna/target/jetty-quic-quiche-jna-12.0.21-sources.jar
+├── zipinfo {}
+│ @@ -1,24 +1,19 @@
+│ -Zip file size: 31668 bytes, number of entries: 48
+│ +Zip file size: 30996 bytes, number of entries: 43
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 META-INF/
+│  -rw-r--r--  2.0 unx      368 b- defN 23-Jun-05 23:12 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/eclipse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/eclipse/jetty/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/eclipse/jetty/quic/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/eclipse/jetty/quic/quiche/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/eclipse/jetty/quic/quiche/jna/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/eclipse/jetty/quic/quiche/jna/linux/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/eclipse/jetty/quic/quiche/jna/macos/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 org/eclipse/jetty/quic/quiche/jna/windows/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 target/generated-sources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 target/generated-sources/annotations/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 target/generated-test-sources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 target/generated-test-sources/test-annotations/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 META-INF/maven/org.eclipse.jetty.quic/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 META-INF/maven/org.eclipse.jetty.quic/jetty-quic-quiche-jna/
+│  -rw-r--r--  2.0 unx     1134 b- defN 23-Jun-05 23:12 module-info.java
+│  -rw-r--r--  2.0 unx     2591 b- defN 23-Jun-05 23:12 org/eclipse/jetty/quic/quiche/jna/JnaQuicheBinding.java
+│  -rw-r--r--  2.0 unx    34047 b- defN 23-Jun-05 23:12 org/eclipse/jetty/quic/quiche/jna/JnaQuicheConnection.java
+│ @@ -43,8 +38,8 @@
+│  -rw-r--r--  2.0 unx     1031 b- defN 23-Jun-05 23:12 org/eclipse/jetty/quic/quiche/jna/uint64_t_pointer.java
+│  -rw-r--r--  2.0 unx      812 b- defN 23-Jun-05 23:12 org/eclipse/jetty/quic/quiche/jna/uint8_t.java
+│  -rw-r--r--  2.0 unx     1032 b- defN 23-Jun-05 23:12 org/eclipse/jetty/quic/quiche/jna/uint8_t_pointer.java
+│  -rw-r--r--  2.0 unx     3590 b- defN 23-Jun-05 23:12 org/eclipse/jetty/quic/quiche/jna/windows/netinet_windows.java
+│  -rw-r--r--  2.0 unx       51 b- defN 23-Jun-05 23:12 META-INF/services/org.eclipse.jetty.quic.quiche.QuicheBinding
+│  -rw-r--r--  2.0 unx     1741 b- defN 23-Jun-05 23:12 META-INF/maven/org.eclipse.jetty.quic/jetty-quic-quiche-jna/pom.xml
+│  -rw-r--r--  2.0 unx       80 b- defN 23-Jun-05 23:12 META-INF/maven/org.eclipse.jetty.quic/jetty-quic-quiche-jna/pom.properties
+│ -48 files, 91626 bytes uncompressed, 24010 bytes compressed:  73.8%
+│ +43 files, 91626 bytes uncompressed, 24010 bytes compressed:  73.8%

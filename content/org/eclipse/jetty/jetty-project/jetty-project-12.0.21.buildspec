@@ -15,5 +15,5 @@ timestamp=1746750720688 # extracted from: wget https://repo.maven.apache.org/mav
 command="mvn -Peclipse-release clean package -DskipTests -Dgpg.skip -Dtimestamp=${timestamp} -Dbuildinfo.ignore=*/*-p2site.zip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=
