@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/fhoeben/hsac-fitnesse-plugin.git](https://github.com/fhoeben/hsac-fitnesse-plugin.git)
 
-rebuilding **3 releases** of nl.hsac:hsac-fitnesse-plugin:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of nl.hsac:hsac-fitnesse-plugin:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.33.3](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-plugin/1.33.3/pom) | | | |
+| [1.33.3](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-plugin/1.33.3/pom) | [mvn jdk11](hsac-fitnesse-plugin-1.33.3.buildspec) | [result](hsac-fitnesse-plugin-1.33.3.buildinfo): [3 :white_check_mark: ](hsac-fitnesse-plugin-1.33.3.buildcompare) | 405K |
 | [1.33.2](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-plugin/1.33.2/pom) | [mvn jdk11](hsac-fitnesse-plugin-1.33.2.buildspec) | [result](hsac-fitnesse-plugin-1.33.2.buildinfo): [3 :white_check_mark: ](hsac-fitnesse-plugin-1.33.2.buildcompare) | 405K |
 | [1.33.1](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-plugin/1.33.1/pom) | [mvn jdk11](hsac-fitnesse-plugin-1.33.1.buildspec) | [result](hsac-fitnesse-plugin-1.33.1.buildinfo): [1 :white_check_mark:  2 :warning:](hsac-fitnesse-plugin-1.33.1.buildcompare) [:memo:](https://github.com/fhoeben/hsac-fitnesse-plugin/pull/64) | 405K |
 | [1.33.0](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-plugin/1.33.0/pom) | [mvn jdk11](hsac-fitnesse-plugin-1.33.0.buildspec) | [result](hsac-fitnesse-plugin-1.33.0.buildinfo): [1 :white_check_mark:  2 :warning:](hsac-fitnesse-plugin-1.33.0.buildcompare) | 404K |
