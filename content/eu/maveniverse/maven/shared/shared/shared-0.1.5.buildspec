@@ -1,0 +1,18 @@
+groupId=eu.maveniverse.maven.shared
+artifactId=shared
+display=eu.maveniverse.maven.*:${artifactId}
+version=0.1.5
+
+gitRepo=https://github.com/maveniverse/maven-${artifactId}.git
+gitTag=release-${version}
+
+tool=mvn-3.9.9
+jdk=21
+newline=lf
+umask=022
+
+command="mvn -Pmaveniverse-release clean package -DskipTests -Dgpg.skip -Denforcer.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
