@@ -1,0 +1,18 @@
+groupId=nl.hsac
+artifactId=hsac-fitnesse-fixtures
+display=${groupId}:${artifactId}
+version=5.3.21
+
+gitRepo=https://github.com/fhoeben/${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=11
+newline=lf
+umask=022
+
+command="mvn clean package -Prelease -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=
+issue=
