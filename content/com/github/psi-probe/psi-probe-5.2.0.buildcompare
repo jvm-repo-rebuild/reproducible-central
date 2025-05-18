@@ -1,0 +1,9 @@
+version=5.2.0
+ok=24
+ko=0
+ignored=0
+okFiles="psi-probe-5.2.0.pom psi-probe-core-5.2.0.pom psi-probe-core-5.2.0.jar psi-probe-core-5.2.0-tests.jar psi-probe-core-5.2.0-sources.jar psi-probe-core-5.2.0-test-sources.jar psi-probe-rest-5.2.0.pom psi-probe-rest-5.2.0.jar psi-probe-rest-5.2.0-sources.jar psi-probe-tomcat10-5.2.0.pom psi-probe-tomcat10-5.2.0.jar psi-probe-tomcat10-5.2.0-tests.jar psi-probe-tomcat10-5.2.0-sources.jar psi-probe-tomcat10-5.2.0-test-sources.jar psi-probe-tomcat11-5.2.0.pom psi-probe-tomcat11-5.2.0.jar psi-probe-tomcat11-5.2.0-tests.jar psi-probe-tomcat11-5.2.0-sources.jar psi-probe-tomcat11-5.2.0-test-sources.jar psi-probe-web-5.2.0.pom psi-probe-web-5.2.0.war psi-probe-web-5.2.0-tests.jar psi-probe-web-5.2.0-sources.jar psi-probe-web-5.2.0-test-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
