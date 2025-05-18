@@ -22,13 +22,13 @@ Source code: [https://github.com/nielsbasjes/modbus-schema.git](https://github.c
 * [nl.basjes.modbus:modbus-schema-reference](https://central.sonatype.com/artifact/nl.basjes.modbus/modbus-schema-reference/overview)
 </details>
 
-rebuilding **2 releases** of nl.basjes.modbus:modbus-schema-parent:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **3 releases** of nl.basjes.modbus:modbus-schema-parent:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.3.0](https://central.sonatype.com/artifact/nl.basjes.modbus/modbus-schema-parent/0.3.0/pom) | | | |
+| [0.3.0](https://central.sonatype.com/artifact/nl.basjes.modbus/modbus-schema-parent/0.3.0/pom) | [mvn jdk21](modbus-schema-parent-0.3.0.buildspec) | [result](modbus-schema-parent-0.3.0.buildinfo): [27 :white_check_mark: ](modbus-schema-parent-0.3.0.buildcompare) | 1.1M |
 | [0.2.0](https://central.sonatype.com/artifact/nl.basjes.modbus/modbus-schema-parent/0.2.0/pom) | [mvn jdk21](modbus-schema-parent-0.2.0.buildspec) | [result](modbus-schema-parent-0.2.0.buildinfo): [27 :white_check_mark: ](modbus-schema-parent-0.2.0.buildcompare) | 1010K |
 | [0.1.1](https://central.sonatype.com/artifact/nl.basjes.modbus/modbus-schema-parent/0.1.1/pom) | [mvn jdk21](modbus-schema-parent-0.1.1.buildspec) | [result](modbus-schema-parent-0.1.1.buildinfo): [24 :white_check_mark: ](modbus-schema-parent-0.1.1.buildcompare) | 983K |
 

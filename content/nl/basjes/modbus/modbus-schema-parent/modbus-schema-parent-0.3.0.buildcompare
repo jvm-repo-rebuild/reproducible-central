@@ -1,0 +1,9 @@
+version=0.3.0
+ok=27
+ko=0
+ignored=0
+okFiles="modbus-schema-parent-0.3.0.pom modbus-schema-bom-0.3.0.pom modbus-api-parent-0.3.0.pom modbus-api-0.3.0.pom modbus-api-0.3.0.jar modbus-api-0.3.0-sources.jar modbus-api-testing-0.3.0.pom modbus-api-testing-0.3.0.jar modbus-api-testing-0.3.0-sources.jar modbus-api-j2mod-0.3.0.pom modbus-api-j2mod-0.3.0.jar modbus-api-j2mod-0.3.0-sources.jar modbus-api-plc4j-0.3.0.pom modbus-api-plc4j-0.3.0.jar modbus-api-plc4j-0.3.0-sources.jar modbus-api-digitalpetri-0.3.0.pom modbus-api-digitalpetri-0.3.0.jar modbus-api-digitalpetri-0.3.0-sources.jar modbus-schema-reference-0.3.0.pom modbus-schema-reference-0.3.0.jar modbus-schema-reference-0.3.0-sources.jar modbus-schema-device-0.3.0.pom modbus-schema-device-0.3.0.jar modbus-schema-device-0.3.0-sources.jar modbus-schema-maven-plugin-0.3.0.pom modbus-schema-maven-plugin-0.3.0.jar modbus-schema-maven-plugin-0.3.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
