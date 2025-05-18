@@ -1,0 +1,9 @@
+version=2.0.5
+ok=29
+ko=0
+ignored=0
+okFiles="orc-2.0.5.pom orc-2.0.5-source-release.zip orc-shims-2.0.5.pom orc-shims-2.0.5.jar orc-shims-2.0.5-sources.jar orc-shims-2.0.5-test-sources.jar orc-shims-2.0.5-tests.jar orc-core-2.0.5.pom orc-core-2.0.5.jar orc-core-2.0.5-sources.jar orc-core-2.0.5-test-sources.jar orc-core-2.0.5-shaded-protobuf.jar orc-core-2.0.5-nohive.jar orc-core-2.0.5-tests.jar orc-mapreduce-2.0.5.pom orc-mapreduce-2.0.5.jar orc-mapreduce-2.0.5-sources.jar orc-mapreduce-2.0.5-test-sources.jar orc-mapreduce-2.0.5-shaded-protobuf.jar orc-mapreduce-2.0.5-nohive.jar orc-mapreduce-2.0.5-tests.jar orc-tools-2.0.5.pom orc-tools-2.0.5.jar orc-tools-2.0.5-sources.jar orc-tools-2.0.5-test-sources.jar orc-tools-2.0.5-shaded-protobuf.jar orc-tools-2.0.5-nohive.jar orc-tools-2.0.5-uber.jar orc-tools-2.0.5-tests.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
