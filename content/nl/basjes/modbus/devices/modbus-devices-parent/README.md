@@ -20,6 +20,7 @@ rebuilding **2 releases** of nl.basjes.modbus.devices:modbus-devices-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.2.1](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-devices-parent/0.2.1/pom) | | | |
 | [0.2.0](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-devices-parent/0.2.0/pom) | [mvn jdk21](modbus-devices-parent-0.2.0.buildspec) | [result](modbus-devices-parent-0.2.0.buildinfo): [7 :white_check_mark: ](modbus-devices-parent-0.2.0.buildcompare) | 117K |
 | [0.1.1](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-devices-parent/0.1.1/pom) | [mvn jdk21](modbus-devices-parent-0.1.1.buildspec) | [result](modbus-devices-parent-0.1.1.buildinfo): [7 :white_check_mark: ](modbus-devices-parent-0.1.1.buildcompare) | 115K |
 

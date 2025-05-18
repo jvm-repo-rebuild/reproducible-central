@@ -1,5 +1,12 @@
+content/com/github/psi-probe/psi-probe-5.1.1.buildspec:5.2.0
+content/com/github/hazendaz/sitemesh/sitemesh-2.6.0.buildspec:2.6.1
+content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.2.buildspec:7.5.3
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
-content/eu/maveniverse/maven/mimir/mimir-0.7.3.buildspec:0.7.4
-content/eu/maveniverse/maven/njord/njord-0.5.2.buildspec:0.5.3
-content/org/apache/maven/archetype/archetype-3.3.1.buildspec:3.4.0
-content/org/junit/junit5/junit5-5.13.0-M3.buildspec:5.13.0-RC1
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.1-beta-16.buildspec:11.2.1-beta-17
+content/nl/basjes/modbus/modbus-schema-parent/modbus-schema-parent-0.2.0.buildspec:0.3.0
+content/nl/basjes/modbus/devices/modbus-devices-parent/modbus-devices-parent-0.2.0.buildspec:0.2.1
+content/nl/basjes/sunspec/sunspec-device-parent/sunspec-device-parent-0.2.0.buildspec:0.2.1
+content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.3.20.buildspec:5.3.21
+content/nl/hsac/hsac-fitnesse-pdf/hsac-fitnesse-pdf-0.1.6.buildspec:0.1.8
+content/nl/hsac/hsac-fitnesse-plugin/hsac-fitnesse-plugin-1.33.2.buildspec:1.33.3
+content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.8.buildspec:2.0.9

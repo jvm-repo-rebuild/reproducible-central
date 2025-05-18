@@ -28,6 +28,7 @@ rebuilding **2 releases** of nl.basjes.modbus:modbus-schema-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.3.0](https://central.sonatype.com/artifact/nl.basjes.modbus/modbus-schema-parent/0.3.0/pom) | | | |
 | [0.2.0](https://central.sonatype.com/artifact/nl.basjes.modbus/modbus-schema-parent/0.2.0/pom) | [mvn jdk21](modbus-schema-parent-0.2.0.buildspec) | [result](modbus-schema-parent-0.2.0.buildinfo): [27 :white_check_mark: ](modbus-schema-parent-0.2.0.buildcompare) | 1010K |
 | [0.1.1](https://central.sonatype.com/artifact/nl.basjes.modbus/modbus-schema-parent/0.1.1/pom) | [mvn jdk21](modbus-schema-parent-0.1.1.buildspec) | [result](modbus-schema-parent-0.1.1.buildinfo): [24 :white_check_mark: ](modbus-schema-parent-0.1.1.buildcompare) | 983K |
 
