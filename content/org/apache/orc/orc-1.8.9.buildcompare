@@ -1,0 +1,18 @@
+version=1.8.9
+ok=26
+ko=9
+ignored=0
+okFiles="orc-shims-1.8.9.pom orc-shims-1.8.9.jar orc-shims-1.8.9-sources.jar orc-shims-1.8.9-test-sources.jar orc-core-1.8.9.pom orc-core-1.8.9.jar orc-core-1.8.9-sources.jar orc-core-1.8.9-test-sources.jar orc-core-1.8.9-shaded-protobuf.jar orc-core-1.8.9-nohive.jar orc-mapreduce-1.8.9.pom orc-mapreduce-1.8.9.jar orc-mapreduce-1.8.9-sources.jar orc-mapreduce-1.8.9-test-sources.jar orc-mapreduce-1.8.9-shaded-protobuf.jar orc-mapreduce-1.8.9-nohive.jar orc-tools-1.8.9.pom orc-tools-1.8.9.jar orc-tools-1.8.9-sources.jar orc-tools-1.8.9-test-sources.jar orc-tools-1.8.9-uber.jar orc-examples-1.8.9.pom orc-examples-1.8.9.jar orc-examples-1.8.9-uber.jar orc-examples-1.8.9-sources.jar orc-examples-1.8.9-test-sources.jar"
+koFiles="orc-1.8.9.pom orc-1.8.9-source-release.zip orc-shims-1.8.9-tests.jar orc-core-1.8.9-tests.jar orc-mapreduce-1.8.9-tests.jar orc-tools-1.8.9-shaded-protobuf.jar orc-tools-1.8.9-nohive.jar orc-tools-1.8.9-tests.jar orc-examples-1.8.9-tests.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/org.apache.orc/orc-1.8.9.pom pom.xml
+# diffoscope target/reference/org.apache.orc/orc-1.8.9-source-release.zip target/orc-1.8.9-source-release.zip
+# diffoscope target/reference/org.apache.orc/orc-shims-1.8.9-tests.jar shims/target/orc-shims-1.8.9-tests.jar
+# diffoscope target/reference/org.apache.orc/orc-core-1.8.9-tests.jar core/target/orc-core-1.8.9-tests.jar
+# diffoscope target/reference/org.apache.orc/orc-mapreduce-1.8.9-tests.jar mapreduce/target/orc-mapreduce-1.8.9-tests.jar
+# diffoscope target/reference/org.apache.orc/orc-tools-1.8.9-shaded-protobuf.jar tools/target/orc-tools-1.8.9-shaded-protobuf.jar
+# diffoscope target/reference/org.apache.orc/orc-tools-1.8.9-nohive.jar tools/target/orc-tools-1.8.9-nohive.jar
+# diffoscope target/reference/org.apache.orc/orc-tools-1.8.9-tests.jar tools/target/orc-tools-1.8.9-tests.jar
+# diffoscope target/reference/org.apache.orc/orc-examples-1.8.9-tests.jar examples/target/orc-examples-1.8.9-tests.jar
