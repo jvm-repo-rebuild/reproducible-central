@@ -1,0 +1,17 @@
+groupId=org.apache.sling
+artifactId=org.apache.sling.feature.analyser
+display=${groupId}:*.feature.analyser
+version=2.0.14
+
+gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.9
+jdk=21
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=
+issue=
