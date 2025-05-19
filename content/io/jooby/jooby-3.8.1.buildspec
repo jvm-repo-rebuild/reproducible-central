@@ -16,4 +16,4 @@ command="mvn -Psource clean package -DskipTests -Dmaven.javadoc.skip -Dbuildinfo
 buildinfo=target/${artifactId}-project-${version}.buildinfo
 
 #diffoscope=${artifactId}-project-${version}.diffoscope
-issue=
+issue=https://github.com/jooby-project/jooby/issues/3662
