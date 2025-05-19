@@ -3,8 +3,8 @@
   <groupId>org.apache.sling</groupId>
   <artifactId>org.apache.sling.feature.cpconverter</artifactId>
   <versioning>
-    <latest>1.3.8</latest>
-    <release>1.3.8</release>
+    <latest>1.3.10</latest>
+    <release>1.3.10</release>
     <versions>
       <version>1.0.2</version>
       <version>1.0.6</version>
@@ -35,7 +35,8 @@
       <version>1.3.4</version>
       <version>1.3.6</version>
       <version>1.3.8</version>
+      <version>1.3.10</version>
     </versions>
-    <lastUpdated>20241119151133</lastUpdated>
+    <lastUpdated>20250519085748</lastUpdated>
   </versioning>
 </metadata>

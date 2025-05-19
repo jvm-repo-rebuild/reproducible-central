@@ -3,8 +3,8 @@
   <groupId>org.apache.sling</groupId>
   <artifactId>org.apache.sling.distribution.journal.messages</artifactId>
   <versioning>
-    <latest>0.5.10</latest>
-    <release>0.5.10</release>
+    <latest>0.5.12</latest>
+    <release>0.5.12</release>
     <versions>
       <version>0.1.0</version>
       <version>0.1.2</version>
@@ -16,7 +16,8 @@
       <version>0.5.4</version>
       <version>0.5.6</version>
       <version>0.5.10</version>
+      <version>0.5.12</version>
     </versions>
-    <lastUpdated>20240506181903</lastUpdated>
+    <lastUpdated>20250519064402</lastUpdated>
   </versioning>
 </metadata>

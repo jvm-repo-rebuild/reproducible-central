@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **7327 releases** of **874 projects**:
-   - **5297** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **7330 releases** of **874 projects**:
+   - **5300** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 2030 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 874 projects, 763 have at least one fully reproducible release, 111 have none
 
@@ -53,7 +53,7 @@ Its objectives are to provide:
 | com.foreach.across | [across-base](content/com/foreach/across/README.md) | 8 | 8 :white_check_mark: |
 | | [across-platform-bom](content/com/foreach/across/platform/README.md) | 8 | 2 :white_check_mark: / 6 :warning: |
 | com.github.ldapchai | [ldapchai](content/com/github/ldapchai/README.md) | 9 | 1 :white_check_mark: / 8 :warning: |
-| com.github.psi-probe | [psi-probe](content/com/github/psi-probe/README.md) | 22 | 17 :white_check_mark: / 5 :warning: |
+| com.github.psi-probe | [psi-probe](content/com/github/psi-probe/README.md) | 24 | 19 :white_check_mark: / 5 :warning: |
 | com.github.adangel.liquibase.ext | [liquibase-percona](content/com/github/adangel/liquibase/ext/liquibase-percona/README.md) | 1 | 1 :white_check_mark: |
 | com.github.hazendaz.7zip | [7zip](content/com/github/hazendaz/7zip/README.md) | 7 | 7 :white_check_mark: |
 | com.github.hazendaz | [base-parent](content/com/github/hazendaz/base-parent/README.md) | 21 | 21 :white_check_mark: |
@@ -384,7 +384,7 @@ Its objectives are to provide:
 | nl.hsac | [hsac-fitnesse-fixtures](content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 106 | 75 :white_check_mark: / 31 :warning: |
 | | [hsac-fitnesse-pdf](content/nl/hsac/hsac-fitnesse-pdf/README.md) | 9 | 5 :white_check_mark: / 4 :warning: |
 | | [hsac-fitnesse-plugin](content/nl/hsac/hsac-fitnesse-plugin/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
-| org.jdbi.internal | [jdbi3-root](content/org/jdbi/README.md) | 12 | 2 :white_check_mark: / 10 :warning: |
+| org.jdbi.internal | [jdbi3-root](content/org/jdbi/README.md) | 13 | 3 :white_check_mark: / 10 :warning: |
 | org.jline | [jline](content/org/jline/README.md) | 18 | 16 :white_check_mark: / 2 :warning: |
 | org.jreleaser | [jreleaser](content/org/jreleaser/README.md) | 14 | 6 :white_check_mark: / 8 :warning: |
 | org.phoebus | [parent](content/org/phoebus/README.md) | 1 | 1 :warning: |
@@ -897,7 +897,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 7 | 7 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 21 | 3 :white_check_mark: / 18 :warning: |
-| **Count:** | **874** | **7327** | **5297** :white_check_mark:<br>**2030** :warning: |
+| **Count:** | **874** | **7330** | **5300** :white_check_mark:<br>**2030** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -994,7 +994,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.3  17.0.8.1
       1 mvn-3.9.3  17.0.9
       7 mvn-3.9.3  19
-    159 mvn-3.9.3  21
+    161 mvn-3.9.3  21
       1 mvn-3.9.3  21.ea
       8 mvn-3.9.3  22
       8 mvn-3.9.4   8
@@ -1027,7 +1027,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.8  16
     222 mvn-3.9.8  17
       1 mvn-3.9.8  17.0.12
-     61 mvn-3.9.8  21
+     62 mvn-3.9.8  21
      47 mvn-3.9.8  22
      16 mvn-3.9.8  23
      65 mvn-3.9.9   8

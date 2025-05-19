@@ -1,3 +1,7 @@
-content/com/github/psi-probe/psi-probe-5.2.0.buildspec:5.2.1
 content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.2.buildspec:7.5.3
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
+content/io/telicent/smart-caches/graph/scg-base/scg-base-0.83.9.buildspec:0.83.10
+content/org/jline/jline-3.30.1.buildspec:3.30.2
+content/org/apache/sling/org.apache.sling.distribution.journal.messages/org.apache.sling.distribution.journal.messages-0.5.10.buildspec:0.5.12
+content/org/apache/sling/org.apache.sling.feature.analyser/org.apache.sling.feature.analyser-2.0.12.buildspec:2.0.14
+content/org/apache/sling/slingfeature-maven-plugin/slingfeature-maven-plugin-1.9.0.buildspec:1.9.2
