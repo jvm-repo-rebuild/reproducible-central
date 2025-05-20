@@ -22,6 +22,7 @@ rebuilding **3 releases** of org.hibernate.validator:hibernate-validator:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [9.0.0.Final](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator/9.0.0.Final/pom) | | | |
 | [9.0.0.CR1](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator/9.0.0.CR1/pom) | [mvn jdk17](hibernate-validator-9.0.0.CR1.buildspec) | [result](hibernate-validator-parent-9.0.0.CR1.buildinfo): [13 :white_check_mark: ](hibernate-validator-parent-9.0.0.CR1.buildcompare) | 2.5M |
 | [9.0.0.Beta3](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator/9.0.0.Beta3/pom) | [mvn jdk17](hibernate-validator-9.0.0.Beta3.buildspec) | [result](hibernate-validator-parent-9.0.0.Beta3.buildinfo): [13 :white_check_mark: ](hibernate-validator-parent-9.0.0.Beta3.buildcompare) | 2.6M |
 | [9.0.0.Beta2](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator/9.0.0.Beta2/pom) | [mvn jdk17](hibernate-validator-9.0.0.Beta2.buildspec) | [result](hibernate-validator-parent-9.0.0.Beta2.buildinfo): [9 :white_check_mark: ](hibernate-validator-parent-9.0.0.Beta2.buildcompare) | 1.6M |
