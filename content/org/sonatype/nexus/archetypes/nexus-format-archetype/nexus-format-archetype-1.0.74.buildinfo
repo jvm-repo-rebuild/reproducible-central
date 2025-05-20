@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Nexus Format Plugin Archetype
+group-id=org.sonatype.nexus.archetypes
+artifact-id=nexus-format-archetype
+version=1.0.74
+
+# source information
+source.scm.uri=scm:git:https://github.com/sonatype-nexus-community/nexus-format-archetype.git
+source.scm.tag=nexus-format-archetype-1.0.74
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_452
+java.vendor=Private Build
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.sonatype.nexus.archetypes
+outputs.0.filename=nexus-format-archetype-1.0.74.pom
+outputs.0.length=9242
+outputs.0.checksums.sha512=1a547bcd914f192862cfc48635db997547e9c5a238ecf86e70b1f669550f3ffa1e5e48a6c82ce5235f6d3da2ac43f9107d336534fb1b28c6b837fb13e7726b6a
+
+outputs.1.groupId=org.sonatype.nexus.archetypes
+outputs.1.filename=nexus-format-archetype-1.0.74.jar
+outputs.1.length=60852
+outputs.1.checksums.sha512=35a43860693b7e40a19669cf71e9f09f48cb8ef848f644b205539cc92c1174fb376cb6ae5c0b77c997b9cfa2fbab6452cc9df14eb90ebaca71fac74d3a93537d
