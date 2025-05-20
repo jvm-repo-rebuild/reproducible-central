@@ -1,0 +1,14 @@
+version=0.9.0.M3
+ok=6
+ko=5
+ignored=0
+okFiles="sisu-inject-0.9.0.M3.pom org.eclipse.sisu.inject-0.9.0.M3.pom org.eclipse.sisu.inject.extender-0.9.0.M3.pom org.eclipse.sisu.plexus-0.9.0.M3.pom org.eclipse.sisu.plexus.extender-0.9.0.M3.pom sisu-maven-plugin-0.9.0.M3.pom"
+koFiles="org.eclipse.sisu.inject-0.9.0.M3.jar org.eclipse.sisu.inject.extender-0.9.0.M3.jar org.eclipse.sisu.plexus-0.9.0.M3.jar org.eclipse.sisu.plexus.extender-0.9.0.M3.jar sisu-maven-plugin-0.9.0.M3.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.eclipse.sisu/org.eclipse.sisu.inject-0.9.0.M3.jar org.eclipse.sisu.inject/target/org.eclipse.sisu.inject-0.9.0.M3.jar
+# diffoscope target/reference/org.eclipse.sisu/org.eclipse.sisu.inject.extender-0.9.0.M3.jar org.eclipse.sisu.inject.extender/target/org.eclipse.sisu.inject.extender-0.9.0.M3.jar
+# diffoscope target/reference/org.eclipse.sisu/org.eclipse.sisu.plexus-0.9.0.M3.jar org.eclipse.sisu.plexus/target/org.eclipse.sisu.plexus-0.9.0.M3.jar
+# diffoscope target/reference/org.eclipse.sisu/org.eclipse.sisu.plexus.extender-0.9.0.M3.jar org.eclipse.sisu.plexus.extender/target/org.eclipse.sisu.plexus.extender-0.9.0.M3.jar
+# diffoscope target/reference/org.eclipse.sisu/sisu-maven-plugin-0.9.0.M3.jar org.eclipse.sisu.mojos/target/sisu-maven-plugin-0.9.0.M3.jar
