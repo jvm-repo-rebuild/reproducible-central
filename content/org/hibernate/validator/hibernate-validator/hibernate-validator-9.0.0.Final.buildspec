@@ -1,0 +1,32 @@
+# Central Repository coordinates for the Reference release (for multi-module, pick an arbitrary module)
+groupId=org.hibernate.validator
+artifactId=hibernate-validator
+version=9.0.0.Final
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=https://github.com/hibernate/hibernate-validator.git
+gitTag=${version}
+
+# Rebuild environment prerequisites
+tool=mvn-3.9.9
+jdk=21
+newline=lf
+
+# Build requires access to the Jakarta EE staging repository.
+# This repository has the latest builds of Jakarta Validation TCK that may not necessarily be published to Central yet
+# but Hibernate Validator would usually run tests against this staged version of the TCK
+# to make sure everything is fine with the TCK.
+#
+# The `reproducibility-check` has all the required properties set to skip tests,
+# gpg signing and other things like code formatting checks etc.
+#
+# Rebuild command:
+command="mvn clean verify -Preproducibility-check -Pjakarta-ee-staging"
+
+# Location of the buildinfo file generated during rebuild (by artifact:compare for Maven) to record output fingerprints
+buildinfo=target/hibernate-validator-parent-${version}.buildinfo
+
+# Link to the Hibernate Validator issue tracker if any issues had to be reported:
+# issue=https://hibernate.atlassian.net/browse/HV
