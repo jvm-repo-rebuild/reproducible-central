@@ -1,0 +1,9 @@
+version=0.5.12
+ok=4
+ko=0
+ignored=0
+okFiles="org.apache.sling.distribution.journal.messages-0.5.12.pom org.apache.sling.distribution.journal.messages-0.5.12.jar org.apache.sling.distribution.journal.messages-0.5.12-source-release.zip org.apache.sling.distribution.journal.messages-0.5.12-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
