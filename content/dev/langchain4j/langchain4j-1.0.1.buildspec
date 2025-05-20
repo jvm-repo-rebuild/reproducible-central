@@ -1,0 +1,20 @@
+groupId=dev.langchain4j
+artifactId=langchain4j
+display=${groupId}:${artifactId}
+version=1.0.1
+
+gitRepo=https://github.com/langchain4j/langchain4j.git
+gitTag=${version}
+
+tool=mvn-3.9.9
+jdk=21
+newline=lf
+#umask=022
+
+# SHELL required because langchain4j/pom.xml defines a local directory as repository: it does not get mirrored in settings.xml
+command="SHELL mvn -ntp package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dspotless.skip"
+buildinfo=target/${artifactId}-aggregator-${version}.buildinfo
+execBefore="mvn -ntp clean"
+
+#diffoscope=${artifactId}-aggregator-${version}.diffoscope
+issue=
