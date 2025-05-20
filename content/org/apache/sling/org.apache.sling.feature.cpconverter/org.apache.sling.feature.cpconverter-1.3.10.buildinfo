@@ -1,0 +1,54 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Content-Package to Feature Model Converter
+group-id=org.apache.sling
+artifact-id=org.apache.sling.feature.cpconverter
+version=1.3.10
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-feature-cpconverter.git
+source.scm.tag=org.apache.sling.feature.cpconverter-1.3.10
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.27
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.feature.cpconverter-1.3.10.pom
+outputs.0.length=21726
+outputs.0.checksums.sha512=d0a1d2c489acc6b85c502b97a78f3e3e3482e68becc067accf3df7647bddac95bb9bed347ca2c6a55591cb4e3efd0be7f7e1bde1fb942954cf1480822b489a5d
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.feature.cpconverter-1.3.10.jar
+outputs.1.length=260380
+outputs.1.checksums.sha512=e380dea997244c2427a038538f3bec5bde313fa46fd8bdfcde7c26dc85219b9b29a2659a7b4c0524f25a09d1b6fe3c7665d33d383f158eb410637cd1b215e986
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.feature.cpconverter-1.3.10-source-release.zip
+outputs.2.length=2386708
+outputs.2.checksums.sha512=b50f8867794c1bcec710d586cf50abcb01e71261cdda72466defe0b43a4b669eb15abaf1b0c4b2ef27ae128c3748847286b5b7f3f9f9eda11e7be2ce8c4a17f0
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.feature.cpconverter-1.3.10.tar.gz
+outputs.3.length=8509791
+outputs.3.checksums.sha512=9d138bf256d195ad34ea61dcf0a482a390fef8836a62aa9960693f99242695b7169df015b225bb788c9436a28bade22f0add9066e03f0918a0fda6fc4279b304
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.feature.cpconverter-1.3.10.zip
+outputs.4.length=8528920
+outputs.4.checksums.sha512=4a110ba2a8b4b97393967cb5488e53d9e69541e533fa5a41f4ca2358de61fa878ee138759acf3a24347cdbf5a0af77419f8090c3b9dd2572dbef5afeae6d3d66
+
+outputs.5.groupId=org.apache.sling
+outputs.5.filename=org.apache.sling.feature.cpconverter-1.3.10-sources.jar
+outputs.5.length=184479
+outputs.5.checksums.sha512=ba914d6b569535855850d372c63ce9ee092aaf4042e6930e5a10505caa803295c4a77e1f07308e8b3f326f20ac9375406cd30f4ec048b412f28eb0ca8468516f
