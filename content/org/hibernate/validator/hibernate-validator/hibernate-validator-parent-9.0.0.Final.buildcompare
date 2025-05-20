@@ -1,0 +1,9 @@
+version=9.0.0.Final
+ok=13
+ko=0
+ignored=0
+okFiles="hibernate-validator-bom-9.0.0.Final.pom hibernate-validator-test-utils-9.0.0.Final.pom hibernate-validator-test-utils-9.0.0.Final.jar hibernate-validator-test-utils-9.0.0.Final-sources.jar hibernate-validator-9.0.0.Final.pom hibernate-validator-9.0.0.Final.jar hibernate-validator-9.0.0.Final-sources.jar hibernate-validator-annotation-processor-9.0.0.Final.pom hibernate-validator-annotation-processor-9.0.0.Final.jar hibernate-validator-annotation-processor-9.0.0.Final-sources.jar hibernate-validator-cdi-9.0.0.Final.pom hibernate-validator-cdi-9.0.0.Final.jar hibernate-validator-cdi-9.0.0.Final-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
