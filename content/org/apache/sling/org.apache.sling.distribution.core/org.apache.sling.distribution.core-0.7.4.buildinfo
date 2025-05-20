@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Distribution Core
+group-id=org.apache.sling
+artifact-id=org.apache.sling.distribution.core
+version=0.7.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-distribution-core.git
+source.scm.tag=org.apache.sling.distribution.core-0.7.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.27
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.distribution.core-0.7.4.pom
+outputs.0.length=16779
+outputs.0.checksums.sha512=cbd0389c6810c2eb3e79565abaf2ac0cf36274c976d40fc50e61908dc8d2674d5eba477e45642abee1d3230f6a4ce58851fb5bd2901d48634891ad4eb6080e96
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.distribution.core-0.7.4.jar
+outputs.1.length=509898
+outputs.1.checksums.sha512=397c85ca28e32a62fe111058025451c03d2fce307257271012788d28ad191e2c2cb9db81e3a6680a416bfed1fab2e21d3cb3f73e7e07e767c19a814dc6874819
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.distribution.core-0.7.4-source-release.zip
+outputs.2.length=499142
+outputs.2.checksums.sha512=e759823df0e31ae7f63a73527af5ede8c3298d836571a37305672c2fc4ed98d3a4aacfef7cf76fc954554881c445b226b226f68090760f71d1b7ba8598226786
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.distribution.core-0.7.4-sources.jar
+outputs.3.length=342721
+outputs.3.checksums.sha512=6e14d0f8db73bbca3d820d9a3a718645f8dafb8dac4a4f39c97d6de00934f4cc08a2148ee421ec29520910dbfa6f23a4811600284040181a8a57ee985451d08d

@@ -1,0 +1,10 @@
+version=0.7.4
+ok=3
+ko=1
+ignored=0
+okFiles="org.apache.sling.distribution.core-0.7.4.pom org.apache.sling.distribution.core-0.7.4-source-release.zip org.apache.sling.distribution.core-0.7.4-sources.jar"
+koFiles="org.apache.sling.distribution.core-0.7.4.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling/org.apache.sling.distribution.core-0.7.4.jar target/org.apache.sling.distribution.core-0.7.4.jar

@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-distribution-core.git](https://github.com/apache/sling-org-apache-sling-distribution-core.git)
 
-rebuilding **2 releases** of org.apache.sling:org.apache.sling.distribution.core:
+rebuilding **3 releases** of org.apache.sling:org.apache.sling.distribution.core:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.7.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.distribution.core/0.7.4/pom) | | | |
+| [0.7.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.distribution.core/0.7.4/pom) | [mvn jdk11](org.apache.sling.distribution.core-0.7.4.buildspec) | [result](org.apache.sling.distribution.core-0.7.4.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.distribution.core-0.7.4.buildcompare) | 1.4M |
 | [0.7.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.distribution.core/0.7.2/pom) | [mvn jdk21](org.apache.sling.distribution.core-0.7.2.buildspec) | [result](org.apache.sling.distribution.core-0.7.2.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.distribution.core-0.7.2.buildcompare) | 1.4M |
 | [0.6.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.distribution.core/0.6.0/pom) | [mvn jdk17](org.apache.sling.distribution.core-0.6.0.buildspec) | [result](org.apache.sling.distribution.core-0.6.0.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.distribution.core-0.6.0.buildcompare) [:mag:](org.apache.sling.distribution.core-0.6.0.diffoscope) | 1.3M |
 
