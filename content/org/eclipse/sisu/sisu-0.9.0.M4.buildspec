@@ -2,7 +2,7 @@ groupId=org.eclipse.sisu
 artifactId=sisu-inject
 version=0.9.0.M4
 
-display=${groupId}:transformer
+display=${groupId}:${artifactId}
 
 gitRepo=https://github.com/eclipse-sisu/sisu-project.git
 gitTag=milestones/${version}
