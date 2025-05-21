@@ -1,11 +1,5 @@
 content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.2.buildspec:7.5.3
 content/dev/langchain4j/langchain4j-1.0.0.buildspec:1.0.1
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
-content/eu/maveniverse/maven/mimir/mimir-0.7.4.buildspec:0.7.5
-content/eu/maveniverse/maven/njord/njord-0.5.3.buildspec:0.5.4
-content/eu/maveniverse/maven/toolbox/toolbox-0.8.1.buildspec:0.9.0
-content/io/airlift/airbase/airbase-260.buildspec:261
-content/org/apache/commons/parent/commons-parent-83.buildspec:84
-content/org/hibernate/orm/hibernate-core/hibernate-core-7.0.0.CR2.buildspec:7.0.0.Final
-content/org/hibernate/validator/hibernate-validator/hibernate-validator-9.0.0.CR1.buildspec:9.0.0.Final
-content/org/sonatype/nexus/archetypes/nexus-format-archetype/nexus-format-archetype-1.0.73.buildspec:1.0.74
+content/eu/maveniverse/maven/toolbox/toolbox-0.9.0.buildspec:0.10.1
+content/io/airlift/airbase/airbase-261.buildspec:262
