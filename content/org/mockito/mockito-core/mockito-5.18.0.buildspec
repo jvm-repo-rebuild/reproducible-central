@@ -1,0 +1,18 @@
+groupId=org.mockito
+artifactId=mockito-core
+display=${groupId}:${artifactId}
+version=5.18.0
+
+gitRepo=https://github.com/mockito/mockito.git
+gitTag=v${version}
+
+tool=gradle
+jdk=21
+newline=lf
+
+command="./gradlew --no-daemon clean assemble publishToMavenLocal -x test"
+buildinfo=${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/mockito/mockito/issues/3563
+# createdBy='21.0.5 (Azul Systems, Inc.)' + "-Pmanifest.createdBy='$createdBy'" in command like JUnit 5 did not work...
