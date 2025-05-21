@@ -1,0 +1,20 @@
+groupId=io.fabric8
+artifactId=kubernetes-client-project
+version=7.3.1
+
+display=${groupId}:kubernetes-client
+
+gitRepo=https://github.com/fabric8io/kubernetes-client.git
+gitTag=v${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.skipModules='io.fabric8/crd-generator-test,io.fabric8/crd-generator-test-apt'"
+execBefore="chmod a+x kubernetes-client-api/src/test/resources/*-generator"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
