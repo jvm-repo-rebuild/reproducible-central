@@ -1,0 +1,9 @@
+version=3.0.0-rc5
+ok=21
+ko=0
+ignored=0
+okFiles="jackson-datatypes-collections-3.0.0-rc5.pom jackson-datatype-guava-3.0.0-rc5.pom jackson-datatype-guava-3.0.0-rc5.jar jackson-datatype-guava-3.0.0-rc5-sources.jar jackson-datatype-guava-3.0.0-rc5.module jackson-datatype-primitive-collections-base-3.0.0-rc5.pom jackson-datatype-primitive-collections-base-3.0.0-rc5.jar jackson-datatype-primitive-collections-base-3.0.0-rc5-sources.jar jackson-datatype-primitive-collections-base-3.0.0-rc5.module jackson-datatype-hppc-3.0.0-rc5.pom jackson-datatype-hppc-3.0.0-rc5.jar jackson-datatype-hppc-3.0.0-rc5-sources.jar jackson-datatype-hppc-3.0.0-rc5.module jackson-datatype-eclipse-collections-3.0.0-rc5.pom jackson-datatype-eclipse-collections-3.0.0-rc5.jar jackson-datatype-eclipse-collections-3.0.0-rc5-sources.jar jackson-datatype-eclipse-collections-3.0.0-rc5.module jackson-datatype-pcollections-3.0.0-rc5.pom jackson-datatype-pcollections-3.0.0-rc5.jar jackson-datatype-pcollections-3.0.0-rc5-sources.jar jackson-datatype-pcollections-3.0.0-rc5.module"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
