@@ -1,0 +1,18 @@
+groupId=org.jline
+artifactId=jline
+display=${groupId}:${artifactId}
+version=3.30.3
+
+gitRepo=https://github.com/jline/jline3.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-4.0.0-rc-3
+jdk=22
+newline=lf
+umask=022
+
+command="mvn -Pbundle clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-parent-${version}.buildinfo
+
+#diffoscope=${artifactId}-parent-${version}.diffoscope
+issue=
