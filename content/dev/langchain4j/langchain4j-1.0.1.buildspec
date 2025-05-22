@@ -13,8 +13,8 @@ newline=lf
 
 # SHELL required because langchain4j/pom.xml defines a local directory as repository: it does not get mirrored in settings.xml
 command="SHELL mvn -ntp package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dspotless.skip"
-buildinfo=target/${artifactId}-aggregator-${version}.buildinfo
+buildinfo=target/${artifactId}-aggregator-${version}.buildinfo # need to manually rename the actual file after build as it is not the same: langchain4j release a few artifacts as beta
 execBefore="mvn -ntp clean"
 
-#diffoscope=${artifactId}-aggregator-${version}.diffoscope
+diffoscope=${artifactId}-aggregator-${version}.diffoscope
 issue=
