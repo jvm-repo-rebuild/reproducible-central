@@ -1,0 +1,40 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=MetricsHub Community Connectors
+group-id=org.metricshub
+artifact-id=community-connectors
+version=1.0.11
+
+# source information
+source.scm.uri=scm:git:https://github.com/metricshub/community-connectors.git
+source.scm.tag=v1.0.11
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.15
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.metricshub
+outputs.0.filename=community-connectors-1.0.11.pom
+outputs.0.length=4417
+outputs.0.checksums.sha512=6d5b8478a64c925fa7a4035b7dfd92ae712c91117a27f695d9a3f3694bb4dfdd543f3b1a5bdff00ff11cd9c3da8e7ce92a6f1e22cab80006975b416afa43fc9c
+
+outputs.1.groupId=org.metricshub
+outputs.1.filename=community-connectors-1.0.11.jar
+outputs.1.length=2618
+outputs.1.checksums.sha512=dba1817397caf269521a0a8c98ddffe0d8c8ba902c331d9542477be2939e924dbcad075d79bd929aae5d150131c12978edf8abf9ce68657aeeac740e3c7a3dd0
+# ignored community-connectors-1.0.11-site.jar
+
+outputs.2.groupId=org.metricshub
+outputs.2.filename=community-connectors-1.0.11-sources.jar
+outputs.2.length=96426
+outputs.2.checksums.sha512=25f0330b8bdad53cb0de9a0065ac3e46bec23555ba1101a38618da2e2df240c20238f72df08ce04c9c38e1be9f9eb3fc075798e64b14d9accf9e74e036071aae
