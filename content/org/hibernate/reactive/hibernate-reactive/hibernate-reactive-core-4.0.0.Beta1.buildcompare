@@ -1,0 +1,5 @@
+version=4.0.0.Beta1
+ok=3
+ko=0
+okFiles="hibernate-reactive-core-4.0.0.Beta1-sources.jar hibernate-reactive-core-4.0.0.Beta1.jar hibernate-reactive-core-4.0.0.Beta1.pom"
+koFiles=""
