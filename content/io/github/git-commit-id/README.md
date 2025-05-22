@@ -13,6 +13,7 @@ rebuilding **6 releases** of io.github.git-commit-id:git-commit-id-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [9.0.2](https://central.sonatype.com/artifact/io.github.git-commit-id/git-commit-id-maven-plugin/9.0.2/pom) | | | |
 | [9.0.1](https://central.sonatype.com/artifact/io.github.git-commit-id/git-commit-id-maven-plugin/9.0.1/pom) | | | |
 | [9.0.0](https://central.sonatype.com/artifact/io.github.git-commit-id/git-commit-id-maven-plugin/9.0.0/pom) | [mvn jdk21](git-commit-id-maven-plugin-9.0.0.buildspec) | :x: | |
 | [8.0.2](https://central.sonatype.com/artifact/io.github.git-commit-id/git-commit-id-maven-plugin/8.0.2/pom) | [mvn jdk21](git-commit-id-maven-plugin-8.0.2.buildspec) | [result](git-commit-id-maven-plugin-8.0.2.buildinfo): [3 :white_check_mark: ](git-commit-id-maven-plugin-8.0.2.buildcompare) | 112K |

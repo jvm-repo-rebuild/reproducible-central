@@ -3,14 +3,15 @@
   <groupId>tools.jackson.jr</groupId>
   <artifactId>jackson-jr-parent</artifactId>
   <versioning>
-    <latest>3.0.0-rc4</latest>
-    <release>3.0.0-rc4</release>
+    <latest>3.0.0-rc5</latest>
+    <release>3.0.0-rc5</release>
     <versions>
       <version>3.0.0-rc1</version>
       <version>3.0.0-rc2</version>
       <version>3.0.0-rc3</version>
       <version>3.0.0-rc4</version>
+      <version>3.0.0-rc5</version>
     </versions>
-    <lastUpdated>20250510233532</lastUpdated>
+    <lastUpdated>20250522165548</lastUpdated>
   </versioning>
 </metadata>

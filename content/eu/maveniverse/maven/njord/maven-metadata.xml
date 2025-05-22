@@ -3,8 +3,8 @@
   <groupId>eu.maveniverse.maven.njord</groupId>
   <artifactId>njord</artifactId>
   <versioning>
-    <latest>0.5.4</latest>
-    <release>0.5.4</release>
+    <latest>0.5.5</latest>
+    <release>0.5.5</release>
     <versions>
       <version>0.1.0</version>
       <version>0.1.1</version>
@@ -22,7 +22,8 @@
       <version>0.5.2</version>
       <version>0.5.3</version>
       <version>0.5.4</version>
+      <version>0.5.5</version>
     </versions>
-    <lastUpdated>20250520142438</lastUpdated>
+    <lastUpdated>20250522100940</lastUpdated>
   </versioning>
 </metadata>

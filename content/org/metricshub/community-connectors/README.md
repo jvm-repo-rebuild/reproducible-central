@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.metricshub:community-connectors:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.11](https://central.sonatype.com/artifact/org.metricshub/community-connectors/1.0.11/pom) | | | |
 | [1.0.10](https://central.sonatype.com/artifact/org.metricshub/community-connectors/1.0.10/pom) | [mvn jdk17](community-connectors-1.0.10.buildspec) | [result](community-connectors-1.0.10.buildinfo): [3 :white_check_mark: ](community-connectors-1.0.10.buildcompare) | 92K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

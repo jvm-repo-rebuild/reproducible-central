@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **7349 releases** of **875 projects**:
-   - **5314** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 2035 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **7354 releases** of **875 projects**:
+   - **5317** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 2037 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 875 projects, 764 have at least one fully reproducible release, 111 have none
 
 <!-- END GENERATED INTRO -->
@@ -237,7 +237,7 @@ Its objectives are to provide:
 | | [gwt-commons-lang3](content/de/knightsoft-net/gwt-commons-lang3/README.md) | 4 | 4 :white_check_mark: |
 | | [gwt-commons-validator](content/de/knightsoft-net/gwt-commons-validator/README.md) | 2 | 2 :warning: |
 | de.unentscheidbar | [migratedb](content/de/unentscheidbar/migratedb/README.md) | 9 | 8 :white_check_mark: / 1 :warning: |
-| dev.langchain4j | [langchain4j](content/dev/langchain4j/README.md) | 22 | 18 :white_check_mark: / 4 :warning: |
+| dev.langchain4j | [langchain4j](content/dev/langchain4j/README.md) | 23 | 18 :white_check_mark: / 5 :warning: |
 | dev.cdevents | [cdevents-sdk-java](content/dev/cdevents/cdevents-sdk-java/README.md) | 3 | 3 :warning: |
 | dev.notmyfault.serverlib | [ServerLib](content/dev/notmyfault/serverlib/ServerLib/README.md) | 1 | 1 :white_check_mark: |
 | dev.sigstore | [sigstore-maven-plugin](content/dev/sigstore/sigstore-maven-plugin/README.md) | 7 | 4 :white_check_mark: / 3 :warning: |
@@ -259,7 +259,7 @@ Its objectives are to provide:
 | | [mimir](content/eu/maveniverse/maven/mimir/README.md) | 22 | 21 :white_check_mark: / 1 :warning: |
 | | [nisse](content/eu/maveniverse/maven/nisse/README.md) | 14 | 14 :white_check_mark: |
 | | [njord](content/eu/maveniverse/maven/njord/README.md) | 16 | 16 :white_check_mark: |
-| | [toolbox](content/eu/maveniverse/maven/toolbox/README.md) | 64 | 63 :white_check_mark: / 1 :warning: |
+| | [toolbox](content/eu/maveniverse/maven/toolbox/README.md) | 66 | 65 :white_check_mark: / 1 :warning: |
 | | [zippy](content/eu/maveniverse/maven/zippy/README.md) | 2 | 2 :white_check_mark: |
 | | [mase](content/eu/maveniverse/maven/mase/mase/README.md) | 3 | 3 :white_check_mark: |
 | | [shared](content/eu/maveniverse/maven/shared/shared/README.md) | 6 | 6 :white_check_mark: |
@@ -270,7 +270,7 @@ Its objectives are to provide:
 | io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 73 | 72 :white_check_mark: / 1 :warning: |
 | io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 84 | 84 :warning: |
 | io.trino | [trino](content/io/trino/README.md) | 30 | 25 :white_check_mark: / 5 :warning: |
-| io.airlift | [airbase](content/io/airlift/airbase/README.md) | 107 | 102 :white_check_mark: / 5 :warning: |
+| io.airlift | [airbase](content/io/airlift/airbase/README.md) | 108 | 103 :white_check_mark: / 5 :warning: |
 | io.avaje | [avaje-http](content/io/avaje/http/README.md) | 18 | 17 :white_check_mark: / 1 :warning: |
 | | [avaje-inject](content/io/avaje/inject/README.md) | 28 | 24 :white_check_mark: / 4 :warning: |
 | | [avaje-jex](content/io/avaje/jex/README.md) | 28 | 24 :white_check_mark: / 4 :warning: |
@@ -480,7 +480,7 @@ Its objectives are to provide:
 | org.apache.jackrabbit.vault | [jackrabbit-filevault](content/org/apache/jackrabbit/filevault/README.md) | 15 | 7 :white_check_mark: / 8 :warning: |
 | org.apache.jackrabbit | [filevault-package-maven-plugin](content/org/apache/jackrabbit/filevault-package-maven-plugin/README.md) | 9 | 9 :white_check_mark: |
 | | [jackrabbit-parent](content/org/apache/jackrabbit/jackrabbit/README.md) | 16 | 5 :white_check_mark: / 11 :warning: |
-| | [jackrabbit-oak](content/org/apache/jackrabbit/oak/README.md) | 10 | 10 :warning: |
+| | [jackrabbit-oak](content/org/apache/jackrabbit/oak/README.md) | 11 | 11 :warning: |
 | org.apache.jena | [jena](content/org/apache/jena/jena/README.md) | 11 | 11 :warning: |
 | org.apache.karaf | [decanter](content/org/apache/karaf/decanter/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
 | | [karaf](content/org/apache/karaf/karaf/README.md) | 9 | 9 :warning: |
@@ -898,7 +898,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 7 | 7 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 21 | 3 :white_check_mark: / 18 :warning: |
-| **Count:** | **875** | **7349** | **5314** :white_check_mark:<br>**2035** :warning: |
+| **Count:** | **875** | **7354** | **5317** :white_check_mark:<br>**2037** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -923,7 +923,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn        14
      10 mvn        15
      14 mvn        16
-    603 mvn        17
+    604 mvn        17
       1 mvn        17.0.10
       2 mvn        17.0.11
       1 mvn        17.0.12
@@ -1026,7 +1026,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      16 mvn-3.9.8   8
       4 mvn-3.9.8  11
       5 mvn-3.9.8  16
-    223 mvn-3.9.8  17
+    224 mvn-3.9.8  17
       1 mvn-3.9.8  17.0.12
      62 mvn-3.9.8  21
      47 mvn-3.9.8  22
@@ -1035,7 +1035,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      85 mvn-3.9.9  11
     164 mvn-3.9.9  17
       2 mvn-3.9.9  18
-    202 mvn-3.9.9  21
+    205 mvn-3.9.9  21
      12 mvn-3.9.9  21.0.2
      15 mvn-3.9.9  22
       4 mvn-3.9.9  23

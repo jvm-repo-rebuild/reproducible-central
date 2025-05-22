@@ -13,6 +13,7 @@ rebuilding **37 releases** of com.fasterxml.jackson.core:jackson-annotations:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0-rc5](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-annotations/3.0-rc5/pom) | | | |
 | [3.0-rc4](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-annotations/3.0-rc4/pom) | [mvn jdk17](jackson-annotations-3.0-rc4.buildspec) | [result](jackson-annotations-3.0-rc4.buildinfo): [6 :white_check_mark: ](jackson-annotations-3.0-rc4.buildcompare) | 179K |
 | [3.0-rc3](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-annotations/3.0-rc3/pom) | [mvn jdk17](jackson-annotations-3.0-rc3.buildspec) | [result](jackson-annotations-3.0-rc3.buildinfo): [4 :white_check_mark: ](jackson-annotations-3.0-rc3.buildcompare) | 171K |
 | [3.0-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-annotations/3.0-rc2/pom) | [mvn jdk17](jackson-annotations-3.0-rc2.buildspec) | [result](jackson-annotations-3.0-rc2.buildinfo): [4 :white_check_mark: ](jackson-annotations-3.0-rc2.buildcompare) | 171K |

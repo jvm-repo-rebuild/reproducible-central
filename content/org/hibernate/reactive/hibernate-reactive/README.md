@@ -13,6 +13,8 @@ rebuilding **4 releases** of org.hibernate.reactive:hibernate-reactive-core:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.0.Beta1](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/4.0.0.Beta1/pom) | | | |
+| [3.0.0.Final](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/3.0.0.Final/pom) | | | |
 | [3.0.0.CR2](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/3.0.0.CR2/pom) | [gradle jdk17](hibernate-reactive-3.0.0.CR2.buildspec) | [result](hibernate-reactive-core-3.0.0.CR2.buildinfo): [3 :white_check_mark: ](hibernate-reactive-core-3.0.0.CR2.buildcompare) | 2.0M |
 | [3.0.0.CR1](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/3.0.0.CR1/pom) | [gradle jdk17](hibernate-reactive-3.0.0.CR1.buildspec) | [result](hibernate-reactive-core-3.0.0.CR1.buildinfo): [3 :white_check_mark: ](hibernate-reactive-core-3.0.0.CR1.buildcompare) | 2.0M |
 | [3.0.0.Beta3](https://central.sonatype.com/artifact/org.hibernate.reactive/hibernate-reactive-core/3.0.0.Beta3/pom) | [gradle jdk17](hibernate-reactive-3.0.0.Beta3.buildspec) | [result](hibernate-reactive-core-3.0.0.Beta3.buildinfo): [3 :white_check_mark: ](hibernate-reactive-core-3.0.0.Beta3.buildcompare) | 2.0M |
