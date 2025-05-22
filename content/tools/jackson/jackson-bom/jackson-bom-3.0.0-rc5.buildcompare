@@ -1,0 +1,7 @@
+version=3.0.0-rc5
+ok=2
+ko=0
+ignored=0
+okFiles="jackson-bom-3.0.0-rc5.pom jackson-base-3.0.0-rc5.pom"
+koFiles=""
+ignoredFiles=""
