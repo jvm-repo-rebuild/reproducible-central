@@ -1,0 +1,247 @@
+1 / 10 target/reference/org.eclipse.jetty.quic/jetty-quic-quiche-common-12.1.0.beta0-sources.jar jetty-core/jetty-quic/jetty-quic-quiche/jetty-quic-quiche-common/target/jetty-quic-quiche-common-12.1.0.beta0-sources.jar
+--- target/reference/org.eclipse.jetty.quic/jetty-quic-quiche-common-12.1.0.beta0-sources.jar
++++ jetty-core/jetty-quic/jetty-quic-quiche/jetty-quic-quiche-common/target/jetty-quic-quiche-common-12.1.0.beta0-sources.jar
+├── zipinfo {}
+│ @@ -1,18 +1,15 @@
+│ -Zip file size: 26383 bytes, number of entries: 27
+│ +Zip file size: 26017 bytes, number of entries: 24
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 META-INF/
+│  -rw-r--r--  2.0 unx      369 b- defN 25-May-18 23:23 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 org/eclipse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 org/eclipse/jetty/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 org/eclipse/jetty/quic/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 org/eclipse/jetty/quic/quiche/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 target/generated-sources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 target/generated-sources/annotations/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 META-INF/maven/org.eclipse.jetty.quic/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 META-INF/maven/org.eclipse.jetty.quic/jetty-quic-quiche-common/
+│  -rw-r--r--  2.0 unx      897 b- defN 25-May-18 23:23 module-info.java
+│  -rw-r--r--  2.0 unx     5367 b- defN 25-May-18 23:23 org/eclipse/jetty/quic/quiche/PemExporter.java
+│  -rw-r--r--  2.0 unx      750 b- defN 25-May-18 23:23 org/eclipse/jetty/quic/quiche/PemPaths.java
+│  -rw-r--r--  2.0 unx     7766 b- defN 25-May-18 23:23 org/eclipse/jetty/quic/quiche/Quiche.java
+│ @@ -22,8 +19,8 @@
+│  -rw-r--r--  2.0 unx     2692 b- defN 25-May-18 23:23 org/eclipse/jetty/quic/quiche/QuicheConnectionId.java
+│  -rw-r--r--  2.0 unx    11555 b- defN 25-May-18 23:23 org/eclipse/jetty/quic/quiche/QuicheConstants.java
+│  -rw-r--r--  2.0 unx    21912 b- defN 25-May-18 23:23 org/eclipse/jetty/quic/quiche/QuicheSession.java
+│  -rw-r--r--  2.0 unx    18886 b- defN 25-May-18 23:23 org/eclipse/jetty/quic/quiche/QuicheStream.java
+│  -rw-r--r--  2.0 unx     6425 b- defN 25-May-18 23:23 org/eclipse/jetty/quic/quiche/package-info.java
+│  -rw-r--r--  2.0 unx     1509 b- defN 25-May-18 23:23 META-INF/maven/org.eclipse.jetty.quic/jetty-quic-quiche-common/pom.xml
+│  -rw-r--r--  2.0 unx       88 b- defN 25-May-18 23:23 META-INF/maven/org.eclipse.jetty.quic/jetty-quic-quiche-common/pom.properties
+│ -27 files, 89004 bytes uncompressed, 22339 bytes compressed:  74.9%
+│ +24 files, 89004 bytes uncompressed, 22339 bytes compressed:  74.9%
+
+2 / 10 target/reference/org.eclipse.jetty.quic/jetty-quic-quiche-jna-12.1.0.beta0-sources.jar jetty-core/jetty-quic/jetty-quic-quiche/jetty-quic-quiche-jna/target/jetty-quic-quiche-jna-12.1.0.beta0-sources.jar
+--- target/reference/org.eclipse.jetty.quic/jetty-quic-quiche-jna-12.1.0.beta0-sources.jar
++++ jetty-core/jetty-quic/jetty-quic-quiche/jetty-quic-quiche-jna/target/jetty-quic-quiche-jna-12.1.0.beta0-sources.jar
+├── zipinfo {}
+│ @@ -1,24 +1,19 @@
+│ -Zip file size: 31732 bytes, number of entries: 48
+│ +Zip file size: 31060 bytes, number of entries: 43
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 META-INF/
+│  -rw-r--r--  2.0 unx      368 b- defN 25-May-18 23:23 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 org/eclipse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 org/eclipse/jetty/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 org/eclipse/jetty/quic/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 org/eclipse/jetty/quic/quiche/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 org/eclipse/jetty/quic/quiche/jna/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 org/eclipse/jetty/quic/quiche/jna/linux/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 org/eclipse/jetty/quic/quiche/jna/macos/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 org/eclipse/jetty/quic/quiche/jna/windows/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 target/generated-sources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 target/generated-sources/annotations/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 target/generated-test-sources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 target/generated-test-sources/test-annotations/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 META-INF/maven/org.eclipse.jetty.quic/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 META-INF/maven/org.eclipse.jetty.quic/jetty-quic-quiche-jna/
+│  -rw-r--r--  2.0 unx     1141 b- defN 25-May-18 23:23 module-info.java
+│  -rw-r--r--  2.0 unx     2587 b- defN 25-May-18 23:23 org/eclipse/jetty/quic/quiche/jna/JnaQuicheBinding.java
+│  -rw-r--r--  2.0 unx    34209 b- defN 25-May-18 23:23 org/eclipse/jetty/quic/quiche/jna/JnaQuicheConnection.java
+│ @@ -43,8 +38,8 @@
+│  -rw-r--r--  2.0 unx     1031 b- defN 25-May-18 23:23 org/eclipse/jetty/quic/quiche/jna/uint64_t_pointer.java
+│  -rw-r--r--  2.0 unx      812 b- defN 25-May-18 23:23 org/eclipse/jetty/quic/quiche/jna/uint8_t.java
+│  -rw-r--r--  2.0 unx     1032 b- defN 25-May-18 23:23 org/eclipse/jetty/quic/quiche/jna/uint8_t_pointer.java
+│  -rw-r--r--  2.0 unx     3590 b- defN 25-May-18 23:23 org/eclipse/jetty/quic/quiche/jna/windows/netinet_windows.java
+│  -rw-r--r--  2.0 unx       51 b- defN 25-May-18 23:23 META-INF/services/org.eclipse.jetty.quic.quiche.QuicheBinding
+│  -rw-r--r--  2.0 unx     1741 b- defN 25-May-18 23:23 META-INF/maven/org.eclipse.jetty.quic/jetty-quic-quiche-jna/pom.xml
+│  -rw-r--r--  2.0 unx       85 b- defN 25-May-18 23:23 META-INF/maven/org.eclipse.jetty.quic/jetty-quic-quiche-jna/pom.properties
+│ -48 files, 91796 bytes uncompressed, 24074 bytes compressed:  73.8%
+│ +43 files, 91796 bytes uncompressed, 24074 bytes compressed:  73.8%
+
+3 / 10 target/reference/org.eclipse.jetty.demos/jetty-servlet4-demo-jspc-webapp-12.1.0.beta0.war jetty-demos/jetty-servlet4-demos/jetty-servlet4-demo-jspc-webapp/target/jetty-servlet4-demo-jspc-webapp-12.1.0.beta0.war
+--- target/reference/org.eclipse.jetty.demos/jetty-servlet4-demo-jspc-webapp-12.1.0.beta0.war
++++ jetty-demos/jetty-servlet4-demos/jetty-servlet4-demo-jspc-webapp/target/jetty-servlet4-demo-jspc-webapp-12.1.0.beta0.war
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 77586 bytes, number of entries: 52
+│ +Zip file size: 77594 bytes, number of entries: 52
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 META-INF/
+│  -rw-r--r--  2.0 unx     1129 b- defN 25-May-18 23:23 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 WEB-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-18 23:23 WEB-INF/classes/
+│ @@ -20,18 +20,18 @@
+│  -rw-r--r--  2.0 unx     6352 b- defN 25-May-18 23:23 WEB-INF/classes/org/apache/jsp/dump_jsp.class
+│  -rw-r--r--  2.0 unx     5699 b- defN 25-May-18 23:23 WEB-INF/classes/org/apache/jsp/dump_jsp.java
+│  -rw-r--r--  2.0 unx     6233 b- defN 25-May-18 23:23 WEB-INF/classes/org/apache/jsp/expr_jsp.class
+│  -rw-r--r--  2.0 unx     6274 b- defN 25-May-18 23:23 WEB-INF/classes/org/apache/jsp/expr_jsp.java
+│ --rw-r--r--  2.0 unx     8923 b- defN 25-May-18 23:23 WEB-INF/classes/org/apache/jsp/foo/foo_jsp.class
+│ --rw-r--r--  2.0 unx    10828 b- defN 25-May-18 23:23 WEB-INF/classes/org/apache/jsp/foo/foo_jsp.java
+│ --rw-r--r--  2.0 unx     8920 b- defN 25-May-18 23:23 WEB-INF/classes/org/apache/jsp/jstl_jsp.class
+│ --rw-r--r--  2.0 unx    10812 b- defN 25-May-18 23:23 WEB-INF/classes/org/apache/jsp/jstl_jsp.java
+│ +-rw-r--r--  2.0 unx     8929 b- defN 25-May-18 23:23 WEB-INF/classes/org/apache/jsp/foo/foo_jsp.class
+│ +-rw-r--r--  2.0 unx    10834 b- defN 25-May-18 23:23 WEB-INF/classes/org/apache/jsp/foo/foo_jsp.java
+│ +-rw-r--r--  2.0 unx     8926 b- defN 25-May-18 23:23 WEB-INF/classes/org/apache/jsp/jstl_jsp.class
+│ +-rw-r--r--  2.0 unx    10818 b- defN 25-May-18 23:23 WEB-INF/classes/org/apache/jsp/jstl_jsp.java
+│  -rw-r--r--  2.0 unx     6634 b- defN 25-May-18 23:23 WEB-INF/classes/org/apache/jsp/tag/web/panel_tag.class
+│  -rw-r--r--  2.0 unx     6467 b- defN 25-May-18 23:23 WEB-INF/classes/org/apache/jsp/tag/web/panel_tag.java
+│  -rw-r--r--  2.0 unx     3108 b- defN 25-May-18 23:23 WEB-INF/classes/org/apache/jsp/tag2_jsp$Helper.class
+│  -rw-r--r--  2.0 unx     6626 b- defN 25-May-18 23:23 WEB-INF/classes/org/apache/jsp/tag2_jsp.class
+│ @@ -47,8 +47,8 @@
+│  -rw-r--r--  2.0 unx     1744 b- defN 25-May-18 23:23 index.html
+│  -rw-r--r--  2.0 unx     4787 b- defN 25-May-18 23:23 small_powered_by.gif
+│  -rw-r--r--  2.0 unx     4812 b- defN 25-May-18 23:23 META-INF/maven/org.eclipse.jetty.demos/jetty-servlet4-demo-jspc-webapp/pom.xml
+│  -rw-r--r--  2.0 unx       96 b- defN 25-May-18 23:23 META-INF/maven/org.eclipse.jetty.demos/jetty-servlet4-demo-jspc-webapp/pom.properties
+│ -52 files, 195044 bytes uncompressed, 69854 bytes compressed:  64.2%
+│ +52 files, 195068 bytes uncompressed, 69862 bytes compressed:  64.2%
+├── WEB-INF/classes/org/apache/jsp/foo/foo_jsp.java
+│ @@ -18,16 +18,16 @@
+│    private static final javax.servlet.jsp.JspFactory _jspxFactory =
+│            javax.servlet.jsp.JspFactory.getDefaultFactory();
+│  
+│    private static java.util.Map<java.lang.String,java.lang.Long> _jspx_dependants;
+│  
+│    static {
+│      _jspx_dependants = new java.util.HashMap<java.lang.String,java.lang.Long>(2);
+│ -    _jspx_dependants.put("jar:file:/home/olamy/.m2/repository/org/glassfish/web/javax.servlet.jsp.jstl/1.2.5/javax.servlet.jsp.jstl-1.2.5.jar!/META-INF/c.tld", Long.valueOf(1531441620000L));
+│ -    _jspx_dependants.put("file:/home/olamy/.m2/repository/org/glassfish/web/javax.servlet.jsp.jstl/1.2.5/javax.servlet.jsp.jstl-1.2.5.jar", Long.valueOf(1685702838380L));
+│ +    _jspx_dependants.put("jar:file:/var/maven/.m2/repository-022/org/glassfish/web/javax.servlet.jsp.jstl/1.2.5/javax.servlet.jsp.jstl-1.2.5.jar!/META-INF/c.tld", Long.valueOf(1531477620000L));
+│ +    _jspx_dependants.put("file:/var/maven/.m2/repository-022/org/glassfish/web/javax.servlet.jsp.jstl/1.2.5/javax.servlet.jsp.jstl-1.2.5.jar", Long.valueOf(1531448975000L));
+│    }
+│  
+│    private static final java.util.Set<java.lang.String> _jspx_imports_packages;
+│  
+│    private static final java.util.Set<java.lang.String> _jspx_imports_classes;
+│  
+│    static {
+...
+├── WEB-INF/web.xml
+│ ├── WEB-INF/web.xml
+│ │┄ Ordering differences only
+│ │ @@ -13,32 +13,24 @@
+│ │      <param-name>org.eclipse.jetty.ee8.jsp.precompiled</param-name>
+│ │      <param-value>true</param-value>
+│ │    </context-param>
+│ │    <!--
+│ │  Automatically created by Apache Tomcat JspC.
+│ │  -->
+│ │    <servlet>
+│ │ -    <servlet-name>org.apache.jsp.dump_jsp</servlet-name>
+│ │ -    <servlet-class>org.apache.jsp.dump_jsp</servlet-class>
+│ │ -  </servlet>
+│ │ -  <servlet>
+│ │ -    <servlet-name>org.apache.jsp.expr_jsp</servlet-name>
+│ │ -    <servlet-class>org.apache.jsp.expr_jsp</servlet-class>
+│ │ -  </servlet>
+│ │ -  <servlet>
+│ │      <servlet-name>org.apache.jsp.bean2_jsp</servlet-name>
+│ │      <servlet-class>org.apache.jsp.bean2_jsp</servlet-class>
+│ │    </servlet>
+│ │    <servlet>
+│ │ -    <servlet-name>org.apache.jsp.bean1_jsp</servlet-name>
+│ │ -    <servlet-class>org.apache.jsp.bean1_jsp</servlet-class>
+│ │ +    <servlet-name>org.apache.jsp.dump_jsp</servlet-name>
+│ │ +    <servlet-class>org.apache.jsp.dump_jsp</servlet-class>
+│ │    </servlet>
+│ │    <servlet>
+│ │ -    <servlet-name>org.apache.jsp.tag2_jsp</servlet-name>
+│ │ -    <servlet-class>org.apache.jsp.tag2_jsp</servlet-class>
+│ │ +    <servlet-name>org.apache.jsp.expr_jsp</servlet-name>
+│ │ +    <servlet-class>org.apache.jsp.expr_jsp</servlet-class>
+│ │    </servlet>
+│ │    <servlet>
+│ │      <servlet-name>org.apache.jsp.tag_jsp</servlet-name>
+│ │      <servlet-class>org.apache.jsp.tag_jsp</servlet-class>
+│ │    </servlet>
+│ │    <servlet>
+│ │      <servlet-name>org.apache.jsp.foo.foo_jsp</servlet-name>
+│ │ @@ -48,33 +40,33 @@
+│ │      <servlet-name>org.apache.jsp.jstl_jsp</servlet-name>
+│ │      <servlet-class>org.apache.jsp.jstl_jsp</servlet-class>
+│ │    </servlet>
+│ │    <servlet>
+│ │      <servlet-name>org.apache.jsp.tagfile_jsp</servlet-name>
+│ │      <servlet-class>org.apache.jsp.tagfile_jsp</servlet-class>
+│ │    </servlet>
+│ │ -  <servlet-mapping>
+│ │ -    <servlet-name>org.apache.jsp.dump_jsp</servlet-name>
+│ │ -    <url-pattern>/dump.jsp</url-pattern>
+│ │ -  </servlet-mapping>
+│ │ -  <servlet-mapping>
+│ │ -    <servlet-name>org.apache.jsp.expr_jsp</servlet-name>
+│ │ -    <url-pattern>/expr.jsp</url-pattern>
+│ │ -  </servlet-mapping>
+│ │ +  <servlet>
+│ │ +    <servlet-name>org.apache.jsp.tag2_jsp</servlet-name>
+│ │ +    <servlet-class>org.apache.jsp.tag2_jsp</servlet-class>
+│ │ +  </servlet>
+│ │ +  <servlet>
+│ │ +    <servlet-name>org.apache.jsp.bean1_jsp</servlet-name>
+│ │ +    <servlet-class>org.apache.jsp.bean1_jsp</servlet-class>
+│ │ +  </servlet>
+│ │    <servlet-mapping>
+│ │      <servlet-name>org.apache.jsp.bean2_jsp</servlet-name>
+│ │      <url-pattern>/bean2.jsp</url-pattern>
+│ │    </servlet-mapping>
+│ │    <servlet-mapping>
+│ │ -    <servlet-name>org.apache.jsp.bean1_jsp</servlet-name>
+│ │ -    <url-pattern>/bean1.jsp</url-pattern>
+│ │ +    <servlet-name>org.apache.jsp.dump_jsp</servlet-name>
+│ │ +    <url-pattern>/dump.jsp</url-pattern>
+│ │    </servlet-mapping>
+│ │    <servlet-mapping>
+│ │ -    <servlet-name>org.apache.jsp.tag2_jsp</servlet-name>
+│ │ -    <url-pattern>/tag2.jsp</url-pattern>
+│ │ +    <servlet-name>org.apache.jsp.expr_jsp</servlet-name>
+│ │ +    <url-pattern>/expr.jsp</url-pattern>
+│ │    </servlet-mapping>
+│ │    <servlet-mapping>
+│ │      <servlet-name>org.apache.jsp.tag_jsp</servlet-name>
+│ │      <url-pattern>/tag.jsp</url-pattern>
+│ │    </servlet-mapping>
+│ │    <servlet-mapping>
+│ │      <servlet-name>org.apache.jsp.foo.foo_jsp</servlet-name>
+│ │ @@ -84,11 +76,19 @@
+│ │      <servlet-name>org.apache.jsp.jstl_jsp</servlet-name>
+│ │      <url-pattern>/jstl.jsp</url-pattern>
+│ │    </servlet-mapping>
+│ │    <servlet-mapping>
+│ │      <servlet-name>org.apache.jsp.tagfile_jsp</servlet-name>
+│ │      <url-pattern>/tagfile.jsp</url-pattern>
+│ │    </servlet-mapping>
+│ │ +  <servlet-mapping>
+│ │ +    <servlet-name>org.apache.jsp.tag2_jsp</servlet-name>
+│ │ +    <url-pattern>/tag2.jsp</url-pattern>
+│ │ +  </servlet-mapping>
+│ │ +  <servlet-mapping>
+│ │ +    <servlet-name>org.apache.jsp.bean1_jsp</servlet-name>
+│ │ +    <url-pattern>/bean1.jsp</url-pattern>
+│ │ +  </servlet-mapping>
+│ │    <!--
+│ │  End of content automatically created by Apache Tomcat JspC.
+│ │  -->
+│ │  </web-app>
+
+# same issue on JSP .java+.class + WEB-INF/web.xml
+4 / 10 target/reference/org.eclipse.jetty.demos/jetty-servlet4-demo-jspc-webapp-12.1.0.beta0-webbundle-ee8.jar jetty-demos/jetty-servlet4-demos/jetty-servlet4-demo-jspc-webapp/target/jetty-servlet4-demo-jspc-webapp-12.1.0.beta0-webbundle-ee8.jar
+5 / 10 target/reference/org.eclipse.jetty.demos/jetty-servlet5-demo-jspc-webapp-12.1.0.beta0.war jetty-demos/jetty-servlet5-demos/jetty-servlet5-demo-jspc-webapp/target/jetty-servlet5-demo-jspc-webapp-12.1.0.beta0.war
+6 / 10 target/reference/org.eclipse.jetty.demos/jetty-servlet5-demo-jspc-webapp-12.1.0.beta0-webbundle-ee9.jar jetty-demos/jetty-servlet5-demos/jetty-servlet5-demo-jspc-webapp/target/jetty-servlet5-demo-jspc-webapp-12.1.0.beta0-webbundle-ee9.jar
+7 / 10 target/reference/org.eclipse.jetty.demos/jetty-servlet6-demo-jspc-webapp-12.1.0.beta0.war jetty-demos/jetty-servlet6-demos/jetty-servlet6-demo-jspc-webapp/target/jetty-servlet6-demo-jspc-webapp-12.1.0.beta0.war
+8 / 10 target/reference/org.eclipse.jetty.demos/jetty-servlet6-demo-jspc-webapp-12.1.0.beta0-webbundle-ee10.jar jetty-demos/jetty-servlet6-demos/jetty-servlet6-demo-jspc-webapp/target/jetty-servlet6-demo-jspc-webapp-12.1.0.beta0-webbundle-ee10.jar
+9 / 10 target/reference/org.eclipse.jetty.demos/jetty-servlet6-demo-jspc-6-1-webapp-12.1.0.beta0.war jetty-demos/jetty-servlet6-demos/jetty-servlet6-demo-jspc-6-1-webapp/target/jetty-servlet6-demo-jspc-6-1-webapp-12.1.0.beta0.war
+10 / 10 target/reference/org.eclipse.jetty.demos/jetty-servlet6-demo-jspc-6-1-webapp-12.1.0.beta0-webbundle-ee11.jar jetty-demos/jetty-servlet6-demos/jetty-servlet6-demo-jspc-6-1-webapp/target/jetty-servlet6-demo-jspc-6-1-webapp-12.1.0.beta0-webbundle-ee11.jar
