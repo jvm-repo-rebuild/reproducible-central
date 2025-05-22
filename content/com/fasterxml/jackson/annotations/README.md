@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/FasterXML/jackson-annotations.git](https://github.com/FasterXML/jackson-annotations.git)
 
-rebuilding **37 releases** of com.fasterxml.jackson.core:jackson-annotations:
-- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **38 releases** of com.fasterxml.jackson.core:jackson-annotations:
+- **22** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 16 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.0-rc5](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-annotations/3.0-rc5/pom) | | | |
+| [3.0-rc5](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-annotations/3.0-rc5/pom) | [mvn jdk17](jackson-annotations-3.0-rc5.buildspec) | [result](jackson-annotations-3.0-rc5.buildinfo): [6 :white_check_mark: ](jackson-annotations-3.0-rc5.buildcompare) | 180K |
 | [3.0-rc4](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-annotations/3.0-rc4/pom) | [mvn jdk17](jackson-annotations-3.0-rc4.buildspec) | [result](jackson-annotations-3.0-rc4.buildinfo): [6 :white_check_mark: ](jackson-annotations-3.0-rc4.buildcompare) | 179K |
 | [3.0-rc3](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-annotations/3.0-rc3/pom) | [mvn jdk17](jackson-annotations-3.0-rc3.buildspec) | [result](jackson-annotations-3.0-rc3.buildinfo): [4 :white_check_mark: ](jackson-annotations-3.0-rc3.buildcompare) | 171K |
 | [3.0-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-annotations/3.0-rc2/pom) | [mvn jdk17](jackson-annotations-3.0-rc2.buildspec) | [result](jackson-annotations-3.0-rc2.buildinfo): [4 :white_check_mark: ](jackson-annotations-3.0-rc2.buildcompare) | 171K |
