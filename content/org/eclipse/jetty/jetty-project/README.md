@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/eclipse/jetty.project.git](https://github.com/eclipse/jetty.project.git)
 
-<details><summary>This project defines 336 modules:</summary>
+<details><summary>This project defines 341 modules:</summary>
 
 * [org.eclipse.jetty.build:build](https://central.sonatype.com/artifact/org.eclipse.jetty.build/build/overview)
 * [org.eclipse.jetty.compression:jetty-compression](https://central.sonatype.com/artifact/org.eclipse.jetty.compression/jetty-compression/overview)
@@ -279,14 +279,19 @@ Source code: [https://github.com/eclipse/jetty.project.git](https://github.com/e
 * [org.eclipse.jetty.memcached:jetty-memcached](https://central.sonatype.com/artifact/org.eclipse.jetty.memcached/jetty-memcached/overview)
 * [org.eclipse.jetty.memcached:jetty-memcached-sessions](https://central.sonatype.com/artifact/org.eclipse.jetty.memcached/jetty-memcached-sessions/overview)
 * [org.eclipse.jetty.quic:jetty-quic](https://central.sonatype.com/artifact/org.eclipse.jetty.quic/jetty-quic/overview)
+* [org.eclipse.jetty.quic:jetty-quic-api](https://central.sonatype.com/artifact/org.eclipse.jetty.quic/jetty-quic-api/overview)
 * [org.eclipse.jetty.quic:jetty-quic-client](https://central.sonatype.com/artifact/org.eclipse.jetty.quic/jetty-quic-client/overview)
 * [org.eclipse.jetty.quic:jetty-quic-common](https://central.sonatype.com/artifact/org.eclipse.jetty.quic/jetty-quic-common/overview)
 * [org.eclipse.jetty.quic:jetty-quic-quiche](https://central.sonatype.com/artifact/org.eclipse.jetty.quic/jetty-quic-quiche/overview)
+* [org.eclipse.jetty.quic:jetty-quic-quiche-client](https://central.sonatype.com/artifact/org.eclipse.jetty.quic/jetty-quic-quiche-client/overview)
 * [org.eclipse.jetty.quic:jetty-quic-quiche-common](https://central.sonatype.com/artifact/org.eclipse.jetty.quic/jetty-quic-quiche-common/overview)
 * [org.eclipse.jetty.quic:jetty-quic-quiche-foreign](https://central.sonatype.com/artifact/org.eclipse.jetty.quic/jetty-quic-quiche-foreign/overview)
 * [org.eclipse.jetty.quic:jetty-quic-quiche-foreign-incubator](https://central.sonatype.com/artifact/org.eclipse.jetty.quic/jetty-quic-quiche-foreign-incubator/overview)
 * [org.eclipse.jetty.quic:jetty-quic-quiche-jna](https://central.sonatype.com/artifact/org.eclipse.jetty.quic/jetty-quic-quiche-jna/overview)
+* [org.eclipse.jetty.quic:jetty-quic-quiche-server](https://central.sonatype.com/artifact/org.eclipse.jetty.quic/jetty-quic-quiche-server/overview)
 * [org.eclipse.jetty.quic:jetty-quic-server](https://central.sonatype.com/artifact/org.eclipse.jetty.quic/jetty-quic-server/overview)
+* [org.eclipse.jetty.quic:jetty-quic-tests](https://central.sonatype.com/artifact/org.eclipse.jetty.quic/jetty-quic-tests/overview)
+* [org.eclipse.jetty.quic:jetty-quic-util](https://central.sonatype.com/artifact/org.eclipse.jetty.quic/jetty-quic-util/overview)
 * [org.eclipse.jetty.websocket:jetty-websocket](https://central.sonatype.com/artifact/org.eclipse.jetty.websocket/jetty-websocket/overview)
 * [org.eclipse.jetty.websocket:jetty-websocket-core-client](https://central.sonatype.com/artifact/org.eclipse.jetty.websocket/jetty-websocket-core-client/overview)
 * [org.eclipse.jetty.websocket:jetty-websocket-core-common](https://central.sonatype.com/artifact/org.eclipse.jetty.websocket/jetty-websocket-core-common/overview)
@@ -347,13 +352,13 @@ Source code: [https://github.com/eclipse/jetty.project.git](https://github.com/e
 * [org.eclipse.jetty:jetty-xml](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-xml/overview)
 </details>
 
-rebuilding **24 releases** of org.eclipse.jetty:jetty-project:
+rebuilding **25 releases** of org.eclipse.jetty:jetty-project:
 - **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [12.1.0.beta0](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.beta0/pom) | | | |
+| [12.1.0.beta0](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.beta0/pom) | [mvn jdk22](jetty-project-12.1.0.beta0.buildspec) | [result](jetty-project-12.1.0.beta0.buildinfo): [932 :white_check_mark:  10 :warning:](jetty-project-12.1.0.beta0.buildcompare) [:mag:](jetty-project-12.1.0.beta0.diffoscope) | 273M |
 | [12.1.0.alpha2](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.alpha2/pom) | [mvn jdk22](jetty-project-12.1.0.alpha2.buildspec) | [result](jetty-project-12.1.0.alpha2.buildinfo): [929 :white_check_mark:  8 :warning:](jetty-project-12.1.0.alpha2.buildcompare) [:mag:](jetty-project-12.1.0.alpha2.diffoscope) | 322M |
 | [12.1.0.alpha1](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.alpha1/pom) | [mvn jdk22](jetty-project-12.1.0.alpha1.buildspec) | [result](jetty-project-12.1.0.alpha1.buildinfo): [889 :white_check_mark: ](jetty-project-12.1.0.alpha1.buildcompare) | 308M |
 | [12.1.0.alpha0](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.alpha0/pom) | [mvn jdk22](jetty-project-12.1.0.alpha0.buildspec) | [result](jetty-project-12.1.0.alpha0.buildinfo): [890 :white_check_mark: ](jetty-project-12.1.0.alpha0.buildcompare) | 308M |
