@@ -1,0 +1,16 @@
+groupId=io.github.cbarlin
+artifactId=aru-parent
+display=${groupId}:advanced-record-utils
+version=0.1.1
+
+gitRepo=https://github.com/cbarlin/advanced-record-utils
+gitTag=${version}
+
+tool=mvn
+jdk=21
+newline=lf
+
+command="mvn clean package -Prelease -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
