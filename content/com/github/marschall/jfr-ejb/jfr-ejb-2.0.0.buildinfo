@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JFR EJB
+group-id=com.github.marschall
+artifact-id=jfr-ejb
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:marschall/jfr-ejb.git
+source.scm.tag=2.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.15
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.github.marschall
+outputs.0.filename=jfr-ejb-2.0.0.pom
+outputs.0.length=7526
+outputs.0.checksums.sha512=02650a111f4df83493939e4de5eef2fdf8d0453f4f001ac506065f41edb781fef4828d1ae9bc5c3c1c4b668a62af90f287914350d436361f05c0e7237b747d49
+
+outputs.1.groupId=com.github.marschall
+outputs.1.filename=jfr-ejb-2.0.0.jar
+outputs.1.length=5837
+outputs.1.checksums.sha512=606ac4c6f007aee56a2180e210e483077e09e346cf41958acbfddf4c4fef596c3537deef4b6dad9bc2614b24e06d49b0f4780b424ba8573be34cc158973bd05e
+
+outputs.2.groupId=com.github.marschall
+outputs.2.filename=jfr-ejb-2.0.0-sources.jar
+outputs.2.length=4156
+outputs.2.checksums.sha512=4a8ffa7e5dc5ec8fbd0750b151f11bf5b595b6b2ab46d69b2d31879f8da88daa0f1a679d20e8341a2cd9929b37d7b30e8896b2965d896e18de4d1334358b57ae
