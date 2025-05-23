@@ -1,0 +1,18 @@
+groupId=com.github.nbbrd.nbbrd-maven-tools
+artifactId=nbbrd-maven-tools
+display=com.github.nbbrd.*:${artifactId}
+version=1.0.3
+
+gitRepo=https://github.com/nbbrd/${artifactId}.git
+gitTag=v${version}
+
+tool=mvn
+jdk=21
+newline=lf
+umask=022
+
+command="mvn -Pbase-deploy clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
