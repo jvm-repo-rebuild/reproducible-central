@@ -7,7 +7,7 @@ gitRepo=https://github.com/marschall/${artifactId}.git
 gitTag=${version}
 
 tool=mvn
-jdk=17
+jdk=11
 newline=lf
 #umask=022
 
