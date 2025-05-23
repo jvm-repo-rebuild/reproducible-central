@@ -1,0 +1,18 @@
+groupId=net.osslabz
+artifactId=turnstile-siteverify-client
+display=${groupId}:${artifactId}
+version=0.2.0
+
+gitRepo=https://github.com/osslabz/${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=21
+newline=lf
+#umask=022
+
+command="mvn -Posslabz-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
