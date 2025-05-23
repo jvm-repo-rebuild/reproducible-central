@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.commons:commons-exec:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.5.0](https://central.sonatype.com/artifact/org.apache.commons/commons-exec/1.5.0/pom) | | | |
 | [1.4.0](https://central.sonatype.com/artifact/org.apache.commons/commons-exec/1.4.0/pom) | [mvn jdk21](commons-exec-1.4.0.buildspec) | [result](commons-exec-1.4.0.buildinfo): [5 :white_check_mark: ](commons-exec-1.4.0.buildcompare) | 246K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
