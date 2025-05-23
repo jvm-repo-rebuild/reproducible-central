@@ -1,0 +1,9 @@
+version=0.2.2
+ok=13
+ko=0
+ignored=0
+okFiles="aru-parent-0.2.2.pom advanced-record-utils-annotations-0.2.2.pom advanced-record-utils-annotations-0.2.2.jar advanced-record-utils-annotations-0.2.2-sources.jar aru-prism-prison-0.2.2.pom aru-prism-prison-0.2.2.jar aru-prism-prison-0.2.2-sources.jar aru-processor-core-0.2.2.pom aru-processor-core-0.2.2.jar aru-processor-core-0.2.2-sources.jar advanced-record-utils-processor-0.2.2.pom advanced-record-utils-processor-0.2.2.jar advanced-record-utils-processor-0.2.2-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="24 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
