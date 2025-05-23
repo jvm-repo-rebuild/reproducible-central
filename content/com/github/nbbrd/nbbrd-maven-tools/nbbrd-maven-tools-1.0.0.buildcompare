@@ -1,0 +1,9 @@
+version=1.0.0
+ok=7
+ko=0
+ignored=0
+okFiles="nbbrd-maven-tools-1.0.0.pom compatibility-api-1.0.0.pom compatibility-api-1.0.0.jar compatibility-api-1.0.0-sources.jar compatibility-maven-plugin-1.0.0.pom compatibility-maven-plugin-1.0.0.jar compatibility-maven-plugin-1.0.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
