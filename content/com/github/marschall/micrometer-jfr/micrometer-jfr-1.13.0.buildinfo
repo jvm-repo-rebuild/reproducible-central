@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Micrometer JFR
+group-id=com.github.marschall
+artifact-id=micrometer-jfr
+version=1.13.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:marschall/micrometer-jfr.git
+source.scm.tag=1.13.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.13
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.github.marschall
+outputs.0.filename=micrometer-jfr-1.13.0.pom
+outputs.0.length=1787
+outputs.0.checksums.sha512=c1b313c7cbba58e6fb8727936189c541906dd5c11912cc58daf52dd6ca128bb4525ee7a0e099b0688e8adc05eb010cc795db6fa8b8290f69d9b75ecd30df4970
+
+outputs.1.groupId=com.github.marschall
+outputs.1.filename=micrometer-jfr-1.13.0.jar
+outputs.1.length=72181
+outputs.1.checksums.sha512=45f049ea1206d66e79bdf04671f9df9ebbf9b4a501609ee43f087980440f0cb4ad8dbc57d07794c1e0fb14a7166ee5e1f407df7796531485684ac6321f7e88cd
+
+outputs.2.groupId=com.github.marschall
+outputs.2.filename=micrometer-jfr-1.13.0-sources.jar
+outputs.2.length=32822
+outputs.2.checksums.sha512=95b0b4160b15302a6fe72af4f55b67c012c7905f28bacb94b0d3c53642b8833cb8f4a54501420d3f45eebc149690690991ddbece200e642b77dcf7065829c071
