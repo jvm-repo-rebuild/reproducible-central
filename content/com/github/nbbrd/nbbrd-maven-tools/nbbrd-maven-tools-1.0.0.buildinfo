@@ -1,0 +1,66 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=nbbrd-maven-tools
+group-id=com.github.nbbrd.nbbrd-maven-tools
+artifact-id=nbbrd-maven-tools
+version=1.0.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/nbbrd/nbbrd-maven-tools.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.7
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.aggregate.artifact-id=compatibility-maven-plugin
+
+# aggregated output
+
+outputs.0.coordinates=com.github.nbbrd.nbbrd-maven-tools:nbbrd-maven-tools
+
+outputs.0.0.groupId=com.github.nbbrd.nbbrd-maven-tools
+outputs.0.0.filename=nbbrd-maven-tools-1.0.0.pom
+outputs.0.0.length=29224
+outputs.0.0.checksums.sha512=a25654f23c418dcd6a97178768a34ac1bd9e6269dda79a0cc530c56effba85e6a92a7f3399e5872e37baa1ed5f3784db658cc81c1fd73e284afe434d95c6f1bb
+
+outputs.1.coordinates=com.github.nbbrd.nbbrd-maven-tools:compatibility-api
+
+outputs.1.0.groupId=com.github.nbbrd.nbbrd-maven-tools
+outputs.1.0.filename=compatibility-api-1.0.0.pom
+outputs.1.0.length=2663
+outputs.1.0.checksums.sha512=869f06584049228a4430b71fef32654b962daa39d2fde9bd0b365fbd8d236d2381c555c18dca1e3ad01f08986d13f408ce1d2d00b4a497ee52704800c1a43e83
+
+outputs.1.1.groupId=com.github.nbbrd.nbbrd-maven-tools
+outputs.1.1.filename=compatibility-api-1.0.0.jar
+outputs.1.1.length=108103
+outputs.1.1.checksums.sha512=e0d7340391d08fcf3fc43d2e40c6cdd44bdacf8cee9f81c731708f6a3d7e627d7a27cd70d7319a01047010a8406c070e15371d0c3d622155126abb50af272e64
+
+outputs.1.2.groupId=com.github.nbbrd.nbbrd-maven-tools
+outputs.1.2.filename=compatibility-api-1.0.0-sources.jar
+outputs.1.2.length=30252
+outputs.1.2.checksums.sha512=b3aa8e96f98dcfb10aaf4e8cb9804555dffe126c6312ed73526198d1849043f0e49e12727d6d04dd70f9634df05de0aa2c26bced892988af38eb3bcf651aee57
+
+outputs.2.coordinates=com.github.nbbrd.nbbrd-maven-tools:compatibility-maven-plugin
+
+outputs.2.0.groupId=com.github.nbbrd.nbbrd-maven-tools
+outputs.2.0.filename=compatibility-maven-plugin-1.0.0.pom
+outputs.2.0.length=3011
+outputs.2.0.checksums.sha512=f120b801795cb772e534906eae9217e601d7b6209b38dd0ef7e2c841811a18f8dc6dc25ce6e490124f5a150bef17658ecbe0d977d5f32d519addbb9891bcff13
+
+outputs.2.1.groupId=com.github.nbbrd.nbbrd-maven-tools
+outputs.2.1.filename=compatibility-maven-plugin-1.0.0.jar
+outputs.2.1.length=26203
+outputs.2.1.checksums.sha512=e14940547e3cd0c7fe030cf3dba5ec47f5518f68a5dbf5562326ad2b1a62fc3d3baef0ce776ca3d578ab279c1e959e1400abe2c970f0323d1de6c19f1bfa1e08
+
+outputs.2.2.groupId=com.github.nbbrd.nbbrd-maven-tools
+outputs.2.2.filename=compatibility-maven-plugin-1.0.0-sources.jar
+outputs.2.2.length=10813
+outputs.2.2.checksums.sha512=36d1e032e87e96f0113c160ecb4e0c807e495e1c8db7b0fc7ea6a3b7f52d33a2d751c3d061f9d21febcc2c43ba1b78d1a0106d9f0b1f3bee703f617a6affd587
