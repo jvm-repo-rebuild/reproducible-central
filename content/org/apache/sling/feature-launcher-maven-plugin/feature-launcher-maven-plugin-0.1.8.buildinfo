@@ -1,0 +1,50 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Feature Launcher Maven Plugin
+group-id=org.apache.sling
+artifact-id=feature-launcher-maven-plugin
+version=0.1.8
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-feature-launcher-maven-plugin.git
+source.scm.tag=feature-launcher-maven-plugin-0.1.8
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.7
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.3.9
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=feature-launcher-maven-plugin-0.1.8.pom
+outputs.0.length=8258
+outputs.0.checksums.sha512=7ab22f61333d3470c0839f721dfcca8e62a65be680010daae4e24eed21d0e987c1456e705a275eb56cb1e2818b83dd50c3d6bffaaf3e4e8c06a8e48953bb71a2
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=feature-launcher-maven-plugin-0.1.8.jar
+outputs.1.length=35756
+outputs.1.checksums.sha512=5574a2c91508c0759c9a83693cdbb7186505df11d7eee06158cc3717d8703d0f7665cc282c87944d822ecff21f6f24f15605a27a5ff13f04935329e8cb1465c2
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=feature-launcher-maven-plugin-0.1.8-source-release.zip
+outputs.2.length=51131
+outputs.2.checksums.sha512=67f7806839c780a51d3e87dbd7136c454f9f82b7ba105383ad93cf91696c04aa74b3375fb744f6f184561998cfe8fa7999524653bebb84692b50525ab7ba5611
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=feature-launcher-maven-plugin-0.1.8-sources.jar
+outputs.3.length=23061
+outputs.3.checksums.sha512=12c5b493a931906b7e3477a93090ca3c781cda5096b16c0a6d4733ddcbd26af895b4255a363876fb32363d650e334f58c2d0062760612c6f3703a4ab8ae05760
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=feature-launcher-maven-plugin-0.1.8-sources.jar
+outputs.4.length=23061
+outputs.4.checksums.sha512=12c5b493a931906b7e3477a93090ca3c781cda5096b16c0a6d4733ddcbd26af895b4255a363876fb32363d650e334f58c2d0062760612c6f3703a4ab8ae05760
