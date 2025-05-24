@@ -1,0 +1,9 @@
+version=0.1.6
+ok=14
+ko=0
+ignored=0
+okFiles="shared-0.1.6.pom shared-0.1.6-build.pom core-0.1.6.pom core-0.1.6-build.pom core-0.1.6.jar core-0.1.6-sources.jar extension-0.1.6.pom extension-0.1.6-build.pom extension-0.1.6.jar extension-0.1.6-sources.jar plugin-0.1.6.pom plugin-0.1.6-build.pom plugin-0.1.6.jar plugin-0.1.6-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
