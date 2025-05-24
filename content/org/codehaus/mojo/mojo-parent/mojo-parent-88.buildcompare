@@ -1,0 +1,8 @@
+version=88
+ok=4
+ko=0
+ignored=0
+okFiles="mojo-parent-88.pom mojo-parent-88-site.xml mojo-parent-88-config.jar mojo-parent-88-source-release.zip"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
