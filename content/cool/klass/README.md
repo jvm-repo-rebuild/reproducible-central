@@ -139,13 +139,13 @@ Source code: [https://github.com/liftwizard/klass.git](https://github.com/liftwi
 * [cool.klass:klass-token-categorizing-parser](https://central.sonatype.com/artifact/cool.klass/klass-token-categorizing-parser/overview)
 </details>
 
-rebuilding **4 releases** of cool.klass:klass:
+rebuilding **5 releases** of cool.klass:klass:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.5.0](https://central.sonatype.com/artifact/cool.klass/klass/0.5.0/pom) | | | |
+| [0.5.0](https://central.sonatype.com/artifact/cool.klass/klass/0.5.0/pom) | [mvn jdk17](klass-0.5.0.buildspec) | [result](klass-0.5.0.buildinfo): [344 :white_check_mark:  1 :warning:](klass-0.5.0.buildcompare) | 7.4M |
 | [0.4.0](https://central.sonatype.com/artifact/cool.klass/klass/0.4.0/pom) | [mvn jdk17](klass-0.4.0.buildspec) | [result](klass-0.4.0.buildinfo): [344 :white_check_mark:  1 :warning:](klass-0.4.0.buildcompare) | 7.4M |
 | [0.3.0](https://central.sonatype.com/artifact/cool.klass/klass/0.3.0/pom) | [mvn jdk17](klass-0.3.0.buildspec) | [result](klass-0.3.0.buildinfo): [341 :white_check_mark:  1 :warning:](klass-0.3.0.buildcompare) | 7.4M |
 | [0.2.0](https://central.sonatype.com/artifact/cool.klass/klass/0.2.0/pom) | [mvn jdk22](klass-0.2.0.buildspec) | :x: | |
