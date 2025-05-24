@@ -1,0 +1,19 @@
+groupId=org.apache.commons
+artifactId=commons-exec
+display=${groupId}:${artifactId}
+version=1.5.0
+
+gitRepo=https://github.com/apache/commons-exec
+gitTag=rel/${artifactId}-${version}
+
+tool=mvn
+jdk=21
+newline=lf
+umask=022
+timezone="Etc/GMT"
+
+command="mvn -Prelease clean:clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcyclonedx.skip -Dcommons.release.dryRun -Dcommons.release.isDistModule -Dbuildinfo.ignore='*/*.spdx.json'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
