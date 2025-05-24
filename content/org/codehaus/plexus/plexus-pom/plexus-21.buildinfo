@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus
+group-id=org.codehaus.plexus
+artifact-id=plexus
+version=21
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-pom.git
+source.scm.tag=plexus-21
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.15
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-21.pom
+outputs.0.length=29871
+outputs.0.checksums.sha512=57e32cb49876b717af65c83457aeb71fecaa1b962b54b7513b2ab7e596a270633e1ffc6f68a8fa4c318c755d8575e2c7b00c6c4e1bda34c3e7e45f73c3ed64fd
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-21-site.xml
+outputs.1.length=2981
+outputs.1.checksums.sha512=3b3671dd68078acc8a2ed07bd3decd0b7ee2cf8b5d1d5dc70d30fddbfe7d8ca0680b595451e477af0cbcb96996b300191447c7c06dd7df1232ac504b19102390
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-21-source-release.zip
+outputs.2.length=28121
+outputs.2.checksums.sha512=7b0cef8e42e7566550b369fb842fe15e6e930e4c9abd3349b4a4e9a7cec1df77442281993a769316f125f8e2bbcfa5ebb2f6b714e5f0e215abb7d933055af514
