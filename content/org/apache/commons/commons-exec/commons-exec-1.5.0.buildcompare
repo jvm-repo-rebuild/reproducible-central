@@ -1,0 +1,9 @@
+version=1.5.0
+ok=5
+ko=0
+ignored=1
+okFiles="commons-exec-1.5.0.pom commons-exec-1.5.0.jar commons-exec-1.5.0-tests.jar commons-exec-1.5.0-sources.jar commons-exec-1.5.0-test-sources.jar"
+koFiles=""
+ignoredFiles="commons-exec-1.5.0.spdx.json"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
