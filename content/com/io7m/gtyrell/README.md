@@ -18,13 +18,13 @@ Source code: [https://github.com/io7m/gtyrell.git](https://github.com/io7m/gtyre
 * [com.io7m.gtyrell:com.io7m.gtyrell.tests](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell.tests/overview)
 </details>
 
-rebuilding **5 releases** of com.io7m.gtyrell:com.io7m.gtyrell:
+rebuilding **6 releases** of com.io7m.gtyrell:com.io7m.gtyrell:
 - **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.0.1](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell/4.0.1/pom) | | | |
+| [4.0.1](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell/4.0.1/pom) | [mvn jdk21](com.io7m.gtyrell-4.0.1.buildspec) | [result](com.io7m.gtyrell-4.0.1.buildinfo): [8 :white_check_mark:  25 :warning:](com.io7m.gtyrell-4.0.1.buildcompare) | 8.2M |
 | [4.0.0](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell/4.0.0/pom) | [mvn jdk21](com.io7m.gtyrell-4.0.0.buildspec) | [result](com.io7m.gtyrell-4.0.0.buildinfo): [24 :white_check_mark:  9 :warning:](com.io7m.gtyrell-4.0.0.buildcompare) | 7.8M |
 | [3.2.0](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell/3.2.0/pom) | [mvn jdk17.0.7](com.io7m.gtyrell-3.2.0.buildspec) | [result](com.io7m.gtyrell-3.2.0.buildinfo): [26 :white_check_mark: ](com.io7m.gtyrell-3.2.0.buildcompare) | 6.1M |
 | [3.1.0](https://central.sonatype.com/artifact/com.io7m.gtyrell/com.io7m.gtyrell/3.1.0/pom) | [mvn jdk17.0.7](com.io7m.gtyrell-3.1.0.buildspec) | [result](com.io7m.gtyrell-3.1.0.buildinfo): [26 :white_check_mark: ](com.io7m.gtyrell-3.1.0.buildcompare) | 6.1M |
