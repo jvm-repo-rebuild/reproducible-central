@@ -1,0 +1,27 @@
+1 / 1 target/reference/cool.klass/klass-model-bootstrapped-reladomo-pojos-0.1.0-sources.jar klass-models/klass-model-bootstrapped/klass-model-bootstrapped-reladomo-pojos/target/klass-model-bootstrapped-reladomo-pojos-0.1.0-sources.jar
+--- target/reference/cool.klass/klass-model-bootstrapped-reladomo-pojos-0.1.0-sources.jar
++++ klass-models/klass-model-bootstrapped/klass-model-bootstrapped-reladomo-pojos/target/klass-model-bootstrapped-reladomo-pojos-0.1.0-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 905873 bytes, number of entries: 445
+│ +Zip file size: 905875 bytes, number of entries: 445
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-19 11:58 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 24-Apr-19 11:58 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-19 11:58 klass/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-19 11:58 klass/model/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-19 11:58 klass/model/meta/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-19 11:58 klass/model/meta/domain/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Apr-19 11:58 META-INF/maven/
+│ @@ -437,11 +437,11 @@
+│  -rw-r--r--  2.0 unx    18781 b- defN 24-Apr-19 11:58 klass/model/meta/domain/UserLiteralFinder.java
+│  -rw-r--r--  2.0 unx     4553 b- defN 24-Apr-19 11:58 klass/model/meta/domain/UserLiteralListAbstract.java
+│  -rw-r--r--  2.0 unx    14226 b- defN 24-Apr-19 11:58 klass/model/meta/domain/VariableReferenceAbstract.java
+│  -rw-r--r--  2.0 unx     6780 b- defN 24-Apr-19 11:58 klass/model/meta/domain/VariableReferenceData.java
+│  -rw-r--r--  2.0 unx    11793 b- defN 24-Apr-19 11:58 klass/model/meta/domain/VariableReferenceDatabaseObjectAbstract.java
+│  -rw-r--r--  2.0 unx    24267 b- defN 24-Apr-19 11:58 klass/model/meta/domain/VariableReferenceFinder.java
+│  -rw-r--r--  2.0 unx     5238 b- defN 24-Apr-19 11:58 klass/model/meta/domain/VariableReferenceListAbstract.java
+│ --rw-r--r--  2.0 unx       42 b- defN 24-Apr-19 11:58 tmp.GenerateReladomoCodeMojo480268973495391155.reladomo.ReladomoClassList.xml.log
+│ +-rw-r--r--  2.0 unx       42 b- defN 24-Apr-19 11:58 tmp.GenerateReladomoCodeMojo9004944451803674532.reladomo.ReladomoClassList.xml.log
+│  -rw-r--r--  2.0 unx     2835 b- defN 24-Apr-19 11:58 META-INF/maven/cool.klass/klass-model-bootstrapped-reladomo-pojos/pom.xml
+│  -rw-r--r--  2.0 unx       84 b- defN 24-Apr-19 11:58 META-INF/maven/cool.klass/klass-model-bootstrapped-reladomo-pojos/pom.properties
+│  445 files, 4378188 bytes uncompressed, 823507 bytes compressed:  81.2%
