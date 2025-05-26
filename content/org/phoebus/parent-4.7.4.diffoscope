@@ -1,0 +1,64 @@
+1 / 87 target/reference/org.phoebus/install-jars-4.7.4.jar dependencies/install-jars/target/install-jars-4.7.4.jar
+--- target/reference/org.phoebus/install-jars-4.7.4.jar
++++ dependencies/install-jars/target/install-jars-4.7.4.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 2519 bytes, number of entries: 8
+│ +Zip file size: 2535 bytes, number of entries: 8
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Apr-17 15:58 META-INF/
+│  -rw-r--r--  2.0 unx       81 b- defN 25-Apr-17 15:58 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Apr-17 15:58 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Apr-17 15:58 META-INF/maven/org.phoebus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Apr-17 15:58 META-INF/maven/org.phoebus/install-jars/
+│ --rw-r--r--  2.0 unx      917 b- defN 25-Apr-17 15:58 git.properties
+│ +-rw-r--r--  2.0 unx      958 b- defN 25-Apr-17 15:58 git.properties
+│  -rw-r--r--  2.0 unx     3201 b- defN 25-Apr-17 15:58 META-INF/maven/org.phoebus/install-jars/pom.xml
+│  -rw-r--r--  2.0 unx       61 b- defN 25-Apr-17 15:58 META-INF/maven/org.phoebus/install-jars/pom.properties
+│ -8 files, 4260 bytes uncompressed, 1437 bytes compressed:  66.3%
+│ +8 files, 4301 bytes uncompressed, 1453 bytes compressed:  66.2%
+├── git.properties
+│ ├── Pretty-printed
+│ │┄ Similarity: 0.7631578947368421%
+│ │┄ Differences: {"'git.branch'": "'1439c9733a9b8c49ee5c202591138b77ae9d793e'",
+│ │┄  "'git.commit.author.time'": "'2025-04-17T15:58:31Z'",
+│ │┄  "'git.commit.committer.time'": "'2025-04-17T15:58:31Z'",
+│ │┄  "'git.commit.id.describe'": "'v4.7.4-dirty'",
+│ │┄  "'git.commit.id.describe-short'": "'v4.7.4-dirty'",
+│ │┄  "'git.commit.time'": "'2025-04-17T15:58:31Z'",
+│ │┄  "'git.dirty'": "'true'",
+│ │┄  "'git.tags'": "'v4.7.4,v5.0.0'",
+│ │┄  "'git.total.commit.count'": "'10521'"}
+│ │ @@ -1,21 +1,21 @@
+│ │  {
+│ │ -    "git.branch": "v4.7.4",
+│ │ +    "git.branch": "1439c9733a9b8c49ee5c202591138b77ae9d793e",
+│ │      "git.closest.tag.commit.count": "0",
+│ │      "git.closest.tag.name": "v4.7.4",
+│ │ -    "git.commit.author.time": "2025-04-17T11:58:31-04:00",
+│ │ -    "git.commit.committer.time": "2025-04-17T11:58:31-04:00",
+│ │ +    "git.commit.author.time": "2025-04-17T15:58:31Z",
+│ │ +    "git.commit.committer.time": "2025-04-17T15:58:31Z",
+│ │      "git.commit.id": "1439c9733a9b8c49ee5c202591138b77ae9d793e",
+│ │      "git.commit.id.abbrev": "1439c97",
+│ │ -    "git.commit.id.describe": "v4.7.4",
+│ │ -    "git.commit.id.describe-short": "v4.7.4",
+│ │ +    "git.commit.id.describe": "v4.7.4-dirty",
+│ │ +    "git.commit.id.describe-short": "v4.7.4-dirty",
+│ │      "git.commit.message.full": "[maven-release-plugin] prepare release v4.7.4",
+│ │      "git.commit.message.short": "[maven-release-plugin] prepare release v4.7.4",
+│ │ -    "git.commit.time": "2025-04-17T11:58:31-04:00",
+│ │ +    "git.commit.time": "2025-04-17T15:58:31Z",
+│ │      "git.commit.user.email": "kunalshroff9@gmail.com",
+│ │      "git.commit.user.name": "Kunal Shroff",
+│ │ -    "git.dirty": "false",
+│ │ +    "git.dirty": "true",
+│ │      "git.remote.origin.url": "https://github.com/ControlSystemStudio/phoebus",
+│ │      "git.tag": "",
+│ │ -    "git.tags": "v4.7.4",
+│ │ -    "git.total.commit.count": "1"
+│ │ +    "git.tags": "v4.7.4,v5.0.0",
+│ │ +    "git.total.commit.count": "10521"
+│ │  }
+
+...
+# same issue for all files
