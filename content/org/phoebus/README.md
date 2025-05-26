@@ -7,12 +7,14 @@
 
 Source code: [https://github.com/ControlSystemStudio/phoebus](https://github.com/ControlSystemStudio/phoebus)
 
-<details><summary>This project defines 85 modules:</summary>
+<details><summary>This project defines 98 modules:</summary>
 
 * [org.phoebus:app](https://central.sonatype.com/artifact/org.phoebus/app/overview)
 * [org.phoebus:app-3d-viewer](https://central.sonatype.com/artifact/org.phoebus/app-3d-viewer/overview)
 * [org.phoebus:app-alarm](https://central.sonatype.com/artifact/org.phoebus/app-alarm/overview)
+* [org.phoebus:app-alarm-audio-annunciator](https://central.sonatype.com/artifact/org.phoebus/app-alarm-audio-annunciator/overview)
 * [org.phoebus:app-alarm-datasouce](https://central.sonatype.com/artifact/org.phoebus/app-alarm-datasouce/overview)
+* [org.phoebus:app-alarm-freetts-annunciator](https://central.sonatype.com/artifact/org.phoebus/app-alarm-freetts-annunciator/overview)
 * [org.phoebus:app-alarm-logging-ui](https://central.sonatype.com/artifact/org.phoebus/app-alarm-logging-ui/overview)
 * [org.phoebus:app-alarm-model](https://central.sonatype.com/artifact/org.phoebus/app-alarm-model/overview)
 * [org.phoebus:app-alarm-ui](https://central.sonatype.com/artifact/org.phoebus/app-alarm-ui/overview)
@@ -23,9 +25,11 @@ Source code: [https://github.com/ControlSystemStudio/phoebus](https://github.com
 * [org.phoebus:app-console](https://central.sonatype.com/artifact/org.phoebus/app-console/overview)
 * [org.phoebus:app-credentials-management](https://central.sonatype.com/artifact/org.phoebus/app-credentials-management/overview)
 * [org.phoebus:app-databrowser](https://central.sonatype.com/artifact/org.phoebus/app-databrowser/overview)
+* [org.phoebus:app-databrowser-json](https://central.sonatype.com/artifact/org.phoebus/app-databrowser-json/overview)
 * [org.phoebus:app-databrowser-timescale](https://central.sonatype.com/artifact/org.phoebus/app-databrowser-timescale/overview)
 * [org.phoebus:app-diag](https://central.sonatype.com/artifact/org.phoebus/app-diag/overview)
 * [org.phoebus:app-display](https://central.sonatype.com/artifact/org.phoebus/app-display/overview)
+* [org.phoebus:app-display-actions](https://central.sonatype.com/artifact/org.phoebus/app-display-actions/overview)
 * [org.phoebus:app-display-adapters](https://central.sonatype.com/artifact/org.phoebus/app-display-adapters/overview)
 * [org.phoebus:app-display-convert-edm](https://central.sonatype.com/artifact/org.phoebus/app-display-convert-edm/overview)
 * [org.phoebus:app-display-convert-medm](https://central.sonatype.com/artifact/org.phoebus/app-display-convert-medm/overview)
@@ -65,6 +69,8 @@ Source code: [https://github.com/ControlSystemStudio/phoebus](https://github.com
 * [org.phoebus:app-scan-model](https://central.sonatype.com/artifact/org.phoebus/app-scan-model/overview)
 * [org.phoebus:app-scan-ui](https://central.sonatype.com/artifact/org.phoebus/app-scan-ui/overview)
 * [org.phoebus:app-trends](https://central.sonatype.com/artifact/org.phoebus/app-trends/overview)
+* [org.phoebus:app-trends-archive-datasource](https://central.sonatype.com/artifact/org.phoebus/app-trends-archive-datasource/overview)
+* [org.phoebus:app-trends-archive-reader](https://central.sonatype.com/artifact/org.phoebus/app-trends-archive-reader/overview)
 * [org.phoebus:app-trends-rich-adapters](https://central.sonatype.com/artifact/org.phoebus/app-trends-rich-adapters/overview)
 * [org.phoebus:app-trends-simple-adapters](https://central.sonatype.com/artifact/org.phoebus/app-trends-simple-adapters/overview)
 * [org.phoebus:app-update](https://central.sonatype.com/artifact/org.phoebus/app-update/overview)
@@ -77,6 +83,12 @@ Source code: [https://github.com/ControlSystemStudio/phoebus](https://github.com
 * [org.phoebus:core-launcher](https://central.sonatype.com/artifact/org.phoebus/core-launcher/overview)
 * [org.phoebus:core-logbook](https://central.sonatype.com/artifact/org.phoebus/core-logbook/overview)
 * [org.phoebus:core-pv](https://central.sonatype.com/artifact/org.phoebus/core-pv/overview)
+* [org.phoebus:core-pv-ca](https://central.sonatype.com/artifact/org.phoebus/core-pv-ca/overview)
+* [org.phoebus:core-pv-jackie](https://central.sonatype.com/artifact/org.phoebus/core-pv-jackie/overview)
+* [org.phoebus:core-pv-mqtt](https://central.sonatype.com/artifact/org.phoebus/core-pv-mqtt/overview)
+* [org.phoebus:core-pv-opva](https://central.sonatype.com/artifact/org.phoebus/core-pv-opva/overview)
+* [org.phoebus:core-pv-pva](https://central.sonatype.com/artifact/org.phoebus/core-pv-pva/overview)
+* [org.phoebus:core-pv-tango](https://central.sonatype.com/artifact/org.phoebus/core-pv-tango/overview)
 * [org.phoebus:core-pva](https://central.sonatype.com/artifact/org.phoebus/core-pva/overview)
 * [org.phoebus:core-security](https://central.sonatype.com/artifact/org.phoebus/core-security/overview)
 * [org.phoebus:core-types](https://central.sonatype.com/artifact/org.phoebus/core-types/overview)
@@ -90,20 +102,21 @@ Source code: [https://github.com/ControlSystemStudio/phoebus](https://github.com
 * [org.phoebus:save-and-restore](https://central.sonatype.com/artifact/org.phoebus/save-and-restore/overview)
 * [org.phoebus:save-and-restore-logging](https://central.sonatype.com/artifact/org.phoebus/save-and-restore-logging/overview)
 * [org.phoebus:save-and-restore-model](https://central.sonatype.com/artifact/org.phoebus/save-and-restore-model/overview)
+* [org.phoebus:save-and-restore-util](https://central.sonatype.com/artifact/org.phoebus/save-and-restore-util/overview)
 * [org.phoebus:service-alarm-config-logger](https://central.sonatype.com/artifact/org.phoebus/service-alarm-config-logger/overview)
 * [org.phoebus:service-alarm-logger](https://central.sonatype.com/artifact/org.phoebus/service-alarm-logger/overview)
 * [org.phoebus:service-save-and-restore](https://central.sonatype.com/artifact/org.phoebus/service-save-and-restore/overview)
 * [org.phoebus:services](https://central.sonatype.com/artifact/org.phoebus/services/overview)
 </details>
 
-rebuilding **1 releases** of org.phoebus:parent:
+rebuilding **2 releases** of org.phoebus:parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [5.0.0](https://central.sonatype.com/artifact/org.phoebus/parent/5.0.0/pom) | | | |
-| [4.7.4](https://central.sonatype.com/artifact/org.phoebus/parent/4.7.4/pom) | | | |
+| [4.7.4](https://central.sonatype.com/artifact/org.phoebus/parent/4.7.4/pom) | [mvn jdk17 w](phoebus-4.7.4.buildspec) | [result](parent-4.7.4.buildinfo): [179 :white_check_mark:  87 :warning:](parent-4.7.4.buildcompare) [:mag:](parent-4.7.4.diffoscope) | 305M |
 | [4.7.3](https://central.sonatype.com/artifact/org.phoebus/parent/4.7.3/pom) | [mvn jdk11 w](phoebus-4.7.3.buildspec) | [result](parent-4.7.3.buildinfo): [219 :white_check_mark:  8 :warning:](parent-4.7.3.buildcompare) [:mag:](parent-4.7.3.diffoscope) [:memo:](https://github.com/ControlSystemStudio/phoebus/pull/2904) | 170M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
