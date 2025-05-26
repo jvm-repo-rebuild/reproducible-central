@@ -46,13 +46,13 @@ Source code: [https://github.com/dropwizard/dropwizard.git](https://github.com/d
 * [io.dropwizard:dropwizard-views-mustache](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-views-mustache/overview)
 </details>
 
-rebuilding **92 releases** of io.dropwizard:dropwizard-project:
-- **87** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **93 releases** of io.dropwizard:dropwizard-project:
+- **88** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [5.0.0-rc.3](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/5.0.0-rc.3/pom) | | | |
+| [5.0.0-rc.3](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/5.0.0-rc.3/pom) | [mvn jdk17](dropwizard-5.0.0-rc.3.buildspec) | [result](dropwizard-project-5.0.0-rc.3.buildinfo): [91 :white_check_mark: ](dropwizard-project-5.0.0-rc.3.buildcompare) | 1.5M |
 | [5.0.0-rc.2](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/5.0.0-rc.2/pom) | [mvn jdk17](dropwizard-5.0.0-rc.2.buildspec) | [result](dropwizard-project-5.0.0-rc.2.buildinfo): [91 :white_check_mark: ](dropwizard-project-5.0.0-rc.2.buildcompare) | 1.5M |
 | [5.0.0-rc.1](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/5.0.0-rc.1/pom) | [mvn jdk17](dropwizard-5.0.0-rc.1.buildspec) | [result](dropwizard-project-5.0.0-rc.1.buildinfo): [91 :white_check_mark: ](dropwizard-project-5.0.0-rc.1.buildcompare) | 1.5M |
 | [5.0.0-alpha.5](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/5.0.0-alpha.5/pom) | [mvn jdk17](dropwizard-5.0.0-alpha.5.buildspec) | [result](dropwizard-project-5.0.0-alpha.5.buildinfo): [91 :white_check_mark: ](dropwizard-project-5.0.0-alpha.5.buildcompare) | 1.5M |
