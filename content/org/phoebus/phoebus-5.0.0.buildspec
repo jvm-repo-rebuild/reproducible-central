@@ -15,4 +15,4 @@ command="mvn -Pdocs clean package -DskipTests -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/ControlSystemStudio/phoebus/pull/3416
