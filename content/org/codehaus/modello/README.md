@@ -30,13 +30,13 @@ Source code: [https://github.com/codehaus-plexus/modello.git](https://github.com
 * [org.codehaus.modello:modello-test](https://central.sonatype.com/artifact/org.codehaus.modello/modello-test/overview)
 </details>
 
-rebuilding **7 releases** of org.codehaus.modello:modello:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of org.codehaus.modello:modello:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.5.0](https://central.sonatype.com/artifact/org.codehaus.modello/modello/2.5.0/pom) | | | |
+| [2.5.0](https://central.sonatype.com/artifact/org.codehaus.modello/modello/2.5.0/pom) | [mvn jdk21](modello-2.5.0.buildspec) | [result](modello-2.5.0.buildinfo): [37 :white_check_mark: ](modello-2.5.0.buildcompare) | 5.5M |
 | [2.4.0](https://central.sonatype.com/artifact/org.codehaus.modello/modello/2.4.0/pom) | [mvn jdk21](modello-2.4.0.buildspec) | [result](modello-2.4.0.buildinfo): [38 :white_check_mark: ](modello-2.4.0.buildcompare) | 496K |
 | [2.3.0](https://central.sonatype.com/artifact/org.codehaus.modello/modello/2.3.0/pom) | [mvn jdk21](modello-2.3.0.buildspec) | [result](modello-2.3.0.buildinfo): [38 :white_check_mark: ](modello-2.3.0.buildcompare) | 496K |
 | [2.2.0](https://central.sonatype.com/artifact/org.codehaus.modello/modello/2.2.0/pom) | [mvn jdk17](modello-2.2.0.buildspec) | [result](modello-2.2.0.buildinfo): [38 :white_check_mark: ](modello-2.2.0.buildcompare) | 495K |
