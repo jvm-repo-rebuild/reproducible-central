@@ -7,8 +7,8 @@
 
 Source code: [https://github.com/FasterXML/jackson-parent.git](https://github.com/FasterXML/jackson-parent.git)
 
-rebuilding **21 releases** of com.fasterxml.jackson:jackson-parent:
-- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **22 releases** of com.fasterxml.jackson:jackson-parent:
+- **22** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -18,7 +18,7 @@ rebuilding **21 releases** of com.fasterxml.jackson:jackson-parent:
 | [2.19](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-parent/2.19/pom) | [mvn jdk11](jackson-parent-2.19.buildspec) | [result](jackson-parent-2.19.buildinfo): [1 :white_check_mark: ](jackson-parent-2.19.buildcompare) | 6.6K |
 | [2.19-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-parent/2.19-rc2/pom) | [mvn jdk11](jackson-parent-2.19-rc2.buildspec) | [result](jackson-parent-2.19-rc2.buildinfo): [1 :white_check_mark: ](jackson-parent-2.19-rc2.buildcompare) | 6.6K |
 | [2.19-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-parent/2.19-rc1/pom) | [mvn jdk11](jackson-parent-2.19-rc1.buildspec) | [result](jackson-parent-2.19-rc1.buildinfo): [1 :white_check_mark: ](jackson-parent-2.19-rc1.buildcompare) | 6.6K |
-| [2.18.3](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-parent/2.18.3/pom) | | | |
+| [2.18.3](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-parent/2.18.3/pom) | [mvn jdk11](jackson-parent-2.18.3.buildspec) | [result](jackson-parent-2.18.3.buildinfo): [1 :white_check_mark: ](jackson-parent-2.18.3.buildcompare) | 7.1K |
 | [2.18.2](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-parent/2.18.2/pom) | [mvn jdk11](jackson-parent-2.18.2.buildspec) | [result](jackson-parent-2.18.2.buildinfo): [1 :white_check_mark: ](jackson-parent-2.18.2.buildcompare) | 6.9K |
 | [2.18.1](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-parent/2.18.1/pom) | [mvn jdk11](jackson-parent-2.18.1.buildspec) | [result](jackson-parent-2.18.1.buildinfo): [1 :white_check_mark: ](jackson-parent-2.18.1.buildcompare) | 6.6K |
 | [2.18](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-parent/2.18/pom) | [mvn jdk11](jackson-parent-2.18.buildspec) | [result](jackson-parent-2.18.buildinfo): [1 :white_check_mark: ](jackson-parent-2.18.buildcompare) | 6.4K |
