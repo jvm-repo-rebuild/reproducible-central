@@ -23,13 +23,13 @@ Source code: [https://github.com/maveniverse/nisse.git](https://github.com/maven
 * [eu.maveniverse.maven.plugins:nisse-plugin3](https://central.sonatype.com/artifact/eu.maveniverse.maven.plugins/nisse-plugin3/overview)
 </details>
 
-rebuilding **14 releases** of eu.maveniverse.maven.nisse:nisse:
-- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **15 releases** of eu.maveniverse.maven.nisse:nisse:
+- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.4.5](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.4.5/pom) | | | |
+| [0.4.5](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.4.5/pom) | [mvn jdk21](nisse-0.4.5.buildspec) | [result](nisse-0.4.5.buildinfo): [29 :white_check_mark: ](nisse-0.4.5.buildcompare) | 160K |
 | [0.4.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.4.4/pom) | [mvn jdk21](nisse-0.4.4.buildspec) | [result](nisse-0.4.4.buildinfo): [29 :white_check_mark: ](nisse-0.4.4.buildcompare) | 159K |
 | [0.4.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.4.3/pom) | [mvn jdk21](nisse-0.4.3.buildspec) | [result](nisse-0.4.3.buildinfo): [29 :white_check_mark: ](nisse-0.4.3.buildcompare) | 155K |
 | [0.4.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.nisse/nisse/0.4.2/pom) | [mvn jdk21](nisse-0.4.2.buildspec) | [result](nisse-0.4.2.buildinfo): [29 :white_check_mark: ](nisse-0.4.2.buildcompare) | 156K |
