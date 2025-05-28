@@ -7,9 +7,10 @@
 
 Source code: [https://gitbox.apache.org/repos/asf/syncope.git](https://gitbox.apache.org/repos/asf/syncope.git)
 
-<details><summary>This project defines 158 modules:</summary>
+<details><summary>This project defines 159 modules:</summary>
 
 * [org.apache.syncope.client.am:syncope-client-am-console](https://central.sonatype.com/artifact/org.apache.syncope.client.am/syncope-client-am-console/overview)
+* [org.apache.syncope.client.am:syncope-client-am-enduser](https://central.sonatype.com/artifact/org.apache.syncope.client.am/syncope-client-am-enduser/overview)
 * [org.apache.syncope.client.am:syncope-client-am-lib](https://central.sonatype.com/artifact/org.apache.syncope.client.am/syncope-client-am-lib/overview)
 * [org.apache.syncope.client.idm:syncope-client-idm-console](https://central.sonatype.com/artifact/org.apache.syncope.client.idm/syncope-client-idm-console/overview)
 * [org.apache.syncope.client.idm:syncope-client-idm-lib](https://central.sonatype.com/artifact/org.apache.syncope.client.idm/syncope-client-idm-lib/overview)
@@ -169,8 +170,8 @@ Source code: [https://gitbox.apache.org/repos/asf/syncope.git](https://gitbox.ap
 * [org.apache.syncope:syncope-wa](https://central.sonatype.com/artifact/org.apache.syncope/syncope-wa/overview)
 </details>
 
-rebuilding **17 releases** of org.apache.syncope:syncope:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **18 releases** of org.apache.syncope:syncope:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
@@ -178,7 +179,7 @@ rebuilding **17 releases** of org.apache.syncope:syncope:
 | [4.0.0](https://central.sonatype.com/artifact/org.apache.syncope/syncope/4.0.0/pom) | | | |
 | [4.0.0-M1](https://central.sonatype.com/artifact/org.apache.syncope/syncope/4.0.0-M1/pom) | [mvn jdk21](syncope-4.0.0-M1.buildspec) | [result](syncope-4.0.0-M1.buildinfo): [500 :white_check_mark:  1 :warning:](syncope-4.0.0-M1.buildcompare) [:mag:](syncope-4.0.0-M1.diffoscope) | 467M |
 | [4.0.0-M0](https://central.sonatype.com/artifact/org.apache.syncope/syncope/4.0.0-M0/pom) | [mvn jdk21](syncope-4.0.0-M0.buildspec) | [result](syncope-4.0.0-M0.buildinfo): [488 :white_check_mark: ](syncope-4.0.0-M0.buildcompare) | 430M |
-| [3.0.12](https://central.sonatype.com/artifact/org.apache.syncope/syncope/3.0.12/pom) | | | |
+| [3.0.12](https://central.sonatype.com/artifact/org.apache.syncope/syncope/3.0.12/pom) | [mvn jdk11](syncope-3.0.12.buildspec) | [result](syncope-3.0.12.buildinfo): [492 :white_check_mark: ](syncope-3.0.12.buildcompare) | 252M |
 | [3.0.11](https://central.sonatype.com/artifact/org.apache.syncope/syncope/3.0.11/pom) | [mvn jdk11](syncope-3.0.11.buildspec) | [result](syncope-3.0.11.buildinfo): [487 :white_check_mark: ](syncope-3.0.11.buildcompare) | 251M |
 | [3.0.10](https://central.sonatype.com/artifact/org.apache.syncope/syncope/3.0.10/pom) | [mvn jdk11](syncope-3.0.10.buildspec) | [result](syncope-3.0.10.buildinfo): [487 :white_check_mark: ](syncope-3.0.10.buildcompare) | 216M |
 | [3.0.9](https://central.sonatype.com/artifact/org.apache.syncope/syncope/3.0.9/pom) | [mvn jdk11](syncope-3.0.9.buildspec) | [result](syncope-3.0.9.buildinfo): [483 :white_check_mark:  4 :warning:](syncope-3.0.9.buildcompare) [:mag:](syncope-3.0.9.diffoscope) | 215M |
