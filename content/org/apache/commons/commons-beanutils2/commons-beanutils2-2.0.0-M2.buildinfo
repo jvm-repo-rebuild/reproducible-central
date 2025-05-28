@@ -1,0 +1,60 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons BeanUtils
+group-id=org.apache.commons
+artifact-id=commons-beanutils2
+version=2.0.0-M2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-beanutils.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.7
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-beanutils2-2.0.0-M2.pom
+outputs.0.length=19285
+outputs.0.checksums.sha512=82476946ba10d40c612ebfc14f01be861510c86f9ded01fd2dfce016ab745fb8324f53905955282e79cee436a19f6b5ffb1af95907c3377185319f9a3add512c
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-beanutils2-2.0.0-M2.jar
+outputs.1.length=260224
+outputs.1.checksums.sha512=44bc5a5517d21810862f9702d35cc6d8ccae2a058b92ada3bc80cf1d42bf776ec91b651cf27177e38449644981ab8a70df107d3741dd0dc232f1cbe4a88fed9d
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-beanutils2-2.0.0-M2-tests.jar
+outputs.2.length=453741
+outputs.2.checksums.sha512=79254682d72f9984ffa2f328d80a65aeea3fa11fc05427e9b17724c58ec35f1fe9171e9a370adfda98166371baffca13219325c8b0c8b4666703e1ea08a5f3d7
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-beanutils2-2.0.0-M2-sources.jar
+outputs.3.length=302337
+outputs.3.checksums.sha512=340132393969a094d838c667ef390f4b34e6f08e5e623ea196505a73aedf4d36a3ab3ad629282723110127be0996653e9694af685f32585fde6b6bcf9c2f8d22
+
+outputs.4.groupId=org.apache.commons
+outputs.4.filename=commons-beanutils2-2.0.0-M2-test-sources.jar
+outputs.4.length=304151
+outputs.4.checksums.sha512=5039e108dd08d21299e29f896e121c0d1ac7a665cb02be621b7743ca3f4687fe15974cd45521947989539d29c05170cb539a0f75250ef6844c5c6492d34a4c0e
+
+outputs.5.groupId=org.apache.commons
+outputs.5.filename=commons-beanutils2-2.0.0-M2-cyclonedx.xml
+outputs.5.length=12100
+outputs.5.checksums.sha512=ff3fbb0f65b948c19d619d37d4e00de9d2c8ff3be8806705d711c0b76dbb7fd742ca9885ca08c36e1631da7094ea9c14bd586bae694a36952dc2d4f5a56c058e
+
+outputs.6.groupId=org.apache.commons
+outputs.6.filename=commons-beanutils2-2.0.0-M2-cyclonedx.json
+outputs.6.length=13202
+outputs.6.checksums.sha512=96699595e8f269cbe56c94ef3c43f8d2e6bd1fa6354725e0cfd2634e7e35b7220944b85c00655eb060af2ceb2094797cdcf4bd55949933ff3202f2c9076115da
+# ignored commons-beanutils2-2.0.0-M2.spdx.json

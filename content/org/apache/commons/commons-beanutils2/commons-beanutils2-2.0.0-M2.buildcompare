@@ -1,0 +1,9 @@
+version=2.0.0-M2
+ok=7
+ko=0
+ignored=1
+okFiles="commons-beanutils2-2.0.0-M2.pom commons-beanutils2-2.0.0-M2.jar commons-beanutils2-2.0.0-M2-tests.jar commons-beanutils2-2.0.0-M2-sources.jar commons-beanutils2-2.0.0-M2-test-sources.jar commons-beanutils2-2.0.0-M2-cyclonedx.xml commons-beanutils2-2.0.0-M2-cyclonedx.json"
+koFiles=""
+ignoredFiles="commons-beanutils2-2.0.0-M2.spdx.json"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

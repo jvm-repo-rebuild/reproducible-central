@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/commons-beanutils.git](https://github.com/apache/commons-beanutils.git)
 
-rebuilding **1 releases** of org.apache.commons:commons-beanutils2:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of org.apache.commons:commons-beanutils2:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0.0-M2](https://central.sonatype.com/artifact/org.apache.commons/commons-beanutils2/2.0.0-M2/pom) | | | |
+| [2.0.0-M2](https://central.sonatype.com/artifact/org.apache.commons/commons-beanutils2/2.0.0-M2/pom) | [mvn jdk21](commons-beanutils2-2.0.0-M2.buildspec) | [result](commons-beanutils2-2.0.0-M2.buildinfo): [7 :white_check_mark: ](commons-beanutils2-2.0.0-M2.buildcompare) | 1.4M |
 | [2.0.0-M1](https://central.sonatype.com/artifact/org.apache.commons/commons-beanutils2/2.0.0-M1/pom) | [mvn jdk21](commons-beanutils2-2.0.0-M1.buildspec) | [result](commons-beanutils2-2.0.0-M1.buildinfo): [5 :white_check_mark:  2 :warning:](commons-beanutils2-2.0.0-M1.buildcompare) [:mag:](commons-beanutils2-2.0.0-M1.diffoscope) [:memo:](https://lists.apache.org/thread/5m2sq74rqyws91onxmk77jty239qtfd8) | 1.3M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
