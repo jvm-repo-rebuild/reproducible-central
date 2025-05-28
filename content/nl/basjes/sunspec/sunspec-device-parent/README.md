@@ -15,13 +15,13 @@ Source code: [https://github.com/nielsbasjes/sunspec-device.git](https://github.
 * [nl.basjes.sunspec:sunspec-schema-writer](https://central.sonatype.com/artifact/nl.basjes.sunspec/sunspec-schema-writer/overview)
 </details>
 
-rebuilding **4 releases** of nl.basjes.sunspec:sunspec-device-parent:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **5 releases** of nl.basjes.sunspec:sunspec-device-parent:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.4.0](https://central.sonatype.com/artifact/nl.basjes.sunspec/sunspec-device-parent/0.4.0/pom) | | | |
+| [0.4.0](https://central.sonatype.com/artifact/nl.basjes.sunspec/sunspec-device-parent/0.4.0/pom) | [mvn jdk21](sunspec-device-parent-0.4.0.buildspec) | [result](sunspec-device-parent-0.4.0.buildinfo): [10 :white_check_mark: ](sunspec-device-parent-0.4.0.buildcompare) | 468K |
 | [0.3.0](https://central.sonatype.com/artifact/nl.basjes.sunspec/sunspec-device-parent/0.3.0/pom) | [mvn jdk21](sunspec-device-parent-0.3.0.buildspec) | [result](sunspec-device-parent-0.3.0.buildinfo): [10 :white_check_mark: ](sunspec-device-parent-0.3.0.buildcompare) | 468K |
 | [0.2.1](https://central.sonatype.com/artifact/nl.basjes.sunspec/sunspec-device-parent/0.2.1/pom) | [mvn jdk21](sunspec-device-parent-0.2.1.buildspec) | [result](sunspec-device-parent-0.2.1.buildinfo): [10 :white_check_mark: ](sunspec-device-parent-0.2.1.buildcompare) | 464K |
 | [0.2.0](https://central.sonatype.com/artifact/nl.basjes.sunspec/sunspec-device-parent/0.2.0/pom) | [mvn jdk21](sunspec-device-parent-0.2.0.buildspec) | [result](sunspec-device-parent-0.2.0.buildinfo): [10 :white_check_mark: ](sunspec-device-parent-0.2.0.buildcompare) | 452K |
