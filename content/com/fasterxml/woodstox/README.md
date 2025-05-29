@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/FasterXML/woodstox.git](https://github.com/FasterXML/woodstox.git)
 
-rebuilding **5 releases** of com.fasterxml.woodstox:woodstox-core:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **6 releases** of com.fasterxml.woodstox:woodstox-core:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [7.1.1](https://central.sonatype.com/artifact/com.fasterxml.woodstox/woodstox-core/7.1.1/pom) | | | |
+| [7.1.1](https://central.sonatype.com/artifact/com.fasterxml.woodstox/woodstox-core/7.1.1/pom) | [mvn jdk17](woodstox-core-7.1.1.buildspec) | [result](woodstox-core-7.1.1.buildinfo): [3 :white_check_mark: ](woodstox-core-7.1.1.buildcompare) | 2.1M |
 | [7.1.0](https://central.sonatype.com/artifact/com.fasterxml.woodstox/woodstox-core/7.1.0/pom) | [mvn jdk8](woodstox-core-7.1.0.buildspec) | [result](woodstox-core-7.1.0.buildinfo): [3 :white_check_mark: ](woodstox-core-7.1.0.buildcompare) | 2.1M |
 | [7.0.0](https://central.sonatype.com/artifact/com.fasterxml.woodstox/woodstox-core/7.0.0/pom) | [mvn jdk8](woodstox-core-7.0.0.buildspec) | [result](woodstox-core-7.0.0.buildinfo): [3 :white_check_mark: ](woodstox-core-7.0.0.buildcompare) | 2.1M |
 | [6.7.0](https://central.sonatype.com/artifact/com.fasterxml.woodstox/woodstox-core/6.7.0/pom) | [mvn jdk8](woodstox-core-6.7.0.buildspec) | [result](woodstox-core-6.7.0.buildinfo): [2 :white_check_mark:  1 :warning:](woodstox-core-6.7.0.buildcompare) [:mag:](woodstox-core-6.7.0.diffoscope) | 2.1M |
