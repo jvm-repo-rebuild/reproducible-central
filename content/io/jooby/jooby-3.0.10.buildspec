@@ -9,7 +9,7 @@ gitTag=v${version}
 tool=mvn-3.9.3
 jdk=17
 newline=lf
-#umask=022
+umask=022
 #timezone="Europe/London"
 
 command="mvn -Psource clean package -DskipTests -Dmaven.javadoc.skip -Dbuildinfo.skipModules='*/tests'"
