@@ -13,13 +13,13 @@ Source code: [https://github.com/maveniverse/bom-builder-maven-plugin.git](https
 * [eu.maveniverse.maven.plugins:bom-builder3](https://central.sonatype.com/artifact/eu.maveniverse.maven.plugins/bom-builder3/overview)
 </details>
 
-rebuilding **6 releases** of eu.maveniverse.maven.bom-builder:bom-builder:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of eu.maveniverse.maven.bom-builder:bom-builder:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.1.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.bom-builder/bom-builder/1.1.1/pom) | | | |
+| [1.1.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.bom-builder/bom-builder/1.1.1/pom) | [mvn jdk21](bom-builder-1.1.1.buildspec) | [result](bom-builder-1.1.1.buildinfo): [4 :white_check_mark: ](bom-builder-1.1.1.buildcompare) | 50K |
 | [1.1.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.bom-builder/bom-builder/1.1.0/pom) | [mvn jdk21](bom-builder-1.1.0.buildspec) | [result](bom-builder-1.1.0.buildinfo): [4 :white_check_mark: ](bom-builder-1.1.0.buildcompare) | 51K |
 | [1.0.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.bom-builder/bom-builder/1.0.4/pom) | [mvn jdk21](bom-builder-1.0.4.buildspec) | [result](bom-builder-1.0.4.buildinfo): [4 :white_check_mark: ](bom-builder-1.0.4.buildcompare) | 50K |
 | [1.0.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.bom-builder/bom-builder/1.0.3/pom) | [mvn jdk21](bom-builder-1.0.3.buildspec) | [result](bom-builder-1.0.3.buildinfo): [4 :white_check_mark: ](bom-builder-1.0.3.buildcompare) | 50K |
