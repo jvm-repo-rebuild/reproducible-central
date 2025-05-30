@@ -1,8 +1,8 @@
-content/com/fasterxml/woodstox/woodstox-core-7.1.0.buildspec:7.1.1
+content/com/spotify/github-client/github-client-0.4.4.buildspec:0.4.5
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
-content/eu/maveniverse/maven/bom-builder/bom-builder-1.1.0.buildspec:1.1.1
-content/eu/maveniverse/maven/nisse/nisse-0.4.5.buildspec:0.4.6
-content/eu/maveniverse/maven/njord/njord-0.6.2.buildspec:0.7.0
 content/io/avaje/jsonb/avaje-jsonb-3.5-RC2.buildspec:3.5
-content/io/cucumber/cucumber-jvm/cucumber-jvm-7.22.2.buildspec:7.23.0
-content/io/telicent/smart-caches/graph/scg-base/scg-base-0.83.11.buildspec:0.83.12
+content/io/avaje/validator/avaje-validator-2.11.buildspec:2.12-RC1
+content/io/wcm/tooling/wcm-parent_toplevel-2.4.4.buildspec:2.5.0
+content/net/sourceforge/pmd/pmd-7.13.0.buildspec:7.14.0
+content/org/junit/junit5/junit5-5.13.0-RC1.buildspec:5.13.0
+content/org/openapitools/openapidiff/openapi-diff-2.1.1.buildspec:2.1.2
