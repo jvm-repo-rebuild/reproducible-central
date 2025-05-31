@@ -1,8 +1,9 @@
-content/com/spotify/github-client/github-client-0.4.4.buildspec:0.4.5
+content/com/github/hazendaz/base-parent/base-parent-52.buildspec:53
+content/com/github/hazendaz/git/github-desktop/github-desktop-3.4.19.buildspec:3.4.20
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
+content/eu/maveniverse/maven/mimir/mimir-0.7.6.buildspec:0.7.7
+content/eu/maveniverse/maven/shared/shared/shared-0.1.6.buildspec:0.1.8
 content/io/avaje/jsonb/avaje-jsonb-3.5-RC2.buildspec:3.5
-content/io/avaje/validator/avaje-validator-2.11.buildspec:2.12-RC1
-content/io/wcm/tooling/wcm-parent_toplevel-2.4.4.buildspec:2.5.0
-content/net/sourceforge/pmd/pmd-7.13.0.buildspec:7.14.0
-content/org/junit/junit5/junit5-5.13.0-RC1.buildspec:5.13.0
-content/org/openapitools/openapidiff/openapi-diff-2.1.1.buildspec:2.1.2
+content/org/codehaus/mojo/mojo-parent/mojo-parent-89.buildspec:90
+content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.0.0.Beta1.buildspec:8.0.0.CR1
+content/org/mybatis/parent/mybatis-parent-49.buildspec:50
