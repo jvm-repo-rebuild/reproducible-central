@@ -15,13 +15,13 @@ Source code: [https://github.com/maveniverse/maven-shared.git](https://github.co
 * [eu.maveniverse.maven.shared:shared](https://central.sonatype.com/artifact/eu.maveniverse.maven.shared/shared/overview)
 </details>
 
-rebuilding **7 releases** of eu.maveniverse.maven.shared:shared:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of eu.maveniverse.maven.shared:shared:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.1.8](https://central.sonatype.com/artifact/eu.maveniverse.maven.shared/shared/0.1.8/pom) | | | |
+| [0.1.8](https://central.sonatype.com/artifact/eu.maveniverse.maven.shared/shared/0.1.8/pom) | [mvn jdk21](shared-0.1.8.buildspec) | [result](shared-0.1.8.buildinfo): [10 :white_check_mark: ](shared-0.1.8.buildcompare) | 63K |
 | [0.1.7](https://central.sonatype.com/artifact/eu.maveniverse.maven.shared/shared/0.1.7/pom) | | | |
 | [0.1.6](https://central.sonatype.com/artifact/eu.maveniverse.maven.shared/shared/0.1.6/pom) | [mvn jdk21](shared-0.1.6.buildspec) | [result](shared-0.1.6.buildinfo): [14 :white_check_mark: ](shared-0.1.6.buildcompare) | 78K |
 | [0.1.5](https://central.sonatype.com/artifact/eu.maveniverse.maven.shared/shared/0.1.5/pom) | [mvn jdk21](shared-0.1.5.buildspec) | [result](shared-0.1.5.buildinfo): [10 :white_check_mark: ](shared-0.1.5.buildcompare) | 62K |
