@@ -1,0 +1,36 @@
+1 / 32 target/reference/org.apache.tika/tika-parser-microsoft-module-2.9.4.jar tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/target/tika-parser-microsoft-module-2.9.4.jar
+--- target/reference/org.apache.tika/tika-parser-microsoft-module-2.9.4.jar
++++ tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/target/tika-parser-microsoft-module-2.9.4.jar
+├── META-INF/DEPENDENCIES
+│ @@ -39,27 +39,27 @@
+│  
+│    - XML Commons External Components XML APIs (http://xml.apache.org/commons/components/external/) xml-apis:xml-apis:jar:1.4.01
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│      License: The SAX License  (http://www.saxproject.org/copying.html)
+│      License: The W3C License  (http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/java-binding.zip)
+│  
+│  
+│ -From: 'Apache Software Foundation' (http://www.apache.org/)
+│ +From: 'Apache Software Foundation' (https://www.apache.org/)
+│  
+│    - Apache POI - Common (https://poi.apache.org/) org.apache.poi:poi:jar:5.4.1
+│ -    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│    - Apache POI - API based on OPC and OOXML schemas (https://poi.apache.org/) org.apache.poi:poi-ooxml:jar:5.4.1
+│ -    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│    - Apache POI (https://poi.apache.org/) org.apache.poi:poi-ooxml-lite:jar:5.4.1
+│ -    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│    - Apache POI (https://poi.apache.org/) org.apache.poi:poi-scratchpad:jar:5.4.1
+│ -    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│  
+│  From: 'OpenHMS' (https://openhms.sourceforge.io/)
+│  
+│    - Jackcess (https://jackcess.sourceforge.io) com.healthmarketscience.jackcess:jackcess:jar:4.0.8
+│      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
