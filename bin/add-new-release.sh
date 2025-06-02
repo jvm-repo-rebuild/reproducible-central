@@ -10,6 +10,10 @@ diffoscope=
 dir=`dirname ${previousBuildspec}`
 file=`basename ${previousBuildspec} -${version}.buildspec`
 
+metadata="${dir}/maven-metadata.xml"
+# update metadata if nextVersion not there
+[ grep "version>${nextVersion}</version" ] ${metadata} || curl -s --fail https://repo.maven.apache.org/maven2/$(echo ${groupId} | tr '.' '/')/${artifactId}/maven-metadata.xml --output ${metadata}
+
 nextBuildspec=${dir}/${file}-${nextVersion}.buildspec
 sed "s/^version=.*/version=${nextVersion}/" ${previousBuildspec} > ${nextBuildspec}
 
