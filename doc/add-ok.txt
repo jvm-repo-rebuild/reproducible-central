@@ -1,6 +1,7 @@
+content/com/spotify/github-client/github-client-0.4.5.buildspec:0.4.6
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.1-beta-18.buildspec:11.2.1-beta-19
+content/eu/maveniverse/maven/njord/njord-0.7.0.buildspec:0.7.1
+content/io/airlift/airbase/airbase-262.buildspec:263
 content/io/avaje/jsonb/avaje-jsonb-3.5-RC2.buildspec:3.5
-content/nl/basjes/modbus/modbus-schema-parent/modbus-schema-parent-0.5.1.buildspec:0.6.0
-content/nl/basjes/modbus/devices/modbus-devices-parent/modbus-devices-parent-0.2.2.buildspec:0.3.0
-content/nl/basjes/sunspec/sunspec-device-parent/sunspec-device-parent-0.4.0.buildspec:0.4.1
+content/org/codehaus/mojo/mojo-parent/mojo-parent-90.buildspec:91
+content/org/webjars/bootstrap/bootstrap-5.3.5.buildspec:5.3.6
