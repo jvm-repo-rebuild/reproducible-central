@@ -76,9 +76,9 @@ Source code: [https://github.com/jooby-project/jooby.git](https://github.com/joo
 * [io.jooby:tests](https://central.sonatype.com/artifact/io.jooby/tests/overview)
 </details>
 
-rebuilding **46 releases** of io.jooby:jooby:
+rebuilding **48 releases** of io.jooby:jooby:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 45 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 47 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -119,16 +119,16 @@ rebuilding **46 releases** of io.jooby:jooby:
 | [3.0.10](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.10/pom) | [mvn jdk17](jooby-3.0.10.buildspec) | [result](jooby-project-3.0.10.buildinfo): [157 :white_check_mark:  7 :warning:](jooby-project-3.0.10.buildcompare) | 14M |
 | [3.0.9](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.9/pom) | [mvn jdk17](jooby-3.0.9.buildspec) | [result](jooby-project-3.0.9.buildinfo): [157 :white_check_mark:  7 :warning:](jooby-project-3.0.9.buildcompare) | 14M |
 | [3.0.8](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.8/pom) | [mvn jdk17](jooby-3.0.8.buildspec) | [result](jooby-project-3.0.8.buildinfo): [157 :white_check_mark:  7 :warning:](jooby-project-3.0.8.buildcompare) | 12M |
-| [3.0.7](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.7/pom) | [mvn jdk17.0.9](jooby-3.0.7.buildspec) | :x: | |
-| [3.0.6](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.6/pom) | [mvn jdk17.0.8](jooby-3.0.6.buildspec) | :x: | |
+| [3.0.7](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.7/pom) | [mvn jdk17.0.9](jooby-3.0.7.buildspec) | [result](jooby-project-3.0.7.buildinfo): [156 :white_check_mark:  8 :warning:](jooby-project-3.0.7.buildcompare) | 11M |
+| [3.0.6](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.6/pom) | [mvn jdk17.0.8](jooby-3.0.6.buildspec) | [result](jooby-project-3.0.6.buildinfo): [126 :white_check_mark:  41 :warning:](jooby-project-3.0.6.buildcompare) | 11M |
 | [3.0.5](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.5/pom) | [mvn jdk17.0.8](jooby-3.0.5.buildspec) | [result](jooby-project-3.0.5.buildinfo): [159 :white_check_mark:  8 :warning:](jooby-project-3.0.5.buildcompare) [:mag:](jooby-project-3.0.5.diffoscope) | 11M |
 | [3.0.4](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.4/pom) | [mvn jdk17.0.8](jooby-3.0.4.buildspec) | [result](jooby-project-3.0.4.buildinfo): [155 :white_check_mark:  12 :warning:](jooby-project-3.0.4.buildcompare) | 9.8M |
 | [3.0.3](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.3/pom) | [mvn jdk17.0.8](jooby-3.0.3.buildspec) | [result](jooby-project-3.0.3.buildinfo): [155 :white_check_mark:  12 :warning:](jooby-project-3.0.3.buildcompare) | 9.8M |
 | [3.0.2](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.2/pom) | [mvn jdk17.0.8](jooby-3.0.2.buildspec) | [result](jooby-project-3.0.2.buildinfo): [155 :white_check_mark:  12 :warning:](jooby-project-3.0.2.buildcompare) | 9.8M |
 | [3.0.1](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.1/pom) | [mvn jdk17.0.7](jooby-3.0.1.buildspec) | [result](jooby-project-3.0.1.buildinfo): [155 :white_check_mark:  12 :warning:](jooby-project-3.0.1.buildcompare) | 9.8M |
-| [3.0.0](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.0/pom) | | | |
-| [3.0.0.M11](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.0.M11/pom) | | | |
-| [3.0.0.M9](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.0.M9/pom) | [mvn jdk17.0.7](jooby-3.0.0.M9.buildspec) | :x: | |
+| [3.0.0](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.0/pom) | [mvn jdk17.0.7](jooby-3.0.0.buildspec) | [result](jooby-project-3.0.0.buildinfo): [148 :white_check_mark:  10 :warning:](jooby-project-3.0.0.buildcompare) | 9.8M |
+| [3.0.0.M11](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.0.M11/pom) | [mvn jdk17.0.7](jooby-3.0.0.M11.buildspec) | [result](jooby-project-3.0.0.M11.buildinfo): [150 :white_check_mark:  8 :warning:](jooby-project-3.0.0.M11.buildcompare) | 9.8M |
+| [3.0.0.M9](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.0.M9/pom) | [mvn jdk17.0.7](jooby-3.0.0.M9.buildspec) | [result](jooby-project-3.0.0.M9.buildinfo): [149 :white_check_mark:  9 :warning:](jooby-project-3.0.0.M9.buildcompare) | 11M |
 | [3.0.0.M7](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.0.M7/pom) | [mvn jdk17](jooby-3.0.0.M7.buildspec) | [result](jooby-project-3.0.0.M7.buildinfo): [153 :white_check_mark:  8 :warning:](jooby-project-3.0.0.M7.buildcompare) [:mag:](jooby-project-3.0.0.M7.diffoscope) | 11M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
