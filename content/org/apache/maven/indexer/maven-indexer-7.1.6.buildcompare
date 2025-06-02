@@ -1,0 +1,9 @@
+version=7.1.6
+ok=40
+ko=0
+ignored=0
+okFiles="maven-indexer-7.1.6.pom maven-indexer-7.1.6-source-release.zip maven-indexer-7.1.6-cyclonedx.xml maven-indexer-7.1.6-cyclonedx.json indexer-core-7.1.6.pom indexer-core-7.1.6.jar indexer-core-7.1.6-sources.jar indexer-core-7.1.6-cyclonedx.xml indexer-core-7.1.6-cyclonedx.json indexer-cli-7.1.6.pom indexer-cli-7.1.6.jar indexer-cli-7.1.6-sources.jar indexer-cli-7.1.6-cli.jar indexer-cli-7.1.6-cyclonedx.xml indexer-cli-7.1.6-cyclonedx.json indexer-reader-7.1.6.pom indexer-reader-7.1.6.jar indexer-reader-7.1.6-sources.jar indexer-reader-7.1.6-cyclonedx.xml indexer-reader-7.1.6-cyclonedx.json search-api-7.1.6.pom search-api-7.1.6.jar search-api-7.1.6-sources.jar search-api-7.1.6-cyclonedx.xml search-api-7.1.6-cyclonedx.json search-backend-indexer-7.1.6.pom search-backend-indexer-7.1.6.jar search-backend-indexer-7.1.6-sources.jar search-backend-indexer-7.1.6-cyclonedx.xml search-backend-indexer-7.1.6-cyclonedx.json search-backend-smo-7.1.6.pom search-backend-smo-7.1.6.jar search-backend-smo-7.1.6-sources.jar search-backend-smo-7.1.6-cyclonedx.xml search-backend-smo-7.1.6-cyclonedx.json search-backend-remoterepository-7.1.6.pom search-backend-remoterepository-7.1.6.jar search-backend-remoterepository-7.1.6-sources.jar search-backend-remoterepository-7.1.6-cyclonedx.xml search-backend-remoterepository-7.1.6-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
