@@ -22,12 +22,13 @@ Source code: [https://github.com/apache/maven-indexer.git](https://github.com/ap
 * [org.apache.maven.indexer:search-backend-smo](https://central.sonatype.com/artifact/org.apache.maven.indexer/search-backend-smo/overview)
 </details>
 
-rebuilding **15 releases** of org.apache.maven.indexer:maven-indexer:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **16 releases** of org.apache.maven.indexer:maven-indexer:
+- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [7.1.6](https://central.sonatype.com/artifact/org.apache.maven.indexer/maven-indexer/7.1.6/pom) | [mvn jdk21](maven-indexer-7.1.6.buildspec) | [result](maven-indexer-7.1.6.buildinfo): [40 :white_check_mark: ](maven-indexer-7.1.6.buildcompare) | 32M |
 | [7.1.5](https://central.sonatype.com/artifact/org.apache.maven.indexer/maven-indexer/7.1.5/pom) | [mvn jdk21](maven-indexer-7.1.5.buildspec) | [result](maven-indexer-7.1.5.buildinfo): [40 :white_check_mark: ](maven-indexer-7.1.5.buildcompare) | 32M |
 | [7.1.4](https://central.sonatype.com/artifact/org.apache.maven.indexer/maven-indexer/7.1.4/pom) | [mvn jdk21](maven-indexer-7.1.4.buildspec) | [result](maven-indexer-7.1.4.buildinfo): [40 :white_check_mark: ](maven-indexer-7.1.4.buildcompare) | 32M |
 | [7.1.3](https://central.sonatype.com/artifact/org.apache.maven.indexer/maven-indexer/7.1.3/pom) | [mvn jdk21](maven-indexer-7.1.3.buildspec) | [result](maven-indexer-7.1.3.buildinfo): [40 :white_check_mark: ](maven-indexer-7.1.3.buildcompare) | 31M |
