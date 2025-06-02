@@ -1,0 +1,50 @@
+version=3.0.6
+ok=126
+ko=41
+ignored=0
+okFiles="jooby-project-3.0.6.pom jooby-3.0.6.pom jooby-3.0.6-sources.jar modules-3.0.6.pom jooby-bom-3.0.6.pom jooby-kotlin-3.0.6.pom jooby-kotlin-3.0.6.jar jooby-kotlin-3.0.6-sources.jar jooby-netty-3.0.6.pom jooby-netty-3.0.6-sources.jar jooby-test-3.0.6.pom jooby-test-3.0.6-sources.jar jooby-apt-3.0.6.pom jooby-apt-3.0.6-sources.jar jooby-logback-3.0.6.pom jooby-logback-3.0.6-sources.jar jooby-log4j-3.0.6.pom jooby-log4j-3.0.6-sources.jar jooby-conscrypt-3.0.6.pom jooby-conscrypt-3.0.6-sources.jar jooby-jetty-3.0.6.pom jooby-jetty-3.0.6-sources.jar jooby-undertow-3.0.6.pom jooby-undertow-3.0.6.jar jooby-undertow-3.0.6-sources.jar jooby-openapi-3.0.6.pom jooby-openapi-3.0.6-sources.jar jooby-swagger-ui-3.0.6.pom jooby-redoc-3.0.6.pom jooby-redoc-3.0.6-sources.jar jooby-hikari-3.0.6.pom jooby-hikari-3.0.6-sources.jar jooby-jdbi-3.0.6.pom jooby-jdbi-3.0.6-sources.jar jooby-hibernate-3.0.6.pom jooby-hibernate-3.0.6-sources.jar jooby-flyway-3.0.6.pom jooby-flyway-3.0.6-sources.jar jooby-ebean-3.0.6.pom jooby-ebean-3.0.6-sources.jar jooby-redis-3.0.6.pom jooby-redis-3.0.6-sources.jar jooby-kafka-3.0.6.pom jooby-kafka-3.0.6.jar jooby-kafka-3.0.6-sources.jar jooby-caffeine-3.0.6.pom jooby-caffeine-3.0.6-sources.jar jooby-jackson-3.0.6.pom jooby-jackson-3.0.6-sources.jar jooby-gson-3.0.6.pom jooby-gson-3.0.6-sources.jar jooby-avaje-jsonb-3.0.6.pom jooby-avaje-jsonb-3.0.6-sources.jar jooby-yasson-3.0.6.pom jooby-yasson-3.0.6-sources.jar jooby-graphql-3.0.6.pom jooby-graphql-3.0.6-sources.jar jooby-graphiql-3.0.6.pom jooby-graphiql-3.0.6-sources.jar jooby-graphql-playground-3.0.6.pom jooby-graphql-playground-3.0.6-sources.jar jooby-freemarker-3.0.6.pom jooby-freemarker-3.0.6-sources.jar jooby-handlebars-3.0.6.pom jooby-handlebars-3.0.6.jar jooby-handlebars-3.0.6-sources.jar jooby-jstachio-3.0.6.pom jooby-jstachio-3.0.6-sources.jar jooby-jte-3.0.6.pom jooby-jte-3.0.6-sources.jar jooby-pebble-3.0.6.pom jooby-pebble-3.0.6-sources.jar jooby-rocker-3.0.6.pom jooby-rocker-3.0.6.jar jooby-rocker-3.0.6-sources.jar jooby-thymeleaf-3.0.6.pom jooby-thymeleaf-3.0.6-sources.jar jooby-node-3.0.6.pom jooby-node-3.0.6.jar jooby-camel-3.0.6.pom jooby-camel-3.0.6.jar jooby-camel-3.0.6-sources.jar jooby-pac4j-3.0.6.pom jooby-pac4j-3.0.6-sources.jar jooby-quartz-3.0.6.pom jooby-quartz-3.0.6.jar jooby-quartz-3.0.6-sources.jar jooby-awssdk-v1-3.0.6.pom jooby-awssdk-v1-3.0.6.jar jooby-awssdk-v1-3.0.6-sources.jar jooby-guice-3.0.6.pom jooby-guice-3.0.6-sources.jar jooby-commons-email-3.0.6.pom jooby-commons-email-3.0.6.jar jooby-commons-email-3.0.6-sources.jar jooby-run-3.0.6.pom jooby-run-3.0.6.jar jooby-run-3.0.6-sources.jar jooby-cli-3.0.6.pom jooby-cli-3.0.6-sources.jar jooby-maven-plugin-3.0.6.pom jooby-maven-plugin-3.0.6.jar jooby-maven-plugin-3.0.6-sources.jar jooby-jwt-3.0.6.pom jooby-jwt-3.0.6.jar jooby-jwt-3.0.6-sources.jar jooby-reactor-3.0.6.pom jooby-reactor-3.0.6-sources.jar jooby-rxjava3-3.0.6.pom jooby-rxjava3-3.0.6-sources.jar jooby-mutiny-3.0.6.pom jooby-mutiny-3.0.6-sources.jar jooby-whoops-3.0.6.pom jooby-whoops-3.0.6.jar jooby-whoops-3.0.6-sources.jar jooby-metrics-3.0.6.pom jooby-metrics-3.0.6-sources.jar jooby-jasypt-3.0.6.pom jooby-jasypt-3.0.6.jar jooby-jasypt-3.0.6-sources.jar jooby-distribution-3.0.6.pom jooby-distribution-3.0.6.jar jooby-distribution-3.0.6-sources.jar jooby-stork-3.0.6.pom jooby-stork-3.0.6.xml jooby-gradle-setup-3.0.6.pom"
+koFiles="jooby-3.0.6.jar jooby-netty-3.0.6.jar jooby-test-3.0.6.jar jooby-apt-3.0.6.jar jooby-logback-3.0.6.jar jooby-log4j-3.0.6.jar jooby-conscrypt-3.0.6.jar jooby-jetty-3.0.6.jar jooby-openapi-3.0.6.jar jooby-swagger-ui-3.0.6.jar jooby-redoc-3.0.6.jar jooby-hikari-3.0.6.jar jooby-jdbi-3.0.6.jar jooby-hibernate-3.0.6.jar jooby-flyway-3.0.6.jar jooby-ebean-3.0.6.jar jooby-redis-3.0.6.jar jooby-caffeine-3.0.6.jar jooby-jackson-3.0.6.jar jooby-gson-3.0.6.jar jooby-avaje-jsonb-3.0.6.jar jooby-yasson-3.0.6.jar jooby-graphql-3.0.6.jar jooby-graphiql-3.0.6.jar jooby-graphql-playground-3.0.6.jar jooby-freemarker-3.0.6.jar jooby-jstachio-3.0.6.jar jooby-jte-3.0.6.jar jooby-pebble-3.0.6.jar jooby-thymeleaf-3.0.6.jar jooby-pac4j-3.0.6.jar jooby-guice-3.0.6.jar jooby-cli-3.0.6.jar jooby-cli-3.0.6.zip jooby-reactor-3.0.6.jar jooby-rxjava3-3.0.6.jar jooby-mutiny-3.0.6.jar jooby-metrics-3.0.6.jar tests-3.0.6.pom tests-3.0.6.jar tests-3.0.6-sources.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.jooby/jooby-3.0.6.jar jooby/target/jooby-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-netty-3.0.6.jar modules/jooby-netty/target/jooby-netty-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-test-3.0.6.jar modules/jooby-test/target/jooby-test-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-apt-3.0.6.jar modules/jooby-apt/target/jooby-apt-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-logback-3.0.6.jar modules/jooby-logback/target/jooby-logback-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-log4j-3.0.6.jar modules/jooby-log4j/target/jooby-log4j-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-conscrypt-3.0.6.jar modules/jooby-conscrypt/target/jooby-conscrypt-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-jetty-3.0.6.jar modules/jooby-jetty/target/jooby-jetty-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-openapi-3.0.6.jar modules/jooby-openapi/target/jooby-openapi-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-swagger-ui-3.0.6.jar modules/jooby-swagger-ui/target/jooby-swagger-ui-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-redoc-3.0.6.jar modules/jooby-redoc/target/jooby-redoc-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-hikari-3.0.6.jar modules/jooby-hikari/target/jooby-hikari-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-jdbi-3.0.6.jar modules/jooby-jdbi/target/jooby-jdbi-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-hibernate-3.0.6.jar modules/jooby-hibernate/target/jooby-hibernate-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-flyway-3.0.6.jar modules/jooby-flyway/target/jooby-flyway-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-ebean-3.0.6.jar modules/jooby-ebean/target/jooby-ebean-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-redis-3.0.6.jar modules/jooby-redis/target/jooby-redis-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-caffeine-3.0.6.jar modules/jooby-caffeine/target/jooby-caffeine-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-jackson-3.0.6.jar modules/jooby-jackson/target/jooby-jackson-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-gson-3.0.6.jar modules/jooby-gson/target/jooby-gson-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-avaje-jsonb-3.0.6.jar modules/jooby-avaje-jsonb/target/jooby-avaje-jsonb-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-yasson-3.0.6.jar modules/jooby-yasson/target/jooby-yasson-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-graphql-3.0.6.jar modules/jooby-graphql/target/jooby-graphql-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-graphiql-3.0.6.jar modules/jooby-graphiql/target/jooby-graphiql-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-graphql-playground-3.0.6.jar modules/jooby-graphql-playground/target/jooby-graphql-playground-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-freemarker-3.0.6.jar modules/jooby-freemarker/target/jooby-freemarker-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-jstachio-3.0.6.jar modules/jooby-jstachio/target/jooby-jstachio-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-jte-3.0.6.jar modules/jooby-jte/target/jooby-jte-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-pebble-3.0.6.jar modules/jooby-pebble/target/jooby-pebble-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-thymeleaf-3.0.6.jar modules/jooby-thymeleaf/target/jooby-thymeleaf-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-pac4j-3.0.6.jar modules/jooby-pac4j/target/jooby-pac4j-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-guice-3.0.6.jar modules/jooby-guice/target/jooby-guice-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-cli-3.0.6.jar modules/jooby-cli/target/jooby-cli-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-cli-3.0.6.zip modules/jooby-cli/target/jooby-cli-3.0.6.zip
+# diffoscope target/reference/io.jooby/jooby-reactor-3.0.6.jar modules/jooby-reactor/target/jooby-reactor-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-rxjava3-3.0.6.jar modules/jooby-rxjava3/target/jooby-rxjava3-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-mutiny-3.0.6.jar modules/jooby-mutiny/target/jooby-mutiny-3.0.6.jar
+# diffoscope target/reference/io.jooby/jooby-metrics-3.0.6.jar modules/jooby-metrics/target/jooby-metrics-3.0.6.jar
+# diffoscope target/reference/io.jooby/tests-3.0.6.pom tests/pom.xml
+# diffoscope target/reference/io.jooby/tests-3.0.6.jar tests/target/tests-3.0.6.jar
+# diffoscope target/reference/io.jooby/tests-3.0.6-sources.jar tests/target/tests-3.0.6-sources.jar
