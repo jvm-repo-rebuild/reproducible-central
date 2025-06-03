@@ -3,9 +3,51 @@
   <groupId>io.takari.maven.plugins</groupId>
   <artifactId>takari-lifecycle-plugin</artifactId>
   <versioning>
-    <latest>2.3.0</latest>
-    <release>2.3.0</release>
+    <latest>2.3.1</latest>
+    <release>2.3.1</release>
     <versions>
+      <version>1.0.5</version>
+      <version>1.1.0</version>
+      <version>1.2.0</version>
+      <version>1.2.1</version>
+      <version>1.2.2</version>
+      <version>1.2.3</version>
+      <version>1.3.0</version>
+      <version>1.4.1</version>
+      <version>1.5.0</version>
+      <version>1.6.1</version>
+      <version>1.6.3</version>
+      <version>1.6.5</version>
+      <version>1.7.0</version>
+      <version>1.7.2</version>
+      <version>1.7.3</version>
+      <version>1.7.4</version>
+      <version>1.7.5</version>
+      <version>1.8.0</version>
+      <version>1.8.1</version>
+      <version>1.8.2</version>
+      <version>1.8.3</version>
+      <version>1.8.4</version>
+      <version>1.8.5</version>
+      <version>1.9.2</version>
+      <version>1.10.0</version>
+      <version>1.10.1</version>
+      <version>1.10.2</version>
+      <version>1.10.3</version>
+      <version>1.11.3</version>
+      <version>1.11.4</version>
+      <version>1.11.5</version>
+      <version>1.11.6</version>
+      <version>1.11.7</version>
+      <version>1.11.8</version>
+      <version>1.11.9</version>
+      <version>1.11.10</version>
+      <version>1.11.11</version>
+      <version>1.11.12</version>
+      <version>1.12.0</version>
+      <version>1.12.1</version>
+      <version>1.12.2</version>
+      <version>1.12.3</version>
       <version>1.12.4</version>
       <version>1.12.5</version>
       <version>1.12.6</version>
@@ -41,7 +83,8 @@
       <version>2.1.8</version>
       <version>2.2.0</version>
       <version>2.3.0</version>
+      <version>2.3.1</version>
     </versions>
-    <lastUpdated>20250501125733</lastUpdated>
+    <lastUpdated>20250603152336</lastUpdated>
   </versioning>
 </metadata>

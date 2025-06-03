@@ -1,7 +1,9 @@
-content/com/spotify/github-client/github-client-0.4.5.buildspec:0.4.6
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
-content/eu/maveniverse/maven/njord/njord-0.7.0.buildspec:0.7.1
-content/io/airlift/airbase/airbase-262.buildspec:263
+content/io/avaje/http/avaje-http-3.3.buildspec:3.4-RC1
 content/io/avaje/jsonb/avaje-jsonb-3.5-RC2.buildspec:3.5
-content/org/codehaus/mojo/mojo-parent/mojo-parent-90.buildspec:91
-content/org/webjars/bootstrap/bootstrap-5.3.5.buildspec:5.3.6
+content/io/github/cbarlin/aru/aru-0.2.3.buildspec:0.2.4
+content/io/takari/takari-archiver/takari-archiver-1.0.3.buildspec:1.0.4
+content/io/takari/maven/plugins/takari-lifecycle-plugin/takari-lifecycle-plugin-2.3.0.buildspec:2.3.1
+content/io/takari/maven/plugins/takari-plugin-testing/takari-plugin-testing-3.1.0.buildspec:3.1.1
+content/org/apache/johnzon/johnzon-2.0.1.buildspec:2.0.2
+content/org/codehaus/plexus/plexus-pom/plexus-pom-21.buildspec:22
