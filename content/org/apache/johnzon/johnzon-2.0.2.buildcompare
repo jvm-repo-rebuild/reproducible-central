@@ -1,0 +1,9 @@
+version=2.0.2
+ok=37
+ko=0
+ignored=0
+okFiles="johnzon-2.0.2.pom johnzon-2.0.2-source-release.zip johnzon-core-2.0.2.pom johnzon-core-2.0.2.jar johnzon-core-2.0.2-sources.jar johnzon-mapper-2.0.2.pom johnzon-mapper-2.0.2.jar johnzon-mapper-2.0.2-sources.jar johnzon-jaxrs-2.0.2.pom johnzon-jaxrs-2.0.2.jar johnzon-jaxrs-2.0.2-sources.jar johnzon-jsonb-2.0.2.pom johnzon-jsonb-2.0.2.jar johnzon-jsonb-2.0.2-sources.jar johnzon-websocket-2.0.2.pom johnzon-websocket-2.0.2.jar johnzon-websocket-2.0.2-sources.jar johnzon-jsonschema-2.0.2.pom johnzon-jsonschema-2.0.2.jar johnzon-jsonschema-2.0.2-sources.jar johnzon-maven-plugin-2.0.2.pom johnzon-maven-plugin-2.0.2.jar johnzon-maven-plugin-2.0.2-sources.jar apache-johnzon-2.0.2.pom apache-johnzon-2.0.2-src.zip apache-johnzon-2.0.2-src.tar.gz apache-johnzon-2.0.2-bin.tar.gz apache-johnzon-2.0.2-bin.zip johnzon-jsonb-extras-2.0.2.pom johnzon-jsonb-extras-2.0.2.jar johnzon-jsonb-extras-2.0.2-sources.jar johnzon-osgi-2.0.2.pom johnzon-osgi-2.0.2.jar johnzon-osgi-2.0.2-sources.jar johnzon-jsonlogic-2.0.2.pom johnzon-jsonlogic-2.0.2.jar johnzon-jsonlogic-2.0.2-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
