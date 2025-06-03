@@ -1,0 +1,16 @@
+groupId=org.codehaus.plexus
+artifactId=plexus
+display=${groupId}:${artifactId}
+version=22
+
+gitRepo=https://github.com/codehaus-plexus/${artifactId}-pom.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.9
+jdk=17
+newline=lf
+
+command="mvn -Pplexus-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=

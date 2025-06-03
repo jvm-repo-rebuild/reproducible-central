@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus
+group-id=org.codehaus.plexus
+artifact-id=plexus
+version=22
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-pom.git
+source.scm.tag=plexus-22
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.15
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-22.pom
+outputs.0.length=30896
+outputs.0.checksums.sha512=ab23957d7f2d275ba9e100bb8f083cd33f15e0e84a6c02fccd28ae88c4a98f8c25807d03ef2540efdd0cadb596511a5dc59292db63838e8bae4483fe2f75da64
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-22-site.xml
+outputs.1.length=2981
+outputs.1.checksums.sha512=3b3671dd68078acc8a2ed07bd3decd0b7ee2cf8b5d1d5dc70d30fddbfe7d8ca0680b595451e477af0cbcb96996b300191447c7c06dd7df1232ac504b19102390
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-22-source-release.zip
+outputs.2.length=28693
+outputs.2.checksums.sha512=15e13546ea9e136903c2f99a61ebdfb98a98bd37d39cc041d82db01a6dc8493c0e9f83897b525c3421334b79350207c76d97f650ba7fec7b25f814b8646266dc
