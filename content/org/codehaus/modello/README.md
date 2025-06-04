@@ -36,6 +36,7 @@ rebuilding **8 releases** of org.codehaus.modello:modello:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.5.1](https://central.sonatype.com/artifact/org.codehaus.modello/modello/2.5.1/pom) | | | |
 | [2.5.0](https://central.sonatype.com/artifact/org.codehaus.modello/modello/2.5.0/pom) | [mvn jdk21](modello-2.5.0.buildspec) | [result](modello-2.5.0.buildinfo): [37 :white_check_mark: ](modello-2.5.0.buildcompare) | 5.5M |
 | [2.4.0](https://central.sonatype.com/artifact/org.codehaus.modello/modello/2.4.0/pom) | [mvn jdk21](modello-2.4.0.buildspec) | [result](modello-2.4.0.buildinfo): [38 :white_check_mark: ](modello-2.4.0.buildcompare) | 496K |
 | [2.3.0](https://central.sonatype.com/artifact/org.codehaus.modello/modello/2.3.0/pom) | [mvn jdk21](modello-2.3.0.buildspec) | [result](modello-2.3.0.buildinfo): [38 :white_check_mark: ](modello-2.3.0.buildcompare) | 496K |
