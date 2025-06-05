@@ -1,7 +1,10 @@
-content/com/spotify/github-client/github-client-0.4.6.buildspec:0.4.7
+content/de/gematik/pki/gemLibPki/gemLibPki-3.1.3.buildspec:3.1.4
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
-content/eu/maveniverse/maven/mimir/mimir-0.7.7.buildspec:0.7.8
-content/io/airlift/airbase/airbase-263.buildspec:265
+content/eu/maveniverse/maven/mimir/mimir-0.7.8.buildspec:0.7.9
+content/eu/maveniverse/maven/njord/njord-0.7.1.buildspec:0.7.2
+content/eu/maveniverse/maven/toolbox/toolbox-0.10.1.buildspec:0.10.2
 content/io/avaje/http/avaje-http-3.3.buildspec:3.4-RC1
 content/io/avaje/jsonb/avaje-jsonb-3.5-RC2.buildspec:3.5
-content/org/codehaus/modello/modello-2.5.0.buildspec:2.5.1
+content/io/telicent/jena/rdf-abac/rdf-abac-1.0.0.buildspec:1.0.1
+content/io/yupiik/fusion/fusion-1.0.25.buildspec:1.0.26
+content/org/codehaus/mojo/build-helper-maven-plugin/build-helper-maven-plugin-3.6.0.buildspec:3.6.1
