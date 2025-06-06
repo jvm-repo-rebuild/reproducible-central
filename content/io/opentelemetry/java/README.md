@@ -42,13 +42,13 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java.git](https://
 * [io.opentelemetry:opentelemetry-sdk-trace](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-trace/overview)
 </details>
 
-rebuilding **17 releases** of io.opentelemetry:opentelemetry-sdk:
-- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **18 releases** of io.opentelemetry:opentelemetry-sdk:
+- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.51.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.51.0/pom) | | | |
+| [1.51.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.51.0/pom) | [gradle jdk17](opentelemetry-sdk-1.51.0.buildspec) | [result](opentelemetry-sdk-1.51.0.buildinfo): [83 :white_check_mark: ](opentelemetry-sdk-1.51.0.buildcompare) | 3.4M |
 | [1.50.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.50.0/pom) | [gradle jdk17](opentelemetry-sdk-1.50.0.buildspec) | [result](opentelemetry-sdk-1.50.0.buildinfo): [83 :white_check_mark: ](opentelemetry-sdk-1.50.0.buildcompare) | 3.3M |
 | [1.49.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.49.0/pom) | [gradle jdk17](opentelemetry-sdk-1.49.0.buildspec) | [result](opentelemetry-sdk-1.49.0.buildinfo): [83 :white_check_mark: ](opentelemetry-sdk-1.49.0.buildcompare) | 3.2M |
 | [1.48.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.48.0/pom) | [gradle jdk17](opentelemetry-sdk-1.48.0.buildspec) | [result](opentelemetry-sdk-1.48.0.buildinfo): [83 :white_check_mark: ](opentelemetry-sdk-1.48.0.buildcompare) | 3.2M |
