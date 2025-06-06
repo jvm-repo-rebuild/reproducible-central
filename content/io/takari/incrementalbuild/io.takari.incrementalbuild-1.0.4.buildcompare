@@ -1,0 +1,10 @@
+version=1.0.4
+ok=16
+ko=1
+ignored=0
+okFiles="io.takari.incrementalbuild-1.0.4.pom takari-builder-common-1.0.4.pom takari-builder-common-1.0.4.jar takari-builder-common-1.0.4-sources.jar incrementalbuild-1.0.4.pom incrementalbuild-1.0.4.jar incrementalbuild-1.0.4-sources.jar takari-builder-enforcer-1.0.4.pom takari-builder-enforcer-1.0.4.jar takari-builder-enforcer-1.0.4-sources.jar takari-builder-1.0.4.pom takari-builder-1.0.4.jar takari-builder-1.0.4-sources.jar takari-builder-apt-1.0.4.pom takari-builder-apt-1.0.4.jar takari-builder-apt-1.0.4-sources.jar"
+koFiles="takari-builder-1.0.4-tests.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.takari.builder/takari-builder-1.0.4-tests.jar takari-builder/target/takari-builder-1.0.4-tests.jar
