@@ -1,0 +1,22 @@
+groupId=org.apache.maven
+artifactId=maven
+display=${groupId}:${artifactId}
+version=3.9.10
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+sourceDistribution=https://archive.apache.org/dist/maven/maven-3/${version}/source/apache-maven-${version}-src.zip
+sourcePath=apache-maven-${version}
+sourceRmFiles=DEPENDENCIES
+
+tool=mvn
+jdk=21
+newline=lf
+umask=022
+
+buildNumber="5f519b97e944483d878815739f519b2eade0a91d"
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -DbuildNumber=${buildNumber}"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
