@@ -1,0 +1,163 @@
+# compiler seems to geenrate a non-reproducible value from code: https://github.com/trinodb/trino/blob/7f3746a7fa0b27ace2470340e848feaf3ee73f48/core/trino-main/src/main/java/io/trino/operator/window/GroupsFraming.java#L64
+1 / 7 target/reference/io.trino/trino-main-476.jar core/trino-main/target/trino-main-476.jar
+--- target/reference/io.trino/trino-main-476.jar
++++ core/trino-main/target/trino-main-476.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 9089142 bytes, number of entries: 4225
+│ +Zip file size: 9089144 bytes, number of entries: 4225
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-06 03:06 META-INF/
+│  -rw-r--r--  2.0 unx      298 b- defN 25-Jun-06 03:06 META-INF/MANIFEST.MF
+│ @@ -2322,15 +2322,15 @@
+│  -rw-r--r--  2.0 unx     1885 b- defN 25-Jun-06 03:06 io/trino/operator/window/GroupsFraming$GroupsFrame.class
+│  -rw-r--r--  2.0 unx      757 b- defN 25-Jun-06 03:06 io/trino/operator/window/GroupsFraming$PositionAndGroup.class
+│ --rw-r--r--  2.0 unx     9805 b- defN 25-Jun-06 03:06 io/trino/operator/window/GroupsFraming.class
+│ +-rw-r--r--  2.0 unx     9806 b- defN 25-Jun-06 03:06 io/trino/operator/window/GroupsFraming.class
+│  -rw-r--r--  2.0 unx      441 b- defN 25-Jun-06 03:06 io/trino/operator/window/InternalWindowIndex.class
+│  -rw-r--r--  2.0 unx     2920 b- defN 25-Jun-06 03:06 io/trino/operator/window/LagFunction.class
+│ @@ -4220,8 +4220,8 @@
+│  -rw-r--r--  2.0 unx    16294 b- defN 25-Jun-06 03:06 META-INF/maven/io.trino/trino-main/pom.xml
+│  -rw-r--r--  2.0 unx       51 b- defN 25-Jun-06 03:06 META-INF/maven/io.trino/trino-main/pom.properties
+│ -4225 files, 22097432 bytes uncompressed, 8293766 bytes compressed:  62.5%
+│ +4225 files, 22097433 bytes uncompressed, 8293768 bytes compressed:  62.5%
+├── io/trino/operator/window/GroupsFraming.class
+│ ├── procyon -ec {}
+│ │ @@ -27,23 +27,23 @@
+│ │          this.partitionStart = partitionStart;
+│ │          this.partitionEnd = partitionEnd;
+│ │          this.pagesIndex = pagesIndex;
+│ │          this.recentFrame = new GroupsFraming.GroupsFrame(0, 0, initialEnd, 0);
+│ │          this.seekGroupStart = (Function<Integer, Integer>)(position -> {
+│ │              Objects.requireNonNull(position, "position is null");
+│ │              while (position > 0 && pagesIndex.positionIdenticalToPosition(peerGroupHashStrategy, partitionStart + (int)position, partitionStart + position - 1)) {
+│ │ -                final Integer $931686637 = position;
+│ │ +                final Integer $959352357 = position;
+│ │                  position = Integer.valueOf((int)position - 1);
+│ │              }
+│ │              return position;
+│ │          });
+│ │          this.seekGroupEnd = (Function<Integer, Integer>)(position -> {
+│ │              Objects.requireNonNull(position, "position is null");
+│ │              while (position < partitionEnd - 1 - partitionStart && pagesIndex.positionIdenticalToPosition(peerGroupHashStrategy, partitionStart + (int)position, partitionStart + position + 1)) {
+│ │ -                final Integer $931686638 = position;
+│ │ +                final Integer $959352358 = position;
+│ │                  position = Integer.valueOf((int)position + 1);
+│ │              }
+│ │              return position;
+│ │          });
+│ │      }
+│ │      
+│ │      public Framing.Range getRange(final int currentPosition, final int currentGroup, final int peerGroupStart, final int peerGroupEnd) {
+
+2 / 7 target/reference/io.trino/trino-parquet-476-tests.jar lib/trino-parquet/target/trino-parquet-476-tests.jar
+--- target/reference/io.trino/trino-parquet-476-tests.jar
++++ lib/trino-parquet/target/trino-parquet-476-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 2064490 bytes, number of entries: 310
+│ +Zip file size: 2064489 bytes, number of entries: 310
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-06 03:06 META-INF/
+│  -rw-r--r--  2.0 unx      304 b- defN 25-Jun-06 03:06 META-INF/MANIFEST.MF
+│ @@ -305,8 +305,8 @@
+│  -rw-r--r--  2.0 unx     9151 b- defN 25-Jun-06 03:06 META-INF/maven/io.trino/trino-parquet/pom.xml
+│  -rw-r--r--  2.0 unx       54 b- defN 25-Jun-06 03:06 META-INF/maven/io.trino/trino-parquet/pom.properties
+│ -310 files, 2744020 bytes uncompressed, 2001474 bytes compressed:  27.1%
+│ +310 files, 2744020 bytes uncompressed, 2001473 bytes compressed:  27.1%
+├── io/trino/parquet/reader/TestingColumnReader.class
+│ ├── procyon -ec {}
+│ │ @@ -337,17 +337,17 @@
+│ │                  }
+│ │              }
+│ │              return result;
+│ │          });
+│ │          WRITE_INT = ((writer, values) -> {
+│ │              for (int i = 0; i < values.length; ++i) {
+│ │                  if (values[i] != null) {
+│ │ -                    final Integer[] $1590960032 = values;
+│ │ -                    final int $1590960033 = i;
+│ │ -                    $1590960032[$1590960033] = Integer.valueOf((int)$1590960032[$1590960033] * 1001);
+│ │ +                    final Integer[] $845575093 = values;
+│ │ +                    final int $845575094 = i;
+│ │ +                    $845575093[$845575094] = Integer.valueOf((int)$845575093[$845575094] * 1001);
+│ │                      writer.writeInteger((int)values[i]);
+│ │                  }
+│ │              }
+│ │              return values;
+│ │          });
+│ │          WRITE_LONG = ((writer, values) -> {
+│ │              final Number[] result = new Number[values.length];
+
+3 / 7 target/reference/io.trino/trino-faker-476.zip plugin/trino-faker/target/trino-faker-476.zip
+--- target/reference/io.trino/trino-faker-476.zip
++++ plugin/trino-faker/target/trino-faker-476.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 34073851 bytes, number of entries: 86
+│ +Zip file size: 34073865 bytes, number of entries: 86
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 08:00 trino-faker-476/
+│  ?rw-r--r--  2.0 unx     4467 bl defN 80-Jan-01 08:00 trino-faker-476/aopalliance_aopalliance-1.0.jar
+│ @@ -41,15 +41,15 @@
+│  ?rw-r--r--  2.0 unx   102769 bl defN 80-Jan-01 08:00 trino-faker-476/io.trino_trino-faker-476.jar
+│  ?rw-r--r--  2.0 unx   812019 bl defN 80-Jan-01 08:00 trino-faker-476/io.trino_trino-grammar-476.jar
+│ -?rw-r--r--  2.0 unx  9089142 bl defN 80-Jan-01 08:00 trino-faker-476/io.trino_trino-main-476.jar
+│ +?rw-r--r--  2.0 unx  9089144 bl defN 80-Jan-01 08:00 trino-faker-476/io.trino_trino-main-476.jar
+│  ?rw-r--r--  2.0 unx    22609 bl defN 80-Jan-01 08:00 trino-faker-476/io.trino_trino-matching-476.jar
+│  ?rw-r--r--  2.0 unx   779447 bl defN 80-Jan-01 08:00 trino-faker-476/io.trino_trino-parser-476.jar
+│ @@ -81,8 +81,8 @@
+│  ?rw-r--r--  2.0 unx   339825 bl defN 80-Jan-01 08:00 trino-faker-476/org.yaml_snakeyaml-2.4.jar
+│  ?rw-r--r--  2.0 unx      226 bl defN 80-Jan-01 08:00 trino-faker-476/trino-faker-476-services.jar
+│ -86 files, 37207985 bytes uncompressed, 34056339 bytes compressed:  8.5%
+│ +86 files, 37207987 bytes uncompressed, 34056353 bytes compressed:  8.5%
+
+4 / 7 target/reference/io.trino/trino-thrift-testing-server-476.tar.gz plugin/trino-thrift-testing-server/target/trino-thrift-testing-server-476.tar.gz
+--- target/reference/io.trino/trino-thrift-testing-server-476.tar.gz
++++ plugin/trino-thrift-testing-server/target/trino-thrift-testing-server-476.tar.gz
+├── trino-thrift-testing-server-476.tar
+│ ├── file list
+│ │ @@ -119,15 +119,15 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)  2213560 2025-06-06 03:06:43.000000 trino-thrift-testing-server-476/lib/commons-math3-3.6.1.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   373045 2025-06-06 03:06:43.000000 trino-thrift-testing-server-476/lib/commons-codec-1.18.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  9089142 2025-06-06 03:06:43.000000 trino-thrift-testing-server-476/lib/trino-main-476.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)  9089144 2025-06-06 03:06:43.000000 trino-thrift-testing-server-476/lib/trino-main-476.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    31316 2025-06-06 03:06:43.000000 trino-thrift-testing-server-476/lib/bootstrap-336.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   459295 2025-06-06 03:06:43.000000 trino-thrift-testing-server-476/lib/RoaringBitmap-1.3.0.jar
+
+5 / 7 target/reference/io.trino/trino-server-core-476.tar.gz core/trino-server-core/target/trino-server-core-476.tar.gz
+--- target/reference/io.trino/trino-server-core-476.tar.gz
++++ core/trino-server-core/target/trino-server-core-476.tar.gz
+├── trino-server-core-476.tar
+│ ├── file list
+│ │ @@ -102,15 +102,15 @@
+│ │  -rw-r--r--   0        0        0    37917 1980-01-01 08:00:00.000000 trino-server-core-476/lib/io.trino_trino-geospatial-toolkit-476.jar
+│ │  -rw-r--r--   0        0        0   812019 1980-01-01 08:00:00.000000 trino-server-core-476/lib/io.trino_trino-grammar-476.jar
+│ │ --rw-r--r--   0        0        0  9089142 1980-01-01 08:00:00.000000 trino-server-core-476/lib/io.trino_trino-main-476.jar
+│ │ +-rw-r--r--   0        0        0  9089144 1980-01-01 08:00:00.000000 trino-server-core-476/lib/io.trino_trino-main-476.jar
+│ │  -rw-r--r--   0        0        0    22609 1980-01-01 08:00:00.000000 trino-server-core-476/lib/io.trino_trino-matching-476.jar
+│ │  -rw-r--r--   0        0        0    14015 1980-01-01 08:00:00.000000 trino-server-core-476/lib/io.trino_trino-memory-context-476.jar
+
+6 / 7 target/reference/io.trino/trino-server-476.tar.gz core/trino-server/target/trino-server-476.tar.gz
+--- target/reference/io.trino/trino-server-476.tar.gz
++++ core/trino-server/target/trino-server-476.tar.gz
+├── trino-server-476.tar
+│ ├── file list
+│ │ @@ -102,15 +102,15 @@
+│ │  -rw-r--r--   0        0        0    37917 1980-01-01 08:00:00.000000 trino-server-476/lib/io.trino_trino-geospatial-toolkit-476.jar
+│ │  -rw-r--r--   0        0        0   812019 1980-01-01 08:00:00.000000 trino-server-476/lib/io.trino_trino-grammar-476.jar
+│ │ --rw-r--r--   0        0        0  9089142 1980-01-01 08:00:00.000000 trino-server-476/lib/io.trino_trino-main-476.jar
+│ │ +-rw-r--r--   0        0        0  9089144 1980-01-01 08:00:00.000000 trino-server-476/lib/io.trino_trino-main-476.jar
+│ │  -rw-r--r--   0        0        0    22609 1980-01-01 08:00:00.000000 trino-server-476/lib/io.trino_trino-matching-476.jar
+│ │  -rw-r--r--   0        0        0    14015 1980-01-01 08:00:00.000000 trino-server-476/lib/io.trino_trino-memory-context-476.jar
+
+7 / 7 target/reference/io.trino/trino-plugin-reader-476-executable.jar testing/trino-plugin-reader/target/trino-plugin-reader-476-executable.jar
+--- target/reference/io.trino/trino-plugin-reader-476-executable.jar
++++ testing/trino-plugin-reader/target/trino-plugin-reader-476-executable.jar
+@@ -477812,3716493 +477812,3716493 @@
+ 0074a730: 5ac3 7ae6 37b0 493e 244e 99e2 06c2 1b50  Z.z.7.I>$N.....P
+ 0074a740: 4b07 08a4 bc4d fbb2 0100 00f5 0200 0050  K....M.........P
+ 0074a750: 4b03 0414 0008 0808 00d5 18c6 5a00 0000  K...........Z...
+ 0074a760: 0000 0000 0000 0000 002c 0000 0069 6f2f  .........,...io/
+ 0074a770: 7472 696e 6f2f 6f70 6572 6174 6f72 2f77  trino/operator/w
+ 0074a780: 696e 646f 772f 4772 6f75 7073 4672 616d  indow/GroupsFram
+ 0074a790: 696e 672e 636c 6173 73c5 590b 7814 d775  ing.class.Y.x..u
+-0074a7a0: fecf be66 b51a 402c ac84 9030 022f b05a  ...f..@,...0./.Z
+-0074a7b0: 2116 0496 4002 cc4b 4202 0102 f130 8fc4  !...@..KB....0..
