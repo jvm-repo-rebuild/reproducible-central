@@ -1,8 +1,5 @@
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
-content/io/trino/trino-475.buildspec:476
+content/eu/maveniverse/maven/njord/njord-0.7.2.buildspec:0.7.4
 content/io/avaje/jsonb/avaje-jsonb-3.5-RC2.buildspec:3.5
-content/io/github/chains-project/maven-lockfile/maven-lockfile-5.5.2.buildspec:5.5.3
-content/io/github/rockcrafters/plugins/rockcraft-parent-1.1.1.buildspec:1.1.2
-content/io/opentelemetry/java/opentelemetry-sdk-1.50.0.buildspec:1.51.0
-content/org/apache/sling/org.apache.sling.engine/org.apache.sling.engine-2.16.2.buildspec:2.16.4
-content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.0.0.CR1.buildspec:8.0.0.Final
+content/org/junit/junit5/junit5-5.13.0.buildspec:5.13.1
+content/org/owasp/dependency-check/dependency-check-12.1.1.buildspec:12.1.2
