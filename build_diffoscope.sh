@@ -24,7 +24,15 @@ grep '# diffoscope ' ${compare} | ${sed} -e 's/# diffoscope //' | ( while read -
 do
   ((counter++))
   echo -e "$counter / $count \033[1m$line\033[0m"
-  docker run --rm -w /mnt -v $(pwd)/$(dirname ${compare})/${builddir}:/mnt:ro ghcr.io/jvm-repo-rebuild/diffoscope --no-progress --exclude META-INF/jandex.idx $line
+  if $(which -s diffoscope)
+  then
+    (
+      cd $(pwd)/$(dirname ${compare})/${builddir}
+      diffoscope --no-progress --exclude META-INF/jandex.idx $line
+    )
+  else
+    docker run --rm -w /mnt -v $(pwd)/$(dirname ${compare})/${builddir}:/mnt:ro ghcr.io/jvm-repo-rebuild/diffoscope --no-progress --exclude META-INF/jandex.idx $line
+  fi
   echo
 done ) | tee ${diffoscope_file}
 
