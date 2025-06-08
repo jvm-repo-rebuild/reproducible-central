@@ -1,5 +1,7 @@
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
 content/eu/maveniverse/maven/njord/njord-0.7.2.buildspec:0.7.4
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.1-beta-19.buildspec:11.2.1-beta-20
+content/io/airlift/airbase/airbase-265.buildspec:266
 content/io/avaje/jsonb/avaje-jsonb-3.5-RC2.buildspec:3.5
 content/org/junit/junit5/junit5-5.13.0.buildspec:5.13.1
 content/org/owasp/dependency-check/dependency-check-12.1.1.buildspec:12.1.2
