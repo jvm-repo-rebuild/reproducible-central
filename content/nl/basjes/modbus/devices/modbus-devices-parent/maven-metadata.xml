@@ -3,15 +3,16 @@
   <groupId>nl.basjes.modbus.devices</groupId>
   <artifactId>modbus-devices-parent</artifactId>
   <versioning>
-    <latest>0.3.0</latest>
-    <release>0.3.0</release>
+    <latest>0.3.1</latest>
+    <release>0.3.1</release>
     <versions>
       <version>0.1.1</version>
       <version>0.2.0</version>
       <version>0.2.1</version>
       <version>0.2.2</version>
       <version>0.3.0</version>
+      <version>0.3.1</version>
     </versions>
-    <lastUpdated>20250601193333</lastUpdated>
+    <lastUpdated>20250609130106</lastUpdated>
   </versioning>
 </metadata>

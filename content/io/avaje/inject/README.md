@@ -24,6 +24,7 @@ rebuilding **29 releases** of io.avaje:avaje-inject-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [11.6-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.6-RC2/pom) | | | |
 | [11.6-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.6-RC1/pom) | [mvn jdk21](avaje-inject-11.6-RC1.buildspec) | [result](avaje-inject-parent-11.6-RC1.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-11.6-RC1.buildcompare) | 787K |
 | [11.5-javax](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.5-javax/pom) | | | |
 | [11.5](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.5/pom) | [mvn jdk24 w](avaje-inject-11.5.buildspec) | [result](avaje-inject-parent-11.5.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-11.5.buildcompare) | 787K |

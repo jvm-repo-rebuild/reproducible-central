@@ -13,6 +13,7 @@ rebuilding **8 releases** of org.mybatis:mybatis-spring:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.5](https://central.sonatype.com/artifact/org.mybatis/mybatis-spring/3.0.5/pom) | | | |
 | [3.0.4](https://central.sonatype.com/artifact/org.mybatis/mybatis-spring/3.0.4/pom) | [mvn jdk22 w](mybatis-spring-3.0.4.buildspec) | [result](mybatis-spring-3.0.4.buildinfo): [3 :white_check_mark: ](mybatis-spring-3.0.4.buildcompare) | 165K |
 | [3.0.3](https://central.sonatype.com/artifact/org.mybatis/mybatis-spring/3.0.3/pom) | [mvn jdk17](mybatis-spring-3.0.3.buildspec) | [result](mybatis-spring-3.0.3.buildinfo): [3 :white_check_mark: ](mybatis-spring-3.0.3.buildcompare) | 156K |
 | [3.0.2](https://central.sonatype.com/artifact/org.mybatis/mybatis-spring/3.0.2/pom) | [mvn jdk17](mybatis-spring-3.0.2.buildspec) | [result](mybatis-spring-3.0.2.buildinfo): [2 :white_check_mark:  1 :warning:](mybatis-spring-3.0.2.buildcompare) [:mag:](mybatis-spring-3.0.2.diffoscope) [:memo:](https://github.com/mybatis/parent/pull/472) | 154K |

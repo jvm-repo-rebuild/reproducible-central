@@ -13,6 +13,7 @@ rebuilding **44 releases** of org.webjars:swagger-ui:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [5.24.0](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.24.0/pom) | | | |
 | [5.22.0](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.22.0/pom) | | | |
 | [5.21.0](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.21.0/pom) | | | |
 | [5.20.8](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.20.8/pom) | | | |
