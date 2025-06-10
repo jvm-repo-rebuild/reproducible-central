@@ -18,13 +18,13 @@ Source code: [https://github.com/dependency-check/DependencyCheck](https://githu
 * [org.owasp:dependency-check-utils](https://central.sonatype.com/artifact/org.owasp/dependency-check-utils/overview)
 </details>
 
-rebuilding **63 releases** of org.owasp:dependency-check-parent:
-- **44** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **64 releases** of org.owasp:dependency-check-parent:
+- **45** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 19 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [12.1.3](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/12.1.3/pom) | | | |
+| [12.1.3](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/12.1.3/pom) | [mvn jdk11](dependency-check-12.1.3.buildspec) | [result](dependency-check-parent-12.1.3.buildinfo): [22 :white_check_mark: ](dependency-check-parent-12.1.3.buildcompare) | 71M |
 | [12.1.2](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/12.1.2/pom) | [mvn jdk11](dependency-check-12.1.2.buildspec) | [result](dependency-check-parent-12.1.2.buildinfo): [22 :white_check_mark: ](dependency-check-parent-12.1.2.buildcompare) | 71M |
 | [12.1.1](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/12.1.1/pom) | [mvn jdk11](dependency-check-12.1.1.buildspec) | [result](dependency-check-parent-12.1.1.buildinfo): [22 :white_check_mark: ](dependency-check-parent-12.1.1.buildcompare) | 71M |
 | [12.1.0](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/12.1.0/pom) | [mvn jdk11](dependency-check-12.1.0.buildspec) | [result](dependency-check-parent-12.1.0.buildinfo): [22 :white_check_mark: ](dependency-check-parent-12.1.0.buildcompare) | 71M |
