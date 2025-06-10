@@ -45,13 +45,13 @@ Source code: [https://github.com/hibernate/hibernate-orm.git](https://github.com
 * [org.hibernate:hibernate-vector](https://central.sonatype.com/artifact/org.hibernate/hibernate-vector/overview)
 </details>
 
-rebuilding **4 releases** of org.hibernate.orm:hibernate-core:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **5 releases** of org.hibernate.orm:hibernate-core:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [7.0.1.Final](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.0.1.Final/pom) | | | |
+| [7.0.1.Final](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.0.1.Final/pom) | [gradle jdk17](hibernate-core-7.0.1.Final.buildspec) | [result](hibernate-core-7.0.1.Final.buildinfo): [68 :white_check_mark: ](hibernate-core-7.0.1.Final.buildcompare) | 25M |
 | [7.0.0.Final](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.0.0.Final/pom) | [gradle jdk17](hibernate-core-7.0.0.Final.buildspec) | [result](hibernate-core-7.0.0.Final.buildinfo): [68 :white_check_mark: ](hibernate-core-7.0.0.Final.buildcompare) | 25M |
 | [7.0.0.CR2](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.0.0.CR2/pom) | [gradle jdk17](hibernate-core-7.0.0.CR2.buildspec) | [result](hibernate-core-7.0.0.CR2.buildinfo): [68 :white_check_mark: ](hibernate-core-7.0.0.CR2.buildcompare) | 25M |
 | [7.0.0.CR1](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.0.0.CR1/pom) | [gradle jdk17](hibernate-core-7.0.0.CR1.buildspec) | [result](hibernate-core-7.0.0.CR1.buildinfo): [68 :white_check_mark: ](hibernate-core-7.0.0.CR1.buildcompare) | 25M |
