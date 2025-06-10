@@ -13,6 +13,7 @@ rebuilding **11 releases** of org.apache.sling:org.apache.sling.event:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.3.18](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.event/4.3.18/pom) | | | |
 | [4.3.16](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.event/4.3.16/pom) | [mvn jdk11](org.apache.sling.event-4.3.16.buildspec) | [result](org.apache.sling.event-4.3.16.buildinfo): [4 :white_check_mark: ](org.apache.sling.event-4.3.16.buildcompare) | 920K |
 | [4.3.14](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.event/4.3.14/pom) | [mvn jdk11](org.apache.sling.event-4.3.14.buildspec) | [result](org.apache.sling.event-4.3.14.buildinfo): [4 :white_check_mark: ](org.apache.sling.event-4.3.14.buildcompare) | 917K |
 | [4.3.12](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.event/4.3.12/pom) | [mvn jdk8](org.apache.sling.event-4.3.12.buildspec) | [result](org.apache.sling.event-4.3.12.buildinfo): [3 :white_check_mark:  1 :warning:](org.apache.sling.event-4.3.12.buildcompare) [:mag:](org.apache.sling.event-4.3.12.diffoscope) [:memo:](https://github.com/apache/sling-org-apache-sling-event/pull/28) | 913K |
