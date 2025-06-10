@@ -19,14 +19,14 @@ Source code: [https://github.com/maveniverse/njord.git](https://github.com/maven
 * [eu.maveniverse.maven.plugins:njord](https://central.sonatype.com/artifact/eu.maveniverse.maven.plugins/njord/overview)
 </details>
 
-rebuilding **24 releases** of eu.maveniverse.maven.njord:njord:
-- **24** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **25 releases** of eu.maveniverse.maven.njord:njord:
+- **25** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [0.7.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/0.7.4/pom) | [mvn jdk21](njord-0.7.4.buildspec) | [result](njord-0.7.4.buildinfo): [20 :white_check_mark: ](njord-0.7.4.buildcompare) | 413K |
-| [0.7.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/0.7.3/pom) | | | |
+| [0.7.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/0.7.3/pom) | [mvn jdk21](njord-0.7.3.buildspec) | [result](njord-0.7.3.buildinfo): [20 :white_check_mark: ](njord-0.7.3.buildcompare) | 411K |
 | [0.7.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/0.7.2/pom) | [mvn jdk21](njord-0.7.2.buildspec) | [result](njord-0.7.2.buildinfo): [20 :white_check_mark: ](njord-0.7.2.buildcompare) | 396K |
 | [0.7.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/0.7.1/pom) | [mvn jdk21](njord-0.7.1.buildspec) | [result](njord-0.7.1.buildinfo): [20 :white_check_mark: ](njord-0.7.1.buildcompare) | 394K |
 | [0.7.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/0.7.0/pom) | [mvn jdk21](njord-0.7.0.buildspec) | [result](njord-0.7.0.buildinfo): [20 :white_check_mark: ](njord-0.7.0.buildcompare) | 395K |
