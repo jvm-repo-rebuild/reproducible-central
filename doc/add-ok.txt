@@ -1,9 +1,8 @@
+content/com/cognite/units/units-catalog/units-catalog-0.1.21.buildspec:0.1.22
+content/com/github/nbbrd/picocsv/picocsv-2.5.1.buildspec:2.6.0
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
+content/io/airlift/airbase/airbase-266.buildspec:267
 content/io/avaje/jsonb/avaje-jsonb-3.5-RC2.buildspec:3.5
-content/io/cucumber/query/query-13.2.0.buildspec:13.3.0
-content/org/apache/sling/org.apache.sling.event/org.apache.sling.event-4.3.16.buildspec:4.3.18
-content/org/apache/sling/org.apache.sling.resourceaccesssecurity/org.apache.sling.resourceaccesssecurity-1.1.0.buildspec:1.1.2
-content/org/hibernate/orm/hibernate-core/hibernate-core-7.0.0.Final.buildspec:7.0.1.Final
+content/io/telicent/smart-caches/graph/scg-base/scg-base-0.83.12.buildspec:0.83.13
+content/nl/basjes/codeowners/codeowners-parent/codeowners-parent-1.11.3.buildspec:1.12.0
 content/org/junit/junit5/junit5-5.13.0.buildspec:5.13.1
-content/org/mybatis/mybatis-spring/mybatis-spring-3.0.4.buildspec:3.0.5
-content/org/owasp/dependency-check/dependency-check-12.1.2.buildspec:12.1.3
