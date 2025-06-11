@@ -15,13 +15,13 @@ Source code: [https://github.com/nielsbasjes/codeowners.git](https://github.com/
 * [nl.basjes.maven.enforcer.codeowners:codeowners-enforcer-rules](https://central.sonatype.com/artifact/nl.basjes.maven.enforcer.codeowners/codeowners-enforcer-rules/overview)
 </details>
 
-rebuilding **25 releases** of nl.basjes.codeowners:codeowners-parent:
-- **25** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **26 releases** of nl.basjes.codeowners:codeowners-parent:
+- **26** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.12.0](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.12.0/pom) | | | |
+| [1.12.0](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.12.0/pom) | [mvn jdk21](codeowners-parent-1.12.0.buildspec) | [result](codeowners-parent-1.12.0.buildinfo): [10 :white_check_mark: ](codeowners-parent-1.12.0.buildcompare) | 482K |
 | [1.11.3](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.11.3/pom) | [mvn jdk21](codeowners-parent-1.11.3.buildspec) | [result](codeowners-parent-1.11.3.buildinfo): [10 :white_check_mark: ](codeowners-parent-1.11.3.buildcompare) | 483K |
 | [1.11.2](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.11.2/pom) | [mvn jdk21](codeowners-parent-1.11.2.buildspec) | [result](codeowners-parent-1.11.2.buildinfo): [10 :white_check_mark: ](codeowners-parent-1.11.2.buildcompare) | 468K |
 | [1.11.1](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.11.1/pom) | [mvn jdk21](codeowners-parent-1.11.1.buildspec) | [result](codeowners-parent-1.11.1.buildinfo): [10 :white_check_mark: ](codeowners-parent-1.11.1.buildcompare) | 467K |
