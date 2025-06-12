@@ -25,6 +25,7 @@ rebuilding **25 releases** of eu.maveniverse.maven.njord:njord:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.7.5](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/0.7.5/pom) | | | |
 | [0.7.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/0.7.4/pom) | [mvn jdk21](njord-0.7.4.buildspec) | [result](njord-0.7.4.buildinfo): [20 :white_check_mark: ](njord-0.7.4.buildcompare) | 413K |
 | [0.7.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/0.7.3/pom) | [mvn jdk21](njord-0.7.3.buildspec) | [result](njord-0.7.3.buildinfo): [20 :white_check_mark: ](njord-0.7.3.buildcompare) | 411K |
 | [0.7.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/0.7.2/pom) | [mvn jdk21](njord-0.7.2.buildspec) | [result](njord-0.7.2.buildinfo): [20 :white_check_mark: ](njord-0.7.2.buildcompare) | 396K |
