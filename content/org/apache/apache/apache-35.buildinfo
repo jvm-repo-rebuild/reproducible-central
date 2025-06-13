@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=The Apache Software Foundation
+group-id=org.apache
+artifact-id=apache
+version=35
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-apache-parent.git
+source.scm.tag=apache-35
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_452
+java.vendor=Private Build
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.aggregate.artifact-id=apache
+
+# aggregated output
+
+outputs.0.coordinates=org.apache:apache
+
+outputs.0.0.groupId=org.apache
+outputs.0.0.filename=apache-35.pom
+outputs.0.0.length=24249
+outputs.0.0.checksums.sha512=d599ebf085e96ab2c0fa925fec99fc046f1763743a0445e5a4bf255d8259d44aec7bd175881accf1c6562e13efc26b13a54de01c49b46032464366d41869d7e8
+
+outputs.0.1.groupId=org.apache
+outputs.0.1.filename=apache-35-source-release.zip
+outputs.0.1.length=22247
+outputs.0.1.checksums.sha512=7dcbfa0eacd43e66da1c12274bf558fb2618d3fae0831de6b0309e8df539afc07080eb1963174a0a6cc4d0d81ae8d2a01f147780f7ca44a3caa94d3ffd364b61
