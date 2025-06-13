@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quarkusio/quarkus.git)
 
-<details><summary>This project defines 1054 modules:</summary>
+<details><summary>This project defines 1065 modules:</summary>
 
 * [io.quarkus.arc:arc](https://central.sonatype.com/artifact/io.quarkus.arc/arc/overview)
 * [io.quarkus.arc:arc-arquillian](https://central.sonatype.com/artifact/io.quarkus.arc/arc-arquillian/overview)
@@ -85,6 +85,11 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-arc-test-supplement](https://central.sonatype.com/artifact/io.quarkus/quarkus-arc-test-supplement/overview)
 * [io.quarkus:quarkus-arc-test-supplement-decorator](https://central.sonatype.com/artifact/io.quarkus/quarkus-arc-test-supplement-decorator/overview)
 * [io.quarkus:quarkus-arquillian](https://central.sonatype.com/artifact/io.quarkus/quarkus-arquillian/overview)
+* [io.quarkus:quarkus-assistant](https://central.sonatype.com/artifact/io.quarkus/quarkus-assistant/overview)
+* [io.quarkus:quarkus-assistant-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-assistant-deployment/overview)
+* [io.quarkus:quarkus-assistant-deployment-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-assistant-deployment-spi/overview)
+* [io.quarkus:quarkus-assistant-dev](https://central.sonatype.com/artifact/io.quarkus/quarkus-assistant-dev/overview)
+* [io.quarkus:quarkus-assistant-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-assistant-parent/overview)
 * [io.quarkus:quarkus-avro](https://central.sonatype.com/artifact/io.quarkus/quarkus-avro/overview)
 * [io.quarkus:quarkus-avro-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-avro-deployment/overview)
 * [io.quarkus:quarkus-avro-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-avro-parent/overview)
@@ -305,6 +310,9 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-hibernate-orm](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-orm/overview)
 * [io.quarkus:quarkus-hibernate-orm-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-orm-deployment/overview)
 * [io.quarkus:quarkus-hibernate-orm-deployment-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-orm-deployment-spi/overview)
+* [io.quarkus:quarkus-hibernate-orm-derby](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-orm-derby/overview)
+* [io.quarkus:quarkus-hibernate-orm-derby-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-orm-derby-deployment/overview)
+* [io.quarkus:quarkus-hibernate-orm-derby-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-orm-derby-parent/overview)
 * [io.quarkus:quarkus-hibernate-orm-panache](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-orm-panache/overview)
 * [io.quarkus:quarkus-hibernate-orm-panache-common](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-orm-panache-common/overview)
 * [io.quarkus:quarkus-hibernate-orm-panache-common-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-orm-panache-common-deployment/overview)
@@ -898,9 +906,11 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-smallrye-graphql-client-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-graphql-client-deployment/overview)
 * [io.quarkus:quarkus-smallrye-graphql-client-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-graphql-client-parent/overview)
 * [io.quarkus:quarkus-smallrye-graphql-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-graphql-deployment/overview)
+* [io.quarkus:quarkus-smallrye-graphql-dev](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-graphql-dev/overview)
 * [io.quarkus:quarkus-smallrye-graphql-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-graphql-parent/overview)
 * [io.quarkus:quarkus-smallrye-health](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-health/overview)
 * [io.quarkus:quarkus-smallrye-health-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-health-deployment/overview)
+* [io.quarkus:quarkus-smallrye-health-dev](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-health-dev/overview)
 * [io.quarkus:quarkus-smallrye-health-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-health-parent/overview)
 * [io.quarkus:quarkus-smallrye-health-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-health-spi/overview)
 * [io.quarkus:quarkus-smallrye-jwt](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-jwt/overview)
@@ -917,6 +927,7 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-smallrye-openapi-common-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-openapi-common-deployment/overview)
 * [io.quarkus:quarkus-smallrye-openapi-common-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-openapi-common-parent/overview)
 * [io.quarkus:quarkus-smallrye-openapi-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-openapi-deployment/overview)
+* [io.quarkus:quarkus-smallrye-openapi-dev](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-openapi-dev/overview)
 * [io.quarkus:quarkus-smallrye-openapi-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-openapi-parent/overview)
 * [io.quarkus:quarkus-smallrye-openapi-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-openapi-spi/overview)
 * [io.quarkus:quarkus-smallrye-opentracing](https://central.sonatype.com/artifact/io.quarkus/quarkus-smallrye-opentracing/overview)
@@ -1065,13 +1076,13 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **88 releases** of io.quarkus:quarkus-project:
+rebuilding **89 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 88 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 89 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.24.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.24.0.CR1/pom) | | | |
+| [3.24.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.24.0.CR1/pom) | [mvn jdk17](quarkus-3.24.0.CR1.buildspec) | [result](quarkus-project-3.24.0.CR1.buildinfo): [2335 :white_check_mark:  7 :warning:](quarkus-project-3.24.0.CR1.buildcompare) [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | 133M |
 | [3.23.3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.23.3/pom) | [mvn jdk17](quarkus-3.23.3.buildspec) | [result](quarkus-project-3.23.3.buildinfo): [2313 :white_check_mark:  7 :warning:](quarkus-project-3.23.3.buildcompare) [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | 132M |
 | [3.23.2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.23.2/pom) | [mvn jdk17](quarkus-3.23.2.buildspec) | [result](quarkus-project-3.23.2.buildinfo): [2313 :white_check_mark:  7 :warning:](quarkus-project-3.23.2.buildcompare) [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | 132M |
 | [3.23.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.23.1/pom) | [mvn jdk17](quarkus-3.23.1.buildspec) | [result](quarkus-project-3.23.1.buildinfo): [2313 :white_check_mark:  7 :warning:](quarkus-project-3.23.1.buildcompare) [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | 132M |
