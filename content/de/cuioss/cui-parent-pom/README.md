@@ -19,8 +19,8 @@ Source code: [https://github.com/cuioss/cui-parent-pom.git](https://github.com/c
 </details>
 
 rebuilding **14 releases** of de.cuioss:cui-parent-pom:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -38,7 +38,7 @@ rebuilding **14 releases** of de.cuioss:cui-parent-pom:
 | [0.9.9.5](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/0.9.9.5/pom) | [mvn jdk21](cui-parent-pom-0.9.9.5.buildspec) | :x: | |
 | [0.9.9.4](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/0.9.9.4/pom) | [mvn jdk21](cui-parent-pom-0.9.9.4.buildspec) | :x: | |
 | [0.9.9.3](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/0.9.9.3/pom) | [mvn jdk21](cui-parent-pom-0.9.9.3.buildspec) | :x: | |
-| [0.9.9.2](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/0.9.9.2/pom) | [mvn jdk21](cui-parent-pom-0.9.9.2.buildspec) | :x: | |
+| [0.9.9.2](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/0.9.9.2/pom) | [mvn jdk21](cui-parent-pom-0.9.9.2.buildspec) | [result](cui-parent-pom-0.9.9.2.buildinfo): [7 :white_check_mark: ](cui-parent-pom-0.9.9.2.buildcompare) | 88K |
 | [0.9.9.1](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/0.9.9.1/pom) | [mvn jdk21](cui-parent-pom-0.9.9.1.buildspec) | [result](cui-parent-pom-0.9.9.1.buildinfo): [7 :white_check_mark: ](cui-parent-pom-0.9.9.1.buildcompare) | 88K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
