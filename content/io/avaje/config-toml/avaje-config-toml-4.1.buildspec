@@ -1,0 +1,21 @@
+groupId=io.avaje
+artifactId=avaje-config-toml
+display=${groupId}:$(echo "${artifactId}" | sed -e "s/-parent//")
+version=4.1
+
+gitRepo=https://github.com/avaje/avaje-config.git
+gitTag=${version}
+#gitTag="git log --all --pretty=format:%H --grep 'Version $version'"
+gitTag=cb25cdca15758a076faf1b12617172b6a4d3f13c
+
+tool=mvn-3.9.9
+jdk=24
+newline=crlf
+#umask=022
+timezone="America/New_York"
+
+command="mvn -f ${artifactId} -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=${artifactId}/target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
