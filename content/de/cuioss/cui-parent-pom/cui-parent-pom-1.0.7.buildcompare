@@ -1,0 +1,7 @@
+version=1.0.7
+ok=7
+ko=0
+ignored=0
+okFiles="cui-parent-pom-1.0.7.pom cui-java-bom-1.0.7.pom cui-java-parent-1.0.7.pom java-ee-bom-1.0.7.pom java-ee-10-bom-1.0.7.pom quarkus-bom-1.0.7.pom java-ee-orthogonal-1.0.7.pom"
+koFiles=""
+ignoredFiles=""
