@@ -1,0 +1,49 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Discovery Commons
+group-id=org.apache.sling
+artifact-id=org.apache.sling.discovery.commons
+version=1.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-discovery-commons.git
+source.scm.tag=org.apache.sling.discovery.commons-1.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.7
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.discovery.commons-1.1.0.pom
+outputs.0.length=8806
+outputs.0.checksums.sha512=cc7f56a5a3a1b7f207d09426a187e3dff2455b41e1cfc5e0fa847b9e26c9c98da78ecbe7c0830320be200927462cfc6a528d4c340c229b470bf31f69cbb4d569
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.discovery.commons-1.1.0.jar
+outputs.1.length=97440
+outputs.1.checksums.sha512=065e3c263f11d0d6cd3a28438cecba94420ef44d22ca23b877682f24c4e443bf722cfa3728dfd2d6f18ab8ab591fb2ca41d5c43c331414c77d181611f41ee1e4
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.discovery.commons-1.1.0-source-release.zip
+outputs.2.length=139319
+outputs.2.checksums.sha512=96fd3b69a6d0130f2f69457b8922ef4abe4d848a7063df4249ea5cd99d6d9e741496cfd2064a68d2268b82c0ca1addd4456e8238ab3d673a9d35af38cc16b0e2
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.discovery.commons-1.1.0-sources.jar
+outputs.3.length=74716
+outputs.3.checksums.sha512=67667f7cfa1c7885fa07baa8f602ea2151ff46f34886b36bc21503a79361d1d6ef969bf6d5e692bd5d2e11325055bfeba649ae8b96b280c25e9b67a3758f5763
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.discovery.commons-1.1.0-tests.jar
+outputs.4.length=115275
+outputs.4.checksums.sha512=02c4a73be9fb5f7572543e0ed07e6f5f65308ceca76e01aba1f20c11948f6b65a49071a98cac75a42b34a4ff4b397c300d8518d737a5b978d62cd39ea4eaee65
