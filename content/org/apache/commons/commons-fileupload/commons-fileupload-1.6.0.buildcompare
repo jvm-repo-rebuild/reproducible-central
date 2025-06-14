@@ -1,0 +1,9 @@
+version=1.6.0
+ok=7
+ko=0
+ignored=1
+okFiles="commons-fileupload-1.6.0.pom commons-fileupload-1.6.0.jar commons-fileupload-1.6.0-tests.jar commons-fileupload-1.6.0-sources.jar commons-fileupload-1.6.0-test-sources.jar commons-fileupload-1.6.0-cyclonedx.xml commons-fileupload-1.6.0-cyclonedx.json"
+koFiles=""
+ignoredFiles="commons-fileupload-1.6.0.spdx.json"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

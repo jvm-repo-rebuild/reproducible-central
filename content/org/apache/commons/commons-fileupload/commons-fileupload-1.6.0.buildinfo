@@ -1,0 +1,60 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons FileUpload
+group-id=commons-fileupload
+artifact-id=commons-fileupload
+version=1.6.0
+
+# source information
+source.scm.uri=scm:git:http://gitbox.apache.org/repos/asf/commons-fileupload.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.7
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=commons-fileupload
+outputs.0.filename=commons-fileupload-1.6.0.pom
+outputs.0.length=17209
+outputs.0.checksums.sha512=e84b4bbe9fc6d9c16d63c7ee255e9c4256eae33d9f4d644088327d20fa5f5b3696d222ea2571966eb86241bf41fa19b8e6f513800238de46e088af90ccc9ecb1
+
+outputs.1.groupId=commons-fileupload
+outputs.1.filename=commons-fileupload-1.6.0.jar
+outputs.1.length=76956
+outputs.1.checksums.sha512=f34e90d1985ac2da5295bc23b3c9b9674f157d2697b637dcbbb28e1de9168ab82f7e4b5ab169efc5559a427f28b2c940116a26b8f19c2b7d52346821e323a4d6
+
+outputs.2.groupId=commons-fileupload
+outputs.2.filename=commons-fileupload-1.6.0-tests.jar
+outputs.2.length=62541
+outputs.2.checksums.sha512=4e029ee689cf4302f9b92b20c159b9e88f87a3491d44f8f6b752f233d2228fe2ca9602a114dd713289d2d107e713cbf2209d302711e93876be92581cce165dec
+
+outputs.3.groupId=commons-fileupload
+outputs.3.filename=commons-fileupload-1.6.0-sources.jar
+outputs.3.length=90905
+outputs.3.checksums.sha512=e53f82560b2f783ff0e335907efbe5da4d824833ae3e0d16013dd98f39a6a20642caeaf4e60eae4c74f2e5b6af3f505f54d2174bfdc2f11c11b6f14164acef19
+
+outputs.4.groupId=commons-fileupload
+outputs.4.filename=commons-fileupload-1.6.0-test-sources.jar
+outputs.4.length=46852
+outputs.4.checksums.sha512=406b530dd899fa40b76ed92c2f00a29dae8891a435d18e7de4db3a206c05bab9027707fecf76deb7e72396ac248549e7d8ac078abae4d23e95c27185e23ea009
+
+outputs.5.groupId=commons-fileupload
+outputs.5.filename=commons-fileupload-1.6.0-cyclonedx.xml
+outputs.5.length=9162
+outputs.5.checksums.sha512=7c14f23abd53776fe2491a1488acd0311f944d1606098e0405ef43c49a2a4f07d56f6ab56e60214e9f8af2b5df225e3f5ab0edff4f2fdcdf51007b5d4b370c29
+
+outputs.6.groupId=commons-fileupload
+outputs.6.filename=commons-fileupload-1.6.0-cyclonedx.json
+outputs.6.length=10376
+outputs.6.checksums.sha512=b69f091e203cfceae08d919fd968e75c00c0fcf1729de22781d3d1af005e470ed95c809c447dcf7721297f736d4de65374a237f7632cce7572fa42791f20bf43
+# ignored commons-fileupload-1.6.0.spdx.json
