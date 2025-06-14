@@ -1,0 +1,18 @@
+[de.cuioss:cui-java-tools](https://central.sonatype.com/artifact/de.cuioss/cui-java-tools/versions) RB check
+=======
+
+[![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
+
+## Project: [de.cuioss:cui-java-tools](https://central.sonatype.com/artifact/de.cuioss/cui-java-tools/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/de/cuioss/cui-java-tools/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/de/cuioss/cui-java-tools/README.md)
+
+Source code: [https://github.com/cuioss/cui-java-tools.git](https://github.com/cuioss/cui-java-tools.git)
+
+rebuilding **1 releases** of de.cuioss:cui-java-tools:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [2.3.0](https://central.sonatype.com/artifact/de.cuioss/cui-java-tools/2.3.0/pom) | [mvn jdk17](cui-java-tools-2.3.0.buildspec) | [result](cui-java-tools-2.3.0.buildinfo): [3 :white_check_mark: ](cui-java-tools-2.3.0.buildcompare) | 409K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
