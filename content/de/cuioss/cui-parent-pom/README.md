@@ -18,12 +18,13 @@ Source code: [https://github.com/cuioss/cui-parent-pom.git](https://github.com/c
 * [de.cuioss:quarkus-bom](https://central.sonatype.com/artifact/de.cuioss/quarkus-bom/overview)
 </details>
 
-rebuilding **1 releases** of de.cuioss:cui-parent-pom:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of de.cuioss:cui-parent-pom:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [1.0.7](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/1.0.7/pom) | [mvn jdk21](cui-parent-pom-1.0.7.buildspec) | [result](cui-parent-pom-1.0.7.buildinfo): [7 :white_check_mark: ](cui-parent-pom-1.0.7.buildcompare) | 89K |
+| [1.0.6](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/1.0.6/pom) | [mvn jdk21](cui-parent-pom-1.0.6.buildspec) | [result](cui-parent-pom-1.0.6.buildinfo): [7 :white_check_mark: ](cui-parent-pom-1.0.6.buildcompare) | 88K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
