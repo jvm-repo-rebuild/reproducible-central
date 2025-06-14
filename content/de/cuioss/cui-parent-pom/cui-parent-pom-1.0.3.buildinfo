@@ -1,0 +1,74 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=cui parent pom
+group-id=de.cuioss
+artifact-id=cui-parent-pom
+version=1.0.3
+
+# source information
+source.scm.uri=scm:git:https://github.com/cuioss/cui-parent-pom.git
+source.scm.tag=1.0.3
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.7
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+mvn.aggregate.artifact-id=java-ee-orthogonal
+
+# aggregated output
+
+outputs.0.coordinates=de.cuioss:cui-parent-pom
+
+outputs.0.0.groupId=de.cuioss
+outputs.0.0.filename=cui-parent-pom-1.0.3.pom
+outputs.0.0.length=34468
+outputs.0.0.checksums.sha512=38e61c9b9c6d6bc08c4d2d3f84a905d9d0bfdaf851e86b2a024891ba8c1063f16cee67a7370ac237a42d77de1db4a7297d0ad61506b1e4dfb0ad8e9598973735
+
+outputs.1.coordinates=de.cuioss:cui-java-bom
+
+outputs.1.0.groupId=de.cuioss
+outputs.1.0.filename=cui-java-bom-1.0.3.pom
+outputs.1.0.length=6597
+outputs.1.0.checksums.sha512=b12701f913391fcb310eab47fda215fa77f2f4338c95687c95f8f2dae46dab16a2ba360836820602e2c4fb10cf17585401933f2c153634e8b294b3501291d1d5
+
+outputs.2.coordinates=de.cuioss:cui-java-parent
+
+outputs.2.0.groupId=de.cuioss
+outputs.2.0.filename=cui-java-parent-1.0.3.pom
+outputs.2.0.length=16198
+outputs.2.0.checksums.sha512=1fa4e601946446335ee7ed8460853795ebf58a454520b7bbbf143d01f23867d871b63bd08247072e8b7ec48172a4f69ac4346785616e9d6e9f9b038dcd417235
+
+outputs.3.coordinates=de.cuioss:java-ee-bom
+
+outputs.3.0.groupId=de.cuioss
+outputs.3.0.filename=java-ee-bom-1.0.3.pom
+outputs.3.0.length=690
+outputs.3.0.checksums.sha512=657ca9de0948941d6fbf39428d31295d2432a8a5b2551aba70597f7525f41c2f62ec8f6f8f29be42a7636b9e5f82dbd10751a507c759fbdc6cf08f7252547fd4
+
+outputs.4.coordinates=de.cuioss:java-ee-10-bom
+
+outputs.4.0.groupId=de.cuioss
+outputs.4.0.filename=java-ee-10-bom-1.0.3.pom
+outputs.4.0.length=19559
+outputs.4.0.checksums.sha512=0f84a8ef5e800e911f8841f1607f5c0b6b2e32bb346bb3f7af6b54a3e19a6ab79688763f244fea5a2416c6c721f844a13e11863683b11ae5fe3421a00c9efe68
+
+outputs.5.coordinates=de.cuioss:quarkus-bom
+
+outputs.5.0.groupId=de.cuioss
+outputs.5.0.filename=quarkus-bom-1.0.3.pom
+outputs.5.0.length=2835
+outputs.5.0.checksums.sha512=343964eace4d96c1e9c49e409f5a061035d1e1cd2ce944b6fc759d353e63e7999fb45c8f869fa4f92ca4fffc6de30060509474fa829e4dc91f47d7eaf571d973
+
+outputs.6.coordinates=de.cuioss:java-ee-orthogonal
+
+outputs.6.0.groupId=de.cuioss
+outputs.6.0.filename=java-ee-orthogonal-1.0.3.pom
+outputs.6.0.length=6919
+outputs.6.0.checksums.sha512=3f6c6954787909b6e044605cc0786a181cfd3a1e5166a4de31a61bf247c6bc925306925aa484b82a3be72f342d4ce34c637ad490acc6cdef9ffb8bf9818360d4
