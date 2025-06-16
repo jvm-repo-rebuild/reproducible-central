@@ -1,4 +1,4 @@
-groupId=org.apache.commons
+groupId=commons-fileupload
 artifactId=commons-fileupload
 display=${groupId}:${artifactId}
 version=1.6.0
