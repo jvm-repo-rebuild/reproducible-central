@@ -21,6 +21,7 @@ rebuilding **1 releases** of eu.maveniverse.maven.heimdall:heimdall:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.1.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.heimdall/heimdall/0.1.1/pom) | | | |
 | [0.1.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.heimdall/heimdall/0.1.0/pom) | [mvn jdk21](heimdall-0.1.0.buildspec) | [result](heimdall-0.1.0.buildinfo): [10 :white_check_mark: ](heimdall-0.1.0.buildcompare) | 86K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
