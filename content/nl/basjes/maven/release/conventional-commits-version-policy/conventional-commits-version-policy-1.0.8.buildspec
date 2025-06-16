@@ -1,0 +1,30 @@
+# Central Repository coordinates for the Reference release (for multi-module, pick an arbitrary module)
+groupId=nl.basjes.maven.release
+artifactId=conventional-commits-version-policy
+version=1.0.8
+
+display=${groupId}:conventional-commits-v*-p*
+
+# Source code
+gitRepo=https://github.com/nielsbasjes/conventional-commits-maven-release.git
+gitTag=v${version}
+
+# Rebuild environment prerequisites
+tool=mvn-3.9.9
+
+# All LTS JDK versions and JDK-21 is the default (used to start Maven with)
+jdk=21
+toolchains="8|17|21"
+timezone=UTC
+newline=lf
+# crlf for Windows, lf for Unix
+
+# Rebuild command
+command='mvn clean verify -PskipQuality'
+
+# Location of the buildinfo file generated during rebuild to record output fingerprints
+buildinfo=target/conventional-commits-version-policy-${version}.buildinfo
+
+# if the release is finally not reproducible, link to an issue tracker entry if one was created or diffoscope result
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=

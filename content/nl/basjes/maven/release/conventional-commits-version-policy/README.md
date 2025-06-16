@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/nielsbasjes/conventional-commits-maven-release.git](https://github.com/nielsbasjes/conventional-commits-maven-release.git)
 
-rebuilding **7 releases** of nl.basjes.maven.release:conventional-commits-version-policy:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of nl.basjes.maven.release:conventional-commits-version-policy:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.0.8](https://central.sonatype.com/artifact/nl.basjes.maven.release/conventional-commits-version-policy/1.0.8/pom) | | | |
+| [1.0.8](https://central.sonatype.com/artifact/nl.basjes.maven.release/conventional-commits-version-policy/1.0.8/pom) | [mvn jdk21](conventional-commits-version-policy-1.0.8.buildspec) | [result](conventional-commits-version-policy-1.0.8.buildinfo): [3 :white_check_mark: ](conventional-commits-version-policy-1.0.8.buildcompare) | 59K |
 | [1.0.7](https://central.sonatype.com/artifact/nl.basjes.maven.release/conventional-commits-version-policy/1.0.7/pom) | [mvn jdk21](conventional-commits-version-policy-1.0.7.buildspec) | [result](conventional-commits-version-policy-1.0.7.buildinfo): [3 :white_check_mark: ](conventional-commits-version-policy-1.0.7.buildcompare) | 63K |
 | [1.0.6](https://central.sonatype.com/artifact/nl.basjes.maven.release/conventional-commits-version-policy/1.0.6/pom) | [mvn jdk21](conventional-commits-version-policy-1.0.6.buildspec) | [result](conventional-commits-version-policy-1.0.6.buildinfo): [3 :white_check_mark: ](conventional-commits-version-policy-1.0.6.buildcompare) | 63K |
 | [1.0.5](https://central.sonatype.com/artifact/nl.basjes.maven.release/conventional-commits-version-policy/1.0.5/pom) | [mvn jdk21](conventional-commits-version-policy-1.0.5.buildspec) | [result](conventional-commits-version-policy-1.0.5.buildinfo): [3 :white_check_mark: ](conventional-commits-version-policy-1.0.5.buildcompare) | 63K |
