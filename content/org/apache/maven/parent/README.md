@@ -24,6 +24,7 @@ rebuilding **11 releases** of org.apache.maven:maven-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [45](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/45/pom) | | | |
 | [44](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/44/pom) | [mvn jdk17](maven-parent-44.buildspec) | [result](maven-parent-44.buildinfo): [25 :white_check_mark: ](maven-parent-44.buildcompare) | 386K |
 | [43](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/43/pom) | [mvn jdk17](maven-parent-43.buildspec) | [result](maven-parent-43.buildinfo): [25 :white_check_mark: ](maven-parent-43.buildcompare) | 197K |
 | [42](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/42/pom) | [mvn jdk17](maven-parent-42.buildspec) | [result](maven-parent-42.buildinfo): [25 :white_check_mark: ](maven-parent-42.buildcompare) | 210K |

@@ -1,8 +1,8 @@
+content/de/cuioss/cui-java-tools/cui-java-tools-2.3.0.buildspec:2.3.1
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
-content/eu/maveniverse/maven/heimdall/heimdall-0.1.0.buildspec:0.1.1
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.1-beta-21.buildspec:11.2.1
-content/io/avaje/inject/avaje-inject-11.6-RC2.buildspec:11.6-RC3
 content/io/avaje/jsonb/avaje-jsonb-3.5-RC2.buildspec:3.5
-content/io/telicent/jena/jena-kafka/jena-kafka-1.5.3.buildspec:2.0.0
-content/net/bytebuddy/byte-buddy-1.17.5.buildspec:1.17.6
+content/io/telicent/smart-caches/graph/scg-base/scg-base-0.83.15.buildspec:0.83.16
+content/land/oras/oras-java-sdk/oras-java-sdk-0.2.11.buildspec:0.2.12
+content/org/apache/dubbo/dubbo-3.3.4.buildspec:3.3.5
+content/org/apache/maven/parent/maven-parent-44.buildspec:45
 content/org/junit/junit5/junit5-5.13.0.buildspec:5.13.1

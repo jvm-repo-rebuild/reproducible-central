@@ -13,6 +13,7 @@ rebuilding **12 releases** of land.oras:oras-java-sdk:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.2.12](https://central.sonatype.com/artifact/land.oras/oras-java-sdk/0.2.12/pom) | | | |
 | [0.2.11](https://central.sonatype.com/artifact/land.oras/oras-java-sdk/0.2.11/pom) | [mvn jdk17](oras-java-sdk-0.2.11.buildspec) | [result](oras-java-sdk-0.2.11.buildinfo): [4 :white_check_mark: ](oras-java-sdk-0.2.11.buildcompare) | 316K |
 | [0.2.10](https://central.sonatype.com/artifact/land.oras/oras-java-sdk/0.2.10/pom) | [mvn jdk17](oras-java-sdk-0.2.10.buildspec) | [result](oras-java-sdk-0.2.10.buildinfo): [4 :white_check_mark: ](oras-java-sdk-0.2.10.buildcompare) | 304K |
 | [0.2.9](https://central.sonatype.com/artifact/land.oras/oras-java-sdk/0.2.9/pom) | [mvn jdk17](oras-java-sdk-0.2.9.buildspec) | [result](oras-java-sdk-0.2.9.buildinfo): [4 :white_check_mark: ](oras-java-sdk-0.2.9.buildcompare) | 301K |

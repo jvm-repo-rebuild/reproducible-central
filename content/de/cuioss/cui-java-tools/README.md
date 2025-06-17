@@ -13,6 +13,7 @@ rebuilding **1 releases** of de.cuioss:cui-java-tools:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.3.1](https://central.sonatype.com/artifact/de.cuioss/cui-java-tools/2.3.1/pom) | | | |
 | [2.3.0](https://central.sonatype.com/artifact/de.cuioss/cui-java-tools/2.3.0/pom) | [mvn jdk17](cui-java-tools-2.3.0.buildspec) | [result](cui-java-tools-2.3.0.buildinfo): [3 :white_check_mark: ](cui-java-tools-2.3.0.buildcompare) | 409K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
