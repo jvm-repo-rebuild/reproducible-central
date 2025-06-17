@@ -19,13 +19,13 @@ Source code: [https://github.com/raphw/byte-buddy.git](https://github.com/raphw/
 * [net.bytebuddy:byte-buddy-parent](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/overview)
 </details>
 
-rebuilding **50 releases** of net.bytebuddy:byte-buddy-parent:
-- **44** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **51 releases** of net.bytebuddy:byte-buddy-parent:
+- **45** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.17.6](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.17.6/pom) | | | |
+| [1.17.6](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.17.6/pom) | [mvn jdk8](byte-buddy-1.17.6.buildspec) | [result](byte-buddy-parent-1.17.6.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.17.6.buildcompare) | 36M |
 | [1.17.5](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.17.5/pom) | [mvn jdk8](byte-buddy-1.17.5.buildspec) | [result](byte-buddy-parent-1.17.5.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.17.5.buildcompare) | 33M |
 | [1.17.4](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.17.4/pom) | [mvn jdk8](byte-buddy-1.17.4.buildspec) | [result](byte-buddy-parent-1.17.4.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.17.4.buildcompare) | 33M |
 | [1.17.3](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.17.3/pom) | [mvn jdk8](byte-buddy-1.17.3.buildspec) | [result](byte-buddy-parent-1.17.3.buildinfo): [22 :white_check_mark: ](byte-buddy-parent-1.17.3.buildcompare) | 33M |
