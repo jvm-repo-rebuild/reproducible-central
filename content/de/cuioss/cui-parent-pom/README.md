@@ -18,14 +18,14 @@ Source code: [https://github.com/cuioss/cui-parent-pom.git](https://github.com/c
 * [de.cuioss:quarkus-bom](https://central.sonatype.com/artifact/de.cuioss/quarkus-bom/overview)
 </details>
 
-rebuilding **17 releases** of de.cuioss:cui-parent-pom:
-- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **18 releases** of de.cuioss:cui-parent-pom:
+- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [1.0.8](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/1.0.8/pom) | [mvn jdk21](cui-parent-pom-1.0.8.buildspec) | [result](cui-parent-pom-1.0.8.buildinfo): [7 :white_check_mark: ](cui-parent-pom-1.0.8.buildcompare) | 89K |
-| [1.0.8.1](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/1.0.8.1/pom) | | | |
+| [1.0.8.1](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/1.0.8.1/pom) | [mvn jdk21](cui-parent-pom-1.0.8.1.buildspec) | [result](cui-parent-pom-1.0.8.1.buildinfo): [7 :white_check_mark: ](cui-parent-pom-1.0.8.1.buildcompare) | 89K |
 | [1.0.7](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/1.0.7/pom) | [mvn jdk21](cui-parent-pom-1.0.7.buildspec) | [result](cui-parent-pom-1.0.7.buildinfo): [7 :white_check_mark: ](cui-parent-pom-1.0.7.buildcompare) | 89K |
 | [1.0.6](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/1.0.6/pom) | [mvn jdk21](cui-parent-pom-1.0.6.buildspec) | [result](cui-parent-pom-1.0.6.buildinfo): [7 :white_check_mark: ](cui-parent-pom-1.0.6.buildcompare) | 88K |
 | [1.0.5](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/1.0.5/pom) | [mvn jdk21](cui-parent-pom-1.0.5.buildspec) | [result](cui-parent-pom-1.0.5.buildinfo): [7 :white_check_mark: ](cui-parent-pom-1.0.5.buildcompare) | 88K |
