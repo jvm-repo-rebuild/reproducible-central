@@ -19,13 +19,13 @@ Source code: [https://github.com/jpmml/jpmml-sklearn.git](https://github.com/jpm
 * [org.jpmml:pmml-sklearn-xgboost](https://central.sonatype.com/artifact/org.jpmml/pmml-sklearn-xgboost/overview)
 </details>
 
-rebuilding **22 releases** of org.jpmml:jpmml-sklearn:
+rebuilding **23 releases** of org.jpmml:jpmml-sklearn:
 - **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.9.10](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.9.10/pom) | | | |
+| [1.9.10](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.9.10/pom) | [mvn jdk11](jpmml-sklearn-1.9.10.buildspec) | [result](jpmml-sklearn-1.9.10.buildinfo): [8 :white_check_mark:  14 :warning:](jpmml-sklearn-1.9.10.buildcompare) | 1.3M |
 | [1.9.9](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.9.9/pom) | [mvn jdk11](jpmml-sklearn-1.9.9.buildspec) | [result](jpmml-sklearn-1.9.9.buildinfo): [8 :white_check_mark:  14 :warning:](jpmml-sklearn-1.9.9.buildcompare) | 1.3M |
 | [1.9.8](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.9.8/pom) | [mvn jdk11](jpmml-sklearn-1.9.8.buildspec) | [result](jpmml-sklearn-1.9.8.buildinfo): [8 :white_check_mark:  14 :warning:](jpmml-sklearn-1.9.8.buildcompare) | 1.3M |
 | [1.9.7](https://central.sonatype.com/artifact/org.jpmml/jpmml-sklearn/1.9.7/pom) | [mvn jdk11](jpmml-sklearn-1.9.7.buildspec) | [result](jpmml-sklearn-1.9.7.buildinfo): [8 :white_check_mark:  14 :warning:](jpmml-sklearn-1.9.7.buildcompare) | 1.3M |
