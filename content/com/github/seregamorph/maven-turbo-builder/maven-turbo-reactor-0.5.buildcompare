@@ -1,0 +1,9 @@
+version=0.5
+ok=13
+ko=0
+ignored=0
+okFiles="maven-turbo-reactor-0.5.pom maven-local-workspace-reader-0.5.pom maven-local-workspace-reader-0.5.jar maven-local-workspace-reader-0.5-sources.jar maven-simple-parallel-builder-0.5.pom maven-simple-parallel-builder-0.5.jar maven-simple-parallel-builder-0.5-sources.jar maven-turbo-builder-0.5.pom maven-turbo-builder-0.5.jar maven-turbo-builder-0.5-sources.jar maven-test-module-skip-extension-0.5.pom maven-test-module-skip-extension-0.5.jar maven-test-module-skip-extension-0.5-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
