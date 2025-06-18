@@ -1,0 +1,7 @@
+version=45
+ok=25
+ko=0
+ignored=0
+okFiles="maven-parent-45.pom maven-parent-45-source-release.zip maven-parent-45-site.xml maven-parent-45-cyclonedx.xml maven-parent-45-cyclonedx.json maven-extensions-45.pom maven-extensions-45-site.xml maven-extensions-45-cyclonedx.xml maven-extensions-45-cyclonedx.json maven-plugins-45.pom maven-plugins-45-site.xml maven-plugins-45-cyclonedx.xml maven-plugins-45-cyclonedx.json maven-shared-components-45.pom maven-shared-components-45-site.xml maven-shared-components-45-cyclonedx.xml maven-shared-components-45-cyclonedx.json maven-skins-45.pom maven-skins-45-site.xml maven-skins-45-cyclonedx.xml maven-skins-45-cyclonedx.json doxia-tools-45.pom doxia-tools-45-site.xml doxia-tools-45-cyclonedx.xml doxia-tools-45-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
