@@ -13,6 +13,7 @@ rebuilding **6 releases** of io.wcm.tooling.commons:io.wcm.tooling.commons.conte
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.7.6](https://central.sonatype.com/artifact/io.wcm.tooling.commons/io.wcm.tooling.commons.content-package-builder/1.7.6/pom) | | | |
 | [1.7.4](https://central.sonatype.com/artifact/io.wcm.tooling.commons/io.wcm.tooling.commons.content-package-builder/1.7.4/pom) | [mvn jdk11 w](wcm-content-package-builder-1.7.4.buildspec) | [result](io.wcm.tooling.commons.content-package-builder-1.7.4.buildinfo): [3 :white_check_mark: ](io.wcm.tooling.commons.content-package-builder-1.7.4.buildcompare) | 81K |
 | [1.7.2](https://central.sonatype.com/artifact/io.wcm.tooling.commons/io.wcm.tooling.commons.content-package-builder/1.7.2/pom) | [mvn jdk11 w](wcm-content-package-builder-1.7.2.buildspec) | [result](io.wcm.tooling.commons.content-package-builder-1.7.2.buildinfo): [3 :white_check_mark: ](io.wcm.tooling.commons.content-package-builder-1.7.2.buildcompare) | 80K |
 | [1.7.0](https://central.sonatype.com/artifact/io.wcm.tooling.commons/io.wcm.tooling.commons.content-package-builder/1.7.0/pom) | [mvn jdk11 w](wcm-content-package-builder-1.7.0.buildspec) | [result](io.wcm.tooling.commons.content-package-builder-1.7.0.buildinfo): [3 :white_check_mark: ](io.wcm.tooling.commons.content-package-builder-1.7.0.buildcompare) | 79K |
