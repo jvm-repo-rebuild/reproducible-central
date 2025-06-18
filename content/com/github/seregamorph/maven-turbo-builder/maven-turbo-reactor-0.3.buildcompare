@@ -1,0 +1,17 @@
+version=0.3
+ok=5
+ko=8
+ignored=0
+okFiles="maven-turbo-reactor-0.3.pom maven-local-workspace-reader-0.3.pom maven-simple-parallel-builder-0.3.pom maven-turbo-builder-0.3.pom maven-test-module-skip-extension-0.3.pom"
+koFiles="maven-local-workspace-reader-0.3.jar maven-local-workspace-reader-0.3-sources.jar maven-simple-parallel-builder-0.3.jar maven-simple-parallel-builder-0.3-sources.jar maven-turbo-builder-0.3.jar maven-turbo-builder-0.3-sources.jar maven-test-module-skip-extension-0.3.jar maven-test-module-skip-extension-0.3-sources.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.github.seregamorph/maven-local-workspace-reader-0.3.jar maven-local-workspace-reader/target/maven-local-workspace-reader-0.3.jar
+# diffoscope target/reference/com.github.seregamorph/maven-local-workspace-reader-0.3-sources.jar maven-local-workspace-reader/target/maven-local-workspace-reader-0.3-sources.jar
+# diffoscope target/reference/com.github.seregamorph/maven-simple-parallel-builder-0.3.jar maven-simple-parallel-builder/target/maven-simple-parallel-builder-0.3.jar
+# diffoscope target/reference/com.github.seregamorph/maven-simple-parallel-builder-0.3-sources.jar maven-simple-parallel-builder/target/maven-simple-parallel-builder-0.3-sources.jar
+# diffoscope target/reference/com.github.seregamorph/maven-turbo-builder-0.3.jar maven-turbo-builder/target/maven-turbo-builder-0.3.jar
+# diffoscope target/reference/com.github.seregamorph/maven-turbo-builder-0.3-sources.jar maven-turbo-builder/target/maven-turbo-builder-0.3-sources.jar
+# diffoscope target/reference/com.github.seregamorph/maven-test-module-skip-extension-0.3.jar maven-test-module-skip-extension/target/maven-test-module-skip-extension-0.3.jar
+# diffoscope target/reference/com.github.seregamorph/maven-test-module-skip-extension-0.3-sources.jar maven-test-module-skip-extension/target/maven-test-module-skip-extension-0.3-sources.jar
