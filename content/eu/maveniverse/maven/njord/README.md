@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/maveniverse/njord.git](https://github.com/maveniverse/njord.git)
 
-<details><summary>This project defines 8 modules:</summary>
+<details><summary>This project defines 9 modules:</summary>
 
 * [eu.maveniverse.maven.njord.publisher:apache](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord.publisher/apache/overview)
 * [eu.maveniverse.maven.njord.publisher:deploy](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord.publisher/deploy/overview)
@@ -15,17 +15,18 @@ Source code: [https://github.com/maveniverse/njord.git](https://github.com/maven
 * [eu.maveniverse.maven.njord.publisher:sonatype](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord.publisher/sonatype/overview)
 * [eu.maveniverse.maven.njord:core](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/core/overview)
 * [eu.maveniverse.maven.njord:extension](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/extension/overview)
+* [eu.maveniverse.maven.njord:extension3](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/extension3/overview)
 * [eu.maveniverse.maven.njord:njord](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/overview)
 * [eu.maveniverse.maven.plugins:njord](https://central.sonatype.com/artifact/eu.maveniverse.maven.plugins/njord/overview)
 </details>
 
-rebuilding **26 releases** of eu.maveniverse.maven.njord:njord:
-- **26** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **27 releases** of eu.maveniverse.maven.njord:njord:
+- **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.8.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/0.8.0/pom) | | | |
+| [0.8.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/0.8.0/pom) | [mvn jdk21](njord-0.8.0.buildspec) | [result](njord-0.8.0.buildinfo): [20 :white_check_mark: ](njord-0.8.0.buildcompare) | 417K |
 | [0.7.5](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/0.7.5/pom) | [mvn jdk21](njord-0.7.5.buildspec) | [result](njord-0.7.5.buildinfo): [20 :white_check_mark: ](njord-0.7.5.buildcompare) | 416K |
 | [0.7.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/0.7.4/pom) | [mvn jdk21](njord-0.7.4.buildspec) | [result](njord-0.7.4.buildinfo): [20 :white_check_mark: ](njord-0.7.4.buildcompare) | 413K |
 | [0.7.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/0.7.3/pom) | [mvn jdk21](njord-0.7.3.buildspec) | [result](njord-0.7.3.buildinfo): [20 :white_check_mark: ](njord-0.7.3.buildcompare) | 411K |
