@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com/langchain4j/langchain4j.git)
 
-<details><summary>This project defines 74 modules:</summary>
+<details><summary>This project defines 75 modules:</summary>
 
 * [dev.langchain4j:langchain4j](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/overview)
 * [dev.langchain4j:langchain4j-anthropic](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-anthropic/overview)
@@ -72,6 +72,7 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-qianfan](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-qianfan/overview)
 * [dev.langchain4j:langchain4j-redis](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-redis/overview)
 * [dev.langchain4j:langchain4j-tablestore](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-tablestore/overview)
+* [dev.langchain4j:langchain4j-test](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-test/overview)
 * [dev.langchain4j:langchain4j-vearch](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-vearch/overview)
 * [dev.langchain4j:langchain4j-vertex-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-vertex-ai/overview)
 * [dev.langchain4j:langchain4j-vertex-ai-gemini](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-vertex-ai-gemini/overview)
@@ -85,13 +86,13 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-zhipu-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-zhipu-ai/overview)
 </details>
 
-rebuilding **23 releases** of dev.langchain4j:langchain4j:
+rebuilding **24 releases** of dev.langchain4j:langchain4j:
 - **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.1.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.1.0/pom) | | | |
+| [1.1.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.1.0/pom) | [mvn jdk21](langchain4j-1.1.0.buildspec) | [result](langchain4j-aggregator-1.1.0.buildinfo): [207 :white_check_mark:  1 :warning:](langchain4j-aggregator-1.1.0.buildcompare) [:mag:](langchain4j-aggregator-1.1.0.diffoscope) | 5.5M |
 | [1.0.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.0.1/pom) | [mvn jdk21](langchain4j-1.0.1.buildspec) | [result](langchain4j-aggregator-1.0.1.buildinfo): [197 :white_check_mark:  6 :warning:](langchain4j-aggregator-1.0.1.buildcompare) [:mag:](langchain4j-aggregator-1.0.1.diffoscope) | 5.3M |
 | [1.0.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.0.0/pom) | [mvn jdk21](langchain4j-1.0.0.buildspec) | [result](langchain4j-aggregator-1.0.0.buildinfo): [203 :white_check_mark: ](langchain4j-aggregator-1.0.0.buildcompare) | 5.3M |
 | [1.0.0-rc1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.0.0-rc1/pom) | [mvn jdk21](langchain4j-1.0.0-rc1.buildspec) | [result](langchain4j-aggregator-1.0.0-rc1.buildinfo): [203 :white_check_mark: ](langchain4j-aggregator-1.0.0-rc1.buildcompare) | 5.3M |

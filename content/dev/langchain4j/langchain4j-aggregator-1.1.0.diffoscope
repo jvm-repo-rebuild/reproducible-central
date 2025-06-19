@@ -1,0 +1,23 @@
+1 / 1 target/reference/dev.langchain4j/langchain4j-parent-1.1.0-beta7.pom langchain4j-parent/pom.xml
+--- target/reference/dev.langchain4j/langchain4j-parent-1.1.0-beta7.pom
++++ langchain4j-parent/pom.xml
+│   --- target/reference/dev.langchain4j/langchain4j-parent-1.1.0-beta7.pom
+├── +++ langchain4j-parent/pom.xml
+│ @@ -607,15 +607,15 @@
+│        <plugin>
+│          <groupId>org.sonatype.central</groupId>
+│          <artifactId>central-publishing-maven-plugin</artifactId>
+│          <version>0.7.0</version>
+│          <extensions>true</extensions>
+│          <configuration>
+│            <publishingServerId>central</publishingServerId>
+│ -          <autoPublish>false</autoPublish>
+│ +          <autoPublish>true</autoPublish>
+│          </configuration>
+│        </plugin>
+│        <plugin>
+│          <groupId>com.simpligility.maven.plugins</groupId>
+│          <artifactId>android-maven-plugin</artifactId>
+│          <executions>
+│            <execution>
+
