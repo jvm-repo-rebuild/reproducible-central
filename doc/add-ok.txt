@@ -1,12 +1,7 @@
-content/com/github/hazendaz/git/github-desktop/github-desktop-3.4.21.buildspec:3.5.0
-content/de/cuioss/cui-parent-pom/cui-parent-pom-1.0.8.buildspec:1.0.9
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
-content/eu/maveniverse/maven/heimdall/heimdall-0.1.1.buildspec:0.1.2
-content/eu/maveniverse/maven/mimir/mimir-0.7.9.buildspec:0.8.0
-content/eu/maveniverse/maven/njord/njord-0.7.5.buildspec:0.8.0
-content/eu/maveniverse/maven/toolbox/toolbox-0.10.2.buildspec:0.11.1
-content/io/liftwizard/liftwizard-2.1.31.buildspec:2.1.32
+content/eu/maveniverse/maven/toolbox/toolbox-0.11.1.buildspec:0.11.2
 content/io/avaje/jsonb/avaje-jsonb-3.5-RC2.buildspec:3.5
-content/io/github/chains-project/maven-lockfile/maven-lockfile-5.5.3.buildspec:5.6.0
-content/io/wcm/tooling/commons/content-package-builder/wcm-content-package-builder-1.7.4.buildspec:1.7.6
-content/org/junit/junit5/junit5-5.13.0.buildspec:5.13.1
+content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.8.2.buildspec:4.9.0
+content/io/telicent/jena/jena-kafka/jena-kafka-2.0.0.buildspec:2.0.1
+content/org/apache/commons/parent/commons-parent-84.buildspec:85
+content/org/webjars/bootstrap/bootstrap-5.3.6.buildspec:5.3.7

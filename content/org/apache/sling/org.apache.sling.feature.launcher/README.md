@@ -13,6 +13,7 @@ rebuilding **8 releases** of org.apache.sling:org.apache.sling.feature.launcher:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.3.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.launcher/1.3.4/pom) | | | |
 | [1.3.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.launcher/1.3.2/pom) | [mvn jdk17 w](org.apache.sling.feature.launcher-1.3.2.buildspec) | [result](org.apache.sling.feature.launcher-1.3.2.buildinfo): [4 :white_check_mark:  2 :warning:](org.apache.sling.feature.launcher-1.3.2.buildcompare) | 4.1M |
 | [1.3.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.launcher/1.3.0/pom) | [mvn jdk17](org.apache.sling.feature.launcher-1.3.0.buildspec) | [result](org.apache.sling.feature.launcher-1.3.0.buildinfo): [4 :white_check_mark:  2 :warning:](org.apache.sling.feature.launcher-1.3.0.buildcompare) [:mag:](org.apache.sling.feature.launcher-1.3.0.diffoscope) | 4.1M |
 | [1.2.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.launcher/1.2.4/pom) | [mvn jdk17](org.apache.sling.feature.launcher-1.2.4.buildspec) | [result](org.apache.sling.feature.launcher-1.2.4.buildinfo): [4 :white_check_mark:  2 :warning:](org.apache.sling.feature.launcher-1.2.4.buildcompare) | 4.0M |
