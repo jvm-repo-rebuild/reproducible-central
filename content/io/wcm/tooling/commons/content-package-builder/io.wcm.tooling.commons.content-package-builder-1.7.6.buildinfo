@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=AEM Content Package Builder
+group-id=io.wcm.tooling.commons
+artifact-id=io.wcm.tooling.commons.content-package-builder
+version=1.7.6
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/io.wcm.tooling.commons.content-package-builder.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.7
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=io.wcm.tooling.commons
+outputs.0.filename=io.wcm.tooling.commons.content-package-builder-1.7.6.pom
+outputs.0.length=6510
+outputs.0.checksums.sha512=094ca01fb02ef3c8d02479813f41d065c1f25e2cef00e9cafc6631dfcc0d5fb1b294dc5d4208fef6e6ccf32d27c0b11a1ff879488c0e738ce0977c1953241551
+
+outputs.1.groupId=io.wcm.tooling.commons
+outputs.1.filename=io.wcm.tooling.commons.content-package-builder-1.7.6.jar
+outputs.1.length=42494
+outputs.1.checksums.sha512=652c7d8f453f58f5629fdf7a26852a91693d876f58a0bf493172f221b5fe57b791db175298765c95318cd5f6939d5e2d1a424e841aa31e759e0418460da5fe44
+
+outputs.2.groupId=io.wcm.tooling.commons
+outputs.2.filename=io.wcm.tooling.commons.content-package-builder-1.7.6-sources.jar
+outputs.2.length=33675
+outputs.2.checksums.sha512=bc16709a75642fe37ccb01fdb94c500d0bdac8dc2a9e5b500041451d273b798b1a1b8aea583012bb858283bd955cf2f018802523a941dbe4b244096cb034b2fd
