@@ -1,0 +1,55 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven EAR Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-ear-plugin
+version=3.4.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-ear-plugin.git
+source.scm.tag=maven-ear-plugin-3.4.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.7
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-ear-plugin-3.4.0.pom
+outputs.0.length=14031
+outputs.0.checksums.sha512=dd3f773e9898492c9d59e533c96410cc9f299bc93bc73b5cb50f244223bec7393a5c6ecbf11f1aaaedda045ff50272979a5edb3d888990930adce224ecf5f917
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-ear-plugin-3.4.0.jar
+outputs.1.length=92747
+outputs.1.checksums.sha512=9779b1a3532bb5ff3c13f67eab714620b2c1a5efff61939d2fd44690bd45666ff21390696e4267ff14dce143a17c809fc85938b07cf4cbe7a021a0ad88c8e686
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-ear-plugin-3.4.0-source-release.zip
+outputs.2.length=696296
+outputs.2.checksums.sha512=94f4e7cae7bfef5fd3052d7de36e08ea2b09654028746f69ed1eeb5460f72edc932e4ae62f411b478d4567ac22369ef2615e0ffdd2112801067f8e5ee46fca3a
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-ear-plugin-3.4.0-sources.jar
+outputs.3.length=79684
+outputs.3.checksums.sha512=5550b74141abfd10ca9bbd7cc2fac6cee91971867f794a8662eb7fb3a3768e5d1042169f1d44cc586560560b40d837b7b4ea8ddd805362e006c11483f57b1ae0
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-ear-plugin-3.4.0-cyclonedx.xml
+outputs.4.length=131444
+outputs.4.checksums.sha512=b8d49a4ee70e4a202c5c9b0768b76e49931c75ee9a160dcdc24057b8d9345896b8fc47ca70fe81103ea0c91ed4a6856ab8fd15ba880e0c6207d0075dee301705
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-ear-plugin-3.4.0-cyclonedx.json
+outputs.5.length=142937
+outputs.5.checksums.sha512=228f44b50f3f639f05a99ef1b873413a413d5792cf45a21e26da6bf37a392221fbb371e7d1b77c8770483f0be9873cc78001ca3e675657395a4f89476b600310
