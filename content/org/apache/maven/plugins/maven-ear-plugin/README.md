@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.apache.maven.plugins:maven-ear-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.4.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-ear-plugin/3.4.0/pom) | | | |
 | [3.3.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-ear-plugin/3.3.0/pom) | [mvn jdk8](maven-ear-plugin-3.3.0.buildspec) | [result](maven-ear-plugin-3.3.0.buildinfo): [4 :white_check_mark: ](maven-ear-plugin-3.3.0.buildcompare) | 864K |
 | [3.2.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-ear-plugin/3.2.0/pom) | [mvn jdk8](maven-ear-plugin-3.2.0.buildspec) | [result](maven-ear-plugin-3.2.0.buildinfo): [4 :white_check_mark: ](maven-ear-plugin-3.2.0.buildcompare) | 859K |
 | [3.1.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-ear-plugin/3.1.0/pom) | [mvn jdk8](maven-ear-plugin-3.1.0.buildspec) | [result](maven-ear-plugin-3.1.0.buildinfo): [4 :white_check_mark: ](maven-ear-plugin-3.1.0.buildcompare) | 686K |

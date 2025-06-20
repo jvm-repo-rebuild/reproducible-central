@@ -1,7 +1,6 @@
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
-content/eu/maveniverse/maven/toolbox/toolbox-0.11.1.buildspec:0.11.2
 content/io/avaje/jsonb/avaje-jsonb-3.5-RC2.buildspec:3.5
+content/io/dropwizard/metrics/dropwizard-metrics-4.2.32.buildspec:4.2.33
+content/io/dropwizard/metrics5/dropwizard-metrics-5.0.0-rc26.buildspec:5.0.1
 content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.8.2.buildspec:4.9.0
-content/io/telicent/jena/jena-kafka/jena-kafka-2.0.0.buildspec:2.0.1
-content/org/apache/commons/parent/commons-parent-84.buildspec:85
-content/org/webjars/bootstrap/bootstrap-5.3.6.buildspec:5.3.7
+content/org/apache/maven/plugins/maven-ear-plugin/maven-ear-plugin-3.3.0.buildspec:3.4.0
