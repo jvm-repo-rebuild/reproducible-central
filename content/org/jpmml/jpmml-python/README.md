@@ -20,6 +20,7 @@ rebuilding **14 releases** of org.jpmml:jpmml-python:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.3.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.3.5/pom) | | | |
 | [1.3.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.3.4/pom) | [mvn jdk11](jpmml-python-1.3.4.buildspec) | [result](jpmml-python-1.3.4.buildinfo): [3 :white_check_mark:  4 :warning:](jpmml-python-1.3.4.buildcompare) | 405K |
 | [1.3.3](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.3.3/pom) | [mvn jdk11](jpmml-python-1.3.3.buildspec) | [result](jpmml-python-1.3.3.buildinfo): [3 :white_check_mark:  4 :warning:](jpmml-python-1.3.3.buildcompare) | 405K |
 | [1.3.2](https://central.sonatype.com/artifact/org.jpmml/jpmml-python/1.3.2/pom) | [mvn jdk11](jpmml-python-1.3.2.buildspec) | [result](jpmml-python-1.3.2.buildinfo): [3 :white_check_mark:  4 :warning:](jpmml-python-1.3.2.buildcompare) | 399K |

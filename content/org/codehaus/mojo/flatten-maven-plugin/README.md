@@ -13,6 +13,7 @@ rebuilding **7 releases** of org.codehaus.mojo:flatten-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.7.1](https://central.sonatype.com/artifact/org.codehaus.mojo/flatten-maven-plugin/1.7.1/pom) | | | |
 | [1.7.0](https://central.sonatype.com/artifact/org.codehaus.mojo/flatten-maven-plugin/1.7.0/pom) | [mvn jdk21](flatten-maven-plugin-1.7.0.buildspec) | [result](flatten-maven-plugin-1.7.0.buildinfo): [4 :white_check_mark: ](flatten-maven-plugin-1.7.0.buildcompare) | 510K |
 | [1.6.0](https://central.sonatype.com/artifact/org.codehaus.mojo/flatten-maven-plugin/1.6.0/pom) | [mvn jdk21](flatten-maven-plugin-1.6.0.buildspec) | [result](flatten-maven-plugin-1.6.0.buildinfo): [4 :white_check_mark: ](flatten-maven-plugin-1.6.0.buildcompare) | 536K |
 | [1.5.0](https://central.sonatype.com/artifact/org.codehaus.mojo/flatten-maven-plugin/1.5.0/pom) | [mvn jdk20](flatten-maven-plugin-1.5.0.buildspec) | [result](flatten-maven-plugin-1.5.0.buildinfo): [3 :white_check_mark:  1 :warning:](flatten-maven-plugin-1.5.0.buildcompare) [:mag:](flatten-maven-plugin-1.5.0.diffoscope) [:memo:](https://github.com/eclipse/sisu.inject/issues/91) | 520K |
