@@ -1,0 +1,18 @@
+groupId=org.chabala.brick
+artifactId=brick-control-lab
+version=0.2.2
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/chabala/${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
