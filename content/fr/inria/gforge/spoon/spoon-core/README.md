@@ -14,13 +14,13 @@ Source code: [https://github.com/inria/spoon.git](https://github.com/inria/spoon
 * [fr.inria.gforge.spoon:spoon-pom](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-pom/overview)
 </details>
 
-rebuilding **157 releases** of fr.inria.gforge.spoon:spoon-core:
-- **53** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **158 releases** of fr.inria.gforge.spoon:spoon-core:
+- **54** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 104 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [11.2.2-beta-1](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.2.2-beta-1/pom) | | | |
+| [11.2.2-beta-1](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.2.2-beta-1/pom) | [mvn jdk21](spoon-core-11.2.2-beta-1.buildspec) | [result](spoon-pom-11.2.2-beta-1.buildinfo): [8 :white_check_mark: ](spoon-pom-11.2.2-beta-1.buildcompare) | 18M |
 | [11.2.1](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.2.1/pom) | [mvn jdk21](spoon-core-11.2.1.buildspec) | [result](spoon-pom-11.2.1.buildinfo): [8 :white_check_mark: ](spoon-pom-11.2.1.buildcompare) | 18M |
 | [11.2.1-beta-21](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.2.1-beta-21/pom) | [mvn jdk21](spoon-core-11.2.1-beta-21.buildspec) | [result](spoon-pom-11.2.1-beta-21.buildinfo): [8 :white_check_mark: ](spoon-pom-11.2.1-beta-21.buildcompare) | 18M |
 | [11.2.1-beta-20](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/11.2.1-beta-20/pom) | [mvn jdk21](spoon-core-11.2.1-beta-20.buildspec) | [result](spoon-pom-11.2.1-beta-20.buildinfo): [8 :white_check_mark: ](spoon-pom-11.2.1-beta-20.buildcompare) | 18M |
