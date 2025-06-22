@@ -22,5 +22,9 @@ rebuilding **2 releases** of com.github.seregamorph:maven-surefire-cached:
 | -- | --------- | ------ | -- |
 | [0.19](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.19/pom) | [mvn jdk17](maven-surefire-cached-0.19.buildspec) | [result](maven-surefire-cached-0.19.buildinfo): [7 :white_check_mark: ](maven-surefire-cached-0.19.buildcompare) | 165K |
 | [0.18](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.18/pom) | [mvn jdk17](maven-surefire-cached-0.18.buildspec) | [result](maven-surefire-cached-0.18.buildinfo): [7 :white_check_mark: ](maven-surefire-cached-0.18.buildcompare) | 165K |
+| [0.17](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.17/pom) | | | |
+| [0.16](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.16/pom) | | | |
+| [0.15](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.15/pom) | | | |
+| [0.14](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.14/pom) | [mvn jdk17](maven-surefire-cached-0.14.buildspec) | [result](maven-surefire-cached-0.14.buildinfo): [7 :white_check_mark: ](maven-surefire-cached-0.14.buildcompare) | 153K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
