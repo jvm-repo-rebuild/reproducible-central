@@ -1,0 +1,66 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=maven-surefire-cached
+group-id=com.github.seregamorph
+artifact-id=maven-surefire-cached
+version=0.17
+
+# source information
+source.scm.uri=scm:git:git@github.com:seregamorph/maven-surefire-cached.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.13
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.aggregate.artifact-id=surefire-cached-extension
+
+# aggregated output
+
+outputs.0.coordinates=com.github.seregamorph:maven-surefire-cached
+
+outputs.0.0.groupId=com.github.seregamorph
+outputs.0.0.filename=maven-surefire-cached-0.17.pom
+outputs.0.0.length=12466
+outputs.0.0.checksums.sha512=d608c14ebb8d19ffc876e04a23f23e5ae4d249a54134cf42fc27d4c4d820b75a01ee5340ad1add0dee29ad117055b1d5cb3d799b83d36463a4058d59b54b2eb2
+
+outputs.1.coordinates=com.github.seregamorph:surefire-cached-common
+
+outputs.1.0.groupId=com.github.seregamorph
+outputs.1.0.filename=surefire-cached-common-0.17.pom
+outputs.1.0.length=1492
+outputs.1.0.checksums.sha512=3c77dc77d5fb41f23b8436bc50909134bc30c585eee835b79ff7a705d3d7200bf09878f536a31b545c52cc5eaadbce75d843a9b165ad50734ce70290d3e7b422
+
+outputs.1.1.groupId=com.github.seregamorph
+outputs.1.1.filename=surefire-cached-common-0.17.jar
+outputs.1.1.length=24066
+outputs.1.1.checksums.sha512=bce9770707fbc9c43becab2d15200732c5dade5c6d0988914c23077d09b3871f3327c2b7ea6b1086c6fc5f946f9f1709ea0a16ceb251863f47de74c8603b19cc
+
+outputs.1.2.groupId=com.github.seregamorph
+outputs.1.2.filename=surefire-cached-common-0.17-sources.jar
+outputs.1.2.length=13814
+outputs.1.2.checksums.sha512=45b6e71372a5f16861ba1f06b8282a15702b3c3c724aba60477a39254f526011968ab76da3236a646a72ef5e57f626d33ce76a96524bb3891bedad277e083fe2
+
+outputs.2.coordinates=com.github.seregamorph:surefire-cached-extension
+
+outputs.2.0.groupId=com.github.seregamorph
+outputs.2.0.filename=surefire-cached-extension-0.17.pom
+outputs.2.0.length=2436
+outputs.2.0.checksums.sha512=6426d66048f0fc0ee50cb43d7c8ba0ffb83e9ae2f735d3add4e8f5b883e0156584c2f2442bdff07c72c6b90979fbdf02fcaf534bad2761205a1d95293c42de4f
+
+outputs.2.1.groupId=com.github.seregamorph
+outputs.2.1.filename=surefire-cached-extension-0.17.jar
+outputs.2.1.length=77171
+outputs.2.1.checksums.sha512=2d5604a762d97aabfae14e5178e5986a4980beb04b0d867b8dba0b86b4cf677710343b94cd12f2f34a18e7f11e9595c814f6bc7de4c64913a68ccf68beb93df7
+
+outputs.2.2.groupId=com.github.seregamorph
+outputs.2.2.filename=surefire-cached-extension-0.17-sources.jar
+outputs.2.2.length=35640
+outputs.2.2.checksums.sha512=fd280833d9c2dcf0519d3a5bdfc58fd9e9809271cf30994b4095c4aa9532e45da4819f48d9008c90cd8e049005ab8b7b562dc4448130c5e90fdb7a7333a700d7
