@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.auth.oauth-client
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.1.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.auth.oauth-client/0.1.2/pom) | | | |
 | [0.1.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.auth.oauth-client/0.1.0/pom) | [mvn jdk21](org.apache.sling.auth.oauth-client-0.1.0.buildspec) | [result](org.apache.sling.auth.oauth-client-0.1.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.auth.oauth-client-0.1.0.buildcompare) | 224K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
