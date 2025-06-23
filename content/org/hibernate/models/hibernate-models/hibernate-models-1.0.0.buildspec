@@ -13,7 +13,7 @@ gitTag=${version}
 
 # Rebuild environment prerequisites
 tool=gradle
-jdk=17
+jdk=21
 newline=lf
 umask=022
 
