@@ -1,0 +1,50 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=License Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=license-maven-plugin
+version=2.6.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/license-maven-plugin.git
+source.scm.tag=2.6.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.7
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.3
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=license-maven-plugin-2.6.0.pom
+outputs.0.length=18164
+outputs.0.checksums.sha512=91962f4d333f6bdb2b932708d0c2eeecbb68b4981e188bdef0ef839b45c8f9db3e932d23e286bdc510de997ca18041b769993e0c2f685c50ea6428c460f58c3b
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=license-maven-plugin-2.6.0.jar
+outputs.1.length=569183
+outputs.1.checksums.sha512=fd290b4ef7c8aab74f34bac82c8de44a9a2f4106ebd25c98e7772c998dcf7a96e8195222320d77aec3242980cd090ebc8ee1780c7c376f6b171cbf525d6cbd69
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=license-maven-plugin-2.6.0-third-party.properties
+outputs.2.length=1066
+outputs.2.checksums.sha512=111e4cf244cfa54507dab52830d417a9e5751f20d136d795122e0bf3d25a971c8faccc7ba4074c6f24fc36f5f207538d036adc50ed64d99cb79c0c8273d6c112
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=license-maven-plugin-2.6.0-source-release.zip
+outputs.3.length=1006299
+outputs.3.checksums.sha512=5ab67e2c5a59d0452475ea751f24f03cf2de0509985b4c97f9741d0632864fcc827001b64c5fce231db78dd840dc7a036f930f4edf3df7a4c4597c2204ce9c16
+
+outputs.4.groupId=org.codehaus.mojo
+outputs.4.filename=license-maven-plugin-2.6.0-sources.jar
+outputs.4.length=393385
+outputs.4.checksums.sha512=7bf52dfe4c3a725c7eed40f134cab254c1cfed9987c96fd007b8919120ffa60a8a1028288bcf67b15a55e9b4ec2db11bc7545afe58888b2df3f4db700fd8faac
