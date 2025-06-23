@@ -3,7 +3,7 @@ group-id=org.hibernate.models
 artifact-id=hibernate-models
 
 build-tool=gradle
-java.version=17
+java.version=21
 os.name=lf
 
 outputs.1.coordinates=org.hibernate.models:hibernate-models-bytebuddy
@@ -13,8 +13,8 @@ outputs.1.0.length=37521
 outputs.1.0.checksums.sha512=de5abe441722ce6e7831b3ca7d5e3ff9ed0484ec84884ed85fae73265270c80aaa801bd103c7af53e72d174c8b18527b074654d2c54fad05a233120ea7879d47
 
 outputs.1.1.filename=hibernate-models-bytebuddy-1.0.0.CR3.jar
-outputs.1.1.length=62518
-outputs.1.1.checksums.sha512=3eab6bae3dfc171944302fde2bc58d7d20af329f23b4aefd99a01c3d713c14ac212f2f4143d46955ab095cbcdb1b1c68a584778a2bae748458dabdfe57605763
+outputs.1.1.length=63147
+outputs.1.1.checksums.sha512=d525b4867d340a19bd1cf7e5ec7f1cca55dbb0e2bb78dda3bf11654fd7de01052f563555dc8e430a7748a9679553ac67ce58cc2d15a7892e327ea7ccdf30140e
 
 outputs.1.2.filename=hibernate-models-bytebuddy-1.0.0.CR3.pom
 outputs.1.2.length=2500
@@ -28,8 +28,8 @@ outputs.2.0.length=39306
 outputs.2.0.checksums.sha512=be849bfb5c77717c9090efb488b5a0dac129fd93b949466ba333c44b6b9ccce866a6ff12a911773a8ae15dfb4e2b296a82586c43025fd8e8145c149eafc31855
 
 outputs.2.1.filename=hibernate-models-jandex-1.0.0.CR3.jar
-outputs.2.1.length=66093
-outputs.2.1.checksums.sha512=a5b5edb645bee2208a5ca18989aa9d82bde333faff982f541845df67094f8118fb8eb93e3d5d3c35f87826c12d5127bc383371e47fb27d99f5954ca6ab5a4ab5
+outputs.2.1.length=66740
+outputs.2.1.checksums.sha512=05d321590a65a10e1ecc36278307299dad9b79572c8ff0431aa49d0720eba39da6c5ccd942cdfc341ea578afe9d2a15cb84299211f192940ab654f0282ef4c87
 
 outputs.2.2.filename=hibernate-models-jandex-1.0.0.CR3.pom
 outputs.2.2.length=2490
@@ -43,8 +43,8 @@ outputs.3.0.length=134413
 outputs.3.0.checksums.sha512=ec53be0bb6fb393ac865565aec735a435a4eae4cf31086bb4d35b9fe6135e315db1f84fe1a11a55a95b612e2c3c54b6367ad9831bb36d7661b522a193acaeb7c
 
 outputs.3.1.filename=hibernate-models-1.0.0.CR3.jar
-outputs.3.1.length=215866
-outputs.3.1.checksums.sha512=87b5209f8a30fcd09706e1a6539144eac5d5f3aadba80ec3b2d2c68c1599243f0e8c9abbb175ee919c0a9b74f3813000070b891c2ab11db02595a4152841b4c4
+outputs.3.1.length=216715
+outputs.3.1.checksums.sha512=6a5b5d47892b258162a83d45688f55402112f2a890b44d60f239e26992a3b1e32cf0e6e3c48a01267491dbd549e97798beb02023f8f16f0e5710602c939a11cc
 
 outputs.3.2.filename=hibernate-models-1.0.0.CR3.pom
 outputs.3.2.length=2120
