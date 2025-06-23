@@ -15,12 +15,12 @@ Source code: [https://github.com/hibernate/hibernate-models.git](https://github.
 </details>
 
 rebuilding **7 releases** of org.hibernate.models:hibernate-models:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.0.0](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/1.0.0/pom) | [gradle jdk21](hibernate-models-1.0.0.buildspec) | [result](hibernate-models-1.0.0.buildinfo): [6 :white_check_mark:  3 :warning:](hibernate-models-1.0.0.buildcompare) | 550K |
+| [1.0.0](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/1.0.0/pom) | [gradle jdk21](hibernate-models-1.0.0.buildspec) | [result](hibernate-models-1.0.0.buildinfo): [9 :white_check_mark: ](hibernate-models-1.0.0.buildcompare) | 552K |
 | [1.0.0.CR3](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/1.0.0.CR3/pom) | [gradle jdk21](hibernate-models-1.0.0.CR3.buildspec) | [result](hibernate-models-1.0.0.CR3.buildinfo): [9 :white_check_mark: ](hibernate-models-1.0.0.CR3.buildcompare) | 552K |
 | [1.0.0.CR2](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/1.0.0.CR2/pom) | [gradle jdk21](hibernate-models-1.0.0.CR2.buildspec) | [result](hibernate-models-1.0.0.CR2.buildinfo): [9 :white_check_mark: ](hibernate-models-1.0.0.CR2.buildcompare) | 547K |
 | [1.0.0.CR1](https://central.sonatype.com/artifact/org.hibernate.models/hibernate-models/1.0.0.CR1/pom) | [gradle jdk21](hibernate-models-1.0.0.CR1.buildspec) | [result](hibernate-models-1.0.0.CR1.buildinfo): [9 :white_check_mark: ](hibernate-models-1.0.0.CR1.buildcompare) | 544K |
