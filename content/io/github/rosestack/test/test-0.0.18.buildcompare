@@ -1,0 +1,9 @@
+version=0.0.18
+ok=3
+ko=0
+ignored=0
+okFiles="test-0.0.18.pom test-0.0.18.jar test-0.0.18-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
