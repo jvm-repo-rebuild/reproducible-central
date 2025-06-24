@@ -31,13 +31,13 @@ Source code: [https://github.com/junit-team/junit5.git](https://github.com/junit
 * [org.junit:junit-bom](https://central.sonatype.com/artifact/org.junit/junit-bom/overview)
 </details>
 
-rebuilding **36 releases** of org.junit:junit-bom:
-- **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **37 releases** of org.junit:junit-bom:
+- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 17 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [5.13.2](https://central.sonatype.com/artifact/org.junit/junit-bom/5.13.2/pom) | | | |
+| [5.13.2](https://central.sonatype.com/artifact/org.junit/junit-bom/5.13.2/pom) | [gradle jdk21](junit5-5.13.2.buildspec) | [result](junit-bom-5.13.2.buildinfo): [58 :white_check_mark: ](junit-bom-5.13.2.buildcompare) | 7.0M |
 | [5.13.1](https://central.sonatype.com/artifact/org.junit/junit-bom/5.13.1/pom) | [gradle jdk21](junit5-5.13.1.buildspec) | [result](junit-bom-5.13.1.buildinfo): [58 :white_check_mark: ](junit-bom-5.13.1.buildcompare) | 7.0M |
 | [5.13.0](https://central.sonatype.com/artifact/org.junit/junit-bom/5.13.0/pom) | [gradle jdk21](junit5-5.13.0.buildspec) | [result](junit-bom-5.13.0.buildinfo): [58 :white_check_mark: ](junit-bom-5.13.0.buildcompare) | 7.0M |
 | [5.13.0-RC1](https://central.sonatype.com/artifact/org.junit/junit-bom/5.13.0-RC1/pom) | [gradle jdk21](junit5-5.13.0-RC1.buildspec) | [result](junit-bom-5.13.0-RC1.buildinfo): [58 :white_check_mark: ](junit-bom-5.13.0-RC1.buildcompare) | 7.0M |
