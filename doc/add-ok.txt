@@ -1,7 +1,10 @@
+content/com/github/spotbugs/spotbugs-maven-plugin/spotbugs-maven-plugin-4.9.3.0.buildspec:4.9.3.1
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
-content/io/airlift/airbase/airbase-268.buildspec:269
 content/io/avaje/jsonb/avaje-jsonb-3.5-RC2.buildspec:3.5
 content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.8.2.buildspec:4.9.0
-content/org/apache/activemq/activemq-6.1.6.buildspec:6.1.7
-content/org/apache/sling/org.apache.sling.auth.oauth-client/org.apache.sling.auth.oauth-client-0.1.0.buildspec:0.1.2
+content/org/apache/paimon/paimon-parent-1.1.1.buildspec:1.2.0
+content/org/apache/ratis/ratis-3.1.3.buildspec:3.2.0
 content/org/apache/sling/org.apache.sling.resourceresolver/org.apache.sling.resourceresolver-1.12.8.buildspec:1.12.10
+content/org/junit/junit5/junit5-5.13.1.buildspec:5.13.2
+content/org/metricshub/maven/metricshub-connector-maven-plugin/metricshub-connector-maven-plugin-1.0.11.buildspec:1.0.12
+content/org/webjars/flexmonster/flexmonster-2.9.105.buildspec:2.9.106
