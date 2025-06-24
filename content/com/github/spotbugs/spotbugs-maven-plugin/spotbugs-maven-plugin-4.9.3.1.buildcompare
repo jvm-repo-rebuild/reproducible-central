@@ -1,0 +1,9 @@
+version=4.9.3.1
+ok=7
+ko=0
+ignored=0
+okFiles="spotbugs-maven-plugin-4.9.3.1.pom spotbugs-maven-plugin-4.9.3.1.jar spotbugs-maven-plugin-4.9.3.1-tests.jar spotbugs-maven-plugin-4.9.3.1-sources.jar spotbugs-maven-plugin-4.9.3.1-test-sources.jar spotbugs-maven-plugin-4.9.3.1-cyclonedx.xml spotbugs-maven-plugin-4.9.3.1-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
