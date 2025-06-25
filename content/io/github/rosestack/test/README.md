@@ -8,8 +8,8 @@
 Source code: [https://github.com/rosestack/.github.git](https://github.com/rosestack/.github.git)
 
 rebuilding **14 releases** of io.github.rosestack:test:
-- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -25,7 +25,7 @@ rebuilding **14 releases** of io.github.rosestack:test:
 | [0.0.8](https://central.sonatype.com/artifact/io.github.rosestack/test/0.0.8/pom) | [mvn jdk8](test-0.0.8.buildspec) | [result](test-0.0.8.buildinfo): [3 :white_check_mark: ](test-0.0.8.buildcompare) | 18M |
 | [0.0.7](https://central.sonatype.com/artifact/io.github.rosestack/test/0.0.7/pom) | [mvn jdk8](test-0.0.7.buildspec) | [result](test-0.0.7.buildinfo): [3 :white_check_mark: ](test-0.0.7.buildcompare) | 18M |
 | [0.0.6](https://central.sonatype.com/artifact/io.github.rosestack/test/0.0.6/pom) | [mvn jdk8](test-0.0.6.buildspec) | :x: | |
-| [0.0.5](https://central.sonatype.com/artifact/io.github.rosestack/test/0.0.5/pom) | [mvn jdk8](test-0.0.5.buildspec) | :x: | |
+| [0.0.5](https://central.sonatype.com/artifact/io.github.rosestack/test/0.0.5/pom) | [mvn jdk8](test-0.0.5.buildspec) | [result](test-0.0.5.buildinfo): [3 :white_check_mark: ](test-0.0.5.buildcompare) | 18M |
 | [0.0.4](https://central.sonatype.com/artifact/io.github.rosestack/test/0.0.4/pom) | [mvn jdk8](test-0.0.4.buildspec) | [result](test-0.0.4.buildinfo): [3 :white_check_mark: ](test-0.0.4.buildcompare) | 18M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
