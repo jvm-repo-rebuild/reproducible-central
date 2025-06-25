@@ -8,8 +8,8 @@ This project is the [Java part](https://reproducible-builds.org/docs/jvm/) of th
 --------------------------------------------------------------------------------------------------------------------------
 
 Its objectives are to provide:
-1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
-2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
+1) [**Tools and methods enabling the verification of reproducible Java builds**](doc/TOOLS.md)
+2) [**A list of reproducible releases available on Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
    rebuilding **7685 releases** of **892 projects**:
    - **5595** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
