@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=test
+group-id=io.github.rosestack
+artifact-id=test
+version=0.0.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/rosestack/.github
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_452
+java.vendor=Private Build
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=io.github.rosestack
+outputs.0.filename=test-0.0.4.pom
+outputs.0.length=8493
+outputs.0.checksums.sha512=db3f803a04dd855d8aa81d3220ede196ecc3c4fb06476e840c1ce33f2a6d42c93ed59d8b988c68233cd1403e9a28cacd432e6d2beefc9e993559ce231c005c0e
+
+outputs.1.groupId=io.github.rosestack
+outputs.1.filename=test-0.0.4.jar
+outputs.1.length=17814382
+outputs.1.checksums.sha512=f671cc9541895d76c11c7801339c1fe6d7e69eebc35566ce329cee65e20fc0ab477fa0b4d5d1012cd01f7abb8e6958da4a5cde026766fa44af235007430d9b91
+
+outputs.2.groupId=io.github.rosestack
+outputs.2.filename=test-0.0.4-sources.jar
+outputs.2.length=3635
+outputs.2.checksums.sha512=43763d1ebb3255abe52e648f8e02b50c91b94169f494a8fb17ed140e3ccf11c4d24433030a79b66eb86d4fad0beca064b64d8374208effa89cfd144249b4b11f
