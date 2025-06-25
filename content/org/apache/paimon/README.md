@@ -7,8 +7,9 @@
 
 Source code: [https://github.com/apache/paimon.git](https://github.com/apache/paimon.git)
 
-<details><summary>This project defines 61 modules:</summary>
+<details><summary>This project defines 63 modules:</summary>
 
+* [org.apache.paimon:paimon-api](https://central.sonatype.com/artifact/org.apache.paimon/paimon-api/overview)
 * [org.apache.paimon:paimon-arrow](https://central.sonatype.com/artifact/org.apache.paimon/paimon-arrow/overview)
 * [org.apache.paimon:paimon-azure](https://central.sonatype.com/artifact/org.apache.paimon/paimon-azure/overview)
 * [org.apache.paimon:paimon-azure-impl](https://central.sonatype.com/artifact/org.apache.paimon/paimon-azure-impl/overview)
@@ -46,6 +47,7 @@ Source code: [https://github.com/apache/paimon.git](https://github.com/apache/pa
 * [org.apache.paimon:paimon-hive-connector-2.3](https://central.sonatype.com/artifact/org.apache.paimon/paimon-hive-connector-2.3/overview)
 * [org.apache.paimon:paimon-hive-connector-3.1](https://central.sonatype.com/artifact/org.apache.paimon/paimon-hive-connector-3.1/overview)
 * [org.apache.paimon:paimon-hive-connector-common](https://central.sonatype.com/artifact/org.apache.paimon/paimon-hive-connector-common/overview)
+* [org.apache.paimon:paimon-hudi](https://central.sonatype.com/artifact/org.apache.paimon/paimon-hudi/overview)
 * [org.apache.paimon:paimon-jindo](https://central.sonatype.com/artifact/org.apache.paimon/paimon-jindo/overview)
 * [org.apache.paimon:paimon-obs](https://central.sonatype.com/artifact/org.apache.paimon/paimon-obs/overview)
 * [org.apache.paimon:paimon-obs-impl](https://central.sonatype.com/artifact/org.apache.paimon/paimon-obs-impl/overview)
@@ -72,13 +74,13 @@ Source code: [https://github.com/apache/paimon.git](https://github.com/apache/pa
 * [org.apache.paimon:paimon-test-utils](https://central.sonatype.com/artifact/org.apache.paimon/paimon-test-utils/overview)
 </details>
 
-rebuilding **11 releases** of org.apache.paimon:paimon-parent:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **12 releases** of org.apache.paimon:paimon-parent:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.2.0](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/1.2.0/pom) | | | |
+| [1.2.0](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/1.2.0/pom) | [mvn jdk8](paimon-parent-1.2.0.buildspec) | [result](paimon-parent-1.2.0.buildinfo): [152 :white_check_mark: ](paimon-parent-1.2.0.buildcompare) | 1.1G |
 | [1.1.1](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/1.1.1/pom) | [mvn jdk8](paimon-parent-1.1.1.buildspec) | [result](paimon-parent-1.1.1.buildinfo): [152 :white_check_mark: ](paimon-parent-1.1.1.buildcompare) | 990M |
 | [1.1.0](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/1.1.0/pom) | [mvn jdk8](paimon-parent-1.1.0.buildspec) | [result](paimon-parent-1.1.0.buildinfo): [152 :white_check_mark: ](paimon-parent-1.1.0.buildcompare) | 990M |
 | [1.0.1](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/1.0.1/pom) | [mvn jdk8](paimon-parent-1.0.1.buildspec) | [result](paimon-parent-1.0.1.buildinfo): [139 :white_check_mark: ](paimon-parent-1.0.1.buildcompare) | 994M |
