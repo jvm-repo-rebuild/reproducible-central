@@ -1,0 +1,10 @@
+version=0.9.7
+ok=2
+ko=1
+ignored=0
+okFiles="opensaml-message-converter-0.9.7.pom opensaml-message-converter-0.9.7.jar"
+koFiles="opensaml-message-converter-0.9.7-sources.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.github.jmkeyes/opensaml-message-converter-0.9.7-sources.jar target/opensaml-message-converter-0.9.7-sources.jar
