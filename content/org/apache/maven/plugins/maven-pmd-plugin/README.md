@@ -13,6 +13,7 @@ rebuilding **14 releases** of org.apache.maven.plugins:maven-pmd-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.27.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-pmd-plugin/3.27.0/pom) | | | |
 | [3.26.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-pmd-plugin/3.26.0/pom) | [mvn jdk8 w](maven-pmd-plugin-3.26.0.buildspec) | [result](maven-pmd-plugin-3.26.0.buildinfo): [6 :white_check_mark: ](maven-pmd-plugin-3.26.0.buildcompare) | 1.3M |
 | [3.25.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-pmd-plugin/3.25.0/pom) | [mvn jdk8 w](maven-pmd-plugin-3.25.0.buildspec) | [result](maven-pmd-plugin-3.25.0.buildinfo): [6 :white_check_mark: ](maven-pmd-plugin-3.25.0.buildcompare) | 1.3M |
 | [3.24.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-pmd-plugin/3.24.0/pom) | [mvn jdk8 w](maven-pmd-plugin-3.24.0.buildspec) | [result](maven-pmd-plugin-3.24.0.buildinfo): [6 :white_check_mark: ](maven-pmd-plugin-3.24.0.buildcompare) | 1.3M |
