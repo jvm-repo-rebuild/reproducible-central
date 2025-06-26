@@ -128,7 +128,13 @@ do
       then
         row+=" | :x:"
       else
-        row+=" | ${oss_rebuild_ok}/${ko} :white_check_mark:"
+        row+=" | ${oss_rebuild_ok}/${ko}"
+        if [ ${oss_rebuild_ok} -eq ${ko} ]
+        then
+          row+=" :white_check_mark:"
+        else
+          row+=" :warning:"
+        fi
       fi
 
       # detect unexpected issue or diffoscope but 0 non-reproducible artifact (probably cause by previous buildspec copy)
