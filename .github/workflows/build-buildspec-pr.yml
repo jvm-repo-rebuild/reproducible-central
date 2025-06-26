@@ -92,7 +92,6 @@ jobs:
               bin/update-project-summary.sh "$(dirname $file)"
               git add "$(dirname $file)"
               git commit -m "./rebuild.sh $file"
-              git push
 
               buildcompare="$(dirname $file)/$(basename $buildinfo .buildinfo).buildcompare"
 
@@ -112,10 +111,14 @@ jobs:
                   && echo ":mag: oss-rebuild diffoscope analysis uploaded to ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> PRcomment.txt
               fi
 
+              git add "$(dirname $file)"
+              git commit -m "append oss-rebuild diffoscope analysis in buildcompare"
+
               echo '```' >> PRcomment.txt
               cat time.txt >> PRcomment.txt
               echo '```' >> PRcomment.txt
               rm -f time.txt
+              git push
             fi
           done
 

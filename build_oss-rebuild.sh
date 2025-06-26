@@ -31,8 +31,8 @@ then
 fi
 
 counter=0
-grep '# diffoscope ' ${compare} | ${sed} -e 's/# diffoscope //' | ( while read -r line
-do
+oss_rebuild_ok=0
+while read -r line; do
   ((counter++))
 
   reference=$(echo "$line" | cut -d' ' -f1)
@@ -57,12 +57,22 @@ do
   else
     docker run --rm -w /mnt -v $(pwd)/${builddir}:/mnt ghcr.io/jvm-repo-rebuild/diffoscope --no-progress --exclude META-INF/jandex.idx --text stabilized.diffoscope --output-empty $reference_stabilized $rebuild_stabilized
   fi
+  if [ $? -eq 0 ]; then
+    ((oss_rebuild_ok++))
+  fi
   cat $(pwd)/${builddir}/stabilized.diffoscope >> ${diffoscope_file}
   echo
-done )
+done < <(grep '# diffoscope ' ${compare} | ${sed} -e 's/# diffoscope //')
+
+echo "oss_rebuild_ok=$oss_rebuild_ok" >> $compare
 
 # remove ansi escape codes from file
-${sed} -i 's/\x1b\[[0-9;]*m//g' ${diffoscope_file}
+if [ -s $diffoscope_file ]
+then
+  ${sed} -i 's/\x1b\[[0-9;]*m//g' ${diffoscope_file}
+  echo -e "build diffoscope file saved to \033[1m${diffoscope_file}\033[0m"
+  du -h ${diffoscope_file}
+else
+  rm $diffoscope_file
+fi
 
-echo -e "build diffoscope file saved to \033[1m${diffoscope_file}\033[0m"
-du -h ${diffoscope_file}
