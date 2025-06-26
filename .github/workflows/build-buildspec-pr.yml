@@ -103,9 +103,13 @@ jobs:
               if [ $(grep "ko=0" PRcomment.txt | wc -l) -eq 0 ]
               then
                 ./build_diffoscope.sh "$buildcompare" buildcache/$artifactId
+                ./build_oss-rebuild.sh "$buildcompare" buildcache/$artifactId
                 diffoscope="$(dirname $file)/$(basename $buildinfo .buildinfo).diffoscope"
+                oss_rebuild_diffoscope="$(dirname $file)/$(basename $buildinfo .buildinfo).oss-rebuild.diffoscope"
                 [ -f $diffoscope ] && mv "$diffoscope" . \
                   && echo ":mag: diffoscope analysis uploaded to ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> PRcomment.txt
+                [ -f $oss_rebuild_diffoscope ] && mv "$oss_rebuild_diffoscope" . \
+                  && echo ":mag: oss-rebuild diffoscope analysis uploaded to ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> PRcomment.txt
               fi
 
               echo '```' >> PRcomment.txt
