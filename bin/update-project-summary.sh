@@ -143,6 +143,7 @@ do
       [[ -n "${diffoscope}" ]] && [[ ! -r "$dir/$(basename ${diffoscope})" ]] && echo "      $dir/$buildspec" >> ${missingDiffoscope}
       row+=" | $(grep length= ${dir}/${_buildinfo} | cut -d = -f 2 | paste -sd+ - | bc | $numfmt --to=iec) |"
       echo "$row" >> tmp/${projectReadme}
+      unset oss_rebuild_ok # to ensure oss-rebuild is not added to different releases
     else
       echo "$row:x: | |" >> tmp/${projectReadme}
     fi

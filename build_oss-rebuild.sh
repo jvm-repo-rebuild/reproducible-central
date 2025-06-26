@@ -19,7 +19,7 @@ builddir=$2
 diffoscope_file=$(dirname ${compare})/$(basename ${compare} .buildcompare).oss-rebuild.diffoscope
 count="$(grep "^# diffoscope" ${compare} | wc -l)"
 
-[ $count -eq 0 ] && echo "No diffoscope command listed in $compare" && exit
+[ $count -eq 0 ] && echo "No diffoscope command listed in $compare" && echo "oss_rebuild_ok=0" >> $compare && exit
 
 echo -e "saving build diffoscope file to \033[1m${diffoscope_file}\033[0m for $count issues"
 
