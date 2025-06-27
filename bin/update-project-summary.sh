@@ -128,12 +128,14 @@ do
       then
         row+=" | :?:"
       else
-        row+=" | ${oss_rebuild_ok}/${ko}"
-        if [ ${oss_rebuild_ok} -eq ${ko} ]
+        if [ ${ko} -eq 0 ]
         then
-          row+=" :white_check_mark:"
+          row+=" | -"
+        elif [ ${oss_rebuild_ok} -eq ${ko} ]
+        then
+          row+=" | ${ko} :warning: => ${oss_rebuild_ok}/${ko} :recycle:"
         else
-          row+=" :warning:"
+          row+=" | ${ko} :warning: => ${oss_rebuild_ok}/${ko} :arrows_counterclockwise:"
         fi
       fi
 
