@@ -126,7 +126,7 @@ do
 
       if [ -z "${oss_rebuild_ok}" ]
       then
-        row+=" | :?:"
+        row+=" | :grey_question:"
       else
         if [ ${ko} -eq 0 ]
         then
