@@ -102,7 +102,7 @@ jobs:
               if [ $(grep "ko=0" PRcomment.txt | wc -l) -eq 0 ]
               then
                 ./build_diffoscope.sh "$buildcompare" buildcache/$artifactId
-                ./build_oss-rebuild.sh "$buildcompare" buildcache/$artifactId
+                ./check_stabilize.sh "$buildcompare" buildcache/$artifactId
                 diffoscope="$(dirname $file)/$(basename $buildinfo .buildinfo).diffoscope"
                 oss_rebuild_diffoscope="$(dirname $file)/$(basename $buildinfo .buildinfo).oss-rebuild.diffoscope"
                 [ -f $diffoscope ] && mv "$diffoscope" . \
