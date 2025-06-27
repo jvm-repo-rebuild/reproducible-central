@@ -126,7 +126,7 @@ do
 
       if [ -z "${oss_rebuild_ok}" ]
       then
-        row+=" | :x:"
+        row+=" | :?:"
       else
         row+=" | ${oss_rebuild_ok}/${ko}"
         if [ ${oss_rebuild_ok} -eq ${ko} ]
