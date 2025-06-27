@@ -2,7 +2,7 @@
 
 stabilize () {
   file=$1
-  go install github.com/google/oss-rebuild/cmd/stabilize@main
+  go install github.com/google/oss-rebuild/cmd/stabilize@dbdf78a8d293311c42192d40f72db0e54b63334b
   ~/go/bin/stabilize -infile $file -outfile $file.stabilized
   if [ $? -ne 0 ]; then
     echo "Stabilize failed for $file"
