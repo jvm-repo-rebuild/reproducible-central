@@ -13,6 +13,7 @@ rebuilding **10 releases** of org.apache.sling:org.apache.sling.api:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.api/3.0.0/pom) | | | |
 | [2.27.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.api/2.27.6/pom) | [mvn jdk11](org.apache.sling.api-2.27.6.buildspec) | [result](org.apache.sling.api-2.27.6.buildinfo): [4 :white_check_mark: ](org.apache.sling.api-2.27.6.buildcompare) | 1.1M |
 | [2.27.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.api/2.27.2/pom) | [mvn jdk11](org.apache.sling.api-2.27.2.buildspec) | [result](org.apache.sling.api-2.27.2.buildinfo): [4 :white_check_mark: ](org.apache.sling.api-2.27.2.buildcompare) | 1.1M |
 | [2.27.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.api/2.27.0/pom) | [mvn jdk11](org.apache.sling.api-2.27.0.buildspec) | [result](org.apache.sling.api-2.27.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.api-2.27.0.buildcompare) | 1.1M |

@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.scripting.spi:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.scripting.spi/2.0.0/pom) | | | |
 | [1.0.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.scripting.spi/1.0.4/pom) | [mvn jdk11](org.apache.sling.scripting.spi-1.0.4.buildspec) | [result](org.apache.sling.scripting.spi-1.0.4.buildinfo): [4 :white_check_mark: ](org.apache.sling.scripting.spi-1.0.4.buildcompare) | 81K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
