@@ -15,3 +15,7 @@ reference_os_name="Unix (from pom.properties newline)"
 # diffoscope target/reference/org.jpmml/pmml-rexp-lightgbm-1.7.0-sources.jar pmml-rexp-lightgbm/target/pmml-rexp-lightgbm-1.7.0-sources.jar
 # diffoscope target/reference/org.jpmml/pmml-rexp-xgboost-1.7.0.jar pmml-rexp-xgboost/target/pmml-rexp-xgboost-1.7.0.jar
 # diffoscope target/reference/org.jpmml/pmml-rexp-xgboost-1.7.0-sources.jar pmml-rexp-xgboost/target/pmml-rexp-xgboost-1.7.0-sources.jar
+stabilize_ok=8
+stabilize_ko=0
+stabilize_okFiles="pmml-rexp-evaluator-1.7.0.jar.stabilized pmml-rexp-evaluator-1.7.0-sources.jar.stabilized pmml-rexp-1.7.0.jar.stabilized pmml-rexp-1.7.0-sources.jar.stabilized pmml-rexp-lightgbm-1.7.0.jar.stabilized pmml-rexp-lightgbm-1.7.0-sources.jar.stabilized pmml-rexp-xgboost-1.7.0.jar.stabilized pmml-rexp-xgboost-1.7.0-sources.jar.stabilized "
+stabilize_koFiles=""
