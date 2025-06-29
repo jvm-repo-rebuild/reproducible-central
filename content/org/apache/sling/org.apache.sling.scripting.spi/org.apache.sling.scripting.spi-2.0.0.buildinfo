@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Scripting SPI
+group-id=org.apache.sling
+artifact-id=org.apache.sling.scripting.spi
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-scripting-spi.git
+source.scm.tag=org.apache.sling.scripting.spi-2.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.15
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.scripting.spi-2.0.0.pom
+outputs.0.length=6413
+outputs.0.checksums.sha512=72a1ee7e13533eec9a7b7a3295398f4413258fc9c14f4082da318885262f9b7167c6d2123bd1a671d4c5d74797ccd5843e143e246ca307b631945ed8940b7d9d
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.scripting.spi-2.0.0.jar
+outputs.1.length=14948
+outputs.1.checksums.sha512=1674b4bd0ce86ae4eeb3dcfe0159578cbae81db989a50f7ea1bb1bb3a9c68f388fb0541599f13af39385bf3215df4f1bc94da0e75f10b16f46526534d29876f4
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.scripting.spi-2.0.0-source-release.zip
+outputs.2.length=26275
+outputs.2.checksums.sha512=f2c411d8695aed5b04ea9b08bbd7a353e9255daad51977f3907a18d3739116c82f0230a0b9fdc9273ab5c86ad3e7ab8774335bfbabec8161d485282547d2168b
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.scripting.spi-2.0.0-sources.jar
+outputs.3.length=17916
+outputs.3.checksums.sha512=670a17df96bea1f87dafde799f96d8c9a3f54985fa9ef81439028b2d17331e75b2cac629c113de384e8e9e53ca35201ae0ac03b26cd0f1ab824f12bcb1e85c59
