@@ -1,0 +1,9 @@
+version=3.9.1
+ok=6
+ko=0
+ignored=0
+okFiles="maven-invoker-plugin-3.9.1.pom maven-invoker-plugin-3.9.1.jar maven-invoker-plugin-3.9.1-source-release.zip maven-invoker-plugin-3.9.1-sources.jar maven-invoker-plugin-3.9.1-cyclonedx.xml maven-invoker-plugin-3.9.1-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
