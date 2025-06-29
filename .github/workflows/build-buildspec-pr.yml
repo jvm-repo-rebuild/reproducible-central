@@ -90,15 +90,17 @@ jobs:
           \`\`\`" >> PRcomment.txt
                 cat PRcomment.txt
                 continue
-              fi
+              fi # end of SHELL*
 
               sudo apt-get -qq install -y dos2unix 2>&1 > /dev/null
               ./rebuild.sh $file
+              buildcompare="$(dirname $file)/$(basename $buildinfo .buildinfo).buildcompare"
+              ./build_stabilize.sh "$buildcompare" buildcache/$artifactId
+
               bin/update-project-summary.sh "$(dirname $file)"
               git add "$(dirname $file)"
               git commit -m "./rebuild.sh $file"
-
-              buildcompare="$(dirname $file)/$(basename $buildinfo .buildinfo).buildcompare"
+              git push
 
               echo '```' >> PRcomment.txt
               grep -v okFiles "$buildcompare" >> PRcomment.txt
@@ -107,23 +109,15 @@ jobs:
               if [ $(grep "ko=0" PRcomment.txt | wc -l) -eq 0 ]
               then
                 ./build_diffoscope.sh "$buildcompare" buildcache/$artifactId
-                ./build_stabilize.sh "$buildcompare" buildcache/$artifactId
                 diffoscope="$(dirname $file)/$(basename $buildinfo .buildinfo).diffoscope"
-                oss_rebuild_diffoscope="$(dirname $file)/$(basename $buildinfo .buildinfo).oss-rebuild.diffoscope"
                 [ -f $diffoscope ] && mv "$diffoscope" . \
                   && echo ":mag: diffoscope analysis uploaded to ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> PRcomment.txt
-                [ -f $oss_rebuild_diffoscope ] && mv "$oss_rebuild_diffoscope" . \
-                  && echo ":mag: oss-rebuild diffoscope analysis uploaded to ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> PRcomment.txt
               fi
-
-              git add "$(dirname $file)"
-              git commit -m "append oss-rebuild diffoscope analysis in buildcompare"
 
               echo '```' >> PRcomment.txt
               cat time.txt >> PRcomment.txt
               echo '```' >> PRcomment.txt
               rm -f time.txt
-              git push
             fi
           done
 

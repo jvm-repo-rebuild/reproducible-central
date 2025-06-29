@@ -1,27 +1,30 @@
 #!/usr/bin/env bash
 
-stabilize () {
-  file=$1
-  go install github.com/google/oss-rebuild/cmd/stabilize@dbdf78a8d293311c42192d40f72db0e54b63334b
-  ~/go/bin/stabilize -infile $file -outfile $file.stabilized
-  if [ $? -ne 0 ]; then
-    echo "Stabilize failed for $file"
-    exit 1
-  fi
-  echo "Result: $file.stabilized"
-}
+# run oss-rebuild's stabilize command on every non-reproducible files
+# append stabilize results to .buildcompare
 
 # path to .buildcompare file
 compare=$1
 # relative path to source code, usually buildcache/${artifactId}
 builddir=$2
 
-diffoscope_file=$(dirname ${compare})/$(basename ${compare} .buildcompare).oss-rebuild.diffoscope
+stabilize () {
+  file=$1
+  [ -x ~/go/bin/stabilize ] || go install github.com/google/oss-rebuild/cmd/stabilize@dbdf78a8d293311c42192d40f72db0e54b63334b
+  echo "stabilize -infile $file"
+  ~/go/bin/stabilize -infile $file -outfile $file.stabilized
+  if [ $? -ne 0 ]; then
+    echo "Stabilize failed for $file"
+    exit 1
+  fi
+  sha1sum $file.stabilized
+}
+
 count="$(grep "^# diffoscope" ${compare} | wc -l)"
 
-[ $count -eq 0 ] && echo "No diffoscope command listed in $compare" && echo "oss_rebuild_ok=0" >> $compare && exit
+[ $count -eq 0 ] && echo "No issue found in $compare" && exit
 
-echo -e "saving build diffoscope file to \033[1m${diffoscope_file}\033[0m for $count issues"
+echo -e "running stabilize on $no non-native reproducible artifacts"
 
 sed="sed"
 if [ "$(uname -s)" ==  "Darwin" ]
@@ -31,48 +34,39 @@ then
 fi
 
 counter=0
-oss_rebuild_ok=0
+stabilize_ok=0
+stabilize_ko=0
+stabilize_okFiles=""
+stabilize_koFiles=""
+basedir="$(dirname ${compare})/${builddir}"
 while read -r line; do
   ((counter++))
 
   reference=$(echo "$line" | cut -d' ' -f1)
   rebuild=$(echo "$line" | cut -d' ' -f2)
-  echo "Reference: $reference"
-  echo "Rebuild: $rebuild"
   
   echo -e "$counter / $count \033[1m$line\033[0m"
 
-  stabilize ${builddir}/$reference
-  stabilize ${builddir}/$rebuild
+  stabilize ${basedir}/$reference
+  stabilize ${basedir}/$rebuild
 
   reference_stabilized=$reference.stabilized
   rebuild_stabilized=$rebuild.stabilized
 
-  if $(which -s diffoscope)
+  diff -q ${basedir}/$reference_stabilized ${basedir}/$rebuild_stabilized
+  if [ $? -eq 0 ]
   then
-    (
-      cd $(pwd)/${builddir}
-      diffoscope --no-progress --exclude META-INF/jandex.idx --text stabilized.diffoscope --output-empty $reference_stabilized $rebuild_stabilized
-    )
+    ((stabilize_ok++))
+    stabilize_okFiles+=$(basename $reference_stabilized)' '
   else
-    docker run --rm -w /mnt -v $(pwd)/${builddir}:/mnt ghcr.io/jvm-repo-rebuild/diffoscope --no-progress --exclude META-INF/jandex.idx --text stabilized.diffoscope --output-empty $reference_stabilized $rebuild_stabilized
+    ((stabilize_ko++))
+    stabilize_koFiles+=$(basename $reference_stabilized)' '
+    echo "# diffoscope $rebuild_stabilized $reference_stabilized"
   fi
-  if [ $? -eq 0 ]; then
-    ((oss_rebuild_ok++))
-  fi
-  cat $(pwd)/${builddir}/stabilized.diffoscope >> ${diffoscope_file}
   echo
 done < <(grep '# diffoscope ' ${compare} | ${sed} -e 's/# diffoscope //')
 
-echo "oss_rebuild_ok=$oss_rebuild_ok" >> $compare
-
-# remove ansi escape codes from file
-if [ -s $diffoscope_file ]
-then
-  ${sed} -i 's/\x1b\[[0-9;]*m//g' ${diffoscope_file}
-  echo -e "build diffoscope file saved to \033[1m${diffoscope_file}\033[0m"
-  du -h ${diffoscope_file}
-else
-  rm $diffoscope_file
-fi
-
+echo "stabilize_ok=$stabilize_ok
+stabilize_ko=$stabilize_ko
+stabilize_okFiles=\"$stabilize_okFiles\"
+stabilize_koFiles=\"$stabilize_koFiles\"" >> $compare
