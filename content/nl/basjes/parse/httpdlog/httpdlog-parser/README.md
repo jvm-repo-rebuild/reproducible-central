@@ -21,10 +21,10 @@ rebuilding **3 releases** of nl.basjes.parse.httpdlog:httpdlog-parser:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [5.11.0](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-parser/5.11.0/pom) | [mvn jdk21](httpdlog-parser-5.11.0.buildspec) | [result](parser-parent-5.11.0.buildinfo): [16 :white_check_mark: ](parser-parent-5.11.0.buildcompare) | 9.8M |
-| [5.10.0](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-parser/5.10.0/pom) | [mvn jdk17](httpdlog-parser-5.10.0.buildspec) | [result](parser-parent-5.10.0.buildinfo): [16 :white_check_mark: ](parser-parent-5.10.0.buildcompare) | 4.7M |
-| [5.9.0](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-parser/5.9.0/pom) | [mvn jdk17](httpdlog-parser-5.9.0.buildspec) | [result](parser-parent-5.9.0.buildinfo): [16 :white_check_mark: ](parser-parent-5.9.0.buildcompare) | 4.7M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [5.11.0](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-parser/5.11.0/pom) | [mvn jdk21](httpdlog-parser-5.11.0.buildspec) | [result](parser-parent-5.11.0.buildinfo): [16 :white_check_mark: ](parser-parent-5.11.0.buildcompare) | | 9.8M |
+| [5.10.0](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-parser/5.10.0/pom) | [mvn jdk17](httpdlog-parser-5.10.0.buildspec) | [result](parser-parent-5.10.0.buildinfo): [16 :white_check_mark: ](parser-parent-5.10.0.buildcompare) | | 4.7M |
+| [5.9.0](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-parser/5.9.0/pom) | [mvn jdk17](httpdlog-parser-5.9.0.buildspec) | [result](parser-parent-5.9.0.buildinfo): [16 :white_check_mark: ](parser-parent-5.9.0.buildcompare) | | 4.7M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

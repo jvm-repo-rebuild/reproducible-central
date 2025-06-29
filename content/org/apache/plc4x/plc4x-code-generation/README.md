@@ -20,10 +20,10 @@ rebuilding **3 releases** of org.apache.plc4x.plugins:plc4x-code-generation:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [1.8.0](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-code-generation/1.8.0/pom) | [mvn jdk24](plc4x-code-generation-1.8.0.buildspec) | [result](plc4x-code-generation-1.8.0.buildinfo): [14 :white_check_mark: ](plc4x-code-generation-1.8.0.buildcompare) | 339K |
-| [1.7.0](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-code-generation/1.7.0/pom) | [mvn jdk20](plc4x-code-generation-1.7.0.buildspec) | [result](plc4x-code-generation-1.7.0.buildinfo): [14 :white_check_mark: ](plc4x-code-generation-1.7.0.buildcompare) | 335K |
-| [1.6.0](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-code-generation/1.6.0/pom) | [mvn jdk18](plc4x-code-generation-1.6.0.buildspec) | [result](plc4x-code-generation-1.6.0.buildinfo): [14 :white_check_mark: ](plc4x-code-generation-1.6.0.buildcompare) | 327K |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.8.0](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-code-generation/1.8.0/pom) | [mvn jdk24](plc4x-code-generation-1.8.0.buildspec) | [result](plc4x-code-generation-1.8.0.buildinfo): [14 :white_check_mark: ](plc4x-code-generation-1.8.0.buildcompare) | | 339K |
+| [1.7.0](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-code-generation/1.7.0/pom) | [mvn jdk20](plc4x-code-generation-1.7.0.buildspec) | [result](plc4x-code-generation-1.7.0.buildinfo): [14 :white_check_mark: ](plc4x-code-generation-1.7.0.buildcompare) | | 335K |
+| [1.6.0](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-code-generation/1.6.0/pom) | [mvn jdk18](plc4x-code-generation-1.6.0.buildspec) | [result](plc4x-code-generation-1.6.0.buildinfo): [14 :white_check_mark: ](plc4x-code-generation-1.6.0.buildcompare) | | 327K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

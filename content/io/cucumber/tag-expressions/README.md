@@ -11,18 +11,18 @@ rebuilding **11 releases** of io.cucumber:tag-expressions:
 - **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [6.1.2](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/6.1.2/pom) | [mvn jdk17](tag-expressions-6.1.2.buildspec) | [result](tag-expressions-6.1.2.buildinfo): [3 :white_check_mark: ](tag-expressions-6.1.2.buildcompare) | 21K |
-| [6.1.1](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/6.1.1/pom) | [mvn jdk17](tag-expressions-6.1.1.buildspec) | [result](tag-expressions-6.1.1.buildinfo): [3 :white_check_mark: ](tag-expressions-6.1.1.buildcompare) | 21K |
-| [6.1.0](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/6.1.0/pom) | [mvn jdk11](tag-expressions-6.1.0.buildspec) | [result](tag-expressions-6.1.0.buildinfo): [3 :white_check_mark: ](tag-expressions-6.1.0.buildcompare) | 20K |
-| [6.0.0](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/6.0.0/pom) | [mvn jdk11](tag-expressions-6.0.0.buildspec) | [result](tag-expressions-6.0.0.buildinfo): [3 :white_check_mark: ](tag-expressions-6.0.0.buildcompare) | 20K |
-| [5.0.6](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/5.0.6/pom) | [mvn jdk11](tag-expressions-5.0.6.buildspec) | [result](tag-expressions-5.0.6.buildinfo): [3 :white_check_mark: ](tag-expressions-5.0.6.buildcompare) | 20K |
-| [5.0.5](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/5.0.5/pom) | [mvn jdk11](tag-expressions-5.0.5.buildspec) | [result](tag-expressions-5.0.5.buildinfo): [3 :white_check_mark: ](tag-expressions-5.0.5.buildcompare) | 20K |
-| [5.0.4](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/5.0.4/pom) | [mvn jdk11](tag-expressions-5.0.4.buildspec) | [result](tag-expressions-5.0.4.buildinfo): [3 :white_check_mark: ](tag-expressions-5.0.4.buildcompare) | 20K |
-| [5.0.3](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/5.0.3/pom) | [mvn jdk11](tag-expressions-5.0.3.buildspec) | [result](tag-expressions-5.0.3.buildinfo): [3 :white_check_mark: ](tag-expressions-5.0.3.buildcompare) | 20K |
-| [5.0.2](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/5.0.2/pom) | [mvn jdk11](tag-expressions-5.0.2.buildspec) | [result](tag-expressions-5.0.2.buildinfo): [3 :white_check_mark: ](tag-expressions-5.0.2.buildcompare) | 20K |
-| [5.0.1](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/5.0.1/pom) | [mvn jdk11](tag-expressions-5.0.1.buildspec) | [result](tag-expressions-5.0.1.buildinfo): [3 :white_check_mark: ](tag-expressions-5.0.1.buildcompare) | 20K |
-| [5.0.0](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/5.0.0/pom) | [mvn jdk11](tag-expressions-5.0.0.buildspec) | [result](tag-expressions-5.0.0.buildinfo): [3 :white_check_mark: ](tag-expressions-5.0.0.buildcompare) | 20K |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [6.1.2](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/6.1.2/pom) | [mvn jdk17](tag-expressions-6.1.2.buildspec) | [result](tag-expressions-6.1.2.buildinfo): [3 :white_check_mark: ](tag-expressions-6.1.2.buildcompare) | | 21K |
+| [6.1.1](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/6.1.1/pom) | [mvn jdk17](tag-expressions-6.1.1.buildspec) | [result](tag-expressions-6.1.1.buildinfo): [3 :white_check_mark: ](tag-expressions-6.1.1.buildcompare) | | 21K |
+| [6.1.0](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/6.1.0/pom) | [mvn jdk11](tag-expressions-6.1.0.buildspec) | [result](tag-expressions-6.1.0.buildinfo): [3 :white_check_mark: ](tag-expressions-6.1.0.buildcompare) | | 20K |
+| [6.0.0](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/6.0.0/pom) | [mvn jdk11](tag-expressions-6.0.0.buildspec) | [result](tag-expressions-6.0.0.buildinfo): [3 :white_check_mark: ](tag-expressions-6.0.0.buildcompare) | | 20K |
+| [5.0.6](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/5.0.6/pom) | [mvn jdk11](tag-expressions-5.0.6.buildspec) | [result](tag-expressions-5.0.6.buildinfo): [3 :white_check_mark: ](tag-expressions-5.0.6.buildcompare) | | 20K |
+| [5.0.5](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/5.0.5/pom) | [mvn jdk11](tag-expressions-5.0.5.buildspec) | [result](tag-expressions-5.0.5.buildinfo): [3 :white_check_mark: ](tag-expressions-5.0.5.buildcompare) | | 20K |
+| [5.0.4](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/5.0.4/pom) | [mvn jdk11](tag-expressions-5.0.4.buildspec) | [result](tag-expressions-5.0.4.buildinfo): [3 :white_check_mark: ](tag-expressions-5.0.4.buildcompare) | | 20K |
+| [5.0.3](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/5.0.3/pom) | [mvn jdk11](tag-expressions-5.0.3.buildspec) | [result](tag-expressions-5.0.3.buildinfo): [3 :white_check_mark: ](tag-expressions-5.0.3.buildcompare) | | 20K |
+| [5.0.2](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/5.0.2/pom) | [mvn jdk11](tag-expressions-5.0.2.buildspec) | [result](tag-expressions-5.0.2.buildinfo): [3 :white_check_mark: ](tag-expressions-5.0.2.buildcompare) | | 20K |
+| [5.0.1](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/5.0.1/pom) | [mvn jdk11](tag-expressions-5.0.1.buildspec) | [result](tag-expressions-5.0.1.buildinfo): [3 :white_check_mark: ](tag-expressions-5.0.1.buildcompare) | | 20K |
+| [5.0.0](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/5.0.0/pom) | [mvn jdk11](tag-expressions-5.0.0.buildspec) | [result](tag-expressions-5.0.0.buildinfo): [3 :white_check_mark: ](tag-expressions-5.0.0.buildcompare) | | 20K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

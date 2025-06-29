@@ -22,9 +22,9 @@ rebuilding **2 releases** of io.jstach.ezkv:ezkv-maven-parent:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [0.4.0](https://central.sonatype.com/artifact/io.jstach.ezkv/ezkv-maven-parent/0.4.0/pom) | [mvn jdk21.0.2](ezkv-0.4.0.buildspec) | [result](ezkv-maven-parent-0.4.0.buildinfo): [19 :white_check_mark: ](ezkv-maven-parent-0.4.0.buildcompare) | 434K |
-| [0.3.0](https://central.sonatype.com/artifact/io.jstach.ezkv/ezkv-maven-parent/0.3.0/pom) | [mvn jdk21.0.2](ezkv-0.3.0.buildspec) | [result](ezkv-maven-parent-0.3.0.buildinfo): [19 :white_check_mark: ](ezkv-maven-parent-0.3.0.buildcompare) | 412K |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [0.4.0](https://central.sonatype.com/artifact/io.jstach.ezkv/ezkv-maven-parent/0.4.0/pom) | [mvn jdk21.0.2](ezkv-0.4.0.buildspec) | [result](ezkv-maven-parent-0.4.0.buildinfo): [19 :white_check_mark: ](ezkv-maven-parent-0.4.0.buildcompare) | | 434K |
+| [0.3.0](https://central.sonatype.com/artifact/io.jstach.ezkv/ezkv-maven-parent/0.3.0/pom) | [mvn jdk21.0.2](ezkv-0.3.0.buildspec) | [result](ezkv-maven-parent-0.3.0.buildinfo): [19 :white_check_mark: ](ezkv-maven-parent-0.3.0.buildcompare) | | 412K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

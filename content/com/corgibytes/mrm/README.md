@@ -20,8 +20,8 @@ rebuilding **1 releases** of com.corgibytes:mrm:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [1.4.2](https://central.sonatype.com/artifact/com.corgibytes/mrm/1.4.2/pom) | [mvn jdk17](mrm-1.4.2.buildspec) | [result](mrm-1.4.2.buildinfo): [13 :white_check_mark: ](mrm-1.4.2.buildcompare) | 5.1M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.4.2](https://central.sonatype.com/artifact/com.corgibytes/mrm/1.4.2/pom) | [mvn jdk17](mrm-1.4.2.buildspec) | [result](mrm-1.4.2.buildinfo): [13 :white_check_mark: ](mrm-1.4.2.buildcompare) | | 5.1M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

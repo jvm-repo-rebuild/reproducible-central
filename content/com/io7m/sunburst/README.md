@@ -30,9 +30,9 @@ rebuilding **2 releases** of com.io7m.sunburst:com.io7m.sunburst:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [0.0.7](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst/0.0.7/pom) | [mvn jdk21](com.io7m.sunburst-0.0.7.buildspec) | [result](com.io7m.sunburst-0.0.7.buildinfo): [60 :white_check_mark:  13 :warning:](com.io7m.sunburst-0.0.7.buildcompare) | 5.7M |
-| [0.0.6](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst/0.0.6/pom) | [mvn jdk17.0.7](com.io7m.sunburst-0.0.6.buildspec) | [result](com.io7m.sunburst-0.0.6.buildinfo): [60 :white_check_mark:  13 :warning:](com.io7m.sunburst-0.0.6.buildcompare) [:mag:](com.io7m.sunburst-0.0.6.diffoscope) | 5.5M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [0.0.7](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst/0.0.7/pom) | [mvn jdk21](com.io7m.sunburst-0.0.7.buildspec) | [result](com.io7m.sunburst-0.0.7.buildinfo): [60 :white_check_mark:  13 :warning:](com.io7m.sunburst-0.0.7.buildcompare) | - | 5.7M |
+| [0.0.6](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst/0.0.6/pom) | [mvn jdk17.0.7](com.io7m.sunburst-0.0.6.buildspec) | [result](com.io7m.sunburst-0.0.6.buildinfo): [60 :white_check_mark:  13 :warning:](com.io7m.sunburst-0.0.6.buildcompare) [:mag:](com.io7m.sunburst-0.0.6.diffoscope) | - | 5.5M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

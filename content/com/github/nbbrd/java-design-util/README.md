@@ -19,9 +19,9 @@ rebuilding **2 releases** of com.github.nbbrd.java-design-util:java-design-paren
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [1.6.0](https://central.sonatype.com/artifact/com.github.nbbrd.java-design-util/java-design-parent/1.6.0/pom) | [mvn jdk21](java-design-util-1.6.0.buildspec) | [result](java-design-parent-1.6.0.buildinfo): [8 :white_check_mark: ](java-design-parent-1.6.0.buildcompare) | 256K |
-| [1.5.1](https://central.sonatype.com/artifact/com.github.nbbrd.java-design-util/java-design-parent/1.5.1/pom) | [mvn jdk21](java-design-util-1.5.1.buildspec) | [result](java-design-parent-1.5.1.buildinfo): [8 :white_check_mark: ](java-design-parent-1.5.1.buildcompare) | 246K |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.6.0](https://central.sonatype.com/artifact/com.github.nbbrd.java-design-util/java-design-parent/1.6.0/pom) | [mvn jdk21](java-design-util-1.6.0.buildspec) | [result](java-design-parent-1.6.0.buildinfo): [8 :white_check_mark: ](java-design-parent-1.6.0.buildcompare) | | 256K |
+| [1.5.1](https://central.sonatype.com/artifact/com.github.nbbrd.java-design-util/java-design-parent/1.5.1/pom) | [mvn jdk21](java-design-util-1.5.1.buildspec) | [result](java-design-parent-1.5.1.buildinfo): [8 :white_check_mark: ](java-design-parent-1.5.1.buildcompare) | | 246K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

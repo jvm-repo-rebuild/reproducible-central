@@ -27,8 +27,8 @@ rebuilding **1 releases** of org.apache.maven.archetypes:maven-archetype-bundles
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [1.5](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-bundles/1.5/pom) | [mvn jdk22](archetypes-1.5.buildspec) | [result](maven-archetype-bundles-1.5.buildinfo): [59 :white_check_mark: ](maven-archetype-bundles-1.5.buildcompare) | 757K |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.5](https://central.sonatype.com/artifact/org.apache.maven.archetypes/maven-archetype-bundles/1.5/pom) | [mvn jdk22](archetypes-1.5.buildspec) | [result](maven-archetype-bundles-1.5.buildinfo): [59 :white_check_mark: ](maven-archetype-bundles-1.5.buildcompare) | | 757K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

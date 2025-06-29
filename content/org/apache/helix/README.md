@@ -28,17 +28,17 @@ rebuilding **10 releases** of org.apache.helix:helix:
 - **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [1.4.3](https://central.sonatype.com/artifact/org.apache.helix/helix/1.4.3/pom) | [mvn jdk11](helix-1.4.3.buildspec) | [result](helix-1.4.3.buildinfo): [56 :white_check_mark: ](helix-1.4.3.buildcompare) | 120M |
-| [1.4.2](https://central.sonatype.com/artifact/org.apache.helix/helix/1.4.2/pom) | [mvn jdk11](helix-1.4.2.buildspec) | [result](helix-1.4.2.buildinfo): [54 :white_check_mark: ](helix-1.4.2.buildcompare) | 120M |
-| [1.4.1](https://central.sonatype.com/artifact/org.apache.helix/helix/1.4.1/pom) | [mvn jdk11](helix-1.4.1.buildspec) | [result](helix-1.4.1.buildinfo): [53 :white_check_mark: ](helix-1.4.1.buildcompare) | 119M |
-| [1.4.0](https://central.sonatype.com/artifact/org.apache.helix/helix/1.4.0/pom) | [mvn jdk11](helix-1.4.0.buildspec) | [result](helix-1.4.0.buildinfo): [53 :white_check_mark: ](helix-1.4.0.buildcompare) | 119M |
-| [1.3.1](https://central.sonatype.com/artifact/org.apache.helix/helix/1.3.1/pom) | [mvn jdk11](helix-1.3.1.buildspec) | [result](helix-1.3.1.buildinfo): [49 :white_check_mark:  1 :warning:](helix-1.3.1.buildcompare) | 259M |
-| [1.3.0](https://central.sonatype.com/artifact/org.apache.helix/helix/1.3.0/pom) | [mvn jdk11](helix-1.3.0.buildspec) | [result](helix-1.3.0.buildinfo): [49 :white_check_mark:  1 :warning:](helix-1.3.0.buildcompare) [:mag:](helix-1.3.0.diffoscope) | 257M |
-| [1.2.0](https://central.sonatype.com/artifact/org.apache.helix/helix/1.2.0/pom) | [mvn jdk11](helix-1.2.0.buildspec) | [result](helix-1.2.0.buildinfo): [46 :white_check_mark:  1 :warning:](helix-1.2.0.buildcompare) | 261M |
-| [1.1.0](https://central.sonatype.com/artifact/org.apache.helix/helix/1.1.0/pom) | [mvn jdk11](helix-1.1.0.buildspec) | [result](helix-1.1.0.buildinfo): [29 :white_check_mark:  18 :warning:](helix-1.1.0.buildcompare) | 261M |
-| [1.0.4](https://central.sonatype.com/artifact/org.apache.helix/helix/1.0.4/pom) | [mvn jdk8](helix-1.0.4.buildspec) | [result](helix-1.0.4.buildinfo): [31 :white_check_mark:  16 :warning:](helix-1.0.4.buildcompare) [:mag:](helix-1.0.4.diffoscope) | 203M |
-| [1.0.3](https://central.sonatype.com/artifact/org.apache.helix/helix/1.0.3/pom) | [mvn jdk8](helix-1.0.3.buildspec) | [result](helix-1.0.3.buildinfo): [28 :white_check_mark:  15 :warning:](helix-1.0.3.buildcompare) [:mag:](helix-1.0.3.diffoscope) | 289M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.4.3](https://central.sonatype.com/artifact/org.apache.helix/helix/1.4.3/pom) | [mvn jdk11](helix-1.4.3.buildspec) | [result](helix-1.4.3.buildinfo): [56 :white_check_mark: ](helix-1.4.3.buildcompare) | | 120M |
+| [1.4.2](https://central.sonatype.com/artifact/org.apache.helix/helix/1.4.2/pom) | [mvn jdk11](helix-1.4.2.buildspec) | [result](helix-1.4.2.buildinfo): [54 :white_check_mark: ](helix-1.4.2.buildcompare) | | 120M |
+| [1.4.1](https://central.sonatype.com/artifact/org.apache.helix/helix/1.4.1/pom) | [mvn jdk11](helix-1.4.1.buildspec) | [result](helix-1.4.1.buildinfo): [53 :white_check_mark: ](helix-1.4.1.buildcompare) | | 119M |
+| [1.4.0](https://central.sonatype.com/artifact/org.apache.helix/helix/1.4.0/pom) | [mvn jdk11](helix-1.4.0.buildspec) | [result](helix-1.4.0.buildinfo): [53 :white_check_mark: ](helix-1.4.0.buildcompare) | | 119M |
+| [1.3.1](https://central.sonatype.com/artifact/org.apache.helix/helix/1.3.1/pom) | [mvn jdk11](helix-1.3.1.buildspec) | [result](helix-1.3.1.buildinfo): [49 :white_check_mark:  1 :warning:](helix-1.3.1.buildcompare) | - | 259M |
+| [1.3.0](https://central.sonatype.com/artifact/org.apache.helix/helix/1.3.0/pom) | [mvn jdk11](helix-1.3.0.buildspec) | [result](helix-1.3.0.buildinfo): [49 :white_check_mark:  1 :warning:](helix-1.3.0.buildcompare) [:mag:](helix-1.3.0.diffoscope) | - | 257M |
+| [1.2.0](https://central.sonatype.com/artifact/org.apache.helix/helix/1.2.0/pom) | [mvn jdk11](helix-1.2.0.buildspec) | [result](helix-1.2.0.buildinfo): [46 :white_check_mark:  1 :warning:](helix-1.2.0.buildcompare) | - | 261M |
+| [1.1.0](https://central.sonatype.com/artifact/org.apache.helix/helix/1.1.0/pom) | [mvn jdk11](helix-1.1.0.buildspec) | [result](helix-1.1.0.buildinfo): [29 :white_check_mark:  18 :warning:](helix-1.1.0.buildcompare) | - | 261M |
+| [1.0.4](https://central.sonatype.com/artifact/org.apache.helix/helix/1.0.4/pom) | [mvn jdk8](helix-1.0.4.buildspec) | [result](helix-1.0.4.buildinfo): [31 :white_check_mark:  16 :warning:](helix-1.0.4.buildcompare) [:mag:](helix-1.0.4.diffoscope) | - | 203M |
+| [1.0.3](https://central.sonatype.com/artifact/org.apache.helix/helix/1.0.3/pom) | [mvn jdk8](helix-1.0.3.buildspec) | [result](helix-1.0.3.buildinfo): [28 :white_check_mark:  15 :warning:](helix-1.0.3.buildcompare) [:mag:](helix-1.0.3.diffoscope) | - | 289M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

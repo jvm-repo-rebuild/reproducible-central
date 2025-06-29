@@ -17,10 +17,10 @@ rebuilding **3 releases** of org.quickperf:quick-perf-live:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [0.12](https://central.sonatype.com/artifact/org.quickperf/quick-perf-live/0.12/pom) | [mvn jdk11 w](quick-perf-live-0.12.buildspec) | [result](quick-perf-live-0.12.buildinfo): [2 :white_check_mark:  2 :warning:](quick-perf-live-0.12.buildcompare) | 133K |
-| [0.11](https://central.sonatype.com/artifact/org.quickperf/quick-perf-live/0.11/pom) | [mvn jdk11 w](quick-perf-live-0.11.buildspec) | [result](quick-perf-live-0.11.buildinfo): [2 :white_check_mark:  2 :warning:](quick-perf-live-0.11.buildcompare) | 129K |
-| [0.1](https://central.sonatype.com/artifact/org.quickperf/quick-perf-live/0.1/pom) | [mvn jdk11 w](quick-perf-live-0.1.buildspec) | [result](quick-perf-live-0.1.buildinfo): [2 :white_check_mark:  2 :warning:](quick-perf-live-0.1.buildcompare) | 129K |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [0.12](https://central.sonatype.com/artifact/org.quickperf/quick-perf-live/0.12/pom) | [mvn jdk11 w](quick-perf-live-0.12.buildspec) | [result](quick-perf-live-0.12.buildinfo): [2 :white_check_mark:  2 :warning:](quick-perf-live-0.12.buildcompare) | - | 133K |
+| [0.11](https://central.sonatype.com/artifact/org.quickperf/quick-perf-live/0.11/pom) | [mvn jdk11 w](quick-perf-live-0.11.buildspec) | [result](quick-perf-live-0.11.buildinfo): [2 :white_check_mark:  2 :warning:](quick-perf-live-0.11.buildcompare) | - | 129K |
+| [0.1](https://central.sonatype.com/artifact/org.quickperf/quick-perf-live/0.1/pom) | [mvn jdk11 w](quick-perf-live-0.1.buildspec) | [result](quick-perf-live-0.1.buildinfo): [2 :white_check_mark:  2 :warning:](quick-perf-live-0.1.buildcompare) | - | 129K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

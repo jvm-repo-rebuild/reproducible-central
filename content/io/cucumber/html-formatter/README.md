@@ -11,8 +11,8 @@ rebuilding **1 releases** of io.cucumber:html-formatter:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
 | [21.12.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/21.12.0/pom) | | | |
 | [21.10.1](https://central.sonatype.com/artifact/io.cucumber/html-formatter/21.10.1/pom) | | | |
 | [21.10.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/21.10.0/pom) | | | |
@@ -32,6 +32,6 @@ rebuilding **1 releases** of io.cucumber:html-formatter:
 | [20.3.1](https://central.sonatype.com/artifact/io.cucumber/html-formatter/20.3.1/pom) | | | |
 | [20.3.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/20.3.0/pom) | | | |
 | [20.2.1](https://central.sonatype.com/artifact/io.cucumber/html-formatter/20.2.1/pom) | | | |
-| [20.2.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/20.2.0/pom) | [mvn jdk11](html-formatter-20.2.0.buildspec) | [result](html-formatter-20.2.0.buildinfo): [2 :white_check_mark:  1 :warning:](html-formatter-20.2.0.buildcompare) [:mag:](html-formatter-20.2.0.diffoscope) [:memo:](https://github.com/cucumber/html-formatter/issues/207) | 13K |
+| [20.2.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/20.2.0/pom) | [mvn jdk11](html-formatter-20.2.0.buildspec) | [result](html-formatter-20.2.0.buildinfo): [2 :white_check_mark:  1 :warning:](html-formatter-20.2.0.buildcompare) [:mag:](html-formatter-20.2.0.diffoscope) [:memo:](https://github.com/cucumber/html-formatter/issues/207) | - | 13K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -21,10 +21,10 @@ rebuilding **3 releases** of io.takari:io.takari.incrementalbuild:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [1.0.4](https://central.sonatype.com/artifact/io.takari/io.takari.incrementalbuild/1.0.4/pom) | [mvn jdk21](incrementalbuild-1.0.4.buildspec) | [result](io.takari.incrementalbuild-1.0.4.buildinfo): [16 :white_check_mark:  1 :warning:](io.takari.incrementalbuild-1.0.4.buildcompare) | 866K |
-| [1.0.3](https://central.sonatype.com/artifact/io.takari/io.takari.incrementalbuild/1.0.3/pom) | [mvn jdk21](incrementalbuild-1.0.3.buildspec) | [result](io.takari.incrementalbuild-1.0.3.buildinfo): [16 :white_check_mark:  1 :warning:](io.takari.incrementalbuild-1.0.3.buildcompare) [:mag:](io.takari.incrementalbuild-1.0.3.diffoscope) | 865K |
-| [1.0.2](https://central.sonatype.com/artifact/io.takari/io.takari.incrementalbuild/1.0.2/pom) | [mvn jdk21](incrementalbuild-1.0.2.buildspec) | [result](io.takari.incrementalbuild-1.0.2.buildinfo): [16 :white_check_mark:  1 :warning:](io.takari.incrementalbuild-1.0.2.buildcompare) [:mag:](io.takari.incrementalbuild-1.0.2.diffoscope) | 866K |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.0.4](https://central.sonatype.com/artifact/io.takari/io.takari.incrementalbuild/1.0.4/pom) | [mvn jdk21](incrementalbuild-1.0.4.buildspec) | [result](io.takari.incrementalbuild-1.0.4.buildinfo): [16 :white_check_mark:  1 :warning:](io.takari.incrementalbuild-1.0.4.buildcompare) | - | 866K |
+| [1.0.3](https://central.sonatype.com/artifact/io.takari/io.takari.incrementalbuild/1.0.3/pom) | [mvn jdk21](incrementalbuild-1.0.3.buildspec) | [result](io.takari.incrementalbuild-1.0.3.buildinfo): [16 :white_check_mark:  1 :warning:](io.takari.incrementalbuild-1.0.3.buildcompare) [:mag:](io.takari.incrementalbuild-1.0.3.diffoscope) | - | 865K |
+| [1.0.2](https://central.sonatype.com/artifact/io.takari/io.takari.incrementalbuild/1.0.2/pom) | [mvn jdk21](incrementalbuild-1.0.2.buildspec) | [result](io.takari.incrementalbuild-1.0.2.buildinfo): [16 :white_check_mark:  1 :warning:](io.takari.incrementalbuild-1.0.2.buildcompare) [:mag:](io.takari.incrementalbuild-1.0.2.diffoscope) | - | 866K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -577,8 +577,8 @@ rebuilding **11 releases** of org.finos.legend.engine:legend-engine:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
 | [4.89.1](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.89.1/pom) | | | |
 | [4.89.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.89.0/pom) | | | |
 | [4.88.11](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.88.11/pom) | | | |
@@ -626,7 +626,7 @@ rebuilding **11 releases** of org.finos.legend.engine:legend-engine:
 | [4.73.1](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.73.1/pom) | | | |
 | [4.73.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.73.0/pom) | | | |
 | [4.72.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.72.0/pom) | | | |
-| [4.71.1](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.71.1/pom) | [mvn jdk11](legend-engine-4.71.1.buildspec) | [result](legend-engine-4.71.1.buildinfo): [839 :white_check_mark:  533 :warning:](legend-engine-4.71.1.buildcompare) [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | 1.3G |
+| [4.71.1](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.71.1/pom) | [mvn jdk11](legend-engine-4.71.1.buildspec) | [result](legend-engine-4.71.1.buildinfo): [839 :white_check_mark:  533 :warning:](legend-engine-4.71.1.buildcompare) [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | - | 1.3G |
 | [4.70.1](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.70.1/pom) | | | |
 | [4.70.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.70.0/pom) | | | |
 | [4.69.4](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.69.4/pom) | | | |
@@ -666,7 +666,7 @@ rebuilding **11 releases** of org.finos.legend.engine:legend-engine:
 | [4.58.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.58.0/pom) | | | |
 | [4.57.1](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.57.1/pom) | | | |
 | [4.57.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.57.0/pom) | | | |
-| [4.56.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.56.0/pom) | [mvn jdk11](legend-engine-4.56.0.buildspec) | [result](legend-engine-4.56.0.buildinfo): [796 :white_check_mark:  510 :warning:](legend-engine-4.56.0.buildcompare) [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | 1.2G |
+| [4.56.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.56.0/pom) | [mvn jdk11](legend-engine-4.56.0.buildspec) | [result](legend-engine-4.56.0.buildinfo): [796 :white_check_mark:  510 :warning:](legend-engine-4.56.0.buildcompare) [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | - | 1.2G |
 | [4.55.4](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.55.4/pom) | | | |
 | [4.55.3](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.55.3/pom) | | | |
 | [4.55.2](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.55.2/pom) | | | |
@@ -797,14 +797,14 @@ rebuilding **11 releases** of org.finos.legend.engine:legend-engine:
 | [4.9.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.9.0/pom) | | | |
 | [4.8.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.8.0/pom) | | | |
 | [4.7.1](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.7.1/pom) | | | |
-| [4.7.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.7.0/pom) | [mvn jdk11](legend-engine-4.7.0.buildspec) | [result](legend-engine-4.7.0.buildinfo): [598 :white_check_mark:  76 :warning:](legend-engine-4.7.0.buildcompare) | 867M |
-| [4.6.2](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.6.2/pom) | [mvn jdk11](legend-engine-4.6.2.buildspec) | [result](legend-engine-4.6.2.buildinfo): [590 :white_check_mark:  77 :warning:](legend-engine-4.6.2.buildcompare) | 865M |
-| [4.6.1](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.6.1/pom) | [mvn jdk11](legend-engine-4.6.1.buildspec) | [result](legend-engine-4.6.1.buildinfo): [589 :white_check_mark:  78 :warning:](legend-engine-4.6.1.buildcompare) | 864M |
-| [4.6.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.6.0/pom) | [mvn jdk11](legend-engine-4.6.0.buildspec) | [result](legend-engine-4.6.0.buildinfo): [591 :white_check_mark:  76 :warning:](legend-engine-4.6.0.buildcompare) | 864M |
-| [4.5.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.5.0/pom) | [mvn jdk11](legend-engine-4.5.0.buildspec) | [result](legend-engine-4.5.0.buildinfo): [582 :white_check_mark:  75 :warning:](legend-engine-4.5.0.buildcompare) | 842M |
-| [4.4.8](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.8/pom) | [mvn jdk11](legend-engine-4.4.8.buildspec) | [result](legend-engine-4.4.8.buildinfo): [577 :white_check_mark:  74 :warning:](legend-engine-4.4.8.buildcompare) | 842M |
-| [4.4.7](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.7/pom) | [mvn jdk11](legend-engine-4.4.7.buildspec) | [result](legend-engine-4.4.7.buildinfo): [584 :white_check_mark:  67 :warning:](legend-engine-4.4.7.buildcompare) | 842M |
-| [4.4.6](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.6/pom) | [mvn jdk11](legend-engine-4.4.6.buildspec) | [result](legend-engine-4.4.6.buildinfo): [572 :white_check_mark:  76 :warning:](legend-engine-4.4.6.buildcompare) | 841M |
-| [4.4.5](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.5/pom) | [mvn jdk11](legend-engine-4.4.5.buildspec) | [result](legend-engine-4.4.5.buildinfo): [574 :white_check_mark:  75 :warning:](legend-engine-4.4.5.buildcompare) [:mag:](legend-engine-4.4.5.diffoscope) | 841M |
+| [4.7.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.7.0/pom) | [mvn jdk11](legend-engine-4.7.0.buildspec) | [result](legend-engine-4.7.0.buildinfo): [598 :white_check_mark:  76 :warning:](legend-engine-4.7.0.buildcompare) | - | 867M |
+| [4.6.2](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.6.2/pom) | [mvn jdk11](legend-engine-4.6.2.buildspec) | [result](legend-engine-4.6.2.buildinfo): [590 :white_check_mark:  77 :warning:](legend-engine-4.6.2.buildcompare) | - | 865M |
+| [4.6.1](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.6.1/pom) | [mvn jdk11](legend-engine-4.6.1.buildspec) | [result](legend-engine-4.6.1.buildinfo): [589 :white_check_mark:  78 :warning:](legend-engine-4.6.1.buildcompare) | - | 864M |
+| [4.6.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.6.0/pom) | [mvn jdk11](legend-engine-4.6.0.buildspec) | [result](legend-engine-4.6.0.buildinfo): [591 :white_check_mark:  76 :warning:](legend-engine-4.6.0.buildcompare) | - | 864M |
+| [4.5.0](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.5.0/pom) | [mvn jdk11](legend-engine-4.5.0.buildspec) | [result](legend-engine-4.5.0.buildinfo): [582 :white_check_mark:  75 :warning:](legend-engine-4.5.0.buildcompare) | - | 842M |
+| [4.4.8](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.8/pom) | [mvn jdk11](legend-engine-4.4.8.buildspec) | [result](legend-engine-4.4.8.buildinfo): [577 :white_check_mark:  74 :warning:](legend-engine-4.4.8.buildcompare) | - | 842M |
+| [4.4.7](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.7/pom) | [mvn jdk11](legend-engine-4.4.7.buildspec) | [result](legend-engine-4.4.7.buildinfo): [584 :white_check_mark:  67 :warning:](legend-engine-4.4.7.buildcompare) | - | 842M |
+| [4.4.6](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.6/pom) | [mvn jdk11](legend-engine-4.4.6.buildspec) | [result](legend-engine-4.4.6.buildinfo): [572 :white_check_mark:  76 :warning:](legend-engine-4.4.6.buildcompare) | - | 841M |
+| [4.4.5](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.5/pom) | [mvn jdk11](legend-engine-4.4.5.buildspec) | [result](legend-engine-4.4.5.buildinfo): [574 :white_check_mark:  75 :warning:](legend-engine-4.4.5.buildcompare) [:mag:](legend-engine-4.4.5.diffoscope) | - | 841M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

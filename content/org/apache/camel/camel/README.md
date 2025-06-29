@@ -637,8 +637,8 @@ rebuilding **10 releases** of org.apache.camel:camel:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
 | [4.12.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.12.0/pom) | | | |
 | [4.11.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.11.0/pom) | | | |
 | [4.10.6](https://central.sonatype.com/artifact/org.apache.camel/camel/4.10.6/pom) | | | |
@@ -648,7 +648,7 @@ rebuilding **10 releases** of org.apache.camel:camel:
 | [4.10.2](https://central.sonatype.com/artifact/org.apache.camel/camel/4.10.2/pom) | | | |
 | [4.10.1](https://central.sonatype.com/artifact/org.apache.camel/camel/4.10.1/pom) | | | |
 | [4.10.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.10.0/pom) | [mvn jdk21](camel-4.10.0.buildspec) | :x: | |
-| [4.9.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.9.0/pom) | [mvn jdk21](camel-4.9.0.buildspec) | [result](camel-4.9.0.buildinfo): [1 :white_check_mark:  2 :warning:](camel-4.9.0.buildcompare) [:mag:](camel-4.9.0.diffoscope) | 13M |
+| [4.9.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.9.0/pom) | [mvn jdk21](camel-4.9.0.buildspec) | [result](camel-4.9.0.buildinfo): [1 :white_check_mark:  2 :warning:](camel-4.9.0.buildcompare) [:mag:](camel-4.9.0.diffoscope) | - | 13M |
 | [4.8.8](https://central.sonatype.com/artifact/org.apache.camel/camel/4.8.8/pom) | | | |
 | [4.8.7](https://central.sonatype.com/artifact/org.apache.camel/camel/4.8.7/pom) | | | |
 | [4.8.6](https://central.sonatype.com/artifact/org.apache.camel/camel/4.8.6/pom) | | | |
@@ -678,8 +678,8 @@ rebuilding **10 releases** of org.apache.camel:camel:
 | [4.0.1](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.1/pom) | | | |
 | [4.0.0](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0/pom) | | | |
 | [4.0.0-RC2](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-RC2/pom) | | | |
-| [4.0.0-RC1](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-RC1/pom) | [mvn jdk17](camel-4.0.0-RC1.buildspec) | [result](camel-4.0.0-RC1.buildinfo): [1114 :white_check_mark:  397 :warning:](camel-4.0.0-RC1.buildcompare) [:mag:](camel-4.0.0-RC1.diffoscope) | 68M |
-| [4.0.0-M3](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-M3/pom) | [mvn jdk17](camel-4.0.0-M3.buildspec) | [result](camel-4.0.0-M3.buildinfo): [1095 :white_check_mark:  403 :warning:](camel-4.0.0-M3.buildcompare) [:mag:](camel-4.0.0-M3.diffoscope) | 168M |
+| [4.0.0-RC1](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-RC1/pom) | [mvn jdk17](camel-4.0.0-RC1.buildspec) | [result](camel-4.0.0-RC1.buildinfo): [1114 :white_check_mark:  397 :warning:](camel-4.0.0-RC1.buildcompare) [:mag:](camel-4.0.0-RC1.diffoscope) | - | 68M |
+| [4.0.0-M3](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-M3/pom) | [mvn jdk17](camel-4.0.0-M3.buildspec) | [result](camel-4.0.0-M3.buildinfo): [1095 :white_check_mark:  403 :warning:](camel-4.0.0-M3.buildcompare) [:mag:](camel-4.0.0-M3.diffoscope) | - | 168M |
 | [4.0.0-M2](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-M2/pom) | | | |
 | [4.0.0-M1](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-M1/pom) | | | |
 | [3.22.4](https://central.sonatype.com/artifact/org.apache.camel/camel/3.22.4/pom) | | | |
@@ -692,7 +692,7 @@ rebuilding **10 releases** of org.apache.camel:camel:
 | [3.21.3](https://central.sonatype.com/artifact/org.apache.camel/camel/3.21.3/pom) | | | |
 | [3.21.2](https://central.sonatype.com/artifact/org.apache.camel/camel/3.21.2/pom) | | | |
 | [3.21.1](https://central.sonatype.com/artifact/org.apache.camel/camel/3.21.1/pom) | | | |
-| [3.21.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.21.0/pom) | [mvn jdk11](camel-3.21.0.buildspec) | [result](camel-3.21.0.buildinfo): [1176 :white_check_mark:  468 :warning:](camel-3.21.0.buildcompare) [:mag:](camel-3.21.0.diffoscope) [:memo:](https://github.com/apache/camel/pull/10557) | 134M |
+| [3.21.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.21.0/pom) | [mvn jdk11](camel-3.21.0.buildspec) | [result](camel-3.21.0.buildinfo): [1176 :white_check_mark:  468 :warning:](camel-3.21.0.buildcompare) [:mag:](camel-3.21.0.diffoscope) [:memo:](https://github.com/apache/camel/pull/10557) | - | 134M |
 | [3.20.9](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.9/pom) | | | |
 | [3.20.8](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.8/pom) | | | |
 | [3.20.7](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.7/pom) | | | |
@@ -703,17 +703,17 @@ rebuilding **10 releases** of org.apache.camel:camel:
 | [3.20.2](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.2/pom) | | | |
 | [3.20.1](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.1/pom) | | | |
 | [3.20.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.0/pom) | | | |
-| [3.19.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.19.0/pom) | [mvn jdk11](camel-3.19.0.buildspec) | [result](camel-3.19.0.buildinfo): [1163 :white_check_mark:  446 :warning:](camel-3.19.0.buildcompare) [:memo:](https://github.com/apache/camel/pull/10442) | 259M |
+| [3.19.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.19.0/pom) | [mvn jdk11](camel-3.19.0.buildspec) | [result](camel-3.19.0.buildinfo): [1163 :white_check_mark:  446 :warning:](camel-3.19.0.buildcompare) [:memo:](https://github.com/apache/camel/pull/10442) | - | 259M |
 | [3.18.8](https://central.sonatype.com/artifact/org.apache.camel/camel/3.18.8/pom) | | | |
 | [3.18.7](https://central.sonatype.com/artifact/org.apache.camel/camel/3.18.7/pom) | | | |
 | [3.18.6](https://central.sonatype.com/artifact/org.apache.camel/camel/3.18.6/pom) | | | |
 | [3.18.5](https://central.sonatype.com/artifact/org.apache.camel/camel/3.18.5/pom) | | | |
 | [3.18.4](https://central.sonatype.com/artifact/org.apache.camel/camel/3.18.4/pom) | | | |
 | [3.18.3](https://central.sonatype.com/artifact/org.apache.camel/camel/3.18.3/pom) | | | |
-| [3.18.2](https://central.sonatype.com/artifact/org.apache.camel/camel/3.18.2/pom) | [mvn jdk11](camel-3.18.2.buildspec) | [result](camel-3.18.2.buildinfo): [1156 :white_check_mark:  435 :warning:](camel-3.18.2.buildcompare) [:mag:](camel-3.18.2.diffoscope) [:memo:](https://github.com/apache/camel/pull/7665) | 226M |
+| [3.18.2](https://central.sonatype.com/artifact/org.apache.camel/camel/3.18.2/pom) | [mvn jdk11](camel-3.18.2.buildspec) | [result](camel-3.18.2.buildinfo): [1156 :white_check_mark:  435 :warning:](camel-3.18.2.buildcompare) [:mag:](camel-3.18.2.diffoscope) [:memo:](https://github.com/apache/camel/pull/7665) | - | 226M |
 | [3.18.1](https://central.sonatype.com/artifact/org.apache.camel/camel/3.18.1/pom) | | | |
 | [3.18.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.18.0/pom) | | | |
-| [3.17.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.17.0/pom) | [mvn jdk11](camel-3.17.0.buildspec) | [result](camel-3.17.0.buildinfo): [1122 :white_check_mark:  440 :warning:](camel-3.17.0.buildcompare) [:mag:](camel-3.17.0.diffoscope) [:memo:](https://github.com/apache/camel/pull/7665) | 224M |
+| [3.17.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.17.0/pom) | [mvn jdk11](camel-3.17.0.buildspec) | [result](camel-3.17.0.buildinfo): [1122 :white_check_mark:  440 :warning:](camel-3.17.0.buildcompare) [:mag:](camel-3.17.0.diffoscope) [:memo:](https://github.com/apache/camel/pull/7665) | - | 224M |
 | [3.16.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.16.0/pom) | | | |
 | [3.15.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.15.0/pom) | | | |
 | [3.14.10](https://central.sonatype.com/artifact/org.apache.camel/camel/3.14.10/pom) | | | |
@@ -727,6 +727,6 @@ rebuilding **10 releases** of org.apache.camel:camel:
 | [3.14.2](https://central.sonatype.com/artifact/org.apache.camel/camel/3.14.2/pom) | | | |
 | [3.14.1](https://central.sonatype.com/artifact/org.apache.camel/camel/3.14.1/pom) | | | |
 | [3.14.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.14.0/pom) | | | |
-| [3.13.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.13.0/pom) | [mvn jdk8](camel-3.13.0.buildspec) | [result](camel-3.13.0.buildinfo): [947 :white_check_mark:  631 :warning:](camel-3.13.0.buildcompare) [:mag:](camel-3.13.0.diffoscope) [:memo:](https://github.com/apache/camel/pull/7563) | 249M |
+| [3.13.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.13.0/pom) | [mvn jdk8](camel-3.13.0.buildspec) | [result](camel-3.13.0.buildinfo): [947 :white_check_mark:  631 :warning:](camel-3.13.0.buildcompare) [:mag:](camel-3.13.0.diffoscope) [:memo:](https://github.com/apache/camel/pull/7563) | - | 249M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -11,12 +11,12 @@ rebuilding **5 releases** of io.github.ollama4j:ollama4j:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [1.0.100](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.0.100/pom) | [mvn jdk17](ollama4j-1.0.100.buildspec) | [result](ollama4j-1.0.100.buildinfo): [3 :white_check_mark: ](ollama4j-1.0.100.buildcompare) | 225K |
-| [1.0.99](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.0.99/pom) | [mvn jdk17](ollama4j-1.0.99.buildspec) | [result](ollama4j-1.0.99.buildinfo): [3 :white_check_mark: ](ollama4j-1.0.99.buildcompare) | 217K |
-| [1.0.98](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.0.98/pom) | [mvn jdk17](ollama4j-1.0.98.buildspec) | [result](ollama4j-1.0.98.buildinfo): [3 :white_check_mark: ](ollama4j-1.0.98.buildcompare) | 215K |
-| [1.0.97](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.0.97/pom) | [mvn jdk17](ollama4j-1.0.97.buildspec) | [result](ollama4j-1.0.97.buildinfo): [3 :white_check_mark: ](ollama4j-1.0.97.buildcompare) | 210K |
-| [1.0.96](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.0.96/pom) | [mvn jdk17](ollama4j-1.0.96.buildspec) | [result](ollama4j-1.0.96.buildinfo): [3 :white_check_mark: ](ollama4j-1.0.96.buildcompare) | 209K |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.0.100](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.0.100/pom) | [mvn jdk17](ollama4j-1.0.100.buildspec) | [result](ollama4j-1.0.100.buildinfo): [3 :white_check_mark: ](ollama4j-1.0.100.buildcompare) | | 225K |
+| [1.0.99](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.0.99/pom) | [mvn jdk17](ollama4j-1.0.99.buildspec) | [result](ollama4j-1.0.99.buildinfo): [3 :white_check_mark: ](ollama4j-1.0.99.buildcompare) | | 217K |
+| [1.0.98](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.0.98/pom) | [mvn jdk17](ollama4j-1.0.98.buildspec) | [result](ollama4j-1.0.98.buildinfo): [3 :white_check_mark: ](ollama4j-1.0.98.buildcompare) | | 215K |
+| [1.0.97](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.0.97/pom) | [mvn jdk17](ollama4j-1.0.97.buildspec) | [result](ollama4j-1.0.97.buildinfo): [3 :white_check_mark: ](ollama4j-1.0.97.buildcompare) | | 210K |
+| [1.0.96](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.0.96/pom) | [mvn jdk17](ollama4j-1.0.96.buildspec) | [result](ollama4j-1.0.96.buildinfo): [3 :white_check_mark: ](ollama4j-1.0.96.buildcompare) | | 209K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

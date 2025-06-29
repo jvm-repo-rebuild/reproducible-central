@@ -22,25 +22,25 @@ rebuilding **18 releases** of io.telicent.jena:rdf-abac:
 - **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [1.0.2](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/1.0.2/pom) | [mvn jdk17](rdf-abac-1.0.2.buildspec) | [result](rdf-abac-1.0.2.buildinfo): [38 :white_check_mark: ](rdf-abac-1.0.2.buildcompare) | 112M |
-| [1.0.1](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/1.0.1/pom) | [mvn jdk17](rdf-abac-1.0.1.buildspec) | [result](rdf-abac-1.0.1.buildinfo): [38 :white_check_mark: ](rdf-abac-1.0.1.buildcompare) | 111M |
-| [1.0.0](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/1.0.0/pom) | [mvn jdk17](rdf-abac-1.0.0.buildspec) | [result](rdf-abac-1.0.0.buildinfo): [38 :white_check_mark: ](rdf-abac-1.0.0.buildcompare) | 111M |
-| [0.73.4](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.73.4/pom) | [mvn jdk17](rdf-abac-0.73.4.buildspec) | [result](rdf-abac-0.73.4.buildinfo): [32 :white_check_mark: ](rdf-abac-0.73.4.buildcompare) | 111M |
-| [0.73.3](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.73.3/pom) | [mvn jdk17](rdf-abac-0.73.3.buildspec) | [result](rdf-abac-0.73.3.buildinfo): [32 :white_check_mark: ](rdf-abac-0.73.3.buildcompare) | 100M |
-| [0.73.2](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.73.2/pom) | [mvn jdk17](rdf-abac-0.73.2.buildspec) | [result](rdf-abac-0.73.2.buildinfo): [32 :white_check_mark: ](rdf-abac-0.73.2.buildcompare) | 100M |
-| [0.73.1](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.73.1/pom) | [mvn jdk17](rdf-abac-0.73.1.buildspec) | [result](rdf-abac-0.73.1.buildinfo): [32 :white_check_mark: ](rdf-abac-0.73.1.buildcompare) | 100M |
-| [0.73.0](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.73.0/pom) | [mvn jdk17](rdf-abac-0.73.0.buildspec) | [result](rdf-abac-0.73.0.buildinfo): [32 :white_check_mark: ](rdf-abac-0.73.0.buildcompare) | 100M |
-| [0.72.1](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.72.1/pom) | [mvn jdk17](rdf-abac-0.72.1.buildspec) | [result](rdf-abac-0.72.1.buildinfo): [32 :white_check_mark: ](rdf-abac-0.72.1.buildcompare) | 100M |
-| [0.72.0](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.72.0/pom) | [mvn jdk17](rdf-abac-0.72.0.buildspec) | [result](rdf-abac-0.72.0.buildinfo): [28 :white_check_mark: ](rdf-abac-0.72.0.buildcompare) | 100M |
-| [0.71.10](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.71.10/pom) | [mvn jdk17](rdf-abac-0.71.10.buildspec) | [result](rdf-abac-0.71.10.buildinfo): [28 :white_check_mark: ](rdf-abac-0.71.10.buildcompare) | 98M |
-| [0.71.9](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.71.9/pom) | [mvn jdk17](rdf-abac-0.71.9.buildspec) | [result](rdf-abac-0.71.9.buildinfo): [28 :white_check_mark: ](rdf-abac-0.71.9.buildcompare) | 97M |
-| [0.71.8](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.71.8/pom) | [mvn jdk17](rdf-abac-0.71.8.buildspec) | [result](rdf-abac-0.71.8.buildinfo): [28 :white_check_mark: ](rdf-abac-0.71.8.buildcompare) | 99M |
-| [0.71.7](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.71.7/pom) | [mvn jdk17](rdf-abac-0.71.7.buildspec) | [result](rdf-abac-0.71.7.buildinfo): [28 :white_check_mark: ](rdf-abac-0.71.7.buildcompare) | 95M |
-| [0.71.6](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.71.6/pom) | [mvn jdk17](rdf-abac-0.71.6.buildspec) | [result](rdf-abac-0.71.6.buildinfo): [28 :white_check_mark: ](rdf-abac-0.71.6.buildcompare) | 95M |
-| [0.71.5](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.71.5/pom) | [mvn jdk17](rdf-abac-0.71.5.buildspec) | [result](rdf-abac-0.71.5.buildinfo): [28 :white_check_mark: ](rdf-abac-0.71.5.buildcompare) | 95M |
-| [0.71.4](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.71.4/pom) | [mvn jdk17](rdf-abac-0.71.4.buildspec) | [result](rdf-abac-0.71.4.buildinfo): [28 :white_check_mark: ](rdf-abac-0.71.4.buildcompare) | 95M |
-| [0.71.2](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.71.2/pom) | [mvn jdk17](rdf-abac-0.71.2.buildspec) | [result](rdf-abac-0.71.2.buildinfo): [22 :white_check_mark: ](rdf-abac-0.71.2.buildcompare) | 1.8M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.0.2](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/1.0.2/pom) | [mvn jdk17](rdf-abac-1.0.2.buildspec) | [result](rdf-abac-1.0.2.buildinfo): [38 :white_check_mark: ](rdf-abac-1.0.2.buildcompare) | | 112M |
+| [1.0.1](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/1.0.1/pom) | [mvn jdk17](rdf-abac-1.0.1.buildspec) | [result](rdf-abac-1.0.1.buildinfo): [38 :white_check_mark: ](rdf-abac-1.0.1.buildcompare) | | 111M |
+| [1.0.0](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/1.0.0/pom) | [mvn jdk17](rdf-abac-1.0.0.buildspec) | [result](rdf-abac-1.0.0.buildinfo): [38 :white_check_mark: ](rdf-abac-1.0.0.buildcompare) | | 111M |
+| [0.73.4](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.73.4/pom) | [mvn jdk17](rdf-abac-0.73.4.buildspec) | [result](rdf-abac-0.73.4.buildinfo): [32 :white_check_mark: ](rdf-abac-0.73.4.buildcompare) | | 111M |
+| [0.73.3](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.73.3/pom) | [mvn jdk17](rdf-abac-0.73.3.buildspec) | [result](rdf-abac-0.73.3.buildinfo): [32 :white_check_mark: ](rdf-abac-0.73.3.buildcompare) | | 100M |
+| [0.73.2](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.73.2/pom) | [mvn jdk17](rdf-abac-0.73.2.buildspec) | [result](rdf-abac-0.73.2.buildinfo): [32 :white_check_mark: ](rdf-abac-0.73.2.buildcompare) | | 100M |
+| [0.73.1](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.73.1/pom) | [mvn jdk17](rdf-abac-0.73.1.buildspec) | [result](rdf-abac-0.73.1.buildinfo): [32 :white_check_mark: ](rdf-abac-0.73.1.buildcompare) | | 100M |
+| [0.73.0](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.73.0/pom) | [mvn jdk17](rdf-abac-0.73.0.buildspec) | [result](rdf-abac-0.73.0.buildinfo): [32 :white_check_mark: ](rdf-abac-0.73.0.buildcompare) | | 100M |
+| [0.72.1](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.72.1/pom) | [mvn jdk17](rdf-abac-0.72.1.buildspec) | [result](rdf-abac-0.72.1.buildinfo): [32 :white_check_mark: ](rdf-abac-0.72.1.buildcompare) | | 100M |
+| [0.72.0](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.72.0/pom) | [mvn jdk17](rdf-abac-0.72.0.buildspec) | [result](rdf-abac-0.72.0.buildinfo): [28 :white_check_mark: ](rdf-abac-0.72.0.buildcompare) | | 100M |
+| [0.71.10](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.71.10/pom) | [mvn jdk17](rdf-abac-0.71.10.buildspec) | [result](rdf-abac-0.71.10.buildinfo): [28 :white_check_mark: ](rdf-abac-0.71.10.buildcompare) | | 98M |
+| [0.71.9](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.71.9/pom) | [mvn jdk17](rdf-abac-0.71.9.buildspec) | [result](rdf-abac-0.71.9.buildinfo): [28 :white_check_mark: ](rdf-abac-0.71.9.buildcompare) | | 97M |
+| [0.71.8](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.71.8/pom) | [mvn jdk17](rdf-abac-0.71.8.buildspec) | [result](rdf-abac-0.71.8.buildinfo): [28 :white_check_mark: ](rdf-abac-0.71.8.buildcompare) | | 99M |
+| [0.71.7](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.71.7/pom) | [mvn jdk17](rdf-abac-0.71.7.buildspec) | [result](rdf-abac-0.71.7.buildinfo): [28 :white_check_mark: ](rdf-abac-0.71.7.buildcompare) | | 95M |
+| [0.71.6](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.71.6/pom) | [mvn jdk17](rdf-abac-0.71.6.buildspec) | [result](rdf-abac-0.71.6.buildinfo): [28 :white_check_mark: ](rdf-abac-0.71.6.buildcompare) | | 95M |
+| [0.71.5](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.71.5/pom) | [mvn jdk17](rdf-abac-0.71.5.buildspec) | [result](rdf-abac-0.71.5.buildinfo): [28 :white_check_mark: ](rdf-abac-0.71.5.buildcompare) | | 95M |
+| [0.71.4](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.71.4/pom) | [mvn jdk17](rdf-abac-0.71.4.buildspec) | [result](rdf-abac-0.71.4.buildinfo): [28 :white_check_mark: ](rdf-abac-0.71.4.buildcompare) | | 95M |
+| [0.71.2](https://central.sonatype.com/artifact/io.telicent.jena/rdf-abac/0.71.2/pom) | [mvn jdk17](rdf-abac-0.71.2.buildspec) | [result](rdf-abac-0.71.2.buildinfo): [22 :white_check_mark: ](rdf-abac-0.71.2.buildcompare) | | 1.8M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

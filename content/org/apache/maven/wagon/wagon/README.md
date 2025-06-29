@@ -32,15 +32,15 @@ rebuilding **8 releases** of org.apache.maven.wagon:wagon:
 - **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [3.5.3](https://central.sonatype.com/artifact/org.apache.maven.wagon/wagon/3.5.3/pom) | [mvn jdk8 w](wagon-3.5.3.buildspec) | [result](wagon-3.5.3.buildinfo): [50 :white_check_mark: ](wagon-3.5.3.buildcompare) | 3.0M |
-| [3.5.2](https://central.sonatype.com/artifact/org.apache.maven.wagon/wagon/3.5.2/pom) | [mvn jdk8 w](wagon-3.5.2.buildspec) | [result](wagon-3.5.2.buildinfo): [50 :white_check_mark: ](wagon-3.5.2.buildcompare) | 3.2M |
-| [3.5.1](https://central.sonatype.com/artifact/org.apache.maven.wagon/wagon/3.5.1/pom) | [mvn jdk8 w](wagon-3.5.1.buildspec) | [result](wagon-3.5.1.buildinfo): [50 :white_check_mark: ](wagon-3.5.1.buildcompare) | 3.2M |
-| [3.5.0](https://central.sonatype.com/artifact/org.apache.maven.wagon/wagon/3.5.0/pom) | [mvn jdk8 w](wagon-3.5.0.buildspec) | [result](wagon-3.5.0.buildinfo): [50 :white_check_mark: ](wagon-3.5.0.buildcompare) | 3.6M |
-| [3.4.3](https://central.sonatype.com/artifact/org.apache.maven.wagon/wagon/3.4.3/pom) | [mvn jdk8 w](wagon-3.4.3.buildspec) | [result](wagon-3.4.3.buildinfo): [50 :white_check_mark: ](wagon-3.4.3.buildcompare) | 3.6M |
-| [3.4.2](https://central.sonatype.com/artifact/org.apache.maven.wagon/wagon/3.4.2/pom) | [mvn jdk8 w](wagon-3.4.2.buildspec) | [result](wagon-webdav-jackrabbit-3.4.2.buildinfo): [50 :white_check_mark: ](wagon-webdav-jackrabbit-3.4.2.buildcompare) | 3.6M |
-| [3.4.1](https://central.sonatype.com/artifact/org.apache.maven.wagon/wagon/3.4.1/pom) | [mvn jdk8 w](wagon-3.4.1.buildspec) | [result](wagon-webdav-jackrabbit-3.4.1.buildinfo): [50 :white_check_mark: ](wagon-webdav-jackrabbit-3.4.1.buildcompare) | 3.6M |
-| [3.4.0](https://central.sonatype.com/artifact/org.apache.maven.wagon/wagon/3.4.0/pom) | [mvn jdk8 w](wagon-3.4.0.buildspec) | [result](wagon-webdav-jackrabbit-3.4.0.buildinfo): [50 :white_check_mark: ](wagon-webdav-jackrabbit-3.4.0.buildcompare) | 3.6M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [3.5.3](https://central.sonatype.com/artifact/org.apache.maven.wagon/wagon/3.5.3/pom) | [mvn jdk8 w](wagon-3.5.3.buildspec) | [result](wagon-3.5.3.buildinfo): [50 :white_check_mark: ](wagon-3.5.3.buildcompare) | | 3.0M |
+| [3.5.2](https://central.sonatype.com/artifact/org.apache.maven.wagon/wagon/3.5.2/pom) | [mvn jdk8 w](wagon-3.5.2.buildspec) | [result](wagon-3.5.2.buildinfo): [50 :white_check_mark: ](wagon-3.5.2.buildcompare) | | 3.2M |
+| [3.5.1](https://central.sonatype.com/artifact/org.apache.maven.wagon/wagon/3.5.1/pom) | [mvn jdk8 w](wagon-3.5.1.buildspec) | [result](wagon-3.5.1.buildinfo): [50 :white_check_mark: ](wagon-3.5.1.buildcompare) | | 3.2M |
+| [3.5.0](https://central.sonatype.com/artifact/org.apache.maven.wagon/wagon/3.5.0/pom) | [mvn jdk8 w](wagon-3.5.0.buildspec) | [result](wagon-3.5.0.buildinfo): [50 :white_check_mark: ](wagon-3.5.0.buildcompare) | | 3.6M |
+| [3.4.3](https://central.sonatype.com/artifact/org.apache.maven.wagon/wagon/3.4.3/pom) | [mvn jdk8 w](wagon-3.4.3.buildspec) | [result](wagon-3.4.3.buildinfo): [50 :white_check_mark: ](wagon-3.4.3.buildcompare) | | 3.6M |
+| [3.4.2](https://central.sonatype.com/artifact/org.apache.maven.wagon/wagon/3.4.2/pom) | [mvn jdk8 w](wagon-3.4.2.buildspec) | [result](wagon-webdav-jackrabbit-3.4.2.buildinfo): [50 :white_check_mark: ](wagon-webdav-jackrabbit-3.4.2.buildcompare) | | 3.6M |
+| [3.4.1](https://central.sonatype.com/artifact/org.apache.maven.wagon/wagon/3.4.1/pom) | [mvn jdk8 w](wagon-3.4.1.buildspec) | [result](wagon-webdav-jackrabbit-3.4.1.buildinfo): [50 :white_check_mark: ](wagon-webdav-jackrabbit-3.4.1.buildcompare) | | 3.6M |
+| [3.4.0](https://central.sonatype.com/artifact/org.apache.maven.wagon/wagon/3.4.0/pom) | [mvn jdk8 w](wagon-3.4.0.buildspec) | [result](wagon-webdav-jackrabbit-3.4.0.buildinfo): [50 :white_check_mark: ](wagon-webdav-jackrabbit-3.4.0.buildcompare) | | 3.6M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

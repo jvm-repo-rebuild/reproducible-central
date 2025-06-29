@@ -11,10 +11,10 @@ rebuilding **3 releases** of org.sentrysoftware:printf4j:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [0.9.07](https://central.sonatype.com/artifact/org.sentrysoftware/printf4j/0.9.07/pom) | [mvn jdk17](printf4j-0.9.07.buildspec) | [result](printf4j-0.9.07.buildinfo): [3 :white_check_mark: ](printf4j-0.9.07.buildcompare) | 28K |
-| [0.9.06](https://central.sonatype.com/artifact/org.sentrysoftware/printf4j/0.9.06/pom) | [mvn jdk17](printf4j-0.9.06.buildspec) | [result](printf4j-0.9.06.buildinfo): [3 :white_check_mark: ](printf4j-0.9.06.buildcompare) | 27K |
-| [0.9.05](https://central.sonatype.com/artifact/org.sentrysoftware/printf4j/0.9.05/pom) | [mvn jdk17](printf4j-0.9.05.buildspec) | [result](printf4j-0.9.05.buildinfo): [3 :white_check_mark: ](printf4j-0.9.05.buildcompare) | 26K |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [0.9.07](https://central.sonatype.com/artifact/org.sentrysoftware/printf4j/0.9.07/pom) | [mvn jdk17](printf4j-0.9.07.buildspec) | [result](printf4j-0.9.07.buildinfo): [3 :white_check_mark: ](printf4j-0.9.07.buildcompare) | | 28K |
+| [0.9.06](https://central.sonatype.com/artifact/org.sentrysoftware/printf4j/0.9.06/pom) | [mvn jdk17](printf4j-0.9.06.buildspec) | [result](printf4j-0.9.06.buildinfo): [3 :white_check_mark: ](printf4j-0.9.06.buildcompare) | | 27K |
+| [0.9.05](https://central.sonatype.com/artifact/org.sentrysoftware/printf4j/0.9.05/pom) | [mvn jdk17](printf4j-0.9.05.buildspec) | [result](printf4j-0.9.05.buildinfo): [3 :white_check_mark: ](printf4j-0.9.05.buildcompare) | | 26K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

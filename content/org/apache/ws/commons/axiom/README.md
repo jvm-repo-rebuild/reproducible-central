@@ -60,9 +60,9 @@ rebuilding **2 releases** of org.apache.ws.commons.axiom:axiom:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [2.0.0](https://central.sonatype.com/artifact/org.apache.ws.commons.axiom/axiom/2.0.0/pom) | [mvn jdk17](axiom-2.0.0.buildspec) | [result](axiom-2.0.0.buildinfo): [100 :white_check_mark:  16 :warning:](axiom-2.0.0.buildcompare) | 22M |
-| [1.4.0](https://central.sonatype.com/artifact/org.apache.ws.commons.axiom/axiom/1.4.0/pom) | [mvn jdk11](axiom-1.4.0.buildspec) | [result](axiom-1.4.0.buildinfo): [88 :white_check_mark:  5 :warning:](axiom-1.4.0.buildcompare) [:mag:](axiom-1.4.0.diffoscope) | 19M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [2.0.0](https://central.sonatype.com/artifact/org.apache.ws.commons.axiom/axiom/2.0.0/pom) | [mvn jdk17](axiom-2.0.0.buildspec) | [result](axiom-2.0.0.buildinfo): [100 :white_check_mark:  16 :warning:](axiom-2.0.0.buildcompare) | - | 22M |
+| [1.4.0](https://central.sonatype.com/artifact/org.apache.ws.commons.axiom/axiom/1.4.0/pom) | [mvn jdk11](axiom-1.4.0.buildspec) | [result](axiom-1.4.0.buildinfo): [88 :white_check_mark:  5 :warning:](axiom-1.4.0.buildcompare) [:mag:](axiom-1.4.0.diffoscope) | - | 19M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

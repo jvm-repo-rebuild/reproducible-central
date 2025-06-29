@@ -23,11 +23,11 @@ rebuilding **4 releases** of org.apache.ftpserver:ftpserver-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [1.2.1](https://central.sonatype.com/artifact/org.apache.ftpserver/ftpserver-parent/1.2.1/pom) | [mvn jdk21](mina-ftpserver-1.2.1.buildspec) | [result](ftpserver-parent-1.2.1.buildinfo): [20 :white_check_mark:  5 :warning:](ftpserver-parent-1.2.1.buildcompare) | 20M |
-| [1.2.0](https://central.sonatype.com/artifact/org.apache.ftpserver/ftpserver-parent/1.2.0/pom) | [mvn jdk8](mina-ftpserver-1.2.0.buildspec) | [result](ftpserver-parent-1.2.0.buildinfo): [18 :white_check_mark:  7 :warning:](ftpserver-parent-1.2.0.buildcompare) [:memo:](https://github.com/apache/mina-ftpserver/pull/13) | 20M |
-| [1.1.4](https://central.sonatype.com/artifact/org.apache.ftpserver/ftpserver-parent/1.1.4/pom) | [mvn jdk8](mina-ftpserver-1.1.4.buildspec) | [result](ftpserver-parent-1.1.4.buildinfo): [18 :white_check_mark:  7 :warning:](ftpserver-parent-1.1.4.buildcompare) [:memo:](https://github.com/apache/mina-ftpserver/pull/13) | 20M |
-| [1.1.3](https://central.sonatype.com/artifact/org.apache.ftpserver/ftpserver-parent/1.1.3/pom) | [mvn jdk8](mina-ftpserver-1.1.3.buildspec) | [result](ftpserver-parent-1.1.3.buildinfo): [18 :white_check_mark:  7 :warning:](ftpserver-parent-1.1.3.buildcompare) [:mag:](ftpserver-parent-1.1.3.diffoscope) [:memo:](https://github.com/apache/mina-ftpserver/pull/13) | 20M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.2.1](https://central.sonatype.com/artifact/org.apache.ftpserver/ftpserver-parent/1.2.1/pom) | [mvn jdk21](mina-ftpserver-1.2.1.buildspec) | [result](ftpserver-parent-1.2.1.buildinfo): [20 :white_check_mark:  5 :warning:](ftpserver-parent-1.2.1.buildcompare) | - | 20M |
+| [1.2.0](https://central.sonatype.com/artifact/org.apache.ftpserver/ftpserver-parent/1.2.0/pom) | [mvn jdk8](mina-ftpserver-1.2.0.buildspec) | [result](ftpserver-parent-1.2.0.buildinfo): [18 :white_check_mark:  7 :warning:](ftpserver-parent-1.2.0.buildcompare) [:memo:](https://github.com/apache/mina-ftpserver/pull/13) | - | 20M |
+| [1.1.4](https://central.sonatype.com/artifact/org.apache.ftpserver/ftpserver-parent/1.1.4/pom) | [mvn jdk8](mina-ftpserver-1.1.4.buildspec) | [result](ftpserver-parent-1.1.4.buildinfo): [18 :white_check_mark:  7 :warning:](ftpserver-parent-1.1.4.buildcompare) [:memo:](https://github.com/apache/mina-ftpserver/pull/13) | - | 20M |
+| [1.1.3](https://central.sonatype.com/artifact/org.apache.ftpserver/ftpserver-parent/1.1.3/pom) | [mvn jdk8](mina-ftpserver-1.1.3.buildspec) | [result](ftpserver-parent-1.1.3.buildinfo): [18 :white_check_mark:  7 :warning:](ftpserver-parent-1.1.3.buildcompare) [:mag:](ftpserver-parent-1.1.3.diffoscope) [:memo:](https://github.com/apache/mina-ftpserver/pull/13) | - | 20M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

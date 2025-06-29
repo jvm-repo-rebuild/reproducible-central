@@ -22,11 +22,11 @@ rebuilding **4 releases** of org.eclipse.transformer:org.eclipse.transformer.par
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [1.0.0](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/1.0.0/pom) | [mvn jdk17](eclipse-transformer-1.0.0.buildspec) | [result](org.eclipse.transformer.bnd.analyzer-1.0.0.buildinfo): [17 :white_check_mark: ](org.eclipse.transformer.bnd.analyzer-1.0.0.buildcompare) | 1.4M |
-| [0.5.0](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/0.5.0/pom) | [mvn jdk17](eclipse-transformer-0.5.0.buildspec) | [result](transformer-maven-plugin-0.5.0.buildinfo): [ 3 :warning:](transformer-maven-plugin-0.5.0.buildcompare) | 81K |
-| [0.4.0](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/0.4.0/pom) | [mvn jdk17](eclipse-transformer-0.4.0.buildspec) | [result](transformer-maven-plugin-0.4.0.buildinfo): [14 :white_check_mark: ](transformer-maven-plugin-0.4.0.buildcompare) | 961K |
-| [0.2.0](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/0.2.0/pom) | [mvn jdk8](eclipse-transformer-0.2.0.buildspec) | [result](org.eclipse.transformer.parent-0.2.0.buildinfo): [11 :white_check_mark: ](org.eclipse.transformer.parent-0.2.0.buildcompare) | 829K |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.0.0](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/1.0.0/pom) | [mvn jdk17](eclipse-transformer-1.0.0.buildspec) | [result](org.eclipse.transformer.bnd.analyzer-1.0.0.buildinfo): [17 :white_check_mark: ](org.eclipse.transformer.bnd.analyzer-1.0.0.buildcompare) | | 1.4M |
+| [0.5.0](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/0.5.0/pom) | [mvn jdk17](eclipse-transformer-0.5.0.buildspec) | [result](transformer-maven-plugin-0.5.0.buildinfo): [ 3 :warning:](transformer-maven-plugin-0.5.0.buildcompare) | - | 81K |
+| [0.4.0](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/0.4.0/pom) | [mvn jdk17](eclipse-transformer-0.4.0.buildspec) | [result](transformer-maven-plugin-0.4.0.buildinfo): [14 :white_check_mark: ](transformer-maven-plugin-0.4.0.buildcompare) | | 961K |
+| [0.2.0](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/0.2.0/pom) | [mvn jdk8](eclipse-transformer-0.2.0.buildspec) | [result](org.eclipse.transformer.parent-0.2.0.buildinfo): [11 :white_check_mark: ](org.eclipse.transformer.parent-0.2.0.buildcompare) | | 829K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

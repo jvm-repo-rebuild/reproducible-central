@@ -42,12 +42,12 @@ rebuilding **5 releases** of org.apache.wicket:wicket-parent:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [10.5.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.5.0/pom) | [mvn jdk17](wicket-parent-10.5.0.buildspec) | [result](wicket-parent-10.5.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.5.0.buildcompare) | 76M |
-| [10.4.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.4.0/pom) | [mvn jdk17](wicket-parent-10.4.0.buildspec) | [result](wicket-parent-10.4.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.4.0.buildcompare) | 76M |
-| [10.3.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.3.0/pom) | [mvn jdk17](wicket-parent-10.3.0.buildspec) | [result](wicket-parent-10.3.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.3.0.buildcompare) | 76M |
-| [10.2.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.2.0/pom) | [mvn jdk21](wicket-parent-10.2.0.buildspec) | [result](wicket-parent-10.2.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.2.0.buildcompare) | 72M |
-| [10.1.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.1.0/pom) | [mvn jdk21](wicket-parent-10.1.0.buildspec) | [result](wicket-parent-10.1.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.1.0.buildcompare) | 72M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [10.5.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.5.0/pom) | [mvn jdk17](wicket-parent-10.5.0.buildspec) | [result](wicket-parent-10.5.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.5.0.buildcompare) | | 76M |
+| [10.4.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.4.0/pom) | [mvn jdk17](wicket-parent-10.4.0.buildspec) | [result](wicket-parent-10.4.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.4.0.buildcompare) | | 76M |
+| [10.3.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.3.0/pom) | [mvn jdk17](wicket-parent-10.3.0.buildspec) | [result](wicket-parent-10.3.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.3.0.buildcompare) | | 76M |
+| [10.2.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.2.0/pom) | [mvn jdk21](wicket-parent-10.2.0.buildspec) | [result](wicket-parent-10.2.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.2.0.buildcompare) | | 72M |
+| [10.1.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.1.0/pom) | [mvn jdk21](wicket-parent-10.1.0.buildspec) | [result](wicket-parent-10.1.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.1.0.buildcompare) | | 72M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

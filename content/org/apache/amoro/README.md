@@ -70,9 +70,9 @@ rebuilding **2 releases** of org.apache.amoro:amoro-parent:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [0.8.0-incubating](https://central.sonatype.com/artifact/org.apache.amoro/amoro-parent/0.8.0-incubating/pom) | [mvn jdk8](amoro-0.8.0-incubating.buildspec) | [result](amoro-parent-0.8.0-incubating.buildinfo): [118 :white_check_mark: ](amoro-parent-0.8.0-incubating.buildcompare) | 767M |
-| [0.7.1-incubating](https://central.sonatype.com/artifact/org.apache.amoro/amoro-parent/0.7.1-incubating/pom) | [mvn jdk8](amoro-0.7.1-incubating.buildspec) | [result](amoro-parent-0.7.1-incubating.buildinfo): [79 :white_check_mark:  11 :warning:](amoro-parent-0.7.1-incubating.buildcompare) | 315M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [0.8.0-incubating](https://central.sonatype.com/artifact/org.apache.amoro/amoro-parent/0.8.0-incubating/pom) | [mvn jdk8](amoro-0.8.0-incubating.buildspec) | [result](amoro-parent-0.8.0-incubating.buildinfo): [118 :white_check_mark: ](amoro-parent-0.8.0-incubating.buildcompare) | | 767M |
+| [0.7.1-incubating](https://central.sonatype.com/artifact/org.apache.amoro/amoro-parent/0.7.1-incubating/pom) | [mvn jdk8](amoro-0.7.1-incubating.buildspec) | [result](amoro-parent-0.7.1-incubating.buildinfo): [79 :white_check_mark:  11 :warning:](amoro-parent-0.7.1-incubating.buildcompare) | - | 315M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

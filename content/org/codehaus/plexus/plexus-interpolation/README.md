@@ -11,9 +11,9 @@ rebuilding **2 releases** of org.codehaus.plexus:plexus-interpolation:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [1.28](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-interpolation/1.28/pom) | [mvn jdk23](plexus-interpolation-1.28.buildspec) | [result](plexus-interpolation-1.28.buildinfo): [4 :white_check_mark: ](plexus-interpolation-1.28.buildcompare) | 298K |
-| [1.27](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-interpolation/1.27/pom) | [mvn jdk21](plexus-interpolation-1.27.buildspec) | [result](plexus-interpolation-1.27.buildinfo): [4 :white_check_mark: ](plexus-interpolation-1.27.buildcompare) | 291K |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.28](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-interpolation/1.28/pom) | [mvn jdk23](plexus-interpolation-1.28.buildspec) | [result](plexus-interpolation-1.28.buildinfo): [4 :white_check_mark: ](plexus-interpolation-1.28.buildcompare) | | 298K |
+| [1.27](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-interpolation/1.27/pom) | [mvn jdk21](plexus-interpolation-1.27.buildspec) | [result](plexus-interpolation-1.27.buildinfo): [4 :white_check_mark: ](plexus-interpolation-1.27.buildcompare) | | 291K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

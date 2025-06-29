@@ -11,12 +11,12 @@ rebuilding **5 releases** of org.apache.commons:commons-csv:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [1.14.0](https://central.sonatype.com/artifact/org.apache.commons/commons-csv/1.14.0/pom) | [mvn jdk21](commons-csv-1.14.0.buildspec) | [result](commons-csv-1.14.0.buildinfo): [5 :white_check_mark:  2 :warning:](commons-csv-1.14.0.buildcompare) | 71M |
-| [1.13.0](https://central.sonatype.com/artifact/org.apache.commons/commons-csv/1.13.0/pom) | [mvn jdk17](commons-csv-1.13.0.buildspec) | [result](commons-csv-1.13.0.buildinfo): [5 :white_check_mark:  2 :warning:](commons-csv-1.13.0.buildcompare) [:mag:](commons-csv-1.13.0.diffoscope) | 71M |
-| [1.12.0](https://central.sonatype.com/artifact/org.apache.commons/commons-csv/1.12.0/pom) | [mvn jdk17](commons-csv-1.12.0.buildspec) | [result](commons-csv-1.12.0.buildinfo): [7 :white_check_mark: ](commons-csv-1.12.0.buildcompare) | 71M |
-| [1.11.0](https://central.sonatype.com/artifact/org.apache.commons/commons-csv/1.11.0/pom) | [mvn jdk17](commons-csv-1.11.0.buildspec) | [result](commons-csv-1.11.0.buildinfo): [3 :white_check_mark:  2 :warning:](commons-csv-1.11.0.buildcompare) [:mag:](commons-csv-1.11.0.diffoscope) | 71M |
-| [1.10.0](https://central.sonatype.com/artifact/org.apache.commons/commons-csv/1.10.0/pom) | [mvn jdk8](commons-csv-1.10.0.buildspec) | [result](commons-csv-1.10.0.buildinfo): [5 :white_check_mark: ](commons-csv-1.10.0.buildcompare) | 71M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.14.0](https://central.sonatype.com/artifact/org.apache.commons/commons-csv/1.14.0/pom) | [mvn jdk21](commons-csv-1.14.0.buildspec) | [result](commons-csv-1.14.0.buildinfo): [5 :white_check_mark:  2 :warning:](commons-csv-1.14.0.buildcompare) | - | 71M |
+| [1.13.0](https://central.sonatype.com/artifact/org.apache.commons/commons-csv/1.13.0/pom) | [mvn jdk17](commons-csv-1.13.0.buildspec) | [result](commons-csv-1.13.0.buildinfo): [5 :white_check_mark:  2 :warning:](commons-csv-1.13.0.buildcompare) [:mag:](commons-csv-1.13.0.diffoscope) | - | 71M |
+| [1.12.0](https://central.sonatype.com/artifact/org.apache.commons/commons-csv/1.12.0/pom) | [mvn jdk17](commons-csv-1.12.0.buildspec) | [result](commons-csv-1.12.0.buildinfo): [7 :white_check_mark: ](commons-csv-1.12.0.buildcompare) | | 71M |
+| [1.11.0](https://central.sonatype.com/artifact/org.apache.commons/commons-csv/1.11.0/pom) | [mvn jdk17](commons-csv-1.11.0.buildspec) | [result](commons-csv-1.11.0.buildinfo): [3 :white_check_mark:  2 :warning:](commons-csv-1.11.0.buildcompare) [:mag:](commons-csv-1.11.0.diffoscope) | - | 71M |
+| [1.10.0](https://central.sonatype.com/artifact/org.apache.commons/commons-csv/1.10.0/pom) | [mvn jdk8](commons-csv-1.10.0.buildspec) | [result](commons-csv-1.10.0.buildinfo): [5 :white_check_mark: ](commons-csv-1.10.0.buildcompare) | | 71M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -11,12 +11,12 @@ rebuilding **5 releases** of net.sf.michael-o:michael-o-parent:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [20](https://central.sonatype.com/artifact/net.sf.michael-o/michael-o-parent/20/pom) | [mvn jdk17 w](michael-o-parent-20.buildspec) | [result](michael-o-parent-20.buildinfo): [3 :white_check_mark: ](michael-o-parent-20.buildcompare) | 17K |
-| [19](https://central.sonatype.com/artifact/net.sf.michael-o/michael-o-parent/19/pom) | [mvn jdk17 w](michael-o-parent-19.buildspec) | [result](michael-o-parent-19.buildinfo): [3 :white_check_mark: ](michael-o-parent-19.buildcompare) | 15K |
-| [18](https://central.sonatype.com/artifact/net.sf.michael-o/michael-o-parent/18/pom) | [mvn jdk17 w](michael-o-parent-18.buildspec) | [result](michael-o-parent-18.buildinfo): [3 :white_check_mark: ](michael-o-parent-18.buildcompare) | 15K |
-| [17](https://central.sonatype.com/artifact/net.sf.michael-o/michael-o-parent/17/pom) | [mvn jdk17 w](michael-o-parent-17.buildspec) | [result](michael-o-parent-17.buildinfo): [3 :white_check_mark: ](michael-o-parent-17.buildcompare) | 15K |
-| [16](https://central.sonatype.com/artifact/net.sf.michael-o/michael-o-parent/16/pom) | [mvn jdk17 w](michael-o-parent-16.buildspec) | [result](michael-o-parent-16.buildinfo): [3 :white_check_mark: ](michael-o-parent-16.buildcompare) | 18K |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [20](https://central.sonatype.com/artifact/net.sf.michael-o/michael-o-parent/20/pom) | [mvn jdk17 w](michael-o-parent-20.buildspec) | [result](michael-o-parent-20.buildinfo): [3 :white_check_mark: ](michael-o-parent-20.buildcompare) | | 17K |
+| [19](https://central.sonatype.com/artifact/net.sf.michael-o/michael-o-parent/19/pom) | [mvn jdk17 w](michael-o-parent-19.buildspec) | [result](michael-o-parent-19.buildinfo): [3 :white_check_mark: ](michael-o-parent-19.buildcompare) | | 15K |
+| [18](https://central.sonatype.com/artifact/net.sf.michael-o/michael-o-parent/18/pom) | [mvn jdk17 w](michael-o-parent-18.buildspec) | [result](michael-o-parent-18.buildinfo): [3 :white_check_mark: ](michael-o-parent-18.buildcompare) | | 15K |
+| [17](https://central.sonatype.com/artifact/net.sf.michael-o/michael-o-parent/17/pom) | [mvn jdk17 w](michael-o-parent-17.buildspec) | [result](michael-o-parent-17.buildinfo): [3 :white_check_mark: ](michael-o-parent-17.buildcompare) | | 15K |
+| [16](https://central.sonatype.com/artifact/net.sf.michael-o/michael-o-parent/16/pom) | [mvn jdk17 w](michael-o-parent-16.buildspec) | [result](michael-o-parent-16.buildinfo): [3 :white_check_mark: ](michael-o-parent-16.buildcompare) | | 18K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -11,10 +11,10 @@ rebuilding **3 releases** of org.codehaus.plexus:plexus-classworlds:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [2.9.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-classworlds/2.9.0/pom) | [mvn jdk23](plexus-classworlds-2.9.0.buildspec) | [result](plexus-classworlds-2.9.0.buildinfo): [4 :white_check_mark: ](plexus-classworlds-2.9.0.buildcompare) | 235K |
-| [2.8.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-classworlds/2.8.0/pom) | [mvn jdk21](plexus-classworlds-2.8.0.buildspec) | [result](plexus-classworlds-2.8.0.buildinfo): [4 :white_check_mark: ](plexus-classworlds-2.8.0.buildcompare) | 232K |
-| [2.7.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-classworlds/2.7.0/pom) | [mvn jdk8](plexus-classworlds-2.7.0.buildspec) | [result](plexus-classworlds-2.7.0.buildinfo): [4 :white_check_mark: ](plexus-classworlds-2.7.0.buildcompare) | 235K |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [2.9.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-classworlds/2.9.0/pom) | [mvn jdk23](plexus-classworlds-2.9.0.buildspec) | [result](plexus-classworlds-2.9.0.buildinfo): [4 :white_check_mark: ](plexus-classworlds-2.9.0.buildcompare) | | 235K |
+| [2.8.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-classworlds/2.8.0/pom) | [mvn jdk21](plexus-classworlds-2.8.0.buildspec) | [result](plexus-classworlds-2.8.0.buildinfo): [4 :white_check_mark: ](plexus-classworlds-2.8.0.buildcompare) | | 232K |
+| [2.7.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-classworlds/2.7.0/pom) | [mvn jdk8](plexus-classworlds-2.7.0.buildspec) | [result](plexus-classworlds-2.7.0.buildinfo): [4 :white_check_mark: ](plexus-classworlds-2.7.0.buildcompare) | | 235K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

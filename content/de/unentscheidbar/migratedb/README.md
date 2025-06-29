@@ -28,16 +28,16 @@ rebuilding **9 releases** of de.unentscheidbar:migratedb:
 - **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [1.4.1](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/1.4.1/pom) | [mvn jdk17](migratedb-1.4.1.buildspec) | [result](migratedb-1.4.1.buildinfo): [14 :white_check_mark: ](migratedb-1.4.1.buildcompare) | 801K |
-| [1.4.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/1.4.0/pom) | [mvn jdk17](migratedb-1.4.0.buildspec) | [result](migratedb-1.4.0.buildinfo): [14 :white_check_mark: ](migratedb-1.4.0.buildcompare) | 801K |
-| [1.3.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/1.3.0/pom) | [mvn jdk17](migratedb-1.3.0.buildspec) | [result](migratedb-1.3.0.buildinfo): [14 :white_check_mark: ](migratedb-1.3.0.buildcompare) | 804K |
-| [1.2.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/1.2.0/pom) | [mvn jdk17](migratedb-1.2.0.buildspec) | [result](migratedb-1.2.0.buildinfo): [16 :white_check_mark: ](migratedb-1.2.0.buildcompare) | 901K |
-| [1.1.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/1.1.0/pom) | [mvn jdk17](migratedb-1.1.0.buildspec) | [result](migratedb-1.1.0.buildinfo): [14 :white_check_mark: ](migratedb-1.1.0.buildcompare) | 807K |
-| [1.0.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/1.0.0/pom) | [mvn jdk17](migratedb-1.0.0.buildspec) | [result](migratedb-1.0.0.buildinfo): [14 :white_check_mark: ](migratedb-1.0.0.buildcompare) | 814K |
-| [0.3.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/0.3.0/pom) | [mvn jdk17](migratedb-0.3.0.buildspec) | [result](migratedb-0.3.0.buildinfo): [16 :white_check_mark:  1 :warning:](migratedb-0.3.0.buildcompare) [:mag:](migratedb-0.3.0.diffoscope) | 12M |
-| [0.2.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/0.2.0/pom) | [mvn jdk11](migratedb-0.2.0.buildspec) | [result](migratedb-0.2.0.buildinfo): [17 :white_check_mark: ](migratedb-0.2.0.buildcompare) | 4.3M |
-| [0.1.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/0.1.0/pom) | [mvn jdk11](migratedb-0.1.0.buildspec) | [result](migratedb-0.1.0.buildinfo): [17 :white_check_mark: ](migratedb-0.1.0.buildcompare) | 4.3M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.4.1](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/1.4.1/pom) | [mvn jdk17](migratedb-1.4.1.buildspec) | [result](migratedb-1.4.1.buildinfo): [14 :white_check_mark: ](migratedb-1.4.1.buildcompare) | | 801K |
+| [1.4.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/1.4.0/pom) | [mvn jdk17](migratedb-1.4.0.buildspec) | [result](migratedb-1.4.0.buildinfo): [14 :white_check_mark: ](migratedb-1.4.0.buildcompare) | | 801K |
+| [1.3.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/1.3.0/pom) | [mvn jdk17](migratedb-1.3.0.buildspec) | [result](migratedb-1.3.0.buildinfo): [14 :white_check_mark: ](migratedb-1.3.0.buildcompare) | | 804K |
+| [1.2.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/1.2.0/pom) | [mvn jdk17](migratedb-1.2.0.buildspec) | [result](migratedb-1.2.0.buildinfo): [16 :white_check_mark: ](migratedb-1.2.0.buildcompare) | | 901K |
+| [1.1.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/1.1.0/pom) | [mvn jdk17](migratedb-1.1.0.buildspec) | [result](migratedb-1.1.0.buildinfo): [14 :white_check_mark: ](migratedb-1.1.0.buildcompare) | | 807K |
+| [1.0.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/1.0.0/pom) | [mvn jdk17](migratedb-1.0.0.buildspec) | [result](migratedb-1.0.0.buildinfo): [14 :white_check_mark: ](migratedb-1.0.0.buildcompare) | | 814K |
+| [0.3.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/0.3.0/pom) | [mvn jdk17](migratedb-0.3.0.buildspec) | [result](migratedb-0.3.0.buildinfo): [16 :white_check_mark:  1 :warning:](migratedb-0.3.0.buildcompare) [:mag:](migratedb-0.3.0.diffoscope) | - | 12M |
+| [0.2.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/0.2.0/pom) | [mvn jdk11](migratedb-0.2.0.buildspec) | [result](migratedb-0.2.0.buildinfo): [17 :white_check_mark: ](migratedb-0.2.0.buildcompare) | | 4.3M |
+| [0.1.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/0.1.0/pom) | [mvn jdk11](migratedb-0.1.0.buildspec) | [result](migratedb-0.1.0.buildinfo): [17 :white_check_mark: ](migratedb-0.1.0.buildcompare) | | 4.3M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

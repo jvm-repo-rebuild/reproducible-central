@@ -52,16 +52,16 @@ rebuilding **3 releases** of com.io7m.cedarbridge:com.io7m.cedarbridge:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [2.0.0](https://central.sonatype.com/artifact/com.io7m.cedarbridge/com.io7m.cedarbridge/2.0.0/pom) | [mvn jdk21](com.io7m.cedarbridge-2.0.0.buildspec) | [result](com.io7m.cedarbridge-2.0.0.buildinfo): [160 :white_check_mark:  23 :warning:](com.io7m.cedarbridge-2.0.0.buildcompare) [:mag:](com.io7m.cedarbridge-2.0.0.diffoscope) [:memo:](https://github.com/io7m-com/cedarbridge/issues/62) | 8.4M |
-| [1.2.0](https://central.sonatype.com/artifact/com.io7m.cedarbridge/com.io7m.cedarbridge/1.2.0/pom) | [mvn jdk17.0.7](com.io7m.cedarbridge-1.2.0.buildspec) | [result](com.io7m.cedarbridge-1.2.0.buildinfo): [144 :white_check_mark:  2 :warning:](com.io7m.cedarbridge-1.2.0.buildcompare) [:mag:](com.io7m.cedarbridge-1.2.0.diffoscope) | 4.6M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [2.0.0](https://central.sonatype.com/artifact/com.io7m.cedarbridge/com.io7m.cedarbridge/2.0.0/pom) | [mvn jdk21](com.io7m.cedarbridge-2.0.0.buildspec) | [result](com.io7m.cedarbridge-2.0.0.buildinfo): [160 :white_check_mark:  23 :warning:](com.io7m.cedarbridge-2.0.0.buildcompare) [:mag:](com.io7m.cedarbridge-2.0.0.diffoscope) [:memo:](https://github.com/io7m-com/cedarbridge/issues/62) | - | 8.4M |
+| [1.2.0](https://central.sonatype.com/artifact/com.io7m.cedarbridge/com.io7m.cedarbridge/1.2.0/pom) | [mvn jdk17.0.7](com.io7m.cedarbridge-1.2.0.buildspec) | [result](com.io7m.cedarbridge-1.2.0.buildinfo): [144 :white_check_mark:  2 :warning:](com.io7m.cedarbridge-1.2.0.buildcompare) [:mag:](com.io7m.cedarbridge-1.2.0.diffoscope) | - | 4.6M |
 | [1.1.0](https://central.sonatype.com/artifact/com.io7m.cedarbridge/com.io7m.cedarbridge/1.1.0/pom) | | | |
 | [1.0.0](https://central.sonatype.com/artifact/com.io7m.cedarbridge/com.io7m.cedarbridge/1.0.0/pom) | | | |
 | [1.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.cedarbridge/com.io7m.cedarbridge/1.0.0-beta0001/pom) | | | |
 | [0.0.12](https://central.sonatype.com/artifact/com.io7m.cedarbridge/com.io7m.cedarbridge/0.0.12/pom) | | | |
 | [0.0.11](https://central.sonatype.com/artifact/com.io7m.cedarbridge/com.io7m.cedarbridge/0.0.11/pom) | | | |
 | [0.0.10](https://central.sonatype.com/artifact/com.io7m.cedarbridge/com.io7m.cedarbridge/0.0.10/pom) | | | |
-| [0.0.9](https://central.sonatype.com/artifact/com.io7m.cedarbridge/com.io7m.cedarbridge/0.0.9/pom) | [mvn jdk17.0.4.1](com.io7m.cedarbridge-0.0.9.buildspec) | [result](com.io7m.cedarbridge-0.0.9.buildinfo): [127 :white_check_mark:  3 :warning:](com.io7m.cedarbridge-0.0.9.buildcompare) | 4.4M |
+| [0.0.9](https://central.sonatype.com/artifact/com.io7m.cedarbridge/com.io7m.cedarbridge/0.0.9/pom) | [mvn jdk17.0.4.1](com.io7m.cedarbridge-0.0.9.buildspec) | [result](com.io7m.cedarbridge-0.0.9.buildinfo): [127 :white_check_mark:  3 :warning:](com.io7m.cedarbridge-0.0.9.buildcompare) | - | 4.4M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

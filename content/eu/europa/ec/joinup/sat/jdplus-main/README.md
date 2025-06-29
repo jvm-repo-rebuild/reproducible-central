@@ -82,14 +82,14 @@ rebuilding **7 releases** of eu.europa.ec.joinup.sat:jdplus-main:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [3.5.1](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.5.1/pom) | [mvn jdk21](jdplus-main-3.5.1.buildspec) | [result](jdplus-main-3.5.1.buildinfo): [186 :white_check_mark:  9 :warning:](jdplus-main-3.5.1.buildcompare) | 84M |
-| [3.5.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.5.0/pom) | [mvn jdk21](jdplus-main-3.5.0.buildspec) | [result](jdplus-main-3.5.0.buildinfo): [186 :white_check_mark:  9 :warning:](jdplus-main-3.5.0.buildcompare) | 87M |
-| [3.4.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.4.0/pom) | [mvn jdk21](jdplus-main-3.4.0.buildspec) | [result](jdplus-main-3.4.0.buildinfo): [186 :white_check_mark:  9 :warning:](jdplus-main-3.4.0.buildcompare) | 86M |
-| [3.3.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.3.0/pom) | [mvn jdk21](jdplus-main-3.3.0.buildspec) | [result](jdplus-main-3.3.0.buildinfo): [186 :white_check_mark:  9 :warning:](jdplus-main-3.3.0.buildcompare) | 86M |
-| [3.2.4](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.2.4/pom) | [mvn jdk21](jdplus-main-3.2.4.buildspec) | [result](jdplus-main-3.2.4.buildinfo): [186 :white_check_mark:  9 :warning:](jdplus-main-3.2.4.buildcompare) | 86M |
-| [3.2.3](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.2.3/pom) | [mvn jdk21](jdplus-main-3.2.3.buildspec) | [result](jdplus-main-3.2.3.buildinfo): [186 :white_check_mark:  9 :warning:](jdplus-main-3.2.3.buildcompare) | 86M |
-| [3.2.2](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.2.2/pom) | [mvn jdk21](jdplus-main-3.2.2.buildspec) | [result](jdplus-main-3.2.2.buildinfo): [178 :white_check_mark:  17 :warning:](jdplus-main-3.2.2.buildcompare) | 86M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [3.5.1](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.5.1/pom) | [mvn jdk21](jdplus-main-3.5.1.buildspec) | [result](jdplus-main-3.5.1.buildinfo): [186 :white_check_mark:  9 :warning:](jdplus-main-3.5.1.buildcompare) | - | 84M |
+| [3.5.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.5.0/pom) | [mvn jdk21](jdplus-main-3.5.0.buildspec) | [result](jdplus-main-3.5.0.buildinfo): [186 :white_check_mark:  9 :warning:](jdplus-main-3.5.0.buildcompare) | - | 87M |
+| [3.4.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.4.0/pom) | [mvn jdk21](jdplus-main-3.4.0.buildspec) | [result](jdplus-main-3.4.0.buildinfo): [186 :white_check_mark:  9 :warning:](jdplus-main-3.4.0.buildcompare) | - | 86M |
+| [3.3.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.3.0/pom) | [mvn jdk21](jdplus-main-3.3.0.buildspec) | [result](jdplus-main-3.3.0.buildinfo): [186 :white_check_mark:  9 :warning:](jdplus-main-3.3.0.buildcompare) | - | 86M |
+| [3.2.4](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.2.4/pom) | [mvn jdk21](jdplus-main-3.2.4.buildspec) | [result](jdplus-main-3.2.4.buildinfo): [186 :white_check_mark:  9 :warning:](jdplus-main-3.2.4.buildcompare) | - | 86M |
+| [3.2.3](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.2.3/pom) | [mvn jdk21](jdplus-main-3.2.3.buildspec) | [result](jdplus-main-3.2.3.buildinfo): [186 :white_check_mark:  9 :warning:](jdplus-main-3.2.3.buildcompare) | - | 86M |
+| [3.2.2](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.2.2/pom) | [mvn jdk21](jdplus-main-3.2.2.buildspec) | [result](jdplus-main-3.2.2.buildinfo): [178 :white_check_mark:  17 :warning:](jdplus-main-3.2.2.buildcompare) | - | 86M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

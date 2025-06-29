@@ -64,12 +64,12 @@ rebuilding **5 releases** of org.apache.cxf.fediz:fediz:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [1.7.1](https://central.sonatype.com/artifact/org.apache.cxf.fediz/fediz/1.7.1/pom) | [mvn jdk11](fediz-1.7.1.buildspec) | [result](fediz-1.7.1.buildinfo): [112 :white_check_mark:  17 :warning:](fediz-1.7.1.buildcompare) | 700M |
-| [1.7.0](https://central.sonatype.com/artifact/org.apache.cxf.fediz/fediz/1.7.0/pom) | [mvn jdk11](fediz-1.7.0.buildspec) | [result](fediz-1.7.0.buildinfo): [112 :white_check_mark:  17 :warning:](fediz-1.7.0.buildcompare) | 699M |
-| [1.6.2](https://central.sonatype.com/artifact/org.apache.cxf.fediz/fediz/1.6.2/pom) | [mvn jdk8](fediz-1.6.2.buildspec) | [result](fediz-1.6.2.buildinfo): [112 :white_check_mark:  17 :warning:](fediz-1.6.2.buildcompare) | 685M |
-| [1.6.1](https://central.sonatype.com/artifact/org.apache.cxf.fediz/fediz/1.6.1/pom) | [mvn jdk8](fediz-1.6.1.buildspec) | [result](fediz-1.6.1.buildinfo): [125 :white_check_mark:  4 :warning:](fediz-1.6.1.buildcompare) [:mag:](fediz-1.6.1.diffoscope) | 537M |
-| [1.6.0](https://central.sonatype.com/artifact/org.apache.cxf.fediz/fediz/1.6.0/pom) | [mvn jdk8](fediz-1.6.0.buildspec) | [result](fediz-1.6.0.buildinfo): [107 :white_check_mark:  22 :warning:](fediz-1.6.0.buildcompare) [:memo:](https://github.com/apache/cxf-fediz/pull/63) | 530M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.7.1](https://central.sonatype.com/artifact/org.apache.cxf.fediz/fediz/1.7.1/pom) | [mvn jdk11](fediz-1.7.1.buildspec) | [result](fediz-1.7.1.buildinfo): [112 :white_check_mark:  17 :warning:](fediz-1.7.1.buildcompare) | - | 700M |
+| [1.7.0](https://central.sonatype.com/artifact/org.apache.cxf.fediz/fediz/1.7.0/pom) | [mvn jdk11](fediz-1.7.0.buildspec) | [result](fediz-1.7.0.buildinfo): [112 :white_check_mark:  17 :warning:](fediz-1.7.0.buildcompare) | - | 699M |
+| [1.6.2](https://central.sonatype.com/artifact/org.apache.cxf.fediz/fediz/1.6.2/pom) | [mvn jdk8](fediz-1.6.2.buildspec) | [result](fediz-1.6.2.buildinfo): [112 :white_check_mark:  17 :warning:](fediz-1.6.2.buildcompare) | - | 685M |
+| [1.6.1](https://central.sonatype.com/artifact/org.apache.cxf.fediz/fediz/1.6.1/pom) | [mvn jdk8](fediz-1.6.1.buildspec) | [result](fediz-1.6.1.buildinfo): [125 :white_check_mark:  4 :warning:](fediz-1.6.1.buildcompare) [:mag:](fediz-1.6.1.diffoscope) | - | 537M |
+| [1.6.0](https://central.sonatype.com/artifact/org.apache.cxf.fediz/fediz/1.6.0/pom) | [mvn jdk8](fediz-1.6.0.buildspec) | [result](fediz-1.6.0.buildinfo): [107 :white_check_mark:  22 :warning:](fediz-1.6.0.buildcompare) [:memo:](https://github.com/apache/cxf-fediz/pull/63) | - | 530M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

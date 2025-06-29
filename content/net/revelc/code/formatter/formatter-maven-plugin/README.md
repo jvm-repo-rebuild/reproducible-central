@@ -11,10 +11,10 @@ rebuilding **3 releases** of net.revelc.code.formatter:formatter-maven-plugin:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [2.27.0](https://central.sonatype.com/artifact/net.revelc.code.formatter/formatter-maven-plugin/2.27.0/pom) | [mvn jdk17](formatter-maven-plugin-2.27.0.buildspec) | [result](formatter-maven-plugin-2.27.0.buildinfo): [3 :white_check_mark: ](formatter-maven-plugin-2.27.0.buildcompare) | 140K |
-| [2.26.0](https://central.sonatype.com/artifact/net.revelc.code.formatter/formatter-maven-plugin/2.26.0/pom) | [mvn jdk17](formatter-maven-plugin-2.26.0.buildspec) | [result](formatter-maven-plugin-2.26.0.buildinfo): [3 :white_check_mark: ](formatter-maven-plugin-2.26.0.buildcompare) | 139K |
-| [2.25.0](https://central.sonatype.com/artifact/net.revelc.code.formatter/formatter-maven-plugin/2.25.0/pom) | [mvn jdk17](formatter-maven-plugin-2.25.0.buildspec) | [result](formatter-maven-plugin-2.25.0.buildinfo): [3 :white_check_mark: ](formatter-maven-plugin-2.25.0.buildcompare) | 141K |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [2.27.0](https://central.sonatype.com/artifact/net.revelc.code.formatter/formatter-maven-plugin/2.27.0/pom) | [mvn jdk17](formatter-maven-plugin-2.27.0.buildspec) | [result](formatter-maven-plugin-2.27.0.buildinfo): [3 :white_check_mark: ](formatter-maven-plugin-2.27.0.buildcompare) | | 140K |
+| [2.26.0](https://central.sonatype.com/artifact/net.revelc.code.formatter/formatter-maven-plugin/2.26.0/pom) | [mvn jdk17](formatter-maven-plugin-2.26.0.buildspec) | [result](formatter-maven-plugin-2.26.0.buildinfo): [3 :white_check_mark: ](formatter-maven-plugin-2.26.0.buildcompare) | | 139K |
+| [2.25.0](https://central.sonatype.com/artifact/net.revelc.code.formatter/formatter-maven-plugin/2.25.0/pom) | [mvn jdk17](formatter-maven-plugin-2.25.0.buildspec) | [result](formatter-maven-plugin-2.25.0.buildinfo): [3 :white_check_mark: ](formatter-maven-plugin-2.25.0.buildcompare) | | 141K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

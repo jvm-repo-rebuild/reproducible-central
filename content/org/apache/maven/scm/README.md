@@ -50,17 +50,17 @@ rebuilding **10 releases** of org.apache.maven.scm:maven-scm:
 - **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [2.1.0](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.1.0/pom) | [mvn jdk8 w](maven-scm-2.1.0.buildspec) | [result](maven-scm-2.1.0.buildinfo): [94 :white_check_mark:  1 :warning:](maven-scm-2.1.0.buildcompare) [:mag:](maven-scm-2.1.0.diffoscope) | 11M |
-| [2.0.1](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.1/pom) | [mvn jdk17](maven-scm-2.0.1.buildspec) | [result](maven-scm-2.0.1.buildinfo): [55 :white_check_mark: ](maven-scm-2.0.1.buildcompare) | 8.4M |
-| [2.0.0](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.0/pom) | [mvn jdk8 w](maven-scm-2.0.0.buildspec) | [result](maven-scm-2.0.0.buildinfo): [55 :white_check_mark: ](maven-scm-2.0.0.buildcompare) | 7.6M |
-| [2.0.0-M3](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.0-M3/pom) | [mvn jdk8 w](maven-scm-2.0.0-M3.buildspec) | [result](maven-scm-2.0.0-M3.buildinfo): [55 :white_check_mark: ](maven-scm-2.0.0-M3.buildcompare) | 7.6M |
-| [2.0.0-M2](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.0-M2/pom) | [mvn jdk8 w](maven-scm-2.0.0-M2.buildspec) | [result](maven-scm-2.0.0-M2.buildinfo): [55 :white_check_mark: ](maven-scm-2.0.0-M2.buildcompare) | 7.6M |
-| [2.0.0-M1](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.0-M1/pom) | [mvn jdk8 w](maven-scm-2.0.0-M1.buildspec) | [result](maven-scm-2.0.0-M1.buildinfo): [55 :white_check_mark: ](maven-scm-2.0.0-M1.buildcompare) | 4.3M |
-| [1.13.0](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/1.13.0/pom) | [mvn jdk8 w](maven-scm-1.13.0.buildspec) | [result](maven-scm-1.13.0.buildinfo): [99 :white_check_mark: ](maven-scm-1.13.0.buildcompare) | 9.3M |
-| [1.12.2](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/1.12.2/pom) | [mvn jdk8 w](maven-scm-1.12.2.buildspec) | [result](maven-scm-1.12.2.buildinfo): [99 :white_check_mark: ](maven-scm-1.12.2.buildcompare) | 9.3M |
-| [1.12.0](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/1.12.0/pom) | [mvn jdk7 w](maven-scm-1.12.0.buildspec) | [result](maven-scm-1.12.0.buildinfo): [99 :white_check_mark: ](maven-scm-1.12.0.buildcompare) | 9.3M |
-| [1.11.3](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/1.11.3/pom) | [mvn jdk7 w](maven-scm-1.11.3.buildspec) | [result](maven-scm-1.11.3.buildinfo): [99 :white_check_mark: ](maven-scm-1.11.3.buildcompare) | 9.3M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [2.1.0](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.1.0/pom) | [mvn jdk8 w](maven-scm-2.1.0.buildspec) | [result](maven-scm-2.1.0.buildinfo): [94 :white_check_mark:  1 :warning:](maven-scm-2.1.0.buildcompare) [:mag:](maven-scm-2.1.0.diffoscope) | - | 11M |
+| [2.0.1](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.1/pom) | [mvn jdk17](maven-scm-2.0.1.buildspec) | [result](maven-scm-2.0.1.buildinfo): [55 :white_check_mark: ](maven-scm-2.0.1.buildcompare) | | 8.4M |
+| [2.0.0](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.0/pom) | [mvn jdk8 w](maven-scm-2.0.0.buildspec) | [result](maven-scm-2.0.0.buildinfo): [55 :white_check_mark: ](maven-scm-2.0.0.buildcompare) | | 7.6M |
+| [2.0.0-M3](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.0-M3/pom) | [mvn jdk8 w](maven-scm-2.0.0-M3.buildspec) | [result](maven-scm-2.0.0-M3.buildinfo): [55 :white_check_mark: ](maven-scm-2.0.0-M3.buildcompare) | | 7.6M |
+| [2.0.0-M2](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.0-M2/pom) | [mvn jdk8 w](maven-scm-2.0.0-M2.buildspec) | [result](maven-scm-2.0.0-M2.buildinfo): [55 :white_check_mark: ](maven-scm-2.0.0-M2.buildcompare) | | 7.6M |
+| [2.0.0-M1](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.0-M1/pom) | [mvn jdk8 w](maven-scm-2.0.0-M1.buildspec) | [result](maven-scm-2.0.0-M1.buildinfo): [55 :white_check_mark: ](maven-scm-2.0.0-M1.buildcompare) | | 4.3M |
+| [1.13.0](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/1.13.0/pom) | [mvn jdk8 w](maven-scm-1.13.0.buildspec) | [result](maven-scm-1.13.0.buildinfo): [99 :white_check_mark: ](maven-scm-1.13.0.buildcompare) | | 9.3M |
+| [1.12.2](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/1.12.2/pom) | [mvn jdk8 w](maven-scm-1.12.2.buildspec) | [result](maven-scm-1.12.2.buildinfo): [99 :white_check_mark: ](maven-scm-1.12.2.buildcompare) | | 9.3M |
+| [1.12.0](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/1.12.0/pom) | [mvn jdk7 w](maven-scm-1.12.0.buildspec) | [result](maven-scm-1.12.0.buildinfo): [99 :white_check_mark: ](maven-scm-1.12.0.buildcompare) | | 9.3M |
+| [1.11.3](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/1.11.3/pom) | [mvn jdk7 w](maven-scm-1.11.3.buildspec) | [result](maven-scm-1.11.3.buildinfo): [99 :white_check_mark: ](maven-scm-1.11.3.buildcompare) | | 9.3M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

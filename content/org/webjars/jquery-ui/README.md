@@ -11,10 +11,10 @@ rebuilding **3 releases** of org.webjars:jquery-ui:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [1.14.1](https://central.sonatype.com/artifact/org.webjars/jquery-ui/1.14.1/pom) | [mvn jdk21](jquery-ui-1.14.1.buildspec) | [result](jquery-ui-1.14.1.buildinfo): [2 :white_check_mark: ](jquery-ui-1.14.1.buildcompare) | 279K |
-| [1.14.0](https://central.sonatype.com/artifact/org.webjars/jquery-ui/1.14.0/pom) | [mvn jdk21](jquery-ui-1.14.0.buildspec) | [result](jquery-ui-1.14.0.buildinfo): [2 :white_check_mark: ](jquery-ui-1.14.0.buildcompare) | 278K |
-| [1.13.3](https://central.sonatype.com/artifact/org.webjars/jquery-ui/1.13.3/pom) | [mvn jdk8](jquery-ui-1.13.3.buildspec) | [result](jquery-ui-1.13.3.buildinfo): [2 :white_check_mark: ](jquery-ui-1.13.3.buildcompare) | 284K |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.14.1](https://central.sonatype.com/artifact/org.webjars/jquery-ui/1.14.1/pom) | [mvn jdk21](jquery-ui-1.14.1.buildspec) | [result](jquery-ui-1.14.1.buildinfo): [2 :white_check_mark: ](jquery-ui-1.14.1.buildcompare) | | 279K |
+| [1.14.0](https://central.sonatype.com/artifact/org.webjars/jquery-ui/1.14.0/pom) | [mvn jdk21](jquery-ui-1.14.0.buildspec) | [result](jquery-ui-1.14.0.buildinfo): [2 :white_check_mark: ](jquery-ui-1.14.0.buildcompare) | | 278K |
+| [1.13.3](https://central.sonatype.com/artifact/org.webjars/jquery-ui/1.13.3/pom) | [mvn jdk8](jquery-ui-1.13.3.buildspec) | [result](jquery-ui-1.13.3.buildinfo): [2 :white_check_mark: ](jquery-ui-1.13.3.buildcompare) | | 284K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

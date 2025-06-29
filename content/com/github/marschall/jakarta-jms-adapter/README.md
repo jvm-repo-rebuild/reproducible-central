@@ -11,14 +11,14 @@ rebuilding **7 releases** of com.github.marschall:jakarta-jms-adapter:
 - **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [1.5.0](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.5.0/pom) | [mvn jdk17](jakarta-jms-adapter-1.5.0.buildspec) | [result](jakarta-jms-adapter-1.5.0.buildinfo): [3 :white_check_mark: ](jakarta-jms-adapter-1.5.0.buildcompare) | 110K |
-| [1.4.1](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.4.1/pom) | [mvn jdk17](jakarta-jms-adapter-1.4.1.buildspec) | [result](jakarta-jms-adapter-1.4.1.buildinfo): [3 :white_check_mark: ](jakarta-jms-adapter-1.4.1.buildcompare) | 102K |
-| [1.3.0](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.3.0/pom) | [mvn jdk17](jakarta-jms-adapter-1.3.0.buildspec) | [result](jakarta-jms-adapter-1.3.0.buildinfo): [3 :white_check_mark: ](jakarta-jms-adapter-1.3.0.buildcompare) | 102K |
-| [1.2.0](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.2.0/pom) | [mvn jdk17](jakarta-jms-adapter-1.2.0.buildspec) | [result](jakarta-jms-adapter-1.2.0.buildinfo): [3 :white_check_mark: ](jakarta-jms-adapter-1.2.0.buildcompare) | 102K |
-| [1.1.0](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.1.0/pom) | [mvn jdk17](jakarta-jms-adapter-1.1.0.buildspec) | [result](jakarta-jms-adapter-1.1.0.buildinfo): [2 :white_check_mark:  1 :warning:](jakarta-jms-adapter-1.1.0.buildcompare) | 93K |
-| [1.0.0](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.0.0/pom) | [mvn jdk17](jakarta-jms-adapter-1.0.0.buildspec) | [result](jakarta-jms-adapter-1.0.0.buildinfo): [2 :white_check_mark:  1 :warning:](jakarta-jms-adapter-1.0.0.buildcompare) | 93K |
-| [0.1.0](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/0.1.0/pom) | [mvn jdk17](jakarta-jms-adapter-0.1.0.buildspec) | [result](jakarta-jms-adapter-0.1.0.buildinfo): [2 :white_check_mark:  1 :warning:](jakarta-jms-adapter-0.1.0.buildcompare) | 87K |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.5.0](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.5.0/pom) | [mvn jdk17](jakarta-jms-adapter-1.5.0.buildspec) | [result](jakarta-jms-adapter-1.5.0.buildinfo): [3 :white_check_mark: ](jakarta-jms-adapter-1.5.0.buildcompare) | | 110K |
+| [1.4.1](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.4.1/pom) | [mvn jdk17](jakarta-jms-adapter-1.4.1.buildspec) | [result](jakarta-jms-adapter-1.4.1.buildinfo): [3 :white_check_mark: ](jakarta-jms-adapter-1.4.1.buildcompare) | | 102K |
+| [1.3.0](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.3.0/pom) | [mvn jdk17](jakarta-jms-adapter-1.3.0.buildspec) | [result](jakarta-jms-adapter-1.3.0.buildinfo): [3 :white_check_mark: ](jakarta-jms-adapter-1.3.0.buildcompare) | | 102K |
+| [1.2.0](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.2.0/pom) | [mvn jdk17](jakarta-jms-adapter-1.2.0.buildspec) | [result](jakarta-jms-adapter-1.2.0.buildinfo): [3 :white_check_mark: ](jakarta-jms-adapter-1.2.0.buildcompare) | | 102K |
+| [1.1.0](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.1.0/pom) | [mvn jdk17](jakarta-jms-adapter-1.1.0.buildspec) | [result](jakarta-jms-adapter-1.1.0.buildinfo): [2 :white_check_mark:  1 :warning:](jakarta-jms-adapter-1.1.0.buildcompare) | - | 93K |
+| [1.0.0](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.0.0/pom) | [mvn jdk17](jakarta-jms-adapter-1.0.0.buildspec) | [result](jakarta-jms-adapter-1.0.0.buildinfo): [2 :white_check_mark:  1 :warning:](jakarta-jms-adapter-1.0.0.buildcompare) | - | 93K |
+| [0.1.0](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/0.1.0/pom) | [mvn jdk17](jakarta-jms-adapter-0.1.0.buildspec) | [result](jakarta-jms-adapter-0.1.0.buildinfo): [2 :white_check_mark:  1 :warning:](jakarta-jms-adapter-0.1.0.buildcompare) | - | 87K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

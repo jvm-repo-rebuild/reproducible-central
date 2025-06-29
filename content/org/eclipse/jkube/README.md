@@ -68,33 +68,33 @@ rebuilding **26 releases** of org.eclipse.jkube:jkube:
 - **26** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [1.18.1](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.18.1/pom) | [mvn jdk8](jkube-1.18.1.buildspec) | [result](jkube-1.18.1.buildinfo): [126 :white_check_mark: ](jkube-1.18.1.buildcompare) | 3.1M |
-| [1.18.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.18.0/pom) | [mvn jdk8](jkube-1.18.0.buildspec) | [result](jkube-1.18.0.buildinfo): [126 :white_check_mark: ](jkube-1.18.0.buildcompare) | 3.1M |
-| [1.17.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.17.0/pom) | [mvn jdk8](jkube-1.17.0.buildspec) | [result](jkube-1.17.0.buildinfo): [126 :white_check_mark: ](jkube-1.17.0.buildcompare) | 3.1M |
-| [1.16.2](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.16.2/pom) | [mvn jdk8](jkube-1.16.2.buildspec) | [result](jkube-1.16.2.buildinfo): [123 :white_check_mark: ](jkube-1.16.2.buildcompare) | 3.0M |
-| [1.16.1](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.16.1/pom) | [mvn jdk8](jkube-1.16.1.buildspec) | [result](jkube-1.16.1.buildinfo): [123 :white_check_mark: ](jkube-1.16.1.buildcompare) | 3.0M |
-| [1.16.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.16.0/pom) | [mvn jdk8](jkube-1.16.0.buildspec) | [result](jkube-1.16.0.buildinfo): [123 :white_check_mark: ](jkube-1.16.0.buildcompare) | 3.0M |
-| [1.15.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.15.0/pom) | [mvn jdk8](jkube-1.15.0.buildspec) | [result](jkube-1.15.0.buildinfo): [120 :white_check_mark: ](jkube-1.15.0.buildcompare) | 3.2M |
-| [1.14.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.14.0/pom) | [mvn jdk8](jkube-1.14.0.buildspec) | [result](jkube-1.14.0.buildinfo): [120 :white_check_mark: ](jkube-1.14.0.buildcompare) | 3.2M |
-| [1.13.1](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.13.1/pom) | [mvn jdk8](jkube-1.13.1.buildspec) | [result](jkube-1.13.1.buildinfo): [117 :white_check_mark: ](jkube-1.13.1.buildcompare) | 3.1M |
-| [1.13.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.13.0/pom) | [mvn jdk8](jkube-1.13.0.buildspec) | [result](jkube-1.13.0.buildinfo): [117 :white_check_mark: ](jkube-1.13.0.buildcompare) | 3.1M |
-| [1.12.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.12.0/pom) | [mvn jdk8](jkube-1.12.0.buildspec) | [result](jkube-1.12.0.buildinfo): [117 :white_check_mark: ](jkube-1.12.0.buildcompare) | 3.1M |
-| [1.11.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.11.0/pom) | [mvn jdk8](jkube-1.11.0.buildspec) | [result](jkube-1.11.0.buildinfo): [117 :white_check_mark: ](jkube-1.11.0.buildcompare) | 3.1M |
-| [1.10.1](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.10.1/pom) | [mvn jdk8](jkube-1.10.1.buildspec) | [result](jkube-1.10.1.buildinfo): [117 :white_check_mark: ](jkube-1.10.1.buildcompare) | 3.0M |
-| [1.10.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.10.0/pom) | [mvn jdk8](jkube-1.10.0.buildspec) | [result](jkube-1.10.0.buildinfo): [117 :white_check_mark: ](jkube-1.10.0.buildcompare) | 3.0M |
-| [1.9.1](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.9.1/pom) | [mvn jdk8](jkube-1.9.1.buildspec) | [result](jkube-1.9.1.buildinfo): [108 :white_check_mark: ](jkube-1.9.1.buildcompare) | 3.0M |
-| [1.9.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.9.0/pom) | [mvn jdk8](jkube-1.9.0.buildspec) | [result](jkube-1.9.0.buildinfo): [108 :white_check_mark: ](jkube-1.9.0.buildcompare) | 3.0M |
-| [1.8.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.8.0/pom) | [mvn jdk8](jkube-1.8.0.buildspec) | [result](jkube-1.8.0.buildinfo): [113 :white_check_mark: ](jkube-1.8.0.buildcompare) | 2.8M |
-| [1.7.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.7.0/pom) | [mvn jdk8](jkube-1.7.0.buildspec) | [result](jkube-1.7.0.buildinfo): [113 :white_check_mark: ](jkube-1.7.0.buildcompare) | 2.8M |
-| [1.6.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.6.0/pom) | [mvn jdk8](jkube-1.6.0.buildspec) | [result](jkube-1.6.0.buildinfo): [113 :white_check_mark: ](jkube-1.6.0.buildcompare) | 2.8M |
-| [1.5.1](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.5.1/pom) | [mvn jdk8](jkube-1.5.1.buildspec) | [result](jkube-1.5.1.buildinfo): [118 :white_check_mark: ](jkube-1.5.1.buildcompare) | 2.9M |
-| [1.5.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.5.0/pom) | [mvn jdk8](jkube-1.5.0.buildspec) | [result](jkube-1.5.0.buildinfo): [118 :white_check_mark: ](jkube-1.5.0.buildcompare) | 2.9M |
-| [1.4.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.4.0/pom) | [mvn jdk8](jkube-1.4.0.buildspec) | [result](jkube-1.4.0.buildinfo): [107 :white_check_mark: ](jkube-1.4.0.buildcompare) | 2.7M |
-| [1.3.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.3.0/pom) | [mvn jdk8](jkube-1.3.0.buildspec) | [result](jkube-1.3.0.buildinfo): [107 :white_check_mark: ](jkube-1.3.0.buildcompare) | 2.7M |
-| [1.2.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.2.0/pom) | [mvn jdk8](jkube-1.2.0.buildspec) | [result](jkube-1.2.0.buildinfo): [107 :white_check_mark: ](jkube-1.2.0.buildcompare) | 2.6M |
-| [1.1.1](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.1.1/pom) | [mvn jdk8](jkube-1.1.1.buildspec) | [result](jkube-1.1.1.buildinfo): [107 :white_check_mark: ](jkube-1.1.1.buildcompare) | 2.6M |
-| [1.1.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.1.0/pom) | [mvn jdk8](jkube-1.1.0.buildspec) | [result](jkube-1.1.0.buildinfo): [107 :white_check_mark: ](jkube-1.1.0.buildcompare) | 2.6M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.18.1](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.18.1/pom) | [mvn jdk8](jkube-1.18.1.buildspec) | [result](jkube-1.18.1.buildinfo): [126 :white_check_mark: ](jkube-1.18.1.buildcompare) | | 3.1M |
+| [1.18.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.18.0/pom) | [mvn jdk8](jkube-1.18.0.buildspec) | [result](jkube-1.18.0.buildinfo): [126 :white_check_mark: ](jkube-1.18.0.buildcompare) | | 3.1M |
+| [1.17.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.17.0/pom) | [mvn jdk8](jkube-1.17.0.buildspec) | [result](jkube-1.17.0.buildinfo): [126 :white_check_mark: ](jkube-1.17.0.buildcompare) | | 3.1M |
+| [1.16.2](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.16.2/pom) | [mvn jdk8](jkube-1.16.2.buildspec) | [result](jkube-1.16.2.buildinfo): [123 :white_check_mark: ](jkube-1.16.2.buildcompare) | | 3.0M |
+| [1.16.1](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.16.1/pom) | [mvn jdk8](jkube-1.16.1.buildspec) | [result](jkube-1.16.1.buildinfo): [123 :white_check_mark: ](jkube-1.16.1.buildcompare) | | 3.0M |
+| [1.16.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.16.0/pom) | [mvn jdk8](jkube-1.16.0.buildspec) | [result](jkube-1.16.0.buildinfo): [123 :white_check_mark: ](jkube-1.16.0.buildcompare) | | 3.0M |
+| [1.15.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.15.0/pom) | [mvn jdk8](jkube-1.15.0.buildspec) | [result](jkube-1.15.0.buildinfo): [120 :white_check_mark: ](jkube-1.15.0.buildcompare) | | 3.2M |
+| [1.14.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.14.0/pom) | [mvn jdk8](jkube-1.14.0.buildspec) | [result](jkube-1.14.0.buildinfo): [120 :white_check_mark: ](jkube-1.14.0.buildcompare) | | 3.2M |
+| [1.13.1](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.13.1/pom) | [mvn jdk8](jkube-1.13.1.buildspec) | [result](jkube-1.13.1.buildinfo): [117 :white_check_mark: ](jkube-1.13.1.buildcompare) | | 3.1M |
+| [1.13.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.13.0/pom) | [mvn jdk8](jkube-1.13.0.buildspec) | [result](jkube-1.13.0.buildinfo): [117 :white_check_mark: ](jkube-1.13.0.buildcompare) | | 3.1M |
+| [1.12.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.12.0/pom) | [mvn jdk8](jkube-1.12.0.buildspec) | [result](jkube-1.12.0.buildinfo): [117 :white_check_mark: ](jkube-1.12.0.buildcompare) | | 3.1M |
+| [1.11.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.11.0/pom) | [mvn jdk8](jkube-1.11.0.buildspec) | [result](jkube-1.11.0.buildinfo): [117 :white_check_mark: ](jkube-1.11.0.buildcompare) | | 3.1M |
+| [1.10.1](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.10.1/pom) | [mvn jdk8](jkube-1.10.1.buildspec) | [result](jkube-1.10.1.buildinfo): [117 :white_check_mark: ](jkube-1.10.1.buildcompare) | | 3.0M |
+| [1.10.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.10.0/pom) | [mvn jdk8](jkube-1.10.0.buildspec) | [result](jkube-1.10.0.buildinfo): [117 :white_check_mark: ](jkube-1.10.0.buildcompare) | | 3.0M |
+| [1.9.1](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.9.1/pom) | [mvn jdk8](jkube-1.9.1.buildspec) | [result](jkube-1.9.1.buildinfo): [108 :white_check_mark: ](jkube-1.9.1.buildcompare) | | 3.0M |
+| [1.9.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.9.0/pom) | [mvn jdk8](jkube-1.9.0.buildspec) | [result](jkube-1.9.0.buildinfo): [108 :white_check_mark: ](jkube-1.9.0.buildcompare) | | 3.0M |
+| [1.8.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.8.0/pom) | [mvn jdk8](jkube-1.8.0.buildspec) | [result](jkube-1.8.0.buildinfo): [113 :white_check_mark: ](jkube-1.8.0.buildcompare) | | 2.8M |
+| [1.7.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.7.0/pom) | [mvn jdk8](jkube-1.7.0.buildspec) | [result](jkube-1.7.0.buildinfo): [113 :white_check_mark: ](jkube-1.7.0.buildcompare) | | 2.8M |
+| [1.6.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.6.0/pom) | [mvn jdk8](jkube-1.6.0.buildspec) | [result](jkube-1.6.0.buildinfo): [113 :white_check_mark: ](jkube-1.6.0.buildcompare) | | 2.8M |
+| [1.5.1](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.5.1/pom) | [mvn jdk8](jkube-1.5.1.buildspec) | [result](jkube-1.5.1.buildinfo): [118 :white_check_mark: ](jkube-1.5.1.buildcompare) | | 2.9M |
+| [1.5.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.5.0/pom) | [mvn jdk8](jkube-1.5.0.buildspec) | [result](jkube-1.5.0.buildinfo): [118 :white_check_mark: ](jkube-1.5.0.buildcompare) | | 2.9M |
+| [1.4.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.4.0/pom) | [mvn jdk8](jkube-1.4.0.buildspec) | [result](jkube-1.4.0.buildinfo): [107 :white_check_mark: ](jkube-1.4.0.buildcompare) | | 2.7M |
+| [1.3.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.3.0/pom) | [mvn jdk8](jkube-1.3.0.buildspec) | [result](jkube-1.3.0.buildinfo): [107 :white_check_mark: ](jkube-1.3.0.buildcompare) | | 2.7M |
+| [1.2.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.2.0/pom) | [mvn jdk8](jkube-1.2.0.buildspec) | [result](jkube-1.2.0.buildinfo): [107 :white_check_mark: ](jkube-1.2.0.buildcompare) | | 2.6M |
+| [1.1.1](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.1.1/pom) | [mvn jdk8](jkube-1.1.1.buildspec) | [result](jkube-1.1.1.buildinfo): [107 :white_check_mark: ](jkube-1.1.1.buildcompare) | | 2.6M |
+| [1.1.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.1.0/pom) | [mvn jdk8](jkube-1.1.0.buildspec) | [result](jkube-1.1.0.buildinfo): [107 :white_check_mark: ](jkube-1.1.0.buildcompare) | | 2.6M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

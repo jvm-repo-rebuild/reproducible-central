@@ -33,9 +33,9 @@ rebuilding **2 releases** of org.apache.aries.cdi:org.apache.aries.cdi:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [1.1.5](https://central.sonatype.com/artifact/org.apache.aries.cdi/org.apache.aries.cdi/1.1.5/pom) | [mvn jdk8](aries-cdi-1.1.5.buildspec) | [result](org.apache.aries.cdi-1.1.5.buildinfo): [41 :white_check_mark: ](org.apache.aries.cdi-1.1.5.buildcompare) | 14M |
-| [1.1.4](https://central.sonatype.com/artifact/org.apache.aries.cdi/org.apache.aries.cdi/1.1.4/pom) | [mvn jdk8](aries-cdi-1.1.4.buildspec) | [result](org.apache.aries.cdi-1.1.4.buildinfo): [2 :white_check_mark:  30 :warning:](org.apache.aries.cdi-1.1.4.buildcompare) [:mag:](org.apache.aries.cdi-1.1.4.diffoscope) | 14M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.1.5](https://central.sonatype.com/artifact/org.apache.aries.cdi/org.apache.aries.cdi/1.1.5/pom) | [mvn jdk8](aries-cdi-1.1.5.buildspec) | [result](org.apache.aries.cdi-1.1.5.buildinfo): [41 :white_check_mark: ](org.apache.aries.cdi-1.1.5.buildcompare) | | 14M |
+| [1.1.4](https://central.sonatype.com/artifact/org.apache.aries.cdi/org.apache.aries.cdi/1.1.4/pom) | [mvn jdk8](aries-cdi-1.1.4.buildspec) | [result](org.apache.aries.cdi-1.1.4.buildinfo): [2 :white_check_mark:  30 :warning:](org.apache.aries.cdi-1.1.4.buildcompare) [:mag:](org.apache.aries.cdi-1.1.4.diffoscope) | - | 14M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

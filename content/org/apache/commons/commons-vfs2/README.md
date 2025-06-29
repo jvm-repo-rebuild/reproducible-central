@@ -24,8 +24,8 @@ rebuilding **1 releases** of org.apache.commons:commons-vfs2:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [2.10.0](https://central.sonatype.com/artifact/org.apache.commons/commons-vfs2/2.10.0/pom) | [mvn jdk21](commons-vfs2-2.10.0.buildspec) | [result](commons-vfs2-project-2.10.0.buildinfo): [30 :white_check_mark:  2 :warning:](commons-vfs2-project-2.10.0.buildcompare) | 2.5M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [2.10.0](https://central.sonatype.com/artifact/org.apache.commons/commons-vfs2/2.10.0/pom) | [mvn jdk21](commons-vfs2-2.10.0.buildspec) | [result](commons-vfs2-project-2.10.0.buildinfo): [30 :white_check_mark:  2 :warning:](commons-vfs2-project-2.10.0.buildcompare) | - | 2.5M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

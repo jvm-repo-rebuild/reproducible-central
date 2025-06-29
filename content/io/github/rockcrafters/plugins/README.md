@@ -18,12 +18,12 @@ rebuilding **5 releases** of io.github.rockcrafters:rockcraft-parent:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [1.1.2](https://central.sonatype.com/artifact/io.github.rockcrafters/rockcraft-parent/1.1.2/pom) | [mvn jdk8](rockcraft-parent-1.1.2.buildspec) | [result](rockcraft-parent-1.1.2.buildinfo): [7 :white_check_mark: ](rockcraft-parent-1.1.2.buildcompare) | 117K |
-| [1.1.1](https://central.sonatype.com/artifact/io.github.rockcrafters/rockcraft-parent/1.1.1/pom) | [mvn jdk8](rockcraft-parent-1.1.1.buildspec) | [result](rockcraft-parent-1.1.1.buildinfo): [7 :white_check_mark: ](rockcraft-parent-1.1.1.buildcompare) | 113K |
-| [1.1.0](https://central.sonatype.com/artifact/io.github.rockcrafters/rockcraft-parent/1.1.0/pom) | [mvn jdk8](rockcraft-parent-1.1.0.buildspec) | [result](rockcraft-parent-1.1.0.buildinfo): [7 :white_check_mark: ](rockcraft-parent-1.1.0.buildcompare) | 113K |
-| [1.0.0](https://central.sonatype.com/artifact/io.github.rockcrafters/rockcraft-parent/1.0.0/pom) | [mvn jdk8](rockcraft-parent-1.0.0.buildspec) | [result](rockcraft-parent-1.0.0.buildinfo): [7 :white_check_mark: ](rockcraft-parent-1.0.0.buildcompare) | 105K |
-| [0.2.3](https://central.sonatype.com/artifact/io.github.rockcrafters/rockcraft-parent/0.2.3/pom) | [mvn jdk8](rockcraft-parent-0.2.3.buildspec) | [result](rockcraft-parent-0.2.3.buildinfo): [7 :white_check_mark: ](rockcraft-parent-0.2.3.buildcompare) | 81K |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.1.2](https://central.sonatype.com/artifact/io.github.rockcrafters/rockcraft-parent/1.1.2/pom) | [mvn jdk8](rockcraft-parent-1.1.2.buildspec) | [result](rockcraft-parent-1.1.2.buildinfo): [7 :white_check_mark: ](rockcraft-parent-1.1.2.buildcompare) | | 117K |
+| [1.1.1](https://central.sonatype.com/artifact/io.github.rockcrafters/rockcraft-parent/1.1.1/pom) | [mvn jdk8](rockcraft-parent-1.1.1.buildspec) | [result](rockcraft-parent-1.1.1.buildinfo): [7 :white_check_mark: ](rockcraft-parent-1.1.1.buildcompare) | | 113K |
+| [1.1.0](https://central.sonatype.com/artifact/io.github.rockcrafters/rockcraft-parent/1.1.0/pom) | [mvn jdk8](rockcraft-parent-1.1.0.buildspec) | [result](rockcraft-parent-1.1.0.buildinfo): [7 :white_check_mark: ](rockcraft-parent-1.1.0.buildcompare) | | 113K |
+| [1.0.0](https://central.sonatype.com/artifact/io.github.rockcrafters/rockcraft-parent/1.0.0/pom) | [mvn jdk8](rockcraft-parent-1.0.0.buildspec) | [result](rockcraft-parent-1.0.0.buildinfo): [7 :white_check_mark: ](rockcraft-parent-1.0.0.buildcompare) | | 105K |
+| [0.2.3](https://central.sonatype.com/artifact/io.github.rockcrafters/rockcraft-parent/0.2.3/pom) | [mvn jdk8](rockcraft-parent-0.2.3.buildspec) | [result](rockcraft-parent-0.2.3.buildinfo): [7 :white_check_mark: ](rockcraft-parent-0.2.3.buildcompare) | | 81K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

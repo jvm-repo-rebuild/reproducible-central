@@ -32,10 +32,10 @@ rebuilding **3 releases** of io.github.xanthic.cache:cache-api:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [0.7.1](https://central.sonatype.com/artifact/io.github.xanthic.cache/cache-api/0.7.1/pom) | [gradle jdk21](cache-api-0.7.1.buildspec) | [result](cache-api-0.7.1.buildinfo): [50 :white_check_mark: ](cache-api-0.7.1.buildcompare) | 252K |
-| [0.7.0](https://central.sonatype.com/artifact/io.github.xanthic.cache/cache-api/0.7.0/pom) | [gradle jdk21](cache-api-0.7.0.buildspec) | [result](cache-api-0.7.0.buildinfo): [50 :white_check_mark: ](cache-api-0.7.0.buildcompare) | 250K |
-| [0.6.2](https://central.sonatype.com/artifact/io.github.xanthic.cache/cache-api/0.6.2/pom) | [gradle jdk21](cache-api-0.6.2.buildspec) | [result](cache-api-0.6.2.buildinfo): [50 :white_check_mark: ](cache-api-0.6.2.buildcompare) | 239K |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [0.7.1](https://central.sonatype.com/artifact/io.github.xanthic.cache/cache-api/0.7.1/pom) | [gradle jdk21](cache-api-0.7.1.buildspec) | [result](cache-api-0.7.1.buildinfo): [50 :white_check_mark: ](cache-api-0.7.1.buildcompare) | | 252K |
+| [0.7.0](https://central.sonatype.com/artifact/io.github.xanthic.cache/cache-api/0.7.0/pom) | [gradle jdk21](cache-api-0.7.0.buildspec) | [result](cache-api-0.7.0.buildinfo): [50 :white_check_mark: ](cache-api-0.7.0.buildcompare) | | 250K |
+| [0.6.2](https://central.sonatype.com/artifact/io.github.xanthic.cache/cache-api/0.6.2/pom) | [gradle jdk21](cache-api-0.6.2.buildspec) | [result](cache-api-0.6.2.buildinfo): [50 :white_check_mark: ](cache-api-0.6.2.buildcompare) | | 239K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

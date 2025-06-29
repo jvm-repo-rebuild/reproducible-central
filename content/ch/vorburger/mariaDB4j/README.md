@@ -22,9 +22,9 @@ rebuilding **2 releases** of ch.vorburger.mariaDB4j:mariaDB4j:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [3.2.0](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j/3.2.0/pom) | [mvn jdk21](mariaDB4j-pom-3.2.0.buildspec) | [result](mariaDB4j-pom-3.2.0.buildinfo): [19 :white_check_mark: ](mariaDB4j-pom-3.2.0.buildcompare) | 191M |
-| [3.1.0](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j/3.1.0/pom) | [mvn jdk21](mariaDB4j-pom-3.1.0.buildspec) | [result](mariaDB4j-pom-3.1.0.buildinfo): [16 :white_check_mark: ](mariaDB4j-pom-3.1.0.buildcompare) | 172M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [3.2.0](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j/3.2.0/pom) | [mvn jdk21](mariaDB4j-pom-3.2.0.buildspec) | [result](mariaDB4j-pom-3.2.0.buildinfo): [19 :white_check_mark: ](mariaDB4j-pom-3.2.0.buildcompare) | | 191M |
+| [3.1.0](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j/3.1.0/pom) | [mvn jdk21](mariaDB4j-pom-3.1.0.buildspec) | [result](mariaDB4j-pom-3.1.0.buildinfo): [16 :white_check_mark: ](mariaDB4j-pom-3.1.0.buildcompare) | | 172M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

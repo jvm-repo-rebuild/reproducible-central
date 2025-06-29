@@ -22,10 +22,10 @@ rebuilding **3 releases** of io.jstach.pistachio:pistachio-maven-parent:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [0.1.2](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-maven-parent/0.1.2/pom) | [mvn jdk17.0.7](pistachio-maven-parent-0.1.2.buildspec) | [result](pistachio-maven-parent-0.1.2.buildinfo): [11 :white_check_mark: ](pistachio-maven-parent-0.1.2.buildcompare) | 61K |
-| [0.1.1](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-maven-parent/0.1.1/pom) | [mvn jdk17](pistachio-maven-parent-0.1.1.buildspec) | [result](pistachio-maven-parent-0.1.1.buildinfo): [7 :white_check_mark:  4 :warning:](pistachio-maven-parent-0.1.1.buildcompare) | 60K |
-| [0.1.0](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-maven-parent/0.1.0/pom) | [mvn jdk18](pistachio-maven-parent-0.1.0.buildspec) | [result](pistachio-maven-parent-0.1.0.buildinfo): [7 :white_check_mark:  4 :warning:](pistachio-maven-parent-0.1.0.buildcompare) | 60K |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [0.1.2](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-maven-parent/0.1.2/pom) | [mvn jdk17.0.7](pistachio-maven-parent-0.1.2.buildspec) | [result](pistachio-maven-parent-0.1.2.buildinfo): [11 :white_check_mark: ](pistachio-maven-parent-0.1.2.buildcompare) | | 61K |
+| [0.1.1](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-maven-parent/0.1.1/pom) | [mvn jdk17](pistachio-maven-parent-0.1.1.buildspec) | [result](pistachio-maven-parent-0.1.1.buildinfo): [7 :white_check_mark:  4 :warning:](pistachio-maven-parent-0.1.1.buildcompare) | - | 60K |
+| [0.1.0](https://central.sonatype.com/artifact/io.jstach.pistachio/pistachio-maven-parent/0.1.0/pom) | [mvn jdk18](pistachio-maven-parent-0.1.0.buildspec) | [result](pistachio-maven-parent-0.1.0.buildinfo): [7 :white_check_mark:  4 :warning:](pistachio-maven-parent-0.1.0.buildcompare) | - | 60K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -27,9 +27,9 @@ rebuilding **2 releases** of org.apache.commons:commons-numbers-parent:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [1.2](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-parent/1.2/pom) | [mvn jdk11](commons-numbers-1.2.buildspec) | [result](commons-numbers-parent-1.2.buildinfo): [47 :white_check_mark:  34 :warning:](commons-numbers-parent-1.2.buildcompare) [:mag:](commons-numbers-parent-1.2.diffoscope) | 4.6M |
-| [1.1](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-parent/1.1/pom) | [mvn jdk8](commons-numbers-1.1.buildspec) | [result](commons-numbers-parent-1.1.buildinfo): [57 :white_check_mark: ](commons-numbers-parent-1.1.buildcompare) | 4.0M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [1.2](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-parent/1.2/pom) | [mvn jdk11](commons-numbers-1.2.buildspec) | [result](commons-numbers-parent-1.2.buildinfo): [47 :white_check_mark:  34 :warning:](commons-numbers-parent-1.2.buildcompare) [:mag:](commons-numbers-parent-1.2.diffoscope) | - | 4.6M |
+| [1.1](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-parent/1.1/pom) | [mvn jdk8](commons-numbers-1.1.buildspec) | [result](commons-numbers-parent-1.1.buildinfo): [57 :white_check_mark: ](commons-numbers-parent-1.1.buildcompare) | | 4.0M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

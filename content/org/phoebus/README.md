@@ -113,10 +113,10 @@ rebuilding **3 releases** of org.phoebus:parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [5.0.0](https://central.sonatype.com/artifact/org.phoebus/parent/5.0.0/pom) | [mvn jdk17 w](phoebus-5.0.0.buildspec) | [result](parent-5.0.0.buildinfo): [179 :white_check_mark:  87 :warning:](parent-5.0.0.buildcompare) [:memo:](https://github.com/ControlSystemStudio/phoebus/pull/3416) | 305M |
-| [4.7.4](https://central.sonatype.com/artifact/org.phoebus/parent/4.7.4/pom) | [mvn jdk17 w](phoebus-4.7.4.buildspec) | [result](parent-4.7.4.buildinfo): [179 :white_check_mark:  87 :warning:](parent-4.7.4.buildcompare) [:mag:](parent-4.7.4.diffoscope) | 305M |
-| [4.7.3](https://central.sonatype.com/artifact/org.phoebus/parent/4.7.3/pom) | [mvn jdk11 w](phoebus-4.7.3.buildspec) | [result](parent-4.7.3.buildinfo): [219 :white_check_mark:  8 :warning:](parent-4.7.3.buildcompare) [:mag:](parent-4.7.3.diffoscope) [:memo:](https://github.com/ControlSystemStudio/phoebus/pull/2904) | 170M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [5.0.0](https://central.sonatype.com/artifact/org.phoebus/parent/5.0.0/pom) | [mvn jdk17 w](phoebus-5.0.0.buildspec) | [result](parent-5.0.0.buildinfo): [179 :white_check_mark:  87 :warning:](parent-5.0.0.buildcompare) [:memo:](https://github.com/ControlSystemStudio/phoebus/pull/3416) | - | 305M |
+| [4.7.4](https://central.sonatype.com/artifact/org.phoebus/parent/4.7.4/pom) | [mvn jdk17 w](phoebus-4.7.4.buildspec) | [result](parent-4.7.4.buildinfo): [179 :white_check_mark:  87 :warning:](parent-4.7.4.buildcompare) [:mag:](parent-4.7.4.diffoscope) | - | 305M |
+| [4.7.3](https://central.sonatype.com/artifact/org.phoebus/parent/4.7.3/pom) | [mvn jdk11 w](phoebus-4.7.3.buildspec) | [result](parent-4.7.3.buildinfo): [219 :white_check_mark:  8 :warning:](parent-4.7.3.buildcompare) [:mag:](parent-4.7.3.diffoscope) [:memo:](https://github.com/ControlSystemStudio/phoebus/pull/2904) | - | 170M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

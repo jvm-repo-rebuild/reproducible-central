@@ -39,9 +39,9 @@ rebuilding **1 releases** of org.apache.sis:parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
 | [1.4](https://central.sonatype.com/artifact/org.apache.sis/parent/1.4/pom) | | | |
-| [1.3](https://central.sonatype.com/artifact/org.apache.sis/parent/1.3/pom) | [mvn jdk19](parent-1.3.buildspec) | [result](parent-1.3.buildinfo): [10 :white_check_mark:  69 :warning:](parent-1.3.buildcompare) [:memo:](https://github.com/apache/sis/pull/36) | 25M |
+| [1.3](https://central.sonatype.com/artifact/org.apache.sis/parent/1.3/pom) | [mvn jdk19](parent-1.3.buildspec) | [result](parent-1.3.buildinfo): [10 :white_check_mark:  69 :warning:](parent-1.3.buildcompare) [:memo:](https://github.com/apache/sis/pull/36) | - | 25M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

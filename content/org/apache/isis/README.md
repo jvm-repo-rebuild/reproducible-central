@@ -173,8 +173,8 @@ rebuilding **1 releases** of org.apache.isis:isis-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
-| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
-| -- | --------- | ------ | -- |
-| [2.0.0-M7](https://central.sonatype.com/artifact/org.apache.isis/isis-parent/2.0.0-M7/pom) | [mvn jdk11 w](isis-2.0.0-M7.buildspec) | [result](isis-parent-2.0.0-M7.buildinfo): [360 :white_check_mark:  257 :warning:](isis-parent-2.0.0-M7.buildcompare) [:mag:](isis-parent-2.0.0-M7.diffoscope) | 49M |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
+| -- | --------- | ------ | ------ | -- |
+| [2.0.0-M7](https://central.sonatype.com/artifact/org.apache.isis/isis-parent/2.0.0-M7/pom) | [mvn jdk11 w](isis-2.0.0-M7.buildspec) | [result](isis-parent-2.0.0-M7.buildinfo): [360 :white_check_mark:  257 :warning:](isis-parent-2.0.0-M7.buildcompare) [:mag:](isis-parent-2.0.0-M7.diffoscope) | - | 49M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
