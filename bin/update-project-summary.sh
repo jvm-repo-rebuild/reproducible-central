@@ -124,12 +124,28 @@ do
       [[ -z "${diffoscope}" ]] || row+=" [:mag:](${diffoscope})"
       [[ -z "${issue}" ]] || row+=" [:memo:](${issue})"
 
+      if [ -z "${oss_rebuild_ok}" ]
+      then
+        row+=" | :grey_question:"
+      else
+        if [ ${ko} -eq 0 ]
+        then
+          row+=" | -"
+        elif [ ${oss_rebuild_ok} -eq ${ko} ]
+        then
+          row+=" | ${ko} :warning: => ${oss_rebuild_ok}/${ko} :recycle:"
+        else
+          row+=" | ${ko} :warning: => ${oss_rebuild_ok}/${ko} :arrows_counterclockwise:"
+        fi
+      fi
+
       # detect unexpected issue or diffoscope but 0 non-reproducible artifact (probably cause by previous buildspec copy)
       [[ -z "${issue}" ]] && [[ -n "${diffoscope}" ]] && issue="${diffoscope}"
       [[ -n "${issue}" ]] && [ "${ko}" -eq 0 ] && echo "      $dir/$buildspec" >> ${unexpectedDiffoscope}
       [[ -n "${diffoscope}" ]] && [[ ! -r "$dir/$(basename ${diffoscope})" ]] && echo "      $dir/$buildspec" >> ${missingDiffoscope}
       row+=" | $(grep length= ${dir}/${_buildinfo} | cut -d = -f 2 | paste -sd+ - | bc | $numfmt --to=iec) |"
       echo "$row" >> tmp/${projectReadme}
+      unset oss_rebuild_ok # to ensure oss-rebuild is not added to different releases
     else
       echo "$row:x: | |" >> tmp/${projectReadme}
     fi
@@ -150,8 +166,8 @@ echo "rebuilding **${countVersion} releases** of ${groupId}:${artifactId}:" >> $
 echo "- **${countVersionOk}** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:)," >> ${projectReadme}
 echo "- $((countVersion - countVersionOk)) had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):" >> ${projectReadme}
 echo >> ${projectReadme}
-echo "| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |" >> ${projectReadme}
-echo "| -- | --------- | ------ | -- |" >> ${projectReadme}
+echo "| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [oss-rebuild](https://github.com/google/oss-rebuild): stabilized? | size |" >> ${projectReadme}
+echo "| -- | --------- | ------ | ------ | -- |" >> ${projectReadme}
 cat tmp/${projectReadme} >> "${projectReadme}"
 echo >> "${projectReadme}"
 echo "<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>" >> "${projectReadme}"
