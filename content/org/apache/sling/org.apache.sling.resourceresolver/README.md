@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-resourceresolver.git](https://github.com/apache/sling-org-apache-sling-resourceresolver.git)
 
-rebuilding **15 releases** of org.apache.sling:org.apache.sling.resourceresolver:
-- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **16 releases** of org.apache.sling:org.apache.sling.resourceresolver:
+- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/2.0.0/pom) | | | |
+| [2.0.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/2.0.0/pom) | [mvn jdk17](org.apache.sling.resourceresolver-2.0.0.buildspec) | [result](org.apache.sling.resourceresolver-2.0.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.resourceresolver-2.0.0.buildcompare) | 822K |
 | [1.12.10](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.12.10/pom) | | | |
 | [1.12.8](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.12.8/pom) | [mvn jdk17](org.apache.sling.resourceresolver-1.12.8.buildspec) | [result](org.apache.sling.resourceresolver-1.12.8.buildinfo): [4 :white_check_mark: ](org.apache.sling.resourceresolver-1.12.8.buildcompare) | 817K |
 | [1.12.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.12.6/pom) | [mvn jdk11 w](org.apache.sling.resourceresolver-1.12.6.buildspec) | [result](org.apache.sling.resourceresolver-1.12.6.buildinfo): [4 :white_check_mark: ](org.apache.sling.resourceresolver-1.12.6.buildcompare) | 805K |
