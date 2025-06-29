@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling API
+group-id=org.apache.sling
+artifact-id=org.apache.sling.api
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-api.git
+source.scm.tag=org.apache.sling.api-3.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.15
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.api-3.0.0.pom
+outputs.0.length=7152
+outputs.0.checksums.sha512=5095246b9404f54367bc5c92b91c0095d4d0b252ec970903a970b09b77fa572af1d7c231d1f24ac97b316107418db369f0bd18a1ecfad61e24a26cdac3c733f3
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.api-3.0.0.jar
+outputs.1.length=257524
+outputs.1.checksums.sha512=50961e517671b87cb186492256b5926d80a37ca294dad92b4fb27c9b7c383fe5ed77f57728a5ea0f8c11d9527fa4401ee13911c555018f9aa5194c5a5930b34c
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.api-3.0.0-source-release.zip
+outputs.2.length=414335
+outputs.2.checksums.sha512=e102089f0053c96ddd73fd6536a9318faedab00d28a6f670cc679c7777533b8b8ef64b2b73fc20c0096992f6de3d1afc5b1645fa1e86c5e4418be5b084323d26
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.api-3.0.0-sources.jar
+outputs.3.length=307513
+outputs.3.checksums.sha512=09e70096bc3684c28fd38a0e033e90dd6d3a2f189ab11964702312723af431e05959858a1796c5665357a8218fc8335d088679c0163f32daf9291669e2fecc67
