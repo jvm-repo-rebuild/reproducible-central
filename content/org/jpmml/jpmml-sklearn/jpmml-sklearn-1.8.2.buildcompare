@@ -13,3 +13,7 @@ reference_os_name="Unix (from pom.properties newline)"
 # diffoscope target/reference/org.jpmml/pmml-sklearn-lightgbm-1.8.2-sources.jar pmml-sklearn-lightgbm/target/pmml-sklearn-lightgbm-1.8.2-sources.jar
 # diffoscope target/reference/org.jpmml/pmml-sklearn-statsmodels-1.8.2-sources.jar pmml-sklearn-statsmodels/target/pmml-sklearn-statsmodels-1.8.2-sources.jar
 # diffoscope target/reference/org.jpmml/pmml-sklearn-xgboost-1.8.2-sources.jar pmml-sklearn-xgboost/target/pmml-sklearn-xgboost-1.8.2-sources.jar
+stabilize_ok=6
+stabilize_ko=0
+stabilize_okFiles="pmml-sklearn-1.8.2-sources.jar.stabilized pmml-sklearn-extension-1.8.2-sources.jar.stabilized pmml-sklearn-h2o-1.8.2-sources.jar.stabilized pmml-sklearn-lightgbm-1.8.2-sources.jar.stabilized pmml-sklearn-statsmodels-1.8.2-sources.jar.stabilized pmml-sklearn-xgboost-1.8.2-sources.jar.stabilized "
+stabilize_koFiles=""

@@ -21,3 +21,7 @@ reference_os_name="Unix (from pom.properties newline)"
 # diffoscope target/reference/org.jpmml/pmml-sklearn-statsmodels-1.9.7-sources.jar pmml-sklearn-statsmodels/target/pmml-sklearn-statsmodels-1.9.7-sources.jar
 # diffoscope target/reference/org.jpmml/pmml-sklearn-xgboost-1.9.7.jar pmml-sklearn-xgboost/target/pmml-sklearn-xgboost-1.9.7.jar
 # diffoscope target/reference/org.jpmml/pmml-sklearn-xgboost-1.9.7-sources.jar pmml-sklearn-xgboost/target/pmml-sklearn-xgboost-1.9.7-sources.jar
+stabilize_ok=14
+stabilize_ko=0
+stabilize_okFiles="pmml-sklearn-1.9.7.jar.stabilized pmml-sklearn-1.9.7-sources.jar.stabilized pmml-sklearn-evaluator-1.9.7.jar.stabilized pmml-sklearn-evaluator-1.9.7-sources.jar.stabilized pmml-sklearn-extension-1.9.7.jar.stabilized pmml-sklearn-extension-1.9.7-sources.jar.stabilized pmml-sklearn-h2o-1.9.7.jar.stabilized pmml-sklearn-h2o-1.9.7-sources.jar.stabilized pmml-sklearn-lightgbm-1.9.7.jar.stabilized pmml-sklearn-lightgbm-1.9.7-sources.jar.stabilized pmml-sklearn-statsmodels-1.9.7.jar.stabilized pmml-sklearn-statsmodels-1.9.7-sources.jar.stabilized pmml-sklearn-xgboost-1.9.7.jar.stabilized pmml-sklearn-xgboost-1.9.7-sources.jar.stabilized "
+stabilize_koFiles=""
