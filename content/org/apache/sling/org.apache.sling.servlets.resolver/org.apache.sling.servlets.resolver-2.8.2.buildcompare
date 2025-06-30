@@ -1,9 +1,15 @@
 version=2.8.2
 ok=2
 ko=2
+ignored=0
 okFiles="org.apache.sling.servlets.resolver-2.8.2.pom org.apache.sling.servlets.resolver-2.8.2-source-release.zip"
 koFiles="org.apache.sling.servlets.resolver-2.8.2.jar org.apache.sling.servlets.resolver-2.8.2-sources.jar"
+ignoredFiles=""
 reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
-# diffoscope target/reference/org.apache.sling.servlets.resolver-2.8.2.jar target/org.apache.sling.servlets.resolver-2.8.2.jar
-# diffoscope target/reference/org.apache.sling.servlets.resolver-2.8.2-sources.jar target/org.apache.sling.servlets.resolver-2.8.2-sources.jar
+# diffoscope target/reference/org.apache.sling/org.apache.sling.servlets.resolver-2.8.2.jar target/org.apache.sling.servlets.resolver-2.8.2.jar
+# diffoscope target/reference/org.apache.sling/org.apache.sling.servlets.resolver-2.8.2-sources.jar target/org.apache.sling.servlets.resolver-2.8.2-sources.jar
+stabilize_ok=1
+stabilize_ko=1
+stabilize_okFiles="org.apache.sling.servlets.resolver-2.8.2-sources.jar.stabilized "
+stabilize_koFiles="org.apache.sling.servlets.resolver-2.8.2.jar.stabilized "

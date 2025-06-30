@@ -134,8 +134,11 @@ do
         elif [ ${stabilize_ok} -eq ${ko} ]
         then
           row+=" | ${stabilize_ok} :recycle:"
+        elif [ ${stabilize_ok} -eq 0 ]
+        then
+          row+=" | $((ko - stabilize_ok)) :rotating_light:"
         else
-          row+=" | ${stabilize_ok} :recycle: + $((ko - stabilize_ok)) :rotating_light:"
+          row+=" | ${stabilize_ok} :recycle: $((ko - stabilize_ok)) :rotating_light:"
         fi
       fi
 

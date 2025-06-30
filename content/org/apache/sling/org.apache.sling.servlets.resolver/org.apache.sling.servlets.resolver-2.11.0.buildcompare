@@ -8,3 +8,7 @@ ignoredFiles=""
 reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
 # diffoscope target/reference/org.apache.sling/org.apache.sling.servlets.resolver-2.11.0.jar target/org.apache.sling.servlets.resolver-2.11.0.jar
+stabilize_ok=0
+stabilize_ko=1
+stabilize_okFiles=""
+stabilize_koFiles="org.apache.sling.servlets.resolver-2.11.0.jar.stabilized "
