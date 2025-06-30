@@ -127,6 +127,7 @@ displayOptional  "os"
 displayOptional  "arch"
 [ -n "$execAfter" ] && info "executing after command: $execAfter" && eval "$execAfter"
 
+./build_stabilize.sh "$(dirname ${buildspec})/$(basename ${buildspec} .buildinfo).buildcompare" buildcache/${artifactId}
 #git reset --hard
 
 popd > /dev/null || fatal "Unable to return to starting directory"

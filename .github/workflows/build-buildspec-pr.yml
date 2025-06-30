@@ -94,14 +94,13 @@ jobs:
 
               sudo apt-get -qq install -y dos2unix 2>&1 > /dev/null
               ./rebuild.sh $file
-              buildcompare="$(dirname $file)/$(basename $buildinfo .buildinfo).buildcompare"
-              ./build_stabilize.sh "$buildcompare" buildcache/$artifactId
 
               bin/update-project-summary.sh "$(dirname $file)"
               git add "$(dirname $file)"
               git commit -m "./rebuild.sh $file"
               git push
 
+              buildcompare="$(dirname $file)/$(basename $buildinfo .buildinfo).buildcompare"
               echo '```' >> PRcomment.txt
               grep -v okFiles "$buildcompare" >> PRcomment.txt
               echo '```' >> PRcomment.txt
