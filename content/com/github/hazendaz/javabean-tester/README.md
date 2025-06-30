@@ -13,6 +13,7 @@ rebuilding **18 releases** of com.github.hazendaz:javabean-tester:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.10.0](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.10.0/pom) | | | |
 | [2.9.0](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.9.0/pom) | [mvn jdk21 w](javabean-tester-2.9.0.buildspec) | [result](javabean-tester-2.9.0.buildinfo): [5 :white_check_mark: ](javabean-tester-2.9.0.buildcompare) | | 192K |
 | [2.8.5](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.8.5/pom) | [mvn jdk21 w](javabean-tester-2.8.5.buildspec) | [result](javabean-tester-2.8.5.buildinfo): [5 :white_check_mark: ](javabean-tester-2.8.5.buildcompare) | | 193K |
 | [2.8.4](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.8.4/pom) | [mvn jdk21 w](javabean-tester-2.8.4.buildspec) | [result](javabean-tester-2.8.4.buildinfo): [5 :white_check_mark: ](javabean-tester-2.8.4.buildcompare) | | 192K |

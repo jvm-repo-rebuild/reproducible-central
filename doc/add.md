@@ -4,12 +4,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250629122909 --> [airbase](../content/io/airlift/airbase/README.md) | [270](../content/io/airlift/airbase/airbase-270.buildspec) :white_check_mark: | [271](../content/io/airlift/airbase/airbase-271.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-270.buildspec 271` |
-| <!-- 20250629023301 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [11.2.2-beta-1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.2-beta-1.buildspec) :white_check_mark: | [11.2.2-beta-2](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.2-beta-2.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.2-beta-1.buildspec 11.2.2-beta-2` |
+| <!-- 20250630180057 --> [helix](../content/org/apache/helix/README.md) | [1.4.3](../content/org/apache/helix/helix-1.4.3.buildspec) :white_check_mark: | 1.3.2  | `bin/add-new-release.sh content/org/apache/helix/helix-1.4.3.buildspec ...` |
+| <!-- 20250629235233 --> [javabean-tester](../content/com/github/hazendaz/javabean-tester/README.md) | [2.9.0](../content/com/github/hazendaz/javabean-tester/javabean-tester-2.9.0.buildspec) :white_check_mark: | [2.10.0](../content/com/github/hazendaz/javabean-tester/javabean-tester-2.10.0.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/javabean-tester/javabean-tester-2.9.0.buildspec 2.10.0` |
 | <!-- 20250629014241 --> [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | [4.0.0.Beta1](../content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.0.0.Beta1.buildspec) :white_check_mark: | 3.0.2.Final  | `bin/add-new-release.sh content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.0.0.Beta1.buildspec ...` |
-| <!-- 20250629005452 --> [hibernate-core](../content/org/hibernate/orm/hibernate-core/README.md) | [7.0.3.Final](../content/org/hibernate/orm/hibernate-core/hibernate-core-7.0.3.Final.buildspec) :white_check_mark: | [7.0.4.Final](../content/org/hibernate/orm/hibernate-core/hibernate-core-7.0.4.Final.buildspec) | `bin/add-new-release.sh content/org/hibernate/orm/hibernate-core/hibernate-core-7.0.3.Final.buildspec 7.0.4.Final` |
-| <!-- 20250628121739 --> [org.apache.sling.resourceresolver](../content/org/apache/sling/org.apache.sling.resourceresolver/README.md) | [2.0.0](../content/org/apache/sling/org.apache.sling.resourceresolver/org.apache.sling.resourceresolver-2.0.0.buildspec) :white_check_mark: | 1.12.10  | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.resourceresolver/org.apache.sling.resourceresolver-2.0.0.buildspec ...` |
-| <!-- 20250627012947 --> [orc](../content/org/apache/orc/README.md) | [2.1.2](../content/org/apache/orc/orc-2.1.2.buildspec) :white_check_mark: | 1.8.10  | `bin/add-new-release.sh content/org/apache/orc/orc-2.1.2.buildspec ...` |
 | <!-- 20250622005752 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [11.6-RC4](../content/io/avaje/inject/avaje-inject-11.6-RC4.buildspec) :white_check_mark: | 11.5-javax  | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-11.6-RC4.buildspec ...` |
 | <!-- 20250619152553 --> [micronaut-maven-plugin](../content/io/micronaut/maven/micronaut-maven-plugin/README.md) | [4.8.2](../content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.8.2.buildspec) :white_check_mark: | [4.9.0](../content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.9.0.buildspec) | `bin/add-new-release.sh content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.8.2.buildspec 4.9.0` |
 | <!-- 20250527111630 --> [avaje-jsonb-parent](../content/io/avaje/jsonb/README.md) | [3.5-RC2](../content/io/avaje/jsonb/avaje-jsonb-3.5-RC2.buildspec) :white_check_mark: | [3.5](../content/io/avaje/jsonb/avaje-jsonb-3.5.buildspec) | `bin/add-new-release.sh content/io/avaje/jsonb/avaje-jsonb-3.5-RC2.buildspec 3.5` |
@@ -31,6 +28,13 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD STAGING -->
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
+| <!-- 20250526120145 --> [:mailbox:](https://lists.apache.org/list?dev@tika.apache.org:lte=1M:VOTE) | [tika](../content/org/apache/tika/README.md) | [3.2.0](../content/org/apache/tika/tika-3.2.0.buildspec) :warning: | [3.2.1](../content/org/apache/tika/tika-3.2.1.buildspec)  | `bin/add-new-release.sh content/org/apache/tika/tika-3.2.0.buildspec 3.2.1 staging` |
+| <!-- 20250518134753 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-resolver](../content/org/apache/maven/resolver/maven-resolver/README.md) | [2.0.9](../content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.9.buildspec) :white_check_mark: | [2.0.10](../content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.10.buildspec)  | `bin/add-new-release.sh content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.9.buildspec 2.0.10 staging` |
+| <!-- 20250218094231 --> [:mailbox:](https://lists.apache.org/list?dev@wayang.apache.org:lte=1M:VOTE) | [wayang](../content/org/apache/wayang/README.md) | [1.0.0](../content/org/apache/wayang/wayang-1.0.0.buildspec) :warning: [:memo:](https://github.com/apache/incubator-wayang/pull/503) | [1.1.0](../content/org/apache/wayang/wayang-1.1.0.buildspec)  | `bin/add-new-release.sh content/org/apache/wayang/wayang-1.0.0.buildspec 1.1.0 staging` |
+| <!-- 20250213085016 --> [:mailbox:](https://lists.apache.org/list?dev@ignite.apache.org:lte=1M:VOTE) | [apache-ignite](../content/org/apache/ignite/README.md) | [2.17.0](../content/org/apache/ignite/ignite-2.17.0.buildspec) :warning: | [3.0.0-alpha5](../content/org/apache/ignite/ignite-3.0.0-alpha5.buildspec)  | `bin/add-new-release.sh content/org/apache/ignite/ignite-2.17.0.buildspec 3.0.0-alpha5 staging` |
+| <!-- 20241024173436 --> [:mailbox:](https://lists.apache.org/list?dev@zookeeper.apache.org:lte=1M:VOTE) | [parent](../content/org/apache/zookeeper/README.md) | [3.9.3](../content/org/apache/zookeeper/zookeeper-3.9.3.buildspec) :warning: | [3.9.4](../content/org/apache/zookeeper/zookeeper-3.9.4.buildspec)  | `bin/add-new-release.sh content/org/apache/zookeeper/zookeeper-3.9.3.buildspec 3.9.4 staging` |
+| <!-- 20240927135839 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-gpg-plugin](../content/org/apache/maven/plugins/maven-gpg-plugin/README.md) | [3.2.7](../content/org/apache/maven/plugins/maven-gpg-plugin/maven-gpg-plugin-3.2.7.buildspec) :white_check_mark: | [3.2.8](../content/org/apache/maven/plugins/maven-gpg-plugin/maven-gpg-plugin-3.2.8.buildspec)  | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-gpg-plugin/maven-gpg-plugin-3.2.7.buildspec 3.2.8 staging` |
+| <!-- 20240530073223 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [enforcer](../content/org/apache/maven/enforcer/README.md) | [3.5.0](../content/org/apache/maven/enforcer/maven-enforcer-plugin-3.5.0.buildspec) :white_check_mark: | [3.6.0](../content/org/apache/maven/enforcer/maven-enforcer-plugin-3.6.0.buildspec)  | `bin/add-new-release.sh content/org/apache/maven/enforcer/maven-enforcer-plugin-3.5.0.buildspec 3.6.0 staging` |
 <!-- END GENERATED ADD STAGING -->
 
 ## New Release of non-Reproducible Previous
@@ -38,9 +42,11 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20250630192212 --> [jreleaser](../content/org/jreleaser/README.md) | [1.18.0](../content/org/jreleaser/jreleaser-1.18.0.buildspec) :warning: | [1.19.0](../content/org/jreleaser/jreleaser-1.19.0.buildspec) | `bin/add-new-release.sh content/org/jreleaser/jreleaser-1.18.0.buildspec 1.19.0` |
+| <!-- 20250630132948 --> [io.wcm.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | [2.4.2](../content/io/wcm/io.wcm.handler/media/wcm-media-2.4.2.buildspec) :warning: | [2.5.0](../content/io/wcm/io.wcm.handler/media/wcm-media-2.5.0.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.handler/media/wcm-media-2.4.2.buildspec 2.5.0` |
+| <!-- 20250630132948 --> [io.wcm.handler.link](../content/io/wcm/io.wcm.handler/link/README.md) | [2.2.4](../content/io/wcm/io.wcm.handler/link/io.wcm.handler.link-2.2.4.buildspec) :warning: | [2.2.6](../content/io/wcm/io.wcm.handler/link/io.wcm.handler.link-2.2.6.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.handler/link/io.wcm.handler.link-2.2.4.buildspec 2.2.6` |
+| <!-- 20250630063427 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | [1.9.12](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.12.buildspec) :warning: | [1.9.13](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.13.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.12.buildspec 1.9.13` |
 | <!-- 20250628142205 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.89.1](../content/org/finos/legend/engine/legend-engine-4.89.1.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.89.1` |
-| <!-- 20250628121811 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | [2.11.8](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.8.buildspec) :warning: | [3.0.0](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-3.0.0.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.11.8.buildspec 3.0.0` |
-| <!-- 20250628121745 --> [org.apache.sling.scripting.core](../content/org/apache/sling/org.apache.sling.scripting.core/README.md) | [2.4.10](../content/org/apache/sling/org.apache.sling.scripting.core/org.apache.sling.scripting.core-2.4.10.buildspec) :warning: [:memo:](https://issues.apache.org/jira/browse/SLING-12422) | [3.0.0](../content/org/apache/sling/org.apache.sling.scripting.core/org.apache.sling.scripting.core-3.0.0.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.scripting.core/org.apache.sling.scripting.core-2.4.10.buildspec 3.0.0` |
 | <!-- 20250628075449 --> [drill-root](../content/org/apache/drill/README.md) | [1.21.2](../content/org/apache/drill/drill-1.21.2.buildspec) :warning: | [1.22.0](../content/org/apache/drill/drill-1.22.0.buildspec) | `bin/add-new-release.sh content/org/apache/drill/drill-1.21.2.buildspec 1.22.0` |
 | <!-- 20250627115348 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | [2.16.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.16.0.buildspec) :warning: | [2.17.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.17.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/instrumentation/opentelemetry-2.16.0.buildspec 2.17.0` |
 | <!-- 20250627055619 --> [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.12.0](../content/org/apache/camel/camel/camel-4.12.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.12.0` |
@@ -63,7 +69,6 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
-| <!-- 20250625172558 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | 1.9.12 :warning: |
 | <!-- 20250622062141 --> [activemq-parent](../content/org/apache/activemq/README.md) | 6.1.7 :warning: |
 | <!-- 20250621194142 --> [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | 1.3.2 :warning: |
 | <!-- 20250621182201 --> [jpmml-python](../content/org/jpmml/jpmml-python/README.md) | 1.3.5 :warning: |
@@ -96,7 +101,6 @@ New Releases To Add
 | <!-- 20250503162925 --> [com.io7m.trasco](../content/com/io7m/trasco/README.md) | 3.1.1 :warning: |
 | <!-- 20250502051147 --> [ratis-thirdparty](../content/org/apache/ratis/ratis-thirdparty/README.md) | 1.0.9 :warning: |
 | <!-- 20250501173335 --> [nifi](../content/org/apache/nifi/nifi/README.md) | 2.4.0 :warning: |
-| <!-- 20250430093206 --> [jreleaser](../content/org/jreleaser/README.md) | 1.18.0 :warning: |
 | <!-- 20250430084041 --> [com.io7m.certusine](../content/com/io7m/certusine/README.md) | 3.2.0 :warning: |
 | <!-- 20250429233214 --> [avaje-jex-parent](../content/io/avaje/jex/README.md) | 3.2 :warning: |
 | <!-- 20250429144840 --> [jpmml-r](../content/org/jpmml/jpmml-r/README.md) | 1.7.2 :warning: |
@@ -137,7 +141,6 @@ New Releases To Add
 | <!-- 20250225165035 --> [slf4j-parent](../content/org/slf4j/README.md) | 2.1.0-alpha1 :warning: |
 | <!-- 20250224140054 --> [sdmx-dl-parent](../content/com/github/nbbrd/sdmx-dl/README.md) | 3.0.0-beta.14 :warning: |
 | <!-- 20250224085936 --> [sshd](../content/org/apache/sshd/README.md) | 2.15.0 :warning: [:memo:](https://github.com/apache/mina-sshd/pull/695) |
-| <!-- 20250219102604 --> [io.wcm.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | 2.4.2 :warning: |
 | <!-- 20250218094231 --> [wayang](../content/org/apache/wayang/README.md) | 1.0.0 :warning: [:memo:](https://github.com/apache/incubator-wayang/pull/503) |
 | <!-- 20250217124403 --> [winrm](../content/org/sentrysoftware/winrm/README.md) | 1.1.01 :warning: |
 | <!-- 20250214204823 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | 3.1.0 :warning: |
@@ -158,7 +161,6 @@ New Releases To Add
 | <!-- 20241216105905 --> [org.apache.sling.commons.log.webconsole](../content/org/apache/sling/org.apache.sling.commons.log.webconsole/README.md) | 1.0.2 :warning: |
 | <!-- 20241215214119 --> [plexus-utils](../content/org/codehaus/plexus/plexus-utils/README.md) | 4.0.2 :warning: |
 | <!-- 20241215170740 --> [reload4j](../content/ch/qos/reload4j/README.md) | 1.2.26 :warning: |
-| <!-- 20241210081421 --> [io.wcm.handler.link](../content/io/wcm/io.wcm.handler/link/README.md) | 2.2.4 :warning: |
 | <!-- 20241207223709 --> [royale-typedefs-parent](../content/org/apache/royale/typedefs/README.md) | 0.9.12 :warning: |
 | <!-- 20241207223516 --> [royale-framework-parent](../content/org/apache/royale/framework/README.md) | 0.9.12 :warning: |
 | <!-- 20241207221427 --> [compiler](../content/org/apache/royale/compiler/README.md) | 0.9.12 :warning: |

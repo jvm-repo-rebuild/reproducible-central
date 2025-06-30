@@ -13,6 +13,7 @@ rebuilding **7 releases** of io.wcm:io.wcm.handler.link:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.2.6](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/2.2.6/pom) | | | |
 | [2.2.4](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/2.2.4/pom) | [mvn jdk17 w](io.wcm.handler.link-2.2.4.buildspec) | [result](io.wcm.handler.link-2.2.4.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.handler.link-2.2.4.buildcompare) | - | 364K |
 | [2.2.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/2.2.2/pom) | [mvn jdk17 w](io.wcm.handler.link-2.2.2.buildspec) | [result](io.wcm.handler.link-2.2.2.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.handler.link-2.2.2.buildcompare) | - | 364K |
 | [2.2.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/2.2.0/pom) | | | |
