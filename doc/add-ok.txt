@@ -1,4 +1,5 @@
-content/com/github/hazendaz/javabean-tester/javabean-tester-2.9.0.buildspec:2.10.0
 content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec:2.3.7
+content/io/avaje/inject/avaje-inject-11.6-RC4.buildspec:11.6-RC5
 content/io/avaje/jsonb/avaje-jsonb-3.5-RC2.buildspec:3.5
 content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.8.2.buildspec:4.9.0
+content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.9.buildspec:2.0.10
