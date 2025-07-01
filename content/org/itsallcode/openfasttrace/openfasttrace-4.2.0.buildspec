@@ -1,0 +1,19 @@
+groupId=org.itsallcode.openfasttrace
+artifactId=openfasttrace
+display=${groupId}:${artifactId}
+version=4.2.0
+
+gitRepo=https://github.com/itsallcode/openfasttrace.git
+gitTag=${version}
+
+tool=mvn-3.9.11
+jdk=17
+newline=lf
+#umask=022
+
+command="mvn package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.detect.skip=false -Dbuildinfo.skipModules='*/*-root,*/*-parent,*/*-testutil'"
+execBefore="mvn clean"
+buildinfo=product/target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
