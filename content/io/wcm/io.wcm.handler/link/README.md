@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/wcm-io/io.wcm.handler.link.git](https://github.com/wcm-io/io.wcm.handler.link.git)
 
-rebuilding **7 releases** of io.wcm:io.wcm.handler.link:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of io.wcm:io.wcm.handler.link:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.2.6](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/2.2.6/pom) | | | |
+| [2.2.6](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/2.2.6/pom) | [mvn jdk21 w](io.wcm.handler.link-2.2.6.buildspec) | [result](io.wcm.handler.link-2.2.6.buildinfo): [3 :white_check_mark: ](io.wcm.handler.link-2.2.6.buildcompare) | | 197K |
 | [2.2.4](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/2.2.4/pom) | [mvn jdk17 w](io.wcm.handler.link-2.2.4.buildspec) | [result](io.wcm.handler.link-2.2.4.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.handler.link-2.2.4.buildcompare) | - | 364K |
 | [2.2.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/2.2.2/pom) | [mvn jdk17 w](io.wcm.handler.link-2.2.2.buildspec) | [result](io.wcm.handler.link-2.2.2.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.handler.link-2.2.2.buildcompare) | - | 364K |
 | [2.2.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/2.2.0/pom) | | | |
