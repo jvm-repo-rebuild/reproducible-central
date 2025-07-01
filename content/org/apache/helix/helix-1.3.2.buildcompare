@@ -1,0 +1,9 @@
+version=1.3.2
+ok=46
+ko=0
+ignored=0
+okFiles="helix-1.3.2.pom helix-1.3.2-source-release.zip metrics-common-1.3.2.pom metrics-common-1.3.2.jar metrics-common-1.3.2-pkg.tar metrics-common-1.3.2-sources.jar metadata-store-directory-common-1.3.2.pom metadata-store-directory-common-1.3.2.jar metadata-store-directory-common-1.3.2-pkg.tar metadata-store-directory-common-1.3.2-sources.jar zookeeper-api-1.3.2.pom zookeeper-api-1.3.2.jar zookeeper-api-1.3.2-pkg.tar zookeeper-api-1.3.2-sources.jar helix-common-1.3.2.pom helix-common-1.3.2.jar helix-common-1.3.2-pkg.tar helix-common-1.3.2-sources.jar helix-core-1.3.2.pom helix-core-1.3.2.jar helix-core-1.3.2-tests.jar helix-core-1.3.2-pkg.tar helix-core-1.3.2-sources.jar helix-admin-webapp-1.3.2.pom helix-admin-webapp-1.3.2.jar helix-admin-webapp-1.3.2-pkg.tar helix-admin-webapp-1.3.2-sources.jar helix-rest-1.3.2.pom helix-rest-1.3.2.jar helix-rest-1.3.2-pkg.tar helix-rest-1.3.2-sources.jar helix-lock-1.3.2.pom helix-lock-1.3.2.jar helix-lock-1.3.2-pkg.tar helix-lock-1.3.2-sources.jar helix-agent-1.3.2.pom helix-agent-1.3.2.jar helix-agent-1.3.2-pkg.tar helix-agent-1.3.2-sources.jar helix-view-aggregator-1.3.2.pom helix-view-aggregator-1.3.2.jar helix-view-aggregator-1.3.2-pkg.tar helix-view-aggregator-1.3.2-sources.jar meta-client-1.3.2.pom meta-client-1.3.2.jar meta-client-1.3.2-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
