@@ -8,3 +8,7 @@ ignoredFiles=""
 reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
 # diffoscope target/reference/org.jpmml/pmml-statsmodels-1.1.1-sources.jar pmml-statsmodels/target/pmml-statsmodels-1.1.1-sources.jar
+stabilize_ok=1
+stabilize_ko=0
+stabilize_okFiles="pmml-statsmodels-1.1.1-sources.jar.stabilized "
+stabilize_koFiles=""
