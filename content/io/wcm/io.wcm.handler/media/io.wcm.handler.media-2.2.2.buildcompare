@@ -9,3 +9,7 @@ reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Windows (from pom.properties newline)"
 # diffoscope target/reference/io.wcm/io.wcm.handler.media-2.2.2-content.zip target/io.wcm.handler.media-2.2.2-content.zip
 # diffoscope target/reference/io.wcm/io.wcm.handler.media-2.2.2-bundle.jar target/io.wcm.handler.media-2.2.2-bundle.jar
+stabilize_ok=1
+stabilize_ko=1
+stabilize_okFiles="io.wcm.handler.media-2.2.2-bundle.jar.stabilized "
+stabilize_koFiles="io.wcm.handler.media-2.2.2-content.zip.stabilized "
