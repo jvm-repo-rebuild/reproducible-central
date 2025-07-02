@@ -7,9 +7,9 @@
 
 Source code: [https://github.com/wcm-io/io.wcm.handler.media.git](https://github.com/wcm-io/io.wcm.handler.media.git)
 
-rebuilding **20 releases** of io.wcm:io.wcm.handler.media:
+rebuilding **25 releases** of io.wcm:io.wcm.handler.media:
 - **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 14 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 19 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -25,12 +25,12 @@ rebuilding **20 releases** of io.wcm:io.wcm.handler.media:
 | [2.0.4](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.0.4/pom) | [mvn jdk17 w](wcm-media-2.0.4.buildspec) | [result](io.wcm.handler.media-2.0.4.buildinfo): [2 :white_check_mark:  3 :warning:](io.wcm.handler.media-2.0.4.buildcompare) | 2 :recycle: 1 :rotating_light: | 3.0M |
 | [2.0.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.0.2/pom) | [mvn jdk11 w](wcm-media-2.0.2.buildspec) | [result](io.wcm.handler.media-2.0.2.buildinfo): [2 :white_check_mark:  3 :warning:](io.wcm.handler.media-2.0.2.buildcompare) | 2 :recycle: 1 :rotating_light: | 3.0M |
 | [2.0.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.0.0/pom) | [mvn jdk11 w](wcm-media-2.0.0.buildspec) | [result](io.wcm.handler.media-2.0.0.buildinfo): [2 :white_check_mark:  3 :warning:](io.wcm.handler.media-2.0.0.buildcompare) | 2 :recycle: 1 :rotating_light: | 2.9M |
-| [1.16.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/1.16.0/pom) | | | |
-| [1.15.8](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/1.15.8/pom) | | | |
-| [1.15.6](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/1.15.6/pom) | [mvn jdk11 w](wcm-media-1.15.6.buildspec) | [result](io.wcm.handler.media-1.15.6.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.handler.media-1.15.6.buildcompare) [:mag:](io.wcm.handler.media-1.15.6.diffoscope) | - | 2.6M |
-| [1.15.4](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/1.15.4/pom) | | | |
-| [1.15.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/1.15.2/pom) | | | |
-| [1.15.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/1.15.0/pom) | | | |
+| [1.16.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/1.16.0/pom) | [mvn jdk11 w](wcm-media-1.16.0.buildspec) | [result](io.wcm.handler.media-1.16.0.buildinfo): [2 :white_check_mark:  3 :warning:](io.wcm.handler.media-1.16.0.buildcompare) | 2 :recycle: 1 :rotating_light: | 2.6M |
+| [1.15.8](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/1.15.8/pom) | [mvn jdk11 w](wcm-media-1.15.8.buildspec) | [result](io.wcm.handler.media-1.15.8.buildinfo): [2 :white_check_mark:  3 :warning:](io.wcm.handler.media-1.15.8.buildcompare) | 2 :recycle: 1 :rotating_light: | 2.6M |
+| [1.15.6](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/1.15.6/pom) | [mvn jdk11 w](wcm-media-1.15.6.buildspec) | [result](io.wcm.handler.media-1.15.6.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.handler.media-1.15.6.buildcompare) [:mag:](io.wcm.handler.media-1.15.6.diffoscope) | 1 :recycle: 1 :rotating_light: | 2.6M |
+| [1.15.4](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/1.15.4/pom) | [mvn jdk11 w](wcm-media-1.15.4.buildspec) | [result](io.wcm.handler.media-1.15.4.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.handler.media-1.15.4.buildcompare) | 1 :recycle: 1 :rotating_light: | 961K |
+| [1.15.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/1.15.2/pom) | [mvn jdk11 w](wcm-media-1.15.2.buildspec) | [result](io.wcm.handler.media-1.15.2.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.handler.media-1.15.2.buildcompare) | 1 :recycle: 1 :rotating_light: | 956K |
+| [1.15.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/1.15.0/pom) | [mvn jdk11 w](wcm-media-1.15.0.buildspec) | [result](io.wcm.handler.media-1.15.0.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.handler.media-1.15.0.buildcompare) | 1 :recycle: 1 :rotating_light: | 954K |
 | [1.14.18](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/1.14.18/pom) | | | |
 | [1.14.16](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/1.14.16/pom) | | | |
 | [1.14.14](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/1.14.14/pom) | | | |
