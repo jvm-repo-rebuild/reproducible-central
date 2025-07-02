@@ -1,0 +1,18 @@
+groupId=io.wcm
+artifactId=io.wcm.handler.media
+display=${groupId}:*.handler.media
+version=1.14.12
+
+gitRepo=https://github.com/wcm-io/${artifactId}.git
+gitTag=${version}
+
+tool=mvn-3.9.8
+jdk=11
+newline=crlf-nogit
+
+timestamp="2022-10-10T10:22:22+02:00"
+command="mvn -Pio.wcm clean package -DskipTests -Dmaven.javadoc.skip -Dtimestamp=${timestamp}"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope

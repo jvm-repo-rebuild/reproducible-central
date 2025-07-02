@@ -1,0 +1,15 @@
+version=1.14.10
+ok=3
+ko=2
+ignored=0
+okFiles="io.wcm.handler.media-1.14.10.pom io.wcm.handler.media-1.14.10.jar io.wcm.handler.media-1.14.10-sources.jar"
+koFiles="io.wcm.handler.media-1.14.10-content.zip io.wcm.handler.media-1.14.10-bundle.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/io.wcm/io.wcm.handler.media-1.14.10-content.zip target/io.wcm.handler.media-1.14.10-content.zip
+# diffoscope target/reference/io.wcm/io.wcm.handler.media-1.14.10-bundle.jar target/io.wcm.handler.media-1.14.10-bundle.jar
+stabilize_ok=1
+stabilize_ko=1
+stabilize_okFiles="io.wcm.handler.media-1.14.10-bundle.jar.stabilized "
+stabilize_koFiles="io.wcm.handler.media-1.14.10-content.zip.stabilized "
