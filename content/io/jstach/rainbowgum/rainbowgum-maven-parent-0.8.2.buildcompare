@@ -1,0 +1,67 @@
+version=0.8.2
+ok=0
+ko=52
+ignored=0
+okFiles=""
+koFiles="rainbowgum-maven-parent-0.8.2.pom rainbowgum-annotation-0.8.2.pom rainbowgum-annotation-0.8.2.jar rainbowgum-annotation-0.8.2-sources.jar rainbowgum-apt-0.8.2.pom rainbowgum-apt-0.8.2.jar rainbowgum-apt-0.8.2-sources.jar rainbowgum-core-0.8.2.pom rainbowgum-core-0.8.2.jar rainbowgum-core-0.8.2-sources.jar rainbowgum-slf4j-0.8.2.pom rainbowgum-slf4j-0.8.2.jar rainbowgum-slf4j-0.8.2-sources.jar rainbowgum-systemlogger-0.8.2.pom rainbowgum-systemlogger-0.8.2.jar rainbowgum-systemlogger-0.8.2-sources.jar rainbowgum-jdk-0.8.2.pom rainbowgum-jdk-0.8.2.jar rainbowgum-jdk-0.8.2-sources.jar rainbowgum-pattern-0.8.2.pom rainbowgum-pattern-0.8.2.jar rainbowgum-pattern-0.8.2-sources.jar rainbowgum-jansi-0.8.2.pom rainbowgum-jansi-0.8.2.jar rainbowgum-jansi-0.8.2-sources.jar rainbowgum-json-0.8.2.pom rainbowgum-json-0.8.2.jar rainbowgum-json-0.8.2-sources.jar rainbowgum-0.8.2.pom rainbowgum-0.8.2.jar rainbowgum-0.8.2-sources.jar rainbowgum-disruptor-0.8.2.pom rainbowgum-disruptor-0.8.2.jar rainbowgum-disruptor-0.8.2-sources.jar rainbowgum-avaje-config-0.8.2.pom rainbowgum-avaje-config-0.8.2.jar rainbowgum-avaje-config-0.8.2-sources.jar rainbowgum-rabbitmq-0.8.2.pom rainbowgum-rabbitmq-0.8.2.jar rainbowgum-rabbitmq-0.8.2-sources.jar rainbowgum-spring-parent-0.8.2.pom rainbowgum-spring-boot-0.8.2.pom rainbowgum-spring-boot-0.8.2.jar rainbowgum-spring-boot-0.8.2-sources.jar rainbowgum-spring-boot-starter-0.8.2.pom rainbowgum-spring-boot-starter-0.8.2.jar rainbowgum-spring-boot-starter-0.8.2-sources.jar rainbowgum-etc-0.8.2.pom rainbowgum-tomcat-0.8.2.pom rainbowgum-tomcat-0.8.2.jar rainbowgum-tomcat-0.8.2-sources.jar rainbowgum-maven-last-0.8.2.pom"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-maven-parent-0.8.2.pom pom.xml
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-annotation-0.8.2.pom rainbowgum-annotation/pom.xml
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-annotation-0.8.2.jar rainbowgum-annotation/target/rainbowgum-annotation-0.8.2.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-annotation-0.8.2-sources.jar rainbowgum-annotation/target/rainbowgum-annotation-0.8.2-sources.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-apt-0.8.2.pom rainbowgum-apt/pom.xml
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-apt-0.8.2.jar rainbowgum-apt/target/rainbowgum-apt-0.8.2.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-apt-0.8.2-sources.jar rainbowgum-apt/target/rainbowgum-apt-0.8.2-sources.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-core-0.8.2.pom core/pom.xml
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-core-0.8.2.jar core/target/rainbowgum-core-0.8.2.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-core-0.8.2-sources.jar core/target/rainbowgum-core-0.8.2-sources.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-slf4j-0.8.2.pom rainbowgum-slf4j/pom.xml
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-slf4j-0.8.2.jar rainbowgum-slf4j/target/rainbowgum-slf4j-0.8.2.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-slf4j-0.8.2-sources.jar rainbowgum-slf4j/target/rainbowgum-slf4j-0.8.2-sources.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-systemlogger-0.8.2.pom rainbowgum-systemlogger/pom.xml
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-systemlogger-0.8.2.jar rainbowgum-systemlogger/target/rainbowgum-systemlogger-0.8.2.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-systemlogger-0.8.2-sources.jar rainbowgum-systemlogger/target/rainbowgum-systemlogger-0.8.2-sources.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-jdk-0.8.2.pom rainbowgum-jdk/pom.xml
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-jdk-0.8.2.jar rainbowgum-jdk/target/rainbowgum-jdk-0.8.2.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-jdk-0.8.2-sources.jar rainbowgum-jdk/target/rainbowgum-jdk-0.8.2-sources.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-pattern-0.8.2.pom rainbowgum-pattern/pom.xml
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-pattern-0.8.2.jar rainbowgum-pattern/target/rainbowgum-pattern-0.8.2.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-pattern-0.8.2-sources.jar rainbowgum-pattern/target/rainbowgum-pattern-0.8.2-sources.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-jansi-0.8.2.pom rainbowgum-jansi/pom.xml
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-jansi-0.8.2.jar rainbowgum-jansi/target/rainbowgum-jansi-0.8.2.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-jansi-0.8.2-sources.jar rainbowgum-jansi/target/rainbowgum-jansi-0.8.2-sources.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-json-0.8.2.pom rainbowgum-json/pom.xml
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-json-0.8.2.jar rainbowgum-json/target/rainbowgum-json-0.8.2.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-json-0.8.2-sources.jar rainbowgum-json/target/rainbowgum-json-0.8.2-sources.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-0.8.2.pom rainbowgum/pom.xml
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-0.8.2.jar rainbowgum/target/rainbowgum-0.8.2.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-0.8.2-sources.jar rainbowgum/target/rainbowgum-0.8.2-sources.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-disruptor-0.8.2.pom rainbowgum-disruptor/pom.xml
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-disruptor-0.8.2.jar rainbowgum-disruptor/target/rainbowgum-disruptor-0.8.2.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-disruptor-0.8.2-sources.jar rainbowgum-disruptor/target/rainbowgum-disruptor-0.8.2-sources.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-avaje-config-0.8.2.pom rainbowgum-avaje-config/pom.xml
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-avaje-config-0.8.2.jar rainbowgum-avaje-config/target/rainbowgum-avaje-config-0.8.2.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-avaje-config-0.8.2-sources.jar rainbowgum-avaje-config/target/rainbowgum-avaje-config-0.8.2-sources.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-rabbitmq-0.8.2.pom rainbowgum-rabbitmq/pom.xml
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-rabbitmq-0.8.2.jar rainbowgum-rabbitmq/target/rainbowgum-rabbitmq-0.8.2.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-rabbitmq-0.8.2-sources.jar rainbowgum-rabbitmq/target/rainbowgum-rabbitmq-0.8.2-sources.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-spring-parent-0.8.2.pom spring/pom.xml
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-spring-boot-0.8.2.pom spring/rainbowgum-spring-boot/pom.xml
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-spring-boot-0.8.2.jar spring/rainbowgum-spring-boot/target/rainbowgum-spring-boot-0.8.2.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-spring-boot-0.8.2-sources.jar spring/rainbowgum-spring-boot/target/rainbowgum-spring-boot-0.8.2-sources.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-spring-boot-starter-0.8.2.pom spring/rainbowgum-spring-boot-starter/pom.xml
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-spring-boot-starter-0.8.2.jar spring/rainbowgum-spring-boot-starter/target/rainbowgum-spring-boot-starter-0.8.2.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-spring-boot-starter-0.8.2-sources.jar spring/rainbowgum-spring-boot-starter/target/rainbowgum-spring-boot-starter-0.8.2-sources.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-etc-0.8.2.pom etc/pom.xml
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-tomcat-0.8.2.pom rainbowgum-tomcat/pom.xml
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-tomcat-0.8.2.jar rainbowgum-tomcat/target/rainbowgum-tomcat-0.8.2.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-tomcat-0.8.2-sources.jar rainbowgum-tomcat/target/rainbowgum-tomcat-0.8.2-sources.jar
+# diffoscope target/reference/io.jstach.rainbowgum/rainbowgum-maven-last-0.8.2.pom rainbowgum-maven-last/pom.xml
+stabilize_ok=0
+stabilize_ko=32
+stabilize_ignored=20
+stabilize_okFiles=""
+stabilize_koFiles="rainbowgum-annotation-0.8.2.jar.stabilized rainbowgum-annotation-0.8.2-sources.jar.stabilized rainbowgum-apt-0.8.2.jar.stabilized rainbowgum-apt-0.8.2-sources.jar.stabilized rainbowgum-core-0.8.2.jar.stabilized rainbowgum-core-0.8.2-sources.jar.stabilized rainbowgum-slf4j-0.8.2.jar.stabilized rainbowgum-slf4j-0.8.2-sources.jar.stabilized rainbowgum-systemlogger-0.8.2.jar.stabilized rainbowgum-systemlogger-0.8.2-sources.jar.stabilized rainbowgum-jdk-0.8.2.jar.stabilized rainbowgum-jdk-0.8.2-sources.jar.stabilized rainbowgum-pattern-0.8.2.jar.stabilized rainbowgum-pattern-0.8.2-sources.jar.stabilized rainbowgum-jansi-0.8.2.jar.stabilized rainbowgum-jansi-0.8.2-sources.jar.stabilized rainbowgum-json-0.8.2.jar.stabilized rainbowgum-json-0.8.2-sources.jar.stabilized rainbowgum-0.8.2.jar.stabilized rainbowgum-0.8.2-sources.jar.stabilized rainbowgum-disruptor-0.8.2.jar.stabilized rainbowgum-disruptor-0.8.2-sources.jar.stabilized rainbowgum-avaje-config-0.8.2.jar.stabilized rainbowgum-avaje-config-0.8.2-sources.jar.stabilized rainbowgum-rabbitmq-0.8.2.jar.stabilized rainbowgum-rabbitmq-0.8.2-sources.jar.stabilized rainbowgum-spring-boot-0.8.2.jar.stabilized rainbowgum-spring-boot-0.8.2-sources.jar.stabilized rainbowgum-spring-boot-starter-0.8.2.jar.stabilized rainbowgum-spring-boot-starter-0.8.2-sources.jar.stabilized rainbowgum-tomcat-0.8.2.jar.stabilized rainbowgum-tomcat-0.8.2-sources.jar.stabilized"
+stabilize_ignoredFiles="rainbowgum-maven-parent-0.8.2.pom.stabilized rainbowgum-annotation-0.8.2.pom.stabilized rainbowgum-apt-0.8.2.pom.stabilized rainbowgum-core-0.8.2.pom.stabilized rainbowgum-slf4j-0.8.2.pom.stabilized rainbowgum-systemlogger-0.8.2.pom.stabilized rainbowgum-jdk-0.8.2.pom.stabilized rainbowgum-pattern-0.8.2.pom.stabilized rainbowgum-jansi-0.8.2.pom.stabilized rainbowgum-json-0.8.2.pom.stabilized rainbowgum-0.8.2.pom.stabilized rainbowgum-disruptor-0.8.2.pom.stabilized rainbowgum-avaje-config-0.8.2.pom.stabilized rainbowgum-rabbitmq-0.8.2.pom.stabilized rainbowgum-spring-parent-0.8.2.pom.stabilized rainbowgum-spring-boot-0.8.2.pom.stabilized rainbowgum-spring-boot-starter-0.8.2.pom.stabilized rainbowgum-etc-0.8.2.pom.stabilized rainbowgum-tomcat-0.8.2.pom.stabilized rainbowgum-maven-last-0.8.2.pom.stabilized"

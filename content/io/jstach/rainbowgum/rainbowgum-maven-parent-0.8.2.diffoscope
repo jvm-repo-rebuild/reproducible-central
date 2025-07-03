@@ -1,0 +1,116 @@
+1 / 52 target/reference/io.jstach.rainbowgum/rainbowgum-maven-parent-0.8.2.pom pom.xml
+--- target/reference/io.jstach.rainbowgum/rainbowgum-maven-parent-0.8.2.pom
++++ pom.xml
+│   --- target/reference/io.jstach.rainbowgum/rainbowgum-maven-parent-0.8.2.pom
+├── +++ pom.xml
+│ @@ -833,15 +833,15 @@
+│            </plugin>
+│            <plugin>
+│              <groupId>org.sonatype.plugins</groupId>
+│              <artifactId>nexus-staging-maven-plugin</artifactId>
+│              <extensions>true</extensions>
+│              <configuration>
+│                <serverId>ossrh</serverId>
+│ -              <nexusUrl>https://ossrh-staging-api.central.sonatype.com</nexusUrl>
+│ +              <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
+│                <autoReleaseAfterClose>true</autoReleaseAfterClose>
+│              </configuration>
+│            </plugin>
+│          </plugins>
+│        </build>
+│        <distributionManagement>
+│          <snapshotRepository>
+
+2 / 52 target/reference/io.jstach.rainbowgum/rainbowgum-annotation-0.8.2.pom rainbowgum-annotation/pom.xml
+
+3 / 52 target/reference/io.jstach.rainbowgum/rainbowgum-annotation-0.8.2.jar rainbowgum-annotation/target/rainbowgum-annotation-0.8.2.jar
+--- target/reference/io.jstach.rainbowgum/rainbowgum-annotation-0.8.2.jar
++++ rainbowgum-annotation/target/rainbowgum-annotation-0.8.2.jar
+├── META-INF/maven/io.jstach.rainbowgum/rainbowgum-annotation/pom.xml
+│ ├── META-INF/maven/io.jstach.rainbowgum/rainbowgum-annotation/pom.xml
+│ │ @@ -3,15 +3,14 @@
+│ │    <modelVersion>4.0.0</modelVersion>
+│ │    <parent>
+│ │      <groupId>io.jstach.rainbowgum</groupId>
+│ │      <artifactId>rainbowgum-maven-parent</artifactId>
+│ │      <version>0.8.2</version>
+│ │    </parent>
+│ │    <artifactId>rainbowgum-annotation</artifactId>
+│ │ -  <name>rainbowgum-annotation</name>
+│ │    <properties>
+│ │      <doc.resources>../</doc.resources>
+│ │      <parent.root>${basedir}/..</parent.root>
+│ │      <maven.javadoc.skip>false</maven.javadoc.skip>
+│ │    </properties>
+│ │    <build>
+│ │      <plugins>
+
+4 / 52 target/reference/io.jstach.rainbowgum/rainbowgum-annotation-0.8.2-sources.jar rainbowgum-annotation/target/rainbowgum-annotation-0.8.2-sources.jar
+--- target/reference/io.jstach.rainbowgum/rainbowgum-annotation-0.8.2-sources.jar
++++ rainbowgum-annotation/target/rainbowgum-annotation-0.8.2-sources.jar
+├── META-INF/maven/io.jstach.rainbowgum/rainbowgum-annotation/pom.xml
+│ ├── META-INF/maven/io.jstach.rainbowgum/rainbowgum-annotation/pom.xml
+│ │ @@ -3,15 +3,14 @@
+│ │    <modelVersion>4.0.0</modelVersion>
+│ │    <parent>
+│ │      <groupId>io.jstach.rainbowgum</groupId>
+│ │      <artifactId>rainbowgum-maven-parent</artifactId>
+│ │      <version>0.8.2</version>
+│ │    </parent>
+│ │    <artifactId>rainbowgum-annotation</artifactId>
+│ │ -  <name>rainbowgum-annotation</name>
+│ │    <properties>
+│ │      <doc.resources>../</doc.resources>
+│ │      <parent.root>${basedir}/..</parent.root>
+│ │      <maven.javadoc.skip>false</maven.javadoc.skip>
+│ │    </properties>
+│ │    <build>
+│ │      <plugins>
+
+5 / 52 target/reference/io.jstach.rainbowgum/rainbowgum-apt-0.8.2.pom rainbowgum-apt/pom.xml
+
+6 / 52 target/reference/io.jstach.rainbowgum/rainbowgum-apt-0.8.2.jar rainbowgum-apt/target/rainbowgum-apt-0.8.2.jar
+--- target/reference/io.jstach.rainbowgum/rainbowgum-apt-0.8.2.jar
++++ rainbowgum-apt/target/rainbowgum-apt-0.8.2.jar
+├── META-INF/maven/io.jstach.rainbowgum/rainbowgum-apt/pom.xml
+│ ├── META-INF/maven/io.jstach.rainbowgum/rainbowgum-apt/pom.xml
+│ │ @@ -3,15 +3,14 @@
+│ │    <modelVersion>4.0.0</modelVersion>
+│ │    <parent>
+│ │      <groupId>io.jstach.rainbowgum</groupId>
+│ │      <artifactId>rainbowgum-maven-parent</artifactId>
+│ │      <version>0.8.2</version>
+│ │    </parent>
+│ │    <artifactId>rainbowgum-apt</artifactId>
+│ │ -  <name>rainbowgum-apt</name>
+│ │    <properties>
+│ │      <doc.resources>../</doc.resources>
+│ │      <parent.root>${basedir}/..</parent.root>
+│ │    </properties>
+│ │    <dependencies>
+│ │      <dependency>
+│ │        <groupId>io.jstach.rainbowgum</groupId>
+
+7 / 52 target/reference/io.jstach.rainbowgum/rainbowgum-apt-0.8.2-sources.jar rainbowgum-apt/target/rainbowgum-apt-0.8.2-sources.jar
+--- target/reference/io.jstach.rainbowgum/rainbowgum-apt-0.8.2-sources.jar
++++ rainbowgum-apt/target/rainbowgum-apt-0.8.2-sources.jar
+├── META-INF/maven/io.jstach.rainbowgum/rainbowgum-apt/pom.xml
+│ ├── META-INF/maven/io.jstach.rainbowgum/rainbowgum-apt/pom.xml
+│ │ @@ -3,15 +3,14 @@
+│ │    <modelVersion>4.0.0</modelVersion>
+│ │    <parent>
+│ │      <groupId>io.jstach.rainbowgum</groupId>
+│ │      <artifactId>rainbowgum-maven-parent</artifactId>
+│ │      <version>0.8.2</version>
+│ │    </parent>
+│ │    <artifactId>rainbowgum-apt</artifactId>
+│ │ -  <name>rainbowgum-apt</name>
+│ │    <properties>
+│ │      <doc.resources>../</doc.resources>
+│ │      <parent.root>${basedir}/..</parent.root>
+│ │    </properties>
+│ │    <dependencies>
+│ │      <dependency>
+│ │        <groupId>io.jstach.rainbowgum</groupId>
+
+...
