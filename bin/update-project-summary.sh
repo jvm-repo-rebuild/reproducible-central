@@ -126,7 +126,7 @@ do
 
       if [ ${ko} -eq 0 ]
       then
-          row+=" |"
+        row+=" |"
       else
         if [ -z "${stabilize_ok}" ]
         then
@@ -140,6 +140,7 @@ do
         else
           row+=" | ${stabilize_ok} :recycle: $((ko - stabilize_ok)) :rotating_light:"
         fi
+        [ -n "${stabilize_ignored}" ] && [ ${stabilize_ignored} -gt 0 ] && row+="${stabilize_ignored} :no_entry_sign:"
       fi
 
       # detect unexpected issue or diffoscope but 0 non-reproducible artifact (probably cause by previous buildspec copy)
@@ -149,6 +150,7 @@ do
       row+=" | $(grep length= ${dir}/${_buildinfo} | cut -d = -f 2 | paste -sd+ - | bc | $numfmt --to=iec) |"
       echo "$row" >> tmp/${projectReadme}
       unset stabilize_ok # to ensure stabilize result is not added to different releases
+      unset stabilize_ignored
     else
       echo "$row:x: | |" >> tmp/${projectReadme}
     fi

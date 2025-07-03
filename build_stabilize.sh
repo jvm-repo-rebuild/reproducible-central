@@ -15,7 +15,6 @@ stabilize () {
   ~/go/bin/stabilize -infile $file -outfile $file.stabilized
   if [ $? -ne 0 ]; then
     echo "Stabilize failed for $file"
-    exit 1
   fi
   sha1sum $file.stabilized
 }
@@ -38,6 +37,8 @@ stabilize_ok=0
 stabilize_ko=0
 stabilize_okFiles=""
 stabilize_koFiles=""
+stabilize_ignored=0
+stabilize_ignoredFiles=0
 basedir="$(dirname ${compare})/${builddir}"
 while read -r line; do
   ((counter++))
@@ -53,20 +54,28 @@ while read -r line; do
   reference_stabilized=$reference.stabilized
   rebuild_stabilized=$rebuild.stabilized
 
-  diff -q ${basedir}/$reference_stabilized ${basedir}/$rebuild_stabilized
-  if [ $? -eq 0 ]
+  if [ ! -f ${basedir}/$reference_stabilized ] && [ ! -f ${basedir}/$rebuild_stabilized ]
   then
-    ((stabilize_ok++))
-    stabilize_okFiles+=$(basename $reference_stabilized)' '
+    ((stabilize_ignored++))
+    stabilize_ignoredFiles+=$(basename $reference_stabilized)' '
   else
-    ((stabilize_ko++))
-    stabilize_koFiles+=$(basename $reference_stabilized)' '
-    echo "# diffoscope $rebuild_stabilized $reference_stabilized"
+    diff -q ${basedir}/$reference_stabilized ${basedir}/$rebuild_stabilized
+    if [ $? -eq 0 ]
+    then
+      ((stabilize_ok++))
+      stabilize_okFiles+=$(basename $reference_stabilized)' '
+    else
+      ((stabilize_ko++))
+      stabilize_koFiles+=$(basename $reference_stabilized)' '
+      echo "# diffoscope $rebuild_stabilized $reference_stabilized"
+    fi
   fi
   echo
 done < <(grep '# diffoscope ' ${compare} | ${sed} -e 's/# diffoscope //')
 
 echo "stabilize_ok=$stabilize_ok
 stabilize_ko=$stabilize_ko
-stabilize_okFiles=\"$stabilize_okFiles\"
-stabilize_koFiles=\"$stabilize_koFiles\"" >> $compare
+stabilize_ignored=$stabilize_ignored
+stabilize_okFiles=\"$( echo $stabilize_okFiles )\"
+stabilize_koFiles=\"$( echo $stabilize_koFiles )\"
+stabilize_ignoredFiles=\"$( echo $stabilize_ignoredFiles )\"" >> $compare
