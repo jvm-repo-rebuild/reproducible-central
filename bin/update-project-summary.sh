@@ -132,7 +132,7 @@ do
           row+=" -"
         else
           [ ${stabilize_ok} -gt 0 ] && row+=" ${stabilize_ok} :recycle:"
-          [ ${stabilize_ko} -gt 0 ] && row+=" ${stabilize_ok} :rotating_light:"
+          [ ${stabilize_ko} -gt 0 ] && row+=" ${stabilize_ko} :rotating_light:"
           [ -n "${stabilize_ignored}" ] && [ ${stabilize_ignored} -gt 0 ] && row+=" ${stabilize_ignored} :no_entry_sign:"
         fi
       fi
