@@ -4,12 +4,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250702192935 --> [airbase](../content/io/airlift/airbase/README.md) | [271](../content/io/airlift/airbase/airbase-271.buildspec) :white_check_mark: | [272](../content/io/airlift/airbase/airbase-272.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-271.buildspec 272` |
+| <!-- 20250703131730 --> [nbbrd-maven-tools](../content/com/github/nbbrd/nbbrd-maven-tools/README.md) | [1.1.0](../content/com/github/nbbrd/nbbrd-maven-tools/nbbrd-maven-tools-1.1.0.buildspec) :white_check_mark: | [1.1.1](../content/com/github/nbbrd/nbbrd-maven-tools/nbbrd-maven-tools-1.1.1.buildspec) | `bin/add-new-release.sh content/com/github/nbbrd/nbbrd-maven-tools/nbbrd-maven-tools-1.1.0.buildspec 1.1.1` |
 | <!-- 20250702142639 --> [rainbowgum-maven-parent](../content/io/jstach/rainbowgum/README.md) | [0.8.1](../content/io/jstach/rainbowgum/rainbowgum-0.8.1.buildspec) :white_check_mark: | [0.8.2](../content/io/jstach/rainbowgum/rainbowgum-0.8.2.buildspec) | `bin/add-new-release.sh content/io/jstach/rainbowgum/rainbowgum-0.8.1.buildspec 0.8.2` |
-| <!-- 20250702104902 --> [jooby](../content/io/jooby/README.md) | [3.9.1](../content/io/jooby/jooby-3.9.1.buildspec) :white_check_mark: | [3.10.0](../content/io/jooby/jooby-3.10.0.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-3.9.1.buildspec 3.10.0` |
-| <!-- 20250702104726 --> [nbbrd-maven-tools](../content/com/github/nbbrd/nbbrd-maven-tools/README.md) | [1.0.3](../content/com/github/nbbrd/nbbrd-maven-tools/nbbrd-maven-tools-1.0.3.buildspec) :white_check_mark: | [1.1.0](../content/com/github/nbbrd/nbbrd-maven-tools/nbbrd-maven-tools-1.1.0.buildspec) | `bin/add-new-release.sh content/com/github/nbbrd/nbbrd-maven-tools/nbbrd-maven-tools-1.0.3.buildspec 1.1.0` |
-| <!-- 20250702073533 --> [enforcer](../content/org/apache/maven/enforcer/README.md) | [3.5.0](../content/org/apache/maven/enforcer/maven-enforcer-plugin-3.5.0.buildspec) :white_check_mark: | [3.6.0](../content/org/apache/maven/enforcer/maven-enforcer-plugin-3.6.0.buildspec) | `bin/add-new-release.sh content/org/apache/maven/enforcer/maven-enforcer-plugin-3.5.0.buildspec 3.6.0` |
-| <!-- 20250702072113 --> [maven-gpg-plugin](../content/org/apache/maven/plugins/maven-gpg-plugin/README.md) | [3.2.7](../content/org/apache/maven/plugins/maven-gpg-plugin/maven-gpg-plugin-3.2.7.buildspec) :white_check_mark: | [3.2.8](../content/org/apache/maven/plugins/maven-gpg-plugin/maven-gpg-plugin-3.2.8.buildspec) | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-gpg-plugin/maven-gpg-plugin-3.2.7.buildspec 3.2.8` |
 | <!-- 20250630222933 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [11.6-RC4](../content/io/avaje/inject/avaje-inject-11.6-RC4.buildspec) :white_check_mark: | [11.6-RC5](../content/io/avaje/inject/avaje-inject-11.6-RC5.buildspec) | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-11.6-RC4.buildspec 11.6-RC5` |
 | <!-- 20250630222933 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [11.6-RC4](../content/io/avaje/inject/avaje-inject-11.6-RC4.buildspec) :white_check_mark: | 11.5-javax  | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-11.6-RC4.buildspec ...` |
 | <!-- 20250630132948 --> [io.wcm.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | [2.5.0](../content/io/wcm/io.wcm.handler/media/wcm-media-2.5.0.buildspec) :white_check_mark: | 1.13.6 1.13.4 1.13.2 1.13.0 1.12.6 1.12.4 1.12.2 1.12.0 1.11.6 1.11.4  | `bin/add-new-release.sh content/io/wcm/io.wcm.handler/media/wcm-media-2.5.0.buildspec ...` |
@@ -35,6 +31,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD STAGING -->
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
+| <!-- 20250612123934 --> [:mailbox:](https://lists.apache.org/list?dev@flink.apache.org:lte=1M:VOTE) | [flink-kubernetes-operator-parent](../content/org/apache/flink/flink-kubernetes-operator/README.md) | [1.12.0](../content/org/apache/flink/flink-kubernetes-operator/flink-kubernetes-operator-1.12.0.buildspec) :warning: | [1.12.1](../content/org/apache/flink/flink-kubernetes-operator/flink-kubernetes-operator-1.12.1.buildspec)  | `bin/add-new-release.sh content/org/apache/flink/flink-kubernetes-operator/flink-kubernetes-operator-1.12.0.buildspec 1.12.1 staging` |
 | <!-- 20250526120145 --> [:mailbox:](https://lists.apache.org/list?dev@tika.apache.org:lte=1M:VOTE) | [tika](../content/org/apache/tika/README.md) | [3.2.0](../content/org/apache/tika/tika-3.2.0.buildspec) :warning: | [3.2.1](../content/org/apache/tika/tika-3.2.1.buildspec)  | `bin/add-new-release.sh content/org/apache/tika/tika-3.2.0.buildspec 3.2.1 staging` |
 | <!-- 20250420081024 --> [:mailbox:](https://lists.apache.org/list?dev@shiro.apache.org:lte=1M:VOTE) | [shiro-root](../content/org/apache/shiro/README.md) | [2.0.4](../content/org/apache/shiro/shiro-2.0.4.buildspec) :white_check_mark: | [2.0.5](../content/org/apache/shiro/shiro-2.0.5.buildspec)  | `bin/add-new-release.sh content/org/apache/shiro/shiro-2.0.4.buildspec 2.0.5 staging` |
 | <!-- 20250218094231 --> [:mailbox:](https://lists.apache.org/list?dev@wayang.apache.org:lte=1M:VOTE) | [wayang](../content/org/apache/wayang/README.md) | [1.0.0](../content/org/apache/wayang/wayang-1.0.0.buildspec) :warning: [:memo:](https://github.com/apache/incubator-wayang/pull/503) | [1.1.0](../content/org/apache/wayang/wayang-1.1.0.buildspec)  | `bin/add-new-release.sh content/org/apache/wayang/wayang-1.0.0.buildspec 1.1.0 staging` |
@@ -47,6 +44,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20250703150605 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | [3.3.1](../content/io/smallrye/jandex/jandex-3.3.1.buildspec) :warning: | [3.3.2](../content/io/smallrye/jandex/jandex-3.3.2.buildspec) | `bin/add-new-release.sh content/io/smallrye/jandex/jandex-3.3.1.buildspec 3.3.2` |
+| <!-- 20250703145821 --> [airbase](../content/io/airlift/airbase/README.md) | [272](../content/io/airlift/airbase/airbase-272.buildspec) :x: | [275](../content/io/airlift/airbase/airbase-275.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-272.buildspec 275` |
+| <!-- 20250702224739 --> [env-config](../content/com/github/sitture/env-config/README.md) | [1.14.0](../content/com/github/sitture/env-config/env-config-1.14.0.buildspec) :x: | [1.15.0](../content/com/github/sitture/env-config/env-config-1.15.0.buildspec) | `bin/add-new-release.sh content/com/github/sitture/env-config/env-config-1.14.0.buildspec 1.15.0` |
 | <!-- 20250702150011 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | [12.1.0.beta0](../content/org/eclipse/jetty/jetty-project/jetty-project-12.1.0.beta0.buildspec) :warning: | [12.1.0.beta1](../content/org/eclipse/jetty/jetty-project/jetty-project-12.1.0.beta1.buildspec) | `bin/add-new-release.sh content/org/eclipse/jetty/jetty-project/jetty-project-12.1.0.beta0.buildspec 12.1.0.beta1` |
 | <!-- 20250702082300 --> [quarkus-project](../content/io/quarkus/README.md) | [3.24.0.CR1](../content/io/quarkus/quarkus-3.24.0.CR1.buildspec) :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | [3.24.2](../content/io/quarkus/quarkus-3.24.2.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.24.0.CR1.buildspec 3.24.2` |
 | <!-- 20250702080353 --> [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | [1.80](../content/org/apache/jackrabbit/oak/jackrabbit-oak-1.80.buildspec) :warning: [:memo:](https://issues.apache.org/jira/browse/OAK-10662) | [1.82.0](../content/org/apache/jackrabbit/oak/jackrabbit-oak-1.82.0.buildspec) | `bin/add-new-release.sh content/org/apache/jackrabbit/oak/jackrabbit-oak-1.80.buildspec 1.82.0` |
@@ -71,6 +71,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20250702104902 --> [jooby](../content/io/jooby/README.md) | 3.10.0 :warning: |
 | <!-- 20250630063427 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | 1.9.13 :warning: |
 | <!-- 20250622062141 --> [activemq-parent](../content/org/apache/activemq/README.md) | 6.1.7 :warning: |
 | <!-- 20250621194142 --> [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | 1.3.2 :warning: |
@@ -92,7 +93,6 @@ New Releases To Add
 | <!-- 20250519085748 --> [org.apache.sling.feature.cpconverter](../content/org/apache/sling/org.apache.sling.feature.cpconverter/README.md) | 1.3.10 :warning: |
 | <!-- 20250519063835 --> [org.apache.sling.distribution.core](../content/org/apache/sling/org.apache.sling.distribution.core/README.md) | 0.7.4 :warning: |
 | <!-- 20250518174221 --> [plotsquared-bukkit](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/README.md) | 7.5.3 :x: |
-| <!-- 20250513092907 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.3.1 :warning: |
 | <!-- 20250512091503 --> [jdplus-benchmarking](../content/eu/europa/ec/joinup/sat/jdplus-benchmarking/README.md) | 2.0.1 :warning: |
 | <!-- 20250509151950 --> [com.io7m.quarrel](../content/com/io7m/quarrel/README.md) | 1.8.0 :warning: |
 | <!-- 20250509125658 --> [org.apache.sling.commons.log](../content/org/apache/sling/org.apache.sling.commons.log/README.md) | 6.0.0 :warning: |
@@ -128,7 +128,6 @@ New Releases To Add
 | <!-- 20250409102346 --> [jdplus-incubator](../content/eu/europa/ec/joinup/sat/jdplus-incubator/README.md) | 2.3.0 :warning: |
 | <!-- 20250406074630 --> [jpmml-converter](../content/org/jpmml/jpmml-converter/README.md) | 1.6.2 :warning: |
 | <!-- 20250405184719 --> [jpmml-evaluator](../content/org/jpmml/jpmml-evaluator/README.md) | 1.7.3 :warning: |
-| <!-- 20250404122404 --> [env-config](../content/com/github/sitture/env-config/README.md) | 1.14.0 :x: |
 | <!-- 20250404112634 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | 1.7.3 :warning: [:memo:](https://github.com/jpmml/jpmml-model/issues/42) |
 | <!-- 20250403121924 --> [winrm-java](../content/org/metricshub/winrm-java/README.md) | 1.1.02 :warning: |
 | <!-- 20250329100934 --> [com.io7m.looseleaf](../content/com/io7m/looseleaf/README.md) | 3.0.0 :warning: [:memo:](https://github.com/mojohaus/buildnumber-maven-plugin/issues/229) |
