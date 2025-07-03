@@ -8,7 +8,7 @@ gitRepo=https://github.com/jstachio/rainbowgum.git
 gitTag=v${version}
 
 tool=mvn-3.9.9
-jdk=21
+jdk=21.0.2
 newline=lf
 #umask=022
 
@@ -16,4 +16,5 @@ command="bin/rebuild.sh"
 
 buildinfo=target/${artifactId}-${version}.buildinfo
 
+diffoscope=${artifactId}-${version}.diffoscope
 issue=
