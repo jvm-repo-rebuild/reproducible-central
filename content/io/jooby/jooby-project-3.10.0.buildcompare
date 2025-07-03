@@ -9,8 +9,8 @@ reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
 # diffoscope target/reference/io.jooby/jooby-bom-3.10.0.pom modules/jooby-bom/pom.xml
 stabilize_ok=0
-stabilize_ko=1
-stabilize_ignored=0
+stabilize_ko=0
+stabilize_ignored=1
 stabilize_okFiles=""
-stabilize_koFiles="jooby-bom-3.10.0.pom.stabilized"
-stabilize_ignoredFiles="0"
+stabilize_koFiles=""
+stabilize_ignoredFiles="jooby-bom-3.10.0.pom.stabilized"

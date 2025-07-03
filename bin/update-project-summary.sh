@@ -124,23 +124,17 @@ do
       [[ -z "${diffoscope}" ]] || row+=" [:mag:](${diffoscope})"
       [[ -z "${issue}" ]] || row+=" [:memo:](${issue})"
 
-      if [ ${ko} -eq 0 ]
+      row+=" |"
+      if [ ${ko} -gt 0 ]
       then
-        row+=" |"
-      else
         if [ -z "${stabilize_ok}" ]
         then
-          row+=" | -"
-        elif [ ${stabilize_ok} -eq ${ko} ]
-        then
-          row+=" | ${stabilize_ok} :recycle:"
-        elif [ ${stabilize_ok} -eq 0 ]
-        then
-          row+=" | $((ko - stabilize_ok)) :rotating_light:"
+          row+=" -"
         else
-          row+=" | ${stabilize_ok} :recycle: $((ko - stabilize_ok)) :rotating_light:"
+          [ ${stabilize_ok} -gt 0 ] && row+=" ${stabilize_ok} :recycle:"
+          [ ${stabilize_ko} -gt 0 ] && row+=" ${stabilize_ok} :rotating_light:"
+          [ -n "${stabilize_ignored}" ] && [ ${stabilize_ignored} -gt 0 ] && row+=" ${stabilize_ignored} :no_entry_sign:"
         fi
-        [ -n "${stabilize_ignored}" ] && [ ${stabilize_ignored} -gt 0 ] && row+="${stabilize_ignored} :no_entry_sign:"
       fi
 
       # detect unexpected issue or diffoscope but 0 non-reproducible artifact (probably cause by previous buildspec copy)

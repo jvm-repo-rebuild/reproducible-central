@@ -38,7 +38,7 @@ stabilize_ko=0
 stabilize_okFiles=""
 stabilize_koFiles=""
 stabilize_ignored=0
-stabilize_ignoredFiles=0
+stabilize_ignoredFiles=""
 basedir="$(dirname ${compare})/${builddir}"
 while read -r line; do
   ((counter++))
@@ -54,7 +54,7 @@ while read -r line; do
   reference_stabilized=$reference.stabilized
   rebuild_stabilized=$rebuild.stabilized
 
-  if [ ! -f ${basedir}/$reference_stabilized ] && [ ! -f ${basedir}/$rebuild_stabilized ]
+  if [ ! -f ${basedir}/$reference_stabilized ] || [ ! -f ${basedir}/$rebuild_stabilized ]
   then
     ((stabilize_ignored++))
     stabilize_ignoredFiles+=$(basename $reference_stabilized)' '
