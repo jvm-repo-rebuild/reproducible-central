@@ -174,7 +174,7 @@ echo >> ${projectReadme}
 echo "stabilizing **$((countVersion - countVersionOk))** releases:" >> ${projectReadme}
 echo "- **${countStabilizeOk}** artifacts were successfully **stabilized** (all unreproducible differences removed :recycle:)" >> ${projectReadme}
 echo "- **${countStabilizeKo}** artifacts were **not stabilized** (some unreproducible differences remain :rotating_light:)" >> ${projectReadme}
-echo "- **${countStabilizeIgnored}** artifacts were ignored as \`stabilize\` threw an exception parsing them (:no_entry_sign:)" >> ${projectReadme}
+echo "- **${countStabilizeIgnored}** artifacts were ignored as \`stabilize\` threw an exception parsing them ( :no_entry_sign: )" >> ${projectReadme}
 echo >> ${projectReadme}
 echo "- **${countStabilizeAnalysisHasntRun}** releases have not been analyzed yet (-)" >> ${projectReadme}
 echo >> ${projectReadme}
