@@ -4,16 +4,14 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250703131730 --> [nbbrd-maven-tools](../content/com/github/nbbrd/nbbrd-maven-tools/README.md) | [1.1.0](../content/com/github/nbbrd/nbbrd-maven-tools/nbbrd-maven-tools-1.1.0.buildspec) :white_check_mark: | [1.1.1](../content/com/github/nbbrd/nbbrd-maven-tools/nbbrd-maven-tools-1.1.1.buildspec) | `bin/add-new-release.sh content/com/github/nbbrd/nbbrd-maven-tools/nbbrd-maven-tools-1.1.0.buildspec 1.1.1` |
-| <!-- 20250702142639 --> [rainbowgum-maven-parent](../content/io/jstach/rainbowgum/README.md) | [0.8.1](../content/io/jstach/rainbowgum/rainbowgum-0.8.1.buildspec) :white_check_mark: | [0.8.2](../content/io/jstach/rainbowgum/rainbowgum-0.8.2.buildspec) | `bin/add-new-release.sh content/io/jstach/rainbowgum/rainbowgum-0.8.1.buildspec 0.8.2` |
-| <!-- 20250630222933 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [11.6-RC4](../content/io/avaje/inject/avaje-inject-11.6-RC4.buildspec) :white_check_mark: | [11.6-RC5](../content/io/avaje/inject/avaje-inject-11.6-RC5.buildspec) | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-11.6-RC4.buildspec 11.6-RC5` |
-| <!-- 20250630222933 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [11.6-RC4](../content/io/avaje/inject/avaje-inject-11.6-RC4.buildspec) :white_check_mark: | 11.5-javax  | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-11.6-RC4.buildspec ...` |
+| <!-- 20250704125502 --> [junit-bom](../content/org/junit/junit5/README.md) | [6.0.0-M1](../content/org/junit/junit5/junit5-6.0.0-M1.buildspec) :white_check_mark: | 5.13.3  | `bin/add-new-release.sh content/org/junit/junit5/junit5-6.0.0-M1.buildspec ...` |
+| <!-- 20250704102537 --> [cui-java-tools](../content/de/cuioss/cui-java-tools/README.md) | [2.3.1](../content/de/cuioss/cui-java-tools/cui-java-tools-2.3.1.buildspec) :white_check_mark: | [2.4.0](../content/de/cuioss/cui-java-tools/cui-java-tools-2.4.0.buildspec) | `bin/add-new-release.sh content/de/cuioss/cui-java-tools/cui-java-tools-2.3.1.buildspec 2.4.0` |
+| <!-- 20250703211937 --> [cui-parent-pom](../content/de/cuioss/cui-parent-pom/README.md) | [1.0.9](../content/de/cuioss/cui-parent-pom/cui-parent-pom-1.0.9.buildspec) :white_check_mark: | [1.1.0](../content/de/cuioss/cui-parent-pom/cui-parent-pom-1.1.0.buildspec) | `bin/add-new-release.sh content/de/cuioss/cui-parent-pom/cui-parent-pom-1.0.9.buildspec 1.1.0` |
+| <!-- 20250630222933 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [11.6-RC5](../content/io/avaje/inject/avaje-inject-11.6-RC5.buildspec) :white_check_mark: | 11.5-javax  | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-11.6-RC5.buildspec ...` |
 | <!-- 20250630132948 --> [io.wcm.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | [2.5.0](../content/io/wcm/io.wcm.handler/media/wcm-media-2.5.0.buildspec) :white_check_mark: | 1.13.6 1.13.4 1.13.2 1.13.0 1.12.6 1.12.4 1.12.2 1.12.0 1.11.6 1.11.4  | `bin/add-new-release.sh content/io/wcm/io.wcm.handler/media/wcm-media-2.5.0.buildspec ...` |
 | <!-- 20250630132948 --> [io.wcm.handler.link](../content/io/wcm/io.wcm.handler/link/README.md) | [2.2.6](../content/io/wcm/io.wcm.handler/link/io.wcm.handler.link-2.2.6.buildspec) :white_check_mark: | 2.2.0 2.1.0 1.10.4 1.10.2 1.10.0 1.9.2 1.9.0 1.8.0 1.7.4 1.7.2 1.7.0 1.6.4  | `bin/add-new-release.sh content/io/wcm/io.wcm.handler/link/io.wcm.handler.link-2.2.6.buildspec ...` |
 | <!-- 20250629014241 --> [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | [4.0.0.Beta1](../content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.0.0.Beta1.buildspec) :white_check_mark: | 3.0.2.Final  | `bin/add-new-release.sh content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.0.0.Beta1.buildspec ...` |
 | <!-- 20250619152553 --> [micronaut-maven-plugin](../content/io/micronaut/maven/micronaut-maven-plugin/README.md) | [4.8.2](../content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.8.2.buildspec) :white_check_mark: | [4.9.0](../content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.9.0.buildspec) | `bin/add-new-release.sh content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.8.2.buildspec 4.9.0` |
-| <!-- 20250527111630 --> [avaje-jsonb-parent](../content/io/avaje/jsonb/README.md) | [3.5-RC2](../content/io/avaje/jsonb/avaje-jsonb-3.5-RC2.buildspec) :white_check_mark: | [3.5](../content/io/avaje/jsonb/avaje-jsonb-3.5.buildspec) | `bin/add-new-release.sh content/io/avaje/jsonb/avaje-jsonb-3.5-RC2.buildspec 3.5` |
-| <!-- 20250419183023 --> [ServerLib](../content/dev/notmyfault/serverlib/ServerLib/README.md) | [2.3.6](../content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec) :white_check_mark: | [2.3.7](../content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.7.buildspec) | `bin/add-new-release.sh content/dev/notmyfault/serverlib/ServerLib/ServerLib-2.3.6.buildspec 2.3.7` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -31,6 +29,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD STAGING -->
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
+| <!-- 20250627055619 --> [:mailbox:](https://lists.apache.org/list?dev@camel.apache.org:lte=1M:VOTE) | [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.13.0](../content/org/apache/camel/camel/camel-4.13.0.buildspec)  | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.13.0 staging` |
 | <!-- 20250612123934 --> [:mailbox:](https://lists.apache.org/list?dev@flink.apache.org:lte=1M:VOTE) | [flink-kubernetes-operator-parent](../content/org/apache/flink/flink-kubernetes-operator/README.md) | [1.12.0](../content/org/apache/flink/flink-kubernetes-operator/flink-kubernetes-operator-1.12.0.buildspec) :warning: | [1.12.1](../content/org/apache/flink/flink-kubernetes-operator/flink-kubernetes-operator-1.12.1.buildspec)  | `bin/add-new-release.sh content/org/apache/flink/flink-kubernetes-operator/flink-kubernetes-operator-1.12.0.buildspec 1.12.1 staging` |
 | <!-- 20250526120145 --> [:mailbox:](https://lists.apache.org/list?dev@tika.apache.org:lte=1M:VOTE) | [tika](../content/org/apache/tika/README.md) | [3.2.0](../content/org/apache/tika/tika-3.2.0.buildspec) :warning: | [3.2.1](../content/org/apache/tika/tika-3.2.1.buildspec)  | `bin/add-new-release.sh content/org/apache/tika/tika-3.2.0.buildspec 3.2.1 staging` |
 | <!-- 20250420081024 --> [:mailbox:](https://lists.apache.org/list?dev@shiro.apache.org:lte=1M:VOTE) | [shiro-root](../content/org/apache/shiro/README.md) | [2.0.4](../content/org/apache/shiro/shiro-2.0.4.buildspec) :white_check_mark: | [2.0.5](../content/org/apache/shiro/shiro-2.0.5.buildspec)  | `bin/add-new-release.sh content/org/apache/shiro/shiro-2.0.4.buildspec 2.0.5 staging` |
@@ -44,8 +43,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250703150605 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | [3.3.1](../content/io/smallrye/jandex/jandex-3.3.1.buildspec) :warning: | [3.3.2](../content/io/smallrye/jandex/jandex-3.3.2.buildspec) | `bin/add-new-release.sh content/io/smallrye/jandex/jandex-3.3.1.buildspec 3.3.2` |
-| <!-- 20250703145821 --> [airbase](../content/io/airlift/airbase/README.md) | [272](../content/io/airlift/airbase/airbase-272.buildspec) :x: | [275](../content/io/airlift/airbase/airbase-275.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-272.buildspec 275` |
+| <!-- 20250704040735 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | [1.7.3](../content/org/jpmml/jpmml-model/jpmml-model-1.7.3.buildspec) :warning: [:memo:](https://github.com/jpmml/jpmml-model/issues/42) | [1.7.4](../content/org/jpmml/jpmml-model/jpmml-model-1.7.4.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-model/jpmml-model-1.7.3.buildspec 1.7.4` |
 | <!-- 20250702224739 --> [env-config](../content/com/github/sitture/env-config/README.md) | [1.14.0](../content/com/github/sitture/env-config/env-config-1.14.0.buildspec) :x: | [1.15.0](../content/com/github/sitture/env-config/env-config-1.15.0.buildspec) | `bin/add-new-release.sh content/com/github/sitture/env-config/env-config-1.14.0.buildspec 1.15.0` |
 | <!-- 20250702150011 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | [12.1.0.beta0](../content/org/eclipse/jetty/jetty-project/jetty-project-12.1.0.beta0.buildspec) :warning: | [12.1.0.beta1](../content/org/eclipse/jetty/jetty-project/jetty-project-12.1.0.beta1.buildspec) | `bin/add-new-release.sh content/org/eclipse/jetty/jetty-project/jetty-project-12.1.0.beta0.buildspec 12.1.0.beta1` |
 | <!-- 20250702082300 --> [quarkus-project](../content/io/quarkus/README.md) | [3.24.0.CR1](../content/io/quarkus/quarkus-3.24.0.CR1.buildspec) :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/44671) | [3.24.2](../content/io/quarkus/quarkus-3.24.2.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.24.0.CR1.buildspec 3.24.2` |
@@ -71,6 +69,8 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20250703150605 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.3.2 :warning: |
+| <!-- 20250702142639 --> [rainbowgum-maven-parent](../content/io/jstach/rainbowgum/README.md) | 0.8.2 :warning: |
 | <!-- 20250702104902 --> [jooby](../content/io/jooby/README.md) | 3.10.0 :warning: |
 | <!-- 20250630063427 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | 1.9.13 :warning: |
 | <!-- 20250622062141 --> [activemq-parent](../content/org/apache/activemq/README.md) | 6.1.7 :warning: |
@@ -117,6 +117,7 @@ New Releases To Add
 | <!-- 20250423122320 --> [turnstile-siteverify-client](../content/net/osslabz/turnstile-siteverify-client/README.md) | 0.4.0 :warning: |
 | <!-- 20250422082642 --> [crypto-commons](../content/net/osslabz/crypto-commons/README.md) | 0.6.4 :warning: [:memo:](https://github.com/osslabz/crypto-commons/pull/54) |
 | <!-- 20250419204402 --> [htmlcompressor](../content/com/github/hazendaz/htmlcompressor/README.md) | 1.11.0 :warning: |
+| <!-- 20250419183023 --> [ServerLib](../content/dev/notmyfault/serverlib/ServerLib/README.md) | 2.3.7 :x: |
 | <!-- 20250418115815 --> [systemds](../content/org/apache/systemds/README.md) | 3.3.0 :warning: [:memo:](https://github.com/apache/systemds/pull/2257) |
 | <!-- 20250417192403 --> [parent](../content/org/phoebus/README.md) | 5.0.0 :warning: [:memo:](https://github.com/ControlSystemStudio/phoebus/pull/3416) |
 | <!-- 20250416123530 --> [commons-jexl3](../content/org/apache/commons/commons-jexl3/README.md) | 3.5.0 :warning: |
@@ -128,7 +129,6 @@ New Releases To Add
 | <!-- 20250409102346 --> [jdplus-incubator](../content/eu/europa/ec/joinup/sat/jdplus-incubator/README.md) | 2.3.0 :warning: |
 | <!-- 20250406074630 --> [jpmml-converter](../content/org/jpmml/jpmml-converter/README.md) | 1.6.2 :warning: |
 | <!-- 20250405184719 --> [jpmml-evaluator](../content/org/jpmml/jpmml-evaluator/README.md) | 1.7.3 :warning: |
-| <!-- 20250404112634 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | 1.7.3 :warning: [:memo:](https://github.com/jpmml/jpmml-model/issues/42) |
 | <!-- 20250403121924 --> [winrm-java](../content/org/metricshub/winrm-java/README.md) | 1.1.02 :warning: |
 | <!-- 20250329100934 --> [com.io7m.looseleaf](../content/com/io7m/looseleaf/README.md) | 3.0.0 :warning: [:memo:](https://github.com/mojohaus/buildnumber-maven-plugin/issues/229) |
 | <!-- 20250325094930 --> [camel-k-runtime-project](../content/org/apache/camel/camel-k-runtime/README.md) | 3.15.3 :warning: |
