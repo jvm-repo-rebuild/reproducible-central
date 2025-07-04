@@ -105,7 +105,7 @@ jobs:
               grep -v okFiles "$buildcompare" >> PRcomment.txt
               echo '```' >> PRcomment.txt
 
-              if [ $(grep "ko=0" PRcomment.txt | wc -l) -eq 0 ]
+              if [ $(grep "^ko=0" PRcomment.txt | wc -l) -eq 0 ]
               then
                 ./build_diffoscope.sh "$buildcompare" buildcache/$artifactId
                 diffoscope="$(dirname $file)/$(basename $buildinfo .buildinfo).diffoscope"
