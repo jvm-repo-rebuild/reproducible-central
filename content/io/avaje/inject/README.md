@@ -18,13 +18,13 @@ Source code: [https://github.com/avaje/avaje-inject.git](https://github.com/avaj
 * [io.avaje:avaje-inject-test](https://central.sonatype.com/artifact/io.avaje/avaje-inject-test/overview)
 </details>
 
-rebuilding **32 releases** of io.avaje:avaje-inject-parent:
-- **28** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **33 releases** of io.avaje:avaje-inject-parent:
+- **29** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [11.6-RC5](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.6-RC5/pom) | | | |
+| [11.6-RC5](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.6-RC5/pom) | [mvn jdk24 w](avaje-inject-11.6-RC5.buildspec) | [result](avaje-inject-parent-11.6-RC5.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-11.6-RC5.buildcompare) | | 802K |
 | [11.6-RC4](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.6-RC4/pom) | [mvn jdk21](avaje-inject-11.6-RC4.buildspec) | [result](avaje-inject-parent-11.6-RC4.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-11.6-RC4.buildcompare) | | 799K |
 | [11.6-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.6-RC3/pom) | [mvn jdk21](avaje-inject-11.6-RC3.buildspec) | [result](avaje-inject-parent-11.6-RC3.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-11.6-RC3.buildcompare) | | 797K |
 | [11.6-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.6-RC2/pom) | [mvn jdk24 w](avaje-inject-11.6-RC2.buildspec) | [result](avaje-inject-parent-11.6-RC2.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-11.6-RC2.buildcompare) | | 789K |
