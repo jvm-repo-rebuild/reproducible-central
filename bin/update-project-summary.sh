@@ -27,6 +27,10 @@ countVersion=0
 countVersionOk=0
 countMissingBuildspec=0
 missingBuildspec=""
+countStabilizeOk=0
+countStabilizeKo=0
+countStabilizeIgnored=0
+countStabilizeAnalysisHasntRun=0
 
 # detect oldest version with buildspec, to stop reporting
 oldestBuildspecVersion=
@@ -130,10 +134,11 @@ do
         if [ -z "${stabilize_ok}" ]
         then
           row+=" -"
+          countStabilizeAnalysisHasntRun=$((countStabilizeAnalysisHasntRun + 1))
         else
-          [ ${stabilize_ok} -gt 0 ] && row+=" ${stabilize_ok} :recycle:"
-          [ ${stabilize_ko} -gt 0 ] && row+=" ${stabilize_ko} :rotating_light:"
-          [ -n "${stabilize_ignored}" ] && [ ${stabilize_ignored} -gt 0 ] && row+=" ${stabilize_ignored} :no_entry_sign:"
+          [ ${stabilize_ok} -gt 0 ] && row+=" ${stabilize_ok} :recycle:" && countStabilizeOk=$((countStabilizeOk + ${stabilize_ok}))
+          [ ${stabilize_ko} -gt 0 ] && row+=" ${stabilize_ko} :rotating_light:" && countStabilizeKo=$((countStabilizeKo + ${stabilize_ko}))
+          [ -n "${stabilize_ignored}" ] && [ ${stabilize_ignored} -gt 0 ] && row+=" ${stabilize_ignored} :no_entry_sign:" && countStabilizeIgnored=$((countStabilizeIgnored + ${stabilize_ignored}))
         fi
       fi
 
@@ -165,6 +170,15 @@ echo "rebuilding **${countVersion} releases** of ${groupId}:${artifactId}:" >> $
 echo "- **${countVersionOk}** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:)," >> ${projectReadme}
 echo "- $((countVersion - countVersionOk)) had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):" >> ${projectReadme}
 echo >> ${projectReadme}
+
+echo "stabilizing **$((countVersion - countVersionOk))** releases:" >> ${projectReadme}
+echo "- **${countStabilizeOk}** artifacts were successfully **stabilized** (all unreproducible differences removed :recycle:)" >> ${projectReadme}
+echo "- **${countStabilizeKo}** artifacts were **not stabilized** (some unreproducible differences remain :rotating_light:)" >> ${projectReadme}
+echo "- **${countStabilizeIgnored}** artifacts were ignored as \`stabilize\` threw an exception parsing them (:no_entry_sign:)" >> ${projectReadme}
+echo >> ${projectReadme}
+echo "- **${countStabilizeAnalysisHasntRun}** releases have not been analyzed yet (-)" >> ${projectReadme}
+echo >> ${projectReadme}
+
 echo "| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |" >> ${projectReadme}
 echo "| -- | --------- | ------ | ------ | -- |" >> ${projectReadme}
 cat tmp/${projectReadme} >> "${projectReadme}"
