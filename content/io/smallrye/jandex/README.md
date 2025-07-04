@@ -16,13 +16,13 @@ Source code: [https://github.com/smallrye/jandex.git](https://github.com/smallry
 * [io.smallrye:jandex-test-data](https://central.sonatype.com/artifact/io.smallrye/jandex-test-data/overview)
 </details>
 
-rebuilding **20 releases** of io.smallrye:jandex-parent:
+rebuilding **21 releases** of io.smallrye:jandex-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 20 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 21 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.3.2](https://central.sonatype.com/artifact/io.smallrye/jandex/3.3.2/pom) | | | |
+| [3.3.2](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.3.2/pom) | [mvn jdk21](jandex-3.3.2.buildspec) | [result](jandex-parent-3.3.2.buildinfo): [10 :white_check_mark:  1 :warning:](jandex-parent-3.3.2.buildcompare) | 1 :recycle: | 767K |
 | [3.3.1](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.3.1/pom) | [mvn jdk21](jandex-3.3.1.buildspec) | [result](jandex-parent-3.3.1.buildinfo): [10 :white_check_mark:  1 :warning:](jandex-parent-3.3.1.buildcompare) | - | 764K |
 | [3.3.0](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.3.0/pom) | [mvn jdk21](jandex-3.3.0.buildspec) | [result](jandex-parent-3.3.0.buildinfo): [10 :white_check_mark:  1 :warning:](jandex-parent-3.3.0.buildcompare) | - | 762K |
 | [3.2.7](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.2.7/pom) | [mvn jdk21](jandex-3.2.7.buildspec) | [result](jandex-parent-3.2.7.buildinfo): [10 :white_check_mark:  1 :warning:](jandex-parent-3.2.7.buildcompare) | - | 760K |
