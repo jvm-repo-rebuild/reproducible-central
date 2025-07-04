@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=cui java tools
+group-id=de.cuioss
+artifact-id=cui-java-tools
+version=2.4.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/cuioss/cui-java-tools.git
+source.scm.tag=2.4.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.7
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.6
+
+# output
+
+outputs.0.groupId=de.cuioss
+outputs.0.filename=cui-java-tools-2.4.0.pom
+outputs.0.length=3247
+outputs.0.checksums.sha512=c1ce85e50b0cde81d9f7c6bfa6abb1c56d42a187c63c4bb0a555a5585d7c7ef229ffe4bc81c3360c0ace047ce31330d23e6305031770ed50a8b869dffa8bc7ab
+
+outputs.1.groupId=de.cuioss
+outputs.1.filename=cui-java-tools-2.4.0.jar
+outputs.1.length=230469
+outputs.1.checksums.sha512=2a5e5c97d481d6c4d743d5eccad73df95646edccb1b15956eb011b2f312b76a11fde8a28779bb2d9dabcfa04b6a175192c40270300c8d5ccb437834c7265dcd7
+
+outputs.2.groupId=de.cuioss
+outputs.2.filename=cui-java-tools-2.4.0-sources.jar
+outputs.2.length=193417
+outputs.2.checksums.sha512=f607277f676a3a4b60a6a9f310075d8539c47b4840b5eb1f554e44117836097557686ac2398f4b59526af185f02527b1fb8e4b7ea067a5c0094054f87885612a
