@@ -24,3 +24,9 @@ reference_os_name="Unix (from pom.properties newline)"
 # diffoscope target/reference/org.jpmml/pmml-model-moxy-1.7.3-sources.jar pmml-model-moxy/target/pmml-model-moxy-1.7.3-sources.jar
 # diffoscope target/reference/org.jpmml/pmml-model-teavm-1.7.3.jar pmml-model-teavm/target/pmml-model-teavm-1.7.3.jar
 # diffoscope target/reference/org.jpmml/pmml-model-teavm-1.7.3-sources.jar pmml-model-teavm/target/pmml-model-teavm-1.7.3-sources.jar
+stabilize_ok=17
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="pmml-agent-1.7.3.jar.stabilized pmml-agent-1.7.3-sources.jar.stabilized pmml-xjc-1.7.3.jar.stabilized pmml-xjc-1.7.3-sources.jar.stabilized pmml-model-1.7.3.jar.stabilized pmml-model-1.7.3-sources.jar.stabilized pmml-model-1.7.3-tests.jar.stabilized pmml-model-jackson-1.7.3.jar.stabilized pmml-model-jackson-1.7.3-sources.jar.stabilized pmml-model-kryo-1.7.3.jar.stabilized pmml-model-kryo-1.7.3-sources.jar.stabilized pmml-model-metro-1.7.3.jar.stabilized pmml-model-metro-1.7.3-sources.jar.stabilized pmml-model-moxy-1.7.3.jar.stabilized pmml-model-moxy-1.7.3-sources.jar.stabilized pmml-model-teavm-1.7.3.jar.stabilized pmml-model-teavm-1.7.3-sources.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""
