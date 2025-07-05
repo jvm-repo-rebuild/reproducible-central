@@ -21,13 +21,13 @@ Source code: [https://github.com/jpmml/jpmml-model.git](https://github.com/jpmml
 * [org.jpmml:pmml-xjc](https://central.sonatype.com/artifact/org.jpmml/pmml-xjc/overview)
 </details>
 
-rebuilding **11 releases** of org.jpmml:jpmml-model:
+rebuilding **12 releases** of org.jpmml:jpmml-model:
 - **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.7.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.7.4/pom) | | | |
+| [1.7.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.7.4/pom) | [mvn jdk11](jpmml-model-1.7.4.buildspec) | [result](jpmml-model-1.7.4.buildinfo): [9 :white_check_mark:  9 :warning:](jpmml-model-1.7.4.buildcompare) [:memo:](https://github.com/jpmml/jpmml-model/issues/42) | 8 :recycle: 1 :rotating_light: | 1.5M |
 | [1.7.3](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.7.3/pom) | [mvn jdk11](jpmml-model-1.7.3.buildspec) | [result](jpmml-model-1.7.3.buildinfo): [9 :white_check_mark:  17 :warning:](jpmml-model-1.7.3.buildcompare) [:memo:](https://github.com/jpmml/jpmml-model/issues/42) | - | 2.1M |
 | [1.7.2](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.7.2/pom) | [mvn jdk11](jpmml-model-1.7.2.buildspec) | [result](jpmml-model-1.7.2.buildinfo): [9 :white_check_mark:  17 :warning:](jpmml-model-1.7.2.buildcompare) [:memo:](https://github.com/jpmml/jpmml-model/issues/42) | - | 2.1M |
 | [1.7.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-model/1.7.1/pom) | [mvn jdk11](jpmml-model-1.7.1.buildspec) | [result](jpmml-model-1.7.1.buildinfo): [9 :white_check_mark:  17 :warning:](jpmml-model-1.7.1.buildcompare) [:mag:](jpmml-model-1.7.1.diffoscope) [:memo:](https://github.com/jpmml/jpmml-model/issues/42) | - | 2.1M |
