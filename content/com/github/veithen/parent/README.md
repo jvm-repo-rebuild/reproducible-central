@@ -13,6 +13,7 @@ rebuilding **17 releases** of com.github.veithen:parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [54](https://central.sonatype.com/artifact/com.github.veithen/parent/54/pom) | | | |
 | [53](https://central.sonatype.com/artifact/com.github.veithen/parent/53/pom) | [mvn jdk11](veithen-parent-53.buildspec) | [result](parent-53.buildinfo): [1 :white_check_mark: ](parent-53.buildcompare) | | 36K |
 | [52](https://central.sonatype.com/artifact/com.github.veithen/parent/52/pom) | [mvn jdk11](veithen-parent-52.buildspec) | [result](parent-52.buildinfo): [1 :white_check_mark: ](parent-52.buildcompare) | | 35K |
 | [51](https://central.sonatype.com/artifact/com.github.veithen/parent/51/pom) | [mvn jdk11](veithen-parent-51.buildspec) | [result](parent-51.buildinfo): [1 :white_check_mark: ](parent-51.buildcompare) | | 35K |
