@@ -14,7 +14,7 @@ source.scm.tag=1.7.4
 build-tool=mvn
 
 # effective build environment information
-java.version=11.0.27
+java.version=11.0.25
 java.vendor=Ubuntu
 os.name=Linux
 
@@ -40,8 +40,8 @@ outputs.1.0.checksums.sha512=adc0e581eefd6518b38f009951391db547656412584c7cef628
 
 outputs.1.1.groupId=org.jpmml
 outputs.1.1.filename=pmml-agent-1.7.4.jar
-outputs.1.1.length=9720
-outputs.1.1.checksums.sha512=ef1cc434dab0a07df9f4e3756605723c2b40fffd722fa39a6b029aa567065ac0f51150ed8ff456f1fc839ef6f58ac1d7be9b6bbf66744db5baef9f377559cc86
+outputs.1.1.length=9705
+outputs.1.1.checksums.sha512=91002be21310111989bde5d74a91f8be9a84a978c3095c27f2274cbdb96a31b276836fd181e0f5612f488327b170ef2a07106c66122660e826ad91a3e99fcdd0
 
 outputs.2.coordinates=org.jpmml:pmml-xjc
 
