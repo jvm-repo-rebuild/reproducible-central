@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/eclipse/jetty.project.git](https://github.com/eclipse/jetty.project.git)
 
-<details><summary>This project defines 341 modules:</summary>
+<details><summary>This project defines 347 modules:</summary>
 
 * [org.eclipse.jetty.build:build](https://central.sonatype.com/artifact/org.eclipse.jetty.build/build/overview)
 * [org.eclipse.jetty.compression:jetty-compression](https://central.sonatype.com/artifact/org.eclipse.jetty.compression/jetty-compression/overview)
@@ -258,6 +258,9 @@ Source code: [https://github.com/eclipse/jetty.project.git](https://github.com/e
 * [org.eclipse.jetty.ee9:jetty-ee9-servlet](https://central.sonatype.com/artifact/org.eclipse.jetty.ee9/jetty-ee9-servlet/overview)
 * [org.eclipse.jetty.ee9:jetty-ee9-servlets](https://central.sonatype.com/artifact/org.eclipse.jetty.ee9/jetty-ee9-servlets/overview)
 * [org.eclipse.jetty.ee9:jetty-ee9-webapp](https://central.sonatype.com/artifact/org.eclipse.jetty.ee9/jetty-ee9-webapp/overview)
+* [org.eclipse.jetty.ee:jetty-ee](https://central.sonatype.com/artifact/org.eclipse.jetty.ee/jetty-ee/overview)
+* [org.eclipse.jetty.ee:jetty-ee-test-resources](https://central.sonatype.com/artifact/org.eclipse.jetty.ee/jetty-ee-test-resources/overview)
+* [org.eclipse.jetty.ee:jetty-ee-webapp](https://central.sonatype.com/artifact/org.eclipse.jetty.ee/jetty-ee-webapp/overview)
 * [org.eclipse.jetty.fcgi:jetty-fcgi](https://central.sonatype.com/artifact/org.eclipse.jetty.fcgi/jetty-fcgi/overview)
 * [org.eclipse.jetty.fcgi:jetty-fcgi-client](https://central.sonatype.com/artifact/org.eclipse.jetty.fcgi/jetty-fcgi-client/overview)
 * [org.eclipse.jetty.fcgi:jetty-fcgi-proxy](https://central.sonatype.com/artifact/org.eclipse.jetty.fcgi/jetty-fcgi-proxy/overview)
@@ -309,9 +312,11 @@ Source code: [https://github.com/eclipse/jetty.project.git](https://github.com/e
 * [org.eclipse.jetty:jetty-alpn-java-client](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-alpn-java-client/overview)
 * [org.eclipse.jetty:jetty-alpn-java-server](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-alpn-java-server/overview)
 * [org.eclipse.jetty:jetty-alpn-server](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-alpn-server/overview)
+* [org.eclipse.jetty:jetty-annotations](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-annotations/overview)
 * [org.eclipse.jetty:jetty-bom](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-bom/overview)
 * [org.eclipse.jetty:jetty-client](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-client/overview)
 * [org.eclipse.jetty:jetty-core](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-core/overview)
+* [org.eclipse.jetty:jetty-coreapp](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-coreapp/overview)
 * [org.eclipse.jetty:jetty-demos](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-demos/overview)
 * [org.eclipse.jetty:jetty-deploy](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-deploy/overview)
 * [org.eclipse.jetty:jetty-ee](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-ee/overview)
@@ -346,19 +351,20 @@ Source code: [https://github.com/eclipse/jetty.project.git](https://github.com/e
 * [org.eclipse.jetty:jetty-session](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-session/overview)
 * [org.eclipse.jetty:jetty-slf4j-impl](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-slf4j-impl/overview)
 * [org.eclipse.jetty:jetty-start](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-start/overview)
+* [org.eclipse.jetty:jetty-staticapp](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-staticapp/overview)
 * [org.eclipse.jetty:jetty-unixdomain-server](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-unixdomain-server/overview)
 * [org.eclipse.jetty:jetty-util](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-util/overview)
 * [org.eclipse.jetty:jetty-util-ajax](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-util-ajax/overview)
 * [org.eclipse.jetty:jetty-xml](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-xml/overview)
 </details>
 
-rebuilding **26 releases** of org.eclipse.jetty:jetty-project:
+rebuilding **27 releases** of org.eclipse.jetty:jetty-project:
 - **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [12.1.0.beta1](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.beta1/pom) | | | |
+| [12.1.0.beta1](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.beta1/pom) | [mvn jdk22](jetty-project-12.1.0.beta1.buildspec) | [result](jetty-project-12.1.0.beta1.buildinfo): [933 :white_check_mark:  8 :warning:](jetty-project-12.1.0.beta1.buildcompare) | 4 :rotating_light: 4 :no_entry_sign: | 273M |
 | [12.1.0.beta0](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.beta0/pom) | [mvn jdk22](jetty-project-12.1.0.beta0.buildspec) | [result](jetty-project-12.1.0.beta0.buildinfo): [932 :white_check_mark:  10 :warning:](jetty-project-12.1.0.beta0.buildcompare) [:mag:](jetty-project-12.1.0.beta0.diffoscope) | - | 273M |
 | [12.1.0.alpha2](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.alpha2/pom) | [mvn jdk22](jetty-project-12.1.0.alpha2.buildspec) | [result](jetty-project-12.1.0.alpha2.buildinfo): [929 :white_check_mark:  8 :warning:](jetty-project-12.1.0.alpha2.buildcompare) [:mag:](jetty-project-12.1.0.alpha2.diffoscope) | - | 322M |
 | [12.1.0.alpha1](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.alpha1/pom) | [mvn jdk22](jetty-project-12.1.0.alpha1.buildspec) | [result](jetty-project-12.1.0.alpha1.buildinfo): [889 :white_check_mark: ](jetty-project-12.1.0.alpha1.buildcompare) | | 308M |
