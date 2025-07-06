@@ -1,0 +1,101 @@
+1 / 8 central/io/opentelemetry/instrumentation/opentelemetry-ktor-1.0/2.17.0-alpha/opentelemetry-ktor-1.0-2.17.0-alpha-sources.jar repository/io/opentelemetry/instrumentation/opentelemetry-ktor-1.0/2.17.0-alpha/opentelemetry-ktor-1.0-2.17.0-alpha-sources.jar
+--- central/io/opentelemetry/instrumentation/opentelemetry-ktor-1.0/2.17.0-alpha/opentelemetry-ktor-1.0-2.17.0-alpha-sources.jar
++++ repository/io/opentelemetry/instrumentation/opentelemetry-ktor-1.0/2.17.0-alpha/opentelemetry-ktor-1.0-2.17.0-alpha-sources.jar
+├── zipinfo {}
+│ @@ -1,12 +1,13 @@
+│ -Zip file size: 4190 bytes, number of entries: 10
+│ +Zip file size: 4358 bytes, number of entries: 11
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/
+│  -rw-r--r--  2.0 unx       25 b- defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/
+│ -drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/opentelemetry/
+│ -drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/opentelemetry/instrumentation/
+│ -drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/opentelemetry/instrumentation/ktor/
+│ -drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/opentelemetry/instrumentation/ktor/v1_0/
+│ --rw-r--r--  2.0 unx      714 b- defN 80-Feb-01 00:00 io/opentelemetry/instrumentation/ktor/v1_0/ApplicationRequestGetter.kt
+│ --rw-r--r--  2.0 unx     1976 b- defN 80-Feb-01 00:00 io/opentelemetry/instrumentation/ktor/v1_0/KtorHttpServerAttributesGetter.kt
+│ --rw-r--r--  2.0 unx     6264 b- defN 80-Feb-01 00:00 io/opentelemetry/instrumentation/ktor/v1_0/KtorServerTelemetry.kt
+│ -10 files, 8979 bytes uncompressed, 2660 bytes compressed:  70.4%
+│ +drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 main/
+│ +drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 main/io/
+│ +drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 main/io/opentelemetry/
+│ +drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 main/io/opentelemetry/instrumentation/
+│ +drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 main/io/opentelemetry/instrumentation/ktor/
+│ +drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 main/io/opentelemetry/instrumentation/ktor/v1_0/
+│ +-rw-r--r--  2.0 unx      714 b- defN 80-Feb-01 00:00 main/io/opentelemetry/instrumentation/ktor/v1_0/ApplicationRequestGetter.kt
+│ +-rw-r--r--  2.0 unx     1976 b- defN 80-Feb-01 00:00 main/io/opentelemetry/instrumentation/ktor/v1_0/KtorHttpServerAttributesGetter.kt
+│ +-rw-r--r--  2.0 unx     6264 b- defN 80-Feb-01 00:00 main/io/opentelemetry/instrumentation/ktor/v1_0/KtorServerTelemetry.kt
+│ +11 files, 8979 bytes uncompressed, 2662 bytes compressed:  70.4%
+
+# same issue
+2 / 8 central/io/opentelemetry/instrumentation/opentelemetry-ktor-2-common/2.17.0-alpha/opentelemetry-ktor-2-common-2.17.0-alpha-sources.jar repository/io/opentelemetry/instrumentation/opentelemetry-ktor-2-common/2.17.0-alpha/opentelemetry-ktor-2-common-2.17.0-alpha-sources.jar
+3 / 8 central/io/opentelemetry/instrumentation/opentelemetry-ktor-2.0/2.17.0-alpha/opentelemetry-ktor-2.0-2.17.0-alpha-sources.jar repository/io/opentelemetry/instrumentation/opentelemetry-ktor-2.0/2.17.0-alpha/opentelemetry-ktor-2.0-2.17.0-alpha-sources.jar
+4 / 8 central/io/opentelemetry/instrumentation/opentelemetry-ktor-3.0/2.17.0-alpha/opentelemetry-ktor-3.0-2.17.0-alpha-sources.jar repository/io/opentelemetry/instrumentation/opentelemetry-ktor-3.0/2.17.0-alpha/opentelemetry-ktor-3.0-2.17.0-alpha-sources.jar
+5 / 8 central/io/opentelemetry/instrumentation/opentelemetry-ktor-common/2.17.0-alpha/opentelemetry-ktor-common-2.17.0-alpha-sources.jar repository/io/opentelemetry/instrumentation/opentelemetry-ktor-common/2.17.0-alpha/opentelemetry-ktor-common-2.17.0-alpha-sources.jar
+
+# source and jar not available in Maven Central https://repo.maven.apache.org/maven2/io/opentelemetry/javaagent/instrumentation/opentelemetry-javaagent-ktor-3.0/2.17.0-alpha/
+6 / 8 central/io/opentelemetry/javaagent/instrumentation/opentelemetry-javaagent-ktor-3.0/2.17.0-alpha/opentelemetry-javaagent-ktor-3.0-2.17.0-alpha-sources.jar repository/io/opentelemetry/javaagent/instrumentation/opentelemetry-javaagent-ktor-3.0/2.17.0-alpha/opentelemetry-javaagent-ktor-3.0-2.17.0-alpha-sources.jar
+7 / 8 central/io/opentelemetry/javaagent/instrumentation/opentelemetry-javaagent-ktor-3.0/2.17.0-alpha/opentelemetry-javaagent-ktor-3.0-2.17.0-alpha.jar repository/io/opentelemetry/javaagent/instrumentation/opentelemetry-javaagent-ktor-3.0/2.17.0-alpha/opentelemetry-javaagent-ktor-3.0-2.17.0-alpha.jar
+
+8 / 8 central/io/opentelemetry/javaagent/opentelemetry-javaagent/2.17.0/opentelemetry-javaagent-2.17.0-spdx.json repository/io/opentelemetry/javaagent/opentelemetry-javaagent/2.17.0/opentelemetry-javaagent-2.17.0-spdx.json
+--- central/io/opentelemetry/javaagent/opentelemetry-javaagent/2.17.0/opentelemetry-javaagent-2.17.0-spdx.json
++++ repository/io/opentelemetry/javaagent/opentelemetry-javaagent/2.17.0/opentelemetry-javaagent-2.17.0-spdx.json
+├── Pretty-printed
+│┄ Similarity: 0.9296348905723906%
+│┄ Differences: {"'creationInfo'": "{'created': '2025-07-06T07:54:33Z'}",
+│┄  "'documentNamespace'": "'https://opentelemetry.io/spdx/fef48ecf-2e71-43e1-a5b0-dc9e4abd81a0'",
+│┄  "'packages'": "{0: {'sourceInfo': "
+│┄                "'git+https://github.com/null@<no-scm-revision>#javaagent[:javaagent]'}, 1: "
+│┄                "{'sourceInfo': "
+│┄                "'git+https://github.com/null@<no-scm-revision>#javaagent-extension-api[:javaagent-extension-api]'}, "
+│┄                "12: {'sourceInfo': "
+│┄                "'git+https://github.com/ […]
+│ @@ -1,17 +1,17 @@
+│  {
+│      "SPDXID": "SPDXRef-DOCUMENT",
+│      "creationInfo": {
+│ -        "created": "2025-06-20T01:03:10Z",
+│ +        "created": "2025-07-06T07:54:33Z",
+│          "creators": [
+│              "Tool: spdx-gradle-plugin"
+│          ]
+│      },
+│      "dataLicense": "CC0-1.0",
+│ -    "documentNamespace": "https://opentelemetry.io/spdx/aa1c058e-65b0-47a3-b559-df3398b2482b",
+│ +    "documentNamespace": "https://opentelemetry.io/spdx/fef48ecf-2e71-43e1-a5b0-dc9e4abd81a0",
+│      "hasExtractedLicensingInfos": [
+│          {
+│              "extractedText": "BSD-3-Clause",
+│              "licenseId": "LicenseRef-gnrtd0",
+│              "name": "BSD-3-Clause",
+│              "seeAlsos": [
+│                  "http://asm.ow2.io/license.html"
+│ @@ -26,29 +26,29 @@
+│              "description": "OpenTelemetry Javaagent",
+│              "downloadLocation": "NOASSERTION",
+│              "filesAnalyzed": false,
+│              "licenseConcluded": "NOASSERTION",
+│              "licenseDeclared": "NOASSERTION",
+│              "licenseInfoFromFiles": [],
+│              "name": "javaagent",
+│ -            "sourceInfo": "git+https://github.com/open-telemetry/opentelemetry-java-instrumentation@8b91a02b8730702216ae017283f17bf6e9d434b0#javaagent[:javaagent]",
+│ +            "sourceInfo": "git+https://github.com/null@<no-scm-revision>#javaagent[:javaagent]",
+│              "supplier": "NOASSERTION",
+│              "versionInfo": "2.17.0"
+│          },
+│          {
+│              "SPDXID": "SPDXRef-gnrtd1",
+│              "copyrightText": "NOASSERTION",
+│              "description": "",
+│              "downloadLocation": "NOASSERTION",
+│              "filesAnalyzed": false,
+│              "licenseConcluded": "NOASSERTION",
+│              "licenseDeclared": "NOASSERTION",
+│              "licenseInfoFromFiles": [],
+│              "name": "javaagent-extension-api",
+│ -            "sourceInfo": "git+https://github.com/open-telemetry/opentelemetry-java-instrumentation@8b91a02b8730702216ae017283f17bf6e9d434b0#javaagent-extension-api[:javaagent-extension-api]",
+│ +            "sourceInfo": "git+https://github.com/null@<no-scm-revision>#javaagent-extension-api[:javaagent-extension-api]",
+│              "supplier": "NOASSERTION",
+│              "versionInfo": "2.17.0-alpha"
+│          },
+...

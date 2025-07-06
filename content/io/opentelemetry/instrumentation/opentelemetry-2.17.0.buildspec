@@ -14,5 +14,5 @@ workdir="/Users/ltulmin/dev/opentelemetry-java-instrumentation"
 command="./gradlew --no-daemon clean assemble publishToMavenLocal -x test"
 buildinfo=${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=
