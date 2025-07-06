@@ -1,0 +1,18 @@
+groupId=org.apache.drill
+artifactId=drill-root
+version=1.22.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/apache/drill.git
+gitTag=drill-${version}
+
+tool=mvn-3.9.9
+jdk=21
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dlicense.skipAddThirdParty"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
