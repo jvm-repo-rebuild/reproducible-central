@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=hermetic-maven-plugin
+group-id=com.github.veithen.maven
+artifact-id=hermetic-maven-plugin
+version=0.9.0
+
+# source information
+source.scm.uri=scm:git:http://github.com/veithen/hermetic-maven-plugin.git
+source.scm.tag=0.9.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.15
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.github.veithen.maven
+outputs.0.filename=hermetic-maven-plugin-0.9.0.pom
+outputs.0.length=7078
+outputs.0.checksums.sha512=3e8d38156a04c25df8e2c9e7f433c47a323a8f294876bb53506e59e997a95cbebe2a434d8ef2cfee1e9c4849ee0f3e8506c02a80ea285eafbd43f6a867a1209f
+
+outputs.1.groupId=com.github.veithen.maven
+outputs.1.filename=hermetic-maven-plugin-0.9.0.jar
+outputs.1.length=12575
+outputs.1.checksums.sha512=9347e61f023944133d6be1ec420692a325f31467bb5baafd81a8f97916b08e37fdf3d29891b752ca321f7d2eaadf16275727b5a8d8015a224a0a2517856e60b1
+
+outputs.2.groupId=com.github.veithen.maven
+outputs.2.filename=hermetic-maven-plugin-0.9.0-sources.jar
+outputs.2.length=7823
+outputs.2.checksums.sha512=eecaa0d9109c116afc87b95738b4794e3bb9e972e0f125d690a9dfdc12fa9668988d3c6697b97f60b532051b8128422aedc855268568ab47859aa48552ff2891
+
+outputs.3.groupId=com.github.veithen.maven
+outputs.3.filename=hermetic-maven-plugin-0.9.0-source-release.zip
+outputs.3.length=23171
+outputs.3.checksums.sha512=9fe6e4cb9f37b4e7dc9fa40de5a10c3d0351e3e086355204a3916b8ce93439cbcd3fcec5e0686a610b04c15bc565d4cc1142bccd02c6c84052e6a375246c1806
