@@ -14,13 +14,13 @@ Source code: [https://github.com/seregamorph/maven-surefire-cached.git](https://
 * [com.github.seregamorph:surefire-cached-extension](https://central.sonatype.com/artifact/com.github.seregamorph/surefire-cached-extension/overview)
 </details>
 
-rebuilding **7 releases** of com.github.seregamorph:maven-surefire-cached:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of com.github.seregamorph:maven-surefire-cached:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.21](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.21/pom) | | | |
+| [0.21](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.21/pom) | [mvn jdk17](maven-surefire-cached-0.21.buildspec) | [result](maven-surefire-cached-0.21.buildinfo): [7 :white_check_mark: ](maven-surefire-cached-0.21.buildcompare) | | 170K |
 | [0.20](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.20/pom) | [mvn jdk17](maven-surefire-cached-0.20.buildspec) | [result](maven-surefire-cached-0.20.buildinfo): [7 :white_check_mark: ](maven-surefire-cached-0.20.buildcompare) | | 169K |
 | [0.19](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.19/pom) | [mvn jdk17](maven-surefire-cached-0.19.buildspec) | [result](maven-surefire-cached-0.19.buildinfo): [7 :white_check_mark: ](maven-surefire-cached-0.19.buildcompare) | | 165K |
 | [0.18](https://central.sonatype.com/artifact/com.github.seregamorph/maven-surefire-cached/0.18/pom) | [mvn jdk17](maven-surefire-cached-0.18.buildspec) | [result](maven-surefire-cached-0.18.buildinfo): [7 :white_check_mark: ](maven-surefire-cached-0.18.buildcompare) | | 165K |
