@@ -1,0 +1,9 @@
+version=3.3.0
+ok=44
+ko=0
+ignored=0
+okFiles="stormcrawler-3.3.0.pom stormcrawler-3.3.0-source-release.tar.gz stormcrawler-3.3.0-source-release.zip stormcrawler-core-3.3.0.pom stormcrawler-core-3.3.0.jar stormcrawler-core-3.3.0-sources.jar stormcrawler-core-3.3.0-tests.jar stormcrawler-external-3.3.0.pom stormcrawler-aws-3.3.0.pom stormcrawler-aws-3.3.0.jar stormcrawler-aws-3.3.0-sources.jar stormcrawler-langid-3.3.0.pom stormcrawler-langid-3.3.0.jar stormcrawler-langid-3.3.0-sources.jar stormcrawler-opensearch-3.3.0.pom stormcrawler-opensearch-3.3.0.jar stormcrawler-opensearch-3.3.0-sources.jar stormcrawler-playwright-3.3.0.pom stormcrawler-playwright-3.3.0.jar stormcrawler-playwright-3.3.0-sources.jar stormcrawler-solr-3.3.0.pom stormcrawler-solr-3.3.0.jar stormcrawler-solr-3.3.0-sources.jar stormcrawler-sql-3.3.0.pom stormcrawler-sql-3.3.0.jar stormcrawler-sql-3.3.0-sources.jar stormcrawler-tika-3.3.0.pom stormcrawler-tika-3.3.0.jar stormcrawler-tika-3.3.0-sources.jar stormcrawler-urlfrontier-3.3.0.pom stormcrawler-urlfrontier-3.3.0.jar stormcrawler-urlfrontier-3.3.0-sources.jar stormcrawler-warc-3.3.0.pom stormcrawler-warc-3.3.0.jar stormcrawler-warc-3.3.0-sources.jar stormcrawler-archetype-3.3.0.pom stormcrawler-archetype-3.3.0.jar stormcrawler-archetype-3.3.0-sources.jar stormcrawler-opensearch-archetype-3.3.0.pom stormcrawler-opensearch-archetype-3.3.0.jar stormcrawler-opensearch-archetype-3.3.0-sources.jar stormcrawler-solr-archetype-3.3.0.pom stormcrawler-solr-archetype-3.3.0.jar stormcrawler-solr-archetype-3.3.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
