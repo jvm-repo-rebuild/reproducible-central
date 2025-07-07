@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=avaje-applog
+group-id=io.avaje
+artifact-id=avaje-applog
+version=1.2
+
+# source information
+source.scm.uri=null
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.7
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=io.avaje
+outputs.0.filename=avaje-applog-1.2.pom
+outputs.0.length=1047
+outputs.0.checksums.sha512=79308e3b2e8085940b45cc6f734d1c336e1a71442901f0cd668e0b650800aca7d33f1250df59a51b1b216e64f4942c432f822ff20836e3b8c50feeaba8456a69
+
+outputs.1.groupId=io.avaje
+outputs.1.filename=avaje-applog-1.2.jar
+outputs.1.length=3754
+outputs.1.checksums.sha512=236d58fa454c1477967cb1110bbb5de2ff9e22be388e82517272073322cb00553c546aa8781ece2fb63e3a92601386a8645743a14f0ab717c9aef85ec340217f
+
+outputs.2.groupId=io.avaje
+outputs.2.filename=avaje-applog-1.2-sources.jar
+outputs.2.length=4403
+outputs.2.checksums.sha512=5997e36549bba8397fa3815018f152fefbb1f24eec18c030058d118657f70183aa3c11141435ac2f243556d78bd2a28cde065d50adc2c430dd75593c2e5ce4bb
