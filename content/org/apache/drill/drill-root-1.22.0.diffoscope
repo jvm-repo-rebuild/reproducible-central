@@ -1,0 +1,1581 @@
+1 / 12 target/reference/org.apache.drill/drill-root-1.22.0.zip target/apache-drill-1.22.0-src.zip
+--- target/reference/org.apache.drill/drill-root-1.22.0.zip
++++ target/apache-drill-1.22.0-src.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 22550165 bytes, number of entries: 8511
+│ +Zip file size: 22546162 bytes, number of entries: 8499
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 apache-drill-1.22.0-src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 apache-drill-1.22.0-src/.mvn/
+│ @@ -994,23 +994,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 apache-drill-1.22.0-src/drill-yarn/src/test/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 apache-drill-1.22.0-src/exec/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 apache-drill-1.22.0-src/exec/java-exec/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 apache-drill-1.22.0-src/exec/java-exec/1723704942883-0/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 apache-drill-1.22.0-src/exec/java-exec/1723704944644-0/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 apache-drill-1.22.0-src/exec/java-exec/1723704945691-0/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 apache-drill-1.22.0-src/exec/java-exec/1723711370159-0/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 apache-drill-1.22.0-src/exec/java-exec/1723711372033-0/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 apache-drill-1.22.0-src/exec/java-exec/1723711372914-0/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 apache-drill-1.22.0-src/exec/java-exec/1725091517476-0/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 apache-drill-1.22.0-src/exec/java-exec/1725091519162-0/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 apache-drill-1.22.0-src/exec/java-exec/1725091519955-0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 apache-drill-1.22.0-src/exec/java-exec/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 apache-drill-1.22.0-src/exec/java-exec/src/main/
+│ @@ -1984,15 +1975,14 @@
+│  -rw-r--r--  2.0 unx      520 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/.gitignore
+│  -rw-r--r--  2.0 unx     1242 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/.mvn/extensions.xml
+│ --rw-r--r--  2.0 unx        5 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/.mvn/maven.config
+│  -rw-r--r--  2.0 unx     2741 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/Dockerfile
+│  -rw-r--r--  2.0 unx      751 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/HEADER-2.0.txt
+│ @@ -2900,15 +2890,14 @@
+│  -rw-r--r--  2.0 unx      554 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/contrib/storage-hbase/src/test/resources/hbase/hbase_scan_screen_physical_family_select.json
+│  -rw-r--r--  2.0 unx     5164 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/contrib/storage-hbase/src/test/resources/hbase-site.xml
+│ --rw-r--r--  2.0 unx     4203 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/contrib/storage-hive/core/derby.log
+│  -rw-r--r--  2.0 unx    10819 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/contrib/storage-hive/core/pom.xml
+│  -rw-r--r--  2.0 unx     9578 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/contrib/storage-hive/core/scrMapr/main/java/org/apache/drill/exec/planner/sql/logical/ConvertHiveMapRDBJsonScanToDrillMapRDBJsonScan.java
+│ @@ -3503,15 +3492,15 @@
+│  -rw-r--r--  2.0 unx    15915 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/distribution/src/assemble/component.xml
+│  -rw-r--r--  2.0 unx      302 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/distribution/src/deb/control/control
+│ --rw-r--r--  2.0 unx    93573 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/distribution/src/main/resources/LICENSE
+│ +-rw-r--r--  2.0 unx    94619 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/distribution/src/main/resources/LICENSE
+│  -rw-r--r--  2.0 unx      686 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/distribution/src/main/resources/NOTICE
+│  -rw-r--r--  2.0 unx     1301 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/distribution/src/main/resources/README.md
+│ @@ -8496,18 +8485,17 @@
+│  -rw-r--r--  2.0 unx    16997 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/src/main/resources/logos/drill-vector-logo.pdf
+│  -rwxr-xr-x  2.0 unx     4857 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/start-build-env.sh
+│ --rw-r-----  2.0 unx    10467 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/tools/fmpp/.factorypath
+│  -rw-r--r--  2.0 unx     3845 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/tools/fmpp/pom.xml
+│  -rw-r--r--  2.0 unx      890 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/tools/fmpp/src/main/java/bsh/EvalError.java
+│  -rw-r--r--  2.0 unx     1014 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/tools/fmpp/src/main/java/bsh/package-info.java
+│  -rw-r--r--  2.0 unx     8458 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/tools/fmpp/src/main/java/org/apache/drill/fmpp/mojo/FMPPMojo.java
+│  -rw-r--r--  2.0 unx     1639 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/tools/fmpp/src/main/java/org/apache/drill/fmpp/mojo/MavenDataLoader.java
+│  -rw-r--r--  2.0 unx     1438 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/tools/pom.xml
+│  -rwxr-xr-x  2.0 unx     1569 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/tools/release-scripts/checksum.sh
+│  -rwxr-xr-x  2.0 unx     6524 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/tools/release-scripts/release.sh
+│  -rw-r--r--  2.0 unx     3608 b- defN 25-Jun-17 07:04 apache-drill-1.22.0-src/DEPENDENCIES
+│ -8511 files, 70946397 bytes uncompressed, 20204189 bytes compressed:  71.5%
+│ +8499 files, 70932768 bytes uncompressed, 20202382 bytes compressed:  71.5%
+├── apache-drill-1.22.0-src/distribution/src/main/resources/LICENSE
+│ @@ -265,14 +265,15 @@
+│      minimal-json (com.eclipsesource.minimal-json:minimal-json:0.9.5 - https://github.com/ralfstx/minimal-json) [MIT License]
+│      parso (com.epam:parso:2.0.14 - https://github.com/epam/parso) [Apache License v2]
+│      Esri Geometry API for Java (com.esri.geometry:esri-geometry-api:2.2.2 - https://github.com/Esri/geometry-api-java) [The Apache Software License, Version 2.0]
+│      Jackson-annotations (com.fasterxml.jackson.core:jackson-annotations:2.18.3 - https://github.com/FasterXML/jackson) [The Apache Software License, Version 2.0]
+│      Jackson-core (com.fasterxml.jackson.core:jackson-core:2.18.3 - https://github.com/FasterXML/jackson-core) [The Apache Software License, Version 2.0]
+│      jackson-databind (com.fasterxml.jackson.core:jackson-databind:2.18.3 - https://github.com/FasterXML/jackson) [The Apache Software License, Version 2.0]
+│      Jackson dataformat: CBOR (com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.18.3 - https://github.com/FasterXML/jackson-dataformats-binary) [The Apache Software License, Version 2.0]
+│ +    Jackson-dataformat-CSV (com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.18.3 - https://github.com/FasterXML/jackson-dataformats-text) [The Apache Software License, Version 2.0]
+│      Jackson-dataformat-YAML (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.18.3 - https://github.com/FasterXML/jackson-dataformats-text) [The Apache Software License, Version 2.0]
+│      Jackson datatype: jdk8 (com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.18.3 - https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jdk8) [The Apache Software License, Version 2.0]
+│      Jackson datatype: Joda (com.fasterxml.jackson.datatype:jackson-datatype-joda:2.18.3 - https://github.com/FasterXML/jackson-datatype-joda) [The Apache Software License, Version 2.0]
+│      Jackson datatype: JSR310 (com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.18.3 - https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jsr310) [The Apache Software License, Version 2.0]
+│      Jackson-JAXRS: base (com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.18.3 - https://github.com/FasterXML/jackson-jaxrs-providers/jackson-jaxrs-base) [The Apache Software License, Version 2.0]
+│      Jackson-JAXRS: JSON (com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.18.3 - https://github.com/FasterXML/jackson-jaxrs-providers/jackson-jaxrs-json-provider) [The Apache Software License, Version 2.0]
+│      Jackson module: Afterburner (com.fasterxml.jackson.module:jackson-module-afterburner:2.18.3 - https://github.com/FasterXML/jackson-modules-base) [The Apache Software License, Version 2.0]
+│ @@ -340,14 +341,15 @@
+│      Oracle Cloud Infrastructure SDK - Circuit Breaker (com.oracle.oci.sdk:oci-java-sdk-circuitbreaker:2.13.0 - https://docs.cloud.oracle.com/Content/API/SDKDocs/javasdk.htm) [Apache License 2.0][The Universal Permissive License (UPL), Version 1.0]
+│      Oracle Cloud Infrastructure SDK - Common (com.oracle.oci.sdk:oci-java-sdk-common:2.13.0 - https://docs.cloud.oracle.com/Content/API/SDKDocs/javasdk.htm) [Apache License 2.0][The Universal Permissive License (UPL), Version 1.0]
+│      Oracle Cloud Infrastructure SDK - Object Storage (com.oracle.oci.sdk:oci-java-sdk-objectstorage:2.13.0 - https://docs.cloud.oracle.com/Content/API/SDKDocs/javasdk.htm) [Apache License 2.0][The Universal Permissive License (UPL), Version 1.0]
+│      Oracle Cloud Infrastructure SDK - Object Storage - Extensions (com.oracle.oci.sdk:oci-java-sdk-objectstorage-extensions:2.13.0 - https://docs.cloud.oracle.com/Content/API/SDKDocs/javasdk.htm) [Apache License 2.0][The Universal Permissive License (UPL), Version 1.0]
+│      Oracle Cloud Infrastructure SDK - Object Storage - Generated (com.oracle.oci.sdk:oci-java-sdk-objectstorage-generated:2.13.0 - https://docs.cloud.oracle.com/Content/API/SDKDocs/javasdk.htm) [Apache License 2.0][The Universal Permissive License (UPL), Version 1.0]
+│      Java driver for Scylla and Apache Cassandra(R) - core with shaded deps (com.scylladb:java-driver-core-shaded:4.13.0.0 - https://github.com/scylladb/java-driver/java-driver-core-shaded) [Apache 2]
+│      Java Driver for Scylla and Apache Cassandra - Core (com.scylladb:scylla-driver-core:3.11.2.0 - https://github.com/scylladb/java-driver/scylla-driver-core) [Apache 2]
+│ +    splunk (com.splunk:splunk:1.9.5 - no url defined) [Apache 2.0]
+│      okhttp (com.squareup.okhttp3:okhttp:4.9.3 - https://square.github.io/okhttp/) [The Apache Software License, Version 2.0]
+│      Okio (com.squareup.okio:okio:2.8.0 - https://github.com/square/okio/) [The Apache Software License, Version 2.0]
+│      Converter: Jackson (com.squareup.retrofit2:converter-jackson:2.8.1 - https://github.com/square/retrofit/retrofit-converters/converter-jackson/) [Apache 2.0]
+│      Retrofit (com.squareup.retrofit2:retrofit:2.8.1 - https://github.com/square/retrofit/retrofit/) [Apache 2.0]
+│      SUAsync Library (com.stumbleupon:async:1.4.1 - https://github.com/stumbleupon/async) [BSD]
+│      Codemodel Core (com.sun.codemodel:codemodel:2.6 - http://codemodel.java.net/codemodel/) [CDDL v1.1 / GPL v2 dual license]
+│      jersey-servlet (com.sun.jersey:jersey-servlet:1.19.4 - https://jersey.java.net/jersey-servlet/) [CDDL 1.1][GPL2 w/ CPE]
+│ @@ -371,14 +373,20 @@
+│      Commons Lang (commons-lang:commons-lang:2.6 - http://commons.apache.org/lang/) [The Apache Software License, Version 2.0]
+│      Apache Commons Net (commons-net:commons-net:3.9.0 - https://commons.apache.org/proper/commons-net/) [Apache License, Version 2.0]
+│      Commons Pool (commons-pool:commons-pool:1.6 - http://commons.apache.org/pool/) [The Apache Software License, Version 2.0]
+│      Apache Commons Validator (commons-validator:commons-validator:1.7 - http://commons.apache.org/proper/commons-validator/) [Apache License, Version 2.0]
+│      dnsjava (dnsjava:dnsjava:3.6.0 - https://github.com/dnsjava/dnsjava) [BSD-3-Clause]
+│      pcapng-parser (fr.bmartel:pcapngdecoder:1.2 - https://github.com/bertrandmartel/pcapng-decoder) [The MIT License]
+│      aircompressor (io.airlift:aircompressor:0.25 - http://github.com/airlift/aircompressor) [Apache License 2.0]
+│ +    common-utils (io.confluent:common-utils:7.9.0 - no url defined) [Unknown license]
+│ +    kafka-avro-serializer (io.confluent:kafka-avro-serializer:7.9.0 - no url defined) [Unknown license]
+│ +    kafka-schema-registry-client (io.confluent:kafka-schema-registry-client:7.9.0 - no url defined) [Unknown license]
+│ +    kafka-schema-serializer (io.confluent:kafka-schema-serializer:7.9.0 - no url defined) [Unknown license]
+│ +    Log Redactor (io.confluent:logredactor:1.0.12 - https://github.com/confluentinc/logredactor) [The Apache Software License, Version 2.0]
+│ +    Log Redactor Metrics (io.confluent:logredactor-metrics:1.0.12 - https://github.com/confluentinc/logredactor) [The Apache Software License, Version 2.0]
+│      delta-standalone (io.delta:delta-standalone_2.13:3.0.0 - https://delta.io/) [Apache-2.0]
+│      delta-storage (io.delta:delta-storage:3.0.0 - https://delta.io/) [Apache-2.0]
+│      Metrics Core (io.dropwizard.metrics:metrics-core:4.2.19 - https://metrics.dropwizard.io/metrics-core) [Apache License 2.0]
+│      Metrics Health Checks (io.dropwizard.metrics:metrics-healthchecks:4.2.19 - https://metrics.dropwizard.io/metrics-healthchecks) [Apache License 2.0]
+│      Metrics Integration with JMX (io.dropwizard.metrics:metrics-jmx:4.2.19 - https://metrics.dropwizard.io/metrics-jmx) [Apache License 2.0]
+│      Jackson Integration for Metrics (io.dropwizard.metrics:metrics-json:4.2.19 - https://metrics.dropwizard.io/metrics-json) [Apache License 2.0]
+│      JVM Integration for Metrics (io.dropwizard.metrics:metrics-jvm:4.2.19 - https://metrics.dropwizard.io/metrics-jvm) [Apache License 2.0]
+│ @@ -439,14 +447,15 @@
+│      Joda-Time (joda-time:joda-time:2.12.5 - https://www.joda.org/joda-time/) [Apache License, Version 2.0]
+│      Aggregate Designer Algorithm (net.hydromatic:aggdesigner-algorithm:6.0 - http://github.com/julianhyde/aggdesigner/aggdesigner-algorithm) [The Apache Software License, Version 2.0]
+│      foodmart-data-json (net.hydromatic:foodmart-data-json:0.4 - http://github.com/julianhyde/foodmart-data-json) [The Apache Software License, Version 2.0]
+│      Java Native Access (net.java.dev.jna:jna:5.13.0 - https://github.com/java-native-access/jna) [Apache-2.0][LGPL-2.1-or-later]
+│      ASM based accessors helper used by json-smart (net.minidev:accessors-smart:2.4.7 - https://urielch.github.io/) [The Apache Software License, Version 2.0]
+│      JSON Small and Fast Parser (net.minidev:json-smart:2.4.7 - https://urielch.github.io/) [The Apache Software License, Version 2.0]
+│      JPam (net.sf.jpam:jpam:1.1 - http://jpam.sf.net) [The Apache Software License, Version 2.0]
+│ +    opencsv (net.sf.opencsv:opencsv:2.3 - http://opencsv.sf.net) [Apache 2]
+│      PrefixMap : Implementation (nl.basjes.collections:prefixmap:2.0 - https://github.com/nielsbasjes/prefixmap) [Apache License, Version 2.0]
+│      Parser - Core (nl.basjes.parse:parser-core:5.10.0 - https://github.com/nielsbasjes/logparser/parser-core) [Apache License, Version 2.0]
+│      Parser - Apache HTTPD - Parser (nl.basjes.parse.httpdlog:httpdlog-parser:5.10.0 - https://niels.basjes.nl) [Apache License, Version 2.0]
+│      Yauaa : Analyzer (nl.basjes.parse.useragent:yauaa:7.19.2 - https://yauaa.basjes.nl) [Apache License, Version 2.0]
+│      Yauaa : UDF : Logparser Dissector (nl.basjes.parse.useragent:yauaa-logparser:7.19.2 - https://yauaa.basjes.nl) [Apache License, Version 2.0]
+│      agrona (org.agrona:agrona:1.12.0 - https://github.com/real-logic/agrona) [The Apache License, Version 2.0]
+│      ANTLR 3 Runtime (org.antlr:antlr-runtime:3.5.2 - http://www.antlr.org) [BSD licence]
+
+# same as zip
+2 / 12 target/reference/org.apache.drill/drill-root-1.22.0.tar.gz target/apache-drill-1.22.0-src.tar.gz
+
+# incomplete rebuild? why is help goal (generated) missing?
+3 / 12 target/reference/org.apache.drill.tools/drill-fmpp-maven-plugin-1.22.0.jar tools/fmpp/target/drill-fmpp-maven-plugin-1.22.0.jar
+--- target/reference/org.apache.drill.tools/drill-fmpp-maven-plugin-1.22.0.jar
++++ tools/fmpp/target/drill-fmpp-maven-plugin-1.22.0.jar
+├── zipinfo {}
+│ @@ -1,29 +1,29 @@
+│ -Zip file size: 22624 bytes, number of entries: 27
+│ +Zip file size: 21890 bytes, number of entries: 27
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 META-INF/
+│  -rw-r--r--  2.0 unx      424 b- defN 25-Jun-17 07:04 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 META-INF/maven/
+...
+│  -rw-r--r--  2.0 unx    11358 b- defN 25-Jun-17 07:04 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      180 b- defN 25-Jun-17 07:04 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx     5461 b- defN 25-Jun-17 07:04 META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/plugin-help.xml
+│ --rw-r--r--  2.0 unx    17931 b- defN 25-Jun-17 07:04 META-INF/maven/plugin.xml
+│ +-rw-r--r--  2.0 unx     3147 b- defN 25-Jun-17 07:04 META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/plugin-help.xml
+│ +-rw-r--r--  2.0 unx    15549 b- defN 25-Jun-17 07:04 META-INF/maven/plugin.xml
+│  -rw-r--r--  2.0 unx      267 b- defN 25-Jun-17 07:04 bsh/EvalError.class
+│  -rw-r--r--  2.0 unx      109 b- defN 25-Jun-17 07:04 bsh/package-info.class
+...
+│  -rw-r--r--  2.0 unx       81 b- defN 25-Jun-17 07:04 META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/pom.properties
+│  -rw-r--r--  2.0 unx      283 b- defN 25-Jun-17 07:04 META-INF/INDEX.LIST
+│ -27 files, 67888 bytes uncompressed, 18870 bytes compressed:  72.2%
+│ +27 files, 63192 bytes uncompressed, 18136 bytes compressed:  71.3%
+├── META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/plugin-help.xml
+│ ├── META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/plugin-help.xml
+│ │ @@ -64,61 +64,9 @@
+│ │          <addMavenDataLoader implementation="boolean" default-value="true"/>
+│ │          <config implementation="java.io.File" default-value="src/main/resources/fmpp/config.fmpp"/>
+│ │          <output implementation="java.io.File" default-value="${project.build.directory}/generated-sources/fmpp/"/>
+│ │          <scope implementation="java.lang.String" default-value="compile"/>
+│ │          <templates implementation="java.io.File" default-value="src/main/resources/fmpp/templates/"/>
+│ │        </configuration>
+│ │      </mojo>
+│ │ -    <mojo>
+│ │ -      <goal>help</goal>
+│ │ -      <description>Display help information on drill-fmpp-maven-plugin.
+│ │ -Call mvn drill-fmpp:help -Ddetail=true -Dgoal=&lt;goal-name&gt; to display parameter details.</description>
+│ │ -      <requiresDirectInvocation>false</requiresDirectInvocation>
+...
+│ │ -        <lineLength implementation="int" default-value="80">${lineLength}</lineLength>
+│ │ -      </configuration>
+│ │ -    </mojo>
+│ │    </mojos>
+│ │  </plugin>
+├── META-INF/maven/plugin.xml
+│ ├── META-INF/maven/plugin.xml
+│ │ @@ -75,66 +75,14 @@
+│ │          <config implementation="java.io.File" default-value="src/main/resources/fmpp/config.fmpp"/>
+│ │          <output implementation="java.io.File" default-value="${project.build.directory}/generated-sources/fmpp/"/>
+│ │          <project implementation="org.apache.maven.project.MavenProject" default-value="${project}"/>
+│ │          <scope implementation="java.lang.String" default-value="compile"/>
+│ │          <templates implementation="java.io.File" default-value="src/main/resources/fmpp/templates/"/>
+│ │        </configuration>
+│ │      </mojo>
+│ │ -    <mojo>
+│ │ -      <goal>help</goal>
+│ │ -      <description>Display help information on drill-fmpp-maven-plugin.&lt;br&gt;
+│ │ -Call &lt;code&gt;mvn drill-fmpp:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt;&lt;/code&gt; to display parameter details.</description>
+│ │ -      <requiresDirectInvocation>false</requiresDirectInvocation>
+...
+│ │ -        <lineLength implementation="int" default-value="80">${lineLength}</lineLength>
+│ │ -      </configuration>
+│ │ -    </mojo>
+│ │    </mojos>
+│ │    <dependencies>
+│ │      <dependency>
+│ │        <groupId>commons-io</groupId>
+│ │        <artifactId>commons-io</artifactId>
+│ │        <type>jar</type>
+│ │        <version>2.16.1</version>
+
+4 / 12 target/reference/org.apache.drill/drill-common-1.22.0.jar common/target/drill-common-1.22.0.jar
+--- target/reference/org.apache.drill/drill-common-1.22.0.jar
++++ common/target/drill-common-1.22.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 169066 bytes, number of entries: 137
+│ +Zip file size: 169064 bytes, number of entries: 137
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 META-INF/
+│  -rw-r--r--  2.0 unx      384 b- defN 25-Jun-17 07:04 META-INF/MANIFEST.MF
+│ @@ -21,15 +21,15 @@
+│  -rw-r--r--  2.0 unx    11358 b- defN 25-Jun-17 07:04 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      160 b- defN 25-Jun-17 07:04 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx      886 b- defN 25-Jun-17 07:04 META-INF/drill-module-scan/registry.json
+│ +-rw-r--r--  2.0 unx      858 b- defN 25-Jun-17 07:04 META-INF/drill-module-scan/registry.json
+│  -rw-r--r--  2.0 unx     1114 b- defN 25-Jun-17 07:04 drill-default.conf
+│  -rw-r--r--  2.0 unx     1544 b- defN 25-Jun-17 07:04 drill-module.conf
+│ @@ -132,8 +132,8 @@
+│  -rw-r--r--  2.0 unx       64 b- defN 25-Jun-17 07:04 META-INF/maven/org.apache.drill/drill-common/pom.properties
+│  -rw-r--r--  2.0 unx      701 b- defN 25-Jun-17 07:04 META-INF/INDEX.LIST
+│ -137 files, 347185 bytes uncompressed, 145482 bytes compressed:  58.1%
+│ +137 files, 347157 bytes uncompressed, 145480 bytes compressed:  58.1%
+├── META-INF/drill-module-scan/registry.json
+│ ├── Pretty-printed
+│ │┄ Similarity: 0.975%
+│ │┄ Differences: {"'scannedPackages'": '{delete: [0]}'}
+│ │ @@ -22,13 +22,12 @@
+│ │      "scannedClasses": [
+│ │          "org.apache.drill.common.logical.FormatPluginConfig",
+│ │          "org.apache.drill.common.logical.data.LogicalOperator",
+│ │          "org.apache.drill.common.logical.security.CredentialsProvider",
+│ │          "org.apache.drill.common.logical.StoragePluginConfig"
+│ │      ],
+│ │      "scannedPackages": [
+│ │ -        "org.apache.drill.storage",
+│ │          "org.apache.drill.exec.store.mock",
+│ │          "org.apache.drill.common.logical",
+│ │          "org.apache.drill.storage"
+│ │      ]
+│ │  }
+
+5 / 12 target/reference/org.apache.drill/drill-logical-1.22.0.jar logical/target/drill-logical-1.22.0.jar
+--- target/reference/org.apache.drill/drill-logical-1.22.0.jar
++++ logical/target/drill-logical-1.22.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 326614 bytes, number of entries: 255
+│ +Zip file size: 326616 bytes, number of entries: 255
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 META-INF/
+│  -rw-r--r--  2.0 unx      396 b- defN 25-Jun-17 07:04 META-INF/MANIFEST.MF
+│ @@ -250,8 +250,8 @@
+│  -rw-r--r--  2.0 unx       65 b- defN 25-Jun-17 07:04 META-INF/maven/org.apache.drill/drill-logical/pom.properties
+│  -rw-r--r--  2.0 unx      779 b- defN 25-Jun-17 07:04 META-INF/INDEX.LIST
+│ -255 files, 822926 bytes uncompressed, 277528 bytes compressed:  66.3%
+│ +255 files, 822926 bytes uncompressed, 277530 bytes compressed:  66.3%
+├── META-INF/drill-module-scan/registry.json
+│ ├── Pretty-printed
+│ │┄ Similarity: 0.9980064655172413%
+│ │┄ Differences: {"'implementations'": "{0: {'children': {0: {'name': "
+│ │┄                       "'org.apache.drill.common.logical.data.RunningAggregate'}, 1: {'name': "
+│ │┄                       "'org.apache.drill.common.logical.data.Except'}, 2: {'name': "
+│ │┄                       "'org.apache.drill.common.logical.data.Store'}, 3: {'name': "
+│ │┄                       "'org.apache.drill.common.logical.data.Order'}, 4: {'name': "
+│ │┄                       "'org.apache.drill.common.logical.data.Filter'}, 5: {'name': "
+│ │┄                       "' […]
+│ │ @@ -1,127 +1,127 @@
+│ │  {
+│ │      "annotatedClasses": [],
+│ │      "implementations": [
+│ │          {
+│ │              "children": [
+│ │                  {
+│ │                      "abstract": false,
+│ │ -                    "name": "org.apache.drill.common.logical.data.LogicalSemiJoin"
+│ │ +                    "name": "org.apache.drill.common.logical.data.RunningAggregate"
+│ │                  },
+│ │                  {
+│ │                      "abstract": false,
+│ │ -                    "name": "org.apache.drill.common.logical.data.Project"
+│ │ +                    "name": "org.apache.drill.common.logical.data.Except"
+│ │                  },
+│ │                  {
+│ │                      "abstract": false,
+│ │ -                    "name": "org.apache.drill.common.logical.data.Values"
+│ │ +                    "name": "org.apache.drill.common.logical.data.Store"
+│ │                  },
+│ │                  {
+│ │                      "abstract": false,
+│ │ -                    "name": "org.apache.drill.common.logical.data.GroupingAggregate"
+│ │ +                    "name": "org.apache.drill.common.logical.data.Order"
+│ │                  },
+│ │                  {
+│ │                      "abstract": false,
+...
+│ │                  {
+│ │ -                    "abstract": true,
+│ │ -                    "name": "org.apache.drill.common.logical.data.SinkOperator"
+│ │ +                    "abstract": false,
+│ │ +                    "name": "org.apache.drill.common.logical.data.Unnest"
+│ │                  },
+│ │                  {
+│ │                      "abstract": false,
+│ │ -                    "name": "org.apache.drill.common.logical.data.MetadataController"
+│ │ +                    "name": "org.apache.drill.common.logical.data.MetadataHandler"
+│ │                  }
+│ │              ],
+│ │              "name": "org.apache.drill.common.logical.data.LogicalOperator"
+│ │          },
+│ │          {
+│ │              "children": [
+│ │                  {
+
+6 / 12 target/reference/org.apache.drill.exec/drill-java-exec-1.22.0.jar exec/java-exec/target/drill-java-exec-1.22.0.jar
+--- target/reference/org.apache.drill.exec/drill-java-exec-1.22.0.jar
++++ exec/java-exec/target/drill-java-exec-1.22.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 16405854 bytes, number of entries: 9523
+│ +Zip file size: 16440748 bytes, number of entries: 9523
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 META-INF/
+│  -rw-r--r--  2.0 unx      428 b- defN 25-Jun-17 07:04 META-INF/MANIFEST.MF
+│ @@ -242,15 +242,15 @@
+│  -rw-r--r--  2.0 unx    11358 b- defN 25-Jun-17 07:04 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      182 b- defN 25-Jun-17 07:04 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx  3432483 b- defN 25-Jun-17 07:04 META-INF/drill-module-scan/registry.json
+│ +-rw-r--r--  2.0 unx  3432239 b- defN 25-Jun-17 07:04 META-INF/drill-module-scan/registry.json
+│  -rw-r--r--  2.0 unx     3957 b- defN 25-Jun-17 07:04 ace.mode-sql.template.js
+│  -rw-r--r--  2.0 unx     7370 b- defN 25-Jun-17 07:04 bootstrap-storage-plugins.json
+│ @@ -9518,8 +9518,8 @@
+│  -rw-r--r--  2.0 unx       72 b- defN 25-Jun-17 07:04 META-INF/maven/org.apache.drill.exec/drill-java-exec/pom.properties
+│  -rw-r--r--  2.0 unx     9096 b- defN 25-Jun-17 07:04 META-INF/INDEX.LIST
+│ -9523 files, 47612526 bytes uncompressed, 14365580 bytes compressed:  69.8%
+│ +9523 files, 47612282 bytes uncompressed, 14400474 bytes compressed:  69.8%
+├── META-INF/drill-module-scan/registry.json
+│ ├── Pretty-printed
+│ │┄ Similarity: 0.8459712227321559%
+│ │┄ Differences: {"'annotatedClasses'": "{0: {'className': "
+│ │┄                        "'org.apache.drill.exec.expr.fn.impl.Hash32FunctionsWithSeed$NullableVarCharHash', "
+│ │┄                        "'annotations': {0: {'annotationType': "
+│ │┄                        "'org.apache.drill.exec.expr.annotations.FunctionTemplate', 'attributes': "
+│ │┄                        "[OrderedDict({'name': 'names', 'values': ['hash32', 'hash32AsDouble']}), "
+│ │┄                        "OrderedDict({'name': 'scope', 'values': ['SIMPLE']}), OrderedDict({'name': […]
+│ │ @@ -1,268 +1,239 @@
+│ │  {
+│ │      "annotatedClasses": [
+│ │          {
+│ │              "annotations": [
+│ │                  {
+│ │ -                    "annotationType": "org.apache.drill.exec.store.SystemPlugin",
+│ │ -                    "attributes": []
+│ │ -                }
+│ │ -            ],
+│ │ -            "className": "org.apache.drill.exec.store.sys.SystemTablePlugin",
+│ │ -            "fields": [
+│ │ -                {
+│ │ -                    "annotations": [],
+│ │ -                    "descriptor": "Ljava/lang/String;",
+│ │ -                    "name": "SYS_SCHEMA_NAME"
+│ │ -                },
+...
+│ │ -            ]
+│ │ -        },
+│ │ -        {
+│ │ -            "annotations": [
+│ │ -                {
+│ │                      "annotationType": "org.apache.drill.exec.expr.annotations.FunctionTemplate",
+│ │                      "attributes": [
+│ │                          {
+│ │ -                            "name": "name",
+│ │ -                            "values": [
+│ │ -                                "__throwException"
+│ │ -                            ]
+│ │ -                        },
+│ │ -                        {
+│ │ -                            "name": "isRandom",
+│ │ +                            "name": "names",
+│ │                              "values": [
+│ │ -                                "true"
+│ │ +                                "hash32",
+│ │ +                                "hash32AsDouble"
+...
+│ │ -        "org.apache.drill.exec.store.mock",
+│ │ -        "org.apache.drill.common.logical",
+│ │ -        "org.apache.drill.storage"
+│ │ +        "org.apache.drill.exec.store.security"
+│ │      ]
+│ │  }
+
+7 / 12 target/reference/org.apache.drill.exec/drill-jdbc-all-1.22.0.pom exec/jdbc-all/dependency-reduced-pom.xml
+--- target/reference/org.apache.drill.exec/drill-jdbc-all-1.22.0.pom
++++ exec/jdbc-all/dependency-reduced-pom.xml
+│   --- target/reference/org.apache.drill.exec/drill-jdbc-all-1.22.0.pom
+├── +++ exec/jdbc-all/dependency-reduced-pom.xml
+│ @@ -514,18 +514,19 @@
+│            </plugin>
+│          </plugins>
+│        </build>
+│        <properties>
+│          <os.detected.arch>x86_64</os.detected.arch>
+│          <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│          <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│ -        <os.detected.release>debian</os.detected.release>
+│ -        <os.detected.release.version>13</os.detected.release.version>
+│ +        <os.detected.release>ubuntu</os.detected.release>
+│ +        <os.detected.release.version>22.04</os.detected.release.version>
+│          <os.detected.bitness>64</os.detected.bitness>
+│          <os.detected.name>linux</os.detected.name>
+│ +        <os.detected.release.like.ubuntu>true</os.detected.release.like.ubuntu>
+│        </properties>
+│      </profile>
+│      <profile>
+│        <id>hadoop-2</id>
+│        <properties>
+│          <jdbc-all-jar.maxsize>55000000</jdbc-all-jar.maxsize>
+│        </properties>
+
+8 / 12 target/reference/org.apache.drill.exec/drill-jdbc-all-1.22.0.jar exec/jdbc-all/target/drill-jdbc-all-1.22.0.jar
+--- target/reference/org.apache.drill.exec/drill-jdbc-all-1.22.0.jar
++++ exec/jdbc-all/target/drill-jdbc-all-1.22.0.jar
+├── zipinfo {}
+│ @@ -999,436 +999,436 @@
+│  -rw----     2.0 fat     2158 bl defN 22-Feb-01 15:31 oadd/com/typesafe/config/parser/ConfigDocumentFactory.class
+│  -rw----     2.0 fat      173 bl defN 22-Feb-01 15:31 oadd/com/typesafe/config/parser/ConfigNode.class
+│ --rw----     2.0 fat        0 bl defN 23-Oct-06 20:12 oadd/org/apache/commons/
+│ --rw----     2.0 fat        0 bl defN 23-Oct-06 20:12 oadd/org/apache/commons/lang3/
+│ --rw----     2.0 fat     3308 bl defN 23-Oct-06 20:12 oadd/org/apache/commons/lang3/AnnotationUtils$1.class
+...
+│ --rw----     2.0 fat     6013 bl defN 23-Oct-06 20:12 oadd/org/apache/commons/lang3/util/FluentBitSet.class
+│ --rw----     2.0 fat      140 bl defN 23-Oct-06 20:12 oadd/org/apache/commons/lang3/util/package-info.class
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-06 18:12 oadd/org/apache/commons/
+│ +-rw----     2.0 fat        0 bl defN 23-Oct-06 18:12 oadd/org/apache/commons/lang3/
+│ +-rw----     2.0 fat     3308 bl defN 23-Oct-06 18:12 oadd/org/apache/commons/lang3/AnnotationUtils$1.class
+...
+│ +-rw----     2.0 fat     6013 bl defN 23-Oct-06 18:12 oadd/org/apache/commons/lang3/util/FluentBitSet.class
+│ +-rw----     2.0 fat      140 bl defN 23-Oct-06 18:12 oadd/org/apache/commons/lang3/util/package-info.class
+│  -rw----     2.0 fat        0 bl defN 22-Sep-18 13:49 oadd/org/apache/commons/text/
+│  -rw----     2.0 fat     9878 bl defN 22-Sep-18 13:49 oadd/org/apache/commons/text/AlphabetConverter.class
+│ @@ -4194,902 +4194,902 @@
+│  -rw----     2.0 fat     1432 bl defN 22-Sep-13 21:09 oadd/javassist/util/proxy/SerializedProxy$1.class
+│  -rw----     2.0 fat     4321 bl defN 22-Sep-13 21:09 oadd/javassist/util/proxy/SerializedProxy.class
+│ --rw----     2.0 fat        0 bl defN 25-Mar-01 09:24 oadd/com/fasterxml/
+│ --rw----     2.0 fat        0 bl defN 25-Mar-01 09:24 oadd/com/fasterxml/jackson/
+│ --rw----     2.0 fat        0 bl defN 25-Mar-01 09:24 oadd/com/fasterxml/jackson/annotation/
+│ --rw----     2.0 fat      434 bl defN 25-Mar-01 09:24 oadd/com/fasterxml/jackson/annotation/JacksonAnnotation.class
+...
+│ --rw----     2.0 fat      155 bl defN 25-Mar-01 09:37 oadd/com/fasterxml/jackson/databind/util/internal/package-info.class
+│ --rw----     2.0 fat      146 bl defN 25-Mar-01 09:37 oadd/com/fasterxml/jackson/databind/util/package-info.class
+│ +-rw----     2.0 fat        0 bl defN 25-Mar-01 07:24 oadd/com/fasterxml/
+│ +-rw----     2.0 fat        0 bl defN 25-Mar-01 07:24 oadd/com/fasterxml/jackson/
+│ +-rw----     2.0 fat        0 bl defN 25-Mar-01 07:24 oadd/com/fasterxml/jackson/annotation/
+│ +-rw----     2.0 fat      434 bl defN 25-Mar-01 07:24 oadd/com/fasterxml/jackson/annotation/JacksonAnnotation.class
+..
+│ +-rw----     2.0 fat      155 bl defN 25-Mar-01 07:37 oadd/com/fasterxml/jackson/databind/util/internal/package-info.class
+│ +-rw----     2.0 fat      146 bl defN 25-Mar-01 07:37 oadd/com/fasterxml/jackson/databind/util/package-info.class
+│  -rw----     2.0 fat    11358 bl defN 25-Mar-01 07:27 META-INF/FastDoubleParser-LICENSE
+│  -rw----     2.0 fat        0 bl defN 25-Mar-01 07:27 oadd/com/fasterxml/jackson/core/
+│  -rw----     2.0 fat     1404 bl defN 25-Mar-01 07:27 oadd/com/fasterxml/jackson/core/Base64Variant$PaddingReadBehaviour.class
+│  -rw----     2.0 fat    12998 bl defN 25-Mar-01 07:27 oadd/com/fasterxml/jackson/core/Base64Variant.class
+│  -rw----     2.0 fat     2148 bl defN 25-Mar-01 07:27 oadd/com/fasterxml/jackson/core/Base64Variants.class
+│  -rw----     2.0 fat     1468 bl defN 25-Mar-01 07:27 oadd/com/fasterxml/jackson/core/ErrorReportConfiguration$Builder.class
+│  -rw----     2.0 fat     2383 bl defN 25-Mar-01 07:27 oadd/com/fasterxml/jackson/core/ErrorReportConfiguration.class
+...
+
+9 / 12 target/reference/org.apache.drill.exec/drill-jdbc-all-1.22.0-sources.jar exec/jdbc-all/target/drill-jdbc-all-1.22.0-sources.jar
+--- target/reference/org.apache.drill.exec/drill-jdbc-all-1.22.0-sources.jar
++++ exec/jdbc-all/target/drill-jdbc-all-1.22.0-sources.jar
+├── zipinfo {}
+│ @@ -1,14 +1,14 @@
+│ -Zip file size: 15546 bytes, number of entries: 12
+│ +Zip file size: 15561 bytes, number of entries: 12
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 25-Jun-17 07:04 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 META-INF/maven/org.apache.drill.exec/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-17 07:04 META-INF/maven/org.apache.drill.exec/drill-jdbc-all/
+│  -rw-r--r--  2.0 unx    26893 b- defN 25-Jun-17 07:04 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 25-Jun-17 07:04 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      191 b- defN 25-Jun-17 07:04 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1505 b- defN 25-Jun-17 07:04 core-site.xml
+│  -rw-r--r--  2.0 unx      838 b- defN 25-Jun-17 07:04 profile.props
+│ --rw-rw-r--  2.0 unx    30827 b- defN 25-Jun-17 07:04 META-INF/maven/org.apache.drill.exec/drill-jdbc-all/pom.xml
+│ +-rw-rw-r--  2.0 unx    30911 b- defN 25-Jun-17 07:04 META-INF/maven/org.apache.drill.exec/drill-jdbc-all/pom.xml
+│  -rw-rw-r--  2.0 unx       71 b- defN 25-Jun-17 07:04 META-INF/maven/org.apache.drill.exec/drill-jdbc-all/pom.properties
+│ -12 files, 71747 bytes uncompressed, 13940 bytes compressed:  80.6%
+│ +12 files, 71831 bytes uncompressed, 13955 bytes compressed:  80.6%
+├── META-INF/maven/org.apache.drill.exec/drill-jdbc-all/pom.xml
+│ ├── META-INF/maven/org.apache.drill.exec/drill-jdbc-all/pom.xml
+│ │ @@ -514,18 +514,19 @@
+│ │            </plugin>
+│ │          </plugins>
+│ │        </build>
+│ │        <properties>
+│ │          <os.detected.arch>x86_64</os.detected.arch>
+│ │          <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│ │          <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│ │ -        <os.detected.release>debian</os.detected.release>
+│ │ -        <os.detected.release.version>13</os.detected.release.version>
+│ │ +        <os.detected.release>ubuntu</os.detected.release>
+│ │ +        <os.detected.release.version>22.04</os.detected.release.version>
+│ │          <os.detected.bitness>64</os.detected.bitness>
+│ │          <os.detected.name>linux</os.detected.name>
+│ │ +        <os.detected.release.like.ubuntu>true</os.detected.release.like.ubuntu>
+│ │        </properties>
+│ │      </profile>
+│ │      <profile>
+│ │        <id>hadoop-2</id>
+│ │        <properties>
+│ │          <jdbc-all-jar.maxsize>55000000</jdbc-all-jar.maxsize>
+│ │        </properties>
+
+10 / 12 target/reference/org.apache.drill.contrib.storage-hive/drill-hive-exec-shaded-1.22.0.jar contrib/storage-hive/hive-exec-shade/target/drill-hive-exec-shaded-1.22.0.jar
+--- target/reference/org.apache.drill.contrib.storage-hive/drill-hive-exec-shaded-1.22.0.jar
++++ contrib/storage-hive/hive-exec-shade/target/drill-hive-exec-shaded-1.22.0.jar
+├── zipinfo {}
+│ @@ -1,26918 +1,26918 @@
+│ -Zip file size: 48526170 bytes, number of entries: 26916
+│ +Zip file size: 48519580 bytes, number of entries: 26916
+│  -rw----     2.0 fat        0 bX defN 25-Jun-17 07:04 META-INF/
+│  -rw----     2.0 fat      448 bl defN 25-Jun-17 07:04 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat    11358 bl defN 25-Jun-17 07:04 META-INF/ASL2.0
+│  -rw----     2.0 fat    24515 bl defN 25-Jun-17 07:04 META-INF/DEPENDENCIES
+│ --rw----     2.0 fat    11358 bl defN 25-Jun-17 07:04 META-INF/FastDoubleParser-LICENSE
+│ --rw----     2.0 fat     1999 bl defN 25-Jun-17 07:04 META-INF/FastDoubleParser-NOTICE
+│ +-rw----     2.0 fat     1116 bl defN 25-Jun-17 07:04 drill-module.conf
+│ +-rw----     2.0 fat      771 bl defN 25-Jun-17 07:04 git.properties
+│  -rw----     2.0 fat        0 bl defN 25-Jun-17 07:04 META-INF/maven/
+│ --rw----     2.0 fat        0 bl defN 25-Jun-17 07:04 META-INF/maven/com.esotericsoftware/
+│ --rw----     2.0 fat        0 bl defN 25-Jun-17 07:04 META-INF/maven/com.esotericsoftware/kryo-shaded/
+│ --rw----     2.0 fat      141 bl defN 25-Jun-17 07:04 META-INF/maven/com.esotericsoftware/kryo-shaded/pom.properties
+...
+│ --rw----     2.0 fat    27382 bl defN 25-Jun-17 07:04 parquet.thrift
+│ --rw----     2.0 fat     1932 bl defN 25-Jun-17 07:04 tez-container-log4j2.properties
+│ --rw----     2.0 fat        0 bl defN 25-Jun-17 07:04 META-INF/versions/9/
+│ --rw----     2.0 fat    27214 bl defN 25-Jun-17 07:04 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat       95 bl defN 25-Jun-17 07:04 META-INF/maven/org.apache.drill.contrib.storage-hive/drill-hive-exec-shaded/pom.properties
+│ +-rw----     2.0 fat        0 bl defN 22-Apr-04 09:42 org/
+│ +-rw----     2.0 fat        0 bl defN 22-Apr-04 09:42 org/apache/
+│ +-rw----     2.0 fat        0 bl defN 22-Apr-04 09:42 org/apache/tez/
+│ +-rw----     2.0 fat        0 bl defN 22-Apr-04 09:42 org/apache/tez/dag/
+...
+│ +-rw----     2.0 fat    17870 bl defN 24-Apr-20 18:05 META-INF/maven/commons-codec/commons-codec/pom.xml
+│ +-rw----     2.0 fat       62 bl defN 24-Apr-20 18:05 META-INF/maven/commons-codec/commons-codec/pom.properties
+│  -rw----     2.0 fat     1976 bl defN 25-Jun-17 07:04 META-INF/NOTICE
+│ -26916 files, 115231785 bytes uncompressed, 42050754 bytes compressed:  63.5%
+│ +26916 files, 115205359 bytes uncompressed, 42044164 bytes compressed:  63.5%
+
+11 / 12 target/reference/org.apache.drill.contrib.storage-hive/drill-hive-exec-shaded-1.22.0-jar.jar contrib/storage-hive/hive-exec-shade/target/drill-hive-exec-shaded-1.22.0.jar
+...
+
+12 / 12 target/reference/org.apache.drill/distribution-1.22.0.tar.gz distribution/target/apache-drill-1.22.0.tar.gz
+--- target/reference/org.apache.drill/distribution-1.22.0.tar.gz
++++ distribution/target/apache-drill-1.22.0.tar.gz
+├── filetype from file(1)
+│ @@ -1 +1 @@
+│ -gzip compressed data, original size modulo 2^32 533002752 gzip compressed data, unknown method, ASCII, has CRC, extra field, has comment, from FAT filesystem (MS-DOS, OS/2, NT)
+│ +gzip compressed data, original size modulo 2^32 533031936 gzip compressed data, reserved method, ASCII, extra field, has comment, encrypted, from FAT filesystem (MS-DOS, OS/2, NT)
+│   --- distribution-1.22.0.tar
+├── +++ apache-drill-1.22.0.tar
+│ ├── file list
+│ │ @@ -1,14 +1,14 @@
+│ │ --rw-r--r--   0 root         (0) root         (0)    71848 2025-06-17 07:04:51.000000 apache-drill-1.22.0/KEYS
+│ │ --rw-rw-r--   0 root         (0) root         (0)    93573 2025-06-17 07:04:51.000000 apache-drill-1.22.0/LICENSE
+│ │ --rw-r--r--   0 root         (0) root         (0)     1301 2025-06-17 07:04:51.000000 apache-drill-1.22.0/README.md
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    71848 2025-06-17 07:04:51.000000 apache-drill-1.22.0/KEYS
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    94619 2025-06-17 07:04:51.000000 apache-drill-1.22.0/LICENSE
+│ │ +-rw-rw-r--   0 root         (0) root         (0)     1301 2025-06-17 07:04:51.000000 apache-drill-1.22.0/README.md
+│ │  -rw-rw-r--   0 root         (0) root         (0)      238 2025-06-17 07:04:51.000000 apache-drill-1.22.0/NOTICE
+│ │ --rw-r--r--   0 root         (0) root         (0)      771 2025-06-17 07:04:51.000000 apache-drill-1.22.0/git.properties
+│ │ +-rw-rw-r--   0 root         (0) root         (0)      771 2025-06-17 07:04:51.000000 apache-drill-1.22.0/git.properties
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     3899 2025-06-17 07:04:51.000000 apache-drill-1.22.0/bin/runbit
+│ │ --rw-r--r--   0 root         (0) root         (0)      104 2025-06-17 07:04:51.000000 apache-drill-1.22.0/bin/hadoop-excludes.txt
+│ │ +-rw-rw-r--   0 root         (0) root         (0)      104 2025-06-17 07:04:51.000000 apache-drill-1.22.0/bin/hadoop-excludes.txt
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     9677 2025-06-17 07:04:51.000000 apache-drill-1.22.0/bin/drillbit.sh
+│ │  -rwxr-xr-x   0 root         (0) root         (0)      982 2025-06-17 07:04:51.000000 apache-drill-1.22.0/bin/drill-conf
+│ │  -rwxr-xr-x   0 root         (0) root         (0)      992 2025-06-17 07:04:51.000000 apache-drill-1.22.0/bin/drill-embedded
+│ │  -rwxr-xr-x   0 root         (0) root         (0)      999 2025-06-17 07:04:51.000000 apache-drill-1.22.0/bin/drill-embedded.bat
+│ │  -rwxr-xr-x   0 root         (0) root         (0)      992 2025-06-17 07:04:51.000000 apache-drill-1.22.0/bin/drill-localhost
+│ │  -rwxr-xr-x   0 root         (0) root         (0)    16765 2025-06-17 07:04:51.000000 apache-drill-1.22.0/bin/drill-config.sh
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     3038 2025-06-17 07:04:51.000000 apache-drill-1.22.0/bin/sqlline
+│ │ @@ -44,34 +44,34 @@
+│ │  -rwxr-xr-x   0 root         (0) root         (0)      455 2025-06-17 07:04:51.000000 apache-drill-1.22.0/sample-data/region.parquet
+│ │  -rwxr-xr-x   0 root         (0) root         (0)      468 2025-06-17 07:04:51.000000 apache-drill-1.22.0/sample-data/regionsMF/regionsMF_Typed.parquet
+│ │  -rwxr-xr-x   0 root         (0) root         (0)      455 2025-06-17 07:04:51.000000 apache-drill-1.22.0/sample-data/regionsSF/regionsSF.parquet
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2025-06-17 07:04:51.000000 apache-drill-1.22.0/winutils/bin/
+│ │  -rwxr-xr-x   0 root         (0) root         (0)    88576 2025-06-17 07:04:51.000000 apache-drill-1.22.0/winutils/bin/hadoop.dll
+│ │  -rwxr-xr-x   0 root         (0) root         (0)   118784 2025-06-17 07:04:51.000000 apache-drill-1.22.0/winutils/bin/winutils.exe
+│ │  -rw-rw-r--   0 root         (0) root         (0)  1513124 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-protocol-1.22.0.jar
+│ │ --rw-rw-r--   0 root         (0) root         (0)   326614 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-logical-1.22.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   326616 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-logical-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  2551645 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/vector-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    82437 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-memory-base-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   143148 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-rpc-1.22.0.jar
+│ │ --rw-rw-r--   0 root         (0) root         (0) 16405854 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-java-exec-1.22.0.jar
+│ │ --rw-rw-r--   0 root         (0) root         (0)   169066 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-common-1.22.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0) 16440748 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-java-exec-1.22.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   169064 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-common-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   137142 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-jdbc-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   151609 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-metastore-api-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    58187 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-iceberg-metastore-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   107385 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-rdbms-metastore-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    38827 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-mongo-metastore-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  3256527 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/tpch-sample-data-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    83248 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-kudu-storage-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   214904 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-storage-http-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    68437 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-opentsdb-storage-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   117280 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-mongo-storage-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   155184 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-storage-hbase-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   114225 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-jdbc-storage-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   255312 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-storage-hive-core-1.22.0.jar
+│ │ --rw-rw-r--   0 root         (0) root         (0) 48526170 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-hive-exec-shaded-1.22.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0) 48519580 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-hive-exec-shaded-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    77217 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-storage-kafka-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    46079 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-storage-cassandra-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    49588 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-storage-elasticsearch-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   118528 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-storage-splunk-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   185041 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-storage-googlesheets-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   107793 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-storage-phoenix-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   319092 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-udfs-1.22.0.jar
+│ │ @@ -91,500 +91,500 @@
+│ │  -rw-rw-r--   0 root         (0) root         (0)    46243 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-format-log-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    85855 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-druid-storage-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    84647 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-iceberg-format-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    62179 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-deltalake-format-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    50109 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/drill-storage-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   326530 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/tools/drill-yarn-1.22.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0) 54057654 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/jdbc-driver/drill-jdbc-all-1.22.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   152436 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/codemodel-2.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   152436 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/codemodel-2.6.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   739465 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jetty-server-9.4.56.v20240826.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   249063 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jetty-http-9.4.56.v20240826.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   183011 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jetty-io-9.4.56.v20240826.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   146064 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jetty-servlet-9.4.56.v20240826.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   106201 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jetty-servlets-9.4.56.v20240826.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    20063 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-container-jetty-servlet-2.40.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    32298 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-container-servlet-2.40.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    73256 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-container-servlet-core-2.40.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    40980 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-container-jetty-http-2.40.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    18140 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jakarta.inject-2.6.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    20063 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-container-jetty-servlet-2.40.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    32298 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-container-servlet-2.40.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    73256 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-container-servlet-core-2.40.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    40980 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-container-jetty-http-2.40.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    18140 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jakarta.inject-2.6.1.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    25372 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jetty-continuation-9.4.56.v20240826.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1230119 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-common-2.40.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    25058 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jakarta.annotation-api-1.3.5.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    19479 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/osgi-resource-locator-1.0.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   950564 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-server-2.40.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   301876 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-client-2.40.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   140376 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jakarta.ws.rs-api-2.1.6.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    81543 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-media-multipart-2.40.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    64944 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/mimepull-1.9.15.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    76921 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-media-json-jackson-2.40.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    84223 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-entity-filtering-2.40.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    23818 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-mvc-freemarker-2.40.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    53763 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-mvc-2.40.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   203358 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/hk2-locator-2.6.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    27006 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/aopalliance-repackaged-2.6.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   200223 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/hk2-api-2.6.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   131590 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/hk2-utils-2.6.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1230119 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-common-2.40.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    25058 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jakarta.annotation-api-1.3.5.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    19479 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/osgi-resource-locator-1.0.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   950564 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-server-2.40.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   301876 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-client-2.40.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   140376 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jakarta.ws.rs-api-2.1.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    81543 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-media-multipart-2.40.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    64944 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/mimepull-1.9.15.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    76921 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-media-json-jackson-2.40.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    84223 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-entity-filtering-2.40.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    23818 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-mvc-freemarker-2.40.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    53763 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jersey-mvc-2.40.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   203358 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/hk2-locator-2.6.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    27006 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/aopalliance-repackaged-2.6.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   200223 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/hk2-api-2.6.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   131590 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/hk2-utils-2.6.1.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   588923 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jetty-util-9.4.56.v20240826.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   115498 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jakarta.xml.bind-api-2.3.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   129763 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/reflections-0.9.10.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   102244 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jaxb-api-2.2.11.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   115498 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jakarta.xml.bind-api-2.3.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   129763 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/reflections-0.9.10.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   102244 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jaxb-api-2.2.11.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   327896 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jetty-client-9.4.56.v20240826.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    95806 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/javax.servlet-api-3.1.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    44399 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jakarta.activation-api-1.2.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    95806 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/javax.servlet-api-3.1.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    44399 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jakarta.activation-api-1.2.1.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   140305 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jetty-webapp-9.4.56.v20240826.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    68895 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jetty-xml-9.4.56.v20240826.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   100636 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jsp-api-2.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   100636 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jsp-api-2.1.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   118494 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jetty-security-9.4.56.v20240826.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    66643 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/jetty-util-ajax-9.4.56.v20240826.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    56674 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/javax.activation-api-1.2.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    56674 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/javax.activation-api-1.2.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    26366 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/javax.annotation-api-1.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    53239 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/javax.servlet.jsp-api-2.3.1.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   274470 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/logback-classic-1.3.15.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   571734 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/logback-core-1.3.15.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    53239 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/javax.servlet.jsp-api-2.3.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   274470 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/logback-classic-1.3.15.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   571734 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/classb/logback-core-1.3.15.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  1875414 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/protobuf-java-3.25.5.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    65050 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/protostuff-core-1.8.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    59422 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/protostuff-api-1.8.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    30744 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/protostuff-json-1.8.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    65050 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/protostuff-core-1.8.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    59422 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/protostuff-api-1.8.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    30744 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/protostuff-json-1.8.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   598026 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jackson-core-2.18.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  7601577 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/calcite-core-1.34.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   507997 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/calcite-linq4j-1.34.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1103721 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jts-core-1.19.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    38657 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jts-io-common-1.19.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   256854 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/proj4j-1.2.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    15979 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/error_prone_annotations-2.11.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   208835 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/checker-qual-3.12.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  7601577 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/calcite-core-1.34.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   507997 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/calcite-linq4j-1.34.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1103721 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jts-core-1.19.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    38657 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jts-io-common-1.19.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   256854 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/proj4j-1.2.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    15979 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/error_prone_annotations-2.11.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   208835 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/checker-qual-3.12.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    55579 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jackson-dataformat-yaml-2.18.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   121893 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/uzaygezen-core-0.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   271159 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/json-path-2.7.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   456917 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/sketches-core-0.9.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    30383 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/memory-0.9.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    48509 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/aggdesigner-algorithm-6.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   205318 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-dbcp2-2.6.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   295444 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/config-1.4.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   121893 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/uzaygezen-core-0.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   271159 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/json-path-2.7.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   456917 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/sketches-core-0.9.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    30383 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/memory-0.9.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    48509 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/aggdesigner-algorithm-6.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   205318 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-dbcp2-2.6.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   295444 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/config-1.4.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   657952 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-lang3-3.14.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    78502 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jackson-annotations-2.18.3.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  1659155 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jackson-databind-2.18.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   336742 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/antlr4-runtime-4.9.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   637993 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/joda-time-2.12.5.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   336742 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/antlr4-runtime-4.9.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   637993 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/joda-time-2.12.5.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    75597 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jackson-datatype-joda-2.18.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1140290 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hppc-0.7.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1140290 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hppc-0.7.1.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    40595 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/netty-transport-native-epoll-4.1.115.Final-linux-x86_64.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   147620 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/netty-transport-classes-epoll-4.1.115.Final.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   179964 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/httpasyncclient-4.1.4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   326356 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/httpcore-4.4.10.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   365812 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/httpcore-nio-4.4.10.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   179964 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/httpasyncclient-4.1.4.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   326356 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/httpcore-4.4.10.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   365812 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/httpcore-nio-4.4.10.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    37931 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/encoder-1.2.3.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    72209 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/asm-commons-9.5.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    51944 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/asm-tree-9.5.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    91076 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/asm-util-9.5.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    33978 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/asm-analysis-9.5.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  8027912 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/dropbox-core-sdk-5.4.4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   502466 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/box-java-sdk-3.7.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    34221 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/minimal-json-0.9.5.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   275698 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jose4j-0.7.9.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   130663 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-pool2-2.6.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   443231 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/univocity-parsers-2.8.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   988514 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-math-2.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    31627 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/paranamer-2.5.6.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1446149 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/xercesImpl-2.12.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   220536 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/xml-apis-1.4.01.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    91930 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jakarta.validation-api-2.0.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  8027912 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/dropbox-core-sdk-5.4.4.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   502466 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/box-java-sdk-3.7.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    34221 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/minimal-json-0.9.5.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   275698 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jose4j-0.7.9.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   130663 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-pool2-2.6.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   443231 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/univocity-parsers-2.8.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   988514 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-math-2.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    31627 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/paranamer-2.5.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1446149 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/xercesImpl-2.12.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   220536 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/xml-apis-1.4.01.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    91930 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jakarta.validation-api-2.0.2.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    37186 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jackson-module-jaxb-annotations-2.18.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    78477 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jersey-hk2-2.40.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    78477 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jersey-hk2-2.40.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    16856 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jackson-jaxrs-json-provider-2.18.3.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    36119 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jackson-jaxrs-base-2.18.3.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   217890 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jackson-module-afterburner-2.18.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    26050 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jackson-dataformat-hocon-1.1.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1278202 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/avatica-core-1.23.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    15681 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/avatica-metrics-1.23.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   797934 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/httpclient5-5.1.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   232137 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/httpcore5-h2-5.1.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   850808 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/httpcore5-5.1.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    12131 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jpam-1.1.jar
+│ │ --rw-r-----   0 root         (0) root         (0)  8324412 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/bcprov-jdk18on-1.78.1.jar
+│ │ --rw-r-----   0 root         (0) root         (0)  1125173 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/bcpkix-jdk18on-1.78.1.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   705135 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/bcutil-jdk18on-1.78.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1702975 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/freemarker-2.3.30.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    26050 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jackson-dataformat-hocon-1.1.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1278202 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/avatica-core-1.23.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    15681 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/avatica-metrics-1.23.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   797934 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/httpclient5-5.1.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   232137 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/httpcore5-h2-5.1.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   850808 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/httpcore5-5.1.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    12131 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jpam-1.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  8324412 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/bcprov-jdk18on-1.78.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1125173 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/bcpkix-jdk18on-1.78.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   705135 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/bcutil-jdk18on-1.78.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1702975 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/freemarker-2.3.30.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  3231755 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/parquet-column-1.15.1.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   849406 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/parquet-encoding-1.15.1.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  1182338 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/parquet-hadoop-1.15.1.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   767183 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/parquet-format-structures-1.15.1.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  2389996 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/parquet-jackson-1.15.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   111119 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-pool-1.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   111119 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-pool-1.6.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   124580 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/parquet-common-1.15.1.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)     2497 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/javax.inject-1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    60376 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jcommander-1.30.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   118839 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/vault-java-driver-5.1.0.jar
+│ │ --rw-r-----   0 root         (0) root         (0)  3206559 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/curator-client-5.5.0.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   336337 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/curator-framework-5.5.0.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   317560 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/curator-recipes-5.5.0.jar
+│ │ --rw-r-----   0 root         (0) root         (0)    62352 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/curator-x-discovery-5.5.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    60376 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jcommander-1.30.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   118839 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/vault-java-driver-5.1.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  3206559 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/curator-client-5.5.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   336337 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/curator-framework-5.5.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   317560 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/curator-recipes-5.5.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    62352 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/curator-x-discovery-5.5.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   956369 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/janino-3.1.12.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   171943 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-compiler-3.1.12.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   174351 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/stream-2.7.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0) 16903573 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/fastutil-6.5.7.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    81626 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/t-digest-3.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   792081 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/okhttp-4.9.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   243179 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/okio-2.8.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   191212 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kotlin-stdlib-common-1.4.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1487085 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kotlin-stdlib-1.4.10.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   174351 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/stream-2.7.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0) 16903573 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/fastutil-6.5.7.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    81626 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/t-digest-3.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   792081 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/okhttp-4.9.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   243179 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/okio-2.8.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   191212 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kotlin-stdlib-common-1.4.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1487085 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kotlin-stdlib-1.4.10.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    17536 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/annotations-13.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   713436 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/avro-1.12.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   189408 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/avro-mapred-1.12.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   192121 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/avro-ipc-1.12.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   531308 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/velocity-engine-core-2.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   531308 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/velocity-engine-core-2.3.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   116013 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/xz-1.9.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    13676 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/avro-ipc-jetty-1.12.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   491514 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/httpdlog-parser-5.10.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    33193 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/parser-core-5.10.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    59812 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/geoip2-4.0.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    33103 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/maxmind-db-3.0.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    21038 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/libpam4j-1.11.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1879325 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jna-5.13.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   254041 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/aircompressor-0.25.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   242951 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/sqlline-1.12.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   228777 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jline-terminal-3.21.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   171621 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jline-reader-3.21.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    39477 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jline-terminal-jansi-3.21.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   221009 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jansi-2.4.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    63377 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jline-terminal-jna-3.21.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   263195 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jline-builtins-3.21.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    27685 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jline-style-3.21.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   151039 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jline-console-3.21.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    86993 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/swagger-jaxrs2-2.1.12.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   538091 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/classgraph-4.8.117.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   112438 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jvm-driver-4.0.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   100010 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/narcissus-1.0.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   117973 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/swagger-models-2.1.12.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    34315 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/swagger-annotations-2.1.12.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    33515 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/swagger-integration-2.1.12.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   171736 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/swagger-core-2.1.12.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)     6772 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/swagger-jaxrs2-servlet-initializer-v2-2.1.12.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   238400 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-text-1.10.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   208295 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/msgpack-0.6.6.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    23931 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/json-simple-1.1.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    74557 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/annotations-2.0.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   794137 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/javassist-3.29.2-GA.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   129647 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/metrics-core-4.2.19.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    20346 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/metrics-servlets-4.2.19.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    23303 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/metrics-healthchecks-4.2.19.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    17037 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/metrics-json-4.2.19.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    14954 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/profiler-1.1.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    24683 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/metrics-jvm-4.2.19.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    21568 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/metrics-jmx-4.2.19.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   287303 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-yarn-client-3.3.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   491514 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/httpdlog-parser-5.10.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    33193 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/parser-core-5.10.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    59812 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/geoip2-4.0.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    33103 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/maxmind-db-3.0.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    21038 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/libpam4j-1.11.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1879325 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jna-5.13.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   254041 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/aircompressor-0.25.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   242951 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/sqlline-1.12.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   228777 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jline-terminal-3.21.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   171621 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jline-reader-3.21.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    39477 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jline-terminal-jansi-3.21.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   221009 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jansi-2.4.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    63377 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jline-terminal-jna-3.21.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   263195 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jline-builtins-3.21.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    27685 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jline-style-3.21.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   151039 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jline-console-3.21.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    86993 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/swagger-jaxrs2-2.1.12.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   538091 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/classgraph-4.8.117.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   112438 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jvm-driver-4.0.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   100010 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/narcissus-1.0.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   117973 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/swagger-models-2.1.12.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    34315 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/swagger-annotations-2.1.12.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    33515 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/swagger-integration-2.1.12.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   171736 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/swagger-core-2.1.12.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)     6772 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/swagger-jaxrs2-servlet-initializer-v2-2.1.12.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   238400 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-text-1.10.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   208295 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/msgpack-0.6.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    23931 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/json-simple-1.1.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    74557 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/annotations-2.0.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   794137 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/javassist-3.29.2-GA.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   129647 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/metrics-core-4.2.19.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    20346 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/metrics-servlets-4.2.19.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    23303 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/metrics-healthchecks-4.2.19.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    17037 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/metrics-json-4.2.19.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    14954 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/profiler-1.1.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    24683 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/metrics-jvm-4.2.19.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    21568 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/metrics-jmx-4.2.19.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   287303 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-yarn-client-3.3.6.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    45598 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/websocket-client-9.4.56.v20240826.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   214603 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/websocket-common-9.4.56.v20240826.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    52191 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/websocket-api-9.4.56.v20240826.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  2965511 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-yarn-common-3.3.6.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    76983 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/guice-servlet-4.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    16151 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jersey-guice-1.19.4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   128990 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jersey-servlet-1.19.4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0) 18196233 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/foodmart-data-json-0.4.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  2965511 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-yarn-common-3.3.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    76983 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/guice-servlet-4.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    16151 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jersey-guice-1.19.4.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   128990 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jersey-servlet-1.19.4.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0) 18196233 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/foodmart-data-json-0.4.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    93107 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/validation-api-2.0.1.Final.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   283728 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/iceberg-parquet-0.12.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    15322 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/findbugs-annotations-1.3.9-1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    89240 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/iceberg-data-0.12.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   922839 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/iceberg-core-0.12.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    31632 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/iceberg-common-0.12.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1635933 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/iceberg-bundled-guava-0.12.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   384670 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/iceberg-api-0.12.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   283728 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/iceberg-parquet-0.12.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    15322 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/findbugs-annotations-1.3.9-1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    89240 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/iceberg-data-0.12.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   922839 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/iceberg-core-0.12.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    31632 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/iceberg-common-0.12.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1635933 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/iceberg-bundled-guava-0.12.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   384670 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/iceberg-api-0.12.1.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  1730345 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/parquet-avro-1.15.1.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   912143 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/caffeine-2.9.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1773049 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-mapreduce-client-core-3.3.6.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   159222 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/HikariCP-4.0.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  2692793 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/liquibase-core-4.19.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   238754 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/opencsv-5.7.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  2785073 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jooq-3.13.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)     2097 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/reactive-streams-1.0.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   912143 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/caffeine-2.9.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1773049 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-mapreduce-client-core-3.3.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   159222 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/HikariCP-4.0.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  2692793 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/liquibase-core-4.19.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   238754 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/opencsv-5.7.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  2785073 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jooq-3.13.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)     2097 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/reactive-streams-1.0.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   334189 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/snakeyaml-2.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0) 12851127 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/sqlite-jdbc-3.41.2.2.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   151811 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/mongodb-driver-sync-4.11.1.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   511358 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/bson-4.11.1.jar
+│ │ --rw-r-----   0 root         (0) root         (0)  1670639 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/mongodb-driver-core-4.11.1.jar
+│ │ --rw-r-----   0 root         (0) root         (0)    13606 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/bson-record-codec-4.11.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  4603101 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-common-3.3.6.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1477052 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-shaded-protobuf_3_7-1.1.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    25106 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-annotations-3.3.6.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  3362359 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-shaded-guava-1.1.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  3041591 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/guava-32.1.2-jre.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0) 12851127 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/sqlite-jdbc-3.41.2.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   151811 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/mongodb-driver-sync-4.11.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   511358 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/bson-4.11.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1670639 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/mongodb-driver-core-4.11.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    13606 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/bson-record-codec-4.11.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  4603101 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-common-3.3.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1477052 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-shaded-protobuf_3_7-1.1.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    25106 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-annotations-3.3.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  3362359 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-shaded-guava-1.1.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  3041591 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/guava-32.1.2-jre.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)     4617 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/failureaccess-1.0.1.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)     2199 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)     9301 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/j2objc-annotations-2.8.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    53820 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-cli-1.4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1599627 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-math3-3.1.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1599627 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-math3-3.1.1.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   785639 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/httpclient-4.5.14.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   316431 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-net-3.9.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   316431 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-net-3.9.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   588337 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-collections-3.2.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   332398 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/reload4j-1.2.22.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   332398 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/reload4j-1.2.22.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   246918 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-beanutils-1.9.4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   632505 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-configuration2-2.8.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   128414 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/re2j-1.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   249277 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/gson-2.9.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   106145 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-auth-3.3.6.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    20409 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerb-simplekdc-1.0.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   113017 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerb-client-1.0.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    30674 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerby-config-1.0.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    65464 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerb-common-1.0.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   116120 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerb-crypto-1.0.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    36708 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerb-util-1.0.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    18763 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/token-provider-1.0.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    80980 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerb-admin-1.0.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    82756 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerb-server-1.0.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    20046 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerb-identity-1.0.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    29134 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerby-xdr-1.0.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   282591 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jsch-0.1.55.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   632505 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-configuration2-2.8.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   128414 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/re2j-1.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   249277 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/gson-2.9.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   106145 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-auth-3.3.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    20409 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerb-simplekdc-1.0.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   113017 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerb-client-1.0.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    30674 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerby-config-1.0.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    65464 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerb-common-1.0.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   116120 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerb-crypto-1.0.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    36708 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerb-util-1.0.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    18763 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/token-provider-1.0.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    80980 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerb-admin-1.0.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    82756 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerb-server-1.0.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    20046 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerb-identity-1.0.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    29134 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerby-xdr-1.0.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   282591 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jsch-0.1.55.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    19936 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jsr305-3.0.2.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)     6194 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/netty-transport-native-epoll-4.1.115.Final.jar
+│ │ --rw-r-----   0 root         (0) root         (0)  1083634 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-compress-1.26.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   226672 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerb-core-1.0.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   204650 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerby-pkix-1.0.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   102174 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerby-asn1-1.0.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    40554 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerby-util-1.0.1.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)  1083634 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-compress-1.26.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   226672 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerb-core-1.0.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   204650 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerby-pkix-1.0.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   102174 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerby-asn1-1.0.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    40554 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kerby-util-1.0.1.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   195909 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/stax2-api-4.2.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   522679 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/woodstox-core-5.4.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1969177 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/snappy-java-1.1.8.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   786622 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-aws-3.3.6.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   436580 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/wildfly-openssl-1.1.3.Final.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1045081 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/aws-java-sdk-core-1.12.261.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   565410 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/ion-java-1.0.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   522679 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/woodstox-core-5.4.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1969177 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/snappy-java-1.1.8.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   786622 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-aws-3.3.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   436580 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/wildfly-openssl-1.1.3.Final.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1045081 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/aws-java-sdk-core-1.12.261.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   565410 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/ion-java-1.0.2.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    70654 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jackson-dataformat-cbor-2.18.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1997350 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/aws-java-sdk-dynamodb-1.12.261.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    27590 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jmespath-java-1.12.261.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   150756 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/aws-java-sdk-sts-1.12.261.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1256740 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/aws-java-sdk-s3-1.12.261.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   656125 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/aws-java-sdk-kms-1.12.261.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   207491 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/oci-hdfs-connector-3.3.1.0.3.6.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    38490 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/oci-java-sdk-objectstorage-2.13.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1082856 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/oci-java-sdk-objectstorage-generated-2.13.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   122586 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/oci-java-sdk-objectstorage-extensions-2.13.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    38880 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/oci-java-sdk-addons-apache-2.13.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   423323 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/oci-java-sdk-common-2.13.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1997350 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/aws-java-sdk-dynamodb-1.12.261.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    27590 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jmespath-java-1.12.261.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   150756 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/aws-java-sdk-sts-1.12.261.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1256740 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/aws-java-sdk-s3-1.12.261.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   656125 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/aws-java-sdk-kms-1.12.261.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   207491 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/oci-hdfs-connector-3.3.1.0.3.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    38490 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/oci-java-sdk-objectstorage-2.13.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1082856 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/oci-java-sdk-objectstorage-generated-2.13.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   122586 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/oci-java-sdk-objectstorage-extensions-2.13.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    38880 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/oci-java-sdk-addons-apache-2.13.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   423323 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/oci-java-sdk-common-2.13.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   133035 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jackson-datatype-jsr310-2.18.3.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    36160 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jackson-datatype-jdk8-2.18.3.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   963713 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/bcpkix-jdk15on-1.70.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   642617 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/nimbus-jose-jwt-9.11.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    63296 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/resilience4j-circuitbreaker-1.2.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   898057 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/vavr-0.10.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)     3130 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/vavr-match-0.10.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    43543 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/resilience4j-core-1.2.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    55091 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/oci-java-sdk-circuitbreaker-2.13.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    46391 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jersey-apache-connector-2.34.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  6304455 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-hdfs-3.3.6.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    24239 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-daemon-1.0.13.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1045744 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/leveldbjni-all-1.8.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   963713 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/bcpkix-jdk15on-1.70.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   642617 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/nimbus-jose-jwt-9.11.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    63296 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/resilience4j-circuitbreaker-1.2.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   898057 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/vavr-0.10.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)     3130 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/vavr-match-0.10.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    43543 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/resilience4j-core-1.2.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    55091 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/oci-java-sdk-circuitbreaker-2.13.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    46391 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jersey-apache-connector-2.34.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  6304455 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-hdfs-3.3.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    24239 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-daemon-1.0.13.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1045744 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/leveldbjni-all-1.8.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   668310 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/netty-codec-http-4.1.115.Final.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   119227 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/json-smart-2.4.7.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    29489 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/accessors-smart-2.4.7.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)     8573 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-client-3.3.6.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  5533900 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-hdfs-client-3.3.6.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    49799 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-mapreduce-client-jobclient-3.3.6.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   805775 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-mapreduce-client-common-3.3.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   119227 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/json-smart-2.4.7.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    29489 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/accessors-smart-2.4.7.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)     8573 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-client-3.3.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  5533900 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-hdfs-client-3.3.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    49799 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-mapreduce-client-jobclient-3.3.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   805775 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-mapreduce-client-common-3.3.6.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  2149638 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-client-2.6.1-hadoop3.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  1877034 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-shaded-protobuf-4.1.9.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   899012 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-common-2.6.1-hadoop3.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    14291 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-logging-2.6.1-hadoop3.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   322274 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-shaded-gson-4.1.9.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    20406 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-unsafe-4.1.9.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    29229 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/opentelemetry-semconv-1.15.0-alpha.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    29229 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/opentelemetry-semconv-1.15.0-alpha.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    74890 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-hadoop-compat-2.6.1-hadoop3.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    23129 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-metrics-api-2.6.1-hadoop3.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   168019 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-hadoop2-compat-2.6.1-hadoop3.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    30074 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-metrics-2.6.1-hadoop3.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  7238880 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-protocol-shaded-2.6.1-hadoop3.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  3288506 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-protocol-2.6.1-hadoop3.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  4188619 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-shaded-miscellaneous-4.1.9.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  5175431 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-shaded-netty-4.1.9.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   127628 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/opentelemetry-api-1.15.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    45609 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/opentelemetry-context-1.15.0.jar
+│ │ --rw-r-----   0 root         (0) root         (0)  1739960 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jcodings-1.0.58.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   230217 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/joni-2.2.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   166244 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-crypto-1.1.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    20891 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/audience-annotations-0.13.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   127628 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/opentelemetry-api-1.15.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    45609 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/opentelemetry-context-1.15.0.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)  1739960 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jcodings-1.0.58.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)   230217 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/joni-2.2.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   166244 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-crypto-1.1.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    20891 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/audience-annotations-0.13.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    36062 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/netty-tcnative-classes-2.0.69.Final.jar
+│ │ --rw-r--r--   0 root         (0) root         (0) 15579349 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kudu-client-1.14.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    18074 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/async-1.4.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   125955 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/retrofit-2.8.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)     5718 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/converter-jackson-2.8.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   402680 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/calcite-server-1.34.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    36983 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hive-metastore-3.1.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0) 11096515 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hive-standalone-metastore-3.1.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   810264 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/orc-core-1.5.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    15935 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/dropwizard-metrics-hadoop-metrics2-reporter-0.1.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   231901 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hive-storage-api-2.7.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   366748 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/datanucleus-api-jdo-4.2.4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  2016766 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/datanucleus-core-4.1.17.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1908681 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/datanucleus-rdbms-4.1.19.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   249790 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/javax.jdo-3.2.0-m3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    15071 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/transaction-api-1.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   395195 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/javolution-5.5.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   110600 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/bonecp-0.8.0.RELEASE.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   284220 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-lang-2.6.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  3232158 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/derby-10.14.1.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   160519 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-dbcp-1.4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   201124 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jdo-api-3.0.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    15071 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jta-1.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   167761 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/antlr-runtime-3.5.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   313702 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/libfb303-0.9.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   362137 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/libthrift-0.18.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    28216 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/tephra-hbase-compat-1.0-0.6.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    27974 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hive-upgrade-acid-3.1.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   120418 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hive-hbase-handler-3.1.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   402120 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-mapreduce-2.0.0-alpha4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   104650 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-prefix-tree-2.0.0-alpha4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   293681 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-common-2.0.0-alpha4-tests.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1483913 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/htrace-core-3.2.0-incubating.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    34955 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-hadoop2-compat-2.0.0-alpha4-tests.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0) 15579349 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kudu-client-1.14.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    18074 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/async-1.4.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   125955 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/retrofit-2.8.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)     5718 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/converter-jackson-2.8.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   402680 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/calcite-server-1.34.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    36983 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hive-metastore-3.1.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0) 11096515 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hive-standalone-metastore-3.1.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   810264 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/orc-core-1.5.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    15935 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/dropwizard-metrics-hadoop-metrics2-reporter-0.1.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   231901 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hive-storage-api-2.7.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   366748 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/datanucleus-api-jdo-4.2.4.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  2016766 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/datanucleus-core-4.1.17.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1908681 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/datanucleus-rdbms-4.1.19.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   249790 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/javax.jdo-3.2.0-m3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    15071 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/transaction-api-1.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   395195 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/javolution-5.5.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   110600 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/bonecp-0.8.0.RELEASE.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   284220 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-lang-2.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  3232158 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/derby-10.14.1.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   160519 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-dbcp-1.4.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   201124 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jdo-api-3.0.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    15071 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jta-1.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   167761 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/antlr-runtime-3.5.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   313702 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/libfb303-0.9.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   362137 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/libthrift-0.18.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    28216 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/tephra-hbase-compat-1.0-0.6.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    27974 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hive-upgrade-acid-3.1.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   120418 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hive-hbase-handler-3.1.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   402120 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-mapreduce-2.0.0-alpha4.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   104650 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-prefix-tree-2.0.0-alpha4.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   293681 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-common-2.0.0-alpha4-tests.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1483913 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/htrace-core-3.2.0-incubating.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    34955 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-hadoop2-compat-2.0.0-alpha4-tests.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  6160279 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-server-2.6.1-hadoop3.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   126347 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-http-2.6.1-hadoop3.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  2340213 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-shaded-jetty-4.1.9.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  3532917 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-shaded-jersey-4.1.9.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   211384 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-procedure-2.6.1-hadoop3.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   110055 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-zookeeper-2.6.1-hadoop3.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    53389 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-replication-2.6.1-hadoop3.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   104982 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hbase-asyncfs-2.6.1-hadoop3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   547677 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/javax.servlet.jsp-2.3.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   224014 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/javax.el-3.0.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   443153 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/agrona-1.12.0.jar
+│ │ --rw-r-----   0 root         (0) root         (0)    84626 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/disruptor-3.4.4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   159593 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-distcp-3.3.6.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   129513 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hive-contrib-3.1.3.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   342535 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/log4j-api-2.23.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  4639857 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kafka-clients-2.8.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  6474018 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/zstd-jni-1.4.9-1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   649950 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/lz4-java-1.7.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   547677 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/javax.servlet.jsp-2.3.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   224014 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/javax.el-3.0.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   443153 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/agrona-1.12.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    84626 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/disruptor-3.4.4.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   159593 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hadoop-distcp-3.3.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   129513 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/hive-contrib-3.1.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   342535 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/log4j-api-2.23.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  4639857 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kafka-clients-2.8.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  6474018 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/zstd-jni-1.4.9-1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   649950 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/lz4-java-1.7.1.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    37590 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kafka-avro-serializer-7.9.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    67128 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kafka-schema-serializer-7.9.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   106876 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jackson-dataformat-csv-2.18.3.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   306478 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/kafka-schema-registry-client-7.9.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    30604 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/logredactor-1.0.12.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)     3879 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/logredactor-metrics-1.0.12.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)    17264 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/common-utils-7.9.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    91382 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/calcite-cassandra-1.34.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1237476 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/scylla-driver-core-3.11.2.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   681158 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jnr-ffi-2.1.7.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   150998 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jffi-1.2.16.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   664435 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jffi-1.2.16-native.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   219943 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jnr-x86asm-1.0.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   239993 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jnr-posix-3.0.44.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   359323 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jnr-constants-0.9.9.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  7390298 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/java-driver-core-shaded-4.13.0.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   318020 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/native-protocol-1.5.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  2864187 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/java-driver-shaded-guava-25.1-jre-graal-sub-1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   173763 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/HdrHistogram-2.1.12.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)     4722 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jcip-annotations-1.0-1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    15120 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/spotbugs-annotations-3.1.12.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    91382 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/calcite-cassandra-1.34.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1237476 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/scylla-driver-core-3.11.2.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   681158 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jnr-ffi-2.1.7.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   150998 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jffi-1.2.16.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   664435 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jffi-1.2.16-native.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   219943 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jnr-x86asm-1.0.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   239993 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jnr-posix-3.0.44.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   359323 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jnr-constants-0.9.9.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  7390298 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/java-driver-core-shaded-4.13.0.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   318020 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/native-protocol-1.5.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  2864187 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/java-driver-shaded-guava-25.1-jre-graal-sub-1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   173763 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/HdrHistogram-2.1.12.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)     4722 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jcip-annotations-1.0-1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    15120 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/spotbugs-annotations-3.1.12.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   121863 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/asm-9.5.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   151913 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/calcite-elasticsearch-1.34.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    72674 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/elasticsearch-rest-client-8.9.1.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   291317 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/splunk-1.9.5.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    19827 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/opencsv-2.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   297568 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-api-client-2.0.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    81086 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-oauth-client-1.34.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    10580 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-http-client-gson-1.42.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    10665 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-http-client-apache-v2-1.42.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   292699 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-http-client-1.42.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   355405 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/opencensus-api-0.31.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    30073 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/grpc-context-1.27.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    23415 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/opencensus-contrib-http-util-0.31.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)     4991 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-api-client-jackson2-2.0.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)     9874 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-oauth-client-jetty-1.34.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    14835 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-oauth-client-java6-1.34.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   216777 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-auth-library-oauth2-http-1.11.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)     7495 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/auto-value-annotations-1.9.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)     5950 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-auth-library-credentials-1.11.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   311839 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-api-services-sheets-v4-rev20220620-2.0.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   178013 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-api-services-drive-v3-rev20220815-2.0.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    21931 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/phoenix-hbase-compat-2.4.1-5.1.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  5142157 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/phoenix-core-5.1.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  2814263 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/phoenix-shaded-guava-1.1.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    66076 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-hbase-client-hbase2.x-1.0.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    41119 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-hbase-coprocessor-hbase2.x-1.0.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    17925 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-hbase-shims-hbase2.x-1.0.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    32422 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-hbase-common-hbase2.x-1.0.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    22563 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-timestamp-storage-hbase2.x-1.0.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    24983 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-hbase-commit-table-hbase2.x-1.0.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    77359 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-transaction-client-1.0.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    18555 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-statemachine-1.0.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    21479 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-metrics-1.0.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    16238 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-commit-table-1.0.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   130553 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-common-1.0.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    18175 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-codahale-metrics-1.0.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   668235 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/guice-4.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   151913 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/calcite-elasticsearch-1.34.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    72674 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/elasticsearch-rest-client-8.9.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   291317 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/splunk-1.9.5.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    19827 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/opencsv-2.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   297568 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-api-client-2.0.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    81086 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-oauth-client-1.34.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    10580 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-http-client-gson-1.42.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    10665 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-http-client-apache-v2-1.42.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   292699 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-http-client-1.42.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   355405 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/opencensus-api-0.31.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    30073 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/grpc-context-1.27.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    23415 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/opencensus-contrib-http-util-0.31.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)     4991 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-api-client-jackson2-2.0.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)     9874 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-oauth-client-jetty-1.34.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    14835 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-oauth-client-java6-1.34.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   216777 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-auth-library-oauth2-http-1.11.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)     7495 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/auto-value-annotations-1.9.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)     5950 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-auth-library-credentials-1.11.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   311839 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-api-services-sheets-v4-rev20220620-2.0.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   178013 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/google-api-services-drive-v3-rev20220815-2.0.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    21931 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/phoenix-hbase-compat-2.4.1-5.1.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  5142157 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/phoenix-core-5.1.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  2814263 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/phoenix-shaded-guava-1.1.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    66076 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-hbase-client-hbase2.x-1.0.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    41119 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-hbase-coprocessor-hbase2.x-1.0.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    17925 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-hbase-shims-hbase2.x-1.0.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    32422 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-hbase-common-hbase2.x-1.0.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    22563 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-timestamp-storage-hbase2.x-1.0.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    24983 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-hbase-commit-table-hbase2.x-1.0.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    77359 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-transaction-client-1.0.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    18555 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-statemachine-1.0.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    21479 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-metrics-1.0.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    16238 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-commit-table-1.0.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   130553 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-common-1.0.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    18175 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/omid-codahale-metrics-1.0.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   668235 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/guice-4.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)     4467 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/aopalliance-1.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    48764 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/snappy-0.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    58074 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/phoenix-shaded-commons-cli-1.1.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0) 14386028 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/icu4j-72.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    56327 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/icu4j-localespi-72.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    16282 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/tephra-api-0.16.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  3538963 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/tephra-core-shaded-0.16.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    36998 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/guice-assistedinject-3.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    84323 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/tephra-hbase-compat-2.4-0.16.1-shaded.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   583898 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/dnsjava-3.6.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    48764 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/snappy-0.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    58074 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/phoenix-shaded-commons-cli-1.1.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0) 14386028 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/icu4j-72.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    56327 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/icu4j-localespi-72.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    16282 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/tephra-api-0.16.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  3538963 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/tephra-core-shaded-0.16.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    36998 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/guice-assistedinject-3.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    84323 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/tephra-hbase-compat-2.4-0.16.1-shaded.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   583898 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/dnsjava-3.6.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   189675 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-validator-1.7.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   196768 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-digester-2.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   933758 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/esri-geometry-api-2.2.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   314278 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/proj4j-0.1.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  2251188 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/yauaa-7.19.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    14978 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/prefixmap-2.0.jar
+│ │ --rw-r-----   0 root         (0) root         (0)    23081 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/log4j-to-slf4j-2.23.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    15708 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jsyslog-message-1.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)     7740 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/yauaa-logparser-7.19.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   132721 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/tabula-1.0.5.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  5743920 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/bcprov-jdk15on-1.69.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   112681 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/bcmail-jdk15on-1.69.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   359496 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/bcutil-jdk15on-1.69.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    51322 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-csv-1.9.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   628053 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jai-imageio-core-1.4.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   489144 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jai-imageio-jpeg2000-1.4.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   152680 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jbig2-imageio-3.0.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  2768023 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/pdfbox-2.0.25.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1565437 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/fontbox-2.0.25.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   242590 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jhdf-0.6.10.jar
+│ │ --rw-r-----   0 root         (0) root         (0)    81831 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/compress-lzf-1.1.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    24621 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/spss-reader-1.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   139008 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/parso-2.0.14.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)     8650 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/ltsv-parser-1.1.0.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   173411 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/xmlschema-core-2.3.0.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   103969 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/xmlschema-walker-2.3.0.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   764623 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/metadata-extractor-2.19.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   142953 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/xmpcore-6.1.11.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    53096 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/pcapngdecoder-1.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    18842 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/dbf-reader-0.3.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   933758 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/esri-geometry-api-2.2.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   314278 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/proj4j-0.1.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  2251188 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/yauaa-7.19.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    14978 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/prefixmap-2.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    23081 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/log4j-to-slf4j-2.23.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    15708 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jsyslog-message-1.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)     7740 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/yauaa-logparser-7.19.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   132721 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/tabula-1.0.5.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  5743920 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/bcprov-jdk15on-1.69.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   112681 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/bcmail-jdk15on-1.69.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   359496 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/bcutil-jdk15on-1.69.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    51322 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-csv-1.9.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   628053 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jai-imageio-core-1.4.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   489144 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jai-imageio-jpeg2000-1.4.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   152680 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jbig2-imageio-3.0.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  2768023 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/pdfbox-2.0.25.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1565437 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/fontbox-2.0.25.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   242590 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jhdf-0.6.10.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    81831 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/compress-lzf-1.1.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    24621 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/spss-reader-1.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   139008 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/parso-2.0.14.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)     8650 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/ltsv-parser-1.1.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   173411 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/xmlschema-core-2.3.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   103969 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/xmlschema-walker-2.3.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   764623 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/metadata-extractor-2.19.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   142953 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/xmpcore-6.1.11.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    53096 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/pcapngdecoder-1.2.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    18842 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/dbf-reader-0.3.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  2996461 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/poi-5.4.1.jar
+│ │ --rw-r-----   0 root         (0) root         (0)    25843 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/SparseBitSet-1.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    25843 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/SparseBitSet-1.3.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  2037787 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/poi-ooxml-5.4.1.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  5996003 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/poi-ooxml-lite-5.4.1.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)  2211661 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/xmlbeans-5.3.0.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   117159 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/curvesapi-1.08.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   117159 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/curvesapi-1.08.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   107988 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/excel-streaming-reader-5.1.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1314223 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jackcess-4.0.4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    83787 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/iceberg-orc-0.12.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1783905 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/orc-core-1.6.9-nohive.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    29190 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/orc-shims-1.6.9.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   233745 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/threeten-extra-1.5.0.jar
+│ │ --rw-r-----   0 root         (0) root         (0)    24893 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/delta-storage-3.0.0.jar
+│ │ --rw-r-----   0 root         (0) root         (0) 11183436 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/delta-standalone_2.13-3.0.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  6003601 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/scala-library-2.13.8.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1127123 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/scala-parallel-collections_2.13-1.0.4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  3292608 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/shapeless_2.13-2.3.4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)     5589 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/scala-collection-compat_2.13-2.4.3.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   372608 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-codec-1.17.0.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   578357 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/netty-handler-4.1.115.Final.jar
+│ │ --rw-r-----   0 root         (0) root         (0)    37841 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/netty-resolver-4.1.115.Final.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   337801 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/netty-buffer-4.1.115.Final.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   521369 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/netty-transport-4.1.115.Final.jar
+│ │ --rw-r-----   0 root         (0) root         (0)    44158 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/netty-transport-native-unix-common-4.1.115.Final.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   352900 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/netty-codec-4.1.115.Final.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   718162 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/netty-common-4.1.115.Final.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    62531 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/slf4j-api-2.0.6.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)     4857 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jul-to-slf4j-2.0.6.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    17440 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jcl-over-slf4j-2.0.6.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    25604 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/log4j-over-slf4j-2.0.6.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   508826 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-io-2.16.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1314223 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jackcess-4.0.4.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    83787 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/iceberg-orc-0.12.1.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1783905 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/orc-core-1.6.9-nohive.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    29190 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/orc-shims-1.6.9.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   233745 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/threeten-extra-1.5.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    24893 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/delta-storage-3.0.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0) 11183436 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/delta-standalone_2.13-3.0.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  6003601 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/scala-library-2.13.8.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1127123 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/scala-parallel-collections_2.13-1.0.4.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  3292608 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/shapeless_2.13-2.3.4.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)     5589 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/scala-collection-compat_2.13-2.4.3.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   372608 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-codec-1.17.0.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   578357 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/netty-handler-4.1.115.Final.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    37841 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/netty-resolver-4.1.115.Final.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   337801 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/netty-buffer-4.1.115.Final.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   521369 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/netty-transport-4.1.115.Final.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    44158 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/netty-transport-native-unix-common-4.1.115.Final.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   352900 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/netty-codec-4.1.115.Final.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   718162 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/netty-common-4.1.115.Final.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    62531 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/slf4j-api-2.0.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)     4857 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jul-to-slf4j-2.0.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    17440 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/jcl-over-slf4j-2.0.6.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    25604 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/log4j-over-slf4j-2.0.6.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)   508826 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-io-2.16.1.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)   898652 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/commons-collections4-4.5.0.jar
+│ │ --rw-r-----   0 root         (0) root         (0)  1015945 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/ext/zookeeper-3.5.10.jar
+│ │ --rw-r-----   0 root         (0) root         (0)   250788 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/ext/zookeeper-jute-3.5.10.jar
+│ │ --rw-r-----   0 root         (0) root         (0)    59796 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/linux/netty-tcnative-2.0.65.Final-linux-x86_64.jar
+│ │ --rw-r-----   0 root         (0) root         (0)    58583 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/fedora/netty-tcnative-2.0.65.Final-linux-x86_64-fedora.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    62590 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/windows/netty-tcnative-2.0.36.Final-windows-x86_64.jar
+│ │ --rw-r-----   0 root         (0) root         (0)    42712 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/osx/netty-tcnative-2.0.65.Final-osx-x86_64.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)  1015945 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/ext/zookeeper-3.5.10.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)   250788 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/ext/zookeeper-jute-3.5.10.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    59796 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/linux/netty-tcnative-2.0.65.Final-linux-x86_64.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    58583 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/fedora/netty-tcnative-2.0.65.Final-linux-x86_64-fedora.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    62590 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/windows/netty-tcnative-2.0.36.Final-windows-x86_64.jar
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    42712 2025-06-17 07:04:51.000000 apache-drill-1.22.0/jars/3rdparty/osx/netty-tcnative-2.0.65.Final-osx-x86_64.jar
+│ ├── apache-drill-1.22.0/LICENSE
+│ │ @@ -265,14 +265,15 @@
+│ │      minimal-json (com.eclipsesource.minimal-json:minimal-json:0.9.5 - https://github.com/ralfstx/minimal-json) [MIT License]
+│ │      parso (com.epam:parso:2.0.14 - https://github.com/epam/parso) [Apache License v2]
+│ │      Esri Geometry API for Java (com.esri.geometry:esri-geometry-api:2.2.2 - https://github.com/Esri/geometry-api-java) [The Apache Software License, Version 2.0]
+│ │      Jackson-annotations (com.fasterxml.jackson.core:jackson-annotations:2.18.3 - https://github.com/FasterXML/jackson) [The Apache Software License, Version 2.0]
+│ │      Jackson-core (com.fasterxml.jackson.core:jackson-core:2.18.3 - https://github.com/FasterXML/jackson-core) [The Apache Software License, Version 2.0]
+│ │      jackson-databind (com.fasterxml.jackson.core:jackson-databind:2.18.3 - https://github.com/FasterXML/jackson) [The Apache Software License, Version 2.0]
+│ │      Jackson dataformat: CBOR (com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.18.3 - https://github.com/FasterXML/jackson-dataformats-binary) [The Apache Software License, Version 2.0]
+│ │ +    Jackson-dataformat-CSV (com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.18.3 - https://github.com/FasterXML/jackson-dataformats-text) [The Apache Software License, Version 2.0]
+│ │      Jackson-dataformat-YAML (com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.18.3 - https://github.com/FasterXML/jackson-dataformats-text) [The Apache Software License, Version 2.0]
+│ │      Jackson datatype: jdk8 (com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.18.3 - https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jdk8) [The Apache Software License, Version 2.0]
+│ │      Jackson datatype: Joda (com.fasterxml.jackson.datatype:jackson-datatype-joda:2.18.3 - https://github.com/FasterXML/jackson-datatype-joda) [The Apache Software License, Version 2.0]
+│ │      Jackson datatype: JSR310 (com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.18.3 - https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jsr310) [The Apache Software License, Version 2.0]
+│ │      Jackson-JAXRS: base (com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.18.3 - https://github.com/FasterXML/jackson-jaxrs-providers/jackson-jaxrs-base) [The Apache Software License, Version 2.0]
+│ │      Jackson-JAXRS: JSON (com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.18.3 - https://github.com/FasterXML/jackson-jaxrs-providers/jackson-jaxrs-json-provider) [The Apache Software License, Version 2.0]
+│ │      Jackson module: Afterburner (com.fasterxml.jackson.module:jackson-module-afterburner:2.18.3 - https://github.com/FasterXML/jackson-modules-base) [The Apache Software License, Version 2.0]
+│ │ @@ -340,14 +341,15 @@
+│ │      Oracle Cloud Infrastructure SDK - Circuit Breaker (com.oracle.oci.sdk:oci-java-sdk-circuitbreaker:2.13.0 - https://docs.cloud.oracle.com/Content/API/SDKDocs/javasdk.htm) [Apache License 2.0][The Universal Permissive License (UPL), Version 1.0]
+│ │      Oracle Cloud Infrastructure SDK - Common (com.oracle.oci.sdk:oci-java-sdk-common:2.13.0 - https://docs.cloud.oracle.com/Content/API/SDKDocs/javasdk.htm) [Apache License 2.0][The Universal Permissive License (UPL), Version 1.0]
+│ │      Oracle Cloud Infrastructure SDK - Object Storage (com.oracle.oci.sdk:oci-java-sdk-objectstorage:2.13.0 - https://docs.cloud.oracle.com/Content/API/SDKDocs/javasdk.htm) [Apache License 2.0][The Universal Permissive License (UPL), Version 1.0]
+│ │      Oracle Cloud Infrastructure SDK - Object Storage - Extensions (com.oracle.oci.sdk:oci-java-sdk-objectstorage-extensions:2.13.0 - https://docs.cloud.oracle.com/Content/API/SDKDocs/javasdk.htm) [Apache License 2.0][The Universal Permissive License (UPL), Version 1.0]
+│ │      Oracle Cloud Infrastructure SDK - Object Storage - Generated (com.oracle.oci.sdk:oci-java-sdk-objectstorage-generated:2.13.0 - https://docs.cloud.oracle.com/Content/API/SDKDocs/javasdk.htm) [Apache License 2.0][The Universal Permissive License (UPL), Version 1.0]
+│ │      Java driver for Scylla and Apache Cassandra(R) - core with shaded deps (com.scylladb:java-driver-core-shaded:4.13.0.0 - https://github.com/scylladb/java-driver/java-driver-core-shaded) [Apache 2]
+│ │      Java Driver for Scylla and Apache Cassandra - Core (com.scylladb:scylla-driver-core:3.11.2.0 - https://github.com/scylladb/java-driver/scylla-driver-core) [Apache 2]
+│ │ +    splunk (com.splunk:splunk:1.9.5 - no url defined) [Apache 2.0]
+│ │      okhttp (com.squareup.okhttp3:okhttp:4.9.3 - https://square.github.io/okhttp/) [The Apache Software License, Version 2.0]
+│ │      Okio (com.squareup.okio:okio:2.8.0 - https://github.com/square/okio/) [The Apache Software License, Version 2.0]
+│ │      Converter: Jackson (com.squareup.retrofit2:converter-jackson:2.8.1 - https://github.com/square/retrofit/retrofit-converters/converter-jackson/) [Apache 2.0]
+│ │      Retrofit (com.squareup.retrofit2:retrofit:2.8.1 - https://github.com/square/retrofit/retrofit/) [Apache 2.0]
+│ │      SUAsync Library (com.stumbleupon:async:1.4.1 - https://github.com/stumbleupon/async) [BSD]
+│ │      Codemodel Core (com.sun.codemodel:codemodel:2.6 - http://codemodel.java.net/codemodel/) [CDDL v1.1 / GPL v2 dual license]
+│ │      jersey-servlet (com.sun.jersey:jersey-servlet:1.19.4 - https://jersey.java.net/jersey-servlet/) [CDDL 1.1][GPL2 w/ CPE]
+│ │ @@ -371,14 +373,20 @@
+│ │      Commons Lang (commons-lang:commons-lang:2.6 - http://commons.apache.org/lang/) [The Apache Software License, Version 2.0]
+│ │      Apache Commons Net (commons-net:commons-net:3.9.0 - https://commons.apache.org/proper/commons-net/) [Apache License, Version 2.0]
+│ │      Commons Pool (commons-pool:commons-pool:1.6 - http://commons.apache.org/pool/) [The Apache Software License, Version 2.0]
+│ │      Apache Commons Validator (commons-validator:commons-validator:1.7 - http://commons.apache.org/proper/commons-validator/) [Apache License, Version 2.0]
+│ │      dnsjava (dnsjava:dnsjava:3.6.0 - https://github.com/dnsjava/dnsjava) [BSD-3-Clause]
+│ │      pcapng-parser (fr.bmartel:pcapngdecoder:1.2 - https://github.com/bertrandmartel/pcapng-decoder) [The MIT License]
+│ │      aircompressor (io.airlift:aircompressor:0.25 - http://github.com/airlift/aircompressor) [Apache License 2.0]
+│ │ +    common-utils (io.confluent:common-utils:7.9.0 - no url defined) [Unknown license]
+│ │ +    kafka-avro-serializer (io.confluent:kafka-avro-serializer:7.9.0 - no url defined) [Unknown license]
+│ │ +    kafka-schema-registry-client (io.confluent:kafka-schema-registry-client:7.9.0 - no url defined) [Unknown license]
+│ │ +    kafka-schema-serializer (io.confluent:kafka-schema-serializer:7.9.0 - no url defined) [Unknown license]
+│ │ +    Log Redactor (io.confluent:logredactor:1.0.12 - https://github.com/confluentinc/logredactor) [The Apache Software License, Version 2.0]
+│ │ +    Log Redactor Metrics (io.confluent:logredactor-metrics:1.0.12 - https://github.com/confluentinc/logredactor) [The Apache Software License, Version 2.0]
+│ │      delta-standalone (io.delta:delta-standalone_2.13:3.0.0 - https://delta.io/) [Apache-2.0]
+│ │      delta-storage (io.delta:delta-storage:3.0.0 - https://delta.io/) [Apache-2.0]
+│ │      Metrics Core (io.dropwizard.metrics:metrics-core:4.2.19 - https://metrics.dropwizard.io/metrics-core) [Apache License 2.0]
+│ │      Metrics Health Checks (io.dropwizard.metrics:metrics-healthchecks:4.2.19 - https://metrics.dropwizard.io/metrics-healthchecks) [Apache License 2.0]
+│ │      Metrics Integration with JMX (io.dropwizard.metrics:metrics-jmx:4.2.19 - https://metrics.dropwizard.io/metrics-jmx) [Apache License 2.0]
+│ │      Jackson Integration for Metrics (io.dropwizard.metrics:metrics-json:4.2.19 - https://metrics.dropwizard.io/metrics-json) [Apache License 2.0]
+│ │      JVM Integration for Metrics (io.dropwizard.metrics:metrics-jvm:4.2.19 - https://metrics.dropwizard.io/metrics-jvm) [Apache License 2.0]
+│ │ @@ -439,14 +447,15 @@
+│ │      Joda-Time (joda-time:joda-time:2.12.5 - https://www.joda.org/joda-time/) [Apache License, Version 2.0]
+│ │      Aggregate Designer Algorithm (net.hydromatic:aggdesigner-algorithm:6.0 - http://github.com/julianhyde/aggdesigner/aggdesigner-algorithm) [The Apache Software License, Version 2.0]
+│ │      foodmart-data-json (net.hydromatic:foodmart-data-json:0.4 - http://github.com/julianhyde/foodmart-data-json) [The Apache Software License, Version 2.0]
+│ │      Java Native Access (net.java.dev.jna:jna:5.13.0 - https://github.com/java-native-access/jna) [Apache-2.0][LGPL-2.1-or-later]
+│ │      ASM based accessors helper used by json-smart (net.minidev:accessors-smart:2.4.7 - https://urielch.github.io/) [The Apache Software License, Version 2.0]
+│ │      JSON Small and Fast Parser (net.minidev:json-smart:2.4.7 - https://urielch.github.io/) [The Apache Software License, Version 2.0]
+│ │      JPam (net.sf.jpam:jpam:1.1 - http://jpam.sf.net) [The Apache Software License, Version 2.0]
+│ │ +    opencsv (net.sf.opencsv:opencsv:2.3 - http://opencsv.sf.net) [Apache 2]
+│ │      PrefixMap : Implementation (nl.basjes.collections:prefixmap:2.0 - https://github.com/nielsbasjes/prefixmap) [Apache License, Version 2.0]
+│ │      Parser - Core (nl.basjes.parse:parser-core:5.10.0 - https://github.com/nielsbasjes/logparser/parser-core) [Apache License, Version 2.0]
+│ │      Parser - Apache HTTPD - Parser (nl.basjes.parse.httpdlog:httpdlog-parser:5.10.0 - https://niels.basjes.nl) [Apache License, Version 2.0]
+│ │      Yauaa : Analyzer (nl.basjes.parse.useragent:yauaa:7.19.2 - https://yauaa.basjes.nl) [Apache License, Version 2.0]
+│ │      Yauaa : UDF : Logparser Dissector (nl.basjes.parse.useragent:yauaa-logparser:7.19.2 - https://yauaa.basjes.nl) [Apache License, Version 2.0]
+│ │      agrona (org.agrona:agrona:1.12.0 - https://github.com/real-logic/agrona) [The Apache License, Version 2.0]
+│ │      ANTLR 3 Runtime (org.antlr:antlr-runtime:3.5.2 - http://www.antlr.org) [BSD licence]
+...
