@@ -1,0 +1,26 @@
+version=3.0
+ok=26
+ko=11
+ignored=0
+okFiles="stormcrawler-3.0.pom stormcrawler-3.0-source-release.zip stormcrawler-core-3.0.pom stormcrawler-core-3.0.jar stormcrawler-core-3.0-tests.jar stormcrawler-external-3.0.pom stormcrawler-aws-3.0.pom stormcrawler-aws-3.0.jar stormcrawler-langid-3.0.pom stormcrawler-langid-3.0.jar stormcrawler-opensearch-3.0.pom stormcrawler-opensearch-3.0.jar stormcrawler-solr-3.0.pom stormcrawler-solr-3.0.jar stormcrawler-sql-3.0.pom stormcrawler-sql-3.0.jar stormcrawler-tika-3.0.pom stormcrawler-tika-3.0.jar stormcrawler-urlfrontier-3.0.pom stormcrawler-urlfrontier-3.0.jar stormcrawler-warc-3.0.pom stormcrawler-warc-3.0.jar stormcrawler-archetype-3.0.pom stormcrawler-archetype-3.0.jar stormcrawler-opensearch-archetype-3.0.pom stormcrawler-opensearch-archetype-3.0.jar"
+koFiles="stormcrawler-core-3.0-sources.jar stormcrawler-aws-3.0-sources.jar stormcrawler-langid-3.0-sources.jar stormcrawler-opensearch-3.0-sources.jar stormcrawler-solr-3.0-sources.jar stormcrawler-sql-3.0-sources.jar stormcrawler-tika-3.0-sources.jar stormcrawler-urlfrontier-3.0-sources.jar stormcrawler-warc-3.0-sources.jar stormcrawler-archetype-3.0-sources.jar stormcrawler-opensearch-archetype-3.0-sources.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.stormcrawler/stormcrawler-core-3.0-sources.jar core/target/stormcrawler-core-3.0-sources.jar
+# diffoscope target/reference/org.apache.stormcrawler/stormcrawler-aws-3.0-sources.jar external/aws/target/stormcrawler-aws-3.0-sources.jar
+# diffoscope target/reference/org.apache.stormcrawler/stormcrawler-langid-3.0-sources.jar external/langid/target/stormcrawler-langid-3.0-sources.jar
+# diffoscope target/reference/org.apache.stormcrawler/stormcrawler-opensearch-3.0-sources.jar external/opensearch/target/stormcrawler-opensearch-3.0-sources.jar
+# diffoscope target/reference/org.apache.stormcrawler/stormcrawler-solr-3.0-sources.jar external/solr/target/stormcrawler-solr-3.0-sources.jar
+# diffoscope target/reference/org.apache.stormcrawler/stormcrawler-sql-3.0-sources.jar external/sql/target/stormcrawler-sql-3.0-sources.jar
+# diffoscope target/reference/org.apache.stormcrawler/stormcrawler-tika-3.0-sources.jar external/tika/target/stormcrawler-tika-3.0-sources.jar
+# diffoscope target/reference/org.apache.stormcrawler/stormcrawler-urlfrontier-3.0-sources.jar external/urlfrontier/target/stormcrawler-urlfrontier-3.0-sources.jar
+# diffoscope target/reference/org.apache.stormcrawler/stormcrawler-warc-3.0-sources.jar external/warc/target/stormcrawler-warc-3.0-sources.jar
+# diffoscope target/reference/org.apache.stormcrawler/stormcrawler-archetype-3.0-sources.jar archetype/target/stormcrawler-archetype-3.0-sources.jar
+# diffoscope target/reference/org.apache.stormcrawler/stormcrawler-opensearch-archetype-3.0-sources.jar external/opensearch/archetype/target/stormcrawler-opensearch-archetype-3.0-sources.jar
+stabilize_ok=11
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="stormcrawler-core-3.0-sources.jar.stabilized stormcrawler-aws-3.0-sources.jar.stabilized stormcrawler-langid-3.0-sources.jar.stabilized stormcrawler-opensearch-3.0-sources.jar.stabilized stormcrawler-solr-3.0-sources.jar.stabilized stormcrawler-sql-3.0-sources.jar.stabilized stormcrawler-tika-3.0-sources.jar.stabilized stormcrawler-urlfrontier-3.0-sources.jar.stabilized stormcrawler-warc-3.0-sources.jar.stabilized stormcrawler-archetype-3.0-sources.jar.stabilized stormcrawler-opensearch-archetype-3.0-sources.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""
