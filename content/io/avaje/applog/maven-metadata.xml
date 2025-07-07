@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.avaje</groupId>
+  <artifactId>avaje-applog</artifactId>
+  <versioning>
+    <latest>1.2</latest>
+    <release>1.2</release>
+    <versions>
+      <version>1.0</version>
+      <version>1.1</version>
+      <version>1.2</version>
+    </versions>
+    <lastUpdated>20250630203138</lastUpdated>
+  </versioning>
+</metadata>
