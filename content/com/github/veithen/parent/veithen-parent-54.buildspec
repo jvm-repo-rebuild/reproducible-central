@@ -1,0 +1,18 @@
+groupId=com.github.veithen
+artifactId=parent
+version=54
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/veithen/${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn clean package -Prelease -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
