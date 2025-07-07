@@ -1,6 +1,11 @@
-content/com/github/seregamorph/maven-surefire-cached/maven-surefire-cached-0.20.buildspec:0.21
-content/com/github/veithen/parent/veithen-parent-53.buildspec:54
-content/com/github/veithen/maven/hermetic-maven-plugin/hermetic-maven-plugin-0.8.0.buildspec:0.9.0
 content/de/unentscheidbar/migratedb/migratedb-1.4.1.buildspec:1.5.0
+content/io/airlift/airbase/airbase-275.buildspec:276
+content/io/cucumber/cucumber-jvm/cucumber-jvm-7.23.0.buildspec:7.24.0
+content/io/cucumber/gherkin/gherkin-32.1.1.buildspec:33.0.0
+content/io/cucumber/junit-xml-formatter/junit-xml-formatter-0.7.1.buildspec:0.8.0
+content/io/cucumber/messages/messages-27.2.0.buildspec:28.0.0
+content/io/cucumber/query/query-13.3.0.buildspec:13.4.0
 content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.8.2.buildspec:4.9.0
-content/org/hibernate/orm/hibernate-core/hibernate-core-7.0.4.Final.buildspec:7.0.5.Final
+content/org/apache/shiro/shiro-2.0.4.buildspec:2.0.5
+content/org/eclipse/daanse/org.eclipse.daanse.pom.parent/org.eclipse.daanse.pom.parent-0.0.2.buildspec:0.0.3
+content/org/webjars/flexmonster/flexmonster-2.9.106.buildspec:2.9.107

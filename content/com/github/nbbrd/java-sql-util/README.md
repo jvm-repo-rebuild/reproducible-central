@@ -22,6 +22,7 @@ rebuilding **3 releases** of com.github.nbbrd.java-sql-util:java-sql-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.0.7](https://central.sonatype.com/artifact/com.github.nbbrd.java-sql-util/java-sql-parent/1.0.7/pom) | | | |
 | [1.0.6](https://central.sonatype.com/artifact/com.github.nbbrd.java-sql-util/java-sql-parent/1.0.6/pom) | [mvn jdk21](java-sql-util-1.0.6.buildspec) | [result](java-sql-parent-1.0.6.buildinfo): [10 :white_check_mark:  1 :warning:](java-sql-parent-1.0.6.buildcompare) [:mag:](java-sql-parent-1.0.6.diffoscope) | - | 334K |
 | [1.0.5](https://central.sonatype.com/artifact/com.github.nbbrd.java-sql-util/java-sql-parent/1.0.5/pom) | [mvn jdk21](java-sql-util-1.0.5.buildspec) | [result](java-sql-parent-1.0.5.buildinfo): [10 :white_check_mark:  1 :warning:](java-sql-parent-1.0.5.buildcompare) | - | 334K |
 | [1.0.4](https://central.sonatype.com/artifact/com.github.nbbrd.java-sql-util/java-sql-parent/1.0.4/pom) | [mvn jdk21](java-sql-util-1.0.4.buildspec) | [result](java-sql-parent-1.0.4.buildinfo): [10 :white_check_mark:  1 :warning:](java-sql-parent-1.0.4.buildcompare) | - | 320K |

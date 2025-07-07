@@ -3,15 +3,16 @@
   <groupId>com.github.nbbrd.java-sql-util</groupId>
   <artifactId>java-sql-parent</artifactId>
   <versioning>
-    <latest>1.0.6</latest>
-    <release>1.0.6</release>
+    <latest>1.0.7</latest>
+    <release>1.0.7</release>
     <versions>
       <version>1.0.2</version>
       <version>1.0.3</version>
       <version>1.0.4</version>
       <version>1.0.5</version>
       <version>1.0.6</version>
+      <version>1.0.7</version>
     </versions>
-    <lastUpdated>20240627094116</lastUpdated>
+    <lastUpdated>20250707085541</lastUpdated>
   </versioning>
 </metadata>

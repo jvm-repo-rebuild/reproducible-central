@@ -13,6 +13,8 @@ rebuilding **19 releases** of io.cucumber:gherkin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [33.0.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/33.0.0/pom) | | | |
+| [32.2.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/32.2.0/pom) | | | |
 | [32.1.1](https://central.sonatype.com/artifact/io.cucumber/gherkin/32.1.1/pom) | [mvn jdk11](gherkin-32.1.1.buildspec) | [result](gherkin-32.1.1.buildinfo): [3 :white_check_mark: ](gherkin-32.1.1.buildcompare) | | 143K |
 | [32.1.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/32.1.0/pom) | [mvn jdk11](gherkin-32.1.0.buildspec) | [result](gherkin-32.1.0.buildinfo): [3 :white_check_mark: ](gherkin-32.1.0.buildcompare) | | 156K |
 | [32.0.1](https://central.sonatype.com/artifact/io.cucumber/gherkin/32.0.1/pom) | [mvn jdk11](gherkin-32.0.1.buildspec) | [result](gherkin-32.0.1.buildinfo): [3 :white_check_mark: ](gherkin-32.0.1.buildcompare) | | 150K |
