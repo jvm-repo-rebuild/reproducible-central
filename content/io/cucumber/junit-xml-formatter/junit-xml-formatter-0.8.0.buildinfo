@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JUnit XML Formatter
+group-id=io.cucumber
+artifact-id=junit-xml-formatter
+version=0.8.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/junit-xml-formatter.git
+source.scm.tag=v0.8.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.27
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=junit-xml-formatter-0.8.0.pom
+outputs.0.length=4090
+outputs.0.checksums.sha512=98c4ccad1a219896641346239cd03093a561c923954b24636e1ddf59965a0c40ab7c0276ac29093229285c4260043ac9f695fa7092bede38d29a801cc1b77dcf
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=junit-xml-formatter-0.8.0.jar
+outputs.1.length=14168
+outputs.1.checksums.sha512=698a1e20922fc353cf0527ff3f56a5a145d05d4b80a020faf95a48afaeb83afaac7f44459f8fb929e1daed859965846dd4ea224c8d032440ba096ecc9f56e201
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=junit-xml-formatter-0.8.0-sources.jar
+outputs.2.length=7782
+outputs.2.checksums.sha512=fe26922bb7735157e65d6d411288bc952fd964c3dae7b41ac3a135a650f966ff212a714542f5cb8fdc41c12fab91a3f94cbb9ca754567fd04d4ec1c04043b56f
