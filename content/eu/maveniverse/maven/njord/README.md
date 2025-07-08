@@ -20,13 +20,13 @@ Source code: [https://github.com/maveniverse/njord.git](https://github.com/maven
 * [eu.maveniverse.maven.plugins:njord](https://central.sonatype.com/artifact/eu.maveniverse.maven.plugins/njord/overview)
 </details>
 
-rebuilding **27 releases** of eu.maveniverse.maven.njord:njord:
-- **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **28 releases** of eu.maveniverse.maven.njord:njord:
+- **28** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.8.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/0.8.2/pom) | | | |
+| [0.8.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/0.8.2/pom) | [mvn jdk21](njord-0.8.2.buildspec) | [result](njord-0.8.2.buildinfo): [20 :white_check_mark: ](njord-0.8.2.buildcompare) | | 420K |
 | [0.8.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/0.8.1/pom) | | | |
 | [0.8.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/0.8.0/pom) | [mvn jdk21](njord-0.8.0.buildspec) | [result](njord-0.8.0.buildinfo): [20 :white_check_mark: ](njord-0.8.0.buildcompare) | | 417K |
 | [0.7.5](https://central.sonatype.com/artifact/eu.maveniverse.maven.njord/njord/0.7.5/pom) | [mvn jdk21](njord-0.7.5.buildspec) | [result](njord-0.7.5.buildinfo): [20 :white_check_mark: ](njord-0.7.5.buildcompare) | | 416K |
