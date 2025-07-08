@@ -1,0 +1,49 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=io.takari.maven.plugins:takari-lifecycle
+group-id=io.takari.maven.plugins
+artifact-id=takari-lifecycle
+version=2.3.2
+
+# source information
+source.scm.uri=scm:git:git@github.com:takari/takari-lifecycle.git
+source.scm.tag=takari-lifecycle-2.3.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.7
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+mvn.aggregate.artifact-id=takari-lifecycle-plugin
+
+# aggregated output
+
+outputs.0.coordinates=io.takari.maven.plugins:takari-lifecycle
+
+outputs.0.0.groupId=io.takari.maven.plugins
+outputs.0.0.filename=takari-lifecycle-2.3.2.pom
+outputs.0.0.length=4367
+outputs.0.0.checksums.sha512=0147f9c5b5e0f95c371936465753187de99de7c3899b740b7ec17e7feb5e15a431954f4be3f15d060f75920af9780a9dfc6e280ddba0c429954f9f8873688ad2
+
+outputs.1.coordinates=io.takari.maven.plugins:takari-lifecycle-plugin
+
+outputs.1.0.groupId=io.takari.maven.plugins
+outputs.1.0.filename=takari-lifecycle-plugin-2.3.2.pom
+outputs.1.0.length=10611
+outputs.1.0.checksums.sha512=1433eba8607183ce2adbab3197b52a39fc14e405ccbf0d0f3304deec2ac6cfc4161a7936a2600edab09e34e7349c0e69c8981c6d0e1ceba4957c2f8a0f5ff966
+
+outputs.1.1.groupId=io.takari.maven.plugins
+outputs.1.1.filename=takari-lifecycle-plugin-2.3.2.jar
+outputs.1.1.length=311678
+outputs.1.1.checksums.sha512=405f4c9c41571dbee9831a95d3025de89dbeb6f6d5f880cb22822bb11f26a2eec29a368041db222b5e2905c01d49b3c65849780a72d935c33edfa00d1c6d0114
+
+outputs.1.2.groupId=io.takari.maven.plugins
+outputs.1.2.filename=takari-lifecycle-plugin-2.3.2-sources.jar
+outputs.1.2.length=156197
+outputs.1.2.checksums.sha512=f38334ac5a3567f64effb25e64f1303e1e21070547f8170ceb5276fd6e9090a38f5eebcfbd3d36422da9c2c1b30dc6bea0f70fc3038f776e19fe167132de5b6e
