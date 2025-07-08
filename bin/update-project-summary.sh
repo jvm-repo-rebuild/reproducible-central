@@ -165,7 +165,7 @@ done
 echo "rebuilding **${countVersion} releases** of ${groupId}:${artifactId}:" >> ${projectReadme}
 echo "- **${countVersionOk}** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:)," >> ${projectReadme}
 echo "- $((countVersion - countVersionOk)) had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):" >> ${projectReadme}
-echo "- on $((countVersion - countVersionOk)) releases with issues :warning:, $countVersionStabilizedOk had all their unreproducible differences removed when [stabilized](/doc/stabilize.md) :recycle:, $((countVersion - countVersionOk - countVersionStabilizedOk)) still had unreproducible differences when stabilized :rotating_light: or files are not supported by stabilize :no_entry_sign:" >> ${projectReadme}
+echo "- on $((countVersion - countVersionOk)) releases with issues :warning:, $countVersionStabilizedOk had all their unreproducible differences removed when [stabilized](doc/stabilize.md) :recycle:, $((countVersion - countVersionOk - countVersionStabilizedOk)) still had unreproducible differences when stabilized :rotating_light: or files are not supported by stabilize :no_entry_sign:" >> ${projectReadme}
 echo >> ${projectReadme}
 
 echo "| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |" >> ${projectReadme}
