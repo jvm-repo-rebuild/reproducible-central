@@ -1,0 +1,18 @@
+groupId=com.github.nbbrd.java-sql-util
+artifactId=java-sql-parent
+display=com.github.nbbrd.*:java-sql-util
+version=1.0.7
+
+gitRepo=https://github.com/nbbrd/java-sql-util.git
+gitTag=v${version}
+
+tool=mvn
+jdk=21
+newline=lf
+umask=022
+
+command="mvn -Pbase-deploy clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
