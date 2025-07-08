@@ -13,7 +13,9 @@ rebuilding **1 releases** of io.github.jmkeyes:opensaml-message-converter:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.0.1](https://central.sonatype.com/artifact/io.github.jmkeyes/opensaml-message-converter/2.0.1/pom) | | | |
 | [2.0.0](https://central.sonatype.com/artifact/io.github.jmkeyes/opensaml-message-converter/2.0.0/pom) | | | |
+| [1.0.1](https://central.sonatype.com/artifact/io.github.jmkeyes/opensaml-message-converter/1.0.1/pom) | | | |
 | [1.0.0](https://central.sonatype.com/artifact/io.github.jmkeyes/opensaml-message-converter/1.0.0/pom) | | | |
 | [0.10.1](https://central.sonatype.com/artifact/io.github.jmkeyes/opensaml-message-converter/0.10.1/pom) | | | |
 | [0.10.0](https://central.sonatype.com/artifact/io.github.jmkeyes/opensaml-message-converter/0.10.0/pom) | | | |

@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods enabling the verification of reproducible Java builds**](doc/TOOLS.md)
 2) [**A list of reproducible releases available on Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **7802 releases** of **895 projects**:
-   - **5671** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **7809 releases** of **895 projects**:
+   - **5678** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 2131 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 895 projects, 786 have at least one fully reproducible release, 109 have none
 
@@ -280,7 +280,7 @@ Its objectives are to provide:
 | io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 74 | 73 :white_check_mark: / 1 :warning: |
 | io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 93 | 93 :warning: |
 | io.trino | [trino](content/io/trino/README.md) | 31 | 25 :white_check_mark: / 6 :warning: |
-| io.airlift | [airbase](content/io/airlift/airbase/README.md) | 121 | 115 :white_check_mark: / 6 :warning: |
+| io.airlift | [airbase](content/io/airlift/airbase/README.md) | 122 | 116 :white_check_mark: / 6 :warning: |
 | io.avaje | [avaje-applog](content/io/avaje/applog/README.md) | 2 | 2 :white_check_mark: |
 | | [avaje-config](content/io/avaje/config/README.md) | 1 | 1 :white_check_mark: |
 | | [avaje-config-toml](content/io/avaje/config-toml/README.md) | 1 | 1 :white_check_mark: |
@@ -296,13 +296,13 @@ Its objectives are to provide:
 | | [avaje-validator](content/io/avaje/validator/README.md) | 10 | 10 :white_check_mark: |
 | io.cucumber | [ci-environment](content/io/cucumber/ci-environment/README.md) | 3 | 3 :white_check_mark: |
 | | [cucumber-expressions](content/io/cucumber/cucumber-expressions/README.md) | 9 | 9 :white_check_mark: |
-| | [cucumber-jvm](content/io/cucumber/cucumber-jvm/README.md) | 25 | 25 :white_check_mark: |
-| | [gherkin](content/io/cucumber/gherkin/README.md) | 19 | 19 :white_check_mark: |
+| | [cucumber-jvm](content/io/cucumber/cucumber-jvm/README.md) | 26 | 26 :white_check_mark: |
+| | [gherkin](content/io/cucumber/gherkin/README.md) | 21 | 21 :white_check_mark: |
 | | [gherkin-utils](content/io/cucumber/gherkin-utils/README.md) | 9 | 9 :white_check_mark: |
 | | [html-formatter](content/io/cucumber/html-formatter/README.md) | 1 | 1 :warning: |
-| | [junit-xml-formatter](content/io/cucumber/junit-xml-formatter/README.md) | 9 | 9 :white_check_mark: |
-| | [messages](content/io/cucumber/messages/README.md) | 16 | 16 :white_check_mark: |
-| | [query](content/io/cucumber/query/README.md) | 10 | 10 :white_check_mark: |
+| | [junit-xml-formatter](content/io/cucumber/junit-xml-formatter/README.md) | 10 | 10 :white_check_mark: |
+| | [messages](content/io/cucumber/messages/README.md) | 17 | 17 :white_check_mark: |
+| | [query](content/io/cucumber/query/README.md) | 11 | 11 :white_check_mark: |
 | | [tag-expressions](content/io/cucumber/tag-expressions/README.md) | 11 | 11 :white_check_mark: |
 | io.dropwizard | [dropwizard-project](content/io/dropwizard/core/README.md) | 95 | 90 :white_check_mark: / 5 :warning: |
 | io.dropwizard.metrics | [metrics](content/io/dropwizard/metrics/README.md) | 67 | 29 :white_check_mark: / 38 :warning: |
@@ -918,7 +918,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 7 | 7 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 21 | 3 :white_check_mark: / 18 :warning: |
-| **Count:** | **895** | **7802** | **5671** :white_check_mark:<br>**2131** :warning: |
+| **Count:** | **895** | **7809** | **5678** :white_check_mark:<br>**2131** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -936,7 +936,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      35 mvn         7
    1542 mvn         8
       1 mvn         9
-   1528 mvn        11
+   1533 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
@@ -944,7 +944,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn        14
      10 mvn        15
      14 mvn        16
-    643 mvn        17
+    644 mvn        17
       1 mvn        17.0.10
       2 mvn        17.0.11
       1 mvn        17.0.12
@@ -1055,7 +1055,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn-3.9.8  23
      87 mvn-3.9.9   8
      99 mvn-3.9.9  11
-    210 mvn-3.9.9  17
+    211 mvn-3.9.9  17
       2 mvn-3.9.9  18
     294 mvn-3.9.9  21
      13 mvn-3.9.9  21.0.2
