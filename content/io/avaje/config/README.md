@@ -13,6 +13,7 @@ rebuilding **1 releases** of io.avaje:avaje-config:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.2-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-config/4.2-RC1/pom) | | | |
 | [4.1](https://central.sonatype.com/artifact/io.avaje/avaje-config/4.1/pom) | [mvn jdk24 w](avaje-config-4.1.buildspec) | [result](avaje-config-4.1.buildinfo): [3 :white_check_mark: ](avaje-config-4.1.buildcompare) | | 124K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
