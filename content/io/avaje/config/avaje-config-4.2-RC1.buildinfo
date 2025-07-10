@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Avaje Config
+group-id=io.avaje
+artifact-id=avaje-config
+version=4.2-RC1
+
+# source information
+source.scm.uri=scm:git:git@github.com:avaje/avaje-config.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=24.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=io.avaje
+outputs.0.filename=avaje-config-4.2-RC1.pom
+outputs.0.length=3299
+outputs.0.checksums.sha512=a5044a97a36465da6ce32b8bf9edf87d03488bd45a93c2cf96fcacbb8af9aed135eea3e83432b0417faaef09f4e0d16d89d94d0e5287117c87a942ef3bcde4b6
+
+outputs.1.groupId=io.avaje
+outputs.1.filename=avaje-config-4.2-RC1.jar
+outputs.1.length=80976
+outputs.1.checksums.sha512=809baa5c71ec0088e43f239d90039790264ee47c2041960475807e8539a3a43646eb065ccef62e57b3da7176dcff4b24257b3afbfa4663cf551a50bf82f023e0
+
+outputs.2.groupId=io.avaje
+outputs.2.filename=avaje-config-4.2-RC1-sources.jar
+outputs.2.length=43207
+outputs.2.checksums.sha512=4fe6db94aeba03a28fda294116fe773aa54f5d0f244aeb0d2633c2b861b6036874f21ee6f4b5df2f53eb6c94386ad24410afd846ef5fe5b17e9df3742c8ff551
