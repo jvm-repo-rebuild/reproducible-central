@@ -19,13 +19,13 @@ Source code: [https://github.com/nbbrd/java-desktop-util.git](https://github.com
 * [com.github.nbbrd.java-desktop-util:java-desktop-util-swing](https://central.sonatype.com/artifact/com.github.nbbrd.java-desktop-util/java-desktop-util-swing/overview)
 </details>
 
-rebuilding **3 releases** of com.github.nbbrd.java-desktop-util:java-desktop-util-parent:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of com.github.nbbrd.java-desktop-util:java-desktop-util-parent:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.5.0](https://central.sonatype.com/artifact/com.github.nbbrd.java-desktop-util/java-desktop-util-parent/2.5.0/pom) | | | |
+| [2.5.0](https://central.sonatype.com/artifact/com.github.nbbrd.java-desktop-util/java-desktop-util-parent/2.5.0/pom) | [mvn jdk21](java-desktop-util-2.5.0.buildspec) | [result](java-desktop-util-parent-2.5.0.buildinfo): [20 :white_check_mark: ](java-desktop-util-parent-2.5.0.buildcompare) | | 1.2M |
 | [2.4.0](https://central.sonatype.com/artifact/com.github.nbbrd.java-desktop-util/java-desktop-util-parent/2.4.0/pom) | [mvn jdk21](java-desktop-util-2.4.0.buildspec) | [result](java-desktop-util-parent-2.4.0.buildinfo): [20 :white_check_mark: ](java-desktop-util-parent-2.4.0.buildcompare) | | 1.2M |
 | [2.3.2](https://central.sonatype.com/artifact/com.github.nbbrd.java-desktop-util/java-desktop-util-parent/2.3.2/pom) | [mvn jdk21](java-desktop-util-2.3.2.buildspec) | [result](java-desktop-util-parent-2.3.2.buildinfo): [20 :white_check_mark: ](java-desktop-util-parent-2.3.2.buildcompare) | | 1.2M |
 | [2.3.1](https://central.sonatype.com/artifact/com.github.nbbrd.java-desktop-util/java-desktop-util-parent/2.3.1/pom) | [mvn jdk21](java-desktop-util-2.3.1.buildspec) | [result](java-desktop-util-parent-2.3.1.buildinfo): [20 :white_check_mark: ](java-desktop-util-parent-2.3.1.buildcompare) | | 1.2M |

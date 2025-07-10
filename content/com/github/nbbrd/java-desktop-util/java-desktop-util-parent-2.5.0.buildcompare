@@ -1,0 +1,9 @@
+version=2.5.0
+ok=20
+ko=0
+ignored=0
+okFiles="java-desktop-util-parent-2.5.0.pom java-desktop-util-swing-2.5.0.pom java-desktop-util-swing-2.5.0.jar java-desktop-util-swing-2.5.0-sources.jar java-desktop-util-fa-2.5.0.pom java-desktop-util-fa-2.5.0.jar java-desktop-util-fa-2.5.0-sources.jar java-desktop-util-chart-2.5.0.pom java-desktop-util-chart-2.5.0.jar java-desktop-util-chart-2.5.0-sources.jar java-desktop-util-os-2.5.0.pom java-desktop-util-os-2.5.0.jar java-desktop-util-os-2.5.0-sources.jar java-desktop-util-favicon-2.5.0.pom java-desktop-util-favicon-2.5.0.jar java-desktop-util-favicon-2.5.0-sources.jar java-desktop-util-demo-2.5.0.pom java-desktop-util-demo-2.5.0.jar java-desktop-util-demo-2.5.0-sources.jar java-desktop-util-bom-2.5.0.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
