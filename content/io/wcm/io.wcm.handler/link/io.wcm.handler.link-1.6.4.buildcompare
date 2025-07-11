@@ -1,0 +1,19 @@
+version=1.6.4
+ok=1
+ko=4
+ignored=0
+okFiles="io.wcm.handler.link-1.6.4.pom"
+koFiles="io.wcm.handler.link-1.6.4.jar io.wcm.handler.link-1.6.4-sources.jar io.wcm.handler.link-1.6.4-content.zip io.wcm.handler.link-1.6.4-bundle.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/io.wcm/io.wcm.handler.link-1.6.4.jar target/io.wcm.handler.link-1.6.4.jar
+# diffoscope target/reference/io.wcm/io.wcm.handler.link-1.6.4-sources.jar target/io.wcm.handler.link-1.6.4-sources.jar
+# diffoscope target/reference/io.wcm/io.wcm.handler.link-1.6.4-content.zip target/io.wcm.handler.link-1.6.4-content.zip
+# diffoscope target/reference/io.wcm/io.wcm.handler.link-1.6.4-bundle.jar target/io.wcm.handler.link-1.6.4-bundle.jar
+stabilize_ok=0
+stabilize_ko=4
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="io.wcm.handler.link-1.6.4.jar.stabilized io.wcm.handler.link-1.6.4-sources.jar.stabilized io.wcm.handler.link-1.6.4-content.zip.stabilized io.wcm.handler.link-1.6.4-bundle.jar.stabilized"
+stabilize_ignoredFiles=""
