@@ -1,0 +1,267 @@
+1 / 21 target/reference/org.apache.flink/flink-kubernetes-operator-api-1.12.1.jar flink-kubernetes-operator-api/target/flink-kubernetes-operator-api-1.12.1.jar
+--- target/reference/org.apache.flink/flink-kubernetes-operator-api-1.12.1.jar
++++ flink-kubernetes-operator-api/target/flink-kubernetes-operator-api-1.12.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 190397 bytes, number of entries: 130
+│ +Zip file size: 190073 bytes, number of entries: 130
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 META-INF/
+│  -rw-r--r--  2.0 unx      356 b- defN 20-Jan-22 15:10 META-INF/MANIFEST.MF
+│ @@ -16,15 +16,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 META-INF/maven/org.apache.flink/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 META-INF/maven/org.apache.flink/flink-kubernetes-operator-api/
+│ --rw-r--r--  2.0 unx    13409 b- defN 20-Jan-22 15:10 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    11222 b- defN 20-Jan-22 15:10 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 20-Jan-22 15:10 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      186 b- defN 20-Jan-22 15:10 META-INF/NOTICE
+│ @@ -125,8 +125,8 @@
+│  -rw-r--r--  2.0 unx    11930 b- defN 20-Jan-22 15:10 META-INF/maven/org.apache.flink/flink-kubernetes-operator-api/pom.xml
+│  -rw-r--r--  2.0 unx       81 b- defN 20-Jan-22 15:10 META-INF/maven/org.apache.flink/flink-kubernetes-operator-api/pom.properties
+│ -130 files, 1391891 bytes uncompressed, 162629 bytes compressed:  88.3%
+│ +130 files, 1389704 bytes uncompressed, 162305 bytes compressed:  88.3%
+├── META-INF/DEPENDENCIES
+│ @@ -3,23 +3,19 @@
+│  // maven pom organized by organization.
+│  // ------------------------------------------------------------------
+│  
+│  Flink Kubernetes Operator Api
+│  
+│  
+│  From: 'an unknown organization'
+│ -  - Kryo (https://github.com/EsotericSoftware/kryo) com.esotericsoftware.kryo:kryo:bundle:2.24.0
+│ -    License: New BSD License  (http://www.opensource.org/licenses/bsd-license.php)
+│ -  - MinLog (http://code.google.com/p/minlog/) com.esotericsoftware.minlog:minlog:jar:1.2
+│ -    License: New BSD License  (http://www.opensource.org/licenses/bsd-license.php)
+│    - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:1.3.9
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - zjsonpatch (https://github.com/fabric8io/zjsonpatch/) io.fabric8:zjsonpatch:bundle:0.3.0
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - SnakeYAML Engine (https://bitbucket.org/snakeyaml/snakeyaml-engine) org.snakeyaml:snakeyaml-engine:bundle:2.6
+│ +  - SnakeYAML Engine (https://bitbucket.org/snakeyaml/snakeyaml-engine) org.snakeyaml:snakeyaml-engine:bundle:2.7
+│      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - SnakeYAML (https://bitbucket.org/snakeyaml/snakeyaml) org.yaml:snakeyaml:bundle:2.0
+│      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│  From: 'FasterXML' (http://fasterxml.com/)
+│    - Jackson-annotations (https://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-annotations:jar:2.15.0
+│      License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ @@ -28,18 +24,14 @@
+│    - jackson-databind (https://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-databind:jar:2.15.0
+│      License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Jackson-dataformat-YAML (https://github.com/FasterXML/jackson-dataformats-text) com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.15.0
+│      License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Jackson datatype: JSR310 (https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jsr310) com.fasterxml.jackson.datatype:jackson-datatype-jsr310:bundle:2.15.0
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│ -From: 'Joe Walnes, Henri Tremblay, Leonardo Mesquita'
+│ -  - Objenesis (http://objenesis.org) org.objenesis:objenesis:jar:2.1
+│ -    License: Apache 2  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -
+│  From: 'QOS.ch' (http://www.qos.ch)
+│    - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.36
+│      License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+│  
+│  From: 'Red Hat' (https://redhat.com)
+│    - Fabric8 :: Kubernetes :: Java Client (https://github.com/fabric8io/kubernetes-client/kubernetes-client) io.fabric8:kubernetes-client:jar:6.13.2
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ @@ -86,41 +78,25 @@
+│    - Fabric8 :: Kubernetes Model :: Resource (https://github.com/fabric8io/kubernetes-client/kubernetes-model-generator/kubernetes-model-resource) io.fabric8:kubernetes-model-resource:bundle:6.13.2
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Fabric8 :: Kubernetes Model :: Scheduling (https://github.com/fabric8io/kubernetes-client/kubernetes-model-generator/kubernetes-model-scheduling) io.fabric8:kubernetes-model-scheduling:bundle:6.13.2
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Fabric8 :: Kubernetes Model :: Storage Class (https://github.com/fabric8io/kubernetes-client/kubernetes-model-generator/kubernetes-model-storageclass) io.fabric8:kubernetes-model-storageclass:bundle:6.13.2
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│ -From: 'The Apache Software Foundation' (http://www.apache.org/)
+│ -  - Apache Commons Collections (http://commons.apache.org/collections/) commons-collections:commons-collections:jar:3.2.2
+│ -    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -
+│  From: 'The Apache Software Foundation' (https://www.apache.org/)
+│    - Apache Commons IO (https://commons.apache.org/proper/commons-io/) commons-io:commons-io:jar:2.17.0
+│      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Apache Commons Compress (https://commons.apache.org/proper/commons-compress/) org.apache.commons:commons-compress:jar:1.26.0
+│ -    License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache Commons Lang (https://commons.apache.org/proper/commons-lang/) org.apache.commons:commons-lang3:jar:3.12.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Apache Commons Text (https://commons.apache.org/proper/commons-text) org.apache.commons:commons-text:jar:1.10.0
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Flink : Annotations (https://flink.apache.org/flink-annotations) org.apache.flink:flink-annotations:jar:1.20.1
+│      License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Flink : Core (https://flink.apache.org/flink-core) org.apache.flink:flink-core:jar:1.20.1
+│      License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Flink : Core API (https://flink.apache.org/flink-core-api) org.apache.flink:flink-core-api:jar:1.20.1
+│      License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Flink : Metrics : Core (https://flink.apache.org/flink-metrics/flink-metrics-core) org.apache.flink:flink-metrics-core:jar:1.20.1
+│ -    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - flink-shaded-asm-9 (http://flink.apache.org/flink-shaded-asm-9) org.apache.flink:flink-shaded-asm-9:jar:9.5-17.0
+│ -    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - flink-shaded-guava-31 (http://flink.apache.org/flink-shaded-guava) org.apache.flink:flink-shaded-guava:jar:31.1-jre-17.0
+│ -    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - flink-shaded-jackson-2 (http://flink.apache.org/flink-shaded-jackson-parent/flink-shaded-jackson) org.apache.flink:flink-shaded-jackson:jar:2.14.2-17.0
+│ -    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache Log4j API (https://logging.apache.org/log4j/2.x/log4j/log4j-api/) org.apache.logging.log4j:log4j-api:jar:2.23.1
+│      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache Log4j Core (https://logging.apache.org/log4j/2.x/log4j/log4j-core/) org.apache.logging.log4j:log4j-core:jar:2.23.1
+│      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache Log4j SLF4J Binding (https://logging.apache.org/log4j/2.x/log4j/log4j-slf4j-impl/) org.apache.logging.log4j:log4j-slf4j-impl:jar:2.23.1
+│      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+2 / 21 target/reference/org.apache.flink/flink-kubernetes-operator-api-1.12.1-cyclonedx.xml flink-kubernetes-operator-api/target/bom.xml
+--- target/reference/org.apache.flink/flink-kubernetes-operator-api-1.12.1-cyclonedx.xml
++++ flink-kubernetes-operator-api/target/bom.xml
+│   --- target/reference/org.apache.flink/flink-kubernetes-operator-api-1.12.1-cyclonedx.xml
+├── +++ flink-kubernetes-operator-api/target/bom.xml
+│ @@ -2113,15 +2113,15 @@
+│          <reference type="issue-tracker">
+│            <url>https://github.com/apache/logging-log4j2/issues</url>
+│          </reference>
+│          <reference type="mailing-list">
+│            <url>https://lists.apache.org/list.html?log4j-user@logging.apache.org</url>
+│          </reference>
+│          <reference type="vcs">
+│ -          <url>https://github.com/apache/logging-log4j2/log4j/log4j-slf4j-impl</url>
+│ +          <url>https://github.com/apache/logging-log4j2</url>
+│          </reference>
+│        </externalReferences>
+│      </component>
+│      <component type="library" bom-ref="pkg:maven/org.apache.logging.log4j/log4j-api@2.23.1?type=jar">
+│        <publisher>The Apache Software Foundation</publisher>
+│        <group>org.apache.logging.log4j</group>
+│        <name>log4j-api</name>
+│ @@ -2161,15 +2161,15 @@
+│          <reference type="issue-tracker">
+│            <url>https://github.com/apache/logging-log4j2/issues</url>
+│          </reference>
+│          <reference type="mailing-list">
+│            <url>https://lists.apache.org/list.html?log4j-user@logging.apache.org</url>
+│          </reference>
+│          <reference type="vcs">
+│ -          <url>https://github.com/apache/logging-log4j2/log4j/log4j-api</url>
+│ +          <url>https://github.com/apache/logging-log4j2</url>
+│          </reference>
+│        </externalReferences>
+│      </component>
+│      <component type="library" bom-ref="pkg:maven/org.apache.logging.log4j/log4j-core@2.23.1?type=jar">
+│        <publisher>The Apache Software Foundation</publisher>
+│        <group>org.apache.logging.log4j</group>
+│        <name>log4j-core</name>
+│ @@ -2209,15 +2209,15 @@
+│          <reference type="issue-tracker">
+│            <url>https://github.com/apache/logging-log4j2/issues</url>
+│          </reference>
+│          <reference type="mailing-list">
+│            <url>https://lists.apache.org/list.html?log4j-user@logging.apache.org</url>
+│          </reference>
+│          <reference type="vcs">
+│ -          <url>https://github.com/apache/logging-log4j2/log4j/log4j-core</url>
+│ +          <url>https://github.com/apache/logging-log4j2</url>
+│          </reference>
+│        </externalReferences>
+│      </component>
+│      <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.15.0?type=jar">
+│        <publisher>FasterXML</publisher>
+│        <group>com.fasterxml.jackson.core</group>
+│        <name>jackson-annotations</name>
+
+3 / 21 target/reference/org.apache.flink/flink-kubernetes-operator-api-1.12.1-cyclonedx.json flink-kubernetes-operator-api/target/bom.json
+...
+
+4 / 21 target/reference/org.apache.flink/flink-kubernetes-operator-api-1.12.1-sources.jar flink-kubernetes-operator-api/target/flink-kubernetes-operator-api-1.12.1-sources.jar
+--- target/reference/org.apache.flink/flink-kubernetes-operator-api-1.12.1-sources.jar
++++ flink-kubernetes-operator-api/target/flink-kubernetes-operator-api-1.12.1-sources.jar
+├── zipinfo {}
+│ --rw-r--r--  2.0 unx    13409 b- defN 20-Jan-22 15:10 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    11222 b- defN 20-Jan-22 15:10 META-INF/DEPENDENCIES
+
+5 / 21 target/reference/org.apache.flink/flink-kubernetes-operator-api-1.12.1-tests.jar flink-kubernetes-operator-api/target/flink-kubernetes-operator-api-1.12.1-tests.jar
+--- target/reference/org.apache.flink/flink-kubernetes-operator-api-1.12.1-tests.jar
++++ flink-kubernetes-operator-api/target/flink-kubernetes-operator-api-1.12.1-tests.jar
+│ --rw-r--r--  2.0 unx    13409 b- defN 20-Jan-22 15:10 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    11222 b- defN 20-Jan-22 15:10 META-INF/DEPENDENCIES
+
+6 / 21 target/reference/org.apache.flink/flink-kubernetes-operator-1.12.1.jar flink-kubernetes-operator/target/flink-kubernetes-operator-1.12.1.jar
+--- target/reference/org.apache.flink/flink-kubernetes-operator-1.12.1.jar
++++ flink-kubernetes-operator/target/flink-kubernetes-operator-1.12.1.jar
+│ --rw-r--r--  2.0 unx    22700 b- defN 20-Jan-22 15:10 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    21177 b- defN 20-Jan-22 15:10 META-INF/DEPENDENCIES
+
+7 / 21 target/reference/org.apache.flink/flink-kubernetes-operator-1.12.1-cyclonedx.xml flink-kubernetes-operator/target/bom.xml
+8 / 21 target/reference/org.apache.flink/flink-kubernetes-operator-1.12.1-cyclonedx.json flink-kubernetes-operator/target/bom.json
+
+9 / 21 target/reference/org.apache.flink/flink-kubernetes-operator-1.12.1-sources.jar flink-kubernetes-operator/target/flink-kubernetes-operator-1.12.1-sources.jar
+--- target/reference/org.apache.flink/flink-kubernetes-operator-1.12.1-sources.jar
++++ flink-kubernetes-operator/target/flink-kubernetes-operator-1.12.1-sources.jar
+│ --rw-r--r--  2.0 unx    22700 b- defN 20-Jan-22 15:10 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    21177 b- defN 20-Jan-22 15:10 META-INF/DEPENDENCIES
+
+10 / 21 target/reference/org.apache.flink/flink-kubernetes-operator-1.12.1-tests.jar flink-kubernetes-operator/target/flink-kubernetes-operator-1.12.1-tests.jar
+│ --rw-r--r--  2.0 unx    22700 b- defN 20-Jan-22 15:10 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    21177 b- defN 20-Jan-22 15:10 META-INF/DEPENDENCIES
+├── META-INF/DEPENDENCIES
+│ @@ -11,36 +11,20 @@
+│      License: New BSD License  (http://www.opensource.org/licenses/bsd-license.php)
+│    - MinLog (http://code.google.com/p/minlog/) com.esotericsoftware.minlog:minlog:jar:1.2
+│      License: New BSD License  (http://www.opensource.org/licenses/bsd-license.php)
+│    - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:1.3.9
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - OkHttp Logging Interceptor (https://github.com/square/okhttp/logging-interceptor) com.squareup.okhttp3:logging-interceptor:jar:3.12.12
+│      License: Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - okhttp (https://square.github.io/okhttp/) com.squareup.okhttp3:okhttp:jar:4.12.0
+│ -    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - okio (https://github.com/square/okio/) com.squareup.okio:okio:jar:3.6.0
+│ -    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - okio (https://github.com/square/okio/) com.squareup.okio:okio-jvm:jar:3.6.0
+│ -    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - zjsonpatch (https://github.com/fabric8io/zjsonpatch/) io.fabric8:zjsonpatch:bundle:0.3.0
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Operator SDK - Framework - Plain Java (https://github.com/operator-framework/java-operator-sdk/operator-framework) io.javaoperatorsdk:operator-framework:jar:4.9.4
+│      License: Apache 2 License  (https://www.apache.org/licenses/LICENSE-2.0.html)
+│    - Operator SDK - Framework - Core (https://github.com/operator-framework/java-operator-sdk/operator-framework-core) io.javaoperatorsdk:operator-framework-core:jar:4.9.4
+│      License: Apache 2 License  (https://www.apache.org/licenses/LICENSE-2.0.html)
+│ -  - IntelliJ IDEA Annotations (http://www.jetbrains.org) org.jetbrains:annotations:jar:13.0
+│ -    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Kotlin Stdlib (https://kotlinlang.org/) org.jetbrains.kotlin:kotlin-stdlib:jar:1.8.21
+│ -    License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Kotlin Stdlib Common (https://kotlinlang.org/) org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.9.10
+│ -    License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Kotlin Stdlib Jdk7 (https://kotlinlang.org/) org.jetbrains.kotlin:kotlin-stdlib-jdk7:jar:1.8.21
+│ -    License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Kotlin Stdlib Jdk8 (https://kotlinlang.org/) org.jetbrains.kotlin:kotlin-stdlib-jdk8:jar:1.8.21
+│ -    License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - LZ4 and xxHash (https://github.com/lz4/lz4-java) org.lz4:lz4-java:jar:1.8.0
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - quartz (https://www.quartz-scheduler.org/) org.quartz-scheduler:quartz:jar:2.4.0
+│      License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - SnakeYAML Engine (https://bitbucket.org/snakeyaml/snakeyaml-engine) org.snakeyaml:snakeyaml-engine:bundle:2.6
+│      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - SnakeYAML (https://bitbucket.org/snakeyaml/snakeyaml) org.yaml:snakeyaml:bundle:2.0
+
+11 / 21 target/reference/org.apache.flink/flink-kubernetes-webhook-1.12.1.jar flink-kubernetes-webhook/target/flink-kubernetes-webhook-1.12.1.jar
+--- target/reference/org.apache.flink/flink-kubernetes-webhook-1.12.1.jar
++++ flink-kubernetes-webhook/target/flink-kubernetes-webhook-1.12.1.jar
+│ --rw-r--r--  2.0 unx    11044 b- defN 20-Jan-22 15:10 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx      598 b- defN 20-Jan-22 15:10 META-INF/DEPENDENCIES
+
+12 / 21 target/reference/org.apache.flink/flink-kubernetes-webhook-1.12.1-shaded.jar flink-kubernetes-webhook/target/flink-kubernetes-webhook-1.12.1-shaded.jar
+--- target/reference/org.apache.flink/flink-kubernetes-webhook-1.12.1-shaded.jar
++++ flink-kubernetes-webhook/target/flink-kubernetes-webhook-1.12.1-shaded.jar
+├── zipinfo {}
+│ @@ -1,70 +1,70 @@
+│ -Zip file size: 64567 bytes, number of entries: 68
+│ --rw----     2.0 fat      430 bX defN 25-Jul-03 11:10 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat        0 bl defN 25-Jul-03 11:10 META-INF/
+│ --rw----     2.0 fat    11044 bl defN 20-Jan-22 15:10 META-INF/DEPENDENCIES
+│ +Zip file size: 63466 bytes, number of entries: 68
+│ +-rw----     2.0 fat      430 bX defN 25-Jul-11 08:02 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat        0 bl defN 25-Jul-11 08:02 META-INF/
+│ +-rw----     2.0 fat      598 bl defN 20-Jan-22 15:10 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 20-Jan-22 15:10 META-INF/LICENSE
+│  -rw----     2.0 fat     1302 bl defN 20-Jan-22 15:10 log4j2.properties
+│ --rw----     2.0 fat        0 bl defN 25-Jul-03 11:10 org/
+│ --rw----     2.0 fat        0 bl defN 25-Jul-03 11:10 org/apache/
+...
+│ --rw----     2.0 fat        0 bl defN 25-Jul-03 11:10 META-INF/maven/org.apache.flink/
+│ --rw----     2.0 fat        0 bl defN 25-Jul-03 11:10 META-INF/maven/org.apache.flink/flink-kubernetes-webhook/
+│ +-rw----     2.0 fat        0 bl defN 25-Jul-11 08:02 org/
+│ +-rw----     2.0 fat        0 bl defN 25-Jul-11 08:02 org/apache/
+...
