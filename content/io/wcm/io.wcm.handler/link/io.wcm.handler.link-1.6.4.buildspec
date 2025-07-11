@@ -1,0 +1,19 @@
+groupId=io.wcm
+artifactId=io.wcm.handler.link
+display=${groupId}:${artifactId}
+version=1.6.4
+
+gitRepo=https://github.com/wcm-io/${artifactId}.git
+gitTag=${version}
+
+tool=mvn-3.9.4
+jdk=11
+newline=crlf-nogit
+umask=022
+
+timestamp=2021-06-15T22:36:22+02:00
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dtimestamp=$timestamp"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
