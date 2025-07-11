@@ -24,7 +24,7 @@ rebuilding **14 releases** of io.wcm:io.wcm.handler.link:
 | [1.10.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/1.10.0/pom) | | | |
 | [1.9.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/1.9.2/pom) | [mvn jdk11 w](io.wcm.handler.link-1.9.2.buildspec) | :x: | |
 | [1.9.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/1.9.0/pom) | [mvn jdk11 w](io.wcm.handler.link-1.9.0.buildspec) | :x: | |
-| [1.8.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/1.8.0/pom) | [mvn jdk11 w](io.wcm.handler.link-1.8.0.buildspec) | :x: | |
+| [1.8.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/1.8.0/pom) | [mvn jdk11 w](io.wcm.handler.link-1.8.0.buildspec) | [result](io.wcm.handler.link-1.8.0.buildinfo): [1 :white_check_mark:  4 :warning:](io.wcm.handler.link-1.8.0.buildcompare) | 4 :rotating_light: | 321K |
 | [1.7.4](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/1.7.4/pom) | | | |
 | [1.7.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/1.7.2/pom) | | | |
 | [1.7.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/1.7.0/pom) | | | |
