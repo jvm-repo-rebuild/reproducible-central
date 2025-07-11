@@ -1,0 +1,49 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Media Handler
+group-id=io.wcm
+artifact-id=io.wcm.handler.media
+version=1.13.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/wcm-io-handler.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.27
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.8
+
+# output
+
+outputs.0.groupId=io.wcm
+outputs.0.filename=io.wcm.handler.media-1.13.2.pom
+outputs.0.length=5853
+outputs.0.checksums.sha512=e97dbddd4fdfed59434d078f96b4a7f0207e9aca1dd88ff4bf54cbeb4335d3a5635986bd03d679bbeb92aaee0b00f82abb1e77cb3f1f68327dfc1d2a0ca85506
+
+outputs.1.groupId=io.wcm
+outputs.1.filename=io.wcm.handler.media-1.13.2.jar
+outputs.1.length=310449
+outputs.1.checksums.sha512=53d487e667cf582d53721eab70e69d55a764f1daa4aa751fd5dd9d228dc0329dc4fab4e36e74696a38e178dd6945875642506edd3c290a1191d250ce97b5fa13
+
+outputs.2.groupId=io.wcm
+outputs.2.filename=io.wcm.handler.media-1.13.2-sources.jar
+outputs.2.length=243720
+outputs.2.checksums.sha512=f0e2bd14684dcac0528434662a131fbe6c3874da8fd42daaadb2806542b4ec2204e9ea886a8a6da94d1103c508582ffd19ead080e184041257384390642107a6
+
+outputs.3.groupId=io.wcm
+outputs.3.filename=io.wcm.handler.media-1.13.2-content.zip
+outputs.3.length=88328
+outputs.3.checksums.sha512=09104598005e71fb53325dcc383896498f1a0a1cc9f15f2ee2effe8da56452819d2d157ae885fc2ced2b8e321f69d52b5fb76483fa12c94842d334d2911ddb91
+
+outputs.4.groupId=io.wcm
+outputs.4.filename=io.wcm.handler.media-1.13.2-bundle.jar
+outputs.4.length=279843
+outputs.4.checksums.sha512=06246b5f2a8a2006a85de94ad6e48ce38c18fda2796325c6299e7f47976c42d544a945855a61a758cf9aa1d8f74833b064780915a48c6edca254b4c1da7024d8
