@@ -1,0 +1,34 @@
+1 / 1 target/reference/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure-3.0.5.jar mybatis-spring-boot-autoconfigure/target/mybatis-spring-boot-autoconfigure-3.0.5.jar
+--- target/reference/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure-3.0.5.jar
++++ mybatis-spring-boot-autoconfigure/target/mybatis-spring-boot-autoconfigure-3.0.5.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 37274 bytes, number of entries: 35
+│ +Zip file size: 37275 bytes, number of entries: 35
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jun-10 16:27 META-INF/
+│  -rw-r--r--  2.0 unx     2928 b- defN 25-Jun-10 16:27 META-INF/MANIFEST.MF
+│ @@ -10,15 +10,15 @@
+│  -rw-r--r--  2.0 unx     2320 b- defN 25-Jun-10 16:27 META-INF/spring-autoconfigure-metadata.properties
+│  -rw-r--r--  2.0 unx    28051 b- defN 25-Jun-10 16:27 META-INF/spring-configuration-metadata.json
+│ --rw-r--r--  2.0 unx      872 b- defN 25-Jun-10 16:27 META-INF/spring.factories
+│ +-rw-r--r--  2.0 unx      873 b- defN 25-Jun-10 16:27 META-INF/spring.factories
+│  -rw-r--r--  2.0 unx      352 b- defN 25-Jun-10 16:27 org/mybatis/spring/boot/autoconfigure/ConfigurationCustomizer.class
+│  -rw-r--r--  2.0 unx     7560 b- defN 25-Jun-10 16:27 org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration$AutoConfiguredMapperScannerRegistrar.class
+│ @@ -30,8 +30,8 @@
+│  -rw-r--r--  2.0 unx     4102 b- defN 25-Jun-10 16:27 META-INF/maven/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/pom.xml
+│  -rw-r--r--  2.0 unx       94 b- defN 25-Jun-10 16:27 META-INF/maven/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/pom.properties
+│ -35 files, 101609 bytes uncompressed, 30154 bytes compressed:  70.3%
+│ +35 files, 101610 bytes uncompressed, 30155 bytes compressed:  70.3%
+├── META-INF/spring.factories
+│┄ Ordering differences only
+│ @@ -12,8 +12,8 @@
+│  #    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│  #    See the License for the specific language governing permissions and
+│  #    limitations under the License.
+│  #
+│  
+│  # Depends On Database Initialization Detectors
+│  org.springframework.boot.sql.init.dependency.DependsOnDatabaseInitializationDetector=\
+│ -org.mybatis.spring.boot.autoconfigure.MybatisDependsOnDatabaseInitializationDetector
+│ +org.mybatis.spring.boot.autoconfigure.MybatisDependsOnDatabaseInitializationDetector
+
