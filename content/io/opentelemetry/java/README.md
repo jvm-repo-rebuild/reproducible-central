@@ -7,13 +7,14 @@
 
 Source code: [https://github.com/open-telemetry/opentelemetry-java.git](https://github.com/open-telemetry/opentelemetry-java.git)
 
-<details><summary>This project defines 31 modules:</summary>
+<details><summary>This project defines 32 modules:</summary>
 
 * [io.opentelemetry:opentelemetry-api](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-api/overview)
 * [io.opentelemetry:opentelemetry-api-events](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-api-events/overview)
 * [io.opentelemetry:opentelemetry-api-incubator](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-api-incubator/overview)
 * [io.opentelemetry:opentelemetry-bom](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-bom/overview)
 * [io.opentelemetry:opentelemetry-bom-alpha](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-bom-alpha/overview)
+* [io.opentelemetry:opentelemetry-common](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-common/overview)
 * [io.opentelemetry:opentelemetry-context](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-context/overview)
 * [io.opentelemetry:opentelemetry-exporter-common](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-common/overview)
 * [io.opentelemetry:opentelemetry-exporter-logging](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-logging/overview)
@@ -42,13 +43,13 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java.git](https://
 * [io.opentelemetry:opentelemetry-sdk-trace](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-trace/overview)
 </details>
 
-rebuilding **18 releases** of io.opentelemetry:opentelemetry-sdk:
-- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **19 releases** of io.opentelemetry:opentelemetry-sdk:
+- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.52.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.52.0/pom) | | | |
+| [1.52.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.52.0/pom) | [gradle jdk17](opentelemetry-sdk-1.52.0.buildspec) | [result](opentelemetry-sdk-1.52.0.buildinfo): [86 :white_check_mark: ](opentelemetry-sdk-1.52.0.buildcompare) | | 3.4M |
 | [1.51.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.51.0/pom) | [gradle jdk17](opentelemetry-sdk-1.51.0.buildspec) | [result](opentelemetry-sdk-1.51.0.buildinfo): [83 :white_check_mark: ](opentelemetry-sdk-1.51.0.buildcompare) | | 3.4M |
 | [1.50.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.50.0/pom) | [gradle jdk17](opentelemetry-sdk-1.50.0.buildspec) | [result](opentelemetry-sdk-1.50.0.buildinfo): [83 :white_check_mark: ](opentelemetry-sdk-1.50.0.buildcompare) | | 3.3M |
 | [1.49.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.49.0/pom) | [gradle jdk17](opentelemetry-sdk-1.49.0.buildspec) | [result](opentelemetry-sdk-1.49.0.buildinfo): [83 :white_check_mark: ](opentelemetry-sdk-1.49.0.buildcompare) | | 3.2M |
