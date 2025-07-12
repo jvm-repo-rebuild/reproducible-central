@@ -1,11 +1,6 @@
-content/com/github/nbbrd/java-design-util/java-design-util-1.6.0.buildspec:1.7.0
-content/de/cuioss/cui-parent-pom/cui-parent-pom-1.1.0.buildspec:1.1.1
-content/de/unentscheidbar/migratedb/migratedb-1.4.1.buildspec:1.5.0
-content/eu/maveniverse/maven/toolbox/toolbox-0.11.4.buildspec:0.11.5
+content/io/github/cbarlin/aru/aru-0.2.5.buildspec:0.2.6
+content/io/github/jmkeyes/opensaml-message-converter/opensaml-message-converter-2.0.0.buildspec:2.0.1
 content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.8.2.buildspec:4.9.0
-content/nl/basjes/modbus/modbus-schema-parent/modbus-schema-parent-0.10.0.buildspec:0.11.0
-content/nl/basjes/modbus/devices/modbus-devices-parent/modbus-devices-parent-0.4.1.buildspec:0.5.0
-content/nl/basjes/sunspec/sunspec-device-parent/sunspec-device-parent-0.6.0.buildspec:0.7.0
+content/io/opentelemetry/java/opentelemetry-sdk-1.51.0.buildspec:1.52.0
 content/org/apache/shiro/shiro-2.0.4.buildspec:2.0.5
-content/org/eclipse/daanse/org.eclipse.daanse.pom.parent/org.eclipse.daanse.pom.parent-0.0.2.buildspec:0.0.3
-content/org/mybatis/spring/boot/mybatis-spring-boot/mybatis-spring-boot-3.0.4.buildspec:3.0.5
+content/org/apache/wicket/wicket-parent-10.5.0.buildspec:10.6.0
