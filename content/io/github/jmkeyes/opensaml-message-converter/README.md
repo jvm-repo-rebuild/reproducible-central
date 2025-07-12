@@ -7,8 +7,8 @@
 
 Source code: [https://github.com/jmkeyes/opensaml-message-converter.git](https://github.com/jmkeyes/opensaml-message-converter.git)
 
-rebuilding **8 releases** of io.github.jmkeyes:opensaml-message-converter:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of io.github.jmkeyes:opensaml-message-converter:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
@@ -22,7 +22,7 @@ rebuilding **8 releases** of io.github.jmkeyes:opensaml-message-converter:
 | [0.10.0](https://central.sonatype.com/artifact/io.github.jmkeyes/opensaml-message-converter/0.10.0/pom) | [mvn jdk17](opensaml-message-converter-0.10.0.buildspec) | [result](opensaml-message-converter-0.10.0.buildinfo): [3 :white_check_mark: ](opensaml-message-converter-0.10.0.buildcompare) | | 18K |
 | [0.9.10](https://central.sonatype.com/artifact/io.github.jmkeyes/opensaml-message-converter/0.9.10/pom) | [mvn jdk17](opensaml-message-converter-0.9.10.buildspec) | [result](opensaml-message-converter-0.9.10.buildinfo): [2 :white_check_mark: ](opensaml-message-converter-0.9.10.buildcompare) | | 13K |
 | [0.9.9](https://central.sonatype.com/artifact/io.github.jmkeyes/opensaml-message-converter/0.9.9/pom) | [mvn jdk17](opensaml-message-converter-0.9.9.buildspec) | [result](opensaml-message-converter-0.9.9.buildinfo): [2 :white_check_mark: ](opensaml-message-converter-0.9.9.buildcompare) | | 13K |
-| [0.9.8](https://central.sonatype.com/artifact/io.github.jmkeyes/opensaml-message-converter/0.9.8/pom) | | | |
+| [0.9.8](https://central.sonatype.com/artifact/io.github.jmkeyes/opensaml-message-converter/0.9.8/pom) | [mvn jdk17](opensaml-message-converter-0.9.8.buildspec) | [result](opensaml-message-converter-0.9.8.buildinfo): [2 :white_check_mark: ](opensaml-message-converter-0.9.8.buildcompare) | | 13K |
 | [0.9.7](https://central.sonatype.com/artifact/io.github.jmkeyes/opensaml-message-converter/0.9.7/pom) | [mvn jdk17](opensaml-message-converter-0.9.7.buildspec) | [result](opensaml-message-converter-0.9.7.buildinfo): [2 :white_check_mark:  1 :warning:](opensaml-message-converter-0.9.7.buildcompare) | 1 :rotating_light: | 18K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
