@@ -11,8 +11,9 @@ jdk=21
 newline=crlf
 #umask=022
 
-command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dlicense.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
+execBefore="chmod a-x mybatis-spring-boot-test-autoconfigure/src/main/resources/META-INF/spring.factories"
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=
