@@ -8,3 +8,9 @@ ignoredFiles=""
 reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
 # diffoscope target/reference/io.github.jmkeyes/opensaml-message-converter-0.9.7-sources.jar target/opensaml-message-converter-0.9.7-sources.jar
+stabilize_ok=0
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="opensaml-message-converter-0.9.7-sources.jar.stabilized"
+stabilize_ignoredFiles=""
