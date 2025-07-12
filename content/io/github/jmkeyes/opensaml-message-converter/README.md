@@ -7,8 +7,8 @@
 
 Source code: [https://github.com/jmkeyes/opensaml-message-converter.git](https://github.com/jmkeyes/opensaml-message-converter.git)
 
-rebuilding **6 releases** of io.github.jmkeyes:opensaml-message-converter:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of io.github.jmkeyes:opensaml-message-converter:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
@@ -18,7 +18,7 @@ rebuilding **6 releases** of io.github.jmkeyes:opensaml-message-converter:
 | [1.0.1](https://central.sonatype.com/artifact/io.github.jmkeyes/opensaml-message-converter/1.0.1/pom) | [mvn jdk17](opensaml-message-converter-1.0.1.buildspec) | [result](opensaml-message-converter-1.0.1.buildinfo): [3 :white_check_mark: ](opensaml-message-converter-1.0.1.buildcompare) | | 18K |
 | [1.0.0](https://central.sonatype.com/artifact/io.github.jmkeyes/opensaml-message-converter/1.0.0/pom) | [mvn jdk17](opensaml-message-converter-1.0.0.buildspec) | [result](opensaml-message-converter-1.0.0.buildinfo): [3 :white_check_mark: ](opensaml-message-converter-1.0.0.buildcompare) | | 18K |
 | [0.10.1](https://central.sonatype.com/artifact/io.github.jmkeyes/opensaml-message-converter/0.10.1/pom) | [mvn jdk17](opensaml-message-converter-0.10.1.buildspec) | [result](opensaml-message-converter-0.10.1.buildinfo): [3 :white_check_mark: ](opensaml-message-converter-0.10.1.buildcompare) | | 18K |
-| [0.10.0](https://central.sonatype.com/artifact/io.github.jmkeyes/opensaml-message-converter/0.10.0/pom) | | | |
+| [0.10.0](https://central.sonatype.com/artifact/io.github.jmkeyes/opensaml-message-converter/0.10.0/pom) | [mvn jdk17](opensaml-message-converter-0.10.0.buildspec) | [result](opensaml-message-converter-0.10.0.buildinfo): [3 :white_check_mark: ](opensaml-message-converter-0.10.0.buildcompare) | | 18K |
 | [0.9.10](https://central.sonatype.com/artifact/io.github.jmkeyes/opensaml-message-converter/0.9.10/pom) | | | |
 | [0.9.9](https://central.sonatype.com/artifact/io.github.jmkeyes/opensaml-message-converter/0.9.9/pom) | | | |
 | [0.9.8](https://central.sonatype.com/artifact/io.github.jmkeyes/opensaml-message-converter/0.9.8/pom) | | | |
