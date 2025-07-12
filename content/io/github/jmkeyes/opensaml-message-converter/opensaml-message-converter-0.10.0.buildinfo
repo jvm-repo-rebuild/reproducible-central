@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=opensaml-message-converter
+group-id=io.github.jmkeyes
+artifact-id=opensaml-message-converter
+version=0.10.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/jmkeyes/opensaml-message-converter.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.15
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=io.github.jmkeyes
+outputs.0.filename=opensaml-message-converter-0.10.0.pom
+outputs.0.length=6794
+outputs.0.checksums.sha512=1dd6d4c96aec950a2174c024968137e57f7fb6a391b72f2169f262d68e07c24dee7e261230cd56792d87541a1f3f3ef6b50ccee895f0665ec3a4cab75d959948
+
+outputs.1.groupId=io.github.jmkeyes
+outputs.1.filename=opensaml-message-converter-0.10.0.jar
+outputs.1.length=5814
+outputs.1.checksums.sha512=1d78a1c8cb61195c2bf6a0e02922bbaf2b7e9e322695935c3c48ae8fcf946fac709bb43efdc58b9f2e0a0cb34d95e83a8afd2cf7ae1a7fcf32fcf5e3a2baa4e1
+
+outputs.2.groupId=io.github.jmkeyes
+outputs.2.filename=opensaml-message-converter-0.10.0-sources.jar
+outputs.2.length=4900
+outputs.2.checksums.sha512=19e4278d25d82e4ade93abf178894a5d710efc37556d21e5beb39a07db1801d40cec2b5f06f4268bf48db7d14b423da1f33c1f2457e4760bf056f6ece148ba04
