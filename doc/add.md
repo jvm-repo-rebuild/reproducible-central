@@ -4,14 +4,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250712183448 --> [wicket-parent](../content/org/apache/wicket/README.md) | [10.5.0](../content/org/apache/wicket/wicket-parent-10.5.0.buildspec) :white_check_mark: | [10.6.0](../content/org/apache/wicket/wicket-parent-10.6.0.buildspec) | `bin/add-new-release.sh content/org/apache/wicket/wicket-parent-10.5.0.buildspec 10.6.0` |
-| <!-- 20250712102536 --> [aru-parent](../content/io/github/cbarlin/aru/README.md) | [0.2.5](../content/io/github/cbarlin/aru/aru-0.2.5.buildspec) :white_check_mark: | [0.2.6](../content/io/github/cbarlin/aru/aru-0.2.6.buildspec) | `bin/add-new-release.sh content/io/github/cbarlin/aru/aru-0.2.5.buildspec 0.2.6` |
-| <!-- 20250711205553 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | [1.51.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.51.0.buildspec) :white_check_mark: | [1.52.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.52.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/java/opentelemetry-sdk-1.51.0.buildspec 1.52.0` |
-| <!-- 20250708060128 --> [opensaml-message-converter](../content/io/github/jmkeyes/opensaml-message-converter/README.md) | [2.0.0](../content/io/github/jmkeyes/opensaml-message-converter/opensaml-message-converter-2.0.0.buildspec) :white_check_mark: | [2.0.1](../content/io/github/jmkeyes/opensaml-message-converter/opensaml-message-converter-2.0.1.buildspec) | `bin/add-new-release.sh content/io/github/jmkeyes/opensaml-message-converter/opensaml-message-converter-2.0.0.buildspec 2.0.1` |
-| <!-- 20250708060128 --> [opensaml-message-converter](../content/io/github/jmkeyes/opensaml-message-converter/README.md) | [2.0.0](../content/io/github/jmkeyes/opensaml-message-converter/opensaml-message-converter-2.0.0.buildspec) :white_check_mark: | 1.0.1 1.0.0 0.10.1 0.10.0 0.9.10 0.9.9 0.9.8  | `bin/add-new-release.sh content/io/github/jmkeyes/opensaml-message-converter/opensaml-message-converter-2.0.0.buildspec ...` |
-| <!-- 20250707172817 --> [shiro-root](../content/org/apache/shiro/README.md) | [2.0.4](../content/org/apache/shiro/shiro-2.0.4.buildspec) :white_check_mark: | [2.0.5](../content/org/apache/shiro/shiro-2.0.5.buildspec) | `bin/add-new-release.sh content/org/apache/shiro/shiro-2.0.4.buildspec 2.0.5` |
-| <!-- 20250702224739 --> [env-config](../content/com/github/sitture/env-config/README.md) | [1.15.0](../content/com/github/sitture/env-config/env-config-1.15.0.buildspec) :white_check_mark: | 1.7.0  | `bin/add-new-release.sh content/com/github/sitture/env-config/env-config-1.15.0.buildspec ...` |
-| <!-- 20250630222933 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [11.6-RC5](../content/io/avaje/inject/avaje-inject-11.6-RC5.buildspec) :white_check_mark: | 11.5-javax  | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-11.6-RC5.buildspec ...` |
+| <!-- 20250713040341 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [11.6-RC5](../content/io/avaje/inject/avaje-inject-11.6-RC5.buildspec) :white_check_mark: | [11.6-RC6](../content/io/avaje/inject/avaje-inject-11.6-RC6.buildspec) | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-11.6-RC5.buildspec 11.6-RC6` |
+| <!-- 20250713010934 --> [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | [4.0.0.Beta1](../content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.0.0.Beta1.buildspec) :white_check_mark: | 3.0.4.Final  | `bin/add-new-release.sh content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.0.0.Beta1.buildspec ...` |
+| <!-- 20250713003135 --> [hibernate-core](../content/org/hibernate/orm/hibernate-core/README.md) | [7.0.5.Final](../content/org/hibernate/orm/hibernate-core/hibernate-core-7.0.5.Final.buildspec) :white_check_mark: | [7.0.6.Final](../content/org/hibernate/orm/hibernate-core/hibernate-core-7.0.6.Final.buildspec) | `bin/add-new-release.sh content/org/hibernate/orm/hibernate-core/hibernate-core-7.0.5.Final.buildspec 7.0.6.Final` |
 | <!-- 20250619152553 --> [micronaut-maven-plugin](../content/io/micronaut/maven/micronaut-maven-plugin/README.md) | [4.8.2](../content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.8.2.buildspec) :white_check_mark: | [4.9.0](../content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.9.0.buildspec) | `bin/add-new-release.sh content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.8.2.buildspec 4.9.0` |
 <!-- END GENERATED ADD OK -->
 
@@ -44,6 +39,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20250713194124 --> [jpmml-transpiler](../content/org/jpmml/jpmml-transpiler/README.md) | [1.4.2](../content/org/jpmml/jpmml-transpiler/jpmml-transpiler-1.4.2.buildspec) :warning: | [1.4.3](../content/org/jpmml/jpmml-transpiler/jpmml-transpiler-1.4.3.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-transpiler/jpmml-transpiler-1.4.2.buildspec 1.4.3` |
+| <!-- 20250713182451 --> [jpmml-converter](../content/org/jpmml/jpmml-converter/README.md) | [1.6.2](../content/org/jpmml/jpmml-converter/jpmml-converter-1.6.2.buildspec) :warning: | [1.6.3](../content/org/jpmml/jpmml-converter/jpmml-converter-1.6.3.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-converter/jpmml-converter-1.6.2.buildspec 1.6.3` |
+| <!-- 20250713090734 --> [jpmml-evaluator](../content/org/jpmml/jpmml-evaluator/README.md) | [1.7.3](../content/org/jpmml/jpmml-evaluator/jpmml-evaluator-1.7.3.buildspec) :warning: | [1.7.4](../content/org/jpmml/jpmml-evaluator/jpmml-evaluator-1.7.4.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-evaluator/jpmml-evaluator-1.7.3.buildspec 1.7.4` |
 | <!-- 20250711185310 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | [3.0.4](../content/org/mybatis/spring/boot/mybatis-spring-boot-3.0.4.buildspec) :warning: | [3.0.5](../content/org/mybatis/spring/boot/mybatis-spring-boot-3.0.5.buildspec) | `bin/add-new-release.sh content/org/mybatis/spring/boot/mybatis-spring-boot-3.0.4.buildspec 3.0.5` |
 | <!-- 20250711151807 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.90.0](../content/org/finos/legend/engine/legend-engine-4.90.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.90.0` |
 | <!-- 20250709204236 --> [tika](../content/org/apache/tika/README.md) | [3.2.0](../content/org/apache/tika/tika-3.2.0.buildspec) :warning: | [3.2.1](../content/org/apache/tika/tika-3.2.1.buildspec) | `bin/add-new-release.sh content/org/apache/tika/tika-3.2.0.buildspec 3.2.1` |
@@ -69,6 +67,7 @@ New Releases To Add
 | <!-- 20250709222200 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | 2.17.1 :warning: |
 | <!-- 20250709105050 --> [quarkus-project](../content/io/quarkus/README.md) | 3.24.3 :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/48870) |
 | <!-- 20250709095534 --> [flink-kubernetes-operator-parent](../content/org/apache/flink/flink-kubernetes-operator/README.md) | 1.12.1 :warning: |
+| <!-- 20250707172817 --> [shiro-root](../content/org/apache/shiro/README.md) | 2.0.5 :warning: |
 | <!-- 20250707085541 --> [java-sql-parent](../content/com/github/nbbrd/java-sql-util/README.md) | 1.0.7 :warning: |
 | <!-- 20250707082738 --> [flexmonster](../content/org/webjars/flexmonster/README.md) | 2.9.107 :x: |
 | <!-- 20250706160140 --> [plotsquared-bukkit](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/README.md) | 7.5.4 :x: |
@@ -114,7 +113,6 @@ New Releases To Add
 | <!-- 20250427185522 --> [jena](../content/org/apache/jena/jena/README.md) | 5.4.0 :warning: |
 | <!-- 20250427011857 --> [klass](../content/cool/klass/README.md) | 0.5.0 :warning: [:memo:](https://github.com/liftwizard/klass/issues/425) |
 | <!-- 20250426180940 --> [com.io7m.primogenitor](../content/com/io7m/primogenitor/README.md) | 8.5.0 :warning: |
-| <!-- 20250425202957 --> [jpmml-transpiler](../content/org/jpmml/jpmml-transpiler/README.md) | 1.4.2 :warning: |
 | <!-- 20250423191555 --> [bitcoin-commons](../content/net/osslabz/bitcoin-commons/README.md) | 0.3.0 :warning: |
 | <!-- 20250423122320 --> [turnstile-siteverify-client](../content/net/osslabz/turnstile-siteverify-client/README.md) | 0.4.0 :warning: |
 | <!-- 20250422082642 --> [crypto-commons](../content/net/osslabz/crypto-commons/README.md) | 0.6.4 :warning: [:memo:](https://github.com/osslabz/crypto-commons/pull/54) |
@@ -129,8 +127,6 @@ New Releases To Add
 | <!-- 20250410085949 --> [fediz](../content/org/apache/cxf/fediz/README.md) | 1.7.1 :warning: |
 | <!-- 20250410055157 --> [jpmml-xgboost](../content/org/jpmml/jpmml-xgboost/README.md) | 1.9.1 :warning: |
 | <!-- 20250409102346 --> [jdplus-incubator](../content/eu/europa/ec/joinup/sat/jdplus-incubator/README.md) | 2.3.0 :warning: |
-| <!-- 20250406074630 --> [jpmml-converter](../content/org/jpmml/jpmml-converter/README.md) | 1.6.2 :warning: |
-| <!-- 20250405184719 --> [jpmml-evaluator](../content/org/jpmml/jpmml-evaluator/README.md) | 1.7.3 :warning: |
 | <!-- 20250403121924 --> [winrm-java](../content/org/metricshub/winrm-java/README.md) | 1.1.02 :warning: |
 | <!-- 20250329100934 --> [com.io7m.looseleaf](../content/com/io7m/looseleaf/README.md) | 3.0.0 :warning: [:memo:](https://github.com/mojohaus/buildnumber-maven-plugin/issues/229) |
 | <!-- 20250325094930 --> [camel-k-runtime-project](../content/org/apache/camel/camel-k-runtime/README.md) | 3.15.3 :warning: |

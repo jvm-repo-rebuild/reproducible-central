@@ -20,6 +20,7 @@ rebuilding **9 releases** of org.jpmml:jpmml-converter:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.6.3](https://central.sonatype.com/artifact/org.jpmml/jpmml-converter/1.6.3/pom) | | | |
 | [1.6.2](https://central.sonatype.com/artifact/org.jpmml/jpmml-converter/1.6.2/pom) | [mvn jdk11](jpmml-converter-1.6.2.buildspec) | [result](jpmml-converter-1.6.2.buildinfo): [3 :white_check_mark:  4 :warning:](jpmml-converter-1.6.2.buildcompare) | - | 347K |
 | [1.6.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-converter/1.6.1/pom) | [mvn jdk11](jpmml-converter-1.6.1.buildspec) | [result](jpmml-converter-1.6.1.buildinfo): [3 :white_check_mark:  4 :warning:](jpmml-converter-1.6.1.buildcompare) | - | 344K |
 | [1.6.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-converter/1.6.0/pom) | [mvn jdk11](jpmml-converter-1.6.0.buildspec) | [result](jpmml-converter-1.6.0.buildinfo): [3 :white_check_mark:  4 :warning:](jpmml-converter-1.6.0.buildcompare) | - | 350K |
