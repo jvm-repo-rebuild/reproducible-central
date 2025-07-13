@@ -1,0 +1,56 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-Converter
+group-id=org.jpmml
+artifact-id=jpmml-converter
+version=1.6.3
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-converter.git
+source.scm.tag=1.6.3
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.27
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.6
+mvn.aggregate.artifact-id=pmml-converter-testing
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-converter
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-converter-1.6.3.pom
+outputs.0.0.length=3989
+outputs.0.0.checksums.sha512=f7ec63509bbf20aeeb038d694d7fac283b08ecc389d97195cdbdf3778bf2ce6a3475523e2adec91300196ad75ada4454a6c2a1e74a35a618f390d870c957fc18
+
+outputs.1.coordinates=org.jpmml:pmml-converter
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-converter-1.6.3.pom
+outputs.1.0.length=2057
+outputs.1.0.checksums.sha512=3338c3e0f430107a447d3104692e147770aae5617242e94148420cda7e48cdecc6bac30a352fadee17429c3bc594a7e172d689dbde4f36e4ee5e7ba5d126efb2
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-converter-1.6.3.jar
+outputs.1.1.length=203583
+outputs.1.1.checksums.sha512=18ceea54cad6d560ff24e8e1609a0b05996f232d96d14ca776fd4e54f235de2b1bda78c7151c98b2d842452bd1aa3a18cff0db4c11bd10f9e9446fd5df5d3738
+
+outputs.2.coordinates=org.jpmml:pmml-converter-testing
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-converter-testing-1.6.3.pom
+outputs.2.0.length=1245
+outputs.2.0.checksums.sha512=f4c24d9959e34274f0433e697e64939e389c9d74a4cd23bd7aced24d80b040e3389784d15d64121281ab3b0ffc865c57352e9cf3c9524069c17e38c878c487bc
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-converter-testing-1.6.3.jar
+outputs.2.1.length=8274
+outputs.2.1.checksums.sha512=dc417d9de275c90f4e93e3930cc04f13496872572723bb51a8ba192b52cac348526bf9c6011b2b2dbde00c751672222ce2be10a5d8c85b8e4371c7c66fcb05a8
