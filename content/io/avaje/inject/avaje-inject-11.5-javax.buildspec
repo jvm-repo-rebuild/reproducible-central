@@ -13,7 +13,7 @@ newline=lf
 #umask=022
 
 command="mvn -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
-execBefore="sed -i 's/-i.. -e/-i -E/' jakarta-to-javax.sh && sed -i -e 's/05:18:11Z/08:29:06Z/' pom.xml && ./jakarta-to-javax.sh"
+execBefore="sed -i 's/-i.. -e/-i -E/' jakarta-to-javax.sh && sed -i -e 's/22:52:05Z/22:47:41Z/' pom.xml && ./jakarta-to-javax.sh && unix2dos pom.xml */pom.xml && dos2unix inject/pom.xml"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope
