@@ -1,0 +1,69 @@
+version=2.0.5
+ok=81
+ko=54
+ignored=0
+okFiles="shiro-root-2.0.5.pom shiro-root-2.0.5-build.pom shiro-root-2.0.5-source-release.zip shiro-lang-2.0.5.pom shiro-lang-2.0.5-build.pom shiro-lang-2.0.5.jar shiro-lang-2.0.5-sources.jar shiro-crypto-2.0.5.pom shiro-crypto-2.0.5-build.pom shiro-crypto-core-2.0.5-build.pom shiro-crypto-core-2.0.5.jar shiro-crypto-core-2.0.5-sources.jar shiro-crypto-hash-2.0.5-build.pom shiro-crypto-hash-2.0.5.jar shiro-crypto-hash-2.0.5-sources.jar shiro-crypto-cipher-2.0.5-build.pom shiro-crypto-cipher-2.0.5.jar shiro-crypto-cipher-2.0.5-sources.jar shiro-crypto-cipher-2.0.5-jakarta.jar shiro-crypto-support-2.0.5.pom shiro-crypto-support-2.0.5-build.pom shiro-hashes-argon2-2.0.5-build.pom shiro-hashes-argon2-2.0.5.jar shiro-hashes-argon2-2.0.5-sources.jar shiro-hashes-bcrypt-2.0.5-build.pom shiro-hashes-bcrypt-2.0.5.jar shiro-hashes-bcrypt-2.0.5-sources.jar shiro-event-2.0.5-build.pom shiro-event-2.0.5.jar shiro-event-2.0.5-sources.jar shiro-cache-2.0.5-build.pom shiro-cache-2.0.5.jar shiro-cache-2.0.5-sources.jar shiro-config-2.0.5.pom shiro-config-2.0.5-build.pom shiro-config-core-2.0.5-build.pom shiro-config-core-2.0.5.jar shiro-config-core-2.0.5-sources.jar shiro-config-ogdl-2.0.5.pom shiro-config-ogdl-2.0.5-build.pom shiro-config-ogdl-2.0.5.jar shiro-config-ogdl-2.0.5-sources.jar shiro-core-2.0.5-build.pom shiro-core-2.0.5.jar shiro-core-2.0.5-sources.jar shiro-core-2.0.5-jakarta.jar shiro-web-2.0.5-build.pom shiro-web-2.0.5.jar shiro-web-2.0.5-sources.jar shiro-web-2.0.5-jakarta.jar shiro-support-2.0.5.pom shiro-support-2.0.5-build.pom shiro-aspectj-2.0.5-build.pom shiro-jcache-2.0.5-build.pom shiro-jcache-2.0.5.jar shiro-jcache-2.0.5-sources.jar shiro-ehcache-2.0.5-build.pom shiro-ehcache-2.0.5.jar shiro-ehcache-2.0.5-sources.jar shiro-hazelcast-2.0.5-build.pom shiro-hazelcast-2.0.5.jar shiro-hazelcast-2.0.5-sources.jar shiro-quartz-2.0.5-build.pom shiro-spring-2.0.5-build.pom shiro-guice-2.0.5-build.pom shiro-spring-boot-2.0.5.pom shiro-spring-boot-2.0.5-build.pom shiro-spring-boot-starter-2.0.5-build.pom shiro-spring-boot-web-starter-2.0.5-build.pom shiro-servlet-plugin-2.0.5-build.pom shiro-jaxrs-2.0.5-build.pom shiro-features-2.0.5.pom shiro-features-2.0.5-build.pom shiro-features-2.0.5-features.xml shiro-cdi-2.0.5-build.pom shiro-jakarta-ee-2.0.5-build.pom shiro-tools-2.0.5.pom shiro-tools-2.0.5-build.pom shiro-tools-hasher-2.0.5-build.pom shiro-bom-2.0.5.pom shiro-bom-2.0.5-build.pom"
+koFiles="shiro-crypto-core-2.0.5.pom shiro-crypto-hash-2.0.5.pom shiro-crypto-cipher-2.0.5.pom shiro-hashes-argon2-2.0.5.pom shiro-hashes-bcrypt-2.0.5.pom shiro-event-2.0.5.pom shiro-cache-2.0.5.pom shiro-config-core-2.0.5.pom shiro-core-2.0.5.pom shiro-web-2.0.5.pom shiro-aspectj-2.0.5.pom shiro-aspectj-2.0.5.jar shiro-aspectj-2.0.5-sources.jar shiro-jcache-2.0.5.pom shiro-ehcache-2.0.5.pom shiro-hazelcast-2.0.5.pom shiro-quartz-2.0.5.pom shiro-quartz-2.0.5.jar shiro-quartz-2.0.5-sources.jar shiro-spring-2.0.5.pom shiro-spring-2.0.5.jar shiro-spring-2.0.5-sources.jar shiro-spring-2.0.5-jakarta.jar shiro-guice-2.0.5.pom shiro-guice-2.0.5.jar shiro-guice-2.0.5-sources.jar shiro-guice-2.0.5-jakarta.jar shiro-spring-boot-starter-2.0.5.pom shiro-spring-boot-starter-2.0.5.jar shiro-spring-boot-starter-2.0.5-sources.jar shiro-spring-boot-starter-2.0.5-jakarta.jar shiro-spring-boot-web-starter-2.0.5.pom shiro-spring-boot-web-starter-2.0.5.jar shiro-spring-boot-web-starter-2.0.5-sources.jar shiro-spring-boot-web-starter-2.0.5-jakarta.jar shiro-servlet-plugin-2.0.5.pom shiro-servlet-plugin-2.0.5.jar shiro-servlet-plugin-2.0.5-sources.jar shiro-jaxrs-2.0.5.pom shiro-jaxrs-2.0.5.jar shiro-jaxrs-2.0.5-sources.jar shiro-jaxrs-2.0.5-jakarta.jar shiro-cdi-2.0.5.pom shiro-cdi-2.0.5.jar shiro-cdi-2.0.5-jakarta.jar shiro-cdi-2.0.5-sources.jar shiro-jakarta-ee-2.0.5.pom shiro-jakarta-ee-2.0.5.jar shiro-jakarta-ee-2.0.5-jakarta.jar shiro-jakarta-ee-2.0.5-sources.jar shiro-tools-hasher-2.0.5.pom shiro-tools-hasher-2.0.5.jar shiro-tools-hasher-2.0.5-sources.jar shiro-tools-hasher-2.0.5-cli.jar"
+ignoredFiles=""
+reference_java_version="24 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.shiro/shiro-crypto-core-2.0.5.pom crypto/core/target/consumer-7743781949174331717.pom
+# diffoscope target/reference/org.apache.shiro/shiro-crypto-hash-2.0.5.pom crypto/hash/target/consumer-8985085217512163620.pom
+# diffoscope target/reference/org.apache.shiro/shiro-crypto-cipher-2.0.5.pom crypto/cipher/target/consumer-2940706599054738266.pom
+# diffoscope target/reference/org.apache.shiro.crypto/shiro-hashes-argon2-2.0.5.pom crypto/support/hashes/argon2/target/consumer-11280557920786531079.pom
+# diffoscope target/reference/org.apache.shiro.crypto/shiro-hashes-bcrypt-2.0.5.pom crypto/support/hashes/bcrypt/target/consumer-17227800099633724704.pom
+# diffoscope target/reference/org.apache.shiro/shiro-event-2.0.5.pom event/target/consumer-1431762915995828795.pom
+# diffoscope target/reference/org.apache.shiro/shiro-cache-2.0.5.pom cache/target/consumer-4776359921396435910.pom
+# diffoscope target/reference/org.apache.shiro/shiro-config-core-2.0.5.pom config/core/target/consumer-1702074302952748413.pom
+# diffoscope target/reference/org.apache.shiro/shiro-core-2.0.5.pom core/target/consumer-11592653725486097502.pom
+# diffoscope target/reference/org.apache.shiro/shiro-web-2.0.5.pom web/target/consumer-1823461031234401939.pom
+# diffoscope target/reference/org.apache.shiro/shiro-aspectj-2.0.5.pom support/aspectj/target/consumer-13541085397488479397.pom
+# diffoscope target/reference/org.apache.shiro/shiro-aspectj-2.0.5.jar support/aspectj/target/shiro-aspectj-2.0.5.jar
+# diffoscope target/reference/org.apache.shiro/shiro-aspectj-2.0.5-sources.jar support/aspectj/target/shiro-aspectj-2.0.5-sources.jar
+# diffoscope target/reference/org.apache.shiro/shiro-jcache-2.0.5.pom support/jcache/target/consumer-12814910217801683423.pom
+# diffoscope target/reference/org.apache.shiro/shiro-ehcache-2.0.5.pom support/ehcache/target/consumer-16213607758326161065.pom
+# diffoscope target/reference/org.apache.shiro/shiro-hazelcast-2.0.5.pom support/hazelcast/target/consumer-952289272850332968.pom
+# diffoscope target/reference/org.apache.shiro/shiro-quartz-2.0.5.pom support/quartz/target/consumer-6609434139131634583.pom
+# diffoscope target/reference/org.apache.shiro/shiro-quartz-2.0.5.jar support/quartz/target/shiro-quartz-2.0.5.jar
+# diffoscope target/reference/org.apache.shiro/shiro-quartz-2.0.5-sources.jar support/quartz/target/shiro-quartz-2.0.5-sources.jar
+# diffoscope target/reference/org.apache.shiro/shiro-spring-2.0.5.pom support/spring/target/consumer-12296518641817218278.pom
+# diffoscope target/reference/org.apache.shiro/shiro-spring-2.0.5.jar support/spring/target/shiro-spring-2.0.5.jar
+# diffoscope target/reference/org.apache.shiro/shiro-spring-2.0.5-sources.jar support/spring/target/shiro-spring-2.0.5-sources.jar
+# diffoscope target/reference/org.apache.shiro/shiro-spring-2.0.5-jakarta.jar support/spring/target/shiro-spring-2.0.5-jakarta.jar
+# diffoscope target/reference/org.apache.shiro/shiro-guice-2.0.5.pom support/guice/target/consumer-17153088610310844168.pom
+# diffoscope target/reference/org.apache.shiro/shiro-guice-2.0.5.jar support/guice/target/shiro-guice-2.0.5.jar
+# diffoscope target/reference/org.apache.shiro/shiro-guice-2.0.5-sources.jar support/guice/target/shiro-guice-2.0.5-sources.jar
+# diffoscope target/reference/org.apache.shiro/shiro-guice-2.0.5-jakarta.jar support/guice/target/shiro-guice-2.0.5-jakarta.jar
+# diffoscope target/reference/org.apache.shiro/shiro-spring-boot-starter-2.0.5.pom support/spring-boot/spring-boot-starter/target/consumer-2875668576746795207.pom
+# diffoscope target/reference/org.apache.shiro/shiro-spring-boot-starter-2.0.5.jar support/spring-boot/spring-boot-starter/target/shiro-spring-boot-starter-2.0.5.jar
+# diffoscope target/reference/org.apache.shiro/shiro-spring-boot-starter-2.0.5-sources.jar support/spring-boot/spring-boot-starter/target/shiro-spring-boot-starter-2.0.5-sources.jar
+# diffoscope target/reference/org.apache.shiro/shiro-spring-boot-starter-2.0.5-jakarta.jar support/spring-boot/spring-boot-starter/target/shiro-spring-boot-starter-2.0.5-jakarta.jar
+# diffoscope target/reference/org.apache.shiro/shiro-spring-boot-web-starter-2.0.5.pom support/spring-boot/spring-boot-web-starter/target/consumer-10585888757736615054.pom
+# diffoscope target/reference/org.apache.shiro/shiro-spring-boot-web-starter-2.0.5.jar support/spring-boot/spring-boot-web-starter/target/shiro-spring-boot-web-starter-2.0.5.jar
+# diffoscope target/reference/org.apache.shiro/shiro-spring-boot-web-starter-2.0.5-sources.jar support/spring-boot/spring-boot-web-starter/target/shiro-spring-boot-web-starter-2.0.5-sources.jar
+# diffoscope target/reference/org.apache.shiro/shiro-spring-boot-web-starter-2.0.5-jakarta.jar support/spring-boot/spring-boot-web-starter/target/shiro-spring-boot-web-starter-2.0.5-jakarta.jar
+# diffoscope target/reference/org.apache.shiro/shiro-servlet-plugin-2.0.5.pom support/servlet-plugin/target/consumer-14687060140672497377.pom
+# diffoscope target/reference/org.apache.shiro/shiro-servlet-plugin-2.0.5.jar support/servlet-plugin/target/shiro-servlet-plugin-2.0.5.jar
+# diffoscope target/reference/org.apache.shiro/shiro-servlet-plugin-2.0.5-sources.jar support/servlet-plugin/target/shiro-servlet-plugin-2.0.5-sources.jar
+# diffoscope target/reference/org.apache.shiro/shiro-jaxrs-2.0.5.pom support/jaxrs/target/consumer-7667931770555910914.pom
+# diffoscope target/reference/org.apache.shiro/shiro-jaxrs-2.0.5.jar support/jaxrs/target/shiro-jaxrs-2.0.5.jar
+# diffoscope target/reference/org.apache.shiro/shiro-jaxrs-2.0.5-sources.jar support/jaxrs/target/shiro-jaxrs-2.0.5-sources.jar
+# diffoscope target/reference/org.apache.shiro/shiro-jaxrs-2.0.5-jakarta.jar support/jaxrs/target/shiro-jaxrs-2.0.5-jakarta.jar
+# diffoscope target/reference/org.apache.shiro/shiro-cdi-2.0.5.pom support/cdi/target/consumer-4539996834288949459.pom
+# diffoscope target/reference/org.apache.shiro/shiro-cdi-2.0.5.jar support/cdi/target/shiro-cdi-2.0.5.jar
+# diffoscope target/reference/org.apache.shiro/shiro-cdi-2.0.5-jakarta.jar support/cdi/target/shiro-cdi-2.0.5-jakarta.jar
+# diffoscope target/reference/org.apache.shiro/shiro-cdi-2.0.5-sources.jar support/cdi/target/shiro-cdi-2.0.5-sources.jar
+# diffoscope target/reference/org.apache.shiro/shiro-jakarta-ee-2.0.5.pom support/jakarta-ee/target/consumer-17287404271324708294.pom
+# diffoscope target/reference/org.apache.shiro/shiro-jakarta-ee-2.0.5.jar support/jakarta-ee/target/shiro-jakarta-ee-2.0.5.jar
+# diffoscope target/reference/org.apache.shiro/shiro-jakarta-ee-2.0.5-jakarta.jar support/jakarta-ee/target/shiro-jakarta-ee-2.0.5-jakarta.jar
+# diffoscope target/reference/org.apache.shiro/shiro-jakarta-ee-2.0.5-sources.jar support/jakarta-ee/target/shiro-jakarta-ee-2.0.5-sources.jar
+# diffoscope target/reference/org.apache.shiro.tools/shiro-tools-hasher-2.0.5.pom tools/hasher/target/consumer-5213803489957166915.pom
+# diffoscope target/reference/org.apache.shiro.tools/shiro-tools-hasher-2.0.5.jar tools/hasher/target/shiro-tools-hasher-2.0.5.jar
+# diffoscope target/reference/org.apache.shiro.tools/shiro-tools-hasher-2.0.5-sources.jar tools/hasher/target/shiro-tools-hasher-2.0.5-sources.jar
+# diffoscope target/reference/org.apache.shiro.tools/shiro-tools-hasher-2.0.5-cli.jar tools/hasher/target/shiro-tools-hasher-2.0.5-cli.jar
+stabilize_ok=0
+stabilize_ko=54
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="shiro-crypto-core-2.0.5.pom.stabilized shiro-crypto-hash-2.0.5.pom.stabilized shiro-crypto-cipher-2.0.5.pom.stabilized shiro-hashes-argon2-2.0.5.pom.stabilized shiro-hashes-bcrypt-2.0.5.pom.stabilized shiro-event-2.0.5.pom.stabilized shiro-cache-2.0.5.pom.stabilized shiro-config-core-2.0.5.pom.stabilized shiro-core-2.0.5.pom.stabilized shiro-web-2.0.5.pom.stabilized shiro-aspectj-2.0.5.pom.stabilized shiro-aspectj-2.0.5.jar.stabilized shiro-aspectj-2.0.5-sources.jar.stabilized shiro-jcache-2.0.5.pom.stabilized shiro-ehcache-2.0.5.pom.stabilized shiro-hazelcast-2.0.5.pom.stabilized shiro-quartz-2.0.5.pom.stabilized shiro-quartz-2.0.5.jar.stabilized shiro-quartz-2.0.5-sources.jar.stabilized shiro-spring-2.0.5.pom.stabilized shiro-spring-2.0.5.jar.stabilized shiro-spring-2.0.5-sources.jar.stabilized shiro-spring-2.0.5-jakarta.jar.stabilized shiro-guice-2.0.5.pom.stabilized shiro-guice-2.0.5.jar.stabilized shiro-guice-2.0.5-sources.jar.stabilized shiro-guice-2.0.5-jakarta.jar.stabilized shiro-spring-boot-starter-2.0.5.pom.stabilized shiro-spring-boot-starter-2.0.5.jar.stabilized shiro-spring-boot-starter-2.0.5-sources.jar.stabilized shiro-spring-boot-starter-2.0.5-jakarta.jar.stabilized shiro-spring-boot-web-starter-2.0.5.pom.stabilized shiro-spring-boot-web-starter-2.0.5.jar.stabilized shiro-spring-boot-web-starter-2.0.5-sources.jar.stabilized shiro-spring-boot-web-starter-2.0.5-jakarta.jar.stabilized shiro-servlet-plugin-2.0.5.pom.stabilized shiro-servlet-plugin-2.0.5.jar.stabilized shiro-servlet-plugin-2.0.5-sources.jar.stabilized shiro-jaxrs-2.0.5.pom.stabilized shiro-jaxrs-2.0.5.jar.stabilized shiro-jaxrs-2.0.5-sources.jar.stabilized shiro-jaxrs-2.0.5-jakarta.jar.stabilized shiro-cdi-2.0.5.pom.stabilized shiro-cdi-2.0.5.jar.stabilized shiro-cdi-2.0.5-jakarta.jar.stabilized shiro-cdi-2.0.5-sources.jar.stabilized shiro-jakarta-ee-2.0.5.pom.stabilized shiro-jakarta-ee-2.0.5.jar.stabilized shiro-jakarta-ee-2.0.5-jakarta.jar.stabilized shiro-jakarta-ee-2.0.5-sources.jar.stabilized shiro-tools-hasher-2.0.5.pom.stabilized shiro-tools-hasher-2.0.5.jar.stabilized shiro-tools-hasher-2.0.5-sources.jar.stabilized shiro-tools-hasher-2.0.5-cli.jar.stabilized"
+stabilize_ignoredFiles=""
