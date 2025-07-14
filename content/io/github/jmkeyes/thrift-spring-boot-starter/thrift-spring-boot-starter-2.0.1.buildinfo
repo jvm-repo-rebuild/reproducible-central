@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=thrift-spring-boot-starter
+group-id=io.github.jmkeyes
+artifact-id=thrift-spring-boot-starter
+version=2.0.1
+
+# source information
+source.scm.uri=scm:git:git://github.com/jmkeyes/thrift-spring-boot-starter.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.15
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=io.github.jmkeyes
+outputs.0.filename=thrift-spring-boot-starter-2.0.1.pom
+outputs.0.length=6071
+outputs.0.checksums.sha512=9926a03a95a1d759e40c2e13e6dde314c039b62a3858aa81d53302feb676cecc42c9c0d3261e99e2d4fa5386a34cce92b537eca78a9208330fd6d8062c6c2e90
+
+outputs.1.groupId=io.github.jmkeyes
+outputs.1.filename=thrift-spring-boot-starter-2.0.1.jar
+outputs.1.length=12776
+outputs.1.checksums.sha512=a4697438ec5524f8f53bf3a2bea7f9b3c323703f7fc17b5029c11eafd52a069448b68015d2268d7ae024af22ff9807550e966c97dbbfdb839a7c7162a553c4fc
+
+outputs.2.groupId=io.github.jmkeyes
+outputs.2.filename=thrift-spring-boot-starter-2.0.1-sources.jar
+outputs.2.length=8984
+outputs.2.checksums.sha512=5004e591e6496dc6f1452d8798d282c98950697348abfe8e02e6aca90ceb100178fb5a2a5567b12c84c410213242c3f9f5992daf6948e95cd05af4160543f083
