@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/cucumber/html-formatter.git](https://github.com/cucumber/html-formatter.git)
 
-rebuilding **1 releases** of io.cucumber:html-formatter:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of io.cucumber:html-formatter:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [21.13.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/21.13.0/pom) | | | |
+| [21.13.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/21.13.0/pom) | [mvn jdk11](html-formatter-21.13.0.buildspec) | [result](html-formatter-21.13.0.buildinfo): [3 :white_check_mark: ](html-formatter-21.13.0.buildcompare) | | 563K |
 | [21.12.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/21.12.0/pom) | | | |
 | [21.10.1](https://central.sonatype.com/artifact/io.cucumber/html-formatter/21.10.1/pom) | | | |
 | [21.10.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/21.10.0/pom) | | | |
