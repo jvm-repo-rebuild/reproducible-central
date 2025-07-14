@@ -1,0 +1,18 @@
+groupId=io.github.jmkeyes
+artifactId=thrift-spring-boot-starter
+display=${groupId}:${artifactId}
+version=1.1.0
+
+gitRepo=https://github.com/jmkeyes/${artifactId}.git
+gitTag=${version}
+
+tool=mvn-3.9.9
+jdk=17
+newline=lf
+#umask=022
+
+command="mvn -Pmaven-central clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
