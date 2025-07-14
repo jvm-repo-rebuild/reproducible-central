@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/cucumber/pretty-formatter.git](https://github.com/cucumber/pretty-formatter.git)
 
-rebuilding **2 releases** of io.cucumber:pretty-formatter:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **3 releases** of io.cucumber:pretty-formatter:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [0.3.0](https://central.sonatype.com/artifact/io.cucumber/pretty-formatter/0.3.0/pom) | [mvn jdk11](pretty-formatter-0.3.0.buildspec) | [result](pretty-formatter-0.3.0.buildinfo): [3 :white_check_mark: ](pretty-formatter-0.3.0.buildcompare) | | 61K |
-| [0.2.0](https://central.sonatype.com/artifact/io.cucumber/pretty-formatter/0.2.0/pom) | | | |
+| [0.2.0](https://central.sonatype.com/artifact/io.cucumber/pretty-formatter/0.2.0/pom) | [mvn jdk11](pretty-formatter-0.2.0.buildspec) | [result](pretty-formatter-0.2.0.buildinfo): [3 :white_check_mark: ](pretty-formatter-0.2.0.buildcompare) | | 59K |
 | [0.1.0](https://central.sonatype.com/artifact/io.cucumber/pretty-formatter/0.1.0/pom) | [mvn jdk11](pretty-formatter-0.1.0.buildspec) | [result](pretty-formatter-0.1.0.buildinfo): [3 :white_check_mark: ](pretty-formatter-0.1.0.buildcompare) | | 58K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
