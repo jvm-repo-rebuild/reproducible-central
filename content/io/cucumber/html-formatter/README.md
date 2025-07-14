@@ -7,9 +7,10 @@
 
 Source code: [https://github.com/cucumber/html-formatter.git](https://github.com/cucumber/html-formatter.git)
 
-rebuilding **17 releases** of io.cucumber:html-formatter:
-- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+rebuilding **21 releases** of io.cucumber:html-formatter:
+- **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -29,10 +30,10 @@ rebuilding **17 releases** of io.cucumber:html-formatter:
 | [21.2.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/21.2.0/pom) | [mvn jdk11](html-formatter-21.2.0.buildspec) | [result](html-formatter-21.2.0.buildinfo): [3 :white_check_mark: ](html-formatter-21.2.0.buildcompare) | | 528K |
 | [21.1.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/21.1.0/pom) | [mvn jdk11](html-formatter-21.1.0.buildspec) | [result](html-formatter-21.1.0.buildinfo): [3 :white_check_mark: ](html-formatter-21.1.0.buildcompare) | | 1.2M |
 | [21.0.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/21.0.0/pom) | [mvn jdk11](html-formatter-21.0.0.buildspec) | [result](html-formatter-21.0.0.buildinfo): [3 :white_check_mark: ](html-formatter-21.0.0.buildcompare) | | 1.2M |
-| [20.4.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/20.4.0/pom) | | | |
-| [20.3.1](https://central.sonatype.com/artifact/io.cucumber/html-formatter/20.3.1/pom) | | | |
-| [20.3.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/20.3.0/pom) | | | |
-| [20.2.1](https://central.sonatype.com/artifact/io.cucumber/html-formatter/20.2.1/pom) | | | |
+| [20.4.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/20.4.0/pom) | [mvn jdk11](html-formatter-20.4.0.buildspec) | [result](html-formatter-20.4.0.buildinfo): [3 :white_check_mark: ](html-formatter-20.4.0.buildcompare) | | 1.2M |
+| [20.3.1](https://central.sonatype.com/artifact/io.cucumber/html-formatter/20.3.1/pom) | [mvn jdk11](html-formatter-20.3.1.buildspec) | [result](html-formatter-20.3.1.buildinfo): [3 :white_check_mark: ](html-formatter-20.3.1.buildcompare) | | 1.2M |
+| [20.3.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/20.3.0/pom) | [mvn jdk11](html-formatter-20.3.0.buildspec) | [result](html-formatter-20.3.0.buildinfo): [3 :white_check_mark: ](html-formatter-20.3.0.buildcompare) | | 1.2M |
+| [20.2.1](https://central.sonatype.com/artifact/io.cucumber/html-formatter/20.2.1/pom) | [mvn jdk11](html-formatter-20.2.1.buildspec) | [result](html-formatter-20.2.1.buildinfo): [2 :white_check_mark:  1 :warning:](html-formatter-20.2.1.buildcompare) | 1 :no_entry_sign: | 12K |
 | [20.2.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/20.2.0/pom) | [mvn jdk11](html-formatter-20.2.0.buildspec) | [result](html-formatter-20.2.0.buildinfo): [2 :white_check_mark:  1 :warning:](html-formatter-20.2.0.buildcompare) [:mag:](html-formatter-20.2.0.diffoscope) [:memo:](https://github.com/cucumber/html-formatter/issues/207) | - | 13K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

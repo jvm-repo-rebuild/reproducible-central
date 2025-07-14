@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Cucumber HTML Formatter
+group-id=io.cucumber
+artifact-id=html-formatter
+version=20.3.1
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/html-formatter-java.git
+source.scm.tag=v20.3.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.25
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=html-formatter-20.3.1.pom
+outputs.0.length=3261
+outputs.0.checksums.sha512=28612ad2cd6543dbebde74e4697533574eb46ca995e0ea63f4ba97c5ab3a35af5ae18f7c7478627f32a32197a1123be66259f2c84af0c6e4c84045b48478bd37
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=html-formatter-20.3.1.jar
+outputs.1.length=582609
+outputs.1.checksums.sha512=f74d5e5119622bca8718f9c783286b6a6eac1bb09543160f570346e84d70ecf3b5aefc4accae4d9db5c6701c32a0452f451c41b2a3960cba51c9be5bcb82aff1
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=html-formatter-20.3.1-sources.jar
+outputs.2.length=581040
+outputs.2.checksums.sha512=7cf0cc8c0c26a93c1fce5fd3b8d1f594a3d6a200bef7b5b5a672e5ecb0ce58dc31fae503478d379ceafc4a7084f8e1ce4840d429e6c3ccbd1eed8260cafe96ce
