@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=httpclient-proxy-protocol
+group-id=io.github.jmkeyes
+artifact-id=httpclient-proxy-protocol
+version=0.2.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/jmkeyes/httpclient-proxy-protocol.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.15
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=io.github.jmkeyes
+outputs.0.filename=httpclient-proxy-protocol-0.2.0.pom
+outputs.0.length=5359
+outputs.0.checksums.sha512=665e1c6de1b949c1b5b55f77ba7f2698e184b5fb48fec5f0f28ff31d02cdcb0038bfb748fc8790e21df5ec8ca6d4e9ce8dbab7eb108ae3c46d36a0b71e0cac03
+
+outputs.1.groupId=io.github.jmkeyes
+outputs.1.filename=httpclient-proxy-protocol-0.2.0.jar
+outputs.1.length=4735
+outputs.1.checksums.sha512=1dc1a5224a08d321f43a19d81875c5691fe78899b2f74a660832ef5da346f4e7c333ab0627370da31a4f9accb8cf5608e43b903d4fd0153762930143f2e6a162
+
+outputs.2.groupId=io.github.jmkeyes
+outputs.2.filename=httpclient-proxy-protocol-0.2.0-sources.jar
+outputs.2.length=4430
+outputs.2.checksums.sha512=1aeaed8337cb3436a128d84ab94d26aae2a79702860f2d0e0ef6c6a60b917e8e342a48ca9bb0472abdb9eff39225ab992fb88b3e88a75d9af985f94112b8bc5e
