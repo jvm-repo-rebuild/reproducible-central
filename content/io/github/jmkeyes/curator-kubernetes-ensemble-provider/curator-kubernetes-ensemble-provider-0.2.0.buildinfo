@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=curator-kubernetes-ensemble-provider
+group-id=io.github.jmkeyes
+artifact-id=curator-kubernetes-ensemble-provider
+version=0.2.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/jmkeyes/curator-kubernetes-ensemble-provider.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.15
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=io.github.jmkeyes
+outputs.0.filename=curator-kubernetes-ensemble-provider-0.2.0.pom
+outputs.0.length=5837
+outputs.0.checksums.sha512=8ece9654aa7c73cdf57c410522da6277eddaf53276688599216c9064b1284c5ce737a7df95fa0765850be7894f7f1ec241f1f1510b7cd74c0827ace01dbf4184
+
+outputs.1.groupId=io.github.jmkeyes
+outputs.1.filename=curator-kubernetes-ensemble-provider-0.2.0.jar
+outputs.1.length=5682
+outputs.1.checksums.sha512=026aaa09c71aa9c1837d1f56088626775288f4ff52512f138cfd36368cd884aadc52be1a35f62dedb1e1dc73687aa143b1023560d10304a313a0888c0a924834
+
+outputs.2.groupId=io.github.jmkeyes
+outputs.2.filename=curator-kubernetes-ensemble-provider-0.2.0-sources.jar
+outputs.2.length=4658
+outputs.2.checksums.sha512=c6f294a2a7836fa8468f1f446e004a0ee954aa50b386025c28f9670edf561b9f54a9d5fe9f3a810efa21d0e7717706695dbad7459cf51e1f3e9fc3820e64742f
