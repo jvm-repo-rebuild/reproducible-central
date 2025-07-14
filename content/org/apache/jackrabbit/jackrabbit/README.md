@@ -33,13 +33,13 @@ Source code: [https://github.com/apache/jackrabbit.git](https://github.com/apach
 * [org.apache.jackrabbit:jackrabbit-webdav](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-webdav/overview)
 </details>
 
-rebuilding **16 releases** of org.apache.jackrabbit:jackrabbit-parent:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **17 releases** of org.apache.jackrabbit:jackrabbit-parent:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.23.2-beta](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.23.2-beta/pom) | | | |
+| [2.23.2-beta](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.23.2-beta/pom) | [mvn jdk11](jackrabbit-2.23.2-beta.buildspec) | [result](jackrabbit-2.23.2-beta.buildinfo): [69 :white_check_mark: ](jackrabbit-2.23.2-beta.buildcompare) | | 101M |
 | [2.23.1-beta](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.23.1-beta/pom) | [mvn jdk11](jackrabbit-2.23.1-beta.buildspec) | [result](jackrabbit-2.23.1-beta.buildinfo): [69 :white_check_mark: ](jackrabbit-2.23.1-beta.buildcompare) | | 101M |
 | [2.23.0-beta](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.23.0-beta/pom) | [mvn jdk11](jackrabbit-2.23.0-beta.buildspec) | [result](jackrabbit-2.23.0-beta.buildinfo): [69 :white_check_mark: ](jackrabbit-2.23.0-beta.buildcompare) | | 101M |
 | [2.22.1](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.22.1/pom) | | | |
