@@ -134,13 +134,14 @@ Source code: [https://github.com/apache/pulsar.git](https://github.com/apache/pu
 * [org.apache.pulsar:tiered-storage-parent](https://central.sonatype.com/artifact/org.apache.pulsar/tiered-storage-parent/overview)
 </details>
 
-rebuilding **32 releases** of org.apache.pulsar:pulsar:
+rebuilding **34 releases** of org.apache.pulsar:pulsar:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 32 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 34 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.5](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.5/pom) | | | |
+| [4.0.5](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.5/pom) | [mvn jdk21](pulsar-4.0.5.buildspec) | [result](pulsar-4.0.5.buildinfo): [288 :white_check_mark:  34 :warning:](pulsar-4.0.5.buildcompare) | 3 :recycle: 9 :rotating_light: 22 :no_entry_sign: | 3.8G |
 | [4.0.4](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.4/pom) | [mvn jdk21](pulsar-4.0.4.buildspec) | [result](pulsar-4.0.4.buildinfo): [288 :white_check_mark:  34 :warning:](pulsar-4.0.4.buildcompare) | - | 3.7G |
 | [4.0.3](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.3/pom) | [mvn jdk21](pulsar-4.0.3.buildspec) | [result](pulsar-4.0.3.buildinfo): [288 :white_check_mark:  34 :warning:](pulsar-4.0.3.buildcompare) | - | 3.7G |
 | [4.0.2](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.2/pom) | [mvn jdk21](pulsar-4.0.2.buildspec) | [result](pulsar-4.0.2.buildinfo): [289 :white_check_mark:  33 :warning:](pulsar-4.0.2.buildcompare) | - | 3.7G |
