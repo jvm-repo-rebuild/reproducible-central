@@ -14,7 +14,7 @@ source.scm.tag=v21.13.0
 build-tool=mvn
 
 # effective build environment information
-java.version=11.0.27
+java.version=11.0.25
 java.vendor=Ubuntu
 os.name=Linux
 

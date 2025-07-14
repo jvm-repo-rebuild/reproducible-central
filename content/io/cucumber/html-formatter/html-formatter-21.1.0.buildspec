@@ -1,7 +1,7 @@
 groupId=io.cucumber
 artifactId=html-formatter
 display=${groupId}:${artifactId}
-version=21.13.0
+version=21.1.0
 
 gitRepo=https://github.com/cucumber/${artifactId}.git
 gitTag=v${version}
