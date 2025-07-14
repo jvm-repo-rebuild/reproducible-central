@@ -1,3 +1,9 @@
-content/io/avaje/inject/avaje-inject-11.6-RC5.buildspec:11.6-RC6
-content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.8.2.buildspec:4.9.0
-content/org/hibernate/orm/hibernate-core/hibernate-core-7.0.5.Final.buildspec:7.0.6.Final
+content/com/github/seregamorph/maven-surefire-cached/maven-surefire-cached-0.21.buildspec:0.22
+content/de/cuioss/cui-parent-pom/cui-parent-pom-1.1.1.buildspec:1.1.2
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.2-beta-2.buildspec:11.2.2-beta-3
+content/io/airlift/airbase/airbase-278.buildspec:279
+content/io/cucumber/cucumber-jvm/cucumber-jvm-7.25.0.buildspec:7.26.0
+content/io/github/cbarlin/aru/aru-0.2.6.buildspec:0.3.0
+content/land/oras/oras-java-sdk/oras-java-sdk-0.2.14.buildspec:0.2.15
+content/org/apache/jackrabbit/jackrabbit/jackrabbit-2.23.1-beta.buildspec:2.23.2-beta
+content/org/apache/nifi/nifi-api/nifi-api-2.1.0.buildspec:2.2.0
