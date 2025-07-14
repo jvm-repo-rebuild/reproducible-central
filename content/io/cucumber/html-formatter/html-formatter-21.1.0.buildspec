@@ -1,0 +1,18 @@
+groupId=io.cucumber
+artifactId=html-formatter
+display=${groupId}:${artifactId}
+version=21.1.0
+
+gitRepo=https://github.com/cucumber/${artifactId}.git
+gitTag=v${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -f java/pom.xml -Psign-source-javadoc clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=java/target/${artifactId}-${version}.buildinfo
+execBefore="make prepare"
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
