@@ -1,0 +1,20 @@
+groupId=io.avaje
+artifactId=avaje-inject-parent
+display=${groupId}:$(echo "${artifactId}" | sed -e "s/-parent//")
+version=11.6-RC7
+
+gitRepo=https://github.com/avaje/avaje-inject.git
+gitTag=${version}
+gitTag="git log --all --pretty=format:%H --grep 'Version $version'"
+gitTag=7bb5b05482a6d6dd71ad43a5d539cc9d0d591e09
+
+tool=mvn
+jdk=24
+newline=crlf
+#umask=022
+
+command="mvn -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
