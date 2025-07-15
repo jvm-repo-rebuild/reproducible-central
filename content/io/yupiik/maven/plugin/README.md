@@ -29,6 +29,7 @@ rebuilding **5 releases** of io.yupiik.maven:yupiik-tools-maven-plugin-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.2.9](https://central.sonatype.com/artifact/io.yupiik.maven/yupiik-tools-maven-plugin-parent/1.2.9/pom) | | | |
 | [1.2.8](https://central.sonatype.com/artifact/io.yupiik.maven/yupiik-tools-maven-plugin-parent/1.2.8/pom) | [mvn jdk17](yupiik-tools-maven-plugin-1.2.8.buildspec) | [result](yupiik-tools-maven-plugin-parent-1.2.8.buildinfo): [33 :white_check_mark:  2 :warning:](yupiik-tools-maven-plugin-parent-1.2.8.buildcompare) | - | 61M |
 | [1.2.7](https://central.sonatype.com/artifact/io.yupiik.maven/yupiik-tools-maven-plugin-parent/1.2.7/pom) | [mvn jdk21](yupiik-tools-maven-plugin-1.2.7.buildspec) | [result](yupiik-tools-maven-plugin-parent-1.2.7.buildinfo): [33 :white_check_mark:  2 :warning:](yupiik-tools-maven-plugin-parent-1.2.7.buildcompare) | - | 61M |
 | [1.2.6](https://central.sonatype.com/artifact/io.yupiik.maven/yupiik-tools-maven-plugin-parent/1.2.6/pom) | [mvn jdk21](yupiik-tools-maven-plugin-1.2.6.buildspec) | [result](yupiik-tools-maven-plugin-parent-1.2.6.buildinfo): [33 :white_check_mark:  2 :warning:](yupiik-tools-maven-plugin-parent-1.2.6.buildcompare) | - | 61M |
