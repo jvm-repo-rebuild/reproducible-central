@@ -1,0 +1,16 @@
+version=2.11.12
+ok=3
+ko=1
+ignored=0
+okFiles="org.apache.sling.servlets.resolver-2.11.12.pom org.apache.sling.servlets.resolver-2.11.12-source-release.zip org.apache.sling.servlets.resolver-2.11.12-sources.jar"
+koFiles="org.apache.sling.servlets.resolver-2.11.12.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling/org.apache.sling.servlets.resolver-2.11.12.jar target/org.apache.sling.servlets.resolver-2.11.12.jar
+stabilize_ok=0
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="org.apache.sling.servlets.resolver-2.11.12.jar.stabilized"
+stabilize_ignoredFiles=""

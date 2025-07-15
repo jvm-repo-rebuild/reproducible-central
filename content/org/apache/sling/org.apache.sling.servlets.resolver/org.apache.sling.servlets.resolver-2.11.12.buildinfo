@@ -1,0 +1,49 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Servlets Resolver
+group-id=org.apache.sling
+artifact-id=org.apache.sling.servlets.resolver
+version=2.11.12
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-servlets-resolver.git
+source.scm.tag=org.apache.sling.servlets.resolver-2.11.12
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.15
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.servlets.resolver-2.11.12.pom
+outputs.0.length=17152
+outputs.0.checksums.sha512=7e38c94dc0eeabb6a2b6f78d73cdc2b3c4ecaffaa97e9c42ae75e5316e586c37e00300347c7db7a474c908832568e3f48fc51a3672f01218e3475304b45ab36d
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.servlets.resolver-2.11.12.jar
+outputs.1.length=156409
+outputs.1.checksums.sha512=1feda6b7ec91f9aa968bf1d41234bced93aef154488b62c2bf4b818a24212203c00d12fdbf44c0255c851f1530ed02d8da85089cf7e61baa5667bbde771d67e4
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.servlets.resolver-2.11.12-source-release.zip
+outputs.2.length=175068
+outputs.2.checksums.sha512=6341f6501c1215687c969401c2593ca38a5bc2800b46bcf3c884601a7023db8b37ab1c7063909d053bc0dd9619b191268a928c5e3f637fa277c2d962f8f73c74
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.servlets.resolver-2.11.12-sources.jar
+outputs.3.length=97043
+outputs.3.checksums.sha512=a7982b6b4a96861b12c089f8075beba55c7a8c363e3063aba02162b6c8485aa1254f4aefdcebaad04d74b47af68aff557192b176f7b72753dbdc7e16ab522ab9
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.servlets.resolver-2.11.12-sources.jar
+outputs.4.length=97043
+outputs.4.checksums.sha512=a7982b6b4a96861b12c089f8075beba55c7a8c363e3063aba02162b6c8485aa1254f4aefdcebaad04d74b47af68aff557192b176f7b72753dbdc7e16ab522ab9
