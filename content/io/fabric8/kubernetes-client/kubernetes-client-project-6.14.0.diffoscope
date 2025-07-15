@@ -1,0 +1,48 @@
+1 / 5 target/reference/io.fabric8/kubernetes-model-6.14.0.jar kubernetes-model-generator/kubernetes-model/target/kubernetes-model-6.14.0.jar
+--- target/reference/io.fabric8/kubernetes-model-6.14.0.jar
++++ kubernetes-model-generator/kubernetes-model/target/kubernetes-model-6.14.0.jar
+├── META-INF/MANIFEST.MF
+│ @@ -1,9 +1,9 @@
+│  Manifest-Version: 1.0
+│ -Scm-Revision: b067b898615a594f46ed1fa677b5e5744bfaa45c
+│ +Scm-Revision: 7363cc91d48f604468c326a1746514bd073198d1
+│  Scm-Connection: scm:git:git@github.com:fabric8io/kubernetes-client.git
+│   /kubernetes-model-generator/kubernetes-model
+│  Specification-Vendor: Red Hat
+│  Specification-Title: Fabric8 :: Kubernetes Model
+│  Build-Jdk-Spec: 1.8
+│  Scm-Url: https://github.com/fabric8io/kubernetes-client/kubernetes-mod
+│   el-generator/kubernetes-model/
+
+# same issue with Git commit
+2 / 5 target/reference/io.fabric8/kubernetes-model-jsonschema2pojo-6.14.0.jar kubernetes-model-generator/kubernetes-model-jsonschema2pojo/target/kubernetes-model-jsonschema2pojo-6.14.0.jar
+
+3 / 5 target/reference/io.fabric8/kubernetes-client-6.14.0-bundle.jar kubernetes-client/target/kubernetes-client-6.14.0-bundle.jar
+--- target/reference/io.fabric8/kubernetes-client-6.14.0-bundle.jar
++++ kubernetes-client/target/kubernetes-client-6.14.0-bundle.jar
+├── META-INF/MANIFEST.MF
+│ @@ -249,17 +249,17 @@
+│   org.snakeyaml.engine.v2.common;version="[2.9,3)",org.snakeyaml.engine
+│   .v2.nodes;version="[2.9,3)",org.snakeyaml.engine.v2.representer;versi
+│   on="[2.9,3)",io.fabric8.openshift.client.handlers;resolution:=optiona
+│   l
+│  Include-Resource: /META-INF/services/io.fabric8.kubernetes.client.Serv
+│   iceToURLProvider=target/classes/META-INF/services/io.fabric8.kubernet
+│   es.client.ServiceToURLProvider,OSGI-INF/io.fabric8.kubernetes.client.
+│ - osgi.ManagedKubernetesClient.xml=/home/user/00-MN/projects/forks/kube
+│ - rnetes-client/kubernetes-client/target/classes/OSGI-INF/io.fabric8.ku
+│ - bernetes.client.osgi.ManagedKubernetesClient.xml
+│ + osgi.ManagedKubernetesClient.xml=/var/maven/app/kubernetes-client/tar
+│ + get/classes/OSGI-INF/io.fabric8.kubernetes.client.osgi.ManagedKuberne
+│ + tesClient.xml
+│  Private-Package: io.fabric8.kubernetes.client.internal,io.fabric8.kube
+│   rnetes.client.handlers,io.fabric8.kubernetes.client.dsl.base,io.fabri
+│   c8.kubernetes.client.dsl.internal
+│  Provide-Capability: osgi.serviceloader;osgi.serviceloader="io.fabric8.
+│   kubernetes.client.ServiceToURLProvider"
+│  Require-Capability: osgi.extender;filter:="(osgi.extender=osgi.service
+│   loader.processor)",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+# same issue with full path to resources in the builder's env
+4 / 5 target/reference/io.fabric8/openshift-client-6.14.0-bundle.jar openshift-client/target/openshift-client-6.14.0-bundle.jar
+5 / 5 target/reference/io.fabric8/kubernetes-log4j-6.14.0.jar log4j/target/kubernetes-log4j-6.14.0.jar
