@@ -1,17 +1,17 @@
 groupId=io.avaje
 artifactId=avaje-http-parent
 display=${groupId}:$(echo "${artifactId}" | sed -e "s/-parent//")
-version=3.4-RC1
+version=3.4-RC2
 
 gitRepo=https://github.com/avaje/avaje-http.git
 gitTag=${version}
-gitTag="git log --all --pretty=format:%H --grep 'Version $version'"
+gitTag="git log --all --pretty=format:%H --grep '$version'"
 
 tool=mvn
-jdk=21
-newline=lf
+jdk=24
+newline=crlf
 #umask=022
-timezone="Pacific/Auckland"
+timezone="America/New_York"
 
 command="mvn -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
