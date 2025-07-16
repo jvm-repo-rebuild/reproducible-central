@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/ControlSystemStudio/phoebus](https://github.com/ControlSystemStudio/phoebus)
 
-<details><summary>This project defines 98 modules:</summary>
+<details><summary>This project defines 99 modules:</summary>
 
 * [org.phoebus:app](https://central.sonatype.com/artifact/org.phoebus/app/overview)
 * [org.phoebus:app-3d-viewer](https://central.sonatype.com/artifact/org.phoebus/app-3d-viewer/overview)
@@ -95,6 +95,7 @@ Source code: [https://github.com/ControlSystemStudio/phoebus](https://github.com
 * [org.phoebus:core-ui](https://central.sonatype.com/artifact/org.phoebus/core-ui/overview)
 * [org.phoebus:core-util](https://central.sonatype.com/artifact/org.phoebus/core-util/overview)
 * [org.phoebus:core-vtype](https://central.sonatype.com/artifact/org.phoebus/core-vtype/overview)
+* [org.phoebus:core-websocket](https://central.sonatype.com/artifact/org.phoebus/core-websocket/overview)
 * [org.phoebus:dependencies](https://central.sonatype.com/artifact/org.phoebus/dependencies/overview)
 * [org.phoebus:install-jars](https://central.sonatype.com/artifact/org.phoebus/install-jars/overview)
 * [org.phoebus:parent](https://central.sonatype.com/artifact/org.phoebus/parent/overview)
@@ -109,13 +110,14 @@ Source code: [https://github.com/ControlSystemStudio/phoebus](https://github.com
 * [org.phoebus:services](https://central.sonatype.com/artifact/org.phoebus/services/overview)
 </details>
 
-rebuilding **3 releases** of org.phoebus:parent:
+rebuilding **4 releases** of org.phoebus:parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [5.0.2](https://central.sonatype.com/artifact/org.phoebus/parent/5.0.2/pom) | | | |
+| [5.0.2](https://central.sonatype.com/artifact/org.phoebus/parent/5.0.2/pom) | [mvn jdk17 w](phoebus-5.0.2.buildspec) | [result](parent-5.0.2.buildinfo): [262 :white_check_mark:  7 :warning:](parent-5.0.2.buildcompare) [:mag:](parent-5.0.2.diffoscope) | 5 :rotating_light: 2 :no_entry_sign: | 310M |
 | [5.0.0](https://central.sonatype.com/artifact/org.phoebus/parent/5.0.0/pom) | [mvn jdk17 w](phoebus-5.0.0.buildspec) | [result](parent-5.0.0.buildinfo): [179 :white_check_mark:  87 :warning:](parent-5.0.0.buildcompare) [:memo:](https://github.com/ControlSystemStudio/phoebus/pull/3416) | - | 305M |
 | [4.7.4](https://central.sonatype.com/artifact/org.phoebus/parent/4.7.4/pom) | [mvn jdk17 w](phoebus-4.7.4.buildspec) | [result](parent-4.7.4.buildinfo): [179 :white_check_mark:  87 :warning:](parent-4.7.4.buildcompare) [:mag:](parent-4.7.4.diffoscope) | - | 305M |
 | [4.7.3](https://central.sonatype.com/artifact/org.phoebus/parent/4.7.3/pom) | [mvn jdk11 w](phoebus-4.7.3.buildspec) | [result](parent-4.7.3.buildinfo): [219 :white_check_mark:  8 :warning:](parent-4.7.3.buildcompare) [:mag:](parent-4.7.3.diffoscope) [:memo:](https://github.com/ControlSystemStudio/phoebus/pull/2904) | - | 170M |
