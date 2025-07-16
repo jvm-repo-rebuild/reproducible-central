@@ -1,0 +1,23 @@
+1 / 1 target/reference/io.avaje/avaje-http-client-3.4-RC3-sources.jar http-client/target/avaje-http-client-3.4-RC3-sources.jar
+--- target/reference/io.avaje/avaje-http-client-3.4-RC3-sources.jar
++++ http-client/target/avaje-http-client-3.4-RC3-sources.jar
+├── zipinfo {}
+│ @@ -1,17 +1,14 @@
+│ -Zip file size: 49044 bytes, number of entries: 58
+│ +Zip file size: 48678 bytes, number of entries: 55
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-15 10:34 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 25-Jul-15 10:34 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-15 10:34 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-15 10:34 io/avaje/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-15 10:34 io/avaje/http/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-15 10:34 io/avaje/http/client/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-15 10:34 target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-15 10:34 target/generated-sources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-15 10:34 target/generated-sources/annotations/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-15 10:34 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-15 10:34 META-INF/maven/io.avaje/
+│ @@ -53,8 +50,8 @@
+│  -rw-r--r--  2.0 unx     5093 b- defN 25-Jul-15 10:34 META-INF/maven/io.avaje/avaje-http-client/pom.xml
+│  -rw-r--r--  2.0 unx       62 b- defN 25-Jul-15 10:34 META-INF/maven/io.avaje/avaje-http-client/pom.properties
+│ -58 files, 176831 bytes uncompressed, 40474 bytes compressed:  77.1%
+│ +55 files, 176831 bytes uncompressed, 40474 bytes compressed:  77.1%
