@@ -1,5 +1,4 @@
-content/io/avaje/inject/avaje-inject-11.6-RC6.buildspec:11.6-RC7
-content/io/avaje/jsonb/avaje-jsonb-3.5.buildspec:3.6-RC2
-content/io/yupiik/fusion/fusion-1.0.26.buildspec:1.0.27
-content/org/apache/sling/org.apache.sling.installer.core/org.apache.sling.installer.core-3.14.2.buildspec:3.14.4
-content/org/metricshub/snmp-java/snmp-java-2.0.01.buildspec:2.1.00
+content/com/flowlogix/flowlogix-9.0.10.buildspec:9.0.11
+content/io/avaje/jsonb/avaje-jsonb-3.6-RC2.buildspec:3.6-RC3
+content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.9.0.buildspec:4.10.0
+content/org/apache/maven/enforcer/maven-enforcer-plugin-3.6.0.buildspec:3.6.1
