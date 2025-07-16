@@ -1,0 +1,278 @@
+1 / 7 target/reference/org.phoebus/service-alarm-logger-5.0.2.jar services/alarm-logger/target/service-alarm-logger-5.0.2.jar
+--- target/reference/org.phoebus/service-alarm-logger-5.0.2.jar
++++ services/alarm-logger/target/service-alarm-logger-5.0.2.jar
+├── zipnote «TEMP»/diffoscope_bt41lc8__target/tmpu8oipgnk_.zip
+│ @@ -3,134 +3,578 @@
+│  
+│  Filename: META-INF/MANIFEST.MF
+│  Comment: 
+│  
+│  Filename: org/
+│  Comment: 
+│  
+│ -Filename: org/phoebus/
+│ +Filename: org/springframework/
+│  Comment: 
+│  
+│ -Filename: org/phoebus/alarm/
+│ +Filename: org/springframework/boot/
+│  Comment: 
+│  
+│ -Filename: org/phoebus/alarm/logging/
+│ +Filename: org/springframework/boot/loader/
+│  Comment: 
+│  
+│ -Filename: org/phoebus/alarm/logging/purge/
+│ +Filename: org/springframework/boot/loader/ClassPathIndexFile.class
+│  Comment: 
+│  
+│ -Filename: org/phoebus/alarm/logging/rest/
+│ +Filename: org/springframework/boot/loader/ExecutableArchiveLauncher.class
+│ +Comment: 
+│ +
+│ +Filename: org/springframework/boot/loader/JarLauncher.class
+│ +Comment: 
+│ +
+│ +Filename: org/springframework/boot/loader/LaunchedURLClassLoader$DefinePackageCallType.class
+│ +Comment: 
+│ +
+...
+│ +
+│ +Filename: BOOT-INF/
+│ +Comment: 
+│ +
+│ +Filename: BOOT-INF/classes/
+│ +Comment: 
+│ +
+│ +Filename: BOOT-INF/classes/org/
+│ +Comment: 
+│ +
+...
+│ +
+│ +Filename: BOOT-INF/lib/core-formula-5.0.2.jar
+│ +Comment: 
+│ +
+│ +Filename: BOOT-INF/lib/core-framework-5.0.2.jar
+│ +Comment: 
+│ +
+...
+│ +Filename: BOOT-INF/classpath.idx
+│ +Comment: 
+│ +
+│ +Filename: BOOT-INF/layers.idx
+│ +Comment: 
+│ +
+│  Zip file comment:
+├── filetype from file(1)
+│ @@ -1 +1 @@
+│ -Zip archive data, at least v1.0 to extract, compression method=store
+│ +Java archive data (JAR)
+├── META-INF/MANIFEST.MF
+│ @@ -1,4 +1,11 @@
+│  Manifest-Version: 1.0
+│  Created-By: Maven JAR Plugin 3.3.0
+│  Build-Jdk-Spec: 17
+│ +Main-Class: org.springframework.boot.loader.JarLauncher
+│ +Start-Class: org.phoebus.alarm.logging.AlarmLoggingService
+│ +Spring-Boot-Version: 2.7.9
+│ +Spring-Boot-Classes: BOOT-INF/classes/
+│ +Spring-Boot-Lib: BOOT-INF/lib/
+│ +Spring-Boot-Classpath-Index: BOOT-INF/classpath.idx
+│ +Spring-Boot-Layers-Index: BOOT-INF/layers.idx
+│   --- alarm_logger_logging.properties
+├── +++ BOOT-INF/classes/alarm_logger_logging.properties
+│┄ Files identical despite different names
+│   --- alarms_config_template.json
+...
+
+# javadoc output highly dependent on JDK version
+2 / 7 target/reference/org.phoebus/service-alarm-logger-5.0.2.tar.gz services/alarm-logger/target/service-alarm-logger-5.0.2.tar.gz
+--- target/reference/org.phoebus/service-alarm-logger-5.0.2.tar.gz
++++ services/alarm-logger/target/service-alarm-logger-5.0.2.tar.gz
+├── service-alarm-logger-5.0.2.tar
+│ ├── file list
+│ │ @@ -1,5 +1,5 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)     5197 2025-07-14 19:02:41.000000 service-alarm-logger-5.0.2/README.md
+│ │  -rw-r--r--   0 root         (0) root         (0)      379 2025-07-14 19:02:41.000000 service-alarm-logger-5.0.2/alarm-logger.sh
+│ │ --rw-r--r--   0 root         (0) root         (0)   147620 2025-07-14 19:02:41.000000 service-alarm-logger-5.0.2/service-alarm-logger-5.0.2-javadoc.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)   146565 2025-07-14 19:02:41.000000 service-alarm-logger-5.0.2/service-alarm-logger-5.0.2-javadoc.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    30980 2025-07-14 19:02:41.000000 service-alarm-logger-5.0.2/service-alarm-logger-5.0.2-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    65164 2025-07-14 19:02:41.000000 service-alarm-logger-5.0.2/service-alarm-logger-5.0.2.jar
+│ ├── service-alarm-logger-5.0.2/service-alarm-logger-5.0.2-javadoc.jar
+│ │ ├── zipinfo {}
+│ │ │ @@ -1,80 +1,78 @@
+│ │ │ -Zip file size: 147620 bytes, number of entries: 78
+│ │ │ +Zip file size: 146565 bytes, number of entries: 76
+│ │ │  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-14 19:02 META-INF/
+│ │ │  -rw-r--r--  2.0 unx       86 b- defN 25-Jul-14 19:02 META-INF/MANIFEST.MF
+│ │ │  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-14 19:02 legal/
+│ │ │  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-14 19:02 org/
+│ │ │  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-14 19:02 org/phoebus/
+│ │ │  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-14 19:02 org/phoebus/alarm/
+│ │ │  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-14 19:02 org/phoebus/alarm/logging/
+│ │ │  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-14 19:02 org/phoebus/alarm/logging/class-use/
+│ │ │  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-14 19:02 org/phoebus/alarm/logging/purge/
+│ │ │  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-14 19:02 org/phoebus/alarm/logging/purge/class-use/
+│ │ │  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-14 19:02 org/phoebus/alarm/logging/rest/
+│ │ │  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-14 19:02 org/phoebus/alarm/logging/rest/class-use/
+│ │ │  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-14 19:02 resources/
+│ │ │  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-14 19:02 script-dir/
+│ │ │ --rw-r--r--  2.0 unx     7830 b- defN 25-Jul-14 19:02 allclasses-index.html
+│ │ │ --rw-r--r--  2.0 unx     3199 b- defN 25-Jul-14 19:02 allpackages-index.html
+│ │ │ --rw-r--r--  2.0 unx       92 b- defN 25-Jul-14 19:02 element-list
+│ │ │ --rw-r--r--  2.0 unx     9418 b- defN 25-Jul-14 19:02 help-doc.html
+│ │ │ --rw-r--r--  2.0 unx    34750 b- defN 25-Jul-14 19:02 index-all.html
+│ │ │ --rw-r--r--  2.0 unx     3468 b- defN 25-Jul-14 19:02 index.html
+│ │ │ --rw-r--r--  2.0 unx     1533 b- defN 25-Jul-14 19:02 jquery-ui.overrides.css
+│ │ │ --rw-r--r--  2.0 unx       49 b- defN 25-Jul-14 19:02 legal/ADDITIONAL_LICENSE_INFO
+│ │ │ --rw-r--r--  2.0 unx       44 b- defN 25-Jul-14 19:02 legal/ASSEMBLY_EXCEPTION
+│ │ │ --rw-r--r--  2.0 unx       33 b- defN 25-Jul-14 19:02 legal/LICENSE
+│ │ │ --rw-r--r--  2.0 unx     2936 b- defN 25-Jul-14 19:02 legal/jquery.md
+│ │ │ +-rw-r--r--  2.0 unx     7720 b- defN 25-Jul-14 19:02 allclasses-index.html
+│ │ │ +-rw-r--r--  2.0 unx     3127 b- defN 25-Jul-14 19:02 allpackages-index.html
+│ │ │ +-rw-r--r--  2.0 unx       89 b- defN 25-Jul-14 19:02 element-list
+│ │ │ +-rw-r--r--  2.0 unx     9233 b- defN 25-Jul-14 19:02 help-doc.html
+│ │ │ +-rw-r--r--  2.0 unx    34444 b- defN 25-Jul-14 19:02 index-all.html
+│ │ │ +-rw-r--r--  2.0 unx     3394 b- defN 25-Jul-14 19:02 index.html
+│ │ │ +-rw-r--r--  2.0 unx     1498 b- defN 25-Jul-14 19:02 jquery-ui.overrides.css
+│ │ │ +-rw-r--r--  2.0 unx     1522 b- defN 25-Jul-14 19:02 legal/ASSEMBLY_EXCEPTION
+│ │ │ +-rw-r--r--  2.0 unx     1157 b- defN 25-Jul-14 19:02 legal/jquery.md
+│ │ │  -rw-r--r--  2.0 unx     1870 b- defN 25-Jul-14 19:02 legal/jqueryUI.md
+│ │ │  -rw-r--r--  2.0 unx     8127 b- defN 25-Jul-14 19:02 member-search-index.js
+│ │ │  -rw-r--r--  2.0 unx       45 b- defN 25-Jul-14 19:02 module-search-index.js
+│ │ │ --rw-r--r--  2.0 unx    11991 b- defN 25-Jul-14 19:02 org/phoebus/alarm/logging/AlarmCmdLogger.html
+│ │ │ --rw-r--r--  2.0 unx    11022 b- defN 25-Jul-14 19:02 org/phoebus/alarm/logging/AlarmLoggingConfiguration.html
+...
+│ │ │ --rw-r--r--  2.0 unx      871 b- defN 25-Jul-14 19:02 overview-summary.html
+│ │ │ --rw-r--r--  2.0 unx     6701 b- defN 25-Jul-14 19:02 overview-tree.html
+│ │ │ +-rw-r--r--  2.0 unx    11803 b- defN 25-Jul-14 19:02 org/phoebus/alarm/logging/AlarmCmdLogger.html
+│ │ │ +-rw-r--r--  2.0 unx    10828 b- defN 25-Jul-14 19:02 org/phoebus/alarm/logging/AlarmLoggingConfiguration.html
+...
+│ │ │ +-rw-r--r--  2.0 unx      846 b- defN 25-Jul-14 19:02 overview-summary.html
+│ │ │ +-rw-r--r--  2.0 unx     6607 b- defN 25-Jul-14 19:02 overview-tree.html
+│ │ │  -rw-r--r--  2.0 unx      208 b- defN 25-Jul-14 19:02 package-search-index.js
+│ │ │  -rw-r--r--  2.0 unx      499 b- defN 25-Jul-14 19:02 resources/glass.png
+│ │ │  -rw-r--r--  2.0 unx      394 b- defN 25-Jul-14 19:02 resources/x.png
+│ │ │ --rw-r--r--  2.0 unx    89664 b- defN 25-Jul-14 19:02 script-dir/jquery-3.6.1.min.js
+│ │ │ +-rw-r--r--  2.0 unx    87533 b- defN 25-Jul-14 19:02 script-dir/jquery-3.7.1.min.js
+│ │ │  -rw-r--r--  2.0 unx     1842 b- defN 25-Jul-14 19:02 script-dir/jquery-ui.min.css
+│ │ │  -rw-r--r--  2.0 unx    32680 b- defN 25-Jul-14 19:02 script-dir/jquery-ui.min.js
+│ │ │ --rw-r--r--  2.0 unx     5159 b- defN 25-Jul-14 19:02 script.js
+│ │ │ --rw-r--r--  2.0 unx    14113 b- defN 25-Jul-14 19:02 search.js
+│ │ │ --rw-r--r--  2.0 unx    19606 b- defN 25-Jul-14 19:02 stylesheet.css
+│ │ │ +-rw-r--r--  2.0 unx     5014 b- defN 25-Jul-14 19:02 script.js
+│ │ │ +-rw-r--r--  2.0 unx    13759 b- defN 25-Jul-14 19:02 search.js
+│ │ │ +-rw-r--r--  2.0 unx    18737 b- defN 25-Jul-14 19:02 stylesheet.css
+│ │ │  -rw-r--r--  2.0 unx       42 b- defN 25-Jul-14 19:02 tag-search-index.js
+│ │ │  -rw-r--r--  2.0 unx     1039 b- defN 25-Jul-14 19:02 type-search-index.js
+│ │ │ -78 files, 551771 bytes uncompressed, 135748 bytes compressed:  75.4%
+│ │ │ +76 files, 542298 bytes uncompressed, 134929 bytes compressed:  75.1%
+...
+
+3 / 7 target/reference/org.phoebus/service-alarm-logger-5.0.2.zip services/alarm-logger/target/service-alarm-logger-5.0.2.zip
+--- target/reference/org.phoebus/service-alarm-logger-5.0.2.zip
++++ services/alarm-logger/target/service-alarm-logger-5.0.2.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 230601 bytes, number of entries: 6
+│ +Zip file size: 229853 bytes, number of entries: 6
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-14 19:02 service-alarm-logger-5.0.2/
+│  -rw-r--r--  2.0 unx     5197 b- defN 25-Jul-14 19:02 service-alarm-logger-5.0.2/README.md
+│  -rw-r--r--  2.0 unx      379 b- defN 25-Jul-14 19:02 service-alarm-logger-5.0.2/alarm-logger.sh
+│ --rw-r--r--  2.0 unx   147620 b- defN 25-Jul-14 19:02 service-alarm-logger-5.0.2/service-alarm-logger-5.0.2-javadoc.jar
+│ +-rw-r--r--  2.0 unx   146565 b- defN 25-Jul-14 19:02 service-alarm-logger-5.0.2/service-alarm-logger-5.0.2-javadoc.jar
+│  -rw-r--r--  2.0 unx    30980 b- defN 25-Jul-14 19:02 service-alarm-logger-5.0.2/service-alarm-logger-5.0.2-sources.jar
+│  -rw-r--r--  2.0 unx    65164 b- defN 25-Jul-14 19:02 service-alarm-logger-5.0.2/service-alarm-logger-5.0.2.jar
+│ -6 files, 249340 bytes uncompressed, 229539 bytes compressed:  7.9%
+│ +6 files, 248285 bytes uncompressed, 228791 bytes compressed:  7.9%
+...
+
+4 / 7 target/reference/org.phoebus/service-alarm-config-logger-5.0.2.jar services/alarm-config-logger/target/service-alarm-config-logger-5.0.2.jar
+--- target/reference/org.phoebus/service-alarm-config-logger-5.0.2.jar
++++ services/alarm-config-logger/target/service-alarm-config-logger-5.0.2.jar
+...
+├── META-INF/MANIFEST.MF
+│ @@ -1,4 +1,11 @@
+│  Manifest-Version: 1.0
+│  Created-By: Maven JAR Plugin 3.3.0
+│  Build-Jdk-Spec: 17
+│ +Main-Class: org.springframework.boot.loader.JarLauncher
+│ +Start-Class: org.phoebus.alarm.logging.AlarmConfigLoggingService
+│ +Spring-Boot-Version: 2.7.9
+│ +Spring-Boot-Classes: BOOT-INF/classes/
+│ +Spring-Boot-Lib: BOOT-INF/lib/
+│ +Spring-Boot-Classpath-Index: BOOT-INF/classpath.idx
+│ +Spring-Boot-Layers-Index: BOOT-INF/layers.idx
+│   --- alarm_config_logger.properties
+├── +++ BOOT-INF/classes/alarm_config_logger.properties
+│┄ Files identical despite different names
+│   --- org/phoebus/alarm/logging/AlarmConfigLogger$1.class
+├── +++ BOOT-INF/classes/org/phoebus/alarm/logging/AlarmConfigLogger$1.class
+│┄ Files identical despite different names
+│   --- org/phoebus/alarm/logging/AlarmConfigLogger$2.class
+├── +++ BOOT-INF/classes/org/phoebus/alarm/logging/AlarmConfigLogger$2.class
+│┄ Files identical despite different names
+│   --- org/phoebus/alarm/logging/AlarmConfigLogger$3.class
+├── +++ BOOT-INF/classes/org/phoebus/alarm/logging/AlarmConfigLogger$3.class
+│┄ Files identical despite different names
+│   --- org/phoebus/alarm/logging/AlarmConfigLogger$ProcessAlarmConfigMessage.class
+├── +++ BOOT-INF/classes/org/phoebus/alarm/logging/AlarmConfigLogger$ProcessAlarmConfigMessage.class
+│┄ Files identical despite different names
+│   --- org/phoebus/alarm/logging/AlarmConfigLogger.class
+├── +++ BOOT-INF/classes/org/phoebus/alarm/logging/AlarmConfigLogger.class
+│┄ Files identical despite different names
+│   --- org/phoebus/alarm/logging/AlarmConfigLoggingService.class
+├── +++ BOOT-INF/classes/org/phoebus/alarm/logging/AlarmConfigLoggingService.class
+│┄ Files identical despite different names
+│   --- org/phoebus/alarm/logging/PropertiesHelper.class
+├── +++ BOOT-INF/classes/org/phoebus/alarm/logging/PropertiesHelper.class
+│┄ Files identical despite different names
+
+5 / 7 target/reference/org.phoebus/service-alarm-config-logger-5.0.2.tar.gz services/alarm-config-logger/target/service-alarm-config-logger-5.0.2.tar.gz
+--- target/reference/org.phoebus/service-alarm-config-logger-5.0.2.tar.gz
++++ services/alarm-config-logger/target/service-alarm-config-logger-5.0.2.tar.gz
+├── service-alarm-config-logger-5.0.2.tar
+│ ├── file list
+│ │ @@ -1,5 +1,5 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)     1222 2025-07-14 19:02:41.000000 service-alarm-config-logger-5.0.2/README.md
+│ │  -rw-r--r--   0 root         (0) root         (0)      393 2025-07-14 19:02:41.000000 service-alarm-config-logger-5.0.2/alarm-config-logger.sh
+│ │ --rw-r--r--   0 root         (0) root         (0)    84661 2025-07-14 19:02:41.000000 service-alarm-config-logger-5.0.2/service-alarm-config-logger-5.0.2-javadoc.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)    83874 2025-07-14 19:02:41.000000 service-alarm-config-logger-5.0.2/service-alarm-config-logger-5.0.2-javadoc.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    10167 2025-07-14 19:02:41.000000 service-alarm-config-logger-5.0.2/service-alarm-config-logger-5.0.2-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    20487 2025-07-14 19:02:41.000000 service-alarm-config-logger-5.0.2/service-alarm-config-logger-5.0.2.jar
+...
+
+6 / 7 target/reference/org.phoebus/service-alarm-config-logger-5.0.2.zip services/alarm-config-logger/target/service-alarm-config-logger-5.0.2.zip
+--- target/reference/org.phoebus/service-alarm-config-logger-5.0.2.zip
++++ services/alarm-config-logger/target/service-alarm-config-logger-5.0.2.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 110149 bytes, number of entries: 6
+│ +Zip file size: 109563 bytes, number of entries: 6
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-14 19:02 service-alarm-config-logger-5.0.2/
+│  -rw-r--r--  2.0 unx     1222 b- defN 25-Jul-14 19:02 service-alarm-config-logger-5.0.2/README.md
+│  -rw-r--r--  2.0 unx      393 b- defN 25-Jul-14 19:02 service-alarm-config-logger-5.0.2/alarm-config-logger.sh
+│ --rw-r--r--  2.0 unx    84661 b- defN 25-Jul-14 19:02 service-alarm-config-logger-5.0.2/service-alarm-config-logger-5.0.2-javadoc.jar
+│ +-rw-r--r--  2.0 unx    83874 b- defN 25-Jul-14 19:02 service-alarm-config-logger-5.0.2/service-alarm-config-logger-5.0.2-javadoc.jar
+│  -rw-r--r--  2.0 unx    10167 b- defN 25-Jul-14 19:02 service-alarm-config-logger-5.0.2/service-alarm-config-logger-5.0.2-sources.jar
+│  -rw-r--r--  2.0 unx    20487 b- defN 25-Jul-14 19:02 service-alarm-config-logger-5.0.2/service-alarm-config-logger-5.0.2.jar
+│ -6 files, 116930 bytes uncompressed, 108947 bytes compressed:  6.8%
+│ +6 files, 116143 bytes uncompressed, 108361 bytes compressed:  6.7%
+...
+
+7 / 7 target/reference/org.phoebus/service-save-and-restore-5.0.2.jar services/save-and-restore/target/service-save-and-restore-5.0.2.jar
+--- target/reference/org.phoebus/service-save-and-restore-5.0.2.jar
++++ services/save-and-restore/target/service-save-and-restore-5.0.2.jar
+...
+├── +++ BOOT-INF/classes/sar.ldif
+│┄ Files identical despite different names
+│   --- scripts/update-node-name-mapping.sh
+├── +++ BOOT-INF/classes/scripts/update-node-name-mapping.sh
+│┄ Files identical despite different names
+│   --- static/SearchHelp_en.html
+├── +++ BOOT-INF/classes/static/SearchHelp_en.html
+│┄ Files identical despite different names
+│   --- tree_node_mapping.json
+├── +++ BOOT-INF/classes/tree_node_mapping.json
+│┄ Files identical despite different names
+
