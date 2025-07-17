@@ -3,8 +3,8 @@
   <groupId>de.knightsoft-net</groupId>
   <artifactId>gwt-commons-validator</artifactId>
   <versioning>
-    <latest>1.9.0-1</latest>
-    <release>1.9.0-1</release>
+    <latest>1.10.0-0</latest>
+    <release>1.10.0-0</release>
     <versions>
       <version>1.5.0-1</version>
       <version>1.5.1-0</version>
@@ -24,7 +24,8 @@
       <version>1.8.0-1</version>
       <version>1.9.0-0</version>
       <version>1.9.0-1</version>
+      <version>1.10.0-0</version>
     </versions>
-    <lastUpdated>20241114163736</lastUpdated>
+    <lastUpdated>20250717183535</lastUpdated>
   </versioning>
 </metadata>
