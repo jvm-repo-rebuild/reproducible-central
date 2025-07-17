@@ -1,0 +1,54 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Lang
+group-id=de.knightsoft-net
+artifact-id=gwt-commons-lang3
+version=3.18.0-0
+
+# source information
+source.scm.uri=scm:git:git@gitlab.com/ManfredTremmel/gwt-commons-lang3.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.7
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=de.knightsoft-net
+outputs.0.filename=gwt-commons-lang3-3.18.0-0.pom
+outputs.0.length=47392
+outputs.0.checksums.sha512=d45a78de74264b7483e60ec7dc4b9c51a14019b2f15572f7ba40219aaa61b9b10d163fda0fa21f57e4d334f85ece9cb8d5656fe32ab5c919445e9bbf75008bf1
+
+outputs.1.groupId=de.knightsoft-net
+outputs.1.filename=gwt-commons-lang3-3.18.0-0.jar
+outputs.1.length=1464559
+outputs.1.checksums.sha512=4152bc46729fb1318ba2a8d1162e5db9cd76e58f5f9b5377956996428ba267bb1caba9f7b224f6e75892c7ce8fd6ee0f84e7288754f273ba512aec839ca742f0
+
+outputs.2.groupId=de.knightsoft-net
+outputs.2.filename=gwt-commons-lang3-3.18.0-0-tests.jar
+outputs.2.length=1421345
+outputs.2.checksums.sha512=9ee6ca450d9347643be84bc56ec9a8aa75b41ed5a6e0ffa6d3054335338985df621b10da5f391f0b6f240ed232ebe4c7d21c59d39bcb3637d66e8a2a09314ddc
+
+outputs.3.groupId=de.knightsoft-net
+outputs.3.filename=gwt-commons-lang3-3.18.0-0-sources.jar
+outputs.3.length=756810
+outputs.3.checksums.sha512=4e3819b0fb692c072a9d94ba6a1d581d43f758bfac2c7c4bb411cb8144f2e0fc489773b92e20efae1000efed138dc917ce9fedff945d8770d24ff7573f2c0106
+
+outputs.4.groupId=de.knightsoft-net
+outputs.4.filename=gwt-commons-lang3-3.18.0-0-test-sources.jar
+outputs.4.length=621009
+outputs.4.checksums.sha512=6581d1465b6ffb3ac490e3709f018db026e6249874b1b480a00e6b23f8f02586a32c68072aa6432278a4af22884d287398dbf06fdc04532eedf120194e778b3e
+
+outputs.5.groupId=de.knightsoft-net
+outputs.5.filename=gwt-commons-lang3-3.18.0-0-sources.jar
+outputs.5.length=756810
+outputs.5.checksums.sha512=4e3819b0fb692c072a9d94ba6a1d581d43f758bfac2c7c4bb411cb8144f2e0fc489773b92e20efae1000efed138dc917ce9fedff945d8770d24ff7573f2c0106
