@@ -1,0 +1,714 @@
+1 / 5 target/reference/com.flowlogix/flowlogix-9.0.11.pom pom.xml
+--- target/reference/com.flowlogix/flowlogix-9.0.11.pom
++++ pom.xml
+│   --- target/reference/com.flowlogix/flowlogix-9.0.11.pom
+├── +++ pom.xml
+│ @@ -1,117 +1,46 @@
+│  <?xml version="1.0" encoding="utf-8"?>
+│ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│    <modelVersion>4.0.0</modelVersion>
+│ -  <parent>
+│ -    <groupId>com.flowlogix</groupId>
+│ -    <artifactId>payara-pom</artifactId>
+│ -    <version>60</version>
+│ -  </parent>
+│    <artifactId>flowlogix</artifactId>
+│    <version>9.0.11</version>
+│    <packaging>pom</packaging>
+│    <name>Flow Logix Root</name>
+│    <description>Flow Logix Jakarta EE Components Root POM</description>
+│    <url>https://docs.flowlogix.com</url>
+│    <inceptionYear>2011</inceptionYear>
+│ -  <scm>
+│ -    <connection>scm:git:git://github.com:flowlogix/flowlogix.git</connection>
+│ -    <developerConnection>scm:git:git@github.com:flowlogix/flowlogix.git</developerConnection>
+│ -    <tag>Version-9.0.11</tag>
+│ -    <url>https://github.com/flowlogix/flowlogix</url>
+│ -  </scm>
+│ +  <parent>
+│ +    <groupId>com.flowlogix</groupId>
+│ +    <artifactId>payara-pom</artifactId>
+│ +    <version>60</version>
+│ +  </parent>
+│    <properties>
+│      <maven.compiler.release>17</maven.compiler.release>
+│      <checkstyle.suppressionsLocation>${maven.multiModuleProjectDirectory}/src/checkstyle/suppressions.xml</checkstyle.suppressionsLocation>
+│      <release.profiles>${release.profile},javadoc-release</release.profiles>
+│      <javadoc.title>${project.name}</javadoc.title>
+│      <javadoc.snippet.path>${snippet.path}:${maven.multiModuleProjectDirectory}/jakarta-ee/jee-examples/src/main/java</javadoc.snippet.path>
+│      <payara.start.disable>true</payara.start.disable>
+│      <japicmp.skip>false</japicmp.skip>
+│      <eclipselink.version>4.0.7</eclipselink.version>
+│      <omnifaces.version>4.6.5</omnifaces.version>
+│      <primefaces.version>15.0.5</primefaces.version>
+│      <depchain.version>71</depchain.version>
+│    </properties>
+│ -  <dependencyManagement>
+│ -    <dependencies>
+│ -      <dependency>
+│ -        <groupId>org.eclipse.persistence</groupId>
+│ -        <artifactId>org.eclipse.persistence.jpa.modelgen.processor</artifactId>
+│ -        <version>${eclipselink.version}</version>
+│ -        <scope>provided</scope>
+│ -      </dependency>
+│ -    </dependencies>
+│ -  </dependencyManagement>
+│ +  <scm>
+│ +    <url>https://github.com/flowlogix/flowlogix</url>
+│ +    <connection>scm:git:git://github.com:flowlogix/flowlogix.git</connection>
+│ +    <developerConnection>scm:git:git@github.com:flowlogix/flowlogix.git</developerConnection>
+│ +    <tag>Version-9.0.11</tag>
+│ +  </scm>
+│ +  <modules>
+│ +    <module>flowlogix-bom</module>
+│ +    <module>jakarta-ee</module>
+│ +  </modules>
+│    <build>
+│ -    <pluginManagement>
+│ -      <plugins>
+│ -        <plugin>
+│ -          <artifactId>maven-compiler-plugin</artifactId>
+│ -          <configuration>
+│ -            <annotationProcessorPaths>
+│ -              <annotationProcessorPath>
+│ -                <groupId>org.projectlombok</groupId>
+│ -                <artifactId>lombok</artifactId>
+│ -                <version>${lombok.version}</version>
+│ -              </annotationProcessorPath>
+│ -              <annotationProcessorPath>
+│ -                <groupId>org.eclipse.persistence</groupId>
+│ -                <artifactId>org.eclipse.persistence.jpa.modelgen.processor</artifactId>
+│ -                <version>${eclipselink.version}</version>
+│ -              </annotationProcessorPath>
+│ -            </annotationProcessorPaths>
+│ -          </configuration>
+│ -        </plugin>
+│ -        <plugin>
+│ -          <artifactId>maven-failsafe-plugin</artifactId>
+│ -          <configuration>
+│ -            <systemPropertyVariables>
+│ -              <webdriver.chrome.binary>${drone.chrome.binary}</webdriver.chrome.binary>
+│ -              <webdriver.firefox.binary>${drone.firefox.binary}</webdriver.firefox.binary>
+│ -            </systemPropertyVariables>
+│ -          </configuration>
+│ -        </plugin>
+│ -        <plugin>
+│ -          <artifactId>maven-javadoc-plugin</artifactId>
+│ -          <configuration>
+│ -            <overview>${project.build.sourceDirectory}/overview.html</overview>
+│ -            <doctitle>${javadoc.title}</doctitle>
+│ -            <bottom>Copyright © ${project.inceptionYear}-2025 Flow Logix, Inc. All Rights Reserved.</bottom>
+│ -            <excludePackageNames>*.internal</excludePackageNames>
+│ -            <links>
+│ -              <link>https://javadoc.io/doc/org.omnifaces/omnifaces/${omnifaces.version}</link>
+│ -              <link>https://javadoc.io/doc/org.primefaces/primefaces/${primefaces.version}</link>
+│ -            </links>
+│ -          </configuration>
+│ -        </plugin>
+│ -        <plugin>
+│ -          <groupId>io.github.git-commit-id</groupId>
+│ -          <artifactId>git-commit-id-maven-plugin</artifactId>
+│ -          <version>9.0.2</version>
+│ -          <configuration>
+│ -            <useNativeGit>false</useNativeGit>
+│ -            <dotGitDirectory>${maven.multiModuleProjectDirectory}/.git</dotGitDirectory>
+│ -            <failOnNoGitDirectory>false</failOnNoGitDirectory>
+│ -            <abbrevLength>7</abbrevLength>
+│ -            <gitDescribe>
+│ -              <skip>true</skip>
+│ -            </gitDescribe>
+│ -            <generateGitPropertiesFile>true</generateGitPropertiesFile>
+│ -            <generateGitPropertiesFilename>${project.build.outputDirectory}/git.properties</generateGitPropertiesFilename>
+│ -            <includeOnlyProperties>
+│ -              <includeOnlyProperty>^git.build.(time|version)$</includeOnlyProperty>
+│ -              <includeOnlyProperty>^git.commit.id.(abbrev|full)$</includeOnlyProperty>
+│ -            </includeOnlyProperties>
+│ -            <commitIdGenerationMode>full</commitIdGenerationMode>
+│ -            <dateFormatTimeZone>UTC</dateFormatTimeZone>
+│ -          </configuration>
+│ -        </plugin>
+│ -      </plugins>
+│ -    </pluginManagement>
+│      <plugins>
+│        <plugin>
+│          <artifactId>maven-jar-plugin</artifactId>
+│          <executions>
+│            <execution>
+│              <id>test-jar</id>
+│              <goals>
+│ @@ -120,37 +49,38 @@
+│            </execution>
+│          </executions>
+│        </plugin>
+│        <plugin>
+│          <groupId>org.codehaus.gmavenplus</groupId>
+│          <artifactId>gmavenplus-plugin</artifactId>
+│          <version>4.2.1</version>
+│ +        <dependencies>
+│ +          <dependency>
+│ +            <groupId>org.apache.groovy</groupId>
+│ +            <artifactId>groovy-all</artifactId>
+│ +            <version>4.0.27</version>
+│ +            <scope>runtime</scope>
+│ +            <type>pom</type>
+│ +          </dependency>
+│ +        </dependencies>
+│          <executions>
+│            <execution>
+│              <id>testGroups</id>
+│              <phase>initialize</phase>
+│              <goals>
+│                <goal>execute</goal>
+│              </goals>
+│              <configuration>
+│                <scripts>
+│ +                <!-- combine individual test profiles into a single test group property -->
+│                  <script>${maven.multiModuleProjectDirectory}/setTestGroupProperties.groovy</script>
+│                </scripts>
+│              </configuration>
+│            </execution>
+│          </executions>
+│ -        <dependencies>
+│ -          <dependency>
+│ -            <groupId>org.apache.groovy</groupId>
+│ -            <artifactId>groovy-all</artifactId>
+│ -            <version>4.0.27</version>
+│ -            <type>pom</type>
+│ -            <scope>runtime</scope>
+│ -          </dependency>
+│ -        </dependencies>
+│        </plugin>
+│        <plugin>
+│          <groupId>com.soebes.maven.plugins</groupId>
+│          <artifactId>echo-maven-plugin</artifactId>
+│          <version>0.5.0</version>
+│          <executions>
+│            <execution>
+│ @@ -176,22 +106,88 @@
+│            </includes>
+│            <excludes>
+│              <exclude>com/flowlogix/**/*Test</exclude>
+│              <exclude>com/flowlogix/**/*Test$*</exclude>
+│              <exclude>com/flowlogix/**/*IT</exclude>
+│              <exclude>com/flowlogix/**/*IT$*</exclude>
+│              <exclude>com/flowlogix/**/__EJB31_Generated*</exclude>
+│ +            <!-- cause too many coverage misses -->
+│              <exclude>com/flowlogix/examples/**</exclude>
+│              <exclude>com/flowlogix/demo/**</exclude>
+│              <exclude>com/flowlogix/logcapture/**</exclude>
+│              <exclude>com/flowlogix/testcontainers/**</exclude>
+│            </excludes>
+│          </configuration>
+│        </plugin>
+│      </plugins>
+│ +    <pluginManagement>
+│ +      <plugins>
+│ +        <plugin>
+│ +          <artifactId>maven-compiler-plugin</artifactId>
+│ +          <configuration>
+│ +            <annotationProcessorPaths>
+│ +              <annotationProcessorPath>
+│ +                <groupId>org.projectlombok</groupId>
+│ +                <artifactId>lombok</artifactId>
+│ +                <version>${lombok.version}</version>
+│ +              </annotationProcessorPath>
+│ +              <annotationProcessorPath>
+│ +                <groupId>org.eclipse.persistence</groupId>
+│ +                <artifactId>org.eclipse.persistence.jpa.modelgen.processor</artifactId>
+│ +                <version>${eclipselink.version}</version>
+│ +              </annotationProcessorPath>
+│ +            </annotationProcessorPaths>
+│ +          </configuration>
+│ +        </plugin>
+│ +        <plugin>
+│ +          <artifactId>maven-failsafe-plugin</artifactId>
+│ +          <configuration>
+│ +            <systemPropertyVariables>
+│ +              <webdriver.chrome.binary>${drone.chrome.binary}</webdriver.chrome.binary>
+│ +              <webdriver.firefox.binary>${drone.firefox.binary}</webdriver.firefox.binary>
+│ +            </systemPropertyVariables>
+│ +          </configuration>
+│ +        </plugin>
+│ +        <plugin>
+│ +          <artifactId>maven-javadoc-plugin</artifactId>
+│ +          <configuration>
+│ +            <overview>${project.build.sourceDirectory}/overview.html</overview>
+│ +            <doctitle>${javadoc.title}</doctitle>
+│ +            <bottom>Copyright © ${project.inceptionYear}-2025 Flow Logix, Inc. All Rights Reserved.</bottom>
+│ +            <excludePackageNames>*.internal</excludePackageNames>
+│ +            <links>
+│ +              <link>https://javadoc.io/doc/org.omnifaces/omnifaces/${omnifaces.version}</link>
+│ +              <link>https://javadoc.io/doc/org.primefaces/primefaces/${primefaces.version}</link>
+│ +            </links>
+│ +          </configuration>
+│ +        </plugin>
+│ +        <plugin>
+│ +          <groupId>io.github.git-commit-id</groupId>
+│ +          <artifactId>git-commit-id-maven-plugin</artifactId>
+│ +          <version>9.0.2</version>
+│ +          <configuration>
+│ +            <useNativeGit>false</useNativeGit>
+│ +            <dotGitDirectory>${maven.multiModuleProjectDirectory}/.git</dotGitDirectory>
+│ +            <failOnNoGitDirectory>false</failOnNoGitDirectory>
+│ +            <abbrevLength>7</abbrevLength>
+│ +            <gitDescribe>
+│ +              <skip>true</skip>
+│ +            </gitDescribe>
+│ +            <generateGitPropertiesFile>true</generateGitPropertiesFile>
+│ +            <generateGitPropertiesFilename>${project.build.outputDirectory}/git.properties</generateGitPropertiesFilename>
+│ +            <includeOnlyProperties>
+│ +              <includeOnlyProperty>^git.build.(time|version)$</includeOnlyProperty>
+│ +              <includeOnlyProperty>^git.commit.id.(abbrev|full)$</includeOnlyProperty>
+│ +            </includeOnlyProperties>
+│ +            <commitIdGenerationMode>full</commitIdGenerationMode>
+│ +            <dateFormatTimeZone>UTC</dateFormatTimeZone>
+│ +          </configuration>
+│ +        </plugin>
+│ +      </plugins>
+│ +    </pluginManagement>
+│    </build>
+│    <profiles>
+│      <profile>
+│        <id>stress-test</id>
+│        <properties>
+│          <test_groups>StressTest</test_groups>
+│        </properties>
+│ @@ -211,8 +207,18 @@
+│      <profile>
+│        <id>javadoc-release</id>
+│        <properties>
+│          <javadoc.title>${project.name} ${project.version}</javadoc.title>
+│        </properties>
+│      </profile>
+│    </profiles>
+│ +  <dependencyManagement>
+│ +    <dependencies>
+│ +      <dependency>
+│ +        <groupId>org.eclipse.persistence</groupId>
+│ +        <artifactId>org.eclipse.persistence.jpa.modelgen.processor</artifactId>
+│ +        <version>${eclipselink.version}</version>
+│ +        <scope>provided</scope>
+│ +      </dependency>
+│ +    </dependencies>
+│ +  </dependencyManagement>
+│  </project>
+
+2 / 5 target/reference/com.flowlogix/flowlogix-bom-9.0.11.pom flowlogix-bom/pom.xml
+--- target/reference/com.flowlogix/flowlogix-bom-9.0.11.pom
++++ flowlogix-bom/pom.xml
+│   --- target/reference/com.flowlogix/flowlogix-bom-9.0.11.pom
+├── +++ flowlogix-bom/pom.xml
+│ @@ -1,26 +1,27 @@
+│  <?xml version="1.0" encoding="utf-8"?>
+│ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│    <modelVersion>4.0.0</modelVersion>
+│ -  <parent>
+│ -    <groupId>com.flowlogix</groupId>
+│ -    <artifactId>flowlogix</artifactId>
+│ -    <version>9.0.11</version>
+│ -  </parent>
+│    <groupId>com.flowlogix</groupId>
+│    <artifactId>flowlogix-bom</artifactId>
+│    <version>9.0.11</version>
+│ -  <packaging>pom</packaging>
+│    <name>FlowLogix Bill of Materials</name>
+│ +  <packaging>pom</packaging>
+│    <properties>
+│      <slf4j.version>2.0.17</slf4j.version>
+│      <bytebuddy.version>1.17.6</bytebuddy.version>
+│    </properties>
+│ +  <parent>
+│ +    <groupId>com.flowlogix</groupId>
+│ +    <artifactId>flowlogix</artifactId>
+│ +    <version>9.0.11</version>
+│ +  </parent>
+│    <dependencyManagement>
+│      <dependencies>
+│ +      <!-- utility dependencies -->
+│        <dependency>
+│          <groupId>org.omnifaces</groupId>
+│          <artifactId>omnifaces</artifactId>
+│          <version>${omnifaces.version}</version>
+│        </dependency>
+│        <dependency>
+│          <groupId>org.primefaces</groupId>
+│ @@ -58,24 +59,26 @@
+│        </dependency>
+│        <dependency>
+│          <groupId>org.slf4j</groupId>
+│          <artifactId>jcl-over-slf4j</artifactId>
+│          <version>${slf4j.version}</version>
+│          <scope>runtime</scope>
+│        </dependency>
+│ +      <!-- test dependencies -->
+│        <dependency>
+│          <groupId>net.bytebuddy</groupId>
+│          <artifactId>byte-buddy</artifactId>
+│          <version>${bytebuddy.version}</version>
+│        </dependency>
+│        <dependency>
+│          <groupId>net.bytebuddy</groupId>
+│          <artifactId>byte-buddy-agent</artifactId>
+│          <version>${bytebuddy.version}</version>
+│        </dependency>
+│ +      <!-- Security-related fixes, not actually used -->
+│        <dependency>
+│          <groupId>org.apache.commons</groupId>
+│          <artifactId>commons-compress</artifactId>
+│          <version>1.27.1</version>
+│        </dependency>
+│        <dependency>
+│          <groupId>com.google.guava</groupId>
+
+3 / 5 target/reference/com.flowlogix/jakarta-ee-9.0.11.pom jakarta-ee/pom.xml
+--- target/reference/com.flowlogix/jakarta-ee-9.0.11.pom
++++ jakarta-ee/pom.xml
+│   --- target/reference/com.flowlogix/jakarta-ee-9.0.11.pom
+├── +++ jakarta-ee/pom.xml
+│ @@ -1,20 +1,26 @@
+│  <?xml version="1.0" encoding="utf-8"?>
+│ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│    <modelVersion>4.0.0</modelVersion>
+│ +  <groupId>com.flowlogix</groupId>
+│ +  <artifactId>jakarta-ee</artifactId>
+│ +  <version>9.0.11</version>
+│ +  <name>FlowLogix Jakarta EE Modules</name>
+│ +  <packaging>pom</packaging>
+│    <parent>
+│      <groupId>com.flowlogix</groupId>
+│      <artifactId>flowlogix-bom</artifactId>
+│      <version>9.0.11</version>
+│ +    <relativePath>../flowlogix-bom</relativePath>
+│    </parent>
+│ -  <groupId>com.flowlogix</groupId>
+│ -  <artifactId>jakarta-ee</artifactId>
+│ -  <version>9.0.11</version>
+│ -  <packaging>pom</packaging>
+│ -  <name>FlowLogix Jakarta EE Modules</name>
+│ +  <modules>
+│ +    <module>flowlogix-jee</module>
+│ +    <module>flowlogix-datamodel</module>
+│ +    <module>jee-examples</module>
+│ +  </modules>
+│    <dependencies>
+│      <dependency>
+│        <groupId>jakarta.platform</groupId>
+│        <artifactId>jakarta.jakartaee-api</artifactId>
+│        <version>${jakarta.ee.version}</version>
+│        <scope>provided</scope>
+│        <optional>true</optional>
+│ @@ -33,16 +39,16 @@
+│        <groupId>org.apache.commons</groupId>
+│        <artifactId>commons-lang3</artifactId>
+│      </dependency>
+│      <dependency>
+│        <groupId>com.flowlogix.depchain</groupId>
+│        <artifactId>unit-test</artifactId>
+│        <version>${depchain.version}</version>
+│ -      <type>pom</type>
+│        <scope>test</scope>
+│ +      <type>pom</type>
+│      </dependency>
+│      <dependency>
+│        <groupId>org.slf4j</groupId>
+│        <artifactId>slf4j-jdk14</artifactId>
+│        <scope>test</scope>
+│      </dependency>
+│    </dependencies>
+
+4 / 5 target/reference/com.flowlogix/flowlogix-jee-9.0.11.pom jakarta-ee/flowlogix-jee/pom.xml
+--- target/reference/com.flowlogix/flowlogix-jee-9.0.11.pom
++++ jakarta-ee/flowlogix-jee/pom.xml
+│   --- target/reference/com.flowlogix/flowlogix-jee-9.0.11.pom
+├── +++ jakarta-ee/flowlogix-jee/pom.xml
+│ @@ -1,104 +1,71 @@
+│  <?xml version="1.0" encoding="utf-8"?>
+│ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" child.project.url.inherit.append.path="false">
+│ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│    <modelVersion>4.0.0</modelVersion>
+│    <groupId>com.flowlogix</groupId>
+│    <artifactId>flowlogix-jee</artifactId>
+│    <version>9.0.11</version>
+│ +  <packaging>jar</packaging>
+│    <name>Flow Logix JEE Components</name>
+│    <description>Flow Logix Components for Jakarta EE</description>
+│ -  <url>https://docs.flowlogix.com</url>
+│ -  <inceptionYear>2011</inceptionYear>
+│ -  <licenses>
+│ -    <license>
+│ -      <name>The Apache Software License, Version 2.0</name>
+│ -      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+│ -    </license>
+│ -  </licenses>
+│ -  <developers>
+│ -    <developer>
+│ -      <id>lprimak</id>
+│ -      <name>Lenny Primak</name>
+│ -      <email>lenny@flowlogix.com</email>
+│ -      <organization>Flow Logix, Inc.</organization>
+│ -      <organizationUrl>https://www.flowlogix.com</organizationUrl>
+│ -    </developer>
+│ -  </developers>
+│ -  <scm>
+│ -    <connection>scm:git:git://github.com:flowlogix/flowlogix.git</connection>
+│ -    <developerConnection>scm:git:git@github.com:flowlogix/flowlogix.git</developerConnection>
+│ -    <tag>Version-9.0.11</tag>
+│ -    <url>https://github.com/flowlogix/flowlogix</url>
+│ -  </scm>
+│ -  <distributionManagement>
+│ -    <snapshotRepository>
+│ -      <id>flowlogix-maven-central-portal</id>
+│ -      <url>https://central.sonatype.com/repository/maven-snapshots</url>
+│ -    </snapshotRepository>
+│ -    <site child.site.url.inherit.append.path="false">
+│ -      <url>https://docs.flowlogix.com</url>
+│ -    </site>
+│ -  </distributionManagement>
+│ +  <parent>
+│ +    <groupId>com.flowlogix</groupId>
+│ +    <artifactId>jakarta-ee</artifactId>
+│ +    <version>9.0.11</version>
+│ +  </parent>
+│    <dependencies>
+│      <dependency>
+│        <groupId>org.slf4j</groupId>
+│        <artifactId>slf4j-api</artifactId>
+│ -      <version>2.0.17</version>
+│ -      <scope>compile</scope>
+│      </dependency>
+│      <dependency>
+│        <groupId>org.jboss.shrinkwrap.resolver</groupId>
+│        <artifactId>shrinkwrap-resolver-depchain</artifactId>
+│ -      <version>3.3.4</version>
+│        <type>pom</type>
+│        <scope>provided</scope>
+│        <optional>true</optional>
+│      </dependency>
+│      <dependency>
+│        <groupId>org.eclipse.persistence</groupId>
+│        <artifactId>org.eclipse.persistence.jpa.modelgen.processor</artifactId>
+│ -      <version>4.0.7</version>
+│ -      <scope>provided</scope>
+│ -      <optional>true</optional>
+│ -    </dependency>
+│ -    <dependency>
+│ -      <groupId>jakarta.platform</groupId>
+│ -      <artifactId>jakarta.jakartaee-api</artifactId>
+│ -      <version>10.0.0</version>
+│ -      <scope>provided</scope>
+│ -      <optional>true</optional>
+│ -    </dependency>
+│ -    <dependency>
+│ -      <groupId>org.projectlombok</groupId>
+│ -      <artifactId>lombok</artifactId>
+│ -      <version>1.18.38</version>
+│ -      <scope>provided</scope>
+│ -      <optional>true</optional>
+│ -    </dependency>
+│ -    <dependency>
+│ -      <groupId>org.omnifaces</groupId>
+│ -      <artifactId>omnifaces</artifactId>
+│ -      <version>4.6.5</version>
+│ -      <scope>compile</scope>
+│        <optional>true</optional>
+│      </dependency>
+│ -    <dependency>
+│ -      <groupId>org.apache.commons</groupId>
+│ -      <artifactId>commons-lang3</artifactId>
+│ -      <version>3.18.0</version>
+│ -      <scope>compile</scope>
+│ -    </dependency>
+│ -    <dependency>
+│ -      <groupId>com.flowlogix.depchain</groupId>
+│ -      <artifactId>unit-test</artifactId>
+│ -      <version>71</version>
+│ -      <type>pom</type>
+│ -      <scope>test</scope>
+│ -    </dependency>
+│ -    <dependency>
+│ -      <groupId>org.slf4j</groupId>
+│ -      <artifactId>slf4j-jdk14</artifactId>
+│ -      <version>2.0.17</version>
+│ -      <scope>test</scope>
+│ -    </dependency>
+│    </dependencies>
+│ +  <build>
+│ +    <plugins>
+│ +      <plugin>
+│ +        <artifactId>maven-jar-plugin</artifactId>
+│ +        <configuration>
+│ +          <archive>
+│ +            <manifestEntries>
+│ +              <Automatic-Module-Name>com.flowlogix.jee</Automatic-Module-Name>
+│ +            </manifestEntries>
+│ +          </archive>
+│ +        </configuration>
+│ +        <executions>
+│ +          <execution>
+│ +            <id>test-jar</id>
+│ +            <configuration>
+│ +              <includes>
+│ +                <include>com/flowlogix/demo/**</include>
+│ +                <include>META-INF/**</include>
+│ +              </includes>
+│ +              <archive>
+│ +                <manifestEntries>
+│ +                  <Automatic-Module-Name>com.flowlogix.jee.demo</Automatic-Module-Name>
+│ +                </manifestEntries>
+│ +              </archive>
+│ +            </configuration>
+│ +          </execution>
+│ +        </executions>
+│ +      </plugin>
+│ +      <plugin>
+│ +        <artifactId>maven-surefire-plugin</artifactId>
+│ +        <configuration>
+│ +          <systemPropertyVariables>
+│ +            <httpsPort>${payara.https.port}</httpsPort>
+│ +          </systemPropertyVariables>
+│ +        </configuration>
+│ +      </plugin>
+│ +    </plugins>
+│ +  </build>
+│  </project>
+
+5 / 5 target/reference/com.flowlogix/flowlogix-datamodel-9.0.11.pom jakarta-ee/flowlogix-datamodel/pom.xml
+--- target/reference/com.flowlogix/flowlogix-datamodel-9.0.11.pom
++++ jakarta-ee/flowlogix-datamodel/pom.xml
+│   --- target/reference/com.flowlogix/flowlogix-datamodel-9.0.11.pom
+├── +++ jakarta-ee/flowlogix-datamodel/pom.xml
+│ @@ -1,120 +1,40 @@
+│  <?xml version="1.0" encoding="utf-8"?>
+│ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" child.project.url.inherit.append.path="false">
+│ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│    <modelVersion>4.0.0</modelVersion>
+│    <groupId>com.flowlogix</groupId>
+│    <artifactId>flowlogix-datamodel</artifactId>
+│    <version>9.0.11</version>
+│ +  <packaging>jar</packaging>
+│    <name>Flow Logix PrimeFaces Data Model</name>
+│    <description>Flow Logix PrimeFaces Lazy Data Model</description>
+│ -  <url>https://docs.flowlogix.com</url>
+│ -  <inceptionYear>2011</inceptionYear>
+│ -  <licenses>
+│ -    <license>
+│ -      <name>The Apache Software License, Version 2.0</name>
+│ -      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+│ -    </license>
+│ -  </licenses>
+│ -  <developers>
+│ -    <developer>
+│ -      <id>lprimak</id>
+│ -      <name>Lenny Primak</name>
+│ -      <email>lenny@flowlogix.com</email>
+│ -      <organization>Flow Logix, Inc.</organization>
+│ -      <organizationUrl>https://www.flowlogix.com</organizationUrl>
+│ -    </developer>
+│ -  </developers>
+│ -  <scm>
+│ -    <connection>scm:git:git://github.com:flowlogix/flowlogix.git</connection>
+│ -    <developerConnection>scm:git:git@github.com:flowlogix/flowlogix.git</developerConnection>
+│ -    <tag>Version-9.0.11</tag>
+│ -    <url>https://github.com/flowlogix/flowlogix</url>
+│ -  </scm>
+│ -  <distributionManagement>
+│ -    <snapshotRepository>
+│ -      <id>flowlogix-maven-central-portal</id>
+│ -      <url>https://central.sonatype.com/repository/maven-snapshots</url>
+│ -    </snapshotRepository>
+│ -    <site child.site.url.inherit.append.path="false">
+│ -      <url>https://docs.flowlogix.com</url>
+│ -    </site>
+│ -  </distributionManagement>
+│ -  <dependencyManagement>
+│ -    <dependencies>
+│ -      <dependency>
+│ -        <groupId>org.slf4j</groupId>
+│ -        <artifactId>slf4j-api</artifactId>
+│ -        <version>2.0.17</version>
+│ -      </dependency>
+│ -    </dependencies>
+│ -  </dependencyManagement>
+│ +  <parent>
+│ +    <groupId>com.flowlogix</groupId>
+│ +    <artifactId>jakarta-ee</artifactId>
+│ +    <version>9.0.11</version>
+│ +  </parent>
+│    <dependencies>
+│      <dependency>
+│        <groupId>org.primefaces</groupId>
+│        <artifactId>primefaces</artifactId>
+│ -      <version>15.0.5</version>
+│        <classifier>jakarta</classifier>
+│ -      <scope>compile</scope>
+│      </dependency>
+│      <dependency>
+│        <groupId>com.flowlogix</groupId>
+│        <artifactId>flowlogix-jee</artifactId>
+│ -      <version>9.0.11</version>
+│ -      <scope>compile</scope>
+│ +      <version>${project.version}</version>
+│      </dependency>
+│      <dependency>
+│ -      <groupId>com.flowlogix</groupId>
+│ +      <groupId>${project.groupId}</groupId>
+│        <artifactId>flowlogix-jee</artifactId>
+│ -      <version>9.0.11</version>
+│ +      <version>${project.version}</version>
+│        <type>test-jar</type>
+│        <classifier>tests</classifier>
+│ -      <scope>compile</scope>
+│        <optional>true</optional>
+│      </dependency>
+│      <dependency>
+│        <groupId>org.eclipse.persistence</groupId>
+│        <artifactId>org.eclipse.persistence.jpa.modelgen.processor</artifactId>
+│ -      <version>4.0.7</version>
+│ -      <scope>test</scope>
+│ -    </dependency>
+│ -    <dependency>
+│ -      <groupId>jakarta.platform</groupId>
+│ -      <artifactId>jakarta.jakartaee-api</artifactId>
+│ -      <version>10.0.0</version>
+│ -      <scope>provided</scope>
+│ -      <optional>true</optional>
+│ -    </dependency>
+│ -    <dependency>
+│ -      <groupId>org.projectlombok</groupId>
+│ -      <artifactId>lombok</artifactId>
+│ -      <version>1.18.38</version>
+│ -      <scope>provided</scope>
+│ -      <optional>true</optional>
+│ -    </dependency>
+│ -    <dependency>
+│ -      <groupId>org.omnifaces</groupId>
+│ -      <artifactId>omnifaces</artifactId>
+│ -      <version>4.6.5</version>
+│ -      <scope>compile</scope>
+│ -      <optional>true</optional>
+│ -    </dependency>
+│ -    <dependency>
+│ -      <groupId>org.apache.commons</groupId>
+│ -      <artifactId>commons-lang3</artifactId>
+│ -      <version>3.18.0</version>
+│ -      <scope>compile</scope>
+│ -    </dependency>
+│ -    <dependency>
+│ -      <groupId>com.flowlogix.depchain</groupId>
+│ -      <artifactId>unit-test</artifactId>
+│ -      <version>71</version>
+│ -      <type>pom</type>
+│ -      <scope>test</scope>
+│ -    </dependency>
+│ -    <dependency>
+│ -      <groupId>org.slf4j</groupId>
+│ -      <artifactId>slf4j-jdk14</artifactId>
+│ -      <version>2.0.17</version>
+│        <scope>test</scope>
+│      </dependency>
+│    </dependencies>
+│  </project>
+
