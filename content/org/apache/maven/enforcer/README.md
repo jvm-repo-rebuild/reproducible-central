@@ -16,13 +16,13 @@ Source code: [https://github.com/apache/maven-enforcer.git](https://github.com/a
 * [org.apache.maven.plugins:maven-enforcer-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-enforcer-plugin/overview)
 </details>
 
-rebuilding **8 releases** of org.apache.maven.enforcer:enforcer:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **9 releases** of org.apache.maven.enforcer:enforcer:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.6.1](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer/3.6.1/pom) | | | |
+| [3.6.1](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer/3.6.1/pom) | [mvn jdk21](maven-enforcer-plugin-3.6.1.buildspec) | [result](enforcer-3.6.1.buildinfo): [24 :white_check_mark: ](enforcer-3.6.1.buildcompare) | | 2.2M |
 | [3.6.0](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer/3.6.0/pom) | [mvn jdk21](maven-enforcer-plugin-3.6.0.buildspec) | [result](enforcer-3.6.0.buildinfo): [24 :white_check_mark: ](enforcer-3.6.0.buildcompare) | | 2.2M |
 | [3.5.0](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer/3.5.0/pom) | [mvn jdk21](maven-enforcer-plugin-3.5.0.buildspec) | [result](enforcer-3.5.0.buildinfo): [24 :white_check_mark: ](enforcer-3.5.0.buildcompare) | | 2.2M |
 | [3.4.1](https://central.sonatype.com/artifact/org.apache.maven.enforcer/enforcer/3.4.1/pom) | [mvn jdk17](maven-enforcer-plugin-3.4.1.buildspec) | [result](enforcer-3.4.1.buildinfo): [25 :white_check_mark: ](enforcer-3.4.1.buildcompare) | | 1.9M |
