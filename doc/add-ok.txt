@@ -1,4 +1,2 @@
-content/com/flowlogix/flowlogix-9.0.10.buildspec:9.0.11
-content/io/avaje/jsonb/avaje-jsonb-3.6-RC2.buildspec:3.6-RC3
-content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.9.0.buildspec:4.10.0
-content/org/apache/maven/enforcer/maven-enforcer-plugin-3.6.0.buildspec:3.6.1
+content/de/knightsoft-net/gwt-commons-lang3/gwt-commons-lang3-3.17.0-1.buildspec:3.18.0-0
+content/io/github/cbarlin/aru/aru-0.3.0.buildspec:0.3.1

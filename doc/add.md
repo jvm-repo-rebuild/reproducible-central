@@ -4,11 +4,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250716105750 --> [micronaut-maven-plugin](../content/io/micronaut/maven/micronaut-maven-plugin/README.md) | [4.9.0](../content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.9.0.buildspec) :white_check_mark: | [4.10.0](../content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.10.0.buildspec) | `bin/add-new-release.sh content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.9.0.buildspec 4.10.0` |
-| <!-- 20250716024943 --> [avaje-jsonb-parent](../content/io/avaje/jsonb/README.md) | [3.6-RC2](../content/io/avaje/jsonb/avaje-jsonb-3.6-RC2.buildspec) :white_check_mark: | [3.6-RC3](../content/io/avaje/jsonb/avaje-jsonb-3.6-RC3.buildspec) | `bin/add-new-release.sh content/io/avaje/jsonb/avaje-jsonb-3.6-RC2.buildspec 3.6-RC3` |
-| <!-- 20250716024008 --> [flowlogix](../content/com/flowlogix/README.md) | [9.0.10](../content/com/flowlogix/flowlogix-9.0.10.buildspec) :white_check_mark: | [9.0.11](../content/com/flowlogix/flowlogix-9.0.11.buildspec) | `bin/add-new-release.sh content/com/flowlogix/flowlogix-9.0.10.buildspec 9.0.11` |
-| <!-- 20250715211538 --> [maven](../content/org/apache/maven/maven/README.md) | [4.0.0-rc-4](../content/org/apache/maven/maven/maven-4.0.0-rc-4.buildspec) :white_check_mark: | 3.9.11  | `bin/add-new-release.sh content/org/apache/maven/maven/maven-4.0.0-rc-4.buildspec ...` |
-| <!-- 20250715205508 --> [enforcer](../content/org/apache/maven/enforcer/README.md) | [3.6.0](../content/org/apache/maven/enforcer/maven-enforcer-plugin-3.6.0.buildspec) :white_check_mark: | [3.6.1](../content/org/apache/maven/enforcer/maven-enforcer-plugin-3.6.1.buildspec) | `bin/add-new-release.sh content/org/apache/maven/enforcer/maven-enforcer-plugin-3.6.0.buildspec 3.6.1` |
+| <!-- 20250717105538 --> [gwt-commons-lang3](../content/de/knightsoft-net/gwt-commons-lang3/README.md) | [3.17.0-1](../content/de/knightsoft-net/gwt-commons-lang3/gwt-commons-lang3-3.17.0-1.buildspec) :white_check_mark: | [3.18.0-0](../content/de/knightsoft-net/gwt-commons-lang3/gwt-commons-lang3-3.18.0-0.buildspec) | `bin/add-new-release.sh content/de/knightsoft-net/gwt-commons-lang3/gwt-commons-lang3-3.17.0-1.buildspec 3.18.0-0` |
+| <!-- 20250717075129 --> [aru-parent](../content/io/github/cbarlin/aru/README.md) | [0.3.0](../content/io/github/cbarlin/aru/aru-0.3.0.buildspec) :white_check_mark: | [0.3.1](../content/io/github/cbarlin/aru/aru-0.3.1.buildspec) | `bin/add-new-release.sh content/io/github/cbarlin/aru/aru-0.3.0.buildspec 0.3.1` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -32,6 +29,7 @@ New Releases To Add
 | <!-- 20250218094231 --> [:mailbox:](https://lists.apache.org/list?dev@wayang.apache.org:lte=1M:VOTE) | [wayang](../content/org/apache/wayang/README.md) | [1.0.0](../content/org/apache/wayang/wayang-1.0.0.buildspec) :warning: [:memo:](https://github.com/apache/incubator-wayang/pull/503) | [1.1.0](../content/org/apache/wayang/wayang-1.1.0.buildspec)  | `bin/add-new-release.sh content/org/apache/wayang/wayang-1.0.0.buildspec 1.1.0 staging` |
 | <!-- 20250213085016 --> [:mailbox:](https://lists.apache.org/list?dev@ignite.apache.org:lte=1M:VOTE) | [apache-ignite](../content/org/apache/ignite/README.md) | [2.17.0](../content/org/apache/ignite/ignite-2.17.0.buildspec) :warning: | [3.0.0-alpha5](../content/org/apache/ignite/ignite-3.0.0-alpha5.buildspec)  | `bin/add-new-release.sh content/org/apache/ignite/ignite-2.17.0.buildspec 3.0.0-alpha5 staging` |
 | <!-- 20241024173436 --> [:mailbox:](https://lists.apache.org/list?dev@zookeeper.apache.org:lte=1M:VOTE) | [parent](../content/org/apache/zookeeper/README.md) | [3.9.3](../content/org/apache/zookeeper/zookeeper-3.9.3.buildspec) :warning: | [3.9.4](../content/org/apache/zookeeper/zookeeper-3.9.4.buildspec)  | `bin/add-new-release.sh content/org/apache/zookeeper/zookeeper-3.9.3.buildspec 3.9.4 staging` |
+| <!-- 20241023092304 --> [:mailbox:](https://lists.apache.org/list?dev@sling.apache.org:lte=1M:VOTE) | [org.apache.sling.jcr.oak.server](../content/org/apache/sling/org.apache.sling.jcr.oak.server/README.md) | [1.4.2](../content/org/apache/sling/org.apache.sling.jcr.oak.server/org.apache.sling.jcr.oak.server-1.4.2.buildspec) :white_check_mark: | [1.4.4](../content/org/apache/sling/org.apache.sling.jcr.oak.server/org.apache.sling.jcr.oak.server-1.4.4.buildspec)  | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.jcr.oak.server/org.apache.sling.jcr.oak.server-1.4.2.buildspec 1.4.4 staging` |
 | <!-- 20241002073844 --> [:mailbox:](https://lists.apache.org/list?dev@hive.apache.org:lte=1M:VOTE) | [hive](../content/org/apache/hive/README.md) | [4.0.1](../content/org/apache/hive/hive-4.0.1.buildspec) :warning: [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) | [4.1.0](../content/org/apache/hive/hive-4.1.0.buildspec)  | `bin/add-new-release.sh content/org/apache/hive/hive-4.0.1.buildspec 4.1.0 staging` |
 <!-- END GENERATED ADD STAGING -->
 
@@ -40,8 +38,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250716150229 --> [quarkus-project](../content/io/quarkus/README.md) | [3.24.3](../content/io/quarkus/quarkus-3.24.3.buildspec) :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/48870) | [3.25.0.CR1](../content/io/quarkus/quarkus-3.25.0.CR1.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.24.3.buildspec 3.25.0.CR1` |
-| <!-- 20250716090330 --> [yupiik-tools-maven-plugin-parent](../content/io/yupiik/maven/plugin/README.md) | [1.2.9](../content/io/yupiik/maven/plugin/yupiik-tools-maven-plugin-1.2.9.buildspec) :warning: | [1.2.10](../content/io/yupiik/maven/plugin/yupiik-tools-maven-plugin-1.2.10.buildspec) | `bin/add-new-release.sh content/io/yupiik/maven/plugin/yupiik-tools-maven-plugin-1.2.9.buildspec 1.2.10` |
+| <!-- 20250717183535 --> [gwt-commons-validator](../content/de/knightsoft-net/gwt-commons-validator/README.md) | [1.9.0-1](../content/de/knightsoft-net/gwt-commons-validator/gwt-commons-validator-1.9.0-1.buildspec) :warning: | [1.10.0-0](../content/de/knightsoft-net/gwt-commons-validator/gwt-commons-validator-1.10.0-0.buildspec) | `bin/add-new-release.sh content/de/knightsoft-net/gwt-commons-validator/gwt-commons-validator-1.9.0-1.buildspec 1.10.0-0` |
+| <!-- 20250717162227 --> [quarkus-project](../content/io/quarkus/README.md) | [3.24.3](../content/io/quarkus/quarkus-3.24.3.buildspec) :warning: [:memo:](https://github.com/quarkusio/quarkus/pull/48870) | [3.25.0.CR1](../content/io/quarkus/quarkus-3.25.0.CR1.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.24.3.buildspec 3.25.0.CR1` |
 | <!-- 20250715162154 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | [6.12.0](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.12.0.buildspec) :warning: | [6.14.0](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.14.0.buildspec) | `bin/add-new-release.sh content/com/adobe/acs/aem-commons/acs-aem-commons-6.12.0.buildspec 6.14.0` |
 | <!-- 20250714140320 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.26.2](../content/org/webjars/swagger-ui/swagger-ui-5.26.2.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.26.2` |
 | <!-- 20250711185310 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | [3.0.4](../content/org/mybatis/spring/boot/mybatis-spring-boot-3.0.4.buildspec) :warning: | [3.0.5](../content/org/mybatis/spring/boot/mybatis-spring-boot-3.0.5.buildspec) | `bin/add-new-release.sh content/org/mybatis/spring/boot/mybatis-spring-boot-3.0.4.buildspec 3.0.5` |
@@ -61,6 +59,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20250716090330 --> [yupiik-tools-maven-plugin-parent](../content/io/yupiik/maven/plugin/README.md) | 1.2.10 :warning: |
 | <!-- 20250716013054 --> [avaje-http-parent](../content/io/avaje/http/README.md) | 3.4-RC4 :warning: |
 | <!-- 20250715144131 --> [parent](../content/org/phoebus/README.md) | 5.0.2 :warning: |
 | <!-- 20250713194124 --> [jpmml-transpiler](../content/org/jpmml/jpmml-transpiler/README.md) | 1.4.3 :warning: |
@@ -165,7 +164,6 @@ New Releases To Add
 | <!-- 20241207221427 --> [compiler](../content/org/apache/royale/compiler/README.md) | 0.9.12 :warning: |
 | <!-- 20241207202534 --> [com.io7m.cardant](../content/com/io7m/cardant/README.md) | 1.0.0-beta0001 :warning: |
 | <!-- 20241202181948 --> [commons-dbcp2](../content/org/apache/commons/commons-dbcp2/README.md) | 2.13.0 :warning: |
-| <!-- 20241114163736 --> [gwt-commons-validator](../content/de/knightsoft-net/gwt-commons-validator/README.md) | 1.9.0-1 :warning: |
 | <!-- 20241112125327 --> [coingecko-java](../content/net/osslabz/coingecko-java/README.md) | 1.2.0 :warning: |
 | <!-- 20241112082354 --> [evm-abi-decoder](../content/net/osslabz/evm-abi-decode/README.md) | 0.1.0 :warning: |
 | <!-- 20241106160454 --> [tomcat-authnz-spnego-ad](../content/net/sf/michael-o/tomcat/tomcat-authnz-spnego-ad/README.md) | 4.2.4 :warning: [:memo:](https://github.com/michael-o/tomcatspnegoad/issues/32) |

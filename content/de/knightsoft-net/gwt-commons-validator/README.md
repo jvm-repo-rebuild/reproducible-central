@@ -13,6 +13,7 @@ rebuilding **2 releases** of de.knightsoft-net:gwt-commons-validator:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.10.0-0](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-validator/1.10.0-0/pom) | | | |
 | [1.9.0-1](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-validator/1.9.0-1/pom) | [mvn jdk17](gwt-commons-validator-1.9.0-1.buildspec) | [result](gwt-commons-validator-1.9.0-1.buildinfo): [1 :white_check_mark:  2 :warning:](gwt-commons-validator-1.9.0-1.buildcompare) | - | 684K |
 | [1.9.0-0](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-validator/1.9.0-0/pom) | [mvn jdk17](gwt-commons-validator-1.9.0-0.buildspec) | [result](gwt-commons-validator-1.9.0-0.buildinfo): [1 :white_check_mark:  2 :warning:](gwt-commons-validator-1.9.0-0.buildcompare) | - | 683K |
 
