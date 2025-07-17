@@ -14,12 +14,12 @@ source.scm.tag=shiro-root-2.0.5
 build-tool=mvn
 
 # effective build environment information
-java.version=24.0.1
+java.version=24
 java.vendor=Azul Systems, Inc.
 os.name=Linux
 
 # Maven rebuild instructions and effective environment
-mvn.version=4.0.0-rc-3
+mvn.version=4.0.0-rc-4
 mvn.aggregate.artifact-id=shiro-bom
 
 # aggregated output
@@ -79,8 +79,8 @@ outputs.3.coordinates=org.apache.shiro:shiro-crypto-core
 
 outputs.3.0.groupId=org.apache.shiro
 outputs.3.0.filename=shiro-crypto-core-2.0.5.pom
-outputs.3.0.length=7174
-outputs.3.0.checksums.sha512=4bc3866ce07184c27a504070b63e5cfd492573cca962f2905506f54ec5aa7a1d983d3349dec1c502c8a640aab59a67dc67141690f2a7c77b7edcdcede2ccf6b2
+outputs.3.0.length=7417
+outputs.3.0.checksums.sha512=ba0b3cc19f9c450cd3c9f58781f6bd1f583e61ad253fa92c428f1183bee4aa5bff6dc810f27547db99650dd8fb2256efeb9186cdc61b4bfd2dc4cd865346020f
 
 outputs.3.1.groupId=org.apache.shiro
 outputs.3.1.filename=shiro-crypto-core-2.0.5-build.pom
@@ -101,8 +101,8 @@ outputs.4.coordinates=org.apache.shiro:shiro-crypto-hash
 
 outputs.4.0.groupId=org.apache.shiro
 outputs.4.0.filename=shiro-crypto-hash-2.0.5.pom
-outputs.4.0.length=7922
-outputs.4.0.checksums.sha512=6b555a175cc46e9436f7542e529011ac50ff2d9e968c40da23793d00f3a839128ba4cc62a9463b13d7c227c4884d7d285132f16ce4b946d653fd16c3f8428f0a
+outputs.4.0.length=8165
+outputs.4.0.checksums.sha512=cfc00f00b03cfb2d1c4a4f0a04019303de3af218173fcbafc5c94db1f1483697d449a36e4b58c9be8f19cd3f2697f69f8d7da7574b34b08c7e6c90c31901fa13
 
 outputs.4.1.groupId=org.apache.shiro
 outputs.4.1.filename=shiro-crypto-hash-2.0.5-build.pom
@@ -123,8 +123,8 @@ outputs.5.coordinates=org.apache.shiro:shiro-crypto-cipher
 
 outputs.5.0.groupId=org.apache.shiro
 outputs.5.0.filename=shiro-crypto-cipher-2.0.5.pom
-outputs.5.0.length=7931
-outputs.5.0.checksums.sha512=54d43e80090ee2ca899140569585bd14662aca54fa4bdb21e0ecd2c99d0a967a024fba8b15404c26efa68437e5d66a7a56c8fee63f105ae238aaba542f9fde5c
+outputs.5.0.length=8174
+outputs.5.0.checksums.sha512=82f9b3e4b8f15d53f67f8770b9b0ae3cdaa7120598206dc1fed1847037f35e1f91fb2bab4f4684c43696282ae1bcc2891be7d7f80af5aed0d894cf5ad086559f
 
 outputs.5.1.groupId=org.apache.shiro
 outputs.5.1.filename=shiro-crypto-cipher-2.0.5-build.pom
@@ -162,8 +162,8 @@ outputs.7.coordinates=org.apache.shiro.crypto:shiro-hashes-argon2
 
 outputs.7.0.groupId=org.apache.shiro.crypto
 outputs.7.0.filename=shiro-hashes-argon2-2.0.5.pom
-outputs.7.0.length=7765
-outputs.7.0.checksums.sha512=e4fa197693f00a0ed3ca44be559804bed9383050f860d61b99419a0712deaf79d9ccb0a48f3d9009e70a488b4e7ed91e3b1532e2967a8ef5a301aab3cb770f43
+outputs.7.0.length=8498
+outputs.7.0.checksums.sha512=810012500055f8c3dff7b6ae16b78e8705c746e87b4709558af19640245147edc2b9a98e0d2c58c2ef67ab2526d504e4f7bd192492d4c75d18b55980129807f9
 
 outputs.7.1.groupId=org.apache.shiro.crypto
 outputs.7.1.filename=shiro-hashes-argon2-2.0.5-build.pom
@@ -184,8 +184,8 @@ outputs.8.coordinates=org.apache.shiro.crypto:shiro-hashes-bcrypt
 
 outputs.8.0.groupId=org.apache.shiro.crypto
 outputs.8.0.filename=shiro-hashes-bcrypt-2.0.5.pom
-outputs.8.0.length=7765
-outputs.8.0.checksums.sha512=b269a293a42b01189dc376fb7f618cb946da9b382f51aa0aefa214b624f464a10db84a54c0efadf5d8ed48d8b3853102135f01ec756f49150b65ae4f356cfd02
+outputs.8.0.length=8498
+outputs.8.0.checksums.sha512=59346f513d0a88f095eb613537134c93eb116dc55fd93fdd166d370de1fcd2a06189d17b74801307c4d5e96e3f7918ee4e0dc07f1054aa7352b8264d8b2e58f4
 
 outputs.8.1.groupId=org.apache.shiro.crypto
 outputs.8.1.filename=shiro-hashes-bcrypt-2.0.5-build.pom
@@ -206,8 +206,8 @@ outputs.9.coordinates=org.apache.shiro:shiro-event
 
 outputs.9.0.groupId=org.apache.shiro
 outputs.9.0.filename=shiro-event-2.0.5.pom
-outputs.9.0.length=7058
-outputs.9.0.checksums.sha512=b0fceccfb20cf6b398a4b0b6605fe7a0345c7131c3c4f4f329fc343601b755f5c9ad87fbfccfd4558fb2edbe3471e00352b8d37e54c83a33095147b700b49a82
+outputs.9.0.length=7301
+outputs.9.0.checksums.sha512=5df26a6ec9d27ca93bb3989f27ad256c3d58c0bf533325ddd6749033182eabb93bddc74fb8aa6f5038fe4c19e309a90f8cacf8f642ae46bec81acd929607cbd4
 
 outputs.9.1.groupId=org.apache.shiro
 outputs.9.1.filename=shiro-event-2.0.5-build.pom
@@ -228,8 +228,8 @@ outputs.10.coordinates=org.apache.shiro:shiro-cache
 
 outputs.10.0.groupId=org.apache.shiro
 outputs.10.0.filename=shiro-cache-2.0.5.pom
-outputs.10.0.length=7058
-outputs.10.0.checksums.sha512=3d75a0c06ebd0684bb023121c5d20d3818e2cd971caff3597661fb45e6499de0b7c1d6189626ffe135b3d861e33ccfda0787da8c0b268f8cb1e5bfc0345868fa
+outputs.10.0.length=7301
+outputs.10.0.checksums.sha512=df7164998e0dee4937d1c453bbd5fbf735878ea2bd338940ae6811907e3bf7a9eae074e289d880e8803cb4a1c3206aeec3a7502ad9234757abcef6d47f663a0c
 
 outputs.10.1.groupId=org.apache.shiro
 outputs.10.1.filename=shiro-cache-2.0.5-build.pom
@@ -262,8 +262,8 @@ outputs.12.coordinates=org.apache.shiro:shiro-config-core
 
 outputs.12.0.groupId=org.apache.shiro
 outputs.12.0.filename=shiro-config-core-2.0.5.pom
-outputs.12.0.length=7175
-outputs.12.0.checksums.sha512=10040c66191f09eb74a9fef5e7706cae45e226e04fa767bc59206c19680b9f37a6f44b052053872e2d7506e19fe5dc374c09495f4bd47e498130f31c6b5aeed3
+outputs.12.0.length=7418
+outputs.12.0.checksums.sha512=f0e0ef4f1763f938be76c78c431ef82b7acfce4d67f59fc4b84d65dab0c7b607400b2321c241f70a4f0896b24107d54650de3f275db726285f1e5dad796643ae
 
 outputs.12.1.groupId=org.apache.shiro
 outputs.12.1.filename=shiro-config-core-2.0.5-build.pom
@@ -306,8 +306,8 @@ outputs.14.coordinates=org.apache.shiro:shiro-core
 
 outputs.14.0.groupId=org.apache.shiro
 outputs.14.0.filename=shiro-core-2.0.5.pom
-outputs.14.0.length=10879
-outputs.14.0.checksums.sha512=7f190009c3d390a177fb43ba54814686e339c98925ad1bd1cdeb9b891a251d70aa5a3b02e85a0dbf4068aa09b3ee4c247aa28b9b9bf5fc32186a5f2e188c2965
+outputs.14.0.length=11809
+outputs.14.0.checksums.sha512=fa99dedba67aab79673cfdaa048075e9d8045724c2929077a2873c2c7d2ce5b3f4277e34a2301d2efb844bc6e02fa77a1a7ce5e6795b333520d218108c5812ee
 
 outputs.14.1.groupId=org.apache.shiro
 outputs.14.1.filename=shiro-core-2.0.5-build.pom
@@ -333,8 +333,8 @@ outputs.15.coordinates=org.apache.shiro:shiro-web
 
 outputs.15.0.groupId=org.apache.shiro
 outputs.15.0.filename=shiro-web-2.0.5.pom
-outputs.15.0.length=9195
-outputs.15.0.checksums.sha512=bde954e3954db0ec577fbfbcf40cd03d82a9878ab7c6d7c90044cee3f9c3ced0c930f42f89601f1a577fc2169c4849b23eaa404dc8d1b01508c837f9942f7334
+outputs.15.0.length=11629
+outputs.15.0.checksums.sha512=e97a718bb9867a4ea69d351c102c26ce2312d91fcd885c381af9173b55a61db482965a0b58a6e92e18e2e2e5a0896365b6b25dfbe0c391477fac90d49735a622
 
 outputs.15.1.groupId=org.apache.shiro
 outputs.15.1.filename=shiro-web-2.0.5-build.pom
@@ -372,8 +372,8 @@ outputs.17.coordinates=org.apache.shiro:shiro-aspectj
 
 outputs.17.0.groupId=org.apache.shiro
 outputs.17.0.filename=shiro-aspectj-2.0.5.pom
-outputs.17.0.length=8060
-outputs.17.0.checksums.sha512=e7c639168618b819812e5f236e3b434aaad3c18dbb145f68b92851f4c3e8eb4a685e797de3d70798f5025cff911b68df14eacfc11b5d327d5d0f3d8ec6dc623b
+outputs.17.0.length=10494
+outputs.17.0.checksums.sha512=2608d85a1c37f2b083d2b68bb9ad7853610efc6d904f0934ce46420bac1045568886a4c5ab766e2b0f447ebf139d7aa4f3a6d8bb4f0ab60d36ccd3e13c7cf4a4
 
 outputs.17.1.groupId=org.apache.shiro
 outputs.17.1.filename=shiro-aspectj-2.0.5-build.pom
@@ -382,20 +382,20 @@ outputs.17.1.checksums.sha512=304cdf56dc4a0f5648c0f781c2884919681444cb163d64213d
 
 outputs.17.2.groupId=org.apache.shiro
 outputs.17.2.filename=shiro-aspectj-2.0.5.jar
-outputs.17.2.length=13793
-outputs.17.2.checksums.sha512=124391984a8c03ce159b424615c54f7f5fdcc49132910f75aac180a928b6f0637ce49e206479743791ccd2c6486ac95c65d4848d48120951e51c1e04f4dd1cc0
+outputs.17.2.length=13790
+outputs.17.2.checksums.sha512=39ec604e5479618fd808cc6cf053406f7f421150e2eed17274b2004bad3503168ab5b58fce9032204845e8e12883c6cda5284a4493ebff239c44d8cc9af2faca
 
 outputs.17.3.groupId=org.apache.shiro
 outputs.17.3.filename=shiro-aspectj-2.0.5-sources.jar
-outputs.17.3.length=12899
-outputs.17.3.checksums.sha512=024705208fa19806acb24228ac99e62868f010cddd98f1410a81ee2cb27d610285348b7d018d16c84b18d8326c6f5566a31e70209c7831e436692971ccffb36a
+outputs.17.3.length=12902
+outputs.17.3.checksums.sha512=13a07650145de9cf3901c5665b8a44009a31e3dbf6852d36c2c327c3cfcc77e41733da3fd3d441edff5a90b792db208035d3d210ee88c8be3bd5a61e6c9f531b
 
 outputs.18.coordinates=org.apache.shiro:shiro-jcache
 
 outputs.18.0.groupId=org.apache.shiro
 outputs.18.0.filename=shiro-jcache-2.0.5.pom
-outputs.18.0.length=7847
-outputs.18.0.checksums.sha512=541d23e969d7547039260599aba76391eb397dc2b17826c24d86ae496803ff7922b53fee47e8b301c05268bc6165d3d0393c6993dfc9ce8e0a303386169930bc
+outputs.18.0.length=8250
+outputs.18.0.checksums.sha512=8041457f045d45782d52e3463d71c9d7ba68f0a415f5dfbbd33bae142c4bcdf19bf952f9d76ba3d53f73c06069407ca9928437b28bf50db9216d6960ead48689
 
 outputs.18.1.groupId=org.apache.shiro
 outputs.18.1.filename=shiro-jcache-2.0.5-build.pom
@@ -416,8 +416,8 @@ outputs.19.coordinates=org.apache.shiro:shiro-ehcache
 
 outputs.19.0.groupId=org.apache.shiro
 outputs.19.0.filename=shiro-ehcache-2.0.5.pom
-outputs.19.0.length=8194
-outputs.19.0.checksums.sha512=03b8a7996cb7b74af4c74c0f417edb35e537757cd0ed84fe00752c17858d32cad50d8b0b3bd7d0bd5fcee1549c3b5a30f7d4c9f05a92f0dbf2a7b12ebd50b8fc
+outputs.19.0.length=8629
+outputs.19.0.checksums.sha512=8fe9ce82252ac3b64bddfbd8fcd5b4aada2aa55bb620be818b80cf88bcacc237c9b2b0dc31dd3362e42cb50d085778ab14222a9f6874e6d8f5d5ecd567aa1b06
 
 outputs.19.1.groupId=org.apache.shiro
 outputs.19.1.filename=shiro-ehcache-2.0.5-build.pom
@@ -438,8 +438,8 @@ outputs.20.coordinates=org.apache.shiro:shiro-hazelcast
 
 outputs.20.0.groupId=org.apache.shiro
 outputs.20.0.filename=shiro-hazelcast-2.0.5.pom
-outputs.20.0.length=7894
-outputs.20.0.checksums.sha512=435217a224eb7eaaf3dcaaddea6de57b55deb97e5f693621b8dfedad0f6b830f45ee4f9a5d22d2304c30cd6ef51dbcbe0d40576df4353d9531f0ad8717b65333
+outputs.20.0.length=8297
+outputs.20.0.checksums.sha512=110603837782e5f8d9cc810082230e42f84bd67f392cda66ee9db75a979ec2579deeb6c9303b3c93aaf0c537de3c0a7bc74fd6ecea786e96280a1331f9d169ca
 
 outputs.20.1.groupId=org.apache.shiro
 outputs.20.1.filename=shiro-hazelcast-2.0.5-build.pom
@@ -460,8 +460,8 @@ outputs.21.coordinates=org.apache.shiro:shiro-quartz
 
 outputs.21.0.groupId=org.apache.shiro
 outputs.21.0.filename=shiro-quartz-2.0.5.pom
-outputs.21.0.length=7876
-outputs.21.0.checksums.sha512=4342ce7206d5bdb4e1e7a70499e752e00c7c35d6562bf8b6ee26f26998f5231e7fd577a1303d8958c8b7d5316b5e94de35214e52a21c09ffd58d469957115833
+outputs.21.0.length=10342
+outputs.21.0.checksums.sha512=c768b12244a57b4d3f6348b01f521f8deefdd5a03c05dd1b111988dc4530460bea1490abbc8748d80805f148ca955386c27d975043c74e687ff77b44bef10c48
 
 outputs.21.1.groupId=org.apache.shiro
 outputs.21.1.filename=shiro-quartz-2.0.5-build.pom
@@ -470,20 +470,20 @@ outputs.21.1.checksums.sha512=63be05e9b05e5cbce03314dc12f7ccd534a1a6ac4277e3398c
 
 outputs.21.2.groupId=org.apache.shiro
 outputs.21.2.filename=shiro-quartz-2.0.5.jar
-outputs.21.2.length=13979
-outputs.21.2.checksums.sha512=690cec305cac5dd485e73d631ece5e1a3096aad680ed728488423e652c555c4a9934979f7486ee0873a7bca8519f8a41743fa87fcff7c648c3e00c8b28d7458c
+outputs.21.2.length=13982
+outputs.21.2.checksums.sha512=a70b3292a98ee7e6675ce98a1d0e74b46403a39091d71f9c9a205b434f35d94df2b299361dae75c9dd6deaa3b83fd3cbd072311484397ce141370a0c3c006337
 
 outputs.21.3.groupId=org.apache.shiro
 outputs.21.3.filename=shiro-quartz-2.0.5-sources.jar
-outputs.21.3.length=13436
-outputs.21.3.checksums.sha512=43fed4cfa99e07555fe361ed04e118cc0f30aaf7ec8fd58b9e7f7007610f02d3f269e5c472324945bb906146f3051d7d9bb36042177ede0f7cf75d0d464d7e3b
+outputs.21.3.length=13439
+outputs.21.3.checksums.sha512=b5b8170d6393ad341d1ed8d8235245db94d9d0cc50a672c8cbd7bee877ee340515b169638a1656fa6fa9bebc652cfda8e6910a55b1cdb0051597302317c3dca0
 
 outputs.22.coordinates=org.apache.shiro:shiro-spring
 
 outputs.22.0.groupId=org.apache.shiro
 outputs.22.0.filename=shiro-spring-2.0.5.pom
-outputs.22.0.length=9744
-outputs.22.0.checksums.sha512=1330c741ec8e1815572b6d3c18a6d6b2e39330aa8d28dcf4178cd424503f750a5eaac7b15fe709243ac424dbbf7845e2324ec8d82af19822db190adaf211501c
+outputs.22.0.length=12336
+outputs.22.0.checksums.sha512=210ddecc2bd7563c2731695609da976a2971d37c72ea36e1b3a9bff051215bb2c4b18e6f52a8b49ff9e2fd6af23779d402485dda2df502b503225b2af5f75cdf
 
 outputs.22.1.groupId=org.apache.shiro
 outputs.22.1.filename=shiro-spring-2.0.5-build.pom
@@ -492,25 +492,25 @@ outputs.22.1.checksums.sha512=f07a24779920e3056403072620e9d28f2c01fe219e5ce52d49
 
 outputs.22.2.groupId=org.apache.shiro
 outputs.22.2.filename=shiro-spring-2.0.5.jar
-outputs.22.2.length=45657
-outputs.22.2.checksums.sha512=ad2e5de9d0c03d9628f60635050df73b01f73e23946542004d6c68832c43f678da3bf8bdda569ae8d6f3013cfd941c669c73b1f453c0d9aa9ce06fd3bc4553f0
+outputs.22.2.length=45660
+outputs.22.2.checksums.sha512=5165139181d9f4c5b07ab82f34cbde51cd6e588732829c8714cd16eacb1b6375d1b20981f132fefa41225e44f5a98d167054a5755004344a356fd6430bd82f3a
 
 outputs.22.3.groupId=org.apache.shiro
 outputs.22.3.filename=shiro-spring-2.0.5-sources.jar
-outputs.22.3.length=46352
-outputs.22.3.checksums.sha512=6def0c4d04bc4ebac713443ab0b8f032a0dca49845c0a8d1e0afd45974ce372b58e82b6b1f52cf48ec9cf89733d76ca2f11ac2161ea5e20db36e7b77e90dace6
+outputs.22.3.length=46355
+outputs.22.3.checksums.sha512=ea87591ea6e733f244242bedbbd1fd5a7654e1a2a41ffd5ed276533f2b67f3c0b866e42d3473d9baeccd8ce16d1636bf85ed3cc072ddd9eaa5a81744c78f5502
 
 outputs.22.4.groupId=org.apache.shiro
 outputs.22.4.filename=shiro-spring-2.0.5-jakarta.jar
-outputs.22.4.length=45618
-outputs.22.4.checksums.sha512=4f1a39fde6d914c640bca61855ebc7f0bef324130d0808f6369f0ec56ca8443b85592939c392a1bd617fd43b0dc2cd5a55717be5e4b57e41e441ff40286ac857
+outputs.22.4.length=45621
+outputs.22.4.checksums.sha512=7edb7f62ac5532fe0efda19c494e0087024580e292e2014c21424395853d74546c7f390d5dd10ddd061afd1f0554d74ba04fe4028c8be40771ee8b75d1f6f6e4
 
 outputs.23.coordinates=org.apache.shiro:shiro-guice
 
 outputs.23.0.groupId=org.apache.shiro
 outputs.23.0.filename=shiro-guice-2.0.5.pom
-outputs.23.0.length=9379
-outputs.23.0.checksums.sha512=691dc033fe9b4b4a6d4ec00eab49fdf74a197f636c21b3a2ef8eb942df42fc6fdd0cf888540ddf376e4a5266da97813d534885df9e122c2c3d9baf8d71125b95
+outputs.23.0.length=11456
+outputs.23.0.checksums.sha512=02da29b669449ad2788ba89ba539bffc40db78bc813d573e19e42e4b77a91e192d62f7a83d8fc3bf382c971f2f326c869242af79eccdaac88d53d13749494de1
 
 outputs.23.1.groupId=org.apache.shiro
 outputs.23.1.filename=shiro-guice-2.0.5-build.pom
@@ -519,18 +519,18 @@ outputs.23.1.checksums.sha512=8f0b85933241757df9a596349ef2e463deba3e9350a0c61965
 
 outputs.23.2.groupId=org.apache.shiro
 outputs.23.2.filename=shiro-guice-2.0.5.jar
-outputs.23.2.length=55656
-outputs.23.2.checksums.sha512=62c0babc0f9914e55109318b39cd7f5481b26284b619e3355f63903f58b7511f2c22d81e47545e9bcdd7228a9591cb1b66edee8c310cc78f09de4417fb3ca587
+outputs.23.2.length=55659
+outputs.23.2.checksums.sha512=8f85b1afa2e61f08df791d0432d141ef94c467a993d4a5a9f8225f5f78fd6a8e2a702010d108466533eb0a2d3ec7215f0d39d744da90efb2b27d1904bd063f3c
 
 outputs.23.3.groupId=org.apache.shiro
 outputs.23.3.filename=shiro-guice-2.0.5-sources.jar
-outputs.23.3.length=35867
-outputs.23.3.checksums.sha512=9c42588f5542199fa02c93ce1d72818b5859efe85376264004ebdc15e010c56fa44a9087f3017a15c68c500fc4cffa0c8fc813c85bfff6baa7fc2abf7fc2f532
+outputs.23.3.length=35870
+outputs.23.3.checksums.sha512=9fa739309850770082f917047da5dec64429bbda0110e3671a35814b1e58fb99a64fd62bac9f5522d6f2b3997939f21e02420452a506d2a8c8616592b5307310
 
 outputs.23.4.groupId=org.apache.shiro
 outputs.23.4.filename=shiro-guice-2.0.5-jakarta.jar
-outputs.23.4.length=55531
-outputs.23.4.checksums.sha512=d3d9781a6f71ab2aab670a51a100ed3748d5e2cc7d4ac451b4e1fd56a3c017a1690fd2b7de0d3cf5e40ec4ba91f5626a19f353039decb5272ded7fa29806c9c8
+outputs.23.4.length=55534
+outputs.23.4.checksums.sha512=1eefbb82525a46fb7a659636d2cc3777e7579fcf93d1e5d42ed2b703925e1a48fbe0176a4ff2ca76e98aac6c4d78b0097351c01813ff21f507df155fe5bb70a9
 
 outputs.24.coordinates=org.apache.shiro:shiro-spring-boot
 
@@ -548,8 +548,8 @@ outputs.25.coordinates=org.apache.shiro:shiro-spring-boot-starter
 
 outputs.25.0.groupId=org.apache.shiro
 outputs.25.0.filename=shiro-spring-boot-starter-2.0.5.pom
-outputs.25.0.length=12175
-outputs.25.0.checksums.sha512=f092ab5c3b56909c9816e0908e84e7fcaacc4461ced47ac98e44f105e83b2dbdaba46d37620deba488949c4c0f91a9e5746e082443e4ee955bd0ebb7051d2c72
+outputs.25.0.length=19134
+outputs.25.0.checksums.sha512=8aa18f93da760847e6cef9b1ba1e9abc34d590711358f98b670bb8e780587e9f7b721d34cf4dca483658b39afc001d269ca51d8460541cd17a2a8aff2d4d1381
 
 outputs.25.1.groupId=org.apache.shiro
 outputs.25.1.filename=shiro-spring-boot-starter-2.0.5-build.pom
@@ -558,25 +558,25 @@ outputs.25.1.checksums.sha512=ac2d567af3cae7768e195774e3efe55952c0df058877871891
 
 outputs.25.2.groupId=org.apache.shiro
 outputs.25.2.filename=shiro-spring-boot-starter-2.0.5.jar
-outputs.25.2.length=20762
-outputs.25.2.checksums.sha512=4ec3cad8b053c4fee638d74e9344586547caf76b9a5c3fb1b49f70afc7958346d6690399e25b5911690a459d8ac90c2ba6b9e40db0293c627ecc249dd1690948
+outputs.25.2.length=20766
+outputs.25.2.checksums.sha512=e93bbbbef40a1118e1661df40f74d3f31b7fb627104003f47812cd05446e6099a6e5f4d4a713181faacc60ac67a102f909b6f3e4d5a4326063f377ed8d2d56c3
 
 outputs.25.3.groupId=org.apache.shiro
 outputs.25.3.filename=shiro-spring-boot-starter-2.0.5-sources.jar
-outputs.25.3.length=21861
-outputs.25.3.checksums.sha512=b020f5495fde75574a275509b3ca2c4cbc0f2f52f530f76d791aaa65d45a2182910caaa925ca325c2af2f6833d1ec5e30b6a24e993f9f908c9613ccc634da0f6
+outputs.25.3.length=21865
+outputs.25.3.checksums.sha512=15064f243ba0ac8ff1e21b449dfff0a6eac8b11dff2872973926435ff8285136d74573529650eb2b957a3af5fa6b372030d8f84de243e5552e420aeffe308100
 
 outputs.25.4.groupId=org.apache.shiro
 outputs.25.4.filename=shiro-spring-boot-starter-2.0.5-jakarta.jar
-outputs.25.4.length=21341
-outputs.25.4.checksums.sha512=a72d6d30053c2df23f75fe31071f6494c689996dc9ccb112eb7b9412ab03ee1ee1f45028535399ce5bb71a8c8028e57bf515f5998df04a390862645ff1275c26
+outputs.25.4.length=21345
+outputs.25.4.checksums.sha512=1cafdfb65ce5822b87f4a49ff5e45473c34c45655b887362bf67c880cea5cf354429184c027407c81103537da5247273545491e6aeb183b59d35396814ff89ad
 
 outputs.26.coordinates=org.apache.shiro:shiro-spring-boot-web-starter
 
 outputs.26.0.groupId=org.apache.shiro
 outputs.26.0.filename=shiro-spring-boot-web-starter-2.0.5.pom
-outputs.26.0.length=11047
-outputs.26.0.checksums.sha512=92a8213bfe6e24f476234f75f8c136df74659cd1bfdc325129561af291f232abd1a53ac58bb9c296dec2c5b710221d382241c5d9795cb93fb49f7c01f8accc91
+outputs.26.0.length=29821
+outputs.26.0.checksums.sha512=4bdff9dc6478eb74edf38f94b9afcdd30f272d98ec1d4d8f69415d8e6576d561d6da652aee924f550c7e238f8c1e478bcab8464eaeea328cf992047f0dff43c5
 
 outputs.26.1.groupId=org.apache.shiro
 outputs.26.1.filename=shiro-spring-boot-web-starter-2.0.5-build.pom
@@ -585,25 +585,25 @@ outputs.26.1.checksums.sha512=c421dfd3e851dedb7b1a2d9cea3afdab435486a0449c6e957c
 
 outputs.26.2.groupId=org.apache.shiro
 outputs.26.2.filename=shiro-spring-boot-web-starter-2.0.5.jar
-outputs.26.2.length=8535
-outputs.26.2.checksums.sha512=e373e63835693bc23b18f0e49a390ee474850b1bf0a07102b5bb4defd40eefba2942f80a09cf7f84e4a40ae76de85375824735dd2242e3285a56b4151ff5bd10
+outputs.26.2.length=8539
+outputs.26.2.checksums.sha512=4849e6a269bcf6b884694f3dc86f31dec2861c1607b207de00903c92164515b9e95ac335d79481e9012c0d2023e35375c46428592cc2ce841a8f28cdc28b1985
 
 outputs.26.3.groupId=org.apache.shiro
 outputs.26.3.filename=shiro-spring-boot-web-starter-2.0.5-sources.jar
-outputs.26.3.length=8376
-outputs.26.3.checksums.sha512=7216d7d642a7b7592d9fefa9688715ce87d86d4a058ca819c5aac06a7ac42bc2902a1df80118b8f3342a79be943d2072e8a809dbd50bd9bfd9a013dd309643c4
+outputs.26.3.length=8380
+outputs.26.3.checksums.sha512=0dc1de033095b0c3263c8bac2b22ccd009e25447899a4ec3780f1a9dc43c9cb3f42295266bfd64a9843ce5393818d030fa72fe7b3f71702b8bb622a33baf33e2
 
 outputs.26.4.groupId=org.apache.shiro
 outputs.26.4.filename=shiro-spring-boot-web-starter-2.0.5-jakarta.jar
-outputs.26.4.length=8711
-outputs.26.4.checksums.sha512=e5db34640cf99f2ee1ce6a632c9693543d7b5acc1d43a15d0c3ef60d1a77c4d7819ed9c4d9d9f886faa6b88e804d03df4701eaf928588a88270147bc349dbe3e
+outputs.26.4.length=8715
+outputs.26.4.checksums.sha512=7c4b8d3d352710e7d490953152528401adbeea7f1ce7ba896c1dbbc5c65a3a0f766c6a001308db791fde9b4e64cff811bcbe3fd41d6aa5512946912420357bda
 
 outputs.27.coordinates=org.apache.shiro:shiro-servlet-plugin
 
 outputs.27.0.groupId=org.apache.shiro
 outputs.27.0.filename=shiro-servlet-plugin-2.0.5.pom
-outputs.27.0.length=7039
-outputs.27.0.checksums.sha512=9bbaafc329923ca1c5aa199072b1041d6015b5ef2be111f08b69785c8b624bbd149a7e16b627fbe4cc87f8ce761674cf215de8ba13e6c6eb64ea17fe5e10e4e4
+outputs.27.0.length=9791
+outputs.27.0.checksums.sha512=87f377d9ac90aaee110bb24b667a5e02c675a31fa4831e1c40faf5849a3e585066c1ea5ce4f163432a68975b97d7ac3b6af03e09a567387cde8cd857557ea00c
 
 outputs.27.1.groupId=org.apache.shiro
 outputs.27.1.filename=shiro-servlet-plugin-2.0.5-build.pom
@@ -612,20 +612,20 @@ outputs.27.1.checksums.sha512=1e00c46d4cdcd43ab48e8efb8cf120d06868344654d54e6489
 
 outputs.27.2.groupId=org.apache.shiro
 outputs.27.2.filename=shiro-servlet-plugin-2.0.5.jar
-outputs.27.2.length=8570
-outputs.27.2.checksums.sha512=22e944c3da489402b335d28c4aa91adbe1e436d6b3e22115534ebe39e7bfd875dffc7dbe5a6b95bf059d8e72027c4c0db3e1c64c2ceb80edcbf46bba4f2ce8e3
+outputs.27.2.length=8573
+outputs.27.2.checksums.sha512=68736c882c7adc712bb89321334d325feb69bcbe81309ea91d1f10f5141a5c5f64bc32a21cb650b576772c834b6230ac7031c64c6deeb359c365886bd3637467
 
 outputs.27.3.groupId=org.apache.shiro
 outputs.27.3.filename=shiro-servlet-plugin-2.0.5-sources.jar
-outputs.27.3.length=8423
-outputs.27.3.checksums.sha512=748b6714a6029b786f1bfc2d8fcc79985a39b3949dd5f9a71729fa531fa1cde793842c4c6f7069492fa4ce35da30b9b2b8ba5aef2459c9e25335f3dc099667f5
+outputs.27.3.length=8426
+outputs.27.3.checksums.sha512=77101ade4256632e69ca3584d0a5b4dfccc0144d9de03f5d6ba04805f1f683c6e74e749532a7b43796daa16aacc05b53ca116ca9bb1beb6da54fe4b051468175
 
 outputs.28.coordinates=org.apache.shiro:shiro-jaxrs
 
 outputs.28.0.groupId=org.apache.shiro
 outputs.28.0.filename=shiro-jaxrs-2.0.5.pom
-outputs.28.0.length=9299
-outputs.28.0.checksums.sha512=5efce7e3d7a48021e9d4605209f35c97aa7b816da090687487bfd38aa5b62ae59afda2ade601980370fd05afeb892bc0a0945f221853c6b3a05a4b3388c7b8a8
+outputs.28.0.length=11891
+outputs.28.0.checksums.sha512=275e40ca0f5d9e8c664117c4b841f44402e9f520c805d678cf387bc5138fa0ebe5a42ded9c8e65734c3294ff1e751b9857e23e2012c21af9eb392e15e92191b2
 
 outputs.28.1.groupId=org.apache.shiro
 outputs.28.1.filename=shiro-jaxrs-2.0.5-build.pom
@@ -634,18 +634,18 @@ outputs.28.1.checksums.sha512=0302ef0ec1b1fda6bb7873802cb3c50666c1cccd49bc20620a
 
 outputs.28.2.groupId=org.apache.shiro
 outputs.28.2.filename=shiro-jaxrs-2.0.5.jar
-outputs.28.2.length=19495
-outputs.28.2.checksums.sha512=85cabb2008b999466aad27f1abc17cf9c9a18db4066b342aa94613c8c61d7956eab3a61025d2ec6254286afd19b7f21e1a275652855129b40d9fb973d9a01bda
+outputs.28.2.length=19498
+outputs.28.2.checksums.sha512=da689925640356a7e9741aa3e8a6f6a2faeeec791b129a16f79e464a9c6a8a3ba9eed1cf056dfb3101fc4a7b308806222f27fbeea0313c049900701dec1d45b4
 
 outputs.28.3.groupId=org.apache.shiro
 outputs.28.3.filename=shiro-jaxrs-2.0.5-sources.jar
-outputs.28.3.length=17347
-outputs.28.3.checksums.sha512=5c2c1c196523eca43f77b2cea7d8c2a60b765d7804a26a3eb779f3abf1ac7117c5a2e8517a55c49ecb53db7bfc0e0dd85dadeb8d42d754f8c24636b112b52cf8
+outputs.28.3.length=17350
+outputs.28.3.checksums.sha512=2f177da3487d2033c6220dce81a4864da319be75d89209f7a993438eb5f848f9be9e5c29babfcd9a6d64b576dec963756afc9f1465e2a4f8d4578994edd6c408
 
 outputs.28.4.groupId=org.apache.shiro
 outputs.28.4.filename=shiro-jaxrs-2.0.5-jakarta.jar
-outputs.28.4.length=19458
-outputs.28.4.checksums.sha512=50c55b2abf590c1882bfa26e01668af3aaa2b0ed04a0d138c8f337cb9512a4968da541c3d638d327973ccb47064e3f6364be5557d0b8140177bdc4ae04b86006
+outputs.28.4.length=19461
+outputs.28.4.checksums.sha512=dd606260dfab5c8b2b9a2a0b330d27fdd8dea875dec85db3fd2c5a2126987747721248100b46c7fc5c3782e5200b5563679fa19b1c1e7a29245037105f7719d4
 
 outputs.29.coordinates=org.apache.shiro:shiro-features
 
@@ -668,8 +668,8 @@ outputs.30.coordinates=org.apache.shiro:shiro-cdi
 
 outputs.30.0.groupId=org.apache.shiro
 outputs.30.0.filename=shiro-cdi-2.0.5.pom
-outputs.30.0.length=7969
-outputs.30.0.checksums.sha512=d2f92b951f2cbb53a006ef069918775853d2f61bad662a9eb90ed6317d564dd8463996eb36935104fac3c444691a4dc5a2160ad3632922d7ac70104b419e864e
+outputs.30.0.length=10403
+outputs.30.0.checksums.sha512=2d63dd2e79705979b1ae6552b270a5af226750c9ee765bd26a3fc1eda269552abb6238ec21b674cc219dd795ffa8fdb76696b287c450da56be41f8714de3047a
 
 outputs.30.1.groupId=org.apache.shiro
 outputs.30.1.filename=shiro-cdi-2.0.5-build.pom
@@ -678,25 +678,25 @@ outputs.30.1.checksums.sha512=7f0a15eaf8ff8bd914d8698c408eef4deb3355bdf9f1c6323a
 
 outputs.30.2.groupId=org.apache.shiro
 outputs.30.2.filename=shiro-cdi-2.0.5.jar
-outputs.30.2.length=23652
-outputs.30.2.checksums.sha512=1542c95529c099f3db528c67c84e9c4265996b3be6ee3ffd33f7a9239a5ef4bc462e2318cc4fd4ec087b8c468dd75b3e43e346764b504a73cf9e7230412241f7
+outputs.30.2.length=23655
+outputs.30.2.checksums.sha512=3f49c29d4e21ed04e61ed0fc5747cba25ff868bc2db274c5a48dba4c7ffa227b77f3162310d14ed9b4dd36a9113b41ad48c90f0286caf4899b1f965db1161625
 
 outputs.30.3.groupId=org.apache.shiro
 outputs.30.3.filename=shiro-cdi-2.0.5-jakarta.jar
-outputs.30.3.length=24188
-outputs.30.3.checksums.sha512=efdb34fcbe2f1ff4ac47c7744741f259fd92586d14ba7a8aa091da9595ccb10749e0c08c14426c61490a55346b19d5878b3a379069de7fb7be4b22e29a971b74
+outputs.30.3.length=24191
+outputs.30.3.checksums.sha512=b328afd2b8953a74e1120128c39099638d55a5a717059c7bd09e1e3f904cd7862cc7e1d682ab770198373616ed60c58b37959844e3f2c36d6e3b3683d31cb382
 
 outputs.30.4.groupId=org.apache.shiro
 outputs.30.4.filename=shiro-cdi-2.0.5-sources.jar
-outputs.30.4.length=18873
-outputs.30.4.checksums.sha512=932c35d628757b6f788e2328db20250a3e71e604fb917a7c06acdf84589cda5d0bcbf045c1e095abfff358c26a118446e561d52382097d6d0e8f10e9ad07f7d8
+outputs.30.4.length=18876
+outputs.30.4.checksums.sha512=7ccb474fa3ce17595dc681f372be9dbd0d75dbb36383ba2af34e7b1476b2d1a89e02b2bcb0c6bfd9cd2f9c97d1f079278200d54a3fa5048be56f05b6958d4218
 
 outputs.31.coordinates=org.apache.shiro:shiro-jakarta-ee
 
 outputs.31.0.groupId=org.apache.shiro
 outputs.31.0.filename=shiro-jakarta-ee-2.0.5.pom
-outputs.31.0.length=8709
-outputs.31.0.checksums.sha512=003e47724ebecf9da37103dcd45816ae503f952cfb7615e8102116aa2c826e322d7373da16cecb5fc0e1cd301994b564f1e82fb8ef8791bfee3d819b4e42cc2d
+outputs.31.0.length=11301
+outputs.31.0.checksums.sha512=398650bc5a319c0bd0b95883f7687df7b2e8b8b729de436a93c6a18a561dc984bac8152bf344eb050476263967d39c100f2bef12fa1494541c90a76f88367dd8
 
 outputs.31.1.groupId=org.apache.shiro
 outputs.31.1.filename=shiro-jakarta-ee-2.0.5-build.pom
@@ -705,18 +705,18 @@ outputs.31.1.checksums.sha512=8951d25d9d50a80c4da648fbe4fc4e60e0430f40fba0e4c8f4
 
 outputs.31.2.groupId=org.apache.shiro
 outputs.31.2.filename=shiro-jakarta-ee-2.0.5.jar
-outputs.31.2.length=91900
-outputs.31.2.checksums.sha512=20573415b5e48057e04fee963d24c8724154946ee2219731854509a3c83e6dc993d038408acf7e368e0ac3f5e6802a894a527811d419406ce10bb9cab079f19f
+outputs.31.2.length=91904
+outputs.31.2.checksums.sha512=a8a62d84fe240d734fe17ea965e8a54a9586623ce84044587ed81eb22f9d76ab5b98b332cbf389d0ddb5fe5b1148723a82090be4581df091a3d5401db3a0c41d
 
 outputs.31.3.groupId=org.apache.shiro
 outputs.31.3.filename=shiro-jakarta-ee-2.0.5-jakarta.jar
-outputs.31.3.length=93091
-outputs.31.3.checksums.sha512=f4556b892822b161b17969d303278df636f5523ba976654e896b133392bd88e39febdf1f7c71121b4cef320047dba5042d43d2787eb928ca77b98538e19a9539
+outputs.31.3.length=93095
+outputs.31.3.checksums.sha512=38b395e810941c66a76f9989a72e809647922cfc8c41203e7041871ac89b92c70ed9eaed6c6733737f6f1ebd7fadd5b0cd494c84b0345ac125a456d926be0303
 
 outputs.31.4.groupId=org.apache.shiro
 outputs.31.4.filename=shiro-jakarta-ee-2.0.5-sources.jar
-outputs.31.4.length=57993
-outputs.31.4.checksums.sha512=625bbb124a06ec384bba6da30b0f7cf7d22a74bee9ddfc27527b2f43f04072a3817ee69ad8df29382736b32f1855613b280ea595934a75fd552fe19b0e0fe0d3
+outputs.31.4.length=57997
+outputs.31.4.checksums.sha512=6a7416c664563f91699c815b04978179822991b66023a797832fd947c645ff9d903dfd01f3dea1289065077e73c2c4ab2869e3a8a06d1e3d16bd41b635a4a18e
 
 outputs.32.coordinates=org.apache.shiro.tools:shiro-tools
 
@@ -734,8 +734,8 @@ outputs.33.coordinates=org.apache.shiro.tools:shiro-tools-hasher
 
 outputs.33.0.groupId=org.apache.shiro.tools
 outputs.33.0.filename=shiro-tools-hasher-2.0.5.pom
-outputs.33.0.length=9256
-outputs.33.0.checksums.sha512=5c8248cf476a1457ab5b64fba9b0cb3247c0a2295e03181185c9ab9f918db7a14404aab6503a43cb37dbbf42ad627f2bb1d18d308fa57eabaa0cf9614bd7fbea
+outputs.33.0.length=10828
+outputs.33.0.checksums.sha512=12c2586536f4e97b2eec5292cfbd8dd02cdc9d886cf915036f21faca4d0cf9e4e94bb737f146916f51ad01b1af794ca675051d6614986e51f7bf64e4afda5966
 
 outputs.33.1.groupId=org.apache.shiro.tools
 outputs.33.1.filename=shiro-tools-hasher-2.0.5-build.pom
@@ -744,18 +744,18 @@ outputs.33.1.checksums.sha512=456228f05d12132d6c9231c2638dbca1be31840212bc50f813
 
 outputs.33.2.groupId=org.apache.shiro.tools
 outputs.33.2.filename=shiro-tools-hasher-2.0.5.jar
-outputs.33.2.length=19760
-outputs.33.2.checksums.sha512=8e39f5b263207bced7b356b864bed123d456257fcf7fded0ac13c721dceed5356daa13b76537d6bbc56f6c778b7d5a68f244ca587537a4e223f9596952efc5ee
+outputs.33.2.length=19763
+outputs.33.2.checksums.sha512=ae87027e8eaded1e11243480bb381457f423ffb2fde65e98d686d56ec6a7b1c9e422fa2b8743b0207495ba7327a50baa0de964a2e747ee6d14c9abef2167504f
 
 outputs.33.3.groupId=org.apache.shiro.tools
 outputs.33.3.filename=shiro-tools-hasher-2.0.5-sources.jar
-outputs.33.3.length=15547
-outputs.33.3.checksums.sha512=d4b11cdf65c6feb851fe9e7c41677f3cc6c3993c18f88183851bdc0450e3b521b25d065034e285dea2efd0eef598fefaf596f75f8a26e862c7f7bf33abae1483
+outputs.33.3.length=15550
+outputs.33.3.checksums.sha512=6ab336aed72686e1ab6696aad5f88c3c25468af42a9113e14eb18cc1e5e57aadfdec6ed4e816ece2285460e3fc96a75587877acd65e977f39cdc9a56584268af
 
 outputs.33.4.groupId=org.apache.shiro.tools
 outputs.33.4.filename=shiro-tools-hasher-2.0.5-cli.jar
-outputs.33.4.length=12355232
-outputs.33.4.checksums.sha512=5701fbaffe08decc4bb1a36028dfe40b624ba7445f17f455f63ee934e7373d38094aa8a863affd8da796d0311a3ceaf89447634c2a8c84d8ba00cd5c279990ec
+outputs.33.4.length=12355235
+outputs.33.4.checksums.sha512=d0d1e28f7938d92ac121d2b0a40bd22ad5cc9c53a7bff7df8783c9ccb59217515a8af72d6b9789676ce177c3c2c509d2b5e307c0027559a7294def7e1cd92826
 
 outputs.34.coordinates=org.apache.shiro:shiro-bom
 
