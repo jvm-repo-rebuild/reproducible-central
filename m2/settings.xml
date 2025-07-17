@@ -135,6 +135,11 @@
       <url>https://repo.gradle.org/gradle/libs-releases-local/</url>
     </mirror>
     <mirror>
+      <id>gradle</id>
+      <mirrorOf>gradle</mirrorOf>
+      <url>https://repo.gradle.org/artifactory/libs-releases</url>
+    </mirror>
+    <mirror>
       <id>ext.repo.gradle.org</id>
       <mirrorOf>ext.repo.gradle.org</mirrorOf>
       <url>https://repo.gradle.org/gradle/ext-releases-local/</url>
