@@ -19,4 +19,4 @@ command="mvn -Djava.version='$javaVersion' -Djava.vendor='$javaVendor' -Prelease
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/quarkusio/quarkus/pull/48870

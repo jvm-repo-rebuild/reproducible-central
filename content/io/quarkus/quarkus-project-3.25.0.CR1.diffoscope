@@ -1,0 +1,160 @@
+1 / 4 target/reference/io.quarkus/quarkus-bom-quarkus-platform-descriptor-3.25.0.CR1-3.25.0.CR1.json devtools/bom-descriptor-json/target/quarkus-bom-quarkus-platform-descriptor-3.25.0.CR1-3.25.0.CR1.json
+--- target/reference/io.quarkus/quarkus-bom-quarkus-platform-descriptor-3.25.0.CR1-3.25.0.CR1.json
++++ devtools/bom-descriptor-json/target/quarkus-bom-quarkus-platform-descriptor-3.25.0.CR1-3.25.0.CR1.json
+├── Pretty-printed
+│┄ Ordering differences only
+│ @@ -5,390 +5,403 @@
+│      "quarkus-core-version": "3.25.0.CR1",
+│      "extensions": [
+│          {
+│              "name": "Quarkus - Core",
+│              "description": "Quarkus core components",
+│              "metadata": {
+│                  "built-with-quarkus-core": "3.25.0.CR1",
+│ -                "requires-quarkus-core": "[3.25,)",
+│ -                "unlisted": true,
+│ +                "minimum-java-version": "17",
+│                  "scm-url": "https://github.com/quarkusio/quarkus",
+│ -                "minimum-java-version": "17"
+│ +                "unlisted": true,
+│ +                "requires-quarkus-core": "[3.25,)"
+│              },
+│              "artifact": "io.quarkus:quarkus-core::jar:3.25.0.CR1",
+│              "origins": [
+│                  "io.quarkus:quarkus-bom-quarkus-platform-descriptor:3.25.0.CR1:json:3.25.0.CR1"
+│              ]
+│          },
+...
+
+2 / 4 target/reference/io.quarkus/quarkus-gradle-model-3.25.0.CR1.jar devtools/gradle/gradle-model/build/libs/gradle-model-3.25.0.CR1.jar
+--- target/reference/io.quarkus/quarkus-gradle-model-3.25.0.CR1.jar
++++ devtools/gradle/gradle-model/build/libs/gradle-model-3.25.0.CR1.jar
+├── zipinfo {}
+│ @@ -1,25 +1,25 @@
+│  Zip file size: 56850 bytes, number of entries: 23
+│ -drwxr-xr-x  2.0 unx        0 b- defN 25-Jul-16 12:04 META-INF/
+│ --rw-r--r--  2.0 unx       25 b- defN 25-Jul-16 12:04 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- defN 25-Jul-16 12:04 io/
+│ -drwxr-xr-x  2.0 unx        0 b- defN 25-Jul-16 12:04 io/quarkus/
+│ -drwxr-xr-x  2.0 unx        0 b- defN 25-Jul-16 12:04 io/quarkus/gradle/
+│ -drwxr-xr-x  2.0 unx        0 b- defN 25-Jul-16 12:04 io/quarkus/gradle/dependency/
+│ --rw-r--r--  2.0 unx    13324 b- defN 25-Jul-16 12:04 io/quarkus/gradle/dependency/ConditionalDependenciesEnabler.class
+│ --rw-r--r--  2.0 unx      872 b- defN 25-Jul-16 12:04 io/quarkus/gradle/dependency/ApplicationDeploymentClasspathBuilder$1.class
+│ --rw-r--r--  2.0 unx    24180 b- defN 25-Jul-16 12:04 io/quarkus/gradle/dependency/ApplicationDeploymentClasspathBuilder.class
+│ -drwxr-xr-x  2.0 unx        0 b- defN 25-Jul-16 12:04 io/quarkus/gradle/tooling/
+│ -drwxr-xr-x  2.0 unx        0 b- defN 25-Jul-16 12:04 io/quarkus/gradle/tooling/dependency/
+│ --rw-r--r--  2.0 unx     1554 b- defN 25-Jul-16 12:04 io/quarkus/gradle/tooling/dependency/ArtifactExtensionDependency.class
+│ --rw-r--r--  2.0 unx     1992 b- defN 25-Jul-16 12:04 io/quarkus/gradle/tooling/dependency/ProjectExtensionDependency.class
+│ --rw-r--r--  2.0 unx    20637 b- defN 25-Jul-16 12:04 io/quarkus/gradle/tooling/dependency/DependencyUtils.class
+│ --rw-r--r--  2.0 unx     8512 b- defN 25-Jul-16 12:04 io/quarkus/gradle/tooling/dependency/ExtensionDependency.class
+│ --rw-r--r--  2.0 unx    12223 b- defN 25-Jul-16 12:04 io/quarkus/gradle/tooling/ToolingUtils.class
+│ --rw-r--r--  2.0 unx     2195 b- defN 25-Jul-16 12:04 io/quarkus/gradle/tooling/DefaultProjectDescriptor.class
+│ --rw-r--r--  2.0 unx    40900 b- defN 25-Jul-16 12:04 io/quarkus/gradle/tooling/GradleApplicationModelBuilder.class
+│ --rw-r--r--  2.0 unx      530 b- defN 25-Jul-16 12:04 io/quarkus/gradle/tooling/ProjectDescriptor.class
+│ --rw-r--r--  2.0 unx    10847 b- defN 25-Jul-16 12:04 io/quarkus/gradle/tooling/ProjectDescriptorBuilder.class
+│ -drwxr-xr-x  2.0 unx        0 b- defN 25-Jul-16 12:04 io/quarkus/gradle/extension/
+│ --rw-r--r--  2.0 unx     3044 b- defN 25-Jul-16 12:04 io/quarkus/gradle/extension/ConfigurationUtils.class
+│ --rw-r--r--  2.0 unx      251 b- defN 25-Jul-16 12:04 io/quarkus/gradle/extension/ExtensionConstants.class
+│ +drwxr-xr-x  2.0 unx        0 b- defN 25-Jul-17 19:50 META-INF/
+│ +-rw-r--r--  2.0 unx       25 b- defN 25-Jul-17 19:50 META-INF/MANIFEST.MF
+│ +drwxrwxr-x  2.0 unx        0 b- defN 25-Jul-17 19:50 io/
+│ +drwxrwxr-x  2.0 unx        0 b- defN 25-Jul-17 19:50 io/quarkus/
+│ +drwxrwxr-x  2.0 unx        0 b- defN 25-Jul-17 19:50 io/quarkus/gradle/
+│ +drwxrwxr-x  2.0 unx        0 b- defN 25-Jul-17 19:50 io/quarkus/gradle/dependency/
+│ +-rw-rw-r--  2.0 unx    13324 b- defN 25-Jul-17 19:50 io/quarkus/gradle/dependency/ConditionalDependenciesEnabler.class
+│ +-rw-rw-r--  2.0 unx      872 b- defN 25-Jul-17 19:50 io/quarkus/gradle/dependency/ApplicationDeploymentClasspathBuilder$1.class
+│ +-rw-rw-r--  2.0 unx    24180 b- defN 25-Jul-17 19:50 io/quarkus/gradle/dependency/ApplicationDeploymentClasspathBuilder.class
+│ +drwxrwxr-x  2.0 unx        0 b- defN 25-Jul-17 19:50 io/quarkus/gradle/tooling/
+│ +drwxrwxr-x  2.0 unx        0 b- defN 25-Jul-17 19:50 io/quarkus/gradle/tooling/dependency/
+│ +-rw-rw-r--  2.0 unx     1554 b- defN 25-Jul-17 19:50 io/quarkus/gradle/tooling/dependency/ArtifactExtensionDependency.class
+│ +-rw-rw-r--  2.0 unx     1992 b- defN 25-Jul-17 19:50 io/quarkus/gradle/tooling/dependency/ProjectExtensionDependency.class
+│ +-rw-rw-r--  2.0 unx    20637 b- defN 25-Jul-17 19:50 io/quarkus/gradle/tooling/dependency/DependencyUtils.class
+│ +-rw-rw-r--  2.0 unx     8512 b- defN 25-Jul-17 19:50 io/quarkus/gradle/tooling/dependency/ExtensionDependency.class
+│ +-rw-rw-r--  2.0 unx    12223 b- defN 25-Jul-17 19:50 io/quarkus/gradle/tooling/ToolingUtils.class
+│ +-rw-rw-r--  2.0 unx     2195 b- defN 25-Jul-17 19:50 io/quarkus/gradle/tooling/DefaultProjectDescriptor.class
+│ +-rw-rw-r--  2.0 unx    40900 b- defN 25-Jul-17 19:50 io/quarkus/gradle/tooling/GradleApplicationModelBuilder.class
+│ +-rw-rw-r--  2.0 unx      530 b- defN 25-Jul-17 19:50 io/quarkus/gradle/tooling/ProjectDescriptor.class
+│ +-rw-rw-r--  2.0 unx    10847 b- defN 25-Jul-17 19:50 io/quarkus/gradle/tooling/ProjectDescriptorBuilder.class
+│ +drwxrwxr-x  2.0 unx        0 b- defN 25-Jul-17 19:50 io/quarkus/gradle/extension/
+│ +-rw-rw-r--  2.0 unx     3044 b- defN 25-Jul-17 19:50 io/quarkus/gradle/extension/ConfigurationUtils.class
+│ +-rw-rw-r--  2.0 unx      251 b- defN 25-Jul-17 19:50 io/quarkus/gradle/extension/ExtensionConstants.class
+│  23 files, 141086 bytes uncompressed, 53038 bytes compressed:  62.4%
+
+3 / 4 target/reference/io.quarkus/quarkus-gradle-model-3.25.0.CR1-sources.jar devtools/gradle/gradle-model/build/libs/gradle-model-3.25.0.CR1-sources.jar
+--- target/reference/io.quarkus/quarkus-gradle-model-3.25.0.CR1-sources.jar
++++ devtools/gradle/gradle-model/build/libs/gradle-model-3.25.0.CR1-sources.jar
+├── zipinfo {}
+│ @@ -1,24 +1,24 @@
+│  Zip file size: 27260 bytes, number of entries: 22
+│ -drwxr-xr-x  2.0 unx        0 b- defN 25-Jul-16 12:04 META-INF/
+│ --rw-r--r--  2.0 unx       25 b- defN 25-Jul-16 12:04 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- defN 25-Jul-16 10:28 io/
+│ -drwxr-xr-x  2.0 unx        0 b- defN 25-Jul-16 10:28 io/quarkus/
+│ -drwxr-xr-x  2.0 unx        0 b- defN 25-Jul-16 10:28 io/quarkus/gradle/
+│ -drwxr-xr-x  2.0 unx        0 b- defN 25-Jul-16 10:28 io/quarkus/gradle/dependency/
+│ --rw-r--r--  2.0 unx    11094 b- defN 25-Jul-16 10:28 io/quarkus/gradle/dependency/ConditionalDependenciesEnabler.java
+│ --rw-r--r--  2.0 unx    20283 b- defN 25-Jul-16 10:28 io/quarkus/gradle/dependency/ApplicationDeploymentClasspathBuilder.java
+│ -drwxr-xr-x  2.0 unx        0 b- defN 25-Jul-16 10:28 io/quarkus/gradle/tooling/
+│ -drwxr-xr-x  2.0 unx        0 b- defN 25-Jul-16 10:28 io/quarkus/gradle/tooling/dependency/
+│ --rw-r--r--  2.0 unx      759 b- defN 25-Jul-16 10:28 io/quarkus/gradle/tooling/dependency/ArtifactExtensionDependency.java
+│ --rw-r--r--  2.0 unx    17938 b- defN 25-Jul-16 10:28 io/quarkus/gradle/tooling/dependency/DependencyUtils.java
+│ --rw-r--r--  2.0 unx     4326 b- defN 25-Jul-16 10:28 io/quarkus/gradle/tooling/dependency/ExtensionDependency.java
+│ --rw-r--r--  2.0 unx     1197 b- defN 25-Jul-16 10:28 io/quarkus/gradle/tooling/dependency/ProjectExtensionDependency.java
+│ --rw-r--r--  2.0 unx      651 b- defN 25-Jul-16 10:28 io/quarkus/gradle/tooling/ProjectDescriptor.java
+│ --rw-r--r--  2.0 unx     9421 b- defN 25-Jul-16 10:28 io/quarkus/gradle/tooling/ToolingUtils.java
+│ --rw-r--r--  2.0 unx     7476 b- defN 25-Jul-16 10:28 io/quarkus/gradle/tooling/ProjectDescriptorBuilder.java
+│ --rw-r--r--  2.0 unx    34060 b- defN 25-Jul-16 10:28 io/quarkus/gradle/tooling/GradleApplicationModelBuilder.java
+│ --rw-r--r--  2.0 unx     1012 b- defN 25-Jul-16 10:28 io/quarkus/gradle/tooling/DefaultProjectDescriptor.java
+│ -drwxr-xr-x  2.0 unx        0 b- defN 25-Jul-16 10:28 io/quarkus/gradle/extension/
+│ --rw-r--r--  2.0 unx     2345 b- defN 25-Jul-16 10:28 io/quarkus/gradle/extension/ConfigurationUtils.java
+│ --rw-r--r--  2.0 unx      140 b- defN 25-Jul-16 10:28 io/quarkus/gradle/extension/ExtensionConstants.java
+│ +drwxr-xr-x  2.0 unx        0 b- defN 25-Jul-17 19:50 META-INF/
+│ +-rw-r--r--  2.0 unx       25 b- defN 25-Jul-17 19:50 META-INF/MANIFEST.MF
+│ +drwxrwxr-x  2.0 unx        0 b- defN 25-Jul-17 19:24 io/
+│ +drwxrwxr-x  2.0 unx        0 b- defN 25-Jul-17 19:24 io/quarkus/
+│ +drwxrwxr-x  2.0 unx        0 b- defN 25-Jul-17 19:24 io/quarkus/gradle/
+│ +drwxrwxr-x  2.0 unx        0 b- defN 25-Jul-17 19:24 io/quarkus/gradle/dependency/
+│ +-rw-rw-r--  2.0 unx    11094 b- defN 25-Jul-17 19:24 io/quarkus/gradle/dependency/ConditionalDependenciesEnabler.java
+│ +-rw-rw-r--  2.0 unx    20283 b- defN 25-Jul-17 19:24 io/quarkus/gradle/dependency/ApplicationDeploymentClasspathBuilder.java
+│ +drwxrwxr-x  2.0 unx        0 b- defN 25-Jul-17 19:24 io/quarkus/gradle/tooling/
+│ +drwxrwxr-x  2.0 unx        0 b- defN 25-Jul-17 19:24 io/quarkus/gradle/tooling/dependency/
+│ +-rw-rw-r--  2.0 unx      759 b- defN 25-Jul-17 19:24 io/quarkus/gradle/tooling/dependency/ArtifactExtensionDependency.java
+│ +-rw-rw-r--  2.0 unx    17938 b- defN 25-Jul-17 19:24 io/quarkus/gradle/tooling/dependency/DependencyUtils.java
+│ +-rw-rw-r--  2.0 unx     4326 b- defN 25-Jul-17 19:24 io/quarkus/gradle/tooling/dependency/ExtensionDependency.java
+│ +-rw-rw-r--  2.0 unx     1197 b- defN 25-Jul-17 19:24 io/quarkus/gradle/tooling/dependency/ProjectExtensionDependency.java
+│ +-rw-rw-r--  2.0 unx      651 b- defN 25-Jul-17 19:24 io/quarkus/gradle/tooling/ProjectDescriptor.java
+│ +-rw-rw-r--  2.0 unx     9421 b- defN 25-Jul-17 19:24 io/quarkus/gradle/tooling/ToolingUtils.java
+│ +-rw-rw-r--  2.0 unx     7476 b- defN 25-Jul-17 19:24 io/quarkus/gradle/tooling/ProjectDescriptorBuilder.java
+│ +-rw-rw-r--  2.0 unx    34060 b- defN 25-Jul-17 19:24 io/quarkus/gradle/tooling/GradleApplicationModelBuilder.java
+│ +-rw-rw-r--  2.0 unx     1012 b- defN 25-Jul-17 19:24 io/quarkus/gradle/tooling/DefaultProjectDescriptor.java
+│ +drwxrwxr-x  2.0 unx        0 b- defN 25-Jul-17 19:24 io/quarkus/gradle/extension/
+│ +-rw-rw-r--  2.0 unx     2345 b- defN 25-Jul-17 19:24 io/quarkus/gradle/extension/ConfigurationUtils.java
+│ +-rw-rw-r--  2.0 unx      140 b- defN 25-Jul-17 19:24 io/quarkus/gradle/extension/ExtensionConstants.java
+│  22 files, 110727 bytes uncompressed, 23698 bytes compressed:  78.6%
+
+4 / 4 target/reference/io.quarkus/quarkus-cli-3.25.0.CR1-runner.jar devtools/cli/target/quarkus-cli-3.25.0.CR1-runner.jar
+--- target/reference/io.quarkus/quarkus-cli-3.25.0.CR1-runner.jar
++++ devtools/cli/target/quarkus-cli-3.25.0.CR1-runner.jar
+├── zipinfo {}
+│ @@ -1,18884 +1,18884 @@
+│ -Zip file size: 27099947 bytes, number of entries: 18882
+│ --rw----     2.0 fat      196 bX defN 25-Jul-16 12:04 META-INF/MANIFEST.MF
+│ --rw----     1.0 fat        0 bx stor 25-Jul-16 12:04 META-INF/
+│ --rw----     1.0 fat        0 bx stor 25-Jul-16 12:04 io/
+│ --rw----     1.0 fat        0 bx stor 25-Jul-16 12:04 io/quarkus/
+│ --rw----     1.0 fat        0 bx stor 25-Jul-16 12:04 io/quarkus/picocli/
+...
+│ --rw----     2.0 fat       38 bX defN 25-Jul-16 12:04 META-INF/services/jakarta.json.spi.JsonProvider
+│ --rw----     2.0 fat       42 bX defN 25-Jul-16 12:04 META-INF/services/jakarta.enterprise.inject.spi.Extension
+│ --rw----     2.0 fat     8376 bX defN 25-Jul-16 12:04 META-INF/sisu/javax.inject.Named
+│ -18882 files, 56499783 bytes uncompressed, 22727715 bytes compressed:  59.8%
+│ +Zip file size: 27099926 bytes, number of entries: 18882
+│ +-rw----     2.0 fat      196 bX defN 25-Jul-17 19:51 META-INF/MANIFEST.MF
+│ +-rw----     1.0 fat        0 bx stor 25-Jul-17 19:51 META-INF/
+│ +-rw----     1.0 fat        0 bx stor 25-Jul-17 19:51 io/
+│ +-rw----     1.0 fat        0 bx stor 25-Jul-17 19:51 io/quarkus/
+│ +-rw----     1.0 fat        0 bx stor 25-Jul-17 19:51 io/quarkus/picocli/
+...
+│ +-rw----     2.0 fat       42 bX defN 25-Jul-17 19:51 META-INF/services/jakarta.enterprise.inject.spi.Extension
+│ +-rw----     2.0 fat     8376 bX defN 25-Jul-17 19:51 META-INF/sisu/javax.inject.Named
+│ +18882 files, 56499754 bytes uncompressed, 22727694 bytes compressed:  59.8%
