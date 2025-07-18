@@ -13,6 +13,7 @@ rebuilding **3 releases** of io.cucumber:pretty-formatter:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.0.0](https://central.sonatype.com/artifact/io.cucumber/pretty-formatter/2.0.0/pom) | | | |
 | [0.3.0](https://central.sonatype.com/artifact/io.cucumber/pretty-formatter/0.3.0/pom) | [mvn jdk11](pretty-formatter-0.3.0.buildspec) | [result](pretty-formatter-0.3.0.buildinfo): [3 :white_check_mark: ](pretty-formatter-0.3.0.buildcompare) | | 61K |
 | [0.2.0](https://central.sonatype.com/artifact/io.cucumber/pretty-formatter/0.2.0/pom) | [mvn jdk11](pretty-formatter-0.2.0.buildspec) | [result](pretty-formatter-0.2.0.buildinfo): [3 :white_check_mark: ](pretty-formatter-0.2.0.buildcompare) | | 59K |
 | [0.1.0](https://central.sonatype.com/artifact/io.cucumber/pretty-formatter/0.1.0/pom) | [mvn jdk11](pretty-formatter-0.1.0.buildspec) | [result](pretty-formatter-0.1.0.buildinfo): [3 :white_check_mark: ](pretty-formatter-0.1.0.buildcompare) | | 58K |

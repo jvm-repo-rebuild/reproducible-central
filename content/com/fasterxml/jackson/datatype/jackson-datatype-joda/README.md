@@ -13,6 +13,7 @@ rebuilding **26 releases** of com.fasterxml.jackson.datatype:jackson-datatype-jo
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.19.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-joda/2.19.2/pom) | | | |
 | [2.19.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-joda/2.19.1/pom) | [mvn jdk8](jackson-datatype-joda-2.19.1.buildspec) | [result](jackson-datatype-joda-2.19.1.buildinfo): [4 :white_check_mark: ](jackson-datatype-joda-2.19.1.buildcompare) | | 141K |
 | [2.19.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-joda/2.19.0/pom) | [mvn jdk8](jackson-datatype-joda-2.19.0.buildspec) | [result](jackson-datatype-joda-2.19.0.buildinfo): [4 :white_check_mark: ](jackson-datatype-joda-2.19.0.buildcompare) | | 141K |
 | [2.19.0-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-joda/2.19.0-rc2/pom) | [mvn jdk8](jackson-datatype-joda-2.19.0-rc2.buildspec) | [result](jackson-datatype-joda-2.19.0-rc2.buildinfo): [4 :white_check_mark: ](jackson-datatype-joda-2.19.0-rc2.buildcompare) | | 141K |
