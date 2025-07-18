@@ -1,0 +1,185 @@
+1 / 5 target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor-2.19.2.module cbor/target/publications/maven/module.json
+--- target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor-2.19.2.module
++++ cbor/target/publications/maven/module.json
+├── Pretty-printed
+│┄ Similarity: 0.9981398809523809%
+│┄ Differences: {"'variants'": "{2: {'files': {0: {'size': 174636, 'sha512': "
+│┄                "'d862400d9c80c83741fb5ef2d6ce1e61b02602693150a5b7f20acd7a7ac18fd0aafddfc09781b400001a9b040ccc4f93711761b321c3091aa3b4e039e835f849', "
+│┄                "'sha256': 'f8b8ed5827eb95b3c69b156ff115cd6a20471ef24285049e8ee1cea9ec0b6160', "
+│┄                "'sha1': 'cf6f5d57fa5531f60c0d8a332ea340a458a5355a', 'md5': "
+│┄                "'68396164556fd37081ec416110243d8d'}}}}"}
+│ @@ -109,20 +109,20 @@
+│                  "org.gradle.dependency.bundling": "external",
+│                  "org.gradle.docstype": "javadoc",
+│                  "org.gradle.usage": "java-runtime"
+│              },
+│              "dependencies": [],
+│              "files": [
+│                  {
+│ -                    "md5": "d678c185fcb60667a99f644689bdfe9b",
+│ +                    "md5": "68396164556fd37081ec416110243d8d",
+│                      "name": "jackson-dataformat-cbor-2.19.2-javadoc.jar",
+│ -                    "sha1": "f6f9d41d9fe12bfa2f961126e7c4c8b240c259f2",
+│ -                    "sha256": "59f187f98b1fff02730409f8715b8d8f94f52ef2a448c67ddafaae0db8f5bfc5",
+│ -                    "sha512": "7f4ff3ad2c788bbbe61a6a973106b06c046efa0841ebe77a1851e1b81a2ac6c3a40936a07c2d9b2bdaaa795d5e44689cef64a220645b86a2bebb263cb76d3bfa",
+│ -                    "size": 174633,
+│ +                    "sha1": "cf6f5d57fa5531f60c0d8a332ea340a458a5355a",
+│ +                    "sha256": "f8b8ed5827eb95b3c69b156ff115cd6a20471ef24285049e8ee1cea9ec0b6160",
+│ +                    "sha512": "d862400d9c80c83741fb5ef2d6ce1e61b02602693150a5b7f20acd7a7ac18fd0aafddfc09781b400001a9b040ccc4f93711761b321c3091aa3b4e039e835f849",
+│ +                    "size": 174636,
+│                      "url": "jackson-dataformat-cbor-2.19.2-javadoc.jar"
+│                  }
+│              ],
+│              "name": "javadocElements"
+│          },
+│          {
+│              "attributes": {
+
+2 / 5 target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-smile-2.19.2.module smile/target/publications/maven/module.json
+--- target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-smile-2.19.2.module
++++ smile/target/publications/maven/module.json
+├── Pretty-printed
+│┄ Similarity: 0.9981398809523809%
+│┄ Differences: {"'variants'": "{2: {'files': {0: {'size': 204429, 'sha512': "
+│┄                "'e45b09ce8964aa822bdbe9d333c13e8e7c98592ddc9f72c448775a9bc4de40e3f6749a1318eedb2228f5cf350a013c5afd0b4633755c0b160114492186686730', "
+│┄                "'sha256': '24eb4a18492f9fd904fd74eb5d308e89521115531773f631d6f093a6cb7c0e07', "
+│┄                "'sha1': '1c4e215b59d4c12112ffbe0cfcf8c36114c9bb37', 'md5': "
+│┄                "'c8188ed9a43734c46439cbb7ebfb52d2'}}}}"}
+│ @@ -109,20 +109,20 @@
+│                  "org.gradle.dependency.bundling": "external",
+│                  "org.gradle.docstype": "javadoc",
+│                  "org.gradle.usage": "java-runtime"
+│              },
+│              "dependencies": [],
+│              "files": [
+│                  {
+│ -                    "md5": "79fa87e70909581fa79bc753e39d45b9",
+│ +                    "md5": "c8188ed9a43734c46439cbb7ebfb52d2",
+│                      "name": "jackson-dataformat-smile-2.19.2-javadoc.jar",
+│ -                    "sha1": "a9a4bcc6a12766301c7282169095e6b482211eb6",
+│ -                    "sha256": "026ce10906103f7b6443ebaebed9a56aeb9bd3ae711be93f43c8492059ead3a8",
+│ -                    "sha512": "84c7e9023d30f1d4ce7fe7996794dd9fe4cecd7f7cfbceeada5601fa7bce3b252e233cb681d919ac9af7dadd1e8fee7d54981d5773219caa1c08d68cf14eb258",
+│ -                    "size": 204411,
+│ +                    "sha1": "1c4e215b59d4c12112ffbe0cfcf8c36114c9bb37",
+│ +                    "sha256": "24eb4a18492f9fd904fd74eb5d308e89521115531773f631d6f093a6cb7c0e07",
+│ +                    "sha512": "e45b09ce8964aa822bdbe9d333c13e8e7c98592ddc9f72c448775a9bc4de40e3f6749a1318eedb2228f5cf350a013c5afd0b4633755c0b160114492186686730",
+│ +                    "size": 204429,
+│                      "url": "jackson-dataformat-smile-2.19.2-javadoc.jar"
+│                  }
+│              ],
+│              "name": "javadocElements"
+│          },
+│          {
+│              "attributes": {
+
+3 / 5 target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-avro-2.19.2.module avro/target/publications/maven/module.json
+--- target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-avro-2.19.2.module
++++ avro/target/publications/maven/module.json
+├── Pretty-printed
+│┄ Similarity: 0.9981398809523809%
+│┄ Differences: {"'variants'": "{2: {'files': {0: {'size': 714446, 'sha512': "
+│┄                "'a5d4c6f7d6d1aaee6cdee7481ba68708c7dfbfb3176e5a2152101826f73b7fe05f8889043c60a8f04d486b8d6054bc9283ba9fb3bf288407f639d2939b8823bc', "
+│┄                "'sha256': 'e48ca88efec7a6cf76a09723f7c4dedc82225cfe44d5b9e0e7625e113d231c6c', "
+│┄                "'sha1': '6885bcf0a8da6f6640031f1788034b440afd96fe', 'md5': "
+│┄                "'99a534ab8b0381cefdf363c6dedf444f'}}}}"}
+│ @@ -137,20 +137,20 @@
+│                  "org.gradle.dependency.bundling": "external",
+│                  "org.gradle.docstype": "javadoc",
+│                  "org.gradle.usage": "java-runtime"
+│              },
+│              "dependencies": [],
+│              "files": [
+│                  {
+│ -                    "md5": "59cbde32c04600dcd6fc466934ad3c53",
+│ +                    "md5": "99a534ab8b0381cefdf363c6dedf444f",
+│                      "name": "jackson-dataformat-avro-2.19.2-javadoc.jar",
+│ -                    "sha1": "b79751d2bacf6af386fbdf7adc49507a76ef9568",
+│ -                    "sha256": "2fedfbf04baa0dcee0f525451bdacc26aa10b3e891761068f364f0866d111171",
+│ -                    "sha512": "0efdb623506d5ac45cce8e3a23ea44d91ce3b1f26e09744be04ee0995e40c00b97c92a54722469d76597af03bb7bc7449edeba2a2c836c1b0bdb2cf75b910806",
+│ -                    "size": 714426,
+│ +                    "sha1": "6885bcf0a8da6f6640031f1788034b440afd96fe",
+│ +                    "sha256": "e48ca88efec7a6cf76a09723f7c4dedc82225cfe44d5b9e0e7625e113d231c6c",
+│ +                    "sha512": "a5d4c6f7d6d1aaee6cdee7481ba68708c7dfbfb3176e5a2152101826f73b7fe05f8889043c60a8f04d486b8d6054bc9283ba9fb3bf288407f639d2939b8823bc",
+│ +                    "size": 714446,
+│                      "url": "jackson-dataformat-avro-2.19.2-javadoc.jar"
+│                  }
+│              ],
+│              "name": "javadocElements"
+│          },
+│          {
+│              "attributes": {
+
+4 / 5 target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-protobuf-2.19.2.module protobuf/target/publications/maven/module.json
+--- target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-protobuf-2.19.2.module
++++ protobuf/target/publications/maven/module.json
+├── Pretty-printed
+│┄ Similarity: 0.9981398809523809%
+│┄ Differences: {"'variants'": "{2: {'files': {0: {'size': 377470, 'sha512': "
+│┄                "'970d4bfacdcaaa779efeb7c96573d5aeb822a12b87abdeebc73524f8d75acb30a2817eb8cba47ea9cc6f51431187c7f0bea191d63d0da4d3b2426d4f420c7b12', "
+│┄                "'sha256': '039efa59fe270cd90621b409fc8a6dbd298dd58b5687f925164dd03e170d977e', "
+│┄                "'sha1': '409ae330bdfaae9531b452373dad1c18e003ff0d', 'md5': "
+│┄                "'2acffb7dc337c2cb463a55754d720044'}}}}"}
+│ @@ -123,20 +123,20 @@
+│                  "org.gradle.dependency.bundling": "external",
+│                  "org.gradle.docstype": "javadoc",
+│                  "org.gradle.usage": "java-runtime"
+│              },
+│              "dependencies": [],
+│              "files": [
+│                  {
+│ -                    "md5": "7cc3431fc48d5460cbada501dd050ed1",
+│ +                    "md5": "2acffb7dc337c2cb463a55754d720044",
+│                      "name": "jackson-dataformat-protobuf-2.19.2-javadoc.jar",
+│ -                    "sha1": "27b1b450d2657bd5326f25dcbab4197896925fd3",
+│ -                    "sha256": "851ec1d10f8e39a8ec854fdfbeee13f3643190f26a4542d0279fcac2e55847fa",
+│ -                    "sha512": "3466aa70d0c2e8f04940c674c2b49811a8675beb9fd0d53a7a608e6dd52fe8f2000cbb4a5130d794899bbe22ec242290140b088594161beb12bb2208ce607d49",
+│ -                    "size": 377477,
+│ +                    "sha1": "409ae330bdfaae9531b452373dad1c18e003ff0d",
+│ +                    "sha256": "039efa59fe270cd90621b409fc8a6dbd298dd58b5687f925164dd03e170d977e",
+│ +                    "sha512": "970d4bfacdcaaa779efeb7c96573d5aeb822a12b87abdeebc73524f8d75acb30a2817eb8cba47ea9cc6f51431187c7f0bea191d63d0da4d3b2426d4f420c7b12",
+│ +                    "size": 377470,
+│                      "url": "jackson-dataformat-protobuf-2.19.2-javadoc.jar"
+│                  }
+│              ],
+│              "name": "javadocElements"
+│          },
+│          {
+│              "attributes": {
+
+5 / 5 target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-ion-2.19.2.module ion/target/publications/maven/module.json
+--- target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-ion-2.19.2.module
++++ ion/target/publications/maven/module.json
+├── Pretty-printed
+│┄ Similarity: 0.9981398809523809%
+│┄ Differences: {"'variants'": "{2: {'files': {0: {'size': 247688, 'sha512': "
+│┄                "'df9f18a5e00d082d8e661db02eec5d994953ca09814cc3dcbf0b0cc5bc6f6828a4df4cfd9c1d91c3a7b134000cd51ef9294646d3a63337a33352db15fbd0fe3b', "
+│┄                "'sha256': 'e99cf123e1ec1feffd8481ee1ac83d04c71b5561dde49f62f9d5d82ffefd2224', "
+│┄                "'sha1': 'e43c9b9e94dc3befaa8e2f78b68c30f527cc8be8', 'md5': "
+│┄                "'a965ec02229119794d949fd4cc908f6e'}}}}"}
+│ @@ -137,20 +137,20 @@
+│                  "org.gradle.dependency.bundling": "external",
+│                  "org.gradle.docstype": "javadoc",
+│                  "org.gradle.usage": "java-runtime"
+│              },
+│              "dependencies": [],
+│              "files": [
+│                  {
+│ -                    "md5": "93560475872d4b7901f55bf8b8350a36",
+│ +                    "md5": "a965ec02229119794d949fd4cc908f6e",
+│                      "name": "jackson-dataformat-ion-2.19.2-javadoc.jar",
+│ -                    "sha1": "4b17eb82dd53e342232f35e1fa43cd36c3a10d19",
+│ -                    "sha256": "7af2cd805eded6a89bc93948ad367d8d53904ef6fde9a383ae8e6a3d6a3de63d",
+│ -                    "sha512": "9fd9b5d5f656ad4e9ffea8c8c937488d85f5d3a0ab061811f35f911516fcdce05c995e2db15ba2f35f2ff0c11a4cf49fee851cca6f368ae13499216347860e61",
+│ -                    "size": 247689,
+│ +                    "sha1": "e43c9b9e94dc3befaa8e2f78b68c30f527cc8be8",
+│ +                    "sha256": "e99cf123e1ec1feffd8481ee1ac83d04c71b5561dde49f62f9d5d82ffefd2224",
+│ +                    "sha512": "df9f18a5e00d082d8e661db02eec5d994953ca09814cc3dcbf0b0cc5bc6f6828a4df4cfd9c1d91c3a7b134000cd51ef9294646d3a63337a33352db15fbd0fe3b",
+│ +                    "size": 247688,
+│                      "url": "jackson-dataformat-ion-2.19.2-javadoc.jar"
+│                  }
+│              ],
+│              "name": "javadocElements"
+│          },
+│          {
+│              "attributes": {
+
