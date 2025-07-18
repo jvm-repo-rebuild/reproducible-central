@@ -1,0 +1,22 @@
+version=9.6
+ok=5
+ko=8
+ignored=0
+okFiles="avaje-metrics-parent-9.6.pom avaje-metrics-9.6.pom avaje-metrics-graphite-9.6.pom avaje-metrics-ebean-9.6.pom avaje-metrics-statsd-9.6.pom"
+koFiles="avaje-metrics-9.6.jar avaje-metrics-9.6-sources.jar avaje-metrics-graphite-9.6.jar avaje-metrics-graphite-9.6-sources.jar avaje-metrics-ebean-9.6.jar avaje-metrics-ebean-9.6-sources.jar avaje-metrics-statsd-9.6.jar avaje-metrics-statsd-9.6-sources.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+# diffoscope target/reference/io.avaje/avaje-metrics-9.6.jar metrics/target/avaje-metrics-9.6.jar
+# diffoscope target/reference/io.avaje/avaje-metrics-9.6-sources.jar metrics/target/avaje-metrics-9.6-sources.jar
+# diffoscope target/reference/io.avaje/avaje-metrics-graphite-9.6.jar metrics-graphite/target/avaje-metrics-graphite-9.6.jar
+# diffoscope target/reference/io.avaje/avaje-metrics-graphite-9.6-sources.jar metrics-graphite/target/avaje-metrics-graphite-9.6-sources.jar
+# diffoscope target/reference/io.avaje/avaje-metrics-ebean-9.6.jar metrics-ebean/target/avaje-metrics-ebean-9.6.jar
+# diffoscope target/reference/io.avaje/avaje-metrics-ebean-9.6-sources.jar metrics-ebean/target/avaje-metrics-ebean-9.6-sources.jar
+# diffoscope target/reference/io.avaje/avaje-metrics-statsd-9.6.jar metrics-statsd/target/avaje-metrics-statsd-9.6.jar
+# diffoscope target/reference/io.avaje/avaje-metrics-statsd-9.6-sources.jar metrics-statsd/target/avaje-metrics-statsd-9.6-sources.jar
+stabilize_ok=8
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="avaje-metrics-9.6.jar.stabilized avaje-metrics-9.6-sources.jar.stabilized avaje-metrics-graphite-9.6.jar.stabilized avaje-metrics-graphite-9.6-sources.jar.stabilized avaje-metrics-ebean-9.6.jar.stabilized avaje-metrics-ebean-9.6-sources.jar.stabilized avaje-metrics-statsd-9.6.jar.stabilized avaje-metrics-statsd-9.6-sources.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""
