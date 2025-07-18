@@ -1,0 +1,16 @@
+version=2.19.2
+ok=3
+ko=1
+ignored=0
+okFiles="jackson-datatype-joda-2.19.2.pom jackson-datatype-joda-2.19.2.jar jackson-datatype-joda-2.19.2-sources.jar"
+koFiles="jackson-datatype-joda-2.19.2.module"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-joda-2.19.2.module target/publications/maven/module.json
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="jackson-datatype-joda-2.19.2.module.stabilized"
