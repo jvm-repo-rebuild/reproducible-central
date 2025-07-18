@@ -1,0 +1,55 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Codec
+group-id=de.knightsoft-net
+artifact-id=gwt-commons-codec
+version=1.18.0-0
+
+# source information
+source.scm.uri=scm:git:git@gitlab.com:ManfredTremmel/gwt-commons-codec.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.7
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.0.0
+
+# output
+
+outputs.0.groupId=de.knightsoft-net
+outputs.0.filename=gwt-commons-codec-1.18.0-0.pom
+outputs.0.length=36358
+outputs.0.checksums.sha512=05dae8aebfd2d8d5ae76dfe282ec493a925e20dc6a3cd25a5b4b0899438c06dcbb0c162a6b5c5b6d949b2c61f25fafe708d2a4bf68ce0f30e1d908aa56676e35
+
+outputs.1.groupId=de.knightsoft-net
+outputs.1.filename=gwt-commons-codec-1.18.0-0.jar
+outputs.1.length=693803
+outputs.1.checksums.sha512=eb4a48145d9714db6041a1bdc49967c94a894b99643b0ae7c7b8c427e7b9be112bae57398a3abd0bc5862089ce9f94bff27e113a5511b6b3e310341c0bab2354
+
+outputs.2.groupId=de.knightsoft-net
+outputs.2.filename=gwt-commons-codec-1.18.0-0-tests.jar
+outputs.2.length=398680
+outputs.2.checksums.sha512=bb9c4b60955444c7f483b5457758cc2aba69bc914e351f356b99ad05073270f1ef087947080aa283fc28d2c90c2ff52f3f60e7b2de18ef8a450c7e58277e06c3
+
+outputs.3.groupId=de.knightsoft-net
+outputs.3.filename=gwt-commons-codec-1.18.0-0-sources.jar
+outputs.3.length=399959
+outputs.3.checksums.sha512=48af7d879c8684e8bccbd3fec2641a1084248c1e17ee5a386dd00040acfd2b80623c2328c5975ebf4e4728a0d74d085538f0cf6b711d1055bc4f31b9837d74d5
+
+outputs.4.groupId=de.knightsoft-net
+outputs.4.filename=gwt-commons-codec-1.18.0-0-test-sources.jar
+outputs.4.length=268209
+outputs.4.checksums.sha512=4322ccf14e43037c411c46686e75e0e3e608408dd7821e540f873904a9e0124a630230e13984673c0d237d865ed9a1ae911b0f31741ce0b3c07a52b8b192f2b9
+
+outputs.5.groupId=de.knightsoft-net
+outputs.5.filename=gwt-commons-codec-1.18.0-0-sources.jar
+outputs.5.length=399959
+outputs.5.checksums.sha512=48af7d879c8684e8bccbd3fec2641a1084248c1e17ee5a386dd00040acfd2b80623c2328c5975ebf4e4728a0d74d085538f0cf6b711d1055bc4f31b9837d74d5
