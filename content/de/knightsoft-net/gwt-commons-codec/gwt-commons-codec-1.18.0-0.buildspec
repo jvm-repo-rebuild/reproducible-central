@@ -1,0 +1,19 @@
+groupId=de.knightsoft-net
+artifactId=gwt-commons-codec
+display=${groupId}:${artifactId}
+version=1.18.0-0
+
+gitRepo=https://gitlab.com/ManfredTremmel/gwt-commons-codec.git
+gitTag=v${version}
+
+tool=mvn
+jdk=21
+newline=lf
+#umask=022
+timezone="Europe/Paris"
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcommons.release.dryRun -Dcommons.release.isDistModule=false -Dspdx.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
