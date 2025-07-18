@@ -1,0 +1,19 @@
+version=3.0.5
+ok=9
+ko=4
+ignored=0
+okFiles="mybatis-spring-boot-3.0.5.pom mybatis-spring-boot-autoconfigure-3.0.5.pom mybatis-spring-boot-starter-3.0.5.pom mybatis-spring-boot-starter-3.0.5.jar mybatis-spring-boot-starter-3.0.5-sources.jar mybatis-spring-boot-test-autoconfigure-3.0.5.pom mybatis-spring-boot-starter-test-3.0.5.pom mybatis-spring-boot-starter-test-3.0.5.jar mybatis-spring-boot-starter-test-3.0.5-sources.jar"
+koFiles="mybatis-spring-boot-autoconfigure-3.0.5.jar mybatis-spring-boot-autoconfigure-3.0.5-sources.jar mybatis-spring-boot-test-autoconfigure-3.0.5.jar mybatis-spring-boot-test-autoconfigure-3.0.5-sources.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure-3.0.5.jar mybatis-spring-boot-autoconfigure/target/mybatis-spring-boot-autoconfigure-3.0.5.jar
+# diffoscope target/reference/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure-3.0.5-sources.jar mybatis-spring-boot-autoconfigure/target/mybatis-spring-boot-autoconfigure-3.0.5-sources.jar
+# diffoscope target/reference/org.mybatis.spring.boot/mybatis-spring-boot-test-autoconfigure-3.0.5.jar mybatis-spring-boot-test-autoconfigure/target/mybatis-spring-boot-test-autoconfigure-3.0.5.jar
+# diffoscope target/reference/org.mybatis.spring.boot/mybatis-spring-boot-test-autoconfigure-3.0.5-sources.jar mybatis-spring-boot-test-autoconfigure/target/mybatis-spring-boot-test-autoconfigure-3.0.5-sources.jar
+stabilize_ok=2
+stabilize_ko=2
+stabilize_ignored=0
+stabilize_okFiles="mybatis-spring-boot-test-autoconfigure-3.0.5.jar.stabilized mybatis-spring-boot-test-autoconfigure-3.0.5-sources.jar.stabilized"
+stabilize_koFiles="mybatis-spring-boot-autoconfigure-3.0.5.jar.stabilized mybatis-spring-boot-autoconfigure-3.0.5-sources.jar.stabilized"
+stabilize_ignoredFiles=""
