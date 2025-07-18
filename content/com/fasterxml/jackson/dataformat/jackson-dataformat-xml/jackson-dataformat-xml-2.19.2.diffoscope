@@ -1,0 +1,37 @@
+1 / 1 target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-xml-2.19.2.module target/publications/maven/module.json
+--- target/reference/com.fasterxml.jackson.dataformat/jackson-dataformat-xml-2.19.2.module
++++ target/publications/maven/module.json
+├── Pretty-printed
+│┄ Similarity: 0.9981398809523809%
+│┄ Differences: {"'variants'": "{2: {'files': {0: {'size': 426313, 'sha512': "
+│┄                "'b64a2cce1a16672188dfef1bd827b10a99579a22405ef18cfb04d7e3f39829b28e5c6d31823f1ad9da0c5b43a575649eb66b7fb55e2490ffd0c6d886343f9044', "
+│┄                "'sha256': '83795fd55356320d8044cd3a9f1c6e168e4f4f702f4941067023c60c0e37427c', "
+│┄                "'sha1': '22260022551162fd2c87a4cd9b31a44082855ce8', 'md5': "
+│┄                "'652f55004fc5540bd60b93e2ddfef1ab'}}}}"}
+│ @@ -175,20 +175,20 @@
+│                  "org.gradle.dependency.bundling": "external",
+│                  "org.gradle.docstype": "javadoc",
+│                  "org.gradle.usage": "java-runtime"
+│              },
+│              "dependencies": [],
+│              "files": [
+│                  {
+│ -                    "md5": "141229d8e21c138d31c84666ee14b7ff",
+│ +                    "md5": "652f55004fc5540bd60b93e2ddfef1ab",
+│                      "name": "jackson-dataformat-xml-2.19.2-javadoc.jar",
+│ -                    "sha1": "7407c7d45327fbfdd8fbf972d80677cfe12b67e9",
+│ -                    "sha256": "1fc7b8b4339c4dc1aa0cc605c9c53102a7b8ae31326aa0027921f9ef62930578",
+│ -                    "sha512": "229645278c84b431fb5c46ab29af8698545ccc7632553d82fb72d8c17ed3e0dce48be81d581fe4655ea063c69e4df9365997dcce8b89216ee54f37a6b65de30e",
+│ -                    "size": 426311,
+│ +                    "sha1": "22260022551162fd2c87a4cd9b31a44082855ce8",
+│ +                    "sha256": "83795fd55356320d8044cd3a9f1c6e168e4f4f702f4941067023c60c0e37427c",
+│ +                    "sha512": "b64a2cce1a16672188dfef1bd827b10a99579a22405ef18cfb04d7e3f39829b28e5c6d31823f1ad9da0c5b43a575649eb66b7fb55e2490ffd0c6d886343f9044",
+│ +                    "size": 426313,
+│                      "url": "jackson-dataformat-xml-2.19.2-javadoc.jar"
+│                  }
+│              ],
+│              "name": "javadocElements"
+│          },
+│          {
+│              "attributes": {
+
