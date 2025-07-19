@@ -1,0 +1,9 @@
+version=1.0.30
+ok=45
+ko=0
+ignored=0
+okFiles="bundlebee-1.0.30.pom bundlebee-core-1.0.30.pom bundlebee-core-1.0.30.jar bundlebee-core-1.0.30-fat.jar bundlebee-core-1.0.30-sources.jar bundlebee-operator-1.0.30.pom bundlebee-operator-1.0.30.jar bundlebee-operator-1.0.30-sources.jar bundlebee-junit5-1.0.30.pom bundlebee-junit5-1.0.30.jar bundlebee-junit5-1.0.30-sources.jar bundlebee-maven-plugin-1.0.30.pom bundlebee-maven-plugin-1.0.30.jar bundlebee-maven-plugin-1.0.30-sources.jar alveolus-1.0.30.pom postgres-local-1.0.30.pom postgres-local-1.0.30.jar postgres-local-1.0.30-sources.jar elasticsearch-local-1.0.30.pom elasticsearch-local-1.0.30.jar elasticsearch-local-1.0.30-sources.jar zipkin-simple-1.0.30.pom zipkin-simple-1.0.30.jar zipkin-simple-1.0.30-sources.jar prometheus-simple-1.0.30.pom prometheus-simple-1.0.30.jar prometheus-simple-1.0.30-sources.jar loki-simple-1.0.30.pom loki-simple-1.0.30.jar loki-simple-1.0.30-sources.jar grafana-simple-1.0.30.pom grafana-simple-1.0.30.jar grafana-simple-1.0.30-sources.jar monitoring-alveolus-1.0.30.pom monitoring-alveolus-1.0.30.jar monitoring-alveolus-1.0.30-sources.jar minio-local-1.0.30.pom minio-local-1.0.30.jar minio-local-1.0.30-sources.jar kafka-local-1.0.30.pom kafka-local-1.0.30.jar kafka-local-1.0.30-sources.jar bundlebee-documentation-1.0.30.pom bundlebee-documentation-1.0.30.jar bundlebee-documentation-1.0.30-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
