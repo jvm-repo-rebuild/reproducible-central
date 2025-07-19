@@ -1,0 +1,16 @@
+version=1.10.0-0
+ok=4
+ko=1
+ignored=0
+okFiles="gwt-commons-validator-1.10.0-0.pom gwt-commons-validator-1.10.0-0-tests.jar gwt-commons-validator-1.10.0-0-sources.jar gwt-commons-validator-1.10.0-0-test-sources.jar"
+koFiles="gwt-commons-validator-1.10.0-0.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/de.knightsoft-net/gwt-commons-validator-1.10.0-0.jar target/gwt-commons-validator-1.10.0-0.jar
+stabilize_ok=1
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="gwt-commons-validator-1.10.0-0.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""
