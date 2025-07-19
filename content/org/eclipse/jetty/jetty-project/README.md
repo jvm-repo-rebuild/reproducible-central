@@ -365,6 +365,7 @@ rebuilding **28 releases** of org.eclipse.jetty:jetty-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [12.1.0.beta2](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.beta2/pom) | | | |
 | [12.1.0.beta1](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.beta1/pom) | [mvn jdk22](jetty-project-12.1.0.beta1.buildspec) | [result](jetty-project-12.1.0.beta1.buildinfo): [933 :white_check_mark:  8 :warning:](jetty-project-12.1.0.beta1.buildcompare) | 4 :rotating_light: 4 :no_entry_sign: | 273M |
 | [12.1.0.beta0](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.beta0/pom) | [mvn jdk22](jetty-project-12.1.0.beta0.buildspec) | [result](jetty-project-12.1.0.beta0.buildinfo): [932 :white_check_mark:  10 :warning:](jetty-project-12.1.0.beta0.buildcompare) [:mag:](jetty-project-12.1.0.beta0.diffoscope) | - | 273M |
 | [12.1.0.alpha2](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.alpha2/pom) | [mvn jdk22](jetty-project-12.1.0.alpha2.buildspec) | [result](jetty-project-12.1.0.alpha2.buildinfo): [929 :white_check_mark:  8 :warning:](jetty-project-12.1.0.alpha2.buildcompare) [:mag:](jetty-project-12.1.0.alpha2.diffoscope) | - | 322M |
