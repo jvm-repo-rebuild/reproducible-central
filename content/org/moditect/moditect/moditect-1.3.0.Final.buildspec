@@ -1,0 +1,19 @@
+groupId=org.moditect
+artifactId=moditect
+display=${groupId}:${artifactId}
+version=1.3.0.Final
+
+gitRepo=https://github.com/moditect/${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=11
+newline=lf
+#timezone=Etc/GMT-1
+umask=022
+
+command="mvn -Dmaven.site.skip -Drelease package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-aggregator-${version}.buildinfo
+
+#diffoscope=${artifactId}-aggregator-${version}.diffoscope
+issue=
