@@ -20,6 +20,8 @@ rebuilding **5 releases** of org.moditect:moditect:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.3.0.Final](https://central.sonatype.com/artifact/org.moditect/moditect/1.3.0.Final/pom) | | | |
+| [1.3.0](https://central.sonatype.com/artifact/org.moditect/moditect/1.3.0/pom) | | | |
 | [1.2.2.Final](https://central.sonatype.com/artifact/org.moditect/moditect/1.2.2.Final/pom) | [mvn jdk11](moditect-1.2.2.Final.buildspec) | [result](moditect-aggregator-1.2.2.Final.buildinfo): [7 :white_check_mark: ](moditect-aggregator-1.2.2.Final.buildcompare) | | 1.8M |
 | [1.2.1.Final](https://central.sonatype.com/artifact/org.moditect/moditect/1.2.1.Final/pom) | [mvn jdk11](moditect-1.2.1.Final.buildspec) | [result](moditect-aggregator-1.2.1.Final.buildinfo): [7 :white_check_mark: ](moditect-aggregator-1.2.1.Final.buildcompare) | | 1.7M |
 | [1.2.0.Final](https://central.sonatype.com/artifact/org.moditect/moditect/1.2.0.Final/pom) | [mvn jdk11](moditect-1.2.0.Final.buildspec) | [result](moditect-aggregator-1.2.0.Final.buildinfo): [7 :white_check_mark: ](moditect-aggregator-1.2.0.Final.buildcompare) | | 1.7M |
