@@ -1,2 +1,4 @@
-content/io/avaje/inject/avaje-inject-11.6-RC7.buildspec:11.6-RC8
-content/org/moditect/moditect/moditect-1.2.2.Final.buildspec:1.3.0.Final
+content/io/avaje/jsonb/avaje-jsonb-3.6-RC3.buildspec:3.6
+content/io/avaje/logback-encoder/avaje-logback-encoder-0.13.buildspec:1.0-java8
+content/io/cucumber/messages/messages-28.0.0.buildspec:28.1.0
+content/io/github/cbarlin/aru/aru-0.3.1.buildspec:0.4.0

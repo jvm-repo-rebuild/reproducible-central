@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods enabling the verification of reproducible Java builds**](doc/TOOLS.md)
 2) [**A list of reproducible releases available on Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **8002 releases** of **900 projects**:
-   - **5797** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 2205 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **8006 releases** of **900 projects**:
+   - **5800** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 2206 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 900 projects, 794 have at least one fully reproducible release, 106 have none
 
 <!-- END GENERATED INTRO -->
@@ -285,7 +285,7 @@ Its objectives are to provide:
 | | [avaje-config](content/io/avaje/config/README.md) | 2 | 2 :white_check_mark: |
 | | [avaje-config-toml](content/io/avaje/config-toml/README.md) | 2 | 2 :white_check_mark: |
 | | [avaje-http](content/io/avaje/http/README.md) | 22 | 18 :white_check_mark: / 4 :warning: |
-| | [avaje-inject](content/io/avaje/inject/README.md) | 36 | 31 :white_check_mark: / 5 :warning: |
+| | [avaje-inject](content/io/avaje/inject/README.md) | 37 | 32 :white_check_mark: / 5 :warning: |
 | | [avaje-jex](content/io/avaje/jex/README.md) | 29 | 25 :white_check_mark: / 4 :warning: |
 | | [avaje-jsonb](content/io/avaje/jsonb/README.md) | 27 | 27 :white_check_mark: |
 | | [avaje-logback-encoder](content/io/avaje/logback-encoder/README.md) | 13 | 13 :white_check_mark: |
@@ -788,7 +788,7 @@ Its objectives are to provide:
 | org.glassfish.build | [glassfishbuild-maven-plugin](content/org/glassfish/build/glassfishbuild-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
 | org.hibernate.models | [hibernate-models](content/org/hibernate/models/hibernate-models/README.md) | 7 | 5 :white_check_mark: / 2 :warning: |
 | org.hibernate.orm | [hibernate-core](content/org/hibernate/orm/hibernate-core/README.md) | 10 | 9 :white_check_mark: / 1 :warning: |
-| org.hibernate.reactive | [hibernate-reactive-core](content/org/hibernate/reactive/hibernate-reactive/README.md) | 10 | 10 :white_check_mark: |
+| org.hibernate.reactive | [hibernate-reactive-core](content/org/hibernate/reactive/hibernate-reactive/README.md) | 11 | 11 :white_check_mark: |
 | org.hibernate.search | [hibernate-search](content/org/hibernate/search/hibernate-search-bom/README.md) | 14 | 12 :white_check_mark: / 2 :warning: |
 | org.hibernate.validator | [hibernate-validator](content/org/hibernate/validator/hibernate-validator/README.md) | 5 | 5 :white_check_mark: |
 | org.infinispan.protostream | [protostream](content/org/infinispan/protostream/README.md) | 16 | 9 :white_check_mark: / 7 :warning: |
@@ -832,7 +832,7 @@ Its objectives are to provide:
 | org.metricshub.maven | [metricshub-connector-maven-plugin](content/org/metricshub/maven/metricshub-connector-maven-plugin/README.md) | 4 | 4 :white_check_mark: |
 | org.mockito | [mockito-core](content/org/mockito/mockito-core/README.md) | 35 | 27 :white_check_mark: / 8 :warning: |
 | org.moditect.layrry | [layrry-aggregator](content/org/moditect/layrry/README.md) | 1 | 1 :white_check_mark: |
-| org.moditect | [moditect](content/org/moditect/moditect/README.md) | 5 | 5 :white_check_mark: |
+| org.moditect | [moditect](content/org/moditect/moditect/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
 | org.mybatis | [base-bundle-descriptor](content/org/mybatis/base-bundle-descriptor/README.md) | 3 | 3 :white_check_mark: |
 | | [mybatis-cdi](content/org/mybatis/cdi/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
 | org.mybatis.dynamic-sql | [mybatis-dynamic-sql](content/org/mybatis/dynamic-sql/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
@@ -923,7 +923,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 7 | 7 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 21 | 3 :white_check_mark: / 18 :warning: |
-| **Count:** | **900** | **8002** | **5797** :white_check_mark:<br>**2205** :warning: |
+| **Count:** | **900** | **8006** | **5800** :white_check_mark:<br>**2206** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -935,13 +935,13 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
 ```
      33 gradle     11
-    131 gradle     17
+    132 gradle     17
     100 gradle     21
       1 gradle     24
      35 mvn         7
    1545 mvn         8
       1 mvn         9
-   1567 mvn        11
+   1569 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.22
@@ -964,7 +964,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
     641 mvn        21
      15 mvn        22
      15 mvn        23
-     28 mvn        24
+     29 mvn        24
       3 mvn-3.5.4   8
      13 mvn-3.6.2   8
       1 mvn-3.6.2  11

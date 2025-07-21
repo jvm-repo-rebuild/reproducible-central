@@ -4,10 +4,13 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250720091133 --> [moditect](../content/org/moditect/moditect/README.md) | [1.2.2.Final](../content/org/moditect/moditect/moditect-1.2.2.Final.buildspec) :white_check_mark: | [1.3.0.Final](../content/org/moditect/moditect/moditect-1.3.0.Final.buildspec) | `bin/add-new-release.sh content/org/moditect/moditect/moditect-1.2.2.Final.buildspec 1.3.0.Final` |
-| <!-- 20250720091133 --> [moditect](../content/org/moditect/moditect/README.md) | [1.2.2.Final](../content/org/moditect/moditect/moditect-1.2.2.Final.buildspec) :white_check_mark: | 1.3.0  | `bin/add-new-release.sh content/org/moditect/moditect/moditect-1.2.2.Final.buildspec ...` |
-| <!-- 20250720010736 --> [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | [4.0.0.Beta1](../content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.0.0.Beta1.buildspec) :white_check_mark: | 3.0.5.Final  | `bin/add-new-release.sh content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.0.0.Beta1.buildspec ...` |
-| <!-- 20250718000938 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [11.6-RC7](../content/io/avaje/inject/avaje-inject-11.6-RC7.buildspec) :white_check_mark: | [11.6-RC8](../content/io/avaje/inject/avaje-inject-11.6-RC8.buildspec) | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-11.6-RC7.buildspec 11.6-RC8` |
+| <!-- 20250721195451 --> [avaje-logback-encoder](../content/io/avaje/logback-encoder/README.md) | [0.13](../content/io/avaje/logback-encoder/avaje-logback-encoder-0.13.buildspec) :white_check_mark: | [1.0-java8](../content/io/avaje/logback-encoder/avaje-logback-encoder-1.0-java8.buildspec) | `bin/add-new-release.sh content/io/avaje/logback-encoder/avaje-logback-encoder-0.13.buildspec 1.0-java8` |
+| <!-- 20250721195451 --> [avaje-logback-encoder](../content/io/avaje/logback-encoder/README.md) | [0.13](../content/io/avaje/logback-encoder/avaje-logback-encoder-0.13.buildspec) :white_check_mark: | 1.0  | `bin/add-new-release.sh content/io/avaje/logback-encoder/avaje-logback-encoder-0.13.buildspec ...` |
+| <!-- 20250721185250 --> [avaje-jsonb-parent](../content/io/avaje/jsonb/README.md) | [3.6-RC3](../content/io/avaje/jsonb/avaje-jsonb-3.6-RC3.buildspec) :white_check_mark: | [3.6](../content/io/avaje/jsonb/avaje-jsonb-3.6.buildspec) | `bin/add-new-release.sh content/io/avaje/jsonb/avaje-jsonb-3.6-RC3.buildspec 3.6` |
+| <!-- 20250721144334 --> [messages](../content/io/cucumber/messages/README.md) | [28.0.0](../content/io/cucumber/messages/messages-28.0.0.buildspec) :white_check_mark: | [28.1.0](../content/io/cucumber/messages/messages-28.1.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/messages/messages-28.0.0.buildspec 28.1.0` |
+| <!-- 20250721084933 --> [aru-parent](../content/io/github/cbarlin/aru/README.md) | [0.3.1](../content/io/github/cbarlin/aru/aru-0.3.1.buildspec) :white_check_mark: | [0.4.0](../content/io/github/cbarlin/aru/aru-0.4.0.buildspec) | `bin/add-new-release.sh content/io/github/cbarlin/aru/aru-0.3.1.buildspec 0.4.0` |
+| <!-- 20250721084933 --> [aru-parent](../content/io/github/cbarlin/aru/README.md) | [0.3.1](../content/io/github/cbarlin/aru/aru-0.3.1.buildspec) :white_check_mark: | 0.3.2  | `bin/add-new-release.sh content/io/github/cbarlin/aru/aru-0.3.1.buildspec ...` |
+| <!-- 20250721071531 --> [junit-bom](../content/org/junit/junit5/README.md) | [6.0.0-M1](../content/org/junit/junit5/junit5-6.0.0-M1.buildspec) :white_check_mark: | 5.13.4  | `bin/add-new-release.sh content/org/junit/junit5/junit5-6.0.0-M1.buildspec ...` |
 <!-- END GENERATED ADD OK -->
 
 ### Unexpected Diffoscope in Buildspec
@@ -41,6 +44,11 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20250721190010 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | [2.18.0](../content/io/opentelemetry/instrumentation/opentelemetry-2.18.0.buildspec) :warning: | [2.18.1](../content/io/opentelemetry/instrumentation/opentelemetry-2.18.1.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/instrumentation/opentelemetry-2.18.0.buildspec 2.18.1` |
+| <!-- 20250721122729 --> [flexmonster](../content/org/webjars/flexmonster/README.md) | [2.9.107](../content/org/webjars/flexmonster/flexmonster-2.9.107.buildspec) :x: | [2.9.108](../content/org/webjars/flexmonster/flexmonster-2.9.108.buildspec) | `bin/add-new-release.sh content/org/webjars/flexmonster/flexmonster-2.9.107.buildspec 2.9.108` |
+| <!-- 20250721114932 --> [yupiik-tools-maven-plugin-parent](../content/io/yupiik/maven/plugin/README.md) | [1.2.10](../content/io/yupiik/maven/plugin/yupiik-tools-maven-plugin-1.2.10.buildspec) :warning: | [1.2.11](../content/io/yupiik/maven/plugin/yupiik-tools-maven-plugin-1.2.11.buildspec) | `bin/add-new-release.sh content/io/yupiik/maven/plugin/yupiik-tools-maven-plugin-1.2.10.buildspec 1.2.11` |
+| <!-- 20250721100347 --> [jooby](../content/io/jooby/README.md) | [3.10.0](../content/io/jooby/jooby-3.10.0.buildspec) :warning: | [3.11.0](../content/io/jooby/jooby-3.11.0.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-3.10.0.buildspec 3.11.0` |
+| <!-- 20250721081159 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | [3.3.2](../content/io/smallrye/jandex/jandex-3.3.2.buildspec) :warning: | [3.4.0](../content/io/smallrye/jandex/jandex-3.4.0.buildspec) | `bin/add-new-release.sh content/io/smallrye/jandex/jandex-3.3.2.buildspec 3.4.0` |
 | <!-- 20250717230314 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.90.1](../content/org/finos/legend/engine/legend-engine-4.90.1.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.90.1` |
 | <!-- 20250714140320 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.26.2](../content/org/webjars/swagger-ui/swagger-ui-5.26.2.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.26.2` |
 | <!-- 20250708102140 --> [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.13.0](../content/org/apache/camel/camel/camel-4.13.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.13.0` |
@@ -75,10 +83,8 @@ New Releases To Add
 | <!-- 20250718175735 --> [jackson-jr-parent](../content/com/fasterxml/jackson/jr/README.md) | 2.19.2 :warning: |
 | <!-- 20250718175536 --> [jackson-databind](../content/com/fasterxml/jackson/databind/README.md) | 2.19.2 :warning: |
 | <!-- 20250718171323 --> [jena](../content/org/apache/jena/jena/README.md) | 5.5.0 :warning: |
-| <!-- 20250718024403 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | 2.18.0 :warning: |
 | <!-- 20250717183535 --> [gwt-commons-validator](../content/de/knightsoft-net/gwt-commons-validator/README.md) | 1.10.0-0 :warning: |
 | <!-- 20250717162227 --> [quarkus-project](../content/io/quarkus/README.md) | 3.25.0.CR1 :warning: |
-| <!-- 20250716090330 --> [yupiik-tools-maven-plugin-parent](../content/io/yupiik/maven/plugin/README.md) | 1.2.10 :warning: |
 | <!-- 20250716013054 --> [avaje-http-parent](../content/io/avaje/http/README.md) | 3.4-RC4 :warning: |
 | <!-- 20250715162154 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | 6.14.0 :warning: |
 | <!-- 20250715144131 --> [parent](../content/org/phoebus/README.md) | 5.0.2 :warning: |
@@ -91,12 +97,9 @@ New Releases To Add
 | <!-- 20250709095534 --> [flink-kubernetes-operator-parent](../content/org/apache/flink/flink-kubernetes-operator/README.md) | 1.12.1 :warning: |
 | <!-- 20250707172817 --> [shiro-root](../content/org/apache/shiro/README.md) | 2.0.5 :warning: |
 | <!-- 20250707085541 --> [java-sql-parent](../content/com/github/nbbrd/java-sql-util/README.md) | 1.0.7 :warning: |
-| <!-- 20250707082738 --> [flexmonster](../content/org/webjars/flexmonster/README.md) | 2.9.107 :x: |
 | <!-- 20250706160140 --> [plotsquared-bukkit](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/README.md) | 7.5.4 :x: |
 | <!-- 20250704040735 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | 1.7.4 :warning: [:memo:](https://github.com/jpmml/jpmml-model/issues/42) |
-| <!-- 20250703150605 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.3.2 :warning: |
 | <!-- 20250702142639 --> [rainbowgum-maven-parent](../content/io/jstach/rainbowgum/README.md) | 0.8.2 :warning: |
-| <!-- 20250702104902 --> [jooby](../content/io/jooby/README.md) | 3.10.0 :warning: |
 | <!-- 20250702080353 --> [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | 1.82.0 :warning: [:memo:](https://issues.apache.org/jira/browse/OAK-10662) |
 | <!-- 20250630063427 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | 1.9.13 :warning: |
 | <!-- 20250628075449 --> [drill-root](../content/org/apache/drill/README.md) | 1.22.0 :warning: |

@@ -83,6 +83,7 @@ rebuilding **49 releases** of io.jooby:jooby:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.11.0](https://central.sonatype.com/artifact/io.jooby/jooby/3.11.0/pom) | | | |
 | [3.10.0](https://central.sonatype.com/artifact/io.jooby/jooby/3.10.0/pom) | [mvn jdk17](jooby-3.10.0.buildspec) | [result](jooby-project-3.10.0.buildinfo): [173 :white_check_mark:  1 :warning:](jooby-project-3.10.0.buildcompare) | 1 :no_entry_sign: | 14M |
 | [3.9.1](https://central.sonatype.com/artifact/io.jooby/jooby/3.9.1/pom) | [mvn jdk17](jooby-3.9.1.buildspec) | [result](jooby-project-3.9.1.buildinfo): [177 :white_check_mark: ](jooby-project-3.9.1.buildcompare) | | 15M |
 | [3.9.0](https://central.sonatype.com/artifact/io.jooby/jooby/3.9.0/pom) | [mvn jdk17](jooby-3.9.0.buildspec) | [result](jooby-project-3.9.0.buildinfo): [175 :white_check_mark:  2 :warning:](jooby-project-3.9.0.buildcompare) [:mag:](jooby-project-3.9.0.diffoscope) [:memo:](https://github.com/jooby-project/jooby/pull/3681) | - | 15M |

@@ -13,6 +13,8 @@ rebuilding **13 releases** of io.avaje:avaje-logback-encoder:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.0-java8](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/1.0-java8/pom) | | | |
+| [1.0](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/1.0/pom) | | | |
 | [0.13](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/0.13/pom) | [mvn jdk21](avaje-logback-encoder-0.13.buildspec) | [result](avaje-logback-encoder-0.13.buildinfo): [3 :white_check_mark: ](avaje-logback-encoder-0.13.buildcompare) | | 56K |
 | [0.12](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/0.12/pom) | [mvn jdk21](avaje-logback-encoder-0.12.buildspec) | [result](avaje-logback-encoder-0.12.buildinfo): [3 :white_check_mark: ](avaje-logback-encoder-0.12.buildcompare) | | 54K |
 | [0.11-java8](https://central.sonatype.com/artifact/io.avaje/avaje-logback-encoder/0.11-java8/pom) | [mvn jdk8](avaje-logback-encoder-0.11-java8.buildspec) | [result](avaje-logback-encoder-0.11-java8.buildinfo): [3 :white_check_mark: ](avaje-logback-encoder-0.11-java8.buildcompare) | | 53K |
