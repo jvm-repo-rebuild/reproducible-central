@@ -7,23 +7,24 @@
 
 Source code: [https://github.com/smallrye/jandex.git](https://github.com/smallrye/jandex.git)
 
-<details><summary>This project defines 5 modules:</summary>
+<details><summary>This project defines 6 modules:</summary>
 
 * [io.smallrye:jandex](https://central.sonatype.com/artifact/io.smallrye/jandex/overview)
+* [io.smallrye:jandex-gizmo2](https://central.sonatype.com/artifact/io.smallrye/jandex-gizmo2/overview)
 * [io.smallrye:jandex-maven-plugin](https://central.sonatype.com/artifact/io.smallrye/jandex-maven-plugin/overview)
 * [io.smallrye:jandex-parent](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/overview)
 * [io.smallrye:jandex-release](https://central.sonatype.com/artifact/io.smallrye/jandex-release/overview)
 * [io.smallrye:jandex-test-data](https://central.sonatype.com/artifact/io.smallrye/jandex-test-data/overview)
 </details>
 
-rebuilding **21 releases** of io.smallrye:jandex-parent:
+rebuilding **22 releases** of io.smallrye:jandex-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 21 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 1 had all their differences removed :recycle:
+- 22 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 2 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.4.0](https://central.sonatype.com/artifact/io.smallrye/jandex/3.4.0/pom) | | | |
+| [3.4.0](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.4.0/pom) | [mvn jdk21](jandex-3.4.0.buildspec) | [result](jandex-parent-3.4.0.buildinfo): [13 :white_check_mark:  1 :warning:](jandex-parent-3.4.0.buildcompare) | 1 :recycle: | 812K |
 | [3.3.2](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.3.2/pom) | [mvn jdk21](jandex-3.3.2.buildspec) | [result](jandex-parent-3.3.2.buildinfo): [10 :white_check_mark:  1 :warning:](jandex-parent-3.3.2.buildcompare) | 1 :recycle: | 767K |
 | [3.3.1](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.3.1/pom) | [mvn jdk21](jandex-3.3.1.buildspec) | [result](jandex-parent-3.3.1.buildinfo): [10 :white_check_mark:  1 :warning:](jandex-parent-3.3.1.buildcompare) | - | 764K |
 | [3.3.0](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.3.0/pom) | [mvn jdk21](jandex-3.3.0.buildspec) | [result](jandex-parent-3.3.0.buildinfo): [10 :white_check_mark:  1 :warning:](jandex-parent-3.3.0.buildcompare) | - | 762K |
