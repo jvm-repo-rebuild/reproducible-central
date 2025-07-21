@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=avaje-logback-encoder
+group-id=io.avaje
+artifact-id=avaje-logback-encoder
+version=1.0
+
+# source information
+source.scm.uri=null
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.7
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=io.avaje
+outputs.0.filename=avaje-logback-encoder-1.0.pom
+outputs.0.length=1324
+outputs.0.checksums.sha512=697fc9e0b47c46236b120a76afcb661d6ed66ee9e125aa57a397e4dd68a54a9108756c4aba4a9a15daaebc58a6052057cce9b80cb860d3f1d8814448ee8c2d38
+
+outputs.1.groupId=io.avaje
+outputs.1.filename=avaje-logback-encoder-1.0.jar
+outputs.1.length=33220
+outputs.1.checksums.sha512=5455c59b85d2f3b637c74e748a0fab7ac6f6654f6c2686fb76c5a2a7721f07f5e762b1637b72770257a76a61b271ee86305b6a51442ec6372219086d175960a9
+
+outputs.2.groupId=io.avaje
+outputs.2.filename=avaje-logback-encoder-1.0-sources.jar
+outputs.2.length=22259
+outputs.2.checksums.sha512=a08138fbd5900e0a08f111d71e6b7c3b025dc0a8a58ca549b9e53d45d67b5bdf339079004b7bd32604ab8d0a9c763310a1d38b10321ca3ebdb0727b6fad07293
