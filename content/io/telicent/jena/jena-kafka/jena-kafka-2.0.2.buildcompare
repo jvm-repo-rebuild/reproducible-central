@@ -1,0 +1,9 @@
+version=2.0.2
+ok=24
+ko=0
+ignored=0
+okFiles="jena-kafka-2.0.2.pom jena-kafka-2.0.2-tests.jar jena-kafka-2.0.2-cyclonedx.xml jena-kafka-2.0.2-cyclonedx.json jena-kafka-connector-2.0.2.pom jena-kafka-connector-2.0.2.jar jena-kafka-connector-2.0.2-tests.jar jena-kafka-connector-2.0.2-sources.jar jena-kafka-connector-2.0.2-test-sources.jar jena-kafka-connector-2.0.2-cyclonedx.xml jena-kafka-connector-2.0.2-cyclonedx.json jena-fuseki-kafka-module-2.0.2.pom jena-fuseki-kafka-module-2.0.2.jar jena-fuseki-kafka-module-2.0.2-tests.jar jena-fuseki-kafka-module-2.0.2-sources.jar jena-fuseki-kafka-module-2.0.2-test-sources.jar jena-fuseki-kafka-module-2.0.2-cyclonedx.xml jena-fuseki-kafka-module-2.0.2-cyclonedx.json jena-fmod-kafka-2.0.2.pom jena-fmod-kafka-2.0.2.jar jena-fmod-kafka-2.0.2-tests.jar jena-fmod-kafka-2.0.2-sources.jar jena-fmod-kafka-2.0.2-cyclonedx.xml jena-fmod-kafka-2.0.2-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
