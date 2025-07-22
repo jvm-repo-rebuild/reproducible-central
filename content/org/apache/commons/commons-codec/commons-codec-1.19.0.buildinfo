@@ -1,0 +1,60 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Codec
+group-id=commons-codec
+artifact-id=commons-codec
+version=1.19.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-codec
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.7
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=commons-codec
+outputs.0.filename=commons-codec-1.19.0.pom
+outputs.0.length=18008
+outputs.0.checksums.sha512=876e711b79565c3878ea4f0799f5209b53daa08f370e8aac286cced03ef494e2c24c89eb425d68850b5d920c98fe6f813e80c318ee4900dcc9b3271b2860f307
+
+outputs.1.groupId=commons-codec
+outputs.1.filename=commons-codec-1.19.0.jar
+outputs.1.length=374716
+outputs.1.checksums.sha512=d98a7a1cfcc08aa9cce4f7778e3f37ecb99da7b1da01944e5fa8faf06fbf9f969f2efb0b416832f419d53085250f711c071f1dac9fa0968483c37034198367fb
+
+outputs.2.groupId=commons-codec
+outputs.2.filename=commons-codec-1.19.0-tests.jar
+outputs.2.length=392581
+outputs.2.checksums.sha512=56f209be7fdcccf38a662aedf8b847d4e7392137b8c2a6f34d4c924af5b8d8d62140632e7114c93361c18230f7d5e51d9f778d89c7c4ae9ef4e3b9048edd3e5d
+
+outputs.3.groupId=commons-codec
+outputs.3.filename=commons-codec-1.19.0-sources.jar
+outputs.3.length=375253
+outputs.3.checksums.sha512=827156c0566f7f8ea5043b0a963c65f0e6b9bf009a48e7a4cd77f158dd300203841eb7c407ec9cf147b2af53b8f7bc7bcf679c7bb54f4b46110ff70a50fd8202
+
+outputs.4.groupId=commons-codec
+outputs.4.filename=commons-codec-1.19.0-test-sources.jar
+outputs.4.length=262052
+outputs.4.checksums.sha512=99b3b0fa3286aca3d7110e2be46cc565ca18c2ba33c7fc72424446152e74e821bca9bbc62d4ac441964f2f7c5f1ca49f02d514b99e579208ac2b97c9272b2a50
+
+outputs.5.groupId=commons-codec
+outputs.5.filename=commons-codec-1.19.0-cyclonedx.xml
+outputs.5.length=3664
+outputs.5.checksums.sha512=464fe05b49e2da833aea33c16d71455eeac4ec42538a30e65b35300eca2efaad482693ba04f23e5363188ffaa37294ed6b6fea3ec198c752b86fa1bacf9fbfa2
+
+outputs.6.groupId=commons-codec
+outputs.6.filename=commons-codec-1.19.0-cyclonedx.json
+outputs.6.length=3993
+outputs.6.checksums.sha512=1641f12c82f1373545b3d05b31906962bb2d0aefe20779911af5d184bc0b402d08a8d607164618c0c0a89a4ce6fde5df8b26059c83249e9c6becbb5b01405eb9
+# ignored commons-codec-1.19.0.spdx.json
