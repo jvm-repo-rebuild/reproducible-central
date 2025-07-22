@@ -1,0 +1,66 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SunSpec Device :
+group-id=nl.basjes.sunspec
+artifact-id=sunspec-device-parent
+version=0.7.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/nielsbasjes/sunspec-device.git
+source.scm.tag=v0.7.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.7
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+mvn.aggregate.artifact-id=sunspec-device
+
+# aggregated output
+
+outputs.0.coordinates=nl.basjes.sunspec:sunspec-device-parent
+
+outputs.0.0.groupId=nl.basjes.sunspec
+outputs.0.0.filename=sunspec-device-parent-0.7.1.pom
+outputs.0.0.length=18270
+outputs.0.0.checksums.sha512=5b1849fc1352b90aee9a8f7c93824f047bb165a20d1b1021a502b80bf8ade949c5485f5c71c1a055cf779436aedab52027f519d593ff1a70f4c4248d4b5a5b98
+
+outputs.1.coordinates=nl.basjes.sunspec:sunspec-model
+
+outputs.1.0.groupId=nl.basjes.sunspec
+outputs.1.0.filename=sunspec-model-0.7.1.pom
+outputs.1.0.length=11025
+outputs.1.0.checksums.sha512=4b9cb7dc3fa0a039067649091471bd292fe44358cd545f2deb47bb750ec1e240d88e5fddf1afad92e04a1afe2d379fce7633beb540290f909336555b341a8562
+
+outputs.1.1.groupId=nl.basjes.sunspec
+outputs.1.1.filename=sunspec-model-0.7.1.jar
+outputs.1.1.length=230271
+outputs.1.1.checksums.sha512=fafc5f16472a947662b3c12eb6ba4383937a1c255a354fd4464a65ad2a67d760233725dd5f21e661340da21904c66e4b352021beb627b30069d682883090eb37
+
+outputs.1.2.groupId=nl.basjes.sunspec
+outputs.1.2.filename=sunspec-model-0.7.1-sources.jar
+outputs.1.2.length=170015
+outputs.1.2.checksums.sha512=30e612fa17a1f0f659e235bea055a1d5957439e2517b333aab88f40d6b205f710bf3205294f828a22350caa1d2bbaab91e7e55f6ed895f0f69f752cc8fed6925
+
+outputs.2.coordinates=nl.basjes.sunspec:sunspec-device
+
+outputs.2.0.groupId=nl.basjes.sunspec
+outputs.2.0.filename=sunspec-device-0.7.1.pom
+outputs.2.0.length=4234
+outputs.2.0.checksums.sha512=8c54b25a7d0f49261f9e98965306591fad480092beeb06555322257c03159f43d6fae4eb7035dad6a03fd05213eb4cf5df29b068d9581fb634d672cd838b57b9
+
+outputs.2.1.groupId=nl.basjes.sunspec
+outputs.2.1.filename=sunspec-device-0.7.1.jar
+outputs.2.1.length=27428
+outputs.2.1.checksums.sha512=e2e1a72e7e40d204f2418bb2c9d43a1f788067e27c00ab352b7b7a498f3865d0283f6d0bc124d4b788e1299d437889f7172fbf99c895013cbf7b3a7bd3deded8
+
+outputs.2.2.groupId=nl.basjes.sunspec
+outputs.2.2.filename=sunspec-device-0.7.1-sources.jar
+outputs.2.2.length=13111
+outputs.2.2.checksums.sha512=fb108f8805c6770eae42ab0ece9885217d8ac951fdb95c9e10b3a618b293080b089fe8fb07a4952a085b09684138a251632463c157f8588f273917f1d9795e77
