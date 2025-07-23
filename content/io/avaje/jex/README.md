@@ -19,13 +19,13 @@ Source code: [https://github.com/avaje/avaje-jex.git](https://github.com/avaje/a
 * [io.avaje:avaje-jex-test](https://central.sonatype.com/artifact/io.avaje/avaje-jex-test/overview)
 </details>
 
-rebuilding **29 releases** of io.avaje:avaje-jex-parent:
-- **25** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **30 releases** of io.avaje:avaje-jex-parent:
+- **26** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.3-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.3-RC2/pom) | | | |
+| [3.3-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.3-RC2/pom) | [mvn jdk24 w](avaje-jex-3.3-RC2.buildspec) | [result](avaje-jex-parent-3.3-RC2.buildinfo): [22 :white_check_mark: ](avaje-jex-parent-3.3-RC2.buildcompare) | | 298K |
 | [3.3-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.3-RC1/pom) | [mvn jdk21](avaje-jex-3.3-RC1.buildspec) | [result](avaje-jex-parent-3.3-RC1.buildinfo): [22 :white_check_mark: ](avaje-jex-parent-3.3-RC1.buildcompare) | | 295K |
 | [3.2](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.2/pom) | [mvn jdk24 w](avaje-jex-3.2.buildspec) | [result](avaje-jex-parent-3.2.buildinfo): [20 :white_check_mark:  2 :warning:](avaje-jex-parent-3.2.buildcompare) | - | 296K |
 | [3.2-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.2-RC1/pom) | [mvn jdk21](avaje-jex-3.2-RC1.buildspec) | [result](avaje-jex-parent-3.2-RC1.buildinfo): [22 :white_check_mark: ](avaje-jex-parent-3.2-RC1.buildcompare) | | 294K |
