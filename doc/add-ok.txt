@@ -1,8 +1,5 @@
-content/io/github/cbarlin/aru/aru-0.4.0.buildspec:0.4.1
-content/io/telicent/jena/jena-kafka/jena-kafka-2.0.1.buildspec:2.0.2
-content/nl/basjes/modbus/modbus-schema-parent/modbus-schema-parent-0.11.0.buildspec:0.12.0
-content/nl/basjes/modbus/devices/modbus-devices-parent/modbus-devices-parent-0.5.0.buildspec:0.6.0
-content/nl/basjes/sunspec/sunspec-device-parent/sunspec-device-parent-0.7.0.buildspec:0.7.1
-content/org/apache/commons/commons-build-plugin/commons-build-plugin-1.15.0.buildspec:1.16.0
-content/org/apache/commons/commons-codec/commons-codec-1.18.0.buildspec:1.19.0
-content/org/junit/junit5/junit5-6.0.0-M1.buildspec:6.0.0-M2
+content/io/airlift/airbase/airbase-280.buildspec:281
+content/io/avaje/jex/avaje-jex-3.3-RC1.buildspec:3.3-RC2
+content/io/github/cbarlin/aru/aru-0.4.1.buildspec:0.5.0
+content/org/apache/sling/org.apache.sling.jcr.oak.server/org.apache.sling.jcr.oak.server-1.4.2.buildspec:1.4.4
+content/org/hibernate/orm/hibernate-core/hibernate-core-7.0.6.Final.buildspec:7.0.7.Final
