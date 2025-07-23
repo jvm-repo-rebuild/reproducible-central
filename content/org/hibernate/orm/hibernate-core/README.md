@@ -45,13 +45,13 @@ Source code: [https://github.com/hibernate/hibernate-orm.git](https://github.com
 * [org.hibernate:hibernate-vector](https://central.sonatype.com/artifact/org.hibernate/hibernate-vector/overview)
 </details>
 
-rebuilding **10 releases** of org.hibernate.orm:hibernate-core:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **11 releases** of org.hibernate.orm:hibernate-core:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [7.0.7.Final](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.0.7.Final/pom) | | | |
+| [7.0.7.Final](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.0.7.Final/pom) | [gradle jdk17](hibernate-core-7.0.7.Final.buildspec) | [result](hibernate-core-7.0.7.Final.buildinfo): [68 :white_check_mark: ](hibernate-core-7.0.7.Final.buildcompare) | | 25M |
 | [7.0.6.Final](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.0.6.Final/pom) | [gradle jdk17](hibernate-core-7.0.6.Final.buildspec) | [result](hibernate-core-7.0.6.Final.buildinfo): [68 :white_check_mark: ](hibernate-core-7.0.6.Final.buildcompare) | | 25M |
 | [7.0.5.Final](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.0.5.Final/pom) | [gradle jdk17](hibernate-core-7.0.5.Final.buildspec) | [result](hibernate-core-7.0.5.Final.buildinfo): [68 :white_check_mark: ](hibernate-core-7.0.5.Final.buildcompare) | | 25M |
 | [7.0.4.Final](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.0.4.Final/pom) | [gradle jdk17](hibernate-core-7.0.4.Final.buildspec) | [result](hibernate-core-7.0.4.Final.buildinfo): [68 :white_check_mark: ](hibernate-core-7.0.4.Final.buildcompare) | | 25M |
