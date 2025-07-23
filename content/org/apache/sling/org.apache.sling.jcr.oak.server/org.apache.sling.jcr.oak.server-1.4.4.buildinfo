@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling JCR Oak Server
+group-id=org.apache.sling
+artifact-id=org.apache.sling.jcr.oak.server
+version=1.4.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-jcr-oak-server.git
+source.scm.tag=org.apache.sling.jcr.oak.server-1.4.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.27
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.jcr.oak.server-1.4.4.pom
+outputs.0.length=8544
+outputs.0.checksums.sha512=45b32de592592a642db902c8310df527e1ffdf5fc02822ced98fa30e17e180fe4d5df630b3a19588f81913f66c03c731a2f7cee5163cc8fb692d1d2b8ef7ba19
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.jcr.oak.server-1.4.4.jar
+outputs.1.length=35612
+outputs.1.checksums.sha512=705671d9d8437d110ab8ed1fc9f710681ca189f476a1184be8ecea65b4d2eea8d9f598c99336bc2e7a271533c5cde38cd82692c36e7c20eb46dfc91faf72a847
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.jcr.oak.server-1.4.4-source-release.zip
+outputs.2.length=50161
+outputs.2.checksums.sha512=5f509f9a10dbf8e7398646e2831af08498bc9961d90ea201e8f76547844fb18fc317e7930e353f28ad0747ed009fc018e97b95b722d77074480f2b47f59cced3
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.jcr.oak.server-1.4.4-sources.jar
+outputs.3.length=23235
+outputs.3.checksums.sha512=6cfafc04b32f41bb06244db8259236eac617525e8ed6a18ec1763f35fe163a4eef32161176f4c7bb4dfabcba91f6b7d1a4d068b52519cec55ee82e300da2eb0b
