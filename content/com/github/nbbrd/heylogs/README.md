@@ -25,6 +25,7 @@ rebuilding **6 releases** of com.github.nbbrd.heylogs:heylogs-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.11.1](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.11.1/pom) | | | |
 | [0.10.0](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.10.0/pom) | [mvn jdk21](heylogs-0.10.0.buildspec) | [result](heylogs-parent-0.10.0.buildinfo): [22 :white_check_mark: ](heylogs-parent-0.10.0.buildcompare) | | 2.9M |
 | [0.9.3](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.9.3/pom) | [mvn jdk21](heylogs-0.9.3.buildspec) | [result](heylogs-parent-0.9.3.buildinfo): [22 :white_check_mark: ](heylogs-parent-0.9.3.buildcompare) | | 2.9M |
 | [0.9.2](https://central.sonatype.com/artifact/com.github.nbbrd.heylogs/heylogs-parent/0.9.2/pom) | [mvn jdk21](heylogs-0.9.2.buildspec) | [result](heylogs-parent-0.9.2.buildinfo): [22 :white_check_mark: ](heylogs-parent-0.9.2.buildcompare) | | 2.9M |

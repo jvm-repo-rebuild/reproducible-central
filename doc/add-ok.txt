@@ -1,5 +1,7 @@
-content/io/airlift/airbase/airbase-280.buildspec:281
-content/io/avaje/jex/avaje-jex-3.3-RC1.buildspec:3.3-RC2
-content/io/github/cbarlin/aru/aru-0.4.1.buildspec:0.5.0
-content/org/apache/sling/org.apache.sling.jcr.oak.server/org.apache.sling.jcr.oak.server-1.4.2.buildspec:1.4.4
-content/org/hibernate/orm/hibernate-core/hibernate-core-7.0.6.Final.buildspec:7.0.7.Final
+content/com/github/nbbrd/heylogs/heylogs-0.10.0.buildspec:0.11.1
+content/de/gematik/pki/gemLibPki/gemLibPki-3.1.5.buildspec:3.2.0
+content/io/dropwizard/core/dropwizard-5.0.0-rc.3.buildspec:5.0.0-rc.4
+content/io/dropwizard/modules/parent/module-parent-5.0.0-rc.1.buildspec:5.0.0-rc.4
+content/io/telicent/smart-caches/graph/scg-base/scg-base-0.83.16.buildspec:0.90.0
+content/org/apache/commons/commons-text/commons-text-1.13.1.buildspec:1.14.0
+content/tech/picnic/error-prone-support/error-prone-support/error-prone-support-0.23.0.buildspec:0.24.0

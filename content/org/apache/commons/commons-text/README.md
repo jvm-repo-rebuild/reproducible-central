@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.apache.commons:commons-text:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.14.0](https://central.sonatype.com/artifact/org.apache.commons/commons-text/1.14.0/pom) | | | |
 | [1.13.1](https://central.sonatype.com/artifact/org.apache.commons/commons-text/1.13.1/pom) | [mvn jdk21](commons-text-1.13.1.buildspec) | [result](commons-text-1.13.1.buildinfo): [7 :white_check_mark: ](commons-text-1.13.1.buildcompare) | | 1.1M |
 | [1.13.0](https://central.sonatype.com/artifact/org.apache.commons/commons-text/1.13.0/pom) | [mvn jdk17](commons-text-1.13.0.buildspec) | [result](commons-text-1.13.0.buildinfo): [7 :white_check_mark: ](commons-text-1.13.0.buildcompare) | | 1.3M |
 | [1.12.0](https://central.sonatype.com/artifact/org.apache.commons/commons-text/1.12.0/pom) | [mvn jdk17](commons-text-1.12.0.buildspec) | [result](commons-text-1.12.0.buildinfo): [7 :white_check_mark: ](commons-text-1.12.0.buildcompare) | | 1.3M |
