@@ -1,0 +1,29 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Dropwizard Module Parent
+group-id=io.dropwizard.modules
+artifact-id=module-parent
+version=5.0.0-rc.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/dropwizard/module-parent.git
+source.scm.tag=module-parent-5.0.0-rc.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.27
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=io.dropwizard.modules
+outputs.0.filename=module-parent-5.0.0-rc.4.pom
+outputs.0.length=9661
+outputs.0.checksums.sha512=fb582639058b18b3fac6e7fe5c21b961e283254351bf70faf27e6a205df2bf0fdddaba69d9a8be981f9f435794717eea5fd2d0b46801dfbe5f0ca73c39474039
