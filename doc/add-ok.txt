@@ -1,7 +1,9 @@
-content/com/github/nbbrd/heylogs/heylogs-0.10.0.buildspec:0.11.1
-content/de/gematik/pki/gemLibPki/gemLibPki-3.1.5.buildspec:3.2.0
-content/io/dropwizard/core/dropwizard-5.0.0-rc.3.buildspec:5.0.0-rc.4
-content/io/dropwizard/modules/parent/module-parent-5.0.0-rc.1.buildspec:5.0.0-rc.4
-content/io/telicent/smart-caches/graph/scg-base/scg-base-0.83.16.buildspec:0.90.0
-content/org/apache/commons/commons-text/commons-text-1.13.1.buildspec:1.14.0
-content/tech/picnic/error-prone-support/error-prone-support/error-prone-support-0.23.0.buildspec:0.24.0
+content/com/github/nbbrd/java-design-util/java-design-util-1.7.0.buildspec:1.8.0
+content/de/cuioss/cui-java-tools/cui-java-tools-2.4.0.buildspec:2.5.0
+content/de/cuioss/cui-parent-pom/cui-parent-pom-1.1.2.buildspec:1.1.3
+content/io/avaje/inject/avaje-inject-11.6-RC8.buildspec:11.6-javax
+content/io/avaje/validator/avaje-validator-2.12.buildspec:2.13
+content/io/wcm/tooling/wcm-parent_toplevel-2.5.0.buildspec:2.5.2
+content/net/sourceforge/pmd/pmd-7.15.0.buildspec:7.16.0
+content/org/apache/sling/org.apache.sling.api/org.apache.sling.api-3.0.0.buildspec:3.0.2
+content/org/hibernate/models/hibernate-models/hibernate-models-1.0.0.buildspec:1.0.1

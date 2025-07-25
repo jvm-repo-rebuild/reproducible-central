@@ -34,6 +34,7 @@ rebuilding **22 releases** of io.avaje:avaje-http-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.4](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.4/pom) | | | |
 | [3.4-RC4](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.4-RC4/pom) | [mvn jdk21](avaje-http-3.4-RC4.buildspec) | [result](avaje-http-parent-3.4-RC4.buildinfo): [45 :white_check_mark:  1 :warning:](avaje-http-parent-3.4-RC4.buildcompare) | 1 :rotating_light: | 4.3M |
 | [3.4-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.4-RC3/pom) | [mvn jdk21](avaje-http-3.4-RC3.buildspec) | [result](avaje-http-parent-3.4-RC3.buildinfo): [45 :white_check_mark:  1 :warning:](avaje-http-parent-3.4-RC3.buildcompare) [:mag:](avaje-http-parent-3.4-RC3.diffoscope) | 1 :rotating_light: | 4.3M |
 | [3.4-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-http-parent/3.4-RC2/pom) | [mvn jdk24 w](avaje-http-3.4-RC2.buildspec) | [result](avaje-http-parent-3.4-RC2.buildinfo): [46 :white_check_mark: ](avaje-http-parent-3.4-RC2.buildcompare) | | 4.3M |
