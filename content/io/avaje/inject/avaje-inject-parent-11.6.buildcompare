@@ -1,0 +1,18 @@
+version=11.6
+ok=15
+ko=4
+ignored=0
+okFiles="avaje-inject-parent-11.6.pom avaje-inject-aop-11.6.pom avaje-inject-aop-11.6.jar avaje-inject-aop-11.6-sources.jar avaje-inject-events-11.6.pom avaje-inject-events-11.6.jar avaje-inject-events-11.6-sources.jar avaje-inject-11.6.pom avaje-inject-11.6.jar avaje-inject-11.6-sources.jar avaje-inject-generator-11.6.pom avaje-inject-test-11.6.pom avaje-inject-test-11.6.jar avaje-inject-test-11.6-sources.jar avaje-inject-maven-plugin-11.6.pom"
+koFiles="avaje-inject-generator-11.6.jar avaje-inject-generator-11.6-sources.jar avaje-inject-maven-plugin-11.6.jar avaje-inject-maven-plugin-11.6-sources.jar"
+ignoredFiles=""
+reference_java_version="24 (from MANIFEST.MF Build-Jdk-Spec)"
+# diffoscope target/reference/io.avaje/avaje-inject-generator-11.6.jar inject-generator/target/avaje-inject-generator-11.6.jar
+# diffoscope target/reference/io.avaje/avaje-inject-generator-11.6-sources.jar inject-generator/target/avaje-inject-generator-11.6-sources.jar
+# diffoscope target/reference/io.avaje/avaje-inject-maven-plugin-11.6.jar inject-maven-plugin/target/avaje-inject-maven-plugin-11.6.jar
+# diffoscope target/reference/io.avaje/avaje-inject-maven-plugin-11.6-sources.jar inject-maven-plugin/target/avaje-inject-maven-plugin-11.6-sources.jar
+stabilize_ok=0
+stabilize_ko=4
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="avaje-inject-generator-11.6.jar.stabilized avaje-inject-generator-11.6-sources.jar.stabilized avaje-inject-maven-plugin-11.6.jar.stabilized avaje-inject-maven-plugin-11.6-sources.jar.stabilized"
+stabilize_ignoredFiles=""
