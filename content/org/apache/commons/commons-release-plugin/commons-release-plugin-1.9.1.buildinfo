@@ -1,0 +1,60 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Release Plugin
+group-id=org.apache.commons
+artifact-id=commons-release-plugin
+version=1.9.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-release-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-release-plugin-1.9.1.pom
+outputs.0.length=26481
+outputs.0.checksums.sha512=1f9ad08a22f1eee2b9bca2e60021cb02aaa0b77dac3124a4cff0c5e35283819dcf780a0ecaec60bd2788f4acc3c5d8dec87eda5437d5d11a68ff31c03d809319
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-release-plugin-1.9.1.jar
+outputs.1.length=57356
+outputs.1.checksums.sha512=1c6f8d2e2bfd56cfed5c51bfd078ad00bd4c08d320657c1d8575b9240e0239dc4421126f30e5d70428f2300b31808931552a7b3bee480a34999e30c441107004
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-release-plugin-1.9.1-tests.jar
+outputs.2.length=5901946
+outputs.2.checksums.sha512=ad60b93cb4298ce048e2e0a929e89638a8714bfdfe8cf47cf74608a3005b74b1cebfac2a488724d2a80fa27971dafa1386ecaecb3157157588d8917f7ed7230d
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-release-plugin-1.9.1-sources.jar
+outputs.3.length=44120
+outputs.3.checksums.sha512=5f9b4e089e84d1d4bb7d45956a037efd9abc3a94e5d9fac7f9056dec7bec994773a6673b8bd28295ab574af09bdb3ed0655fd002ccfc18d40db9ff22abd92b79
+
+outputs.4.groupId=org.apache.commons
+outputs.4.filename=commons-release-plugin-1.9.1-test-sources.jar
+outputs.4.length=5897302
+outputs.4.checksums.sha512=00e5850d5421d5e914a54c75450739a367e793074168bda5e3467244688163e6e680b4237c045a2b1c356f5dbaab716ca7746993818696fe75b4052cdb89969a
+
+outputs.5.groupId=org.apache.commons
+outputs.5.filename=commons-release-plugin-1.9.1-cyclonedx.xml
+outputs.5.length=169705
+outputs.5.checksums.sha512=9ddd92d5838adf99b9b7960b09a256e53d6d21b7ecf1d974d5636f0243a24acda6c4428ad14a4279ac2cfec56a71c3c3533c0bc816f15e1d8b31c0481ef28dca
+
+outputs.6.groupId=org.apache.commons
+outputs.6.filename=commons-release-plugin-1.9.1-cyclonedx.json
+outputs.6.length=184442
+outputs.6.checksums.sha512=3bd31e99b53e8d306e74c72ff3dfb75c6c6dd2c49f0205b9c4dcefedd7410d2ab1ff0265b0e49fad07c85f6a2e897ae5b8476d2de458111d7b21c9285ca32046
+# ignored commons-release-plugin-1.9.1.spdx.json
