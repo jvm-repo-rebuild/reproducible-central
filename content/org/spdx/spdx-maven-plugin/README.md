@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/spdx/spdx-maven-plugin.git](https://github.com/spdx/spdx-maven-plugin.git)
 
-rebuilding **11 releases** of org.spdx:spdx-maven-plugin:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **12 releases** of org.spdx:spdx-maven-plugin:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.0.3](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/1.0.3/pom) | | | |
+| [1.0.3](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/1.0.3/pom) | [mvn jdk17 w](spdx-maven-plugin-1.0.3.buildspec) | [result](spdx-maven-plugin-1.0.3.buildinfo): [3 :white_check_mark: ](spdx-maven-plugin-1.0.3.buildcompare) | | 310K |
 | [1.0.2](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/1.0.2/pom) | [mvn jdk17 w](spdx-maven-plugin-1.0.2.buildspec) | [result](spdx-maven-plugin-1.0.2.buildinfo): [3 :white_check_mark: ](spdx-maven-plugin-1.0.2.buildcompare) | | 309K |
 | [1.0.1](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/1.0.1/pom) | [mvn jdk17 w](spdx-maven-plugin-1.0.1.buildspec) | [result](spdx-maven-plugin-1.0.1.buildinfo): [3 :white_check_mark: ](spdx-maven-plugin-1.0.1.buildcompare) | | 309K |
 | [1.0.0](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/1.0.0/pom) | [mvn jdk17 w](spdx-maven-plugin-1.0.0.buildspec) | [result](spdx-maven-plugin-1.0.0.buildinfo): [3 :white_check_mark: ](spdx-maven-plugin-1.0.0.buildcompare) | | 309K |
