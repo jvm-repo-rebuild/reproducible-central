@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/cuioss/cui-java-tools.git](https://github.com/cuioss/cui-java-tools.git)
 
-rebuilding **4 releases** of de.cuioss:cui-java-tools:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **5 releases** of de.cuioss:cui-java-tools:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.5.1](https://central.sonatype.com/artifact/de.cuioss/cui-java-tools/2.5.1/pom) | | | |
+| [2.5.1](https://central.sonatype.com/artifact/de.cuioss/cui-java-tools/2.5.1/pom) | [mvn jdk21](cui-java-tools-2.5.1.buildspec) | [result](cui-java-tools-2.5.1.buildinfo): [3 :white_check_mark: ](cui-java-tools-2.5.1.buildcompare) | | 438K |
 | [2.5.0](https://central.sonatype.com/artifact/de.cuioss/cui-java-tools/2.5.0/pom) | [mvn jdk21](cui-java-tools-2.5.0.buildspec) | [result](cui-java-tools-2.5.0.buildinfo): [3 :white_check_mark: ](cui-java-tools-2.5.0.buildcompare) | | 432K |
 | [2.4.0](https://central.sonatype.com/artifact/de.cuioss/cui-java-tools/2.4.0/pom) | [mvn jdk21](cui-java-tools-2.4.0.buildspec) | [result](cui-java-tools-2.4.0.buildinfo): [3 :white_check_mark: ](cui-java-tools-2.4.0.buildcompare) | | 418K |
 | [2.3.1](https://central.sonatype.com/artifact/de.cuioss/cui-java-tools/2.3.1/pom) | [mvn jdk17](cui-java-tools-2.3.1.buildspec) | [result](cui-java-tools-2.3.1.buildinfo): [3 :white_check_mark: ](cui-java-tools-2.3.1.buildcompare) | | 417K |
