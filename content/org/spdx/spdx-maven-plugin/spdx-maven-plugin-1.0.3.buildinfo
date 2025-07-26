@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=spdx-maven-plugin Maven Plugin
+group-id=org.spdx
+artifact-id=spdx-maven-plugin
+version=1.0.3
+
+# source information
+source.scm.uri=scm:git:git@github.com:spdx/spdx-maven-plugin.git
+source.scm.tag=v1.0.3
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.11
+java.vendor=Azul Systems, Inc.
+os.name=Mac OS X
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.spdx
+outputs.0.filename=spdx-maven-plugin-1.0.3.pom
+outputs.0.length=13953
+outputs.0.checksums.sha512=408e20829f508f7c7146de1da0aa3667a62dbf3e9011a418fe31e35efe7ee22c0320e217603ffaba00b60a54a348cae43d503077ce645a6ce70c8366113e5793
+
+outputs.1.groupId=org.spdx
+outputs.1.filename=spdx-maven-plugin-1.0.3.jar
+outputs.1.length=180311
+outputs.1.checksums.sha512=58550ea95c17a3920fc1ee680b5ab33300238c456f3ffecf636c3063cbd1f7058f6cd9f762c3cbd9faaf0d3d9361cd80ca89b41029b3d363cbbf3300920151f3
+
+outputs.2.groupId=org.spdx
+outputs.2.filename=spdx-maven-plugin-1.0.3-sources.jar
+outputs.2.length=122188
+outputs.2.checksums.sha512=3e7f33ecd10d0c88a4ec9562813fe8cd76485df47fe30a17e5fc7bb7c72fd3ab9a17cc25a4d3cfae20d475195fad97360b9e73a02b149e2805ec81917ba206e2
