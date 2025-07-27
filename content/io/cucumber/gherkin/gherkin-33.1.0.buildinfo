@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Gherkin
+group-id=io.cucumber
+artifact-id=gherkin
+version=33.1.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/gherkin.git
+source.scm.tag=v33.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.23
+java.vendor=Azul Systems, Inc.
+os.name=Mac OS X
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=gherkin-33.1.0.pom
+outputs.0.length=7525
+outputs.0.checksums.sha512=a7fe10af0d921622b31e9c2c0b2ed9775130a49e1c9d95f5e43a4fd23966f0214c93e47588121ee91d690a772f72ffe0ae0b122c4d9a839e13d1f8ac98270c68
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=gherkin-33.1.0.jar
+outputs.1.length=98216
+outputs.1.checksums.sha512=5b145481f820223bcf398d2db3eb366a3102d65746d978c028818023498e6d547396b92934504b0f6920e018d8aafe3071110dcb6948c25558a988d0dfd90ed8
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=gherkin-33.1.0-sources.jar
+outputs.2.length=44223
+outputs.2.checksums.sha512=a92b090f4bee240610c908309749e18ef33f9fca5d568d0027695e6161844a474ab3aa148f3dec88da810677071dad08188a090dde369af04ab59dd25d0fdbf6
