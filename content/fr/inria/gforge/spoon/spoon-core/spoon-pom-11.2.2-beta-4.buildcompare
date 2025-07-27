@@ -1,0 +1,9 @@
+version=11.2.2-beta-4
+ok=8
+ko=0
+ignored=2
+okFiles="spoon-core-11.2.2-beta-4.pom spoon-core-11.2.2-beta-4.jar spoon-core-11.2.2-beta-4-jar-with-dependencies.jar spoon-core-11.2.2-beta-4-sources.jar spoon-javadoc-11.2.2-beta-4.pom spoon-javadoc-11.2.2-beta-4.jar spoon-javadoc-11.2.2-beta-4-sources.jar spoon-pom-11.2.2-beta-4.pom"
+koFiles=""
+ignoredFiles="spoon-pom-11.2.2-beta-4-cyclonedx.xml spoon-pom-11.2.2-beta-4-cyclonedx.json"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
