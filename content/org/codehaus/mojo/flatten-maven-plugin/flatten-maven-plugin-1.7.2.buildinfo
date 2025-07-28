@@ -1,0 +1,45 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Flatten Plugin
+group-id=org.codehaus.mojo
+artifact-id=flatten-maven-plugin
+version=1.7.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/flatten-maven-plugin.git
+source.scm.tag=1.7.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.1
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=flatten-maven-plugin-1.7.2.pom
+outputs.0.length=9800
+outputs.0.checksums.sha512=f40ce4a0448ae9d88cd65cb3fc949890324eff364a945c9e10c689ef5c71586c371a06b26616ac1ac088e27aaeadbb5d1d745d4ddae37a852418b3324ad87781
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=flatten-maven-plugin-1.7.2.jar
+outputs.1.length=130531
+outputs.1.checksums.sha512=2142925a7a67c316e9ccfd95d103103133d305de426fe1c1a421fe695c41f5e044acfa21a8fbaffb3c948af1f93a0176c59f37a53920ee8e6610f366ad595246
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=flatten-maven-plugin-1.7.2-source-release.zip
+outputs.2.length=328716
+outputs.2.checksums.sha512=b1b1fd7bcabd4f14f4ff31fa5dafc3a5164aef374ebc8507f17e6aeee855de24110bb18550e939fd4a354d54d4a07048bc967dc846d3ce2c0043bec3ab49d769
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=flatten-maven-plugin-1.7.2-sources.jar
+outputs.3.length=62272
+outputs.3.checksums.sha512=574159474cac9e26787035927b87d1ba661bebb65940256cc8992baf43ffaf5b2483340c2e9c8e100024241be91b8e1e1ce53741cab132c0e76950ed73a4bf0a
