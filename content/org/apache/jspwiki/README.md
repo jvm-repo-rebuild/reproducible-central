@@ -52,6 +52,7 @@ rebuilding **9 releases** of org.apache.jspwiki:jspwiki-builder:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.12.3](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.12.3/pom) | | | |
 | [2.12.2](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.12.2/pom) | [mvn jdk17 w](jspwiki-2.12.2.buildspec) | [result](jspwiki-builder-2.12.2.buildinfo): [132 :white_check_mark:  24 :warning:](jspwiki-builder-2.12.2.buildcompare) [:mag:](jspwiki-builder-2.12.2.diffoscope) [:memo:](https://issues.apache.org/jira/browse/JSPWIKI-1202) | - | 318M |
 | [2.12.1](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.12.1/pom) | [mvn jdk17 w](jspwiki-2.12.1.buildspec) | [result](jspwiki-builder-2.12.1.buildinfo): [102 :white_check_mark:  8 :warning:](jspwiki-builder-2.12.1.buildcompare) [:mag:](jspwiki-builder-2.12.1.diffoscope) [:memo:](https://issues.apache.org/jira/browse/JSPWIKI-1202) | - | 307M |
 | [2.12.0](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/2.12.0/pom) | [mvn jdk17 w](jspwiki-2.12.0.buildspec) | :x: | |

@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.metricshub:jawk:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.0.00](https://central.sonatype.com/artifact/org.metricshub/jawk/4.0.00/pom) | | | |
 | [3.3.05](https://central.sonatype.com/artifact/org.metricshub/jawk/3.3.05/pom) | [mvn jdk17](jawk-3.3.05.buildspec) | [result](jawk-3.3.05.buildinfo): [4 :white_check_mark: ](jawk-3.3.05.buildcompare) | | 721K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

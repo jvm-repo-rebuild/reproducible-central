@@ -1,7 +1,7 @@
-content/com/github/hazendaz/git/github-desktop/github-desktop-3.5.1.buildspec:3.5.2
-content/com/spotify/github-client/github-client-0.4.9.buildspec:0.4.11
-content/io/airlift/airbase/airbase-281.buildspec:282
-content/io/avaje/prisms/avaje-prisms-1.42.buildspec:1.43
-content/io/cucumber/cucumber-jvm/cucumber-jvm-7.26.0.buildspec:7.27.0
-content/io/wcm/io.wcm.handler/link/io.wcm.handler.link-2.2.6.buildspec:2.2.8
-content/org/codehaus/mojo/flatten-maven-plugin/flatten-maven-plugin-1.7.1.buildspec:1.7.2
+content/io/jooby/jooby-4.0.2.buildspec:4.0.3
+content/io/avaje/inject/avaje-inject-12.0-RC1.buildspec:12.0-RC2
+content/nl/basjes/modbus/modbus-schema-parent/modbus-schema-parent-0.12.0.buildspec:0.13.0
+content/nl/basjes/modbus/devices/modbus-devices-parent/modbus-devices-parent-0.6.0.buildspec:0.6.1
+content/nl/basjes/sunspec/sunspec-device-parent/sunspec-device-parent-0.7.1.buildspec:0.7.2
+content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.0.0.Final.buildspec:8.1.0.Alpha1
+content/org/metricshub/jawk/jawk-3.3.05.buildspec:4.0.00
