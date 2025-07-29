@@ -59,8 +59,8 @@ outputs.3.coordinates=io.jooby:jooby-bom
 
 outputs.3.0.groupId=io.jooby
 outputs.3.0.filename=jooby-bom-4.0.1.pom
-outputs.3.0.length=10914
-outputs.3.0.checksums.sha512=52f4af68ab2be59295b2c7f60bc2cec65ad2d9720a4628e74fd66b73bec13f0a23111054a8ab151bc7a24f8669b5af82f3361ecb67d6d6c3e42de512dd7db84f
+outputs.3.0.length=10745
+outputs.3.0.checksums.sha512=091f24c5cf29bf2dc0de03a9f6b53f827165f5146501e46f50ff00caabc03116b11cdcc5035362fe6759499ba2ac6cd5fcf90712d681fbf06999883b1310189c
 
 outputs.4.coordinates=io.jooby:jooby-kotlin
 
