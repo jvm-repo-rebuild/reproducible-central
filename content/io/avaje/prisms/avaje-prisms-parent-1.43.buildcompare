@@ -1,0 +1,8 @@
+version=1.43
+ok=7
+ko=0
+ignored=0
+okFiles="avaje-prisms-parent-1.43.pom avaje-prism-core-1.43.pom avaje-prism-core-1.43.jar avaje-prism-core-1.43-sources.jar avaje-prisms-1.43.pom avaje-prisms-1.43.jar avaje-prisms-1.43-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="24 (from MANIFEST.MF Build-Jdk-Spec)"
