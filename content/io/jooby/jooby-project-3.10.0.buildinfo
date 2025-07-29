@@ -59,8 +59,8 @@ outputs.3.coordinates=io.jooby:jooby-bom
 
 outputs.3.0.groupId=io.jooby
 outputs.3.0.filename=jooby-bom-3.10.0.pom
-outputs.3.0.length=10916
-outputs.3.0.checksums.sha512=7bd3ba7597225af5f6c27b934118a5f6c01d631e0abde6f3277bb27f9d81d321fde7df2019f4a25353bb58849bedde41d604793eeee7c5244ff7290109185d5c
+outputs.3.0.length=10747
+outputs.3.0.checksums.sha512=a0632bb890ee58f9898d988520398c782e903900785319b6ed41fade8b264135e9b751f951be751895436ed2ac41edcff6043e36fd727a3c67f68dc61b0dc489
 
 outputs.4.coordinates=io.jooby:jooby-kotlin
 
@@ -491,8 +491,8 @@ outputs.29.0.checksums.sha512=6856656732f2dee90b00124599feeef54ff9cef512ea493305
 
 outputs.29.1.groupId=io.jooby
 outputs.29.1.filename=jooby-graphiql-3.10.0.jar
-outputs.29.1.length=7409
-outputs.29.1.checksums.sha512=b996eb88af1378cd9a7e41188e607bc84af403d463e96dbf974354c4bbb81b02562571ae748574641fef468e6393848e0d173a55407b50a952c49ec0883718b3
+outputs.29.1.length=7330
+outputs.29.1.checksums.sha512=f941a2541ad71b8e3f8b7d55aed6b022f252d92fe40358eba6c19bfd736f3746f5a799d88c40a71a9002499cae9b4837860c417ec3c090dc029accffe477fe3c
 
 outputs.29.2.groupId=io.jooby
 outputs.29.2.filename=jooby-graphiql-3.10.0-sources.jar
