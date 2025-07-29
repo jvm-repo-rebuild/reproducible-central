@@ -1,0 +1,18 @@
+groupId=org.apache.jspwiki
+artifactId=jspwiki-builder
+display=${groupId}:${artifactId}
+version=2.12.3
+
+gitRepo=https://github.com/apache/jspwiki.git
+gitTag=${version}
+
+tool=mvn-3.9.8
+jdk=17
+newline=crlf # need to checkout as Windows, but build as *nix: mvn, not mvncrlf
+umask=022
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.ignore='*/jspwiki-main-*-tests.jar'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=https://issues.apache.org/jira/browse/JSPWIKI-1202
