@@ -14,7 +14,7 @@ source.scm.tag=2.12.3-RC2
 build-tool=mvn
 
 # effective build environment information
-java.version=17.0.13
+java.version=17.0.15
 java.vendor=Ubuntu
 os.name=Linux
 
@@ -50,8 +50,8 @@ outputs.1.0.checksums.sha512=69db4684cb746f45f88f25fc32427e5b785da1809f998e765a8
 
 outputs.1.1.groupId=org.apache.jspwiki
 outputs.1.1.filename=jspwiki-util-2.12.3.jar
-outputs.1.1.length=76999
-outputs.1.1.checksums.sha512=a5f90af84939ce198cd5750fa04daa93c5ba9345141b14bc582da615715d69013d780e82c831f7ba14f03916c8d3bd4903db76aac53b920aa3b430fb5900e85d
+outputs.1.1.length=77011
+outputs.1.1.checksums.sha512=c724dbd1c69454f987963e67a7c39fbef9c987d42030f2152ec11dd5395ee95567f7bd9a3bf520a9d9f7109862809f30f17db44f34ac87040388647a846a9e41
 
 outputs.1.2.groupId=org.apache.jspwiki
 outputs.1.2.filename=jspwiki-util-2.12.3-sources.jar
@@ -105,7 +105,7 @@ outputs.3.2.checksums.sha512=4b3cd97303f457f3b406628e1b8b190526d8821f559840f91dc
 outputs.3.3.groupId=org.apache.jspwiki
 outputs.3.3.filename=jspwiki-api-2.12.3-cyclonedx.xml
 outputs.3.3.length=42262
-outputs.3.3.checksums.sha512=1feba0611b500f478661c8f60203ee9c527a2d03c79e6284f4bced793a36e994a515fad01d42249c67b199c0f969540a7a08e0f3bf68ad185b08f1bc8c8e135b
+outputs.3.3.checksums.sha512=f058421dad8ffbc396ca458b301d7c439bc6a54e8c9e2485dca93ce8cda81ad0c793599dee14c4857ce1caf5536a900d10906a10facf267d3b505244e777bbcc
 
 outputs.4.coordinates=org.apache.jspwiki:jspwiki-cache
 
@@ -127,7 +127,7 @@ outputs.4.2.checksums.sha512=92a449ab325739508c6641a425e798540d96a0a4fb38d0f047c
 outputs.4.3.groupId=org.apache.jspwiki
 outputs.4.3.filename=jspwiki-cache-2.12.3-cyclonedx.xml
 outputs.4.3.length=48000
-outputs.4.3.checksums.sha512=11332a916ff01abb50f8ca686a5a90d506ad51b096fb8914075be1bcee5bc3f489345a84d042e7c578dbb53aacace7705337ffa955a07bbc58801cf2793b638b
+outputs.4.3.checksums.sha512=3bc4b48f0456ef8a06e8acf21dee3a97c2253f60a9f7a6000b83546480105d3ce522a6ad4bef4ebf481bab0c80e6f38ab0181bbb35a7ea578ab152af7e85710e
 
 outputs.5.coordinates=org.apache.jspwiki:jspwiki-http
 
@@ -149,7 +149,7 @@ outputs.5.2.checksums.sha512=96bbbe28e882fa0ba8411c912744191cb5e81695697424aa277
 outputs.5.3.groupId=org.apache.jspwiki
 outputs.5.3.filename=jspwiki-http-2.12.3-cyclonedx.xml
 outputs.5.3.length=42773
-outputs.5.3.checksums.sha512=f0b5bb95e9be694f546296ce31195301e956ca58fda92810e13205a49258a64dfafe230d7d2f4264049a2f33638242acd05d9a06e3a8b8618345490af330f1d3
+outputs.5.3.checksums.sha512=0c254c7c819a70be9f8f5a3055e4642e1c3742ae8745e8ad7f2d8cd9f50262709b4d583b0c0b97e42587862b3ae44bc10e6c02230e3d7baf6cfbf9b8c9d45003
 
 outputs.6.coordinates=org.apache.jspwiki:jspwiki-wysiwyg
 
@@ -160,8 +160,8 @@ outputs.6.0.checksums.sha512=44a13420fe6f35e50c44bca95d278ad80a94e921e439757de94
 
 outputs.6.1.groupId=org.apache.jspwiki
 outputs.6.1.filename=jspwiki-wysiwyg-2.12.3.jar
-outputs.6.1.length=92328
-outputs.6.1.checksums.sha512=811a6e2b248b9529bbffbd65218e494ba32cf13f12d57122775fce8a3f46252e55104fd779112f7ec32535ef98d5fa7ae1b2d4e214313a1ac28194fa81005283
+outputs.6.1.length=92392
+outputs.6.1.checksums.sha512=3ed51ece394ea87b926f1cc65b2a0343db4c08068888ffbdf4bd7979e418c62723d771a4babf7f4cf29c6debd37a7f2150ea12fb418b68fc86114ed8e84311d7
 
 outputs.6.2.groupId=org.apache.jspwiki
 outputs.6.2.filename=jspwiki-wysiwyg-2.12.3-sources.jar
@@ -171,7 +171,7 @@ outputs.6.2.checksums.sha512=bf0083f289ac7f7c6413df289a84da34c3703895a3c0af37d54
 outputs.6.3.groupId=org.apache.jspwiki
 outputs.6.3.filename=jspwiki-wysiwyg-2.12.3-cyclonedx.xml
 outputs.6.3.length=45161
-outputs.6.3.checksums.sha512=f398547ad61f6d105236e72058771045fc3b2315827038235182618773078e0021a23de3fcc74a31b21e61e9e28926589984ea081b5cdc1c5d9658b728bcf0ef
+outputs.6.3.checksums.sha512=c2db2dede4d7a352f9ee34e955db365085bbebd8cb4ef9122f55020b90ae573532ee84ff319531235b4a7e084d085ec95cef5671ed8c1e043bbe82b987291597
 
 outputs.7.coordinates=org.apache.jspwiki:jspwiki-main
 
@@ -182,8 +182,8 @@ outputs.7.0.checksums.sha512=a4c6e366cff3af9183e8f865682948c9dd1aff628bc7261b36c
 
 outputs.7.1.groupId=org.apache.jspwiki
 outputs.7.1.filename=jspwiki-main-2.12.3.jar
-outputs.7.1.length=1076658
-outputs.7.1.checksums.sha512=bfc8262113ea6b75fcc20660f66f85e346dad7d9f6374238f09da7643a7006cb30a02037c8797ceaa938a5f0855158de7178e6f1ba834f6a69a1a81191a5b9fa
+outputs.7.1.length=1077117
+outputs.7.1.checksums.sha512=0def1e34825c0eea41bbfb9681b488dd8cd2a75c14965ed95453f488bf45b607f618bafb2ea2073b372087419bb86a30abf797f6aa08a484638015836dae3185
 
 outputs.7.2.groupId=org.apache.jspwiki
 outputs.7.2.filename=jspwiki-main-2.12.3-sources.jar
@@ -193,7 +193,7 @@ outputs.7.2.checksums.sha512=942d125a00ba9dd83f4f856690f80b45a47fc09b8f30a3d2e8d
 outputs.7.3.groupId=org.apache.jspwiki
 outputs.7.3.filename=jspwiki-main-2.12.3-cyclonedx.xml
 outputs.7.3.length=121378
-outputs.7.3.checksums.sha512=4ef98670742c2371b7a03e0f08b71ff8daf3c67b8618cd8e9d9566b8ff288c62976350b8902320cdd03365a29164531ca80e3bc422679842f50e820947ca467c
+outputs.7.3.checksums.sha512=424224cdc52ca3334b0ae9def3be6452ee7b3067c41ec0e3244829b1370d0c1108345903ddd76fcd0fd99638f7136d843e4412bf105820613f0f3e07aba70b8d
 # ignored jspwiki-main-2.12.3-tests.jar
 
 outputs.8.coordinates=org.apache.jspwiki:jspwiki-markdown
@@ -205,8 +205,8 @@ outputs.8.0.checksums.sha512=cf19d055b8fe99d8f357b2d2b47b563f6035a24d816920279e3
 
 outputs.8.1.groupId=org.apache.jspwiki
 outputs.8.1.filename=jspwiki-markdown-2.12.3.jar
-outputs.8.1.length=101274
-outputs.8.1.checksums.sha512=8c9188e6ee92cc71d621fab86ac79ade5ea08266c7beed071a4a14cf3541146cb6f93adb124b55ad6d7120eb0be06824a859bfd0bdfdadff9f53d62f4566c496
+outputs.8.1.length=101307
+outputs.8.1.checksums.sha512=2b4d4acaabfb3ed6ef6c5dde28ed95317c4b98018b84570299df5a1ef3cd543b428b64fcabe6123029e3a1a07bf4fbabf2ff68310ead1feecc963c797ac8beeb
 
 outputs.8.2.groupId=org.apache.jspwiki
 outputs.8.2.filename=jspwiki-markdown-2.12.3-sources.jar
@@ -216,7 +216,7 @@ outputs.8.2.checksums.sha512=f7e1177a18de3820d74806170f2fe00d0601ae09b2b99887d6e
 outputs.8.3.groupId=org.apache.jspwiki
 outputs.8.3.filename=jspwiki-markdown-2.12.3-cyclonedx.xml
 outputs.8.3.length=166233
-outputs.8.3.checksums.sha512=d05d834db60a2e91b731a465c0db02dfa15e4b03157a167f13387d12dab8ccdb206349a18881c462202e303a704e610fc0e24cc4328776034e3bd098af942709
+outputs.8.3.checksums.sha512=e942a8cd71cb7779d1dd58e71a6598198008a3c15aa7103aacd592bc44f46e3f463417a13aad140d5e3c90586fdd302f10daec10aa1f48bf384e0bb170f0e0fb
 
 outputs.9.coordinates=org.apache.jspwiki.wikipages:jspwiki-wikipages-builder
 
@@ -228,7 +228,7 @@ outputs.9.0.checksums.sha512=480511285fabab6ee6be3b272ea80698572e2ee5b9ddbd45958
 outputs.9.1.groupId=org.apache.jspwiki.wikipages
 outputs.9.1.filename=jspwiki-wikipages-builder-2.12.3-cyclonedx.xml
 outputs.9.1.length=6422
-outputs.9.1.checksums.sha512=209db71541a05b1dc465a4e7c62773b21410832a54e53c8955cc848a531d13e580168f54fb4f94b2e717fcc4d699b5ab4d9c8061075d1ab40b2e7c282c68801d
+outputs.9.1.checksums.sha512=09a16e427280700de8708da303e3423a6ca4a898de8b9ea3c2fe316b1914538be306c3f2dcb03b800885c017bd7f19b1b0471a355a577f94f0944d56428b7c65
 
 outputs.10.coordinates=org.apache.jspwiki.wikipages:jspwiki-wikipages-de
 
@@ -245,7 +245,7 @@ outputs.10.1.checksums.sha512=d4b98cbb70219e5d9415ad2e3045b5081965c980ca608f6908
 outputs.10.2.groupId=org.apache.jspwiki.wikipages
 outputs.10.2.filename=jspwiki-wikipages-de-2.12.3-cyclonedx.xml
 outputs.10.2.length=6444
-outputs.10.2.checksums.sha512=50e605cda5948f5fd480aabada7069e582991ca69acee8f8623754f42fa42253b73514a9fc0e911d54d504c8a73538dcf7a3b4413f17d55951da4d65670b78f6
+outputs.10.2.checksums.sha512=59a4e6eb3657dddb3db7ec2fd63ce449eeb7a2130f6efddad9e729fb970270d4b4cdec498970118be1667da219cc23d36c34b190d7574902abb2e6dd0fcccd4e
 
 outputs.10.3.groupId=org.apache.jspwiki.wikipages
 outputs.10.3.filename=jspwiki-wikipages-de-2.12.3-jspwiki.zip
@@ -277,7 +277,7 @@ outputs.11.1.checksums.sha512=956dc35313bb7149921bb40d274f594835f7460fbfa04127c7
 outputs.11.2.groupId=org.apache.jspwiki.wikipages
 outputs.11.2.filename=jspwiki-wikipages-en-2.12.3-cyclonedx.xml
 outputs.11.2.length=6444
-outputs.11.2.checksums.sha512=845c684c3ee034cde2d0c9620b91a92c66175ff2deb86b3f0f2104b16ef7c8fda170a9cc3d10dc3884f4700d3c61426e55576cd6e3c1edf726390bd5152a7c05
+outputs.11.2.checksums.sha512=e4846b3fe1095cfe81c64266182b5429088edcf3764cd9292934a17157eac6b1eee6bc7e10b839c9bf05c43bdcd81a42e8ddc700a04b6058658239ed757f4a6e
 
 outputs.11.3.groupId=org.apache.jspwiki.wikipages
 outputs.11.3.filename=jspwiki-wikipages-en-2.12.3-jspwiki.zip
@@ -309,7 +309,7 @@ outputs.12.1.checksums.sha512=a578884ca1b2068b3dae5d4492726bdcd8cada0c92b6cd76c7
 outputs.12.2.groupId=org.apache.jspwiki.wikipages
 outputs.12.2.filename=jspwiki-wikipages-es-2.12.3-cyclonedx.xml
 outputs.12.2.length=6444
-outputs.12.2.checksums.sha512=034ad17d14aabf3a3017f0053a776a41b4f6d7f3cf92f9c18b552e52c0622fef66996a57d60afeb7ec433d833404e6a3e40f6ff48a7ed9c1326e9c627843feb0
+outputs.12.2.checksums.sha512=3cf49181b2502235d692269b685478d95d1ce1203e00ba85ccc348eb4f455f6689797f974e9fa83a83f7926f234ae03f0f16e25fae07b4212e59eeb9a36a7a82
 
 outputs.12.3.groupId=org.apache.jspwiki.wikipages
 outputs.12.3.filename=jspwiki-wikipages-es-2.12.3-jspwiki.zip
@@ -341,7 +341,7 @@ outputs.13.1.checksums.sha512=192966f7a5c310c646cf8cddc49bfe15fa7a71c868b679b310
 outputs.13.2.groupId=org.apache.jspwiki.wikipages
 outputs.13.2.filename=jspwiki-wikipages-fi-2.12.3-cyclonedx.xml
 outputs.13.2.length=6444
-outputs.13.2.checksums.sha512=28191e1652393860c766081665b86a5c030dc57359fc32e123964064283acbbf20d9a04c340353727e26784219a02d68813223a2361092523aff349bba5cbe6c
+outputs.13.2.checksums.sha512=39a6d504ea087b9c5bced6b06921ad102f1a10335ca89b843b40a84ca7f393bc63d95292410f2cbea3f43c1ee19257ce48d98e959f6716075d63af17de63e307
 
 outputs.13.3.groupId=org.apache.jspwiki.wikipages
 outputs.13.3.filename=jspwiki-wikipages-fi-2.12.3-jspwiki.zip
@@ -373,7 +373,7 @@ outputs.14.1.checksums.sha512=d2e7d2e8885f1f10a18aaab2ac03134b77551ee19ed61f3cd0
 outputs.14.2.groupId=org.apache.jspwiki.wikipages
 outputs.14.2.filename=jspwiki-wikipages-fr-2.12.3-cyclonedx.xml
 outputs.14.2.length=6444
-outputs.14.2.checksums.sha512=55b3dfd27545d1c49ec06394fb7f63958613e54d64fd8f09efb1bca0a4aa9e2e15ff3a2382c7452d03d4405890243bdb656b6f23de8b10dc4d1f288e65ccce10
+outputs.14.2.checksums.sha512=a47b941ac5e23bbf87aac0321a40cf233785eb9cc2c6fb649872eadc40761fef53eb562dbce0e4db04fa57e331315cab4c60ccf17b690204a2aef4b67f63c7bb
 
 outputs.14.3.groupId=org.apache.jspwiki.wikipages
 outputs.14.3.filename=jspwiki-wikipages-fr-2.12.3-jspwiki.zip
@@ -405,7 +405,7 @@ outputs.15.1.checksums.sha512=8aab36e9158b9cb10838d8ce1b33b3c666b58c400b49505c5a
 outputs.15.2.groupId=org.apache.jspwiki.wikipages
 outputs.15.2.filename=jspwiki-wikipages-it-2.12.3-cyclonedx.xml
 outputs.15.2.length=6444
-outputs.15.2.checksums.sha512=e969c8ffd725ea6b18538d51ddb3f05bfe127e92a43ae54cb6750878183f04f71ab156825ee279850f0ac3578402456be7b73df9e9e7a4d43f3853663e3f7e8d
+outputs.15.2.checksums.sha512=7dba0ce068f2c0c1d03aa00b6f7b6896fbb9523b8e62c2f2b050bcd30262c52d554e1b342a0253b1c0cf1b37bf43990ee80f2fe8b49657d157c6791ca01f4cb5
 
 outputs.15.3.groupId=org.apache.jspwiki.wikipages
 outputs.15.3.filename=jspwiki-wikipages-it-2.12.3-jspwiki.zip
@@ -437,7 +437,7 @@ outputs.16.1.checksums.sha512=110cb67a5a17d2ddae81deb6ecb915e3181630aa837172ff14
 outputs.16.2.groupId=org.apache.jspwiki.wikipages
 outputs.16.2.filename=jspwiki-wikipages-nl-2.12.3-cyclonedx.xml
 outputs.16.2.length=6444
-outputs.16.2.checksums.sha512=6d94dca4a805c06c90bf07ee4a5dd0ff4c218760c70d47371e00c03e218b41dc9dd582f1c33078010f964e3c696097fe57986cd45855f52999b1049fc22ea02b
+outputs.16.2.checksums.sha512=e81104d974398517ca3b3456a0e8865cbd304e0923b86fcd9de779c66386d76f684496276b989f37f5547ed807cf053e673b056b14a00b538537769a2e16ecb8
 
 outputs.16.3.groupId=org.apache.jspwiki.wikipages
 outputs.16.3.filename=jspwiki-wikipages-nl-2.12.3-jspwiki.zip
@@ -469,7 +469,7 @@ outputs.17.1.checksums.sha512=5a09e0fc61e27a86e7110ad0af3cb4e328c8219d19fbd65441
 outputs.17.2.groupId=org.apache.jspwiki.wikipages
 outputs.17.2.filename=jspwiki-wikipages-pt_BR-2.12.3-cyclonedx.xml
 outputs.17.2.length=6462
-outputs.17.2.checksums.sha512=631a99efa86bb7d0b3c9f8c97b2794d4b82a461144017aca981f4c22ca1df6e983288c0b96ea4599663b72cd7f5f46511a9f3b084464452b6ff2fc8415682cc1
+outputs.17.2.checksums.sha512=e51917693b1092042bb8a4550b726dc60f143fe3b0545bc427ec8a453937692da36f5be892d4b82ba2b3649d39e2381e894baed34dce7c025451f246b18d3af6
 
 outputs.17.3.groupId=org.apache.jspwiki.wikipages
 outputs.17.3.filename=jspwiki-wikipages-pt_BR-2.12.3-jspwiki.zip
@@ -501,7 +501,7 @@ outputs.18.1.checksums.sha512=c4fa3305fb57409b1d7ec3f958781a21aecc70cb4d53ad78c7
 outputs.18.2.groupId=org.apache.jspwiki.wikipages
 outputs.18.2.filename=jspwiki-wikipages-ru-2.12.3-cyclonedx.xml
 outputs.18.2.length=6444
-outputs.18.2.checksums.sha512=aa16ca6ecb88d08173ceb6305192a52a17555ab86c3873688a734e3c049e9f22dc3b019598d1edcda504f842a7ea4e07ebffc60e4ffcf9b4ff2c457cccc7fb9c
+outputs.18.2.checksums.sha512=80f711f72ef802cc81e3636f37399a58048aee7c6b6717dc98f637384a323203aafa5d9414a9cefd29d291f932bb5fcdf072614240969b7c4a7ad412b9846688
 
 outputs.18.3.groupId=org.apache.jspwiki.wikipages
 outputs.18.3.filename=jspwiki-wikipages-ru-2.12.3-jspwiki.zip
@@ -533,7 +533,7 @@ outputs.19.1.checksums.sha512=46bb1f410bc88b1c430089bc8ba96f04c18502f0ee3370678d
 outputs.19.2.groupId=org.apache.jspwiki.wikipages
 outputs.19.2.filename=jspwiki-wikipages-zh_CN-2.12.3-cyclonedx.xml
 outputs.19.2.length=6462
-outputs.19.2.checksums.sha512=d7cab6b82517a6a0e59e1c4d5c35ad2c4262d267f6287c3d12009fca4b05083ef224998577e4654f50fe65e0ca584259ab19cb1e9c9dbbd6b1284edeb8c0d3a2
+outputs.19.2.checksums.sha512=7b8bcda186a0fc122271971ed1930c3eb57670255c6ba3efdae8af5f1fbcfdf12185a2b6009b1f7e59114430d7bb1fcaf82851ab981bdafee8afef185f1f7c61
 
 outputs.19.3.groupId=org.apache.jspwiki.wikipages
 outputs.19.3.filename=jspwiki-wikipages-zh_CN-2.12.3-jspwiki.zip
@@ -570,7 +570,7 @@ outputs.20.2.checksums.sha512=0ba138dcc90cc01f63d08f5e2b4526393a6dd1d3e74169ff24
 outputs.20.3.groupId=org.apache.jspwiki
 outputs.20.3.filename=jspwiki-bootstrap-2.12.3-cyclonedx.xml
 outputs.20.3.length=45239
-outputs.20.3.checksums.sha512=467a9ebaafc0bbf79feb50d5763802eb104ef2a9b128bc339ac0ede6e4924dd99fe26bb3efe151eb9f04e9778f18375244dfe88d87f6a742ddf518f0f211c831
+outputs.20.3.checksums.sha512=8f05bcc93d3d6ae352b05d713e7699ee99924df081576fbf8cdf156a49842179f24f54ae0fb687ab16807c400aef93b1573030659413f9aedd5a4d3f09a11a62
 
 outputs.21.coordinates=org.apache.jspwiki:jspwiki-tika-searchprovider
 
@@ -592,7 +592,7 @@ outputs.21.2.checksums.sha512=516dea4ae996d3152263c6a1e40ccc2b4d0f05595b67a2d03b
 outputs.21.3.groupId=org.apache.jspwiki
 outputs.21.3.filename=jspwiki-tika-searchprovider-2.12.3-cyclonedx.xml
 outputs.21.3.length=330370
-outputs.21.3.checksums.sha512=52e7524858395d0ea63721ce3028bca683e8a09df0fb7a5bb4f4bc37d351295ed04202b7d2dca84af0b0f80d89658c8f28e600f782ecb2ee5d3c42c3a96d0a04
+outputs.21.3.checksums.sha512=e6df632840cdd7d435a520b241c05f8155a237b0791c08ef1592adeeea9dca8f82ac536ce2b405617b65d0f03224c11462ad6d51a8a23495eb73fe765bfc296c
 
 outputs.22.coordinates=org.apache.jspwiki:jspwiki-kendra-searchprovider
 
@@ -614,7 +614,7 @@ outputs.22.2.checksums.sha512=141e1cb0c130f5cb4c01dde512e0d81bda28334bdeef1d18ad
 outputs.22.3.groupId=org.apache.jspwiki
 outputs.22.3.filename=jspwiki-kendra-searchprovider-2.12.3-cyclonedx.xml
 outputs.22.3.length=145472
-outputs.22.3.checksums.sha512=ad521a934464a80549e9ef795656d2e2ba2545c9ca032663f3a804fc4745dbfb8e64dfa8bb0b7e5db2c4c6d88091d9e3a07343d47900b72d28413e5ce9c73216
+outputs.22.3.checksums.sha512=6defa274ebaac5c9093b53d463834e1f09f45b6b9a726492cad679115ad8ffcde72b2f741d4901e33a86bd77d00c6fbee52a38ce600f740e6f099384b770db6c
 
 outputs.23.coordinates=org.apache.jspwiki:jspwiki-210-test-adaptees
 
@@ -663,7 +663,7 @@ outputs.24.2.checksums.sha512=27660b6f7bafe548e71461eda68614d2acea8f344eb0e3d0c2
 outputs.24.3.groupId=org.apache.jspwiki
 outputs.24.3.filename=jspwiki-210-adapters-2.12.3-cyclonedx.xml
 outputs.24.3.length=121871
-outputs.24.3.checksums.sha512=902320851bff81d05988a6a7b648dd52f9a35571e97cf027eb1017d7f1dfa31ed9a86ec47c20e54d55eb26ad4d5132da1e4288e503eae75a13c400065dc32c35
+outputs.24.3.checksums.sha512=56cba453af0b18d34cabf282f6f1100a1b6022d452e2cd7f30d6cd703f929dae4f31a119faece7665ef11b7b230869f050de7a4d54d4fb21e6895f9936c508bb
 
 outputs.25.coordinates=org.apache.jspwiki:jspwiki-war
 
@@ -674,8 +674,8 @@ outputs.25.0.checksums.sha512=3b8fd8d0233f2a7f7a9029aed6d3630863e54b4dc700732c6d
 
 outputs.25.1.groupId=org.apache.jspwiki
 outputs.25.1.filename=jspwiki-war-2.12.3.war
-outputs.25.1.length=36762843
-outputs.25.1.checksums.sha512=2122cd18ff5dfa24fb3389807eef9f9f87daab9e80cdf280864b56d3331fd94bcbf00d60a5f10681df7731358a7763adfc50fe73ab390bba136031fd01ee8476
+outputs.25.1.length=36763439
+outputs.25.1.checksums.sha512=9cde2a9002dce1b244a343a08b10f5a68aaf45983a9b93f02a70f63e7041d959f0a652133ad784e5abc49bb5c3ce82ef721b00fe26b105a90cbe61ef34012df9
 
 outputs.25.2.groupId=org.apache.jspwiki
 outputs.25.2.filename=jspwiki-war-2.12.3-sources.jar
@@ -685,7 +685,7 @@ outputs.25.2.checksums.sha512=b7d54febcc6cecead70d58caba095f83981e931bc12009b2ab
 outputs.25.3.groupId=org.apache.jspwiki
 outputs.25.3.filename=jspwiki-war-2.12.3-cyclonedx.xml
 outputs.25.3.length=208357
-outputs.25.3.checksums.sha512=df3ee56c74a3b8fd710ea9dc03cb8b7cb6f2b83122cad7581b8bac1a0a6f38518cf6a05f11696cef4230584232bb88a6d844fcf273d2233bce486a1cf00fa72c
+outputs.25.3.checksums.sha512=57812a21127f0d066973a1d95cda007cf37fea7ad38d4a564df1f2273c4a7b154ad87a7f6acf583ad0f7dc3925ae2744b72a5bdbabbc7adacb3db3d640b054ba
 
 outputs.26.coordinates=org.apache.jspwiki:jspwiki-portable
 
@@ -701,13 +701,13 @@ outputs.26.1.checksums.sha512=6524bd0222731c3dc07d0cd78067ab118851d3848df7d3f46e
 
 outputs.26.2.groupId=org.apache.jspwiki
 outputs.26.2.filename=jspwiki-portable-2.12.3-woas.tar.gz
-outputs.26.2.length=51856810
-outputs.26.2.checksums.sha512=58005f46572a8bba8a1a5a63a52bf4e090191d9313bc1b624ef123973528ea200df91e35b1a5c04e221169ff14daef72fc36a17eda44617a5f0a38139dc6b405
+outputs.26.2.length=51858145
+outputs.26.2.checksums.sha512=078b87e6a78799a578571bdc18c409ff58914b8eb87d7bf64d7110ce2c5f20380e7634d30399c1ea7488e18e8dd9d97f2b432211fe039d80c235aa840d386889
 
 outputs.26.3.groupId=org.apache.jspwiki
 outputs.26.3.filename=jspwiki-portable-2.12.3-woas.zip
-outputs.26.3.length=52387881
-outputs.26.3.checksums.sha512=88a43632ec07aed1cbf647d093b8a7bcb1cd7cfc299b57d51bb46f69ff1a8a882556a0ce1df3fed73ed8cf41011ce9110078c20907684ba340445dffc17c9a57
+outputs.26.3.length=52388477
+outputs.26.3.checksums.sha512=fae3f3a1bffd031c729ed71f42b34eaab2bdfd95f8b1bc3433d374d63ad7880414416b2071cbb4f74e018e3179bced964b4f896cf398ae44330f3bf48f755ab1
 
 outputs.26.4.groupId=org.apache.jspwiki
 outputs.26.4.filename=jspwiki-portable-2.12.3-sources.jar
@@ -717,7 +717,7 @@ outputs.26.4.checksums.sha512=12c72522ded37a8a79995a643161c458a848d1be961291bd5f
 outputs.26.5.groupId=org.apache.jspwiki
 outputs.26.5.filename=jspwiki-portable-2.12.3-cyclonedx.xml
 outputs.26.5.length=15695
-outputs.26.5.checksums.sha512=e5547a46ef9acbce03ebe2038749585f05c65ecd0e49ec77f3bdcfbe365b32702261f2c624441e5b150cf8b002ac8627b455296c8606cb1c71a84a2ede1de9dd
+outputs.26.5.checksums.sha512=c490a9e9e1a872a8483f5ca185183087a07a0bfd8f9d96326ca794dc1aeb7be5c312b35990b9a4fca11c225c8a931e49d731705742d6bd29afc4acf58c7fb59c
 
 outputs.27.coordinates=org.apache.jspwiki.it:jspwiki-it-builder
 
@@ -729,7 +729,7 @@ outputs.27.0.checksums.sha512=b5bec5290762d283f767c0ff254af48e2c1b1dc67ea3f37a77
 outputs.27.1.groupId=org.apache.jspwiki.it
 outputs.27.1.filename=jspwiki-it-builder-2.12.3-cyclonedx.xml
 outputs.27.1.length=8441
-outputs.27.1.checksums.sha512=5a42ab8d3955a2a01daa9a1f79d1a5ac7bc5ba9a0daa6c6cf0be3fe400293168bce4e6163cdfb5beb4328d76f7f9566817675822e5a6f5bea07ecc80154a97f7
+outputs.27.1.checksums.sha512=cacd37ef980dab4850d731af87d05ea483216b6979541bd1d4f4e571b21123ee718554f78dcd6ef328816da22fd328b5e62f38e8193d69dfe77b07bc3478f195
 
 outputs.28.coordinates=org.apache.jspwiki.it:jspwiki-selenide-tests
 
@@ -751,7 +751,7 @@ outputs.28.2.checksums.sha512=c4d92ba7b2c80ee4c59ddea3beffd304aebfe64b9cd4911ec8
 outputs.28.3.groupId=org.apache.jspwiki.it
 outputs.28.3.filename=jspwiki-selenide-tests-2.12.3-cyclonedx.xml
 outputs.28.3.length=294687
-outputs.28.3.checksums.sha512=636f0bdf7bb138653672dba2e59c08c69ccb2e71ea7e0c09d530ff11a631dcad6d7c9716d0c8d99241ee0b74b690cb62f4def81d6f56e01a8fffe931e0118c93
+outputs.28.3.checksums.sha512=f4d222c6a9e5f7138318fb38832d7814f5c0712bae150caa442d2b8b768e57e820e27b7ef5a81ec9bdeaf5d7ea6732e4e538535eed0573f1c37ec29999a8fdba
 
 outputs.29.coordinates=org.apache.jspwiki.it:jspwiki-it-test-custom
 
@@ -762,8 +762,8 @@ outputs.29.0.checksums.sha512=2e51ee15d5279790b2b5b660e30aeb2e41e484849dd6d194c6
 
 outputs.29.1.groupId=org.apache.jspwiki.it
 outputs.29.1.filename=jspwiki-it-test-custom-2.12.3.war
-outputs.29.1.length=36760974
-outputs.29.1.checksums.sha512=69ccac4e047ab85fb27f3665d937c8a536796ff2a5dece0f1845eed347ef4b9741f763023051626bfd94e039ca67983b17b45b90ca1f5114ed9f6b7f97f493c3
+outputs.29.1.length=36761570
+outputs.29.1.checksums.sha512=1342f58a8f5f398b68ef711aa3892959143e527716ef5391edcd4efa678984e3ec6ae70e3a5b8ae1e8c15043bb3ee74ab12a356d09b66a88b6a1065b57e01f25
 
 outputs.29.2.groupId=org.apache.jspwiki.it
 outputs.29.2.filename=jspwiki-it-test-custom-2.12.3-sources.jar
@@ -773,7 +773,7 @@ outputs.29.2.checksums.sha512=464e9268bd3117fc11d83204e54fe7676b259065c17f10c93a
 outputs.29.3.groupId=org.apache.jspwiki.it
 outputs.29.3.filename=jspwiki-it-test-custom-2.12.3-cyclonedx.xml
 outputs.29.3.length=8549
-outputs.29.3.checksums.sha512=af51155c424fc004b7e10aa073a48e2b9dbb88841fbf2095cf37e56f2c52b48cd001a2eb7b8af0c5624b47391425eff30c7a22b8c2468d4b18dcf2e20cd63264
+outputs.29.3.checksums.sha512=05eef540b1e132d00e43c934383ce845dfaa052b8aa40c4add753395e06c93757da6ef3d66a7047d410f041aade7758f83fd406b4ca1c9cd4be59f0840ee54ca
 
 outputs.30.coordinates=org.apache.jspwiki.it:jspwiki-it-test-custom-absolute-urls
 
@@ -784,8 +784,8 @@ outputs.30.0.checksums.sha512=e03ce2a09b9fe6aa369b0bb3f2359bf607a4cf233c3311fca1
 
 outputs.30.1.groupId=org.apache.jspwiki.it
 outputs.30.1.filename=jspwiki-it-test-custom-absolute-urls-2.12.3.war
-outputs.30.1.length=36761080
-outputs.30.1.checksums.sha512=19d53f895a0b9a70981a77021b7fca9bbe4f48e1d9672bbdde1ab34c82928d487162329547407dc47477929e3359ecfcf8e2de040d7abea697ae917d48116a7a
+outputs.30.1.length=36761676
+outputs.30.1.checksums.sha512=a08a4d22dc56835a52b6c975499c459ce887539430ac476ab866d832796cd5d9dc5be2027127eb1f72f4b4a282c5ef4125c7b4b3e6a30087f9dbad5db971df46
 
 outputs.30.2.groupId=org.apache.jspwiki.it
 outputs.30.2.filename=jspwiki-it-test-custom-absolute-urls-2.12.3-sources.jar
@@ -795,7 +795,7 @@ outputs.30.2.checksums.sha512=31e8851b74587030a8d9a9cd4f66e254219711a8ab94db397e
 outputs.30.3.groupId=org.apache.jspwiki.it
 outputs.30.3.filename=jspwiki-it-test-custom-absolute-urls-2.12.3-cyclonedx.xml
 outputs.30.3.length=8647
-outputs.30.3.checksums.sha512=0b5bb584d7332e3f1993b067a60c8848dfdd9f932ea790b4e2bacf5231bf4d10b724a4ce244b16da7971c17a08573605683e52e3542f488f60ae4a6466c04004
+outputs.30.3.checksums.sha512=a3b3920d5a9c2936d806e5a00a30df3fca9c9353b0bd5ddf942aa1f3df2e76b171791d91ef1c9a8f0ba95c8ac6a73dc274128edfc83b8ed0c453f61ecc82007c
 
 outputs.31.coordinates=org.apache.jspwiki.it:jspwiki-it-test-custom-jdbc
 
@@ -806,8 +806,8 @@ outputs.31.0.checksums.sha512=3d82553e30c6bc8f02fa2f53052408058b8069fdaefa8a9e5d
 
 outputs.31.1.groupId=org.apache.jspwiki.it
 outputs.31.1.filename=jspwiki-it-test-custom-jdbc-2.12.3.war
-outputs.31.1.length=36761048
-outputs.31.1.checksums.sha512=986ee0b2894673000ad9f4d84d06a91b90825e296ed46c5050376742c73c2390f0685b5a1cdc0296ff49be44a52b011cd1f560857c6d43293711ba585508d233
+outputs.31.1.length=36761644
+outputs.31.1.checksums.sha512=d153000e3d335068b89a41bed0a50b62790c81f0af5beba92be213114a25301ff4769141a67db799dc79133e4cdeff6fd26772d38d9c81350e8c1822ced84909
 
 outputs.31.2.groupId=org.apache.jspwiki.it
 outputs.31.2.filename=jspwiki-it-test-custom-jdbc-2.12.3-sources.jar
@@ -817,7 +817,7 @@ outputs.31.2.checksums.sha512=e2c8d27c360b793e516ad17c3c2af02f83d4c90f4b5bdc51b5
 outputs.31.3.groupId=org.apache.jspwiki.it
 outputs.31.3.filename=jspwiki-it-test-custom-jdbc-2.12.3-cyclonedx.xml
 outputs.31.3.length=8579
-outputs.31.3.checksums.sha512=0f8d2fc6717ef63ae7ddeae902485b429547199c051d22258451d4a5aba333fcbfc8e806d13017971518bb25294b99c494900b3e5de544e4d8fd39ac8959942a
+outputs.31.3.checksums.sha512=46c326137533221698454098e4b59cac9b454f4e2c38c7ba37f046edd318012f471c743a406041a2b33ccef472a8b458110b0bf97c90d94e9b37818046e559f8
 
 outputs.32.coordinates=org.apache.jspwiki.it:jspwiki-it-test-cma
 
@@ -828,8 +828,8 @@ outputs.32.0.checksums.sha512=e8bdfb61de28acc1f9bf7a79c8a392974eb96791dbba140e00
 
 outputs.32.1.groupId=org.apache.jspwiki.it
 outputs.32.1.filename=jspwiki-it-test-cma-2.12.3.war
-outputs.32.1.length=36761866
-outputs.32.1.checksums.sha512=9b892431d5cef166c32d1fd5b94eaee6229a661db3953ea7646243f4d45b8214ae0b6558cb3b3eea546154cef588bd930951b3040a67ad3b5a1cbbfcf5748ddb
+outputs.32.1.length=36762462
+outputs.32.1.checksums.sha512=22878254a20a30bed046ee8c03667a8ddca95998ce9abe880bad1f42aa705ad429bf8e2531293b783281221a8f48575af02207756f9eadb149995ed69eecba36
 
 outputs.32.2.groupId=org.apache.jspwiki.it
 outputs.32.2.filename=jspwiki-it-test-cma-2.12.3-sources.jar
@@ -839,7 +839,7 @@ outputs.32.2.checksums.sha512=bc28330fb1d249fe193a97e3ce525eb9585f9fab079ff95cba
 outputs.32.3.groupId=org.apache.jspwiki.it
 outputs.32.3.filename=jspwiki-it-test-cma-2.12.3-cyclonedx.xml
 outputs.32.3.length=8537
-outputs.32.3.checksums.sha512=c9f1ff81fbacbe0b563defabbbb5588946f96fe610424c48aeb2fc321bae85489d3b5474492ffa5be128b0c41e914eafa9b090cc686fed62c19b461d6c2c50b0
+outputs.32.3.checksums.sha512=4b844bcb6f70e256241da21acc9f1cc183ac32a44363af3e34b8bb7549a931ddf3db17d40481d438934bd76b2b4cc848c702c955f249ee203f3c9489784d771e
 
 outputs.33.coordinates=org.apache.jspwiki.it:jspwiki-it-test-cma-jdbc
 
@@ -850,8 +850,8 @@ outputs.33.0.checksums.sha512=0ce6862ee271dc581daea23a23b3c29f773cc01a6405979c4d
 
 outputs.33.1.groupId=org.apache.jspwiki.it
 outputs.33.1.filename=jspwiki-it-test-cma-jdbc-2.12.3.war
-outputs.33.1.length=36762386
-outputs.33.1.checksums.sha512=5d967cd0fdca962ed20ebc8fc574d5a910e1b8c6b63cecb3464cbc2b208485d196f9c56bc385bc0a65c855dd09519fd259e134627edfcd50a0cfc82e17cc64ee
+outputs.33.1.length=36762982
+outputs.33.1.checksums.sha512=e14d4defadfeee50ede6dd7088986f054d2539c448426e5de8d493f66f6f29cfcd348ce124b79594d043a80c0279a671cdf6a3aa8eea59809fae69148890cfa1
 
 outputs.33.2.groupId=org.apache.jspwiki.it
 outputs.33.2.filename=jspwiki-it-test-cma-jdbc-2.12.3-sources.jar
@@ -861,7 +861,7 @@ outputs.33.2.checksums.sha512=141b278824a94bc6511a6bb93d645fbfa8f5f7d20d2ecdf867
 outputs.33.3.groupId=org.apache.jspwiki.it
 outputs.33.3.filename=jspwiki-it-test-cma-jdbc-2.12.3-cyclonedx.xml
 outputs.33.3.length=8587
-outputs.33.3.checksums.sha512=b2a834a720362eeafa2f84328c41767849aa21da3f3574f5dc1101b84a32f467f674b5b59b18b6e30e8ec594fcfd1aee5c326c57c53f473e7610be08df09e834
+outputs.33.3.checksums.sha512=05a06f2680364a7bcb2713f1ab669d1ac593b8f2faa60d499660092856731c3b577dcdcb610e68d3cb0316c487dddf66fbcc2a17843782b8061a84175ad8da7f
 
 outputs.34.coordinates=org.apache.jspwiki:jspwiki-bom
 
