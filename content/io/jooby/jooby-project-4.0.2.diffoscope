@@ -1,0 +1,27 @@
+# more dependencies during rebuild than reference? is there a fix in buildspec we should do?
+1 / 1 target/reference/io.jooby/jooby-bom-4.0.2.pom modules/jooby-bom/pom.xml
+--- target/reference/io.jooby/jooby-bom-4.0.2.pom
++++ modules/jooby-bom/pom.xml
+│   --- target/reference/io.jooby/jooby-bom-4.0.2.pom
+├── +++ modules/jooby-bom/pom.xml
+│ @@ -107,14 +107,19 @@
+│        <dependency>
+│          <groupId>io.jooby</groupId>
+│          <artifactId>jooby-graphql</artifactId>
+│          <version>${project.version}</version>
+│        </dependency>
+│        <dependency>
+│          <groupId>io.jooby</groupId>
+│ +        <artifactId>jooby-graphql-playground</artifactId>
+│ +        <version>${project.version}</version>
+│ +      </dependency>
+│ +      <dependency>
+│ +        <groupId>io.jooby</groupId>
+│          <artifactId>jooby-gson</artifactId>
+│          <version>${project.version}</version>
+│        </dependency>
+│        <dependency>
+│          <groupId>io.jooby</groupId>
+│          <artifactId>jooby-guice</artifactId>
+│          <version>${project.version}</version>
+
