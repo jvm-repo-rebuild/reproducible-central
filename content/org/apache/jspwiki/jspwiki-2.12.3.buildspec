@@ -1,0 +1,19 @@
+groupId=org.apache.jspwiki
+artifactId=jspwiki-builder
+display=${groupId}:${artifactId}
+version=2.12.3
+
+gitRepo=https://github.com/apache/jspwiki.git
+gitTag=${version}
+
+tool=mvn-3.9.8
+jdk=17
+newline=crlf
+umask=022
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.ignore='*/jspwiki-main-*-tests.jar'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+execBefore="chmod a-x jspwiki-it-tests/jspwiki-selenide-tests/src/main/java/org/apache/wiki/its/WithIntegrationTestSetup.java jspwiki-main/src/test/java/org/apache/wiki/plugin/DenounceTest.java jspwiki-portable/src/overlay/launchers/tomcat/woas.app/Contents/MacOS/JavaAppLauncher jspwiki-portable/src/overlay/launchers/tomcat/woas.sh jspwiki-portable/src/resources/macos/JavaApplicationStub"
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=

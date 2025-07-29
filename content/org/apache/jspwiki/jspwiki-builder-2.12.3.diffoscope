@@ -1,0 +1,151 @@
+# probably rebuilding really on a Windows machine, that does not have executable flag available in filesystem, would solve the issue
+1 / 2 target/reference/org.apache.jspwiki/jspwiki-portable-2.12.3-woas.tar.gz jspwiki-portable/target/jspwiki-portable-2.12.3-woas.tar.gz
+--- target/reference/org.apache.jspwiki/jspwiki-portable-2.12.3-woas.tar.gz
++++ jspwiki-portable/target/jspwiki-portable-2.12.3-woas.tar.gz
+├── jspwiki-portable-2.12.3-woas.tar
+│ ├── file list
+│ │ @@ -98,38 +98,38 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)     2401 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/NOTICE
+│ │  -rw-r--r--   0 root         (0) root         (0)     3362 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/README.md
+│ │  -rw-r--r--   0 root         (0) root         (0)     7076 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/RELEASE-NOTES
+│ │  -rw-r--r--   0 root         (0) root         (0)    17016 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/RUNNING.txt
+│ │  -rw-r--r--   0 root         (0) root         (0)    35725 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/bootstrap.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)     1703 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/catalina-tasks.xml
+│ │  -rw-r--r--   0 root         (0) root         (0)    17521 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/catalina.bat
+│ │ --rw-r--r--   0 root         (0) root         (0)    25909 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/catalina.sh
+│ │ +-rwxr-xr-x   0 root         (0) root         (0)    25909 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/catalina.sh
+│ │  -rw-r--r--   0 root         (0) root         (0)     2123 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/ciphers.bat
+│ │ --rw-r--r--   0 root         (0) root         (0)     1997 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/ciphers.sh
+│ │ +-rwxr-xr-x   0 root         (0) root         (0)     1997 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/ciphers.sh
+│ │  -rw-r--r--   0 root         (0) root         (0)   215448 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/commons-daemon-native.tar.gz
+│ │  -rw-r--r--   0 root         (0) root         (0)    26670 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/commons-daemon.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)     2040 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/configtest.bat
+│ │ --rw-r--r--   0 root         (0) root         (0)     1922 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/configtest.sh
+│ │ --rw-r--r--   0 root         (0) root         (0)     9100 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/daemon.sh
+│ │ +-rwxr-xr-x   0 root         (0) root         (0)     1922 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/configtest.sh
+│ │ +-rwxr-xr-x   0 root         (0) root         (0)     9100 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/daemon.sh
+│ │  -rw-r--r--   0 root         (0) root         (0)     2091 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/digest.bat
+│ │ --rw-r--r--   0 root         (0) root         (0)     1965 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/digest.sh
+│ │ +-rwxr-xr-x   0 root         (0) root         (0)     1965 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/digest.sh
+│ │  -rw-r--r--   0 root         (0) root         (0)     3606 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/makebase.bat
+│ │ --rw-r--r--   0 root         (0) root         (0)     3382 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/makebase.sh
+│ │ +-rwxr-xr-x   0 root         (0) root         (0)     3382 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/makebase.sh
+│ │  -rw-r--r--   0 root         (0) root         (0)     3814 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/setclasspath.bat
+│ │ --rw-r--r--   0 root         (0) root         (0)     4317 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/setclasspath.sh
+│ │ +-rwxr-xr-x   0 root         (0) root         (0)     4317 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/setclasspath.sh
+│ │  -rw-r--r--   0 root         (0) root         (0)     2020 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/shutdown.bat
+│ │ --rw-r--r--   0 root         (0) root         (0)     1902 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/shutdown.sh
+│ │ +-rwxr-xr-x   0 root         (0) root         (0)     1902 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/shutdown.sh
+│ │  -rw-r--r--   0 root         (0) root         (0)     2022 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/startup.bat
+│ │ --rw-r--r--   0 root         (0) root         (0)     1904 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/startup.sh
+│ │ +-rwxr-xr-x   0 root         (0) root         (0)     1904 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/startup.sh
+│ │  -rw-r--r--   0 root         (0) root         (0)    52628 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/tomcat-juli.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   346588 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/tomcat-native.tar.gz
+│ │  -rw-r--r--   0 root         (0) root         (0)     4576 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/tool-wrapper.bat
+│ │ --rw-r--r--   0 root         (0) root         (0)     5540 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/tool-wrapper.sh
+│ │ +-rwxr-xr-x   0 root         (0) root         (0)     5540 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/tool-wrapper.sh
+│ │  -rw-r--r--   0 root         (0) root         (0)     2026 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/version.bat
+│ │ --rw-r--r--   0 root         (0) root         (0)     1908 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/version.sh
+│ │ +-rwxr-xr-x   0 root         (0) root         (0)     1908 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/bin/version.sh
+│ │  -rw-r--r--   0 root         (0) root         (0)    13216 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/conf/catalina.policy
+│ │  -rw-r--r--   0 root         (0) root         (0)     7656 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/conf/catalina.properties
+│ │  -rw-r--r--   0 root         (0) root         (0)     1431 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/conf/context.xml
+│ │  -rw-r--r--   0 root         (0) root         (0)     1172 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/conf/jaspic-providers.xml
+│ │  -rw-r--r--   0 root         (0) root         (0)     2365 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/conf/jaspic-providers.xsd
+│ │  -rw-r--r--   0 root         (0) root         (0)     4079 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/conf/logging.properties
+│ │  -rw-r--r--   0 root         (0) root         (0)     7728 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/conf/server.xml
+│ │ @@ -1023,16 +1023,16 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)    13388 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/webapps/personal/templates/reader/fonts/FontJspwiki.eot
+│ │  -rw-r--r--   0 root         (0) root         (0)    41621 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/webapps/personal/templates/reader/fonts/FontJspwiki.svg
+│ │  -rw-r--r--   0 root         (0) root         (0)    13224 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/webapps/personal/templates/reader/fonts/FontJspwiki.ttf
+│ │  -rw-r--r--   0 root         (0) root         (0)    13300 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/webapps/personal/templates/reader/fonts/FontJspwiki.woff
+│ │  -rw-r--r--   0 root         (0) root         (0)     1761 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/woas.app/Contents/Info.plist
+│ │  -rw-r--r--   0 root         (0) root         (0)    35725 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/woas.app/Contents/Java/bootstrap.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    52628 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/woas.app/Contents/Java/tomcat-juli.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   101900 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/woas.app/Contents/MacOS/JavaAppLauncher
+│ │ +-rwxr-xr-x   0 root         (0) root         (0)   101900 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/woas.app/Contents/MacOS/JavaAppLauncher
+│ │  -rw-r--r--   0 root         (0) root         (0)        8 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/woas.app/Contents/PkgInfo
+│ │  -rw-r--r--   0 root         (0) root         (0)        2 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/woas.app/Contents/Resources/.none
+│ │  -rw-r--r--   0 root         (0) root         (0)     1032 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/woas.app/Contents/Resources/en.lproj/Localizable.strings
+│ │  -rw-r--r--   0 root         (0) root         (0)    48347 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/woas.app/Contents/Resources/jspwiki.icns
+│ │  -rw-r--r--   0 root         (0) root         (0)     1182 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/woas.bat
+│ │  -rw-r--r--   0 root         (0) root         (0)  3909593 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/woas.exe
+│ │ --rw-r--r--   0 root         (0) root         (0)     1959 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/woas.sh
+│ │ +-rwxr-xr-x   0 root         (0) root         (0)     1959 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/woas.sh
+│ │  -rw-r--r--   0 root         (0) root         (0)     1083 2025-07-25 13:21:03.000000 jspwiki-portable-2.12.3/woas.url
+
+2 / 2 target/reference/org.apache.jspwiki/jspwiki-portable-2.12.3-woas.zip jspwiki-portable/target/jspwiki-portable-2.12.3-woas.zip
+--- target/reference/org.apache.jspwiki/jspwiki-portable-2.12.3-woas.zip
++++ jspwiki-portable/target/jspwiki-portable-2.12.3-woas.zip
+├── zipinfo {}
+│ @@ -99,38 +99,38 @@
+│  -rw-r--r--  2.0 unx     2401 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/NOTICE
+│  -rw-r--r--  2.0 unx     3362 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/README.md
+│  -rw-r--r--  2.0 unx     7076 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/RELEASE-NOTES
+│  -rw-r--r--  2.0 unx    17016 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/RUNNING.txt
+│  -rw-r--r--  2.0 unx    35725 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/bootstrap.jar
+│  -rw-r--r--  2.0 unx     1703 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/catalina-tasks.xml
+│  -rw-r--r--  2.0 unx    17521 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/catalina.bat
+│ --rw-r--r--  2.0 unx    25909 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/catalina.sh
+│ +-rwxr-xr-x  2.0 unx    25909 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/catalina.sh
+│  -rw-r--r--  2.0 unx     2123 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/ciphers.bat
+│ --rw-r--r--  2.0 unx     1997 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/ciphers.sh
+│ +-rwxr-xr-x  2.0 unx     1997 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/ciphers.sh
+│  -rw-r--r--  2.0 unx   215448 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/commons-daemon-native.tar.gz
+│  -rw-r--r--  2.0 unx    26670 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/commons-daemon.jar
+│  -rw-r--r--  2.0 unx     2040 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/configtest.bat
+│ --rw-r--r--  2.0 unx     1922 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/configtest.sh
+│ --rw-r--r--  2.0 unx     9100 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/daemon.sh
+│ +-rwxr-xr-x  2.0 unx     1922 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/configtest.sh
+│ +-rwxr-xr-x  2.0 unx     9100 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/daemon.sh
+│  -rw-r--r--  2.0 unx     2091 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/digest.bat
+│ --rw-r--r--  2.0 unx     1965 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/digest.sh
+│ +-rwxr-xr-x  2.0 unx     1965 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/digest.sh
+│  -rw-r--r--  2.0 unx     3606 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/makebase.bat
+│ --rw-r--r--  2.0 unx     3382 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/makebase.sh
+│ +-rwxr-xr-x  2.0 unx     3382 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/makebase.sh
+│  -rw-r--r--  2.0 unx     3814 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/setclasspath.bat
+│ --rw-r--r--  2.0 unx     4317 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/setclasspath.sh
+│ +-rwxr-xr-x  2.0 unx     4317 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/setclasspath.sh
+│  -rw-r--r--  2.0 unx     2020 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/shutdown.bat
+│ --rw-r--r--  2.0 unx     1902 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/shutdown.sh
+│ +-rwxr-xr-x  2.0 unx     1902 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/shutdown.sh
+│  -rw-r--r--  2.0 unx     2022 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/startup.bat
+│ --rw-r--r--  2.0 unx     1904 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/startup.sh
+│ +-rwxr-xr-x  2.0 unx     1904 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/startup.sh
+│  -rw-r--r--  2.0 unx    52628 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/tomcat-juli.jar
+│  -rw-r--r--  2.0 unx   346588 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/tomcat-native.tar.gz
+│  -rw-r--r--  2.0 unx     4576 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/tool-wrapper.bat
+│ --rw-r--r--  2.0 unx     5540 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/tool-wrapper.sh
+│ +-rwxr-xr-x  2.0 unx     5540 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/tool-wrapper.sh
+│  -rw-r--r--  2.0 unx     2026 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/version.bat
+│ --rw-r--r--  2.0 unx     1908 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/version.sh
+│ +-rwxr-xr-x  2.0 unx     1908 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/bin/version.sh
+│  -rw-r--r--  2.0 unx    13216 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/conf/catalina.policy
+│  -rw-r--r--  2.0 unx     7656 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/conf/catalina.properties
+│  -rw-r--r--  2.0 unx     1431 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/conf/context.xml
+│  -rw-r--r--  2.0 unx     1172 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/conf/jaspic-providers.xml
+│  -rw-r--r--  2.0 unx     2365 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/conf/jaspic-providers.xsd
+│  -rw-r--r--  2.0 unx     4079 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/conf/logging.properties
+│  -rw-r--r--  2.0 unx     7728 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/conf/server.xml
+│ @@ -1024,17 +1024,17 @@
+│  -rw-r--r--  2.0 unx    13388 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/webapps/personal/templates/reader/fonts/FontJspwiki.eot
+│  -rw-r--r--  2.0 unx    41621 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/webapps/personal/templates/reader/fonts/FontJspwiki.svg
+│  -rw-r--r--  2.0 unx    13224 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/webapps/personal/templates/reader/fonts/FontJspwiki.ttf
+│  -rw-r--r--  2.0 unx    13300 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/webapps/personal/templates/reader/fonts/FontJspwiki.woff
+│  -rw-r--r--  2.0 unx     1761 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/woas.app/Contents/Info.plist
+│  -rw-r--r--  2.0 unx    35725 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/woas.app/Contents/Java/bootstrap.jar
+│  -rw-r--r--  2.0 unx    52628 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/woas.app/Contents/Java/tomcat-juli.jar
+│ --rw-r--r--  2.0 unx   101900 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/woas.app/Contents/MacOS/JavaAppLauncher
+│ +-rwxr-xr-x  2.0 unx   101900 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/woas.app/Contents/MacOS/JavaAppLauncher
+│  -rw-r--r--  2.0 unx        8 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/woas.app/Contents/PkgInfo
+│  -rw-r--r--  2.0 unx        2 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/woas.app/Contents/Resources/.none
+│  -rw-r--r--  2.0 unx     1032 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/woas.app/Contents/Resources/en.lproj/Localizable.strings
+│  -rw-r--r--  2.0 unx    48347 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/woas.app/Contents/Resources/jspwiki.icns
+│  -rw-r--r--  2.0 unx     1182 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/woas.bat
+│  -rw-r--r--  2.0 unx  3909593 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/woas.exe
+│ --rw-r--r--  2.0 unx     1959 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/woas.sh
+│ +-rwxr-xr-x  2.0 unx     1959 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/woas.sh
+│  -rw-r--r--  2.0 unx     1083 b- defN 25-Jul-25 13:21 jspwiki-portable-2.12.3/woas.url
+│  1038 files, 60997909 bytes uncompressed, 52166701 bytes compressed:  14.5%
+
