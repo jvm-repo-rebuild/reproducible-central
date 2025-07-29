@@ -18,14 +18,14 @@ Source code: [https://github.com/avaje/avaje-inject.git](https://github.com/avaj
 * [io.avaje:avaje-inject-test](https://central.sonatype.com/artifact/io.avaje/avaje-inject-test/overview)
 </details>
 
-rebuilding **39 releases** of io.avaje:avaje-inject-parent:
-- **33** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **40 releases** of io.avaje:avaje-inject-parent:
+- **34** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [12.0-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.0-RC2/pom) | | | |
+| [12.0-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.0-RC2/pom) | [mvn jdk21](avaje-inject-12.0-RC2.buildspec) | [result](avaje-inject-parent-12.0-RC2.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-12.0-RC2.buildcompare) | | 798K |
 | [12.0-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.0-RC1/pom) | [mvn jdk21](avaje-inject-12.0-RC1.buildspec) | [result](avaje-inject-parent-12.0-RC1.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-12.0-RC1.buildcompare) | | 799K |
 | [11.6-javax](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.6-javax/pom) | | | |
 | [11.6](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/11.6/pom) | [mvn jdk24 w](avaje-inject-11.6.buildspec) | [result](avaje-inject-parent-11.6.buildinfo): [15 :white_check_mark:  4 :warning:](avaje-inject-parent-11.6.buildcompare) | 4 :rotating_light: | 802K |
