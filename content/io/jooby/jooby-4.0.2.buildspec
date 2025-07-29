@@ -12,8 +12,8 @@ newline=lf
 #umask=022
 #timezone="Europe/London"
 
-command="mvn -Psource clean package -DskipTests -Dmaven.javadoc.skip -Dbuildinfo.skipModules='*/tests'"
+command="mvn -Pbom,source clean package -DskipTests -Dmaven.javadoc.skip -Dbuildinfo.skipModules='*/tests'"
 buildinfo=target/${artifactId}-project-${version}.buildinfo
 
-diffoscope=${artifactId}-project-${version}.diffoscope
+#diffoscope=${artifactId}-project-${version}.diffoscope
 issue=
