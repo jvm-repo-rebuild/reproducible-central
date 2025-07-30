@@ -14,13 +14,13 @@ Source code: [https://github.com/nielsbasjes/modbus-devices.git](https://github.
 * [nl.basjes.modbus.devices:modbus-devices-parent](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-devices-parent/overview)
 </details>
 
-rebuilding **11 releases** of nl.basjes.modbus.devices:modbus-devices-parent:
-- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **12 releases** of nl.basjes.modbus.devices:modbus-devices-parent:
+- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.6.2](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-devices-parent/0.6.2/pom) | | | |
+| [0.6.2](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-devices-parent/0.6.2/pom) | [mvn jdk21](modbus-devices-parent-0.6.2.buildspec) | [result](modbus-devices-parent-0.6.2.buildinfo): [7 :white_check_mark: ](modbus-devices-parent-0.6.2.buildcompare) | | 1.4M |
 | [0.6.1](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-devices-parent/0.6.1/pom) | [mvn jdk21](modbus-devices-parent-0.6.1.buildspec) | [result](modbus-devices-parent-0.6.1.buildinfo): [7 :white_check_mark: ](modbus-devices-parent-0.6.1.buildcompare) | | 1.4M |
 | [0.6.0](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-devices-parent/0.6.0/pom) | [mvn jdk21](modbus-devices-parent-0.6.0.buildspec) | [result](modbus-devices-parent-0.6.0.buildinfo): [7 :white_check_mark: ](modbus-devices-parent-0.6.0.buildcompare) | | 1.4M |
 | [0.5.0](https://central.sonatype.com/artifact/nl.basjes.modbus.devices/modbus-devices-parent/0.5.0/pom) | [mvn jdk21](modbus-devices-parent-0.5.0.buildspec) | [result](modbus-devices-parent-0.5.0.buildinfo): [7 :white_check_mark: ](modbus-devices-parent-0.5.0.buildcompare) | | 937K |
