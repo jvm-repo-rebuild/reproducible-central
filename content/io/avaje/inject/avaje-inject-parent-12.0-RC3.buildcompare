@@ -1,0 +1,21 @@
+version=12.0-RC3
+ok=12
+ko=7
+ignored=0
+okFiles="avaje-inject-parent-12.0-RC3.pom avaje-inject-aop-12.0-RC3.pom avaje-inject-aop-12.0-RC3.jar avaje-inject-events-12.0-RC3.pom avaje-inject-events-12.0-RC3.jar avaje-inject-12.0-RC3.pom avaje-inject-generator-12.0-RC3.pom avaje-inject-generator-12.0-RC3.jar avaje-inject-test-12.0-RC3.pom avaje-inject-test-12.0-RC3.jar avaje-inject-maven-plugin-12.0-RC3.pom avaje-inject-maven-plugin-12.0-RC3.jar"
+koFiles="avaje-inject-aop-12.0-RC3-sources.jar avaje-inject-events-12.0-RC3-sources.jar avaje-inject-12.0-RC3.jar avaje-inject-12.0-RC3-sources.jar avaje-inject-generator-12.0-RC3-sources.jar avaje-inject-test-12.0-RC3-sources.jar avaje-inject-maven-plugin-12.0-RC3-sources.jar"
+ignoredFiles=""
+reference_java_version="24 (from MANIFEST.MF Build-Jdk-Spec)"
+# diffoscope target/reference/io.avaje/avaje-inject-aop-12.0-RC3-sources.jar inject-aop/target/avaje-inject-aop-12.0-RC3-sources.jar
+# diffoscope target/reference/io.avaje/avaje-inject-events-12.0-RC3-sources.jar inject-events/target/avaje-inject-events-12.0-RC3-sources.jar
+# diffoscope target/reference/io.avaje/avaje-inject-12.0-RC3.jar inject/target/avaje-inject-12.0-RC3.jar
+# diffoscope target/reference/io.avaje/avaje-inject-12.0-RC3-sources.jar inject/target/avaje-inject-12.0-RC3-sources.jar
+# diffoscope target/reference/io.avaje/avaje-inject-generator-12.0-RC3-sources.jar inject-generator/target/avaje-inject-generator-12.0-RC3-sources.jar
+# diffoscope target/reference/io.avaje/avaje-inject-test-12.0-RC3-sources.jar inject-test/target/avaje-inject-test-12.0-RC3-sources.jar
+# diffoscope target/reference/io.avaje/avaje-inject-maven-plugin-12.0-RC3-sources.jar inject-maven-plugin/target/avaje-inject-maven-plugin-12.0-RC3-sources.jar
+stabilize_ok=0
+stabilize_ko=7
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="avaje-inject-aop-12.0-RC3-sources.jar.stabilized avaje-inject-events-12.0-RC3-sources.jar.stabilized avaje-inject-12.0-RC3.jar.stabilized avaje-inject-12.0-RC3-sources.jar.stabilized avaje-inject-generator-12.0-RC3-sources.jar.stabilized avaje-inject-test-12.0-RC3-sources.jar.stabilized avaje-inject-maven-plugin-12.0-RC3-sources.jar.stabilized"
+stabilize_ignoredFiles=""
