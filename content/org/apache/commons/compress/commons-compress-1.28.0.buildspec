@@ -1,0 +1,19 @@
+groupId=org.apache.commons
+artifactId=commons-compress
+display=${groupId}:${artifactId}
+version=1.28.0
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=rel/${artifactId}-${version}
+
+tool=mvn
+jdk=21
+newline=lf
+umask=022
+
+# skipping CycloneDX to be tolerant: dependencies fingerprints of dependencies are not the same as Maven Central, but it does not impact output bytecode...
+command="mvn -Prelease clean package package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcommons.release.dryRun -Dcommons.release.isDistModule=false -Dcommons.spdx.version=0.7.1 -Dspdx.skip -Dcyclonedx.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=

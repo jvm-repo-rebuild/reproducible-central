@@ -1,0 +1,64 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Compress
+group-id=org.apache.commons
+artifact-id=commons-compress
+version=1.28.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-compress.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-compress-1.28.0.pom
+outputs.0.length=25308
+outputs.0.checksums.sha512=8e146052d06e3018b7336a52fbbe979b73e2cd1d318fe9fdb37e22f5ee39e65992351ce5278dc4da34a59256f797882d16b6dee34684742a8a5bfb4f0998d82f
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-compress-1.28.0.jar
+outputs.1.length=1117221
+outputs.1.checksums.sha512=f1f140f4f40ab3cf3265919db9dbb95a631a29aa784e305f291de4e68876bb711d9217d62d7937cddddd393982decdf71a608b4b3ab7f4e6375cf28af2893d7f
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-compress-1.28.0-tests.jar
+outputs.2.length=61314666
+outputs.2.checksums.sha512=e5bbb11bba6838b8d60ae8aaf751f51bc08e8b4207c48de1011cb842cb09e643cf3ba6cbd5c7d745110fab2d3152f2514af40f57760722a926b288987c2c04fc
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-compress-1.28.0-sources.jar
+outputs.3.length=937891
+outputs.3.checksums.sha512=ccaaeef4e6ea6760d3e12baec8c148a0b5a87b13ad3b1d05111cb49d9749381a9aae9c84e1b970e42ba8a797447728f7779d72e8ad83f28b061ebf3e1b44b950
+
+outputs.4.groupId=org.apache.commons
+outputs.4.filename=commons-compress-1.28.0-test-sources.jar
+outputs.4.length=60961115
+outputs.4.checksums.sha512=d4cff1e6fde6e3d944f98e278c96eda295a5a21087aff2b0d891edd44c537eb59837cf648aa57cb269263cd07683f675378631d95e2ba39dc1be297931eb30c4
+
+outputs.5.groupId=org.apache.commons
+outputs.5.filename=commons-compress-1.28.0-tests.jar
+outputs.5.length=61314666
+outputs.5.checksums.sha512=e5bbb11bba6838b8d60ae8aaf751f51bc08e8b4207c48de1011cb842cb09e643cf3ba6cbd5c7d745110fab2d3152f2514af40f57760722a926b288987c2c04fc
+
+outputs.6.groupId=org.apache.commons
+outputs.6.filename=commons-compress-1.28.0-sources.jar
+outputs.6.length=937891
+outputs.6.checksums.sha512=ccaaeef4e6ea6760d3e12baec8c148a0b5a87b13ad3b1d05111cb49d9749381a9aae9c84e1b970e42ba8a797447728f7779d72e8ad83f28b061ebf3e1b44b950
+
+outputs.7.groupId=org.apache.commons
+outputs.7.filename=commons-compress-1.28.0-test-sources.jar
+outputs.7.length=60961115
+outputs.7.checksums.sha512=d4cff1e6fde6e3d944f98e278c96eda295a5a21087aff2b0d891edd44c537eb59837cf648aa57cb269263cd07683f675378631d95e2ba39dc1be297931eb30c4
