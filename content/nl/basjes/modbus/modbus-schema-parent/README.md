@@ -22,13 +22,13 @@ Source code: [https://github.com/nielsbasjes/modbus-schema.git](https://github.c
 * [nl.basjes.modbus:modbus-schema-reference](https://central.sonatype.com/artifact/nl.basjes.modbus/modbus-schema-reference/overview)
 </details>
 
-rebuilding **14 releases** of nl.basjes.modbus:modbus-schema-parent:
-- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **15 releases** of nl.basjes.modbus:modbus-schema-parent:
+- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.14.0](https://central.sonatype.com/artifact/nl.basjes.modbus/modbus-schema-parent/0.14.0/pom) | | | |
+| [0.14.0](https://central.sonatype.com/artifact/nl.basjes.modbus/modbus-schema-parent/0.14.0/pom) | [mvn jdk21](modbus-schema-parent-0.14.0.buildspec) | [result](modbus-schema-parent-0.14.0.buildinfo): [27 :white_check_mark: ](modbus-schema-parent-0.14.0.buildcompare) | | 1.2M |
 | [0.13.0](https://central.sonatype.com/artifact/nl.basjes.modbus/modbus-schema-parent/0.13.0/pom) | [mvn jdk21](modbus-schema-parent-0.13.0.buildspec) | [result](modbus-schema-parent-0.13.0.buildinfo): [27 :white_check_mark: ](modbus-schema-parent-0.13.0.buildcompare) | | 1.2M |
 | [0.12.0](https://central.sonatype.com/artifact/nl.basjes.modbus/modbus-schema-parent/0.12.0/pom) | [mvn jdk21](modbus-schema-parent-0.12.0.buildspec) | [result](modbus-schema-parent-0.12.0.buildinfo): [27 :white_check_mark: ](modbus-schema-parent-0.12.0.buildcompare) | | 1.2M |
 | [0.11.0](https://central.sonatype.com/artifact/nl.basjes.modbus/modbus-schema-parent/0.11.0/pom) | [mvn jdk21](modbus-schema-parent-0.11.0.buildspec) | [result](modbus-schema-parent-0.11.0.buildinfo): [27 :white_check_mark: ](modbus-schema-parent-0.11.0.buildcompare) | | 1.2M |
