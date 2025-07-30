@@ -15,13 +15,13 @@ Source code: [https://github.com/maveniverse/heimdall.git](https://github.com/ma
 * [eu.maveniverse.maven.heimdall:heimdall](https://central.sonatype.com/artifact/eu.maveniverse.maven.heimdall/heimdall/overview)
 </details>
 
-rebuilding **3 releases** of eu.maveniverse.maven.heimdall:heimdall:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of eu.maveniverse.maven.heimdall:heimdall:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.1.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.heimdall/heimdall/0.1.3/pom) | | | |
+| [0.1.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.heimdall/heimdall/0.1.3/pom) | [mvn jdk21](heimdall-0.1.3.buildspec) | [result](heimdall-0.1.3.buildinfo): [10 :white_check_mark: ](heimdall-0.1.3.buildcompare) | | 90K |
 | [0.1.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.heimdall/heimdall/0.1.2/pom) | [mvn jdk21](heimdall-0.1.2.buildspec) | [result](heimdall-0.1.2.buildinfo): [10 :white_check_mark: ](heimdall-0.1.2.buildcompare) | | 90K |
 | [0.1.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.heimdall/heimdall/0.1.1/pom) | [mvn jdk21](heimdall-0.1.1.buildspec) | [result](heimdall-0.1.1.buildinfo): [10 :white_check_mark: ](heimdall-0.1.1.buildcompare) | | 90K |
 | [0.1.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.heimdall/heimdall/0.1.0/pom) | [mvn jdk21](heimdall-0.1.0.buildspec) | [result](heimdall-0.1.0.buildinfo): [10 :white_check_mark: ](heimdall-0.1.0.buildcompare) | | 86K |
