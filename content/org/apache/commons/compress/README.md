@@ -13,6 +13,7 @@ rebuilding **9 releases** of org.apache.commons:commons-compress:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.28.0](https://central.sonatype.com/artifact/org.apache.commons/commons-compress/1.28.0/pom) | | | |
 | [1.27.1](https://central.sonatype.com/artifact/org.apache.commons/commons-compress/1.27.1/pom) | [mvn jdk17](commons-compress-1.27.1.buildspec) | [result](commons-compress-1.27.1.buildinfo): [5 :white_check_mark: ](commons-compress-1.27.1.buildcompare) | | 235M |
 | [1.27.0](https://central.sonatype.com/artifact/org.apache.commons/commons-compress/1.27.0/pom) | [mvn jdk17](commons-compress-1.27.0.buildspec) | [result](commons-compress-1.27.0.buildinfo): [5 :white_check_mark: ](commons-compress-1.27.0.buildcompare) | | 235M |
 | [1.26.2](https://central.sonatype.com/artifact/org.apache.commons/commons-compress/1.26.2/pom) | [mvn jdk17](commons-compress-1.26.2.buildspec) | [result](commons-compress-1.26.2.buildinfo): [5 :white_check_mark: ](commons-compress-1.26.2.buildcompare) | | 235M |
