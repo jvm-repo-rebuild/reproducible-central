@@ -1,0 +1,49 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=eu.maveniverse.maven.bom-builder:bom-builder
+group-id=eu.maveniverse.maven.bom-builder
+artifact-id=bom-builder
+version=1.2.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:maveniverse/bom-builder-maven-plugin.git
+source.scm.tag=release-1.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.8
+mvn.aggregate.artifact-id=bom-builder3
+
+# aggregated output
+
+outputs.0.coordinates=eu.maveniverse.maven.bom-builder:bom-builder
+
+outputs.0.0.groupId=eu.maveniverse.maven.bom-builder
+outputs.0.0.filename=bom-builder-1.2.0.pom
+outputs.0.0.length=4452
+outputs.0.0.checksums.sha512=b08d31c94aafaba7140f75e4988794dfb3a19d298e0585d4d8f29e26be884b524d166f74515345e7590bcce7220b6140754b9f8ec6fd291aedb1b36d026715c5
+
+outputs.1.coordinates=eu.maveniverse.maven.plugins:bom-builder3
+
+outputs.1.0.groupId=eu.maveniverse.maven.plugins
+outputs.1.0.filename=bom-builder3-1.2.0.pom
+outputs.1.0.length=3868
+outputs.1.0.checksums.sha512=f1852ab93663fdc6f4d8a3921bd39b225e7dbf2af0b06d40e9fbc4df683306d00b7017ff07465c5a4431a252d0108f9fbcfcbda5763cdd65648dde4eafc3ab47
+
+outputs.1.1.groupId=eu.maveniverse.maven.plugins
+outputs.1.1.filename=bom-builder3-1.2.0.jar
+outputs.1.1.length=27972
+outputs.1.1.checksums.sha512=5747696b002707c885817e8bb4eb5bb9da780d5c3ba622f74a1a324d7dd41e16138ad30729bbde80d9661e9da3e7a82b209329e168b1ca38e3c0266a7ef5e208
+
+outputs.1.2.groupId=eu.maveniverse.maven.plugins
+outputs.1.2.filename=bom-builder3-1.2.0-sources.jar
+outputs.1.2.length=14607
+outputs.1.2.checksums.sha512=5c135bcfbf9685357eb8c6544f88c54228a42654f9bc3e75f22c2eb276363bf5de10b7b30f75fb3cc217221b5fb7de59e72f943a7c4f618ededf6e232b5051a8
