@@ -11,22 +11,13 @@ gitRepo=https://github.com/hibernate/hibernate-search.git
 gitTag=${version}
 
 # Rebuild environment prerequisites
-tool=mvn-3.9.6
+tool=mvn-3.9.11
 jdk=21
 newline=lf
 workdir=/var/lib/jenkins/workspace/hibernate-search-release_main
 
 # Rebuild command
-#
-# NOTE: automatic skip detection is disabled for this command.
-# this is done so as Hibernate Search build explicitly disables
-# the maven-deploy-plugin by adding <skip> to its configuration.
-#
-# And while the nexus plugin is used for deployment and picks which modules to deploy,
-# maven-artifact-plugin will see the skip from the deploy plugin and ignore all modules.
-#
-# Hence, the explicit list of modules to skip:
-command="mvn clean package -Pskip-checks -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dno-build-cache -Dbuildinfo.detect.skip=false -Dbuildinfo.skipModules='**/**internal**,**/**integrationtest**,**/**parent**,**/**documentation**,**/**reports**,**/**build**'"
+command="mvn clean package -Pskip-checks -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dno-build-cache"
 
 # Location of the buildinfo file generated during rebuild (by artifact:compare for Maven) to record output fingerprints:
 buildinfo=target/hibernate-search-parent-${version}.buildinfo
