@@ -1,0 +1,9 @@
+version=1.14.1
+ok=7
+ko=0
+ignored=0
+okFiles="commons-csv-1.14.1.pom commons-csv-1.14.1.jar commons-csv-1.14.1-tests.jar commons-csv-1.14.1-sources.jar commons-csv-1.14.1-test-sources.jar commons-csv-1.14.1-cyclonedx.xml commons-csv-1.14.1-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
