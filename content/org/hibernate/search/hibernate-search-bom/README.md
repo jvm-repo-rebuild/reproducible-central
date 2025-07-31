@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/hibernate/hibernate-search.git](https://github.com/hibernate/hibernate-search.git)
 
-<details><summary>This project defines 22 modules:</summary>
+<details><summary>This project defines 21 modules:</summary>
 
 * [org.hibernate.search:hibernate-search-backend-elasticsearch](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-backend-elasticsearch/overview)
 * [org.hibernate.search:hibernate-search-backend-elasticsearch-aws](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-backend-elasticsearch-aws/overview)
@@ -25,7 +25,6 @@ Source code: [https://github.com/hibernate/hibernate-search.git](https://github.
 * [org.hibernate.search:hibernate-search-mapper-pojo-base](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-mapper-pojo-base/overview)
 * [org.hibernate.search:hibernate-search-mapper-pojo-standalone](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-mapper-pojo-standalone/overview)
 * [org.hibernate.search:hibernate-search-platform-bom](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-platform-bom/overview)
-* [org.hibernate.search:hibernate-search-platform-common-bom](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-platform-common-bom/overview)
 * [org.hibernate.search:hibernate-search-platform-next-bom](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-platform-next-bom/overview)
 * [org.hibernate.search:hibernate-search-processor](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-processor/overview)
 * [org.hibernate.search:hibernate-search-util-common](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-util-common/overview)
@@ -34,13 +33,12 @@ Source code: [https://github.com/hibernate/hibernate-search.git](https://github.
 </details>
 
 rebuilding **15 releases** of org.hibernate.search:hibernate-search-bom:
-- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [8.1.0.Alpha1](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.1.0.Alpha1/pom) | [mvn jdk21](hibernate-search-parent-8.1.0.Alpha1.buildspec) | [result](hibernate-search-parent-8.1.0.Alpha1.buildinfo): [36 :white_check_mark:  1 :warning:](hibernate-search-parent-8.1.0.Alpha1.buildcompare) | 1 :no_entry_sign: | 7.5M |
+| [8.1.0.Alpha1](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.1.0.Alpha1/pom) | [mvn jdk21](hibernate-search-parent-8.1.0.Alpha1.buildspec) | [result](hibernate-search-parent-8.1.0.Alpha1.buildinfo): [36 :white_check_mark: ](hibernate-search-parent-8.1.0.Alpha1.buildcompare) | | 7.4M |
 | [8.0.0.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.0.0.Final/pom) | [mvn jdk21](hibernate-search-parent-8.0.0.Final.buildspec) | [result](hibernate-search-parent-8.0.0.Final.buildinfo): [34 :white_check_mark: ](hibernate-search-parent-8.0.0.Final.buildcompare) | | 7.1M |
 | [8.0.0.CR1](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.0.0.CR1/pom) | [mvn jdk21](hibernate-search-parent-8.0.0.CR1.buildspec) | [result](hibernate-search-parent-8.0.0.CR1.buildinfo): [34 :white_check_mark: ](hibernate-search-parent-8.0.0.CR1.buildcompare) | | 7.1M |
 | [8.0.0.Beta1](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.0.0.Beta1/pom) | [mvn jdk21](hibernate-search-parent-8.0.0.Beta1.buildspec) | [result](hibernate-search-parent-8.0.0.Beta1.buildinfo): [34 :white_check_mark: ](hibernate-search-parent-8.0.0.Beta1.buildcompare) | | 7.0M |
