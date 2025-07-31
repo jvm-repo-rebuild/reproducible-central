@@ -7,13 +7,14 @@
 
 Source code: [https://github.com/OP-TED/efx-toolkit-java.git](https://github.com/OP-TED/efx-toolkit-java.git)
 
-rebuilding **5 releases** of eu.europa.ted.eforms:efx-toolkit-java:
+rebuilding **6 releases** of eu.europa.ted.eforms:efx-toolkit-java:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.0.0-alpha.5](https://central.sonatype.com/artifact/eu.europa.ted.eforms/efx-toolkit-java/2.0.0-alpha.5/pom) | | | |
+| [2.0.0-alpha.5](https://central.sonatype.com/artifact/eu.europa.ted.eforms/efx-toolkit-java/2.0.0-alpha.5/pom) | [mvn jdk11](efx-toolkit-java-2.0.0-alpha.5.buildspec) | [result](efx-toolkit-java-2.0.0-alpha.5.buildinfo): [2 :white_check_mark:  1 :warning:](efx-toolkit-java-2.0.0-alpha.5.buildcompare) | 1 :rotating_light: | 1.1M |
 | [2.0.0-alpha.4](https://central.sonatype.com/artifact/eu.europa.ted.eforms/efx-toolkit-java/2.0.0-alpha.4/pom) | [mvn jdk11](efx-toolkit-java-2.0.0-alpha.4.buildspec) | [result](efx-toolkit-java-2.0.0-alpha.4.buildinfo): [2 :white_check_mark:  1 :warning:](efx-toolkit-java-2.0.0-alpha.4.buildcompare) [:mag:](efx-toolkit-java-2.0.0-alpha.4.diffoscope) | - | 1.1M |
 | [2.0.0-alpha.3](https://central.sonatype.com/artifact/eu.europa.ted.eforms/efx-toolkit-java/2.0.0-alpha.3/pom) | [mvn jdk11](efx-toolkit-java-2.0.0-alpha.3.buildspec) | [result](efx-toolkit-java-2.0.0-alpha.3.buildinfo): [2 :white_check_mark:  1 :warning:](efx-toolkit-java-2.0.0-alpha.3.buildcompare) [:mag:](efx-toolkit-java-2.0.0-alpha.3.diffoscope) | - | 1.1M |
 | [2.0.0-alpha.2](https://central.sonatype.com/artifact/eu.europa.ted.eforms/efx-toolkit-java/2.0.0-alpha.2/pom) | [mvn jdk11](efx-toolkit-java-2.0.0-alpha.2.buildspec) | [result](efx-toolkit-java-2.0.0-alpha.2.buildinfo): [2 :white_check_mark:  1 :warning:](efx-toolkit-java-2.0.0-alpha.2.buildcompare) [:mag:](efx-toolkit-java-2.0.0-alpha.2.diffoscope) | - | 1.1M |
