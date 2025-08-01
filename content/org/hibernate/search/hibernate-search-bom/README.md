@@ -32,13 +32,13 @@ Source code: [https://github.com/hibernate/hibernate-search.git](https://github.
 * [org.hibernate.search:hibernate-search-v5migrationhelper-orm](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-v5migrationhelper-orm/overview)
 </details>
 
-rebuilding **15 releases** of org.hibernate.search:hibernate-search-bom:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **16 releases** of org.hibernate.search:hibernate-search-bom:
+- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [8.1.0.CR1](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.1.0.CR1/pom) | | | |
+| [8.1.0.CR1](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.1.0.CR1/pom) | [mvn jdk21](hibernate-search-parent-8.1.0.CR1.buildspec) | [result](hibernate-search-parent-8.1.0.CR1.buildinfo): [36 :white_check_mark: ](hibernate-search-parent-8.1.0.CR1.buildcompare) | | 7.4M |
 | [8.1.0.Alpha1](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.1.0.Alpha1/pom) | [mvn jdk21](hibernate-search-parent-8.1.0.Alpha1.buildspec) | [result](hibernate-search-parent-8.1.0.Alpha1.buildinfo): [36 :white_check_mark: ](hibernate-search-parent-8.1.0.Alpha1.buildcompare) | | 7.4M |
 | [8.0.0.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.0.0.Final/pom) | [mvn jdk21](hibernate-search-parent-8.0.0.Final.buildspec) | [result](hibernate-search-parent-8.0.0.Final.buildinfo): [34 :white_check_mark: ](hibernate-search-parent-8.0.0.Final.buildcompare) | | 7.1M |
 | [8.0.0.CR1](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.0.0.CR1/pom) | [mvn jdk21](hibernate-search-parent-8.0.0.CR1.buildspec) | [result](hibernate-search-parent-8.0.0.CR1.buildinfo): [34 :white_check_mark: ](hibernate-search-parent-8.0.0.CR1.buildcompare) | | 7.1M |
