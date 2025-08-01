@@ -222,10 +222,11 @@
       <version>2.21.27-beta</version>
       <version>2.22.0</version>
       <version>2.22.1</version>
+      <version>2.22.2</version>
       <version>2.23.0-beta</version>
       <version>2.23.1-beta</version>
       <version>2.23.2-beta</version>
     </versions>
-    <lastUpdated>20250714052333</lastUpdated>
+    <lastUpdated>20250801053753</lastUpdated>
   </versioning>
 </metadata>

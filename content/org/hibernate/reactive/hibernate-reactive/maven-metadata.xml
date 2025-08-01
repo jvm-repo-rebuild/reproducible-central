@@ -89,8 +89,9 @@
       <version>3.0.4.Final</version>
       <version>3.0.5.Final</version>
       <version>3.0.6.Final</version>
+      <version>3.1.0.CR1</version>
       <version>4.0.0.Beta1</version>
     </versions>
-    <lastUpdated>20250727010734</lastUpdated>
+    <lastUpdated>20250801090733</lastUpdated>
   </versioning>
 </metadata>
