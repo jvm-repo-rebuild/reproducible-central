@@ -1,0 +1,60 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Net
+group-id=commons-net
+artifact-id=commons-net
+version=3.12.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-net
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=commons-net
+outputs.0.filename=commons-net-3.12.0.pom
+outputs.0.length=26589
+outputs.0.checksums.sha512=a12cf7307c3139fcf308f225f877b70f0b000b0e9286019afb4aa402f3774e351e22b96979c80de22f2bba5012006b14de59df53003c8b74bbe8b40eec4cc346
+
+outputs.1.groupId=commons-net
+outputs.1.filename=commons-net-3.12.0.jar
+outputs.1.length=330333
+outputs.1.checksums.sha512=65b24df91a49b7d0490a7361852e99db7cce1fcd29f3eb0a3cddd135e81a2843bf3536185381f441e34b51bab6fcd57df7f7859ac8480764e8b5bbd5ba569714
+
+outputs.2.groupId=commons-net
+outputs.2.filename=commons-net-3.12.0-tests.jar
+outputs.2.length=248146
+outputs.2.checksums.sha512=9d2be32eb2f087918a2137c36be00a473099240e1d8420b260f523121b33e4b22518b6f8565f4ea38d7f26d1b75592035d6c8facc7fb52b7adfbe6e858902df5
+
+outputs.3.groupId=commons-net
+outputs.3.filename=commons-net-3.12.0-sources.jar
+outputs.3.length=438307
+outputs.3.checksums.sha512=de8090fd4e162994f27602e3187a0e1d48cf91c40f9d6650dfc0cd277be5e6fcf3b041f81767e1546506cac17e093d615411b77062e774aa2a3a8893b8b3bbe5
+
+outputs.4.groupId=commons-net
+outputs.4.filename=commons-net-3.12.0-test-sources.jar
+outputs.4.length=185362
+outputs.4.checksums.sha512=53ac38776334783929d3a28df5894608a3d593299fd50b0d50362fed59de1c716def3b8caf9c5a6e81141b9d40f8aa780b33a312d5ec780c8eb55af2c0658d60
+# ignored commons-net-3.12.0.spdx.json
+
+outputs.5.groupId=commons-net
+outputs.5.filename=commons-net-3.12.0-ftp.jar
+outputs.5.length=161088
+outputs.5.checksums.sha512=33b45b88bbd3167c2592ac82868cb912af13be681313680f6ef2f2daf7bf6153890532c08b7dfb5ad5183dfa748ba25f9d9a4f6d050f2c74bdfb66907a32004a
+
+outputs.6.groupId=commons-net
+outputs.6.filename=commons-net-3.12.0-examples.jar
+outputs.6.length=94891
+outputs.6.checksums.sha512=636f5da3338ae5601c6b9f90050908cdd60b4d07a2628d813044fb8608605402c623c0faca31ed53d2192a305a47a3fb1a8d76f5389c695419523fc84b2db17d
