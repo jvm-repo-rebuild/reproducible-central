@@ -1,0 +1,7 @@
+version=9.0.0-beta0003
+ok=16
+ko=0
+ignored=0
+okFiles="com.io7m.primogenitor-9.0.0-beta0003.pom com.io7m.primogenitor-9.0.0-beta0003-cyclonedx.xml com.io7m.primogenitor.lite-9.0.0-beta0003.pom com.io7m.primogenitor.lite-9.0.0-beta0003-cyclonedx.xml com.io7m.primogenitor.full-9.0.0-beta0003.pom com.io7m.primogenitor.full-9.0.0-beta0003-cyclonedx.xml com.io7m.primogenitor.support-9.0.0-beta0003.pom com.io7m.primogenitor.support-9.0.0-beta0003.jar com.io7m.primogenitor.support-9.0.0-beta0003-sources.jar com.io7m.primogenitor.support-9.0.0-beta0003-cyclonedx.xml com.io7m.primogenitor.support-9.0.0-beta0003-tests.jar com.io7m.primogenitor.tests-9.0.0-beta0003.pom com.io7m.primogenitor.tests-9.0.0-beta0003.jar com.io7m.primogenitor.tests-9.0.0-beta0003-sources.jar com.io7m.primogenitor.tests-9.0.0-beta0003-cyclonedx.xml com.io7m.primogenitor.tests-9.0.0-beta0003-tests.jar"
+koFiles=""
+ignoredFiles=""
