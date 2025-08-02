@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/hive.git](https://github.com/apache/hive.git)
 
-<details><summary>This project defines 50 modules:</summary>
+<details><summary>This project defines 58 modules:</summary>
 
 * [org.apache.hive.hcatalog:hive-hcatalog](https://central.sonatype.com/artifact/org.apache.hive.hcatalog/hive-hcatalog/overview)
 * [org.apache.hive.hcatalog:hive-hcatalog-core](https://central.sonatype.com/artifact/org.apache.hive.hcatalog/hive-hcatalog-core/overview)
@@ -29,6 +29,10 @@ Source code: [https://github.com/apache/hive.git](https://github.com/apache/hive
 * [org.apache.hive:hive-exec](https://central.sonatype.com/artifact/org.apache.hive/hive-exec/overview)
 * [org.apache.hive:hive-hbase-handler](https://central.sonatype.com/artifact/org.apache.hive/hive-hbase-handler/overview)
 * [org.apache.hive:hive-hplsql](https://central.sonatype.com/artifact/org.apache.hive/hive-hplsql/overview)
+* [org.apache.hive:hive-iceberg](https://central.sonatype.com/artifact/org.apache.hive/hive-iceberg/overview)
+* [org.apache.hive:hive-iceberg-catalog](https://central.sonatype.com/artifact/org.apache.hive/hive-iceberg-catalog/overview)
+* [org.apache.hive:hive-iceberg-handler](https://central.sonatype.com/artifact/org.apache.hive/hive-iceberg-handler/overview)
+* [org.apache.hive:hive-iceberg-shading](https://central.sonatype.com/artifact/org.apache.hive/hive-iceberg-shading/overview)
 * [org.apache.hive:hive-jdbc](https://central.sonatype.com/artifact/org.apache.hive/hive-jdbc/overview)
 * [org.apache.hive:hive-jdbc-handler](https://central.sonatype.com/artifact/org.apache.hive/hive-jdbc-handler/overview)
 * [org.apache.hive:hive-kudu-handler](https://central.sonatype.com/artifact/org.apache.hive/hive-kudu-handler/overview)
@@ -39,6 +43,7 @@ Source code: [https://github.com/apache/hive.git](https://github.com/apache/hive
 * [org.apache.hive:hive-llap-tez](https://central.sonatype.com/artifact/org.apache.hive/hive-llap-tez/overview)
 * [org.apache.hive:hive-metastore](https://central.sonatype.com/artifact/org.apache.hive/hive-metastore/overview)
 * [org.apache.hive:hive-metastore-benchmarks](https://central.sonatype.com/artifact/org.apache.hive/hive-metastore-benchmarks/overview)
+* [org.apache.hive:hive-metastore-packaging](https://central.sonatype.com/artifact/org.apache.hive/hive-metastore-packaging/overview)
 * [org.apache.hive:hive-metastore-tools](https://central.sonatype.com/artifact/org.apache.hive/hive-metastore-tools/overview)
 * [org.apache.hive:hive-packaging](https://central.sonatype.com/artifact/org.apache.hive/hive-packaging/overview)
 * [org.apache.hive:hive-parser](https://central.sonatype.com/artifact/org.apache.hive/hive-parser/overview)
@@ -50,6 +55,7 @@ Source code: [https://github.com/apache/hive.git](https://github.com/apache/hive
 * [org.apache.hive:hive-shims-aggregator](https://central.sonatype.com/artifact/org.apache.hive/hive-shims-aggregator/overview)
 * [org.apache.hive:hive-standalone-metastore](https://central.sonatype.com/artifact/org.apache.hive/hive-standalone-metastore/overview)
 * [org.apache.hive:hive-standalone-metastore-common](https://central.sonatype.com/artifact/org.apache.hive/hive-standalone-metastore-common/overview)
+* [org.apache.hive:hive-standalone-metastore-rest-catalog](https://central.sonatype.com/artifact/org.apache.hive/hive-standalone-metastore-rest-catalog/overview)
 * [org.apache.hive:hive-standalone-metastore-server](https://central.sonatype.com/artifact/org.apache.hive/hive-standalone-metastore-server/overview)
 * [org.apache.hive:hive-storage-api](https://central.sonatype.com/artifact/org.apache.hive/hive-storage-api/overview)
 * [org.apache.hive:hive-streaming](https://central.sonatype.com/artifact/org.apache.hive/hive-streaming/overview)
@@ -59,15 +65,18 @@ Source code: [https://github.com/apache/hive.git](https://github.com/apache/hive
 * [org.apache.hive:hive-vector-code-gen](https://central.sonatype.com/artifact/org.apache.hive/hive-vector-code-gen/overview)
 * [org.apache.hive:kafka-handler](https://central.sonatype.com/artifact/org.apache.hive/kafka-handler/overview)
 * [org.apache.hive:metastore-tools-common](https://central.sonatype.com/artifact/org.apache.hive/metastore-tools-common/overview)
+* [org.apache.hive:patched-iceberg-api](https://central.sonatype.com/artifact/org.apache.hive/patched-iceberg-api/overview)
+* [org.apache.hive:patched-iceberg-core](https://central.sonatype.com/artifact/org.apache.hive/patched-iceberg-core/overview)
 </details>
 
-rebuilding **4 releases** of org.apache.hive:hive:
+rebuilding **5 releases** of org.apache.hive:hive:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.1.0](https://central.sonatype.com/artifact/org.apache.hive/hive/4.1.0/pom) | | | |
+| [4.1.0](https://central.sonatype.com/artifact/org.apache.hive/hive/4.1.0/pom) | [mvn jdk17](hive-4.1.0.buildspec) | [result](hive-4.1.0.buildinfo): [165 :white_check_mark:  12 :warning:](hive-4.1.0.buildcompare) [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) | 12 :rotating_light: | 526M |
 | [4.0.1](https://central.sonatype.com/artifact/org.apache.hive/hive/4.0.1/pom) | [mvn jdk8](hive-4.0.1.buildspec) | [result](hive-4.0.1.buildinfo): [135 :white_check_mark:  19 :warning:](hive-4.0.1.buildcompare) [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) | - | 536M |
 | [4.0.0](https://central.sonatype.com/artifact/org.apache.hive/hive/4.0.0/pom) | [mvn jdk8](hive-4.0.0.buildspec) | [result](hive-4.0.0.buildinfo): [135 :white_check_mark:  18 :warning:](hive-4.0.0.buildcompare) [:mag:](hive-4.0.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) | - | 516M |
 | [4.0.0-beta-1](https://central.sonatype.com/artifact/org.apache.hive/hive/4.0.0-beta-1/pom) | [mvn jdk8](hive-4.0.0-beta-1.buildspec) | [result](hive-4.0.0-beta-1.buildinfo): [141 :white_check_mark:  17 :warning:](hive-4.0.0-beta-1.buildcompare) [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) | - | 501M |
