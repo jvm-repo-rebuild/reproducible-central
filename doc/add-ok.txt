@@ -1,5 +1,1 @@
-content/com/fasterxml/oss-parent/oss-parent-69.buildspec:70
 content/org/apache/orc/orc-2.1.3.buildspec:2.2.0
-content/org/apache/commons/net/commons-net-3.11.1.buildspec:3.12.0
-content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.1.0.Alpha1.buildspec:8.1.0.CR1
-content/org/infinispan/protostream/protostream-6.0.0.Dev08.buildspec:6.0.0.Dev09
