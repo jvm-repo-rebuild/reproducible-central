@@ -7,7 +7,7 @@ display=${groupId}:${artifactId}
 gitRepo=https://github.com/${artifactId}/${artifactId}.git
 gitTag=${artifactId}-${version}
 
-tool=mvn-3.9.3
+tool=mvn-3.9.11
 jdk=21
 newline=crlf
 umask=022
@@ -16,5 +16,6 @@ command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip
 
 buildinfo=target/${artifactId}-${version}.buildinfo
 
+# merged https://github.com/psi-probe/psi-probe/commit/be4a52987197035e95b72601d5e0c003117aac3f by hand...
 #diffoscope=${artifactId}-${version}.diffoscope
 issue=
