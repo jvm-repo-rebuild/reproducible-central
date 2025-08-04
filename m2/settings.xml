@@ -1,5 +1,5 @@
 <settings>
-  <localRepository>${user.home}/.m2/repository-${MVN_UMASK}</localRepository>
+  <localRepository>${user.home}/.m2/repository</localRepository>
   <profiles>
     <profile>
       <id>staged-releases</id>
