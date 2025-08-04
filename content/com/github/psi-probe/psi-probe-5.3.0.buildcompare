@@ -1,0 +1,17 @@
+version=5.3.0
+ok=24
+ko=2
+ignored=0
+okFiles="psi-probe-5.3.0.pom psi-probe-core-5.3.0.pom psi-probe-core-5.3.0.jar psi-probe-core-5.3.0-sources.jar psi-probe-rest-5.3.0.pom psi-probe-rest-5.3.0.jar psi-probe-rest-5.3.0-tests.jar psi-probe-rest-5.3.0-sources.jar psi-probe-rest-5.3.0-test-sources.jar psi-probe-tomcat10-5.3.0.pom psi-probe-tomcat10-5.3.0.jar psi-probe-tomcat10-5.3.0-tests.jar psi-probe-tomcat10-5.3.0-sources.jar psi-probe-tomcat10-5.3.0-test-sources.jar psi-probe-tomcat11-5.3.0.pom psi-probe-tomcat11-5.3.0.jar psi-probe-tomcat11-5.3.0-tests.jar psi-probe-tomcat11-5.3.0-sources.jar psi-probe-tomcat11-5.3.0-test-sources.jar psi-probe-web-5.3.0.pom psi-probe-web-5.3.0.war psi-probe-web-5.3.0-tests.jar psi-probe-web-5.3.0-sources.jar psi-probe-web-5.3.0-test-sources.jar"
+koFiles="psi-probe-core-5.3.0-tests.jar psi-probe-core-5.3.0-test-sources.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/com.github.psi-probe/psi-probe-core-5.3.0-tests.jar psi-probe-core/target/psi-probe-core-5.3.0-tests.jar
+# diffoscope target/reference/com.github.psi-probe/psi-probe-core-5.3.0-test-sources.jar psi-probe-core/target/psi-probe-core-5.3.0-test-sources.jar
+stabilize_ok=0
+stabilize_ko=2
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="psi-probe-core-5.3.0-tests.jar.stabilized psi-probe-core-5.3.0-test-sources.jar.stabilized"
+stabilize_ignoredFiles=""
