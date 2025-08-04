@@ -1,0 +1,17 @@
+groupId=org.apache.hive
+artifactId=hive
+display=${groupId}:${artifactId}
+version=4.1.0
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=rel/release-${version}
+
+tool=mvn-3.9.6
+jdk=17
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=https://issues.apache.org/jira/browse/HIVE-28186
