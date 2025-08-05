@@ -1,0 +1,18 @@
+groupId=commons-cli
+artifactId=commons-cli
+display=${groupId}:${artifactId}
+version=1.10.0
+
+gitRepo=https://github.com/apache/commons-cli.git
+gitTag=rel/${artifactId}-${version}
+
+tool=mvn
+jdk=21
+newline=lf
+umask=022
+
+command="mvn clean verify -DskipTests -Dgpg.skip -Dmaven.javadoc.skip -Dbuildinfo.ignore='*/*.spdx.json'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
