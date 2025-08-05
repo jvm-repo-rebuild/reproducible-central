@@ -76,14 +76,14 @@ Source code: [https://github.com/jooby-project/jooby.git](https://github.com/joo
 * [io.jooby:tests](https://central.sonatype.com/artifact/io.jooby/tests/overview)
 </details>
 
-rebuilding **55 releases** of io.jooby:jooby:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **56 releases** of io.jooby:jooby:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 48 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.4](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.4/pom) | | | |
+| [4.0.4](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.4/pom) | [mvn jdk21](jooby-4.0.4.buildspec) | [result](jooby-project-4.0.4.buildinfo): [174 :white_check_mark: ](jooby-project-4.0.4.buildcompare) | | 14M |
 | [4.0.3](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.3/pom) | [mvn jdk21](jooby-4.0.3.buildspec) | [result](jooby-project-4.0.3.buildinfo): [174 :white_check_mark: ](jooby-project-4.0.3.buildcompare) | | 13M |
 | [4.0.2](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.2/pom) | [mvn jdk21](jooby-4.0.2.buildspec) | [result](jooby-project-4.0.2.buildinfo): [174 :white_check_mark: ](jooby-project-4.0.2.buildcompare) | | 13M |
 | [4.0.1](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.1/pom) | [mvn jdk21](jooby-4.0.1.buildspec) | [result](jooby-project-4.0.1.buildinfo): [174 :white_check_mark: ](jooby-project-4.0.1.buildcompare) | | 13M |
