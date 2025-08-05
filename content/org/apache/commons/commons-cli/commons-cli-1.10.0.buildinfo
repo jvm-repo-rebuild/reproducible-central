@@ -1,0 +1,60 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons CLI
+group-id=commons-cli
+artifact-id=commons-cli
+version=1.10.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-cli.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=commons-cli
+outputs.0.filename=commons-cli-1.10.0.pom
+outputs.0.length=14725
+outputs.0.checksums.sha512=f38c3073c96ea752cdb9b44e0fe07271f837155425939b603bd12d90cffce2e7f64c95529be7975d558504194bc6e6252178b450ced72880aff36b204ac23fb5
+
+outputs.1.groupId=commons-cli
+outputs.1.filename=commons-cli-1.10.0.jar
+outputs.1.length=108170
+outputs.1.checksums.sha512=e7374d3d24256fcb60a87728373466a21df8f3e03b0e49c711773dbcc23d26ecdad1abcc114c45a49d7de668c5db193a60ccc1aa75a1d6601bd9e112c3214cbe
+
+outputs.2.groupId=commons-cli
+outputs.2.filename=commons-cli-1.10.0-tests.jar
+outputs.2.length=172312
+outputs.2.checksums.sha512=1d82881deb4cd219d0e02359c57ea1e6f37cd6f15296eef0850fba0ae16976f6e75663227876406b50618ccc6cc0fce744a7f5423411f2832982bec7c646f1e0
+
+outputs.3.groupId=commons-cli
+outputs.3.filename=commons-cli-1.10.0-sources.jar
+outputs.3.length=99051
+outputs.3.checksums.sha512=5d27612094cb6d3acaca5dc48c3ce1e81394cdf7917d2577b69b8c0320b49738e3b7c84cc547debf9442a4bab11319767fde9f581f4775750e872deb030d11fd
+
+outputs.4.groupId=commons-cli
+outputs.4.filename=commons-cli-1.10.0-test-sources.jar
+outputs.4.length=106386
+outputs.4.checksums.sha512=6e1680aafdeca3b4907e0a838fd090561103d9ed73d2cc4a39dc27618e60b616d4daedf624c705ca66facb90bcfe1d746e947eac742ad6e245f904d260a4515f
+
+outputs.5.groupId=commons-cli
+outputs.5.filename=commons-cli-1.10.0-cyclonedx.xml
+outputs.5.length=3484
+outputs.5.checksums.sha512=569de812a8dd12a72aab07fbd414766f73ab386dc5338d44fb51ab958505f05b20ab5de7dfd022e61b1ca583c00ae493dc197398bef059ab4fdb2de3e4fc9e51
+
+outputs.6.groupId=commons-cli
+outputs.6.filename=commons-cli-1.10.0-cyclonedx.json
+outputs.6.length=3828
+outputs.6.checksums.sha512=ee0ae71723c56f8095e0a79c9ea62f791a27ec15139b4c223a5649b1a4d07ecd2e15f17db4272159ff552056f61a28abed8d3281ce276004af4b6c716e6167f9
+# ignored commons-cli-1.10.0.spdx.json
