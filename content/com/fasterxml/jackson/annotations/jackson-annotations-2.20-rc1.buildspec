@@ -1,0 +1,21 @@
+groupId=com.fasterxml.jackson.core
+artifactId=jackson-annotations
+version=2.20-rc1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/FasterXML/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.6 # extracted from: wget -q -O - https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/$artifactId/$version/$artifactId-$version.module | grep -A2 createdBy
+jdk=8
+newline=lf
+timezone="America/Los_Angeles"
+umask=022
+
+command="mvn -Prelease clean package -DskipTests -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
