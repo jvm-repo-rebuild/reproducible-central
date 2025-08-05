@@ -3,8 +3,8 @@
   <groupId>com.spotify</groupId>
   <artifactId>github-client</artifactId>
   <versioning>
-    <latest>0.4.11</latest>
-    <release>0.4.11</release>
+    <latest>0.4.12</latest>
+    <release>0.4.12</release>
     <versions>
       <version>0.0.1</version>
       <version>0.0.2</version>
@@ -111,7 +111,8 @@
       <version>0.4.8</version>
       <version>0.4.9</version>
       <version>0.4.11</version>
+      <version>0.4.12</version>
     </versions>
-    <lastUpdated>20250728092737</lastUpdated>
+    <lastUpdated>20250805084948</lastUpdated>
   </versioning>
 </metadata>

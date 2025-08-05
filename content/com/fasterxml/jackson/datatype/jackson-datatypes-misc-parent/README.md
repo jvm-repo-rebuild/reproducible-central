@@ -26,6 +26,7 @@ rebuilding **27 releases** of com.fasterxml.jackson.datatype:jackson-datatypes-m
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.20.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.20.0-rc1/pom) | | | |
 | [2.19.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.19.2/pom) | [mvn jdk8](jackson-datatypes-misc-parent-2.19.2.buildspec) | [result](jackson-datatypes-misc-parent-2.19.2.buildinfo): [22 :white_check_mark:  7 :warning:](jackson-datatypes-misc-parent-2.19.2.buildcompare) | 7 :no_entry_sign: | 253K |
 | [2.19.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.19.1/pom) | [mvn jdk8](jackson-datatypes-misc-parent-2.19.1.buildspec) | [result](jackson-datatypes-misc-parent-2.19.1.buildinfo): [29 :white_check_mark: ](jackson-datatypes-misc-parent-2.19.1.buildcompare) | | 247K |
 | [2.19.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-misc-parent/2.19.0/pom) | [mvn jdk8](jackson-datatypes-misc-parent-2.19.0.buildspec) | [result](jackson-datatypes-misc-parent-2.19.0.buildinfo): [29 :white_check_mark: ](jackson-datatypes-misc-parent-2.19.0.buildcompare) | | 247K |

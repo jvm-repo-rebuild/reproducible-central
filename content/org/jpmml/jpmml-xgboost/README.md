@@ -19,6 +19,7 @@ rebuilding **7 releases** of org.jpmml:jpmml-xgboost:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.9.2](https://central.sonatype.com/artifact/org.jpmml/jpmml-xgboost/1.9.2/pom) | | | |
 | [1.9.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-xgboost/1.9.1/pom) | [mvn jdk11](jpmml-xgboost-1.9.1.buildspec) | [result](jpmml-xgboost-1.9.1.buildinfo): [2 :white_check_mark:  2 :warning:](jpmml-xgboost-1.9.1.buildcompare) | - | 131K |
 | [1.9.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-xgboost/1.9.0/pom) | [mvn jdk11](jpmml-xgboost-1.9.0.buildspec) | [result](jpmml-xgboost-1.9.0.buildinfo): [2 :white_check_mark:  2 :warning:](jpmml-xgboost-1.9.0.buildcompare) | - | 135K |
 | [1.8.8](https://central.sonatype.com/artifact/org.jpmml/jpmml-xgboost/1.8.8/pom) | [mvn jdk8](jpmml-xgboost-1.8.8.buildspec) | [result](jpmml-xgboost-1.8.8.buildinfo): [4 :white_check_mark: ](jpmml-xgboost-1.8.8.buildcompare) | | 135K |
