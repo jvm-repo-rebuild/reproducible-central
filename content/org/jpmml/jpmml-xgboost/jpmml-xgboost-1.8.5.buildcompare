@@ -8,3 +8,9 @@ ignoredFiles=""
 reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
 # diffoscope target/reference/org.jpmml/pmml-xgboost-1.8.5-sources.jar pmml-xgboost/target/pmml-xgboost-1.8.5-sources.jar
+stabilize_ok=1
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="pmml-xgboost-1.8.5-sources.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""

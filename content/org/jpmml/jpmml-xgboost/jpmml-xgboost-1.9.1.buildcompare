@@ -9,3 +9,9 @@ reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
 # diffoscope target/reference/org.jpmml/pmml-xgboost-1.9.1.jar pmml-xgboost/target/pmml-xgboost-1.9.1.jar
 # diffoscope target/reference/org.jpmml/pmml-xgboost-1.9.1-sources.jar pmml-xgboost/target/pmml-xgboost-1.9.1-sources.jar
+stabilize_ok=2
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="pmml-xgboost-1.9.1.jar.stabilized pmml-xgboost-1.9.1-sources.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""
