@@ -1,0 +1,79 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache TomEE :: Jakarta EE 10 Full API :: Parent
+group-id=org.apache.tomee
+artifact-id=jakartaee-api-parent
+version=10.0.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/tomee-jakartaee-api.git
+source.scm.tag=jakartaee-api-parent-10.0.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.28
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.aggregate.artifact-id=jakartaee-api
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.tomee:jakartaee-api-parent
+
+outputs.0.0.groupId=org.apache.tomee
+outputs.0.0.filename=jakartaee-api-parent-10.0.1.pom
+outputs.0.0.length=2371
+outputs.0.0.checksums.sha512=dacc1c8fddd5f5d476e9f3583ee9bed24880101819ea555892f49bf4442b05c1a8228ed74bf7e5522061119f8a6c1cbaebce0c21e0f08a80855063ee8a36dc43
+
+outputs.0.1.groupId=org.apache.tomee
+outputs.0.1.filename=jakartaee-api-parent-10.0.1-source-release.zip
+outputs.0.1.length=39505
+outputs.0.1.checksums.sha512=c65b9c07d126815778fcb8a378de711fdd3227684663dee2ade5bdbd631195f5d443237ae670b09bc5bafba5fb194329a106a219853e2e4467cd82fe08aa0b8a
+
+outputs.1.coordinates=org.apache.tomee:jakartaee-api
+
+outputs.1.0.groupId=org.apache.tomee
+outputs.1.0.filename=jakartaee-api-10.0.1.pom
+outputs.1.0.length=61960
+outputs.1.0.checksums.sha512=96529067bf515e23b204fe301a062a6e913c81eecedf9ac1025c21c606f0ede3705146b0c30f2d4b0b43e1d3d9279f2292e8efe020d7cd7d59b65186334577d8
+
+outputs.1.1.groupId=org.apache.tomee
+outputs.1.1.filename=jakartaee-api-10.0.1.jar
+outputs.1.1.length=1954136
+outputs.1.1.checksums.sha512=0472e2838e29c88e608ac65d950aa028f851066648d33877cc54d4918f7a18f606c9695badce6ac701641d821b971f869f31d16ee428db62f4f272d414b33f91
+
+outputs.1.2.groupId=org.apache.tomee
+outputs.1.2.filename=jakartaee-api-10.0.1.zip
+outputs.1.2.length=2247400
+outputs.1.2.checksums.sha512=49fd5db5817c21df93c3a15eab3f63f74eb57317d173a37aa46e9447d1a3ed185ecd294c4c20c74a7360c3ae0bb1b3393e3e862f546ab107feea630cf171d0a2
+
+outputs.1.3.groupId=org.apache.tomee
+outputs.1.3.filename=jakartaee-api-10.0.1-sources.jar
+outputs.1.3.length=3022276
+outputs.1.3.checksums.sha512=9e3e14bb7ea6847f29cf247ba5156099f951031adf6f9c733aeb4a166c5b90bbf88ec841e66d38269a0b206eb9a16725f51d2caf838e6c282f60a4d943c08e40
+
+outputs.1.4.groupId=org.apache.tomee
+outputs.1.4.filename=jakartaee-api-10.0.1-tomcat.jar
+outputs.1.4.length=1375837
+outputs.1.4.checksums.sha512=e6be552327ffe9f58bcd12f06264fea3ccb618c3ffcdcbfaa030209430c6eaeaced2d3d1e21764ac6916dcbc68027df778457911bc8d80f312ca1a5e6f0c9d02
+
+outputs.1.5.groupId=org.apache.tomee
+outputs.1.5.filename=jakartaee-api-10.0.1-tomcat-sources.jar
+outputs.1.5.length=2330479
+outputs.1.5.checksums.sha512=a112c283d98251ca5f0d5be5cddc2cc76d83c14aec2f233bf8a0e0ca37ac62f714880897f693afbae49ffc51c039143c342e90b3738dfb7f42648c36e4da89c6
+
+outputs.1.6.groupId=org.apache.tomee
+outputs.1.6.filename=jakartaee-api-10.0.1-sources.jar
+outputs.1.6.length=3022276
+outputs.1.6.checksums.sha512=9e3e14bb7ea6847f29cf247ba5156099f951031adf6f9c733aeb4a166c5b90bbf88ec841e66d38269a0b206eb9a16725f51d2caf838e6c282f60a4d943c08e40
+
+outputs.1.7.groupId=org.apache.tomee
+outputs.1.7.filename=jakartaee-api-10.0.1-features.xml
+outputs.1.7.length=4436
+outputs.1.7.checksums.sha512=d2b895cb8b37ddaf14187f0cce38b6c922f165b17747f1a307feb40a6929639446f5f886421e06cbc25361e57111b0a81b4c12c51a281c1cfda2f4f1f8acfa5c
