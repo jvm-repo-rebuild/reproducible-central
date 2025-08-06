@@ -1,0 +1,9 @@
+version=10.0.1
+ok=9
+ko=0
+ignored=0
+okFiles="jakartaee-api-parent-10.0.1.pom jakartaee-api-parent-10.0.1-source-release.zip jakartaee-api-10.0.1.pom jakartaee-api-10.0.1.jar jakartaee-api-10.0.1.zip jakartaee-api-10.0.1-sources.jar jakartaee-api-10.0.1-tomcat.jar jakartaee-api-10.0.1-tomcat-sources.jar jakartaee-api-10.0.1-features.xml"
+koFiles=""
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

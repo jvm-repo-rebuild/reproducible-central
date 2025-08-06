@@ -13,13 +13,13 @@ Source code: [https://github.com/apache/tomee-jakartaee-api.git](https://github.
 * [org.apache.tomee:jakartaee-api-parent](https://central.sonatype.com/artifact/org.apache.tomee/jakartaee-api-parent/overview)
 </details>
 
-rebuilding **6 releases** of org.apache.tomee:jakartaee-api:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of org.apache.tomee:jakartaee-api:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [10.0.1](https://central.sonatype.com/artifact/org.apache.tomee/jakartaee-api/10.0.1/pom) | | | |
+| [10.0.1](https://central.sonatype.com/artifact/org.apache.tomee/jakartaee-api-parent/10.0.1/pom) | [mvn jdk11](jakartaee-api-10.0.1.buildspec) | [result](jakartaee-api-parent-10.0.1.buildinfo): [9 :white_check_mark: ](jakartaee-api-parent-10.0.1.buildcompare) | | 14M |
 | [10.0](https://central.sonatype.com/artifact/org.apache.tomee/jakartaee-api-parent/10.0/pom) | [mvn jdk17](jakartaee-api-10.0.buildspec) | [result](jakartaee-api-parent-10.0.buildinfo): [9 :white_check_mark: ](jakartaee-api-parent-10.0.buildcompare) | | 14M |
 | [10.0-M2](https://central.sonatype.com/artifact/org.apache.tomee/jakartaee-api/10.0-M2/pom) | [mvn jdk11](jakartaee-api-10.0-M2.buildspec) | [result](jakartaee-api-10.0-M2.buildinfo): [8 :white_check_mark: ](jakartaee-api-10.0-M2.buildcompare) | | 14M |
 | [10.0-M1](https://central.sonatype.com/artifact/org.apache.tomee/jakartaee-api/10.0-M1/pom) | [mvn jdk11](jakartaee-api-10.0-M1.buildspec) | [result](jakartaee-api-10.0-M1.buildinfo): [8 :white_check_mark: ](jakartaee-api-10.0-M1.buildcompare) | | 15M |
