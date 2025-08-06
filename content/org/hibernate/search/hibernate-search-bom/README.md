@@ -38,6 +38,7 @@ rebuilding **16 releases** of org.hibernate.search:hibernate-search-bom:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [8.1.0.CR2](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.1.0.CR2/pom) | | | |
 | [8.1.0.CR1](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.1.0.CR1/pom) | [mvn jdk21](hibernate-search-parent-8.1.0.CR1.buildspec) | [result](hibernate-search-parent-8.1.0.CR1.buildinfo): [36 :white_check_mark: ](hibernate-search-parent-8.1.0.CR1.buildcompare) | | 7.4M |
 | [8.1.0.Alpha1](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.1.0.Alpha1/pom) | [mvn jdk21](hibernate-search-parent-8.1.0.Alpha1.buildspec) | [result](hibernate-search-parent-8.1.0.Alpha1.buildinfo): [36 :white_check_mark: ](hibernate-search-parent-8.1.0.Alpha1.buildcompare) | | 7.4M |
 | [8.0.0.Final](https://central.sonatype.com/artifact/org.hibernate.search/hibernate-search-bom/8.0.0.Final/pom) | [mvn jdk21](hibernate-search-parent-8.0.0.Final.buildspec) | [result](hibernate-search-parent-8.0.0.Final.buildinfo): [34 :white_check_mark: ](hibernate-search-parent-8.0.0.Final.buildcompare) | | 7.1M |

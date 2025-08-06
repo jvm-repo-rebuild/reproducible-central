@@ -1,8 +1,9 @@
-content/com/fasterxml/jackson/core/jackson-core-2.19.2.buildspec:2.20.0-rc1
-content/com/fasterxml/jackson/jackson-bom/jackson-bom-2.19.2.buildspec:2.20.0-rc1
-content/com/fasterxml/jackson/jackson-parent/jackson-parent-2.19.3.buildspec:2.20-rc1
 content/com/github/psi-probe/psi-probe-5.2.1.buildspec:5.3.0
-content/com/spotify/github-client/github-client-0.4.11.buildspec:0.4.12
-content/io/jooby/jooby-4.0.3.buildspec:4.0.4
+content/eu/maveniverse/maven/nisse/nisse-0.5.0.buildspec:0.5.1
+content/org/jline/jline-3.30.4.buildspec:3.30.5
 content/org/apache/orc/orc-2.1.3.buildspec:2.2.0
-content/org/infinispan/protostream/protostream-6.0.0.Dev09.buildspec:6.0.0.Dev10
+content/org/apache/tomee/jakartaee-api/jakartaee-api-10.0.buildspec:10.0.1
+content/org/hibernate/orm/hibernate-core/hibernate-core-7.1.0.CR1.buildspec:7.1.0.CR2
+content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.1.0.CR1.buildspec:8.1.0.CR2
+content/org/infinispan/protostream/protostream-6.0.0.Dev10.buildspec:6.0.0.Dev11
+content/org/metricshub/community-connectors/community-connectors-1.0.12.buildspec:1.0.13

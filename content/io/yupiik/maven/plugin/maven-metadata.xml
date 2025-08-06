@@ -3,8 +3,8 @@
   <groupId>io.yupiik.maven</groupId>
   <artifactId>yupiik-tools-maven-plugin-parent</artifactId>
   <versioning>
-    <latest>1.2.11</latest>
-    <release>1.2.11</release>
+    <latest>1.2.12</latest>
+    <release>1.2.12</release>
     <versions>
       <version>1.0.7</version>
       <version>1.0.8</version>
@@ -47,7 +47,8 @@
       <version>1.2.9</version>
       <version>1.2.10</version>
       <version>1.2.11</version>
+      <version>1.2.12</version>
     </versions>
-    <lastUpdated>20250721114932</lastUpdated>
+    <lastUpdated>20250805203748</lastUpdated>
   </versioning>
 </metadata>
