@@ -19,8 +19,8 @@ java.vendor=Azul Systems, Inc.
 os.name=Mac OS X
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.6
-mvn.aggregate.artifact-id=pmml-xgboost
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=pmml-xgboost-example
 
 # aggregated output
 
@@ -42,3 +42,25 @@ outputs.1.1.groupId=org.jpmml
 outputs.1.1.filename=pmml-xgboost-1.9.2.jar
 outputs.1.1.length=79378
 outputs.1.1.checksums.sha512=23a0ef838e44b09cb9dfc869dd759aef6ee0314ed6b6674ed6632a31d856e585d25967d7d94ca5ad6a676e9a6a81f59ba3b90a6d0a3a839adaa2f4c18467901b
+
+outputs.1.2.groupId=org.jpmml
+outputs.1.2.filename=pmml-xgboost-1.9.2-sources.jar
+outputs.1.2.length=49543
+outputs.1.2.checksums.sha512=994d7456fd31540aa7fda63e60856498c29d4c86d345cc3f75a692fd212a7703a02ca076d1affeeeec2109f443532ff705c453b9cd792930b96ab2b380da1a1a
+
+outputs.2.coordinates=org.jpmml:pmml-xgboost-example
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-xgboost-example-1.9.2.pom
+outputs.2.0.length=2211
+outputs.2.0.checksums.sha512=5251b1b49a9dff968e9502fe461b0723d37a72cbd4b3e351a09107422da605275c902c4ab4e6a372de9b28f8dbb431b32c91054fc2139356c27979d76439b9db
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-xgboost-example-1.9.2.jar
+outputs.2.1.length=6443
+outputs.2.1.checksums.sha512=8f0608eebeafa0298c3a9bbed4a7e64cfce2ee8b8420918025163797d6ea83540ac4e49507868be0db59d41d8c370eb47daa2184091fbe4f3c1d85511977148c
+
+outputs.2.2.groupId=org.jpmml
+outputs.2.2.filename=pmml-xgboost-example-1.9.2-sources.jar
+outputs.2.2.length=4746
+outputs.2.2.checksums.sha512=7fc857421c5db0704ed6facc4b026cb25313b04f0c0a6e3a1b3e43614c6ac12953b2aea6cd583a8fe320a89107dcc82bb99d3f35faf63e4e94fa2aea7d426f0a
