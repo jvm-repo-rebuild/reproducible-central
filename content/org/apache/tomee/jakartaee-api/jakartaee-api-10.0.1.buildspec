@@ -1,0 +1,22 @@
+groupId=org.apache.tomee
+artifactId=jakartaee-api-parent
+display=${groupId}:jakartaee-api
+version=10.0.1
+
+gitRepo=https://github.com/apache/tomee-jakartaee-api.git
+gitTag=${artifactId}-${version}
+#sourceDistribution=https://archive.apache.org/dist/tomee/${artifactId}-${version}/${artifactId}-${version}-source-release.zip
+#sourcePath=${artifactId}-${version}
+#sourceRmFiles="DEPENDENCIES LICENSE NOTICE"
+
+tool=mvn
+jdk=11
+newline=lf
+umask=022
+
+command="mvn -pl '!tck' -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
