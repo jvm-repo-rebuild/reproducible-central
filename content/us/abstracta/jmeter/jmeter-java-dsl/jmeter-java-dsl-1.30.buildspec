@@ -1,0 +1,19 @@
+groupId=us.abstracta.jmeter
+artifactId=jmeter-java-dsl-parent
+version=1.30
+
+display=${groupId}:jmeter-java-dsl
+
+gitRepo=https://github.com/abstracta/jmeter-java-dsl.git
+gitTag=v${version}
+
+tool=mvn
+jdk=11
+newline=lf
+umask=022
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
