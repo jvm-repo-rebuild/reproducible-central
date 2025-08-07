@@ -3,9 +3,10 @@
   <groupId>us.abstracta.jmeter</groupId>
   <artifactId>jmeter-java-dsl-parent</artifactId>
   <versioning>
-    <latest>1.29.1</latest>
-    <release>1.29.1</release>
+    <latest>1.30</latest>
+    <release>1.30</release>
     <versions>
+      <version>.0.15</version>
       <version>0.2</version>
       <version>0.3</version>
       <version>0.4</version>
@@ -19,6 +20,36 @@
       <version>0.11</version>
       <version>0.12</version>
       <version>0.13</version>
+      <version>0.14</version>
+      <version>0.14.1</version>
+      <version>0.15</version>
+      <version>0.16</version>
+      <version>0.17</version>
+      <version>0.18</version>
+      <version>0.19</version>
+      <version>0.20</version>
+      <version>0.21</version>
+      <version>0.22</version>
+      <version>0.23</version>
+      <version>0.24</version>
+      <version>0.25</version>
+      <version>0.26</version>
+      <version>0.27</version>
+      <version>0.28</version>
+      <version>0.29</version>
+      <version>0.29.1</version>
+      <version>0.30</version>
+      <version>0.31</version>
+      <version>0.32</version>
+      <version>0.33</version>
+      <version>0.33.1</version>
+      <version>0.34</version>
+      <version>0.35</version>
+      <version>0.36</version>
+      <version>0.37</version>
+      <version>0.38</version>
+      <version>0.39</version>
+      <version>0.39.1</version>
       <version>0.40</version>
       <version>0.41</version>
       <version>0.42</version>
@@ -95,7 +126,8 @@
       <version>1.28.1</version>
       <version>1.29</version>
       <version>1.29.1</version>
+      <version>1.30</version>
     </versions>
-    <lastUpdated>20241016132656</lastUpdated>
+    <lastUpdated>20250806212946</lastUpdated>
   </versioning>
 </metadata>

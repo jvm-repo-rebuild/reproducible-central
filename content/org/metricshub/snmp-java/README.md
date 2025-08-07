@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.metricshub:snmp-java:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.1.01](https://central.sonatype.com/artifact/org.metricshub/snmp-java/2.1.01/pom) | | | |
 | [2.1.00](https://central.sonatype.com/artifact/org.metricshub/snmp-java/2.1.00/pom) | [mvn jdk17](snmp-java-2.1.00.buildspec) | [result](snmp-java-2.1.00.buildinfo): [3 :white_check_mark: ](snmp-java-2.1.00.buildcompare) | | 651K |
 | [2.0.01](https://central.sonatype.com/artifact/org.metricshub/snmp-java/2.0.01/pom) | [mvn jdk17](snmp-java-2.0.01.buildspec) | [result](snmp-java-2.0.01.buildinfo): [3 :white_check_mark: ](snmp-java-2.0.01.buildcompare) | | 648K |
 
