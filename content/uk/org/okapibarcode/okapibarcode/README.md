@@ -13,6 +13,7 @@ rebuilding **7 releases** of uk.org.okapibarcode:okapibarcode:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.5.2](https://central.sonatype.com/artifact/uk.org.okapibarcode/okapibarcode/0.5.2/pom) | | | |
 | [0.5.1](https://central.sonatype.com/artifact/uk.org.okapibarcode/okapibarcode/0.5.1/pom) | [gradle jdk21](okapibarcode-0.5.1.buildspec) | [result](okapibarcode-0.5.1.buildinfo): [3 :white_check_mark: ](okapibarcode-0.5.1.buildcompare) | | 930K |
 | [0.5.0](https://central.sonatype.com/artifact/uk.org.okapibarcode/okapibarcode/0.5.0/pom) | [gradle jdk21](okapibarcode-0.5.0.buildspec) | [result](okapibarcode-0.5.0.buildinfo): [3 :white_check_mark: ](okapibarcode-0.5.0.buildcompare) | | 929K |
 | [0.4.9](https://central.sonatype.com/artifact/uk.org.okapibarcode/okapibarcode/0.4.9/pom) | [gradle jdk21](okapibarcode-0.4.9.buildspec) | [result](okapibarcode-0.4.9.buildinfo): [3 :white_check_mark: ](okapibarcode-0.4.9.buildcompare) | | 924K |

@@ -3,10 +3,11 @@
   <groupId>uk.org.okapibarcode</groupId>
   <artifactId>okapibarcode</artifactId>
   <versioning>
-    <latest>0.5.1</latest>
-    <release>0.5.1</release>
+    <latest>0.5.2</latest>
+    <release>0.5.2</release>
     <versions>
       <version>0.1-beta-1</version>
+      <version>0.1-beta-2</version>
       <version>0.1-beta-3</version>
       <version>0.1-beta-4</version>
       <version>0.1</version>
@@ -45,7 +46,8 @@
       <version>0.4.9</version>
       <version>0.5.0</version>
       <version>0.5.1</version>
+      <version>0.5.2</version>
     </versions>
-    <lastUpdated>20250512151441</lastUpdated>
+    <lastUpdated>20250808093547</lastUpdated>
   </versioning>
 </metadata>

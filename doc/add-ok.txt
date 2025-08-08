@@ -1,7 +1,12 @@
 content/com/github/psi-probe/psi-probe-5.2.1.buildspec:5.3.0
-content/de/cuioss/cui-parent-pom/cui-parent-pom-1.1.3.buildspec:1.1.4
-content/io/jooby/jooby-4.0.4.buildspec:4.0.5
-content/io/airlift/airbase/airbase-282.buildspec:283
+content/io/airlift/airbase/airbase-283.buildspec:284
+content/io/opentelemetry/java/opentelemetry-sdk-1.52.0.buildspec:1.53.0
+content/io/yupiik/fusion/fusion-1.0.27.buildspec:1.0.28
 content/org/apache/orc/orc-2.1.3.buildspec:2.2.0
-content/org/metricshub/snmp-java/snmp-java-2.1.00.buildspec:2.1.01
-content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.29.1.buildspec:1.30
+content/org/hibernate/orm/hibernate-core/hibernate-core-7.1.0.CR2.buildspec:7.1.0.Final
+content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.1.0.CR2.buildspec:8.1.0.Final
+content/org/liquibase/ext/liquibase-percona/liquibase-percona-4.31.0.buildspec:4.33.0
+content/org/metricshub/jawk/jawk-4.0.00.buildspec:4.0.01
+content/tools/jackson/jackson-bom/jackson-bom-3.0.0-rc6.buildspec:3.0.0-rc7
+content/tools/jackson/core/jackson-core/jackson-core-3.0.0-rc6.buildspec:3.0.0-rc7
+content/uk/org/okapibarcode/okapibarcode/okapibarcode-0.5.1.buildspec:0.5.2
