@@ -1,0 +1,22 @@
+version=1.9.14
+ok=8
+ko=7
+ignored=0
+okFiles="jpmml-sklearn-1.9.14.pom pmml-sklearn-1.9.14.pom pmml-sklearn-evaluator-1.9.14.pom pmml-sklearn-extension-1.9.14.pom pmml-sklearn-h2o-1.9.14.pom pmml-sklearn-lightgbm-1.9.14.pom pmml-sklearn-statsmodels-1.9.14.pom pmml-sklearn-xgboost-1.9.14.pom"
+koFiles="pmml-sklearn-1.9.14.jar pmml-sklearn-evaluator-1.9.14.jar pmml-sklearn-extension-1.9.14.jar pmml-sklearn-h2o-1.9.14.jar pmml-sklearn-lightgbm-1.9.14.jar pmml-sklearn-statsmodels-1.9.14.jar pmml-sklearn-xgboost-1.9.14.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/pmml-sklearn-1.9.14.jar pmml-sklearn/target/pmml-sklearn-1.9.14.jar
+# diffoscope target/reference/org.jpmml/pmml-sklearn-evaluator-1.9.14.jar pmml-sklearn-evaluator/target/pmml-sklearn-evaluator-1.9.14.jar
+# diffoscope target/reference/org.jpmml/pmml-sklearn-extension-1.9.14.jar pmml-sklearn-extension/target/pmml-sklearn-extension-1.9.14.jar
+# diffoscope target/reference/org.jpmml/pmml-sklearn-h2o-1.9.14.jar pmml-sklearn-h2o/target/pmml-sklearn-h2o-1.9.14.jar
+# diffoscope target/reference/org.jpmml/pmml-sklearn-lightgbm-1.9.14.jar pmml-sklearn-lightgbm/target/pmml-sklearn-lightgbm-1.9.14.jar
+# diffoscope target/reference/org.jpmml/pmml-sklearn-statsmodels-1.9.14.jar pmml-sklearn-statsmodels/target/pmml-sklearn-statsmodels-1.9.14.jar
+# diffoscope target/reference/org.jpmml/pmml-sklearn-xgboost-1.9.14.jar pmml-sklearn-xgboost/target/pmml-sklearn-xgboost-1.9.14.jar
+stabilize_ok=5
+stabilize_ko=2
+stabilize_ignored=0
+stabilize_okFiles="pmml-sklearn-evaluator-1.9.14.jar.stabilized pmml-sklearn-h2o-1.9.14.jar.stabilized pmml-sklearn-lightgbm-1.9.14.jar.stabilized pmml-sklearn-statsmodels-1.9.14.jar.stabilized pmml-sklearn-xgboost-1.9.14.jar.stabilized"
+stabilize_koFiles="pmml-sklearn-1.9.14.jar.stabilized pmml-sklearn-extension-1.9.14.jar.stabilized"
+stabilize_ignoredFiles=""
