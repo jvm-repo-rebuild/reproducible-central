@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.maven.shared:maven-archiver:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.0.0-beta-4](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-archiver/4.0.0-beta-4/pom) | | | |
 | [4.0.0-beta-3](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-archiver/4.0.0-beta-3/pom) | [mvn jdk21](maven-archiver-4.0.0-beta-3.buildspec) | [result](maven-archiver-4.0.0-beta-3.buildinfo): [7 :white_check_mark: ](maven-archiver-4.0.0-beta-3.buildcompare) | | 339K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
