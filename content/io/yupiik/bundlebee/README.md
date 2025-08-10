@@ -27,13 +27,14 @@ Source code: [https://github.com/yupiik/bundlebee.git](https://github.com/yupiik
 * [io.yupiik:bundlebee-operator](https://central.sonatype.com/artifact/io.yupiik/bundlebee-operator/overview)
 </details>
 
-rebuilding **2 releases** of io.yupiik:bundlebee:
+rebuilding **3 releases** of io.yupiik:bundlebee:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.0.31](https://central.sonatype.com/artifact/io.yupiik/bundlebee/1.0.31/pom) | | | |
+| [1.0.31](https://central.sonatype.com/artifact/io.yupiik/bundlebee/1.0.31/pom) | [mvn jdk21](bundlebee-1.0.31.buildspec) | [result](bundlebee-1.0.31.buildinfo): [43 :white_check_mark:  2 :warning:](bundlebee-1.0.31.buildcompare) | 2 :rotating_light: | 4.4M |
 | [1.0.30](https://central.sonatype.com/artifact/io.yupiik/bundlebee/1.0.30/pom) | [mvn jdk21](bundlebee-1.0.30.buildspec) | [result](bundlebee-1.0.30.buildinfo): [45 :white_check_mark: ](bundlebee-1.0.30.buildcompare) | | 4.4M |
 | [1.0.29](https://central.sonatype.com/artifact/io.yupiik/bundlebee/1.0.29/pom) | [mvn jdk21](bundlebee-1.0.29.buildspec) | [result](bundlebee-1.0.29.buildinfo): [43 :white_check_mark:  2 :warning:](bundlebee-1.0.29.buildcompare) | - | 4.4M |
 
