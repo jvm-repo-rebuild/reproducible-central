@@ -1,0 +1,54 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Archiver
+group-id=org.apache.maven
+artifact-id=maven-archiver
+version=3.6.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/maven-archiver.git
+source.scm.tag=maven-archiver-3.6.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.apache.maven
+outputs.0.filename=maven-archiver-3.6.4.pom
+outputs.0.length=4583
+outputs.0.checksums.sha512=ca977b7f03c4e1a9761449ebdd0f386d0ab729df3fecec0066358f8457f5ad42fd042e248b6288e1f811a26c76f49de4c0f1743663ff5ee9fbf25804f2e81229
+
+outputs.1.groupId=org.apache.maven
+outputs.1.filename=maven-archiver-3.6.4.jar
+outputs.1.length=26822
+outputs.1.checksums.sha512=97f844b4cb7a81a3537bbc760a02239f341f0791533748d92e66cc722d9d8b42c0123e8a90460924c95ad09c204d0718a44ec79df12b6f1536bfe35e783c0805
+
+outputs.2.groupId=org.apache.maven
+outputs.2.filename=maven-archiver-3.6.4-source-release.zip
+outputs.2.length=134684
+outputs.2.checksums.sha512=75f781d95870c7dc4d5e4c176fa8bf5f309ff534f8ebf9989d3076859f05ef74b8137523d422daf20e7deb5a3b23cb7c5409157bc8aa0da5af91b30115ddeff1
+
+outputs.3.groupId=org.apache.maven
+outputs.3.filename=maven-archiver-3.6.4-sources.jar
+outputs.3.length=24611
+outputs.3.checksums.sha512=42b5ace3986e9bc3efbc90bd58de3600139f705e152f0851aec5f5e0f5dacf4278a862b8868d6c42bf0753a2668e745e982b1e052d3843952e9f1737f7d30190
+
+outputs.4.groupId=org.apache.maven
+outputs.4.filename=maven-archiver-3.6.4-cyclonedx.xml
+outputs.4.length=97454
+outputs.4.checksums.sha512=00698e604a703620a5bd9ac4d69d7efec8ab7f2dd710f85fd0ca6bff90280cce16647aa7adb1795c755a33fe0b2e7d2df1c903963d07304b7e5254e345ccf1a4
+
+outputs.5.groupId=org.apache.maven
+outputs.5.filename=maven-archiver-3.6.4-cyclonedx.json
+outputs.5.length=106566
+outputs.5.checksums.sha512=a094aa5940ed2984c1fcfb9990e2a426659d9299a79b8a2c6d64e5276d4d7cfbe04c6deaa79bc84a791fad90c4c5151cd763ddcdded2e02eca22c4437e98c884
