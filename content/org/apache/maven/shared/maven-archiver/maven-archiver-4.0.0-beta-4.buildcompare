@@ -1,0 +1,9 @@
+version=4.0.0-beta-4
+ok=6
+ko=0
+ignored=0
+okFiles="maven-archiver-4.0.0-beta-4.pom maven-archiver-4.0.0-beta-4.jar maven-archiver-4.0.0-beta-4-source-release.zip maven-archiver-4.0.0-beta-4-sources.jar maven-archiver-4.0.0-beta-4-cyclonedx.xml maven-archiver-4.0.0-beta-4-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
