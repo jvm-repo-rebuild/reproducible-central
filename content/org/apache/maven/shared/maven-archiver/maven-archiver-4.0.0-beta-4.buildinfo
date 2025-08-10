@@ -1,0 +1,54 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Archiver
+group-id=org.apache.maven.shared
+artifact-id=maven-archiver
+version=4.0.0-beta-4
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/maven-archiver.git
+source.scm.tag=maven-archiver-4.0.0-beta-4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.apache.maven.shared
+outputs.0.filename=maven-archiver-4.0.0-beta-4.pom
+outputs.0.length=6086
+outputs.0.checksums.sha512=53a900af64d08e76623f39b52b5753ad6a8d90c48e4f5a8c1326706e6c08605c0f5ebaf80904c10329dcc06ece8e64ed3de77b0989d7261f30a9e23c215975da
+
+outputs.1.groupId=org.apache.maven.shared
+outputs.1.filename=maven-archiver-4.0.0-beta-4.jar
+outputs.1.length=27550
+outputs.1.checksums.sha512=18814c0fcf86b951e1ab034a82af40108ad96c276b97c63fd55ff6b12585c929808d316f2471d838e508c9f1f8a40bf0f69316ec4051247b390edd56452fe995
+
+outputs.2.groupId=org.apache.maven.shared
+outputs.2.filename=maven-archiver-4.0.0-beta-4-source-release.zip
+outputs.2.length=138218
+outputs.2.checksums.sha512=6752864a638f3f5e79642300d903f186fe31e380bb124827254db8f79186ab1ced66576d70866c9d2a95826cbb820ba82ea34fbb6ef31bd646d3f7eb60ce8737
+
+outputs.3.groupId=org.apache.maven.shared
+outputs.3.filename=maven-archiver-4.0.0-beta-4-sources.jar
+outputs.3.length=25241
+outputs.3.checksums.sha512=b69759e860b9a2656585b1699f65717d58e016b9fdb62d366d4eb396ebe8351fff4356de39085c366010195ef11eb127a8eb96950422ed0388c61da5698bfdbf
+
+outputs.4.groupId=org.apache.maven.shared
+outputs.4.filename=maven-archiver-4.0.0-beta-4-cyclonedx.xml
+outputs.4.length=56404
+outputs.4.checksums.sha512=9164950190aae8e8bc1af9328589395347bce0ea82ef07d520a5a487ca298b0a45ce99599d9721c1ae0e7cd5707639e409e469769badac5e76a975bc6bcd2ea1
+
+outputs.5.groupId=org.apache.maven.shared
+outputs.5.filename=maven-archiver-4.0.0-beta-4-cyclonedx.json
+outputs.5.length=62148
+outputs.5.checksums.sha512=80aac3a6e9397d3c16d5131f974000d349256c525ba7ec78fd507be641b6f4757589fc47c54631f1a5891d4db72c4b1bd8fdcaf6fc7a637daa852cffee2cb965
