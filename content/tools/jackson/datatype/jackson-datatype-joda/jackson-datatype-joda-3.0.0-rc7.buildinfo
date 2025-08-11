@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson datatype: Joda
+group-id=tools.jackson.datatype
+artifact-id=jackson-datatype-joda
+version=3.0.0-rc7
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-datatype-joda.git
+source.scm.tag=jackson-datatype-joda-3.0.0-rc7
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.15
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=tools.jackson.datatype
+outputs.0.filename=jackson-datatype-joda-3.0.0-rc7.pom
+outputs.0.length=5123
+outputs.0.checksums.sha512=ad6fa77084566cd49226133cef2f0627b4d4fe92612854cf1418c4510ec76fddfdfdcf9f8a4c98916b448c18a68bd7a11347d93935ab59dd2bfe2f7449fedf42
+
+outputs.1.groupId=tools.jackson.datatype
+outputs.1.filename=jackson-datatype-joda-3.0.0-rc7.jar
+outputs.1.length=74872
+outputs.1.checksums.sha512=ef7804e5b1c8a0be05d865aaeee6969445ae33fd046d21c2c8bb03b0747185553089c3c55921abd3a7c0b717f1764d316fc741a375a8d80d984dcf1b05da0bae
+
+outputs.2.groupId=tools.jackson.datatype
+outputs.2.filename=jackson-datatype-joda-3.0.0-rc7-sources.jar
+outputs.2.length=48531
+outputs.2.checksums.sha512=528f6f6950f927d9b89503520a16b11187cfac657e0c862e230fc101e58e5aef4f6a8beae2e69ed095876be660acc04acf3afcfcd1c64621e7cf8c9e9d3971d6
+
+outputs.3.groupId=tools.jackson.datatype
+outputs.3.filename=jackson-datatype-joda-3.0.0-rc7.module
+outputs.3.length=4671
+outputs.3.checksums.sha512=93a59ca82d8a5b6e566aaf0d6aefe54c4a02a6c5faeddc3dbfaee90d061d9fb3f309d2038779631c6dd9df3b655d6dbe7b9de2e51095478d5f5bb613ff5d7fb7
