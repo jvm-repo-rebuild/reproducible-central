@@ -1,0 +1,9 @@
+version=2.4.33
+ok=30
+ko=0
+ignored=0
+okFiles="mima-2.4.33.pom context-2.4.33.pom context-2.4.33.jar context-2.4.33-sources.jar runtime-2.4.33.pom embedded-maven-2.4.33.pom embedded-maven-2.4.33.jar embedded-maven-2.4.33-sources.jar standalone-shared-2.4.33.pom standalone-shared-2.4.33.jar standalone-shared-2.4.33-sources.jar standalone-sisu-2.4.33.pom standalone-sisu-2.4.33.jar standalone-sisu-2.4.33-sources.jar standalone-sisu-uber-2.4.33.pom standalone-sisu-uber-2.4.33.jar standalone-sisu-uber-2.4.33-sources.jar standalone-static-2.4.33.pom standalone-static-2.4.33.jar standalone-static-2.4.33-sources.jar standalone-static-uber-2.4.33.pom standalone-static-uber-2.4.33.jar standalone-static-uber-2.4.33-sources.jar extensions-2.4.33.pom mmr-2.4.33.pom mmr-2.4.33.jar mmr-2.4.33-sources.jar mhc4-2.4.33.pom mhc4-2.4.33.jar mhc4-2.4.33-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
