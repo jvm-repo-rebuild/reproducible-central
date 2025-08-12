@@ -1,0 +1,19 @@
+groupId=org.eclipse.daanse
+artifactId=org.eclipse.daanse.pom.parent
+display=${groupId}:*.pom.parent
+version=0.0.4
+
+gitRepo=https://github.com/eclipse-daanse/org.eclipse.daanse.pom
+gitTag=v${version}
+gitTag=8a411c3e207f569a8874bbd07eee0443c5422c57
+
+tool=mvn-3.9.11
+jdk=17
+newline=lf
+#umask=022
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
