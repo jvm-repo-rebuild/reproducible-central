@@ -19,6 +19,7 @@ rebuilding **7 releases** of dev.sigstore:sigstore-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.0.0-rc1](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/2.0.0-rc1/pom) | | | |
 | [1.3.0](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/1.3.0/pom) | [gradle jdk11](sigstore-maven-plugin-1.3.0.buildspec) | [result](sigstore-maven-plugin-1.3.0.buildinfo): [6 :white_check_mark: ](sigstore-maven-plugin-1.3.0.buildcompare) | | 1.8M |
 | [1.2.0](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/1.2.0/pom) | [gradle jdk11](sigstore-maven-plugin-1.2.0.buildspec) | [result](sigstore-maven-plugin-1.2.0.buildinfo): [6 :white_check_mark: ](sigstore-maven-plugin-1.2.0.buildcompare) | | 1.7M |
 | [1.1.0](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/1.1.0/pom) | [gradle jdk11](sigstore-maven-plugin-1.1.0.buildspec) | [result](sigstore-maven-plugin-1.1.0.buildinfo): [6 :white_check_mark: ](sigstore-maven-plugin-1.1.0.buildcompare) | | 1.7M |
