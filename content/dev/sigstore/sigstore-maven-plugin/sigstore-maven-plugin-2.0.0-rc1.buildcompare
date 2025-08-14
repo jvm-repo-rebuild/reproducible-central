@@ -1,0 +1,5 @@
+version=2.0.0-rc1
+ok=6
+ko=0
+okFiles="sigstore-java-2.0.0-rc1-sources.jar sigstore-java-2.0.0-rc1.jar sigstore-java-2.0.0-rc1.pom sigstore-maven-plugin-2.0.0-rc1-sources.jar sigstore-maven-plugin-2.0.0-rc1.jar sigstore-maven-plugin-2.0.0-rc1.pom"
+koFiles=""
