@@ -1,0 +1,19 @@
+groupId=io.jooby
+artifactId=jooby
+display=${groupId}:${artifactId}
+version=4.0.6
+
+gitRepo=https://github.com/jooby-project/${artifactId}.git
+gitTag=v${version}
+
+tool=mvn-3.9.9
+jdk=21
+newline=lf
+#umask=022
+#timezone="Europe/London"
+
+command="mvn -Pbom,source clean package -DskipTests -Dmaven.javadoc.skip -Dbuildinfo.skipModules='*/tests'"
+buildinfo=target/${artifactId}-project-${version}.buildinfo
+
+diffoscope=${artifactId}-project-${version}.diffoscope
+issue=
