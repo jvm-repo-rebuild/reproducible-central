@@ -1,0 +1,64 @@
+1 / 2 target/reference/io.jooby/jooby-cli-4.0.6.jar modules/jooby-cli/target/jooby-cli-4.0.6.jar
+--- target/reference/io.jooby/jooby-cli-4.0.6.jar
++++ modules/jooby-cli/target/jooby-cli-4.0.6.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 91275 bytes, number of entries: 62
+│ +Zip file size: 91273 bytes, number of entries: 62
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-13 12:20 META-INF/
+│  -rw-r--r--  2.0 unx      242 b- defN 25-Aug-13 12:20 META-INF/MANIFEST.MF
+│ @@ -43,22 +43,22 @@
+│  -rw-r--r--  2.0 unx     7140 b- defN 25-Aug-13 12:20 cli/pom.xml.hbs
+│  -rw-r--r--  2.0 unx     1187 b- defN 25-Aug-13 12:20 cli/src/etc/stork/stork.yml
+│ --rw-r--r--  2.0 unx     3631 b- defN 25-Aug-13 12:20 dependencies.properties
+│ +-rw-r--r--  2.0 unx     3627 b- defN 25-Aug-13 12:20 dependencies.properties
+│  -rw-r--r--  2.0 unx     8395 b- defN 25-Aug-13 12:20 io/jooby/cli/Cli.class
+│  -rw-r--r--  2.0 unx     1183 b- defN 25-Aug-13 12:20 io/jooby/cli/CliContext.class
+│  -rw-r--r--  2.0 unx     1028 b- defN 25-Aug-13 12:20 io/jooby/cli/Cmd.class
+│  -rw-r--r--  2.0 unx    13869 b- defN 25-Aug-13 12:20 io/jooby/cli/CreateCmd.class
+│  -rw-r--r--  2.0 unx      790 b- defN 25-Aug-13 12:20 io/jooby/cli/ExitCmd.class
+│  -rw-r--r--  2.0 unx     3201 b- defN 25-Aug-13 12:20 io/jooby/cli/SetCmd.class
+│  -rw-r--r--  2.0 unx     3847 b- defN 25-Aug-13 12:20 io/jooby/cli/Version.class
+│  -rw-r--r--  2.0 unx     9863 b- defN 25-Aug-13 12:20 io/jooby/internal/cli/CommandContextImpl.class
+│  -rw-r--r--  2.0 unx     1518 b- defN 25-Aug-13 12:20 io/jooby/internal/cli/Dependency.class
+│  -rw-r--r--  2.0 unx     2187 b- defN 25-Aug-13 12:20 io/jooby/internal/cli/JLineCompleter.class
+│  -rw-r--r--  2.0 unx      378 b- defN 25-Aug-13 12:20 logback.xml
+│  -rw-r--r--  2.0 unx     5556 b- defN 25-Aug-13 12:20 META-INF/maven/io.jooby/jooby-cli/pom.xml
+│  -rw-r--r--  2.0 unx       52 b- defN 25-Aug-13 12:20 META-INF/maven/io.jooby/jooby-cli/pom.properties
+│ -62 files, 136696 bytes uncompressed, 83241 bytes compressed:  39.1%
+│ +62 files, 136692 bytes uncompressed, 83239 bytes compressed:  39.1%
+├── dependencies.properties
+│ @@ -1,12 +1,12 @@
+│  #Properties
+│  HikariCP.version=7.0.1
+│  Module-Name=io.jooby.cli
+│  archetype-packaging.version=3.2.1
+│ -argLine=-javaagent\:/home/runner/.m2/repository/org/mockito/mockito-core/5.18.0/mockito-core-5.18.0.jar
+│ +argLine=-javaagent\:/var/maven/.m2/repository/org/mockito/mockito-core/5.18.0/mockito-core-5.18.0.jar
+│  asm.version=9.8
+│  assertj-core.version=3.27.4
+│  avaje.inject.version=11.6
+│  avaje.jsonb.version=3.6
+│  avaje.validator.version=2.13
+│  aws-java-sdk.version=1.12.788
+│  bucket4j-core.version=8.0.1
+│ @@ -81,15 +81,15 @@
+│  maven-surefire-plugin.version=3.5.3
+│  maven-tiles-plugin.version=2.41
+│  maven.build.timestamp.format=yyyy-MM-dd HH\:mm\:ssa
+│  maven.compiler.release=21
+│  maven.compiler.source=21
+│  maven.compiler.target=21
+│  maven.javadoc.failOnError=false
+│ -maven.m2.repo=/home/runner/.m2/repository
+│ +maven.m2.repo=/var/maven/.m2/repository
+│  metrics.version=4.2.33
+│  mockito.agent=org/mockito/mockito-core/5.18.0/mockito-core-5.18.0.jar
+│  mockito.version=5.18.0
+│  moditec.version=1.3.0.Final
+│  mojo-executor.version=2.3.1
+│  netty.version=4.2.3.Final
+│  node.version=v20.11.0
+
+# previous issue included
+2 / 2 target/reference/io.jooby/jooby-cli-4.0.6.zip modules/jooby-cli/target/jooby-cli-4.0.6.zip
