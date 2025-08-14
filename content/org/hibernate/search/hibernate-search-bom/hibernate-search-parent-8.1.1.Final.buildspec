@@ -1,0 +1,26 @@
+# Central Repository coordinates for the Reference release (for multi-module, pick an arbitrary module)
+# Hibernate Search publishes multiple artifacts, all of which are created from a single multi-module Maven project:
+groupId=org.hibernate.search
+artifactId=hibernate-search-bom
+version=8.1.1.Final
+
+display=${groupId}:hibernate-search
+
+# Source code
+gitRepo=https://github.com/hibernate/hibernate-search.git
+gitTag=${version}
+
+# Rebuild environment prerequisites
+tool=mvn-3.9.11
+jdk=21
+newline=lf
+workdir=/var/lib/jenkins/workspace/hibernate-search-release_main
+
+# Rebuild command
+command="mvn clean package -Pskip-checks -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dno-build-cache"
+
+# Location of the buildinfo file generated during rebuild (by artifact:compare for Maven) to record output fingerprints:
+buildinfo=target/hibernate-search-parent-${version}.buildinfo
+
+# Link to the Hibernate Search issue tracker if any issues had to be reported:
+# issue=https://hibernate.atlassian.net/browse/HSEARCH
