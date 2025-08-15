@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/sentrysoftware/maven-skin-tools.git](https://github.com/sentrysoftware/maven-skin-tools.git)
 
-rebuilding **4 releases** of org.sentrysoftware.maven:maven-skin-tools:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **5 releases** of org.sentrysoftware.maven:maven-skin-tools:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.4.00](https://central.sonatype.com/artifact/org.sentrysoftware.maven/maven-skin-tools/1.4.00/pom) | | | |
+| [1.4.00](https://central.sonatype.com/artifact/org.sentrysoftware.maven/maven-skin-tools/1.4.00/pom) | [mvn jdk17](maven-skin-tools-1.4.00.buildspec) | [result](maven-skin-tools-1.4.00.buildinfo): [3 :white_check_mark: ](maven-skin-tools-1.4.00.buildcompare) | | 56K |
 | [1.3.00](https://central.sonatype.com/artifact/org.sentrysoftware.maven/maven-skin-tools/1.3.00/pom) | [mvn jdk17](maven-skin-tools-1.3.00.buildspec) | [result](maven-skin-tools-1.3.00.buildinfo): [3 :white_check_mark: ](maven-skin-tools-1.3.00.buildcompare) | | 65K |
 | [1.2.00](https://central.sonatype.com/artifact/org.sentrysoftware.maven/maven-skin-tools/1.2.00/pom) | [mvn jdk17](maven-skin-tools-1.2.00.buildspec) | [result](maven-skin-tools-1.2.00.buildinfo): [3 :white_check_mark: ](maven-skin-tools-1.2.00.buildcompare) | | 61K |
 | [1.1.00](https://central.sonatype.com/artifact/org.sentrysoftware.maven/maven-skin-tools/1.1.00/pom) | [mvn jdk17](maven-skin-tools-1.1.00.buildspec) | [result](maven-skin-tools-1.1.00.buildinfo): [3 :white_check_mark: ](maven-skin-tools-1.1.00.buildcompare) | | 60K |
