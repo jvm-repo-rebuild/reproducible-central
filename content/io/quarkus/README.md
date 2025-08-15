@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quarkusio/quarkus.git)
 
-<details><summary>This project defines 1071 modules:</summary>
+<details><summary>This project defines 1075 modules:</summary>
 
 * [io.quarkus.arc:arc](https://central.sonatype.com/artifact/io.quarkus.arc/arc/overview)
 * [io.quarkus.arc:arc-arquillian](https://central.sonatype.com/artifact/io.quarkus.arc/arc-arquillian/overview)
@@ -113,6 +113,7 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-bootstrap-core](https://central.sonatype.com/artifact/io.quarkus/quarkus-bootstrap-core/overview)
 * [io.quarkus:quarkus-bootstrap-gradle-resolver](https://central.sonatype.com/artifact/io.quarkus/quarkus-bootstrap-gradle-resolver/overview)
 * [io.quarkus:quarkus-bootstrap-maven-resolver](https://central.sonatype.com/artifact/io.quarkus/quarkus-bootstrap-maven-resolver/overview)
+* [io.quarkus:quarkus-bootstrap-maven4-resolver](https://central.sonatype.com/artifact/io.quarkus/quarkus-bootstrap-maven4-resolver/overview)
 * [io.quarkus:quarkus-bootstrap-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-bootstrap-parent/overview)
 * [io.quarkus:quarkus-bootstrap-runner](https://central.sonatype.com/artifact/io.quarkus/quarkus-bootstrap-runner/overview)
 * [io.quarkus:quarkus-build-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-build-parent/overview)
@@ -319,6 +320,7 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-hibernate-orm-derby](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-orm-derby/overview)
 * [io.quarkus:quarkus-hibernate-orm-derby-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-orm-derby-deployment/overview)
 * [io.quarkus:quarkus-hibernate-orm-derby-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-orm-derby-parent/overview)
+* [io.quarkus:quarkus-hibernate-orm-dev](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-orm-dev/overview)
 * [io.quarkus:quarkus-hibernate-orm-panache](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-orm-panache/overview)
 * [io.quarkus:quarkus-hibernate-orm-panache-common](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-orm-panache-common/overview)
 * [io.quarkus:quarkus-hibernate-orm-panache-common-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-orm-panache-common-deployment/overview)
@@ -354,12 +356,14 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-hibernate-search-orm-coordination-outbox-polling-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-search-orm-coordination-outbox-polling-deployment/overview)
 * [io.quarkus:quarkus-hibernate-search-orm-elasticsearch](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-search-orm-elasticsearch/overview)
 * [io.quarkus:quarkus-hibernate-search-orm-elasticsearch-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-search-orm-elasticsearch-deployment/overview)
+* [io.quarkus:quarkus-hibernate-search-orm-elasticsearch-dev](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-search-orm-elasticsearch-dev/overview)
 * [io.quarkus:quarkus-hibernate-search-orm-elasticsearch-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-search-orm-elasticsearch-parent/overview)
 * [io.quarkus:quarkus-hibernate-search-orm-outbox-polling](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-search-orm-outbox-polling/overview)
 * [io.quarkus:quarkus-hibernate-search-orm-outbox-polling-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-search-orm-outbox-polling-deployment/overview)
 * [io.quarkus:quarkus-hibernate-search-orm-outbox-polling-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-search-orm-outbox-polling-parent/overview)
 * [io.quarkus:quarkus-hibernate-search-standalone-elasticsearch](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-search-standalone-elasticsearch/overview)
 * [io.quarkus:quarkus-hibernate-search-standalone-elasticsearch-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-search-standalone-elasticsearch-deployment/overview)
+* [io.quarkus:quarkus-hibernate-search-standalone-elasticsearch-dev](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-search-standalone-elasticsearch-dev/overview)
 * [io.quarkus:quarkus-hibernate-search-standalone-elasticsearch-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-search-standalone-elasticsearch-parent/overview)
 * [io.quarkus:quarkus-hibernate-validator](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-validator/overview)
 * [io.quarkus:quarkus-hibernate-validator-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-hibernate-validator-deployment/overview)
@@ -1082,14 +1086,14 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **101 releases** of io.quarkus:quarkus-project:
+rebuilding **102 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 101 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 12, 0 had all their differences removed :recycle:, 12 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 102 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 13, 0 had all their differences removed :recycle:, 13 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.26.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.26.0.CR1/pom) | | | |
+| [3.26.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.26.0.CR1/pom) | [mvn jdk21](quarkus-3.26.0.CR1.buildspec) | [result](quarkus-project-3.26.0.CR1.buildinfo): [2361 :white_check_mark:  1 :warning:](quarkus-project-3.26.0.CR1.buildcompare) [:mag:](quarkus-project-3.26.0.CR1.diffoscope) | 1 :rotating_light: | 134M |
 | [3.25.3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.25.3/pom) | [mvn jdk21](quarkus-3.25.3.buildspec) | [result](quarkus-project-3.25.3.buildinfo): [2347 :white_check_mark:  3 :warning:](quarkus-project-3.25.3.buildcompare) | 2 :recycle: 1 :rotating_light: | 134M |
 | [3.25.2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.25.2/pom) | [mvn jdk21](quarkus-3.25.2.buildspec) | [result](quarkus-project-3.25.2.buildinfo): [2346 :white_check_mark:  4 :warning:](quarkus-project-3.25.2.buildcompare) | 2 :recycle: 2 :rotating_light: | 134M |
 | [3.25.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.25.1/pom) | [mvn jdk21](quarkus-3.25.1.buildspec) | [result](quarkus-project-3.25.1.buildinfo): [2346 :white_check_mark:  4 :warning:](quarkus-project-3.25.1.buildcompare) | 2 :recycle: 2 :rotating_light: | 134M |
