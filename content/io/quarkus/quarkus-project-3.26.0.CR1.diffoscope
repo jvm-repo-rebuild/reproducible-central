@@ -1,0 +1,94 @@
+1 / 1 target/reference/io.quarkus/quarkus-cli-3.26.0.CR1-runner.jar devtools/cli/target/quarkus-cli-3.26.0.CR1-runner.jar
+--- target/reference/io.quarkus/quarkus-cli-3.26.0.CR1-runner.jar
++++ devtools/cli/target/quarkus-cli-3.26.0.CR1-runner.jar
+├── zipinfo {}
+│ @@ -1,18931 +1,18931 @@
+│ -Zip file size: 27163839 bytes, number of entries: 18929
+│ --rw----     2.0 fat      196 bX defN 25-Aug-13 12:29 META-INF/MANIFEST.MF
+│ --rw----     1.0 fat        0 bx stor 25-Aug-13 12:29 META-INF/
+│ --rw----     1.0 fat        0 bx stor 25-Aug-13 12:29 io/
+│ --rw----     1.0 fat        0 bx stor 25-Aug-13 12:29 io/quarkus/
+...
+│ --rw----     2.0 fat       42 bX defN 25-Aug-13 12:29 META-INF/services/jakarta.enterprise.inject.spi.Extension
+│ --rw----     2.0 fat     9280 bX defN 25-Aug-13 12:29 META-INF/sisu/javax.inject.Named
+│ -18929 files, 56646274 bytes uncompressed, 22780437 bytes compressed:  59.8%
+│ +Zip file size: 27163834 bytes, number of entries: 18929
+│ +-rw----     2.0 fat      196 bX defN 25-Aug-15 08:22 META-INF/MANIFEST.MF
+│ +-rw----     1.0 fat        0 bx stor 25-Aug-15 08:22 META-INF/
+│ +-rw----     1.0 fat        0 bx stor 25-Aug-15 08:22 io/
+│ +-rw----     1.0 fat        0 bx stor 25-Aug-15 08:22 io/quarkus/
+...
+│ +-rw----     2.0 fat       42 bX defN 25-Aug-15 08:22 META-INF/services/jakarta.enterprise.inject.spi.Extension
+│ +-rw----     2.0 fat     9280 bX defN 25-Aug-15 08:22 META-INF/sisu/javax.inject.Named
+│ +18929 files, 56646243 bytes uncompressed, 22780432 bytes compressed:  59.8%
+├── io/quarkus/runtime/generated/BuildTimeRunTimeFixedConfigSourceBuilder.class
+│┄ 'procyon' not available in path. Falling back to binary comparison. Installing the 'procyon-decompiler' package may produce better output.
+...
+├── io/quarkus/runtime/generated/SharedConfig.class
+│┄ 'procyon' not available in path. Falling back to binary comparison. Installing the 'procyon-decompiler' package may produce better output.
+...
+├── io/quarkus/runtime/generated/StaticInitConfigCustomizer.class
+│┄ 'procyon' not available in path. Falling back to binary comparison. Installing the 'procyon-decompiler' package may produce better output.
+│ @@ -164,15 +164,15 @@
+│  00000a80: 00a2 0095 0900 4d00 a301 0009 6d61 7070  ......M.....mapp
+│  00000a90: 696e 6724 340c 00a5 0095 0900 4d00 a601  ing$4.......M...
+│ -00000aa0: 0009 6d61 7070 696e 6724 310c 00a8 0095  ..mapping$1.....
+│ +00000aa0: 0009 6d61 7070 696e 6724 320c 00a8 0095  ..mapping$2.....
+│  00000ab0: 0900 4d00 a901 0004 436f 6465 1031 0002  ..M.....Code.1..
+│  00000ac0: 0004 0001 0006 0001 0008 000b 000c 0000  ................
+├── io/quarkus/runtime/generated/RunTimeConfigCustomizer.class
+│┄ 'procyon' not available in path. Falling back to binary comparison. Installing the 'procyon-decompiler' package may produce better output.
+│ @@ -164,17 +164,17 @@
+│  00000a80: 6e67 2437 0c00 a200 9509 004d 00a3 0100  ng$7.......M....
+│  00000a90: 096d 6170 7069 6e67 2434 0c00 a500 9509  .mapping$4......
+│ -00000aa0: 004d 00a6 0100 096d 6170 7069 6e67 2431  .M.....mapping$1
+│ +00000aa0: 004d 00a6 0100 096d 6170 7069 6e67 2432  .M.....mapping$2
+│  00000ab0: 0c00 a800 9509 004d 00a9 0100 096d 6170  .......M.....map
+│ -00000ac0: 7069 6e67 2432 0c00 ab00 9509 004d 00ac  ping$2.......M..
+│ +00000ac0: 7069 6e67 2431 0c00 ab00 9509 004d 00ac  ping$1.......M..
+│  00000ad0: 0100 0b77 6974 684d 6170 7069 6e67 0c00  ...withMapping..
+│  00000ae0: ae00 990a 0004 00af 0100 096d 6170 7069  ...........mappi
+├── io/quarkus/arc/setup/Default_ComponentsProvider.class
+│┄ 'procyon' not available in path. Falling back to binary comparison. Installing the 'procyon-decompiler' package may produce better output.
+│ @@ -76,21 +76,21 @@
+│  00000500: 0052 0100 256a 616b 6172 7461 2e65 6e74  .R..%jakarta.ent
+│  00000510: 6572 7072 6973 652e 696e 6a65 6374 2e49  erprise.inject.I
+│ -00000520: 6e74 6572 6365 7074 6564 0800 5401 0023  ntercepted..T..#
+│ -00000530: 696f 2e71 7561 726b 7573 2e6e 6574 7479  io.quarkus.netty
+│ -00000540: 2e42 6f73 7345 7665 6e74 4c6f 6f70 4772  .BossEventLoopGr
+│ -00000550: 6f75 7008 0056 0100 356f 7267 2e65 636c  oup..V..5org.ecl
+│ -00000560: 6970 7365 2e6d 6963 726f 7072 6f66 696c  ipse.microprofil
+│ -00000570: 652e 636f 6e66 6967 2e69 6e6a 6563 742e  e.config.inject.
+│ -00000580: 436f 6e66 6967 5072 6f70 6572 7479 0800  ConfigProperty..
+│ +00000520: 6e74 6572 6365 7074 6564 0800 5401 0035  ntercepted..T..5
+│ +00000530: 6f72 672e 6563 6c69 7073 652e 6d69 6372  org.eclipse.micr
+│ +00000540: 6f70 726f 6669 6c65 2e63 6f6e 6669 672e  oprofile.config.
+│ +00000550: 696e 6a65 6374 2e43 6f6e 6669 6750 726f  inject.ConfigPro
+│ +00000560: 7065 7274 7908 0056 0100 2369 6f2e 7175  perty..V..#io.qu
+│ +00000570: 6172 6b75 732e 6e65 7474 792e 426f 7373  arkus.netty.Boss
+│ +00000580: 4576 656e 744c 6f6f 7047 726f 7570 0800  EventLoopGroup..
+│  00000590: 5801 0026 6a61 6b61 7274 612e 656e 7465  X..&jakarta.ente
+│  000005a0: 7270 7269 7365 2e63 6f6e 7465 7874 2e49  rprise.context.I
+├── io/quarkus/qute/runtime/TemplateProducer_Bean.class
+├── io/quarkus/picocli/runtime/DefaultPicocliCommandLineFactory_Bean.class
+├── io/quarkus/qute/runtime/EngineProducer_Bean.class
+├── io/quarkus/qute/runtime/extensions/TimeTemplateExtensions_Namespace_Extension_ValueResolver_714eea0f4c980736bde0065fe73f573487f08e3a_5$$function$$1.class
+├── io/quarkus/qute/runtime/extensions/TimeTemplateExtensions_Namespace_Extension_ValueResolver_714eea0f4c980736bde0065fe73f573487f08e3a_5$$function$$3.class
+├── io/quarkus/qute/runtime/extensions/TimeTemplateExtensions_Namespace_Extension_ValueResolver_714eea0f4c980736bde0065fe73f573487f08e3a_5.class
+├── io/quarkus/qute/runtime/extensions/ConfigTemplateExtensions_Namespace_Extension_ValueResolver_dfba7aade0868074c2861c98e2a9a92f3178a51b_7$$function$$1.class
+├── io/quarkus/qute/runtime/extensions/ConfigTemplateExtensions_Namespace_Extension_ValueResolver_dfba7aade0868074c2861c98e2a9a92f3178a51b_7$$function$$2.class
+├── io/quarkus/qute/runtime/extensions/ConfigTemplateExtensions_Namespace_Extension_ValueResolver_dfba7aade0868074c2861c98e2a9a92f3178a51b_7.class
+├── io/quarkus/runner/recorded/JacksonProcessor$jacksonSupport1959914842.class
+├── io/quarkus/runner/recorded/QuteProcessor$initialize1942259851.class
+├── io/quarkus/runner/recorded/SyntheticBeansProcessor$initStatic1190120725.class
+├── io/quarkus/runner/recorded/ArcProcessor$initializeContainer1770303700.class
+├── io/quarkus/runner/recorded/ArcProcessor$notifyBeanContainerListeners1304312071.class
+├── io/quarkus/runner/recorded/QuteProcessor$initializeGeneratedClasses1960914558.class
+├── io/quarkus/runner/recorded/NettyProcessor$registerEventLoopBeans705363396.class
+├── io/quarkus/runner/recorded/ThreadPoolSetup$createExecutor2117483448.class
+├── io/quarkus/runner/recorded/ConfigGenerationBuildStep$checkForBuildTimeConfigChange1532146938.class
+├── io/quarkus/runner/recorded/ArcProcessor$setupExecutor1831044820.class
+├── io/quarkus/runner/recorded/LoggingResourceProcessor$setupLoggingRuntimeInit1072790680.class
+├── io/quarkus/runner/recorded/ShutdownListenerBuildStep$setupShutdown1533204416.class
+├── io/quarkus/runner/recorded/SyntheticBeansProcessor$initRuntime975230615.class
+├── io/quarkus/runner/ApplicationImpl.class
