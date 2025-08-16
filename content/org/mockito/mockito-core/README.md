@@ -19,13 +19,14 @@ Source code: [https://github.com/mockito/mockito.git](https://github.com/mockito
 * [org.mockito:mockito-subclass](https://central.sonatype.com/artifact/org.mockito/mockito-subclass/overview)
 </details>
 
-rebuilding **35 releases** of org.mockito:mockito-core:
+rebuilding **36 releases** of org.mockito:mockito-core:
 - **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 1 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [5.19.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.19.0/pom) | | | |
+| [5.19.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.19.0/pom) | [gradle jdk21](mockito-5.19.0.buildspec) | [result](mockito-core-5.19.0.buildinfo): [16 :white_check_mark:  3 :warning:](mockito-core-5.19.0.buildcompare) [:memo:](https://github.com/JuyeopJang/mockito/commit/ecc3bcbca825ad51dee6c5baee45f8c7571329d8) | 3 :recycle: | 1.3M |
 | [5.18.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.18.0/pom) | [gradle jdk21](mockito-5.18.0.buildspec) | [result](mockito-core-5.18.0.buildinfo): [16 :white_check_mark:  3 :warning:](mockito-core-5.18.0.buildcompare) [:memo:](https://github.com/mockito/mockito/issues/3563) | - | 1.3M |
 | [5.17.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.17.0/pom) | [gradle jdk21](mockito-5.17.0.buildspec) | [result](mockito-core-5.17.0.buildinfo): [16 :white_check_mark:  3 :warning:](mockito-core-5.17.0.buildcompare) [:memo:](https://github.com/mockito/mockito/issues/3563) | - | 1.3M |
 | [5.16.1](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.16.1/pom) | [gradle jdk21](mockito-5.16.1.buildspec) | [result](mockito-core-5.16.1.buildinfo): [16 :white_check_mark:  3 :warning:](mockito-core-5.16.1.buildcompare) [:memo:](https://github.com/mockito/mockito/issues/3563) | - | 1.3M |
