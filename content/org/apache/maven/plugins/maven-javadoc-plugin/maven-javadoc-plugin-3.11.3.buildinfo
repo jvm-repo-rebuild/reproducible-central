@@ -1,0 +1,55 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Javadoc Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-javadoc-plugin
+version=3.11.3
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/maven-javadoc-plugin.git
+source.scm.tag=maven-javadoc-plugin-3.11.3
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-javadoc-plugin-3.11.3.pom
+outputs.0.length=21345
+outputs.0.checksums.sha512=160b1caf176f25276a39bb27936d2f5c430d1a44c2e4e0b2045c4284ee0b343db81f8d787411f18bfe62ebd82d600af5cd82936fc6ad2c4358a858eee59ef98d
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-javadoc-plugin-3.11.3.jar
+outputs.1.length=528665
+outputs.1.checksums.sha512=b01bbca566d2214ebca074fcb0104233c94c46f051bdbb58135dc20761f11223a21c3accfe3908e24b27778cbc693c67eba34ca90433a68257a7a4de62f25058
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-javadoc-plugin-3.11.3-source-release.zip
+outputs.2.length=3666047
+outputs.2.checksums.sha512=64095bf157c85c61e4f2d2f2b13a0cc4a1c19cf525498827e8ece3be6790b5d94a3526a278c24b03999a14012d7753aef252032b668f6a17e9311bddfa538fdf
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-javadoc-plugin-3.11.3-sources.jar
+outputs.3.length=192933
+outputs.3.checksums.sha512=b60bd7d8d5c93701ae40356efc730fcc5f21eaf1700ab6f4761731412407e7d96ca1076fafeb399d56631daa5a965f5b6aeeeabda2970d62990ff2578f3d91c9
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-javadoc-plugin-3.11.3-cyclonedx.xml
+outputs.4.length=209448
+outputs.4.checksums.sha512=2b873e7496b87bfcc66fde534ff7e6fd5b0164719d7bd539262a4b3c29ee9e1a1fb78c9709f22aaff9733b418d277f6a94d67055a4a1b494313dc6e786f131bf
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-javadoc-plugin-3.11.3-cyclonedx.json
+outputs.5.length=227101
+outputs.5.checksums.sha512=4baf0bf977cafbc49210726f0371bc24b5d3b6cd855b5e75a70842eb73c270a3bb333cdbda9d694b1b07ce3658de7a63144a75d203a998e75adb9cb275e47e4b

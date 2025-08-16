@@ -1,0 +1,9 @@
+version=3.11.3
+ok=6
+ko=0
+ignored=0
+okFiles="maven-javadoc-plugin-3.11.3.pom maven-javadoc-plugin-3.11.3.jar maven-javadoc-plugin-3.11.3-source-release.zip maven-javadoc-plugin-3.11.3-sources.jar maven-javadoc-plugin-3.11.3-cyclonedx.xml maven-javadoc-plugin-3.11.3-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
