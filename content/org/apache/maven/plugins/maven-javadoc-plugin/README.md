@@ -13,6 +13,7 @@ rebuilding **16 releases** of org.apache.maven.plugins:maven-javadoc-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.11.3](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin/3.11.3/pom) | | | |
 | [3.11.2](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin/3.11.2/pom) | [mvn jdk21](maven-javadoc-plugin-3.11.2.buildspec) | [result](maven-javadoc-plugin-3.11.2.buildinfo): [6 :white_check_mark: ](maven-javadoc-plugin-3.11.2.buildcompare) | | 4.6M |
 | [3.11.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin/3.11.1/pom) | [mvn jdk11 w](maven-javadoc-plugin-3.11.1.buildspec) | [result](maven-javadoc-plugin-3.11.1.buildinfo): [6 :white_check_mark: ](maven-javadoc-plugin-3.11.1.buildcompare) | | 4.6M |
 | [3.10.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin/3.10.1/pom) | [mvn jdk8 w](maven-javadoc-plugin-3.10.1.buildspec) | [result](maven-javadoc-plugin-3.10.1.buildinfo): [6 :white_check_mark: ](maven-javadoc-plugin-3.10.1.buildcompare) | | 4.6M |

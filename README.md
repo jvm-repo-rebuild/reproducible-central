@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods enabling the verification of reproducible Java builds**](doc/TOOLS.md)
 2) [**A list of reproducible releases available on Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **8201 releases** of **900 projects**:
-   - **5957** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 2244 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **8203 releases** of **900 projects**:
+   - **5958** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 2245 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 900 projects, 796 have at least one fully reproducible release, 104 have none
 
 <!-- END GENERATED INTRO -->
@@ -830,7 +830,7 @@ Its objectives are to provide:
 | | [wmi-java](content/org/metricshub/wmi-java/README.md) | 3 | 3 :white_check_mark: |
 | | [xflat](content/org/metricshub/xflat/README.md) | 1 | 1 :white_check_mark: |
 | org.metricshub.maven | [metricshub-connector-maven-plugin](content/org/metricshub/maven/metricshub-connector-maven-plugin/README.md) | 4 | 4 :white_check_mark: |
-| org.mockito | [mockito-core](content/org/mockito/mockito-core/README.md) | 35 | 27 :white_check_mark: / 8 :warning: |
+| org.mockito | [mockito-core](content/org/mockito/mockito-core/README.md) | 36 | 27 :white_check_mark: / 9 :warning: |
 | org.moditect.layrry | [layrry-aggregator](content/org/moditect/layrry/README.md) | 1 | 1 :white_check_mark: |
 | org.moditect | [moditect](content/org/moditect/moditect/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
 | org.mybatis | [base-bundle-descriptor](content/org/mybatis/base-bundle-descriptor/README.md) | 3 | 3 :white_check_mark: |
@@ -880,7 +880,7 @@ Its objectives are to provide:
 | | [winrm](content/org/sentrysoftware/winrm/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
 | | [wmi](content/org/sentrysoftware/wmi/README.md) | 3 | 3 :white_check_mark: |
 | | [xflat](content/org/sentrysoftware/xflat/README.md) | 2 | 2 :white_check_mark: |
-| org.sentrysoftware.maven | [maven-skin-tools](content/org/sentrysoftware/maven/maven-skin-tools/README.md) | 4 | 4 :white_check_mark: |
+| org.sentrysoftware.maven | [maven-skin-tools](content/org/sentrysoftware/maven/maven-skin-tools/README.md) | 5 | 5 :white_check_mark: |
 | | [metricshub-connector-maven-plugin](content/org/sentrysoftware/maven/metricshub-connector-maven-plugin/README.md) | 9 | 9 :white_check_mark: |
 | | [sentry-maven-skin](content/org/sentrysoftware/maven/sentry-maven-skin/README.md) | 9 | 9 :white_check_mark: |
 | org.simplify4u | [pgp-keys-map](content/org/simplify4u/pgp-keys-map/README.md) | 23 | 23 :white_check_mark: |
@@ -923,7 +923,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 8 | 8 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 42 | 41 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 21 | 3 :white_check_mark: / 18 :warning: |
-| **Count:** | **900** | **8201** | **5957** :white_check_mark:<br>**2244** :warning: |
+| **Count:** | **900** | **8203** | **5958** :white_check_mark:<br>**2245** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -936,7 +936,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 ```
      33 gradle     11
     148 gradle     17
-    105 gradle     21
+    106 gradle     21
       2 gradle     24
      35 mvn         7
    1545 mvn         8
@@ -950,7 +950,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn        14
      10 mvn        15
      14 mvn        16
-    667 mvn        17
+    668 mvn        17
       1 mvn        17.0.10
       2 mvn        17.0.11
       1 mvn        17.0.12
