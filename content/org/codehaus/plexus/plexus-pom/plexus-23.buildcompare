@@ -1,0 +1,7 @@
+version=23
+ok=3
+ko=0
+ignored=0
+okFiles="plexus-23.pom plexus-23-site.xml plexus-23-source-release.zip"
+koFiles=""
+ignoredFiles=""
