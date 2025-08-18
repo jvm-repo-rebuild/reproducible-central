@@ -1,0 +1,9 @@
+version=0.12.1
+ok=28
+ko=0
+ignored=0
+okFiles="heylogs-parent-0.12.1.pom heylogs-api-0.12.1.pom heylogs-api-0.12.1.jar heylogs-api-0.12.1-sources.jar heylogs-api-0.12.1-tests.jar heylogs-ext-forgejo-0.12.1.pom heylogs-ext-forgejo-0.12.1.jar heylogs-ext-forgejo-0.12.1-sources.jar heylogs-ext-github-0.12.1.pom heylogs-ext-github-0.12.1.jar heylogs-ext-github-0.12.1-sources.jar heylogs-ext-gitlab-0.12.1.pom heylogs-ext-gitlab-0.12.1.jar heylogs-ext-gitlab-0.12.1-sources.jar heylogs-ext-json-0.12.1.pom heylogs-ext-json-0.12.1.jar heylogs-ext-json-0.12.1-sources.jar heylogs-ext-semver-0.12.1.pom heylogs-ext-semver-0.12.1.jar heylogs-ext-semver-0.12.1-sources.jar heylogs-cli-0.12.1.pom heylogs-cli-0.12.1.jar heylogs-cli-0.12.1-sources.jar heylogs-cli-0.12.1-bin.jar heylogs-maven-plugin-0.12.1.pom heylogs-maven-plugin-0.12.1.jar heylogs-maven-plugin-0.12.1-sources.jar heylogs-bom-0.12.1.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
