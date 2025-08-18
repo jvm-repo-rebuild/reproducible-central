@@ -16,15 +16,15 @@ Source code: [https://github.com/jpmml/jpmml-sparkml.git](https://github.com/jpm
 * [org.jpmml:pmml-sparkml-xgboost](https://central.sonatype.com/artifact/org.jpmml/pmml-sparkml-xgboost/overview)
 </details>
 
-rebuilding **35 releases** of org.jpmml:jpmml-sparkml:
+rebuilding **36 releases** of org.jpmml:jpmml-sparkml:
 - **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 17 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 1 had all their differences removed :recycle:
+- 18 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 2 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [3.2.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.2.0/pom) | [mvn jdk17](jpmml-sparkml-3.2.0.buildspec) | [result](jpmml-sparkml-3.2.0.buildinfo): [5 :white_check_mark:  8 :warning:](jpmml-sparkml-3.2.0.buildcompare) | 8 :recycle: | 360K |
-| [3.1.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.1.1/pom) | | | |
+| [3.1.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.1.1/pom) | [mvn jdk11](jpmml-sparkml-3.1.1.buildspec) | [result](jpmml-sparkml-3.1.1.buildinfo): [5 :white_check_mark:  8 :warning:](jpmml-sparkml-3.1.1.buildcompare) | 8 :recycle: | 356K |
 | [3.1.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.1.0/pom) | [mvn jdk11](jpmml-sparkml-3.1.0.buildspec) | [result](jpmml-sparkml-3.1.0.buildinfo): [5 :white_check_mark:  8 :warning:](jpmml-sparkml-3.1.0.buildcompare) | - | 358K |
 | [3.0.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.0.1/pom) | | | |
 | [3.0.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.0.0/pom) | [mvn jdk11](jpmml-sparkml-3.0.0.buildspec) | [result](jpmml-sparkml-3.0.0.buildinfo): [5 :white_check_mark:  8 :warning:](jpmml-sparkml-3.0.0.buildcompare) | - | 358K |
