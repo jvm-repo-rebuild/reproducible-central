@@ -1,0 +1,80 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-SparkML
+group-id=org.jpmml
+artifact-id=jpmml-sparkml
+version=3.0.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-sparkml.git
+source.scm.tag=3.0.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.23
+java.vendor=Azul Systems, Inc.
+os.name=Mac OS X
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+mvn.aggregate.artifact-id=pmml-sparkml-xgboost
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-sparkml
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-sparkml-3.0.1.pom
+outputs.0.0.length=7413
+outputs.0.0.checksums.sha512=668fafb09cb3bf19a368f7b40b5b0b42e71049dec266dd37b0906f55052991b19b15b89d9c4375e2b9d22042ba0f305eff10658e796d37cdcbb5decb8ebfdd98
+
+outputs.1.coordinates=org.jpmml:pmml-sparkml
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-sparkml-3.0.1.pom
+outputs.1.0.length=2567
+outputs.1.0.checksums.sha512=8f8c03e05e5d4c2ba7c99e0ee7f19698c318eb885419f21bdc19a7141453cf1794de6d3aa252bb78bf0bd50e40513357c9f7c93fd17a39bb2dace9e45abf252a
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-sparkml-3.0.1.jar
+outputs.1.1.length=202192
+outputs.1.1.checksums.sha512=b995cbab8f5d1d40832d56025f9234969b19f38ac010c4086f1c87e81d725b1fec3cbb550cdb24fd44c81a684f8c4cab25a626dc861ede0cf7af0a3701cd203e
+
+outputs.2.coordinates=org.jpmml:pmml-sparkml-evaluator
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-sparkml-evaluator-3.0.1.pom
+outputs.2.0.length=1161
+outputs.2.0.checksums.sha512=0ffa3a046a5e3f1b2584da36e9241ba079513f4a8222d56d3ee994f28faaeae1c3e1351dade3fcb38c9b3c7d5b406bd673e3bd5fb373900ccf7c41415cb76c8c
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-sparkml-evaluator-3.0.1.jar
+outputs.2.1.length=3688
+outputs.2.1.checksums.sha512=1aa1c35e851af977a063b958890ae23192c57baec85078bc1eb5cb32364d35b4047269c56def73fe39f923104ce8f908746245d32db746c1eb448602a2a33190
+
+outputs.3.coordinates=org.jpmml:pmml-sparkml-lightgbm
+
+outputs.3.0.groupId=org.jpmml
+outputs.3.0.filename=pmml-sparkml-lightgbm-3.0.1.pom
+outputs.3.0.length=1665
+outputs.3.0.checksums.sha512=a19657276b89d5fa59224d25a0efb9ace06cbf09cb154343579f10f28bf6f9905423013d821881220d5125c996b4fa8a8f9ec0f25fedff601478cd33885b5e89
+
+outputs.3.1.groupId=org.jpmml
+outputs.3.1.filename=pmml-sparkml-lightgbm-3.0.1.jar
+outputs.3.1.length=6059
+outputs.3.1.checksums.sha512=49985d0c3ed63ef21c2372b710f03d0e2667219e4e32de02f308af824f66dec06cbfb974b27b9766ea9df61d9e6333d5695b8922b0d981ed1b1201f525b9debe
+
+outputs.4.coordinates=org.jpmml:pmml-sparkml-xgboost
+
+outputs.4.0.groupId=org.jpmml
+outputs.4.0.filename=pmml-sparkml-xgboost-3.0.1.pom
+outputs.4.0.length=1646
+outputs.4.0.checksums.sha512=8a33f9605bfc8bd0fd1f13aa408413cda0957b04235ab19cf57b0d1537f0dfd43c0e9caa31349a04cb2e9783f96a3e6fe45aa46f94403dbcd49e387eaa5c546b
+
+outputs.4.1.groupId=org.jpmml
+outputs.4.1.filename=pmml-sparkml-xgboost-3.0.1.jar
+outputs.4.1.length=7135
+outputs.4.1.checksums.sha512=811ea7f7a6b66302bd94348216afb4d8618f6a7937aae0f3f122b7ae9c932c74ff79f31790c5c19ae7cdf8eb53f6f44274220b6e91fbd263f8c48669a140ae44
