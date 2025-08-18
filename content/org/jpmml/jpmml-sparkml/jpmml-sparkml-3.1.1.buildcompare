@@ -1,0 +1,23 @@
+version=3.1.1
+ok=5
+ko=8
+ignored=0
+okFiles="jpmml-sparkml-3.1.1.pom pmml-sparkml-3.1.1.pom pmml-sparkml-evaluator-3.1.1.pom pmml-sparkml-lightgbm-3.1.1.pom pmml-sparkml-xgboost-3.1.1.pom"
+koFiles="pmml-sparkml-3.1.1.jar pmml-sparkml-3.1.1-sources.jar pmml-sparkml-evaluator-3.1.1.jar pmml-sparkml-evaluator-3.1.1-sources.jar pmml-sparkml-lightgbm-3.1.1.jar pmml-sparkml-lightgbm-3.1.1-sources.jar pmml-sparkml-xgboost-3.1.1.jar pmml-sparkml-xgboost-3.1.1-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/pmml-sparkml-3.1.1.jar pmml-sparkml/target/pmml-sparkml-3.1.1.jar
+# diffoscope target/reference/org.jpmml/pmml-sparkml-3.1.1-sources.jar pmml-sparkml/target/pmml-sparkml-3.1.1-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-sparkml-evaluator-3.1.1.jar pmml-sparkml-evaluator/target/pmml-sparkml-evaluator-3.1.1.jar
+# diffoscope target/reference/org.jpmml/pmml-sparkml-evaluator-3.1.1-sources.jar pmml-sparkml-evaluator/target/pmml-sparkml-evaluator-3.1.1-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-sparkml-lightgbm-3.1.1.jar pmml-sparkml-lightgbm/target/pmml-sparkml-lightgbm-3.1.1.jar
+# diffoscope target/reference/org.jpmml/pmml-sparkml-lightgbm-3.1.1-sources.jar pmml-sparkml-lightgbm/target/pmml-sparkml-lightgbm-3.1.1-sources.jar
+# diffoscope target/reference/org.jpmml/pmml-sparkml-xgboost-3.1.1.jar pmml-sparkml-xgboost/target/pmml-sparkml-xgboost-3.1.1.jar
+# diffoscope target/reference/org.jpmml/pmml-sparkml-xgboost-3.1.1-sources.jar pmml-sparkml-xgboost/target/pmml-sparkml-xgboost-3.1.1-sources.jar
+stabilize_ok=8
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="pmml-sparkml-3.1.1.jar.stabilized pmml-sparkml-3.1.1-sources.jar.stabilized pmml-sparkml-evaluator-3.1.1.jar.stabilized pmml-sparkml-evaluator-3.1.1-sources.jar.stabilized pmml-sparkml-lightgbm-3.1.1.jar.stabilized pmml-sparkml-lightgbm-3.1.1-sources.jar.stabilized pmml-sparkml-xgboost-3.1.1.jar.stabilized pmml-sparkml-xgboost-3.1.1-sources.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""
