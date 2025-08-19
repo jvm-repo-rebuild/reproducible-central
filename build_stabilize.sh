@@ -8,22 +8,24 @@ compare=$1
 # relative path to source code, usually buildcache/${artifactId}
 builddir=$2
 
+verbose=$3
+
 stabilize () {
   file=$1
   [ -x ~/go/bin/stabilize ] || go install github.com/google/oss-rebuild/cmd/stabilize@dbdf78a8d293311c42192d40f72db0e54b63334b
-  echo "stabilize -infile $file"
-  ~/go/bin/stabilize -infile $file -outfile $file.stabilized
+  [ -n "$verbose" ] && echo "stabilize -infile $file"
+  ~/go/bin/stabilize -infile $file -outfile $file.stabilized 2> /dev/null
   if [ $? -ne 0 ]; then
-    echo "Stabilize failed for $file"
+   [ -n "$verbose" ] && echo "Stabilize failed for $file"
   fi
-  sha1sum $file.stabilized
+  [ -n "$verbose" ] && sha1sum $file.stabilized
 }
 
 count="$(grep "^# diffoscope" ${compare} | wc -l)"
 
 [ $count -eq 0 ] && echo "No issue found in $compare" && exit
 
-echo -e "running stabilize on $no non-native reproducible artifacts"
+echo -e "running stabilize on $count non-native reproducible artifacts"
 
 sed="sed"
 if [ "$(uname -s)" ==  "Darwin" ]
@@ -46,7 +48,7 @@ while read -r line; do
   reference=$(echo "$line" | cut -d' ' -f1)
   rebuild=$(echo "$line" | cut -d' ' -f2)
   
-  echo -e "$counter / $count \033[1m$line\033[0m"
+  [ -n "$verbose" ] && echo -e "$counter / $count \033[1m$line\033[0m"
 
   stabilize ${basedir}/$reference
   stabilize ${basedir}/$rebuild
@@ -57,7 +59,7 @@ while read -r line; do
   if [ ! -f ${basedir}/$reference_stabilized ] || [ ! -f ${basedir}/$rebuild_stabilized ]
   then
     ((stabilize_ignored++))
-    stabilize_ignoredFiles+=$(basename $reference_stabilized)' '
+    stabilize_ignoredFiles+=$(basename $reference)' '
   else
     diff -q ${basedir}/$reference_stabilized ${basedir}/$rebuild_stabilized
     if [ $? -eq 0 ]
@@ -70,7 +72,7 @@ while read -r line; do
       echo "# diffoscope $rebuild_stabilized $reference_stabilized"
     fi
   fi
-  echo
+  [ -n "$verbose" ] && echo
 done < <(grep '# diffoscope ' ${compare} | ${sed} -e 's/# diffoscope //')
 
 echo "stabilize_ok=$stabilize_ok
@@ -79,3 +81,5 @@ stabilize_ignored=$stabilize_ignored
 stabilize_okFiles=\"$( echo $stabilize_okFiles )\"
 stabilize_koFiles=\"$( echo $stabilize_koFiles )\"
 stabilize_ignoredFiles=\"$( echo $stabilize_ignoredFiles )\"" >> $compare
+
+grep stabilize_ $compare
