@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods enabling the verification of reproducible Java builds**](doc/TOOLS.md)
 2) [**A list of reproducible releases available on Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **8222 releases** of **900 projects**:
-   - **5967** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   rebuilding **8226 releases** of **900 projects**:
+   - **5971** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
    - 2255 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 900 projects, 796 have at least one fully reproducible release, 104 have none
 
@@ -79,7 +79,7 @@ Its objectives are to provide:
 | | [jfr-servlet](content/com/github/marschall/jfr-servlet/README.md) | 2 | 2 :white_check_mark: |
 | | [micrometer-jfr](content/com/github/marschall/micrometer-jfr/README.md) | 2 | 2 :white_check_mark: |
 | com.github.nbbrd.* | [beanzooka](content/com/github/nbbrd/beanzooka/README.md) | 1 | 1 :white_check_mark: |
-| | [heylogs](content/com/github/nbbrd/heylogs/README.md) | 7 | 7 :white_check_mark: |
+| | [heylogs](content/com/github/nbbrd/heylogs/README.md) | 8 | 8 :white_check_mark: |
 | | [java-console-properties](content/com/github/nbbrd/java-console-properties/README.md) | 1 | 1 :white_check_mark: |
 | | [java-design-util](content/com/github/nbbrd/java-design-util/README.md) | 4 | 4 :white_check_mark: |
 | | [java-desktop-util](content/com/github/nbbrd/java-desktop-util/README.md) | 4 | 4 :white_check_mark: |
@@ -95,7 +95,7 @@ Its objectives are to provide:
 | com.github.philippheuer.* | [credentialmanager](content/com/github/philippheuer/credentialmanager/README.md) | 1 | 1 :white_check_mark: |
 | com.github.seregamorph | [maven-surefire-cached](content/com/github/seregamorph/maven-surefire-cached/README.md) | 10 | 10 :white_check_mark: |
 | | [maven-turbo-builder](content/com/github/seregamorph/maven-turbo-builder/README.md) | 5 | 5 :white_check_mark: |
-| com.github.sitture | [env-config](content/com/github/sitture/env-config/README.md) | 12 | 6 :white_check_mark: / 6 :warning: |
+| com.github.sitture | [env-config](content/com/github/sitture/env-config/README.md) | 13 | 7 :white_check_mark: / 6 :warning: |
 | com.github.spotbugs | [spotbugs-maven-plugin](content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 33 | 33 :white_check_mark: |
 | com.github.veithen.* | [alta](content/com/github/veithen/alta/README.md) | 3 | 3 :white_check_mark: |
 | | [checkt](content/com/github/veithen/checkt/README.md) | 1 | 1 :white_check_mark: |
@@ -280,7 +280,7 @@ Its objectives are to provide:
 | io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 74 | 73 :white_check_mark: / 1 :warning: |
 | io.quarkus | [quarkus-project](content/io/quarkus/README.md) | 102 | 102 :warning: |
 | io.trino | [trino](content/io/trino/README.md) | 31 | 25 :white_check_mark: / 6 :warning: |
-| io.airlift | [airbase](content/io/airlift/airbase/README.md) | 133 | 127 :white_check_mark: / 6 :warning: |
+| io.airlift | [airbase](content/io/airlift/airbase/README.md) | 134 | 128 :white_check_mark: / 6 :warning: |
 | io.avaje | [avaje-applog](content/io/avaje/applog/README.md) | 2 | 2 :white_check_mark: |
 | | [avaje-config](content/io/avaje/config/README.md) | 2 | 2 :white_check_mark: |
 | | [avaje-config-toml](content/io/avaje/config-toml/README.md) | 2 | 2 :white_check_mark: |
@@ -297,7 +297,7 @@ Its objectives are to provide:
 | | [avaje-validator](content/io/avaje/validator/README.md) | 12 | 12 :white_check_mark: |
 | io.cucumber | [ci-environment](content/io/cucumber/ci-environment/README.md) | 3 | 3 :white_check_mark: |
 | | [cucumber-expressions](content/io/cucumber/cucumber-expressions/README.md) | 9 | 9 :white_check_mark: |
-| | [cucumber-jvm](content/io/cucumber/cucumber-jvm/README.md) | 30 | 30 :white_check_mark: |
+| | [cucumber-jvm](content/io/cucumber/cucumber-jvm/README.md) | 31 | 31 :white_check_mark: |
 | | [gherkin](content/io/cucumber/gherkin/README.md) | 23 | 23 :white_check_mark: |
 | | [gherkin-utils](content/io/cucumber/gherkin-utils/README.md) | 9 | 9 :white_check_mark: |
 | | [html-formatter](content/io/cucumber/html-formatter/README.md) | 21 | 19 :white_check_mark: / 2 :warning: |
@@ -923,7 +923,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 8 | 8 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 42 | 41 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 21 | 3 :white_check_mark: / 18 :warning: |
-| **Count:** | **900** | **8222** | **5967** :white_check_mark:<br>**2255** :warning: |
+| **Count:** | **900** | **8226** | **5971** :white_check_mark:<br>**2255** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -950,7 +950,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn        14
      10 mvn        15
      14 mvn        16
-    669 mvn        17
+    671 mvn        17
       1 mvn        17.0.10
       2 mvn        17.0.11
       1 mvn        17.0.12
@@ -961,7 +961,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn        18
      34 mvn        19
      17 mvn        20
-    674 mvn        21
+    675 mvn        21
      15 mvn        22
      15 mvn        23
      35 mvn        24
@@ -1065,7 +1065,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn-3.9.8  23
      95 mvn-3.9.9   8
     105 mvn-3.9.9  11
-    273 mvn-3.9.9  17
+    274 mvn-3.9.9  17
       2 mvn-3.9.9  18
     350 mvn-3.9.9  21
      13 mvn-3.9.9  21.0.2
