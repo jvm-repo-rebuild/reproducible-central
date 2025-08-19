@@ -21,13 +21,14 @@ Source code: [https://github.com/avaje/avaje-jsonb.git](https://github.com/avaje
 * [io.avaje:avaje-jsonb-spring-starter](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-spring-starter/overview)
 </details>
 
-rebuilding **29 releases** of io.avaje:avaje-jsonb-parent:
+rebuilding **30 releases** of io.avaje:avaje-jsonb-parent:
 - **29** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.7-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.7-RC2/pom) | | | |
+| [3.7-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.7-RC2/pom) | [mvn jdk24 w](avaje-jsonb-3.7-RC2.buildspec) | [result](avaje-jsonb-parent-3.7-RC2.buildinfo): [20 :white_check_mark:  3 :warning:](avaje-jsonb-parent-3.7-RC2.buildcompare) | 2 :rotating_light: 1 :no_entry_sign: | 771K |
 | [3.7-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.7-RC1/pom) | [mvn jdk21](avaje-jsonb-3.7-RC1.buildspec) | [result](avaje-jsonb-parent-3.7-RC1.buildinfo): [23 :white_check_mark: ](avaje-jsonb-parent-3.7-RC1.buildcompare) | | 769K |
 | [3.6](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.6/pom) | [mvn jdk21](avaje-jsonb-3.6.buildspec) | [result](avaje-jsonb-parent-3.6.buildinfo): [23 :white_check_mark: ](avaje-jsonb-parent-3.6.buildcompare) | | 767K |
 | [3.6-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-jsonb-parent/3.6-RC3/pom) | [mvn jdk21](avaje-jsonb-3.6-RC3.buildspec) | [result](avaje-jsonb-parent-3.6-RC3.buildinfo): [23 :white_check_mark: ](avaje-jsonb-parent-3.6-RC3.buildcompare) | | 767K |
