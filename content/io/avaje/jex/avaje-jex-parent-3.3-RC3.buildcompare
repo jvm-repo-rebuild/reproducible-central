@@ -1,0 +1,17 @@
+version=3.3-RC3
+ok=19
+ko=3
+ignored=0
+okFiles="avaje-jex-3.3-RC3.pom avaje-jex-3.3-RC3.jar avaje-jex-3.3-RC3-sources.jar avaje-jex-test-3.3-RC3.pom avaje-jex-test-3.3-RC3.jar avaje-jex-test-3.3-RC3-sources.jar avaje-jex-freemarker-3.3-RC3.pom avaje-jex-freemarker-3.3-RC3.jar avaje-jex-freemarker-3.3-RC3-sources.jar avaje-jex-htmx-3.3-RC3.pom avaje-jex-htmx-3.3-RC3.jar avaje-jex-htmx-3.3-RC3-sources.jar avaje-jex-mustache-3.3-RC3.pom avaje-jex-mustache-3.3-RC3.jar avaje-jex-mustache-3.3-RC3-sources.jar avaje-jex-static-content-3.3-RC3.pom avaje-jex-static-content-3.3-RC3.jar avaje-jex-static-content-3.3-RC3-sources.jar avaje-jex-ssl-3.3-RC3.jar"
+koFiles="avaje-jex-parent-3.3-RC3.pom avaje-jex-ssl-3.3-RC3.pom avaje-jex-ssl-3.3-RC3-sources.jar"
+ignoredFiles=""
+reference_java_version="24 (from MANIFEST.MF Build-Jdk-Spec)"
+# diffoscope target/reference/io.avaje/avaje-jex-parent-3.3-RC3.pom pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-ssl-3.3-RC3.pom avaje-jex-ssl/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-ssl-3.3-RC3-sources.jar avaje-jex-ssl/target/avaje-jex-ssl-3.3-RC3-sources.jar
+stabilize_ok=0
+stabilize_ko=1
+stabilize_ignored=2
+stabilize_okFiles=""
+stabilize_koFiles="avaje-jex-ssl-3.3-RC3-sources.jar.stabilized"
+stabilize_ignoredFiles="avaje-jex-parent-3.3-RC3.pom.stabilized avaje-jex-ssl-3.3-RC3.pom.stabilized"

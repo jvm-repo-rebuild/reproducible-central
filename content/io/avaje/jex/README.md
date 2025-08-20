@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/avaje/avaje-jex.git](https://github.com/avaje/avaje-jex.git)
 
-<details><summary>This project defines 8 modules:</summary>
+<details><summary>This project defines 9 modules:</summary>
 
 * [io.avaje:avaje-jex](https://central.sonatype.com/artifact/io.avaje/avaje-jex/overview)
 * [io.avaje:avaje-jex-freemarker](https://central.sonatype.com/artifact/io.avaje/avaje-jex-freemarker/overview)
@@ -15,17 +15,19 @@ Source code: [https://github.com/avaje/avaje-jex.git](https://github.com/avaje/a
 * [io.avaje:avaje-jex-htmx](https://central.sonatype.com/artifact/io.avaje/avaje-jex-htmx/overview)
 * [io.avaje:avaje-jex-mustache](https://central.sonatype.com/artifact/io.avaje/avaje-jex-mustache/overview)
 * [io.avaje:avaje-jex-parent](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/overview)
+* [io.avaje:avaje-jex-ssl](https://central.sonatype.com/artifact/io.avaje/avaje-jex-ssl/overview)
 * [io.avaje:avaje-jex-static-content](https://central.sonatype.com/artifact/io.avaje/avaje-jex-static-content/overview)
 * [io.avaje:avaje-jex-test](https://central.sonatype.com/artifact/io.avaje/avaje-jex-test/overview)
 </details>
 
-rebuilding **30 releases** of io.avaje:avaje-jex-parent:
+rebuilding **31 releases** of io.avaje:avaje-jex-parent:
 - **26** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.3-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.3-RC3/pom) | | | |
+| [3.3-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.3-RC3/pom) | [mvn jdk24 w](avaje-jex-3.3-RC3.buildspec) | [result](avaje-jex-parent-3.3-RC3.buildinfo): [19 :white_check_mark:  3 :warning:](avaje-jex-parent-3.3-RC3.buildcompare) | 1 :rotating_light: 2 :no_entry_sign: | 307K |
 | [3.3-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.3-RC2/pom) | [mvn jdk24 w](avaje-jex-3.3-RC2.buildspec) | [result](avaje-jex-parent-3.3-RC2.buildinfo): [22 :white_check_mark: ](avaje-jex-parent-3.3-RC2.buildcompare) | | 298K |
 | [3.3-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.3-RC1/pom) | [mvn jdk21](avaje-jex-3.3-RC1.buildspec) | [result](avaje-jex-parent-3.3-RC1.buildinfo): [22 :white_check_mark: ](avaje-jex-parent-3.3-RC1.buildcompare) | | 295K |
 | [3.2](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.2/pom) | [mvn jdk24 w](avaje-jex-3.2.buildspec) | [result](avaje-jex-parent-3.2.buildinfo): [20 :white_check_mark:  2 :warning:](avaje-jex-parent-3.2.buildcompare) | - | 296K |
