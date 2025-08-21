@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.syncope:syncope](https://central.sonatype.com/artifact/org.apache.syncope/syncope/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/syncope/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/syncope/README.md)
+## Project: [org.apache.syncope:syncope](https://central.sonatype.com/artifact/org.apache.syncope/syncope/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/syncope//badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/syncope//README.md)
 
 Source code: [https://gitbox.apache.org/repos/asf/syncope.git](https://gitbox.apache.org/repos/asf/syncope.git)
 
@@ -177,7 +177,7 @@ rebuilding **20 releases** of org.apache.syncope:syncope:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.1](https://central.sonatype.com/artifact/org.apache.syncope/syncope/4.0.1/pom) | [mvn jdk21](syncope-4.0.1.buildspec) | [result](syncope-4.0.1.buildinfo): [495 :white_check_mark:  11 :warning:](syncope-4.0.1.buildcompare) | 1 :rotating_light: 10 :no_entry_sign: | 471M |
+| [4.0.1](https://central.sonatype.com/artifact/org.apache.syncope/syncope/4.0.1/pom) | [mvn jdk21](syncope-4.0.1.buildspec) | [result](syncope-4.0.1.buildinfo): [495 :white_check_mark:  11 :warning:](syncope-4.0.1.buildcompare) [:mag:](syncope-4.0.1.diffoscope) | 1 :rotating_light: 10 :no_entry_sign: | 471M |
 | [4.0.0](https://central.sonatype.com/artifact/org.apache.syncope/syncope/4.0.0/pom) | [mvn jdk21](syncope-4.0.0.buildspec) | [result](syncope-4.0.0.buildinfo): [495 :white_check_mark:  11 :warning:](syncope-4.0.0.buildcompare) | - | 472M |
 | [4.0.0-M1](https://central.sonatype.com/artifact/org.apache.syncope/syncope/4.0.0-M1/pom) | [mvn jdk21](syncope-4.0.0-M1.buildspec) | [result](syncope-4.0.0-M1.buildinfo): [500 :white_check_mark:  1 :warning:](syncope-4.0.0-M1.buildcompare) [:mag:](syncope-4.0.0-M1.diffoscope) | - | 467M |
 | [4.0.0-M0](https://central.sonatype.com/artifact/org.apache.syncope/syncope/4.0.0-M0/pom) | [mvn jdk21](syncope-4.0.0-M0.buildspec) | [result](syncope-4.0.0-M0.buildinfo): [488 :white_check_mark: ](syncope-4.0.0-M0.buildcompare) | | 430M |
