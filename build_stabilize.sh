@@ -61,7 +61,7 @@ while read -r line; do
     ((stabilize_ignored++))
     stabilize_ignoredFiles+=$(basename $reference)' '
   else
-    diff -q ${basedir}/$reference_stabilized ${basedir}/$rebuild_stabilized
+    diff -q ${basedir}/$reference_stabilized ${basedir}/$rebuild_stabilized > /dev/null
     if [ $? -eq 0 ]
     then
       ((stabilize_ok++))
