@@ -14,7 +14,7 @@ source.scm.tag=3.2.2-rc1
 build-tool=mvn
 
 # effective build environment information
-java.version=11.0.25
+java.version=11.0.28
 java.vendor=Ubuntu
 os.name=Linux
 
@@ -47,18 +47,18 @@ outputs.2.0.checksums.sha512=168433623e40e2c6a4f710dfb62a2f656116653154b541dedca
 
 outputs.2.1.groupId=org.apache.tika
 outputs.2.1.filename=tika-core-3.2.2.jar
-outputs.2.1.length=777392
-outputs.2.1.checksums.sha512=b5b77147a7fe136f8486059bbf3aa55ca232a4c0864d0aae5fafae92e24ba666fa003feab26f3d250394e14c3a5d2c64ec2476b19415789f5c2c82be7b2b7818
+outputs.2.1.length=778206
+outputs.2.1.checksums.sha512=e1bc10d5da55f8f2b4f22253bfca7b7306b2489cff435f016ec12c8b85076c4e4b29faaa2eb6f71b4cd368bfba1c8b72c55b2fcb2aec9ff487185b327dc5f028
 
 outputs.2.2.groupId=org.apache.tika
 outputs.2.2.filename=tika-core-3.2.2-tests.jar
-outputs.2.2.length=3805262
-outputs.2.2.checksums.sha512=143677c602bda07ff294dd48920e308ac08738ecf14ca5bb3059fabbcada88516325504689ea3e0a48915a88a0ea39ffc52ce4e3be37401363529b0a2b2ca843
+outputs.2.2.length=3805335
+outputs.2.2.checksums.sha512=cddf67096caa62355cdd26fdbe1736c5962dcabf3c88b110b74f43e3ae588a938e614e84fcc780d82740843f8b0cdd1e8590c36ebf575852fe24cd4b0988b175
 
 outputs.2.3.groupId=org.apache.tika
 outputs.2.3.filename=tika-core-3.2.2-test-jar-with-dependencies.jar
-outputs.2.3.length=16423488
-outputs.2.3.checksums.sha512=b39b1151930856e81c490163975552c9f62b26e5f9607895ffaa2d96ee6845c7fda91470299da1e1dddd7651123dd63f1bf288bc3eacbac467d90088c2427f50
+outputs.2.3.length=16424375
+outputs.2.3.checksums.sha512=a1c487abf79f90207cc6db73b3a8a6aa3e2e48ed6191bcbc350fb5a3f9b9e3408143a64bff3c8b6050812800f73b0d851af9fafe7a820844830b5daddb85c7e7
 
 outputs.2.4.groupId=org.apache.tika
 outputs.2.4.filename=tika-core-3.2.2-sources.jar
@@ -75,7 +75,7 @@ outputs.3.0.checksums.sha512=73df2006d5f7ae50383da5d7d2fa55719e0051d4a68d4eeeae1
 outputs.3.1.groupId=org.apache.tika
 outputs.3.1.filename=tika-serialization-3.2.2.jar
 outputs.3.1.length=38660
-outputs.3.1.checksums.sha512=d728a51e2d663de6f9a4138c8d399367252b0c67b413bbed30d08a144e5cc51242d9fa33784cfa59929147dce00c35562ac1140c6da18d2c575fec79fc708aac
+outputs.3.1.checksums.sha512=1efa30c0822729250371c0099197ac9ce887123086231e235b7faa1a94239ae16d12e066b1732c069ead95ce0aac50b835fcfd97d2b14b46aebe78137f4e7612
 
 outputs.3.2.groupId=org.apache.tika
 outputs.3.2.filename=tika-serialization-3.2.2-sources.jar
@@ -139,8 +139,8 @@ outputs.8.0.checksums.sha512=c7d065ad5507dcdf5915886d401670fe745a344fee74a79b64b
 
 outputs.8.1.groupId=org.apache.tika
 outputs.8.1.filename=tika-parser-apple-module-3.2.2.jar
-outputs.8.1.length=58989
-outputs.8.1.checksums.sha512=81b0b5ed3374c38419fe22035de8e0eaadd874c263331df507dcc1ca3e5ab58f45bf7b1d07af497173efe319ad9d37b7c6d9ffa5c121e6726060bc1eefee420f
+outputs.8.1.length=59012
+outputs.8.1.checksums.sha512=ed57bd983972ffc26919d583439edc925298af4d0b584cd3ea6cfa18992c97533a3580f2117a5351a4f3960bca37e9bf34eda768b732bf4cfefb3b0dec64129a
 
 outputs.8.2.groupId=org.apache.tika
 outputs.8.2.filename=tika-parser-apple-module-3.2.2-sources.jar
@@ -149,8 +149,8 @@ outputs.8.2.checksums.sha512=a66232637f3a591367594b75e50261d2a4848e4bccd30c7aa36
 
 outputs.8.3.groupId=org.apache.tika
 outputs.8.3.filename=tika-parser-apple-module-3.2.2-tests.jar
-outputs.8.3.length=2963160
-outputs.8.3.checksums.sha512=9fbca05aacf227aa6476bc69ea5148a1cd6decda6b6bc79af522c26fe5710781b5354851b7e077fc925be3e95893fafafe92ae2f0d686316b931169d841db895
+outputs.8.3.length=2963183
+outputs.8.3.checksums.sha512=3355f1a56d76798d6d3f2744490bf7ecb0e72712bf589c37161f78d1ce69328835a7e549b726d5c7134f7779fffb6fcc656937b2e3b0d2b29ada201179380f84
 
 outputs.9.coordinates=org.apache.tika:tika-parser-audiovideo-module
 
@@ -183,8 +183,8 @@ outputs.10.0.checksums.sha512=ca3984795455f6d18daa309e893ea20c8dc7b35a82ddf2bb4d
 
 outputs.10.1.groupId=org.apache.tika
 outputs.10.1.filename=tika-parser-text-module-3.2.2.jar
-outputs.10.1.length=127524
-outputs.10.1.checksums.sha512=ca2f190bdda2c2d71956b03356c0bcf923e6a8a41f793aa87d96e0330ee472d413530a77ffc21a2dcadd57a0a9814234890025fb215aa102f2cac6aa8d7f420d
+outputs.10.1.length=127551
+outputs.10.1.checksums.sha512=3311632b37af17a233f07f93f9582f5ab86e477605f17634e4b1c063bb603d7c45e0b0f7981b479e8a01597b28ad261ea418ca608551fe2b67e3027acd9e27d9
 
 outputs.10.2.groupId=org.apache.tika
 outputs.10.2.filename=tika-parser-text-module-3.2.2-sources.jar
@@ -215,8 +215,8 @@ outputs.11.2.checksums.sha512=ed57ab8b72c3374a89cf22864806fe6c05cdbdaa110c57ecf3
 
 outputs.11.3.groupId=org.apache.tika
 outputs.11.3.filename=tika-parser-html-module-3.2.2-tests.jar
-outputs.11.3.length=95602
-outputs.11.3.checksums.sha512=f64a4808bfdba80aa61b1ec6beb823c451bdf53ac5209c5e41934c11e375bb1ae79575dcc8228383bcc8c17d4163eca4d8b5eb591fd80187f442195c80915897
+outputs.11.3.length=95667
+outputs.11.3.checksums.sha512=1f0cb263cadf41f91db06c8aa4783c56ae3358e97ff22c2042e337d19f8c4c02182af36b64218bf2a6e234b05f003bca46ae78db1d62418ff9de147dffab53a9
 
 outputs.12.coordinates=org.apache.tika:tika-parser-xml-module
 
@@ -298,8 +298,8 @@ outputs.15.2.checksums.sha512=cc20f7cf189ad456e386cdcbf492f1760d55cbedcfaeaed8c1
 
 outputs.15.3.groupId=org.apache.tika
 outputs.15.3.filename=tika-parser-image-module-3.2.2-tests.jar
-outputs.15.3.length=4065929
-outputs.15.3.checksums.sha512=5d07d1e6597243c02e79f171bcbb0180f36b562b3609f8f598fecfa807ef258f1a68ccb545fc0273184d1798d3035ce4c24349f50f14d0d820d03c2a92beaf75
+outputs.15.3.length=4065947
+outputs.15.3.checksums.sha512=891ef5b51fdce1ccf5c65ad6a2b490f4f32a187bbb49531118f35392faafa56de50031c37302509288a6df02f9f7845e92540a94e3eeb0e25837424fe6c07f30
 
 outputs.16.coordinates=org.apache.tika:tika-parser-ocr-module
 
@@ -310,8 +310,8 @@ outputs.16.0.checksums.sha512=a62b07df6953534eaa35efe09b298436544e9f365990c495a6
 
 outputs.16.1.groupId=org.apache.tika
 outputs.16.1.filename=tika-parser-ocr-module-3.2.2.jar
-outputs.16.1.length=40065
-outputs.16.1.checksums.sha512=99490f290722854726915608d61be90beba094480d735d449cd75559b3162e68c264813cc4ffbb6d43cca184909bbc9da9949a1685d2fc49a07d5ca888d1d80c
+outputs.16.1.length=40088
+outputs.16.1.checksums.sha512=67aedc806de63942a4dbd3f8a428046d6c3ad16068d4b8f0f8313918cf853128b74f7a71d1059aceec3717c8fc5a0a1e4713674634ec77dd5a81117c54c25c0f
 
 outputs.16.2.groupId=org.apache.tika
 outputs.16.2.filename=tika-parser-ocr-module-3.2.2-sources.jar
@@ -320,8 +320,8 @@ outputs.16.2.checksums.sha512=f2686c2bf09e5914df1424c45c2c8b2a94ca1d1a3736ddbb5f
 
 outputs.16.3.groupId=org.apache.tika
 outputs.16.3.filename=tika-parser-ocr-module-3.2.2-tests.jar
-outputs.16.3.length=1602868
-outputs.16.3.checksums.sha512=df86f93f7dc8d7bae78f9b272124d8a1b71b90768773454332949fe2a6c5377c0820552098e07c3379ccdde7d3ce3769e309d24d8832e8668cbd4023894cd099
+outputs.16.3.length=1602872
+outputs.16.3.checksums.sha512=255f2cbc060bd085374aab27f57f5b98951918b73c317057aa08de873942856b36cb829d9e5822f8a6a8dd1abaa2e8dba6e97466a832819ea61d85bb4a576f34
 
 outputs.17.coordinates=org.apache.tika:tika-parser-mail-module
 
@@ -332,8 +332,8 @@ outputs.17.0.checksums.sha512=b7b584400613c67f96ee82ffd3f340919967273bdd0216b3d9
 
 outputs.17.1.groupId=org.apache.tika
 outputs.17.1.filename=tika-parser-mail-module-3.2.2.jar
-outputs.17.1.length=26877
-outputs.17.1.checksums.sha512=e8b5dc4b81243ebce5cde36a836bcd6706e891c82ff4d726317fbbc7a76696d54671d4310804f9af63a2b0e89acd5e332e4366e1400345ffafcb08a07396789c
+outputs.17.1.length=26910
+outputs.17.1.checksums.sha512=c93bf0f4a549bd4ac4652f812d96d5a3d05c1fbc020a0c24237f888e9e8bd174f003664810be0a54752b4ff1aeee79f77008b7ceb3d7388d3a1ab1d8d940ba53
 
 outputs.17.2.groupId=org.apache.tika
 outputs.17.2.filename=tika-parser-mail-module-3.2.2-sources.jar
@@ -354,8 +354,8 @@ outputs.18.0.checksums.sha512=125e90b72261609ac95dc944d4c5007d9db7dbe44ded2c2d87
 
 outputs.18.1.groupId=org.apache.tika
 outputs.18.1.filename=tika-parser-microsoft-module-3.2.2.jar
-outputs.18.1.length=767522
-outputs.18.1.checksums.sha512=8b5a7f172386c49e8ebffde19ab521bd630140a3ab7e5662a823858190b0a05d5e490a3cb79c7bc733f519311090c3d780b67ab7016954d67c8e30bdfef0dfdb
+outputs.18.1.length=767911
+outputs.18.1.checksums.sha512=063963ebaee13150b9ada1f584f644c8ca856e755c634da01680a27c83ef1aa077723cb7ca0c82ab62ee337ca84ce6b204bb1eb042f68973cb195aae93076249
 
 outputs.18.2.groupId=org.apache.tika
 outputs.18.2.filename=tika-parser-microsoft-module-3.2.2-sources.jar
@@ -364,8 +364,8 @@ outputs.18.2.checksums.sha512=749c4eeb56b5a8d077d7757adb1bf843b042666be61bc88be8
 
 outputs.18.3.groupId=org.apache.tika
 outputs.18.3.filename=tika-parser-microsoft-module-3.2.2-tests.jar
-outputs.18.3.length=29510417
-outputs.18.3.checksums.sha512=2a68b025c4f9ccfa40b255a846e21e2e71bd5c639a80a109234a1798f7f2986dd651e5234f9d26a4776e1af64bbe79a0657a17550e24a35afa6b952e65af9fdf
+outputs.18.3.length=29510427
+outputs.18.3.checksums.sha512=ba6624b745ca8657578bfce7e6672baa6a3d78ac1086130ccd3d58d1f19e3aff815b7e48c315eb96426558eb3eecc43cd1b1ce75b8f1597ab4de24d7c962bc27
 
 outputs.19.coordinates=org.apache.tika:tika-parser-cad-module
 
@@ -376,8 +376,8 @@ outputs.19.0.checksums.sha512=fa25ab5f3cadc5739e797700f143ae3ea95bbe6716900deef4
 
 outputs.19.1.groupId=org.apache.tika
 outputs.19.1.filename=tika-parser-cad-module-3.2.2.jar
-outputs.19.1.length=33519
-outputs.19.1.checksums.sha512=b6df121b0018d16715a2095e615bd8cffe3cf1a3c1c95e3390204df7bb12c1978531e232e635fa535078efcd21940c9a4be912538753a23a5ebd39255fb676fa
+outputs.19.1.length=33534
+outputs.19.1.checksums.sha512=631a536bdc3967e6c5ffbd29af829055674dcd47c5e29c4fb69e2dc3fa061b2019025362f9da66f373368f38492d56134a318723e58b95e1a1a472e3cef632da
 
 outputs.19.2.groupId=org.apache.tika
 outputs.19.2.filename=tika-parser-cad-module-3.2.2-sources.jar
@@ -420,8 +420,8 @@ outputs.21.0.checksums.sha512=e92cef54aeed56f8818a161092d6a5b3421b082db4bcec4a26
 
 outputs.21.1.groupId=org.apache.tika
 outputs.21.1.filename=tika-parser-crypto-module-3.2.2.jar
-outputs.21.1.length=19762
-outputs.21.1.checksums.sha512=b66e5685158e31934cd052047b39dcb7bf13e616da6ecbeef3ffe07e64fa94ab14bd1a4027ff59eac45c70a45b85a1a3e19a16b4f624136845287fee2f9a10ee
+outputs.21.1.length=19758
+outputs.21.1.checksums.sha512=e55fde5fe524508885c612342e227ae534567804f0af214b246a82b7f341ce29704c1f3350662f45fb6a4841fef7c0888c0a27149e8606c102f53c68f6722795
 
 outputs.21.2.groupId=org.apache.tika
 outputs.21.2.filename=tika-parser-crypto-module-3.2.2-sources.jar
@@ -481,8 +481,8 @@ outputs.24.0.checksums.sha512=1fa8956f23bd2447d05508f437748e589ad31eb743e9e001f5
 
 outputs.24.1.groupId=org.apache.tika
 outputs.24.1.filename=tika-parser-miscoffice-module-3.2.2.jar
-outputs.24.1.length=153884
-outputs.24.1.checksums.sha512=82cb48dc2c46bd9ea1e66b464f18bf9d6bfcc7990d005356a62616d43420bca56385305e308327b0c7862d8f8163f68fcf9c3ad36174d8c743f23e331a2f5566
+outputs.24.1.length=153962
+outputs.24.1.checksums.sha512=91823d6df5225de8e0a71b3e3edb0fd86a9c74182e73d50062bcd9d1deaec392e25ec401a022fff8d41c897516469278e925417ec6d4023a23fac212344e27f3
 
 outputs.24.2.groupId=org.apache.tika
 outputs.24.2.filename=tika-parser-miscoffice-module-3.2.2-sources.jar
@@ -525,8 +525,8 @@ outputs.26.0.checksums.sha512=ce357a3a643de4e0aa6ee66eb33f502af0a69994848d151eb4
 
 outputs.26.1.groupId=org.apache.tika
 outputs.26.1.filename=tika-parser-pdf-module-3.2.2.jar
-outputs.26.1.length=142603
-outputs.26.1.checksums.sha512=58b253641c29e2f09762b1c05e293ffcda62cdcbecab0f62768f6526937cfa3ce8dd63b7716cddca59c833e396bb5ff1b6dee4daf7e9481fc513781ade836038
+outputs.26.1.length=142721
+outputs.26.1.checksums.sha512=648ad98f720c23cd3085ca4970456771a91e10997f4c5d1ac2dceafdca264fa9b69131694fbe9dba158eeea117dd0df23eacccaf2c6354342f8eb67c2a019744
 
 outputs.26.2.groupId=org.apache.tika
 outputs.26.2.filename=tika-parser-pdf-module-3.2.2-sources.jar
@@ -557,8 +557,8 @@ outputs.27.2.checksums.sha512=fb65fc96447cd26859c6f69a2bf8c9b379760870af0c9524b9
 
 outputs.27.3.groupId=org.apache.tika
 outputs.27.3.filename=tika-parser-pkg-module-3.2.2-tests.jar
-outputs.27.3.length=1597441
-outputs.27.3.checksums.sha512=1a9a58fc6df5dd8910fbce8671ff8c6331c98889d24927c8a5aa98fd6a4ddc7a90657a24fcf94ca459a1b21cb5039b0281567fcdf1134d82f32b790cb180354a
+outputs.27.3.length=1597450
+outputs.27.3.checksums.sha512=711a7b8f05f1358d8ec3db76ca51c36e26f16fc2dba9703f06f543895f21b02967c054ba36be701e801c9004b1333145119cfad25bae00d120930b1b10884a97
 
 outputs.28.coordinates=org.apache.tika:tika-parser-webarchive-module
 
@@ -598,8 +598,8 @@ outputs.30.0.checksums.sha512=883e6355c9b66437ae05e2c35280cf6d286bd1a4c919d424af
 
 outputs.30.1.groupId=org.apache.tika
 outputs.30.1.filename=tika-handler-boilerpipe-3.2.2.jar
-outputs.30.1.length=14300
-outputs.30.1.checksums.sha512=4ddec3271031ebf37fbd3f20918af77b563e7f0bdd7d76faeea55dc3669af61f145e0d231af18bdac7ae44003d9f671bf9eaca04e1724ae591416834b911cbfd
+outputs.30.1.length=14311
+outputs.30.1.checksums.sha512=770743a9586db2ff62f8a9e94a8c80bfc0c3a2caf9be9dffcabbabb5cff4a1b941fd0559544ebe16b43da69b9279df8b38b11f189cebf646180054ff7e2b292c
 
 outputs.30.2.groupId=org.apache.tika
 outputs.30.2.filename=tika-handler-boilerpipe-3.2.2-sources.jar
@@ -719,8 +719,8 @@ outputs.38.0.checksums.sha512=9a1290ce23edd6aeaa31468ce8be9e75fbb13702b556190da0
 
 outputs.38.1.groupId=org.apache.tika
 outputs.38.1.filename=tika-parser-scientific-module-3.2.2.jar
-outputs.38.1.length=47773
-outputs.38.1.checksums.sha512=77c5887161dad95fde8974be0c528d4d61b3e8f95b5e511c3c9faf1919796998bb5c11891da04e32713efa75c712a96e02a2a4c6274b27d3583c1288a8c295bf
+outputs.38.1.length=47790
+outputs.38.1.checksums.sha512=573b253538910cf0ed04fbafe51b7de2ed74f0a3b31b1abd10679120e67f4238ff48e4d29f515bc4c8c61a84a05babe30adb47a08b0bf073119ff41e865b7959
 
 outputs.38.2.groupId=org.apache.tika
 outputs.38.2.filename=tika-parser-scientific-module-3.2.2-sources.jar
@@ -763,8 +763,8 @@ outputs.40.0.checksums.sha512=7af854478f438c71e8f9982cea32f985e653dbffaa9707a768
 
 outputs.40.1.groupId=org.apache.tika
 outputs.40.1.filename=tika-parser-scientific-package-3.2.2.jar
-outputs.40.1.length=24911818
-outputs.40.1.checksums.sha512=6210874270d2336847bb6f256b175c16418efc0916cf94488636a5fd9c40f4fd16427ace71f471bf1f64ab44e861ea80d6345a0f23bcd69d00d0f5eca92da315
+outputs.40.1.length=24911862
+outputs.40.1.checksums.sha512=d7b3e3da138b960aae0fbeb86b716fa6f9b0a0716c49d9b52cb62a61550c92aebd92dfbd9c0ba83d716ddcc3553a25cae7a0b185846bf5574054f896f72bf86e
 
 outputs.40.2.groupId=org.apache.tika
 outputs.40.2.filename=tika-parser-scientific-package-3.2.2-tests.jar
@@ -809,8 +809,8 @@ outputs.43.0.checksums.sha512=8e67e3388b2aae1093d7849213d5aac4fa2d1767c20cb9391a
 
 outputs.43.1.groupId=org.apache.tika
 outputs.43.1.filename=tika-parser-nlp-module-3.2.2.jar
-outputs.43.1.length=91017
-outputs.43.1.checksums.sha512=4a1242362a30e132d093eae81d1e1381c5b292c23ae0c2ba7857d405ee1b885d5dae7b202a8eecaaf9740009e001d9d593722631019c027d31fed1d476727bf7
+outputs.43.1.length=91069
+outputs.43.1.checksums.sha512=01eaca9d6ba8b56c8f0b0e340bb8318cfdddd310a3d1803750bf82f4dc8235c662bc4f5797236e0c240a156365647da431ad239380962f3478c801f34f27bdfd
 
 outputs.43.2.groupId=org.apache.tika
 outputs.43.2.filename=tika-parser-nlp-module-3.2.2-sources.jar
@@ -826,8 +826,8 @@ outputs.44.0.checksums.sha512=fa698a99b12707ab2d69018d5748eb4afae1afb00d93320d89
 
 outputs.44.1.groupId=org.apache.tika
 outputs.44.1.filename=tika-parser-nlp-package-3.2.2.jar
-outputs.44.1.length=24868909
-outputs.44.1.checksums.sha512=c8c497b2e9b08279b01803dbfd12f0c8c8a4721170babdd11aaa35ccc389cfc7e5433581933955abc177fc6afe7b449caca842a7507192bfcfd3fabf870879ec
+outputs.44.1.length=24869079
+outputs.44.1.checksums.sha512=b57ed20fe67275ce07abc47bd00cd4fdd80fbec0137356df937ef0ade827396dc4902716ab7a83765455170ca6cdf1a7cbcbe4473e29c0941484b8fb528f95a2
 
 outputs.44.2.groupId=org.apache.tika
 outputs.44.2.filename=tika-parser-nlp-package-3.2.2-tests.jar
@@ -870,8 +870,8 @@ outputs.46.0.checksums.sha512=4def0c9e1f1f358e21836ce39692d6976c8862f4417e9691be
 
 outputs.46.1.groupId=org.apache.tika
 outputs.46.1.filename=tika-parser-advancedmedia-module-3.2.2.jar
-outputs.46.1.length=63571
-outputs.46.1.checksums.sha512=12239863c2fc8c5e0e3fa09fe396aaac762fb2f9a40f3684d711eef4267b0b169fad6d6841dbae4b25f3423efb9e7a641e99bc6a4380ed59c1d7aea8eed76156
+outputs.46.1.length=63634
+outputs.46.1.checksums.sha512=c5b6e1ece7ab2f6f176b53c9aa346ccb3e78650c174cc4f2e3acfc4f7fc539bddfb7232f00de08f17550b510772e8768af9b8a085361e81a4fbc47a1cc980686
 
 outputs.46.2.groupId=org.apache.tika
 outputs.46.2.filename=tika-parser-advancedmedia-module-3.2.2-sources.jar
@@ -887,8 +887,8 @@ outputs.47.0.checksums.sha512=a87f5905118c65573d2143f9b10b1f7c067f1cb5befeb949b0
 
 outputs.47.1.groupId=org.apache.tika
 outputs.47.1.filename=tika-parser-advancedmedia-package-3.2.2.jar
-outputs.47.1.length=2863855
-outputs.47.1.checksums.sha512=3d2d2b5d61744e438d02b8ee4a1bc9b2521385f5ca5be69f5daba444172844a2d94740f84303228755dd1af9cb87eb64118005ab9dc6e0f4b4ac8c031f15a5e7
+outputs.47.1.length=2863918
+outputs.47.1.checksums.sha512=ab698d66c608d2e98a0aafbd5f67048fcdbc126fbd6bb76955bcea51e36d973d2c55118a3bd1685a0d0a485b99d8bc9f4edb4dcd3d07021c31ca2b7fd055fba9
 
 outputs.47.2.groupId=org.apache.tika
 outputs.47.2.filename=tika-parser-advancedmedia-package-3.2.2-tests.jar
@@ -999,8 +999,8 @@ outputs.53.0.checksums.sha512=221d3953c5d82b38ee52b8d54e2b460e2ed5b81f46504b825b
 
 outputs.53.1.groupId=org.apache.tika
 outputs.53.1.filename=tika-batch-3.2.2.jar
-outputs.53.1.length=123131
-outputs.53.1.checksums.sha512=e9b94ebced083e124d8072cf4626add3ff8cb58e5523f9ef2c5bdfeeb1f3087ff8c798e8a9d773c5c1f090a15e11d95cde65708dc3a6a67b465069a65be8ebe2
+outputs.53.1.length=123223
+outputs.53.1.checksums.sha512=8ee726ee70df63e74b21ab661c75b3cae737afc58740f7f00de835665f250d3f04e34806716dfc3900e1058ffde08c7fa9d82a26896ce7a9d8123c6767a17db8
 
 outputs.53.2.groupId=org.apache.tika
 outputs.53.2.filename=tika-batch-3.2.2-sources.jar
@@ -1009,8 +1009,8 @@ outputs.53.2.checksums.sha512=f8a9cb392b6ca689f94adf70073a15728e3d322928fb169053
 
 outputs.53.3.groupId=org.apache.tika
 outputs.53.3.filename=tika-batch-3.2.2-tests.jar
-outputs.53.3.length=89161
-outputs.53.3.checksums.sha512=cb7532586ec9f62b17106e7f9094fe7aa721c9413857fe745d93f41b27d82a6eca3525f92bbd9ae407ca47f61dfb65c808bdc0009ebf56114c26a543796c3817
+outputs.53.3.length=89175
+outputs.53.3.checksums.sha512=cf77d9242c568c67e62e259df4563664a3d17cdbc7c51cc976cc505b3c4ee2a5ed5338cf36e9b5bf17100083d95cab7133339345ae567464fcff791b3e84a0aa
 
 outputs.54.coordinates=org.apache.tika:tika-langdetect
 
@@ -1045,8 +1045,8 @@ outputs.56.0.checksums.sha512=42c7a2157ce1f2e7435d8df8bd95ecc773cb567434cb2dceae
 
 outputs.56.1.groupId=org.apache.tika
 outputs.56.1.filename=tika-langdetect-tika-3.2.2.jar
-outputs.56.1.length=190474
-outputs.56.1.checksums.sha512=ba8e3510ced1452ff28f0b4b8a6807c54b1726cc2f7c06b75d16484d148cebb5cfd69a25f2043139690df0e97dae901183ff308671e36fd590506416db456aa7
+outputs.56.1.length=190482
+outputs.56.1.checksums.sha512=8729fb019b7a1f277940fc85aaecf5b4ec4fbf2b5a025d499bc16b35a1302dc39b1c0852a27370d15331de544ba2921ed7a512f53bde11b8a74bcf33717fc282
 
 outputs.56.2.groupId=org.apache.tika
 outputs.56.2.filename=tika-langdetect-tika-3.2.2-sources.jar
@@ -1249,8 +1249,8 @@ outputs.68.0.checksums.sha512=f8ad98cec7953589323ba5fa178f1930e317e5151186ed077b
 
 outputs.68.1.groupId=org.apache.tika
 outputs.68.1.filename=tika-fetcher-microsoft-graph-3.2.2.jar
-outputs.68.1.length=87245797
-outputs.68.1.checksums.sha512=60047444983ae1d4792f234539db7b82e3a78a39d69c160dc978c0a9dbd2f8f55e45f75a3951473fe7fb092e4e92a7fc8254cc02884f01950266ee81938236c2
+outputs.68.1.length=87246611
+outputs.68.1.checksums.sha512=b1703a4d24a9c0b246a447e870f31407f7f5da620b3d3f39b227979db6cba82141fa6c5a2414d9c00985ad2218622e173b6109520a58eda1cd153431c5571f32
 
 outputs.68.2.groupId=org.apache.tika
 outputs.68.2.filename=tika-fetcher-microsoft-graph-3.2.2-tests.jar
@@ -1278,8 +1278,8 @@ outputs.70.0.checksums.sha512=cc855e8dc38ded2cfd2b1ac50f45c92cc1e61e23486f46b7ee
 
 outputs.70.1.groupId=org.apache.tika
 outputs.70.1.filename=tika-emitter-fs-3.2.2.jar
-outputs.70.1.length=11471
-outputs.70.1.checksums.sha512=07851ea0904b13485db53fcb8428635c9d02b1dd6af5c7cbe8b9ee9fd50b0703215b5d2d26f1e9cdf0b93411ff2269decd0575368cf863a19de549225832d616
+outputs.70.1.length=11491
+outputs.70.1.checksums.sha512=ba52b7e606bc1c4a0113d89bd8a0dfd41941e3447a13e5cd6251ce8fa01715d57b723d096765624a3cca0954f7c3e733b6f25d7d699c828515f6e606c06764ce
 
 outputs.70.2.groupId=org.apache.tika
 outputs.70.2.filename=tika-emitter-fs-3.2.2-tests.jar
@@ -1344,8 +1344,8 @@ outputs.73.0.checksums.sha512=07699f262bfac3219f7d5b49418e1edd088bc0df4ee7bf713e
 
 outputs.73.1.groupId=org.apache.tika
 outputs.73.1.filename=tika-emitter-solr-3.2.2.jar
-outputs.73.1.length=18461655
-outputs.73.1.checksums.sha512=f2625191b1af18fe87e644c584e0c4dc27a1fcc67b4b9c8e5ec51a978d9d62dbaffdec575c1d8c55dd15e80910b8fe1a25cddfd8bb2430a420c87e15a15aaaa1
+outputs.73.1.length=18461637
+outputs.73.1.checksums.sha512=17a55f1c186a8540c2e48c7e5939f94f0eebf5424240337a02ae499ffb79b5f94831bed760e2dbbb57aa655b2cf0ff81a6405d92d322e1e8ced37afda6abbf97
 
 outputs.73.2.groupId=org.apache.tika
 outputs.73.2.filename=tika-emitter-solr-3.2.2-tests.jar
@@ -1366,8 +1366,8 @@ outputs.74.0.checksums.sha512=0662b84767c897e5159938163a9ec552580097901ad7c2fbb3
 
 outputs.74.1.groupId=org.apache.tika
 outputs.74.1.filename=tika-emitter-opensearch-3.2.2.jar
-outputs.74.1.length=5036559
-outputs.74.1.checksums.sha512=11c806fc40de1e898015fd8b8d37eb238979307f4519f870b88ebcd0464d439f68f6373f450a79da9ab0bd65a1b265a5c90a3491104a049447d438aa964d7380
+outputs.74.1.length=5036586
+outputs.74.1.checksums.sha512=09208e3d2116483625505aaf8d520e1888f238a49f877fb9d9696dac8a3a84956645ad1f986d75ac11caf8722496f223b930e2e71747230c0ab07947e1b89d19
 
 outputs.74.2.groupId=org.apache.tika
 outputs.74.2.filename=tika-emitter-opensearch-3.2.2-tests.jar
@@ -1456,8 +1456,8 @@ outputs.79.0.checksums.sha512=c1b69b7af4c1220246dde5f12b09f9087576052abb86ce3826
 
 outputs.79.1.groupId=org.apache.tika
 outputs.79.1.filename=tika-pipes-iterator-csv-3.2.2.jar
-outputs.79.1.length=992950
-outputs.79.1.checksums.sha512=aa9259a4bdad34b1165df74b6dc0d14bdc3b98d877ec5f11bcd84c41fff77cae3e5aeb0ed13d9f5b23c13856a64fe46883c39a34bfe7f5ed4a6288a3f5e7ce3c
+outputs.79.1.length=992963
+outputs.79.1.checksums.sha512=7d9afdfe44454a06bf1d12af1057d46cf86d06db35ff3de8730c79f483d88b19a3d9e6b17aa8f39beb7f4bba4a7bca94b92443e24ac03e33fbd20ae2040a8a78
 
 outputs.79.2.groupId=org.apache.tika
 outputs.79.2.filename=tika-pipes-iterator-csv-3.2.2-tests.jar
@@ -1478,8 +1478,8 @@ outputs.80.0.checksums.sha512=def02bc2206eac03b00046d7f50636745ae74f198234f5967c
 
 outputs.80.1.groupId=org.apache.tika
 outputs.80.1.filename=tika-pipes-iterator-json-3.2.2.jar
-outputs.80.1.length=9541
-outputs.80.1.checksums.sha512=7daf2fc65eb2328a8fd70ba9389701251c8051072658a905af91e6eecac13d9056f1d821ec686b205d457f27ec2b49ae317e720772edb255a2dcc90ff04c3883
+outputs.80.1.length=9563
+outputs.80.1.checksums.sha512=f6ed5dd98ba1a259ac95835304357056c70f6c9518fe4b29b1291e8fbfe2418d81e9a9f8d19d4ee139022c69725c305bf84718659510d7ce443160f840845145
 
 outputs.80.2.groupId=org.apache.tika
 outputs.80.2.filename=tika-pipes-iterator-json-3.2.2-tests.jar
@@ -1500,13 +1500,13 @@ outputs.81.0.checksums.sha512=f0e2244d042f6ab8418c618a93f80cf8ec0a9f0bb4988fcfa4
 
 outputs.81.1.groupId=org.apache.tika
 outputs.81.1.filename=tika-pipes-iterator-jdbc-3.2.2.jar
-outputs.81.1.length=14465
-outputs.81.1.checksums.sha512=390957f802f299a583d06199264d898d4f5a34bbeb04593cee25049bfdc6be58b8a547e1b18bc73f3c31a464e6cc9521a41f08ab7e325b19b666d00d30307749
+outputs.81.1.length=14480
+outputs.81.1.checksums.sha512=f1827bdc68e302417f147898202a8e5341fc5e16044484daacb3fa89b3da5f71699bc23884b52cf69a4a7ffc9c0b846b8bfd78845535da5817dc4c7694008ec1
 
 outputs.81.2.groupId=org.apache.tika
 outputs.81.2.filename=tika-pipes-iterator-jdbc-3.2.2-tests.jar
-outputs.81.2.length=13956
-outputs.81.2.checksums.sha512=500dbf36fb59b1899286329730aa9432f2a5d580b4ddd2993286d8fc8044ca5d35a92a1e6a7e9325fab9cf34b08c87e1417daa4ab26d63828ee1f21b2c2cf9f4
+outputs.81.2.length=13970
+outputs.81.2.checksums.sha512=1564876bf0bfb26a6c85e3576d5357ac5fa4b26bdd253bf1312747f8c5bb5d23fd825c4bec1238bffa93d63de41ed74c9b19b688b22516cb8eca62d5bfc7b545
 
 outputs.81.3.groupId=org.apache.tika
 outputs.81.3.filename=tika-pipes-iterator-jdbc-3.2.2-sources.jar
@@ -1639,8 +1639,8 @@ outputs.88.0.checksums.sha512=3a1fdd05f676f4c2b1f8289f527d8bedb95f6efd94f153c0cb
 
 outputs.88.1.groupId=org.apache.tika
 outputs.88.1.filename=tika-pipes-reporter-opensearch-3.2.2.jar
-outputs.88.1.length=3897123
-outputs.88.1.checksums.sha512=428c9322aa3954fcdf3fb189628a06e811b63bee1e70730c077e69a070a62bc4636b3fc23bb5c8339d40d33f367f500e4c5e5f9666925151f98c19a1fd156192
+outputs.88.1.length=3897151
+outputs.88.1.checksums.sha512=7155131c0e4b9997d03d25c74a22ce7c8f53e6afeff249ed2ab38f3d75b6c0717d0f28336277e63f2d2a51d1b5bd68aeed7228ecf28d15ef2d484e87cb3d6361
 
 outputs.88.2.groupId=org.apache.tika
 outputs.88.2.filename=tika-pipes-reporter-opensearch-3.2.2-tests.jar
@@ -1683,13 +1683,13 @@ outputs.90.0.checksums.sha512=6b2fd45bf54271c21e6cf3b1234dc11ab83321280bc06e7907
 
 outputs.90.1.groupId=org.apache.tika
 outputs.90.1.filename=tika-pipes-reporter-jdbc-3.2.2.jar
-outputs.90.1.length=16707
-outputs.90.1.checksums.sha512=7e75bef36ad0860e970fb81f43752f749fee8dd0679293b062a5934ce1f1298f17b06282e8a589dbc4eeb59aad3f59d3ad55ac49c264c31965370f0e325bb1dd
+outputs.90.1.length=16742
+outputs.90.1.checksums.sha512=f4ff4e93e6cbdd84ee9e89f20159801c04429470c35a1976570a8844136edc64592c07db515209f8651941da1a948da84406efcb5bc82e285371f240471f8ac1
 
 outputs.90.2.groupId=org.apache.tika
 outputs.90.2.filename=tika-pipes-reporter-jdbc-3.2.2-tests.jar
-outputs.90.2.length=18513
-outputs.90.2.checksums.sha512=39d75ae2174e779a8560a5464a271d2034099dc185a473b7eed0a9f39315a783d7ab547e078f9a969bb9b0aa949720bbc7fb1f2b8c6383ee26146bf33bcee370
+outputs.90.2.length=18524
+outputs.90.2.checksums.sha512=64276de6a5f2ef5ffc46f28f0b723f9e2c4ba13b2841d09765e3905895754230ad3cf4400ec923aa3c171c96de4cb6f9d3447c96c4a9b24ab6f0d023a285547f
 
 outputs.90.3.groupId=org.apache.tika
 outputs.90.3.filename=tika-pipes-reporter-jdbc-3.2.2-sources.jar
@@ -1705,8 +1705,8 @@ outputs.91.0.checksums.sha512=167bad49dc92cca230c4710ae9014334b27029535b71fd0ac1
 
 outputs.91.1.groupId=org.apache.tika
 outputs.91.1.filename=tika-async-cli-3.2.2.jar
-outputs.91.1.length=3771512
-outputs.91.1.checksums.sha512=ef6580108f4891559c130b9b7e805b0131d40f993de6c90e68e1ae494196603e438751a044f488b7c043d7aebaaabd586439c1f2a07757102cb31acdead96f94
+outputs.91.1.length=3772326
+outputs.91.1.checksums.sha512=048b981424a14c9a0a9d2af47e0f52841032e9ff2956300ee34fa0ddedb6ab85685cae7e392a27e325b2082f2f3ab69c0fcc85389802fbbd0ecc39022b48922d
 
 outputs.91.2.groupId=org.apache.tika
 outputs.91.2.filename=tika-async-cli-3.2.2-tests.jar
@@ -1727,8 +1727,8 @@ outputs.92.0.checksums.sha512=ce47bb6d7603a644eb4c9e71355edce3d121692bc8d5c787a1
 
 outputs.92.1.groupId=org.apache.tika
 outputs.92.1.filename=tika-grpc-3.2.2.jar
-outputs.92.1.length=73744545
-outputs.92.1.checksums.sha512=481391fac1901cc03d073d5ba67412791b6d4c7004e8282233cfad94a06b4a3f56c9244ec05c61cdd5907814cb696bc87657154636951e666252fd74f9d2e245
+outputs.92.1.length=73746061
+outputs.92.1.checksums.sha512=b3612ac4a3bc2cdb5894dbbed3580bf5904cbde4c1e7cbfb8e52c458ff9250868fc29681782f90d57aa762c2e306b7696d6688b7971db2c33b4a7366bd9b81b3
 
 outputs.92.2.groupId=org.apache.tika
 outputs.92.2.filename=tika-grpc-3.2.2-sources.jar
@@ -1744,8 +1744,8 @@ outputs.93.0.checksums.sha512=54e280920bbb6af03cb9eabc5c80791e698671c553589375cf
 
 outputs.93.1.groupId=org.apache.tika
 outputs.93.1.filename=tika-app-3.2.2.jar
-outputs.93.1.length=56718738
-outputs.93.1.checksums.sha512=758d0700a53288220c6a92816ed2fbada130352d15d78bd27f3fe6b3b767710c3ede6341009a25f24735e4a2a448e29971eb6db1ebacaa1bd98fb39396eda45d
+outputs.93.1.length=56720384
+outputs.93.1.checksums.sha512=170d9abd55eac2cb8357d161ebc0760746bc7a78bd21b0eac0b3f67bd07406820b7b21c8bbad1ce3d1c22beea3cda3cb648b55148639b02639e8e96f8cc17b0b
 
 outputs.93.2.groupId=org.apache.tika
 outputs.93.2.filename=tika-app-3.2.2-sources.jar
@@ -1754,8 +1754,8 @@ outputs.93.2.checksums.sha512=13a00ed7e0f4c7b6cd6e526fbf29890e7d07ca69771c4d5f36
 
 outputs.93.3.groupId=org.apache.tika
 outputs.93.3.filename=tika-app-3.2.2-tests.jar
-outputs.93.3.length=2555240
-outputs.93.3.checksums.sha512=882b1ed5a00aec5d123160b2dbf486071616e85d1db512ab63d7c7237788b41e8f7eee9694ce4651dd75673b2dd296510347c6c68216be7c5fd8e72515603d51
+outputs.93.3.length=2555266
+outputs.93.3.checksums.sha512=ef20f4c50ea2a94c00af773e0f0f4a352a95b3474246f1801dfd788b96aae0cb9167195fa6cc269dc449109e112e1a3e0dc4c4ea363f0e2c3f6580ef70b87034
 
 outputs.94.coordinates=org.apache.tika:tika-translate
 
@@ -1766,8 +1766,8 @@ outputs.94.0.checksums.sha512=24222820306fdfe7458aff172b66b4534da667307cc2e3b8b4
 
 outputs.94.1.groupId=org.apache.tika
 outputs.94.1.filename=tika-translate-3.2.2.jar
-outputs.94.1.length=49357
-outputs.94.1.checksums.sha512=b8a668eb55f51b8ffe89c05a2f3cec49601807ec66c9599e2a3e9e59a49cf3a9152991553fa3d1ff3bb65fd4a3b5a1e1cdc320ffe88928a93ed6c2e938410ca0
+outputs.94.1.length=49369
+outputs.94.1.checksums.sha512=073b1253d8d77423e72c7498792ab724faa0029545296fecf65ed501b575e6f38abf132dc7f2017b335ef25de3982927968508916c0c21bd8f7cec791f72747c
 
 outputs.94.2.groupId=org.apache.tika
 outputs.94.2.filename=tika-translate-3.2.2-sources.jar
@@ -1795,8 +1795,8 @@ outputs.96.0.checksums.sha512=1a471871d7db0867b116d159f3e7775ada8697786029532c7a
 
 outputs.96.1.groupId=org.apache.tika
 outputs.96.1.filename=tika-server-core-3.2.2.jar
-outputs.96.1.length=35033658
-outputs.96.1.checksums.sha512=8091a442163b2b4d375f2205710851fc7e950da6e43943638325f6db5da706b943d224bd13b7749d854f73bdec505ff4b37cd8be1cc4024248a614ab15d9d049
+outputs.96.1.length=35034610
+outputs.96.1.checksums.sha512=07176aeb46e3f2a5e09346b17c355a537eab9bbed77753f81d1726ef6f1f1e98058524af13be75efc7146b2ab257a42f38c559785f79edfd5cdd3e1b60291414
 
 outputs.96.2.groupId=org.apache.tika
 outputs.96.2.filename=tika-server-core-3.2.2-sources.jar
@@ -1805,8 +1805,8 @@ outputs.96.2.checksums.sha512=85223c698b1fb1fed5b7367b0cbd953860f6a429d783aa7614
 
 outputs.96.3.groupId=org.apache.tika
 outputs.96.3.filename=tika-server-core-3.2.2-tests.jar
-outputs.96.3.length=120339
-outputs.96.3.checksums.sha512=d1074a5e2213f54fff1090a4e72911016072a5d21f824d39100f95b8c9b169792db631fb504e97dccb627a0126c4270da90606eb78387359a64ba0a958102581
+outputs.96.3.length=120403
+outputs.96.3.checksums.sha512=0fef3df259a3ac4f9b56815fbe43772d138a8f4901a3ecaa39aa59dc753d27d010e42321dd246353b85d9cb0db9879996d5d92c19701090b260b55393c00a29a
 
 outputs.97.coordinates=org.apache.tika:tika-server-standard
 
@@ -1817,23 +1817,23 @@ outputs.97.0.checksums.sha512=0dccb0d9bfc00c5b9617a85334d729ad2fcc3d9a84a6bc5725
 
 outputs.97.1.groupId=org.apache.tika
 outputs.97.1.filename=tika-server-standard-3.2.2.jar
-outputs.97.1.length=66193509
-outputs.97.1.checksums.sha512=d250c93451995588a72a3147578db4ce2dc125cb3886decc9ef5879430312d30e42281782db219e90972835289dc547e1193a798d9c50ac4747262dc0e285a96
+outputs.97.1.length=66195183
+outputs.97.1.checksums.sha512=21a7c3f185beb1909b8bdb7d53a514a9c43570d5dd93e3878deff4766ff8722a728ca195ca0febf851c7ffa0fcf637adc0ff8810fc07057798480af8825f6bfb
 
 outputs.97.2.groupId=org.apache.tika
 outputs.97.2.filename=tika-server-standard-3.2.2-tests.jar
-outputs.97.2.length=7344367
-outputs.97.2.checksums.sha512=a1f2c8a6f1d293a52f16658d85a978730d17b5504e5c0cdc8ec82c6a6a8fb42fa71b7e484099066db064f1b9e26308c6ef0f3974ad14d4d8d42a05c40d622098
+outputs.97.2.length=7344386
+outputs.97.2.checksums.sha512=61552eebed397763dfd3c9babd439d15eac5402cbf2faeb05abcd536cdc32523f07ffa935f22fbb1a7620117b4473ae55782423959ca8a0578c7587845dc4e64
 
 outputs.97.3.groupId=org.apache.tika
 outputs.97.3.filename=tika-server-standard-3.2.2-bin.tgz
-outputs.97.3.length=58954253
-outputs.97.3.checksums.sha512=664511a0ae5c40564eb584e9fe464ac0d9cd12d0f4c6f82b39e6071e3931aa5067d2939c3b2b87b06f4cce826207e9a9a4effb404b140dd5d9594fae0d8b6cf4
+outputs.97.3.length=58955697
+outputs.97.3.checksums.sha512=d1b3c1e2b92c494444fade12def65a9ff995abe6dabfbcbd58055816adfe6b3b5609041145880abffb0e012d29cf75817aeae76255d12beeca97af07257a67b8
 
 outputs.97.4.groupId=org.apache.tika
 outputs.97.4.filename=tika-server-standard-3.2.2-bin.zip
-outputs.97.4.length=58957039
-outputs.97.4.checksums.sha512=b39635784353f6f8ab10b03cab321ac8a82fc728291201ada6ba2b699bf317718dc495c2298584d0c1ed9b36a8fc9185f988fce44281123acb9fbddb756c8a2c
+outputs.97.4.length=58958441
+outputs.97.4.checksums.sha512=11d9cd000aa263fbacc14fbf65e256e85ae768ae937b55c0013a114ba0102e3ed2d1b38ec86cf32d7bf21366e9ba82f6d2bcc833273f9c4bad1f228dfd361697
 
 outputs.97.5.groupId=org.apache.tika
 outputs.97.5.filename=tika-server-standard-3.2.2-sources.jar
@@ -1849,8 +1849,8 @@ outputs.98.0.checksums.sha512=61b66cd496d2628ad208d09b015f461fdae1ebcfbf791ffbeb
 
 outputs.98.1.groupId=org.apache.tika
 outputs.98.1.filename=tika-server-client-3.2.2.jar
-outputs.98.1.length=7698237
-outputs.98.1.checksums.sha512=e84d4af0ecd13d36f61ae70af293d7845b99b3fcda1a1246c2ba0d3bfea0f123c78ac999b2821ce4be573f0b125129421866852f762c834cab09d75f3b95c79d
+outputs.98.1.length=7699079
+outputs.98.1.checksums.sha512=63eb5e57cb8cce8af5d6aee58d1ea1f54a0aa09710b60c7e541391ab401305715f15adbef381068228caa23112ebe86cf2ac69ac9748b59be0b8689e4680a802
 
 outputs.98.2.groupId=org.apache.tika
 outputs.98.2.filename=tika-server-client-3.2.2-tests.jar
@@ -1878,8 +1878,8 @@ outputs.100.0.checksums.sha512=81c856028087e8c61ae2f897b38b22e9c8c363abfcabec2ed
 
 outputs.100.1.groupId=org.apache.tika
 outputs.100.1.filename=tika-eval-core-3.2.2.jar
-outputs.100.1.length=70652551
-outputs.100.1.checksums.sha512=eccc72dfa65d0b4e04103c909f38969d4797ea40c7075ef251957d749ae4e08da3c46a08fef15391a992c58dad5043f1889c5b10ad02a4173d24d55354296a13
+outputs.100.1.length=70652600
+outputs.100.1.checksums.sha512=e1b44d80d30a4495f3e7d23c2a4cbd1eb3ceec23d2dbb301d635ffa41660c8681f5d24a99c0e2133b8ba13c5ac21b32e2a5531503f14b9318eb4a3be23ce433f
 
 outputs.100.2.groupId=org.apache.tika
 outputs.100.2.filename=tika-eval-core-3.2.2-sources.jar
@@ -1900,8 +1900,8 @@ outputs.101.0.checksums.sha512=5e5df17d470dde8eae6f445b6e531b71a543336cffb5d590d
 
 outputs.101.1.groupId=org.apache.tika
 outputs.101.1.filename=tika-server-eval-3.2.2.jar
-outputs.101.1.length=70658925
-outputs.101.1.checksums.sha512=7e6798451add03d0a2d0f462bca35471494fde36f826c8f9b6bc6fb3e4d88759a33bb4bcbb6b49e06421ee162035d40a879319a11b46112d446d8d75b8835240
+outputs.101.1.length=70658974
+outputs.101.1.checksums.sha512=f9b489ed56987282dbfd1a3067da087e7ba4fec6d17a0528c617be845cbe47cbe6f4d26f1ece720190a81117915c2214228f8de7292f60508074da1603b00fc4
 
 outputs.101.2.groupId=org.apache.tika
 outputs.101.2.filename=tika-server-eval-3.2.2-sources.jar
@@ -2014,8 +2014,8 @@ outputs.108.0.checksums.sha512=ca6a5f29ab48518021989aaf8710aaea1553a71a0c77fa615
 
 outputs.108.1.groupId=org.apache.tika
 outputs.108.1.filename=tika-eval-app-3.2.2.jar
-outputs.108.1.length=92893249
-outputs.108.1.checksums.sha512=1bd298b16182587a30babae1ded26af3f160e777476e85daa2fe2ea93e4a842396f824eb0023d4c2329f49af91daa2107ee3ca9fea6f405086883754a685679c
+outputs.108.1.length=92894322
+outputs.108.1.checksums.sha512=45e1a87440f393fda25728b93923674293299a0c014a686d7133299c7dee0c69e9d5e94e354b7809e802b9b29d684f46d4a5980efa82493d9be9bd774fe880e3
 
 outputs.108.2.groupId=org.apache.tika
 outputs.108.2.filename=tika-eval-app-3.2.2-sources.jar
@@ -2024,8 +2024,8 @@ outputs.108.2.checksums.sha512=8e25946728ff5d77f153d8f294cf4acd7cc652376ba375e3f
 
 outputs.108.3.groupId=org.apache.tika
 outputs.108.3.filename=tika-eval-app-3.2.2-tests.jar
-outputs.108.3.length=85441
-outputs.108.3.checksums.sha512=74af01e37da967334b90e62d5d483aef67936fe6f4301595eaf5b3d9c91969e28c441dae1e8ee6f1d0a43f4954904e114e790124b3cdbd226ae738829bd120a0
+outputs.108.3.length=85460
+outputs.108.3.checksums.sha512=3b631bd21e102fb05f655f773e83e7347d1636d921589d5748dc02957b4b6c656a6fa986e942d41b886e0ce7dda6fef59fda20a2abf91a504edef5105b81d816
 
 outputs.109.coordinates=org.apache.tika:tika-fuzzing
 
@@ -2036,8 +2036,8 @@ outputs.109.0.checksums.sha512=d0667a4a88a41662fefeaea0d4e6b46c1e080a48322027d3a
 
 outputs.109.1.groupId=org.apache.tika
 outputs.109.1.filename=tika-fuzzing-3.2.2.jar
-outputs.109.1.length=61420
-outputs.109.1.checksums.sha512=3c3ed0420a0e21ed9360b949170adca3d8b021a40e221d5c2da20b6277cc846a544777ad41dbcf9e0dcfae0d1c9363c989070d624be2594df159d33046ae1836
+outputs.109.1.length=61497
+outputs.109.1.checksums.sha512=0fa7f5cf5dab9433ddf1ad918b31db55767e7613a87ad8358da0215d0a5a1c3b5467c8194116f1a0ff72b71750d237be69f264c7cbfbfbd02a8cb1a8af9abb9d
 
 outputs.109.2.groupId=org.apache.tika
 outputs.109.2.filename=tika-fuzzing-3.2.2-sources.jar
@@ -2053,8 +2053,8 @@ outputs.110.0.checksums.sha512=a61d42f87f3cd17513b3f03e5c34afe2f0e11b8eb10a08252
 
 outputs.110.1.groupId=org.apache.tika
 outputs.110.1.filename=tika-example-3.2.2.jar
-outputs.110.1.length=109973
-outputs.110.1.checksums.sha512=81f2c3558e19c6fd067e634dbcf611f6d8fbe5b80d33f83abbf524bdf6125554cd13f57479d35af49038155a6048704e82935ca9d4849bbec2cd8900da198f79
+outputs.110.1.length=110033
+outputs.110.1.checksums.sha512=02db29246046461e550bcf421bbaff9e94033bd46430b14c80ae0bee089d5ab15533bd3d6a0bde4c3f0da7cd30dbc2020f7afc26c9099a776382a16231327f33
 
 outputs.110.2.groupId=org.apache.tika
 outputs.110.2.filename=tika-example-3.2.2-sources.jar
