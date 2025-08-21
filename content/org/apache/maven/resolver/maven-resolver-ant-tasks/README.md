@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/maven-resolver-ant-tasks.git](https://github.com/apache/maven-resolver-ant-tasks.git)
 
-rebuilding **7 releases** of org.apache.maven.resolver:maven-resolver-ant-tasks:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of org.apache.maven.resolver:maven-resolver-ant-tasks:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.6.0](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-ant-tasks/1.6.0/pom) | | | |
+| [1.6.0](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-ant-tasks/1.6.0/pom) | [mvn jdk21](maven-resolver-ant-tasks-1.6.0.buildspec) | [result](maven-resolver-ant-tasks-1.6.0.buildinfo): [7 :white_check_mark: ](maven-resolver-ant-tasks-1.6.0.buildcompare) | | 5.8M |
 | [1.5.2](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-ant-tasks/1.5.2/pom) | [mvn jdk21](maven-resolver-ant-tasks-1.5.2.buildspec) | [result](maven-resolver-ant-tasks-1.5.2.buildinfo): [6 :white_check_mark:  1 :warning:](maven-resolver-ant-tasks-1.5.2.buildcompare) | - | 4.1M |
 | [1.5.1](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-ant-tasks/1.5.1/pom) | [mvn jdk21](maven-resolver-ant-tasks-1.5.1.buildspec) | [result](maven-resolver-ant-tasks-1.5.1.buildinfo): [7 :white_check_mark: ](maven-resolver-ant-tasks-1.5.1.buildcompare) | | 4.7M |
 | [1.5.0](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-ant-tasks/1.5.0/pom) | [mvn jdk17](maven-resolver-ant-tasks-1.5.0.buildspec) | [result](maven-resolver-ant-tasks-1.5.0.buildinfo): [7 :white_check_mark: ](maven-resolver-ant-tasks-1.5.0.buildcompare) | | 4.7M |

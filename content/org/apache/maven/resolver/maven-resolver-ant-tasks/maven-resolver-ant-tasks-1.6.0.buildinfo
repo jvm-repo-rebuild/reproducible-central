@@ -1,0 +1,59 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Artifact Resolver Ant Tasks
+group-id=org.apache.maven.resolver
+artifact-id=maven-resolver-ant-tasks
+version=1.6.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-resolver-ant-tasks.git
+source.scm.tag=maven-resolver-ant-tasks-1.6.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=4.0.0-rc-2
+
+# output
+
+outputs.0.groupId=org.apache.maven.resolver
+outputs.0.filename=maven-resolver-ant-tasks-1.6.0.pom
+outputs.0.length=15225
+outputs.0.checksums.sha512=4a9a0c25f554c56ea406dbae1eb1892d79998736a23bc623809c26b10d9d1be96b1ea694148457e7aa85be9529c292a0a5667d0c69d6b107cc014a77cdeb37c0
+
+outputs.1.groupId=org.apache.maven.resolver
+outputs.1.filename=maven-resolver-ant-tasks-1.6.0.jar
+outputs.1.length=128770
+outputs.1.checksums.sha512=00aec4dc7430fc17a3fed1fb9ca213e330adc2fc3313710edfcdc51e42e3184644e7aaba640ab993b8eb92fb7b4fe256ef93e2366ab5fb65876d7551b5e7e6b1
+
+outputs.2.groupId=org.apache.maven.resolver
+outputs.2.filename=maven-resolver-ant-tasks-1.6.0-source-release.zip
+outputs.2.length=258609
+outputs.2.checksums.sha512=0e6f46beaa44734e568aac37ce13b484d985da8335b0d9fb331e5702273ea61a3c11f6bdc29118383066ff528048be784500e1468ad66a93e584b495327c8fdd
+
+outputs.3.groupId=org.apache.maven.resolver
+outputs.3.filename=maven-resolver-ant-tasks-1.6.0-sources.jar
+outputs.3.length=141528
+outputs.3.checksums.sha512=7935e3ee55b7c192acce0a2a4dc1178297b31b8c84b58503b1642f5db2d90233e4891259f4b12dd0f74caa9c4b46551b38c593a02039b783e83f1557fb5a5f4e
+
+outputs.4.groupId=org.apache.maven.resolver
+outputs.4.filename=maven-resolver-ant-tasks-1.6.0-cyclonedx.xml
+outputs.4.length=108429
+outputs.4.checksums.sha512=0cabab0fb2539a0395608e18f965554381e5eeddf0fd6fb469ec50111b1329998dbb7f6128f0425b5a6de1a47e8639dd878aaac3be54b2ab1e5d9ac1cb50731f
+
+outputs.5.groupId=org.apache.maven.resolver
+outputs.5.filename=maven-resolver-ant-tasks-1.6.0-cyclonedx.json
+outputs.5.length=117793
+outputs.5.checksums.sha512=484f26eec643f14ad9cd8db0e718602bfa72643f4dc1a66046c9906268330dc9aa535b23d453b97f13521e37a5a73c49afb8ff068faff9e399d57235e11e0cec
+
+outputs.6.groupId=org.apache.maven.resolver
+outputs.6.filename=maven-resolver-ant-tasks-1.6.0-uber.jar
+outputs.6.length=5310279
+outputs.6.checksums.sha512=004e4402858a71ef64a8d8a91816e57e996c1d49a3200573647bff56f25f2216c4c7504174fd70fa06d6049fe156945e1bd8415830d7d1b06e0fd9976bc49a13
