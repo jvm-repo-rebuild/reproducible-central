@@ -43,6 +43,7 @@ rebuilding **11 releases** of org.apache.accumulo:accumulo:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [3.0.0](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/3.0.0/pom) | [mvn jdk11](accumulo-3.0.0.buildspec) | [result](accumulo-project-3.0.0.buildinfo): [48 :white_check_mark: ](accumulo-project-3.0.0.buildcompare) | | 53M |
+| [2.1.4](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/2.1.4/pom) | | | |
 | [2.1.3](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/2.1.3/pom) | [mvn jdk17](accumulo-2.1.3.buildspec) | [result](accumulo-project-2.1.3.buildinfo): [49 :white_check_mark: ](accumulo-project-2.1.3.buildcompare) | | 60M |
 | [2.1.2](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/2.1.2/pom) | [mvn jdk11](accumulo-2.1.2.buildspec) | [result](accumulo-project-2.1.2.buildinfo): [49 :white_check_mark: ](accumulo-project-2.1.2.buildcompare) | | 58M |
 | [2.1.1](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/2.1.1/pom) | [mvn jdk11](accumulo-2.1.1.buildspec) | [result](accumulo-project-2.1.1.buildinfo): [50 :white_check_mark: ](accumulo-project-2.1.1.buildcompare) | | 57M |
