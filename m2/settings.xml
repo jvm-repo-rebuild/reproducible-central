@@ -207,6 +207,16 @@
       <url>https://build.shibboleth.net/nexus/content/repositories/releases/</url>
     </mirror>
     <mirror>
+      <id>opensaml</id>
+      <mirrorOf>opensaml</mirrorOf>
+      <url>https://build.shibboleth.net/maven/releases/</url>
+    </mirror>
+    <mirror>
+      <id>shib-release</id>
+      <mirrorOf>shib-release</mirrorOf>
+      <url>https://build.shibboleth.net/maven/releases/</url>
+    </mirror>
+    <mirror>
       <id>sigar</id>
       <mirrorOf>sigar</mirrorOf>
       <url>https://repository.jboss.org/nexus/content/repositories/thirdparty-uploads/</url>

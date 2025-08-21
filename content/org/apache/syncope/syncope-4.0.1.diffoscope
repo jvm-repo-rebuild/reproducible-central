@@ -1,0 +1,125 @@
+# it seems release manager has a personal openjpa jar in his local repository: need to clean
+1 / 11 target/reference/org.apache.syncope.core/syncope-core-persistence-jpa-4.0.1-cyclonedx.xml core/persistence-jpa/target/bom.xml
+--- target/reference/org.apache.syncope.core/syncope-core-persistence-jpa-4.0.1-cyclonedx.xml
++++ core/persistence-jpa/target/bom.xml
+│   --- target/reference/org.apache.syncope.core/syncope-core-persistence-jpa-4.0.1-cyclonedx.xml
+├── +++ core/persistence-jpa/target/bom.xml
+│ @@ -805,22 +805,22 @@
+│        <publisher>Apache Software Foundation</publisher>
+│        <group>org.apache.openjpa</group>
+│        <name>openjpa</name>
+│        <version>4.1.1</version>
+│        <description>Apache OpenJPA implementation of Jakarta JPA 3.1</description>
+│        <scope>required</scope>
+│        <hashes>
+│ -        <hash alg="MD5">56501f3353e7c0f2a6e3ce7254ef5063</hash>
+│ -        <hash alg="SHA-1">96c727641ad43dc130b4cb8d2526e4cf163578a0</hash>
+│ -        <hash alg="SHA-256">d436390f5528f38fa779c5907a66a5d051c3659ded3800dd5b67c3acd075c9ab</hash>
+│ -        <hash alg="SHA-512">23c948e9e4b34724653d2a74185084bc1776f3fd1a567cfabc3af1e550fa49a71b8e1b111fbe6c24b9c9333e7f127e0159cd32d6d8ebd8bad79de3afa04f7786</hash>
+│ -        <hash alg="SHA-384">5610a7ab4b095d3c7933a414a4627209ae63238ea28c746f98f193116c9b0f9c044760de522f4684651a0fe89e932bb5</hash>
+│ -        <hash alg="SHA3-384">c7086e44d73b8ab24ac4a4d6d7bbe2dd60c18f5a5e19a985ca6871cbee2a8f4ca9e8d5c7f4d98610b762adc156c4439f</hash>
+│ -        <hash alg="SHA3-256">3b1d70f6bda350534a83e02ae56c39fcbefa663f1e7f6057aaa93b2af15d1673</hash>
+│ -        <hash alg="SHA3-512">d897774e0213a5e4b4295a2ecdda25c913f594b0532b410937687c6aa5aa2205cf25c27f356838e0ae3a924c61d987554b3c861163b3426543857e310a7bbcfc</hash>
+│ +        <hash alg="MD5">156d456ada7011b67c82adbaa094a68d</hash>
+│ +        <hash alg="SHA-1">29a4cc3a375a6eb11caa1c27babf7f28c45aa3e2</hash>
+│ +        <hash alg="SHA-256">d72e339d46a43cdcc80bbb332174f0d6ef4a3c03fede7b2fb3d64dd9027b21ea</hash>
+│ +        <hash alg="SHA-512">72d85a4ed89eb90c578396a5cf94fd17c93b3f796a8494da3651f149dff41d83611f925f471010bf85b2b4ac331726d347bbd64bfaac1f86ca771a9188c55550</hash>
+│ +        <hash alg="SHA-384">035d3f321ac59385968fb50b6010467556c742d8510229812e139de3629f9f6adc7005fbde1eaf0c6c5a1d4bf163606c</hash>
+│ +        <hash alg="SHA3-384">2cccf9ede1806835884b36dd87f845844bba7a9ce8286ef2acc22d8847c082ac22582e8ff86bb44e4f1851fa03d9a4ba</hash>
+│ +        <hash alg="SHA3-256">da1c89430a8880bf0b9feab1cea833edb491a7a8ac24be257c6445057cb92865</hash>
+│ +        <hash alg="SHA3-512">23a4b1a63bcc3350b14a1493a9081c349ddad61667051028b5455ed1f2c6a259a23b8933a64e874ecdaba290fb84d2f3e4e40ba255176c155d4cc5ef24f29720</hash>
+│        </hashes>
+│        <licenses>
+│          <license>
+│            <id>Apache-2.0</id>
+│          </license>
+│        </licenses>
+│        <purl>pkg:maven/org.apache.openjpa/openjpa@4.1.1?type=jar</purl>
+
+2 / 11 target/reference/org.apache.syncope.core/syncope-core-persistence-jpa-4.0.1-cyclonedx.json core/persistence-jpa/target/bom.json
+... same issue for all CycloneDX SBOMs
+
+# README.md and generated OpenAPI source code contain non-reproducible timestamps
+11 / 11 target/reference/org.apache.syncope.ext.openfga/syncope-ext-openfga-client-4.0.1-sources.jar ext/openfga/client-openfga/target/syncope-ext-openfga-client-4.0.1-sources.jar
+--- target/reference/org.apache.syncope.ext.openfga/syncope-ext-openfga-client-4.0.1-sources.jar
++++ ext/openfga/client-openfga/target/syncope-ext-openfga-client-4.0.1-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 352211 bytes, number of entries: 254
+│ +Zip file size: 352195 bytes, number of entries: 254
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-08 06:50 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 25-Aug-08 06:50 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-08 06:50 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-08 06:50 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-08 06:50 org/apache/syncope/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-08 06:50 org/apache/syncope/ext/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-08 06:50 org/apache/syncope/ext/openfga/
+│ @@ -34,15 +34,15 @@
+│  -rw-r--r--  2.0 unx     1040 b- defN 25-Aug-08 06:50 .openapi-generator-ignore
+│  -rw-r--r--  2.0 unx      322 b- defN 25-Aug-08 06:50 .travis.yml
+│ --rw-r--r--  2.0 unx    14573 b- defN 25-Aug-08 06:50 README.md
+│ +-rw-r--r--  2.0 unx    14574 b- defN 25-Aug-08 06:50 README.md
+│  -rw-r--r--  2.0 unx   122317 b- defN 25-Aug-08 06:50 api/openapi.yaml
+│  -rw-r--r--  2.0 unx     3023 b- defN 25-Aug-08 06:50 build.gradle
+│ @@ -137,120 +137,120 @@
+│  -rw-r--r--  2.0 unx     8156 b- defN 25-Aug-08 06:50 gradlew
+│  -rw-r--r--  2.0 unx     2826 b- defN 25-Aug-08 06:50 gradlew.bat
+│ --rw-r--r--  2.0 unx    14797 b- defN 25-Aug-08 06:50 org/apache/syncope/ext/openfga/client/ApiClient.java
+│ --rw-r--r--  2.0 unx     2736 b- defN 25-Aug-08 06:50 org/apache/syncope/ext/openfga/client/ApiException.java
+...
+│ --rw-r--r--  2.0 unx     8403 b- defN 25-Aug-08 06:50 org/apache/syncope/ext/openfga/client/model/Assertion.java
+│ --rw-r--r--  2.0 unx     6198 b- defN 25-Aug-08 06:50 org/apache/syncope/ext/openfga/client/model/AssertionTupleKey.java
+│ +-rw-r--r--  2.0 unx    14798 b- defN 25-Aug-08 06:50 org/apache/syncope/ext/openfga/client/ApiClient.java
+│ +-rw-r--r--  2.0 unx     2737 b- defN 25-Aug-08 06:50 org/apache/syncope/ext/openfga/client/ApiException.java
+...
+│ +-rw-r--r--  2.0 unx     8404 b- defN 25-Aug-08 06:50 org/apache/syncope/ext/openfga/client/model/Assertion.java
+│ +-rw-r--r--  2.0 unx     6199 b- defN 25-Aug-08 06:50 org/apache/syncope/ext/openfga/client/model/AssertionTupleKey.java
+│  -rw-r--r--  2.0 unx     2131 b- defN 25-Aug-08 06:50 org/apache/syncope/ext/openfga/client/model/AuthErrorCode.java
+│ --rw-r--r--  2.0 unx     9015 b- defN 25-Aug-08 06:50 org/apache/syncope/ext/openfga/client/model/AuthorizationModel.java
+│ --rw-r--r--  2.0 unx     8017 b- defN 25-Aug-08 06:50 org/apache/syncope/ext/openfga/client/model/BatchCheckItem.java
+...
+│ --rw-r--r--  2.0 unx     5303 b- defN 25-Aug-08 06:50 org/apache/syncope/ext/openfga/client/model/ConditionMetadata.java
+│ --rw-r--r--  2.0 unx     6136 b- defN 25-Aug-08 06:50 org/apache/syncope/ext/openfga/client/model/ConditionParamTypeRef.java
+│ +-rw-r--r--  2.0 unx     9016 b- defN 25-Aug-08 06:50 org/apache/syncope/ext/openfga/client/model/AuthorizationModel.java
+│ +-rw-r--r--  2.0 unx     8018 b- defN 25-Aug-08 06:50 org/apache/syncope/ext/openfga/client/model/BatchCheckItem.java
+...
+│ +-rw-r--r--  2.0 unx     5304 b- defN 25-Aug-08 06:50 org/apache/syncope/ext/openfga/client/model/ConditionMetadata.java
+│ +-rw-r--r--  2.0 unx     6137 b- defN 25-Aug-08 06:50 org/apache/syncope/ext/openfga/client/model/ConditionParamTypeRef.java
+│  -rw-r--r--  2.0 unx     2132 b- defN 25-Aug-08 06:50 org/apache/syncope/ext/openfga/client/model/ConsistencyPreference.java
+│ --rw-r--r--  2.0 unx     4756 b- defN ...
+│  -rw-r--r--  2.0 unx    98440 b- defN 25-Aug-08 06:50 openfga.yaml
+│  -rw-r--r--  2.0 unx     4076 b- defN 25-Aug-08 06:50 META-INF/maven/org.apache.syncope.ext.openfga/syncope-ext-openfga-client/pom.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 25-Aug-08 06:50 META-INF/maven/org.apache.syncope.ext.openfga/syncope-ext-openfga-client/pom.properties
+│ -254 files, 1288326 bytes uncompressed, 311749 bytes compressed:  75.8%
+│ +254 files, 1288424 bytes uncompressed, 311733 bytes compressed:  75.8%
+├── README.md
+│ @@ -1,14 +1,14 @@
+│  # openapi-java-client
+│  
+│  OpenFGA
+│  
+│  - API version: 1.x
+│  
+│ -- Build date: 2025-08-08T09:24:43.928887399+02:00[Europe/Rome]
+│ +- Build date: 2025-08-21T04:00:46.494633030+02:00[Europe/Paris]
+│  
+│  - Generator version: 7.14.0
+│  
+│  A high performance and flexible authorization/permission engine built for developers and inspired by Google Zanzibar.
+│  
+│    For more information, please visit [https://openfga.dev](https://openfga.dev)
+├── org/apache/syncope/ext/openfga/client/ApiClient.java
+│   * a fluent style of configuration.</p>
+│   */
+│ -@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-08T09:24:43.928887399+02:00[Europe/Rome]", comments = "Generator version: 7.14.0")
+│ +@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-21T04:00:46.494633030+02:00[Europe/Paris]", comments = "Generator version: 7.14.0")
+│  public class ApiClient {
+│  
+├── org/apache/syncope/ext/openfga/client/ApiException.java
+│  import java.net.http.HttpHeaders;
+│  
+│ -@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-08T09:24:43.928887399+02:00[Europe/Rome]", comments = "Generator version: 7.14.0")
+│ +@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-08-21T04:00:46.494633030+02:00[Europe/Paris]", comments = "Generator version: 7.14.0")
+│  public class ApiException extends Exception {
+│      private static final long serialVersionUID = 1L;
+...
