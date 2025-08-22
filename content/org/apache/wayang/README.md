@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/incubator-wayang.git](https://github.com/apache/incubator-wayang.git)
 
-<details><summary>This project defines 43 modules:</summary>
+<details><summary>This project defines 44 modules:</summary>
 
 * [org.apache.wayang:wayang](https://central.sonatype.com/artifact/org.apache.wayang/wayang/overview)
 * [org.apache.wayang:wayang-api](https://central.sonatype.com/artifact/org.apache.wayang/wayang-api/overview)
@@ -17,6 +17,7 @@ Source code: [https://github.com/apache/incubator-wayang.git](https://github.com
 * [org.apache.wayang:wayang-api-scala-java_2.11](https://central.sonatype.com/artifact/org.apache.wayang/wayang-api-scala-java_2.11/overview)
 * [org.apache.wayang:wayang-api-scala-java_2.12](https://central.sonatype.com/artifact/org.apache.wayang/wayang-api-scala-java_2.12/overview)
 * [org.apache.wayang:wayang-api-sql](https://central.sonatype.com/artifact/org.apache.wayang/wayang-api-sql/overview)
+* [org.apache.wayang:wayang-api-utils](https://central.sonatype.com/artifact/org.apache.wayang/wayang-api-utils/overview)
 * [org.apache.wayang:wayang-applications](https://central.sonatype.com/artifact/org.apache.wayang/wayang-applications/overview)
 * [org.apache.wayang:wayang-basic](https://central.sonatype.com/artifact/org.apache.wayang/wayang-basic/overview)
 * [org.apache.wayang:wayang-benchmark](https://central.sonatype.com/artifact/org.apache.wayang/wayang-benchmark/overview)
@@ -54,13 +55,13 @@ Source code: [https://github.com/apache/incubator-wayang.git](https://github.com
 * [org.apache.wayang:wayang-utils-profile-db](https://central.sonatype.com/artifact/org.apache.wayang/wayang-utils-profile-db/overview)
 </details>
 
-rebuilding **4 releases** of org.apache.wayang:wayang:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **5 releases** of org.apache.wayang:wayang:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.1.0](https://central.sonatype.com/artifact/org.apache.wayang/wayang/1.1.0/pom) | | | |
+| [1.1.0](https://central.sonatype.com/artifact/org.apache.wayang/wayang/1.1.0/pom) | [mvn jdk17](wayang-1.1.0.buildspec) | [result](wayang-1.1.0.buildinfo): [77 :white_check_mark: ](wayang-1.1.0.buildcompare) | | 16M |
 | [1.0.0](https://central.sonatype.com/artifact/org.apache.wayang/wayang/1.0.0/pom) | [mvn jdk11](wayang-1.0.0.buildspec) | [result](wayang-1.0.0.buildinfo): [72 :white_check_mark:  2 :warning:](wayang-1.0.0.buildcompare) [:mag:](wayang-1.0.0.diffoscope) [:memo:](https://github.com/apache/incubator-wayang/pull/503) | - | 18M |
 | [0.7.1](https://central.sonatype.com/artifact/org.apache.wayang/wayang/0.7.1/pom) | [mvn jdk8](wayang-0.7.1.buildspec) | [result](wayang-0.7.1.buildinfo): [90 :white_check_mark: ](wayang-0.7.1.buildcompare) | | 14M |
 | [0.7.0](https://central.sonatype.com/artifact/org.apache.wayang/wayang/0.7.0/pom) | [mvn jdk8](wayang-0.7.0.buildspec) | [result](wayang-0.7.0.buildinfo): [90 :white_check_mark: ](wayang-0.7.0.buildcompare) | | 12M |
