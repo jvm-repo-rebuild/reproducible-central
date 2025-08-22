@@ -1,0 +1,9 @@
+version=1.7.0
+ok=11
+ko=0
+ignored=0
+okFiles="mrm-1.7.0.pom mrm-1.7.0-source-release.zip mrm-api-1.7.0.pom mrm-api-1.7.0.jar mrm-api-1.7.0-sources.jar mrm-servlet-1.7.0.pom mrm-servlet-1.7.0.jar mrm-servlet-1.7.0-sources.jar mrm-maven-plugin-1.7.0.pom mrm-maven-plugin-1.7.0.jar mrm-maven-plugin-1.7.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
