@@ -1,0 +1,49 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=javabean-tester
+group-id=com.github.hazendaz
+artifact-id=javabean-tester
+version=2.11.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/javabean-tester.git
+source.scm.tag=javabean-tester-2.11.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=com.github.hazendaz
+outputs.0.filename=javabean-tester-2.11.0.pom
+outputs.0.length=54682
+outputs.0.checksums.sha512=5d3ed423b78585367184c932b19b7f160c588a173d43cfe05b0f3c951efcf88f811e150a48cc4d18a34381fb13c3f9500eff266eb040d59f6e2a62bebab11661
+
+outputs.1.groupId=com.github.hazendaz
+outputs.1.filename=javabean-tester-2.11.0.jar
+outputs.1.length=46929
+outputs.1.checksums.sha512=3c18463abf6b280ebe663087799739931f4bdb28bdd392f50ee212a9d5f25e8006109730053a0204de9d1215043239c968a90729b2454a91ef7fb08971ae079f
+
+outputs.2.groupId=com.github.hazendaz
+outputs.2.filename=javabean-tester-2.11.0-tests.jar
+outputs.2.length=46958
+outputs.2.checksums.sha512=9c424beac0bcf4a762deb662ac3de32d5138f4318bb508b9ca2f19d9fb362f7321b5d12337b8458a97583dedc4400f54e2452454b6e469fcbac4af8cab2988ba
+
+outputs.3.groupId=com.github.hazendaz
+outputs.3.filename=javabean-tester-2.11.0-sources.jar
+outputs.3.length=33210
+outputs.3.checksums.sha512=ee208a7cb32543ce8abf4493c35bfb595d5b507bfada0ccd8a126fa33314d293bb95972721f62f92ea4f56f8bc5c2a806e60b6a4882728019c0ab6f031db50cf
+
+outputs.4.groupId=com.github.hazendaz
+outputs.4.filename=javabean-tester-2.11.0-test-sources.jar
+outputs.4.length=24398
+outputs.4.checksums.sha512=8ec87fc7c082183260c0f8852007ea45cd439ca72b738bf6b65f8c54ffd2d2d30a242cdcd4dcf5c9ae3e55411a9b4d8402b59552b1ae1d700a7a230fcac5a2aa
