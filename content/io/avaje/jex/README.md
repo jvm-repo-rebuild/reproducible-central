@@ -27,6 +27,7 @@ rebuilding **31 releases** of io.avaje:avaje-jex-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.3-RC4](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.3-RC4/pom) | | | |
 | [3.3-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.3-RC3/pom) | [mvn jdk24 w](avaje-jex-3.3-RC3.buildspec) | [result](avaje-jex-parent-3.3-RC3.buildinfo): [19 :white_check_mark:  3 :warning:](avaje-jex-parent-3.3-RC3.buildcompare) | 1 :rotating_light: 2 :no_entry_sign: | 307K |
 | [3.3-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.3-RC2/pom) | [mvn jdk24 w](avaje-jex-3.3-RC2.buildspec) | [result](avaje-jex-parent-3.3-RC2.buildinfo): [22 :white_check_mark: ](avaje-jex-parent-3.3-RC2.buildcompare) | | 298K |
 | [3.3-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.3-RC1/pom) | [mvn jdk21](avaje-jex-3.3-RC1.buildspec) | [result](avaje-jex-parent-3.3-RC1.buildinfo): [22 :white_check_mark: ](avaje-jex-parent-3.3-RC1.buildcompare) | | 295K |
