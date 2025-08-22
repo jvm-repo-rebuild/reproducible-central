@@ -1,0 +1,19 @@
+groupId=org.apache.accumulo
+artifactId=accumulo
+display=${groupId}:${artifactId}
+version=2.1.4
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=rel/${version}
+
+tool=mvn
+jdk=17
+newline=lf
+umask=022
+
+# need SHELL because sed is used in assemble/src/main/scripts/compute-assembly-components.sh
+command="SHELL mvn -Papache-release,accumulo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dwarbucks.skip -DskipFormat -DskipQA"
+buildinfo=target/${artifactId}-project-${version}.buildinfo
+
+#diffoscope=${artifactId}-project-${version}.diffoscope
+issue=
