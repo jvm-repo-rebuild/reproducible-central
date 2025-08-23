@@ -3,7 +3,7 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.pulsar:pulsar](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/pulsar/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/pulsar/README.md)
+## Project: [org.apache.pulsar:pulsar](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/pulsar//badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/pulsar//README.md)
 
 Source code: [https://github.com/apache/pulsar.git](https://github.com/apache/pulsar.git)
 
@@ -134,9 +134,9 @@ Source code: [https://github.com/apache/pulsar.git](https://github.com/apache/pu
 * [org.apache.pulsar:tiered-storage-parent](https://central.sonatype.com/artifact/org.apache.pulsar/tiered-storage-parent/overview)
 </details>
 
-rebuilding **35 releases** of org.apache.pulsar:pulsar:
+rebuilding **36 releases** of org.apache.pulsar:pulsar:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 35 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 36 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
@@ -149,7 +149,7 @@ rebuilding **35 releases** of org.apache.pulsar:pulsar:
 | [4.0.1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.1/pom) | [mvn jdk21](pulsar-4.0.1.buildspec) | [result](pulsar-4.0.1.buildinfo): [289 :white_check_mark:  33 :warning:](pulsar-4.0.1.buildcompare) | - | 3.4G |
 | [4.0.0-preview.1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.0-preview.1/pom) | | | |
 | [4.0.0](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.0/pom) | [mvn jdk21](pulsar-4.0.0.buildspec) | [result](pulsar-4.0.0.buildinfo): [287 :white_check_mark:  36 :warning:](pulsar-4.0.0.buildcompare) [:mag:](pulsar-4.0.0.diffoscope) [:memo:](https://github.com/apache/pulsar/pull/23639) | - | 3.4G |
-| [3.3.8](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.3.8/pom) | | | |
+| [3.3.8](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.3.8/pom) | [mvn jdk17](pulsar-3.3.8.buildspec) | [result](pulsar-3.3.8.buildinfo): [301 :white_check_mark:  28 :warning:](pulsar-3.3.8.buildcompare) | - | 3.3G |
 | [3.3.7](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.3.7/pom) | [mvn jdk17](pulsar-3.3.7.buildspec) | [result](pulsar-3.3.7.buildinfo): [301 :white_check_mark:  28 :warning:](pulsar-3.3.7.buildcompare) | - | 3.2G |
 | [3.3.6](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.3.6/pom) | [mvn jdk17](pulsar-3.3.6.buildspec) | [result](pulsar-3.3.6.buildinfo): [295 :white_check_mark:  34 :warning:](pulsar-3.3.6.buildcompare) | - | 3.2G |
 | [3.3.5](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/3.3.5/pom) | [mvn jdk17](pulsar-3.3.5.buildspec) | [result](pulsar-3.3.5.buildinfo): [293 :white_check_mark:  36 :warning:](pulsar-3.3.5.buildcompare) | - | 3.2G |
