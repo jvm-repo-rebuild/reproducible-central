@@ -1,0 +1,15 @@
+version=3.5-RC1
+ok=45
+ko=1
+ignored=0
+okFiles="avaje-http-parent-3.5-RC1.pom avaje-htmx-api-3.5-RC1.pom avaje-htmx-api-3.5-RC1.jar avaje-htmx-api-3.5-RC1-sources.jar avaje-http-inject-plugin-3.5-RC1.pom avaje-http-inject-plugin-3.5-RC1.jar avaje-http-inject-plugin-3.5-RC1-sources.jar avaje-http-api-3.5-RC1.pom avaje-http-api-3.5-RC1.jar avaje-http-api-3.5-RC1-sources.jar avaje-http-api-javalin-3.5-RC1.pom avaje-http-api-javalin-3.5-RC1.jar avaje-http-api-javalin-3.5-RC1-sources.jar avaje-http-client-3.5-RC1.pom avaje-http-client-3.5-RC1.jar avaje-http-client-gson-3.5-RC1.pom avaje-http-client-gson-3.5-RC1.jar avaje-http-client-gson-3.5-RC1-sources.jar avaje-http-client-moshi-3.5-RC1.pom avaje-http-client-moshi-3.5-RC1.jar avaje-http-client-moshi-3.5-RC1-sources.jar avaje-http-generator-core-3.5-RC1.pom avaje-http-generator-core-3.5-RC1.jar avaje-http-generator-core-3.5-RC1-sources.jar avaje-http-javalin-generator-3.5-RC1.pom avaje-http-javalin-generator-3.5-RC1.jar avaje-http-javalin-generator-3.5-RC1-sources.jar avaje-http-sigma-generator-3.5-RC1.pom avaje-http-sigma-generator-3.5-RC1.jar avaje-http-sigma-generator-3.5-RC1-sources.jar avaje-http-client-generator-3.5-RC1.pom avaje-http-client-generator-3.5-RC1.jar avaje-http-client-generator-3.5-RC1-sources.jar avaje-htmx-nima-3.5-RC1.pom avaje-htmx-nima-3.5-RC1.jar avaje-htmx-nima-3.5-RC1-sources.jar avaje-htmx-nima-jstache-3.5-RC1.pom avaje-htmx-nima-jstache-3.5-RC1.jar avaje-htmx-nima-jstache-3.5-RC1-sources.jar avaje-http-helidon-generator-3.5-RC1.pom avaje-http-helidon-generator-3.5-RC1.jar avaje-http-helidon-generator-3.5-RC1-sources.jar avaje-http-jex-generator-3.5-RC1.pom avaje-http-jex-generator-3.5-RC1.jar avaje-http-jex-generator-3.5-RC1-sources.jar"
+koFiles="avaje-http-client-3.5-RC1-sources.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+# diffoscope target/reference/io.avaje/avaje-http-client-3.5-RC1-sources.jar http-client/target/avaje-http-client-3.5-RC1-sources.jar
+stabilize_ok=0
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="avaje-http-client-3.5-RC1-sources.jar.stabilized"
+stabilize_ignoredFiles=""
