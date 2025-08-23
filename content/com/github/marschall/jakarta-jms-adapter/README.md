@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/marschall/jakarta-jms-adapter.git](https://github.com/marschall/jakarta-jms-adapter.git)
 
-rebuilding **7 releases** of com.github.marschall:jakarta-jms-adapter:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of com.github.marschall:jakarta-jms-adapter:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.6.0](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.6.0/pom) | | | |
+| [1.6.0](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.6.0/pom) | [mvn jdk17](jakarta-jms-adapter-1.6.0.buildspec) | [result](jakarta-jms-adapter-1.6.0.buildinfo): [3 :white_check_mark: ](jakarta-jms-adapter-1.6.0.buildcompare) | | 113K |
 | [1.5.0](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.5.0/pom) | [mvn jdk17](jakarta-jms-adapter-1.5.0.buildspec) | [result](jakarta-jms-adapter-1.5.0.buildinfo): [3 :white_check_mark: ](jakarta-jms-adapter-1.5.0.buildcompare) | | 110K |
 | [1.4.1](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.4.1/pom) | [mvn jdk17](jakarta-jms-adapter-1.4.1.buildspec) | [result](jakarta-jms-adapter-1.4.1.buildinfo): [3 :white_check_mark: ](jakarta-jms-adapter-1.4.1.buildcompare) | | 102K |
 | [1.3.0](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.3.0/pom) | [mvn jdk17](jakarta-jms-adapter-1.3.0.buildspec) | [result](jakarta-jms-adapter-1.3.0.buildinfo): [3 :white_check_mark: ](jakarta-jms-adapter-1.3.0.buildcompare) | | 102K |
