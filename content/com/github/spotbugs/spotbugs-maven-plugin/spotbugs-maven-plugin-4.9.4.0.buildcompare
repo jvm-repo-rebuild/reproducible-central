@@ -1,0 +1,17 @@
+version=4.9.4.0
+ok=7
+ko=2
+ignored=0
+okFiles="spotbugs-maven-plugin-4.9.4.0.pom spotbugs-maven-plugin-4.9.4.0.jar spotbugs-maven-plugin-4.9.4.0-tests.jar spotbugs-maven-plugin-4.9.4.0-sources.jar spotbugs-maven-plugin-4.9.4.0-test-sources.jar spotbugs-maven-plugin-4.9.4.0-cyclonedx.xml spotbugs-maven-plugin-4.9.4.0-cyclonedx.json"
+koFiles="spotbugs-maven-plugin-4.9.4.0-groovydoc.jar spotbugs-maven-plugin-4.9.4.0-test-groovydoc.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/com.github.spotbugs/spotbugs-maven-plugin-4.9.4.0-groovydoc.jar target/spotbugs-maven-plugin-4.9.4.0-groovydoc.jar
+# diffoscope target/reference/com.github.spotbugs/spotbugs-maven-plugin-4.9.4.0-test-groovydoc.jar target/spotbugs-maven-plugin-4.9.4.0-test-groovydoc.jar
+stabilize_ok=0
+stabilize_ko=2
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="spotbugs-maven-plugin-4.9.4.0-groovydoc.jar.stabilized spotbugs-maven-plugin-4.9.4.0-test-groovydoc.jar.stabilized"
+stabilize_ignoredFiles=""

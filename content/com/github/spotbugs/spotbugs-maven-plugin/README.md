@@ -3,17 +3,18 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.spotbugs:spotbugs-maven-plugin](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/github/spotbugs/spotbugs-maven-plugin/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/github/spotbugs/spotbugs-maven-plugin/README.md)
+## Project: [com.github.spotbugs:spotbugs-maven-plugin](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/com/github/spotbugs/spotbugs-maven-plugin//badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/github/spotbugs/spotbugs-maven-plugin//README.md)
 
 Source code: [https://github.com/spotbugs/spotbugs-maven-plugin.git](https://github.com/spotbugs/spotbugs-maven-plugin.git)
 
-rebuilding **33 releases** of com.github.spotbugs:spotbugs-maven-plugin:
+rebuilding **34 releases** of com.github.spotbugs:spotbugs-maven-plugin:
 - **33** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.9.4.0](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.9.4.0/pom) | | | |
+| [4.9.4.0](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.9.4.0/pom) | [mvn jdk21 w](spotbugs-maven-plugin-4.9.4.0.buildspec) | [result](spotbugs-maven-plugin-4.9.4.0.buildinfo): [7 :white_check_mark:  2 :warning:](spotbugs-maven-plugin-4.9.4.0.buildcompare) [:mag:](spotbugs-maven-plugin-4.9.4.0.diffoscope) [:memo:](https://github.com/spotbugs/spotbugs-maven-plugin/issues/1148) | 2 :rotating_light: | 1.1M |
 | [4.9.3.2](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.9.3.2/pom) | [mvn jdk21 w](spotbugs-maven-plugin-4.9.3.2.buildspec) | [result](spotbugs-maven-plugin-4.9.3.2.buildinfo): [7 :white_check_mark: ](spotbugs-maven-plugin-4.9.3.2.buildcompare) | | 871K |
 | [4.9.3.1](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.9.3.1/pom) | [mvn jdk21 w](spotbugs-maven-plugin-4.9.3.1.buildspec) | [result](spotbugs-maven-plugin-4.9.3.1.buildinfo): [7 :white_check_mark: ](spotbugs-maven-plugin-4.9.3.1.buildcompare) | | 871K |
 | [4.9.3.0](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.9.3.0/pom) | [mvn jdk21 w](spotbugs-maven-plugin-4.9.3.0.buildspec) | [result](spotbugs-maven-plugin-4.9.3.0.buildinfo): [5 :white_check_mark: ](spotbugs-maven-plugin-4.9.3.0.buildcompare) | | 824K |
