@@ -21,6 +21,7 @@ rebuilding **17 releases** of org.apache.qpid:qpid-jms-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.8.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.8.0/pom) | | | |
 | [2.7.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.7.0/pom) | [mvn jdk17](qpid-jms-2.7.0.buildspec) | [result](qpid-jms-parent-2.7.0.buildinfo): [10 :white_check_mark: ](qpid-jms-parent-2.7.0.buildcompare) | | 6.9M |
 | [2.6.1](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.6.1/pom) | [mvn jdk17](qpid-jms-2.6.1.buildspec) | [result](qpid-jms-parent-2.6.1.buildinfo): [10 :white_check_mark: ](qpid-jms-parent-2.6.1.buildcompare) | | 6.8M |
 | [2.6.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.6.0/pom) | [mvn jdk17](qpid-jms-2.6.0.buildspec) | [result](qpid-jms-parent-2.6.0.buildinfo): [10 :white_check_mark: ](qpid-jms-parent-2.6.0.buildcompare) | | 6.8M |
@@ -30,6 +31,7 @@ rebuilding **17 releases** of org.apache.qpid:qpid-jms-parent:
 | [2.2.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.2.0/pom) | [mvn jdk11](qpid-jms-2.2.0.buildspec) | [result](qpid-jms-parent-2.2.0.buildinfo): [10 :white_check_mark: ](qpid-jms-parent-2.2.0.buildcompare) | | 6.7M |
 | [2.1.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.1.0/pom) | [mvn jdk11](qpid-jms-2.1.0.buildspec) | [result](qpid-jms-parent-2.1.0.buildinfo): [10 :white_check_mark: ](qpid-jms-parent-2.1.0.buildcompare) | | 6.7M |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.0.0/pom) | [mvn jdk11](qpid-jms-2.0.0.buildspec) | [result](qpid-jms-parent-2.0.0.buildinfo): [8 :white_check_mark:  2 :warning:](qpid-jms-parent-2.0.0.buildcompare) | - | 6.6M |
+| [1.14.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/1.14.0/pom) | | | |
 | [1.13.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/1.13.0/pom) | [mvn jdk17](qpid-jms-1.13.0.buildspec) | [result](qpid-jms-parent-1.13.0.buildinfo): [10 :white_check_mark: ](qpid-jms-parent-1.13.0.buildcompare) | | 6.9M |
 | [1.12.1](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/1.12.1/pom) | [mvn jdk17](qpid-jms-1.12.1.buildspec) | [result](qpid-jms-parent-1.12.1.buildinfo): [10 :white_check_mark: ](qpid-jms-parent-1.12.1.buildcompare) | | 6.8M |
 | [1.12.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/1.12.0/pom) | [mvn jdk17](qpid-jms-1.12.0.buildspec) | [result](qpid-jms-parent-1.12.0.buildinfo): [10 :white_check_mark: ](qpid-jms-parent-1.12.0.buildcompare) | | 6.8M |

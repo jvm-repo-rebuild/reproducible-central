@@ -13,6 +13,7 @@ rebuilding **6 releases** of org.apache.sling:org.apache.sling.auth.core:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.0.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.auth.core/2.0.2/pom) | | | |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.auth.core/2.0.0/pom) | [mvn jdk17](org.apache.sling.auth.core-2.0.0.buildspec) | [result](org.apache.sling.auth.core-2.0.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.auth.core-2.0.0.buildcompare) | | 388K |
 | [1.7.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.auth.core/1.7.0/pom) | [mvn jdk11](org.apache.sling.auth.core-1.7.0.buildspec) | [result](org.apache.sling.auth.core-1.7.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.auth.core-1.7.0.buildcompare) | | 430K |
 | [1.6.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.auth.core/1.6.2/pom) | [mvn jdk11](org.apache.sling.auth.core-1.6.2.buildspec) | [result](org.apache.sling.auth.core-1.6.2.buildinfo): [4 :white_check_mark: ](org.apache.sling.auth.core-1.6.2.buildcompare) | | 430K |
