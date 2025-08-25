@@ -15,13 +15,13 @@ Source code: [https://github.com/maveniverse/toolbox.git](https://github.com/mav
 * [eu.maveniverse.maven.toolbox:toolbox](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/overview)
 </details>
 
-rebuilding **73 releases** of eu.maveniverse.maven.toolbox:toolbox:
-- **72** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **74 releases** of eu.maveniverse.maven.toolbox:toolbox:
+- **73** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.11.6](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.11.6/pom) | | | |
+| [0.11.6](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.11.6/pom) | [mvn jdk21](toolbox-0.11.6.buildspec) | [result](toolbox-0.11.6.buildinfo): [11 :white_check_mark: ](toolbox-0.11.6.buildcompare) | | 9.2M |
 | [0.11.5](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.11.5/pom) | [mvn jdk21](toolbox-0.11.5.buildspec) | [result](toolbox-0.11.5.buildinfo): [11 :white_check_mark: ](toolbox-0.11.5.buildcompare) | | 9.1M |
 | [0.11.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.11.4/pom) | [mvn jdk21](toolbox-0.11.4.buildspec) | [result](toolbox-0.11.4.buildinfo): [11 :white_check_mark: ](toolbox-0.11.4.buildcompare) | | 9.1M |
 | [0.11.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.11.3/pom) | [mvn jdk21](toolbox-0.11.3.buildspec) | [result](toolbox-0.11.3.buildinfo): [11 :white_check_mark: ](toolbox-0.11.3.buildcompare) | | 9.1M |
