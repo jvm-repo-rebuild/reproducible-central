@@ -15,13 +15,13 @@ Source code: [https://github.com/apache/qpid-jms.git](https://github.com/apache/
 * [org.apache.qpid:qpid-jms-parent](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/overview)
 </details>
 
-rebuilding **17 releases** of org.apache.qpid:qpid-jms-parent:
-- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **18 releases** of org.apache.qpid:qpid-jms-parent:
+- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.8.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.8.0/pom) | | | |
+| [2.8.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.8.0/pom) | [mvn jdk21](qpid-jms-2.8.0.buildspec) | [result](qpid-jms-parent-2.8.0.buildinfo): [10 :white_check_mark: ](qpid-jms-parent-2.8.0.buildcompare) | | 6.9M |
 | [2.7.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.7.0/pom) | [mvn jdk17](qpid-jms-2.7.0.buildspec) | [result](qpid-jms-parent-2.7.0.buildinfo): [10 :white_check_mark: ](qpid-jms-parent-2.7.0.buildcompare) | | 6.9M |
 | [2.6.1](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.6.1/pom) | [mvn jdk17](qpid-jms-2.6.1.buildspec) | [result](qpid-jms-parent-2.6.1.buildinfo): [10 :white_check_mark: ](qpid-jms-parent-2.6.1.buildcompare) | | 6.8M |
 | [2.6.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.6.0/pom) | [mvn jdk17](qpid-jms-2.6.0.buildspec) | [result](qpid-jms-parent-2.6.0.buildinfo): [10 :white_check_mark: ](qpid-jms-parent-2.6.0.buildcompare) | | 6.8M |
