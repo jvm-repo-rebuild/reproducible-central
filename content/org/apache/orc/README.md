@@ -18,13 +18,12 @@ Source code: [https://github.com/apache/orc.git](https://github.com/apache/orc.g
 </details>
 
 rebuilding **35 releases** of org.apache.orc:orc:
-- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 14 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- **22** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.2.0](https://central.sonatype.com/artifact/org.apache.orc/orc/2.2.0/pom) | [mvn jdk17 osx aarm64](orc-2.2.0.buildspec) | [result](orc-2.2.0.buildinfo): [16 :white_check_mark:  13 :warning:](orc-2.2.0.buildcompare) | 13 :no_entry_sign: | 84M |
+| [2.2.0](https://central.sonatype.com/artifact/org.apache.orc/orc/2.2.0/pom) | [mvn jdk17 osx aarm64](orc-2.2.0.buildspec) | [result](orc-2.2.0.buildinfo): [29 :white_check_mark: ](orc-2.2.0.buildcompare) | | 84M |
 | [2.1.3](https://central.sonatype.com/artifact/org.apache.orc/orc/2.1.3/pom) | [mvn jdk17 osx aarm64](orc-2.1.3.buildspec) | [result](orc-2.1.3.buildinfo): [29 :white_check_mark: ](orc-2.1.3.buildcompare) | | 83M |
 | [2.1.2](https://central.sonatype.com/artifact/org.apache.orc/orc/2.1.2/pom) | [mvn jdk17 osx aarm64](orc-2.1.2.buildspec) | [result](orc-2.1.2.buildinfo): [29 :white_check_mark: ](orc-2.1.2.buildcompare) | | 83M |
 | [2.1.1](https://central.sonatype.com/artifact/org.apache.orc/orc/2.1.1/pom) | [mvn jdk17 osx aarm64](orc-2.1.1.buildspec) | [result](orc-2.1.1.buildinfo): [25 :white_check_mark:  4 :warning:](orc-2.1.1.buildcompare) | - | 83M |
