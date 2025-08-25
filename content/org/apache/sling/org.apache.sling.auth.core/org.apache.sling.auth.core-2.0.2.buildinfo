@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Auth Core
+group-id=org.apache.sling
+artifact-id=org.apache.sling.auth.core
+version=2.0.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-auth-core.git
+source.scm.tag=org.apache.sling.auth.core-2.0.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.auth.core-2.0.2.pom
+outputs.0.length=8305
+outputs.0.checksums.sha512=b77d0d1a053dd9ad384554f91446235d24c342bebd148fc52aef5b7d664676db7b243416c07f00b29bc8f63620e79edd01570b68f0b12d8dc32a06c04bdd46a1
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.auth.core-2.0.2.jar
+outputs.1.length=119526
+outputs.1.checksums.sha512=483523874b5f99fc8099a12ba0e8cf1fa6693af5839267a8bcca91dafd22d4c125fe0af8ac9747abaf96532a72787ffd9997b7d2def6da6dde48aa5de99a2078
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.auth.core-2.0.2-source-release.zip
+outputs.2.length=153730
+outputs.2.checksums.sha512=a73559eb1f29ce4b8ef0b7593fbb32ab32997e83fbecca6dcd9834fb5a62f40adb37e7d3486ad19148db047e1309d9f36c58712a62d397782c0b2da998c121e9
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.auth.core-2.0.2-sources.jar
+outputs.3.length=115034
+outputs.3.checksums.sha512=4e4a2f9e9f2168797fb6c665686fb56f4e111188dcf4d32bc414cf3e7943d62793b4e51f9c43d2c7aec2f2f07eb8950ec41374e33634bfe62e3a60820c782a86
