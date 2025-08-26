@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=nifi-api
+group-id=org.apache.nifi
+artifact-id=nifi-api
+version=2.3.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/nifi-api
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.3
+java.vendor=Azul Systems, Inc.
+os.name=Mac OS X
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.apache.nifi
+outputs.0.filename=nifi-api-2.3.0.pom
+outputs.0.length=11421
+outputs.0.checksums.sha512=183f1ad982a6103c83201f4d0c4fc658e7ff5bfe129dcc30ced508b207e3b9109a4d9a62031f740267bc85c858d7154008c2b6654cdf7f891097ca1af1634004
+
+outputs.1.groupId=org.apache.nifi
+outputs.1.filename=nifi-api-2.3.0.jar
+outputs.1.length=354427
+outputs.1.checksums.sha512=88776b29784ab6bbdb2a77cfe892c39319d08689f549f114b26fa9d88b81f20b7ac077a02d942380aa5d10f7d07385a45ee13bf4a889b17700167a0ee9909f7f
+
+outputs.2.groupId=org.apache.nifi
+outputs.2.filename=nifi-api-2.3.0-source-release.zip
+outputs.2.length=427433
+outputs.2.checksums.sha512=7260f34dd27bfe72c27c9dc3ed0e48b684aa8f907ae2f27c4a97a91fef20a4db3a696b404f761bdb31a55edd309ef3a17c99599a118c6972ad74b68975e7bb53
+
+outputs.3.groupId=org.apache.nifi
+outputs.3.filename=nifi-api-2.3.0-sources.jar
+outputs.3.length=379959
+outputs.3.checksums.sha512=e5d587fad246fb3c280b547aece1dbc4cc4fe963c9b016b0be7734f48fca60473acf836e4cf3931a0cfa14210694b21631f30f3f372c87d188155e5398959de0
