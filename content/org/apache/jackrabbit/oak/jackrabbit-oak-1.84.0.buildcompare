@@ -1,0 +1,121 @@
+version=1.84.0
+ok=36
+ko=106
+ignored=0
+okFiles="oak-parent-1.84.0.pom oak-jackrabbit-api-1.84.0.pom oak-shaded-guava-1.84.0.pom oak-commons-1.84.0.pom oak-api-1.84.0.pom oak-core-spi-1.84.0.pom oak-store-spi-1.84.0.pom oak-query-spi-1.84.0.pom oak-security-spi-1.84.0.pom oak-blob-1.84.0.pom oak-blob-plugins-1.84.0.pom oak-core-1.84.0.pom oak-store-document-1.84.0.pom oak-segment-tar-1.84.0.pom oak-store-composite-1.84.0.pom oak-blob-cloud-1.84.0.pom oak-blob-cloud-azure-1.84.0.pom oak-segment-remote-1.84.0.pom oak-segment-aws-1.84.0.pom oak-segment-azure-1.84.0.pom oak-it-1.84.0.pom oak-jcr-1.84.0.pom oak-upgrade-1.84.0.pom oak-http-1.84.0.pom oak-search-1.84.0.pom oak-lucene-1.84.0.pom oak-auth-external-1.84.0.pom oak-auth-ldap-1.84.0.pom oak-run-commons-1.84.0.pom oak-run-1.84.0.pom oak-search-elastic-1.84.0.pom oak-pojosr-1.84.0.pom oak-authorization-cug-1.84.0.pom oak-authorization-principalbased-1.84.0.pom oak-exercise-1.84.0.pom oak-run-elastic-1.84.0.pom"
+koFiles="oak-parent-1.84.0-tests.jar oak-jackrabbit-api-1.84.0.jar oak-jackrabbit-api-1.84.0-sources.jar oak-jackrabbit-api-1.84.0-tests.jar oak-shaded-guava-1.84.0.jar oak-shaded-guava-1.84.0-sources.jar oak-shaded-guava-1.84.0-tests.jar oak-commons-1.84.0.jar oak-commons-1.84.0-sources.jar oak-commons-1.84.0-tests.jar oak-api-1.84.0.jar oak-api-1.84.0-sources.jar oak-api-1.84.0-tests.jar oak-core-spi-1.84.0.jar oak-core-spi-1.84.0-sources.jar oak-core-spi-1.84.0-tests.jar oak-store-spi-1.84.0.jar oak-store-spi-1.84.0-sources.jar oak-store-spi-1.84.0-tests.jar oak-query-spi-1.84.0.jar oak-query-spi-1.84.0-sources.jar oak-query-spi-1.84.0-tests.jar oak-security-spi-1.84.0.jar oak-security-spi-1.84.0-sources.jar oak-security-spi-1.84.0-tests.jar oak-blob-1.84.0.jar oak-blob-1.84.0-sources.jar oak-blob-1.84.0-tests.jar oak-blob-plugins-1.84.0.jar oak-blob-plugins-1.84.0-sources.jar oak-blob-plugins-1.84.0-tests.jar oak-core-1.84.0.jar oak-core-1.84.0-sources.jar oak-core-1.84.0-tests.jar oak-store-document-1.84.0.jar oak-store-document-1.84.0-sources.jar oak-store-document-1.84.0-tests.jar oak-segment-tar-1.84.0.jar oak-segment-tar-1.84.0-sources.jar oak-segment-tar-1.84.0-tests.jar oak-store-composite-1.84.0.jar oak-store-composite-1.84.0-sources.jar oak-store-composite-1.84.0-tests.jar oak-blob-cloud-1.84.0.jar oak-blob-cloud-1.84.0-sources.jar oak-blob-cloud-1.84.0-tests.jar oak-blob-cloud-azure-1.84.0.jar oak-blob-cloud-azure-1.84.0-sources.jar oak-blob-cloud-azure-1.84.0-tests.jar oak-segment-remote-1.84.0.jar oak-segment-remote-1.84.0-sources.jar oak-segment-remote-1.84.0-tests.jar oak-segment-aws-1.84.0.jar oak-segment-aws-1.84.0-sources.jar oak-segment-aws-1.84.0-tests.jar oak-segment-azure-1.84.0.jar oak-segment-azure-1.84.0-sources.jar oak-segment-azure-1.84.0-tests.jar oak-it-1.84.0.jar oak-it-1.84.0-sources.jar oak-it-1.84.0-tests.jar oak-jcr-1.84.0.jar oak-jcr-1.84.0-sources.jar oak-jcr-1.84.0-tests.jar oak-upgrade-1.84.0.jar oak-upgrade-1.84.0-sources.jar oak-upgrade-1.84.0-tests.jar oak-http-1.84.0.jar oak-http-1.84.0-sources.jar oak-http-1.84.0-tests.jar oak-search-1.84.0.jar oak-search-1.84.0-sources.jar oak-search-1.84.0-tests.jar oak-lucene-1.84.0.jar oak-lucene-1.84.0-sources.jar oak-lucene-1.84.0-tests.jar oak-auth-external-1.84.0.jar oak-auth-external-1.84.0-sources.jar oak-auth-external-1.84.0-tests.jar oak-auth-ldap-1.84.0.jar oak-auth-ldap-1.84.0-sources.jar oak-auth-ldap-1.84.0-tests.jar oak-run-commons-1.84.0.jar oak-run-commons-1.84.0-sources.jar oak-run-commons-1.84.0-tests.jar oak-run-1.84.0.jar oak-run-1.84.0-sources.jar oak-run-1.84.0-tests.jar oak-search-elastic-1.84.0.jar oak-search-elastic-1.84.0-sources.jar oak-search-elastic-1.84.0-tests.jar oak-pojosr-1.84.0.jar oak-pojosr-1.84.0-sources.jar oak-pojosr-1.84.0-tests.jar oak-authorization-cug-1.84.0.jar oak-authorization-cug-1.84.0-sources.jar oak-authorization-cug-1.84.0-tests.jar oak-authorization-principalbased-1.84.0.jar oak-authorization-principalbased-1.84.0-sources.jar oak-authorization-principalbased-1.84.0-tests.jar oak-exercise-1.84.0.jar oak-exercise-1.84.0-sources.jar oak-exercise-1.84.0-tests.jar oak-run-elastic-1.84.0.jar oak-run-elastic-1.84.0-sources.jar oak-run-elastic-1.84.0-tests.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.jackrabbit/oak-parent-1.84.0-tests.jar oak-parent/target/oak-parent-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-jackrabbit-api-1.84.0.jar oak-jackrabbit-api/target/oak-jackrabbit-api-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-jackrabbit-api-1.84.0-sources.jar oak-jackrabbit-api/target/oak-jackrabbit-api-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-jackrabbit-api-1.84.0-tests.jar oak-jackrabbit-api/target/oak-jackrabbit-api-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-shaded-guava-1.84.0.jar oak-shaded-guava/target/oak-shaded-guava-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-shaded-guava-1.84.0-sources.jar oak-shaded-guava/target/oak-shaded-guava-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-shaded-guava-1.84.0-tests.jar oak-shaded-guava/target/oak-shaded-guava-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-commons-1.84.0.jar oak-commons/target/oak-commons-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-commons-1.84.0-sources.jar oak-commons/target/oak-commons-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-commons-1.84.0-tests.jar oak-commons/target/oak-commons-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-api-1.84.0.jar oak-api/target/oak-api-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-api-1.84.0-sources.jar oak-api/target/oak-api-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-api-1.84.0-tests.jar oak-api/target/oak-api-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-core-spi-1.84.0.jar oak-core-spi/target/oak-core-spi-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-core-spi-1.84.0-sources.jar oak-core-spi/target/oak-core-spi-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-core-spi-1.84.0-tests.jar oak-core-spi/target/oak-core-spi-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-store-spi-1.84.0.jar oak-store-spi/target/oak-store-spi-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-store-spi-1.84.0-sources.jar oak-store-spi/target/oak-store-spi-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-store-spi-1.84.0-tests.jar oak-store-spi/target/oak-store-spi-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-query-spi-1.84.0.jar oak-query-spi/target/oak-query-spi-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-query-spi-1.84.0-sources.jar oak-query-spi/target/oak-query-spi-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-query-spi-1.84.0-tests.jar oak-query-spi/target/oak-query-spi-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-security-spi-1.84.0.jar oak-security-spi/target/oak-security-spi-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-security-spi-1.84.0-sources.jar oak-security-spi/target/oak-security-spi-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-security-spi-1.84.0-tests.jar oak-security-spi/target/oak-security-spi-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-blob-1.84.0.jar oak-blob/target/oak-blob-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-blob-1.84.0-sources.jar oak-blob/target/oak-blob-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-blob-1.84.0-tests.jar oak-blob/target/oak-blob-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-blob-plugins-1.84.0.jar oak-blob-plugins/target/oak-blob-plugins-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-blob-plugins-1.84.0-sources.jar oak-blob-plugins/target/oak-blob-plugins-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-blob-plugins-1.84.0-tests.jar oak-blob-plugins/target/oak-blob-plugins-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-core-1.84.0.jar oak-core/target/oak-core-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-core-1.84.0-sources.jar oak-core/target/oak-core-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-core-1.84.0-tests.jar oak-core/target/oak-core-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-store-document-1.84.0.jar oak-store-document/target/oak-store-document-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-store-document-1.84.0-sources.jar oak-store-document/target/oak-store-document-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-store-document-1.84.0-tests.jar oak-store-document/target/oak-store-document-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-segment-tar-1.84.0.jar oak-segment-tar/target/oak-segment-tar-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-segment-tar-1.84.0-sources.jar oak-segment-tar/target/oak-segment-tar-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-segment-tar-1.84.0-tests.jar oak-segment-tar/target/oak-segment-tar-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-store-composite-1.84.0.jar oak-store-composite/target/oak-store-composite-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-store-composite-1.84.0-sources.jar oak-store-composite/target/oak-store-composite-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-store-composite-1.84.0-tests.jar oak-store-composite/target/oak-store-composite-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-blob-cloud-1.84.0.jar oak-blob-cloud/target/oak-blob-cloud-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-blob-cloud-1.84.0-sources.jar oak-blob-cloud/target/oak-blob-cloud-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-blob-cloud-1.84.0-tests.jar oak-blob-cloud/target/oak-blob-cloud-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-blob-cloud-azure-1.84.0.jar oak-blob-cloud-azure/target/oak-blob-cloud-azure-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-blob-cloud-azure-1.84.0-sources.jar oak-blob-cloud-azure/target/oak-blob-cloud-azure-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-blob-cloud-azure-1.84.0-tests.jar oak-blob-cloud-azure/target/oak-blob-cloud-azure-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-segment-remote-1.84.0.jar oak-segment-remote/target/oak-segment-remote-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-segment-remote-1.84.0-sources.jar oak-segment-remote/target/oak-segment-remote-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-segment-remote-1.84.0-tests.jar oak-segment-remote/target/oak-segment-remote-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-segment-aws-1.84.0.jar oak-segment-aws/target/oak-segment-aws-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-segment-aws-1.84.0-sources.jar oak-segment-aws/target/oak-segment-aws-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-segment-aws-1.84.0-tests.jar oak-segment-aws/target/oak-segment-aws-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-segment-azure-1.84.0.jar oak-segment-azure/target/oak-segment-azure-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-segment-azure-1.84.0-sources.jar oak-segment-azure/target/oak-segment-azure-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-segment-azure-1.84.0-tests.jar oak-segment-azure/target/oak-segment-azure-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-it-1.84.0.jar oak-it/target/oak-it-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-it-1.84.0-sources.jar oak-it/target/oak-it-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-it-1.84.0-tests.jar oak-it/target/oak-it-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-jcr-1.84.0.jar oak-jcr/target/oak-jcr-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-jcr-1.84.0-sources.jar oak-jcr/target/oak-jcr-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-jcr-1.84.0-tests.jar oak-jcr/target/oak-jcr-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-upgrade-1.84.0.jar oak-upgrade/target/oak-upgrade-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-upgrade-1.84.0-sources.jar oak-upgrade/target/oak-upgrade-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-upgrade-1.84.0-tests.jar oak-upgrade/target/oak-upgrade-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-http-1.84.0.jar oak-http/target/oak-http-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-http-1.84.0-sources.jar oak-http/target/oak-http-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-http-1.84.0-tests.jar oak-http/target/oak-http-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-search-1.84.0.jar oak-search/target/oak-search-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-search-1.84.0-sources.jar oak-search/target/oak-search-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-search-1.84.0-tests.jar oak-search/target/oak-search-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-lucene-1.84.0.jar oak-lucene/target/oak-lucene-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-lucene-1.84.0-sources.jar oak-lucene/target/oak-lucene-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-lucene-1.84.0-tests.jar oak-lucene/target/oak-lucene-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-auth-external-1.84.0.jar oak-auth-external/target/oak-auth-external-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-auth-external-1.84.0-sources.jar oak-auth-external/target/oak-auth-external-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-auth-external-1.84.0-tests.jar oak-auth-external/target/oak-auth-external-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-auth-ldap-1.84.0.jar oak-auth-ldap/target/oak-auth-ldap-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-auth-ldap-1.84.0-sources.jar oak-auth-ldap/target/oak-auth-ldap-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-auth-ldap-1.84.0-tests.jar oak-auth-ldap/target/oak-auth-ldap-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-run-commons-1.84.0.jar oak-run-commons/target/oak-run-commons-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-run-commons-1.84.0-sources.jar oak-run-commons/target/oak-run-commons-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-run-commons-1.84.0-tests.jar oak-run-commons/target/oak-run-commons-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-run-1.84.0.jar oak-run/target/oak-run-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-run-1.84.0-sources.jar oak-run/target/oak-run-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-run-1.84.0-tests.jar oak-run/target/oak-run-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-search-elastic-1.84.0.jar oak-search-elastic/target/oak-search-elastic-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-search-elastic-1.84.0-sources.jar oak-search-elastic/target/oak-search-elastic-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-search-elastic-1.84.0-tests.jar oak-search-elastic/target/oak-search-elastic-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-pojosr-1.84.0.jar oak-pojosr/target/oak-pojosr-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-pojosr-1.84.0-sources.jar oak-pojosr/target/oak-pojosr-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-pojosr-1.84.0-tests.jar oak-pojosr/target/oak-pojosr-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-authorization-cug-1.84.0.jar oak-authorization-cug/target/oak-authorization-cug-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-authorization-cug-1.84.0-sources.jar oak-authorization-cug/target/oak-authorization-cug-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-authorization-cug-1.84.0-tests.jar oak-authorization-cug/target/oak-authorization-cug-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-authorization-principalbased-1.84.0.jar oak-authorization-principalbased/target/oak-authorization-principalbased-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-authorization-principalbased-1.84.0-sources.jar oak-authorization-principalbased/target/oak-authorization-principalbased-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-authorization-principalbased-1.84.0-tests.jar oak-authorization-principalbased/target/oak-authorization-principalbased-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-exercise-1.84.0.jar oak-exercise/target/oak-exercise-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-exercise-1.84.0-sources.jar oak-exercise/target/oak-exercise-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-exercise-1.84.0-tests.jar oak-exercise/target/oak-exercise-1.84.0-tests.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-run-elastic-1.84.0.jar oak-run-elastic/target/oak-run-elastic-1.84.0.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-run-elastic-1.84.0-sources.jar oak-run-elastic/target/oak-run-elastic-1.84.0-sources.jar
+# diffoscope target/reference/org.apache.jackrabbit/oak-run-elastic-1.84.0-tests.jar oak-run-elastic/target/oak-run-elastic-1.84.0-tests.jar
+stabilize_ok=0
+stabilize_ko=106
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="oak-parent-1.84.0-tests.jar.stabilized oak-jackrabbit-api-1.84.0.jar.stabilized oak-jackrabbit-api-1.84.0-sources.jar.stabilized oak-jackrabbit-api-1.84.0-tests.jar.stabilized oak-shaded-guava-1.84.0.jar.stabilized oak-shaded-guava-1.84.0-sources.jar.stabilized oak-shaded-guava-1.84.0-tests.jar.stabilized oak-commons-1.84.0.jar.stabilized oak-commons-1.84.0-sources.jar.stabilized oak-commons-1.84.0-tests.jar.stabilized oak-api-1.84.0.jar.stabilized oak-api-1.84.0-sources.jar.stabilized oak-api-1.84.0-tests.jar.stabilized oak-core-spi-1.84.0.jar.stabilized oak-core-spi-1.84.0-sources.jar.stabilized oak-core-spi-1.84.0-tests.jar.stabilized oak-store-spi-1.84.0.jar.stabilized oak-store-spi-1.84.0-sources.jar.stabilized oak-store-spi-1.84.0-tests.jar.stabilized oak-query-spi-1.84.0.jar.stabilized oak-query-spi-1.84.0-sources.jar.stabilized oak-query-spi-1.84.0-tests.jar.stabilized oak-security-spi-1.84.0.jar.stabilized oak-security-spi-1.84.0-sources.jar.stabilized oak-security-spi-1.84.0-tests.jar.stabilized oak-blob-1.84.0.jar.stabilized oak-blob-1.84.0-sources.jar.stabilized oak-blob-1.84.0-tests.jar.stabilized oak-blob-plugins-1.84.0.jar.stabilized oak-blob-plugins-1.84.0-sources.jar.stabilized oak-blob-plugins-1.84.0-tests.jar.stabilized oak-core-1.84.0.jar.stabilized oak-core-1.84.0-sources.jar.stabilized oak-core-1.84.0-tests.jar.stabilized oak-store-document-1.84.0.jar.stabilized oak-store-document-1.84.0-sources.jar.stabilized oak-store-document-1.84.0-tests.jar.stabilized oak-segment-tar-1.84.0.jar.stabilized oak-segment-tar-1.84.0-sources.jar.stabilized oak-segment-tar-1.84.0-tests.jar.stabilized oak-store-composite-1.84.0.jar.stabilized oak-store-composite-1.84.0-sources.jar.stabilized oak-store-composite-1.84.0-tests.jar.stabilized oak-blob-cloud-1.84.0.jar.stabilized oak-blob-cloud-1.84.0-sources.jar.stabilized oak-blob-cloud-1.84.0-tests.jar.stabilized oak-blob-cloud-azure-1.84.0.jar.stabilized oak-blob-cloud-azure-1.84.0-sources.jar.stabilized oak-blob-cloud-azure-1.84.0-tests.jar.stabilized oak-segment-remote-1.84.0.jar.stabilized oak-segment-remote-1.84.0-sources.jar.stabilized oak-segment-remote-1.84.0-tests.jar.stabilized oak-segment-aws-1.84.0.jar.stabilized oak-segment-aws-1.84.0-sources.jar.stabilized oak-segment-aws-1.84.0-tests.jar.stabilized oak-segment-azure-1.84.0.jar.stabilized oak-segment-azure-1.84.0-sources.jar.stabilized oak-segment-azure-1.84.0-tests.jar.stabilized oak-it-1.84.0.jar.stabilized oak-it-1.84.0-sources.jar.stabilized oak-it-1.84.0-tests.jar.stabilized oak-jcr-1.84.0.jar.stabilized oak-jcr-1.84.0-sources.jar.stabilized oak-jcr-1.84.0-tests.jar.stabilized oak-upgrade-1.84.0.jar.stabilized oak-upgrade-1.84.0-sources.jar.stabilized oak-upgrade-1.84.0-tests.jar.stabilized oak-http-1.84.0.jar.stabilized oak-http-1.84.0-sources.jar.stabilized oak-http-1.84.0-tests.jar.stabilized oak-search-1.84.0.jar.stabilized oak-search-1.84.0-sources.jar.stabilized oak-search-1.84.0-tests.jar.stabilized oak-lucene-1.84.0.jar.stabilized oak-lucene-1.84.0-sources.jar.stabilized oak-lucene-1.84.0-tests.jar.stabilized oak-auth-external-1.84.0.jar.stabilized oak-auth-external-1.84.0-sources.jar.stabilized oak-auth-external-1.84.0-tests.jar.stabilized oak-auth-ldap-1.84.0.jar.stabilized oak-auth-ldap-1.84.0-sources.jar.stabilized oak-auth-ldap-1.84.0-tests.jar.stabilized oak-run-commons-1.84.0.jar.stabilized oak-run-commons-1.84.0-sources.jar.stabilized oak-run-commons-1.84.0-tests.jar.stabilized oak-run-1.84.0.jar.stabilized oak-run-1.84.0-sources.jar.stabilized oak-run-1.84.0-tests.jar.stabilized oak-search-elastic-1.84.0.jar.stabilized oak-search-elastic-1.84.0-sources.jar.stabilized oak-search-elastic-1.84.0-tests.jar.stabilized oak-pojosr-1.84.0.jar.stabilized oak-pojosr-1.84.0-sources.jar.stabilized oak-pojosr-1.84.0-tests.jar.stabilized oak-authorization-cug-1.84.0.jar.stabilized oak-authorization-cug-1.84.0-sources.jar.stabilized oak-authorization-cug-1.84.0-tests.jar.stabilized oak-authorization-principalbased-1.84.0.jar.stabilized oak-authorization-principalbased-1.84.0-sources.jar.stabilized oak-authorization-principalbased-1.84.0-tests.jar.stabilized oak-exercise-1.84.0.jar.stabilized oak-exercise-1.84.0-sources.jar.stabilized oak-exercise-1.84.0-tests.jar.stabilized oak-run-elastic-1.84.0.jar.stabilized oak-run-elastic-1.84.0-sources.jar.stabilized oak-run-elastic-1.84.0-tests.jar.stabilized"
+stabilize_ignoredFiles=""
