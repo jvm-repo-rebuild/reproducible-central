@@ -1,0 +1,14 @@
+version=2.1.4
+ok=3
+ko=1
+ignored=0
+okFiles="jakarta.mail-api-2.1.4.pom jakarta.mail-api-2.1.4-cyclonedx.xml jakarta.mail-api-2.1.4-cyclonedx.json"
+koFiles="jakarta.mail-api-2.1.4.jar"
+ignoredFiles=""
+# diffoscope target/reference/jakarta.mail/jakarta.mail-api-2.1.4.jar target/jakarta.mail-api-2.1.4.jar
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="jakarta.mail-api-2.1.4.jar"
