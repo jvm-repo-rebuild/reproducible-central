@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/dropwizard/module-parent.git](https://github.com/dropwizard/module-parent.git)
 
-rebuilding **26 releases** of io.dropwizard.modules:module-parent:
-- **26** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **27 releases** of io.dropwizard.modules:module-parent:
+- **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [5.0.0-rc.5](https://central.sonatype.com/artifact/io.dropwizard.modules/module-parent/5.0.0-rc.5/pom) | | | |
+| [5.0.0-rc.5](https://central.sonatype.com/artifact/io.dropwizard.modules/module-parent/5.0.0-rc.5/pom) | [mvn jdk11](module-parent-5.0.0-rc.5.buildspec) | [result](module-parent-5.0.0-rc.5.buildinfo): [1 :white_check_mark: ](module-parent-5.0.0-rc.5.buildcompare) | | 9.5K |
 | [5.0.0-rc.4](https://central.sonatype.com/artifact/io.dropwizard.modules/module-parent/5.0.0-rc.4/pom) | [mvn jdk11](module-parent-5.0.0-rc.4.buildspec) | [result](module-parent-5.0.0-rc.4.buildinfo): [1 :white_check_mark: ](module-parent-5.0.0-rc.4.buildcompare) | | 9.5K |
 | [5.0.0-rc.1](https://central.sonatype.com/artifact/io.dropwizard.modules/module-parent/5.0.0-rc.1/pom) | [mvn jdk11](module-parent-5.0.0-rc.1.buildspec) | [result](module-parent-5.0.0-rc.1.buildinfo): [3 :white_check_mark: ](module-parent-5.0.0-rc.1.buildcompare) | | 17K |
 | [4.0.5.1](https://central.sonatype.com/artifact/io.dropwizard.modules/module-parent/4.0.5.1/pom) | [mvn jdk11](module-parent-4.0.5.1.buildspec) | [result](module-parent-4.0.5.1.buildinfo): [1 :white_check_mark: ](module-parent-4.0.5.1.buildcompare) | | 9.5K |
