@@ -1,0 +1,16 @@
+version=1.4.5
+ok=2
+ko=1
+ignored=0
+okFiles="jpmml-transpiler-1.4.5.pom pmml-transpiler-1.4.5.pom"
+koFiles="pmml-transpiler-1.4.5.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/pmml-transpiler-1.4.5.jar pmml-transpiler/target/pmml-transpiler-1.4.5.jar
+stabilize_ok=1
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="pmml-transpiler-1.4.5.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""
