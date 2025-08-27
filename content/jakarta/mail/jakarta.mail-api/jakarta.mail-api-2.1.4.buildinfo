@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jakarta Mail API
+group-id=jakarta.mail
+artifact-id=jakarta.mail-api
+version=2.1.4
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/jakartaee/mail-api.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.28
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=jakarta.mail
+outputs.0.filename=jakarta.mail-api-2.1.4.pom
+outputs.0.length=22102
+outputs.0.checksums.sha512=8c76d13f1d5b79e3c066ca31aa4b74fb093596bbfd0e5e31f54b9007ffcc80fd0cfe699a7ee9808043b78093e27e9381bf38efa83a71bf9bc58e07e0e5df593a
+
+outputs.1.groupId=jakarta.mail
+outputs.1.filename=jakarta.mail-api-2.1.4.jar
+outputs.1.length=238429
+outputs.1.checksums.sha512=4753b0aaaf5a97f676f33c51f419a9ad7b22584388c4cc434b8fd097cfde65235c632b171b70f09e37096736f7b5bd140950470600c7355d7ac856c08aadbf42
+
+outputs.2.groupId=jakarta.mail
+outputs.2.filename=jakarta.mail-api-2.1.4-cyclonedx.xml
+outputs.2.length=5204
+outputs.2.checksums.sha512=ade752f70b0d31d6ffb2d46bcda040ffc8fe39ab4dfae5d99da86b642b3a8eb82b21b71c26d26a130fc92f3c3c6cf6d14a48840b48e8b7f4bcff6ac120e816fc
+
+outputs.3.groupId=jakarta.mail
+outputs.3.filename=jakarta.mail-api-2.1.4-cyclonedx.json
+outputs.3.length=6139
+outputs.3.checksums.sha512=58971212b186c5d39e770931ea4cf4887583a2e98abc9ef5d83d24ec16a50c1b3caf96904d44eac9c714cba47e493aaa19ca0d49bd2ed288f04129c7cdbe2ef6
