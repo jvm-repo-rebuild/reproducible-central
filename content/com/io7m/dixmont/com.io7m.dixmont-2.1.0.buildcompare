@@ -1,0 +1,23 @@
+version=2.1.0
+ok=7
+ko=10
+ignored=0
+okFiles="com.io7m.dixmont-2.1.0.pom com.io7m.dixmont-2.1.0-cyclonedx.xml com.io7m.dixmont.colors-2.1.0.pom com.io7m.dixmont.colors-2.1.0-cyclonedx.xml com.io7m.dixmont.core-2.1.0.pom com.io7m.dixmont.core-2.1.0-cyclonedx.xml com.io7m.dixmont.tests-2.1.0.pom"
+koFiles="com.io7m.dixmont.colors-2.1.0.jar com.io7m.dixmont.colors-2.1.0-sources.jar com.io7m.dixmont.colors-2.1.0-tests.jar com.io7m.dixmont.core-2.1.0.jar com.io7m.dixmont.core-2.1.0-sources.jar com.io7m.dixmont.core-2.1.0-tests.jar com.io7m.dixmont.tests-2.1.0.jar com.io7m.dixmont.tests-2.1.0-sources.jar com.io7m.dixmont.tests-2.1.0-cyclonedx.xml com.io7m.dixmont.tests-2.1.0-tests.jar"
+ignoredFiles=""
+# diffoscope target/reference/com.io7m.dixmont/com.io7m.dixmont.colors-2.1.0.jar com.io7m.dixmont.colors/target/com.io7m.dixmont.colors-2.1.0.jar
+# diffoscope target/reference/com.io7m.dixmont/com.io7m.dixmont.colors-2.1.0-sources.jar com.io7m.dixmont.colors/target/com.io7m.dixmont.colors-2.1.0-sources.jar
+# diffoscope target/reference/com.io7m.dixmont/com.io7m.dixmont.colors-2.1.0-tests.jar com.io7m.dixmont.colors/target/com.io7m.dixmont.colors-2.1.0-tests.jar
+# diffoscope target/reference/com.io7m.dixmont/com.io7m.dixmont.core-2.1.0.jar com.io7m.dixmont.core/target/com.io7m.dixmont.core-2.1.0.jar
+# diffoscope target/reference/com.io7m.dixmont/com.io7m.dixmont.core-2.1.0-sources.jar com.io7m.dixmont.core/target/com.io7m.dixmont.core-2.1.0-sources.jar
+# diffoscope target/reference/com.io7m.dixmont/com.io7m.dixmont.core-2.1.0-tests.jar com.io7m.dixmont.core/target/com.io7m.dixmont.core-2.1.0-tests.jar
+# diffoscope target/reference/com.io7m.dixmont/com.io7m.dixmont.tests-2.1.0.jar com.io7m.dixmont.tests/target/com.io7m.dixmont.tests-2.1.0.jar
+# diffoscope target/reference/com.io7m.dixmont/com.io7m.dixmont.tests-2.1.0-sources.jar com.io7m.dixmont.tests/target/com.io7m.dixmont.tests-2.1.0-sources.jar
+# diffoscope target/reference/com.io7m.dixmont/com.io7m.dixmont.tests-2.1.0-cyclonedx.xml com.io7m.dixmont.tests/target/bom.xml
+# diffoscope target/reference/com.io7m.dixmont/com.io7m.dixmont.tests-2.1.0-tests.jar com.io7m.dixmont.tests/target/com.io7m.dixmont.tests-2.1.0-tests.jar
+stabilize_ok=7
+stabilize_ko=2
+stabilize_ignored=1
+stabilize_okFiles="com.io7m.dixmont.colors-2.1.0-sources.jar.stabilized com.io7m.dixmont.colors-2.1.0-tests.jar.stabilized com.io7m.dixmont.core-2.1.0-sources.jar.stabilized com.io7m.dixmont.core-2.1.0-tests.jar.stabilized com.io7m.dixmont.tests-2.1.0.jar.stabilized com.io7m.dixmont.tests-2.1.0-sources.jar.stabilized com.io7m.dixmont.tests-2.1.0-tests.jar.stabilized"
+stabilize_koFiles="com.io7m.dixmont.colors-2.1.0.jar.stabilized com.io7m.dixmont.core-2.1.0.jar.stabilized"
+stabilize_ignoredFiles="com.io7m.dixmont.tests-2.1.0-cyclonedx.xml"
