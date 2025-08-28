@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Models API
+group-id=org.apache.sling
+artifact-id=org.apache.sling.models.api
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-models-api.git
+source.scm.tag=org.apache.sling.models.api-2.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.models.api-2.0.0.pom
+outputs.0.length=6268
+outputs.0.checksums.sha512=fad7f6a7c47914b4ba8f23a4a230f234fd0a1e0143ddb8915a29ab4c00227f786b0a285e2fbc424e8d4a3f5d0a6ec99999150bfcad0f7c24c451289f309787ce
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.models.api-2.0.0.jar
+outputs.1.length=47803
+outputs.1.checksums.sha512=2679e86c0d030c3dbf7775511654a545bcff9844a0707da843cd2306dfde1a0b1ffb19cd9106f9111040f6249a0ee06c0d584df2d4f643fe9b0aa1f3ea756912
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.models.api-2.0.0-source-release.zip
+outputs.2.length=101253
+outputs.2.checksums.sha512=95a560df1d32efe297e9f7f903f3fbb7bd4688154907b0f90d5ea500a613c3b2e79b9ccf7c453b295efd3e80fae6d75d2d9a801fc6958aaaf4671a207b44b5fa
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.models.api-2.0.0-sources.jar
+outputs.3.length=73089
+outputs.3.checksums.sha512=620406431749dc7d4034aa36fc2e885e7d75c09c0a7430e7ad6af5b6886a2337e94c560990aece8c4744bb244ad3d46db1c29dc20082bfcc32d6a5562c042a03
