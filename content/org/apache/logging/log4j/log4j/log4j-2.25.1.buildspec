@@ -11,7 +11,7 @@ jdk=17
 newline=lf
 umask=022
 
-command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip"
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Denv.CI=true"
 buildinfo=target/${artifactId}-bom-${version}.buildinfo
 
 #diffoscope=${artifactId}-bom-${version}.diffoscope
