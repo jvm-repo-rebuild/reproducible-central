@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods enabling the verification of reproducible Java builds**](doc/TOOLS.md)
 2) [**A list of reproducible releases available on Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **8304 releases** of **900 projects**:
-   - **6023** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-   - 2281 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **8307 releases** of **900 projects**:
+   - **6027** releases are confirmed **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+   - 2280 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 900 projects, 797 have at least one fully reproducible release, 103 have none
 
 <!-- END GENERATED INTRO -->
@@ -511,7 +511,7 @@ Its objectives are to provide:
 | | [karaf](content/org/apache/karaf/karaf/README.md) | 10 | 10 :warning: |
 | org.apache.karaf.minho | [minho](content/org/apache/karaf/minho/README.md) | 1 | 1 :white_check_mark: |
 | org.apache.logging | [logging-parent](content/org/apache/logging/parent/README.md) | 20 | 19 :white_check_mark: / 1 :warning: |
-| org.apache.logging.log4j | [log4j](content/org/apache/logging/log4j/log4j/README.md) | 21 | 11 :white_check_mark: / 10 :warning: |
+| org.apache.logging.log4j | [log4j](content/org/apache/logging/log4j/log4j/README.md) | 21 | 12 :white_check_mark: / 9 :warning: |
 | | [log4j-jmx-gui](content/org/apache/logging/log4j/log4j-jmx-gui/README.md) | 1 | 1 :white_check_mark: |
 | | [log4j-tools-bom](content/org/apache/logging/log4j/tools/README.md) | 9 | 9 :white_check_mark: |
 | | [log4j-transform-bom](content/org/apache/logging/log4j/transform/README.md) | 2 | 2 :white_check_mark: |
@@ -676,7 +676,7 @@ Its objectives are to provide:
 | | [*.jcr.webdav](content/org/apache/sling/org.apache.sling.jcr.webdav/README.md) | 1 | 1 :white_check_mark: |
 | | [*.launchpad.test-services](content/org/apache/sling/org.apache.sling.launchpad.test-services/README.md) | 2 | 2 :white_check_mark: |
 | | [*.launchpad.testing](content/org/apache/sling/org.apache.sling.launchpad.testing/README.md) | 1 | 1 :warning: |
-| | [*.models.api](content/org/apache/sling/org.apache.sling.models.api/README.md) | 5 | 5 :white_check_mark: |
+| | [*.models.api](content/org/apache/sling/org.apache.sling.models.api/README.md) | 6 | 6 :white_check_mark: |
 | | [*.models.caconfig](content/org/apache/sling/org.apache.sling.models.caconfig/README.md) | 2 | 2 :white_check_mark: |
 | | [*.models.impl](content/org/apache/sling/org.apache.sling.models.impl/README.md) | 11 | 5 :white_check_mark: / 6 :warning: |
 | | [*.models.jacksonexporter](content/org/apache/sling/org.apache.sling.models.jacksonexporter/README.md) | 5 | 5 :white_check_mark: |
@@ -713,7 +713,7 @@ Its objectives are to provide:
 | | [*.testing.jcr-mock](content/org/apache/sling/org.apache.sling.testing.jcr-mock/README.md) | 9 | 9 :white_check_mark: |
 | | [*.testing.osgi-mock](content/org/apache/sling/org.apache.sling.testing.osgi-mock/README.md) | 11 | 11 :white_check_mark: |
 | | [*.testing.paxexam](content/org/apache/sling/org.apache.sling.testing.paxexam/README.md) | 3 | 3 :white_check_mark: |
-| | [*.testing.resourceresolver-mock](content/org/apache/sling/org.apache.sling.testing.resourceresolver-mock/README.md) | 11 | 9 :white_check_mark: / 2 :warning: |
+| | [*.testing.resourceresolver-mock](content/org/apache/sling/org.apache.sling.testing.resourceresolver-mock/README.md) | 12 | 10 :white_check_mark: / 2 :warning: |
 | | [*.testing.rules](content/org/apache/sling/org.apache.sling.testing.rules/README.md) | 1 | 1 :white_check_mark: |
 | | [*.testing.sling-mock](content/org/apache/sling/org.apache.sling.testing.sling-mock/README.md) | 16 | 16 :white_check_mark: |
 | | [*.testing.sling-mock-oak](content/org/apache/sling/org.apache.sling.testing.sling-mock-oak/README.md) | 8 | 8 :white_check_mark: |
@@ -893,7 +893,7 @@ Its objectives are to provide:
 | | [spdx-maven-plugin](content/org/spdx/spdx-maven-plugin/README.md) | 12 | 10 :white_check_mark: / 2 :warning: |
 | org.tomitribe | [org.eclipse.transformer.parent](content/org/tomitribe/transformer/README.md) | 2 | 2 :white_check_mark: |
 | org.webjars | [angularjs](content/org/webjars/angularjs/README.md) | 1 | 1 :white_check_mark: |
-| | [bootstrap](content/org/webjars/bootstrap/README.md) | 11 | 11 :white_check_mark: |
+| | [bootstrap](content/org/webjars/bootstrap/README.md) | 12 | 12 :white_check_mark: |
 | | [flexmonster](content/org/webjars/flexmonster/README.md) | 87 | 82 :white_check_mark: / 5 :warning: |
 | | [font-awesome](content/org/webjars/font-awesome/README.md) | 11 | 11 :white_check_mark: |
 | | [highcharts](content/org/webjars/highcharts/README.md) | 5 | 5 :white_check_mark: |
@@ -923,7 +923,7 @@ Its objectives are to provide:
 | uk.org.okapibarcode | [okapibarcode](content/uk/org/okapibarcode/okapibarcode/README.md) | 8 | 8 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 42 | 41 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](content/world/convex/README.md) | 21 | 3 :white_check_mark: / 18 :warning: |
-| **Count:** | **900** | **8304** | **6023** :white_check_mark:<br>**2281** :warning: |
+| **Count:** | **900** | **8307** | **6027** :white_check_mark:<br>**2280** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -961,7 +961,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn        18
      34 mvn        19
      17 mvn        20
-    685 mvn        21
+    686 mvn        21
      15 mvn        22
      15 mvn        23
      38 mvn        24
@@ -999,7 +999,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.10  17
       1 mvn-3.9.10  21
       2 mvn-3.9.11  11
-      6 mvn-3.9.11  17
+      7 mvn-3.9.11  17
      22 mvn-3.9.11  21
       1 mvn-3.9.11  25
      36 mvn-3.9.2   8
@@ -1059,7 +1059,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn-3.9.8   8
      31 mvn-3.9.8  11
       5 mvn-3.9.8  16
-    245 mvn-3.9.8  17
+    246 mvn-3.9.8  17
       1 mvn-3.9.8  17.0.12
      79 mvn-3.9.8  21
      47 mvn-3.9.8  22
