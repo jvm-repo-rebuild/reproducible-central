@@ -1,0 +1,20 @@
+version=3.9.4
+ok=19
+ko=5
+ignored=0
+okFiles="parent-3.9.4.pom parent-3.9.4.tar.gz parent-3.9.4-source-release.zip zookeeper-jute-3.9.4.pom zookeeper-jute-3.9.4.jar zookeeper-jute-3.9.4-tests.jar zookeeper-jute-3.9.4-sources.jar zookeeper-3.9.4.pom zookeeper-3.9.4-tests.jar zookeeper-metrics-providers-3.9.4.pom zookeeper-prometheus-metrics-3.9.4.pom zookeeper-prometheus-metrics-3.9.4.jar zookeeper-prometheus-metrics-3.9.4-tests.jar zookeeper-prometheus-metrics-3.9.4-sources.jar zookeeper-it-3.9.4.pom zookeeper-it-3.9.4-sources.jar zookeeper-contrib-3.9.4.pom zookeeper-contrib-fatjar-3.9.4.pom zookeeper-contrib-fatjar-3.9.4.jar"
+koFiles="zookeeper-jute-3.9.4-osgi.jar zookeeper-3.9.4.jar zookeeper-3.9.4-osgi.jar zookeeper-3.9.4-sources.jar zookeeper-it-3.9.4.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.zookeeper/zookeeper-jute-3.9.4-osgi.jar zookeeper-jute/target/zookeeper-jute-3.9.4-osgi.jar
+# diffoscope target/reference/org.apache.zookeeper/zookeeper-3.9.4.jar zookeeper-server/target/zookeeper-3.9.4.jar
+# diffoscope target/reference/org.apache.zookeeper/zookeeper-3.9.4-osgi.jar zookeeper-server/target/zookeeper-3.9.4-osgi.jar
+# diffoscope target/reference/org.apache.zookeeper/zookeeper-3.9.4-sources.jar zookeeper-server/target/zookeeper-3.9.4-sources.jar
+# diffoscope target/reference/org.apache.zookeeper/zookeeper-it-3.9.4.jar zookeeper-it/target/zookeeper-it-3.9.4.jar
+stabilize_ok=1
+stabilize_ko=4
+stabilize_ignored=0
+stabilize_okFiles="zookeeper-jute-3.9.4-osgi.jar.stabilized"
+stabilize_koFiles="zookeeper-3.9.4.jar.stabilized zookeeper-3.9.4-osgi.jar.stabilized zookeeper-3.9.4-sources.jar.stabilized zookeeper-it-3.9.4.jar.stabilized"
+stabilize_ignoredFiles=""
