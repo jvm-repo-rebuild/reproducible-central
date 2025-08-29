@@ -1086,14 +1086,14 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **108 releases** of io.quarkus:quarkus-project:
+rebuilding **109 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 108 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 19, 0 had all their differences removed :recycle:, 19 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 109 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 20, 0 had all their differences removed :recycle:, 20 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.26.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.26.1/pom) | | | |
+| [3.26.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.26.1/pom) | [mvn jdk21](quarkus-3.26.1.buildspec) | [result](quarkus-project-3.26.1.buildinfo): [2361 :white_check_mark:  1 :warning:](quarkus-project-3.26.1.buildcompare) | 1 :rotating_light: | 135M |
 | [3.26.0](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.26.0/pom) | [mvn jdk21](quarkus-3.26.0.buildspec) | [result](quarkus-project-3.26.0.buildinfo): [2361 :white_check_mark:  1 :warning:](quarkus-project-3.26.0.buildcompare) | 1 :rotating_light: | 134M |
 | [3.26.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.26.0.CR1/pom) | [mvn jdk21](quarkus-3.26.0.CR1.buildspec) | [result](quarkus-project-3.26.0.CR1.buildinfo): [2361 :white_check_mark:  1 :warning:](quarkus-project-3.26.0.CR1.buildcompare) [:mag:](quarkus-project-3.26.0.CR1.diffoscope) | 1 :rotating_light: | 134M |
 | [3.25.4](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.25.4/pom) | [mvn jdk21](quarkus-3.25.4.buildspec) | [result](quarkus-project-3.25.4.buildinfo): [2347 :white_check_mark:  3 :warning:](quarkus-project-3.25.4.buildcompare) | 2 :recycle: 1 :rotating_light: | 134M |
