@@ -23,6 +23,7 @@ rebuilding **9 releases** of com.github.veithen.daemon:daemon:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.6.4](https://central.sonatype.com/artifact/com.github.veithen.daemon/daemon/0.6.4/pom) | | | |
 | [0.6.3](https://central.sonatype.com/artifact/com.github.veithen.daemon/daemon/0.6.3/pom) | [mvn jdk17](daemon-0.6.3.buildspec) | [result](daemon-0.6.3.buildinfo): [17 :white_check_mark: ](daemon-0.6.3.buildcompare) | | 346K |
 | [0.6.2](https://central.sonatype.com/artifact/com.github.veithen.daemon/daemon/0.6.2/pom) | [mvn jdk17](daemon-0.6.2.buildspec) | [result](daemon-0.6.2.buildinfo): [17 :white_check_mark: ](daemon-0.6.2.buildcompare) | | 346K |
 | [0.6.1](https://central.sonatype.com/artifact/com.github.veithen.daemon/daemon/0.6.1/pom) | [mvn jdk17](daemon-0.6.1.buildspec) | [result](daemon-0.6.1.buildinfo): [17 :white_check_mark: ](daemon-0.6.1.buildcompare) | | 352K |

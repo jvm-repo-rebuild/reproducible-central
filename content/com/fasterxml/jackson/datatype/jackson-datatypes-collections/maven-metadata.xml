@@ -3,8 +3,8 @@
   <groupId>com.fasterxml.jackson.datatype</groupId>
   <artifactId>jackson-datatypes-collections</artifactId>
   <versioning>
-    <latest>2.20.0-rc1</latest>
-    <release>2.20.0-rc1</release>
+    <latest>2.20.0</latest>
+    <release>2.20.0</release>
     <versions>
       <version>2.7.1</version>
       <version>2.7.2</version>
@@ -112,7 +112,8 @@
       <version>2.19.1</version>
       <version>2.19.2</version>
       <version>2.20.0-rc1</version>
+      <version>2.20.0</version>
     </versions>
-    <lastUpdated>20250805012935</lastUpdated>
+    <lastUpdated>20250828235133</lastUpdated>
   </versioning>
 </metadata>

@@ -26,6 +26,7 @@ rebuilding **35 releases** of com.fasterxml.jackson.jr:jackson-jr-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.20.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.20.0/pom) | | | |
 | [2.20.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.20.0-rc1/pom) | [mvn jdk8](jackson-jr-2.20.0-rc1.buildspec) | [result](jackson-jr-parent-2.20.0-rc1.buildinfo): [22 :white_check_mark:  2 :warning:](jackson-jr-parent-2.20.0-rc1.buildcompare) | 2 :no_entry_sign: | 1.7M |
 | [2.19.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.19.2/pom) | [mvn jdk8](jackson-jr-2.19.2.buildspec) | [result](jackson-jr-parent-2.19.2.buildinfo): [22 :white_check_mark:  2 :warning:](jackson-jr-parent-2.19.2.buildcompare) | 2 :no_entry_sign: | 1.7M |
 | [2.19.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.19.1/pom) | [mvn jdk8](jackson-jr-2.19.1.buildspec) | [result](jackson-jr-parent-2.19.1.buildinfo): [24 :white_check_mark: ](jackson-jr-parent-2.19.1.buildcompare) | | 1.7M |

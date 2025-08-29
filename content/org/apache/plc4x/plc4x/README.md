@@ -119,6 +119,7 @@ rebuilding **4 releases** of org.apache.plc4x:plc4x-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.13.1](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.13.1/pom) | | | |
 | [0.13.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.13.0/pom) | | | |
 | [0.12.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.12.0/pom) | [mvn jdk11](plc4x-0.12.0.buildspec) | :x: | |
 | [0.11.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.11.0/pom) | [mvn jdk20](plc4x-0.11.0.buildspec) | [result](plc4x-parent-0.11.0.buildinfo): [231 :white_check_mark:  79 :warning:](plc4x-parent-0.11.0.buildcompare) [:mag:](plc4x-parent-0.11.0.diffoscope) [:memo:](https://github.com/apache/plc4x/pull/1202) | - | 301M |
