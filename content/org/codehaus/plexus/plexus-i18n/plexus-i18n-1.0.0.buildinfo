@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus I18N Component
+group-id=org.codehaus.plexus
+artifact-id=plexus-i18n
+version=1.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-i18n.git
+source.scm.tag=plexus-i18n-1.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-i18n-1.0.0.pom
+outputs.0.length=2770
+outputs.0.checksums.sha512=9285e865c79339ee8f3a31d1c8623bdf5b1017d52278f14fd6941df7fba55e5302114711ae0b481df84b88f34b0858296cb9c056bc1f437bb33e68f4b0c52dad
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-i18n-1.0.0.jar
+outputs.1.length=10075
+outputs.1.checksums.sha512=f54cfcc693b5f686d9784f58201d0480c8b9c4ae48dbde3860afdaa9e2e70db1cf4a1a0798c744b78ba69258d1ec4d26d454d9fdbd45f9e1446d5a517916985a
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-i18n-1.0.0-source-release.zip
+outputs.2.length=21612
+outputs.2.checksums.sha512=7c9feeb02f7d639f3f3d358132c1cc33603df2f7fb871c8ce1b622b3c515dd3ff4d474e22ea12a3c79fab36c2562dd60634957485e5600fc17c50acbbdb0a18f
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-i18n-1.0.0-sources.jar
+outputs.3.length=8672
+outputs.3.checksums.sha512=4d382e9aaf549fee3b0cedf5acdf07d427f1ab4bb8cf59952318635a3e456fd0e8565e91c6df47c7f2873fca4e9cc0a57708cd42552d4619a5854ba1a6c83876

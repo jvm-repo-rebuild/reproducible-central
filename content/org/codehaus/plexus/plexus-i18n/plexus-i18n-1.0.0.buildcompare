@@ -1,0 +1,9 @@
+version=1.0.0
+ok=4
+ko=0
+ignored=0
+okFiles="plexus-i18n-1.0.0.pom plexus-i18n-1.0.0.jar plexus-i18n-1.0.0-source-release.zip plexus-i18n-1.0.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
