@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/FasterXML/jackson-parent.git](https://github.com/FasterXML/jackson-parent.git)
 
-rebuilding **24 releases** of com.fasterxml.jackson:jackson-parent:
-- **24** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **25 releases** of com.fasterxml.jackson:jackson-parent:
+- **25** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.20](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-parent/2.20/pom) | | | |
+| [2.20](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-parent/2.20/pom) | [mvn jdk11](jackson-parent-2.20.buildspec) | [result](jackson-parent-2.20.buildinfo): [1 :white_check_mark: ](jackson-parent-2.20.buildcompare) | | 6.7K |
 | [2.20-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-parent/2.20-rc1/pom) | [mvn jdk11](jackson-parent-2.20-rc1.buildspec) | [result](jackson-parent-2.20-rc1.buildinfo): [1 :white_check_mark: ](jackson-parent-2.20-rc1.buildcompare) | | 6.7K |
 | [2.19.3](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-parent/2.19.3/pom) | [mvn jdk11](jackson-parent-2.19.3.buildspec) | [result](jackson-parent-2.19.3.buildinfo): [1 :white_check_mark: ](jackson-parent-2.19.3.buildcompare) | | 7.1K |
 | [2.19.2](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-parent/2.19.2/pom) | [mvn jdk11](jackson-parent-2.19.2.buildspec) | [result](jackson-parent-2.19.2.buildinfo): [1 :white_check_mark: ](jackson-parent-2.19.2.buildcompare) | | 7.1K |
