@@ -49,13 +49,13 @@ Source code: [https://github.com/dropwizard/metrics.git](https://github.com/drop
 * [io.dropwizard.metrics:metrics-servlets](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-servlets/overview)
 </details>
 
-rebuilding **68 releases** of io.dropwizard.metrics:metrics-parent:
-- **30** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **69 releases** of io.dropwizard.metrics:metrics-parent:
+- **31** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 38 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.2.35](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.35/pom) | | | |
+| [4.2.35](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.35/pom) | [mvn jdk17](dropwizard-metrics-4.2.35.buildspec) | [result](metrics-parent-4.2.35.buildinfo): [110 :white_check_mark: ](metrics-parent-4.2.35.buildcompare) | | 1.2M |
 | [4.2.34](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.34/pom) | [mvn jdk17](dropwizard-metrics-4.2.34.buildspec) | [result](metrics-parent-4.2.34.buildinfo): [110 :white_check_mark: ](metrics-parent-4.2.34.buildcompare) | | 1.2M |
 | [4.2.33](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.33/pom) | [mvn jdk17](dropwizard-metrics-4.2.33.buildspec) | [result](metrics-parent-4.2.33.buildinfo): [107 :white_check_mark: ](metrics-parent-4.2.33.buildcompare) | | 1.1M |
 | [4.2.32](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.32/pom) | [mvn jdk17](dropwizard-metrics-4.2.32.buildspec) | [result](metrics-parent-4.2.32.buildinfo): [107 :white_check_mark: ](metrics-parent-4.2.32.buildcompare) | | 1.1M |
