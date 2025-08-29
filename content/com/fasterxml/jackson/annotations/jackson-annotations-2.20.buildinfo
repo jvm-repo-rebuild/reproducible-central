@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson-annotations
+group-id=com.fasterxml.jackson.core
+artifact-id=jackson-annotations
+version=2.20
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-annotations.git
+source.scm.tag=jackson-annotations-2.20
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_462
+java.vendor=Private Build
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.6
+
+# output
+
+outputs.0.groupId=com.fasterxml.jackson.core
+outputs.0.filename=jackson-annotations-2.20.pom
+outputs.0.length=7009
+outputs.0.checksums.sha512=79239e4c1e539ee4113e58919215efa007ca3a3feaf7145de0cfc65c041dbc2a25738e1ee1b2ecedf9af1076f520f96eca57ecdd828df977b53bdb4e05fa64da
+
+outputs.1.groupId=com.fasterxml.jackson.core
+outputs.1.filename=jackson-annotations-2.20.jar
+outputs.1.length=79195
+outputs.1.checksums.sha512=8926d89bfe7f427c7793f6af619249540f23f82eae055dd03d4cb163ff603a43dd6a3ebe43528d00789aed3df0dd2f10e08552fdec53e2691849b9769f57f0c9
+
+outputs.2.groupId=com.fasterxml.jackson.core
+outputs.2.filename=jackson-annotations-2.20-sources.jar
+outputs.2.length=85756
+outputs.2.checksums.sha512=0ebd2a1c0ac9aba1b9ef15469967ec1310ab582d41b45429c89c4e7e2dfa98428037b22244215b80019986682eb9b204315f2c80e1042099015a8bf7bdca1075
+
+outputs.3.groupId=com.fasterxml.jackson.core
+outputs.3.filename=jackson-annotations-2.20.module
+outputs.3.length=1917
+outputs.3.checksums.sha512=39ff0a98844276af6c316efcdbb91150baf83e17ebccd0b3114048aa62124a828702463b8479a103c6d273f3235addf92dfc19ec218734fafcdc897751302725
