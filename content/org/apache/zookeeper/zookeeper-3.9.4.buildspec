@@ -1,0 +1,22 @@
+groupId=org.apache.zookeeper
+artifactId=parent
+version=3.9.4
+
+display=${groupId}:zookeeper
+
+gitRepo=https://github.com/apache/zookeeper.git
+gitTag=release-${version}
+
+tool=mvn-3.9.3
+jdk=11
+newline=lf
+umask=022
+
+javaVersion="11.0.12 (Oracle Corporation)"
+buildTime="2024-10-17 23:21 UTC"
+
+command="mvn -X -Papache-release,fatjar clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcyclonedx.skip -Djava.version='${javaVersion}' -Dbuild.time='${buildTime}'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
