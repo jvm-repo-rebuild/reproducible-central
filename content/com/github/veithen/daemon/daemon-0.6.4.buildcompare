@@ -1,0 +1,9 @@
+version=0.6.4
+ok=17
+ko=0
+ignored=0
+okFiles="daemon-0.6.4.pom daemon-0.6.4-source-release.zip daemon-api-0.6.4.pom daemon-api-0.6.4.jar daemon-api-0.6.4-sources.jar daemon-launcher-protocol-0.6.4.pom daemon-launcher-protocol-0.6.4.jar daemon-launcher-protocol-0.6.4-sources.jar daemon-launcher-0.6.4.pom daemon-launcher-0.6.4.jar daemon-launcher-0.6.4-sources.jar daemon-maven-plugin-0.6.4.pom daemon-maven-plugin-0.6.4.jar daemon-maven-plugin-0.6.4-sources.jar jetty-daemon-0.6.4.pom jetty-daemon-0.6.4.jar jetty-daemon-0.6.4-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
