@@ -1,0 +1,9 @@
+version=2.20.0
+ok=22
+ko=0
+ignored=7
+okFiles="jackson-datatypes-misc-parent-2.20.0.pom jackson-datatype-joda-money-2.20.0.pom jackson-datatype-joda-money-2.20.0.jar jackson-datatype-joda-money-2.20.0-sources.jar jackson-datatype-json-org-2.20.0.pom jackson-datatype-json-org-2.20.0.jar jackson-datatype-json-org-2.20.0-sources.jar jackson-datatype-jsr353-2.20.0.pom jackson-datatype-jsr353-2.20.0.jar jackson-datatype-jsr353-2.20.0-sources.jar jackson-datatype-jakarta-jsonp-2.20.0.pom jackson-datatype-jakarta-jsonp-2.20.0.jar jackson-datatype-jakarta-jsonp-2.20.0-sources.jar jackson-datatype-jakarta-mail-2.20.0.pom jackson-datatype-jakarta-mail-2.20.0.jar jackson-datatype-jakarta-mail-2.20.0-sources.jar jackson-datatype-javax-money-2.20.0.pom jackson-datatype-javax-money-2.20.0.jar jackson-datatype-javax-money-2.20.0-sources.jar jackson-datatype-moneta-2.20.0.pom jackson-datatype-moneta-2.20.0.jar jackson-datatype-moneta-2.20.0-sources.jar"
+koFiles=""
+ignoredFiles="jackson-datatype-joda-money-2.20.0.module jackson-datatype-json-org-2.20.0.module jackson-datatype-jsr353-2.20.0.module jackson-datatype-jakarta-jsonp-2.20.0.module jackson-datatype-jakarta-mail-2.20.0.module jackson-datatype-javax-money-2.20.0.module jackson-datatype-moneta-2.20.0.module"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
