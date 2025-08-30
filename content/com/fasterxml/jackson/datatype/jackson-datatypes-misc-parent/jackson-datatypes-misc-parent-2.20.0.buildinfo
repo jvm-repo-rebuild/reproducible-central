@@ -1,0 +1,158 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson datatypes: misc (parent pom)
+group-id=com.fasterxml.jackson.datatype
+artifact-id=jackson-datatypes-misc-parent
+version=2.20.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-datatypes-misc.git
+source.scm.tag=jackson-datatypes-misc-parent-2.20.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_462
+java.vendor=Private Build
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=jackson-datatype-moneta
+
+# aggregated output
+
+outputs.0.coordinates=com.fasterxml.jackson.datatype:jackson-datatypes-misc-parent
+
+outputs.0.0.groupId=com.fasterxml.jackson.datatype
+outputs.0.0.filename=jackson-datatypes-misc-parent-2.20.0.pom
+outputs.0.0.length=3531
+outputs.0.0.checksums.sha512=4d20909ce67942cd93587e277dd132d0a4022649a2fff47b0348bceb3fec962da31dfb5834c88ec1765063d2ad04fb938e5c39cad907bc5f55cd89152d516c2c
+
+outputs.1.coordinates=com.fasterxml.jackson.datatype:jackson-datatype-joda-money
+
+outputs.1.0.groupId=com.fasterxml.jackson.datatype
+outputs.1.0.filename=jackson-datatype-joda-money-2.20.0.pom
+outputs.1.0.length=2664
+outputs.1.0.checksums.sha512=276b8b5b45f808789cdfd607dbdd855f92b758287cdd384c36fd938da6ee326c11851e7c804985a3792dfa0d511421266fac1ed8da74f34046556de50ddaafd4
+
+outputs.1.1.groupId=com.fasterxml.jackson.datatype
+outputs.1.1.filename=jackson-datatype-joda-money-2.20.0.jar
+outputs.1.1.length=19650
+outputs.1.1.checksums.sha512=d9ddbead237e1f45a93cc35aa2afbe9ace3f4432f1e26707423f9e099815cd2b39c09cff7219b831ef77b610947d239bdb9b12dd78ba925bb99ffc6aeab8c4b7
+
+outputs.1.2.groupId=com.fasterxml.jackson.datatype
+outputs.1.2.filename=jackson-datatype-joda-money-2.20.0-sources.jar
+outputs.1.2.length=13851
+outputs.1.2.checksums.sha512=5fcc9e815a63fa7229aadb1bb26ff0bc55beae08f8921e05a049303f1d9e88382f06103f7adcda68061f169a93fe2e451a77c177371f43afef73294aa573f03e
+# ignored jackson-datatype-joda-money-2.20.0.module
+
+outputs.2.coordinates=com.fasterxml.jackson.datatype:jackson-datatype-json-org
+
+outputs.2.0.groupId=com.fasterxml.jackson.datatype
+outputs.2.0.filename=jackson-datatype-json-org-2.20.0.pom
+outputs.2.0.length=2917
+outputs.2.0.checksums.sha512=7d32dbf9d36ce5d62c9ba85e069c3d6ead579aeab262021aaa3ab4b4b7e17ed48cb84eda24ff80712bffb5dca3d5c4b28aac3aabb5b0558accec01dacdfeafd1
+
+outputs.2.1.groupId=com.fasterxml.jackson.datatype
+outputs.2.1.filename=jackson-datatype-json-org-2.20.0.jar
+outputs.2.1.length=18376
+outputs.2.1.checksums.sha512=cbca1c6e25218117d2b31a3c361440442e77a22b9896ef88461975861fd176b3de2ba13f0320d7ca1a5751cb67fc7fb3a29d23d16ffd9858e43a015c10da0a9e
+
+outputs.2.2.groupId=com.fasterxml.jackson.datatype
+outputs.2.2.filename=jackson-datatype-json-org-2.20.0-sources.jar
+outputs.2.2.length=10901
+outputs.2.2.checksums.sha512=97de20dab23a09e554ca7731151e6d3db1ad77a55672ee6ecfe1c61cc23f7a0b62c1aa93a26a30520caa251db3930da2d1cd4cfc522b56abfdd2bc716f99b722
+# ignored jackson-datatype-json-org-2.20.0.module
+
+outputs.3.coordinates=com.fasterxml.jackson.datatype:jackson-datatype-jsr353
+
+outputs.3.0.groupId=com.fasterxml.jackson.datatype
+outputs.3.0.filename=jackson-datatype-jsr353-2.20.0.pom
+outputs.3.0.length=2993
+outputs.3.0.checksums.sha512=370b0b6b8e18aede2cd915914cb1759c9de25d8af40e7c477f2af979d479a1c97974d8c612be7b15f56c366403c1b016b006ff9a5a495ae0f6feaae1ee346f0a
+
+outputs.3.1.groupId=com.fasterxml.jackson.datatype
+outputs.3.1.filename=jackson-datatype-jsr353-2.20.0.jar
+outputs.3.1.length=22474
+outputs.3.1.checksums.sha512=6c697865b2954d7e9d8e5eaffca7266d5805fc1dec2848b1a004ace93c0db36e60ef56e1f12c60e1dec06de7aea265d80c197c39639fde75b692e4828bfa2f8d
+
+outputs.3.2.groupId=com.fasterxml.jackson.datatype
+outputs.3.2.filename=jackson-datatype-jsr353-2.20.0-sources.jar
+outputs.3.2.length=11640
+outputs.3.2.checksums.sha512=4bd2cb01018dab765e9b9c6ed7925040e43797da8d7b26f8c259bba796ac3975b38caf35db639a071f23498385aaae3f25c04e1dda954be6c5a51518a9362ac0
+# ignored jackson-datatype-jsr353-2.20.0.module
+
+outputs.4.coordinates=com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp
+
+outputs.4.0.groupId=com.fasterxml.jackson.datatype
+outputs.4.0.filename=jackson-datatype-jakarta-jsonp-2.20.0.pom
+outputs.4.0.length=3050
+outputs.4.0.checksums.sha512=d88e7e0d15f7fe2bf46f73d6ffc55b620a8ca62c8a4997ced12e3e12581847c91597d68a209bebeb71c44342ba5b42c5ea2fa730a5ac52955c9426f3d7cd42d8
+
+outputs.4.1.groupId=com.fasterxml.jackson.datatype
+outputs.4.1.filename=jackson-datatype-jakarta-jsonp-2.20.0.jar
+outputs.4.1.length=22196
+outputs.4.1.checksums.sha512=192f95b44e4d7ca3fad423078694cda6d07294cd29de9a5b43800006902b22c37f23fa9e36d34077bc309d170e30794ebc53775bee18ed89bc9e79767530dcbe
+
+outputs.4.2.groupId=com.fasterxml.jackson.datatype
+outputs.4.2.filename=jackson-datatype-jakarta-jsonp-2.20.0-sources.jar
+outputs.4.2.length=11553
+outputs.4.2.checksums.sha512=063b853abbc4ea98a26e3560552e51b5efb92b4826a1a95dcd7dd8b131fdedd38567f0655eff02005e7916fd7906d4e27730958353c8059918e895fe9e64e238
+# ignored jackson-datatype-jakarta-jsonp-2.20.0.module
+
+outputs.5.coordinates=com.fasterxml.jackson.datatype:jackson-datatype-jakarta-mail
+
+outputs.5.0.groupId=com.fasterxml.jackson.datatype
+outputs.5.0.filename=jackson-datatype-jakarta-mail-2.20.0.pom
+outputs.5.0.length=2662
+outputs.5.0.checksums.sha512=29cda1f4a94b6e5141a5106dd4d556bf4e1753762da5549a547e7512c5608b2abcd7a58960c89e9fdfe59980dbc82efdbc20d275e2b0a272a63142dfbad326a0
+
+outputs.5.1.groupId=com.fasterxml.jackson.datatype
+outputs.5.1.filename=jackson-datatype-jakarta-mail-2.20.0.jar
+outputs.5.1.length=9181
+outputs.5.1.checksums.sha512=277af64a02a95fc3f9d0c245168bcc5bed9e96ffb2b20864752482b38dd78bab84f538a876148c77e56c4bdf089496820dbda6f9007fd184d82b4f3a732ccd61
+
+outputs.5.2.groupId=com.fasterxml.jackson.datatype
+outputs.5.2.filename=jackson-datatype-jakarta-mail-2.20.0-sources.jar
+outputs.5.2.length=8345
+outputs.5.2.checksums.sha512=149f49b7ad211af2ca2c81486aa6cddd9b167fee3840413aab73dace6779abad36f8a68d515f446ee1516e2ac925bba3aadd6d3346be2474aa7ba99f10356966
+# ignored jackson-datatype-jakarta-mail-2.20.0.module
+
+outputs.6.coordinates=com.fasterxml.jackson.datatype:jackson-datatype-javax-money
+
+outputs.6.0.groupId=com.fasterxml.jackson.datatype
+outputs.6.0.filename=jackson-datatype-javax-money-2.20.0.pom
+outputs.6.0.length=4348
+outputs.6.0.checksums.sha512=f32fbcb1b1c71be43eb0591e8b2e071fa3cc8ddb7aaf5d6c7c97fe6cce3f494795b903165123ebfc0d5275fa76f5a2839f256afd79ca99942ae045e2417c2f0d
+
+outputs.6.1.groupId=com.fasterxml.jackson.datatype
+outputs.6.1.filename=jackson-datatype-javax-money-2.20.0.jar
+outputs.6.1.length=21776
+outputs.6.1.checksums.sha512=16271f712f5f8e7194efc4df3e094d10fb315d0991a74783f5c32ad4167682ff8fc6890c3598c91265bfab649a25edaf78f36ada003a9a558ff40731e86fa484
+
+outputs.6.2.groupId=com.fasterxml.jackson.datatype
+outputs.6.2.filename=jackson-datatype-javax-money-2.20.0-sources.jar
+outputs.6.2.length=14525
+outputs.6.2.checksums.sha512=02b5dc5a359739a0087b027ae8ef18bd09833af93cbe1f76d6a63c0b9881518ef76ff253a3a53a4d294651103b52ec29388e1797c4f561448b344c604680ee32
+# ignored jackson-datatype-javax-money-2.20.0.module
+
+outputs.7.coordinates=com.fasterxml.jackson.datatype:jackson-datatype-moneta
+
+outputs.7.0.groupId=com.fasterxml.jackson.datatype
+outputs.7.0.filename=jackson-datatype-moneta-2.20.0.pom
+outputs.7.0.length=4541
+outputs.7.0.checksums.sha512=8fe205649cf2a8a05aad5074c67dcea6d87ca8d6d1af8f7097d3a5e7fb2bc422716f8cfc4a0742067a4e4605b4065bfe9103b37e7bcf34775e805b9ae6573088
+
+outputs.7.1.groupId=com.fasterxml.jackson.datatype
+outputs.7.1.filename=jackson-datatype-moneta-2.20.0.jar
+outputs.7.1.length=9623
+outputs.7.1.checksums.sha512=28d4b6d18c526fdc817793707920466eb08b6283be0b279b6a4e01a3b1bf4c85bba8e2692ef89acf953fb3edf194e992a446799f8d7c420354cbec06a0fec9d1
+
+outputs.7.2.groupId=com.fasterxml.jackson.datatype
+outputs.7.2.filename=jackson-datatype-moneta-2.20.0-sources.jar
+outputs.7.2.length=7370
+outputs.7.2.checksums.sha512=b4cc155a329016ee728a9bb4ca2a41c72b2e1526858e50b0b11303efd3c16aa36546b445ebe37cce36c86214b538de9ac5acbaf2ebd5de057b48b3d7b454f391
+# ignored jackson-datatype-moneta-2.20.0.module
