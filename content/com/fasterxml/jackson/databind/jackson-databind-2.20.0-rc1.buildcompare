@@ -1,16 +1,9 @@
 version=2.20.0-rc1
 ok=3
-ko=1
-ignored=0
+ko=0
+ignored=1
 okFiles="jackson-databind-2.20.0-rc1.pom jackson-databind-2.20.0-rc1.jar jackson-databind-2.20.0-rc1-sources.jar"
-koFiles="jackson-databind-2.20.0-rc1.module"
-ignoredFiles=""
+koFiles=""
+ignoredFiles="jackson-databind-2.20.0-rc1.module"
 reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
-# diffoscope target/reference/com.fasterxml.jackson.core/jackson-databind-2.20.0-rc1.module target/publications/maven/module.json
-stabilize_ok=0
-stabilize_ko=0
-stabilize_ignored=1
-stabilize_okFiles=""
-stabilize_koFiles=""
-stabilize_ignoredFiles="jackson-databind-2.20.0-rc1.module.stabilized"

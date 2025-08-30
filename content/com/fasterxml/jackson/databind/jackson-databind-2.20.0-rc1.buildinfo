@@ -37,8 +37,4 @@ outputs.2.groupId=com.fasterxml.jackson.core
 outputs.2.filename=jackson-databind-2.20.0-rc1-sources.jar
 outputs.2.length=1243492
 outputs.2.checksums.sha512=56a2f9e3d35918ab3fafa9d068aed46c38dc8a1f985c4333c0d6914fe51ff5565f514c3727e9f4a2cb5c0cfeabc44880068a1c8ba5dbb7b450e0e99453bef73c
-
-outputs.3.groupId=com.fasterxml.jackson.core
-outputs.3.filename=jackson-databind-2.20.0-rc1.module
-outputs.3.length=4872
-outputs.3.checksums.sha512=17ac9c9438c3b38594bb0ae0396b63ca9b6470570d38ee50ce44e5915eb5248ed59e8ac9f30c1a39482eec4d18b9f697b480d0494177aecafb2efbe89497245b
+# ignored jackson-databind-2.20.0-rc1.module
