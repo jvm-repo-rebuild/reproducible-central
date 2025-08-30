@@ -1,19 +1,9 @@
 version=2.19.2
 ok=13
-ko=4
-ignored=0
+ko=0
+ignored=4
 okFiles="jackson-datatypes-collections-2.19.2.pom jackson-datatype-guava-2.19.2.pom jackson-datatype-guava-2.19.2.jar jackson-datatype-guava-2.19.2-sources.jar jackson-datatype-hppc-2.19.2.pom jackson-datatype-hppc-2.19.2.jar jackson-datatype-hppc-2.19.2-sources.jar jackson-datatype-pcollections-2.19.2.pom jackson-datatype-pcollections-2.19.2.jar jackson-datatype-pcollections-2.19.2-sources.jar jackson-datatype-eclipse-collections-2.19.2.pom jackson-datatype-eclipse-collections-2.19.2.jar jackson-datatype-eclipse-collections-2.19.2-sources.jar"
-koFiles="jackson-datatype-guava-2.19.2.module jackson-datatype-hppc-2.19.2.module jackson-datatype-pcollections-2.19.2.module jackson-datatype-eclipse-collections-2.19.2.module"
-ignoredFiles=""
+koFiles=""
+ignoredFiles="jackson-datatype-guava-2.19.2.module jackson-datatype-hppc-2.19.2.module jackson-datatype-pcollections-2.19.2.module jackson-datatype-eclipse-collections-2.19.2.module"
 reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
-# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-guava-2.19.2.module guava/target/publications/maven/module.json
-# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-hppc-2.19.2.module hppc/target/publications/maven/module.json
-# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-pcollections-2.19.2.module pcollections/target/publications/maven/module.json
-# diffoscope target/reference/com.fasterxml.jackson.datatype/jackson-datatype-eclipse-collections-2.19.2.module eclipse-collections/target/publications/maven/module.json
-stabilize_ok=0
-stabilize_ko=0
-stabilize_ignored=4
-stabilize_okFiles=""
-stabilize_koFiles=""
-stabilize_ignoredFiles="jackson-datatype-guava-2.19.2.module.stabilized jackson-datatype-hppc-2.19.2.module.stabilized jackson-datatype-pcollections-2.19.2.module.stabilized jackson-datatype-eclipse-collections-2.19.2.module.stabilized"
