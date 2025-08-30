@@ -14,7 +14,7 @@ source.scm.tag=jackson-databind-2.19.2
 build-tool=mvn
 
 # effective build environment information
-java.version=1.8.0_452
+java.version=1.8.0_462
 java.vendor=Private Build
 os.name=Linux
 
@@ -37,8 +37,4 @@ outputs.2.groupId=com.fasterxml.jackson.core
 outputs.2.filename=jackson-databind-2.19.2-sources.jar
 outputs.2.length=1241261
 outputs.2.checksums.sha512=5620562ca02c640c95c496125e28849c6583eb2cf05715f6f7b8f4a3b8a246ee0dc5f5b386e24a9705508875521b30a8399bc5850a4e7696b7acfe63d8529733
-
-outputs.3.groupId=com.fasterxml.jackson.core
-outputs.3.filename=jackson-databind-2.19.2.module
-outputs.3.length=4816
-outputs.3.checksums.sha512=44a7d965e24ddc3c325232df77e9288a82ec29cb2a11f877d19d6acdd07ead65c0bbc17178148d4e10a1ee217a9d9556cdd48eb790c6e1bf259ef89c14b4b947
+# ignored jackson-databind-2.19.2.module

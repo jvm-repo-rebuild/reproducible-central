@@ -14,7 +14,7 @@ newline=lf
 timezone="America/Los_Angeles"
 #umask=022
 
-command="mvn -Prelease clean package -DskipTests -Dgpg.skip"
+command="mvn -Prelease clean package -DskipTests -Dgpg.skip -Dbuildinfo.ignore='*/*.module'"
 
 buildinfo=target/${artifactId}-${version}.buildinfo
 
