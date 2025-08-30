@@ -14,12 +14,12 @@ source.scm.tag=jackson-dataformat-xml-2.19.2
 build-tool=mvn
 
 # effective build environment information
-java.version=1.8.0_452
+java.version=1.8.0_462
 java.vendor=Private Build
 os.name=Linux
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.6
+mvn.version=3.9.11
 
 # output
 
@@ -37,8 +37,4 @@ outputs.2.groupId=com.fasterxml.jackson.dataformat
 outputs.2.filename=jackson-dataformat-xml-2.19.2-sources.jar
 outputs.2.length=103091
 outputs.2.checksums.sha512=de7bc38093c1269480c5b95e2e4d2f2c5a60e67bfad47d686619780e817b1b6699de017e913e03f18e09c6616d7e55f40664ab32f9f7bb32ec46ae7184231391
-
-outputs.3.groupId=com.fasterxml.jackson.dataformat
-outputs.3.filename=jackson-dataformat-xml-2.19.2.module
-outputs.3.length=6470
-outputs.3.checksums.sha512=3db9acc6748befc60753e0c20d585a0b3f9f700c5042a6011c7af4268c763188a4a586c8abbddaef28304585405a17efd26537cb4e5e0f61bcb8a5ba03a751a3
+# ignored jackson-dataformat-xml-2.19.2.module

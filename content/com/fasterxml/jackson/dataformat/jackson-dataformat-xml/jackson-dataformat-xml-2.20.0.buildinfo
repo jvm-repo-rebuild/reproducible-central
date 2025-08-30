@@ -1,0 +1,40 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson-dataformat-XML
+group-id=com.fasterxml.jackson.dataformat
+artifact-id=jackson-dataformat-xml
+version=2.20.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-dataformat-xml.git
+source.scm.tag=jackson-dataformat-xml-2.20.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_462
+java.vendor=Private Build
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=com.fasterxml.jackson.dataformat
+outputs.0.filename=jackson-dataformat-xml-2.20.0.pom
+outputs.0.length=9356
+outputs.0.checksums.sha512=3e8ae2b6cdb4c0def5c9808ad0521c6d66896e5d3b28f7895edba1a153691b3ce1e120d3b84411a2190e29f64253027109be7027f900c1700a661ec18cd7ab10
+
+outputs.1.groupId=com.fasterxml.jackson.dataformat
+outputs.1.filename=jackson-dataformat-xml-2.20.0.jar
+outputs.1.length=130609
+outputs.1.checksums.sha512=ea82090e98a65e24c5198b456a545d4e69e556850a3ecf02af0fa2ecc304828048a22e403b020d1a78df8c8cba0a4ffd224a06ba92bc68b7d52519d9ae155372
+
+outputs.2.groupId=com.fasterxml.jackson.dataformat
+outputs.2.filename=jackson-dataformat-xml-2.20.0-sources.jar
+outputs.2.length=103772
+outputs.2.checksums.sha512=87d1730080254aa650dca22b2979bc2b5810ed502c304f579192fb48b2e4ab3d300ccb0e79fd33addef65fde538a6da124c86220071285983119473846bb7cbf
+# ignored jackson-dataformat-xml-2.20.0.module

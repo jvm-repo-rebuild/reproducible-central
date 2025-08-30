@@ -19,7 +19,7 @@ java.vendor=Private Build
 os.name=Linux
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.6
+mvn.version=3.9.11
 
 # output
 
@@ -37,8 +37,4 @@ outputs.2.groupId=com.fasterxml.jackson.dataformat
 outputs.2.filename=jackson-dataformat-xml-2.20.0-rc1-sources.jar
 outputs.2.length=103789
 outputs.2.checksums.sha512=8cedbcb999f4fd325fe57eed4955eca7eec250f5905eb53e155cf1eac4f12607be0a39f69ee33f6b23d327b859ed6d8723b1886920484fbcf2d7542b3f8f020f
-
-outputs.3.groupId=com.fasterxml.jackson.dataformat
-outputs.3.filename=jackson-dataformat-xml-2.20.0-rc1.module
-outputs.3.length=6534
-outputs.3.checksums.sha512=dc8448de533cb54b8f43da2f5ef635e7762111135bcac6652cebdd2a642691f105f5f36582e8169b159d0bcf92c719e7b6714ec797170f80a8c82170b00a1d1a
+# ignored jackson-dataformat-xml-2.20.0-rc1.module
