@@ -14,12 +14,12 @@ source.scm.tag=jackson-jr-parent-2.19.2
 build-tool=mvn
 
 # effective build environment information
-java.version=1.8.0_452
+java.version=1.8.0_462
 java.vendor=Private Build
 os.name=Linux
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.3
+mvn.version=3.9.11
 mvn.aggregate.artifact-id=jackson-jr-all
 
 # aggregated output
@@ -47,11 +47,7 @@ outputs.1.2.groupId=com.fasterxml.jackson.jr
 outputs.1.2.filename=jackson-jr-objects-2.19.2-sources.jar
 outputs.1.2.length=91802
 outputs.1.2.checksums.sha512=c2b24d97f41fe66c27735236fe3b25df1f72aeee6500ec8b1ac9183a69652b96a556794dcf5b737472158fb34eefb28645427cf60b5a987e82ff7907f994c555
-
-outputs.1.3.groupId=com.fasterxml.jackson.jr
-outputs.1.3.filename=jackson-jr-objects-2.19.2.module
-outputs.1.3.length=4465
-outputs.1.3.checksums.sha512=d96c492e36d88b28d2565c8264176d9953bedd4aadc9e2df3860c385c0839517161240868d729f5036a2514b56b7afdfadbf47756fbcada951b3f05c9936f1b9
+# ignored jackson-jr-objects-2.19.2.module
 
 outputs.2.coordinates=com.fasterxml.jackson.jr:jackson-jr-retrofit2
 
@@ -69,11 +65,7 @@ outputs.2.2.groupId=com.fasterxml.jackson.jr
 outputs.2.2.filename=jackson-jr-retrofit2-2.19.2-sources.jar
 outputs.2.2.length=6221
 outputs.2.2.checksums.sha512=d84dc9ad5bb717d95300567e681236fbfebbcd105128c1f6ec16e8afa91bf5faa1460fb7abfc5a94589330a18b22c3a5451dbb70edb05b89f44ddf287e8ab54f
-
-outputs.2.3.groupId=com.fasterxml.jackson.jr
-outputs.2.3.filename=jackson-jr-retrofit2-2.19.2.module
-outputs.2.3.length=5141
-outputs.2.3.checksums.sha512=11dc252a40d2957bf4fe3b29de9e722f0955eb5456cc44818b08d3d6fe80772b8e5d0c2c4a978a5c6d5a12ec89a9b81917c3fbca74caad4bb01ecc2311d3a74b
+# ignored jackson-jr-retrofit2-2.19.2.module
 
 outputs.3.coordinates=com.fasterxml.jackson.jr:jackson-jr-stree
 
@@ -91,11 +83,7 @@ outputs.3.2.groupId=com.fasterxml.jackson.jr
 outputs.3.2.filename=jackson-jr-stree-2.19.2-sources.jar
 outputs.3.2.length=20219
 outputs.3.2.checksums.sha512=ad71873b5edd98c4ab500b541b7b9791fc1e0f3b9ce69bc23a589dfa3eb424f9bc18c575ac94be9c6ffa416140ae6288af231bb4c45e21d42a08d624480c48e9
-
-outputs.3.3.groupId=com.fasterxml.jackson.jr
-outputs.3.3.filename=jackson-jr-stree-2.19.2.module
-outputs.3.3.length=4445
-outputs.3.3.checksums.sha512=013663d9ee1e26eb0791c0f7e6ec3fd177546bdb22549fc5409b1cb60e860d25fdf34722e1663f72e58dabf1132f42ebcbe3686ea155dba716e67e282ac0bda0
+# ignored jackson-jr-stree-2.19.2.module
 
 outputs.4.coordinates=com.fasterxml.jackson.jr:jackson-jr-annotation-support
 
@@ -113,11 +101,7 @@ outputs.4.2.groupId=com.fasterxml.jackson.jr
 outputs.4.2.filename=jackson-jr-annotation-support-2.19.2-sources.jar
 outputs.4.2.length=15138
 outputs.4.2.checksums.sha512=26f387726fa4badc5883cc50c29bef6b2f8da443b2ec7a21f8b563b80b12dae04819c0c9fe475ddb5e09d26bae1ebcf59d03a60f96623a4f3fbd553dce7d85fc
-
-outputs.4.3.groupId=com.fasterxml.jackson.jr
-outputs.4.3.filename=jackson-jr-annotation-support-2.19.2.module
-outputs.4.3.length=5279
-outputs.4.3.checksums.sha512=3fb79935c09483da7ed05c43a99446b833ad3ce95697dbe7a166768f47dc88ba769b613cad4c831a119f4e25b175f5053c850c31625d3070f52beecb3de865fe
+# ignored jackson-jr-annotation-support-2.19.2.module
 
 outputs.5.coordinates=com.fasterxml.jackson.jr:jackson-jr-extension-javatime
 
@@ -135,11 +119,7 @@ outputs.5.2.groupId=com.fasterxml.jackson.jr
 outputs.5.2.filename=jackson-jr-extension-javatime-2.19.2-sources.jar
 outputs.5.2.length=6490
 outputs.5.2.checksums.sha512=d50543c7a7f503f6975e39b5f8cb04c70a12a5da6129c1be1cfda21a25785c4f27764c648098163ea1b4e088baeb874a723c4e227d333b9995b95564ebcd6b7c
-
-outputs.5.3.groupId=com.fasterxml.jackson.jr
-outputs.5.3.filename=jackson-jr-extension-javatime-2.19.2.module
-outputs.5.3.length=4566
-outputs.5.3.checksums.sha512=c5ceba6055fef17b08a43148eebf28c25266273ef0fecc129d66305ec1fc69aea2d37948f65781df93ca6e3d1b03f9f5e32286ed61245a800f2a3900b9ee9c94
+# ignored jackson-jr-extension-javatime-2.19.2.module
 
 outputs.6.coordinates=com.fasterxml.jackson.jr:jackson-jr-all
 
