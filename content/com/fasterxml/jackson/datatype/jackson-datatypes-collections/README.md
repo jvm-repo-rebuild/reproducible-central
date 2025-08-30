@@ -17,14 +17,13 @@ Source code: [https://github.com/FasterXML/jackson-datatypes-collections.git](ht
 </details>
 
 rebuilding **29 releases** of com.fasterxml.jackson.datatype:jackson-datatypes-collections:
-- **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [2.20.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/2.20.0/pom) | [mvn jdk8](jackson-datatypes-collections-2.20.0.buildspec) | :x: | |
-| [2.20.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/2.20.0-rc1/pom) | [mvn jdk8](jackson-datatypes-collections-2.20.0-rc1.buildspec) | [result](jackson-datatypes-collections-2.20.0-rc1.buildinfo): [13 :white_check_mark:  4 :warning:](jackson-datatypes-collections-2.20.0-rc1.buildcompare) | 4 :no_entry_sign: | 778K |
+| [2.20.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/2.20.0-rc1/pom) | [mvn jdk8](jackson-datatypes-collections-2.20.0-rc1.buildspec) | [result](jackson-datatypes-collections-2.20.0-rc1.buildinfo): [13 :white_check_mark: ](jackson-datatypes-collections-2.20.0-rc1.buildcompare) | | 759K |
 | [2.19.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/2.19.2/pom) | [mvn jdk8](jackson-datatypes-collections-2.19.2.buildspec) | [result](jackson-datatypes-collections-2.19.2.buildinfo): [13 :white_check_mark: ](jackson-datatypes-collections-2.19.2.buildcompare) | | 758K |
 | [2.19.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/2.19.1/pom) | [mvn jdk8](jackson-datatypes-collections-2.19.1.buildspec) | [result](jackson-datatypes-collections-2.19.1.buildinfo): [17 :white_check_mark: ](jackson-datatypes-collections-2.19.1.buildcompare) | | 774K |
 | [2.19.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/2.19.0/pom) | [mvn jdk8](jackson-datatypes-collections-2.19.0.buildspec) | [result](jackson-datatypes-collections-2.19.0.buildinfo): [17 :white_check_mark: ](jackson-datatypes-collections-2.19.0.buildcompare) | | 774K |
