@@ -1,7 +1,7 @@
 groupId=com.fasterxml.jackson.dataformat
 artifactId=jackson-dataformats-text
 display=${groupId}:${artifactId}
-version=2.19.2
+version=2.20.0
 
 gitRepo=https://github.com/FasterXML/jackson-dataformats-text.git
 gitTag=${artifactId}-${version}
