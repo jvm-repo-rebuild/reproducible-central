@@ -19,7 +19,7 @@ java.vendor=Private Build
 os.name=Linux
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.6
+mvn.version=3.9.11
 
 # output
 
@@ -37,8 +37,4 @@ outputs.2.groupId=com.fasterxml.jackson.datatype
 outputs.2.filename=jackson-datatype-joda-2.20.0-rc1-sources.jar
 outputs.2.length=54369
 outputs.2.checksums.sha512=ea7a6f749f4eb872276cfcf74d9e9313653fd77795ef88874e9ab4952173485a2bbdd4d110f5c96c737cd185e01ecfa9cbdf1d145559f8bfe7e68097abc93bc1
-
-outputs.3.groupId=com.fasterxml.jackson.datatype
-outputs.3.filename=jackson-datatype-joda-2.20.0-rc1.module
-outputs.3.length=4740
-outputs.3.checksums.sha512=87d844801155a595ad960e843b47c0cc7004e75f4185cd5f5942117dcf2bb4c24138d0fcff8096a8c9a050bfae35969a3127cc01e61807d7673cac1d79b65689
+# ignored jackson-datatype-joda-2.20.0-rc1.module
