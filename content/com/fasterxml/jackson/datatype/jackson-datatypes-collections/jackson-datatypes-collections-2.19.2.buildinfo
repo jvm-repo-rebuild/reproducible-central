@@ -14,12 +14,12 @@ source.scm.tag=jackson-datatypes-collections-2.19.2
 build-tool=mvn
 
 # effective build environment information
-java.version=1.8.0_452
+java.version=1.8.0_462
 java.vendor=Private Build
 os.name=Linux
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.9
+mvn.version=3.9.11
 mvn.aggregate.artifact-id=jackson-datatype-eclipse-collections
 
 # aggregated output
@@ -47,11 +47,7 @@ outputs.1.2.groupId=com.fasterxml.jackson.datatype
 outputs.1.2.filename=jackson-datatype-guava-2.19.2-sources.jar
 outputs.1.2.length=71330
 outputs.1.2.checksums.sha512=2335bed6d0e66243f857364b55f0bc6cce9f3cb7d5b1ee290f981841e1b956c867002322fa411362d3f3904531631acd756f45a3f79ca042aedcd00bfb681547
-
-outputs.1.3.groupId=com.fasterxml.jackson.datatype
-outputs.1.3.filename=jackson-datatype-guava-2.19.2.module
-outputs.1.3.length=4703
-outputs.1.3.checksums.sha512=14bd50d3d3257fc271a4e35b38ccbd378cde4c4f136105c43ebc71f6138b4b8cb2b0a286cabdb1c68f5dc1b005ecf6f30c7f0cae19fcfad374ab7197f640a3f2
+# ignored jackson-datatype-guava-2.19.2.module
 
 outputs.2.coordinates=com.fasterxml.jackson.datatype:jackson-datatype-hppc
 
@@ -69,11 +65,7 @@ outputs.2.2.groupId=com.fasterxml.jackson.datatype
 outputs.2.2.filename=jackson-datatype-hppc-2.19.2-sources.jar
 outputs.2.2.length=17538
 outputs.2.2.checksums.sha512=3269b52ad4b29c875762fd3bab49d42e05f6b9470cc7145058bddcf32453780d0b65d2b879a9ab4e5624d368f2e6ac7b1df37b9fddc6c4811ed6dfd8e9fdbea8
-
-outputs.2.3.groupId=com.fasterxml.jackson.datatype
-outputs.2.3.filename=jackson-datatype-hppc-2.19.2.module
-outputs.2.3.length=4686
-outputs.2.3.checksums.sha512=648d9991c1304e1a09b0bc81c170651cde389c81d99395b443b6f01ab368b7a296a882fa56b16f3cea361f562a49b1d2e650713565d053de653de63819ce115b
+# ignored jackson-datatype-hppc-2.19.2.module
 
 outputs.3.coordinates=com.fasterxml.jackson.datatype:jackson-datatype-pcollections
 
@@ -91,11 +83,7 @@ outputs.3.2.groupId=com.fasterxml.jackson.datatype
 outputs.3.2.filename=jackson-datatype-pcollections-2.19.2-sources.jar
 outputs.3.2.length=14188
 outputs.3.2.checksums.sha512=abaa7d9e6aae773861137b90bf907ec636c2584b37f9a10e299ec04ce366866a00a2a5927c12796b13197846d63a1367f53aad7040706aba50be4a2ebee650c1
-
-outputs.3.3.groupId=com.fasterxml.jackson.datatype
-outputs.3.3.filename=jackson-datatype-pcollections-2.19.2.module
-outputs.3.3.length=4758
-outputs.3.3.checksums.sha512=71829c73ad03905af88412c2ea9520800723ca431e0e5b9c6fe43d4beb9b24b82b3485181dc23f3e8cd4aad5524ac53c8d840e643627d4c38327d68e5e96d0f0
+# ignored jackson-datatype-pcollections-2.19.2.module
 
 outputs.4.coordinates=com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections
 
@@ -113,8 +101,4 @@ outputs.4.2.groupId=com.fasterxml.jackson.datatype
 outputs.4.2.filename=jackson-datatype-eclipse-collections-2.19.2-sources.jar
 outputs.4.2.length=60729
 outputs.4.2.checksums.sha512=1fde9cfe56f660bf7c253f008950bba8c74436fdc6a1a6c7c98db5930f7f33e2da37f3f2365bad7c0eb8d41640050def6c40e1adf054da477c40f0265eb80f49
-
-outputs.4.3.groupId=com.fasterxml.jackson.datatype
-outputs.4.3.filename=jackson-datatype-eclipse-collections-2.19.2.module
-outputs.4.3.length=4839
-outputs.4.3.checksums.sha512=952747a36e523ae67be91ed363d8f4b2202395474e053cbf2970dbe16727468787a2c98726b48ac7121b5920b89ab4df2e5deec5a7a12810a7425618a4a83efe
+# ignored jackson-datatype-eclipse-collections-2.19.2.module

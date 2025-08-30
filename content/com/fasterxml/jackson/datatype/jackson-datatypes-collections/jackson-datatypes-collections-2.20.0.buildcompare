@@ -1,0 +1,9 @@
+version=2.20.0
+ok=13
+ko=0
+ignored=4
+okFiles="jackson-datatypes-collections-2.20.0.pom jackson-datatype-guava-2.20.0.pom jackson-datatype-guava-2.20.0.jar jackson-datatype-guava-2.20.0-sources.jar jackson-datatype-hppc-2.20.0.pom jackson-datatype-hppc-2.20.0.jar jackson-datatype-hppc-2.20.0-sources.jar jackson-datatype-pcollections-2.20.0.pom jackson-datatype-pcollections-2.20.0.jar jackson-datatype-pcollections-2.20.0-sources.jar jackson-datatype-eclipse-collections-2.20.0.pom jackson-datatype-eclipse-collections-2.20.0.jar jackson-datatype-eclipse-collections-2.20.0-sources.jar"
+koFiles=""
+ignoredFiles="jackson-datatype-guava-2.20.0.module jackson-datatype-hppc-2.20.0.module jackson-datatype-pcollections-2.20.0.module jackson-datatype-eclipse-collections-2.20.0.module"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
