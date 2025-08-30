@@ -1,11 +1,2 @@
-content/com/fasterxml/jackson/core/jackson-core-2.20.0-rc1.buildspec:2.20.0
-content/com/fasterxml/jackson/jackson-bom/jackson-bom-2.20.0-rc1.buildspec:2.20.0
-content/com/fasterxml/jackson/jackson-parent/jackson-parent-2.20-rc1.buildspec:2.20
-content/com/github/veithen/daemon/daemon-0.6.3.buildspec:0.6.4
 content/de/cuioss/cui-parent-pom/cui-parent-pom-1.1.4.buildspec:1.1.5
-content/io/airlift/airbase/airbase-294.buildspec:295
-content/io/dropwizard/metrics/dropwizard-metrics-4.2.34.buildspec:4.2.35
-content/io/dropwizard/metrics5/dropwizard-metrics-5.0.2.buildspec:5.0.3
-content/io/github/cbarlin/aru/aru-0.6.2.buildspec:0.6.3
-content/org/apache/qpid/protonj2/protonj2-1.0.0-M23.buildspec:1.0.0
-content/org/hibernate/validator/hibernate-validator/hibernate-validator-9.0.1.Final.buildspec:9.1.0.Alpha1
+content/org/apache/maven/plugins/maven-wrapper-plugin/wrapper-3.3.2.buildspec:3.3.3
