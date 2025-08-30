@@ -1,6 +1,6 @@
 groupId=com.fasterxml.jackson.jr
 artifactId=jackson-jr-parent
-version=2.19.2
+version=2.20.0
 
 display=com.fasterxml.jackson.jr:jackson-jr
 
