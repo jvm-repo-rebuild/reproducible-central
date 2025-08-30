@@ -8,12 +8,12 @@
 Source code: [https://github.com/FasterXML/jackson-datatype-joda.git](https://github.com/FasterXML/jackson-datatype-joda.git)
 
 rebuilding **29 releases** of com.fasterxml.jackson.datatype:jackson-datatype-joda:
-- **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.20.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-joda/2.20.0/pom) | [mvn jdk8](jackson-datatype-joda-2.20.0.buildspec) | :x: | |
+| [2.20.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-joda/2.20.0/pom) | [mvn jdk8](jackson-datatype-joda-2.20.0.buildspec) | [result](jackson-datatype-joda-2.20.0.buildinfo): [3 :white_check_mark: ](jackson-datatype-joda-2.20.0.buildcompare) | | 138K |
 | [2.20.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-joda/2.20.0-rc1/pom) | [mvn jdk8](jackson-datatype-joda-2.20.0-rc1.buildspec) | [result](jackson-datatype-joda-2.20.0-rc1.buildinfo): [3 :white_check_mark: ](jackson-datatype-joda-2.20.0-rc1.buildcompare) | | 138K |
 | [2.19.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-joda/2.19.2/pom) | [mvn jdk8](jackson-datatype-joda-2.19.2.buildspec) | [result](jackson-datatype-joda-2.19.2.buildinfo): [3 :white_check_mark: ](jackson-datatype-joda-2.19.2.buildcompare) | | 137K |
 | [2.19.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-joda/2.19.1/pom) | [mvn jdk8](jackson-datatype-joda-2.19.1.buildspec) | [result](jackson-datatype-joda-2.19.1.buildinfo): [4 :white_check_mark: ](jackson-datatype-joda-2.19.1.buildcompare) | | 141K |
