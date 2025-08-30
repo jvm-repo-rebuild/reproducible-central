@@ -14,12 +14,12 @@ source.scm.tag=jackson-datatype-joda-2.19.2
 build-tool=mvn
 
 # effective build environment information
-java.version=1.8.0_452
+java.version=1.8.0_462
 java.vendor=Private Build
 os.name=Linux
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.6
+mvn.version=3.9.11
 
 # output
 
@@ -37,8 +37,4 @@ outputs.2.groupId=com.fasterxml.jackson.datatype
 outputs.2.filename=jackson-datatype-joda-2.19.2-sources.jar
 outputs.2.length=53325
 outputs.2.checksums.sha512=4b9cbb975aea016123c27f5a878caa1aae5839db828ea35931985b8973f058fc4feb548f094939396e39e5e63f5efe341709e19ac2726bc1edf72f337d9cf570
-
-outputs.3.groupId=com.fasterxml.jackson.datatype
-outputs.3.filename=jackson-datatype-joda-2.19.2.module
-outputs.3.length=4684
-outputs.3.checksums.sha512=2a310e4da0747c8dcb103f3205b801a24c8cdaaca6fa4d2ff8402cadc9d61e2cfbcf047c9fb1424998d623c0b27992d20ab1ef80009c58cec3a92dd1d6a76bef
+# ignored jackson-datatype-joda-2.19.2.module
