@@ -1,17 +1,9 @@
 version=2.20.0-rc1
-ok=22
-ko=2
-ignored=0
-okFiles="jackson-jr-parent-2.20.0-rc1.pom jackson-jr-objects-2.20.0-rc1.pom jackson-jr-objects-2.20.0-rc1.jar jackson-jr-objects-2.20.0-rc1-sources.jar jackson-jr-retrofit2-2.20.0-rc1.pom jackson-jr-retrofit2-2.20.0-rc1.jar jackson-jr-retrofit2-2.20.0-rc1-sources.jar jackson-jr-retrofit2-2.20.0-rc1.module jackson-jr-stree-2.20.0-rc1.pom jackson-jr-stree-2.20.0-rc1.jar jackson-jr-stree-2.20.0-rc1-sources.jar jackson-jr-annotation-support-2.20.0-rc1.pom jackson-jr-annotation-support-2.20.0-rc1.jar jackson-jr-annotation-support-2.20.0-rc1-sources.jar jackson-jr-annotation-support-2.20.0-rc1.module jackson-jr-extension-javatime-2.20.0-rc1.pom jackson-jr-extension-javatime-2.20.0-rc1.jar jackson-jr-extension-javatime-2.20.0-rc1-sources.jar jackson-jr-extension-javatime-2.20.0-rc1.module jackson-jr-all-2.20.0-rc1.pom jackson-jr-all-2.20.0-rc1.jar jackson-jr-all-2.20.0-rc1-sources.jar"
-koFiles="jackson-jr-objects-2.20.0-rc1.module jackson-jr-stree-2.20.0-rc1.module"
-ignoredFiles=""
+ok=19
+ko=0
+ignored=5
+okFiles="jackson-jr-parent-2.20.0-rc1.pom jackson-jr-objects-2.20.0-rc1.pom jackson-jr-objects-2.20.0-rc1.jar jackson-jr-objects-2.20.0-rc1-sources.jar jackson-jr-retrofit2-2.20.0-rc1.pom jackson-jr-retrofit2-2.20.0-rc1.jar jackson-jr-retrofit2-2.20.0-rc1-sources.jar jackson-jr-stree-2.20.0-rc1.pom jackson-jr-stree-2.20.0-rc1.jar jackson-jr-stree-2.20.0-rc1-sources.jar jackson-jr-annotation-support-2.20.0-rc1.pom jackson-jr-annotation-support-2.20.0-rc1.jar jackson-jr-annotation-support-2.20.0-rc1-sources.jar jackson-jr-extension-javatime-2.20.0-rc1.pom jackson-jr-extension-javatime-2.20.0-rc1.jar jackson-jr-extension-javatime-2.20.0-rc1-sources.jar jackson-jr-all-2.20.0-rc1.pom jackson-jr-all-2.20.0-rc1.jar jackson-jr-all-2.20.0-rc1-sources.jar"
+koFiles=""
+ignoredFiles="jackson-jr-objects-2.20.0-rc1.module jackson-jr-retrofit2-2.20.0-rc1.module jackson-jr-stree-2.20.0-rc1.module jackson-jr-annotation-support-2.20.0-rc1.module jackson-jr-extension-javatime-2.20.0-rc1.module"
 reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
-# diffoscope target/reference/com.fasterxml.jackson.jr/jackson-jr-objects-2.20.0-rc1.module jr-objects/target/publications/maven/module.json
-# diffoscope target/reference/com.fasterxml.jackson.jr/jackson-jr-stree-2.20.0-rc1.module jr-stree/target/publications/maven/module.json
-stabilize_ok=0
-stabilize_ko=0
-stabilize_ignored=2
-stabilize_okFiles=""
-stabilize_koFiles=""
-stabilize_ignoredFiles="jackson-jr-objects-2.20.0-rc1.module.stabilized jackson-jr-stree-2.20.0-rc1.module.stabilized"
