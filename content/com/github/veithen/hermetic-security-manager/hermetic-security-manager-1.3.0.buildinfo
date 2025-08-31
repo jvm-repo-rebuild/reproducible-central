@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=hermetic-security-manager
+group-id=com.github.veithen
+artifact-id=hermetic-security-manager
+version=1.3.0
+
+# source information
+source.scm.uri=scm:git:http://github.com/veithen/hermetic-security-manager.git
+source.scm.tag=1.3.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.github.veithen
+outputs.0.filename=hermetic-security-manager-1.3.0.pom
+outputs.0.length=3503
+outputs.0.checksums.sha512=214cf81b48060700d2b43d103027090094b19608e1bf24dcf46d0852b16d7e506a08dfdef7f8a9deded912edd1f50c1cf2c03b364ac0137926c13b76ba3e2066
+
+outputs.1.groupId=com.github.veithen
+outputs.1.filename=hermetic-security-manager-1.3.0.jar
+outputs.1.length=6068
+outputs.1.checksums.sha512=54b4592f594d1f47cc6a43ef4c77494e7bb6ad1dd0e48f501d20d360b8671159277c051b11c11010ee616265fa35099cf2348d5fbd3633f7f53e1d158bc9b01d
+
+outputs.2.groupId=com.github.veithen
+outputs.2.filename=hermetic-security-manager-1.3.0-sources.jar
+outputs.2.length=5248
+outputs.2.checksums.sha512=99fd3bfc7f737a90b0006ba7fd98964a0180e1de3bc90921a6f12be87e6709a5b674f42e68e4f99a59a25b3c5041431b30b03a84a4ef790fecdd52640a0056a5
+
+outputs.3.groupId=com.github.veithen
+outputs.3.filename=hermetic-security-manager-1.3.0-source-release.zip
+outputs.3.length=11146
+outputs.3.checksums.sha512=e55a9c704aada049646168e0740b64bf7feaa3b3561f46fdbbd274edfbdb5af4bd88658506caf9d091b11894fb7827db422f611c5197f8931230e79e54f3b46e
