@@ -65,14 +65,14 @@ Source code: [https://github.com/jreleaser/jreleaser.git](https://github.com/jre
 * [org.jreleaser:jreleaser-zulip-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-zulip-java-sdk/overview)
 </details>
 
-rebuilding **15 releases** of org.jreleaser:jreleaser:
+rebuilding **16 releases** of org.jreleaser:jreleaser:
 - **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 6, 2 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 7, 2 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.20.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.20.0/pom) | | | |
+| [1.20.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.20.0/pom) | [gradle jdk21](jreleaser-1.20.0.buildspec) | [result](jreleaser-1.20.0.buildinfo): [161 :white_check_mark:  1 :warning:](jreleaser-1.20.0.buildcompare) | 1 :rotating_light: | 52M |
 | [1.19.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.19.0/pom) | [gradle jdk21](jreleaser-1.19.0.buildspec) | [result](jreleaser-1.19.0.buildinfo): [162 :white_check_mark: ](jreleaser-1.19.0.buildcompare) | | 51M |
 | [1.18.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.18.0/pom) | [gradle jdk21](jreleaser-1.18.0.buildspec) | [result](jreleaser-1.18.0.buildinfo): [161 :white_check_mark:  1 :warning:](jreleaser-1.18.0.buildcompare) | 1 :rotating_light: | 51M |
 | [1.17.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.17.0/pom) | [gradle jdk21](jreleaser-1.17.0.buildspec) | [result](jreleaser-1.17.0.buildinfo): [155 :white_check_mark:  1 :warning:](jreleaser-1.17.0.buildcompare) [:mag:](jreleaser-1.17.0.diffoscope) | 1 :rotating_light: | 51M |
