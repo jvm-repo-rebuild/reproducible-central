@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=object-size
+group-id=com.github.marschall
+artifact-id=object-size
+version=1.0.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:marschall/object-sizegit
+source.scm.tag=1.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=com.github.marschall
+outputs.0.filename=object-size-1.0.0.pom
+outputs.0.length=9882
+outputs.0.checksums.sha512=84c787cb85106892bd88fa9fd5ea47920644cbe316d73d3e84edbb1dcd9ff51094ff94b1e5e684326ac29dde667fa09d1e7282bce41d3086a2c17f0a51bc2d31
+
+outputs.1.groupId=com.github.marschall
+outputs.1.filename=object-size-1.0.0.jar
+outputs.1.length=8412
+outputs.1.checksums.sha512=7de3af3c5d73c35a87e548e545e746db5edf22212dbce82748028ff8df93459bf5fb483d8aa3368cde972b9d312ee2f7df1a8ce668068f442c68866f7deb82db
+
+outputs.2.groupId=com.github.marschall
+outputs.2.filename=object-size-1.0.0-sources.jar
+outputs.2.length=6145
+outputs.2.checksums.sha512=5f7bca865af50aa5a704fccd1c2047d17478b6d95d6cf7354ae9174eb806c67ec56f4c1cdfadf14f17d863b99bb731b5617d17b7f5ed93496d1644cc4dfe850d
+
+outputs.3.groupId=com.github.marschall
+outputs.3.filename=object-size-1.0.0-amd64-Linux-gpp.so
+outputs.3.length=16216
+outputs.3.checksums.sha512=d1879541b37ab5126ffe2328a177b7a7968e5136a7193eecd8eb44cc9409f92e44023d9f941108b5e92c4d08efc7e43fb3dfb143490e94970554613636504f3b
