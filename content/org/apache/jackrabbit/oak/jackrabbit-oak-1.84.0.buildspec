@@ -15,5 +15,5 @@ command="mvn -Papache-release package -DskipTests -Dmaven.javadoc.skip -Dgpg.ski
 buildinfo=target/${artifactId}-${version}.buildinfo
 execBefore="mvn clean"
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=https://issues.apache.org/jira/browse/OAK-10662
