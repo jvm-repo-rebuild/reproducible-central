@@ -3,11 +3,11 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [dev.langchain4j:langchain4j](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/dev/langchain4j/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/dev/langchain4j/README.md)
+## Project: [dev.langchain4j:langchain4j](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/dev/langchain4j//badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/dev/langchain4j//README.md)
 
 Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com/langchain4j/langchain4j.git)
 
-<details><summary>This project defines 75 modules:</summary>
+<details><summary>This project defines 76 modules:</summary>
 
 * [dev.langchain4j:langchain4j](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/overview)
 * [dev.langchain4j:langchain4j-anthropic](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-anthropic/overview)
@@ -31,6 +31,7 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-document-loader-azure-storage-blob](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-loader-azure-storage-blob/overview)
 * [dev.langchain4j:langchain4j-document-loader-github](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-loader-github/overview)
 * [dev.langchain4j:langchain4j-document-loader-google-cloud-storage](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-loader-google-cloud-storage/overview)
+* [dev.langchain4j:langchain4j-document-loader-playwright](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-loader-playwright/overview)
 * [dev.langchain4j:langchain4j-document-loader-selenium](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-loader-selenium/overview)
 * [dev.langchain4j:langchain4j-document-loader-tencent-cos](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-loader-tencent-cos/overview)
 * [dev.langchain4j:langchain4j-document-parser-apache-pdfbox](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-document-parser-apache-pdfbox/overview)
@@ -86,15 +87,15 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-zhipu-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-zhipu-ai/overview)
 </details>
 
-rebuilding **24 releases** of dev.langchain4j:langchain4j:
-- **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **25 releases** of dev.langchain4j:langchain4j:
+- **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [1.4.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.4.0/pom) | | | |
 | [1.3.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.3.0/pom) | | | |
-| [1.2.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.2.0/pom) | | | |
+| [1.2.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.2.0/pom) | [mvn jdk21](langchain4j-1.2.0.buildspec) | [result](langchain4j-aggregator-1.2.0.buildinfo): [211 :white_check_mark: ](langchain4j-aggregator-1.2.0.buildcompare) | | 5.6M |
 | [1.1.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.1.0/pom) | [mvn jdk21](langchain4j-1.1.0.buildspec) | [result](langchain4j-aggregator-1.1.0.buildinfo): [207 :white_check_mark:  1 :warning:](langchain4j-aggregator-1.1.0.buildcompare) [:mag:](langchain4j-aggregator-1.1.0.diffoscope) | - | 5.5M |
 | [1.0.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.0.1/pom) | [mvn jdk21](langchain4j-1.0.1.buildspec) | [result](langchain4j-aggregator-1.0.1.buildinfo): [197 :white_check_mark:  6 :warning:](langchain4j-aggregator-1.0.1.buildcompare) [:mag:](langchain4j-aggregator-1.0.1.diffoscope) | - | 5.3M |
 | [1.0.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.0.0/pom) | [mvn jdk21](langchain4j-1.0.0.buildspec) | [result](langchain4j-aggregator-1.0.0.buildinfo): [203 :white_check_mark: ](langchain4j-aggregator-1.0.0.buildcompare) | | 5.3M |
