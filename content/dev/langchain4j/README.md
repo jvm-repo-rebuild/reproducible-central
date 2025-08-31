@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com/langchain4j/langchain4j.git)
 
-<details><summary>This project defines 78 modules:</summary>
+<details><summary>This project defines 79 modules:</summary>
 
 * [dev.langchain4j:langchain4j](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/overview)
 * [dev.langchain4j:langchain4j-agentic](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-agentic/overview)
@@ -81,6 +81,7 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-vertex-ai-gemini](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-vertex-ai-gemini/overview)
 * [dev.langchain4j:langchain4j-vespa](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-vespa/overview)
 * [dev.langchain4j:langchain4j-voyage-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-voyage-ai/overview)
+* [dev.langchain4j:langchain4j-watsonx](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-watsonx/overview)
 * [dev.langchain4j:langchain4j-weaviate](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-weaviate/overview)
 * [dev.langchain4j:langchain4j-web-search-engine-google-custom](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-web-search-engine-google-custom/overview)
 * [dev.langchain4j:langchain4j-web-search-engine-searchapi](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-web-search-engine-searchapi/overview)
@@ -89,13 +90,13 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-zhipu-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-zhipu-ai/overview)
 </details>
 
-rebuilding **26 releases** of dev.langchain4j:langchain4j:
-- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **27 releases** of dev.langchain4j:langchain4j:
+- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.4.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.4.0/pom) | | | |
+| [1.4.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.4.0/pom) | [mvn jdk21](langchain4j-1.4.0.buildspec) | [result](langchain4j-aggregator-1.4.0.buildinfo): [220 :white_check_mark: ](langchain4j-aggregator-1.4.0.buildcompare) | | 6.1M |
 | [1.3.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.3.0/pom) | [mvn jdk21](langchain4j-1.3.0.buildspec) | [result](langchain4j-aggregator-1.3.0.buildinfo): [217 :white_check_mark: ](langchain4j-aggregator-1.3.0.buildcompare) | | 5.8M |
 | [1.2.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.2.0/pom) | [mvn jdk21](langchain4j-1.2.0.buildspec) | [result](langchain4j-aggregator-1.2.0.buildinfo): [211 :white_check_mark: ](langchain4j-aggregator-1.2.0.buildcompare) | | 5.6M |
 | [1.1.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.1.0/pom) | [mvn jdk21](langchain4j-1.1.0.buildspec) | [result](langchain4j-aggregator-1.1.0.buildinfo): [207 :white_check_mark:  1 :warning:](langchain4j-aggregator-1.1.0.buildcompare) [:mag:](langchain4j-aggregator-1.1.0.diffoscope) | - | 5.5M |
