@@ -16,13 +16,13 @@ Source code: [https://github.com/maven-turbo-reactor/maven-turbo-builder.git](ht
 * [com.github.seregamorph:maven-turbo-reactor](https://central.sonatype.com/artifact/com.github.seregamorph/maven-turbo-reactor/overview)
 </details>
 
-rebuilding **5 releases** of com.github.seregamorph:maven-turbo-builder:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **6 releases** of com.github.seregamorph:maven-turbo-builder:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.9](https://central.sonatype.com/artifact/com.github.seregamorph/maven-turbo-builder/0.9/pom) | | | |
+| [0.9](https://central.sonatype.com/artifact/com.github.seregamorph/maven-turbo-builder/0.9/pom) | [mvn jdk17](maven-turbo-builder-0.9.buildspec) | [result](maven-turbo-builder-0.9.buildinfo): [3 :white_check_mark: ](maven-turbo-builder-0.9.buildcompare) | | 43K |
 | [0.8](https://central.sonatype.com/artifact/com.github.seregamorph/maven-turbo-builder/0.8/pom) | [mvn jdk17](maven-turbo-builder-0.8.buildspec) | [result](maven-turbo-builder-0.8.buildinfo): [3 :white_check_mark: ](maven-turbo-builder-0.8.buildcompare) | | 41K |
 | [0.7](https://central.sonatype.com/artifact/com.github.seregamorph/maven-turbo-builder/0.7/pom) | [mvn jdk17](maven-turbo-builder-0.7.buildspec) | [result](maven-turbo-builder-0.7.buildinfo): [3 :white_check_mark: ](maven-turbo-builder-0.7.buildcompare) | | 38K |
 | [0.6](https://central.sonatype.com/artifact/com.github.seregamorph/maven-turbo-builder/0.6/pom) | [mvn jdk17](maven-turbo-builder-0.6.buildspec) | [result](maven-turbo-builder-0.6.buildinfo): [3 :white_check_mark: ](maven-turbo-builder-0.6.buildcompare) | | 34K |
