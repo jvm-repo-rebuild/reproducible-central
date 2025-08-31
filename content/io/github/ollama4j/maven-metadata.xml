@@ -3,11 +3,37 @@
   <groupId>io.github.ollama4j</groupId>
   <artifactId>ollama4j</artifactId>
   <versioning>
-    <latest>1.0.100</latest>
-    <release>1.0.100</release>
+    <latest>1.1.0</latest>
+    <release>1.1.0</release>
     <versions>
+      <version>gh-actions</version>
+      <version>test001.2</version>
+      <version>v1.0.82</version>
+      <version>1.0.78</version>
+      <version>1.0.79</version>
+      <version>1.0.80</version>
+      <version>1.0.81</version>
+      <version>1.0.82</version>
+      <version>1.0.83</version>
+      <version>1.0.84</version>
+      <version>1.0.85</version>
+      <version>1.0.86</version>
+      <version>1.0.87</version>
+      <version>1.0.88</version>
+      <version>1.0.89</version>
+      <version>1.0.90</version>
+      <version>1.0.91</version>
+      <version>1.0.92</version>
+      <version>1.0.93</version>
+      <version>1.0.94</version>
+      <version>1.0.95</version>
+      <version>1.0.96</version>
+      <version>1.0.97</version>
+      <version>1.0.98</version>
+      <version>1.0.99</version>
       <version>1.0.100</version>
+      <version>1.1.0</version>
     </versions>
-    <lastUpdated>20250406181002</lastUpdated>
+    <lastUpdated>20250831122735</lastUpdated>
   </versioning>
 </metadata>
