@@ -1,0 +1,29 @@
+1 / 1 target/reference/org.apache.jackrabbit/oak-it-1.84.0.jar oak-it/target/oak-it-1.84.0.jar
+--- target/reference/org.apache.jackrabbit/oak-it-1.84.0.jar
++++ oak-it/target/oak-it-1.84.0.jar
+├── zipinfo {}
+│ @@ -1,22 +1,12 @@
+│ -Zip file size: 282456 bytes, number of entries: 20
+│ +Zip file size: 7192 bytes, number of entries: 10
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-09 04:45 META-INF/
+│  -rw-r--r--  2.0 unx      340 b- defN 25-Aug-09 04:45 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-09 04:45 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-09 04:45 META-INF/maven/org.apache.jackrabbit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-09 04:45 META-INF/maven/org.apache.jackrabbit/oak-it/
+│  -rw-r--r--  2.0 unx      271 b- defN 25-Aug-09 04:45 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 25-Aug-09 04:45 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      178 b- defN 25-Aug-09 04:45 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx   532480 b- defN 25-Aug-09 04:45 document-deep.mv.db
+│ --rw-r--r--  2.0 unx    50500 b- defN 25-Aug-09 04:45 document-deep.trace.db
+│ --rw-r--r--  2.0 unx  1261568 b- defN 25-Aug-09 04:45 document-empty.mv.db
+│ --rw-r--r--  2.0 unx    50278 b- defN 25-Aug-09 04:45 document-empty.trace.db
+│ --rw-r--r--  2.0 unx   507904 b- defN 25-Aug-09 04:45 document-readOnly.mv.db
+│ --rw-r--r--  2.0 unx    50500 b- defN 25-Aug-09 04:45 document-readOnly.trace.db
+│ --rw-r--r--  2.0 unx   581632 b- defN 25-Aug-09 04:45 document-temp.mv.db
+│ --rw-r--r--  2.0 unx    50500 b- defN 25-Aug-09 04:45 document-temp.trace.db
+│ --rw-r--r--  2.0 unx  1048576 b- defN 25-Aug-09 04:45 document.mv.db
+│ --rw-r--r--  2.0 unx   101054 b- defN 25-Aug-09 04:45 document.trace.db
+│  -rw-r--r--  2.0 unx    10147 b- defN 25-Aug-09 04:45 META-INF/maven/org.apache.jackrabbit/oak-it/pom.xml
+│  -rw-r--r--  2.0 unx       63 b- defN 25-Aug-09 04:45 META-INF/maven/org.apache.jackrabbit/oak-it/pom.properties
+│ -20 files, 4257349 bytes uncompressed, 279932 bytes compressed:  93.4%
+│ +10 files, 22357 bytes uncompressed, 5838 bytes compressed:  73.9%

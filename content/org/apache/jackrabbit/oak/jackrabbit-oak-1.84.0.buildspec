@@ -1,0 +1,19 @@
+groupId=org.apache.jackrabbit
+artifactId=jackrabbit-oak
+display=${groupId}:${artifactId}
+version=1.84.0
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.11
+jdk=11
+newline=lf
+umask=022
+
+command="mvn -Papache-release package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+execBefore="mvn clean"
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://issues.apache.org/jira/browse/OAK-10662
