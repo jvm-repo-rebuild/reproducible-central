@@ -1,0 +1,17 @@
+version=1.0.0
+ok=2
+ko=2
+ignored=0
+okFiles="object-size-1.0.0.pom object-size-1.0.0-sources.jar"
+koFiles="object-size-1.0.0.jar object-size-1.0.0-amd64-Linux-gpp.so"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.github.marschall/object-size-1.0.0.jar target/object-size-1.0.0.jar
+# diffoscope target/reference/com.github.marschall/object-size-1.0.0-amd64-Linux-gpp.so target/nar/object-size-1.0.0-amd64-Linux-gpp-jni/lib/amd64-Linux-gpp/jni/libobject-size-1.0.0.so
+stabilize_ok=0
+stabilize_ko=1
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles="object-size-1.0.0.jar.stabilized"
+stabilize_ignoredFiles="object-size-1.0.0-amd64-Linux-gpp.so"
