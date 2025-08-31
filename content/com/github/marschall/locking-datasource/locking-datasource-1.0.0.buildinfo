@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Locking DataSource
+group-id=com.github.marschall
+artifact-id=locking-datasource
+version=1.0.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:marschall/locking-datasource.git
+source.scm.tag=1.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=com.github.marschall
+outputs.0.filename=locking-datasource-1.0.0.pom
+outputs.0.length=8749
+outputs.0.checksums.sha512=da0b5a0b8ff80c1114c4b72288820daa1a068e9d906f1fcd5aa80bdecbcea1cc4e60a46d9f0781fabf1781f233d68f7635152e2bc729fffe118c0cf8424fe830
+
+outputs.1.groupId=com.github.marschall
+outputs.1.filename=locking-datasource-1.0.0.jar
+outputs.1.length=7088
+outputs.1.checksums.sha512=4c5b332021206b960f93e5016730aa4f1f871e9394722d0198b7b89dfbeba4694b519252f5b63597c20ea0a1c2443b6bd6b3dc5a84bad78f6e2008164460a69a
+
+outputs.2.groupId=com.github.marschall
+outputs.2.filename=locking-datasource-1.0.0-sources.jar
+outputs.2.length=4714
+outputs.2.checksums.sha512=f665bbece3d5131a7d0a3adc5cfaabd558fc842534b93582578a85e35ec30c44706552918cc70187b087322d3b2f43693209f3a957443a87c5272b14679188ed
