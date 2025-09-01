@@ -158,9 +158,10 @@
       <version>6.0.0.Dev09</version>
       <version>6.0.0.Dev10</version>
       <version>6.0.0.Dev11</version>
+      <version>6.0.0.Dev12</version>
       <version>14.0.0.CR2</version>
       <version>15.0.13.Final</version>
     </versions>
-    <lastUpdated>20250820101541</lastUpdated>
+    <lastUpdated>20250901140540</lastUpdated>
   </versioning>
 </metadata>
