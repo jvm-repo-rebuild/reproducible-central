@@ -22,6 +22,7 @@ rebuilding **24 releases** of io.github.cbarlin:aru-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.6.4](https://central.sonatype.com/artifact/io.github.cbarlin/aru-parent/0.6.4/pom) | | | |
 | [0.6.3](https://central.sonatype.com/artifact/io.github.cbarlin/aru-parent/0.6.3/pom) | [mvn jdk21](aru-0.6.3.buildspec) | [result](aru-parent-0.6.3.buildinfo): [13 :white_check_mark: ](aru-parent-0.6.3.buildcompare) | | 1.8M |
 | [0.6.2](https://central.sonatype.com/artifact/io.github.cbarlin/aru-parent/0.6.2/pom) | [mvn jdk21](aru-0.6.2.buildspec) | [result](aru-parent-0.6.2.buildinfo): [13 :white_check_mark: ](aru-parent-0.6.2.buildcompare) | | 1.8M |
 | [0.6.1](https://central.sonatype.com/artifact/io.github.cbarlin/aru-parent/0.6.1/pom) | [mvn jdk21](aru-0.6.1.buildspec) | [result](aru-parent-0.6.1.buildinfo): [13 :white_check_mark: ](aru-parent-0.6.1.buildcompare) | | 1.8M |

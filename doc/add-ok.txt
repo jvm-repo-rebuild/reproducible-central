@@ -1,6 +1,4 @@
-content/de/cuioss/cui-parent-pom/cui-parent-pom-1.1.4.buildspec:1.1.5
-content/io/airlift/airbase/airbase-295.buildspec:296
-content/io/avaje/jsonb/avaje-jsonb-3.7-RC3.buildspec:3.7
-content/io/cucumber/cucumber-jvm/cucumber-jvm-7.27.2.buildspec:7.28.0
-content/io/telicent/smart-caches/graph/scg-base/scg-base-0.90.0.buildspec:0.90.1
-content/org/infinispan/protostream/protostream-6.0.0.Dev11.buildspec:6.0.0.Dev12
+content/de/cuioss/cui-parent-pom/cui-parent-pom-1.1.4.buildspec:1.1.6
+content/io/avaje/jsonb/avaje-jsonb-3.7-RC3.buildspec:3.8-RC1
+content/io/github/cbarlin/aru/aru-0.6.3.buildspec:0.6.4
+content/org/apache/sling/org.apache.sling.starter.content/org.apache.sling.starter.content-1.0.16.buildspec:2.0.0
