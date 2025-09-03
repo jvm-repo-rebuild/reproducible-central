@@ -22,7 +22,9 @@ You can rebuild a project release by running:
 ```
 ./rebuild.sh content/<path/to/...>/<project>-<version>.buildspec
 ```
-[`rebuild.sh` script](./rebuild.sh) will use the build specification file (= [`.buildspec` file](BUILDSPEC.md)) to choose a Docker image to rebuild the project and check output against Central Repository reference binaries.
+[`rebuild.sh` script](./rebuild.sh) will use the build specification file (= [`.buildspec` file](BUILDSPEC.md)) to choose a Docker image to rebuild the project and check output against Central Repository reference binaries: comparison result is displayed on console and stored in `.buildcompare` file.
+
+Advanced case: most builds done [with `mvn`](https://github.com/search?q=repo%3Ajvm-repo-rebuild%2Freproducible-central+path%3A.buildspec+command%3D%22mvn&type=code) or [with `gradle`](https://github.com/search?q=repo%3Ajvm-repo-rebuild%2Freproducible-central+path%3A.buildspec+command%3D%22.%2Fgradlew&type=code) are containerized for ease of use (buidl tools setup is done in the container), but some advanced `.buildspec` [marked with `command="SHELL`](https://github.com/search?q=repo%3Ajvm-repo-rebuild%2Freproducible-central%20command%3D%22SHELL&type=code) cannot run in a container (for various reasons). They will require more manual steps and more environment setup (details to be documented later...): please learn with containerized builds before diving into more advanced scenario.
 
 
 For example:
