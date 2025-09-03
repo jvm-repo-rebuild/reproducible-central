@@ -3,8 +3,8 @@
   <groupId>io.cucumber</groupId>
   <artifactId>cucumber-jvm</artifactId>
   <versioning>
-    <latest>7.28.0</latest>
-    <release>7.28.0</release>
+    <latest>7.28.1</latest>
+    <release>7.28.1</release>
     <versions>
       <version>1.2.6</version>
       <version>2.0.0</version>
@@ -141,7 +141,8 @@
       <version>7.27.1</version>
       <version>7.27.2</version>
       <version>7.28.0</version>
+      <version>7.28.1</version>
     </versions>
-    <lastUpdated>20250901093740</lastUpdated>
+    <lastUpdated>20250903163329</lastUpdated>
   </versioning>
 </metadata>
