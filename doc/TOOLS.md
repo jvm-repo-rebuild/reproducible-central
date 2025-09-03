@@ -22,15 +22,16 @@ You can rebuild a project release by running:
 ```
 ./rebuild.sh content/<path/to/...>/<project>-<version>.buildspec
 ```
-[`rebuild.sh` script](./rebuild.sh) will use the build specification file (= [`.buildspec` file](BUILDSPEC.md)) to choose a Docker image to rebuild the project and check output against Central Repository reference binaries: comparison result is displayed on console and stored in `.buildcompare` file.
+[`rebuild.sh` script](./rebuild.sh) will use the build specification file (= [`.buildspec` file](BUILDSPEC.md)) to choose a Docker image to rebuild the project and check output against Central Repository reference binaries: comparison result is displayed on console and stored in `.buildcompare` file ([with `ko=0`](https://github.com/search?q=repo%3Ajvm-repo-rebuild%2Freproducible-central+ko%3D0+NOT+_ko&type=code) when comparison fully ok).
 
-Advanced case: most builds done [with `mvn`](https://github.com/search?q=repo%3Ajvm-repo-rebuild%2Freproducible-central+path%3A.buildspec+command%3D%22mvn&type=code) or [with `gradle`](https://github.com/search?q=repo%3Ajvm-repo-rebuild%2Freproducible-central+path%3A.buildspec+command%3D%22.%2Fgradlew&type=code) are containerized for ease of use (buidl tools setup is done in the container), but some advanced `.buildspec` [marked with `command="SHELL`](https://github.com/search?q=repo%3Ajvm-repo-rebuild%2Freproducible-central%20command%3D%22SHELL&type=code) cannot run in a container (for various reasons). They will require more manual steps and more environment setup (details to be documented later...): please learn with containerized builds before diving into more advanced scenario.
+Advanced case: most builds done [with `mvn`](https://github.com/search?q=repo%3Ajvm-repo-rebuild%2Freproducible-central+path%3A.buildspec+command%3D%22mvn&type=code) or [with `gradle`](https://github.com/search?q=repo%3Ajvm-repo-rebuild%2Freproducible-central+path%3A.buildspec+command%3D%22.%2Fgradlew&type=code) are containerized for ease of use (build tools setup is done in the container), but some advanced `.buildspec` [marked with `command="SHELL`](https://github.com/search?q=repo%3Ajvm-repo-rebuild%2Freproducible-central%20command%3D%22SHELL&type=code) cannot run in a container (for various reasons). They will require more manual steps and more environment setup (details to be documented later...): please learn with containerized builds before diving into more advanced scenario.
 
 
-For example:
+For example on [maven-archiver](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/maven/shared/archiver/README.md)'s [buildspec for release 3.5.1](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/maven/shared/archiver/maven-archiver-3.5.1.buildspec):
 ```
 ./rebuild.sh content/org/apache/maven/shared/archiver/maven-archiver-3.5.1.buildspec
 ```
+will use a container to build and produce [`content/org/apache/maven/shared/archiver/maven-archiver-3.5.1.buildcompare`](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/maven/shared/archiver/maven-archiver-3.5.1.buildcompare).
 
 You can also use `podman` as a container engine by defining these environment variables before you run `rebuild.sh`:
 
