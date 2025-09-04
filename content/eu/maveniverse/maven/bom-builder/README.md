@@ -13,13 +13,13 @@ Source code: [https://github.com/maveniverse/bom-builder-maven-plugin.git](https
 * [eu.maveniverse.maven.plugins:bom-builder3](https://central.sonatype.com/artifact/eu.maveniverse.maven.plugins/bom-builder3/overview)
 </details>
 
-rebuilding **9 releases** of eu.maveniverse.maven.bom-builder:bom-builder:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of eu.maveniverse.maven.bom-builder:bom-builder:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.3.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.bom-builder/bom-builder/1.3.0/pom) | | | |
+| [1.3.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.bom-builder/bom-builder/1.3.0/pom) | [mvn jdk21](bom-builder-1.3.0.buildspec) | [result](bom-builder-1.3.0.buildinfo): [4 :white_check_mark: ](bom-builder-1.3.0.buildcompare) | | 52K |
 | [1.2.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.bom-builder/bom-builder/1.2.1/pom) | [mvn jdk21](bom-builder-1.2.1.buildspec) | [result](bom-builder-1.2.1.buildinfo): [4 :white_check_mark: ](bom-builder-1.2.1.buildcompare) | | 50K |
 | [1.2.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.bom-builder/bom-builder/1.2.0/pom) | [mvn jdk21](bom-builder-1.2.0.buildspec) | [result](bom-builder-1.2.0.buildinfo): [4 :white_check_mark: ](bom-builder-1.2.0.buildcompare) | | 50K |
 | [1.1.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.bom-builder/bom-builder/1.1.1/pom) | [mvn jdk21](bom-builder-1.1.1.buildspec) | [result](bom-builder-1.1.1.buildinfo): [4 :white_check_mark: ](bom-builder-1.1.1.buildcompare) | | 50K |
