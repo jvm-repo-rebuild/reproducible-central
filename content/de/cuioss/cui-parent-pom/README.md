@@ -24,6 +24,10 @@ rebuilding **26 releases** of de.cuioss:cui-parent-pom:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.2.0](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/1.2.0/pom) | | | |
+| [1.1.9](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/1.1.9/pom) | | | |
+| [1.1.8](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/1.1.8/pom) | | | |
+| [1.1.7](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/1.1.7/pom) | | | |
 | [1.1.6](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/1.1.6/pom) | [mvn jdk21](cui-parent-pom-1.1.6.buildspec) | [result](cui-parent-pom-1.1.6.buildinfo): [7 :white_check_mark: ](cui-parent-pom-1.1.6.buildcompare) | | 92K |
 | [1.1.5](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/1.1.5/pom) | [mvn jdk21](cui-parent-pom-1.1.5.buildspec) | :x: | |
 | [1.1.4](https://central.sonatype.com/artifact/de.cuioss/cui-parent-pom/1.1.4/pom) | [mvn jdk21](cui-parent-pom-1.1.4.buildspec) | [result](cui-parent-pom-1.1.4.buildinfo): [7 :white_check_mark: ](cui-parent-pom-1.1.4.buildcompare) | | 91K |
