@@ -14,12 +14,12 @@ source.scm.tag=org.apache.sling.resourceresolver-1.12.10
 build-tool=mvn
 
 # effective build environment information
-java.version=17.0.15
+java.version=17.0.16
 java.vendor=Ubuntu
 os.name=Linux
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.9
+mvn.version=3.9.11
 
 # output
 
@@ -31,14 +31,14 @@ outputs.0.checksums.sha512=4bffa39b642c2ee6e6827dad6797c2c09fb21766e1dee775e5eb0
 outputs.1.groupId=org.apache.sling
 outputs.1.filename=org.apache.sling.resourceresolver-1.12.10.jar
 outputs.1.length=289200
-outputs.1.checksums.sha512=b68a8b6d880f754b4a811d0c141725699154924100477f0e7fe3af262ba58ab7fbee5093b69d49c229278dd8daec865b8e95a12b21dfe2977d327b2402163951
+outputs.1.checksums.sha512=2a7d6ab6e0995420fd348b97b856e2c1ad098a02f4cf2d71d8972233e9bf6ec0767b7eb86b5384eb40597ba84b13977d51d484f29af7af663442c946172d384b
 
 outputs.2.groupId=org.apache.sling
 outputs.2.filename=org.apache.sling.resourceresolver-1.12.10-source-release.zip
 outputs.2.length=344280
-outputs.2.checksums.sha512=f3edf75e743776327e49b64e9e0b32271cbeff71659b782ae82fc52ed7f75a9a02db207d06a97c40db42c42d7fa6833c33fc608c928f6cce09eb3f74be3b5efb
+outputs.2.checksums.sha512=11a3145d50b9bc4adce87d1230423ff14b0a8fefd254489f35974dfc2d89cfeb483ba5e19be76949ff63920891fd12c11c1147755ed37764c50190fe9ae29ed1
 
 outputs.3.groupId=org.apache.sling
 outputs.3.filename=org.apache.sling.resourceresolver-1.12.10-sources.jar
 outputs.3.length=195349
-outputs.3.checksums.sha512=03ef6b6c2be1a65c241791be7740c742741304c472b7c798f5f645b42ecbd8c1620ad2a27644ec059f5742256554ff97ced3f3e17b30b6236e01a1e500e27e0a
+outputs.3.checksums.sha512=11fbe3eb19044af800dba1cb64914538e0a598fc495033da89c141f42aa2146374a090d7b8dc55bde82ab71fde39688d033649a18e6ee181708be98b1232f73d
