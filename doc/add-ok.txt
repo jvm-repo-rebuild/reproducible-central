@@ -1,4 +1,2 @@
-content/de/cuioss/cui-parent-pom/cui-parent-pom-1.1.6.buildspec:1.2.0
-content/io/avaje/validator/avaje-validator-2.13.buildspec:2.14-RC1
-content/org/apache/sling/org.apache.sling.starter.content/org.apache.sling.starter.content-1.0.16.buildspec:2.0.0
-content/org/codehaus/mojo/versions-maven-plugin/versions-maven-plugin-2.18.0.buildspec:2.19.0
+content/de/cuioss/cui-parent-pom/cui-parent-pom-1.2.0.buildspec:1.2.1
+content/eu/maveniverse/maven/toolbox/toolbox-0.11.6.buildspec:0.12.0
