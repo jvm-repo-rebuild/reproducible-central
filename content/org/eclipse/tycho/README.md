@@ -76,6 +76,6 @@ rebuilding **1 releases** of org.eclipse.tycho:tycho:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [5.0.0](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho/5.0.0/pom) | [mvn jdk21](tycho-5.0.0.buildspec) | [result](tycho-5.0.0.buildinfo): [164 :white_check_mark:  3 :warning:](tycho-5.0.0.buildcompare) | 3 :rotating_light: | 13M |
+| [5.0.0](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho/5.0.0/pom) | [mvn jdk21](tycho-5.0.0.buildspec) | [result](tycho-5.0.0.buildinfo): [164 :white_check_mark:  3 :warning:](tycho-5.0.0.buildcompare) [:mag:](tycho-5.0.0.diffoscope) [:memo:](https://github.com/eclipse-tycho/tycho/issues/5284) | 3 :rotating_light: | 13M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
