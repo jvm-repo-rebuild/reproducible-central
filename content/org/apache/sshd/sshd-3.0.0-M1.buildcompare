@@ -1,0 +1,9 @@
+version=3.0.0-M1
+ok=51
+ko=0
+ignored=0
+okFiles="sshd-3.0.0-M1.pom sshd-common-3.0.0-M1.pom sshd-common-3.0.0-M1.jar sshd-common-3.0.0-M1-sources.jar sshd-common-3.0.0-M1-tests.jar sshd-core-3.0.0-M1.pom sshd-core-3.0.0-M1.jar sshd-core-3.0.0-M1-sources.jar sshd-core-3.0.0-M1-tests.jar sshd-core-3.0.0-M1-reusable-tests.jar sshd-mina-3.0.0-M1.pom sshd-mina-3.0.0-M1.jar sshd-mina-3.0.0-M1-sources.jar sshd-netty-3.0.0-M1.pom sshd-netty-3.0.0-M1.jar sshd-netty-3.0.0-M1-sources.jar sshd-sftp-3.0.0-M1.pom sshd-sftp-3.0.0-M1.jar sshd-sftp-3.0.0-M1-sources.jar sshd-putty-3.0.0-M1.pom sshd-putty-3.0.0-M1.jar sshd-putty-3.0.0-M1-sources.jar sshd-openpgp-3.0.0-M1.pom sshd-openpgp-3.0.0-M1.jar sshd-openpgp-3.0.0-M1-sources.jar sshd-scp-3.0.0-M1.pom sshd-scp-3.0.0-M1.jar sshd-scp-3.0.0-M1-sources.jar sshd-ldap-3.0.0-M1.pom sshd-ldap-3.0.0-M1.jar sshd-ldap-3.0.0-M1-sources.jar sshd-git-3.0.0-M1.pom sshd-git-3.0.0-M1.jar sshd-git-3.0.0-M1-sources.jar sshd-contrib-3.0.0-M1.pom sshd-contrib-3.0.0-M1.jar sshd-contrib-3.0.0-M1-sources.jar sshd-spring-sftp-3.0.0-M1.pom sshd-spring-sftp-3.0.0-M1.jar sshd-spring-sftp-3.0.0-M1-sources.jar sshd-cli-3.0.0-M1.pom sshd-cli-3.0.0-M1.jar sshd-cli-3.0.0-M1-sources.jar sshd-osgi-3.0.0-M1.pom sshd-osgi-3.0.0-M1.jar sshd-osgi-3.0.0-M1-sources.jar apache-sshd-3.0.0-M1.pom apache-sshd-3.0.0-M1.tar.gz apache-sshd-3.0.0-M1.zip apache-sshd-3.0.0-M1-src.tar.gz apache-sshd-3.0.0-M1-src.zip"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
