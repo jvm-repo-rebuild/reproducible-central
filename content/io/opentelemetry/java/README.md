@@ -43,13 +43,13 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java.git](https://
 * [io.opentelemetry:opentelemetry-sdk-trace](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-trace/overview)
 </details>
 
-rebuilding **20 releases** of io.opentelemetry:opentelemetry-sdk:
-- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **21 releases** of io.opentelemetry:opentelemetry-sdk:
+- **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.54.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.54.0/pom) | | | |
+| [1.54.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.54.0/pom) | [gradle jdk17](opentelemetry-sdk-1.54.0.buildspec) | [result](opentelemetry-sdk-1.54.0.buildinfo): [86 :white_check_mark: ](opentelemetry-sdk-1.54.0.buildcompare) | | 3.4M |
 | [1.53.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.53.0/pom) | [gradle jdk17](opentelemetry-sdk-1.53.0.buildspec) | [result](opentelemetry-sdk-1.53.0.buildinfo): [86 :white_check_mark: ](opentelemetry-sdk-1.53.0.buildcompare) | | 3.4M |
 | [1.52.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.52.0/pom) | [gradle jdk17](opentelemetry-sdk-1.52.0.buildspec) | [result](opentelemetry-sdk-1.52.0.buildinfo): [86 :white_check_mark: ](opentelemetry-sdk-1.52.0.buildcompare) | | 3.4M |
 | [1.51.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.51.0/pom) | [gradle jdk17](opentelemetry-sdk-1.51.0.buildspec) | [result](opentelemetry-sdk-1.51.0.buildinfo): [83 :white_check_mark: ](opentelemetry-sdk-1.51.0.buildcompare) | | 3.4M |
