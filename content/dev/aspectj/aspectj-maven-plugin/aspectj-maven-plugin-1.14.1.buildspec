@@ -1,18 +1,18 @@
 groupId=dev.aspectj
 artifactId=aspectj-maven-plugin
 display=${groupId}:${artifactId}
-version=1.14
+version=1.14.1
 
 gitRepo=https://github.com/dev-aspectj/aspectj-maven-plugin.git
 gitTag=${artifactId}-${version}
 
-tool=mvn-3.9.6
-jdk=11
+tool=mvn-3.9.11
+jdk=8
 newline=crlf-nogit
 umask=022
 timezone="Europe/Paris"
 
-command="mvn -Prelease-sign-artifacts clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+command="mvn -Prelease-sign-artifacts clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.detect.skip=false"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope
