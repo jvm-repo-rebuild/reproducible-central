@@ -33,23 +33,23 @@ outputs.0.0.checksums.sha512=68a8178d267f7e2d22dfb43c0ac7406a30db537a5a723068910
 
 outputs.0.1.groupId=org.apache.plc4x
 outputs.0.1.filename=plc4x-parent-0.13.0-source-release.zip
-outputs.0.1.length=43838620
-outputs.0.1.checksums.sha512=5a565032e525069b4dedede5a3997488a7bbb9adada9f1b31d59cbaaa2a0ac01f0d74debd8087c8ac0832d9c31397d4acc3907275f110ac5686f6ef929e9b666
+outputs.0.1.length=43838734
+outputs.0.1.checksums.sha512=0e976a81320435986e970b7c95a0f6b8891f227efd1449b30f5bd09ac8450fc1500586cb5da7d3f6c02204f20fdcd0b970eba2678ba0ffd299913f6e4110197e
 
 outputs.0.2.groupId=org.apache.plc4x
 outputs.0.2.filename=plc4x-parent-0.13.0-cyclonedx.xml
-outputs.0.2.length=342235
-outputs.0.2.checksums.sha512=903867b71b1473eb40e447782ffacb561e7d2a0b8bf5fe71f67f925250a6666f69d56505131ab2760e49435d8199ab863d36e361a8f5e06710dc77499ad5e510
+outputs.0.2.length=372054
+outputs.0.2.checksums.sha512=c5be75b8887416e05c0db7f11398dbe6b469429ea72df60e6985208d115a5ba4522e91d9320ca464e37a7c2b416a40aa909b6276aad90b3901af65b4b9496beb
 
 outputs.0.3.groupId=org.apache.plc4x
 outputs.0.3.filename=plc4x-parent-0.13.0-cyclonedx.json
-outputs.0.3.length=353834
-outputs.0.3.checksums.sha512=6592214728ea6231cb9609476167132f344a3ce00af4570fa766f3892b714487e857828572f53f54dc9968d2e36280673be8dfb91f3081a5934704ef222a9055
+outputs.0.3.length=384420
+outputs.0.3.checksums.sha512=6fb6c2100b38344ec1de96cbba7d9604de1ed710380e540ed40418582d11a55d23f053f960f3490e5a63f463bc1fbe00c5a2cd4eb5bf1865c870e7ba25a1a490
 
 outputs.0.4.groupId=org.apache.plc4x
 outputs.0.4.filename=plc4x-parent-0.13.0-source-release.zip.sha512
 outputs.0.4.length=128
-outputs.0.4.checksums.sha512=51094887189648628ae568fe70300e31be9c4608797be4abe4ea1cc75ed2c11696037a19b22bb580c6c91ae831da73d182e75356a0e4b4c9aa44d62bf8b1ebc3
+outputs.0.4.checksums.sha512=10824dfe3144de818177fd5dd75bdf07159584091ab4621024a3851aae07753b291974ac85bba5e341a1e5411f661529d0f3c1404c5510bf066b0d6a4946723f
 
 outputs.1.coordinates=org.apache.plc4x:plc4x-code-generation
 
@@ -114,1514 +114,1572 @@ outputs.4.3.filename=plc4x-code-generation-protocol-test-0.13.0-sources.jar
 outputs.4.3.length=15242
 outputs.4.3.checksums.sha512=e7f15dd32a14f9efff657f2d46b590205cdbd4ddf9f732f46b57eabace29055f881040a84c7cf4414f6bf1012f9d962b91342d71fe56c0349a3fb1747c7b8831
 
-outputs.5.coordinates=org.apache.plc4x:plc4x-protocols
+outputs.5.coordinates=org.apache.plc4x:plc4x-code-generation-language
 
 outputs.5.0.groupId=org.apache.plc4x
-outputs.5.0.filename=plc4x-protocols-0.13.0.pom
-outputs.5.0.length=7713
-outputs.5.0.checksums.sha512=732800e10c8e52403ed50b9b999716e9da778b6bc17eca51b08a3c906b9b8d14ec1a41a6ffe46f38ce5aa212c7f3521cf35a7df609b1d939eff765ff3914bd16
+outputs.5.0.filename=plc4x-code-generation-language-0.13.0.pom
+outputs.5.0.length=2187
+outputs.5.0.checksums.sha512=0cc374cdf710fd1050c828598c3aa175dd8f6e7506df92b672148c56564017358f1a2f2169286262b293bafe3b3f5bafbabedf31bfe6228e69b20f295b08a5f5
 
-outputs.5.1.groupId=org.apache.plc4x
-outputs.5.1.filename=plc4x-protocols-0.13.0-tests.jar
-outputs.5.1.length=3489
-outputs.5.1.checksums.sha512=9cb27e8a2e24d22165ffc98b87f539a00988cce6c3df65d69f4ce4de53e02f4a5195832bc5719af4b1ffeaa300cf00949ef4952acc025d3b2e74fb8ea4121619
-
-outputs.6.coordinates=org.apache.plc4x:plc4x-protocols-ab-eth
+outputs.6.coordinates=org.apache.plc4x:plc4x-code-generation-language-c
 
 outputs.6.0.groupId=org.apache.plc4x
-outputs.6.0.filename=plc4x-protocols-ab-eth-0.13.0.pom
-outputs.6.0.length=1883
-outputs.6.0.checksums.sha512=1079b63a7b8765782c62d69978227a232c6381b4bb2e3d207f1931783b0fb016f02697fa5dfcfa22b9073a1364c0d01ed9bebb59c7e8b146eb4b1516d1e2842c
+outputs.6.0.filename=plc4x-code-generation-language-c-0.13.0.pom
+outputs.6.0.length=5479
+outputs.6.0.checksums.sha512=7cae0d17a84491e58a0a4e424955707b75ad58cc4fd13706a5536069b54ef726389049a40cd88d6719c14462cc6741d952f566ce93871c3ff049dabbbf6fa741
 
 outputs.6.1.groupId=org.apache.plc4x
-outputs.6.1.filename=plc4x-protocols-ab-eth-0.13.0.jar
-outputs.6.1.length=11056
-outputs.6.1.checksums.sha512=3e6d45819b2276dc2762d63a3c28d12dc00bef2204dcea145dd60e6b2c63a19f328c3ea104bf8f30585c0e4bdc3609dfda69ee467fc958827f72da9afc61b144
+outputs.6.1.filename=plc4x-code-generation-language-c-0.13.0.jar
+outputs.6.1.length=53968
+outputs.6.1.checksums.sha512=dbf9ba575c03464cdfdd3cad83ebf950407883fac0eddcb6f0d2dbe4634ee030e0f30959daba6b230de206b517e15089ca517aea86b3b95682d3bc6c67d54d9a
 
 outputs.6.2.groupId=org.apache.plc4x
-outputs.6.2.filename=plc4x-protocols-ab-eth-0.13.0-tests.jar
-outputs.6.2.length=11234
-outputs.6.2.checksums.sha512=89b1a1840659c7efaa34415f1a74bf32c2c5f8cd26b79642c1e55b5b2cda2a16e29bb1167c2af9b66ec6d5b6ad747906fb9c73184362d2b9f604c5c917b9a544
+outputs.6.2.filename=plc4x-code-generation-language-c-0.13.0-sources.jar
+outputs.6.2.length=43360
+outputs.6.2.checksums.sha512=5beb95662fd0744e9612bac0f0560c6c1fccb39ef64cc288d74d87b5a3956bdaacffa1e21e7346ec4f30ade3e41fa2a1fbe6cd0f17c5bfd01012ec9fec3043a8
 
-outputs.6.3.groupId=org.apache.plc4x
-outputs.6.3.filename=plc4x-protocols-ab-eth-0.13.0-sources.jar
-outputs.6.3.length=10614
-outputs.6.3.checksums.sha512=153520ab475349ebb41543f3ffb683030f00a1df3accb7c02d0f4e2658a7dd09b03efd72e0d825c91cf37a8116839ce29b022244a691dea5738173097f78d479
-
-outputs.7.coordinates=org.apache.plc4x:plc4x-protocols-ads
+outputs.7.coordinates=org.apache.plc4x:plc4x-code-generation-language-cs
 
 outputs.7.0.groupId=org.apache.plc4x
-outputs.7.0.filename=plc4x-protocols-ads-0.13.0.pom
-outputs.7.0.length=1874
-outputs.7.0.checksums.sha512=31e08347de02d329d920a67f3c9808deddb6ee534508940cc06037bd2fce4608ab9baf75e5aabd8b8eea7fafc841f8264070f490c4673311dc35d5adf8cbf524
+outputs.7.0.filename=plc4x-code-generation-language-cs-0.13.0.pom
+outputs.7.0.length=2499
+outputs.7.0.checksums.sha512=ad177b531163e53a3281cf9fc5d68c58a0ad8964510a1bbc8590dffe83aecedd2a6896800362e7e5cac243686575676eab5618861654b0d417ff4a1c481f0d1e
 
 outputs.7.1.groupId=org.apache.plc4x
-outputs.7.1.filename=plc4x-protocols-ads-0.13.0.jar
-outputs.7.1.length=23089
-outputs.7.1.checksums.sha512=0f9540dc8e4939832a1acc15d3d4f64300a9e43abb6c735fb9161764953f64f6e3507b3bacdd92d583a0e2591428e2dbf5e9efd4bb6383ea2aa670add299f330
+outputs.7.1.filename=plc4x-code-generation-language-cs-0.13.0.jar
+outputs.7.1.length=44791
+outputs.7.1.checksums.sha512=f360feba8919be953c2d8eb7182a20d5c94056cfc615a429cb22d347771cccaee753db190edc56565696062a06c534778cc388051c05b23e0d2ea594227a3965
 
 outputs.7.2.groupId=org.apache.plc4x
-outputs.7.2.filename=plc4x-protocols-ads-0.13.0-tests.jar
-outputs.7.2.length=68725
-outputs.7.2.checksums.sha512=2a1080730fea5238938d5b4c961a5f710532f971b21bd93957789c02c7165e33dc74aa79f65eb4b45f4536ff0cdcdbc38fcc55bbccdd67f2eaa4ebcb64881464
+outputs.7.2.filename=plc4x-code-generation-language-cs-0.13.0-sources.jar
+outputs.7.2.length=34807
+outputs.7.2.checksums.sha512=412fb18a13a7c87c14e7d80c187fbde39aa8ad822c895be46c14e98e93bb6ae11f8e174032754955682ae38ad388b5443962bc85f523a787a5af57876f107f99
 
-outputs.7.3.groupId=org.apache.plc4x
-outputs.7.3.filename=plc4x-protocols-ads-0.13.0-sources.jar
-outputs.7.3.length=22817
-outputs.7.3.checksums.sha512=f37af73cd9a629260599b4c8938bd2cd70c3f7fae034021fd200c67a37f1fa1aa8032f136e7d2e80c38d3a6682f16543580f50f218da6ff5796da583e12ca766
-
-outputs.8.coordinates=org.apache.plc4x:plc4x-protocols-c-bus
+outputs.8.coordinates=org.apache.plc4x:plc4j
 
 outputs.8.0.groupId=org.apache.plc4x
-outputs.8.0.filename=plc4x-protocols-c-bus-0.13.0.pom
-outputs.8.0.length=1880
-outputs.8.0.checksums.sha512=bbdfade5879732d4e84199683b997f2784d26f57a1d9a23932e73a5bfa9e521eec7727477cbe6c85b01f90e7d90bfcf46a4fa46ba76e4c9b935d59a54a5d8247
+outputs.8.0.filename=plc4j-0.13.0.pom
+outputs.8.0.length=14422
+outputs.8.0.checksums.sha512=d5ef3c30bd68bd63cf7d792ae75842decbd4f08e7e57d67c8254ba4836ed26600ae3426026e580095b4c59a81a9ace5200bf6fa082c9edf1c750b3a37995182f
 
-outputs.8.1.groupId=org.apache.plc4x
-outputs.8.1.filename=plc4x-protocols-c-bus-0.13.0.jar
-outputs.8.1.length=56503
-outputs.8.1.checksums.sha512=1ba0d2053f17e106517b086bf9269c2038ddf43b82be4aed74d081ef26cbe3ee9555678045c740bb94ed4b16ca36d899880c229d6bbc798344bfe2d35dffc040
-
-outputs.8.2.groupId=org.apache.plc4x
-outputs.8.2.filename=plc4x-protocols-c-bus-0.13.0-tests.jar
-outputs.8.2.length=9352
-outputs.8.2.checksums.sha512=cb14894dd59e1430e666c710b98c19421ae5a8a501bce1a8c3b3c937de81aa5e87a032f3b7a62f55f703c221d1ca0068037fb94ff026dcca9571576a55eb4d4f
-
-outputs.8.3.groupId=org.apache.plc4x
-outputs.8.3.filename=plc4x-protocols-c-bus-0.13.0-sources.jar
-outputs.8.3.length=55301
-outputs.8.3.checksums.sha512=34a6721f247d90f299a9a91ea01e268111170e777968cd3dfcf827b8787acd79336208f50fceb741e9ff8d79331508912c56611f56907b3c671933b441bc9c68
-
-outputs.9.coordinates=org.apache.plc4x:plc4x-protocols-bacnetip
+outputs.9.coordinates=org.apache.plc4x:plc4j-api
 
 outputs.9.0.groupId=org.apache.plc4x
-outputs.9.0.filename=plc4x-protocols-bacnetip-0.13.0.pom
-outputs.9.0.length=6036
-outputs.9.0.checksums.sha512=2d4a1b5d41a83a0e9913f9526e4cd1f5e6eae4f3b98c0a988ef5489bf5aa85d870d58ea79e1ae2d430587018a8a2c16480bd50c75e53e782c30a391f5069b589
+outputs.9.0.filename=plc4j-api-0.13.0.pom
+outputs.9.0.length=1643
+outputs.9.0.checksums.sha512=cac780e0d1132ac5c9649a53f19655bbe34f2fe6c4aae2316ea9ce3484e52c12921d5625ccf0cbf4d5ff02803fea2f0755e3a4891ba4a53b25723dc256eaad70
 
 outputs.9.1.groupId=org.apache.plc4x
-outputs.9.1.filename=plc4x-protocols-bacnetip-0.13.0.jar
-outputs.9.1.length=125648
-outputs.9.1.checksums.sha512=26664ccd7f2dbbc0b93e45f455aa1640085d98b3569c56fd05a65ecec5e650a14f12937cb1bd300d93a94a63cca33f4e5de6085392f77cf26918f13d7190ae1f
+outputs.9.1.filename=plc4j-api-0.13.0.jar
+outputs.9.1.length=62923
+outputs.9.1.checksums.sha512=f5b38de86077ed1b4dfc58efc0e99a8d212b35e3fc1e91f9fb03dbdb5fb23274ce104560e37670fd183898f4fe184506b87962e0f5a9ee3d9f0cbb6f18ae93c7
 
 outputs.9.2.groupId=org.apache.plc4x
-outputs.9.2.filename=plc4x-protocols-bacnetip-0.13.0-tests.jar
-outputs.9.2.length=76856
-outputs.9.2.checksums.sha512=b12a478607b450bff687362e2ada57ea48cfc80cc4420eb3808caba9d581de8b1de167c468fa3ae94da0bf4622140fdbf760181a2cd263f12c976d95216755fc
+outputs.9.2.filename=plc4j-api-0.13.0-sources.jar
+outputs.9.2.length=78260
+outputs.9.2.checksums.sha512=a389f94e554a23cfe6801575a2b36a18d2ff1c2ae0b42622d0a18a9e27bbb919ae06dec51080cd688f12234eb46b8e45a65f15c550546f8dbdde0ec8c06d7992
 
-outputs.9.3.groupId=org.apache.plc4x
-outputs.9.3.filename=plc4x-protocols-bacnetip-0.13.0-sources.jar
-outputs.9.3.length=124786
-outputs.9.3.checksums.sha512=08aa1d35c20b03b994ed557a2109d9e5312f14e942b88ae1d89e4b5e3e2b08562fc12ab4c9547a18614b8181c6b28f57c33ed1e004a8e595ea387aaddf1ba090
-
-outputs.10.coordinates=org.apache.plc4x:plc4x-protocols-canopen
+outputs.10.coordinates=org.apache.plc4x:plc4j-spi
 
 outputs.10.0.groupId=org.apache.plc4x
-outputs.10.0.filename=plc4x-protocols-canopen-0.13.0.pom
-outputs.10.0.length=1887
-outputs.10.0.checksums.sha512=4cebf5790ee002d703a74b26f3ca62a460b92dc2c8e70c5343b11851d4763658b4378c9c9047fe8fb58fc8a3b7db1405fb07f085a2ca5074da2c2b9cc5b25110
+outputs.10.0.filename=plc4j-spi-0.13.0.pom
+outputs.10.0.length=3785
+outputs.10.0.checksums.sha512=9e667dbe17dc420889a1f06372bd290ce488f4cbd54e2d9a1c8eaf5bc9ed8856b3ebaa48361ba071add78c34366e2cdb4364e4fadc92cf5077b61a4861571b15
 
 outputs.10.1.groupId=org.apache.plc4x
-outputs.10.1.filename=plc4x-protocols-canopen-0.13.0.jar
-outputs.10.1.length=12824
-outputs.10.1.checksums.sha512=09d4c3ee9abae76f347c02df866743b5a8c7d034d46e7e4275b209a5b320e8873375fd65e307a4c8204faeeb2eecbdb98b804f4efb6cdd1b61614f0cdbbb0060
+outputs.10.1.filename=plc4j-spi-0.13.0.jar
+outputs.10.1.length=482981
+outputs.10.1.checksums.sha512=7a0599322a6dfaca801a99b98a09ce6fcca3872216b7e402e9aee5c4d8a8cf3581520ff959defccd70ea1a79982bdd26183f5cdfd4a5fba68d5496f96dba03d4
 
 outputs.10.2.groupId=org.apache.plc4x
-outputs.10.2.filename=plc4x-protocols-canopen-0.13.0-tests.jar
-outputs.10.2.length=16759
-outputs.10.2.checksums.sha512=51f96fc0d37cebb57abb7dbb3c06e19efbafc8f90b5d91f314ed774f9c4a34d53f0c0a941b14cf16bd855cd2b76f694a504d40c7abaf790fe30d02af723c8fe0
+outputs.10.2.filename=plc4j-spi-0.13.0-sources.jar
+outputs.10.2.length=361714
+outputs.10.2.checksums.sha512=a68dae490802f81621c23515f2a3a7bcc5b67da3712e0ef066aa41562c70eebab21e4757f0e393caf6565e1466904a14b446037e5fb1768fb333891d835a104f
 
-outputs.10.3.groupId=org.apache.plc4x
-outputs.10.3.filename=plc4x-protocols-canopen-0.13.0-sources.jar
-outputs.10.3.length=12365
-outputs.10.3.checksums.sha512=96703906fbdc9da2e9e606921a26f74b32bf629873289621e9c10571ac7958cc936b97ffa20faefd4cff8c6bac3b2c4f0e81021b17373c39575e03fde7c695c7
-
-outputs.11.coordinates=org.apache.plc4x:plc4x-protocols-df1
+outputs.11.coordinates=org.apache.plc4x:plc4j-transports
 
 outputs.11.0.groupId=org.apache.plc4x
-outputs.11.0.filename=plc4x-protocols-df1-0.13.0.pom
-outputs.11.0.length=1877
-outputs.11.0.checksums.sha512=bba04d55ebb4461f749ac245a550fe87c65a3d226205af058ed6e7d9934dda92157fa9ef77c17d929e012282f836a047663e550c4f713dfb4b8ea2aa87339719
+outputs.11.0.filename=plc4j-transports-0.13.0.pom
+outputs.11.0.length=1862
+outputs.11.0.checksums.sha512=5caa116ddc57a704521f1faf9af58ae6e4cf4d527682372e0f31d7159980ffa04b699d2c8de55dc5992e203b02aeac3ec97f25b2963c540eaad8536a0f6eae9d
 
-outputs.11.1.groupId=org.apache.plc4x
-outputs.11.1.filename=plc4x-protocols-df1-0.13.0.jar
-outputs.11.1.length=10891
-outputs.11.1.checksums.sha512=67e790d6d0ac81e91ba81bc4926a6e7e1111a44d2b994c0629f67fd609c5e4344d830c3f09bf8e02ff6e492dfa221a6708d683d119f38fecea857e32e94c56ed
-
-outputs.11.2.groupId=org.apache.plc4x
-outputs.11.2.filename=plc4x-protocols-df1-0.13.0-tests.jar
-outputs.11.2.length=10880
-outputs.11.2.checksums.sha512=38228ae8e0618997f7205592df2917af3edd3ae1dd5709395d9171fdf3f8bebeb13b81c49c3bcb2c3c9b6ffe8de42b5aa56d698d7b5cc74ac190112f55ba2e85
-
-outputs.11.3.groupId=org.apache.plc4x
-outputs.11.3.filename=plc4x-protocols-df1-0.13.0-sources.jar
-outputs.11.3.length=10455
-outputs.11.3.checksums.sha512=84c1d131204ea98ed6e0844ecd5c9f457f8c0b055a85426f4149284b5ebf8cb462722a5bc02f760fab2af8aea4a0d53fe3670a1829e8f63eeb8c030ea60d78f7
-
-outputs.12.coordinates=org.apache.plc4x:plc4x-protocols-eip
+outputs.12.coordinates=org.apache.plc4x:plc4j-transport-tcp
 
 outputs.12.0.groupId=org.apache.plc4x
-outputs.12.0.filename=plc4x-protocols-eip-0.13.0.pom
-outputs.12.0.length=1890
-outputs.12.0.checksums.sha512=7957175bb270246f935fd7d99922272bae102128cd39baf0ea86b89f1300ecbb5e0a4d7b029b65f5248e10ea8c672b6ef918b61ea64f35dd1d8fdea4aa0a7a71
+outputs.12.0.filename=plc4j-transport-tcp-0.13.0.pom
+outputs.12.0.length=2751
+outputs.12.0.checksums.sha512=d141b0bec8fcbd42d405b0f00a2a34a37e8dcf0647ff4f7e4f1e47ab7da16c2e847d538f255f1e8f8fb983e942942173cccfd6186d90034f11e31d9d2fb093eb
 
 outputs.12.1.groupId=org.apache.plc4x
-outputs.12.1.filename=plc4x-protocols-eip-0.13.0.jar
-outputs.12.1.length=17031
-outputs.12.1.checksums.sha512=e196c94f8e04a32b134e086e96496e4923cea90d146bc0e4c3d2eb1e023ac947ece6a0842baad7fca891cb6f0e552ccae630b08c130eece73fb48c7738427993
+outputs.12.1.filename=plc4j-transport-tcp-0.13.0.jar
+outputs.12.1.length=14332
+outputs.12.1.checksums.sha512=86b8d29f598d24d9eedd5951b504e10b7cf08a3c5c0e4ba771d1175c109666321175f55d556ecdbae41207b65c2ea57eee7e64b37c0e26fe6cdb006fb23d10ac
 
 outputs.12.2.groupId=org.apache.plc4x
-outputs.12.2.filename=plc4x-protocols-eip-0.13.0-tests.jar
-outputs.12.2.length=23856
-outputs.12.2.checksums.sha512=bee3cd7c387f18789f762e3de6514a45c8516782221deca15164960277cedbd42877d74e8ea422cb2801a81c3f62ae5f639afac2dea6c77433882c7e94f801da
+outputs.12.2.filename=plc4j-transport-tcp-0.13.0-sources.jar
+outputs.12.2.length=13723
+outputs.12.2.checksums.sha512=80da45014f1cde39f15757a06920cd1423be64819d74cc963fd11095ea6911cc47992bcd1c680a37a592fb1d0198dda12f37c42867ca6ff70fa7adb8419261bb
 
-outputs.12.3.groupId=org.apache.plc4x
-outputs.12.3.filename=plc4x-protocols-eip-0.13.0-sources.jar
-outputs.12.3.length=16582
-outputs.12.3.checksums.sha512=09b63ab7e7abd53c0386a227fb894ec06359f5bbdd43fa65897ded92924f9e86844a70a1d1b3f9a6c51d02a8d6db31902191039a5a628f99f1bb2100aac66597
-
-outputs.13.coordinates=org.apache.plc4x:plc4x-protocols-firmata
+outputs.13.coordinates=org.apache.plc4x:plc4j-transport-test
 
 outputs.13.0.groupId=org.apache.plc4x
-outputs.13.0.filename=plc4x-protocols-firmata-0.13.0.pom
-outputs.13.0.length=1920
-outputs.13.0.checksums.sha512=2387f078c3c55ef44970c7729414e94972a1b8a11abb0aad1b1d9fe05e4cde0089d776f64c8b5ebfee6f77912673e53270c3f64aa75ab05a824fd965f662a568
+outputs.13.0.filename=plc4j-transport-test-0.13.0.pom
+outputs.13.0.length=2836
+outputs.13.0.checksums.sha512=d97de4f301cc60b4bf01242ae99534f1159be3338673cb8acfbacb6046f459e1f6e72815780eb2a82adf7a82098b2b767d7a6a5721d7b00d0cd868a80f53debf
 
 outputs.13.1.groupId=org.apache.plc4x
-outputs.13.1.filename=plc4x-protocols-firmata-0.13.0.jar
-outputs.13.1.length=11593
-outputs.13.1.checksums.sha512=0ef1169fdcff0336937851d318a0b7e0fa80e1b854428b4f921d170fbfc93862175daeaec2d3c0c9cf0dd3f84972df6c47a63cf5b36aac12db7d83a981d7647a
+outputs.13.1.filename=plc4j-transport-test-0.13.0.jar
+outputs.13.1.length=29862
+outputs.13.1.checksums.sha512=810441bb358c60ad6d3cb970052c7a86b8efdeb0d708f40b691ccec54370c8c4afd87475edfbc68dab517ddd1018a11d1c5b0d1f1627636c2c8cc4a1d30503df
 
 outputs.13.2.groupId=org.apache.plc4x
-outputs.13.2.filename=plc4x-protocols-firmata-0.13.0-tests.jar
-outputs.13.2.length=11627
-outputs.13.2.checksums.sha512=92641f84b65c072f3f6e4e932579bfb67dbe309b75e49ba833d721a8f2ef32bb85188b0f8a77a2e1cb333c9b84a4dede0c43c43a7d037130e4bbde2a457921a1
+outputs.13.2.filename=plc4j-transport-test-0.13.0-sources.jar
+outputs.13.2.length=22954
+outputs.13.2.checksums.sha512=ebb8a6646584fd102ea660f8faed2940861d0718cc4bd5979ecc201a51d1c554bc8d77c38136a35591f6b03d514ef1414a0c3ef69aac1d6fbfad3e7dfbdd58a9
 
-outputs.13.3.groupId=org.apache.plc4x
-outputs.13.3.filename=plc4x-protocols-firmata-0.13.0-sources.jar
-outputs.13.3.length=11129
-outputs.13.3.checksums.sha512=ebcd9ab19aedc8a2e48e33178fab5a3c5d8952b75eadf6acfe9710d51ef41fe434c9d7fc45b4dac8f0d12ff00128bdb1042cbba127ea4be7a00a456cb87545c4
-
-outputs.14.coordinates=org.apache.plc4x:plc4x-protocols-genericcan
+outputs.14.coordinates=org.apache.plc4x:plc4j-utils
 
 outputs.14.0.groupId=org.apache.plc4x
-outputs.14.0.filename=plc4x-protocols-genericcan-0.13.0.pom
-outputs.14.0.length=1891
-outputs.14.0.checksums.sha512=5b5e6dcace6088715b68358747931d9af4859728445670e45e1a7fe98b178917343770f1ef9a6ec10e9c8eab5a07b2f873425c5a276d4fe30cdeef0027927a5e
+outputs.14.0.filename=plc4j-utils-0.13.0.pom
+outputs.14.0.length=1865
+outputs.14.0.checksums.sha512=5e7d1bc47731fc85fdac9c1722a219f46e94e84c9d71839ca2157e69ff3368f5497a8f756e91423d635679f5dcc0ef116dbf972ed60b8a30102d90bbca1ae941
 
-outputs.14.1.groupId=org.apache.plc4x
-outputs.14.1.filename=plc4x-protocols-genericcan-0.13.0.jar
-outputs.14.1.length=11168
-outputs.14.1.checksums.sha512=8ed20550a0e60f996fd7c6ef233e963f01d605199f4186b5a3125861c9ef7790112467746b0f4cef0322357096774a18ea633be5c5d3634a12dbead742ec10d4
-
-outputs.14.2.groupId=org.apache.plc4x
-outputs.14.2.filename=plc4x-protocols-genericcan-0.13.0-tests.jar
-outputs.14.2.length=9438
-outputs.14.2.checksums.sha512=c51158fbe5f76e11151714d4a8c849c43735e37d9e0ce1538414516f9b264466ed1524649511541450589f799e24b4c871f7240c23625bd8cea698f67d891b09
-
-outputs.14.3.groupId=org.apache.plc4x
-outputs.14.3.filename=plc4x-protocols-genericcan-0.13.0-sources.jar
-outputs.14.3.length=10708
-outputs.14.3.checksums.sha512=c6ea0b2740024160d4b4423c05343bd3057e8a005ef8c841f39fff0aa811b57ad215d3044cf09bdc05b48452e104bb1020c71b6298fc8ee9771a7dfd35466948
-
-outputs.15.coordinates=org.apache.plc4x:plc4x-protocols-iec-60870
+outputs.15.coordinates=org.apache.plc4x:plc4j-utils-test-utils
 
 outputs.15.0.groupId=org.apache.plc4x
-outputs.15.0.filename=plc4x-protocols-iec-60870-0.13.0.pom
-outputs.15.0.length=1899
-outputs.15.0.checksums.sha512=fe6f627963d08d13172c8052eb7239bb5e691a69acaff3b59e030f6c088eb823a8484ec1bd7e25e0e14fb0c22ef301ae2da39a2ba493864b85e72169db7620d1
+outputs.15.0.filename=plc4j-utils-test-utils-0.13.0.pom
+outputs.15.0.length=3225
+outputs.15.0.checksums.sha512=93853ff189ef373fabf5af801830d645794a7fc866c4b6a2f02523804d91a639949164295d2bc2fef35e70fcf9eea77dfaf37955abfdf867acff17f577ef2055
 
 outputs.15.1.groupId=org.apache.plc4x
-outputs.15.1.filename=plc4x-protocols-iec-60870-0.13.0.jar
-outputs.15.1.length=15670
-outputs.15.1.checksums.sha512=26b88f731a2c2d3b502a787aacff5d6cf5a7f769fc5b324dd70fe16af5a8b22d1e54fc5556ea20fcd7e80ef255d14f44e39d1f7d6bd5dd33e7d649642ba9bdb7
+outputs.15.1.filename=plc4j-utils-test-utils-0.13.0.jar
+outputs.15.1.length=103237
+outputs.15.1.checksums.sha512=feb1b4337cbe6a9dd80b809fc527ef5a63979689db8b9d9691a1ee3f10f6cc26c175f5be53db19549f12467c98a48b4ef0c9da6259aa6cecb1bd8827ae825524
 
 outputs.15.2.groupId=org.apache.plc4x
-outputs.15.2.filename=plc4x-protocols-iec-60870-0.13.0-tests.jar
-outputs.15.2.length=24022
-outputs.15.2.checksums.sha512=c68aea55ae3e538f9f884fd2ce0bf97524f5dad4a064d34995ecd4c2e6a8379c1b1ea678276eee34e54dc09ccbd4b8a94685802e696c8c34016957ea376664dc
+outputs.15.2.filename=plc4j-utils-test-utils-0.13.0-sources.jar
+outputs.15.2.length=89057
+outputs.15.2.checksums.sha512=6352ff422a3a16e9a35666d7efa989a49aa20a237c624eafddc48790f6ba8afbb7cd871019c8d25d98ba858cefaa3f28315868e3065fc8768cfffa524e968ed5
 
-outputs.15.3.groupId=org.apache.plc4x
-outputs.15.3.filename=plc4x-protocols-iec-60870-0.13.0-sources.jar
-outputs.15.3.length=15206
-outputs.15.3.checksums.sha512=c4160a4d4b6b873529c329607473e442472346622df5dbb6da58bc11e313438f9858be5402857b864e994bd4fef6f078e6756ca43c177eeae3b8fb4fed6c6cbe
-
-outputs.16.coordinates=org.apache.plc4x:plc4x-protocols-knxnetip
+outputs.16.coordinates=org.apache.plc4x:plc4x-code-generation-language-java
 
 outputs.16.0.groupId=org.apache.plc4x
-outputs.16.0.filename=plc4x-protocols-knxnetip-0.13.0.pom
-outputs.16.0.length=5937
-outputs.16.0.checksums.sha512=1bde12710583141b94d15d7fa2ae1e96740107c0e78bdcdf66047928812753170329370e689cae743b5b91925abeddf9510b254df6305b7688fd1633a1825d2c
+outputs.16.0.filename=plc4x-code-generation-language-java-0.13.0.pom
+outputs.16.0.length=6682
+outputs.16.0.checksums.sha512=696507d85132d6a79c6192b98eafa4103134cad7d163ce5d843c8fee79e5969d07f36a92887056bfed0932cf82763c3cfd5696f066e273c27c58e4ce5c5a1333
 
 outputs.16.1.groupId=org.apache.plc4x
-outputs.16.1.filename=plc4x-protocols-knxnetip-0.13.0.jar
-outputs.16.1.length=73606
-outputs.16.1.checksums.sha512=9d6a22e3323b72ed25e8e2f7190187946a329e1111ed4efa17f602e2535e9adda9fc50f33acf6a3fa148e1556be252be3aa45fb575300cd34e346e61385e996d
+outputs.16.1.filename=plc4x-code-generation-language-java-0.13.0.jar
+outputs.16.1.length=53314
+outputs.16.1.checksums.sha512=0f46c0dcbb2773d75ce0ff18c9f8752691af27736836387625a8c85f1a6d73db968d0d28cb9b9b2136bb3aaf2b16f4f435e64a0590aca161246e6a8428540151
 
 outputs.16.2.groupId=org.apache.plc4x
-outputs.16.2.filename=plc4x-protocols-knxnetip-0.13.0-tests.jar
-outputs.16.2.length=31888
-outputs.16.2.checksums.sha512=ab782cdf6100e3695ad0ac679e6e4ac56d2be3b7b70f9eb5bb3725e2062dbee3fe950fcf9e86265ada2d62b8231b87b652f35a47372993b4003e6522f4a557cf
+outputs.16.2.filename=plc4x-code-generation-language-java-0.13.0-sources.jar
+outputs.16.2.length=40683
+outputs.16.2.checksums.sha512=973f7405271d91d9bdf8ca3dcab7ab0a62240608e99dbb40753382fcf506bc982b3b01215a3e2e9cbe03eb1e241b707ed2f3c6cc66ccd2c33120aa346cd2cdfa
 
-outputs.16.3.groupId=org.apache.plc4x
-outputs.16.3.filename=plc4x-protocols-knxnetip-0.13.0-sources.jar
-outputs.16.3.length=72946
-outputs.16.3.checksums.sha512=74baf863e47d918f721cf8386d0056ceaeba41b2e627140d02b4498008a2d2538461102c246c5a8e6b9185c5ab66ba27dd8aad5a4ef4011e342fb56ff474bc91
-
-outputs.17.coordinates=org.apache.plc4x:plc4x-protocols-modbus
+outputs.17.coordinates=org.apache.plc4x:plc4x-protocols
 
 outputs.17.0.groupId=org.apache.plc4x
-outputs.17.0.filename=plc4x-protocols-modbus-0.13.0.pom
-outputs.17.0.length=1883
-outputs.17.0.checksums.sha512=d16246ee0c30a6ce97c953431053c7ed2968d4864bf030b439c327b7464db6e7f6dd651a711d51a952f3c601099662d4ec3059d61d32da31938748aa06742993
+outputs.17.0.filename=plc4x-protocols-0.13.0.pom
+outputs.17.0.length=7713
+outputs.17.0.checksums.sha512=732800e10c8e52403ed50b9b999716e9da778b6bc17eca51b08a3c906b9b8d14ec1a41a6ffe46f38ce5aa212c7f3521cf35a7df609b1d939eff765ff3914bd16
 
 outputs.17.1.groupId=org.apache.plc4x
-outputs.17.1.filename=plc4x-protocols-modbus-0.13.0.jar
-outputs.17.1.length=13781
-outputs.17.1.checksums.sha512=e1b19cd616eefdf7f616d3151eda9b023ea39b87e05982057e234c80465143558ac20c860abe47a7666794ff5a87b5bce60e62b8245a5faf9cd7093a77942e05
+outputs.17.1.filename=plc4x-protocols-0.13.0-tests.jar
+outputs.17.1.length=3489
+outputs.17.1.checksums.sha512=9cb27e8a2e24d22165ffc98b87f539a00988cce6c3df65d69f4ce4de53e02f4a5195832bc5719af4b1ffeaa300cf00949ef4952acc025d3b2e74fb8ea4121619
 
-outputs.17.2.groupId=org.apache.plc4x
-outputs.17.2.filename=plc4x-protocols-modbus-0.13.0-tests.jar
-outputs.17.2.length=92084
-outputs.17.2.checksums.sha512=61060c92393b54d49a4451ec41f736125c672d14cddcd42ecbf56621d17c8a2e1de2f7be9205d1037862b6be8f99329475b41899a1cd92e9dd39f7035c6050f9
-
-outputs.17.3.groupId=org.apache.plc4x
-outputs.17.3.filename=plc4x-protocols-modbus-0.13.0-sources.jar
-outputs.17.3.length=13341
-outputs.17.3.checksums.sha512=ed50d9067954e6e68bc76cd8bd78833940754754a7397e2ff9e5f231ff0d8ef03e7665ef0322dec7c708e38bbfd10cb9473ffc05da56734a850ea8deb50b5f29
-
-outputs.18.coordinates=org.apache.plc4x:plc4x-protocols-mqtt
+outputs.18.coordinates=org.apache.plc4x:plc4x-protocols-ab-eth
 
 outputs.18.0.groupId=org.apache.plc4x
-outputs.18.0.filename=plc4x-protocols-mqtt-0.13.0.pom
-outputs.18.0.length=1873
-outputs.18.0.checksums.sha512=f389b51760f6e464e0ec938067d6adfd5323635cb2a8c2febbc85815376bd4f19d6b9f2e3087651bc0f58a0153fc38dca752c1140b18f8c24cdb3e3ebbf40c74
+outputs.18.0.filename=plc4x-protocols-ab-eth-0.13.0.pom
+outputs.18.0.length=1883
+outputs.18.0.checksums.sha512=1079b63a7b8765782c62d69978227a232c6381b4bb2e3d207f1931783b0fb016f02697fa5dfcfa22b9073a1364c0d01ed9bebb59c7e8b146eb4b1516d1e2842c
 
 outputs.18.1.groupId=org.apache.plc4x
-outputs.18.1.filename=plc4x-protocols-mqtt-0.13.0.jar
-outputs.18.1.length=13638
-outputs.18.1.checksums.sha512=bf05c0f045e2008db28424f8e84938f038f0a0f69bd31c24811ca29f4056de2db5d2952fe0db359323e46c7a7686d7131b7c8c8334cc9a7fbaf8826c4f9476ba
+outputs.18.1.filename=plc4x-protocols-ab-eth-0.13.0.jar
+outputs.18.1.length=11056
+outputs.18.1.checksums.sha512=3e6d45819b2276dc2762d63a3c28d12dc00bef2204dcea145dd60e6b2c63a19f328c3ea104bf8f30585c0e4bdc3609dfda69ee467fc958827f72da9afc61b144
 
 outputs.18.2.groupId=org.apache.plc4x
-outputs.18.2.filename=plc4x-protocols-mqtt-0.13.0-tests.jar
-outputs.18.2.length=8591
-outputs.18.2.checksums.sha512=606b6fdae39d0909051a5b17149eb31327aaba5fb76ce89e056040e1adb5414ea7dcbbdce2d17e6363691ed58c48433360e1849275fea9caa25607ff13070c95
+outputs.18.2.filename=plc4x-protocols-ab-eth-0.13.0-tests.jar
+outputs.18.2.length=11234
+outputs.18.2.checksums.sha512=89b1a1840659c7efaa34415f1a74bf32c2c5f8cd26b79642c1e55b5b2cda2a16e29bb1167c2af9b66ec6d5b6ad747906fb9c73184362d2b9f604c5c917b9a544
 
 outputs.18.3.groupId=org.apache.plc4x
-outputs.18.3.filename=plc4x-protocols-mqtt-0.13.0-sources.jar
-outputs.18.3.length=13208
-outputs.18.3.checksums.sha512=523f2b15f5ac102f3661c6b198b281a4d17e30755413c55ee1f362791f2295e3629fa3dc230c47b57c045e50922711ba439e0b1bb3d20079d483d30ef095fc7d
+outputs.18.3.filename=plc4x-protocols-ab-eth-0.13.0-sources.jar
+outputs.18.3.length=10614
+outputs.18.3.checksums.sha512=153520ab475349ebb41543f3ffb683030f00a1df3accb7c02d0f4e2658a7dd09b03efd72e0d825c91cf37a8116839ce29b022244a691dea5738173097f78d479
 
-outputs.19.coordinates=org.apache.plc4x:plc4x-protocols-opcua
+outputs.19.coordinates=org.apache.plc4x:plc4x-protocols-ads
 
 outputs.19.0.groupId=org.apache.plc4x
-outputs.19.0.filename=plc4x-protocols-opcua-0.13.0.pom
-outputs.19.0.length=10125
-outputs.19.0.checksums.sha512=d5ccdc3226068d8da04f897c553c8c1bae41ecabd196066c94788651aa10743f2b29f4dd383b5a4856883f3c039645ed4ff9f4ad57e6451a22307ef3bd843c4f
+outputs.19.0.filename=plc4x-protocols-ads-0.13.0.pom
+outputs.19.0.length=1874
+outputs.19.0.checksums.sha512=31e08347de02d329d920a67f3c9808deddb6ee534508940cc06037bd2fce4608ab9baf75e5aabd8b8eea7fafc841f8264070f490c4673311dc35d5adf8cbf524
 
 outputs.19.1.groupId=org.apache.plc4x
-outputs.19.1.filename=plc4x-protocols-opcua-0.13.0.jar
-outputs.19.1.length=159554
-outputs.19.1.checksums.sha512=b6a1882af94d1cb2d12a3c64af5f938751f0a3433454e2b862c1ff41836a206ef4aca5f2e2484456d01310b5d0c344188a208074cbc68a04bba1c4604a50df38
+outputs.19.1.filename=plc4x-protocols-ads-0.13.0.jar
+outputs.19.1.length=23089
+outputs.19.1.checksums.sha512=0f9540dc8e4939832a1acc15d3d4f64300a9e43abb6c735fb9161764953f64f6e3507b3bacdd92d583a0e2591428e2dbf5e9efd4bb6383ea2aa670add299f330
 
 outputs.19.2.groupId=org.apache.plc4x
-outputs.19.2.filename=plc4x-protocols-opcua-0.13.0-tests.jar
-outputs.19.2.length=27930
-outputs.19.2.checksums.sha512=24b3c5123f26aefa2df5b043994df121e48d532c3abd4ac708de692c348a4a5a464ba0d409902636a30046211981acd61bc8b4e0d65fb8a9a31eccf5f7b27d37
+outputs.19.2.filename=plc4x-protocols-ads-0.13.0-tests.jar
+outputs.19.2.length=68725
+outputs.19.2.checksums.sha512=2a1080730fea5238938d5b4c961a5f710532f971b21bd93957789c02c7165e33dc74aa79f65eb4b45f4536ff0cdcdbc38fcc55bbccdd67f2eaa4ebcb64881464
 
 outputs.19.3.groupId=org.apache.plc4x
-outputs.19.3.filename=plc4x-protocols-opcua-0.13.0-sources.jar
-outputs.19.3.length=158855
-outputs.19.3.checksums.sha512=2e851cccea183e25dea97070319e2a3acc1639de1d3619299f36e2a1983b9fe295614bfa8dd4d132caef32dca253874164501d17c9e309fef1da805c561d1485
+outputs.19.3.filename=plc4x-protocols-ads-0.13.0-sources.jar
+outputs.19.3.length=22817
+outputs.19.3.checksums.sha512=f37af73cd9a629260599b4c8938bd2cd70c3f7fae034021fd200c67a37f1fa1aa8032f136e7d2e80c38d3a6682f16543580f50f218da6ff5796da583e12ca766
 
-outputs.20.coordinates=org.apache.plc4x:plc4x-protocols-open-protocol
+outputs.20.coordinates=org.apache.plc4x:plc4x-protocols-c-bus
 
 outputs.20.0.groupId=org.apache.plc4x
-outputs.20.0.filename=plc4x-protocols-open-protocol-0.13.0.pom
-outputs.20.0.length=1886
-outputs.20.0.checksums.sha512=0012414ed00a0ded53540f4499cdc771f513cefdfc5e57bd196f459abd26f28cb0bebc98359ca28c23e03e68936a7c50c03c5cd88263494ff3e3cb6a9165ff84
+outputs.20.0.filename=plc4x-protocols-c-bus-0.13.0.pom
+outputs.20.0.length=1880
+outputs.20.0.checksums.sha512=bbdfade5879732d4e84199683b997f2784d26f57a1d9a23932e73a5bfa9e521eec7727477cbe6c85b01f90e7d90bfcf46a4fa46ba76e4c9b935d59a54a5d8247
 
 outputs.20.1.groupId=org.apache.plc4x
-outputs.20.1.filename=plc4x-protocols-open-protocol-0.13.0.jar
-outputs.20.1.length=21117
-outputs.20.1.checksums.sha512=f9da036b5040c5d7bc70240a6a026d2aef2cc398b52e11b063a5cf2ec4de15ce7ac8f53eab34f93c66476ab3e9bf18050394f85b438dfc8420f81f7ec440d4b8
+outputs.20.1.filename=plc4x-protocols-c-bus-0.13.0.jar
+outputs.20.1.length=56503
+outputs.20.1.checksums.sha512=1ba0d2053f17e106517b086bf9269c2038ddf43b82be4aed74d081ef26cbe3ee9555678045c740bb94ed4b16ca36d899880c229d6bbc798344bfe2d35dffc040
 
 outputs.20.2.groupId=org.apache.plc4x
-outputs.20.2.filename=plc4x-protocols-open-protocol-0.13.0-tests.jar
-outputs.20.2.length=12397
-outputs.20.2.checksums.sha512=0707b0159bc1e646c6a4466f1efb008c124253c0e4557bc6defd929e718f20589397ba01cc2dff1da23901db06794e899d80593b620841dd871974166218c84e
+outputs.20.2.filename=plc4x-protocols-c-bus-0.13.0-tests.jar
+outputs.20.2.length=9352
+outputs.20.2.checksums.sha512=cb14894dd59e1430e666c710b98c19421ae5a8a501bce1a8c3b3c937de81aa5e87a032f3b7a62f55f703c221d1ca0068037fb94ff026dcca9571576a55eb4d4f
 
 outputs.20.3.groupId=org.apache.plc4x
-outputs.20.3.filename=plc4x-protocols-open-protocol-0.13.0-sources.jar
-outputs.20.3.length=20661
-outputs.20.3.checksums.sha512=e11e6e81d9a82dfdc644dd57e4913aafd995f75dc2293b04e5c3e62a066730e2fd2ebd5494bf127da4186d90332ac5472c811e1abe899633ee77046c4a02b7bc
+outputs.20.3.filename=plc4x-protocols-c-bus-0.13.0-sources.jar
+outputs.20.3.length=55301
+outputs.20.3.checksums.sha512=34a6721f247d90f299a9a91ea01e268111170e777968cd3dfcf827b8787acd79336208f50fceb741e9ff8d79331508912c56611f56907b3c671933b441bc9c68
 
-outputs.21.coordinates=org.apache.plc4x:plc4x-protocols-plc4x
+outputs.21.coordinates=org.apache.plc4x:plc4x-protocols-bacnetip
 
 outputs.21.0.groupId=org.apache.plc4x
-outputs.21.0.filename=plc4x-protocols-plc4x-0.13.0.pom
-outputs.21.0.length=1894
-outputs.21.0.checksums.sha512=ecac812fcce6e56297f6b046ee39a66b95edc3095aeb67a85b784677aef1ab2e4672ea3f90114c9900ec7ca938a1a8b153e519348e7f0366df6834641ae49baf
+outputs.21.0.filename=plc4x-protocols-bacnetip-0.13.0.pom
+outputs.21.0.length=6036
+outputs.21.0.checksums.sha512=2d4a1b5d41a83a0e9913f9526e4cd1f5e6eae4f3b98c0a988ef5489bf5aa85d870d58ea79e1ae2d430587018a8a2c16480bd50c75e53e782c30a391f5069b589
 
 outputs.21.1.groupId=org.apache.plc4x
-outputs.21.1.filename=plc4x-protocols-plc4x-0.13.0.jar
-outputs.21.1.length=12861
-outputs.21.1.checksums.sha512=9e21c5f6cea79ecf1ee213f32e2dc544ba78bf8e2fdba2d65971122a9a989ccd7ca50d3e30fa46f58b2fa9c2dc5e57744664f2929ef951dfe4f775ccf7fc34c8
+outputs.21.1.filename=plc4x-protocols-bacnetip-0.13.0.jar
+outputs.21.1.length=125813
+outputs.21.1.checksums.sha512=2cac31f2954d855eb2ddf3d8eec87a47fd7094b054d06629be511ce07ec58f1e8eeb2ed911c31973d5e4a41e75cd5ba65214070c9b01a45dd0badbaeb8b809e6
 
 outputs.21.2.groupId=org.apache.plc4x
-outputs.21.2.filename=plc4x-protocols-plc4x-0.13.0-tests.jar
-outputs.21.2.length=12573
-outputs.21.2.checksums.sha512=23007a252618d5e9220b6e22bb23aebd8f50c8017ccc672c2e1f0518018f5d2d10017fb4d9dd9dc90913a5b46b3dffffbd2262d4d504591dc25569d67dc9b2a1
+outputs.21.2.filename=plc4x-protocols-bacnetip-0.13.0-tests.jar
+outputs.21.2.length=76856
+outputs.21.2.checksums.sha512=b12a478607b450bff687362e2ada57ea48cfc80cc4420eb3808caba9d581de8b1de167c468fa3ae94da0bf4622140fdbf760181a2cd263f12c976d95216755fc
 
 outputs.21.3.groupId=org.apache.plc4x
-outputs.21.3.filename=plc4x-protocols-plc4x-0.13.0-sources.jar
-outputs.21.3.length=12253
-outputs.21.3.checksums.sha512=ca76231b5f00816e5be18398ce519db55a760ec242e52952349849f6ced71a8b3dbb177d47f0542ee2fd742d5bf03b626128977ea9a492292b5a0d522783782c
+outputs.21.3.filename=plc4x-protocols-bacnetip-0.13.0-sources.jar
+outputs.21.3.length=124951
+outputs.21.3.checksums.sha512=9164e76ce4ae50a38faf33e89058fbfba8493fbf6f9abd1782e6f9c773a7604173eeccaae76e2a4b1d6e15a810b55994b9f2604c63f4723241a709c74fcb176c
 
-outputs.22.coordinates=org.apache.plc4x:plc4x-protocols-plc4x-api
+outputs.22.coordinates=org.apache.plc4x:plc4x-protocols-canopen
 
 outputs.22.0.groupId=org.apache.plc4x
-outputs.22.0.filename=plc4x-protocols-plc4x-api-0.13.0.pom
-outputs.22.0.length=1864
-outputs.22.0.checksums.sha512=6324c728f2c5cba000e566e019664954e2e7b89cd37b95d50a4ee07c3f22c039221be4008ec0257fa8347e8d13485a4987479f96e26dff0cb6571d40f029153f
+outputs.22.0.filename=plc4x-protocols-canopen-0.13.0.pom
+outputs.22.0.length=1887
+outputs.22.0.checksums.sha512=4cebf5790ee002d703a74b26f3ca62a460b92dc2c8e70c5343b11851d4763658b4378c9c9047fe8fb58fc8a3b7db1405fb07f085a2ca5074da2c2b9cc5b25110
 
 outputs.22.1.groupId=org.apache.plc4x
-outputs.22.1.filename=plc4x-protocols-plc4x-api-0.13.0.jar
-outputs.22.1.length=11678
-outputs.22.1.checksums.sha512=e504fe4d18f27036cad5d81af7235231d9cf3e74c71a676db9daa22f444fcded5292ba1b4f47232512540cffae32096f09bb5c349dcfdc0028dd56353a27b1ab
+outputs.22.1.filename=plc4x-protocols-canopen-0.13.0.jar
+outputs.22.1.length=12824
+outputs.22.1.checksums.sha512=09d4c3ee9abae76f347c02df866743b5a8c7d034d46e7e4275b209a5b320e8873375fd65e307a4c8204faeeb2eecbdb98b804f4efb6cdd1b61614f0cdbbb0060
 
 outputs.22.2.groupId=org.apache.plc4x
-outputs.22.2.filename=plc4x-protocols-plc4x-api-0.13.0-tests.jar
-outputs.22.2.length=9578
-outputs.22.2.checksums.sha512=ca408079a1dbd18a65e586dbb58c083e42bb05cc9f43bfac8ea626dbdb2607d7e22361ada11c1bf46deba095c8fc0c43b6574eeea24d040b0947e4a608066289
+outputs.22.2.filename=plc4x-protocols-canopen-0.13.0-tests.jar
+outputs.22.2.length=16759
+outputs.22.2.checksums.sha512=51f96fc0d37cebb57abb7dbb3c06e19efbafc8f90b5d91f314ed774f9c4a34d53f0c0a941b14cf16bd855cd2b76f694a504d40c7abaf790fe30d02af723c8fe0
 
 outputs.22.3.groupId=org.apache.plc4x
-outputs.22.3.filename=plc4x-protocols-plc4x-api-0.13.0-sources.jar
-outputs.22.3.length=11067
-outputs.22.3.checksums.sha512=5eae1d53ed4c747d1f09d2ab865b6f859ac13e1460062f49389da5399fc47be6bc942521c30673e5e3213a54a7341bd46351dff424320121ec47707a9f839b78
+outputs.22.3.filename=plc4x-protocols-canopen-0.13.0-sources.jar
+outputs.22.3.length=12365
+outputs.22.3.checksums.sha512=96703906fbdc9da2e9e606921a26f74b32bf629873289621e9c10571ac7958cc936b97ffa20faefd4cff8c6bac3b2c4f0e81021b17373c39575e03fde7c695c7
 
-outputs.23.coordinates=org.apache.plc4x:plc4x-protocols-profinet
+outputs.23.coordinates=org.apache.plc4x:plc4x-protocols-df1
 
 outputs.23.0.groupId=org.apache.plc4x
-outputs.23.0.filename=plc4x-protocols-profinet-0.13.0.pom
-outputs.23.0.length=1890
-outputs.23.0.checksums.sha512=428fe58abeb3828b53cdfcbb7a35af5604ff4c3ac88dac7adb894b03de27a5b19c69daa5a0e9c5dd8b875d0cdeb2c01a6672c40543acec654a32eca46383c44a
+outputs.23.0.filename=plc4x-protocols-df1-0.13.0.pom
+outputs.23.0.length=1877
+outputs.23.0.checksums.sha512=bba04d55ebb4461f749ac245a550fe87c65a3d226205af058ed6e7d9934dda92157fa9ef77c17d929e012282f836a047663e550c4f713dfb4b8ea2aa87339719
 
 outputs.23.1.groupId=org.apache.plc4x
-outputs.23.1.filename=plc4x-protocols-profinet-0.13.0.jar
-outputs.23.1.length=27661
-outputs.23.1.checksums.sha512=ac91dcda51b1545587f7a078aa343ecf2b33355d23eb1cc13373d528c71e485b39d686596ae336306684505dc1dcf949f43824a66b3de8b6fbeecde6ad855909
+outputs.23.1.filename=plc4x-protocols-df1-0.13.0.jar
+outputs.23.1.length=10891
+outputs.23.1.checksums.sha512=67e790d6d0ac81e91ba81bc4926a6e7e1111a44d2b994c0629f67fd609c5e4344d830c3f09bf8e02ff6e492dfa221a6708d683d119f38fecea857e32e94c56ed
 
 outputs.23.2.groupId=org.apache.plc4x
-outputs.23.2.filename=plc4x-protocols-profinet-0.13.0-tests.jar
-outputs.23.2.length=30034
-outputs.23.2.checksums.sha512=ea0bce5056c8ee7aa1ae1add9b6fba573dc84c7f3c7f3a08416619ec009bc12d4c8821a8477b6fe072a7914190f14b92ce7a7c193dc6a779d1e2f61f46d83651
+outputs.23.2.filename=plc4x-protocols-df1-0.13.0-tests.jar
+outputs.23.2.length=10880
+outputs.23.2.checksums.sha512=38228ae8e0618997f7205592df2917af3edd3ae1dd5709395d9171fdf3f8bebeb13b81c49c3bcb2c3c9b6ffe8de42b5aa56d698d7b5cc74ac190112f55ba2e85
 
 outputs.23.3.groupId=org.apache.plc4x
-outputs.23.3.filename=plc4x-protocols-profinet-0.13.0-sources.jar
-outputs.23.3.length=26974
-outputs.23.3.checksums.sha512=bbe33fff63d07cccde9fefd0310b0232564c417dfd5554b3110b7738c69c61be108e77764b8f29d0083afebf30323b8de0f987a3292d443876d2c3662f38c2b6
+outputs.23.3.filename=plc4x-protocols-df1-0.13.0-sources.jar
+outputs.23.3.length=10455
+outputs.23.3.checksums.sha512=84c1d131204ea98ed6e0844ecd5c9f457f8c0b055a85426f4149284b5ebf8cb462722a5bc02f760fab2af8aea4a0d53fe3670a1829e8f63eeb8c030ea60d78f7
 
-outputs.24.coordinates=org.apache.plc4x:plc4x-protocols-s7
+outputs.24.coordinates=org.apache.plc4x:plc4x-protocols-eip
 
 outputs.24.0.groupId=org.apache.plc4x
-outputs.24.0.filename=plc4x-protocols-s7-0.13.0.pom
-outputs.24.0.length=1879
-outputs.24.0.checksums.sha512=d372bc6b7bc1f7cc99613f4620de6a2d92b87f203621419f35a733918adf197983eeca079ac32ab7e91a087356e62bfdd178beec28e7ac69dd7f804bc091ed13
+outputs.24.0.filename=plc4x-protocols-eip-0.13.0.pom
+outputs.24.0.length=1890
+outputs.24.0.checksums.sha512=7957175bb270246f935fd7d99922272bae102128cd39baf0ea86b89f1300ecbb5e0a4d7b029b65f5248e10ea8c672b6ef918b61ea64f35dd1d8fdea4aa0a7a71
 
 outputs.24.1.groupId=org.apache.plc4x
-outputs.24.1.filename=plc4x-protocols-s7-0.13.0.jar
-outputs.24.1.length=24009
-outputs.24.1.checksums.sha512=20f766a6ed0144f44501b29f258f7d6fade98191a5566467a1d7dca232bc6da7e469750903f09549c01395e417f069ba9383bcd39a77d9a39d7009ee06ad928a
+outputs.24.1.filename=plc4x-protocols-eip-0.13.0.jar
+outputs.24.1.length=17031
+outputs.24.1.checksums.sha512=e196c94f8e04a32b134e086e96496e4923cea90d146bc0e4c3d2eb1e023ac947ece6a0842baad7fca891cb6f0e552ccae630b08c130eece73fb48c7738427993
 
 outputs.24.2.groupId=org.apache.plc4x
-outputs.24.2.filename=plc4x-protocols-s7-0.13.0-tests.jar
-outputs.24.2.length=36452
-outputs.24.2.checksums.sha512=1e5d8b399716962a90fb1649a30c7aef375ab972d9ed69159e57c051d46f18fa804346d8716639b5e4318e648ccb3732a7d901c64bb7d05a68cf3ca46888e79d
+outputs.24.2.filename=plc4x-protocols-eip-0.13.0-tests.jar
+outputs.24.2.length=23856
+outputs.24.2.checksums.sha512=bee3cd7c387f18789f762e3de6514a45c8516782221deca15164960277cedbd42877d74e8ea422cb2801a81c3f62ae5f639afac2dea6c77433882c7e94f801da
 
 outputs.24.3.groupId=org.apache.plc4x
-outputs.24.3.filename=plc4x-protocols-s7-0.13.0-sources.jar
-outputs.24.3.length=23672
-outputs.24.3.checksums.sha512=1338dc61a2e6d800e23cc8efdf64b346154a1004a41299b224f64bbe4e8189e35ddfe77471f814c7476e89227a54859889a12a11723a2fc1f787e3f3f2e112bc
+outputs.24.3.filename=plc4x-protocols-eip-0.13.0-sources.jar
+outputs.24.3.length=16582
+outputs.24.3.checksums.sha512=09b63ab7e7abd53c0386a227fb894ec06359f5bbdd43fa65897ded92924f9e86844a70a1d1b3f9a6c51d02a8d6db31902191039a5a628f99f1bb2100aac66597
 
-outputs.25.coordinates=org.apache.plc4x:plc4x-protocols-simulated
+outputs.25.coordinates=org.apache.plc4x:plc4x-protocols-firmata
 
 outputs.25.0.groupId=org.apache.plc4x
-outputs.25.0.filename=plc4x-protocols-simulated-0.13.0.pom
-outputs.25.0.length=1893
-outputs.25.0.checksums.sha512=8953d4a7f2d619be5fc3104d30280726047fcd44793cb40e88614dbdcfc49e8fbd2168af4451ba5098778f46533100eb8b41a2b3515af13d5124ecddeda7373c
+outputs.25.0.filename=plc4x-protocols-firmata-0.13.0.pom
+outputs.25.0.length=1920
+outputs.25.0.checksums.sha512=2387f078c3c55ef44970c7729414e94972a1b8a11abb0aad1b1d9fe05e4cde0089d776f64c8b5ebfee6f77912673e53270c3f64aa75ab05a824fd965f662a568
 
 outputs.25.1.groupId=org.apache.plc4x
-outputs.25.1.filename=plc4x-protocols-simulated-0.13.0.jar
-outputs.25.1.length=11343
-outputs.25.1.checksums.sha512=39734f726ce92f8d8451a3a6ec8f7e122619f7d7eb9f1264478ae5241c8febab9df0a436a7a2466b69f1dcba88c426d93f31cf5bacb1c23f7610e53ee00b7d5e
+outputs.25.1.filename=plc4x-protocols-firmata-0.13.0.jar
+outputs.25.1.length=11593
+outputs.25.1.checksums.sha512=0ef1169fdcff0336937851d318a0b7e0fa80e1b854428b4f921d170fbfc93862175daeaec2d3c0c9cf0dd3f84972df6c47a63cf5b36aac12db7d83a981d7647a
 
 outputs.25.2.groupId=org.apache.plc4x
-outputs.25.2.filename=plc4x-protocols-simulated-0.13.0-tests.jar
-outputs.25.2.length=9418
-outputs.25.2.checksums.sha512=f689aa8f04bcf048856ae48f02b3e11d89da2eaa85342ae763a0d3425e0a261eed84ec48e10c1ad78dd17b2bc116921d937e8d6313a28e794295ca7ef3db4634
+outputs.25.2.filename=plc4x-protocols-firmata-0.13.0-tests.jar
+outputs.25.2.length=11627
+outputs.25.2.checksums.sha512=92641f84b65c072f3f6e4e932579bfb67dbe309b75e49ba833d721a8f2ef32bb85188b0f8a77a2e1cb333c9b84a4dede0c43c43a7d037130e4bbde2a457921a1
 
 outputs.25.3.groupId=org.apache.plc4x
-outputs.25.3.filename=plc4x-protocols-simulated-0.13.0-sources.jar
-outputs.25.3.length=10894
-outputs.25.3.checksums.sha512=287c17a898d2b6cd8941728541f090f2292e2304cae0597c48bfabfd7a819efb1fa955e2d29985eaa7622192d205d0e4415226d8eecd3c4d7fc955ac55159b19
+outputs.25.3.filename=plc4x-protocols-firmata-0.13.0-sources.jar
+outputs.25.3.length=11129
+outputs.25.3.checksums.sha512=ebcd9ab19aedc8a2e48e33178fab5a3c5d8952b75eadf6acfe9710d51ef41fe434c9d7fc45b4dac8f0d12ff00128bdb1042cbba127ea4be7a00a456cb87545c4
 
-outputs.26.coordinates=org.apache.plc4x:plc4x-protocols-socketcan
+outputs.26.coordinates=org.apache.plc4x:plc4x-protocols-genericcan
 
 outputs.26.0.groupId=org.apache.plc4x
-outputs.26.0.filename=plc4x-protocols-socketcan-0.13.0.pom
-outputs.26.0.length=1890
-outputs.26.0.checksums.sha512=36a3f1e521c0265dfe736c7610d41add24ffe8219153e7e858b354b6f55f8aff6860e06b5b56de68322b237200b8153099366bf0e2a155925ef3b6beeb143834
+outputs.26.0.filename=plc4x-protocols-genericcan-0.13.0.pom
+outputs.26.0.length=1891
+outputs.26.0.checksums.sha512=5b5e6dcace6088715b68358747931d9af4859728445670e45e1a7fe98b178917343770f1ef9a6ec10e9c8eab5a07b2f873425c5a276d4fe30cdeef0027927a5e
 
 outputs.26.1.groupId=org.apache.plc4x
-outputs.26.1.filename=plc4x-protocols-socketcan-0.13.0.jar
-outputs.26.1.length=10902
-outputs.26.1.checksums.sha512=0ef1a484ccd450c147429f0838f2716c44646bce27b1676c6b420da0cd823d3051135e7f78f030a031c362e1e92b01856644350f405bc23e1c4a6231d079895b
+outputs.26.1.filename=plc4x-protocols-genericcan-0.13.0.jar
+outputs.26.1.length=11168
+outputs.26.1.checksums.sha512=8ed20550a0e60f996fd7c6ef233e963f01d605199f4186b5a3125861c9ef7790112467746b0f4cef0322357096774a18ea633be5c5d3634a12dbead742ec10d4
 
 outputs.26.2.groupId=org.apache.plc4x
-outputs.26.2.filename=plc4x-protocols-socketcan-0.13.0-tests.jar
-outputs.26.2.length=9436
-outputs.26.2.checksums.sha512=80f25a3a777b2237c0b8078c671f72ef0bd6f13509f37747dc628db75e08bc2cddb74760eee7ff73ad049c6297dc206361f0e0d3a6362d3df09db169e6a05f61
+outputs.26.2.filename=plc4x-protocols-genericcan-0.13.0-tests.jar
+outputs.26.2.length=9438
+outputs.26.2.checksums.sha512=c51158fbe5f76e11151714d4a8c849c43735e37d9e0ce1538414516f9b264466ed1524649511541450589f799e24b4c871f7240c23625bd8cea698f67d891b09
 
 outputs.26.3.groupId=org.apache.plc4x
-outputs.26.3.filename=plc4x-protocols-socketcan-0.13.0-sources.jar
-outputs.26.3.length=10430
-outputs.26.3.checksums.sha512=fb993b634a2b3abd7fc80470882d85b3bed502f6783471aeda629010589611bdd9c2bf8e4658420db7fbaa46d50479b5e6f9c6e371bb80525f6219f7497bf17b
+outputs.26.3.filename=plc4x-protocols-genericcan-0.13.0-sources.jar
+outputs.26.3.length=10708
+outputs.26.3.checksums.sha512=c6ea0b2740024160d4b4423c05343bd3057e8a005ef8c841f39fff0aa811b57ad215d3044cf09bdc05b48452e104bb1020c71b6298fc8ee9771a7dfd35466948
 
-outputs.27.coordinates=org.apache.plc4x:plc4x-protocols-umas
+outputs.27.coordinates=org.apache.plc4x:plc4x-protocols-iec-60870
 
 outputs.27.0.groupId=org.apache.plc4x
-outputs.27.0.filename=plc4x-protocols-umas-0.13.0.pom
-outputs.27.0.length=1877
-outputs.27.0.checksums.sha512=da396a319762b3c4cb6190beb8aafddcc36db97647aed5144e6175240210c535f3b829663fdbc93683f8326672767e7f41ccc12f5f6bb5a922b989125b188f16
+outputs.27.0.filename=plc4x-protocols-iec-60870-0.13.0.pom
+outputs.27.0.length=1899
+outputs.27.0.checksums.sha512=fe6f627963d08d13172c8052eb7239bb5e691a69acaff3b59e030f6c088eb823a8484ec1bd7e25e0e14fb0c22ef301ae2da39a2ba493864b85e72169db7620d1
 
 outputs.27.1.groupId=org.apache.plc4x
-outputs.27.1.filename=plc4x-protocols-umas-0.13.0.jar
-outputs.27.1.length=13314
-outputs.27.1.checksums.sha512=a4cf13ef963ebbbcb808e32fefdea776f5f02c989e2382a406b2f98b5a423477613421bf0de862bb7fcc4091fe2c82577bb388558b302f858d04c0e673fb3bfc
+outputs.27.1.filename=plc4x-protocols-iec-60870-0.13.0.jar
+outputs.27.1.length=15670
+outputs.27.1.checksums.sha512=26b88f731a2c2d3b502a787aacff5d6cf5a7f769fc5b324dd70fe16af5a8b22d1e54fc5556ea20fcd7e80ef255d14f44e39d1f7d6bd5dd33e7d649642ba9bdb7
 
 outputs.27.2.groupId=org.apache.plc4x
-outputs.27.2.filename=plc4x-protocols-umas-0.13.0-tests.jar
-outputs.27.2.length=9340
-outputs.27.2.checksums.sha512=4116142618e7048ecc5b14ec3581480fe8a17220c0a7fb0857f0437e146b49dd3abe580cdfb548c4096de2b4ece40415d394fa9bbdaff1656f806e8b2f4255b4
+outputs.27.2.filename=plc4x-protocols-iec-60870-0.13.0-tests.jar
+outputs.27.2.length=24022
+outputs.27.2.checksums.sha512=c68aea55ae3e538f9f884fd2ce0bf97524f5dad4a064d34995ecd4c2e6a8379c1b1ea678276eee34e54dc09ccbd4b8a94685802e696c8c34016957ea376664dc
 
 outputs.27.3.groupId=org.apache.plc4x
-outputs.27.3.filename=plc4x-protocols-umas-0.13.0-sources.jar
-outputs.27.3.length=12882
-outputs.27.3.checksums.sha512=c86b0dc5d6c68960f1fe8b6073666b5dca4daa06dbd8f9cf5bd4c1587555cb0fd519245822aec7a258ce45083231dc260247c5b9e6d6e12d3e51fbb8a24553a1
+outputs.27.3.filename=plc4x-protocols-iec-60870-0.13.0-sources.jar
+outputs.27.3.length=15206
+outputs.27.3.checksums.sha512=c4160a4d4b6b873529c329607473e442472346622df5dbb6da58bc11e313438f9858be5402857b864e994bd4fef6f078e6756ca43c177eeae3b8fb4fed6c6cbe
 
-outputs.28.coordinates=org.apache.plc4x:plc4x-website
+outputs.28.coordinates=org.apache.plc4x:plc4x-protocols-knxnetip
 
 outputs.28.0.groupId=org.apache.plc4x
-outputs.28.0.filename=plc4x-website-0.13.0.pom
-outputs.28.0.length=15826
-outputs.28.0.checksums.sha512=e3a50fe66f953065462aa4e7dc864bd1d82d3722a67f938b4bdf4ec7d5e4bafadc05c6e1985a1965b7e9d57726392a39cf8b18796e95df2cdd4e20bfce660f5e
+outputs.28.0.filename=plc4x-protocols-knxnetip-0.13.0.pom
+outputs.28.0.length=5937
+outputs.28.0.checksums.sha512=1bde12710583141b94d15d7fa2ae1e96740107c0e78bdcdf66047928812753170329370e689cae743b5b91925abeddf9510b254df6305b7688fd1633a1825d2c
 
 outputs.28.1.groupId=org.apache.plc4x
-outputs.28.1.filename=plc4x-website-0.13.0.jar
-outputs.28.1.length=9027
-outputs.28.1.checksums.sha512=a146c0c00ce76a2ab412940ff4534aacfbe4287b3a44b66b337a369b6efdb1530794e74c3b3abb66b006a6e2a72273a5a93625eb46355bd50184649a86f1a87a
+outputs.28.1.filename=plc4x-protocols-knxnetip-0.13.0.jar
+outputs.28.1.length=73765
+outputs.28.1.checksums.sha512=d75479933fd02288ea460c9e28b8f620f1eb99511ac8c36b161d98f64517a73d3b0a17044cf1635c7ba24ab70b385c729d35cea4107769169211ab90c0971110
 
 outputs.28.2.groupId=org.apache.plc4x
-outputs.28.2.filename=plc4x-website-0.13.0-sources.jar
-outputs.28.2.length=8921
-outputs.28.2.checksums.sha512=f516459032ca50d23074893bc14a6985d385363854ac192e46fb4c64604be84e5d2ba87159d32a7e28f4b4f22081c6f8ec797f908d5444b8846c9fdab36da081
+outputs.28.2.filename=plc4x-protocols-knxnetip-0.13.0-tests.jar
+outputs.28.2.length=31888
+outputs.28.2.checksums.sha512=ab782cdf6100e3695ad0ac679e6e4ac56d2be3b7b70f9eb5bb3725e2062dbee3fe950fcf9e86265ada2d62b8231b87b652f35a47372993b4003e6522f4a557cf
 
-outputs.29.coordinates=org.apache.plc4x:plc4c
+outputs.28.3.groupId=org.apache.plc4x
+outputs.28.3.filename=plc4x-protocols-knxnetip-0.13.0-sources.jar
+outputs.28.3.length=73105
+outputs.28.3.checksums.sha512=4af65872516aa72b4c5bc9c30f91f0000963a36d212fce56a33c03d6dd2748beb0c1b97f238f9da746c4b327fb9c4c71270d699599e8657c167ef6d3a53e3676
+
+outputs.29.coordinates=org.apache.plc4x:plc4x-protocols-modbus
 
 outputs.29.0.groupId=org.apache.plc4x
-outputs.29.0.filename=plc4c-0.13.0.pom
-outputs.29.0.length=16602
-outputs.29.0.checksums.sha512=a94bcc8bb599893eb2583888ddc7c8abaf4b7bf291952e9644e40024ed322e11554210ca9d2a7d1727842c48f006a44d3d086b4f807c1fc6faf1a6e3780b9b3b
+outputs.29.0.filename=plc4x-protocols-modbus-0.13.0.pom
+outputs.29.0.length=1883
+outputs.29.0.checksums.sha512=d16246ee0c30a6ce97c953431053c7ed2968d4864bf030b439c327b7464db6e7f6dd651a711d51a952f3c601099662d4ec3059d61d32da31938748aa06742993
 
 outputs.29.1.groupId=org.apache.plc4x
-outputs.29.1.filename=plc4c-0.13.0-sources.zip
-outputs.29.1.length=407097
-outputs.29.1.checksums.sha512=1f497fca852ee2fdd0142cfcf68fd4a8916bec816dc117440b8243f4a65c83f511a144310d5353109988754e8efadd84f9c8b37ad2fb9ddd3703cbbb59507f44
+outputs.29.1.filename=plc4x-protocols-modbus-0.13.0.jar
+outputs.29.1.length=13781
+outputs.29.1.checksums.sha512=e1b19cd616eefdf7f616d3151eda9b023ea39b87e05982057e234c80465143558ac20c860abe47a7666794ff5a87b5bce60e62b8245a5faf9cd7093a77942e05
 
-outputs.30.coordinates=org.apache.plc4x:plc4j
+outputs.29.2.groupId=org.apache.plc4x
+outputs.29.2.filename=plc4x-protocols-modbus-0.13.0-tests.jar
+outputs.29.2.length=92084
+outputs.29.2.checksums.sha512=61060c92393b54d49a4451ec41f736125c672d14cddcd42ecbf56621d17c8a2e1de2f7be9205d1037862b6be8f99329475b41899a1cd92e9dd39f7035c6050f9
+
+outputs.29.3.groupId=org.apache.plc4x
+outputs.29.3.filename=plc4x-protocols-modbus-0.13.0-sources.jar
+outputs.29.3.length=13341
+outputs.29.3.checksums.sha512=ed50d9067954e6e68bc76cd8bd78833940754754a7397e2ff9e5f231ff0d8ef03e7665ef0322dec7c708e38bbfd10cb9473ffc05da56734a850ea8deb50b5f29
+
+outputs.30.coordinates=org.apache.plc4x:plc4x-protocols-mqtt
 
 outputs.30.0.groupId=org.apache.plc4x
-outputs.30.0.filename=plc4j-0.13.0.pom
-outputs.30.0.length=14422
-outputs.30.0.checksums.sha512=d5ef3c30bd68bd63cf7d792ae75842decbd4f08e7e57d67c8254ba4836ed26600ae3426026e580095b4c59a81a9ace5200bf6fa082c9edf1c750b3a37995182f
+outputs.30.0.filename=plc4x-protocols-mqtt-0.13.0.pom
+outputs.30.0.length=1873
+outputs.30.0.checksums.sha512=f389b51760f6e464e0ec938067d6adfd5323635cb2a8c2febbc85815376bd4f19d6b9f2e3087651bc0f58a0153fc38dca752c1140b18f8c24cdb3e3ebbf40c74
 
-outputs.31.coordinates=org.apache.plc4x:plc4j-api
+outputs.30.1.groupId=org.apache.plc4x
+outputs.30.1.filename=plc4x-protocols-mqtt-0.13.0.jar
+outputs.30.1.length=13638
+outputs.30.1.checksums.sha512=bf05c0f045e2008db28424f8e84938f038f0a0f69bd31c24811ca29f4056de2db5d2952fe0db359323e46c7a7686d7131b7c8c8334cc9a7fbaf8826c4f9476ba
+
+outputs.30.2.groupId=org.apache.plc4x
+outputs.30.2.filename=plc4x-protocols-mqtt-0.13.0-tests.jar
+outputs.30.2.length=8591
+outputs.30.2.checksums.sha512=606b6fdae39d0909051a5b17149eb31327aaba5fb76ce89e056040e1adb5414ea7dcbbdce2d17e6363691ed58c48433360e1849275fea9caa25607ff13070c95
+
+outputs.30.3.groupId=org.apache.plc4x
+outputs.30.3.filename=plc4x-protocols-mqtt-0.13.0-sources.jar
+outputs.30.3.length=13208
+outputs.30.3.checksums.sha512=523f2b15f5ac102f3661c6b198b281a4d17e30755413c55ee1f362791f2295e3629fa3dc230c47b57c045e50922711ba439e0b1bb3d20079d483d30ef095fc7d
+
+outputs.31.coordinates=org.apache.plc4x:plc4x-protocols-opcua
 
 outputs.31.0.groupId=org.apache.plc4x
-outputs.31.0.filename=plc4j-api-0.13.0.pom
-outputs.31.0.length=1643
-outputs.31.0.checksums.sha512=cac780e0d1132ac5c9649a53f19655bbe34f2fe6c4aae2316ea9ce3484e52c12921d5625ccf0cbf4d5ff02803fea2f0755e3a4891ba4a53b25723dc256eaad70
+outputs.31.0.filename=plc4x-protocols-opcua-0.13.0.pom
+outputs.31.0.length=10125
+outputs.31.0.checksums.sha512=d5ccdc3226068d8da04f897c553c8c1bae41ecabd196066c94788651aa10743f2b29f4dd383b5a4856883f3c039645ed4ff9f4ad57e6451a22307ef3bd843c4f
 
 outputs.31.1.groupId=org.apache.plc4x
-outputs.31.1.filename=plc4j-api-0.13.0.jar
-outputs.31.1.length=62923
-outputs.31.1.checksums.sha512=f5b38de86077ed1b4dfc58efc0e99a8d212b35e3fc1e91f9fb03dbdb5fb23274ce104560e37670fd183898f4fe184506b87962e0f5a9ee3d9f0cbb6f18ae93c7
+outputs.31.1.filename=plc4x-protocols-opcua-0.13.0.jar
+outputs.31.1.length=159554
+outputs.31.1.checksums.sha512=b6a1882af94d1cb2d12a3c64af5f938751f0a3433454e2b862c1ff41836a206ef4aca5f2e2484456d01310b5d0c344188a208074cbc68a04bba1c4604a50df38
 
 outputs.31.2.groupId=org.apache.plc4x
-outputs.31.2.filename=plc4j-api-0.13.0-sources.jar
-outputs.31.2.length=78260
-outputs.31.2.checksums.sha512=a389f94e554a23cfe6801575a2b36a18d2ff1c2ae0b42622d0a18a9e27bbb919ae06dec51080cd688f12234eb46b8e45a65f15c550546f8dbdde0ec8c06d7992
+outputs.31.2.filename=plc4x-protocols-opcua-0.13.0-tests.jar
+outputs.31.2.length=27930
+outputs.31.2.checksums.sha512=24b3c5123f26aefa2df5b043994df121e48d532c3abd4ac708de692c348a4a5a464ba0d409902636a30046211981acd61bc8b4e0d65fb8a9a31eccf5f7b27d37
 
-outputs.32.coordinates=org.apache.plc4x:plc4j-spi
+outputs.31.3.groupId=org.apache.plc4x
+outputs.31.3.filename=plc4x-protocols-opcua-0.13.0-sources.jar
+outputs.31.3.length=158855
+outputs.31.3.checksums.sha512=2e851cccea183e25dea97070319e2a3acc1639de1d3619299f36e2a1983b9fe295614bfa8dd4d132caef32dca253874164501d17c9e309fef1da805c561d1485
+
+outputs.32.coordinates=org.apache.plc4x:plc4x-protocols-open-protocol
 
 outputs.32.0.groupId=org.apache.plc4x
-outputs.32.0.filename=plc4j-spi-0.13.0.pom
-outputs.32.0.length=3785
-outputs.32.0.checksums.sha512=9e667dbe17dc420889a1f06372bd290ce488f4cbd54e2d9a1c8eaf5bc9ed8856b3ebaa48361ba071add78c34366e2cdb4364e4fadc92cf5077b61a4861571b15
+outputs.32.0.filename=plc4x-protocols-open-protocol-0.13.0.pom
+outputs.32.0.length=1886
+outputs.32.0.checksums.sha512=0012414ed00a0ded53540f4499cdc771f513cefdfc5e57bd196f459abd26f28cb0bebc98359ca28c23e03e68936a7c50c03c5cd88263494ff3e3cb6a9165ff84
 
 outputs.32.1.groupId=org.apache.plc4x
-outputs.32.1.filename=plc4j-spi-0.13.0.jar
-outputs.32.1.length=482981
-outputs.32.1.checksums.sha512=7a0599322a6dfaca801a99b98a09ce6fcca3872216b7e402e9aee5c4d8a8cf3581520ff959defccd70ea1a79982bdd26183f5cdfd4a5fba68d5496f96dba03d4
+outputs.32.1.filename=plc4x-protocols-open-protocol-0.13.0.jar
+outputs.32.1.length=21117
+outputs.32.1.checksums.sha512=f9da036b5040c5d7bc70240a6a026d2aef2cc398b52e11b063a5cf2ec4de15ce7ac8f53eab34f93c66476ab3e9bf18050394f85b438dfc8420f81f7ec440d4b8
 
 outputs.32.2.groupId=org.apache.plc4x
-outputs.32.2.filename=plc4j-spi-0.13.0-sources.jar
-outputs.32.2.length=361714
-outputs.32.2.checksums.sha512=a68dae490802f81621c23515f2a3a7bcc5b67da3712e0ef066aa41562c70eebab21e4757f0e393caf6565e1466904a14b446037e5fb1768fb333891d835a104f
+outputs.32.2.filename=plc4x-protocols-open-protocol-0.13.0-tests.jar
+outputs.32.2.length=12397
+outputs.32.2.checksums.sha512=0707b0159bc1e646c6a4466f1efb008c124253c0e4557bc6defd929e718f20589397ba01cc2dff1da23901db06794e899d80593b620841dd871974166218c84e
 
-outputs.33.coordinates=org.apache.plc4x:plc4j-transports
+outputs.32.3.groupId=org.apache.plc4x
+outputs.32.3.filename=plc4x-protocols-open-protocol-0.13.0-sources.jar
+outputs.32.3.length=20661
+outputs.32.3.checksums.sha512=e11e6e81d9a82dfdc644dd57e4913aafd995f75dc2293b04e5c3e62a066730e2fd2ebd5494bf127da4186d90332ac5472c811e1abe899633ee77046c4a02b7bc
+
+outputs.33.coordinates=org.apache.plc4x:plc4x-protocols-plc4x
 
 outputs.33.0.groupId=org.apache.plc4x
-outputs.33.0.filename=plc4j-transports-0.13.0.pom
-outputs.33.0.length=1862
-outputs.33.0.checksums.sha512=5caa116ddc57a704521f1faf9af58ae6e4cf4d527682372e0f31d7159980ffa04b699d2c8de55dc5992e203b02aeac3ec97f25b2963c540eaad8536a0f6eae9d
+outputs.33.0.filename=plc4x-protocols-plc4x-0.13.0.pom
+outputs.33.0.length=1894
+outputs.33.0.checksums.sha512=ecac812fcce6e56297f6b046ee39a66b95edc3095aeb67a85b784677aef1ab2e4672ea3f90114c9900ec7ca938a1a8b153e519348e7f0366df6834641ae49baf
 
-outputs.34.coordinates=org.apache.plc4x:plc4j-transport-tcp
+outputs.33.1.groupId=org.apache.plc4x
+outputs.33.1.filename=plc4x-protocols-plc4x-0.13.0.jar
+outputs.33.1.length=12861
+outputs.33.1.checksums.sha512=9e21c5f6cea79ecf1ee213f32e2dc544ba78bf8e2fdba2d65971122a9a989ccd7ca50d3e30fa46f58b2fa9c2dc5e57744664f2929ef951dfe4f775ccf7fc34c8
+
+outputs.33.2.groupId=org.apache.plc4x
+outputs.33.2.filename=plc4x-protocols-plc4x-0.13.0-tests.jar
+outputs.33.2.length=12573
+outputs.33.2.checksums.sha512=23007a252618d5e9220b6e22bb23aebd8f50c8017ccc672c2e1f0518018f5d2d10017fb4d9dd9dc90913a5b46b3dffffbd2262d4d504591dc25569d67dc9b2a1
+
+outputs.33.3.groupId=org.apache.plc4x
+outputs.33.3.filename=plc4x-protocols-plc4x-0.13.0-sources.jar
+outputs.33.3.length=12253
+outputs.33.3.checksums.sha512=ca76231b5f00816e5be18398ce519db55a760ec242e52952349849f6ced71a8b3dbb177d47f0542ee2fd742d5bf03b626128977ea9a492292b5a0d522783782c
+
+outputs.34.coordinates=org.apache.plc4x:plc4x-protocols-plc4x-api
 
 outputs.34.0.groupId=org.apache.plc4x
-outputs.34.0.filename=plc4j-transport-tcp-0.13.0.pom
-outputs.34.0.length=2751
-outputs.34.0.checksums.sha512=d141b0bec8fcbd42d405b0f00a2a34a37e8dcf0647ff4f7e4f1e47ab7da16c2e847d538f255f1e8f8fb983e942942173cccfd6186d90034f11e31d9d2fb093eb
+outputs.34.0.filename=plc4x-protocols-plc4x-api-0.13.0.pom
+outputs.34.0.length=1864
+outputs.34.0.checksums.sha512=6324c728f2c5cba000e566e019664954e2e7b89cd37b95d50a4ee07c3f22c039221be4008ec0257fa8347e8d13485a4987479f96e26dff0cb6571d40f029153f
 
 outputs.34.1.groupId=org.apache.plc4x
-outputs.34.1.filename=plc4j-transport-tcp-0.13.0.jar
-outputs.34.1.length=14332
-outputs.34.1.checksums.sha512=86b8d29f598d24d9eedd5951b504e10b7cf08a3c5c0e4ba771d1175c109666321175f55d556ecdbae41207b65c2ea57eee7e64b37c0e26fe6cdb006fb23d10ac
+outputs.34.1.filename=plc4x-protocols-plc4x-api-0.13.0.jar
+outputs.34.1.length=11678
+outputs.34.1.checksums.sha512=e504fe4d18f27036cad5d81af7235231d9cf3e74c71a676db9daa22f444fcded5292ba1b4f47232512540cffae32096f09bb5c349dcfdc0028dd56353a27b1ab
 
 outputs.34.2.groupId=org.apache.plc4x
-outputs.34.2.filename=plc4j-transport-tcp-0.13.0-sources.jar
-outputs.34.2.length=13723
-outputs.34.2.checksums.sha512=80da45014f1cde39f15757a06920cd1423be64819d74cc963fd11095ea6911cc47992bcd1c680a37a592fb1d0198dda12f37c42867ca6ff70fa7adb8419261bb
+outputs.34.2.filename=plc4x-protocols-plc4x-api-0.13.0-tests.jar
+outputs.34.2.length=9578
+outputs.34.2.checksums.sha512=ca408079a1dbd18a65e586dbb58c083e42bb05cc9f43bfac8ea626dbdb2607d7e22361ada11c1bf46deba095c8fc0c43b6574eeea24d040b0947e4a608066289
 
-outputs.35.coordinates=org.apache.plc4x:plc4j-transport-test
+outputs.34.3.groupId=org.apache.plc4x
+outputs.34.3.filename=plc4x-protocols-plc4x-api-0.13.0-sources.jar
+outputs.34.3.length=11067
+outputs.34.3.checksums.sha512=5eae1d53ed4c747d1f09d2ab865b6f859ac13e1460062f49389da5399fc47be6bc942521c30673e5e3213a54a7341bd46351dff424320121ec47707a9f839b78
+
+outputs.35.coordinates=org.apache.plc4x:plc4x-protocols-profinet
 
 outputs.35.0.groupId=org.apache.plc4x
-outputs.35.0.filename=plc4j-transport-test-0.13.0.pom
-outputs.35.0.length=2836
-outputs.35.0.checksums.sha512=d97de4f301cc60b4bf01242ae99534f1159be3338673cb8acfbacb6046f459e1f6e72815780eb2a82adf7a82098b2b767d7a6a5721d7b00d0cd868a80f53debf
+outputs.35.0.filename=plc4x-protocols-profinet-0.13.0.pom
+outputs.35.0.length=1890
+outputs.35.0.checksums.sha512=428fe58abeb3828b53cdfcbb7a35af5604ff4c3ac88dac7adb894b03de27a5b19c69daa5a0e9c5dd8b875d0cdeb2c01a6672c40543acec654a32eca46383c44a
 
 outputs.35.1.groupId=org.apache.plc4x
-outputs.35.1.filename=plc4j-transport-test-0.13.0.jar
-outputs.35.1.length=29862
-outputs.35.1.checksums.sha512=810441bb358c60ad6d3cb970052c7a86b8efdeb0d708f40b691ccec54370c8c4afd87475edfbc68dab517ddd1018a11d1c5b0d1f1627636c2c8cc4a1d30503df
+outputs.35.1.filename=plc4x-protocols-profinet-0.13.0.jar
+outputs.35.1.length=27661
+outputs.35.1.checksums.sha512=ac91dcda51b1545587f7a078aa343ecf2b33355d23eb1cc13373d528c71e485b39d686596ae336306684505dc1dcf949f43824a66b3de8b6fbeecde6ad855909
 
 outputs.35.2.groupId=org.apache.plc4x
-outputs.35.2.filename=plc4j-transport-test-0.13.0-sources.jar
-outputs.35.2.length=22954
-outputs.35.2.checksums.sha512=ebb8a6646584fd102ea660f8faed2940861d0718cc4bd5979ecc201a51d1c554bc8d77c38136a35591f6b03d514ef1414a0c3ef69aac1d6fbfad3e7dfbdd58a9
+outputs.35.2.filename=plc4x-protocols-profinet-0.13.0-tests.jar
+outputs.35.2.length=30034
+outputs.35.2.checksums.sha512=ea0bce5056c8ee7aa1ae1add9b6fba573dc84c7f3c7f3a08416619ec009bc12d4c8821a8477b6fe072a7914190f14b92ce7a7c193dc6a779d1e2f61f46d83651
 
-outputs.36.coordinates=org.apache.plc4x:plc4j-utils
+outputs.35.3.groupId=org.apache.plc4x
+outputs.35.3.filename=plc4x-protocols-profinet-0.13.0-sources.jar
+outputs.35.3.length=26974
+outputs.35.3.checksums.sha512=bbe33fff63d07cccde9fefd0310b0232564c417dfd5554b3110b7738c69c61be108e77764b8f29d0083afebf30323b8de0f987a3292d443876d2c3662f38c2b6
+
+outputs.36.coordinates=org.apache.plc4x:plc4x-protocols-s7
 
 outputs.36.0.groupId=org.apache.plc4x
-outputs.36.0.filename=plc4j-utils-0.13.0.pom
-outputs.36.0.length=1865
-outputs.36.0.checksums.sha512=5e7d1bc47731fc85fdac9c1722a219f46e94e84c9d71839ca2157e69ff3368f5497a8f756e91423d635679f5dcc0ef116dbf972ed60b8a30102d90bbca1ae941
+outputs.36.0.filename=plc4x-protocols-s7-0.13.0.pom
+outputs.36.0.length=1879
+outputs.36.0.checksums.sha512=d372bc6b7bc1f7cc99613f4620de6a2d92b87f203621419f35a733918adf197983eeca079ac32ab7e91a087356e62bfdd178beec28e7ac69dd7f804bc091ed13
 
-outputs.37.coordinates=org.apache.plc4x:plc4j-utils-test-utils
+outputs.36.1.groupId=org.apache.plc4x
+outputs.36.1.filename=plc4x-protocols-s7-0.13.0.jar
+outputs.36.1.length=24009
+outputs.36.1.checksums.sha512=20f766a6ed0144f44501b29f258f7d6fade98191a5566467a1d7dca232bc6da7e469750903f09549c01395e417f069ba9383bcd39a77d9a39d7009ee06ad928a
+
+outputs.36.2.groupId=org.apache.plc4x
+outputs.36.2.filename=plc4x-protocols-s7-0.13.0-tests.jar
+outputs.36.2.length=36452
+outputs.36.2.checksums.sha512=1e5d8b399716962a90fb1649a30c7aef375ab972d9ed69159e57c051d46f18fa804346d8716639b5e4318e648ccb3732a7d901c64bb7d05a68cf3ca46888e79d
+
+outputs.36.3.groupId=org.apache.plc4x
+outputs.36.3.filename=plc4x-protocols-s7-0.13.0-sources.jar
+outputs.36.3.length=23672
+outputs.36.3.checksums.sha512=1338dc61a2e6d800e23cc8efdf64b346154a1004a41299b224f64bbe4e8189e35ddfe77471f814c7476e89227a54859889a12a11723a2fc1f787e3f3f2e112bc
+
+outputs.37.coordinates=org.apache.plc4x:plc4x-protocols-simulated
 
 outputs.37.0.groupId=org.apache.plc4x
-outputs.37.0.filename=plc4j-utils-test-utils-0.13.0.pom
-outputs.37.0.length=3225
-outputs.37.0.checksums.sha512=93853ff189ef373fabf5af801830d645794a7fc866c4b6a2f02523804d91a639949164295d2bc2fef35e70fcf9eea77dfaf37955abfdf867acff17f577ef2055
+outputs.37.0.filename=plc4x-protocols-simulated-0.13.0.pom
+outputs.37.0.length=1893
+outputs.37.0.checksums.sha512=8953d4a7f2d619be5fc3104d30280726047fcd44793cb40e88614dbdcfc49e8fbd2168af4451ba5098778f46533100eb8b41a2b3515af13d5124ecddeda7373c
 
 outputs.37.1.groupId=org.apache.plc4x
-outputs.37.1.filename=plc4j-utils-test-utils-0.13.0.jar
-outputs.37.1.length=103237
-outputs.37.1.checksums.sha512=feb1b4337cbe6a9dd80b809fc527ef5a63979689db8b9d9691a1ee3f10f6cc26c175f5be53db19549f12467c98a48b4ef0c9da6259aa6cecb1bd8827ae825524
+outputs.37.1.filename=plc4x-protocols-simulated-0.13.0.jar
+outputs.37.1.length=11343
+outputs.37.1.checksums.sha512=39734f726ce92f8d8451a3a6ec8f7e122619f7d7eb9f1264478ae5241c8febab9df0a436a7a2466b69f1dcba88c426d93f31cf5bacb1c23f7610e53ee00b7d5e
 
 outputs.37.2.groupId=org.apache.plc4x
-outputs.37.2.filename=plc4j-utils-test-utils-0.13.0-sources.jar
-outputs.37.2.length=89057
-outputs.37.2.checksums.sha512=6352ff422a3a16e9a35666d7efa989a49aa20a237c624eafddc48790f6ba8afbb7cd871019c8d25d98ba858cefaa3f28315868e3065fc8768cfffa524e968ed5
+outputs.37.2.filename=plc4x-protocols-simulated-0.13.0-tests.jar
+outputs.37.2.length=9418
+outputs.37.2.checksums.sha512=f689aa8f04bcf048856ae48f02b3e11d89da2eaa85342ae763a0d3425e0a261eed84ec48e10c1ad78dd17b2bc116921d937e8d6313a28e794295ca7ef3db4634
 
-outputs.38.coordinates=org.apache.plc4x:plc4j-drivers
+outputs.37.3.groupId=org.apache.plc4x
+outputs.37.3.filename=plc4x-protocols-simulated-0.13.0-sources.jar
+outputs.37.3.length=10894
+outputs.37.3.checksums.sha512=287c17a898d2b6cd8941728541f090f2292e2304cae0597c48bfabfd7a819efb1fa955e2d29985eaa7622192d205d0e4415226d8eecd3c4d7fc955ac55159b19
+
+outputs.38.coordinates=org.apache.plc4x:plc4x-protocols-socketcan
 
 outputs.38.0.groupId=org.apache.plc4x
-outputs.38.0.filename=plc4j-drivers-0.13.0.pom
-outputs.38.0.length=2141
-outputs.38.0.checksums.sha512=05d1085d0f514a887a97735f8fe47d01dbb13fdf335fac5819f9737c69dd8d551d39a780d6d3d8fe960571dcbb46798566a85fadd8b523cfd3508d85f2b1e49e
+outputs.38.0.filename=plc4x-protocols-socketcan-0.13.0.pom
+outputs.38.0.length=1890
+outputs.38.0.checksums.sha512=36a3f1e521c0265dfe736c7610d41add24ffe8219153e7e858b354b6f55f8aff6860e06b5b56de68322b237200b8153099366bf0e2a155925ef3b6beeb143834
 
-outputs.39.coordinates=org.apache.plc4x:plc4j-driver-ab-eth
+outputs.38.1.groupId=org.apache.plc4x
+outputs.38.1.filename=plc4x-protocols-socketcan-0.13.0.jar
+outputs.38.1.length=10902
+outputs.38.1.checksums.sha512=0ef1a484ccd450c147429f0838f2716c44646bce27b1676c6b420da0cd823d3051135e7f78f030a031c362e1e92b01856644350f405bc23e1c4a6231d079895b
+
+outputs.38.2.groupId=org.apache.plc4x
+outputs.38.2.filename=plc4x-protocols-socketcan-0.13.0-tests.jar
+outputs.38.2.length=9436
+outputs.38.2.checksums.sha512=80f25a3a777b2237c0b8078c671f72ef0bd6f13509f37747dc628db75e08bc2cddb74760eee7ff73ad049c6297dc206361f0e0d3a6362d3df09db169e6a05f61
+
+outputs.38.3.groupId=org.apache.plc4x
+outputs.38.3.filename=plc4x-protocols-socketcan-0.13.0-sources.jar
+outputs.38.3.length=10430
+outputs.38.3.checksums.sha512=fb993b634a2b3abd7fc80470882d85b3bed502f6783471aeda629010589611bdd9c2bf8e4658420db7fbaa46d50479b5e6f9c6e371bb80525f6219f7497bf17b
+
+outputs.39.coordinates=org.apache.plc4x:plc4x-protocols-umas
 
 outputs.39.0.groupId=org.apache.plc4x
-outputs.39.0.filename=plc4j-driver-ab-eth-0.13.0.pom
-outputs.39.0.length=6014
-outputs.39.0.checksums.sha512=65ad80450f2fec982629ccd3f41444eed06b4b12e61397b480af3f5886defc21b027e5cc3b982b6245733ca108ccccee7b7758602955fdd1bb48bd99d1987a3c
+outputs.39.0.filename=plc4x-protocols-umas-0.13.0.pom
+outputs.39.0.length=1877
+outputs.39.0.checksums.sha512=da396a319762b3c4cb6190beb8aafddcc36db97647aed5144e6175240210c535f3b829663fdbc93683f8326672767e7f41ccc12f5f6bb5a922b989125b188f16
 
 outputs.39.1.groupId=org.apache.plc4x
-outputs.39.1.filename=plc4j-driver-ab-eth-0.13.0.jar
-outputs.39.1.length=71815
-outputs.39.1.checksums.sha512=c8a15e4519c094ac32a51cc1549fea81613fd014f073e14ecdd85bf3f4ef08e1c773b9a4a09e8feb7352e4d682c72defc8247e6d145fa0d20cc9b7b98e7de2ec
+outputs.39.1.filename=plc4x-protocols-umas-0.13.0.jar
+outputs.39.1.length=13314
+outputs.39.1.checksums.sha512=a4cf13ef963ebbbcb808e32fefdea776f5f02c989e2382a406b2f98b5a423477613421bf0de862bb7fcc4091fe2c82577bb388558b302f858d04c0e673fb3bfc
 
 outputs.39.2.groupId=org.apache.plc4x
-outputs.39.2.filename=plc4j-driver-ab-eth-0.13.0-features.xml
-outputs.39.2.length=1449
-outputs.39.2.checksums.sha512=f3efee11b1298e4fb7bcf240099d41cfa59fd8f7c4bd82ea6adf07055f02267022e2ccf3130b6d30893de37b1fcbadd25b2ccf1336496cf2bde113442e838fc8
+outputs.39.2.filename=plc4x-protocols-umas-0.13.0-tests.jar
+outputs.39.2.length=9340
+outputs.39.2.checksums.sha512=4116142618e7048ecc5b14ec3581480fe8a17220c0a7fb0857f0437e146b49dd3abe580cdfb548c4096de2b4ece40415d394fa9bbdaff1656f806e8b2f4255b4
 
 outputs.39.3.groupId=org.apache.plc4x
-outputs.39.3.filename=plc4j-driver-ab-eth-0.13.0.kar
-outputs.39.3.length=6356195
-outputs.39.3.checksums.sha512=eba44f7e290c2f30e46331e8d0d3ffe9e08b65e85ca987345d3667fee82d608e6eb4bd6adbf4919a9941320e3570ffe378d2b51e2867ed3be61876340fca1fb6
+outputs.39.3.filename=plc4x-protocols-umas-0.13.0-sources.jar
+outputs.39.3.length=12882
+outputs.39.3.checksums.sha512=c86b0dc5d6c68960f1fe8b6073666b5dca4daa06dbd8f9cf5bd4c1587555cb0fd519245822aec7a258ce45083231dc260247c5b9e6d6e12d3e51fbb8a24553a1
 
-outputs.39.4.groupId=org.apache.plc4x
-outputs.39.4.filename=plc4j-driver-ab-eth-0.13.0-sources.jar
-outputs.39.4.length=44970
-outputs.39.4.checksums.sha512=38dac49943e723ad8b862a2e390c728cb1180d41c1541404104429964c72c13cceae172d1965c7b26d6cc6b52bbcb8dc110880c612b5414defd401133f2d7f85
-
-outputs.40.coordinates=org.apache.plc4x:plc4j-driver-ads
+outputs.40.coordinates=org.apache.plc4x:plc4x-website
 
 outputs.40.0.groupId=org.apache.plc4x
-outputs.40.0.filename=plc4j-driver-ads-0.13.0.pom
-outputs.40.0.length=7195
-outputs.40.0.checksums.sha512=73c1a52073929be647f3c12e2e67d23cdb20ecab038d7dc9e50ce132ad61a6324e6e7ba749f640a3223f0cebcb96930b9928171dd106213b81857ec981684b11
+outputs.40.0.filename=plc4x-website-0.13.0.pom
+outputs.40.0.length=15826
+outputs.40.0.checksums.sha512=e3a50fe66f953065462aa4e7dc864bd1d82d3722a67f938b4bdf4ec7d5e4bafadc05c6e1985a1965b7e9d57726392a39cf8b18796e95df2cdd4e20bfce660f5e
 
 outputs.40.1.groupId=org.apache.plc4x
-outputs.40.1.filename=plc4j-driver-ads-0.13.0.jar
-outputs.40.1.length=300626
-outputs.40.1.checksums.sha512=cc07e9373615d7186764367e6d5644e511c34fda18285f6b30a2e0478ec4c531fd366711a52d72f75b77ba3bcb02dedca8c7b2daaa46cdd3fc629f3e431a537c
+outputs.40.1.filename=plc4x-website-0.13.0.jar
+outputs.40.1.length=9027
+outputs.40.1.checksums.sha512=a146c0c00ce76a2ab412940ff4534aacfbe4287b3a44b66b337a369b6efdb1530794e74c3b3abb66b006a6e2a72273a5a93625eb46355bd50184649a86f1a87a
 
 outputs.40.2.groupId=org.apache.plc4x
-outputs.40.2.filename=plc4j-driver-ads-0.13.0-features.xml
-outputs.40.2.length=1462
-outputs.40.2.checksums.sha512=4267e6c9ea69531a4a3cc7ac849f0db100ee436d22087901160980133b32d398323e6b14d279c3639eb305f510a53ab4f424e8d8ab53eaa21d8eacb691716920
+outputs.40.2.filename=plc4x-website-0.13.0-sources.jar
+outputs.40.2.length=8921
+outputs.40.2.checksums.sha512=f516459032ca50d23074893bc14a6985d385363854ac192e46fb4c64604be84e5d2ba87159d32a7e28f4b4f22081c6f8ec797f908d5444b8846c9fdab36da081
 
-outputs.40.3.groupId=org.apache.plc4x
-outputs.40.3.filename=plc4j-driver-ads-0.13.0.kar
-outputs.40.3.length=6647167
-outputs.40.3.checksums.sha512=036f7d48853f6f124bf240f076664e486bd0bbd74d902ce0dbea8658f1cfefbcc01959bae43eb69906f9d4b2be9ee44f0cfb17c91479f9a7d3200cfa6559aec0
-
-outputs.40.4.groupId=org.apache.plc4x
-outputs.40.4.filename=plc4j-driver-ads-0.13.0-sources.jar
-outputs.40.4.length=169728
-outputs.40.4.checksums.sha512=eae17534c8200fb9341932334c04c2b62b60d94c84a2b22b0cecbbd9ba32619403d2e2e8e3ab8beb13b42b9159410cd0805947a0fd81f7f2e7d84426dcf4816d
-
-outputs.41.coordinates=org.apache.plc4x:plc4j-transport-udp
+outputs.41.coordinates=org.apache.plc4x:plc4c
 
 outputs.41.0.groupId=org.apache.plc4x
-outputs.41.0.filename=plc4j-transport-udp-0.13.0.pom
-outputs.41.0.length=2934
-outputs.41.0.checksums.sha512=5ec740451d274d2fadce2c3fe83bded4a9154c3f4cd4fae02546b4788c72ccd6abd822630cb099d831429530732cf9e3b963f51bb9d8cb460c5a0c7285e6aec1
+outputs.41.0.filename=plc4c-0.13.0.pom
+outputs.41.0.length=16602
+outputs.41.0.checksums.sha512=a94bcc8bb599893eb2583888ddc7c8abaf4b7bf291952e9644e40024ed322e11554210ca9d2a7d1727842c48f006a44d3d086b4f807c1fc6faf1a6e3780b9b3b
 
 outputs.41.1.groupId=org.apache.plc4x
-outputs.41.1.filename=plc4j-transport-udp-0.13.0.jar
-outputs.41.1.length=15153
-outputs.41.1.checksums.sha512=3edad5cd714ff19b64223ff1804f08181fd66149cec651ec522aa3e8e44ae0970892a59d1dfe2617aae7ce90a6b532012120f5898aaca63337d8cd6251749010
+outputs.41.1.filename=plc4c-0.13.0-sources.zip
+outputs.41.1.length=407097
+outputs.41.1.checksums.sha512=1f497fca852ee2fdd0142cfcf68fd4a8916bec816dc117440b8243f4a65c83f511a144310d5353109988754e8efadd84f9c8b37ad2fb9ddd3703cbbb59507f44
 
-outputs.41.2.groupId=org.apache.plc4x
-outputs.41.2.filename=plc4j-transport-udp-0.13.0-sources.jar
-outputs.41.2.length=14704
-outputs.41.2.checksums.sha512=fc0b55df9aebaa5d806c2bfbb8ff19a5402a247c0710e0e6cc8c0a61fb2ef533dd03ce104322da046334f4731cc89299aeb6bf791cfd6ff20c795dbec2cc6540
-
-outputs.42.coordinates=org.apache.plc4x:plc4j-utils-pcap-shared
+outputs.42.coordinates=org.apache.plc4x:plc4j-drivers
 
 outputs.42.0.groupId=org.apache.plc4x
-outputs.42.0.filename=plc4j-utils-pcap-shared-0.13.0.pom
-outputs.42.0.length=2893
-outputs.42.0.checksums.sha512=69955ece4ffd299f757a81a5d079b19a27ec397d9921d0eb409f599a0828ac9f1b4474b59ede27b4b8b4ee731231057c557d78c4b52c21940c4096c5713c1781
+outputs.42.0.filename=plc4j-drivers-0.13.0.pom
+outputs.42.0.length=2141
+outputs.42.0.checksums.sha512=05d1085d0f514a887a97735f8fe47d01dbb13fdf335fac5819f9737c69dd8d551d39a780d6d3d8fe960571dcbb46798566a85fadd8b523cfd3508d85f2b1e49e
 
-outputs.42.1.groupId=org.apache.plc4x
-outputs.42.1.filename=plc4j-utils-pcap-shared-0.13.0.jar
-outputs.42.1.length=16000
-outputs.42.1.checksums.sha512=a710a1b6f58849472198be3c707fc9cde77f10cb85b68e17867bdc6c4dbdf165e1dd794a008485868c4f3b4022b3dbea0dc10f10c1b55225e969b9044174d761
-
-outputs.42.2.groupId=org.apache.plc4x
-outputs.42.2.filename=plc4j-utils-pcap-shared-0.13.0-sources.jar
-outputs.42.2.length=16073
-outputs.42.2.checksums.sha512=af688fc4ef959558da811db55970532c803f67b3a0e06e85dd3e6331884f7bee8e59e8406d2299871fdd9ed179d4f56614cb3348bdf09dde2c733597e628e7de
-
-outputs.43.coordinates=org.apache.plc4x:plc4j-transport-pcap-shared
+outputs.43.coordinates=org.apache.plc4x:plc4j-driver-ab-eth
 
 outputs.43.0.groupId=org.apache.plc4x
-outputs.43.0.filename=plc4j-transport-pcap-shared-0.13.0.pom
-outputs.43.0.length=1914
-outputs.43.0.checksums.sha512=720b6ab61ccedad49628083e0e70a328557e14373c194215b1a4f13f21c87a2ff8214c256865aaaf056d8569e947c8c85fa1a8a618177e49a2c19b982606dc40
+outputs.43.0.filename=plc4j-driver-ab-eth-0.13.0.pom
+outputs.43.0.length=6014
+outputs.43.0.checksums.sha512=65ad80450f2fec982629ccd3f41444eed06b4b12e61397b480af3f5886defc21b027e5cc3b982b6245733ca108ccccee7b7758602955fdd1bb48bd99d1987a3c
 
 outputs.43.1.groupId=org.apache.plc4x
-outputs.43.1.filename=plc4j-transport-pcap-shared-0.13.0.jar
-outputs.43.1.length=10295
-outputs.43.1.checksums.sha512=37f2935014474b5103d23287939647e8bb9b51199b596e5311f48f0d756fad7375498b789f31e8db257e213d7c461f154129b964167103e1fda9da86fda03dbd
+outputs.43.1.filename=plc4j-driver-ab-eth-0.13.0.jar
+outputs.43.1.length=71815
+outputs.43.1.checksums.sha512=c8a15e4519c094ac32a51cc1549fea81613fd014f073e14ecdd85bf3f4ef08e1c773b9a4a09e8feb7352e4d682c72defc8247e6d145fa0d20cc9b7b98e7de2ec
 
 outputs.43.2.groupId=org.apache.plc4x
-outputs.43.2.filename=plc4j-transport-pcap-shared-0.13.0-sources.jar
-outputs.43.2.length=10167
-outputs.43.2.checksums.sha512=18120dcc9d5fe46ddadafcc74b77356b3b4cc4a9156088e53b65295f19ebca6c0055fccf4f5df5b7fef988d336c7d22b239fe309ec42a5e3132d55e369221956
+outputs.43.2.filename=plc4j-driver-ab-eth-0.13.0-features.xml
+outputs.43.2.length=1449
+outputs.43.2.checksums.sha512=f3efee11b1298e4fb7bcf240099d41cfa59fd8f7c4bd82ea6adf07055f02267022e2ccf3130b6d30893de37b1fcbadd25b2ccf1336496cf2bde113442e838fc8
 
-outputs.44.coordinates=org.apache.plc4x:plc4j-utils-raw-sockets
+outputs.43.3.groupId=org.apache.plc4x
+outputs.43.3.filename=plc4j-driver-ab-eth-0.13.0.kar
+outputs.43.3.length=6356195
+outputs.43.3.checksums.sha512=eba44f7e290c2f30e46331e8d0d3ffe9e08b65e85ca987345d3667fee82d608e6eb4bd6adbf4919a9941320e3570ffe378d2b51e2867ed3be61876340fca1fb6
+
+outputs.43.4.groupId=org.apache.plc4x
+outputs.43.4.filename=plc4j-driver-ab-eth-0.13.0-sources.jar
+outputs.43.4.length=44970
+outputs.43.4.checksums.sha512=38dac49943e723ad8b862a2e390c728cb1180d41c1541404104429964c72c13cceae172d1965c7b26d6cc6b52bbcb8dc110880c612b5414defd401133f2d7f85
+
+outputs.44.coordinates=org.apache.plc4x:plc4j-driver-ads
 
 outputs.44.0.groupId=org.apache.plc4x
-outputs.44.0.filename=plc4j-utils-raw-sockets-0.13.0.pom
-outputs.44.0.length=4106
-outputs.44.0.checksums.sha512=822ac54572d99e31665c363f3b2bc175266c4dcf1df81eb64304eca2c22e57bdcf9ceef2218b5e78f71733ed127619a4162ad74eaf79ae8d33202f733bf94645
+outputs.44.0.filename=plc4j-driver-ads-0.13.0.pom
+outputs.44.0.length=7195
+outputs.44.0.checksums.sha512=73c1a52073929be647f3c12e2e67d23cdb20ecab038d7dc9e50ce132ad61a6324e6e7ba749f640a3223f0cebcb96930b9928171dd106213b81857ec981684b11
 
 outputs.44.1.groupId=org.apache.plc4x
-outputs.44.1.filename=plc4j-utils-raw-sockets-0.13.0.jar
-outputs.44.1.length=28461
-outputs.44.1.checksums.sha512=56bd75077c9d7c98b0e8aecd68cb32b586e3ee3b68254806be309274fedfebfeb6db51f9292a431828038c1587df0de09eb94c85961adaf885125c9699e52c0d
+outputs.44.1.filename=plc4j-driver-ads-0.13.0.jar
+outputs.44.1.length=300626
+outputs.44.1.checksums.sha512=cc07e9373615d7186764367e6d5644e511c34fda18285f6b30a2e0478ec4c531fd366711a52d72f75b77ba3bcb02dedca8c7b2daaa46cdd3fc629f3e431a537c
 
 outputs.44.2.groupId=org.apache.plc4x
-outputs.44.2.filename=plc4j-utils-raw-sockets-0.13.0-sources.jar
-outputs.44.2.length=20578
-outputs.44.2.checksums.sha512=d3b2cfe85e027e4330e3ab8f897c298c176a097aa60281e13876fe42fe2e552fb103d81efa89256a0a89a92a61b900ce1b59ee488d8462a3b9f2f1d185e98c74
+outputs.44.2.filename=plc4j-driver-ads-0.13.0-features.xml
+outputs.44.2.length=1462
+outputs.44.2.checksums.sha512=4267e6c9ea69531a4a3cc7ac849f0db100ee436d22087901160980133b32d398323e6b14d279c3639eb305f510a53ab4f424e8d8ab53eaa21d8eacb691716920
 
-outputs.45.coordinates=org.apache.plc4x:plc4j-transport-raw-socket
+outputs.44.3.groupId=org.apache.plc4x
+outputs.44.3.filename=plc4j-driver-ads-0.13.0.kar
+outputs.44.3.length=6647167
+outputs.44.3.checksums.sha512=036f7d48853f6f124bf240f076664e486bd0bbd74d902ce0dbea8658f1cfefbcc01959bae43eb69906f9d4b2be9ee44f0cfb17c91479f9a7d3200cfa6559aec0
+
+outputs.44.4.groupId=org.apache.plc4x
+outputs.44.4.filename=plc4j-driver-ads-0.13.0-sources.jar
+outputs.44.4.length=169728
+outputs.44.4.checksums.sha512=eae17534c8200fb9341932334c04c2b62b60d94c84a2b22b0cecbbd9ba32619403d2e2e8e3ab8beb13b42b9159410cd0805947a0fd81f7f2e7d84426dcf4816d
+
+outputs.45.coordinates=org.apache.plc4x:plc4j-transport-udp
 
 outputs.45.0.groupId=org.apache.plc4x
-outputs.45.0.filename=plc4j-transport-raw-socket-0.13.0.pom
-outputs.45.0.length=3356
-outputs.45.0.checksums.sha512=80ddf81286ba4f9f26488a8e8535afa7c6ec2587a9a171b3dafbc4b690f74d4a3b9d7a3dd2b97502eb584f36ec202e77f7e5347bf943fb664c4135cfd323ff38
+outputs.45.0.filename=plc4j-transport-udp-0.13.0.pom
+outputs.45.0.length=2934
+outputs.45.0.checksums.sha512=5ec740451d274d2fadce2c3fe83bded4a9154c3f4cd4fae02546b4788c72ccd6abd822630cb099d831429530732cf9e3b963f51bb9d8cb460c5a0c7285e6aec1
 
 outputs.45.1.groupId=org.apache.plc4x
-outputs.45.1.filename=plc4j-transport-raw-socket-0.13.0.jar
-outputs.45.1.length=17875
-outputs.45.1.checksums.sha512=e26301428fa6a12e1f5e8892bcf807eecb3cf1b8cdb29e567e6cb992fab51e9d560a9ffdf71435da384081535fcf852777e6a835bda42b8420653080410929f4
+outputs.45.1.filename=plc4j-transport-udp-0.13.0.jar
+outputs.45.1.length=15153
+outputs.45.1.checksums.sha512=3edad5cd714ff19b64223ff1804f08181fd66149cec651ec522aa3e8e44ae0970892a59d1dfe2617aae7ce90a6b532012120f5898aaca63337d8cd6251749010
 
 outputs.45.2.groupId=org.apache.plc4x
-outputs.45.2.filename=plc4j-transport-raw-socket-0.13.0-sources.jar
-outputs.45.2.length=17543
-outputs.45.2.checksums.sha512=3c934773aaaf4547d5a3d6e4f33695902b432a4f684237112e631368caa4ba582287f289c226ef391aa904bf9060803b4d8b851fe5437975f00ee0a4f2fe61cc
+outputs.45.2.filename=plc4j-transport-udp-0.13.0-sources.jar
+outputs.45.2.length=14704
+outputs.45.2.checksums.sha512=fc0b55df9aebaa5d806c2bfbb8ff19a5402a247c0710e0e6cc8c0a61fb2ef533dd03ce104322da046334f4731cc89299aeb6bf791cfd6ff20c795dbec2cc6540
 
-outputs.46.coordinates=org.apache.plc4x:plc4j-utils-pcap-replay
+outputs.46.coordinates=org.apache.plc4x:plc4j-utils-pcap-shared
 
 outputs.46.0.groupId=org.apache.plc4x
-outputs.46.0.filename=plc4j-utils-pcap-replay-0.13.0.pom
-outputs.46.0.length=3395
-outputs.46.0.checksums.sha512=8c95dc56f64463a3dfbff726b2a6a70fc3c5d65e50d2b01acfdea9b8e7aaeb795c54619cd2f38664e3f6ed04aa64d99626b6f41f98dae91b8f7b2ac1d3dc3866
+outputs.46.0.filename=plc4j-utils-pcap-shared-0.13.0.pom
+outputs.46.0.length=2893
+outputs.46.0.checksums.sha512=69955ece4ffd299f757a81a5d079b19a27ec397d9921d0eb409f599a0828ac9f1b4474b59ede27b4b8b4ee731231057c557d78c4b52c21940c4096c5713c1781
 
 outputs.46.1.groupId=org.apache.plc4x
-outputs.46.1.filename=plc4j-utils-pcap-replay-0.13.0.jar
-outputs.46.1.length=19561
-outputs.46.1.checksums.sha512=6f50e9cd7cdd3f68686785b07d1bcbfc2b05983260030727062b0ff1b09af70ff642906b5e62e9227d36ec489fb686098a5d08c53d13df561f800c658e7a7bec
+outputs.46.1.filename=plc4j-utils-pcap-shared-0.13.0.jar
+outputs.46.1.length=16000
+outputs.46.1.checksums.sha512=a710a1b6f58849472198be3c707fc9cde77f10cb85b68e17867bdc6c4dbdf165e1dd794a008485868c4f3b4022b3dbea0dc10f10c1b55225e969b9044174d761
 
 outputs.46.2.groupId=org.apache.plc4x
-outputs.46.2.filename=plc4j-utils-pcap-replay-0.13.0-sources.jar
-outputs.46.2.length=15202
-outputs.46.2.checksums.sha512=9ef62e125009c9b846585a7000b3cf38e960ac73a8d53f15fa4bfd592246d17041aa5b2bf23f8586198e8cf9aca77adc32a570c863d51a13bb3c040bda8269ef
+outputs.46.2.filename=plc4j-utils-pcap-shared-0.13.0-sources.jar
+outputs.46.2.length=16073
+outputs.46.2.checksums.sha512=af688fc4ef959558da811db55970532c803f67b3a0e06e85dd3e6331884f7bee8e59e8406d2299871fdd9ed179d4f56614cb3348bdf09dde2c733597e628e7de
 
-outputs.47.coordinates=org.apache.plc4x:plc4j-transport-pcap-replay
+outputs.47.coordinates=org.apache.plc4x:plc4j-transport-pcap-shared
 
 outputs.47.0.groupId=org.apache.plc4x
-outputs.47.0.filename=plc4j-transport-pcap-replay-0.13.0.pom
-outputs.47.0.length=3233
-outputs.47.0.checksums.sha512=f4c318ab4a6ee09387d3714d8e7f66bdcd269bb255819664731d202854bfe5dc1add68c4cfc3c1d462a67340c7971f143e237a286209dcd091d4eff1a1db21bd
+outputs.47.0.filename=plc4j-transport-pcap-shared-0.13.0.pom
+outputs.47.0.length=1914
+outputs.47.0.checksums.sha512=720b6ab61ccedad49628083e0e70a328557e14373c194215b1a4f13f21c87a2ff8214c256865aaaf056d8569e947c8c85fa1a8a618177e49a2c19b982606dc40
 
 outputs.47.1.groupId=org.apache.plc4x
-outputs.47.1.filename=plc4j-transport-pcap-replay-0.13.0.jar
-outputs.47.1.length=14505
-outputs.47.1.checksums.sha512=42a8c971d1444f306834983d80137b18964fbf86b9f3327575b92d27d9cb1295017b0528d8ce97c3dfaede3d30240e9bc4482ca6224f2fef70a05d73abbd5bfd
+outputs.47.1.filename=plc4j-transport-pcap-shared-0.13.0.jar
+outputs.47.1.length=10295
+outputs.47.1.checksums.sha512=37f2935014474b5103d23287939647e8bb9b51199b596e5311f48f0d756fad7375498b789f31e8db257e213d7c461f154129b964167103e1fda9da86fda03dbd
 
 outputs.47.2.groupId=org.apache.plc4x
-outputs.47.2.filename=plc4j-transport-pcap-replay-0.13.0-sources.jar
-outputs.47.2.length=13818
-outputs.47.2.checksums.sha512=69c51b683cc84ec2e98f309fea01339548a36a3f9b8b48a085c0d358fdfd8d38b50b660b8033743d6ca106574a54a27d0b16c0aaec4a5e0af837dc86c73dd97a
+outputs.47.2.filename=plc4j-transport-pcap-shared-0.13.0-sources.jar
+outputs.47.2.length=10167
+outputs.47.2.checksums.sha512=18120dcc9d5fe46ddadafcc74b77356b3b4cc4a9156088e53b65295f19ebca6c0055fccf4f5df5b7fef988d336c7d22b239fe309ec42a5e3132d55e369221956
 
-outputs.48.coordinates=org.apache.plc4x:plc4j-driver-s7
+outputs.48.coordinates=org.apache.plc4x:plc4j-utils-raw-sockets
 
 outputs.48.0.groupId=org.apache.plc4x
-outputs.48.0.filename=plc4j-driver-s7-0.13.0.pom
-outputs.48.0.length=8449
-outputs.48.0.checksums.sha512=20873e0b66701c81002de0897cc073e43d66ea0a4cf263b2e24d8dbc574798438ca8e968f6cb7c95658cfc75b43616722f14525414c3184d5e6c9daa7dbd5566
+outputs.48.0.filename=plc4j-utils-raw-sockets-0.13.0.pom
+outputs.48.0.length=4106
+outputs.48.0.checksums.sha512=822ac54572d99e31665c363f3b2bc175266c4dcf1df81eb64304eca2c22e57bdcf9ceef2218b5e78f71733ed127619a4162ad74eaf79ae8d33202f733bf94645
 
 outputs.48.1.groupId=org.apache.plc4x
-outputs.48.1.filename=plc4j-driver-s7-0.13.0.jar
-outputs.48.1.length=854507
-outputs.48.1.checksums.sha512=ad7a7a7ff474d303bbf3200c1c4933e1983c384d8dd50fa371dbaff00f88e33e720234472c2ff1f3da108c86b74ccbba8196b5bb4783bd3e86bbacfabf78b77a
+outputs.48.1.filename=plc4j-utils-raw-sockets-0.13.0.jar
+outputs.48.1.length=28461
+outputs.48.1.checksums.sha512=56bd75077c9d7c98b0e8aecd68cb32b586e3ee3b68254806be309274fedfebfeb6db51f9292a431828038c1587df0de09eb94c85961adaf885125c9699e52c0d
 
 outputs.48.2.groupId=org.apache.plc4x
-outputs.48.2.filename=plc4j-driver-s7-0.13.0-features.xml
-outputs.48.2.length=1813
-outputs.48.2.checksums.sha512=e26751df71a2468d047bb613950c57505ea007d2cab30c0c76aee4ff6a290ebf75da96cf381b42271a5500ed26fc067420d420ccb58df17881cf4bc397858581
+outputs.48.2.filename=plc4j-utils-raw-sockets-0.13.0-sources.jar
+outputs.48.2.length=20578
+outputs.48.2.checksums.sha512=d3b2cfe85e027e4330e3ab8f897c298c176a097aa60281e13876fe42fe2e552fb103d81efa89256a0a89a92a61b900ce1b59ee488d8462a3b9f2f1d185e98c74
 
-outputs.48.3.groupId=org.apache.plc4x
-outputs.48.3.filename=plc4j-driver-s7-0.13.0.kar
-outputs.48.3.length=10920512
-outputs.48.3.checksums.sha512=bf1810ce3ef08e9bea684b9204d7a560c89532f75dac8ca70afff61f41a2e56770775664f4c488b03a58014bc0719f9c9cc279915d0430525b5714dea46283f5
-
-outputs.48.4.groupId=org.apache.plc4x
-outputs.48.4.filename=plc4j-driver-s7-0.13.0-sources.jar
-outputs.48.4.length=462330
-outputs.48.4.checksums.sha512=dc02fa27ecf1344e203af45c03d93fc84443a1b4080f92ec2d373b4bac5c038811edb1131d4daef46dc35f18380102b2207249caeb8626a7013875c1e5c58eba
-
-outputs.49.coordinates=org.apache.plc4x:plc4j-driver-eip
+outputs.49.coordinates=org.apache.plc4x:plc4j-transport-raw-socket
 
 outputs.49.0.groupId=org.apache.plc4x
-outputs.49.0.filename=plc4j-driver-eip-0.13.0.pom
-outputs.49.0.length=6656
-outputs.49.0.checksums.sha512=ac0054d9de45f3324969d42fb72568637f03d763bd83b4fa1389a26aade31281c070ac5f4e1873a7f6affdd34c1971e9a32ea4a61d7478b71ccb3acdce1eb305
+outputs.49.0.filename=plc4j-transport-raw-socket-0.13.0.pom
+outputs.49.0.length=3356
+outputs.49.0.checksums.sha512=80ddf81286ba4f9f26488a8e8535afa7c6ec2587a9a171b3dafbc4b690f74d4a3b9d7a3dd2b97502eb584f36ec202e77f7e5347bf943fb664c4135cfd323ff38
 
 outputs.49.1.groupId=org.apache.plc4x
-outputs.49.1.filename=plc4j-driver-eip-0.13.0.jar
-outputs.49.1.length=315866
-outputs.49.1.checksums.sha512=990125750011aac95256443fcfe0061f69220589308a9a07cd0fde209090f25c96b06b203a88a2fcf85917873dd2cb95ec0147c1bb31f3531b44c4c8c8d24d4b
+outputs.49.1.filename=plc4j-transport-raw-socket-0.13.0.jar
+outputs.49.1.length=17875
+outputs.49.1.checksums.sha512=e26301428fa6a12e1f5e8892bcf807eecb3cf1b8cdb29e567e6cb992fab51e9d560a9ffdf71435da384081535fcf852777e6a835bda42b8420653080410929f4
 
 outputs.49.2.groupId=org.apache.plc4x
-outputs.49.2.filename=plc4j-driver-eip-0.13.0-features.xml
-outputs.49.2.length=1517
-outputs.49.2.checksums.sha512=fc9d4fb9e7d14681f9c54d64325d9fa9a7018d01bb1ed73c056a0b15bc2cb1b1374948ae4a05b07a7078ae3a89b7499a240eb9bd2ec8be9ee82f2d8b4a28485a
+outputs.49.2.filename=plc4j-transport-raw-socket-0.13.0-sources.jar
+outputs.49.2.length=17543
+outputs.49.2.checksums.sha512=3c934773aaaf4547d5a3d6e4f33695902b432a4f684237112e631368caa4ba582287f289c226ef391aa904bf9060803b4d8b851fe5437975f00ee0a4f2fe61cc
 
-outputs.49.3.groupId=org.apache.plc4x
-outputs.49.3.filename=plc4j-driver-eip-0.13.0.kar
-outputs.49.3.length=6662387
-outputs.49.3.checksums.sha512=32d70192aa3e9dee4e43d18a51288444af1d596e71e269f30738a911aeaccfd49c753556d05df7b3e720a0548eeec2e1924e09b1066fdfd0d81388f1179f2026
-
-outputs.49.4.groupId=org.apache.plc4x
-outputs.49.4.filename=plc4j-driver-eip-0.13.0-sources.jar
-outputs.49.4.length=177833
-outputs.49.4.checksums.sha512=ff3c7acda4b28e136c68fc8cb6a821df257a99b5d9609936ab9abd91725f216b85fd3ccad12722aa0d7391257ee6b4e117328f12dc92aa3257fc38c47adc6750
-
-outputs.50.coordinates=org.apache.plc4x:plc4j-driver-iec-60870
+outputs.50.coordinates=org.apache.plc4x:plc4j-utils-pcap-replay
 
 outputs.50.0.groupId=org.apache.plc4x
-outputs.50.0.filename=plc4j-driver-iec-60870-0.13.0.pom
-outputs.50.0.length=6341
-outputs.50.0.checksums.sha512=001f6203d69a0c305bf9f4376a2ae26e27ec324f7b21eb3ecc2caf63c753b7ae10e92dda7a503a335c2f8340e6a7cb328afe977c42a9d9b9faf22607a4d65d64
+outputs.50.0.filename=plc4j-utils-pcap-replay-0.13.0.pom
+outputs.50.0.length=3395
+outputs.50.0.checksums.sha512=8c95dc56f64463a3dfbff726b2a6a70fc3c5d65e50d2b01acfdea9b8e7aaeb795c54619cd2f38664e3f6ed04aa64d99626b6f41f98dae91b8f7b2ac1d3dc3866
 
 outputs.50.1.groupId=org.apache.plc4x
-outputs.50.1.filename=plc4j-driver-iec-60870-0.13.0.jar
-outputs.50.1.length=446193
-outputs.50.1.checksums.sha512=214d9cdebd391e627f5bc6f25ac6ccaebb6efa84add1235c84781cf8394b17241a6d2119395c55967307fbfc242ecb370f0ccbfdc746bd17946cfbfc3d31f0ef
+outputs.50.1.filename=plc4j-utils-pcap-replay-0.13.0.jar
+outputs.50.1.length=19561
+outputs.50.1.checksums.sha512=6f50e9cd7cdd3f68686785b07d1bcbfc2b05983260030727062b0ff1b09af70ff642906b5e62e9227d36ec489fb686098a5d08c53d13df561f800c658e7a7bec
 
 outputs.50.2.groupId=org.apache.plc4x
-outputs.50.2.filename=plc4j-driver-iec-60870-0.13.0-features.xml
-outputs.50.2.length=1437
-outputs.50.2.checksums.sha512=bd931a9d8044bd15f23f48b16726f62809d5879356c7a31c6f97c9ced99b3b8468c91145525b3e8819175a19e0cec2fd0f747f410cf389753694665cd914238b
+outputs.50.2.filename=plc4j-utils-pcap-replay-0.13.0-sources.jar
+outputs.50.2.length=15202
+outputs.50.2.checksums.sha512=9ef62e125009c9b846585a7000b3cf38e960ac73a8d53f15fa4bfd592246d17041aa5b2bf23f8586198e8cf9aca77adc32a570c863d51a13bb3c040bda8269ef
 
-outputs.50.3.groupId=org.apache.plc4x
-outputs.50.3.filename=plc4j-driver-iec-60870-0.13.0.kar
-outputs.50.3.length=6730461
-outputs.50.3.checksums.sha512=7b3d4feb659522d48b72d489d743098f6dcf8d0318bdb4d3f68d3f46142bec2070e6d541469327e935d58dcea8d2a2a34dad94e22a202f65d04dbec10ccda2dc
-
-outputs.50.4.groupId=org.apache.plc4x
-outputs.50.4.filename=plc4j-driver-iec-60870-0.13.0-sources.jar
-outputs.50.4.length=248867
-outputs.50.4.checksums.sha512=2326aa159966894b291a74317e3075f9647c6d64bbfe25e7203b14a02d14365353d68d7993f3b6f03cbe5a6e3a9e0c7bfdfbe0adb56aa0f0d902f6ed623a654b
-
-outputs.51.coordinates=org.apache.plc4x:plc4j-utils-test-generator
+outputs.51.coordinates=org.apache.plc4x:plc4j-transport-pcap-replay
 
 outputs.51.0.groupId=org.apache.plc4x
-outputs.51.0.filename=plc4j-utils-test-generator-0.13.0.pom
-outputs.51.0.length=5834
-outputs.51.0.checksums.sha512=1184a060c56a42dd7f53898bfc9d3df783b7ca99f40fad58f236d57afe5aa1e294c6e93f06fd07cc19af72c3a31c44231ce83ecafacc791f75e19bed6d5e79a8
+outputs.51.0.filename=plc4j-transport-pcap-replay-0.13.0.pom
+outputs.51.0.length=3233
+outputs.51.0.checksums.sha512=f4c318ab4a6ee09387d3714d8e7f66bdcd269bb255819664731d202854bfe5dc1add68c4cfc3c1d462a67340c7971f143e237a286209dcd091d4eff1a1db21bd
 
 outputs.51.1.groupId=org.apache.plc4x
-outputs.51.1.filename=plc4j-utils-test-generator-0.13.0.jar
-outputs.51.1.length=29230
-outputs.51.1.checksums.sha512=5b68faf5bc67c3828849d31f151e003d557fa3be1e3fabda9b6291a63a826ea2c9e0d8091cb6776cfb9015bd6e72fac0b9e44195ee91296f4b24477310a40a88
+outputs.51.1.filename=plc4j-transport-pcap-replay-0.13.0.jar
+outputs.51.1.length=14505
+outputs.51.1.checksums.sha512=42a8c971d1444f306834983d80137b18964fbf86b9f3327575b92d27d9cb1295017b0528d8ce97c3dfaede3d30240e9bc4482ca6224f2fef70a05d73abbd5bfd
 
 outputs.51.2.groupId=org.apache.plc4x
-outputs.51.2.filename=plc4j-utils-test-generator-0.13.0-sources.jar
-outputs.51.2.length=12054
-outputs.51.2.checksums.sha512=65afe4d5c294506686c25a41158fc5f52b4fb2b245dbe9968b6250d36db7794c2d976933cab8b4662c1904548f8572c842323c7bfdeaa14804a47fa34c8267f9
+outputs.51.2.filename=plc4j-transport-pcap-replay-0.13.0-sources.jar
+outputs.51.2.length=13818
+outputs.51.2.checksums.sha512=69c51b683cc84ec2e98f309fea01339548a36a3f9b8b48a085c0d358fdfd8d38b50b660b8033743d6ca106574a54a27d0b16c0aaec4a5e0af837dc86c73dd97a
 
-outputs.52.coordinates=org.apache.plc4x:plc4j-driver-bacnet
+outputs.52.coordinates=org.apache.plc4x:plc4j-driver-s7
 
 outputs.52.0.groupId=org.apache.plc4x
-outputs.52.0.filename=plc4j-driver-bacnet-0.13.0.pom
-outputs.52.0.length=8443
-outputs.52.0.checksums.sha512=7ef6c3bd69c28d16b1a1cef4e138ecaeb9d0570cc46f2edca5ea122acbd0502d27a127fde500c666d4abb9cd26cfda4389c8c7316d2527c68dfcf7e1146ae680
+outputs.52.0.filename=plc4j-driver-s7-0.13.0.pom
+outputs.52.0.length=8449
+outputs.52.0.checksums.sha512=20873e0b66701c81002de0897cc073e43d66ea0a4cf263b2e24d8dbc574798438ca8e968f6cb7c95658cfc75b43616722f14525414c3184d5e6c9daa7dbd5566
 
 outputs.52.1.groupId=org.apache.plc4x
-outputs.52.1.filename=plc4j-driver-bacnet-0.13.0.jar
-outputs.52.1.length=5867883
-outputs.52.1.checksums.sha512=5b8d8bfd290a8b1c1febf46851277aeddfacf5e5d53d24ddedf18597718ba1f9c8da3b1fc973f299ced1788bf53317184a9fa3481f3de83cef0c0734c018fed9
+outputs.52.1.filename=plc4j-driver-s7-0.13.0.jar
+outputs.52.1.length=854507
+outputs.52.1.checksums.sha512=ad7a7a7ff474d303bbf3200c1c4933e1983c384d8dd50fa371dbaff00f88e33e720234472c2ff1f3da108c86b74ccbba8196b5bb4783bd3e86bbacfabf78b77a
 
 outputs.52.2.groupId=org.apache.plc4x
-outputs.52.2.filename=plc4j-driver-bacnet-0.13.0-features.xml
-outputs.52.2.length=2267
-outputs.52.2.checksums.sha512=c206607270c5a1983aabb7b521931a7a657b63a96a94b87594e6b5ccf5f320b9763e0b8de4619300d07fb9c7109778b598e4c4b376f87aa6a5dc9fbff56eb446
+outputs.52.2.filename=plc4j-driver-s7-0.13.0-features.xml
+outputs.52.2.length=1813
+outputs.52.2.checksums.sha512=e26751df71a2468d047bb613950c57505ea007d2cab30c0c76aee4ff6a290ebf75da96cf381b42271a5500ed26fc067420d420ccb58df17881cf4bc397858581
 
 outputs.52.3.groupId=org.apache.plc4x
-outputs.52.3.filename=plc4j-driver-bacnet-0.13.0.kar
-outputs.52.3.length=16236206
-outputs.52.3.checksums.sha512=50c7c179c1d313847a053bc98bea0693014bcc2122ab6bdadcec3c267c6de356812cceae280fa0cbdaba05ece33ec5beacac00b76033a602319525830b64cad4
+outputs.52.3.filename=plc4j-driver-s7-0.13.0.kar
+outputs.52.3.length=10920512
+outputs.52.3.checksums.sha512=bf1810ce3ef08e9bea684b9204d7a560c89532f75dac8ca70afff61f41a2e56770775664f4c488b03a58014bc0719f9c9cc279915d0430525b5714dea46283f5
 
 outputs.52.4.groupId=org.apache.plc4x
-outputs.52.4.filename=plc4j-driver-bacnet-0.13.0-sources.jar
-outputs.52.4.length=3055695
-outputs.52.4.checksums.sha512=fd5c9d8a3b2f06978ac2eeb9d57577ce657ce424739f9cdace4af10f3d5f8084e0315ada45031ab2ba55168088515f8667d63ea8846624fc35f790b389071d2d
+outputs.52.4.filename=plc4j-driver-s7-0.13.0-sources.jar
+outputs.52.4.length=462330
+outputs.52.4.checksums.sha512=dc02fa27ecf1344e203af45c03d93fc84443a1b4080f92ec2d373b4bac5c038811edb1131d4daef46dc35f18380102b2207249caeb8626a7013875c1e5c58eba
 
-outputs.53.coordinates=org.apache.plc4x:plc4j-driver-c-bus
+outputs.53.coordinates=org.apache.plc4x:plc4j-driver-eip
 
 outputs.53.0.groupId=org.apache.plc4x
-outputs.53.0.filename=plc4j-driver-c-bus-0.13.0.pom
-outputs.53.0.length=7090
-outputs.53.0.checksums.sha512=c6f1863b107219ac2b1ea0270fe18ddbe5de76922dac44e58761a8a41f42f867d9650d5639fbe7289bc62bb94e15dd4b9a183f81c438340854acc9c7293b84ec
+outputs.53.0.filename=plc4j-driver-eip-0.13.0.pom
+outputs.53.0.length=6656
+outputs.53.0.checksums.sha512=ac0054d9de45f3324969d42fb72568637f03d763bd83b4fa1389a26aade31281c070ac5f4e1873a7f6affdd34c1971e9a32ea4a61d7478b71ccb3acdce1eb305
 
 outputs.53.1.groupId=org.apache.plc4x
-outputs.53.1.filename=plc4j-driver-c-bus-0.13.0.jar
-outputs.53.1.length=1300070
-outputs.53.1.checksums.sha512=7c1b36c30d84b477552820593a1d4f77dccb31170cb49d67d6dee37e69443de51ea8cdc583a4843c5618e8ef0f032ab98d708d3e18bb05e85e4e35de8a870526
+outputs.53.1.filename=plc4j-driver-eip-0.13.0.jar
+outputs.53.1.length=315866
+outputs.53.1.checksums.sha512=990125750011aac95256443fcfe0061f69220589308a9a07cd0fde209090f25c96b06b203a88a2fcf85917873dd2cb95ec0147c1bb31f3531b44c4c8c8d24d4b
 
 outputs.53.2.groupId=org.apache.plc4x
-outputs.53.2.filename=plc4j-driver-c-bus-0.13.0-features.xml
-outputs.53.2.length=1499
-outputs.53.2.checksums.sha512=95cbf6a3d037a54bcb5815e12a8a748b2ecfba2fe1cfe4fff2fc72f58188ab73b0277f1cbe7d0b9f863fa7fe20c0e0c63e0854f481e1ba042124892d45f77abb
+outputs.53.2.filename=plc4j-driver-eip-0.13.0-features.xml
+outputs.53.2.length=1517
+outputs.53.2.checksums.sha512=fc9d4fb9e7d14681f9c54d64325d9fa9a7018d01bb1ed73c056a0b15bc2cb1b1374948ae4a05b07a7078ae3a89b7499a240eb9bd2ec8be9ee82f2d8b4a28485a
 
 outputs.53.3.groupId=org.apache.plc4x
-outputs.53.3.filename=plc4j-driver-c-bus-0.13.0.kar
-outputs.53.3.length=7817635
-outputs.53.3.checksums.sha512=3a6190e16364850c169b57cf9efbe3a1c011146f77eea5dab245b7a3a9c94845a4bbfd0f60fc53bc223cfc654fa7c2965e281696e4c30bbc5d434b9deefdc192
+outputs.53.3.filename=plc4j-driver-eip-0.13.0.kar
+outputs.53.3.length=6662387
+outputs.53.3.checksums.sha512=32d70192aa3e9dee4e43d18a51288444af1d596e71e269f30738a911aeaccfd49c753556d05df7b3e720a0548eeec2e1924e09b1066fdfd0d81388f1179f2026
 
 outputs.53.4.groupId=org.apache.plc4x
-outputs.53.4.filename=plc4j-driver-c-bus-0.13.0-sources.jar
-outputs.53.4.length=709177
-outputs.53.4.checksums.sha512=e801fa4dcea4e0b64527e61cf50d2625a1a6e8fb62729e98b72512bb7c67d77792de521b71af930067ee9f791c621a45e9ad5c9c414dc120f1e52634b6771300
+outputs.53.4.filename=plc4j-driver-eip-0.13.0-sources.jar
+outputs.53.4.length=177833
+outputs.53.4.checksums.sha512=ff3c7acda4b28e136c68fc8cb6a821df257a99b5d9609936ab9abd91725f216b85fd3ccad12722aa0d7391257ee6b4e117328f12dc92aa3257fc38c47adc6750
 
-outputs.54.coordinates=org.apache.plc4x:plc4j-transport-can
+outputs.54.coordinates=org.apache.plc4x:plc4j-driver-iec-60870
 
 outputs.54.0.groupId=org.apache.plc4x
-outputs.54.0.filename=plc4j-transport-can-0.13.0.pom
-outputs.54.0.length=2016
-outputs.54.0.checksums.sha512=356a88d5ce4d906bceb4e269ff42fa844c17cff45836c0966fb39bd2bcf9c05720fb56b190d88532e8255aae13db653c7c384f297d5d145450ff88fc47305102
+outputs.54.0.filename=plc4j-driver-iec-60870-0.13.0.pom
+outputs.54.0.length=6341
+outputs.54.0.checksums.sha512=001f6203d69a0c305bf9f4376a2ae26e27ec324f7b21eb3ecc2caf63c753b7ae10e92dda7a503a335c2f8340e6a7cb328afe977c42a9d9b9faf22607a4d65d64
 
 outputs.54.1.groupId=org.apache.plc4x
-outputs.54.1.filename=plc4j-transport-can-0.13.0.jar
-outputs.54.1.length=11436
-outputs.54.1.checksums.sha512=ff4e2e67c8d62af7ddf0a77331b0a5052a9e5c65b772d74006315e17b08b0e5e6b0e2bac20770caeee8de115759978da2e9415c7b87003e8a91bfb54a3025eee
+outputs.54.1.filename=plc4j-driver-iec-60870-0.13.0.jar
+outputs.54.1.length=446193
+outputs.54.1.checksums.sha512=214d9cdebd391e627f5bc6f25ac6ccaebb6efa84add1235c84781cf8394b17241a6d2119395c55967307fbfc242ecb370f0ccbfdc746bd17946cfbfc3d31f0ef
 
 outputs.54.2.groupId=org.apache.plc4x
-outputs.54.2.filename=plc4j-transport-can-0.13.0-sources.jar
-outputs.54.2.length=11971
-outputs.54.2.checksums.sha512=8a8f01e055000d71213170d42830bbbd0a05801484d86da956dd13b12a72d954cf2487ce12231a293f0009ac6ea79338d03db158dbfb10fec610e342d9f777e4
+outputs.54.2.filename=plc4j-driver-iec-60870-0.13.0-features.xml
+outputs.54.2.length=1437
+outputs.54.2.checksums.sha512=bd931a9d8044bd15f23f48b16726f62809d5879356c7a31c6f97c9ced99b3b8468c91145525b3e8819175a19e0cec2fd0f747f410cf389753694665cd914238b
 
-outputs.55.coordinates=org.apache.plc4x:plc4j-transport-virtualcan
+outputs.54.3.groupId=org.apache.plc4x
+outputs.54.3.filename=plc4j-driver-iec-60870-0.13.0.kar
+outputs.54.3.length=6730461
+outputs.54.3.checksums.sha512=7b3d4feb659522d48b72d489d743098f6dcf8d0318bdb4d3f68d3f46142bec2070e6d541469327e935d58dcea8d2a2a34dad94e22a202f65d04dbec10ccda2dc
+
+outputs.54.4.groupId=org.apache.plc4x
+outputs.54.4.filename=plc4j-driver-iec-60870-0.13.0-sources.jar
+outputs.54.4.length=248867
+outputs.54.4.checksums.sha512=2326aa159966894b291a74317e3075f9647c6d64bbfe25e7203b14a02d14365353d68d7993f3b6f03cbe5a6e3a9e0c7bfdfbe0adb56aa0f0d902f6ed623a654b
+
+outputs.55.coordinates=org.apache.plc4x:plc4j-utils-test-generator
 
 outputs.55.0.groupId=org.apache.plc4x
-outputs.55.0.filename=plc4j-transport-virtualcan-0.13.0.pom
-outputs.55.0.length=3101
-outputs.55.0.checksums.sha512=b1b9e1f7426d91a5c250a870c3bccb1620413f539244da89e782139aeb370a40ac042b6f616f049e0c9af149e4f56841a8a89ecb48c6f5123ae637c1fcdcdbe1
+outputs.55.0.filename=plc4j-utils-test-generator-0.13.0.pom
+outputs.55.0.length=5834
+outputs.55.0.checksums.sha512=1184a060c56a42dd7f53898bfc9d3df783b7ca99f40fad58f236d57afe5aa1e294c6e93f06fd07cc19af72c3a31c44231ce83ecafacc791f75e19bed6d5e79a8
 
 outputs.55.1.groupId=org.apache.plc4x
-outputs.55.1.filename=plc4j-transport-virtualcan-0.13.0.jar
-outputs.55.1.length=16471
-outputs.55.1.checksums.sha512=1e602d93690b0a48791c8c12a6df019820ece17d80cec1f9934c4cd6d68e90c03616985f1b83923521c8ed02e137f5f7fe6e928ffa9be8f6b923948c1ba6eb62
+outputs.55.1.filename=plc4j-utils-test-generator-0.13.0.jar
+outputs.55.1.length=29230
+outputs.55.1.checksums.sha512=5b68faf5bc67c3828849d31f151e003d557fa3be1e3fabda9b6291a63a826ea2c9e0d8091cb6776cfb9015bd6e72fac0b9e44195ee91296f4b24477310a40a88
 
 outputs.55.2.groupId=org.apache.plc4x
-outputs.55.2.filename=plc4j-transport-virtualcan-0.13.0-sources.jar
-outputs.55.2.length=11870
-outputs.55.2.checksums.sha512=04e51f3e9b51a969b6bea7d54ce63ccb3fa23cfe77b37a60caa8e45554dea2d6cce454265cc5b6d00c0aa087f4f36490aa25c7689619732e045436eb9ae93136
+outputs.55.2.filename=plc4j-utils-test-generator-0.13.0-sources.jar
+outputs.55.2.length=12054
+outputs.55.2.checksums.sha512=65afe4d5c294506686c25a41158fc5f52b4fb2b245dbe9968b6250d36db7794c2d976933cab8b4662c1904548f8572c842323c7bfdeaa14804a47fa34c8267f9
 
-outputs.56.coordinates=org.apache.plc4x:plc4j-driver-can
+outputs.56.coordinates=org.apache.plc4x:plc4j-driver-bacnet
 
 outputs.56.0.groupId=org.apache.plc4x
-outputs.56.0.filename=plc4j-driver-can-0.13.0.pom
-outputs.56.0.length=6878
-outputs.56.0.checksums.sha512=67cb932435f5aee58a61a989a35b1dd1d861904028e691bd254189fe734e824856d1ba07b59017152df3b9b3adc7a1eb634bf732bec393afdfc376c755fc9e49
+outputs.56.0.filename=plc4j-driver-bacnet-0.13.0.pom
+outputs.56.0.length=8443
+outputs.56.0.checksums.sha512=7ef6c3bd69c28d16b1a1cef4e138ecaeb9d0570cc46f2edca5ea122acbd0502d27a127fde500c666d4abb9cd26cfda4389c8c7316d2527c68dfcf7e1146ae680
 
 outputs.56.1.groupId=org.apache.plc4x
-outputs.56.1.filename=plc4j-driver-can-0.13.0.jar
-outputs.56.1.length=48581
-outputs.56.1.checksums.sha512=a57c00a9853c2f1926af45d0fac6b26580c25667598072ecbdbb2412c4fd52d31b80778601a2e2224a90028e23d0ac150b1d6af2bc83933e76e646164c8f9490
+outputs.56.1.filename=plc4j-driver-bacnet-0.13.0.jar
+outputs.56.1.length=5868255
+outputs.56.1.checksums.sha512=c6a44ceab1456ddcafefde26da4b8a9ce6a1fe080d941f773f82050716c7c99f067fb9ed1170c4eb29b10a39f5e210535c776a6c78b54d78d2f02efc9b68be97
 
 outputs.56.2.groupId=org.apache.plc4x
-outputs.56.2.filename=plc4j-driver-can-0.13.0-features.xml
-outputs.56.2.length=1438
-outputs.56.2.checksums.sha512=dbd3f73865a7f12a3d3721a154c032d6113f7153aae6e456ee8ad6798edc336bf8c3ec1355c64f412bbc3d9e500744355b9a78437a98cefc313cf0e15865c7ff
+outputs.56.2.filename=plc4j-driver-bacnet-0.13.0-features.xml
+outputs.56.2.length=2267
+outputs.56.2.checksums.sha512=c206607270c5a1983aabb7b521931a7a657b63a96a94b87594e6b5ccf5f320b9763e0b8de4619300d07fb9c7109778b598e4c4b376f87aa6a5dc9fbff56eb446
 
 outputs.56.3.groupId=org.apache.plc4x
-outputs.56.3.filename=plc4j-driver-can-0.13.0.kar
-outputs.56.3.length=6391386
-outputs.56.3.checksums.sha512=5ad973f5365f9ee81bdce9a3b7b1ebd04b85e5a2ea9a57761ff497e93a7b2e66b85ce30d0e3c06828bee429afdcaf333f44cf15cf34ab541a9213d35476864b0
+outputs.56.3.filename=plc4j-driver-bacnet-0.13.0.kar
+outputs.56.3.length=16236578
+outputs.56.3.checksums.sha512=f7a3c26173f90e172f48bde59ab5d1aac9dc31f99b6190b335760c619408551eb94cccf646b0ee5bf8d5ef57a8953ae56b0aa83129330a2e1372701849b07f00
 
 outputs.56.4.groupId=org.apache.plc4x
-outputs.56.4.filename=plc4j-driver-can-0.13.0-sources.jar
-outputs.56.4.length=36104
-outputs.56.4.checksums.sha512=528fa51f4ee6248bbf1f796a255d9186d18931d4714f878bb7bb9cddd9d3d6e596696917c0997111815d60b229060c691c0d1afbbee8fec29521de843e2b9f5f
+outputs.56.4.filename=plc4j-driver-bacnet-0.13.0-sources.jar
+outputs.56.4.length=3055870
+outputs.56.4.checksums.sha512=dc316c8a20037b36b3d539ad38e49814ea6fb0cf77b75bee020a96947364aa10fc8bf0af35684b98b12f72f3e569de18cacdda42c0fd7c4b471e63bfdea0c0a9
 
-outputs.57.coordinates=org.apache.plc4x:plc4j-driver-canopen
+outputs.57.coordinates=org.apache.plc4x:plc4j-driver-c-bus
 
 outputs.57.0.groupId=org.apache.plc4x
-outputs.57.0.filename=plc4j-driver-canopen-0.13.0.pom
-outputs.57.0.length=7268
-outputs.57.0.checksums.sha512=cc6985929a195c7ce9f3179c157552cac20a6e53c1e92f33c2b7b22151e63b080d8c733d5b27f222a01d619155cf271a152f1f113340237be43ce1f6621e1fa3
+outputs.57.0.filename=plc4j-driver-c-bus-0.13.0.pom
+outputs.57.0.length=7090
+outputs.57.0.checksums.sha512=c6f1863b107219ac2b1ea0270fe18ddbe5de76922dac44e58761a8a41f42f867d9650d5639fbe7289bc62bb94e15dd4b9a183f81c438340854acc9c7293b84ec
 
 outputs.57.1.groupId=org.apache.plc4x
-outputs.57.1.filename=plc4j-driver-canopen-0.13.0.jar
-outputs.57.1.length=193322
-outputs.57.1.checksums.sha512=382b1410618435a342468f8026163a8f66383eb1ed4a2a26f6c4679e4da1a1674061d4c7378bd520b07d41b696cb728b970f1a59cfec54d8dbaa5e72e9d573ba
+outputs.57.1.filename=plc4j-driver-c-bus-0.13.0.jar
+outputs.57.1.length=1300070
+outputs.57.1.checksums.sha512=7c1b36c30d84b477552820593a1d4f77dccb31170cb49d67d6dee37e69443de51ea8cdc583a4843c5618e8ef0f032ab98d708d3e18bb05e85e4e35de8a870526
 
 outputs.57.2.groupId=org.apache.plc4x
-outputs.57.2.filename=plc4j-driver-canopen-0.13.0-features.xml
-outputs.57.2.length=1524
-outputs.57.2.checksums.sha512=e644332780f68129dce97bba672be86f5bb0eb9f7d5bb70ca1544eece6adb5e8b76b7ad25d150915b07fa692412b396d09acea49db398df29155963be75948b7
+outputs.57.2.filename=plc4j-driver-c-bus-0.13.0-features.xml
+outputs.57.2.length=1499
+outputs.57.2.checksums.sha512=95cbf6a3d037a54bcb5815e12a8a748b2ecfba2fe1cfe4fff2fc72f58188ab73b0277f1cbe7d0b9f863fa7fe20c0e0c63e0854f481e1ba042124892d45f77abb
 
 outputs.57.3.groupId=org.apache.plc4x
-outputs.57.3.filename=plc4j-driver-canopen-0.13.0.kar
-outputs.57.3.length=6577366
-outputs.57.3.checksums.sha512=1a9ce6903e56f2f12b4c498f7fedc75cff6860cb2bf913092576cdd502f80c41746d77a6ceb95766df9b9e7e487a03c862b4250410b48c9d0f4866eed5693283
+outputs.57.3.filename=plc4j-driver-c-bus-0.13.0.kar
+outputs.57.3.length=7817635
+outputs.57.3.checksums.sha512=3a6190e16364850c169b57cf9efbe3a1c011146f77eea5dab245b7a3a9c94845a4bbfd0f60fc53bc223cfc654fa7c2965e281696e4c30bbc5d434b9deefdc192
 
 outputs.57.4.groupId=org.apache.plc4x
-outputs.57.4.filename=plc4j-driver-canopen-0.13.0-sources.jar
-outputs.57.4.length=115363
-outputs.57.4.checksums.sha512=848140069534600aa7be4d60eae77216b4ddcb81057a6f9f9505be725f92d88eb2d287a36aa6e8bee8d59a1913cb49a55f49e5d06ce64fef53814f5a7bbb1d4d
+outputs.57.4.filename=plc4j-driver-c-bus-0.13.0-sources.jar
+outputs.57.4.length=709177
+outputs.57.4.checksums.sha512=e801fa4dcea4e0b64527e61cf50d2625a1a6e8fb62729e98b72512bb7c67d77792de521b71af930067ee9f791c621a45e9ad5c9c414dc120f1e52634b6771300
 
-outputs.58.coordinates=org.apache.plc4x:plc4j-driver-ctrlx
+outputs.58.coordinates=org.apache.plc4x:plc4j-transport-can
 
 outputs.58.0.groupId=org.apache.plc4x
-outputs.58.0.filename=plc4j-driver-ctrlx-0.13.0.pom
-outputs.58.0.length=6863
-outputs.58.0.checksums.sha512=2c836c80e726f1ae9155952cf85d3944cb27c881356a312e33a11bef02924203c433f1870fe8523fc3e042a22cd17fd2d14faa7a96d50797dac47b92abc4f4b0
+outputs.58.0.filename=plc4j-transport-can-0.13.0.pom
+outputs.58.0.length=2016
+outputs.58.0.checksums.sha512=356a88d5ce4d906bceb4e269ff42fa844c17cff45836c0966fb39bd2bcf9c05720fb56b190d88532e8255aae13db653c7c384f297d5d145450ff88fc47305102
 
 outputs.58.1.groupId=org.apache.plc4x
-outputs.58.1.filename=plc4j-driver-ctrlx-0.13.0.jar
-outputs.58.1.length=285834
-outputs.58.1.checksums.sha512=d5ce9cdaaa5b0c8c23c375c7427b05ec498cd6453a0cc80235cc0437a088fc32af593f4e15af325e35682a93ff4f7e8541e5696887c3593edb980cdd52550239
+outputs.58.1.filename=plc4j-transport-can-0.13.0.jar
+outputs.58.1.length=11436
+outputs.58.1.checksums.sha512=ff4e2e67c8d62af7ddf0a77331b0a5052a9e5c65b772d74006315e17b08b0e5e6b0e2bac20770caeee8de115759978da2e9415c7b87003e8a91bfb54a3025eee
 
 outputs.58.2.groupId=org.apache.plc4x
-outputs.58.2.filename=plc4j-driver-ctrlx-0.13.0-features.xml
-outputs.58.2.length=2017
-outputs.58.2.checksums.sha512=e2ab0f587b044bdb5fab44424bcf68796074d728fb768b4189ff28e254cd0e8589e387ea5674ab1cae1f5f99eef09632fe97996a0b64673ceb24cc5e97349d82
+outputs.58.2.filename=plc4j-transport-can-0.13.0-sources.jar
+outputs.58.2.length=11971
+outputs.58.2.checksums.sha512=8a8f01e055000d71213170d42830bbbd0a05801484d86da956dd13b12a72d954cf2487ce12231a293f0009ac6ea79338d03db158dbfb10fec610e342d9f777e4
 
-outputs.58.3.groupId=org.apache.plc4x
-outputs.58.3.filename=plc4j-driver-ctrlx-0.13.0.kar
-outputs.58.3.length=7885201
-outputs.58.3.checksums.sha512=fb776e45ba683a7660cdbaa544ace02d190a7230284ca5786fe5aa9ae01cea64062d4bdc7000b1fa02b062dff9309779aba327710f990ff9ac522e4e52437702
-
-outputs.58.4.groupId=org.apache.plc4x
-outputs.58.4.filename=plc4j-driver-ctrlx-0.13.0-sources.jar
-outputs.58.4.length=241941
-outputs.58.4.checksums.sha512=3efa8dd0fab6f0fc072cd982930d8494665a5573df38f291ef11674e03fe4b069c1910f7524bf4f4b245455bedbe9ecc4e98cf0e21424b6edc5f6f7b90400888
-
-outputs.59.coordinates=org.apache.plc4x:plc4j-transport-serial
+outputs.59.coordinates=org.apache.plc4x:plc4j-transport-virtualcan
 
 outputs.59.0.groupId=org.apache.plc4x
-outputs.59.0.filename=plc4j-transport-serial-0.13.0.pom
-outputs.59.0.length=4025
-outputs.59.0.checksums.sha512=4c75e4ba973ebeff0550aec14d1f5d2687798f572190670c209dc8a08c1ee5050fb1b5c50da5a4e8d1ea728612a00cddf55713fb68187fef642af1f3a5c872b2
+outputs.59.0.filename=plc4j-transport-virtualcan-0.13.0.pom
+outputs.59.0.length=3101
+outputs.59.0.checksums.sha512=b1b9e1f7426d91a5c250a870c3bccb1620413f539244da89e782139aeb370a40ac042b6f616f049e0c9af149e4f56841a8a89ecb48c6f5123ae637c1fcdcdbe1
 
 outputs.59.1.groupId=org.apache.plc4x
-outputs.59.1.filename=plc4j-transport-serial-0.13.0.jar
-outputs.59.1.length=39136
-outputs.59.1.checksums.sha512=ba245052f05cba7a21ea468a5cd12c2ef8272d5204baee4fd6bcd404f4b3e3e29460e98745856a5b818cdb6016442da6ed58a859ec52ed0ed690ff6ba29b48ba
+outputs.59.1.filename=plc4j-transport-virtualcan-0.13.0.jar
+outputs.59.1.length=16471
+outputs.59.1.checksums.sha512=1e602d93690b0a48791c8c12a6df019820ece17d80cec1f9934c4cd6d68e90c03616985f1b83923521c8ed02e137f5f7fe6e928ffa9be8f6b923948c1ba6eb62
 
 outputs.59.2.groupId=org.apache.plc4x
-outputs.59.2.filename=plc4j-transport-serial-0.13.0-sources.jar
-outputs.59.2.length=30553
-outputs.59.2.checksums.sha512=21d3e3a191314d3f6fd0b6a91e1787048dfe690f3489ffd01b6fdb60bb1f71c6b1f45ea47b8f6057394a8c97aa29c4591cad9243c04bba496585063b0ba88a1f
+outputs.59.2.filename=plc4j-transport-virtualcan-0.13.0-sources.jar
+outputs.59.2.length=11870
+outputs.59.2.checksums.sha512=04e51f3e9b51a969b6bea7d54ce63ccb3fa23cfe77b37a60caa8e45554dea2d6cce454265cc5b6d00c0aa087f4f36490aa25c7689619732e045436eb9ae93136
 
-outputs.60.coordinates=org.apache.plc4x:plc4j-driver-firmata
+outputs.60.coordinates=org.apache.plc4x:plc4j-driver-can
 
 outputs.60.0.groupId=org.apache.plc4x
-outputs.60.0.filename=plc4j-driver-firmata-0.13.0.pom
-outputs.60.0.length=6640
-outputs.60.0.checksums.sha512=7941c45219f9d5745590ae65cac7cddf32ddeb8deea08bb07836304d7ea3446cacd17c92f54d3c219e0f5ad698159681bbaaaf3ba8ea764e1216bfaf1f340367
+outputs.60.0.filename=plc4j-driver-can-0.13.0.pom
+outputs.60.0.length=6878
+outputs.60.0.checksums.sha512=67cb932435f5aee58a61a989a35b1dd1d861904028e691bd254189fe734e824856d1ba07b59017152df3b9b3adc7a1eb634bf732bec393afdfc376c755fc9e49
 
 outputs.60.1.groupId=org.apache.plc4x
-outputs.60.1.filename=plc4j-driver-firmata-0.13.0.jar
-outputs.60.1.length=127317
-outputs.60.1.checksums.sha512=0041d3674e4a19b000a97b58bdee7a8fc5bbb159ffb1380a85875b966c4c4688b52d4a1d1da60a9a2a86cb918cfb51788073df55a6518fb278468740f742685f
+outputs.60.1.filename=plc4j-driver-can-0.13.0.jar
+outputs.60.1.length=48581
+outputs.60.1.checksums.sha512=a57c00a9853c2f1926af45d0fac6b26580c25667598072ecbdbb2412c4fd52d31b80778601a2e2224a90028e23d0ac150b1d6af2bc83933e76e646164c8f9490
 
 outputs.60.2.groupId=org.apache.plc4x
-outputs.60.2.filename=plc4j-driver-firmata-0.13.0-features.xml
-outputs.60.2.length=1695
-outputs.60.2.checksums.sha512=e3140ec84be00afd3b412f62f38c8c9ab2f7d8d5f65942f4312ffd582f1550418fd599ca3fa4c4bece7611c96418aba3d8661ff800f6b1be38b3dc8e737337d9
+outputs.60.2.filename=plc4j-driver-can-0.13.0-features.xml
+outputs.60.2.length=1438
+outputs.60.2.checksums.sha512=dbd3f73865a7f12a3d3721a154c032d6113f7153aae6e456ee8ad6798edc336bf8c3ec1355c64f412bbc3d9e500744355b9a78437a98cefc313cf0e15865c7ff
 
 outputs.60.3.groupId=org.apache.plc4x
-outputs.60.3.filename=plc4j-driver-firmata-0.13.0.kar
-outputs.60.3.length=9401534
-outputs.60.3.checksums.sha512=f622542d663e27ff9556ad0880de71104e08a0e259803a016875f16829341013766ef882d17b4b3eccc16dd988f35bc9b9f5f55e43aacd4e50c3c28f7820ede5
+outputs.60.3.filename=plc4j-driver-can-0.13.0.kar
+outputs.60.3.length=6391386
+outputs.60.3.checksums.sha512=5ad973f5365f9ee81bdce9a3b7b1ebd04b85e5a2ea9a57761ff497e93a7b2e66b85ce30d0e3c06828bee429afdcaf333f44cf15cf34ab541a9213d35476864b0
 
 outputs.60.4.groupId=org.apache.plc4x
-outputs.60.4.filename=plc4j-driver-firmata-0.13.0-sources.jar
-outputs.60.4.length=77410
-outputs.60.4.checksums.sha512=12e7c152a62a0f703b8f48dca6e2aff3893ad15482005510d2a185f3705563bb5e55c7b15b86d73b8db1e6758747988b8240b68dde6727a039b94e5d5462ef80
+outputs.60.4.filename=plc4j-driver-can-0.13.0-sources.jar
+outputs.60.4.length=36104
+outputs.60.4.checksums.sha512=528fa51f4ee6248bbf1f796a255d9186d18931d4714f878bb7bb9cddd9d3d6e596696917c0997111815d60b229060c691c0d1afbbee8fec29521de843e2b9f5f
 
-outputs.61.coordinates=org.apache.plc4x:plc4j-driver-knxnetip
+outputs.61.coordinates=org.apache.plc4x:plc4j-driver-canopen
 
 outputs.61.0.groupId=org.apache.plc4x
-outputs.61.0.filename=plc4j-driver-knxnetip-0.13.0.pom
-outputs.61.0.length=7246
-outputs.61.0.checksums.sha512=0e775c95ea3cb0013735ad7dac3dc355d0689042e0762e0e064ecb88629164bc262e8b1918c83ab0f272f10d970a3f31d00f5a6345f4b838baadca8347a389b4
+outputs.61.0.filename=plc4j-driver-canopen-0.13.0.pom
+outputs.61.0.length=7268
+outputs.61.0.checksums.sha512=cc6985929a195c7ce9f3179c157552cac20a6e53c1e92f33c2b7b22151e63b080d8c733d5b27f222a01d619155cf271a152f1f113340237be43ce1f6621e1fa3
 
 outputs.61.1.groupId=org.apache.plc4x
-outputs.61.1.filename=plc4j-driver-knxnetip-0.13.0.jar
-outputs.61.1.length=817507
-outputs.61.1.checksums.sha512=6fd9d237600e7884c691819d1e709a764672ce3f6cd3894ea2b3d968f39dd9bde0768ea5ea3a09bf353b00056dbf7b8b4527241cfa426b508a99fb1bb801b876
+outputs.61.1.filename=plc4j-driver-canopen-0.13.0.jar
+outputs.61.1.length=193322
+outputs.61.1.checksums.sha512=382b1410618435a342468f8026163a8f66383eb1ed4a2a26f6c4679e4da1a1674061d4c7378bd520b07d41b696cb728b970f1a59cfec54d8dbaa5e72e9d573ba
 
 outputs.61.2.groupId=org.apache.plc4x
-outputs.61.2.filename=plc4j-driver-knxnetip-0.13.0-features.xml
-outputs.61.2.length=2272
-outputs.61.2.checksums.sha512=54de4b61d229e0ab098e74cb1447be64414a744321e727becc2f72c8d11a790d89619f077e1f3354e8f5745a76d5bf7cc69d48e4af288aad118c4ea1f55ddeea
+outputs.61.2.filename=plc4j-driver-canopen-0.13.0-features.xml
+outputs.61.2.length=1524
+outputs.61.2.checksums.sha512=e644332780f68129dce97bba672be86f5bb0eb9f7d5bb70ca1544eece6adb5e8b76b7ad25d150915b07fa692412b396d09acea49db398df29155963be75948b7
 
 outputs.61.3.groupId=org.apache.plc4x
-outputs.61.3.filename=plc4j-driver-knxnetip-0.13.0.kar
-outputs.61.3.length=18538650
-outputs.61.3.checksums.sha512=0c81173509de021ce83601bc803028cccf0aac7eba252dac29f69f3910ef3fa60b385df1aec783ff31c3552101254595fa765bcf894093b19db1265a3a6cc847
+outputs.61.3.filename=plc4j-driver-canopen-0.13.0.kar
+outputs.61.3.length=6577366
+outputs.61.3.checksums.sha512=1a9ce6903e56f2f12b4c498f7fedc75cff6860cb2bf913092576cdd502f80c41746d77a6ceb95766df9b9e7e487a03c862b4250410b48c9d0f4866eed5693283
 
 outputs.61.4.groupId=org.apache.plc4x
-outputs.61.4.filename=plc4j-driver-knxnetip-0.13.0-sources.jar
-outputs.61.4.length=425328
-outputs.61.4.checksums.sha512=cc08e97553f60d04ea69176e9ff36029a9b434243e166bb46973f0ccac3a4702f7ce884ad30dd5aae92f2b2aa5654e5ae7da50590310338c4e40fb230610c4a2
+outputs.61.4.filename=plc4j-driver-canopen-0.13.0-sources.jar
+outputs.61.4.length=115363
+outputs.61.4.checksums.sha512=848140069534600aa7be4d60eae77216b4ddcb81057a6f9f9505be725f92d88eb2d287a36aa6e8bee8d59a1913cb49a55f49e5d06ce64fef53814f5a7bbb1d4d
 
-outputs.62.coordinates=org.apache.plc4x:plc4j-driver-mock
+outputs.62.coordinates=org.apache.plc4x:plc4j-driver-ctrlx
 
 outputs.62.0.groupId=org.apache.plc4x
-outputs.62.0.filename=plc4j-driver-mock-0.13.0.pom
-outputs.62.0.length=2991
-outputs.62.0.checksums.sha512=580151f8e6306392143847f05a68c2457c760d059adbfc09de0830245e417b6e459405e4e67c98ecb166f21d81342c540829e9c7b75d0ee99280ac0100244969
+outputs.62.0.filename=plc4j-driver-ctrlx-0.13.0.pom
+outputs.62.0.length=6863
+outputs.62.0.checksums.sha512=2c836c80e726f1ae9155952cf85d3944cb27c881356a312e33a11bef02924203c433f1870fe8523fc3e042a22cd17fd2d14faa7a96d50797dac47b92abc4f4b0
 
 outputs.62.1.groupId=org.apache.plc4x
-outputs.62.1.filename=plc4j-driver-mock-0.13.0.jar
-outputs.62.1.length=32249
-outputs.62.1.checksums.sha512=52aceca2ead60849347bf01fce8d5c0e861d4dc042eeee0ae709863e788b602f951c763473f24cbc0344af662bd0184254ff0ce6ee140017737fdabb760cf3bb
+outputs.62.1.filename=plc4j-driver-ctrlx-0.13.0.jar
+outputs.62.1.length=285834
+outputs.62.1.checksums.sha512=d5ce9cdaaa5b0c8c23c375c7427b05ec498cd6453a0cc80235cc0437a088fc32af593f4e15af325e35682a93ff4f7e8541e5696887c3593edb980cdd52550239
 
 outputs.62.2.groupId=org.apache.plc4x
-outputs.62.2.filename=plc4j-driver-mock-0.13.0-sources.jar
-outputs.62.2.length=23609
-outputs.62.2.checksums.sha512=a7c551598b40ff06b135e23261ed0c7f54d83dd0fbdcf5cf30ed96d00baf435f5d7da7ce8c21a898de26a1a454bff650910b4f187c13334dcfc235ea9c51b913
+outputs.62.2.filename=plc4j-driver-ctrlx-0.13.0-features.xml
+outputs.62.2.length=2017
+outputs.62.2.checksums.sha512=e2ab0f587b044bdb5fab44424bcf68796074d728fb768b4189ff28e254cd0e8589e387ea5674ab1cae1f5f99eef09632fe97996a0b64673ceb24cc5e97349d82
 
-outputs.63.coordinates=org.apache.plc4x:plc4j-driver-open-protocol
+outputs.62.3.groupId=org.apache.plc4x
+outputs.62.3.filename=plc4j-driver-ctrlx-0.13.0.kar
+outputs.62.3.length=7885201
+outputs.62.3.checksums.sha512=fb776e45ba683a7660cdbaa544ace02d190a7230284ca5786fe5aa9ae01cea64062d4bdc7000b1fa02b062dff9309779aba327710f990ff9ac522e4e52437702
+
+outputs.62.4.groupId=org.apache.plc4x
+outputs.62.4.filename=plc4j-driver-ctrlx-0.13.0-sources.jar
+outputs.62.4.length=241941
+outputs.62.4.checksums.sha512=3efa8dd0fab6f0fc072cd982930d8494665a5573df38f291ef11674e03fe4b069c1910f7524bf4f4b245455bedbe9ecc4e98cf0e21424b6edc5f6f7b90400888
+
+outputs.63.coordinates=org.apache.plc4x:plc4j-transport-serial
 
 outputs.63.0.groupId=org.apache.plc4x
-outputs.63.0.filename=plc4j-driver-open-protocol-0.13.0.pom
-outputs.63.0.length=6451
-outputs.63.0.checksums.sha512=6b1a34c2636d0788c85a74b526066ec42e707133cdfd1ade7219639aac9a8ed9bc21ab94463f53bece73016cdb0945c1f4a70927961986a15d32216a3af02fbb
+outputs.63.0.filename=plc4j-transport-serial-0.13.0.pom
+outputs.63.0.length=4025
+outputs.63.0.checksums.sha512=4c75e4ba973ebeff0550aec14d1f5d2687798f572190670c209dc8a08c1ee5050fb1b5c50da5a4e8d1ea728612a00cddf55713fb68187fef642af1f3a5c872b2
 
 outputs.63.1.groupId=org.apache.plc4x
-outputs.63.1.filename=plc4j-driver-open-protocol-0.13.0.jar
-outputs.63.1.length=665879
-outputs.63.1.checksums.sha512=8f5b25060d2ad8ed5b5c32dcdb0c3b1053dd13cfb290b7a0c30cac0c3c9b28b539b36ba402764b5b65a295f1a6bac23f56942afed8be36c48320cde73c2ca9f7
+outputs.63.1.filename=plc4j-transport-serial-0.13.0.jar
+outputs.63.1.length=39136
+outputs.63.1.checksums.sha512=ba245052f05cba7a21ea468a5cd12c2ef8272d5204baee4fd6bcd404f4b3e3e29460e98745856a5b818cdb6016442da6ed58a859ec52ed0ed690ff6ba29b48ba
 
 outputs.63.2.groupId=org.apache.plc4x
-outputs.63.2.filename=plc4j-driver-open-protocol-0.13.0-features.xml
-outputs.63.2.length=1584
-outputs.63.2.checksums.sha512=b5e8447be99d9037199fa403ddd5f29dbe0b81e813da04138a68f881ef9332f8ae11ba3c3a9c52f7526104186bae7740c3f3d8c7beec4e3a8fffaee97567d6a9
+outputs.63.2.filename=plc4j-transport-serial-0.13.0-sources.jar
+outputs.63.2.length=30553
+outputs.63.2.checksums.sha512=21d3e3a191314d3f6fd0b6a91e1787048dfe690f3489ffd01b6fdb60bb1f71c6b1f45ea47b8f6057394a8c97aa29c4591cad9243c04bba496585063b0ba88a1f
 
-outputs.63.3.groupId=org.apache.plc4x
-outputs.63.3.filename=plc4j-driver-open-protocol-0.13.0.kar
-outputs.63.3.length=7862995
-outputs.63.3.checksums.sha512=5c4df64bbc5ae603d376256f2629db1175cb0da43b2c992030b887694066089089ea75c0f5a32d21f1c9ccd129d176efb3abc8c1185f1b0c31eb02a785dc30e8
-
-outputs.63.4.groupId=org.apache.plc4x
-outputs.63.4.filename=plc4j-driver-open-protocol-0.13.0-sources.jar
-outputs.63.4.length=346977
-outputs.63.4.checksums.sha512=13bc8935e2bf620d54a243bd972debbbbeb37c49a1bb76443898e2387f02394d3d2f77795ce2acae384433b0354834827aa163eb09c3939780b7be95a966fb07
-
-outputs.64.coordinates=org.apache.plc4x:plc4j-driver-modbus
+outputs.64.coordinates=org.apache.plc4x:plc4j-driver-firmata
 
 outputs.64.0.groupId=org.apache.plc4x
-outputs.64.0.filename=plc4j-driver-modbus-0.13.0.pom
-outputs.64.0.length=6646
-outputs.64.0.checksums.sha512=73eba739d77e7de499f4394f63c9e146a87b0eda53ed017e9a3b98d81d1fb3abb238d121b50b5f30d6dc1b83faed0040504dba5f69b8adb26e31ba5d01d65eb1
+outputs.64.0.filename=plc4j-driver-firmata-0.13.0.pom
+outputs.64.0.length=6640
+outputs.64.0.checksums.sha512=7941c45219f9d5745590ae65cac7cddf32ddeb8deea08bb07836304d7ea3446cacd17c92f54d3c219e0f5ad698159681bbaaaf3ba8ea764e1216bfaf1f340367
 
 outputs.64.1.groupId=org.apache.plc4x
-outputs.64.1.filename=plc4j-driver-modbus-0.13.0.jar
-outputs.64.1.length=284551
-outputs.64.1.checksums.sha512=a11ac1e5c9643608d875bd789b849f47440a6b266f30ff24f4f6a9a030e0766246c8bdc3d90a162bec383c92f3f62e80c4476b596b0c3431781baff0e4ff51c9
+outputs.64.1.filename=plc4j-driver-firmata-0.13.0.jar
+outputs.64.1.length=127317
+outputs.64.1.checksums.sha512=0041d3674e4a19b000a97b58bdee7a8fc5bbb159ffb1380a85875b966c4c4688b52d4a1d1da60a9a2a86cb918cfb51788073df55a6518fb278468740f742685f
 
 outputs.64.2.groupId=org.apache.plc4x
-outputs.64.2.filename=plc4j-driver-modbus-0.13.0-features.xml
-outputs.64.2.length=1824
-outputs.64.2.checksums.sha512=2083727fcf2e175c5e42997054bae80b6b0235e754779ff58a14b039faf073c34fabf43c84ef8316c36fa910321d79830057bd5ff312a0240e28b27f7f3b8715
+outputs.64.2.filename=plc4j-driver-firmata-0.13.0-features.xml
+outputs.64.2.length=1695
+outputs.64.2.checksums.sha512=e3140ec84be00afd3b412f62f38c8c9ab2f7d8d5f65942f4312ffd582f1550418fd599ca3fa4c4bece7611c96418aba3d8661ff800f6b1be38b3dc8e737337d9
 
 outputs.64.3.groupId=org.apache.plc4x
-outputs.64.3.filename=plc4j-driver-modbus-0.13.0.kar
-outputs.64.3.length=10037367
-outputs.64.3.checksums.sha512=76f2ce8e659d0046ad649aebe0af1092c9d0ab8f75b25e42550176b73f783c8abcef78ece64a698bb82c2a5e2841cb9e4511b71821d0c8b4fdb7279548fe4134
+outputs.64.3.filename=plc4j-driver-firmata-0.13.0.kar
+outputs.64.3.length=9401534
+outputs.64.3.checksums.sha512=f622542d663e27ff9556ad0880de71104e08a0e259803a016875f16829341013766ef882d17b4b3eccc16dd988f35bc9b9f5f55e43aacd4e50c3c28f7820ede5
 
 outputs.64.4.groupId=org.apache.plc4x
-outputs.64.4.filename=plc4j-driver-modbus-0.13.0-sources.jar
-outputs.64.4.length=170977
-outputs.64.4.checksums.sha512=3911fbeb6947f06cf267976b66f8f5d7c87ca09d0030d56b3a6fa2728b7cb9a557daba74d2fbfde8f42eefd3ad07e03850b310e6a1c8ec6d0c301e9dc11bd243
+outputs.64.4.filename=plc4j-driver-firmata-0.13.0-sources.jar
+outputs.64.4.length=77410
+outputs.64.4.checksums.sha512=12e7c152a62a0f703b8f48dca6e2aff3893ad15482005510d2a185f3705563bb5e55c7b15b86d73b8db1e6758747988b8240b68dde6727a039b94e5d5462ef80
 
-outputs.65.coordinates=org.apache.plc4x:plc4j-driver-opcua
+outputs.65.coordinates=org.apache.plc4x:plc4j-driver-knxnetip
 
 outputs.65.0.groupId=org.apache.plc4x
-outputs.65.0.filename=plc4j-driver-opcua-0.13.0.pom
-outputs.65.0.length=10184
-outputs.65.0.checksums.sha512=6a2d5529b89455f7272fd6b84790e3e874480f84e0d7096b553fabbf4a0e368007c7e2f2cdbc5712ee094931fa7acac9b6ba8ebc229e24ef48033c011c5f7045
+outputs.65.0.filename=plc4j-driver-knxnetip-0.13.0.pom
+outputs.65.0.length=7246
+outputs.65.0.checksums.sha512=0e775c95ea3cb0013735ad7dac3dc355d0689042e0762e0e064ecb88629164bc262e8b1918c83ab0f272f10d970a3f31d00f5a6345f4b838baadca8347a389b4
 
 outputs.65.1.groupId=org.apache.plc4x
-outputs.65.1.filename=plc4j-driver-opcua-0.13.0.jar
-outputs.65.1.length=2913424
-outputs.65.1.checksums.sha512=1f86cf9629fdcf6e9d1466b6e8bddd675fd3a56ab2b838d5cc72621cffdac49793964e98ba3b341bc98d43b2bdcd60260d5f680229d1caea2d741710acbe1d68
+outputs.65.1.filename=plc4j-driver-knxnetip-0.13.0.jar
+outputs.65.1.length=817875
+outputs.65.1.checksums.sha512=551dc74ab3a4acd346d34f7a4f65855199d454e5e3ae3a78acff25c3f1e004a9cc5048f4c632e71ad98568976ef34590513b5ef610963a3d2ac982a3eff15eb2
 
 outputs.65.2.groupId=org.apache.plc4x
-outputs.65.2.filename=plc4j-driver-opcua-0.13.0-features.xml
-outputs.65.2.length=1571
-outputs.65.2.checksums.sha512=60b1fab13ed5a77bf211a1c2f51515d83b98163f62f32a74d596a95c6f147fddedf9b829ef68d12719880cb2f81e6fac9b96fcff469de4854c8406e101fabe6d
+outputs.65.2.filename=plc4j-driver-knxnetip-0.13.0-features.xml
+outputs.65.2.length=2272
+outputs.65.2.checksums.sha512=54de4b61d229e0ab098e74cb1447be64414a744321e727becc2f72c8d11a790d89619f077e1f3354e8f5745a76d5bf7cc69d48e4af288aad118c4ea1f55ddeea
 
 outputs.65.3.groupId=org.apache.plc4x
-outputs.65.3.filename=plc4j-driver-opcua-0.13.0.kar
-outputs.65.3.length=18510008
-outputs.65.3.checksums.sha512=ee2982bb430c8d6f1316a0f2e957572cdea41f6640d3a46d982715c768e02d33186ad9e99309d50edbcfeb3ef27f66f80097093afe0ea7274a640c9b1bb0b888
+outputs.65.3.filename=plc4j-driver-knxnetip-0.13.0.kar
+outputs.65.3.length=18539018
+outputs.65.3.checksums.sha512=4e7516cc1013edde942a965812041866c72aca61a2780ab0cc42fffcbcc64062a9effe6e63aec9472b7d2cac103c7f486587eccb092253f64b6ebe54839950f8
 
 outputs.65.4.groupId=org.apache.plc4x
-outputs.65.4.filename=plc4j-driver-opcua-0.13.0-sources.jar
-outputs.65.4.length=1432669
-outputs.65.4.checksums.sha512=7d368000d5f8e082a736502638fdb55618d288d450a59cff761a753b2602ba0abd78ac83662f8371601f07d81ac8b7b2e6ab89ab481c689180d4cb8c29cdd810
+outputs.65.4.filename=plc4j-driver-knxnetip-0.13.0-sources.jar
+outputs.65.4.length=425491
+outputs.65.4.checksums.sha512=c0932d996f40cb320c8fe2186f3bd4804d2e7ae46ad20417c5d794a81e0692cb02e91903324fd0756e09746a54c1d3ee752374a7486e3401fba11a8b9d7039fa
 
-outputs.66.coordinates=org.apache.plc4x:plc4j-driver-plc4x
+outputs.66.coordinates=org.apache.plc4x:plc4j-driver-mock
 
 outputs.66.0.groupId=org.apache.plc4x
-outputs.66.0.filename=plc4j-driver-plc4x-0.13.0.pom
-outputs.66.0.length=6615
-outputs.66.0.checksums.sha512=4119c2892de071758c374775fd9f23f094606a730015837f0399aad0a3989ae1d58699a02913844d8ca9dd54a38244fd272b835cdb69c12c9940f31d5cebda28
+outputs.66.0.filename=plc4j-driver-mock-0.13.0.pom
+outputs.66.0.length=2991
+outputs.66.0.checksums.sha512=580151f8e6306392143847f05a68c2457c760d059adbfc09de0830245e417b6e459405e4e67c98ecb166f21d81342c540829e9c7b75d0ee99280ac0100244969
 
 outputs.66.1.groupId=org.apache.plc4x
-outputs.66.1.filename=plc4j-driver-plc4x-0.13.0.jar
-outputs.66.1.length=82500
-outputs.66.1.checksums.sha512=df59412e9283d0c1da37dcc655393fa2681c47060704ca2929b058b72dfff62ea0c26af2dba2678da287db70138145e545ae61340012f5758d290f7db7968003
+outputs.66.1.filename=plc4j-driver-mock-0.13.0.jar
+outputs.66.1.length=32249
+outputs.66.1.checksums.sha512=52aceca2ead60849347bf01fce8d5c0e861d4dc042eeee0ae709863e788b602f951c763473f24cbc0344af662bd0184254ff0ce6ee140017737fdabb760cf3bb
 
 outputs.66.2.groupId=org.apache.plc4x
-outputs.66.2.filename=plc4j-driver-plc4x-0.13.0-features.xml
-outputs.66.2.length=1549
-outputs.66.2.checksums.sha512=42e4dd8747c5997f34b149cc161fea8da71409af66cfa588dfede317e469ab45fc9cf6898d31c812ee97827ae9b06f9497b2622c97203fd5f1c1c692332b7c9a
+outputs.66.2.filename=plc4j-driver-mock-0.13.0-sources.jar
+outputs.66.2.length=23609
+outputs.66.2.checksums.sha512=a7c551598b40ff06b135e23261ed0c7f54d83dd0fbdcf5cf30ed96d00baf435f5d7da7ce8c21a898de26a1a454bff650910b4f187c13334dcfc235ea9c51b913
 
-outputs.66.3.groupId=org.apache.plc4x
-outputs.66.3.filename=plc4j-driver-plc4x-0.13.0.kar
-outputs.66.3.length=6429245
-outputs.66.3.checksums.sha512=8458f387f2fb5635703384d22430896c857f14c912f4e562b71514a2bc8c92619224bc60f21b2858388e3b0a5222150f5cc7d6dbef071f86079ecacc254830cb
-
-outputs.66.4.groupId=org.apache.plc4x
-outputs.66.4.filename=plc4j-driver-plc4x-0.13.0-sources.jar
-outputs.66.4.length=51038
-outputs.66.4.checksums.sha512=0304f06c04bd98dce2df60e56f762a207806b87f4c3b7760ca405cd77f5adf3a3dbc27a71d3889d1cca09dd2b4e1e5a3f8565d23d6a80f867049a898f65587c1
-
-outputs.67.coordinates=org.apache.plc4x:plc4j-driver-profinet
+outputs.67.coordinates=org.apache.plc4x:plc4j-driver-open-protocol
 
 outputs.67.0.groupId=org.apache.plc4x
-outputs.67.0.filename=plc4j-driver-profinet-0.13.0.pom
-outputs.67.0.length=8055
-outputs.67.0.checksums.sha512=6af5610ee312f5a9c3cb8fdb128a4e66945c5e0d9d521e61ebea3f5a6721f9d5d892ec5a264476a5b942b174af12e2ab8c24240af8082f80e4f3d9730aa94288
+outputs.67.0.filename=plc4j-driver-open-protocol-0.13.0.pom
+outputs.67.0.length=6451
+outputs.67.0.checksums.sha512=6b1a34c2636d0788c85a74b526066ec42e707133cdfd1ade7219639aac9a8ed9bc21ab94463f53bece73016cdb0945c1f4a70927961986a15d32216a3af02fbb
 
 outputs.67.1.groupId=org.apache.plc4x
-outputs.67.1.filename=plc4j-driver-profinet-0.13.0.jar
-outputs.67.1.length=726978
-outputs.67.1.checksums.sha512=43863f9b5192c2ada43a7abeec33b927f29daeeb6218f613c189f434ee41aa84c819013cea81c2832566164e2e8ecfbe2f6e406dcaee858596358f0936505481
+outputs.67.1.filename=plc4j-driver-open-protocol-0.13.0.jar
+outputs.67.1.length=665879
+outputs.67.1.checksums.sha512=8f5b25060d2ad8ed5b5c32dcdb0c3b1053dd13cfb290b7a0c30cac0c3c9b28b539b36ba402764b5b65a295f1a6bac23f56942afed8be36c48320cde73c2ca9f7
 
 outputs.67.2.groupId=org.apache.plc4x
-outputs.67.2.filename=plc4j-driver-profinet-0.13.0-features.xml
-outputs.67.2.length=2207
-outputs.67.2.checksums.sha512=4751906f837c1216f35cf2ec34aaea39a960193588d117cb0b2e051d653e22a844e020a5c374b855de66acfc7f1c88e958e127a8eb5aeff3c9e99efcaa225e87
+outputs.67.2.filename=plc4j-driver-open-protocol-0.13.0-features.xml
+outputs.67.2.length=1584
+outputs.67.2.checksums.sha512=b5e8447be99d9037199fa403ddd5f29dbe0b81e813da04138a68f881ef9332f8ae11ba3c3a9c52f7526104186bae7740c3f3d8c7beec4e3a8fffaee97567d6a9
 
 outputs.67.3.groupId=org.apache.plc4x
-outputs.67.3.filename=plc4j-driver-profinet-0.13.0.kar
-outputs.67.3.length=12288504
-outputs.67.3.checksums.sha512=30e6db316eeae77c727d76863b3b92dcba06945a70e66e0e1bf988898de87b6b6c362dab7d8b107022f6b435974a61485c33ac637d267525a973cb2f56a72126
+outputs.67.3.filename=plc4j-driver-open-protocol-0.13.0.kar
+outputs.67.3.length=7862995
+outputs.67.3.checksums.sha512=5c4df64bbc5ae603d376256f2629db1175cb0da43b2c992030b887694066089089ea75c0f5a32d21f1c9ccd129d176efb3abc8c1185f1b0c31eb02a785dc30e8
 
 outputs.67.4.groupId=org.apache.plc4x
-outputs.67.4.filename=plc4j-driver-profinet-0.13.0-sources.jar
-outputs.67.4.length=425735
-outputs.67.4.checksums.sha512=73a2c8653cce1c70f8101b1ac0dd2edb5cb599f2421091d48933c63d831db1f01b94a8b0e944bdec6ea3a345451fae8ee9c60eba4b20acde3a993430236292e7
+outputs.67.4.filename=plc4j-driver-open-protocol-0.13.0-sources.jar
+outputs.67.4.length=346977
+outputs.67.4.checksums.sha512=13bc8935e2bf620d54a243bd972debbbbeb37c49a1bb76443898e2387f02394d3d2f77795ce2acae384433b0354834827aa163eb09c3939780b7be95a966fb07
 
-outputs.68.coordinates=org.apache.plc4x:plc4j-driver-profinet-ng
+outputs.68.coordinates=org.apache.plc4x:plc4j-driver-modbus
 
 outputs.68.0.groupId=org.apache.plc4x
-outputs.68.0.filename=plc4j-driver-profinet-ng-0.13.0.pom
-outputs.68.0.length=7897
-outputs.68.0.checksums.sha512=8c575fdad28d2adc0d93113a773e50e9afc4a73b8860215f3217a6e23530039c9533b4a5ee281a17eaaebf7e59a2b53fad4d73861f90c9929d062f96a893da01
+outputs.68.0.filename=plc4j-driver-modbus-0.13.0.pom
+outputs.68.0.length=6646
+outputs.68.0.checksums.sha512=73eba739d77e7de499f4394f63c9e146a87b0eda53ed017e9a3b98d81d1fb3abb238d121b50b5f30d6dc1b83faed0040504dba5f69b8adb26e31ba5d01d65eb1
 
 outputs.68.1.groupId=org.apache.plc4x
-outputs.68.1.filename=plc4j-driver-profinet-ng-0.13.0.jar
-outputs.68.1.length=691211
-outputs.68.1.checksums.sha512=57adac41665ee59bb40184a09acb20ef3bb2dfc3e840b562adeb43b09aa9f2c5c8053737d3e2b06eae168f998591d41b3fc4f98cce5105479f5b99ec17515fd7
+outputs.68.1.filename=plc4j-driver-modbus-0.13.0.jar
+outputs.68.1.length=284551
+outputs.68.1.checksums.sha512=a11ac1e5c9643608d875bd789b849f47440a6b266f30ff24f4f6a9a030e0766246c8bdc3d90a162bec383c92f3f62e80c4476b596b0c3431781baff0e4ff51c9
 
 outputs.68.2.groupId=org.apache.plc4x
-outputs.68.2.filename=plc4j-driver-profinet-ng-0.13.0-features.xml
-outputs.68.2.length=2218
-outputs.68.2.checksums.sha512=229b43fe6be6dca211e4f9efcef232140cc0e9c0ef694a1548be3560944eb8f3e210a7dd2f6570e174ff98c761ffb66d0bc4a954f6350c05b572c3b3ea8786ab
+outputs.68.2.filename=plc4j-driver-modbus-0.13.0-features.xml
+outputs.68.2.length=1824
+outputs.68.2.checksums.sha512=2083727fcf2e175c5e42997054bae80b6b0235e754779ff58a14b039faf073c34fabf43c84ef8316c36fa910321d79830057bd5ff312a0240e28b27f7f3b8715
 
 outputs.68.3.groupId=org.apache.plc4x
-outputs.68.3.filename=plc4j-driver-profinet-ng-0.13.0.kar
-outputs.68.3.length=12252760
-outputs.68.3.checksums.sha512=a8ffc10ceb35c7789f88486014854f3595bb760fcb64a0182369e982d99aa081ba3696bf3bebfa26f4b2197e61bab9a4db2530ac653fa8ee64192ca6f9a7e649
+outputs.68.3.filename=plc4j-driver-modbus-0.13.0.kar
+outputs.68.3.length=10037367
+outputs.68.3.checksums.sha512=76f2ce8e659d0046ad649aebe0af1092c9d0ab8f75b25e42550176b73f783c8abcef78ece64a698bb82c2a5e2841cb9e4511b71821d0c8b4fdb7279548fe4134
 
 outputs.68.4.groupId=org.apache.plc4x
-outputs.68.4.filename=plc4j-driver-profinet-ng-0.13.0-sources.jar
-outputs.68.4.length=407523
-outputs.68.4.checksums.sha512=2e7e2d0d90e79474445d92d47b2e6ad6975b423c6ff34114a4f4603086e0604b56d4bee9e768995fb1201a1031b7453f12affe94984bb00f09a2cd2aa7eabd85
+outputs.68.4.filename=plc4j-driver-modbus-0.13.0-sources.jar
+outputs.68.4.length=170977
+outputs.68.4.checksums.sha512=3911fbeb6947f06cf267976b66f8f5d7c87ca09d0030d56b3a6fa2728b7cb9a557daba74d2fbfde8f42eefd3ad07e03850b310e6a1c8ec6d0c301e9dc11bd243
 
-outputs.69.coordinates=org.apache.plc4x:plc4j-driver-simulated
+outputs.69.coordinates=org.apache.plc4x:plc4j-driver-opcua
 
 outputs.69.0.groupId=org.apache.plc4x
-outputs.69.0.filename=plc4j-driver-simulated-0.13.0.pom
-outputs.69.0.length=5407
-outputs.69.0.checksums.sha512=d1145b9c7fa8c3af5b1784e4521fbebb6d529ace2c7514d0383dfc63b5026f36f974f9c550690cddc9dccde9ee9e431de671540111a69a1aac8abf21fdf42190
+outputs.69.0.filename=plc4j-driver-opcua-0.13.0.pom
+outputs.69.0.length=10184
+outputs.69.0.checksums.sha512=6a2d5529b89455f7272fd6b84790e3e874480f84e0d7096b553fabbf4a0e368007c7e2f2cdbc5712ee094931fa7acac9b6ba8ebc229e24ef48033c011c5f7045
 
 outputs.69.1.groupId=org.apache.plc4x
-outputs.69.1.filename=plc4j-driver-simulated-0.13.0.jar
-outputs.69.1.length=41344
-outputs.69.1.checksums.sha512=795b75333800c1c5626dacb9c1f03e8096fad683a1f2fe6bd31d8f2baab2606b05a53032ef18ae8e4d9c6a77b733d13fa1b4f5a827c448756a0f03dc3040255e
+outputs.69.1.filename=plc4j-driver-opcua-0.13.0.jar
+outputs.69.1.length=2913424
+outputs.69.1.checksums.sha512=1f86cf9629fdcf6e9d1466b6e8bddd675fd3a56ab2b838d5cc72621cffdac49793964e98ba3b341bc98d43b2bdcd60260d5f680229d1caea2d741710acbe1d68
 
 outputs.69.2.groupId=org.apache.plc4x
-outputs.69.2.filename=plc4j-driver-simulated-0.13.0-features.xml
-outputs.69.2.length=1364
-outputs.69.2.checksums.sha512=6740b89853125ff982b82935dd366306e7da93263a159a4e27d889bb266b5cdae64ce6461f236f3337753cb151954bf05bde75649cae84fad6d48ee49672d062
+outputs.69.2.filename=plc4j-driver-opcua-0.13.0-features.xml
+outputs.69.2.length=1571
+outputs.69.2.checksums.sha512=60b1fab13ed5a77bf211a1c2f51515d83b98163f62f32a74d596a95c6f147fddedf9b829ef68d12719880cb2f81e6fac9b96fcff469de4854c8406e101fabe6d
 
 outputs.69.3.groupId=org.apache.plc4x
-outputs.69.3.filename=plc4j-driver-simulated-0.13.0.kar
-outputs.69.3.length=6313138
-outputs.69.3.checksums.sha512=18a01293ac11b86d5b975ad84d1046df5636200bd4c8e96e44f26632fd40a46d86741d72e7a52f21b8d2ecc78352aa680191b02dcc1588f77ee7f7926af540c8
+outputs.69.3.filename=plc4j-driver-opcua-0.13.0.kar
+outputs.69.3.length=18510008
+outputs.69.3.checksums.sha512=ee2982bb430c8d6f1316a0f2e957572cdea41f6640d3a46d982715c768e02d33186ad9e99309d50edbcfeb3ef27f66f80097093afe0ea7274a640c9b1bb0b888
 
 outputs.69.4.groupId=org.apache.plc4x
-outputs.69.4.filename=plc4j-driver-simulated-0.13.0-sources.jar
-outputs.69.4.length=26909
-outputs.69.4.checksums.sha512=1457c13ff6cd6ee756e1c495afeb8026d6d8cb9b238926f6878d78a867866995a2f3279a5d4c5c3d213c4fd482c70f2782eac744dd67d12022440c2ec40177a7
+outputs.69.4.filename=plc4j-driver-opcua-0.13.0-sources.jar
+outputs.69.4.length=1432669
+outputs.69.4.checksums.sha512=7d368000d5f8e082a736502638fdb55618d288d450a59cff761a753b2602ba0abd78ac83662f8371601f07d81ac8b7b2e6ab89ab481c689180d4cb8c29cdd810
 
-outputs.70.coordinates=org.apache.plc4x:plc4j-driver-all
+outputs.70.coordinates=org.apache.plc4x:plc4j-driver-plc4x
 
 outputs.70.0.groupId=org.apache.plc4x
-outputs.70.0.filename=plc4j-driver-all-0.13.0.pom
-outputs.70.0.length=6315
-outputs.70.0.checksums.sha512=cf8320a8e8ebb62812358031196b0099136f505fc6f538db0ab2ea7e931cd4450388667a3f9a96f5130df43c5f3381562749069237f817a5ee14a89932e3419d
+outputs.70.0.filename=plc4j-driver-plc4x-0.13.0.pom
+outputs.70.0.length=6615
+outputs.70.0.checksums.sha512=4119c2892de071758c374775fd9f23f094606a730015837f0399aad0a3989ae1d58699a02913844d8ca9dd54a38244fd272b835cdb69c12c9940f31d5cebda28
 
-outputs.71.coordinates=org.apache.plc4x:plc4j-tools
+outputs.70.1.groupId=org.apache.plc4x
+outputs.70.1.filename=plc4j-driver-plc4x-0.13.0.jar
+outputs.70.1.length=82500
+outputs.70.1.checksums.sha512=df59412e9283d0c1da37dcc655393fa2681c47060704ca2929b058b72dfff62ea0c26af2dba2678da287db70138145e545ae61340012f5758d290f7db7968003
+
+outputs.70.2.groupId=org.apache.plc4x
+outputs.70.2.filename=plc4j-driver-plc4x-0.13.0-features.xml
+outputs.70.2.length=1549
+outputs.70.2.checksums.sha512=42e4dd8747c5997f34b149cc161fea8da71409af66cfa588dfede317e469ab45fc9cf6898d31c812ee97827ae9b06f9497b2622c97203fd5f1c1c692332b7c9a
+
+outputs.70.3.groupId=org.apache.plc4x
+outputs.70.3.filename=plc4j-driver-plc4x-0.13.0.kar
+outputs.70.3.length=6429245
+outputs.70.3.checksums.sha512=8458f387f2fb5635703384d22430896c857f14c912f4e562b71514a2bc8c92619224bc60f21b2858388e3b0a5222150f5cc7d6dbef071f86079ecacc254830cb
+
+outputs.70.4.groupId=org.apache.plc4x
+outputs.70.4.filename=plc4j-driver-plc4x-0.13.0-sources.jar
+outputs.70.4.length=51038
+outputs.70.4.checksums.sha512=0304f06c04bd98dce2df60e56f762a207806b87f4c3b7760ca405cd77f5adf3a3dbc27a71d3889d1cca09dd2b4e1e5a3f8565d23d6a80f867049a898f65587c1
+
+outputs.71.coordinates=org.apache.plc4x:plc4j-driver-profinet
 
 outputs.71.0.groupId=org.apache.plc4x
-outputs.71.0.filename=plc4j-tools-0.13.0.pom
-outputs.71.0.length=1717
-outputs.71.0.checksums.sha512=1265d2c3ca5b4f63e31442709fbaa252d90432dc2f648507a5a19e3d81dc2d036bf52bae68d47c5dde5142568171b7e6786ca0346d7558efb7e1a120b2a27d3d
+outputs.71.0.filename=plc4j-driver-profinet-0.13.0.pom
+outputs.71.0.length=8055
+outputs.71.0.checksums.sha512=6af5610ee312f5a9c3cb8fdb128a4e66945c5e0d9d521e61ebea3f5a6721f9d5d892ec5a264476a5b942b174af12e2ab8c24240af8082f80e4f3d9730aa94288
 
-outputs.72.coordinates=org.apache.plc4x:plc4j-capture-replay
+outputs.71.1.groupId=org.apache.plc4x
+outputs.71.1.filename=plc4j-driver-profinet-0.13.0.jar
+outputs.71.1.length=726978
+outputs.71.1.checksums.sha512=43863f9b5192c2ada43a7abeec33b927f29daeeb6218f613c189f434ee41aa84c819013cea81c2832566164e2e8ecfbe2f6e406dcaee858596358f0936505481
+
+outputs.71.2.groupId=org.apache.plc4x
+outputs.71.2.filename=plc4j-driver-profinet-0.13.0-features.xml
+outputs.71.2.length=2207
+outputs.71.2.checksums.sha512=4751906f837c1216f35cf2ec34aaea39a960193588d117cb0b2e051d653e22a844e020a5c374b855de66acfc7f1c88e958e127a8eb5aeff3c9e99efcaa225e87
+
+outputs.71.3.groupId=org.apache.plc4x
+outputs.71.3.filename=plc4j-driver-profinet-0.13.0.kar
+outputs.71.3.length=12288504
+outputs.71.3.checksums.sha512=30e6db316eeae77c727d76863b3b92dcba06945a70e66e0e1bf988898de87b6b6c362dab7d8b107022f6b435974a61485c33ac637d267525a973cb2f56a72126
+
+outputs.71.4.groupId=org.apache.plc4x
+outputs.71.4.filename=plc4j-driver-profinet-0.13.0-sources.jar
+outputs.71.4.length=425735
+outputs.71.4.checksums.sha512=73a2c8653cce1c70f8101b1ac0dd2edb5cb599f2421091d48933c63d831db1f01b94a8b0e944bdec6ea3a345451fae8ee9c60eba4b20acde3a993430236292e7
+
+outputs.72.coordinates=org.apache.plc4x:plc4j-driver-profinet-ng
 
 outputs.72.0.groupId=org.apache.plc4x
-outputs.72.0.filename=plc4j-capture-replay-0.13.0.pom
-outputs.72.0.length=6568
-outputs.72.0.checksums.sha512=c711c6ab17a251264bf978f0cfaf90fc4810a83f93faf1ec31d7872f997f32e9359d11aa1f3f992a9c8a971bb5b145ae5ecee9a86150152c0dec186f07bf5732
+outputs.72.0.filename=plc4j-driver-profinet-ng-0.13.0.pom
+outputs.72.0.length=7897
+outputs.72.0.checksums.sha512=8c575fdad28d2adc0d93113a773e50e9afc4a73b8860215f3217a6e23530039c9533b4a5ee281a17eaaebf7e59a2b53fad4d73861f90c9929d062f96a893da01
 
 outputs.72.1.groupId=org.apache.plc4x
-outputs.72.1.filename=plc4j-capture-replay-0.13.0.jar
-outputs.72.1.length=15262
-outputs.72.1.checksums.sha512=210d315a76699ed10d003aaa46a988cbc69b4c982c7ab5f1b8a09f1372e4c4024fb1af1222c1d149b8023f88303ff6c6fec439eedd6ee526fe0f20ecc5390e33
+outputs.72.1.filename=plc4j-driver-profinet-ng-0.13.0.jar
+outputs.72.1.length=691211
+outputs.72.1.checksums.sha512=57adac41665ee59bb40184a09acb20ef3bb2dfc3e840b562adeb43b09aa9f2c5c8053737d3e2b06eae168f998591d41b3fc4f98cce5105479f5b99ec17515fd7
 
 outputs.72.2.groupId=org.apache.plc4x
-outputs.72.2.filename=plc4j-capture-replay-0.13.0-sources.jar
-outputs.72.2.length=12295
-outputs.72.2.checksums.sha512=a4193593c21e1696c6afacb5dfd63c7036238f8da12b1be6e9f91e59fee57003d4af611844bf3d57a7c4fd9d0757a3e06957e6d5a6e0e3b2562c265cf61db008
+outputs.72.2.filename=plc4j-driver-profinet-ng-0.13.0-features.xml
+outputs.72.2.length=2218
+outputs.72.2.checksums.sha512=229b43fe6be6dca211e4f9efcef232140cc0e9c0ef694a1548be3560944eb8f3e210a7dd2f6570e174ff98c761ffb66d0bc4a954f6350c05b572c3b3ea8786ab
 
-outputs.73.coordinates=org.apache.plc4x:plc4j-connection-cache
+outputs.72.3.groupId=org.apache.plc4x
+outputs.72.3.filename=plc4j-driver-profinet-ng-0.13.0.kar
+outputs.72.3.length=12252760
+outputs.72.3.checksums.sha512=a8ffc10ceb35c7789f88486014854f3595bb760fcb64a0182369e982d99aa081ba3696bf3bebfa26f4b2197e61bab9a4db2530ac653fa8ee64192ca6f9a7e649
+
+outputs.72.4.groupId=org.apache.plc4x
+outputs.72.4.filename=plc4j-driver-profinet-ng-0.13.0-sources.jar
+outputs.72.4.length=407523
+outputs.72.4.checksums.sha512=2e7e2d0d90e79474445d92d47b2e6ad6975b423c6ff34114a4f4603086e0604b56d4bee9e768995fb1201a1031b7453f12affe94984bb00f09a2cd2aa7eabd85
+
+outputs.73.coordinates=org.apache.plc4x:plc4j-driver-simulated
 
 outputs.73.0.groupId=org.apache.plc4x
-outputs.73.0.filename=plc4j-connection-cache-0.13.0.pom
-outputs.73.0.length=2211
-outputs.73.0.checksums.sha512=b67bd3524e9c94a4c2f0dc2d2a8caab0c49da9b88e1a794dda38d803a3a12a809bb58c9e652c3c80dbcd2a633dafdefd0c0fa0c477de2cbfe12aeb5748da3a8b
+outputs.73.0.filename=plc4j-driver-simulated-0.13.0.pom
+outputs.73.0.length=5407
+outputs.73.0.checksums.sha512=d1145b9c7fa8c3af5b1784e4521fbebb6d529ace2c7514d0383dfc63b5026f36f974f9c550690cddc9dccde9ee9e431de671540111a69a1aac8abf21fdf42190
 
 outputs.73.1.groupId=org.apache.plc4x
-outputs.73.1.filename=plc4j-connection-cache-0.13.0.jar
-outputs.73.1.length=33665
-outputs.73.1.checksums.sha512=9b30c7f540464d6aa2d555ee5e5db65ecb4d5243335d14f45ad0f6d59895891b5117b87a0f4dc2c38e596d26219e88e58c409d27e2945c018cac8d214b6876e0
+outputs.73.1.filename=plc4j-driver-simulated-0.13.0.jar
+outputs.73.1.length=41344
+outputs.73.1.checksums.sha512=795b75333800c1c5626dacb9c1f03e8096fad683a1f2fe6bd31d8f2baab2606b05a53032ef18ae8e4d9c6a77b733d13fa1b4f5a827c448756a0f03dc3040255e
 
 outputs.73.2.groupId=org.apache.plc4x
-outputs.73.2.filename=plc4j-connection-cache-0.13.0-sources.jar
-outputs.73.2.length=15879
-outputs.73.2.checksums.sha512=c34292882b3ba50191baa50dcee3fb052e52ec18e82350307d702a5378e8624f1fccbe03a9e4dd97bfebd878c41fffb4abcf52c64b640e8d2325e129fd7eb415
+outputs.73.2.filename=plc4j-driver-simulated-0.13.0-features.xml
+outputs.73.2.length=1364
+outputs.73.2.checksums.sha512=6740b89853125ff982b82935dd366306e7da93263a159a4e27d889bb266b5cdae64ce6461f236f3337753cb151954bf05bde75649cae84fad6d48ee49672d062
 
-outputs.74.coordinates=org.apache.plc4x:plc4j-opm
+outputs.73.3.groupId=org.apache.plc4x
+outputs.73.3.filename=plc4j-driver-simulated-0.13.0.kar
+outputs.73.3.length=6313138
+outputs.73.3.checksums.sha512=18a01293ac11b86d5b975ad84d1046df5636200bd4c8e96e44f26632fd40a46d86741d72e7a52f21b8d2ecc78352aa680191b02dcc1588f77ee7f7926af540c8
+
+outputs.73.4.groupId=org.apache.plc4x
+outputs.73.4.filename=plc4j-driver-simulated-0.13.0-sources.jar
+outputs.73.4.length=26909
+outputs.73.4.checksums.sha512=1457c13ff6cd6ee756e1c495afeb8026d6d8cb9b238926f6878d78a867866995a2f3279a5d4c5c3d213c4fd482c70f2782eac744dd67d12022440c2ec40177a7
+
+outputs.74.coordinates=org.apache.plc4x:plc4j-driver-all
 
 outputs.74.0.groupId=org.apache.plc4x
-outputs.74.0.filename=plc4j-opm-0.13.0.pom
-outputs.74.0.length=2847
-outputs.74.0.checksums.sha512=6cbc18fc96b193faa94f5b37f80343f445f00dca011f21efb8f14fcc3caf1713bf3016e3e960d7c6b2e327816639a3a56d315527423226f749017be94b315e79
+outputs.74.0.filename=plc4j-driver-all-0.13.0.pom
+outputs.74.0.length=6315
+outputs.74.0.checksums.sha512=cf8320a8e8ebb62812358031196b0099136f505fc6f538db0ab2ea7e931cd4450388667a3f9a96f5130df43c5f3381562749069237f817a5ee14a89932e3419d
 
-outputs.74.1.groupId=org.apache.plc4x
-outputs.74.1.filename=plc4j-opm-0.13.0.jar
-outputs.74.1.length=26771
-outputs.74.1.checksums.sha512=34653f3f09d1866bc0048d1f526eb0f35c8f708bafb1ee9580ea65c73d3d481cfc7af969e3898caa6efd3e65a296cb7300a3cf51c6d8752a9fe12532e57769ef
-
-outputs.74.2.groupId=org.apache.plc4x
-outputs.74.2.filename=plc4j-opm-0.13.0-sources.jar
-outputs.74.2.length=22161
-outputs.74.2.checksums.sha512=53527e918e422785d71c2f4c1d59cf4bd62d697a736685a53a2ff4a0910aa784374e583fb86f625cba63f94324aa2858740ad63cf7374683f75266af95f18e44
-
-outputs.75.coordinates=org.apache.plc4x:plc4j-scraper
+outputs.75.coordinates=org.apache.plc4x:plc4j-tools
 
 outputs.75.0.groupId=org.apache.plc4x
-outputs.75.0.filename=plc4j-scraper-0.13.0.pom
-outputs.75.0.length=3448
-outputs.75.0.checksums.sha512=a2a954419a49e82760cd88329b9ab49f1dabb4ebefba3cdae67137317cd3760d721bd27bcdec140ff9bdc6397518224c8a7ecb341bee68223f1e24b059de5e64
+outputs.75.0.filename=plc4j-tools-0.13.0.pom
+outputs.75.0.length=1717
+outputs.75.0.checksums.sha512=1265d2c3ca5b4f63e31442709fbaa252d90432dc2f648507a5a19e3d81dc2d036bf52bae68d47c5dde5142568171b7e6786ca0346d7558efb7e1a120b2a27d3d
 
-outputs.75.1.groupId=org.apache.plc4x
-outputs.75.1.filename=plc4j-scraper-0.13.0.jar
-outputs.75.1.length=78321
-outputs.75.1.checksums.sha512=722e5e0b50a270dd98042e5b50874e53484e2d55d26125a11505f0a51a035dfbc77421cbeddfac73210b573224818f7b898d2355dfc9f61b3aae0b7158283aee
-
-outputs.75.2.groupId=org.apache.plc4x
-outputs.75.2.filename=plc4j-scraper-0.13.0-sources.jar
-outputs.75.2.length=59685
-outputs.75.2.checksums.sha512=6596fcf64e3230f0e742fa1e7fc9390130096a982c247766eae20dc0637fb78cb7c42551e18e40c1f0f84b7b183c9370b746e19737e71a09011749040e8a11c0
-
-outputs.76.coordinates=org.apache.plc4x:plc4j-scraper-ng
+outputs.76.coordinates=org.apache.plc4x:plc4j-capture-replay
 
 outputs.76.0.groupId=org.apache.plc4x
-outputs.76.0.filename=plc4j-scraper-ng-0.13.0.pom
-outputs.76.0.length=3207
-outputs.76.0.checksums.sha512=8289950b41689ef22d7b05ed80678484290e2d3be29fe5d3294267ba167f6544321c62c0ce214e357f4ea0eb33d2a70556eba38f7cc5e1217f28acf1dadfb15d
+outputs.76.0.filename=plc4j-capture-replay-0.13.0.pom
+outputs.76.0.length=6568
+outputs.76.0.checksums.sha512=c711c6ab17a251264bf978f0cfaf90fc4810a83f93faf1ec31d7872f997f32e9359d11aa1f3f992a9c8a971bb5b145ae5ecee9a86150152c0dec186f07bf5732
 
 outputs.76.1.groupId=org.apache.plc4x
-outputs.76.1.filename=plc4j-scraper-ng-0.13.0.jar
-outputs.76.1.length=7190
-outputs.76.1.checksums.sha512=2863fdc1c22036561ae95909fbb043e58db12ff560474aa8e1d95600741f2856e0aa83d1311874f8acea5b0b581fc412970e38dd58b149e9529d8355ee79c0a4
+outputs.76.1.filename=plc4j-capture-replay-0.13.0.jar
+outputs.76.1.length=15262
+outputs.76.1.checksums.sha512=210d315a76699ed10d003aaa46a988cbc69b4c982c7ab5f1b8a09f1372e4c4024fb1af1222c1d149b8023f88303ff6c6fec439eedd6ee526fe0f20ecc5390e33
 
 outputs.76.2.groupId=org.apache.plc4x
-outputs.76.2.filename=plc4j-scraper-ng-0.13.0-sources.jar
-outputs.76.2.length=6766
-outputs.76.2.checksums.sha512=e19bd778a0708f104d9282c5bbc9b169697d5b611daa7df153710676489ab44650c099ebc9ae79244aad9b22d8fb388f9e285a6f53b13b8f0e13e13384c84924
+outputs.76.2.filename=plc4j-capture-replay-0.13.0-sources.jar
+outputs.76.2.length=12295
+outputs.76.2.checksums.sha512=a4193593c21e1696c6afacb5dfd63c7036238f8da12b1be6e9f91e59fee57003d4af611844bf3d57a7c4fd9d0757a3e06957e6d5a6e0e3b2562c265cf61db008
 
-outputs.77.coordinates=org.apache.plc4x:plc4j-transport-socketcan
+outputs.77.coordinates=org.apache.plc4x:plc4j-connection-cache
 
 outputs.77.0.groupId=org.apache.plc4x
-outputs.77.0.filename=plc4j-transport-socketcan-0.13.0.pom
-outputs.77.0.length=4538
-outputs.77.0.checksums.sha512=9d72dd869416dc270927cec760b5fb1cb7518dab25f892085af08bb919a9aa81d7f671e6b5e15529ce3fd8c700be9e5000c800b0855f1e3410015bf99d96bc2f
+outputs.77.0.filename=plc4j-connection-cache-0.13.0.pom
+outputs.77.0.length=2211
+outputs.77.0.checksums.sha512=b67bd3524e9c94a4c2f0dc2d2a8caab0c49da9b88e1a794dda38d803a3a12a809bb58c9e652c3c80dbcd2a633dafdefd0c0fa0c477de2cbfe12aeb5748da3a8b
 
 outputs.77.1.groupId=org.apache.plc4x
-outputs.77.1.filename=plc4j-transport-socketcan-0.13.0.jar
-outputs.77.1.length=28523
-outputs.77.1.checksums.sha512=ff4dac280ec5817a5f845b47e746c8977a14b336b6c3e0a33e82073b4aba3e9b8489a8581c9962a8739f761051683445871ed9172146dd6266aa70cc19298a21
+outputs.77.1.filename=plc4j-connection-cache-0.13.0.jar
+outputs.77.1.length=33665
+outputs.77.1.checksums.sha512=9b30c7f540464d6aa2d555ee5e5db65ecb4d5243335d14f45ad0f6d59895891b5117b87a0f4dc2c38e596d26219e88e58c409d27e2945c018cac8d214b6876e0
 
 outputs.77.2.groupId=org.apache.plc4x
-outputs.77.2.filename=plc4j-transport-socketcan-0.13.0-sources.jar
-outputs.77.2.length=22117
-outputs.77.2.checksums.sha512=29a2c0b9d43b6cfc6e16974f5fbede13129657ee9b34def9c15d1b04a82d01a1154768bd18c4422f16e63540037f8e4d8d6eae446028a7455e3b5f455d8164e0
+outputs.77.2.filename=plc4j-connection-cache-0.13.0-sources.jar
+outputs.77.2.length=15879
+outputs.77.2.checksums.sha512=c34292882b3ba50191baa50dcee3fb052e52ec18e82350307d702a5378e8624f1fccbe03a9e4dd97bfebd878c41fffb4abcf52c64b640e8d2325e129fd7eb415
 
-outputs.78.coordinates=org.apache.plc4x:plc4j-utils-plc-simulator
+outputs.78.coordinates=org.apache.plc4x:plc4j-opm
 
 outputs.78.0.groupId=org.apache.plc4x
-outputs.78.0.filename=plc4j-utils-plc-simulator-0.13.0.pom
-outputs.78.0.length=5997
-outputs.78.0.checksums.sha512=d5529318d64f272bf2d3b62923a297c0ef02b85e9a78abdd8257dc0493b3997e417c9b9f5a058c743e9317f6bc47ff8d90144d1a13b9310c313ffb6040400c69
+outputs.78.0.filename=plc4j-opm-0.13.0.pom
+outputs.78.0.length=2847
+outputs.78.0.checksums.sha512=6cbc18fc96b193faa94f5b37f80343f445f00dca011f21efb8f14fcc3caf1713bf3016e3e960d7c6b2e327816639a3a56d315527423226f749017be94b315e79
 
 outputs.78.1.groupId=org.apache.plc4x
-outputs.78.1.filename=plc4j-utils-plc-simulator-0.13.0.jar
-outputs.78.1.length=68176
-outputs.78.1.checksums.sha512=5a381a5e27426206beea915bec3d568ada8348c214b452582f3c8cc00d17e3bfc67fba2206687d9aae6be0e86c3dafafa65fe9e0dfe06ef5a4cfe5b0542b74e4
+outputs.78.1.filename=plc4j-opm-0.13.0.jar
+outputs.78.1.length=26771
+outputs.78.1.checksums.sha512=34653f3f09d1866bc0048d1f526eb0f35c8f708bafb1ee9580ea65c73d3d481cfc7af969e3898caa6efd3e65a296cb7300a3cf51c6d8752a9fe12532e57769ef
 
 outputs.78.2.groupId=org.apache.plc4x
-outputs.78.2.filename=plc4j-utils-plc-simulator-0.13.0-sources.jar
-outputs.78.2.length=41588
-outputs.78.2.checksums.sha512=a64c725dd2c8c13eb8ec793039e1d42e4aa952e5b55b1079063c5bb7ef8682a40eefbe0e5f14abbd5378a23b692687e9477e330d9a823ed09c0c4c08d652ca3b
+outputs.78.2.filename=plc4j-opm-0.13.0-sources.jar
+outputs.78.2.length=22161
+outputs.78.2.checksums.sha512=53527e918e422785d71c2f4c1d59cf4bd62d697a736685a53a2ff4a0910aa784374e583fb86f625cba63f94324aa2858740ad63cf7374683f75266af95f18e44
 
-outputs.79.coordinates=org.apache.plc4x:plc4j-osgi
+outputs.79.coordinates=org.apache.plc4x:plc4j-scraper
 
 outputs.79.0.groupId=org.apache.plc4x
-outputs.79.0.filename=plc4j-osgi-0.13.0.pom
-outputs.79.0.length=2355
-outputs.79.0.checksums.sha512=247622eac4f9ec45746351c749fd3c3cf24d889473e6b4b2e82cc6731e65af94ba2b70776ae153898369dd4a1314f6b407ccb67161a1ae7dba376f3446bd954b
+outputs.79.0.filename=plc4j-scraper-0.13.0.pom
+outputs.79.0.length=3448
+outputs.79.0.checksums.sha512=a2a954419a49e82760cd88329b9ab49f1dabb4ebefba3cdae67137317cd3760d721bd27bcdec140ff9bdc6397518224c8a7ecb341bee68223f1e24b059de5e64
 
 outputs.79.1.groupId=org.apache.plc4x
-outputs.79.1.filename=plc4j-osgi-0.13.0.jar
-outputs.79.1.length=11644
-outputs.79.1.checksums.sha512=032e22f7d16b590d9d6e4c2a95b1b239dc47c4775fac702ac254c51adba7c50817478701d99f4c042900ede851e0c21d9cf4a4671b6d9bb7d2535cf7f6f78909
+outputs.79.1.filename=plc4j-scraper-0.13.0.jar
+outputs.79.1.length=78321
+outputs.79.1.checksums.sha512=722e5e0b50a270dd98042e5b50874e53484e2d55d26125a11505f0a51a035dfbc77421cbeddfac73210b573224818f7b898d2355dfc9f61b3aae0b7158283aee
 
 outputs.79.2.groupId=org.apache.plc4x
-outputs.79.2.filename=plc4j-osgi-0.13.0-sources.jar
-outputs.79.2.length=10047
-outputs.79.2.checksums.sha512=aeed7037cc37e752c52f92d89447bd283c774cdf7ade9cad1475a417c2ceb9c5508dada598c916ebd30575edeef9522448dfc03e5f0ce9db993353132a75ed6d
+outputs.79.2.filename=plc4j-scraper-0.13.0-sources.jar
+outputs.79.2.length=59685
+outputs.79.2.checksums.sha512=6596fcf64e3230f0e742fa1e7fc9390130096a982c247766eae20dc0637fb78cb7c42551e18e40c1f0f84b7b183c9370b746e19737e71a09011749040e8a11c0
 
-outputs.80.coordinates=org.apache.plc4x:plc4net
+outputs.80.coordinates=org.apache.plc4x:plc4j-scraper-ng
 
 outputs.80.0.groupId=org.apache.plc4x
-outputs.80.0.filename=plc4net-0.13.0.pom
-outputs.80.0.length=5889
-outputs.80.0.checksums.sha512=23e5f7bad618e949b7f102afb6ea9cd4cd8cdfbda960cafaf31d2ae433c20a440a7a1b2208314a3261409f97fa86e3e7fd226e0048c47c4b9f2b918edebb1829
+outputs.80.0.filename=plc4j-scraper-ng-0.13.0.pom
+outputs.80.0.length=3207
+outputs.80.0.checksums.sha512=8289950b41689ef22d7b05ed80678484290e2d3be29fe5d3294267ba167f6544321c62c0ce214e357f4ea0eb33d2a70556eba38f7cc5e1217f28acf1dadfb15d
+
+outputs.80.1.groupId=org.apache.plc4x
+outputs.80.1.filename=plc4j-scraper-ng-0.13.0.jar
+outputs.80.1.length=7190
+outputs.80.1.checksums.sha512=2863fdc1c22036561ae95909fbb043e58db12ff560474aa8e1d95600741f2856e0aa83d1311874f8acea5b0b581fc412970e38dd58b149e9529d8355ee79c0a4
+
+outputs.80.2.groupId=org.apache.plc4x
+outputs.80.2.filename=plc4j-scraper-ng-0.13.0-sources.jar
+outputs.80.2.length=6766
+outputs.80.2.checksums.sha512=e19bd778a0708f104d9282c5bbc9b169697d5b611daa7df153710676489ab44650c099ebc9ae79244aad9b22d8fb388f9e285a6f53b13b8f0e13e13384c84924
+
+outputs.81.coordinates=org.apache.plc4x:plc4j-transport-socketcan
+
+outputs.81.0.groupId=org.apache.plc4x
+outputs.81.0.filename=plc4j-transport-socketcan-0.13.0.pom
+outputs.81.0.length=4538
+outputs.81.0.checksums.sha512=9d72dd869416dc270927cec760b5fb1cb7518dab25f892085af08bb919a9aa81d7f671e6b5e15529ce3fd8c700be9e5000c800b0855f1e3410015bf99d96bc2f
+
+outputs.81.1.groupId=org.apache.plc4x
+outputs.81.1.filename=plc4j-transport-socketcan-0.13.0.jar
+outputs.81.1.length=28523
+outputs.81.1.checksums.sha512=ff4dac280ec5817a5f845b47e746c8977a14b336b6c3e0a33e82073b4aba3e9b8489a8581c9962a8739f761051683445871ed9172146dd6266aa70cc19298a21
+
+outputs.81.2.groupId=org.apache.plc4x
+outputs.81.2.filename=plc4j-transport-socketcan-0.13.0-sources.jar
+outputs.81.2.length=22117
+outputs.81.2.checksums.sha512=29a2c0b9d43b6cfc6e16974f5fbede13129657ee9b34def9c15d1b04a82d01a1154768bd18c4422f16e63540037f8e4d8d6eae446028a7455e3b5f455d8164e0
+
+outputs.82.coordinates=org.apache.plc4x:plc4j-utils-plc-simulator
+
+outputs.82.0.groupId=org.apache.plc4x
+outputs.82.0.filename=plc4j-utils-plc-simulator-0.13.0.pom
+outputs.82.0.length=5997
+outputs.82.0.checksums.sha512=d5529318d64f272bf2d3b62923a297c0ef02b85e9a78abdd8257dc0493b3997e417c9b9f5a058c743e9317f6bc47ff8d90144d1a13b9310c313ffb6040400c69
+
+outputs.82.1.groupId=org.apache.plc4x
+outputs.82.1.filename=plc4j-utils-plc-simulator-0.13.0.jar
+outputs.82.1.length=68176
+outputs.82.1.checksums.sha512=5a381a5e27426206beea915bec3d568ada8348c214b452582f3c8cc00d17e3bfc67fba2206687d9aae6be0e86c3dafafa65fe9e0dfe06ef5a4cfe5b0542b74e4
+
+outputs.82.2.groupId=org.apache.plc4x
+outputs.82.2.filename=plc4j-utils-plc-simulator-0.13.0-sources.jar
+outputs.82.2.length=41588
+outputs.82.2.checksums.sha512=a64c725dd2c8c13eb8ec793039e1d42e4aa952e5b55b1079063c5bb7ef8682a40eefbe0e5f14abbd5378a23b692687e9477e330d9a823ed09c0c4c08d652ca3b
+
+outputs.83.coordinates=org.apache.plc4x:plc4j-osgi
+
+outputs.83.0.groupId=org.apache.plc4x
+outputs.83.0.filename=plc4j-osgi-0.13.0.pom
+outputs.83.0.length=2355
+outputs.83.0.checksums.sha512=247622eac4f9ec45746351c749fd3c3cf24d889473e6b4b2e82cc6731e65af94ba2b70776ae153898369dd4a1314f6b407ccb67161a1ae7dba376f3446bd954b
+
+outputs.83.1.groupId=org.apache.plc4x
+outputs.83.1.filename=plc4j-osgi-0.13.0.jar
+outputs.83.1.length=11644
+outputs.83.1.checksums.sha512=032e22f7d16b590d9d6e4c2a95b1b239dc47c4775fac702ac254c51adba7c50817478701d99f4c042900ede851e0c21d9cf4a4671b6d9bb7d2535cf7f6f78909
+
+outputs.83.2.groupId=org.apache.plc4x
+outputs.83.2.filename=plc4j-osgi-0.13.0-sources.jar
+outputs.83.2.length=10047
+outputs.83.2.checksums.sha512=aeed7037cc37e752c52f92d89447bd283c774cdf7ade9cad1475a417c2ceb9c5508dada598c916ebd30575edeef9522448dfc03e5f0ce9db993353132a75ed6d
+
+outputs.84.coordinates=org.apache.plc4x:plc4net
+
+outputs.84.0.groupId=org.apache.plc4x
+outputs.84.0.filename=plc4net-0.13.0.pom
+outputs.84.0.length=5889
+outputs.84.0.checksums.sha512=23e5f7bad618e949b7f102afb6ea9cd4cd8cdfbda960cafaf31d2ae433c20a440a7a1b2208314a3261409f97fa86e3e7fd226e0048c47c4b9f2b918edebb1829
