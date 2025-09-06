@@ -1,0 +1,35 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=AspectJ Maven Plugin
+group-id=dev.aspectj
+artifact-id=aspectj-maven-plugin
+version=1.14
+
+# source information
+source.scm.uri=scm:git:https://github.com/dev-aspectj/aspectj-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.28
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.6
+mvn.minimum.version=3.0.5
+
+# output
+
+outputs.0.groupId=dev.aspectj
+outputs.0.filename=aspectj-maven-plugin-1.14.pom
+outputs.0.length=27189
+outputs.0.checksums.sha512=e4234d403e9390b8d7935853061a275f31e01fd6a21bf9d9847cbb2f12ef3577759dc1d35652c36bd806a5da7a2254ccc666a42b60e9d2ba77bde80ea3b9aedf
+
+outputs.1.groupId=dev.aspectj
+outputs.1.filename=aspectj-maven-plugin-1.14.jar
+outputs.1.length=65579
+outputs.1.checksums.sha512=c8cf64594b563baa81f3be323bdefe217e366c33d0e2b4cb6df9b2578afb829140f029686744c65a206520f16bf11ef8391cb9ea0aa52e1e576c6a47635d3bc9
