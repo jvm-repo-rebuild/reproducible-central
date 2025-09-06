@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/plc4x.git](https://github.com/apache/plc4x.git)
 
-<details><summary>This project defines 105 modules:</summary>
+<details><summary>This project defines 107 modules:</summary>
 
 * [org.apache.plc4x.sandbox:plc4j-driver-discovery](https://central.sonatype.com/artifact/org.apache.plc4x.sandbox/plc4j-driver-discovery/overview)
 * [org.apache.plc4x.sandbox:plc4x-sandbox](https://central.sonatype.com/artifact/org.apache.plc4x.sandbox/plc4x-sandbox/overview)
@@ -25,10 +25,12 @@ Source code: [https://github.com/apache/plc4x.git](https://github.com/apache/plc
 * [org.apache.plc4x:plc4j-connection-pool](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-connection-pool/overview)
 * [org.apache.plc4x:plc4j-driver-ab-eth](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-ab-eth/overview)
 * [org.apache.plc4x:plc4j-driver-ads](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-ads/overview)
+* [org.apache.plc4x:plc4j-driver-all](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-all/overview)
 * [org.apache.plc4x:plc4j-driver-bacnet](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-bacnet/overview)
 * [org.apache.plc4x:plc4j-driver-c-bus](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-c-bus/overview)
 * [org.apache.plc4x:plc4j-driver-can](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-can/overview)
 * [org.apache.plc4x:plc4j-driver-canopen](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-canopen/overview)
+* [org.apache.plc4x:plc4j-driver-ctrlx](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-ctrlx/overview)
 * [org.apache.plc4x:plc4j-driver-eip](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-eip/overview)
 * [org.apache.plc4x:plc4j-driver-firmata](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-firmata/overview)
 * [org.apache.plc4x:plc4j-driver-iec-60870](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-driver-iec-60870/overview)
@@ -123,8 +125,8 @@ rebuilding **6 releases** of org.apache.plc4x:plc4x-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.13.1](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.13.1/pom) | [mvn jdk21](plc4x-0.13.1.buildspec) | [result](plc4x-parent-0.13.1.buildinfo): [108 :white_check_mark:  4 :warning:](plc4x-parent-0.13.1.buildcompare) [:memo:](https://github.com/apache/plc4x/pull/1202) | 1 :rotating_light: 3 :no_entry_sign: | 45M |
-| [0.13.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.13.0/pom) | [mvn jdk21](plc4x-0.13.0.buildspec) | [result](plc4x-parent-0.13.0.buildinfo): [108 :white_check_mark:  4 :warning:](plc4x-parent-0.13.0.buildcompare) [:memo:](https://github.com/apache/plc4x/pull/1202) | 1 :rotating_light: 3 :no_entry_sign: | 45M |
+| [0.13.1](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.13.1/pom) | [mvn jdk21](plc4x-0.13.1.buildspec) | [result](plc4x-parent-0.13.1.buildinfo): [282 :white_check_mark:  6 :warning:](plc4x-parent-0.13.1.buildcompare) [:memo:](https://github.com/apache/plc4x/pull/1202) | 1 :rotating_light: 5 :no_entry_sign: | 249M |
+| [0.13.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.13.0/pom) | [mvn jdk21](plc4x-0.13.0.buildspec) | [result](plc4x-parent-0.13.0.buildinfo): [284 :white_check_mark:  4 :warning:](plc4x-parent-0.13.0.buildcompare) [:memo:](https://github.com/apache/plc4x/pull/1202) | 1 :rotating_light: 3 :no_entry_sign: | 247M |
 | [0.12.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.12.0/pom) | [mvn jdk11](plc4x-0.12.0.buildspec) | :x: | |
 | [0.11.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.11.0/pom) | [mvn jdk20](plc4x-0.11.0.buildspec) | [result](plc4x-parent-0.11.0.buildinfo): [231 :white_check_mark:  79 :warning:](plc4x-parent-0.11.0.buildcompare) [:mag:](plc4x-parent-0.11.0.diffoscope) [:memo:](https://github.com/apache/plc4x/pull/1202) | - | 301M |
 | [0.10.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.10.0/pom) | [mvn jdk19](plc4x-0.10.0.buildspec) | [result](plc4x-parent-0.10.0.buildinfo): [138 :white_check_mark:  66 :warning:](plc4x-parent-0.10.0.buildcompare) [:mag:](plc4x-parent-0.10.0.diffoscope) [:memo:](https://github.com/apache/plc4x/pull/1202) | - | 212M |
