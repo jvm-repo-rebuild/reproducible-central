@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.sap.ai.sdk</groupId>
+  <artifactId>sdk-parent</artifactId>
+  <versioning>
+    <latest>1.10.0</latest>
+    <release>1.10.0</release>
+    <versions>
+      <version>0.1.0</version>
+      <version>0.2.0</version>
+      <version>1.0.0</version>
+      <version>1.1.0</version>
+      <version>1.2.0</version>
+      <version>1.3.0</version>
+      <version>1.4.0</version>
+      <version>1.5.0</version>
+      <version>1.6.0</version>
+      <version>1.7.0</version>
+      <version>1.8.0</version>
+      <version>1.9.0</version>
+      <version>1.10.0</version>
+    </versions>
+    <lastUpdated>20250808151930</lastUpdated>
+  </versioning>
+</metadata>

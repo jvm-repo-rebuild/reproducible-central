@@ -1,0 +1,20 @@
+version=1.7.0
+ok=11
+ko=5
+ignored=0
+okFiles="sdk-parent-1.7.0.pom core-1.7.0.pom core-1.7.0.jar orchestration-1.7.0.pom orchestration-1.7.0.jar document-grounding-1.7.0.pom document-grounding-1.7.0.jar prompt-registry-1.7.0.pom prompt-registry-1.7.0.jar openai-1.7.0.pom openai-1.7.0.jar"
+koFiles="core-1.7.0-sources.jar orchestration-1.7.0-sources.jar document-grounding-1.7.0-sources.jar prompt-registry-1.7.0-sources.jar openai-1.7.0-sources.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.sap.ai.sdk/core-1.7.0-sources.jar core/target/core-1.7.0-sources.jar
+# diffoscope target/reference/com.sap.ai.sdk/orchestration-1.7.0-sources.jar orchestration/target/orchestration-1.7.0-sources.jar
+# diffoscope target/reference/com.sap.ai.sdk/document-grounding-1.7.0-sources.jar core-services/document-grounding/target/document-grounding-1.7.0-sources.jar
+# diffoscope target/reference/com.sap.ai.sdk/prompt-registry-1.7.0-sources.jar core-services/prompt-registry/target/prompt-registry-1.7.0-sources.jar
+# diffoscope target/reference/com.sap.ai.sdk.foundationmodels/openai-1.7.0-sources.jar foundation-models/openai/target/openai-1.7.0-sources.jar
+stabilize_ok=0
+stabilize_ko=5
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="core-1.7.0-sources.jar.stabilized orchestration-1.7.0-sources.jar.stabilized document-grounding-1.7.0-sources.jar.stabilized prompt-registry-1.7.0-sources.jar.stabilized openai-1.7.0-sources.jar.stabilized"
+stabilize_ignoredFiles=""
