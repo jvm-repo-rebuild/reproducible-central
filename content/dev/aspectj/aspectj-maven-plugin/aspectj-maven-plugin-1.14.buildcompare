@@ -1,9 +1,16 @@
 version=1.14
 ok=2
-ko=0
+ko=1
 ignored=0
 okFiles="aspectj-maven-plugin-1.14.pom aspectj-maven-plugin-1.14.jar"
-koFiles=""
+koFiles="aspectj-maven-plugin-1.14-sources.jar"
 ignoredFiles=""
 reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/dev.aspectj/aspectj-maven-plugin-1.14-sources.jar target/aspectj-maven-plugin-1.14-sources.jar
+stabilize_ok=1
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="aspectj-maven-plugin-1.14-sources.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""

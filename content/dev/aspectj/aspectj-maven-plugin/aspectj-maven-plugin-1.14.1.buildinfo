@@ -1,0 +1,40 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=AspectJ Maven Plugin
+group-id=dev.aspectj
+artifact-id=aspectj-maven-plugin
+version=1.14.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/dev-aspectj/aspectj-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_462
+java.vendor=Private Build
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.minimum.version=3.0.5
+
+# output
+
+outputs.0.groupId=dev.aspectj
+outputs.0.filename=aspectj-maven-plugin-1.14.1.pom
+outputs.0.length=26491
+outputs.0.checksums.sha512=87494f32cef6201a3a0eff6b5b075532062a1ec1be6e19a3ced82e844d2119cf62fb22ee6f58fe412a634f89f1d4be0590c6477fa73c0bdae8a4d4509006a048
+
+outputs.1.groupId=dev.aspectj
+outputs.1.filename=aspectj-maven-plugin-1.14.1.jar
+outputs.1.length=68013
+outputs.1.checksums.sha512=1ab34a1cea0eb7387df54610d75c6f162563a1f0ba64b42b62e84a53e9b506e2323673e08b3aa9218ab69c3b2b7a5fc2431ab87a570f7c325f767e1f3f12a120
+
+outputs.2.groupId=dev.aspectj
+outputs.2.filename=aspectj-maven-plugin-1.14.1-sources.jar
+outputs.2.length=49633
+outputs.2.checksums.sha512=c64ffc154bbbd6001b2579a110555fb19e81449b8d6f9ae91d127d5336946fafe8c4387593d9407927271bfd03b41b1d69f2e59444cba9229c1d8a17486c7632

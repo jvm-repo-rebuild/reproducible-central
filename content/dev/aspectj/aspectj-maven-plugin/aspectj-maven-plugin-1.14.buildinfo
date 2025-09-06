@@ -33,3 +33,8 @@ outputs.1.groupId=dev.aspectj
 outputs.1.filename=aspectj-maven-plugin-1.14.jar
 outputs.1.length=65579
 outputs.1.checksums.sha512=c8cf64594b563baa81f3be323bdefe217e366c33d0e2b4cb6df9b2578afb829140f029686744c65a206520f16bf11ef8391cb9ea0aa52e1e576c6a47635d3bc9
+
+outputs.2.groupId=dev.aspectj
+outputs.2.filename=aspectj-maven-plugin-1.14-sources.jar
+outputs.2.length=50173
+outputs.2.checksums.sha512=ebfab71f146e4020041038ce6edf6df67f9fe21054708be0561c22fc11afb39806969f3ccda4d128ebb003be661be3c388e8f5c1fed458bc3c86ade89ec1903f
