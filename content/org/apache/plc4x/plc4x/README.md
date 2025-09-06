@@ -116,15 +116,15 @@ Source code: [https://github.com/apache/plc4x.git](https://github.com/apache/plc
 * [org.apache.plc4x:plc4x-website](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-website/overview)
 </details>
 
-rebuilding **5 releases** of org.apache.plc4x:plc4x-parent:
+rebuilding **6 releases** of org.apache.plc4x:plc4x-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [0.13.1](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.13.1/pom) | [mvn jdk21](plc4x-0.13.1.buildspec) | [result](plc4x-parent-0.13.1.buildinfo): [108 :white_check_mark:  4 :warning:](plc4x-parent-0.13.1.buildcompare) [:memo:](https://github.com/apache/plc4x/pull/1202) | 1 :rotating_light: 3 :no_entry_sign: | 45M |
-| [0.13.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.13.0/pom) | | | |
+| [0.13.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.13.0/pom) | [mvn jdk21](plc4x-0.13.0.buildspec) | [result](plc4x-parent-0.13.0.buildinfo): [108 :white_check_mark:  4 :warning:](plc4x-parent-0.13.0.buildcompare) [:memo:](https://github.com/apache/plc4x/pull/1202) | 1 :rotating_light: 3 :no_entry_sign: | 45M |
 | [0.12.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.12.0/pom) | [mvn jdk11](plc4x-0.12.0.buildspec) | :x: | |
 | [0.11.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.11.0/pom) | [mvn jdk20](plc4x-0.11.0.buildspec) | [result](plc4x-parent-0.11.0.buildinfo): [231 :white_check_mark:  79 :warning:](plc4x-parent-0.11.0.buildcompare) [:mag:](plc4x-parent-0.11.0.diffoscope) [:memo:](https://github.com/apache/plc4x/pull/1202) | - | 301M |
 | [0.10.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.10.0/pom) | [mvn jdk19](plc4x-0.10.0.buildspec) | [result](plc4x-parent-0.10.0.buildinfo): [138 :white_check_mark:  66 :warning:](plc4x-parent-0.10.0.buildcompare) [:mag:](plc4x-parent-0.10.0.diffoscope) [:memo:](https://github.com/apache/plc4x/pull/1202) | - | 212M |
