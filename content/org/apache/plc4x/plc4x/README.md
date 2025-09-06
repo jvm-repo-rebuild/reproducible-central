@@ -7,11 +7,12 @@
 
 Source code: [https://github.com/apache/plc4x.git](https://github.com/apache/plc4x.git)
 
-<details><summary>This project defines 102 modules:</summary>
+<details><summary>This project defines 105 modules:</summary>
 
 * [org.apache.plc4x.sandbox:plc4j-driver-discovery](https://central.sonatype.com/artifact/org.apache.plc4x.sandbox/plc4j-driver-discovery/overview)
 * [org.apache.plc4x.sandbox:plc4x-sandbox](https://central.sonatype.com/artifact/org.apache.plc4x.sandbox/plc4x-sandbox/overview)
 * [org.apache.plc4x.sandbox:test-java-df1-driver](https://central.sonatype.com/artifact/org.apache.plc4x.sandbox/test-java-df1-driver/overview)
+* [org.apache.plc4x:plc4c](https://central.sonatype.com/artifact/org.apache.plc4x/plc4c/overview)
 * [org.apache.plc4x:plc4j](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j/overview)
 * [org.apache.plc4x:plc4j-apache-calcite](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-apache-calcite/overview)
 * [org.apache.plc4x:plc4j-apache-camel](https://central.sonatype.com/artifact/org.apache.plc4x/plc4j-apache-camel/overview)
@@ -110,16 +111,19 @@ Source code: [https://github.com/apache/plc4x.git](https://github.com/apache/plc
 * [org.apache.plc4x:plc4x-protocols-s7](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-protocols-s7/overview)
 * [org.apache.plc4x:plc4x-protocols-simulated](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-protocols-simulated/overview)
 * [org.apache.plc4x:plc4x-protocols-socketcan](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-protocols-socketcan/overview)
+* [org.apache.plc4x:plc4x-protocols-umas](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-protocols-umas/overview)
 * [org.apache.plc4x:plc4x-tools](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-tools/overview)
+* [org.apache.plc4x:plc4x-website](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-website/overview)
 </details>
 
-rebuilding **4 releases** of org.apache.plc4x:plc4x-parent:
+rebuilding **5 releases** of org.apache.plc4x:plc4x-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.13.1](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.13.1/pom) | | | |
+| [0.13.1](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.13.1/pom) | [mvn jdk21](plc4x-0.13.1.buildspec) | [result](plc4x-parent-0.13.1.buildinfo): [108 :white_check_mark:  4 :warning:](plc4x-parent-0.13.1.buildcompare) [:memo:](https://github.com/apache/plc4x/pull/1202) | 1 :rotating_light: 3 :no_entry_sign: | 45M |
 | [0.13.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.13.0/pom) | | | |
 | [0.12.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.12.0/pom) | [mvn jdk11](plc4x-0.12.0.buildspec) | :x: | |
 | [0.11.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.11.0/pom) | [mvn jdk20](plc4x-0.11.0.buildspec) | [result](plc4x-parent-0.11.0.buildinfo): [231 :white_check_mark:  79 :warning:](plc4x-parent-0.11.0.buildcompare) [:mag:](plc4x-parent-0.11.0.diffoscope) [:memo:](https://github.com/apache/plc4x/pull/1202) | - | 301M |
