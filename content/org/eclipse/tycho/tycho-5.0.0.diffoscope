@@ -1,0 +1,98 @@
+1 / 3 target/reference/org.eclipse.tycho/tycho-spi-5.0.0.jar tycho-spi/target/tycho-spi-5.0.0.jar
+--- target/reference/org.eclipse.tycho/tycho-spi-5.0.0.jar
++++ tycho-spi/target/tycho-spi-5.0.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 35824 bytes, number of entries: 47
+│ +Zip file size: 35821 bytes, number of entries: 47
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 META-INF/
+│  -rw-r--r--  2.0 unx       81 b- defN 25-Aug-29 05:19 META-INF/MANIFEST.MF
+│ @@ -39,11 +39,11 @@
+│  -rw-r--r--  2.0 unx      312 b- defN 25-Aug-29 05:19 org/eclipse/tycho/transport/TransportProtocolHandler.class
+│  -rw-r--r--  2.0 unx     1868 b- defN 25-Aug-29 05:19 org/eclipse/tycho/version/TychoVersion.class
+│ --rw-r--r--  2.0 unx      165 b- defN 25-Aug-29 05:19 org/eclipse/tycho/version/version.properties
+│ +-rw-r--r--  2.0 unx      161 b- defN 25-Aug-29 05:19 org/eclipse/tycho/version/version.properties
+│  -rw-r--r--  2.0 unx     2362 b- defN 25-Aug-29 05:19 META-INF/maven/org.eclipse.tycho/tycho-spi/pom.xml
+│  -rw-r--r--  2.0 unx       61 b- defN 25-Aug-29 05:19 META-INF/maven/org.eclipse.tycho/tycho-spi/pom.properties
+│ -47 files, 70136 bytes uncompressed, 28292 bytes compressed:  59.7%
+│ +47 files, 70132 bytes uncompressed, 28289 bytes compressed:  59.7%
+├── org/eclipse/tycho/version/version.properties
+│ @@ -1,7 +1,7 @@
+│  version=5.0.0
+│  bnd=7.1.0
+│  scm=${env.GIT_COMMIT}
+│  url=${env.GIT_URL}
+│  branch=${env.GIT_BRANCH}
+│ -scmBranch=tycho-5.0.x
+│ +scmBranch=UNKNOWN
+│  buildNumber=0597c3cfc1c8cd89f59323c281f9abf01800baeb
+
+2 / 3 target/reference/org.eclipse.tycho/tycho-testing-harness-5.0.0.jar tycho-testing-harness/target/tycho-testing-harness-5.0.0.jar
+--- target/reference/org.eclipse.tycho/tycho-testing-harness-5.0.0.jar
++++ tycho-testing-harness/target/tycho-testing-harness-5.0.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 32501 bytes, number of entries: 33
+│ +Zip file size: 32496 bytes, number of entries: 33
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 META-INF/
+│  -rw-r--r--  2.0 unx       81 b- defN 25-Aug-29 05:19 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 org/
+│ @@ -25,11 +25,11 @@
+│  -rw-r--r--  2.0 unx     1354 b- defN 25-Aug-29 05:19 org/eclipse/tycho/testing/TychoPlexusTestCase$PlexusTestCaseExension.class
+│  -rw-r--r--  2.0 unx     6048 b- defN 25-Aug-29 05:19 org/eclipse/tycho/testing/TychoPlexusTestCase.class
+│ --rw-r--r--  2.0 unx       46 b- defN 25-Aug-29 05:19 org/eclipse/tycho/testing/settings.properties
+│ +-rw-r--r--  2.0 unx       41 b- defN 25-Aug-29 05:19 org/eclipse/tycho/testing/settings.properties
+│  -rw-r--r--  2.0 unx     2701 b- defN 25-Aug-29 05:19 META-INF/maven/org.eclipse.tycho/tycho-testing-harness/pom.xml
+│  -rw-r--r--  2.0 unx       73 b- defN 25-Aug-29 05:19 META-INF/maven/org.eclipse.tycho/tycho-testing-harness/pom.properties
+│ -33 files, 63001 bytes uncompressed, 27063 bytes compressed:  57.0%
+│ +33 files, 62996 bytes uncompressed, 27058 bytes compressed:  57.0%
+├── org/eclipse/tycho/testing/settings.properties
+│ @@ -1 +1 @@
+│ -settings.file=/home/christoph/.m2/settings.xml
+│ +settings.file=/var/maven/.m2/settings.xml
+
+3 / 3 target/reference/org.eclipse.tycho/tycho-repository-plugin-5.0.0-sources.jar tycho-repository-plugin/target/tycho-repository-plugin-5.0.0-sources.jar
+--- target/reference/org.eclipse.tycho/tycho-repository-plugin-5.0.0-sources.jar
++++ tycho-repository-plugin/target/tycho-repository-plugin-5.0.0-sources.jar
+├── zipinfo {}
+│ @@ -1,28 +1,27 @@
+│ -Zip file size: 10530 bytes, number of entries: 26
+│ +Zip file size: 10192 bytes, number of entries: 25
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 25-Aug-29 05:19 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 org/eclipse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 org/eclipse/tycho/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 org/eclipse/tycho/repository/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 org/eclipse/tycho/repository/plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 /
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 /home/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 /home/christoph/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 /home/christoph/git/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 /home/christoph/git/tycho-5.x/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 /home/christoph/git/tycho-5.x/tycho-repository-plugin/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 /home/christoph/git/tycho-5.x/tycho-repository-plugin/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 /home/christoph/git/tycho-5.x/tycho-repository-plugin/target/filtered/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 /home/christoph/git/tycho-5.x/tycho-repository-plugin/target/filtered/META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 /home/christoph/git/tycho-5.x/tycho-repository-plugin/target/filtered/META-INF/plexus/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 /var/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 /var/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 /var/maven/app/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 /var/maven/app/tycho-repository-plugin/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 /var/maven/app/tycho-repository-plugin/target/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 /var/maven/app/tycho-repository-plugin/target/filtered/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 /var/maven/app/tycho-repository-plugin/target/filtered/META-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 /var/maven/app/tycho-repository-plugin/target/filtered/META-INF/plexus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 META-INF/maven/org.eclipse.tycho/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-29 05:19 META-INF/maven/org.eclipse.tycho/tycho-repository-plugin/
+│  -rw-r--r--  2.0 unx     4528 b- defN 25-Aug-29 05:19 org/eclipse/tycho/repository/plugin/OSGiRepositoryGenerator.java
+│  -rw-r--r--  2.0 unx     6732 b- defN 25-Aug-29 05:19 org/eclipse/tycho/repository/plugin/PackageRepositoryMojo.java
+│  -rw-r--r--  2.0 unx     3590 b- defN 25-Aug-29 05:19 org/eclipse/tycho/repository/plugin/TychoRepositoryPluginMavenLifecycleParticipant.java
+│ --rw-r--r--  2.0 unx     1706 b- defN 25-Aug-29 05:19 /home/christoph/git/tycho-5.x/tycho-repository-plugin/target/filtered/META-INF/plexus/components.xml
+│ +-rw-r--r--  2.0 unx     1706 b- defN 25-Aug-29 05:19 /var/maven/app/tycho-repository-plugin/target/filtered/META-INF/plexus/components.xml
+│  -rw-r--r--  2.0 unx     3020 b- defN 25-Aug-29 05:19 META-INF/maven/org.eclipse.tycho/tycho-repository-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       75 b- defN 25-Aug-29 05:19 META-INF/maven/org.eclipse.tycho/tycho-repository-plugin/pom.properties
+│ -26 files, 19715 bytes uncompressed, 6324 bytes compressed:  67.9%
+│ +25 files, 19715 bytes uncompressed, 6324 bytes compressed:  67.9%
+
