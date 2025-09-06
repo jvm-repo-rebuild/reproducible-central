@@ -1,2 +1,6 @@
-content/de/cuioss/cui-parent-pom/cui-parent-pom-1.2.0.buildspec:1.2.1
-content/eu/maveniverse/maven/toolbox/toolbox-0.11.6.buildspec:0.12.0
+content/eu/maveniverse/maven/nisse/nisse-0.6.0.buildspec:0.6.1
+content/io/opentelemetry/java/opentelemetry-sdk-1.53.0.buildspec:1.54.0
+content/org/apache/sshd/sshd-2.16.0.buildspec:3.0.0-M1
+content/org/apache/sling/org.apache.sling.testing.sling-mock/org.apache.sling.testing.sling-mock-3.5.4.buildspec:4.0.0
+content/tools/jackson/jackson-bom/jackson-bom-3.0.0-rc8.buildspec:3.0.0-rc9
+content/tools/jackson/core/jackson-core/jackson-core-3.0.0-rc8.buildspec:3.0.0-rc9
