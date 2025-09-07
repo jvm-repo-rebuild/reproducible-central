@@ -14,12 +14,12 @@ source.scm.tag=jackson-dataformats-text-3.0.0-rc7
 build-tool=mvn
 
 # effective build environment information
-java.version=17.0.15
+java.version=17.0.16
 java.vendor=Ubuntu
 os.name=Linux
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.6
+mvn.version=3.9.11
 mvn.aggregate.artifact-id=jackson-dataformat-toml
 
 # aggregated output
@@ -47,11 +47,7 @@ outputs.1.2.groupId=tools.jackson.dataformat
 outputs.1.2.filename=jackson-dataformat-csv-3.0.0-rc7-sources.jar
 outputs.1.2.length=81584
 outputs.1.2.checksums.sha512=9d22fd4d252dce36e1437ccea00416158c59e1f88a704c94d1a79c6b246ab17dce8e29e85702bf66ad366d8b61a5012b442a43f4550dfa616e4f28a333a946ef
-
-outputs.1.3.groupId=tools.jackson.dataformat
-outputs.1.3.filename=jackson-dataformat-csv-3.0.0-rc7.module
-outputs.1.3.length=4374
-outputs.1.3.checksums.sha512=646055e1c6dbed7927a82558451bde5eb7db3e08af04aec8f97fb84a3e4217ff1e7350f70d93af53a9f024d38716dc9e2de2a8888a8e287f3aeae14a4dacb948
+# ignored jackson-dataformat-csv-3.0.0-rc7.module
 
 outputs.2.coordinates=tools.jackson.dataformat:jackson-dataformat-properties
 
@@ -69,11 +65,7 @@ outputs.2.2.groupId=tools.jackson.dataformat
 outputs.2.2.filename=jackson-dataformat-properties-3.0.0-rc7-sources.jar
 outputs.2.2.length=39474
 outputs.2.2.checksums.sha512=ca35d0f3dc7da3fa8fa374804d1ceca608fbeb7fe8b517b18cb012a73fc206e19788c6340723d6392ca59fea9703cb0e61ba851def26f688eaf5b92bd167d85c
-
-outputs.2.3.groupId=tools.jackson.dataformat
-outputs.2.3.filename=jackson-dataformat-properties-3.0.0-rc7.module
-outputs.2.3.length=4055
-outputs.2.3.checksums.sha512=c8e5f2a9d530ad2b588d96b47b14c27566005bc5c7cdfad5eabc31cd2c59847619e29ab1489f94b2432395cd3f353746958f2a294ce12a32c31366d636710365
+# ignored jackson-dataformat-properties-3.0.0-rc7.module
 
 outputs.3.coordinates=tools.jackson.dataformat:jackson-dataformat-yaml
 
@@ -91,11 +83,7 @@ outputs.3.2.groupId=tools.jackson.dataformat
 outputs.3.2.filename=jackson-dataformat-yaml-3.0.0-rc7-sources.jar
 outputs.3.2.length=43047
 outputs.3.2.checksums.sha512=f3d6847a07d4b6a01591a70c9446736700ffa6275d194b0200283957940612e86672a0ebabc54cdacda05568dec7412ea08a4bcdaa2b0fb3189a4eaaf4b469d8
-
-outputs.3.3.groupId=tools.jackson.dataformat
-outputs.3.3.filename=jackson-dataformat-yaml-3.0.0-rc7.module
-outputs.3.3.length=4339
-outputs.3.3.checksums.sha512=afd166434ef6cfaff2cb9944cee4172503d9cd3e9909bf063f8be3195d44740321bfe9a38423ad3e59b88b2202a2053e1169a82d2cba907ffa95650bfc8f5ef5
+# ignored jackson-dataformat-yaml-3.0.0-rc7.module
 
 outputs.4.coordinates=tools.jackson.dataformat:jackson-dataformat-toml
 
@@ -113,8 +101,4 @@ outputs.4.2.groupId=tools.jackson.dataformat
 outputs.4.2.filename=jackson-dataformat-toml-3.0.0-rc7-sources.jar
 outputs.4.2.length=40347
 outputs.4.2.checksums.sha512=55d1804552a6ead34649eabc3706db6894a57ca7896d41033e9db725c0ec95d2133cc29a64ceba7d2af12902fa697ab02b0ef0d313ca1445a8ce7ff7c370790b
-
-outputs.4.3.groupId=tools.jackson.dataformat
-outputs.4.3.filename=jackson-dataformat-toml-3.0.0-rc7.module
-outputs.4.3.length=4013
-outputs.4.3.checksums.sha512=c20a044f4983e466906e33ab601d66e85f77463f5dc2eea479c3b6a034f7a1737f7de90cb201597fc2cd0ac7e9fc2abe94eb4eea518876aac16f97673e14f5ae
+# ignored jackson-dataformat-toml-3.0.0-rc7.module
