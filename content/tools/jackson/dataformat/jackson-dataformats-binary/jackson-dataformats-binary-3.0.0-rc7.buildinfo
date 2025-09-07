@@ -14,12 +14,12 @@ source.scm.tag=jackson-dataformats-binary-3.0.0-rc7
 build-tool=mvn
 
 # effective build environment information
-java.version=17.0.15
+java.version=17.0.16
 java.vendor=Ubuntu
 os.name=Linux
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.6
+mvn.version=3.9.11
 mvn.aggregate.artifact-id=jackson-dataformat-ion
 
 # aggregated output
@@ -47,11 +47,7 @@ outputs.1.2.groupId=tools.jackson.dataformat
 outputs.1.2.filename=jackson-dataformat-cbor-3.0.0-rc7-sources.jar
 outputs.1.2.length=60252
 outputs.1.2.checksums.sha512=ed0ccc7f915d9adb471d86ba332116c3ea835ab04e8e70a0c057e04517cbeb6184e874cb53817d69633fb43703dcde6bcd92dac7bd67480596c791dc01b9c9cf
-
-outputs.1.3.groupId=tools.jackson.dataformat
-outputs.1.3.filename=jackson-dataformat-cbor-3.0.0-rc7.module
-outputs.1.3.length=4379
-outputs.1.3.checksums.sha512=91801e9b6e8c27bd7345cfa688bc33eb2d97b9ffa762b8e508e15e60abb13b1066adc904534930f72c18b459353342174e58c5f972a011cdaa354c1431330651
+# ignored jackson-dataformat-cbor-3.0.0-rc7.module
 
 outputs.2.coordinates=tools.jackson.dataformat:jackson-dataformat-smile
 
@@ -69,11 +65,7 @@ outputs.2.2.groupId=tools.jackson.dataformat
 outputs.2.2.filename=jackson-dataformat-smile-3.0.0-rc7-sources.jar
 outputs.2.2.length=81313
 outputs.2.2.checksums.sha512=9a807a1fa930ec2d733994d6acdb28f49e1e082a20c8dc901f77dba94dd9b2a3a0df30aacdc5123db622c976f0789d62f868f8ecf6f42dc959e9972b8ff31fb7
-
-outputs.2.3.groupId=tools.jackson.dataformat
-outputs.2.3.filename=jackson-dataformat-smile-3.0.0-rc7.module
-outputs.2.3.length=4386
-outputs.2.3.checksums.sha512=2f910631fd980ea1bd5fe6f0fa16fdd2e1b91d7b77eb321cebc2de8378c0826d75a766c157bbd6e1ae030dadf037682a0a0abfc6bf70c6e0e4fd71c96927b94d
+# ignored jackson-dataformat-smile-3.0.0-rc7.module
 
 outputs.3.coordinates=tools.jackson.dataformat:jackson-dataformat-avro
 
@@ -91,11 +83,7 @@ outputs.3.2.groupId=tools.jackson.dataformat
 outputs.3.2.filename=jackson-dataformat-avro-3.0.0-rc7-sources.jar
 outputs.3.2.length=120743
 outputs.3.2.checksums.sha512=9ae3dd20d00839dee18d8d186467fb034ebe8ae8ed49126f64ca4f277db07c88d26e55f425ab0fa957d64dd4685b6c9d8840ae1fe59200dacbaf532aad491d89
-
-outputs.3.3.groupId=tools.jackson.dataformat
-outputs.3.3.filename=jackson-dataformat-avro-3.0.0-rc7.module
-outputs.3.3.length=4692
-outputs.3.3.checksums.sha512=f3a8129f8047c0c038ead7d8777f5889c40aea4dd71f54b572a9afc96d65292d1599c5545477d17b31e4e35a400b36b86074f0268e13c3a197c27fb66e5a9563
+# ignored jackson-dataformat-avro-3.0.0-rc7.module
 
 outputs.4.coordinates=tools.jackson.dataformat:jackson-dataformat-protobuf
 
@@ -113,11 +101,7 @@ outputs.4.2.groupId=tools.jackson.dataformat
 outputs.4.2.filename=jackson-dataformat-protobuf-3.0.0-rc7-sources.jar
 outputs.4.2.length=85820
 outputs.4.2.checksums.sha512=310c3111b1539f95f7396445a19d6e18626dc9fa2b608b04a6a00aa3e4b57b1588020a650f7d3fc1291964c3e0a3cb651870eda8e927d66bee5155370e29f7c0
-
-outputs.4.3.groupId=tools.jackson.dataformat
-outputs.4.3.filename=jackson-dataformat-protobuf-3.0.0-rc7.module
-outputs.4.3.length=4725
-outputs.4.3.checksums.sha512=ae1fb629cc3aa9166c911baec25e223166d6a01e1c396c365cb9e43a1eb39862fd16ae24d742779f6429889c13737208519f4ea524450a8928ad1302bbf4148a
+# ignored jackson-dataformat-protobuf-3.0.0-rc7.module
 
 outputs.5.coordinates=tools.jackson.dataformat:jackson-dataformat-ion
 
@@ -135,8 +119,4 @@ outputs.5.2.groupId=tools.jackson.dataformat
 outputs.5.2.filename=jackson-dataformat-ion-3.0.0-rc7-sources.jar
 outputs.5.2.length=57022
 outputs.5.2.checksums.sha512=993a6fc43a6e118df23578a4c692cbeb32d9860f526021da67c067503037e838931c51208c777e09bb538f188912d9fcb11221669644b0c7638d879630e9a4c1
-
-outputs.5.3.groupId=tools.jackson.dataformat
-outputs.5.3.filename=jackson-dataformat-ion-3.0.0-rc7.module
-outputs.5.3.length=4690
-outputs.5.3.checksums.sha512=7586d1cc285ea01afa22f44a664420cfd1234342e59333cad800d7e1dc9aac8b82270c86caa086d028bb1677ac77a558f052b75fd1f95f2185db1c6abcac106f
+# ignored jackson-dataformat-ion-3.0.0-rc7.module
