@@ -14,12 +14,12 @@ source.scm.tag=jackson-dataformat-xml-3.0.0-rc7
 build-tool=mvn
 
 # effective build environment information
-java.version=17.0.15
+java.version=17.0.16
 java.vendor=Ubuntu
 os.name=Linux
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.9
+mvn.version=3.9.11
 
 # output
 
@@ -37,8 +37,4 @@ outputs.2.groupId=tools.jackson.dataformat
 outputs.2.filename=jackson-dataformat-xml-3.0.0-rc7-sources.jar
 outputs.2.length=100270
 outputs.2.checksums.sha512=692790cd19126ba5c1b2b0266b1c77881f44bcad6c97772965bf45068e998385e6c16a47ca048c4eacf026a8e6afeb9b8d62a1b6b23138c01c3d03695ad1f5b1
-
-outputs.3.groupId=tools.jackson.dataformat
-outputs.3.filename=jackson-dataformat-xml-3.0.0-rc7.module
-outputs.3.length=5617
-outputs.3.checksums.sha512=41e5b493f384bccd02e38f8847b7db530fb23d37ba8ca7d8cc06fcb50b78e4a849d421b04b4f1f3e826257b055a374f3f9b9dbd9a2c1f05f5483567c4e00a4ae
+# ignored jackson-dataformat-xml-3.0.0-rc7.module

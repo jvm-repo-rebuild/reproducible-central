@@ -1,16 +1,9 @@
 version=3.0.0-rc7
 ok=3
-ko=1
-ignored=0
+ko=0
+ignored=1
 okFiles="jackson-dataformat-xml-3.0.0-rc7.pom jackson-dataformat-xml-3.0.0-rc7.jar jackson-dataformat-xml-3.0.0-rc7-sources.jar"
-koFiles="jackson-dataformat-xml-3.0.0-rc7.module"
-ignoredFiles=""
+koFiles=""
+ignoredFiles="jackson-dataformat-xml-3.0.0-rc7.module"
 reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
-# diffoscope target/reference/tools.jackson.dataformat/jackson-dataformat-xml-3.0.0-rc7.module target/publications/maven/module.json
-stabilize_ok=0
-stabilize_ko=0
-stabilize_ignored=1
-stabilize_okFiles=""
-stabilize_koFiles=""
-stabilize_ignoredFiles="jackson-dataformat-xml-3.0.0-rc7.module.stabilized"

@@ -19,7 +19,7 @@ java.vendor=Ubuntu
 os.name=Linux
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.9
+mvn.version=3.9.11
 
 # output
 
@@ -37,8 +37,4 @@ outputs.2.groupId=tools.jackson.dataformat
 outputs.2.filename=jackson-dataformat-xml-3.0.0-rc8-sources.jar
 outputs.2.length=100271
 outputs.2.checksums.sha512=3dec708fc672f2ef92f03ce5f9378477257de8ac684d84809dd8258394976d03e66c06e238b600b2513ed9f753c83b789620e27db1ec73391a9f77061085f1fc
-
-outputs.3.groupId=tools.jackson.dataformat
-outputs.3.filename=jackson-dataformat-xml-3.0.0-rc8.module
-outputs.3.length=5617
-outputs.3.checksums.sha512=d832bf2363d72c7b0c793798de43aedcb3769997f3da856639f53a03aefd25f1f8632933786a4238270339fae33dd00388c5b79aae8ae79ec8b496fd0ff85776
+# ignored jackson-dataformat-xml-3.0.0-rc8.module
