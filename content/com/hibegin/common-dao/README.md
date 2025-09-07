@@ -10,7 +10,7 @@ Source code: [https://github.com/94fzb/common-dao](https://github.com/94fzb/comm
 rebuilding **25 releases** of com.hibegin:common-dao:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 22 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 1 had all their differences removed :recycle:
+  - running [stabilize](doc/stabilize.md) on 2, 2 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -37,7 +37,7 @@ rebuilding **25 releases** of com.hibegin:common-dao:
 | [1.0.4](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.0.4/pom) | [mvn jdk11](common-dao-1.0.4.buildspec) | :x: | |
 | [1.0.3](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.0.3/pom) | [mvn jdk11](common-dao-1.0.3.buildspec) | :x: | |
 | [1.0.2](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.0.2/pom) | [mvn jdk11](common-dao-1.0.2.buildspec) | :x: | |
-| [1.0.1](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.0.1/pom) | [mvn jdk11](common-dao-1.0.1.buildspec) | :x: | |
+| [1.0.1](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.0.1/pom) | [mvn jdk11](common-dao-1.0.1.buildspec) | [result](common-dao-1.0.1.buildinfo): [2 :white_check_mark:  1 :warning:](common-dao-1.0.1.buildcompare) | 1 :recycle: | 41K |
 | [1.0.0](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.0.0/pom) | [mvn jdk11](common-dao-1.0.0.buildspec) | [result](common-dao-1.0.0.buildinfo): [2 :white_check_mark:  1 :warning:](common-dao-1.0.0.buildcompare) | 1 :recycle: | 30K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
