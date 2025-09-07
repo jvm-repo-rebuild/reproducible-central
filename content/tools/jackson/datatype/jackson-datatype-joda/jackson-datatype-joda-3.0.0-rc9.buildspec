@@ -1,7 +1,7 @@
 groupId=tools.jackson.datatype
 artifactId=jackson-datatype-joda
 display=${groupId}:${artifactId}
-version=3.0.0-rc6
+version=3.0.0-rc9
 
 gitRepo=https://github.com/FasterXML/jackson-datatype-joda.git
 gitTag=${artifactId}-${version}
