@@ -1,7 +1,7 @@
 groupId=tools.jackson.dataformat
 artifactId=jackson-dataformat-xml
 display=${groupId}:${artifactId}
-version=3.0.0-rc8
+version=3.0.0-rc9
 
 gitRepo=https://github.com/FasterXML/jackson-dataformat-xml.git
 gitTag=${artifactId}-${version}
