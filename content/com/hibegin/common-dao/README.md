@@ -10,7 +10,7 @@ Source code: [https://github.com/94fzb/common-dao](https://github.com/94fzb/comm
 rebuilding **25 releases** of com.hibegin:common-dao:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 22 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 3, 3 had all their differences removed :recycle:
+  - running [stabilize](doc/stabilize.md) on 4, 4 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -28,7 +28,7 @@ rebuilding **25 releases** of com.hibegin:common-dao:
 | [1.0.15](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.0.15/pom) | [mvn jdk11](common-dao-1.0.15.buildspec) | :x: | |
 | [1.0.13](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.0.13/pom) | [mvn jdk11](common-dao-1.0.13.buildspec) | :x: | |
 | [1.0.12](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.0.12/pom) | [mvn jdk11](common-dao-1.0.12.buildspec) | :x: | |
-| [1.0.11](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.0.11/pom) | [mvn jdk11](common-dao-1.0.11.buildspec) | :x: | |
+| [1.0.11](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.0.11/pom) | [mvn jdk11](common-dao-1.0.11.buildspec) | [result](common-dao-1.0.11.buildinfo): [2 :white_check_mark:  1 :warning:](common-dao-1.0.11.buildcompare) | 1 :recycle: | 49K |
 | [1.0.10](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.0.10/pom) | [mvn jdk11](common-dao-1.0.10.buildspec) | [result](common-dao-1.0.10.buildinfo): [2 :white_check_mark:  1 :warning:](common-dao-1.0.10.buildcompare) | 1 :recycle: | 49K |
 | [1.0.9](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.0.9/pom) | [mvn jdk11](common-dao-1.0.9.buildspec) | :x: | |
 | [1.0.8](https://central.sonatype.com/artifact/com.hibegin/common-dao/1.0.8/pom) | [mvn jdk11](common-dao-1.0.8.buildspec) | :x: | |
