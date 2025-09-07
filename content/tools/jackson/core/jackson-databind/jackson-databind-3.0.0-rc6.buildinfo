@@ -14,12 +14,12 @@ source.scm.tag=jackson-databind-3.0.0-rc6
 build-tool=mvn
 
 # effective build environment information
-java.version=17.0.15
+java.version=17.0.16
 java.vendor=Ubuntu
 os.name=Linux
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.9
+mvn.version=3.9.11
 
 # output
 
@@ -37,8 +37,4 @@ outputs.2.groupId=tools.jackson.core
 outputs.2.filename=jackson-databind-3.0.0-rc6-sources.jar
 outputs.2.length=1271979
 outputs.2.checksums.sha512=767720b6d60ef76ae35a89158f367f3aecf5afb2cf779e9180e4565d0ab7adc5fa593b9ee809a3749c6a66e141731a975f9397dd1864309903230e4ab0ba6960
-
-outputs.3.groupId=tools.jackson.core
-outputs.3.filename=jackson-databind-3.0.0-rc6.module
-outputs.3.length=3980
-outputs.3.checksums.sha512=8fd599b92f56b6849965c9be2f0e4947c5a83a07e9b973c2254cc9f676ffcf4dcc6ad4089ddd73cce5c0cac76cc37c60582879625b2f39a1bd92e3ae4ae64340
+# ignored jackson-databind-3.0.0-rc6.module
