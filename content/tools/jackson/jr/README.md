@@ -19,15 +19,15 @@ Source code: [https://github.com/FasterXML/jackson-jr.git](https://github.com/Fa
 </details>
 
 rebuilding **9 releases** of tools.jackson.jr:jackson-jr-parent:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [3.0.0-rc9](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-parent/3.0.0-rc9/pom) | [mvn jdk17](jackson-jr-3.0.0-rc9.buildspec) | :x: | |
 | [3.0.0-rc8](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-parent/3.0.0-rc8/pom) | [mvn jdk17](jackson-jr-3.0.0-rc8.buildspec) | [result](jackson-jr-parent-3.0.0-rc8.buildinfo): [19 :white_check_mark:  5 :warning:](jackson-jr-parent-3.0.0-rc8.buildcompare) | 5 :no_entry_sign: | 1.6M |
-| [3.0.0-rc7](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-parent/3.0.0-rc7/pom) | [mvn jdk17](jackson-jr-3.0.0-rc7.buildspec) | [result](jackson-jr-parent-3.0.0-rc7.buildinfo): [19 :white_check_mark:  5 :warning:](jackson-jr-parent-3.0.0-rc7.buildcompare) | 5 :no_entry_sign: | 1.6M |
+| [3.0.0-rc7](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-parent/3.0.0-rc7/pom) | [mvn jdk17](jackson-jr-3.0.0-rc7.buildspec) | [result](jackson-jr-parent-3.0.0-rc7.buildinfo): [19 :white_check_mark: ](jackson-jr-parent-3.0.0-rc7.buildcompare) | | 1.6M |
 | [3.0.0-rc6](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-parent/3.0.0-rc6/pom) | [mvn jdk17](jackson-jr-3.0.0-rc6.buildspec) | [result](jackson-jr-parent-3.0.0-rc6.buildinfo): [19 :white_check_mark: ](jackson-jr-parent-3.0.0-rc6.buildcompare) | | 1.6M |
 | [3.0.0-rc5](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-parent/3.0.0-rc5/pom) | [mvn jdk17](jackson-jr-3.0.0-rc5.buildspec) | [result](jackson-jr-parent-3.0.0-rc5.buildinfo): [24 :white_check_mark: ](jackson-jr-parent-3.0.0-rc5.buildcompare) | | 1.6M |
 | [3.0.0-rc4](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-parent/3.0.0-rc4/pom) | [mvn jdk17](jackson-jr-3.0.0-rc4.buildspec) | [result](jackson-jr-parent-3.0.0-rc4.buildinfo): [34 :white_check_mark: ](jackson-jr-parent-3.0.0-rc4.buildcompare) | | 1.7M |
