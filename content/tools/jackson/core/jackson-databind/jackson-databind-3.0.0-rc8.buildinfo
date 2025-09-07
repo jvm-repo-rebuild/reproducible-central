@@ -19,7 +19,7 @@ java.vendor=Ubuntu
 os.name=Linux
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.9
+mvn.version=3.9.11
 
 # output
 
@@ -37,8 +37,4 @@ outputs.2.groupId=tools.jackson.core
 outputs.2.filename=jackson-databind-3.0.0-rc8-sources.jar
 outputs.2.length=1275634
 outputs.2.checksums.sha512=a5654e579243853d264c1134dafc5c67443b42e14e341aa22445e41660bf3146fafa4f8212b573f9af6f5a5d50d209cebe592c248f94c26453c79452de8b9e3a
-
-outputs.3.groupId=tools.jackson.core
-outputs.3.filename=jackson-databind-3.0.0-rc8.module
-outputs.3.length=3984
-outputs.3.checksums.sha512=1073e463580c73d77b1a3fbf6dcc0abfd42a5c11bb788c6f545b981c626edc462f24f7960f320596600bfb11670f13e58d9e62451e6ca813f51d6201733bf244
+# ignored jackson-databind-3.0.0-rc8.module
