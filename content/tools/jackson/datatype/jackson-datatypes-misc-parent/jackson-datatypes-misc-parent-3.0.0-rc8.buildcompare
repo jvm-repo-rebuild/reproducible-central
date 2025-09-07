@@ -1,22 +1,9 @@
 version=3.0.0-rc8
 ok=22
-ko=7
-ignored=0
+ko=0
+ignored=7
 okFiles="jackson-datatypes-misc-parent-3.0.0-rc8.pom jackson-datatype-jsr353-3.0.0-rc8.pom jackson-datatype-jsr353-3.0.0-rc8.jar jackson-datatype-jsr353-3.0.0-rc8-sources.jar jackson-datatype-joda-money-3.0.0-rc8.pom jackson-datatype-joda-money-3.0.0-rc8.jar jackson-datatype-joda-money-3.0.0-rc8-sources.jar jackson-datatype-json-org-3.0.0-rc8.pom jackson-datatype-json-org-3.0.0-rc8.jar jackson-datatype-json-org-3.0.0-rc8-sources.jar jackson-datatype-jakarta-jsonp-3.0.0-rc8.pom jackson-datatype-jakarta-jsonp-3.0.0-rc8.jar jackson-datatype-jakarta-jsonp-3.0.0-rc8-sources.jar jackson-datatype-jakarta-mail-3.0.0-rc8.pom jackson-datatype-jakarta-mail-3.0.0-rc8.jar jackson-datatype-jakarta-mail-3.0.0-rc8-sources.jar jackson-datatype-javax-money-3.0.0-rc8.pom jackson-datatype-javax-money-3.0.0-rc8.jar jackson-datatype-javax-money-3.0.0-rc8-sources.jar jackson-datatype-moneta-3.0.0-rc8.pom jackson-datatype-moneta-3.0.0-rc8.jar jackson-datatype-moneta-3.0.0-rc8-sources.jar"
-koFiles="jackson-datatype-jsr353-3.0.0-rc8.module jackson-datatype-joda-money-3.0.0-rc8.module jackson-datatype-json-org-3.0.0-rc8.module jackson-datatype-jakarta-jsonp-3.0.0-rc8.module jackson-datatype-jakarta-mail-3.0.0-rc8.module jackson-datatype-javax-money-3.0.0-rc8.module jackson-datatype-moneta-3.0.0-rc8.module"
-ignoredFiles=""
+koFiles=""
+ignoredFiles="jackson-datatype-jsr353-3.0.0-rc8.module jackson-datatype-joda-money-3.0.0-rc8.module jackson-datatype-json-org-3.0.0-rc8.module jackson-datatype-jakarta-jsonp-3.0.0-rc8.module jackson-datatype-jakarta-mail-3.0.0-rc8.module jackson-datatype-javax-money-3.0.0-rc8.module jackson-datatype-moneta-3.0.0-rc8.module"
 reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
-# diffoscope target/reference/tools.jackson.datatype/jackson-datatype-jsr353-3.0.0-rc8.module jsr-353/target/publications/maven/module.json
-# diffoscope target/reference/tools.jackson.datatype/jackson-datatype-joda-money-3.0.0-rc8.module joda-money/target/publications/maven/module.json
-# diffoscope target/reference/tools.jackson.datatype/jackson-datatype-json-org-3.0.0-rc8.module json-org/target/publications/maven/module.json
-# diffoscope target/reference/tools.jackson.datatype/jackson-datatype-jakarta-jsonp-3.0.0-rc8.module jakarta-jsonp/target/publications/maven/module.json
-# diffoscope target/reference/tools.jackson.datatype/jackson-datatype-jakarta-mail-3.0.0-rc8.module jakarta-mail/target/publications/maven/module.json
-# diffoscope target/reference/tools.jackson.datatype/jackson-datatype-javax-money-3.0.0-rc8.module javax-money/target/publications/maven/module.json
-# diffoscope target/reference/tools.jackson.datatype/jackson-datatype-moneta-3.0.0-rc8.module moneta/target/publications/maven/module.json
-stabilize_ok=0
-stabilize_ko=0
-stabilize_ignored=7
-stabilize_okFiles=""
-stabilize_koFiles=""
-stabilize_ignoredFiles="jackson-datatype-jsr353-3.0.0-rc8.module.stabilized jackson-datatype-joda-money-3.0.0-rc8.module.stabilized jackson-datatype-json-org-3.0.0-rc8.module.stabilized jackson-datatype-jakarta-jsonp-3.0.0-rc8.module.stabilized jackson-datatype-jakarta-mail-3.0.0-rc8.module.stabilized jackson-datatype-javax-money-3.0.0-rc8.module.stabilized jackson-datatype-moneta-3.0.0-rc8.module.stabilized"
