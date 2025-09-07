@@ -19,7 +19,7 @@ Source code: [https://github.com/zrlog-extensions/zrlog-base](https://github.com
 rebuilding **84 releases** of com.hibegin:zrlog-base:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 84 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 45, 45 had all their differences removed :recycle:
+  - running [stabilize](doc/stabilize.md) on 46, 46 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -94,7 +94,7 @@ rebuilding **84 releases** of com.hibegin:zrlog-base:
 | [3.2.22](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.2.22/pom) | [mvn jdk21](zrlog-base-3.2.22.buildspec) | :x: | |
 | [3.2.21](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.2.21/pom) | [mvn jdk21](zrlog-base-3.2.21.buildspec) | :x: | |
 | [3.2.20](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.2.20/pom) | [mvn jdk21](zrlog-base-3.2.20.buildspec) | :x: | |
-| [3.2.19](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.2.19/pom) | [mvn jdk21](zrlog-base-3.2.19.buildspec) | :x: | |
+| [3.2.19](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.2.19/pom) | [mvn jdk21](zrlog-base-3.2.19.buildspec) | [result](zrlog-base-3.2.19.buildinfo): [9 :white_check_mark:  4 :warning:](zrlog-base-3.2.19.buildcompare) [:memo:](https://github.com/zrlog-extensions/zrlog-base/pull/1) | 4 :recycle: | 344K |
 | [3.2.18](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.2.18/pom) | [mvn jdk21](zrlog-base-3.2.18.buildspec) | [result](zrlog-base-3.2.18.buildinfo): [9 :white_check_mark:  4 :warning:](zrlog-base-3.2.18.buildcompare) [:memo:](https://github.com/zrlog-extensions/zrlog-base/pull/1) | 4 :recycle: | 344K |
 | [3.2.17](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.2.17/pom) | [mvn jdk21](zrlog-base-3.2.17.buildspec) | [result](zrlog-base-3.2.17.buildinfo): [9 :white_check_mark:  4 :warning:](zrlog-base-3.2.17.buildcompare) [:memo:](https://github.com/zrlog-extensions/zrlog-base/pull/1) | 4 :recycle: | 344K |
 | [3.2.16](https://central.sonatype.com/artifact/com.hibegin/zrlog-base/3.2.16/pom) | [mvn jdk21](zrlog-base-3.2.16.buildspec) | [result](zrlog-base-3.2.16.buildinfo): [9 :white_check_mark:  4 :warning:](zrlog-base-3.2.16.buildcompare) [:memo:](https://github.com/zrlog-extensions/zrlog-base/pull/1) | 4 :recycle: | 340K |
