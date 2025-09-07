@@ -14,12 +14,12 @@ source.scm.tag=jackson-datatypes-collections-3.0.0-rc7
 build-tool=mvn
 
 # effective build environment information
-java.version=17.0.15
+java.version=17.0.16
 java.vendor=Ubuntu
 os.name=Linux
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.9
+mvn.version=3.9.11
 mvn.aggregate.artifact-id=jackson-datatype-pcollections
 
 # aggregated output
@@ -47,11 +47,7 @@ outputs.1.2.groupId=tools.jackson.datatype
 outputs.1.2.filename=jackson-datatype-guava-3.0.0-rc7-sources.jar
 outputs.1.2.length=81775
 outputs.1.2.checksums.sha512=125e265c23eb93b254a5ee6a66354ad64f9beb2a0be1cb0edc2292432d5de93ef29f6855b451508189789c113c0c6dc72d4eebac79c0d48902c1cf66a1f95923
-
-outputs.1.3.groupId=tools.jackson.datatype
-outputs.1.3.filename=jackson-datatype-guava-3.0.0-rc7.module
-outputs.1.3.length=4694
-outputs.1.3.checksums.sha512=c3714a8b5afa84b14a5c3e0e03fe7e1e67e1c2e3126049c17f02143916405c81339ccbb5ae48920d9ef2c80155a96114c5e4db6071c6908fe62d822c61b35066
+# ignored jackson-datatype-guava-3.0.0-rc7.module
 
 outputs.2.coordinates=tools.jackson.datatype:jackson-datatype-primitive-collections-base
 
@@ -69,11 +65,7 @@ outputs.2.2.groupId=tools.jackson.datatype
 outputs.2.2.filename=jackson-datatype-primitive-collections-base-3.0.0-rc7-sources.jar
 outputs.2.2.length=18767
 outputs.2.2.checksums.sha512=ee63dbed7b91071cd390c293aa8fd5f84bd8cafdbce4c5381e84b00b36afdcbcd328083152b3bc7651ede71dd0d9b919c08cc4435c612e9534dc544a344705a0
-
-outputs.2.3.groupId=tools.jackson.datatype
-outputs.2.3.filename=jackson-datatype-primitive-collections-base-3.0.0-rc7.module
-outputs.2.3.length=4517
-outputs.2.3.checksums.sha512=3c74af0dfd5b23fbec345ab467c67272a4871d182bd6e357b05154d4aa6bb069014de6011ccf73efaf117e3b4630d60f786ecc4c3731cec96f9d9850dfa82a5f
+# ignored jackson-datatype-primitive-collections-base-3.0.0-rc7.module
 
 outputs.3.coordinates=tools.jackson.datatype:jackson-datatype-hppc
 
@@ -91,11 +83,7 @@ outputs.3.2.groupId=tools.jackson.datatype
 outputs.3.2.filename=jackson-datatype-hppc-3.0.0-rc7-sources.jar
 outputs.3.2.length=16473
 outputs.3.2.checksums.sha512=7d44dd549c46dd90528062fd098b3f7298eb665bd1ed9ec3b1e8b58e0a661af3829c1de4282310576330401c5a2bbca8e588daa9ba37baa40c815c9ac7efbdad
-
-outputs.3.3.groupId=tools.jackson.datatype
-outputs.3.3.filename=jackson-datatype-hppc-3.0.0-rc7.module
-outputs.3.3.length=4675
-outputs.3.3.checksums.sha512=a89f297eed9d2b90e61a47eca3444670f3dfdb2044da773bbff6c398c7065119aab3d9fc8db2ce2a588b8d6b02d99f3a6c29d7d5d459486524bfcf5b1af8f044
+# ignored jackson-datatype-hppc-3.0.0-rc7.module
 
 outputs.4.coordinates=tools.jackson.datatype:jackson-datatype-eclipse-collections
 
@@ -113,11 +101,7 @@ outputs.4.2.groupId=tools.jackson.datatype
 outputs.4.2.filename=jackson-datatype-eclipse-collections-3.0.0-rc7-sources.jar
 outputs.4.2.length=65277
 outputs.4.2.checksums.sha512=6d6d1e09acef60cb579fbfef5ce3e8148f07a5d205a356d7da5f1590f7eec69b9014442af41cc99de0e5e70c9dddca4dd9e8859a38fbdd073f3fffa6ad024002
-
-outputs.4.3.groupId=tools.jackson.datatype
-outputs.4.3.filename=jackson-datatype-eclipse-collections-3.0.0-rc7.module
-outputs.4.3.length=5234
-outputs.4.3.checksums.sha512=80f60b10b66eda55a43497eb0aa1200487e690b3cd4d146a5e62d7ee3223d8a06f4dd34fab845c42383042005ea03290609afb974d2707592f1cfd28d6b00a32
+# ignored jackson-datatype-eclipse-collections-3.0.0-rc7.module
 
 outputs.5.coordinates=tools.jackson.datatype:jackson-datatype-pcollections
 
@@ -135,8 +119,4 @@ outputs.5.2.groupId=tools.jackson.datatype
 outputs.5.2.filename=jackson-datatype-pcollections-3.0.0-rc7-sources.jar
 outputs.5.2.length=13410
 outputs.5.2.checksums.sha512=0cb0f5e664f51260e21f74691ede23710260c5c614f289162ae49281feda66030d2dedbf212eeab01c2fbdefb56f2b5925b0fa7c8baf110ae10341769e8ae4b7
-
-outputs.5.3.groupId=tools.jackson.datatype
-outputs.5.3.filename=jackson-datatype-pcollections-3.0.0-rc7.module
-outputs.5.3.length=4745
-outputs.5.3.checksums.sha512=e943992744800551605ae289bf0719a20b4ed9c2cef7340eed0bb331807c48cdac490069d0a4f8b68213b6a7c7be39b00e1874eb34484ecc9d6888924a20df82
+# ignored jackson-datatype-pcollections-3.0.0-rc7.module

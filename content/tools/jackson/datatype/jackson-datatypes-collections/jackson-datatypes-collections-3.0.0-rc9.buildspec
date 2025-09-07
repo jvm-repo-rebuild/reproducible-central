@@ -1,7 +1,7 @@
 groupId=tools.jackson.datatype
 artifactId=jackson-datatypes-collections
 display=${groupId}:${artifactId}
-version=3.0.0-rc8
+version=3.0.0-rc9
 
 gitRepo=https://github.com/FasterXML/jackson-datatypes-collections.git
 gitTag=${artifactId}-${version}
