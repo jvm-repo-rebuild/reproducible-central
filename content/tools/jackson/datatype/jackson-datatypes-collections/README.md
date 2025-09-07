@@ -18,12 +18,12 @@ Source code: [https://github.com/FasterXML/jackson-datatypes-collections.git](ht
 </details>
 
 rebuilding **9 releases** of tools.jackson.datatype:jackson-datatypes-collections:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.0.0-rc9](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-collections/3.0.0-rc9/pom) | [mvn jdk17](jackson-datatypes-collections-3.0.0-rc9.buildspec) | :x: | |
+| [3.0.0-rc9](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-collections/3.0.0-rc9/pom) | [mvn jdk17](jackson-datatypes-collections-3.0.0-rc9.buildspec) | [result](jackson-datatypes-collections-3.0.0-rc9.buildinfo): [16 :white_check_mark: ](jackson-datatypes-collections-3.0.0-rc9.buildcompare) | | 836K |
 | [3.0.0-rc8](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-collections/3.0.0-rc8/pom) | [mvn jdk17](jackson-datatypes-collections-3.0.0-rc8.buildspec) | [result](jackson-datatypes-collections-3.0.0-rc8.buildinfo): [16 :white_check_mark: ](jackson-datatypes-collections-3.0.0-rc8.buildcompare) | | 836K |
 | [3.0.0-rc7](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-collections/3.0.0-rc7/pom) | [mvn jdk17](jackson-datatypes-collections-3.0.0-rc7.buildspec) | [result](jackson-datatypes-collections-3.0.0-rc7.buildinfo): [16 :white_check_mark: ](jackson-datatypes-collections-3.0.0-rc7.buildcompare) | | 836K |
 | [3.0.0-rc6](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatypes-collections/3.0.0-rc6/pom) | [mvn jdk17](jackson-datatypes-collections-3.0.0-rc6.buildspec) | [result](jackson-datatypes-collections-3.0.0-rc6.buildinfo): [16 :white_check_mark: ](jackson-datatypes-collections-3.0.0-rc6.buildcompare) | | 836K |
