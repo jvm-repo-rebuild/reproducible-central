@@ -1,0 +1,18 @@
+groupId=com.hibegin
+artifactId=common-dao
+display=${groupId}:${artifactId}
+version=1.0.16
+
+gitRepo=https://github.com/94fzb/common-dao
+gitTag=v${version}
+
+tool=mvn-3.9.11
+jdk=11
+newline=lf
+#umask=022
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=

@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Common DAO
+group-id=com.hibegin
+artifact-id=common-dao
+version=1.0.18
+
+# source information
+source.scm.uri=scm:git:https://github.com/94fzb/common-dao
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.28
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=com.hibegin
+outputs.0.filename=common-dao-1.0.18.pom
+outputs.0.length=6950
+outputs.0.checksums.sha512=269cc5dbd34d777de6d5a9194d08b4dc4fb01f6fc37e33d33ff8189354399317b884b9a4b5c1731826eadacd6c0c61901c25c1a0ec6dbe47dcaaf600d23ec353
+
+outputs.1.groupId=com.hibegin
+outputs.1.filename=common-dao-1.0.18.jar
+outputs.1.length=33916
+outputs.1.checksums.sha512=cedec5be513f664a4c4981a85946440eba4b55b897412648ea0b48456b005373f59f863245f7a7eb2a03fdddf6e4684fc0ebd2b3b059036ef493bd3accfe8572
+
+outputs.2.groupId=com.hibegin
+outputs.2.filename=common-dao-1.0.18-sources.jar
+outputs.2.length=16816
+outputs.2.checksums.sha512=dd340d4a6faf3aac511e5d35da28761d1fa6e3aee59f97204463c26b3ca662c8384ca12616168d74c096c064a9babe2e05b959b64adc7dc05d592abbfa753fb8
