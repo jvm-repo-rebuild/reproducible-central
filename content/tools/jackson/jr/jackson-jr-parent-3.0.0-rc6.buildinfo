@@ -14,12 +14,12 @@ source.scm.tag=jackson-jr-parent-3.0.0-rc6
 build-tool=mvn
 
 # effective build environment information
-java.version=17.0.15
+java.version=17.0.16
 java.vendor=Ubuntu
 os.name=Linux
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.3
+mvn.version=3.9.11
 mvn.aggregate.artifact-id=jackson-jr-all
 
 # aggregated output
@@ -47,11 +47,7 @@ outputs.1.2.groupId=tools.jackson.jr
 outputs.1.2.filename=jackson-jr-objects-3.0.0-rc6-sources.jar
 outputs.1.2.length=87544
 outputs.1.2.checksums.sha512=7d65ac38a6b82dc272b21680897db5832c8dee935c70987c7caf305427d424397d800680439cb6d8142ee258734996d9ec6d02b184f0461382de94e878b13087
-
-outputs.1.3.groupId=tools.jackson.jr
-outputs.1.3.filename=jackson-jr-objects-3.0.0-rc6.module
-outputs.1.3.length=3626
-outputs.1.3.checksums.sha512=62d7f90f823827c66deb6ace9fcab327cd8ee24eefcad48449e44c32320f00c47df2380b2a3cb7e05e2357dfd2d8cfdffeb142c3aa22a98f97e1813ac33abd1f
+# ignored jackson-jr-objects-3.0.0-rc6.module
 
 outputs.2.coordinates=tools.jackson.jr:jackson-jr-retrofit2
 
@@ -69,11 +65,7 @@ outputs.2.2.groupId=tools.jackson.jr
 outputs.2.2.filename=jackson-jr-retrofit2-3.0.0-rc6-sources.jar
 outputs.2.2.length=5982
 outputs.2.2.checksums.sha512=e087a8e6b589fac2dccfc51ad94c12849285f32d0459669dd4dbfe43341a9e63a399faedc997ba6d58459d2c357f1084831752baa27d7df4b8e2d1348d099758
-
-outputs.2.3.groupId=tools.jackson.jr
-outputs.2.3.filename=jackson-jr-retrofit2-3.0.0-rc6.module
-outputs.2.3.length=4299
-outputs.2.3.checksums.sha512=451c0279b36f533a1d60666f9840201e3ee9628a6b65b61ac8a698f9e4ec21d4c7e6b0603f0de106be7f056446d9a6bf8c779de73922baa1124bc7acdd187be3
+# ignored jackson-jr-retrofit2-3.0.0-rc6.module
 
 outputs.3.coordinates=tools.jackson.jr:jackson-jr-stree
 
@@ -91,11 +83,7 @@ outputs.3.2.groupId=tools.jackson.jr
 outputs.3.2.filename=jackson-jr-stree-3.0.0-rc6-sources.jar
 outputs.3.2.length=19611
 outputs.3.2.checksums.sha512=7fc39d4bee5e7a1e291d1ad946fba4f0abf3fb64e07ca0d5ce9fcf762cebafe06c9503edd9e3ab6f7c30224a6ec89f6271e94a3303d080c753569bc34a4f5ee5
-
-outputs.3.3.groupId=tools.jackson.jr
-outputs.3.3.filename=jackson-jr-stree-3.0.0-rc6.module
-outputs.3.3.length=3610
-outputs.3.3.checksums.sha512=0fcd9bbbc59d028a0629ebd0e550db26014b383e951fe90638fdb8b1e75e0c7e1b915b98219c16d076065ad9476b3eb5410ae8d4fdf02189c7c178d57629dbe0
+# ignored jackson-jr-stree-3.0.0-rc6.module
 
 outputs.4.coordinates=tools.jackson.jr:jackson-jr-annotation-support
 
@@ -113,11 +101,7 @@ outputs.4.2.groupId=tools.jackson.jr
 outputs.4.2.filename=jackson-jr-annotation-support-3.0.0-rc6-sources.jar
 outputs.4.2.length=14932
 outputs.4.2.checksums.sha512=0e3b648bcf7b9c7b918c2b4c2adc3cf0aa8ed549c5b82453c6ac29c5090a88aab82a3377e1c24b384f21f4e32fcc00ed6570dba1ebd965c7a5fc3008cd8a2c35
-
-outputs.4.3.groupId=tools.jackson.jr
-outputs.4.3.filename=jackson-jr-annotation-support-3.0.0-rc6.module
-outputs.4.3.length=4409
-outputs.4.3.checksums.sha512=7f1d92d89ce4c9b9325adc61480fe171f3b12ab8b05c83bb390d7e231b750031f57409e9778fed2b3dd7fb8b6aacc1b289aad946384a611e66a31b292fb87ed0
+# ignored jackson-jr-annotation-support-3.0.0-rc6.module
 
 outputs.5.coordinates=tools.jackson.jr:jackson-jr-extension-javatime
 
@@ -135,11 +119,7 @@ outputs.5.2.groupId=tools.jackson.jr
 outputs.5.2.filename=jackson-jr-extension-javatime-3.0.0-rc6-sources.jar
 outputs.5.2.length=6340
 outputs.5.2.checksums.sha512=41be93329f55dd9c85e497453456c8b6e8d276139cdafc3829af1ddb852a71bbe01753e2935d022a0b098a0f9353cc8af95973cd09cda9021369046b1fdf0027
-
-outputs.5.3.groupId=tools.jackson.jr
-outputs.5.3.filename=jackson-jr-extension-javatime-3.0.0-rc6.module
-outputs.5.3.length=3706
-outputs.5.3.checksums.sha512=ebd16c9f53691252ca7598c47a5aa210ab2436f65614d97d06e115bcaa38cbbbecda56b159740e546e34a557fb79b74aabc82350cf938dc8d528d315fa852788
+# ignored jackson-jr-extension-javatime-3.0.0-rc6.module
 
 outputs.6.coordinates=tools.jackson.jr:jackson-jr-all
 
