@@ -19,7 +19,7 @@ java.vendor=Ubuntu
 os.name=Linux
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.6
+mvn.version=3.9.11
 mvn.aggregate.artifact-id=jackson-dataformat-toml
 
 # aggregated output
@@ -47,11 +47,7 @@ outputs.1.2.groupId=tools.jackson.dataformat
 outputs.1.2.filename=jackson-dataformat-csv-3.0.0-rc8-sources.jar
 outputs.1.2.length=81585
 outputs.1.2.checksums.sha512=7fff1538183f8ee351bea7abfdef36cd53fd5c6e09773f69829a088a0e18d243364d9550ae6555203f3eb3e64e91cb56cd4488957ec336c4efc7d7653f6a344c
-
-outputs.1.3.groupId=tools.jackson.dataformat
-outputs.1.3.filename=jackson-dataformat-csv-3.0.0-rc8.module
-outputs.1.3.length=4374
-outputs.1.3.checksums.sha512=babb7b2ddf070c9acef9b05a043c36fd2c30c452da0a35a308269acd77c29071888cc3008163e176605746ab1cb5b1e3efd0c4e542989bf69d06b6edc444e828
+# ignored jackson-dataformat-csv-3.0.0-rc8.module
 
 outputs.2.coordinates=tools.jackson.dataformat:jackson-dataformat-properties
 
@@ -69,11 +65,7 @@ outputs.2.2.groupId=tools.jackson.dataformat
 outputs.2.2.filename=jackson-dataformat-properties-3.0.0-rc8-sources.jar
 outputs.2.2.length=39473
 outputs.2.2.checksums.sha512=ffac6a0d99c059348411807c787e25fdc8ab7693cdd6ba4f0313d746c43b05396796cec7e2082265b55983b08ddd2763bdc32ee83d63a30420f0d083b49ed12a
-
-outputs.2.3.groupId=tools.jackson.dataformat
-outputs.2.3.filename=jackson-dataformat-properties-3.0.0-rc8.module
-outputs.2.3.length=4055
-outputs.2.3.checksums.sha512=5e65a31977a1c2f1a7e26e9092a6eca322a08430cae94e3c0833237c35e67ab9a47e70967ea4061b2efe628314e3b6abefeecddc1c54be7157754ce643477f26
+# ignored jackson-dataformat-properties-3.0.0-rc8.module
 
 outputs.3.coordinates=tools.jackson.dataformat:jackson-dataformat-yaml
 
@@ -91,11 +83,7 @@ outputs.3.2.groupId=tools.jackson.dataformat
 outputs.3.2.filename=jackson-dataformat-yaml-3.0.0-rc8-sources.jar
 outputs.3.2.length=43046
 outputs.3.2.checksums.sha512=9a2800fb370d5ca1eeaded9452554e50d9ed4e3f51d76b499450a1a202158460c049da555870983d210cd0513d2c5fcdc2b4e0417d9e953ca680788bd98cc5a7
-
-outputs.3.3.groupId=tools.jackson.dataformat
-outputs.3.3.filename=jackson-dataformat-yaml-3.0.0-rc8.module
-outputs.3.3.length=4339
-outputs.3.3.checksums.sha512=7e209ecb403e4e113463090f6d49f9e84a8af7d72ffc09fb425b591c336f1ffcd16cbed49990b89d3a639203ed0c52601030de816a347172a373b4135dea1c5a
+# ignored jackson-dataformat-yaml-3.0.0-rc8.module
 
 outputs.4.coordinates=tools.jackson.dataformat:jackson-dataformat-toml
 
@@ -113,8 +101,4 @@ outputs.4.2.groupId=tools.jackson.dataformat
 outputs.4.2.filename=jackson-dataformat-toml-3.0.0-rc8-sources.jar
 outputs.4.2.length=40346
 outputs.4.2.checksums.sha512=2bc00beb9f46ab356323b22e916e8c8b68868716a413de8328eb360a6010a1a797fbefa5eeb52bf71dbf5eeaa03f04ab67348c948b01e5848d6955e94284fb28
-
-outputs.4.3.groupId=tools.jackson.dataformat
-outputs.4.3.filename=jackson-dataformat-toml-3.0.0-rc8.module
-outputs.4.3.length=4013
-outputs.4.3.checksums.sha512=6cc7721adafc946541e5f5b5baa4631a52c04c14ed26fe96c101db0b89c5ed53409b3badf784ee97b9835e93ce65755d2cc632a8ae8c5861b3ae29094120c260
+# ignored jackson-dataformat-toml-3.0.0-rc8.module

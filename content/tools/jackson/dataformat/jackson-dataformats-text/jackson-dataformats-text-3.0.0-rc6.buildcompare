@@ -1,19 +1,9 @@
 version=3.0.0-rc6
 ok=13
-ko=4
-ignored=0
+ko=0
+ignored=4
 okFiles="jackson-dataformats-text-3.0.0-rc6.pom jackson-dataformat-csv-3.0.0-rc6.pom jackson-dataformat-csv-3.0.0-rc6.jar jackson-dataformat-csv-3.0.0-rc6-sources.jar jackson-dataformat-properties-3.0.0-rc6.pom jackson-dataformat-properties-3.0.0-rc6.jar jackson-dataformat-properties-3.0.0-rc6-sources.jar jackson-dataformat-yaml-3.0.0-rc6.pom jackson-dataformat-yaml-3.0.0-rc6.jar jackson-dataformat-yaml-3.0.0-rc6-sources.jar jackson-dataformat-toml-3.0.0-rc6.pom jackson-dataformat-toml-3.0.0-rc6.jar jackson-dataformat-toml-3.0.0-rc6-sources.jar"
-koFiles="jackson-dataformat-csv-3.0.0-rc6.module jackson-dataformat-properties-3.0.0-rc6.module jackson-dataformat-yaml-3.0.0-rc6.module jackson-dataformat-toml-3.0.0-rc6.module"
-ignoredFiles=""
+koFiles=""
+ignoredFiles="jackson-dataformat-csv-3.0.0-rc6.module jackson-dataformat-properties-3.0.0-rc6.module jackson-dataformat-yaml-3.0.0-rc6.module jackson-dataformat-toml-3.0.0-rc6.module"
 reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
-# diffoscope target/reference/tools.jackson.dataformat/jackson-dataformat-csv-3.0.0-rc6.module csv/target/publications/maven/module.json
-# diffoscope target/reference/tools.jackson.dataformat/jackson-dataformat-properties-3.0.0-rc6.module properties/target/publications/maven/module.json
-# diffoscope target/reference/tools.jackson.dataformat/jackson-dataformat-yaml-3.0.0-rc6.module yaml/target/publications/maven/module.json
-# diffoscope target/reference/tools.jackson.dataformat/jackson-dataformat-toml-3.0.0-rc6.module toml/target/publications/maven/module.json
-stabilize_ok=0
-stabilize_ko=0
-stabilize_ignored=4
-stabilize_okFiles=""
-stabilize_koFiles=""
-stabilize_ignoredFiles="jackson-dataformat-csv-3.0.0-rc6.module.stabilized jackson-dataformat-properties-3.0.0-rc6.module.stabilized jackson-dataformat-yaml-3.0.0-rc6.module.stabilized jackson-dataformat-toml-3.0.0-rc6.module.stabilized"
