@@ -14,12 +14,12 @@ source.scm.tag=jackson-datatypes-misc-parent-3.0.0-rc7
 build-tool=mvn
 
 # effective build environment information
-java.version=17.0.15
+java.version=17.0.16
 java.vendor=Ubuntu
 os.name=Linux
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.9
+mvn.version=3.9.11
 mvn.aggregate.artifact-id=jackson-datatype-moneta
 
 # aggregated output
@@ -47,11 +47,7 @@ outputs.1.2.groupId=tools.jackson.datatype
 outputs.1.2.filename=jackson-datatype-jsr353-3.0.0-rc7-sources.jar
 outputs.1.2.length=11168
 outputs.1.2.checksums.sha512=d82dd0b2bd6bc20e61675dbb2c3f77866ef6702799c9b20753336bbfdaa0377a73d8efd424cb28c4a343c88895d90c7ab57a7ed5c0bab9ad6a07ff8d66bd4171
-
-outputs.1.3.groupId=tools.jackson.datatype
-outputs.1.3.filename=jackson-datatype-jsr353-3.0.0-rc7.module
-outputs.1.3.length=4329
-outputs.1.3.checksums.sha512=d757e13afb4c618439c2bebe1f006c5f18b2a65cf1590615a920f61516f1678d6e5c6bbbbdc7fa9a6a74d226e6300f6b0c4c52af0c8e58cee94648daa3cb9b8a
+# ignored jackson-datatype-jsr353-3.0.0-rc7.module
 
 outputs.2.coordinates=tools.jackson.datatype:jackson-datatype-joda-money
 
@@ -69,11 +65,7 @@ outputs.2.2.groupId=tools.jackson.datatype
 outputs.2.2.filename=jackson-datatype-joda-money-3.0.0-rc7-sources.jar
 outputs.2.2.length=13047
 outputs.2.2.checksums.sha512=ed18c8a2c0a791942e8b40a9dc11d253e30e4d2fdb413319440748cba84350eedbba06109c59012c16450caa8a8007ec869b10e386e2d810b985252a46de16d2
-
-outputs.2.3.groupId=tools.jackson.datatype
-outputs.2.3.filename=jackson-datatype-joda-money-3.0.0-rc7.module
-outputs.2.3.length=4345
-outputs.2.3.checksums.sha512=0bfd57dcff0a9f8b112085a969946ea8fda48f808a56c5df407a7b377c05b488721dbdb1040a26e0c4fbb9611f6f01bbb9d69c9918be1767310e0e335564672a
+# ignored jackson-datatype-joda-money-3.0.0-rc7.module
 
 outputs.3.coordinates=tools.jackson.datatype:jackson-datatype-json-org
 
@@ -91,11 +83,7 @@ outputs.3.2.groupId=tools.jackson.datatype
 outputs.3.2.filename=jackson-datatype-json-org-3.0.0-rc7-sources.jar
 outputs.3.2.length=9867
 outputs.3.2.checksums.sha512=4602b51db34e6b7b78fb25f23a84e576c4b54a4b22f22e2fb7e9822f6e36614440035b8cf050a14f185574bdaa130011320e662934fdd19ec2839af39bdf2337
-
-outputs.3.3.groupId=tools.jackson.datatype
-outputs.3.3.filename=jackson-datatype-json-org-3.0.0-rc7.module
-outputs.3.3.length=4324
-outputs.3.3.checksums.sha512=80caf52e722a1fe27ee82f9ac59a148eec2e2e5c2a09909c10d72ec4b67a73429415834164b6c233611c2ae15a253b9d8df3909285308f0a8b193e2c5fb52c90
+# ignored jackson-datatype-json-org-3.0.0-rc7.module
 
 outputs.4.coordinates=tools.jackson.datatype:jackson-datatype-jakarta-jsonp
 
@@ -113,11 +101,7 @@ outputs.4.2.groupId=tools.jackson.datatype
 outputs.4.2.filename=jackson-datatype-jakarta-jsonp-3.0.0-rc7-sources.jar
 outputs.4.2.length=10789
 outputs.4.2.checksums.sha512=7408fd12a1466c12139ce93500e569cdefeb44fb581e13383f09847d0fcbad3e8eec48749c2a88f181bd378704345226396f6a223d956eaddc1c8a398a8f4c40
-
-outputs.4.3.groupId=tools.jackson.datatype
-outputs.4.3.filename=jackson-datatype-jakarta-jsonp-3.0.0-rc7.module
-outputs.4.3.length=4386
-outputs.4.3.checksums.sha512=0d4818edf9d8c6b18e4169fd6d4154d74379dfc8919f50f70ff57061c614996efa99edac3bdc29190a5f4b2b0f5080b7599ade1d30f2dd8be660dfcddecd9c2e
+# ignored jackson-datatype-jakarta-jsonp-3.0.0-rc7.module
 
 outputs.5.coordinates=tools.jackson.datatype:jackson-datatype-jakarta-mail
 
@@ -135,11 +119,7 @@ outputs.5.2.groupId=tools.jackson.datatype
 outputs.5.2.filename=jackson-datatype-jakarta-mail-3.0.0-rc7-sources.jar
 outputs.5.2.length=7765
 outputs.5.2.checksums.sha512=da2b9ff165e1634cd2760ef0a9d7dd96da843242501aed7ade76e5e828c38cfc4366612bb4955a5af17302e94e713512034a8da71f34eeb753800e7fd7932242
-
-outputs.5.3.groupId=tools.jackson.datatype
-outputs.5.3.filename=jackson-datatype-jakarta-mail-3.0.0-rc7.module
-outputs.5.3.length=4368
-outputs.5.3.checksums.sha512=7d9a405013910c5a90cb528a4ba9d6345879129c86617bcc3342b6efa7e8a914c3026e75d143fd231c6a65a8e693482cdf023fbf70518d335ef372441ec8bc59
+# ignored jackson-datatype-jakarta-mail-3.0.0-rc7.module
 
 outputs.6.coordinates=tools.jackson.datatype:jackson-datatype-javax-money
 
@@ -157,11 +137,7 @@ outputs.6.2.groupId=tools.jackson.datatype
 outputs.6.2.filename=jackson-datatype-javax-money-3.0.0-rc7-sources.jar
 outputs.6.2.length=13673
 outputs.6.2.checksums.sha512=9895bf3f27ca8712d45cf8b946dea7d29c9cae2ef3910d4a01e53f0456f3922cf111327f2faee19187c6138cfd1dac99370bdf990d26f91365bfa708fd1423d3
-
-outputs.6.3.groupId=tools.jackson.datatype
-outputs.6.3.filename=jackson-datatype-javax-money-3.0.0-rc7.module
-outputs.6.3.length=4352
-outputs.6.3.checksums.sha512=ee574cd8fd16d325170df7f45b09036be503684edbe90747e68ac0ab7a22cf169adf0cdec8a64727ec7049562638097e6cdfd7b81af4505e22f1d50239796744
+# ignored jackson-datatype-javax-money-3.0.0-rc7.module
 
 outputs.7.coordinates=tools.jackson.datatype:jackson-datatype-moneta
 
@@ -179,8 +155,4 @@ outputs.7.2.groupId=tools.jackson.datatype
 outputs.7.2.filename=jackson-datatype-moneta-3.0.0-rc7-sources.jar
 outputs.7.2.length=7041
 outputs.7.2.checksums.sha512=bd4e96eb7c650f718536b85a87e2a57e82d1a58c9893542860d58248a48cf32c79d1afc079da908acef7dd432b021f49f51d2c36b9584ef205274935af4cc7e4
-
-outputs.7.3.groupId=tools.jackson.datatype
-outputs.7.3.filename=jackson-datatype-moneta-3.0.0-rc7.module
-outputs.7.3.length=5320
-outputs.7.3.checksums.sha512=b89e33659a5c3277032b8e667ca8f7fb0c3904c1eb7f524875de9a4f2e6a455db183be364105ea9a976d935bef9d387d159d71e0d5b79116affa1b55c4044f2b
+# ignored jackson-datatype-moneta-3.0.0-rc7.module
