@@ -19,7 +19,7 @@ java.vendor=Ubuntu
 os.name=Linux
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.9
+mvn.version=3.9.11
 
 # output
 
@@ -37,8 +37,4 @@ outputs.2.groupId=tools.jackson.datatype
 outputs.2.filename=jackson-datatype-joda-3.0.0-rc8-sources.jar
 outputs.2.length=48533
 outputs.2.checksums.sha512=2bf2dd21e20b2cc25cab517b4f8cc814dbc1229b1a0d97ef3da4ea0d310c18fd0697fc4612a33414374cd8673e4d6e677025cc6b3556502abff00b34d4642a7b
-
-outputs.3.groupId=tools.jackson.datatype
-outputs.3.filename=jackson-datatype-joda-3.0.0-rc8.module
-outputs.3.length=4671
-outputs.3.checksums.sha512=eb5171b0b1e651c3b5aa11d9a961de92c95bc79215e07943b606488780156488c17f9dc8a4a30830cbe7e2219702154d0f36a04589128d0faa8873320d1433b6
+# ignored jackson-datatype-joda-3.0.0-rc8.module

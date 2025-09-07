@@ -14,12 +14,12 @@ source.scm.tag=jackson-datatype-joda-3.0.0-rc7
 build-tool=mvn
 
 # effective build environment information
-java.version=17.0.15
+java.version=17.0.16
 java.vendor=Ubuntu
 os.name=Linux
 
 # Maven rebuild instructions and effective environment
-mvn.version=3.9.9
+mvn.version=3.9.11
 
 # output
 
@@ -37,8 +37,4 @@ outputs.2.groupId=tools.jackson.datatype
 outputs.2.filename=jackson-datatype-joda-3.0.0-rc7-sources.jar
 outputs.2.length=48531
 outputs.2.checksums.sha512=528f6f6950f927d9b89503520a16b11187cfac657e0c862e230fc101e58e5aef4f6a8beae2e69ed095876be660acc04acf3afcfcd1c64621e7cf8c9e9d3971d6
-
-outputs.3.groupId=tools.jackson.datatype
-outputs.3.filename=jackson-datatype-joda-3.0.0-rc7.module
-outputs.3.length=4671
-outputs.3.checksums.sha512=93a59ca82d8a5b6e566aaf0d6aefe54c4a02a6c5faeddc3dbfaee90d061d9fb3f309d2038779631c6dd9df3b655d6dbe7b9de2e51095478d5f5bb613ff5d7fb7
+# ignored jackson-datatype-joda-3.0.0-rc7.module
