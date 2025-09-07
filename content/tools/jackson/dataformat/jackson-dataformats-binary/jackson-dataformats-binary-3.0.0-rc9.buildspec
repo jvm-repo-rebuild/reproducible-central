@@ -1,7 +1,7 @@
 groupId=tools.jackson.dataformat
 artifactId=jackson-dataformats-binary
 display=${groupId}:${artifactId}
-version=3.0.0-rc7
+version=3.0.0-rc9
 
 gitRepo=https://github.com/FasterXML/jackson-dataformats-binary.git
 gitTag=${artifactId}-${version}
