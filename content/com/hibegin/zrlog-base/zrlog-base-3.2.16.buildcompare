@@ -1,0 +1,19 @@
+version=3.2.16
+ok=9
+ko=4
+ignored=0
+okFiles="zrlog-base-3.2.16.pom zrlog-common-3.2.16.pom zrlog-common-3.2.16.jar zrlog-data-3.2.16.pom zrlog-data-3.2.16.jar zrlog-admin-token-3.2.16.pom zrlog-admin-token-3.2.16.jar zrlog-service-3.2.16.pom zrlog-service-3.2.16.jar"
+koFiles="zrlog-common-3.2.16-sources.jar zrlog-data-3.2.16-sources.jar zrlog-admin-token-3.2.16-sources.jar zrlog-service-3.2.16-sources.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.hibegin/zrlog-common-3.2.16-sources.jar zrlog-common/target/zrlog-common-3.2.16-sources.jar
+# diffoscope target/reference/com.hibegin/zrlog-data-3.2.16-sources.jar zrlog-data/target/zrlog-data-3.2.16-sources.jar
+# diffoscope target/reference/com.hibegin/zrlog-admin-token-3.2.16-sources.jar zrlog-admin-token/target/zrlog-admin-token-3.2.16-sources.jar
+# diffoscope target/reference/com.hibegin/zrlog-service-3.2.16-sources.jar zrlog-service/target/zrlog-service-3.2.16-sources.jar
+stabilize_ok=4
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="zrlog-common-3.2.16-sources.jar.stabilized zrlog-data-3.2.16-sources.jar.stabilized zrlog-admin-token-3.2.16-sources.jar.stabilized zrlog-service-3.2.16-sources.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""
