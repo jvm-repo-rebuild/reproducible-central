@@ -13,6 +13,8 @@ rebuilding **18 releases** of io.cucumber:messages:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [29.0.1](https://central.sonatype.com/artifact/io.cucumber/messages/29.0.1/pom) | | | |
+| [29.0.0](https://central.sonatype.com/artifact/io.cucumber/messages/29.0.0/pom) | | | |
 | [28.1.0](https://central.sonatype.com/artifact/io.cucumber/messages/28.1.0/pom) | [mvn jdk11](messages-28.1.0.buildspec) | [result](messages-28.1.0.buildinfo): [3 :white_check_mark: ](messages-28.1.0.buildcompare) | | 166K |
 | [28.0.0](https://central.sonatype.com/artifact/io.cucumber/messages/28.0.0/pom) | [mvn jdk11](messages-28.0.0.buildspec) | [result](messages-28.0.0.buildinfo): [3 :white_check_mark: ](messages-28.0.0.buildcompare) | | 162K |
 | [27.2.0](https://central.sonatype.com/artifact/io.cucumber/messages/27.2.0/pom) | [mvn jdk11](messages-27.2.0.buildspec) | [result](messages-27.2.0.buildinfo): [3 :white_check_mark: ](messages-27.2.0.buildcompare) | | 161K |

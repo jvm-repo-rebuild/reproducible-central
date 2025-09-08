@@ -3,8 +3,8 @@
   <groupId>io.fabric8</groupId>
   <artifactId>kubernetes-client-project</artifactId>
   <versioning>
-    <latest>7.3.1</latest>
-    <release>7.3.1</release>
+    <latest>7.4.0</latest>
+    <release>7.4.0</release>
     <versions>
       <version>1.0.81</version>
       <version>1.0.82</version>
@@ -289,7 +289,8 @@
       <version>7.2.0</version>
       <version>7.3.0</version>
       <version>7.3.1</version>
+      <version>7.4.0</version>
     </versions>
-    <lastUpdated>20250610114945</lastUpdated>
+    <lastUpdated>20250908101217</lastUpdated>
   </versioning>
 </metadata>
