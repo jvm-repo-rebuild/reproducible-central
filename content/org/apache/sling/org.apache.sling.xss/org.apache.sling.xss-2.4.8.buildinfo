@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling XSS Protection API
+group-id=org.apache.sling
+artifact-id=org.apache.sling.xss
+version=2.4.8
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-xss.git
+source.scm.tag=org.apache.sling.xss-2.4.8
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.xss-2.4.8.pom
+outputs.0.length=15494
+outputs.0.checksums.sha512=5841068c0a9c175aaaf1eda87e50a623f63a38bff11d05dd0bdf1a261233cb2d16067bc1cebe010e584b666874e2a3c44f6845f9b863c9bb652e3bc6df50299e
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.xss-2.4.8.jar
+outputs.1.length=1921486
+outputs.1.checksums.sha512=cc8e87fd6941b68f6c70955038ff04cf106784bc7636a0373aeb33613954a7e27e12d34c4d79bd6c122604638ab10b6ec245380ca4b74b0ac806ebbc93ad0aae
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.xss-2.4.8-source-release.zip
+outputs.2.length=171440
+outputs.2.checksums.sha512=de0723e74917115208311879b37d53d2702b5737a3f87ef3ac81d88b47b3de1ea862e4189df73066b32b8c2f1f3838f00b7d07d87a7f7838f20e0c46d2b81ada
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.xss-2.4.8-sources.jar
+outputs.3.length=111287
+outputs.3.checksums.sha512=074b8367a00a3770717efb03c33d9f33bbe790644e20bdf106cfdcc8d87439869930c9a9925f417d5ebb81a184a51be3d30d1ed38ca73a3f9cb2b44bb24bdf73
