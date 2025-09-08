@@ -358,14 +358,14 @@ Source code: [https://github.com/eclipse/jetty.project.git](https://github.com/e
 * [org.eclipse.jetty:jetty-xml](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-xml/overview)
 </details>
 
-rebuilding **33 releases** of org.eclipse.jetty:jetty-project:
+rebuilding **34 releases** of org.eclipse.jetty:jetty-project:
 - **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 14 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 5, 0 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 15 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 6, 0 had all their differences removed :recycle:, 6 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [12.1.1](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.1/pom) | | | |
+| [12.1.1](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.1/pom) | [mvn jdk22](jetty-project-12.1.1.buildspec) | [result](jetty-project-12.1.1.buildinfo): [933 :white_check_mark:  4 :warning:](jetty-project-12.1.1.buildcompare) | 4 :no_entry_sign: | 274M |
 | [12.1.0](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0/pom) | [mvn jdk22](jetty-project-12.1.0.buildspec) | [result](jetty-project-12.1.0.buildinfo): [933 :white_check_mark:  4 :warning:](jetty-project-12.1.0.buildcompare) | 4 :no_entry_sign: | 273M |
 | [12.1.0.beta3](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.beta3/pom) | [mvn jdk22](jetty-project-12.1.0.beta3.buildspec) | [result](jetty-project-12.1.0.beta3.buildinfo): [933 :white_check_mark:  8 :warning:](jetty-project-12.1.0.beta3.buildcompare) | 4 :rotating_light: 4 :no_entry_sign: | 273M |
 | [12.1.0.beta2](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.1.0.beta2/pom) | [mvn jdk22](jetty-project-12.1.0.beta2.buildspec) | [result](jetty-project-12.1.0.beta2.buildinfo): [933 :white_check_mark:  8 :warning:](jetty-project-12.1.0.beta2.buildcompare) | 4 :rotating_light: 4 :no_entry_sign: | 273M |
