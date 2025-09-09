@@ -1,0 +1,27 @@
+groupId=org.apache.pulsar
+artifactId=pulsar
+display=${groupId}:${artifactId}
+version=4.1.0
+
+gitRepo=https://github.com/apache/pulsar.git
+gitTag=v${version}
+
+tool=mvn-3.9.9
+jdk=17
+newline=lf
+umask=022
+
+# data extracted from 4.1.0 release: still need to determine if injecting to rebuild is feasible
+gitBranch="branch-4.1"
+buildUserEmail="zhaocong@apache.org"
+buildUserName="coderzc"
+buildHost="zdeMacBook-Pro.local"
+buildTime="2025-09-01T15:02:27+0800"
+
+# release process https://pulsar.apache.org/contribute/release-process/
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+# need to update a few plugins
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
