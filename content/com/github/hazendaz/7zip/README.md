@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/hazendaz/7-zip.git](https://github.com/hazendaz/7-zip.git)
 
-rebuilding **7 releases** of com.github.hazendaz.7zip:7zip:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of com.github.hazendaz.7zip:7zip:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [25.01](https://central.sonatype.com/artifact/com.github.hazendaz.7zip/7zip/25.01/pom) | | | |
+| [25.01](https://central.sonatype.com/artifact/com.github.hazendaz.7zip/7zip/25.01/pom) | [mvn jdk17 w](7zip-25.01.buildspec) | [result](7zip-25.01.buildinfo): [4 :white_check_mark: ](7zip-25.01.buildcompare) | | 1.6M |
 | [24.09](https://central.sonatype.com/artifact/com.github.hazendaz.7zip/7zip/24.09/pom) | [mvn jdk17 w](7zip-24.09.buildspec) | [result](7zip-24.09.buildinfo): [4 :white_check_mark: ](7zip-24.09.buildcompare) | | 1.6M |
 | [24.08](https://central.sonatype.com/artifact/com.github.hazendaz.7zip/7zip/24.08/pom) | [mvn jdk17 w](7zip-24.08.buildspec) | [result](7zip-24.08.buildinfo): [4 :white_check_mark: ](7zip-24.08.buildcompare) | | 1.6M |
 | [24.07](https://central.sonatype.com/artifact/com.github.hazendaz.7zip/7zip/24.07/pom) | [mvn jdk17 w](7zip-24.07.buildspec) | [result](7zip-24.07.buildinfo): [4 :white_check_mark: ](7zip-24.07.buildcompare) | | 1.6M |
