@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/pulsar.git](https://github.com/apache/pulsar.git)
 
-<details><summary>This project defines 123 modules:</summary>
+<details><summary>This project defines 124 modules:</summary>
 
 * [org.apache.pulsar.tests:integration](https://central.sonatype.com/artifact/org.apache.pulsar.tests/integration/overview)
 * [org.apache.pulsar:bouncy-castle-bc](https://central.sonatype.com/artifact/org.apache.pulsar/bouncy-castle-bc/overview)
@@ -101,6 +101,7 @@ Source code: [https://github.com/apache/pulsar.git](https://github.com/apache/pu
 * [org.apache.pulsar:pulsar-io-kafka-connect-adaptor](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-io-kafka-connect-adaptor/overview)
 * [org.apache.pulsar:pulsar-io-kafka-connect-adaptor-nar](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-io-kafka-connect-adaptor-nar/overview)
 * [org.apache.pulsar:pulsar-io-kinesis](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-io-kinesis/overview)
+* [org.apache.pulsar:pulsar-io-kinesis-kpl-shaded](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-io-kinesis-kpl-shaded/overview)
 * [org.apache.pulsar:pulsar-io-mongo](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-io-mongo/overview)
 * [org.apache.pulsar:pulsar-io-netty](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-io-netty/overview)
 * [org.apache.pulsar:pulsar-io-nsq](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar-io-nsq/overview)
@@ -134,14 +135,14 @@ Source code: [https://github.com/apache/pulsar.git](https://github.com/apache/pu
 * [org.apache.pulsar:tiered-storage-parent](https://central.sonatype.com/artifact/org.apache.pulsar/tiered-storage-parent/overview)
 </details>
 
-rebuilding **36 releases** of org.apache.pulsar:pulsar:
+rebuilding **37 releases** of org.apache.pulsar:pulsar:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 36 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 37 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.1.0](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.1.0/pom) | | | |
+| [4.1.0](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.1.0/pom) | [mvn jdk17](pulsar-4.1.0.buildspec) | [result](pulsar-4.1.0.buildinfo): [288 :white_check_mark:  32 :warning:](pulsar-4.1.0.buildcompare) [:mag:](pulsar-4.1.0.diffoscope) | 3 :recycle: 11 :rotating_light: 18 :no_entry_sign: | 3.4G |
 | [4.0.6](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.6/pom) | [mvn jdk21](pulsar-4.0.6.buildspec) | [result](pulsar-4.0.6.buildinfo): [288 :white_check_mark:  34 :warning:](pulsar-4.0.6.buildcompare) | 3 :recycle: 9 :rotating_light: 22 :no_entry_sign: | 3.8G |
 | [4.0.5](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.5/pom) | [mvn jdk21](pulsar-4.0.5.buildspec) | [result](pulsar-4.0.5.buildinfo): [288 :white_check_mark:  34 :warning:](pulsar-4.0.5.buildcompare) | 3 :recycle: 9 :rotating_light: 22 :no_entry_sign: | 3.8G |
 | [4.0.4](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.4/pom) | [mvn jdk21](pulsar-4.0.4.buildspec) | [result](pulsar-4.0.4.buildinfo): [288 :white_check_mark:  34 :warning:](pulsar-4.0.4.buildcompare) | - | 3.7G |

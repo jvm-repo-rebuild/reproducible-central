@@ -1,0 +1,504 @@
+# much more files in reference zip file, including .vscode: release manager should release from clean Git clone
+# pom.xml.versionsBackup: release process to be reworked
+# drwx------ permissions on directories??
+1 / 32 target/reference/org.apache.pulsar/pulsar-4.1.0-source-release.zip target/pulsar-source-release.zip
+--- target/reference/org.apache.pulsar/pulsar-4.1.0-source-release.zip
++++ target/pulsar-source-release.zip
+├── zipinfo {}
+│ @@ -1,146 +1,141 @@
+│ -Zip file size: 67903470 bytes, number of entries: 8129
+│ -drwx------  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/
+│ -drwx------  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/.github/
+│ +Zip file size: 12794025 bytes, number of entries: 7927
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/.github/ISSUE_TEMPLATE/
+│ -drwx------  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/.github/actions/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/.github/actions/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/.github/actions/clean-disk/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/.github/actions/copy-test-reports/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/.github/actions/ssh-access/
+│ -drwx------  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/.github/actions/tune-runner-vm/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/.github/actions/tune-runner-vm/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/.github/actions/upload-coverage/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/.github/workflows/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/.mvn/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/.mvn/.develocity/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/.mvn/wrapper/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/.vscode/
+│ -drwx------  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/bin/
+...
+│ -drwx------  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/distribution/io/src/assemble/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/bin/
+...
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/distribution/io/src/assemble/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 pulsar/distribution/licenses/
+...
+│  -rw-r--r--  2.0 unx       45 b- defN 25-Sep-01 07:02 pulsar/.mvn/jvm.config
+│  -rw-r--r--  2.0 unx      951 b- defN 25-Sep-01 07:02 pulsar/.mvn/wrapper/maven-wrapper.properties
+│ --rw-r--r--  2.0 unx      401 b- defN 25-Sep-01 07:02 pulsar/.vscode/settings.json
+│  -rw-r--r--  2.0 unx     1066 b- defN 25-Sep-01 07:02 pulsar/CONTRIBUTING.md
+│  -rw-r--r--  2.0 unx     1382 b- defN 25-Sep-01 07:02 pulsar/CONTRIBUTORS.md
+...
+│ @@ -2383,38 +2355,33 @@
+│  -rw-r--r--  2.0 unx    11700 b- defN 25-Sep-01 07:02 pulsar/bouncy-castle/bc/LICENSE
+│  -rw-r--r--  2.0 unx     2835 b- defN 25-Sep-01 07:02 pulsar/bouncy-castle/bc/pom.xml
+│ --rw-r--r--  2.0 unx     2600 b- defN 25-Sep-01 07:02 pulsar/bouncy-castle/bc/pom.xml.versionsBackup
+│  -rw-r--r--  2.0 unx     1606 b- defN 25-Sep-01 07:02 pulsar/bouncy-castle/bc/src/main/java/org/apache/pulsar/bcloader/BouncyCastleLoader.java
+│  -rw-r--r--  2.0 unx      898 b- defN 25-Sep-01 07:02 pulsar/bouncy-castle/bc/src/main/java/org/apache/pulsar/bcloader/package-info.java
+│  -rw-r--r--  2.0 unx      918 b- defN 25-Sep-01 07:02 pulsar/bouncy-castle/bc/src/main/resources/META-INF/services/bouncy-castle.yaml
+│  -rw-r--r--  2.0 unx    11692 b- defN 25-Sep-01 07:02 pulsar/bouncy-castle/bcfips/LICENSE
+│  -rw-r--r--  2.0 unx     2582 b- defN 25-Sep-01 07:02 pulsar/bouncy-castle/bcfips/pom.xml
+│ --rw-r--r--  2.0 unx     2606 b- defN 25-Sep-01 07:02 pulsar/bouncy-castle/bcfips/pom.xml.versionsBackup
+│  -rw-r--r--  2.0 unx     1667 b- defN 25-Sep-01 07:02 pulsar/bouncy-castle/bcfips/src/main/java/org/apache/pulsar/bcloader/BouncyCastleFipsLoader.java
+...
+│ -8129 files, 102271088 bytes uncompressed, 66002880 bytes compressed:  35.5%
+│ +7927 files, 46273392 bytes uncompressed, 10928279 bytes compressed:  76.4%
+├── pulsar/.mvn/.develocity/develocity-workspace-id
+│ @@ -1 +1 @@
+│ -kf3gumewdzealakghuhdlmvqmq
+│ +p5pn5xd46fe4powtbvetezmsum
+├── pulsar/jclouds-shaded/dependency-reduced-pom.xml
+│ ├── pulsar/jclouds-shaded/dependency-reduced-pom.xml
+│ │ @@ -1,13 +1,13 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+│ │    <parent>
+│ │      <artifactId>pulsar</artifactId>
+│ │      <groupId>org.apache.pulsar</groupId>
+│ │ -    <version>4.1.0</version>
+│ │ +    <version>3.3.8</version>
+│ │    </parent>
+│ │    <modelVersion>4.0.0</modelVersion>
+│ │    <artifactId>jclouds-shaded</artifactId>
+│ │    <name>Apache Pulsar :: Jclouds shaded</name>
+│ │    <build>
+│ │      <plugins>
+│ │        <plugin>
+├── pulsar/jetcd-core-shaded/dependency-reduced-pom.xml
+│ ├── pulsar/jetcd-core-shaded/dependency-reduced-pom.xml
+│ │ @@ -1,43 +1,21 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+│ │    <parent>
+│ │      <artifactId>pulsar</artifactId>
+│ │      <groupId>org.apache.pulsar</groupId>
+│ │ -    <version>4.1.0</version>
+│ │ +    <version>3.3.8</version>
+│ │    </parent>
+│ │    <modelVersion>4.0.0</modelVersion>
+│ │    <artifactId>jetcd-core-shaded</artifactId>
+│ │    <name>Apache Pulsar :: jetcd-core shaded</name>
+│ │    <build>
+│ │      <finalName>${project.artifactId}-${project.version}</finalName>
+│ │      <plugins>
+│ │        <plugin>
+│ │ -        <groupId>org.codehaus.mojo</groupId>
+│ │ -        <artifactId>build-helper-maven-plugin</artifactId>
+│ │ -        <executions>
+│ │ -          <execution>
+│ │ -            <id>attach-shade-jar</id>
+│ │ -            <phase>package</phase>
+│ │ -            <goals>
+│ │ -              <goal>attach-artifact</goal>
+│ │ -            </goals>
+│ │ -            <configuration>
+│ │ -              <artifacts>
+│ │ -                <artifact>
+│ │ -                  <file>${project.build.directory}/${project.build.finalName}.jar</file>
+│ │ -                  <type>jar</type>
+│ │ -                  <classifier>shaded</classifier>
+│ │ -                </artifact>
+│ │ -              </artifacts>
+│ │ -            </configuration>
+│ │ -          </execution>
+│ │ -        </executions>
+│ │ -      </plugin>
+│ │ -      <plugin>
+│ │          <artifactId>maven-shade-plugin</artifactId>
+│ │          <executions>
+│ │            <execution>
+│ │              <phase>package</phase>
+│ │              <goals>
+│ │                <goal>shade</goal>
+│ │              </goals>
+...
+├── pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/avro/generated/NasaMission.java
+│ @@ -11,29 +11,31 @@
+│  import org.apache.avro.message.BinaryMessageEncoder;
+│  import org.apache.avro.message.BinaryMessageDecoder;
+│  import org.apache.avro.message.SchemaStore;
+│  
+│  @org.apache.avro.specific.AvroGenerated
+│  public class NasaMission extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
+│    private static final long serialVersionUID = 855396714074990031L;
+│ +
+│ +
+│    public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"NasaMission\",\"namespace\":\"org.apache.pulsar.client.avro.generated\",\"fields\":[{\"name\":\"id\",\"type\":\"int\"},{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"create_year\",\"type\":{\"type\":\"int\",\"logicalType\":\"date\"}},{\"name\":\"create_time\",\"type\":{\"type\":\"int\",\"logicalType\":\"time-millis\"}},{\"name\":\"create_timestamp\",\"type\":{\"type\":\"long\",\"logicalType\":\"timestamp-millis\"}}]}");
+│    public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
+│  
+│ -  private static SpecificData MODEL$ = new SpecificData();
+│ -static {
+│ +  private static final SpecificData MODEL$ = new SpecificData();
+│ +  static {
+│      MODEL$.addLogicalTypeConversion(new org.apache.avro.data.TimeConversions.DateConversion());
+│      MODEL$.addLogicalTypeConversion(new org.apache.avro.data.TimeConversions.TimestampMillisConversion());
+...
+│      private Builder(org.apache.pulsar.client.avro.generated.NasaMission other) {
+│ -      super(SCHEMA$);
+│ +      super(SCHEMA$, MODEL$);
+│        if (isValidValue(fields()[0], other.id)) {
+│          this.id = data().deepCopy(fields()[0].schema(), other.id);
+│          fieldSetFlags()[0] = true;
+│        }
+│        if (isValidValue(fields()[1], other.name)) {
+│          this.name = data().deepCopy(fields()[1].schema(), other.name);
+│          fieldSetFlags()[1] = true;
+...
+├── pulsar/pulsar-client-tools/src/test/resources/dummy.nar
+│ @@ -20,15 +20,16 @@
+│  -->
+│  <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+│           xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│    <modelVersion>4.0.0</modelVersion>
+│    <parent>
+│      <groupId>org.apache.pulsar</groupId>
+│      <artifactId>pulsar</artifactId>
+│ -    <version>4.1.0</version>
+│ +    <version>3.3.8</version>
+│ +    <relativePath>..</relativePath>
+│    </parent>
+│  
+│    <artifactId>pulsar-client-tools</artifactId>
+│    <name>Pulsar Client Tools</name>
+│    <description>Pulsar Client Tools</description>
+│  
+│    <dependencies>
+│ @@ -152,15 +153,15 @@
+│    <build>
+│      <plugins>
+│        <plugin>
+│          <groupId>org.gaul</groupId>
+│          <artifactId>modernizer-maven-plugin</artifactId>
+│          <configuration>
+│            <failOnViolations>true</failOnViolations>
+│ -          <javaVersion>17</javaVersion>
+│ +          <javaVersion>8</javaVersion>
+│          </configuration>
+│          <executions>
+│            <execution>
+│              <id>modernizer</id>
+│              <phase>verify</phase>
+│              <goals>
+│                <goal>modernizer</goal>
+...
+
+2 / 32 target/reference/org.apache.pulsar/pulsar-common-4.1.0.jar pulsar-common/target/pulsar-common.jar
+--- target/reference/org.apache.pulsar/pulsar-common-4.1.0.jar
++++ pulsar-common/target/pulsar-common.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1065954 bytes, number of entries: 542
+│ +Zip file size: 1065899 bytes, number of entries: 542
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 META-INF/
+│  -rw-r--r--  2.0 unx      314 b- defN 25-Sep-01 07:02 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 io/
+│ @@ -57,15 +57,15 @@
+│  -rw-r--r--  2.0 unx      635 b- defN 25-Sep-01 07:02 io/airlift/compress/zstd/ZStdRawDecompressor.class
+│  -rw-r--r--  2.0 unx      130 b- defN 25-Sep-01 07:02 io/airlift/compress/zstd/package-info.class
+│ --rw-r--r--  2.0 unx     3087 b- defN 25-Sep-01 07:02 org/apache/pulsar/PulsarVersion.class
+│ +-rw-r--r--  2.0 unx     3025 b- defN 25-Sep-01 07:02 org/apache/pulsar/PulsarVersion.class
+│  -rw-r--r--  2.0 unx     3708 b- defN 25-Sep-01 07:02 org/apache/pulsar/client/admin/internal/data/AuthPoliciesImpl$AuthPoliciesImplBuilder.class
+│  -rw-r--r--  2.0 unx     5580 b- defN 25-Sep-01 07:02 org/apache/pulsar/client/admin/internal/data/AuthPoliciesImpl.class
+│ @@ -537,8 +537,8 @@
+│  -rw-r--r--  2.0 unx    13592 b- defN 25-Sep-01 07:02 META-INF/maven/org.apache.pulsar/pulsar-common/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 25-Sep-01 07:02 META-INF/maven/org.apache.pulsar/pulsar-common/pom.properties
+│ -542 files, 2423145 bytes uncompressed, 960122 bytes compressed:  60.4%
+│ +542 files, 2423083 bytes uncompressed, 960067 bytes compressed:  60.4%
+├── org/apache/pulsar/PulsarVersion.class
+│ ├── procyon -ec {}
+│ │ @@ -43,29 +43,29 @@
+│ │          if (dirtyString == null || Boolean.valueOf(dirtyString)) {
+│ │              return commit + "(dirty)";
+│ │          }
+│ │          return commit;
+│ │      }
+│ │      
+│ │      public static String getGitBranch() {
+│ │ -        return "branch-4.1";
+│ │ +        return "368381aa1eb2c4645d9b0b5848f262c98642aad2";
+│ │      }
+│ │      
+│ │      public static String getBuildUser() {
+│ │ -        final String email = "zhaocong@apache.org";
+│ │ -        final String name = "coderzc";
+│ │ +        final String email = "";
+│ │ +        final String name = "";
+│ │          return String.format("%s <%s>", name, email);
+│ │      }
+│ │      
+│ │      public static String getBuildHost() {
+│ │ -        return "zdeMacBook-Pro.local";
+│ │ +        return "96f3ef91b4db";
+│ │      }
+│ │      
+│ │      public static String getBuildTime() {
+│ │ -        return "2025-09-01T15:02:27+0800";
+│ │ +        return "2025-09-01T07:02:27+0000";
+│ │      }
+│ │      
+│ │      static {
+│ │          majorMinorPatchPattern = Pattern.compile("([0-9]+)\\.([0-9]+)\\.([0-9]+)(.*)");
+│ │          majorMinorPatter = Pattern.compile("([0-9]+)\\.([0-9]+)(.*)");
+│ │      }
+│ │  }
+
+# same as issue on 2nd file
+3 / 32 target/reference/org.apache.pulsar/pulsar-common-4.1.0-sources.jar pulsar-common/target/pulsar-common-sources.jar
+8 / 32 target/reference/org.apache.pulsar/pulsar-client-4.1.0.jar pulsar-client-shaded/target/pulsar-client.jar
+9 / 32 target/reference/org.apache.pulsar/pulsar-client-admin-4.1.0.jar pulsar-client-admin-shaded/target/pulsar-client-admin.jar
+10 / 32 target/reference/org.apache.pulsar/pulsar-client-all-4.1.0.jar pulsar-client-all/target/pulsar-client-all.jar
+
+4 / 32 target/reference/org.apache.pulsar/jclouds-shaded-4.1.0.jar jclouds-shaded/target/jclouds-shaded.jar
+--- target/reference/org.apache.pulsar/jclouds-shaded-4.1.0.jar
++++ jclouds-shaded/target/jclouds-shaded.jar
+├── zipinfo {}
+│ @@ -15,14 +15,15 @@
+│  -rw----     2.0 fat        0 bl defN 25-Sep-01 07:02 META-INF/maven/org.apache.pulsar/jclouds-shaded/
+│  -rw----     2.0 fat     8283 bl defN 25-Sep-01 07:02 META-INF/maven/org.apache.pulsar/jclouds-shaded/pom.xml
+│  -rw----     2.0 fat       66 bl defN 25-Sep-01 07:02 META-INF/maven/org.apache.pulsar/jclouds-shaded/pom.properties
+│  -rw----     2.0 fat        0 bl defN 22-Nov-11 08:16 META-INF/maven/org.apache.jclouds/
+│  -rw----     2.0 fat        0 bl defN 22-Nov-11 08:16 META-INF/maven/org.apache.jclouds/jclouds-allblobstore/
+│  -rw----     2.0 fat     3145 bl defN 22-Nov-11 08:16 META-INF/maven/org.apache.jclouds/jclouds-allblobstore/pom.xml
+│  -rw----     2.0 fat       73 bl defN 22-Nov-11 08:16 META-INF/maven/org.apache.jclouds/jclouds-allblobstore/pom.properties
+│ +-rw----     2.0 fat        0 bl defN 22-Nov-11 08:16 META-INF/services/
+│  -rw----     2.0 fat        0 bl defN 22-Nov-11 08:16 org/jclouds/
+│  -rw----     2.0 fat        0 bl defN 22-Nov-11 08:16 org/jclouds/s3/
+│  -rw----     2.0 fat      461 bl defN 22-Nov-11 08:16 org/jclouds/s3/Bucket.class
+│  -rw----     2.0 fat     2399 bl defN 22-Nov-11 08:16 org/jclouds/s3/S3$1.class
+│  -rw----     2.0 fat     2034 bl defN 22-Nov-11 08:16 org/jclouds/s3/S3$ToIterableWithMarker.class
+│  -rw----     2.0 fat     1617 bl defN 22-Nov-11 08:16 org/jclouds/s3/S3.class
+│  -rw----     2.0 fat      217 bl defN 22-Nov-11 08:16 org/jclouds/s3/S3ApiMetadata$1.class
+│ @@ -6165,12 +6166,11 @@
+│  -rw----     2.0 fat      429 bl defN 04-Mar-19 14:57 org/apache/pulsar/jcloud/shade/org/aopalliance/intercept/ConstructorInterceptor.class
+│  -rw----     2.0 fat      316 bl defN 04-Mar-19 14:57 org/apache/pulsar/jcloud/shade/org/aopalliance/intercept/ConstructorInvocation.class
+│  -rw----     2.0 fat      225 bl defN 04-Mar-19 14:57 org/apache/pulsar/jcloud/shade/org/aopalliance/intercept/Interceptor.class
+│  -rw----     2.0 fat      279 bl defN 04-Mar-19 14:57 org/apache/pulsar/jcloud/shade/org/aopalliance/intercept/Invocation.class
+│  -rw----     2.0 fat      328 bl defN 04-Mar-19 14:57 org/apache/pulsar/jcloud/shade/org/aopalliance/intercept/Joinpoint.class
+│  -rw----     2.0 fat      411 bl defN 04-Mar-19 14:57 org/apache/pulsar/jcloud/shade/org/aopalliance/intercept/MethodInterceptor.class
+│  -rw----     2.0 fat      296 bl defN 04-Mar-19 14:57 org/apache/pulsar/jcloud/shade/org/aopalliance/intercept/MethodInvocation.class
+│ --rw----     2.0 fat        0 bl defN 22-Nov-11 08:16 META-INF/services/
+│  -rw----     2.0 fat      319 bl defN 22-Nov-11 08:16 META-INF/services/org.jclouds.providers.ProviderMetadata
+│  -rw----     2.0 fat      459 bl defN 22-Nov-11 08:16 META-INF/services/org.jclouds.apis.ApiMetadata
+│  -rw----     2.0 fat       52 bl defN 22-Nov-11 08:16 META-INF/services/org.jclouds.logging.config.LoggingModule
+│  6174 files, 18616089 bytes uncompressed, 6770631 bytes compressed:  63.6%
+
+# how is this jar built? entries order and time is not kept, and META-INF/MANIFEST.MF content looks like old m-jar-p
+5 / 32 target/reference/org.apache.pulsar/bouncy-castle-bc-4.1.0-pkg.jar bouncy-castle/bc/target/bouncy-castle-bc-4.1.0-pkg.jar
+--- target/reference/org.apache.pulsar/bouncy-castle-bc-4.1.0-pkg.jar
++++ bouncy-castle/bc/target/bouncy-castle-bc-4.1.0-pkg.jar
+├── zipinfo {}
+│ @@ -1,32 +1,32 @@
+│ -Zip file size: 8873174 bytes, number of entries: 30
+│ --rw-r--r--  2.0 unx      353 bl defN 25-Sep-01 17:37 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 17:37 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 17:37 org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 17:37 org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 17:37 org/apache/pulsar/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 17:37 org/apache/pulsar/bcloader/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 17:37 META-INF/services/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 17:37 lib/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 17:37 de/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 17:37 de/ntcomputer/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 17:37 de/ntcomputer/executablepacker/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 17:37 de/ntcomputer/executablepacker/runtime/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 17:37 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 17:37 META-INF/maven/org.apache.pulsar/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 17:37 META-INF/maven/org.apache.pulsar/bouncy-castle-bc/
+│ --rw-r--r--  2.0 unx     1256 bl defN 25-Sep-01 17:37 org/apache/pulsar/bcloader/BouncyCastleLoader.class
+│ --rw-r--r--  2.0 unx     1365 bl defN 22-Jun-27 02:54 de/ntcomputer/executablepacker/runtime/JarInJarURLStreamHandler.class
+│ --rw-r--r--  2.0 unx      132 bl defN 25-Sep-01 17:37 org/apache/pulsar/bcloader/package-info.class
+│ --rw-r--r--  2.0 unx     1508 bl defN 22-Jun-27 02:54 de/ntcomputer/executablepacker/runtime/JarInJarURLConnection.class
+│ --rw-r--r--  2.0 unx    11358 bl defN 25-Sep-01 17:37 META-INF/LICENSE
+│ --rw-r--r--  2.0 unx      993 bl defN 25-Sep-01 17:37 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx     2835 bl defN 25-Sep-01 15:10 META-INF/maven/org.apache.pulsar/bouncy-castle-bc/pom.xml
+│ --rw-r--r--  2.0 unx      189 bl defN 25-Sep-01 17:37 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx       68 bl defN 25-Sep-01 17:37 META-INF/maven/org.apache.pulsar/bouncy-castle-bc/pom.properties
+│ --rw-r--r--  2.0 unx      918 bl defN 25-Sep-01 17:37 META-INF/services/bouncy-castle.yaml
+│ --rw-r--r--  2.0 unx  1149752 bl defN 25-Jun-04 15:44 lib/bcpkix-jdk18on-1.81.jar
+│ --rw-r--r--  2.0 unx   705888 bl defN 25-Jun-04 15:57 lib/bcutil-jdk18on-1.81.jar
+│ --rw-r--r--  2.0 unx  8324412 bl defN 24-Jun-12 21:04 lib/bcprov-jdk18on-1.78.1.jar
+│ --rw-r--r--  2.0 unx      911 bl defN 22-Jun-27 02:54 de/ntcomputer/executablepacker/runtime/JarInJarURLStreamHandlerFactory.class
+│ --rw-r--r--  2.0 unx     4959 bl defN 22-Jun-27 02:54 de/ntcomputer/executablepacker/runtime/ExecutableLauncher.class
+│ -30 files, 10206897 bytes uncompressed, 8868700 bytes compressed:  13.1%
+│ +Zip file size: 8873175 bytes, number of entries: 30
+│ +-rw-r--r--  2.0 unx      357 bl defN 25-Sep-08 21:28 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-08 21:28 META-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-08 21:28 META-INF/services/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-08 21:28 org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-08 21:28 org/apache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-08 21:28 org/apache/pulsar/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-08 21:28 org/apache/pulsar/bcloader/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-08 21:28 lib/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-08 21:28 de/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-08 21:28 de/ntcomputer/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-08 21:28 de/ntcomputer/executablepacker/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-08 21:28 de/ntcomputer/executablepacker/runtime/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-08 21:28 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-08 21:28 META-INF/maven/org.apache.pulsar/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-08 21:28 META-INF/maven/org.apache.pulsar/bouncy-castle-bc/
+│ +-rw-r--r--  2.0 unx      993 bl defN 25-Sep-08 21:28 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    11358 bl defN 25-Sep-08 21:28 META-INF/LICENSE
+│ +-rw-r--r--  2.0 unx      918 bl defN 25-Sep-08 21:28 META-INF/services/bouncy-castle.yaml
+│ +-rw-r--r--  2.0 unx      189 bl defN 25-Sep-08 21:28 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx     1256 bl defN 25-Sep-08 21:28 org/apache/pulsar/bcloader/BouncyCastleLoader.class
+│ +-rw-r--r--  2.0 unx      132 bl defN 25-Sep-08 21:28 org/apache/pulsar/bcloader/package-info.class
+│ +-rw-r--r--  2.0 unx  1149752 bl defN 25-Jun-04 07:44 lib/bcpkix-jdk18on-1.81.jar
+│ +-rw-r--r--  2.0 unx   705888 bl defN 25-Jun-04 07:57 lib/bcutil-jdk18on-1.81.jar
+│ +-rw-r--r--  2.0 unx  8324412 bl defN 24-Apr-18 07:45 lib/bcprov-jdk18on-1.78.1.jar
+│ +-rw-r--r--  2.0 unx     4959 bl defN 17-Jun-04 10:56 de/ntcomputer/executablepacker/runtime/ExecutableLauncher.class
+│ +-rw-r--r--  2.0 unx      911 bl defN 17-Jun-04 10:56 de/ntcomputer/executablepacker/runtime/JarInJarURLStreamHandlerFactory.class
+│ +-rw-r--r--  2.0 unx     1365 bl defN 17-Jun-04 10:56 de/ntcomputer/executablepacker/runtime/JarInJarURLStreamHandler.class
+│ +-rw-r--r--  2.0 unx     1508 bl defN 17-Jun-04 10:56 de/ntcomputer/executablepacker/runtime/JarInJarURLConnection.class
+│ +-rw-r--r--  2.0 unx     2835 bl defN 25-Sep-08 21:27 META-INF/maven/org.apache.pulsar/bouncy-castle-bc/pom.xml
+│ +-rw-r--r--  2.0 unx       68 bl defN 25-Sep-08 21:28 META-INF/maven/org.apache.pulsar/bouncy-castle-bc/pom.properties
+│ +30 files, 10206901 bytes uncompressed, 8868701 bytes compressed:  13.1%
+...
+├── META-INF/MANIFEST.MF
+│ @@ -1,10 +1,10 @@
+│  Manifest-Version: 1.0
+│  Created-By: Apache Maven 3.9.9
+│ -Built-By: zc
+│ -Build-Jdk: 17.0.6
+│ +Built-By: herve
+│ +Build-Jdk: 17.0.13
+│  Main-Class: de.ntcomputer.executablepacker.runtime.ExecutableLauncher
+│  Application-Main-Class: org.apache.pulsar.bcloader.BouncyCastleLoader
+│  Dependency-Libpath: lib/
+│  Dependency-Jars: bcpkix-jdk18on-1.81.jar/bcutil-jdk18on-1.81.jar/bcprov-
+│   jdk18on-1.78.1.jar
+
+6 / 32 target/reference/org.apache.pulsar/pulsar-broker-4.1.0-tests.jar pulsar-broker/target/pulsar-broker-tests.jar
+--- target/reference/org.apache.pulsar/pulsar-broker-4.1.0-tests.jar
++++ pulsar-broker/target/pulsar-broker-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 59980021 bytes, number of entries: 1476
+│ +Zip file size: 5162556 bytes, number of entries: 1475
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 META-INF/
+│  -rw-r--r--  2.0 unx      314 b- defN 25-Sep-01 07:02 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 authentication/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 authentication/basic/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 authentication/tls/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 authentication/tls/hn-verification/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 authentication/token/
+│ @@ -1468,11 +1468,10 @@
+│  -rw-r--r--  2.0 unx     5457 b- defN 25-Sep-01 07:02 org/apache/pulsar/websocket/proxy/SimpleProducerSocket.class
+│  -rw-r--r--  2.0 unx      823 b- defN 25-Sep-01 07:02 org/apache/pulsar/websocket/proxy/WssClientSideEncryptUtils$EncryptedPayloadAndParam.class
+│  -rw-r--r--  2.0 unx    15668 b- defN 25-Sep-01 07:02 org/apache/pulsar/websocket/proxy/WssClientSideEncryptUtils.class
+│  -rw-r--r--  2.0 unx    11591 b- defN 25-Sep-01 07:02 org/apache/pulsar/websocket/proxy/v1/V1ProxyAuthenticationTest.class
+│  -rw-r--r--  2.0 unx     3136 b- defN 25-Sep-01 07:02 org/apache/pulsar/zookeeper/LocalBookkeeperEnsembleTest.class
+│  -rw-r--r--  2.0 unx     3609 b- defN 25-Sep-01 07:02 org/apache/pulsar/zookeeper/ZookeeperServerTest.class
+│  -rw-r--r--  2.0 unx    85525 b- defN 25-Sep-01 07:02 prometheus_metrics_sample.txt
+│ --rw-r--r--  2.0 unx 54873699 b- defN 25-Sep-01 07:02 test-protocol-handler.nar
+│  -rw-r--r--  2.0 unx    35531 b- defN 25-Sep-01 07:02 META-INF/maven/org.apache.pulsar/pulsar-broker/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 25-Sep-01 07:02 META-INF/maven/org.apache.pulsar/pulsar-broker/pom.properties
+│ -1476 files, 67702252 bytes uncompressed, 59678729 bytes compressed:  11.9%
+│ +1475 files, 12828553 bytes uncompressed, 4861390 bytes compressed:  62.1%
+
+7 / 32 target/reference/org.apache.pulsar/pulsar-broker-4.1.0-sources.jar pulsar-broker/target/pulsar-broker-sources.jar
+--- target/reference/org.apache.pulsar/pulsar-broker-4.1.0-sources.jar
++++ pulsar-broker/target/pulsar-broker-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1631161 bytes, number of entries: 742
+│ +Zip file size: 1631071 bytes, number of entries: 741
+│  -rw-r--r--  2.0 unx       64 b- defN 25-Sep-01 07:02 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 org/apache/pulsar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 org/apache/pulsar/broker/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 org/apache/pulsar/broker/admin/
+│ @@ -79,15 +79,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 org/apache/pulsar/utils/auth/tokens/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 org/apache/pulsar/zookeeper/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 org/apache/pulsar/broker/delayed/proto/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 org/apache/pulsar/broker/service/schema/proto/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 org/apache/pulsar/broker/service/resource/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 org/apache/pulsar/broker/service/resource/usage/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 org/apache/pulsar/broker/transaction/pendingack/proto/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 webapp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 META-INF/maven/org.apache.pulsar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-01 07:02 META-INF/maven/org.apache.pulsar/pulsar-broker/
+│  -rw-r--r--  2.0 unx    79664 b- defN 25-Sep-01 07:02 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 25-Sep-01 07:02 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      166 b- defN 25-Sep-01 07:02 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx    16950 b- defN 25-Sep-01 07:02 org/apache/pulsar/PulsarBrokerStarter.java
+│ @@ -737,8 +736,8 @@
+│  -rw-r--r--  2.0 unx    10712 b- defN 25-Sep-01 07:02 org/apache/pulsar/broker/transaction/pendingack/proto/PendingAckMetadataEntry.java
+│  -rw-r--r--  2.0 unx      565 b- defN 25-Sep-01 07:02 org/apache/pulsar/broker/transaction/pendingack/proto/PendingAckOp.java
+│  -rw-r--r--  2.0 unx     1248 b- defN 25-Sep-01 07:02 DelayedMessageIndexBucketMetadata.proto
+│  -rw-r--r--  2.0 unx     1807 b- defN 25-Sep-01 07:02 SchemaRegistryFormat.proto
+│  -rw-r--r--  2.0 unx     1353 b- defN 25-Sep-01 07:02 SchemaStorageFormat.proto
+│  -rw-r--r--  2.0 unx    35531 b- defN 25-Sep-01 07:02 META-INF/maven/org.apache.pulsar/pulsar-broker/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 25-Sep-01 07:02 META-INF/maven/org.apache.pulsar/pulsar-broker/pom.properties
+│ -742 files, 7198422 bytes uncompressed, 1482941 bytes compressed:  79.4%
+│ +741 files, 7198422 bytes uncompressed, 1482941 bytes compressed:  79.4%
+
+11 / 32 target/reference/org.apache.pulsar/pulsar-client-all-4.1.0-sources.jar pulsar-client-all/target/pulsar-client-all-sources.jar
+--- target/reference/org.apache.pulsar/pulsar-client-all-4.1.0-sources.jar
++++ pulsar-client-all/target/pulsar-client-all-sources.jar
+├── zipinfo {}
+│ @@ -1,14 +1,675 @@
+│ -Zip file size: 17077762 bytes, number of entries: 8329
+│ +Zip file size: 17077732 bytes, number of entries: 8329
+│  -rw----     2.0 fat      343 bX defN 25-Sep-01 07:02 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat        0 bl defN 25-Sep-01 07:02 META-INF/
+│ --rw----     2.0 fat        0 bl defN 24-Jul-05 17:14 org/
+│ --rw----     2.0 fat        0 bl defN 24-Jul-05 17:14 org/apache/
+│ --rw----     2.0 fat        0 bl defN 24-Jul-05 17:14 org/apache/pulsar/
+│ --rw----     2.0 fat        0 bl defN 24-Jul-05 17:14 org/apache/pulsar/shade/
+│ +-rw----     2.0 fat        0 bl defN 25-Sep-01 07:02 org/
+│ +-rw----     2.0 fat        0 bl defN 25-Sep-01 07:02 org/apache/
+│ +-rw----     2.0 fat        0 bl defN 25-Sep-01 07:02 org/apache/pulsar/
+│ +-rw----     2.0 fat        0 bl defN 25-Sep-01 07:02 org/apache/pulsar/client/
+│ +-rw----     2.0 fat        0 bl defN 25-Sep-01 07:02 org/apache/pulsar/client/impl/
+│ +-rw----     2.0 fat     5661 bl defN 25-Sep-01 07:02 org/apache/pulsar/client/impl/AbstractBatchMessageContainer.java
+│ +-rw----     2.0 fat     1584 bl defN 25-Sep-01 07:02 org/apache/pulsar/client/impl/AcknowledgmentsGroupingTracker.java
+│ +-rw----     2.0 fat     5292 bl defN 25-Sep-01 07:02 org/apache/pulsar/client/impl/AuthenticationUtil.java
+...
+│ +-rw----     2.0 fat     5944 bl defN 25-Sep-01 07:02 org/apache/pulsar/common/api/proto/Subscription.java
+│ +-rw----     2.0 fat      461 bl defN 25-Sep-01 07:02 org/apache/pulsar/common/api/proto/TxnAction.java
+│  -rw----     2.0 fat        0 bl defN 24-Jul-05 17:14 org/apache/pulsar/shade/com/
+│  -rw----     2.0 fat        0 bl defN 24-Jul-05 17:14 org/apache/pulsar/shade/com/fasterxml/
+│  -rw----     2.0 fat        0 bl defN 24-Jul-05 17:14 org/apache/pulsar/shade/com/fasterxml/jackson/
+│  -rw----     2.0 fat        0 bl defN 24-Jul-05 17:14 org/apache/pulsar/shade/com/fasterxml/jackson/databind/
+│  -rw----     2.0 fat     2729 bl defN 24-Jul-05 17:14 org/apache/pulsar/shade/com/fasterxml/jackson/databind/AbstractTypeResolver.java
+│  -rw----     2.0 fat    61360 bl defN 24-Jul-05 17:14 org/apache/pulsar/shade/com/fasterxml/jackson/databind/AnnotationIntrospector.java
+│  -rw----     2.0 fat    13118 bl defN 24-Jul-05 17:14 org/apache/pulsar/shade/com/fasterxml/jackson/databind/BeanDescription.java
+│ @@ -503,14 +1164,16 @@
+│  -rw----     2.0 fat     1931 bl defN 24-Jul-05 17:14 org/apache/pulsar/shade/com/fasterxml/jackson/databind/util/ViewMatcher.java
+│  -rw----     2.0 fat        0 bl defN 24-Jul-05 17:14 org/apache/pulsar/shade/com/fasterxml/jackson/databind/util/internal/
+│  -rw----     2.0 fat    11103 bl defN 24-Jul-05 17:14 org/apache/pulsar/shade/com/fasterxml/jackson/databind/util/internal/LinkedDeque.java
+│  -rw----     2.0 fat    41409 bl defN 24-Jul-05 17:14 org/apache/pulsar/shade/com/fasterxml/jackson/databind/util/internal/PrivateMaxEntriesMap.java
+│  -rw----     2.0 fat     1553 bl defN 24-Jul-05 17:14 org/apache/pulsar/shade/com/fasterxml/jackson/databind/util/internal/package-info.java
+│  -rw----     2.0 fat      116 bl defN 24-Jul-05 17:14 org/apache/pulsar/shade/com/fasterxml/jackson/databind/util/package-info.java
+│  -rw----     2.0 fat      725 bl defN 24-Jul-05 17:14 org/apache/pulsar/shade/com/fasterxml/jackson/databind/cfg/PackageVersion.java
+│ +-rw----     2.0 fat        0 bl defN 24-Jul-05 17:14 META-INF/
+│ +-rw----     2.0 fat        0 bl defN 24-Jul-05 17:14 META-INF/services/
+│  -rw----     2.0 fat        0 bl defN 24-Jul-05 16:48 org/apache/pulsar/shade/com/fasterxml/jackson/module/
+│  -rw----     2.0 fat        0 bl defN 24-Jul-05 16:48 org/apache/pulsar/shade/com/fasterxml/jackson/module/paramnames/
+│  -rw----     2.0 fat      583 bl defN 24-Jul-05 16:48 org/apache/pulsar/shade/com/fasterxml/jackson/module/paramnames/PackageVersion.java.in
+│  -rw----     2.0 fat      374 bl defN 24-Jul-05 16:48 org/apache/pulsar/shade/com/fasterxml/jackson/module/paramnames/ParameterExtractor.java
+│  -rw----     2.0 fat     2956 bl defN 24-Jul-05 16:48 org/apache/pulsar/shade/com/fasterxml/jackson/module/paramnames/ParameterNamesAnnotationIntrospector.java
+│  -rw----     2.0 fat     1043 bl defN 24-Jul-05 16:48 org/apache/pulsar/shade/com/fasterxml/jackson/module/paramnames/ParameterNamesModule.java
+│  -rw----     2.0 fat      746 bl defN 24-Jul-05 16:48 org/apache/pulsar/shade/com/fasterxml/jackson/module/paramnames/PackageVersion.java
+...
+│  -rw----     2.0 fat        0 bl defN 25-Sep-01 07:02 META-INF/services/org.apache.pulsar.shade.javax.ws.rs.client.ClientBuilder
+│  -rw----     2.0 fat      922 bl defN 25-Sep-01 07:02 META-INF/services/org.apache.pulsar.shade.org.apache.avro.SchemaFormatterFactory
+│ -8329 files, 61172047 bytes uncompressed, 15097786 bytes compressed:  75.3%
+│ +8329 files, 61172043 bytes uncompressed, 15097756 bytes compressed:  75.3%
+
+...
