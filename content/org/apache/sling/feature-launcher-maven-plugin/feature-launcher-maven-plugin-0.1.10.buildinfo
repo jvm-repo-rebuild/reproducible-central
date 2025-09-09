@@ -1,0 +1,50 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Feature Launcher Maven Plugin
+group-id=org.apache.sling
+artifact-id=feature-launcher-maven-plugin
+version=0.1.10
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-feature-launcher-maven-plugin.git
+source.scm.tag=feature-launcher-maven-plugin-0.1.10
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.8.1
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=feature-launcher-maven-plugin-0.1.10.pom
+outputs.0.length=8260
+outputs.0.checksums.sha512=227bacef611d4471804c59fa942815f024b193ce8c399d9ea90698c166c6323b1c124f74685c3dbbb118cdd02681d364e58b73d20c033a8588da1a7853397bab
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=feature-launcher-maven-plugin-0.1.10.jar
+outputs.1.length=36155
+outputs.1.checksums.sha512=a84bb9838e03b40e078fd43e5bbebecf114329684aa160441df61331f6dbc81724b14232a623ee5642aec3c403357e13cb0a66eb7ccce6c581c8339bff8120f0
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=feature-launcher-maven-plugin-0.1.10-source-release.zip
+outputs.2.length=51705
+outputs.2.checksums.sha512=95ee70bdd805359844c7ecf7df17166fb1bb63fedc65452a215ec8074d90226291818f9a1f493019e0905afb6cd1fba4807975c88e1cdd4bda6038048e7bbf19
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=feature-launcher-maven-plugin-0.1.10-sources.jar
+outputs.3.length=23432
+outputs.3.checksums.sha512=b00f2756ea580a1030440e05cec34e62ca77b25aae73328d8881e448c4987ff3cde1c29bffc5fe8e0e29c8d4302c1f97146d54fcecd48b86a7c43d7cdf7a45a1
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=feature-launcher-maven-plugin-0.1.10-sources.jar
+outputs.4.length=23432
+outputs.4.checksums.sha512=b00f2756ea580a1030440e05cec34e62ca77b25aae73328d8881e448c4987ff3cde1c29bffc5fe8e0e29c8d4302c1f97146d54fcecd48b86a7c43d7cdf7a45a1
