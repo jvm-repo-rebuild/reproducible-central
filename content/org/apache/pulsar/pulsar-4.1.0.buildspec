@@ -24,4 +24,4 @@ buildinfo=target/${artifactId}-${version}.buildinfo
 
 # need to update a few plugins
 diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/apache/pulsar/issues/24718
