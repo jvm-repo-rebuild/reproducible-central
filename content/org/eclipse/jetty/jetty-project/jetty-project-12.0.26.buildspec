@@ -16,4 +16,4 @@ command="mvn -Peclipse-release clean package -DskipTests -Dgpg.skip -Dtimestamp=
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/jetty/jetty.project/issues/13562 # known failure from release manager based on a bad content in local repository: transient issue, releases should be done from empty local repository
