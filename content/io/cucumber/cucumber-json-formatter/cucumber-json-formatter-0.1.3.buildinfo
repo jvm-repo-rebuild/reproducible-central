@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Cucumber Json Formatter
+group-id=io.cucumber
+artifact-id=cucumber-json-formatter
+version=0.1.3
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/cucumber-json-formatter.git
+source.scm.tag=v0.1.3
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.28
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=cucumber-json-formatter-0.1.3.pom
+outputs.0.length=4796
+outputs.0.checksums.sha512=3169feb60123e3f9fbb97d986a4bc9e819e63fa7a3b85e65e2765a1ab4b920c76b04e5ead322b8ec66f1b9dc5b81b0473238a14cdf0c9a984cf77bb55838ef68
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=cucumber-json-formatter-0.1.3.jar
+outputs.1.length=39754
+outputs.1.checksums.sha512=c9d859f804869909953cf51d5f4900a23ab049dab9aa1a8f84737201722d3d49da8194ada6fd8bcd544ef0b0ddb09534a0c117a89dc56c6326334c99e4dd7932
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=cucumber-json-formatter-0.1.3-sources.jar
+outputs.2.length=12808
+outputs.2.checksums.sha512=6b3296d9a9a021901e68626e784d4c3e6112568e301b8b37b8bc896cacc0a56eddab2f371059affb9f4ff1db08cbd4ab20ef8d120ef0d24d770fd4794ffeb675
