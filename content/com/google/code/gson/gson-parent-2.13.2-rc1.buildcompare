@@ -1,0 +1,20 @@
+version=2.13.2-rc1
+ok=5
+ko=5
+ignored=0
+okFiles="gson-parent-2.13.2-rc1.pom gson-2.13.2-rc1.pom gson-2.13.2-rc1.jar gson-extras-2.13.2-rc1.pom proto-2.13.2-rc1.pom"
+koFiles="gson-2.13.2-rc1-sources.jar gson-extras-2.13.2-rc1.jar gson-extras-2.13.2-rc1-sources.jar proto-2.13.2-rc1.jar proto-2.13.2-rc1-sources.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.google.code.gson/gson-2.13.2-rc1-sources.jar gson/target/gson-2.13.2-rc1-sources.jar
+# diffoscope target/reference/com.google.code.gson/gson-extras-2.13.2-rc1.jar extras/target/gson-extras-2.13.2-rc1.jar
+# diffoscope target/reference/com.google.code.gson/gson-extras-2.13.2-rc1-sources.jar extras/target/gson-extras-2.13.2-rc1-sources.jar
+# diffoscope target/reference/com.google.code.gson/proto-2.13.2-rc1.jar proto/target/gson-proto.jar
+# diffoscope target/reference/com.google.code.gson/proto-2.13.2-rc1-sources.jar proto/target/gson-proto-sources.jar
+stabilize_ok=5
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="gson-2.13.2-rc1-sources.jar.stabilized gson-extras-2.13.2-rc1.jar.stabilized gson-extras-2.13.2-rc1-sources.jar.stabilized proto-2.13.2-rc1.jar.stabilized proto-2.13.2-rc1-sources.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""
