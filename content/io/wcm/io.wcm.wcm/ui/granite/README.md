@@ -13,6 +13,7 @@ rebuilding **8 releases** of io.wcm:io.wcm.wcm.ui.granite:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.11.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.ui.granite/1.11.2/pom) | | | |
 | [1.11.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.ui.granite/1.11.0/pom) | | | |
 | [1.10.6](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.ui.granite/1.10.6/pom) | | | |
 | [1.10.4](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.ui.granite/1.10.4/pom) | | | |
