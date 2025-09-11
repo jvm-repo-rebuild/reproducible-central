@@ -21,6 +21,7 @@ rebuilding **9 releases** of org.apache.maven.plugins:maven-wrapper-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.3.4](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-wrapper-plugin/3.3.4/pom) | | | |
 | [3.3.3](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper/3.3.3/pom) | [mvn jdk21](wrapper-3.3.3.buildspec) | [result](maven-wrapper-parent-3.3.3.buildinfo): [21 :white_check_mark: ](maven-wrapper-parent-3.3.3.buildcompare) | | 942K |
 | [3.3.2](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper/3.3.2/pom) | [mvn jdk21](wrapper-3.3.2.buildspec) | [result](maven-wrapper-parent-3.3.2.buildinfo): [21 :white_check_mark: ](maven-wrapper-parent-3.3.2.buildcompare) | | 906K |
 | [3.3.1](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper/3.3.1/pom) | [mvn jdk21](wrapper-3.3.1.buildspec) | [result](maven-wrapper-parent-3.3.1.buildinfo): [21 :white_check_mark: ](maven-wrapper-parent-3.3.1.buildcompare) | | 900K |

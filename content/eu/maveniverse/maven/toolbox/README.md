@@ -21,6 +21,8 @@ rebuilding **75 releases** of eu.maveniverse.maven.toolbox:toolbox:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.12.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.12.2/pom) | | | |
+| [0.12.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.12.1/pom) | | | |
 | [0.12.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.12.0/pom) | [mvn jdk21](toolbox-0.12.0.buildspec) | [result](toolbox-0.12.0.buildinfo): [11 :white_check_mark: ](toolbox-0.12.0.buildcompare) | | 9.2M |
 | [0.11.6](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.11.6/pom) | [mvn jdk21](toolbox-0.11.6.buildspec) | [result](toolbox-0.11.6.buildinfo): [11 :white_check_mark: ](toolbox-0.11.6.buildcompare) | | 9.2M |
 | [0.11.5](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.11.5/pom) | [mvn jdk21](toolbox-0.11.5.buildspec) | [result](toolbox-0.11.5.buildinfo): [11 :white_check_mark: ](toolbox-0.11.5.buildcompare) | | 9.1M |

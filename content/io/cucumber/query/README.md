@@ -13,6 +13,8 @@ rebuilding **13 releases** of io.cucumber:query:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [14.0.1](https://central.sonatype.com/artifact/io.cucumber/query/14.0.1/pom) | | | |
+| [14.0.0](https://central.sonatype.com/artifact/io.cucumber/query/14.0.0/pom) | | | |
 | [13.6.0](https://central.sonatype.com/artifact/io.cucumber/query/13.6.0/pom) | [mvn jdk11](query-13.6.0.buildspec) | [result](query-13.6.0.buildinfo): [3 :white_check_mark: ](query-13.6.0.buildcompare) | | 47K |
 | [13.5.0](https://central.sonatype.com/artifact/io.cucumber/query/13.5.0/pom) | [mvn jdk11](query-13.5.0.buildspec) | [result](query-13.5.0.buildinfo): [3 :white_check_mark: ](query-13.5.0.buildcompare) | | 47K |
 | [13.4.0](https://central.sonatype.com/artifact/io.cucumber/query/13.4.0/pom) | [mvn jdk11](query-13.4.0.buildspec) | [result](query-13.4.0.buildinfo): [3 :white_check_mark: ](query-13.4.0.buildcompare) | | 47K |

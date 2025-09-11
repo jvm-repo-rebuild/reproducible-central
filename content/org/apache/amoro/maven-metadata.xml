@@ -3,13 +3,14 @@
   <groupId>org.apache.amoro</groupId>
   <artifactId>amoro-parent</artifactId>
   <versioning>
-    <latest>0.8.0-incubating</latest>
-    <release>0.8.0-incubating</release>
+    <latest>0.8.1-incubating</latest>
+    <release>0.8.1-incubating</release>
     <versions>
       <version>0.7.0-incubating</version>
       <version>0.7.1-incubating</version>
       <version>0.8.0-incubating</version>
+      <version>0.8.1-incubating</version>
     </versions>
-    <lastUpdated>20250508080121</lastUpdated>
+    <lastUpdated>20250911080143</lastUpdated>
   </versioning>
 </metadata>

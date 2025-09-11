@@ -3,8 +3,8 @@
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-wrapper-plugin</artifactId>
   <versioning>
-    <latest>3.3.3</latest>
-    <release>3.3.3</release>
+    <latest>3.3.4</latest>
+    <release>3.3.4</release>
     <versions>
       <version>3.0.1</version>
       <version>3.0.2</version>
@@ -15,7 +15,8 @@
       <version>3.3.1</version>
       <version>3.3.2</version>
       <version>3.3.3</version>
+      <version>3.3.4</version>
     </versions>
-    <lastUpdated>20250830121112</lastUpdated>
+    <lastUpdated>20250911160342</lastUpdated>
   </versioning>
 </metadata>
