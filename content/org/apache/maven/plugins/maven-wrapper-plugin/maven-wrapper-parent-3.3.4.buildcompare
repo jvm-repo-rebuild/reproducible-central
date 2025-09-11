@@ -1,0 +1,9 @@
+version=3.3.4
+ok=21
+ko=0
+ignored=0
+okFiles="maven-wrapper-parent-3.3.4.pom maven-wrapper-parent-3.3.4-cyclonedx.xml maven-wrapper-parent-3.3.4-cyclonedx.json maven-wrapper-3.3.4.pom maven-wrapper-3.3.4.jar maven-wrapper-3.3.4-source-release.zip maven-wrapper-3.3.4-sources.jar maven-wrapper-3.3.4-cyclonedx.xml maven-wrapper-3.3.4-cyclonedx.json maven-wrapper-distribution-3.3.4.pom maven-wrapper-distribution-3.3.4-only-script.zip maven-wrapper-distribution-3.3.4-script.zip maven-wrapper-distribution-3.3.4-source.zip maven-wrapper-distribution-3.3.4-bin.zip maven-wrapper-distribution-3.3.4-cyclonedx.xml maven-wrapper-distribution-3.3.4-cyclonedx.json maven-wrapper-plugin-3.3.4.pom maven-wrapper-plugin-3.3.4.jar maven-wrapper-plugin-3.3.4-sources.jar maven-wrapper-plugin-3.3.4-cyclonedx.xml maven-wrapper-plugin-3.3.4-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
