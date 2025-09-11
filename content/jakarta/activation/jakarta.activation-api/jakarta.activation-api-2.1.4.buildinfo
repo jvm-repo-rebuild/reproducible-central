@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jakarta Activation API
+group-id=jakarta.activation
+artifact-id=jakarta.activation-api
+version=2.1.4
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/jakartaee/jaf-api.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.28
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=jakarta.activation
+outputs.0.filename=jakarta.activation-api-2.1.4.pom
+outputs.0.length=18513
+outputs.0.checksums.sha512=440de28173119ddb4f808bd3a103b9dd7f04cdc688d82656869a1fd40d2412fbe89ae7d2866821c481d0aab4ceee17c43fa8840c564f1cff1af8f0b0b25cc171
+
+outputs.1.groupId=jakarta.activation
+outputs.1.filename=jakarta.activation-api-2.1.4.jar
+outputs.1.length=67380
+outputs.1.checksums.sha512=cd078772acb5ebf1f90f7c737f372b7e86a5ce31b995ed759526a9eee73fd89f97e506f9a208ba3b73e757cb78830b829733411cf7989680aea2272abba7323b
+
+outputs.2.groupId=jakarta.activation
+outputs.2.filename=jakarta.activation-api-2.1.4-cyclonedx.xml
+outputs.2.length=2752
+outputs.2.checksums.sha512=c50f599f280b8740397b7aa6e3a516dac97e5575c7d2d1aa58562b8da70a7b99d7a23ef40922fcec62e3f307c41ec44401798d78c5bca5971a7638c666c2a5e3
+
+outputs.3.groupId=jakarta.activation
+outputs.3.filename=jakarta.activation-api-2.1.4-cyclonedx.json
+outputs.3.length=3241
+outputs.3.checksums.sha512=d0891986296fb0f84c0cec7b55a1679b59a527ad58109c6c132e9edef9ab3b613e7acf0d3d2f9a2a47359f55196853c9d3af7a8c7d0c9bfcdec826dd0129f44c
