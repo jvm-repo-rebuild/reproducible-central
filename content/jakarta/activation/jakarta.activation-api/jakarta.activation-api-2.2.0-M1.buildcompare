@@ -1,0 +1,14 @@
+version=2.2.0-M1
+ok=3
+ko=1
+ignored=0
+okFiles="jakarta.activation-api-2.2.0-M1.pom jakarta.activation-api-2.2.0-M1-cyclonedx.xml jakarta.activation-api-2.2.0-M1-cyclonedx.json"
+koFiles="jakarta.activation-api-2.2.0-M1.jar"
+ignoredFiles=""
+# diffoscope target/reference/jakarta.activation/jakarta.activation-api-2.2.0-M1.jar target/jakarta.activation-api-2.2.0-M1.jar
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="jakarta.activation-api-2.2.0-M1.jar"
