@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/cucumber/cucumber-junit-xml-formatter.git](https://github.com/cucumber/cucumber-junit-xml-formatter.git)
 
-rebuilding **11 releases** of io.cucumber:junit-xml-formatter:
-- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **12 releases** of io.cucumber:junit-xml-formatter:
+- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.9.0](https://central.sonatype.com/artifact/io.cucumber/junit-xml-formatter/0.9.0/pom) | | | |
+| [0.9.0](https://central.sonatype.com/artifact/io.cucumber/junit-xml-formatter/0.9.0/pom) | [mvn jdk11](junit-xml-formatter-0.9.0.buildspec) | [result](junit-xml-formatter-0.9.0.buildinfo): [3 :white_check_mark: ](junit-xml-formatter-0.9.0.buildcompare) | | 26K |
 | [0.8.1](https://central.sonatype.com/artifact/io.cucumber/junit-xml-formatter/0.8.1/pom) | [mvn jdk11](junit-xml-formatter-0.8.1.buildspec) | [result](junit-xml-formatter-0.8.1.buildinfo): [3 :white_check_mark: ](junit-xml-formatter-0.8.1.buildcompare) | | 26K |
 | [0.8.0](https://central.sonatype.com/artifact/io.cucumber/junit-xml-formatter/0.8.0/pom) | [mvn jdk11](junit-xml-formatter-0.8.0.buildspec) | [result](junit-xml-formatter-0.8.0.buildinfo): [3 :white_check_mark: ](junit-xml-formatter-0.8.0.buildcompare) | | 26K |
 | [0.7.1](https://central.sonatype.com/artifact/io.cucumber/junit-xml-formatter/0.7.1/pom) | [mvn jdk11](junit-xml-formatter-0.7.1.buildspec) | [result](junit-xml-formatter-0.7.1.buildinfo): [3 :white_check_mark: ](junit-xml-formatter-0.7.1.buildcompare) | | 26K |
