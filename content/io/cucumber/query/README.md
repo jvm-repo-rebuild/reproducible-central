@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/cucumber/query.git](https://github.com/cucumber/query.git)
 
-rebuilding **13 releases** of io.cucumber:query:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **14 releases** of io.cucumber:query:
+- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [14.0.1](https://central.sonatype.com/artifact/io.cucumber/query/14.0.1/pom) | | | |
+| [14.0.1](https://central.sonatype.com/artifact/io.cucumber/query/14.0.1/pom) | [mvn jdk11](query-14.0.1.buildspec) | [result](query-14.0.1.buildinfo): [3 :white_check_mark: ](query-14.0.1.buildcompare) | | 50K |
 | [14.0.0](https://central.sonatype.com/artifact/io.cucumber/query/14.0.0/pom) | | | |
 | [13.6.0](https://central.sonatype.com/artifact/io.cucumber/query/13.6.0/pom) | [mvn jdk11](query-13.6.0.buildspec) | [result](query-13.6.0.buildinfo): [3 :white_check_mark: ](query-13.6.0.buildcompare) | | 47K |
 | [13.5.0](https://central.sonatype.com/artifact/io.cucumber/query/13.5.0/pom) | [mvn jdk11](query-13.5.0.buildspec) | [result](query-13.5.0.buildinfo): [3 :white_check_mark: ](query-13.5.0.buildcompare) | | 47K |
