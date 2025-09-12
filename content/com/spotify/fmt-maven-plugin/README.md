@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/spotify/fmt-maven-plugin.git](https://github.com/spotify/fmt-maven-plugin.git)
 
-rebuilding **9 releases** of com.spotify.fmt:fmt-maven-plugin:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of com.spotify.fmt:fmt-maven-plugin:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.28](https://central.sonatype.com/artifact/com.spotify.fmt/fmt-maven-plugin/2.28/pom) | | | |
+| [2.28](https://central.sonatype.com/artifact/com.spotify.fmt/fmt-maven-plugin/2.28/pom) | [mvn jdk25](fmt-maven-plugin-2.28.buildspec) | [result](fmt-maven-plugin-2.28.buildinfo): [3 :white_check_mark: ](fmt-maven-plugin-2.28.buildcompare) | | 87K |
 | [2.27](https://central.sonatype.com/artifact/com.spotify.fmt/fmt-maven-plugin/2.27/pom) | [mvn jdk21](fmt-maven-plugin-2.27.buildspec) | [result](fmt-maven-plugin-2.27.buildinfo): [3 :white_check_mark: ](fmt-maven-plugin-2.27.buildcompare) | | 86K |
 | [2.25](https://central.sonatype.com/artifact/com.spotify.fmt/fmt-maven-plugin/2.25/pom) | [mvn jdk21](fmt-maven-plugin-2.25.buildspec) | [result](fmt-maven-plugin-2.25.buildinfo): [3 :white_check_mark: ](fmt-maven-plugin-2.25.buildcompare) | | 86K |
 | [2.24](https://central.sonatype.com/artifact/com.spotify.fmt/fmt-maven-plugin/2.24/pom) | [mvn jdk21](fmt-maven-plugin-2.24.buildspec) | [result](fmt-maven-plugin-2.24.buildinfo): [3 :white_check_mark: ](fmt-maven-plugin-2.24.buildcompare) | | 86K |
