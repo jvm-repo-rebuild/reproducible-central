@@ -32,13 +32,13 @@ Source code: [https://github.com/jline/jline3.git](https://github.com/jline/jlin
 * [org.jline:jline-terminal-jni](https://central.sonatype.com/artifact/org.jline/jline-terminal-jni/overview)
 </details>
 
-rebuilding **22 releases** of org.jline:jline:
-- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **23 releases** of org.jline:jline:
+- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.30.6](https://central.sonatype.com/artifact/org.jline/jline/3.30.6/pom) | | | |
+| [3.30.6](https://central.sonatype.com/artifact/org.jline/jline/3.30.6/pom) | [mvn jdk25](jline-3.30.6.buildspec) | [result](jline-parent-3.30.6.buildinfo): [83 :white_check_mark: ](jline-parent-3.30.6.buildcompare) | | 8.1M |
 | [3.30.5](https://central.sonatype.com/artifact/org.jline/jline/3.30.5/pom) | [mvn jdk22](jline-3.30.5.buildspec) | [result](jline-parent-3.30.5.buildinfo): [83 :white_check_mark: ](jline-parent-3.30.5.buildcompare) | | 8.1M |
 | [3.30.4](https://central.sonatype.com/artifact/org.jline/jline/3.30.4/pom) | [mvn jdk22](jline-3.30.4.buildspec) | [result](jline-parent-3.30.4.buildinfo): [83 :white_check_mark: ](jline-parent-3.30.4.buildcompare) | | 7.9M |
 | [3.30.3](https://central.sonatype.com/artifact/org.jline/jline/3.30.3/pom) | [mvn jdk22](jline-3.30.3.buildspec) | [result](jline-parent-3.30.3.buildinfo): [83 :white_check_mark: ](jline-parent-3.30.3.buildcompare) | | 7.9M |
