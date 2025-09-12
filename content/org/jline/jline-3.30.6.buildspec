@@ -6,7 +6,7 @@ version=3.30.6
 gitRepo=https://github.com/jline/jline3.git
 gitTag=${artifactId}-${version}
 
-tool=mvn-3.9.11
+tool=mvn-4.0.0-rc-3
 jdk=25
 newline=lf
 umask=022
