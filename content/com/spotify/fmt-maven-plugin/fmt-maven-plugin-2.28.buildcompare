@@ -1,0 +1,9 @@
+version=2.28
+ok=3
+ko=0
+ignored=0
+okFiles="fmt-maven-plugin-2.28.pom fmt-maven-plugin-2.28.jar fmt-maven-plugin-2.28-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

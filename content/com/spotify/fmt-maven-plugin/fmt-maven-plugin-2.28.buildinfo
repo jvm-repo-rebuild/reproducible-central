@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.spotify.fmt:fmt-maven-plugin
+group-id=com.spotify.fmt
+artifact-id=fmt-maven-plugin
+version=2.28
+
+# source information
+source.scm.uri=scm:git:git@github.com:spotify/fmt-maven-plugin.git
+source.scm.tag=2.28.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25
+java.vendor=Oracle Corporation
+os.name=Mac OS X
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.spotify.fmt
+outputs.0.filename=fmt-maven-plugin-2.28.pom
+outputs.0.length=6560
+outputs.0.checksums.sha512=4422d4d3a1f37d9c41949b22fd0a695821789d1d8a58489ea24a197789b94f403d1b87ba42661cf3166eb691ce89a13733170cbfc98d1ad4d616f538d0679c9b
+
+outputs.1.groupId=com.spotify.fmt
+outputs.1.filename=fmt-maven-plugin-2.28.jar
+outputs.1.length=50210
+outputs.1.checksums.sha512=d93247d603a98e25f53a719412b998cf7ccedfd2e43ad40527cc46b9aa64cb22e38ceee379d93a57c440cf3ec505ae2a1491c10918ccbc7b589f05d460864cff
+
+outputs.2.groupId=com.spotify.fmt
+outputs.2.filename=fmt-maven-plugin-2.28-sources.jar
+outputs.2.length=31934
+outputs.2.checksums.sha512=905e487c688ae15653662fa8bccfd4ea6d2854d8de51fd52b5d512fd519d63f42686e51eb1888c26a2f5d4027ad88a4fe8604d090fc4e61f2e04b24cccf7398f
