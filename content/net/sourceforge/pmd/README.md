@@ -60,13 +60,13 @@ Source code: [https://github.com/pmd/pmd.git](https://github.com/pmd/pmd.git)
 * [net.sourceforge.pmd:pmd-xml](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-xml/overview)
 </details>
 
-rebuilding **53 releases** of net.sourceforge.pmd:pmd:
-- **48** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **54 releases** of net.sourceforge.pmd:pmd:
+- **49** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [7.17.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.17.0/pom) | | | |
+| [7.17.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.17.0/pom) | [mvn jdk11](pmd-7.17.0.buildspec) | [result](pmd-7.17.0.buildinfo): [215 :white_check_mark: ](pmd-7.17.0.buildcompare) | | 19M |
 | [7.16.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.16.0/pom) | [mvn jdk11](pmd-7.16.0.buildspec) | [result](pmd-7.16.0.buildinfo): [215 :white_check_mark: ](pmd-7.16.0.buildcompare) | | 18M |
 | [7.15.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.15.0/pom) | [mvn jdk11](pmd-7.15.0.buildspec) | [result](pmd-7.15.0.buildinfo): [210 :white_check_mark: ](pmd-7.15.0.buildcompare) | | 18M |
 | [7.14.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.14.0/pom) | [mvn jdk11](pmd-7.14.0.buildspec) | [result](pmd-7.14.0.buildinfo): [210 :white_check_mark: ](pmd-7.14.0.buildcompare) | | 18M |
