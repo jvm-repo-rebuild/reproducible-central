@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-resourceresolver.git](https://github.com/apache/sling-org-apache-sling-resourceresolver.git)
 
-rebuilding **18 releases** of org.apache.sling:org.apache.sling.resourceresolver:
-- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **19 releases** of org.apache.sling:org.apache.sling.resourceresolver:
+- **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 1 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.0.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/2.0.2/pom) | | | |
+| [2.0.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/2.0.2/pom) | [mvn jdk17 w](org.apache.sling.resourceresolver-2.0.2.buildspec) | [result](org.apache.sling.resourceresolver-2.0.2.buildinfo): [4 :white_check_mark: ](org.apache.sling.resourceresolver-2.0.2.buildcompare) | | 830K |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/2.0.0/pom) | [mvn jdk17](org.apache.sling.resourceresolver-2.0.0.buildspec) | [result](org.apache.sling.resourceresolver-2.0.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.resourceresolver-2.0.0.buildcompare) | | 822K |
 | [1.12.12](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.12.12/pom) | [mvn jdk17](org.apache.sling.resourceresolver-1.12.12.buildspec) | [result](org.apache.sling.resourceresolver-1.12.12.buildinfo): [4 :white_check_mark: ](org.apache.sling.resourceresolver-1.12.12.buildcompare) | | 827K |
 | [1.12.10](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.12.10/pom) | [mvn jdk17](org.apache.sling.resourceresolver-1.12.10.buildspec) | [result](org.apache.sling.resourceresolver-1.12.10.buildinfo): [1 :white_check_mark:  3 :warning:](org.apache.sling.resourceresolver-1.12.10.buildcompare) | 3 :recycle: | 819K |
