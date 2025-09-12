@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quarkusio/quarkus.git)
 
-<details><summary>This project defines 1075 modules:</summary>
+<details><summary>This project defines 1076 modules:</summary>
 
 * [io.quarkus.arc:arc](https://central.sonatype.com/artifact/io.quarkus.arc/arc/overview)
 * [io.quarkus.arc:arc-arquillian](https://central.sonatype.com/artifact/io.quarkus.arc/arc-arquillian/overview)
@@ -188,6 +188,7 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-datasource-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-datasource-parent/overview)
 * [io.quarkus:quarkus-development-mode-spi](https://central.sonatype.com/artifact/io.quarkus/quarkus-development-mode-spi/overview)
 * [io.quarkus:quarkus-devmode-test-utils](https://central.sonatype.com/artifact/io.quarkus/quarkus-devmode-test-utils/overview)
+* [io.quarkus:quarkus-devservices](https://central.sonatype.com/artifact/io.quarkus/quarkus-devservices/overview)
 * [io.quarkus:quarkus-devservices-common](https://central.sonatype.com/artifact/io.quarkus/quarkus-devservices-common/overview)
 * [io.quarkus:quarkus-devservices-db2](https://central.sonatype.com/artifact/io.quarkus/quarkus-devservices-db2/overview)
 * [io.quarkus:quarkus-devservices-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-devservices-deployment/overview)
@@ -1086,14 +1087,14 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **114 releases** of io.quarkus:quarkus-project:
+rebuilding **115 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 114 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 25, 0 had all their differences removed :recycle:, 25 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 115 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 26, 0 had all their differences removed :recycle:, 26 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.28.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.28.0.CR1/pom) | | | |
+| [3.28.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.28.0.CR1/pom) | [mvn jdk21](quarkus-3.28.0.CR1.buildspec) | [result](quarkus-project-3.28.0.CR1.buildinfo): [2364 :white_check_mark:  1 :warning:](quarkus-project-3.28.0.CR1.buildcompare) | 1 :rotating_light: | 135M |
 | [3.27.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.27.0.CR1/pom) | [mvn jdk21](quarkus-3.27.0.CR1.buildspec) | [result](quarkus-project-3.27.0.CR1.buildinfo): [2361 :white_check_mark:  1 :warning:](quarkus-project-3.27.0.CR1.buildcompare) | 1 :rotating_light: | 135M |
 | [3.26.3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.26.3/pom) | [mvn jdk21](quarkus-3.26.3.buildspec) | [result](quarkus-project-3.26.3.buildinfo): [2361 :white_check_mark:  1 :warning:](quarkus-project-3.26.3.buildcompare) | 1 :rotating_light: | 135M |
 | [3.26.2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.26.2/pom) | [mvn jdk21](quarkus-3.26.2.buildspec) | [result](quarkus-project-3.26.2.buildinfo): [2361 :white_check_mark:  1 :warning:](quarkus-project-3.26.2.buildcompare) | 1 :rotating_light: | 135M |
