@@ -1,0 +1,51 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=airbase-root
+group-id=io.airlift
+artifact-id=airbase-root
+version=299
+
+# source information
+source.scm.uri=scm:git:git@github.com/airlift/airbase.git
+source.scm.tag=299
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+mvn.aggregate.artifact-id=airbase
+
+# aggregated output
+
+outputs.0.coordinates=io.airlift:airbase-root
+
+outputs.0.0.groupId=io.airlift
+outputs.0.0.filename=airbase-root-299.pom
+outputs.0.0.length=7229
+outputs.0.0.checksums.sha512=d6f40bac9aaf5e36f458e22525e256c1c4d3c971424aaa375e55b108f56f782b5a6242ff5cef92f28066f9678ea966be2e4fbccf549c047091fc9c643f1b0691
+
+outputs.1.coordinates=io.airlift:airbase-policy
+
+outputs.1.0.groupId=io.airlift
+outputs.1.0.filename=airbase-policy-299.pom
+outputs.1.0.length=774
+outputs.1.0.checksums.sha512=643060898cd69fed1eb4a3a0aa98b3f48c00748bf394aee86d495bdd9e43aef31c01d814b612b1f02ed2ba5242a03cb25209253d314fc0a18e81b77b0b85053f
+
+outputs.1.1.groupId=io.airlift
+outputs.1.1.filename=airbase-policy-299.jar
+outputs.1.1.length=5320
+outputs.1.1.checksums.sha512=7c66baf21b024814ec31dc465d2483150125f17565d5f9bd01ac1aca3c4a8836ffe1a1374c8fb08ce3a6008f1dd19eb1417397dba5d2cece134a99385ca65cfb
+
+outputs.2.coordinates=io.airlift:airbase
+
+outputs.2.0.groupId=io.airlift
+outputs.2.0.filename=airbase-299.pom
+outputs.2.0.length=90158
+outputs.2.0.checksums.sha512=78ced153b73533942cec5fe6712308dcb52471cbb45f2fa442ef6260d6f3a2313c1558bf8d6eb214a2d3e2c49d8b4d3763d23a4bb3f17cf4e50546bb19522f35
