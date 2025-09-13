@@ -13,6 +13,7 @@ rebuilding **11 releases** of org.apache.maven.plugins:maven-shade-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.6.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-shade-plugin/3.6.1/pom) | | | |
 | [3.6.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-shade-plugin/3.6.0/pom) | [mvn jdk21](maven-shade-plugin-3.6.0.buildspec) | [result](maven-shade-plugin-3.6.0.buildinfo): [6 :white_check_mark: ](maven-shade-plugin-3.6.0.buildcompare) | | 1.4M |
 | [3.5.3](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-shade-plugin/3.5.3/pom) | [mvn jdk17](maven-shade-plugin-3.5.3.buildspec) | [result](maven-shade-plugin-3.5.3.buildinfo): [6 :white_check_mark: ](maven-shade-plugin-3.5.3.buildcompare) | | 1.4M |
 | [3.5.2](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-shade-plugin/3.5.2/pom) | [mvn jdk11](maven-shade-plugin-3.5.2.buildspec) | [result](maven-shade-plugin-3.5.2.buildinfo): [6 :white_check_mark: ](maven-shade-plugin-3.5.2.buildcompare) | | 1.4M |
