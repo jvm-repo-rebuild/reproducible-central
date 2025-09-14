@@ -17,14 +17,14 @@ Source code: [https://github.com/smallrye/jandex.git](https://github.com/smallry
 * [io.smallrye:jandex-test-data](https://central.sonatype.com/artifact/io.smallrye/jandex-test-data/overview)
 </details>
 
-rebuilding **22 releases** of io.smallrye:jandex-parent:
+rebuilding **23 releases** of io.smallrye:jandex-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 22 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 2 had all their differences removed :recycle:
+- 23 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 3 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.5.0](https://central.sonatype.com/artifact/io.smallrye/jandex/3.5.0/pom) | | | |
+| [3.5.0](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.5.0/pom) | [mvn jdk21](jandex-3.5.0.buildspec) | [result](jandex-parent-3.5.0.buildinfo): [13 :white_check_mark:  1 :warning:](jandex-parent-3.5.0.buildcompare) | 1 :recycle: | 824K |
 | [3.4.0](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.4.0/pom) | [mvn jdk21](jandex-3.4.0.buildspec) | [result](jandex-parent-3.4.0.buildinfo): [13 :white_check_mark:  1 :warning:](jandex-parent-3.4.0.buildcompare) | 1 :recycle: | 812K |
 | [3.3.2](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.3.2/pom) | [mvn jdk21](jandex-3.3.2.buildspec) | [result](jandex-parent-3.3.2.buildinfo): [10 :white_check_mark:  1 :warning:](jandex-parent-3.3.2.buildcompare) | 1 :recycle: | 767K |
 | [3.3.1](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.3.1/pom) | [mvn jdk21](jandex-3.3.1.buildspec) | [result](jandex-parent-3.3.1.buildinfo): [10 :white_check_mark:  1 :warning:](jandex-parent-3.3.1.buildcompare) | - | 764K |
