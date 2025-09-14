@@ -17,14 +17,14 @@ Source code: [https://github.com/SAP/ai-sdk-java.git](https://github.com/SAP/ai-
 * [com.sap.ai.sdk:sdk-parent](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/overview)
 </details>
 
-rebuilding **2 releases** of com.sap.ai.sdk:sdk-parent:
+rebuilding **3 releases** of com.sap.ai.sdk:sdk-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.11.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.11.0/pom) | | | |
+| [1.11.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.11.0/pom) | [mvn jdk17](sdk-1.11.0.buildspec) | [result](sdk-parent-1.11.0.buildinfo): [11 :white_check_mark:  5 :warning:](sdk-parent-1.11.0.buildcompare) | 5 :rotating_light: | 4.3M |
 | [1.10.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.10.0/pom) | [mvn jdk17](sdk-1.10.0.buildspec) | [result](sdk-parent-1.10.0.buildinfo): [11 :white_check_mark:  5 :warning:](sdk-parent-1.10.0.buildcompare) | 5 :rotating_light: | 3.9M |
 | [1.9.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.9.0/pom) | | | |
 | [1.8.0](https://central.sonatype.com/artifact/com.sap.ai.sdk/sdk-parent/1.8.0/pom) | | | |
