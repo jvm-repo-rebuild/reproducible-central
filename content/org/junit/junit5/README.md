@@ -31,13 +31,13 @@ Source code: [https://github.com/junit-team/junit5.git](https://github.com/junit
 * [org.junit:junit-bom](https://central.sonatype.com/artifact/org.junit/junit-bom/overview)
 </details>
 
-rebuilding **43 releases** of org.junit:junit-bom:
-- **26** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **44 releases** of org.junit:junit-bom:
+- **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 17 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [6.0.0-RC3](https://central.sonatype.com/artifact/org.junit/junit-bom/6.0.0-RC3/pom) | | | |
+| [6.0.0-RC3](https://central.sonatype.com/artifact/org.junit/junit-bom/6.0.0-RC3/pom) | [gradle jdk24](junit5-6.0.0-RC3.buildspec) | [result](junit-bom-6.0.0-RC3.buildinfo): [49 :white_check_mark: ](junit-bom-6.0.0-RC3.buildcompare) | | 6.5M |
 | [6.0.0-RC2](https://central.sonatype.com/artifact/org.junit/junit-bom/6.0.0-RC2/pom) | [gradle jdk24](junit5-6.0.0-RC2.buildspec) | [result](junit-bom-6.0.0-RC2.buildinfo): [49 :white_check_mark: ](junit-bom-6.0.0-RC2.buildcompare) | | 6.4M |
 | [6.0.0-RC1](https://central.sonatype.com/artifact/org.junit/junit-bom/6.0.0-RC1/pom) | [gradle jdk24](junit5-6.0.0-RC1.buildspec) | [result](junit-bom-6.0.0-RC1.buildinfo): [49 :white_check_mark: ](junit-bom-6.0.0-RC1.buildcompare) | | 6.4M |
 | [6.0.0-M2](https://central.sonatype.com/artifact/org.junit/junit-bom/6.0.0-M2/pom) | [gradle jdk24](junit5-6.0.0-M2.buildspec) | [result](junit-bom-6.0.0-M2.buildinfo): [49 :white_check_mark: ](junit-bom-6.0.0-M2.buildcompare) | | 6.3M |
