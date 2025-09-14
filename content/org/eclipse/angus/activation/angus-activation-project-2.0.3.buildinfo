@@ -1,0 +1,69 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Angus Activation Project
+group-id=org.eclipse.angus
+artifact-id=angus-activation-project
+version=2.0.3
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/eclipse/angus-activation.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.aggregate.artifact-id=angus-activation
+
+# aggregated output
+
+outputs.0.coordinates=org.eclipse.angus:angus-activation-project
+
+outputs.0.0.groupId=org.eclipse.angus
+outputs.0.0.filename=angus-activation-project-2.0.3.pom
+outputs.0.0.length=20882
+outputs.0.0.checksums.sha512=a35ef54600518d3f8792b21ee4d6153557b16f7839b0a975c6eaac244abbbcd53fb8827f3abc2ab02a918b3133d0d75fb5a54f0dac937791b3e37824b03cb1de
+
+outputs.0.1.groupId=org.eclipse.angus
+outputs.0.1.filename=angus-activation-project-2.0.3-cyclonedx.xml
+outputs.0.1.length=16099
+outputs.0.1.checksums.sha512=047a296ba91b8f36db90613b1b764a610d7bf83de274056320841ec1b968d0e6b4667af5ec1851df99f684716c5ee434feff3740823669c2958d3b5d80eed837
+
+outputs.0.2.groupId=org.eclipse.angus
+outputs.0.2.filename=angus-activation-project-2.0.3-cyclonedx.json
+outputs.0.2.length=18818
+outputs.0.2.checksums.sha512=bd37f5ae73010c60f58d5bf740b099b6df1ed4b1c3b1816fe902e8f25212c58fa2c82923366f4fca765d90212b01c5f32b939371120cdc300e1e5d377a683680
+
+outputs.1.coordinates=org.eclipse.angus:angus-activation
+
+outputs.1.0.groupId=org.eclipse.angus
+outputs.1.0.filename=angus-activation-2.0.3.pom
+outputs.1.0.length=3990
+outputs.1.0.checksums.sha512=accf2ebf470c6ced4a87f004056bd7a0861b24c846f8e4bee08b8669fe3fe60b79b8449c072016aa56a0b534b7624ab656cf3dcae291e40bdaf9b57a8678b139
+
+outputs.1.1.groupId=org.eclipse.angus
+outputs.1.1.filename=angus-activation-2.0.3.jar
+outputs.1.1.length=27209
+outputs.1.1.checksums.sha512=4c5ba2bc9a90f192cc3492896a360341d0ad250f7cf6a5b5b68b084cf13ad978b1c641114fa29a03a1d9f34a162b9d5986fd223a9b728a87d8e5bafa0ff360c3
+
+outputs.1.2.groupId=org.eclipse.angus
+outputs.1.2.filename=angus-activation-2.0.3-cyclonedx.xml
+outputs.1.2.length=14773
+outputs.1.2.checksums.sha512=f769f06dfdb7e48250de41945b6a4ba320a67ec0258decaaf8dc79c4608fbf8d63a0b41e47e36b79760304af7154785b2c9f9ef61e072384716c74009d60200c
+
+outputs.1.3.groupId=org.eclipse.angus
+outputs.1.3.filename=angus-activation-2.0.3-cyclonedx.json
+outputs.1.3.length=17388
+outputs.1.3.checksums.sha512=ec0570b66c2615199f0fb32fe88307732f3a03791f382474e76ea71ae740a6f00f8a4a335219be9a508ea2aa59094fdd278d79be4dc9b0ed93845979461b377e
+
+outputs.1.4.groupId=org.eclipse.angus
+outputs.1.4.filename=angus-activation-2.0.3-sources.jar
+outputs.1.4.length=21966
+outputs.1.4.checksums.sha512=360fa393a2516a00fd4f00a21b00b9d894dd47a26c90da33432d4d362ce08e7a401df72ad1d7245ca8b883ae2930365d4f201aa06678e9e53cdebfeae446c849

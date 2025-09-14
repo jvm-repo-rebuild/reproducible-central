@@ -13,14 +13,15 @@ Source code: [https://github.com/eclipse-ee4j/angus-activation.git](https://gith
 * [org.eclipse.angus:angus-activation-project](https://central.sonatype.com/artifact/org.eclipse.angus/angus-activation-project/overview)
 </details>
 
-rebuilding **1 releases** of org.eclipse.angus:angus-activation-project:
+rebuilding **2 releases** of org.eclipse.angus:angus-activation-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [2.1.0-M1](https://central.sonatype.com/artifact/org.eclipse.angus/angus-activation-project/2.1.0-M1/pom) | | | |
-| [2.0.3](https://central.sonatype.com/artifact/org.eclipse.angus/angus-activation-project/2.0.3/pom) | | | |
+| [2.0.3](https://central.sonatype.com/artifact/org.eclipse.angus/angus-activation-project/2.0.3/pom) | [mvn jdk21](angus-activation-2.0.3.buildspec) | [result](angus-activation-project-2.0.3.buildinfo): [7 :white_check_mark:  1 :warning:](angus-activation-project-2.0.3.buildcompare) | 1 :rotating_light: | 138K |
 | [2.0.2](https://central.sonatype.com/artifact/org.eclipse.angus/angus-activation-project/2.0.2/pom) | [mvn jdk21](angus-activation-2.0.2.buildspec) | [result](angus-activation-project-2.0.2.buildinfo): [7 :white_check_mark:  1 :warning:](angus-activation-project-2.0.2.buildcompare) | - | 139K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
