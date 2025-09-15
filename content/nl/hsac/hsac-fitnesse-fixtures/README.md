@@ -13,6 +13,7 @@ rebuilding **106 releases** of nl.hsac:hsac-fitnesse-fixtures:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [5.3.22](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.3.22/pom) | | | |
 | [5.3.21](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.3.21/pom) | [mvn jdk11](hsac-fitnesse-fixtures-5.3.21.buildspec) | [result](hsac-fitnesse-fixtures-5.3.21.buildinfo): [5 :white_check_mark: ](hsac-fitnesse-fixtures-5.3.21.buildcompare) | | 142M |
 | [5.3.20](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.3.20/pom) | [mvn jdk11](hsac-fitnesse-fixtures-5.3.20.buildspec) | [result](hsac-fitnesse-fixtures-5.3.20.buildinfo): [5 :white_check_mark: ](hsac-fitnesse-fixtures-5.3.20.buildcompare) | | 143M |
 | [5.3.19](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.3.19/pom) | [mvn jdk11](hsac-fitnesse-fixtures-5.3.19.buildspec) | [result](hsac-fitnesse-fixtures-5.3.19.buildinfo): [5 :white_check_mark: ](hsac-fitnesse-fixtures-5.3.19.buildcompare) | | 142M |

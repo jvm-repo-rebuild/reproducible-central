@@ -25,6 +25,7 @@ rebuilding **21 releases** of org.infinispan.protostream:protostream-aggregator:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [6.0.0.Dev13](https://central.sonatype.com/artifact/org.infinispan.protostream/parent/6.0.0.Dev13/pom) | | | |
 | [6.0.0.Dev12](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev12/pom) | [mvn jdk17](protostream-6.0.0.Dev12.buildspec) | [result](protostream-aggregator-6.0.0.Dev12.buildinfo): [26 :white_check_mark: ](protostream-aggregator-6.0.0.Dev12.buildcompare) | | 2.0M |
 | [6.0.0.Dev11](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev11/pom) | [mvn jdk17](protostream-6.0.0.Dev11.buildspec) | [result](protostream-aggregator-6.0.0.Dev11.buildinfo): [26 :white_check_mark: ](protostream-aggregator-6.0.0.Dev11.buildcompare) | | 2.0M |
 | [6.0.0.Dev10](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev10/pom) | [mvn jdk17](protostream-6.0.0.Dev10.buildspec) | [result](protostream-aggregator-6.0.0.Dev10.buildinfo): [26 :white_check_mark: ](protostream-aggregator-6.0.0.Dev10.buildcompare) | | 2.0M |

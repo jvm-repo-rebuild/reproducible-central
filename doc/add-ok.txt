@@ -1,6 +1,8 @@
 content/com/google/code/gson/gson-2.13.1.buildspec:2.13.2
-content/io/cucumber/cucumber-json-formatter/cucumber-json-formatter-0.2.0.buildspec:0.2.1
+content/eu/maveniverse/maven/toolbox/toolbox-0.12.2.buildspec:0.12.3
+content/io/airlift/airbase/airbase-299.buildspec:300
+content/io/cucumber/query/query-14.0.1.buildspec:14.1.0
 content/jakarta/activation/jakarta.activation-api/jakarta.activation-api-2.1.4.buildspec:2.2.0-M1
+content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.3.21.buildspec:5.3.22
 content/org/apache/maven/surefire/surefire-3.5.3.buildspec:3.5.4
-content/org/hibernate/orm/hibernate-core/hibernate-core-7.1.0.Final.buildspec:7.1.1.Final
-content/org/junit/junit5/junit5-6.0.0-RC2.buildspec:6.0.0-RC3
+content/org/infinispan/protostream/protostream-6.0.0.Dev12.buildspec:6.0.0.Dev13

@@ -443,6 +443,7 @@ rebuilding **47 releases** of io.opentelemetry.instrumentation:opentelemetry-ins
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.20.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.20.0/pom) | | | |
 | [2.19.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.19.0/pom) | [gradle jdk21](opentelemetry-2.19.0.buildspec) | [result](opentelemetry-instrumentation-api-2.19.0.buildinfo): [1135 :white_check_mark:  1 :warning:](opentelemetry-instrumentation-api-2.19.0.buildcompare) | 1 :no_entry_sign: | 94M |
 | [2.18.1](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.18.1/pom) | [gradle jdk21](opentelemetry-2.18.1.buildspec) | [result](opentelemetry-instrumentation-api-2.18.1.buildinfo): [1135 :white_check_mark:  1 :warning:](opentelemetry-instrumentation-api-2.18.1.buildcompare) | 1 :no_entry_sign: | 93M |
 | [2.18.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.18.0/pom) | [gradle jdk21](opentelemetry-2.18.0.buildspec) | [result](opentelemetry-instrumentation-api-2.18.0.buildinfo): [1135 :white_check_mark:  1 :warning:](opentelemetry-instrumentation-api-2.18.0.buildcompare) | 1 :no_entry_sign: | 93M |
