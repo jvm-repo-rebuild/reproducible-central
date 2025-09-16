@@ -1,0 +1,60 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Skin
+group-id=org.apache.commons
+artifact-id=commons-skin
+version=5.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-skin
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-skin-5.1.0.pom
+outputs.0.length=4184
+outputs.0.checksums.sha512=57502bfd6421c0599ae3d80a1e87dee747d08a90a9ce4daba89f0a4bafb604867b7f2b2ed30fc57eb7d191fbc69d38360815f0afd35795f595ecb562e167b293
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-skin-5.1.0.jar
+outputs.1.length=152033
+outputs.1.checksums.sha512=6e4ae19f62be98c0e5ef22855ec6eddb7c0352d279b2e89f126f856a8a86c259f8e0d120edb9777ac5e7a25ccd4105506a8dc6e17e1c10ad96bbbe3dd079de25
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-skin-5.1.0-tests.jar
+outputs.2.length=8025
+outputs.2.checksums.sha512=18063bb0ccbe4a559fb90557ef65dcc4a0928ea184a1de354a4c3ad3281f2d50822187efb9534d497dc113fafb13103b77aa12ac066387a7ee73c2311ae70304
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-skin-5.1.0-sources.jar
+outputs.3.length=151137
+outputs.3.checksums.sha512=ddf7ed582de43b6ad8c8022f7335d4ac2e1cfd73d7fdd654e866e91f262e97a8f1b202cb3f46c2e4cc2443c0fc3b90731ca5d4811f3b598aa154e8146c84fa32
+
+outputs.4.groupId=org.apache.commons
+outputs.4.filename=commons-skin-5.1.0-test-sources.jar
+outputs.4.length=7129
+outputs.4.checksums.sha512=a01598bada7e77774f88f38e3c466bd96d30d1355b3e79160d955343536a1f9995df27a380688e7d8c9d5735136fd996dc484f3229ee0bcd68f433cf544eccfb
+
+outputs.5.groupId=org.apache.commons
+outputs.5.filename=commons-skin-5.1.0-cyclonedx.xml
+outputs.5.length=3427
+outputs.5.checksums.sha512=706d054b5649ca5c03783fef9df5b206a2937d280ecffb4156914bbbe5218cfed7ca616b7ce1f1c8f9485908bd6f9ece8e00905a33af6554c955711fd15758fb
+
+outputs.6.groupId=org.apache.commons
+outputs.6.filename=commons-skin-5.1.0-cyclonedx.json
+outputs.6.length=3771
+outputs.6.checksums.sha512=c609e0cd73fe070bb81b7ae7232c82686ad0ad61deea5d8b9c42f91052986c17adf41c2baf8c6453c4006c17796c5e2eefe195b03c34b6df4f9786d5a9ab2672
+# ignored commons-skin-5.1.0.spdx.json
