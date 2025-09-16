@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.commons:commons-skin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [5.1.0](https://central.sonatype.com/artifact/org.apache.commons/commons-skin/5.1.0/pom) | | | |
 | [5.0.0](https://central.sonatype.com/artifact/org.apache.commons/commons-skin/5.0.0/pom) | [mvn jdk17](commons-skin-5.0.0.buildspec) | [result](commons-skin-5.0.0.buildinfo): [7 :white_check_mark: ](commons-skin-5.0.0.buildcompare) | | 366K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

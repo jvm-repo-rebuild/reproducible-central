@@ -55,6 +55,7 @@ rebuilding **70 releases** of io.dropwizard.metrics:metrics-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.2.37](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.37/pom) | | | |
 | [4.2.36](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.36/pom) | [mvn jdk17](dropwizard-metrics-4.2.36.buildspec) | [result](metrics-parent-4.2.36.buildinfo): [110 :white_check_mark: ](metrics-parent-4.2.36.buildcompare) | | 1.2M |
 | [4.2.35](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.35/pom) | [mvn jdk17](dropwizard-metrics-4.2.35.buildspec) | [result](metrics-parent-4.2.35.buildinfo): [110 :white_check_mark: ](metrics-parent-4.2.35.buildcompare) | | 1.2M |
 | [4.2.34](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.34/pom) | [mvn jdk17](dropwizard-metrics-4.2.34.buildspec) | [result](metrics-parent-4.2.34.buildinfo): [110 :white_check_mark: ](metrics-parent-4.2.34.buildcompare) | | 1.2M |
