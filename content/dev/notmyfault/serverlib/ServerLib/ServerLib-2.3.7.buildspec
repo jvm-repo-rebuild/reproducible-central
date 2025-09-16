@@ -22,3 +22,4 @@ buildinfo=${artifactId}-${version}.buildinfo
 # if the release is finally not reproducible, link to an issue tracker entry if one was created or diffoscope result
 #diffoscope=${artifactId}-${version}.diffoscope
 issue=
+
