@@ -1,0 +1,16 @@
+version=1.0.10
+ok=8
+ko=1
+ignored=0
+okFiles="ratis-thirdparty-1.0.10-cyclonedx.xml ratis-thirdparty-1.0.10-cyclonedx.json ratis-thirdparty-misc-1.0.10.pom ratis-thirdparty-misc-1.0.10.jar ratis-thirdparty-misc-1.0.10-sources.jar ratis-thirdparty-misc-1.0.10-test-sources.jar ratis-thirdparty-misc-1.0.10-cyclonedx.xml ratis-thirdparty-misc-1.0.10-cyclonedx.json"
+koFiles="ratis-thirdparty-1.0.10.pom"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.ratis/ratis-thirdparty-1.0.10.pom pom.xml
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="ratis-thirdparty-1.0.10.pom"
