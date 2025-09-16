@@ -90,13 +90,13 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-zhipu-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-zhipu-ai/overview)
 </details>
 
-rebuilding **27 releases** of dev.langchain4j:langchain4j:
-- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **28 releases** of dev.langchain4j:langchain4j:
+- **22** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.5.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.5.0/pom) | | | |
+| [1.5.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.5.0/pom) | [mvn jdk21](langchain4j-1.5.0.buildspec) | [result](langchain4j-aggregator-1.5.0.buildinfo): [220 :white_check_mark: ](langchain4j-aggregator-1.5.0.buildcompare) | | 6.2M |
 | [1.4.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.4.0/pom) | [mvn jdk21](langchain4j-1.4.0.buildspec) | [result](langchain4j-aggregator-1.4.0.buildinfo): [220 :white_check_mark: ](langchain4j-aggregator-1.4.0.buildcompare) | | 6.1M |
 | [1.3.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.3.0/pom) | [mvn jdk21](langchain4j-1.3.0.buildspec) | [result](langchain4j-aggregator-1.3.0.buildinfo): [217 :white_check_mark: ](langchain4j-aggregator-1.3.0.buildcompare) | | 5.8M |
 | [1.2.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.2.0/pom) | [mvn jdk21](langchain4j-1.2.0.buildspec) | [result](langchain4j-aggregator-1.2.0.buildinfo): [211 :white_check_mark: ](langchain4j-aggregator-1.2.0.buildcompare) | | 5.6M |
