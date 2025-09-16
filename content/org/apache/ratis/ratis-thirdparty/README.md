@@ -13,13 +13,14 @@ Source code: [https://github.com/apache/ratis-thirdparty.git](https://github.com
 * [org.apache.ratis:ratis-thirdparty-misc](https://central.sonatype.com/artifact/org.apache.ratis/ratis-thirdparty-misc/overview)
 </details>
 
-rebuilding **3 releases** of org.apache.ratis:ratis-thirdparty:
+rebuilding **4 releases** of org.apache.ratis:ratis-thirdparty:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.0.10](https://central.sonatype.com/artifact/org.apache.ratis/ratis-thirdparty/1.0.10/pom) | | | |
+| [1.0.10](https://central.sonatype.com/artifact/org.apache.ratis/ratis-thirdparty/1.0.10/pom) | [mvn jdk17](ratis-thirdparty-1.0.10.buildspec) | [result](ratis-thirdparty-1.0.10.buildinfo): [8 :white_check_mark:  1 :warning:](ratis-thirdparty-1.0.10.buildcompare) | 1 :no_entry_sign: | 41M |
 | [1.0.9](https://central.sonatype.com/artifact/org.apache.ratis/ratis-thirdparty/1.0.9/pom) | [mvn jdk8](ratis-thirdparty-1.0.9.buildspec) | [result](ratis-thirdparty-1.0.9.buildinfo): [5 :white_check_mark:  4 :warning:](ratis-thirdparty-1.0.9.buildcompare) | - | 40M |
 | [1.0.8](https://central.sonatype.com/artifact/org.apache.ratis/ratis-thirdparty/1.0.8/pom) | [mvn jdk8](ratis-thirdparty-1.0.8.buildspec) | [result](ratis-thirdparty-1.0.8.buildinfo): [9 :white_check_mark: ](ratis-thirdparty-1.0.8.buildcompare) | | 40M |
 | [1.0.7](https://central.sonatype.com/artifact/org.apache.ratis/ratis-thirdparty/1.0.7/pom) | [mvn jdk8](ratis-thirdparty-1.0.7.buildspec) | [result](ratis-thirdparty-1.0.7.buildinfo): [9 :white_check_mark: ](ratis-thirdparty-1.0.7.buildcompare) | | 39M |
