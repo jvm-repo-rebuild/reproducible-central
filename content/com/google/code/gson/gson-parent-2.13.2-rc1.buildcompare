@@ -1,0 +1,9 @@
+version=2.13.2-rc1
+ok=10
+ko=0
+ignored=0
+okFiles="gson-parent-2.13.2-rc1.pom gson-2.13.2-rc1.pom gson-2.13.2-rc1.jar gson-2.13.2-rc1-sources.jar gson-extras-2.13.2-rc1.pom gson-extras-2.13.2-rc1.jar gson-extras-2.13.2-rc1-sources.jar proto-2.13.2-rc1.pom proto-2.13.2-rc1.jar proto-2.13.2-rc1-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
