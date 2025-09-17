@@ -22,6 +22,7 @@ rebuilding **2 releases** of org.apache.commons:commons-statistics-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.2](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-parent/1.2/pom) | | | |
 | [1.1](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-parent/1.1/pom) | [mvn jdk11](commons-statistics-1.1.buildspec) | [result](commons-statistics-parent-1.1.buildinfo): [32 :white_check_mark: ](commons-statistics-parent-1.1.buildcompare) | | 3.5M |
 | [1.0](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-parent/1.0/pom) | [mvn jdk8](commons-statistics-1.0.buildspec) | [result](commons-statistics-parent-1.0.buildinfo): [5 :white_check_mark:  2 :warning:](commons-statistics-parent-1.0.buildcompare) [:mag:](commons-statistics-parent-1.0.diffoscope) [:memo:](https://github.com/apache/commons-statistics/pull/42) | - | 1.8M |
 

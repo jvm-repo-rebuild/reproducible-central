@@ -114,6 +114,7 @@
       <version>4.4.2.Final</version>
       <version>4.4.3.Final</version>
       <version>4.4.4.Final</version>
+      <version>4.4.5.Final</version>
       <version>4.5.0.CR1</version>
       <version>4.5.0.Final</version>
       <version>4.5.0.Dev01</version>
@@ -164,6 +165,6 @@
       <version>14.0.0.CR2</version>
       <version>15.0.13.Final</version>
     </versions>
-    <lastUpdated>20250915140933</lastUpdated>
+    <lastUpdated>20250917135400</lastUpdated>
   </versioning>
 </metadata>
