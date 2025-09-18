@@ -1,0 +1,9 @@
+version=1.2
+ok=39
+ko=0
+ignored=0
+okFiles="commons-statistics-parent-1.2.pom commons-statistics-parent-1.2-cyclonedx.xml commons-statistics-parent-1.2-cyclonedx.json commons-statistics-parent-1.2-site.xml commons-statistics-distribution-1.2.pom commons-statistics-distribution-1.2.jar commons-statistics-distribution-1.2-tests.jar commons-statistics-distribution-1.2-sources.jar commons-statistics-distribution-1.2-test-sources.jar commons-statistics-distribution-1.2-cyclonedx.xml commons-statistics-distribution-1.2-cyclonedx.json commons-statistics-descriptive-1.2.pom commons-statistics-descriptive-1.2.jar commons-statistics-descriptive-1.2-tests.jar commons-statistics-descriptive-1.2-sources.jar commons-statistics-descriptive-1.2-test-sources.jar commons-statistics-descriptive-1.2-cyclonedx.xml commons-statistics-descriptive-1.2-cyclonedx.json commons-statistics-ranking-1.2.pom commons-statistics-ranking-1.2.jar commons-statistics-ranking-1.2-tests.jar commons-statistics-ranking-1.2-sources.jar commons-statistics-ranking-1.2-test-sources.jar commons-statistics-ranking-1.2-cyclonedx.xml commons-statistics-ranking-1.2-cyclonedx.json commons-statistics-inference-1.2.pom commons-statistics-inference-1.2.jar commons-statistics-inference-1.2-tests.jar commons-statistics-inference-1.2-sources.jar commons-statistics-inference-1.2-test-sources.jar commons-statistics-inference-1.2-cyclonedx.xml commons-statistics-inference-1.2-cyclonedx.json commons-statistics-interval-1.2.pom commons-statistics-interval-1.2.jar commons-statistics-interval-1.2-tests.jar commons-statistics-interval-1.2-sources.jar commons-statistics-interval-1.2-test-sources.jar commons-statistics-interval-1.2-cyclonedx.xml commons-statistics-interval-1.2-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
