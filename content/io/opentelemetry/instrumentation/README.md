@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentation.git](https://github.com/open-telemetry/opentelemetry-java-instrumentation.git)
 
-<details><summary>This project defines 425 modules:</summary>
+<details><summary>This project defines 431 modules:</summary>
 
 * [io.opentelemetry.instrumentation:opentelemetry-alibaba-druid-1.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-alibaba-druid-1.0/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-apache-dbcp-2.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-apache-dbcp-2.0/overview)
@@ -17,12 +17,15 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentati
 * [io.opentelemetry.instrumentation:opentelemetry-armeria-1.3](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-armeria-1.3/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-aws-lambda-core-1.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-aws-lambda-core-1.0/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-aws-lambda-events-2.2](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-aws-lambda-events-2.2/overview)
+* [io.opentelemetry.instrumentation:opentelemetry-aws-lambda-events-3.11](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-aws-lambda-events-3.11/overview)
+* [io.opentelemetry.instrumentation:opentelemetry-aws-lambda-events-common-2.2](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-aws-lambda-events-common-2.2/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-aws-sdk-1.11](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-aws-sdk-1.11/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-aws-sdk-1.11-autoconfigure](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-aws-sdk-1.11-autoconfigure/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-aws-sdk-2.2](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-aws-sdk-2.2/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-aws-sdk-2.2-autoconfigure](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-aws-sdk-2.2-autoconfigure/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-c3p0-0.9](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-c3p0-0.9/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-cassandra-4.4](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-cassandra-4.4/overview)
+* [io.opentelemetry.instrumentation:opentelemetry-declarative-config-bridge](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-declarative-config-bridge/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-elasticsearch-rest-7.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-elasticsearch-rest-7.0/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-elasticsearch-rest-common](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-elasticsearch-rest-common/overview)
 * [io.opentelemetry.instrumentation:opentelemetry-elasticsearch-rest-common-5.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-elasticsearch-rest-common-5.0/overview)
@@ -147,6 +150,9 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentati
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-cassandra-4.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-cassandra-4.0/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-cassandra-4.4](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-cassandra-4.4/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-clickhouse-client-0.5](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-clickhouse-client-0.5/overview)
+* [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-clickhouse-client-common](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-clickhouse-client-common/overview)
+* [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-clickhouse-client-v1-0.5](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-clickhouse-client-v1-0.5/overview)
+* [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-clickhouse-client-v2-0.8](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-clickhouse-client-v2-0.8/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-couchbase-2-common](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-couchbase-2-common/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-couchbase-2.0](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-couchbase-2.0/overview)
 * [io.opentelemetry.javaagent.instrumentation:opentelemetry-javaagent-couchbase-2.6](https://central.sonatype.com/artifact/io.opentelemetry.javaagent.instrumentation/opentelemetry-javaagent-couchbase-2.6/overview)
@@ -436,14 +442,14 @@ Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentati
 * [io.opentelemetry.javaagent:opentelemetry-testing-common](https://central.sonatype.com/artifact/io.opentelemetry.javaagent/opentelemetry-testing-common/overview)
 </details>
 
-rebuilding **47 releases** of io.opentelemetry.instrumentation:opentelemetry-instrumentation-api:
+rebuilding **48 releases** of io.opentelemetry.instrumentation:opentelemetry-instrumentation-api:
 - **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 29 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 5, 0 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 30 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 6, 0 had all their differences removed :recycle:, 6 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.20.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.20.0/pom) | | | |
+| [2.20.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.20.0/pom) | [gradle jdk21](opentelemetry-2.20.0.buildspec) | [result](opentelemetry-instrumentation-api-2.20.0.buildinfo): [1150 :white_check_mark:  1 :warning:](opentelemetry-instrumentation-api-2.20.0.buildcompare) | 1 :no_entry_sign: | 94M |
 | [2.19.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.19.0/pom) | [gradle jdk21](opentelemetry-2.19.0.buildspec) | [result](opentelemetry-instrumentation-api-2.19.0.buildinfo): [1135 :white_check_mark:  1 :warning:](opentelemetry-instrumentation-api-2.19.0.buildcompare) | 1 :no_entry_sign: | 94M |
 | [2.18.1](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.18.1/pom) | [gradle jdk21](opentelemetry-2.18.1.buildspec) | [result](opentelemetry-instrumentation-api-2.18.1.buildinfo): [1135 :white_check_mark:  1 :warning:](opentelemetry-instrumentation-api-2.18.1.buildcompare) | 1 :no_entry_sign: | 93M |
 | [2.18.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/2.18.0/pom) | [gradle jdk21](opentelemetry-2.18.0.buildspec) | [result](opentelemetry-instrumentation-api-2.18.0.buildinfo): [1135 :white_check_mark:  1 :warning:](opentelemetry-instrumentation-api-2.18.0.buildcompare) | 1 :no_entry_sign: | 93M |
