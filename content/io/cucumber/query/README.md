@@ -7,8 +7,8 @@
 
 Source code: [https://github.com/cucumber/query.git](https://github.com/cucumber/query.git)
 
-rebuilding **17 releases** of io.cucumber:query:
-- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **18 releases** of io.cucumber:query:
+- **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
@@ -17,7 +17,7 @@ rebuilding **17 releases** of io.cucumber:query:
 | [14.2.3](https://central.sonatype.com/artifact/io.cucumber/query/14.2.3/pom) | | | |
 | [14.2.2](https://central.sonatype.com/artifact/io.cucumber/query/14.2.2/pom) | | | |
 | [14.2.1](https://central.sonatype.com/artifact/io.cucumber/query/14.2.1/pom) | | | |
-| [14.2.0](https://central.sonatype.com/artifact/io.cucumber/query/14.2.0/pom) | | | |
+| [14.2.0](https://central.sonatype.com/artifact/io.cucumber/query/14.2.0/pom) | [mvn jdk11](query-14.2.0.buildspec) | [result](query-14.2.0.buildinfo): [3 :white_check_mark: ](query-14.2.0.buildcompare) | | 51K |
 | [14.1.0](https://central.sonatype.com/artifact/io.cucumber/query/14.1.0/pom) | [mvn jdk11](query-14.1.0.buildspec) | [result](query-14.1.0.buildinfo): [3 :white_check_mark: ](query-14.1.0.buildcompare) | | 50K |
 | [14.0.1](https://central.sonatype.com/artifact/io.cucumber/query/14.0.1/pom) | [mvn jdk11](query-14.0.1.buildspec) | [result](query-14.0.1.buildinfo): [3 :white_check_mark: ](query-14.0.1.buildcompare) | | 50K |
 | [14.0.0](https://central.sonatype.com/artifact/io.cucumber/query/14.0.0/pom) | [mvn jdk11](query-14.0.0.buildspec) | [result](query-14.0.0.buildinfo): [3 :white_check_mark: ](query-14.0.0.buildcompare) | | 49K |
