@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/webjars/font-awesome.git](https://github.com/webjars/font-awesome.git)
 
-rebuilding **11 releases** of org.webjars:font-awesome:
-- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **12 releases** of org.webjars:font-awesome:
+- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [7.0.1](https://central.sonatype.com/artifact/org.webjars/font-awesome/7.0.1/pom) | | | |
+| [7.0.1](https://central.sonatype.com/artifact/org.webjars/font-awesome/7.0.1/pom) | [mvn jdk21](font-awesome-7.0.1.buildspec) | [result](font-awesome-7.0.1.buildinfo): [2 :white_check_mark: ](font-awesome-7.0.1.buildcompare) | | 9.3M |
 | [7.0.0](https://central.sonatype.com/artifact/org.webjars/font-awesome/7.0.0/pom) | [mvn jdk21](font-awesome-7.0.0.buildspec) | [result](font-awesome-7.0.0.buildinfo): [2 :white_check_mark: ](font-awesome-7.0.0.buildcompare) | | 9.3M |
 | [6.7.2](https://central.sonatype.com/artifact/org.webjars/font-awesome/6.7.2/pom) | [mvn jdk21](font-awesome-6.7.2.buildspec) | [result](font-awesome-6.7.2.buildinfo): [2 :white_check_mark: ](font-awesome-6.7.2.buildcompare) | | 6.5M |
 | [6.7.1](https://central.sonatype.com/artifact/org.webjars/font-awesome/6.7.1/pom) | [mvn jdk21](font-awesome-6.7.1.buildspec) | [result](font-awesome-6.7.1.buildinfo): [2 :white_check_mark: ](font-awesome-6.7.1.buildcompare) | | 6.6M |
