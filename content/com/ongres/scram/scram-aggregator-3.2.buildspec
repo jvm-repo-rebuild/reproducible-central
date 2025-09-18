@@ -1,0 +1,21 @@
+# Central Repository coordinates for the Reference release
+groupId=com.ongres.scram
+artifactId=scram-aggregator
+version=3.2
+
+display=com.ongres:scram
+
+# Source code
+gitRepo=https://github.com/ongres/scram.git
+gitTag=${version}
+
+# Rebuild environment prerequisites
+tool=mvn-3.9.11
+jdk=21
+newline=lf
+
+# Rebuild command
+command="mvn clean package -P release -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+# Location of the buildinfo file generated during rebuild (by artifact:compare for Maven) to record output fingerprints
+buildinfo=target/${artifactId}-${version}.buildinfo
