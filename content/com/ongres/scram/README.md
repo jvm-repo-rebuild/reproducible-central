@@ -15,13 +15,13 @@ Source code: [https://github.com/ongres/scram.git](https://github.com/ongres/scr
 * [com.ongres.scram:scram-parent](https://central.sonatype.com/artifact/com.ongres.scram/scram-parent/overview)
 </details>
 
-rebuilding **1 releases** of com.ongres.scram:scram-aggregator:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of com.ongres.scram:scram-aggregator:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.2](https://central.sonatype.com/artifact/com.ongres.scram/scram-aggregator/3.2/pom) | | | |
+| [3.2](https://central.sonatype.com/artifact/com.ongres.scram/scram-aggregator/3.2/pom) | [mvn jdk21](scram-aggregator-3.2.buildspec) | [result](scram-aggregator-3.2.buildinfo): [8 :white_check_mark: ](scram-aggregator-3.2.buildcompare) | | 149K |
 | [3.1](https://central.sonatype.com/artifact/com.ongres.scram/scram-aggregator/3.1/pom) | [mvn jdk21](scram-aggregator-3.1.buildspec) | [result](scram-aggregator-3.1.buildinfo): [16 :white_check_mark: ](scram-aggregator-3.1.buildcompare) | | 212K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
