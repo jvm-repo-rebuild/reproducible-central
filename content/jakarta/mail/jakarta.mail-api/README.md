@@ -14,6 +14,7 @@ rebuilding **2 releases** of jakarta.mail:jakarta.mail-api:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.2.0-M1](https://central.sonatype.com/artifact/jakarta.mail/jakarta.mail-api/2.2.0-M1/pom) | | | |
 | [2.1.4](https://central.sonatype.com/artifact/jakarta.mail/jakarta.mail-api/2.1.4/pom) | [mvn jdk11](jakarta.mail-api-2.1.4.buildspec) | [result](jakarta.mail-api-2.1.4.buildinfo): [3 :white_check_mark:  1 :warning:](jakarta.mail-api-2.1.4.buildcompare) | 1 :no_entry_sign: | 266K |
 | [2.1.3](https://central.sonatype.com/artifact/jakarta.mail/jakarta.mail-api/2.1.3/pom) | [mvn jdk11](jakarta.mail-api-2.1.3.buildspec) | [result](jakarta.mail-api-2.1.3.buildinfo): [3 :white_check_mark:  1 :warning:](jakarta.mail-api-2.1.3.buildcompare) [:mag:](jakarta.mail-api-2.1.3.diffoscope) | - | 264K |
 

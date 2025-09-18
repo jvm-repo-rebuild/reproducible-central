@@ -31,6 +31,7 @@ rebuilding **6 releases** of org.apache.zookeeper:parent:
 | [3.9.2](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.2/pom) | [mvn jdk11](zookeeper-3.9.2.buildspec) | [result](parent-3.9.2.buildinfo): [19 :white_check_mark:  5 :warning:](parent-3.9.2.buildcompare) [:mag:](parent-3.9.2.diffoscope) | - | 17M |
 | [3.9.1](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.1/pom) | [mvn jdk11](zookeeper-3.9.1.buildspec) | [result](parent-3.9.1.buildinfo): [17 :white_check_mark:  7 :warning:](parent-3.9.1.buildcompare) [:memo:](https://github.com/apache/zookeeper/pull/2042) | - | 17M |
 | [3.9.0](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.9.0/pom) | [mvn jdk11](zookeeper-3.9.0.buildspec) | [result](parent-3.9.0.buildinfo): [17 :white_check_mark:  7 :warning:](parent-3.9.0.buildcompare) [:mag:](parent-3.9.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/ZOOKEEPER-4732) | - | 17M |
+| [3.8.5](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.8.5/pom) | | | |
 | [3.8.4](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.8.4/pom) | | | |
 | [3.8.3](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.8.3/pom) | | | |
 | [3.8.2](https://central.sonatype.com/artifact/org.apache.zookeeper/parent/3.8.2/pom) | | | |

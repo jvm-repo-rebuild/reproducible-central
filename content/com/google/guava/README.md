@@ -22,6 +22,8 @@ rebuilding **42 releases** of com.google.guava:guava:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [33.5.0-jre](https://central.sonatype.com/artifact/com.google.guava/guava/33.5.0-jre/pom) | | | |
+| [33.5.0-android](https://central.sonatype.com/artifact/com.google.guava/guava/33.5.0-android/pom) | | | |
 | [33.4.8-jre](https://central.sonatype.com/artifact/com.google.guava/guava/33.4.8-jre/pom) | [mvn jdk11](guava-33.4.8-jre.buildspec) | [result](guava-parent-33.4.8-jre.buildinfo): [14 :white_check_mark: ](guava-parent-33.4.8-jre.buildcompare) | | 8.9M |
 | [33.4.8-android](https://central.sonatype.com/artifact/com.google.guava/guava/33.4.8-android/pom) | [mvn jdk11](guava-33.4.8-android.buildspec) | [result](guava-parent-33.4.8-android.buildinfo): [11 :white_check_mark: ](guava-parent-33.4.8-android.buildcompare) | | 6.3M |
 | [33.4.7-jre](https://central.sonatype.com/artifact/com.google.guava/guava/33.4.7-jre/pom) | [mvn jdk11](guava-33.4.7-jre.buildspec) | [result](guava-parent-33.4.7-jre.buildinfo): [14 :white_check_mark: ](guava-parent-33.4.7-jre.buildcompare) | | 8.9M |
