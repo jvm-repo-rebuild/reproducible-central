@@ -1,0 +1,18 @@
+groupId=org.apache.commons
+artifactId=commons-statistics-parent
+display=${groupId}:commons-statistics
+version=1.2
+
+gitRepo=https://github.com/apache/commons-statistics.git
+gitTag=rel/commons-statistics-${version}
+
+tool=mvn
+jdk=11
+newline=lf
+timezone="Etc/GMT-1"
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dspdx.skip -Dcommons.release.dryRun -Dcommons.release.isDistModule=false"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
+#diffoscope=${artifactId}-${version}.diffoscope
