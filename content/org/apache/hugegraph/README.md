@@ -59,6 +59,6 @@ rebuilding **1 releases** of org.apache.hugegraph:hugegraph:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.5.0](https://central.sonatype.com/artifact/org.apache.hugegraph/hugegraph/1.5.0/pom) | [mvn jdk11](hugegraph-1.5.0.buildspec) | [result](hugegraph-1.5.0.buildinfo): [93 :white_check_mark:  19 :warning:](hugegraph-1.5.0.buildcompare) | 19 :rotating_light: | 412M |
+| [1.5.0](https://central.sonatype.com/artifact/org.apache.hugegraph/hugegraph/1.5.0/pom) | [mvn jdk11](hugegraph-1.5.0.buildspec) | [result](hugegraph-1.5.0.buildinfo): [93 :white_check_mark:  19 :warning:](hugegraph-1.5.0.buildcompare) [:memo:](https://github.com/apache/incubator-hugegraph/pull/2874) | 19 :rotating_light: | 412M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
