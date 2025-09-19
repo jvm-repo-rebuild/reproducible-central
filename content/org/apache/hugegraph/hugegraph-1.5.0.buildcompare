@@ -1,0 +1,34 @@
+version=1.5.0
+ok=93
+ko=19
+ignored=0
+okFiles="hugegraph-1.5.0.pom hugegraph-1.5.0-source-release.zip hugegraph-commons-1.5.0.pom hugegraph-common-1.5.0.pom hugegraph-common-1.5.0.jar hugegraph-common-1.5.0-sources.jar hugegraph-pd-1.5.0.pom hg-pd-grpc-1.5.0.pom hg-pd-grpc-1.5.0.jar hg-pd-grpc-1.5.0-sources.jar hg-pd-common-1.5.0.pom hg-pd-common-1.5.0-sources.jar hg-pd-client-1.5.0.pom hg-pd-client-1.5.0-sources.jar hugegraph-store-1.5.0.pom hg-store-common-1.5.0.pom hg-store-common-1.5.0-sources.jar hugegraph-server-1.5.0.pom hugegraph-core-1.5.0.pom hugegraph-core-1.5.0-sources.jar hugegraph-rpc-1.5.0.pom hugegraph-rpc-1.5.0.jar hugegraph-rpc-1.5.0-sources.jar hugegraph-api-1.5.0.pom hugegraph-api-1.5.0-sources.jar hugegraph-cassandra-1.5.0.pom hugegraph-cassandra-1.5.0-sources.jar hugegraph-scylladb-1.5.0.pom hugegraph-scylladb-1.5.0.jar hugegraph-scylladb-1.5.0-sources.jar hugegraph-rocksdb-1.5.0.pom hugegraph-rocksdb-1.5.0-sources.jar hugegraph-mysql-1.5.0.pom hugegraph-mysql-1.5.0-sources.jar hugegraph-palo-1.5.0.pom hugegraph-palo-1.5.0.jar hugegraph-palo-1.5.0-sources.jar hugegraph-hbase-1.5.0.pom hugegraph-hbase-1.5.0.jar hugegraph-hbase-1.5.0-sources.jar hugegraph-postgresql-1.5.0.pom hugegraph-postgresql-1.5.0.jar hugegraph-postgresql-1.5.0-sources.jar hg-store-grpc-1.5.0.pom hg-store-grpc-1.5.0.jar hg-store-grpc-1.5.0-sources.jar hg-store-client-1.5.0.pom hg-store-client-1.5.0-sources.jar hugegraph-hstore-1.5.0.pom hugegraph-hstore-1.5.0.jar hugegraph-hstore-1.5.0-sources.jar hugegraph-dist-1.5.0.pom hugegraph-dist-1.5.0.jar hugegraph-dist-1.5.0-sources.jar hugegraph-example-1.5.0.pom hugegraph-example-1.5.0.jar hugegraph-example-1.5.0-sources.jar hugegraph-test-1.5.0.pom hugegraph-test-1.5.0-sources.jar hg-pd-core-1.5.0.pom hg-pd-core-1.5.0-sources.jar hg-pd-service-1.5.0.pom hg-pd-service-1.5.0-sources.jar hg-pd-dist-1.5.0.pom hg-pd-dist-1.5.0.jar hg-pd-dist-1.5.0-sources.jar hg-pd-test-1.5.0.pom hg-pd-test-1.5.0-sources.jar hg-store-rocksdb-1.5.0.pom hg-store-rocksdb-1.5.0-sources.jar hg-store-core-1.5.0.pom hg-store-core-1.5.0-sources.jar hg-store-node-1.5.0.pom hg-store-node-1.5.0-sources.jar hg-store-test-1.5.0.pom hg-store-test-1.5.0-sources.jar hg-store-dist-1.5.0.pom hg-store-dist-1.5.0.jar hg-store-dist-1.5.0-sources.jar hg-store-cli-1.5.0.pom hg-store-cli-1.5.0-sources.jar install-dist-1.5.0.pom install-dist-1.5.0.jar install-dist-1.5.0-sources.jar hugegraph-cluster-test-1.5.0.pom hugegraph-clustertest-minicluster-1.5.0.pom hugegraph-clustertest-minicluster-1.5.0-sources.jar hugegraph-clustertest-dist-1.5.0.pom hugegraph-clustertest-dist-1.5.0.jar hugegraph-clustertest-dist-1.5.0-sources.jar hugegraph-clustertest-test-1.5.0.pom hugegraph-clustertest-test-1.5.0.jar hugegraph-clustertest-test-1.5.0-sources.jar"
+koFiles="hg-pd-common-1.5.0.jar hg-pd-client-1.5.0.jar hg-store-common-1.5.0.jar hugegraph-core-1.5.0.jar hugegraph-api-1.5.0.jar hugegraph-cassandra-1.5.0.jar hugegraph-rocksdb-1.5.0.jar hugegraph-mysql-1.5.0.jar hg-store-client-1.5.0.jar hugegraph-test-1.5.0.jar hg-pd-core-1.5.0.jar hg-pd-service-1.5.0.jar hg-pd-test-1.5.0.jar hg-store-rocksdb-1.5.0.jar hg-store-core-1.5.0.jar hg-store-node-1.5.0.jar hg-store-test-1.5.0.jar hg-store-cli-1.5.0.jar hugegraph-clustertest-minicluster-1.5.0.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.hugegraph/hg-pd-common-1.5.0.jar hugegraph-pd/hg-pd-common/target/hg-pd-common-1.5.0.jar
+# diffoscope target/reference/org.apache.hugegraph/hg-pd-client-1.5.0.jar hugegraph-pd/hg-pd-client/target/hg-pd-client-1.5.0.jar
+# diffoscope target/reference/org.apache.hugegraph/hg-store-common-1.5.0.jar hugegraph-store/hg-store-common/target/hg-store-common-1.5.0.jar
+# diffoscope target/reference/org.apache.hugegraph/hugegraph-core-1.5.0.jar hugegraph-server/hugegraph-core/target/hugegraph-core-1.5.0.jar
+# diffoscope target/reference/org.apache.hugegraph/hugegraph-api-1.5.0.jar hugegraph-server/hugegraph-api/target/hugegraph-api-1.5.0.jar
+# diffoscope target/reference/org.apache.hugegraph/hugegraph-cassandra-1.5.0.jar hugegraph-server/hugegraph-cassandra/target/hugegraph-cassandra-1.5.0.jar
+# diffoscope target/reference/org.apache.hugegraph/hugegraph-rocksdb-1.5.0.jar hugegraph-server/hugegraph-rocksdb/target/hugegraph-rocksdb-1.5.0.jar
+# diffoscope target/reference/org.apache.hugegraph/hugegraph-mysql-1.5.0.jar hugegraph-server/hugegraph-mysql/target/hugegraph-mysql-1.5.0.jar
+# diffoscope target/reference/org.apache.hugegraph/hg-store-client-1.5.0.jar hugegraph-store/hg-store-client/target/hg-store-client-1.5.0.jar
+# diffoscope target/reference/org.apache.hugegraph/hugegraph-test-1.5.0.jar hugegraph-server/hugegraph-test/target/hugegraph-test-1.5.0.jar
+# diffoscope target/reference/org.apache.hugegraph/hg-pd-core-1.5.0.jar hugegraph-pd/hg-pd-core/target/hg-pd-core-1.5.0.jar
+# diffoscope target/reference/org.apache.hugegraph/hg-pd-service-1.5.0.jar hugegraph-pd/hg-pd-service/target/hg-pd-service-1.5.0.jar
+# diffoscope target/reference/org.apache.hugegraph/hg-pd-test-1.5.0.jar hugegraph-pd/hg-pd-test/target/hg-pd-test-1.5.0.jar
+# diffoscope target/reference/org.apache.hugegraph/hg-store-rocksdb-1.5.0.jar hugegraph-store/hg-store-rocksdb/target/hg-store-rocksdb-1.5.0.jar
+# diffoscope target/reference/org.apache.hugegraph/hg-store-core-1.5.0.jar hugegraph-store/hg-store-core/target/hg-store-core-1.5.0.jar
+# diffoscope target/reference/org.apache.hugegraph/hg-store-node-1.5.0.jar hugegraph-store/hg-store-node/target/hg-store-node-1.5.0.jar
+# diffoscope target/reference/org.apache.hugegraph/hg-store-test-1.5.0.jar hugegraph-store/hg-store-test/target/hg-store-test-1.5.0.jar
+# diffoscope target/reference/org.apache.hugegraph/hg-store-cli-1.5.0.jar hugegraph-store/hg-store-cli/target/hg-store-cli-1.5.0.jar
+# diffoscope target/reference/org.apache.hugegraph/hugegraph-clustertest-minicluster-1.5.0.jar hugegraph-cluster-test/hugegraph-clustertest-minicluster/target/hugegraph-clustertest-minicluster-1.5.0.jar
+stabilize_ok=0
+stabilize_ko=19
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="hg-pd-common-1.5.0.jar.stabilized hg-pd-client-1.5.0.jar.stabilized hg-store-common-1.5.0.jar.stabilized hugegraph-core-1.5.0.jar.stabilized hugegraph-api-1.5.0.jar.stabilized hugegraph-cassandra-1.5.0.jar.stabilized hugegraph-rocksdb-1.5.0.jar.stabilized hugegraph-mysql-1.5.0.jar.stabilized hg-store-client-1.5.0.jar.stabilized hugegraph-test-1.5.0.jar.stabilized hg-pd-core-1.5.0.jar.stabilized hg-pd-service-1.5.0.jar.stabilized hg-pd-test-1.5.0.jar.stabilized hg-store-rocksdb-1.5.0.jar.stabilized hg-store-core-1.5.0.jar.stabilized hg-store-node-1.5.0.jar.stabilized hg-store-test-1.5.0.jar.stabilized hg-store-cli-1.5.0.jar.stabilized hugegraph-clustertest-minicluster-1.5.0.jar.stabilized"
+stabilize_ignoredFiles=""
