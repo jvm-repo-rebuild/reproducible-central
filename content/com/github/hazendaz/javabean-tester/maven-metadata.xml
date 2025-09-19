@@ -3,8 +3,8 @@
   <groupId>com.github.hazendaz</groupId>
   <artifactId>javabean-tester</artifactId>
   <versioning>
-    <latest>2.11.0</latest>
-    <release>2.11.0</release>
+    <latest>2.11.1</latest>
+    <release>2.11.1</release>
     <versions>
       <version>1.2.0</version>
       <version>1.3.0</version>
@@ -56,7 +56,8 @@
       <version>2.9.0</version>
       <version>2.10.0</version>
       <version>2.11.0</version>
+      <version>2.11.1</version>
     </versions>
-    <lastUpdated>20250821214933</lastUpdated>
+    <lastUpdated>20250919143535</lastUpdated>
   </versioning>
 </metadata>
