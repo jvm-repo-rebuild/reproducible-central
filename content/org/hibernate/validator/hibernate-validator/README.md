@@ -16,13 +16,13 @@ Source code: [https://github.com/hibernate/hibernate-validator.git](https://gith
 * [org.hibernate.validator:hibernate-validator-test-utils](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator-test-utils/overview)
 </details>
 
-rebuilding **6 releases** of org.hibernate.validator:hibernate-validator:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of org.hibernate.validator:hibernate-validator:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [9.1.0.Alpha2](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator/9.1.0.Alpha2/pom) | | | |
+| [9.1.0.Alpha2](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator/9.1.0.Alpha2/pom) | [mvn jdk21](hibernate-validator-9.1.0.Alpha2.buildspec) | [result](hibernate-validator-parent-9.1.0.Alpha2.buildinfo): [13 :white_check_mark: ](hibernate-validator-parent-9.1.0.Alpha2.buildcompare) | | 2.6M |
 | [9.1.0.Alpha1](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator/9.1.0.Alpha1/pom) | [mvn jdk21](hibernate-validator-9.1.0.Alpha1.buildspec) | [result](hibernate-validator-parent-9.1.0.Alpha1.buildinfo): [13 :white_check_mark: ](hibernate-validator-parent-9.1.0.Alpha1.buildcompare) | | 2.6M |
 | [9.0.1.Final](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator/9.0.1.Final/pom) | [mvn jdk21](hibernate-validator-9.0.1.Final.buildspec) | [result](hibernate-validator-parent-9.0.1.Final.buildinfo): [13 :white_check_mark: ](hibernate-validator-parent-9.0.1.Final.buildcompare) | | 2.5M |
 | [9.0.0.Final](https://central.sonatype.com/artifact/org.hibernate.validator/hibernate-validator/9.0.0.Final/pom) | [mvn jdk21](hibernate-validator-9.0.0.Final.buildspec) | [result](hibernate-validator-parent-9.0.0.Final.buildinfo): [13 :white_check_mark: ](hibernate-validator-parent-9.0.0.Final.buildcompare) | | 2.5M |
