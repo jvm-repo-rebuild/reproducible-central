@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/FasterXML/jackson-datatype-joda.git](https://github.com/FasterXML/jackson-datatype-joda.git)
 
-rebuilding **9 releases** of tools.jackson.datatype:jackson-datatype-joda:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of tools.jackson.datatype:jackson-datatype-joda:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.0.0-rc10](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-joda/3.0.0-rc10/pom) | | | |
+| [3.0.0-rc10](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-joda/3.0.0-rc10/pom) | [mvn jdk17](jackson-datatype-joda-3.0.0-rc10.buildspec) | [result](jackson-datatype-joda-3.0.0-rc10.buildinfo): [3 :white_check_mark: ](jackson-datatype-joda-3.0.0-rc10.buildcompare) | | 126K |
 | [3.0.0-rc9](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-joda/3.0.0-rc9/pom) | [mvn jdk17](jackson-datatype-joda-3.0.0-rc9.buildspec) | [result](jackson-datatype-joda-3.0.0-rc9.buildinfo): [3 :white_check_mark: ](jackson-datatype-joda-3.0.0-rc9.buildcompare) | | 126K |
 | [3.0.0-rc8](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-joda/3.0.0-rc8/pom) | [mvn jdk17](jackson-datatype-joda-3.0.0-rc8.buildspec) | [result](jackson-datatype-joda-3.0.0-rc8.buildinfo): [3 :white_check_mark: ](jackson-datatype-joda-3.0.0-rc8.buildcompare) | | 126K |
 | [3.0.0-rc7](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-joda/3.0.0-rc7/pom) | [mvn jdk17](jackson-datatype-joda-3.0.0-rc7.buildspec) | [result](jackson-datatype-joda-3.0.0-rc7.buildinfo): [3 :white_check_mark: ](jackson-datatype-joda-3.0.0-rc7.buildcompare) | | 126K |

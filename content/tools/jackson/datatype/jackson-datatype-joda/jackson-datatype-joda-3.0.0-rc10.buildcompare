@@ -1,0 +1,9 @@
+version=3.0.0-rc10
+ok=3
+ko=0
+ignored=1
+okFiles="jackson-datatype-joda-3.0.0-rc10.pom jackson-datatype-joda-3.0.0-rc10.jar jackson-datatype-joda-3.0.0-rc10-sources.jar"
+koFiles=""
+ignoredFiles="jackson-datatype-joda-3.0.0-rc10.module"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
