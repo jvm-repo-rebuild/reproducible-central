@@ -1,0 +1,40 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson-dataformat-XML
+group-id=tools.jackson.dataformat
+artifact-id=jackson-dataformat-xml
+version=3.0.0-rc10
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-dataformat-xml.git
+source.scm.tag=jackson-dataformat-xml-3.0.0-rc10
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=tools.jackson.dataformat
+outputs.0.filename=jackson-dataformat-xml-3.0.0-rc10.pom
+outputs.0.length=6425
+outputs.0.checksums.sha512=e57a277629876bf5bb8eff5bd7f555b7a182726f9045e9cd12e76b49aa2206deafd7476ddb3ab9adc9a0e0e6dad476260459e2b96fc8bbc1e252f8648fab915b
+
+outputs.1.groupId=tools.jackson.dataformat
+outputs.1.filename=jackson-dataformat-xml-3.0.0-rc10.jar
+outputs.1.length=129537
+outputs.1.checksums.sha512=e639a8312fccd1cddde9f51536898fb801f00e2d2c78e5fe7622b66053342b6bf4cfa473f0ab478d76a62513a99ba7305cc54165c84de75770e9830b14dcb2a6
+
+outputs.2.groupId=tools.jackson.dataformat
+outputs.2.filename=jackson-dataformat-xml-3.0.0-rc10-sources.jar
+outputs.2.length=100264
+outputs.2.checksums.sha512=b31983e1a48212f1e919932f45e4e6dc2c330e7b87c96cebefa52bf0ddcf1d40ffad991d72ab2688eb74e5855b5e9d747020bcb9e5d338e9b5f2f3efdd4cf2b1
+# ignored jackson-dataformat-xml-3.0.0-rc10.module
