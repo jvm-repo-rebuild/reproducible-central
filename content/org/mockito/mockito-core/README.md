@@ -26,6 +26,7 @@ rebuilding **36 releases** of org.mockito:mockito-core:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [5.20.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.20.0/pom) | | | |
 | [5.19.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.19.0/pom) | [gradle jdk21](mockito-5.19.0.buildspec) | [result](mockito-core-5.19.0.buildinfo): [16 :white_check_mark:  3 :warning:](mockito-core-5.19.0.buildcompare) [:memo:](https://github.com/JuyeopJang/mockito/commit/ecc3bcbca825ad51dee6c5baee45f8c7571329d8) | 3 :recycle: | 1.3M |
 | [5.18.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.18.0/pom) | [gradle jdk21](mockito-5.18.0.buildspec) | [result](mockito-core-5.18.0.buildinfo): [16 :white_check_mark:  3 :warning:](mockito-core-5.18.0.buildcompare) [:memo:](https://github.com/mockito/mockito/issues/3563) | - | 1.3M |
 | [5.17.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.17.0/pom) | [gradle jdk21](mockito-5.17.0.buildspec) | [result](mockito-core-5.17.0.buildinfo): [16 :white_check_mark:  3 :warning:](mockito-core-5.17.0.buildcompare) [:memo:](https://github.com/mockito/mockito/issues/3563) | - | 1.3M |

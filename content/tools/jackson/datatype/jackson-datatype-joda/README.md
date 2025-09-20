@@ -13,6 +13,7 @@ rebuilding **9 releases** of tools.jackson.datatype:jackson-datatype-joda:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.0.0-rc10](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-joda/3.0.0-rc10/pom) | | | |
 | [3.0.0-rc9](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-joda/3.0.0-rc9/pom) | [mvn jdk17](jackson-datatype-joda-3.0.0-rc9.buildspec) | [result](jackson-datatype-joda-3.0.0-rc9.buildinfo): [3 :white_check_mark: ](jackson-datatype-joda-3.0.0-rc9.buildcompare) | | 126K |
 | [3.0.0-rc8](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-joda/3.0.0-rc8/pom) | [mvn jdk17](jackson-datatype-joda-3.0.0-rc8.buildspec) | [result](jackson-datatype-joda-3.0.0-rc8.buildinfo): [3 :white_check_mark: ](jackson-datatype-joda-3.0.0-rc8.buildcompare) | | 126K |
 | [3.0.0-rc7](https://central.sonatype.com/artifact/tools.jackson.datatype/jackson-datatype-joda/3.0.0-rc7/pom) | [mvn jdk17](jackson-datatype-joda-3.0.0-rc7.buildspec) | [result](jackson-datatype-joda-3.0.0-rc7.buildinfo): [3 :white_check_mark: ](jackson-datatype-joda-3.0.0-rc7.buildcompare) | | 126K |

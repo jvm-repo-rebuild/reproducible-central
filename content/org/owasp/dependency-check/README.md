@@ -24,6 +24,8 @@ rebuilding **64 releases** of org.owasp:dependency-check-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [12.1.5](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/12.1.5/pom) | | | |
+| [12.1.4](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/12.1.4/pom) | | | |
 | [12.1.3](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/12.1.3/pom) | [mvn jdk11](dependency-check-12.1.3.buildspec) | [result](dependency-check-parent-12.1.3.buildinfo): [22 :white_check_mark: ](dependency-check-parent-12.1.3.buildcompare) | | 71M |
 | [12.1.2](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/12.1.2/pom) | [mvn jdk11](dependency-check-12.1.2.buildspec) | [result](dependency-check-parent-12.1.2.buildinfo): [22 :white_check_mark: ](dependency-check-parent-12.1.2.buildcompare) | | 71M |
 | [12.1.1](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/12.1.1/pom) | [mvn jdk11](dependency-check-12.1.1.buildspec) | [result](dependency-check-parent-12.1.1.buildinfo): [22 :white_check_mark: ](dependency-check-parent-12.1.1.buildcompare) | | 71M |
