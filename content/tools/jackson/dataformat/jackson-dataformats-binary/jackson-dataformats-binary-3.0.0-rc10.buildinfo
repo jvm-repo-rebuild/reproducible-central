@@ -1,0 +1,122 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson dataformats: Binary
+group-id=tools.jackson.dataformat
+artifact-id=jackson-dataformats-binary
+version=3.0.0-rc10
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-dataformats-binary.git
+source.scm.tag=jackson-dataformats-binary-3.0.0-rc10
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=jackson-dataformat-ion
+
+# aggregated output
+
+outputs.0.coordinates=tools.jackson.dataformat:jackson-dataformats-binary
+
+outputs.0.0.groupId=tools.jackson.dataformat
+outputs.0.0.filename=jackson-dataformats-binary-3.0.0-rc10.pom
+outputs.0.0.length=3873
+outputs.0.0.checksums.sha512=e5046c40b8a56dfc2b172fd8f791d9a17a08e2cade7e93bed47025117b83e4cc0acc843ef227bcac6143afbc67378973ed2b30bc7573ccce8ac31ab7aff5202c
+
+outputs.1.coordinates=tools.jackson.dataformat:jackson-dataformat-cbor
+
+outputs.1.0.groupId=tools.jackson.dataformat
+outputs.1.0.filename=jackson-dataformat-cbor-3.0.0-rc10.pom
+outputs.1.0.length=2610
+outputs.1.0.checksums.sha512=33698357a759d29f81f0d244f4cac683961024c13f9398d13e71a6a3214fb1a9c998362d978e34026453bfdcdb8cfd101f2c27a264f8bcaf870fd87213446f88
+
+outputs.1.1.groupId=tools.jackson.dataformat
+outputs.1.1.filename=jackson-dataformat-cbor-3.0.0-rc10.jar
+outputs.1.1.length=73209
+outputs.1.1.checksums.sha512=f1fea02ddf75dcf52208d095c3cfde947cb12bb84426150db4b77de22e92166b0a045452180e64f80aa3bb1b479d2794e559c8cc55f1e4c7cc1295bab2136eb4
+
+outputs.1.2.groupId=tools.jackson.dataformat
+outputs.1.2.filename=jackson-dataformat-cbor-3.0.0-rc10-sources.jar
+outputs.1.2.length=60251
+outputs.1.2.checksums.sha512=3560d2bfa8b91430d94448393105cbd64cdae5ec56804011823de74c29950ef95eb391ebe0d791c2baacd475a801db3c318a5464837917fef3882441ff250641
+# ignored jackson-dataformat-cbor-3.0.0-rc10.module
+
+outputs.2.coordinates=tools.jackson.dataformat:jackson-dataformat-smile
+
+outputs.2.0.groupId=tools.jackson.dataformat
+outputs.2.0.filename=jackson-dataformat-smile-3.0.0-rc10.pom
+outputs.2.0.length=2922
+outputs.2.0.checksums.sha512=efb4c675f3aca62d83c09a20b539fb3ed7c0f2090175a2c2239b748252c1b3058b396868b8c5ffc39b0856fa41adcfef26ccc133c9e45b607c3dd3b7df1d05f6
+
+outputs.2.1.groupId=tools.jackson.dataformat
+outputs.2.1.filename=jackson-dataformat-smile-3.0.0-rc10.jar
+outputs.2.1.length=95681
+outputs.2.1.checksums.sha512=c15407db273521fe6a08fe2fbdc1a0f2360cfeb8c3c9d5c605cb5fe58b6f8878cef0f2d8114157b5acb9129e340d64b834bcec558fb15ddf026db38e5532f9b4
+
+outputs.2.2.groupId=tools.jackson.dataformat
+outputs.2.2.filename=jackson-dataformat-smile-3.0.0-rc10-sources.jar
+outputs.2.2.length=81313
+outputs.2.2.checksums.sha512=712b1a25bd2fb9d242631716d79c39b668e4f60350271105eff74a70159f938443f7d1226a65a7318318e307889706f3c6234da8ea09be90b93a9f0fe11058e0
+# ignored jackson-dataformat-smile-3.0.0-rc10.module
+
+outputs.3.coordinates=tools.jackson.dataformat:jackson-dataformat-avro
+
+outputs.3.0.groupId=tools.jackson.dataformat
+outputs.3.0.filename=jackson-dataformat-avro-3.0.0-rc10.pom
+outputs.3.0.length=3259
+outputs.3.0.checksums.sha512=9c06cc1e7a95029e61b5297648ca98a6dd4c04a483ffe5f98395252e68c51a547e10cd5d4564dac1ed4cd85efcef08622f77532781864b0efef5c1e8b6b7d64d
+
+outputs.3.1.groupId=tools.jackson.dataformat
+outputs.3.1.filename=jackson-dataformat-avro-3.0.0-rc10.jar
+outputs.3.1.length=225582
+outputs.3.1.checksums.sha512=2a1b6e00f7cfda34de3bd22f71c8e0ad2268b5a4034d9a13ad3f52b372aec9805a8427c8090b8a8a159521b10ac2c9b8ce9ffb97b31f290e7b8e669c7a1dd657
+
+outputs.3.2.groupId=tools.jackson.dataformat
+outputs.3.2.filename=jackson-dataformat-avro-3.0.0-rc10-sources.jar
+outputs.3.2.length=120743
+outputs.3.2.checksums.sha512=fbd287c3adfe94dd149b52bad7d5e807428931801f451a4c001862d4089b0a4165412981c9bc5e50a04aa83ba75c10c18c932558583b38a611f9e13904aa6c70
+# ignored jackson-dataformat-avro-3.0.0-rc10.module
+
+outputs.4.coordinates=tools.jackson.dataformat:jackson-dataformat-protobuf
+
+outputs.4.0.groupId=tools.jackson.dataformat
+outputs.4.0.filename=jackson-dataformat-protobuf-3.0.0-rc10.pom
+outputs.4.0.length=2791
+outputs.4.0.checksums.sha512=05bd44285b5cb1dbf52d98e839fec9e9a0fcc9314eec45d1df32f1129f704b66edfe5f07522e049396f5c57801bb0010f42b9dcd62fd2f2fc4f648a49f4a1e46
+
+outputs.4.1.groupId=tools.jackson.dataformat
+outputs.4.1.filename=jackson-dataformat-protobuf-3.0.0-rc10.jar
+outputs.4.1.length=151163
+outputs.4.1.checksums.sha512=a2d99f47dc61cf3eb0ac8e857482b1f5389e5fbb850a636c27c0e172fdcb276542d2f44d483f863cf8a84d0b811a4cd82ac7bdafc38610e81e0e63b99c017ed8
+
+outputs.4.2.groupId=tools.jackson.dataformat
+outputs.4.2.filename=jackson-dataformat-protobuf-3.0.0-rc10-sources.jar
+outputs.4.2.length=85908
+outputs.4.2.checksums.sha512=7fc9df66a6ef9e60dc7e3e381b17175191594e4e2ec94e0fabb3f69f25289497ed5f47074914beb774fc4caea24cb62afa73645261eaa22f8872971d5df225ec
+# ignored jackson-dataformat-protobuf-3.0.0-rc10.module
+
+outputs.5.coordinates=tools.jackson.dataformat:jackson-dataformat-ion
+
+outputs.5.0.groupId=tools.jackson.dataformat
+outputs.5.0.filename=jackson-dataformat-ion-3.0.0-rc10.pom
+outputs.5.0.length=2815
+outputs.5.0.checksums.sha512=d2d30ef0da053ed87fbd2fc519ae9e32285904a98db0e7d7d63486a5a69bc69593f542f775a8afda2d56af24a5557154eb342023abd055cbd85ad703b9a2ff3d
+
+outputs.5.1.groupId=tools.jackson.dataformat
+outputs.5.1.filename=jackson-dataformat-ion-3.0.0-rc10.jar
+outputs.5.1.length=73720
+outputs.5.1.checksums.sha512=1abda4398897357164b9aa61f612b96035ea3dd15378713ef57f6e0e85217eb5185e9d2b3df7ba666dbc3509ef050ddbd0f56e48a52c9c9b6451b8bae0077b62
+
+outputs.5.2.groupId=tools.jackson.dataformat
+outputs.5.2.filename=jackson-dataformat-ion-3.0.0-rc10-sources.jar
+outputs.5.2.length=56969
+outputs.5.2.checksums.sha512=8ca36715b774491cf038aa3a1e66d66d2f66e6aeb64f4a241c86693acfe9fe74dbd7e13879968c5ea51fe0c0770a0176e8e35e706612917272468304a7c832e0
+# ignored jackson-dataformat-ion-3.0.0-rc10.module
