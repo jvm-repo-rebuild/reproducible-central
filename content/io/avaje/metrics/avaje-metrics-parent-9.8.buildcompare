@@ -1,0 +1,8 @@
+version=9.8
+ok=13
+ko=0
+ignored=0
+okFiles="avaje-metrics-parent-9.8.pom avaje-metrics-9.8.pom avaje-metrics-9.8.jar avaje-metrics-9.8-sources.jar avaje-metrics-graphite-9.8.pom avaje-metrics-graphite-9.8.jar avaje-metrics-graphite-9.8-sources.jar avaje-metrics-ebean-9.8.pom avaje-metrics-ebean-9.8.jar avaje-metrics-ebean-9.8-sources.jar avaje-metrics-statsd-9.8.pom avaje-metrics-statsd-9.8.jar avaje-metrics-statsd-9.8-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
