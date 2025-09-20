@@ -1,0 +1,104 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson dataformats: Text
+group-id=tools.jackson.dataformat
+artifact-id=jackson-dataformats-text
+version=3.0.0-rc10
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-dataformats-text.git
+source.scm.tag=jackson-dataformats-text-3.0.0-rc10
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=jackson-dataformat-toml
+
+# aggregated output
+
+outputs.0.coordinates=tools.jackson.dataformat:jackson-dataformats-text
+
+outputs.0.0.groupId=tools.jackson.dataformat
+outputs.0.0.filename=jackson-dataformats-text-3.0.0-rc10.pom
+outputs.0.0.length=3565
+outputs.0.0.checksums.sha512=a3e89b5460b35337e1d2f44ceb2d0db79276c2ce26e33eda2c227e562df10f0c21ca56d414c2a58e2b4393fedd57a0433967a8ac7bc360649e65c13360a0799b
+
+outputs.1.coordinates=tools.jackson.dataformat:jackson-dataformat-csv
+
+outputs.1.0.groupId=tools.jackson.dataformat
+outputs.1.0.filename=jackson-dataformat-csv-3.0.0-rc10.pom
+outputs.1.0.length=2963
+outputs.1.0.checksums.sha512=31ccbdef684d7ca7626d77ddb0fdd8cceb882277984b8ce403a158ad6fa1a96bdb41df35ef5b56b377f31d805722a6708a9716b7ee0f301b62db5b85488b5797
+
+outputs.1.1.groupId=tools.jackson.dataformat
+outputs.1.1.filename=jackson-dataformat-csv-3.0.0-rc10.jar
+outputs.1.1.length=103587
+outputs.1.1.checksums.sha512=af9432f28d0d6196dba653af0983dea4c5d926ea4bad53a32a8babc0e6195c72afb4071a2f452c1aef3868f8cee4ea9a8f77120a2734e72ff6187851e693694d
+
+outputs.1.2.groupId=tools.jackson.dataformat
+outputs.1.2.filename=jackson-dataformat-csv-3.0.0-rc10-sources.jar
+outputs.1.2.length=81585
+outputs.1.2.checksums.sha512=3d17aaa75d972856132c817d273fad5b13c8a8ddd307f7a0fc667cdc264de8928cf717fa9cac6d4076996ad520850c4ccaf759ccee8980147d5280de6da779b1
+# ignored jackson-dataformat-csv-3.0.0-rc10.module
+
+outputs.2.coordinates=tools.jackson.dataformat:jackson-dataformat-properties
+
+outputs.2.0.groupId=tools.jackson.dataformat
+outputs.2.0.filename=jackson-dataformat-properties-3.0.0-rc10.pom
+outputs.2.0.length=2624
+outputs.2.0.checksums.sha512=f4678f61afe4121aefdc0556fdd5aa057a6ae46cff6633cadd478f19eb4138d7fb50b4af386bb1fb2f65dbcc69b14905ddfedf2359c7e27fe559018ae28779b5
+
+outputs.2.1.groupId=tools.jackson.dataformat
+outputs.2.1.filename=jackson-dataformat-properties-3.0.0-rc10.jar
+outputs.2.1.length=56582
+outputs.2.1.checksums.sha512=c48b9b4b2071be874ec07d043192d102b12e3ee04dab047ba6416f4e09824de42d0ec29a35ec9950f7aaafd0ffcfe445e8ba8760ca3939f8aaaafa82aba1a9d9
+
+outputs.2.2.groupId=tools.jackson.dataformat
+outputs.2.2.filename=jackson-dataformat-properties-3.0.0-rc10-sources.jar
+outputs.2.2.length=39474
+outputs.2.2.checksums.sha512=4142637a2b08d40613c8dcb1d22197cf9137f43e931e099f36bbfa2cf474d18244404097ebdfc67877c419166a6a666f7252db351ad383b6275a605df7a4ae73
+# ignored jackson-dataformat-properties-3.0.0-rc10.module
+
+outputs.3.coordinates=tools.jackson.dataformat:jackson-dataformat-yaml
+
+outputs.3.0.groupId=tools.jackson.dataformat
+outputs.3.0.filename=jackson-dataformat-yaml-3.0.0-rc10.pom
+outputs.3.0.length=2893
+outputs.3.0.checksums.sha512=01f8b32b07a912e60544af05b1aa4fa3bb071d79ca9282635853b1c0807478e91c066ed1f17bdc25e27adaa62542a37807abb9a90dd2929a224087f22f423c48
+
+outputs.3.1.groupId=tools.jackson.dataformat
+outputs.3.1.filename=jackson-dataformat-yaml-3.0.0-rc10.jar
+outputs.3.1.length=54705
+outputs.3.1.checksums.sha512=c35e642e06be5835ed4ab12ba7db854458f6ddff0f683aefd190db340b73623fef2c2e28872ff82905b0ea90e657754e13d6669db87b38b35d99d97d7fe47ce4
+
+outputs.3.2.groupId=tools.jackson.dataformat
+outputs.3.2.filename=jackson-dataformat-yaml-3.0.0-rc10-sources.jar
+outputs.3.2.length=43047
+outputs.3.2.checksums.sha512=a01012dde608207fb5273e908df39c8bbbbd434d1d1f100601e845f3cedd0dd4f572b069e0282e54cb0717988bdbbfb0939f4a219518c50b9e9493a76a68b0ce
+# ignored jackson-dataformat-yaml-3.0.0-rc10.module
+
+outputs.4.coordinates=tools.jackson.dataformat:jackson-dataformat-toml
+
+outputs.4.0.groupId=tools.jackson.dataformat
+outputs.4.0.filename=jackson-dataformat-toml-3.0.0-rc10.pom
+outputs.4.0.length=3659
+outputs.4.0.checksums.sha512=b9ba25453fd40014f735364790d9476a0868fa7603b103454b798f859564b837084ff84f8a887549692c4d3b6df4ed48279e6d4a23679af27ad131b42705aecc
+
+outputs.4.1.groupId=tools.jackson.dataformat
+outputs.4.1.filename=jackson-dataformat-toml-3.0.0-rc10.jar
+outputs.4.1.length=59338
+outputs.4.1.checksums.sha512=5988795a50df8f1c56783fca111964fd287f670240df40f2b8912caf3e083111084aaa38775cf4b4da03250d35d8041f3ba572c1fa966886d368ca2c77fe25a9
+
+outputs.4.2.groupId=tools.jackson.dataformat
+outputs.4.2.filename=jackson-dataformat-toml-3.0.0-rc10-sources.jar
+outputs.4.2.length=40345
+outputs.4.2.checksums.sha512=e5d06fd03fd7b8045cafd9730d5d904c5a6257b4f839bc4cf646005b192a193cd5882dad9e1f87b7f06573f506565eb32f7bf12cfb18746b523f04703cd4c910
+# ignored jackson-dataformat-toml-3.0.0-rc10.module
