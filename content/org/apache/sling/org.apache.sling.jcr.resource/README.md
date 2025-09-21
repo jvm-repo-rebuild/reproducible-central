@@ -13,6 +13,7 @@ rebuilding **6 releases** of org.apache.sling:org.apache.sling.jcr.resource:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.3.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.resource/3.3.4/pom) | | | |
 | [3.3.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.resource/3.3.2/pom) | [mvn jdk11](org.apache.sling.jcr.resource-3.3.2.buildspec) | [result](org.apache.sling.jcr.resource-3.3.2.buildinfo): [4 :white_check_mark: ](org.apache.sling.jcr.resource-3.3.2.buildcompare) | | 391K |
 | [3.3.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.resource/3.3.0/pom) | [mvn jdk11](org.apache.sling.jcr.resource-3.3.0.buildspec) | [result](org.apache.sling.jcr.resource-3.3.0.buildinfo): [4 :white_check_mark: ](org.apache.sling.jcr.resource-3.3.0.buildcompare) | | 390K |
 | [3.2.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.resource/3.2.4/pom) | [mvn jdk11](org.apache.sling.jcr.resource-3.2.4.buildspec) | [result](org.apache.sling.jcr.resource-3.2.4.buildinfo): [4 :white_check_mark: ](org.apache.sling.jcr.resource-3.2.4.buildcompare) | | 752K |

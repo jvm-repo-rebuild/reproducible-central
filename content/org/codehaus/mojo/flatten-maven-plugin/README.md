@@ -13,6 +13,7 @@ rebuilding **9 releases** of org.codehaus.mojo:flatten-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.7.3](https://central.sonatype.com/artifact/org.codehaus.mojo/flatten-maven-plugin/1.7.3/pom) | | | |
 | [1.7.2](https://central.sonatype.com/artifact/org.codehaus.mojo/flatten-maven-plugin/1.7.2/pom) | [mvn jdk21](flatten-maven-plugin-1.7.2.buildspec) | [result](flatten-maven-plugin-1.7.2.buildinfo): [4 :white_check_mark: ](flatten-maven-plugin-1.7.2.buildcompare) | | 519K |
 | [1.7.1](https://central.sonatype.com/artifact/org.codehaus.mojo/flatten-maven-plugin/1.7.1/pom) | [mvn jdk21](flatten-maven-plugin-1.7.1.buildspec) | [result](flatten-maven-plugin-1.7.1.buildinfo): [4 :white_check_mark: ](flatten-maven-plugin-1.7.1.buildcompare) | | 513K |
 | [1.7.0](https://central.sonatype.com/artifact/org.codehaus.mojo/flatten-maven-plugin/1.7.0/pom) | [mvn jdk21](flatten-maven-plugin-1.7.0.buildspec) | [result](flatten-maven-plugin-1.7.0.buildinfo): [4 :white_check_mark: ](flatten-maven-plugin-1.7.0.buildcompare) | | 510K |
