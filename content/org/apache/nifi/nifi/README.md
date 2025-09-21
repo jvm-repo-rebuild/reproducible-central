@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi.git)
 
-<details><summary>This project defines 919 modules:</summary>
+<details><summary>This project defines 927 modules:</summary>
 
 * [org.apache.nifi.minifi:minifi](https://central.sonatype.com/artifact/org.apache.nifi.minifi/minifi/overview)
 * [org.apache.nifi.minifi:minifi-assembly](https://central.sonatype.com/artifact/org.apache.nifi.minifi/minifi-assembly/overview)
@@ -175,6 +175,7 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-azure-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-azure-nar/overview)
 * [org.apache.nifi:nifi-azure-parameter-providers](https://central.sonatype.com/artifact/org.apache.nifi/nifi-azure-parameter-providers/overview)
 * [org.apache.nifi:nifi-azure-processors](https://central.sonatype.com/artifact/org.apache.nifi/nifi-azure-processors/overview)
+* [org.apache.nifi:nifi-azure-registry-clients](https://central.sonatype.com/artifact/org.apache.nifi/nifi-azure-registry-clients/overview)
 * [org.apache.nifi:nifi-azure-reporting-task](https://central.sonatype.com/artifact/org.apache.nifi/nifi-azure-reporting-task/overview)
 * [org.apache.nifi:nifi-azure-services-api](https://central.sonatype.com/artifact/org.apache.nifi/nifi-azure-services-api/overview)
 * [org.apache.nifi:nifi-azure-services-api-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-azure-services-api-nar/overview)
@@ -222,6 +223,9 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-conflict-resolution](https://central.sonatype.com/artifact/org.apache.nifi/nifi-conflict-resolution/overview)
 * [org.apache.nifi:nifi-confluent-platform-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-confluent-platform-bundle/overview)
 * [org.apache.nifi:nifi-confluent-platform-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-confluent-platform-nar/overview)
+* [org.apache.nifi:nifi-confluent-platform-schema-api](https://central.sonatype.com/artifact/org.apache.nifi/nifi-confluent-platform-schema-api/overview)
+* [org.apache.nifi:nifi-confluent-protobuf-antlr-parser](https://central.sonatype.com/artifact/org.apache.nifi/nifi-confluent-protobuf-antlr-parser/overview)
+* [org.apache.nifi:nifi-confluent-protobuf-message-name-resolver](https://central.sonatype.com/artifact/org.apache.nifi/nifi-confluent-protobuf-message-name-resolver/overview)
 * [org.apache.nifi:nifi-confluent-schema-registry-service](https://central.sonatype.com/artifact/org.apache.nifi/nifi-confluent-schema-registry-service/overview)
 * [org.apache.nifi:nifi-content-viewer-utils](https://central.sonatype.com/artifact/org.apache.nifi/nifi-content-viewer-utils/overview)
 * [org.apache.nifi:nifi-couchbase-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-couchbase-bundle/overview)
@@ -252,6 +256,7 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-dbcp-service-api](https://central.sonatype.com/artifact/org.apache.nifi/nifi-dbcp-service-api/overview)
 * [org.apache.nifi:nifi-dbcp-service-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-dbcp-service-bundle/overview)
 * [org.apache.nifi:nifi-dbcp-service-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-dbcp-service-nar/overview)
+* [org.apache.nifi:nifi-dbcp-utils](https://central.sonatype.com/artifact/org.apache.nifi/nifi-dbcp-utils/overview)
 * [org.apache.nifi:nifi-deprecation-log](https://central.sonatype.com/artifact/org.apache.nifi/nifi-deprecation-log/overview)
 * [org.apache.nifi:nifi-distributed-cache-client-service](https://central.sonatype.com/artifact/org.apache.nifi/nifi-distributed-cache-client-service/overview)
 * [org.apache.nifi:nifi-distributed-cache-client-service-api](https://central.sonatype.com/artifact/org.apache.nifi/nifi-distributed-cache-client-service-api/overview)
@@ -350,7 +355,10 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-framework-questdb-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-framework-questdb-nar/overview)
 * [org.apache.nifi:nifi-framework-questdb-status-history](https://central.sonatype.com/artifact/org.apache.nifi/nifi-framework-questdb-status-history/overview)
 * [org.apache.nifi:nifi-framework-status-history-shared](https://central.sonatype.com/artifact/org.apache.nifi/nifi-framework-status-history-shared/overview)
+* [org.apache.nifi:nifi-framework-zookeeper-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-framework-zookeeper-bundle/overview)
 * [org.apache.nifi:nifi-framework-zookeeper-leader-election](https://central.sonatype.com/artifact/org.apache.nifi/nifi-framework-zookeeper-leader-election/overview)
+* [org.apache.nifi:nifi-framework-zookeeper-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-framework-zookeeper-nar/overview)
+* [org.apache.nifi:nifi-framework-zookeeper-state-provider](https://central.sonatype.com/artifact/org.apache.nifi/nifi-framework-zookeeper-state-provider/overview)
 * [org.apache.nifi:nifi-frontend](https://central.sonatype.com/artifact/org.apache.nifi/nifi-frontend/overview)
 * [org.apache.nifi:nifi-gcp-bundle](https://central.sonatype.com/artifact/org.apache.nifi/nifi-gcp-bundle/overview)
 * [org.apache.nifi:nifi-gcp-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-gcp-nar/overview)
@@ -930,14 +938,14 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-zendesk-services-nar](https://central.sonatype.com/artifact/org.apache.nifi/nifi-zendesk-services-nar/overview)
 </details>
 
-rebuilding **30 releases** of org.apache.nifi:nifi:
+rebuilding **31 releases** of org.apache.nifi:nifi:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 30 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 31 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.6.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.6.0/pom) | | | |
+| [2.6.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.6.0/pom) | [mvn jdk21 osx aarm64](nifi-2.6.0.buildspec) | [result](nifi-2.6.0.buildinfo): [1677 :white_check_mark:  34 :warning:](nifi-2.6.0.buildcompare) | 7 :rotating_light: 27 :no_entry_sign: | 1.6G |
 | [2.5.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.5.0/pom) | [mvn jdk21 osx aarm64](nifi-2.5.0.buildspec) | [result](nifi-2.5.0.buildinfo): [1674 :white_check_mark:  15 :warning:](nifi-2.5.0.buildcompare) | 11 :rotating_light: 4 :no_entry_sign: | 1.6G |
 | [2.4.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.4.0/pom) | [mvn jdk21 osx aarm64](nifi-2.4.0.buildspec) | [result](nifi-2.4.0.buildinfo): [1672 :white_check_mark:  14 :warning:](nifi-2.4.0.buildcompare) [:mag:](nifi-2.4.0.diffoscope) | - | 1.6G |
 | [2.3.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.3.0/pom) | [mvn jdk21 osx aarm64](nifi-2.3.0.buildspec) | [result](nifi-2.3.0.buildinfo): [1618 :white_check_mark:  45 :warning:](nifi-2.3.0.buildcompare) [:memo:](https://github.com/apache/nifi/pull/9805) | - | 1.6G |
