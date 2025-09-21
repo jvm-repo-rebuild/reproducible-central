@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/spotbugs/spotbugs-maven-plugin.git](https://github.com/spotbugs/spotbugs-maven-plugin.git)
 
-rebuilding **38 releases** of com.github.spotbugs:spotbugs-maven-plugin:
+rebuilding **39 releases** of com.github.spotbugs:spotbugs-maven-plugin:
 - **33** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 5, 0 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 6, 0 had all their differences removed :recycle:, 6 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.9.6.0](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.9.6.0/pom) | | | |
+| [4.9.6.0](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.9.6.0/pom) | [mvn jdk21 w](spotbugs-maven-plugin-4.9.6.0.buildspec) | [result](spotbugs-maven-plugin-4.9.6.0.buildinfo): [7 :white_check_mark:  2 :warning:](spotbugs-maven-plugin-4.9.6.0.buildcompare) [:memo:](https://github.com/spotbugs/spotbugs-maven-plugin/issues/1148) | 2 :rotating_light: | 1.2M |
 | [4.9.5.0](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.9.5.0/pom) | [mvn jdk21 w](spotbugs-maven-plugin-4.9.5.0.buildspec) | [result](spotbugs-maven-plugin-4.9.5.0.buildinfo): [7 :white_check_mark:  2 :warning:](spotbugs-maven-plugin-4.9.5.0.buildcompare) [:memo:](https://github.com/spotbugs/spotbugs-maven-plugin/issues/1148) | 2 :rotating_light: | 1.2M |
 | [4.9.4.2](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.9.4.2/pom) | [mvn jdk21 w](spotbugs-maven-plugin-4.9.4.2.buildspec) | [result](spotbugs-maven-plugin-4.9.4.2.buildinfo): [7 :white_check_mark:  2 :warning:](spotbugs-maven-plugin-4.9.4.2.buildcompare) [:memo:](https://github.com/spotbugs/spotbugs-maven-plugin/issues/1148) | 2 :rotating_light: | 1.2M |
 | [4.9.4.1](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.9.4.1/pom) | [mvn jdk21 w](spotbugs-maven-plugin-4.9.4.1.buildspec) | [result](spotbugs-maven-plugin-4.9.4.1.buildinfo): [7 :white_check_mark:  2 :warning:](spotbugs-maven-plugin-4.9.4.1.buildcompare) [:memo:](https://github.com/spotbugs/spotbugs-maven-plugin/issues/1148) | 2 :rotating_light: | 1.2M |
