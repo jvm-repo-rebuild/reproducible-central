@@ -1,0 +1,18 @@
+groupId=org.codehaus.mojo
+artifactId=license-maven-plugin
+display=${groupId}:${artifactId}
+version=2.7.0
+
+gitRepo=https://github.com/mojohaus/${artifactId}.git
+gitTag=${version}
+
+tool=mvn-3.9.3
+jdk=21
+newline=lf
+umask=022
+
+command="mvn -Pmojo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
