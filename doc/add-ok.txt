@@ -1,7 +1,11 @@
-content/com/flowlogix/flowlogix-9.0.11.buildspec:10
-content/com/github/seregamorph/maven-turbo-builder/maven-turbo-builder-0.11.buildspec:0.12
+content/com/flowlogix/flowlogix-9.0.11.buildspec:10.0.1
 content/com/google/code/gson/gson-2.13.2-rc1.buildspec:2.13.2
-content/eu/maveniverse/maven/toolbox/toolbox-0.13.5.buildspec:0.13.6
+content/io/airlift/airbase/airbase-303.buildspec:304
+content/io/cucumber/cucumber-jvm/cucumber-jvm-7.28.2.buildspec:7.29.0
+content/io/telicent/smart-caches/graph/scg-base/scg-base-0.90.1.buildspec:0.90.2
+content/io/wcm/io.wcm.handler/link/io.wcm.handler.link-2.2.8.buildspec:2.2.10
 content/jakarta/activation/jakarta.activation-api/jakarta.activation-api-2.1.4.buildspec:2.2.0-M1
-content/org/apache/sling/org.apache.sling.jcr.resource/org.apache.sling.jcr.resource-3.3.2.buildspec:3.3.4
-content/org/codehaus/mojo/flatten-maven-plugin/flatten-maven-plugin-1.7.2.buildspec:1.7.3
+content/org/codehaus/mojo/license-maven-plugin/license-maven-plugin-2.6.0.buildspec:2.7.0
+content/org/codehaus/mojo/versions-maven-plugin/versions-maven-plugin-2.19.0.buildspec:2.19.1
+content/org/spdx/java-spdx-library/java-spdx-library-2.0.0.buildspec:2.0.1
+content/org/spdx/spdx-java-core/spdx-java-core-1.0.0.buildspec:1.0.1
