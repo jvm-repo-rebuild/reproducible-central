@@ -1,0 +1,17 @@
+groupId=org.codehaus.mojo
+artifactId=versions-maven-plugin
+display=${groupId}:${artifactId}
+version=2.19.1
+
+gitRepo=https://github.com/mojohaus/${artifactId}.git
+gitTag=${version}
+
+tool=mvn-3.9.0
+jdk=21
+newline=lf
+#umask=022
+
+command="mvn -Pmojo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=${artifactId}/target/${artifactId}-${version}.buildinfo
+
+issue=
