@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Link Handler
+group-id=io.wcm
+artifact-id=io.wcm.handler.link
+version=2.2.10
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/io.wcm.handler.link.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.4
+
+# output
+
+outputs.0.groupId=io.wcm
+outputs.0.filename=io.wcm.handler.link-2.2.10.pom
+outputs.0.length=7802
+outputs.0.checksums.sha512=cdcc06990573c29ce68b39676292c907cb2d5895c5953f7ac38d8d94468a5db0d9be3f38c1b76784534b005808d5838d18f16cfa6f99b15779999c6f30fbf85e
+
+outputs.1.groupId=io.wcm
+outputs.1.filename=io.wcm.handler.link-2.2.10.jar
+outputs.1.length=98718
+outputs.1.checksums.sha512=ef68650f3e2fd256cf47a40dd929cb2ec24d5bcb60f67c8e375b1dbc5b6e6d17e1b2877f484e0c6ded7cd91a14ca957e07cfb2e504ff74563666dd202d09b7c6
+
+outputs.2.groupId=io.wcm
+outputs.2.filename=io.wcm.handler.link-2.2.10-sources.jar
+outputs.2.length=96418
+outputs.2.checksums.sha512=e8cc9d8bba56336426531450112140438cca0bf85c1e79ab8b72eee6e46e529fd83392dad264d40de2af46e6400e18db7645dc82c886422f5c95254066ad165c
