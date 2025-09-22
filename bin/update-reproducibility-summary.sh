@@ -42,7 +42,7 @@ do
   # add project entry to main README
   row="|"
   [[ "$displayGroupId" != "$prevGroupId" ]] && prevGroupId="$displayGroupId" && row+=" ${displayGroupId}"
-  row+=" | [${displayArtifactId}](${dir}/README.md)"
+  row+=" | [${displayArtifactId}](../${dir}/README.md)"
   row+=" | ${countVersion} | "
   if [ "${countVersionOk}" == "0" ]
   then
@@ -169,13 +169,13 @@ tail_intro='^<!-- END GENERATED INTRO -->$'
 lead_stats='^<!-- BEGIN GENERATED STATS -->$'
 tail_stats='^<!-- END GENERATED STATS -->$'
 sed -e "/$lead/,/$tail/{ /$lead/{p; r tmp/summary-table.md
-        }; /$tail/p; d }" README.md | \
+        }; /$tail/p; d }" content/README.md | \
     sed -e "/$lead_intro/,/$tail_intro/{ /$lead_intro/{p; r tmp/summary-intro.md
         }; /$tail_intro/p; d }" | \
     sed -e "/$lead_stats/,/$tail_stats/{ /$lead_stats/{p; r tmp/stats.md
         }; /$tail_stats/p; d }" > tmp/README.md
 
-cp tmp/README.md README.md
+cp tmp/README.md content/README.md
 
 echo "| artifactId | from | to | command |" > tmp/add-ok-table.md
 echo "| ---------- | ---- | -- | ------- |" >> tmp/add-ok-table.md
