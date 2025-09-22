@@ -1,0 +1,3932 @@
+1 /       34 target/reference/org.apache.nifi/nifi-2.6.0-source-release.zip target/nifi-2.6.0-source-release.zip
+--- target/reference/org.apache.nifi/nifi-2.6.0-source-release.zip
++++ target/nifi-2.6.0-source-release.zip
+@@ -72869,21 +72869,21 @@
+ 0011ca40: 18e5 cc33 784e 84a1 37ac 12e0 e4b9 2fe8  ...3xN..7...../.
+ 0011ca50: 7ad7 436b 83d3 0f80 df34 9644 bd69 c60d  z.Ck.....4.D.i..
+ 0011ca60: ddd6 57f4 5b10 846f ec04 9bbb ae92 32e9  ..W.[..o......2.
+ 0011ca70: 1bd4 fd6b fe25 7fc0 a622 8e1e 4672 0c3a  ...k.%..."..Fr.:
+ 0011ca80: ac1c b4c5 b020 4b78 5743 62b5 00c3 50f7  ..... KxWCb...P.
+ 0011ca90: 8871 a261 e8a6 d7a6 a585 e3db 336d 944b  .q.a........3m.K
+ 0011caa0: 64db bba7 4d82 4fff 20c0 1350 4b03 0414  d...M.O. ..PK...
+-0011cab0: 0000 0808 00fa 7e32 5bdc 2d43 3b1c 0000  ......~2[.-C;...
++0011cab0: 0000 0808 00fa 7e32 5ba4 89f5 861c 0000  ......~2[.......
+ 0011cac0: 001a 0000 0033 0000 006e 6966 692d 322e  .....3...nifi-2.
+ 0011cad0: 362e 302f 2e6d 766e 2f2e 6465 7665 6c6f  6.0/.mvn/.develo
+ 0011cae0: 6369 7479 2f64 6576 656c 6f63 6974 792d  city/develocity-
+-0011caf0: 776f 726b 7370 6163 652d 6964 332f cf4e  workspace-id3/.N
+-0011cb00: 4934 35cd 294a cb48 314f 352d 4e49 292c  I45.)J.H1O5-NI),
+-0011cb10: a92a 2a49 2c49 0500 504b 0304 1400 0008  .**I,I..PK......
++0011caf0: 776f 726b 7370 6163 652d 6964 4b36 ce4e  workspace-idK6.N
++0011cb00: cf4d ab4c 35ae 4a4f cd48 af2c 312b cf37  .M.L5.JO.H.,1+.7
++0011cb10: 4baf 484d 31aa 0400 504b 0304 1400 0008  K.HM1...PK......
+ 0011cb20: 0800 fa7e 325b fb7b f818 3903 0000 e406  ...~2[.{..9.....
+ 0011cb30: 0000 1e00 0000 6e69 6669 2d32 2e36 2e30  ......nifi-2.6.0
+ 0011cb40: 2f2e 6d76 6e2f 6465 7665 6c6f 6369 7479  /.mvn/develocity
+ 0011cb50: 2e78 6d6c 8d54 d16e db46 107c d757 6cd8  .xml.T.n.F.|.Wl.
+ 0011cb60: 07db 8045 2ae9 4be1 d20a 68c7 4a88 b812  ...E*.K...h.J...
+ 0011cb70: 604a 4d83 a228 4ee4 8aba 84bc 63ee 8ea6  `JM..(N.....c...
+ 0011cb80: 0423 ffde bd23 69b2 760c 447a 10c8 db99  .#...#i.v.Dz....
+@@ -4194297,8 +4194297,8 @@
+ 03ffff80: 696c 4c6f 6741 7474 7269 6275 7465 2f50  ilLogAttribute/P
+ 03ffff90: 4b01 0214 030a 0000 0800 00fa 7e32 5b00  K...........~2[.
+ 03ffffa0: 0000 0000 0000 0000 0000 005f 0000 0000  ..........._....
+ 03ffffb0: 0000 0000 0010 00ed 418a 6400 006e 6966  ........A.d..nif
+ 03ffffc0: 692d 322e 362e 302f 6d69 6e69 6669 2f6d  i-2.6.0/minifi/m
+ 03ffffd0: 696e 6966 692d 696e 7465 6772 6174 696f  inifi-integratio
+ 03ffffe0: 6e2d 7465 7374 732f 7372 632f 7465 7374  n-tests/src/test
+-[ Too much input for diff (SHA256: 2b33fdb5bf3e1f29545cbb1f513d4ca517450b50e64bfae114e84f361180e25f) ]
++[ Too much input for diff (SHA256: 721162ef11b05f098ac4e9d12815709311f3564326ad10a13416dd4e73b88972) ]
+
+2 /       34 target/reference/org.apache.nifi/nifi-nar-utils-2.6.0.jar nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/nifi-nar-utils-2.6.0.jar
+--- target/reference/org.apache.nifi/nifi-nar-utils-2.6.0.jar
++++ nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/nifi-nar-utils-2.6.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 49587 bytes, number of entries: 32
+│ +Zip file size: 49589 bytes, number of entries: 32
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-18 15:55 META-INF/
+│  -rw-r--r--  2.0 unx      302 b- defN 25-Sep-18 15:55 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-18 15:55 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-18 15:55 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-18 15:55 org/apache/nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-18 15:55 org/apache/nifi/nar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-18 15:55 org/apache/nifi/util/
+│ @@ -27,8 +27,8 @@
+│  -rw-r--r--  2.0 unx    26590 b- defN 25-Sep-18 15:55 org/apache/nifi/nar/NarUnpacker.class
+│  -rw-r--r--  2.0 unx      872 b- defN 25-Sep-18 15:55 org/apache/nifi/nar/OSUtil.class
+│  -rw-r--r--  2.0 unx     2442 b- defN 25-Sep-18 15:55 org/apache/nifi/nar/PythonBundle.class
+│  -rw-r--r--  2.0 unx     2439 b- defN 25-Sep-18 15:55 org/apache/nifi/nar/SystemBundle.class
+│  -rw-r--r--  2.0 unx     5099 b- defN 25-Sep-18 15:55 org/apache/nifi/util/FileUtils.class
+│  -rw-r--r--  2.0 unx     4453 b- defN 25-Sep-18 15:55 META-INF/maven/org.apache.nifi/nifi-nar-utils/pom.xml
+│  -rw-r--r--  2.0 unx       64 b- defN 25-Sep-18 15:55 META-INF/maven/org.apache.nifi/nifi-nar-utils/pom.properties
+│ -32 files, 103571 bytes uncompressed, 45053 bytes compressed:  56.5%
+│ +32 files, 103571 bytes uncompressed, 45055 bytes compressed:  56.5%
+├── zipdetails --redact --walk --utc {}
+│ @@ -306,1305 +306,1305 @@
+│  2861 Extract Zip Spec      14 (20) '2.0'
+│  2862 Extract OS            00 (0) 'MS-DOS'
+│  2863 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│  2865 Compression Method    0008 (8) 'Deflated'
+│  2867 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -286B CRC                   7CA2BE8A (2091040394)
+│ -286F Compressed Size       0000094F (2383)
+│ +286B CRC                   45261A5E (1160125022)
+│ +286F Compressed Size       00000951 (2385)
+│  2873 Uncompressed Size     000017B5 (6069)
+│  2877 Filename Length       002D (45)
+│  2879 Extra Length          0000 (0)
+│  287B Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│  # WARNING: Offset 0x287B: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  28A8 PAYLOAD
+│  
+│ -31F7 LOCAL HEADER #18      04034B50 (67324752)
+│ -31FB Extract Zip Spec      14 (20) '2.0'
+│ -31FC Extract OS            00 (0) 'MS-DOS'
+│ -31FD General Purpose Flag  0800 (2048)
+│ +31F9 LOCAL HEADER #18      04034B50 (67324752)
+│ +31FD Extract Zip Spec      14 (20) '2.0'
+│ +31FE Extract OS            00 (0) 'MS-DOS'
+│ +31FF General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -31FF Compression Method    0008 (8) 'Deflated'
+│ -3201 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -3205 CRC                   EFE23504 (4024579332)
+│ -3209 Compressed Size       00000695 (1685)
+│ -320D Uncompressed Size     00000D31 (3377)
+│ -3211 Filename Length       0027 (39)
+│ -3213 Extra Length          0000 (0)
+│ -3215 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +3201 Compression Method    0008 (8) 'Deflated'
+│ +3203 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +3207 CRC                   EFE23504 (4024579332)
+│ +320B Compressed Size       00000695 (1685)
+│ +320F Uncompressed Size     00000D31 (3377)
+│ +3213 Filename Length       0027 (39)
+│ +3215 Extra Length          0000 (0)
+│ +3217 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x3215: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x3217: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -323C PAYLOAD
+│ +323E PAYLOAD
+│  
+│ -38D1 LOCAL HEADER #19      04034B50 (67324752)
+│ -38D5 Extract Zip Spec      14 (20) '2.0'
+│ -38D6 Extract OS            00 (0) 'MS-DOS'
+│ -38D7 General Purpose Flag  0800 (2048)
+│ +38D3 LOCAL HEADER #19      04034B50 (67324752)
+│ +38D7 Extract Zip Spec      14 (20) '2.0'
+│ +38D8 Extract OS            00 (0) 'MS-DOS'
+│ +38D9 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -38D9 Compression Method    0008 (8) 'Deflated'
+│ -38DB Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -38DF CRC                   2B05D103 (721801475)
+│ -38E3 Compressed Size       00000853 (2131)
+│ -38E7 Uncompressed Size     000011D6 (4566)
+│ -38EB Filename Length       0028 (40)
+│ -38ED Extra Length          0000 (0)
+│ -38EF Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +38DB Compression Method    0008 (8) 'Deflated'
+│ +38DD Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +38E1 CRC                   2B05D103 (721801475)
+│ +38E5 Compressed Size       00000853 (2131)
+│ +38E9 Uncompressed Size     000011D6 (4566)
+│ +38ED Filename Length       0028 (40)
+│ +38EF Extra Length          0000 (0)
+│ +38F1 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x38EF: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x38F1: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -3917 PAYLOAD
+│ +3919 PAYLOAD
+│  
+│ -416A LOCAL HEADER #20      04034B50 (67324752)
+│ -416E Extract Zip Spec      14 (20) '2.0'
+│ -416F Extract OS            00 (0) 'MS-DOS'
+│ -4170 General Purpose Flag  0800 (2048)
+│ +416C LOCAL HEADER #20      04034B50 (67324752)
+│ +4170 Extract Zip Spec      14 (20) '2.0'
+│ +4171 Extract OS            00 (0) 'MS-DOS'
+│ +4172 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -4172 Compression Method    0008 (8) 'Deflated'
+│ -4174 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -4178 CRC                   38477BFC (944208892)
+│ -417C Compressed Size       00000349 (841)
+│ -4180 Uncompressed Size     000007AC (1964)
+│ -4184 Filename Length       0035 (53)
+│ -4186 Extra Length          0000 (0)
+│ -4188 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +4174 Compression Method    0008 (8) 'Deflated'
+│ +4176 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +417A CRC                   38477BFC (944208892)
+│ +417E Compressed Size       00000349 (841)
+│ +4182 Uncompressed Size     000007AC (1964)
+│ +4186 Filename Length       0035 (53)
+│ +4188 Extra Length          0000 (0)
+│ +418A Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x4188: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x418A: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -41BD PAYLOAD
+│ +41BF PAYLOAD
+│  
+│ -4506 LOCAL HEADER #21      04034B50 (67324752)
+│ -450A Extract Zip Spec      14 (20) '2.0'
+│ -450B Extract OS            00 (0) 'MS-DOS'
+│ -450C General Purpose Flag  0800 (2048)
+│ +4508 LOCAL HEADER #21      04034B50 (67324752)
+│ +450C Extract Zip Spec      14 (20) '2.0'
+│ +450D Extract OS            00 (0) 'MS-DOS'
+│ +450E General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -450E Compression Method    0008 (8) 'Deflated'
+│ -4510 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -4514 CRC                   74B2C068 (1957871720)
+│ -4518 Compressed Size       00001F7A (8058)
+│ -451C Uncompressed Size     000049D2 (18898)
+│ -4520 Filename Length       0029 (41)
+│ -4522 Extra Length          0000 (0)
+│ -4524 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +4510 Compression Method    0008 (8) 'Deflated'
+│ +4512 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +4516 CRC                   74B2C068 (1957871720)
+│ +451A Compressed Size       00001F7A (8058)
+│ +451E Uncompressed Size     000049D2 (18898)
+│ +4522 Filename Length       0029 (41)
+│ +4524 Extra Length          0000 (0)
+│ +4526 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x4524: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x4526: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -454D PAYLOAD
+│ +454F PAYLOAD
+│  
+│ -64C7 LOCAL HEADER #22      04034B50 (67324752)
+│ -64CB Extract Zip Spec      14 (20) '2.0'
+│ -64CC Extract OS            00 (0) 'MS-DOS'
+│ -64CD General Purpose Flag  0800 (2048)
+│ +64C9 LOCAL HEADER #22      04034B50 (67324752)
+│ +64CD Extract Zip Spec      14 (20) '2.0'
+│ +64CE Extract OS            00 (0) 'MS-DOS'
+│ +64CF General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -64CF Compression Method    0008 (8) 'Deflated'
+│ -64D1 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -64D5 CRC                   435C99BA (1130142138)
+│ -64D9 Compressed Size       00000193 (403)
+│ -64DD Uncompressed Size     000002A8 (680)
+│ -64E1 Filename Length       002F (47)
+│ -64E3 Extra Length          0000 (0)
+│ -64E5 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +64D1 Compression Method    0008 (8) 'Deflated'
+│ +64D3 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +64D7 CRC                   435C99BA (1130142138)
+│ +64DB Compressed Size       00000193 (403)
+│ +64DF Uncompressed Size     000002A8 (680)
+│ +64E3 Filename Length       002F (47)
+│ +64E5 Extra Length          0000 (0)
+│ +64E7 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x64E5: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x64E7: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -6514 PAYLOAD
+│ +6516 PAYLOAD
+│  
+│ -66A7 LOCAL HEADER #23      04034B50 (67324752)
+│ -66AB Extract Zip Spec      14 (20) '2.0'
+│ -66AC Extract OS            00 (0) 'MS-DOS'
+│ -66AD General Purpose Flag  0800 (2048)
+│ +66A9 LOCAL HEADER #23      04034B50 (67324752)
+│ +66AD Extract Zip Spec      14 (20) '2.0'
+│ +66AE Extract OS            00 (0) 'MS-DOS'
+│ +66AF General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -66AF Compression Method    0008 (8) 'Deflated'
+│ -66B1 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -66B5 CRC                   1199503F (295260223)
+│ -66B9 Compressed Size       000001D4 (468)
+│ -66BD Uncompressed Size     0000043E (1086)
+│ -66C1 Filename Length       0027 (39)
+│ -66C3 Extra Length          0000 (0)
+│ -66C5 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +66B1 Compression Method    0008 (8) 'Deflated'
+│ +66B3 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +66B7 CRC                   1199503F (295260223)
+│ +66BB Compressed Size       000001D4 (468)
+│ +66BF Uncompressed Size     0000043E (1086)
+│ +66C3 Filename Length       0027 (39)
+│ +66C5 Extra Length          0000 (0)
+│ +66C7 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x66C5: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x66C7: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -66EC PAYLOAD
+│ +66EE PAYLOAD
+│  
+│ -68C0 LOCAL HEADER #24      04034B50 (67324752)
+│ -68C4 Extract Zip Spec      14 (20) '2.0'
+│ -68C5 Extract OS            00 (0) 'MS-DOS'
+│ -68C6 General Purpose Flag  0800 (2048)
+│ +68C2 LOCAL HEADER #24      04034B50 (67324752)
+│ +68C6 Extract Zip Spec      14 (20) '2.0'
+│ +68C7 Extract OS            00 (0) 'MS-DOS'
+│ +68C8 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -68C8 Compression Method    0008 (8) 'Deflated'
+│ -68CA Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -68CE CRC                   74B1C8F9 (1957808377)
+│ -68D2 Compressed Size       00000261 (609)
+│ -68D6 Uncompressed Size     00000481 (1153)
+│ -68DA Filename Length       0027 (39)
+│ -68DC Extra Length          0000 (0)
+│ -68DE Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +68CA Compression Method    0008 (8) 'Deflated'
+│ +68CC Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +68D0 CRC                   74B1C8F9 (1957808377)
+│ +68D4 Compressed Size       00000261 (609)
+│ +68D8 Uncompressed Size     00000481 (1153)
+│ +68DC Filename Length       0027 (39)
+│ +68DE Extra Length          0000 (0)
+│ +68E0 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x68DE: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x68E0: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -6905 PAYLOAD
+│ +6907 PAYLOAD
+│  
+│ -6B66 LOCAL HEADER #25      04034B50 (67324752)
+│ -6B6A Extract Zip Spec      14 (20) '2.0'
+│ -6B6B Extract OS            00 (0) 'MS-DOS'
+│ -6B6C General Purpose Flag  0800 (2048)
+│ +6B68 LOCAL HEADER #25      04034B50 (67324752)
+│ +6B6C Extract Zip Spec      14 (20) '2.0'
+│ +6B6D Extract OS            00 (0) 'MS-DOS'
+│ +6B6E General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -6B6E Compression Method    0008 (8) 'Deflated'
+│ -6B70 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -6B74 CRC                   8840AED5 (2285940437)
+│ -6B78 Compressed Size       000001E2 (482)
+│ -6B7C Uncompressed Size     00000302 (770)
+│ -6B80 Filename Length       0027 (39)
+│ -6B82 Extra Length          0000 (0)
+│ -6B84 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +6B70 Compression Method    0008 (8) 'Deflated'
+│ +6B72 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +6B76 CRC                   8840AED5 (2285940437)
+│ +6B7A Compressed Size       000001E2 (482)
+│ +6B7E Uncompressed Size     00000302 (770)
+│ +6B82 Filename Length       0027 (39)
+│ +6B84 Extra Length          0000 (0)
+│ +6B86 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x6B84: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x6B86: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -6BAB PAYLOAD
+│ +6BAD PAYLOAD
+│  
+│ -6D8D LOCAL HEADER #26      04034B50 (67324752)
+│ -6D91 Extract Zip Spec      14 (20) '2.0'
+│ -6D92 Extract OS            00 (0) 'MS-DOS'
+│ -6D93 General Purpose Flag  0800 (2048)
+│ +6D8F LOCAL HEADER #26      04034B50 (67324752)
+│ +6D93 Extract Zip Spec      14 (20) '2.0'
+│ +6D94 Extract OS            00 (0) 'MS-DOS'
+│ +6D95 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -6D95 Compression Method    0008 (8) 'Deflated'
+│ -6D97 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -6D9B CRC                   8F2C1D14 (2402032916)
+│ -6D9F Compressed Size       00002E74 (11892)
+│ -6DA3 Uncompressed Size     000067DE (26590)
+│ -6DA7 Filename Length       0025 (37)
+│ -6DA9 Extra Length          0000 (0)
+│ -6DAB Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +6D97 Compression Method    0008 (8) 'Deflated'
+│ +6D99 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +6D9D CRC                   8F2C1D14 (2402032916)
+│ +6DA1 Compressed Size       00002E74 (11892)
+│ +6DA5 Uncompressed Size     000067DE (26590)
+│ +6DA9 Filename Length       0025 (37)
+│ +6DAB Extra Length          0000 (0)
+│ +6DAD Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x6DAB: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x6DAD: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -6DD0 PAYLOAD
+│ +6DD2 PAYLOAD
+│  
+│ -9C44 LOCAL HEADER #27      04034B50 (67324752)
+│ -9C48 Extract Zip Spec      14 (20) '2.0'
+│ -9C49 Extract OS            00 (0) 'MS-DOS'
+│ -9C4A General Purpose Flag  0800 (2048)
+│ +9C46 LOCAL HEADER #27      04034B50 (67324752)
+│ +9C4A Extract Zip Spec      14 (20) '2.0'
+│ +9C4B Extract OS            00 (0) 'MS-DOS'
+│ +9C4C General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -9C4C Compression Method    0008 (8) 'Deflated'
+│ -9C4E Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -9C52 CRC                   5F335576 (1597199734)
+│ -9C56 Compressed Size       000001FC (508)
+│ -9C5A Uncompressed Size     00000368 (872)
+│ -9C5E Filename Length       0020 (32)
+│ -9C60 Extra Length          0000 (0)
+│ -9C62 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +9C4E Compression Method    0008 (8) 'Deflated'
+│ +9C50 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +9C54 CRC                   5F335576 (1597199734)
+│ +9C58 Compressed Size       000001FC (508)
+│ +9C5C Uncompressed Size     00000368 (872)
+│ +9C60 Filename Length       0020 (32)
+│ +9C62 Extra Length          0000 (0)
+│ +9C64 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x9C62: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x9C64: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -9C82 PAYLOAD
+│ +9C84 PAYLOAD
+│  
+│ -9E7E LOCAL HEADER #28      04034B50 (67324752)
+│ -9E82 Extract Zip Spec      14 (20) '2.0'
+│ -9E83 Extract OS            00 (0) 'MS-DOS'
+│ -9E84 General Purpose Flag  0800 (2048)
+│ +9E80 LOCAL HEADER #28      04034B50 (67324752)
+│ +9E84 Extract Zip Spec      14 (20) '2.0'
+│ +9E85 Extract OS            00 (0) 'MS-DOS'
+│ +9E86 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -9E86 Compression Method    0008 (8) 'Deflated'
+│ -9E88 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -9E8C CRC                   90056751 (2416273233)
+│ -9E90 Compressed Size       00000454 (1108)
+│ -9E94 Uncompressed Size     0000098A (2442)
+│ -9E98 Filename Length       0026 (38)
+│ -9E9A Extra Length          0000 (0)
+│ -9E9C Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +9E88 Compression Method    0008 (8) 'Deflated'
+│ +9E8A Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +9E8E CRC                   90056751 (2416273233)
+│ +9E92 Compressed Size       00000454 (1108)
+│ +9E96 Uncompressed Size     0000098A (2442)
+│ +9E9A Filename Length       0026 (38)
+│ +9E9C Extra Length          0000 (0)
+│ +9E9E Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x9E9C: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x9E9E: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -9EC2 PAYLOAD
+│ +9EC4 PAYLOAD
+│  
+│ -A316 LOCAL HEADER #29      04034B50 (67324752)
+│ -A31A Extract Zip Spec      14 (20) '2.0'
+│ -A31B Extract OS            00 (0) 'MS-DOS'
+│ -A31C General Purpose Flag  0800 (2048)
+│ +A318 LOCAL HEADER #29      04034B50 (67324752)
+│ +A31C Extract Zip Spec      14 (20) '2.0'
+│ +A31D Extract OS            00 (0) 'MS-DOS'
+│ +A31E General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -A31E Compression Method    0008 (8) 'Deflated'
+│ -A320 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -A324 CRC                   008EF970 (9369968)
+│ -A328 Compressed Size       0000041A (1050)
+│ -A32C Uncompressed Size     00000987 (2439)
+│ -A330 Filename Length       0026 (38)
+│ -A332 Extra Length          0000 (0)
+│ -A334 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +A320 Compression Method    0008 (8) 'Deflated'
+│ +A322 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +A326 CRC                   008EF970 (9369968)
+│ +A32A Compressed Size       0000041A (1050)
+│ +A32E Uncompressed Size     00000987 (2439)
+│ +A332 Filename Length       0026 (38)
+│ +A334 Extra Length          0000 (0)
+│ +A336 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xA334: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xA336: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -A35A PAYLOAD
+│ +A35C PAYLOAD
+│  
+│ -A774 LOCAL HEADER #30      04034B50 (67324752)
+│ -A778 Extract Zip Spec      14 (20) '2.0'
+│ -A779 Extract OS            00 (0) 'MS-DOS'
+│ -A77A General Purpose Flag  0800 (2048)
+│ +A776 LOCAL HEADER #30      04034B50 (67324752)
+│ +A77A Extract Zip Spec      14 (20) '2.0'
+│ +A77B Extract OS            00 (0) 'MS-DOS'
+│ +A77C General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -A77C Compression Method    0008 (8) 'Deflated'
+│ -A77E Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -A782 CRC                   F892F955 (4170381653)
+│ -A786 Compressed Size       00000A02 (2562)
+│ -A78A Uncompressed Size     000013EB (5099)
+│ -A78E Filename Length       0024 (36)
+│ -A790 Extra Length          0000 (0)
+│ -A792 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +A77E Compression Method    0008 (8) 'Deflated'
+│ +A780 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +A784 CRC                   F892F955 (4170381653)
+│ +A788 Compressed Size       00000A02 (2562)
+│ +A78C Uncompressed Size     000013EB (5099)
+│ +A790 Filename Length       0024 (36)
+│ +A792 Extra Length          0000 (0)
+│ +A794 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xA792: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xA794: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -A7B6 PAYLOAD
+│ +A7B8 PAYLOAD
+│  
+│ -B1B8 LOCAL HEADER #31      04034B50 (67324752)
+│ -B1BC Extract Zip Spec      14 (20) '2.0'
+│ -B1BD Extract OS            00 (0) 'MS-DOS'
+│ -B1BE General Purpose Flag  0800 (2048)
+│ +B1BA LOCAL HEADER #31      04034B50 (67324752)
+│ +B1BE Extract Zip Spec      14 (20) '2.0'
+│ +B1BF Extract OS            00 (0) 'MS-DOS'
+│ +B1C0 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -B1C0 Compression Method    0008 (8) 'Deflated'
+│ -B1C2 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -B1C6 CRC                   7DFA6C3D (2113563709)
+│ -B1CA Compressed Size       00000529 (1321)
+│ -B1CE Uncompressed Size     00001165 (4453)
+│ -B1D2 Filename Length       0035 (53)
+│ -B1D4 Extra Length          0000 (0)
+│ -B1D6 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +B1C2 Compression Method    0008 (8) 'Deflated'
+│ +B1C4 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +B1C8 CRC                   7DFA6C3D (2113563709)
+│ +B1CC Compressed Size       00000529 (1321)
+│ +B1D0 Uncompressed Size     00001165 (4453)
+│ +B1D4 Filename Length       0035 (53)
+│ +B1D6 Extra Length          0000 (0)
+│ +B1D8 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xB1D6: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xB1D8: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -B20B PAYLOAD
+│ +B20D PAYLOAD
+│  
+│ -B734 LOCAL HEADER #32      04034B50 (67324752)
+│ -B738 Extract Zip Spec      14 (20) '2.0'
+│ -B739 Extract OS            00 (0) 'MS-DOS'
+│ -B73A General Purpose Flag  0800 (2048)
+│ +B736 LOCAL HEADER #32      04034B50 (67324752)
+│ +B73A Extract Zip Spec      14 (20) '2.0'
+│ +B73B Extract OS            00 (0) 'MS-DOS'
+│ +B73C General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -B73C Compression Method    0008 (8) 'Deflated'
+│ -B73E Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -B742 CRC                   037C9158 (58495320)
+│ -B746 Compressed Size       0000003F (63)
+│ -B74A Uncompressed Size     00000040 (64)
+│ -B74E Filename Length       003C (60)
+│ -B750 Extra Length          0000 (0)
+│ -B752 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +B73E Compression Method    0008 (8) 'Deflated'
+│ +B740 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +B744 CRC                   037C9158 (58495320)
+│ +B748 Compressed Size       0000003F (63)
+│ +B74C Uncompressed Size     00000040 (64)
+│ +B750 Filename Length       003C (60)
+│ +B752 Extra Length          0000 (0)
+│ +B754 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xB752: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xB754: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -B78E PAYLOAD               XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+│ +B790 PAYLOAD               XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+│  
+│ -B7CD CENTRAL HEADER #1     02014B50 (33639248)
+│ -B7D1 Created Zip Spec      14 (20) '2.0'
+│ -B7D2 Created OS            03 (3) 'Unix'
+│ -B7D3 Extract Zip Spec      0A (10) '1.0'
+│ -B7D4 Extract OS            00 (0) 'MS-DOS'
+│ -B7D5 General Purpose Flag  0800 (2048)
+│ +B7CF CENTRAL HEADER #1     02014B50 (33639248)
+│ +B7D3 Created Zip Spec      14 (20) '2.0'
+│ +B7D4 Created OS            03 (3) 'Unix'
+│ +B7D5 Extract Zip Spec      0A (10) '1.0'
+│ +B7D6 Extract OS            00 (0) 'MS-DOS'
+│ +B7D7 General Purpose Flag  0800 (2048)
+│       [Bit 11]              1 'Language Encoding'
+│ -B7D7 Compression Method    0000 (0) 'Stored'
+│ -B7D9 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -B7DD CRC                   00000000 (0)
+│ -B7E1 Compressed Size       00000000 (0)
+│ -B7E5 Uncompressed Size     00000000 (0)
+│ -B7E9 Filename Length       0009 (9)
+│ -B7EB Extra Length          0000 (0)
+│ -B7ED Comment Length        0000 (0)
+│ -B7EF Disk Start            0000 (0)
+│ -B7F1 Int File Attributes   0000 (0)
+│ +B7D9 Compression Method    0000 (0) 'Stored'
+│ +B7DB Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +B7DF CRC                   00000000 (0)
+│ +B7E3 Compressed Size       00000000 (0)
+│ +B7E7 Uncompressed Size     00000000 (0)
+│ +B7EB Filename Length       0009 (9)
+│ +B7ED Extra Length          0000 (0)
+│ +B7EF Comment Length        0000 (0)
+│ +B7F1 Disk Start            0000 (0)
+│ +B7F3 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -B7F3 Ext File Attributes   41ED0010 (1106051088)
+│ +B7F5 Ext File Attributes   41ED0010 (1106051088)
+│       [Bit 4]               Directory
+│       [Bits 16-24]          01ED (493) 'Unix attrib: rwxr-xr-x'
+│       [Bits 28-31]          04 (4) 'Directory'
+│ -B7F7 Local Header Offset   00000000 (0)
+│ -B7FB Filename              'XXXXXXXXX'
+│ +B7F9 Local Header Offset   00000000 (0)
+│ +B7FD Filename              'XXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xB7FB: Filename 'XXXXXXXXX'
+│ +# WARNING: Offset 0xB7FD: Filename 'XXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -# ERROR: Offset 0xB7FB: Directory 'XXXXXXXXX' must end in a '/'
+│ +# ERROR: Offset 0xB7FD: Directory 'XXXXXXXXX' must end in a '/'
+│  #        'External Attributes' flag this as a directory
+│  #
+│ -# WARNING: Offset 0xB7D3: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXX'
+│ +# WARNING: Offset 0xB7D5: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXX'
+│  #
+│  
+│ -B804 CENTRAL HEADER #2     02014B50 (33639248)
+│ -B808 Created Zip Spec      14 (20) '2.0'
+│ -B809 Created OS            03 (3) 'Unix'
+│ -B80A Extract Zip Spec      14 (20) '2.0'
+│ -B80B Extract OS            00 (0) 'MS-DOS'
+│ -B80C General Purpose Flag  0800 (2048)
+│ +B806 CENTRAL HEADER #2     02014B50 (33639248)
+│ +B80A Created Zip Spec      14 (20) '2.0'
+│ +B80B Created OS            03 (3) 'Unix'
+│ +B80C Extract Zip Spec      14 (20) '2.0'
+│ +B80D Extract OS            00 (0) 'MS-DOS'
+│ +B80E General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -B80E Compression Method    0008 (8) 'Deflated'
+│ -B810 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -B814 CRC                   F2607879 (4066408569)
+│ -B818 Compressed Size       000000A3 (163)
+│ -B81C Uncompressed Size     0000012E (302)
+│ -B820 Filename Length       0014 (20)
+│ -B822 Extra Length          0000 (0)
+│ -B824 Comment Length        0000 (0)
+│ -B826 Disk Start            0000 (0)
+│ -B828 Int File Attributes   0000 (0)
+│ +B810 Compression Method    0008 (8) 'Deflated'
+│ +B812 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +B816 CRC                   F2607879 (4066408569)
+│ +B81A Compressed Size       000000A3 (163)
+│ +B81E Uncompressed Size     0000012E (302)
+│ +B822 Filename Length       0014 (20)
+│ +B824 Extra Length          0000 (0)
+│ +B826 Comment Length        0000 (0)
+│ +B828 Disk Start            0000 (0)
+│ +B82A Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -B82A Ext File Attributes   81A40000 (2175008768)
+│ +B82C Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -B82E Local Header Offset   00000027 (39)
+│ -B832 Filename              'XXXXXXXXXXXXXXXXXXXX'
+│ +B830 Local Header Offset   00000027 (39)
+│ +B834 Filename              'XXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xB832: Filename 'XXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xB834: Filename 'XXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -B846 CENTRAL HEADER #3     02014B50 (33639248)
+│ -B84A Created Zip Spec      14 (20) '2.0'
+│ -B84B Created OS            03 (3) 'Unix'
+│ -B84C Extract Zip Spec      0A (10) '1.0'
+│ -B84D Extract OS            00 (0) 'MS-DOS'
+│ -B84E General Purpose Flag  0800 (2048)
+│ +B848 CENTRAL HEADER #3     02014B50 (33639248)
+│ +B84C Created Zip Spec      14 (20) '2.0'
+│ +B84D Created OS            03 (3) 'Unix'
+│ +B84E Extract Zip Spec      0A (10) '1.0'
+│ +B84F Extract OS            00 (0) 'MS-DOS'
+│ +B850 General Purpose Flag  0800 (2048)
+│       [Bit 11]              1 'Language Encoding'
+│ -B850 Compression Method    0000 (0) 'Stored'
+│ -B852 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -B856 CRC                   00000000 (0)
+│ -B85A Compressed Size       00000000 (0)
+│ -B85E Uncompressed Size     00000000 (0)
+│ -B862 Filename Length       0004 (4)
+│ -B864 Extra Length          0000 (0)
+│ -B866 Comment Length        0000 (0)
+│ -B868 Disk Start            0000 (0)
+│ -B86A Int File Attributes   0000 (0)
+│ +B852 Compression Method    0000 (0) 'Stored'
+│ +B854 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +B858 CRC                   00000000 (0)
+│ +B85C Compressed Size       00000000 (0)
+│ +B860 Uncompressed Size     00000000 (0)
+│ +B864 Filename Length       0004 (4)
+│ +B866 Extra Length          0000 (0)
+│ +B868 Comment Length        0000 (0)
+│ +B86A Disk Start            0000 (0)
+│ +B86C Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -B86C Ext File Attributes   41ED0010 (1106051088)
+│ +B86E Ext File Attributes   41ED0010 (1106051088)
+│       [Bit 4]               Directory
+│       [Bits 16-24]          01ED (493) 'Unix attrib: rwxr-xr-x'
+│       [Bits 28-31]          04 (4) 'Directory'
+│ -B870 Local Header Offset   000000FC (252)
+│ -B874 Filename              'XXXX'
+│ +B872 Local Header Offset   000000FC (252)
+│ +B876 Filename              'XXXX'
+│  #
+│ -# WARNING: Offset 0xB874: Filename 'XXXX'
+│ +# WARNING: Offset 0xB876: Filename 'XXXX'
+│  #          Zero length filename
+│  #
+│ -# ERROR: Offset 0xB874: Directory 'XXXX' must end in a '/'
+│ +# ERROR: Offset 0xB876: Directory 'XXXX' must end in a '/'
+│  #        'External Attributes' flag this as a directory
+│  #
+│ -# WARNING: Offset 0xB84C: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXX'
+│ +# WARNING: Offset 0xB84E: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXX'
+│  #
+│  
+│ -B878 CENTRAL HEADER #4     02014B50 (33639248)
+│ -B87C Created Zip Spec      14 (20) '2.0'
+│ -B87D Created OS            03 (3) 'Unix'
+│ -B87E Extract Zip Spec      0A (10) '1.0'
+│ -B87F Extract OS            00 (0) 'MS-DOS'
+│ -B880 General Purpose Flag  0800 (2048)
+│ +B87A CENTRAL HEADER #4     02014B50 (33639248)
+│ +B87E Created Zip Spec      14 (20) '2.0'
+│ +B87F Created OS            03 (3) 'Unix'
+│ +B880 Extract Zip Spec      0A (10) '1.0'
+│ +B881 Extract OS            00 (0) 'MS-DOS'
+│ +B882 General Purpose Flag  0800 (2048)
+│       [Bit 11]              1 'Language Encoding'
+│ -B882 Compression Method    0000 (0) 'Stored'
+│ -B884 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -B888 CRC                   00000000 (0)
+│ -B88C Compressed Size       00000000 (0)
+│ -B890 Uncompressed Size     00000000 (0)
+│ -B894 Filename Length       000B (11)
+│ -B896 Extra Length          0000 (0)
+│ -B898 Comment Length        0000 (0)
+│ -B89A Disk Start            0000 (0)
+│ -B89C Int File Attributes   0000 (0)
+│ +B884 Compression Method    0000 (0) 'Stored'
+│ +B886 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +B88A CRC                   00000000 (0)
+│ +B88E Compressed Size       00000000 (0)
+│ +B892 Uncompressed Size     00000000 (0)
+│ +B896 Filename Length       000B (11)
+│ +B898 Extra Length          0000 (0)
+│ +B89A Comment Length        0000 (0)
+│ +B89C Disk Start            0000 (0)
+│ +B89E Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -B89E Ext File Attributes   41ED0010 (1106051088)
+│ +B8A0 Ext File Attributes   41ED0010 (1106051088)
+│       [Bit 4]               Directory
+│       [Bits 16-24]          01ED (493) 'Unix attrib: rwxr-xr-x'
+│       [Bits 28-31]          04 (4) 'Directory'
+│ -B8A2 Local Header Offset   0000011E (286)
+│ -B8A6 Filename              'XXXXXXXXXXX'
+│ +B8A4 Local Header Offset   0000011E (286)
+│ +B8A8 Filename              'XXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xB8A6: Filename 'XXXXXXXXXXX'
+│ +# WARNING: Offset 0xB8A8: Filename 'XXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -# ERROR: Offset 0xB8A6: Directory 'XXXXXXXXXXX' must end in a '/'
+│ +# ERROR: Offset 0xB8A8: Directory 'XXXXXXXXXXX' must end in a '/'
+│  #        'External Attributes' flag this as a directory
+│  #
+│ -# WARNING: Offset 0xB87E: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXX'
+│ +# WARNING: Offset 0xB880: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXX'
+│  #
+│  
+│ -B8B1 CENTRAL HEADER #5     02014B50 (33639248)
+│ -B8B5 Created Zip Spec      14 (20) '2.0'
+│ -B8B6 Created OS            03 (3) 'Unix'
+│ -B8B7 Extract Zip Spec      0A (10) '1.0'
+│ -B8B8 Extract OS            00 (0) 'MS-DOS'
+│ -B8B9 General Purpose Flag  0800 (2048)
+│ +B8B3 CENTRAL HEADER #5     02014B50 (33639248)
+│ +B8B7 Created Zip Spec      14 (20) '2.0'
+│ +B8B8 Created OS            03 (3) 'Unix'
+│ +B8B9 Extract Zip Spec      0A (10) '1.0'
+│ +B8BA Extract OS            00 (0) 'MS-DOS'
+│ +B8BB General Purpose Flag  0800 (2048)
+│       [Bit 11]              1 'Language Encoding'
+│ -B8BB Compression Method    0000 (0) 'Stored'
+│ -B8BD Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -B8C1 CRC                   00000000 (0)
+│ -B8C5 Compressed Size       00000000 (0)
+│ -B8C9 Uncompressed Size     00000000 (0)
+│ -B8CD Filename Length       0010 (16)
+│ -B8CF Extra Length          0000 (0)
+│ -B8D1 Comment Length        0000 (0)
+│ -B8D3 Disk Start            0000 (0)
+│ -B8D5 Int File Attributes   0000 (0)
+│ +B8BD Compression Method    0000 (0) 'Stored'
+│ +B8BF Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +B8C3 CRC                   00000000 (0)
+│ +B8C7 Compressed Size       00000000 (0)
+│ +B8CB Uncompressed Size     00000000 (0)
+│ +B8CF Filename Length       0010 (16)
+│ +B8D1 Extra Length          0000 (0)
+│ +B8D3 Comment Length        0000 (0)
+│ +B8D5 Disk Start            0000 (0)
+│ +B8D7 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -B8D7 Ext File Attributes   41ED0010 (1106051088)
+│ +B8D9 Ext File Attributes   41ED0010 (1106051088)
+│       [Bit 4]               Directory
+│       [Bits 16-24]          01ED (493) 'Unix attrib: rwxr-xr-x'
+│       [Bits 28-31]          04 (4) 'Directory'
+│ -B8DB Local Header Offset   00000147 (327)
+│ -B8DF Filename              'XXXXXXXXXXXXXXXX'
+│ +B8DD Local Header Offset   00000147 (327)
+│ +B8E1 Filename              'XXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xB8DF: Filename 'XXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xB8E1: Filename 'XXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -# ERROR: Offset 0xB8DF: Directory 'XXXXXXXXXXXXXXXX' must end in a '/'
+│ +# ERROR: Offset 0xB8E1: Directory 'XXXXXXXXXXXXXXXX' must end in a '/'
+│  #        'External Attributes' flag this as a directory
+│  #
+│ -# WARNING: Offset 0xB8B7: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xB8B9: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXXXXXXX'
+│  #
+│  
+│ -B8EF CENTRAL HEADER #6     02014B50 (33639248)
+│ -B8F3 Created Zip Spec      14 (20) '2.0'
+│ -B8F4 Created OS            03 (3) 'Unix'
+│ -B8F5 Extract Zip Spec      0A (10) '1.0'
+│ -B8F6 Extract OS            00 (0) 'MS-DOS'
+│ -B8F7 General Purpose Flag  0800 (2048)
+│ +B8F1 CENTRAL HEADER #6     02014B50 (33639248)
+│ +B8F5 Created Zip Spec      14 (20) '2.0'
+│ +B8F6 Created OS            03 (3) 'Unix'
+│ +B8F7 Extract Zip Spec      0A (10) '1.0'
+│ +B8F8 Extract OS            00 (0) 'MS-DOS'
+│ +B8F9 General Purpose Flag  0800 (2048)
+│       [Bit 11]              1 'Language Encoding'
+│ -B8F9 Compression Method    0000 (0) 'Stored'
+│ -B8FB Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -B8FF CRC                   00000000 (0)
+│ -B903 Compressed Size       00000000 (0)
+│ -B907 Uncompressed Size     00000000 (0)
+│ -B90B Filename Length       0014 (20)
+│ -B90D Extra Length          0000 (0)
+│ -B90F Comment Length        0000 (0)
+│ -B911 Disk Start            0000 (0)
+│ -B913 Int File Attributes   0000 (0)
+│ +B8FB Compression Method    0000 (0) 'Stored'
+│ +B8FD Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +B901 CRC                   00000000 (0)
+│ +B905 Compressed Size       00000000 (0)
+│ +B909 Uncompressed Size     00000000 (0)
+│ +B90D Filename Length       0014 (20)
+│ +B90F Extra Length          0000 (0)
+│ +B911 Comment Length        0000 (0)
+│ +B913 Disk Start            0000 (0)
+│ +B915 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -B915 Ext File Attributes   41ED0010 (1106051088)
+│ +B917 Ext File Attributes   41ED0010 (1106051088)
+│       [Bit 4]               Directory
+│       [Bits 16-24]          01ED (493) 'Unix attrib: rwxr-xr-x'
+│       [Bits 28-31]          04 (4) 'Directory'
+│ -B919 Local Header Offset   00000175 (373)
+│ -B91D Filename              'XXXXXXXXXXXXXXXXXXXX'
+│ +B91B Local Header Offset   00000175 (373)
+│ +B91F Filename              'XXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xB91D: Filename 'XXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xB91F: Filename 'XXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -# ERROR: Offset 0xB91D: Directory 'XXXXXXXXXXXXXXXXXXXX' must end in a '/'
+│ +# ERROR: Offset 0xB91F: Directory 'XXXXXXXXXXXXXXXXXXXX' must end in a '/'
+│  #        'External Attributes' flag this as a directory
+│  #
+│ -# WARNING: Offset 0xB8F5: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xB8F7: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXXXXXXXXXXX'
+│  #
+│  
+│ -B931 CENTRAL HEADER #7     02014B50 (33639248)
+│ -B935 Created Zip Spec      14 (20) '2.0'
+│ -B936 Created OS            03 (3) 'Unix'
+│ -B937 Extract Zip Spec      0A (10) '1.0'
+│ -B938 Extract OS            00 (0) 'MS-DOS'
+│ -B939 General Purpose Flag  0800 (2048)
+│ +B933 CENTRAL HEADER #7     02014B50 (33639248)
+│ +B937 Created Zip Spec      14 (20) '2.0'
+│ +B938 Created OS            03 (3) 'Unix'
+│ +B939 Extract Zip Spec      0A (10) '1.0'
+│ +B93A Extract OS            00 (0) 'MS-DOS'
+│ +B93B General Purpose Flag  0800 (2048)
+│       [Bit 11]              1 'Language Encoding'
+│ -B93B Compression Method    0000 (0) 'Stored'
+│ -B93D Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -B941 CRC                   00000000 (0)
+│ -B945 Compressed Size       00000000 (0)
+│ -B949 Uncompressed Size     00000000 (0)
+│ -B94D Filename Length       0015 (21)
+│ -B94F Extra Length          0000 (0)
+│ -B951 Comment Length        0000 (0)
+│ -B953 Disk Start            0000 (0)
+│ -B955 Int File Attributes   0000 (0)
+│ +B93D Compression Method    0000 (0) 'Stored'
+│ +B93F Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +B943 CRC                   00000000 (0)
+│ +B947 Compressed Size       00000000 (0)
+│ +B94B Uncompressed Size     00000000 (0)
+│ +B94F Filename Length       0015 (21)
+│ +B951 Extra Length          0000 (0)
+│ +B953 Comment Length        0000 (0)
+│ +B955 Disk Start            0000 (0)
+│ +B957 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -B957 Ext File Attributes   41ED0010 (1106051088)
+│ +B959 Ext File Attributes   41ED0010 (1106051088)
+│       [Bit 4]               Directory
+│       [Bits 16-24]          01ED (493) 'Unix attrib: rwxr-xr-x'
+│       [Bits 28-31]          04 (4) 'Directory'
+│ -B95B Local Header Offset   000001A7 (423)
+│ -B95F Filename              'XXXXXXXXXXXXXXXXXXXXX'
+│ +B95D Local Header Offset   000001A7 (423)
+│ +B961 Filename              'XXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xB95F: Filename 'XXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xB961: Filename 'XXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -# ERROR: Offset 0xB95F: Directory 'XXXXXXXXXXXXXXXXXXXXX' must end in a '/'
+│ +# ERROR: Offset 0xB961: Directory 'XXXXXXXXXXXXXXXXXXXXX' must end in a '/'
+│  #        'External Attributes' flag this as a directory
+│  #
+│ -# WARNING: Offset 0xB937: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xB939: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXXXXXXXXXXXX'
+│  #
+│  
+│ -B974 CENTRAL HEADER #8     02014B50 (33639248)
+│ -B978 Created Zip Spec      14 (20) '2.0'
+│ -B979 Created OS            03 (3) 'Unix'
+│ -B97A Extract Zip Spec      0A (10) '1.0'
+│ -B97B Extract OS            00 (0) 'MS-DOS'
+│ -B97C General Purpose Flag  0800 (2048)
+│ +B976 CENTRAL HEADER #8     02014B50 (33639248)
+│ +B97A Created Zip Spec      14 (20) '2.0'
+│ +B97B Created OS            03 (3) 'Unix'
+│ +B97C Extract Zip Spec      0A (10) '1.0'
+│ +B97D Extract OS            00 (0) 'MS-DOS'
+│ +B97E General Purpose Flag  0800 (2048)
+│       [Bit 11]              1 'Language Encoding'
+│ -B97E Compression Method    0000 (0) 'Stored'
+│ -B980 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -B984 CRC                   00000000 (0)
+│ -B988 Compressed Size       00000000 (0)
+│ -B98C Uncompressed Size     00000000 (0)
+│ -B990 Filename Length       000F (15)
+│ -B992 Extra Length          0000 (0)
+│ -B994 Comment Length        0000 (0)
+│ -B996 Disk Start            0000 (0)
+│ -B998 Int File Attributes   0000 (0)
+│ +B980 Compression Method    0000 (0) 'Stored'
+│ +B982 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +B986 CRC                   00000000 (0)
+│ +B98A Compressed Size       00000000 (0)
+│ +B98E Uncompressed Size     00000000 (0)
+│ +B992 Filename Length       000F (15)
+│ +B994 Extra Length          0000 (0)
+│ +B996 Comment Length        0000 (0)
+│ +B998 Disk Start            0000 (0)
+│ +B99A Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -B99A Ext File Attributes   41ED0010 (1106051088)
+│ +B99C Ext File Attributes   41ED0010 (1106051088)
+│       [Bit 4]               Directory
+│       [Bits 16-24]          01ED (493) 'Unix attrib: rwxr-xr-x'
+│       [Bits 28-31]          04 (4) 'Directory'
+│ -B99E Local Header Offset   000001DA (474)
+│ -B9A2 Filename              'XXXXXXXXXXXXXXX'
+│ +B9A0 Local Header Offset   000001DA (474)
+│ +B9A4 Filename              'XXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xB9A2: Filename 'XXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xB9A4: Filename 'XXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -# ERROR: Offset 0xB9A2: Directory 'XXXXXXXXXXXXXXX' must end in a '/'
+│ +# ERROR: Offset 0xB9A4: Directory 'XXXXXXXXXXXXXXX' must end in a '/'
+│  #        'External Attributes' flag this as a directory
+│  #
+│ -# WARNING: Offset 0xB97A: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xB97C: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXXXXXX'
+│  #
+│  
+│ -B9B1 CENTRAL HEADER #9     02014B50 (33639248)
+│ -B9B5 Created Zip Spec      14 (20) '2.0'
+│ -B9B6 Created OS            03 (3) 'Unix'
+│ -B9B7 Extract Zip Spec      0A (10) '1.0'
+│ -B9B8 Extract OS            00 (0) 'MS-DOS'
+│ -B9B9 General Purpose Flag  0800 (2048)
+│ +B9B3 CENTRAL HEADER #9     02014B50 (33639248)
+│ +B9B7 Created Zip Spec      14 (20) '2.0'
+│ +B9B8 Created OS            03 (3) 'Unix'
+│ +B9B9 Extract Zip Spec      0A (10) '1.0'
+│ +B9BA Extract OS            00 (0) 'MS-DOS'
+│ +B9BB General Purpose Flag  0800 (2048)
+│       [Bit 11]              1 'Language Encoding'
+│ -B9BB Compression Method    0000 (0) 'Stored'
+│ -B9BD Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -B9C1 CRC                   00000000 (0)
+│ -B9C5 Compressed Size       00000000 (0)
+│ -B9C9 Uncompressed Size     00000000 (0)
+│ -B9CD Filename Length       001F (31)
+│ -B9CF Extra Length          0000 (0)
+│ -B9D1 Comment Length        0000 (0)
+│ -B9D3 Disk Start            0000 (0)
+│ -B9D5 Int File Attributes   0000 (0)
+│ +B9BD Compression Method    0000 (0) 'Stored'
+│ +B9BF Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +B9C3 CRC                   00000000 (0)
+│ +B9C7 Compressed Size       00000000 (0)
+│ +B9CB Uncompressed Size     00000000 (0)
+│ +B9CF Filename Length       001F (31)
+│ +B9D1 Extra Length          0000 (0)
+│ +B9D3 Comment Length        0000 (0)
+│ +B9D5 Disk Start            0000 (0)
+│ +B9D7 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -B9D7 Ext File Attributes   41ED0010 (1106051088)
+│ +B9D9 Ext File Attributes   41ED0010 (1106051088)
+│       [Bit 4]               Directory
+│       [Bits 16-24]          01ED (493) 'Unix attrib: rwxr-xr-x'
+│       [Bits 28-31]          04 (4) 'Directory'
+│ -B9DB Local Header Offset   00000207 (519)
+│ -B9DF Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +B9DD Local Header Offset   00000207 (519)
+│ +B9E1 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xB9DF: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xB9E1: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -# ERROR: Offset 0xB9DF: Directory 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX' must end in a '/'
+│ +# ERROR: Offset 0xB9E1: Directory 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX' must end in a '/'
+│  #        'External Attributes' flag this as a directory
+│  #
+│ -# WARNING: Offset 0xB9B7: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xB9B9: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│  
+│ -B9FE CENTRAL HEADER #10    02014B50 (33639248)
+│ -BA02 Created Zip Spec      14 (20) '2.0'
+│ -BA03 Created OS            03 (3) 'Unix'
+│ -BA04 Extract Zip Spec      0A (10) '1.0'
+│ -BA05 Extract OS            00 (0) 'MS-DOS'
+│ -BA06 General Purpose Flag  0800 (2048)
+│ +BA00 CENTRAL HEADER #10    02014B50 (33639248)
+│ +BA04 Created Zip Spec      14 (20) '2.0'
+│ +BA05 Created OS            03 (3) 'Unix'
+│ +BA06 Extract Zip Spec      0A (10) '1.0'
+│ +BA07 Extract OS            00 (0) 'MS-DOS'
+│ +BA08 General Purpose Flag  0800 (2048)
+│       [Bit 11]              1 'Language Encoding'
+│ -BA08 Compression Method    0000 (0) 'Stored'
+│ -BA0A Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -BA0E CRC                   00000000 (0)
+│ -BA12 Compressed Size       00000000 (0)
+│ -BA16 Uncompressed Size     00000000 (0)
+│ -BA1A Filename Length       002E (46)
+│ -BA1C Extra Length          0000 (0)
+│ -BA1E Comment Length        0000 (0)
+│ -BA20 Disk Start            0000 (0)
+│ -BA22 Int File Attributes   0000 (0)
+│ +BA0A Compression Method    0000 (0) 'Stored'
+│ +BA0C Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +BA10 CRC                   00000000 (0)
+│ +BA14 Compressed Size       00000000 (0)
+│ +BA18 Uncompressed Size     00000000 (0)
+│ +BA1C Filename Length       002E (46)
+│ +BA1E Extra Length          0000 (0)
+│ +BA20 Comment Length        0000 (0)
+│ +BA22 Disk Start            0000 (0)
+│ +BA24 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -BA24 Ext File Attributes   41ED0010 (1106051088)
+│ +BA26 Ext File Attributes   41ED0010 (1106051088)
+│       [Bit 4]               Directory
+│       [Bits 16-24]          01ED (493) 'Unix attrib: rwxr-xr-x'
+│       [Bits 28-31]          04 (4) 'Directory'
+│ -BA28 Local Header Offset   00000244 (580)
+│ -BA2C Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +BA2A Local Header Offset   00000244 (580)
+│ +BA2E Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xBA2C: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xBA2E: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -# ERROR: Offset 0xBA2C: Directory 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX' must end in a '/'
+│ +# ERROR: Offset 0xBA2E: Directory 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX' must end in a '/'
+│  #        'External Attributes' flag this as a directory
+│  #
+│ -# WARNING: Offset 0xBA04: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xBA06: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│  
+│ -BA5A CENTRAL HEADER #11    02014B50 (33639248)
+│ -BA5E Created Zip Spec      14 (20) '2.0'
+│ -BA5F Created OS            03 (3) 'Unix'
+│ -BA60 Extract Zip Spec      14 (20) '2.0'
+│ -BA61 Extract OS            00 (0) 'MS-DOS'
+│ -BA62 General Purpose Flag  0800 (2048)
+│ +BA5C CENTRAL HEADER #11    02014B50 (33639248)
+│ +BA60 Created Zip Spec      14 (20) '2.0'
+│ +BA61 Created OS            03 (3) 'Unix'
+│ +BA62 Extract Zip Spec      14 (20) '2.0'
+│ +BA63 Extract OS            00 (0) 'MS-DOS'
+│ +BA64 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -BA64 Compression Method    0008 (8) 'Deflated'
+│ -BA66 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -BA6A CRC                   0070BABD (7387837)
+│ -BA6E Compressed Size       0000006D (109)
+│ -BA72 Uncompressed Size     00000108 (264)
+│ -BA76 Filename Length       0015 (21)
+│ -BA78 Extra Length          0000 (0)
+│ -BA7A Comment Length        0000 (0)
+│ -BA7C Disk Start            0000 (0)
+│ -BA7E Int File Attributes   0000 (0)
+│ +BA66 Compression Method    0008 (8) 'Deflated'
+│ +BA68 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +BA6C CRC                   0070BABD (7387837)
+│ +BA70 Compressed Size       0000006D (109)
+│ +BA74 Uncompressed Size     00000108 (264)
+│ +BA78 Filename Length       0015 (21)
+│ +BA7A Extra Length          0000 (0)
+│ +BA7C Comment Length        0000 (0)
+│ +BA7E Disk Start            0000 (0)
+│ +BA80 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -BA80 Ext File Attributes   81A40000 (2175008768)
+│ +BA82 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -BA84 Local Header Offset   00000290 (656)
+│ -BA88 Filename              'XXXXXXXXXXXXXXXXXXXXX'
+│ +BA86 Local Header Offset   00000290 (656)
+│ +BA8A Filename              'XXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xBA88: Filename 'XXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xBA8A: Filename 'XXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -BA9D CENTRAL HEADER #12    02014B50 (33639248)
+│ -BAA1 Created Zip Spec      14 (20) '2.0'
+│ -BAA2 Created OS            03 (3) 'Unix'
+│ -BAA3 Extract Zip Spec      14 (20) '2.0'
+│ -BAA4 Extract OS            00 (0) 'MS-DOS'
+│ -BAA5 General Purpose Flag  0800 (2048)
+│ +BA9F CENTRAL HEADER #12    02014B50 (33639248)
+│ +BAA3 Created Zip Spec      14 (20) '2.0'
+│ +BAA4 Created OS            03 (3) 'Unix'
+│ +BAA5 Extract Zip Spec      14 (20) '2.0'
+│ +BAA6 Extract OS            00 (0) 'MS-DOS'
+│ +BAA7 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -BAA7 Compression Method    0008 (8) 'Deflated'
+│ -BAA9 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -BAAD CRC                   86E2B4B4 (2263004340)
+│ -BAB1 Compressed Size       00000F6D (3949)
+│ -BAB5 Uncompressed Size     00002C5E (11358)
+│ -BAB9 Filename Length       0010 (16)
+│ -BABB Extra Length          0000 (0)
+│ -BABD Comment Length        0000 (0)
+│ -BABF Disk Start            0000 (0)
+│ -BAC1 Int File Attributes   0000 (0)
+│ +BAA9 Compression Method    0008 (8) 'Deflated'
+│ +BAAB Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +BAAF CRC                   86E2B4B4 (2263004340)
+│ +BAB3 Compressed Size       00000F6D (3949)
+│ +BAB7 Uncompressed Size     00002C5E (11358)
+│ +BABB Filename Length       0010 (16)
+│ +BABD Extra Length          0000 (0)
+│ +BABF Comment Length        0000 (0)
+│ +BAC1 Disk Start            0000 (0)
+│ +BAC3 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -BAC3 Ext File Attributes   81A40000 (2175008768)
+│ +BAC5 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -BAC7 Local Header Offset   00000330 (816)
+│ -BACB Filename              'XXXXXXXXXXXXXXXX'
+│ +BAC9 Local Header Offset   00000330 (816)
+│ +BACD Filename              'XXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xBACB: Filename 'XXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xBACD: Filename 'XXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -BADB CENTRAL HEADER #13    02014B50 (33639248)
+│ -BADF Created Zip Spec      14 (20) '2.0'
+│ -BAE0 Created OS            03 (3) 'Unix'
+│ -BAE1 Extract Zip Spec      14 (20) '2.0'
+│ -BAE2 Extract OS            00 (0) 'MS-DOS'
+│ -BAE3 General Purpose Flag  0800 (2048)
+│ +BADD CENTRAL HEADER #13    02014B50 (33639248)
+│ +BAE1 Created Zip Spec      14 (20) '2.0'
+│ +BAE2 Created OS            03 (3) 'Unix'
+│ +BAE3 Extract Zip Spec      14 (20) '2.0'
+│ +BAE4 Extract OS            00 (0) 'MS-DOS'
+│ +BAE5 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -BAE5 Compression Method    0008 (8) 'Deflated'
+│ -BAE7 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -BAEB CRC                   1BD36194 (466837908)
+│ -BAEF Compressed Size       0000007D (125)
+│ -BAF3 Uncompressed Size     00000099 (153)
+│ -BAF7 Filename Length       000F (15)
+│ -BAF9 Extra Length          0000 (0)
+│ -BAFB Comment Length        0000 (0)
+│ -BAFD Disk Start            0000 (0)
+│ -BAFF Int File Attributes   0000 (0)
+│ +BAE7 Compression Method    0008 (8) 'Deflated'
+│ +BAE9 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +BAED CRC                   1BD36194 (466837908)
+│ +BAF1 Compressed Size       0000007D (125)
+│ +BAF5 Uncompressed Size     00000099 (153)
+│ +BAF9 Filename Length       000F (15)
+│ +BAFB Extra Length          0000 (0)
+│ +BAFD Comment Length        0000 (0)
+│ +BAFF Disk Start            0000 (0)
+│ +BB01 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -BB01 Ext File Attributes   81A40000 (2175008768)
+│ +BB03 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -BB05 Local Header Offset   000012CB (4811)
+│ -BB09 Filename              'XXXXXXXXXXXXXXX'
+│ +BB07 Local Header Offset   000012CB (4811)
+│ +BB0B Filename              'XXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xBB09: Filename 'XXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xBB0B: Filename 'XXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -BB18 CENTRAL HEADER #14    02014B50 (33639248)
+│ -BB1C Created Zip Spec      14 (20) '2.0'
+│ -BB1D Created OS            03 (3) 'Unix'
+│ -BB1E Extract Zip Spec      14 (20) '2.0'
+│ -BB1F Extract OS            00 (0) 'MS-DOS'
+│ -BB20 General Purpose Flag  0800 (2048)
+│ +BB1A CENTRAL HEADER #14    02014B50 (33639248)
+│ +BB1E Created Zip Spec      14 (20) '2.0'
+│ +BB1F Created OS            03 (3) 'Unix'
+│ +BB20 Extract Zip Spec      14 (20) '2.0'
+│ +BB21 Extract OS            00 (0) 'MS-DOS'
+│ +BB22 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -BB22 Compression Method    0008 (8) 'Deflated'
+│ -BB24 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -BB28 CRC                   9F3E3F68 (2671656808)
+│ -BB2C Compressed Size       00000228 (552)
+│ -BB30 Uncompressed Size     000003BF (959)
+│ -BB34 Filename Length       0010 (16)
+│ -BB36 Extra Length          0000 (0)
+│ -BB38 Comment Length        0000 (0)
+│ -BB3A Disk Start            0000 (0)
+│ -BB3C Int File Attributes   0000 (0)
+│ +BB24 Compression Method    0008 (8) 'Deflated'
+│ +BB26 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +BB2A CRC                   9F3E3F68 (2671656808)
+│ +BB2E Compressed Size       00000228 (552)
+│ +BB32 Uncompressed Size     000003BF (959)
+│ +BB36 Filename Length       0010 (16)
+│ +BB38 Extra Length          0000 (0)
+│ +BB3A Comment Length        0000 (0)
+│ +BB3C Disk Start            0000 (0)
+│ +BB3E Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -BB3E Ext File Attributes   81A40000 (2175008768)
+│ +BB40 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -BB42 Local Header Offset   00001375 (4981)
+│ -BB46 Filename              'XXXXXXXXXXXXXXXX'
+│ +BB44 Local Header Offset   00001375 (4981)
+│ +BB48 Filename              'XXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xBB46: Filename 'XXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xBB48: Filename 'XXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -BB56 CENTRAL HEADER #15    02014B50 (33639248)
+│ -BB5A Created Zip Spec      14 (20) '2.0'
+│ -BB5B Created OS            03 (3) 'Unix'
+│ -BB5C Extract Zip Spec      14 (20) '2.0'
+│ -BB5D Extract OS            00 (0) 'MS-DOS'
+│ -BB5E General Purpose Flag  0800 (2048)
+│ +BB58 CENTRAL HEADER #15    02014B50 (33639248)
+│ +BB5C Created Zip Spec      14 (20) '2.0'
+│ +BB5D Created OS            03 (3) 'Unix'
+│ +BB5E Extract Zip Spec      14 (20) '2.0'
+│ +BB5F Extract OS            00 (0) 'MS-DOS'
+│ +BB60 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -BB60 Compression Method    0008 (8) 'Deflated'
+│ -BB62 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -BB66 CRC                   DF8A0F92 (3750367122)
+│ -BB6A Compressed Size       00000E01 (3585)
+│ -BB6E Uncompressed Size     00002016 (8214)
+│ -BB72 Filename Length       003E (62)
+│ -BB74 Extra Length          0000 (0)
+│ -BB76 Comment Length        0000 (0)
+│ -BB78 Disk Start            0000 (0)
+│ -BB7A Int File Attributes   0000 (0)
+│ +BB62 Compression Method    0008 (8) 'Deflated'
+│ +BB64 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +BB68 CRC                   DF8A0F92 (3750367122)
+│ +BB6C Compressed Size       00000E01 (3585)
+│ +BB70 Uncompressed Size     00002016 (8214)
+│ +BB74 Filename Length       003E (62)
+│ +BB76 Extra Length          0000 (0)
+│ +BB78 Comment Length        0000 (0)
+│ +BB7A Disk Start            0000 (0)
+│ +BB7C Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -BB7C Ext File Attributes   81A40000 (2175008768)
+│ +BB7E Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -BB80 Local Header Offset   000015CB (5579)
+│ -BB84 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +BB82 Local Header Offset   000015CB (5579)
+│ +BB86 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xBB84: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xBB86: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -BBC2 CENTRAL HEADER #16    02014B50 (33639248)
+│ -BBC6 Created Zip Spec      14 (20) '2.0'
+│ -BBC7 Created OS            03 (3) 'Unix'
+│ -BBC8 Extract Zip Spec      14 (20) '2.0'
+│ -BBC9 Extract OS            00 (0) 'MS-DOS'
+│ -BBCA General Purpose Flag  0800 (2048)
+│ +BBC4 CENTRAL HEADER #16    02014B50 (33639248)
+│ +BBC8 Created Zip Spec      14 (20) '2.0'
+│ +BBC9 Created OS            03 (3) 'Unix'
+│ +BBCA Extract Zip Spec      14 (20) '2.0'
+│ +BBCB Extract OS            00 (0) 'MS-DOS'
+│ +BBCC General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -BBCC Compression Method    0008 (8) 'Deflated'
+│ -BBCE Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -BBD2 CRC                   B8DD3843 (3101505603)
+│ -BBD6 Compressed Size       000003EE (1006)
+│ -BBDA Uncompressed Size     00000707 (1799)
+│ -BBDE Filename Length       0029 (41)
+│ -BBE0 Extra Length          0000 (0)
+│ -BBE2 Comment Length        0000 (0)
+│ -BBE4 Disk Start            0000 (0)
+│ -BBE6 Int File Attributes   0000 (0)
+│ +BBCE Compression Method    0008 (8) 'Deflated'
+│ +BBD0 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +BBD4 CRC                   B8DD3843 (3101505603)
+│ +BBD8 Compressed Size       000003EE (1006)
+│ +BBDC Uncompressed Size     00000707 (1799)
+│ +BBE0 Filename Length       0029 (41)
+│ +BBE2 Extra Length          0000 (0)
+│ +BBE4 Comment Length        0000 (0)
+│ +BBE6 Disk Start            0000 (0)
+│ +BBE8 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -BBE8 Ext File Attributes   81A40000 (2175008768)
+│ +BBEA Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -BBEC Local Header Offset   00002428 (9256)
+│ -BBF0 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +BBEE Local Header Offset   00002428 (9256)
+│ +BBF2 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xBBF0: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xBBF2: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -BC19 CENTRAL HEADER #17    02014B50 (33639248)
+│ -BC1D Created Zip Spec      14 (20) '2.0'
+│ -BC1E Created OS            03 (3) 'Unix'
+│ -BC1F Extract Zip Spec      14 (20) '2.0'
+│ -BC20 Extract OS            00 (0) 'MS-DOS'
+│ -BC21 General Purpose Flag  0800 (2048)
+│ +BC1B CENTRAL HEADER #17    02014B50 (33639248)
+│ +BC1F Created Zip Spec      14 (20) '2.0'
+│ +BC20 Created OS            03 (3) 'Unix'
+│ +BC21 Extract Zip Spec      14 (20) '2.0'
+│ +BC22 Extract OS            00 (0) 'MS-DOS'
+│ +BC23 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -BC23 Compression Method    0008 (8) 'Deflated'
+│ -BC25 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -BC29 CRC                   7CA2BE8A (2091040394)
+│ -BC2D Compressed Size       0000094F (2383)
+│ -BC31 Uncompressed Size     000017B5 (6069)
+│ -BC35 Filename Length       002D (45)
+│ -BC37 Extra Length          0000 (0)
+│ -BC39 Comment Length        0000 (0)
+│ -BC3B Disk Start            0000 (0)
+│ -BC3D Int File Attributes   0000 (0)
+│ +BC25 Compression Method    0008 (8) 'Deflated'
+│ +BC27 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +BC2B CRC                   45261A5E (1160125022)
+│ +BC2F Compressed Size       00000951 (2385)
+│ +BC33 Uncompressed Size     000017B5 (6069)
+│ +BC37 Filename Length       002D (45)
+│ +BC39 Extra Length          0000 (0)
+│ +BC3B Comment Length        0000 (0)
+│ +BC3D Disk Start            0000 (0)
+│ +BC3F Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -BC3F Ext File Attributes   81A40000 (2175008768)
+│ +BC41 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -BC43 Local Header Offset   0000285D (10333)
+│ -BC47 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +BC45 Local Header Offset   0000285D (10333)
+│ +BC49 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xBC47: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xBC49: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -BC74 CENTRAL HEADER #18    02014B50 (33639248)
+│ -BC78 Created Zip Spec      14 (20) '2.0'
+│ -BC79 Created OS            03 (3) 'Unix'
+│ -BC7A Extract Zip Spec      14 (20) '2.0'
+│ -BC7B Extract OS            00 (0) 'MS-DOS'
+│ -BC7C General Purpose Flag  0800 (2048)
+│ +BC76 CENTRAL HEADER #18    02014B50 (33639248)
+│ +BC7A Created Zip Spec      14 (20) '2.0'
+│ +BC7B Created OS            03 (3) 'Unix'
+│ +BC7C Extract Zip Spec      14 (20) '2.0'
+│ +BC7D Extract OS            00 (0) 'MS-DOS'
+│ +BC7E General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -BC7E Compression Method    0008 (8) 'Deflated'
+│ -BC80 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -BC84 CRC                   EFE23504 (4024579332)
+│ -BC88 Compressed Size       00000695 (1685)
+│ -BC8C Uncompressed Size     00000D31 (3377)
+│ -BC90 Filename Length       0027 (39)
+│ -BC92 Extra Length          0000 (0)
+│ -BC94 Comment Length        0000 (0)
+│ -BC96 Disk Start            0000 (0)
+│ -BC98 Int File Attributes   0000 (0)
+│ +BC80 Compression Method    0008 (8) 'Deflated'
+│ +BC82 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +BC86 CRC                   EFE23504 (4024579332)
+│ +BC8A Compressed Size       00000695 (1685)
+│ +BC8E Uncompressed Size     00000D31 (3377)
+│ +BC92 Filename Length       0027 (39)
+│ +BC94 Extra Length          0000 (0)
+│ +BC96 Comment Length        0000 (0)
+│ +BC98 Disk Start            0000 (0)
+│ +BC9A Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -BC9A Ext File Attributes   81A40000 (2175008768)
+│ +BC9C Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -BC9E Local Header Offset   000031F7 (12791)
+│ -BCA2 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +BCA0 Local Header Offset   000031F9 (12793)
+│ +BCA4 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xBCA2: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xBCA4: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -BCC9 CENTRAL HEADER #19    02014B50 (33639248)
+│ -BCCD Created Zip Spec      14 (20) '2.0'
+│ -BCCE Created OS            03 (3) 'Unix'
+│ -BCCF Extract Zip Spec      14 (20) '2.0'
+│ -BCD0 Extract OS            00 (0) 'MS-DOS'
+│ -BCD1 General Purpose Flag  0800 (2048)
+│ +BCCB CENTRAL HEADER #19    02014B50 (33639248)
+│ +BCCF Created Zip Spec      14 (20) '2.0'
+│ +BCD0 Created OS            03 (3) 'Unix'
+│ +BCD1 Extract Zip Spec      14 (20) '2.0'
+│ +BCD2 Extract OS            00 (0) 'MS-DOS'
+│ +BCD3 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -BCD3 Compression Method    0008 (8) 'Deflated'
+│ -BCD5 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -BCD9 CRC                   2B05D103 (721801475)
+│ -BCDD Compressed Size       00000853 (2131)
+│ -BCE1 Uncompressed Size     000011D6 (4566)
+│ -BCE5 Filename Length       0028 (40)
+│ -BCE7 Extra Length          0000 (0)
+│ -BCE9 Comment Length        0000 (0)
+│ -BCEB Disk Start            0000 (0)
+│ -BCED Int File Attributes   0000 (0)
+│ +BCD5 Compression Method    0008 (8) 'Deflated'
+│ +BCD7 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +BCDB CRC                   2B05D103 (721801475)
+│ +BCDF Compressed Size       00000853 (2131)
+│ +BCE3 Uncompressed Size     000011D6 (4566)
+│ +BCE7 Filename Length       0028 (40)
+│ +BCE9 Extra Length          0000 (0)
+│ +BCEB Comment Length        0000 (0)
+│ +BCED Disk Start            0000 (0)
+│ +BCEF Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -BCEF Ext File Attributes   81A40000 (2175008768)
+│ +BCF1 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -BCF3 Local Header Offset   000038D1 (14545)
+│ -BCF7 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +BCF5 Local Header Offset   000038D3 (14547)
+│ +BCF9 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xBCF7: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xBCF9: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -BD1F CENTRAL HEADER #20    02014B50 (33639248)
+│ -BD23 Created Zip Spec      14 (20) '2.0'
+│ -BD24 Created OS            03 (3) 'Unix'
+│ -BD25 Extract Zip Spec      14 (20) '2.0'
+│ -BD26 Extract OS            00 (0) 'MS-DOS'
+│ -BD27 General Purpose Flag  0800 (2048)
+│ +BD21 CENTRAL HEADER #20    02014B50 (33639248)
+│ +BD25 Created Zip Spec      14 (20) '2.0'
+│ +BD26 Created OS            03 (3) 'Unix'
+│ +BD27 Extract Zip Spec      14 (20) '2.0'
+│ +BD28 Extract OS            00 (0) 'MS-DOS'
+│ +BD29 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -BD29 Compression Method    0008 (8) 'Deflated'
+│ -BD2B Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -BD2F CRC                   38477BFC (944208892)
+│ -BD33 Compressed Size       00000349 (841)
+│ -BD37 Uncompressed Size     000007AC (1964)
+│ -BD3B Filename Length       0035 (53)
+│ -BD3D Extra Length          0000 (0)
+│ -BD3F Comment Length        0000 (0)
+│ -BD41 Disk Start            0000 (0)
+│ -BD43 Int File Attributes   0000 (0)
+│ +BD2B Compression Method    0008 (8) 'Deflated'
+│ +BD2D Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +BD31 CRC                   38477BFC (944208892)
+│ +BD35 Compressed Size       00000349 (841)
+│ +BD39 Uncompressed Size     000007AC (1964)
+│ +BD3D Filename Length       0035 (53)
+│ +BD3F Extra Length          0000 (0)
+│ +BD41 Comment Length        0000 (0)
+│ +BD43 Disk Start            0000 (0)
+│ +BD45 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -BD45 Ext File Attributes   81A40000 (2175008768)
+│ +BD47 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -BD49 Local Header Offset   0000416A (16746)
+│ -BD4D Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +BD4B Local Header Offset   0000416C (16748)
+│ +BD4F Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xBD4D: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xBD4F: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -BD82 CENTRAL HEADER #21    02014B50 (33639248)
+│ -BD86 Created Zip Spec      14 (20) '2.0'
+│ -BD87 Created OS            03 (3) 'Unix'
+│ -BD88 Extract Zip Spec      14 (20) '2.0'
+│ -BD89 Extract OS            00 (0) 'MS-DOS'
+│ -BD8A General Purpose Flag  0800 (2048)
+│ +BD84 CENTRAL HEADER #21    02014B50 (33639248)
+│ +BD88 Created Zip Spec      14 (20) '2.0'
+│ +BD89 Created OS            03 (3) 'Unix'
+│ +BD8A Extract Zip Spec      14 (20) '2.0'
+│ +BD8B Extract OS            00 (0) 'MS-DOS'
+│ +BD8C General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -BD8C Compression Method    0008 (8) 'Deflated'
+│ -BD8E Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -BD92 CRC                   74B2C068 (1957871720)
+│ -BD96 Compressed Size       00001F7A (8058)
+│ -BD9A Uncompressed Size     000049D2 (18898)
+│ -BD9E Filename Length       0029 (41)
+│ -BDA0 Extra Length          0000 (0)
+│ -BDA2 Comment Length        0000 (0)
+│ -BDA4 Disk Start            0000 (0)
+│ -BDA6 Int File Attributes   0000 (0)
+│ +BD8E Compression Method    0008 (8) 'Deflated'
+│ +BD90 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +BD94 CRC                   74B2C068 (1957871720)
+│ +BD98 Compressed Size       00001F7A (8058)
+│ +BD9C Uncompressed Size     000049D2 (18898)
+│ +BDA0 Filename Length       0029 (41)
+│ +BDA2 Extra Length          0000 (0)
+│ +BDA4 Comment Length        0000 (0)
+│ +BDA6 Disk Start            0000 (0)
+│ +BDA8 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -BDA8 Ext File Attributes   81A40000 (2175008768)
+│ +BDAA Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -BDAC Local Header Offset   00004506 (17670)
+│ -BDB0 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +BDAE Local Header Offset   00004508 (17672)
+│ +BDB2 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xBDB0: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xBDB2: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -BDD9 CENTRAL HEADER #22    02014B50 (33639248)
+│ -BDDD Created Zip Spec      14 (20) '2.0'
+│ -BDDE Created OS            03 (3) 'Unix'
+│ -BDDF Extract Zip Spec      14 (20) '2.0'
+│ -BDE0 Extract OS            00 (0) 'MS-DOS'
+│ -BDE1 General Purpose Flag  0800 (2048)
+│ +BDDB CENTRAL HEADER #22    02014B50 (33639248)
+│ +BDDF Created Zip Spec      14 (20) '2.0'
+│ +BDE0 Created OS            03 (3) 'Unix'
+│ +BDE1 Extract Zip Spec      14 (20) '2.0'
+│ +BDE2 Extract OS            00 (0) 'MS-DOS'
+│ +BDE3 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -BDE3 Compression Method    0008 (8) 'Deflated'
+│ -BDE5 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -BDE9 CRC                   435C99BA (1130142138)
+│ -BDED Compressed Size       00000193 (403)
+│ -BDF1 Uncompressed Size     000002A8 (680)
+│ -BDF5 Filename Length       002F (47)
+│ -BDF7 Extra Length          0000 (0)
+│ -BDF9 Comment Length        0000 (0)
+│ -BDFB Disk Start            0000 (0)
+│ -BDFD Int File Attributes   0000 (0)
+│ +BDE5 Compression Method    0008 (8) 'Deflated'
+│ +BDE7 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +BDEB CRC                   435C99BA (1130142138)
+│ +BDEF Compressed Size       00000193 (403)
+│ +BDF3 Uncompressed Size     000002A8 (680)
+│ +BDF7 Filename Length       002F (47)
+│ +BDF9 Extra Length          0000 (0)
+│ +BDFB Comment Length        0000 (0)
+│ +BDFD Disk Start            0000 (0)
+│ +BDFF Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -BDFF Ext File Attributes   81A40000 (2175008768)
+│ +BE01 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -BE03 Local Header Offset   000064C7 (25799)
+│ -BE07 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +BE05 Local Header Offset   000064C9 (25801)
+│ +BE09 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xBE07: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xBE09: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -BE36 CENTRAL HEADER #23    02014B50 (33639248)
+│ -BE3A Created Zip Spec      14 (20) '2.0'
+│ -BE3B Created OS            03 (3) 'Unix'
+│ -BE3C Extract Zip Spec      14 (20) '2.0'
+│ -BE3D Extract OS            00 (0) 'MS-DOS'
+│ -BE3E General Purpose Flag  0800 (2048)
+│ +BE38 CENTRAL HEADER #23    02014B50 (33639248)
+│ +BE3C Created Zip Spec      14 (20) '2.0'
+│ +BE3D Created OS            03 (3) 'Unix'
+│ +BE3E Extract Zip Spec      14 (20) '2.0'
+│ +BE3F Extract OS            00 (0) 'MS-DOS'
+│ +BE40 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -BE40 Compression Method    0008 (8) 'Deflated'
+│ -BE42 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -BE46 CRC                   1199503F (295260223)
+│ -BE4A Compressed Size       000001D4 (468)
+│ -BE4E Uncompressed Size     0000043E (1086)
+│ -BE52 Filename Length       0027 (39)
+│ -BE54 Extra Length          0000 (0)
+│ -BE56 Comment Length        0000 (0)
+│ -BE58 Disk Start            0000 (0)
+│ -BE5A Int File Attributes   0000 (0)
+│ +BE42 Compression Method    0008 (8) 'Deflated'
+│ +BE44 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +BE48 CRC                   1199503F (295260223)
+│ +BE4C Compressed Size       000001D4 (468)
+│ +BE50 Uncompressed Size     0000043E (1086)
+│ +BE54 Filename Length       0027 (39)
+│ +BE56 Extra Length          0000 (0)
+│ +BE58 Comment Length        0000 (0)
+│ +BE5A Disk Start            0000 (0)
+│ +BE5C Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -BE5C Ext File Attributes   81A40000 (2175008768)
+│ +BE5E Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -BE60 Local Header Offset   000066A7 (26279)
+│ -BE64 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +BE62 Local Header Offset   000066A9 (26281)
+│ +BE66 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xBE64: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xBE66: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -BE8B CENTRAL HEADER #24    02014B50 (33639248)
+│ -BE8F Created Zip Spec      14 (20) '2.0'
+│ -BE90 Created OS            03 (3) 'Unix'
+│ -BE91 Extract Zip Spec      14 (20) '2.0'
+│ -BE92 Extract OS            00 (0) 'MS-DOS'
+│ -BE93 General Purpose Flag  0800 (2048)
+│ +BE8D CENTRAL HEADER #24    02014B50 (33639248)
+│ +BE91 Created Zip Spec      14 (20) '2.0'
+│ +BE92 Created OS            03 (3) 'Unix'
+│ +BE93 Extract Zip Spec      14 (20) '2.0'
+│ +BE94 Extract OS            00 (0) 'MS-DOS'
+│ +BE95 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -BE95 Compression Method    0008 (8) 'Deflated'
+│ -BE97 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -BE9B CRC                   74B1C8F9 (1957808377)
+│ -BE9F Compressed Size       00000261 (609)
+│ -BEA3 Uncompressed Size     00000481 (1153)
+│ -BEA7 Filename Length       0027 (39)
+│ -BEA9 Extra Length          0000 (0)
+│ -BEAB Comment Length        0000 (0)
+│ -BEAD Disk Start            0000 (0)
+│ -BEAF Int File Attributes   0000 (0)
+│ +BE97 Compression Method    0008 (8) 'Deflated'
+│ +BE99 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +BE9D CRC                   74B1C8F9 (1957808377)
+│ +BEA1 Compressed Size       00000261 (609)
+│ +BEA5 Uncompressed Size     00000481 (1153)
+│ +BEA9 Filename Length       0027 (39)
+│ +BEAB Extra Length          0000 (0)
+│ +BEAD Comment Length        0000 (0)
+│ +BEAF Disk Start            0000 (0)
+│ +BEB1 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -BEB1 Ext File Attributes   81A40000 (2175008768)
+│ +BEB3 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -BEB5 Local Header Offset   000068C0 (26816)
+│ -BEB9 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +BEB7 Local Header Offset   000068C2 (26818)
+│ +BEBB Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xBEB9: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xBEBB: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -BEE0 CENTRAL HEADER #25    02014B50 (33639248)
+│ -BEE4 Created Zip Spec      14 (20) '2.0'
+│ -BEE5 Created OS            03 (3) 'Unix'
+│ -BEE6 Extract Zip Spec      14 (20) '2.0'
+│ -BEE7 Extract OS            00 (0) 'MS-DOS'
+│ -BEE8 General Purpose Flag  0800 (2048)
+│ +BEE2 CENTRAL HEADER #25    02014B50 (33639248)
+│ +BEE6 Created Zip Spec      14 (20) '2.0'
+│ +BEE7 Created OS            03 (3) 'Unix'
+│ +BEE8 Extract Zip Spec      14 (20) '2.0'
+│ +BEE9 Extract OS            00 (0) 'MS-DOS'
+│ +BEEA General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -BEEA Compression Method    0008 (8) 'Deflated'
+│ -BEEC Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -BEF0 CRC                   8840AED5 (2285940437)
+│ -BEF4 Compressed Size       000001E2 (482)
+│ -BEF8 Uncompressed Size     00000302 (770)
+│ -BEFC Filename Length       0027 (39)
+│ -BEFE Extra Length          0000 (0)
+│ -BF00 Comment Length        0000 (0)
+│ -BF02 Disk Start            0000 (0)
+│ -BF04 Int File Attributes   0000 (0)
+│ +BEEC Compression Method    0008 (8) 'Deflated'
+│ +BEEE Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +BEF2 CRC                   8840AED5 (2285940437)
+│ +BEF6 Compressed Size       000001E2 (482)
+│ +BEFA Uncompressed Size     00000302 (770)
+│ +BEFE Filename Length       0027 (39)
+│ +BF00 Extra Length          0000 (0)
+│ +BF02 Comment Length        0000 (0)
+│ +BF04 Disk Start            0000 (0)
+│ +BF06 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -BF06 Ext File Attributes   81A40000 (2175008768)
+│ +BF08 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -BF0A Local Header Offset   00006B66 (27494)
+│ -BF0E Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +BF0C Local Header Offset   00006B68 (27496)
+│ +BF10 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xBF0E: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xBF10: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -BF35 CENTRAL HEADER #26    02014B50 (33639248)
+│ -BF39 Created Zip Spec      14 (20) '2.0'
+│ -BF3A Created OS            03 (3) 'Unix'
+│ -BF3B Extract Zip Spec      14 (20) '2.0'
+│ -BF3C Extract OS            00 (0) 'MS-DOS'
+│ -BF3D General Purpose Flag  0800 (2048)
+│ +BF37 CENTRAL HEADER #26    02014B50 (33639248)
+│ +BF3B Created Zip Spec      14 (20) '2.0'
+│ +BF3C Created OS            03 (3) 'Unix'
+│ +BF3D Extract Zip Spec      14 (20) '2.0'
+│ +BF3E Extract OS            00 (0) 'MS-DOS'
+│ +BF3F General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -BF3F Compression Method    0008 (8) 'Deflated'
+│ -BF41 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -BF45 CRC                   8F2C1D14 (2402032916)
+│ -BF49 Compressed Size       00002E74 (11892)
+│ -BF4D Uncompressed Size     000067DE (26590)
+│ -BF51 Filename Length       0025 (37)
+│ -BF53 Extra Length          0000 (0)
+│ -BF55 Comment Length        0000 (0)
+│ -BF57 Disk Start            0000 (0)
+│ -BF59 Int File Attributes   0000 (0)
+│ +BF41 Compression Method    0008 (8) 'Deflated'
+│ +BF43 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +BF47 CRC                   8F2C1D14 (2402032916)
+│ +BF4B Compressed Size       00002E74 (11892)
+│ +BF4F Uncompressed Size     000067DE (26590)
+│ +BF53 Filename Length       0025 (37)
+│ +BF55 Extra Length          0000 (0)
+│ +BF57 Comment Length        0000 (0)
+│ +BF59 Disk Start            0000 (0)
+│ +BF5B Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -BF5B Ext File Attributes   81A40000 (2175008768)
+│ +BF5D Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -BF5F Local Header Offset   00006D8D (28045)
+│ -BF63 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +BF61 Local Header Offset   00006D8F (28047)
+│ +BF65 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xBF63: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xBF65: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -BF88 CENTRAL HEADER #27    02014B50 (33639248)
+│ -BF8C Created Zip Spec      14 (20) '2.0'
+│ -BF8D Created OS            03 (3) 'Unix'
+│ -BF8E Extract Zip Spec      14 (20) '2.0'
+│ -BF8F Extract OS            00 (0) 'MS-DOS'
+│ -BF90 General Purpose Flag  0800 (2048)
+│ +BF8A CENTRAL HEADER #27    02014B50 (33639248)
+│ +BF8E Created Zip Spec      14 (20) '2.0'
+│ +BF8F Created OS            03 (3) 'Unix'
+│ +BF90 Extract Zip Spec      14 (20) '2.0'
+│ +BF91 Extract OS            00 (0) 'MS-DOS'
+│ +BF92 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -BF92 Compression Method    0008 (8) 'Deflated'
+│ -BF94 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -BF98 CRC                   5F335576 (1597199734)
+│ -BF9C Compressed Size       000001FC (508)
+│ -BFA0 Uncompressed Size     00000368 (872)
+│ -BFA4 Filename Length       0020 (32)
+│ -BFA6 Extra Length          0000 (0)
+│ -BFA8 Comment Length        0000 (0)
+│ -BFAA Disk Start            0000 (0)
+│ -BFAC Int File Attributes   0000 (0)
+│ +BF94 Compression Method    0008 (8) 'Deflated'
+│ +BF96 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +BF9A CRC                   5F335576 (1597199734)
+│ +BF9E Compressed Size       000001FC (508)
+│ +BFA2 Uncompressed Size     00000368 (872)
+│ +BFA6 Filename Length       0020 (32)
+│ +BFA8 Extra Length          0000 (0)
+│ +BFAA Comment Length        0000 (0)
+│ +BFAC Disk Start            0000 (0)
+│ +BFAE Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -BFAE Ext File Attributes   81A40000 (2175008768)
+│ +BFB0 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -BFB2 Local Header Offset   00009C44 (40004)
+│ -BFB6 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +BFB4 Local Header Offset   00009C46 (40006)
+│ +BFB8 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xBFB6: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xBFB8: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -BFD6 CENTRAL HEADER #28    02014B50 (33639248)
+│ -BFDA Created Zip Spec      14 (20) '2.0'
+│ -BFDB Created OS            03 (3) 'Unix'
+│ -BFDC Extract Zip Spec      14 (20) '2.0'
+│ -BFDD Extract OS            00 (0) 'MS-DOS'
+│ -BFDE General Purpose Flag  0800 (2048)
+│ +BFD8 CENTRAL HEADER #28    02014B50 (33639248)
+│ +BFDC Created Zip Spec      14 (20) '2.0'
+│ +BFDD Created OS            03 (3) 'Unix'
+│ +BFDE Extract Zip Spec      14 (20) '2.0'
+│ +BFDF Extract OS            00 (0) 'MS-DOS'
+│ +BFE0 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -BFE0 Compression Method    0008 (8) 'Deflated'
+│ -BFE2 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -BFE6 CRC                   90056751 (2416273233)
+│ -BFEA Compressed Size       00000454 (1108)
+│ -BFEE Uncompressed Size     0000098A (2442)
+│ -BFF2 Filename Length       0026 (38)
+│ -BFF4 Extra Length          0000 (0)
+│ -BFF6 Comment Length        0000 (0)
+│ -BFF8 Disk Start            0000 (0)
+│ -BFFA Int File Attributes   0000 (0)
+│ +BFE2 Compression Method    0008 (8) 'Deflated'
+│ +BFE4 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +BFE8 CRC                   90056751 (2416273233)
+│ +BFEC Compressed Size       00000454 (1108)
+│ +BFF0 Uncompressed Size     0000098A (2442)
+│ +BFF4 Filename Length       0026 (38)
+│ +BFF6 Extra Length          0000 (0)
+│ +BFF8 Comment Length        0000 (0)
+│ +BFFA Disk Start            0000 (0)
+│ +BFFC Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -BFFC Ext File Attributes   81A40000 (2175008768)
+│ +BFFE Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -C000 Local Header Offset   00009E7E (40574)
+│ -C004 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +C002 Local Header Offset   00009E80 (40576)
+│ +C006 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xC004: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xC006: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -C02A CENTRAL HEADER #29    02014B50 (33639248)
+│ -C02E Created Zip Spec      14 (20) '2.0'
+│ -C02F Created OS            03 (3) 'Unix'
+│ -C030 Extract Zip Spec      14 (20) '2.0'
+│ -C031 Extract OS            00 (0) 'MS-DOS'
+│ -C032 General Purpose Flag  0800 (2048)
+│ +C02C CENTRAL HEADER #29    02014B50 (33639248)
+│ +C030 Created Zip Spec      14 (20) '2.0'
+│ +C031 Created OS            03 (3) 'Unix'
+│ +C032 Extract Zip Spec      14 (20) '2.0'
+│ +C033 Extract OS            00 (0) 'MS-DOS'
+│ +C034 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -C034 Compression Method    0008 (8) 'Deflated'
+│ -C036 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -C03A CRC                   008EF970 (9369968)
+│ -C03E Compressed Size       0000041A (1050)
+│ -C042 Uncompressed Size     00000987 (2439)
+│ -C046 Filename Length       0026 (38)
+│ -C048 Extra Length          0000 (0)
+│ -C04A Comment Length        0000 (0)
+│ -C04C Disk Start            0000 (0)
+│ -C04E Int File Attributes   0000 (0)
+│ +C036 Compression Method    0008 (8) 'Deflated'
+│ +C038 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +C03C CRC                   008EF970 (9369968)
+│ +C040 Compressed Size       0000041A (1050)
+│ +C044 Uncompressed Size     00000987 (2439)
+│ +C048 Filename Length       0026 (38)
+│ +C04A Extra Length          0000 (0)
+│ +C04C Comment Length        0000 (0)
+│ +C04E Disk Start            0000 (0)
+│ +C050 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -C050 Ext File Attributes   81A40000 (2175008768)
+│ +C052 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -C054 Local Header Offset   0000A316 (41750)
+│ -C058 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +C056 Local Header Offset   0000A318 (41752)
+│ +C05A Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xC058: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xC05A: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -C07E CENTRAL HEADER #30    02014B50 (33639248)
+│ -C082 Created Zip Spec      14 (20) '2.0'
+│ -C083 Created OS            03 (3) 'Unix'
+│ -C084 Extract Zip Spec      14 (20) '2.0'
+│ -C085 Extract OS            00 (0) 'MS-DOS'
+│ -C086 General Purpose Flag  0800 (2048)
+│ +C080 CENTRAL HEADER #30    02014B50 (33639248)
+│ +C084 Created Zip Spec      14 (20) '2.0'
+│ +C085 Created OS            03 (3) 'Unix'
+│ +C086 Extract Zip Spec      14 (20) '2.0'
+│ +C087 Extract OS            00 (0) 'MS-DOS'
+│ +C088 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -C088 Compression Method    0008 (8) 'Deflated'
+│ -C08A Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -C08E CRC                   F892F955 (4170381653)
+│ -C092 Compressed Size       00000A02 (2562)
+│ -C096 Uncompressed Size     000013EB (5099)
+│ -C09A Filename Length       0024 (36)
+│ -C09C Extra Length          0000 (0)
+│ -C09E Comment Length        0000 (0)
+│ -C0A0 Disk Start            0000 (0)
+│ -C0A2 Int File Attributes   0000 (0)
+│ +C08A Compression Method    0008 (8) 'Deflated'
+│ +C08C Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +C090 CRC                   F892F955 (4170381653)
+│ +C094 Compressed Size       00000A02 (2562)
+│ +C098 Uncompressed Size     000013EB (5099)
+│ +C09C Filename Length       0024 (36)
+│ +C09E Extra Length          0000 (0)
+│ +C0A0 Comment Length        0000 (0)
+│ +C0A2 Disk Start            0000 (0)
+│ +C0A4 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -C0A4 Ext File Attributes   81A40000 (2175008768)
+│ +C0A6 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -C0A8 Local Header Offset   0000A774 (42868)
+│ -C0AC Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +C0AA Local Header Offset   0000A776 (42870)
+│ +C0AE Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xC0AC: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xC0AE: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -C0D0 CENTRAL HEADER #31    02014B50 (33639248)
+│ -C0D4 Created Zip Spec      14 (20) '2.0'
+│ -C0D5 Created OS            03 (3) 'Unix'
+│ -C0D6 Extract Zip Spec      14 (20) '2.0'
+│ -C0D7 Extract OS            00 (0) 'MS-DOS'
+│ -C0D8 General Purpose Flag  0800 (2048)
+│ +C0D2 CENTRAL HEADER #31    02014B50 (33639248)
+│ +C0D6 Created Zip Spec      14 (20) '2.0'
+│ +C0D7 Created OS            03 (3) 'Unix'
+│ +C0D8 Extract Zip Spec      14 (20) '2.0'
+│ +C0D9 Extract OS            00 (0) 'MS-DOS'
+│ +C0DA General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -C0DA Compression Method    0008 (8) 'Deflated'
+│ -C0DC Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -C0E0 CRC                   7DFA6C3D (2113563709)
+│ -C0E4 Compressed Size       00000529 (1321)
+│ -C0E8 Uncompressed Size     00001165 (4453)
+│ -C0EC Filename Length       0035 (53)
+│ -C0EE Extra Length          0000 (0)
+│ -C0F0 Comment Length        0000 (0)
+│ -C0F2 Disk Start            0000 (0)
+│ -C0F4 Int File Attributes   0000 (0)
+│ +C0DC Compression Method    0008 (8) 'Deflated'
+│ +C0DE Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +C0E2 CRC                   7DFA6C3D (2113563709)
+│ +C0E6 Compressed Size       00000529 (1321)
+│ +C0EA Uncompressed Size     00001165 (4453)
+│ +C0EE Filename Length       0035 (53)
+│ +C0F0 Extra Length          0000 (0)
+│ +C0F2 Comment Length        0000 (0)
+│ +C0F4 Disk Start            0000 (0)
+│ +C0F6 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -C0F6 Ext File Attributes   81A40000 (2175008768)
+│ +C0F8 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -C0FA Local Header Offset   0000B1B8 (45496)
+│ -C0FE Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +C0FC Local Header Offset   0000B1BA (45498)
+│ +C100 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xC0FE: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xC100: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -C133 CENTRAL HEADER #32    02014B50 (33639248)
+│ -C137 Created Zip Spec      14 (20) '2.0'
+│ -C138 Created OS            03 (3) 'Unix'
+│ -C139 Extract Zip Spec      14 (20) '2.0'
+│ -C13A Extract OS            00 (0) 'MS-DOS'
+│ -C13B General Purpose Flag  0800 (2048)
+│ +C135 CENTRAL HEADER #32    02014B50 (33639248)
+│ +C139 Created Zip Spec      14 (20) '2.0'
+│ +C13A Created OS            03 (3) 'Unix'
+│ +C13B Extract Zip Spec      14 (20) '2.0'
+│ +C13C Extract OS            00 (0) 'MS-DOS'
+│ +C13D General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -C13D Compression Method    0008 (8) 'Deflated'
+│ -C13F Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -C143 CRC                   037C9158 (58495320)
+│ -C147 Compressed Size       0000003F (63)
+│ -C14B Uncompressed Size     00000040 (64)
+│ -C14F Filename Length       003C (60)
+│ -C151 Extra Length          0000 (0)
+│ -C153 Comment Length        0000 (0)
+│ -C155 Disk Start            0000 (0)
+│ -C157 Int File Attributes   0000 (0)
+│ +C13F Compression Method    0008 (8) 'Deflated'
+│ +C141 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +C145 CRC                   037C9158 (58495320)
+│ +C149 Compressed Size       0000003F (63)
+│ +C14D Uncompressed Size     00000040 (64)
+│ +C151 Filename Length       003C (60)
+│ +C153 Extra Length          0000 (0)
+│ +C155 Comment Length        0000 (0)
+│ +C157 Disk Start            0000 (0)
+│ +C159 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -C159 Ext File Attributes   81A40000 (2175008768)
+│ +C15B Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -C15D Local Header Offset   0000B734 (46900)
+│ -C161 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +C15F Local Header Offset   0000B736 (46902)
+│ +C163 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xC161: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xC163: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -C19D END CENTRAL HEADER    06054B50 (101010256)
+│ -C1A1 Number of this disk   0000 (0)
+│ -C1A3 Central Dir Disk no   0000 (0)
+│ -C1A5 Entries in this disk  0020 (32)
+│ -C1A7 Total Entries         0020 (32)
+│ -C1A9 Size of Central Dir   000009D0 (2512)
+│ -C1AD Offset to Central Dir 0000B7CD (47053)
+│ -C1B1 Comment Length        0000 (0)
+│ +C19F END CENTRAL HEADER    06054B50 (101010256)
+│ +C1A3 Number of this disk   0000 (0)
+│ +C1A5 Central Dir Disk no   0000 (0)
+│ +C1A7 Entries in this disk  0020 (32)
+│ +C1A9 Total Entries         0020 (32)
+│ +C1AB Size of Central Dir   000009D0 (2512)
+│ +C1AF Offset to Central Dir 0000B7CF (47055)
+│ +C1B3 Comment Length        0000 (0)
+│  #
+│  # Error Count: 9
+│  # Warning Count: 73
+│  #
+│  # Done
+├── org/apache/nifi/nar/LoadNativeLibAspect.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,9 +1,9 @@
+│ │ -Classfile /var/folders/b2/nyfdb2213ll8lnmjt_ghtpr40000gp/T/diffoscope_8_m5xm2m_target/tmpc1jgp7z2_ZipContainer/LoadNativeLibAspect.class
+│ │ -  SHA-256 checksum 2ebae6de7619f79de563f26d790583a64eb846481adab2074cae3bfcef0508b5
+│ │ +Classfile /var/folders/b2/nyfdb2213ll8lnmjt_ghtpr40000gp/T/diffoscope_8_m5xm2m_target/tmph7csr7p7_ZipContainer/LoadNativeLibAspect.class
+│ │ +  SHA-256 checksum 0c78398b67016f220e213cfe6c8d02370744548b83baf768ad6777d365a76e4b
+│ │    Compiled from "LoadNativeLibAspect.java"
+│ │  public class org.apache.nifi.nar.LoadNativeLibAspect
+│ │    minor version: 0
+│ │    major version: 65
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │    this_class: #1                          // org/apache/nifi/nar/LoadNativeLibAspect
+│ │    super_class: #3                         // java/lang/Object
+│ │ @@ -513,15 +513,15 @@
+│ │    0: #166 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+│ │      Method arguments:
+│ │        #167 \u0001@\u0001_
+│ │    1: #166 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+│ │      Method arguments:
+│ │        #169 _\u0001
+│ │    org.aspectj.weaver.WeaverVersion: length = 0xC (unknown attribute)
+│ │ -   00 07 00 00 00 00 01 96 1E 23 7B 60
+│ │ +   00 07 00 00 00 00 01 96 21 5B 74 E0
+│ │    org.aspectj.weaver.WeaverState: length = 0x3CD (unknown attribute)
+│ │     53 00 00 00 00 01 00 29 4C 6F 72 67 2F 61 70 61
+│ │     63 68 65 2F 6E 69 66 69 2F 6E 61 72 2F 4C 6F 61
+│ │     64 4E 61 74 69 76 65 4C 69 62 41 73 70 65 63 74
+│ │     3B 00 00 03 98 00 B1 00 00 0C 12 00 21 00 01 00
+│ │     03 00 00 00 01 00 12 00 05 00 06 00 00 00 02 00
+│ │     01 00 07 00 08 00 01 00 09 00 00 00 42 00 02 00
+
+3 /       34 target/reference/org.apache.nifi/nifi-framework-nar-2.6.0.nar nifi-framework-bundle/nifi-framework-nar/target/nifi-framework-nar-2.6.0.nar
+--- target/reference/org.apache.nifi/nifi-framework-nar-2.6.0.nar
++++ nifi-framework-bundle/nifi-framework-nar/target/nifi-framework-nar-2.6.0.nar
+@@ -3658514,27 +3658514,27 @@
+ 037d3110: 0000 0000 0000 0000 0000 a481 190d 7701  ..............w.
+ 037d3120: 4d45 5441 2d49 4e46 2f62 756e 646c 6564  META-INF/bundled
+ 037d3130: 2d64 6570 656e 6465 6e63 6965 732f 6a32  -dependencies/j2
+ 037d3140: 6f62 6a63 2d61 6e6e 6f74 6174 696f 6e73  objc-annotations
+ 037d3150: 2d33 2e30 2e30 2e6a 6172 504b 0102 1403  -3.0.0.jarPK....
+ 037d3160: 1400 0008 0800 f97e 325b 2708 abd9 2d04  .......~2['...-.
+ 037d3170: 0100 5b35 0100 3a00 0000 0000 0000 0000  ..[5..:.........
+-037d3180: 0000 a481 702e 7701 4d45 5441 2d49 4e46  ....p.w.META-INF
++037d3180: 0000 8081 702e 7701 4d45 5441 2d49 4e46  ....p.w.META-INF
+ 037d3190: 2f62 756e 646c 6564 2d64 6570 656e 6465  /bundled-depende
+ 037d31a0: 6e63 6965 732f 6a61 636b 736f 6e2d 616e  ncies/jackson-an
+ 037d31b0: 6e6f 7461 7469 6f6e 732d 322e 3230 2e6a  notations-2.20.j
+ 037d31c0: 6172 504b 0102 1403 1400 0008 0800 f97e  arPK...........~
+ 037d31d0: 325b 34c0 d06b f046 0800 a70c 0900 3500  2[4..k.F......5.
+-037d31e0: 0000 0000 0000 0000 0000 a481 f532 7801  .............2x.
++037d31e0: 0000 0000 0000 0000 0000 8081 f532 7801  .............2x.
+ 037d31f0: 4d45 5441 2d49 4e46 2f62 756e 646c 6564  META-INF/bundled
+ 037d3200: 2d64 6570 656e 6465 6e63 6965 732f 6a61  -dependencies/ja
+ 037d3210: 636b 736f 6e2d 636f 7265 2d32 2e32 302e  ckson-core-2.20.
+ 037d3220: 302e 6a61 7250 4b01 0214 0314 0000 0808  0.jarPK.........
+ 037d3230: 00f9 7e32 5b46 67de a3e0 a517 0097 c319  ..~2[Fg.........
+-037d3240: 0039 0000 0000 0000 0000 0000 00a4 8138  .9.............8
++037d3240: 0039 0000 0000 0000 0000 0000 0080 8138  .9.............8
+ 037d3250: 7a80 014d 4554 412d 494e 462f 6275 6e64  z..META-INF/bund
+ 037d3260: 6c65 642d 6465 7065 6e64 656e 6369 6573  led-dependencies
+ 037d3270: 2f6a 6163 6b73 6f6e 2d64 6174 6162 696e  /jackson-databin
+ 037d3280: 642d 322e 3230 2e30 2e6a 6172 504b 0102  d-2.20.0.jarPK..
+ 037d3290: 1403 1400 0008 0800 f97e 325b c470 a1ab  .........~2[.p..
+ 037d32a0: c5db 0100 bd17 0200 4000 0000 0000 0000  ........@.......
+ 037d32b0: 0000 0000 a481 6f20 9801 4d45 5441 2d49  ......o ..META-I
+
+4 /       34 target/reference/org.apache.nifi/nifi-python-extension-api-2.6.0.jar nifi-framework-bundle/nifi-framework-extensions/nifi-py4j-framework-bundle/nifi-python-extension-api/target/nifi-python-extension-api-2.6.0.jar
+--- target/reference/org.apache.nifi/nifi-python-extension-api-2.6.0.jar
++++ nifi-framework-bundle/nifi-framework-extensions/nifi-py4j-framework-bundle/nifi-python-extension-api/target/nifi-python-extension-api-2.6.0.jar
+├── zipinfo {}
+│ @@ -1,10 +1,12 @@
+│ -Zip file size: 18144 bytes, number of entries: 18
+│ +Zip file size: 18346 bytes, number of entries: 20
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-18 15:55 META-INF/
+│  -rw-r--r--  2.0 unx      324 b- defN 25-Sep-18 15:55 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-18 15:55 framework/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-18 15:55 framework/py4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-18 15:55 nifiapi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-18 15:55 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-18 15:55 META-INF/maven/org.apache.nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-18 15:55 META-INF/maven/org.apache.nifi/nifi-python-extension-api/
+│  -rw-r--r--  2.0 unx      781 b- defN 25-Sep-18 15:55 nifiapi/__init__.py
+│  -rw-r--r--  2.0 unx      966 b- defN 25-Sep-18 15:55 nifiapi/__jvm__.py
+│  -rw-r--r--  2.0 unx     6085 b- defN 25-Sep-18 15:55 nifiapi/componentstate.py
+│ @@ -13,8 +15,8 @@
+│  -rw-r--r--  2.0 unx     2227 b- defN 25-Sep-18 15:55 nifiapi/flowfiletransform.py
+│  -rw-r--r--  2.0 unx     2157 b- defN 25-Sep-18 15:55 nifiapi/logging.py
+│  -rw-r--r--  2.0 unx    24418 b- defN 25-Sep-18 15:55 nifiapi/properties.py
+│  -rw-r--r--  2.0 unx     3691 b- defN 25-Sep-18 15:55 nifiapi/recordtransform.py
+│  -rw-r--r--  2.0 unx     1258 b- defN 25-Sep-18 15:55 nifiapi/relationship.py
+│  -rw-r--r--  2.0 unx     1995 b- defN 25-Sep-18 15:55 META-INF/maven/org.apache.nifi/nifi-python-extension-api/pom.xml
+│  -rw-r--r--  2.0 unx       75 b- defN 25-Sep-18 15:55 META-INF/maven/org.apache.nifi/nifi-python-extension-api/pom.properties
+│ -18 files, 51982 bytes uncompressed, 15750 bytes compressed:  69.7%
+│ +20 files, 51982 bytes uncompressed, 15750 bytes compressed:  69.7%
+├── zipnote «TEMP»/diffoscope_dgksknee_target/tmpc3b3yl_a_.zip
+│ @@ -1,13 +1,19 @@
+│  Filename: META-INF/
+│  Comment: 
+│  
+│  Filename: META-INF/MANIFEST.MF
+│  Comment: 
+│  
+│ +Filename: framework/
+│ +Comment: 
+│ +
+│ +Filename: framework/py4j/
+│ +Comment: 
+│ +
+│  Filename: nifiapi/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.nifi/
+├── zipdetails --redact --walk --utc {}
+│ @@ -44,869 +44,973 @@
+│  0109 General Purpose Flag  0800 (2048)
+│       [Bit 11]              1 'Language Encoding'
+│  010B Compression Method    0000 (0) 'Stored'
+│  010D Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│  0111 CRC                   00000000 (0)
+│  0115 Compressed Size       00000000 (0)
+│  0119 Uncompressed Size     00000000 (0)
+│ -011D Filename Length       0008 (8)
+│ +011D Filename Length       000A (10)
+│  011F Extra Length          0000 (0)
+│ -0121 Filename              'XXXXXXXX'
+│ +0121 Filename              'XXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x121: Filename 'XXXXXXXX'
+│ +# WARNING: Offset 0x121: Filename 'XXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -0129 LOCAL HEADER #4       04034B50 (67324752)
+│ -012D Extract Zip Spec      0A (10) '1.0'
+│ -012E Extract OS            00 (0) 'MS-DOS'
+│ -012F General Purpose Flag  0800 (2048)
+│ +012B LOCAL HEADER #4       04034B50 (67324752)
+│ +012F Extract Zip Spec      0A (10) '1.0'
+│ +0130 Extract OS            00 (0) 'MS-DOS'
+│ +0131 General Purpose Flag  0800 (2048)
+│       [Bit 11]              1 'Language Encoding'
+│ -0131 Compression Method    0000 (0) 'Stored'
+│ -0133 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -0137 CRC                   00000000 (0)
+│ -013B Compressed Size       00000000 (0)
+│ -013F Uncompressed Size     00000000 (0)
+│ -0143 Filename Length       000F (15)
+│ -0145 Extra Length          0000 (0)
+│ -0147 Filename              'XXXXXXXXXXXXXXX'
+│ +0133 Compression Method    0000 (0) 'Stored'
+│ +0135 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +0139 CRC                   00000000 (0)
+│ +013D Compressed Size       00000000 (0)
+│ +0141 Uncompressed Size     00000000 (0)
+│ +0145 Filename Length       000F (15)
+│ +0147 Extra Length          0000 (0)
+│ +0149 Filename              'XXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x147: Filename 'XXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x149: Filename 'XXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -0156 LOCAL HEADER #5       04034B50 (67324752)
+│ -015A Extract Zip Spec      0A (10) '1.0'
+│ -015B Extract OS            00 (0) 'MS-DOS'
+│ -015C General Purpose Flag  0800 (2048)
+│ +0158 LOCAL HEADER #5       04034B50 (67324752)
+│ +015C Extract Zip Spec      0A (10) '1.0'
+│ +015D Extract OS            00 (0) 'MS-DOS'
+│ +015E General Purpose Flag  0800 (2048)
+│       [Bit 11]              1 'Language Encoding'
+│ -015E Compression Method    0000 (0) 'Stored'
+│ -0160 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -0164 CRC                   00000000 (0)
+│ -0168 Compressed Size       00000000 (0)
+│ -016C Uncompressed Size     00000000 (0)
+│ -0170 Filename Length       001F (31)
+│ -0172 Extra Length          0000 (0)
+│ -0174 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +0160 Compression Method    0000 (0) 'Stored'
+│ +0162 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +0166 CRC                   00000000 (0)
+│ +016A Compressed Size       00000000 (0)
+│ +016E Uncompressed Size     00000000 (0)
+│ +0172 Filename Length       0008 (8)
+│ +0174 Extra Length          0000 (0)
+│ +0176 Filename              'XXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x174: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x176: Filename 'XXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -0193 LOCAL HEADER #6       04034B50 (67324752)
+│ -0197 Extract Zip Spec      0A (10) '1.0'
+│ -0198 Extract OS            00 (0) 'MS-DOS'
+│ -0199 General Purpose Flag  0800 (2048)
+│ +017E LOCAL HEADER #6       04034B50 (67324752)
+│ +0182 Extract Zip Spec      0A (10) '1.0'
+│ +0183 Extract OS            00 (0) 'MS-DOS'
+│ +0184 General Purpose Flag  0800 (2048)
+│       [Bit 11]              1 'Language Encoding'
+│ -019B Compression Method    0000 (0) 'Stored'
+│ -019D Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -01A1 CRC                   00000000 (0)
+│ -01A5 Compressed Size       00000000 (0)
+│ -01A9 Uncompressed Size     00000000 (0)
+│ -01AD Filename Length       0039 (57)
+│ -01AF Extra Length          0000 (0)
+│ -01B1 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +0186 Compression Method    0000 (0) 'Stored'
+│ +0188 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +018C CRC                   00000000 (0)
+│ +0190 Compressed Size       00000000 (0)
+│ +0194 Uncompressed Size     00000000 (0)
+│ +0198 Filename Length       000F (15)
+│ +019A Extra Length          0000 (0)
+│ +019C Filename              'XXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x1B1: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x19C: Filename 'XXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -01EA LOCAL HEADER #7       04034B50 (67324752)
+│ -01EE Extract Zip Spec      14 (20) '2.0'
+│ -01EF Extract OS            00 (0) 'MS-DOS'
+│ -01F0 General Purpose Flag  0800 (2048)
+│ +01AB LOCAL HEADER #7       04034B50 (67324752)
+│ +01AF Extract Zip Spec      0A (10) '1.0'
+│ +01B0 Extract OS            00 (0) 'MS-DOS'
+│ +01B1 General Purpose Flag  0800 (2048)
+│ +     [Bit 11]              1 'Language Encoding'
+│ +01B3 Compression Method    0000 (0) 'Stored'
+│ +01B5 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +01B9 CRC                   00000000 (0)
+│ +01BD Compressed Size       00000000 (0)
+│ +01C1 Uncompressed Size     00000000 (0)
+│ +01C5 Filename Length       001F (31)
+│ +01C7 Extra Length          0000 (0)
+│ +01C9 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +#
+│ +# WARNING: Offset 0x1C9: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +#          Zero length filename
+│ +#
+│ +
+│ +01E8 LOCAL HEADER #8       04034B50 (67324752)
+│ +01EC Extract Zip Spec      0A (10) '1.0'
+│ +01ED Extract OS            00 (0) 'MS-DOS'
+│ +01EE General Purpose Flag  0800 (2048)
+│ +     [Bit 11]              1 'Language Encoding'
+│ +01F0 Compression Method    0000 (0) 'Stored'
+│ +01F2 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +01F6 CRC                   00000000 (0)
+│ +01FA Compressed Size       00000000 (0)
+│ +01FE Uncompressed Size     00000000 (0)
+│ +0202 Filename Length       0039 (57)
+│ +0204 Extra Length          0000 (0)
+│ +0206 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +#
+│ +# WARNING: Offset 0x206: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +#          Zero length filename
+│ +#
+│ +
+│ +023F LOCAL HEADER #9       04034B50 (67324752)
+│ +0243 Extract Zip Spec      14 (20) '2.0'
+│ +0244 Extract OS            00 (0) 'MS-DOS'
+│ +0245 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -01F2 Compression Method    0008 (8) 'Deflated'
+│ -01F4 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -01F8 CRC                   3F111BBC (1058085820)
+│ -01FC Compressed Size       000001C4 (452)
+│ -0200 Uncompressed Size     0000030D (781)
+│ -0204 Filename Length       0013 (19)
+│ -0206 Extra Length          0000 (0)
+│ -0208 Filename              'XXXXXXXXXXXXXXXXXXX'
+│ +0247 Compression Method    0008 (8) 'Deflated'
+│ +0249 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +024D CRC                   3F111BBC (1058085820)
+│ +0251 Compressed Size       000001C4 (452)
+│ +0255 Uncompressed Size     0000030D (781)
+│ +0259 Filename Length       0013 (19)
+│ +025B Extra Length          0000 (0)
+│ +025D Filename              'XXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x208: Filename 'XXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x25D: Filename 'XXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -021B PAYLOAD
+│ +0270 PAYLOAD
+│  
+│ -03DF LOCAL HEADER #8       04034B50 (67324752)
+│ -03E3 Extract Zip Spec      14 (20) '2.0'
+│ -03E4 Extract OS            00 (0) 'MS-DOS'
+│ -03E5 General Purpose Flag  0800 (2048)
+│ +0434 LOCAL HEADER #10      04034B50 (67324752)
+│ +0438 Extract Zip Spec      14 (20) '2.0'
+│ +0439 Extract OS            00 (0) 'MS-DOS'
+│ +043A General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -03E7 Compression Method    0008 (8) 'Deflated'
+│ -03E9 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -03ED CRC                   ED2C0F2F (3979087663)
+│ -03F1 Compressed Size       00000221 (545)
+│ -03F5 Uncompressed Size     000003C6 (966)
+│ -03F9 Filename Length       0012 (18)
+│ -03FB Extra Length          0000 (0)
+│ -03FD Filename              'XXXXXXXXXXXXXXXXXX'
+│ +043C Compression Method    0008 (8) 'Deflated'
+│ +043E Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +0442 CRC                   ED2C0F2F (3979087663)
+│ +0446 Compressed Size       00000221 (545)
+│ +044A Uncompressed Size     000003C6 (966)
+│ +044E Filename Length       0012 (18)
+│ +0450 Extra Length          0000 (0)
+│ +0452 Filename              'XXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x3FD: Filename 'XXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x452: Filename 'XXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -040F PAYLOAD
+│ +0464 PAYLOAD
+│  
+│ -0630 LOCAL HEADER #9       04034B50 (67324752)
+│ -0634 Extract Zip Spec      14 (20) '2.0'
+│ -0635 Extract OS            00 (0) 'MS-DOS'
+│ -0636 General Purpose Flag  0800 (2048)
+│ +0685 LOCAL HEADER #11      04034B50 (67324752)
+│ +0689 Extract Zip Spec      14 (20) '2.0'
+│ +068A Extract OS            00 (0) 'MS-DOS'
+│ +068B General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -0638 Compression Method    0008 (8) 'Deflated'
+│ -063A Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -063E CRC                   FC57FEF9 (4233625337)
+│ -0642 Compressed Size       00000705 (1797)
+│ -0646 Uncompressed Size     000017C5 (6085)
+│ -064A Filename Length       0019 (25)
+│ -064C Extra Length          0000 (0)
+│ -064E Filename              'XXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +068D Compression Method    0008 (8) 'Deflated'
+│ +068F Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +0693 CRC                   FC57FEF9 (4233625337)
+│ +0697 Compressed Size       00000705 (1797)
+│ +069B Uncompressed Size     000017C5 (6085)
+│ +069F Filename Length       0019 (25)
+│ +06A1 Extra Length          0000 (0)
+│ +06A3 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x64E: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x6A3: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -0667 PAYLOAD
+│ +06BC PAYLOAD
+│  
+│ -0D6C LOCAL HEADER #10      04034B50 (67324752)
+│ -0D70 Extract Zip Spec      14 (20) '2.0'
+│ -0D71 Extract OS            00 (0) 'MS-DOS'
+│ -0D72 General Purpose Flag  0800 (2048)
+│ +0DC1 LOCAL HEADER #12      04034B50 (67324752)
+│ +0DC5 Extract Zip Spec      14 (20) '2.0'
+│ +0DC6 Extract OS            00 (0) 'MS-DOS'
+│ +0DC7 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -0D74 Compression Method    0008 (8) 'Deflated'
+│ -0D76 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -0D7A CRC                   B5985825 (3046660133)
+│ -0D7E Compressed Size       0000055B (1371)
+│ -0D82 Uncompressed Size     000016C2 (5826)
+│ -0D86 Filename Length       0018 (24)
+│ -0D88 Extra Length          0000 (0)
+│ -0D8A Filename              'XXXXXXXXXXXXXXXXXXXXXXXX'
+│ +0DC9 Compression Method    0008 (8) 'Deflated'
+│ +0DCB Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +0DCF CRC                   B5985825 (3046660133)
+│ +0DD3 Compressed Size       0000055B (1371)
+│ +0DD7 Uncompressed Size     000016C2 (5826)
+│ +0DDB Filename Length       0018 (24)
+│ +0DDD Extra Length          0000 (0)
+│ +0DDF Filename              'XXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0xD8A: Filename 'XXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0xDDF: Filename 'XXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -0DA2 PAYLOAD
+│ +0DF7 PAYLOAD
+│  
+│ -12FD LOCAL HEADER #11      04034B50 (67324752)
+│ -1301 Extract Zip Spec      14 (20) '2.0'
+│ -1302 Extract OS            00 (0) 'MS-DOS'
+│ -1303 General Purpose Flag  0800 (2048)
+│ +1352 LOCAL HEADER #13      04034B50 (67324752)
+│ +1356 Extract Zip Spec      14 (20) '2.0'
+│ +1357 Extract OS            00 (0) 'MS-DOS'
+│ +1358 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -1305 Compression Method    0008 (8) 'Deflated'
+│ -1307 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -130B CRC                   F9F5D5E9 (4193637865)
+│ -130F Compressed Size       000003A4 (932)
+│ -1313 Uncompressed Size     00000883 (2179)
+│ -1317 Filename Length       0019 (25)
+│ -1319 Extra Length          0000 (0)
+│ -131B Filename              'XXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +135A Compression Method    0008 (8) 'Deflated'
+│ +135C Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +1360 CRC                   F9F5D5E9 (4193637865)
+│ +1364 Compressed Size       000003A4 (932)
+│ +1368 Uncompressed Size     00000883 (2179)
+│ +136C Filename Length       0019 (25)
+│ +136E Extra Length          0000 (0)
+│ +1370 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x131B: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x1370: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -1334 PAYLOAD
+│ +1389 PAYLOAD
+│  
+│ -16D8 LOCAL HEADER #12      04034B50 (67324752)
+│ -16DC Extract Zip Spec      14 (20) '2.0'
+│ -16DD Extract OS            00 (0) 'MS-DOS'
+│ -16DE General Purpose Flag  0800 (2048)
+│ +172D LOCAL HEADER #14      04034B50 (67324752)
+│ +1731 Extract Zip Spec      14 (20) '2.0'
+│ +1732 Extract OS            00 (0) 'MS-DOS'
+│ +1733 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -16E0 Compression Method    0008 (8) 'Deflated'
+│ -16E2 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -16E6 CRC                   18689434 (409506868)
+│ -16EA Compressed Size       000003B5 (949)
+│ -16EE Uncompressed Size     000008B3 (2227)
+│ -16F2 Filename Length       001C (28)
+│ -16F4 Extra Length          0000 (0)
+│ -16F6 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +1735 Compression Method    0008 (8) 'Deflated'
+│ +1737 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +173B CRC                   18689434 (409506868)
+│ +173F Compressed Size       000003B5 (949)
+│ +1743 Uncompressed Size     000008B3 (2227)
+│ +1747 Filename Length       001C (28)
+│ +1749 Extra Length          0000 (0)
+│ +174B Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x16F6: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x174B: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -1712 PAYLOAD
+│ +1767 PAYLOAD
+│  
+│ -1AC7 LOCAL HEADER #13      04034B50 (67324752)
+│ -1ACB Extract Zip Spec      14 (20) '2.0'
+│ -1ACC Extract OS            00 (0) 'MS-DOS'
+│ -1ACD General Purpose Flag  0800 (2048)
+│ +1B1C LOCAL HEADER #15      04034B50 (67324752)
+│ +1B20 Extract Zip Spec      14 (20) '2.0'
+│ +1B21 Extract OS            00 (0) 'MS-DOS'
+│ +1B22 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -1ACF Compression Method    0008 (8) 'Deflated'
+│ -1AD1 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -1AD5 CRC                   CC7797A2 (3430389666)
+│ -1AD9 Compressed Size       00000323 (803)
+│ -1ADD Uncompressed Size     0000086D (2157)
+│ -1AE1 Filename Length       0012 (18)
+│ -1AE3 Extra Length          0000 (0)
+│ -1AE5 Filename              'XXXXXXXXXXXXXXXXXX'
+│ +1B24 Compression Method    0008 (8) 'Deflated'
+│ +1B26 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +1B2A CRC                   CC7797A2 (3430389666)
+│ +1B2E Compressed Size       00000323 (803)
+│ +1B32 Uncompressed Size     0000086D (2157)
+│ +1B36 Filename Length       0012 (18)
+│ +1B38 Extra Length          0000 (0)
+│ +1B3A Filename              'XXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x1AE5: Filename 'XXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x1B3A: Filename 'XXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -1AF7 PAYLOAD
+│ +1B4C PAYLOAD
+│  
+│ -1E1A LOCAL HEADER #14      04034B50 (67324752)
+│ -1E1E Extract Zip Spec      14 (20) '2.0'
+│ -1E1F Extract OS            00 (0) 'MS-DOS'
+│ -1E20 General Purpose Flag  0800 (2048)
+│ +1E6F LOCAL HEADER #16      04034B50 (67324752)
+│ +1E73 Extract Zip Spec      14 (20) '2.0'
+│ +1E74 Extract OS            00 (0) 'MS-DOS'
+│ +1E75 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -1E22 Compression Method    0008 (8) 'Deflated'
+│ -1E24 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -1E28 CRC                   091B1018 (152768536)
+│ -1E2C Compressed Size       0000171F (5919)
+│ -1E30 Uncompressed Size     00005F62 (24418)
+│ -1E34 Filename Length       0015 (21)
+│ -1E36 Extra Length          0000 (0)
+│ -1E38 Filename              'XXXXXXXXXXXXXXXXXXXXX'
+│ +1E77 Compression Method    0008 (8) 'Deflated'
+│ +1E79 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +1E7D CRC                   091B1018 (152768536)
+│ +1E81 Compressed Size       0000171F (5919)
+│ +1E85 Uncompressed Size     00005F62 (24418)
+│ +1E89 Filename Length       0015 (21)
+│ +1E8B Extra Length          0000 (0)
+│ +1E8D Filename              'XXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x1E38: Filename 'XXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x1E8D: Filename 'XXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -1E4D PAYLOAD
+│ +1EA2 PAYLOAD
+│  
+│ -356C LOCAL HEADER #15      04034B50 (67324752)
+│ -3570 Extract Zip Spec      14 (20) '2.0'
+│ -3571 Extract OS            00 (0) 'MS-DOS'
+│ -3572 General Purpose Flag  0800 (2048)
+│ +35C1 LOCAL HEADER #17      04034B50 (67324752)
+│ +35C5 Extract Zip Spec      14 (20) '2.0'
+│ +35C6 Extract OS            00 (0) 'MS-DOS'
+│ +35C7 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -3574 Compression Method    0008 (8) 'Deflated'
+│ -3576 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -357A CRC                   F82E4349 (4163781449)
+│ -357E Compressed Size       000004FB (1275)
+│ -3582 Uncompressed Size     00000E6B (3691)
+│ -3586 Filename Length       001A (26)
+│ -3588 Extra Length          0000 (0)
+│ -358A Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +35C9 Compression Method    0008 (8) 'Deflated'
+│ +35CB Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +35CF CRC                   F82E4349 (4163781449)
+│ +35D3 Compressed Size       000004FB (1275)
+│ +35D7 Uncompressed Size     00000E6B (3691)
+│ +35DB Filename Length       001A (26)
+│ +35DD Extra Length          0000 (0)
+│ +35DF Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x358A: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x35DF: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -35A4 PAYLOAD
+│ +35F9 PAYLOAD
+│  
+│ -3A9F LOCAL HEADER #16      04034B50 (67324752)
+│ -3AA3 Extract Zip Spec      14 (20) '2.0'
+│ -3AA4 Extract OS            00 (0) 'MS-DOS'
+│ -3AA5 General Purpose Flag  0800 (2048)
+│ +3AF4 LOCAL HEADER #18      04034B50 (67324752)
+│ +3AF8 Extract Zip Spec      14 (20) '2.0'
+│ +3AF9 Extract OS            00 (0) 'MS-DOS'
+│ +3AFA General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -3AA7 Compression Method    0008 (8) 'Deflated'
+│ -3AA9 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -3AAD CRC                   1DC4A399 (499426201)
+│ -3AB1 Compressed Size       00000273 (627)
+│ -3AB5 Uncompressed Size     000004EA (1258)
+│ -3AB9 Filename Length       0017 (23)
+│ -3ABB Extra Length          0000 (0)
+│ -3ABD Filename              'XXXXXXXXXXXXXXXXXXXXXXX'
+│ +3AFC Compression Method    0008 (8) 'Deflated'
+│ +3AFE Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +3B02 CRC                   1DC4A399 (499426201)
+│ +3B06 Compressed Size       00000273 (627)
+│ +3B0A Uncompressed Size     000004EA (1258)
+│ +3B0E Filename Length       0017 (23)
+│ +3B10 Extra Length          0000 (0)
+│ +3B12 Filename              'XXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x3ABD: Filename 'XXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x3B12: Filename 'XXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -3AD4 PAYLOAD
+│ +3B29 PAYLOAD
+│  
+│ -3D47 LOCAL HEADER #17      04034B50 (67324752)
+│ -3D4B Extract Zip Spec      14 (20) '2.0'
+│ -3D4C Extract OS            00 (0) 'MS-DOS'
+│ -3D4D General Purpose Flag  0800 (2048)
+│ +3D9C LOCAL HEADER #19      04034B50 (67324752)
+│ +3DA0 Extract Zip Spec      14 (20) '2.0'
+│ +3DA1 Extract OS            00 (0) 'MS-DOS'
+│ +3DA2 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -3D4F Compression Method    0008 (8) 'Deflated'
+│ -3D51 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -3D55 CRC                   936EBC4E (2473507918)
+│ -3D59 Compressed Size       00000348 (840)
+│ -3D5D Uncompressed Size     000007CB (1995)
+│ -3D61 Filename Length       0040 (64)
+│ -3D63 Extra Length          0000 (0)
+│ -3D65 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +3DA4 Compression Method    0008 (8) 'Deflated'
+│ +3DA6 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +3DAA CRC                   936EBC4E (2473507918)
+│ +3DAE Compressed Size       00000348 (840)
+│ +3DB2 Uncompressed Size     000007CB (1995)
+│ +3DB6 Filename Length       0040 (64)
+│ +3DB8 Extra Length          0000 (0)
+│ +3DBA Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x3D65: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x3DBA: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -3DA5 PAYLOAD
+│ +3DFA PAYLOAD
+│  
+│ -40ED LOCAL HEADER #18      04034B50 (67324752)
+│ -40F1 Extract Zip Spec      14 (20) '2.0'
+│ -40F2 Extract OS            00 (0) 'MS-DOS'
+│ -40F3 General Purpose Flag  0800 (2048)
+│ +4142 LOCAL HEADER #20      04034B50 (67324752)
+│ +4146 Extract Zip Spec      14 (20) '2.0'
+│ +4147 Extract OS            00 (0) 'MS-DOS'
+│ +4148 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -40F5 Compression Method    0008 (8) 'Deflated'
+│ -40F7 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -40FB CRC                   4D99A487 (1301914759)
+│ -40FF Compressed Size       00000046 (70)
+│ -4103 Uncompressed Size     0000004B (75)
+│ -4107 Filename Length       0047 (71)
+│ -4109 Extra Length          0000 (0)
+│ -410B Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +414A Compression Method    0008 (8) 'Deflated'
+│ +414C Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +4150 CRC                   4D99A487 (1301914759)
+│ +4154 Compressed Size       00000046 (70)
+│ +4158 Uncompressed Size     0000004B (75)
+│ +415C Filename Length       0047 (71)
+│ +415E Extra Length          0000 (0)
+│ +4160 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x410B: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x4160: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -4152 PAYLOAD               XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+│ +41A7 PAYLOAD               XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+│  
+│ -4198 CENTRAL HEADER #1     02014B50 (33639248)
+│ -419C Created Zip Spec      14 (20) '2.0'
+│ -419D Created OS            03 (3) 'Unix'
+│ -419E Extract Zip Spec      0A (10) '1.0'
+│ -419F Extract OS            00 (0) 'MS-DOS'
+│ -41A0 General Purpose Flag  0800 (2048)
+│ +41ED CENTRAL HEADER #1     02014B50 (33639248)
+│ +41F1 Created Zip Spec      14 (20) '2.0'
+│ +41F2 Created OS            03 (3) 'Unix'
+│ +41F3 Extract Zip Spec      0A (10) '1.0'
+│ +41F4 Extract OS            00 (0) 'MS-DOS'
+│ +41F5 General Purpose Flag  0800 (2048)
+│       [Bit 11]              1 'Language Encoding'
+│ -41A2 Compression Method    0000 (0) 'Stored'
+│ -41A4 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -41A8 CRC                   00000000 (0)
+│ -41AC Compressed Size       00000000 (0)
+│ -41B0 Uncompressed Size     00000000 (0)
+│ -41B4 Filename Length       0009 (9)
+│ -41B6 Extra Length          0000 (0)
+│ -41B8 Comment Length        0000 (0)
+│ -41BA Disk Start            0000 (0)
+│ -41BC Int File Attributes   0000 (0)
+│ +41F7 Compression Method    0000 (0) 'Stored'
+│ +41F9 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +41FD CRC                   00000000 (0)
+│ +4201 Compressed Size       00000000 (0)
+│ +4205 Uncompressed Size     00000000 (0)
+│ +4209 Filename Length       0009 (9)
+│ +420B Extra Length          0000 (0)
+│ +420D Comment Length        0000 (0)
+│ +420F Disk Start            0000 (0)
+│ +4211 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -41BE Ext File Attributes   41ED0010 (1106051088)
+│ +4213 Ext File Attributes   41ED0010 (1106051088)
+│       [Bit 4]               Directory
+│       [Bits 16-24]          01ED (493) 'Unix attrib: rwxr-xr-x'
+│       [Bits 28-31]          04 (4) 'Directory'
+│ -41C2 Local Header Offset   00000000 (0)
+│ -41C6 Filename              'XXXXXXXXX'
+│ +4217 Local Header Offset   00000000 (0)
+│ +421B Filename              'XXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x41C6: Filename 'XXXXXXXXX'
+│ +# WARNING: Offset 0x421B: Filename 'XXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -# ERROR: Offset 0x41C6: Directory 'XXXXXXXXX' must end in a '/'
+│ +# ERROR: Offset 0x421B: Directory 'XXXXXXXXX' must end in a '/'
+│  #        'External Attributes' flag this as a directory
+│  #
+│ -# WARNING: Offset 0x419E: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXX'
+│ +# WARNING: Offset 0x41F3: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXX'
+│  #
+│  
+│ -41CF CENTRAL HEADER #2     02014B50 (33639248)
+│ -41D3 Created Zip Spec      14 (20) '2.0'
+│ -41D4 Created OS            03 (3) 'Unix'
+│ -41D5 Extract Zip Spec      14 (20) '2.0'
+│ -41D6 Extract OS            00 (0) 'MS-DOS'
+│ -41D7 General Purpose Flag  0800 (2048)
+│ +4224 CENTRAL HEADER #2     02014B50 (33639248)
+│ +4228 Created Zip Spec      14 (20) '2.0'
+│ +4229 Created OS            03 (3) 'Unix'
+│ +422A Extract Zip Spec      14 (20) '2.0'
+│ +422B Extract OS            00 (0) 'MS-DOS'
+│ +422C General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -41D9 Compression Method    0008 (8) 'Deflated'
+│ -41DB Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -41DF CRC                   8B12F92F (2333276463)
+│ -41E3 Compressed Size       000000AA (170)
+│ -41E7 Uncompressed Size     00000144 (324)
+│ -41EB Filename Length       0014 (20)
+│ -41ED Extra Length          0000 (0)
+│ -41EF Comment Length        0000 (0)
+│ -41F1 Disk Start            0000 (0)
+│ -41F3 Int File Attributes   0000 (0)
+│ +422E Compression Method    0008 (8) 'Deflated'
+│ +4230 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +4234 CRC                   8B12F92F (2333276463)
+│ +4238 Compressed Size       000000AA (170)
+│ +423C Uncompressed Size     00000144 (324)
+│ +4240 Filename Length       0014 (20)
+│ +4242 Extra Length          0000 (0)
+│ +4244 Comment Length        0000 (0)
+│ +4246 Disk Start            0000 (0)
+│ +4248 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -41F5 Ext File Attributes   81A40000 (2175008768)
+│ +424A Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -41F9 Local Header Offset   00000027 (39)
+│ -41FD Filename              'XXXXXXXXXXXXXXXXXXXX'
+│ +424E Local Header Offset   00000027 (39)
+│ +4252 Filename              'XXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x41FD: Filename 'XXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x4252: Filename 'XXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -4211 CENTRAL HEADER #3     02014B50 (33639248)
+│ -4215 Created Zip Spec      14 (20) '2.0'
+│ -4216 Created OS            03 (3) 'Unix'
+│ -4217 Extract Zip Spec      0A (10) '1.0'
+│ -4218 Extract OS            00 (0) 'MS-DOS'
+│ -4219 General Purpose Flag  0800 (2048)
+│ +4266 CENTRAL HEADER #3     02014B50 (33639248)
+│ +426A Created Zip Spec      14 (20) '2.0'
+│ +426B Created OS            03 (3) 'Unix'
+│ +426C Extract Zip Spec      0A (10) '1.0'
+│ +426D Extract OS            00 (0) 'MS-DOS'
+│ +426E General Purpose Flag  0800 (2048)
+│       [Bit 11]              1 'Language Encoding'
+│ -421B Compression Method    0000 (0) 'Stored'
+│ -421D Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -4221 CRC                   00000000 (0)
+│ -4225 Compressed Size       00000000 (0)
+│ -4229 Uncompressed Size     00000000 (0)
+│ -422D Filename Length       0008 (8)
+│ -422F Extra Length          0000 (0)
+│ -4231 Comment Length        0000 (0)
+│ -4233 Disk Start            0000 (0)
+│ -4235 Int File Attributes   0000 (0)
+│ +4270 Compression Method    0000 (0) 'Stored'
+│ +4272 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +4276 CRC                   00000000 (0)
+│ +427A Compressed Size       00000000 (0)
+│ +427E Uncompressed Size     00000000 (0)
+│ +4282 Filename Length       000A (10)
+│ +4284 Extra Length          0000 (0)
+│ +4286 Comment Length        0000 (0)
+│ +4288 Disk Start            0000 (0)
+│ +428A Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -4237 Ext File Attributes   41ED0010 (1106051088)
+│ +428C Ext File Attributes   41ED0010 (1106051088)
+│       [Bit 4]               Directory
+│       [Bits 16-24]          01ED (493) 'Unix attrib: rwxr-xr-x'
+│       [Bits 28-31]          04 (4) 'Directory'
+│ -423B Local Header Offset   00000103 (259)
+│ -423F Filename              'XXXXXXXX'
+│ +4290 Local Header Offset   00000103 (259)
+│ +4294 Filename              'XXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x423F: Filename 'XXXXXXXX'
+│ +# WARNING: Offset 0x4294: Filename 'XXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -# ERROR: Offset 0x423F: Directory 'XXXXXXXX' must end in a '/'
+│ +# ERROR: Offset 0x4294: Directory 'XXXXXXXXXX' must end in a '/'
+│  #        'External Attributes' flag this as a directory
+│  #
+│ -# WARNING: Offset 0x4217: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXX'
+│ +# WARNING: Offset 0x426C: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXX'
+│  #
+│  
+│ -4247 CENTRAL HEADER #4     02014B50 (33639248)
+│ -424B Created Zip Spec      14 (20) '2.0'
+│ -424C Created OS            03 (3) 'Unix'
+│ -424D Extract Zip Spec      0A (10) '1.0'
+│ -424E Extract OS            00 (0) 'MS-DOS'
+│ -424F General Purpose Flag  0800 (2048)
+│ +429E CENTRAL HEADER #4     02014B50 (33639248)
+│ +42A2 Created Zip Spec      14 (20) '2.0'
+│ +42A3 Created OS            03 (3) 'Unix'
+│ +42A4 Extract Zip Spec      0A (10) '1.0'
+│ +42A5 Extract OS            00 (0) 'MS-DOS'
+│ +42A6 General Purpose Flag  0800 (2048)
+│       [Bit 11]              1 'Language Encoding'
+│ -4251 Compression Method    0000 (0) 'Stored'
+│ -4253 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -4257 CRC                   00000000 (0)
+│ -425B Compressed Size       00000000 (0)
+│ -425F Uncompressed Size     00000000 (0)
+│ -4263 Filename Length       000F (15)
+│ -4265 Extra Length          0000 (0)
+│ -4267 Comment Length        0000 (0)
+│ -4269 Disk Start            0000 (0)
+│ -426B Int File Attributes   0000 (0)
+│ +42A8 Compression Method    0000 (0) 'Stored'
+│ +42AA Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +42AE CRC                   00000000 (0)
+│ +42B2 Compressed Size       00000000 (0)
+│ +42B6 Uncompressed Size     00000000 (0)
+│ +42BA Filename Length       000F (15)
+│ +42BC Extra Length          0000 (0)
+│ +42BE Comment Length        0000 (0)
+│ +42C0 Disk Start            0000 (0)
+│ +42C2 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -426D Ext File Attributes   41ED0010 (1106051088)
+│ +42C4 Ext File Attributes   41ED0010 (1106051088)
+│       [Bit 4]               Directory
+│       [Bits 16-24]          01ED (493) 'Unix attrib: rwxr-xr-x'
+│       [Bits 28-31]          04 (4) 'Directory'
+│ -4271 Local Header Offset   00000129 (297)
+│ -4275 Filename              'XXXXXXXXXXXXXXX'
+│ +42C8 Local Header Offset   0000012B (299)
+│ +42CC Filename              'XXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x4275: Filename 'XXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x42CC: Filename 'XXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -# ERROR: Offset 0x4275: Directory 'XXXXXXXXXXXXXXX' must end in a '/'
+│ +# ERROR: Offset 0x42CC: Directory 'XXXXXXXXXXXXXXX' must end in a '/'
+│  #        'External Attributes' flag this as a directory
+│  #
+│ -# WARNING: Offset 0x424D: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x42A4: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXXXXXX'
+│  #
+│  
+│ -4284 CENTRAL HEADER #5     02014B50 (33639248)
+│ -4288 Created Zip Spec      14 (20) '2.0'
+│ -4289 Created OS            03 (3) 'Unix'
+│ -428A Extract Zip Spec      0A (10) '1.0'
+│ -428B Extract OS            00 (0) 'MS-DOS'
+│ -428C General Purpose Flag  0800 (2048)
+│ +42DB CENTRAL HEADER #5     02014B50 (33639248)
+│ +42DF Created Zip Spec      14 (20) '2.0'
+│ +42E0 Created OS            03 (3) 'Unix'
+│ +42E1 Extract Zip Spec      0A (10) '1.0'
+│ +42E2 Extract OS            00 (0) 'MS-DOS'
+│ +42E3 General Purpose Flag  0800 (2048)
+│       [Bit 11]              1 'Language Encoding'
+│ -428E Compression Method    0000 (0) 'Stored'
+│ -4290 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -4294 CRC                   00000000 (0)
+│ -4298 Compressed Size       00000000 (0)
+│ -429C Uncompressed Size     00000000 (0)
+│ -42A0 Filename Length       001F (31)
+│ -42A2 Extra Length          0000 (0)
+│ -42A4 Comment Length        0000 (0)
+│ -42A6 Disk Start            0000 (0)
+│ -42A8 Int File Attributes   0000 (0)
+│ +42E5 Compression Method    0000 (0) 'Stored'
+│ +42E7 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +42EB CRC                   00000000 (0)
+│ +42EF Compressed Size       00000000 (0)
+│ +42F3 Uncompressed Size     00000000 (0)
+│ +42F7 Filename Length       0008 (8)
+│ +42F9 Extra Length          0000 (0)
+│ +42FB Comment Length        0000 (0)
+│ +42FD Disk Start            0000 (0)
+│ +42FF Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -42AA Ext File Attributes   41ED0010 (1106051088)
+│ +4301 Ext File Attributes   41ED0010 (1106051088)
+│       [Bit 4]               Directory
+│       [Bits 16-24]          01ED (493) 'Unix attrib: rwxr-xr-x'
+│       [Bits 28-31]          04 (4) 'Directory'
+│ -42AE Local Header Offset   00000156 (342)
+│ -42B2 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +4305 Local Header Offset   00000158 (344)
+│ +4309 Filename              'XXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x42B2: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x4309: Filename 'XXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -# ERROR: Offset 0x42B2: Directory 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX' must end in a '/'
+│ +# ERROR: Offset 0x4309: Directory 'XXXXXXXX' must end in a '/'
+│  #        'External Attributes' flag this as a directory
+│  #
+│ -# WARNING: Offset 0x428A: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x42E1: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXX'
+│  #
+│  
+│ -42D1 CENTRAL HEADER #6     02014B50 (33639248)
+│ -42D5 Created Zip Spec      14 (20) '2.0'
+│ -42D6 Created OS            03 (3) 'Unix'
+│ -42D7 Extract Zip Spec      0A (10) '1.0'
+│ -42D8 Extract OS            00 (0) 'MS-DOS'
+│ -42D9 General Purpose Flag  0800 (2048)
+│ +4311 CENTRAL HEADER #6     02014B50 (33639248)
+│ +4315 Created Zip Spec      14 (20) '2.0'
+│ +4316 Created OS            03 (3) 'Unix'
+│ +4317 Extract Zip Spec      0A (10) '1.0'
+│ +4318 Extract OS            00 (0) 'MS-DOS'
+│ +4319 General Purpose Flag  0800 (2048)
+│       [Bit 11]              1 'Language Encoding'
+│ -42DB Compression Method    0000 (0) 'Stored'
+│ -42DD Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -42E1 CRC                   00000000 (0)
+│ -42E5 Compressed Size       00000000 (0)
+│ -42E9 Uncompressed Size     00000000 (0)
+│ -42ED Filename Length       0039 (57)
+│ -42EF Extra Length          0000 (0)
+│ -42F1 Comment Length        0000 (0)
+│ -42F3 Disk Start            0000 (0)
+│ -42F5 Int File Attributes   0000 (0)
+│ +431B Compression Method    0000 (0) 'Stored'
+│ +431D Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +4321 CRC                   00000000 (0)
+│ +4325 Compressed Size       00000000 (0)
+│ +4329 Uncompressed Size     00000000 (0)
+│ +432D Filename Length       000F (15)
+│ +432F Extra Length          0000 (0)
+│ +4331 Comment Length        0000 (0)
+│ +4333 Disk Start            0000 (0)
+│ +4335 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -42F7 Ext File Attributes   41ED0010 (1106051088)
+│ +4337 Ext File Attributes   41ED0010 (1106051088)
+│       [Bit 4]               Directory
+│       [Bits 16-24]          01ED (493) 'Unix attrib: rwxr-xr-x'
+│       [Bits 28-31]          04 (4) 'Directory'
+│ -42FB Local Header Offset   00000193 (403)
+│ -42FF Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +433B Local Header Offset   0000017E (382)
+│ +433F Filename              'XXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x42FF: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x433F: Filename 'XXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│ -# ERROR: Offset 0x42FF: Directory 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX' must end in a '/'
+│ +# ERROR: Offset 0x433F: Directory 'XXXXXXXXXXXXXXX' must end in a '/'
+│  #        'External Attributes' flag this as a directory
+│  #
+│ -# WARNING: Offset 0x42D7: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x4317: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXXXXXX'
+│  #
+│  
+│ -4338 CENTRAL HEADER #7     02014B50 (33639248)
+│ -433C Created Zip Spec      14 (20) '2.0'
+│ -433D Created OS            03 (3) 'Unix'
+│ -433E Extract Zip Spec      14 (20) '2.0'
+│ -433F Extract OS            00 (0) 'MS-DOS'
+│ -4340 General Purpose Flag  0800 (2048)
+│ +434E CENTRAL HEADER #7     02014B50 (33639248)
+│ +4352 Created Zip Spec      14 (20) '2.0'
+│ +4353 Created OS            03 (3) 'Unix'
+│ +4354 Extract Zip Spec      0A (10) '1.0'
+│ +4355 Extract OS            00 (0) 'MS-DOS'
+│ +4356 General Purpose Flag  0800 (2048)
+│ +     [Bit 11]              1 'Language Encoding'
+│ +4358 Compression Method    0000 (0) 'Stored'
+│ +435A Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +435E CRC                   00000000 (0)
+│ +4362 Compressed Size       00000000 (0)
+│ +4366 Uncompressed Size     00000000 (0)
+│ +436A Filename Length       001F (31)
+│ +436C Extra Length          0000 (0)
+│ +436E Comment Length        0000 (0)
+│ +4370 Disk Start            0000 (0)
+│ +4372 Int File Attributes   0000 (0)
+│ +     [Bit 0]               0 'Binary Data'
+│ +4374 Ext File Attributes   41ED0010 (1106051088)
+│ +     [Bit 4]               Directory
+│ +     [Bits 16-24]          01ED (493) 'Unix attrib: rwxr-xr-x'
+│ +     [Bits 28-31]          04 (4) 'Directory'
+│ +4378 Local Header Offset   000001AB (427)
+│ +437C Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +#
+│ +# WARNING: Offset 0x437C: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +#          Zero length filename
+│ +#
+│ +# ERROR: Offset 0x437C: Directory 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX' must end in a '/'
+│ +#        'External Attributes' flag this as a directory
+│ +#
+│ +# WARNING: Offset 0x4354: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +#
+│ +
+│ +439B CENTRAL HEADER #8     02014B50 (33639248)
+│ +439F Created Zip Spec      14 (20) '2.0'
+│ +43A0 Created OS            03 (3) 'Unix'
+│ +43A1 Extract Zip Spec      0A (10) '1.0'
+│ +43A2 Extract OS            00 (0) 'MS-DOS'
+│ +43A3 General Purpose Flag  0800 (2048)
+│ +     [Bit 11]              1 'Language Encoding'
+│ +43A5 Compression Method    0000 (0) 'Stored'
+│ +43A7 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +43AB CRC                   00000000 (0)
+│ +43AF Compressed Size       00000000 (0)
+│ +43B3 Uncompressed Size     00000000 (0)
+│ +43B7 Filename Length       0039 (57)
+│ +43B9 Extra Length          0000 (0)
+│ +43BB Comment Length        0000 (0)
+│ +43BD Disk Start            0000 (0)
+│ +43BF Int File Attributes   0000 (0)
+│ +     [Bit 0]               0 'Binary Data'
+│ +43C1 Ext File Attributes   41ED0010 (1106051088)
+│ +     [Bit 4]               Directory
+│ +     [Bits 16-24]          01ED (493) 'Unix attrib: rwxr-xr-x'
+│ +     [Bits 28-31]          04 (4) 'Directory'
+│ +43C5 Local Header Offset   000001E8 (488)
+│ +43C9 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +#
+│ +# WARNING: Offset 0x43C9: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +#          Zero length filename
+│ +#
+│ +# ERROR: Offset 0x43C9: Directory 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX' must end in a '/'
+│ +#        'External Attributes' flag this as a directory
+│ +#
+│ +# WARNING: Offset 0x43A1: 'Extract Zip Spec' is '1.0'. Need value >= '2.0' for Directory 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +#
+│ +
+│ +4402 CENTRAL HEADER #9     02014B50 (33639248)
+│ +4406 Created Zip Spec      14 (20) '2.0'
+│ +4407 Created OS            03 (3) 'Unix'
+│ +4408 Extract Zip Spec      14 (20) '2.0'
+│ +4409 Extract OS            00 (0) 'MS-DOS'
+│ +440A General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -4342 Compression Method    0008 (8) 'Deflated'
+│ -4344 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -4348 CRC                   3F111BBC (1058085820)
+│ -434C Compressed Size       000001C4 (452)
+│ -4350 Uncompressed Size     0000030D (781)
+│ -4354 Filename Length       0013 (19)
+│ -4356 Extra Length          0000 (0)
+│ -4358 Comment Length        0000 (0)
+│ -435A Disk Start            0000 (0)
+│ -435C Int File Attributes   0000 (0)
+│ +440C Compression Method    0008 (8) 'Deflated'
+│ +440E Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +4412 CRC                   3F111BBC (1058085820)
+│ +4416 Compressed Size       000001C4 (452)
+│ +441A Uncompressed Size     0000030D (781)
+│ +441E Filename Length       0013 (19)
+│ +4420 Extra Length          0000 (0)
+│ +4422 Comment Length        0000 (0)
+│ +4424 Disk Start            0000 (0)
+│ +4426 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -435E Ext File Attributes   81A40000 (2175008768)
+│ +4428 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -4362 Local Header Offset   000001EA (490)
+│ -4366 Filename              'XXXXXXXXXXXXXXXXXXX'
+│ +442C Local Header Offset   0000023F (575)
+│ +4430 Filename              'XXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x4366: Filename 'XXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x4430: Filename 'XXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -4379 CENTRAL HEADER #8     02014B50 (33639248)
+│ -437D Created Zip Spec      14 (20) '2.0'
+│ -437E Created OS            03 (3) 'Unix'
+│ -437F Extract Zip Spec      14 (20) '2.0'
+│ -4380 Extract OS            00 (0) 'MS-DOS'
+│ -4381 General Purpose Flag  0800 (2048)
+│ +4443 CENTRAL HEADER #10    02014B50 (33639248)
+│ +4447 Created Zip Spec      14 (20) '2.0'
+│ +4448 Created OS            03 (3) 'Unix'
+│ +4449 Extract Zip Spec      14 (20) '2.0'
+│ +444A Extract OS            00 (0) 'MS-DOS'
+│ +444B General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -4383 Compression Method    0008 (8) 'Deflated'
+│ -4385 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -4389 CRC                   ED2C0F2F (3979087663)
+│ -438D Compressed Size       00000221 (545)
+│ -4391 Uncompressed Size     000003C6 (966)
+│ -4395 Filename Length       0012 (18)
+│ -4397 Extra Length          0000 (0)
+│ -4399 Comment Length        0000 (0)
+│ -439B Disk Start            0000 (0)
+│ -439D Int File Attributes   0000 (0)
+│ +444D Compression Method    0008 (8) 'Deflated'
+│ +444F Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +4453 CRC                   ED2C0F2F (3979087663)
+│ +4457 Compressed Size       00000221 (545)
+│ +445B Uncompressed Size     000003C6 (966)
+│ +445F Filename Length       0012 (18)
+│ +4461 Extra Length          0000 (0)
+│ +4463 Comment Length        0000 (0)
+│ +4465 Disk Start            0000 (0)
+│ +4467 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -439F Ext File Attributes   81A40000 (2175008768)
+│ +4469 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -43A3 Local Header Offset   000003DF (991)
+│ -43A7 Filename              'XXXXXXXXXXXXXXXXXX'
+│ +446D Local Header Offset   00000434 (1076)
+│ +4471 Filename              'XXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x43A7: Filename 'XXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x4471: Filename 'XXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -43B9 CENTRAL HEADER #9     02014B50 (33639248)
+│ -43BD Created Zip Spec      14 (20) '2.0'
+│ -43BE Created OS            03 (3) 'Unix'
+│ -43BF Extract Zip Spec      14 (20) '2.0'
+│ -43C0 Extract OS            00 (0) 'MS-DOS'
+│ -43C1 General Purpose Flag  0800 (2048)
+│ +4483 CENTRAL HEADER #11    02014B50 (33639248)
+│ +4487 Created Zip Spec      14 (20) '2.0'
+│ +4488 Created OS            03 (3) 'Unix'
+│ +4489 Extract Zip Spec      14 (20) '2.0'
+│ +448A Extract OS            00 (0) 'MS-DOS'
+│ +448B General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -43C3 Compression Method    0008 (8) 'Deflated'
+│ -43C5 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -43C9 CRC                   FC57FEF9 (4233625337)
+│ -43CD Compressed Size       00000705 (1797)
+│ -43D1 Uncompressed Size     000017C5 (6085)
+│ -43D5 Filename Length       0019 (25)
+│ -43D7 Extra Length          0000 (0)
+│ -43D9 Comment Length        0000 (0)
+│ -43DB Disk Start            0000 (0)
+│ -43DD Int File Attributes   0000 (0)
+│ +448D Compression Method    0008 (8) 'Deflated'
+│ +448F Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +4493 CRC                   FC57FEF9 (4233625337)
+│ +4497 Compressed Size       00000705 (1797)
+│ +449B Uncompressed Size     000017C5 (6085)
+│ +449F Filename Length       0019 (25)
+│ +44A1 Extra Length          0000 (0)
+│ +44A3 Comment Length        0000 (0)
+│ +44A5 Disk Start            0000 (0)
+│ +44A7 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -43DF Ext File Attributes   81A40000 (2175008768)
+│ +44A9 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -43E3 Local Header Offset   00000630 (1584)
+│ -43E7 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +44AD Local Header Offset   00000685 (1669)
+│ +44B1 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x43E7: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x44B1: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -4400 CENTRAL HEADER #10    02014B50 (33639248)
+│ -4404 Created Zip Spec      14 (20) '2.0'
+│ -4405 Created OS            03 (3) 'Unix'
+│ -4406 Extract Zip Spec      14 (20) '2.0'
+│ -4407 Extract OS            00 (0) 'MS-DOS'
+│ -4408 General Purpose Flag  0800 (2048)
+│ +44CA CENTRAL HEADER #12    02014B50 (33639248)
+│ +44CE Created Zip Spec      14 (20) '2.0'
+│ +44CF Created OS            03 (3) 'Unix'
+│ +44D0 Extract Zip Spec      14 (20) '2.0'
+│ +44D1 Extract OS            00 (0) 'MS-DOS'
+│ +44D2 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -440A Compression Method    0008 (8) 'Deflated'
+│ -440C Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -4410 CRC                   B5985825 (3046660133)
+│ -4414 Compressed Size       0000055B (1371)
+│ -4418 Uncompressed Size     000016C2 (5826)
+│ -441C Filename Length       0018 (24)
+│ -441E Extra Length          0000 (0)
+│ -4420 Comment Length        0000 (0)
+│ -4422 Disk Start            0000 (0)
+│ -4424 Int File Attributes   0000 (0)
+│ +44D4 Compression Method    0008 (8) 'Deflated'
+│ +44D6 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +44DA CRC                   B5985825 (3046660133)
+│ +44DE Compressed Size       0000055B (1371)
+│ +44E2 Uncompressed Size     000016C2 (5826)
+│ +44E6 Filename Length       0018 (24)
+│ +44E8 Extra Length          0000 (0)
+│ +44EA Comment Length        0000 (0)
+│ +44EC Disk Start            0000 (0)
+│ +44EE Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -4426 Ext File Attributes   81A40000 (2175008768)
+│ +44F0 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -442A Local Header Offset   00000D6C (3436)
+│ -442E Filename              'XXXXXXXXXXXXXXXXXXXXXXXX'
+│ +44F4 Local Header Offset   00000DC1 (3521)
+│ +44F8 Filename              'XXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x442E: Filename 'XXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x44F8: Filename 'XXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -4446 CENTRAL HEADER #11    02014B50 (33639248)
+│ -444A Created Zip Spec      14 (20) '2.0'
+│ -444B Created OS            03 (3) 'Unix'
+│ -444C Extract Zip Spec      14 (20) '2.0'
+│ -444D Extract OS            00 (0) 'MS-DOS'
+│ -444E General Purpose Flag  0800 (2048)
+│ +4510 CENTRAL HEADER #13    02014B50 (33639248)
+│ +4514 Created Zip Spec      14 (20) '2.0'
+│ +4515 Created OS            03 (3) 'Unix'
+│ +4516 Extract Zip Spec      14 (20) '2.0'
+│ +4517 Extract OS            00 (0) 'MS-DOS'
+│ +4518 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -4450 Compression Method    0008 (8) 'Deflated'
+│ -4452 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -4456 CRC                   F9F5D5E9 (4193637865)
+│ -445A Compressed Size       000003A4 (932)
+│ -445E Uncompressed Size     00000883 (2179)
+│ -4462 Filename Length       0019 (25)
+│ -4464 Extra Length          0000 (0)
+│ -4466 Comment Length        0000 (0)
+│ -4468 Disk Start            0000 (0)
+│ -446A Int File Attributes   0000 (0)
+│ +451A Compression Method    0008 (8) 'Deflated'
+│ +451C Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +4520 CRC                   F9F5D5E9 (4193637865)
+│ +4524 Compressed Size       000003A4 (932)
+│ +4528 Uncompressed Size     00000883 (2179)
+│ +452C Filename Length       0019 (25)
+│ +452E Extra Length          0000 (0)
+│ +4530 Comment Length        0000 (0)
+│ +4532 Disk Start            0000 (0)
+│ +4534 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -446C Ext File Attributes   81A40000 (2175008768)
+│ +4536 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -4470 Local Header Offset   000012FD (4861)
+│ -4474 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +453A Local Header Offset   00001352 (4946)
+│ +453E Filename              'XXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x4474: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x453E: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -448D CENTRAL HEADER #12    02014B50 (33639248)
+│ -4491 Created Zip Spec      14 (20) '2.0'
+│ -4492 Created OS            03 (3) 'Unix'
+│ -4493 Extract Zip Spec      14 (20) '2.0'
+│ -4494 Extract OS            00 (0) 'MS-DOS'
+│ -4495 General Purpose Flag  0800 (2048)
+│ +4557 CENTRAL HEADER #14    02014B50 (33639248)
+│ +455B Created Zip Spec      14 (20) '2.0'
+│ +455C Created OS            03 (3) 'Unix'
+│ +455D Extract Zip Spec      14 (20) '2.0'
+│ +455E Extract OS            00 (0) 'MS-DOS'
+│ +455F General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -4497 Compression Method    0008 (8) 'Deflated'
+│ -4499 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -449D CRC                   18689434 (409506868)
+│ -44A1 Compressed Size       000003B5 (949)
+│ -44A5 Uncompressed Size     000008B3 (2227)
+│ -44A9 Filename Length       001C (28)
+│ -44AB Extra Length          0000 (0)
+│ -44AD Comment Length        0000 (0)
+│ -44AF Disk Start            0000 (0)
+│ -44B1 Int File Attributes   0000 (0)
+│ +4561 Compression Method    0008 (8) 'Deflated'
+│ +4563 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +4567 CRC                   18689434 (409506868)
+│ +456B Compressed Size       000003B5 (949)
+│ +456F Uncompressed Size     000008B3 (2227)
+│ +4573 Filename Length       001C (28)
+│ +4575 Extra Length          0000 (0)
+│ +4577 Comment Length        0000 (0)
+│ +4579 Disk Start            0000 (0)
+│ +457B Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -44B3 Ext File Attributes   81A40000 (2175008768)
+│ +457D Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -44B7 Local Header Offset   000016D8 (5848)
+│ -44BB Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +4581 Local Header Offset   0000172D (5933)
+│ +4585 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x44BB: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x4585: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -44D7 CENTRAL HEADER #13    02014B50 (33639248)
+│ -44DB Created Zip Spec      14 (20) '2.0'
+│ -44DC Created OS            03 (3) 'Unix'
+│ -44DD Extract Zip Spec      14 (20) '2.0'
+│ -44DE Extract OS            00 (0) 'MS-DOS'
+│ -44DF General Purpose Flag  0800 (2048)
+│ +45A1 CENTRAL HEADER #15    02014B50 (33639248)
+│ +45A5 Created Zip Spec      14 (20) '2.0'
+│ +45A6 Created OS            03 (3) 'Unix'
+│ +45A7 Extract Zip Spec      14 (20) '2.0'
+│ +45A8 Extract OS            00 (0) 'MS-DOS'
+│ +45A9 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -44E1 Compression Method    0008 (8) 'Deflated'
+│ -44E3 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -44E7 CRC                   CC7797A2 (3430389666)
+│ -44EB Compressed Size       00000323 (803)
+│ -44EF Uncompressed Size     0000086D (2157)
+│ -44F3 Filename Length       0012 (18)
+│ -44F5 Extra Length          0000 (0)
+│ -44F7 Comment Length        0000 (0)
+│ -44F9 Disk Start            0000 (0)
+│ -44FB Int File Attributes   0000 (0)
+│ +45AB Compression Method    0008 (8) 'Deflated'
+│ +45AD Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +45B1 CRC                   CC7797A2 (3430389666)
+│ +45B5 Compressed Size       00000323 (803)
+│ +45B9 Uncompressed Size     0000086D (2157)
+│ +45BD Filename Length       0012 (18)
+│ +45BF Extra Length          0000 (0)
+│ +45C1 Comment Length        0000 (0)
+│ +45C3 Disk Start            0000 (0)
+│ +45C5 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -44FD Ext File Attributes   81A40000 (2175008768)
+│ +45C7 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -4501 Local Header Offset   00001AC7 (6855)
+│ -4505 Filename              'XXXXXXXXXXXXXXXXXX'
+│ +45CB Local Header Offset   00001B1C (6940)
+│ +45CF Filename              'XXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x4505: Filename 'XXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x45CF: Filename 'XXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -4517 CENTRAL HEADER #14    02014B50 (33639248)
+│ -451B Created Zip Spec      14 (20) '2.0'
+│ -451C Created OS            03 (3) 'Unix'
+│ -451D Extract Zip Spec      14 (20) '2.0'
+│ -451E Extract OS            00 (0) 'MS-DOS'
+│ -451F General Purpose Flag  0800 (2048)
+│ +45E1 CENTRAL HEADER #16    02014B50 (33639248)
+│ +45E5 Created Zip Spec      14 (20) '2.0'
+│ +45E6 Created OS            03 (3) 'Unix'
+│ +45E7 Extract Zip Spec      14 (20) '2.0'
+│ +45E8 Extract OS            00 (0) 'MS-DOS'
+│ +45E9 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -4521 Compression Method    0008 (8) 'Deflated'
+│ -4523 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -4527 CRC                   091B1018 (152768536)
+│ -452B Compressed Size       0000171F (5919)
+│ -452F Uncompressed Size     00005F62 (24418)
+│ -4533 Filename Length       0015 (21)
+│ -4535 Extra Length          0000 (0)
+│ -4537 Comment Length        0000 (0)
+│ -4539 Disk Start            0000 (0)
+│ -453B Int File Attributes   0000 (0)
+│ +45EB Compression Method    0008 (8) 'Deflated'
+│ +45ED Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +45F1 CRC                   091B1018 (152768536)
+│ +45F5 Compressed Size       0000171F (5919)
+│ +45F9 Uncompressed Size     00005F62 (24418)
+│ +45FD Filename Length       0015 (21)
+│ +45FF Extra Length          0000 (0)
+│ +4601 Comment Length        0000 (0)
+│ +4603 Disk Start            0000 (0)
+│ +4605 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -453D Ext File Attributes   81A40000 (2175008768)
+│ +4607 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -4541 Local Header Offset   00001E1A (7706)
+│ -4545 Filename              'XXXXXXXXXXXXXXXXXXXXX'
+│ +460B Local Header Offset   00001E6F (7791)
+│ +460F Filename              'XXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x4545: Filename 'XXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x460F: Filename 'XXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -455A CENTRAL HEADER #15    02014B50 (33639248)
+│ -455E Created Zip Spec      14 (20) '2.0'
+│ -455F Created OS            03 (3) 'Unix'
+│ -4560 Extract Zip Spec      14 (20) '2.0'
+│ -4561 Extract OS            00 (0) 'MS-DOS'
+│ -4562 General Purpose Flag  0800 (2048)
+│ +4624 CENTRAL HEADER #17    02014B50 (33639248)
+│ +4628 Created Zip Spec      14 (20) '2.0'
+│ +4629 Created OS            03 (3) 'Unix'
+│ +462A Extract Zip Spec      14 (20) '2.0'
+│ +462B Extract OS            00 (0) 'MS-DOS'
+│ +462C General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -4564 Compression Method    0008 (8) 'Deflated'
+│ -4566 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -456A CRC                   F82E4349 (4163781449)
+│ -456E Compressed Size       000004FB (1275)
+│ -4572 Uncompressed Size     00000E6B (3691)
+│ -4576 Filename Length       001A (26)
+│ -4578 Extra Length          0000 (0)
+│ -457A Comment Length        0000 (0)
+│ -457C Disk Start            0000 (0)
+│ -457E Int File Attributes   0000 (0)
+│ +462E Compression Method    0008 (8) 'Deflated'
+│ +4630 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +4634 CRC                   F82E4349 (4163781449)
+│ +4638 Compressed Size       000004FB (1275)
+│ +463C Uncompressed Size     00000E6B (3691)
+│ +4640 Filename Length       001A (26)
+│ +4642 Extra Length          0000 (0)
+│ +4644 Comment Length        0000 (0)
+│ +4646 Disk Start            0000 (0)
+│ +4648 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -4580 Ext File Attributes   81A40000 (2175008768)
+│ +464A Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -4584 Local Header Offset   0000356C (13676)
+│ -4588 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +464E Local Header Offset   000035C1 (13761)
+│ +4652 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x4588: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x4652: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -45A2 CENTRAL HEADER #16    02014B50 (33639248)
+│ -45A6 Created Zip Spec      14 (20) '2.0'
+│ -45A7 Created OS            03 (3) 'Unix'
+│ -45A8 Extract Zip Spec      14 (20) '2.0'
+│ -45A9 Extract OS            00 (0) 'MS-DOS'
+│ -45AA General Purpose Flag  0800 (2048)
+│ +466C CENTRAL HEADER #18    02014B50 (33639248)
+│ +4670 Created Zip Spec      14 (20) '2.0'
+│ +4671 Created OS            03 (3) 'Unix'
+│ +4672 Extract Zip Spec      14 (20) '2.0'
+│ +4673 Extract OS            00 (0) 'MS-DOS'
+│ +4674 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -45AC Compression Method    0008 (8) 'Deflated'
+│ -45AE Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -45B2 CRC                   1DC4A399 (499426201)
+│ -45B6 Compressed Size       00000273 (627)
+│ -45BA Uncompressed Size     000004EA (1258)
+│ -45BE Filename Length       0017 (23)
+│ -45C0 Extra Length          0000 (0)
+│ -45C2 Comment Length        0000 (0)
+│ -45C4 Disk Start            0000 (0)
+│ -45C6 Int File Attributes   0000 (0)
+│ +4676 Compression Method    0008 (8) 'Deflated'
+│ +4678 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +467C CRC                   1DC4A399 (499426201)
+│ +4680 Compressed Size       00000273 (627)
+│ +4684 Uncompressed Size     000004EA (1258)
+│ +4688 Filename Length       0017 (23)
+│ +468A Extra Length          0000 (0)
+│ +468C Comment Length        0000 (0)
+│ +468E Disk Start            0000 (0)
+│ +4690 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -45C8 Ext File Attributes   81A40000 (2175008768)
+│ +4692 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -45CC Local Header Offset   00003A9F (15007)
+│ -45D0 Filename              'XXXXXXXXXXXXXXXXXXXXXXX'
+│ +4696 Local Header Offset   00003AF4 (15092)
+│ +469A Filename              'XXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x45D0: Filename 'XXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x469A: Filename 'XXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -45E7 CENTRAL HEADER #17    02014B50 (33639248)
+│ -45EB Created Zip Spec      14 (20) '2.0'
+│ -45EC Created OS            03 (3) 'Unix'
+│ -45ED Extract Zip Spec      14 (20) '2.0'
+│ -45EE Extract OS            00 (0) 'MS-DOS'
+│ -45EF General Purpose Flag  0800 (2048)
+│ +46B1 CENTRAL HEADER #19    02014B50 (33639248)
+│ +46B5 Created Zip Spec      14 (20) '2.0'
+│ +46B6 Created OS            03 (3) 'Unix'
+│ +46B7 Extract Zip Spec      14 (20) '2.0'
+│ +46B8 Extract OS            00 (0) 'MS-DOS'
+│ +46B9 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -45F1 Compression Method    0008 (8) 'Deflated'
+│ -45F3 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -45F7 CRC                   936EBC4E (2473507918)
+│ -45FB Compressed Size       00000348 (840)
+│ -45FF Uncompressed Size     000007CB (1995)
+│ -4603 Filename Length       0040 (64)
+│ -4605 Extra Length          0000 (0)
+│ -4607 Comment Length        0000 (0)
+│ -4609 Disk Start            0000 (0)
+│ -460B Int File Attributes   0000 (0)
+│ +46BB Compression Method    0008 (8) 'Deflated'
+│ +46BD Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +46C1 CRC                   936EBC4E (2473507918)
+│ +46C5 Compressed Size       00000348 (840)
+│ +46C9 Uncompressed Size     000007CB (1995)
+│ +46CD Filename Length       0040 (64)
+│ +46CF Extra Length          0000 (0)
+│ +46D1 Comment Length        0000 (0)
+│ +46D3 Disk Start            0000 (0)
+│ +46D5 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -460D Ext File Attributes   81A40000 (2175008768)
+│ +46D7 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -4611 Local Header Offset   00003D47 (15687)
+│ -4615 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +46DB Local Header Offset   00003D9C (15772)
+│ +46DF Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x4615: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x46DF: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -4655 CENTRAL HEADER #18    02014B50 (33639248)
+│ -4659 Created Zip Spec      14 (20) '2.0'
+│ -465A Created OS            03 (3) 'Unix'
+│ -465B Extract Zip Spec      14 (20) '2.0'
+│ -465C Extract OS            00 (0) 'MS-DOS'
+│ -465D General Purpose Flag  0800 (2048)
+│ +471F CENTRAL HEADER #20    02014B50 (33639248)
+│ +4723 Created Zip Spec      14 (20) '2.0'
+│ +4724 Created OS            03 (3) 'Unix'
+│ +4725 Extract Zip Spec      14 (20) '2.0'
+│ +4726 Extract OS            00 (0) 'MS-DOS'
+│ +4727 General Purpose Flag  0800 (2048)
+│       [Bits 1-2]            0 'Normal Compression'
+│       [Bit 11]              1 'Language Encoding'
+│ -465F Compression Method    0008 (8) 'Deflated'
+│ -4661 Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ -4665 CRC                   4D99A487 (1301914759)
+│ -4669 Compressed Size       00000046 (70)
+│ -466D Uncompressed Size     0000004B (75)
+│ -4671 Filename Length       0047 (71)
+│ -4673 Extra Length          0000 (0)
+│ -4675 Comment Length        0000 (0)
+│ -4677 Disk Start            0000 (0)
+│ -4679 Int File Attributes   0000 (0)
+│ +4729 Compression Method    0008 (8) 'Deflated'
+│ +472B Modification Time     5B327EF9 (1530035961) 'Thu Sep 18 15:55:50 2025'
+│ +472F CRC                   4D99A487 (1301914759)
+│ +4733 Compressed Size       00000046 (70)
+│ +4737 Uncompressed Size     0000004B (75)
+│ +473B Filename Length       0047 (71)
+│ +473D Extra Length          0000 (0)
+│ +473F Comment Length        0000 (0)
+│ +4741 Disk Start            0000 (0)
+│ +4743 Int File Attributes   0000 (0)
+│       [Bit 0]               0 'Binary Data'
+│ -467B Ext File Attributes   81A40000 (2175008768)
+│ +4745 Ext File Attributes   81A40000 (2175008768)
+│       [Bits 16-24]          01A4 (420) 'Unix attrib: rw-r--r--'
+│       [Bits 28-31]          08 (8) 'Regular File'
+│ -467F Local Header Offset   000040ED (16621)
+│ -4683 Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +4749 Local Header Offset   00004142 (16706)
+│ +474D Filename              'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #
+│ -# WARNING: Offset 0x4683: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│ +# WARNING: Offset 0x474D: Filename 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+│  #          Zero length filename
+│  #
+│  
+│ -46CA END CENTRAL HEADER    06054B50 (101010256)
+│ -46CE Number of this disk   0000 (0)
+│ -46D0 Central Dir Disk no   0000 (0)
+│ -46D2 Entries in this disk  0012 (18)
+│ -46D4 Total Entries         0012 (18)
+│ -46D6 Size of Central Dir   00000532 (1330)
+│ -46DA Offset to Central Dir 00004198 (16792)
+│ -46DE Comment Length        0000 (0)
+│ +4794 END CENTRAL HEADER    06054B50 (101010256)
+│ +4798 Number of this disk   0000 (0)
+│ +479A Central Dir Disk no   0000 (0)
+│ +479C Entries in this disk  0014 (20)
+│ +479E Total Entries         0014 (20)
+│ +47A0 Size of Central Dir   000005A7 (1447)
+│ +47A4 Offset to Central Dir 000041ED (16877)
+│ +47A8 Comment Length        0000 (0)
+│  #
+│ -# Error Count: 5
+│ -# Warning Count: 41
+│ +# Error Count: 7
+│ +# Warning Count: 47
+│  #
+│  # Done
+
+5 /       34 target/reference/org.apache.nifi.registry/nifi-registry-web-api-2.6.0.war nifi-registry/nifi-registry-core/nifi-registry-web-api/target/nifi-registry-web-api-2.6.0.war
