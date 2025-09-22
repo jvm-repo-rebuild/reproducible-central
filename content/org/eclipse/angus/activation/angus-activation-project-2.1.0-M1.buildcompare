@@ -1,0 +1,14 @@
+version=2.1.0-M1
+ok=7
+ko=1
+ignored=0
+okFiles="angus-activation-project-2.1.0-M1.pom angus-activation-project-2.1.0-M1-cyclonedx.xml angus-activation-project-2.1.0-M1-cyclonedx.json angus-activation-2.1.0-M1.pom angus-activation-2.1.0-M1-cyclonedx.xml angus-activation-2.1.0-M1-cyclonedx.json angus-activation-2.1.0-M1-sources.jar"
+koFiles="angus-activation-2.1.0-M1.jar"
+ignoredFiles=""
+# diffoscope target/reference/org.eclipse.angus/angus-activation-2.1.0-M1.jar activation-registry/target/angus-activation-2.1.0-M1.jar
+stabilize_ok=0
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="angus-activation-2.1.0-M1.jar.stabilized"
+stabilize_ignoredFiles=""
