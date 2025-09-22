@@ -1,0 +1,55 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Compiler Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-compiler-plugin
+version=3.14.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/maven-compiler-plugin.git
+source.scm.tag=maven-compiler-plugin-3.14.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-compiler-plugin-3.14.1.pom
+outputs.0.length=9875
+outputs.0.checksums.sha512=68e39d999c53c0a6d4aebefd2d06f5927b039f451d8e09b5fb71c5072a103586105fd7c5a88e7c09582d3e6783bfd6ea7f9f4f5e4b3301ab202c27f4e0ca16a3
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-compiler-plugin-3.14.1.jar
+outputs.1.length=83593
+outputs.1.checksums.sha512=d468366f56448cba22bb04885c9ff293e14a12a11b698d7ea5808843df0cc2f2b29cd01c53ee02d951316000435181f9979d3e1068d6927ebc324d0b3cdac945
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-compiler-plugin-3.14.1-source-release.zip
+outputs.2.length=801642
+outputs.2.checksums.sha512=9053c5edc85bb8ea358cd1720139e960905b76e3ffcae3f968c3f92cded6d238ec7b260d67f6ddc0f2d81b7b72f5e69008b770992d2a270f52578e33e0f73e40
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-compiler-plugin-3.14.1-sources.jar
+outputs.3.length=45739
+outputs.3.checksums.sha512=699563ac6b5314e609166473b2d4c119871e5534687a2c5786484e582904d4cf7e6dcfbe6953ed4e87af0da69ac1c4b2f3d7451a7e641ef7f36d719c915251af
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-compiler-plugin-3.14.1-cyclonedx.xml
+outputs.4.length=115754
+outputs.4.checksums.sha512=81583e300a86377ce6c761f7ae5c21e43cc0ee2a59b9d70ec128f33a9a43eea1ec9016e30b9174c0a5ada5eda4a5c66ca615cb4166ec8f30e628c0d58928b582
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-compiler-plugin-3.14.1-cyclonedx.json
+outputs.5.length=125814
+outputs.5.checksums.sha512=4808a7d14c07de76e0ad50ff358390484fba64b7c4e0bf995e3fdc338cf9abebf231242167bef75806408150176a6678621c3899dc9a18f84eacfbb7b5775172
