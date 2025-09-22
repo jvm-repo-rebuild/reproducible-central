@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/spdx/spdx-java-core.git](https://github.com/spdx/spdx-java-core.git)
 
-rebuilding **4 releases** of org.spdx:spdx-java-core:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **5 releases** of org.spdx:spdx-java-core:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.0.1](https://central.sonatype.com/artifact/org.spdx/spdx-java-core/1.0.1/pom) | | | |
+| [1.0.1](https://central.sonatype.com/artifact/org.spdx/spdx-java-core/1.0.1/pom) | [mvn jdk23 w](spdx-java-core-1.0.1.buildspec) | [result](spdx-java-core-1.0.1.buildinfo): [3 :white_check_mark: ](spdx-java-core-1.0.1.buildcompare) | | 146K |
 | [1.0.0](https://central.sonatype.com/artifact/org.spdx/spdx-java-core/1.0.0/pom) | [mvn jdk23 w](spdx-java-core-1.0.0.buildspec) | [result](spdx-java-core-1.0.0.buildinfo): [3 :white_check_mark: ](spdx-java-core-1.0.0.buildcompare) | | 146K |
 | [1.0.0-RC2](https://central.sonatype.com/artifact/org.spdx/spdx-java-core/1.0.0-RC2/pom) | [mvn jdk23 w](spdx-java-core-1.0.0-RC2.buildspec) | [result](spdx-java-core-1.0.0-RC2.buildinfo): [3 :white_check_mark: ](spdx-java-core-1.0.0-RC2.buildcompare) | | 145K |
 | [1.0.0-RC1](https://central.sonatype.com/artifact/org.spdx/spdx-java-core/1.0.0-RC1/pom) | [mvn jdk23 w](spdx-java-core-1.0.0-RC1.buildspec) | [result](spdx-java-core-1.0.0-RC1.buildinfo): [3 :white_check_mark: ](spdx-java-core-1.0.0-RC1.buildcompare) | | 151K |
