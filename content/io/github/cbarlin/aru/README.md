@@ -16,13 +16,13 @@ Source code: [https://github.com/cbarlin/advanced-record-utils](https://github.c
 * [io.github.cbarlin:aru-processor-core](https://central.sonatype.com/artifact/io.github.cbarlin/aru-processor-core/overview)
 </details>
 
-rebuilding **27 releases** of io.github.cbarlin:aru-parent:
-- **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **28 releases** of io.github.cbarlin:aru-parent:
+- **28** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.6.7](https://central.sonatype.com/artifact/io.github.cbarlin/aru-parent/0.6.7/pom) | | | |
+| [0.6.7](https://central.sonatype.com/artifact/io.github.cbarlin/aru-parent/0.6.7/pom) | [mvn jdk21](aru-0.6.7.buildspec) | [result](aru-parent-0.6.7.buildinfo): [13 :white_check_mark: ](aru-parent-0.6.7.buildcompare) | | 1.9M |
 | [0.6.6](https://central.sonatype.com/artifact/io.github.cbarlin/aru-parent/0.6.6/pom) | [mvn jdk25](aru-0.6.6.buildspec) | [result](aru-parent-0.6.6.buildinfo): [13 :white_check_mark: ](aru-parent-0.6.6.buildcompare) | | 1.8M |
 | [0.6.5](https://central.sonatype.com/artifact/io.github.cbarlin/aru-parent/0.6.5/pom) | [mvn jdk21](aru-0.6.5.buildspec) | [result](aru-parent-0.6.5.buildinfo): [13 :white_check_mark: ](aru-parent-0.6.5.buildcompare) | | 1.8M |
 | [0.6.4](https://central.sonatype.com/artifact/io.github.cbarlin/aru-parent/0.6.4/pom) | [mvn jdk21](aru-0.6.4.buildspec) | [result](aru-parent-0.6.4.buildinfo): [13 :white_check_mark: ](aru-parent-0.6.4.buildcompare) | | 1.8M |
