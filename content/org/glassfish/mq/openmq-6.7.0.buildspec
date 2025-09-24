@@ -1,0 +1,22 @@
+groupId=org.glassfish.mq
+artifactId=project
+version=6.7.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/eclipse-ee4j/openmq.git
+gitTag=${version}-RELEASE
+
+tool=mvn-3.9.11
+jdk=21
+newline=lf
+umask=022
+
+# export LC_ALL=C
+command="mvn package -Poss-release,fastest -DskipTests -Dmaven.javadoc.skip -Djavadoc.skip -Dgpg.skip"
+#execBefore="mvn -q clean ; find . -type d -exec chmod g+s {} \;"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
