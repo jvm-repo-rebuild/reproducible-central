@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=TeamCity Formatter
+group-id=io.cucumber
+artifact-id=teamcity-formatter
+version=0.1.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/teamcity-formatter.git
+source.scm.tag=v0.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.28
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=teamcity-formatter-0.1.0.pom
+outputs.0.length=4258
+outputs.0.checksums.sha512=38951c41c1348e965ddbc97101f3e303acd34340887a45b70a1960606c91dc3f17459f8d229b6d9b61371984db3da01ae5f9afaa4c585afd2a815087a28ea1d1
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=teamcity-formatter-0.1.0.jar
+outputs.1.length=27441
+outputs.1.checksums.sha512=96ecd11373b705a5064979061438bf99a344abc46b9a3c38d1bf377c0b63ee99c82072e9f80de13e4b6883e385c37e4a786985316297f35a51a6527609693d78
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=teamcity-formatter-0.1.0-sources.jar
+outputs.2.length=12746
+outputs.2.checksums.sha512=5216a7548002c82113fc4e10e206d5d187501cba3d34a4d465d6547d74bc6ec6a0f2e680d6c865c552fe6a8946dc7f8f5e15d8fe5dedec37e6585f113880b755
