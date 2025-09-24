@@ -1,5 +1,9 @@
 content/com/flowlogix/flowlogix-9.0.11.buildspec:10.0.1
 content/com/google/code/gson/gson-2.13.2-rc1.buildspec:2.13.2
-content/io/airlift/airbase/airbase-304.buildspec:305
-content/io/github/cbarlin/aru/aru-0.6.6.buildspec:0.6.7
+content/eu/maveniverse/maven/mimir/mimir-0.8.1.buildspec:0.9.0
+content/eu/maveniverse/maven/toolbox/toolbox-0.13.6.buildspec:0.13.7
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.7.0.buildspec:5.7.1
 content/jakarta/activation/jakarta.activation-api/jakarta.activation-api-2.1.4.buildspec:2.2.0-M1
+content/org/apache/commons/commons-lang3/commons-lang3-3.18.0.buildspec:3.19.0
+content/org/owasp/dependency-check/dependency-check-12.1.5.buildspec:12.1.6
+content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-2.0.buildspec:2.1
