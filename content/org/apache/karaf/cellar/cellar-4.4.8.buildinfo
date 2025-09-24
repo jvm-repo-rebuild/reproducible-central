@@ -31,11 +31,6 @@ outputs.0.0.filename=cellar-4.4.8.pom
 outputs.0.0.length=21199
 outputs.0.0.checksums.sha512=de0c7290bdcc3d801cc712f121e9a5e78d8d4fb2022cf5723b2535c5ee6af68fcb6f6e9f9c24e984d61342059c50a7dfc1d3581a9238b01eefffcc0261f2cec3
 
-outputs.0.1.groupId=org.apache.karaf
-outputs.0.1.filename=cellar-4.4.8-source-release.zip
-outputs.0.1.length=2450855
-outputs.0.1.checksums.sha512=3690d82c926e39572d037a5dd2146c1225e30b67c1f818647da4cb2f480d39ac646036af70c275f314029d62cd86fcde58a23d99b7aa2a07f2323fa312742843
-
 outputs.1.coordinates=org.apache.karaf.cellar:org.apache.karaf.cellar.core
 
 outputs.1.0.groupId=org.apache.karaf.cellar
@@ -357,34 +352,34 @@ outputs.20.0.length=9642
 outputs.20.0.checksums.sha512=e38737acc7fb25f628bf26f48aa70aef9bc9b5d48aba430bd7849a3db21fb8881e944c093b4ce1e7722728fe49bd1d877c3ef7c44ffc4c9a925aca557f351360
 
 outputs.20.1.groupId=org.apache.karaf.cellar
-outputs.20.1.filename=apache-karaf-cellar-4.4.8-features.xml
-outputs.20.1.length=8614
-outputs.20.1.checksums.sha512=6ab271bef897ef9a4be244de2e233c5937e8d1efea1cf89739b4728eca051bf681f36a53f2945e94e8744910e04ed2d850cf4a74385073e8a07d30ef576e9294
+outputs.20.1.filename=apache-karaf-cellar-4.4.8-src.tar.gz
+outputs.20.1.length=2074532
+outputs.20.1.checksums.sha512=5561068729cbd58b33d05228a19502f962ebb61700e119192e1c65bd9718d10467619213ba236db8f6444d38aa8ff4e87f83e228988ebcae7a79b8d302bca949
 
 outputs.20.2.groupId=org.apache.karaf.cellar
-outputs.20.2.filename=apache-karaf-cellar-4.4.8-groups.cfg
-outputs.20.2.length=2752
-outputs.20.2.checksums.sha512=eabd5917dc181c41a45f6c02c6e43e3db5c88510d075661b3114e63e8cfcd7c5262673aa2912b15ffb75be9be56b32c79dea9fc7ab8c538bcbf25565a2b05cd1
+outputs.20.2.filename=apache-karaf-cellar-4.4.8-src.zip
+outputs.20.2.length=2490443
+outputs.20.2.checksums.sha512=d88b9c66ff98c6dfe536e8fee716477d879c0f2567c4b4c2b7c2a43afa359a62a2fa0d3174dde64d13832d6a034191bf53fb99bd6903c7646f936f8175fb4e7d
 
 outputs.20.3.groupId=org.apache.karaf.cellar
-outputs.20.3.filename=apache-karaf-cellar-4.4.8-node.cfg
-outputs.20.3.length=1475
-outputs.20.3.checksums.sha512=36468c730c090f20e383b60e8ca8441e305de54d0592a194d4b9518651a8e188a0187cfec85ef83130b90b3bc3d0726e887be1cdf19d6b9ac4c0c0a24471236b
+outputs.20.3.filename=apache-karaf-cellar-4.4.8-features.xml
+outputs.20.3.length=8614
+outputs.20.3.checksums.sha512=6ab271bef897ef9a4be244de2e233c5937e8d1efea1cf89739b4728eca051bf681f36a53f2945e94e8744910e04ed2d850cf4a74385073e8a07d30ef576e9294
 
 outputs.20.4.groupId=org.apache.karaf.cellar
-outputs.20.4.filename=apache-karaf-cellar-4.4.8-hazelcast.xml
-outputs.20.4.length=9213
-outputs.20.4.checksums.sha512=60ca065e6db4ba845f1014a6fcb952592c2b77ddb412fa4fe9bd66c68da3813525014a0cd8380d3d7b8a43601a85662f9ea795d728f08735bba3ef10bac35e07
+outputs.20.4.filename=apache-karaf-cellar-4.4.8-groups.cfg
+outputs.20.4.length=2752
+outputs.20.4.checksums.sha512=eabd5917dc181c41a45f6c02c6e43e3db5c88510d075661b3114e63e8cfcd7c5262673aa2912b15ffb75be9be56b32c79dea9fc7ab8c538bcbf25565a2b05cd1
 
 outputs.20.5.groupId=org.apache.karaf.cellar
-outputs.20.5.filename=apache-karaf-cellar-4.4.8-src.tar.gz
-outputs.20.5.length=2074480
-outputs.20.5.checksums.sha512=62ffc81753fe6e018e4aa03f5e31e293780139f4b390ebb8603ab0af5ea106c51ee8d3c0617e64cb8dfb67fad9b4cccb51f33c209f88b84db36b8fcd6c8680f0
+outputs.20.5.filename=apache-karaf-cellar-4.4.8-node.cfg
+outputs.20.5.length=1475
+outputs.20.5.checksums.sha512=36468c730c090f20e383b60e8ca8441e305de54d0592a194d4b9518651a8e188a0187cfec85ef83130b90b3bc3d0726e887be1cdf19d6b9ac4c0c0a24471236b
 
 outputs.20.6.groupId=org.apache.karaf.cellar
-outputs.20.6.filename=apache-karaf-cellar-4.4.8-src.zip
-outputs.20.6.length=2490443
-outputs.20.6.checksums.sha512=1c753ac0be6f0e4fa0e39e4627b01617723d79d9591a044e7a03b0314f4423bc4da3487faf9287b25620a6eebc8b815cec70937e16acac83b7a3ee21a0b474a2
+outputs.20.6.filename=apache-karaf-cellar-4.4.8-hazelcast.xml
+outputs.20.6.length=9213
+outputs.20.6.checksums.sha512=60ca065e6db4ba845f1014a6fcb952592c2b77ddb412fa4fe9bd66c68da3813525014a0cd8380d3d7b8a43601a85662f9ea795d728f08735bba3ef10bac35e07
 
 outputs.21.coordinates=org.apache.karaf.cellar:samples
 
