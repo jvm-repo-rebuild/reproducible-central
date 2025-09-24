@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=TestNG XML Formatter
+group-id=io.cucumber
+artifact-id=testng-xml-formatter
+version=0.2.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/testng-xml-formatter.git
+source.scm.tag=v0.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.28
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=testng-xml-formatter-0.2.0.pom
+outputs.0.length=3871
+outputs.0.checksums.sha512=3cd51272cad0c45600efeb6c975bb4bcf37fcbee434bd2f091359ce4158919d705a287eafa337081609cd531802c1a5c6936132fe1891e65926f645231dab45c
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=testng-xml-formatter-0.2.0.jar
+outputs.1.length=15385
+outputs.1.checksums.sha512=d7932e6e14605c498d9c333876ee77ff6060dcfc60760b4553aa24b36fae0345d9d65e5298eacacc5e93b56465d46f136dc9fb6e6c6afc1842ee97e96221194d
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=testng-xml-formatter-0.2.0-sources.jar
+outputs.2.length=8050
+outputs.2.checksums.sha512=e8e3f84dfaba32d9db8ab35496c578d92987954a2bc12a0af3ae5207b13d1f16aa27a8c8dd9b10bf4019dcd33bb92935f209f5f1ae542c3757532010073bf04b
