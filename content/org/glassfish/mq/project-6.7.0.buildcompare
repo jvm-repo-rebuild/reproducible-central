@@ -1,0 +1,47 @@
+version=6.7.0
+ok=41
+ko=32
+ignored=0
+okFiles="project-6.7.0.pom mq-6.7.0.pom mqcomm-util-6.7.0.pom mq-share-6.7.0.pom mq-logger-6.7.0.pom mqcomm-io-6.7.0.pom mqjmx-api-6.7.0.pom http-tunnel-6.7.0.pom mqhttp-tunnel-api-share-6.7.0.pom mqhttp-tunnel-api-server-6.7.0.pom mqhttp-tunnel-6.7.0.pom mq-direct-6.7.0.pom persist-6.7.0.pom mq-txnlog-6.7.0.pom mq-broker-6.7.0.pom mqbroker-comm-6.7.0.pom mq-portunif-6.7.0.pom bridge-6.7.0.pom mqbridge-api-6.7.0.pom mqbroker-core-6.7.0.pom jmsra-6.7.0.pom mqjmsra-api-6.7.0.pom mq-client-6.7.0.pom mq-ums-6.7.0.pom mqdisk-io-6.7.0.pom mq-admin-6.7.0.pom mqadmin-cli-6.7.0.pom mqjmsra-ra-6.7.0.pom mqbridge-jms-6.7.0.pom mqbridge-stomp-6.7.0.pom mqbridge-admin-6.7.0.pom mq-cluster-6.7.0.pom mqpersist-file-6.7.0.pom mqpersist-jdbc-6.7.0.pom mq-partition-6.7.0.pom mqpartition-persist-api-6.7.0.pom mqpartition-persist-jdbc-6.7.0.pom mqadmin-gui-6.7.0.pom helpfiles-6.7.0.pom mq-packager-opensource-6.7.0.pom mq-distribution-6.7.0.pom"
+koFiles="mqcomm-util-6.7.0.jar mq-share-6.7.0.jar mq-logger-6.7.0.jar mqcomm-io-6.7.0.jar mqjmx-api-6.7.0.jar mqhttp-tunnel-api-share-6.7.0.jar mqhttp-tunnel-api-server-6.7.0.jar mqhttp-tunnel-6.7.0.jar mq-direct-6.7.0.jar mq-txnlog-6.7.0.jar mqbroker-comm-6.7.0.jar mq-portunif-6.7.0.jar mqbridge-api-6.7.0.jar mqbroker-core-6.7.0.jar mqjmsra-api-6.7.0.jar mq-client-6.7.0.jar mq-ums-6.7.0.jar mqdisk-io-6.7.0.jar mqadmin-cli-6.7.0.jar mqjmsra-ra-6.7.0.jar mqbridge-jms-6.7.0.jar mqbridge-stomp-6.7.0.jar mqbridge-admin-6.7.0.jar mq-cluster-6.7.0.jar mqpersist-file-6.7.0.jar mqpersist-jdbc-6.7.0.jar mqpartition-persist-api-6.7.0.jar mqpartition-persist-jdbc-6.7.0.jar mqadmin-gui-6.7.0.jar helpfiles-6.7.0.jar mq-distribution-6.7.0.zip mq-distribution-6.7.0-sources.zip"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.glassfish.mq/mqcomm-util-6.7.0.jar mq/main/comm-util/target/mqcomm-util.jar
+# diffoscope target/reference/org.glassfish.mq/mq-share-6.7.0.jar mq/main/mq-share/target/mq-share.jar
+# diffoscope target/reference/org.glassfish.mq/mq-logger-6.7.0.jar mq/main/logger/target/mq-logger.jar
+# diffoscope target/reference/org.glassfish.mq/mqcomm-io-6.7.0.jar mq/main/comm-io/target/mqcomm-io.jar
+# diffoscope target/reference/org.glassfish.mq/mqjmx-api-6.7.0.jar mq/main/mqjmx-api/target/mqjmx-api.jar
+# diffoscope target/reference/org.glassfish.mq/mqhttp-tunnel-api-share-6.7.0.jar mq/main/http-tunnel/tunnel-api-share/target/mqhttp-tunnel-api-share.jar
+# diffoscope target/reference/org.glassfish.mq/mqhttp-tunnel-api-server-6.7.0.jar mq/main/http-tunnel/tunnel-api-server/target/mqhttp-tunnel-api-server.jar
+# diffoscope target/reference/org.glassfish.mq/mqhttp-tunnel-6.7.0.jar mq/main/http-tunnel/tunnel/target/mqhttp-tunnel.jar
+# diffoscope target/reference/org.glassfish.mq/mq-direct-6.7.0.jar mq/main/mq-direct/target/mq-direct.jar
+# diffoscope target/reference/org.glassfish.mq/mq-txnlog-6.7.0.jar mq/main/persist/txnlog/target/mq-txnlog.jar
+# diffoscope target/reference/org.glassfish.mq/mqbroker-comm-6.7.0.jar mq/main/mq-broker/broker-comm/target/mqbroker-comm.jar
+# diffoscope target/reference/org.glassfish.mq/mq-portunif-6.7.0.jar mq/main/portunif/target/mq-portunif.jar
+# diffoscope target/reference/org.glassfish.mq/mqbridge-api-6.7.0.jar mq/main/bridge/bridge-api/target/mqbridge-api.jar
+# diffoscope target/reference/org.glassfish.mq/mqbroker-core-6.7.0.jar mq/main/mq-broker/broker-core/target/mqbroker-core.jar
+# diffoscope target/reference/org.glassfish.mq/mqjmsra-api-6.7.0.jar mq/main/mq-jmsra/jmsra-api/target/mqjmsra-api.jar
+# diffoscope target/reference/org.glassfish.mq/mq-client-6.7.0.jar mq/main/mq-client/target/mq-client.jar
+# diffoscope target/reference/org.glassfish.mq/mq-ums-6.7.0.jar mq/main/mq-ums/target/mq-ums.jar
+# diffoscope target/reference/org.glassfish.mq/mqdisk-io-6.7.0.jar mq/main/persist/disk-io/target/mqdisk-io.jar
+# diffoscope target/reference/org.glassfish.mq/mqadmin-cli-6.7.0.jar mq/main/mq-admin/admin-cli/target/mqadmin-cli.jar
+# diffoscope target/reference/org.glassfish.mq/mqjmsra-ra-6.7.0.jar mq/main/mq-jmsra/jmsra-ra/target/mqjmsra-ra.jar
+# diffoscope target/reference/org.glassfish.mq/mqbridge-jms-6.7.0.jar mq/main/bridge/bridge-jms/target/mqbridge-jms.jar
+# diffoscope target/reference/org.glassfish.mq/mqbridge-stomp-6.7.0.jar mq/main/bridge/bridge-stomp/target/mqbridge-stomp.jar
+# diffoscope target/reference/org.glassfish.mq/mqbridge-admin-6.7.0.jar mq/main/bridge/bridge-admin/target/mqbridge-admin.jar
+# diffoscope target/reference/org.glassfish.mq/mq-cluster-6.7.0.jar mq/main/mq-broker/cluster/target/mq-cluster.jar
+# diffoscope target/reference/org.glassfish.mq/mqpersist-file-6.7.0.jar mq/main/mq-broker/persist-file/target/mqpersist-file.jar
+# diffoscope target/reference/org.glassfish.mq/mqpersist-jdbc-6.7.0.jar mq/main/mq-broker/persist-jdbc/target/mqpersist-jdbc.jar
+# diffoscope target/reference/org.glassfish.mq/mqpartition-persist-api-6.7.0.jar mq/main/mq-broker/partition/persist-api/target/mqpartition-persist-api.jar
+# diffoscope target/reference/org.glassfish.mq/mqpartition-persist-jdbc-6.7.0.jar mq/main/mq-broker/partition/persist-jdbc/target/mqpartition-persist-jdbc.jar
+# diffoscope target/reference/org.glassfish.mq/mqadmin-gui-6.7.0.jar mq/main/mq-admin/admin-gui/target/mqadmin-gui.jar
+# diffoscope target/reference/org.glassfish.mq/helpfiles-6.7.0.jar mq/main/helpfiles/target/helpfiles.jar
+# diffoscope target/reference/org.glassfish.mq/mq-distribution-6.7.0.zip mq/dist/bundles/mq.zip
+# diffoscope target/reference/org.glassfish.mq/mq-distribution-6.7.0-sources.zip mq/dist/bundles/mq-src.zip
+stabilize_ok=1
+stabilize_ko=31
+stabilize_ignored=0
+stabilize_okFiles="mq-distribution-6.7.0-sources.zip.stabilized"
+stabilize_koFiles="mqcomm-util-6.7.0.jar.stabilized mq-share-6.7.0.jar.stabilized mq-logger-6.7.0.jar.stabilized mqcomm-io-6.7.0.jar.stabilized mqjmx-api-6.7.0.jar.stabilized mqhttp-tunnel-api-share-6.7.0.jar.stabilized mqhttp-tunnel-api-server-6.7.0.jar.stabilized mqhttp-tunnel-6.7.0.jar.stabilized mq-direct-6.7.0.jar.stabilized mq-txnlog-6.7.0.jar.stabilized mqbroker-comm-6.7.0.jar.stabilized mq-portunif-6.7.0.jar.stabilized mqbridge-api-6.7.0.jar.stabilized mqbroker-core-6.7.0.jar.stabilized mqjmsra-api-6.7.0.jar.stabilized mq-client-6.7.0.jar.stabilized mq-ums-6.7.0.jar.stabilized mqdisk-io-6.7.0.jar.stabilized mqadmin-cli-6.7.0.jar.stabilized mqjmsra-ra-6.7.0.jar.stabilized mqbridge-jms-6.7.0.jar.stabilized mqbridge-stomp-6.7.0.jar.stabilized mqbridge-admin-6.7.0.jar.stabilized mq-cluster-6.7.0.jar.stabilized mqpersist-file-6.7.0.jar.stabilized mqpersist-jdbc-6.7.0.jar.stabilized mqpartition-persist-api-6.7.0.jar.stabilized mqpartition-persist-jdbc-6.7.0.jar.stabilized mqadmin-gui-6.7.0.jar.stabilized helpfiles-6.7.0.jar.stabilized mq-distribution-6.7.0.zip.stabilized"
+stabilize_ignoredFiles=""
