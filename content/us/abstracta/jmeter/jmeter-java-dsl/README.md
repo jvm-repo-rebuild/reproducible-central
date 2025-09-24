@@ -29,13 +29,13 @@ Source code: [https://github.com/abstracta/jmeter-java-dsl.git](https://github.c
 * [us.abstracta.jmeter:jmeter-java-dsl-wrapper](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-wrapper/overview)
 </details>
 
-rebuilding **43 releases** of us.abstracta.jmeter:jmeter-java-dsl-parent:
-- **42** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **44 releases** of us.abstracta.jmeter:jmeter-java-dsl-parent:
+- **43** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.1](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/2.1/pom) | | | |
+| [2.1](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/2.1/pom) | [mvn jdk11](jmeter-java-dsl-2.1.buildspec) | [result](jmeter-java-dsl-parent-2.1.buildinfo): [51 :white_check_mark: ](jmeter-java-dsl-parent-2.1.buildcompare) | | 55M |
 | [2.0](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/2.0/pom) | [mvn jdk11](jmeter-java-dsl-2.0.buildspec) | [result](jmeter-java-dsl-parent-2.0.buildinfo): [51 :white_check_mark: ](jmeter-java-dsl-parent-2.0.buildcompare) | | 55M |
 | [1.30](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.30/pom) | [mvn jdk11](jmeter-java-dsl-1.30.buildspec) | [result](jmeter-java-dsl-parent-1.30.buildinfo): [51 :white_check_mark: ](jmeter-java-dsl-parent-1.30.buildcompare) | | 50M |
 | [1.29.1](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.29.1/pom) | [mvn jdk11](jmeter-java-dsl-1.29.1.buildspec) | [result](jmeter-java-dsl-parent-1.29.1.buildinfo): [51 :white_check_mark: ](jmeter-java-dsl-parent-1.29.1.buildcompare) | | 50M |
