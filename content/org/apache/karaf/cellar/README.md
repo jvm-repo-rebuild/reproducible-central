@@ -50,6 +50,6 @@ rebuilding **1 releases** of org.apache.karaf:cellar:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.4.8](https://central.sonatype.com/artifact/org.apache.karaf/cellar/4.4.8/pom) | [mvn jdk11](cellar-4.4.8.buildspec) | [result](cellar-4.4.8.buildinfo): [89 :white_check_mark:  2 :warning:](cellar-4.4.8.buildcompare) | 1 :recycle: 1 :no_entry_sign: | 11M |
+| [4.4.8](https://central.sonatype.com/artifact/org.apache.karaf/cellar/4.4.8/pom) | [mvn jdk11](cellar-4.4.8.buildspec) | [result](cellar-4.4.8.buildinfo): [88 :white_check_mark:  2 :warning:](cellar-4.4.8.buildcompare) [:memo:](https://github.com/apache/karaf-cellar/pull/153) | 1 :recycle: 1 :no_entry_sign: | 8.4M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
