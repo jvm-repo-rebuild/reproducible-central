@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=CRX Package Manager Helper
+group-id=io.wcm.tooling.commons
+artifact-id=io.wcm.tooling.commons.crx-packmgr-helper
+version=2.4.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/io.wcm.tooling.commons.crx-packmgr-helper.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=io.wcm.tooling.commons
+outputs.0.filename=io.wcm.tooling.commons.crx-packmgr-helper-2.4.0.pom
+outputs.0.length=6819
+outputs.0.checksums.sha512=c8a601c94580760ce80b08b1b43834f11732badd10a6b2eab7a7708790336889e62a0e06d34d39e61eff904288ceb9e1978a4402b5067e78a720e75e26498eaa
+
+outputs.1.groupId=io.wcm.tooling.commons
+outputs.1.filename=io.wcm.tooling.commons.crx-packmgr-helper-2.4.0.jar
+outputs.1.length=94930
+outputs.1.checksums.sha512=85f28b047ca6a3dcf5d5e59074f990841b5a5bee34c149551ecce66b4b6b278f243745c162999ab6a59f3417ee968d3db04bd7e9e6c830d48f3a8b0506ef9aed
+
+outputs.2.groupId=io.wcm.tooling.commons
+outputs.2.filename=io.wcm.tooling.commons.crx-packmgr-helper-2.4.0-sources.jar
+outputs.2.length=70617
+outputs.2.checksums.sha512=44370f3eb1d66c783beb2759a8ac410bb64af6cea1ef012f9b2297d8395241e7defd6f8842b780871aaf364557387b9370ebf87a03e402456224883c491ed050
