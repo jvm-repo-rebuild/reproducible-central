@@ -29,13 +29,13 @@ Source code: [https://github.com/yupiik/fusion.git](https://github.com/yupiik/fu
 * [io.yupiik.fusion:fusion-tracing](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion-tracing/overview)
 </details>
 
-rebuilding **12 releases** of io.yupiik.fusion:fusion:
-- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **13 releases** of io.yupiik.fusion:fusion:
+- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.0.30](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion/1.0.30/pom) | | | |
+| [1.0.30](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion/1.0.30/pom) | [mvn jdk21](fusion-1.0.30.buildspec) | [result](fusion-1.0.30.buildinfo): [50 :white_check_mark: ](fusion-1.0.30.buildcompare) | | 2.1M |
 | [1.0.29](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion/1.0.29/pom) | [mvn jdk21](fusion-1.0.29.buildspec) | [result](fusion-1.0.29.buildinfo): [50 :white_check_mark: ](fusion-1.0.29.buildcompare) | | 2.1M |
 | [1.0.28](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion/1.0.28/pom) | [mvn jdk21](fusion-1.0.28.buildspec) | [result](fusion-1.0.28.buildinfo): [50 :white_check_mark: ](fusion-1.0.28.buildcompare) | | 2.0M |
 | [1.0.27](https://central.sonatype.com/artifact/io.yupiik.fusion/fusion/1.0.27/pom) | [mvn jdk21](fusion-1.0.27.buildspec) | [result](fusion-1.0.27.buildinfo): [50 :white_check_mark: ](fusion-1.0.27.buildcompare) | | 2.0M |
