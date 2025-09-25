@@ -13,6 +13,7 @@ rebuilding **24 releases** of io.wcm:io.wcm.parent_toplevel:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.6.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.6.0/pom) | | | |
 | [2.5.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.5.2/pom) | [mvn jdk11](wcm-parent_toplevel-2.5.2.buildspec) | [result](io.wcm.parent_toplevel-2.5.2.buildinfo): [2 :white_check_mark: ](io.wcm.parent_toplevel-2.5.2.buildcompare) | | 23K |
 | [2.5.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.5.0/pom) | [mvn jdk11](wcm-parent_toplevel-2.5.0.buildspec) | [result](io.wcm.parent_toplevel-2.5.0.buildinfo): [2 :white_check_mark: ](io.wcm.parent_toplevel-2.5.0.buildcompare) | | 23K |
 | [2.4.4](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.4.4/pom) | [mvn jdk11](wcm-parent_toplevel-2.4.4.buildspec) | [result](io.wcm.parent_toplevel-2.4.4.buildinfo): [2 :white_check_mark: ](io.wcm.parent_toplevel-2.4.4.buildcompare) | | 23K |

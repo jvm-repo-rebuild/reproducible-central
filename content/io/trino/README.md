@@ -137,6 +137,7 @@ rebuilding **31 releases** of io.trino:trino-root:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [477](https://central.sonatype.com/artifact/io.trino/trino-root/477/pom) | | | |
 | [476](https://central.sonatype.com/artifact/io.trino/trino-root/476/pom) | [mvn jdk24](trino-476.buildspec) | [result](trino-root-476.buildinfo): [608 :white_check_mark:  7 :warning:](trino-root-476.buildcompare) [:mag:](trino-root-476.diffoscope) | - | 4.9G |
 | [475](https://central.sonatype.com/artifact/io.trino/trino-root/475/pom) | [mvn jdk23](trino-475.buildspec) | [result](trino-root-475.buildinfo): [615 :white_check_mark: ](trino-root-475.buildcompare) | | 4.8G |
 | [474](https://central.sonatype.com/artifact/io.trino/trino-root/474/pom) | [mvn jdk23](trino-474.buildspec) | [result](trino-root-474.buildinfo): [615 :white_check_mark: ](trino-root-474.buildcompare) | | 4.8G |

@@ -4,12 +4,12 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250924162758 --> [mimir](../content/eu/maveniverse/maven/mimir/README.md) | [0.8.1](../content/eu/maveniverse/maven/mimir/mimir-0.8.1.buildspec) :white_check_mark: | [0.9.0](../content/eu/maveniverse/maven/mimir/mimir-0.9.0.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/mimir/mimir-0.8.1.buildspec 0.9.0` |
-| <!-- 20250924134720 --> [commons-lang3](../content/org/apache/commons/commons-lang3/README.md) | [3.18.0](../content/org/apache/commons/commons-lang3/commons-lang3-3.18.0.buildspec) :white_check_mark: | [3.19.0](../content/org/apache/commons/commons-lang3/commons-lang3-3.19.0.buildspec) | `bin/add-new-release.sh content/org/apache/commons/commons-lang3/commons-lang3-3.18.0.buildspec 3.19.0` |
-| <!-- 20250924134137 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | [5.7.0](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.7.0.buildspec) :white_check_mark: | [5.7.1](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.7.1.buildspec) | `bin/add-new-release.sh content/io/github/chains-project/maven-lockfile/maven-lockfile-5.7.0.buildspec 5.7.1` |
-| <!-- 20250924123747 --> [dependency-check-parent](../content/org/owasp/dependency-check/README.md) | [12.1.5](../content/org/owasp/dependency-check/dependency-check-12.1.5.buildspec) :white_check_mark: | [12.1.6](../content/org/owasp/dependency-check/dependency-check-12.1.6.buildspec) | `bin/add-new-release.sh content/org/owasp/dependency-check/dependency-check-12.1.5.buildspec 12.1.6` |
-| <!-- 20250924020933 --> [jmeter-java-dsl-parent](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | [2.0](../content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-2.0.buildspec) :white_check_mark: | [2.1](../content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-2.1.buildspec) | `bin/add-new-release.sh content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-2.0.buildspec 2.1` |
-| <!-- 20250923201345 --> [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | [0.13.6](../content/eu/maveniverse/maven/toolbox/toolbox-0.13.6.buildspec) :white_check_mark: | [0.13.7](../content/eu/maveniverse/maven/toolbox/toolbox-0.13.7.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/toolbox/toolbox-0.13.6.buildspec 0.13.7` |
+| <!-- 20250925194732 --> [mimir](../content/eu/maveniverse/maven/mimir/README.md) | [0.9.0](../content/eu/maveniverse/maven/mimir/mimir-0.9.0.buildspec) :white_check_mark: | [0.9.2](../content/eu/maveniverse/maven/mimir/mimir-0.9.2.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/mimir/mimir-0.9.0.buildspec 0.9.2` |
+| <!-- 20250925194732 --> [mimir](../content/eu/maveniverse/maven/mimir/README.md) | [0.9.0](../content/eu/maveniverse/maven/mimir/mimir-0.9.0.buildspec) :white_check_mark: | 0.9.1  | `bin/add-new-release.sh content/eu/maveniverse/maven/mimir/mimir-0.9.0.buildspec ...` |
+| <!-- 20250925185938 --> [fusion](../content/io/yupiik/fusion/README.md) | [1.0.29](../content/io/yupiik/fusion/fusion-1.0.29.buildspec) :white_check_mark: | [1.0.30](../content/io/yupiik/fusion/fusion-1.0.30.buildspec) | `bin/add-new-release.sh content/io/yupiik/fusion/fusion-1.0.29.buildspec 1.0.30` |
+| <!-- 20250925113735 --> [io.wcm.parent_toplevel](../content/io/wcm/tooling/README.md) | [2.5.2](../content/io/wcm/tooling/wcm-parent_toplevel-2.5.2.buildspec) :white_check_mark: | [2.6.0](../content/io/wcm/tooling/wcm-parent_toplevel-2.6.0.buildspec) | `bin/add-new-release.sh content/io/wcm/tooling/wcm-parent_toplevel-2.5.2.buildspec 2.6.0` |
+| <!-- 20250925093957 --> [airbase](../content/io/airlift/airbase/README.md) | [305](../content/io/airlift/airbase/airbase-305.buildspec) :white_check_mark: | [306](../content/io/airlift/airbase/airbase-306.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-305.buildspec 306` |
+| <!-- 20250925070732 --> [io.wcm.tooling.commons.crx-packmgr-helper](../content/io/wcm/tooling/commons/crx-packmgr-helper/README.md) | [2.3.0](../content/io/wcm/tooling/commons/crx-packmgr-helper/wcm-crx-packmgr-helper-2.3.0.buildspec) :white_check_mark: | [2.4.0](../content/io/wcm/tooling/commons/crx-packmgr-helper/wcm-crx-packmgr-helper-2.4.0.buildspec) | `bin/add-new-release.sh content/io/wcm/tooling/commons/crx-packmgr-helper/wcm-crx-packmgr-helper-2.3.0.buildspec 2.4.0` |
 | <!-- 20250922054929 --> [flowlogix](../content/com/flowlogix/README.md) | [9.0.11](../content/com/flowlogix/flowlogix-9.0.11.buildspec) :white_check_mark: | [10.0.1](../content/com/flowlogix/flowlogix-10.0.1.buildspec) | `bin/add-new-release.sh content/com/flowlogix/flowlogix-9.0.11.buildspec 10.0.1` |
 | <!-- 20250922054929 --> [flowlogix](../content/com/flowlogix/README.md) | [9.0.11](../content/com/flowlogix/flowlogix-9.0.11.buildspec) :white_check_mark: | 10  | `bin/add-new-release.sh content/com/flowlogix/flowlogix-9.0.11.buildspec ...` |
 | <!-- 20250911121537 --> [jakarta.activation-api](../content/jakarta/activation/jakarta.activation-api/README.md) | [2.1.4](../content/jakarta/activation/jakarta.activation-api/jakarta.activation-api-2.1.4.buildspec) :white_check_mark: | [2.2.0-M1](../content/jakarta/activation/jakarta.activation-api/jakarta.activation-api-2.2.0-M1.buildspec) | `bin/add-new-release.sh content/jakarta/activation/jakarta.activation-api/jakarta.activation-api-2.1.4.buildspec 2.2.0-M1` |
@@ -37,7 +37,6 @@ New Releases To Add
 | <!-- 20250305133533 --> [:mailbox:](https://lists.apache.org/list?dev@struts.apache.org:lte=1M:VOTE) | [struts2-parent](../content/org/apache/struts/README.md) | [7.0.3](../content/org/apache/struts/struts2-7.0.3.buildspec) :white_check_mark: | [7.1.0](../content/org/apache/struts/struts2-7.1.0.buildspec)  | `bin/add-new-release.sh content/org/apache/struts/struts2-7.0.3.buildspec 7.1.0 staging` |
 | <!-- 20250213085016 --> [:mailbox:](https://lists.apache.org/list?dev@ignite.apache.org:lte=1M:VOTE) | [apache-ignite](../content/org/apache/ignite/README.md) | [2.17.0](../content/org/apache/ignite/ignite-2.17.0.buildspec) :warning: | [3.0.0-alpha5](../content/org/apache/ignite/ignite-3.0.0-alpha5.buildspec)  | `bin/add-new-release.sh content/org/apache/ignite/ignite-2.17.0.buildspec 3.0.0-alpha5 staging` |
 | <!-- 20240924195255 --> [:mailbox:](https://lists.apache.org/list?dev@avro.apache.org:lte=1M:VOTE) | [avro-toplevel](../content/org/apache/avro/README.md) | [1.12.0](../content/org/apache/avro/avro-1.12.0.buildspec) :white_check_mark: | [1.12.1](../content/org/apache/avro/avro-1.12.1.buildspec)  | `bin/add-new-release.sh content/org/apache/avro/avro-1.12.0.buildspec 1.12.1 staging` |
-| <!-- 20240414093609 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-scm](../content/org/apache/maven/scm/README.md) | [2.1.0](../content/org/apache/maven/scm/maven-scm-2.1.0.buildspec) :warning: | [2.2.1](../content/org/apache/maven/scm/maven-scm-2.2.1.buildspec)  | `bin/add-new-release.sh content/org/apache/maven/scm/maven-scm-2.1.0.buildspec 2.2.1 staging` |
 | <!-- 20231012160021 --> [:mailbox:](https://lists.apache.org/list?dev@sis.apache.org:lte=1M:VOTE) | [parent](../content/org/apache/sis/README.md) | [1.3](../content/org/apache/sis/parent-1.3.buildspec) :warning: [:memo:](https://github.com/apache/sis/pull/36) | [1.5](../content/org/apache/sis/parent-1.5.buildspec)  | `bin/add-new-release.sh content/org/apache/sis/parent-1.3.buildspec 1.5 staging` |
 <!-- END GENERATED ADD STAGING -->
 
@@ -46,9 +45,10 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20250924112759 --> [quarkus-project](../content/io/quarkus/README.md) | [3.28.0](../content/io/quarkus/quarkus-3.28.0.buildspec) :warning: | [3.28.1](../content/io/quarkus/quarkus-3.28.1.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.28.0.buildspec 3.28.1` |
+| <!-- 20250925173736 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.101.3](../content/org/finos/legend/engine/legend-engine-4.101.3.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.101.3` |
+| <!-- 20250925135538 --> [maven-scm](../content/org/apache/maven/scm/README.md) | [2.1.0](../content/org/apache/maven/scm/maven-scm-2.1.0.buildspec) :warning: | [2.2.1](../content/org/apache/maven/scm/maven-scm-2.2.1.buildspec) | `bin/add-new-release.sh content/org/apache/maven/scm/maven-scm-2.1.0.buildspec 2.2.1` |
+| <!-- 20250925003941 --> [trino-root](../content/io/trino/README.md) | [476](../content/io/trino/trino-476.buildspec) :warning: | [477](../content/io/trino/trino-477.buildspec) | `bin/add-new-release.sh content/io/trino/trino-476.buildspec 477` |
 | <!-- 20250924080739 --> [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.14.0](../content/org/apache/camel/camel/camel-4.14.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.14.0` |
-| <!-- 20250922155817 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.101.2](../content/org/finos/legend/engine/legend-engine-4.101.2.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.101.2` |
 | <!-- 20250922082337 --> [io.wcm.wcm.ui.granite](../content/io/wcm/io.wcm.wcm/ui/granite/README.md) | [1.9.12](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec) :warning: | [1.11.4](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.11.4.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec 1.11.4` |
 | <!-- 20250919200917 --> [plotsquared-bukkit](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/README.md) | [7.5.4](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.4.buildspec) :x: | [7.5.8](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.8.buildspec) | `bin/add-new-release.sh content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.4.buildspec 7.5.8` |
 | <!-- 20250907131533 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.28.1](../content/org/webjars/swagger-ui/swagger-ui-5.28.1.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.28.1` |
@@ -65,6 +65,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20250924112759 --> [quarkus-project](../content/io/quarkus/README.md) | 3.28.1 :warning: |
 | <!-- 20250922183027 --> [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | 1.86.0 :warning: [:memo:](https://issues.apache.org/jira/browse/OAK-10662) |
 | <!-- 20250922163808 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | 2.20.1 :warning: |
 | <!-- 20250921184320 --> [nifi](../content/org/apache/nifi/nifi/README.md) | 2.6.0 :warning: |
@@ -75,6 +76,7 @@ New Releases To Add
 | <!-- 20250917140740 --> [spotbugs-maven-plugin](../content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 4.9.6.0 :warning: [:memo:](https://github.com/spotbugs/spotbugs-maven-plugin/issues/1148) |
 | <!-- 20250915134142 --> [ratis-thirdparty](../content/org/apache/ratis/ratis-thirdparty/README.md) | 1.0.10 :warning: |
 | <!-- 20250915113625 --> [tika](../content/org/apache/tika/README.md) | 3.2.3 :warning: [:memo:](https://issues.apache.org/jira/browse/TIKA-4470) |
+| <!-- 20250912154637 --> [cellar](../content/org/apache/karaf/cellar/README.md) | 4.4.8 :warning: [:memo:](https://github.com/apache/karaf-cellar/pull/153) |
 | <!-- 20250912135640 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.5.0 :warning: |
 | <!-- 20250912122536 --> [sdk-parent](../content/com/sap/ai/sdk/README.md) | 1.11.0 :warning: |
 | <!-- 20250911141308 --> [angus-activation-project](../content/org/eclipse/angus/activation/README.md) | 2.1.0-M1 :warning: |
@@ -82,6 +84,7 @@ New Releases To Add
 | <!-- 20250908134332 --> [jooby](../content/io/jooby/README.md) | 4.0.7 :warning: |
 | <!-- 20250908101217 --> [kubernetes-client-project](../content/io/fabric8/kubernetes-client/README.md) | 7.4.0 :warning: |
 | <!-- 20250908074241 --> [pulsar](../content/org/apache/pulsar/README.md) | 4.1.0 :warning: [:memo:](https://github.com/apache/pulsar/issues/24718) |
+| <!-- 20250906084628 --> [project](../content/org/glassfish/mq/README.md) | 6.7.0 :warning: |
 | <!-- 20250902011535 --> [avaje-http-parent](../content/io/avaje/http/README.md) | 3.5-RC4 :warning: |
 | <!-- 20250831164535 --> [jreleaser](../content/org/jreleaser/README.md) | 1.20.0 :warning: |
 | <!-- 20250829092417 --> [plc4x-parent](../content/org/apache/plc4x/plc4x/README.md) | 0.13.1 :warning: |
@@ -120,7 +123,6 @@ New Releases To Add
 | <!-- 20250619093642 --> [org.apache.sling.feature.launcher](../content/org/apache/sling/org.apache.sling.feature.launcher/README.md) | 1.3.4 :warning: |
 | <!-- 20250616112425 --> [commons-fileupload2](../content/org/apache/commons/commons-fileupload2/README.md) | 2.0.0-M4 :warning: |
 | <!-- 20250612131605 --> [jdplus-main](../content/eu/europa/ec/joinup/sat/jdplus-main/README.md) | 3.5.1 :warning: |
-| <!-- 20250606044217 --> [trino-root](../content/io/trino/README.md) | 476 :warning: |
 | <!-- 20250603145335 --> [io.takari.incrementalbuild](../content/io/takari/incrementalbuild/README.md) | 1.0.4 :warning: |
 | <!-- 20250522194000 --> [com.io7m.gtyrell](../content/com/io7m/gtyrell/README.md) | 4.0.1 :warning: |
 | <!-- 20250519085748 --> [org.apache.sling.feature.cpconverter](../content/org/apache/sling/org.apache.sling.feature.cpconverter/README.md) | 1.3.10 :warning: |
@@ -204,7 +206,6 @@ New Releases To Add
 | <!-- 20240503123932 --> [org.apache.sling.rewriter](../content/org/apache/sling/org.apache.sling.rewriter/README.md) | 1.4.4 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-rewriter/pull/14) |
 | <!-- 20240501164724 --> [turbine-webapp-6.0](../content/org/apache/turbine/turbine-webapp-6.0/README.md) | 3.0.0 :warning: |
 | <!-- 20240420172655 --> [unexepack](../content/io/github/albertus82/unexepack/README.md) | 0.3.1 :warning: |
-| <!-- 20240414093609 --> [maven-scm](../content/org/apache/maven/scm/README.md) | 2.1.0 :warning: |
 | <!-- 20240312215350 --> [cdevents-sdk-java](../content/dev/cdevents/cdevents-sdk-java/README.md) | 0.3.1 :x: |
 | <!-- 20240126192007 --> [io.wcm.handler.richtext](../content/io/wcm/io.wcm.handler/richtext/README.md) | 2.0.0 :warning: |
 | <!-- 20240122143033 --> [org.apache.sling.feature.extension.unpack](../content/org/apache/sling/org.apache.sling.feature.extension.unpack/README.md) | 0.4.0 :warning: |
