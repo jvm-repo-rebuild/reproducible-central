@@ -1,8 +1,7 @@
-content/com/flowlogix/flowlogix-9.0.11.buildspec:10.0.1
+content/com/flowlogix/flowlogix-9.0.11.buildspec:10.0.2
 content/com/google/code/gson/gson-2.13.2-rc1.buildspec:2.13.2
-content/eu/maveniverse/maven/mimir/mimir-0.9.0.buildspec:0.9.2
-content/io/airlift/airbase/airbase-305.buildspec:306
-content/io/wcm/tooling/wcm-parent_toplevel-2.5.2.buildspec:2.6.0
-content/io/wcm/tooling/commons/crx-packmgr-helper/wcm-crx-packmgr-helper-2.3.0.buildspec:2.4.0
-content/io/yupiik/fusion/fusion-1.0.29.buildspec:1.0.30
+content/dev/langchain4j/langchain4j-1.5.0.buildspec:1.6.0
+content/eu/maveniverse/maven/mimir/mimir-0.9.2.buildspec:0.9.3
+content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.10.1.buildspec:4.10.2
 content/jakarta/activation/jakarta.activation-api/jakarta.activation-api-2.1.4.buildspec:2.2.0-M1
+content/tech/picnic/error-prone-support/error-prone-support/error-prone-support-0.24.0.buildspec:0.25.0

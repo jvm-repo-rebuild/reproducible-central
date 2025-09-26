@@ -26,6 +26,7 @@ rebuilding **4 releases** of org.apache.flink:flink-kubernetes-operator-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.13.0](https://central.sonatype.com/artifact/org.apache.flink/flink-kubernetes-operator/1.13.0/pom) | | | |
 | [1.12.1](https://central.sonatype.com/artifact/org.apache.flink/flink-kubernetes-operator-parent/1.12.1/pom) | [mvn jdk11](flink-kubernetes-operator-1.12.1.buildspec) | [result](flink-kubernetes-operator-parent-1.12.1.buildinfo): [21 :white_check_mark:  21 :warning:](flink-kubernetes-operator-parent-1.12.1.buildcompare) [:mag:](flink-kubernetes-operator-parent-1.12.1.diffoscope) | 11 :rotating_light: 10 :no_entry_sign: | 34M |
 | [1.12.0](https://central.sonatype.com/artifact/org.apache.flink/flink-kubernetes-operator-parent/1.12.0/pom) | [mvn jdk17](flink-kubernetes-operator-1.12.0.buildspec) | [result](flink-kubernetes-operator-parent-1.12.0.buildinfo): [40 :white_check_mark:  2 :warning:](flink-kubernetes-operator-parent-1.12.0.buildcompare) | - | 34M |
 | [1.11.0](https://central.sonatype.com/artifact/org.apache.flink/flink-kubernetes-operator-parent/1.11.0/pom) | [mvn jdk11](flink-kubernetes-operator-1.11.0.buildspec) | [result](flink-kubernetes-operator-parent-1.11.0.buildinfo): [17 :white_check_mark:  25 :warning:](flink-kubernetes-operator-parent-1.11.0.buildcompare) | - | 34M |
