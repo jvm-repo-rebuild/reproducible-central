@@ -1,0 +1,83 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Gson Parent
+group-id=com.google.code.gson
+artifact-id=gson-parent
+version=2.13.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/google/gson.git
+source.scm.tag=gson-parent-2.13.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=proto
+
+# aggregated output
+
+outputs.0.coordinates=com.google.code.gson:gson-parent
+
+outputs.0.0.groupId=com.google.code.gson
+outputs.0.0.filename=gson-parent-2.13.2.pom
+outputs.0.0.length=27017
+outputs.0.0.checksums.sha512=e6524dbb8aa13707fa51df7413a8b247a4de248812e212702e4e5888d0df29c6ebe39a3b1e09aefb12a1a095c42d19d074756a30918bfc4c1fe55c39b9a7c1fa
+
+outputs.1.coordinates=com.google.code.gson:gson
+
+outputs.1.0.groupId=com.google.code.gson
+outputs.1.0.filename=gson-2.13.2.pom
+outputs.1.0.length=13490
+outputs.1.0.checksums.sha512=c0d089089bf0d6bcfae008f329dcc2db2538d02654f8bc7690cb8db2ec94fe0d2aa069ac1d70a111a28cced0ffd7742ac8db29a884d64d9413ebf9b2af5dab82
+
+outputs.1.1.groupId=com.google.code.gson
+outputs.1.1.filename=gson-2.13.2.jar
+outputs.1.1.length=289901
+outputs.1.1.checksums.sha512=8974a052656d2e5ec968b6bac2edf51413ffc62040fdc65f14f00597e738ab544d22487f8579ba90618b5a7f94ef33773510fac67b408fee6ed274b38f3d9947
+
+outputs.1.2.groupId=com.google.code.gson
+outputs.1.2.filename=gson-2.13.2-sources.jar
+outputs.1.2.length=207421
+outputs.1.2.checksums.sha512=d44fcff5d2aa89cc6706cd513e2e22c599abd380bc386df0a4817a8699de990b443c0c302a21fce7984e985d88173e8a2390c892615fa0fe0ec7741ba78ef759
+
+outputs.2.coordinates=com.google.code.gson:gson-extras
+
+outputs.2.0.groupId=com.google.code.gson
+outputs.2.0.filename=gson-extras-2.13.2.pom
+outputs.2.0.length=3239
+outputs.2.0.checksums.sha512=1f3661d0ae68558ce84bac803b32d515ea95f91fecba583d5cf26858349fd8518c655722d1932bd0e0920afa3a078c37689949cc91e2805eb53307fc8b98ea9f
+
+outputs.2.1.groupId=com.google.code.gson
+outputs.2.1.filename=gson-extras-2.13.2.jar
+outputs.2.1.length=29017
+outputs.2.1.checksums.sha512=88956b7406e0c0884a2d07fd882fcd9044f57e940022f2d844c6402ee816cbe4153b07f062446b59f7fea65a2e93c8ed7c3b507542b2e9a9c72df19689de1f16
+
+outputs.2.2.groupId=com.google.code.gson
+outputs.2.2.filename=gson-extras-2.13.2-sources.jar
+outputs.2.2.length=19484
+outputs.2.2.checksums.sha512=130928ccdfeecfdd7c50b6559d887a3db6c70bc0232ffe03a17cad52de0430e243dad5229ff213840fc54d49f72b048b19996aafa8485737c3abc6e7102ec5cd
+
+outputs.3.coordinates=com.google.code.gson:proto
+
+outputs.3.0.groupId=com.google.code.gson
+outputs.3.0.filename=proto-2.13.2.pom
+outputs.3.0.length=3939
+outputs.3.0.checksums.sha512=e85cdae0bedb951fb64eaea0546d217bbe120cac1f1536faff57493316e066d18365fe995bfc16800b0c1ed59c06f508fb658525e648a005a44abf0147e96fc8
+
+outputs.3.1.groupId=com.google.code.gson
+outputs.3.1.filename=proto-2.13.2.jar
+outputs.3.1.length=11420
+outputs.3.1.checksums.sha512=eae9740510b2a3a266e504c34b8f2757d90656a5ecf3f61f7cc46e06480379df6271302cb6000ce171fe3a11186a0444d40e5e043de2a9bec6e0709405efa657
+
+outputs.3.2.groupId=com.google.code.gson
+outputs.3.2.filename=proto-2.13.2-sources.jar
+outputs.3.2.length=8046
+outputs.3.2.checksums.sha512=4e4bf05b213094f63808d4273f309c07998f0be598943c34f8a68a6d44b6532e175bb7dbbabbb7e15bd9fd0dec273659289e4a33d65e64402018339452d24a55
