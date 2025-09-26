@@ -21,13 +21,13 @@ Source code: [https://github.com/PicnicSupermarket/error-prone-support.git](http
 * [tech.picnic.error-prone-support:refaster-test-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/refaster-test-support/overview)
 </details>
 
-rebuilding **24 releases** of tech.picnic.error-prone-support:error-prone-support:
-- **23** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **25 releases** of tech.picnic.error-prone-support:error-prone-support:
+- **24** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.25.0](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.25.0/pom) | | | |
+| [0.25.0](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.25.0/pom) | [mvn jdk21](error-prone-support-0.25.0.buildspec) | [result](error-prone-support-0.25.0.buildinfo): [28 :white_check_mark: ](error-prone-support-0.25.0.buildcompare) | | 7.6M |
 | [0.24.0](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.24.0/pom) | [mvn jdk21](error-prone-support-0.24.0.buildspec) | [result](error-prone-support-0.24.0.buildinfo): [28 :white_check_mark: ](error-prone-support-0.24.0.buildcompare) | | 7.5M |
 | [0.23.0](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.23.0/pom) | [mvn jdk21](error-prone-support-0.23.0.buildspec) | [result](error-prone-support-0.23.0.buildinfo): [28 :white_check_mark: ](error-prone-support-0.23.0.buildcompare) | | 7.0M |
 | [0.22.0](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.22.0/pom) | [mvn jdk21](error-prone-support-0.22.0.buildspec) | [result](error-prone-support-0.22.0.buildinfo): [28 :white_check_mark: ](error-prone-support-0.22.0.buildcompare) | | 5.8M |
