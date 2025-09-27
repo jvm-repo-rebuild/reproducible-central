@@ -1,0 +1,56 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-Python
+group-id=org.jpmml
+artifact-id=jpmml-python
+version=1.3.8
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-python.git
+source.scm.tag=1.3.8
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.28
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+mvn.aggregate.artifact-id=pmml-python-testing
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-python
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-python-1.3.8.pom
+outputs.0.0.length=3345
+outputs.0.0.checksums.sha512=eaa4b0786d3b188d944458c21d9fed90dd97ae207ec7a616ecfb95fb157431bcb1af77d49fb92bf821e7f136cc197c0c82f8b661deb879dfdceb6018d00baac1
+
+outputs.1.coordinates=org.jpmml:pmml-python
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-python-1.3.8.pom
+outputs.1.0.length=5170
+outputs.1.0.checksums.sha512=54b07f612619da9cc89075d26d5094c254570784498942d7f870bf367249659d8c6c72d6886170533b11e64c09cf7e97aa4a5c6e880ffd16f0f7969c912db556
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-python-1.3.8.jar
+outputs.1.1.length=240498
+outputs.1.1.checksums.sha512=8328af8d4a2ba9f1db5b9175f5cc7f2b5de09957a667f3e68c7262e9de2abdb8c9b708c090c40d90c8c6d2479afc328db13588c11cb3dcf237fc043257c86dae
+
+outputs.2.coordinates=org.jpmml:pmml-python-testing
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-python-testing-1.3.8.pom
+outputs.2.0.length=1248
+outputs.2.0.checksums.sha512=24405975a15f0842ab5214693350bba2c841a301bcebcd315a503434174b8ce853a03468a9761028ab78a9ff4ddba669d42b82adbffd36fa0ad8c870c589d816
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-python-testing-1.3.8.jar
+outputs.2.1.length=4136
+outputs.2.1.checksums.sha512=c03d0588bc57825f48be47b4ce1b408a504669349ef8f3f0e4dcb48fe4e3733011413ea4af9611ce8365e288af7b0ea765e663d4643fc9a44a58d24df8e61aa9
