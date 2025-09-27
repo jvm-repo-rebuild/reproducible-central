@@ -3,8 +3,8 @@
   <groupId>org.apache.pulsar</groupId>
   <artifactId>pulsar</artifactId>
   <versioning>
-    <latest>4.1.0</latest>
-    <release>4.1.0</release>
+    <latest>4.1.1</latest>
+    <release>4.1.1</release>
     <versions>
       <version>1.19.0-incubating</version>
       <version>1.20.0-incubating</version>
@@ -74,6 +74,7 @@
       <version>3.0.11</version>
       <version>3.0.12</version>
       <version>3.0.13</version>
+      <version>3.0.14</version>
       <version>3.1.0</version>
       <version>3.1.1</version>
       <version>3.1.2</version>
@@ -92,6 +93,7 @@
       <version>3.3.6</version>
       <version>3.3.7</version>
       <version>3.3.8</version>
+      <version>3.3.9</version>
       <version>4.0.0</version>
       <version>4.0.0-preview.1</version>
       <version>4.0.1</version>
@@ -100,8 +102,10 @@
       <version>4.0.4</version>
       <version>4.0.5</version>
       <version>4.0.6</version>
+      <version>4.0.7</version>
       <version>4.1.0</version>
+      <version>4.1.1</version>
     </versions>
-    <lastUpdated>20250908074241</lastUpdated>
+    <lastUpdated>20250927052831</lastUpdated>
   </versioning>
 </metadata>
