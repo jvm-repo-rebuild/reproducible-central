@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Java UUID Generator
+group-id=com.fasterxml.uuid
+artifact-id=java-uuid-generator
+version=5.1.1
+
+# source information
+source.scm.uri=scm:git:git://github.com/cowtowncoder/java-uuid-generator.git
+source.scm.tag=java-uuid-generator-5.1.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.8.6
+
+# output
+
+outputs.0.groupId=com.fasterxml.uuid
+outputs.0.filename=java-uuid-generator-5.1.1.pom
+outputs.0.length=8848
+outputs.0.checksums.sha512=67bfb55a2c510723933e18bb59de0eb25340dfab12d0a4294d386b848be645ad281d2a76322f92bfa6871a69b8583ef3b576011a9255f5eda06fb93c43434160
+
+outputs.1.groupId=com.fasterxml.uuid
+outputs.1.filename=java-uuid-generator-5.1.1.jar
+outputs.1.length=56151
+outputs.1.checksums.sha512=3ab01704cdee975c1583a22c10b86dc2d78c1ccecbf4fdd8b09c8753f3b42dc8f07a1822987658fab8f41452ae22aa605362ef58356af62579bbc64b11faf9a0
+
+outputs.2.groupId=com.fasterxml.uuid
+outputs.2.filename=java-uuid-generator-5.1.1-sources.jar
+outputs.2.length=57367
+outputs.2.checksums.sha512=4ff7f4d4fbd4085c9f458b6bd0ab0a9301927b73cc5b673c4054077975af07528373124d559f48a399c770d56aa77e8861ee5b20171fc3f168dfecdca7bcb2a0
