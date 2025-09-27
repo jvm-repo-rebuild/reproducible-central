@@ -46,13 +46,13 @@ Source code: [https://github.com/apache/maven-scm.git](https://github.com/apache
 * [org.apache.maven.scm:maven-scm-test](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-test/overview)
 </details>
 
-rebuilding **10 releases** of org.apache.maven.scm:maven-scm:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **11 releases** of org.apache.maven.scm:maven-scm:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.2.1](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.2.1/pom) | | | |
+| [2.2.1](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.2.1/pom) | [mvn jdk11](maven-scm-2.2.1.buildspec) | [result](maven-scm-2.2.1.buildinfo): [90 :white_check_mark: ](maven-scm-2.2.1.buildcompare) | | 11M |
 | [2.1.0](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.1.0/pom) | [mvn jdk8 w](maven-scm-2.1.0.buildspec) | [result](maven-scm-2.1.0.buildinfo): [94 :white_check_mark:  1 :warning:](maven-scm-2.1.0.buildcompare) [:mag:](maven-scm-2.1.0.diffoscope) | - | 11M |
 | [2.0.1](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.1/pom) | [mvn jdk17](maven-scm-2.0.1.buildspec) | [result](maven-scm-2.0.1.buildinfo): [55 :white_check_mark: ](maven-scm-2.0.1.buildcompare) | | 8.4M |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.0/pom) | [mvn jdk8 w](maven-scm-2.0.0.buildspec) | [result](maven-scm-2.0.0.buildinfo): [55 :white_check_mark: ](maven-scm-2.0.0.buildcompare) | | 7.6M |
