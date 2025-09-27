@@ -118,7 +118,7 @@ mvnBuildDockerBuildBaseToolchainsImage() {
           JDKPACKAGES="${JDKPACKAGES} ${packagePrefix}${toolchainsjdk}-jdk "
           JDKTAG="${JDKTAG}-${toolchainsjdk}"
           ;;
-        6 | 7 | 12 | 13 | 14 | 15 | 16 | 20 | 22 | 23 | 24 )
+        6 | 7 | 12 | 13 | 14 | 15 | 16 | 20 | 22 | 23 | 24 | 25 )
           # For these non-LTS versions, we use Azul JDK https://docs.azul.com/core/tpl
           JDKPACKAGES="${JDKPACKAGES} zulu${toolchainsjdk}-jdk"
           JDKTAG="${JDKTAG}-${toolchainsjdk}"
