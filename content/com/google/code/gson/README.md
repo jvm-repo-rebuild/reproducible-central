@@ -15,13 +15,13 @@ Source code: [https://github.com/google/gson.git](https://github.com/google/gson
 * [com.google.code.gson:proto](https://central.sonatype.com/artifact/com.google.code.gson/proto/overview)
 </details>
 
-rebuilding **6 releases** of com.google.code.gson:gson-parent:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of com.google.code.gson:gson-parent:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.13.2](https://central.sonatype.com/artifact/com.google.code.gson/gson-parent/2.13.2/pom) | | | |
+| [2.13.2](https://central.sonatype.com/artifact/com.google.code.gson/gson-parent/2.13.2/pom) | [mvn jdk17](gson-2.13.2.buildspec) | [result](gson-parent-2.13.2.buildinfo): [4 :white_check_mark: ](gson-parent-2.13.2.buildcompare) | | 526K |
 | [2.13.2-rc1](https://central.sonatype.com/artifact/com.google.code.gson/gson-parent/2.13.2-rc1/pom) | [mvn jdk17](gson-2.13.2-rc1.buildspec) | [result](gson-parent-2.13.2-rc1.buildinfo): [10 :white_check_mark: ](gson-parent-2.13.2-rc1.buildcompare) | | 598K |
 | [2.13.1](https://central.sonatype.com/artifact/com.google.code.gson/gson-parent/2.13.1/pom) | [mvn jdk11](gson-2.13.1.buildspec) | [result](gson-parent-2.13.1.buildinfo): [4 :white_check_mark: ](gson-parent-2.13.1.buildcompare) | | 524K |
 | [2.13.0](https://central.sonatype.com/artifact/com.google.code.gson/gson-parent/2.13.0/pom) | [mvn jdk11](gson-2.13.0.buildspec) | [result](gson-parent-2.13.0.buildinfo): [4 :white_check_mark: ](gson-parent-2.13.0.buildcompare) | | 523K |
