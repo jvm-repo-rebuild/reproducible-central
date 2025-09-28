@@ -1,0 +1,56 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-StatsModels
+group-id=org.jpmml
+artifact-id=jpmml-statsmodels
+version=1.3.3
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-statsmodels.git
+source.scm.tag=1.3.3
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.28
+java.vendor=Ubuntu
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.6
+mvn.aggregate.artifact-id=pmml-statsmodels-example
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-statsmodels
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-statsmodels-1.3.3.pom
+outputs.0.0.length=3794
+outputs.0.0.checksums.sha512=e24fb0138293f103738080a2ca28dcfe156785364afd0ca018268f02438326eaeaab2f13086fb31276ebfbe770c0a9324677ec8effeb736838576d8ac76f1e11
+
+outputs.1.coordinates=org.jpmml:pmml-statsmodels
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-statsmodels-1.3.3.pom
+outputs.1.0.length=1714
+outputs.1.0.checksums.sha512=e629c6f228014cd96f942d14dd078ee0cf34406e512661f29cefea9e2e67eb024d1c8dc81a6df4e687ba17a7e17ac906e077d4bc7281bc1fc412d94e71a22769
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-statsmodels-1.3.3.jar
+outputs.1.1.length=40666
+outputs.1.1.checksums.sha512=925c27cfc1486e1e48534f317d35fe905154136f660a773a95764f3472a13b2153c225dd7c31051edc454e699c8465df3356d0a464a2377c7cb30c6d396f477e
+
+outputs.2.coordinates=org.jpmml:pmml-statsmodels-example
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-statsmodels-example-1.3.3.pom
+outputs.2.0.length=2428
+outputs.2.0.checksums.sha512=446a766a556802a2933ae522d005ac394d5c37f44d89cb9fe728d3997c9ad990c6ef0410abadfe7affbf1d2475c88febd9578c40efd8a9aa9a767d501e3ed6b0
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-statsmodels-example-1.3.3.jar
+outputs.2.1.length=5424
+outputs.2.1.checksums.sha512=07df44a5fe16f5118927edd6ca8845aa5ce2719d7015e63c15e15fca07dca9a491877d139af764d0f2efd29fbdaff8d904d31de5a1b3e339560cb3ebd4df27a0
