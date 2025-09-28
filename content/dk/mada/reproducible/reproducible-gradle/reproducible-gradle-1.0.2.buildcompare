@@ -1,5 +1,0 @@
-version=1.0.2
-ok=5
-ko=0
-okFiles="dk.mada.reproducible.gradle.plugin-1.0.2.pom reproducible-gradle-1.0.2-sources.jar reproducible-gradle-1.0.2.jar reproducible-gradle-1.0.2.module reproducible-gradle-1.0.2.pom"
-koFiles=""
