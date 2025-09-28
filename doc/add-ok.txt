@@ -1,6 +1,4 @@
 content/com/flowlogix/flowlogix-9.0.11.buildspec:10.0.3
-content/com/fasterxml/uuid/java-uuid-generator-5.1.0.buildspec:5.1.1
-content/com/google/code/gson/gson-2.13.2-rc1.buildspec:2.13.2
-content/com/hibegin/zrlog-base/zrlog-base-3.2.115.buildspec:3.2.116
+content/com/hibegin/zrlog-base/zrlog-base-3.2.116.buildspec:3.2.120
 content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.1.6.buildspec:1.20
 content/jakarta/activation/jakarta.activation-api/jakarta.activation-api-2.1.4.buildspec:2.2.0-M1
