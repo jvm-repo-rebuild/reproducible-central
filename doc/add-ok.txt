@@ -1,4 +1,8 @@
 content/com/flowlogix/flowlogix-9.0.11.buildspec:10.0.3
-content/com/hibegin/zrlog-base/zrlog-base-3.2.116.buildspec:3.2.120
 content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.1.6.buildspec:1.20
+content/io/cucumber/query/query-14.3.0.buildspec:14.4.0
 content/jakarta/activation/jakarta.activation-api/jakarta.activation-api-2.1.4.buildspec:2.2.0-M1
+content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-10.2.1.buildspec:11.0.0
+content/org/hibernate/orm/hibernate-core/hibernate-core-7.1.1.Final.buildspec:7.1.2.Final
+content/org/metricshub/community-connectors/community-connectors-1.0.13.buildspec:1.0.14
+content/org/metricshub/jawk/jawk-4.0.01.buildspec:4.1.00
