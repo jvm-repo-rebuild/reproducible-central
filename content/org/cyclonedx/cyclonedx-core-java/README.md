@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/cyclonedx/cyclonedx-core-java.git](https://github.com/cyclonedx/cyclonedx-core-java.git)
 
-rebuilding **42 releases** of org.cyclonedx:cyclonedx-core-java:
-- **42** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **43 releases** of org.cyclonedx:cyclonedx-core-java:
+- **43** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [11.0.0](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-core-java/11.0.0/pom) | | | |
+| [11.0.0](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-core-java/11.0.0/pom) | [mvn jdk8](cyclonedx-core-java-11.0.0.buildspec) | [result](cyclonedx-core-java-11.0.0.buildinfo): [3 :white_check_mark: ](cyclonedx-core-java-11.0.0.buildcompare) | | 5.0M |
 | [10.2.1](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-core-java/10.2.1/pom) | [mvn jdk8](cyclonedx-core-java-10.2.1.buildspec) | [result](cyclonedx-core-java-10.2.1.buildinfo): [5 :white_check_mark: ](cyclonedx-core-java-10.2.1.buildcompare) | | 4.6M |
 | [10.1.0](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-core-java/10.1.0/pom) | [mvn jdk8](cyclonedx-core-java-10.1.0.buildspec) | [result](cyclonedx-core-java-10.1.0.buildinfo): [5 :white_check_mark: ](cyclonedx-core-java-10.1.0.buildcompare) | | 4.6M |
 | [10.0.0](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-core-java/10.0.0/pom) | [mvn jdk8](cyclonedx-core-java-10.0.0.buildspec) | [result](cyclonedx-core-java-10.0.0.buildinfo): [5 :white_check_mark: ](cyclonedx-core-java-10.0.0.buildcompare) | | 4.6M |
