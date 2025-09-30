@@ -1,0 +1,9 @@
+version=3.6.0
+ok=4
+ko=0
+ignored=0
+okFiles="exec-maven-plugin-3.6.0.pom exec-maven-plugin-3.6.0.jar exec-maven-plugin-3.6.0-source-release.zip exec-maven-plugin-3.6.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
