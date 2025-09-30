@@ -306,7 +306,7 @@ Reproducible Builds for Maven Central Repository
 | | [junit-xml-formatter](../content/io/cucumber/junit-xml-formatter/README.md) | 12 | 12 :white_check_mark: |
 | | [messages](../content/io/cucumber/messages/README.md) | 20 | 20 :white_check_mark: |
 | | [pretty-formatter](../content/io/cucumber/pretty-formatter/README.md) | 8 | 8 :white_check_mark: |
-| | [query](../content/io/cucumber/query/README.md) | 21 | 21 :white_check_mark: |
+| | [query](../content/io/cucumber/query/README.md) | 22 | 22 :white_check_mark: |
 | | [tag-expressions](../content/io/cucumber/tag-expressions/README.md) | 11 | 11 :white_check_mark: |
 | | [teamcity-formatter](../content/io/cucumber/teamcity-formatter/README.md) | 2 | 2 :white_check_mark: |
 | | [testng-xml-formatter](../content/io/cucumber/testng-xml-formatter/README.md) | 6 | 6 :white_check_mark: |
@@ -779,7 +779,7 @@ Reproducible Builds for Maven Central Repository
 | | [plexus-xml](../content/org/codehaus/plexus/plexus-xml/README.md) | 9 | 9 :white_check_mark: |
 | org.complate | [complate-java](../content/org/complate/java/README.md) | 3 | 3 :white_check_mark: |
 | | [complate-spring-mvc](../content/org/complate/spring/README.md) | 2 | 2 :white_check_mark: |
-| org.cyclonedx | [cyclonedx-core-java](../content/org/cyclonedx/cyclonedx-core-java/README.md) | 42 | 42 :white_check_mark: |
+| org.cyclonedx | [cyclonedx-core-java](../content/org/cyclonedx/cyclonedx-core-java/README.md) | 43 | 43 :white_check_mark: |
 | | [cyclonedx-maven-plugin](../content/org/cyclonedx/cyclonedx-maven-plugin/README.md) | 28 | 28 :white_check_mark: |
 | org.eclipse.jkube | [jkube](../content/org/eclipse/jkube/README.md) | 26 | 26 :white_check_mark: |
 | org.eclipse.sisu | [sisu-inject](../content/org/eclipse/sisu/README.md) | 1 | 1 :white_check_mark: |
@@ -796,7 +796,7 @@ Reproducible Builds for Maven Central Repository
 | org.glassfish.mq | [project](../content/org/glassfish/mq/README.md) | 1 | 1 :warning: |
 | org.glassfish.build | [glassfishbuild-maven-plugin](../content/org/glassfish/build/glassfishbuild-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
 | org.hibernate.models | [hibernate-models](../content/org/hibernate/models/hibernate-models/README.md) | 8 | 6 :white_check_mark: / 2 :warning: |
-| org.hibernate.orm | [hibernate-core](../content/org/hibernate/orm/hibernate-core/README.md) | 18 | 17 :white_check_mark: / 1 :warning: |
+| org.hibernate.orm | [hibernate-core](../content/org/hibernate/orm/hibernate-core/README.md) | 19 | 18 :white_check_mark: / 1 :warning: |
 | org.hibernate.reactive | [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | 23 | 23 :white_check_mark: |
 | org.hibernate.search | [hibernate-search](../content/org/hibernate/search/hibernate-search-bom/README.md) | 20 | 18 :white_check_mark: / 2 :warning: |
 | org.hibernate.validator | [hibernate-validator](../content/org/hibernate/validator/hibernate-validator/README.md) | 7 | 7 :white_check_mark: |
@@ -825,9 +825,9 @@ Reproducible Builds for Maven Central Repository
 | org.kordamp.jarviz | [jarviz-core](../content/org/kordamp/jarviz/README.md) | 1 | 1 :warning: |
 | org.kordamp.maven | [pomchecker](../content/org/kordamp/pomchecker/README.md) | 4 | 4 :white_check_mark: |
 | org.liquibase.ext | [liquibase-percona](../content/org/liquibase/ext/liquibase-percona/README.md) | 44 | 43 :white_check_mark: / 1 :warning: |
-| org.metricshub | [community-connectors](../content/org/metricshub/community-connectors/README.md) | 4 | 4 :white_check_mark: |
+| org.metricshub | [community-connectors](../content/org/metricshub/community-connectors/README.md) | 5 | 5 :white_check_mark: |
 | | [ipmi-java](../content/org/metricshub/ipmi-java/README.md) | 1 | 1 :white_check_mark: |
-| | [jawk](../content/org/metricshub/jawk/README.md) | 3 | 3 :white_check_mark: |
+| | [jawk](../content/org/metricshub/jawk/README.md) | 4 | 4 :white_check_mark: |
 | | [jflat](../content/org/metricshub/jflat/README.md) | 1 | 1 :white_check_mark: |
 | | [printf4j](../content/org/metricshub/printf4j/README.md) | 1 | 1 :white_check_mark: |
 | | [snmp-java](../content/org/metricshub/snmp-java/README.md) | 3 | 3 :white_check_mark: |
@@ -932,7 +932,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 8 | 8 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 44 | 43 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 21 | 3 :white_check_mark: / 18 :warning: |
-| **Count:** | **918** | **8716** | **6316** :white_check_mark:<br>**2400** :warning: |
+| **Count:** | **918** | **8721** | **6321** :white_check_mark:<br>**2400** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -942,13 +942,13 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
 ```
      33 gradle     11
-    157 gradle     17
+    158 gradle     17
     112 gradle     21
       5 gradle     24
      35 mvn         7
-   1548 mvn         8
+   1549 mvn         8
       1 mvn         9
-   1641 mvn        11
+   1642 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.22
@@ -957,7 +957,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn        14
      10 mvn        15
      14 mvn        16
-    708 mvn        17
+    710 mvn        17
       1 mvn        17.0.10
       2 mvn        17.0.11
       1 mvn        17.0.12

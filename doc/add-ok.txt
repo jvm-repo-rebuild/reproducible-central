@@ -1,8 +1,10 @@
+content/ch/qos/logback/logback-1.5.18.buildspec:1.5.19
 content/com/flowlogix/flowlogix-9.0.11.buildspec:10.0.3
+content/com/fasterxml/oss-parent/oss-parent-71.buildspec:72
 content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.1.6.buildspec:1.20
-content/io/cucumber/query/query-14.3.0.buildspec:14.4.0
+content/io/airlift/airbase/airbase-306.buildspec:307
+content/io/github/ollama4j/ollama4j-1.1.0.buildspec:1.1.1
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.7.1.buildspec:5.8.0
 content/jakarta/activation/jakarta.activation-api/jakarta.activation-api-2.1.4.buildspec:2.2.0-M1
-content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-10.2.1.buildspec:11.0.0
-content/org/hibernate/orm/hibernate-core/hibernate-core-7.1.1.Final.buildspec:7.1.2.Final
-content/org/metricshub/community-connectors/community-connectors-1.0.13.buildspec:1.0.14
-content/org/metricshub/jawk/jawk-4.0.01.buildspec:4.1.00
+content/org/codehaus/mojo/exec-maven-plugin/exec-maven-plugin-3.5.1.buildspec:3.6.0
+content/org/junit/junit5/junit5-6.0.0-RC3.buildspec:6.0.0
