@@ -7,12 +7,13 @@
 
 Source code: [https://github.com/codehaus-plexus/plexus-archiver.git](https://github.com/codehaus-plexus/plexus-archiver.git)
 
-rebuilding **21 releases** of org.codehaus.plexus:plexus-archiver:
-- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **22 releases** of org.codehaus.plexus:plexus-archiver:
+- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.10.2](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-archiver/4.10.2/pom) | [mvn jdk21](plexus-archiver-4.10.2.buildspec) | [result](plexus-archiver-4.10.2.buildinfo): [4 :white_check_mark: ](plexus-archiver-4.10.2.buildcompare) | | 891K |
 | [4.10.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-archiver/4.10.1/pom) | [mvn jdk21](plexus-archiver-4.10.1.buildspec) | [result](plexus-archiver-4.10.1.buildinfo): [4 :white_check_mark: ](plexus-archiver-4.10.1.buildcompare) | | 890K |
 | [4.10.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-archiver/4.10.0/pom) | [mvn jdk22](plexus-archiver-4.10.0.buildspec) | [result](plexus-archiver-4.10.0.buildinfo): [4 :white_check_mark: ](plexus-archiver-4.10.0.buildcompare) | | 879K |
 | [4.9.2](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-archiver/4.9.2/pom) | [mvn jdk21](plexus-archiver-4.9.2.buildspec) | [result](plexus-archiver-4.9.2.buildinfo): [4 :white_check_mark: ](plexus-archiver-4.9.2.buildcompare) | | 1.5M |

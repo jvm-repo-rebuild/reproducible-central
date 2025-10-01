@@ -3,8 +3,8 @@
   <groupId>org.apache.wicket</groupId>
   <artifactId>wicket-parent</artifactId>
   <versioning>
-    <latest>10.6.0</latest>
-    <release>10.6.0</release>
+    <latest>10.7.0</latest>
+    <release>10.7.0</release>
     <versions>
       <version>1.3.0-beta2</version>
       <version>1.3.0-beta3</version>
@@ -205,7 +205,8 @@
       <version>10.4.0</version>
       <version>10.5.0</version>
       <version>10.6.0</version>
+      <version>10.7.0</version>
     </versions>
-    <lastUpdated>20250712183448</lastUpdated>
+    <lastUpdated>20250930200602</lastUpdated>
   </versioning>
 </metadata>

@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metadata modelVersion="1.1.0">
+<metadata>
   <groupId>org.glassfish.main</groupId>
   <artifactId>glassfish-parent</artifactId>
   <versioning>
     <latest>8.0.0-JDK17-M12</latest>
     <release>8.0.0-JDK17-M12</release>
     <versions>
+      <version>3.1.2.2</version>
+      <version>3.1.2</version>
+      <version>4.0-b33</version>
+      <version>4.0-b72</version>
+      <version>4.0-b90</version>
+      <version>4.0</version>
+      <version>4.1</version>
+      <version>4.1.1</version>
+      <version>4.1.2</version>
+      <version>5.0</version>
+      <version>5.0.1</version>
+      <version>5.1.0-RC1</version>
+      <version>5.1.0-RC2</version>
       <version>5.1.0</version>
       <version>6.0.0-M1</version>
       <version>6.0.0-RC1</version>
@@ -51,6 +64,7 @@
       <version>7.0.23</version>
       <version>7.0.24</version>
       <version>7.0.25</version>
+      <version>7.1.0-M1</version>
       <version>8.0.0-M1</version>
       <version>8.0.0-M2</version>
       <version>8.0.0-M3</version>
@@ -69,6 +83,6 @@
       <version>8.0.0-JDK17-M10</version>
       <version>8.0.0-JDK17-M12</version>
     </versions>
-    <lastUpdated>20250531230706</lastUpdated>
+    <lastUpdated>20251001154330</lastUpdated>
   </versioning>
 </metadata>

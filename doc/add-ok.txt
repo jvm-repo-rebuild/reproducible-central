@@ -1,10 +1,10 @@
 content/ch/qos/logback/logback-1.5.18.buildspec:1.5.19
-content/com/flowlogix/flowlogix-9.0.11.buildspec:10.0.3
-content/com/fasterxml/oss-parent/oss-parent-71.buildspec:72
+content/com/flowlogix/flowlogix-9.0.11.buildspec:10.0.4
+content/com/github/sitture/env-config/env-config-2.0.0.buildspec:2.1.0
 content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.1.6.buildspec:1.20
-content/io/airlift/airbase/airbase-306.buildspec:307
-content/io/github/ollama4j/ollama4j-1.1.0.buildspec:1.1.1
-content/io/github/chains-project/maven-lockfile/maven-lockfile-5.7.1.buildspec:5.8.0
+content/io/airlift/airbase/airbase-307.buildspec:308
+content/io/cucumber/cucumber-jvm/cucumber-jvm-7.29.0.buildspec:7.30.0
 content/jakarta/activation/jakarta.activation-api/jakarta.activation-api-2.1.4.buildspec:2.2.0-M1
-content/org/codehaus/mojo/exec-maven-plugin/exec-maven-plugin-3.5.1.buildspec:3.6.0
+content/org/apache/orc/orc-2.2.0.buildspec:2.2.1
+content/org/apache/wicket/wicket-parent-10.6.0.buildspec:10.7.0
 content/org/junit/junit5/junit5-6.0.0-RC3.buildspec:6.0.0
