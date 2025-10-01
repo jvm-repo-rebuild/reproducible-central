@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/sitture/env-config.git](https://github.com/sitture/env-config.git)
 
-rebuilding **13 releases** of com.github.sitture:env-config:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **14 releases** of com.github.sitture:env-config:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.1.0](https://central.sonatype.com/artifact/com.github.sitture/env-config/2.1.0/pom) | | | |
+| [2.1.0](https://central.sonatype.com/artifact/com.github.sitture/env-config/2.1.0/pom) | [mvn jdk17](env-config-2.1.0.buildspec) | [result](env-config-2.1.0.buildinfo): [3 :white_check_mark: ](env-config-2.1.0.buildcompare) | | 59K |
 | [2.0.0](https://central.sonatype.com/artifact/com.github.sitture/env-config/2.0.0/pom) | [mvn jdk17](env-config-2.0.0.buildspec) | [result](env-config-2.0.0.buildinfo): [3 :white_check_mark: ](env-config-2.0.0.buildcompare) | | 59K |
 | [1.15.0](https://central.sonatype.com/artifact/com.github.sitture/env-config/1.15.0/pom) | [mvn jdk11](env-config-1.15.0.buildspec) | [result](env-config-1.15.0.buildinfo): [3 :white_check_mark: ](env-config-1.15.0.buildcompare) | | 59K |
 | [1.14.0](https://central.sonatype.com/artifact/com.github.sitture/env-config/1.14.0/pom) | [mvn jdk11](env-config-1.14.0.buildspec) | :x: | |
