@@ -38,13 +38,13 @@ Source code: [https://git-wip-us.apache.org/repos/asf/wicket.git](https://git-wi
 * [org.apache.wicket:wicket-velocity](https://central.sonatype.com/artifact/org.apache.wicket/wicket-velocity/overview)
 </details>
 
-rebuilding **6 releases** of org.apache.wicket:wicket-parent:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of org.apache.wicket:wicket-parent:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [10.7.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.7.0/pom) | | | |
+| [10.7.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.7.0/pom) | [mvn jdk17](wicket-parent-10.7.0.buildspec) | [result](wicket-parent-10.7.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.7.0.buildcompare) | | 77M |
 | [10.6.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.6.0/pom) | [mvn jdk17](wicket-parent-10.6.0.buildspec) | [result](wicket-parent-10.6.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.6.0.buildcompare) | | 76M |
 | [10.5.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.5.0/pom) | [mvn jdk17](wicket-parent-10.5.0.buildspec) | [result](wicket-parent-10.5.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.5.0.buildcompare) | | 76M |
 | [10.4.0](https://central.sonatype.com/artifact/org.apache.wicket/wicket-parent/10.4.0/pom) | [mvn jdk17](wicket-parent-10.4.0.buildspec) | [result](wicket-parent-10.4.0.buildinfo): [75 :white_check_mark: ](wicket-parent-10.4.0.buildcompare) | | 76M |
