@@ -3,8 +3,8 @@
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-artifact-plugin</artifactId>
   <versioning>
-    <latest>3.6.0</latest>
-    <release>3.6.0</release>
+    <latest>3.6.1</latest>
+    <release>3.6.1</release>
     <versions>
       <version>3.0.0</version>
       <version>3.1.0</version>
@@ -17,7 +17,8 @@
       <version>3.5.2</version>
       <version>3.5.3</version>
       <version>3.6.0</version>
+      <version>3.6.1</version>
     </versions>
-    <lastUpdated>20250112082257</lastUpdated>
+    <lastUpdated>20251002164604</lastUpdated>
   </versioning>
 </metadata>

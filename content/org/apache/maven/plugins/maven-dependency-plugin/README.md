@@ -13,6 +13,7 @@ rebuilding **11 releases** of org.apache.maven.plugins:maven-dependency-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.9.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-dependency-plugin/3.9.0/pom) | | | |
 | [3.8.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-dependency-plugin/3.8.1/pom) | [mvn jdk8 w](maven-dependency-plugin-3.8.1.buildspec) | [result](maven-dependency-plugin-3.8.1.buildinfo): [6 :white_check_mark: ](maven-dependency-plugin-3.8.1.buildcompare) | | 1.4M |
 | [3.8.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-dependency-plugin/3.8.0/pom) | [mvn jdk8 w](maven-dependency-plugin-3.8.0.buildspec) | [result](maven-dependency-plugin-3.8.0.buildinfo): [6 :white_check_mark: ](maven-dependency-plugin-3.8.0.buildcompare) | | 1.4M |
 | [3.7.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-dependency-plugin/3.7.1/pom) | [mvn jdk21](maven-dependency-plugin-3.7.1.buildspec) | [result](maven-dependency-plugin-3.7.1.buildinfo): [6 :white_check_mark: ](maven-dependency-plugin-3.7.1.buildcompare) | | 1.5M |
