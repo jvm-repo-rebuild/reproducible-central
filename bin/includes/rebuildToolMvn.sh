@@ -19,7 +19,7 @@
 # rebuild with Maven tool (tool=mvn)
 rebuildToolMvn() {
   # the effective rebuild command, adding artifact:compare goal to compare with central content
-  local mvn_rebuild="${command} -V -e org.apache.maven.plugins:maven-artifact-plugin:3.6.0:compare org.apache.maven.plugins:maven-artifact-plugin:3.6.0:describe-build-output -Dcompare.fail=false"
+  local mvn_rebuild="${command} -V -e org.apache.maven.plugins:maven-artifact-plugin:3.6.1:compare org.apache.maven.plugins:maven-artifact-plugin:3.6.1:describe-build-output -Dcompare.fail=false"
   case ${tool} in
     mvn-3.6.*|mvn-3.5.*)
       mvn_rebuild="${command} -V -e org.apache.maven.plugins:maven-artifact-plugin:3.5.1:compare -Dcompare.fail=false"
