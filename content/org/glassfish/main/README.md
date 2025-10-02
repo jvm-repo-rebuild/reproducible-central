@@ -307,13 +307,14 @@ Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/
 * [org.glassfish.main:test-utils](https://central.sonatype.com/artifact/org.glassfish.main/test-utils/overview)
 </details>
 
-rebuilding **28 releases** of org.glassfish.main:glassfish-parent:
+rebuilding **29 releases** of org.glassfish.main:glassfish-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 28 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 29 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [8.0.0-JDK17-M12](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-JDK17-M12/pom) | | | |
+| [8.0.0-JDK17-M12](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-JDK17-M12/pom) | [mvn jdk17](glassfish-8.0.0-JDK17-M12.buildspec) | [result](glassfish-main-aggregator-8.0.0-JDK17-M12.buildinfo): [1307 :white_check_mark:  11 :warning:](glassfish-main-aggregator-8.0.0-JDK17-M12.buildcompare) | 5 :rotating_light: 6 :no_entry_sign: | 550M |
 | [8.0.0-JDK17-M10](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-JDK17-M10/pom) | [mvn jdk17](glassfish-8.0.0-JDK17-M10.buildspec) | [result](glassfish-main-aggregator-8.0.0-JDK17-M10.buildinfo): [1307 :white_check_mark:  11 :warning:](glassfish-main-aggregator-8.0.0-JDK17-M10.buildcompare) | - | 542M |
 | [8.0.0-JDK17-M9](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-JDK17-M9/pom) | [mvn jdk17](glassfish-8.0.0-JDK17-M9.buildspec) | :x: | |
 | [8.0.0-JDK17-M7](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-JDK17-M7/pom) | [mvn jdk21](glassfish-8.0.0-JDK17-M7.buildspec) | [result](glassfish-main-aggregator-8.0.0-JDK17-M7.buildinfo): [1286 :white_check_mark:  37 :warning:](glassfish-main-aggregator-8.0.0-JDK17-M7.buildcompare) | - | 539M |
