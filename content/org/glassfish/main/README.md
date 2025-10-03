@@ -3,11 +3,11 @@
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.glassfish.main:glassfish-parent](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/glassfish/main//badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/glassfish/main//README.md)
+## Project: [org.glassfish.main:glassfish-parent](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/glassfish/main/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/glassfish/main/README.md)
 
 Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/eclipse-ee4j/glassfish.git)
 
-<details><summary>This project defines 296 modules:</summary>
+<details><summary>This project defines 303 modules:</summary>
 
 * [org.glassfish.docs:distribution](https://central.sonatype.com/artifact/org.glassfish.docs/distribution/overview)
 * [org.glassfish.docs:docs](https://central.sonatype.com/artifact/org.glassfish.docs/docs/overview)
@@ -78,6 +78,7 @@ Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/
 * [org.glassfish.main.common:container-common](https://central.sonatype.com/artifact/org.glassfish.main.common/container-common/overview)
 * [org.glassfish.main.common:glassfish-api](https://central.sonatype.com/artifact/org.glassfish.main.common/glassfish-api/overview)
 * [org.glassfish.main.common:glassfish-ee-api](https://central.sonatype.com/artifact/org.glassfish.main.common/glassfish-ee-api/overview)
+* [org.glassfish.main.common:glassfish-jdk-extensions](https://central.sonatype.com/artifact/org.glassfish.main.common/glassfish-jdk-extensions/overview)
 * [org.glassfish.main.common:glassfish-mbeanserver](https://central.sonatype.com/artifact/org.glassfish.main.common/glassfish-mbeanserver/overview)
 * [org.glassfish.main.common:glassfish-naming](https://central.sonatype.com/artifact/org.glassfish.main.common/glassfish-naming/overview)
 * [org.glassfish.main.common:internal-api](https://central.sonatype.com/artifact/org.glassfish.main.common/internal-api/overview)
@@ -102,6 +103,7 @@ Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/
 * [org.glassfish.main.core:core](https://central.sonatype.com/artifact/org.glassfish.main.core/core/overview)
 * [org.glassfish.main.core:glassfish](https://central.sonatype.com/artifact/org.glassfish.main.core/glassfish/overview)
 * [org.glassfish.main.core:glassfish-extra-jre-packages](https://central.sonatype.com/artifact/org.glassfish.main.core/glassfish-extra-jre-packages/overview)
+* [org.glassfish.main.core:glassfish-osgi-bootstrap](https://central.sonatype.com/artifact/org.glassfish.main.core/glassfish-osgi-bootstrap/overview)
 * [org.glassfish.main.core:jakartaee-kernel](https://central.sonatype.com/artifact/org.glassfish.main.core/jakartaee-kernel/overview)
 * [org.glassfish.main.core:kernel](https://central.sonatype.com/artifact/org.glassfish.main.core/kernel/overview)
 * [org.glassfish.main.core:logging](https://central.sonatype.com/artifact/org.glassfish.main.core/logging/overview)
@@ -165,8 +167,11 @@ Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/
 * [org.glassfish.main.extras:tests-embedded](https://central.sonatype.com/artifact/org.glassfish.main.extras/tests-embedded/overview)
 * [org.glassfish.main.featuresets:atomic](https://central.sonatype.com/artifact/org.glassfish.main.featuresets/atomic/overview)
 * [org.glassfish.main.featuresets:debug](https://central.sonatype.com/artifact/org.glassfish.main.featuresets/debug/overview)
+* [org.glassfish.main.featuresets:embedded-all](https://central.sonatype.com/artifact/org.glassfish.main.featuresets/embedded-all/overview)
+* [org.glassfish.main.featuresets:embedded-web](https://central.sonatype.com/artifact/org.glassfish.main.featuresets/embedded-web/overview)
 * [org.glassfish.main.featuresets:featuresets](https://central.sonatype.com/artifact/org.glassfish.main.featuresets/featuresets/overview)
 * [org.glassfish.main.featuresets:glassfish](https://central.sonatype.com/artifact/org.glassfish.main.featuresets/glassfish/overview)
+* [org.glassfish.main.featuresets:microprofile](https://central.sonatype.com/artifact/org.glassfish.main.featuresets/microprofile/overview)
 * [org.glassfish.main.featuresets:nucleus](https://central.sonatype.com/artifact/org.glassfish.main.featuresets/nucleus/overview)
 * [org.glassfish.main.featuresets:nucleus-featuresets](https://central.sonatype.com/artifact/org.glassfish.main.featuresets/nucleus-featuresets/overview)
 * [org.glassfish.main.featuresets:web](https://central.sonatype.com/artifact/org.glassfish.main.featuresets/web/overview)
@@ -213,6 +218,8 @@ Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/
 * [org.glassfish.main.loadbalancer:load-balancer-admin](https://central.sonatype.com/artifact/org.glassfish.main.loadbalancer/load-balancer-admin/overview)
 * [org.glassfish.main.microprofile:microprofile-config](https://central.sonatype.com/artifact/org.glassfish.main.microprofile/microprofile-config/overview)
 * [org.glassfish.main.microprofile:microprofile-connectors](https://central.sonatype.com/artifact/org.glassfish.main.microprofile/microprofile-connectors/overview)
+* [org.glassfish.main.microprofile:microprofile-health](https://central.sonatype.com/artifact/org.glassfish.main.microprofile/microprofile-health/overview)
+* [org.glassfish.main.microprofile:microprofile-health-service](https://central.sonatype.com/artifact/org.glassfish.main.microprofile/microprofile-health-service/overview)
 * [org.glassfish.main.microprofile:microprofile-parent](https://central.sonatype.com/artifact/org.glassfish.main.microprofile/microprofile-parent/overview)
 * [org.glassfish.main.orb:orb](https://central.sonatype.com/artifact/org.glassfish.main.orb/orb/overview)
 * [org.glassfish.main.orb:orb-connector](https://central.sonatype.com/artifact/org.glassfish.main.orb/orb-connector/overview)
@@ -307,14 +314,14 @@ Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/
 * [org.glassfish.main:test-utils](https://central.sonatype.com/artifact/org.glassfish.main/test-utils/overview)
 </details>
 
-rebuilding **29 releases** of org.glassfish.main:glassfish-parent:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **30 releases** of org.glassfish.main:glassfish-parent:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 29 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [8.0.0-JDK17-M12](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-JDK17-M12/pom) | [mvn jdk17](glassfish-8.0.0-JDK17-M12.buildspec) | [result](glassfish-main-aggregator-8.0.0-JDK17-M12.buildinfo): [1307 :white_check_mark:  11 :warning:](glassfish-main-aggregator-8.0.0-JDK17-M12.buildcompare) | 5 :rotating_light: 6 :no_entry_sign: | 550M |
+| [8.0.0-JDK17-M12](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-JDK17-M12/pom) | [mvn jdk17](glassfish-8.0.0-JDK17-M12.buildspec) | [result](glassfish-main-aggregator-8.0.0-JDK17-M12.buildinfo): [1307 :white_check_mark:  11 :warning:](glassfish-main-aggregator-8.0.0-JDK17-M12.buildcompare) [:mag:](glassfish-main-aggregator-8.0.0-JDK17-M12.diffoscope) | 5 :rotating_light: 6 :no_entry_sign: | 550M |
 | [8.0.0-JDK17-M10](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-JDK17-M10/pom) | [mvn jdk17](glassfish-8.0.0-JDK17-M10.buildspec) | [result](glassfish-main-aggregator-8.0.0-JDK17-M10.buildinfo): [1307 :white_check_mark:  11 :warning:](glassfish-main-aggregator-8.0.0-JDK17-M10.buildcompare) | - | 542M |
 | [8.0.0-JDK17-M9](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-JDK17-M9/pom) | [mvn jdk17](glassfish-8.0.0-JDK17-M9.buildspec) | :x: | |
 | [8.0.0-JDK17-M7](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-JDK17-M7/pom) | [mvn jdk21](glassfish-8.0.0-JDK17-M7.buildspec) | [result](glassfish-main-aggregator-8.0.0-JDK17-M7.buildinfo): [1286 :white_check_mark:  37 :warning:](glassfish-main-aggregator-8.0.0-JDK17-M7.buildcompare) | - | 539M |
@@ -331,7 +338,7 @@ rebuilding **29 releases** of org.glassfish.main:glassfish-parent:
 | [8.0.0-M3](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M3/pom) | | | |
 | [8.0.0-M2](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M2/pom) | | | |
 | [8.0.0-M1](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M1/pom) | [mvn jdk17.0.9](glassfish-8.0.0-M1.buildspec) | [result](glassfish-main-aggregator-8.0.0-M1.buildinfo): [667 :white_check_mark:  69 :warning:](glassfish-main-aggregator-8.0.0-M1.buildcompare) [:mag:](glassfish-main-aggregator-8.0.0-M1.diffoscope) | - | 453M |
-| [7.1.0-M1](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.1.0-M1/pom) | | | |
+| [7.1.0-M1](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.1.0-M1/pom) | [mvn jdk21](glassfish-7.1.0-M1.buildspec) | [result](glassfish-main-aggregator-7.1.0-M1.buildinfo): [1328 :white_check_mark: ](glassfish-main-aggregator-7.1.0-M1.buildcompare) | | 307M |
 | [7.0.25](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.25/pom) | [mvn jdk17](glassfish-7.0.25.buildspec) | [result](glassfish-main-aggregator-7.0.25.buildinfo): [1307 :white_check_mark:  11 :warning:](glassfish-main-aggregator-7.0.25.buildcompare) | - | 547M |
 | [7.0.24](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.24/pom) | [mvn jdk17](glassfish-7.0.24.buildspec) | [result](glassfish-main-aggregator-7.0.24.buildinfo): [1307 :white_check_mark:  11 :warning:](glassfish-main-aggregator-7.0.24.buildcompare) | - | 547M |
 | [7.0.23](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.23/pom) | [mvn jdk17](glassfish-7.0.23.buildspec) | [result](glassfish-main-aggregator-7.0.23.buildinfo): [1307 :white_check_mark:  11 :warning:](glassfish-main-aggregator-7.0.23.buildcompare) | - | 539M |
