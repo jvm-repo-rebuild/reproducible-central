@@ -1,0 +1,5 @@
+version=4.1.1.Final
+ok=3
+ko=0
+okFiles="hibernate-reactive-core-4.1.1.Final-sources.jar hibernate-reactive-core-4.1.1.Final.jar hibernate-reactive-core-4.1.1.Final.pom"
+koFiles=""
