@@ -1,0 +1,267 @@
+# a few default test env configuration files: admin-keyfile, domain.xml, cacerts.jks, keystore.jks, domain-info.xml
+# with a few random or paths to local JDK
+# can these non-reproducible values be extracted?
+1 / 11 target/reference/org.glassfish.main.distributions/atomic-8.0.0-JDK17-M12.zip nucleus/distributions/atomic/target/atomic.zip
+--- target/reference/org.glassfish.main.distributions/atomic-8.0.0-JDK17-M12.zip
++++ nucleus/distributions/atomic/target/atomic.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 23179060 bytes, number of entries: 177
+│ +Zip file size: 23179019 bytes, number of entries: 177
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-31 21:40 nucleus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-31 21:40 nucleus/bin/
+│ @@ -53,27 +53,27 @@
+│  -rw-r--r--  2.0 unx    31524 b- defN 25-May-31 21:40 nucleus/docs/quickstart.html
+│  -rw-------  2.0 unx       80 b- defN 25-May-31 21:40 nucleus/domains/domain1/config/admin-keyfile
+│ --rw-------  2.0 unx     1982 b- defN 25-May-31 21:40 nucleus/domains/domain1/config/cacerts.jks
+│ +-rw-------  2.0 unx     1984 b- defN 25-May-31 21:40 nucleus/domains/domain1/config/cacerts.jks
+│  -rw-------  2.0 unx     9784 b- defN 25-May-31 21:40 nucleus/domains/domain1/config/default-logging.properties
+│  -rw-------  2.0 unx       32 b- defN 25-May-31 21:40 nucleus/domains/domain1/config/domain-passwords
+...
+│  -rw-------  2.0 unx     5892 b- defN 25-May-31 21:40 nucleus/domains/domain1/config/server.policy
+│  -rw-r--r--  2.0 unx     3668 b- defN 25-May-31 21:40 nucleus/domains/domain1/docroot/index.html
+│ --rw-r--r--  2.0 unx      605 b- defN 25-May-31 21:40 nucleus/domains/domain1/init-info/domain-info.xml
+│ +-rw-r--r--  2.0 unx      509 b- defN 25-May-31 21:40 nucleus/domains/domain1/init-info/domain-info.xml
+│  -rw-r--r--  2.0 unx      917 b- defN 25-May-31 21:40 nucleus/lib/appclient/appclientlogin.conf
+│  -rw-r--r--  2.0 unx     2692 b- defN 25-May-31 21:40 nucleus/lib/appclient/client.policy
+│ @@ -172,8 +172,8 @@
+│  -rw-r--r--  2.0 unx    32011 b- defN 25-May-31 21:40 nucleus/modules/ssl-impl.jar
+│  -rw-r--r--  2.0 unx   781804 b- defN 25-May-31 21:40 nucleus/osgi/felix/bin/felix.jar
+│ -177 files, 25804300 bytes uncompressed, 23153458 bytes compressed:  10.3%
+│ +177 files, 25804206 bytes uncompressed, 23153417 bytes compressed:  10.3%
+├── nucleus/domains/domain1/config/admin-keyfile
+│ @@ -1 +1 @@
+│ -admin;{SSHA256}Wq7fmJjpHYF2O0c8WAePqJ8MVyI3RV7+wvemfGm5eTYghAzphhvBrA==;asadmin
+│ +admin;{SSHA256}nJYH7Kw+dAMPrWWmTO6sNx1ubZFjI+t4QuWm4cgiwCKPOddD3bI37A==;asadmin
+├── nucleus/domains/domain1/config/cacerts.jks
+│ @@ -1,124 +1,124 @@
+├── nucleus/domains/domain1/config/domain.xml
+│ ├── nucleus/domains/domain1/config/domain.xml
+│ │ @@ -391,12 +391,12 @@
+│ │        <system-property name="HTTP_SSL_LISTENER_PORT" value="28181"/>
+│ │        <system-property name="JMX_SYSTEM_CONNECTOR_PORT" value="28686"/>
+│ │        <system-property name="OSGI_SHELL_TELNET_PORT" value="26666"/>
+│ │        <system-property name="JAVA_DEBUGGER_PORT" value="29009"/>
+│ │      </config>
+│ │    </configs>
+│ │    <property name="administrative.domain.name" value="domain1"/>
+│ │ -  <secure-admin special-admin-indicator="3be23ee8-1b28-4564-bc02-49d71e4ce4ed">
+│ │ +  <secure-admin special-admin-indicator="35c88847-9afb-4f6b-bbf4-ee39af0b2867">
+│ │      <secure-admin-principal dn="CN=localhost,OU=GlassFish,O=Eclipse.org Foundation Inc,L=Ottawa,ST=Ontario,C=CA"/>
+│ │      <secure-admin-principal dn="CN=localhost-instance,OU=GlassFish,O=Eclipse.org Foundation Inc,L=Ottawa,ST=Ontario,C=CA"/>
+│ │    </secure-admin>
+│ │  </domain>
+├── nucleus/domains/domain1/config/keystore.jks
+│ @@ -1,286 +1,286 @@
+├── nucleus/domains/domain1/init-info/domain-info.xml
+│ ├── nucleus/domains/domain1/init-info/domain-info.xml
+│ │ @@ -1,4 +1,4 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ -<domain-info xmlns="http://xmlns.oracle.com/cie/glassfish/domain-info" xmlns:ns2="http://xmlns.oracle.com/cie/glassfish/domain-template" javahome="/opt/tools/java/temurin/jdk-17/jdk-17.0.14+7" mwhome="/home/jenkins/agent/workspace/1_glassfish-build-and-stage/nucleus/distributions/atomic/target/stage">
+│ │ -  <domain-template-ref name="Basic Nucleus Domain" version="4.0.0.0" location="/home/jenkins/agent/workspace/1_glassfish-build-and-stage/nucleus/distributions/atomic/target/stage/nucleus/common/templates/gf/nucleus-domain.jar"/>
+│ │ +<domain-info xmlns="http://xmlns.oracle.com/cie/glassfish/domain-info" xmlns:ns2="http://xmlns.oracle.com/cie/glassfish/domain-template" javahome="/usr/lib/jvm/java-17-openjdk-amd64" mwhome="/var/maven/app/nucleus/distributions/atomic/target/stage">
+│ │ +  <domain-template-ref name="Basic Nucleus Domain" version="4.0.0.0" location="/var/maven/app/nucleus/distributions/atomic/target/stage/nucleus/common/templates/gf/nucleus-domain.jar"/>
+│ │  </domain-info>
+
+# exactly same as previous
+2 / 11 target/reference/org.glassfish.main.distributions/nucleus-new-8.0.0-JDK17-M12.zip nucleus/distributions/nucleus/target/nucleus-new.zip
+
+3 / 11 target/reference/org.glassfish.main.distributions/glassfish-8.0.0-JDK17-M12.zip appserver/distributions/glassfish/target/glassfish.zip
+
+# impact of previous issue on fingerprints in SBOM
+4 / 11 target/reference/org.glassfish.main.extras/installroot-builder-8.0.0-JDK17-M12-cyclonedx.xml appserver/extras/embedded/common/installroot-builder/target/bom.xml
+--- target/reference/org.glassfish.main.extras/installroot-builder-8.0.0-JDK17-M12-cyclonedx.xml
++++ appserver/extras/embedded/common/installroot-builder/target/bom.xml
+│   --- target/reference/org.glassfish.main.extras/installroot-builder-8.0.0-JDK17-M12-cyclonedx.xml
+├── +++ appserver/extras/embedded/common/installroot-builder/target/bom.xml
+│ @@ -95,22 +95,22 @@
+│        <publisher>Eclipse Foundation</publisher>
+│        <group>org.glassfish.main.distributions</group>
+│        <name>glassfish</name>
+│        <version>8.0.0-JDK17-M12</version>
+│        <description>Eclipse GlassFish Parent Project</description>
+│        <scope>required</scope>
+│        <hashes>
+│ -        <hash alg="MD5">15374b28615bc88fbdbc56f93e88d688</hash>
+│ -        <hash alg="SHA-1">ade8e987469de4e59fb863994c189855c47ca9c4</hash>
+│ -        <hash alg="SHA-256">da1ce7a323333ef01aa9b303df86dceac41e11b92aea3f74bbd8212d27941464</hash>
+│ -        <hash alg="SHA-512">fc0c162149a164620f522b970f9697cc0c26b356669f0dfda55ee6b3474cc6f353b67d130d9a8fc4a835f9e1219687f98a7bb581fa96dd120289020d430b68c5</hash>
+│ -        <hash alg="SHA-384">fe9023c5c41b6adfec6372cd9e66fe1da9ef96cef2e5f422cf65a045e7346d95e01a746034c13efa29520fdf969d971f</hash>
+│ -        <hash alg="SHA3-384">3cc2686e590980e04c5d198896f3a7831eba3672a8665bcc6aa5f7cb7306dc4a7955bc44c24915ad9272d274c2cd09a6</hash>
+│ -        <hash alg="SHA3-256">7cf8cd2cc735663aeb7f74519574c5710eeb59aa4a5309329d787c341eb3d78f</hash>
+│ -        <hash alg="SHA3-512">4738243d4785d8ec4dc594a96403f4de21e3912659e0ed70f037ad4b7b9ffb84b71a467f22f79216d0c5a59fd8a89236985dd80b7e5020bb367d20a700efe45b</hash>
+│ +        <hash alg="MD5">01a0f7aa070808b87013276db51c7cec</hash>
+│ +        <hash alg="SHA-1">239e71b64e083b3a3344dd702bbfbaabf75d2a2d</hash>
+│ +        <hash alg="SHA-256">4717db87e6e27fa60016ae5dfd572b17eae554c8a8b3796b585590329647f4e8</hash>
+│ +        <hash alg="SHA-512">f6b73669fca7e7f997074cd79c58315f8e4918b8d650531c64745def67cf28050784e80dca99f2785dd3c01ba4df899d12609fbd4a44b5144f40a2585f1fe0ad</hash>
+│ +        <hash alg="SHA-384">39ab75427b6d9695c24a3abbe5b0f020408bdc6d5d80502de491ffe596bd552891aa6c8795a814fa7105017511a1d371</hash>
+│ +        <hash alg="SHA3-384">29746af5399e61da27ce495e4e5908ff39737f08692fd7efc62555ce6d85295fde9119e249d424029e6ac9e980c4deeb</hash>
+│ +        <hash alg="SHA3-256">420fd177910b5b5a4e1f9dc3236c714cbd91dc6bb53d6d6c8f402086ef50a51e</hash>
+│ +        <hash alg="SHA3-512">e88c287c9d15b94fa6cdb3704b3689cfc29ef254ac6c0d572326d5a01a7330688ba606bbf85de201ba8c31b11f533e65bbcf88d63343e94ce7a20e47108945af</hash>
+│        </hashes>
+│        <licenses>
+│          <license>
+│            <id>EPL-2.0</id>
+│          </license>
+│          <license>
+│            <id>GPL-2.0-with-classpath-exception</id>
+
+5 / 11 target/reference/org.glassfish.main.extras/installroot-builder-8.0.0-JDK17-M12-cyclonedx.json appserver/extras/embedded/common/installroot-builder/target/bom.json
+
+6 / 11 target/reference/org.glassfish.main.extras/instanceroot-builder-8.0.0-JDK17-M12.jar appserver/extras/embedded/common/instanceroot-builder/target/instanceroot-builder.jar
+--- target/reference/org.glassfish.main.extras/instanceroot-builder-8.0.0-JDK17-M12.jar
++++ appserver/extras/embedded/common/instanceroot-builder/target/instanceroot-builder.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 58666 bytes, number of entries: 39
+│ +Zip file size: 58650 bytes, number of entries: 39
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-31 21:40 META-INF/
+│  -rw-r--r--  2.0 unx       81 b- defN 25-May-31 21:40 META-INF/MANIFEST.MF
+│  drwxr-sr-x  2.0 unx        0 b- stor 25-May-31 21:40 glassfish8/
+│ @@ -14,28 +14,28 @@
+│  -rw-r--r--  2.0 unx     5205 b- defN 25-May-31 21:40 META-INF/NOTICE.md
+│  -rw-------  2.0 unx       80 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/admin-keyfile
+│ --rw-------  2.0 unx     1982 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/cacerts.jks
+│ +-rw-------  2.0 unx     1983 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/cacerts.jks
+│  -rw-------  2.0 unx     9784 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/default-logging.properties
+│  -rw-------  2.0 unx    49333 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/default-web.xml
+│  -rw-------  2.0 unx       32 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/domain-passwords
+│  -rw-------  2.0 unx    34012 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/domain.xml
+│ --rw-------  2.0 unx     2530 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/glassfish-acc.xml
+│ +-rw-------  2.0 unx     2528 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/glassfish-acc.xml
+│  -rw-------  2.0 unx     2843 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/javaee.server.policy
+│  -rw-------  2.0 unx      748 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/keyfile
+│ --rw-------  2.0 unx     4561 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/keystore.jks
+│ +-rw-------  2.0 unx     4563 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/keystore.jks
+│  -rw-------  2.0 unx     9784 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/logging.properties
+│  -rw-------  2.0 unx     1258 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/login.conf
+│  -rw-------  2.0 unx     1642 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/restrict.server.policy
+│  -rw-------  2.0 unx     5892 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/server.policy
+│  -rw-------  2.0 unx     5233 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/wss-server-config-1.0.xml
+│  -rw-------  2.0 unx     5737 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/wss-server-config-2.0.xml
+│  -rw-r--r--  2.0 unx     3668 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/docroot/index.html
+│  -rw-r--r--  2.0 unx     3491 b- defN 25-May-31 21:40 org/glassfish/uberjar/builder/instanceroot/InstanceRootBuilder.class
+│  -rw-r--r--  2.0 unx     4570 b- defN 25-May-31 21:40 org/glassfish/uberjar/builder/instanceroot/InstanceRootBuilderUtil.class
+│  -rw-r--r--  2.0 unx     3685 b- defN 25-May-31 21:40 META-INF/maven/org.glassfish.main.extras/instanceroot-builder/pom.xml
+│  -rw-r--r--  2.0 unx       90 b- defN 25-May-31 21:40 META-INF/maven/org.glassfish.main.extras/instanceroot-builder/pom.properties
+│ -39 files, 191325 bytes uncompressed, 52104 bytes compressed:  72.8%
+│ +39 files, 191326 bytes uncompressed, 52088 bytes compressed:  72.8%
+
+7 / 11 target/reference/org.glassfish.main.extras/instanceroot-builder-8.0.0-JDK17-M12-cyclonedx.xml appserver/extras/embedded/common/instanceroot-builder/target/bom.xml
+--- target/reference/org.glassfish.main.extras/instanceroot-builder-8.0.0-JDK17-M12-cyclonedx.xml
++++ appserver/extras/embedded/common/instanceroot-builder/target/bom.xml
+│   --- target/reference/org.glassfish.main.extras/instanceroot-builder-8.0.0-JDK17-M12-cyclonedx.xml
+├── +++ appserver/extras/embedded/common/instanceroot-builder/target/bom.xml
+│ @@ -95,22 +95,22 @@
+│        <publisher>Eclipse Foundation</publisher>
+│        <group>org.glassfish.main.distributions</group>
+│        <name>glassfish</name>
+│        <version>8.0.0-JDK17-M12</version>
+│        <description>Eclipse GlassFish Parent Project</description>
+│        <scope>required</scope>
+│        <hashes>
+│ -        <hash alg="MD5">15374b28615bc88fbdbc56f93e88d688</hash>
+│ -        <hash alg="SHA-1">ade8e987469de4e59fb863994c189855c47ca9c4</hash>
+│ -        <hash alg="SHA-256">da1ce7a323333ef01aa9b303df86dceac41e11b92aea3f74bbd8212d27941464</hash>
+│ -        <hash alg="SHA-512">fc0c162149a164620f522b970f9697cc0c26b356669f0dfda55ee6b3474cc6f353b67d130d9a8fc4a835f9e1219687f98a7bb581fa96dd120289020d430b68c5</hash>
+│ -        <hash alg="SHA-384">fe9023c5c41b6adfec6372cd9e66fe1da9ef96cef2e5f422cf65a045e7346d95e01a746034c13efa29520fdf969d971f</hash>
+│ -        <hash alg="SHA3-384">3cc2686e590980e04c5d198896f3a7831eba3672a8665bcc6aa5f7cb7306dc4a7955bc44c24915ad9272d274c2cd09a6</hash>
+│ -        <hash alg="SHA3-256">7cf8cd2cc735663aeb7f74519574c5710eeb59aa4a5309329d787c341eb3d78f</hash>
+│ -        <hash alg="SHA3-512">4738243d4785d8ec4dc594a96403f4de21e3912659e0ed70f037ad4b7b9ffb84b71a467f22f79216d0c5a59fd8a89236985dd80b7e5020bb367d20a700efe45b</hash>
+│ +        <hash alg="MD5">01a0f7aa070808b87013276db51c7cec</hash>
+│ +        <hash alg="SHA-1">239e71b64e083b3a3344dd702bbfbaabf75d2a2d</hash>
+│ +        <hash alg="SHA-256">4717db87e6e27fa60016ae5dfd572b17eae554c8a8b3796b585590329647f4e8</hash>
+│ +        <hash alg="SHA-512">f6b73669fca7e7f997074cd79c58315f8e4918b8d650531c64745def67cf28050784e80dca99f2785dd3c01ba4df899d12609fbd4a44b5144f40a2585f1fe0ad</hash>
+│ +        <hash alg="SHA-384">39ab75427b6d9695c24a3abbe5b0f020408bdc6d5d80502de491ffe596bd552891aa6c8795a814fa7105017511a1d371</hash>
+│ +        <hash alg="SHA3-384">29746af5399e61da27ce495e4e5908ff39737f08692fd7efc62555ce6d85295fde9119e249d424029e6ac9e980c4deeb</hash>
+│ +        <hash alg="SHA3-256">420fd177910b5b5a4e1f9dc3236c714cbd91dc6bb53d6d6c8f402086ef50a51e</hash>
+│ +        <hash alg="SHA3-512">e88c287c9d15b94fa6cdb3704b3689cfc29ef254ac6c0d572326d5a01a7330688ba606bbf85de201ba8c31b11f533e65bbcf88d63343e94ce7a20e47108945af</hash>
+│        </hashes>
+│        <licenses>
+│          <license>
+│            <id>EPL-2.0</id>
+│          </license>
+│          <license>
+│            <id>GPL-2.0-with-classpath-exception</id>
+
+8 / 11 target/reference/org.glassfish.main.extras/instanceroot-builder-8.0.0-JDK17-M12-cyclonedx.json appserver/extras/embedded/common/instanceroot-builder/target/bom.json
+
+9 / 11 target/reference/org.glassfish.main.distributions/web-8.0.0-JDK17-M12.zip appserver/distributions/web/target/web.zip
+--- target/reference/org.glassfish.main.distributions/web-8.0.0-JDK17-M12.zip
++++ appserver/distributions/web/target/web.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 75884708 bytes, number of entries: 1047
+│ +Zip file size: 75884669 bytes, number of entries: 1047
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-31 21:40 glassfish8/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-May-31 21:40 glassfish8/META-INF/
+│ @@ -254,31 +254,31 @@
+│  -rw-r-----  2.0 unx    31524 b- defN 25-May-31 21:40 glassfish8/glassfish/docs/quickstart.html
+│  -rw-------  2.0 unx       80 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/admin-keyfile
+│ --rw-------  2.0 unx     1982 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/cacerts.jks
+│ +-rw-------  2.0 unx     1983 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/cacerts.jks
+│  -rw-------  2.0 unx     9784 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/default-logging.properties
+│  -rw-------  2.0 unx    49333 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/default-web.xml
+│  -rw-------  2.0 unx       32 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/domain-passwords
+│  -rw-------  2.0 unx    33725 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/domain.xml
+│ --rw-------  2.0 unx     2530 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/glassfish-acc.xml
+│ +-rw-------  2.0 unx     2528 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/glassfish-acc.xml
+│  -rw-------  2.0 unx     2843 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/javaee.server.policy
+│  -rw-------  2.0 unx      748 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/keyfile
+│ --rw-------  2.0 unx     4558 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/keystore.jks
+│ +-rw-------  2.0 unx     4560 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/keystore.jks
+│  -rw-------  2.0 unx     9784 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/logging.properties
+│  -rw-------  2.0 unx     1258 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/login.conf
+│  -rw-------  2.0 unx     1642 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/restrict.server.policy
+│  -rw-------  2.0 unx     5892 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/server.policy
+│  -rw-------  2.0 unx     5233 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/wss-server-config-1.0.xml
+│  -rw-------  2.0 unx     5737 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/config/wss-server-config-2.0.xml
+│  -rw-r--r--  2.0 unx     3668 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/docroot/index.html
+│ --rw-r--r--  2.0 unx      638 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/init-info/domain-info.xml
+│ +-rw-r--r--  2.0 unx      542 b- defN 25-May-31 21:40 glassfish8/glassfish/domains/domain1/init-info/domain-info.xml
+│  -rw-r-----  2.0 unx    35084 b- defN 25-May-31 21:40 glassfish8/glassfish/legal/LICENSE.txt
+│  -rw-r-----  2.0 unx      917 b- defN 25-May-31 21:40 glassfish8/glassfish/lib/appclient/appclientlogin.conf
+│ @@ -1042,8 +1042,8 @@
+│  -rw-r-----  2.0 unx    93688 b- defN 25-May-31 21:40 glassfish8/javadb/lib/derbyshared.jar
+│  -rw-r-----  2.0 unx   264445 b- defN 25-May-31 21:40 glassfish8/javadb/lib/derbytools.jar
+│ -1047 files, 93802389 bytes uncompressed, 75686572 bytes compressed:  19.3%
+│ +1047 files, 93802294 bytes uncompressed, 75686533 bytes compressed:  19.3%
+
+10 / 11 target/reference/org.glassfish.main/glassfish-itest-tools-8.0.0-JDK17-M12-cyclonedx.xml appserver/itest-tools/target/bom.xml
+--- target/reference/org.glassfish.main/glassfish-itest-tools-8.0.0-JDK17-M12-cyclonedx.xml
++++ appserver/itest-tools/target/bom.xml
+│   --- target/reference/org.glassfish.main/glassfish-itest-tools-8.0.0-JDK17-M12-cyclonedx.xml
+├── +++ appserver/itest-tools/target/bom.xml
+│ @@ -2048,22 +2048,22 @@
+│        <publisher>Eclipse Foundation</publisher>
+│        <group>org.glassfish.main.distributions</group>
+│        <name>glassfish</name>
+│        <version>8.0.0-JDK17-M12</version>
+│        <description>Eclipse GlassFish Parent Project</description>
+│        <scope>required</scope>
+│        <hashes>
+│ -        <hash alg="MD5">15374b28615bc88fbdbc56f93e88d688</hash>
+│ -        <hash alg="SHA-1">ade8e987469de4e59fb863994c189855c47ca9c4</hash>
+│ -        <hash alg="SHA-256">da1ce7a323333ef01aa9b303df86dceac41e11b92aea3f74bbd8212d27941464</hash>
+│ -        <hash alg="SHA-512">fc0c162149a164620f522b970f9697cc0c26b356669f0dfda55ee6b3474cc6f353b67d130d9a8fc4a835f9e1219687f98a7bb581fa96dd120289020d430b68c5</hash>
+│ -        <hash alg="SHA-384">fe9023c5c41b6adfec6372cd9e66fe1da9ef96cef2e5f422cf65a045e7346d95e01a746034c13efa29520fdf969d971f</hash>
+│ -        <hash alg="SHA3-384">3cc2686e590980e04c5d198896f3a7831eba3672a8665bcc6aa5f7cb7306dc4a7955bc44c24915ad9272d274c2cd09a6</hash>
+│ -        <hash alg="SHA3-256">7cf8cd2cc735663aeb7f74519574c5710eeb59aa4a5309329d787c341eb3d78f</hash>
+│ -        <hash alg="SHA3-512">4738243d4785d8ec4dc594a96403f4de21e3912659e0ed70f037ad4b7b9ffb84b71a467f22f79216d0c5a59fd8a89236985dd80b7e5020bb367d20a700efe45b</hash>
+│ +        <hash alg="MD5">01a0f7aa070808b87013276db51c7cec</hash>
+│ +        <hash alg="SHA-1">239e71b64e083b3a3344dd702bbfbaabf75d2a2d</hash>
+│ +        <hash alg="SHA-256">4717db87e6e27fa60016ae5dfd572b17eae554c8a8b3796b585590329647f4e8</hash>
+│ +        <hash alg="SHA-512">f6b73669fca7e7f997074cd79c58315f8e4918b8d650531c64745def67cf28050784e80dca99f2785dd3c01ba4df899d12609fbd4a44b5144f40a2585f1fe0ad</hash>
+│ +        <hash alg="SHA-384">39ab75427b6d9695c24a3abbe5b0f020408bdc6d5d80502de491ffe596bd552891aa6c8795a814fa7105017511a1d371</hash>
+│ +        <hash alg="SHA3-384">29746af5399e61da27ce495e4e5908ff39737f08692fd7efc62555ce6d85295fde9119e249d424029e6ac9e980c4deeb</hash>
+│ +        <hash alg="SHA3-256">420fd177910b5b5a4e1f9dc3236c714cbd91dc6bb53d6d6c8f402086ef50a51e</hash>
+│ +        <hash alg="SHA3-512">e88c287c9d15b94fa6cdb3704b3689cfc29ef254ac6c0d572326d5a01a7330688ba606bbf85de201ba8c31b11f533e65bbcf88d63343e94ce7a20e47108945af</hash>
+│        </hashes>
+│        <licenses>
+│          <license>
+│            <id>EPL-2.0</id>
+│          </license>
+│          <license>
+│            <id>GPL-2.0-with-classpath-exception</id>
+
+11 / 11 target/reference/org.glassfish.main/glassfish-itest-tools-8.0.0-JDK17-M12-cyclonedx.json appserver/itest-tools/target/bom.json
