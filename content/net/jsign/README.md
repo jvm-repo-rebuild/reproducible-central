@@ -25,6 +25,7 @@ rebuilding **6 releases** of net.jsign:jsign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [7.3](https://central.sonatype.com/artifact/net.jsign/jsign/7.3/pom) | | | |
 | [7.2](https://central.sonatype.com/artifact/net.jsign/jsign/7.2/pom) | [mvn jdk8 w](jsign-7.2.buildspec) | [result](jsign-parent-7.2.buildinfo): [24 :white_check_mark: ](jsign-parent-7.2.buildcompare) | | 3.2M |
 | [7.1](https://central.sonatype.com/artifact/net.jsign/jsign/7.1/pom) | [mvn jdk8 w](jsign-7.1.buildspec) | [result](jsign-parent-7.1.buildinfo): [24 :white_check_mark: ](jsign-parent-7.1.buildcompare) | | 3.2M |
 | [7.0](https://central.sonatype.com/artifact/net.jsign/jsign/7.0/pom) | [mvn jdk8 w](jsign-7.0.buildspec) | [result](jsign-parent-7.0.buildinfo): [22 :white_check_mark:  2 :warning:](jsign-parent-7.0.buildcompare) [:mag:](jsign-parent-7.0.diffoscope) | - | 3.2M |
