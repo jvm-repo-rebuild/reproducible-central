@@ -7,8 +7,9 @@
 
 Source code: [https://github.com/jdbi/jdbi.git](https://github.com/jdbi/jdbi.git)
 
-<details><summary>This project defines 34 modules:</summary>
+<details><summary>This project defines 35 modules:</summary>
 
+* [org.jdbi.internal.basepom:jdbi-basepom](https://central.sonatype.com/artifact/org.jdbi.internal.basepom/jdbi-basepom/overview)
 * [org.jdbi.internal:jdbi3-parent](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-parent/overview)
 * [org.jdbi.internal:jdbi3-policy](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-policy/overview)
 * [org.jdbi.internal:jdbi3-root](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/overview)
@@ -45,13 +46,13 @@ Source code: [https://github.com/jdbi/jdbi.git](https://github.com/jdbi/jdbi.git
 * [org.jdbi:jdbi3-vavr](https://central.sonatype.com/artifact/org.jdbi/jdbi3-vavr/overview)
 </details>
 
-rebuilding **14 releases** of org.jdbi.internal:jdbi3-root:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **15 releases** of org.jdbi.internal:jdbi3-root:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.49.6](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.49.6/pom) | | | |
+| [3.49.6](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.49.6/pom) | [mvn jdk21](jdbi3-root-3.49.6.buildspec) | [result](jdbi3-parent-3.49.6.buildinfo): [152 :white_check_mark: ](jdbi3-parent-3.49.6.buildcompare) | | 5.9M |
 | [3.49.5](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.49.5/pom) | [mvn jdk23](jdbi3-root-3.49.5.buildspec) | [result](jdbi3-parent-3.49.5.buildinfo): [151 :white_check_mark: ](jdbi3-parent-3.49.5.buildcompare) | | 5.7M |
 | [3.49.4](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.49.4/pom) | [mvn jdk21](jdbi3-root-3.49.4.buildspec) | [result](jdbi3-parent-3.49.4.buildinfo): [151 :white_check_mark: ](jdbi3-parent-3.49.4.buildcompare) | | 5.7M |
 | [3.49.3](https://central.sonatype.com/artifact/org.jdbi.internal/jdbi3-root/3.49.3/pom) | [mvn jdk21](jdbi3-root-3.49.3.buildspec) | [result](jdbi3-parent-3.49.3.buildinfo): [211 :white_check_mark:  4 :warning:](jdbi3-parent-3.49.3.buildcompare) | - | 7.2M |
