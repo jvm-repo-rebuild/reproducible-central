@@ -66,13 +66,20 @@ mvnBuildDocker() {
 
   [ "${workdir}" = "" ] && workdir="/var/maven/app"
 
+  # Check whether SELinux is enabled
+  local SELINUX_FLAG=""
+  if command -v getenforce >/dev/null 2>&1 && [ "$(getenforce 2>/dev/null)" = "Enforcing" ]
+  then
+    SELINUX_FLAG=":z"
+  fi
+
   local engine_command="$RB_OCI_ENGINE run --name rebuild-central $([ "$CI" != true ] && echo "-it ")--rm\
     ${RB_OCI_ENGINE_RUN_OPTS}\
-    -v $PWD:${workdir}${RB_OCI_VOLUME_FLAGS}\
-    -v $base/m2:/var/maven/.m2${RB_OCI_VOLUME_FLAGS}\
-    -v $base/.sbt:/var/maven/.sbt${RB_OCI_VOLUME_FLAGS}\
-    -v $base/.npm:/.npm${RB_OCI_VOLUME_FLAGS}\
-    -v $base/.bnd:/.bnd${RB_OCI_VOLUME_FLAGS}\
+    -v $PWD:${workdir}${RB_OCI_VOLUME_FLAGS}:z\
+    -v $base/m2:/var/maven/.m2${RB_OCI_VOLUME_FLAGS}${SELINUX_FLAG}\
+    -v $base/.sbt:/var/maven/.sbt${RB_OCI_VOLUME_FLAGS}${SELINUX_FLAG}\
+    -v $base/.npm:/.npm${RB_OCI_VOLUME_FLAGS}${SELINUX_FLAG}\
+    -v $base/.bnd:/.bnd${RB_OCI_VOLUME_FLAGS}${SELINUX_FLAG}\
     -u $USER_ID:$GROUP_ID\
     -e MAVEN_CONFIG=/var/maven/.m2\
     -e MVN_UMASK=${MVN_UMASK}\
