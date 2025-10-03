@@ -1,0 +1,23 @@
+groupId=org.glassfish.main
+artifactId=glassfish-parent
+version=7.1.0-M1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/eclipse-ee4j/glassfish.git
+gitTag=${version}
+
+tool=mvn-3.9.11
+jdk=21
+newline=lf
+umask=022
+
+# export LC_ALL=C
+# ignore https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/glassfish/main/glassfish-main-aggregator-8.0.0-JDK17-M12.diffoscope
+command="mvn package -Poss-release,fastest -DskipTests -Dmaven.javadoc.skip -Djavadoc.skip -Dgpg.skip -Dbuildinfo.ignore='org.glassfish.main.distributions/*.zip,org.glassfish.main.extras/installroot-builder-*-cyclonedx.*,org.glassfish.main.extras/instanceroot-builder-*-cyclonedx.*,org.glassfish.main.extras/instanceroot-builder-*.jar,org.glassfish.main/glassfish-itest-tools-*-cyclonedx.*' -Dbuildinfo.detect.skip=false -Dbuildinfo.skipModules='org.glassfish.main.tests*/*,*/glassfish-qa-config,*/glassfish-main-aggregator'"
+execBefore="mvn -q clean ; find . -type d -exec chmod g+s {} \;"
+
+buildinfo=target/glassfish-main-aggregator-${version}.buildinfo
+
+#diffoscope=glassfish-main-aggregator-${version}.diffoscope
+issue=
