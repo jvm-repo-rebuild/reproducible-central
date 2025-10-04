@@ -13,7 +13,8 @@ newline=lf
 umask=022
 
 # export LC_ALL=C
-command="mvn package -Poss-release,fastest -DskipTests -Dmaven.javadoc.skip -Djavadoc.skip -Dgpg.skip"
+# ignore https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/glassfish/main/glassfish-main-aggregator-8.0.0-JDK17-M12.diffoscope
+command="mvn package -Poss-release,fastest -DskipTests -Dmaven.javadoc.skip -Djavadoc.skip -Dgpg.skip -Dbuildinfo.ignore='org.glassfish.main.distributions/*.zip,org.glassfish.main.extras/installroot-builder-*-cyclonedx.*,org.glassfish.main.extras/instanceroot-builder-*-cyclonedx.*,org.glassfish.main.extras/instanceroot-builder-*.jar,org.glassfish.main/glassfish-itest-tools-*-cyclonedx.*'"
 execBefore="mvn -q clean ; find . -type d -exec chmod g+s {} \;"
 
 buildinfo=target/glassfish-main-aggregator-${version}.buildinfo

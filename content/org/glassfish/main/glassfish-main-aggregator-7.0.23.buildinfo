@@ -14,9 +14,12 @@ source.scm.tag=HEAD
 build-tool=mvn
 
 # effective build environment information
-java.version=17.0.14
-java.vendor=Eclipse Adoptium
+java.version=17.0.16
+java.vendor=Ubuntu
 os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
 
 # Maven rebuild instructions and effective environment
 mvn.version=3.9.9
@@ -2387,26 +2390,22 @@ outputs.96.0.groupId=org.glassfish.main.distributions
 outputs.96.0.filename=nucleus-common-7.0.23.pom
 outputs.96.0.length=2532
 outputs.96.0.checksums.sha512=255097a841814d6a8dbffd7b06c567fad4a5102cab0d369345b9d2df2e112edbfc21c9817e1b3fc146b4d0825a1da92f2f45678e42ad9ed0a145e4666de1131d
+# ignored nucleus-common-7.0.23.zip
 
 outputs.96.1.groupId=org.glassfish.main.distributions
-outputs.96.1.filename=nucleus-common-7.0.23.zip
-outputs.96.1.length=44396
-outputs.96.1.checksums.sha512=cf767908b7d9c9649214cd2dff21f78be3b07e23ab5befa59df39f13c945aed921109a2266e09fb65dd98807619c8d1eabc1f823e12a3184bd409443baed330d
+outputs.96.1.filename=nucleus-common-7.0.23-cyclonedx.xml
+outputs.96.1.length=3203
+outputs.96.1.checksums.sha512=5c4ec2e152f1149dbca65d7476b6f549c27c921e4e011cac5bca2890896cc9d31478c0fed04f7aac26c8efafdbe9d7d2908ad356b1764fa6ba6cf9a8e6606bc9
 
 outputs.96.2.groupId=org.glassfish.main.distributions
-outputs.96.2.filename=nucleus-common-7.0.23-cyclonedx.xml
-outputs.96.2.length=3203
-outputs.96.2.checksums.sha512=5c4ec2e152f1149dbca65d7476b6f549c27c921e4e011cac5bca2890896cc9d31478c0fed04f7aac26c8efafdbe9d7d2908ad356b1764fa6ba6cf9a8e6606bc9
+outputs.96.2.filename=nucleus-common-7.0.23-cyclonedx.json
+outputs.96.2.length=3569
+outputs.96.2.checksums.sha512=a9253ab41899651f3d63785e43589c9c4213df80068503043748e8ead815db2127d10661675d673d9a8e90d227fcb8a46b97c5719535e488d75cbc84a8e996b7
 
 outputs.96.3.groupId=org.glassfish.main.distributions
-outputs.96.3.filename=nucleus-common-7.0.23-cyclonedx.json
-outputs.96.3.length=3569
-outputs.96.3.checksums.sha512=a9253ab41899651f3d63785e43589c9c4213df80068503043748e8ead815db2127d10661675d673d9a8e90d227fcb8a46b97c5719535e488d75cbc84a8e996b7
-
-outputs.96.4.groupId=org.glassfish.main.distributions
-outputs.96.4.filename=nucleus-common-7.0.23-sources.jar
-outputs.96.4.length=58948
-outputs.96.4.checksums.sha512=ab49b2284141ec1b79c103d12768d6b9867d5cbfd62bb4174c17f1b9aea9cc40f4d85da6c4f7d8b7e51b5639bb0f4025dedd03160bd6fd6e45c049401a492a43
+outputs.96.3.filename=nucleus-common-7.0.23-sources.jar
+outputs.96.3.length=58948
+outputs.96.3.checksums.sha512=ab49b2284141ec1b79c103d12768d6b9867d5cbfd62bb4174c17f1b9aea9cc40f4d85da6c4f7d8b7e51b5639bb0f4025dedd03160bd6fd6e45c049401a492a43
 
 outputs.97.coordinates=org.glassfish.main.jackson.module:jackson-module-jakarta-xmlbind-annotations
 
@@ -2480,26 +2479,22 @@ outputs.100.0.groupId=org.glassfish.main.distributions
 outputs.100.0.filename=atomic-7.0.23.pom
 outputs.100.0.length=2293
 outputs.100.0.checksums.sha512=0fae10e4172e7a0710b7f4071fd62e935d3b6d7e972f7dc12bf2f8bdb1aa15e899ebe738b747ba21d6a95695d9f946bfd51ef382aac361020aae87e8826ba99d
+# ignored atomic-7.0.23.zip
 
 outputs.100.1.groupId=org.glassfish.main.distributions
-outputs.100.1.filename=atomic-7.0.23.zip
-outputs.100.1.length=23090993
-outputs.100.1.checksums.sha512=470040fdd7ca47498caad6e4fab93e315e4998d334754bc35dd3acbaecdba3f08a358e31f076925751e3c33853e2a2eda7797b50dc58638dc70a25120c2dd374
+outputs.100.1.filename=atomic-7.0.23-cyclonedx.xml
+outputs.100.1.length=254209
+outputs.100.1.checksums.sha512=2ae45b12b5d271fa415b58664e12941351d5c9719e67ef51a6592ebf7fe73c6622862d3051029c7fb22adb616e49646a9ae42b64d238b841e2b98dcbfd437d9d
 
 outputs.100.2.groupId=org.glassfish.main.distributions
-outputs.100.2.filename=atomic-7.0.23-cyclonedx.xml
-outputs.100.2.length=254209
-outputs.100.2.checksums.sha512=2ae45b12b5d271fa415b58664e12941351d5c9719e67ef51a6592ebf7fe73c6622862d3051029c7fb22adb616e49646a9ae42b64d238b841e2b98dcbfd437d9d
+outputs.100.2.filename=atomic-7.0.23-cyclonedx.json
+outputs.100.2.length=283605
+outputs.100.2.checksums.sha512=1c780ae067e73f20ba758b4cc6ce7036a209fc0f724061d56cc0c704b2d1c8f2dfc9ac88281f8e89a5118013c141f87c238ccf40e845598b1be515d85f30fbcb
 
 outputs.100.3.groupId=org.glassfish.main.distributions
-outputs.100.3.filename=atomic-7.0.23-cyclonedx.json
-outputs.100.3.length=283605
-outputs.100.3.checksums.sha512=1c780ae067e73f20ba758b4cc6ce7036a209fc0f724061d56cc0c704b2d1c8f2dfc9ac88281f8e89a5118013c141f87c238ccf40e845598b1be515d85f30fbcb
-
-outputs.100.4.groupId=org.glassfish.main.distributions
-outputs.100.4.filename=atomic-7.0.23-sources.jar
-outputs.100.4.length=16542
-outputs.100.4.checksums.sha512=e510b45286edfabd8ecea07eb5ba86fa4a8e6f12770d5ae10ab0a1125cb53c0570a3f9858a1cc2ce9bf41cb14b0ea34e1b8ea3040080b4e8e89817d3d4a91872
+outputs.100.3.filename=atomic-7.0.23-sources.jar
+outputs.100.3.length=16542
+outputs.100.3.checksums.sha512=e510b45286edfabd8ecea07eb5ba86fa4a8e6f12770d5ae10ab0a1125cb53c0570a3f9858a1cc2ce9bf41cb14b0ea34e1b8ea3040080b4e8e89817d3d4a91872
 
 outputs.101.coordinates=org.glassfish.main.extras:nucleus-extras
 
@@ -2568,26 +2563,22 @@ outputs.104.0.groupId=org.glassfish.main.distributions
 outputs.104.0.filename=nucleus-new-7.0.23.pom
 outputs.104.0.length=2290
 outputs.104.0.checksums.sha512=4abb429e28ed1b0b9bc66a1ef9e5050c5aba23040b0c535223c6268e3c99154ed095ddb831423524dbb5e5fb658ec7484bf44fb9f111554dcca31fc7885d06c7
+# ignored nucleus-new-7.0.23.zip
 
 outputs.104.1.groupId=org.glassfish.main.distributions
-outputs.104.1.filename=nucleus-new-7.0.23.zip
-outputs.104.1.length=27140234
-outputs.104.1.checksums.sha512=0d8730339e2f7560d11b1756b902d8f3173fd571ba2e43cf2bae20792bcc8a2404c2248155795a43f4df0081d6925e93194a2489059eb8b53a439f824378d746
+outputs.104.1.filename=nucleus-new-7.0.23-cyclonedx.xml
+outputs.104.1.length=314864
+outputs.104.1.checksums.sha512=0e0be236b5ab674932d8d84d97a18c27a8efd5b366346ccb61c04f5176400ac923db41b7c3cbd7851d95399c12ce2f74d0ba75e4e1f830e216b8f3ff5ebdee29
 
 outputs.104.2.groupId=org.glassfish.main.distributions
-outputs.104.2.filename=nucleus-new-7.0.23-cyclonedx.xml
-outputs.104.2.length=314864
-outputs.104.2.checksums.sha512=0e0be236b5ab674932d8d84d97a18c27a8efd5b366346ccb61c04f5176400ac923db41b7c3cbd7851d95399c12ce2f74d0ba75e4e1f830e216b8f3ff5ebdee29
+outputs.104.2.filename=nucleus-new-7.0.23-cyclonedx.json
+outputs.104.2.length=351150
+outputs.104.2.checksums.sha512=d696771a3f18c172abc5cef5e74e7ed7a2a20d1a3bc445b93d1745e6e7b76d161bb209e2cdcc9f7e8fa0eefa8a277d4256aa567e8c2c360c150b6c74291b5fce
 
 outputs.104.3.groupId=org.glassfish.main.distributions
-outputs.104.3.filename=nucleus-new-7.0.23-cyclonedx.json
-outputs.104.3.length=351150
-outputs.104.3.checksums.sha512=d696771a3f18c172abc5cef5e74e7ed7a2a20d1a3bc445b93d1745e6e7b76d161bb209e2cdcc9f7e8fa0eefa8a277d4256aa567e8c2c360c150b6c74291b5fce
-
-outputs.104.4.groupId=org.glassfish.main.distributions
-outputs.104.4.filename=nucleus-new-7.0.23-sources.jar
-outputs.104.4.length=16571
-outputs.104.4.checksums.sha512=258ef686522ac066cfb0245c71d4c18a087a96ad08f9a6930c12423883b6bc1f95ab8eaaeaa62f92b6cdb84cfcb4556165261dcdfa1e9cd662ffa83980bb0c3c
+outputs.104.3.filename=nucleus-new-7.0.23-sources.jar
+outputs.104.3.length=16571
+outputs.104.3.checksums.sha512=258ef686522ac066cfb0245c71d4c18a087a96ad08f9a6930c12423883b6bc1f95ab8eaaeaa62f92b6cdb84cfcb4556165261dcdfa1e9cd662ffa83980bb0c3c
 
 outputs.105.coordinates=org.glassfish.main.diagnostics:nucleus-diagnostics
 
@@ -6556,26 +6547,22 @@ outputs.263.0.groupId=org.glassfish.main.distributions
 outputs.263.0.filename=glassfish-common-7.0.23.pom
 outputs.263.0.length=3228
 outputs.263.0.checksums.sha512=02db330b455e7e325a40889621def3a1fc2833b44d1b969c0e68757da2a5aa05f84bace73bc699fd7ab3accd49a92d9feff59cc43ee01c0885e81d563e6de06c
+# ignored glassfish-common-7.0.23.zip
 
 outputs.263.1.groupId=org.glassfish.main.distributions
-outputs.263.1.filename=glassfish-common-7.0.23.zip
-outputs.263.1.length=79577
-outputs.263.1.checksums.sha512=77b4c9533154df49dfde1ff5e35b1b1278fbf0cfff38b0335e68bbb7eca2d2f82ca017c4aae6de95944e90e20a156c2730ea58c6c12395825dd8219c750bbb5d
+outputs.263.1.filename=glassfish-common-7.0.23-cyclonedx.xml
+outputs.263.1.length=5878
+outputs.263.1.checksums.sha512=5c2ec9f431270904280c9dc1d589df216b636d4635066e22f4fd5c5f110b0670ae56d74608ae88c581ed665bb8ed66c2262d6e4aa8ce5f9657afb52e12cf5ca5
 
 outputs.263.2.groupId=org.glassfish.main.distributions
-outputs.263.2.filename=glassfish-common-7.0.23-cyclonedx.xml
-outputs.263.2.length=5878
-outputs.263.2.checksums.sha512=5c2ec9f431270904280c9dc1d589df216b636d4635066e22f4fd5c5f110b0670ae56d74608ae88c581ed665bb8ed66c2262d6e4aa8ce5f9657afb52e12cf5ca5
+outputs.263.2.filename=glassfish-common-7.0.23-cyclonedx.json
+outputs.263.2.length=6516
+outputs.263.2.checksums.sha512=fee048be24107e2a9c916b65a847fd375994a8f767c555787f841c22621349732975fcc86a766b0b130f32eaf8f12196ae19508a3d5cca51d85b467f4a7fe677
 
 outputs.263.3.groupId=org.glassfish.main.distributions
-outputs.263.3.filename=glassfish-common-7.0.23-cyclonedx.json
-outputs.263.3.length=6516
-outputs.263.3.checksums.sha512=fee048be24107e2a9c916b65a847fd375994a8f767c555787f841c22621349732975fcc86a766b0b130f32eaf8f12196ae19508a3d5cca51d85b467f4a7fe677
-
-outputs.263.4.groupId=org.glassfish.main.distributions
-outputs.263.4.filename=glassfish-common-7.0.23-sources.jar
-outputs.263.4.length=38694
-outputs.263.4.checksums.sha512=eb476e9c9aa48ea3598d8e7b24c977d7c163b21e868d3a7c06ca20f26e69da24877c80629847c59ffe628746aced714a3881534d7fe57badf9dbf6f887600123
+outputs.263.3.filename=glassfish-common-7.0.23-sources.jar
+outputs.263.3.length=38694
+outputs.263.3.checksums.sha512=eb476e9c9aa48ea3598d8e7b24c977d7c163b21e868d3a7c06ca20f26e69da24877c80629847c59ffe628746aced714a3881534d7fe57badf9dbf6f887600123
 
 outputs.264.coordinates=org.glassfish.main.distributions:glassfish
 
@@ -6583,26 +6570,22 @@ outputs.264.0.groupId=org.glassfish.main.distributions
 outputs.264.0.filename=glassfish-7.0.23.pom
 outputs.264.0.length=7510
 outputs.264.0.checksums.sha512=c660bdb01010c64e27a767e6edb82cfe27674f3310fdc35388c0684e7729bf8a09d17f569753229e6b15b2d2beeecdf47411bbc13393460d192954ae4d8b41a5
+# ignored glassfish-7.0.23.zip
 
 outputs.264.1.groupId=org.glassfish.main.distributions
-outputs.264.1.filename=glassfish-7.0.23.zip
-outputs.264.1.length=121257882
-outputs.264.1.checksums.sha512=e8520ccdd046d27f31f4fe0aec29d062a1f7a289c14bc62ba000a1174d93f479024d3437be989584eaa6b04eb30ca4dd91b1ccf06cd15a09494110095bc4cb68
+outputs.264.1.filename=glassfish-7.0.23-cyclonedx.xml
+outputs.264.1.length=951889
+outputs.264.1.checksums.sha512=49f9f38ed1ff6eade33ae7856fadc8713d10c0c6ef09f59c082ffb7af4c6ffb170ef8f903026a9c1112f5b145a5c80be9f93f69c9f4f107f294d5ebf23fa919f
 
 outputs.264.2.groupId=org.glassfish.main.distributions
-outputs.264.2.filename=glassfish-7.0.23-cyclonedx.xml
-outputs.264.2.length=951889
-outputs.264.2.checksums.sha512=49f9f38ed1ff6eade33ae7856fadc8713d10c0c6ef09f59c082ffb7af4c6ffb170ef8f903026a9c1112f5b145a5c80be9f93f69c9f4f107f294d5ebf23fa919f
+outputs.264.2.filename=glassfish-7.0.23-cyclonedx.json
+outputs.264.2.length=1055472
+outputs.264.2.checksums.sha512=777d0a6651661cbfd89e9b03bcc75c8952cf4bfe7a7cdc7a21c659ce785447b94db2b6370a9dc81c2747f412a70738dfea97ca523c97e59040f39364cdc60ab8
 
 outputs.264.3.groupId=org.glassfish.main.distributions
-outputs.264.3.filename=glassfish-7.0.23-cyclonedx.json
-outputs.264.3.length=1055472
-outputs.264.3.checksums.sha512=777d0a6651661cbfd89e9b03bcc75c8952cf4bfe7a7cdc7a21c659ce785447b94db2b6370a9dc81c2747f412a70738dfea97ca523c97e59040f39364cdc60ab8
-
-outputs.264.4.groupId=org.glassfish.main.distributions
-outputs.264.4.filename=glassfish-7.0.23-sources.jar
-outputs.264.4.length=18209
-outputs.264.4.checksums.sha512=a766d0379123254f10ecdd0a96972872c5260ae03a9fc1405dc160dd3c63d023dfe21866427496e325b28a59b3062d6dc7b6913c10cbecc626314c47993b7ecc
+outputs.264.3.filename=glassfish-7.0.23-sources.jar
+outputs.264.3.length=18209
+outputs.264.3.checksums.sha512=a766d0379123254f10ecdd0a96972872c5260ae03a9fc1405dc160dd3c63d023dfe21866427496e325b28a59b3062d6dc7b6913c10cbecc626314c47993b7ecc
 
 outputs.265.coordinates=org.glassfish.main.extras:glassfish-embedded-common
 
@@ -6632,21 +6615,13 @@ outputs.266.1.groupId=org.glassfish.main.extras
 outputs.266.1.filename=installroot-builder-7.0.23.jar
 outputs.266.1.length=16207634
 outputs.266.1.checksums.sha512=c091ab8344b557a597ed9cf884a9a33628dac9169f73cb31198c1215be39f6a4fb5623ba54c2df1ca6deaae6ac5ce05488e0aad4ebb5189e0bde6e6cd049a541
+# ignored installroot-builder-7.0.23-cyclonedx.xml
+# ignored installroot-builder-7.0.23-cyclonedx.json
 
 outputs.266.2.groupId=org.glassfish.main.extras
-outputs.266.2.filename=installroot-builder-7.0.23-cyclonedx.xml
-outputs.266.2.length=7765
-outputs.266.2.checksums.sha512=a6905de504bcbfeb91e2c82bea02ec88b8979e99e20063c692e092ce83e0c48b0ba31b2b2f28adf891a088426a5966c3154d7e393d73e01e19ce1d7255097b6d
-
-outputs.266.3.groupId=org.glassfish.main.extras
-outputs.266.3.filename=installroot-builder-7.0.23-cyclonedx.json
-outputs.266.3.length=8693
-outputs.266.3.checksums.sha512=1779d30f2bd7a036f2b0de198d91412f3bf2fa79b82a05349f9edde1ba687e1ab5353e4b0df63d5314f9d3ddc0c2a8813256fbc68dcbfaf61e3207b80328713c
-
-outputs.266.4.groupId=org.glassfish.main.extras
-outputs.266.4.filename=installroot-builder-7.0.23-sources.jar
-outputs.266.4.length=20410
-outputs.266.4.checksums.sha512=b21d76e22810006d9c59dfb4205bc58512bbd33d3bec4b340e0e1a05695bc5f0fc0c5b54af72f1c5e6f43f7d998503e357079b9f2e39a033bf90aa37c39ed5d4
+outputs.266.2.filename=installroot-builder-7.0.23-sources.jar
+outputs.266.2.length=20410
+outputs.266.2.checksums.sha512=b21d76e22810006d9c59dfb4205bc58512bbd33d3bec4b340e0e1a05695bc5f0fc0c5b54af72f1c5e6f43f7d998503e357079b9f2e39a033bf90aa37c39ed5d4
 
 outputs.267.coordinates=org.glassfish.main.extras:instanceroot-builder
 
@@ -6654,26 +6629,10 @@ outputs.267.0.groupId=org.glassfish.main.extras
 outputs.267.0.filename=instanceroot-builder-7.0.23.pom
 outputs.267.0.length=3676
 outputs.267.0.checksums.sha512=d2bc7d924671df1c51f2f65f5de4d6445789c8096258a8a78515ebdf3421a8d0132d78c0513e15911789af0190f7d0ad7a248c3980a680c57da020d880f6fac2
-
-outputs.267.1.groupId=org.glassfish.main.extras
-outputs.267.1.filename=instanceroot-builder-7.0.23.jar
-outputs.267.1.length=58612
-outputs.267.1.checksums.sha512=52a37df9e27b03982adeedb34a515a6d116beb148d84cf96c30fe4bafea5586301f3ee43e4837642597a768eab17ba600fd90b32eff975bcc2893dedfc6f27d1
-
-outputs.267.2.groupId=org.glassfish.main.extras
-outputs.267.2.filename=instanceroot-builder-7.0.23-cyclonedx.xml
-outputs.267.2.length=7771
-outputs.267.2.checksums.sha512=2ad05076acc042f3ced56332370813621ad804e05fc012fe0022889aeabd3ee293d3855c18c46ec548b2f60c51191b366f6563e0e27635ab3eec85880427d7ee
-
-outputs.267.3.groupId=org.glassfish.main.extras
-outputs.267.3.filename=instanceroot-builder-7.0.23-cyclonedx.json
-outputs.267.3.length=8699
-outputs.267.3.checksums.sha512=5f4d5a01f5cf2fe90b111181bf17db807f5d0da292fc1699c9e798c011a1fbad1b56e1c29a10e9f3e87d4006385fbd34acd494127f2147c585f3571e88da2b9c
-
-outputs.267.4.groupId=org.glassfish.main.extras
-outputs.267.4.filename=instanceroot-builder-7.0.23-sources.jar
-outputs.267.4.length=20566
-outputs.267.4.checksums.sha512=7c49bc3822843188b1b84ea14efc60bae2d08dac5834ee718260dea0a314cd4a35f99e7ea00a285ab6d48e1455f10ee605b5a8774c37482e4dfe38116aab9428
+# ignored instanceroot-builder-7.0.23.jar
+# ignored instanceroot-builder-7.0.23-cyclonedx.xml
+# ignored instanceroot-builder-7.0.23-cyclonedx.json
+# ignored instanceroot-builder-7.0.23-sources.jar
 
 outputs.268.coordinates=org.glassfish.main.extras:osgi-modules-uninstaller
 
@@ -6985,26 +6944,22 @@ outputs.280.0.groupId=org.glassfish.main.distributions
 outputs.280.0.filename=web-7.0.23.pom
 outputs.280.0.length=5652
 outputs.280.0.checksums.sha512=d7524efaa9d5d540d89b94a4471833276a23aa5d22a46a616e24d290783bd8012c21f2cc3d4ff92452dc13b46f0e30a41027001318445ebc3bc7cbb4d3d54675
+# ignored web-7.0.23.zip
 
 outputs.280.1.groupId=org.glassfish.main.distributions
-outputs.280.1.filename=web-7.0.23.zip
-outputs.280.1.length=74313269
-outputs.280.1.checksums.sha512=7e99223a8614f68d56286e5f12934f84222ec6bbfc64b32b910e5b7149ef9ddb54feaa98fa9a2f027aa13162fce70fdc19a7a7a5bbb75e945046a78ae23a8bf8
+outputs.280.1.filename=web-7.0.23-cyclonedx.xml
+outputs.280.1.length=765599
+outputs.280.1.checksums.sha512=803bc28fee53d9612a20a2ed71698a3f7b53b5301b570b1fcf422f12d34b8c7c7e09049ea1a74e63a8b02065766b967c5f71b57851aa27d61c82532cedbb6091
 
 outputs.280.2.groupId=org.glassfish.main.distributions
-outputs.280.2.filename=web-7.0.23-cyclonedx.xml
-outputs.280.2.length=765599
-outputs.280.2.checksums.sha512=803bc28fee53d9612a20a2ed71698a3f7b53b5301b570b1fcf422f12d34b8c7c7e09049ea1a74e63a8b02065766b967c5f71b57851aa27d61c82532cedbb6091
+outputs.280.2.filename=web-7.0.23-cyclonedx.json
+outputs.280.2.length=851181
+outputs.280.2.checksums.sha512=e280b7f6f4da8e9a4e9a0db8e455db5289f1dd4d470dcdb2d173e00d23c706a82272f3764b58b31dd20e683f5fc70aafb214e061b202227d67da90e90c103e17
 
 outputs.280.3.groupId=org.glassfish.main.distributions
-outputs.280.3.filename=web-7.0.23-cyclonedx.json
-outputs.280.3.length=851181
-outputs.280.3.checksums.sha512=e280b7f6f4da8e9a4e9a0db8e455db5289f1dd4d470dcdb2d173e00d23c706a82272f3764b58b31dd20e683f5fc70aafb214e061b202227d67da90e90c103e17
-
-outputs.280.4.groupId=org.glassfish.main.distributions
-outputs.280.4.filename=web-7.0.23-sources.jar
-outputs.280.4.length=17607
-outputs.280.4.checksums.sha512=9705bf1d09deca4968c91e745faba4a66a7c65cd8a2d0186e922fda9a30db20ee2d485f52fba43a8404a2e9c247bb6dfa8cda79f58207d1b9711a582f91393e9
+outputs.280.3.filename=web-7.0.23-sources.jar
+outputs.280.3.length=17607
+outputs.280.3.checksums.sha512=9705bf1d09deca4968c91e745faba4a66a7c65cd8a2d0186e922fda9a30db20ee2d485f52fba43a8404a2e9c247bb6dfa8cda79f58207d1b9711a582f91393e9
 
 outputs.281.coordinates=org.glassfish.main.security:security-all
 
@@ -7149,21 +7104,13 @@ outputs.287.1.groupId=org.glassfish.main
 outputs.287.1.filename=glassfish-itest-tools-7.0.23.jar
 outputs.287.1.length=61732
 outputs.287.1.checksums.sha512=3936f4cb5e8f61136d3ec68734c23d12f9d053abfb87d83806a190ae02f0995954512c4c459c17532817cfeac92bd1f091cd5ad66c5e89c4227ec0d194ecee10
+# ignored glassfish-itest-tools-7.0.23-cyclonedx.xml
+# ignored glassfish-itest-tools-7.0.23-cyclonedx.json
 
 outputs.287.2.groupId=org.glassfish.main
-outputs.287.2.filename=glassfish-itest-tools-7.0.23-cyclonedx.xml
-outputs.287.2.length=267735
-outputs.287.2.checksums.sha512=43704d735601906d12e878cbcae24fcb8817d3a5755189dc172d27183145bbab26f2b6e7d4363a0a24fc2982e371fdc9c9ced6de5f141721e72bfde067d4c199
-
-outputs.287.3.groupId=org.glassfish.main
-outputs.287.3.filename=glassfish-itest-tools-7.0.23-cyclonedx.json
-outputs.287.3.length=293830
-outputs.287.3.checksums.sha512=27a59efd3b03c10cd867f1985fbd27416201a2e7da499107bfff8fbc710da58fcafd8fee4bfdcc47ca7cacee357daee3de78a0a5536f4b772ff634dc0ed036da
-
-outputs.287.4.groupId=org.glassfish.main
-outputs.287.4.filename=glassfish-itest-tools-7.0.23-sources.jar
-outputs.287.4.length=45547
-outputs.287.4.checksums.sha512=a338357f3a15fc8e42843ce3f7e72d76c5b441fd7a2b0ccd8fa4cf0b90491d8f30102785fd77bb9efba490029f2b4a881290e55a6a4206ea88083608dd3ebdf6
+outputs.287.2.filename=glassfish-itest-tools-7.0.23-sources.jar
+outputs.287.2.length=45547
+outputs.287.2.checksums.sha512=a338357f3a15fc8e42843ce3f7e72d76c5b441fd7a2b0ccd8fa4cf0b90491d8f30102785fd77bb9efba490029f2b4a881290e55a6a4206ea88083608dd3ebdf6
 
 outputs.288.coordinates=org.glassfish.main:ant-tasks
 
