@@ -1,0 +1,17 @@
+version=10
+ok=22
+ko=2
+ignored=2
+okFiles="flowlogix-10.pom flowlogix-10-build.pom flowlogix-bom-10.pom flowlogix-bom-10-build.pom flowlogix-bom-10-cyclonedx.xml flowlogix-bom-10-cyclonedx.json jakarta-ee-10.pom jakarta-ee-10-build.pom jakarta-ee-10-cyclonedx.xml jakarta-ee-10-cyclonedx.json flowlogix-jee-10.pom flowlogix-jee-10-build.pom flowlogix-jee-10.jar flowlogix-jee-10-sources.jar flowlogix-jee-10-cyclonedx.xml flowlogix-jee-10-cyclonedx.json flowlogix-jee-10-tests.jar flowlogix-datamodel-10.pom flowlogix-datamodel-10-build.pom flowlogix-datamodel-10.jar flowlogix-datamodel-10-sources.jar flowlogix-datamodel-10-tests.jar"
+koFiles="flowlogix-datamodel-10-cyclonedx.xml flowlogix-datamodel-10-cyclonedx.json"
+ignoredFiles="flowlogix-10-cyclonedx.xml flowlogix-10-cyclonedx.json"
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.flowlogix/flowlogix-datamodel-10-cyclonedx.xml jakarta-ee/flowlogix-datamodel/target/bom.xml
+# diffoscope target/reference/com.flowlogix/flowlogix-datamodel-10-cyclonedx.json jakarta-ee/flowlogix-datamodel/target/bom.json
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=2
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="flowlogix-datamodel-10-cyclonedx.xml flowlogix-datamodel-10-cyclonedx.json"
