@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson-core
+group-id=tools.jackson.core
+artifact-id=jackson-core
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/FasterXML/jackson-core.git
+source.scm.tag=jackson-core-3.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=tools.jackson.core
+outputs.0.filename=jackson-core-3.0.0.pom
+outputs.0.length=10080
+outputs.0.checksums.sha512=b6f0cc954ea53fb280d50b7eaaae0c31c3750e00b3948548b8205114ce4939fad838eed2f325b904a23f9b5ec25c090e8ddb12fcacf0b85a06427ed08de32ae4
+
+outputs.1.groupId=tools.jackson.core
+outputs.1.filename=jackson-core-3.0.0.jar
+outputs.1.length=592631
+outputs.1.checksums.sha512=018f2609b1fe02b7a1c0231e84d4b02e47e5afbe4081207c71127aae724ee13595d93d9c0115bd5f9095166e31a89aa216e411a434db3e37016a05b007b100e0
+
+outputs.2.groupId=tools.jackson.core
+outputs.2.filename=jackson-core-3.0.0.module
+outputs.2.length=2395
+outputs.2.checksums.sha512=dc9b3954da50c4a8b48c6e767b6a5f1eb26db2f14230eff771ccba96f44349544d24b91003f40286263e2cc971f12bed3b3b22ec362d48dc82e9ed93bd6621be
+
+outputs.3.groupId=tools.jackson.core
+outputs.3.filename=jackson-core-3.0.0-sources.jar
+outputs.3.length=479350
+outputs.3.checksums.sha512=dbaec7b3331850b1bb1d3dc5cd2d95d560c4fbec025594043ff77cb5bdc7dd65e441168aeca950ab9eb31251cacb0c5517eed176940fb4f6f0b8db54e7a8c0de
