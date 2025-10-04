@@ -17,10 +17,10 @@ Source code: [https://github.com/flowlogix/flowlogix.git](https://github.com/flo
 * [com.flowlogix:jee-examples](https://central.sonatype.com/artifact/com.flowlogix/jee-examples/overview)
 </details>
 
-rebuilding **28 releases** of com.flowlogix:flowlogix:
+rebuilding **29 releases** of com.flowlogix:flowlogix:
 - **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 4, 0 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 5, 0 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -28,7 +28,7 @@ rebuilding **28 releases** of com.flowlogix:flowlogix:
 | [10.0.3](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/10.0.3/pom) | [mvn jdk25](flowlogix-10.0.3.buildspec) | [result](flowlogix-10.0.3.buildinfo): [22 :white_check_mark:  2 :warning:](flowlogix-10.0.3.buildcompare) | 2 :no_entry_sign: | 1.3M |
 | [10.0.2](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/10.0.2/pom) | [mvn jdk25](flowlogix-10.0.2.buildspec) | [result](flowlogix-10.0.2.buildinfo): [22 :white_check_mark:  2 :warning:](flowlogix-10.0.2.buildcompare) | 2 :no_entry_sign: | 1.3M |
 | [10.0.1](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/10.0.1/pom) | [mvn jdk25](flowlogix-10.0.1.buildspec) | [result](flowlogix-10.0.1.buildinfo): [22 :white_check_mark:  2 :warning:](flowlogix-10.0.1.buildcompare) | 2 :no_entry_sign: | 1.2M |
-| [10](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/10/pom) | | | |
+| [10](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/10/pom) | [mvn jdk25](flowlogix-10.buildspec) | [result](flowlogix-10.buildinfo): [22 :white_check_mark:  2 :warning:](flowlogix-10.buildcompare) | 2 :no_entry_sign: | 1.2M |
 | [9.0.11](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/9.0.11/pom) | [mvn jdk24](flowlogix-9.0.11.buildspec) | [result](flowlogix-9.0.11.buildinfo): [24 :white_check_mark: ](flowlogix-9.0.11.buildcompare) | | 1.2M |
 | [9.0.10](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/9.0.10/pom) | [mvn jdk23](flowlogix-9.0.10.buildspec) | [result](flowlogix-9.0.10.buildinfo): [22 :white_check_mark: ](flowlogix-9.0.10.buildcompare) | | 1.2M |
 | [9.0.9](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/9.0.9/pom) | [mvn jdk23](flowlogix-9.0.9.buildspec) | [result](flowlogix-9.0.9.buildinfo): [22 :white_check_mark: ](flowlogix-9.0.9.buildcompare) | | 1.2M |
