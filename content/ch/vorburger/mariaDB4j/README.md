@@ -24,6 +24,7 @@ rebuilding **2 releases** of ch.vorburger.mariaDB4j:mariaDB4j:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.3.0](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j/3.3.0/pom) | | | |
 | [3.2.0](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j/3.2.0/pom) | [mvn jdk21](mariaDB4j-pom-3.2.0.buildspec) | [result](mariaDB4j-pom-3.2.0.buildinfo): [19 :white_check_mark: ](mariaDB4j-pom-3.2.0.buildcompare) | | 191M |
 | [3.1.0](https://central.sonatype.com/artifact/ch.vorburger.mariaDB4j/mariaDB4j/3.1.0/pom) | [mvn jdk21](mariaDB4j-pom-3.1.0.buildspec) | [result](mariaDB4j-pom-3.1.0.buildinfo): [16 :white_check_mark: ](mariaDB4j-pom-3.1.0.buildcompare) | | 172M |
 

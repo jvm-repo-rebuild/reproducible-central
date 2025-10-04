@@ -3,8 +3,8 @@
   <groupId>com.github.hazendaz</groupId>
   <artifactId>base-parent</artifactId>
   <versioning>
-    <latest>54</latest>
-    <release>54</release>
+    <latest>55</latest>
+    <release>55</release>
     <versions>
       <version>6</version>
       <version>7</version>
@@ -55,7 +55,8 @@
       <version>52</version>
       <version>53</version>
       <version>54</version>
+      <version>55</version>
     </versions>
-    <lastUpdated>20250907213135</lastUpdated>
+    <lastUpdated>20251004165934</lastUpdated>
   </versioning>
 </metadata>
