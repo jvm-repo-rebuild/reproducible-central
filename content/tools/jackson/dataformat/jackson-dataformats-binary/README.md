@@ -17,13 +17,13 @@ Source code: [https://github.com/FasterXML/jackson-dataformats-binary.git](https
 * [tools.jackson.dataformat:jackson-dataformats-binary](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/overview)
 </details>
 
-rebuilding **10 releases** of tools.jackson.dataformat:jackson-dataformats-binary:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **11 releases** of tools.jackson.dataformat:jackson-dataformats-binary:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.0.0](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/3.0.0/pom) | | | |
+| [3.0.0](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/3.0.0/pom) | [mvn jdk17](jackson-dataformats-binary-3.0.0.buildspec) | [result](jackson-dataformats-binary-3.0.0.buildinfo): [16 :white_check_mark: ](jackson-dataformats-binary-3.0.0.buildcompare) | | 1019K |
 | [3.0.0-rc10](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/3.0.0-rc10/pom) | [mvn jdk17](jackson-dataformats-binary-3.0.0-rc10.buildspec) | [result](jackson-dataformats-binary-3.0.0-rc10.buildinfo): [16 :white_check_mark: ](jackson-dataformats-binary-3.0.0-rc10.buildcompare) | | 1019K |
 | [3.0.0-rc9](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/3.0.0-rc9/pom) | [mvn jdk17](jackson-dataformats-binary-3.0.0-rc9.buildspec) | [result](jackson-dataformats-binary-3.0.0-rc9.buildinfo): [16 :white_check_mark: ](jackson-dataformats-binary-3.0.0-rc9.buildcompare) | | 1019K |
 | [3.0.0-rc8](https://central.sonatype.com/artifact/tools.jackson.dataformat/jackson-dataformats-binary/3.0.0-rc8/pom) | [mvn jdk17](jackson-dataformats-binary-3.0.0-rc8.buildspec) | [result](jackson-dataformats-binary-3.0.0-rc8.buildinfo): [16 :white_check_mark: ](jackson-dataformats-binary-3.0.0-rc8.buildcompare) | | 1019K |
