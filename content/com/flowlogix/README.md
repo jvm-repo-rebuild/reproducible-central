@@ -17,15 +17,15 @@ Source code: [https://github.com/flowlogix/flowlogix.git](https://github.com/flo
 * [com.flowlogix:jee-examples](https://central.sonatype.com/artifact/com.flowlogix/jee-examples/overview)
 </details>
 
-rebuilding **25 releases** of com.flowlogix:flowlogix:
+rebuilding **26 releases** of com.flowlogix:flowlogix:
 - **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [10.0.4](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/10.0.4/pom) | [mvn jdk25](flowlogix-10.0.4.buildspec) | [result](flowlogix-10.0.4.buildinfo): [22 :white_check_mark:  2 :warning:](flowlogix-10.0.4.buildcompare) | 2 :no_entry_sign: | 1.2M |
-| [10.0.3](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/10.0.3/pom) | | | |
+| [10.0.3](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/10.0.3/pom) | [mvn jdk25](flowlogix-10.0.3.buildspec) | [result](flowlogix-10.0.3.buildinfo): [22 :white_check_mark:  2 :warning:](flowlogix-10.0.3.buildcompare) | 2 :no_entry_sign: | 1.3M |
 | [10.0.2](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/10.0.2/pom) | | | |
 | [10.0.1](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/10.0.1/pom) | | | |
 | [10](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/10/pom) | | | |
