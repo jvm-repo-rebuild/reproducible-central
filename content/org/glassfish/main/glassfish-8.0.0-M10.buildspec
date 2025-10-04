@@ -12,8 +12,8 @@ jdk=21
 newline=lf
 umask=022
 
-# skipping CycloneDX as it just reports differences that are the pure result of initial difference in jar
-command="mvn package -Poss-release,fastest,staging -DskipTests -Dmaven.javadoc.skip -Djavadoc.skip -Dgpg.skip -Dcyclonedx.skip"
+# ignore https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/glassfish/main/glassfish-main-aggregator-8.0.0-JDK17-M12.diffoscope
+command="mvn package -Poss-release,fastest -DskipTests -Dmaven.javadoc.skip -Djavadoc.skip -Dgpg.skip -Dbuildinfo.ignore='org.glassfish.main.distributions/*.zip,org.glassfish.main.extras/installroot-builder-*-cyclonedx.*,org.glassfish.main.extras/instanceroot-builder-*-cyclonedx.*,org.glassfish.main.extras/instanceroot-builder-*.jar,org.glassfish.main/glassfish-itest-tools-*-cyclonedx.*'"
 execBefore="find . -type d -name target -exec \rm -rf {} \; ; find . -type d -exec chmod g+s {} \;"
 
 buildinfo=target/glassfish-main-aggregator-${version}.buildinfo
