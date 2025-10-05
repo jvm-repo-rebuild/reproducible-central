@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=base-bundle-descriptor
+group-id=org.mybatis
+artifact-id=base-bundle-descriptor
+version=13
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/base-bundle-descriptor.git
+source.scm.tag=base-bundle-descriptor-13
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.mybatis
+outputs.0.filename=base-bundle-descriptor-13.pom
+outputs.0.length=3426
+outputs.0.checksums.sha512=31f22db0a20e5aa7dedf2f7261ed7a14dc43c9d47de818abf0bc2e276efda50eb91f3f4a180913090ca2fee608bb82b24b9c996d0d955f442d5c4f40b36214c0
+
+outputs.1.groupId=org.mybatis
+outputs.1.filename=base-bundle-descriptor-13.jar
+outputs.1.length=3877
+outputs.1.checksums.sha512=53404f8f0a2a404eacc55783ca9ecb28f8d94180f73b8376f65a90085bfd006252deff678c328a4e319bc78e556b0aa097d354ab0c97b6403440d0e69711a50a
+
+outputs.2.groupId=org.mybatis
+outputs.2.filename=base-bundle-descriptor-13-sources.jar
+outputs.2.length=3611
+outputs.2.checksums.sha512=f97cd4a7ab15396cb6bfe527b57a046fb3019ada0731bbfba5ed0b4a9e8c5ba74a786730aefe556d9815a2ddd7de7a789051bee80cb7a07e75b0662b5af23f81
