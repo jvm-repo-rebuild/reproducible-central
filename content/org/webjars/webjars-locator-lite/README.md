@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/webjars/webjars-locator-lite.git](https://github.com/webjars/webjars-locator-lite.git)
 
-rebuilding **10 releases** of org.webjars:webjars-locator-lite:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **11 releases** of org.webjars:webjars-locator-lite:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.1.2](https://central.sonatype.com/artifact/org.webjars/webjars-locator-lite/1.1.2/pom) | | | |
+| [1.1.2](https://central.sonatype.com/artifact/org.webjars/webjars-locator-lite/1.1.2/pom) | [mvn jdk21](webjars-locator-lite-1.1.2.buildspec) | [result](webjars-locator-lite-1.1.2.buildinfo): [3 :white_check_mark: ](webjars-locator-lite-1.1.2.buildcompare) | | 22K |
 | [1.1.1](https://central.sonatype.com/artifact/org.webjars/webjars-locator-lite/1.1.1/pom) | [mvn jdk21](webjars-locator-lite-1.1.1.buildspec) | [result](webjars-locator-lite-1.1.1.buildinfo): [3 :white_check_mark: ](webjars-locator-lite-1.1.1.buildcompare) | | 22K |
 | [1.1.0](https://central.sonatype.com/artifact/org.webjars/webjars-locator-lite/1.1.0/pom) | [mvn jdk21](webjars-locator-lite-1.1.0.buildspec) | [result](webjars-locator-lite-1.1.0.buildinfo): [3 :white_check_mark: ](webjars-locator-lite-1.1.0.buildcompare) | | 21K |
 | [1.0.1](https://central.sonatype.com/artifact/org.webjars/webjars-locator-lite/1.0.1/pom) | [mvn jdk21](webjars-locator-lite-1.0.1.buildspec) | [result](webjars-locator-lite-1.0.1.buildinfo): [3 :white_check_mark: ](webjars-locator-lite-1.0.1.buildcompare) | | 20K |
