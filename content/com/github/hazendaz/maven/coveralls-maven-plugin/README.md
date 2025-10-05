@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/hazendaz/coveralls-maven-plugin.git](https://github.com/hazendaz/coveralls-maven-plugin.git)
 
-rebuilding **8 releases** of com.github.hazendaz.maven:coveralls-maven-plugin:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **9 releases** of com.github.hazendaz.maven:coveralls-maven-plugin:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [5.0.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/coveralls-maven-plugin/5.0.0/pom) | | | |
+| [5.0.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/coveralls-maven-plugin/5.0.0/pom) | [mvn jdk21 w](coveralls-maven-plugin-5.0.0.buildspec) | [result](coveralls-maven-plugin-5.0.0.buildinfo): [7 :white_check_mark: ](coveralls-maven-plugin-5.0.0.buildcompare) | | 703K |
 | [4.7.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/coveralls-maven-plugin/4.7.0/pom) | [mvn jdk21 w](coveralls-maven-plugin-4.7.0.buildspec) | [result](coveralls-maven-plugin-4.7.0.buildinfo): [7 :white_check_mark: ](coveralls-maven-plugin-4.7.0.buildcompare) | | 666K |
 | [4.6.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/coveralls-maven-plugin/4.6.0/pom) | [mvn jdk21 w](coveralls-maven-plugin-4.6.0.buildspec) | [result](coveralls-maven-plugin-4.6.0.buildinfo): [7 :white_check_mark: ](coveralls-maven-plugin-4.6.0.buildcompare) | | 666K |
 | [4.5.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/coveralls-maven-plugin/4.5.0/pom) | | | |
