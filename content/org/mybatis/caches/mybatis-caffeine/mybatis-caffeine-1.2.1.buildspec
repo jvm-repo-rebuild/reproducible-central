@@ -1,0 +1,18 @@
+groupId=org.mybatis.caches
+artifactId=mybatis-caffeine
+version=1.2.1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/mybatis/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.11
+jdk=21
+newline=crlf
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
