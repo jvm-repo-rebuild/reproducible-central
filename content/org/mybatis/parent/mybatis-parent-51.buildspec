@@ -1,0 +1,18 @@
+groupId=org.mybatis
+artifactId=mybatis-parent
+version=51
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/mybatis/parent.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.11
+jdk=17
+newline=crlf
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
