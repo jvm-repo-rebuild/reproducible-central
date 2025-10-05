@@ -1,0 +1,7 @@
+version=2.2.0-M1
+ok=4
+ko=0
+ignored=0
+okFiles="jakarta.activation-api-2.2.0-M1.pom jakarta.activation-api-2.2.0-M1.jar jakarta.activation-api-2.2.0-M1-cyclonedx.xml jakarta.activation-api-2.2.0-M1-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
