@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis-caffeine
+group-id=org.mybatis.caches
+artifact-id=mybatis-caffeine
+version=1.2.1
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/caffeine-cache.git
+source.scm.tag=mybatis-caffeine-1.2.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.mybatis.caches
+outputs.0.filename=mybatis-caffeine-1.2.1.pom
+outputs.0.length=3393
+outputs.0.checksums.sha512=ebe0d79bb3a5f2b51ff018aa000608161b18a581e459f9cd99c70f03079a1f50eae3002f7c4aa8973de64aff800142bd5c4e4297ad23ec9bdb07deb7ddff55bb
+
+outputs.1.groupId=org.mybatis.caches
+outputs.1.filename=mybatis-caffeine-1.2.1.jar
+outputs.1.length=9140
+outputs.1.checksums.sha512=2cca1684fab87117f807178b7398579d2ef0572cbf2a688d7f5c65358a644f5bd337ff2eb8f263a272fd595261c7dc6d829ab84cfb92a073c2a97622660f6173
+
+outputs.2.groupId=org.mybatis.caches
+outputs.2.filename=mybatis-caffeine-1.2.1-sources.jar
+outputs.2.length=8967
+outputs.2.checksums.sha512=ae999c0bc04a0104728446dfe1cbbf8ba852ec8dcd793d242474aa12dda3a183541edb596356b23b9426ce5b16bfcba89512979ae7dc693734e379e69b55f96f
