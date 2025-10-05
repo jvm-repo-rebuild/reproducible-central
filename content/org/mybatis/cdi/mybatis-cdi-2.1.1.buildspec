@@ -1,0 +1,19 @@
+groupId=org.mybatis
+artifactId=mybatis-cdi
+version=2.1.1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/mybatis/cdi.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.11
+jdk=21
+newline=crlf
+umask=022
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Pcdi-2.0"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=

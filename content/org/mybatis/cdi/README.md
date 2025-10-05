@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/mybatis/cdi.git](https://github.com/mybatis/cdi.git)
 
-rebuilding **7 releases** of org.mybatis:mybatis-cdi:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of org.mybatis:mybatis-cdi:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.1.1](https://central.sonatype.com/artifact/org.mybatis/mybatis-cdi/2.1.1/pom) | | | |
+| [2.1.1](https://central.sonatype.com/artifact/org.mybatis/mybatis-cdi/2.1.1/pom) | [mvn jdk21 w](mybatis-cdi-2.1.1.buildspec) | [result](mybatis-cdi-2.1.1.buildinfo): [3 :white_check_mark: ](mybatis-cdi-2.1.1.buildcompare) | | 62K |
 | [2.1.0](https://central.sonatype.com/artifact/org.mybatis/mybatis-cdi/2.1.0/pom) | [mvn jdk22 w](mybatis-cdi-2.1.0.buildspec) | [result](mybatis-cdi-2.1.0.buildinfo): [3 :white_check_mark: ](mybatis-cdi-2.1.0.buildcompare) | | 63K |
 | [2.0.2](https://central.sonatype.com/artifact/org.mybatis/mybatis-cdi/2.0.2/pom) | [mvn jdk22 w](mybatis-cdi-2.0.2.buildspec) | [result](mybatis-cdi-2.0.2.buildinfo): [3 :white_check_mark: ](mybatis-cdi-2.0.2.buildcompare) | | 63K |
 | [2.0.1](https://central.sonatype.com/artifact/org.mybatis/mybatis-cdi/2.0.1/pom) | [mvn jdk21 w](mybatis-cdi-2.0.1.buildspec) | [result](mybatis-cdi-2.0.1.buildinfo): [3 :white_check_mark: ](mybatis-cdi-2.0.1.buildcompare) | | 61K |
