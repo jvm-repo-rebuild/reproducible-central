@@ -3,8 +3,8 @@
   <groupId>com.github.hazendaz.maven</groupId>
   <artifactId>coveralls-maven-plugin</artifactId>
   <versioning>
-    <latest>4.7.0</latest>
-    <release>4.7.0</release>
+    <latest>5.0.0</latest>
+    <release>5.0.0</release>
     <versions>
       <version>4.5.0-M1</version>
       <version>4.5.0-M2</version>
@@ -12,9 +12,11 @@
       <version>4.5.0-M4</version>
       <version>4.5.0-M5</version>
       <version>4.5.0-M6</version>
+      <version>4.5.0</version>
       <version>4.6.0</version>
       <version>4.7.0</version>
+      <version>5.0.0</version>
     </versions>
-    <lastUpdated>20250419214345</lastUpdated>
+    <lastUpdated>20251004223735</lastUpdated>
   </versioning>
 </metadata>
