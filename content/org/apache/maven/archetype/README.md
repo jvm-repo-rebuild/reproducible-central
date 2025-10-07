@@ -24,6 +24,7 @@ rebuilding **5 releases** of org.apache.maven.archetype:maven-archetype:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.4.1](https://central.sonatype.com/artifact/org.apache.maven.archetype/maven-archetype/3.4.1/pom) | | | |
 | [3.4.0](https://central.sonatype.com/artifact/org.apache.maven.archetype/maven-archetype/3.4.0/pom) | [mvn jdk21](archetype-3.4.0.buildspec) | [result](maven-archetype-plugin-3.4.0.buildinfo): [32 :white_check_mark: ](maven-archetype-plugin-3.4.0.buildcompare) | | 2.7M |
 | [3.3.1](https://central.sonatype.com/artifact/org.apache.maven.archetype/maven-archetype/3.3.1/pom) | [mvn jdk21](archetype-3.3.1.buildspec) | [result](maven-archetype-plugin-3.3.1.buildinfo): [32 :white_check_mark: ](maven-archetype-plugin-3.3.1.buildcompare) | | 2.6M |
 | [3.3.0](https://central.sonatype.com/artifact/org.apache.maven.archetype/maven-archetype/3.3.0/pom) | [mvn jdk21](archetype-3.3.0.buildspec) | [result](maven-archetype-plugin-3.3.0.buildinfo): [32 :white_check_mark: ](maven-archetype-plugin-3.3.0.buildcompare) | | 2.4M |

@@ -24,6 +24,7 @@ rebuilding **29 releases** of com.flowlogix:flowlogix:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [10.0.5](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/10.0.5/pom) | | | |
 | [10.0.4](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/10.0.4/pom) | [mvn jdk25](flowlogix-10.0.4.buildspec) | [result](flowlogix-10.0.4.buildinfo): [22 :white_check_mark:  2 :warning:](flowlogix-10.0.4.buildcompare) | 2 :no_entry_sign: | 1.2M |
 | [10.0.3](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/10.0.3/pom) | [mvn jdk25](flowlogix-10.0.3.buildspec) | [result](flowlogix-10.0.3.buildinfo): [22 :white_check_mark:  2 :warning:](flowlogix-10.0.3.buildcompare) | 2 :no_entry_sign: | 1.3M |
 | [10.0.2](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/10.0.2/pom) | [mvn jdk25](flowlogix-10.0.2.buildspec) | [result](flowlogix-10.0.2.buildinfo): [22 :white_check_mark:  2 :warning:](flowlogix-10.0.2.buildcompare) | 2 :no_entry_sign: | 1.3M |
