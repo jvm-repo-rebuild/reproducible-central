@@ -45,13 +45,13 @@ Source code: [https://github.com/hibernate/hibernate-orm.git](https://github.com
 * [org.hibernate:hibernate-vector](https://central.sonatype.com/artifact/org.hibernate/hibernate-vector/overview)
 </details>
 
-rebuilding **20 releases** of org.hibernate.orm:hibernate-core:
-- **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **21 releases** of org.hibernate.orm:hibernate-core:
+- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [7.2.0.CR1](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.2.0.CR1/pom) | | | |
+| [7.2.0.CR1](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.2.0.CR1/pom) | [gradle jdk17](hibernate-core-7.2.0.CR1.buildspec) | [result](hibernate-core-7.2.0.CR1.buildinfo): [68 :white_check_mark: ](hibernate-core-7.2.0.CR1.buildcompare) | | 25M |
 | [7.1.3.Final](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.1.3.Final/pom) | [gradle jdk17](hibernate-core-7.1.3.Final.buildspec) | [result](hibernate-core-7.1.3.Final.buildinfo): [68 :white_check_mark: ](hibernate-core-7.1.3.Final.buildcompare) | | 25M |
 | [7.1.2.Final](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.1.2.Final/pom) | [gradle jdk17](hibernate-core-7.1.2.Final.buildspec) | [result](hibernate-core-7.1.2.Final.buildinfo): [68 :white_check_mark: ](hibernate-core-7.1.2.Final.buildcompare) | | 25M |
 | [7.1.1.Final](https://central.sonatype.com/artifact/org.hibernate.orm/hibernate-core/7.1.1.Final/pom) | [gradle jdk17](hibernate-core-7.1.1.Final.buildspec) | [result](hibernate-core-7.1.1.Final.buildinfo): [68 :white_check_mark: ](hibernate-core-7.1.1.Final.buildcompare) | | 25M |
