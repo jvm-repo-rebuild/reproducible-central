@@ -21,7 +21,7 @@ Reproducible Builds for Maven Central Repository
 | ch.qos.logback.access | [logback-access](../content/ch/qos/logback/access/README.md) | 7 | 7 :white_check_mark: |
 | ch.qos.logback.db | [logback-db](../content/ch/qos/logback/db/README.md) | 2 | 2 :warning: |
 | ch.vorburger.mariaDB4j | [mariaDB4j](../content/ch/vorburger/mariaDB4j/README.md) | 3 | 3 :white_check_mark: |
-| com.flowlogix | [flowlogix](../content/com/flowlogix/README.md) | 29 | 19 :white_check_mark: / 10 :warning: |
+| com.flowlogix | [flowlogix](../content/com/flowlogix/README.md) | 30 | 20 :white_check_mark: / 10 :warning: |
 | com.adobe.acs | [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | 9 | 9 :warning: |
 | com.cognite.units | [units-catalog](../content/com/cognite/units/units-catalog/README.md) | 24 | 16 :white_check_mark: / 8 :warning: |
 | com.corgibytes | [mrm](../content/com/corgibytes/mrm/README.md) | 1 | 1 :white_check_mark: |
@@ -285,8 +285,8 @@ Reproducible Builds for Maven Central Repository
 | io.avaje | [avaje-applog](../content/io/avaje/applog/README.md) | 2 | 2 :white_check_mark: |
 | | [avaje-config](../content/io/avaje/config/README.md) | 2 | 2 :white_check_mark: |
 | | [avaje-config-toml](../content/io/avaje/config-toml/README.md) | 2 | 2 :white_check_mark: |
-| | [avaje-http](../content/io/avaje/http/README.md) | 27 | 19 :white_check_mark: / 8 :warning: |
-| | [avaje-inject](../content/io/avaje/inject/README.md) | 42 | 34 :white_check_mark: / 8 :warning: |
+| | [avaje-http](../content/io/avaje/http/README.md) | 28 | 19 :white_check_mark: / 9 :warning: |
+| | [avaje-inject](../content/io/avaje/inject/README.md) | 43 | 35 :white_check_mark: / 8 :warning: |
 | | [avaje-jex](../content/io/avaje/jex/README.md) | 33 | 28 :white_check_mark: / 5 :warning: |
 | | [avaje-jsonb](../content/io/avaje/jsonb/README.md) | 33 | 32 :white_check_mark: / 1 :warning: |
 | | [avaje-logback-encoder](../content/io/avaje/logback-encoder/README.md) | 15 | 15 :white_check_mark: |
@@ -296,7 +296,7 @@ Reproducible Builds for Maven Central Repository
 | | [avaje-sigma](../content/io/avaje/sigma/README.md) | 3 | 3 :white_check_mark: |
 | | [avaje-spi](../content/io/avaje/spi/README.md) | 6 | 6 :white_check_mark: |
 | | [avaje-validator](../content/io/avaje/validator/README.md) | 14 | 14 :white_check_mark: |
-| io.cucumber | [ci-environment](../content/io/cucumber/ci-environment/README.md) | 3 | 3 :white_check_mark: |
+| io.cucumber | [ci-environment](../content/io/cucumber/ci-environment/README.md) | 4 | 4 :white_check_mark: |
 | | [cucumber-expressions](../content/io/cucumber/cucumber-expressions/README.md) | 9 | 9 :white_check_mark: |
 | | [cucumber-json-formatter](../content/io/cucumber/cucumber-json-formatter/README.md) | 5 | 5 :white_check_mark: |
 | | [cucumber-jvm](../content/io/cucumber/cucumber-jvm/README.md) | 36 | 36 :white_check_mark: |
@@ -521,7 +521,7 @@ Reproducible Builds for Maven Central Repository
 | | [log4j-jmx-gui](../content/org/apache/logging/log4j/log4j-jmx-gui/README.md) | 1 | 1 :white_check_mark: |
 | | [log4j-tools-bom](../content/org/apache/logging/log4j/tools/README.md) | 9 | 9 :white_check_mark: |
 | | [log4j-transform-bom](../content/org/apache/logging/log4j/transform/README.md) | 2 | 2 :white_check_mark: |
-| org.apache.maven.archetype | [maven-archetype](../content/org/apache/maven/archetype/README.md) | 5 | 5 :white_check_mark: |
+| org.apache.maven.archetype | [maven-archetype](../content/org/apache/maven/archetype/README.md) | 6 | 6 :white_check_mark: |
 | org.apache.maven.archetypes | [maven-archetype-bundles](../content/org/apache/maven/archetypes/README.md) | 1 | 1 :white_check_mark: |
 | org.apache.maven.enforcer | [enforcer](../content/org/apache/maven/enforcer/README.md) | 10 | 10 :white_check_mark: |
 | org.apache.maven.indexer | [maven-indexer](../content/org/apache/maven/indexer/README.md) | 16 | 14 :white_check_mark: / 2 :warning: |
@@ -932,7 +932,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 8 | 8 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 44 | 43 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 21 | 3 :white_check_mark: / 18 :warning: |
-| **Count:** | **918** | **8796** | **6391** :white_check_mark:<br>**2405** :warning: |
+| **Count:** | **918** | **8801** | **6395** :white_check_mark:<br>**2406** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -957,7 +957,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn        14
      10 mvn        15
      14 mvn        16
-    718 mvn        17
+    719 mvn        17
       1 mvn        17.0.10
       2 mvn        17.0.11
       1 mvn        17.0.12
@@ -968,7 +968,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn        18
      34 mvn        19
      17 mvn        20
-    719 mvn        21
+    722 mvn        21
      15 mvn        22
      17 mvn        23
      40 mvn        24
@@ -1107,7 +1107,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-4.0.0-rc-3  24
       1 mvn-4.0.0-rc-3  25
       2 mvn-4.0.0-rc-4  24
-      5 mvn-4.0.0-rc-4  25
+      6 mvn-4.0.0-rc-4  25
       2 sbt         8
 ```
 <!-- END GENERATED STATS -->

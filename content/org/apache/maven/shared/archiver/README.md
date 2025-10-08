@@ -14,6 +14,7 @@ rebuilding **8 releases** of org.apache.maven:maven-archiver:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [4.0.0-beta-1](https://central.sonatype.com/artifact/org.apache.maven/maven-archiver/4.0.0-beta-1/pom) | [mvn jdk21](maven-archiver-4.0.0-beta-1.buildspec) | [result](maven-archiver-4.0.0-beta-1.buildinfo): [6 :white_check_mark: ](maven-archiver-4.0.0-beta-1.buildcompare) | | 332K |
+| [3.6.5](https://central.sonatype.com/artifact/org.apache.maven/maven-archiver/3.6.5/pom) | | | |
 | [3.6.4](https://central.sonatype.com/artifact/org.apache.maven/maven-archiver/3.6.4/pom) | [mvn jdk21](maven-archiver-3.6.4.buildspec) | [result](maven-archiver-3.6.4.buildinfo): [6 :white_check_mark: ](maven-archiver-3.6.4.buildcompare) | | 386K |
 | [3.6.3](https://central.sonatype.com/artifact/org.apache.maven/maven-archiver/3.6.3/pom) | [mvn jdk8 w](maven-archiver-3.6.3.buildspec) | [result](maven-archiver-3.6.3.buildinfo): [6 :white_check_mark: ](maven-archiver-3.6.3.buildcompare) | | 350K |
 | [3.6.2](https://central.sonatype.com/artifact/org.apache.maven/maven-archiver/3.6.2/pom) | [mvn jdk21](maven-archiver-3.6.2.buildspec) | [result](maven-archiver-3.6.2.buildinfo): [6 :white_check_mark: ](maven-archiver-3.6.2.buildcompare) | | 381K |

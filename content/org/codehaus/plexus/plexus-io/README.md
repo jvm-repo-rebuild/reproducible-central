@@ -13,6 +13,7 @@ rebuilding **7 releases** of org.codehaus.plexus:plexus-io:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.5.2](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-io/3.5.2/pom) | | | |
 | [3.5.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-io/3.5.1/pom) | [mvn jdk21](plexus-io-3.5.1.buildspec) | [result](plexus-io-3.5.1.buildinfo): [4 :white_check_mark: ](plexus-io-3.5.1.buildcompare) | | 253K |
 | [3.5.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-io/3.5.0/pom) | [mvn jdk22](plexus-io-3.5.0.buildspec) | [result](plexus-io-3.5.0.buildinfo): [4 :white_check_mark: ](plexus-io-3.5.0.buildcompare) | | 253K |
 | [3.4.2](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-io/3.4.2/pom) | [mvn jdk21](plexus-io-3.4.2.buildspec) | [result](plexus-io-3.4.2.buildinfo): [4 :white_check_mark: ](plexus-io-3.4.2.buildcompare) | | 253K |
