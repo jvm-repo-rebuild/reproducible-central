@@ -1,0 +1,9 @@
+version=3.5.2
+ok=4
+ko=0
+ignored=0
+okFiles="plexus-io-3.5.2.pom plexus-io-3.5.2.jar plexus-io-3.5.2-source-release.zip plexus-io-3.5.2-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

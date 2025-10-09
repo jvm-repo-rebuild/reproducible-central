@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus IO Components
+group-id=org.codehaus.plexus
+artifact-id=plexus-io
+version=3.5.2
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-io.git
+source.scm.tag=plexus-io-3.5.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-io-3.5.2.pom
+outputs.0.length=3999
+outputs.0.checksums.sha512=530f919e1f6b8ead031d9e0d50abf8f5caa32744fb141490a1d720045dd57772050033c3291cbc569068cb4bf9bf1063c395323234330779609648344b331c73
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-io-3.5.2.jar
+outputs.1.length=79909
+outputs.1.checksums.sha512=1300c5cfbdd5e9ef615e243553cdbfe49a5f35e8ec2751a026bf288592c537a2caa22f603c9901ca3b45aae9b9416de738ed7aefa082a33e5087f3a41ed41bff
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-io-3.5.2-source-release.zip
+outputs.2.length=106130
+outputs.2.checksums.sha512=34e6edb516301fd2d9f3fca431622a6556e9a6daee5026fbf905e1f553b9f08210bc961df7b4a2fec79ba8b20d8fec6ed035cba07097af92524f6c8087bb7742
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-io-3.5.2-sources.jar
+outputs.3.length=67605
+outputs.3.checksums.sha512=05d10108b29dcfaa2b87153d01305b2e524d43914d1c4204f3083de94f62229443da5b0f38cb470b5215dceeafc60a01325aeb7a435283b5379878c8b3a7c1ac
