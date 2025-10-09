@@ -12,8 +12,7 @@ jdk=21
 newline=lf
 umask=022
 
-# skipping CycloneDX as it just reports differences that are the pure result of initial difference in jar
-command="mvn package -Poss-release,fastest,staging -DskipTests -Dmaven.javadoc.skip -Djavadoc.skip -Dgpg.skip -Dcyclonedx.skip"
+command="mvn package -Poss-release,fastest,staging -DskipTests -Dmaven.javadoc.skip -Djavadoc.skip -Dgpg.skip -Dbuildinfo.detect.skip=false"
 execBefore="find . -type d -name target -exec \rm -rf {} \; ; find . -type d -exec chmod g+s {} \;"
 
 buildinfo=target/glassfish-main-aggregator-${version}.buildinfo
