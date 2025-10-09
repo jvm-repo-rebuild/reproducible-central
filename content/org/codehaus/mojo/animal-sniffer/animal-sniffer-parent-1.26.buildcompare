@@ -1,0 +1,9 @@
+version=1.26
+ok=20
+ko=0
+ignored=0
+okFiles="animal-sniffer-parent-1.26.pom animal-sniffer-parent-1.26-source-release.zip java-boot-classpath-detector-1.26.pom java-boot-classpath-detector-1.26.jar java-boot-classpath-detector-1.26-sources.jar animal-sniffer-annotations-1.26.pom animal-sniffer-annotations-1.26.jar animal-sniffer-annotations-1.26-sources.jar animal-sniffer-1.26.pom animal-sniffer-1.26.jar animal-sniffer-1.26-sources.jar animal-sniffer-maven-plugin-1.26.pom animal-sniffer-maven-plugin-1.26.jar animal-sniffer-maven-plugin-1.26-sources.jar animal-sniffer-enforcer-rule-1.26.pom animal-sniffer-enforcer-rule-1.26.jar animal-sniffer-enforcer-rule-1.26-sources.jar animal-sniffer-ant-tasks-1.26.pom animal-sniffer-ant-tasks-1.26.jar animal-sniffer-ant-tasks-1.26-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
