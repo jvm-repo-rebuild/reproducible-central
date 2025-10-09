@@ -1,0 +1,17 @@
+groupId=org.codehaus.mojo
+artifactId=cassandra-maven-plugin
+display=${groupId}:${artifactId}
+version=4.1.10.0
+
+gitRepo=https://github.com/mojohaus/${artifactId}.git
+gitTag=${version}
+
+tool=mvn-3.9.5
+jdk=11
+newline=lf
+umask=022
+
+command="mvn -Pmojo-release clean package -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=

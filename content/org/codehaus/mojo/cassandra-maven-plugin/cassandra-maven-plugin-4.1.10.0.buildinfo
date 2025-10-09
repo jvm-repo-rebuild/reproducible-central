@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Mojo's Cassandra Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=cassandra-maven-plugin
+version=4.1.10.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/cassandra-maven-plugin.git
+source.scm.tag=4.1.10.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.28
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.5
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.codehaus.mojo
+outputs.0.filename=cassandra-maven-plugin-4.1.10.0.pom
+outputs.0.length=14504
+outputs.0.checksums.sha512=a4f0bd2652a3b4d6af8901fa5b01f7b681099fc7d312c08b346c136bdbd1dd67cee3670240d3f89aa12eed899dda6051c6e72711e03db0680833410acd504a1f
+
+outputs.1.groupId=org.codehaus.mojo
+outputs.1.filename=cassandra-maven-plugin-4.1.10.0.jar
+outputs.1.length=84717
+outputs.1.checksums.sha512=37e36d434983ccff6f98ea590e06148b12665d2e5408d27080ebb0572e66798b3bca57c366079033f0f690d5cd3ae5e31551a3dc286d754cf6ffad143a5cfe68
+
+outputs.2.groupId=org.codehaus.mojo
+outputs.2.filename=cassandra-maven-plugin-4.1.10.0-source-release.zip
+outputs.2.length=90615
+outputs.2.checksums.sha512=37a231b0dc46f3cbfdf249674cb108cd5f319ae65e2de187a3169fa28d232277ba549497adcd66c714c3ba508d940cf362f158ad2965c38f5e364397654c9834
+
+outputs.3.groupId=org.codehaus.mojo
+outputs.3.filename=cassandra-maven-plugin-4.1.10.0-sources.jar
+outputs.3.length=57493
+outputs.3.checksums.sha512=6f33c7db61c8be9de57ca54800ed023ee26228cf3c3d20c29a238b390b8c9368ee372ce43700e12ec0d5a642a9599f93e81872c487457f86907adc324d754837
