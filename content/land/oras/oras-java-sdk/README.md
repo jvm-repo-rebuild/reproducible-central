@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/oras-project/oras-java](https://github.com/oras-project/oras-java)
 
-rebuilding **16 releases** of land.oras:oras-java-sdk:
-- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **17 releases** of land.oras:oras-java-sdk:
+- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.2.16](https://central.sonatype.com/artifact/land.oras/oras-java-sdk/0.2.16/pom) | | | |
+| [0.2.16](https://central.sonatype.com/artifact/land.oras/oras-java-sdk/0.2.16/pom) | [mvn jdk17](oras-java-sdk-0.2.16.buildspec) | [result](oras-java-sdk-0.2.16.buildinfo): [4 :white_check_mark: ](oras-java-sdk-0.2.16.buildcompare) | | 325K |
 | [0.2.15](https://central.sonatype.com/artifact/land.oras/oras-java-sdk/0.2.15/pom) | [mvn jdk17](oras-java-sdk-0.2.15.buildspec) | [result](oras-java-sdk-0.2.15.buildinfo): [4 :white_check_mark: ](oras-java-sdk-0.2.15.buildcompare) | | 324K |
 | [0.2.14](https://central.sonatype.com/artifact/land.oras/oras-java-sdk/0.2.14/pom) | [mvn jdk17](oras-java-sdk-0.2.14.buildspec) | [result](oras-java-sdk-0.2.14.buildinfo): [4 :white_check_mark: ](oras-java-sdk-0.2.14.buildcompare) | | 321K |
 | [0.2.13](https://central.sonatype.com/artifact/land.oras/oras-java-sdk/0.2.13/pom) | [mvn jdk17](oras-java-sdk-0.2.13.buildspec) | [result](oras-java-sdk-0.2.13.buildinfo): [4 :white_check_mark: ](oras-java-sdk-0.2.13.buildcompare) | | 320K |
