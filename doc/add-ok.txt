@@ -1,11 +1,6 @@
+content/com/fasterxml/oss-parent/oss-parent-72.buildspec:73
+content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.12.5.buildspec:0.12.6
 content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.1.6.buildspec:1.20
-content/io/cucumber/gherkin/gherkin-35.1.0.buildspec:36.0.0
-content/io/cucumber/messages/messages-30.0.0.buildspec:30.1.0
-content/io/cucumber/query/query-14.4.0.buildspec:14.5.0
-content/land/oras/oras-java-sdk/oras-java-sdk-0.2.15.buildspec:0.2.16
-content/net/bytebuddy/byte-buddy-1.17.7.buildspec:1.17.8
-content/org/codehaus/mojo/animal-sniffer/animal-sniffer-1.24.buildspec:1.26
-content/org/codehaus/mojo/cassandra-maven-plugin/cassandra-maven-plugin-4.0.0.buildspec:4.1.10.0
-content/org/codehaus/plexus/plexus-io/plexus-io-3.5.1.buildspec:3.5.2
-content/org/infinispan/protostream/protostream-6.0.0.Dev13.buildspec:6.0.0.Dev14
+content/org/apache/maven/plugins/maven-pmd-plugin/maven-pmd-plugin-3.27.0.buildspec:3.28.0
+content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.11.buildspec:2.0.13
 content/org/junit/junit5/junit5-6.0.0-RC3.buildspec:6.0.0
