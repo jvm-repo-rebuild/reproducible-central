@@ -4,11 +4,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20251010181934 --> [oss-parent](../content/com/fasterxml/oss-parent/README.md) | [72](../content/com/fasterxml/oss-parent/oss-parent-72.buildspec) :white_check_mark: | [73](../content/com/fasterxml/oss-parent/oss-parent-73.buildspec) | `bin/add-new-release.sh content/com/fasterxml/oss-parent/oss-parent-72.buildspec 73` |
-| <!-- 20251010155731 --> [maven-pmd-plugin](../content/org/apache/maven/plugins/maven-pmd-plugin/README.md) | [3.27.0](../content/org/apache/maven/plugins/maven-pmd-plugin/maven-pmd-plugin-3.27.0.buildspec) :white_check_mark: | [3.28.0](../content/org/apache/maven/plugins/maven-pmd-plugin/maven-pmd-plugin-3.28.0.buildspec) | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-pmd-plugin/maven-pmd-plugin-3.27.0.buildspec 3.28.0` |
-| <!-- 20251010094937 --> [openapi-jaxrs-client](../content/dk/mada/jaxrs/openapi-jaxrs-client/README.md) | [0.12.5](../content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.12.5.buildspec) :white_check_mark: | [0.12.6](../content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.12.6.buildspec) | `bin/add-new-release.sh content/dk/mada/jaxrs/openapi-jaxrs-client/openapi-jaxrs-client-0.12.5.buildspec 0.12.6` |
-| <!-- 20251010083201 --> [maven-resolver](../content/org/apache/maven/resolver/maven-resolver/README.md) | [2.0.11](../content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.11.buildspec) :white_check_mark: | [2.0.13](../content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.13.buildspec) | `bin/add-new-release.sh content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.11.buildspec 2.0.13` |
-| <!-- 20251008144056 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | [12.1.2](../content/org/eclipse/jetty/jetty-project/jetty-project-12.1.2.buildspec) :white_check_mark: | 12.0.28  | `bin/add-new-release.sh content/org/eclipse/jetty/jetty-project/jetty-project-12.1.2.buildspec ...` |
+| <!-- 20251011171338 --> [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | [7.31.0](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.31.0.buildspec) :white_check_mark: | [7.32.0](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.32.0.buildspec) | `bin/add-new-release.sh content/nl/basjes/parse/useragent/yauaa/yauaa-7.31.0.buildspec 7.32.0` |
+| <!-- 20251011150534 --> [plexus-testing](../content/org/codehaus/plexus/plexus-testing/README.md) | [1.6.0](../content/org/codehaus/plexus/plexus-testing/plexus-testing-1.6.0.buildspec) :white_check_mark: | [1.6.1](../content/org/codehaus/plexus/plexus-testing/plexus-testing-1.6.1.buildspec) | `bin/add-new-release.sh content/org/codehaus/plexus/plexus-testing/plexus-testing-1.6.0.buildspec 1.6.1` |
+| <!-- 20251011112933 --> [plexus](../content/org/codehaus/plexus/plexus-pom/README.md) | [23](../content/org/codehaus/plexus/plexus-pom/plexus-pom-23.buildspec) :white_check_mark: | [24](../content/org/codehaus/plexus/plexus-pom/plexus-pom-24.buildspec) | `bin/add-new-release.sh content/org/codehaus/plexus/plexus-pom/plexus-pom-23.buildspec 24` |
 | <!-- 20251008042934 --> [avaje-jsonb-parent](../content/io/avaje/jsonb/README.md) | [3.8-RC3](../content/io/avaje/jsonb/avaje-jsonb-3.8-RC3.buildspec) :white_check_mark: | 3.8-RC2  | `bin/add-new-release.sh content/io/avaje/jsonb/avaje-jsonb-3.8-RC3.buildspec ...` |
 | <!-- 20251007070136 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [12.0-RC6](../content/io/avaje/inject/avaje-inject-12.0-RC6.buildspec) :white_check_mark: | 12.0-RC5 11.6-javax  | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-12.0-RC6.buildspec ...` |
 | <!-- 20250930082933 --> [junit-bom](../content/org/junit/junit5/README.md) | [6.0.0-RC3](../content/org/junit/junit5/junit5-6.0.0-RC3.buildspec) :white_check_mark: | [6.0.0](../content/org/junit/junit5/junit5-6.0.0.buildspec) | `bin/add-new-release.sh content/org/junit/junit5/junit5-6.0.0-RC3.buildspec 6.0.0` |
@@ -64,6 +62,8 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20251011151618 --> [activemq-parent](../content/org/apache/activemq/README.md) | 6.1.7 :warning: |
+| <!-- 20251010083201 --> [maven-resolver](../content/org/apache/maven/resolver/maven-resolver/README.md) | 2.0.13 :warning: |
 | <!-- 20251009112206 --> [quarkus-project](../content/io/quarkus/README.md) | 3.28.3 :warning: |
 | <!-- 20251006084729 --> [avaje-http-parent](../content/io/avaje/http/README.md) | 3.5-RC5 :warning: [:memo:](https://github.com/avaje/avaje-http/issues/650) |
 | <!-- 20251005091933 --> [jpmml-r](../content/org/jpmml/jpmml-r/README.md) | 1.7.3 :warning: |
@@ -118,7 +118,6 @@ New Releases To Add
 | <!-- 20250704040735 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | 1.7.4 :warning: [:memo:](https://github.com/jpmml/jpmml-model/issues/42) |
 | <!-- 20250702142639 --> [rainbowgum-maven-parent](../content/io/jstach/rainbowgum/README.md) | 0.8.2 :warning: |
 | <!-- 20250628075449 --> [drill-root](../content/org/apache/drill/README.md) | 1.22.0 :warning: |
-| <!-- 20250622062141 --> [activemq-parent](../content/org/apache/activemq/README.md) | 6.1.7 :warning: |
 | <!-- 20250619093642 --> [org.apache.sling.feature.launcher](../content/org/apache/sling/org.apache.sling.feature.launcher/README.md) | 1.3.4 :warning: |
 | <!-- 20250616112425 --> [commons-fileupload2](../content/org/apache/commons/commons-fileupload2/README.md) | 2.0.0-M4 :warning: |
 | <!-- 20250612131605 --> [jdplus-main](../content/eu/europa/ec/joinup/sat/jdplus-main/README.md) | 3.5.1 :warning: |
