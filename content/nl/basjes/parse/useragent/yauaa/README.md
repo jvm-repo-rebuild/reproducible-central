@@ -29,13 +29,14 @@ Source code: [https://github.com/nielsbasjes/yauaa.git](https://github.com/niels
 * [nl.basjes.parse.useragent:yauaa-webapp](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-webapp/overview)
 </details>
 
-rebuilding **22 releases** of nl.basjes.parse.useragent:yauaa:
+rebuilding **23 releases** of nl.basjes.parse.useragent:yauaa:
 - **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [7.32.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.32.0/pom) | | | |
+| [7.32.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.32.0/pom) | [mvn jdk21](yauaa-7.32.0.buildspec) | [result](yauaa-parent-7.32.0.buildinfo): [35 :white_check_mark:  8 :warning:](yauaa-parent-7.32.0.buildcompare) | 6 :rotating_light: 2 :no_entry_sign: | 74M |
 | [7.31.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.31.0/pom) | [mvn jdk21](yauaa-7.31.0.buildspec) | [result](yauaa-parent-7.31.0.buildinfo): [43 :white_check_mark: ](yauaa-parent-7.31.0.buildcompare) | | 73M |
 | [7.30.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.30.0/pom) | [mvn jdk21](yauaa-7.30.0.buildspec) | [result](yauaa-parent-7.30.0.buildinfo): [52 :white_check_mark: ](yauaa-parent-7.30.0.buildcompare) | | 81M |
 | [7.29.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.29.0/pom) | [mvn jdk21](yauaa-7.29.0.buildspec) | [result](yauaa-parent-7.29.0.buildinfo): [52 :white_check_mark: ](yauaa-parent-7.29.0.buildcompare) | | 81M |

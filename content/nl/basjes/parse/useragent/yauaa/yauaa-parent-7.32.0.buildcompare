@@ -1,0 +1,23 @@
+version=7.32.0
+ok=35
+ko=8
+ignored=0
+okFiles="yauaa-parent-7.32.0.pom yauaa-7.32.0.pom yauaa-udf-parent-7.32.0.pom yauaa-logparser-7.32.0.pom yauaa-logparser-7.32.0.jar yauaa-logparser-7.32.0-sources.jar yauaa-flink-7.32.0.pom yauaa-flink-7.32.0.jar yauaa-flink-7.32.0-sources.jar yauaa-flink-table-7.32.0.pom yauaa-flink-table-7.32.0.jar yauaa-flink-table-7.32.0-sources.jar yauaa-beam-7.32.0.pom yauaa-beam-7.32.0.jar yauaa-beam-7.32.0-sources.jar yauaa-beam-sql-7.32.0.pom yauaa-beam-sql-7.32.0.jar yauaa-beam-sql-7.32.0-sources.jar yauaa-hive-7.32.0.pom yauaa-hive-7.32.0.jar yauaa-hive-7.32.0-sources.jar yauaa-drill-7.32.0.pom yauaa-drill-7.32.0.jar yauaa-drill-7.32.0-sources.jar yauaa-nifi-parent-7.32.0.pom yauaa-nifi-7.32.0.pom yauaa-nifi-7.32.0-nar-extension-manifest.xml yauaa-snowflake-7.32.0.pom yauaa-snowflake-7.32.0.jar yauaa-snowflake-7.32.0-sources.jar yauaa-trino-7.32.0.pom yauaa-trino-7.32.0.jar yauaa-trino-7.32.0-sources.jar yauaa-webapp-7.32.0.pom yauaa-webapp-7.32.0-sources.jar"
+koFiles="yauaa-7.32.0.jar yauaa-7.32.0-sources.jar yauaa-logparser-7.32.0-udf.jar yauaa-hive-7.32.0-udf.jar yauaa-nifi-7.32.0.nar yauaa-snowflake-7.32.0-udf.jar yauaa-trino-7.32.0-udf.jar yauaa-webapp-7.32.0.war"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-7.32.0.jar analyzer/target/yauaa-7.32.0.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-7.32.0-sources.jar analyzer/target/yauaa-7.32.0-sources.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-logparser-7.32.0-udf.jar udfs/logparser/target/yauaa-logparser-7.32.0-udf.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-hive-7.32.0-udf.jar udfs/hive/target/yauaa-hive-7.32.0-udf.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-nifi-7.32.0.nar udfs/nifi/nifi-nar/target/yauaa-nifi-7.32.0.nar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-snowflake-7.32.0-udf.jar udfs/snowflake/target/yauaa-snowflake-7.32.0-udf.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-trino-7.32.0-udf.jar udfs/trino/target/yauaa-trino-7.32.0-udf.jar
+# diffoscope target/reference/nl.basjes.parse.useragent/yauaa-webapp-7.32.0.war webapp/target/yauaa-webapp-7.32.0.war
+stabilize_ok=0
+stabilize_ko=6
+stabilize_ignored=2
+stabilize_okFiles=""
+stabilize_koFiles="yauaa-7.32.0.jar.stabilized yauaa-7.32.0-sources.jar.stabilized yauaa-logparser-7.32.0-udf.jar.stabilized yauaa-hive-7.32.0-udf.jar.stabilized yauaa-snowflake-7.32.0-udf.jar.stabilized yauaa-trino-7.32.0-udf.jar.stabilized"
+stabilize_ignoredFiles="yauaa-nifi-7.32.0.nar yauaa-webapp-7.32.0.war"
