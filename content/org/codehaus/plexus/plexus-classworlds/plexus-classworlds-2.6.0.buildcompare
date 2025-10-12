@@ -1,0 +1,15 @@
+version=2.6.0
+ok=1
+ko=2
+ignored=0
+okFiles="plexus-classworlds-2.6.0.pom"
+koFiles="plexus-classworlds-2.6.0.jar plexus-classworlds-2.6.0-sources.jar"
+ignoredFiles=""
+# diffoscope target/reference/org.codehaus.plexus/plexus-classworlds-2.6.0.jar target/plexus-classworlds-2.6.0.jar
+# diffoscope target/reference/org.codehaus.plexus/plexus-classworlds-2.6.0-sources.jar target/plexus-classworlds-2.6.0-sources.jar
+stabilize_ok=1
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles="plexus-classworlds-2.6.0-sources.jar.stabilized"
+stabilize_koFiles="plexus-classworlds-2.6.0.jar.stabilized"
+stabilize_ignoredFiles=""
