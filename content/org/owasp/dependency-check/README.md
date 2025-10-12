@@ -18,13 +18,13 @@ Source code: [https://github.com/dependency-check/DependencyCheck](https://githu
 * [org.owasp:dependency-check-utils](https://central.sonatype.com/artifact/org.owasp/dependency-check-utils/overview)
 </details>
 
-rebuilding **67 releases** of org.owasp:dependency-check-parent:
-- **48** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **68 releases** of org.owasp:dependency-check-parent:
+- **49** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 19 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [12.1.7](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/12.1.7/pom) | | | |
+| [12.1.7](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/12.1.7/pom) | [mvn jdk11](dependency-check-12.1.7.buildspec) | [result](dependency-check-parent-12.1.7.buildinfo): [22 :white_check_mark: ](dependency-check-parent-12.1.7.buildcompare) | | 71M |
 | [12.1.6](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/12.1.6/pom) | [mvn jdk11](dependency-check-12.1.6.buildspec) | [result](dependency-check-parent-12.1.6.buildinfo): [22 :white_check_mark: ](dependency-check-parent-12.1.6.buildcompare) | | 71M |
 | [12.1.5](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/12.1.5/pom) | [mvn jdk11](dependency-check-12.1.5.buildspec) | [result](dependency-check-parent-12.1.5.buildinfo): [22 :white_check_mark: ](dependency-check-parent-12.1.5.buildcompare) | | 71M |
 | [12.1.4](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/12.1.4/pom) | [mvn jdk11](dependency-check-12.1.4.buildspec) | [result](dependency-check-parent-12.1.4.buildinfo): [22 :white_check_mark: ](dependency-check-parent-12.1.4.buildcompare) | | 71M |
