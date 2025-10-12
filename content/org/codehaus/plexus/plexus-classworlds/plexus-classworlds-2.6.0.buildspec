@@ -1,0 +1,16 @@
+groupId=org.codehaus.plexus
+artifactId=plexus-classworlds
+display=${groupId}:${artifactId}
+version=2.6.0
+
+gitRepo=https://github.com/codehaus-plexus/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.6.0
+jdk=8
+newline=crlf
+
+command="mvn -Pplexus-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=https://github.com/codehaus-plexus/plexus-classworlds/commit/f11ff447a0f535705c2f2b6a1cf909208392b60d
