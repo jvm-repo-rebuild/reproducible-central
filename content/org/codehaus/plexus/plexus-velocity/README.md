@@ -13,6 +13,7 @@ rebuilding **5 releases** of org.codehaus.plexus:plexus-velocity:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.3.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-velocity/2.3.0/pom) | | | |
 | [2.2.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-velocity/2.2.1/pom) | [mvn jdk24](plexus-velocity-2.2.1.buildspec) | [result](plexus-velocity-2.2.1.buildinfo): [4 :white_check_mark: ](plexus-velocity-2.2.1.buildcompare) | | 28K |
 | [2.2.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-velocity/2.2.0/pom) | [mvn jdk23](plexus-velocity-2.2.0.buildspec) | [result](plexus-velocity-2.2.0.buildinfo): [4 :white_check_mark: ](plexus-velocity-2.2.0.buildcompare) | | 28K |
 | [2.1.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-velocity/2.1.0/pom) | [mvn jdk21](plexus-velocity-2.1.0.buildspec) | [result](plexus-velocity-2.1.0.buildinfo): [4 :white_check_mark: ](plexus-velocity-2.1.0.buildcompare) | | 28K |

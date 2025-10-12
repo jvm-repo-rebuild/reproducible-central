@@ -760,7 +760,7 @@ Reproducible Builds for Maven Central Repository
 | | [xml-maven-plugin](../content/org/codehaus/mojo/xml-maven-plugin/README.md) | 1 | 1 :warning: |
 | org.codehaus.plexus | [plexus-archiver](../content/org/codehaus/plexus/plexus-archiver/README.md) | 23 | 22 :white_check_mark: / 1 :warning: |
 | | [plexus-cipher](../content/org/codehaus/plexus/plexus-cipher/README.md) | 3 | 3 :white_check_mark: |
-| | [plexus-classworlds](../content/org/codehaus/plexus/plexus-classworlds/README.md) | 3 | 3 :white_check_mark: |
+| | [plexus-classworlds](../content/org/codehaus/plexus/plexus-classworlds/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
 | | [plexus-cli](../content/org/codehaus/plexus/plexus-cli/README.md) | 1 | 1 :white_check_mark: |
 | | [plexus-compiler](../content/org/codehaus/plexus/plexus-compiler/README.md) | 14 | 12 :white_check_mark: / 2 :warning: |
 | | [plexus-components](../content/org/codehaus/plexus/plexus-components/README.md) | 9 | 7 :white_check_mark: / 2 :warning: |
@@ -770,10 +770,10 @@ Reproducible Builds for Maven Central Repository
 | | [plexus-interpolation](../content/org/codehaus/plexus/plexus-interpolation/README.md) | 2 | 2 :white_check_mark: |
 | | [plexus-io](../content/org/codehaus/plexus/plexus-io/README.md) | 8 | 8 :white_check_mark: |
 | | [plexus-languages](../content/org/codehaus/plexus/plexus-languages/README.md) | 10 | 5 :white_check_mark: / 5 :warning: |
-| | [plexus](../content/org/codehaus/plexus/plexus-pom/README.md) | 23 | 21 :white_check_mark: / 2 :warning: |
+| | [plexus](../content/org/codehaus/plexus/plexus-pom/README.md) | 24 | 22 :white_check_mark: / 2 :warning: |
 | | [plexus-resources](../content/org/codehaus/plexus/plexus-resources/README.md) | 3 | 3 :white_check_mark: |
 | | [plexus-sec-dispatcher](../content/org/codehaus/plexus/plexus-sec-dispatcher/README.md) | 6 | 6 :white_check_mark: |
-| | [plexus-testing](../content/org/codehaus/plexus/plexus-testing/README.md) | 7 | 7 :white_check_mark: |
+| | [plexus-testing](../content/org/codehaus/plexus/plexus-testing/README.md) | 8 | 8 :white_check_mark: |
 | | [plexus-utils](../content/org/codehaus/plexus/plexus-utils/README.md) | 9 | 6 :white_check_mark: / 3 :warning: |
 | | [plexus-velocity](../content/org/codehaus/plexus/plexus-velocity/README.md) | 5 | 5 :white_check_mark: |
 | | [plexus-xml](../content/org/codehaus/plexus/plexus-xml/README.md) | 9 | 9 :white_check_mark: |
@@ -932,7 +932,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 8 | 8 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 44 | 43 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 21 | 3 :white_check_mark: / 18 :warning: |
-| **Count:** | **918** | **8831** | **6422** :white_check_mark:<br>**2409** :warning: |
+| **Count:** | **918** | **8834** | **6424** :white_check_mark:<br>**2410** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -974,6 +974,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      40 mvn        24
       3 mvn        25
       3 mvn-3.5.4   8
+      1 mvn-3.6.0   8
      13 mvn-3.6.2   8
       1 mvn-3.6.2  11
       6 mvn-3.8.2  11
@@ -1010,7 +1011,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      22 mvn-3.9.11   8
      29 mvn-3.9.11  11
      71 mvn-3.9.11  17
-    143 mvn-3.9.11  21
+    144 mvn-3.9.11  21
       3 mvn-3.9.11  22
       2 mvn-3.9.11  24
       6 mvn-3.9.11  25
@@ -1079,7 +1080,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn-3.9.8  23
      94 mvn-3.9.9   8
     124 mvn-3.9.9  11
-    291 mvn-3.9.9  17
+    292 mvn-3.9.9  17
       2 mvn-3.9.9  18
     403 mvn-3.9.9  21
      13 mvn-3.9.9  21.0.2

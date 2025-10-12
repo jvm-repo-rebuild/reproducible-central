@@ -1,5 +1,6 @@
 content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.1.6.buildspec:1.20
 content/nl/basjes/parse/useragent/yauaa/yauaa-7.31.0.buildspec:7.32.0
-content/org/codehaus/plexus/plexus-pom/plexus-pom-23.buildspec:24
-content/org/codehaus/plexus/plexus-testing/plexus-testing-1.6.0.buildspec:1.6.1
+content/org/codehaus/plexus/plexus-velocity/plexus-velocity-2.2.1.buildspec:2.3.0
+content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.1.1.Final.buildspec:4.1.2.Final
 content/org/junit/junit5/junit5-6.0.0-RC3.buildspec:6.0.0
+content/org/owasp/dependency-check/dependency-check-12.1.6.buildspec:12.1.7

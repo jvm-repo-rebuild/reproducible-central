@@ -3,8 +3,8 @@
   <groupId>org.hibernate.reactive</groupId>
   <artifactId>hibernate-reactive-core</artifactId>
   <versioning>
-    <latest>4.1.1.Final</latest>
-    <release>4.1.1.Final</release>
+    <latest>4.1.2.Final</latest>
+    <release>4.1.2.Final</release>
     <versions>
       <version>1.0.0.Alpha2</version>
       <version>1.0.0.Alpha3</version>
@@ -103,7 +103,8 @@
       <version>4.0.0.Final</version>
       <version>4.1.0.Final</version>
       <version>4.1.1.Final</version>
+      <version>4.1.2.Final</version>
     </versions>
-    <lastUpdated>20251005010935</lastUpdated>
+    <lastUpdated>20251012010934</lastUpdated>
   </versioning>
 </metadata>
