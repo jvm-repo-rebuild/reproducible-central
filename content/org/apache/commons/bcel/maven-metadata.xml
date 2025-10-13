@@ -3,8 +3,8 @@
   <groupId>org.apache.bcel</groupId>
   <artifactId>bcel</artifactId>
   <versioning>
-    <latest>6.10.0</latest>
-    <release>6.10.0</release>
+    <latest>6.11.0</latest>
+    <release>6.11.0</release>
     <versions>
       <version>6.0</version>
       <version>6.1</version>
@@ -22,7 +22,8 @@
       <version>6.8.2</version>
       <version>6.9.0</version>
       <version>6.10.0</version>
+      <version>6.11.0</version>
     </versions>
-    <lastUpdated>20240723191850</lastUpdated>
+    <lastUpdated>20251013000157</lastUpdated>
   </versioning>
 </metadata>

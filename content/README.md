@@ -775,7 +775,7 @@ Reproducible Builds for Maven Central Repository
 | | [plexus-sec-dispatcher](../content/org/codehaus/plexus/plexus-sec-dispatcher/README.md) | 6 | 6 :white_check_mark: |
 | | [plexus-testing](../content/org/codehaus/plexus/plexus-testing/README.md) | 8 | 8 :white_check_mark: |
 | | [plexus-utils](../content/org/codehaus/plexus/plexus-utils/README.md) | 9 | 6 :white_check_mark: / 3 :warning: |
-| | [plexus-velocity](../content/org/codehaus/plexus/plexus-velocity/README.md) | 5 | 5 :white_check_mark: |
+| | [plexus-velocity](../content/org/codehaus/plexus/plexus-velocity/README.md) | 6 | 6 :white_check_mark: |
 | | [plexus-xml](../content/org/codehaus/plexus/plexus-xml/README.md) | 9 | 9 :white_check_mark: |
 | org.complate | [complate-java](../content/org/complate/java/README.md) | 3 | 3 :white_check_mark: |
 | | [complate-spring-mvc](../content/org/complate/spring/README.md) | 2 | 2 :white_check_mark: |
@@ -796,8 +796,8 @@ Reproducible Builds for Maven Central Repository
 | org.glassfish.mq | [project](../content/org/glassfish/mq/README.md) | 1 | 1 :warning: |
 | org.glassfish.build | [glassfishbuild-maven-plugin](../content/org/glassfish/build/glassfishbuild-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
 | org.hibernate.models | [hibernate-models](../content/org/hibernate/models/hibernate-models/README.md) | 8 | 6 :white_check_mark: / 2 :warning: |
-| org.hibernate.orm | [hibernate-core](../content/org/hibernate/orm/hibernate-core/README.md) | 21 | 20 :white_check_mark: / 1 :warning: |
-| org.hibernate.reactive | [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | 25 | 25 :white_check_mark: |
+| org.hibernate.orm | [hibernate-core](../content/org/hibernate/orm/hibernate-core/README.md) | 22 | 21 :white_check_mark: / 1 :warning: |
+| org.hibernate.reactive | [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | 26 | 26 :white_check_mark: |
 | org.hibernate.search | [hibernate-search](../content/org/hibernate/search/hibernate-search-bom/README.md) | 20 | 18 :white_check_mark: / 2 :warning: |
 | org.hibernate.validator | [hibernate-validator](../content/org/hibernate/validator/hibernate-validator/README.md) | 7 | 7 :white_check_mark: |
 | org.infinispan.protostream | [protostream](../content/org/infinispan/protostream/README.md) | 23 | 16 :white_check_mark: / 7 :warning: |
@@ -872,7 +872,7 @@ Reproducible Builds for Maven Central Repository
 | org.openapitools.openapidiff | [openapi-diff-parent](../content/org/openapitools/openapidiff/README.md) | 17 | 17 :white_check_mark: |
 | org.osgi | [test](../content/org/osgi/test/README.md) | 7 | 6 :white_check_mark: / 1 :warning: |
 | org.owasp.antisamy | [antisamy](../content/org/owasp/antisamy/README.md) | 19 | 18 :white_check_mark: / 1 :warning: |
-| org.owasp | [dependency-check](../content/org/owasp/dependency-check/README.md) | 67 | 48 :white_check_mark: / 19 :warning: |
+| org.owasp | [dependency-check](../content/org/owasp/dependency-check/README.md) | 68 | 49 :white_check_mark: / 19 :warning: |
 | org.quickperf | [quick-perf-live](../content/org/quickperf/quick-perf-live/README.md) | 3 | 3 :warning: |
 | | [quick-sql-test-data](../content/org/quickperf/quick-sql-test-data/README.md) | 1 | 1 :warning: |
 | org.sentrysoftware | [http](../content/org/sentrysoftware/http/README.md) | 2 | 2 :white_check_mark: |
@@ -932,7 +932,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 8 | 8 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 44 | 43 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 21 | 3 :white_check_mark: / 18 :warning: |
-| **Count:** | **918** | **8834** | **6424** :white_check_mark:<br>**2410** :warning: |
+| **Count:** | **918** | **8838** | **6428** :white_check_mark:<br>**2410** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -942,13 +942,13 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
 ```
      33 gradle     11
-    162 gradle     17
+    164 gradle     17
     114 gradle     21
       5 gradle     24
      35 mvn         7
    1551 mvn         8
       1 mvn         9
-   1645 mvn        11
+   1646 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.22
@@ -1011,7 +1011,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      22 mvn-3.9.11   8
      29 mvn-3.9.11  11
      71 mvn-3.9.11  17
-    144 mvn-3.9.11  21
+    145 mvn-3.9.11  21
       3 mvn-3.9.11  22
       2 mvn-3.9.11  24
       6 mvn-3.9.11  25
