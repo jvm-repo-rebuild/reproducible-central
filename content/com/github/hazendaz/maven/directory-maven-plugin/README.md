@@ -13,6 +13,7 @@ rebuilding **6 releases** of com.github.hazendaz.maven:directory-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.2.2](https://central.sonatype.com/artifact/com.github.hazendaz.maven/directory-maven-plugin/1.2.2/pom) | | | |
 | [1.2.1](https://central.sonatype.com/artifact/com.github.hazendaz.maven/directory-maven-plugin/1.2.1/pom) | [mvn jdk21 w](directory-maven-plugin-1.2.1.buildspec) | [result](directory-maven-plugin-1.2.1.buildinfo): [7 :white_check_mark: ](directory-maven-plugin-1.2.1.buildcompare) | | 278K |
 | [1.2.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/directory-maven-plugin/1.2.0/pom) | [mvn jdk22 w](directory-maven-plugin-1.2.0.buildspec) | [result](directory-maven-plugin-1.2.0.buildinfo): [5 :white_check_mark: ](directory-maven-plugin-1.2.0.buildcompare) | | 274K |
 | [1.1.3](https://central.sonatype.com/artifact/com.github.hazendaz.maven/directory-maven-plugin/1.1.3/pom) | [mvn jdk22 w](directory-maven-plugin-1.1.3.buildspec) | [result](directory-maven-plugin-1.1.3.buildinfo): [5 :white_check_mark: ](directory-maven-plugin-1.1.3.buildcompare) | | 272K |
