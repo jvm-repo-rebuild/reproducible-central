@@ -16,13 +16,13 @@ Source code: [https://github.com/telicent-oss/jena-fuseki-kafka](https://github.
 * [io.telicent.jena:jena-kafka-connector](https://central.sonatype.com/artifact/io.telicent.jena/jena-kafka-connector/overview)
 </details>
 
-rebuilding **9 releases** of io.telicent.jena:jena-kafka:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of io.telicent.jena:jena-kafka:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.1.1](https://central.sonatype.com/artifact/io.telicent.jena/jena-kafka/2.1.1/pom) | | | |
+| [2.1.1](https://central.sonatype.com/artifact/io.telicent.jena/jena-kafka/2.1.1/pom) | [mvn jdk17](jena-kafka-2.1.1.buildspec) | [result](jena-kafka-2.1.1.buildinfo): [24 :white_check_mark: ](jena-kafka-2.1.1.buildcompare) | | 63M |
 | [2.1.0](https://central.sonatype.com/artifact/io.telicent.jena/jena-kafka/2.1.0/pom) | [mvn jdk17](jena-kafka-2.1.0.buildspec) | [result](jena-kafka-2.1.0.buildinfo): [24 :white_check_mark: ](jena-kafka-2.1.0.buildcompare) | | 63M |
 | [2.0.2](https://central.sonatype.com/artifact/io.telicent.jena/jena-kafka/2.0.2/pom) | [mvn jdk17](jena-kafka-2.0.2.buildspec) | [result](jena-kafka-2.0.2.buildinfo): [24 :white_check_mark: ](jena-kafka-2.0.2.buildcompare) | | 59M |
 | [2.0.1](https://central.sonatype.com/artifact/io.telicent.jena/jena-kafka/2.0.1/pom) | [mvn jdk17](jena-kafka-2.0.1.buildspec) | [result](jena-kafka-2.0.1.buildinfo): [24 :white_check_mark: ](jena-kafka-2.0.1.buildcompare) | | 55M |
