@@ -14,13 +14,13 @@ Source code: [https://github.com/hazendaz/displaytag.git](https://github.com/haz
 * [com.github.hazendaz:displaytag-examples](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-examples/overview)
 </details>
 
-rebuilding **17 releases** of com.github.hazendaz:displaytag-doc:
-- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **18 releases** of com.github.hazendaz:displaytag-doc:
+- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.4.0](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.4.0/pom) | | | |
+| [3.4.0](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.4.0/pom) | [mvn jdk21 w](displaytag-doc-3.4.0.buildspec) | [result](displaytag-doc-3.4.0.buildinfo): [15 :white_check_mark: ](displaytag-doc-3.4.0.buildcompare) | | 17M |
 | [3.3.0](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.3.0/pom) | [mvn jdk21 w](displaytag-doc-3.3.0.buildspec) | [result](displaytag-doc-3.3.0.buildinfo): [15 :white_check_mark: ](displaytag-doc-3.3.0.buildcompare) | | 17M |
 | [3.2.0](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.2.0/pom) | [mvn jdk21 w](displaytag-doc-3.2.0.buildspec) | [result](displaytag-doc-3.2.0.buildinfo): [15 :white_check_mark: ](displaytag-doc-3.2.0.buildcompare) | | 18M |
 | [3.1.0](https://central.sonatype.com/artifact/com.github.hazendaz/displaytag-doc/3.1.0/pom) | [mvn jdk21 w](displaytag-doc-3.1.0.buildspec) | [result](displaytag-doc-3.1.0.buildinfo): [15 :white_check_mark: ](displaytag-doc-3.1.0.buildcompare) | | 18M |
