@@ -3,8 +3,8 @@
   <groupId>com.github.spotbugs</groupId>
   <artifactId>spotbugs-maven-plugin</artifactId>
   <versioning>
-    <latest>4.9.6.0</latest>
-    <release>4.9.6.0</release>
+    <latest>4.9.7.0</latest>
+    <release>4.9.7.0</release>
     <versions>
       <version>3.1.0-RC5</version>
       <version>3.1.0-RC6</version>
@@ -80,7 +80,8 @@
       <version>4.9.4.2</version>
       <version>4.9.5.0</version>
       <version>4.9.6.0</version>
+      <version>4.9.7.0</version>
     </versions>
-    <lastUpdated>20250917140740</lastUpdated>
+    <lastUpdated>20251015010536</lastUpdated>
   </versioning>
 </metadata>
