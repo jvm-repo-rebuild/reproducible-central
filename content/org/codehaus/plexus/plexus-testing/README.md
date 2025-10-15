@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/codehaus-plexus/plexus-testing.git](https://github.com/codehaus-plexus/plexus-testing.git)
 
-rebuilding **8 releases** of org.codehaus.plexus:plexus-testing:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **9 releases** of org.codehaus.plexus:plexus-testing:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.7.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-testing/1.7.0/pom) | | | |
+| [1.7.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-testing/1.7.0/pom) | [mvn jdk21](plexus-testing-1.7.0.buildspec) | [result](plexus-testing-1.7.0.buildinfo): [4 :white_check_mark: ](plexus-testing-1.7.0.buildcompare) | | 36K |
 | [1.6.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-testing/1.6.1/pom) | [mvn jdk21](plexus-testing-1.6.1.buildspec) | [result](plexus-testing-1.6.1.buildinfo): [4 :white_check_mark: ](plexus-testing-1.6.1.buildcompare) | | 32K |
 | [1.6.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-testing/1.6.0/pom) | [mvn jdk21](plexus-testing-1.6.0.buildspec) | [result](plexus-testing-1.6.0.buildinfo): [4 :white_check_mark: ](plexus-testing-1.6.0.buildcompare) | | 30K |
 | [1.5.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-testing/1.5.0/pom) | [mvn jdk23](plexus-testing-1.5.0.buildspec) | [result](plexus-testing-1.5.0.buildinfo): [4 :white_check_mark: ](plexus-testing-1.5.0.buildcompare) | | 33K |
