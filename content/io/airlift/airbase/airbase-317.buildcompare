@@ -1,0 +1,9 @@
+version=317
+ok=4
+ko=0
+ignored=0
+okFiles="airbase-root-317.pom airbase-policy-317.pom airbase-policy-317.jar airbase-317.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="24 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
