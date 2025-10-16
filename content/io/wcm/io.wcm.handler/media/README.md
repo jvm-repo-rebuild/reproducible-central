@@ -14,6 +14,7 @@ rebuilding **46 releases** of io.wcm:io.wcm.handler.media:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.5.4](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.5.4/pom) | | | |
 | [2.5.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.5.2/pom) | [mvn jdk21 w](wcm-media-2.5.2.buildspec) | [result](io.wcm.handler.media-2.5.2.buildinfo): [3 :white_check_mark: ](io.wcm.handler.media-2.5.2.buildcompare) | | 1.7M |
 | [2.5.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.5.0/pom) | [mvn jdk21 w](wcm-media-2.5.0.buildspec) | [result](io.wcm.handler.media-2.5.0.buildinfo): [3 :white_check_mark: ](io.wcm.handler.media-2.5.0.buildcompare) | | 1.7M |
 | [2.4.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.4.2/pom) | [mvn jdk17 w](wcm-media-2.4.2.buildspec) | [result](io.wcm.handler.media-2.4.2.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.handler.media-2.4.2.buildcompare) | 1 :recycle: 1 :rotating_light: | 3.1M |
