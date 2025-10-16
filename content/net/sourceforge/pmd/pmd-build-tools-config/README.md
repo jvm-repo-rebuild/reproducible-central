@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/pmd/build-tools.git](https://github.com/pmd/build-tools.git)
 
-rebuilding **16 releases** of net.sourceforge.pmd:pmd-build-tools-config:
-- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **17 releases** of net.sourceforge.pmd:pmd-build-tools-config:
+- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [35](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-build-tools-config/35/pom) | | | |
+| [35](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-build-tools-config/35/pom) | [mvn jdk17](pmd-build-tools-config-35.buildspec) | [result](pmd-build-tools-config-35.buildinfo): [3 :white_check_mark: ](pmd-build-tools-config-35.buildcompare) | | 70K |
 | [34](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-build-tools-config/34/pom) | [mvn jdk11](pmd-build-tools-config-34.buildspec) | [result](pmd-build-tools-config-34.buildinfo): [3 :white_check_mark: ](pmd-build-tools-config-34.buildcompare) | | 69K |
 | [33](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-build-tools-config/33/pom) | [mvn jdk11](pmd-build-tools-config-33.buildspec) | [result](pmd-build-tools-config-33.buildinfo): [3 :white_check_mark: ](pmd-build-tools-config-33.buildcompare) | | 69K |
 | [32](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-build-tools-config/32/pom) | [mvn jdk11](pmd-build-tools-config-32.buildspec) | [result](pmd-build-tools-config-32.buildinfo): [3 :white_check_mark: ](pmd-build-tools-config-32.buildcompare) | | 66K |
