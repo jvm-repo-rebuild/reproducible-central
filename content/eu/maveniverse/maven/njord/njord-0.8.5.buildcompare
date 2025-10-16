@@ -1,0 +1,9 @@
+version=0.8.5
+ok=26
+ko=0
+ignored=0
+okFiles="njord-0.8.5.pom core-0.8.5.pom core-0.8.5.jar core-0.8.5-sources.jar publisher-0.8.5.pom deploy-0.8.5.pom deploy-0.8.5.jar deploy-0.8.5-sources.jar sonatype-central-0.8.5.pom sonatype-central-0.8.5.jar sonatype-central-0.8.5-sources.jar sonatype-cp-0.8.5.pom sonatype-cp-0.8.5.jar sonatype-cp-0.8.5-sources.jar sonatype-nx2-0.8.5.pom sonatype-nx2-0.8.5.jar sonatype-nx2-0.8.5-sources.jar apache-0.8.5.pom apache-0.8.5.jar apache-0.8.5-sources.jar extension3-0.8.5.pom extension3-0.8.5.jar extension3-0.8.5-sources.jar njord-0.8.5.pom njord-0.8.5.jar njord-0.8.5-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
