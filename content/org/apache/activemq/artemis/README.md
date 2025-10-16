@@ -230,13 +230,13 @@ Source code: [https://github.com/apache/activemq-artemis.git](https://github.com
 * [org.apache.activemq:artemis-website](https://central.sonatype.com/artifact/org.apache.activemq/artemis-website/overview)
 </details>
 
-rebuilding **19 releases** of org.apache.activemq:artemis-pom:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **20 releases** of org.apache.activemq:artemis-pom:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.43.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.43.0/pom) | | | |
+| [2.43.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.43.0/pom) | [mvn jdk17](artemis-2.43.0.buildspec) | [result](artemis-project-2.43.0.buildinfo): [152 :white_check_mark: ](artemis-project-2.43.0.buildcompare) | | 199M |
 | [2.42.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.42.0/pom) | [mvn jdk17](artemis-2.42.0.buildspec) | [result](artemis-project-2.42.0.buildinfo): [152 :white_check_mark: ](artemis-project-2.42.0.buildcompare) | | 201M |
 | [2.41.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.41.0/pom) | [mvn jdk17](artemis-2.41.0.buildspec) | [result](artemis-project-2.41.0.buildinfo): [152 :white_check_mark: ](artemis-project-2.41.0.buildcompare) | | 201M |
 | [2.40.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.40.0/pom) | [mvn jdk17](artemis-2.40.0.buildspec) | [result](artemis-project-2.40.0.buildinfo): [152 :white_check_mark: ](artemis-project-2.40.0.buildcompare) | | 201M |
