@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Media Handler
+group-id=io.wcm
+artifact-id=io.wcm.handler.media
+version=2.5.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/io.wcm.handler.media.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.8
+
+# output
+
+outputs.0.groupId=io.wcm
+outputs.0.filename=io.wcm.handler.media-2.5.4.pom
+outputs.0.length=24001
+outputs.0.checksums.sha512=6169e957654916d9c158b6c87b9e60e280f9efc99faac5b8fc19d31019678d503b6c22577d7adc9f5b62f0814cb11705f6bbb14d32ff869d773701ad50a98643
+
+outputs.1.groupId=io.wcm
+outputs.1.filename=io.wcm.handler.media-2.5.4.jar
+outputs.1.length=1368159
+outputs.1.checksums.sha512=b9f550c72e576b657b4b7dc0d9915f14be406e95e453753cca09406f56cccb6efa8d05c59143aee75859d7961d397de363b75c3106ed4322a3a44d9b15ab6a57
+
+outputs.2.groupId=io.wcm
+outputs.2.filename=io.wcm.handler.media-2.5.4-sources.jar
+outputs.2.length=314433
+outputs.2.checksums.sha512=32e7eb59053d67dfcc3be18d2aa8f91ffe7f24fca2d685a1d706286345cc7ae4f9d44582009490d7e21b15374935f1fa99840fa3d244490aea83d3fa76774411
