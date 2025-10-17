@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=nifi-api
+group-id=org.apache.nifi
+artifact-id=nifi-api
+version=2.4.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/nifi-api
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.14.0-1012-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.apache.nifi
+outputs.0.filename=nifi-api-2.4.0.pom
+outputs.0.length=11578
+outputs.0.checksums.sha512=61fe16111ce6102691e4e861d2c2954cb935e931b27e71852d3f65415844121fe78b4038686852b3e2b41af55766cc1302dd415a7d1535c24ac2067d2700f0e1
+
+outputs.1.groupId=org.apache.nifi
+outputs.1.filename=nifi-api-2.4.0.jar
+outputs.1.length=355878
+outputs.1.checksums.sha512=95252e30fcbd99f18aca62ec57b96ff1d9bb34fbdf4e48e77f9538785507479318ce2dfc4fd8c62e6ad84348927be61b2189e0be49b5a2e8de2399a09f1052b0
+
+outputs.2.groupId=org.apache.nifi
+outputs.2.filename=nifi-api-2.4.0-source-release.zip
+outputs.2.length=430573
+outputs.2.checksums.sha512=05daf5e7863a55cf1c22bbf7086600c9fcdbae499936574d98d29bd9ebdd2add7a55bb460c002e4a36375ef5ba107d7b4ef439d44206cf04cdab21bffa8d1cdd
+
+outputs.3.groupId=org.apache.nifi
+outputs.3.filename=nifi-api-2.4.0-sources.jar
+outputs.3.length=381435
+outputs.3.checksums.sha512=ef22c83afac99a1a42c1054326c79e4b4b92bc9c438ac5a51cd3e4b3719a4e8f8b65b61a3536ad3ff8fd5fa4f5659f03cb94447295432e1f0906000614ec48d4
