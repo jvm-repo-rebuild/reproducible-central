@@ -50,6 +50,7 @@ displayOptional  "referenceRepo" "$DEFAULT_referenceRepo"
 displayMandatory "groupId"
 displayMandatory "artifactId"
 displayMandatory "version"
+echo "|    => ${referenceRepo:-$DEFAULT_referenceRepo}$(echo ${groupId} | tr '.' '/')/${artifactId}/${version}"
 echo "| 2. from which sources?"
 if [ -z "${sourceDistribution}" ]
 then
