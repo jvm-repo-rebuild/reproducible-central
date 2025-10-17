@@ -3,8 +3,8 @@
   <groupId>de.cuioss</groupId>
   <artifactId>cui-parent-pom</artifactId>
   <versioning>
-    <latest>1.3.3</latest>
-    <release>1.3.3</release>
+    <latest>1.3.6</latest>
+    <release>1.3.6</release>
     <versions>
       <version>0.2.0</version>
       <version>0.2.1</version>
@@ -114,7 +114,10 @@
       <version>1.3.1</version>
       <version>1.3.2</version>
       <version>1.3.3</version>
+      <version>1.3.4</version>
+      <version>1.3.5</version>
+      <version>1.3.6</version>
     </versions>
-    <lastUpdated>20251014100350</lastUpdated>
+    <lastUpdated>20251017144538</lastUpdated>
   </versioning>
 </metadata>
