@@ -1,0 +1,17 @@
+version=6.11.0
+ok=5
+ko=2
+ignored=0
+okFiles="bcel-6.11.0.pom bcel-6.11.0.jar bcel-6.11.0-sources.jar bcel-6.11.0-cyclonedx.xml bcel-6.11.0-cyclonedx.json"
+koFiles="bcel-6.11.0-tests.jar bcel-6.11.0-test-sources.jar"
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.bcel/bcel-6.11.0-tests.jar target/bcel-6.11.0-tests.jar
+# diffoscope target/reference/org.apache.bcel/bcel-6.11.0-test-sources.jar target/bcel-6.11.0-test-sources.jar
+stabilize_ok=0
+stabilize_ko=2
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="bcel-6.11.0-tests.jar.stabilized bcel-6.11.0-test-sources.jar.stabilized"
+stabilize_ignoredFiles=""
