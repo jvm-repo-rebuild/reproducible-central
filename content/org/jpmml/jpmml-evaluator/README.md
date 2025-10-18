@@ -26,6 +26,7 @@ rebuilding **12 releases** of org.jpmml:jpmml-evaluator:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.7.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/1.7.5/pom) | | | |
 | [1.7.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/1.7.4/pom) | [mvn jdk11](jpmml-evaluator-1.7.4.buildspec) | [result](jpmml-evaluator-1.7.4.buildinfo): [8 :white_check_mark:  11 :warning:](jpmml-evaluator-1.7.4.buildcompare) | 10 :recycle: 1 :rotating_light: | 1.2M |
 | [1.7.3](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/1.7.3/pom) | [mvn jdk11](jpmml-evaluator-1.7.3.buildspec) | [result](jpmml-evaluator-1.7.3.buildinfo): [8 :white_check_mark:  11 :warning:](jpmml-evaluator-1.7.3.buildcompare) | - | 1.2M |
 | [1.7.2](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/1.7.2/pom) | [mvn jdk11](jpmml-evaluator-1.7.2.buildspec) | [result](jpmml-evaluator-1.7.2.buildinfo): [8 :white_check_mark:  11 :warning:](jpmml-evaluator-1.7.2.buildcompare) | - | 1.2M |

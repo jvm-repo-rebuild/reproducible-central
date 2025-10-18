@@ -23,6 +23,7 @@ rebuilding **4 releases** of org.apache.rat:apache-rat-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.17](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/0.17/pom) | | | |
 | [0.16.1](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/0.16.1/pom) | [mvn jdk16](apache-rat-0.16.1.buildspec) | [result](apache-rat-project-0.16.1.buildinfo): [20 :white_check_mark: ](apache-rat-project-0.16.1.buildcompare) | | 22M |
 | [0.16](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/0.16/pom) | [mvn jdk16](apache-rat-0.16.buildspec) | [result](apache-rat-project-0.16.buildinfo): [23 :white_check_mark: ](apache-rat-project-0.16.buildcompare) | | 17M |
 | [0.15](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/0.15/pom) | [mvn jdk16](apache-rat-0.15.buildspec) | [result](apache-rat-project-0.15.buildinfo): [22 :white_check_mark: ](apache-rat-project-0.15.buildcompare) | | 12M |
