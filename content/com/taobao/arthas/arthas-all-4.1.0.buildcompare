@@ -1,0 +1,92 @@
+version=4.1.0
+ok=1
+ko=75
+ignored=0
+okFiles="arthas-all-4.1.0.pom"
+koFiles="math-game-4.1.0.pom math-game-4.1.0.jar math-game-4.1.0-sources.jar arthas-common-4.1.0.pom arthas-common-4.1.0.jar arthas-common-4.1.0-sources.jar arthas-spy-4.1.0.pom arthas-spy-4.1.0.jar arthas-spy-4.1.0-sources.jar arthas-tunnel-common-4.1.0.pom arthas-tunnel-common-4.1.0.jar arthas-tunnel-common-4.1.0-sources.jar arthas-tunnel-client-4.1.0.pom arthas-tunnel-client-4.1.0.jar arthas-tunnel-client-4.1.0-sources.jar arthas-memorycompiler-4.1.0.pom arthas-memorycompiler-4.1.0.jar arthas-memorycompiler-4.1.0-sources.jar arthas-mcp-server-4.1.0.pom arthas-mcp-server-4.1.0.jar arthas-mcp-server-4.1.0-sources.jar arthas-core-4.1.0.pom arthas-core-4.1.0.jar arthas-core-4.1.0-sources.jar arthas-agent-4.1.0.pom arthas-agent-4.1.0.jar arthas-agent-4.1.0-sources.jar arthas-agent-4.1.0-jar-with-dependencies.jar arthas-client-4.1.0.pom arthas-client-4.1.0.jar arthas-client-4.1.0-sources.jar arthas-client-4.1.0-jar-with-dependencies.jar arthas-boot-4.1.0.pom arthas-boot-4.1.0.jar arthas-boot-4.1.0-sources.jar arthas-boot-4.1.0-jar-with-dependencies.jar arthas-agent-attach-4.1.0.pom arthas-agent-attach-4.1.0.jar arthas-agent-attach-4.1.0-sources.jar arthas-site-4.1.0.pom arthas-site-4.1.0.jar arthas-packaging-4.1.0.pom arthas-packaging-4.1.0.jar arthas-packaging-4.1.0-bin.zip arthas-packaging-4.1.0-doc.zip arthas-packaging-4.1.0.deb arthas-spring-boot-starter-4.1.0.pom arthas-spring-boot-starter-4.1.0.jar arthas-spring-boot-starter-4.1.0-sources.jar arthas-testcase-4.1.0.pom arthas-testcase-4.1.0.jar arthas-testcase-4.1.0-sources.jar arthas-grpc-web-proxy-4.1.0.pom arthas-grpc-web-proxy-4.1.0.jar arthas-grpc-web-proxy-4.1.0-sources.jar native-agent-common-4.1.0.pom native-agent-common-4.1.0.jar native-agent-common-4.1.0-sources.jar native-agent-4.1.0.pom native-agent-4.1.0.jar native-agent-4.1.0-sources.jar native-agent-management-web-4.1.0.pom native-agent-management-web-4.1.0.jar native-agent-management-web-4.1.0-sources.jar native-agent-proxy-4.1.0.pom native-agent-proxy-4.1.0.jar native-agent-proxy-4.1.0-sources.jar arthas-grpc-server-4.1.0.pom arthas-grpc-server-4.1.0.jar arthas-grpc-server-4.1.0-sources.jar"
+ignoredFiles=""
+missing=5
+missingFiles="web-ui-4.1.0.pom arthas-tunnel-server-4.1.0.pom arthas-tunnel-server-4.1.0.jar arthas-tunnel-server-4.1.0-fatjar.jar arthas-tunnel-server-4.1.0-sources.jar"
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# wget https://repo.maven.apache.org/maven2/com/taobao/arthas/web-ui/4.1.0/web-ui-4.1.0.pom; ls -l web-ui/pom.xml
+# diffoscope target/reference/com.taobao.arthas/math-game-4.1.0.pom math-game/.flattened-pom.xml
+# diffoscope target/reference/com.taobao.arthas/math-game-4.1.0.jar math-game/target/math-game.jar
+# diffoscope target/reference/com.taobao.arthas/math-game-4.1.0-sources.jar math-game/target/math-game-sources.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-common-4.1.0.pom common/.flattened-pom.xml
+# diffoscope target/reference/com.taobao.arthas/arthas-common-4.1.0.jar common/target/arthas-common.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-common-4.1.0-sources.jar common/target/arthas-common-sources.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-spy-4.1.0.pom spy/.flattened-pom.xml
+# diffoscope target/reference/com.taobao.arthas/arthas-spy-4.1.0.jar spy/target/arthas-spy.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-spy-4.1.0-sources.jar spy/target/arthas-spy-sources.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-tunnel-common-4.1.0.pom tunnel-common/.flattened-pom.xml
+# diffoscope target/reference/com.taobao.arthas/arthas-tunnel-common-4.1.0.jar tunnel-common/target/arthas-tunnel-common-4.1.0.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-tunnel-common-4.1.0-sources.jar tunnel-common/target/arthas-tunnel-common-4.1.0-sources.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-tunnel-client-4.1.0.pom tunnel-client/.flattened-pom.xml
+# diffoscope target/reference/com.taobao.arthas/arthas-tunnel-client-4.1.0.jar tunnel-client/target/arthas-tunnel-client-4.1.0.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-tunnel-client-4.1.0-sources.jar tunnel-client/target/arthas-tunnel-client-4.1.0-sources.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-memorycompiler-4.1.0.pom memorycompiler/.flattened-pom.xml
+# diffoscope target/reference/com.taobao.arthas/arthas-memorycompiler-4.1.0.jar memorycompiler/target/arthas-memorycompiler-4.1.0.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-memorycompiler-4.1.0-sources.jar memorycompiler/target/arthas-memorycompiler-4.1.0-sources.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-mcp-server-4.1.0.pom labs/arthas-mcp-server/.flattened-pom.xml
+# diffoscope target/reference/com.taobao.arthas/arthas-mcp-server-4.1.0.jar labs/arthas-mcp-server/target/arthas-mcp-server.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-mcp-server-4.1.0-sources.jar labs/arthas-mcp-server/target/arthas-mcp-server-sources.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-core-4.1.0.pom core/dependency-reduced-pom.xml
+# diffoscope target/reference/com.taobao.arthas/arthas-core-4.1.0.jar core/target/arthas-core.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-core-4.1.0-sources.jar core/target/arthas-core-sources.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-agent-4.1.0.pom agent/.flattened-pom.xml
+# diffoscope target/reference/com.taobao.arthas/arthas-agent-4.1.0.jar agent/target/arthas-agent.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-agent-4.1.0-sources.jar agent/target/arthas-agent-sources.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-agent-4.1.0-jar-with-dependencies.jar agent/target/arthas-agent-jar-with-dependencies.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-client-4.1.0.pom client/.flattened-pom.xml
+# diffoscope target/reference/com.taobao.arthas/arthas-client-4.1.0.jar client/target/arthas-client.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-client-4.1.0-sources.jar client/target/arthas-client-sources.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-client-4.1.0-jar-with-dependencies.jar client/target/arthas-client-jar-with-dependencies.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-boot-4.1.0.pom boot/.flattened-pom.xml
+# diffoscope target/reference/com.taobao.arthas/arthas-boot-4.1.0.jar boot/target/arthas-boot.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-boot-4.1.0-sources.jar boot/target/arthas-boot-sources.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-boot-4.1.0-jar-with-dependencies.jar boot/target/arthas-boot-jar-with-dependencies.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-agent-attach-4.1.0.pom arthas-agent-attach/.flattened-pom.xml
+# diffoscope target/reference/com.taobao.arthas/arthas-agent-attach-4.1.0.jar arthas-agent-attach/target/arthas-agent-attach-4.1.0.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-agent-attach-4.1.0-sources.jar arthas-agent-attach/target/arthas-agent-attach-4.1.0-sources.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-site-4.1.0.pom site/.flattened-pom.xml
+# diffoscope target/reference/com.taobao.arthas/arthas-site-4.1.0.jar site/target/arthas-site.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-packaging-4.1.0.pom packaging/.flattened-pom.xml
+# diffoscope target/reference/com.taobao.arthas/arthas-packaging-4.1.0.jar packaging/target/arthas.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-packaging-4.1.0-bin.zip packaging/target/arthas-bin.zip
+# diffoscope target/reference/com.taobao.arthas/arthas-packaging-4.1.0-doc.zip packaging/target/arthas-doc.zip
+# diffoscope target/reference/com.taobao.arthas/arthas-packaging-4.1.0.deb packaging/target/arthas-4.1.0.deb
+# diffoscope target/reference/com.taobao.arthas/arthas-spring-boot-starter-4.1.0.pom arthas-spring-boot-starter/.flattened-pom.xml
+# diffoscope target/reference/com.taobao.arthas/arthas-spring-boot-starter-4.1.0.jar arthas-spring-boot-starter/target/arthas-spring-boot-starter-4.1.0.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-spring-boot-starter-4.1.0-sources.jar arthas-spring-boot-starter/target/arthas-spring-boot-starter-4.1.0-sources.jar
+# wget https://repo.maven.apache.org/maven2/com/taobao/arthas/arthas-tunnel-server/4.1.0/arthas-tunnel-server-4.1.0.pom; ls -l tunnel-server/.flattened-pom.xml
+# wget https://repo.maven.apache.org/maven2/com/taobao/arthas/arthas-tunnel-server/4.1.0/arthas-tunnel-server-4.1.0.jar; ls -l tunnel-server/target/arthas-tunnel-server-4.1.0.jar
+# wget https://repo.maven.apache.org/maven2/com/taobao/arthas/arthas-tunnel-server/4.1.0/arthas-tunnel-server-4.1.0-fatjar.jar; ls -l tunnel-server/target/arthas-tunnel-server-4.1.0-fatjar.jar
+# wget https://repo.maven.apache.org/maven2/com/taobao/arthas/arthas-tunnel-server/4.1.0/arthas-tunnel-server-4.1.0-sources.jar; ls -l tunnel-server/target/arthas-tunnel-server-4.1.0-sources.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-testcase-4.1.0.pom testcase/.flattened-pom.xml
+# diffoscope target/reference/com.taobao.arthas/arthas-testcase-4.1.0.jar testcase/target/arthas-testcase-4.1.0.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-testcase-4.1.0-sources.jar testcase/target/arthas-testcase-4.1.0-sources.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-grpc-web-proxy-4.1.0.pom labs/arthas-grpc-web-proxy/.flattened-pom.xml
+# diffoscope target/reference/com.taobao.arthas/arthas-grpc-web-proxy-4.1.0.jar labs/arthas-grpc-web-proxy/target/arthas-grpc-web-proxy.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-grpc-web-proxy-4.1.0-sources.jar labs/arthas-grpc-web-proxy/target/arthas-grpc-web-proxy-sources.jar
+# diffoscope target/reference/com.taobao.arthas/native-agent-common-4.1.0.pom labs/cluster-management/native-agent-common/.flattened-pom.xml
+# diffoscope target/reference/com.taobao.arthas/native-agent-common-4.1.0.jar labs/cluster-management/native-agent-common/target/native-agent-common-4.1.0.jar
+# diffoscope target/reference/com.taobao.arthas/native-agent-common-4.1.0-sources.jar labs/cluster-management/native-agent-common/target/native-agent-common-4.1.0-sources.jar
+# diffoscope target/reference/com.taobao.arthas/native-agent-4.1.0.pom labs/cluster-management/native-agent/dependency-reduced-pom.xml
+# diffoscope target/reference/com.taobao.arthas/native-agent-4.1.0.jar labs/cluster-management/native-agent/target/native-agent-4.1.0.jar
+# diffoscope target/reference/com.taobao.arthas/native-agent-4.1.0-sources.jar labs/cluster-management/native-agent/target/native-agent-4.1.0-sources.jar
+# diffoscope target/reference/com.taobao.arthas/native-agent-management-web-4.1.0.pom labs/cluster-management/native-agent-management-web/dependency-reduced-pom.xml
+# diffoscope target/reference/com.taobao.arthas/native-agent-management-web-4.1.0.jar labs/cluster-management/native-agent-management-web/target/native-agent-management-web-4.1.0.jar
+# diffoscope target/reference/com.taobao.arthas/native-agent-management-web-4.1.0-sources.jar labs/cluster-management/native-agent-management-web/target/native-agent-management-web-4.1.0-sources.jar
+# diffoscope target/reference/com.taobao.arthas/native-agent-proxy-4.1.0.pom labs/cluster-management/native-agent-proxy/dependency-reduced-pom.xml
+# diffoscope target/reference/com.taobao.arthas/native-agent-proxy-4.1.0.jar labs/cluster-management/native-agent-proxy/target/native-agent-proxy-4.1.0.jar
+# diffoscope target/reference/com.taobao.arthas/native-agent-proxy-4.1.0-sources.jar labs/cluster-management/native-agent-proxy/target/native-agent-proxy-4.1.0-sources.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-grpc-server-4.1.0.pom labs/arthas-grpc-server/.flattened-pom.xml
+# diffoscope target/reference/com.taobao.arthas/arthas-grpc-server-4.1.0.jar labs/arthas-grpc-server/target/arthas-grpc-server-4.1.0.jar
+# diffoscope target/reference/com.taobao.arthas/arthas-grpc-server-4.1.0-sources.jar labs/arthas-grpc-server/target/arthas-grpc-server-4.1.0-sources.jar
+stabilize_ok=0
+stabilize_ko=47
+stabilize_ignored=23
+stabilize_okFiles=""
+stabilize_koFiles="math-game-4.1.0.jar.stabilized math-game-4.1.0-sources.jar.stabilized arthas-common-4.1.0.jar.stabilized arthas-common-4.1.0-sources.jar.stabilized arthas-spy-4.1.0.jar.stabilized arthas-spy-4.1.0-sources.jar.stabilized arthas-tunnel-common-4.1.0.jar.stabilized arthas-tunnel-common-4.1.0-sources.jar.stabilized arthas-tunnel-client-4.1.0.jar.stabilized arthas-tunnel-client-4.1.0-sources.jar.stabilized arthas-memorycompiler-4.1.0.jar.stabilized arthas-memorycompiler-4.1.0-sources.jar.stabilized arthas-mcp-server-4.1.0.jar.stabilized arthas-mcp-server-4.1.0-sources.jar.stabilized arthas-core-4.1.0.jar.stabilized arthas-core-4.1.0-sources.jar.stabilized arthas-agent-4.1.0.jar.stabilized arthas-agent-4.1.0-sources.jar.stabilized arthas-agent-4.1.0-jar-with-dependencies.jar.stabilized arthas-client-4.1.0.jar.stabilized arthas-client-4.1.0-sources.jar.stabilized arthas-client-4.1.0-jar-with-dependencies.jar.stabilized arthas-boot-4.1.0.jar.stabilized arthas-boot-4.1.0-sources.jar.stabilized arthas-boot-4.1.0-jar-with-dependencies.jar.stabilized arthas-agent-attach-4.1.0.jar.stabilized arthas-agent-attach-4.1.0-sources.jar.stabilized arthas-site-4.1.0.jar.stabilized arthas-packaging-4.1.0.jar.stabilized arthas-packaging-4.1.0-bin.zip.stabilized arthas-packaging-4.1.0-doc.zip.stabilized arthas-spring-boot-starter-4.1.0.jar.stabilized arthas-spring-boot-starter-4.1.0-sources.jar.stabilized arthas-testcase-4.1.0.jar.stabilized arthas-testcase-4.1.0-sources.jar.stabilized arthas-grpc-web-proxy-4.1.0.jar.stabilized arthas-grpc-web-proxy-4.1.0-sources.jar.stabilized native-agent-common-4.1.0.jar.stabilized native-agent-common-4.1.0-sources.jar.stabilized native-agent-4.1.0.jar.stabilized native-agent-4.1.0-sources.jar.stabilized native-agent-management-web-4.1.0.jar.stabilized native-agent-management-web-4.1.0-sources.jar.stabilized native-agent-proxy-4.1.0.jar.stabilized native-agent-proxy-4.1.0-sources.jar.stabilized arthas-grpc-server-4.1.0.jar.stabilized arthas-grpc-server-4.1.0-sources.jar.stabilized"
+stabilize_ignoredFiles="math-game-4.1.0.pom arthas-common-4.1.0.pom arthas-spy-4.1.0.pom arthas-tunnel-common-4.1.0.pom arthas-tunnel-client-4.1.0.pom arthas-memorycompiler-4.1.0.pom arthas-mcp-server-4.1.0.pom arthas-core-4.1.0.pom arthas-agent-4.1.0.pom arthas-client-4.1.0.pom arthas-boot-4.1.0.pom arthas-agent-attach-4.1.0.pom arthas-site-4.1.0.pom arthas-packaging-4.1.0.pom arthas-packaging-4.1.0.deb arthas-spring-boot-starter-4.1.0.pom arthas-testcase-4.1.0.pom arthas-grpc-web-proxy-4.1.0.pom native-agent-common-4.1.0.pom native-agent-4.1.0.pom native-agent-management-web-4.1.0.pom native-agent-proxy-4.1.0.pom arthas-grpc-server-4.1.0.pom"
