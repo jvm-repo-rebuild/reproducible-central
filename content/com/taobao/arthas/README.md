@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/alibaba/arthas.git](https://github.com/alibaba/arthas.git)
 
-<details><summary>This project defines 27 modules:</summary>
+<details><summary>This project defines 28 modules:</summary>
 
 * [com.taobao.arthas:arthas-agent](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-agent/overview)
 * [com.taobao.arthas:arthas-agent-attach](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-agent-attach/overview)
@@ -21,6 +21,7 @@ Source code: [https://github.com/alibaba/arthas.git](https://github.com/alibaba/
 * [com.taobao.arthas:arthas-demo](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-demo/overview)
 * [com.taobao.arthas:arthas-grpc-server](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-grpc-server/overview)
 * [com.taobao.arthas:arthas-grpc-web-proxy](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-grpc-web-proxy/overview)
+* [com.taobao.arthas:arthas-mcp-server](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-mcp-server/overview)
 * [com.taobao.arthas:arthas-memorycompiler](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-memorycompiler/overview)
 * [com.taobao.arthas:arthas-packaging](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-packaging/overview)
 * [com.taobao.arthas:arthas-site](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-site/overview)
@@ -38,13 +39,14 @@ Source code: [https://github.com/alibaba/arthas.git](https://github.com/alibaba/
 * [com.taobao.arthas:web-ui](https://central.sonatype.com/artifact/com.taobao.arthas/web-ui/overview)
 </details>
 
-rebuilding **39 releases** of com.taobao.arthas:arthas-all:
+rebuilding **40 releases** of com.taobao.arthas:arthas-all:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 39 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 40 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.1.0](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/4.1.0/pom) | | | |
+| [4.1.0](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/4.1.0/pom) | [mvn jdk25](arthas-4.1.0.buildspec) | [result](arthas-all-4.1.0.buildinfo): [1 :white_check_mark:  75 :warning:](arthas-all-4.1.0.buildcompare) [:memo:](https://github.com/alibaba/arthas/pull/3001) | 47 :rotating_light: 23 :no_entry_sign: | 178M |
 | [4.0.5](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/4.0.5/pom) | [mvn jdk21](arthas-4.0.5.buildspec) | [result](arthas-all-4.0.5.buildinfo): [38 :white_check_mark:  35 :warning:](arthas-all-4.0.5.buildcompare) [:memo:](https://github.com/alibaba/arthas/pull/3001) | - | 168M |
 | [4.0.4](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/4.0.4/pom) | [mvn jdk21](arthas-4.0.4.buildspec) | [result](arthas-all-4.0.4.buildinfo): [38 :white_check_mark:  35 :warning:](arthas-all-4.0.4.buildcompare) [:memo:](https://github.com/alibaba/arthas/pull/3001) | - | 167M |
 | [4.0.3](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/4.0.3/pom) | [mvn jdk21](arthas-4.0.3.buildspec) | [result](arthas-all-4.0.3.buildinfo): [39 :white_check_mark:  34 :warning:](arthas-all-4.0.3.buildcompare) [:memo:](https://github.com/alibaba/arthas/pull/3001) | - | 174M |
