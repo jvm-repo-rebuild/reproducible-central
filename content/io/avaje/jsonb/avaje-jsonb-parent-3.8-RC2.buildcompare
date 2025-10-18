@@ -1,0 +1,16 @@
+version=3.8-RC2
+ok=21
+ko=2
+ignored=0
+okFiles="avaje-jsonb-parent-3.8-RC2.pom avaje-json-core-3.8-RC2.pom avaje-json-core-3.8-RC2.jar avaje-json-core-3.8-RC2-sources.jar avaje-json-node-3.8-RC2.pom avaje-json-node-3.8-RC2.jar avaje-json-node-3.8-RC2-sources.jar avaje-jsonb-inject-plugin-3.8-RC2.pom avaje-jsonb-inject-plugin-3.8-RC2.jar avaje-jsonb-inject-plugin-3.8-RC2-sources.jar avaje-jsonb-3.8-RC2.pom avaje-jsonb-3.8-RC2.jar avaje-jsonb-3.8-RC2-sources.jar avaje-jsonb-generator-3.8-RC2.pom avaje-jsonb-jackson-3.8-RC2.pom avaje-jsonb-jackson-3.8-RC2.jar avaje-jsonb-jackson-3.8-RC2-sources.jar avaje-jsonb-spring-starter-3.8-RC2.pom avaje-jsonb-spring-starter-3.8-RC2.jar avaje-jsonb-spring-starter-3.8-RC2-sources.jar avaje-jsonb-bom-3.8-RC2.pom"
+koFiles="avaje-jsonb-generator-3.8-RC2.jar avaje-jsonb-generator-3.8-RC2-sources.jar"
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+# diffoscope target/reference/io.avaje/avaje-jsonb-generator-3.8-RC2.jar jsonb-generator/target/avaje-jsonb-generator-3.8-RC2.jar
+# diffoscope target/reference/io.avaje/avaje-jsonb-generator-3.8-RC2-sources.jar jsonb-generator/target/avaje-jsonb-generator-3.8-RC2-sources.jar
+stabilize_ok=0
+stabilize_ko=2
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="avaje-jsonb-generator-3.8-RC2.jar.stabilized avaje-jsonb-generator-3.8-RC2-sources.jar.stabilized"
+stabilize_ignoredFiles=""
