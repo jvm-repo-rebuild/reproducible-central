@@ -1,0 +1,83 @@
+# is this a specific version of JDK?
+1 / 2 target/reference/org.apache.bcel/bcel-6.11.0-tests.jar target/bcel-6.11.0-tests.jar
+--- target/reference/org.apache.bcel/bcel-6.11.0-tests.jar
++++ target/bcel-6.11.0-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 540491 bytes, number of entries: 355
+│ +Zip file size: 540622 bytes, number of entries: 355
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Oct-09 23:19 META-INF/
+│  -rw-r--r--  2.0 unx     2241 b- defN 25-Oct-09 23:19 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Oct-09 23:19 com/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Oct-09 23:19 com/foo/
+│ @@ -157,15 +157,15 @@
+│  -rw-r--r--  2.0 unx      557 b- defN 25-Oct-09 23:19 org/apache/bcel/data/PLSETestClass2.class
+│  -rw-r--r--  2.0 unx     1104 b- defN 25-Oct-09 23:19 org/apache/bcel/data/PLSETestEnum.class
+│ --rw-r--r--  2.0 unx      781 b- defN 25-Oct-09 23:19 org/apache/bcel/data/SWAP.class
+│ +-rw-r--r--  2.0 unx     1031 b- defN 25-Oct-09 23:19 org/apache/bcel/data/SWAP.class
+│  -rw-r--r--  2.0 unx      424 b- defN 25-Oct-09 23:19 org/apache/bcel/data/SimpleAnnotatedClass.class
+│  -rw-r--r--  2.0 unx      411 b- defN 25-Oct-09 23:19 org/apache/bcel/data/SimpleAnnotation.class
+│ @@ -350,8 +350,8 @@
+│  -rw-r--r--  2.0 unx    22293 b- defN 25-Oct-09 23:19 META-INF/maven/org.apache.bcel/bcel/pom.xml
+│  -rw-r--r--  2.0 unx       55 b- defN 25-Oct-09 23:19 META-INF/maven/org.apache.bcel/bcel/pom.properties
+│ -355 files, 7882260 bytes uncompressed, 485389 bytes compressed:  93.8%
+│ +355 files, 7882510 bytes uncompressed, 485520 bytes compressed:  93.8%
+├── org/apache/bcel/data/SWAP.class
+│ ├── procyon -ec {}
+│ │ @@ -1,17 +1,31 @@
+│ │  
+│ │  package org.apache.bcel.data;
+│ │  
+│ │  import java.lang.reflect.Constructor;
+│ │  
+│ │  public class SWAP
+│ │  {
+│ │ +    static /* synthetic */ Class class$0;
+│ │ +    
+│ │      public static Constructor getTestConstructor(final Class theClass) throws NoSuchMethodException {
+│ │ -        final Class[] args = { String.class };
+│ │ +        final Class[] array = { null };
+│ │ +        final int n = 0;
+│ │ +        Class class$0;
+│ │ +        if ((class$0 = SWAP.class$0) == null) {
+│ │ +            try {
+│ │ +                class$0 = (SWAP.class$0 = Class.forName("java.lang.String"));
+│ │ +            }
+│ │ +            catch (final ClassNotFoundException ex) {
+│ │ +                throw new NoClassDefFoundError(ex.getMessage());
+│ │ +            }
+│ │ +        }
+│ │ +        array[n] = class$0;
+│ │ +        final Class[] args = array;
+│ │          try {
+│ │              return theClass.getConstructor((Class[])args);
+│ │          }
+│ │ -        catch (final NoSuchMethodException ex) {
+│ │ +        catch (final NoSuchMethodException ex2) {
+│ │              return theClass.getConstructor((Class[])new Class[0]);
+│ │          }
+│ │      }
+│ │  }
+
+# where does the additional directory come from?
+2 / 2 target/reference/org.apache.bcel/bcel-6.11.0-test-sources.jar target/bcel-6.11.0-test-sources.jar
+--- target/reference/org.apache.bcel/bcel-6.11.0-test-sources.jar
++++ target/bcel-6.11.0-test-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 281018 bytes, number of entries: 315
+│ +Zip file size: 280636 bytes, number of entries: 312
+│  -rw-r--r--  2.0 unx      319 b- defN 25-Oct-09 23:19 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Oct-09 23:19 META-INF/
+│ @@ -43,17 +43,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Oct-09 23:19 jpms/java19-ea/commons-io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Oct-09 23:19 kotlin/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Oct-09 23:19 org/apache/commons/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Oct-09 23:19 org/apache/commons/bcel/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Oct-09 23:19 org/apache/commons/bcel/classfile/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Oct-09 23:19 ossfuzz/
+│ @@ -310,8 +307,8 @@
+│  -rw-r--r--  2.0 unx    22293 b- defN 25-Oct-09 23:19 META-INF/maven/org.apache.bcel/bcel/pom.xml
+│  -rw-r--r--  2.0 unx       55 b- defN 25-Oct-09 23:19 META-INF/maven/org.apache.bcel/bcel/pom.properties
+│ -315 files, 964163 bytes uncompressed, 233840 bytes compressed:  75.7%
+│ +312 files, 964163 bytes uncompressed, 233840 bytes compressed:  75.7%
