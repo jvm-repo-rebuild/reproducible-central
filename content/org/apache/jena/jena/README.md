@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/jena.git](https://github.com/apache/jena.git)
 
-<details><summary>This project defines 69 modules:</summary>
+<details><summary>This project defines 70 modules:</summary>
 
 * [org.apache.jena:apache-jena](https://central.sonatype.com/artifact/org.apache.jena/apache-jena/overview)
 * [org.apache.jena:apache-jena-fuseki](https://central.sonatype.com/artifact/org.apache.jena/apache-jena-fuseki/overview)
@@ -20,6 +20,7 @@ Source code: [https://github.com/apache/jena.git](https://github.com/apache/jena
 * [org.apache.jena:jena-benchmarks-jmh](https://central.sonatype.com/artifact/org.apache.jena/jena-benchmarks-jmh/overview)
 * [org.apache.jena:jena-benchmarks-shadedJena480](https://central.sonatype.com/artifact/org.apache.jena/jena-benchmarks-shadedJena480/overview)
 * [org.apache.jena:jena-benchmarks-shadedJena510](https://central.sonatype.com/artifact/org.apache.jena/jena-benchmarks-shadedJena510/overview)
+* [org.apache.jena:jena-benchmarks-shadedJena550](https://central.sonatype.com/artifact/org.apache.jena/jena-benchmarks-shadedJena550/overview)
 * [org.apache.jena:jena-bom](https://central.sonatype.com/artifact/org.apache.jena/jena-bom/overview)
 * [org.apache.jena:jena-cmds](https://central.sonatype.com/artifact/org.apache.jena/jena-cmds/overview)
 * [org.apache.jena:jena-commonsrdf](https://central.sonatype.com/artifact/org.apache.jena/jena-commonsrdf/overview)
@@ -80,14 +81,14 @@ Source code: [https://github.com/apache/jena.git](https://github.com/apache/jena
 * [org.apache.jena:jena-text-es](https://central.sonatype.com/artifact/org.apache.jena/jena-text-es/overview)
 </details>
 
-rebuilding **12 releases** of org.apache.jena:jena:
+rebuilding **13 releases** of org.apache.jena:jena:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 12 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [5.6.0](https://central.sonatype.com/artifact/org.apache.jena/jena/5.6.0/pom) | | | |
+| [5.6.0](https://central.sonatype.com/artifact/org.apache.jena/jena/5.6.0/pom) | [mvn jdk17](jena-5.6.0.buildspec) | [result](jena-5.6.0.buildinfo): [272 :white_check_mark:  5 :warning:](jena-5.6.0.buildcompare) | 1 :recycle: 1 :rotating_light: 3 :no_entry_sign: | 429M |
 | [5.5.0](https://central.sonatype.com/artifact/org.apache.jena/jena/5.5.0/pom) | [mvn jdk17](jena-5.5.0.buildspec) | [result](jena-5.5.0.buildinfo): [267 :white_check_mark:  6 :warning:](jena-5.5.0.buildcompare) | 1 :recycle: 2 :rotating_light: 3 :no_entry_sign: | 406M |
 | [5.4.0](https://central.sonatype.com/artifact/org.apache.jena/jena/5.4.0/pom) | [mvn jdk17](jena-5.4.0.buildspec) | [result](jena-5.4.0.buildinfo): [267 :white_check_mark:  6 :warning:](jena-5.4.0.buildcompare) | - | 425M |
 | [5.3.0](https://central.sonatype.com/artifact/org.apache.jena/jena/5.3.0/pom) | [mvn jdk17](jena-5.3.0.buildspec) | [result](jena-5.3.0.buildinfo): [145 :white_check_mark:  123 :warning:](jena-5.3.0.buildcompare) | - | 421M |
