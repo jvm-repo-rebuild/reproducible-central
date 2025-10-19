@@ -1,13 +1,13 @@
-[org.apache.struts:struts2-parent](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/versions) RB check
+[org.apache.struts:struts2-project](https://central.sonatype.com/artifact/org.apache.struts/struts2-project/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.struts:struts2-parent](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/struts/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/struts/README.md)
+## Project: [org.apache.struts:struts2-project](https://central.sonatype.com/artifact/org.apache.struts/struts2-project/versions) [![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/content/org/apache/struts/badge.json)](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/struts/README.md)
 
 Source code: [https://github.com/apache/struts.git](https://github.com/apache/struts.git)
 
-<details><summary>This project defines 43 modules:</summary>
+<details><summary>This project defines 45 modules:</summary>
 
 * [org.apache.struts:struts2-apps](https://central.sonatype.com/artifact/org.apache.struts/struts2-apps/overview)
 * [org.apache.struts:struts2-assembly](https://central.sonatype.com/artifact/org.apache.struts/struts2-assembly/overview)
@@ -23,6 +23,7 @@ Source code: [https://github.com/apache/struts.git](https://github.com/apache/st
 * [org.apache.struts:struts2-gxp-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-gxp-plugin/overview)
 * [org.apache.struts:struts2-jakarta](https://central.sonatype.com/artifact/org.apache.struts/struts2-jakarta/overview)
 * [org.apache.struts:struts2-jasperreports-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-jasperreports-plugin/overview)
+* [org.apache.struts:struts2-jasperreports7-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-jasperreports7-plugin/overview)
 * [org.apache.struts:struts2-javatemplates-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-javatemplates-plugin/overview)
 * [org.apache.struts:struts2-jfreechart-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-jfreechart-plugin/overview)
 * [org.apache.struts:struts2-json-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-json-plugin/overview)
@@ -40,6 +41,7 @@ Source code: [https://github.com/apache/struts.git](https://github.com/apache/st
 * [org.apache.struts:struts2-portlet-mocks-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-portlet-mocks-plugin/overview)
 * [org.apache.struts:struts2-portlet-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-portlet-plugin/overview)
 * [org.apache.struts:struts2-portlet-tiles-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-portlet-tiles-plugin/overview)
+* [org.apache.struts:struts2-project](https://central.sonatype.com/artifact/org.apache.struts/struts2-project/overview)
 * [org.apache.struts:struts2-rest-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-rest-plugin/overview)
 * [org.apache.struts:struts2-rest-showcase](https://central.sonatype.com/artifact/org.apache.struts/struts2-rest-showcase/overview)
 * [org.apache.struts:struts2-showcase](https://central.sonatype.com/artifact/org.apache.struts/struts2-showcase/overview)
@@ -54,13 +56,13 @@ Source code: [https://github.com/apache/struts.git](https://github.com/apache/st
 * [org.apache.struts:struts2-xslt-plugin](https://central.sonatype.com/artifact/org.apache.struts/struts2-xslt-plugin/overview)
 </details>
 
-rebuilding **30 releases** of org.apache.struts:struts2-parent:
-- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **31 releases** of org.apache.struts:struts2-parent:
+- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 19 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [7.1.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/7.1.1/pom) | | | |
+| [7.1.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-project/7.1.1/pom) | [mvn jdk17](struts2-7.1.1.buildspec) | [result](struts2-project-7.1.1.buildinfo): [74 :white_check_mark: ](struts2-project-7.1.1.buildcompare) | | 46M |
 | [7.0.3](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/7.0.3/pom) | [mvn jdk17](struts2-7.0.3.buildspec) | [result](struts2-parent-7.0.3.buildinfo): [70 :white_check_mark: ](struts2-parent-7.0.3.buildcompare) | | 45M |
 | [7.0.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/7.0.0/pom) | [mvn jdk17](struts2-7.0.0.buildspec) | [result](struts2-parent-7.0.0.buildinfo): [70 :white_check_mark: ](struts2-parent-7.0.0.buildcompare) | | 45M |
 | [6.8.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.8.0/pom) | [mvn jdk8](struts2-6.8.0.buildspec) | [result](struts2-parent-6.8.0.buildinfo): [107 :white_check_mark: ](struts2-parent-6.8.0.buildcompare) | | 49M |
