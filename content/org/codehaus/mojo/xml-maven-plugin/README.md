@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.codehaus.mojo:xml-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.2.0](https://central.sonatype.com/artifact/org.codehaus.mojo/xml-maven-plugin/1.2.0/pom) | | | |
 | [1.1.0](https://central.sonatype.com/artifact/org.codehaus.mojo/xml-maven-plugin/1.1.0/pom) | [mvn jdk17](xml-maven-plugin-1.1.0.buildspec) | [result](xml-maven-plugin-1.1.0.buildinfo): [3 :white_check_mark:  1 :warning:](xml-maven-plugin-1.1.0.buildcompare) [:mag:](xml-maven-plugin-1.1.0.diffoscope) | - | 336K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

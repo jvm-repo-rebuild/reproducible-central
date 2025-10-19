@@ -13,6 +13,7 @@ rebuilding **11 releases** of org.apache.maven.plugins:maven-compiler-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.0.0-beta-3](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-compiler-plugin/4.0.0-beta-3/pom) | | | |
 | [4.0.0-beta-2](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-compiler-plugin/4.0.0-beta-2/pom) | [mvn jdk21](maven-compiler-plugin-4.0.0-beta-2.buildspec) | [result](maven-compiler-plugin-4.0.0-beta-2.buildinfo): [6 :white_check_mark: ](maven-compiler-plugin-4.0.0-beta-2.buildcompare) | | 1.1M |
 | [4.0.0-beta-1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-compiler-plugin/4.0.0-beta-1/pom) | [mvn jdk21](maven-compiler-plugin-4.0.0-beta-1.buildspec) | [result](maven-compiler-plugin-4.0.0-beta-1.buildinfo): [6 :white_check_mark: ](maven-compiler-plugin-4.0.0-beta-1.buildcompare) | | 1.1M |
 | [3.14.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.14.1/pom) | [mvn jdk17](maven-compiler-plugin-3.14.1.buildspec) | [result](maven-compiler-plugin-3.14.1.buildinfo): [6 :white_check_mark: ](maven-compiler-plugin-3.14.1.buildcompare) | | 1.2M |

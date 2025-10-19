@@ -13,6 +13,7 @@ rebuilding **10 releases** of org.codehaus.mojo:exec-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.6.2](https://central.sonatype.com/artifact/org.codehaus.mojo/exec-maven-plugin/3.6.2/pom) | | | |
 | [3.6.1](https://central.sonatype.com/artifact/org.codehaus.mojo/exec-maven-plugin/3.6.1/pom) | [mvn jdk21](exec-maven-plugin-3.6.1.buildspec) | [result](exec-maven-plugin-3.6.1.buildinfo): [4 :white_check_mark: ](exec-maven-plugin-3.6.1.buildcompare) | | 523K |
 | [3.6.0](https://central.sonatype.com/artifact/org.codehaus.mojo/exec-maven-plugin/3.6.0/pom) | [mvn jdk21](exec-maven-plugin-3.6.0.buildspec) | [result](exec-maven-plugin-3.6.0.buildinfo): [4 :white_check_mark: ](exec-maven-plugin-3.6.0.buildcompare) | | 523K |
 | [3.5.1](https://central.sonatype.com/artifact/org.codehaus.mojo/exec-maven-plugin/3.5.1/pom) | [mvn jdk21](exec-maven-plugin-3.5.1.buildspec) | [result](exec-maven-plugin-3.5.1.buildinfo): [4 :white_check_mark: ](exec-maven-plugin-3.5.1.buildcompare) | | 520K |

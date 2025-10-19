@@ -1,8 +1,8 @@
+content/ch/qos/logback/logback-1.5.19.buildspec:1.5.20
+content/com/github/hazendaz/git/github-desktop/github-desktop-3.5.2.buildspec:3.5.3
+content/com/hibegin/zrlog-base/zrlog-base-3.2.120.buildspec:3.2.121
 content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.1.6.buildspec:1.20
-content/eu/maveniverse/maven/mimir/mimir-0.10.1.buildspec:0.10.2
-content/eu/maveniverse/maven/toolbox/toolbox-0.14.0.buildspec:0.14.1
-content/nl/basjes/parse/useragent/yauaa/yauaa-7.31.0.buildspec:7.32.0
-content/org/apache/avro/avro-1.12.0.buildspec:1.12.1
-content/org/apache/rat/apache-rat-0.16.1.buildspec:0.17
-content/org/apache/struts/struts2-7.0.3.buildspec:7.1.1
+content/org/apache/cxf/cxf-build-utils/cxf-build-utils-4.1.1.buildspec:4.1.2
+content/org/apache/maven/plugins/maven-compiler-plugin/maven-compiler-plugin-4.0.0-beta-2.buildspec:4.0.0-beta-3
+content/org/codehaus/mojo/exec-maven-plugin/exec-maven-plugin-3.6.1.buildspec:3.6.2
 content/org/junit/junit5/junit5-6.0.0-RC3.buildspec:6.0.0
