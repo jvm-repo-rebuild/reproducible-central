@@ -1,0 +1,17 @@
+groupId=org.apache.avro
+artifactId=avro-toplevel
+display=${groupId}:${artifactId}
+version=1.12.1
+
+gitRepo=https://github.com/apache/avro.git
+gitTag=release-${version}
+
+tool=mvn-3.9.11
+jdk=24
+toolchains="17|21|24"
+newline=lf
+
+command="mvn -Pdist clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.ignore='*/*-tests.jar,*/*-test-resource.jar'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
