@@ -1,0 +1,33 @@
+version=0.17
+ok=7
+ko=18
+ignored=0
+okFiles="apache-rat-project-0.17.pom apache-rat-testdata-0.17.pom apache-rat-core-0.17.pom apache-rat-tools-0.17.pom apache-rat-plugin-0.17.pom apache-rat-tasks-0.17.pom apache-rat-0.17.pom"
+koFiles="apache-rat-testdata-0.17.jar apache-rat-testdata-0.17-sources.jar apache-rat-core-0.17.jar apache-rat-core-0.17-tests.jar apache-rat-core-0.17-sources.jar apache-rat-tools-0.17.jar apache-rat-tools-0.17-sources.jar apache-rat-plugin-0.17.jar apache-rat-plugin-0.17-sources.jar apache-rat-tasks-0.17.jar apache-rat-tasks-0.17-sources.jar apache-rat-0.17.jar apache-rat-0.17-bin.zip apache-rat-0.17-bin.tar.gz apache-rat-0.17-bin.tar.bz2 apache-rat-0.17-src.zip apache-rat-0.17-src.tar.gz apache-rat-0.17-src.tar.bz2"
+ignoredFiles=""
+reference_java_version="16 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.rat/apache-rat-testdata-0.17.jar apache-rat-testdata/target/apache-rat-testdata-0.17.jar
+# diffoscope target/reference/org.apache.rat/apache-rat-testdata-0.17-sources.jar apache-rat-testdata/target/apache-rat-testdata-0.17-sources.jar
+# diffoscope target/reference/org.apache.rat/apache-rat-core-0.17.jar apache-rat-core/target/apache-rat-core-0.17.jar
+# diffoscope target/reference/org.apache.rat/apache-rat-core-0.17-tests.jar apache-rat-core/target/apache-rat-core-0.17-tests.jar
+# diffoscope target/reference/org.apache.rat/apache-rat-core-0.17-sources.jar apache-rat-core/target/apache-rat-core-0.17-sources.jar
+# diffoscope target/reference/org.apache.rat/apache-rat-tools-0.17.jar apache-rat-tools/target/apache-rat-tools-0.17.jar
+# diffoscope target/reference/org.apache.rat/apache-rat-tools-0.17-sources.jar apache-rat-tools/target/apache-rat-tools-0.17-sources.jar
+# diffoscope target/reference/org.apache.rat/apache-rat-plugin-0.17.jar apache-rat-plugin/target/apache-rat-plugin-0.17.jar
+# diffoscope target/reference/org.apache.rat/apache-rat-plugin-0.17-sources.jar apache-rat-plugin/target/apache-rat-plugin-0.17-sources.jar
+# diffoscope target/reference/org.apache.rat/apache-rat-tasks-0.17.jar apache-rat-tasks/target/apache-rat-tasks-0.17.jar
+# diffoscope target/reference/org.apache.rat/apache-rat-tasks-0.17-sources.jar apache-rat-tasks/target/apache-rat-tasks-0.17-sources.jar
+# diffoscope target/reference/org.apache.rat/apache-rat-0.17.jar apache-rat/target/apache-rat-0.17.jar
+# diffoscope target/reference/org.apache.rat/apache-rat-0.17-bin.zip apache-rat/target/apache-rat-0.17-bin.zip
+# diffoscope target/reference/org.apache.rat/apache-rat-0.17-bin.tar.gz apache-rat/target/apache-rat-0.17-bin.tar.gz
+# diffoscope target/reference/org.apache.rat/apache-rat-0.17-bin.tar.bz2 apache-rat/target/apache-rat-0.17-bin.tar.bz2
+# diffoscope target/reference/org.apache.rat/apache-rat-0.17-src.zip apache-rat/target/apache-rat-0.17-src.zip
+# diffoscope target/reference/org.apache.rat/apache-rat-0.17-src.tar.gz apache-rat/target/apache-rat-0.17-src.tar.gz
+# diffoscope target/reference/org.apache.rat/apache-rat-0.17-src.tar.bz2 apache-rat/target/apache-rat-0.17-src.tar.bz2
+stabilize_ok=8
+stabilize_ko=6
+stabilize_ignored=4
+stabilize_okFiles="apache-rat-testdata-0.17.jar.stabilized apache-rat-testdata-0.17-sources.jar.stabilized apache-rat-core-0.17.jar.stabilized apache-rat-core-0.17-sources.jar.stabilized apache-rat-tools-0.17.jar.stabilized apache-rat-tools-0.17-sources.jar.stabilized apache-rat-plugin-0.17.jar.stabilized apache-rat-plugin-0.17-sources.jar.stabilized"
+stabilize_koFiles="apache-rat-core-0.17-tests.jar.stabilized apache-rat-tasks-0.17.jar.stabilized apache-rat-tasks-0.17-sources.jar.stabilized apache-rat-0.17.jar.stabilized apache-rat-0.17-bin.zip.stabilized apache-rat-0.17-src.zip.stabilized"
+stabilize_ignoredFiles="apache-rat-0.17-bin.tar.gz apache-rat-0.17-bin.tar.bz2 apache-rat-0.17-src.tar.gz apache-rat-0.17-src.tar.bz2"

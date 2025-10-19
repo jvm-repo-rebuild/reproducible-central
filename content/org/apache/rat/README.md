@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/creadur-rat.git](https://github.com/apache/creadur-rat.git)
 
-<details><summary>This project defines 6 modules:</summary>
+<details><summary>This project defines 8 modules:</summary>
 
 * [org.apache.rat:apache-rat](https://central.sonatype.com/artifact/org.apache.rat/apache-rat/overview)
 * [org.apache.rat:apache-rat-api](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-api/overview)
@@ -15,15 +15,18 @@ Source code: [https://github.com/apache/creadur-rat.git](https://github.com/apac
 * [org.apache.rat:apache-rat-plugin](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-plugin/overview)
 * [org.apache.rat:apache-rat-project](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/overview)
 * [org.apache.rat:apache-rat-tasks](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-tasks/overview)
+* [org.apache.rat:apache-rat-testdata](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-testdata/overview)
+* [org.apache.rat:apache-rat-tools](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-tools/overview)
 </details>
 
-rebuilding **4 releases** of org.apache.rat:apache-rat-project:
+rebuilding **5 releases** of org.apache.rat:apache-rat-project:
 - **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.17](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/0.17/pom) | | | |
+| [0.17](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/0.17/pom) | [mvn jdk16](apache-rat-0.17.buildspec) | [result](apache-rat-project-0.17.buildinfo): [7 :white_check_mark:  18 :warning:](apache-rat-project-0.17.buildcompare) [:memo:](https://github.com/apache/creadur-rat/commit/969f474e82aa7ef9082d1156d777b7e7b42ac3e3) | 8 :recycle: 6 :rotating_light: 4 :no_entry_sign: | 73M |
 | [0.16.1](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/0.16.1/pom) | [mvn jdk16](apache-rat-0.16.1.buildspec) | [result](apache-rat-project-0.16.1.buildinfo): [20 :white_check_mark: ](apache-rat-project-0.16.1.buildcompare) | | 22M |
 | [0.16](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/0.16/pom) | [mvn jdk16](apache-rat-0.16.buildspec) | [result](apache-rat-project-0.16.buildinfo): [23 :white_check_mark: ](apache-rat-project-0.16.buildcompare) | | 17M |
 | [0.15](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/0.15/pom) | [mvn jdk16](apache-rat-0.15.buildspec) | [result](apache-rat-project-0.15.buildinfo): [22 :white_check_mark: ](apache-rat-project-0.15.buildcompare) | | 12M |
