@@ -55,7 +55,7 @@ Reproducible Builds for Maven Central Repository
 | | [jmockit](../content/com/github/hazendaz/jmockit/README.md) | 6 | 6 :white_check_mark: |
 | | [sitemesh](../content/com/github/hazendaz/sitemesh/README.md) | 7 | 7 :white_check_mark: |
 | | [smartsprites](../content/com/github/hazendaz/smartsprites/README.md) | 2 | 2 :white_check_mark: |
-| com.github.hazendaz.git | [github-desktop](../content/com/github/hazendaz/git/github-desktop/README.md) | 47 | 11 :white_check_mark: / 36 :warning: |
+| com.github.hazendaz.git | [github-desktop](../content/com/github/hazendaz/git/github-desktop/README.md) | 48 | 12 :white_check_mark: / 36 :warning: |
 | com.github.hazendaz.maven | [coveralls-maven-plugin](../content/com/github/hazendaz/maven/coveralls-maven-plugin/README.md) | 10 | 10 :white_check_mark: |
 | | [directory-maven-plugin](../content/com/github/hazendaz/maven/directory-maven-plugin/README.md) | 7 | 7 :white_check_mark: |
 | | [htmlcompressor-maven-plugin](../content/com/github/hazendaz/maven/htmlcompressor-maven-plugin/README.md) | 16 | 16 :white_check_mark: |
@@ -91,7 +91,7 @@ Reproducible Builds for Maven Central Repository
 | | [spring-test-smart-context-parent](../content/com/github/seregamorph/spring-test-smart-context/README.md) | 2 | 2 :white_check_mark: |
 | | [test-distribution](../content/com/github/seregamorph/test-distribution/README.md) | 1 | 1 :white_check_mark: |
 | com.github.sitture | [env-config](../content/com/github/sitture/env-config/README.md) | 14 | 8 :white_check_mark: / 6 :warning: |
-| com.github.spotbugs | [spotbugs-maven-plugin](../content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 40 | 33 :white_check_mark: / 7 :warning: |
+| com.github.spotbugs | [spotbugs-maven-plugin](../content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 41 | 33 :white_check_mark: / 8 :warning: |
 | com.github.veithen.* | [alta](../content/com/github/veithen/alta/README.md) | 3 | 3 :white_check_mark: |
 | | [checkt](../content/com/github/veithen/checkt/README.md) | 1 | 1 :white_check_mark: |
 | | [cosmos](../content/com/github/veithen/cosmos/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
@@ -111,7 +111,7 @@ Reproducible Builds for Maven Central Repository
 | com.google.guava | [guava](../content/com/google/guava/README.md) | 44 | 26 :white_check_mark: / 18 :warning: |
 | com.google.code.gson | [gson](../content/com/google/code/gson/README.md) | 7 | 7 :white_check_mark: |
 | com.hibegin | [common-dao](../content/com/hibegin/common-dao/README.md) | 25 | 12 :white_check_mark: / 13 :warning: |
-| | [zrlog-base](../content/com/hibegin/zrlog-base/README.md) | 90 | 6 :white_check_mark: / 84 :warning: |
+| | [zrlog-base](../content/com/hibegin/zrlog-base/README.md) | 91 | 7 :white_check_mark: / 84 :warning: |
 | com.homeofthewizard | [gcp-secretmanager-maven-plugin](../content/com/homeofthewizard/gcp-secretmanager-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [spring-bridge-maven-plugin](../content/com/homeofthewizard/spring-bridge-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [vault-maven-plugin](../content/com/homeofthewizard/vault-maven-plugin/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
@@ -279,7 +279,7 @@ Reproducible Builds for Maven Central Repository
 | fr.vidal.oss | [atom-jaxb](../content/fr/vidal/oss/README.md) | 4 | 1 :white_check_mark: / 3 :warning: |
 | io.jooby | [jooby](../content/io/jooby/README.md) | 60 | 10 :white_check_mark: / 50 :warning: |
 | io.liftwizard | [liftwizard](../content/io/liftwizard/README.md) | 75 | 74 :white_check_mark: / 1 :warning: |
-| io.quarkus | [quarkus-project](../content/io/quarkus/README.md) | 124 | 124 :warning: |
+| io.quarkus | [quarkus-project](../content/io/quarkus/README.md) | 125 | 125 :warning: |
 | io.trino | [trino](../content/io/trino/README.md) | 32 | 25 :white_check_mark: / 7 :warning: |
 | io.airlift | [airbase](../content/io/airlift/airbase/README.md) | 163 | 157 :white_check_mark: / 6 :warning: |
 | io.avaje | [avaje-applog](../content/io/avaje/applog/README.md) | 2 | 2 :white_check_mark: |
@@ -494,7 +494,7 @@ Reproducible Builds for Maven Central Repository
 | | [commons-rng](../content/org/apache/commons/rng/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | | [commons-statistics](../content/org/apache/commons/statistics/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
 | commons-logging | [commons-logging](../content/org/apache/commons/commons-logging/commons-logging/README.md) | 6 | 6 :white_check_mark: |
-| org.apache.cxf.build-utils | [cxf-build-utils](../content/org/apache/cxf/cxf-build-utils/README.md) | 4 | 4 :white_check_mark: |
+| org.apache.cxf.build-utils | [cxf-build-utils](../content/org/apache/cxf/cxf-build-utils/README.md) | 5 | 5 :white_check_mark: |
 | org.apache.cxf.fediz | [fediz](../content/org/apache/cxf/fediz/README.md) | 5 | 5 :warning: |
 | org.apache.cxf.xjc-utils | [xjc-utils](../content/org/apache/cxf/xjc-utils/README.md) | 6 | 5 :white_check_mark: / 1 :warning: |
 | org.apache.directory.api | [api-parent](../content/org/apache/directory/api/README.md) | 7 | 7 :white_check_mark: |
@@ -543,7 +543,7 @@ Reproducible Builds for Maven Central Repository
 | | [maven-changes-plugin](../content/org/apache/maven/plugins/maven-changes-plugin/README.md) | 3 | 3 :white_check_mark: |
 | | [maven-checkstyle-plugin](../content/org/apache/maven/plugins/maven-checkstyle-plugin/README.md) | 10 | 10 :white_check_mark: |
 | | [maven-clean-plugin](../content/org/apache/maven/plugins/maven-clean-plugin/README.md) | 8 | 8 :white_check_mark: |
-| | [maven-compiler-plugin](../content/org/apache/maven/plugins/maven-compiler-plugin/README.md) | 11 | 10 :white_check_mark: / 1 :warning: |
+| | [maven-compiler-plugin](../content/org/apache/maven/plugins/maven-compiler-plugin/README.md) | 12 | 11 :white_check_mark: / 1 :warning: |
 | | [maven-dependency-plugin](../content/org/apache/maven/plugins/maven-dependency-plugin/README.md) | 12 | 12 :white_check_mark: |
 | | [maven-deploy-plugin](../content/org/apache/maven/plugins/maven-deploy-plugin/README.md) | 9 | 9 :white_check_mark: |
 | | [maven-docck-plugin](../content/org/apache/maven/plugins/maven-docck-plugin/README.md) | 1 | 1 :white_check_mark: |
@@ -743,7 +743,7 @@ Reproducible Builds for Maven Central Repository
 | | [buildnumber-maven-plugin](../content/org/codehaus/mojo/buildnumber-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
 | | [buildplan-maven-plugin](../content/org/codehaus/mojo/buildplan-maven-plugin/README.md) | 5 | 5 :white_check_mark: |
 | | [cassandra-maven-plugin](../content/org/codehaus/mojo/cassandra-maven-plugin/README.md) | 4 | 4 :white_check_mark: |
-| | [exec-maven-plugin](../content/org/codehaus/mojo/exec-maven-plugin/README.md) | 10 | 10 :white_check_mark: |
+| | [exec-maven-plugin](../content/org/codehaus/mojo/exec-maven-plugin/README.md) | 11 | 11 :white_check_mark: |
 | | [extra-enforcer-rules](../content/org/codehaus/mojo/extra-enforcer-rules/README.md) | 11 | 11 :white_check_mark: |
 | | [flatten-maven-plugin](../content/org/codehaus/mojo/flatten-maven-plugin/README.md) | 10 | 7 :white_check_mark: / 3 :warning: |
 | | [jaxb2-maven-plugin](../content/org/codehaus/mojo/jaxb2-maven-plugin/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
@@ -757,7 +757,7 @@ Reproducible Builds for Maven Central Repository
 | | [tidy-maven-plugin](../content/org/codehaus/mojo/tidy-maven-plugin/README.md) | 3 | 3 :white_check_mark: |
 | | [versions-maven-plugin](../content/org/codehaus/mojo/versions-maven-plugin/README.md) | 18 | 18 :white_check_mark: |
 | | [wagon-maven-plugin](../content/org/codehaus/mojo/wagon-maven-plugin/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
-| | [xml-maven-plugin](../content/org/codehaus/mojo/xml-maven-plugin/README.md) | 1 | 1 :warning: |
+| | [xml-maven-plugin](../content/org/codehaus/mojo/xml-maven-plugin/README.md) | 2 | 2 :warning: |
 | org.codehaus.plexus | [plexus-archiver](../content/org/codehaus/plexus/plexus-archiver/README.md) | 23 | 22 :white_check_mark: / 1 :warning: |
 | | [plexus-cipher](../content/org/codehaus/plexus/plexus-cipher/README.md) | 3 | 3 :white_check_mark: |
 | | [plexus-classworlds](../content/org/codehaus/plexus/plexus-classworlds/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
@@ -806,10 +806,10 @@ Reproducible Builds for Maven Central Repository
 | org.itsallcode | [openfasttrace-maven-plugin](../content/org/itsallcode/openfasttrace-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
 | org.jpmml | [jpmml-codemodel](../content/org/jpmml/jpmml-codemodel/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | | [jpmml-converter](../content/org/jpmml/jpmml-converter/README.md) | 10 | 5 :white_check_mark: / 5 :warning: |
-| | [jpmml-evaluator](../content/org/jpmml/jpmml-evaluator/README.md) | 12 | 7 :white_check_mark: / 5 :warning: |
+| | [jpmml-evaluator](../content/org/jpmml/jpmml-evaluator/README.md) | 13 | 7 :white_check_mark: / 6 :warning: |
 | | [jpmml-h2o](../content/org/jpmml/jpmml-h2o/README.md) | 6 | 2 :white_check_mark: / 4 :warning: |
 | | [jpmml-lightgbm](../content/org/jpmml/jpmml-lightgbm/README.md) | 6 | 2 :white_check_mark: / 4 :warning: |
-| | [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | 12 | 7 :white_check_mark: / 5 :warning: |
+| | [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | 13 | 7 :white_check_mark: / 6 :warning: |
 | | [jpmml-python](../content/org/jpmml/jpmml-python/README.md) | 18 | 6 :white_check_mark: / 12 :warning: |
 | | [jpmml-r](../content/org/jpmml/jpmml-r/README.md) | 15 | 11 :white_check_mark: / 4 :warning: |
 | | [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | 31 | 11 :white_check_mark: / 20 :warning: |
@@ -932,7 +932,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 8 | 8 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 44 | 43 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 21 | 3 :white_check_mark: / 18 :warning: |
-| **Count:** | **918** | **8888** | **6465** :white_check_mark:<br>**2423** :warning: |
+| **Count:** | **918** | **8898** | **6470** :white_check_mark:<br>**2428** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -998,7 +998,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.0   8
       4 mvn-3.9.0  11
      12 mvn-3.9.0  17
-      3 mvn-3.9.0  21
+      4 mvn-3.9.0  21
       2 mvn-3.9.0  22
      13 mvn-3.9.1   8
       2 mvn-3.9.1  11
@@ -1012,7 +1012,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      22 mvn-3.9.11   8
      29 mvn-3.9.11  11
      75 mvn-3.9.11  17
-    149 mvn-3.9.11  21
+    150 mvn-3.9.11  21
       3 mvn-3.9.11  22
       3 mvn-3.9.11  24
       6 mvn-3.9.11  25
@@ -1057,11 +1057,11 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      27 mvn-3.9.5  17
       2 mvn-3.9.5  17.0.7
       1 mvn-3.9.5  17.0.9
-     66 mvn-3.9.5  21
+     67 mvn-3.9.5  21
      11 mvn-3.9.5  22
       1 mvn-3.9.5  24
     120 mvn-3.9.6   8
-     46 mvn-3.9.6  11
+     47 mvn-3.9.6  11
      87 mvn-3.9.6  17
       3 mvn-3.9.6  17.0.7
      78 mvn-3.9.6  21
@@ -1074,16 +1074,16 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn-3.9.8   8
      31 mvn-3.9.8  11
       5 mvn-3.9.8  16
-    250 mvn-3.9.8  17
+    251 mvn-3.9.8  17
       1 mvn-3.9.8  17.0.12
      88 mvn-3.9.8  21
      47 mvn-3.9.8  22
      17 mvn-3.9.8  23
      94 mvn-3.9.9   8
-    124 mvn-3.9.9  11
-    293 mvn-3.9.9  17
+    125 mvn-3.9.9  11
+    294 mvn-3.9.9  17
       2 mvn-3.9.9  18
-    419 mvn-3.9.9  21
+    421 mvn-3.9.9  21
      13 mvn-3.9.9  21.0.2
      17 mvn-3.9.9  22
       4 mvn-3.9.9  23
@@ -1109,6 +1109,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-4.0.0-rc-3  22
       1 mvn-4.0.0-rc-3  24
       1 mvn-4.0.0-rc-3  25
+      1 mvn-4.0.0-rc-4  21
       2 mvn-4.0.0-rc-4  24
       6 mvn-4.0.0-rc-4  25
       2 sbt         8
