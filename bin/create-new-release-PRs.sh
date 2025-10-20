@@ -17,11 +17,11 @@ do
   if [ -f $nextBuildspec ]
   then
     echo -e "skipping because \033[0;31mbuildspec\033[0m $nextBuildspec exists"
-    gh pr view --json url $artifactId-$nextVersion
+    gh pr view --json url $artifactId-$nextVersion | tail
   elif [ $(git ls-remote -h https://github.com/jvm-repo-rebuild/reproducible-central.git | grep refs/heads/$artifactId-$nextVersion | wc -l) -eq 1 ]
   then
     echo "skipping because branch $artifactId-$nextVersion exists"
-    gh pr view --json url $artifactId-$nextVersion
+    gh pr view --json url $artifactId-$nextVersion | tail
   else
     bin/add-new-release.sh $previousBuildspec $nextVersion
 
