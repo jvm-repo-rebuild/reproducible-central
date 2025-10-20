@@ -7,26 +7,28 @@
 
 Source code: [https://github.com/jpmml/jpmml-evaluator.git](https://github.com/jpmml/jpmml-evaluator.git)
 
-<details><summary>This project defines 8 modules:</summary>
+<details><summary>This project defines 10 modules:</summary>
 
 * [org.jpmml:jpmml-evaluator](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/overview)
 * [org.jpmml:pmml-evaluator](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator/overview)
+* [org.jpmml:pmml-evaluator-example](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-example/overview)
 * [org.jpmml:pmml-evaluator-jackson](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-jackson/overview)
 * [org.jpmml:pmml-evaluator-kryo](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-kryo/overview)
 * [org.jpmml:pmml-evaluator-metro](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-metro/overview)
 * [org.jpmml:pmml-evaluator-moxy](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-moxy/overview)
 * [org.jpmml:pmml-evaluator-reporting](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-reporting/overview)
+* [org.jpmml:pmml-evaluator-reporting-processor](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-reporting-processor/overview)
 * [org.jpmml:pmml-evaluator-testing](https://central.sonatype.com/artifact/org.jpmml/pmml-evaluator-testing/overview)
 </details>
 
-rebuilding **12 releases** of org.jpmml:jpmml-evaluator:
+rebuilding **13 releases** of org.jpmml:jpmml-evaluator:
 - **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.7.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/1.7.5/pom) | | | |
+| [1.7.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/1.7.5/pom) | [mvn jdk11](jpmml-evaluator-1.7.5.buildspec) | [result](jpmml-evaluator-1.7.5.buildinfo): [10 :white_check_mark:  15 :warning:](jpmml-evaluator-1.7.5.buildcompare) | 13 :recycle: 2 :rotating_light: | 1.2M |
 | [1.7.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/1.7.4/pom) | [mvn jdk11](jpmml-evaluator-1.7.4.buildspec) | [result](jpmml-evaluator-1.7.4.buildinfo): [8 :white_check_mark:  11 :warning:](jpmml-evaluator-1.7.4.buildcompare) | 10 :recycle: 1 :rotating_light: | 1.2M |
 | [1.7.3](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/1.7.3/pom) | [mvn jdk11](jpmml-evaluator-1.7.3.buildspec) | [result](jpmml-evaluator-1.7.3.buildinfo): [8 :white_check_mark:  11 :warning:](jpmml-evaluator-1.7.3.buildcompare) | - | 1.2M |
 | [1.7.2](https://central.sonatype.com/artifact/org.jpmml/jpmml-evaluator/1.7.2/pom) | [mvn jdk11](jpmml-evaluator-1.7.2.buildspec) | [result](jpmml-evaluator-1.7.2.buildinfo): [8 :white_check_mark:  11 :warning:](jpmml-evaluator-1.7.2.buildcompare) | - | 1.2M |
