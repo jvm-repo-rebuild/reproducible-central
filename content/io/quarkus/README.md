@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quarkusio/quarkus.git)
 
-<details><summary>This project defines 1077 modules:</summary>
+<details><summary>This project defines 1079 modules:</summary>
 
 * [io.quarkus.arc:arc](https://central.sonatype.com/artifact/io.quarkus.arc/arc/overview)
 * [io.quarkus.arc:arc-arquillian](https://central.sonatype.com/artifact/io.quarkus.arc/arc-arquillian/overview)
@@ -19,6 +19,7 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus.arc:arc-processor](https://central.sonatype.com/artifact/io.quarkus.arc/arc-processor/overview)
 * [io.quarkus.junit5:junit5-virtual-threads](https://central.sonatype.com/artifact/io.quarkus.junit5/junit5-virtual-threads/overview)
 * [io.quarkus.qute:qute-core](https://central.sonatype.com/artifact/io.quarkus.qute/qute-core/overview)
+* [io.quarkus.qute:qute-debug](https://central.sonatype.com/artifact/io.quarkus.qute/qute-debug/overview)
 * [io.quarkus.qute:qute-generator](https://central.sonatype.com/artifact/io.quarkus.qute/qute-generator/overview)
 * [io.quarkus.qute:qute-parent](https://central.sonatype.com/artifact/io.quarkus.qute/qute-parent/overview)
 * [io.quarkus.resteasy.reactive:resteasy-reactive](https://central.sonatype.com/artifact/io.quarkus.resteasy.reactive/resteasy-reactive/overview)
@@ -130,6 +131,7 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-class-change-agent](https://central.sonatype.com/artifact/io.quarkus/quarkus-class-change-agent/overview)
 * [io.quarkus:quarkus-classloader-commons](https://central.sonatype.com/artifact/io.quarkus/quarkus-classloader-commons/overview)
 * [io.quarkus:quarkus-cli](https://central.sonatype.com/artifact/io.quarkus/quarkus-cli/overview)
+* [io.quarkus:quarkus-cli-common](https://central.sonatype.com/artifact/io.quarkus/quarkus-cli-common/overview)
 * [io.quarkus:quarkus-config-doc-maven-plugin](https://central.sonatype.com/artifact/io.quarkus/quarkus-config-doc-maven-plugin/overview)
 * [io.quarkus:quarkus-config-yaml](https://central.sonatype.com/artifact/io.quarkus/quarkus-config-yaml/overview)
 * [io.quarkus:quarkus-config-yaml-deployment](https://central.sonatype.com/artifact/io.quarkus/quarkus-config-yaml-deployment/overview)
@@ -1088,14 +1090,14 @@ Source code: [https://github.com/quarkusio/quarkus.git](https://github.com/quark
 * [io.quarkus:quarkus-websockets-parent](https://central.sonatype.com/artifact/io.quarkus/quarkus-websockets-parent/overview)
 </details>
 
-rebuilding **124 releases** of io.quarkus:quarkus-project:
+rebuilding **125 releases** of io.quarkus:quarkus-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 124 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 35, 0 had all their differences removed :recycle:, 35 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 125 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 36, 0 had all their differences removed :recycle:, 36 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.29.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.29.0.CR1/pom) | | | |
+| [3.29.0.CR1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.29.0.CR1/pom) | [mvn jdk21](quarkus-3.29.0.CR1.buildspec) | [result](quarkus-project-3.29.0.CR1.buildinfo): [2372 :white_check_mark:  2 :warning:](quarkus-project-3.29.0.CR1.buildcompare) | 2 :rotating_light: | 135M |
 | [3.28.4](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.28.4/pom) | [mvn jdk21](quarkus-3.28.4.buildspec) | [result](quarkus-project-3.28.4.buildinfo): [2366 :white_check_mark:  2 :warning:](quarkus-project-3.28.4.buildcompare) | 2 :rotating_light: | 134M |
 | [3.28.3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.28.3/pom) | [mvn jdk21](quarkus-3.28.3.buildspec) | [result](quarkus-project-3.28.3.buildinfo): [2367 :white_check_mark:  1 :warning:](quarkus-project-3.28.3.buildcompare) | 1 :rotating_light: | 134M |
 | [3.28.2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.28.2/pom) | [mvn jdk21](quarkus-3.28.2.buildspec) | [result](quarkus-project-3.28.2.buildinfo): [2367 :white_check_mark:  1 :warning:](quarkus-project-3.28.2.buildcompare) | 1 :rotating_light: | 134M |
