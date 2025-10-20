@@ -44,7 +44,7 @@ You can also use `podman` as a container engine by defining these environment va
     # Extra run-options to provide to the container engine. Defaults for docker: "", podman: "--userns=keep-id"
     RB_OCI_ENGINE_RUN_OPTS
     
-    # Extra flags to use when mounting volumes in the container. Defaults to "", but for podman running on an SELinux host, you need ":Z,rw"
+    # Flags to use when mounting volumes in the container. Defaults to ":Z" if SELinux is enabled.
     RB_OCI_VOLUME_FLAGS
 
 

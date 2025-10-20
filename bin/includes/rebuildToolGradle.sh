@@ -38,12 +38,21 @@ rebuildToolGradle() {
 
   [ "${workdir}" = "" ] && workdir="/var/gradle/app"
 
+  local VOLUME_FLAGS=""
+  if [ -z "${RB_OCI_VOLUME_FLAGS}" ] && command -v getenforce >/dev/null 2>&1 && [ "$(getenforce 2>/dev/null)" = "Enforcing" ]
+  then
+    # Only try to auto-detect selinux flags if there are no RB_OCI_VOLUME_FLAGS set by the user
+    VOLUME_FLAGS=":Z"
+  else
+    VOLUME_FLAGS="${RB_OCI_VOLUME_FLAGS}"
+  fi
+
   local engine_command="$RB_OCI_ENGINE run $([ "$CI" != true ] && echo "-it ")--rm --name rebuild-central\
     ${RB_OCI_ENGINE_RUN_OPTS}\
-    -v $PWD:${workdir}${RB_OCI_VOLUME_FLAGS}\
-    -v $PWD/userhome:/home/gradle${RB_OCI_VOLUME_FLAGS}\
-    -v $PWD:/home/gradle/.m2${RB_OCI_VOLUME_FLAGS}\
-    -v $PWD/userhome/.gradle:/home/gradle/.gradle${RB_OCI_VOLUME_FLAGS}\
+    -v $PWD:${workdir}${VOLUME_FLAGS}\
+    -v $PWD/userhome:/home/gradle${VOLUME_FLAGS}\
+    -v $PWD:/home/gradle/.m2${VOLUME_FLAGS}\
+    -v $PWD/userhome/.gradle:/home/gradle/.gradle${VOLUME_FLAGS}\
     -v $PWD/.bnd:/.bnd
     -u $(id -u ${USER}):$(id -g ${USER})\
     -e MAVEN_CONFIG=/home/gradle/.m2\
@@ -52,7 +61,7 @@ rebuildToolGradle() {
   local gradle_engine_params="-Duser.home=/home/gradle"
 
   runcommand_time ${engine_command} ${jdkImage} ${command} ${gradle_engine_params}
-  
+
   if [ $? -eq 0 ]; then
       # output content is expected to be available in repository/ directory
 
