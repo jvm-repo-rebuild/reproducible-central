@@ -1,0 +1,16 @@
+version=1.2.0
+ok=3
+ko=1
+ignored=0
+okFiles="xml-maven-plugin-1.2.0.pom xml-maven-plugin-1.2.0.jar xml-maven-plugin-1.2.0-sources.jar"
+koFiles="xml-maven-plugin-1.2.0-source-release.zip"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.codehaus.mojo/xml-maven-plugin-1.2.0-source-release.zip target/xml-maven-plugin-1.2.0-source-release.zip
+stabilize_ok=0
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="xml-maven-plugin-1.2.0-source-release.zip.stabilized"
+stabilize_ignoredFiles=""
