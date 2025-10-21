@@ -14,4 +14,5 @@ newline=lf
 command="mvn -Psonatype-oss-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.detect.skip=false"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-issue=
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/highsource/jaxb-tools/issues/642

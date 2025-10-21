@@ -45,14 +45,14 @@ Source code: [https://github.com/highsource/jaxb-tools.git](https://github.com/h
 * [org.jvnet.jaxb:jaxb-tools-project](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/overview)
 </details>
 
-rebuilding **1 releases** of org.jvnet.jaxb:jaxb-tools-project:
+rebuilding **2 releases** of org.jvnet.jaxb:jaxb-tools-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.11](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.11/pom) | | | |
+| [4.0.11](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.11/pom) | [mvn jdk11](jaxb-tools-4.0.11.buildspec) | [result](jaxb-tools-project-4.0.11.buildinfo): [67 :white_check_mark:  5 :warning:](jaxb-tools-project-4.0.11.buildcompare) [:mag:](jaxb-tools-project-4.0.11.diffoscope) [:memo:](https://github.com/highsource/jaxb-tools/issues/642) | 5 :rotating_light: | 6.1M |
 | [4.0.10](https://central.sonatype.com/artifact/org.jvnet.jaxb/jaxb-tools-project/4.0.10/pom) | [mvn jdk11](jaxb-tools-4.0.10.buildspec) | [result](jaxb-tools-project-4.0.10.buildinfo): [67 :white_check_mark:  5 :warning:](jaxb-tools-project-4.0.10.buildcompare) | 5 :rotating_light: | 6.1M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
