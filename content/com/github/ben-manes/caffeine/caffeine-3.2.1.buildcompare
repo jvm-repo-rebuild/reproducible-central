@@ -1,0 +1,12 @@
+version=3.2.1
+ok=15
+ko=1
+okFiles="caffeine-3.2.1-sources.jar caffeine-3.2.1.jar caffeine-3.2.1.pom guava-3.2.1-sources.jar guava-3.2.1-test.jar guava-3.2.1.jar guava-3.2.1.pom jcache-3.2.1-sources.jar jcache-3.2.1-test.jar jcache-3.2.1.jar jcache-3.2.1.pom simulator-3.2.1-sources.jar simulator-3.2.1-test.jar simulator-3.2.1.jar simulator-3.2.1.pom"
+koFiles="caffeine-3.2.1-test.jar"
+# diffoscope central/com/github/ben-manes/caffeine/caffeine/3.2.1/caffeine-3.2.1-test.jar repository/com/github/ben-manes/caffeine/caffeine/3.2.1/caffeine-3.2.1-test.jar
+stabilize_ok=0
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="caffeine-3.2.1-test.jar.stabilized"
+stabilize_ignoredFiles=""
