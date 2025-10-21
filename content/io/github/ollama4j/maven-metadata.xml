@@ -3,8 +3,8 @@
   <groupId>io.github.ollama4j</groupId>
   <artifactId>ollama4j</artifactId>
   <versioning>
-    <latest>1.1.1</latest>
-    <release>1.1.1</release>
+    <latest>1.1.2</latest>
+    <release>1.1.2</release>
     <versions>
       <version>gh-actions</version>
       <version>test001.2</version>
@@ -34,7 +34,8 @@
       <version>1.0.100</version>
       <version>1.1.0</version>
       <version>1.1.1</version>
+      <version>1.1.2</version>
     </versions>
-    <lastUpdated>20250930192734</lastUpdated>
+    <lastUpdated>20251020194839</lastUpdated>
   </versioning>
 </metadata>
