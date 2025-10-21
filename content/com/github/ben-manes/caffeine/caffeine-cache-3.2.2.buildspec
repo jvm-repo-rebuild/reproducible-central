@@ -13,5 +13,5 @@ newline=lf
 command="./gradlew clean assemble -x test -x signMavenPublication --no-daemon --no-build-cache publishToMavenLocal -P release"
 buildinfo=${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=

@@ -22,6 +22,6 @@ rebuilding **1 releases** of com.github.ben-manes.caffeine:caffeine:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.2.2](https://central.sonatype.com/artifact/com.github.ben-manes.caffeine/caffeine/3.2.2/pom) | [gradle jdk17](caffeine-cache-3.2.2.buildspec) | [result](caffeine-3.2.2.buildinfo): [15 :white_check_mark:  1 :warning:](caffeine-3.2.2.buildcompare) | 1 :rotating_light: | 186M |
+| [3.2.2](https://central.sonatype.com/artifact/com.github.ben-manes.caffeine/caffeine/3.2.2/pom) | [gradle jdk17](caffeine-cache-3.2.2.buildspec) | [result](caffeine-3.2.2.buildinfo): [15 :white_check_mark:  1 :warning:](caffeine-3.2.2.buildcompare) [:mag:](caffeine-3.2.2.diffoscope) | 1 :rotating_light: | 186M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

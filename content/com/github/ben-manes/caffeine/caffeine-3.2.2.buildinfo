@@ -13,8 +13,8 @@ outputs.1.0.length=731178
 outputs.1.0.checksums.sha512=ad343e9ee3271a54f58dd6f26473a5825d7d007810725d5a8dcb249dd455be7c667a7a0b1e1c2bb2bbdf34c49649ccfae4ee1023ac66a2fbb14609abb8681275
 
 outputs.1.1.filename=caffeine-3.2.2-test.jar
-outputs.1.1.length=1198053
-outputs.1.1.checksums.sha512=d6f997f253b9a6663442e2eaeedffeaa87ef0bd2125a32e97891293a5c628985dfac79491a195982a3718107ecea65e8a575ea7275ccd2e389a257370dd050c5
+outputs.1.1.length=1198052
+outputs.1.1.checksums.sha512=d358e6ccca2244ba5c611fea6b1f458949f1bf63570c854d9e4477e54831e89eff80761a82d48191963236a9a5f9ae7d3ac23dd446cbd352dbc9f4c16fa3a483
 
 outputs.1.2.filename=caffeine-3.2.2.jar
 outputs.1.2.length=895419
