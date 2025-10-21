@@ -1,0 +1,101 @@
+1 / 1 central/com/github/ben-manes/caffeine/caffeine/3.2.2/caffeine-3.2.2-test.jar repository/com/github/ben-manes/caffeine/caffeine/3.2.2/caffeine-3.2.2-test.jar
+--- central/com/github/ben-manes/caffeine/caffeine/3.2.2/caffeine-3.2.2-test.jar
++++ repository/com/github/ben-manes/caffeine/caffeine/3.2.2/caffeine-3.2.2-test.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1198050 bytes, number of entries: 517
+│ +Zip file size: 1198052 bytes, number of entries: 517
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/
+│  -rw-r--r--  2.0 unx       25 b- defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 com/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 com/github/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 com/github/benmanes/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 com/github/benmanes/caffeine/
+│  -rw-r--r--  2.0 unx     2992 b- defN 80-Feb-01 00:00 com/github/benmanes/caffeine/OSGiTest.class
+│ @@ -512,8 +512,8 @@
+│  -rw-r--r--  2.0 unx     5630 b- defN 80-Feb-01 00:00 com/github/benmanes/caffeine/testing/Int.class
+│  -rw-r--r--  2.0 unx     2547 b- defN 80-Feb-01 00:00 com/github/benmanes/caffeine/testing/IntSubject.class
+│  -rw-r--r--  2.0 unx     9165 b- defN 80-Feb-01 00:00 com/github/benmanes/caffeine/testing/LoggingEvents.class
+│  -rw-r--r--  2.0 unx     6240 b- defN 80-Feb-01 00:00 com/github/benmanes/caffeine/testing/MapSubject.class
+│  -rw-r--r--  2.0 unx     3083 b- defN 80-Feb-01 00:00 com/github/benmanes/caffeine/testing/Threads$Thrasher.class
+│  -rw-r--r--  2.0 unx     8775 b- defN 80-Feb-01 00:00 com/github/benmanes/caffeine/testing/Threads.class
+│  -rw-r--r--  2.0 unx      281 b- defN 80-Feb-01 00:00 com/github/benmanes/caffeine/testing/package-info.class
+│ -517 files, 3223157 bytes uncompressed, 1090582 bytes compressed:  66.2%
+│ +517 files, 3223157 bytes uncompressed, 1090584 bytes compressed:  66.2%
+├── com/github/benmanes/caffeine/openjdk/map/MapWithCollisionsProviders$1.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -69,15 +69,15 @@
+│ │          26: invokevirtual #19                 // Method addAll:(Ljava/util/Collection;)Z
+│ │          29: pop
+│ │          30: return
+│ │        LineNumberTable:
+│ │          line 244: 0
+│ │          line 246: 4
+│ │          line 247: 17
+│ │ -        line 112: 30
+│ │ +        line 56: 30
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      31     0  this   Lcom/github/benmanes/caffeine/openjdk/map/MapWithCollisionsProviders$1;
+│ │  }
+│ │  Signature: #36                          // Ljava/util/ArrayList<[Ljava/lang/Object;>;
+│ │  SourceFile: "MapWithCollisionsProviders.java"
+│ │  EnclosingMethod: #10.#0                 // com.github.benmanes.caffeine.openjdk.map.MapWithCollisionsProviders
+├── com/github/benmanes/caffeine/openjdk/map/MapWithCollisionsProviders$2.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -69,15 +69,15 @@
+│ │          26: invokevirtual #19                 // Method addAll:(Ljava/util/Collection;)Z
+│ │          29: pop
+│ │          30: return
+│ │        LineNumberTable:
+│ │          line 252: 0
+│ │          line 254: 4
+│ │          line 255: 17
+│ │ -        line 112: 30
+│ │ +        line 56: 30
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      31     0  this   Lcom/github/benmanes/caffeine/openjdk/map/MapWithCollisionsProviders$2;
+│ │  }
+│ │  Signature: #36                          // Ljava/util/ArrayList<[Ljava/lang/Object;>;
+│ │  SourceFile: "MapWithCollisionsProviders.java"
+│ │  EnclosingMethod: #10.#0                 // com.github.benmanes.caffeine.openjdk.map.MapWithCollisionsProviders
+├── com/github/benmanes/caffeine/openjdk/map/MapWithCollisionsProviders$3.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -57,15 +57,15 @@
+│ │          16: invokevirtual #13                 // Method addAll:(Ljava/util/Collection;)Z
+│ │          19: pop
+│ │          20: return
+│ │        LineNumberTable:
+│ │          line 260: 0
+│ │          line 262: 4
+│ │          line 263: 12
+│ │ -        line 112: 20
+│ │ +        line 56: 20
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      21     0  this   Lcom/github/benmanes/caffeine/openjdk/map/MapWithCollisionsProviders$3;
+│ │  }
+│ │  Signature: #28                          // Ljava/util/ArrayList<[Ljava/lang/Object;>;
+│ │  SourceFile: "MapWithCollisionsProviders.java"
+│ │  EnclosingMethod: #8.#0                  // com.github.benmanes.caffeine.openjdk.map.MapWithCollisionsProviders
+├── com/github/benmanes/caffeine/openjdk/map/MapWithCollisionsProviders$4.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -82,15 +82,15 @@
+│ │          line 268: 0
+│ │          line 270: 4
+│ │          line 271: 7
+│ │          line 270: 13
+│ │          line 272: 20
+│ │          line 273: 23
+│ │          line 272: 29
+│ │ -        line 112: 36
+│ │ +        line 56: 36
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      37     0  this   Lcom/github/benmanes/caffeine/openjdk/map/MapWithCollisionsProviders$4;
+│ │  }
+│ │  Signature: #40                          // Ljava/util/ArrayList<[Ljava/lang/Object;>;
+│ │  SourceFile: "MapWithCollisionsProviders.java"
+│ │  EnclosingMethod: #10.#0                 // com.github.benmanes.caffeine.openjdk.map.MapWithCollisionsProviders
+
