@@ -1,0 +1,164 @@
+# "Originally-Created-By: Apache Maven Bundle Plugin 5.1.9" shows that the build was done in 2 phases
+# should be done in one, from a clean state (with mvn clean if necessary)
+1 / 5 target/reference/org.jvnet.jaxb/jaxb-plugins-runtime-4.0.11.jar jaxb-plugins-parent/jaxb-plugins-runtime/target/jaxb-plugins-runtime-4.0.11.jar
+--- target/reference/org.jvnet.jaxb/jaxb-plugins-runtime-4.0.11.jar
++++ jaxb-plugins-parent/jaxb-plugins-runtime/target/jaxb-plugins-runtime-4.0.11.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 157963 bytes, number of entries: 199
+│ +Zip file size: 157927 bytes, number of entries: 199
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 META-INF/
+│ --rw-r--r--  2.0 unx     2959 b- defN 25-Sep-16 13:25 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx     2731 b- defN 25-Sep-16 13:25 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 org/jvnet/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 org/jvnet/jaxb/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 org/jvnet/jaxb/i18n/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 org/jvnet/jaxb/lang/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 org/jvnet/jaxb/locator/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 org/jvnet/jaxb/locator/util/
+│ @@ -194,8 +194,8 @@
+│  -rw-r--r--  2.0 unx      215 b- defN 25-Sep-16 13:25 org/jvnet/jaxb/xml/bind/model/util/QNameCollector.class
+│  -rw-r--r--  2.0 unx     3460 b- defN 25-Sep-16 13:25 org/jvnet/jaxb/xml/bind/model/util/XmlTypeUtils.class
+│  -rw-r--r--  2.0 unx     1151 b- defN 25-Sep-16 13:25 org/jvnet/jaxb/xml/namespace/util/QNameUtils.class
+│  -rw-r--r--  2.0 unx     3663 b- defN 25-Sep-16 13:25 org/jvnet/jaxb/xmlschema/XmlSchemaConstants.class
+│  -rw-r--r--  2.0 unx      277 b- defN 25-Sep-16 13:25 org/jvnet/jaxb2_commons/locator/messages.properties
+│  -rw-r--r--  2.0 unx     2579 b- defN 25-Sep-16 13:25 META-INF/maven/org.jvnet.jaxb/jaxb-plugins-runtime/pom.xml
+│  -rw-r--r--  2.0 unx       70 b- defN 25-Sep-16 13:25 META-INF/maven/org.jvnet.jaxb/jaxb-plugins-runtime/pom.properties
+│ -199 files, 372644 bytes uncompressed, 122341 bytes compressed:  67.2%
+│ +199 files, 372416 bytes uncompressed, 122305 bytes compressed:  67.2%
+├── META-INF/MANIFEST.MF
+│ @@ -7,42 +7,38 @@
+│  Bundle-License: https://github.com/highsource/jaxb-tools/blob/master/LIC
+│   ENSE
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: JAXB Tools :: JAXB Plugins :: Runtime
+│  Bundle-SymbolicName: org.jvnet.jaxb.plugins-runtime
+│  Bundle-Version: 4.0.11
+│  Export-Package: org.jvnet.jaxb.i18n;version="4.0.11",org.jvnet.jaxb.lang
+│ - ;version="4.0.11";uses:="jakarta.xml.bind,org.jvnet.jaxb.locator,org.w3
+│ - c.dom",org.jvnet.jaxb.locator;version="4.0.11";uses:="jakarta.xml.bind,
+│ - org.jvnet.jaxb.i18n,org.w3c.dom",org.jvnet.jaxb.locator.util;version="4
+│ - .0.11";uses:="org.jvnet.jaxb.locator,org.xml.sax",org.jvnet.jaxb.xml.bi
+│ - nd;version="4.0.11";uses:="jakarta.xml.bind",org.jvnet.jaxb.xml.bind.an
+│ - notation.adapters;version="4.0.11";uses:="jakarta.xml.bind.annotation.a
+│ - dapters",org.jvnet.jaxb.xml.bind.model;version="4.0.11";uses:="javax.xm
+│ - l.namespace,org.jvnet.jaxb.xml.bind.model.origin",org.jvnet.jaxb.xml.bi
+│ - nd.model.concrete;version="4.0.11";uses:="jakarta.activation,javax.xml.
+│ - namespace,org.glassfish.jaxb.core.v2.model.core,org.jvnet.jaxb.xml.bind
+│ - .model,org.jvnet.jaxb.xml.bind.model.origin,org.w3c.dom",org.jvnet.jaxb
+│ - .xml.bind.model.concrete.origin;version="4.0.11";uses:="org.glassfish.j
+│ - axb.core.v2.model.core,org.jvnet.jaxb.xml.bind.model,org.jvnet.jaxb.xml
+│ - .bind.model.origin",org.jvnet.jaxb.xml.bind.model.origin;version="4.0.1
+│ - 1",org.jvnet.jaxb.xml.bind.model.util;version="4.0.11";uses:="javax.xml
+│ - .namespace,org.jvnet.jaxb.xml.bind.model",org.jvnet.jaxb.xml.namespace.
+│ - util;version="4.0.11";uses:="javax.xml.namespace",org.jvnet.jaxb.xmlsch
+│ - ema;version="4.0.11";uses:="javax.xml.namespace"
+│ + ;uses:="jakarta.xml.bind,org.jvnet.jaxb.locator,org.w3c.dom";version="4
+│ + .0.11",org.jvnet.jaxb.locator;uses:="jakarta.xml.bind,org.jvnet.jaxb.i1
+│ + 8n,org.w3c.dom";version="4.0.11",org.jvnet.jaxb.locator.util;uses:="org
+│ + .jvnet.jaxb.locator,org.xml.sax";version="4.0.11",org.jvnet.jaxb.xml.bi
+│ + nd;uses:="jakarta.xml.bind";version="4.0.11",org.jvnet.jaxb.xml.bind.an
+│ + notation.adapters;uses:="jakarta.xml.bind.annotation.adapters";version=
+│ + "4.0.11",org.jvnet.jaxb.xml.bind.model;uses:="javax.xml.namespace,org.j
+│ + vnet.jaxb.xml.bind.model.origin";version="4.0.11",org.jvnet.jaxb.xml.bi
+│ + nd.model.concrete;uses:="jakarta.activation,javax.xml.namespace,org.gla
+│ + ssfish.jaxb.core.v2.model.core,org.jvnet.jaxb.xml.bind.model,org.jvnet.
+│ + jaxb.xml.bind.model.origin,org.w3c.dom";version="4.0.11",org.jvnet.jaxb
+│ + .xml.bind.model.concrete.origin;uses:="org.glassfish.jaxb.core.v2.model
+│ + .core,org.jvnet.jaxb.xml.bind.model,org.jvnet.jaxb.xml.bind.model.origi
+│ + n";version="4.0.11",org.jvnet.jaxb.xml.bind.model.origin;version="4.0.1
+│ + 1",org.jvnet.jaxb.xml.bind.model.util;uses:="javax.xml.namespace,org.jv
+│ + net.jaxb.xml.bind.model";version="4.0.11",org.jvnet.jaxb.xml.namespace.
+│ + util;uses:="javax.xml.namespace";version="4.0.11",org.jvnet.jaxb.xmlsch
+│ + ema;uses:="javax.xml.namespace";version="4.0.11"
+│  Import-Package: jakarta.activation;version="[2.1,3)",jakarta.xml.bind;ve
+│   rsion="[4.0,5)",jakarta.xml.bind.annotation;version="[4.0,5)",jakarta.x
+│   ml.bind.annotation.adapters;version="[4.0,5)",java.io,java.lang,java.la
+│   ng.annotation,java.lang.invoke,java.lang.reflect,java.net,java.text,jav
+│   a.util,javax.xml.namespace,org.glassfish.jaxb.core.api.impl;version="[4
+│   .0,5)",org.glassfish.jaxb.core.v2.model.core;version="[4.0,5)",org.jvne
+│ - t.jaxb.i18n;version="[4.0,5)",org.jvnet.jaxb.lang;version="[4.0,5)",org
+│ - .jvnet.jaxb.locator;version="[4.0,5)",org.jvnet.jaxb.locator.util;versi
+│ - on="[4.0,5)",org.jvnet.jaxb.xml.bind.model;version="[4.0,5)",org.jvnet.
+│ - jaxb.xml.bind.model.concrete.origin;version="[4.0,5)",org.jvnet.jaxb.xm
+│ - l.bind.model.origin;version="[4.0,5)",org.jvnet.jaxb.xml.bind.model.uti
+│ - l;version="[4.0,5)",org.jvnet.jaxb.xmlschema;version="[4.0,5)",org.w3c.
+│ - dom,org.xml.sax
+│ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.9
+│ + t.jaxb.i18n,org.jvnet.jaxb.lang,org.jvnet.jaxb.locator,org.jvnet.jaxb.l
+│ + ocator.util,org.jvnet.jaxb.xml.bind.model,org.jvnet.jaxb.xml.bind.model
+│ + .concrete.origin,org.jvnet.jaxb.xml.bind.model.origin,org.jvnet.jaxb.xm
+│ + l.bind.model.util,org.jvnet.jaxb.xmlschema,org.w3c.dom,org.xml.sax
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+│  Tool: Bnd-6.3.1.202206071316
+
+# JAXB used in french, and with a timestamp
+2 / 5 target/reference/org.jvnet.jaxb/hyperjaxb3-ejb-schemas-persistence-4.0.11.jar hyperjaxb/ejb/schemas/persistence/target/hyperjaxb3-ejb-schemas-persistence-4.0.11.jar
+--- target/reference/org.jvnet.jaxb/hyperjaxb3-ejb-schemas-persistence-4.0.11.jar
++++ hyperjaxb/ejb/schemas/persistence/target/hyperjaxb3-ejb-schemas-persistence-4.0.11.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 382664 bytes, number of entries: 107
+│ +Zip file size: 382633 bytes, number of entries: 107
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 META-INF/
+│  -rw-r--r--  2.0 unx       81 b- defN 25-Sep-16 13:25 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 jakarta/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 jakarta/xml/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 jakarta/xml/ns/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 jakarta/xml/ns/persistence/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 jakarta/xml/ns/persistence/orm/
+│ @@ -13,15 +13,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 org/jvnet/hyperjaxb3/persistence/jpa3/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 org/jvnet/hyperjaxb3/persistence/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 persistence/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 persistence/orm/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 META-INF/maven/org.jvnet.jaxb/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Sep-16 13:25 META-INF/maven/org.jvnet.jaxb/hyperjaxb3-ejb-schemas-persistence/
+│ --rw-r--r--  2.0 unx    12260 b- defN 25-Sep-16 13:25 META-INF/sun-jaxb.episode
+│ +-rw-r--r--  2.0 unx    12241 b- defN 25-Sep-16 13:25 META-INF/sun-jaxb.episode
+│  -rw-r--r--  2.0 unx      638 b- defN 25-Sep-16 13:25 bindings.xjb
+│  -rw-r--r--  2.0 unx     1438 b- defN 25-Sep-16 13:25 jakarta/xml/ns/persistence/ObjectFactory.class
+│  -rw-r--r--  2.0 unx     8567 b- defN 25-Sep-16 13:25 jakarta/xml/ns/persistence/Persistence$PersistenceUnit$Properties$Property.class
+│  -rw-r--r--  2.0 unx     7643 b- defN 25-Sep-16 13:25 jakarta/xml/ns/persistence/Persistence$PersistenceUnit$Properties.class
+│  -rw-r--r--  2.0 unx    30586 b- defN 25-Sep-16 13:25 jakarta/xml/ns/persistence/Persistence$PersistenceUnit.class
+│  -rw-r--r--  2.0 unx     9879 b- defN 25-Sep-16 13:25 jakarta/xml/ns/persistence/Persistence.class
+│  -rw-r--r--  2.0 unx    14902 b- defN 25-Sep-16 13:25 jakarta/xml/ns/persistence/orm/AssociationOverride.class
+│ @@ -102,8 +102,8 @@
+│  -rw-r--r--  2.0 unx     1379 b- defN 25-Sep-16 13:25 org/jvnet/hyperjaxb3/persistence/util/PersistenceConstants.class
+│  -rw-r--r--  2.0 unx     1076 b- defN 25-Sep-16 13:25 org/jvnet/hyperjaxb3/persistence/util/PersistenceUtils$1.class
+│  -rw-r--r--  2.0 unx     1334 b- defN 25-Sep-16 13:25 org/jvnet/hyperjaxb3/persistence/util/PersistenceUtils.class
+│  -rw-r--r--  2.0 unx    83616 b- defN 25-Sep-16 13:25 persistence/orm/orm_3_1.xsd
+│  -rw-r--r--  2.0 unx    11906 b- defN 25-Sep-16 13:25 persistence/persistence_3_0.xsd
+│  -rw-r--r--  2.0 unx     2101 b- defN 25-Sep-16 13:25 META-INF/maven/org.jvnet.jaxb/hyperjaxb3-ejb-schemas-persistence/pom.xml
+│  -rw-r--r--  2.0 unx       84 b- defN 25-Sep-16 13:25 META-INF/maven/org.jvnet.jaxb/hyperjaxb3-ejb-schemas-persistence/pom.properties
+│ -107 files, 1360667 bytes uncompressed, 364830 bytes compressed:  73.2%
+│ +107 files, 1360648 bytes uncompressed, 364799 bytes compressed:  73.2%
+├── META-INF/sun-jaxb.episode
+│ ├── META-INF/sun-jaxb.episode
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <bindings xmlns="https://jakarta.ee/xml/ns/jaxb" version="3.0">
+│ │    <!--
+│ │  
+│ │ -Ce fichier a été généré par Eclipse Implementation of JAXB, v4.0.5 
+│ │ -Voir https://eclipse-ee4j.github.io/jaxb-ri 
+│ │ -Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+│ │ -Généré le : 2025.09.16 à 03:36:04 PM CEST
+│ │ +This file was generated by the Eclipse Implementation of JAXB, v4.0.5 
+│ │ +See https://eclipse-ee4j.github.io/jaxb-ri 
+│ │ +Any modifications to this file will be lost upon recompilation of the source schema. 
+│ │ +Generated on: 2025.10.21 at 07:13:42 AM UTC
+│ │    -->
+│ │    <bindings xmlns:tns="https://jakarta.ee/xml/ns/persistence" scd="x-schema::tns" if-exists="true" auto-acknowledge="true">
+│ │      <schemaBindings map="false">
+│ │        <package name="jakarta.xml.ns.persistence"/>
+│ │      </schemaBindings>
+│ │      <bindings scd="tns:persistence" if-exists="true" auto-acknowledge="true">
+│ │        <class ref="jakarta.xml.ns.persistence.Persistence"/>
+
+# same issue as previous
+3 / 5 target/reference/org.jvnet.jaxb/hyperjaxb3-ejb-schemas-persistence-4.0.11-sources.jar hyperjaxb/ejb/schemas/persistence/target/hyperjaxb3-ejb-schemas-persistence-4.0.11-sources.jar
+4 / 5 target/reference/org.jvnet.jaxb/hyperjaxb3-ejb-schemas-customizations-4.0.11.jar hyperjaxb/ejb/schemas/customizations/target/hyperjaxb3-ejb-schemas-customizations-4.0.11.jar
+5 / 5 target/reference/org.jvnet.jaxb/hyperjaxb3-ejb-schemas-customizations-4.0.11-sources.jar hyperjaxb/ejb/schemas/customizations/target/hyperjaxb3-ejb-schemas-customizations-4.0.11-sources.jar

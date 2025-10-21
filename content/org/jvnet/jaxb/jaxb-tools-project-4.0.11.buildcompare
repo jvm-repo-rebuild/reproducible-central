@@ -1,0 +1,20 @@
+version=4.0.11
+ok=67
+ko=5
+ignored=0
+okFiles="jaxb-tools-project-4.0.11.pom jaxb-bom-parent-4.0.11.pom jaxb-bom-4.0.11.pom jaxb-tools-bom-parent-4.0.11.pom jaxb-tools-bom-4.0.11.pom jaxb-plugins-project-4.0.11.pom jaxb-plugins-runtime-4.0.11.pom jaxb-plugins-runtime-4.0.11-sources.jar jaxb-plugins-tools-4.0.11.pom jaxb-plugins-tools-4.0.11.jar jaxb-plugins-tools-4.0.11-sources.jar jaxb-annox-parent-4.0.11.pom jaxb-annox-4.0.11.pom jaxb-annox-4.0.11.jar jaxb-annox-4.0.11-sources.jar jaxb-annotate-plugin-parent-4.0.11.pom jaxb-plugin-annotate-4.0.11.pom jaxb-plugin-annotate-4.0.11.jar jaxb-plugin-annotate-4.0.11-sources.jar jaxb-plugins-ant-4.0.11.pom jaxb-plugins-ant-4.0.11.jar jaxb-plugins-ant-4.0.11-sources.jar jaxb-plugins-testing-4.0.11.pom jaxb-plugins-testing-4.0.11.jar jaxb-plugins-testing-4.0.11-sources.jar jaxb-maven-plugin-project-4.0.11.pom jaxb-maven-plugin-core-4.0.11.pom jaxb-maven-plugin-core-4.0.11.jar jaxb-maven-plugin-core-4.0.11-sources.jar jaxb-maven-plugin-4.0.11.pom jaxb-maven-plugin-4.0.11.jar jaxb-maven-plugin-4.0.11-sources.jar jaxb-maven-plugin-testing-4.0.11.pom jaxb-maven-plugin-testing-4.0.11.jar jaxb-maven-plugin-testing-4.0.11-sources.jar jaxb-plugins-4.0.11.pom jaxb-plugins-4.0.11.jar jaxb-plugins-4.0.11-sources.jar jaxb-plugins-shaded-4.0.11.pom jaxb-plugins-shaded-4.0.11.jar jaxb-plugins-shaded-4.0.11-sources.jar hyperjaxb3-parent-4.0.11.pom hyperjaxb3-ejb-4.0.11.pom hyperjaxb3-ejb-schemas-4.0.11.pom hyperjaxb3-ejb-schemas-persistence-4.0.11.pom hyperjaxb3-ejb-schemas-customizations-4.0.11.pom hyperjaxb3-ejb-runtime-4.0.11.pom hyperjaxb3-ejb-runtime-4.0.11.jar hyperjaxb3-ejb-runtime-4.0.11-sources.jar hyperjaxb3-ejb-roundtrip-4.0.11.pom hyperjaxb3-ejb-roundtrip-4.0.11.jar hyperjaxb3-ejb-roundtrip-4.0.11-sources.jar hyperjaxb3-ejb-plugin-4.0.11.pom hyperjaxb3-ejb-plugin-4.0.11.jar hyperjaxb3-ejb-plugin-4.0.11-sources.jar hyperjaxb3-ejb-extensions-4.0.11.pom hyperjaxb3-ejb-extensions-naming-4.0.11.pom hyperjaxb3-ejb-extensions-custom-naming-4.0.11.pom hyperjaxb3-ejb-extensions-custom-naming-4.0.11.jar hyperjaxb3-ejb-extensions-custom-naming-4.0.11-sources.jar hyperjaxb3-maven-4.0.11.pom hyperjaxb3-maven-plugin-4.0.11.pom hyperjaxb3-maven-plugin-4.0.11.jar hyperjaxb3-maven-plugin-4.0.11-sources.jar hyperjaxb3-maven-plugin-testing-4.0.11.pom hyperjaxb3-maven-plugin-testing-4.0.11.jar hyperjaxb3-maven-plugin-testing-4.0.11-sources.jar"
+koFiles="jaxb-plugins-runtime-4.0.11.jar hyperjaxb3-ejb-schemas-persistence-4.0.11.jar hyperjaxb3-ejb-schemas-persistence-4.0.11-sources.jar hyperjaxb3-ejb-schemas-customizations-4.0.11.jar hyperjaxb3-ejb-schemas-customizations-4.0.11-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jvnet.jaxb/jaxb-plugins-runtime-4.0.11.jar jaxb-plugins-parent/jaxb-plugins-runtime/target/jaxb-plugins-runtime-4.0.11.jar
+# diffoscope target/reference/org.jvnet.jaxb/hyperjaxb3-ejb-schemas-persistence-4.0.11.jar hyperjaxb/ejb/schemas/persistence/target/hyperjaxb3-ejb-schemas-persistence-4.0.11.jar
+# diffoscope target/reference/org.jvnet.jaxb/hyperjaxb3-ejb-schemas-persistence-4.0.11-sources.jar hyperjaxb/ejb/schemas/persistence/target/hyperjaxb3-ejb-schemas-persistence-4.0.11-sources.jar
+# diffoscope target/reference/org.jvnet.jaxb/hyperjaxb3-ejb-schemas-customizations-4.0.11.jar hyperjaxb/ejb/schemas/customizations/target/hyperjaxb3-ejb-schemas-customizations-4.0.11.jar
+# diffoscope target/reference/org.jvnet.jaxb/hyperjaxb3-ejb-schemas-customizations-4.0.11-sources.jar hyperjaxb/ejb/schemas/customizations/target/hyperjaxb3-ejb-schemas-customizations-4.0.11-sources.jar
+stabilize_ok=0
+stabilize_ko=5
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="jaxb-plugins-runtime-4.0.11.jar.stabilized hyperjaxb3-ejb-schemas-persistence-4.0.11.jar.stabilized hyperjaxb3-ejb-schemas-persistence-4.0.11-sources.jar.stabilized hyperjaxb3-ejb-schemas-customizations-4.0.11.jar.stabilized hyperjaxb3-ejb-schemas-customizations-4.0.11-sources.jar.stabilized"
+stabilize_ignoredFiles=""
