@@ -1,0 +1,17 @@
+groupId=org.jvnet.jaxb
+artifactId=jaxb-tools-project
+display=${groupId}:jaxb-tools
+version=4.0.10
+
+gitRepo=https://github.com/highsource/jaxb-tools.git
+gitTag=${version}
+
+tool=mvn-3.9.11
+jdk=11
+newline=lf
+#umask=022
+
+command="mvn -Psonatype-oss-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.detect.skip=false"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
