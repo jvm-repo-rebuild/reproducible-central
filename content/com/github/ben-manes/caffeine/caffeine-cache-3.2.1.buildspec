@@ -1,0 +1,17 @@
+groupId=com.github.ben-manes.caffeine
+artifactId=caffeine
+display=${groupId}:${artifactId}
+version=3.2.1
+
+gitRepo=https://github.com/ben-manes/caffeine.git
+gitTag=v${version}
+
+tool=gradle
+jdk=11
+newline=lf
+
+command="./gradlew clean assemble -x test -x signMavenPublication --no-daemon --no-build-cache publishToMavenLocal -P release"
+buildinfo=${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
