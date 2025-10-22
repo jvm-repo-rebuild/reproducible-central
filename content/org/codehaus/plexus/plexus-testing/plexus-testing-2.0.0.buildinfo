@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Testing
+group-id=org.codehaus.plexus
+artifact-id=plexus-testing
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-testing.git
+source.scm.tag=plexus-testing-2.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.5
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.8.0-86-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-testing-2.0.0.pom
+outputs.0.length=3687
+outputs.0.checksums.sha512=7d6202614ef6db663b559810d721801d0c43d5d3f013be9c221538373e313838e832708b5f7d1a30fdecf13669900caaa377f6d58e0636b1238a1a771e3bf2e6
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-testing-2.0.0.jar
+outputs.1.length=8137
+outputs.1.checksums.sha512=3ace6c661f551a3a785001c7a244edd6953ce80117698cde915ed825fc4eb49bad8d248789476a19ff4649153e4cb0e30725d61ebe306ac9478b81e461e40096
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-testing-2.0.0-source-release.zip
+outputs.2.length=17892
+outputs.2.checksums.sha512=1724d6a93ddbb2402c7541c16cdb19b985cddb749d96e1ee785a55423d44b1d7d97eba152f578e62e6ce04cb935da5c2dc43fb286be6fbb85c0a7bce40293356
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-testing-2.0.0-sources.jar
+outputs.3.length=6991
+outputs.3.checksums.sha512=acb61e1a446525a5e1d35deceed906fda26a9b34d19011ee92703d6fd8b2466badf87efecf05144b4eff3d97c789647b80cbacb665043085057c6a64ec060ebb
