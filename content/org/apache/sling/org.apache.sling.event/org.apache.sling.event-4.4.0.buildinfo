@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Event Impl
+group-id=org.apache.sling
+artifact-id=org.apache.sling.event
+version=4.4.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-event.git
+source.scm.tag=org.apache.sling.event-4.4.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.5
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.8.0-86-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.event-4.4.0.pom
+outputs.0.length=14693
+outputs.0.checksums.sha512=555907ddde7a84e8162a2e57da181cf281cbc228f5e65017b6b7b86b9c0641188240e07017f32f89102318bd9bb8564536530a5826fb5bc22d5a729e73dfa4fd
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.event-4.4.0.jar
+outputs.1.length=314691
+outputs.1.checksums.sha512=a5aa1c5d19dc5cf15e108fa71a4820b691fc398ca846266e4170e8b38732e7c1a7f09cc8e1a4f1f85e32a416215a0bc7af19808dc272a82c320ee669ead0b22c
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.event-4.4.0-source-release.zip
+outputs.2.length=267477
+outputs.2.checksums.sha512=41bd8116f67d9de1061f3bda8ff3fb916a8812afbac7b5bb07b42dabcfc74de58c16fb51b9da99ebf1ac3c82bc0ee05516adf2780e8d164bd153112bd97a48a7
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.event-4.4.0-sources.jar
+outputs.3.length=158527
+outputs.3.checksums.sha512=f6212cea138a0b4a4990063be8d49b1399ad0beb32201bed01c50832d48911bc0e6edf3d5b39a5d8dcc520a4ba5c94ee4082aea1625b30ca63021e33021f1617
