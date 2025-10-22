@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/ollama4j/ollama4j.git](https://github.com/ollama4j/ollama4j.git)
 
-rebuilding **7 releases** of io.github.ollama4j:ollama4j:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of io.github.ollama4j:ollama4j:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.1.2](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.1.2/pom) | | | |
+| [1.1.2](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.1.2/pom) | [mvn jdk21](ollama4j-1.1.2.buildspec) | [result](ollama4j-1.1.2.buildinfo): [3 :white_check_mark: ](ollama4j-1.1.2.buildcompare) | | 244K |
 | [1.1.1](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.1.1/pom) | [mvn jdk21](ollama4j-1.1.1.buildspec) | [result](ollama4j-1.1.1.buildinfo): [3 :white_check_mark: ](ollama4j-1.1.1.buildcompare) | | 231K |
 | [1.1.0](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.1.0/pom) | [mvn jdk17](ollama4j-1.1.0.buildspec) | [result](ollama4j-1.1.0.buildinfo): [3 :white_check_mark: ](ollama4j-1.1.0.buildcompare) | | 240K |
 | [1.0.100](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.0.100/pom) | [mvn jdk17](ollama4j-1.0.100.buildspec) | [result](ollama4j-1.0.100.buildinfo): [3 :white_check_mark: ](ollama4j-1.0.100.buildcompare) | | 225K |
