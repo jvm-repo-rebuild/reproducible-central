@@ -1,0 +1,9 @@
+version=3.2.0
+ok=6
+ko=0
+ignored=0
+okFiles="maven-antrun-plugin-3.2.0.pom maven-antrun-plugin-3.2.0.jar maven-antrun-plugin-3.2.0-source-release.zip maven-antrun-plugin-3.2.0-sources.jar maven-antrun-plugin-3.2.0-cyclonedx.xml maven-antrun-plugin-3.2.0-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
