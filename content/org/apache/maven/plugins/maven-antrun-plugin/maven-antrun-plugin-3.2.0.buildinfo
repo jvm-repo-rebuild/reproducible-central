@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven AntRun Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-antrun-plugin
+version=3.2.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-antrun-plugin.git
+source.scm.tag=maven-antrun-plugin-3.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.5
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.8.0-86-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-antrun-plugin-3.2.0.pom
+outputs.0.length=7743
+outputs.0.checksums.sha512=97d855578398ab4da7cd378185f3ca8627da3e6860512e1d8e14a449ebefb1fb1ae5ec6f2b8bb982755d54781fdf95013dc1b3e9db3f7afeb8e240700277e815
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-antrun-plugin-3.2.0.jar
+outputs.1.length=41238
+outputs.1.checksums.sha512=2f524bf3a0d4f14ee66a7d6391b8e8843c9af9c5d226b25392236dc8717671489d23eebb902cf983e979d0d451fc10aee2a433d0303e2e1b944e9d0b9a2b47d9
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-antrun-plugin-3.2.0-source-release.zip
+outputs.2.length=148297
+outputs.2.checksums.sha512=11b0870c91629107b9c5e41d9063cca64d87ee284d32a41378b866bc5f04c0b6a823b41f70adc4b9ce220afd047ecae74816d299ba50c82a96da31f90d72a70d
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-antrun-plugin-3.2.0-sources.jar
+outputs.3.length=33156
+outputs.3.checksums.sha512=9804749fb1b458fe3986f3ccfe272a89926704ae74717ad40b8c77e1154b1e121071356ec412e616fd08b629ee927418021f0667e0b23f5e767ca927ad8c81a6
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-antrun-plugin-3.2.0-cyclonedx.xml
+outputs.4.length=101762
+outputs.4.checksums.sha512=22dc01854932d76d047a91fe58f77228944a49115cdd53e01288b63dbc13c6398dcaf650f6192bbb15d2f374e04b41ccefd84a2624fe416d4531c59d1330b623
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-antrun-plugin-3.2.0-cyclonedx.json
+outputs.5.length=110629
+outputs.5.checksums.sha512=954d8d3431e4517bc351926ccff0de4b64f1c89d54eb6ed045602d729259a90561c97351012d4044369ae5e080dd406bb73dfee9df853c635aad894bfdba60bf
