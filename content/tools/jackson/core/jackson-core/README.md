@@ -13,6 +13,7 @@ rebuilding **11 releases** of tools.jackson.core:jackson-core:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.0.1](https://central.sonatype.com/artifact/tools.jackson.core/jackson-core/3.0.1/pom) | | | |
 | [3.0.0](https://central.sonatype.com/artifact/tools.jackson.core/jackson-core/3.0.0/pom) | [mvn jdk17](jackson-core-3.0.0.buildspec) | [result](jackson-core-3.0.0.buildinfo): [4 :white_check_mark: ](jackson-core-3.0.0.buildcompare) | | 1.1M |
 | [3.0.0-rc10](https://central.sonatype.com/artifact/tools.jackson.core/jackson-core/3.0.0-rc10/pom) | [mvn jdk17](jackson-core-3.0.0-rc10.buildspec) | [result](jackson-core-3.0.0-rc10.buildinfo): [4 :white_check_mark: ](jackson-core-3.0.0-rc10.buildcompare) | | 1.1M |
 | [3.0.0-rc9](https://central.sonatype.com/artifact/tools.jackson.core/jackson-core/3.0.0-rc9/pom) | [mvn jdk17](jackson-core-3.0.0-rc9.buildspec) | [result](jackson-core-3.0.0-rc9.buildinfo): [4 :white_check_mark: ](jackson-core-3.0.0-rc9.buildcompare) | | 1.1M |

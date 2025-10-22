@@ -24,6 +24,7 @@ rebuilding **11 releases** of tools.jackson.jr:jackson-jr-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.0.1](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-parent/3.0.1/pom) | | | |
 | [3.0.0](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-parent/3.0.0/pom) | [mvn jdk17](jackson-jr-3.0.0.buildspec) | [result](jackson-jr-parent-3.0.0.buildinfo): [19 :white_check_mark: ](jackson-jr-parent-3.0.0.buildcompare) | | 1.6M |
 | [3.0.0-rc10](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-parent/3.0.0-rc10/pom) | [mvn jdk17](jackson-jr-3.0.0-rc10.buildspec) | [result](jackson-jr-parent-3.0.0-rc10.buildinfo): [19 :white_check_mark: ](jackson-jr-parent-3.0.0-rc10.buildcompare) | | 1.6M |
 | [3.0.0-rc9](https://central.sonatype.com/artifact/tools.jackson.jr/jackson-jr-parent/3.0.0-rc9/pom) | [mvn jdk17](jackson-jr-3.0.0-rc9.buildspec) | [result](jackson-jr-parent-3.0.0-rc9.buildinfo): [19 :white_check_mark: ](jackson-jr-parent-3.0.0-rc9.buildcompare) | | 1.6M |
