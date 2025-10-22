@@ -1,0 +1,9 @@
+version=3.2.122
+ok=13
+ko=0
+ignored=0
+okFiles="zrlog-base-3.2.122.pom zrlog-common-3.2.122.pom zrlog-common-3.2.122.jar zrlog-common-3.2.122-sources.jar zrlog-data-3.2.122.pom zrlog-data-3.2.122.jar zrlog-data-3.2.122-sources.jar zrlog-admin-token-3.2.122.pom zrlog-admin-token-3.2.122.jar zrlog-admin-token-3.2.122-sources.jar zrlog-service-3.2.122.pom zrlog-service-3.2.122.jar zrlog-service-3.2.122-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
