@@ -1,0 +1,142 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Parent pom for Jackson jr components
+group-id=tools.jackson.jr
+artifact-id=jackson-jr-parent
+version=3.0.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-jr.git
+source.scm.tag=jackson-jr-parent-3.0.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.8.0-86-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=jackson-jr-all
+
+# aggregated output
+
+outputs.0.coordinates=tools.jackson.jr:jackson-jr-parent
+
+outputs.0.0.groupId=tools.jackson.jr
+outputs.0.0.filename=jackson-jr-parent-3.0.1.pom
+outputs.0.0.length=2924
+outputs.0.0.checksums.sha512=145271ca39d0ec737a6fefd948d71891269f5ad5d0c9df0d95a1796c6ca4df972f5abfc97bb1c0c1335a5934fbb3812ad46e8f0add98c84ecf9a099e4d57ca13
+
+outputs.1.coordinates=tools.jackson.jr:jackson-jr-objects
+
+outputs.1.0.groupId=tools.jackson.jr
+outputs.1.0.filename=jackson-jr-objects-3.0.1.pom
+outputs.1.0.length=3332
+outputs.1.0.checksums.sha512=dfddb6b6801f1f82a05f19e6d4a9aefd1290a14abf906b5a3cb29744ab3692240dd4369ee0cef5ecb66ea6e7b684a0d1c15bfc26521aa29d1e4d54f7cadf27fd
+
+outputs.1.1.groupId=tools.jackson.jr
+outputs.1.1.filename=jackson-jr-objects-3.0.1.jar
+outputs.1.1.length=104348
+outputs.1.1.checksums.sha512=12b05915969df672559d4413e8cfbe6b7653164c2ef2699ff46968198dece13f1b64109f085e662f53558f9a41ecb11066454fe4f9a1b4779d95ee85ab708e3f
+
+outputs.1.2.groupId=tools.jackson.jr
+outputs.1.2.filename=jackson-jr-objects-3.0.1-sources.jar
+outputs.1.2.length=88971
+outputs.1.2.checksums.sha512=78d22a1ceeb6ba9f79682dce7ae1452eaf442737789050283fdbcc067b0cc67085c9c34c70d2a8b1ad32a9c788ba9a3a0956879b3d7d0f33cc6860f19b43f98b
+# ignored jackson-jr-objects-3.0.1.module
+
+outputs.2.coordinates=tools.jackson.jr:jackson-jr-retrofit2
+
+outputs.2.0.groupId=tools.jackson.jr
+outputs.2.0.filename=jackson-jr-retrofit2-3.0.1.pom
+outputs.2.0.length=2386
+outputs.2.0.checksums.sha512=d49e2e3590e25d971d1ab2c79b82b9cf57dce5f62a9332eafae46ece4e7112680164ecece4746dd5aed946309b72a09ca5b136d5d3135285ac1e61a8f7ccc376
+
+outputs.2.1.groupId=tools.jackson.jr
+outputs.2.1.filename=jackson-jr-retrofit2-3.0.1.jar
+outputs.2.1.length=7463
+outputs.2.1.checksums.sha512=d985312b8c012d2eb7271f9fa62ef5c8ac06df5128a8baca657a64a8875caa80d2d499e6cbcc70db73d6847a3435815966e86ad2db289300d0ab47f30eb3e62c
+
+outputs.2.2.groupId=tools.jackson.jr
+outputs.2.2.filename=jackson-jr-retrofit2-3.0.1-sources.jar
+outputs.2.2.length=5970
+outputs.2.2.checksums.sha512=317f470a811e9b503d137a7b3c8354d194e08066c238c27549657bb70a89f3731b81350f85a7146bc6914cb9f2ccf6336b8b51f281e4f28d7085f5ed572e134e
+# ignored jackson-jr-retrofit2-3.0.1.module
+
+outputs.3.coordinates=tools.jackson.jr:jackson-jr-stree
+
+outputs.3.0.groupId=tools.jackson.jr
+outputs.3.0.filename=jackson-jr-stree-3.0.1.pom
+outputs.3.0.length=2576
+outputs.3.0.checksums.sha512=633472e56cf6233ed9f7d14b4bb346d8cb946be11b7d9e8e1b85761cac48a6e53406f4b3699d3d6a4d71aaa658e231182a863a9b02a4d5c0d0ac1296b517b220
+
+outputs.3.1.groupId=tools.jackson.jr
+outputs.3.1.filename=jackson-jr-stree-3.0.1.jar
+outputs.3.1.length=28528
+outputs.3.1.checksums.sha512=eb8e924851437590214e34d596a903258b70b14c90d7cdde6ba10d478df353dbd899908959ee1f82c366ce965c8eec45b35fc38c85648fb5451a22b0c57d9474
+
+outputs.3.2.groupId=tools.jackson.jr
+outputs.3.2.filename=jackson-jr-stree-3.0.1-sources.jar
+outputs.3.2.length=19595
+outputs.3.2.checksums.sha512=69a6a8742b8d24aeb14f8730f11fe8dd397b71d05de71a756cae1f6ab9f75b227f50aa8b0204766c1a3dfc695fc59a328d0ce8a8822499a277767fdfefe26ee6
+# ignored jackson-jr-stree-3.0.1.module
+
+outputs.4.coordinates=tools.jackson.jr:jackson-jr-annotation-support
+
+outputs.4.0.groupId=tools.jackson.jr
+outputs.4.0.filename=jackson-jr-annotation-support-3.0.1.pom
+outputs.4.0.length=2721
+outputs.4.0.checksums.sha512=e2c99f0890a6ac0d33910ddb65c52469b518e760b9bc6de3b73623351d3a1e99d2c2a2cc76125410d60d0094470dd225af3ba614d4a9cf4963876b94cde709bb
+
+outputs.4.1.groupId=tools.jackson.jr
+outputs.4.1.filename=jackson-jr-annotation-support-3.0.1.jar
+outputs.4.1.length=24465
+outputs.4.1.checksums.sha512=fb5a787db9b62c33eb2f4ed7295b01e811bb1c81413994284e7afae87fdf7e184975e90fd742a1fa6be486703b3576752099efd71db568afe15a18db43797809
+
+outputs.4.2.groupId=tools.jackson.jr
+outputs.4.2.filename=jackson-jr-annotation-support-3.0.1-sources.jar
+outputs.4.2.length=16716
+outputs.4.2.checksums.sha512=08732e59a0ecf3cf81dbb7d2c46fe174dcd9168c0c3c6210ba16d77b8a14c035a105d252cb1a17ea2ab60467e4252d5546b38bf5425315c89c864a241c4c9e53
+# ignored jackson-jr-annotation-support-3.0.1.module
+
+outputs.5.coordinates=tools.jackson.jr:jackson-jr-extension-javatime
+
+outputs.5.0.groupId=tools.jackson.jr
+outputs.5.0.filename=jackson-jr-extension-javatime-3.0.1.pom
+outputs.5.0.length=2464
+outputs.5.0.checksums.sha512=42ef8afdf7a74aa315bdff273012c3641d5a3594758d354a1f0c45ce32e1f31157e8a837ca8101bb7f4e95f986dc77e4be43b6cdb7338724317368f16b9afead
+
+outputs.5.1.groupId=tools.jackson.jr
+outputs.5.1.filename=jackson-jr-extension-javatime-3.0.1.jar
+outputs.5.1.length=13839
+outputs.5.1.checksums.sha512=d6437838b0df73cfd229d7e2d0e1d68a7c6875096d05abcad07b05f00130a055896434c703b96087cda75c59133a016bdd555ede1169cefe951789b2982ed6df
+
+outputs.5.2.groupId=tools.jackson.jr
+outputs.5.2.filename=jackson-jr-extension-javatime-3.0.1-sources.jar
+outputs.5.2.length=12176
+outputs.5.2.checksums.sha512=d5eb9141a1c5236be5ffca1259860f442c0b4eb93fe073944bc564f632dc4995315bc6bae0f7dfd7dad7adfe7762b6a6ce8377704a0eee2b5105a173da7003ef
+# ignored jackson-jr-extension-javatime-3.0.1.module
+
+outputs.6.coordinates=tools.jackson.jr:jackson-jr-all
+
+outputs.6.0.groupId=tools.jackson.jr
+outputs.6.0.filename=jackson-jr-all-3.0.1.pom
+outputs.6.0.length=3936
+outputs.6.0.checksums.sha512=d4be86f6344ccc16029f8fa8770fa0c3699098b3a5fd126b4d4b08ace0dae378ff206b442973ecf081b99b7a7c916f2993b72f5ba18c0193281cdde0182d556a
+
+outputs.6.1.groupId=tools.jackson.jr
+outputs.6.1.filename=jackson-jr-all-3.0.1.jar
+outputs.6.1.length=720706
+outputs.6.1.checksums.sha512=a9010bdf7cd49568954d0f568089c51cb3d8c523ac196a02d8a959984a6c16559ab663555a6e3b4ccdaf0210ab674bd15c190f6c8e4029676be19f9b22df1f41
+
+outputs.6.2.groupId=tools.jackson.jr
+outputs.6.2.filename=jackson-jr-all-3.0.1-sources.jar
+outputs.6.2.length=586445
+outputs.6.2.checksums.sha512=80c60da30bb54fe5a0a946061bac3011a3e476249949b0a5d141d03ba07a4dfc7265344a3dc0e8bafccfc41b16db4b456c481115e9a057ea44889c899b7c99b1
