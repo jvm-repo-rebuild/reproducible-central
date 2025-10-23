@@ -1,0 +1,125 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson datatypes: collections
+group-id=tools.jackson.datatype
+artifact-id=jackson-datatypes-collections
+version=3.0.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-datatypes-collections.git
+source.scm.tag=jackson-datatypes-collections-3.0.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.8.0-86-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=jackson-datatype-pcollections
+
+# aggregated output
+
+outputs.0.coordinates=tools.jackson.datatype:jackson-datatypes-collections
+
+outputs.0.0.groupId=tools.jackson.datatype
+outputs.0.0.filename=jackson-datatypes-collections-3.0.1.pom
+outputs.0.0.length=4806
+outputs.0.0.checksums.sha512=62436bdd8ba667851f119050869a7cf2fe604a9ecf0e6d9abe33cd1ff606f7fa69331d0167c5ce370e541f5de217a6aed060724e00a49e3758d5270443e5139a
+
+outputs.1.coordinates=tools.jackson.datatype:jackson-datatype-guava
+
+outputs.1.0.groupId=tools.jackson.datatype
+outputs.1.0.filename=jackson-datatype-guava-3.0.1.pom
+outputs.1.0.length=3119
+outputs.1.0.checksums.sha512=1023ff8236de5691a0128ec08396d37ce1dc2939557962b9611a9439b4f2a8a1c055f414b7bf798f18c9b844bf8d20dbdc82fb28bda20eb006cb956d58dd2953
+
+outputs.1.1.groupId=tools.jackson.datatype
+outputs.1.1.filename=jackson-datatype-guava-3.0.1.jar
+outputs.1.1.length=153671
+outputs.1.1.checksums.sha512=3bf6e70655f3dde294cec0e74fb24032dd5ffc3845a0e8190de7458908f6e0be6accb02432249db997b37d729b1c1edc753ea0860c1d4eb632ad83e8606f6b10
+
+outputs.1.2.groupId=tools.jackson.datatype
+outputs.1.2.filename=jackson-datatype-guava-3.0.1-sources.jar
+outputs.1.2.length=89756
+outputs.1.2.checksums.sha512=27f798f0d9e482f7adba0a048f6192764d36d2babed602ed51a73f6c48ee3b9262cf2eed2218e0f9639f8c69c774110f0aa1848ec71005b0c306a249747d6e7e
+# ignored jackson-datatype-guava-3.0.1.module
+
+outputs.2.coordinates=tools.jackson.datatype:jackson-datatype-primitive-collections-base
+
+outputs.2.0.groupId=tools.jackson.datatype
+outputs.2.0.filename=jackson-datatype-primitive-collections-base-3.0.1.pom
+outputs.2.0.length=1973
+outputs.2.0.checksums.sha512=49ab83b8b7875f55265a92bdd27ea9ffcad4436cffe577a12e59adab0ad31b6d185b40e0e8f603cda5e839b9b8c58bc1004b5642b08cfc96f77e2405d3692712
+
+outputs.2.1.groupId=tools.jackson.datatype
+outputs.2.1.filename=jackson-datatype-primitive-collections-base-3.0.1.jar
+outputs.2.1.length=36641
+outputs.2.1.checksums.sha512=51c40e946f89a0f91e8aaa7e09346e7f91ccbbf0c89ea41cf4ea10edb402d4d05ac630683301df3e1ea0f4346b26595088a7601a8f345a9c9f359f191704dad0
+
+outputs.2.2.groupId=tools.jackson.datatype
+outputs.2.2.filename=jackson-datatype-primitive-collections-base-3.0.1-sources.jar
+outputs.2.2.length=18759
+outputs.2.2.checksums.sha512=7b587cbd4064426b6366dc6eefc6b01fa017fea152a5ef16d0d3d0b2a8ccb46f5d5ac51f1d2d17610736b2ca8d66853bf17502dceabc7d517652c74cc9408178
+# ignored jackson-datatype-primitive-collections-base-3.0.1.module
+
+outputs.3.coordinates=tools.jackson.datatype:jackson-datatype-hppc
+
+outputs.3.0.groupId=tools.jackson.datatype
+outputs.3.0.filename=jackson-datatype-hppc-3.0.1.pom
+outputs.3.0.length=2416
+outputs.3.0.checksums.sha512=863a2f46e9d72b959e566550c3662821ea94178df5bc8cbd5b22cb0f1dc2058c1298dbbbe4675d6355ef1a75a80a3629a40ddcf1c87ae83c280d00831b2737c6
+
+outputs.3.1.groupId=tools.jackson.datatype
+outputs.3.1.filename=jackson-datatype-hppc-3.0.1.jar
+outputs.3.1.length=42172
+outputs.3.1.checksums.sha512=f53e0c0e7e96b99aa1765efa074c8b3c4ff5024a59655102cc555c0a8d9cf458332c0d05d46edacc14c1a142fa6a7978e865f85e79563317b48dae51f642104d
+
+outputs.3.2.groupId=tools.jackson.datatype
+outputs.3.2.filename=jackson-datatype-hppc-3.0.1-sources.jar
+outputs.3.2.length=16459
+outputs.3.2.checksums.sha512=48bd04bae4bc62d56ee7a9d711cd9f242652b785ea4d95e48447d1ff98b80ea3d553a7726633b135e768b3833e352c89ed818dc27a3eceec98a199be1fd837a9
+# ignored jackson-datatype-hppc-3.0.1.module
+
+outputs.4.coordinates=tools.jackson.datatype:jackson-datatype-eclipse-collections
+
+outputs.4.0.groupId=tools.jackson.datatype
+outputs.4.0.filename=jackson-datatype-eclipse-collections-3.0.1.pom
+outputs.4.0.length=3383
+outputs.4.0.checksums.sha512=25724a46dc27ac237b890a78929d9f2de634ac4596385fd537220f54d0ac2b2fea7cf236a1d1a5e80e0abd6916a2b68877c92241406e63f7c4241973dc4df4fd
+
+outputs.4.1.groupId=tools.jackson.datatype
+outputs.4.1.filename=jackson-datatype-eclipse-collections-3.0.1.jar
+outputs.4.1.length=406631
+outputs.4.1.checksums.sha512=567dd3dcfb61b60d6ad9aab560f2e9a19ce90b6f5c940eef295c8f11209765bf7e0de8282717108f8302e7ed5b3c1eae86c4b2622d17a05a1e183765cd56ecb2
+
+outputs.4.2.groupId=tools.jackson.datatype
+outputs.4.2.filename=jackson-datatype-eclipse-collections-3.0.1-sources.jar
+outputs.4.2.length=65263
+outputs.4.2.checksums.sha512=5bdbe72e4fb67bf2633a0d02ee584a24e124d70fe5000bbb21f160c6b99511c7ccaad457f9ed1c5d509ed8b0969feb1bb8eb0c401405867737878a3bf4b9e294
+# ignored jackson-datatype-eclipse-collections-3.0.1.module
+
+outputs.5.coordinates=tools.jackson.datatype:jackson-datatype-pcollections
+
+outputs.5.0.groupId=tools.jackson.datatype
+outputs.5.0.filename=jackson-datatype-pcollections-3.0.1.pom
+outputs.5.0.length=2515
+outputs.5.0.checksums.sha512=5cdaa44f03f3bd7aaab2c91334359354a4c66175f1efea34440abbc7fdb656b138a011a7a495dc2a037d3d5423ed4b7953ec70daa0ae9fdd7a074eca8d94d7f1
+
+outputs.5.1.groupId=tools.jackson.datatype
+outputs.5.1.filename=jackson-datatype-pcollections-3.0.1.jar
+outputs.5.1.length=17774
+outputs.5.1.checksums.sha512=5738d55b6a670d72597ccc2af30f8d04a61f5915b893774cfc29badf7549523ab354866c416d242976447df9c4f340bb5882ac96f93d5c590729821a4367962a
+
+outputs.5.2.groupId=tools.jackson.datatype
+outputs.5.2.filename=jackson-datatype-pcollections-3.0.1-sources.jar
+outputs.5.2.length=13397
+outputs.5.2.checksums.sha512=ea78f774a65b43510d453691bbbb460258f818d19bd6f29c6eaf93d4019a5def50eb6cb8c74529863a2c637494c7fb211fcb608438c10305622dcd1115cfc737
+# ignored jackson-datatype-pcollections-3.0.1.module
