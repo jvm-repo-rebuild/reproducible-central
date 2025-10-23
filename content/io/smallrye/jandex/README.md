@@ -24,6 +24,7 @@ rebuilding **23 releases** of io.smallrye:jandex-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.5.1](https://central.sonatype.com/artifact/io.smallrye/jandex/3.5.1/pom) | | | |
 | [3.5.0](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.5.0/pom) | [mvn jdk21](jandex-3.5.0.buildspec) | [result](jandex-parent-3.5.0.buildinfo): [13 :white_check_mark:  1 :warning:](jandex-parent-3.5.0.buildcompare) | 1 :recycle: | 824K |
 | [3.4.0](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.4.0/pom) | [mvn jdk21](jandex-3.4.0.buildspec) | [result](jandex-parent-3.4.0.buildinfo): [13 :white_check_mark:  1 :warning:](jandex-parent-3.4.0.buildcompare) | 1 :recycle: | 812K |
 | [3.3.2](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.3.2/pom) | [mvn jdk21](jandex-3.3.2.buildspec) | [result](jandex-parent-3.3.2.buildinfo): [10 :white_check_mark:  1 :warning:](jandex-parent-3.3.2.buildcompare) | 1 :recycle: | 767K |

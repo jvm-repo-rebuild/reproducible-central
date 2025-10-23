@@ -3,8 +3,8 @@
   <groupId>com.taobao.arthas</groupId>
   <artifactId>arthas-all</artifactId>
   <versioning>
-    <latest>4.1.0</latest>
-    <release>4.1.0</release>
+    <latest>4.1.1</latest>
+    <release>4.1.1</release>
     <versions>
       <version>3.0.0-RC</version>
       <version>3.0.3</version>
@@ -67,7 +67,8 @@
       <version>4.0.4</version>
       <version>4.0.5</version>
       <version>4.1.0</version>
+      <version>4.1.1</version>
     </versions>
-    <lastUpdated>20251014164933</lastUpdated>
+    <lastUpdated>20251023093328</lastUpdated>
   </versioning>
 </metadata>
