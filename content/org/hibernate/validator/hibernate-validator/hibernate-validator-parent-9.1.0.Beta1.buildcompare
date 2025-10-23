@@ -1,0 +1,23 @@
+version=9.1.0.Beta1
+ok=5
+ko=8
+ignored=0
+okFiles="hibernate-validator-bom-9.1.0.Beta1.pom hibernate-validator-test-utils-9.1.0.Beta1.pom hibernate-validator-9.1.0.Beta1.pom hibernate-validator-annotation-processor-9.1.0.Beta1.pom hibernate-validator-cdi-9.1.0.Beta1.pom"
+koFiles="hibernate-validator-test-utils-9.1.0.Beta1.jar hibernate-validator-test-utils-9.1.0.Beta1-sources.jar hibernate-validator-9.1.0.Beta1.jar hibernate-validator-9.1.0.Beta1-sources.jar hibernate-validator-annotation-processor-9.1.0.Beta1.jar hibernate-validator-annotation-processor-9.1.0.Beta1-sources.jar hibernate-validator-cdi-9.1.0.Beta1.jar hibernate-validator-cdi-9.1.0.Beta1-sources.jar"
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.hibernate.validator/hibernate-validator-test-utils-9.1.0.Beta1.jar test-utils/target/hibernate-validator-test-utils-9.1.0.Beta1.jar
+# diffoscope target/reference/org.hibernate.validator/hibernate-validator-test-utils-9.1.0.Beta1-sources.jar test-utils/target/hibernate-validator-test-utils-9.1.0.Beta1-sources.jar
+# diffoscope target/reference/org.hibernate.validator/hibernate-validator-9.1.0.Beta1.jar engine/target/hibernate-validator-9.1.0.Beta1.jar
+# diffoscope target/reference/org.hibernate.validator/hibernate-validator-9.1.0.Beta1-sources.jar engine/target/hibernate-validator-9.1.0.Beta1-sources.jar
+# diffoscope target/reference/org.hibernate.validator/hibernate-validator-annotation-processor-9.1.0.Beta1.jar annotation-processor/target/hibernate-validator-annotation-processor-9.1.0.Beta1.jar
+# diffoscope target/reference/org.hibernate.validator/hibernate-validator-annotation-processor-9.1.0.Beta1-sources.jar annotation-processor/target/hibernate-validator-annotation-processor-9.1.0.Beta1-sources.jar
+# diffoscope target/reference/org.hibernate.validator/hibernate-validator-cdi-9.1.0.Beta1.jar cdi/target/hibernate-validator-cdi-9.1.0.Beta1.jar
+# diffoscope target/reference/org.hibernate.validator/hibernate-validator-cdi-9.1.0.Beta1-sources.jar cdi/target/hibernate-validator-cdi-9.1.0.Beta1-sources.jar
+stabilize_ok=8
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="hibernate-validator-test-utils-9.1.0.Beta1.jar.stabilized hibernate-validator-test-utils-9.1.0.Beta1-sources.jar.stabilized hibernate-validator-9.1.0.Beta1.jar.stabilized hibernate-validator-9.1.0.Beta1-sources.jar.stabilized hibernate-validator-annotation-processor-9.1.0.Beta1.jar.stabilized hibernate-validator-annotation-processor-9.1.0.Beta1-sources.jar.stabilized hibernate-validator-cdi-9.1.0.Beta1.jar.stabilized hibernate-validator-cdi-9.1.0.Beta1-sources.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""
