@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson datatype: Joda
+group-id=tools.jackson.datatype
+artifact-id=jackson-datatype-joda
+version=3.0.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-datatype-joda.git
+source.scm.tag=jackson-datatype-joda-3.0.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.8.0-86-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=tools.jackson.datatype
+outputs.0.filename=jackson-datatype-joda-3.0.1.pom
+outputs.0.length=5111
+outputs.0.checksums.sha512=9676f2662232465c2a58b0ab7a299a65f6458c8e3c93740fb189e0807e85c4805cf95ddecc272a21059199738b8c71ac6fd12b88298bc90750364501109b4b5c
+
+outputs.1.groupId=tools.jackson.datatype
+outputs.1.filename=jackson-datatype-joda-3.0.1.jar
+outputs.1.length=74850
+outputs.1.checksums.sha512=b8277282ece6a207da26d3e3078f3bb7063de9e41da0648b254010a5a697653f03e551c15dd00250598325d227553079281b5ab559f7a2fa7c37c2c30c875961
+
+outputs.2.groupId=tools.jackson.datatype
+outputs.2.filename=jackson-datatype-joda-3.0.1-sources.jar
+outputs.2.length=48518
+outputs.2.checksums.sha512=662748ac580011980baaa74ca1af5521c34dccb20f50889658c72019867102e5dc0e51b58d376e7d9f6cec6ee491c7df9bcbabcf602f12d7bc8f5895bde86ed5
+# ignored jackson-datatype-joda-3.0.1.module
