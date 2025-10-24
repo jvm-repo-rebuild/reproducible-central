@@ -1,0 +1,22 @@
+groupId=io.quarkus
+artifactId=quarkus-project
+display=${groupId}:${artifactId}
+version=3.29.0
+
+gitRepo=https://github.com/quarkusio/quarkus.git
+gitTag=${version}
+
+tool=mvn-3.9.9
+jdk=21
+toolchains="21|17"
+newline=lf
+umask=022
+
+# extracted from: Java-Version and Java-Vendor from wget -q https://repo.maven.apache.org/maven2/io/quarkus/quarkus-builder/$version/quarkus-builder-$version.jar ; unzip -q -c quarkus-builder-$version.jar META-INF/MANIFEST.MF | grep 'Java-'
+javaVersion="21.0.8"
+javaVendor="Eclipse Adoptium"
+command="mvn -Djava.version='$javaVersion' -Djava.vendor='$javaVendor' -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dformat.skip -Ddevelocity.cache.local.enabled=false -Ddevelocity.cache.remote.storeEnabled=false -Dbuildinfo.ignore='*/quarkus-documentation-*.zip,*/quarkus-documentation-*.tar.gz'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
