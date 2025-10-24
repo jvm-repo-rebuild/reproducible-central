@@ -1,0 +1,18 @@
+version=3.5.1
+ok=11
+ko=3
+ignored=0
+okFiles="jandex-parent-3.5.1.pom jandex-test-data-3.5.1.pom jandex-test-data-3.5.1-sources.jar jandex-3.5.1.pom jandex-3.5.1.jar jandex-3.5.1-sources.jar jandex-maven-plugin-3.5.1.pom jandex-maven-plugin-3.5.1-sources.jar jandex-gizmo2-3.5.1.pom jandex-gizmo2-3.5.1-sources.jar jandex-release-3.5.1.pom"
+koFiles="jandex-test-data-3.5.1.jar jandex-maven-plugin-3.5.1.jar jandex-gizmo2-3.5.1.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.smallrye/jandex-test-data-3.5.1.jar test-data/target/jandex-test-data-3.5.1.jar
+# diffoscope target/reference/io.smallrye/jandex-maven-plugin-3.5.1.jar maven-plugin/target/jandex-maven-plugin-3.5.1.jar
+# diffoscope target/reference/io.smallrye/jandex-gizmo2-3.5.1.jar gizmo2/target/jandex-gizmo2-3.5.1.jar
+stabilize_ok=3
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="jandex-test-data-3.5.1.jar.stabilized jandex-maven-plugin-3.5.1.jar.stabilized jandex-gizmo2-3.5.1.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""
