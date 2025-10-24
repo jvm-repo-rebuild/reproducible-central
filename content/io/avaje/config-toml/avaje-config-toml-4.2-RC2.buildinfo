@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Avaje Config Toml
+group-id=io.avaje
+artifact-id=avaje-config-toml
+version=4.2-RC2
+
+# source information
+source.scm.uri=scm:git:git@github.com:avaje/avaje-config.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.5
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.8.0-86-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=io.avaje
+outputs.0.filename=avaje-config-toml-4.2-RC2.pom
+outputs.0.length=1808
+outputs.0.checksums.sha512=320e0f97c8889c995710d9c45d59aa20c694ed6bb4a5cfc23f0ef4a7b1d9941f58ae51391f2ced5a1de13f6e330d3a3fea941eead7803c546449f2092fedec9c
+
+outputs.1.groupId=io.avaje
+outputs.1.filename=avaje-config-toml-4.2-RC2.jar
+outputs.1.length=3159
+outputs.1.checksums.sha512=b2a20e198a182b0e34235ad2bd57b91a25f0ad7b2a2b7733c4a384e78e92bf044f56dd669ad6288fe057f86025e8612a4fc8eb69cc63acee9b8e71e890178f38
+
+outputs.2.groupId=io.avaje
+outputs.2.filename=avaje-config-toml-4.2-RC2-sources.jar
+outputs.2.length=3305
+outputs.2.checksums.sha512=7d740ea2aab60e9baae9b96a388168a118a1186cb5ab7ac93d0f21dc988a8ce2295a8a0b07acc351141bc78bfc2dc1f78af9b85d2843307b6acd5ff1ca161017
