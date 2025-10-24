@@ -1,0 +1,16 @@
+version=1.7
+ok=28
+ko=1
+ignored=0
+okFiles="apache-resource-bundles-1.7.pom apache-resource-bundles-1.7-source-release.zip apache-resource-bundles-1.7-cyclonedx.xml apache-resource-bundles-1.7-cyclonedx.json apache-jar-resource-bundle-1.7.pom apache-jar-resource-bundle-1.7.jar apache-jar-resource-bundle-1.7-sources.jar apache-jar-resource-bundle-1.7-cyclonedx.xml apache-jar-resource-bundle-1.7-cyclonedx.json apache-jar-txt-resource-bundle-1.7.pom apache-jar-txt-resource-bundle-1.7-sources.jar apache-jar-txt-resource-bundle-1.7-cyclonedx.xml apache-jar-txt-resource-bundle-1.7-cyclonedx.json apache-incubator-disclaimer-resource-bundle-1.7.pom apache-incubator-disclaimer-resource-bundle-1.7.jar apache-incubator-disclaimer-resource-bundle-1.7-sources.jar apache-incubator-disclaimer-resource-bundle-1.7-cyclonedx.xml apache-incubator-disclaimer-resource-bundle-1.7-cyclonedx.json apache-source-release-assembly-descriptor-1.7.pom apache-source-release-assembly-descriptor-1.7.jar apache-source-release-assembly-descriptor-1.7-sources.jar apache-source-release-assembly-descriptor-1.7-cyclonedx.xml apache-source-release-assembly-descriptor-1.7-cyclonedx.json apache-license-header-resource-bundle-1.7.pom apache-license-header-resource-bundle-1.7.jar apache-license-header-resource-bundle-1.7-sources.jar apache-license-header-resource-bundle-1.7-cyclonedx.xml apache-license-header-resource-bundle-1.7-cyclonedx.json"
+koFiles="apache-jar-txt-resource-bundle-1.7.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.apache.resources/apache-jar-txt-resource-bundle-1.7.jar jar-txt/target/apache-jar-txt-resource-bundle-1.7.jar
+stabilize_ok=0
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="apache-jar-txt-resource-bundle-1.7.jar.stabilized"
+stabilize_ignoredFiles=""
