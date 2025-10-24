@@ -1,0 +1,59 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-Transpiler
+group-id=org.jpmml
+artifact-id=jpmml-transpiler
+version=1.4.6
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-transpiler.git
+source.scm.tag=1.4.6
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.25
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.8.0-86-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.6
+mvn.aggregate.artifact-id=pmml-transpiler-example
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-transpiler
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-transpiler-1.4.6.pom
+outputs.0.0.length=5489
+outputs.0.0.checksums.sha512=00e16d8961a6d1c69637ef10397bc98348878e10ad59e0a2da96ed7241b3a38a5135f690da4f79c19a09762026535502f8987914162237a56f2243c752a62db5
+
+outputs.1.coordinates=org.jpmml:pmml-transpiler
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-transpiler-1.4.6.pom
+outputs.1.0.length=1699
+outputs.1.0.checksums.sha512=4320fd2e7e310a753d0b5413c0ac65dc7c45e498f3ead6bb046de16635da2ba93fdecf4d93636775f217c1dd79735cc2caf8ca0f557e0873d9bc54b65f16a2a9
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-transpiler-1.4.6.jar
+outputs.1.1.length=258503
+outputs.1.1.checksums.sha512=67d79744bb27d80a10e8c3deb3df3c93de6feecaf86d29bd855cfe838a0d52bca3fe5dbc3d295e82d4f2ce25cfc5ad2430350ee9e9108e7e15719f1c4f698396
+
+outputs.2.coordinates=org.jpmml:pmml-transpiler-example
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-transpiler-example-1.4.6.pom
+outputs.2.0.length=1956
+outputs.2.0.checksums.sha512=8389e6bb5f8f20212034d2da0eac42cd0367e5174628715ce1fec27f540fe5b5ab98108a31af403bc2b7c1c84fe5b8fe1a1373fbe0bfe2cc7396f6513a657a09
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-transpiler-example-1.4.6.jar
+outputs.2.1.length=5217
+outputs.2.1.checksums.sha512=3aa2ed14e534b486be4efa29efe1b7fc665840a402820619d1d0042b9452c16e2a162f6b5174acd38d00309344b7ab14f20347e085624efc14801fbf51b788c4
