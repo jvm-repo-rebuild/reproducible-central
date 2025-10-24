@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/nifi-maven.git](https://github.com/apache/nifi-maven.git)
 
-rebuilding **7 releases** of org.apache.nifi:nifi-nar-maven-plugin:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of org.apache.nifi:nifi-nar-maven-plugin:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.2.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi-nar-maven-plugin/2.2.0/pom) | | | |
+| [2.2.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi-nar-maven-plugin/2.2.0/pom) | [mvn jdk21](nifi-nar-maven-plugin-2.2.0.buildspec) | [result](nifi-nar-maven-plugin-2.2.0.buildinfo): [4 :white_check_mark: ](nifi-nar-maven-plugin-2.2.0.buildcompare) | | 193K |
 | [2.1.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi-nar-maven-plugin/2.1.0/pom) | [mvn jdk21](nifi-nar-maven-plugin-2.1.0.buildspec) | [result](nifi-nar-maven-plugin-2.1.0.buildinfo): [4 :white_check_mark: ](nifi-nar-maven-plugin-2.1.0.buildcompare) | | 194K |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi-nar-maven-plugin/2.0.0/pom) | [mvn jdk21](nifi-nar-maven-plugin-2.0.0.buildspec) | [result](nifi-nar-maven-plugin-2.0.0.buildinfo): [4 :white_check_mark: ](nifi-nar-maven-plugin-2.0.0.buildcompare) | | 194K |
 | [1.5.1](https://central.sonatype.com/artifact/org.apache.nifi/nifi-nar-maven-plugin/1.5.1/pom) | [mvn jdk8](nifi-nar-maven-plugin-1.5.1.buildspec) | [result](nifi-nar-maven-plugin-1.5.1.buildinfo): [4 :white_check_mark: ](nifi-nar-maven-plugin-1.5.1.buildcompare) | | 186K |
