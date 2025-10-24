@@ -1,0 +1,59 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-Python
+group-id=org.jpmml
+artifact-id=jpmml-python
+version=1.3.9
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-python.git
+source.scm.tag=1.3.9
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.25
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.8.0-86-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+mvn.aggregate.artifact-id=pmml-python-testing
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-python
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-python-1.3.9.pom
+outputs.0.0.length=3346
+outputs.0.0.checksums.sha512=b3bf44de9a545151f1cba6f5a15211efe2005b72cc01a3b4fac8d3f9de3884db73c34c1ea28723a90af81c2effe6f447fb3af322ac46ae71e06f3165f236c301
+
+outputs.1.coordinates=org.jpmml:pmml-python
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-python-1.3.9.pom
+outputs.1.0.length=5170
+outputs.1.0.checksums.sha512=e3871fb693df3720d72a8858b285af2f3d5c6bcba47ea86f57bfa3433aeef282b36531b0d1c0d4605b6ce2b900321bd9af11d44199b0904014447988637cbab3
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-python-1.3.9.jar
+outputs.1.1.length=240957
+outputs.1.1.checksums.sha512=9ad3379f5d737857cf2f3fcc4d19e1b7730a9cc26496a45a76559064178255d0d47c747168ed38dfa03a47ce85bff340fcbee6246e742c7af1b549bba0993c57
+
+outputs.2.coordinates=org.jpmml:pmml-python-testing
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-python-testing-1.3.9.pom
+outputs.2.0.length=1248
+outputs.2.0.checksums.sha512=b15422023b62879dadbca98cc5940c798ee18e3cbb32f2dbba6dabe792bcdd3bf4f6be2270d2602df5379ddd71fb719ea58954defce8bdba6374c7587bab7f65
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-python-testing-1.3.9.jar
+outputs.2.1.length=4135
+outputs.2.1.checksums.sha512=ce3a3712f4e51d647a0dd861da1af10c59e98adb063a1b3a93460728dc9ab95f1aa4f18fe0addc41104a9bf2afe484c66fc4407da0b135b7ae159aa6dc5b288e
