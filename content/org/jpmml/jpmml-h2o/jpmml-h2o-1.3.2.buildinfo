@@ -1,0 +1,59 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-H2O
+group-id=org.jpmml
+artifact-id=jpmml-h2o
+version=1.3.2
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-h2o.git
+source.scm.tag=1.3.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.25
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.8.0-86-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.6
+mvn.aggregate.artifact-id=pmml-h2o-example
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-h2o
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-h2o-1.3.2.pom
+outputs.0.0.length=4747
+outputs.0.0.checksums.sha512=e4c5b7fa7b3f6fcdff781c59004d66c8a8c65860e439de66c785bafbb46c3c0e4c17bf904b804a23442a38ecfd92b2b22b6f792d1a24fef9dccf01fea6c1afc0
+
+outputs.1.coordinates=org.jpmml:pmml-h2o
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-h2o-1.3.2.pom
+outputs.1.0.length=1829
+outputs.1.0.checksums.sha512=04c2389b44e37ac2142659ff20df790d72eaedfd2470ae82371dde2be3f3c46b61c93f618353e96cdc8592278e925fe4342875b5ae65e501ef3a60287d8acb99
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-h2o-1.3.2.jar
+outputs.1.1.length=58140
+outputs.1.1.checksums.sha512=75baa045ffd3499d1ca07a9c751ec819182e78e8fe121e003106156d3ef5cec4873f635641b9d6281e5ad213bd9927ac7908a1f7c4c94c42b918e996adb5b8a8
+
+outputs.2.coordinates=org.jpmml:pmml-h2o-example
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-h2o-example-1.3.2.pom
+outputs.2.0.length=2003
+outputs.2.0.checksums.sha512=4b558c5df2563ed671c6ce067d5ecf5383ea99e429a7c16e42a67b64611844f124b37f7ef4e5fe274317ac37a145b639bdc049770c4d8df8c2b3589856b8d099
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-h2o-example-1.3.2.jar
+outputs.2.1.length=4822
+outputs.2.1.checksums.sha512=1c001edd67fd7046750d507c8a96efa960e56930b6478bb3841b87e8e6cadb8d5963a081935a67b5fe2fa94380cf32ffa7a97242ead1152001603cb2a15e5db0

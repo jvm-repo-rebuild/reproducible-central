@@ -7,19 +7,21 @@
 
 Source code: [https://github.com/jpmml/jpmml-h2o.git](https://github.com/jpmml/jpmml-h2o.git)
 
-<details><summary>This project defines 2 modules:</summary>
+<details><summary>This project defines 3 modules:</summary>
 
 * [org.jpmml:jpmml-h2o](https://central.sonatype.com/artifact/org.jpmml/jpmml-h2o/overview)
 * [org.jpmml:pmml-h2o](https://central.sonatype.com/artifact/org.jpmml/pmml-h2o/overview)
+* [org.jpmml:pmml-h2o-example](https://central.sonatype.com/artifact/org.jpmml/pmml-h2o-example/overview)
 </details>
 
-rebuilding **6 releases** of org.jpmml:jpmml-h2o:
+rebuilding **7 releases** of org.jpmml:jpmml-h2o:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 1 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.3.2](https://central.sonatype.com/artifact/org.jpmml/jpmml-h2o/1.3.2/pom) | | | |
+| [1.3.2](https://central.sonatype.com/artifact/org.jpmml/jpmml-h2o/1.3.2/pom) | [mvn jdk11](jpmml-h2o-1.3.2.buildspec) | [result](jpmml-h2o-1.3.2.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-h2o-1.3.2.buildcompare) | 2 :recycle: | 70K |
 | [1.3.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-h2o/1.3.1/pom) | [mvn jdk11](jpmml-h2o-1.3.1.buildspec) | [result](jpmml-h2o-1.3.1.buildinfo): [2 :white_check_mark:  2 :warning:](jpmml-h2o-1.3.1.buildcompare) | - | 95K |
 | [1.3.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-h2o/1.3.0/pom) | [mvn jdk11](jpmml-h2o-1.3.0.buildspec) | [result](jpmml-h2o-1.3.0.buildinfo): [2 :white_check_mark:  2 :warning:](jpmml-h2o-1.3.0.buildcompare) | - | 99K |
 | [1.2.15](https://central.sonatype.com/artifact/org.jpmml/jpmml-h2o/1.2.15/pom) | [mvn jdk8](jpmml-h2o-1.2.15.buildspec) | [result](jpmml-h2o-1.2.15.buildinfo): [4 :white_check_mark: ](jpmml-h2o-1.2.15.buildcompare) | | 99K |
