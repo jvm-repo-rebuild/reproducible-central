@@ -1,0 +1,17 @@
+groupId=org.apache.apache.resources
+artifactId=apache-resource-bundles
+display=${groupId}:${artifactId}
+version=1.7
+
+gitRepo=https://github.com/apache/maven-apache-resources.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/apache/maven-apache-parent/pull/288/files
