@@ -1,0 +1,17 @@
+version=1.3.4
+ok=3
+ko=2
+ignored=0
+okFiles="jpmml-statsmodels-1.3.4.pom pmml-statsmodels-1.3.4.pom pmml-statsmodels-example-1.3.4.pom"
+koFiles="pmml-statsmodels-1.3.4.jar pmml-statsmodels-example-1.3.4.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/pmml-statsmodels-1.3.4.jar pmml-statsmodels/target/pmml-statsmodels-1.3.4.jar
+# diffoscope target/reference/org.jpmml/pmml-statsmodels-example-1.3.4.jar pmml-statsmodels-example/target/pmml-statsmodels-example-1.3.4.jar
+stabilize_ok=2
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="pmml-statsmodels-1.3.4.jar.stabilized pmml-statsmodels-example-1.3.4.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""
