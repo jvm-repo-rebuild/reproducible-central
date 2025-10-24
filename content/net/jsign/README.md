@@ -19,13 +19,13 @@ Source code: [https://github.com/ebourg/jsign.git](https://github.com/ebourg/jsi
 * [net.jsign:jsign-parent](https://central.sonatype.com/artifact/net.jsign/jsign-parent/overview)
 </details>
 
-rebuilding **7 releases** of net.jsign:jsign:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of net.jsign:jsign:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [7.4](https://central.sonatype.com/artifact/net.jsign/jsign/7.4/pom) | | | |
+| [7.4](https://central.sonatype.com/artifact/net.jsign/jsign/7.4/pom) | [mvn jdk8 w](jsign-7.4.buildspec) | [result](jsign-parent-7.4.buildinfo): [24 :white_check_mark: ](jsign-parent-7.4.buildcompare) | | 3.4M |
 | [7.3](https://central.sonatype.com/artifact/net.jsign/jsign/7.3/pom) | [mvn jdk8 w](jsign-7.3.buildspec) | [result](jsign-parent-7.3.buildinfo): [24 :white_check_mark: ](jsign-parent-7.3.buildcompare) | | 3.3M |
 | [7.2](https://central.sonatype.com/artifact/net.jsign/jsign/7.2/pom) | [mvn jdk8 w](jsign-7.2.buildspec) | [result](jsign-parent-7.2.buildinfo): [24 :white_check_mark: ](jsign-parent-7.2.buildcompare) | | 3.2M |
 | [7.1](https://central.sonatype.com/artifact/net.jsign/jsign/7.1/pom) | [mvn jdk8 w](jsign-7.1.buildspec) | [result](jsign-parent-7.1.buildinfo): [24 :white_check_mark: ](jsign-parent-7.1.buildcompare) | | 3.2M |
