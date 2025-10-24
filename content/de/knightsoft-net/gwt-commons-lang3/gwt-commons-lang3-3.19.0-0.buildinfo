@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Lang
+group-id=de.knightsoft-net
+artifact-id=gwt-commons-lang3
+version=3.19.0-0
+
+# source information
+source.scm.uri=scm:git:git@gitlab.com/ManfredTremmel/gwt-commons-lang3.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.5
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.8.0-86-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=de.knightsoft-net
+outputs.0.filename=gwt-commons-lang3-3.19.0-0.pom
+outputs.0.length=47619
+outputs.0.checksums.sha512=bd00951cd074bbf98a55680f16440b8bd5020bd09877a39a134a0a69f85bfb3825603e99fb7015f3096c8dec41953e975c8a288d4094ae01757aef08f744cc4c
+
+outputs.1.groupId=de.knightsoft-net
+outputs.1.filename=gwt-commons-lang3-3.19.0-0.jar
+outputs.1.length=1481719
+outputs.1.checksums.sha512=ab5c66b4f4d2db6e43892f97498546d70d4b2c72f6b8320aec38fd9ae7bd6197efb7004978e1b5f27a875ad9eeb9b4761b9dc261989241b73292fce5100645b6
+
+outputs.2.groupId=de.knightsoft-net
+outputs.2.filename=gwt-commons-lang3-3.19.0-0-tests.jar
+outputs.2.length=1454266
+outputs.2.checksums.sha512=b99fb85c3298bd519a7ccea5778e6604f34e95a9a7ea176ce29da027ff45147e071afae628d48131b2dbf76d914e1957b57290370cd7c93528240ecc8ddf5795
+
+outputs.3.groupId=de.knightsoft-net
+outputs.3.filename=gwt-commons-lang3-3.19.0-0-sources.jar
+outputs.3.length=767007
+outputs.3.checksums.sha512=ce9be5dca9a6f8bde7d8cd5e43842be8a841ba78dd38a2093650670cf8f80b4d99ee250ac9379caa3c951e109d1a38c5bd5c6077c367dff8caeaa1b92e700a61
+
+outputs.4.groupId=de.knightsoft-net
+outputs.4.filename=gwt-commons-lang3-3.19.0-0-test-sources.jar
+outputs.4.length=634605
+outputs.4.checksums.sha512=314c4d94c71dbc7a43dd2435beaaf6e52c1cc737a091555a9c45927783b1fa94a79d5bc4f90aff69a08564730895460ccf791ffbe623161e48aebecf24d89d41
+
+outputs.5.groupId=de.knightsoft-net
+outputs.5.filename=gwt-commons-lang3-3.19.0-0-sources.jar
+outputs.5.length=767007
+outputs.5.checksums.sha512=ce9be5dca9a6f8bde7d8cd5e43842be8a841ba78dd38a2093650670cf8f80b4d99ee250ac9379caa3c951e109d1a38c5bd5c6077c367dff8caeaa1b92e700a61
