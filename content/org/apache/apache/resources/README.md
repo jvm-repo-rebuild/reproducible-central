@@ -24,14 +24,6 @@ rebuilding **1 releases** of org.apache.apache.resources:apache-resource-bundles
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [39](https://central.sonatype.com/artifact/org.apache.apache.resources/apache-resource-bundles/39/pom) | | | |
-| [38](https://central.sonatype.com/artifact/org.apache.apache.resources/apache-resource-bundles/38/pom) | | | |
-| [37](https://central.sonatype.com/artifact/org.apache.apache.resources/apache-resource-bundles/37/pom) | | | |
-| [36](https://central.sonatype.com/artifact/org.apache.apache.resources/apache-resource-bundles/36/pom) | | | |
-| [30](https://central.sonatype.com/artifact/org.apache.apache.resources/apache-resource-bundles/30/pom) | | | |
-| [5](https://central.sonatype.com/artifact/org.apache.apache.resources/apache-resource-bundles/5/pom) | | | |
-| [4](https://central.sonatype.com/artifact/org.apache.apache.resources/apache-resource-bundles/4/pom) | | | |
-| [3](https://central.sonatype.com/artifact/org.apache.apache.resources/apache-resource-bundles/3/pom) | | | |
 | [1.7](https://central.sonatype.com/artifact/org.apache.apache.resources/apache-resource-bundles/1.7/pom) | [mvn jdk11](apache-resource-bundles-1.7.buildspec) | [result](apache-resource-bundles-1.7.buildinfo): [28 :white_check_mark:  1 :warning:](apache-resource-bundles-1.7.buildcompare) [:memo:](https://github.com/apache/maven-apache-parent/pull/288/files) | 1 :rotating_light: | 454K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
