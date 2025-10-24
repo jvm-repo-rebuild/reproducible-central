@@ -3,8 +3,8 @@
   <groupId>org.apache.jackrabbit.vault</groupId>
   <artifactId>jackrabbit-filevault</artifactId>
   <versioning>
-    <latest>4.0.0</latest>
-    <release>4.0.0</release>
+    <latest>4.1.4</latest>
+    <release>4.1.4</release>
     <versions>
       <version>3.0.0</version>
       <version>3.1.0</version>
@@ -46,7 +46,8 @@
       <version>3.8.2</version>
       <version>3.8.4</version>
       <version>4.0.0</version>
+      <version>4.1.4</version>
     </versions>
-    <lastUpdated>20250731093617</lastUpdated>
+    <lastUpdated>20251024111709</lastUpdated>
   </versioning>
 </metadata>
