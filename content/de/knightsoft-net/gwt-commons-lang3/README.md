@@ -7,13 +7,13 @@
 
 Source code: [https://gitlab.com/ManfredTremmel/gwt-commons-lang3.git](https://gitlab.com/ManfredTremmel/gwt-commons-lang3.git)
 
-rebuilding **5 releases** of de.knightsoft-net:gwt-commons-lang3:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **6 releases** of de.knightsoft-net:gwt-commons-lang3:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.19.0-0](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-lang3/3.19.0-0/pom) | | | |
+| [3.19.0-0](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-lang3/3.19.0-0/pom) | [mvn jdk21](gwt-commons-lang3-3.19.0-0.buildspec) | [result](gwt-commons-lang3-3.19.0-0.buildinfo): [5 :white_check_mark: ](gwt-commons-lang3-3.19.0-0.buildcompare) | | 5.0M |
 | [3.18.0-0](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-lang3/3.18.0-0/pom) | [mvn jdk21](gwt-commons-lang3-3.18.0-0.buildspec) | [result](gwt-commons-lang3-3.18.0-0.buildinfo): [5 :white_check_mark: ](gwt-commons-lang3-3.18.0-0.buildcompare) | | 4.9M |
 | [3.17.0-1](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-lang3/3.17.0-1/pom) | [mvn jdk17](gwt-commons-lang3-3.17.0-1.buildspec) | [result](gwt-commons-lang3-3.17.0-1.buildinfo): [7 :white_check_mark: ](gwt-commons-lang3-3.17.0-1.buildcompare) | | 5.2M |
 | [3.17.0-0](https://central.sonatype.com/artifact/de.knightsoft-net/gwt-commons-lang3/3.17.0-0/pom) | [mvn jdk8](gwt-commons-lang3-3.17.0-0.buildspec) | [result](gwt-commons-lang3-3.17.0-0.buildinfo): [7 :white_check_mark: ](gwt-commons-lang3-3.17.0-0.buildcompare) | | 5.1M |
