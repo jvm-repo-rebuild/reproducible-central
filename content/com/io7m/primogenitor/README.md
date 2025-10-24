@@ -16,13 +16,13 @@ Source code: [https://github.com/io7m/primogenitor](https://github.com/io7m/prim
 * [com.io7m.primogenitor:com.io7m.primogenitor.tests](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor.tests/overview)
 </details>
 
-rebuilding **39 releases** of com.io7m.primogenitor:com.io7m.primogenitor:
-- **35** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **40 releases** of com.io7m.primogenitor:com.io7m.primogenitor:
+- **36** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [9.0.0](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/9.0.0/pom) | | | |
+| [9.0.0](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/9.0.0/pom) | [mvn jdk21](com.io7m.primogenitor-9.0.0.buildspec) | [result](com.io7m.primogenitor-9.0.0.buildinfo): [16 :white_check_mark: ](com.io7m.primogenitor-9.0.0.buildcompare) | | 2.8M |
 | [9.0.0-beta0003](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/9.0.0-beta0003/pom) | [mvn jdk21](com.io7m.primogenitor-9.0.0-beta0003.buildspec) | [result](com.io7m.primogenitor-9.0.0-beta0003.buildinfo): [16 :white_check_mark: ](com.io7m.primogenitor-9.0.0-beta0003.buildcompare) | | 2.8M |
 | [8.5.0](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/8.5.0/pom) | [mvn jdk21](com.io7m.primogenitor-8.5.0.buildspec) | [result](com.io7m.primogenitor-8.5.0.buildinfo): [9 :white_check_mark:  7 :warning:](com.io7m.primogenitor-8.5.0.buildcompare) | - | 2.8M |
 | [8.4.0](https://central.sonatype.com/artifact/com.io7m.primogenitor/com.io7m.primogenitor/8.4.0/pom) | [mvn jdk21](com.io7m.primogenitor-8.4.0.buildspec) | [result](com.io7m.primogenitor-8.4.0.buildinfo): [16 :white_check_mark: ](com.io7m.primogenitor-8.4.0.buildcompare) | | 2.8M |
