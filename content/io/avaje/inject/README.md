@@ -18,8 +18,8 @@ Source code: [https://github.com/avaje/avaje-inject.git](https://github.com/avaj
 * [io.avaje:avaje-inject-test](https://central.sonatype.com/artifact/io.avaje/avaje-inject-test/overview)
 </details>
 
-rebuilding **45 releases** of io.avaje:avaje-inject-parent:
-- **37** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **46 releases** of io.avaje:avaje-inject-parent:
+- **38** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 4, 0 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
@@ -28,7 +28,7 @@ rebuilding **45 releases** of io.avaje:avaje-inject-parent:
 | [12.0-javax](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.0-javax/pom) | [mvn jdk21](avaje-inject-12.0-javax.buildspec) | [result](avaje-inject-parent-12.0-javax.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-12.0-javax.buildcompare) | | 804K |
 | [12.0](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.0/pom) | [mvn jdk21](avaje-inject-12.0.buildspec) | [result](avaje-inject-parent-12.0.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-12.0.buildcompare) | | 804K |
 | [12.0-RC6](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.0-RC6/pom) | [mvn jdk21](avaje-inject-12.0-RC6.buildspec) | [result](avaje-inject-parent-12.0-RC6.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-12.0-RC6.buildcompare) | | 804K |
-| [12.0-RC5](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.0-RC5/pom) | | | |
+| [12.0-RC5](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.0-RC5/pom) | [mvn jdk21](avaje-inject-12.0-RC5.buildspec) | [result](avaje-inject-parent-12.0-RC5.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-12.0-RC5.buildcompare) | | 804K |
 | [12.0-RC4](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.0-RC4/pom) | [mvn jdk24 w](avaje-inject-12.0-RC4.buildspec) | [result](avaje-inject-parent-12.0-RC4.buildinfo): [13 :white_check_mark:  6 :warning:](avaje-inject-parent-12.0-RC4.buildcompare) | 6 :rotating_light: | 802K |
 | [12.0-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.0-RC3/pom) | [mvn jdk24 w](avaje-inject-12.0-RC3.buildspec) | [result](avaje-inject-parent-12.0-RC3.buildinfo): [12 :white_check_mark:  7 :warning:](avaje-inject-parent-12.0-RC3.buildcompare) | 7 :rotating_light: | 802K |
 | [12.0-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-inject-parent/12.0-RC2/pom) | [mvn jdk21](avaje-inject-12.0-RC2.buildspec) | [result](avaje-inject-parent-12.0-RC2.buildinfo): [19 :white_check_mark: ](avaje-inject-parent-12.0-RC2.buildcompare) | | 798K |
