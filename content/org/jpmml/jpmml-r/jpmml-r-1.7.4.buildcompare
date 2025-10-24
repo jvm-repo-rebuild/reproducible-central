@@ -1,0 +1,20 @@
+version=1.7.4
+ok=6
+ko=5
+ignored=0
+okFiles="jpmml-r-1.7.4.pom pmml-rexp-evaluator-1.7.4.pom pmml-rexp-1.7.4.pom pmml-rexp-lightgbm-1.7.4.pom pmml-rexp-xgboost-1.7.4.pom pmml-rexp-example-1.7.4.pom"
+koFiles="pmml-rexp-evaluator-1.7.4.jar pmml-rexp-1.7.4.jar pmml-rexp-lightgbm-1.7.4.jar pmml-rexp-xgboost-1.7.4.jar pmml-rexp-example-1.7.4.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/pmml-rexp-evaluator-1.7.4.jar pmml-rexp-evaluator/target/pmml-rexp-evaluator-1.7.4.jar
+# diffoscope target/reference/org.jpmml/pmml-rexp-1.7.4.jar pmml-rexp/target/pmml-rexp-1.7.4.jar
+# diffoscope target/reference/org.jpmml/pmml-rexp-lightgbm-1.7.4.jar pmml-rexp-lightgbm/target/pmml-rexp-lightgbm-1.7.4.jar
+# diffoscope target/reference/org.jpmml/pmml-rexp-xgboost-1.7.4.jar pmml-rexp-xgboost/target/pmml-rexp-xgboost-1.7.4.jar
+# diffoscope target/reference/org.jpmml/pmml-rexp-example-1.7.4.jar pmml-rexp-example/target/pmml-rexp-example-1.7.4.jar
+stabilize_ok=5
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="pmml-rexp-evaluator-1.7.4.jar.stabilized pmml-rexp-1.7.4.jar.stabilized pmml-rexp-lightgbm-1.7.4.jar.stabilized pmml-rexp-xgboost-1.7.4.jar.stabilized pmml-rexp-example-1.7.4.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""

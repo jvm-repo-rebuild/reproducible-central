@@ -17,14 +17,14 @@ Source code: [https://github.com/jpmml/jpmml-r.git](https://github.com/jpmml/jpm
 * [org.jpmml:pmml-rexp-xgboost](https://central.sonatype.com/artifact/org.jpmml/pmml-rexp-xgboost/overview)
 </details>
 
-rebuilding **15 releases** of org.jpmml:jpmml-r:
+rebuilding **16 releases** of org.jpmml:jpmml-r:
 - **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 4, 3 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 5, 4 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.7.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.7.4/pom) | | | |
+| [1.7.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.7.4/pom) | [mvn jdk11](jpmml-r-1.7.4.buildspec) | [result](jpmml-r-1.7.4.buildinfo): [6 :white_check_mark:  5 :warning:](jpmml-r-1.7.4.buildcompare) | 5 :recycle: | 342K |
 | [1.7.3](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.7.3/pom) | [mvn jdk11](jpmml-r-1.7.3.buildspec) | [result](jpmml-r-1.7.3.buildinfo): [6 :white_check_mark:  5 :warning:](jpmml-r-1.7.3.buildcompare) | 4 :recycle: 1 :rotating_light: | 342K |
 | [1.7.2](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.7.2/pom) | [mvn jdk11](jpmml-r-1.7.2.buildspec) | [result](jpmml-r-1.7.2.buildinfo): [5 :white_check_mark:  8 :warning:](jpmml-r-1.7.2.buildcompare) | 8 :recycle: | 508K |
 | [1.7.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.7.1/pom) | [mvn jdk11](jpmml-r-1.7.1.buildspec) | [result](jpmml-r-1.7.1.buildinfo): [5 :white_check_mark:  8 :warning:](jpmml-r-1.7.1.buildcompare) | 8 :recycle: | 507K |
