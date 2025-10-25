@@ -32,6 +32,7 @@ rebuilding **6 releases** of org.apache.cxf.xjc-utils:xjc-utils:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.1.1](https://central.sonatype.com/artifact/org.apache.cxf.xjc-utils/xjc-utils/4.1.1/pom) | | | |
 | [4.1.0](https://central.sonatype.com/artifact/org.apache.cxf.xjc-utils/xjc-utils/4.1.0/pom) | [mvn jdk17 w](xjc-utils-4.1.0.buildspec) | [result](xjc-utils-4.1.0.buildinfo): [44 :white_check_mark: ](xjc-utils-4.1.0.buildcompare) | | 596K |
 | [4.0.2](https://central.sonatype.com/artifact/org.apache.cxf.xjc-utils/xjc-utils/4.0.2/pom) | [mvn jdk11 w](xjc-utils-4.0.2.buildspec) | [result](xjc-utils-4.0.2.buildinfo): [44 :white_check_mark: ](xjc-utils-4.0.2.buildcompare) | | 596K |
 | [4.0.1](https://central.sonatype.com/artifact/org.apache.cxf.xjc-utils/xjc-utils/4.0.1/pom) | [mvn jdk11](xjc-utils-4.0.1.buildspec) | [result](xjc-utils-4.0.1.buildinfo): [44 :white_check_mark: ](xjc-utils-4.0.1.buildcompare) | | 595K |

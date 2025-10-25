@@ -1,7 +1,5 @@
-content/com/io7m/primogenitor/com.io7m.primogenitor-9.0.0.buildspec:9.1.0
-content/dev/langchain4j/langchain4j-1.7.1.buildspec:1.8.0
+content/com/github/hazendaz/base-parent/base-parent-55.buildspec:56
 content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.1.6.buildspec:1.20
-content/net/jsign/jsign-7.3.buildspec:7.4
-content/org/apache/jackrabbit/filevault/jackrabbit-filevault-4.0.0.buildspec:4.1.4
-content/org/apache/maven/plugin-tools/maven-plugin-tools/maven-plugin-tools-4.0.0-beta-1.buildspec:4.0.0-beta-2
+content/org/apache/sshd/sshd-3.0.0-M1.buildspec:3.0.0-M2
+content/org/apache/cxf/xjc-utils/xjc-utils-4.1.0.buildspec:4.1.1
 content/org/junit/junit5/junit5-6.0.0-RC3.buildspec:6.0.0
