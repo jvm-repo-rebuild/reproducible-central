@@ -1,5 +1,8 @@
 content/com/github/hazendaz/base-parent/base-parent-55.buildspec:56
 content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.1.6.buildspec:1.20
+content/eu/maveniverse/maven/toolbox/toolbox-0.14.1.buildspec:0.14.2
 content/org/apache/sshd/sshd-3.0.0-M1.buildspec:3.0.0-M2
 content/org/apache/cxf/xjc-utils/xjc-utils-4.1.0.buildspec:4.1.1
+content/org/apache/maven/plugins/maven-war-plugin/maven-war-plugin-3.4.0.buildspec:3.5.0
+content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.1.2.Final.buildspec:4.1.3.Final
 content/org/junit/junit5/junit5-6.0.0-RC3.buildspec:6.0.0

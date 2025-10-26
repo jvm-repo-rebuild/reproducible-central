@@ -4,6 +4,10 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20251026181344 --> [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | [0.14.1](../content/eu/maveniverse/maven/toolbox/toolbox-0.14.1.buildspec) :white_check_mark: | [0.14.2](../content/eu/maveniverse/maven/toolbox/toolbox-0.14.2.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/toolbox/toolbox-0.14.1.buildspec 0.14.2` |
+| <!-- 20251026093946 --> [maven-war-plugin](../content/org/apache/maven/plugins/maven-war-plugin/README.md) | [3.4.0](../content/org/apache/maven/plugins/maven-war-plugin/maven-war-plugin-3.4.0.buildspec) :white_check_mark: | [3.5.0](../content/org/apache/maven/plugins/maven-war-plugin/maven-war-plugin-3.5.0.buildspec) | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-war-plugin/maven-war-plugin-3.4.0.buildspec 3.5.0` |
+| <!-- 20251026010736 --> [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | [4.1.2.Final](../content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.1.2.Final.buildspec) :white_check_mark: | [4.1.3.Final](../content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.1.3.Final.buildspec) | `bin/add-new-release.sh content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.1.2.Final.buildspec 4.1.3.Final` |
+| <!-- 20251026010736 --> [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | [4.1.2.Final](../content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.1.2.Final.buildspec) :white_check_mark: | 3.1.6.Final  | `bin/add-new-release.sh content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.1.2.Final.buildspec ...` |
 | <!-- 20251025184214 --> [xjc-utils](../content/org/apache/cxf/xjc-utils/README.md) | [4.1.0](../content/org/apache/cxf/xjc-utils/xjc-utils-4.1.0.buildspec) :white_check_mark: | [4.1.1](../content/org/apache/cxf/xjc-utils/xjc-utils-4.1.1.buildspec) | `bin/add-new-release.sh content/org/apache/cxf/xjc-utils/xjc-utils-4.1.0.buildspec 4.1.1` |
 | <!-- 20251025164734 --> [base-parent](../content/com/github/hazendaz/base-parent/README.md) | [55](../content/com/github/hazendaz/base-parent/base-parent-55.buildspec) :white_check_mark: | [56](../content/com/github/hazendaz/base-parent/base-parent-56.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/base-parent/base-parent-55.buildspec 56` |
 | <!-- 20251025103909 --> [sshd](../content/org/apache/sshd/README.md) | [3.0.0-M1](../content/org/apache/sshd/sshd-3.0.0-M1.buildspec) :white_check_mark: | [3.0.0-M2](../content/org/apache/sshd/sshd-3.0.0-M2.buildspec) | `bin/add-new-release.sh content/org/apache/sshd/sshd-3.0.0-M1.buildspec 3.0.0-M2` |
@@ -36,7 +40,6 @@ New Releases To Add
 | <!-- 20250617020642 --> [:mailbox:](https://lists.apache.org/list?dev@dubbo.apache.org:lte=1M:VOTE) | [dubbo](../content/org/apache/dubbo/README.md) | [3.3.5](../content/org/apache/dubbo/dubbo-3.3.5.buildspec) :white_check_mark: | [3.3.6](../content/org/apache/dubbo/dubbo-3.3.6.buildspec)  | `bin/add-new-release.sh content/org/apache/dubbo/dubbo-3.3.5.buildspec 3.3.6 staging` |
 | <!-- 20250213085016 --> [:mailbox:](https://lists.apache.org/list?dev@ignite.apache.org:lte=1M:VOTE) | [apache-ignite](../content/org/apache/ignite/README.md) | [2.17.0](../content/org/apache/ignite/ignite-2.17.0.buildspec) :warning: | [3.0.0-alpha5](../content/org/apache/ignite/ignite-3.0.0-alpha5.buildspec)  | `bin/add-new-release.sh content/org/apache/ignite/ignite-2.17.0.buildspec 3.0.0-alpha5 staging` |
 | <!-- 20241216105905 --> [:mailbox:](https://lists.apache.org/list?dev@sling.apache.org:lte=1M:VOTE) | [org.apache.sling.commons.log.webconsole](../content/org/apache/sling/org.apache.sling.commons.log.webconsole/README.md) | [1.0.2](../content/org/apache/sling/org.apache.sling.commons.log.webconsole/org.apache.sling.commons.log.webconsole-1.0.2.buildspec) :warning: | [2.0.0](../content/org/apache/sling/org.apache.sling.commons.log.webconsole/org.apache.sling.commons.log.webconsole-2.0.0.buildspec)  | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.commons.log.webconsole/org.apache.sling.commons.log.webconsole-1.0.2.buildspec 2.0.0 staging` |
-| <!-- 20230615065110 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-war-plugin](../content/org/apache/maven/plugins/maven-war-plugin/README.md) | [3.4.0](../content/org/apache/maven/plugins/maven-war-plugin/maven-war-plugin-3.4.0.buildspec) :white_check_mark: | [3.5.0](../content/org/apache/maven/plugins/maven-war-plugin/maven-war-plugin-3.5.0.buildspec)  | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-war-plugin/maven-war-plugin-3.4.0.buildspec 3.5.0 staging` |
 <!-- END GENERATED ADD STAGING -->
 
 ## New Release of non-Reproducible Previous
@@ -66,6 +69,8 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20251025202703 --> [xml-maven-plugin](../content/org/codehaus/mojo/xml-maven-plugin/README.md) | 1.2.0 :warning: [:memo:](https://github.com/mojohaus/xml-maven-plugin/issues/155) |
+| <!-- 20251025202658 --> [spotbugs-maven-plugin](../content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 4.9.8.1 :warning: [:memo:](https://github.com/spotbugs/spotbugs-maven-plugin/issues/1148) |
 | <!-- 20251024123537 --> [sdmx-dl-parent](../content/com/github/nbbrd/sdmx-dl/README.md) | 3.0.0-beta.15 :warning: |
 | <!-- 20251024120236 --> [com.io7m.cardant](../content/com/io7m/cardant/README.md) | 1.0.0-beta0002 :x: |
 | <!-- 20251023220437 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | 3.2.1 :warning: |
@@ -83,8 +88,6 @@ New Releases To Add
 | <!-- 20251020104455 --> [jpmml-transpiler](../content/org/jpmml/jpmml-transpiler/README.md) | 1.4.6 :warning: |
 | <!-- 20251020095910 --> [jpmml-lightgbm](../content/org/jpmml/jpmml-lightgbm/README.md) | 1.6.2 :warning: |
 | <!-- 20251020061336 --> [jpmml-converter](../content/org/jpmml/jpmml-converter/README.md) | 1.6.4 :warning: |
-| <!-- 20251020025134 --> [spotbugs-maven-plugin](../content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 4.9.8.1 :warning: [:memo:](https://github.com/spotbugs/spotbugs-maven-plugin/issues/1148) |
-| <!-- 20251019114535 --> [xml-maven-plugin](../content/org/codehaus/mojo/xml-maven-plugin/README.md) | 1.2.0 :warning: [:memo:](https://github.com/mojohaus/xml-maven-plugin/issues/155) |
 | <!-- 20251018193534 --> [jpmml-evaluator](../content/org/jpmml/jpmml-evaluator/README.md) | 1.7.5 :warning: |
 | <!-- 20251018060534 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | 1.7.5 :warning: [:memo:](https://github.com/jpmml/jpmml-model/issues/42) |
 | <!-- 20251017200142 --> [apache-rat-project](../content/org/apache/rat/README.md) | 0.17 :warning: [:memo:](https://github.com/apache/creadur-rat/commit/969f474e82aa7ef9082d1156d777b7e7b42ac3e3) |
