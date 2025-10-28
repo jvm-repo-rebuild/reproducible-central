@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling OAuth Client
+group-id=org.apache.sling
+artifact-id=org.apache.sling.auth.oauth-client
+version=0.1.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-auth-oauth-client.git
+source.scm.tag=org.apache.sling.auth.oauth-client-0.1.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.auth.oauth-client-0.1.4.pom
+outputs.0.length=20167
+outputs.0.checksums.sha512=b15900767e2a10936db9429d412f1b53729f6ef4efb7fead9af979a8661e8e0cf01eabc2d34178da334934f6b1c51454ed2085d6a74116361341830f885093f8
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.auth.oauth-client-0.1.4.jar
+outputs.1.length=111222
+outputs.1.checksums.sha512=410c6a1e0e72ea1d7cf362434a113d502e0f6e5a068de6bd57171377caabb2f782dd0d3fdbb06436dd0fc20c5edece3e7a73bef987bec7c70d88a57a35113968
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.auth.oauth-client-0.1.4-main.slingosgifeature
+outputs.2.length=1369
+outputs.2.checksums.sha512=41b0a21bbab2fc372891e752fccfa037c7163fe5863826189feda24c5abc78505cb766de48d14bbc866916a3310f9d389b5ecbe238d3554c52777676c78281c6
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.auth.oauth-client-0.1.4-redis.slingosgifeature
+outputs.3.length=618
+outputs.3.checksums.sha512=b98318388632432c19a99e6dffbf11efc400aae515acedc49a9bb399cde9e4ca7c01f3023dc6fe43b2d2b223305401086342cb5c2af8748084fad83ccddd500e
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.auth.oauth-client-0.1.4-source-release.zip
+outputs.4.length=165463
+outputs.4.checksums.sha512=8a98caa15e6fcea0add672e5f99ce7e8abb3d9a07d6e2895c80aed9e2275884051d22c8c2a0c02ef7ccef68463e5b769819e2e9a3b730d7b16a7d79dcb755826
+
+outputs.5.groupId=org.apache.sling
+outputs.5.filename=org.apache.sling.auth.oauth-client-0.1.4-sources.jar
+outputs.5.length=78376
+outputs.5.checksums.sha512=051d79f56ae8717af1d93b87cd5e4f5ea25f5936846faef444442e1133fc429f237c210fe0c94a591642385d7d21fd2ad45510484c05e9eca7b454057821c8cd
