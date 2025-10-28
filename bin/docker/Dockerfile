@@ -24,8 +24,10 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 #####
 # Disable suggests/recommends
 #####
-RUN echo APT::Install-Recommends "0"\; > /etc/apt/apt.conf.d/10disableextras
-RUN echo APT::Install-Suggests "0"\; >>  /etc/apt/apt.conf.d/10disableextras
+RUN echo APT::Install-Recommends "0"\; > /etc/apt/apt.conf.d/10disableextras \
+   && echo APT::Install-Suggests "0"\; >>  /etc/apt/apt.conf.d/10disableextras \
+   && echo 'Acquire::AllowReleaseInfoChange::Origin "Azul Systems, Inc.";' > /etc/apt/apt.conf.d/allow-azul-change \
+   && echo 'Acquire::AllowReleaseInfoChange::Label "Azul Systems, Inc., Ubuntu Repository";' >> /etc/apt/apt.conf.d/allow-azul-change
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV DEBCONF_TERSE=true
