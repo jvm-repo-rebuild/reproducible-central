@@ -1,0 +1,9 @@
+version=2.19.3
+ok=3
+ko=0
+ignored=1
+okFiles="jackson-dataformat-xml-2.19.3.pom jackson-dataformat-xml-2.19.3.jar jackson-dataformat-xml-2.19.3-sources.jar"
+koFiles=""
+ignoredFiles="jackson-dataformat-xml-2.19.3.module"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
