@@ -1,0 +1,42 @@
+version=2.0.7
+ok=5
+ko=25
+ignored=0
+okFiles="parent-2.0.7.pom logback-access-common-2.0.7.pom logback-access-tomcat-2.0.7.pom logback-access-jetty11-2.0.7.pom logback-access-jetty12-2.0.7.pom"
+koFiles="logback-access-common-2.0.7.jar logback-access-common-2.0.7-sources.jar logback-access-common-2.0.7-test-sources.jar logback-access-common-2.0.7-tests.jar logback-access-tomcat-2.0.7.jar logback-access-tomcat-2.0.7-sources.jar logback-access-tomcat-2.0.7-test-sources.jar logback-access-jetty11-2.0.7.jar logback-access-jetty11-2.0.7-sources.jar logback-access-jetty11-2.0.7-test-sources.jar logback-access-jetty12-2.0.7.jar logback-access-jetty12-2.0.7-sources.jar logback-access-jetty12-2.0.7-test-sources.jar"
+ignoredFiles=""
+missing=12
+missingFiles="logback-access-common-blackbox-2.0.7.pom logback-access-common-blackbox-2.0.7.jar logback-access-common-blackbox-2.0.7-test-sources.jar logback-access-tomcat_10_1_blackbox-2.0.7.pom logback-access-tomcat_10_1_blackbox-2.0.7.jar logback-access-tomcat_10_1_blackbox-2.0.7-test-sources.jar logback-access-tomcat_11_0_blackbox-2.0.7.pom logback-access-tomcat_11_0_blackbox-2.0.7.jar logback-access-tomcat_11_0_blackbox-2.0.7-test-sources.jar logback-access-jetty12_blackbox-2.0.7.pom logback-access-jetty12_blackbox-2.0.7.jar logback-access-jetty12_blackbox-2.0.7-test-sources.jar"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/ch.qos.logback.access/logback-access-common-2.0.7.jar logback-access-common/target/logback-access-common-2.0.7.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-common-2.0.7-sources.jar logback-access-common/target/logback-access-common-2.0.7-sources.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-common-2.0.7-test-sources.jar logback-access-common/target/logback-access-common-2.0.7-test-sources.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-common-2.0.7-tests.jar logback-access-common/target/logback-access-common-2.0.7-tests.jar
+# wget https://repo.maven.apache.org/maven2/ch/qos/logback/access/logback-access-common-blackbox/2.0.7/logback-access-common-blackbox-2.0.7.pom; ls -l logback-access-common-blackbox/pom.xml
+# wget https://repo.maven.apache.org/maven2/ch/qos/logback/access/logback-access-common-blackbox/2.0.7/logback-access-common-blackbox-2.0.7.jar; ls -l logback-access-common-blackbox/target/logback-access-common-blackbox-2.0.7.jar
+# wget https://repo.maven.apache.org/maven2/ch/qos/logback/access/logback-access-common-blackbox/2.0.7/logback-access-common-blackbox-2.0.7-test-sources.jar; ls -l logback-access-common-blackbox/target/logback-access-common-blackbox-2.0.7-test-sources.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-tomcat-2.0.7.jar logback-access-tomcat/target/logback-access-tomcat-2.0.7.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-tomcat-2.0.7-sources.jar logback-access-tomcat/target/logback-access-tomcat-2.0.7-sources.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-tomcat-2.0.7-test-sources.jar logback-access-tomcat/target/logback-access-tomcat-2.0.7-test-sources.jar
+# wget https://repo.maven.apache.org/maven2/ch/qos/logback/access/logback-access-tomcat_10_1_blackbox/2.0.7/logback-access-tomcat_10_1_blackbox-2.0.7.pom; ls -l logback-access-tomcat_10_1_blackbox/pom.xml
+# wget https://repo.maven.apache.org/maven2/ch/qos/logback/access/logback-access-tomcat_10_1_blackbox/2.0.7/logback-access-tomcat_10_1_blackbox-2.0.7.jar; ls -l logback-access-tomcat_10_1_blackbox/target/logback-access-tomcat_10_1_blackbox-2.0.7.jar
+# wget https://repo.maven.apache.org/maven2/ch/qos/logback/access/logback-access-tomcat_10_1_blackbox/2.0.7/logback-access-tomcat_10_1_blackbox-2.0.7-test-sources.jar; ls -l logback-access-tomcat_10_1_blackbox/target/logback-access-tomcat_10_1_blackbox-2.0.7-test-sources.jar
+# wget https://repo.maven.apache.org/maven2/ch/qos/logback/access/logback-access-tomcat_11_0_blackbox/2.0.7/logback-access-tomcat_11_0_blackbox-2.0.7.pom; ls -l logback-access-tomcat_11_0_blackbox/pom.xml
+# wget https://repo.maven.apache.org/maven2/ch/qos/logback/access/logback-access-tomcat_11_0_blackbox/2.0.7/logback-access-tomcat_11_0_blackbox-2.0.7.jar; ls -l logback-access-tomcat_11_0_blackbox/target/logback-access-tomcat_11_0_blackbox-2.0.7.jar
+# wget https://repo.maven.apache.org/maven2/ch/qos/logback/access/logback-access-tomcat_11_0_blackbox/2.0.7/logback-access-tomcat_11_0_blackbox-2.0.7-test-sources.jar; ls -l logback-access-tomcat_11_0_blackbox/target/logback-access-tomcat_11_0_blackbox-2.0.7-test-sources.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-jetty11-2.0.7.jar logback-access-jetty11/target/logback-access-jetty11-2.0.7.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-jetty11-2.0.7-sources.jar logback-access-jetty11/target/logback-access-jetty11-2.0.7-sources.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-jetty11-2.0.7-test-sources.jar logback-access-jetty11/target/logback-access-jetty11-2.0.7-test-sources.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-jetty12-2.0.7.jar logback-access-jetty12/target/logback-access-jetty12-2.0.7.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-jetty12-2.0.7-sources.jar logback-access-jetty12/target/logback-access-jetty12-2.0.7-sources.jar
+# diffoscope target/reference/ch.qos.logback.access/logback-access-jetty12-2.0.7-test-sources.jar logback-access-jetty12/target/logback-access-jetty12-2.0.7-test-sources.jar
+# wget https://repo.maven.apache.org/maven2/ch/qos/logback/access/logback-access-jetty12_blackbox/2.0.7/logback-access-jetty12_blackbox-2.0.7.pom; ls -l logback-access-jetty12-blackbox/pom.xml
+# wget https://repo.maven.apache.org/maven2/ch/qos/logback/access/logback-access-jetty12_blackbox/2.0.7/logback-access-jetty12_blackbox-2.0.7.jar; ls -l logback-access-jetty12-blackbox/target/logback-access-jetty12_blackbox-2.0.7.jar
+# wget https://repo.maven.apache.org/maven2/ch/qos/logback/access/logback-access-jetty12_blackbox/2.0.7/logback-access-jetty12_blackbox-2.0.7-test-sources.jar; ls -l logback-access-jetty12-blackbox/target/logback-access-jetty12_blackbox-2.0.7-test-sources.jar
+stabilize_ok=0
+stabilize_ko=13
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="logback-access-common-2.0.7.jar.stabilized logback-access-common-2.0.7-sources.jar.stabilized logback-access-common-2.0.7-test-sources.jar.stabilized logback-access-common-2.0.7-tests.jar.stabilized logback-access-tomcat-2.0.7.jar.stabilized logback-access-tomcat-2.0.7-sources.jar.stabilized logback-access-tomcat-2.0.7-test-sources.jar.stabilized logback-access-jetty11-2.0.7.jar.stabilized logback-access-jetty11-2.0.7-sources.jar.stabilized logback-access-jetty11-2.0.7-test-sources.jar.stabilized logback-access-jetty12-2.0.7.jar.stabilized logback-access-jetty12-2.0.7-sources.jar.stabilized logback-access-jetty12-2.0.7-test-sources.jar.stabilized"
+stabilize_ignoredFiles=""
