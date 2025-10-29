@@ -1,0 +1,16 @@
+version=2.19.3
+ok=2
+ko=1
+ignored=1
+okFiles="jackson-databind-2.19.3.pom jackson-databind-2.19.3-sources.jar"
+koFiles="jackson-databind-2.19.3.jar"
+ignoredFiles="jackson-databind-2.19.3.module"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.fasterxml.jackson.core/jackson-databind-2.19.3.jar target/jackson-databind-2.19.3.jar
+stabilize_ok=0
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="jackson-databind-2.19.3.jar.stabilized"
+stabilize_ignoredFiles=""
