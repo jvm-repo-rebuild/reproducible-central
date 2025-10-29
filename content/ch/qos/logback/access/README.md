@@ -7,26 +7,31 @@
 
 Source code: [https://github.com/qos-ch/logback-access.git](https://github.com/qos-ch/logback-access.git)
 
-<details><summary>This project defines 9 modules:</summary>
+<details><summary>This project defines 13 modules:</summary>
 
 * [ch.qos.logback.access:common](https://central.sonatype.com/artifact/ch.qos.logback.access/common/overview)
 * [ch.qos.logback.access:jetty11](https://central.sonatype.com/artifact/ch.qos.logback.access/jetty11/overview)
 * [ch.qos.logback.access:jetty12](https://central.sonatype.com/artifact/ch.qos.logback.access/jetty12/overview)
 * [ch.qos.logback.access:logback-access-common](https://central.sonatype.com/artifact/ch.qos.logback.access/logback-access-common/overview)
+* [ch.qos.logback.access:logback-access-common-blackbox](https://central.sonatype.com/artifact/ch.qos.logback.access/logback-access-common-blackbox/overview)
 * [ch.qos.logback.access:logback-access-jetty11](https://central.sonatype.com/artifact/ch.qos.logback.access/logback-access-jetty11/overview)
 * [ch.qos.logback.access:logback-access-jetty12](https://central.sonatype.com/artifact/ch.qos.logback.access/logback-access-jetty12/overview)
+* [ch.qos.logback.access:logback-access-jetty12_blackbox](https://central.sonatype.com/artifact/ch.qos.logback.access/logback-access-jetty12_blackbox/overview)
 * [ch.qos.logback.access:logback-access-tomcat](https://central.sonatype.com/artifact/ch.qos.logback.access/logback-access-tomcat/overview)
+* [ch.qos.logback.access:logback-access-tomcat_10_1_blackbox](https://central.sonatype.com/artifact/ch.qos.logback.access/logback-access-tomcat_10_1_blackbox/overview)
+* [ch.qos.logback.access:logback-access-tomcat_11_0_blackbox](https://central.sonatype.com/artifact/ch.qos.logback.access/logback-access-tomcat_11_0_blackbox/overview)
 * [ch.qos.logback.access:parent](https://central.sonatype.com/artifact/ch.qos.logback.access/parent/overview)
 * [ch.qos.logback.access:tomcat](https://central.sonatype.com/artifact/ch.qos.logback.access/tomcat/overview)
 </details>
 
-rebuilding **7 releases** of ch.qos.logback.access:parent:
+rebuilding **8 releases** of ch.qos.logback.access:parent:
 - **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.0.7](https://central.sonatype.com/artifact/ch.qos.logback.access/parent/2.0.7/pom) | | | |
+| [2.0.7](https://central.sonatype.com/artifact/ch.qos.logback.access/parent/2.0.7/pom) | [mvn jdk21 w](access-2.0.7.buildspec) | [result](parent-2.0.7.buildinfo): [5 :white_check_mark:  25 :warning:](parent-2.0.7.buildcompare) | 13 :rotating_light: | 382K |
 | [2.0.6](https://central.sonatype.com/artifact/ch.qos.logback.access/parent/2.0.6/pom) | [mvn jdk21 w](access-2.0.6.buildspec) | [result](parent-2.0.6.buildinfo): [18 :white_check_mark: ](parent-2.0.6.buildcompare) | | 318K |
 | [2.0.5](https://central.sonatype.com/artifact/ch.qos.logback.access/parent/2.0.5/pom) | [mvn jdk21 w](access-2.0.5.buildspec) | [result](parent-2.0.5.buildinfo): [18 :white_check_mark: ](parent-2.0.5.buildcompare) | | 313K |
 | [2.0.4](https://central.sonatype.com/artifact/ch.qos.logback.access/parent/2.0.4/pom) | [mvn jdk21 w](access-2.0.4.buildspec) | [result](parent-2.0.4.buildinfo): [18 :white_check_mark: ](parent-2.0.4.buildcompare) | | 315K |
