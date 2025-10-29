@@ -1,0 +1,5 @@
+version=3.2.3
+ok=12
+ko=0
+okFiles="caffeine-3.2.3-sources.jar caffeine-3.2.3.jar caffeine-3.2.3.pom guava-3.2.3-sources.jar guava-3.2.3.jar guava-3.2.3.pom jcache-3.2.3-sources.jar jcache-3.2.3.jar jcache-3.2.3.pom simulator-3.2.3-sources.jar simulator-3.2.3.jar simulator-3.2.3.pom"
+koFiles=""
