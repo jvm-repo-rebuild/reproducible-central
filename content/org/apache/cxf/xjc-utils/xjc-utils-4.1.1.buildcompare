@@ -1,0 +1,9 @@
+version=4.1.1
+ok=44
+ko=0
+ignored=0
+okFiles="xjc-utils-4.1.1.pom xjc-utils-4.1.1-source-release.zip cxf-xjc-plugin-4.1.1.pom cxf-xjc-plugin-4.1.1.jar cxf-xjc-plugin-4.1.1-sources.jar cxf-xjc-dv-4.1.1.pom cxf-xjc-dv-4.1.1.jar cxf-xjc-dv-4.1.1-sources.jar cxf-xjc-dv-test-4.1.1.pom cxf-xjc-dv-test-4.1.1.jar cxf-xjc-dv-test-4.1.1-sources.jar cxf-xjc-ts-4.1.1.pom cxf-xjc-ts-4.1.1.jar cxf-xjc-ts-4.1.1-sources.jar cxf-xjc-ts-test-4.1.1.pom cxf-xjc-ts-test-4.1.1.jar cxf-xjc-ts-test-4.1.1-sources.jar cxf-xjc-boolean-4.1.1.pom cxf-xjc-boolean-4.1.1.jar cxf-xjc-boolean-4.1.1-sources.jar cxf-xjc-boolean-test-4.1.1.pom cxf-xjc-boolean-test-4.1.1.jar cxf-xjc-boolean-test-4.1.1-sources.jar cxf-xjc-wsdlextension-4.1.1.pom cxf-xjc-wsdlextension-4.1.1.jar cxf-xjc-wsdlextension-4.1.1-sources.jar cxf-xjc-wsdlextension-test-4.1.1.pom cxf-xjc-wsdlextension-test-4.1.1.jar cxf-xjc-wsdlextension-test-4.1.1-sources.jar cxf-xjc-bug671-4.1.1.pom cxf-xjc-bug671-4.1.1.jar cxf-xjc-bug671-4.1.1-sources.jar cxf-xjc-bug986-4.1.1.pom cxf-xjc-bug986-4.1.1.jar cxf-xjc-bug986-4.1.1-sources.jar cxf-xjc-pl-4.1.1.pom cxf-xjc-pl-4.1.1.jar cxf-xjc-pl-4.1.1-sources.jar cxf-xjc-javadoc-4.1.1.pom cxf-xjc-javadoc-4.1.1.jar cxf-xjc-javadoc-4.1.1-sources.jar cxf-xjc-runtime-4.1.1.pom cxf-xjc-runtime-4.1.1.jar cxf-xjc-runtime-4.1.1-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
