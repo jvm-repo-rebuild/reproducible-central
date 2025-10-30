@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=net.osslabz:turnstile-siteverify-client
+group-id=net.osslabz
+artifact-id=turnstile-siteverify-client
+version=0.4.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/osslabz/turnstile-siteverify-client.git
+source.scm.tag=0.4.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=net.osslabz
+outputs.0.filename=turnstile-siteverify-client-0.4.1.pom
+outputs.0.length=11455
+outputs.0.checksums.sha512=f7b539c955de551741f93e9288b3685763da667d07d0292146c1e3a63d760cdfbdfa24fa3c617a954b27624984d081c59834bfd2a05e409cf075e75d101057d0
+
+outputs.1.groupId=net.osslabz
+outputs.1.filename=turnstile-siteverify-client-0.4.1.jar
+outputs.1.length=11944
+outputs.1.checksums.sha512=0ec3fe05d7de478f1654624043a8101a5f2f14eacdfe6b32df03e0cda840555c9f03e966b37897c04bafa810c932c16e5e0470b2b47a65d6dc8c8891d0ee5cd4
+
+outputs.2.groupId=net.osslabz
+outputs.2.filename=turnstile-siteverify-client-0.4.1-sources.jar
+outputs.2.length=7580
+outputs.2.checksums.sha512=2ebf9b9f1c9af037ac6ae0e92c4389835dcb9e73f0d0c07f5ec7d965f4a670d1c5ea2c4f066f273afe92f452ac69ab3acaf791ea79fa6b51c5c13b361236a190
