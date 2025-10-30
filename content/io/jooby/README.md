@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/jooby-project/jooby.git](https://github.com/jooby-project/jooby.git)
 
-<details><summary>This project defines 65 modules:</summary>
+<details><summary>This project defines 69 modules:</summary>
 
 * [io.jooby:jooby](https://central.sonatype.com/artifact/io.jooby/jooby/overview)
 * [io.jooby:jooby-apt](https://central.sonatype.com/artifact/io.jooby/jooby-apt/overview)
@@ -70,20 +70,24 @@ Source code: [https://github.com/jooby-project/jooby.git](https://github.com/joo
 * [io.jooby:jooby-test](https://central.sonatype.com/artifact/io.jooby/jooby-test/overview)
 * [io.jooby:jooby-thymeleaf](https://central.sonatype.com/artifact/io.jooby/jooby-thymeleaf/overview)
 * [io.jooby:jooby-undertow](https://central.sonatype.com/artifact/io.jooby/jooby-undertow/overview)
+* [io.jooby:jooby-vertx](https://central.sonatype.com/artifact/io.jooby/jooby-vertx/overview)
+* [io.jooby:jooby-vertx-mysql-client](https://central.sonatype.com/artifact/io.jooby/jooby-vertx-mysql-client/overview)
+* [io.jooby:jooby-vertx-pg-client](https://central.sonatype.com/artifact/io.jooby/jooby-vertx-pg-client/overview)
+* [io.jooby:jooby-vertx-sql-client](https://central.sonatype.com/artifact/io.jooby/jooby-vertx-sql-client/overview)
 * [io.jooby:jooby-whoops](https://central.sonatype.com/artifact/io.jooby/jooby-whoops/overview)
 * [io.jooby:jooby-yasson](https://central.sonatype.com/artifact/io.jooby/jooby-yasson/overview)
 * [io.jooby:modules](https://central.sonatype.com/artifact/io.jooby/modules/overview)
 * [io.jooby:tests](https://central.sonatype.com/artifact/io.jooby/tests/overview)
 </details>
 
-rebuilding **60 releases** of io.jooby:jooby:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **61 releases** of io.jooby:jooby:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 50 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.10](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.10/pom) | | | |
+| [4.0.10](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.10/pom) | [mvn jdk21](jooby-4.0.10.buildspec) | [result](jooby-project-4.0.10.buildinfo): [186 :white_check_mark: ](jooby-project-4.0.10.buildcompare) | | 14M |
 | [4.0.9](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.9/pom) | | | |
 | [4.0.8](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.8/pom) | | | |
 | [4.0.7](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.7/pom) | [mvn jdk21](jooby-4.0.7.buildspec) | [result](jooby-project-4.0.7.buildinfo): [172 :white_check_mark:  2 :warning:](jooby-project-4.0.7.buildcompare) | 2 :rotating_light: | 14M |
