@@ -1,0 +1,125 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson dataformats: Binary
+group-id=com.fasterxml.jackson.dataformat
+artifact-id=jackson-dataformats-binary
+version=2.20.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-dataformats-binary.git
+source.scm.tag=jackson-dataformats-binary-2.20.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_462
+java.vendor=Private Build
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=jackson-dataformat-ion
+
+# aggregated output
+
+outputs.0.coordinates=com.fasterxml.jackson.dataformat:jackson-dataformats-binary
+
+outputs.0.0.groupId=com.fasterxml.jackson.dataformat
+outputs.0.0.filename=jackson-dataformats-binary-2.20.1.pom
+outputs.0.0.length=3694
+outputs.0.0.checksums.sha512=8ec844311e50fad158d84d70b2dd18ee16ca92ce50ec75ea04858bf8b1eb81bf374c3242fd8c3a240341ee51b8bb51379ef4f2ed7a0e0bd150c73355569179cb
+
+outputs.1.coordinates=com.fasterxml.jackson.dataformat:jackson-dataformat-cbor
+
+outputs.1.0.groupId=com.fasterxml.jackson.dataformat
+outputs.1.0.filename=jackson-dataformat-cbor-2.20.1.pom
+outputs.1.0.length=3404
+outputs.1.0.checksums.sha512=c7c5eed3be0e5b62aa716ad1d376bf7da5ad6c46448f4f38ca909b6804a46d0966d85ebfa357736cadf64d055aa37623f63d4a8011e6569fc4e85f52298d1e61
+
+outputs.1.1.groupId=com.fasterxml.jackson.dataformat
+outputs.1.1.filename=jackson-dataformat-cbor-2.20.1.jar
+outputs.1.1.length=73183
+outputs.1.1.checksums.sha512=49f526b847606e2ef1fc6907bd3cffb38adaa7ae87c216983bd7a3eb4edda4549537a0fae3d8a4f829c7aa74e413b8f2f141bcaa35a0750bb9fb6fe28122c594
+
+outputs.1.2.groupId=com.fasterxml.jackson.dataformat
+outputs.1.2.filename=jackson-dataformat-cbor-2.20.1-sources.jar
+outputs.1.2.length=61987
+outputs.1.2.checksums.sha512=ba18eaa1d385f9cc01e20dface817fbd732fe1b035118441daa679a6b2c33fcd9075507b2cfa22a9939a2477619754c6ddb7f129b5bb6bc7ee0c2a872c58df67
+# ignored jackson-dataformat-cbor-2.20.1.module
+
+outputs.2.coordinates=com.fasterxml.jackson.dataformat:jackson-dataformat-smile
+
+outputs.2.0.groupId=com.fasterxml.jackson.dataformat
+outputs.2.0.filename=jackson-dataformat-smile-2.20.1.pom
+outputs.2.0.length=3720
+outputs.2.0.checksums.sha512=2415a621ec20052ca9bdef5c8ed60f550ab739b557abf2fcc06a521fe900c392a8033b3b1afb8e3a6061494f443cd163b8ec91f8f535165d9a412a1ba4fa2fbd
+
+outputs.2.1.groupId=com.fasterxml.jackson.dataformat
+outputs.2.1.filename=jackson-dataformat-smile-2.20.1.jar
+outputs.2.1.length=97075
+outputs.2.1.checksums.sha512=2aee9c085c14f2e70b78884f15b67ae950b1e484d8a7b4328f1ffb37ef3bb2cf04b0215e7361e26469b7bc128f4fa6ea9ed7f581267eaccef164b1a4a7fb9010
+
+outputs.2.2.groupId=com.fasterxml.jackson.dataformat
+outputs.2.2.filename=jackson-dataformat-smile-2.20.1-sources.jar
+outputs.2.2.length=84465
+outputs.2.2.checksums.sha512=8e32b5ad852d1cae7b95bcafb14685f72e5036934e218d76a84ecbc5d9c938eae637b65bd0a2ea37cf89a8860f3fd851f3345a268afc3bd953fa6329cee9b0b4
+# ignored jackson-dataformat-smile-2.20.1.module
+
+outputs.3.coordinates=com.fasterxml.jackson.dataformat:jackson-dataformat-avro
+
+outputs.3.0.groupId=com.fasterxml.jackson.dataformat
+outputs.3.0.filename=jackson-dataformat-avro-2.20.1.pom
+outputs.3.0.length=3927
+outputs.3.0.checksums.sha512=3e3d5290f39be6233e0f3b1de1d2fe84cb83f926cf12faac9983bf85e48ddfb3c83c4eb8f239092e8ca513b2273c013c7c7f61a88b01c33e0d2bab82702d89fc
+
+outputs.3.1.groupId=com.fasterxml.jackson.dataformat
+outputs.3.1.filename=jackson-dataformat-avro-2.20.1.jar
+outputs.3.1.length=223874
+outputs.3.1.checksums.sha512=d7c61e24f87cebbea4a2f2a00117588580033edeeb9561c0a87e0be658c5078a7fff60efc428142f9a0af963beeb78bd084d24e2e84f7d4b1a928f0d3429a3c0
+
+outputs.3.2.groupId=com.fasterxml.jackson.dataformat
+outputs.3.2.filename=jackson-dataformat-avro-2.20.1-sources.jar
+outputs.3.2.length=122000
+outputs.3.2.checksums.sha512=eaa94361de3a4cdd865e40e00cf37cc0e3466f5bb38453bde7292f74843a1c578d9f5117ca72f3601c7c1c401d1290e3af95d4b75c5197dc0adc5e905a623bce
+# ignored jackson-dataformat-avro-2.20.1.module
+
+outputs.4.coordinates=com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf
+
+outputs.4.0.groupId=com.fasterxml.jackson.dataformat
+outputs.4.0.filename=jackson-dataformat-protobuf-2.20.1.pom
+outputs.4.0.length=4870
+outputs.4.0.checksums.sha512=8e0eadb7ee6ea0e87f1f9ba7c1b3aaa9c4ce13025ebbc42091f5abfeb93c0010fb62a31fbd64d125f752fe350dce17d70f4d688ada678e9770506c9852ac124e
+
+outputs.4.1.groupId=com.fasterxml.jackson.dataformat
+outputs.4.1.filename=jackson-dataformat-protobuf-2.20.1.jar
+outputs.4.1.length=235485
+outputs.4.1.checksums.sha512=3a20e498522d0070075a3a8dda5143c0fbfa56828d836a0105c3289edc3e04bf1a8ece5f78187db241ba2d55aa880d28115e07899a5ed956b806c6cb5c329bb7
+
+outputs.4.2.groupId=com.fasterxml.jackson.dataformat
+outputs.4.2.filename=jackson-dataformat-protobuf-2.20.1-sources.jar
+outputs.4.2.length=86788
+outputs.4.2.checksums.sha512=19789d7ea962641d4afe2b9645cf81da68002616ef26526613a4db2dbfc9969462505ec816f3046460524d81a3199b59138b9c59eeda0310086858503039700d
+# ignored jackson-dataformat-protobuf-2.20.1.module
+
+outputs.5.coordinates=com.fasterxml.jackson.dataformat:jackson-dataformat-ion
+
+outputs.5.0.groupId=com.fasterxml.jackson.dataformat
+outputs.5.0.filename=jackson-dataformat-ion-2.20.1.pom
+outputs.5.0.length=3569
+outputs.5.0.checksums.sha512=16e5edd079b0267514a216c0985d74876c995cb100fd9cbea64fb718d432a27bcb15d1b297f6487756c05a33668df89b7caec7f917a84f165e56fd123d7cce3c
+
+outputs.5.1.groupId=com.fasterxml.jackson.dataformat
+outputs.5.1.filename=jackson-dataformat-ion-2.20.1.jar
+outputs.5.1.length=73172
+outputs.5.1.checksums.sha512=acdb76a416980058f495f52ac24a87dda8bc9dc48ec5051433e14314cb6f893773a60ad184caedad09483d53774a6a38df52b80b424fb7b17582140cf0d87630
+
+outputs.5.2.groupId=com.fasterxml.jackson.dataformat
+outputs.5.2.filename=jackson-dataformat-ion-2.20.1-sources.jar
+outputs.5.2.length=56137
+outputs.5.2.checksums.sha512=0ce8971a547687b006364729a8f638817912d60d722cbb28c895f4680a71ca22f5f4e75955a6122d22bf3c5a375d251862dc45548df0e759cf3a5384f962d6c8
+# ignored jackson-dataformat-ion-2.20.1.module
