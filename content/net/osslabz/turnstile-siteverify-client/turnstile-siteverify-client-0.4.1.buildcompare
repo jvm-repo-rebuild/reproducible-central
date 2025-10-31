@@ -1,0 +1,16 @@
+version=0.4.1
+ok=2
+ko=1
+ignored=0
+okFiles="turnstile-siteverify-client-0.4.1.pom turnstile-siteverify-client-0.4.1-sources.jar"
+koFiles="turnstile-siteverify-client-0.4.1.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/net.osslabz/turnstile-siteverify-client-0.4.1.jar target/turnstile-siteverify-client-0.4.1.jar
+stabilize_ok=1
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="turnstile-siteverify-client-0.4.1.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""
