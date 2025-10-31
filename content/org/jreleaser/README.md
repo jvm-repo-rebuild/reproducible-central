@@ -72,6 +72,7 @@ rebuilding **16 releases** of org.jreleaser:jreleaser:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.21.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.21.0/pom) | | | |
 | [1.20.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.20.0/pom) | [gradle jdk21](jreleaser-1.20.0.buildspec) | [result](jreleaser-1.20.0.buildinfo): [161 :white_check_mark:  1 :warning:](jreleaser-1.20.0.buildcompare) | 1 :rotating_light: | 52M |
 | [1.19.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.19.0/pom) | [gradle jdk21](jreleaser-1.19.0.buildspec) | [result](jreleaser-1.19.0.buildinfo): [162 :white_check_mark: ](jreleaser-1.19.0.buildcompare) | | 51M |
 | [1.18.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.18.0/pom) | [gradle jdk21](jreleaser-1.18.0.buildspec) | [result](jreleaser-1.18.0.buildinfo): [161 :white_check_mark:  1 :warning:](jreleaser-1.18.0.buildcompare) | 1 :rotating_light: | 51M |
