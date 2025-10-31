@@ -1,0 +1,15 @@
+groupId=io.github.gls-athena.starter.data.redis
+artifactId=athena-starter-data-redis
+display=io.github.gls-athena.starter.data.redis:athena-starter-data-redis
+version=0.0.9
+
+gitRepo=https://github.com/gls-athena/athena-parent
+gitTag=3a6105b58d80753d6c3328ffd000a7031b3789df
+
+tool=mvn
+jdk=21
+newline=lf
+timezone=Etc/UTC
+
+command="mvn clean package -DskipTests --batch-mode -f athena-project/athena-starter/athena-starter-data-redis -Dmaven.javadoc.skip=true"
+buildinfo=athena-project/athena-starter/athena-starter-data-redis/target/athena-starter-data-redis-0.0.9.buildinfo
