@@ -16,13 +16,13 @@ Source code: [https://github.com/FasterXML/jackson-datatypes-collections.git](ht
 * [com.fasterxml.jackson.datatype:jackson-datatypes-collections](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/overview)
 </details>
 
-rebuilding **30 releases** of com.fasterxml.jackson.datatype:jackson-datatypes-collections:
-- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **31 releases** of com.fasterxml.jackson.datatype:jackson-datatypes-collections:
+- **22** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.20.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/2.20.1/pom) | | | |
+| [2.20.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/2.20.1/pom) | [mvn jdk8](jackson-datatypes-collections-2.20.1.buildspec) | [result](jackson-datatypes-collections-2.20.1.buildinfo): [13 :white_check_mark: ](jackson-datatypes-collections-2.20.1.buildcompare) | | 759K |
 | [2.20.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/2.20.0/pom) | [mvn jdk8](jackson-datatypes-collections-2.20.0.buildspec) | [result](jackson-datatypes-collections-2.20.0.buildinfo): [13 :white_check_mark: ](jackson-datatypes-collections-2.20.0.buildcompare) | | 759K |
 | [2.20.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/2.20.0-rc1/pom) | [mvn jdk8](jackson-datatypes-collections-2.20.0-rc1.buildspec) | [result](jackson-datatypes-collections-2.20.0-rc1.buildinfo): [13 :white_check_mark: ](jackson-datatypes-collections-2.20.0-rc1.buildcompare) | | 759K |
 | [2.19.4](https://central.sonatype.com/artifact/com.fasterxml.jackson.datatype/jackson-datatypes-collections/2.19.4/pom) | | | |
