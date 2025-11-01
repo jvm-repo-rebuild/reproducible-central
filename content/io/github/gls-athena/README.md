@@ -53,7 +53,7 @@ rebuilding **2 releases** of io.github.gls-athena:athena-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.0.17](https://central.sonatype.com/artifact/io.github.gls-athena/athena-parent/0.0.17/pom) | [mvn jdk21](athena-0.0.17.buildspec) | [result](athena-parent-0.0.17.buildinfo): [34 :white_check_mark:  57 :warning:](athena-parent-0.0.17.buildcompare) | 56 :recycle: 1 :no_entry_sign: | 1.3M |
+| [0.0.17](https://central.sonatype.com/artifact/io.github.gls-athena/athena-parent/0.0.17/pom) | [mvn jdk21](athena-0.0.17.buildspec) | [result](athena-parent-0.0.17.buildinfo): [34 :white_check_mark:  57 :warning:](athena-parent-0.0.17.buildcompare) [:memo:](https://github.com/gls-athena/athena-parent/pull/31) | 56 :recycle: 1 :no_entry_sign: | 1.3M |
 | [0.0.16](https://central.sonatype.com/artifact/io.github.gls-athena/athena-parent/0.0.16/pom) | | | |
 | [0.0.15](https://central.sonatype.com/artifact/io.github.gls-athena/athena-parent/0.0.15/pom) | | | |
 | [0.0.14](https://central.sonatype.com/artifact/io.github.gls-athena/athena-parent/0.0.14/pom) | | | |

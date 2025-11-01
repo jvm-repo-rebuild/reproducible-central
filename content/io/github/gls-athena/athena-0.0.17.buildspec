@@ -12,3 +12,5 @@ newline=lf
 
 command="mvn clean package -Prelease -DskipTests --batch-mode -Dmaven.javadoc.skip=true"
 buildinfo=target/$artifactId-$version.buildinfo
+
+issue=https://github.com/gls-athena/athena-parent/pull/31
