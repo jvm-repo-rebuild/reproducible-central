@@ -11,4 +11,4 @@ jdk=21
 newline=lf
 
 command="mvn clean package -Prelease -DskipTests --batch-mode -Dmaven.javadoc.skip=true"
-buildinfo=target/*.buildinfo
+buildinfo=target/*-0.0.9.buildinfo
