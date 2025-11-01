@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/gls-athena/athena-parent](https://github.com/gls-athena/athena-parent)
 
-<details><summary>This project defines 33 modules:</summary>
+<details><summary>This project defines 35 modules:</summary>
 
 * [io.github.gls-athena.cloud.boot:athena-cloud-boot](https://central.sonatype.com/artifact/io.github.gls-athena.cloud.boot/athena-cloud-boot/overview)
 * [io.github.gls-athena.cloud.core:athena-cloud-core](https://central.sonatype.com/artifact/io.github.gls-athena.cloud.core/athena-cloud-core/overview)
@@ -26,11 +26,13 @@ Source code: [https://github.com/gls-athena/athena-parent](https://github.com/gl
 * [io.github.gls-athena.starter.aliyun.core:athena-starter-aliyun-core](https://central.sonatype.com/artifact/io.github.gls-athena.starter.aliyun.core/athena-starter-aliyun-core/overview)
 * [io.github.gls-athena.starter.aliyun.oss:athena-starter-aliyun-oss](https://central.sonatype.com/artifact/io.github.gls-athena.starter.aliyun.oss/athena-starter-aliyun-oss/overview)
 * [io.github.gls-athena.starter.aliyun.sms:athena-starter-aliyun-sms](https://central.sonatype.com/artifact/io.github.gls-athena.starter.aliyun.sms/athena-starter-aliyun-sms/overview)
+* [io.github.gls-athena.starter.async:athena-starter-async](https://central.sonatype.com/artifact/io.github.gls-athena.starter.async/athena-starter-async/overview)
 * [io.github.gls-athena.starter.core:athena-starter-core](https://central.sonatype.com/artifact/io.github.gls-athena.starter.core/athena-starter-core/overview)
 * [io.github.gls-athena.starter.data.jpa:athena-starter-data-jpa](https://central.sonatype.com/artifact/io.github.gls-athena.starter.data.jpa/athena-starter-data-jpa/overview)
 * [io.github.gls-athena.starter.data.redis:athena-starter-data-redis](https://central.sonatype.com/artifact/io.github.gls-athena.starter.data.redis/athena-starter-data-redis/overview)
 * [io.github.gls-athena.starter.dynamic.datasource:athena-starter-dynamic-datasource](https://central.sonatype.com/artifact/io.github.gls-athena.starter.dynamic.datasource/athena-starter-dynamic-datasource/overview)
 * [io.github.gls-athena.starter.excel:athena-starter-excel](https://central.sonatype.com/artifact/io.github.gls-athena.starter.excel/athena-starter-excel/overview)
+* [io.github.gls-athena.starter.file:athena-starter-file](https://central.sonatype.com/artifact/io.github.gls-athena.starter.file/athena-starter-file/overview)
 * [io.github.gls-athena.starter.jasper:athena-starter-jasper](https://central.sonatype.com/artifact/io.github.gls-athena.starter.jasper/athena-starter-jasper/overview)
 * [io.github.gls-athena.starter.json:athena-starter-json](https://central.sonatype.com/artifact/io.github.gls-athena.starter.json/athena-starter-json/overview)
 * [io.github.gls-athena.starter.mybatis:athena-starter-mybatis](https://central.sonatype.com/artifact/io.github.gls-athena.starter.mybatis/athena-starter-mybatis/overview)
@@ -44,14 +46,14 @@ Source code: [https://github.com/gls-athena/athena-parent](https://github.com/gl
 * [io.github.gls-athena:athena-project](https://central.sonatype.com/artifact/io.github.gls-athena/athena-project/overview)
 </details>
 
-rebuilding **1 releases** of io.github.gls-athena:athena-parent:
+rebuilding **2 releases** of io.github.gls-athena:athena-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.0.17](https://central.sonatype.com/artifact/io.github.gls-athena/athena-parent/0.0.17/pom) | | | |
+| [0.0.17](https://central.sonatype.com/artifact/io.github.gls-athena/athena-parent/0.0.17/pom) | [mvn jdk21](athena-0.0.17.buildspec) | [result](athena-parent-0.0.17.buildinfo): [34 :white_check_mark:  57 :warning:](athena-parent-0.0.17.buildcompare) | 56 :recycle: 1 :no_entry_sign: | 1.3M |
 | [0.0.16](https://central.sonatype.com/artifact/io.github.gls-athena/athena-parent/0.0.16/pom) | | | |
 | [0.0.15](https://central.sonatype.com/artifact/io.github.gls-athena/athena-parent/0.0.15/pom) | | | |
 | [0.0.14](https://central.sonatype.com/artifact/io.github.gls-athena/athena-parent/0.0.14/pom) | | | |
