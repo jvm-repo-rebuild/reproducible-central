@@ -1,6 +1,6 @@
-groupId=io.github.gls-athena.starter.data.redis
-artifactId=athena-starter-data-redis
-display=io.github.gls-athena.starter.data.redis:athena-starter-data-redis
+groupId=io.github.gls-athena
+artifactId=athena-parent
+display=${groupId}:athena
 version=0.0.9
 
 gitRepo=https://github.com/gls-athena/athena-parent
