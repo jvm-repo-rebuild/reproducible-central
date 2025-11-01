@@ -102,12 +102,12 @@ jobs:
 
               buildcompare="$(dirname $file)/$(basename $buildinfo .buildinfo).buildcompare"
               echo '```' >> PRcomment.txt
-              grep -v okFiles "$buildcompare" >> PRcomment.txt
+              grep -v okFiles $buildcompare >> PRcomment.txt
               echo '```' >> PRcomment.txt
 
               if [ $(grep "^ko=0" PRcomment.txt | wc -l) -eq 0 ]
               then
-                ./build_diffoscope.sh "$buildcompare" buildcache/$artifactId
+                ./build_diffoscope.sh $buildcompare buildcache/$artifactId
                 diffoscope="$(dirname $file)/$(basename $buildinfo .buildinfo).diffoscope"
                 [ -f $diffoscope ] && mv "$diffoscope" . \
                   && echo ":mag: diffoscope analysis uploaded to ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> PRcomment.txt
