@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/fabric8io/docker-maven-plugin.git](https://github.com/fabric8io/docker-maven-plugin.git)
 
-rebuilding **24 releases** of io.fabric8:docker-maven-plugin:
-- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **25 releases** of io.fabric8:docker-maven-plugin:
+- **22** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.47.0](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.47.0/pom) | | | |
+| [0.47.0](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.47.0/pom) | [mvn jdk11](docker-maven-plugin-0.47.0.buildspec) | [result](docker-maven-plugin-0.47.0.buildinfo): [3 :white_check_mark: ](docker-maven-plugin-0.47.0.buildcompare) | | 1.1M |
 | [0.46.0](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.46.0/pom) | [mvn jdk11](docker-maven-plugin-0.46.0.buildspec) | [result](docker-maven-plugin-0.46.0.buildinfo): [3 :white_check_mark: ](docker-maven-plugin-0.46.0.buildcompare) | | 1.1M |
 | [0.45.1](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.45.1/pom) | [mvn jdk11](docker-maven-plugin-0.45.1.buildspec) | [result](docker-maven-plugin-0.45.1.buildinfo): [3 :white_check_mark: ](docker-maven-plugin-0.45.1.buildcompare) | | 1.1M |
 | [0.45.0](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.45.0/pom) | [mvn jdk11](docker-maven-plugin-0.45.0.buildspec) | [result](docker-maven-plugin-0.45.0.buildinfo): [3 :white_check_mark: ](docker-maven-plugin-0.45.0.buildcompare) | | 1.1M |
