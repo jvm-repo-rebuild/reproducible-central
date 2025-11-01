@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/jreleaser/jreleaser.git](https://github.com/jreleaser/jreleaser.git)
 
-<details><summary>This project defines 54 modules:</summary>
+<details><summary>This project defines 55 modules:</summary>
 
 * [org.jreleaser:jdks-maven-plugin](https://central.sonatype.com/artifact/org.jreleaser/jdks-maven-plugin/overview)
 * [org.jreleaser:jreleaser](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/overview)
@@ -47,6 +47,7 @@ Source code: [https://github.com/jreleaser/jreleaser.git](https://github.com/jre
 * [org.jreleaser:jreleaser-nexus2-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-nexus2-java-sdk/overview)
 * [org.jreleaser:jreleaser-nexus3-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-nexus3-java-sdk/overview)
 * [org.jreleaser:jreleaser-opencollective-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-opencollective-java-sdk/overview)
+* [org.jreleaser:jreleaser-reddit-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-reddit-java-sdk/overview)
 * [org.jreleaser:jreleaser-resource-bundle](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-resource-bundle/overview)
 * [org.jreleaser:jreleaser-s3-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-s3-java-sdk/overview)
 * [org.jreleaser:jreleaser-sdkman-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-sdkman-java-sdk/overview)
@@ -65,14 +66,14 @@ Source code: [https://github.com/jreleaser/jreleaser.git](https://github.com/jre
 * [org.jreleaser:jreleaser-zulip-java-sdk](https://central.sonatype.com/artifact/org.jreleaser/jreleaser-zulip-java-sdk/overview)
 </details>
 
-rebuilding **16 releases** of org.jreleaser:jreleaser:
+rebuilding **17 releases** of org.jreleaser:jreleaser:
 - **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 7, 2 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 8, 2 had all their differences removed :recycle:, 6 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.21.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.21.0/pom) | | | |
+| [1.21.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.21.0/pom) | [gradle jdk21](jreleaser-1.21.0.buildspec) | [result](jreleaser-1.21.0.buildinfo): [164 :white_check_mark:  1 :warning:](jreleaser-1.21.0.buildcompare) | 1 :rotating_light: | 51M |
 | [1.20.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.20.0/pom) | [gradle jdk21](jreleaser-1.20.0.buildspec) | [result](jreleaser-1.20.0.buildinfo): [161 :white_check_mark:  1 :warning:](jreleaser-1.20.0.buildcompare) | 1 :rotating_light: | 52M |
 | [1.19.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.19.0/pom) | [gradle jdk21](jreleaser-1.19.0.buildspec) | [result](jreleaser-1.19.0.buildinfo): [162 :white_check_mark: ](jreleaser-1.19.0.buildcompare) | | 51M |
 | [1.18.0](https://central.sonatype.com/artifact/org.jreleaser/jreleaser/1.18.0/pom) | [gradle jdk21](jreleaser-1.18.0.buildspec) | [result](jreleaser-1.18.0.buildinfo): [161 :white_check_mark:  1 :warning:](jreleaser-1.18.0.buildcompare) | 1 :rotating_light: | 51M |
