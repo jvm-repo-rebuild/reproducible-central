@@ -20,6 +20,7 @@ rebuilding **10 releases** of io.avaje:avaje-prisms-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.44-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-prisms-parent/1.44-RC1/pom) | | | |
 | [1.43](https://central.sonatype.com/artifact/io.avaje/avaje-prisms-parent/1.43/pom) | [mvn jdk24 w](avaje-prisms-1.43.buildspec) | [result](avaje-prisms-parent-1.43.buildinfo): [7 :white_check_mark: ](avaje-prisms-parent-1.43.buildcompare) | | 126K |
 | [1.42](https://central.sonatype.com/artifact/io.avaje/avaje-prisms-parent/1.42/pom) | [mvn jdk21](avaje-prisms-1.42.buildspec) | [result](avaje-prisms-parent-1.42.buildinfo): [7 :white_check_mark: ](avaje-prisms-parent-1.42.buildcompare) | | 125K |
 | [1.41](https://central.sonatype.com/artifact/io.avaje/avaje-prisms-parent/1.41/pom) | [mvn jdk21](avaje-prisms-1.41.buildspec) | [result](avaje-prisms-parent-1.41.buildinfo): [7 :white_check_mark: ](avaje-prisms-parent-1.41.buildcompare) | | 125K |
