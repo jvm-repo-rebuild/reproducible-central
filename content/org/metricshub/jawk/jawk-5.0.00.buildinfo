@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jawk
+group-id=org.metricshub
+artifact-id=jawk
+version=5.0.00
+
+# source information
+source.scm.uri=scm:git:https://github.com/metricshub/Jawk.git
+source.scm.tag=v5.0.00
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.metricshub
+outputs.0.filename=jawk-5.0.00.pom
+outputs.0.length=9048
+outputs.0.checksums.sha512=974628a2355fb6beed38cdbec82e5be93a0e7385c3f2555063f5fa2e657a973b60d03c227a50c8c38604dca25dae8e865da448e32140663c2ee5ae63b5622c78
+
+outputs.1.groupId=org.metricshub
+outputs.1.filename=jawk-5.0.00.jar
+outputs.1.length=269050
+outputs.1.checksums.sha512=b620184965598f1e6f72d951d2af7262c6d0cd87649c4075f2a361a2d6ad32bc302f28c62552f8ae75923b465a2a2870f936444c03442ad85cecf4bb6f3db40e
+
+outputs.2.groupId=org.metricshub
+outputs.2.filename=jawk-5.0.00-sources.jar
+outputs.2.length=166960
+outputs.2.checksums.sha512=792c401ce0b0f5c2134847d1bb407cd1daffb2cb8e2b8f0375d1e115828b29823a3549480592e6c839755b576617ba5e8ca192584cd2ce86b04a8036f058a803
+
+outputs.3.groupId=org.metricshub
+outputs.3.filename=jawk-5.0.00-standalone.jar
+outputs.3.length=313858
+outputs.3.checksums.sha512=7d58766d4382a95278465002af701bb62ccbd6101211d03172a05ec6f9d4d60d071298a8d8818bc7bed0fd4b04f7cbd3812cea150c6722e6b86181fbdb141077
