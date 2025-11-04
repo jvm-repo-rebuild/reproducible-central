@@ -1,0 +1,69 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=avaje-prisms-parent
+group-id=io.avaje
+artifact-id=avaje-prisms-parent
+version=1.44-RC1
+
+# source information
+source.scm.uri=null
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.aggregate.artifact-id=avaje-prisms
+
+# aggregated output
+
+outputs.0.coordinates=io.avaje:avaje-prisms-parent
+
+outputs.0.0.groupId=io.avaje
+outputs.0.0.filename=avaje-prisms-parent-1.44-RC1.pom
+outputs.0.0.length=1305
+outputs.0.0.checksums.sha512=d182c53dc48d6ee06b5fef88a4d8e1e3119aa621e4d43c686884874a428bbeb7279344c38fd217106ead02f09bc0439c6f0734f1c0fc3e018eeeb8aafa8641e0
+
+outputs.1.coordinates=io.avaje:avaje-prism-core
+
+outputs.1.0.groupId=io.avaje
+outputs.1.0.filename=avaje-prism-core-1.44-RC1.pom
+outputs.1.0.length=869
+outputs.1.0.checksums.sha512=b8829d38da9287f1f07e052fff00077c40958594940b0acec28e0ecec9f3fafac4803175ab030d65115f3d17340b3a08278aee11de0b44975ada5dd0bf3f7038
+
+outputs.1.1.groupId=io.avaje
+outputs.1.1.filename=avaje-prism-core-1.44-RC1.jar
+outputs.1.1.length=60657
+outputs.1.1.checksums.sha512=8554fe79188168c19a725bba0a5ef5666b9fb996e2a2d4067bfebc15fdecb5564f950fdf484ee89053fe313d1fdfe2e104cdeffc6ab0281b913fd939589304af
+
+outputs.1.2.groupId=io.avaje
+outputs.1.2.filename=avaje-prism-core-1.44-RC1-sources.jar
+outputs.1.2.length=41807
+outputs.1.2.checksums.sha512=8aa223d453c3026ca95325a2794f6b89a9a11078c9600401d2d3db39fcabb16cdcccd37cf502317ba235a30ea576edb90962814cd3ceaf52e848cd44cae673d8
+
+outputs.2.coordinates=io.avaje:avaje-prisms
+
+outputs.2.0.groupId=io.avaje
+outputs.2.0.filename=avaje-prisms-1.44-RC1.pom
+outputs.2.0.length=841
+outputs.2.0.checksums.sha512=947958cd85f826ae876b691ed61e83e0e9e8d136c0bd4cd362d19a7105d898c1663a12b74483133f4b71cdaebc7a2f4bd51a9fac4f0953d608844331d37db398
+
+outputs.2.1.groupId=io.avaje
+outputs.2.1.filename=avaje-prisms-1.44-RC1.jar
+outputs.2.1.length=10883
+outputs.2.1.checksums.sha512=a28a2403cc543faff351e3535b446133e196f19cda92909672cd9a174818ca90b4a6e530047edda0644000baad7ea2e5cd686eb13a3cf30ade9b5e81d3f556a6
+
+outputs.2.2.groupId=io.avaje
+outputs.2.2.filename=avaje-prisms-1.44-RC1-sources.jar
+outputs.2.2.length=12343
+outputs.2.2.checksums.sha512=6829f4b12b5dcb5238ba026a59f2406eff0f740bcc41a2e2d9480b6223d03fe31ac21806471de96b09e742811831fca46bdcd439d681ea2fdd2e93bda7bc8fbb
