@@ -80,14 +80,14 @@ Source code: [https://github.com/jooby-project/jooby.git](https://github.com/joo
 * [io.jooby:tests](https://central.sonatype.com/artifact/io.jooby/tests/overview)
 </details>
 
-rebuilding **66 releases** of io.jooby:jooby:
-- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **67 releases** of io.jooby:jooby:
+- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 52 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 5, 0 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.11](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.11/pom) | | | |
+| [4.0.11](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.11/pom) | [mvn jdk21](jooby-4.0.11.buildspec) | [result](jooby-project-4.0.11.buildinfo): [186 :white_check_mark: ](jooby-project-4.0.11.buildcompare) | | 14M |
 | [4.0.10](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.10/pom) | [mvn jdk21](jooby-4.0.10.buildspec) | [result](jooby-project-4.0.10.buildinfo): [186 :white_check_mark: ](jooby-project-4.0.10.buildcompare) | | 14M |
 | [4.0.9](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.9/pom) | [mvn jdk21](jooby-4.0.9.buildspec) | [result](jooby-project-4.0.9.buildinfo): [184 :white_check_mark:  2 :warning:](jooby-project-4.0.9.buildcompare) | 2 :rotating_light: | 14M |
 | [4.0.8](https://central.sonatype.com/artifact/io.jooby/jooby/4.0.8/pom) | [mvn jdk21](jooby-4.0.8.buildspec) | [result](jooby-project-4.0.8.buildinfo): [184 :white_check_mark:  2 :warning:](jooby-project-4.0.8.buildcompare) | 2 :rotating_light: | 14M |
