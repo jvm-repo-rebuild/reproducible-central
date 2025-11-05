@@ -513,7 +513,7 @@ Reproducible Builds for Maven Central Repository
 | org.apache.jackrabbit.vault | [jackrabbit-filevault](../content/org/apache/jackrabbit/filevault/README.md) | 17 | 9 :white_check_mark: / 8 :warning: |
 | org.apache.jackrabbit | [filevault-package-maven-plugin](../content/org/apache/jackrabbit/filevault-package-maven-plugin/README.md) | 9 | 9 :white_check_mark: |
 | | [jackrabbit-parent](../content/org/apache/jackrabbit/jackrabbit/README.md) | 19 | 8 :white_check_mark: / 11 :warning: |
-| | [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | 14 | 14 :warning: |
+| | [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | 15 | 1 :white_check_mark: / 14 :warning: |
 | org.apache.jena | [jena](../content/org/apache/jena/jena/README.md) | 13 | 13 :warning: |
 | org.apache.karaf | [cellar](../content/org/apache/karaf/cellar/README.md) | 1 | 1 :warning: |
 | | [decanter](../content/org/apache/karaf/decanter/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
@@ -802,7 +802,7 @@ Reproducible Builds for Maven Central Repository
 | org.hibernate.orm | [hibernate-core](../content/org/hibernate/orm/hibernate-core/README.md) | 24 | 23 :white_check_mark: / 1 :warning: |
 | org.hibernate.reactive | [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | 31 | 31 :white_check_mark: |
 | org.hibernate.search | [hibernate-search](../content/org/hibernate/search/hibernate-search-bom/README.md) | 20 | 18 :white_check_mark: / 2 :warning: |
-| org.hibernate.validator | [hibernate-validator](../content/org/hibernate/validator/hibernate-validator/README.md) | 8 | 7 :white_check_mark: / 1 :warning: |
+| org.hibernate.validator | [hibernate-validator](../content/org/hibernate/validator/hibernate-validator/README.md) | 9 | 7 :white_check_mark: / 2 :warning: |
 | org.infinispan.protostream | [protostream](../content/org/infinispan/protostream/README.md) | 25 | 18 :white_check_mark: / 7 :warning: |
 | org.itsallcode | [junit5-system-extensions](../content/org/itsallcode/junit5-system-extensions/README.md) | 1 | 1 :white_check_mark: |
 | org.itsallcode.openfasttrace | [openfasttrace](../content/org/itsallcode/openfasttrace/README.md) | 4 | 4 :warning: |
@@ -936,7 +936,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 8 | 8 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 44 | 43 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 21 | 3 :white_check_mark: / 18 :warning: |
-| **Count:** | **922** | **9086** | **6622** :white_check_mark:<br>**2464** :warning: |
+| **Count:** | **922** | **9088** | **6623** :white_check_mark:<br>**2465** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1014,12 +1014,12 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.10  17
       1 mvn-3.9.10  21
      33 mvn-3.9.11   8
-     35 mvn-3.9.11  11
+     36 mvn-3.9.11  11
      88 mvn-3.9.11  17
     156 mvn-3.9.11  21
       5 mvn-3.9.11  22
       3 mvn-3.9.11  24
-      9 mvn-3.9.11  25
+     10 mvn-3.9.11  25
      36 mvn-3.9.2   8
      19 mvn-3.9.2  17
       5 mvn-3.9.2  21

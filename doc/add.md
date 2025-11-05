@@ -4,6 +4,11 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20251105165803 --> [github-client](../content/com/spotify/github-client/README.md) | [0.4.12](../content/com/spotify/github-client/github-client-0.4.12.buildspec) :white_check_mark: | [0.4.13](../content/com/spotify/github-client/github-client-0.4.13.buildspec) | `bin/add-new-release.sh content/com/spotify/github-client/github-client-0.4.12.buildspec 0.4.13` |
+| <!-- 20251105160740 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [11.2.2-beta-10](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.2-beta-10.buildspec) :white_check_mark: | [11.2.2-beta-11](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.2-beta-11.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.2-beta-10.buildspec 11.2.2-beta-11` |
+| <!-- 20251105122046 --> [units-catalog](../content/com/cognite/units/units-catalog/README.md) | [0.1.23](../content/com/cognite/units/units-catalog/units-catalog-0.1.23.buildspec) :white_check_mark: | [0.1.24](../content/com/cognite/units/units-catalog/units-catalog-0.1.24.buildspec) | `bin/add-new-release.sh content/com/cognite/units/units-catalog/units-catalog-0.1.23.buildspec 0.1.24` |
+| <!-- 20251105100138 --> [airbase](../content/io/airlift/airbase/README.md) | [324](../content/io/airlift/airbase/airbase-324.buildspec) :white_check_mark: | [325](../content/io/airlift/airbase/airbase-325.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-324.buildspec 325` |
+| <!-- 20251105062742 --> [jdbi3-root](../content/org/jdbi/README.md) | [3.49.6](../content/org/jdbi/jdbi3-root-3.49.6.buildspec) :white_check_mark: | [3.50.0](../content/org/jdbi/jdbi3-root-3.50.0.buildspec) | `bin/add-new-release.sh content/org/jdbi/jdbi3-root-3.49.6.buildspec 3.50.0` |
 | <!-- 20251104145254 --> [wss4j](../content/org/apache/wss4j/README.md) | [4.0.1](../content/org/apache/wss4j/wss4j-4.0.1.buildspec) :white_check_mark: | 3.0.5  | `bin/add-new-release.sh content/org/apache/wss4j/wss4j-4.0.1.buildspec ...` |
 | <!-- 20251031175619 --> [junit-bom](../content/org/junit/junit5/README.md) | [6.0.0-RC3](../content/org/junit/junit5/junit5-6.0.0-RC3.buildspec) :white_check_mark: | [6.0.1](../content/org/junit/junit5/junit5-6.0.1.buildspec) | `bin/add-new-release.sh content/org/junit/junit5/junit5-6.0.0-RC3.buildspec 6.0.1` |
 | <!-- 20251031175619 --> [junit-bom](../content/org/junit/junit5/README.md) | [6.0.0-RC3](../content/org/junit/junit5/junit5-6.0.0-RC3.buildspec) :white_check_mark: | 6.0.0  | `bin/add-new-release.sh content/org/junit/junit5/junit5-6.0.0-RC3.buildspec ...` |
@@ -24,6 +29,7 @@ New Releases To Add
 ### Unexpected Diffoscope in Buildspec
 `buildcompare` says `ko=0` but `buildspec` configures a `diffoscope` value in following releases:
 <!-- BEGIN GENERATED UNEXPECTED DIFFOSCOPE -->
+      content/org/apache/jackrabbit/oak/jackrabbit-oak-1.88.0.buildspec
 <!-- END GENERATED UNEXPECTED DIFFOSCOPE -->
 
 ### Missing Diffoscope in Buildspec
@@ -36,9 +42,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD STAGING -->
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
-| <!-- 20251102161720 --> [:mailbox:](https://lists.apache.org/list?dev@camel.apache.org:lte=1M:VOTE) | [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.16.0](../content/org/apache/camel/camel/camel-4.16.0.buildspec)  | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.16.0 staging` |
 | <!-- 20251031142821 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-release-plugin](../content/org/apache/maven/plugins/maven-release-plugin/README.md) | [3.1.1](../content/org/apache/maven/plugins/maven-release-plugin/maven-release-plugin-3.1.1.buildspec) :white_check_mark: | [3.2.0](../content/org/apache/maven/plugins/maven-release-plugin/maven-release-plugin-3.2.0.buildspec)  | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-release-plugin/maven-release-plugin-3.1.1.buildspec 3.2.0 staging` |
-| <!-- 20250707172817 --> [:mailbox:](https://lists.apache.org/list?dev@shiro.apache.org:lte=1M:VOTE) | [shiro-root](../content/org/apache/shiro/README.md) | [2.0.5](../content/org/apache/shiro/shiro-2.0.5.buildspec) :warning: | [2.0.6](../content/org/apache/shiro/shiro-2.0.6.buildspec)  | `bin/add-new-release.sh content/org/apache/shiro/shiro-2.0.5.buildspec 2.0.6 staging` |
 | <!-- 20250624153428 --> [:mailbox:](https://lists.apache.org/list?dev@ratis.apache.org:lte=1M:VOTE) | [ratis](../content/org/apache/ratis/README.md) | [3.2.0](../content/org/apache/ratis/ratis-3.2.0.buildspec) :white_check_mark: | [3.2.1](../content/org/apache/ratis/ratis-3.2.1.buildspec)  | `bin/add-new-release.sh content/org/apache/ratis/ratis-3.2.0.buildspec 3.2.1 staging` |
 | <!-- 20250624093706 --> [:mailbox:](https://lists.apache.org/list?dev@paimon.apache.org:lte=1M:VOTE) | [paimon-parent](../content/org/apache/paimon/README.md) | [1.2.0](../content/org/apache/paimon/paimon-parent-1.2.0.buildspec) :white_check_mark: | [1.3.0](../content/org/apache/paimon/paimon-parent-1.3.0.buildspec)  | `bin/add-new-release.sh content/org/apache/paimon/paimon-parent-1.2.0.buildspec 1.3.0 staging` |
 | <!-- 20250617020642 --> [:mailbox:](https://lists.apache.org/list?dev@dubbo.apache.org:lte=1M:VOTE) | [dubbo](../content/org/apache/dubbo/README.md) | [3.3.5](../content/org/apache/dubbo/dubbo-3.3.5.buildspec) :white_check_mark: | [3.3.6](../content/org/apache/dubbo/dubbo-3.3.6.buildspec)  | `bin/add-new-release.sh content/org/apache/dubbo/dubbo-3.3.5.buildspec 3.3.6 staging` |
@@ -51,12 +55,12 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20251104110407 --> [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | [1.86.0](../content/org/apache/jackrabbit/oak/jackrabbit-oak-1.86.0.buildspec) :warning: [:memo:](https://issues.apache.org/jira/browse/OAK-10662) | [1.88.0](../content/org/apache/jackrabbit/oak/jackrabbit-oak-1.88.0.buildspec) | `bin/add-new-release.sh content/org/apache/jackrabbit/oak/jackrabbit-oak-1.86.0.buildspec 1.88.0` |
+| <!-- 20251105161211 --> [quarkus-project](../content/io/quarkus/README.md) | [3.29.0](../content/io/quarkus/quarkus-3.29.0.buildspec) :warning: | [3.29.1](../content/io/quarkus/quarkus-3.29.1.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.29.0.buildspec 3.29.1` |
+| <!-- 20251105125853 --> [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.16.0](../content/org/apache/camel/camel/camel-4.16.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.16.0` |
+| <!-- 20251105083054 --> [shiro-root](../content/org/apache/shiro/README.md) | [2.0.5](../content/org/apache/shiro/shiro-2.0.5.buildspec) :warning: | [2.0.6](../content/org/apache/shiro/shiro-2.0.6.buildspec) | `bin/add-new-release.sh content/org/apache/shiro/shiro-2.0.5.buildspec 2.0.6` |
 | <!-- 20251104094535 --> [plotsquared-bukkit](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/README.md) | [7.5.4](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.4.buildspec) :x: | [7.5.9](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.9.buildspec) | `bin/add-new-release.sh content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.4.buildspec 7.5.9` |
-| <!-- 20251102161720 --> [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.15.0](../content/org/apache/camel/camel/camel-4.15.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.15.0` |
 | <!-- 20251101133744 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.107.0](../content/org/finos/legend/engine/legend-engine-4.107.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.107.0` |
 | <!-- 20251031211532 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.30.1](../content/org/webjars/swagger-ui/swagger-ui-5.30.1.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.30.1` |
-| <!-- 20251029192734 --> [hibernate-validator](../content/org/hibernate/validator/hibernate-validator/README.md) | [9.1.0.Beta1](../content/org/hibernate/validator/hibernate-validator/hibernate-validator-9.1.0.Beta1.buildspec) :warning: | [9.1.0.CR1](../content/org/hibernate/validator/hibernate-validator/hibernate-validator-9.1.0.CR1.buildspec) | `bin/add-new-release.sh content/org/hibernate/validator/hibernate-validator/hibernate-validator-9.1.0.Beta1.buildspec 9.1.0.CR1` |
 | <!-- 20251029184038 --> [trino-root](../content/io/trino/README.md) | [477](../content/io/trino/trino-477.buildspec) :warning: | [478](../content/io/trino/trino-478.buildspec) | `bin/add-new-release.sh content/io/trino/trino-477.buildspec 478` |
 | <!-- 20251027042937 --> [avaje-config](../content/io/avaje/config/README.md) | [4.2-RC2](../content/io/avaje/config/avaje-config-4.2-RC2.buildspec) :warning: | [4.2](../content/io/avaje/config/avaje-config-4.2.buildspec) | `bin/add-new-release.sh content/io/avaje/config/avaje-config-4.2-RC2.buildspec 4.2` |
 | <!-- 20251023093328 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.1.0](../content/com/taobao/arthas/arthas-4.1.0.buildspec) :warning: [:memo:](https://github.com/alibaba/arthas/pull/3001) | [4.1.1](../content/com/taobao/arthas/arthas-4.1.1.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.1.0.buildspec 4.1.1` |
@@ -81,6 +85,7 @@ New Releases To Add
 | <!-- 20251031091938 --> [jreleaser](../content/org/jreleaser/README.md) | 1.21.0 :warning: |
 | <!-- 20251030170330 --> [sdk-parent](../content/com/sap/ai/sdk/README.md) | 1.13.0 :warning: |
 | <!-- 20251029202934 --> [turnstile-siteverify-client](../content/net/osslabz/turnstile-siteverify-client/README.md) | 0.4.1 :warning: |
+| <!-- 20251029192734 --> [hibernate-validator](../content/org/hibernate/validator/hibernate-validator/README.md) | 9.1.0.CR1 :warning: |
 | <!-- 20251029102534 --> [evm-abi-decoder](../content/net/osslabz/evm-abi-decode/README.md) | 0.1.1 :warning: |
 | <!-- 20251025202703 --> [xml-maven-plugin](../content/org/codehaus/mojo/xml-maven-plugin/README.md) | 1.2.0 :warning: [:memo:](https://github.com/mojohaus/xml-maven-plugin/issues/155) |
 | <!-- 20251025202658 --> [spotbugs-maven-plugin](../content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 4.9.8.1 :warning: [:memo:](https://github.com/spotbugs/spotbugs-maven-plugin/issues/1148) |
@@ -94,7 +99,6 @@ New Releases To Add
 | <!-- 20251023125133 --> [jpmml-python](../content/org/jpmml/jpmml-python/README.md) | 1.3.9 :warning: |
 | <!-- 20251023113928 --> [jpmml-h2o](../content/org/jpmml/jpmml-h2o/README.md) | 1.3.2 :warning: |
 | <!-- 20251023111933 --> [jpmml-xgboost](../content/org/jpmml/jpmml-xgboost/README.md) | 1.9.3 :warning: |
-| <!-- 20251022142826 --> [quarkus-project](../content/io/quarkus/README.md) | 3.29.0 :warning: |
 | <!-- 20251021224136 --> [avaje-http-parent](../content/io/avaje/http/README.md) | 3.5 :warning: [:memo:](https://github.com/avaje/avaje-http/issues/650) |
 | <!-- 20251020104455 --> [jpmml-transpiler](../content/org/jpmml/jpmml-transpiler/README.md) | 1.4.6 :warning: |
 | <!-- 20251020095910 --> [jpmml-lightgbm](../content/org/jpmml/jpmml-lightgbm/README.md) | 1.6.2 :warning: |
@@ -139,7 +143,6 @@ New Releases To Add
 | <!-- 20250715144131 --> [parent](../content/org/phoebus/README.md) | 5.0.2 :warning: |
 | <!-- 20250711185310 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/mybatis-spring-boot/README.md) | 3.0.5 :warning: |
 | <!-- 20250711185310 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 3.0.5 :warning: |
-| <!-- 20250707172817 --> [shiro-root](../content/org/apache/shiro/README.md) | 2.0.5 :warning: |
 | <!-- 20250707085541 --> [java-sql-parent](../content/com/github/nbbrd/java-sql-util/README.md) | 1.0.7 :warning: |
 | <!-- 20250702142639 --> [rainbowgum-maven-parent](../content/io/jstach/rainbowgum/README.md) | 0.8.2 :warning: |
 | <!-- 20250628075449 --> [drill-root](../content/org/apache/drill/README.md) | 1.22.0 :warning: |
