@@ -1,0 +1,25 @@
+name: Manual Update Add page
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  update-project-reports:
+    if: github.repository == 'jvm-repo-rebuild/reproducible-central'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update Project Reports (no metadata update)
+        run: ./bin/update-reproducibility-summary.sh
+
+      - name: Commit Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --local user.email "reproducible-central@github.io"
+          git config --local user.name "Reproducible Central CI"
+          git add -A
+          git commit -m "manual update of content"
+          git push
