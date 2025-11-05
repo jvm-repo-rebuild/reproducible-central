@@ -1,12 +1,6 @@
 content/ch/qos/logback/access/access-2.0.6.buildspec:2.0.7
 content/dk/mada/style/mada-style-gradle/mada-style-gradle-1.1.6.buildspec:1.20
-content/eu/maveniverse/maven/toolbox/toolbox-0.14.3.buildspec:0.14.4
-content/io/jooby/jooby-4.0.10.buildspec:4.0.11
 content/io/avaje/config-toml/avaje-config-toml-4.2-RC2.buildspec:4.2
-content/io/avaje/inject/avaje-inject-12.0-javax.buildspec:12.1-RC1
 content/io/avaje/jex/avaje-jex-3.3-RC5.buildspec:3.3
 content/io/cucumber/ci-environment/ci-environment-11.0.0.buildspec:12.0.0
-content/org/apache/wss4j/wss4j-4.0.0.buildspec:4.0.1
 content/org/junit/junit5/junit5-6.0.0-RC3.buildspec:6.0.1
-content/org/metricshub/community-connectors/community-connectors-1.0.14.buildspec:1.0.15
-content/org/metricshub/jawk/jawk-4.1.00.buildspec:5.0.00
