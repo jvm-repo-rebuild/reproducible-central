@@ -7,8 +7,8 @@
 
 Source code: [https://github.com/hazendaz/htmlcompressor-maven-plugin.git](https://github.com/hazendaz/htmlcompressor-maven-plugin.git)
 
-rebuilding **17 releases** of com.github.hazendaz.maven:htmlcompressor-maven-plugin:
-- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **18 releases** of com.github.hazendaz.maven:htmlcompressor-maven-plugin:
+- **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
@@ -22,7 +22,7 @@ rebuilding **17 releases** of com.github.hazendaz.maven:htmlcompressor-maven-plu
 | [2.0.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/htmlcompressor-maven-plugin/2.0.0/pom) | [mvn jdk21 w](htmlcompressor-maven-plugin-2.0.0.buildspec) | [result](htmlcompressor-maven-plugin-2.0.0.buildinfo): [5 :white_check_mark: ](htmlcompressor-maven-plugin-2.0.0.buildcompare) | | 98K |
 | [1.12.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/htmlcompressor-maven-plugin/1.12.0/pom) | | | |
 | [1.11.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/htmlcompressor-maven-plugin/1.11.0/pom) | [mvn jdk21 w](htmlcompressor-maven-plugin-1.11.0.buildspec) | [result](htmlcompressor-maven-plugin-1.11.0.buildinfo): [7 :white_check_mark: ](htmlcompressor-maven-plugin-1.11.0.buildcompare) | | 246K |
-| [1.10.2](https://central.sonatype.com/artifact/com.github.hazendaz.maven/htmlcompressor-maven-plugin/1.10.2/pom) | | | |
+| [1.10.2](https://central.sonatype.com/artifact/com.github.hazendaz.maven/htmlcompressor-maven-plugin/1.10.2/pom) | [mvn jdk21 w](htmlcompressor-maven-plugin-1.10.2.buildspec) | [result](htmlcompressor-maven-plugin-1.10.2.buildinfo): [7 :white_check_mark: ](htmlcompressor-maven-plugin-1.10.2.buildcompare) | | 246K |
 | [1.10.1](https://central.sonatype.com/artifact/com.github.hazendaz.maven/htmlcompressor-maven-plugin/1.10.1/pom) | [mvn jdk21 w](htmlcompressor-maven-plugin-1.10.1.buildspec) | [result](htmlcompressor-maven-plugin-1.10.1.buildinfo): [7 :white_check_mark: ](htmlcompressor-maven-plugin-1.10.1.buildcompare) | | 249K |
 | [1.10.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/htmlcompressor-maven-plugin/1.10.0/pom) | [mvn jdk22 w](htmlcompressor-maven-plugin-1.10.0.buildspec) | [result](htmlcompressor-maven-plugin-1.10.0.buildinfo): [7 :white_check_mark: ](htmlcompressor-maven-plugin-1.10.0.buildcompare) | | 244K |
 | [1.9.4](https://central.sonatype.com/artifact/com.github.hazendaz.maven/htmlcompressor-maven-plugin/1.9.4/pom) | [mvn jdk22 w](htmlcompressor-maven-plugin-1.9.4.buildspec) | [result](htmlcompressor-maven-plugin-1.9.4.buildinfo): [7 :white_check_mark: ](htmlcompressor-maven-plugin-1.9.4.buildcompare) | | 243K |
