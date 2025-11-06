@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/spotify/github-java-client.git](https://github.com/spotify/github-java-client.git)
 
-rebuilding **60 releases** of com.spotify:github-client:
-- **59** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **61 releases** of com.spotify:github-client:
+- **60** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.4.14](https://central.sonatype.com/artifact/com.spotify/github-client/0.4.14/pom) | | | |
+| [0.4.14](https://central.sonatype.com/artifact/com.spotify/github-client/0.4.14/pom) | [mvn jdk11](github-client-0.4.14.buildspec) | [result](github-client-0.4.14.buildinfo): [3 :white_check_mark: ](github-client-0.4.14.buildcompare) | | 1.9M |
 | [0.4.13](https://central.sonatype.com/artifact/com.spotify/github-client/0.4.13/pom) | [mvn jdk11](github-client-0.4.13.buildspec) | [result](github-client-0.4.13.buildinfo): [3 :white_check_mark: ](github-client-0.4.13.buildcompare) | | 1.9M |
 | [0.4.12](https://central.sonatype.com/artifact/com.spotify/github-client/0.4.12/pom) | [mvn jdk11](github-client-0.4.12.buildspec) | [result](github-client-0.4.12.buildinfo): [3 :white_check_mark: ](github-client-0.4.12.buildcompare) | | 1.9M |
 | [0.4.11](https://central.sonatype.com/artifact/com.spotify/github-client/0.4.11/pom) | [mvn jdk11](github-client-0.4.11.buildspec) | [result](github-client-0.4.11.buildinfo): [3 :white_check_mark: ](github-client-0.4.11.buildcompare) | | 1.9M |
