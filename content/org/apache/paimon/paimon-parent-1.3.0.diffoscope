@@ -1,0 +1,30 @@
+1 / 3 target/reference/org.apache.paimon/paimon-core-1.3.0-sources.jar paimon-core/target/paimon-core-1.3.0-sources.jar
+--- target/reference/org.apache.paimon/paimon-core-1.3.0-sources.jar
++++ paimon-core/target/paimon-core-1.3.0-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1179400 bytes, number of entries: 765
+│ +Zip file size: 1173511 bytes, number of entries: 761
+│  -rw-r--r--  2.0 unx       64 b- defN 25-Oct-31 05:46 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Oct-31 05:46 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Oct-31 05:46 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Oct-31 05:46 org/apache/
+│ @@ -232,18 +232,14 @@
+│  -rw-r--r--  2.0 unx    17110 b- defN 25-Oct-31 05:46 org/apache/paimon/io/KeyValueFileWriterFactory.java
+│  -rw-r--r--  2.0 unx     3951 b- defN 25-Oct-31 05:46 org/apache/paimon/io/KeyValueThinDataFileWriterImpl.java
+│ --rw-r--r--  2.0 unx     1291 b- defN 25-Oct-31 05:46 org/apache/paimon/io/LRUCache$1.class
+│ --rw-r--r--  2.0 unx     1265 b- defN 25-Oct-31 05:46 org/apache/paimon/io/LRUCache$LRUList.class
+│ --rw-r--r--  2.0 unx     1332 b- defN 25-Oct-31 05:46 org/apache/paimon/io/LRUCache$Node.class
+│ --rw-r--r--  2.0 unx     6872 b- defN 25-Oct-31 05:46 org/apache/paimon/io/LRUCache.class
+│  -rw-r--r--  2.0 unx    15850 b- defN 25-Oct-31 05:46 org/apache/paimon/io/PojoDataFileMeta.java
+│  -rw-r--r--  2.0 unx     8956 b- defN 25-Oct-31 05:46 org/apache/paimon/io/RecordLevelExpire.java
+│ @@ -760,8 +756,8 @@
+│  -rw-r--r--  2.0 unx     2631 b- defN 25-Oct-31 05:46 META-INF/services/org.apache.paimon.factories.Factory
+│  -rw-r--r--  2.0 unx    10133 b- defN 25-Oct-31 05:46 META-INF/maven/org.apache.paimon/paimon-core/pom.xml
+│  -rw-r--r--  2.0 unx       63 b- defN 25-Oct-31 05:46 META-INF/maven/org.apache.paimon/paimon-core/pom.properties
+│ -765 files, 3752892 bytes uncompressed, 1043342 bytes compressed:  72.2%
+│ +761 files, 3742132 bytes uncompressed, 1038067 bytes compressed:  72.3%
+
+# same strange 4 LRUCache .class files in sources
+2 / 3 target/reference/org.apache.paimon/paimon-bundle-1.3.0-sources.jar paimon-bundle/target/paimon-bundle-1.3.0-sources.jar
+3 / 3 target/reference/org.apache.paimon/paimon-bundle-1.3.0-sources.jar paimon-bundle/target/paimon-bundle-1.3.0-sources.jar
