@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/codehaus-plexus/plexus-i18n.git](https://github.com/codehaus-plexus/plexus-i18n.git)
 
-rebuilding **1 releases** of org.codehaus.plexus:plexus-i18n:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of org.codehaus.plexus:plexus-i18n:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.1.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-i18n/1.1.0/pom) | | | |
+| [1.1.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-i18n/1.1.0/pom) | [mvn jdk25](plexus-i18n-1.1.0.buildspec) | [result](plexus-i18n-1.1.0.buildinfo): [4 :white_check_mark: ](plexus-i18n-1.1.0.buildcompare) | | 43K |
 | [1.0.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-i18n/1.0.0/pom) | [mvn jdk25](plexus-i18n-1.0.0.buildspec) | [result](plexus-i18n-1.0.0.buildinfo): [4 :white_check_mark: ](plexus-i18n-1.0.0.buildcompare) | | 43K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
