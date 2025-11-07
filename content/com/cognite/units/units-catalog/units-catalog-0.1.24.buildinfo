@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.cognite.units:units-catalog
+group-id=com.cognite.units
+artifact-id=units-catalog
+version=0.1.24
+
+# source information
+source.scm.uri=scm:git:git://github.com/cognitedata/units-catalog.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.cognite.units
+outputs.0.filename=units-catalog-0.1.24.pom
+outputs.0.length=9513
+outputs.0.checksums.sha512=ea2b288854e9ddb6f3f2d114762fdf5fc94cc9d10f1c091c3e56f3df3df593be5f9684800cd9fc343e555fd8bf911235030cccc85dcaead52c3cc67d121bb2fc
+
+outputs.1.groupId=com.cognite.units
+outputs.1.filename=units-catalog-0.1.24.jar
+outputs.1.length=65027
+outputs.1.checksums.sha512=11d0fa75fa78f20b70eb252c05907b81fad81d4d4e610a9b83f1b86d6204446cd7467bc5a3d17177a3ce9a6127322c98ca3db99460610ac0b2ccf735e142f1c8
+
+outputs.2.groupId=com.cognite.units
+outputs.2.filename=units-catalog-0.1.24-sources.jar
+outputs.2.length=44658
+outputs.2.checksums.sha512=36524b11988e6b1078896cbdad172238ffdfad1fcd0edf58830886cd9f6156c126ac4313c712de16909740c1052487df91bd59a44d5c0c792dad9c0a09bb1a7f
