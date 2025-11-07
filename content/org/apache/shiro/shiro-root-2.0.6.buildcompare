@@ -1,0 +1,16 @@
+version=2.0.6
+ok=99
+ko=1
+ignored=0
+okFiles="shiro-root-2.0.6.pom shiro-root-2.0.6-source-release.zip shiro-lang-2.0.6.pom shiro-lang-2.0.6.jar shiro-lang-2.0.6-sources.jar shiro-crypto-2.0.6.pom shiro-crypto-core-2.0.6.pom shiro-crypto-core-2.0.6.jar shiro-crypto-core-2.0.6-sources.jar shiro-crypto-hash-2.0.6.pom shiro-crypto-hash-2.0.6.jar shiro-crypto-hash-2.0.6-sources.jar shiro-crypto-cipher-2.0.6.pom shiro-crypto-cipher-2.0.6.jar shiro-crypto-cipher-2.0.6-sources.jar shiro-crypto-cipher-2.0.6-jakarta.jar shiro-crypto-support-2.0.6.pom shiro-hashes-argon2-2.0.6.pom shiro-hashes-argon2-2.0.6.jar shiro-hashes-argon2-2.0.6-sources.jar shiro-hashes-bcrypt-2.0.6.pom shiro-hashes-bcrypt-2.0.6.jar shiro-hashes-bcrypt-2.0.6-sources.jar shiro-event-2.0.6.pom shiro-event-2.0.6.jar shiro-event-2.0.6-sources.jar shiro-cache-2.0.6.pom shiro-cache-2.0.6.jar shiro-cache-2.0.6-sources.jar shiro-config-2.0.6.pom shiro-config-core-2.0.6.pom shiro-config-core-2.0.6.jar shiro-config-core-2.0.6-sources.jar shiro-config-ogdl-2.0.6.pom shiro-config-ogdl-2.0.6.jar shiro-config-ogdl-2.0.6-sources.jar shiro-core-2.0.6.pom shiro-core-2.0.6.jar shiro-core-2.0.6-sources.jar shiro-core-2.0.6-jakarta.jar shiro-web-2.0.6.pom shiro-web-2.0.6.jar shiro-web-2.0.6-sources.jar shiro-web-2.0.6-jakarta.jar shiro-support-2.0.6.pom shiro-aspectj-2.0.6.pom shiro-aspectj-2.0.6-sources.jar shiro-jcache-2.0.6.pom shiro-jcache-2.0.6.jar shiro-jcache-2.0.6-sources.jar shiro-ehcache-2.0.6.pom shiro-ehcache-2.0.6.jar shiro-ehcache-2.0.6-sources.jar shiro-hazelcast-2.0.6.pom shiro-hazelcast-2.0.6.jar shiro-hazelcast-2.0.6-sources.jar shiro-quartz-2.0.6.pom shiro-quartz-2.0.6.jar shiro-quartz-2.0.6-sources.jar shiro-spring-2.0.6.pom shiro-spring-2.0.6.jar shiro-spring-2.0.6-sources.jar shiro-spring-2.0.6-jakarta.jar shiro-guice-2.0.6.pom shiro-guice-2.0.6.jar shiro-guice-2.0.6-sources.jar shiro-guice-2.0.6-jakarta.jar shiro-spring-boot-2.0.6.pom shiro-spring-boot-starter-2.0.6.pom shiro-spring-boot-starter-2.0.6.jar shiro-spring-boot-starter-2.0.6-sources.jar shiro-spring-boot-starter-2.0.6-jakarta.jar shiro-spring-boot-web-starter-2.0.6.pom shiro-spring-boot-web-starter-2.0.6.jar shiro-spring-boot-web-starter-2.0.6-sources.jar shiro-spring-boot-web-starter-2.0.6-jakarta.jar shiro-servlet-plugin-2.0.6.pom shiro-servlet-plugin-2.0.6.jar shiro-servlet-plugin-2.0.6-sources.jar shiro-jaxrs-2.0.6.pom shiro-jaxrs-2.0.6.jar shiro-jaxrs-2.0.6-sources.jar shiro-jaxrs-2.0.6-jakarta.jar shiro-features-2.0.6.pom shiro-features-2.0.6-features.xml shiro-cdi-2.0.6.pom shiro-cdi-2.0.6.jar shiro-cdi-2.0.6-jakarta.jar shiro-cdi-2.0.6-sources.jar shiro-jakarta-ee-2.0.6.pom shiro-jakarta-ee-2.0.6.jar shiro-jakarta-ee-2.0.6-jakarta.jar shiro-jakarta-ee-2.0.6-sources.jar shiro-tools-2.0.6.pom shiro-tools-hasher-2.0.6.pom shiro-tools-hasher-2.0.6.jar shiro-tools-hasher-2.0.6-sources.jar shiro-tools-hasher-2.0.6-cli.jar shiro-bom-2.0.6.pom"
+koFiles="shiro-aspectj-2.0.6.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.shiro/shiro-aspectj-2.0.6.jar support/aspectj/target/shiro-aspectj-2.0.6.jar
+stabilize_ok=0
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="shiro-aspectj-2.0.6.jar.stabilized"
+stabilize_ignoredFiles=""
