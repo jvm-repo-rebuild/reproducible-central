@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Cucumber CiEnvironment
+group-id=io.cucumber
+artifact-id=ci-environment
+version=12.0.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/ci-environment.git
+source.scm.tag=v12.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.8.0-87-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=io.cucumber
+outputs.0.filename=ci-environment-12.0.0.pom
+outputs.0.length=7321
+outputs.0.checksums.sha512=9a493aa22f8b9216cd04fe1e722cde3ea20bb275fb8a7a1894f0195c28a424e49b75d8593fc5059d5e5f9b0ea46b134197e17dc3e79f01ef133e1dce8ad54be1
+
+outputs.1.groupId=io.cucumber
+outputs.1.filename=ci-environment-12.0.0.jar
+outputs.1.length=14579
+outputs.1.checksums.sha512=38a2c708010bb46a37126371b8b68fc316f5b96f503209ca179d9c29cff98a3702f46117bd392c27504748523024e76c14c0efb12f11f9bc52eaa5c8f0c79a23
+
+outputs.2.groupId=io.cucumber
+outputs.2.filename=ci-environment-12.0.0-sources.jar
+outputs.2.length=8562
+outputs.2.checksums.sha512=8cf515fd2d233cbd5a4a38b6d9bd1d864626bd4476b33015d2802bd046ee3f65df6b97f27b461d795b9e94f0d0cc73217f92c091e818fa3d55d85f9189558c4f
