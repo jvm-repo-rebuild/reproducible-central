@@ -1,0 +1,16 @@
+groupId=io.wcm
+artifactId=io.wcm.wcm.commons
+display=${groupId}:*.wcm.commons
+version=1.11.2
+
+gitRepo=https://github.com/wcm-io/${artifactId}.git
+gitTag=${version}
+
+tool=mvn-3.9.6
+jdk=21
+newline=crlf-nogit
+
+buildNumber=bf5b69e0
+timestamp=2025-11-07T18:53:44+01:00
+command="mvn -Pio.wcm clean package -DskipTests -Dmaven.buildNumber.skip -DbuildNumber=${buildNumber} -Dtimestamp=${timestamp}"
+buildinfo=target/${artifactId}-${version}.buildinfo
