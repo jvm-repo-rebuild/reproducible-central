@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.codehaus.plexus:plexus-i18n:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.1.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-i18n/1.1.0/pom) | | | |
 | [1.0.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-i18n/1.0.0/pom) | [mvn jdk25](plexus-i18n-1.0.0.buildspec) | [result](plexus-i18n-1.0.0.buildinfo): [4 :white_check_mark: ](plexus-i18n-1.0.0.buildcompare) | | 43K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

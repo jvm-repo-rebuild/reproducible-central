@@ -13,6 +13,7 @@ rebuilding **6 releases** of io.wcm:io.wcm.wcm.commons:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.11.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.commons/1.11.2/pom) | | | |
 | [1.11.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.commons/1.11.0/pom) | [mvn jdk17 w](wcm-commons-1.11.0.buildspec) | [result](io.wcm.wcm.commons-1.11.0.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.wcm.commons-1.11.0.buildcompare) | - | 202K |
 | [1.10.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.commons/1.10.0/pom) | [mvn jdk11 w](wcm-commons-1.10.0.buildspec) | [result](io.wcm.wcm.commons-1.10.0.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.wcm.commons-1.10.0.buildcompare) | - | 191K |
 | [1.9.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.commons/1.9.0/pom) | [mvn jdk11 w](wcm-commons-1.9.0.buildspec) | [result](io.wcm.wcm.commons-1.9.0.buildinfo): [3 :white_check_mark:  2 :warning:](io.wcm.wcm.commons-1.9.0.buildcompare) [:mag:](io.wcm.wcm.commons-1.9.0.diffoscope) | - | 189K |
