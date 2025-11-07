@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/apache/commons-io.git](https://github.com/apache/commons-io.git)
 
-rebuilding **6 releases** of commons-io:commons-io:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **7 releases** of commons-io:commons-io:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [20030203.000550](https://central.sonatype.com/artifact/commons-io/commons-io/20030203.000550/pom) | | | |
-| [2.21.0](https://central.sonatype.com/artifact/commons-io/commons-io/2.21.0/pom) | | | |
+| [2.21.0](https://central.sonatype.com/artifact/commons-io/commons-io/2.21.0/pom) | [mvn jdk21](commons-io-2.21.0.buildspec) | [result](commons-io-2.21.0.buildinfo): [7 :white_check_mark: ](commons-io-2.21.0.buildcompare) | | 2.7M |
 | [2.20.0](https://central.sonatype.com/artifact/commons-io/commons-io/2.20.0/pom) | [mvn jdk21](commons-io-2.20.0.buildspec) | [result](commons-io-2.20.0.buildinfo): [7 :white_check_mark: ](commons-io-2.20.0.buildcompare) | | 2.6M |
 | [2.19.0](https://central.sonatype.com/artifact/commons-io/commons-io/2.19.0/pom) | [mvn jdk21](commons-io-2.19.0.buildspec) | [result](commons-io-2.19.0.buildinfo): [7 :white_check_mark: ](commons-io-2.19.0.buildcompare) | | 2.5M |
 | [2.18.0](https://central.sonatype.com/artifact/commons-io/commons-io/2.18.0/pom) | [mvn jdk17](commons-io-2.18.0.buildspec) | [result](commons-io-2.18.0.buildinfo): [7 :white_check_mark: ](commons-io-2.18.0.buildcompare) | | 2.6M |
