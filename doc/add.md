@@ -4,15 +4,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20251106200421 --> [fusion](../content/io/yupiik/fusion/README.md) | [1.0.30](../content/io/yupiik/fusion/fusion-1.0.30.buildspec) :white_check_mark: | [1.0.31](../content/io/yupiik/fusion/fusion-1.0.31.buildspec) | `bin/add-new-release.sh content/io/yupiik/fusion/fusion-1.0.30.buildspec 1.0.31` |
-| <!-- 20251106195951 --> [gherkin](../content/io/cucumber/gherkin/README.md) | [36.0.0](../content/io/cucumber/gherkin/gherkin-36.0.0.buildspec) :white_check_mark: | [36.1.0](../content/io/cucumber/gherkin/gherkin-36.1.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/gherkin/gherkin-36.0.0.buildspec 36.1.0` |
-| <!-- 20251106195951 --> [gherkin](../content/io/cucumber/gherkin/README.md) | [36.0.0](../content/io/cucumber/gherkin/gherkin-36.0.0.buildspec) :white_check_mark: | 30.1.3  | `bin/add-new-release.sh content/io/cucumber/gherkin/gherkin-36.0.0.buildspec ...` |
-| <!-- 20251106182139 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | [5.9.0](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.9.0.buildspec) :white_check_mark: | [5.10.0](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.10.0.buildspec) | `bin/add-new-release.sh content/io/github/chains-project/maven-lockfile/maven-lockfile-5.9.0.buildspec 5.10.0` |
 | <!-- 20251106174223 --> [hibernate-core](../content/org/hibernate/orm/hibernate-core/README.md) | [7.2.0.CR1](../content/org/hibernate/orm/hibernate-core/hibernate-core-7.2.0.CR1.buildspec) :white_check_mark: | 7.1.7.Final  | `bin/add-new-release.sh content/org/hibernate/orm/hibernate-core/hibernate-core-7.2.0.CR1.buildspec ...` |
-| <!-- 20251106172941 --> [github-client](../content/com/spotify/github-client/README.md) | [0.4.13](../content/com/spotify/github-client/github-client-0.4.13.buildspec) :white_check_mark: | [0.4.14](../content/com/spotify/github-client/github-client-0.4.14.buildspec) | `bin/add-new-release.sh content/com/spotify/github-client/github-client-0.4.13.buildspec 0.4.14` |
-| <!-- 20251106030307 --> [paimon-parent](../content/org/apache/paimon/README.md) | [1.2.0](../content/org/apache/paimon/paimon-parent-1.2.0.buildspec) :white_check_mark: | [1.3.0](../content/org/apache/paimon/paimon-parent-1.3.0.buildspec) | `bin/add-new-release.sh content/org/apache/paimon/paimon-parent-1.2.0.buildspec 1.3.0` |
-| <!-- 20251105202508 --> [commons-codec](../content/org/apache/commons/commons-codec/README.md) | [1.19.0](../content/org/apache/commons/commons-codec/commons-codec-1.19.0.buildspec) :white_check_mark: | [1.20.0](../content/org/apache/commons/commons-codec/commons-codec-1.20.0.buildspec) | `bin/add-new-release.sh content/org/apache/commons/commons-codec/commons-codec-1.19.0.buildspec 1.20.0` |
-| <!-- 20251105122046 --> [units-catalog](../content/com/cognite/units/units-catalog/README.md) | [0.1.23](../content/com/cognite/units/units-catalog/units-catalog-0.1.23.buildspec) :white_check_mark: | [0.1.24](../content/com/cognite/units/units-catalog/units-catalog-0.1.24.buildspec) | `bin/add-new-release.sh content/com/cognite/units/units-catalog/units-catalog-0.1.23.buildspec 0.1.24` |
 | <!-- 20251104145254 --> [wss4j](../content/org/apache/wss4j/README.md) | [4.0.1](../content/org/apache/wss4j/wss4j-4.0.1.buildspec) :white_check_mark: | 3.0.5  | `bin/add-new-release.sh content/org/apache/wss4j/wss4j-4.0.1.buildspec ...` |
 | <!-- 20251031175619 --> [junit-bom](../content/org/junit/junit5/README.md) | [6.0.0-RC3](../content/org/junit/junit5/junit5-6.0.0-RC3.buildspec) :white_check_mark: | [6.0.1](../content/org/junit/junit5/junit5-6.0.1.buildspec) | `bin/add-new-release.sh content/org/junit/junit5/junit5-6.0.0-RC3.buildspec 6.0.1` |
 | <!-- 20251031175619 --> [junit-bom](../content/org/junit/junit5/README.md) | [6.0.0-RC3](../content/org/junit/junit5/junit5-6.0.0-RC3.buildspec) :white_check_mark: | 6.0.0  | `bin/add-new-release.sh content/org/junit/junit5/junit5-6.0.0-RC3.buildspec ...` |
@@ -33,7 +25,6 @@ New Releases To Add
 ### Unexpected Diffoscope in Buildspec
 `buildcompare` says `ko=0` but `buildspec` configures a `diffoscope` value in following releases:
 <!-- BEGIN GENERATED UNEXPECTED DIFFOSCOPE -->
-      content/org/apache/jackrabbit/oak/jackrabbit-oak-1.88.0.buildspec
 <!-- END GENERATED UNEXPECTED DIFFOSCOPE -->
 
 ### Missing Diffoscope in Buildspec
@@ -81,6 +72,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20251106030307 --> [paimon-parent](../content/org/apache/paimon/README.md) | 1.3.0 :warning: [:memo:](https://github.com/apache/paimon/issues/6557) |
 | <!-- 20251105161211 --> [quarkus-project](../content/io/quarkus/README.md) | 3.29.1 :warning: |
 | <!-- 20251103203539 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | 12.1-RC1 :warning: |
 | <!-- 20251103085647 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | 3.2.2 :warning: |
