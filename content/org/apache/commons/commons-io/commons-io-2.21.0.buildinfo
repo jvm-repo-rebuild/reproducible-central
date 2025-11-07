@@ -1,0 +1,63 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons IO
+group-id=commons-io
+artifact-id=commons-io
+version=2.21.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-io.git
+source.scm.tag=rel/commons-io-2.21.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=commons-io
+outputs.0.filename=commons-io-2.21.0.pom
+outputs.0.length=20847
+outputs.0.checksums.sha512=4728a13da04911617a5a3d981c21015f26551e636076d3a5fbaa12524f04ee46b7ec250a662a670688b5699ce92940e49b7ed70999ab3cfdaf4949ec6894449d
+
+outputs.1.groupId=commons-io
+outputs.1.filename=commons-io-2.21.0.jar
+outputs.1.length=585274
+outputs.1.checksums.sha512=7ac1aa4d834cd7cdecaee223a64c63d481810c73dfdb5109f402234a05cadf754e414cead99072f5140d4f7042ee084161935fb28129a631d908d989c5bbac5d
+
+outputs.2.groupId=commons-io
+outputs.2.filename=commons-io-2.21.0-tests.jar
+outputs.2.length=990569
+outputs.2.checksums.sha512=9b2656a9e58f346748989bea3a08af871279a89e62055a82bf8b422348ac2cd28235c25925d082fdf715298a7f82f5475555967ca8a99919f7589a0c9e7d3fd5
+
+outputs.3.groupId=commons-io
+outputs.3.filename=commons-io-2.21.0-sources.jar
+outputs.3.length=595657
+outputs.3.checksums.sha512=8edc4f532db14d49a797f4754fe55174537b72a0c79b4d3820da6ecde0bff11609b5d237b6d02676f7da909f8e5fe13b648be4ccbb7945d7d6874ad70328c3c9
+
+outputs.4.groupId=commons-io
+outputs.4.filename=commons-io-2.21.0-test-sources.jar
+outputs.4.length=564287
+outputs.4.checksums.sha512=ebfbb44e9843073a3a50f031d7e8764737cf07bd20a8996026de6de29b2003cdc57adaf9b55a53f0f42a9ea860c9f399078fcc8c78ac1fc6aada7f2a14f030c8
+
+outputs.5.groupId=commons-io
+outputs.5.filename=commons-io-2.21.0-cyclonedx.xml
+outputs.5.length=3520
+outputs.5.checksums.sha512=5db8229671f9f5557b8dbd643a9b6271a1734e75aa11fe7ae1348afe43fdd8ede09442d47b1d57b64ec17bc56705df8ea504c8efe633f21db9a10429cc024937
+
+outputs.6.groupId=commons-io
+outputs.6.filename=commons-io-2.21.0-cyclonedx.json
+outputs.6.length=3864
+outputs.6.checksums.sha512=3d449d042dddeccea00687f08257cae1681421b2b70d9c6dbe2d128f657df5c440254f892fcff0b084f527f5f2587db1bec495bfd7303493321954ee5383a855
+# ignored commons-io-2.21.0.spdx.json
