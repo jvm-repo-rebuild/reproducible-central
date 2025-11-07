@@ -90,7 +90,7 @@ To facilitate the job, here are step-by-step instructions:
 ## Parameters
 
 - `groupId`, `artifactId` and `version` are not really used to do the rebuild, but to point to the reference output files in Central Repository in the final report.
-- `referenceRepo` is by default Central Repository url, but it can be customized interla company repository (and even default value changed in [`rebuild.sh`](../rebuild.sh))
+- `referenceRepo` is by default Central Repository url, but it can be customized internal company repository (and even default value changed in [`rebuild.sh`](../rebuild.sh))
 - `gitRepo` and `gitTag` define where to get the source code from and which precise commit represents the release.
 - in case Git is not the best way, `sourceDistribution`, `sourcePath` and `sourceRmFiles` can be defined to download a source zip file.
 - rebuild environment prerequisites: they define key prerequisites to rebuild source code and have a chance that the output files will match reference output from Central Repository:
