@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jakarta Validation API
+group-id=jakarta.validation
+artifact-id=jakarta.validation-api
+version=4.0.0-M1
+
+# source information
+source.scm.uri=scm:git:git://github.com/jakartaee/validation.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=jakarta.validation
+outputs.0.filename=jakarta.validation-api-4.0.0-M1.pom
+outputs.0.length=2409
+outputs.0.checksums.sha512=a957192c5f11bd037767d01a71dcfd819ad21e630c974228bb773dc09162db1ea880185b77fa86602b2db83f196df46e9023ba50c132df520ef573fc78acfc7e
+
+outputs.1.groupId=jakarta.validation
+outputs.1.filename=jakarta.validation-api-4.0.0-M1.jar
+outputs.1.length=115084
+outputs.1.checksums.sha512=c0689fa0bb08e6e035d33b46a47c85639672240a5f66fc22ab802bcc581bbad3b5fbf6f6c2fae0bf60adb2597e2cb060c10715c00f7df28cabeb3c24f00e9be4
+
+outputs.2.groupId=jakarta.validation
+outputs.2.filename=jakarta.validation-api-4.0.0-M1-sources.jar
+outputs.2.length=115044
+outputs.2.checksums.sha512=49c41cde4b150810ffaff68311d6ecb48fac8eff232ee4926a8198242c84813b1e3414b65cc7f19da5912d221a8e1bb7f4111c31e1df5d3b8b2dc2cd326fe13c
