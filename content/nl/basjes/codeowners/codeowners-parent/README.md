@@ -21,6 +21,7 @@ rebuilding **27 releases** of nl.basjes.codeowners:codeowners-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.12.2](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.12.2/pom) | | | |
 | [1.12.1](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.12.1/pom) | [mvn jdk21](codeowners-parent-1.12.1.buildspec) | [result](codeowners-parent-1.12.1.buildinfo): [10 :white_check_mark: ](codeowners-parent-1.12.1.buildcompare) | | 484K |
 | [1.12.0](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.12.0/pom) | [mvn jdk21](codeowners-parent-1.12.0.buildspec) | [result](codeowners-parent-1.12.0.buildinfo): [10 :white_check_mark: ](codeowners-parent-1.12.0.buildcompare) | | 482K |
 | [1.11.3](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.11.3/pom) | [mvn jdk21](codeowners-parent-1.11.3.buildspec) | [result](codeowners-parent-1.11.3.buildinfo): [10 :white_check_mark: ](codeowners-parent-1.11.3.buildcompare) | | 483K |
