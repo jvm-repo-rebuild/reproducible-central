@@ -26,7 +26,7 @@ rebuildToolGradle() {
 #      jdkImage="openjdk:17-slim"
 #      ;;
 #  esac
-  jdkImage="docker.io/library/gradle:8-jdk${jdk}"
+  jdkImage="docker.io/library/gradle:9-jdk${jdk}"
 
   info "Rebuilding using container image ${jdkImage}"
 
