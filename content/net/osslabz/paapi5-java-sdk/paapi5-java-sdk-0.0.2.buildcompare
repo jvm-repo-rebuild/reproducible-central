@@ -1,0 +1,16 @@
+version=0.0.2
+ok=2
+ko=1
+ignored=0
+okFiles="paapi5-java-sdk-0.0.2.pom paapi5-java-sdk-0.0.2-sources.jar"
+koFiles="paapi5-java-sdk-0.0.2.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/net.osslabz/paapi5-java-sdk-0.0.2.jar target/paapi5-java-sdk-0.0.2.jar
+stabilize_ok=1
+stabilize_ko=0
+stabilize_ignored=0
+stabilize_okFiles="paapi5-java-sdk-0.0.2.jar.stabilized"
+stabilize_koFiles=""
+stabilize_ignoredFiles=""

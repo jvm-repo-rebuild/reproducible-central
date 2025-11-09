@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=net.osslabz:paapi5-java-sdk
+group-id=net.osslabz
+artifact-id=paapi5-java-sdk
+version=0.0.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/osslabz/paapi5-java-sdk.git
+source.scm.tag=0.0.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=net.osslabz
+outputs.0.filename=paapi5-java-sdk-0.0.2.pom
+outputs.0.length=14913
+outputs.0.checksums.sha512=e5589ed0480384393c09849fe31d8f0788d8116e35e5357106a42466a7ae0077efd8ea54aa66b191afa36501ee64140141b65b284661fa5899b7ee1bc5200f52
+
+outputs.1.groupId=net.osslabz
+outputs.1.filename=paapi5-java-sdk-0.0.2.jar
+outputs.1.length=294905
+outputs.1.checksums.sha512=a484cf128fc05b10d88803bafcddecd3748c1d16a40cb0f79db1c3e46d15cfc39cffe9e97481e01dcdbe02687dc71d85f54e41daeab06067512f343bbcd2b3be
+
+outputs.2.groupId=net.osslabz
+outputs.2.filename=paapi5-java-sdk-0.0.2-sources.jar
+outputs.2.length=4640
+outputs.2.checksums.sha512=f11d27a652789e634d779871355963a4f3ee3d26161872697fbd0fd3d37707eb8ae26a600bb7b92a92b58c535e2bd0c56faad3d97ecb94fbab539d5611435ce6
