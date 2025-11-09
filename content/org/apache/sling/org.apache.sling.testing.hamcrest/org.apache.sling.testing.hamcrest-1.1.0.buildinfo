@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Testing Hamcrest
+group-id=org.apache.sling
+artifact-id=org.apache.sling.testing.hamcrest
+version=1.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-testing-hamcrest.git
+source.scm.tag=org.apache.sling.testing.hamcrest-1.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.28
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.testing.hamcrest-1.1.0.pom
+outputs.0.length=3331
+outputs.0.checksums.sha512=15c42e66f1a7ddcb11cc01dea40729b633914c2d6fd5a43e21b0f640f0693ac1c7ff771dfe4af865945f60fa81ad8eb979ad5e905f437498ad55b3ff93c99008
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.testing.hamcrest-1.1.0.jar
+outputs.1.length=21623
+outputs.1.checksums.sha512=2ac72994bbfa5b0354fa6d2f81c2b907bf54faa34c066b3fffdfd252a262f2d5c6852c7f5be65fbe32d2bc75fabc545344372053ba86bd6cf68820a2e2db11e6
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.testing.hamcrest-1.1.0-source-release.zip
+outputs.2.length=32877
+outputs.2.checksums.sha512=ffae7748583243a5ffe157f8f1fde8377207375d3d4e52f45d65ca754dca43c9e0dd725761f753e35072eade1ba32dcd457c299ec7f28b9dd597704f3d2ea2fe
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.testing.hamcrest-1.1.0-sources.jar
+outputs.3.length=21502
+outputs.3.checksums.sha512=9174482fc6c80ffe9d9900064569c516a47a82bd87585a1288c3fba704a07f4ed33c25222ff44fb8bc1e7aef9e8e4d89346cd223f30d49950cb52d1fac89bc06
