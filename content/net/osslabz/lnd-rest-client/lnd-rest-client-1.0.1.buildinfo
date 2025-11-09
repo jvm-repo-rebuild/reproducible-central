@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=net.osslabz:lnd-rest-client
+group-id=net.osslabz
+artifact-id=lnd-rest-client
+version=1.0.1
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/osslabz/lnd-rest-client.git
+source.scm.tag=main
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=net.osslabz
+outputs.0.filename=lnd-rest-client-1.0.1.pom
+outputs.0.length=13215
+outputs.0.checksums.sha512=ee84f6d1fb09f2d8a67cd5816d002ce567ca1d4e629f5a11e5792b13a4ec7001e5fd36e74ada10a8bf7dafc6112c9bfd6b6564a932e5db155f501fe5f8eaaafe
+
+outputs.1.groupId=net.osslabz
+outputs.1.filename=lnd-rest-client-1.0.1.jar
+outputs.1.length=671277
+outputs.1.checksums.sha512=9dce768c487b7958ff4e9fa2f27721a9987c899587a31a59941fdfdef04be07bd5e5efe4bc2db497bb8bc5a5b441b5b091bc32c529268d52d1867f2be582f5f4
