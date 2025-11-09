@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Repoinit JCR
+group-id=org.apache.sling
+artifact-id=org.apache.sling.jcr.repoinit
+version=1.1.54
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-jcr-repoinit.git
+source.scm.tag=org.apache.sling.jcr.repoinit-1.1.54
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.jcr.repoinit-1.1.54.pom
+outputs.0.length=12891
+outputs.0.checksums.sha512=38479d6e8285932d9c1d0a628ce75d1104fd7a3c92f14067a566728642a5f305411adf64315954747de413137ee3e769f1eafc93e605f2efd3e232b0e505e8d0
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.jcr.repoinit-1.1.54.jar
+outputs.1.length=83575
+outputs.1.checksums.sha512=b5416df5807f816a9aeedbdf2bca942dac2df67142a0d4510e8602815ac0f869b4cc021bb23d49107f979a836f3a014ffce3dd681d7407250ee9483d22e16f77
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.jcr.repoinit-1.1.54-source-release.zip
+outputs.2.length=140328
+outputs.2.checksums.sha512=bc5ab4efee0ab0049232229672b4f0729b84b0e72d5e47a0098c04ab1fcd71f79ac8e0b8696eaec798fe65a370c107f338a59b28c8023d9e0ead1f26c037b708
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.jcr.repoinit-1.1.54-sources.jar
+outputs.3.length=50403
+outputs.3.checksums.sha512=77947784d042c9ecadec5e0a916cdb8a05e2855ce6832459b4a0d6ddbf0cab0650cc01011d54b636d902450f1277c830986af53e1e08b4b41ebf1a2c1f42cbb5
