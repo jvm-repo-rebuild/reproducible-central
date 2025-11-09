@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=net.osslabz:jdbc-url-parser
+group-id=net.osslabz
+artifact-id=jdbc-url-parser
+version=0.1.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/osslabz/jdbc-url-parser.git
+source.scm.tag=0.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=net.osslabz
+outputs.0.filename=jdbc-url-parser-0.1.0.pom
+outputs.0.length=9437
+outputs.0.checksums.sha512=4217a106c65c08fd2433d97bfa943e2b3fbd68823623e665de5c55201fd24e5f259c4e927d60213fb8da25aefd301e4a8070e21d5320ec7555ce6a67fe5ff60f
+
+outputs.1.groupId=net.osslabz
+outputs.1.filename=jdbc-url-parser-0.1.0.jar
+outputs.1.length=31106
+outputs.1.checksums.sha512=399778b76e6349cd1bb9035a0c1f2defcc5938103140cdd254e7600ee64f4000c8b4af243c53b78c0cf96c070ef9c9ffa8abe5cf6d500dcd6e28865a6cfbeca1
+
+outputs.2.groupId=net.osslabz
+outputs.2.filename=jdbc-url-parser-0.1.0-sources.jar
+outputs.2.length=22308
+outputs.2.checksums.sha512=8f3d5a666819a780f2d8cec1a6434a6a0d11ba47843366493163c7bf61cdc4dbecc5e5200459cddc971ad93deea5105d3e0777ab2158c01f14c2f68e95b65c3d
