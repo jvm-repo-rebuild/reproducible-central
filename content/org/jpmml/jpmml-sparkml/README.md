@@ -31,6 +31,7 @@ rebuilding **39 releases** of org.jpmml:jpmml-sparkml:
 | [3.1.2](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.1.2/pom) | | | |
 | [3.1.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.1.1/pom) | [mvn jdk11](jpmml-sparkml-3.1.1.buildspec) | [result](jpmml-sparkml-3.1.1.buildinfo): [5 :white_check_mark:  8 :warning:](jpmml-sparkml-3.1.1.buildcompare) | 8 :recycle: | 356K |
 | [3.1.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.1.0/pom) | [mvn jdk11](jpmml-sparkml-3.1.0.buildspec) | [result](jpmml-sparkml-3.1.0.buildinfo): [5 :white_check_mark:  8 :warning:](jpmml-sparkml-3.1.0.buildcompare) | - | 358K |
+| [3.0.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.0.4/pom) | | | |
 | [3.0.3](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.0.3/pom) | | | |
 | [3.0.2](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.0.2/pom) | | | |
 | [3.0.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.0.1/pom) | [mvn jdk11](jpmml-sparkml-3.0.1.buildspec) | [result](jpmml-sparkml-3.0.1.buildinfo): [5 :white_check_mark:  4 :warning:](jpmml-sparkml-3.0.1.buildcompare) | 4 :recycle: | 229K |
