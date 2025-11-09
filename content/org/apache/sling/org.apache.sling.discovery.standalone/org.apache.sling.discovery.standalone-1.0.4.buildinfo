@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Discovery Standalone Implementation
+group-id=org.apache.sling
+artifact-id=org.apache.sling.discovery.standalone
+version=1.0.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-discovery-standalone.git
+source.scm.tag=org.apache.sling.discovery.standalone-1.0.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.28
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.discovery.standalone-1.0.4.pom
+outputs.0.length=3710
+outputs.0.checksums.sha512=ee21c6acd709194ad674e2afc6b78087da208473f824f83626cdf35ce40645c350a87abbb9f7d9a03eebc0742b0ba89b20972ebeaf6959ac2c418e9762c18813
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.discovery.standalone-1.0.4.jar
+outputs.1.length=18354
+outputs.1.checksums.sha512=da93b4c4b0b40cdd6884f449ffcbaab83f98f11832884a2cfdf793d03c2822d0373a5ee485ac1d4457d80236af8c083ecfc04c3228d25474010bda4af70c2836
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.discovery.standalone-1.0.4-source-release.zip
+outputs.2.length=24124
+outputs.2.checksums.sha512=5557fd8cca367602d5b554aedde8bd5ddb721c3fdfed527a57d2806a64a080b2517a7c4df84462778b12b42c4caa2f5699b6492ed999569002d6325a15c33b25
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.discovery.standalone-1.0.4-sources.jar
+outputs.3.length=15517
+outputs.3.checksums.sha512=d11006ebc4c8393a4f108d04d782e2f36fdcca2eead6eba5c166fd014d40eab9d322c157bc80f7607e887a925b13e192fdeec043a893580e7475c6ec2cf508c1
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.discovery.standalone-1.0.4-sources.jar
+outputs.4.length=15517
+outputs.4.checksums.sha512=d11006ebc4c8393a4f108d04d782e2f36fdcca2eead6eba5c166fd014d40eab9d322c157bc80f7607e887a925b13e192fdeec043a893580e7475c6ec2cf508c1
