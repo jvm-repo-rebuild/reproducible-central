@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=net.osslabz:json-rpc-client
+group-id=net.osslabz
+artifact-id=json-rpc-client
+version=0.0.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/osslabz/json-rpc-client.git
+source.scm.tag=0.0.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=net.osslabz
+outputs.0.filename=json-rpc-client-0.0.4.pom
+outputs.0.length=9800
+outputs.0.checksums.sha512=ded9f2cc5013d011d1e944aeaecfc6cf70e2cbf71149cfe52117153610146f9d1498c4efd121d91f4d4d82d3930b9420fb6a793979e710c3bcb32b01abc63d04
+
+outputs.1.groupId=net.osslabz
+outputs.1.filename=json-rpc-client-0.0.4.jar
+outputs.1.length=13000
+outputs.1.checksums.sha512=3a2671378f4decba961bad2871418a1ff5f95ad2430e458265c049112ec07380aa207e790681d9d0f3c9116306ca7cd3c52670592e1cde4c2a8171e6f49393b1
+
+outputs.2.groupId=net.osslabz
+outputs.2.filename=json-rpc-client-0.0.4-sources.jar
+outputs.2.length=7992
+outputs.2.checksums.sha512=bc988ea58cd93d936025934a07862c125c30722c2b1c6bd748007ec7f04d55196368ece0834087d96368bb5e47435859815b5af2d98ff4ebb3eb711aa9c88c26
