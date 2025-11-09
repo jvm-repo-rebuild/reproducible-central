@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Form Based Authentication
+group-id=org.apache.sling
+artifact-id=org.apache.sling.auth.form
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-auth-form.git
+source.scm.tag=org.apache.sling.auth.form-2.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.16
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.auth.form-2.0.0.pom
+outputs.0.length=12355
+outputs.0.checksums.sha512=1d7f0fe4d4a10ff1adbf3d77b4efdc414c045aef5f45ad42c10c3f95b2e3c116231412b1a1c7474af3886241144a187305c539a8c1a0a51b2ec2273bf9b739dc
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.auth.form-2.0.0.jar
+outputs.1.length=67619
+outputs.1.checksums.sha512=d866a4e7e1e5a9d4a2cec7ccffdb78154cd8a02798804b6ab44ffdc73db6b9a0d959029dfd318734dd5020415113993d8845b3258e6860ed667c94a8e7f7b56d
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.auth.form-2.0.0-source-release.zip
+outputs.2.length=69865
+outputs.2.checksums.sha512=935925bfd41d5a429e25f8be102ebcc84d05f32969024926826aac85d7e9340eaf8acd55be25873d4887a441f627946bf4afcc26360696fade1e2ab8eaacf4a5
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.auth.form-2.0.0-sources.jar
+outputs.3.length=38188
+outputs.3.checksums.sha512=5d84d3e9a3f9c4e587540155d42c1dcef716fcaaa56de372ba640d69d2804d119a10413b42ddeab39ea4c936a34cb09b221c840c0ffdb8b0054f641e6a1c5de6
