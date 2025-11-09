@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/hazendaz/yuicompressor-maven-plugin.git](https://github.com/hazendaz/yuicompressor-maven-plugin.git)
 
-rebuilding **4 releases** of com.github.hazendaz.maven:yuicompressor-maven-plugin:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **5 releases** of com.github.hazendaz.maven:yuicompressor-maven-plugin:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.3.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/yuicompressor-maven-plugin/2.3.0/pom) | | | |
+| [2.3.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/yuicompressor-maven-plugin/2.3.0/pom) | [mvn jdk25 w](yuicompressor-maven-plugin-2.3.0.buildspec) | [result](yuicompressor-maven-plugin-2.3.0.buildinfo): [7 :white_check_mark: ](yuicompressor-maven-plugin-2.3.0.buildcompare) | | 389K |
 | [2.2.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/yuicompressor-maven-plugin/2.2.0/pom) | [mvn jdk21 w](yuicompressor-maven-plugin-2.2.0.buildspec) | [result](yuicompressor-maven-plugin-2.2.0.buildinfo): [7 :white_check_mark: ](yuicompressor-maven-plugin-2.2.0.buildcompare) | | 366K |
 | [2.1.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/yuicompressor-maven-plugin/2.1.0/pom) | [mvn jdk22 w](yuicompressor-maven-plugin-2.1.0.buildspec) | [result](yuicompressor-maven-plugin-2.1.0.buildinfo): [7 :white_check_mark: ](yuicompressor-maven-plugin-2.1.0.buildcompare) | | 360K |
 | [2.0.1](https://central.sonatype.com/artifact/com.github.hazendaz.maven/yuicompressor-maven-plugin/2.0.1/pom) | [mvn jdk21 w](yuicompressor-maven-plugin-2.0.1.buildspec) | [result](yuicompressor-maven-plugin-2.0.1.buildinfo): [7 :white_check_mark: ](yuicompressor-maven-plugin-2.0.1.buildcompare) | | 365K |
