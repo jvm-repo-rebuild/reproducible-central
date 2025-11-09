@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Commons Testing
+group-id=org.apache.sling
+artifact-id=org.apache.sling.commons.testing
+version=2.2.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-testing.git
+source.scm.tag=org.apache.sling.commons.testing-2.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.28
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.commons.testing-2.2.0.pom
+outputs.0.length=6470
+outputs.0.checksums.sha512=521446785f2dd3c6041a806ff4772e798866a49f1a1a79cb5fe3e1fe158f38c67d30ce20fcedb53315cbf64638caa0ae6dccc4ff0a2baf68085cfddea961c12c
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.commons.testing-2.2.0.jar
+outputs.1.length=83788
+outputs.1.checksums.sha512=d1306e6c7b32724b27bdc2f2b16edc8c6181029d075b5f8dba879c20495c5a43ff3769f752a25fe739e9d6fcd36f488138a5cde484005bc0d49a5b7f06ef239d
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.commons.testing-2.2.0-source-release.zip
+outputs.2.length=86788
+outputs.2.checksums.sha512=354d2cae22c024cefe51b387dfd17ea4c7c7f0f70d95b0b0e2c3b1e6900bfd0272fbda183a9c957ebe3585d9590da6fc2ca30f8c26b07a222a54e8c2d3be0df2
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.commons.testing-2.2.0-sources.jar
+outputs.3.length=67827
+outputs.3.checksums.sha512=4a6e93052600d5979acceef0d0b2557f91ef0315d8358a3e0a027c82909e01795d25f0ff308616a3be2b88a34b83705def458be8f9f5dce7d97e49f45588145d
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.commons.testing-2.2.0-sources.jar
+outputs.4.length=67827
+outputs.4.checksums.sha512=4a6e93052600d5979acceef0d0b2557f91ef0315d8358a3e0a027c82909e01795d25f0ff308616a3be2b88a34b83705def458be8f9f5dce7d97e49f45588145d
