@@ -13,6 +13,7 @@ rebuilding **2 releases** of fr.marcwrobel:jbanking:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.3.0](https://central.sonatype.com/artifact/fr.marcwrobel/jbanking/4.3.0/pom) | | | |
 | [4.2.0](https://central.sonatype.com/artifact/fr.marcwrobel/jbanking/4.2.0/pom) | [mvn jdk17](jbanking-4.2.0.buildspec) | [result](jbanking-4.2.0.buildinfo): [3 :white_check_mark: ](jbanking-4.2.0.buildcompare) | | 193K |
 | [4.1.0](https://central.sonatype.com/artifact/fr.marcwrobel/jbanking/4.1.0/pom) | [mvn jdk17](jbanking-4.1.0.buildspec) | [result](jbanking-4.1.0.buildinfo): [3 :white_check_mark: ](jbanking-4.1.0.buildcompare) | | 186K |
 

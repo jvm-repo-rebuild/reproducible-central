@@ -1,10 +1,8 @@
-content/com/flowlogix/flowlogix-10.0.5.buildspec:10.0.8
-content/com/github/hazendaz/jmockit/jmockit-1.56.0.buildspec:2.0.0
-content/com/github/hazendaz/maven/yuicompressor-maven-plugin/yuicompressor-maven-plugin-2.2.0.buildspec:2.3.0
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.2-beta-11.buildspec:11.2.2-beta-12
-content/io/github/cbarlin/aru/aru-0.6.8.buildspec:0.7.0
-content/io/github/chains-project/maven-lockfile/maven-lockfile-5.10.0.buildspec:5.10.1-beta-1
-content/io/yupiik/fusion/fusion-1.0.31.buildspec:1.0.32
+content/ch/qos/logback/logback-1.5.20.buildspec:1.5.21
+content/eu/maveniverse/maven/njord/njord-0.8.5.buildspec:0.8.6
+content/fr/marcwrobel/jbanking/jbanking-4.2.0.buildspec:4.3.0
+content/io/airlift/airbase/airbase-325.buildspec:326
 content/nl/basjes/codeowners/codeowners-parent/codeowners-parent-1.12.1.buildspec:1.12.2
-content/org/apache/nifi/nifi-api/nifi-api-2.4.0.buildspec:2.5.0
-content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.1.4.Final.buildspec:4.1.5.Final
+content/org/apache/sling/org.apache.sling.settings/org.apache.sling.settings-1.4.2.buildspec:1.5.0
+content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-11.0.0.buildspec:11.0.1
+content/org/hibernate/orm/hibernate-core/hibernate-core-7.2.0.CR1.buildspec:7.2.0.CR2
