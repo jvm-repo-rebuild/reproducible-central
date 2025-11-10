@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=CycloneDX Core (Java)
+group-id=org.cyclonedx
+artifact-id=cyclonedx-core-java
+version=11.0.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/CycloneDX/cyclonedx-core-java.git
+source.scm.tag=cyclonedx-core-java-11.0.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_462
+java.vendor=Private Build
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.cyclonedx
+outputs.0.filename=cyclonedx-core-java-11.0.1.pom
+outputs.0.length=14998
+outputs.0.checksums.sha512=85ed5771fbe9dcf80ba9d7a122cb3fbe42f5f76788592b950ec58865eff2868f8b867cd18bb376584d759031530b61e34969d0006767fcbb121b1ed4fa6f34e2
+
+outputs.1.groupId=org.cyclonedx
+outputs.1.filename=cyclonedx-core-java-11.0.1.jar
+outputs.1.length=2697059
+outputs.1.checksums.sha512=20a3fee94682c23a57c52bdd1678f877f1b8f2a8c3a2e2aa1ade2be5e74c70da1171aa2f08af40a5a9362eba94fbb52d8a824b3bf6b9591d765ecf6b3c43463c
+
+outputs.2.groupId=org.cyclonedx
+outputs.2.filename=cyclonedx-core-java-11.0.1-sources.jar
+outputs.2.length=2522755
+outputs.2.checksums.sha512=76ba7d80fde9d85b05b6dd77990387e9305cb19cd572e9ff85a4b31cece8463df868c7db5d75428c6ce55474707ab942bcbc4ca597bc2a33d0de9c7877efa3ad
