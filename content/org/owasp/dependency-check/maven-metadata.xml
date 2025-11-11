@@ -3,8 +3,8 @@
   <groupId>org.owasp</groupId>
   <artifactId>dependency-check-parent</artifactId>
   <versioning>
-    <latest>12.1.8</latest>
-    <release>12.1.8</release>
+    <latest>12.1.9</latest>
+    <release>12.1.9</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.1</version>
@@ -169,7 +169,8 @@
       <version>12.1.6</version>
       <version>12.1.7</version>
       <version>12.1.8</version>
+      <version>12.1.9</version>
     </versions>
-    <lastUpdated>20251013151205</lastUpdated>
+    <lastUpdated>20251111125227</lastUpdated>
   </versioning>
 </metadata>
