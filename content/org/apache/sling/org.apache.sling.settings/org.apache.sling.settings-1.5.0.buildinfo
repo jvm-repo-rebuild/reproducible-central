@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Settings
+group-id=org.apache.sling
+artifact-id=org.apache.sling.settings
+version=1.5.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-settings.git
+source.scm.tag=org.apache.sling.settings-1.5.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.settings-1.5.0.pom
+outputs.0.length=5849
+outputs.0.checksums.sha512=014868e83bf4f7b0fd808dc05991dc7f7f10979afb9905a4c49de880a3e85dd0519f78074a458da7c073ba8c5464053e8f7022d3bde49315132b0d638588c8b1
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.settings-1.5.0.jar
+outputs.1.length=25832
+outputs.1.checksums.sha512=069b1efcf5aaa91b9d468053c482106b4a0d2b616daf55783ab2d1ce22391a533acf00c6fc67476949b5cf35cf954e36d331d69335fcb2393d3d4d45728664e7
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.settings-1.5.0-source-release.zip
+outputs.2.length=30989
+outputs.2.checksums.sha512=fe03eaa5717dc989bfaede6365c6fc590237d6152ec550e560bc7a65b10264252be3b4b607648e5dbba70f04c41ad0f0d47f04f13326accef288f48108144c63
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.settings-1.5.0-sources.jar
+outputs.3.length=20660
+outputs.3.checksums.sha512=53caf0e06cc6b73079e1c81753069640fd6e8ee8fb39980975093aa309cd1cf9d538772b41f3023da26b2a96b36567433decebdfab353fc7eeb5cb2715b84674
