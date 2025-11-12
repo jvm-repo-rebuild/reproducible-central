@@ -80,7 +80,7 @@ outputs.4.0.checksums.sha512=73f02750aba52c053e4185eaceb6a2d7a4938c1823518866e72
 outputs.4.1.groupId=org.eclipse.jetty
 outputs.4.1.filename=jetty-util-12.1.4.jar
 outputs.4.1.length=726151
-outputs.4.1.checksums.sha512=a6ec85de6de7a1a231d5ffab38965fa77ea4350938e4769b91aa1ed32a4d6a4ca659f7b9d8536f3185fabeb05ffc3619a96bdd217669760a229ff5bea7527b13
+outputs.4.1.checksums.sha512=6b4fb54904bb9ed59277992c245d60c477406b660ebb96a4399e104b4f78852363681d486068d2c3ff9c572d9e163935e1158ea9033bb7313f90b27928cc0dde
 
 outputs.4.2.groupId=org.eclipse.jetty
 outputs.4.2.filename=jetty-util-12.1.4-sources.jar
@@ -457,7 +457,7 @@ outputs.25.3.checksums.sha512=0145d8bf180ec49389b36b276098f2d4f5515709b8c7ae18cb
 outputs.25.4.groupId=org.eclipse.jetty
 outputs.25.4.filename=jetty-client-12.1.4-hybrid.jar
 outputs.25.4.length=1952891
-outputs.25.4.checksums.sha512=1790b96de8413e099483d338457fa365022feb23a49e357a1ac86fd53157d9f89f72da428c267cdae3ce19e4349501d8f59977061aecddd0ca9f9c2fc92d1f20
+outputs.25.4.checksums.sha512=d980a4ae70687c88d6c8f9c4b9eaff61f8fa269aca06543cbc516c159152c18fbffd757f1be02a036ad7adc10c34b0c09df961f7ceb2428ff0b6ac40e6dc1108
 
 outputs.26.coordinates=org.eclipse.jetty:jetty-alpn-java-client
 
@@ -1367,7 +1367,7 @@ outputs.75.0.checksums.sha512=8b0f53b6be7da93c3173994ad691bc7ba1c1acd784601883ea
 outputs.75.1.groupId=org.eclipse.jetty
 outputs.75.1.filename=jetty-start-12.1.4.jar
 outputs.75.1.length=175017
-outputs.75.1.checksums.sha512=9d8ce1174d3bb6a59210ab5aa25aa758e818cccb5ab1ef305f71609f397dd1f9ac0f98dd5086b11e814ab3684dc7d2a209716d257af5c05311de1a07ef54c4aa
+outputs.75.1.checksums.sha512=2e67027e54501cd2d6a67c42fa9c970b7f5f4cf9200e076f45569b7739facfa71222b37e17bcd5bf9ac2ef0de14c567e4752ab040a75e1deaccfc495f1c68c92
 
 outputs.75.2.groupId=org.eclipse.jetty
 outputs.75.2.filename=jetty-start-12.1.4-sources.jar
@@ -1377,7 +1377,7 @@ outputs.75.2.checksums.sha512=feb518936a32cfc9a5721ac73317c0015d1cef2841c829a3a2
 outputs.75.3.groupId=org.eclipse.jetty
 outputs.75.3.filename=jetty-start-12.1.4-shaded.jar
 outputs.75.3.length=187833
-outputs.75.3.checksums.sha512=b2d3443df6b963b892d8f963e26c83742d0e067c88bd50a93b79a897a4b8193975abd92ea576b839bc4202f4283f070f0607cdff421005dd949b91b0c7a38938
+outputs.75.3.checksums.sha512=92087bae5bd44ffa88a842e5c5441ae62aeb1e43e39bb1f7d20eafcde1a660159e1239d029cca37c6ad4a304cf95336bb46224792e796dec869cb1b877de01a7
 
 outputs.75.4.groupId=org.eclipse.jetty
 outputs.75.4.filename=jetty-start-12.1.4-shaded-sources.jar
@@ -1814,8 +1814,8 @@ outputs.99.0.checksums.sha512=5445e6ea8c7e207869f8b8f18f7746d0ab18449911e981f21c
 
 outputs.99.1.groupId=org.eclipse.jetty.ee11.demos
 outputs.99.1.filename=jetty-ee11-demo-proxy-webapp-12.1.4.war
-outputs.99.1.length=1964099
-outputs.99.1.checksums.sha512=7918f6c92620ed0989114a79235ce01af67c78e3d1c2e237419053041d009dfbdc41091f511fe6f507c8c1485707171b8ff9342aefe3982bb31fda5be3ed4efb
+outputs.99.1.length=1964096
+outputs.99.1.checksums.sha512=afad23e351cfabbcfc9fad3aefa88425a47c57b5a6c15915e69c2c9a7438ce0bce19f20cf65813e00b49d476d5a74d291eef2e314ed0dd828bf42dcecba59a91
 
 outputs.99.2.groupId=org.eclipse.jetty.ee11.demos
 outputs.99.2.filename=jetty-ee11-demo-proxy-webapp-12.1.4-config.jar
@@ -2344,8 +2344,8 @@ outputs.129.0.checksums.sha512=18ea899cf1e8e634892f0f8933a6398e000586d47071b8e51
 
 outputs.129.1.groupId=org.eclipse.jetty.demos
 outputs.129.1.filename=jetty-servlet5-demo-async-rest-webapp-12.1.4.war
-outputs.129.1.length=1966762
-outputs.129.1.checksums.sha512=412340807e0ec2657d339790dbd1c767940bb2ce4213f00adb2268513add782c57e0675c2251004b5625f36db3cc6e7678becc591abc30cf3e828b6516e6e5bb
+outputs.129.1.length=1966759
+outputs.129.1.checksums.sha512=679a6e99f942b74187358bba56d78f68d3634b20cdebd6c8b0a79ea9fb532ad654554af5a477de6a76851884ab7407d6e5fb1d9ebbfb82c1c06d8b6a7366b83d
 
 outputs.129.2.groupId=org.eclipse.jetty.demos
 outputs.129.2.filename=jetty-servlet5-demo-async-rest-webapp-12.1.4-config.jar
@@ -3292,8 +3292,8 @@ outputs.175.0.checksums.sha512=a530e652b68001ef4b45b0dc96c2bf88a50c8cc093a7aee4b
 
 outputs.175.1.groupId=org.eclipse.jetty.ee10.demos
 outputs.175.1.filename=jetty-ee10-demo-proxy-webapp-12.1.4.war
-outputs.175.1.length=1964127
-outputs.175.1.checksums.sha512=c5f10e7b436207667584dee8385f845c5b53c9b8d18b442da8f4cf27e5771d36e46b6d9bcb6b5893fe407b5e51b7046e6cf5a7448b1c905584d425c3c6092f11
+outputs.175.1.length=1964124
+outputs.175.1.checksums.sha512=76ed183f0de6d8c2c93d63e594707abb2159bfe229957e0e6ef2aa96853e8f31fa34c017db78c452fcb22705f600f434b8d23d9669f8c5a5305d9da6093fda6c
 
 outputs.175.2.groupId=org.eclipse.jetty.ee10.demos
 outputs.175.2.filename=jetty-ee10-demo-proxy-webapp-12.1.4-config.jar
@@ -3704,8 +3704,8 @@ outputs.196.0.checksums.sha512=bd7990b746cbca2f2c200506ae9c5b2987dd64e8ef8381981
 
 outputs.196.1.groupId=org.eclipse.jetty.ee9.demos
 outputs.196.1.filename=jetty-ee9-demo-proxy-webapp-12.1.4.war
-outputs.196.1.length=1949747
-outputs.196.1.checksums.sha512=bbaa260d5c55926a2e981303231ab088f404393ef77e4f4d374adf211563ea1f8f63286e04b00198a23d735a98822abe941e6023cde2146e14fd1c284ba7a34f
+outputs.196.1.length=1949744
+outputs.196.1.checksums.sha512=f6fa223a8e36f5b5b78b92e363583b3fa00953bcc6f4e3cea3cc9ddefa7b775962c72d4cbacbe3ab90c32b01e8f8d5b0dbdcdaf6d609f5109d623c974b36044a
 
 outputs.196.2.groupId=org.eclipse.jetty.ee9.demos
 outputs.196.2.filename=jetty-ee9-demo-proxy-webapp-12.1.4-config.jar
@@ -4272,8 +4272,8 @@ outputs.225.0.checksums.sha512=dacb74c4d05414fb821d09589e7ec441cb6c6a7b59eb28dfc
 
 outputs.225.1.groupId=org.eclipse.jetty.ee8.demos
 outputs.225.1.filename=jetty-ee8-demo-proxy-webapp-12.1.4.war
-outputs.225.1.length=1963769
-outputs.225.1.checksums.sha512=4bfa53976282d7e95e02939ee760b5af73c0bdf418527fd837834ebea99b9b6b15d3d67d1fa1d5c7422e9e21b268d735f1d3407b4a8602edc706a0f37811280d
+outputs.225.1.length=1963766
+outputs.225.1.checksums.sha512=549a93e01ec9b41e1b7ad71a7b6194ef8917c96042fd1692f31f4af83851005d54e8dd66270bac863059b110b381f3b253f7467a2c8d9a6cb43e0010b54554e3
 
 outputs.225.2.groupId=org.eclipse.jetty.ee8.demos
 outputs.225.2.filename=jetty-ee8-demo-proxy-webapp-12.1.4-config.jar
@@ -4447,8 +4447,8 @@ outputs.235.0.checksums.sha512=8d7bd94700e36ed91184f3e9d8ccb6b30ce3136daa2f65d89
 
 outputs.235.1.groupId=org.eclipse.jetty.demos
 outputs.235.1.filename=jetty-servlet4-demo-async-rest-webapp-12.1.4.war
-outputs.235.1.length=1967331
-outputs.235.1.checksums.sha512=236ce52a6c8beee6b4d502a5aaa9cb972e6698613fd5d2c1be514c63e85bfcbeca9b90e8bb335c0d1563bf0334ef42fee1ccb5024d0786536a3e1294fd67e7b7
+outputs.235.1.length=1967328
+outputs.235.1.checksums.sha512=e25e063596634848611654f4d701cb41852e93f829f82085ab3a21601fd47313171085e7b5d31ee9aaa7e75466f79e8050faaae5431622ff8b260bbf78c6321d
 
 outputs.235.2.groupId=org.eclipse.jetty.demos
 outputs.235.2.filename=jetty-servlet4-demo-async-rest-webapp-12.1.4-config.jar
@@ -4764,22 +4764,22 @@ outputs.252.0.checksums.sha512=ceb60a69fa4ee6b2c7743ad7bbc9e5610f751a9c0675f9a3b
 outputs.252.1.groupId=org.eclipse.jetty
 outputs.252.1.filename=jetty-home-12.1.4-cyclonedx.xml
 outputs.252.1.length=1007358
-outputs.252.1.checksums.sha512=f62a079440f6a8aac68cc82fc095c52557ebd77061345ffc6ac12a04c900d78d90a6a7d861764f1983e5d4a5e2dfdd08ec59d3fc4d964a9171f555f0a0245659
+outputs.252.1.checksums.sha512=8bec3797af828b397912ee622f85716252ab284574613c2f3ffa1956bed06da1183b44bce936d07b2fc9a5b6e2427e4836344a4dc5e12b7a192e126ffda64b2c
 
 outputs.252.2.groupId=org.eclipse.jetty
 outputs.252.2.filename=jetty-home-12.1.4-cyclonedx.json
 outputs.252.2.length=1105025
-outputs.252.2.checksums.sha512=c42dafdd5b2d4db4498b17b9940ee640da00757eabbac194ab50e7e3fe76a3c5ced98d86f38c11a239f2fbd052fc7d599a8e15675e1e4c3389c0c46cebb2d3f6
+outputs.252.2.checksums.sha512=8a9e75276dbac907a8c238b371ceeef76b724b58b55e7108a2c19812825f1a670bc6496dbc239c1bbb2f260904e780db6a161da4834341620f82629434adad56
 
 outputs.252.3.groupId=org.eclipse.jetty
 outputs.252.3.filename=jetty-home-12.1.4.tar.gz
-outputs.252.3.length=46087423
-outputs.252.3.checksums.sha512=38546404febc9c696343ea340b38f694bd62a60643abf8182940c1df1400baaedbce04dc8da4d2e9436e5968214e51a4f01bf167702ef8c6106586f411ebefaf
+outputs.252.3.length=46087415
+outputs.252.3.checksums.sha512=bcf36504d76cf6c83b0176a694d33883233d5cd6705bde33ac5f83f8b5f2bf54f913d3995d776224306414733fe434ace2a9a025feec48cc67f6ecdcece9a715
 
 outputs.252.4.groupId=org.eclipse.jetty
 outputs.252.4.filename=jetty-home-12.1.4.zip
-outputs.252.4.length=46422090
-outputs.252.4.checksums.sha512=edb5e10813702f439193edae2a19b90d563b5fcd50ee4549b14e6fd7bfa6e77c092ec1971938998ce74529db58805005346b44ba07e1a11fce9993d178ccaddf
+outputs.252.4.length=46422081
+outputs.252.4.checksums.sha512=5a395c76478ef3f44d0705daa9cdb2ef7577207b12a7376cd32fddc2bc0c3a479c0f8ba0009e1656255a7a1eafdcd7c020894af55ac6b4393fa5ff096e5fc88c
 
 outputs.252.5.groupId=org.eclipse.jetty
 outputs.252.5.filename=jetty-home-12.1.4-sources.tar.gz
@@ -5251,8 +5251,8 @@ outputs.281.0.checksums.sha512=845e7d493af353279eb0c5a11cebccc3723efcc14655c554a
 
 outputs.281.1.groupId=org.eclipse.jetty.demos
 outputs.281.1.filename=jetty-servlet6-demo-embedded-12.1.4.war
-outputs.281.1.length=8419670
-outputs.281.1.checksums.sha512=a22b1254d20b591118af0b3ecae875b471a90e299038dab543361b140b2b06f784adacf8357a3de762a1c6141bbf4c82edcd646a12206169bfafe844440c6897
+outputs.281.1.length=8419667
+outputs.281.1.checksums.sha512=3e2f021eb7dcfe584d8c57761297c03ca21a2e80c466086466fe14f5750fccb7361ac533e4149ec3b57702cf1be4ca1b0a58b3e48820c135bdf9f50d784ada1e
 
 outputs.281.2.groupId=org.eclipse.jetty.demos
 outputs.281.2.filename=jetty-servlet6-demo-embedded-12.1.4-sources.jar
