@@ -15,13 +15,13 @@ Source code: [https://github.com/seregamorph/test-distribution.git](https://gith
 * [com.github.seregamorph:test-distribution-spring-provider](https://central.sonatype.com/artifact/com.github.seregamorph/test-distribution-spring-provider/overview)
 </details>
 
-rebuilding **1 releases** of com.github.seregamorph:test-distribution:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of com.github.seregamorph:test-distribution:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.9](https://central.sonatype.com/artifact/com.github.seregamorph/test-distribution/0.9/pom) | | | |
+| [0.9](https://central.sonatype.com/artifact/com.github.seregamorph/test-distribution/0.9/pom) | [mvn jdk17](test-distribution-0.9.buildspec) | [result](test-distribution-0.9.buildinfo): [10 :white_check_mark: ](test-distribution-0.9.buildcompare) | | 80K |
 | [0.8](https://central.sonatype.com/artifact/com.github.seregamorph/test-distribution/0.8/pom) | [mvn jdk17](test-distribution-0.8.buildspec) | [result](test-distribution-0.8.buildinfo): [10 :white_check_mark: ](test-distribution-0.8.buildcompare) | | 77K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
