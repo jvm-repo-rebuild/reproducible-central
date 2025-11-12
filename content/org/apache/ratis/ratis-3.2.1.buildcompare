@@ -1,0 +1,58 @@
+version=3.2.1
+ok=76
+ko=43
+ignored=0
+okFiles="ratis-3.2.1.pom ratis-3.2.1-cyclonedx.xml ratis-3.2.1-cyclonedx.json ratis-docs-3.2.1.pom ratis-docs-3.2.1-sources.jar ratis-docs-3.2.1-tests.jar ratis-docs-3.2.1-test-sources.jar ratis-docs-3.2.1-cyclonedx.xml ratis-docs-3.2.1-cyclonedx.json ratis-proto-3.2.1.pom ratis-proto-3.2.1-sources.jar ratis-proto-3.2.1-tests.jar ratis-proto-3.2.1-test-sources.jar ratis-proto-3.2.1-cyclonedx.xml ratis-proto-3.2.1-cyclonedx.json ratis-common-3.2.1.pom ratis-common-3.2.1-sources.jar ratis-common-3.2.1-tests.jar ratis-common-3.2.1-test-sources.jar ratis-client-3.2.1.pom ratis-client-3.2.1-sources.jar ratis-client-3.2.1-tests.jar ratis-client-3.2.1-test-sources.jar ratis-server-api-3.2.1.pom ratis-server-api-3.2.1-sources.jar ratis-server-api-3.2.1-tests.jar ratis-server-api-3.2.1-test-sources.jar ratis-metrics-api-3.2.1.pom ratis-metrics-api-3.2.1-sources.jar ratis-metrics-api-3.2.1-tests.jar ratis-metrics-api-3.2.1-test-sources.jar ratis-metrics-default-3.2.1.pom ratis-metrics-default-3.2.1-sources.jar ratis-metrics-default-3.2.1-tests.jar ratis-metrics-default-3.2.1-test-sources.jar ratis-server-3.2.1.pom ratis-server-3.2.1-sources.jar ratis-server-3.2.1-tests.jar ratis-server-3.2.1-test-sources.jar ratis-resource-bundle-3.2.1.pom ratis-resource-bundle-3.2.1-sources.jar ratis-resource-bundle-3.2.1-test-sources.jar ratis-resource-bundle-3.2.1-cyclonedx.xml ratis-resource-bundle-3.2.1-cyclonedx.json ratis-grpc-3.2.1.pom ratis-grpc-3.2.1-sources.jar ratis-grpc-3.2.1-tests.jar ratis-grpc-3.2.1-test-sources.jar ratis-netty-3.2.1.pom ratis-netty-3.2.1-sources.jar ratis-netty-3.2.1-tests.jar ratis-netty-3.2.1-test-sources.jar ratis-shell-3.2.1.pom ratis-shell-3.2.1-sources.jar ratis-shell-3.2.1-tests.jar ratis-shell-3.2.1-test-sources.jar ratis-test-3.2.1.pom ratis-test-3.2.1-sources.jar ratis-test-3.2.1-tests.jar ratis-test-3.2.1-test-sources.jar ratis-test-3.2.1-cyclonedx.xml ratis-test-3.2.1-cyclonedx.json ratis-tools-3.2.1.pom ratis-tools-3.2.1-sources.jar ratis-tools-3.2.1-tests.jar ratis-tools-3.2.1-test-sources.jar ratis-examples-3.2.1.pom ratis-examples-3.2.1-sources.jar ratis-examples-3.2.1-tests.jar ratis-examples-3.2.1-test-sources.jar ratis-metrics-dropwizard3-3.2.1.pom ratis-metrics-dropwizard3-3.2.1-sources.jar ratis-metrics-dropwizard3-3.2.1-tests.jar ratis-metrics-dropwizard3-3.2.1-test-sources.jar ratis-assembly-3.2.1.pom ratis-assembly-3.2.1-src.tar.gz"
+koFiles="ratis-docs-3.2.1.jar ratis-proto-3.2.1.jar ratis-common-3.2.1.jar ratis-common-3.2.1-cyclonedx.xml ratis-common-3.2.1-cyclonedx.json ratis-client-3.2.1.jar ratis-client-3.2.1-cyclonedx.xml ratis-client-3.2.1-cyclonedx.json ratis-server-api-3.2.1.jar ratis-server-api-3.2.1-cyclonedx.xml ratis-server-api-3.2.1-cyclonedx.json ratis-metrics-api-3.2.1.jar ratis-metrics-api-3.2.1-cyclonedx.xml ratis-metrics-api-3.2.1-cyclonedx.json ratis-metrics-default-3.2.1.jar ratis-metrics-default-3.2.1-cyclonedx.xml ratis-metrics-default-3.2.1-cyclonedx.json ratis-server-3.2.1.jar ratis-server-3.2.1-cyclonedx.xml ratis-server-3.2.1-cyclonedx.json ratis-resource-bundle-3.2.1.jar ratis-grpc-3.2.1.jar ratis-grpc-3.2.1-cyclonedx.xml ratis-grpc-3.2.1-cyclonedx.json ratis-netty-3.2.1.jar ratis-netty-3.2.1-cyclonedx.xml ratis-netty-3.2.1-cyclonedx.json ratis-shell-3.2.1.jar ratis-shell-3.2.1-cyclonedx.xml ratis-shell-3.2.1-cyclonedx.json ratis-test-3.2.1.jar ratis-tools-3.2.1.jar ratis-tools-3.2.1-cyclonedx.xml ratis-tools-3.2.1-cyclonedx.json ratis-examples-3.2.1.jar ratis-examples-3.2.1-cyclonedx.xml ratis-examples-3.2.1-cyclonedx.json ratis-metrics-dropwizard3-3.2.1.jar ratis-metrics-dropwizard3-3.2.1-cyclonedx.xml ratis-metrics-dropwizard3-3.2.1-cyclonedx.json ratis-assembly-3.2.1-bin.tar.gz ratis-assembly-3.2.1-cyclonedx.xml ratis-assembly-3.2.1-cyclonedx.json"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.ratis/ratis-docs-3.2.1.jar ratis-docs/target/ratis-docs-3.2.1.jar
+# diffoscope target/reference/org.apache.ratis/ratis-proto-3.2.1.jar ratis-proto/target/ratis-proto-3.2.1.jar
+# diffoscope target/reference/org.apache.ratis/ratis-common-3.2.1.jar ratis-common/target/ratis-common-3.2.1.jar
+# diffoscope target/reference/org.apache.ratis/ratis-common-3.2.1-cyclonedx.xml ratis-common/target/bom.xml
+# diffoscope target/reference/org.apache.ratis/ratis-common-3.2.1-cyclonedx.json ratis-common/target/bom.json
+# diffoscope target/reference/org.apache.ratis/ratis-client-3.2.1.jar ratis-client/target/ratis-client-3.2.1.jar
+# diffoscope target/reference/org.apache.ratis/ratis-client-3.2.1-cyclonedx.xml ratis-client/target/bom.xml
+# diffoscope target/reference/org.apache.ratis/ratis-client-3.2.1-cyclonedx.json ratis-client/target/bom.json
+# diffoscope target/reference/org.apache.ratis/ratis-server-api-3.2.1.jar ratis-server-api/target/ratis-server-api-3.2.1.jar
+# diffoscope target/reference/org.apache.ratis/ratis-server-api-3.2.1-cyclonedx.xml ratis-server-api/target/bom.xml
+# diffoscope target/reference/org.apache.ratis/ratis-server-api-3.2.1-cyclonedx.json ratis-server-api/target/bom.json
+# diffoscope target/reference/org.apache.ratis/ratis-metrics-api-3.2.1.jar ratis-metrics-api/target/ratis-metrics-api-3.2.1.jar
+# diffoscope target/reference/org.apache.ratis/ratis-metrics-api-3.2.1-cyclonedx.xml ratis-metrics-api/target/bom.xml
+# diffoscope target/reference/org.apache.ratis/ratis-metrics-api-3.2.1-cyclonedx.json ratis-metrics-api/target/bom.json
+# diffoscope target/reference/org.apache.ratis/ratis-metrics-default-3.2.1.jar ratis-metrics-default/target/ratis-metrics-default-3.2.1.jar
+# diffoscope target/reference/org.apache.ratis/ratis-metrics-default-3.2.1-cyclonedx.xml ratis-metrics-default/target/bom.xml
+# diffoscope target/reference/org.apache.ratis/ratis-metrics-default-3.2.1-cyclonedx.json ratis-metrics-default/target/bom.json
+# diffoscope target/reference/org.apache.ratis/ratis-server-3.2.1.jar ratis-server/target/ratis-server-3.2.1.jar
+# diffoscope target/reference/org.apache.ratis/ratis-server-3.2.1-cyclonedx.xml ratis-server/target/bom.xml
+# diffoscope target/reference/org.apache.ratis/ratis-server-3.2.1-cyclonedx.json ratis-server/target/bom.json
+# diffoscope target/reference/org.apache.ratis/ratis-resource-bundle-3.2.1.jar ratis-resource-bundle/target/ratis-resource-bundle-3.2.1.jar
+# diffoscope target/reference/org.apache.ratis/ratis-grpc-3.2.1.jar ratis-grpc/target/ratis-grpc-3.2.1.jar
+# diffoscope target/reference/org.apache.ratis/ratis-grpc-3.2.1-cyclonedx.xml ratis-grpc/target/bom.xml
+# diffoscope target/reference/org.apache.ratis/ratis-grpc-3.2.1-cyclonedx.json ratis-grpc/target/bom.json
+# diffoscope target/reference/org.apache.ratis/ratis-netty-3.2.1.jar ratis-netty/target/ratis-netty-3.2.1.jar
+# diffoscope target/reference/org.apache.ratis/ratis-netty-3.2.1-cyclonedx.xml ratis-netty/target/bom.xml
+# diffoscope target/reference/org.apache.ratis/ratis-netty-3.2.1-cyclonedx.json ratis-netty/target/bom.json
+# diffoscope target/reference/org.apache.ratis/ratis-shell-3.2.1.jar ratis-shell/target/ratis-shell-3.2.1.jar
+# diffoscope target/reference/org.apache.ratis/ratis-shell-3.2.1-cyclonedx.xml ratis-shell/target/bom.xml
+# diffoscope target/reference/org.apache.ratis/ratis-shell-3.2.1-cyclonedx.json ratis-shell/target/bom.json
+# diffoscope target/reference/org.apache.ratis/ratis-test-3.2.1.jar ratis-test/target/ratis-test-3.2.1.jar
+# diffoscope target/reference/org.apache.ratis/ratis-tools-3.2.1.jar ratis-tools/target/ratis-tools-3.2.1.jar
+# diffoscope target/reference/org.apache.ratis/ratis-tools-3.2.1-cyclonedx.xml ratis-tools/target/bom.xml
+# diffoscope target/reference/org.apache.ratis/ratis-tools-3.2.1-cyclonedx.json ratis-tools/target/bom.json
+# diffoscope target/reference/org.apache.ratis/ratis-examples-3.2.1.jar ratis-examples/target/ratis-examples-3.2.1.jar
+# diffoscope target/reference/org.apache.ratis/ratis-examples-3.2.1-cyclonedx.xml ratis-examples/target/bom.xml
+# diffoscope target/reference/org.apache.ratis/ratis-examples-3.2.1-cyclonedx.json ratis-examples/target/bom.json
+# diffoscope target/reference/org.apache.ratis/ratis-metrics-dropwizard3-3.2.1.jar ratis-metrics-dropwizard3/target/ratis-metrics-dropwizard3-3.2.1.jar
+# diffoscope target/reference/org.apache.ratis/ratis-metrics-dropwizard3-3.2.1-cyclonedx.xml ratis-metrics-dropwizard3/target/bom.xml
+# diffoscope target/reference/org.apache.ratis/ratis-metrics-dropwizard3-3.2.1-cyclonedx.json ratis-metrics-dropwizard3/target/bom.json
+# diffoscope target/reference/org.apache.ratis/ratis-assembly-3.2.1-bin.tar.gz ratis-assembly/target/ratis-assembly-3.2.1-bin.tar.gz
+# diffoscope target/reference/org.apache.ratis/ratis-assembly-3.2.1-cyclonedx.xml ratis-assembly/target/bom.xml
+# diffoscope target/reference/org.apache.ratis/ratis-assembly-3.2.1-cyclonedx.json ratis-assembly/target/bom.json
+stabilize_ok=0
+stabilize_ko=16
+stabilize_ignored=27
+stabilize_okFiles=""
+stabilize_koFiles="ratis-docs-3.2.1.jar.stabilized ratis-proto-3.2.1.jar.stabilized ratis-common-3.2.1.jar.stabilized ratis-client-3.2.1.jar.stabilized ratis-server-api-3.2.1.jar.stabilized ratis-metrics-api-3.2.1.jar.stabilized ratis-metrics-default-3.2.1.jar.stabilized ratis-server-3.2.1.jar.stabilized ratis-resource-bundle-3.2.1.jar.stabilized ratis-grpc-3.2.1.jar.stabilized ratis-netty-3.2.1.jar.stabilized ratis-shell-3.2.1.jar.stabilized ratis-test-3.2.1.jar.stabilized ratis-tools-3.2.1.jar.stabilized ratis-examples-3.2.1.jar.stabilized ratis-metrics-dropwizard3-3.2.1.jar.stabilized"
+stabilize_ignoredFiles="ratis-common-3.2.1-cyclonedx.xml ratis-common-3.2.1-cyclonedx.json ratis-client-3.2.1-cyclonedx.xml ratis-client-3.2.1-cyclonedx.json ratis-server-api-3.2.1-cyclonedx.xml ratis-server-api-3.2.1-cyclonedx.json ratis-metrics-api-3.2.1-cyclonedx.xml ratis-metrics-api-3.2.1-cyclonedx.json ratis-metrics-default-3.2.1-cyclonedx.xml ratis-metrics-default-3.2.1-cyclonedx.json ratis-server-3.2.1-cyclonedx.xml ratis-server-3.2.1-cyclonedx.json ratis-grpc-3.2.1-cyclonedx.xml ratis-grpc-3.2.1-cyclonedx.json ratis-netty-3.2.1-cyclonedx.xml ratis-netty-3.2.1-cyclonedx.json ratis-shell-3.2.1-cyclonedx.xml ratis-shell-3.2.1-cyclonedx.json ratis-tools-3.2.1-cyclonedx.xml ratis-tools-3.2.1-cyclonedx.json ratis-examples-3.2.1-cyclonedx.xml ratis-examples-3.2.1-cyclonedx.json ratis-metrics-dropwizard3-3.2.1-cyclonedx.xml ratis-metrics-dropwizard3-3.2.1-cyclonedx.json ratis-assembly-3.2.1-bin.tar.gz ratis-assembly-3.2.1-cyclonedx.xml ratis-assembly-3.2.1-cyclonedx.json"

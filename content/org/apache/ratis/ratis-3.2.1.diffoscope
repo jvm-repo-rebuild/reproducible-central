@@ -1,0 +1,35 @@
+1 / 43 target/reference/org.apache.ratis/ratis-docs-3.2.1.jar ratis-docs/target/ratis-docs-3.2.1.jar
+--- target/reference/org.apache.ratis/ratis-docs-3.2.1.jar
++++ ratis-docs/target/ratis-docs-3.2.1.jar
+├── zipinfo {}
+│ @@ -1,13 +1,13 @@
+│ -Zip file size: 7187 bytes, number of entries: 11
+│ +Zip file size: 7177 bytes, number of entries: 11
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-05 12:44 META-INF/
+│  -rw-r--r--  2.0 unx      349 b- defN 25-Nov-05 12:44 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-05 12:44 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-05 12:44 META-INF/maven/org.apache.ratis/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-05 12:44 META-INF/maven/org.apache.ratis/ratis-docs/
+│  -rw-r--r--  2.0 unx      276 b- defN 25-Nov-05 12:44 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 25-Nov-05 12:44 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      184 b- defN 25-Nov-05 12:44 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx      932 b- defN 25-Nov-05 12:44 ratis-version.properties
+│ +-rw-r--r--  2.0 unx      925 b- defN 25-Nov-05 12:44 ratis-version.properties
+│  -rw-r--r--  2.0 unx     1602 b- defN 25-Nov-05 12:44 META-INF/maven/org.apache.ratis/ratis-docs/pom.xml
+│  -rw-r--r--  2.0 unx       61 b- defN 25-Nov-05 12:44 META-INF/maven/org.apache.ratis/ratis-docs/pom.properties
+│ -11 files, 14762 bytes uncompressed, 5725 bytes compressed:  61.2%
+│ +11 files, 14755 bytes uncompressed, 5715 bytes compressed:  61.3%
+├── ratis-version.properties
+│ @@ -13,9 +13,9 @@
+│  # distributed under the License is distributed on an "AS IS" BASIS,
+│  # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│  # See the License for the specific language governing permissions and
+│  # limitations under the License.
+│  #
+│  name=Apache Ratis Documentation
+│  version=3.2.1
+│ -url=git@github.com:onesizefitsquorum/ratis.git
+│ +url=https://github.com/apache/ratis.git
+│  revision=07a340e37662b1f0c9fd2dfde79fccb728060d34
+
+# every other difference is coming from that one
