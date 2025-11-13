@@ -36,6 +36,7 @@ rebuilding **3 releases** of com.github.nbbrd.sdmx-dl:sdmx-dl-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.0.0-beta.16](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-parent/3.0.0-beta.16/pom) | | | |
 | [3.0.0-beta.15](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-parent/3.0.0-beta.15/pom) | [mvn jdk21](sdmx-dl-3.0.0-beta.15.buildspec) | [result](sdmx-dl-parent-3.0.0-beta.15.buildinfo): [52 :white_check_mark:  1 :warning:](sdmx-dl-parent-3.0.0-beta.15.buildcompare) | 1 :rotating_light: | 58M |
 | [3.0.0-beta.14](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-parent/3.0.0-beta.14/pom) | [mvn jdk21](sdmx-dl-3.0.0-beta.14.buildspec) | [result](sdmx-dl-parent-3.0.0-beta.14.buildinfo): [55 :white_check_mark:  1 :warning:](sdmx-dl-parent-3.0.0-beta.14.buildcompare) | - | 56M |
 | [3.0.0-beta.13](https://central.sonatype.com/artifact/com.github.nbbrd.sdmx-dl/sdmx-dl-parent/3.0.0-beta.13/pom) | [mvn jdk21](sdmx-dl-3.0.0-beta.13.buildspec) | [result](sdmx-dl-parent-3.0.0-beta.13.buildinfo): [55 :white_check_mark: ](sdmx-dl-parent-3.0.0-beta.13.buildcompare) | | 23M |
