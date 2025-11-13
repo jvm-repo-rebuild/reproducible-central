@@ -1,0 +1,53 @@
+1 / 3 target/reference/io.smallrye/jandex-test-data-3.5.2.jar test-data/target/jandex-test-data-3.5.2.jar
+--- target/reference/io.smallrye/jandex-test-data-3.5.2.jar
++++ test-data/target/jandex-test-data-3.5.2.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│  Zip file size: 106358 bytes, number of entries: 187
+│  -rw----     1.0 fat        0 bx stor 25-Nov-12 11:18 META-INF/
+│ --rw----     2.0 fat      507 bl defN 25-Nov-12 11:21 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      507 bl defN 25-Nov-13 07:33 META-INF/MANIFEST.MF
+│  -rw----     1.0 fat        0 b- stor 25-Nov-12 11:18 test/
+│  -rw----     1.0 fat        0 b- stor 25-Nov-12 11:18 test/exec/
+│ @@ -181,9 +181,9 @@
+│  -rw----     2.0 fat       62 bl defN 25-Nov-12 11:18 META-INF/maven/io.smallrye/jandex-test-data/pom.properties
+│  -rw----     2.0 fat      189 bl defN 25-Nov-12 11:18 META-INF/INDEX.LIST
+│ --rw----     2.0 fat      653 bl defN 25-Nov-12 11:21 module-info.class
+│ +-rw----     2.0 fat      653 bl defN 25-Nov-13 07:33 module-info.class
+│  187 files, 161546 bytes uncompressed, 76758 bytes compressed:  52.5%
+
+2 / 3 target/reference/io.smallrye/jandex-maven-plugin-3.5.2.jar maven-plugin/target/jandex-maven-plugin-3.5.2.jar
+--- target/reference/io.smallrye/jandex-maven-plugin-3.5.2.jar
++++ maven-plugin/target/jandex-maven-plugin-3.5.2.jar
+├── META-INF/MANIFEST.MF
+│ @@ -2,13 +2,13 @@
+│  Created-By: Maven JAR Plugin 3.4.2
+│  Build-Jdk-Spec: 21
+│  Specification-Title: Jandex: Maven Plugin
+│  Specification-Version: 3.5
+│  Implementation-Title: Jandex: Maven Plugin
+│  Implementation-Version: 3.5.2
+│  Implementation-URL: https://smallrye.io
+│ -Java-Version: 21.0.9
+│ +Java-Version: 21.0.5
+│  Scm-Connection: scm:git:git@github.com:smallrye/jandex.git/jandex-maven-
+│   plugin
+│  Scm-Revision: 14e570fcfe6db243714be53969cc9b10c7b1f88b
+│  Scm-Url: https://github.com/smallrye/jandex/jandex-maven-plugin/
+
+3 / 3 target/reference/io.smallrye/jandex-gizmo2-3.5.2.jar gizmo2/target/jandex-gizmo2-3.5.2.jar
+├── META-INF/MANIFEST.MF
+│ @@ -2,12 +2,12 @@
+│  Created-By: Maven JAR Plugin 3.4.2
+│  Build-Jdk-Spec: 21
+│  Specification-Title: Jandex: Gizmo2 Integration
+│  Specification-Version: 3.5
+│  Implementation-Title: Jandex: Gizmo2 Integration
+│  Implementation-Version: 3.5.2
+│  Implementation-URL: https://smallrye.io
+│ -Java-Version: 21.0.9
+│ +Java-Version: 21.0.5
+│  Scm-Connection: scm:git:git@github.com:smallrye/jandex.git/jandex-gizmo2
+│  Scm-Revision: 14e570fcfe6db243714be53969cc9b10c7b1f88b
+│  Scm-Url: https://github.com/smallrye/jandex/jandex-gizmo2/
+
