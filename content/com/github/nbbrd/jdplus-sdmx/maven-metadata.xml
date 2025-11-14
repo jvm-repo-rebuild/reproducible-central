@@ -3,15 +3,16 @@
   <groupId>com.github.nbbrd.jdplus-sdmx</groupId>
   <artifactId>jdplus-sdmx</artifactId>
   <versioning>
-    <latest>3.3.1</latest>
-    <release>3.3.1</release>
+    <latest>3.3.2</latest>
+    <release>3.3.2</release>
     <versions>
       <version>3.0.0</version>
       <version>3.1.0</version>
       <version>3.2.0</version>
       <version>3.3.0</version>
       <version>3.3.1</version>
+      <version>3.3.2</version>
     </versions>
-    <lastUpdated>20250724131938</lastUpdated>
+    <lastUpdated>20251114070733</lastUpdated>
   </versioning>
 </metadata>
