@@ -86,13 +86,13 @@ Source code: [https://github.com/apache/karaf-decanter.git](https://github.com/a
 * [org.apache.karaf:decanter](https://central.sonatype.com/artifact/org.apache.karaf/decanter/overview)
 </details>
 
-rebuilding **3 releases** of org.apache.karaf:decanter:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of org.apache.karaf:decanter:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.12.0](https://central.sonatype.com/artifact/org.apache.karaf/decanter/2.12.0/pom) | | | |
+| [2.12.0](https://central.sonatype.com/artifact/org.apache.karaf/decanter/2.12.0/pom) | [mvn jdk11](karaf-decanter-2.12.0.buildspec) | [result](decanter-2.12.0.buildinfo): [260 :white_check_mark: ](decanter-2.12.0.buildcompare) | | 161M |
 | [2.11.0](https://central.sonatype.com/artifact/org.apache.karaf/decanter/2.11.0/pom) | [mvn jdk11](karaf-decanter-2.11.0.buildspec) | [result](decanter-2.11.0.buildinfo): [260 :white_check_mark: ](decanter-2.11.0.buildcompare) | | 159M |
 | [2.10.0](https://central.sonatype.com/artifact/org.apache.karaf/decanter/2.10.0/pom) | [mvn jdk11](karaf-decanter-2.10.0.buildspec) | [result](decanter-2.10.0.buildinfo): [260 :white_check_mark: ](decanter-2.10.0.buildcompare) | | 143M |
 | [2.9.0](https://central.sonatype.com/artifact/org.apache.karaf/decanter/2.9.0/pom) | [mvn jdk8](karaf-decanter-2.9.0.buildspec) | [result](decanter-2.9.0.buildinfo): [261 :white_check_mark:  2 :warning:](decanter-2.9.0.buildcompare) [:mag:](decanter-2.9.0.diffoscope) [:memo:](https://github.com/apache/karaf-decanter/pull/306) | - | 166M |
