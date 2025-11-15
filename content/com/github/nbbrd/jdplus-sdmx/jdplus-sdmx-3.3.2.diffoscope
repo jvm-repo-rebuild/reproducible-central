@@ -1,0 +1,39 @@
+# see https://github.com/nbbrd/jdplus-sdmx/blob/develop/jdplus-sdmx-desktop/jdplus-sdmx-desktop-plugin/pom.xml
+# org.apache.netbeans.utilities:nbm-maven-plugin https://bits.netbeans.org/mavenutilities/nbm-maven-plugin/nbm-maven-plugin/index.html
+# https://github.com/apache/netbeans-mavenutils-nbm-maven-plugin/issues/133
+1 / 1 target/reference/com.github.nbbrd.jdplus-sdmx/jdplus-sdmx-desktop-plugin-3.3.2.nbm jdplus-sdmx-desktop/jdplus-sdmx-desktop-plugin/target/jdplus-sdmx-desktop-plugin-3.3.2.nbm
+--- target/reference/com.github.nbbrd.jdplus-sdmx/jdplus-sdmx-desktop-plugin-3.3.2.nbm
++++ jdplus-sdmx-desktop/jdplus-sdmx-desktop-plugin/target/jdplus-sdmx-desktop-plugin-3.3.2.nbm
+├── zipinfo {}
+│ @@ -1,22 +1,22 @@
+│ -Zip file size: 2890259 bytes, number of entries: 20
+│ -drwxr-xr-x  2.0 unx        0 bx stor 25-Nov-14 07:01 META-INF/
+│ --rw-r--r--  2.0 unx      106 b- defN 25-Nov-14 07:01 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-14 07:01 netbeans/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-14 07:01 netbeans/config/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-14 07:01 netbeans/config/Modules/
+...
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-14 07:01 netbeans/modules/ext/com.github.nbbrd.jdplus-sdmx.jdplus-sdmx-desktop-plugin/com-j2html/
+│ --rw-r--r--  2.0 unx   202624 b- defN 25-Nov-14 07:01 netbeans/modules/ext/com.github.nbbrd.jdplus-sdmx.jdplus-sdmx-desktop-plugin/com-j2html/j2html.jar
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-14 07:01 Info/
+│ --rw-r--r--  2.0 unx     1756 b- defN 25-Nov-14 07:01 Info/info.xml
+│ -20 files, 3258646 bytes uncompressed, 2886167 bytes compressed:  11.4%
+│ +Zip file size: 2890258 bytes, number of entries: 20
+│ +drwxr-xr-x  2.0 unx        0 bx stor 25-Nov-15 07:03 META-INF/
+│ +-rw-r--r--  2.0 unx      112 b- defN 25-Nov-15 07:03 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-15 07:03 netbeans/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-15 07:03 netbeans/config/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-15 07:03 netbeans/config/Modules/
+...
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-15 07:03 netbeans/modules/ext/com.github.nbbrd.jdplus-sdmx.jdplus-sdmx-desktop-plugin/com-j2html/
+│ +-rw-r--r--  2.0 unx   202624 b- defN 25-Nov-15 07:03 netbeans/modules/ext/com.github.nbbrd.jdplus-sdmx.jdplus-sdmx-desktop-plugin/com-j2html/j2html.jar
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-15 07:03 Info/
+│ +-rw-r--r--  2.0 unx     1756 b- defN 25-Nov-15 07:03 Info/info.xml
+│ +20 files, 3258652 bytes uncompressed, 2886166 bytes compressed:  11.4%
+├── META-INF/MANIFEST.MF
+│ @@ -1,4 +1,4 @@
+│  Manifest-Version: 1.0
+│  Ant-Version: Apache Ant 1.10.15
+│ -Created-By: 21.0.9+10-LTS (Azul Systems, Inc.)
+│ +Created-By: 21.0.8+9-Ubuntu-0ubuntu122.04.1 (Ubuntu)
+
