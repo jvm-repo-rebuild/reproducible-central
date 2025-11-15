@@ -14,5 +14,5 @@ newline=lf
 command="mvn -Pbase-deploy clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
-issue=
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/apache/netbeans-mavenutils-nbm-maven-plugin/issues/133
