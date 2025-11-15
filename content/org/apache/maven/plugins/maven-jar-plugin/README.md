@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/apache/maven-jar-plugin.git](https://github.com/apache/maven-jar-plugin.git)
 
-rebuilding **7 releases** of org.apache.maven.plugins:maven-jar-plugin:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of org.apache.maven.plugins:maven-jar-plugin:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [4.0.0-beta-1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-jar-plugin/4.0.0-beta-1/pom) | [mvn jdk21](maven-jar-plugin-4.0.0-beta-1.buildspec) | [result](maven-jar-plugin-4.0.0-beta-1.buildinfo): [6 :white_check_mark: ](maven-jar-plugin-4.0.0-beta-1.buildcompare) | | 440K |
-| [3.5.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-jar-plugin/3.5.0/pom) | | | |
+| [3.5.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-jar-plugin/3.5.0/pom) | [mvn jdk21](maven-jar-plugin-3.5.0.buildspec) | [result](maven-jar-plugin-3.5.0.buildinfo): [6 :white_check_mark: ](maven-jar-plugin-3.5.0.buildcompare) | | 564K |
 | [3.4.2](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-jar-plugin/3.4.2/pom) | [mvn jdk21](maven-jar-plugin-3.4.2.buildspec) | [result](maven-jar-plugin-3.4.2.buildinfo): [6 :white_check_mark: ](maven-jar-plugin-3.4.2.buildcompare) | | 559K |
 | [3.4.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-jar-plugin/3.4.1/pom) | [mvn jdk21](maven-jar-plugin-3.4.1.buildspec) | [result](maven-jar-plugin-3.4.1.buildinfo): [6 :white_check_mark: ](maven-jar-plugin-3.4.1.buildcompare) | | 559K |
 | [3.4.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-jar-plugin/3.4.0/pom) | [mvn jdk21](maven-jar-plugin-3.4.0.buildspec) | [result](maven-jar-plugin-3.4.0.buildinfo): [6 :white_check_mark: ](maven-jar-plugin-3.4.0.buildcompare) | | 553K |
