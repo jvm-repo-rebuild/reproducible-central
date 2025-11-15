@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache NetBeans NBPackage
+group-id=org.apache.netbeans
+artifact-id=nbpackage
+version=1.0-beta4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/netbeans-nbpackage.git
+source.scm.tag=nbpackage-1.0-beta4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.25
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.8.0-87-generic
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.netbeans
+outputs.0.filename=nbpackage-1.0-beta4.pom
+outputs.0.length=8552
+outputs.0.checksums.sha512=f2cde21147d1eab4d86117db30b528f7acece8360fb5b90b7f0c8013610e1bc23125cca435fa67d5598a4bd0a0e52a91937633620d144b8b313e7bc28ca6e594
+
+outputs.1.groupId=org.apache.netbeans
+outputs.1.filename=nbpackage-1.0-beta4.jar
+outputs.1.length=293831
+outputs.1.checksums.sha512=0445657fcaf6b39f34c4c4b1f1e241c54050c38cff80d6ed32c356ddd32d78d5e002e03f80971d743708ae8133b94627ef2497e4b122dd2ac988c20e8decbc1f
+
+outputs.2.groupId=org.apache.netbeans
+outputs.2.filename=nbpackage-1.0-beta4-source-release.zip
+outputs.2.length=286919
+outputs.2.checksums.sha512=bf681225b8d304cc871f424f030fb4d61e78115b9bac8ca50adae17399f97cdf43ad635907b9df984e1d283a310b0ed86744d4bc01158c564e94b43b65a04239
+
+outputs.3.groupId=org.apache.netbeans
+outputs.3.filename=nbpackage-1.0-beta4-bin.tar.gz
+outputs.3.length=1652730
+outputs.3.checksums.sha512=be53250482d397a8815a86e66c842b8a3628f1e6935debad23649694949072e9a23c077b07368ecadf210d431ae1b0d265ec32317b78c61c1faec255de38be86
+
+outputs.4.groupId=org.apache.netbeans
+outputs.4.filename=nbpackage-1.0-beta4-bin.zip
+outputs.4.length=1653727
+outputs.4.checksums.sha512=3474735587038a7d0f276613d97745f4477dc402aa4640bb49cab3484384bad1371aa899e49ba838fa5b8562bf12cb0c56998b003c4b7a8e94b82945c795590f
+
+outputs.5.groupId=org.apache.netbeans
+outputs.5.filename=nbpackage-1.0-beta4-sources.jar
+outputs.5.length=252027
+outputs.5.checksums.sha512=c64fa171b9976716711d6e3f5b712193dbd381a2251e75a44ac0a22132ace3117e9b6f833df0293823df4aad2834f5a90e196772e78ca7e0aa1567e4ce2cf75b
