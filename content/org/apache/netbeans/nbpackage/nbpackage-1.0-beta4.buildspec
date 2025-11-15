@@ -1,0 +1,18 @@
+groupId=org.apache.netbeans
+artifactId=nbpackage
+display=${groupId}:${artifactId}
+version=1.0-beta4
+
+gitRepo=https://gitbox.apache.org/repos/asf/netbeans-nbpackage.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=lf
+umask=002
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
