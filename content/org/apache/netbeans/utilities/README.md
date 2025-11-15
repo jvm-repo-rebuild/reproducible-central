@@ -16,12 +16,14 @@ Source code: [https://gitbox.apache.org/repos/asf/netbeans-mavenutils-nbm-maven-
 * [org.apache.netbeans.utilities:utilities-parent](https://central.sonatype.com/artifact/org.apache.netbeans.utilities/utilities-parent/overview)
 </details>
 
-rebuilding **1 releases** of org.apache.netbeans.utilities:utilities-parent:
+rebuilding **2 releases** of org.apache.netbeans.utilities:utilities-parent:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [14.4](https://central.sonatype.com/artifact/org.apache.netbeans.utilities/utilities-parent/14.4/pom) | [mvn jdk11](utilities-14.4.buildspec) | [result](utilities-parent-14.4.buildinfo): [14 :white_check_mark: ](utilities-parent-14.4.buildcompare) | | 1.3M |
+| [14.3](https://central.sonatype.com/artifact/org.apache.netbeans.utilities/utilities-parent/14.3/pom) | [mvn jdk11](utilities-14.3.buildspec) | [result](utilities-parent-14.3.buildinfo): [12 :white_check_mark:  3 :warning:](utilities-parent-14.3.buildcompare) | 3 :rotating_light: | 2.2M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -1,0 +1,18 @@
+version=14.3
+ok=12
+ko=3
+ignored=0
+okFiles="utilities-parent-14.3.pom utilities-parent-14.3-site.xml utilities-parent-14.3-source-release.zip nb-shared-14.3.pom nb-shared-14.3-sources.jar nbm-maven-harness-14.3.pom nbm-maven-harness-14.3.jar nbm-maven-harness-14.3-sources.jar nb-repository-plugin-14.3.pom nb-repository-plugin-14.3-sources.jar nbm-maven-plugin-14.3.pom nbm-maven-plugin-14.3-sources.jar"
+koFiles="nb-shared-14.3.jar nb-repository-plugin-14.3.jar nbm-maven-plugin-14.3.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.netbeans.utilities/nb-shared-14.3.jar nb-shared/target/nb-shared-14.3.jar
+# diffoscope target/reference/org.apache.netbeans.utilities/nb-repository-plugin-14.3.jar nb-repository-plugin/target/nb-repository-plugin-14.3.jar
+# diffoscope target/reference/org.apache.netbeans.utilities/nbm-maven-plugin-14.3.jar nbm-maven-plugin/target/nbm-maven-plugin-14.3.jar
+stabilize_ok=0
+stabilize_ko=3
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="nb-shared-14.3.jar.stabilized nb-repository-plugin-14.3.jar.stabilized nbm-maven-plugin-14.3.jar.stabilized"
+stabilize_ignoredFiles=""
