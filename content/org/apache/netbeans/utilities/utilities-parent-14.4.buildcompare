@@ -1,0 +1,9 @@
+version=14.4
+ok=14
+ko=0
+ignored=0
+okFiles="utilities-parent-14.4.pom utilities-parent-14.4-source-release.zip nb-shared-14.4.pom nb-shared-14.4.jar nb-shared-14.4-sources.jar nbm-maven-harness-14.4.pom nbm-maven-harness-14.4.jar nbm-maven-harness-14.4-sources.jar nb-repository-plugin-14.4.pom nb-repository-plugin-14.4.jar nb-repository-plugin-14.4-sources.jar nbm-maven-plugin-14.4.pom nbm-maven-plugin-14.4.jar nbm-maven-plugin-14.4-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

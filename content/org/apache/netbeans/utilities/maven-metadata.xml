@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.netbeans.utilities</groupId>
+  <artifactId>utilities-parent</artifactId>
+  <versioning>
+    <latest>14.4</latest>
+    <release>14.4</release>
+    <versions>
+      <version>1</version>
+      <version>2</version>
+      <version>14.0</version>
+      <version>14.1</version>
+      <version>14.2</version>
+      <version>14.3</version>
+      <version>14.4</version>
+    </versions>
+    <lastUpdated>20250922085903</lastUpdated>
+  </versioning>
+</metadata>
