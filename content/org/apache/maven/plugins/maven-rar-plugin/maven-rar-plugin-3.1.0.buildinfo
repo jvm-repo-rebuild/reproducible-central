@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven RAR Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-rar-plugin
+version=3.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-rar-plugin.git
+source.scm.tag=maven-rar-plugin-3.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-rar-plugin-3.1.0.pom
+outputs.0.length=7164
+outputs.0.checksums.sha512=9ae6ce528062aa23afe1e96f90661b2ff50b0140e70f3e6770447087a6f169b8a51eba4ab9884a52e8711e54515b9d526b5cd870306c74b5b9b55e413b5341a2
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-rar-plugin-3.1.0.jar
+outputs.1.length=30938
+outputs.1.checksums.sha512=c4fba4e0644719344a72d240000c952a4e0de0ca9f39466a344b7ce3b879918643913dd10c16cc8522daf98f7bf7612a916d7cdd76cb04f50919ae15dcdac9de
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-rar-plugin-3.1.0-source-release.zip
+outputs.2.length=74946
+outputs.2.checksums.sha512=85d3598a0f6505d79b4a699cf6de77200efc5519589973722ed5f58604d24cd2bb343701c37642c07e60f1d387255c19baa19f1d8445ca05c76ca6925a7d3b21
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-rar-plugin-3.1.0-sources.jar
+outputs.3.length=21005
+outputs.3.checksums.sha512=29067634c2740a2d1fb4b367a5851ebc4f32640052dd642677daacdc7bfe618f4f6064599e5135d70cac5c42ed523addd9797043ad9a6889bebfc18c66f3c271
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-rar-plugin-3.1.0-cyclonedx.xml
+outputs.4.length=128636
+outputs.4.checksums.sha512=422ee05d8589db52b5ec0c916da3f22d9d0391cfa432aa2fe9d373b07b77dcdadf63c363e2876eefdf685150e9c118644b515833ecae8178c0951da2b62064b6
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-rar-plugin-3.1.0-cyclonedx.json
+outputs.5.length=139918
+outputs.5.checksums.sha512=f0e7868119cf6a089c78c4e5de2f01d65eeec40fc99745a6404817396bff161d7726e6a63a1e8295958310aa9fa89a1450da94426ac738023b86ef876f02bfcf
