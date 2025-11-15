@@ -1,6 +1,2 @@
-content/io/liftwizard/liftwizard-2.1.33.buildspec:2.1.34
-content/io/cucumber/junit-xml-formatter/junit-xml-formatter-0.10.0.buildspec:0.11.0
-content/io/telicent/smart-caches/graph/scg-base/scg-base-0.91.1.buildspec:0.91.2
-content/nl/basjes/codeowners/codeowners-parent/codeowners-parent-1.12.1.buildspec:1.12.2
-content/org/apache/activemq/activemq-6.1.8.buildspec:6.2.0
-content/org/apache/karaf/decanter/karaf-decanter-2.11.0.buildspec:2.12.0
+content/nl/basjes/codeowners/codeowners-parent/codeowners-parent-1.12.1.buildspec:1.13.0
+content/org/apache/maven/plugins/maven-rar-plugin/maven-rar-plugin-3.0.0.buildspec:3.1.0
