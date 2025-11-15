@@ -7,12 +7,13 @@
 
 Source code: [https://gitbox.apache.org/repos/asf/netbeans-nbpackage.git](https://gitbox.apache.org/repos/asf/netbeans-nbpackage.git)
 
-rebuilding **1 releases** of org.apache.netbeans:nbpackage:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of org.apache.netbeans:nbpackage:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [1.0-beta6](https://central.sonatype.com/artifact/org.apache.netbeans/nbpackage/1.0-beta6/pom) | [mvn jdk21](nbpackage-1.0-beta6.buildspec) | [result](nbpackage-1.0-beta6.buildinfo): [6 :white_check_mark: ](nbpackage-1.0-beta6.buildcompare) | | 7.0M |
+| [1.0-beta5](https://central.sonatype.com/artifact/org.apache.netbeans/nbpackage/1.0-beta5/pom) | [mvn jdk17](nbpackage-1.0-beta5.buildspec) | [result](nbpackage-1.0-beta5.buildinfo): [6 :white_check_mark: ](nbpackage-1.0-beta5.buildcompare) | | 6.9M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

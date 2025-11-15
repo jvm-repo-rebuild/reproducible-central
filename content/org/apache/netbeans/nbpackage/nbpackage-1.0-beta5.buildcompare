@@ -1,0 +1,9 @@
+version=1.0-beta5
+ok=6
+ko=0
+ignored=0
+okFiles="nbpackage-1.0-beta5.pom nbpackage-1.0-beta5.jar nbpackage-1.0-beta5-source-release.zip nbpackage-1.0-beta5-bin.tar.gz nbpackage-1.0-beta5-bin.zip nbpackage-1.0-beta5-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
