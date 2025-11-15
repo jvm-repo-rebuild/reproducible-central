@@ -1,0 +1,72 @@
+1 / 4 target/reference/org.apache.netbeans.utilities/nb-shared-14.3-sources.jar nb-shared/target/nb-shared-14.3-sources.jar
+--- target/reference/org.apache.netbeans.utilities/nb-shared-14.3-sources.jar
++++ nb-shared/target/nb-shared-14.3-sources.jar
+├── zipinfo {}
+│ @@ -10,10 +10,10 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/nb-shared/
+│  -rw-r--r--  2.0 unx     3561 b- defN 23-Jun-11 16:41 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-Jun-11 16:41 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      221 b- defN 23-Jun-11 16:41 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     4375 b- defN 23-Jun-11 16:41 org/apache/netbeans/nbm/utils/AbstractNetbeansMojo.java
+│  -rw-r--r--  2.0 unx    15547 b- defN 23-Jun-11 16:41 org/apache/netbeans/nbm/utils/ExamineManifest.java
+│ --rw-r--r--  2.0 unx     6586 b- defN 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/nb-shared/pom.xml
+│ --rw-r--r--  2.0 unx       72 b- defN 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/nb-shared/pom.properties
+│ +-rw-rw-r--  2.0 unx     6586 b- defN 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/nb-shared/pom.xml
+│ +-rw-rw-r--  2.0 unx       72 b- defN 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/nb-shared/pom.properties
+│  17 files, 41784 bytes uncompressed, 11495 bytes compressed:  72.5%
+
+2 / 4 target/reference/org.apache.netbeans.utilities/nbm-maven-harness-14.3-sources.jar nbm-maven-harness/target/nbm-maven-harness-14.3-sources.jar
+--- target/reference/org.apache.netbeans.utilities/nbm-maven-harness-14.3-sources.jar
++++ nbm-maven-harness/target/nbm-maven-harness-14.3-sources.jar
+├── zipinfo {}
+│ @@ -5,10 +5,10 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/nbm-maven-harness/
+│  -rw-r--r--  2.0 unx      305 b- defN 23-Jun-11 16:41 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-Jun-11 16:41 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      205 b- defN 23-Jun-11 16:41 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx      923 b- defN 23-Jun-11 16:41 Dummy.java
+│  -rw-r--r--  2.0 unx      897 b- defN 23-Jun-11 16:41 dummy.txt
+│ --rw-r--r--  2.0 unx    12056 b- defN 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/nbm-maven-harness/pom.xml
+│ --rw-r--r--  2.0 unx       80 b- defN 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/nbm-maven-harness/pom.properties
+│ +-rw-rw-r--  2.0 unx    12056 b- defN 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/nbm-maven-harness/pom.xml
+│ +-rw-rw-r--  2.0 unx       80 b- defN 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/nbm-maven-harness/pom.properties
+│  12 files, 25888 bytes uncompressed, 7690 bytes compressed:  70.3%
+
+3 / 4 target/reference/org.apache.netbeans.utilities/nb-repository-plugin-14.3-sources.jar nb-repository-plugin/target/nb-repository-plugin-14.3-sources.jar
+--- target/reference/org.apache.netbeans.utilities/nb-repository-plugin-14.3-sources.jar
++++ nb-repository-plugin/target/nb-repository-plugin-14.3-sources.jar
+├── zipinfo {}
+│ @@ -12,10 +12,10 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/nb-repository-plugin/
+│  -rw-r--r--  2.0 unx     3524 b- defN 23-Jun-11 16:41 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-Jun-11 16:41 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      209 b- defN 23-Jun-11 16:41 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx    46602 b- defN 23-Jun-11 16:41 org/apache/netbeans/nbm/repository/PopulateRepositoryMojo.java
+│  -rw-r--r--  2.0 unx    15224 b- defN 23-Jun-11 16:41 org/apache/netbeans/utilities/nb_repository_plugin/HelpMojo.java
+│ --rw-r--r--  2.0 unx    13123 b- defN 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/nb-repository-plugin/pom.xml
+│ --rw-r--r--  2.0 unx       83 b- defN 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/nb-repository-plugin/pom.properties
+│ +-rw-rw-r--  2.0 unx    13123 b- defN 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/nb-repository-plugin/pom.xml
+│ +-rw-rw-r--  2.0 unx       83 b- defN 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/nb-repository-plugin/pom.properties
+│  19 files, 90187 bytes uncompressed, 20770 bytes compressed:  77.0%
+
+4 / 4 target/reference/org.apache.netbeans.utilities/nbm-maven-plugin-14.3-sources.jar nbm-maven-plugin/target/nbm-maven-plugin-14.3-sources.jar
+--- target/reference/org.apache.netbeans.utilities/nbm-maven-plugin-14.3-sources.jar
++++ nbm-maven-plugin/target/nbm-maven-plugin-14.3-sources.jar
+├── zipinfo {}
+│ @@ -38,10 +38,10 @@
+│  -rw-r--r--  2.0 unx     5262 b- defN 23-Jun-11 16:41 org/apache/netbeans/nbm/model/Dependency.java
+│  -rw-r--r--  2.0 unx     4442 b- defN 23-Jun-11 16:41 org/apache/netbeans/nbm/model/NbmResource.java
+│  -rw-r--r--  2.0 unx    17346 b- defN 23-Jun-11 16:41 org/apache/netbeans/nbm/model/NetBeansModule.java
+│  -rw-r--r--  2.0 unx    33010 b- defN 23-Jun-11 16:41 org/apache/netbeans/nbm/model/io/xpp3/NetBeansModuleXpp3Reader.java
+│  -rw-r--r--  2.0 unx     5598 b- defN 23-Jun-11 16:41 META-INF/plexus/components.xml
+│  -rw-r--r--  2.0 unx     1310 b- defN 23-Jun-11 16:41 branding.jnlp
+│  -rw-r--r--  2.0 unx     2043 b- defN 23-Jun-11 16:41 master.jnlp
+│ --rw-r--r--  2.0 unx    19721 b- defN 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/nbm-maven-plugin/pom.xml
+│ --rw-r--r--  2.0 unx       79 b- defN 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/nbm-maven-plugin/pom.properties
+│ +-rw-rw-r--  2.0 unx    19721 b- defN 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/nbm-maven-plugin/pom.xml
+│ +-rw-rw-r--  2.0 unx       79 b- defN 23-Jun-11 16:41 META-INF/maven/org.apache.netbeans.utilities/nbm-maven-plugin/pom.properties
+│  45 files, 395759 bytes uncompressed, 95536 bytes compressed:  75.9%
+
