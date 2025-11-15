@@ -1,0 +1,18 @@
+groupId=org.apache.netbeans.utilities
+artifactId=utilities-parent
+display=${groupId}:${artifactId}
+version=14.1
+
+gitRepo=https://gitbox.apache.org/repos/asf/netbeans-mavenutils-nbm-maven-plugin.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=lf
+umask=022
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
