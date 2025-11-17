@@ -1,3 +1,7 @@
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.2-beta-12.buildspec:11.2.2-beta-13
+content/com/github/nbbrd/spreadsheet4j/spreadsheet-2.5.9.buildspec:2.5.10
+content/io/fabric8/docker-maven-plugin/docker-maven-plugin-0.47.0.buildspec:0.48.0
+content/io/wcm/tooling/wcm-parent_toplevel-2.6.0.buildspec:2.6.2
 content/nl/basjes/codeowners/codeowners-parent/codeowners-parent-1.12.1.buildspec:1.13.0
-content/org/apache/commons/commons-lang3/commons-lang3-3.19.0.buildspec:3.20.0
+content/org/apache/commons/commons-validator/commons-validator-1.10.0.buildspec:1.10.1
+content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.1.5.Final.buildspec:4.1.6.Final
+content/org/junit/junit5/junit5-6.0.1.buildspec:6.1.0-M1

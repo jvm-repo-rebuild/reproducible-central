@@ -13,6 +13,7 @@ rebuilding **25 releases** of io.fabric8:docker-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.48.0](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.48.0/pom) | | | |
 | [0.47.0](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.47.0/pom) | [mvn jdk11](docker-maven-plugin-0.47.0.buildspec) | [result](docker-maven-plugin-0.47.0.buildinfo): [3 :white_check_mark: ](docker-maven-plugin-0.47.0.buildcompare) | | 1.1M |
 | [0.46.0](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.46.0/pom) | [mvn jdk11](docker-maven-plugin-0.46.0.buildspec) | [result](docker-maven-plugin-0.46.0.buildinfo): [3 :white_check_mark: ](docker-maven-plugin-0.46.0.buildcompare) | | 1.1M |
 | [0.45.1](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.45.1/pom) | [mvn jdk11](docker-maven-plugin-0.45.1.buildspec) | [result](docker-maven-plugin-0.45.1.buildinfo): [3 :white_check_mark: ](docker-maven-plugin-0.45.1.buildcompare) | | 1.1M |

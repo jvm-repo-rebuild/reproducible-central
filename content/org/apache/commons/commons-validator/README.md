@@ -13,6 +13,7 @@ rebuilding **2 releases** of commons-validator:commons-validator:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.10.1](https://central.sonatype.com/artifact/commons-validator/commons-validator/1.10.1/pom) | | | |
 | [1.10.0](https://central.sonatype.com/artifact/commons-validator/commons-validator/1.10.0/pom) | [mvn jdk21](commons-validator-1.10.0.buildspec) | [result](commons-validator-1.10.0.buildinfo): [7 :white_check_mark: ](commons-validator-1.10.0.buildcompare) | | 956K |
 | [1.9.0](https://central.sonatype.com/artifact/commons-validator/commons-validator/1.9.0/pom) | [mvn jdk17](commons-validator-1.9.0.buildspec) | [result](commons-validator-1.9.0.buildinfo): [7 :white_check_mark: ](commons-validator-1.9.0.buildcompare) | | 924K |
 
