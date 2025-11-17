@@ -1,0 +1,9 @@
+version=2.5.10
+ok=27
+ko=0
+ignored=0
+okFiles="spreadsheet-parent-2.5.10.pom spreadsheet-api-2.5.10.pom spreadsheet-api-2.5.10.jar spreadsheet-api-2.5.10-sources.jar spreadsheet-api-2.5.10-tests.jar spreadsheet-html-2.5.10.pom spreadsheet-html-2.5.10.jar spreadsheet-html-2.5.10-sources.jar spreadsheet-poi-2.5.10.pom spreadsheet-poi-2.5.10.jar spreadsheet-poi-2.5.10-sources.jar spreadsheet-od-2.5.10.pom spreadsheet-od-2.5.10.jar spreadsheet-od-2.5.10-sources.jar spreadsheet-xmlss-2.5.10.pom spreadsheet-xmlss-2.5.10.jar spreadsheet-xmlss-2.5.10-sources.jar spreadsheet-xl-2.5.10.pom spreadsheet-xl-2.5.10.jar spreadsheet-xl-2.5.10-sources.jar spreadsheet-fastexcel-2.5.10.pom spreadsheet-fastexcel-2.5.10.jar spreadsheet-fastexcel-2.5.10-sources.jar spreadsheet-standalone-2.5.10.pom spreadsheet-standalone-2.5.10.jar spreadsheet-standalone-2.5.10-sources.jar spreadsheet-bom-2.5.10.pom"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
