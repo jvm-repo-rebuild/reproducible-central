@@ -1,0 +1,9 @@
+version=0.0.28
+ok=3
+ko=0
+ignored=0
+okFiles="openapi-maven-plugin-0.0.28.pom openapi-maven-plugin-0.0.28.jar openapi-maven-plugin-0.0.28-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
