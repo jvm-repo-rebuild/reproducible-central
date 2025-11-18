@@ -25,7 +25,7 @@ newline=lf
 command="mvn clean package -Pprerelease -DskipTests -f openapi-maven-plugin"
 
 # Location of the buildinfo file generated during rebuild (by artifact:compare for Maven) to record output fingerprints
-buildinfo=target/${artifactId}-${version}.buildinfo
+buildinfo=openapi-maven-plugin/target/${artifactId}-${version}.buildinfo
 
 # if the release is finally not reproducible, link to an issue tracker entry if one was created or diffoscope result
 #diffoscope=${artifactId}-${version}.diffoscope
