@@ -7,21 +7,22 @@
 
 Source code: [https://github.com/nielsbasjes/codeowners.git](https://github.com/nielsbasjes/codeowners.git)
 
-<details><summary>This project defines 4 modules:</summary>
+<details><summary>This project defines 5 modules:</summary>
 
 * [nl.basjes.codeowners:codeowners-parent](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/overview)
 * [nl.basjes.codeowners:codeowners-reader](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-reader/overview)
+* [nl.basjes.codeowners:codeowners-validator](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-validator/overview)
 * [nl.basjes.gitignore:gitignore-reader](https://central.sonatype.com/artifact/nl.basjes.gitignore/gitignore-reader/overview)
 * [nl.basjes.maven.enforcer.codeowners:codeowners-enforcer-rules](https://central.sonatype.com/artifact/nl.basjes.maven.enforcer.codeowners/codeowners-enforcer-rules/overview)
 </details>
 
-rebuilding **27 releases** of nl.basjes.codeowners:codeowners-parent:
-- **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **28 releases** of nl.basjes.codeowners:codeowners-parent:
+- **28** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.13.0](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.13.0/pom) | | | |
+| [1.13.0](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.13.0/pom) | [mvn jdk25](codeowners-parent-1.13.0.buildspec) | [result](codeowners-parent-1.13.0.buildinfo): [13 :white_check_mark: ](codeowners-parent-1.13.0.buildcompare) | | 508K |
 | [1.12.2](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.12.2/pom) | | | |
 | [1.12.1](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.12.1/pom) | [mvn jdk21](codeowners-parent-1.12.1.buildspec) | [result](codeowners-parent-1.12.1.buildinfo): [10 :white_check_mark: ](codeowners-parent-1.12.1.buildcompare) | | 484K |
 | [1.12.0](https://central.sonatype.com/artifact/nl.basjes.codeowners/codeowners-parent/1.12.0/pom) | [mvn jdk21](codeowners-parent-1.12.0.buildspec) | [result](codeowners-parent-1.12.0.buildinfo): [10 :white_check_mark: ](codeowners-parent-1.12.0.buildcompare) | | 482K |
