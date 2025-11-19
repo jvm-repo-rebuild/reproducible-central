@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Ollama4j
+group-id=io.github.ollama4j
+artifact-id=ollama4j
+version=1.1.5
+
+# source information
+source.scm.uri=scm:git:git@github.com:ollama4j/ollama4j.git
+source.scm.tag=1.1.5
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=io.github.ollama4j
+outputs.0.filename=ollama4j-1.1.5.pom
+outputs.0.length=20473
+outputs.0.checksums.sha512=b1035695ff49a5e2a88ace8ec605df02a744d727df57551c74de482780554e1e78ff4d4d625575731fae3d078976bd34d7ca7bebaafcddb9bd32811d936189ac
+
+outputs.1.groupId=io.github.ollama4j
+outputs.1.filename=ollama4j-1.1.5.jar
+outputs.1.length=159433
+outputs.1.checksums.sha512=1fda77c39c97d3e052ce85dd9561a0a2c159498e53a69c2cda0138c4197cfe64b4ffe922cf8c97a28fe4aae36e15902198c72fd647d0ae759061bd98ba936e99
+
+outputs.2.groupId=io.github.ollama4j
+outputs.2.filename=ollama4j-1.1.5-sources.jar
+outputs.2.length=73887
+outputs.2.checksums.sha512=a7715bc6ed2653bb9941f18af0cb2201b3cb18bb94d8ef5d913a5949bca3cbec9260bd30a5b4ea3b67a098af73747f6dca62aa6705e6f1cae786a2dc7d37cee6
