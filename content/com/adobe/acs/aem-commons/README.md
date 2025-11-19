@@ -27,6 +27,7 @@ rebuilding **10 releases** of com.adobe.acs:acs-aem-commons:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [6.15.4](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.15.4/pom) | | | |
 | [6.15.0](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.15.0/pom) | [mvn jdk11](acs-aem-commons-6.15.0.buildspec) | [result](acs-aem-commons-6.15.0.buildinfo): [15 :white_check_mark:  7 :warning:](acs-aem-commons-6.15.0.buildcompare) | 4 :recycle: 3 :rotating_light: | 67M |
 | [6.14.0](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.14.0/pom) | [mvn jdk11](acs-aem-commons-6.14.0.buildspec) | [result](acs-aem-commons-6.14.0.buildinfo): [18 :white_check_mark:  8 :warning:](acs-aem-commons-6.14.0.buildcompare) | 4 :recycle: 3 :rotating_light: 1 :no_entry_sign: | 80M |
 | [6.12.0](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.12.0/pom) | [mvn jdk11](acs-aem-commons-6.12.0.buildspec) | [result](acs-aem-commons-6.12.0.buildinfo): [18 :white_check_mark:  8 :warning:](acs-aem-commons-6.12.0.buildcompare) | - | 80M |

@@ -23,6 +23,7 @@ rebuilding **11 releases** of org.apache.sling:org.apache.sling.testing.osgi-moc
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.5.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.5.4/pom) | | | |
 | [3.5.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.5.2/pom) | [mvn jdk17 w](org.apache.sling.testing.osgi-mock-3.5.2.buildspec) | [result](org.apache.sling.testing.osgi-mock-3.5.2.buildinfo): [21 :white_check_mark: ](org.apache.sling.testing.osgi-mock-3.5.2.buildcompare) | | 1.7M |
 | [3.5.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.5.0/pom) | [mvn jdk17 w](org.apache.sling.testing.osgi-mock-3.5.0.buildspec) | [result](org.apache.sling.testing.osgi-mock-3.5.0.buildinfo): [21 :white_check_mark: ](org.apache.sling.testing.osgi-mock-3.5.0.buildcompare) | | 1.7M |
 | [3.4.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.4.2/pom) | [mvn jdk11 w](org.apache.sling.testing.osgi-mock-3.4.2.buildspec) | [result](org.apache.sling.testing.osgi-mock-3.4.2.buildinfo): [21 :white_check_mark: ](org.apache.sling.testing.osgi-mock-3.4.2.buildcompare) | | 2.1M |

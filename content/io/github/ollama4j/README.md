@@ -13,6 +13,7 @@ rebuilding **10 releases** of io.github.ollama4j:ollama4j:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.1.5](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.1.5/pom) | | | |
 | [1.1.4](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.1.4/pom) | [mvn jdk21](ollama4j-1.1.4.buildspec) | [result](ollama4j-1.1.4.buildinfo): [3 :white_check_mark: ](ollama4j-1.1.4.buildcompare) | | 248K |
 | [1.1.3](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.1.3/pom) | [mvn jdk21](ollama4j-1.1.3.buildspec) | [result](ollama4j-1.1.3.buildinfo): [3 :white_check_mark: ](ollama4j-1.1.3.buildcompare) | | 244K |
 | [1.1.2](https://central.sonatype.com/artifact/io.github.ollama4j/ollama4j/1.1.2/pom) | [mvn jdk21](ollama4j-1.1.2.buildspec) | [result](ollama4j-1.1.2.buildinfo): [3 :white_check_mark: ](ollama4j-1.1.2.buildcompare) | | 244K |
