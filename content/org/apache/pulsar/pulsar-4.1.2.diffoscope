@@ -1,0 +1,485 @@
+1 / 31 target/reference/org.apache.pulsar/pulsar-4.1.2-source-release.zip target/pulsar-source-release.zip
+--- target/reference/org.apache.pulsar/pulsar-4.1.2-source-release.zip
++++ target/pulsar-source-release.zip
+├── zipinfo {}
+│ @@ -1,10 +1,11 @@
+│ -Zip file size: 12910452 bytes, number of entries: 7957
+│ +Zip file size: 12896488 bytes, number of entries: 7944
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 pulsar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 pulsar/.mvn/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 pulsar/.mvn/.develocity/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 pulsar/.mvn/wrapper/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 pulsar/bin/
+│ @@ -491,16 +492,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/api/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/avro/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/avro/generated/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/examples/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/impl/
+│ @@ -1056,15 +1055,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 pulsar/pulsar-functions/worker/src/test/java/org/apache/pulsar/functions/worker/rest/api/v3/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 pulsar/pulsar-functions/worker/src/test/java/org/apache/pulsar/functions/worker/scheduler/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 pulsar/pulsar-functions/worker/src/test/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 pulsar/pulsar-io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 pulsar/pulsar-io/aerospike/
+│ @@ -2301,14 +2299,15 @@
+│  -rw-r--r--  2.0 unx       72 b- defN 25-Nov-11 21:36 pulsar/.gitattributes
+│  -rw-r--r--  2.0 unx     2091 b- defN 25-Nov-11 21:36 pulsar/.gitignore
+│ +-rw-r--r--  2.0 unx       26 b- defN 25-Nov-11 21:36 pulsar/.mvn/.develocity/develocity-workspace-id
+│  -rw-r--r--  2.0 unx     2136 b- defN 25-Nov-11 21:36 pulsar/.mvn/develocity-custom-user-data.groovy
+│  -rw-r--r--  2.0 unx     2230 b- defN 25-Nov-11 21:36 pulsar/.mvn/develocity.xml
+│ @@ -4869,15 +4868,14 @@
+│  -rw-r--r--  2.0 unx     4327 b- defN 25-Nov-11 21:36 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/api/RangeTest.java
+│  -rw-r--r--  2.0 unx     4013 b- defN 25-Nov-11 21:36 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/api/SchemaDefinitionBuilderTest.java
+│ --rw-r--r--  2.0 unx    19324 b- defN 25-Nov-11 21:36 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/avro/generated/NasaMission.java
+│  -rw-r--r--  2.0 unx     3572 b- defN 25-Nov-11 21:36 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/examples/TransactionExample.java
+│  -rw-r--r--  2.0 unx    17471 b- defN 25-Nov-11 21:36 pulsar/pulsar-client/src/test/java/org/apache/pulsar/client/impl/AcknowledgementsGroupingTrackerTest.java
+│ @@ -5469,15 +5467,14 @@
+│  -rw-r--r--  2.0 unx     9591 b- defN 25-Nov-11 21:36 pulsar/pulsar-client-tools/src/test/java/org/apache/pulsar/shell/ConfigShellTest.java
+│  -rw-r--r--  2.0 unx     9127 b- defN 25-Nov-11 21:36 pulsar/pulsar-client-tools/src/test/java/org/apache/pulsar/shell/PulsarShellTest.java
+│ --rw-r--r--  2.0 unx     6612 b- defN 25-Nov-11 21:36 pulsar/pulsar-client-tools/src/test/resources/dummy.nar
+│  -rw-r--r--  2.0 unx      865 b- defN 25-Nov-11 21:36 pulsar/pulsar-client-tools/src/test/resources/test-shell-file
+│  -rw-r--r--  2.0 unx      887 b- defN 25-Nov-11 21:36 pulsar/pulsar-client-tools/src/test/resources/test-shell-file-error
+│ @@ -6219,19 +6216,14 @@
+│  -rw-r--r--  2.0 unx     6490 b- defN 25-Nov-11 21:36 pulsar/pulsar-functions/runtime/src/test/java/org/apache/pulsar/functions/runtime/thread/ThreadRuntimeFactoryTest.java
+│  -rw-r--r--  2.0 unx     7468 b- defN 25-Nov-11 21:36 pulsar/pulsar-functions/runtime/src/test/java/org/apache/pulsar/functions/worker/WorkerApiV2ResourceConfigTest.java
+│ --rw-r--r--  2.0 unx     1021 b- defN 25-Nov-11 21:36 pulsar/pulsar-functions/runtime/src/test/resources/test_worker_auth_override_config.yml
+│ --rw-r--r--  2.0 unx     1149 b- defN 25-Nov-11 21:36 pulsar/pulsar-functions/runtime/src/test/resources/test_worker_config.yml
+│ --rw-r--r--  2.0 unx     1128 b- defN 25-Nov-11 21:36 pulsar/pulsar-functions/runtime/src/test/resources/test_worker_k8s_auth_override_config.yml
+│ --rw-r--r--  2.0 unx     1065 b- defN 25-Nov-11 21:36 pulsar/pulsar-functions/runtime/src/test/resources/test_worker_k8s_config.yml
+│ --rw-r--r--  2.0 unx     1010 b- defN 25-Nov-11 21:36 pulsar/pulsar-functions/runtime/src/test/resources/test_worker_k8s_legacy_config.yml
+│  -rw-r--r--  2.0 unx     1362 b- defN 25-Nov-11 21:36 pulsar/pulsar-functions/runtime/src/test/resources/test_worker_k8s_resource_config.yml
+│  -rw-r--r--  2.0 unx     5802 b- defN 25-Nov-11 21:36 pulsar/pulsar-functions/runtime-all/pom.xml
+│ @@ -6396,19 +6388,14 @@
+│  -rw-r--r--  2.0 unx    55886 b- defN 25-Nov-11 21:36 pulsar/pulsar-functions/worker/src/test/java/org/apache/pulsar/functions/worker/rest/api/v3/SourceApiV3ResourceTest.java
+│  -rw-r--r--  2.0 unx     2950 b- defN 25-Nov-11 21:36 pulsar/pulsar-functions/worker/src/test/java/org/apache/pulsar/functions/worker/scheduler/RoundRobinSchedulerTest.java
+│ --rw-r--r--  2.0 unx     1021 b- defN 25-Nov-11 21:36 pulsar/pulsar-functions/worker/src/test/resources/test_worker_auth_override_config.yml
+│ --rw-r--r--  2.0 unx     1149 b- defN 25-Nov-11 21:36 pulsar/pulsar-functions/worker/src/test/resources/test_worker_config.yml
+│ --rw-r--r--  2.0 unx     1128 b- defN 25-Nov-11 21:36 pulsar/pulsar-functions/worker/src/test/resources/test_worker_k8s_auth_override_config.yml
+│ --rw-r--r--  2.0 unx     1065 b- defN 25-Nov-11 21:36 pulsar/pulsar-functions/worker/src/test/resources/test_worker_k8s_config.yml
+│ --rw-r--r--  2.0 unx     1010 b- defN 25-Nov-11 21:36 pulsar/pulsar-functions/worker/src/test/resources/test_worker_k8s_legacy_config.yml
+│  -rw-r--r--  2.0 unx     3232 b- defN 25-Nov-11 21:36 pulsar/pulsar-io/aerospike/pom.xml
+│  -rw-r--r--  2.0 unx     6361 b- defN 25-Nov-11 21:36 pulsar/pulsar-io/aerospike/src/main/java/org/apache/pulsar/io/aerospike/AerospikeAbstractSink.java
+│ @@ -7952,8 +7939,8 @@
+│  -rw-r--r--  2.0 unx     3216 b- defN 25-Nov-11 21:36 pulsar/wireshark/pulsar.lua
+│  -rw-r--r--  2.0 unx      256 b- defN 25-Nov-11 21:36 pulsar/DEPENDENCIES
+│ -7957 files, 46733945 bytes uncompressed, 11031282 bytes compressed:  76.4%
+│ +7944 files, 46697289 bytes uncompressed, 11020474 bytes compressed:  76.4%
+
+2 / 31 target/reference/org.apache.pulsar/pulsar-common-4.1.2.jar pulsar-common/target/pulsar-common.jar
+3 / 31 target/reference/org.apache.pulsar/pulsar-common-4.1.2-sources.jar pulsar-common/target/pulsar-common-sources.jar
+--- target/reference/org.apache.pulsar/pulsar-common-4.1.2-sources.jar
++++ pulsar-common/target/pulsar-common-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 644124 bytes, number of entries: 422
+│ +Zip file size: 644101 bytes, number of entries: 422
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 25-Nov-11 21:36 META-INF/MANIFEST.MF
+│ @@ -326,15 +326,15 @@
+│  -rw-r--r--  2.0 unx     7385 b- defN 25-Nov-11 21:36 org/apache/pulsar/policies/data/loadbalancer/TimeAverageMessageData.java
+│  -rw-r--r--  2.0 unx      926 b- defN 25-Nov-11 21:36 org/apache/pulsar/policies/data/loadbalancer/package-info.java
+│ --rw-r--r--  2.0 unx     3888 b- defN 25-Nov-11 21:36 org/apache/pulsar/PulsarVersion.java
+│ +-rw-r--r--  2.0 unx     3886 b- defN 25-Nov-11 21:36 org/apache/pulsar/PulsarVersion.java
+│  -rw-r--r--  2.0 unx     6259 b- defN 25-Nov-11 21:36 org/apache/pulsar/common/api/proto/AuthData.java
+│  -rw-r--r--  2.0 unx      633 b- defN 25-Nov-11 21:36 org/apache/pulsar/common/api/proto/AuthMethod.java
+│ @@ -417,8 +417,8 @@
+│  -rw-r--r--  2.0 unx    13785 b- defN 25-Nov-11 21:36 META-INF/maven/org.apache.pulsar/pulsar-common/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 25-Nov-11 21:36 META-INF/maven/org.apache.pulsar/pulsar-common/pom.properties
+│ -422 files, 2385912 bytes uncompressed, 566378 bytes compressed:  76.3%
+│ +422 files, 2385910 bytes uncompressed, 566355 bytes compressed:  76.3%
+├── org/apache/pulsar/PulsarVersion.java
+│ @@ -79,24 +79,24 @@
+│              return commit + "(dirty)";
+│          } else {
+│              return commit;
+│          }
+│      }
+│  
+│      public static String getGitBranch() {
+│ -        return "branch-4.1";
+│ +        return "5f587c1204d13ec6b657c7eef472f8427368a9f6";
+│      }
+│  
+│      public static String getBuildUser() {
+│ -        String email = "lhotari@apache.org";
+│ -        String name = "Lari Hotari";
+│ +        String email = "";
+│ +        String name = "";
+│          return String.format("%s <%s>", name, email);
+│      }
+│  
+│      public static String getBuildHost() {
+│ -        return "Laris-MBP-2.lan";
+│ +        return "17b033821e50";
+│      }
+│  
+│      public static String getBuildTime() {
+│ -        return "2025-11-11T23:36:57+0200";
+│ +        return "2025-11-11T21:36:57+0000";
+│      }
+│  }
+
+4 / 31 target/reference/org.apache.pulsar/jclouds-shaded-4.1.2.jar jclouds-shaded/target/jclouds-shaded.jar
+--- target/reference/org.apache.pulsar/jclouds-shaded-4.1.2.jar
++++ jclouds-shaded/target/jclouds-shaded.jar
+├── zipinfo {}
+│ @@ -15,14 +15,15 @@
+│  -rw----     2.0 fat        0 bl defN 25-Nov-11 21:36 META-INF/maven/org.apache.pulsar/jclouds-shaded/
+│  -rw----     2.0 fat     8283 bl defN 25-Nov-11 21:36 META-INF/maven/org.apache.pulsar/jclouds-shaded/pom.xml
+│  -rw----     2.0 fat       66 bl defN 25-Nov-11 21:36 META-INF/maven/org.apache.pulsar/jclouds-shaded/pom.properties
+│  -rw----     2.0 fat        0 bl defN 22-Nov-11 08:16 META-INF/maven/org.apache.jclouds/
+│  -rw----     2.0 fat        0 bl defN 22-Nov-11 08:16 META-INF/maven/org.apache.jclouds/jclouds-allblobstore/
+│  -rw----     2.0 fat     3145 bl defN 22-Nov-11 08:16 META-INF/maven/org.apache.jclouds/jclouds-allblobstore/pom.xml
+│  -rw----     2.0 fat       73 bl defN 22-Nov-11 08:16 META-INF/maven/org.apache.jclouds/jclouds-allblobstore/pom.properties
+│ +-rw----     2.0 fat        0 bl defN 22-Nov-11 08:16 META-INF/services/
+│  -rw----     2.0 fat        0 bl defN 22-Nov-11 08:16 org/jclouds/
+│  -rw----     2.0 fat        0 bl defN 22-Nov-11 08:16 org/jclouds/s3/
+│  -rw----     2.0 fat      461 bl defN 22-Nov-11 08:16 org/jclouds/s3/Bucket.class
+│  -rw----     2.0 fat     2399 bl defN 22-Nov-11 08:16 org/jclouds/s3/S3$1.class
+│  -rw----     2.0 fat     2034 bl defN 22-Nov-11 08:16 org/jclouds/s3/S3$ToIterableWithMarker.class
+│  -rw----     2.0 fat     1617 bl defN 22-Nov-11 08:16 org/jclouds/s3/S3.class
+│  -rw----     2.0 fat      217 bl defN 22-Nov-11 08:16 org/jclouds/s3/S3ApiMetadata$1.class
+│ @@ -6165,12 +6166,11 @@
+│  -rw----     2.0 fat      429 bl defN 04-Mar-19 14:57 org/apache/pulsar/jcloud/shade/org/aopalliance/intercept/ConstructorInterceptor.class
+│  -rw----     2.0 fat      316 bl defN 04-Mar-19 14:57 org/apache/pulsar/jcloud/shade/org/aopalliance/intercept/ConstructorInvocation.class
+│  -rw----     2.0 fat      225 bl defN 04-Mar-19 14:57 org/apache/pulsar/jcloud/shade/org/aopalliance/intercept/Interceptor.class
+│  -rw----     2.0 fat      279 bl defN 04-Mar-19 14:57 org/apache/pulsar/jcloud/shade/org/aopalliance/intercept/Invocation.class
+│  -rw----     2.0 fat      328 bl defN 04-Mar-19 14:57 org/apache/pulsar/jcloud/shade/org/aopalliance/intercept/Joinpoint.class
+│  -rw----     2.0 fat      411 bl defN 04-Mar-19 14:57 org/apache/pulsar/jcloud/shade/org/aopalliance/intercept/MethodInterceptor.class
+│  -rw----     2.0 fat      296 bl defN 04-Mar-19 14:57 org/apache/pulsar/jcloud/shade/org/aopalliance/intercept/MethodInvocation.class
+│ --rw----     2.0 fat        0 bl defN 22-Nov-11 08:16 META-INF/services/
+│  -rw----     2.0 fat      319 bl defN 22-Nov-11 08:16 META-INF/services/org.jclouds.providers.ProviderMetadata
+│  -rw----     2.0 fat      459 bl defN 22-Nov-11 08:16 META-INF/services/org.jclouds.apis.ApiMetadata
+│  -rw----     2.0 fat       52 bl defN 22-Nov-11 08:16 META-INF/services/org.jclouds.logging.config.LoggingModule
+│  6174 files, 18616141 bytes uncompressed, 6770635 bytes compressed:  63.6%
+
+5 / 31 target/reference/org.apache.pulsar/bouncy-castle-bc-4.1.2-pkg.jar bouncy-castle/bc/target/bouncy-castle-bc-4.1.2-pkg.jar
+--- target/reference/org.apache.pulsar/bouncy-castle-bc-4.1.2-pkg.jar
++++ bouncy-castle/bc/target/bouncy-castle-bc-4.1.2-pkg.jar
+├── zipinfo {}
+│ @@ -1,32 +1,32 @@
+│  Zip file size: 8873226 bytes, number of entries: 30
+│ --rw-r--r--  2.0 unx      356 bl defN 25-Nov-11 23:48 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 23:48 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 23:48 org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 23:48 org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 23:48 org/apache/pulsar/
+...
+│ --rw-r--r--  2.0 unx   705888 bl defN 25-Jun-04 10:57 lib/bcutil-jdk18on-1.81.jar
+│ --rw-r--r--  2.0 unx  8324412 bl defN 24-Jun-03 14:40 lib/bcprov-jdk18on-1.78.1.jar
+│ --rw-r--r--  2.0 unx     1365 bl defN 17-Jun-04 13:56 de/ntcomputer/executablepacker/runtime/JarInJarURLStreamHandler.class
+│ --rw-r--r--  2.0 unx     1508 bl defN 17-Jun-04 13:56 de/ntcomputer/executablepacker/runtime/JarInJarURLConnection.class
+│ --rw-r--r--  2.0 unx     4959 bl defN 17-Jun-04 13:56 de/ntcomputer/executablepacker/runtime/ExecutableLauncher.class
+│ --rw-r--r--  2.0 unx      911 bl defN 17-Jun-04 13:56 de/ntcomputer/executablepacker/runtime/JarInJarURLStreamHandlerFactory.class
+│ --rw-r--r--  2.0 unx       68 bl defN 25-Nov-11 23:48 META-INF/maven/org.apache.pulsar/bouncy-castle-bc/pom.properties
+│ --rw-r--r--  2.0 unx     3015 bl defN 25-Nov-11 23:36 META-INF/maven/org.apache.pulsar/bouncy-castle-bc/pom.xml
+│ -30 files, 10207082 bytes uncompressed, 8868752 bytes compressed:  13.1%
+│ +-rw-r--r--  2.0 unx      357 bl defN 25-Nov-19 08:00 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-19 08:00 META-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-19 08:00 META-INF/services/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-19 08:00 org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-19 08:00 org/apache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-19 08:00 org/apache/pulsar/
+...
+│ +-rw-rw-r--  2.0 unx  8324412 bl defN 25-Oct-05 18:01 lib/bcprov-jdk18on-1.78.1.jar
+│ +-rw-r--r--  2.0 unx      911 bl defN 17-Jun-04 10:56 de/ntcomputer/executablepacker/runtime/JarInJarURLStreamHandlerFactory.class
+│ +-rw-r--r--  2.0 unx     1365 bl defN 17-Jun-04 10:56 de/ntcomputer/executablepacker/runtime/JarInJarURLStreamHandler.class
+│ +-rw-r--r--  2.0 unx     4959 bl defN 17-Jun-04 10:56 de/ntcomputer/executablepacker/runtime/ExecutableLauncher.class
+│ +-rw-r--r--  2.0 unx     1508 bl defN 17-Jun-04 10:56 de/ntcomputer/executablepacker/runtime/JarInJarURLConnection.class
+│ +-rw-r--r--  2.0 unx     3015 bl defN 25-Nov-19 08:00 META-INF/maven/org.apache.pulsar/bouncy-castle-bc/pom.xml
+│ +-rw-r--r--  2.0 unx       68 bl defN 25-Nov-19 08:00 META-INF/maven/org.apache.pulsar/bouncy-castle-bc/pom.properties
+│ +30 files, 10207083 bytes uncompressed, 8868752 bytes compressed:  13.1%
+├── META-INF/MANIFEST.MF
+│ @@ -1,10 +1,10 @@
+│  Manifest-Version: 1.0
+│  Created-By: Apache Maven 3.9.11
+│ -Built-By: lari
+│ -Build-Jdk: 21.0.9
+│ +Built-By: herve
+│ +Build-Jdk: 21.0.5
+│  Main-Class: de.ntcomputer.executablepacker.runtime.ExecutableLauncher
+│  Application-Main-Class: org.apache.pulsar.bcloader.BouncyCastleLoader
+│  Dependency-Libpath: lib/
+│  Dependency-Jars: bcpkix-jdk18on-1.81.jar/bcutil-jdk18on-1.81.jar/bcprov-
+│   jdk18on-1.78.1.jar
+
+6 / 31 target/reference/org.apache.pulsar/pulsar-client-4.1.2.jar pulsar-client-shaded/target/pulsar-client.jar
+7 / 31 target/reference/org.apache.pulsar/pulsar-client-admin-4.1.2.jar pulsar-client-admin-shaded/target/pulsar-client-admin.jar
+8 / 31 target/reference/org.apache.pulsar/pulsar-client-all-4.1.2.jar pulsar-client-all/target/pulsar-client-all.jar
+
+9 / 31 target/reference/org.apache.pulsar/pulsar-client-all-4.1.2-sources.jar pulsar-client-all/target/pulsar-client-all-sources.jar
+--- target/reference/org.apache.pulsar/pulsar-client-all-4.1.2-sources.jar
++++ pulsar-client-all/target/pulsar-client-all-sources.jar
+├── zipinfo {}
+│ @@ -1,14 +1,688 @@
+│ -Zip file size: 17116951 bytes, number of entries: 8346
+│ +Zip file size: 17116928 bytes, number of entries: 8346
+│  -rw----     2.0 fat      343 bX defN 25-Nov-11 21:36 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat        0 bl defN 25-Nov-11 21:36 META-INF/
+│ --rw----     2.0 fat        0 bl defN 24-Jul-05 17:14 org/
+│ --rw----     2.0 fat        0 bl defN 24-Jul-05 17:14 org/apache/
+│ --rw----     2.0 fat        0 bl defN 24-Jul-05 17:14 org/apache/pulsar/
+│ --rw----     2.0 fat        0 bl defN 24-Jul-05 17:14 org/apache/pulsar/shade/
+│ +-rw----     2.0 fat        0 bl defN 25-Nov-11 21:36 org/
+│ +-rw----     2.0 fat        0 bl defN 25-Nov-11 21:36 org/apache/
+│ +-rw----     2.0 fat        0 bl defN 25-Nov-11 21:36 org/apache/pulsar/
+│ +-rw----     2.0 fat        0 bl defN 25-Nov-11 21:36 org/apache/pulsar/client/
+│ +-rw----     2.0 fat        0 bl defN 25-Nov-11 21:36 org/apache/pulsar/client/impl/
+│ +-rw----     2.0 fat     5661 bl defN 25-Nov-11 21:36 org/apache/pulsar/client/impl/AbstractBatchMessageContainer.java
+│ +-rw----     2.0 fat     1584 bl defN 25-Nov-11 21:36 org/apache/pulsar/client/impl/AcknowledgmentsGroupingTracker.java
+...
+│ +-rw----     2.0 fat    19084 bl defN 25-Nov-11 21:36 org/apache/pulsar/common/api/proto/SingleMessageMetadata.java
+│ +-rw----     2.0 fat     5944 bl defN 25-Nov-11 21:36 org/apache/pulsar/common/api/proto/Subscription.java
+│ +-rw----     2.0 fat      461 bl defN 25-Nov-11 21:36 org/apache/pulsar/common/api/proto/TxnAction.java
+│  -rw----     2.0 fat        0 bl defN 24-Jul-05 17:14 org/apache/pulsar/shade/com/
+│  -rw----     2.0 fat        0 bl defN 24-Jul-05 17:14 org/apache/pulsar/shade/com/fasterxml/
+│ @@ -503,14 +1177,16 @@
+│  -rw----     2.0 fat      116 bl defN 24-Jul-05 17:14 org/apache/pulsar/shade/com/fasterxml/jackson/databind/util/package-info.java
+│  -rw----     2.0 fat      725 bl defN 24-Jul-05 17:14 org/apache/pulsar/shade/com/fasterxml/jackson/databind/cfg/PackageVersion.java
+│ +-rw----     2.0 fat        0 bl defN 24-Jul-05 17:14 META-INF/
+│ +-rw----     2.0 fat        0 bl defN 24-Jul-05 17:14 META-INF/services/
+│  -rw----     2.0 fat        0 bl defN 24-Jul-05 16:48 org/apache/pulsar/shade/com/fasterxml/jackson/module/
+│  -rw----     2.0 fat        0 bl defN 24-Jul-05 16:48 org/apache/pulsar/shade/com/fasterxml/jackson/module/paramnames/
+│ @@ -598,15 +1274,14 @@
+│  -rw----     2.0 fat      719 bl defN 24-Jul-05 16:48 org/apache/pulsar/shade/com/fasterxml/jackson/datatype/jdk8/WrappedIOException.java
+│  -rw----     2.0 fat      735 bl defN 24-Jul-05 16:48 org/apache/pulsar/shade/com/fasterxml/jackson/datatype/jdk8/PackageVersion.java
+│ --rw----     2.0 fat        0 bl defN 25-Oct-14 14:33 org/apache/pulsar/shade/io/
+│  -rw----     2.0 fat        0 bl defN 25-Oct-14 14:33 org/apache/pulsar/shade/io/netty/
+│  -rw----     2.0 fat        0 bl defN 25-Oct-14 14:33 org/apache/pulsar/shade/io/netty/channel/
+...
+│ --rw----     2.0 fat      861 bl defN 25-Nov-11 21:36 org/apache/pulsar/client/admin/internal/http/package-info.java
+│ --rw----     2.0 fat      856 bl defN 25-Nov-11 21:36 org/apache/pulsar/client/admin/internal/package-info.java
+│ --rw----     2.0 fat      847 bl defN 25-Nov-11 21:36 org/apache/pulsar/client/admin/package-info.java
+│ --rw----     2.0 fat        0 bl defN 25-Nov-11 21:36 org/apache/pulsar/client/impl/crypto/
+│ --rw----     2.0 fat    26266 bl defN 25-Nov-11 21:36 org/apache/pulsar/client/impl/crypto/MessageCryptoBc.java
+│ --rw----     2.0 fat      913 bl defN 25-Nov-11 21:36 org/apache/pulsar/client/impl/crypto/package-info.java
+│  -rw----     2.0 fat       83 bl defN 25-Nov-11 21:36 META-INF/services/org.apache.pulsar.shade.org.glassfish.jersey.internal.inject.InjectionManagerFactory
+│  -rw----     2.0 fat       85 bl defN 25-Nov-11 21:36 META-INF/services/org.apache.pulsar.shade.org.glassfish.hk2.extension.ServiceLocatorGenerator
+│  -rw----     2.0 fat       77 bl defN 25-Nov-11 21:36 META-INF/services/org.apache.pulsar.shade.javax.ws.rs.ext.MessageBodyWriter
+│  -rw----     2.0 fat      170 bl defN 25-Nov-11 21:36 META-INF/services/org.apache.pulsar.shade.org.glassfish.jersey.internal.spi.AutoDiscoverable
+│  -rw----     2.0 fat       45 bl defN 25-Nov-11 21:36 META-INF/services/com.scurrilous.circe.HashProvider
+│  -rw----     2.0 fat      693 bl defN 25-Nov-11 21:36 META-INF/services/reactor.blockhound.integration.BlockHoundIntegration
+│  -rw----     2.0 fat        0 bl defN 25-Nov-11 21:36 META-INF/services/org.apache.pulsar.shade.javax.ws.rs.ext.RuntimeDelegate
+│  -rw----     2.0 fat      312 bl defN 25-Nov-11 21:36 META-INF/services/org.apache.pulsar.shade.com.fasterxml.jackson.databind.Module
+│  -rw----     2.0 fat      141 bl defN 25-Nov-11 21:36 META-INF/services/org.apache.pulsar.shade.com.fasterxml.jackson.core.ObjectCodec
+│  -rw----     2.0 fat       77 bl defN 25-Nov-11 21:36 META-INF/services/org.apache.pulsar.shade.javax.ws.rs.ext.MessageBodyReader
+│  -rw----     2.0 fat      137 bl defN 25-Nov-11 21:36 META-INF/services/org.apache.pulsar.shade.com.fasterxml.jackson.core.JsonFactory
+│  -rw----     2.0 fat        0 bl defN 25-Nov-11 21:36 META-INF/services/org.apache.pulsar.shade.javax.ws.rs.client.ClientBuilder
+│  -rw----     2.0 fat      922 bl defN 25-Nov-11 21:36 META-INF/services/org.apache.pulsar.shade.org.apache.avro.SchemaFormatterFactory
+│ -8346 files, 61328411 bytes uncompressed, 15133177 bytes compressed:  75.3%
+│ +8346 files, 61328409 bytes uncompressed, 15133154 bytes compressed:  75.3%
+
+11 / 31 target/reference/org.apache.pulsar/pulsar-io-azuredataexplorer-4.1.2.jar pulsar-io/azure-data-explorer/target/pulsar-io-azuredataexplorer-4.1.2.nar
+--- target/reference/org.apache.pulsar/pulsar-io-azuredataexplorer-4.1.2.jar
++++ pulsar-io/azure-data-explorer/target/pulsar-io-azuredataexplorer-4.1.2.nar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 28132917 bytes, number of entries: 108
+│ +Zip file size: 28133686 bytes, number of entries: 108
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 META-INF/
+│  -rw-r--r--  2.0 unx      280 b- defN 25-Nov-11 21:36 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 META-INF/bundled-dependencies/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 org/apache/pulsar/
+│ @@ -10,15 +10,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 org/apache/pulsar/io/azuredataexplorer/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 META-INF/maven/org.apache.pulsar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Nov-11 21:36 META-INF/maven/org.apache.pulsar/pulsar-io-azuredataexplorer/
+│  -rw-r--r--  2.0 unx    19035 b- defN 25-Nov-11 21:36 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 25-Nov-11 21:36 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      181 b- defN 25-Nov-11 21:36 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx    30330 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/accessors-smart-2.5.2.jar
+│ +-rw-r--r--  2.0 unx    30358 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/accessors-smart-2.5.2.jar
+│  -rw-r--r--  2.0 unx    30570 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/annotations-24.1.0.jar
+│  -rw-r--r--  2.0 unx   126093 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/asm-9.7.1.jar
+│  -rw-r--r--  2.0 unx   846116 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/azure-core-1.49.1.jar
+│  -rw-r--r--  2.0 unx    78439 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/azure-core-http-netty-1.15.1.jar
+│  -rw-r--r--  2.0 unx   284892 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/azure-data-tables-12.4.2.jar
+│  -rw-r--r--  2.0 unx   274056 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/azure-identity-1.13.0.jar
+│  -rw-r--r--  2.0 unx   423703 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/azure-json-1.1.0.jar
+│ @@ -39,15 +39,15 @@
+│  -rw-r--r--  2.0 unx  1649454 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/jackson-databind-2.17.2.jar
+│  -rw-r--r--  2.0 unx   129180 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/jackson-dataformat-xml-2.17.2.jar
+│  -rw-r--r--  2.0 unx    55416 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/jackson-dataformat-yaml-2.17.2.jar
+│  -rw-r--r--  2.0 unx   132264 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/jackson-datatype-jsr310-2.17.2.jar
+│  -rw-r--r--  2.0 unx     4722 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/jcip-annotations-1.0-1.jar
+│  -rw-r--r--  2.0 unx  1866196 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/jna-5.12.1.jar
+│  -rw-r--r--  2.0 unx  2735878 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/jna-platform-5.6.0.jar
+│ --rw-r--r--  2.0 unx   121591 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/json-smart-2.5.2.jar
+│ +-rw-r--r--  2.0 unx   122358 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/json-smart-2.5.2.jar
+│  -rw-r--r--  2.0 unx     3819 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/jspecify-1.0.0.jar
+│  -rw-r--r--  2.0 unx   180396 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/kusto-data-5.2.0.jar
+│  -rw-r--r--  2.0 unx   130896 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/kusto-ingest-5.2.0.jar
+│  -rw-r--r--  2.0 unx    11170 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/lang-tag-1.7.jar
+│  -rw-r--r--  2.0 unx   359207 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/msal4j-1.15.1.jar
+│  -rw-r--r--  2.0 unx    27005 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/msal4j-persistence-extension-1.3.0.jar
+│  -rw-r--r--  2.0 unx   354500 b- defN 25-Nov-11 21:36 META-INF/bundled-dependencies/netty-buffer-4.1.128.Final.jar
+│ @@ -103,8 +103,8 @@
+│  -rw-r--r--  2.0 unx     1062 b- defN 25-Nov-11 21:36 org/apache/pulsar/io/azuredataexplorer/ADXSink$1.class
+│  -rw-r--r--  2.0 unx    18484 b- defN 25-Nov-11 21:36 org/apache/pulsar/io/azuredataexplorer/ADXSink.class
+│  -rw-r--r--  2.0 unx    11030 b- defN 25-Nov-11 21:36 org/apache/pulsar/io/azuredataexplorer/ADXSinkConfig.class
+│  -rw-r--r--  2.0 unx      982 b- defN 25-Nov-11 21:36 org/apache/pulsar/io/azuredataexplorer/ADXSinkUtils.class
+│  -rw-r--r--  2.0 unx      144 b- defN 25-Nov-11 21:36 org/apache/pulsar/io/azuredataexplorer/package-info.class
+│  -rw-r--r--  2.0 unx     3240 b- defN 25-Nov-11 21:36 META-INF/maven/org.apache.pulsar/pulsar-io-azuredataexplorer/pom.xml
+│  -rw-r--r--  2.0 unx       79 b- defN 25-Nov-11 21:36 META-INF/maven/org.apache.pulsar/pulsar-io-azuredataexplorer/pom.properties
+│ -108 files, 32225568 bytes uncompressed, 28112777 bytes compressed:  12.8%
+│ +108 files, 32226363 bytes uncompressed, 28113546 bytes compressed:  12.8%
+├── META-INF/bundled-dependencies/accessors-smart-2.5.2.jar
+│ ├── zipinfo {}
+│ │ @@ -1,8 +1,8 @@
+│ │ -Zip file size: 30330 bytes, number of entries: 24
+│ │ +Zip file size: 30358 bytes, number of entries: 24
+│ │  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ │  -rw----     2.0 fat      800 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/net.minidev/
+│ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/net.minidev/accessors-smart/
+│ │  -rw----     2.0 fat       61 bl defN 80-Feb-01 00:00 META-INF/maven/net.minidev/accessors-smart/pom.properties
+│ │  -rw----     2.0 fat    11859 bl defN 80-Feb-01 00:00 META-INF/maven/net.minidev/accessors-smart/pom.xml
+│ │ @@ -11,16 +11,16 @@
+│ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 net/minidev/asm/
+│ │  -rw----     2.0 fat     6047 bl defN 80-Feb-01 00:00 net/minidev/asm/ASMUtil.class
+│ │  -rw----     2.0 fat     3019 bl defN 80-Feb-01 00:00 net/minidev/asm/Accessor.class
+│ │  -rw----     2.0 fat      913 bl defN 80-Feb-01 00:00 net/minidev/asm/BasicFiledFilter.class
+│ │  -rw----     2.0 fat     7627 bl defN 80-Feb-01 00:00 net/minidev/asm/BeansAccess.class
+│ │  -rw----     2.0 fat    11606 bl defN 80-Feb-01 00:00 net/minidev/asm/BeansAccessBuilder.class
+│ │  -rw----     2.0 fat     1633 bl defN 80-Feb-01 00:00 net/minidev/asm/BeansAccessConfig.class
+│ │ --rw----     2.0 fat      871 bl defN 80-Feb-01 00:00 net/minidev/asm/ConvertDate$StringCmpNS.class
+│ │ +-rw----     2.0 fat      905 bl defN 80-Feb-01 00:00 net/minidev/asm/ConvertDate$StringCmpNS.class
+│ │  -rw----     2.0 fat     8414 bl defN 80-Feb-01 00:00 net/minidev/asm/ConvertDate.class
+│ │  -rw----     2.0 fat     6016 bl defN 80-Feb-01 00:00 net/minidev/asm/DefaultConverter.class
+│ │  -rw----     2.0 fat     2927 bl defN 80-Feb-01 00:00 net/minidev/asm/DynamicClassLoader.class
+│ │  -rw----     2.0 fat      269 bl defN 80-Feb-01 00:00 net/minidev/asm/FieldFilter.class
+│ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 net/minidev/asm/ex/
+│ │  -rw----     2.0 fat      530 bl defN 80-Feb-01 00:00 net/minidev/asm/ex/ConvertException.class
+│ │  -rw----     2.0 fat      542 bl defN 80-Feb-01 00:00 net/minidev/asm/ex/NoSuchFieldException.class
+│ │ -24 files, 63134 bytes uncompressed, 26580 bytes compressed:  57.9%
+│ │ +24 files, 63168 bytes uncompressed, 26608 bytes compressed:  57.9%
+│ ├── META-INF/MANIFEST.MF
+│ │ @@ -1,9 +1,9 @@
+│ │  Manifest-Version: 1.0
+│ │ -Build-Jdk-Spec: 17
+│ │ +Build-Jdk-Spec: 23
+│ │  Bundle-Description: Java reflect give poor performance on getter sette
+│ │   r an constructor calls, accessors-smart use ASM to speed up those cal
+│ │   ls.
+│ │  Bundle-DocURL: https://urielch.github.io/
+│ │  Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+│ │  Bundle-ManifestVersion: 2
+│ │  Bundle-Name: accessors-smart
+│ ├── META-INF/maven/net.minidev/accessors-smart/pom.properties
+│ │┄ Ordering differences only
+│ │ @@ -1,3 +1,3 @@
+│ │ -groupId=net.minidev
+│ │  artifactId=accessors-smart
+│ │ +groupId=net.minidev
+│ │  version=2.5.2
+│ ├── net/minidev/asm/ConvertDate$StringCmpNS.class
+│ │ ├── javap -verbose -constants -s -l -private {}
+│ │ │ @@ -32,22 +32,23 @@
+│ │ │    #23 = Utf8               LocalVariableTable
+│ │ │    #24 = Utf8               this
+│ │ │    #25 = Utf8               Lnet/minidev/asm/ConvertDate$StringCmpNS;
+│ │ │    #26 = Utf8               o1
+│ │ │    #27 = Utf8               Ljava/lang/String;
+│ │ │    #28 = Utf8               o2
+│ │ │    #29 = Utf8               (Ljava/lang/Object;Ljava/lang/Object;)I
+│ │ │ -  #30 = Utf8               Signature
+│ │ │ -  #31 = Utf8               Ljava/lang/Object;Ljava/util/Comparator<Ljava/lang/String;>;
+│ │ │ -  #32 = Utf8               SourceFile
+│ │ │ -  #33 = Utf8               ConvertDate.java
+│ │ │ -  #34 = Utf8               InnerClasses
+│ │ │ -  #35 = Class              #36            // net/minidev/asm/ConvertDate
+│ │ │ -  #36 = Utf8               net/minidev/asm/ConvertDate
+│ │ │ -  #37 = Utf8               StringCmpNS
+│ │ │ +  #30 = Utf8               MethodParameters
+│ │ │ +  #31 = Utf8               Signature
+│ │ │ +  #32 = Utf8               Ljava/lang/Object;Ljava/util/Comparator<Ljava/lang/String;>;
+│ │ │ +  #33 = Utf8               SourceFile
+│ │ │ +  #34 = Utf8               ConvertDate.java
+│ │ │ +  #35 = Utf8               InnerClasses
+│ │ │ +  #36 = Class              #37            // net/minidev/asm/ConvertDate
+│ │ │ +  #37 = Utf8               net/minidev/asm/ConvertDate
+│ │ │ +  #38 = Utf8               StringCmpNS
+│ │ │  {
+│ │ │    public net.minidev.asm.ConvertDate$StringCmpNS();
+│ │ │      descriptor: ()V
+│ │ │      flags: (0x0001) ACC_PUBLIC
+│ │ │      Code:
+│ │ │        stack=1, locals=1, args_size=1
+│ │ │           0: aload_0
+│ │ │ @@ -90,12 +91,16 @@
+│ │ │           9: invokevirtual #13                 // Method compare:(Ljava/lang/String;Ljava/lang/String;)I
+│ │ │          12: ireturn
+│ │ │        LineNumberTable:
+│ │ │          line 35: 0
+│ │ │        LocalVariableTable:
+│ │ │          Start  Length  Slot  Name   Signature
+│ │ │              0      13     0  this   Lnet/minidev/asm/ConvertDate$StringCmpNS;
+│ │ │ +    MethodParameters:
+│ │ │ +      Name                           Flags
+│ │ │ +      <no name>                      synthetic
+│ │ │ +      <no name>                      synthetic
+│ │ │  }
+│ │ │ -Signature: #31                          // Ljava/lang/Object;Ljava/util/Comparator<Ljava/lang/String;>;
+│ │ │ +Signature: #32                          // Ljava/lang/Object;Ljava/util/Comparator<Ljava/lang/String;>;
+│ │ │  SourceFile: "ConvertDate.java"
+│ │ │  InnerClasses:
+│ │ │ -  public static #37= #14 of #35;          // StringCmpNS=class net/minidev/asm/ConvertDate$StringCmpNS of class net/minidev/asm/ConvertDate
+│ │ │ +  public static #38= #14 of #36;          // StringCmpNS=class net/minidev/asm/ConvertDate$StringCmpNS of class net/minidev/asm/ConvertDate
+├── META-INF/bundled-dependencies/json-smart-2.5.2.jar
+│ ├── zipinfo {}
+│ │ @@ -1,8 +1,8 @@
+│ │ -Zip file size: 121591 bytes, number of entries: 107
+│ │ +Zip file size: 122358 bytes, number of entries: 107
+│ │  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ │  -rw----     2.0 fat     1648 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ │ @@ -44,66 +44,66 @@
+│ │  -rw----     2.0 fat     2467 bl defN 80-Feb-01 00:00 net/minidev/json/reader/BeansWriterASM.class
+│ │  -rw----     2.0 fat     3158 bl defN 80-Feb-01 00:00 net/minidev/json/reader/BeansWriterASMRemap.class
+│ │ --rw----     2.0 fat     1340 bl defN 80-Feb-01 00:00 net/minidev/json/reader/JsonWriter$1.class
+│ │ --rw----     2.0 fat     1446 bl defN 80-Feb-01 00:00 net/minidev/json/reader/JsonWriter$10.class
+...
+│ │ --rw----     2.0 fat     1394 bl defN 80-Feb-01 00:00 net/minidev/json/reader/JsonWriter$6.class
+│ │ --rw----     2.0 fat     2228 bl defN 80-Feb-01 00:00 net/minidev/json/reader/JsonWriter$7.class
+│ │ +-rw----     2.0 fat     1378 bl defN 80-Feb-01 00:00 net/minidev/json/reader/JsonWriter$1.class
+│ │ +-rw----     2.0 fat     1495 bl defN 80-Feb-01 00:00 net/minidev/json/reader/JsonWriter$10.class
+...
+│ │ +-rw----     2.0 fat     1432 bl defN 80-Feb-01 00:00 net/minidev/json/reader/JsonWriter$6.class
+│ │ +-rw----     2.0 fat     2266 bl defN 80-Feb-01 00:00 net/minidev/json/reader/JsonWriter$7.class
+│ │  -rw----     2.0 fat     1034 bl defN 80-Feb-01 00:00 net/minidev/json/reader/JsonWriter$8.class
+│ │ --rw----     2.0 fat     1309 bl defN 80-Feb-01 00:00 net/minidev/json/reader/JsonWriter$9.class
+│ │ +-rw----     2.0 fat     1358 bl defN 80-Feb-01 00:00 net/minidev/json/reader/JsonWriter$9.class
+│ │  -rw----     2.0 fat      872 bl defN 80-Feb-01 00:00 net/minidev/json/reader/JsonWriter$WriterByInterface.class
+│ │  -rw----     2.0 fat     8591 bl defN 80-Feb-01 00:00 net/minidev/json/reader/JsonWriter.class
+│ │  -rw----     2.0 fat      412 bl defN 80-Feb-01 00:00 net/minidev/json/reader/JsonWriterI.class
+...
+│ │  -rw----     2.0 fat     2873 bl defN 80-Feb-01 00:00 net/minidev/json/writer/MapperRemapped.class
+│ │  -rw----     2.0 fat     3461 bl defN 80-Feb-01 00:00 net/minidev/json/writer/UpdaterMapper.class
+│ │ -107 files, 237762 bytes uncompressed, 102943 bytes compressed:  56.7%
+│ │ +107 files, 239058 bytes uncompressed, 103710 bytes compressed:  56.6%
+│ ├── META-INF/MANIFEST.MF
+│ │ @@ -1,9 +1,9 @@
+│ │  Manifest-Version: 1.0
+│ │ -Build-Jdk-Spec: 17
+│ │ +Build-Jdk-Spec: 23
+│ │  Bundle-Description: JSON (JavaScript Object Notation) is a lightweight
+│ │    data-interchange format. It is easy for humans to read and write. It
+│ │    is easy for machines to parse and generate. It is based on a subset 
+│ │   of the JavaScript Programming Language, Standard ECMA-262 3rd Edition
+│ │    - December 1999. JSON is a text format that is completely language i
+│ │   ndependent but uses conventions that are familiar to programmers of t
+│ │   he C-family of languages, including C, C++, C#, Java, JavaScript, Per
+│ ├── META-INF/maven/net.minidev/json-smart/pom.properties
+│ │┄ Ordering differences only
+│ │ @@ -1,3 +1,3 @@
+│ │ -groupId=net.minidev
+│ │  artifactId=json-smart
+│ │ +groupId=net.minidev
+│ │  version=2.5.2
+...
