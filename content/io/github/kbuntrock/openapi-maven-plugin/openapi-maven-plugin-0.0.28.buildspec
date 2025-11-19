@@ -1,0 +1,32 @@
+# see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/doc/BUILDSPEC.md
+
+# Central Repository coordinates for the Reference release (for multi-module, pick an arbitrary module)
+groupId=io.github.kbuntrock
+artifactId=openapi-maven-plugin
+version=0.0.28
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=https://github.com/kbuntrock/${artifactId}.git
+gitTag=${version}
+
+# Rebuild environment prerequisites
+tool=mvn-3.9.9
+jdk=17
+newline=lf
+
+# optional:
+#umask=022
+#timezone="Etc/GMT"
+#locale="en_US"
+
+# Rebuild command
+command="mvn clean package -Pprerelease -DskipTests -f openapi-maven-plugin"
+
+# Location of the buildinfo file generated during rebuild (by artifact:compare for Maven) to record output fingerprints
+buildinfo=openapi-maven-plugin/target/${artifactId}-${version}.buildinfo
+
+# if the release is finally not reproducible, link to an issue tracker entry if one was created or diffoscope result
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
