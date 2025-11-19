@@ -270,7 +270,7 @@ Reproducible Builds for Maven Central Repository
 | | [mima](../content/eu/maveniverse/maven/mima/README.md) | 59 | 55 :white_check_mark: / 4 :warning: |
 | | [mimir](../content/eu/maveniverse/maven/mimir/README.md) | 39 | 38 :white_check_mark: / 1 :warning: |
 | | [nisse](../content/eu/maveniverse/maven/nisse/README.md) | 21 | 21 :white_check_mark: |
-| | [njord](../content/eu/maveniverse/maven/njord/README.md) | 33 | 33 :white_check_mark: |
+| | [njord](../content/eu/maveniverse/maven/njord/README.md) | 34 | 34 :white_check_mark: |
 | | [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | 92 | 91 :white_check_mark: / 1 :warning: |
 | | [zippy](../content/eu/maveniverse/maven/zippy/README.md) | 2 | 2 :white_check_mark: |
 | | [mase](../content/eu/maveniverse/maven/mase/mase/README.md) | 3 | 3 :white_check_mark: |
@@ -306,7 +306,7 @@ Reproducible Builds for Maven Central Repository
 | | [gherkin-utils](../content/io/cucumber/gherkin-utils/README.md) | 10 | 10 :white_check_mark: |
 | | [html-formatter](../content/io/cucumber/html-formatter/README.md) | 24 | 22 :white_check_mark: / 2 :warning: |
 | | [junit-xml-formatter](../content/io/cucumber/junit-xml-formatter/README.md) | 14 | 14 :white_check_mark: |
-| | [messages](../content/io/cucumber/messages/README.md) | 22 | 22 :white_check_mark: |
+| | [messages](../content/io/cucumber/messages/README.md) | 23 | 23 :white_check_mark: |
 | | [pretty-formatter](../content/io/cucumber/pretty-formatter/README.md) | 10 | 10 :white_check_mark: |
 | | [query](../content/io/cucumber/query/README.md) | 24 | 24 :white_check_mark: |
 | | [tag-expressions](../content/io/cucumber/tag-expressions/README.md) | 13 | 13 :white_check_mark: |
@@ -322,7 +322,7 @@ Reproducible Builds for Maven Central Repository
 | | [kubernetes-client](../content/io/fabric8/kubernetes-client/README.md) | 46 | 46 :warning: |
 | io.github.git-commit-id | [git-commit-id-maven-plugin](../content/io/github/git-commit-id/README.md) | 6 | 2 :white_check_mark: / 4 :warning: |
 | io.github.gls-athena | [athena](../content/io/github/gls-athena/README.md) | 2 | 2 :warning: |
-| io.github.ollama4j | [ollama4j](../content/io/github/ollama4j/README.md) | 10 | 10 :white_check_mark: |
+| io.github.ollama4j | [ollama4j](../content/io/github/ollama4j/README.md) | 11 | 11 :white_check_mark: |
 | io.github.albertus82 | [jface-utils](../content/io/github/albertus82/jface-utils/README.md) | 10 | 10 :white_check_mark: |
 | | [unexepack](../content/io/github/albertus82/unexepack/README.md) | 4 | 4 :warning: |
 | io.github.cbarlin | [advanced-record-utils](../content/io/github/cbarlin/aru/README.md) | 30 | 30 :white_check_mark: |
@@ -450,7 +450,7 @@ Reproducible Builds for Maven Central Repository
 | org.apache.mina | [mina-parent](../content/org/apache/mina/README.md) | 10 | 3 :white_check_mark: / 7 :warning: |
 | org.apache.orc | [orc](../content/org/apache/orc/README.md) | 36 | 23 :white_check_mark: / 13 :warning: |
 | org.apache.paimon | [paimon-parent](../content/org/apache/paimon/README.md) | 13 | 4 :white_check_mark: / 9 :warning: |
-| org.apache.pulsar | [pulsar](../content/org/apache/pulsar/README.md) | 39 | 39 :warning: |
+| org.apache.pulsar | [pulsar](../content/org/apache/pulsar/README.md) | 40 | 40 :warning: |
 | org.apache.rat | [apache-rat-project](../content/org/apache/rat/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
 | org.apache.ratis | [ratis](../content/org/apache/ratis/README.md) | 10 | 3 :white_check_mark: / 7 :warning: |
 | org.apache.shiro | [shiro-root](../content/org/apache/shiro/README.md) | 18 | 6 :white_check_mark: / 12 :warning: |
@@ -634,7 +634,7 @@ Reproducible Builds for Maven Central Repository
 | | [*.api](../content/org/apache/sling/org.apache.sling.api/README.md) | 12 | 12 :white_check_mark: |
 | | [*.auth.core](../content/org/apache/sling/org.apache.sling.auth.core/README.md) | 7 | 7 :white_check_mark: |
 | | [*.auth.form](../content/org/apache/sling/org.apache.sling.auth.form/README.md) | 1 | 1 :white_check_mark: |
-| | [*.auth.oauth-client](../content/org/apache/sling/org.apache.sling.auth.oauth-client/README.md) | 3 | 3 :white_check_mark: |
+| | [*.auth.oauth-client](../content/org/apache/sling/org.apache.sling.auth.oauth-client/README.md) | 4 | 4 :white_check_mark: |
 | | [*.bundleresource.impl](../content/org/apache/sling/org.apache.sling.bundleresource.impl/README.md) | 2 | 2 :white_check_mark: |
 | | [*.caconfig.api](../content/org/apache/sling/org.apache.sling.caconfig.api/README.md) | 1 | 1 :white_check_mark: |
 | | [*.caconfig.impl](../content/org/apache/sling/org.apache.sling.caconfig.impl/README.md) | 2 | 2 :white_check_mark: |
@@ -644,7 +644,7 @@ Reproducible Builds for Maven Central Repository
 | | [*.commons.content.processing](../content/org/apache/sling/org.apache.sling.commons.content.processing/README.md) | 1 | 1 :white_check_mark: |
 | | [*.commons.crypto](../content/org/apache/sling/org.apache.sling.commons.crypto/README.md) | 1 | 1 :warning: |
 | | [*.commons.johnzon](../content/org/apache/sling/org.apache.sling.commons.johnzon/README.md) | 7 | 5 :white_check_mark: / 2 :warning: |
-| | [*.commons.log](../content/org/apache/sling/org.apache.sling.commons.log/README.md) | 5 | 1 :white_check_mark: / 4 :warning: |
+| | [*.commons.log](../content/org/apache/sling/org.apache.sling.commons.log/README.md) | 6 | 2 :white_check_mark: / 4 :warning: |
 | | [*.commons.log.webconsole](../content/org/apache/sling/org.apache.sling.commons.log.webconsole/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | | [*.commons.logservice](../content/org/apache/sling/org.apache.sling.commons.logservice/README.md) | 1 | 1 :white_check_mark: |
 | | [*.commons.messaging](../content/org/apache/sling/org.apache.sling.commons.messaging/README.md) | 1 | 1 :white_check_mark: |
@@ -725,7 +725,7 @@ Reproducible Builds for Maven Central Repository
 | | [*.serviceuser.webconsole](../content/org/apache/sling/org.apache.sling.serviceuser.webconsole/README.md) | 1 | 1 :white_check_mark: |
 | | [*.servlets.annotations](../content/org/apache/sling/org.apache.sling.servlets.annotations/README.md) | 1 | 1 :white_check_mark: |
 | | [*.servlets.post](../content/org/apache/sling/org.apache.sling.servlets.post/README.md) | 4 | 2 :white_check_mark: / 2 :warning: |
-| | [*.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 18 | 1 :white_check_mark: / 17 :warning: |
+| | [*.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 19 | 2 :white_check_mark: / 17 :warning: |
 | | [*.settings](../content/org/apache/sling/org.apache.sling.settings/README.md) | 3 | 3 :white_check_mark: |
 | | [*.sitemap](../content/org/apache/sling/org.apache.sling.sitemap/README.md) | 2 | 2 :white_check_mark: |
 | | [*.starter](../content/org/apache/sling/org.apache.sling.starter/README.md) | 2 | 2 :warning: |
@@ -734,8 +734,8 @@ Reproducible Builds for Maven Central Repository
 | | [*.testing.caconfig-mock-plugin](../content/org/apache/sling/org.apache.sling.testing.caconfig-mock-plugin/README.md) | 7 | 7 :white_check_mark: |
 | | [*.testing.clients](../content/org/apache/sling/org.apache.sling.testing.clients/README.md) | 11 | 11 :white_check_mark: |
 | | [*.testing.hamcrest](../content/org/apache/sling/org.apache.sling.testing.hamcrest/README.md) | 1 | 1 :white_check_mark: |
-| | [*.testing.jcr-mock](../content/org/apache/sling/org.apache.sling.testing.jcr-mock/README.md) | 9 | 9 :white_check_mark: |
-| | [*.testing.osgi-mock](../content/org/apache/sling/org.apache.sling.testing.osgi-mock/README.md) | 11 | 11 :white_check_mark: |
+| | [*.testing.jcr-mock](../content/org/apache/sling/org.apache.sling.testing.jcr-mock/README.md) | 10 | 10 :white_check_mark: |
+| | [*.testing.osgi-mock](../content/org/apache/sling/org.apache.sling.testing.osgi-mock/README.md) | 12 | 12 :white_check_mark: |
 | | [*.testing.paxexam](../content/org/apache/sling/org.apache.sling.testing.paxexam/README.md) | 3 | 3 :white_check_mark: |
 | | [*.testing.resourceresolver-mock](../content/org/apache/sling/org.apache.sling.testing.resourceresolver-mock/README.md) | 12 | 10 :white_check_mark: / 2 :warning: |
 | | [*.testing.rules](../content/org/apache/sling/org.apache.sling.testing.rules/README.md) | 1 | 1 :white_check_mark: |
@@ -951,7 +951,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 8 | 8 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 44 | 43 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 21 | 3 :white_check_mark: / 18 :warning: |
-| **Count:** | **937** | **9252** | **6757** :white_check_mark:<br>**2495** :warning: |
+| **Count:** | **937** | **9261** | **6765** :white_check_mark:<br>**2496** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -988,7 +988,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn        18
      34 mvn        19
      17 mvn        20
-    774 mvn        21
+    775 mvn        21
      15 mvn        22
      17 mvn        23
      41 mvn        24
@@ -1031,8 +1031,8 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.10  21
      36 mvn-3.9.11   8
      40 mvn-3.9.11  11
-    103 mvn-3.9.11  17
-    169 mvn-3.9.11  21
+    106 mvn-3.9.11  17
+    170 mvn-3.9.11  21
       5 mvn-3.9.11  22
       3 mvn-3.9.11  24
      24 mvn-3.9.11  25
@@ -1104,9 +1104,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.8  25
     103 mvn-3.9.9   8
     133 mvn-3.9.9  11
-    309 mvn-3.9.9  17
+    310 mvn-3.9.9  17
       2 mvn-3.9.9  18
-    444 mvn-3.9.9  21
+    447 mvn-3.9.9  21
      13 mvn-3.9.9  21.0.2
      17 mvn-3.9.9  22
       4 mvn-3.9.9  23

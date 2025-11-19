@@ -1,8 +1,4 @@
 content/com/flowlogix/flowlogix-10.0.8.buildspec:11
-content/eu/maveniverse/maven/njord/njord-0.8.6.buildspec:0.8.7
-content/io/cucumber/messages/messages-30.1.0.buildspec:31.0.0
-content/io/github/ollama4j/ollama4j-1.1.4.buildspec:1.1.5
-content/org/apache/sling/org.apache.sling.auth.oauth-client/org.apache.sling.auth.oauth-client-0.1.4.buildspec:0.1.6
-content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-3.0.0.buildspec:3.0.2
-content/org/apache/sling/org.apache.sling.testing.jcr-mock/org.apache.sling.testing.jcr-mock-1.6.14.buildspec:1.7.0
-content/org/apache/sling/org.apache.sling.testing.osgi-mock/org.apache.sling.testing.osgi-mock-3.5.2.buildspec:3.5.4
+content/io/cucumber/gherkin/gherkin-36.1.0.buildspec:37.0.0
+content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.11.2.buildspec:4.11.3
+content/org/liquibase/ext/liquibase-percona/liquibase-percona-4.33.0.buildspec:5.0.1
