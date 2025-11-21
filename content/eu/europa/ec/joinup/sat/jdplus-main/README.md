@@ -78,13 +78,14 @@ Source code: [https://github.com/jdemetra/jdplus-main.git](https://github.com/jd
 * [eu.europa.ec.joinup.sat:jdplus-x13-desktop-plugin](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-x13-desktop-plugin/overview)
 </details>
 
-rebuilding **7 releases** of eu.europa.ec.joinup.sat:jdplus-main:
+rebuilding **8 releases** of eu.europa.ec.joinup.sat:jdplus-main:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.6.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.6.0/pom) | | | |
+| [3.6.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.6.0/pom) | [mvn jdk21](jdplus-main-3.6.0.buildspec) | [result](jdplus-main-3.6.0.buildinfo): [186 :white_check_mark:  9 :warning:](jdplus-main-3.6.0.buildcompare) | 1 :rotating_light: 8 :no_entry_sign: | 85M |
 | [3.5.1](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.5.1/pom) | [mvn jdk21](jdplus-main-3.5.1.buildspec) | [result](jdplus-main-3.5.1.buildinfo): [186 :white_check_mark:  9 :warning:](jdplus-main-3.5.1.buildcompare) | - | 84M |
 | [3.5.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.5.0/pom) | [mvn jdk21](jdplus-main-3.5.0.buildspec) | [result](jdplus-main-3.5.0.buildinfo): [186 :white_check_mark:  9 :warning:](jdplus-main-3.5.0.buildcompare) | - | 87M |
 | [3.4.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-main/3.4.0/pom) | [mvn jdk21](jdplus-main-3.4.0.buildspec) | [result](jdplus-main-3.4.0.buildinfo): [186 :white_check_mark:  9 :warning:](jdplus-main-3.4.0.buildcompare) | - | 86M |
