@@ -1,9 +1,15 @@
 content/com/flowlogix/flowlogix-10.0.8.buildspec:11
+content/de/knightsoft-net/gwt-commons-codec/gwt-commons-codec-1.18.0-0.buildspec:1.20.0-0
 content/de/knightsoft-net/gwt-commons-lang3/gwt-commons-lang3-3.19.0-0.buildspec:3.20.0-0
+content/dev/sigstore/sigstore-maven-plugin/sigstore-maven-plugin-2.0.0-rc2.buildspec:2.0.0
+content/eu/europa/ec/joinup/sat/jdplus-experimental/jdplus-experimental-1.0.2.buildspec:1.1.0
 content/io/avaje/jsonb/avaje-jsonb-3.8.buildspec:3.9-RC1
-content/io/avaje/prisms/avaje-prisms-1.44-RC1.buildspec:1.44-RC2
+content/io/avaje/prisms/avaje-prisms-1.44-RC1.buildspec:1.44-RC3
+content/io/avaje/validator/avaje-validator-2.14.buildspec:2.15-RC1
 content/io/cucumber/cucumber-json-formatter/cucumber-json-formatter-0.3.0.buildspec:0.3.1
+content/io/cucumber/cucumber-jvm/cucumber-jvm-7.31.0.buildspec:7.32.0
 content/io/cucumber/gherkin/gherkin-36.1.0.buildspec:37.0.0
 content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.11.2.buildspec:4.11.3
+content/org/apache/sling/org.apache.sling.testing.sling-mock/org.apache.sling.testing.sling-mock-4.0.0.buildspec:4.0.2
 content/org/liquibase/ext/liquibase-percona/liquibase-percona-4.33.0.buildspec:5.0.1
 content/org/metricshub/ipmi-java/ipmi-java-1.2.01.buildspec:1.2.02

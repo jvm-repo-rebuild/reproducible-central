@@ -37,6 +37,7 @@ rebuilding **1 releases** of eu.europa.ec.joinup.sat:jdplus-experimental:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.1.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-experimental/1.1.0/pom) | | | |
 | [1.0.2](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-experimental/1.0.2/pom) | [mvn jdk21](jdplus-experimental-1.0.2.buildspec) | [result](jdplus-experimental-1.0.2.buildinfo): [44 :white_check_mark: ](jdplus-experimental-1.0.2.buildcompare) | | 422K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
