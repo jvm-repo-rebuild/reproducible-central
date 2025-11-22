@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Codec
+group-id=de.knightsoft-net
+artifact-id=gwt-commons-codec
+version=1.20.0-0
+
+# source information
+source.scm.uri=scm:git:git@gitlab.com:ManfredTremmel/gwt-commons-codec.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.0.0
+
+# output
+
+outputs.0.groupId=de.knightsoft-net
+outputs.0.filename=gwt-commons-codec-1.20.0-0.pom
+outputs.0.length=49798
+outputs.0.checksums.sha512=3960d8ce07d28d029dec075288e830f3532bf1be794d373a9dd1d598eee298cd5638ce6d726493be1d66501dc4799c1932e99d4f08f82d86ea01a8fff5e67c73
+
+outputs.1.groupId=de.knightsoft-net
+outputs.1.filename=gwt-commons-codec-1.20.0-0.jar
+outputs.1.length=736755
+outputs.1.checksums.sha512=fa775487637f1b71205ee2f2c8b2a47903939bcc4d1fe78bedd336165c94ffbea999b4e67d68058f21befb9e2359e58151f0afd23632db0e0cfdf6549c905be3
+
+outputs.2.groupId=de.knightsoft-net
+outputs.2.filename=gwt-commons-codec-1.20.0-0-tests.jar
+outputs.2.length=416880
+outputs.2.checksums.sha512=5ce5c7a45803089059910a22359ab6dc638fff904a563356849ea8607ca18b02e60d5bccb9679051d0dd7f23883dc0236e21ed9e2eee81959f76936cca04b6d5
+
+outputs.3.groupId=de.knightsoft-net
+outputs.3.filename=gwt-commons-codec-1.20.0-0-sources.jar
+outputs.3.length=413656
+outputs.3.checksums.sha512=cbb44456ea84cb41be74d5efae8772f11e41a5351ba99b92fbc96b2f8292cd3b7e50fd94da5fa68e485c01e0a876b7ee7c6b1b69039a2289964495f9f2411e33
+
+outputs.4.groupId=de.knightsoft-net
+outputs.4.filename=gwt-commons-codec-1.20.0-0-test-sources.jar
+outputs.4.length=278319
+outputs.4.checksums.sha512=489bcfbc50bbc11d5e9c9e477e993ba305f70af22f903ae7318feb283bad9801152e097d8a15a5563ab8fe7570dc0673f86926d86eab4aa2fc87671140b864a0
+
+outputs.5.groupId=de.knightsoft-net
+outputs.5.filename=gwt-commons-codec-1.20.0-0-sources.jar
+outputs.5.length=413656
+outputs.5.checksums.sha512=cbb44456ea84cb41be74d5efae8772f11e41a5351ba99b92fbc96b2f8292cd3b7e50fd94da5fa68e485c01e0a876b7ee7c6b1b69039a2289964495f9f2411e33
