@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.apache.maven.plugins:maven-ejb-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.3.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-ejb-plugin/3.3.0/pom) | | | |
 | [3.2.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-ejb-plugin/3.2.1/pom) | [mvn jdk8 w](maven-ejb-plugin-3.2.1.buildspec) | [result](maven-ejb-plugin-3.2.1.buildinfo): [4 :white_check_mark: ](maven-ejb-plugin-3.2.1.buildcompare) | | 154K |
 | [3.1.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-ejb-plugin/3.1.0/pom) | [mvn jdk8](maven-ejb-plugin-3.1.0.buildspec) | [result](maven-ejb-plugin-3.1.0.buildinfo): [4 :white_check_mark: ](maven-ejb-plugin-3.1.0.buildcompare) | | 155K |
 

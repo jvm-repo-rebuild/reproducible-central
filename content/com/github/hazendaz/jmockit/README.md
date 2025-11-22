@@ -26,6 +26,7 @@ rebuilding **7 releases** of com.github.hazendaz.jmockit:jmockit-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.0.1](https://central.sonatype.com/artifact/com.github.hazendaz.jmockit/jmockit-parent/2.0.1/pom) | | | |
 | [2.0.0](https://central.sonatype.com/artifact/com.github.hazendaz.jmockit/jmockit-parent/2.0.0/pom) | [mvn jdk25 w](jmockit-2.0.0.buildspec) | [result](jmockit-parent-2.0.0.buildinfo): [43 :white_check_mark:  5 :warning:](jmockit-parent-2.0.0.buildcompare) | 3 :rotating_light: 2 :no_entry_sign: | 29M |
 | [1.56.0](https://central.sonatype.com/artifact/com.github.hazendaz.jmockit/jmockit-parent/1.56.0/pom) | [mvn jdk21 w](jmockit-1.56.0.buildspec) | [result](jmockit-parent-1.56.0.buildinfo): [48 :white_check_mark: ](jmockit-parent-1.56.0.buildcompare) | | 19M |
 | [1.55.0](https://central.sonatype.com/artifact/com.github.hazendaz.jmockit/jmockit-parent/1.55.0/pom) | [mvn jdk22 w](jmockit-1.55.0.buildspec) | [result](jmockit-parent-1.55.0.buildinfo): [48 :white_check_mark: ](jmockit-parent-1.55.0.buildcompare) | | 19M |
