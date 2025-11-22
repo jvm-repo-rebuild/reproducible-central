@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/jdemetra/jdplus-experimental.git](https://github.com/jdemetra/jdplus-experimental.git)
 
-<details><summary>This project defines 20 modules:</summary>
+<details><summary>This project defines 30 modules:</summary>
 
 * [eu.europa.ec.joinup.sat:jdplus-businesscycle-base-api](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-businesscycle-base-api/overview)
 * [eu.europa.ec.joinup.sat:jdplus-businesscycle-base-core](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-businesscycle-base-core/overview)
@@ -29,15 +29,25 @@ Source code: [https://github.com/jdemetra/jdplus-experimental.git](https://githu
 * [eu.europa.ec.joinup.sat:jdplus-experimentalsa-base-parent](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-experimentalsa-base-parent/overview)
 * [eu.europa.ec.joinup.sat:jdplus-experimentalsa-base-r](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-experimentalsa-base-r/overview)
 * [eu.europa.ec.joinup.sat:jdplus-sigex-base-core](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-sigex-base-core/overview)
+* [eu.europa.ec.joinup.sat:jdplus-toolkitx-base-api](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-toolkitx-base-api/overview)
+* [eu.europa.ec.joinup.sat:jdplus-toolkitx-base-core](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-toolkitx-base-core/overview)
+* [eu.europa.ec.joinup.sat:jdplus-toolkitx-base-io](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-toolkitx-base-io/overview)
+* [eu.europa.ec.joinup.sat:jdplus-toolkitx-base-parent](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-toolkitx-base-parent/overview)
+* [eu.europa.ec.joinup.sat:jdplus-toolkitx-base-r](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-toolkitx-base-r/overview)
+* [eu.europa.ec.joinup.sat:jdplus-tramoseatsx-base-api](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-tramoseatsx-base-api/overview)
+* [eu.europa.ec.joinup.sat:jdplus-tramoseatsx-base-core](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-tramoseatsx-base-core/overview)
+* [eu.europa.ec.joinup.sat:jdplus-tramoseatsx-base-io](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-tramoseatsx-base-io/overview)
+* [eu.europa.ec.joinup.sat:jdplus-tramoseatsx-base-parent](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-tramoseatsx-base-parent/overview)
+* [eu.europa.ec.joinup.sat:jdplus-tramoseatsx-base-r](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-tramoseatsx-base-r/overview)
 </details>
 
-rebuilding **1 releases** of eu.europa.ec.joinup.sat:jdplus-experimental:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of eu.europa.ec.joinup.sat:jdplus-experimental:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.1.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-experimental/1.1.0/pom) | | | |
+| [1.1.0](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-experimental/1.1.0/pom) | [mvn jdk21](jdplus-experimental-1.1.0.buildspec) | [result](jdplus-experimental-1.1.0.buildinfo): [70 :white_check_mark: ](jdplus-experimental-1.1.0.buildcompare) | | 400K |
 | [1.0.2](https://central.sonatype.com/artifact/eu.europa.ec.joinup.sat/jdplus-experimental/1.0.2/pom) | [mvn jdk21](jdplus-experimental-1.0.2.buildspec) | [result](jdplus-experimental-1.0.2.buildinfo): [44 :white_check_mark: ](jdplus-experimental-1.0.2.buildcompare) | | 422K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
