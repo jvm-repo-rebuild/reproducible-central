@@ -76,6 +76,7 @@ rebuilding **5 releases** of org.apache.hive:hive:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.2.0](https://central.sonatype.com/artifact/org.apache.hive/hive/4.2.0/pom) | | | |
 | [4.1.0](https://central.sonatype.com/artifact/org.apache.hive/hive/4.1.0/pom) | [mvn jdk17](hive-4.1.0.buildspec) | [result](hive-4.1.0.buildinfo): [165 :white_check_mark:  12 :warning:](hive-4.1.0.buildcompare) [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) | 12 :rotating_light: | 526M |
 | [4.0.1](https://central.sonatype.com/artifact/org.apache.hive/hive/4.0.1/pom) | [mvn jdk8](hive-4.0.1.buildspec) | [result](hive-4.0.1.buildinfo): [135 :white_check_mark:  19 :warning:](hive-4.0.1.buildcompare) [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) | - | 536M |
 | [4.0.0](https://central.sonatype.com/artifact/org.apache.hive/hive/4.0.0/pom) | [mvn jdk8](hive-4.0.0.buildspec) | [result](hive-4.0.0.buildinfo): [135 :white_check_mark:  18 :warning:](hive-4.0.0.buildcompare) [:mag:](hive-4.0.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) | - | 516M |
