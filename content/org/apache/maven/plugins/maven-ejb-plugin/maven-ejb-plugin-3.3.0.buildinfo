@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven EJB Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-ejb-plugin
+version=3.3.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-ejb-plugin.git
+source.scm.tag=maven-ejb-plugin-3.3.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-ejb-plugin-3.3.0.pom
+outputs.0.length=7335
+outputs.0.checksums.sha512=35fb8284e8130a3eaea51b2dcfe8bdc16fe10346f71a0fea9a39e11fa8c80b0892715cb82d513a34df5f4f356c93204f95ba0573ea7eb7987ccca12a763e82cb
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-ejb-plugin-3.3.0.jar
+outputs.1.length=27699
+outputs.1.checksums.sha512=64f5f5bdf78f2afa533bc9c3c49f57f4ed40654cc1b439875bb6f745512581788a1979ce66b8ef2dedc0c814cf82e492c33b5e0b775c4ff43ea09f3f3134dd86
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-ejb-plugin-3.3.0-source-release.zip
+outputs.2.length=93871
+outputs.2.checksums.sha512=7f17bde5503d75f2ed9f006fc168244bb6cc10ae8d82113be272a43e6f625732a463c62c7a370de95a274a95fd2b79b246ccdc1e36c7ff8d950f31ab9aabfb68
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-ejb-plugin-3.3.0-sources.jar
+outputs.3.length=20164
+outputs.3.checksums.sha512=b7f4d4b0dea5f5f7cc7164e3f8d79b7472eabfacfae416653c9811a6c18aee5699b7fd588ea21840ff8e8a79b96a2bcac1aa85601db2cf9a52c73e175ed1d54d
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-ejb-plugin-3.3.0-cyclonedx.xml
+outputs.4.length=126187
+outputs.4.checksums.sha512=c35dc0932cfef808a787004e19fdb76379c5fb8e740199ffa6e6309b621d83b3d93add7caa36947f2b2e7e4f0d3fab1d1e7bd3b1ce3d137406e3ecb49a582d49
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-ejb-plugin-3.3.0-cyclonedx.json
+outputs.5.length=137181
+outputs.5.checksums.sha512=68f804ff338d26d507ffc162dfb7ba5f32c41074605656250e4a72b1237c0b619f2dc421bb3884ec48d4a1687e3f3251bf15ac4bb5632ca9797c1d621146ef7b
