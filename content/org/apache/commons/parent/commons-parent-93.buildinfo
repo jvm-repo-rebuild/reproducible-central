@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Parent
+group-id=org.apache.commons
+artifact-id=commons-parent
+version=93
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-parent.git
+source.scm.tag=rel/commons-parent-93
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.8
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-parent-93.pom
+outputs.0.length=78761
+outputs.0.checksums.sha512=213c2dfd326f302afc3b3cdbeca137a38ec84556081de0c3c8b90be10e4994491caec8f2df83ad5cb7f6e61cf44ac9de1ab2d0f392adeb9e3c63f7f26ce78360
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-parent-93-cyclonedx.xml
+outputs.1.length=3505
+outputs.1.checksums.sha512=431ec266652ca7cb698e8da357b79e526066ac89fcaf61ab79efcd444690bf7dfea52f069bec0290f83b7207b9f36bbe3fe04dcdb87ff9dc6d281e7e2c550d51
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-parent-93-cyclonedx.json
+outputs.2.length=3849
+outputs.2.checksums.sha512=b208e4cb1f71edefa1545343365a272f7f74ef7cd07ddfbb59cdd3b311c8cc1f63dc2e73523e13cab52b0a24ad09c9b4beb5b95e756eac87981e9aa210883ffe
+# ignored commons-parent-93.spdx.json
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-parent-93-site.xml
+outputs.3.length=7158
+outputs.3.checksums.sha512=78fbbc6f0f79a0b7c86f7b298675fba49f01f44f08b2211e41a727835c38c4e32e33fb20cf39284ad33afb427116e6a667888f50f87b5f98d64c23788bb7fd3a
