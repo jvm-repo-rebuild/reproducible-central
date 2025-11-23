@@ -1,0 +1,24 @@
+version=0.8.2
+ok=19
+ko=9
+ignored=0
+okFiles="convex-0.8.2.pom convex-core-0.8.2.pom convex-core-0.8.2-sources.jar convex-peer-0.8.2.pom convex-peer-0.8.2-sources.jar convex-java-0.8.2.pom convex-java-0.8.2-sources.jar convex-observer-0.8.2.pom convex-observer-0.8.2-sources.jar convex-restapi-0.8.2.pom convex-restapi-0.8.2-sources.jar convex-gui-0.8.2.pom convex-gui-0.8.2-sources.jar convex-cli-0.8.2.pom convex-cli-0.8.2-sources.jar convex-benchmarks-0.8.2.pom convex-benchmarks-0.8.2-sources.jar convex-integration-0.8.2.pom convex-integration-0.8.2-sources.jar"
+koFiles="convex-core-0.8.2.jar convex-peer-0.8.2.jar convex-java-0.8.2.jar convex-observer-0.8.2.jar convex-restapi-0.8.2.jar convex-gui-0.8.2.jar convex-cli-0.8.2.jar convex-benchmarks-0.8.2.jar convex-integration-0.8.2.jar"
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/world.convex/convex-core-0.8.2.jar convex-core/target/convex-core-0.8.2.jar
+# diffoscope target/reference/world.convex/convex-peer-0.8.2.jar convex-peer/target/convex-peer-0.8.2.jar
+# diffoscope target/reference/world.convex/convex-java-0.8.2.jar convex-java/target/convex-java-0.8.2.jar
+# diffoscope target/reference/world.convex/convex-observer-0.8.2.jar convex-observer/target/convex-observer-0.8.2.jar
+# diffoscope target/reference/world.convex/convex-restapi-0.8.2.jar convex-restapi/target/convex-restapi-0.8.2.jar
+# diffoscope target/reference/world.convex/convex-gui-0.8.2.jar convex-gui/target/convex-gui-0.8.2.jar
+# diffoscope target/reference/world.convex/convex-cli-0.8.2.jar convex-cli/target/convex-cli-0.8.2.jar
+# diffoscope target/reference/world.convex/convex-benchmarks-0.8.2.jar convex-benchmarks/target/convex-benchmarks.jar
+# diffoscope target/reference/world.convex/convex-integration-0.8.2.jar convex-integration/target/convex-integration-0.8.2.jar
+stabilize_ok=0
+stabilize_ko=9
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="convex-core-0.8.2.jar.stabilized convex-peer-0.8.2.jar.stabilized convex-java-0.8.2.jar.stabilized convex-observer-0.8.2.jar.stabilized convex-restapi-0.8.2.jar.stabilized convex-gui-0.8.2.jar.stabilized convex-cli-0.8.2.jar.stabilized convex-benchmarks-0.8.2.jar.stabilized convex-integration-0.8.2.jar.stabilized"
+stabilize_ignoredFiles=""
