@@ -29,7 +29,7 @@ rebuilding **22 releases** of world.convex:convex:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.8.2](https://central.sonatype.com/artifact/world.convex/convex/0.8.2/pom) | [mvn jdk25 w](convex-0.8.2.buildspec) | [result](convex-0.8.2.buildinfo): [19 :white_check_mark:  9 :warning:](convex-0.8.2.buildcompare) | 9 :rotating_light: | 12M |
+| [0.8.2](https://central.sonatype.com/artifact/world.convex/convex/0.8.2/pom) | [mvn jdk25 w](convex-0.8.2.buildspec) | [result](convex-0.8.2.buildinfo): [19 :white_check_mark:  9 :warning:](convex-0.8.2.buildcompare) [:mag:](convex-0.8.2.diffoscope) | 9 :rotating_light: | 12M |
 | [0.8.1](https://central.sonatype.com/artifact/world.convex/convex/0.8.1/pom) | [mvn jdk21 w](convex-0.8.1.buildspec) | [result](convex-0.8.1.buildinfo): [21 :white_check_mark: ](convex-0.8.1.buildcompare) | | 6.0M |
 | [0.8.0](https://central.sonatype.com/artifact/world.convex/convex/0.8.0/pom) | [mvn jdk21 w](convex-0.8.0.buildspec) | [result](convex-0.8.0.buildinfo): [21 :white_check_mark: ](convex-0.8.0.buildcompare) | | 6.0M |
 | [0.7.15](https://central.sonatype.com/artifact/world.convex/convex/0.7.15/pom) | [mvn jdk21 w](convex-0.7.15.buildspec) | [result](convex-0.7.15.buildinfo): [21 :white_check_mark: ](convex-0.7.15.buildcompare) | | 5.9M |
