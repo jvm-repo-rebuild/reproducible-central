@@ -1,0 +1,9 @@
+version=3.5.6
+ok=17
+ko=0
+ignored=0
+okFiles="org.apache.sling.testing.sling-mock.parent-3.5.6.pom org.apache.sling.testing.sling-mock.parent-3.5.6-source-release.zip org.apache.sling.testing.sling-mock.core-3.5.6.pom org.apache.sling.testing.sling-mock.core-3.5.6.jar org.apache.sling.testing.sling-mock.core-3.5.6-source-release.zip org.apache.sling.testing.sling-mock.core-3.5.6-sources.jar org.apache.sling.testing.sling-mock.core-3.5.6-tests.jar org.apache.sling.testing.sling-mock.junit4-3.5.6.pom org.apache.sling.testing.sling-mock.junit4-3.5.6.jar org.apache.sling.testing.sling-mock.junit4-3.5.6-source-release.zip org.apache.sling.testing.sling-mock.junit4-3.5.6-sources.jar org.apache.sling.testing.sling-mock.junit5-3.5.6.pom org.apache.sling.testing.sling-mock.junit5-3.5.6.jar org.apache.sling.testing.sling-mock.junit5-3.5.6-source-release.zip org.apache.sling.testing.sling-mock.junit5-3.5.6-sources.jar org.apache.sling.testing.sling-mock-3.5.6.pom org.apache.sling.testing.sling-mock-3.5.6-source-release.zip"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
