@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=MyBatis FreeMarker
+group-id=org.mybatis.scripting
+artifact-id=mybatis-freemarker
+version=1.3.1
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/freemarker-scripting.git
+source.scm.tag=mybatis-freemarker-1.3.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.mybatis.scripting
+outputs.0.filename=mybatis-freemarker-1.3.1.pom
+outputs.0.length=4589
+outputs.0.checksums.sha512=e0d455e3f4cf298512f6ccf217e4626a71105ab294c24d6fd362f2f4d35959aa50041d89db6d3980247a9b72e7a81d862a434cbfb8d7c7ec76a5d3ea25588576
+
+outputs.1.groupId=org.mybatis.scripting
+outputs.1.filename=mybatis-freemarker-1.3.1.jar
+outputs.1.length=27433
+outputs.1.checksums.sha512=25547932e05ea52cad2d4b4026b04508ad31fddb88672bfb2172d76bf4afc73e6a34fcbd0f7c60aabcf0305c730cf4697bc8c28f33aafa33a314c802a109aa7d
+
+outputs.2.groupId=org.mybatis.scripting
+outputs.2.filename=mybatis-freemarker-1.3.1-sources.jar
+outputs.2.length=22185
+outputs.2.checksums.sha512=1e9a082c86b0595580f4b8e858875adf7bd11b6d79be946feffaf65075a40f7d9b19ea25e64d01cef32de3b8e3508c9bc00abb3044b3039977fe566cb26414b6
