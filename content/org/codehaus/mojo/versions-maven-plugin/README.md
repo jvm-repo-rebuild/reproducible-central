@@ -19,13 +19,13 @@ Source code: [https://github.com/mojohaus/versions-maven-plugin.git](https://git
 * [org.codehaus.mojo:versions-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/overview)
 </details>
 
-rebuilding **19 releases** of org.codehaus.mojo:versions-maven-plugin:
-- **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **20 releases** of org.codehaus.mojo:versions-maven-plugin:
+- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.20.1](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.20.1/pom) | | | |
+| [2.20.1](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.20.1/pom) | [mvn jdk25](versions-maven-plugin-2.20.1.buildspec) | [result](versions-maven-plugin-2.20.1.buildinfo): [23 :white_check_mark: ](versions-maven-plugin-2.20.1.buildcompare) | | 2.2M |
 | [2.20.0](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.20.0/pom) | [mvn jdk25](versions-maven-plugin-2.20.0.buildspec) | [result](versions-maven-plugin-2.20.0.buildinfo): [23 :white_check_mark: ](versions-maven-plugin-2.20.0.buildcompare) | | 2.2M |
 | [2.19.1](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.19.1/pom) | [mvn jdk21](versions-maven-plugin-2.19.1.buildspec) | [result](versions-maven-plugin-2.19.1.buildinfo): [23 :white_check_mark: ](versions-maven-plugin-2.19.1.buildcompare) | | 2.1M |
 | [2.19.0](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.19.0/pom) | [mvn jdk21](versions-maven-plugin-2.19.0.buildspec) | [result](versions-maven-plugin-2.19.0.buildinfo): [23 :white_check_mark: ](versions-maven-plugin-2.19.0.buildcompare) | | 2.1M |
