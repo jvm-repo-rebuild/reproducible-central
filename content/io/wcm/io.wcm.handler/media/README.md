@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/wcm-io/io.wcm.handler.media.git](https://github.com/wcm-io/io.wcm.handler.media.git)
 
-rebuilding **47 releases** of io.wcm:io.wcm.handler.media:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **48 releases** of io.wcm:io.wcm.handler.media:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 39 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 37, 0 had all their differences removed :recycle:, 37 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.6.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.6.0/pom) | | | |
+| [2.6.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.6.0/pom) | [mvn jdk21 w](wcm-media-2.6.0.buildspec) | [result](io.wcm.handler.media-2.6.0.buildinfo): [3 :white_check_mark: ](io.wcm.handler.media-2.6.0.buildcompare) | | 1.8M |
 | [2.5.4](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.5.4/pom) | [mvn jdk21 w](wcm-media-2.5.4.buildspec) | [result](io.wcm.handler.media-2.5.4.buildinfo): [3 :white_check_mark: ](io.wcm.handler.media-2.5.4.buildcompare) | | 1.7M |
 | [2.5.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.5.2/pom) | [mvn jdk21 w](wcm-media-2.5.2.buildspec) | [result](io.wcm.handler.media-2.5.2.buildinfo): [3 :white_check_mark: ](io.wcm.handler.media-2.5.2.buildcompare) | | 1.7M |
 | [2.5.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/2.5.0/pom) | [mvn jdk21 w](wcm-media-2.5.0.buildspec) | [result](io.wcm.handler.media-2.5.0.buildinfo): [3 :white_check_mark: ](io.wcm.handler.media-2.5.0.buildcompare) | | 1.7M |
