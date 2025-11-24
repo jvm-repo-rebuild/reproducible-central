@@ -1,0 +1,9 @@
+version=3.2.2
+ok=4
+ko=0
+ignored=0
+okFiles="taglist-maven-plugin-3.2.2.pom taglist-maven-plugin-3.2.2.jar taglist-maven-plugin-3.2.2-source-release.zip taglist-maven-plugin-3.2.2-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

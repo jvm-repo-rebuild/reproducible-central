@@ -1,0 +1,16 @@
+groupId=org.codehaus.mojo
+artifactId=taglist-maven-plugin
+display=${groupId}:${artifactId}
+version=3.2.2
+
+gitRepo=https://github.com/mojohaus/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.6
+jdk=25
+newline=lf
+
+command="mvn -Pmojo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
