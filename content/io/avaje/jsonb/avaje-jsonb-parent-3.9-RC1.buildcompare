@@ -1,0 +1,21 @@
+version=3.9-RC1
+ok=16
+ko=7
+ignored=0
+okFiles="avaje-jsonb-parent-3.9-RC1.pom avaje-json-core-3.9-RC1.pom avaje-jsonb-inject-plugin-3.9-RC1.pom avaje-jsonb-inject-plugin-3.9-RC1.jar avaje-jsonb-inject-plugin-3.9-RC1-sources.jar avaje-jsonb-3.9-RC1.pom avaje-json-node-3.9-RC1.pom avaje-json-node-3.9-RC1.jar avaje-json-node-3.9-RC1-sources.jar avaje-jsonb-jackson-3.9-RC1.pom avaje-jsonb-jackson-3.9-RC1.jar avaje-jsonb-jackson-3.9-RC1-sources.jar avaje-jsonb-spring-starter-3.9-RC1.pom avaje-jsonb-spring-starter-3.9-RC1.jar avaje-jsonb-spring-starter-3.9-RC1-sources.jar avaje-jsonb-bom-3.9-RC1.pom"
+koFiles="avaje-json-core-3.9-RC1.jar avaje-json-core-3.9-RC1-sources.jar avaje-jsonb-3.9-RC1.jar avaje-jsonb-3.9-RC1-sources.jar avaje-jsonb-generator-3.9-RC1.pom avaje-jsonb-generator-3.9-RC1.jar avaje-jsonb-generator-3.9-RC1-sources.jar"
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+# diffoscope target/reference/io.avaje/avaje-json-core-3.9-RC1.jar json-core/target/avaje-json-core-3.9-RC1.jar
+# diffoscope target/reference/io.avaje/avaje-json-core-3.9-RC1-sources.jar json-core/target/avaje-json-core-3.9-RC1-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jsonb-3.9-RC1.jar jsonb/target/avaje-jsonb-3.9-RC1.jar
+# diffoscope target/reference/io.avaje/avaje-jsonb-3.9-RC1-sources.jar jsonb/target/avaje-jsonb-3.9-RC1-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jsonb-generator-3.9-RC1.pom jsonb-generator/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jsonb-generator-3.9-RC1.jar jsonb-generator/target/avaje-jsonb-generator-3.9-RC1.jar
+# diffoscope target/reference/io.avaje/avaje-jsonb-generator-3.9-RC1-sources.jar jsonb-generator/target/avaje-jsonb-generator-3.9-RC1-sources.jar
+stabilize_ok=0
+stabilize_ko=6
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles="avaje-json-core-3.9-RC1.jar.stabilized avaje-json-core-3.9-RC1-sources.jar.stabilized avaje-jsonb-3.9-RC1.jar.stabilized avaje-jsonb-3.9-RC1-sources.jar.stabilized avaje-jsonb-generator-3.9-RC1.jar.stabilized avaje-jsonb-generator-3.9-RC1-sources.jar.stabilized"
+stabilize_ignoredFiles="avaje-jsonb-generator-3.9-RC1.pom"
