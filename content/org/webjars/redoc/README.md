@@ -13,6 +13,7 @@ rebuilding **4 releases** of org.webjars:redoc:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.5.1](https://central.sonatype.com/artifact/org.webjars/redoc/2.5.1/pom) | | | |
 | [2.3.0](https://central.sonatype.com/artifact/org.webjars/redoc/2.3.0/pom) | [mvn jdk21](redoc-2.3.0.buildspec) | [result](redoc-2.3.0.buildinfo): [2 :white_check_mark: ](redoc-2.3.0.buildcompare) | | 1.5M |
 | [2.1.5](https://central.sonatype.com/artifact/org.webjars/redoc/2.1.5/pom) | [mvn jdk21](redoc-2.1.5.buildspec) | [result](redoc-2.1.5.buildinfo): [2 :white_check_mark: ](redoc-2.1.5.buildcompare) | | 1.5M |
 | [2.1.1](https://central.sonatype.com/artifact/org.webjars/redoc/2.1.1/pom) | [mvn jdk8](redoc-2.1.1.buildspec) | [result](redoc-2.1.1.buildinfo): [2 :white_check_mark: ](redoc-2.1.1.buildcompare) | | 1.4M |

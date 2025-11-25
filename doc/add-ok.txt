@@ -1,9 +1,4 @@
 content/com/flowlogix/flowlogix-10.0.8.buildspec:11
-content/com/spotify/github-client/github-client-0.4.14.buildspec:0.5.1
-content/io/airlift/airbase/airbase-328.buildspec:329
-content/io/avaje/jex/avaje-jex-3.3.buildspec:3.4-RC1
 content/io/avaje/jsonb/avaje-jsonb-3.8.buildspec:3.9-RC1
-content/io/avaje/prisms/avaje-prisms-1.44-RC3.buildspec:1.44-RC4
-content/io/wcm/io.wcm.handler/link/io.wcm.handler.link-2.2.10.buildspec:2.3.0
-content/io/wcm/io.wcm.handler/media/wcm-media-2.5.4.buildspec:2.6.0
-content/org/codehaus/mojo/versions-maven-plugin/versions-maven-plugin-2.20.0.buildspec:2.20.1
+content/org/hibernate/orm/hibernate-core/hibernate-core-7.2.0.CR2.buildspec:7.2.0.CR3
+content/org/webjars/redoc/redoc-2.3.0.buildspec:2.5.1
