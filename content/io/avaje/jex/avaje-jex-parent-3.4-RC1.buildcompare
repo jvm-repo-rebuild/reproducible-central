@@ -1,0 +1,15 @@
+version=3.4-RC1
+ok=24
+ko=1
+ignored=0
+okFiles="avaje-jex-3.4-RC1.pom avaje-jex-3.4-RC1.jar avaje-jex-3.4-RC1-sources.jar avaje-jex-test-3.4-RC1.pom avaje-jex-test-3.4-RC1.jar avaje-jex-test-3.4-RC1-sources.jar avaje-jex-file-upload-3.4-RC1.pom avaje-jex-file-upload-3.4-RC1.jar avaje-jex-file-upload-3.4-RC1-sources.jar avaje-jex-freemarker-3.4-RC1.pom avaje-jex-freemarker-3.4-RC1.jar avaje-jex-freemarker-3.4-RC1-sources.jar avaje-jex-htmx-3.4-RC1.pom avaje-jex-htmx-3.4-RC1.jar avaje-jex-htmx-3.4-RC1-sources.jar avaje-jex-mustache-3.4-RC1.pom avaje-jex-mustache-3.4-RC1.jar avaje-jex-mustache-3.4-RC1-sources.jar avaje-jex-static-content-3.4-RC1.pom avaje-jex-static-content-3.4-RC1.jar avaje-jex-static-content-3.4-RC1-sources.jar avaje-jex-ssl-3.4-RC1.pom avaje-jex-ssl-3.4-RC1.jar avaje-jex-ssl-3.4-RC1-sources.jar"
+koFiles="avaje-jex-parent-3.4-RC1.pom"
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+# diffoscope target/reference/io.avaje/avaje-jex-parent-3.4-RC1.pom pom.xml
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="avaje-jex-parent-3.4-RC1.pom"
