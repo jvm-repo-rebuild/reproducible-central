@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dubbo.git)
 
-<details><summary>This project defines 182 modules:</summary>
+<details><summary>This project defines 184 modules:</summary>
 
 * [org.apache.dubbo:dubbo](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/overview)
 * [org.apache.dubbo:dubbo-all-shaded](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-all-shaded/overview)
@@ -67,6 +67,7 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-monitor-api](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-monitor-api/overview)
 * [org.apache.dubbo:dubbo-monitor-common](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-monitor-common/overview)
 * [org.apache.dubbo:dubbo-monitor-default](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-monitor-default/overview)
+* [org.apache.dubbo:dubbo-mutiny](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-mutiny/overview)
 * [org.apache.dubbo:dubbo-nacos-spring-boot-starter](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-nacos-spring-boot-starter/overview)
 * [org.apache.dubbo:dubbo-native](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-native/overview)
 * [org.apache.dubbo:dubbo-native-plugin](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-native-plugin/overview)
@@ -182,6 +183,7 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-spring-boot-tracing-otel-otlp-starter](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-spring-boot-tracing-otel-otlp-starter/overview)
 * [org.apache.dubbo:dubbo-spring-boot-tracing-otel-zipkin-starter](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-spring-boot-tracing-otel-zipkin-starter/overview)
 * [org.apache.dubbo:dubbo-spring-security](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-spring-security/overview)
+* [org.apache.dubbo:dubbo-spring6-security](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-spring6-security/overview)
 * [org.apache.dubbo:dubbo-tracing](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-tracing/overview)
 * [org.apache.dubbo:dubbo-tracing-brave-zipkin-spring-boot-starter](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-tracing-brave-zipkin-spring-boot-starter/overview)
 * [org.apache.dubbo:dubbo-tracing-otel-otlp-spring-boot-starter](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-tracing-otel-otlp-spring-boot-starter/overview)
@@ -193,13 +195,14 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-zookeeper-spring-boot-starter](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-zookeeper-spring-boot-starter/overview)
 </details>
 
-rebuilding **83 releases** of org.apache.dubbo:dubbo:
+rebuilding **84 releases** of org.apache.dubbo:dubbo:
 - **24** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 59 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 60 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.3.6](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.6/pom) | | | |
+| [3.3.6](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.6/pom) | [mvn jdk21](dubbo-3.3.6.buildspec) | [result](dubbo-parent-3.3.6.buildinfo): [257 :white_check_mark:  2 :warning:](dubbo-parent-3.3.6.buildcompare) | 1 :recycle: 1 :rotating_light: | 51M |
 | [3.3.5](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.5/pom) | [mvn jdk21](dubbo-3.3.5.buildspec) | [result](dubbo-parent-3.3.5.buildinfo): [253 :white_check_mark: ](dubbo-parent-3.3.5.buildcompare) | | 50M |
 | [3.3.4](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.4/pom) | [mvn jdk21](dubbo-3.3.4.buildspec) | [result](dubbo-parent-3.3.4.buildinfo): [253 :white_check_mark: ](dubbo-parent-3.3.4.buildcompare) | | 49M |
 | [3.3.3](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.3/pom) | [mvn jdk21](dubbo-3.3.3.buildspec) | [result](dubbo-parent-3.3.3.buildinfo): [253 :white_check_mark: ](dubbo-parent-3.3.3.buildcompare) | | 49M |
