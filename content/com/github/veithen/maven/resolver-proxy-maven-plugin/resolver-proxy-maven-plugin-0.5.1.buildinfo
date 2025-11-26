@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=resolver-proxy-maven-plugin
+group-id=com.github.veithen.maven
+artifact-id=resolver-proxy-maven-plugin
+version=0.5.1
+
+# source information
+source.scm.uri=scm:git:http://github.com/veithen/resolver-proxy-maven-plugin.git
+source.scm.tag=0.5.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.9
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.github.veithen.maven
+outputs.0.filename=resolver-proxy-maven-plugin-0.5.1.pom
+outputs.0.length=5746
+outputs.0.checksums.sha512=0afb0dd960f95a1034654e382ba16801051a74e7cac29af4634c8e3c19072236aaa038f9282e4ee13a8f54e1be96854d283aa124b84e8b8a93d2f40ed923aab9
+
+outputs.1.groupId=com.github.veithen.maven
+outputs.1.filename=resolver-proxy-maven-plugin-0.5.1.jar
+outputs.1.length=19770
+outputs.1.checksums.sha512=9fab1316356e5a84b6dd09e6da4c6a3caada862fa7320f4d3ebaacc1c543bd71421967ad231ef309ef2b587bdbb314305788d79b71ae3f6e65d001da27906075
+
+outputs.2.groupId=com.github.veithen.maven
+outputs.2.filename=resolver-proxy-maven-plugin-0.5.1-sources.jar
+outputs.2.length=12664
+outputs.2.checksums.sha512=3de53f6c8b2f0cfe79f6749351a705d1365ec4ae64031140f3a8e29753e7b99b0e5379361cb21c5d465428b30f4bc18c8e382c8d4d76236d5ed636630ddfdbd8
+
+outputs.3.groupId=com.github.veithen.maven
+outputs.3.filename=resolver-proxy-maven-plugin-0.5.1-source-release.zip
+outputs.3.length=44586
+outputs.3.checksums.sha512=e85d4114f7a3a26f8e7c9f1062e372aacdf462322211bbac8ac84d046b097a81da933f88e3f154f6cfe15e2c0dee03024d76aac744c36181592d2c4012a96203
