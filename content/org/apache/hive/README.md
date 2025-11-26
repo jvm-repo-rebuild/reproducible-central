@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/hive.git](https://github.com/apache/hive.git)
 
-<details><summary>This project defines 58 modules:</summary>
+<details><summary>This project defines 59 modules:</summary>
 
 * [org.apache.hive.hcatalog:hive-hcatalog](https://central.sonatype.com/artifact/org.apache.hive.hcatalog/hive-hcatalog/overview)
 * [org.apache.hive.hcatalog:hive-hcatalog-core](https://central.sonatype.com/artifact/org.apache.hive.hcatalog/hive-hcatalog-core/overview)
@@ -54,6 +54,7 @@ Source code: [https://github.com/apache/hive.git](https://github.com/apache/hive
 * [org.apache.hive:hive-shims](https://central.sonatype.com/artifact/org.apache.hive/hive-shims/overview)
 * [org.apache.hive:hive-shims-aggregator](https://central.sonatype.com/artifact/org.apache.hive/hive-shims-aggregator/overview)
 * [org.apache.hive:hive-standalone-metastore](https://central.sonatype.com/artifact/org.apache.hive/hive-standalone-metastore/overview)
+* [org.apache.hive:hive-standalone-metastore-client](https://central.sonatype.com/artifact/org.apache.hive/hive-standalone-metastore-client/overview)
 * [org.apache.hive:hive-standalone-metastore-common](https://central.sonatype.com/artifact/org.apache.hive/hive-standalone-metastore-common/overview)
 * [org.apache.hive:hive-standalone-metastore-rest-catalog](https://central.sonatype.com/artifact/org.apache.hive/hive-standalone-metastore-rest-catalog/overview)
 * [org.apache.hive:hive-standalone-metastore-server](https://central.sonatype.com/artifact/org.apache.hive/hive-standalone-metastore-server/overview)
@@ -69,14 +70,14 @@ Source code: [https://github.com/apache/hive.git](https://github.com/apache/hive
 * [org.apache.hive:patched-iceberg-core](https://central.sonatype.com/artifact/org.apache.hive/patched-iceberg-core/overview)
 </details>
 
-rebuilding **5 releases** of org.apache.hive:hive:
+rebuilding **6 releases** of org.apache.hive:hive:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.2.0](https://central.sonatype.com/artifact/org.apache.hive/hive/4.2.0/pom) | | | |
+| [4.2.0](https://central.sonatype.com/artifact/org.apache.hive/hive/4.2.0/pom) | [mvn jdk21](hive-4.2.0.buildspec) | [result](hive-4.2.0.buildinfo): [168 :white_check_mark:  13 :warning:](hive-4.2.0.buildcompare) [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) | 13 :rotating_light: | 522M |
 | [4.1.0](https://central.sonatype.com/artifact/org.apache.hive/hive/4.1.0/pom) | [mvn jdk17](hive-4.1.0.buildspec) | [result](hive-4.1.0.buildinfo): [165 :white_check_mark:  12 :warning:](hive-4.1.0.buildcompare) [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) | 12 :rotating_light: | 526M |
 | [4.0.1](https://central.sonatype.com/artifact/org.apache.hive/hive/4.0.1/pom) | [mvn jdk8](hive-4.0.1.buildspec) | [result](hive-4.0.1.buildinfo): [135 :white_check_mark:  19 :warning:](hive-4.0.1.buildcompare) [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) | - | 536M |
 | [4.0.0](https://central.sonatype.com/artifact/org.apache.hive/hive/4.0.0/pom) | [mvn jdk8](hive-4.0.0.buildspec) | [result](hive-4.0.0.buildinfo): [135 :white_check_mark:  18 :warning:](hive-4.0.0.buildcompare) [:mag:](hive-4.0.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) | - | 516M |
