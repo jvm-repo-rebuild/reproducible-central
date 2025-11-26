@@ -1,0 +1,20 @@
+groupId=io.wcm
+artifactId=io.wcm.handler.richtext
+display=${groupId}:*.handler.richtext
+version=1.6.6
+
+gitRepo=https://github.com/wcm-io/${artifactId}.git
+gitTag=${version}
+
+tool=mvn-3.9.4
+jdk=11
+newline=crlf-nogit
+umask=022
+
+timestamp="2023-12-18T12:23:43.540+01:00"
+command="mvn -Pio.wcm clean package -DskipTests -Dmaven.javadoc.skip -Dtimestamp=${timestamp}"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
