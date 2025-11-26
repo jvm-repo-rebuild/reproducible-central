@@ -11,15 +11,16 @@ jdk=21
 newline=lf
 umask=022
 
-# data extracted from 4.1.0 release: still need to determine if injecting to rebuild is feasible
+# https://github.com/apache/pulsar/blob/v4.1.2/pulsar-common/src/main/java-templates/org/apache/pulsar/PulsarVersion.java#L85
+# extracted from: wget -q https://repo.maven.apache.org/maven2/org/apache/pulsar/pulsar-common/$version/pulsar-common-$version-sources.jar ; unzip -q -c pulsar-common-$version-sources.jar org/apache/pulsar/PulsarVersion.java | grep '${git.' | tail -5
 gitBranch="branch-4.1"
 buildUserEmail="lhotari@apache.org"
 buildUserName="Lari Hotari"
-buildHost="zdeMacBook-Pro.local"
+buildHost="Laris-MBP-2.lan"
 buildTime="2025-11-11T23:36:57+0200"
 
 # release process https://pulsar.apache.org/contribute/release-process/
-command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dgit.branch='$gitBranch' -Dgit.build.user.email='$buildUserEmail' -Dgit.build.user.name='$buildUserName' -Dgit.build.host='$buildHost' -Dgit.build.time='$buildTime'"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
