@@ -1,0 +1,15 @@
+version=3.0.0-M1
+ok=0
+ko=6
+ignored=0
+okFiles=""
+koFiles=""
+ignoredFiles=""
+missing=6
+missingFiles="maven-doap-plugin-3.0.0-M1.pom maven-doap-plugin-3.0.0-M1.jar maven-doap-plugin-3.0.0-M1-source-release.zip maven-doap-plugin-3.0.0-M1-sources.jar maven-doap-plugin-3.0.0-M1-cyclonedx.xml maven-doap-plugin-3.0.0-M1-cyclonedx.json"
+# wget https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-doap-plugin/3.0.0-M1/maven-doap-plugin-3.0.0-M1.pom; ls -l pom.xml
+# wget https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-doap-plugin/3.0.0-M1/maven-doap-plugin-3.0.0-M1.jar; ls -l target/maven-doap-plugin-3.0.0-M1.jar
+# wget https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-doap-plugin/3.0.0-M1/maven-doap-plugin-3.0.0-M1-source-release.zip; ls -l target/maven-doap-plugin-3.0.0-M1-source-release.zip
+# wget https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-doap-plugin/3.0.0-M1/maven-doap-plugin-3.0.0-M1-sources.jar; ls -l target/maven-doap-plugin-3.0.0-M1-sources.jar
+# wget https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-doap-plugin/3.0.0-M1/maven-doap-plugin-3.0.0-M1-cyclonedx.xml; ls -l target/bom.xml
+# wget https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-doap-plugin/3.0.0-M1/maven-doap-plugin-3.0.0-M1-cyclonedx.json; ls -l target/bom.json
