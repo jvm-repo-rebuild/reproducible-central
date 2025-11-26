@@ -13,6 +13,7 @@ rebuilding **4 releases** of org.apache.commons:commons-configuration2:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.13.0](https://central.sonatype.com/artifact/org.apache.commons/commons-configuration2/2.13.0/pom) | | | |
 | [2.12.0](https://central.sonatype.com/artifact/org.apache.commons/commons-configuration2/2.12.0/pom) | [mvn jdk21](commons-configuration2-2.12.0.buildspec) | [result](commons-configuration2-2.12.0.buildinfo): [4 :white_check_mark:  1 :warning:](commons-configuration2-2.12.0.buildcompare) | - | 2.8M |
 | [2.11.0](https://central.sonatype.com/artifact/org.apache.commons/commons-configuration2/2.11.0/pom) | [mvn jdk17](commons-configuration2-2.11.0.buildspec) | [result](commons-configuration2-2.11.0.buildinfo): [5 :white_check_mark: ](commons-configuration2-2.11.0.buildcompare) | | 2.8M |
 | [2.10.1](https://central.sonatype.com/artifact/org.apache.commons/commons-configuration2/2.10.1/pom) | [mvn jdk17](commons-configuration2-2.10.1.buildspec) | [result](commons-configuration2-2.10.1.buildinfo): [5 :white_check_mark: ](commons-configuration2-2.10.1.buildcompare) | | 2.8M |

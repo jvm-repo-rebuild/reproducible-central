@@ -1,4 +1,12 @@
 content/com/flowlogix/flowlogix-10.0.8.buildspec:11
+content/com/github/veithen/parent/veithen-parent-55.buildspec:56
+content/com/github/veithen/maven/resolver-proxy-maven-plugin/resolver-proxy-maven-plugin-0.5.0.buildspec:0.5.1
+content/dev/langchain4j/langchain4j-1.8.0.buildspec:1.9.0
+content/io/jooby/jooby-4.0.11.buildspec:4.0.12
 content/io/avaje/jsonb/avaje-jsonb-3.8.buildspec:3.9-RC1
-content/org/hibernate/orm/hibernate-core/hibernate-core-7.2.0.CR2.buildspec:7.2.0.CR3
-content/org/webjars/redoc/redoc-2.3.0.buildspec:2.5.1
+content/io/cucumber/tag-expressions/tag-expressions-8.0.0.buildspec:8.1.0
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.10.1-beta-1.buildspec:5.10.1-beta-2
+content/io/telicent/jena/jena-kafka/jena-kafka-2.1.1.buildspec:2.2.0
+content/io/telicent/smart-caches/graph/scg-base/scg-base-0.91.2.buildspec:0.92.0
+content/org/apache/dubbo/dubbo-3.3.5.buildspec:3.3.6
+content/org/openapitools/openapidiff/openapi-diff-2.1.5.buildspec:2.1.6
