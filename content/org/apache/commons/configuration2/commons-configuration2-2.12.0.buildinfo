@@ -14,9 +14,12 @@ source.scm.tag=HEAD
 build-tool=mvn
 
 # effective build environment information
-java.version=21.0.6
+java.version=21.0.9
 java.vendor=Ubuntu
 os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
 
 # Maven rebuild instructions and effective environment
 mvn.version=3.6.3
@@ -31,7 +34,7 @@ outputs.0.checksums.sha512=3c359518174102e70e4d79c9536e52f9518eb5725e3ed2ccc37f7
 outputs.1.groupId=org.apache.commons
 outputs.1.filename=commons-configuration2-2.12.0.jar
 outputs.1.length=673927
-outputs.1.checksums.sha512=46681fd7f5505f3deec715a3d36fb11dd626eae1b5fd6b24d34c9cc4c68160db7d766cc46a85badfc348e36bc18626709113478badadfb28e3e40dc33d319e82
+outputs.1.checksums.sha512=d4aa172b50cee3dca52a852f2a6bbaa800e536b978d5597b5f3678b472c00bb46986e45f1b26f5a52cecd4b2bd29c3d0a3456dde80b241b75df59c48930275ef
 
 outputs.2.groupId=org.apache.commons
 outputs.2.filename=commons-configuration2-2.12.0-tests.jar
