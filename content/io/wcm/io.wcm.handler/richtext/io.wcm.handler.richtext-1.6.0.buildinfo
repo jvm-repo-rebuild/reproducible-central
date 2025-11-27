@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=RichText Handler
+group-id=io.wcm
+artifact-id=io.wcm.handler.richtext
+version=1.6.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/io.wcm.handler.richtext.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.29
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.4
+
+# output
+
+outputs.0.groupId=io.wcm
+outputs.0.filename=io.wcm.handler.richtext-1.6.0.pom
+outputs.0.length=7661
+outputs.0.checksums.sha512=3c471cf31e46f4e80867dea09582bbe00b2ccdceb9de9335dc806f6497f9e28ebed8d1c0b12a6cb507fbd501d05abf21b110d6ce22a3c8a766f37856aa106f2f
+
+outputs.1.groupId=io.wcm
+outputs.1.filename=io.wcm.handler.richtext-1.6.0.jar
+outputs.1.length=76926
+outputs.1.checksums.sha512=724d82aebb349ff3d589f2d5775789371177bfac8668a04474220dd291b9be108efb18fb9005daf3468ca3fb287aa6233eeba5822f515b6c821e8e40e04f56d0
+
+outputs.2.groupId=io.wcm
+outputs.2.filename=io.wcm.handler.richtext-1.6.0-sources.jar
+outputs.2.length=73299
+outputs.2.checksums.sha512=17c7facab391e03f7f6468e255a1bdc8bf54bfdd789c02a2edf4ca05f855cfee6071efe4570f4420620a43b0c2de567f691c357fbf1b3bfd7313da8172402bdc
+
+outputs.3.groupId=io.wcm
+outputs.3.filename=io.wcm.handler.richtext-1.6.0-content.zip
+outputs.3.length=10473
+outputs.3.checksums.sha512=4f1ae5f1817906f09df4920d7ddb0084f5b9c8b7d8e89918016abbb29ad780dabcbb1c0c93999743fb0d2cad3f559c361b54532da7c84ac6f31df2c750577b64
+
+outputs.4.groupId=io.wcm
+outputs.4.filename=io.wcm.handler.richtext-1.6.0-bundle.jar
+outputs.4.length=71631
+outputs.4.checksums.sha512=e24733ba267423243aaff26571ce23eb8c8955f4240cfac954503451c93dc94ee193f30edfb37df06e1eb7540ec31fffdd3afcc707ac4db92ca5b122caefb773
