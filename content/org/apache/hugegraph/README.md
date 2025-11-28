@@ -7,8 +7,9 @@
 
 Source code: [https://github.com/apache/hugegraph.git](https://github.com/apache/hugegraph.git)
 
-<details><summary>This project defines 41 modules:</summary>
+<details><summary>This project defines 43 modules:</summary>
 
+* [org.apache.hugegraph:hg-pd-cli](https://central.sonatype.com/artifact/org.apache.hugegraph/hg-pd-cli/overview)
 * [org.apache.hugegraph:hg-pd-client](https://central.sonatype.com/artifact/org.apache.hugegraph/hg-pd-client/overview)
 * [org.apache.hugegraph:hg-pd-common](https://central.sonatype.com/artifact/org.apache.hugegraph/hg-pd-common/overview)
 * [org.apache.hugegraph:hg-pd-core](https://central.sonatype.com/artifact/org.apache.hugegraph/hg-pd-core/overview)
@@ -48,18 +49,19 @@ Source code: [https://github.com/apache/hugegraph.git](https://github.com/apache
 * [org.apache.hugegraph:hugegraph-scylladb](https://central.sonatype.com/artifact/org.apache.hugegraph/hugegraph-scylladb/overview)
 * [org.apache.hugegraph:hugegraph-server](https://central.sonatype.com/artifact/org.apache.hugegraph/hugegraph-server/overview)
 * [org.apache.hugegraph:hugegraph-store](https://central.sonatype.com/artifact/org.apache.hugegraph/hugegraph-store/overview)
+* [org.apache.hugegraph:hugegraph-struct](https://central.sonatype.com/artifact/org.apache.hugegraph/hugegraph-struct/overview)
 * [org.apache.hugegraph:hugegraph-test](https://central.sonatype.com/artifact/org.apache.hugegraph/hugegraph-test/overview)
 * [org.apache.hugegraph:install-dist](https://central.sonatype.com/artifact/org.apache.hugegraph/install-dist/overview)
 </details>
 
-rebuilding **1 releases** of org.apache.hugegraph:hugegraph:
+rebuilding **2 releases** of org.apache.hugegraph:hugegraph:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.7.0](https://central.sonatype.com/artifact/org.apache.hugegraph/hugegraph/1.7.0/pom) | | | |
+| [1.7.0](https://central.sonatype.com/artifact/org.apache.hugegraph/hugegraph/1.7.0/pom) | [mvn jdk11](hugegraph-1.7.0.buildspec) | [result](hugegraph-1.7.0.buildinfo): [118 :white_check_mark:  1 :warning:](hugegraph-1.7.0.buildcompare) | 1 :no_entry_sign: | 910M |
 | [1.5.0](https://central.sonatype.com/artifact/org.apache.hugegraph/hugegraph/1.5.0/pom) | [mvn jdk11](hugegraph-1.5.0.buildspec) | [result](hugegraph-1.5.0.buildinfo): [93 :white_check_mark:  19 :warning:](hugegraph-1.5.0.buildcompare) [:memo:](https://github.com/apache/incubator-hugegraph/pull/2874) | 19 :rotating_light: | 412M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
