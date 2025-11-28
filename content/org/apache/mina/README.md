@@ -24,13 +24,13 @@ Source code: [https://github.com/apache/mina.git](https://github.com/apache/mina
 * [org.apache.mina:mina-transport-serial](https://central.sonatype.com/artifact/org.apache.mina/mina-transport-serial/overview)
 </details>
 
-rebuilding **10 releases** of org.apache.mina:mina-parent:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **11 releases** of org.apache.mina:mina-parent:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.2.5](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.5/pom) | | | |
+| [2.2.5](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.5/pom) | [mvn jdk21](mina-2.2.5.buildspec) | [result](mina-parent-2.2.5.buildinfo): [67 :white_check_mark: ](mina-parent-2.2.5.buildcompare) | | 4.4M |
 | [2.2.4](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.4/pom) | [mvn jdk8](mina-2.2.4.buildspec) | [result](mina-parent-2.2.4.buildinfo): [67 :white_check_mark: ](mina-parent-2.2.4.buildcompare) | | 4.5M |
 | [2.2.3](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.3/pom) | [mvn jdk8](mina-2.2.3.buildspec) | [result](mina-parent-2.2.3.buildinfo): [41 :white_check_mark: ](mina-parent-2.2.3.buildcompare) | | 3.5M |
 | [2.2.2](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/2.2.2/pom) | [mvn jdk11](mina-2.2.2.buildspec) | [result](mina-parent-2.2.2.buildinfo): [41 :white_check_mark: ](mina-parent-2.2.2.buildcompare) | | 3.5M |
