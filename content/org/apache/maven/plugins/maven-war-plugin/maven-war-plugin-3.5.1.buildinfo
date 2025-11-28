@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven WAR Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-war-plugin
+version=3.5.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-war-plugin.git
+source.scm.tag=maven-war-plugin-3.5.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-war-plugin-3.5.1.pom
+outputs.0.length=9463
+outputs.0.checksums.sha512=21d8a28cdf532167fc4b181794995d7746e6cae6526d2a85dadc15f23f4605c191c89c7e88a26506ed8a6b0a9204a066f62232a75ad485d135d1388040ee584f
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-war-plugin-3.5.1.jar
+outputs.1.length=83075
+outputs.1.checksums.sha512=8b644cd769d3ed907fbabb1ee84fc9f4b4f66d9f4453bb3a6adb4d4983584da1becb15ac3789b97ac4a3587d9a28dd7cdb4367aa984f92845345cdf47faa2297
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-war-plugin-3.5.1-source-release.zip
+outputs.2.length=682680
+outputs.2.checksums.sha512=10f503879977096a447156bb9e405675d913b0c47db4080410c288f07cb2014c5078a9893b839d591ae740e557bd8b83980a546a0adcf90662b722f48bc5635c
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-war-plugin-3.5.1-sources.jar
+outputs.3.length=62665
+outputs.3.checksums.sha512=f1ed3694d2c1c1303ddab0b5d8c647b1cbd90672b0059348d1682df34fadb739373b72ec4a5d49a720bca75c5f1a007f79fcab6dbedd6e8227f7726db52c7671
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-war-plugin-3.5.1-cyclonedx.xml
+outputs.4.length=131725
+outputs.4.checksums.sha512=2697bc73e9294fa775c3541ca6fd387bf0e213fbbbd72125a06bad54d7df435e1c13c46e40584ba98c616c1cd842c96e8f9fc60e672867661513ec86ea8203e5
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-war-plugin-3.5.1-cyclonedx.json
+outputs.5.length=143184
+outputs.5.checksums.sha512=2fea49bc53ac1d370ec17c8d4135015b34d85581894eb8938a6f3c10868e7a1b10bfc6ae2d0af742b66136acc1e88f29725c90de6855d55928232dfd0b4c1404
