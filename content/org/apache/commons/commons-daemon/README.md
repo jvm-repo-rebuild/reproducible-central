@@ -13,6 +13,7 @@ rebuilding **2 releases** of commons-daemon:commons-daemon:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.5.0](https://central.sonatype.com/artifact/commons-daemon/commons-daemon/1.5.0/pom) | | | |
 | [1.4.1](https://central.sonatype.com/artifact/commons-daemon/commons-daemon/1.4.1/pom) | [mvn jdk23](commons-daemon-1.4.1.buildspec) | [result](commons-daemon-1.4.1.buildinfo): [7 :white_check_mark:  5 :warning:](commons-daemon-1.4.1.buildcompare) | - | 9.2M |
 | [1.4.0](https://central.sonatype.com/artifact/commons-daemon/commons-daemon/1.4.0/pom) | [mvn jdk8](commons-daemon-1.4.0.buildspec) | [result](commons-daemon-1.4.0.buildinfo): [7 :white_check_mark:  5 :warning:](commons-daemon-1.4.0.buildcompare) [:mag:](commons-daemon-1.4.0.diffoscope) | - | 1.6M |
 

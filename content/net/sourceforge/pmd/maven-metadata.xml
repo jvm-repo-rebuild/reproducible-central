@@ -3,8 +3,8 @@
   <groupId>net.sourceforge.pmd</groupId>
   <artifactId>pmd</artifactId>
   <versioning>
-    <latest>7.18.0</latest>
-    <release>7.18.0</release>
+    <latest>7.19.0</latest>
+    <release>7.19.0</release>
     <versions>
       <version>5.0-alpha</version>
       <version>5.0.0</version>
@@ -130,7 +130,8 @@
       <version>7.16.0</version>
       <version>7.17.0</version>
       <version>7.18.0</version>
+      <version>7.19.0</version>
     </versions>
-    <lastUpdated>20251031085735</lastUpdated>
+    <lastUpdated>20251128113521</lastUpdated>
   </versioning>
 </metadata>

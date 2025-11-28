@@ -13,6 +13,7 @@ rebuilding **2 releases** of eu.europa.ted.eforms:eforms-sdk-analyzer:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.14.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk-analyzer/1.14.0/pom) | | | |
 | [1.13.1](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk-analyzer/1.13.1/pom) | [mvn jdk11](eforms-sdk-analyzer-1.13.1.buildspec) | [result](eforms-sdk-analyzer-1.13.1.buildinfo): [2 :white_check_mark:  2 :warning:](eforms-sdk-analyzer-1.13.1.buildcompare) | - | 39M |
 | [1.13.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk-analyzer/1.13.0/pom) | [mvn jdk11](eforms-sdk-analyzer-1.13.0.buildspec) | [result](eforms-sdk-analyzer-1.13.0.buildinfo): [2 :white_check_mark:  2 :warning:](eforms-sdk-analyzer-1.13.0.buildcompare) [:mag:](eforms-sdk-analyzer-1.13.0.diffoscope) | - | 39M |
 
