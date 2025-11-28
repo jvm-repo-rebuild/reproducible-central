@@ -78,14 +78,14 @@ Source code: [https://github.com/apache/paimon.git](https://github.com/apache/pa
 * [org.apache.paimon:paimon-vfs-hadoop](https://central.sonatype.com/artifact/org.apache.paimon/paimon-vfs-hadoop/overview)
 </details>
 
-rebuilding **13 releases** of org.apache.paimon:paimon-parent:
+rebuilding **14 releases** of org.apache.paimon:paimon-parent:
 - **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.3.1](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/1.3.1/pom) | | | |
+| [1.3.1](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/1.3.1/pom) | [mvn jdk8](paimon-parent-1.3.1.buildspec) | [result](paimon-parent-1.3.1.buildinfo): [154 :white_check_mark:  17 :warning:](paimon-parent-1.3.1.buildcompare) [:memo:](https://github.com/apache/paimon/issues/6557) | 12 :rotating_light: 5 :no_entry_sign: | 1.1G |
 | [1.3.0](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/1.3.0/pom) | [mvn jdk8](paimon-parent-1.3.0.buildspec) | [result](paimon-parent-1.3.0.buildinfo): [168 :white_check_mark:  3 :warning:](paimon-parent-1.3.0.buildcompare) [:mag:](paimon-parent-1.3.0.diffoscope) [:memo:](https://github.com/apache/paimon/issues/6557) | 3 :rotating_light: | 1.1G |
 | [1.2.0](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/1.2.0/pom) | [mvn jdk8](paimon-parent-1.2.0.buildspec) | [result](paimon-parent-1.2.0.buildinfo): [152 :white_check_mark: ](paimon-parent-1.2.0.buildcompare) | | 1.1G |
 | [1.1.1](https://central.sonatype.com/artifact/org.apache.paimon/paimon-parent/1.1.1/pom) | [mvn jdk8](paimon-parent-1.1.1.buildspec) | [result](paimon-parent-1.1.1.buildinfo): [152 :white_check_mark: ](paimon-parent-1.1.1.buildcompare) | | 990M |
