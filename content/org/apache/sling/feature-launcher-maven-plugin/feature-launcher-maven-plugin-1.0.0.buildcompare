@@ -1,0 +1,9 @@
+version=1.0.0
+ok=4
+ko=0
+ignored=0
+okFiles="feature-launcher-maven-plugin-1.0.0.pom feature-launcher-maven-plugin-1.0.0.jar feature-launcher-maven-plugin-1.0.0-source-release.zip feature-launcher-maven-plugin-1.0.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
