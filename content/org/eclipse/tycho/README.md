@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/eclipse-tycho/tycho.git](https://github.com/eclipse-tycho/tycho.git)
 
-<details><summary>This project defines 58 modules:</summary>
+<details><summary>This project defines 59 modules:</summary>
 
 * [org.eclipse.tycho.extras:target-platform-validation-plugin](https://central.sonatype.com/artifact/org.eclipse.tycho.extras/target-platform-validation-plugin/overview)
 * [org.eclipse.tycho.extras:tycho-custom-bundle-plugin](https://central.sonatype.com/artifact/org.eclipse.tycho.extras/tycho-custom-bundle-plugin/overview)
@@ -59,6 +59,7 @@ Source code: [https://github.com/eclipse-tycho/tycho.git](https://github.com/ecl
 * [org.eclipse.tycho:tycho-packaging-plugin](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho-packaging-plugin/overview)
 * [org.eclipse.tycho:tycho-repository-plugin](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho-repository-plugin/overview)
 * [org.eclipse.tycho:tycho-sbom](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho-sbom/overview)
+* [org.eclipse.tycho:tycho-sbom-plugin](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho-sbom-plugin/overview)
 * [org.eclipse.tycho:tycho-source-plugin](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho-source-plugin/overview)
 * [org.eclipse.tycho:tycho-spi](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho-spi/overview)
 * [org.eclipse.tycho:tycho-surefire](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho-surefire/overview)
@@ -69,14 +70,14 @@ Source code: [https://github.com/eclipse-tycho/tycho.git](https://github.com/ecl
 * [org.eclipse.tycho:tycho-wrap-plugin](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho-wrap-plugin/overview)
 </details>
 
-rebuilding **1 releases** of org.eclipse.tycho:tycho:
+rebuilding **2 releases** of org.eclipse.tycho:tycho:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [5.0.1](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho/5.0.1/pom) | | | |
+| [5.0.1](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho/5.0.1/pom) | [mvn jdk21](tycho-5.0.1.buildspec) | [result](tycho-5.0.1.buildinfo): [167 :white_check_mark:  3 :warning:](tycho-5.0.1.buildcompare) | 3 :rotating_light: | 13M |
 | [5.0.0](https://central.sonatype.com/artifact/org.eclipse.tycho/tycho/5.0.0/pom) | [mvn jdk21](tycho-5.0.0.buildspec) | [result](tycho-5.0.0.buildinfo): [164 :white_check_mark:  3 :warning:](tycho-5.0.0.buildcompare) [:mag:](tycho-5.0.0.diffoscope) [:memo:](https://github.com/eclipse-tycho/tycho/issues/5284) | 3 :rotating_light: | 13M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
