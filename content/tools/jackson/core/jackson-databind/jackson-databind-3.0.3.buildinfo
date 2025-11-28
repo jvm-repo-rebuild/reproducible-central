@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=jackson-databind
+group-id=tools.jackson.core
+artifact-id=jackson-databind
+version=3.0.3
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-databind.git
+source.scm.tag=jackson-databind-3.0.3
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.17
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=tools.jackson.core
+outputs.0.filename=jackson-databind-3.0.3.pom
+outputs.0.length=18029
+outputs.0.checksums.sha512=da669b9cdf0df80dfb95800169b7fae37d6cd5ad4c7acf1f894550b2853517404a57d850cf9906c35c01165400930888ab6ded86809afef839919af789d8fe36
+
+outputs.1.groupId=tools.jackson.core
+outputs.1.filename=jackson-databind-3.0.3.jar
+outputs.1.length=1860536
+outputs.1.checksums.sha512=22f6bff435933f508fb75e2d8132d5a2b97e80a7af97e3126b99204c67e8cff05dec8d16fb1656fbb6421dc968ebbb3783a426c3addb4de2b53597ae54092797
+
+outputs.2.groupId=tools.jackson.core
+outputs.2.filename=jackson-databind-3.0.3-sources.jar
+outputs.2.length=1283352
+outputs.2.checksums.sha512=bb272508d7e2d14b75c91a42499e84036a2f5fbf391def60cbd2ba1be97d15754a2ff15490e5639d8badab6302c8e32f2f67e9d79ec1b1ac32e27f0dcfbadc38
+# ignored jackson-databind-3.0.3.module
