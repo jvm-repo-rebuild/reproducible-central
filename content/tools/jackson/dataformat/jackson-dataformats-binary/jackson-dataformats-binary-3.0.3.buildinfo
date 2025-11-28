@@ -1,0 +1,125 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson dataformats: Binary
+group-id=tools.jackson.dataformat
+artifact-id=jackson-dataformats-binary
+version=3.0.3
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-dataformats-binary.git
+source.scm.tag=jackson-dataformats-binary-3.0.3
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.17
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=jackson-dataformat-ion
+
+# aggregated output
+
+outputs.0.coordinates=tools.jackson.dataformat:jackson-dataformats-binary
+
+outputs.0.0.groupId=tools.jackson.dataformat
+outputs.0.0.filename=jackson-dataformats-binary-3.0.3.pom
+outputs.0.0.length=3858
+outputs.0.0.checksums.sha512=3040a60ce767b4756e76c47ad3d354990152361d3410d08873ce9ddd206d8eb6c150cb476b133b0f87f11632c767a8cd458f835e02415fa62c7e4fe602f1b9d0
+
+outputs.1.coordinates=tools.jackson.dataformat:jackson-dataformat-cbor
+
+outputs.1.0.groupId=tools.jackson.dataformat
+outputs.1.0.filename=jackson-dataformat-cbor-3.0.3.pom
+outputs.1.0.length=2605
+outputs.1.0.checksums.sha512=24feca18021667026161ce081c34d67d8869d50b75fd541aea017a6b54108ba76e95b9c7f815b49f29ab03475df27c8bae1714d872bff5488b7a2911d35d7e31
+
+outputs.1.1.groupId=tools.jackson.dataformat
+outputs.1.1.filename=jackson-dataformat-cbor-3.0.3.jar
+outputs.1.1.length=73313
+outputs.1.1.checksums.sha512=cedaeadc65c9bdffff468333960847903028f95a8ef34f8f2538834c0dada6184ad257081fb2015ac50f5f55cb1e69f930d8faf3a0e6186ed482e8cb6fa88a36
+
+outputs.1.2.groupId=tools.jackson.dataformat
+outputs.1.2.filename=jackson-dataformat-cbor-3.0.3-sources.jar
+outputs.1.2.length=60496
+outputs.1.2.checksums.sha512=f62684cd66cb8ca37eb89bc6ae130816956f90bdcd1fea3fc7e49aa5e6fba344fd11c90b1ecff5ebc8dd1d9de4b1f525ddba827980b0d60a45694985607e4e0a
+# ignored jackson-dataformat-cbor-3.0.3.module
+
+outputs.2.coordinates=tools.jackson.dataformat:jackson-dataformat-smile
+
+outputs.2.0.groupId=tools.jackson.dataformat
+outputs.2.0.filename=jackson-dataformat-smile-3.0.3.pom
+outputs.2.0.length=2917
+outputs.2.0.checksums.sha512=872be2c78eeeed86ca932e2ed13fc864edb5a0c8a635f36b387a463f7d114b46add7cfb76ad145c995f8dab04dd785c90cf95ca3f059e001afffdaf7dfbf0743
+
+outputs.2.1.groupId=tools.jackson.dataformat
+outputs.2.1.filename=jackson-dataformat-smile-3.0.3.jar
+outputs.2.1.length=95693
+outputs.2.1.checksums.sha512=1814f1550b8b22662c81820af4106615c1526c44d170a0ca2b4085849caa77b759c9be175f2497d706b90b69259cfb7427b0a0070aebc66dde656613660ee9e3
+
+outputs.2.2.groupId=tools.jackson.dataformat
+outputs.2.2.filename=jackson-dataformat-smile-3.0.3-sources.jar
+outputs.2.2.length=81320
+outputs.2.2.checksums.sha512=531d52e185c4fb6e1062592915730a188454a86686015939fde6ab161167a60eacffbe7f759ea68d663e2083b93a89ba8ed8a68238157cb90346568e01bb54ab
+# ignored jackson-dataformat-smile-3.0.3.module
+
+outputs.3.coordinates=tools.jackson.dataformat:jackson-dataformat-avro
+
+outputs.3.0.groupId=tools.jackson.dataformat
+outputs.3.0.filename=jackson-dataformat-avro-3.0.3.pom
+outputs.3.0.length=3254
+outputs.3.0.checksums.sha512=9e3a2fba1529fbde2a968627969a2320b94e2dfc37d13b2c9c871d2b410beef66e757151dc7a3eca30e80ffb0cd885a5ae45d3bfa869b0b790ce48cb80d65f72
+
+outputs.3.1.groupId=tools.jackson.dataformat
+outputs.3.1.filename=jackson-dataformat-avro-3.0.3.jar
+outputs.3.1.length=225789
+outputs.3.1.checksums.sha512=9c3f8ba701a6123016af01f311664687a85e8850b3ca21747250fd902845d95bca2b9b63d9f1124f8c90864121e083e836cf260e38c623d661511fe721aabf05
+
+outputs.3.2.groupId=tools.jackson.dataformat
+outputs.3.2.filename=jackson-dataformat-avro-3.0.3-sources.jar
+outputs.3.2.length=120852
+outputs.3.2.checksums.sha512=7d720c983b2d8b9161a064e28c8883fc06f4e78ba36418c089130cf37ade454fe91bad0a932ca94f534296377d3b62d93861daca715a0750c7e67cd7ba28fd07
+# ignored jackson-dataformat-avro-3.0.3.module
+
+outputs.4.coordinates=tools.jackson.dataformat:jackson-dataformat-protobuf
+
+outputs.4.0.groupId=tools.jackson.dataformat
+outputs.4.0.filename=jackson-dataformat-protobuf-3.0.3.pom
+outputs.4.0.length=2786
+outputs.4.0.checksums.sha512=58cab287671508dd6c29576abce28bfec3821d1edd7df569416a63efda8a5194e11683485a6e9cd9396a9926539f810bc26a70e9f50b5befb25750ace2181fc5
+
+outputs.4.1.groupId=tools.jackson.dataformat
+outputs.4.1.filename=jackson-dataformat-protobuf-3.0.3.jar
+outputs.4.1.length=151185
+outputs.4.1.checksums.sha512=ace0fb8a154c41b9bb0f34ce0c3885c01cb5ad27890f39dae73c5644739607b09e3c64d5c5f9a008d4cc71ba4c44d737881be132ca20f7d443de52b63f60f2c3
+
+outputs.4.2.groupId=tools.jackson.dataformat
+outputs.4.2.filename=jackson-dataformat-protobuf-3.0.3-sources.jar
+outputs.4.2.length=85912
+outputs.4.2.checksums.sha512=dfc88a60b78701b81ae7e9db2dfd1bfc92dae01003dae6bf4ba89f14228f1cea7f925ce01a62814dc95b753b4310d22d49858207e0de217c958d836df62acd92
+# ignored jackson-dataformat-protobuf-3.0.3.module
+
+outputs.5.coordinates=tools.jackson.dataformat:jackson-dataformat-ion
+
+outputs.5.0.groupId=tools.jackson.dataformat
+outputs.5.0.filename=jackson-dataformat-ion-3.0.3.pom
+outputs.5.0.length=2810
+outputs.5.0.checksums.sha512=7732f85cb1b25026a8fb1443ff0bf211bcebe52437de6bc166b43c110b7d56f58e21f0faff2e0102788514742119d6eba38c8d8f7d301fc47bb5ed565ec252d7
+
+outputs.5.1.groupId=tools.jackson.dataformat
+outputs.5.1.filename=jackson-dataformat-ion-3.0.3.jar
+outputs.5.1.length=73693
+outputs.5.1.checksums.sha512=1a11fd099008b02c322e1c49576dc07076344804294b5d2d87b41a39ea2fe870e9127c962ad1d3f0576beb9c938de4462de2d55d9493cab5e36165f7188e40d9
+
+outputs.5.2.groupId=tools.jackson.dataformat
+outputs.5.2.filename=jackson-dataformat-ion-3.0.3-sources.jar
+outputs.5.2.length=56899
+outputs.5.2.checksums.sha512=e04dc2acd815d2966655255726e9e6383d6a517075fd222150096b5f2c0869c523fca225a0a2943d39454422a5eac10860bdd3c7260a72f6775ca4404d2fcaaa
+# ignored jackson-dataformat-ion-3.0.3.module
