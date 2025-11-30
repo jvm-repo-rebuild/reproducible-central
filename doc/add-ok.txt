@@ -1,6 +1,8 @@
 content/com/flowlogix/flowlogix-10.0.8.buildspec:11
 content/dev/langchain4j/langchain4j-1.9.0.buildspec:1.9.1
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.2-beta-14.buildspec:11.2.2-beta-15
 content/io/avaje/jsonb/avaje-jsonb-3.8.buildspec:3.9-RC1
+content/io/cucumber/html-formatter/html-formatter-22.1.0.buildspec:22.2.0
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.10.1-beta-2.buildspec:5.10.1-beta-3
 content/net/bytebuddy/byte-buddy-1.18.1.buildspec:1.18.2
-content/org/apache/maven/plugins/maven-assembly-plugin/maven-assembly-plugin-3.7.1.buildspec:3.8.0
-content/tech/picnic/error-prone-support/error-prone-support/error-prone-support-0.26.0.buildspec:0.27.0
+content/org/mybatis/mybatis-spring/mybatis-spring-3.0.5.buildspec:4.0.0
