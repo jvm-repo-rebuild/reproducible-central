@@ -1,0 +1,59 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-Python
+group-id=org.jpmml
+artifact-id=jpmml-python
+version=1.3.11
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-python.git
+source.scm.tag=1.3.11
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.29
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+mvn.aggregate.artifact-id=pmml-python-testing
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-python
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-python-1.3.11.pom
+outputs.0.0.length=3350
+outputs.0.0.checksums.sha512=5f183b110c832a9d021037470c42eb4cfb9293c61fd15569890e96af7b31c72808b9bd8844868cfaaff4de7ba1e17e5eab9f4bd9dbfb13626b6cd8bf79d03437
+
+outputs.1.coordinates=org.jpmml:pmml-python
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-python-1.3.11.pom
+outputs.1.0.length=5171
+outputs.1.0.checksums.sha512=058b255409a8c3ea5933ed9d46e72a75ef99a38fc02f9d1ad6f2c9bc207df5430f21e3dbfbc180ddba55d6fda30298a02b6552f90c5beb56bd5da67501c1587d
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-python-1.3.11.jar
+outputs.1.1.length=247933
+outputs.1.1.checksums.sha512=6a36b9a6ef412ffd472c83638fc58b22f23cadea848496352da71fc72e766db4f79769c4e1fafa54526f397290f2721f1fa55ea888aaf7d27ee84b079ab42626
+
+outputs.2.coordinates=org.jpmml:pmml-python-testing
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-python-testing-1.3.11.pom
+outputs.2.0.length=1249
+outputs.2.0.checksums.sha512=15bbcbda8946a6e4046c1ed236f697b105a0b642e15c6ebf30bb72536836694c5c3b45594e5df2ff5f3c47f22226f07eae3305ed809cf5b2c0068e098a6d0566
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-python-testing-1.3.11.jar
+outputs.2.1.length=4137
+outputs.2.1.checksums.sha512=05b80877d76b492ab35ad5d7cda5706f4106d4452bfbeb60a37d07b4fd3686fc5512f0754494d7eac1a23c5a337aacc793a0b07dca75e98bb54024ad7a916257
