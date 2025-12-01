@@ -1,8 +1,10 @@
 content/com/flowlogix/flowlogix-10.0.8.buildspec:11
-content/dev/langchain4j/langchain4j-1.9.0.buildspec:1.9.1
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.2-beta-14.buildspec:11.2.2-beta-15
-content/io/avaje/jsonb/avaje-jsonb-3.8.buildspec:3.9-RC1
-content/io/cucumber/html-formatter/html-formatter-22.1.0.buildspec:22.2.0
-content/io/github/chains-project/maven-lockfile/maven-lockfile-5.10.1-beta-2.buildspec:5.10.1-beta-3
-content/net/bytebuddy/byte-buddy-1.18.1.buildspec:1.18.2
-content/org/mybatis/mybatis-spring/mybatis-spring-3.0.5.buildspec:4.0.0
+content/com/spotify/github-client/github-client-0.5.1.buildspec:0.5.2
+content/io/airlift/airbase/airbase-330.buildspec:331
+content/io/avaje/http/avaje-http-3.6-RC2.buildspec:3.6-RC3
+content/io/avaje/jsonb/avaje-jsonb-3.8.buildspec:3.9-RC2
+content/io/avaje/prisms/avaje-prisms-1.44-RC4.buildspec:1.44
+content/io/avaje/validator/avaje-validator-2.15-RC1.buildspec:2.15-RC2
+content/io/telicent/smart-caches/graph/scg-base/scg-base-0.92.1.buildspec:0.92.2
+content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-3.0.2.buildspec:3.0.4
+content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.1.2.Final.buildspec:8.2.0.CR1
