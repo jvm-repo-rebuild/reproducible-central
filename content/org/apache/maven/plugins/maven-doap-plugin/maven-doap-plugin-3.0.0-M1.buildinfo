@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven DOAP Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-doap-plugin
+version=3.0.0-M1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-doap-plugin.git
+source.scm.tag=maven-doap-plugin-3.0.0-M1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-doap-plugin-3.0.0-M1.pom
+outputs.0.length=8044
+outputs.0.checksums.sha512=7d93ae175aae2964f9366f3ba512bc2dac72321a2c3d073f9536e6cae7dcb9d523a317cea85ddd44f870835449c94ac7532c017467b8a346245049cfbc8e8946
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-doap-plugin-3.0.0-M1.jar
+outputs.1.length=73738
+outputs.1.checksums.sha512=663657476195fd5ecdba5f3109e9fae783a44617ec8e44f42202c61fc4c90a9aa51d46410c178946f3460712960fffb96d7070b210dc65914f7bd123ddea7c04
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-doap-plugin-3.0.0-M1-source-release.zip
+outputs.2.length=93523
+outputs.2.checksums.sha512=fa8a4742acb909b4eb646e4f310ba4601e0a6499f15ed2d8f083989bc639f9f2e8cebf02fa393d9acdc32248ddcc00caf61661c86607a2b2bb7b5e4ee7df5258
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-doap-plugin-3.0.0-M1-sources.jar
+outputs.3.length=55093
+outputs.3.checksums.sha512=81c063d727b3fb78b1b47d81a0357b1a96a9338136dc7d009e6487e266fa74dd984350af25e405624ef98485bf9b6278cca612c6fc852cba26a95677526b7943
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-doap-plugin-3.0.0-M1-cyclonedx.xml
+outputs.4.length=152161
+outputs.4.checksums.sha512=2e7692a08da48b058c0a7b88bfe308e444b45b8d1ec2c2eb6e5a05ef3e36962b16b573d4bd684e80b577b94a81b46b8d98e2eca912ea66092d66ed4d8c0fef53
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-doap-plugin-3.0.0-M1-cyclonedx.json
+outputs.5.length=165116
+outputs.5.checksums.sha512=5f3db5571b79f3d16537d7f41279ae3400be9852356e7cc804ca3c236f0951b58bd2af2e5204ebe3610112dbdd4c2be3dc7c0065065789f6634d4e913ca79034
