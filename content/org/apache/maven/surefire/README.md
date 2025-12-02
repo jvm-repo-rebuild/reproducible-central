@@ -39,6 +39,7 @@ Source code: [https://github.com/apache/maven-surefire.git](https://github.com/a
 rebuilding **20 releases** of org.apache.maven.surefire:surefire:
 - **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -57,7 +58,7 @@ rebuilding **20 releases** of org.apache.maven.surefire:surefire:
 | [3.1.2](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.1.2/pom) | [mvn jdk8 w](surefire-3.1.2.buildspec) | [result](surefire-3.1.2.buildinfo): [75 :white_check_mark: ](surefire-3.1.2.buildcompare) | | 11M |
 | [3.1.0](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.1.0/pom) | [mvn jdk8 w](surefire-3.1.0.buildspec) | [result](surefire-3.1.0.buildinfo): [75 :white_check_mark: ](surefire-3.1.0.buildcompare) | | 9.9M |
 | [3.0.0](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.0.0/pom) | [mvn jdk17](surefire-3.0.0.buildspec) | [result](surefire-3.0.0.buildinfo): [75 :white_check_mark: ](surefire-3.0.0.buildcompare) | | 9.9M |
-| [3.0.0-M9](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.0.0-M9/pom) | [mvn jdk11](surefire-3.0.0-M9.buildspec) | [result](surefire-3.0.0-M9.buildinfo): [39 :white_check_mark:  36 :warning:](surefire-3.0.0-M9.buildcompare) [:mag:](surefire-3.0.0-M9.diffoscope) | - | 11M |
+| [3.0.0-M9](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.0.0-M9/pom) | [mvn jdk11](surefire-3.0.0-M9.buildspec) | [result](surefire-3.0.0-M9.buildinfo): [39 :white_check_mark:  36 :warning:](surefire-3.0.0-M9.buildcompare) [:mag:](surefire-3.0.0-M9.diffoscope) | 36 :rotating_light: | 11M |
 | [3.0.0-M8](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.0.0-M8/pom) | [mvn jdk8 w](surefire-3.0.0-M8.buildspec) | [result](surefire-3.0.0-M8.buildinfo): [75 :white_check_mark: ](surefire-3.0.0-M8.buildcompare) | | 10M |
 | [3.0.0-M7](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.0.0-M7/pom) | [mvn jdk11](surefire-3.0.0-M7.buildspec) | [result](surefire-3.0.0-M7.buildinfo): [39 :white_check_mark:  36 :warning:](surefire-3.0.0-M7.buildcompare) [:mag:](surefire-3.0.0-M7.diffoscope) | - | 10M |
 | [3.0.0-M6](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.0.0-M6/pom) | [mvn jdk8 w](surefire-3.0.0-M6.buildspec) | [result](surefire-3.0.0-M6.buildinfo): [38 :white_check_mark:  37 :warning:](surefire-3.0.0-M6.buildcompare) [:mag:](surefire-3.0.0-M6.diffoscope) [:memo:](https://issues.apache.org/jira/browse/SUREFIRE-1802) | - | 10M |

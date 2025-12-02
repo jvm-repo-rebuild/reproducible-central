@@ -17,7 +17,7 @@ build-tool=mvn
 java.version=11.0.29
 java.vendor=Ubuntu
 os.name=Linux
-os.version=6.17.8-200.fc42.x86_64
+os.version=6.11.0-1018-azure
 os.arch=amd64
 line.separator=\n
 
@@ -41,8 +41,8 @@ outputs.0.1.checksums.sha512=44aef19eb53900ed15b5394f3bdf35e1b1cc348a24137a11859
 
 outputs.0.2.groupId=org.apache.maven.surefire
 outputs.0.2.filename=surefire-3.0.0-M9-source-release.zip
-outputs.0.2.length=3556330
-outputs.0.2.checksums.sha512=7dec541f1bc7cd63d2285077ca806c23fca5bd40914e99582298f1862e733261d42cfdb1654643800a1eafda9e8ba357cc28f06bd94d7c81e65a9fcc2afabda9
+outputs.0.2.length=3553802
+outputs.0.2.checksums.sha512=31bdd0cf86b457c8c21d3c5d7e19299bd1ccb323e884a67bf7ea9bb1efdad96f60762fc4898f97db4c2d48c5955da3e49b3d0b5f081cf9d9b0d1c0c7783d6a63
 
 outputs.1.coordinates=org.apache.maven.surefire:surefire-shared-utils
 
