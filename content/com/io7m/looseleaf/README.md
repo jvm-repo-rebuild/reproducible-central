@@ -24,13 +24,14 @@ Source code: [https://github.com/io7m/looseleaf.git](https://github.com/io7m/loo
 * [com.io7m.looseleaf:com.io7m.looseleaf.tests](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf.tests/overview)
 </details>
 
-rebuilding **8 releases** of com.io7m.looseleaf:com.io7m.looseleaf:
+rebuilding **9 releases** of com.io7m.looseleaf:com.io7m.looseleaf:
 - **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.0](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/4.0.0/pom) | | | |
+| [4.0.0](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/4.0.0/pom) | [mvn jdk21](com.io7m.looseleaf-4.0.0.buildspec) | [result](com.io7m.looseleaf-4.0.0.buildinfo): [15 :white_check_mark:  43 :warning:](com.io7m.looseleaf-4.0.0.buildcompare) | 28 :recycle: 6 :rotating_light: 9 :no_entry_sign: | 5.4M |
 | [3.0.0](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/3.0.0/pom) | [mvn jdk21](com.io7m.looseleaf-3.0.0.buildspec) | [result](com.io7m.looseleaf-3.0.0.buildinfo): [16 :white_check_mark:  47 :warning:](com.io7m.looseleaf-3.0.0.buildcompare) [:memo:](https://github.com/mojohaus/buildnumber-maven-plugin/issues/229) | - | 5.6M |
 | [2.0.0](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/2.0.0/pom) | [mvn jdk21](com.io7m.looseleaf-2.0.0.buildspec) | [result](com.io7m.looseleaf-2.0.0.buildinfo): [58 :white_check_mark: ](com.io7m.looseleaf-2.0.0.buildcompare) | | 5.0M |
 | [1.1.0](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/1.1.0/pom) | [mvn jdk17.0.7](com.io7m.looseleaf-1.1.0.buildspec) | [result](com.io7m.looseleaf-1.1.0.buildinfo): [46 :white_check_mark: ](com.io7m.looseleaf-1.1.0.buildcompare) | | 698K |
