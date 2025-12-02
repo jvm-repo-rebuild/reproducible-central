@@ -7,23 +7,35 @@
 
 Source code: [https://github.com/mybatis/spring-boot-starter.git](https://github.com/mybatis/spring-boot-starter.git)
 
-<details><summary>This project defines 5 modules:</summary>
+<details><summary>This project defines 17 modules:</summary>
 
 * [org.mybatis.spring.boot:mybatis-spring-boot](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/overview)
 * [org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/overview)
+* [org.mybatis.spring.boot:mybatis-spring-boot-sample-annotation](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-sample-annotation/overview)
+* [org.mybatis.spring.boot:mybatis-spring-boot-sample-freemarker](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-sample-freemarker/overview)
+* [org.mybatis.spring.boot:mybatis-spring-boot-sample-freemarker-legacy](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-sample-freemarker-legacy/overview)
+* [org.mybatis.spring.boot:mybatis-spring-boot-sample-groovy](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-sample-groovy/overview)
+* [org.mybatis.spring.boot:mybatis-spring-boot-sample-kotlin](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-sample-kotlin/overview)
+* [org.mybatis.spring.boot:mybatis-spring-boot-sample-thymeleaf](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-sample-thymeleaf/overview)
+* [org.mybatis.spring.boot:mybatis-spring-boot-sample-velocity](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-sample-velocity/overview)
+* [org.mybatis.spring.boot:mybatis-spring-boot-sample-velocity-legacy](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-sample-velocity-legacy/overview)
+* [org.mybatis.spring.boot:mybatis-spring-boot-sample-war](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-sample-war/overview)
+* [org.mybatis.spring.boot:mybatis-spring-boot-sample-web](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-sample-web/overview)
+* [org.mybatis.spring.boot:mybatis-spring-boot-sample-xml](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-sample-xml/overview)
+* [org.mybatis.spring.boot:mybatis-spring-boot-samples](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-samples/overview)
 * [org.mybatis.spring.boot:mybatis-spring-boot-starter](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-starter/overview)
 * [org.mybatis.spring.boot:mybatis-spring-boot-starter-test](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-starter-test/overview)
 * [org.mybatis.spring.boot:mybatis-spring-boot-test-autoconfigure](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot-test-autoconfigure/overview)
 </details>
 
-rebuilding **9 releases** of org.mybatis.spring.boot:mybatis-spring-boot:
+rebuilding **10 releases** of org.mybatis.spring.boot:mybatis-spring-boot:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.0.0](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/4.0.0/pom) | | | |
+| [4.0.0](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/4.0.0/pom) | [mvn jdk17](mybatis-spring-boot-4.0.0.buildspec) | [result](mybatis-spring-boot-4.0.0.buildinfo): [32 :white_check_mark:  15 :warning:](mybatis-spring-boot-4.0.0.buildcompare) | 14 :rotating_light: 1 :no_entry_sign: | 194M |
 | [3.0.5](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/3.0.5/pom) | [mvn jdk21 w](mybatis-spring-boot-3.0.5.buildspec) | [result](mybatis-spring-boot-3.0.5.buildinfo): [9 :white_check_mark:  4 :warning:](mybatis-spring-boot-3.0.5.buildcompare) | 2 :recycle: 2 :rotating_light: | 115K |
 | [3.0.4](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/3.0.4/pom) | [mvn jdk17](mybatis-spring-boot-3.0.4.buildspec) | [result](mybatis-spring-boot-3.0.4.buildinfo): [12 :white_check_mark:  1 :warning:](mybatis-spring-boot-3.0.4.buildcompare) | - | 140K |
 | [3.0.3](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/3.0.3/pom) | [mvn jdk17](mybatis-spring-boot-3.0.3.buildspec) | [result](mybatis-spring-boot-3.0.3.buildinfo): [10 :white_check_mark:  1 :warning:](mybatis-spring-boot-3.0.3.buildcompare) [:mag:](mybatis-spring-boot-3.0.3.diffoscope) | - | 98K |
