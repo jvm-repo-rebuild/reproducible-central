@@ -1,10 +1,6 @@
 content/com/flowlogix/flowlogix-10.0.8.buildspec:11
-content/com/spotify/github-client/github-client-0.5.1.buildspec:0.5.2
-content/io/airlift/airbase/airbase-330.buildspec:331
-content/io/avaje/http/avaje-http-3.6-RC2.buildspec:3.6-RC3
-content/io/avaje/jsonb/avaje-jsonb-3.8.buildspec:3.9-RC2
-content/io/avaje/prisms/avaje-prisms-1.44-RC4.buildspec:1.44
-content/io/avaje/validator/avaje-validator-2.15-RC1.buildspec:2.15-RC2
-content/io/telicent/smart-caches/graph/scg-base/scg-base-0.92.1.buildspec:0.92.2
-content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-3.0.2.buildspec:3.0.4
-content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.1.2.Final.buildspec:8.2.0.CR1
+content/com/github/veithen/maven/resolver-proxy-maven-plugin/resolver-proxy-maven-plugin-0.5.1.buildspec:0.6.0
+content/com/hibegin/zrlog-base/zrlog-base-3.2.122.buildspec:3.2.123
+content/io/avaje/spi/avaje-spi-2.13.buildspec:2.14-RC1
+content/org/metricshub/community-connectors/community-connectors-1.0.16.buildspec:1.0.17
+content/org/spdx/spdx-java-core/spdx-java-core-1.0.1.buildspec:1.0.2
