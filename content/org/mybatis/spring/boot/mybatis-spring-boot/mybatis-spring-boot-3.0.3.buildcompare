@@ -1,9 +1,0 @@
-version=3.0.3
-ok=9
-ko=0
-ignored=0
-okFiles="mybatis-spring-boot-3.0.3.pom mybatis-spring-boot-autoconfigure-3.0.3.pom mybatis-spring-boot-autoconfigure-3.0.3.jar mybatis-spring-boot-starter-3.0.3.pom mybatis-spring-boot-starter-3.0.3.jar mybatis-spring-boot-test-autoconfigure-3.0.3.pom mybatis-spring-boot-test-autoconfigure-3.0.3.jar mybatis-spring-boot-starter-test-3.0.3.pom mybatis-spring-boot-starter-test-3.0.3.jar"
-koFiles=""
-ignoredFiles=""
-reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
-reference_os_name="Unix (from pom.properties newline)"
