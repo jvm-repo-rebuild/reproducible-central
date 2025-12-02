@@ -1,43 +1,52 @@
 version=3.0.0-M9
-ok=39
-ko=36
-okFiles="surefire-3.0.0-M9.pom surefire-3.0.0-M9-site.xml surefire-3.0.0-M9-source-release.zip surefire-shared-utils-3.0.0-M9.pom surefire-shared-utils-3.0.0-M9.jar surefire-shared-utils-3.0.0-M9-sources.jar surefire-logger-api-3.0.0-M9.pom surefire-logger-api-3.0.0-M9.jar surefire-logger-api-3.0.0-M9-sources.jar surefire-api-3.0.0-M9.pom surefire-extensions-api-3.0.0-M9.pom surefire-extensions-spi-3.0.0-M9.pom surefire-booter-3.0.0-M9.pom surefire-grouper-3.0.0-M9.pom surefire-grouper-3.0.0-M9.jar surefire-grouper-3.0.0-M9-sources.jar surefire-providers-3.0.0-M9.pom surefire-providers-3.0.0-M9-site.xml common-junit3-3.0.0-M9.pom common-java5-3.0.0-M9.pom common-junit4-3.0.0-M9.pom common-junit48-3.0.0-M9.pom surefire-junit3-3.0.0-M9.pom surefire-junit4-3.0.0-M9.pom maven-surefire-common-3.0.0-M9.pom surefire-junit47-3.0.0-M9.pom surefire-junit-platform-3.0.0-M9.pom surefire-testng-utils-3.0.0-M9.pom surefire-testng-3.0.0-M9.pom surefire-shadefire-3.0.0-M9.pom surefire-report-parser-3.0.0-M9.pom surefire-report-parser-3.0.0-M9.jar surefire-report-parser-3.0.0-M9-sources.jar maven-surefire-plugin-3.0.0-M9.pom maven-surefire-plugin-3.0.0-M9-site-source.zip maven-failsafe-plugin-3.0.0-M9.pom maven-surefire-report-plugin-3.0.0-M9.pom maven-surefire-report-plugin-3.0.0-M9.jar maven-surefire-report-plugin-3.0.0-M9-sources.jar"
-koFiles="surefire-api-3.0.0-M9.jar surefire-api-3.0.0-M9-sources.jar surefire-extensions-api-3.0.0-M9.jar surefire-extensions-api-3.0.0-M9-sources.jar surefire-extensions-spi-3.0.0-M9.jar surefire-extensions-spi-3.0.0-M9-sources.jar surefire-booter-3.0.0-M9.jar surefire-booter-3.0.0-M9-sources.jar common-junit3-3.0.0-M9.jar common-junit3-3.0.0-M9-sources.jar common-java5-3.0.0-M9.jar common-java5-3.0.0-M9-sources.jar common-junit4-3.0.0-M9.jar common-junit4-3.0.0-M9-sources.jar common-junit48-3.0.0-M9.jar common-junit48-3.0.0-M9-sources.jar surefire-junit3-3.0.0-M9.jar surefire-junit3-3.0.0-M9-sources.jar surefire-junit4-3.0.0-M9.jar surefire-junit4-3.0.0-M9-sources.jar maven-surefire-common-3.0.0-M9.jar maven-surefire-common-3.0.0-M9-sources.jar surefire-junit47-3.0.0-M9.jar surefire-junit47-3.0.0-M9-sources.jar surefire-junit-platform-3.0.0-M9.jar surefire-junit-platform-3.0.0-M9-sources.jar surefire-testng-utils-3.0.0-M9.jar surefire-testng-utils-3.0.0-M9-sources.jar surefire-testng-3.0.0-M9.jar surefire-testng-3.0.0-M9-sources.jar surefire-shadefire-3.0.0-M9.jar surefire-shadefire-3.0.0-M9-sources.jar maven-surefire-plugin-3.0.0-M9.jar maven-surefire-plugin-3.0.0-M9-sources.jar maven-failsafe-plugin-3.0.0-M9.jar maven-failsafe-plugin-3.0.0-M9-sources.jar"
+ok=38
+ko=37
+ignored=0
+okFiles="surefire-3.0.0-M9.pom surefire-3.0.0-M9-site.xml surefire-shared-utils-3.0.0-M9.pom surefire-shared-utils-3.0.0-M9.jar surefire-shared-utils-3.0.0-M9-sources.jar surefire-logger-api-3.0.0-M9.pom surefire-logger-api-3.0.0-M9.jar surefire-logger-api-3.0.0-M9-sources.jar surefire-api-3.0.0-M9.pom surefire-extensions-api-3.0.0-M9.pom surefire-extensions-spi-3.0.0-M9.pom surefire-booter-3.0.0-M9.pom surefire-grouper-3.0.0-M9.pom surefire-grouper-3.0.0-M9.jar surefire-grouper-3.0.0-M9-sources.jar surefire-providers-3.0.0-M9.pom surefire-providers-3.0.0-M9-site.xml common-junit3-3.0.0-M9.pom common-java5-3.0.0-M9.pom common-junit4-3.0.0-M9.pom common-junit48-3.0.0-M9.pom surefire-junit3-3.0.0-M9.pom surefire-junit4-3.0.0-M9.pom maven-surefire-common-3.0.0-M9.pom surefire-junit47-3.0.0-M9.pom surefire-junit-platform-3.0.0-M9.pom surefire-testng-utils-3.0.0-M9.pom surefire-testng-3.0.0-M9.pom surefire-shadefire-3.0.0-M9.pom surefire-report-parser-3.0.0-M9.pom surefire-report-parser-3.0.0-M9.jar surefire-report-parser-3.0.0-M9-sources.jar maven-surefire-plugin-3.0.0-M9.pom maven-surefire-plugin-3.0.0-M9-site-source.zip maven-failsafe-plugin-3.0.0-M9.pom maven-surefire-report-plugin-3.0.0-M9.pom maven-surefire-report-plugin-3.0.0-M9.jar maven-surefire-report-plugin-3.0.0-M9-sources.jar"
+koFiles="surefire-3.0.0-M9-source-release.zip surefire-api-3.0.0-M9.jar surefire-api-3.0.0-M9-sources.jar surefire-extensions-api-3.0.0-M9.jar surefire-extensions-api-3.0.0-M9-sources.jar surefire-extensions-spi-3.0.0-M9.jar surefire-extensions-spi-3.0.0-M9-sources.jar surefire-booter-3.0.0-M9.jar surefire-booter-3.0.0-M9-sources.jar common-junit3-3.0.0-M9.jar common-junit3-3.0.0-M9-sources.jar common-java5-3.0.0-M9.jar common-java5-3.0.0-M9-sources.jar common-junit4-3.0.0-M9.jar common-junit4-3.0.0-M9-sources.jar common-junit48-3.0.0-M9.jar common-junit48-3.0.0-M9-sources.jar surefire-junit3-3.0.0-M9.jar surefire-junit3-3.0.0-M9-sources.jar surefire-junit4-3.0.0-M9.jar surefire-junit4-3.0.0-M9-sources.jar maven-surefire-common-3.0.0-M9.jar maven-surefire-common-3.0.0-M9-sources.jar surefire-junit47-3.0.0-M9.jar surefire-junit47-3.0.0-M9-sources.jar surefire-junit-platform-3.0.0-M9.jar surefire-junit-platform-3.0.0-M9-sources.jar surefire-testng-utils-3.0.0-M9.jar surefire-testng-utils-3.0.0-M9-sources.jar surefire-testng-3.0.0-M9.jar surefire-testng-3.0.0-M9-sources.jar surefire-shadefire-3.0.0-M9.jar surefire-shadefire-3.0.0-M9-sources.jar maven-surefire-plugin-3.0.0-M9.jar maven-surefire-plugin-3.0.0-M9-sources.jar maven-failsafe-plugin-3.0.0-M9.jar maven-failsafe-plugin-3.0.0-M9-sources.jar"
+ignoredFiles=""
 reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
-# diffoscope target/reference/surefire-api-3.0.0-M9.jar surefire-api/target/surefire-api-3.0.0-M9.jar
-# diffoscope target/reference/surefire-api-3.0.0-M9-sources.jar surefire-api/target/surefire-api-3.0.0-M9-sources.jar
-# diffoscope target/reference/surefire-extensions-api-3.0.0-M9.jar surefire-extensions-api/target/surefire-extensions-api-3.0.0-M9.jar
-# diffoscope target/reference/surefire-extensions-api-3.0.0-M9-sources.jar surefire-extensions-api/target/surefire-extensions-api-3.0.0-M9-sources.jar
-# diffoscope target/reference/surefire-extensions-spi-3.0.0-M9.jar surefire-extensions-spi/target/surefire-extensions-spi-3.0.0-M9.jar
-# diffoscope target/reference/surefire-extensions-spi-3.0.0-M9-sources.jar surefire-extensions-spi/target/surefire-extensions-spi-3.0.0-M9-sources.jar
-# diffoscope target/reference/surefire-booter-3.0.0-M9.jar surefire-booter/target/surefire-booter-3.0.0-M9.jar
-# diffoscope target/reference/surefire-booter-3.0.0-M9-sources.jar surefire-booter/target/surefire-booter-3.0.0-M9-sources.jar
-# diffoscope target/reference/common-junit3-3.0.0-M9.jar surefire-providers/common-junit3/target/common-junit3-3.0.0-M9.jar
-# diffoscope target/reference/common-junit3-3.0.0-M9-sources.jar surefire-providers/common-junit3/target/common-junit3-3.0.0-M9-sources.jar
-# diffoscope target/reference/common-java5-3.0.0-M9.jar surefire-providers/common-java5/target/common-java5-3.0.0-M9.jar
-# diffoscope target/reference/common-java5-3.0.0-M9-sources.jar surefire-providers/common-java5/target/common-java5-3.0.0-M9-sources.jar
-# diffoscope target/reference/common-junit4-3.0.0-M9.jar surefire-providers/common-junit4/target/common-junit4-3.0.0-M9.jar
-# diffoscope target/reference/common-junit4-3.0.0-M9-sources.jar surefire-providers/common-junit4/target/common-junit4-3.0.0-M9-sources.jar
-# diffoscope target/reference/common-junit48-3.0.0-M9.jar surefire-providers/common-junit48/target/common-junit48-3.0.0-M9.jar
-# diffoscope target/reference/common-junit48-3.0.0-M9-sources.jar surefire-providers/common-junit48/target/common-junit48-3.0.0-M9-sources.jar
-# diffoscope target/reference/surefire-junit3-3.0.0-M9.jar surefire-providers/surefire-junit3/target/surefire-junit3-3.0.0-M9.jar
-# diffoscope target/reference/surefire-junit3-3.0.0-M9-sources.jar surefire-providers/surefire-junit3/target/surefire-junit3-3.0.0-M9-sources.jar
-# diffoscope target/reference/surefire-junit4-3.0.0-M9.jar surefire-providers/surefire-junit4/target/surefire-junit4-3.0.0-M9.jar
-# diffoscope target/reference/surefire-junit4-3.0.0-M9-sources.jar surefire-providers/surefire-junit4/target/surefire-junit4-3.0.0-M9-sources.jar
-# diffoscope target/reference/maven-surefire-common-3.0.0-M9.jar maven-surefire-common/target/maven-surefire-common-3.0.0-M9.jar
-# diffoscope target/reference/maven-surefire-common-3.0.0-M9-sources.jar maven-surefire-common/target/maven-surefire-common-3.0.0-M9-sources.jar
-# diffoscope target/reference/surefire-junit47-3.0.0-M9.jar surefire-providers/surefire-junit47/target/surefire-junit47-3.0.0-M9.jar
-# diffoscope target/reference/surefire-junit47-3.0.0-M9-sources.jar surefire-providers/surefire-junit47/target/surefire-junit47-3.0.0-M9-sources.jar
-# diffoscope target/reference/surefire-junit-platform-3.0.0-M9.jar surefire-providers/surefire-junit-platform/target/surefire-junit-platform-3.0.0-M9.jar
-# diffoscope target/reference/surefire-junit-platform-3.0.0-M9-sources.jar surefire-providers/surefire-junit-platform/target/surefire-junit-platform-3.0.0-M9-sources.jar
-# diffoscope target/reference/surefire-testng-utils-3.0.0-M9.jar surefire-providers/surefire-testng-utils/target/surefire-testng-utils-3.0.0-M9.jar
-# diffoscope target/reference/surefire-testng-utils-3.0.0-M9-sources.jar surefire-providers/surefire-testng-utils/target/surefire-testng-utils-3.0.0-M9-sources.jar
-# diffoscope target/reference/surefire-testng-3.0.0-M9.jar surefire-providers/surefire-testng/target/surefire-testng-3.0.0-M9.jar
-# diffoscope target/reference/surefire-testng-3.0.0-M9-sources.jar surefire-providers/surefire-testng/target/surefire-testng-3.0.0-M9-sources.jar
-# diffoscope target/reference/surefire-shadefire-3.0.0-M9.jar surefire-shadefire/target/surefire-shadefire-3.0.0-M9.jar
-# diffoscope target/reference/surefire-shadefire-3.0.0-M9-sources.jar surefire-shadefire/target/surefire-shadefire-3.0.0-M9-sources.jar
-# diffoscope target/reference/maven-surefire-plugin-3.0.0-M9.jar maven-surefire-plugin/target/maven-surefire-plugin-3.0.0-M9.jar
-# diffoscope target/reference/maven-surefire-plugin-3.0.0-M9-sources.jar maven-surefire-plugin/target/maven-surefire-plugin-3.0.0-M9-sources.jar
-# diffoscope target/reference/maven-failsafe-plugin-3.0.0-M9.jar maven-failsafe-plugin/target/maven-failsafe-plugin-3.0.0-M9.jar
-# diffoscope target/reference/maven-failsafe-plugin-3.0.0-M9-sources.jar maven-failsafe-plugin/target/maven-failsafe-plugin-3.0.0-M9-sources.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-3.0.0-M9-source-release.zip target/surefire-3.0.0-M9-source-release.zip
+# diffoscope target/reference/org.apache.maven.surefire/surefire-api-3.0.0-M9.jar surefire-api/target/surefire-api-3.0.0-M9.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-api-3.0.0-M9-sources.jar surefire-api/target/surefire-api-3.0.0-M9-sources.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-extensions-api-3.0.0-M9.jar surefire-extensions-api/target/surefire-extensions-api-3.0.0-M9.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-extensions-api-3.0.0-M9-sources.jar surefire-extensions-api/target/surefire-extensions-api-3.0.0-M9-sources.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-extensions-spi-3.0.0-M9.jar surefire-extensions-spi/target/surefire-extensions-spi-3.0.0-M9.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-extensions-spi-3.0.0-M9-sources.jar surefire-extensions-spi/target/surefire-extensions-spi-3.0.0-M9-sources.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-booter-3.0.0-M9.jar surefire-booter/target/surefire-booter-3.0.0-M9.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-booter-3.0.0-M9-sources.jar surefire-booter/target/surefire-booter-3.0.0-M9-sources.jar
+# diffoscope target/reference/org.apache.maven.surefire/common-junit3-3.0.0-M9.jar surefire-providers/common-junit3/target/common-junit3-3.0.0-M9.jar
+# diffoscope target/reference/org.apache.maven.surefire/common-junit3-3.0.0-M9-sources.jar surefire-providers/common-junit3/target/common-junit3-3.0.0-M9-sources.jar
+# diffoscope target/reference/org.apache.maven.surefire/common-java5-3.0.0-M9.jar surefire-providers/common-java5/target/common-java5-3.0.0-M9.jar
+# diffoscope target/reference/org.apache.maven.surefire/common-java5-3.0.0-M9-sources.jar surefire-providers/common-java5/target/common-java5-3.0.0-M9-sources.jar
+# diffoscope target/reference/org.apache.maven.surefire/common-junit4-3.0.0-M9.jar surefire-providers/common-junit4/target/common-junit4-3.0.0-M9.jar
+# diffoscope target/reference/org.apache.maven.surefire/common-junit4-3.0.0-M9-sources.jar surefire-providers/common-junit4/target/common-junit4-3.0.0-M9-sources.jar
+# diffoscope target/reference/org.apache.maven.surefire/common-junit48-3.0.0-M9.jar surefire-providers/common-junit48/target/common-junit48-3.0.0-M9.jar
+# diffoscope target/reference/org.apache.maven.surefire/common-junit48-3.0.0-M9-sources.jar surefire-providers/common-junit48/target/common-junit48-3.0.0-M9-sources.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-junit3-3.0.0-M9.jar surefire-providers/surefire-junit3/target/surefire-junit3-3.0.0-M9.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-junit3-3.0.0-M9-sources.jar surefire-providers/surefire-junit3/target/surefire-junit3-3.0.0-M9-sources.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-junit4-3.0.0-M9.jar surefire-providers/surefire-junit4/target/surefire-junit4-3.0.0-M9.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-junit4-3.0.0-M9-sources.jar surefire-providers/surefire-junit4/target/surefire-junit4-3.0.0-M9-sources.jar
+# diffoscope target/reference/org.apache.maven.surefire/maven-surefire-common-3.0.0-M9.jar maven-surefire-common/target/maven-surefire-common-3.0.0-M9.jar
+# diffoscope target/reference/org.apache.maven.surefire/maven-surefire-common-3.0.0-M9-sources.jar maven-surefire-common/target/maven-surefire-common-3.0.0-M9-sources.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-junit47-3.0.0-M9.jar surefire-providers/surefire-junit47/target/surefire-junit47-3.0.0-M9.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-junit47-3.0.0-M9-sources.jar surefire-providers/surefire-junit47/target/surefire-junit47-3.0.0-M9-sources.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-junit-platform-3.0.0-M9.jar surefire-providers/surefire-junit-platform/target/surefire-junit-platform-3.0.0-M9.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-junit-platform-3.0.0-M9-sources.jar surefire-providers/surefire-junit-platform/target/surefire-junit-platform-3.0.0-M9-sources.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-testng-utils-3.0.0-M9.jar surefire-providers/surefire-testng-utils/target/surefire-testng-utils-3.0.0-M9.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-testng-utils-3.0.0-M9-sources.jar surefire-providers/surefire-testng-utils/target/surefire-testng-utils-3.0.0-M9-sources.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-testng-3.0.0-M9.jar surefire-providers/surefire-testng/target/surefire-testng-3.0.0-M9.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-testng-3.0.0-M9-sources.jar surefire-providers/surefire-testng/target/surefire-testng-3.0.0-M9-sources.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-shadefire-3.0.0-M9.jar surefire-shadefire/target/surefire-shadefire-3.0.0-M9.jar
+# diffoscope target/reference/org.apache.maven.surefire/surefire-shadefire-3.0.0-M9-sources.jar surefire-shadefire/target/surefire-shadefire-3.0.0-M9-sources.jar
+# diffoscope target/reference/org.apache.maven.plugins/maven-surefire-plugin-3.0.0-M9.jar maven-surefire-plugin/target/maven-surefire-plugin-3.0.0-M9.jar
+# diffoscope target/reference/org.apache.maven.plugins/maven-surefire-plugin-3.0.0-M9-sources.jar maven-surefire-plugin/target/maven-surefire-plugin-3.0.0-M9-sources.jar
+# diffoscope target/reference/org.apache.maven.plugins/maven-failsafe-plugin-3.0.0-M9.jar maven-failsafe-plugin/target/maven-failsafe-plugin-3.0.0-M9.jar
+# diffoscope target/reference/org.apache.maven.plugins/maven-failsafe-plugin-3.0.0-M9-sources.jar maven-failsafe-plugin/target/maven-failsafe-plugin-3.0.0-M9-sources.jar
+stabilize_ok=0
+stabilize_ko=37
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="surefire-3.0.0-M9-source-release.zip.stabilized surefire-api-3.0.0-M9.jar.stabilized surefire-api-3.0.0-M9-sources.jar.stabilized surefire-extensions-api-3.0.0-M9.jar.stabilized surefire-extensions-api-3.0.0-M9-sources.jar.stabilized surefire-extensions-spi-3.0.0-M9.jar.stabilized surefire-extensions-spi-3.0.0-M9-sources.jar.stabilized surefire-booter-3.0.0-M9.jar.stabilized surefire-booter-3.0.0-M9-sources.jar.stabilized common-junit3-3.0.0-M9.jar.stabilized common-junit3-3.0.0-M9-sources.jar.stabilized common-java5-3.0.0-M9.jar.stabilized common-java5-3.0.0-M9-sources.jar.stabilized common-junit4-3.0.0-M9.jar.stabilized common-junit4-3.0.0-M9-sources.jar.stabilized common-junit48-3.0.0-M9.jar.stabilized common-junit48-3.0.0-M9-sources.jar.stabilized surefire-junit3-3.0.0-M9.jar.stabilized surefire-junit3-3.0.0-M9-sources.jar.stabilized surefire-junit4-3.0.0-M9.jar.stabilized surefire-junit4-3.0.0-M9-sources.jar.stabilized maven-surefire-common-3.0.0-M9.jar.stabilized maven-surefire-common-3.0.0-M9-sources.jar.stabilized surefire-junit47-3.0.0-M9.jar.stabilized surefire-junit47-3.0.0-M9-sources.jar.stabilized surefire-junit-platform-3.0.0-M9.jar.stabilized surefire-junit-platform-3.0.0-M9-sources.jar.stabilized surefire-testng-utils-3.0.0-M9.jar.stabilized surefire-testng-utils-3.0.0-M9-sources.jar.stabilized surefire-testng-3.0.0-M9.jar.stabilized surefire-testng-3.0.0-M9-sources.jar.stabilized surefire-shadefire-3.0.0-M9.jar.stabilized surefire-shadefire-3.0.0-M9-sources.jar.stabilized maven-surefire-plugin-3.0.0-M9.jar.stabilized maven-surefire-plugin-3.0.0-M9-sources.jar.stabilized maven-failsafe-plugin-3.0.0-M9.jar.stabilized maven-failsafe-plugin-3.0.0-M9-sources.jar.stabilized"
+stabilize_ignoredFiles=""
