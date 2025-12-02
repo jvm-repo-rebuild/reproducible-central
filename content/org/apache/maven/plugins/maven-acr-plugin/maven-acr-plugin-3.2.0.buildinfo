@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven ACR Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-acr-plugin
+version=3.2.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-acr-plugin.git
+source.scm.tag=maven-acr-plugin-3.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-acr-plugin-3.2.0.pom
+outputs.0.length=6110
+outputs.0.checksums.sha512=97e6e7e4e8c14bf9b6257f4a901975aba3e53e0167bb4ded3a314395efe074aec7f89cc8a9b5667639474ebec218a11a0fb9f18bcc2a1ea668d0b5344b77a322
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-acr-plugin-3.2.0.jar
+outputs.1.length=24413
+outputs.1.checksums.sha512=709cf593895eabfa24fef0bdce980a2c981f00bab213270b7b1875fff22fbfc6eeb70961a493cf73fc26b282f1b3912dd1e500f6942ae7f250d1b99ae0f6a741
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-acr-plugin-3.2.0-source-release.zip
+outputs.2.length=54484
+outputs.2.checksums.sha512=472c6016ef1b245df7c3acb97ff666bc9f89f6002adced279bf66d67d09b50b535c9d50eba4e1c4b3377d88cb7190915f70cddce8a295df38413544804af72a7
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-acr-plugin-3.2.0-sources.jar
+outputs.3.length=17299
+outputs.3.checksums.sha512=7e567b529068e2684f27e6841165063260651c0b06d677309c7d9509c03c672ba3387de77b7e5e29483bda3efc0b5b9400ea5d591e6d0d7fecefdacb2e730ae1
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-acr-plugin-3.2.0-cyclonedx.xml
+outputs.4.length=130005
+outputs.4.checksums.sha512=2726176ad5ae005f07c490c64ef15c492816965b5f76666bac68fd7713c116d251bbcbf26ea74902e109db544d0fa0dd0e58117e1f2c8bc2750d06fc0a1dd833
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-acr-plugin-3.2.0-cyclonedx.json
+outputs.5.length=142014
+outputs.5.checksums.sha512=c0db2c94333d2f248422daa0e34b726586905baff94997519d15d9cd4db71838df585dd3124a9e4dbcccc83d66377faa8fd140c985e0bc08ed58387a675b11b7
