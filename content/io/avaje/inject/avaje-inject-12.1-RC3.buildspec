@@ -9,7 +9,7 @@ gitTag="git log --all --pretty=format:%H --grep '$version'"
 
 tool=mvn
 jdk=25
-newline=lf
+newline=crlf
 #umask=022
 
 command="mvn -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
