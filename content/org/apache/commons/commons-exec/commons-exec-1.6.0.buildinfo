@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Exec
+group-id=org.apache.commons
+artifact-id=commons-exec
+version=1.6.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-exec
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.17
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.commons
+outputs.0.filename=commons-exec-1.6.0.pom
+outputs.0.length=10546
+outputs.0.checksums.sha512=9690e77553757b03b9b761f88865860f2675ff7a99b9c8c0c076c519eaa73efd79872f1e603cd2203096acb560a3b84fc4987912a17431ef9ccf26529a3bce3a
+
+outputs.1.groupId=org.apache.commons
+outputs.1.filename=commons-exec-1.6.0.jar
+outputs.1.length=69316
+outputs.1.checksums.sha512=53e3ce470c990981f49935cfece5f60fa4d0b2221bb153ba4576267d19eed190eb0488efbc91b9ecdc3891078e49e78d690705cfd8181ba96434b1481a863394
+
+outputs.2.groupId=org.apache.commons
+outputs.2.filename=commons-exec-1.6.0-tests.jar
+outputs.2.length=71154
+outputs.2.checksums.sha512=d177b8576ccf2ec796ad8467c700ebcbeb5335cc7597923ba57715a13526ad5e90ef2cf3d0fdfd2fb9c57aa2b783ebb8a877b703685d77db277db104ddf7e064
+
+outputs.3.groupId=org.apache.commons
+outputs.3.filename=commons-exec-1.6.0-sources.jar
+outputs.3.length=69399
+outputs.3.checksums.sha512=b4d3f66f1f748f1efc5cf641fabf4cafc6f43d7ef98b5dd3290c887fb6791cf2950b6804af87964e48927ae573592a82611019bfd33a59f2067ad6a653576965
+
+outputs.4.groupId=org.apache.commons
+outputs.4.filename=commons-exec-1.6.0-test-sources.jar
+outputs.4.length=57061
+outputs.4.checksums.sha512=0c8d634df4bd107792d759bc82aaac2829773b03193f299f75c7d10497b6712490646995a8ed9507a86e7ea679cb2e12d8c7d9742de1616eec4f1c3f22794f71
+# ignored commons-exec-1.6.0.spdx.json
