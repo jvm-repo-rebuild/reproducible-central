@@ -19,7 +19,7 @@ java.vendor=Azul Systems, Inc.
 os.name=Linux
 os.version=6.11.0-1018-azure
 os.arch=amd64
-line.separator=\n
+line.separator=\r\n
 
 # Maven rebuild instructions and effective environment
 mvn.version=3.6.3
@@ -48,8 +48,8 @@ outputs.1.1.checksums.sha512=dd0678ec9f374603916f2db201e959877f7047c66638505d113
 
 outputs.1.2.groupId=io.avaje
 outputs.1.2.filename=avaje-inject-aop-12.1-RC3-sources.jar
-outputs.1.2.length=6893
-outputs.1.2.checksums.sha512=0cbdcfe05920038badddaebd123e8c5279b6bb9e0a43abe8351756a3d577a5b5966f8eff870ad831601e40744b457decf17bedcda9202a660e43f31e3df287a8
+outputs.1.2.length=6958
+outputs.1.2.checksums.sha512=4697a9fb644b7307e613384f2857fd53b7f42da922f7ce0280276152630c2ad5cbff692f373382524dafb20b1991a2dd35bd1118a576f180d33305557e725312
 
 outputs.2.coordinates=io.avaje:avaje-inject-events
 
@@ -65,8 +65,8 @@ outputs.2.1.checksums.sha512=d02d7a57f5ce6d0c40083c4e6d57687400c44bbd611ccf0815c
 
 outputs.2.2.groupId=io.avaje
 outputs.2.2.filename=avaje-inject-events-12.1-RC3-sources.jar
-outputs.2.2.length=8119
-outputs.2.2.checksums.sha512=7946a40799f95fb6e8e048386b7a0b4fe564c3f26a18ef05a63db77383537bd512f3aff89ceb4578c1e5a694bc80f837309a7e1163600bffc1ddd19a6f7f2389
+outputs.2.2.length=8191
+outputs.2.2.checksums.sha512=44866d6877909a8c311e9733376e66cb68bd8f551a008a125abc4eab75efd6435e7cfc818e96b4047a019d8302da02d69b1d77a7444313cc8539ead749459adc
 
 outputs.3.coordinates=io.avaje:avaje-inject
 
@@ -82,8 +82,8 @@ outputs.3.1.checksums.sha512=3aa380becc05bfbe176232d9ab5993260c25b0e6020f11ebe2b
 
 outputs.3.2.groupId=io.avaje
 outputs.3.2.filename=avaje-inject-12.1-RC3-sources.jar
-outputs.3.2.length=54760
-outputs.3.2.checksums.sha512=7e7a0a887010cbed27159f5ab9d32e0f091ff7ed64cabffedbf038500877aa54b27cdcbd33453f23edda0e34c95471f6d4eeb2514b94d041689db21cc78035a9
+outputs.3.2.length=55288
+outputs.3.2.checksums.sha512=df67dd348707442ff6802fec7cfdf5f43fcb57b5988b4bf8859b35cdd9ec90dd752d9a7775474546a128abcc3ed00aa921222deed2ce1e5ba29922763123a60a
 
 outputs.4.coordinates=io.avaje:avaje-inject-generator
 
@@ -94,13 +94,13 @@ outputs.4.0.checksums.sha512=4f1c0cd96d64f43d9bb42863ead8fc3db642bede963b0e6841c
 
 outputs.4.1.groupId=io.avaje
 outputs.4.1.filename=avaje-inject-generator-12.1-RC3.jar
-outputs.4.1.length=389417
-outputs.4.1.checksums.sha512=f4e25bebff6151e8e9547f87d4b3ab7f2d97507e7b43b8f2974d96723d7e299ba395a8967e0ea06d416c1b0c5c24c48fa80c6a88329062ece0bc0382cd5ec57c
+outputs.4.1.length=389419
+outputs.4.1.checksums.sha512=8a6bd042df01775648377a39fe2aef3d5c3483707b1d11f960ae1adcb49141d98c716dd5aa45949635de0e21a24abc6c140187b6cc268a2b8db9c69f328ba98f
 
 outputs.4.2.groupId=io.avaje
 outputs.4.2.filename=avaje-inject-generator-12.1-RC3-sources.jar
-outputs.4.2.length=185764
-outputs.4.2.checksums.sha512=51f6949093fbcb3e17fa3991534442851eec0e17260a5c5bfdded6f70a7f6edd29657fa5bc96744e8e67728c3468e1dcb406ed8b7c3b47d5cdfb9dbe346a9914
+outputs.4.2.length=186386
+outputs.4.2.checksums.sha512=c6ab1ae56d9274189485f16710dd502616a986a1448a5269a382b89e421595dd1cee8bf3ecba3151c4ac2ffc91a914662a0eb182f852bd1dec43a12909a418e8
 
 outputs.5.coordinates=io.avaje:avaje-inject-test
 
@@ -116,8 +116,8 @@ outputs.5.1.checksums.sha512=7a2af13ffab4af6e1e2aa7721de04b2afc3858e7f887560be81
 
 outputs.5.2.groupId=io.avaje
 outputs.5.2.filename=avaje-inject-test-12.1-RC3-sources.jar
-outputs.5.2.length=17341
-outputs.5.2.checksums.sha512=2207708d5b433ededa5b62a4347a9a61c175f1c78fae6a5a1eb2135e831ccd30bb916c2ae3bd3e9e54d175979ccd2ade05b051823eb34fd31ccfdef5958a4df7
+outputs.5.2.length=17509
+outputs.5.2.checksums.sha512=a8056bb1b1e859b90ae1d42c29cc19f65977332355f6bb51a88228782c6dc9266b40d846d51047da4773ee09601db008925f7473ecd95020f6262840de244f47
 
 outputs.6.coordinates=io.avaje:avaje-inject-maven-plugin
 
@@ -128,10 +128,10 @@ outputs.6.0.checksums.sha512=4b847d06f7ef4254889041b513b0577bba885cf8496a1f14bb5
 
 outputs.6.1.groupId=io.avaje
 outputs.6.1.filename=avaje-inject-maven-plugin-12.1-RC3.jar
-outputs.6.1.length=9881
-outputs.6.1.checksums.sha512=2bce33a418f4854360d33cc822cf0d190780a7e5bf93b14265e51972e69c207f375a133620d4fc4f24fb7fb39559b6bd6d1a5c088d68732d6b40cf02477ad6e0
+outputs.6.1.length=9903
+outputs.6.1.checksums.sha512=2a8355b3c43a25e2b404548c7d9213a203d2b380659e5cd4e1ddfcee9e2dc0755981fcc127a9bebb3c3364a6d0736c4da635ee5bd84246a9114ad8b361fecb6d
 
 outputs.6.2.groupId=io.avaje
 outputs.6.2.filename=avaje-inject-maven-plugin-12.1-RC3-sources.jar
-outputs.6.2.length=5020
-outputs.6.2.checksums.sha512=d207f564a8279c2dbe52887e5731a68328c7dc51ff6fe2d9ae5a3f8d6df781e1354f3aedd07d2d5aa4826fa6a8b11cb19350014ffa6801c035c4f6241b8d2755
+outputs.6.2.length=5045
+outputs.6.2.checksums.sha512=2ddbdac60e13daba7167793207a39b08d84465dd8fb2980adfbbaac886aa441c59012a20dd5e0976656f1d8b3d33fd488d0ab3d7c31927fb7f115b7d84210d23
