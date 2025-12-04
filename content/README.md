@@ -235,7 +235,7 @@ Reproducible Builds for Maven Central Repository
 | | [s8cms-tag-reference](../content/com/semanticcms/semanticcms-tag-reference/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | | [s8cms-tag-reference-book](../content/com/semanticcms/semanticcms-tag-reference-book/README.md) | 2 | 2 :white_check_mark: |
 | com.spotify.fmt | [fmt-maven-plugin](../content/com/spotify/fmt-maven-plugin/README.md) | 11 | 11 :white_check_mark: |
-| com.spotify | [github-client](../content/com/spotify/github-client/README.md) | 63 | 62 :white_check_mark: / 1 :warning: |
+| com.spotify | [github-client](../content/com/spotify/github-client/README.md) | 64 | 63 :white_check_mark: / 1 :warning: |
 | com.taobao.arthas | [arthas-all](../content/com/taobao/arthas/README.md) | 40 | 40 :warning: |
 | com.vladsch.flexmark | [flexmark-java](../content/com/vladsch/flexmark/flexmark-java/README.md) | 4 | 4 :white_check_mark: |
 | cool.klass | [klass](../content/cool/klass/README.md) | 5 | 5 :warning: |
@@ -361,7 +361,7 @@ Reproducible Builds for Maven Central Repository
 | io.takari.maven.plugins | [takari-lifecycle-plugin](../content/io/takari/maven/plugins/takari-lifecycle-plugin/README.md) | 8 | 5 :white_check_mark: / 3 :warning: |
 | | [takari-plugin-testing](../content/io/takari/maven/plugins/takari-plugin-testing/README.md) | 5 | 3 :white_check_mark: / 2 :warning: |
 | io.telicent.jena | [jena-kafka](../content/io/telicent/jena/jena-kafka/README.md) | 12 | 12 :white_check_mark: |
-| | [rdf-abac](../content/io/telicent/jena/rdf-abac/README.md) | 21 | 21 :white_check_mark: |
+| | [rdf-abac](../content/io/telicent/jena/rdf-abac/README.md) | 22 | 22 :white_check_mark: |
 | io.telicent.smart-caches.graph | [scg-base](../content/io/telicent/smart-caches/graph/scg-base/README.md) | 56 | 56 :white_check_mark: |
 | io.wcm | [*.caconfig.editor](../content/io/wcm/io.wcm.caconfig/README.md) | 10 | 10 :warning: |
 | | [*.parent_toplevel](../content/io/wcm/tooling/README.md) | 26 | 26 :white_check_mark: |
@@ -482,7 +482,7 @@ Reproducible Builds for Maven Central Repository
 | org.apache.commons | [commons-collections4](../content/org/apache/commons/commons-collections4/README.md) | 4 | 4 :white_check_mark: |
 | commons-daemon | [commons-daemon](../content/org/apache/commons/commons-daemon/README.md) | 3 | 3 :warning: |
 | org.apache.commons | [commons-dbcp2](../content/org/apache/commons/commons-dbcp2/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
-| | [commons-exec](../content/org/apache/commons/commons-exec/README.md) | 2 | 2 :white_check_mark: |
+| | [commons-exec](../content/org/apache/commons/commons-exec/README.md) | 3 | 3 :white_check_mark: |
 | commons-fileupload | [commons-fileupload](../content/org/apache/commons/commons-fileupload/README.md) | 1 | 1 :white_check_mark: |
 | org.apache.commons | [commons-fileupload2](../content/org/apache/commons/commons-fileupload2/README.md) | 2 | 2 :warning: |
 | | [commons-imaging](../content/org/apache/commons/commons-imaging/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
@@ -576,7 +576,7 @@ Reproducible Builds for Maven Central Repository
 | | [maven-pmd-plugin](../content/org/apache/maven/plugins/maven-pmd-plugin/README.md) | 16 | 16 :white_check_mark: |
 | | [maven-p-i-r-plugin](../content/org/apache/maven/plugins/maven-project-info-reports-plugin/README.md) | 19 | 18 :white_check_mark: / 1 :warning: |
 | | [maven-rar-plugin](../content/org/apache/maven/plugins/maven-rar-plugin/README.md) | 2 | 2 :white_check_mark: |
-| | [maven-release-plugin](../content/org/apache/maven/plugins/maven-release-plugin/README.md) | 10 | 9 :white_check_mark: / 1 :warning: |
+| | [maven-release-plugin](../content/org/apache/maven/plugins/maven-release-plugin/README.md) | 11 | 10 :white_check_mark: / 1 :warning: |
 | | [maven-remote-resources-plugin](../content/org/apache/maven/plugins/maven-remote-resources-plugin/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
 | | [maven-resources-plugin](../content/org/apache/maven/plugins/maven-resources-plugin/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
 | | [m-scm-publish-plugin](../content/org/apache/maven/plugins/maven-scm-publish-plugin/README.md) | 3 | 3 :white_check_mark: |
@@ -794,7 +794,7 @@ Reproducible Builds for Maven Central Repository
 | | [plexus](../content/org/codehaus/plexus/plexus-pom/README.md) | 24 | 22 :white_check_mark: / 2 :warning: |
 | | [plexus-resources](../content/org/codehaus/plexus/plexus-resources/README.md) | 3 | 3 :white_check_mark: |
 | | [plexus-sec-dispatcher](../content/org/codehaus/plexus/plexus-sec-dispatcher/README.md) | 6 | 6 :white_check_mark: |
-| | [plexus-testing](../content/org/codehaus/plexus/plexus-testing/README.md) | 11 | 11 :white_check_mark: |
+| | [plexus-testing](../content/org/codehaus/plexus/plexus-testing/README.md) | 12 | 12 :white_check_mark: |
 | | [plexus-utils](../content/org/codehaus/plexus/plexus-utils/README.md) | 9 | 6 :white_check_mark: / 3 :warning: |
 | | [plexus-velocity](../content/org/codehaus/plexus/plexus-velocity/README.md) | 6 | 6 :white_check_mark: |
 | | [plexus-xml](../content/org/codehaus/plexus/plexus-xml/README.md) | 9 | 9 :white_check_mark: |
@@ -834,7 +834,7 @@ Reproducible Builds for Maven Central Repository
 | | [jpmml-python](../content/org/jpmml/jpmml-python/README.md) | 20 | 6 :white_check_mark: / 14 :warning: |
 | | [jpmml-r](../content/org/jpmml/jpmml-r/README.md) | 16 | 11 :white_check_mark: / 5 :warning: |
 | | [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | 32 | 11 :white_check_mark: / 21 :warning: |
-| | [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | 43 | 18 :white_check_mark: / 25 :warning: |
+| | [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | 55 | 18 :white_check_mark: / 37 :warning: |
 | | [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | 11 | 3 :white_check_mark: / 8 :warning: |
 | | [jpmml-transpiler](../content/org/jpmml/jpmml-transpiler/README.md) | 13 | 6 :white_check_mark: / 7 :warning: |
 | | [jpmml-xgboost](../content/org/jpmml/jpmml-xgboost/README.md) | 9 | 2 :white_check_mark: / 7 :warning: |
@@ -918,7 +918,7 @@ Reproducible Builds for Maven Central Repository
 | org.simplify4u.plugins | [pgpverify-maven-plugin](../content/org/simplify4u/plugins/pgpverify-maven-plugin/README.md) | 13 | 13 :white_check_mark: |
 | | [sign-maven-plugin](../content/org/simplify4u/plugins/sign-maven-plugin/README.md) | 8 | 6 :white_check_mark: / 2 :warning: |
 | org.sonatype.nexus.archetypes | [nexus-format-archetype](../content/org/sonatype/nexus/archetypes/nexus-format-archetype/README.md) | 19 | 19 :white_check_mark: |
-| org.spdx | [java-spdx-library](../content/org/spdx/java-spdx-library/README.md) | 10 | 10 :white_check_mark: |
+| org.spdx | [java-spdx-library](../content/org/spdx/java-spdx-library/README.md) | 11 | 11 :white_check_mark: |
 | | [spdx-java-core](../content/org/spdx/spdx-java-core/README.md) | 6 | 6 :white_check_mark: |
 | | [spdx-maven-plugin](../content/org/spdx/spdx-maven-plugin/README.md) | 12 | 10 :white_check_mark: / 2 :warning: |
 | org.tomitribe | [org.eclipse.transformer.parent](../content/org/tomitribe/transformer/README.md) | 2 | 2 :white_check_mark: |
@@ -953,7 +953,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 8 | 8 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 44 | 43 :white_check_mark: / 1 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 22 | 3 :white_check_mark: / 19 :warning: |
-| **Count:** | **939** | **9406** | **6874** :white_check_mark:<br>**2532** :warning: |
+| **Count:** | **939** | **9424** | **6880** :white_check_mark:<br>**2544** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -979,7 +979,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn        14
      10 mvn        15
      15 mvn        16
-    759 mvn        17
+    760 mvn        17
       1 mvn        17.0.10
       2 mvn        17.0.11
       1 mvn        17.0.12
@@ -990,9 +990,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn        18
      34 mvn        19
      17 mvn        20
-    793 mvn        21
+    794 mvn        21
      15 mvn        22
-     18 mvn        23
+     19 mvn        23
      41 mvn        24
      39 mvn        25
       3 mvn-3.5.4   8
@@ -1035,7 +1035,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      36 mvn-3.9.11   8
      40 mvn-3.9.11  11
     118 mvn-3.9.11  17
-    181 mvn-3.9.11  21
+    182 mvn-3.9.11  21
       5 mvn-3.9.11  22
       3 mvn-3.9.11  24
      34 mvn-3.9.11  25
@@ -1087,7 +1087,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       2 mvn-3.9.5  25
     122 mvn-3.9.6   8
      56 mvn-3.9.6  11
-     90 mvn-3.9.6  17
+     91 mvn-3.9.6  17
       3 mvn-3.9.6  17.0.7
      82 mvn-3.9.6  21
      35 mvn-3.9.6  22
@@ -1106,7 +1106,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn-3.9.8  23
       1 mvn-3.9.8  25
     104 mvn-3.9.9   8
-    138 mvn-3.9.9  11
+    151 mvn-3.9.9  11
     314 mvn-3.9.9  17
       2 mvn-3.9.9  18
     449 mvn-3.9.9  21
