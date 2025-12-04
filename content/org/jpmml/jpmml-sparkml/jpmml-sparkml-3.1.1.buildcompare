@@ -15,9 +15,9 @@ reference_os_name="Unix (from pom.properties newline)"
 # diffoscope target/reference/org.jpmml/pmml-sparkml-lightgbm-3.1.1-sources.jar pmml-sparkml-lightgbm/target/pmml-sparkml-lightgbm-3.1.1-sources.jar
 # diffoscope target/reference/org.jpmml/pmml-sparkml-xgboost-3.1.1.jar pmml-sparkml-xgboost/target/pmml-sparkml-xgboost-3.1.1.jar
 # diffoscope target/reference/org.jpmml/pmml-sparkml-xgboost-3.1.1-sources.jar pmml-sparkml-xgboost/target/pmml-sparkml-xgboost-3.1.1-sources.jar
-stabilize_ok=8
-stabilize_ko=0
+stabilize_ok=7
+stabilize_ko=1
 stabilize_ignored=0
-stabilize_okFiles="pmml-sparkml-3.1.1.jar.stabilized pmml-sparkml-3.1.1-sources.jar.stabilized pmml-sparkml-evaluator-3.1.1.jar.stabilized pmml-sparkml-evaluator-3.1.1-sources.jar.stabilized pmml-sparkml-lightgbm-3.1.1.jar.stabilized pmml-sparkml-lightgbm-3.1.1-sources.jar.stabilized pmml-sparkml-xgboost-3.1.1.jar.stabilized pmml-sparkml-xgboost-3.1.1-sources.jar.stabilized"
-stabilize_koFiles=""
+stabilize_okFiles="pmml-sparkml-3.1.1-sources.jar.stabilized pmml-sparkml-evaluator-3.1.1.jar.stabilized pmml-sparkml-evaluator-3.1.1-sources.jar.stabilized pmml-sparkml-lightgbm-3.1.1.jar.stabilized pmml-sparkml-lightgbm-3.1.1-sources.jar.stabilized pmml-sparkml-xgboost-3.1.1.jar.stabilized pmml-sparkml-xgboost-3.1.1-sources.jar.stabilized"
+stabilize_koFiles="pmml-sparkml-3.1.1.jar.stabilized"
 stabilize_ignoredFiles=""

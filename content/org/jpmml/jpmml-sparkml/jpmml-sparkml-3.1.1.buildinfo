@@ -14,9 +14,12 @@ source.scm.tag=3.1.1
 build-tool=mvn
 
 # effective build environment information
-java.version=11.0.23
-java.vendor=Azul Systems, Inc.
-os.name=Mac OS X
+java.version=11.0.29
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
 
 # Maven rebuild instructions and effective environment
 mvn.version=3.9.9
@@ -40,8 +43,8 @@ outputs.1.0.checksums.sha512=ab06c108ecf7e5ee171b3acacc42a20b7c35943c411e095a311
 
 outputs.1.1.groupId=org.jpmml
 outputs.1.1.filename=pmml-sparkml-3.1.1.jar
-outputs.1.1.length=202192
-outputs.1.1.checksums.sha512=69080e0010181fc3513fede3ba8c920c51384f6c5bec007de1ad7f833a3966c2791a4ad659756a178ee1b429c14527be81d2702adbee49929e3aab8f9cc1d707
+outputs.1.1.length=202256
+outputs.1.1.checksums.sha512=47ebeb63c79196b7964f410fd7ba6509143a2eaf102f33b9b0de72573d0587dcfdb4c85275389fa8c3572afb25da682d3aaacbdde410c7688f4ccee6233bdb9b
 
 outputs.1.2.groupId=org.jpmml
 outputs.1.2.filename=pmml-sparkml-3.1.1-sources.jar
