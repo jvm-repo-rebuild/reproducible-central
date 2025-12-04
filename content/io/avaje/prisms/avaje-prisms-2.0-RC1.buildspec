@@ -1,0 +1,20 @@
+groupId=io.avaje
+artifactId=avaje-prisms-parent
+display=${groupId}:$(echo "${artifactId}" | sed -e "s/-parent//")
+version=2.0-RC1
+
+gitRepo=https://github.com/avaje/avaje-prisms.git
+gitTag=${version}
+gitTag="git log --all --pretty=format:%H --grep '$version'"
+gitTag="8b619fcf6dcbd1d1f70c81927512f2105ef9413d"
+
+tool=mvn
+jdk=25
+newline=crlf
+#umask=022
+
+command="mvn -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
