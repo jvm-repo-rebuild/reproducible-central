@@ -20,7 +20,7 @@ Source code: [https://github.com/jpmml/jpmml-sparkml.git](https://github.com/jpm
 rebuilding **49 releases** of org.jpmml:jpmml-sparkml:
 - **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 31 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 13, 3 had all their differences removed :recycle:, 10 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+  - running [stabilize](doc/stabilize.md) on 14, 3 had all their differences removed :recycle:, 11 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -32,7 +32,7 @@ rebuilding **49 releases** of org.jpmml:jpmml-sparkml:
 | [3.2.1](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.2.1/pom) | [mvn jdk17](jpmml-sparkml-3.2.1.buildspec) | [result](jpmml-sparkml-3.2.1.buildinfo): [6 :white_check_mark:  10 :warning:](jpmml-sparkml-3.2.1.buildcompare) | 10 :recycle: | 374K |
 | [3.2.0](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.2.0/pom) | [mvn jdk17](jpmml-sparkml-3.2.0.buildspec) | [result](jpmml-sparkml-3.2.0.buildinfo): [5 :white_check_mark:  8 :warning:](jpmml-sparkml-3.2.0.buildcompare) | 8 :recycle: | 360K |
 | [3.1.7](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.1.7/pom) | [mvn jdk11](jpmml-sparkml-3.1.7.buildspec) | :x: | |
-| [3.1.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.1.6/pom) | [mvn jdk11](jpmml-sparkml-3.1.6.buildspec) | :x: | |
+| [3.1.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.1.6/pom) | [mvn jdk11](jpmml-sparkml-3.1.6.buildspec) | [result](jpmml-sparkml-3.1.6.buildinfo): [6 :white_check_mark:  10 :warning:](jpmml-sparkml-3.1.6.buildcompare) | 9 :recycle: 1 :rotating_light: | 523K |
 | [3.1.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.1.5/pom) | [mvn jdk11](jpmml-sparkml-3.1.5.buildspec) | [result](jpmml-sparkml-3.1.5.buildinfo): [6 :white_check_mark:  10 :warning:](jpmml-sparkml-3.1.5.buildcompare) | 9 :recycle: 1 :rotating_light: | 503K |
 | [3.1.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.1.4/pom) | [mvn jdk11](jpmml-sparkml-3.1.4.buildspec) | [result](jpmml-sparkml-3.1.4.buildinfo): [6 :white_check_mark:  10 :warning:](jpmml-sparkml-3.1.4.buildcompare) | 9 :recycle: 1 :rotating_light: | 498K |
 | [3.1.3](https://central.sonatype.com/artifact/org.jpmml/jpmml-sparkml/3.1.3/pom) | [mvn jdk11](jpmml-sparkml-3.1.3.buildspec) | [result](jpmml-sparkml-3.1.3.buildinfo): [6 :white_check_mark:  10 :warning:](jpmml-sparkml-3.1.3.buildcompare) | 9 :recycle: 1 :rotating_light: | 497K |
