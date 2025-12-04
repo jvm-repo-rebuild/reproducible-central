@@ -1,0 +1,20 @@
+version=3.0.3
+ok=6
+ko=5
+ignored=0
+okFiles="jpmml-sparkml-3.0.3.pom pmml-sparkml-3.0.3.pom pmml-sparkml-evaluator-3.0.3.pom pmml-sparkml-lightgbm-3.0.3.pom pmml-sparkml-xgboost-3.0.3.pom pmml-sparkml-example-3.0.3.pom"
+koFiles="pmml-sparkml-3.0.3.jar pmml-sparkml-evaluator-3.0.3.jar pmml-sparkml-lightgbm-3.0.3.jar pmml-sparkml-xgboost-3.0.3.jar pmml-sparkml-example-3.0.3.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.jpmml/pmml-sparkml-3.0.3.jar pmml-sparkml/target/pmml-sparkml-3.0.3.jar
+# diffoscope target/reference/org.jpmml/pmml-sparkml-evaluator-3.0.3.jar pmml-sparkml-evaluator/target/pmml-sparkml-evaluator-3.0.3.jar
+# diffoscope target/reference/org.jpmml/pmml-sparkml-lightgbm-3.0.3.jar pmml-sparkml-lightgbm/target/pmml-sparkml-lightgbm-3.0.3.jar
+# diffoscope target/reference/org.jpmml/pmml-sparkml-xgboost-3.0.3.jar pmml-sparkml-xgboost/target/pmml-sparkml-xgboost-3.0.3.jar
+# diffoscope target/reference/org.jpmml/pmml-sparkml-example-3.0.3.jar pmml-sparkml-example/target/pmml-sparkml-example-3.0.3.jar
+stabilize_ok=4
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles="pmml-sparkml-evaluator-3.0.3.jar.stabilized pmml-sparkml-lightgbm-3.0.3.jar.stabilized pmml-sparkml-xgboost-3.0.3.jar.stabilized pmml-sparkml-example-3.0.3.jar.stabilized"
+stabilize_koFiles="pmml-sparkml-3.0.3.jar.stabilized"
+stabilize_ignoredFiles=""
