@@ -15,13 +15,13 @@ Source code: [https://github.com/maveniverse/toolbox.git](https://github.com/mav
 * [eu.maveniverse.maven.toolbox:toolbox](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/overview)
 </details>
 
-rebuilding **93 releases** of eu.maveniverse.maven.toolbox:toolbox:
-- **92** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **94 releases** of eu.maveniverse.maven.toolbox:toolbox:
+- **93** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.14.7](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.14.7/pom) | | | |
+| [0.14.7](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.14.7/pom) | [mvn jdk21](toolbox-0.14.7.buildspec) | [result](toolbox-0.14.7.buildinfo): [11 :white_check_mark: ](toolbox-0.14.7.buildcompare) | | 18M |
 | [0.14.6](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.14.6/pom) | [mvn jdk21](toolbox-0.14.6.buildspec) | [result](toolbox-0.14.6.buildinfo): [11 :white_check_mark: ](toolbox-0.14.6.buildcompare) | | 18M |
 | [0.14.5](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.14.5/pom) | [mvn jdk21](toolbox-0.14.5.buildspec) | [result](toolbox-0.14.5.buildinfo): [11 :white_check_mark: ](toolbox-0.14.5.buildcompare) | | 18M |
 | [0.14.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.toolbox/toolbox/0.14.4/pom) | [mvn jdk21](toolbox-0.14.4.buildspec) | [result](toolbox-0.14.4.buildinfo): [11 :white_check_mark: ](toolbox-0.14.4.buildcompare) | | 18M |
