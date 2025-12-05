@@ -1,8 +1,10 @@
-content/at/yawk/lz4/lz4-java/lz4-java-1.8.1.buildspec:1.10.0
+content/at/yawk/lz4/lz4-java/lz4-java-1.8.1.buildspec:1.10.1
 content/com/flowlogix/flowlogix-10.0.8.buildspec:11
-content/eu/maveniverse/maven/toolbox/toolbox-0.14.5.buildspec:0.14.6
-content/io/avaje/validator/avaje-validator-2.15-RC2.buildspec:2.15-RC3
-content/io/github/ollama4j/ollama4j-1.1.5.buildspec:1.1.6
-content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.11.3.buildspec:4.11.4
-content/io/telicent/jena/jena-kafka/jena-kafka-2.3.0.buildspec:2.3.1
-content/io/telicent/smart-caches/graph/scg-base/scg-base-0.92.2.buildspec:0.92.3
+content/com/spotify/github-client/github-client-0.5.3.buildspec:0.5.4
+content/eu/maveniverse/maven/mimir/mimir-0.10.5.buildspec:0.10.6
+content/eu/maveniverse/maven/toolbox/toolbox-0.14.6.buildspec:0.14.7
+content/io/airlift/airbase/airbase-331.buildspec:332
+content/io/avaje/http/avaje-http-3.6-RC3.buildspec:3.6-RC4
+content/io/github/rockcrafters/plugins/rockcraft-parent-1.2.1.buildspec:1.2.2
+content/org/eclipse/jetty/jetty-project/jetty-project-12.1.4.buildspec:12.1.5
+content/org/webjars/font-awesome/font-awesome-7.0.1.buildspec:7.1.0
