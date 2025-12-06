@@ -1,0 +1,20 @@
+groupId=at/yawk/lz4
+artifactId=lz4-java
+display=${groupId}:${artifactId}
+version=1.9.0
+
+gitRepo=https://github.com/yawkat/lz4-java.git
+gitTag=v${version}
+
+tool=mvn-3.9.11
+jdk=21
+toolchains="21|7"
+newline=lf
+#umask=022
+
+# to build the full artifact content, need also native part and assembly: see https://github.com/yawkat/lz4-java/blob/358ee5039f13005f57be6f4a77430e19ace04c61/.github/workflows/build-all-and-publish.yml#L232
+command="SHELL mvn clean package -DskipTests -Dmaven.javadoc.skip -Dbuildinfo.ignore='*/*.module' -P'!native-macos'"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/yawkat/lz4-java/pull/15

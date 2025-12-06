@@ -1,0 +1,141 @@
+1 /        2 target/reference/at.yawk.lz4/lz4-java-1.9.0.jar target/lz4-java-1.9.0.jar
+--- target/reference/at.yawk.lz4/lz4-java-1.9.0.jar
++++ target/lz4-java-1.9.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 916958 bytes, number of entries: 111
+│ +Zip file size: 906126 bytes, number of entries: 111
+│  -rw----     2.0 fat        0 bX defN 80-Jan-01 00:00 META-INF/
+│  -rw----     2.0 fat      721 bl defN 80-Jan-01 00:00 META-INF/MANIFEST.MF
+│ @@ -64,15 +64,15 @@
+│  -rw----     2.0 fat   200704 bl defN 80-Jan-01 00:00 net/jpountz/util/linux/aarch64/liblz4-java.so
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 00:00 net/jpountz/util/linux/amd64/
+│ --rw----     2.0 fat   236152 bl defN 80-Jan-01 00:00 net/jpountz/util/linux/amd64/liblz4-java.so
+│ +-rw----     2.0 fat   215696 bl defN 80-Jan-01 00:00 net/jpountz/util/linux/amd64/liblz4-java.so
+│  -rw----     2.0 fat        0 bl defN 80-Jan-01 00:00 net/jpountz/util/linux/i386/
+│  -rw----     2.0 fat   173972 bl defN 80-Jan-01 00:00 net/jpountz/util/linux/i386/liblz4-java.so
+│ @@ -106,8 +106,8 @@
+│  -rw----     2.0 fat     5679 bl defN 80-Jan-01 00:00 net/jpountz/xxhash/XXHashFactory.class
+│  -rw----     2.0 fat     1331 bl defN 80-Jan-01 00:00 net/jpountz/xxhash/XXHashJNI.class
+│ -111 files, 2082633 bytes uncompressed, 897932 bytes compressed:  56.9%
+│ +111 files, 2062177 bytes uncompressed, 887100 bytes compressed:  57.0%
+├── net/jpountz/util/linux/amd64/liblz4-java.so
+...
+├── net/jpountz/util/win32/amd64/liblz4-java.so
+│ ├── objdump
+│ │ @@ -3,15 +3,15 @@
+│ │  start address: 0x0000000000000000
+│ │  Characteristics 0x2026
+│ │  	executable
+│ │  	line numbers stripped
+│ │  	large address aware
+│ │  	DLL
+│ │  
+│ │ -Time/Date               Wed Nov 26 09:03:25 2025
+│ │ +Time/Date               Fri Dec  5 13:28:23 2025
+│ │  Magic                   020b	(PE32+)
+│ │  MajorLinkerVersion      2
+│ │  MinorLinkerVersion      45
+│ │  SizeOfCode              0000000000034e00
+│ │  SizeOfInitializedData   0000000000002c00
+│ │  SizeOfUninitializedData 0000000000000200
+│ │  AddressOfEntryPoint     00000000000011f0
+│ │ @@ -24,15 +24,15 @@
+│ │  MajorImageVersion       0
+│ │  MinorImageVersion       0
+│ │  MajorSubsystemVersion   5
+│ │  MinorSubsystemVersion   2
+│ │  Win32Version            00000000
+│ │  SizeOfImage             00052000
+│ │  SizeOfHeaders           00000600
+│ │ -CheckSum                000577eb
+│ │ +CheckSum                0005af37
+│ │  Subsystem               00000003	(Windows CUI)
+│ │  DllCharacteristics      00000160
+│ │  					HIGH_ENTROPY_VA
+│ │  					DYNAMIC_BASE
+│ │  					NX_COMPAT
+│ │  SizeOfStackReserve      0000000000200000
+│ │  SizeOfStackCommit       0000000000001000
+│ │ @@ -54773,31 +54773,34 @@
+│ │  
+│ │  Disassembly of section .edata:
+│ │  
+│ │  000000031ecfb000 <.edata>:
+│ │  ; __bss_end__():
+│ │  31ecfb000:     	addb	%al, (%rax)
+│ │  31ecfb002:     	addb	%al, (%rax)
+│ │ -31ecfb004:     	popq	%rbp
+│ │ -31ecfb005:     	retq	$0x6926                 # imm = 0x6926
+│ │ -31ecfb008:     	addb	%al, (%rax)
+│ │ -31ecfb00a:     	addb	%al, (%rax)
+│ │ -31ecfb00c:     	outb	%al, $0xb0
+│ │ -31ecfb00e:     	addl	(%rax), %eax
+│ │ -31ecfb010:     	addl	%eax, (%rax)
+│ │ -31ecfb012:     	addb	%al, (%rax)
+│ │ -31ecfb014:     	adcl	(%rax), %eax
+│ │ -31ecfb016:     	addb	%al, (%rax)
+│ │ -31ecfb018:     	adcl	(%rax), %eax
+│ │ -31ecfb01a:     	addb	%al, (%rax)
+│ │ -31ecfb01c:     	subb	%dh, -0x4f8bfffd(%rax)
+│ │ -31ecfb022:     	addl	(%rax), %eax
+│ │ -31ecfb024:     	<unknown>
+│ │ -31ecfb02a:     	addb	%al, (%rax)
+│ │ -31ecfb02c:     	rclb	(%rax,%rax)
+│ │ +31ecfb004:     	negl	%ebp
+│ │ +31ecfb006:     	xorb	(%rcx), %ch
+│ │ +31ecfb009:     	addb	%al, (%rax)
+│ │ +31ecfb00b:     	addb	%ah, %dh
+│ │ +31ecfb00d:     	movb	$0x3, %al
+│ │ +31ecfb00f:     	addb	%al, (%rcx)
+│ │ +31ecfb011:     	addb	%al, (%rax)
+│ │ +31ecfb013:     	addb	%dl, (%rbx)
+│ │ +31ecfb015:     	addb	%al, (%rax)
+│ │ +31ecfb017:     	addb	%dl, (%rbx)
+│ │ +31ecfb019:     	addb	%al, (%rax)
+│ │ +31ecfb01b:     	addb	%ch, (%rax)
+│ │ +31ecfb01d:     	movb	$0x3, %al
+│ │ +31ecfb01f:     	addb	%dh, 0x3(%rax,%rsi,4)
+│ │ +31ecfb023:     	addb	%al, %al
+│ │ +31ecfb025:     	movb	$0x3, %al
+│ │ +31ecfb027:     	addb	%dl, %al
+│ │ +31ecfb029:     	sbbb	%al, (%rax)
+│ │ +31ecfb02b:     	addb	%dl, %al
+│ │ +31ecfb02d:     	adcb	$0x0, %al
+│ │  31ecfb02f:     	addb	%al, 0x30000013(%rax)
+│ │  31ecfb035:     	<unknown>
+│ │  31ecfb036:     	addb	%al, (%rax)
+│ │  31ecfb038:     	adcb	$0x0, (%rdi)
+│ │  31ecfb03b:     	addb	%ah, 0x13(%rax)
+│ │  31ecfb03e:     	addb	%al, (%rax)
+│ │  31ecfb040:     	addb	%bl, (%rcx)
+
+2 /        2 target/reference/at.yawk.lz4/lz4-java-1.9.0-sources.jar target/lz4-java-1.9.0-sources.jar
+--- target/reference/at.yawk.lz4/lz4-java-1.9.0-sources.jar
++++ target/lz4-java-1.9.0-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 871903 bytes, number of entries: 92
+│ +Zip file size: 871904 bytes, number of entries: 92
+│  -rw-r--r--  2.0 unx       64 b- defN 80-Jan-01 00:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Jan-01 00:00 META-INF/
+│ @@ -87,8 +87,8 @@
+│  -rw-r--r--  2.0 unx    39356 b- defN 80-Jan-01 00:00 META-INF/maven/at.yawk.lz4/lz4-java/pom.xml
+│  -rw-r--r--  2.0 unx       54 b- defN 80-Jan-01 00:00 META-INF/maven/at.yawk.lz4/lz4-java/pom.properties
+│ -92 files, 2170058 bytes uncompressed, 858251 bytes compressed:  60.5%
+│ +92 files, 2170058 bytes uncompressed, 858252 bytes compressed:  60.5%
+├── net/jpountz/util/win32/amd64/liblz4-java.so
+│ ├── objdump
+│ │ @@ -3,15 +3,15 @@
+│ │  start address: 0x0000000000000000
+│ │  Characteristics 0x2026
+│ │  	executable
+│ │  	line numbers stripped
+│ │  	large address aware
+│ │  	DLL
+│ │  
+│ │ -Time/Date               Wed Nov 26 09:03:25 2025
+│ │ +Time/Date               Fri Dec  5 13:28:23 2025
+│ │  Magic                   020b	(PE32+)
+│ │  MajorLinkerVersion      2
+...
