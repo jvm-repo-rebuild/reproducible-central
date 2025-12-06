@@ -1,0 +1,101 @@
+1 /        1 target/reference/at.yawk.lz4/lz4-java-1.10.1.jar target/lz4-java-1.10.1.jar
+--- target/reference/at.yawk.lz4/lz4-java-1.10.1.jar
++++ target/lz4-java-1.10.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 910232 bytes, number of entries: 113
+│ +Zip file size: 910233 bytes, number of entries: 113
+│  -rw----     2.0 fat        0 bX defN 80-Jan-01 00:00 META-INF/
+│  -rw----     2.0 fat      721 bl defN 80-Jan-01 00:00 META-INF/MANIFEST.MF
+│ @@ -108,8 +108,8 @@
+│  -rw----     2.0 fat     5679 bl defN 80-Jan-01 00:00 net/jpountz/xxhash/XXHashFactory.class
+│  -rw----     2.0 fat     1331 bl defN 80-Jan-01 00:00 net/jpountz/xxhash/XXHashJNI.class
+│ -113 files, 2070626 bytes uncompressed, 890838 bytes compressed:  57.0%
+│ +113 files, 2070626 bytes uncompressed, 890839 bytes compressed:  57.0%
+├── net/jpountz/util/win32/amd64/liblz4-java.so
+│ ├── objdump
+│ │ @@ -3,15 +3,15 @@
+│ │  start address: 0x0000000000000000
+│ │  Characteristics 0x2026
+│ │  	executable
+│ │  	line numbers stripped
+│ │  	large address aware
+│ │  	DLL
+│ │  
+│ │ -Time/Date               Fri Dec  5 08:37:24 2025
+│ │ +Time/Date               Sat Dec  6 12:03:36 2025
+│ │  Magic                   020b	(PE32+)
+│ │  MajorLinkerVersion      2
+│ │  MinorLinkerVersion      45
+│ │  SizeOfCode              0000000000034e00
+│ │  SizeOfInitializedData   0000000000002c00
+│ │  SizeOfUninitializedData 0000000000000200
+│ │  AddressOfEntryPoint     00000000000011f0
+│ │ @@ -24,15 +24,15 @@
+│ │  MajorImageVersion       0
+│ │  MinorImageVersion       0
+│ │  MajorSubsystemVersion   5
+│ │  MinorSubsystemVersion   2
+│ │  Win32Version            00000000
+│ │  SizeOfImage             00052000
+│ │  SizeOfHeaders           00000600
+│ │ -CheckSum                000526d1
+│ │ +CheckSum                00052a7c
+│ │  Subsystem               00000003	(Windows CUI)
+│ │  DllCharacteristics      00000160
+│ │  					HIGH_ENTROPY_VA
+│ │  					DYNAMIC_BASE
+│ │  					NX_COMPAT
+│ │  SizeOfStackReserve      0000000000200000
+│ │  SizeOfStackCommit       0000000000001000
+│ │ @@ -54773,32 +54773,31 @@
+│ │  
+│ │  Disassembly of section .edata:
+│ │  
+│ │  000000031ecfb000 <.edata>:
+│ │  ; __bss_end__():
+│ │  31ecfb000:     	addb	%al, (%rax)
+│ │  31ecfb002:     	addb	%al, (%rax)
+│ │ -31ecfb004:     	<unknown>
+│ │ -31ecfb007:     	imull	$0xe6000000, (%rax), %eax # imm = 0xE6000000
+│ │ -31ecfb00d:     	movb	$0x3, %al
+│ │ -31ecfb00f:     	addb	%al, (%rcx)
+│ │ -31ecfb011:     	addb	%al, (%rax)
+│ │ -31ecfb013:     	addb	%dl, (%rbx)
+│ │ -31ecfb015:     	addb	%al, (%rax)
+│ │ -31ecfb017:     	addb	%dl, (%rbx)
+│ │ -31ecfb019:     	addb	%al, (%rax)
+│ │ -31ecfb01b:     	addb	%ch, (%rax)
+│ │ -31ecfb01d:     	movb	$0x3, %al
+│ │ -31ecfb01f:     	addb	%dh, 0x3(%rax,%rsi,4)
+│ │ -31ecfb023:     	addb	%al, %al
+│ │ -31ecfb025:     	movb	$0x3, %al
+│ │ -31ecfb027:     	addb	%dl, %al
+│ │ -31ecfb029:     	sbbb	%al, (%rax)
+│ │ -31ecfb02b:     	addb	%dl, %al
+│ │ -31ecfb02d:     	adcb	$0x0, %al
+│ │ +31ecfb004:     	cwtl
+│ │ +31ecfb005:     	sbbl	(%rcx,%rbp,2), %esi
+│ │ +31ecfb008:     	addb	%al, (%rax)
+│ │ +31ecfb00a:     	addb	%al, (%rax)
+│ │ +31ecfb00c:     	outb	%al, $0xb0
+│ │ +31ecfb00e:     	addl	(%rax), %eax
+│ │ +31ecfb010:     	addl	%eax, (%rax)
+│ │ +31ecfb012:     	addb	%al, (%rax)
+│ │ +31ecfb014:     	adcl	(%rax), %eax
+│ │ +31ecfb016:     	addb	%al, (%rax)
+│ │ +31ecfb018:     	adcl	(%rax), %eax
+│ │ +31ecfb01a:     	addb	%al, (%rax)
+│ │ +31ecfb01c:     	subb	%dh, -0x4f8bfffd(%rax)
+│ │ +31ecfb022:     	addl	(%rax), %eax
+│ │ +31ecfb024:     	<unknown>
+│ │ +31ecfb02a:     	addb	%al, (%rax)
+│ │ +31ecfb02c:     	rclb	(%rax,%rax)
+│ │  31ecfb02f:     	addb	%al, 0x30000013(%rax)
+│ │  31ecfb035:     	<unknown>
+│ │  31ecfb036:     	addb	%al, (%rax)
+│ │  31ecfb038:     	adcb	$0x0, (%rdi)
+│ │  31ecfb03b:     	addb	%ah, 0x13(%rax)
+│ │  31ecfb03e:     	addb	%al, (%rax)
+│ │  31ecfb040:     	addb	%bl, (%rcx)
+
