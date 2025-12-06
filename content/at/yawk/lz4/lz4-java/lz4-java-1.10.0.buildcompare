@@ -1,0 +1,17 @@
+version=1.10.0
+ok=1
+ko=2
+ignored=1
+okFiles="lz4-java-1.10.0.pom"
+koFiles="lz4-java-1.10.0.jar lz4-java-1.10.0-sources.jar"
+ignoredFiles="lz4-java-1.10.0.module"
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/at.yawk.lz4/lz4-java-1.10.0.jar target/lz4-java-1.10.0.jar
+# diffoscope target/reference/at.yawk.lz4/lz4-java-1.10.0-sources.jar target/lz4-java-1.10.0-sources.jar
+stabilize_ok=0
+stabilize_ko=2
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="lz4-java-1.10.0.jar.stabilized lz4-java-1.10.0-sources.jar.stabilized"
+stabilize_ignoredFiles=""
