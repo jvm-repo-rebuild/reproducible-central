@@ -1,0 +1,59 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-Transpiler
+group-id=org.jpmml
+artifact-id=jpmml-transpiler
+version=1.4.7
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-transpiler.git
+source.scm.tag=1.4.7
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.29
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.6
+mvn.aggregate.artifact-id=pmml-transpiler-example
+
+# aggregated output
+
+outputs.0.coordinates=org.jpmml:jpmml-transpiler
+
+outputs.0.0.groupId=org.jpmml
+outputs.0.0.filename=jpmml-transpiler-1.4.7.pom
+outputs.0.0.length=5510
+outputs.0.0.checksums.sha512=44a4fa554a6ef49caccc3533b023c3fa8b0c4e434afadd82051b697ef55edf7e914075768ba2542f85a34202904c01a1706ad5bb68923c5d7a7b116f4cd5261d
+
+outputs.1.coordinates=org.jpmml:pmml-transpiler
+
+outputs.1.0.groupId=org.jpmml
+outputs.1.0.filename=pmml-transpiler-1.4.7.pom
+outputs.1.0.length=1699
+outputs.1.0.checksums.sha512=2eadf885239bbe5a3bad8bf66569b068ce9f1af1ba9b0c4ec2be4f9894033a04ed427484cfcf17bea021f1788fab020f2da1af80d133d72e02a11fe1d00a4213
+
+outputs.1.1.groupId=org.jpmml
+outputs.1.1.filename=pmml-transpiler-1.4.7.jar
+outputs.1.1.length=258503
+outputs.1.1.checksums.sha512=cda42db03450c5cf366d5fd3639d8585627edac4aea2f3625f65f4d3fe9f38202c9b758967cc99f8917eafa51e3d7783e786c04e234634368095dc4ff88b0b8c
+
+outputs.2.coordinates=org.jpmml:pmml-transpiler-example
+
+outputs.2.0.groupId=org.jpmml
+outputs.2.0.filename=pmml-transpiler-example-1.4.7.pom
+outputs.2.0.length=1956
+outputs.2.0.checksums.sha512=cbdca087677565179274344c88a59bed0f70aa458b2c6507e7bc5955a5bb4e91567400c5fb373e84203d560d5c092b73d874be52159cb771f62d21cd90701ac8
+
+outputs.2.1.groupId=org.jpmml
+outputs.2.1.filename=pmml-transpiler-example-1.4.7.jar
+outputs.2.1.length=5217
+outputs.2.1.checksums.sha512=16923a580094de3f7299478beee0211984f55fb0d66299f22173fe783c27a94c35c9cf98adbef662e862f4832f254c013362e3f23fb9768744ebacf317040c7d
