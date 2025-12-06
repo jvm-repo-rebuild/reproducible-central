@@ -17,4 +17,4 @@ command="SHELL mvn clean package -DskipTests -Dmaven.javadoc.skip -Dbuildinfo.ig
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
-issue=https://github.com/yawkat/lz4-java/pull/15
+issue=https://github.com/yawkat/lz4-java/issues/9
