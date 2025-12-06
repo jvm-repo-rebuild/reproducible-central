@@ -1,10 +1,4 @@
-content/at/yawk/lz4/lz4-java/lz4-java-1.8.1.buildspec:1.10.1
 content/com/flowlogix/flowlogix-10.0.8.buildspec:11
-content/com/spotify/github-client/github-client-0.5.3.buildspec:0.5.4
-content/eu/maveniverse/maven/mimir/mimir-0.10.5.buildspec:0.10.6
-content/eu/maveniverse/maven/toolbox/toolbox-0.14.6.buildspec:0.14.7
-content/io/airlift/airbase/airbase-331.buildspec:332
-content/io/avaje/http/avaje-http-3.6-RC3.buildspec:3.6-RC4
+content/com/fasterxml/uuid/java-uuid-generator-5.1.1.buildspec:5.2.0
 content/io/github/rockcrafters/plugins/rockcraft-parent-1.2.1.buildspec:1.2.2
-content/org/eclipse/jetty/jetty-project/jetty-project-12.1.4.buildspec:12.1.5
-content/org/webjars/font-awesome/font-awesome-7.0.1.buildspec:7.1.0
+content/io/opentelemetry/java/opentelemetry-sdk-1.56.0.buildspec:1.57.0

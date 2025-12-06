@@ -65,6 +65,7 @@
       <version>7.0.24</version>
       <version>7.0.25</version>
       <version>7.1.0-M1</version>
+      <version>7.1.0</version>
       <version>8.0.0-M1</version>
       <version>8.0.0-M2</version>
       <version>8.0.0-M3</version>
@@ -85,6 +86,6 @@
       <version>8.0.0-JDK17-M10</version>
       <version>8.0.0-JDK17-M12</version>
     </versions>
-    <lastUpdated>20251103082058</lastUpdated>
+    <lastUpdated>20251206163015</lastUpdated>
   </versioning>
 </metadata>

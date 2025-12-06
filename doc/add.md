@@ -4,17 +4,10 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20251205161526 --> [mimir](../content/eu/maveniverse/maven/mimir/README.md) | [0.10.5](../content/eu/maveniverse/maven/mimir/mimir-0.10.5.buildspec) :white_check_mark: | [0.10.6](../content/eu/maveniverse/maven/mimir/mimir-0.10.6.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/mimir/mimir-0.10.5.buildspec 0.10.6` |
-| <!-- 20251205160430 --> [airbase](../content/io/airlift/airbase/README.md) | [331](../content/io/airlift/airbase/airbase-331.buildspec) :white_check_mark: | [332](../content/io/airlift/airbase/airbase-332.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-331.buildspec 332` |
-| <!-- 20251205160426 --> [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | [0.14.6](../content/eu/maveniverse/maven/toolbox/toolbox-0.14.6.buildspec) :white_check_mark: | [0.14.7](../content/eu/maveniverse/maven/toolbox/toolbox-0.14.7.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/toolbox/toolbox-0.14.6.buildspec 0.14.7` |
-| <!-- 20251205141119 --> [github-client](../content/com/spotify/github-client/README.md) | [0.5.3](../content/com/spotify/github-client/github-client-0.5.3.buildspec) :white_check_mark: | [0.5.4](../content/com/spotify/github-client/github-client-0.5.4.buildspec) | `bin/add-new-release.sh content/com/spotify/github-client/github-client-0.5.3.buildspec 0.5.4` |
-| <!-- 20251205123051 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | [12.1.4](../content/org/eclipse/jetty/jetty-project/jetty-project-12.1.4.buildspec) :white_check_mark: | [12.1.5](../content/org/eclipse/jetty/jetty-project/jetty-project-12.1.5.buildspec) | `bin/add-new-release.sh content/org/eclipse/jetty/jetty-project/jetty-project-12.1.4.buildspec 12.1.5` |
-| <!-- 20251205123051 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | [12.1.4](../content/org/eclipse/jetty/jetty-project/jetty-project-12.1.4.buildspec) :white_check_mark: | 12.0.31  | `bin/add-new-release.sh content/org/eclipse/jetty/jetty-project/jetty-project-12.1.4.buildspec ...` |
-| <!-- 20251205085119 --> [lz4-java](../content/at/yawk/lz4/lz4-java/README.md) | [1.8.1](../content/at/yawk/lz4/lz4-java/lz4-java-1.8.1.buildspec) :white_check_mark: | [1.10.1](../content/at/yawk/lz4/lz4-java/lz4-java-1.10.1.buildspec) | `bin/add-new-release.sh content/at/yawk/lz4/lz4-java/lz4-java-1.8.1.buildspec 1.10.1` |
-| <!-- 20251205085119 --> [lz4-java](../content/at/yawk/lz4/lz4-java/README.md) | [1.8.1](../content/at/yawk/lz4/lz4-java/lz4-java-1.8.1.buildspec) :white_check_mark: | 1.10.0 1.9.0  | `bin/add-new-release.sh content/at/yawk/lz4/lz4-java/lz4-java-1.8.1.buildspec ...` |
-| <!-- 20251205000116 --> [font-awesome](../content/org/webjars/font-awesome/README.md) | [7.0.1](../content/org/webjars/font-awesome/font-awesome-7.0.1.buildspec) :white_check_mark: | [7.1.0](../content/org/webjars/font-awesome/font-awesome-7.1.0.buildspec) | `bin/add-new-release.sh content/org/webjars/font-awesome/font-awesome-7.0.1.buildspec 7.1.0` |
+| <!-- 20251205222434 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | [1.56.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.56.0.buildspec) :white_check_mark: | [1.57.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.57.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/java/opentelemetry-sdk-1.56.0.buildspec 1.57.0` |
+| <!-- 20251205215708 --> [java-uuid-generator](../content/com/fasterxml/uuid/README.md) | [5.1.1](../content/com/fasterxml/uuid/java-uuid-generator-5.1.1.buildspec) :white_check_mark: | [5.2.0](../content/com/fasterxml/uuid/java-uuid-generator-5.2.0.buildspec) | `bin/add-new-release.sh content/com/fasterxml/uuid/java-uuid-generator-5.1.1.buildspec 5.2.0` |
+| <!-- 20251205123051 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | [12.1.5](../content/org/eclipse/jetty/jetty-project/jetty-project-12.1.5.buildspec) :white_check_mark: | 12.0.31  | `bin/add-new-release.sh content/org/eclipse/jetty/jetty-project/jetty-project-12.1.5.buildspec ...` |
 | <!-- 20251204235408 --> [rockcraft-parent](../content/io/github/rockcrafters/plugins/README.md) | [1.2.1](../content/io/github/rockcrafters/plugins/rockcraft-parent-1.2.1.buildspec) :white_check_mark: | [1.2.2](../content/io/github/rockcrafters/plugins/rockcraft-parent-1.2.2.buildspec) | `bin/add-new-release.sh content/io/github/rockcrafters/plugins/rockcraft-parent-1.2.1.buildspec 1.2.2` |
-| <!-- 20251204235153 --> [avaje-http-parent](../content/io/avaje/http/README.md) | [3.6-RC3](../content/io/avaje/http/avaje-http-3.6-RC3.buildspec) :white_check_mark: | [3.6-RC4](../content/io/avaje/http/avaje-http-3.6-RC4.buildspec) | `bin/add-new-release.sh content/io/avaje/http/avaje-http-3.6-RC3.buildspec 3.6-RC4` |
 | <!-- 20251118222117 --> [flowlogix](../content/com/flowlogix/README.md) | [10.0.8](../content/com/flowlogix/flowlogix-10.0.8.buildspec) :white_check_mark: | [11](../content/com/flowlogix/flowlogix-11.buildspec) | `bin/add-new-release.sh content/com/flowlogix/flowlogix-10.0.8.buildspec 11` |
 <!-- END GENERATED ADD OK -->
 
@@ -38,6 +31,7 @@ New Releases To Add
 | <!-- 20250801053753 --> [:mailbox:](https://lists.apache.org/list?dev@jackrabbit.apache.org:lte=1M:VOTE) | [jackrabbit-parent](../content/org/apache/jackrabbit/jackrabbit/README.md) | [2.23.2-beta](../content/org/apache/jackrabbit/jackrabbit/jackrabbit-2.23.2-beta.buildspec) :white_check_mark: | [2.23.3-beta](../content/org/apache/jackrabbit/jackrabbit/jackrabbit-2.23.3-beta.buildspec)  | `bin/add-new-release.sh content/org/apache/jackrabbit/jackrabbit/jackrabbit-2.23.2-beta.buildspec 2.23.3-beta staging` |
 | <!-- 20250724120105 --> [:mailbox:](https://lists.apache.org/list?dev@commons.apache.org:lte=1M:VOTE) | [commons-text](../content/org/apache/commons/commons-text/README.md) | [1.14.0](../content/org/apache/commons/commons-text/commons-text-1.14.0.buildspec) :white_check_mark: | [1.15.0](../content/org/apache/commons/commons-text/commons-text-1.15.0.buildspec)  | `bin/add-new-release.sh content/org/apache/commons/commons-text/commons-text-1.14.0.buildspec 1.15.0 staging` |
 | <!-- 20250213085016 --> [:mailbox:](https://lists.apache.org/list?dev@ignite.apache.org:lte=1M:VOTE) | [apache-ignite](../content/org/apache/ignite/README.md) | [2.17.0](../content/org/apache/ignite/ignite-2.17.0.buildspec) :warning: | [3.0.0-alpha5](../content/org/apache/ignite/ignite-3.0.0-alpha5.buildspec)  | `bin/add-new-release.sh content/org/apache/ignite/ignite-2.17.0.buildspec 3.0.0-alpha5 staging` |
+| <!-- 20250127175507 --> [:mailbox:](https://lists.apache.org/list?dev@commons.apache.org:lte=1M:VOTE) | [commons-pool2](../content/org/apache/commons/commons-pool2/README.md) | [2.12.1](../content/org/apache/commons/commons-pool2/commons-pool2-2.12.1.buildspec) :white_check_mark: | [2.13.0](../content/org/apache/commons/commons-pool2/commons-pool2-2.13.0.buildspec)  | `bin/add-new-release.sh content/org/apache/commons/commons-pool2/commons-pool2-2.12.1.buildspec 2.13.0 staging` |
 <!-- END GENERATED ADD STAGING -->
 
 ## New Release of non-Reproducible Previous
@@ -45,6 +39,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20251206160719 --> [jpmml-codemodel](../content/org/jpmml/jpmml-codemodel/README.md) | [1.2.0](../content/org/jpmml/jpmml-codemodel/jpmml-codemodel-1.2.0.buildspec) :warning: | [1.2.1](../content/org/jpmml/jpmml-codemodel/jpmml-codemodel-1.2.1.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-codemodel/jpmml-codemodel-1.2.0.buildspec 1.2.1` |
+| <!-- 20251206133134 --> [jpmml-transpiler](../content/org/jpmml/jpmml-transpiler/README.md) | [1.4.6](../content/org/jpmml/jpmml-transpiler/jpmml-transpiler-1.4.6.buildspec) :warning: | [1.4.7](../content/org/jpmml/jpmml-transpiler/jpmml-transpiler-1.4.7.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-transpiler/jpmml-transpiler-1.4.6.buildspec 1.4.7` |
+| <!-- 20251206103717 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | [1.9.19](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.19.buildspec) :warning: | [1.9.20](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.20.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.19.buildspec 1.9.20` |
 | <!-- 20251204234146 --> [htmlcompressor](../content/com/github/hazendaz/htmlcompressor/README.md) | [2.3.0](../content/com/github/hazendaz/htmlcompressor/htmlcompressor-2.3.0.buildspec) :warning: | [2.3.1](../content/com/github/hazendaz/htmlcompressor/htmlcompressor-2.3.1.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/htmlcompressor/htmlcompressor-2.3.0.buildspec 2.3.1` |
 | <!-- 20251127165914 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.1.0](../content/com/taobao/arthas/arthas-4.1.0.buildspec) :warning: [:memo:](https://github.com/alibaba/arthas/pull/3001) | [4.1.2](../content/com/taobao/arthas/arthas-4.1.2.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.1.0.buildspec 4.1.2` |
 | <!-- 20251127141738 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.30.3](../content/org/webjars/swagger-ui/swagger-ui-5.30.3.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.30.3` |
@@ -68,6 +65,8 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20251206163015 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 8.0.0-JDK17-M12 :warning: |
+| <!-- 20251205085119 --> [lz4-java](../content/at/yawk/lz4/lz4-java/README.md) | 1.10.1 :warning: [:memo:](https://github.com/yawkat/lz4-java/pull/15) |
 | <!-- 20251203114649 --> [quarkus-project](../content/io/quarkus/README.md) | 3.30.2 :warning: |
 | <!-- 20251202181343 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.5.3 :warning: |
 | <!-- 20251201061731 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 4.0.0 :warning: |
@@ -97,7 +96,6 @@ New Releases To Add
 | <!-- 20251113135533 --> [sdmx-dl-parent](../content/com/github/nbbrd/sdmx-dl/README.md) | 3.0.0-beta.16 :warning: |
 | <!-- 20251112141105 --> [ratis](../content/org/apache/ratis/README.md) | 3.2.1 :warning: |
 | <!-- 20251105083054 --> [shiro-root](../content/org/apache/shiro/README.md) | 2.0.6 :warning: |
-| <!-- 20251103082058 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 8.0.0-JDK17-M12 :warning: |
 | <!-- 20251031091938 --> [jreleaser](../content/org/jreleaser/README.md) | 1.21.0 :warning: |
 | <!-- 20251030170330 --> [sdk-parent](../content/com/sap/ai/sdk/README.md) | 1.13.0 :warning: |
 | <!-- 20251030133124 --> [jdbc-url-parser](../content/net/osslabz/jdbc-url-parser/README.md) | 0.1.1 :warning: |
@@ -107,12 +105,10 @@ New Releases To Add
 | <!-- 20251027042937 --> [avaje-config](../content/io/avaje/config/README.md) | 4.2 :warning: |
 | <!-- 20251025202703 --> [xml-maven-plugin](../content/org/codehaus/mojo/xml-maven-plugin/README.md) | 1.2.0 :warning: [:memo:](https://github.com/mojohaus/xml-maven-plugin/issues/155) |
 | <!-- 20251024120236 --> [com.io7m.cardant](../content/com/io7m/cardant/README.md) | 1.0.0-beta0002 :x: |
-| <!-- 20251023215456 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | 1.9.19 :warning: |
 | <!-- 20251023215446 --> [jpmml-r](../content/org/jpmml/jpmml-r/README.md) | 1.7.4 :warning: |
 | <!-- 20251023130734 --> [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | 1.3.4 :warning: |
 | <!-- 20251023113928 --> [jpmml-h2o](../content/org/jpmml/jpmml-h2o/README.md) | 1.3.2 :warning: |
 | <!-- 20251023111933 --> [jpmml-xgboost](../content/org/jpmml/jpmml-xgboost/README.md) | 1.9.3 :warning: |
-| <!-- 20251020104455 --> [jpmml-transpiler](../content/org/jpmml/jpmml-transpiler/README.md) | 1.4.6 :warning: |
 | <!-- 20251020095910 --> [jpmml-lightgbm](../content/org/jpmml/jpmml-lightgbm/README.md) | 1.6.2 :warning: |
 | <!-- 20251017200142 --> [apache-rat-project](../content/org/apache/rat/README.md) | 0.17 :warning: [:memo:](https://github.com/apache/creadur-rat/commit/969f474e82aa7ef9082d1156d777b7e7b42ac3e3) |
 | <!-- 20251015201339 --> [avro-toplevel](../content/org/apache/avro/README.md) | 1.12.1 :warning: |
@@ -180,7 +176,6 @@ New Releases To Add
 | <!-- 20250214132638 --> [commons-vfs2](../content/org/apache/commons/commons-vfs2/README.md) | 2.10.0 :warning: |
 | <!-- 20250213085016 --> [apache-ignite](../content/org/apache/ignite/README.md) | 2.17.0 :warning: |
 | <!-- 20250203233329 --> [axiom](../content/org/apache/ws/commons/axiom/README.md) | 2.0.0 :warning: |
-| <!-- 20250202185956 --> [jpmml-codemodel](../content/org/jpmml/jpmml-codemodel/README.md) | 1.2.0 :warning: |
 | <!-- 20250201215052 --> [ftpserver-parent](../content/org/apache/mina/ftpserver/README.md) | 1.2.1 :warning: |
 | <!-- 20250117094427 --> [org.apache.sling.starter](../content/org/apache/sling/org.apache.sling.starter/README.md) | 13 :warning: |
 | <!-- 20250103195806 --> [ldapchai](../content/com/github/ldapchai/README.md) | 0.8.7 :warning: |
