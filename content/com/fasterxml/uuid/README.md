@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/cowtowncoder/java-uuid-generator.git](https://github.com/cowtowncoder/java-uuid-generator.git)
 
-rebuilding **7 releases** of com.fasterxml.uuid:java-uuid-generator:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of com.fasterxml.uuid:java-uuid-generator:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [5.2.0](https://central.sonatype.com/artifact/com.fasterxml.uuid/java-uuid-generator/5.2.0/pom) | | | |
+| [5.2.0](https://central.sonatype.com/artifact/com.fasterxml.uuid/java-uuid-generator/5.2.0/pom) | [mvn jdk8](java-uuid-generator-5.2.0.buildspec) | [result](java-uuid-generator-5.2.0.buildinfo): [3 :white_check_mark: ](java-uuid-generator-5.2.0.buildcompare) | | 122K |
 | [5.1.1](https://central.sonatype.com/artifact/com.fasterxml.uuid/java-uuid-generator/5.1.1/pom) | [mvn jdk17](java-uuid-generator-5.1.1.buildspec) | [result](java-uuid-generator-5.1.1.buildinfo): [3 :white_check_mark: ](java-uuid-generator-5.1.1.buildcompare) | | 120K |
 | [5.1.0](https://central.sonatype.com/artifact/com.fasterxml.uuid/java-uuid-generator/5.1.0/pom) | [mvn jdk8](java-uuid-generator-5.1.0.buildspec) | [result](java-uuid-generator-5.1.0.buildinfo): [3 :white_check_mark: ](java-uuid-generator-5.1.0.buildcompare) | | 119K |
 | [5.0.0](https://central.sonatype.com/artifact/com.fasterxml.uuid/java-uuid-generator/5.0.0/pom) | [mvn jdk8](java-uuid-generator-5.0.0.buildspec) | [result](java-uuid-generator-5.0.0.buildinfo): [3 :white_check_mark: ](java-uuid-generator-5.0.0.buildcompare) | | 119K |
