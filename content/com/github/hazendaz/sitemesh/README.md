@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/hazendaz/sitemesh2.git](https://github.com/hazendaz/sitemesh2.git)
 
-rebuilding **7 releases** of com.github.hazendaz:sitemesh:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **8 releases** of com.github.hazendaz:sitemesh:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.6.2](https://central.sonatype.com/artifact/com.github.hazendaz/sitemesh/2.6.2/pom) | | | |
+| [2.6.2](https://central.sonatype.com/artifact/com.github.hazendaz/sitemesh/2.6.2/pom) | [mvn jdk25 w](sitemesh-2.6.2.buildspec) | [result](sitemesh-2.6.2.buildinfo): [7 :white_check_mark: ](sitemesh-2.6.2.buildcompare) | | 544K |
 | [2.6.1](https://central.sonatype.com/artifact/com.github.hazendaz/sitemesh/2.6.1/pom) | [mvn jdk21 w](sitemesh-2.6.1.buildspec) | [result](sitemesh-2.6.1.buildinfo): [7 :white_check_mark: ](sitemesh-2.6.1.buildcompare) | | 544K |
 | [2.6.0](https://central.sonatype.com/artifact/com.github.hazendaz/sitemesh/2.6.0/pom) | [mvn jdk21 w](sitemesh-2.6.0.buildspec) | [result](sitemesh-2.6.0.buildinfo): [7 :white_check_mark: ](sitemesh-2.6.0.buildcompare) | | 550K |
 | [2.6.0-M1](https://central.sonatype.com/artifact/com.github.hazendaz/sitemesh/2.6.0-M1/pom) | [mvn jdk17 w](sitemesh-2.6.0-M1.buildspec) | [result](sitemesh-2.6.0-M1.buildinfo): [5 :white_check_mark: ](sitemesh-2.6.0-M1.buildcompare) | | 488K |
