@@ -1,0 +1,9 @@
+version=2.1.0
+ok=48
+ko=0
+ignored=0
+okFiles="jmockit-parent-2.1.0.pom jmockit-parent-2.1.0-cyclonedx.xml jmockit-parent-2.1.0-cyclonedx.json jmockit-2.1.0.pom jmockit-2.1.0.jar jmockit-2.1.0-tests.jar jmockit-2.1.0-sources.jar jmockit-2.1.0-test-sources.jar jmockit-2.1.0-cyclonedx.xml jmockit-2.1.0-cyclonedx.json coverage-tests-2.1.0.pom coverage-tests-2.1.0.jar coverage-tests-2.1.0-tests.jar coverage-tests-2.1.0-sources.jar coverage-tests-2.1.0-test-sources.jar coverage-tests-2.1.0-cyclonedx.xml coverage-tests-2.1.0-cyclonedx.json samples-2.1.0.pom samples-2.1.0-cyclonedx.xml samples-2.1.0-cyclonedx.json tutorial-2.1.0.pom tutorial-2.1.0.jar tutorial-2.1.0-tests.jar tutorial-2.1.0-sources.jar tutorial-2.1.0-test-sources.jar tutorial-2.1.0-cyclonedx.xml tutorial-2.1.0-cyclonedx.json LoginService-2.1.0.pom LoginService-2.1.0.jar LoginService-2.1.0-tests.jar LoginService-2.1.0-sources.jar LoginService-2.1.0-test-sources.jar LoginService-2.1.0-cyclonedx.xml LoginService-2.1.0-cyclonedx.json java8testing-2.1.0.pom java8testing-2.1.0.jar java8testing-2.1.0-tests.jar java8testing-2.1.0-sources.jar java8testing-2.1.0-test-sources.jar java8testing-2.1.0-cyclonedx.xml java8testing-2.1.0-cyclonedx.json petclinic-2.1.0.pom petclinic-2.1.0.war petclinic-2.1.0-tests.jar petclinic-2.1.0-sources.jar petclinic-2.1.0-test-sources.jar petclinic-2.1.0-cyclonedx.xml petclinic-2.1.0-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
