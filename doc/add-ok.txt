@@ -1,4 +1,10 @@
 content/com/flowlogix/flowlogix-10.0.8.buildspec:11
-content/com/fasterxml/uuid/java-uuid-generator-5.1.1.buildspec:5.2.0
+content/com/github/hazendaz/displaytag-doc/displaytag-doc-3.4.0.buildspec:3.5.0
+content/com/github/hazendaz/jmockit/jmockit-2.0.1.buildspec:2.1.0
+content/com/github/hazendaz/sitemesh/sitemesh-2.6.1.buildspec:2.6.2
+content/com/github/hazendaz/smartsprites/smartsprites-0.4.0.buildspec:0.4.1
+content/com/github/hazendaz/maven/htmlcompressor-maven-plugin/htmlcompressor-maven-plugin-2.3.0.buildspec:2.4.0
+content/com/github/hazendaz/maven/makeself-maven-plugin/makeself-maven-plugin-1.10.0.buildspec:1.10.1
+content/com/hibegin/zrlog-base/zrlog-base-3.2.123.buildspec:3.2.124
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.10.1-beta-3.buildspec:5.10.1-beta-4
 content/io/github/rockcrafters/plugins/rockcraft-parent-1.2.1.buildspec:1.2.2
-content/io/opentelemetry/java/opentelemetry-sdk-1.56.0.buildspec:1.57.0

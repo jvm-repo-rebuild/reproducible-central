@@ -13,6 +13,7 @@ rebuilding **15 releases** of com.github.hazendaz.maven:makeself-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.10.1](https://central.sonatype.com/artifact/com.github.hazendaz.maven/makeself-maven-plugin/1.10.1/pom) | | | |
 | [1.10.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/makeself-maven-plugin/1.10.0/pom) | [mvn jdk25 w](makeself-maven-plugin-1.10.0.buildspec) | [result](makeself-maven-plugin-1.10.0.buildinfo): [7 :white_check_mark: ](makeself-maven-plugin-1.10.0.buildcompare) | | 348K |
 | [1.9.2](https://central.sonatype.com/artifact/com.github.hazendaz.maven/makeself-maven-plugin/1.9.2/pom) | [mvn jdk21 w](makeself-maven-plugin-1.9.2.buildspec) | [result](makeself-maven-plugin-1.9.2.buildinfo): [7 :white_check_mark: ](makeself-maven-plugin-1.9.2.buildcompare) | | 348K |
 | [1.9.1](https://central.sonatype.com/artifact/com.github.hazendaz.maven/makeself-maven-plugin/1.9.1/pom) | [mvn jdk21 w](makeself-maven-plugin-1.9.1.buildspec) | [result](makeself-maven-plugin-1.9.1.buildinfo): [7 :white_check_mark: ](makeself-maven-plugin-1.9.1.buildcompare) | | 343K |
