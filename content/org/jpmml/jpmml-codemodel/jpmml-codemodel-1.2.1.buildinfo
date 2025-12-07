@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JPMML-CodeModel
+group-id=org.jpmml
+artifact-id=jpmml-codemodel
+version=1.2.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:jpmml/jpmml-codemodel.git
+source.scm.tag=1.2.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.29
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+
+# output
+
+outputs.0.groupId=org.jpmml
+outputs.0.filename=jpmml-codemodel-1.2.1.pom
+outputs.0.length=2525
+outputs.0.checksums.sha512=938c2b41bdb98b2e6f87be90e5987ad5d26af03aa12b50d5935727b221eb455103667bbf94f3097dd05c221f1d12d22c04416f891dd2951b5d32fc79e7145640
+
+outputs.1.groupId=org.jpmml
+outputs.1.filename=jpmml-codemodel-1.2.1.jar
+outputs.1.length=28606
+outputs.1.checksums.sha512=3abbb48a0fd3d6939d6eaaf59d94175a97f62c8b0f92d90d0505e9185332d738e53754100a06b5fd0c16a46c0ac9472038835237ff7dad5287fd03996cd7a4b5
