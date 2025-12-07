@@ -316,8 +316,8 @@ Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/
 * [org.glassfish.main:test-utils](https://central.sonatype.com/artifact/org.glassfish.main/test-utils/overview)
 </details>
 
-rebuilding **31 releases** of org.glassfish.main:glassfish-parent:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **32 releases** of org.glassfish.main:glassfish-parent:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 26 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
@@ -342,7 +342,7 @@ rebuilding **31 releases** of org.glassfish.main:glassfish-parent:
 | [8.0.0-M3](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M3/pom) | | | |
 | [8.0.0-M2](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M2/pom) | | | |
 | [8.0.0-M1](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/8.0.0-M1/pom) | [mvn jdk17.0.9](glassfish-8.0.0-M1.buildspec) | [result](glassfish-main-aggregator-8.0.0-M1.buildinfo): [667 :white_check_mark:  69 :warning:](glassfish-main-aggregator-8.0.0-M1.buildcompare) [:mag:](glassfish-main-aggregator-8.0.0-M1.diffoscope) | - | 453M |
-| [7.1.0](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.1.0/pom) | | | |
+| [7.1.0](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.1.0/pom) | [mvn jdk21](glassfish-7.1.0.buildspec) | [result](glassfish-main-aggregator-7.1.0.buildinfo): [1328 :white_check_mark: ](glassfish-main-aggregator-7.1.0.buildcompare) | | 310M |
 | [7.1.0-M1](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.1.0-M1/pom) | [mvn jdk21](glassfish-7.1.0-M1.buildspec) | [result](glassfish-main-aggregator-7.1.0-M1.buildinfo): [1328 :white_check_mark: ](glassfish-main-aggregator-7.1.0-M1.buildcompare) | | 307M |
 | [7.0.25](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.25/pom) | [mvn jdk17](glassfish-7.0.25.buildspec) | [result](glassfish-main-aggregator-7.0.25.buildinfo): [1304 :white_check_mark: ](glassfish-main-aggregator-7.0.25.buildcompare) | | 309M |
 | [7.0.24](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.24/pom) | [mvn jdk17](glassfish-7.0.24.buildspec) | [result](glassfish-main-aggregator-7.0.24.buildinfo): [1304 :white_check_mark: ](glassfish-main-aggregator-7.0.24.buildcompare) | | 309M |
