@@ -1,0 +1,18 @@
+groupId=com.elharo.docfix
+artifactId=docfix-parent
+display=${groupId}:docfix
+version=1.0.4
+
+gitRepo=https://github.com/elharo/docfix.git
+gitTag=v${version}
+
+tool=mvn-3.9.11
+jdk=17
+newline=lf
+#umask=022
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.detect.skip=false"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
