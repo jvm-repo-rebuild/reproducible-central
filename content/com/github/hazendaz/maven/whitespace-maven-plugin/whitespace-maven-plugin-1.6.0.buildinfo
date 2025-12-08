@@ -1,0 +1,59 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=whitespace-maven-plugin
+group-id=com.github.hazendaz.maven
+artifact-id=whitespace-maven-plugin
+version=1.6.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:hazendaz/whitespace-maven-plugin.git
+source.scm.tag=whitespace-maven-plugin-1.6.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.8.6
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.github.hazendaz.maven
+outputs.0.filename=whitespace-maven-plugin-1.6.0.pom
+outputs.0.length=9463
+outputs.0.checksums.sha512=fdbc563f81c8c64493b042cf486502e4b07ab94ceacb299f0d360d08833b592cf0a0f226d8adc234b8cf6b6552ef2a34ccf3cb4482f20153055a0a56cb5b157e
+
+outputs.1.groupId=com.github.hazendaz.maven
+outputs.1.filename=whitespace-maven-plugin-1.6.0.jar
+outputs.1.length=20366
+outputs.1.checksums.sha512=4a962912abe670106375fda94b90de63083af39a224cd88888266a41e89e5e95f739c8818edd5661d82c49415398d8376c1cf8db2e7318ddea67504d82071ef7
+# ignored whitespace-maven-plugin-1.6.0-tests.jar
+
+outputs.2.groupId=com.github.hazendaz.maven
+outputs.2.filename=whitespace-maven-plugin-1.6.0-sources.jar
+outputs.2.length=14135
+outputs.2.checksums.sha512=4f65ddc50e8d06088fffa177871cdf3d5f6dc1d60b1605b42f66fadce27f38826f99d89eab10791e190b4a23634eef8544abb111e0d5bd71c35e02be31cfc0eb
+
+outputs.3.groupId=com.github.hazendaz.maven
+outputs.3.filename=whitespace-maven-plugin-1.6.0-test-sources.jar
+outputs.3.length=7929
+outputs.3.checksums.sha512=7fe406ed9704efb0ef7c5f89ae9c2edb528a4f137e08f6bd8bb66f068f89bdaced9ae1e0a1977803deb06ec256037249876940d809929a5092d095abc7d89c3d
+
+outputs.4.groupId=com.github.hazendaz.maven
+outputs.4.filename=whitespace-maven-plugin-1.6.0-cyclonedx.xml
+outputs.4.length=46585
+outputs.4.checksums.sha512=d9e29962fd9d016b87c060511c5d418580e40abbc58aee8bfb3f789367f1ea0802f9423403d080a2bf47c45c69530c1a6b12b561e737267e1fb33e0b6100ec9a
+
+outputs.5.groupId=com.github.hazendaz.maven
+outputs.5.filename=whitespace-maven-plugin-1.6.0-cyclonedx.json
+outputs.5.length=52077
+outputs.5.checksums.sha512=0ff97b54b5ce09b7b62a1f5efd2b318261c9d1e1b37c4f4b2258edaa9698e937a257b8f5d69ef608f1a7a5aea676940601276d2884b4c162d0e88b25806b1928
