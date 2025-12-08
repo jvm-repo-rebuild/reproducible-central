@@ -1,0 +1,69 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=DocFix Parent
+group-id=com.elharo.docfix
+artifact-id=docfix-parent
+version=1.0.5
+
+# source information
+source.scm.uri=scm:git:git://github.com/elharo/docfix.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.23
+java.vendor=Azul Systems, Inc.
+os.name=Mac OS X
+os.version=26.1
+os.arch=aarch64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=docfix-maven-plugin
+
+# aggregated output
+
+outputs.0.coordinates=com.elharo.docfix:docfix-parent
+
+outputs.0.0.groupId=com.elharo.docfix
+outputs.0.0.filename=docfix-parent-1.0.5.pom
+outputs.0.0.length=5284
+outputs.0.0.checksums.sha512=dc1bb058682ad005afb23a2b47077a9b7a76c8eb87b844b0a6bb1efdd6a0a2682210601984da22c70110a30ab2b04e54c005d37f900dc23ee6ac76a5223b0b23
+
+outputs.1.coordinates=com.elharo.docfix:docfix
+
+outputs.1.0.groupId=com.elharo.docfix
+outputs.1.0.filename=docfix-1.0.5.pom
+outputs.1.0.length=2274
+outputs.1.0.checksums.sha512=a22613cbd2b86f9aa2001fca6c080e7cd27dd0c2a6c892c0b0e57869e7a6429fa26785fe7d1f55481e2ab422196d352a897ba4e9de2578fa24227238d3a165e2
+
+outputs.1.1.groupId=com.elharo.docfix
+outputs.1.1.filename=docfix-1.0.5.jar
+outputs.1.1.length=20484
+outputs.1.1.checksums.sha512=f75acb1b14b999b4d95fa1b127118e9eaae24cea4ff22613bcbda354491c2241d5bfec630f257a48f7750d4da5cd43f66b5e85c81112ecac3bad553c7b38f1f4
+
+outputs.1.2.groupId=com.elharo.docfix
+outputs.1.2.filename=docfix-1.0.5-sources.jar
+outputs.1.2.length=14657
+outputs.1.2.checksums.sha512=27d8c4b74e3ac0f2489bdad4da6765e1c0f4fb1d8d78098cef37a60f5356f597fa5f40aef7b2dc58ee4e7df9d397b339d9c023ae5fa1b664120386408cd8d25a
+
+outputs.2.coordinates=com.elharo.docfix:docfix-maven-plugin
+
+outputs.2.0.groupId=com.elharo.docfix
+outputs.2.0.filename=docfix-maven-plugin-1.0.5.pom
+outputs.2.0.length=2910
+outputs.2.0.checksums.sha512=cf446b7e74b8a4b490be33a78ab6400b776e50306c971cd0ddec16a0dd0e7b625b9c27c08f5b0ed790a7586fee6eaa3ff040a75e15a8f88d292f0e79851edc90
+
+outputs.2.1.groupId=com.elharo.docfix
+outputs.2.1.filename=docfix-maven-plugin-1.0.5.jar
+outputs.2.1.length=5917
+outputs.2.1.checksums.sha512=977d81b00337cc3db1af341220486c4eda192134092d402b19bfb5fe77d24b19486bff5d162f4f72b4c5f7c79bead6befab2aaa9a703b5ca8fbde9a2a2cfd132
+
+outputs.2.2.groupId=com.elharo.docfix
+outputs.2.2.filename=docfix-maven-plugin-1.0.5-sources.jar
+outputs.2.2.length=3224
+outputs.2.2.checksums.sha512=fbfeeb6b6abcbc33b7fa92dcd21080536744cc95681fd031c69ffcf4940c66428916a52499608df78356dfdacef559e513e9696f1521934123e45bd66470b75a
