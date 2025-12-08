@@ -1,0 +1,9 @@
+version=1.2.2
+ok=7
+ko=0
+ignored=0
+okFiles="rockcraft-parent-1.2.2.pom rockcraft-common-1.2.2.pom rockcraft-common-1.2.2.jar rockcraft-common-1.2.2-sources.jar rockcraft-maven-plugin-1.2.2.pom rockcraft-maven-plugin-1.2.2.jar rockcraft-maven-plugin-1.2.2-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
