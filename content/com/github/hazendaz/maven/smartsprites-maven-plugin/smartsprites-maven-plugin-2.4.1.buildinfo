@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=smartsprites-maven-plugin
+group-id=com.github.hazendaz.maven
+artifact-id=smartsprites-maven-plugin
+version=2.4.1
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/smartsprites-maven-plugin.git
+source.scm.tag=smartsprites-maven-plugin-2.4.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.8.6
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.github.hazendaz.maven
+outputs.0.filename=smartsprites-maven-plugin-2.4.1.pom
+outputs.0.length=5475
+outputs.0.checksums.sha512=0df802ef9146def84eab9ead9a9c5a13853ea899606a80f9a4e65b82e39cbc220f9b606bda4e945fa62e4b517c3323fd862996a4ea6d8ac1397d582353d05af2
+
+outputs.1.groupId=com.github.hazendaz.maven
+outputs.1.filename=smartsprites-maven-plugin-2.4.1.jar
+outputs.1.length=20839
+outputs.1.checksums.sha512=3e55aa9f6cf1e621d6a531f7b69a0f3a2621775dc1e9d62571d034135be9a7223075cd97c2983aef506477f464689619274bcd73decde1ec9eaa94cde61abe66
+
+outputs.2.groupId=com.github.hazendaz.maven
+outputs.2.filename=smartsprites-maven-plugin-2.4.1-sources.jar
+outputs.2.length=12368
+outputs.2.checksums.sha512=a18fa0a589f51f71b2a1514d34da79cbe8a70c104b3f6b39e4d54e228248e1fbce57b91b4f08e684c3406f087c4746661785aabf4b53eb4ab03e0b2f2f086a33
+
+outputs.3.groupId=com.github.hazendaz.maven
+outputs.3.filename=smartsprites-maven-plugin-2.4.1-cyclonedx.xml
+outputs.3.length=64808
+outputs.3.checksums.sha512=537c87d471ce704e079218a9d173be8b8494d193edf0728f1ce3f4f4f6fdcce55743ff71b835b942994aa2eb15a6848c6c898caaf3a0ab2c09ed6e8b106046c2
+
+outputs.4.groupId=com.github.hazendaz.maven
+outputs.4.filename=smartsprites-maven-plugin-2.4.1-cyclonedx.json
+outputs.4.length=72322
+outputs.4.checksums.sha512=ea601d3827c6703b7557009312f5063a407617a68d9bd67f855b27d836d2a6684a48ad6a70fd6e458941106c410b864ec2d5a824d397d2d1c71b70140e8affa7
