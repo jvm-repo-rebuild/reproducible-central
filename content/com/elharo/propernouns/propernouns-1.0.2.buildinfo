@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=propernouns
+group-id=com.elharo
+artifact-id=propernouns
+version=1.0.2
+
+# source information
+source.scm.uri=scm:git:git://github.com/elharo/propernouns.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_472
+java.vendor=Private Build
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=com.elharo
+outputs.0.filename=propernouns-1.0.2.pom
+outputs.0.length=6444
+outputs.0.checksums.sha512=509791471777e164eff5570a28c7c1de75f321a2014dc3cefc8af7c4f82f23c93ddb0522412c02d397e7b421af8993a5e88be9d5703821c9e1a5d7032967b6f6
+
+outputs.1.groupId=com.elharo
+outputs.1.filename=propernouns-1.0.2.jar
+outputs.1.length=11469
+outputs.1.checksums.sha512=90e66ee5bd62ca1aafdf66c81517fff9dc4a835c13a3fe8b7d71c3c47c6cf4e3f7820d8f93a9b38263fa245fcaece08d8a918de80440e95327e829c49448d097
+
+outputs.2.groupId=com.elharo
+outputs.2.filename=propernouns-1.0.2-sources.jar
+outputs.2.length=10987
+outputs.2.checksums.sha512=e046023ec48454598ff7634988fc67e8cb926304a891f55cebd9b5a98864bcd4123f7a6c87ea5b329b64a51dae244960d229b0e45cce32481beec2b992530d97

@@ -1,0 +1,19 @@
+groupId=com.elharo
+artifactId=propernouns
+display=${groupId}:${artifactId}
+version=1.0.2
+
+gitRepo=https://github.com/elharo/${artifactId}.git
+gitTag=v${version}
+
+tool=mvn-3.9.11
+jdk=8
+newline=lf
+#umask=022
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.detect.skip=false"
+buildinfo=target/${artifactId}-${version}.buildinfo
+execBefore="sed -i 's/2T16:45:07Z/6T09:46:33-04:00/' pom.xml"
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
