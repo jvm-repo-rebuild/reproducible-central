@@ -3,8 +3,8 @@
   <groupId>io.telicent.smart-caches.graph</groupId>
   <artifactId>scg-base</artifactId>
   <versioning>
-    <latest>0.92.3</latest>
-    <release>0.92.3</release>
+    <latest>0.92.4</latest>
+    <release>0.92.4</release>
     <versions>
       <version>0.80.0</version>
       <version>0.80.1</version>
@@ -64,7 +64,8 @@
       <version>0.92.1</version>
       <version>0.92.2</version>
       <version>0.92.3</version>
+      <version>0.92.4</version>
     </versions>
-    <lastUpdated>20251204105522</lastUpdated>
+    <lastUpdated>20251208144320</lastUpdated>
   </versioning>
 </metadata>

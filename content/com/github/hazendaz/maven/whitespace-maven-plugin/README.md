@@ -13,6 +13,7 @@ rebuilding **6 releases** of com.github.hazendaz.maven:whitespace-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.6.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/whitespace-maven-plugin/1.6.0/pom) | | | |
 | [1.5.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/whitespace-maven-plugin/1.5.0/pom) | [mvn jdk21 w](whitespace-maven-plugin-1.5.0.buildspec) | [result](whitespace-maven-plugin-1.5.0.buildinfo): [6 :white_check_mark: ](whitespace-maven-plugin-1.5.0.buildcompare) | | 158K |
 | [1.4.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/whitespace-maven-plugin/1.4.0/pom) | [mvn jdk22 w](whitespace-maven-plugin-1.4.0.buildspec) | [result](whitespace-maven-plugin-1.4.0.buildinfo): [6 :white_check_mark: ](whitespace-maven-plugin-1.4.0.buildcompare) | | 153K |
 | [1.3.2](https://central.sonatype.com/artifact/com.github.hazendaz.maven/whitespace-maven-plugin/1.3.2/pom) | [mvn jdk21 w](whitespace-maven-plugin-1.3.2.buildspec) | [result](whitespace-maven-plugin-1.3.2.buildinfo): [6 :white_check_mark: ](whitespace-maven-plugin-1.3.2.buildcompare) | | 160K |
