@@ -1,0 +1,8 @@
+version=2.0
+ok=7
+ko=0
+ignored=0
+okFiles="avaje-prisms-parent-2.0.pom avaje-prism-core-2.0.pom avaje-prism-core-2.0.jar avaje-prism-core-2.0-sources.jar avaje-prisms-2.0.pom avaje-prisms-2.0.jar avaje-prisms-2.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
