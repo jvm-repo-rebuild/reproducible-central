@@ -1,0 +1,102 @@
+1 / 2 target/reference/org.apache.commons/commons-text-1.15.0-cyclonedx.xml target/commons-text-1.15.0-bom.xml
+--- target/reference/org.apache.commons/commons-text-1.15.0-cyclonedx.xml
++++ target/commons-text-1.15.0-bom.xml
+│   --- target/reference/org.apache.commons/commons-text-1.15.0-cyclonedx.xml
+├── +++ target/commons-text-1.15.0-bom.xml
+│ @@ -81,22 +81,22 @@
+│    The code is tested using the latest revision of the JDK for supported
+│    LTS releases: 8, 11, 17, 21 and 25 currently.
+│    See https://github.com/apache/commons-lang/blob/master/.github/workflows/maven.yml
+│    
+│    Please ensure your build environment is up-to-date and kindly report any build issues.</description>
+│        <scope>required</scope>
+│        <hashes>
+│ -        <hash alg="MD5">0ecbbdd5f6bc8e72c67576346a1aeb45</hash>
+│ -        <hash alg="SHA-1">f00e2d56515d0eb1f5114dbfcaa20e0e064dffa2</hash>
+│ -        <hash alg="SHA-256">a1c1f4c5d9253fd14456124b7d6f4e12e9d7345869a4fc353d9dea978c62d763</hash>
+│ -        <hash alg="SHA-512">981540a896fae3f5ad142813f716f89367f1432b364093c1058f059f62eb487018dd5370728f550cd1dfb0fbe7323babb988564047f42b882b94f1a96b2d362c</hash>
+│ -        <hash alg="SHA-384">f33454e622a5badd13ed31b151fee13ebc9045726251ffa312538e61ecc7c78cdc44ffb2cb5750683876fab56ac95795</hash>
+│ -        <hash alg="SHA3-384">2c207360412c3986943d88a0ace46914c715d0e8004a54f7907e159bb922d159e59aa74e4f9b6d06619c20020d80744c</hash>
+│ -        <hash alg="SHA3-256">c661e518d578715e9c39617e1c2e4f1fe946480e239937253e9746dd742dc0a3</hash>
+│ -        <hash alg="SHA3-512">4efd2a534b14d6d9db4d08eabb9a062912eec07ae3c96cfe1ac668941aba590d2d571e667d7ac0806a9273f48d152497f2ce72d665648f3465ff446a4992102c</hash>
+│ +        <hash alg="MD5">4b29562ded527aa074e1d44f8646dac5</hash>
+│ +        <hash alg="SHA-1">65897b3e5731220962e659e001904af3c3cbeba9</hash>
+│ +        <hash alg="SHA-256">69e5c9fa35da7a51a5fd2099dfe56a2d8d32cf233e2f6d770e796146440263f4</hash>
+│ +        <hash alg="SHA-512">1c72db334ea44f932c35e602b78907865f5bab43e30c871c9be67c8184eaa778f32d7bc3ab525d5921cd28619d3f9babfd483f17de54f007ee07db2e074b0307</hash>
+│ +        <hash alg="SHA-384">77dd27c4d5e9372c002bd6878d2cfaaec3cf46dd57d65de63d7f2e09351344531cfa81a537b56628ac6db18adee7e484</hash>
+│ +        <hash alg="SHA3-384">3456de40eef224b3ad195d2f218dd28eacb0da07607aee7ead94bd8d54bd8311d51c28d4066db4bf8b69a2df48c415f5</hash>
+│ +        <hash alg="SHA3-256">36e3f71352fa14bc580db45a05b09b063392c6d39acf9e24ffa6a67bbc07a336</hash>
+│ +        <hash alg="SHA3-512">6ecbc05bb5cd3f7537078b0cf51b0a5f7189dfa60c22e5ec0d6b9e2fd3f7fa7566770b5da87e0c9929f48769933c3e3a473fd5cc7231672fca36ab1fee1f8670</hash>
+│        </hashes>
+│        <licenses>
+│          <license>
+│            <id>Apache-2.0</id>
+│            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+│          </license>
+│        </licenses>
+
+2 / 2 target/reference/org.apache.commons/commons-text-1.15.0-cyclonedx.json target/commons-text-1.15.0-bom.json
+--- target/reference/org.apache.commons/commons-text-1.15.0-cyclonedx.json
++++ target/commons-text-1.15.0-bom.json
+├── Pretty-printed
+│┄ Similarity: 0.9992559523809524%
+│┄ Differences: {"'components'": "{0: {'hashes': {0: {'content': '4b29562ded527aa074e1d44f8646dac5'}, 1: "
+│┄                  "{'content': '65897b3e5731220962e659e001904af3c3cbeba9'}, 2: {'content': "
+│┄                  "'69e5c9fa35da7a51a5fd2099dfe56a2d8d32cf233e2f6d770e796146440263f4'}, 3: "
+│┄                  "{'content': "
+│┄                  "'1c72db334ea44f932c35e602b78907865f5bab43e30c871c9be67c8184eaa778f32d7bc3ab525d5921cd28619d3f9babfd483f17de54f007ee07db2e074b0307'}, "
+│┄                  "4: {'content': "
+│┄                   […]
+│ @@ -30,43 +30,43 @@
+│                      "url": "https://gitbox.apache.org/repos/asf/commons-lang.git"
+│                  }
+│              ],
+│              "group": "org.apache.commons",
+│              "hashes": [
+│                  {
+│                      "alg": "MD5",
+│ -                    "content": "0ecbbdd5f6bc8e72c67576346a1aeb45"
+│ +                    "content": "4b29562ded527aa074e1d44f8646dac5"
+│                  },
+│                  {
+│                      "alg": "SHA-1",
+│ -                    "content": "f00e2d56515d0eb1f5114dbfcaa20e0e064dffa2"
+│ +                    "content": "65897b3e5731220962e659e001904af3c3cbeba9"
+│                  },
+│                  {
+│                      "alg": "SHA-256",
+│ -                    "content": "a1c1f4c5d9253fd14456124b7d6f4e12e9d7345869a4fc353d9dea978c62d763"
+│ +                    "content": "69e5c9fa35da7a51a5fd2099dfe56a2d8d32cf233e2f6d770e796146440263f4"
+│                  },
+│                  {
+│                      "alg": "SHA-512",
+│ -                    "content": "981540a896fae3f5ad142813f716f89367f1432b364093c1058f059f62eb487018dd5370728f550cd1dfb0fbe7323babb988564047f42b882b94f1a96b2d362c"
+│ +                    "content": "1c72db334ea44f932c35e602b78907865f5bab43e30c871c9be67c8184eaa778f32d7bc3ab525d5921cd28619d3f9babfd483f17de54f007ee07db2e074b0307"
+│                  },
+│                  {
+│                      "alg": "SHA-384",
+│ -                    "content": "f33454e622a5badd13ed31b151fee13ebc9045726251ffa312538e61ecc7c78cdc44ffb2cb5750683876fab56ac95795"
+│ +                    "content": "77dd27c4d5e9372c002bd6878d2cfaaec3cf46dd57d65de63d7f2e09351344531cfa81a537b56628ac6db18adee7e484"
+│                  },
+│                  {
+│                      "alg": "SHA3-384",
+│ -                    "content": "2c207360412c3986943d88a0ace46914c715d0e8004a54f7907e159bb922d159e59aa74e4f9b6d06619c20020d80744c"
+│ +                    "content": "3456de40eef224b3ad195d2f218dd28eacb0da07607aee7ead94bd8d54bd8311d51c28d4066db4bf8b69a2df48c415f5"
+│                  },
+│                  {
+│                      "alg": "SHA3-256",
+│ -                    "content": "c661e518d578715e9c39617e1c2e4f1fe946480e239937253e9746dd742dc0a3"
+│ +                    "content": "36e3f71352fa14bc580db45a05b09b063392c6d39acf9e24ffa6a67bbc07a336"
+│                  },
+│                  {
+│                      "alg": "SHA3-512",
+│ -                    "content": "4efd2a534b14d6d9db4d08eabb9a062912eec07ae3c96cfe1ac668941aba590d2d571e667d7ac0806a9273f48d152497f2ce72d665648f3465ff446a4992102c"
+│ +                    "content": "6ecbc05bb5cd3f7537078b0cf51b0a5f7189dfa60c22e5ec0d6b9e2fd3f7fa7566770b5da87e0c9929f48769933c3e3a473fd5cc7231672fca36ab1fee1f8670"
+│                  }
+│              ],
+│              "licenses": [
+│                  {
+│                      "license": {
+│                          "id": "Apache-2.0",
+│                          "url": "https://www.apache.org/licenses/LICENSE-2.0"
+
