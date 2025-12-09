@@ -1,0 +1,17 @@
+version=1.15.0
+ok=5
+ko=2
+ignored=1
+okFiles="commons-text-1.15.0.pom commons-text-1.15.0.jar commons-text-1.15.0-tests.jar commons-text-1.15.0-sources.jar commons-text-1.15.0-test-sources.jar"
+koFiles="commons-text-1.15.0-cyclonedx.xml commons-text-1.15.0-cyclonedx.json"
+ignoredFiles="commons-text-1.15.0.spdx.json"
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.commons/commons-text-1.15.0-cyclonedx.xml target/commons-text-1.15.0-bom.xml
+# diffoscope target/reference/org.apache.commons/commons-text-1.15.0-cyclonedx.json target/commons-text-1.15.0-bom.json
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=2
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="commons-text-1.15.0-cyclonedx.xml commons-text-1.15.0-cyclonedx.json"
