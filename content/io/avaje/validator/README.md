@@ -18,13 +18,13 @@ Source code: [https://github.com/avaje/avaje-validator.git](https://github.com/a
 * [io.avaje:avaje-validator-spring-starter](https://central.sonatype.com/artifact/io.avaje/avaje-validator-spring-starter/overview)
 </details>
 
-rebuilding **17 releases** of io.avaje:avaje-validator-parent:
-- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **18 releases** of io.avaje:avaje-validator-parent:
+- **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.15](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.15/pom) | | | |
+| [2.15](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.15/pom) | [mvn jdk21](avaje-validator-2.15.buildspec) | [result](avaje-validator-parent-2.15.buildinfo): [19 :white_check_mark: ](avaje-validator-parent-2.15.buildcompare) | | 643K |
 | [2.15-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.15-RC3/pom) | [mvn jdk25 w](avaje-validator-2.15-RC3.buildspec) | [result](avaje-validator-parent-2.15-RC3.buildinfo): [19 :white_check_mark: ](avaje-validator-parent-2.15-RC3.buildcompare) | | 645K |
 | [2.15-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.15-RC2/pom) | [mvn jdk25 w](avaje-validator-2.15-RC2.buildspec) | [result](avaje-validator-parent-2.15-RC2.buildinfo): [19 :white_check_mark: ](avaje-validator-parent-2.15-RC2.buildcompare) | | 652K |
 | [2.15-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.15-RC1/pom) | [mvn jdk25 w](avaje-validator-2.15-RC1.buildspec) | [result](avaje-validator-parent-2.15-RC1.buildinfo): [19 :white_check_mark: ](avaje-validator-parent-2.15-RC1.buildcompare) | | 637K |
