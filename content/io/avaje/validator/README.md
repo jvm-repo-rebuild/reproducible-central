@@ -24,6 +24,7 @@ rebuilding **17 releases** of io.avaje:avaje-validator-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.15](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.15/pom) | | | |
 | [2.15-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.15-RC3/pom) | [mvn jdk25 w](avaje-validator-2.15-RC3.buildspec) | [result](avaje-validator-parent-2.15-RC3.buildinfo): [19 :white_check_mark: ](avaje-validator-parent-2.15-RC3.buildcompare) | | 645K |
 | [2.15-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.15-RC2/pom) | [mvn jdk25 w](avaje-validator-2.15-RC2.buildspec) | [result](avaje-validator-parent-2.15-RC2.buildinfo): [19 :white_check_mark: ](avaje-validator-parent-2.15-RC2.buildcompare) | | 652K |
 | [2.15-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.15-RC1/pom) | [mvn jdk25 w](avaje-validator-2.15-RC1.buildspec) | [result](avaje-validator-parent-2.15-RC1.buildinfo): [19 :white_check_mark: ](avaje-validator-parent-2.15-RC1.buildcompare) | | 637K |
