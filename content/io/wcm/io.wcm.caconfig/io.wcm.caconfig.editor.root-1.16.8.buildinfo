@@ -1,0 +1,64 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Context-Aware Configuration Editor Root
+group-id=io.wcm
+artifact-id=io.wcm.caconfig.editor.root
+version=1.16.8
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/io.wcm.caconfig.editor.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.9
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.8
+mvn.aggregate.artifact-id=io.wcm.caconfig.editor.package
+
+# aggregated output
+
+outputs.0.coordinates=io.wcm:io.wcm.caconfig.editor.parent
+
+outputs.0.0.groupId=io.wcm
+outputs.0.0.filename=io.wcm.caconfig.editor.parent-1.16.8.pom
+outputs.0.0.length=2187
+outputs.0.0.checksums.sha512=a38067d2262b4194ba21c870d2c67764cf53862b6d42f16ca8abdefd5510bd068cc0c7962c389577bab9b3da9acf7996a8f1bf145ad570ca33783392f52e9035
+
+outputs.1.coordinates=io.wcm:io.wcm.caconfig.editor
+
+outputs.1.0.groupId=io.wcm
+outputs.1.0.filename=io.wcm.caconfig.editor-1.16.8.pom
+outputs.1.0.length=9547
+outputs.1.0.checksums.sha512=66fd31ce2952be1e0b99203a6fdfbf90e41673f903375fe81480438971419b6d945eeee51d71c00730fe28596807b764af0beafe84f03b2c903f20f510e9c546
+
+outputs.1.1.groupId=io.wcm
+outputs.1.1.filename=io.wcm.caconfig.editor-1.16.8.jar
+outputs.1.1.length=208233
+outputs.1.1.checksums.sha512=abbb7f96d5c6e88ea94fb00dece4a46d802b8149a51cfd0259b65657fa33f5036e12a7a661adbaf4fe21b3bf8f24db9ef40dfb78725fea80f8f04b2b3dd07693
+
+outputs.1.2.groupId=io.wcm
+outputs.1.2.filename=io.wcm.caconfig.editor-1.16.8-sources.jar
+outputs.1.2.length=190037
+outputs.1.2.checksums.sha512=749ebd70435e6b2c2d1cca0ceb0a9c9ddee6cc20e435ed72b11f1942cdd44a4194ecb934aff2b35e5c30e8289145dfab68216af1472c546408f6ea2ae728a611
+
+outputs.2.coordinates=io.wcm:io.wcm.caconfig.editor.package
+
+outputs.2.0.groupId=io.wcm
+outputs.2.0.filename=io.wcm.caconfig.editor.package-1.16.8.pom
+outputs.2.0.length=3813
+outputs.2.0.checksums.sha512=33caf71700df7339952f59088a1c3f3b38564349ec47ff594e4341d94ec5d1725159b2150ba1c25c51d5b152dad5b8636960e0678b5a75fcb4256ef67bd0acde
+
+outputs.2.1.groupId=io.wcm
+outputs.2.1.filename=io.wcm.caconfig.editor.package-1.16.8.zip
+outputs.2.1.length=202949
+outputs.2.1.checksums.sha512=df6e903ad7ae4c8fb4a42b8afc27dd5ccf1f737c0a21b2d9de9f307b940d2fe14b68788d43b215c53ed16e3c31d6e14a59b369bb5296ca0ac666ddefd800c212
