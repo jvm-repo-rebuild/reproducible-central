@@ -1101,6 +1101,7 @@ rebuilding **137 releases** of io.quarkus:quarkus-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.30.3](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.30.3/pom) | | | |
 | [3.30.2](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.30.2/pom) | [mvn jdk21](quarkus-3.30.2.buildspec) | [result](quarkus-project-3.30.2.buildinfo): [2354 :white_check_mark:  1 :warning:](quarkus-project-3.30.2.buildcompare) | 1 :rotating_light: | 134M |
 | [3.30.1](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.30.1/pom) | [mvn jdk21](quarkus-3.30.1.buildspec) | [result](quarkus-project-3.30.1.buildinfo): [2354 :white_check_mark:  1 :warning:](quarkus-project-3.30.1.buildcompare) | 1 :rotating_light: | 134M |
 | [3.30.0](https://central.sonatype.com/artifact/io.quarkus/quarkus-project/3.30.0/pom) | [mvn jdk21](quarkus-3.30.0.buildspec) | [result](quarkus-project-3.30.0.buildinfo): [2351 :white_check_mark:  1 :warning:](quarkus-project-3.30.0.buildcompare) | 1 :rotating_light: | 134M |

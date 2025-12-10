@@ -22,6 +22,7 @@ rebuilding **6 releases** of com.io7m.dixmont:com.io7m.dixmont:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.1.0](https://central.sonatype.com/artifact/com.io7m.dixmont/com.io7m.dixmont/3.1.0/pom) | | | |
 | [3.0.0](https://central.sonatype.com/artifact/com.io7m.dixmont/com.io7m.dixmont/3.0.0/pom) | [mvn jdk21](com.io7m.dixmont-3.0.0.buildspec) | [result](com.io7m.dixmont-3.0.0.buildinfo): [7 :white_check_mark:  10 :warning:](com.io7m.dixmont-3.0.0.buildcompare) | 7 :recycle: 2 :rotating_light: 1 :no_entry_sign: | 748K |
 | [2.1.0](https://central.sonatype.com/artifact/com.io7m.dixmont/com.io7m.dixmont/2.1.0/pom) | [mvn jdk21](com.io7m.dixmont-2.1.0.buildspec) | [result](com.io7m.dixmont-2.1.0.buildinfo): [7 :white_check_mark:  10 :warning:](com.io7m.dixmont-2.1.0.buildcompare) | 7 :recycle: 2 :rotating_light: 1 :no_entry_sign: | 745K |
 | [2.0.0](https://central.sonatype.com/artifact/com.io7m.dixmont/com.io7m.dixmont/2.0.0/pom) | [mvn jdk21](com.io7m.dixmont-2.0.0.buildspec) | [result](com.io7m.dixmont-2.0.0.buildinfo): [17 :white_check_mark: ](com.io7m.dixmont-2.0.0.buildcompare) | | 700K |

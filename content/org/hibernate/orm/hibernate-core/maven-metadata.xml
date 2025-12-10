@@ -3,8 +3,8 @@
   <groupId>org.hibernate.orm</groupId>
   <artifactId>hibernate-core</artifactId>
   <versioning>
-    <latest>7.2.0.CR3</latest>
-    <release>7.2.0.CR3</release>
+    <latest>7.2.0.CR4</latest>
+    <release>7.2.0.CR4</release>
     <versions>
       <version>6.0.0.Alpha1</version>
       <version>6.0.0.Alpha2</version>
@@ -187,7 +187,8 @@
       <version>7.2.0.CR1</version>
       <version>7.2.0.CR2</version>
       <version>7.2.0.CR3</version>
+      <version>7.2.0.CR4</version>
     </versions>
-    <lastUpdated>20251201082521</lastUpdated>
+    <lastUpdated>20251210191543</lastUpdated>
   </versioning>
 </metadata>
