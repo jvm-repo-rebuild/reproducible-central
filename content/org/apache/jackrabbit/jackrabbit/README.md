@@ -39,6 +39,7 @@ rebuilding **19 releases** of org.apache.jackrabbit:jackrabbit-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.23.3-beta](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.23.3-beta/pom) | | | |
 | [2.23.2-beta](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.23.2-beta/pom) | [mvn jdk11](jackrabbit-2.23.2-beta.buildspec) | [result](jackrabbit-2.23.2-beta.buildinfo): [69 :white_check_mark: ](jackrabbit-2.23.2-beta.buildcompare) | | 101M |
 | [2.23.1-beta](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.23.1-beta/pom) | [mvn jdk11](jackrabbit-2.23.1-beta.buildspec) | [result](jackrabbit-2.23.1-beta.buildinfo): [69 :white_check_mark: ](jackrabbit-2.23.1-beta.buildcompare) | | 101M |
 | [2.23.0-beta](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.23.0-beta/pom) | [mvn jdk11](jackrabbit-2.23.0-beta.buildspec) | [result](jackrabbit-2.23.0-beta.buildinfo): [69 :white_check_mark: ](jackrabbit-2.23.0-beta.buildcompare) | | 101M |
