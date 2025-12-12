@@ -76,3 +76,10 @@ Example for Markdown:
 ```
 
 This uses the [Endpoint Badge from shields.io](https://shields.io/badges/endpoint-badge) for rendering the image.
+
+
+### 5) Display Reproducible Builds Badge for a Dependency
+
+[Reproducible Central Artifact](https://shields.io/badges/reproducible-central-artifact) badge can be used with classical groupId/artifactId/version coordinates from a dependency.
+
+It is used by [artifact:reproducible-central](https://maven.apache.org/plugins/maven-artifact-plugin/reproducible-central-mojo.html) Maven report to display the status of each and every dependencies of a project: see this [example](https://cyclonedx.github.io/cyclonedx-maven-plugin/reproducible-central.html).
