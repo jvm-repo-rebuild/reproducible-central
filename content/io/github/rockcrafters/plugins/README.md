@@ -14,13 +14,13 @@ Source code: [https://github.com/rockcrafters/java-rockcraft-plugins.git](https:
 * [io.github.rockcrafters:rockcraft-parent](https://central.sonatype.com/artifact/io.github.rockcrafters/rockcraft-parent/overview)
 </details>
 
-rebuilding **9 releases** of io.github.rockcrafters:rockcraft-parent:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **10 releases** of io.github.rockcrafters:rockcraft-parent:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.2.4](https://central.sonatype.com/artifact/io.github.rockcrafters/rockcraft-parent/1.2.4/pom) | | | |
+| [1.2.4](https://central.sonatype.com/artifact/io.github.rockcrafters/rockcraft-parent/1.2.4/pom) | [mvn jdk17](rockcraft-parent-1.2.4.buildspec) | [result](rockcraft-parent-1.2.4.buildinfo): [7 :white_check_mark: ](rockcraft-parent-1.2.4.buildcompare) | | 149K |
 | [1.2.3](https://central.sonatype.com/artifact/io.github.rockcrafters/rockcraft-parent/1.2.3/pom) | [mvn jdk17](rockcraft-parent-1.2.3.buildspec) | [result](rockcraft-parent-1.2.3.buildinfo): [7 :white_check_mark: ](rockcraft-parent-1.2.3.buildcompare) | | 149K |
 | [1.2.2](https://central.sonatype.com/artifact/io.github.rockcrafters/rockcraft-parent/1.2.2/pom) | [mvn jdk17](rockcraft-parent-1.2.2.buildspec) | [result](rockcraft-parent-1.2.2.buildinfo): [7 :white_check_mark: ](rockcraft-parent-1.2.2.buildcompare) | | 146K |
 | [1.2.1](https://central.sonatype.com/artifact/io.github.rockcrafters/rockcraft-parent/1.2.1/pom) | [mvn jdk8](rockcraft-parent-1.2.1.buildspec) | [result](rockcraft-parent-1.2.1.buildinfo): [7 :white_check_mark: ](rockcraft-parent-1.2.1.buildcompare) | | 135K |
