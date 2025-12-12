@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/pmd/pmd-designer.git](https://github.com/pmd/pmd-designer.git)
 
-rebuilding **5 releases** of net.sourceforge.pmd:pmd-designer:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **6 releases** of net.sourceforge.pmd:pmd-designer:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [7.19.2](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-designer/7.19.2/pom) | | | |
+| [7.19.2](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-designer/7.19.2/pom) | [mvn jdk17](pmd-designer-7.19.2.buildspec) | [result](pmd-designer-7.19.2.buildinfo): [3 :white_check_mark: ](pmd-designer-7.19.2.buildcompare) | | 4.9M |
 | [7.19.1](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-designer/7.19.1/pom) | [mvn jdk17](pmd-designer-7.19.1.buildspec) | [result](pmd-designer-7.19.1.buildinfo): [3 :white_check_mark: ](pmd-designer-7.19.1.buildcompare) | | 4.9M |
 | [7.19.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-designer/7.19.0/pom) | [mvn jdk17](pmd-designer-7.19.0.buildspec) | [result](pmd-designer-7.19.0.buildinfo): [3 :white_check_mark: ](pmd-designer-7.19.0.buildcompare) | | 4.3M |
 | [7.10.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-designer/7.10.0/pom) | [mvn jdk11](pmd-designer-7.10.0.buildspec) | [result](pmd-designer-7.10.0.buildinfo): [3 :white_check_mark: ](pmd-designer-7.10.0.buildcompare) | | 4.9M |
