@@ -6,7 +6,7 @@ version=0.14.8
 gitRepo=https://github.com/maveniverse/toolbox.git
 gitTag=release-${version}
 
-tool=mvn-3.9.9
+tool=mvn-3.9.11
 jdk=21
 newline=lf
 #umask=022
@@ -14,5 +14,5 @@ newline=lf
 command="mvn -Pmaveniverse-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=
