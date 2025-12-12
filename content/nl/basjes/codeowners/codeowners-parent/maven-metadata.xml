@@ -3,8 +3,8 @@
   <groupId>nl.basjes.codeowners</groupId>
   <artifactId>codeowners-parent</artifactId>
   <versioning>
-    <latest>1.14.0</latest>
-    <release>1.14.0</release>
+    <latest>1.14.1</latest>
+    <release>1.14.1</release>
     <versions>
       <version>0.1.1</version>
       <version>0.2.0</version>
@@ -36,7 +36,8 @@
       <version>1.12.2</version>
       <version>1.13.0</version>
       <version>1.14.0</version>
+      <version>1.14.1</version>
     </versions>
-    <lastUpdated>20251211152511</lastUpdated>
+    <lastUpdated>20251212105916</lastUpdated>
   </versioning>
 </metadata>
