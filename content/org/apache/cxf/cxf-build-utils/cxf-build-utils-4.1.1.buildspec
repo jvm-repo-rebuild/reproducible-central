@@ -9,7 +9,8 @@ gitTag=${artifactId}-${version}
 
 tool=mvn-3.9.9
 jdk=21
-newline=crlf-nogit
+newline=crlf
+newlineGit=lf
 umask=022
 
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"

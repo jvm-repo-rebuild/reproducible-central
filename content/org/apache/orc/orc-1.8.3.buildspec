@@ -9,7 +9,8 @@ gitTag=rel/release-${version}
 
 tool=mvn-3.8.6
 jdk=8
-newline=crlf-nogit
+newline=crlf
+newlineGit=lf
 
 command="mvn -f java/pom.xml -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcyclonedx.skip"
 buildinfo=java/target/${artifactId}-${version}.buildinfo

@@ -8,7 +8,8 @@ gitTag=${version}
 
 tool=mvn-3.9.8
 jdk=17
-newline=crlf-nogit
+newline=crlf
+newlineGit=lf
 
 timestamp="2024-08-26T11:45:18+02:00"
 command="mvn -Pio.wcm clean package -DskipTests -Dmaven.javadoc.skip -Dtimestamp=${timestamp}"

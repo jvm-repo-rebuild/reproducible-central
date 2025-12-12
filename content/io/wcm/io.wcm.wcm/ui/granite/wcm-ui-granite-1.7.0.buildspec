@@ -8,7 +8,8 @@ gitTag=${artifactId}-${version}
 
 tool=mvn
 jdk=11
-newline=crlf-nogit
+newline=crlf
+newlineGit=lf
 
 buildNumber=20c0fa25
 timestamp=2021-01-17T14:32:25+01:00

@@ -8,7 +8,8 @@ gitTag=${version}
 
 tool=mvn-3.9.7
 jdk=17
-newline=crlf-nogit
+newline=crlf
+newlineGit=lf
 # need to execute: find src -name '*.java' -exec chmod a-x {} \;
 # see https://github.com/wcm-io/io.wcm.maven.plugins.nodejs-maven-plugin/pull/25
 

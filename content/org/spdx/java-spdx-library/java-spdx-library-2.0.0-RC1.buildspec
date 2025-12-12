@@ -8,7 +8,8 @@ gitTag=v${version}
 
 tool=mvn
 jdk=23
-newline=crlf-nogit
+newline=crlf
+newlineGit=lf
 
 command="mvn -Prelease clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dspdx.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo

@@ -8,7 +8,8 @@ gitTag=${artifactId}-${version}
 
 tool=mvn
 jdk=11
-newline=crlf-nogit
+newline=crlf
+newlineGit=lf
 
 timestamp="2021-03-25T16:00:38+01:00"
 command="mvn -f media/pom.xml -Pio.wcm clean package -DskipTests -Dmaven.javadoc.skip -Dtimestamp=${timestamp}"

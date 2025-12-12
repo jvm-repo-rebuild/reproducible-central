@@ -9,7 +9,8 @@ gitTag=89535d92b0ed1ae8b91ffa3ea6653b9d6cbb47f7
 
 tool=mvn
 jdk=24
-newline=crlf-nogit
+newline=crlf
+newlineGit=lf
 #umask=022
 
 command="mvn -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
