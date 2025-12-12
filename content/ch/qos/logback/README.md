@@ -17,13 +17,13 @@ Source code: [https://github.com/qos-ch/logback.git](https://github.com/qos-ch/l
 * [ch.qos.logback:logback-site](https://central.sonatype.com/artifact/ch.qos.logback/logback-site/overview)
 </details>
 
-rebuilding **63 releases** of ch.qos.logback:logback-parent:
-- **48** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **64 releases** of ch.qos.logback:logback-parent:
+- **49** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 15 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.5.22](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.5.22/pom) | | | |
+| [1.5.22](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.5.22/pom) | [mvn jdk21 w](logback-1.5.22.buildspec) | [result](logback-parent-1.5.22.buildinfo): [12 :white_check_mark: ](logback-parent-1.5.22.buildcompare) | | 3.1M |
 | [1.5.21](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.5.21/pom) | [mvn jdk21 w](logback-1.5.21.buildspec) | [result](logback-parent-1.5.21.buildinfo): [12 :white_check_mark: ](logback-parent-1.5.21.buildcompare) | | 3.1M |
 | [1.5.20](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.5.20/pom) | [mvn jdk21 w](logback-1.5.20.buildspec) | [result](logback-parent-1.5.20.buildinfo): [12 :white_check_mark: ](logback-parent-1.5.20.buildcompare) | | 3.0M |
 | [1.5.19](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.5.19/pom) | [mvn jdk21 w](logback-1.5.19.buildspec) | [result](logback-parent-1.5.19.buildinfo): [12 :white_check_mark: ](logback-parent-1.5.19.buildcompare) | | 3.0M |
