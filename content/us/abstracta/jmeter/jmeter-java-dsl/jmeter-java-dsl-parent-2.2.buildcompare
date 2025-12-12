@@ -1,0 +1,18 @@
+version=2.2
+ok=51
+ko=3
+ignored=0
+okFiles="jmeter-java-dsl-parent-2.2.pom jmeter-java-dsl-2.2.pom jmeter-java-dsl-2.2.jar jmeter-java-dsl-2.2-tests.jar jmeter-java-dsl-2.2-sources.jar jmeter-java-dsl-base-remote-engine-2.2.pom jmeter-java-dsl-base-remote-engine-2.2.jar jmeter-java-dsl-base-remote-engine-2.2-sources.jar jmeter-java-dsl-blazemeter-2.2.pom jmeter-java-dsl-blazemeter-2.2.jar jmeter-java-dsl-blazemeter-2.2-sources.jar jmeter-java-dsl-elasticsearch-listener-2.2.pom jmeter-java-dsl-elasticsearch-listener-2.2.jar jmeter-java-dsl-elasticsearch-listener-2.2-sources.jar jmeter-java-dsl-dashboard-2.2.pom jmeter-java-dsl-dashboard-2.2.jar jmeter-java-dsl-dashboard-2.2-sources.jar jmeter-java-dsl-parallel-2.2.pom jmeter-java-dsl-parallel-2.2.jar jmeter-java-dsl-parallel-2.2-sources.jar jmeter-java-dsl-jdbc-2.2.pom jmeter-java-dsl-jdbc-2.2.jar jmeter-java-dsl-jdbc-2.2-sources.jar jmeter-java-dsl-wrapper-2.2.pom jmeter-java-dsl-wrapper-2.2.jar jmeter-java-dsl-wrapper-2.2-sources.jar jmeter-java-dsl-graphql-2.2.pom jmeter-java-dsl-graphql-2.2.jar jmeter-java-dsl-graphql-2.2-sources.jar jmeter-java-dsl-datadog-2.2.pom jmeter-java-dsl-datadog-2.2.jar jmeter-java-dsl-datadog-2.2-sources.jar jmeter-java-dsl-recorder-2.2.pom jmeter-java-dsl-recorder-2.2.jar jmeter-java-dsl-recorder-2.2-tests.jar jmeter-java-dsl-recorder-2.2-sources.jar jmeter-java-dsl-websocket-2.2.pom jmeter-java-dsl-websocket-2.2.jar jmeter-java-dsl-websocket-2.2-sources.jar jmeter-java-dsl-cli-2.2.pom jmeter-java-dsl-cli-2.2.jar jmeter-java-dsl-cli-2.2-sources.jar jmeter-java-dsl-octoperf-2.2.pom jmeter-java-dsl-octoperf-2.2.jar jmeter-java-dsl-octoperf-2.2-sources.jar jmeter-java-dsl-azure-2.2.pom jmeter-java-dsl-azure-2.2.jar jmeter-java-dsl-azure-2.2-sources.jar jmeter-java-dsl-bridge-2.2.pom jmeter-java-dsl-bridge-2.2.jar jmeter-java-dsl-bridge-2.2-sources.jar"
+koFiles="jmeter-java-dsl-prometheus-2.2.pom jmeter-java-dsl-prometheus-2.2.jar jmeter-java-dsl-prometheus-2.2-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/us.abstracta.jmeter/jmeter-java-dsl-prometheus-2.2.pom jmeter-java-dsl-prometheus/pom.xml
+# diffoscope target/reference/us.abstracta.jmeter/jmeter-java-dsl-prometheus-2.2.jar jmeter-java-dsl-prometheus/target/jmeter-java-dsl-prometheus-2.2.jar
+# diffoscope target/reference/us.abstracta.jmeter/jmeter-java-dsl-prometheus-2.2-sources.jar jmeter-java-dsl-prometheus/target/jmeter-java-dsl-prometheus-2.2-sources.jar
+stabilize_ok=0
+stabilize_ko=2
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles="jmeter-java-dsl-prometheus-2.2.jar.stabilized jmeter-java-dsl-prometheus-2.2-sources.jar.stabilized"
+stabilize_ignoredFiles="jmeter-java-dsl-prometheus-2.2.pom"
