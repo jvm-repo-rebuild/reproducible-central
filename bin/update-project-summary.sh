@@ -109,7 +109,7 @@ do
     row="| [${version}](https://central.sonatype.com/artifact/${groupId}/${artifactId}/${version}/pom) "
     row+="| [$(echo "${tool}"  | cut -d - -f 1)"
     row+=" jdk${jdk}"
-    [[ "${newline}" == crlf* ]] && row+=" w"
+    [[ "${newline}" == "crlf" ]] && row+=" w"
     [ -n "${os}" ] && row+=" ${os}"
     [ -n "${arch}" ] && row+=" ${arch}"
     row+="](${buildspec}) | "

@@ -87,7 +87,7 @@ mvnBuildDocker() {
     -e MVN_UMASK=${MVN_UMASK}\
     -w ${workdir}"
 
-  if [[ "${newline}" == crlf* ]]
+  if [[ "${newline}" == "crlf" ]]
   then
     if [[ "${crlfDocker}" == "yes" ]]
     then

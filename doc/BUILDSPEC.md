@@ -32,12 +32,14 @@ sourceRmFiles="DEPENDENCIES LICENSE NOTICE"
 
 # 3. rebuild environment prerequisites
 tool=mvn
-# or tool=mvn-3.8.5 if default 3.6.3 version does not match your prerequisites (available version may be limited by images available on Dockerhub)
+# or tool=mvn-3.9.11 if default 3.6.3 version does not match your prerequisites (available version may be limited by images available on Dockerhub)
 # or tool=gradle or tool=sbt
 jdk=8
 newline=crlf
 # crlf for Windows, lf for Unix
 # optional:
+#newlineGit=lf
+# if Git content newline does not follow runtime newline
 #umask=002
 #timezone="Etc/GMT"
 #locale="en_US"

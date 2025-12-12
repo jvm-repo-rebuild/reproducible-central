@@ -51,7 +51,7 @@ rebuildToolMvn() {
         ;;
     esac
 
-    [[ "${newline}" == crlf* ]] && info "newline=${newline}" && mvn_rebuild="$(echo "${mvn_rebuild}" | sed "s_mvn _mvncrlf _")"
+    [[ "${newline}" == "crlf" ]] && info "newline=${newline}" && mvn_rebuild="$(echo "${mvn_rebuild}" | sed "s_mvn _mvncrlf _")"
     runlog "\nsdk use java ${jdk}\nsdk use maven ${mvnVersion}\n${mvn_rebuild//SHELL /}"
     echo
     ${SHELL} -i
