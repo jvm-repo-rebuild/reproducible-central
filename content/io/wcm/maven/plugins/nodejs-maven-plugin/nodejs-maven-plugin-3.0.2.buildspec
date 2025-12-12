@@ -8,7 +8,8 @@ gitTag=${artifactId}-${version}
 
 tool=mvn
 jdk=11
-newline=crlf-nogit
+newline=crlf
+newlineGit=lf
 
 path=maven/plugins/nodejs-maven-plugin
 command="mvn -f ${path}/pom.xml -Pio.wcm clean package -DskipTests -Dmaven.buildNumber.skip"

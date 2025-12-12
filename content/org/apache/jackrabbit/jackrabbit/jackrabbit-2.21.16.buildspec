@@ -12,7 +12,8 @@ sourceRmFiles="DEPENDENCIES LICENSE NOTICE"
 
 tool=mvn
 jdk=8
-newline=crlf-nogit
+newline=crlf
+newlineGit=lf
 
 command="mvn -Papache-release package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/jackrabbit-${version}.buildinfo

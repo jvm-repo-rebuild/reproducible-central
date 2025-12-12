@@ -9,7 +9,8 @@ gitTag=90b9fe9843fe439b4a313e9c5854901fee9d19f2
 
 tool=mvn-3.9.3
 jdk=11
-newline=crlf-nogit
+newline=crlf
+newlineGit=lf
 #umask=022
 
 command="mvn -Dio7m.api.previousVersion=0.0.0 -DskipTests clean package"

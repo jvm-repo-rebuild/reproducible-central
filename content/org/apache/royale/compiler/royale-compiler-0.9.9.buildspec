@@ -8,7 +8,8 @@ gitTag=apache-royale-${version}
 
 tool=mvn
 jdk=8
-newline=crlf-nogit
+newline=crlf
+newlineGit=lf
 
 command="mvn -Papache-release,royale-release clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=royale-maven-plugin/target/royale-maven-plugin-${version}.buildinfo

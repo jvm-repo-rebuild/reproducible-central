@@ -8,7 +8,8 @@ gitTag=${version}
 
 tool=mvn-3.9.4
 jdk=17
-newline=crlf-nogit
+newline=crlf
+newlineGit=lf
 umask=022
 
 timestamp=2024-12-10T09:11:06+01:00
