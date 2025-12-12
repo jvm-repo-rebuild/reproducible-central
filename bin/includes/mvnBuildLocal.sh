@@ -19,7 +19,7 @@ mvnBuildLocal() {
 
   echo "Rebuilding using local JDK and Maven: expected jdk=${jdk}"
   # TODO need to define settings with ${base}/repository local repository to avoid mixing reproducible-central dependencies with day to day builds
-  if [[ "${newline}" == crlf* ]]
+  if [[ "${newline}" == "crlf" ]]
   then
     ${mvnCommand} -Dline.separator=$'\r\n'
   else

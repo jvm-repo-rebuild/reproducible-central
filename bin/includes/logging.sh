@@ -90,3 +90,13 @@ function displayOptional() {
     echo -e "|      ${Blue}$propName${IWhite}: \033[1m${propValue}\033[0m"
   fi
 }
+
+function checkNewline() {
+  local newline=$1
+  case ${newline} in
+    lf|crlf)
+      ;;
+    *)
+      fatal "bad newline value '$newline': must be lf or crlf"
+  esac
+}

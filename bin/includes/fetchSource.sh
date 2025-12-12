@@ -59,7 +59,7 @@ then
 
   runlog "git checkout -q -f ${gitTag}"
   git checkout -q -f ${gitTag} || fatal "failed to git checkout ${gitTag}"
-  if [ "${newline}" == "crlf" ]
+  if [ "${newlineGit}" == "crlf" ]
   then
     echo "converting newlines to crlf"
     xargs="xargs"
