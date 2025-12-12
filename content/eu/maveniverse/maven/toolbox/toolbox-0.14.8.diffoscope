@@ -1,0 +1,8 @@
+1 / 1 target/reference/eu.maveniverse.maven.toolbox/mcp-0.14.8-runner.jar mcp/target/mcp-0.14.8-runner.jar
+--- target/reference/eu.maveniverse.maven.toolbox/mcp-0.14.8-runner.jar
++++ mcp/target/mcp-0.14.8-runner.jar
+├── io/quarkiverse/mcp/server/runtime/McpMetadata_Impl.class
+├── io/quarkus/runtime/generated/SharedConfig.class
+├── io/quarkus/runtime/generated/StaticInitConfigCustomizer.class
+├── io/quarkus/runtime/generated/RunTimeConfigCustomizer.class
+...
