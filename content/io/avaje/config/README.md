@@ -17,7 +17,7 @@ rebuilding **5 releases** of io.avaje:avaje-config:
 | [5.0-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-config/5.0-RC2/pom) | | | |
 | [5.0-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-config/5.0-RC1/pom) | | | |
 | [4.4](https://central.sonatype.com/artifact/io.avaje/avaje-config/4.4/pom) | | | |
-| [4.3](https://central.sonatype.com/artifact/io.avaje/avaje-config/4.3/pom) | [mvn jdk21](avaje-config-4.3.buildspec) | [result](avaje-config-4.3.buildinfo): [2 :white_check_mark:  1 :warning:](avaje-config-4.3.buildcompare) | 1 :no_entry_sign: | 126K |
+| [4.3](https://central.sonatype.com/artifact/io.avaje/avaje-config/4.3/pom) | [mvn jdk21](avaje-config-4.3.buildspec) | [result](avaje-config-4.3.buildinfo): [2 :white_check_mark:  1 :warning:](avaje-config-4.3.buildcompare) [:mag:](avaje-config-4.3.diffoscope) | 1 :no_entry_sign: | 126K |
 | [4.2](https://central.sonatype.com/artifact/io.avaje/avaje-config/4.2/pom) | [mvn jdk25 w](avaje-config-4.2.buildspec) | [result](avaje-config-4.2.buildinfo): [1 :white_check_mark:  2 :warning:](avaje-config-4.2.buildcompare) | 2 :no_entry_sign: | 126K |
 | [4.2-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-config/4.2-RC2/pom) | [mvn jdk21](avaje-config-4.2-RC2.buildspec) | [result](avaje-config-4.2-RC2.buildinfo): [2 :white_check_mark:  1 :warning:](avaje-config-4.2-RC2.buildcompare) | 1 :no_entry_sign: | 125K |
 | [4.2-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-config/4.2-RC1/pom) | [mvn jdk24 w](avaje-config-4.2-RC1.buildspec) | [result](avaje-config-4.2-RC1.buildinfo): [3 :white_check_mark: ](avaje-config-4.2-RC1.buildcompare) | | 125K |
