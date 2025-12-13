@@ -1,0 +1,20 @@
+1 /        1 target/reference/io.avaje/avaje-config-4.3-sources.jar target/avaje-config-4.3-sources.jar
+--- target/reference/io.avaje/avaje-config-4.3-sources.jar
++++ target/avaje-config-4.3-sources.jar
+├── zipinfo {}
+│ @@ -1,14 +1,13 @@
+│ -Zip file size: 43346 bytes, number of entries: 49
+│ +Zip file size: 43228 bytes, number of entries: 48
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-08 20:22 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 25-Jul-08 20:22 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-08 20:22 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-08 20:22 io/avaje/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-08 20:22 io/avaje/config/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-08 20:22 io/avaje/config/load/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-08 20:22 META-INF/native-image/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Jul-08 20:22 META-INF/native-image/io.avaje.config.avaje-config/
+│ @@ -44,8 +43,8 @@
+│  -rw-r--r--  2.0 unx     3193 b- defN 25-Jul-08 20:22 META-INF/maven/io.avaje/avaje-config/pom.xml
+│  -rw-r--r--  2.0 unx       53 b- defN 25-Jul-08 20:22 META-INF/maven/io.avaje/avaje-config/pom.properties
+│ -49 files, 139686 bytes uncompressed, 36338 bytes compressed:  74.0%
+│ +48 files, 139686 bytes uncompressed, 36338 bytes compressed:  74.0%
