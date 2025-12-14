@@ -1,0 +1,76 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Spoon POM
+group-id=fr.inria.gforge.spoon
+artifact-id=spoon-pom
+version=11.2.2-beta-16
+
+# source information
+source.scm.uri=scm:git:https://github.com/INRIA/spoon.git
+source.scm.tag=v11.2.2-beta-16
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.9
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.aggregate.artifact-id=spoon-pom
+
+# aggregated output
+
+outputs.0.coordinates=fr.inria.gforge.spoon:spoon-core
+
+outputs.0.0.groupId=fr.inria.gforge.spoon
+outputs.0.0.filename=spoon-core-11.2.2-beta-16.pom
+outputs.0.0.length=10184
+outputs.0.0.checksums.sha512=281a5742a47f97cfb0634a4e358207f0d33222d4aea48b6c1d8df1fd6ae9def553a94cb38e0aac7b41b5294214787c03ca74def2bd4632c5a2cc0ac9ae93c6e8
+
+outputs.0.1.groupId=fr.inria.gforge.spoon
+outputs.0.1.filename=spoon-core-11.2.2-beta-16.jar
+outputs.0.1.length=1959014
+outputs.0.1.checksums.sha512=0d3f60d202c1834c561ecc2095e1b2ab3891c597a351452c15515c5ed9c8150258539ff9944ad8ed26f7f9955c06b91bff13f583382b9c65658abd6b8b7dc6b1
+
+outputs.0.2.groupId=fr.inria.gforge.spoon
+outputs.0.2.filename=spoon-core-11.2.2-beta-16-jar-with-dependencies.jar
+outputs.0.2.length=15178580
+outputs.0.2.checksums.sha512=1a106d967f65bf9bee8293cec0b91be8673d8687ce7178490a632dd91ec942651747921fea1b8c4364d92558848fc5595ce7ea58635a70c1f45e7402388ff336
+
+outputs.0.3.groupId=fr.inria.gforge.spoon
+outputs.0.3.filename=spoon-core-11.2.2-beta-16-sources.jar
+outputs.0.3.length=1082386
+outputs.0.3.checksums.sha512=fb8e74b3f3f520ca9a0e7985742b388d95fb41cc566edb30cef552e5fa11cfd5d7d228094bd4a0e666a20311946d0500185a787554532cf8794c6b6868570886
+
+outputs.1.coordinates=fr.inria.gforge.spoon:spoon-javadoc
+
+outputs.1.0.groupId=fr.inria.gforge.spoon
+outputs.1.0.filename=spoon-javadoc-11.2.2-beta-16.pom
+outputs.1.0.length=3326
+outputs.1.0.checksums.sha512=3a9c954b6510f46c2713c317b9b2c289bd9f9d38a5b305386d6f6a947b9092b6ee65cf004eb2f8317d53e9b3f0ee1ab0e786d93176b347213967b04b322d7759
+
+outputs.1.1.groupId=fr.inria.gforge.spoon
+outputs.1.1.filename=spoon-javadoc-11.2.2-beta-16.jar
+outputs.1.1.length=60902
+outputs.1.1.checksums.sha512=32f0dd4ad90b6a9d9efb30d3b079ad0159fb0d970cd344b4653362f943b973136c1a9fb95381d21bbabdb80555631e7df427b2f252f14193399e6ec431c65ca4
+
+outputs.1.2.groupId=fr.inria.gforge.spoon
+outputs.1.2.filename=spoon-javadoc-11.2.2-beta-16-sources.jar
+outputs.1.2.length=31012
+outputs.1.2.checksums.sha512=a6fa967b9f3631aaa51795ef96dad59a4750bda1ee68289ffc7bb86d444f61bef33006941bcde5bf4d5d3786873a76f5d90af0f4cba0809a65c7ee220187b6d2
+
+outputs.2.coordinates=fr.inria.gforge.spoon:spoon-pom
+
+outputs.2.0.groupId=fr.inria.gforge.spoon
+outputs.2.0.filename=spoon-pom-11.2.2-beta-16.pom
+outputs.2.0.length=24370
+outputs.2.0.checksums.sha512=05c2f9739a28a481f1fc9c7a0d6b9f52215f81c6668cf21cdf600650065eec40d3633bf869ee716a747688fa43553476f4789e927d4cdaed21cdd6fc2ddf28dc
+# ignored spoon-pom-11.2.2-beta-16-cyclonedx.xml
+# ignored spoon-pom-11.2.2-beta-16-cyclonedx.json
