@@ -3,8 +3,8 @@
   <groupId>org.apache.commons</groupId>
   <artifactId>commons-jexl3</artifactId>
   <versioning>
-    <latest>3.6.0</latest>
-    <release>3.6.0</release>
+    <latest>3.6.1</latest>
+    <release>3.6.1</release>
     <versions>
       <version>3.0</version>
       <version>3.1</version>
@@ -14,7 +14,8 @@
       <version>3.4.0</version>
       <version>3.5.0</version>
       <version>3.6.0</version>
+      <version>3.6.1</version>
     </versions>
-    <lastUpdated>20251114134319</lastUpdated>
+    <lastUpdated>20251214154449</lastUpdated>
   </versioning>
 </metadata>
