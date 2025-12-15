@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis-typehandlers-threeten-extra
+group-id=org.mybatis
+artifact-id=mybatis-typehandlers-threeten-extra
+version=1.1.1
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/typehandlers-threeten-extra.git
+source.scm.tag=mybatis-typehandlers-threeten-extra-1.1.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.mybatis
+outputs.0.filename=mybatis-typehandlers-threeten-extra-1.1.1.pom
+outputs.0.length=4746
+outputs.0.checksums.sha512=3e836e2e7430b5d5117bf6e70af34b0198a6e07f5053565a87f6bff6820bca6a247e116f594ebbfea4ddec3d72861754ab5cdbe97a75b109ac0abfb710fd7728
+
+outputs.1.groupId=org.mybatis
+outputs.1.filename=mybatis-typehandlers-threeten-extra-1.1.1.jar
+outputs.1.length=21766
+outputs.1.checksums.sha512=5a9400d513db7531fe73fc8a792bba400f8982118046ad935668ee4ea807ffa484be4a459b61cb11c404a72d7dae49d87c8e79c26533bea94790fd93a39322ec
+
+outputs.2.groupId=org.mybatis
+outputs.2.filename=mybatis-typehandlers-threeten-extra-1.1.1-sources.jar
+outputs.2.length=19401
+outputs.2.checksums.sha512=f82a1f9e87e74ffb08e3a513ef34e440c4d3cda0e283dc88140c8a366b4751fa147b5b2e4c9a0bc90022073644e7179da74b57e9f6579374487fd19bcfcef899
