@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.mybatis.scripting:mybatis-velocity:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.3.1](https://central.sonatype.com/artifact/org.mybatis.scripting/mybatis-velocity/2.3.1/pom) | | | |
 | [2.3.0](https://central.sonatype.com/artifact/org.mybatis.scripting/mybatis-velocity/2.3.0/pom) | [mvn jdk22 w](mybatis-velocity-2.3.0.buildspec) | [result](mybatis-velocity-2.3.0.buildinfo): [3 :white_check_mark: ](mybatis-velocity-2.3.0.buildcompare) | | 77K |
 | [2.2.0](https://central.sonatype.com/artifact/org.mybatis.scripting/mybatis-velocity/2.2.0/pom) | [mvn jdk22 w](mybatis-velocity-2.2.0.buildspec) | [result](mybatis-velocity-2.2.0.buildinfo): [3 :white_check_mark: ](mybatis-velocity-2.2.0.buildcompare) | | 77K |
 | [2.1.2](https://central.sonatype.com/artifact/org.mybatis.scripting/mybatis-velocity/2.1.2/pom) | [mvn jdk17 w](mybatis-velocity-2.1.2.buildspec) | [result](mybatis-velocity-2.1.2.buildinfo): [3 :white_check_mark: ](mybatis-velocity-2.1.2.buildcompare) | | 76K |
