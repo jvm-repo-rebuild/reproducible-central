@@ -23,5 +23,5 @@ buildTime="2025-11-11T23:36:57+0200"
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dgit.branch='$gitBranch' -Dgit.build.user.email='$buildUserEmail' -Dgit.build.user.name='$buildUserName' -Dgit.build.host='$buildHost' -Dgit.build.time='$buildTime'"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-diffoscope=${artifactId}-${version}.diffoscope
+#diffoscope=${artifactId}-${version}.diffoscope
 issue=https://github.com/apache/pulsar/issues/24718

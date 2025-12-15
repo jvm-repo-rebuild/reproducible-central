@@ -142,7 +142,7 @@ rebuilding **40 releases** of org.apache.pulsar:pulsar:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.1.2](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.1.2/pom) | [mvn jdk21](pulsar-4.1.2.buildspec) | [result](pulsar-4.1.2.buildinfo): [300 :white_check_mark:  20 :warning:](pulsar-4.1.2.buildcompare) [:mag:](pulsar-4.1.2.diffoscope) [:memo:](https://github.com/apache/pulsar/issues/24718) | 5 :recycle: 5 :rotating_light: 10 :no_entry_sign: | 3.5G |
+| [4.1.2](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.1.2/pom) | [mvn jdk21](pulsar-4.1.2.buildspec) | [result](pulsar-4.1.2.buildinfo): [300 :white_check_mark:  20 :warning:](pulsar-4.1.2.buildcompare) [:memo:](https://github.com/apache/pulsar/issues/24718) | 5 :recycle: 5 :rotating_light: 10 :no_entry_sign: | 3.5G |
 | [4.1.1](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.1.1/pom) | [mvn jdk21](pulsar-4.1.1.buildspec) | :x: | |
 | [4.1.0](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.1.0/pom) | [mvn jdk17](pulsar-4.1.0.buildspec) | [result](pulsar-4.1.0.buildinfo): [288 :white_check_mark:  32 :warning:](pulsar-4.1.0.buildcompare) [:mag:](pulsar-4.1.0.diffoscope) [:memo:](https://github.com/apache/pulsar/issues/24718) | 3 :recycle: 11 :rotating_light: 18 :no_entry_sign: | 3.4G |
 | [4.0.8](https://central.sonatype.com/artifact/org.apache.pulsar/pulsar/4.0.8/pom) | | | |
