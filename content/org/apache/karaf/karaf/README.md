@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/karaf.git](https://github.com/apache/karaf.git)
 
-<details><summary>This project defines 256 modules:</summary>
+<details><summary>This project defines 258 modules:</summary>
 
 * [org.apache.karaf.archetypes:karaf-assembly-archetype](https://central.sonatype.com/artifact/org.apache.karaf.archetypes/karaf-assembly-archetype/overview)
 * [org.apache.karaf.archetypes:karaf-blueprint-archetype](https://central.sonatype.com/artifact/org.apache.karaf.archetypes/karaf-blueprint-archetype/overview)
@@ -177,6 +177,7 @@ Source code: [https://github.com/apache/karaf.git](https://github.com/apache/kar
 * [org.apache.karaf.features:enterprise-legacy](https://central.sonatype.com/artifact/org.apache.karaf.features/enterprise-legacy/overview)
 * [org.apache.karaf.features:features](https://central.sonatype.com/artifact/org.apache.karaf.features/features/overview)
 * [org.apache.karaf.features:framework](https://central.sonatype.com/artifact/org.apache.karaf.features/framework/overview)
+* [org.apache.karaf.features:integration](https://central.sonatype.com/artifact/org.apache.karaf.features/integration/overview)
 * [org.apache.karaf.features:org.apache.karaf.features.command](https://central.sonatype.com/artifact/org.apache.karaf.features/org.apache.karaf.features.command/overview)
 * [org.apache.karaf.features:org.apache.karaf.features.core](https://central.sonatype.com/artifact/org.apache.karaf.features/org.apache.karaf.features.core/overview)
 * [org.apache.karaf.features:org.apache.karaf.features.extension](https://central.sonatype.com/artifact/org.apache.karaf.features/org.apache.karaf.features.extension/overview)
@@ -255,6 +256,7 @@ Source code: [https://github.com/apache/karaf.git](https://github.com/apache/kar
 * [org.apache.karaf.webconsole:webconsole](https://central.sonatype.com/artifact/org.apache.karaf.webconsole/webconsole/overview)
 * [org.apache.karaf.wrapper:org.apache.karaf.wrapper.core](https://central.sonatype.com/artifact/org.apache.karaf.wrapper/org.apache.karaf.wrapper.core/overview)
 * [org.apache.karaf:apache-karaf](https://central.sonatype.com/artifact/org.apache.karaf/apache-karaf/overview)
+* [org.apache.karaf:apache-karaf-integration](https://central.sonatype.com/artifact/org.apache.karaf/apache-karaf-integration/overview)
 * [org.apache.karaf:apache-karaf-minimal](https://central.sonatype.com/artifact/org.apache.karaf/apache-karaf-minimal/overview)
 * [org.apache.karaf:archetypes](https://central.sonatype.com/artifact/org.apache.karaf/archetypes/overview)
 * [org.apache.karaf:karaf](https://central.sonatype.com/artifact/org.apache.karaf/karaf/overview)
@@ -267,14 +269,14 @@ Source code: [https://github.com/apache/karaf.git](https://github.com/apache/kar
 * [org.apache.karaf:org.apache.karaf.util](https://central.sonatype.com/artifact/org.apache.karaf/org.apache.karaf.util/overview)
 </details>
 
-rebuilding **10 releases** of org.apache.karaf:karaf:
+rebuilding **11 releases** of org.apache.karaf:karaf:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [4.4.9](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.9/pom) | | | |
+| [4.4.9](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.9/pom) | [mvn jdk11](karaf-4.4.9.buildspec) | [result](karaf-4.4.9.buildinfo): [597 :white_check_mark:  22 :warning:](karaf-4.4.9.buildcompare) [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) | 17 :rotating_light: 5 :no_entry_sign: | 507M |
 | [4.4.8](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.8/pom) | [mvn jdk11](karaf-4.4.8.buildspec) | [result](karaf-4.4.8.buildinfo): [596 :white_check_mark:  18 :warning:](karaf-4.4.8.buildcompare) [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) | 14 :rotating_light: 4 :no_entry_sign: | 297M |
 | [4.4.7](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.7/pom) | [mvn jdk11](karaf-4.4.7.buildspec) | [result](karaf-4.4.7.buildinfo): [593 :white_check_mark:  19 :warning:](karaf-4.4.7.buildcompare) [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) | - | 292M |
 | [4.4.6](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.6/pom) | [mvn jdk11](karaf-4.4.6.buildspec) | [result](karaf-4.4.6.buildinfo): [592 :white_check_mark:  20 :warning:](karaf-4.4.6.buildcompare) [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) | - | 290M |
