@@ -1,0 +1,18 @@
+version=1.5.1
+ok=9
+ko=3
+ignored=3
+okFiles="commons-daemon-1.5.1.pom commons-daemon-1.5.1.jar commons-daemon-1.5.1-sources.jar commons-daemon-1.5.1-cyclonedx.xml commons-daemon-1.5.1-cyclonedx.json commons-daemon-1.5.1-native-src.tar.gz commons-daemon-1.5.1-native-src.zip commons-daemon-1.5.1-src.tar.gz commons-daemon-1.5.1-src.zip"
+koFiles="commons-daemon-1.5.1-bin.tar.gz commons-daemon-1.5.1-bin.zip commons-daemon-1.5.1-bin-windows.zip"
+ignoredFiles="commons-daemon-1.5.1-tests.jar commons-daemon-1.5.1-test-sources.jar commons-daemon-1.5.1.spdx.json"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/commons-daemon/commons-daemon-1.5.1-bin.tar.gz target/commons-daemon-1.5.1-bin.tar.gz
+# diffoscope target/reference/commons-daemon/commons-daemon-1.5.1-bin.zip target/commons-daemon-1.5.1-bin.zip
+# diffoscope target/reference/commons-daemon/commons-daemon-1.5.1-bin-windows.zip target/commons-daemon-1.5.1-bin-windows.zip
+stabilize_ok=0
+stabilize_ko=2
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles="commons-daemon-1.5.1-bin.zip.stabilized commons-daemon-1.5.1-bin-windows.zip.stabilized"
+stabilize_ignoredFiles="commons-daemon-1.5.1-bin.tar.gz"
