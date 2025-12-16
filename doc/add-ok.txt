@@ -1,7 +1,6 @@
 content/com/flowlogix/flowlogix-10.0.8.buildspec:11
+content/de/gematik/pki/gemLibPki/gemLibPki-3.3.1.buildspec:3.4.0
 content/io/liftwizard/liftwizard-2.1.36.buildspec:2.1.37
-content/io/airlift/airbase/airbase-334.buildspec:335
 content/io/avaje/inject/avaje-inject-12.1-javax.buildspec:12.2-RC1
-content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.2.0.CR1.buildspec:8.2.0.Final
-content/org/mybatis/mybatis-typehandlers-threeten-extra/mybatis-typehandlers-threeten-extra-1.1.0.buildspec:1.1.1
-content/org/mybatis/scripting/mybatis-velocity/mybatis-velocity-2.3.0.buildspec:2.3.1
+content/io/takari/maven/maven-timeline/maven-timeline-2.0.3.buildspec:2.0.4
+content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.2.0.CR2.buildspec:4.2.0.Final

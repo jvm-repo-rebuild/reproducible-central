@@ -4,10 +4,12 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20251215152800 --> [hibernate-search-bom](../content/org/hibernate/search/hibernate-search-bom/README.md) | [8.2.0.CR1](../content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.2.0.CR1.buildspec) :white_check_mark: | [8.2.0.Final](../content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.2.0.Final.buildspec) | `bin/add-new-release.sh content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.2.0.CR1.buildspec 8.2.0.Final` |
-| <!-- 20251215112343 --> [airbase](../content/io/airlift/airbase/README.md) | [334](../content/io/airlift/airbase/airbase-334.buildspec) :white_check_mark: | [335](../content/io/airlift/airbase/airbase-335.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-334.buildspec 335` |
-| <!-- 20251214222326 --> [mybatis-velocity](../content/org/mybatis/scripting/mybatis-velocity/README.md) | [2.3.0](../content/org/mybatis/scripting/mybatis-velocity/mybatis-velocity-2.3.0.buildspec) :white_check_mark: | [2.3.1](../content/org/mybatis/scripting/mybatis-velocity/mybatis-velocity-2.3.1.buildspec) | `bin/add-new-release.sh content/org/mybatis/scripting/mybatis-velocity/mybatis-velocity-2.3.0.buildspec 2.3.1` |
-| <!-- 20251214222324 --> [mybatis-typehandlers-threeten-extra](../content/org/mybatis/mybatis-typehandlers-threeten-extra/README.md) | [1.1.0](../content/org/mybatis/mybatis-typehandlers-threeten-extra/mybatis-typehandlers-threeten-extra-1.1.0.buildspec) :white_check_mark: | [1.1.1](../content/org/mybatis/mybatis-typehandlers-threeten-extra/mybatis-typehandlers-threeten-extra-1.1.1.buildspec) | `bin/add-new-release.sh content/org/mybatis/mybatis-typehandlers-threeten-extra/mybatis-typehandlers-threeten-extra-1.1.0.buildspec 1.1.1` |
+| <!-- 20251216180156 --> [maven-timeline](../content/io/takari/maven/maven-timeline/README.md) | [2.0.3](../content/io/takari/maven/maven-timeline/maven-timeline-2.0.3.buildspec) :white_check_mark: | [2.0.4](../content/io/takari/maven/maven-timeline/maven-timeline-2.0.4.buildspec) | `bin/add-new-release.sh content/io/takari/maven/maven-timeline/maven-timeline-2.0.3.buildspec 2.0.4` |
+| <!-- 20251216150912 --> [log4j](../content/org/apache/logging/log4j/log4j/README.md) | [3.0.0-beta3](../content/org/apache/logging/log4j/log4j/log4j-3.0.0-beta3.buildspec) :white_check_mark: | 2.25.3  | `bin/add-new-release.sh content/org/apache/logging/log4j/log4j/log4j-3.0.0-beta3.buildspec ...` |
+| <!-- 20251216143151 --> [mima](../content/eu/maveniverse/maven/mima/README.md) | [3.0.0-alpha-3](../content/eu/maveniverse/maven/mima/mima-3.0.0-alpha-3.buildspec) :white_check_mark: | 2.4.38  | `bin/add-new-release.sh content/eu/maveniverse/maven/mima/mima-3.0.0-alpha-3.buildspec ...` |
+| <!-- 20251216100652 --> [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | [4.2.0.CR2](../content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.2.0.CR2.buildspec) :white_check_mark: | [4.2.0.Final](../content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.2.0.Final.buildspec) | `bin/add-new-release.sh content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.2.0.CR2.buildspec 4.2.0.Final` |
+| <!-- 20251216100652 --> [hibernate-reactive-core](../content/org/hibernate/reactive/hibernate-reactive/README.md) | [4.2.0.CR2](../content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.2.0.CR2.buildspec) :white_check_mark: | 3.2.0.Final  | `bin/add-new-release.sh content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.2.0.CR2.buildspec ...` |
+| <!-- 20251216071758 --> [gemLibPki](../content/de/gematik/pki/gemLibPki/README.md) | [3.3.1](../content/de/gematik/pki/gemLibPki/gemLibPki-3.3.1.buildspec) :white_check_mark: | [3.4.0](../content/de/gematik/pki/gemLibPki/gemLibPki-3.4.0.buildspec) | `bin/add-new-release.sh content/de/gematik/pki/gemLibPki/gemLibPki-3.3.1.buildspec 3.4.0` |
 | <!-- 20251214200716 --> [liftwizard](../content/io/liftwizard/README.md) | [2.1.36](../content/io/liftwizard/liftwizard-2.1.36.buildspec) :white_check_mark: | [2.1.37](../content/io/liftwizard/liftwizard-2.1.37.buildspec) | `bin/add-new-release.sh content/io/liftwizard/liftwizard-2.1.36.buildspec 2.1.37` |
 | <!-- 20251210065127 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [12.1-javax](../content/io/avaje/inject/avaje-inject-12.1-javax.buildspec) :white_check_mark: | [12.2-RC1](../content/io/avaje/inject/avaje-inject-12.2-RC1.buildspec) | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-12.1-javax.buildspec 12.2-RC1` |
 | <!-- 20251118222117 --> [flowlogix](../content/com/flowlogix/README.md) | [10.0.8](../content/com/flowlogix/flowlogix-10.0.8.buildspec) :white_check_mark: | [11](../content/com/flowlogix/flowlogix-11.buildspec) | `bin/add-new-release.sh content/com/flowlogix/flowlogix-10.0.8.buildspec 11` |
@@ -31,8 +33,6 @@ New Releases To Add
 | <!-- 20251213014501 --> [:mailbox:](https://lists.apache.org/list?dev@nifi.apache.org:lte=1M:VOTE) | [nifi](../content/org/apache/nifi/nifi/README.md) | [2.6.0](../content/org/apache/nifi/nifi/nifi-2.6.0.buildspec) :warning: | [2.7.2](../content/org/apache/nifi/nifi/nifi-2.7.2.buildspec)  | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-2.6.0.buildspec 2.7.2 staging` |
 | <!-- 20250930200602 --> [:mailbox:](https://lists.apache.org/list?dev@wicket.apache.org:lte=1M:VOTE) | [wicket-parent](../content/org/apache/wicket/README.md) | [10.7.0](../content/org/apache/wicket/wicket-parent-10.7.0.buildspec) :white_check_mark: | [10.8.0](../content/org/apache/wicket/wicket-parent-10.8.0.buildspec)  | `bin/add-new-release.sh content/org/apache/wicket/wicket-parent-10.7.0.buildspec 10.8.0 staging` |
 | <!-- 20250213085016 --> [:mailbox:](https://lists.apache.org/list?dev@ignite.apache.org:lte=1M:VOTE) | [apache-ignite](../content/org/apache/ignite/README.md) | [2.17.0](../content/org/apache/ignite/ignite-2.17.0.buildspec) :warning: | [3.0.0-alpha5](../content/org/apache/ignite/ignite-3.0.0-alpha5.buildspec)  | `bin/add-new-release.sh content/org/apache/ignite/ignite-2.17.0.buildspec 3.0.0-alpha5 staging` |
-| <!-- 20250117094427 --> [:mailbox:](https://lists.apache.org/list?dev@sling.apache.org:lte=1M:VOTE) | [org.apache.sling.starter](../content/org/apache/sling/org.apache.sling.starter/README.md) | [13](../content/org/apache/sling/org.apache.sling.starter/org.apache.sling.starter-13.buildspec) :warning: | [14](../content/org/apache/sling/org.apache.sling.starter/org.apache.sling.starter-14.buildspec)  | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.starter/org.apache.sling.starter-13.buildspec 14 staging` |
-| <!-- 20241202181948 --> [:mailbox:](https://lists.apache.org/list?dev@commons.apache.org:lte=1M:VOTE) | [commons-dbcp2](../content/org/apache/commons/commons-dbcp2/README.md) | [2.13.0](../content/org/apache/commons/commons-dbcp2/commons-dbcp2-2.13.0.buildspec) :warning: | [2.14.0](../content/org/apache/commons/commons-dbcp2/commons-dbcp2-2.14.0.buildspec)  | `bin/add-new-release.sh content/org/apache/commons/commons-dbcp2/commons-dbcp2-2.13.0.buildspec 2.14.0 staging` |
 <!-- END GENERATED ADD STAGING -->
 
 ## New Release of non-Reproducible Previous
@@ -40,10 +40,14 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20251215194634 --> [jpmml-r](../content/org/jpmml/jpmml-r/README.md) | [1.7.5](../content/org/jpmml/jpmml-r/jpmml-r-1.7.5.buildspec) :warning: | [1.7.7](../content/org/jpmml/jpmml-r/jpmml-r-1.7.7.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-r/jpmml-r-1.7.5.buildspec 1.7.7` |
-| <!-- 20251215193107 --> [maven-resolver](../content/org/apache/maven/resolver/maven-resolver/README.md) | [2.0.13](../content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.13.buildspec) :warning: | [2.0.14](../content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.14.buildspec) | `bin/add-new-release.sh content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.13.buildspec 2.0.14` |
-| <!-- 20251215100318 --> [paapi5-java-sdk](../content/net/osslabz/paapi5-java-sdk/README.md) | [1.2.2](../content/net/osslabz/paapi5-java-sdk/paapi5-java-sdk-1.2.2.buildspec) :warning: | [1.2.5](../content/net/osslabz/paapi5-java-sdk/paapi5-java-sdk-1.2.5.buildspec) | `bin/add-new-release.sh content/net/osslabz/paapi5-java-sdk/paapi5-java-sdk-1.2.2.buildspec 1.2.5` |
-| <!-- 20251215075658 --> [karaf](../content/org/apache/karaf/karaf/README.md) | [4.4.8](../content/org/apache/karaf/karaf/karaf-4.4.8.buildspec) :warning: [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) | [4.4.9](../content/org/apache/karaf/karaf/karaf-4.4.9.buildspec) | `bin/add-new-release.sh content/org/apache/karaf/karaf/karaf-4.4.8.buildspec 4.4.9` |
+| <!-- 20251216145122 --> [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | [0.14.8](../content/eu/maveniverse/maven/toolbox/toolbox-0.14.8.buildspec) :warning: | [0.14.9](../content/eu/maveniverse/maven/toolbox/toolbox-0.14.9.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/toolbox/toolbox-0.14.8.buildspec 0.14.9` |
+| <!-- 20251216135604 --> [yupiik-tools-maven-plugin-parent](../content/io/yupiik/maven/plugin/README.md) | [1.2.12](../content/io/yupiik/maven/plugin/yupiik-tools-maven-plugin-1.2.12.buildspec) :warning: | [1.2.13](../content/io/yupiik/maven/plugin/yupiik-tools-maven-plugin-1.2.13.buildspec) | `bin/add-new-release.sh content/io/yupiik/maven/plugin/yupiik-tools-maven-plugin-1.2.12.buildspec 1.2.13` |
+| <!-- 20251216133449 --> [evm-abi-decoder](../content/net/osslabz/evm-abi-decode/README.md) | [0.1.1](../content/net/osslabz/evm-abi-decode/evm-abi-decoder-0.1.1.buildspec) :warning: | [0.1.2](../content/net/osslabz/evm-abi-decode/evm-abi-decoder-0.1.2.buildspec) | `bin/add-new-release.sh content/net/osslabz/evm-abi-decode/evm-abi-decoder-0.1.1.buildspec 0.1.2` |
+| <!-- 20251216114458 --> [commons-dbcp2](../content/org/apache/commons/commons-dbcp2/README.md) | [2.13.0](../content/org/apache/commons/commons-dbcp2/commons-dbcp2-2.13.0.buildspec) :warning: | [2.14.0](../content/org/apache/commons/commons-dbcp2/commons-dbcp2-2.14.0.buildspec) | `bin/add-new-release.sh content/org/apache/commons/commons-dbcp2/commons-dbcp2-2.13.0.buildspec 2.14.0` |
+| <!-- 20251216082312 --> [lz4-java](../content/at/yawk/lz4/lz4-java/README.md) | [1.10.1](../content/at/yawk/lz4/lz4-java/lz4-java-1.10.1.buildspec) :warning: [:memo:](https://github.com/yawkat/lz4-java/pull/15) | [1.10.2](../content/at/yawk/lz4/lz4-java/lz4-java-1.10.2.buildspec) | `bin/add-new-release.sh content/at/yawk/lz4/lz4-java/lz4-java-1.10.1.buildspec 1.10.2` |
+| <!-- 20251216082114 --> [avaje-config-toml](../content/io/avaje/config-toml/README.md) | [4.2](../content/io/avaje/config-toml/avaje-config-toml-4.2.buildspec) :warning: | [5.0](../content/io/avaje/config-toml/avaje-config-toml-5.0.buildspec) | `bin/add-new-release.sh content/io/avaje/config-toml/avaje-config-toml-4.2.buildspec 5.0` |
+| <!-- 20251216081718 --> [avaje-config](../content/io/avaje/config/README.md) | [4.3](../content/io/avaje/config/avaje-config-4.3.buildspec) :warning: | [5.0](../content/io/avaje/config/avaje-config-5.0.buildspec) | `bin/add-new-release.sh content/io/avaje/config/avaje-config-4.3.buildspec 5.0` |
+| <!-- 20251215100318 --> [paapi5-java-sdk](../content/net/osslabz/paapi5-java-sdk/README.md) | [1.2.4](../content/net/osslabz/paapi5-java-sdk/paapi5-java-sdk-1.2.4.buildspec) :warning: | [1.2.5](../content/net/osslabz/paapi5-java-sdk/paapi5-java-sdk-1.2.5.buildspec) | `bin/add-new-release.sh content/net/osslabz/paapi5-java-sdk/paapi5-java-sdk-1.2.4.buildspec 1.2.5` |
 | <!-- 20251215031957 --> [trino-root](../content/io/trino/README.md) | [477](../content/io/trino/trino-477.buildspec) :warning: | [479](../content/io/trino/trino-479.buildspec) | `bin/add-new-release.sh content/io/trino/trino-477.buildspec 479` |
 | <!-- 20251213132737 --> [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.16.0](../content/org/apache/camel/camel/camel-4.16.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.16.0` |
 | <!-- 20251213014501 --> [nifi](../content/org/apache/nifi/nifi/README.md) | [2.6.0](../content/org/apache/nifi/nifi/nifi-2.6.0.buildspec) :warning: | [2.7.1](../content/org/apache/nifi/nifi/nifi-2.7.1.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-2.6.0.buildspec 2.7.1` |
@@ -53,7 +57,6 @@ New Releases To Add
 | <!-- 20251210185730 --> [avaje-http-parent](../content/io/avaje/http/README.md) | [3.6](../content/io/avaje/http/avaje-http-3.6.buildspec) :warning: | [3.7-RC1](../content/io/avaje/http/avaje-http-3.7-RC1.buildspec) | `bin/add-new-release.sh content/io/avaje/http/avaje-http-3.6.buildspec 3.7-RC1` |
 | <!-- 20251210155324 --> [com.io7m.dixmont](../content/com/io7m/dixmont/README.md) | [3.0.0](../content/com/io7m/dixmont/com.io7m.dixmont-3.0.0.buildspec) :warning: | [3.1.0](../content/com/io7m/dixmont/com.io7m.dixmont-3.1.0.buildspec) | `bin/add-new-release.sh content/com/io7m/dixmont/com.io7m.dixmont-3.0.0.buildspec 3.1.0` |
 | <!-- 20251209191918 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | [5.20.0](../content/org/mockito/mockito-core/mockito-5.20.0.buildspec) :warning: | [5.21.0](../content/org/mockito/mockito-core/mockito-5.21.0.buildspec) | `bin/add-new-release.sh content/org/mockito/mockito-core/mockito-5.20.0.buildspec 5.21.0` |
-| <!-- 20251209181915 --> [avaje-config](../content/io/avaje/config/README.md) | [4.3](../content/io/avaje/config/avaje-config-4.3.buildspec) :warning: | [5.0-RC2](../content/io/avaje/config/avaje-config-5.0-RC2.buildspec) | `bin/add-new-release.sh content/io/avaje/config/avaje-config-4.3.buildspec 5.0-RC2` |
 | <!-- 20251208024917 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.1.0](../content/com/taobao/arthas/arthas-4.1.0.buildspec) :warning: [:memo:](https://github.com/alibaba/arthas/pull/3001) | [4.1.3](../content/com/taobao/arthas/arthas-4.1.3.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.1.0.buildspec 4.1.3` |
 | <!-- 20251127141738 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.30.3](../content/org/webjars/swagger-ui/swagger-ui-5.30.3.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.30.3` |
 | <!-- 20251125203732 --> [plotsquared-bukkit](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/README.md) | [7.5.4](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.4.buildspec) :x: | [7.5.10](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.10.buildspec) | `bin/add-new-release.sh content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.4.buildspec 7.5.10` |
@@ -73,8 +76,11 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20251216105703 --> [commons-daemon](../content/org/apache/commons/commons-daemon/README.md) | 1.5.1 :warning: |
+| <!-- 20251215194634 --> [jpmml-r](../content/org/jpmml/jpmml-r/README.md) | 1.7.7 :warning: |
+| <!-- 20251215193107 --> [maven-resolver](../content/org/apache/maven/resolver/maven-resolver/README.md) | 2.0.14 :warning: |
 | <!-- 20251215152324 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 8.0.0-JDK17-M12 :warning: |
-| <!-- 20251212172606 --> [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | 0.14.8 :warning: |
+| <!-- 20251215075658 --> [karaf](../content/org/apache/karaf/karaf/README.md) | 4.4.9 :warning: [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) |
 | <!-- 20251210184449 --> [jmeter-java-dsl-parent](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 2.2 :warning: |
 | <!-- 20251210113410 --> [quarkus-project](../content/io/quarkus/README.md) | 3.30.3 :warning: |
 | <!-- 20251208092359 --> [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | 1.3.5 :warning: |
@@ -83,7 +89,6 @@ New Releases To Add
 | <!-- 20251206160719 --> [jpmml-codemodel](../content/org/jpmml/jpmml-codemodel/README.md) | 1.2.1 :warning: |
 | <!-- 20251206133134 --> [jpmml-transpiler](../content/org/jpmml/jpmml-transpiler/README.md) | 1.4.7 :warning: |
 | <!-- 20251206103717 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | 1.9.20 :warning: |
-| <!-- 20251205085119 --> [lz4-java](../content/at/yawk/lz4/lz4-java/README.md) | 1.10.1 :warning: [:memo:](https://github.com/yawkat/lz4-java/pull/15) |
 | <!-- 20251204234146 --> [htmlcompressor](../content/com/github/hazendaz/htmlcompressor/README.md) | 2.3.1 :warning: |
 | <!-- 20251202181343 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.5.3 :warning: |
 | <!-- 20251201061731 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 4.0.0 :warning: |
@@ -94,7 +99,6 @@ New Releases To Add
 | <!-- 20251128201028 --> [jpmml-evaluator](../content/org/jpmml/jpmml-evaluator/README.md) | 1.7.6 :warning: |
 | <!-- 20251128142324 --> [tycho](../content/org/eclipse/tycho/README.md) | 5.0.1 :warning: |
 | <!-- 20251128133200 --> [hugegraph](../content/org/apache/hugegraph/README.md) | 1.7.0 :warning: |
-| <!-- 20251128105054 --> [commons-daemon](../content/org/apache/commons/commons-daemon/README.md) | 1.5.0 :warning: |
 | <!-- 20251128083720 --> [eforms-sdk-analyzer](../content/eu/europa/ted/eforms/eforms-sdk-analyzer/README.md) | 1.14.0 :warning: |
 | <!-- 20251126094339 --> [dubbo](../content/org/apache/dubbo/README.md) | 3.3.6 :warning: |
 | <!-- 20251125190718 --> [jpmml-model](../content/org/jpmml/jpmml-model/README.md) | 1.7.6 :warning: [:memo:](https://github.com/jpmml/jpmml-model/issues/42) |
@@ -115,8 +119,6 @@ New Releases To Add
 | <!-- 20251030170330 --> [sdk-parent](../content/com/sap/ai/sdk/README.md) | 1.13.0 :warning: |
 | <!-- 20251030133124 --> [jdbc-url-parser](../content/net/osslabz/jdbc-url-parser/README.md) | 0.1.1 :warning: |
 | <!-- 20251029202934 --> [turnstile-siteverify-client](../content/net/osslabz/turnstile-siteverify-client/README.md) | 0.4.1 :warning: |
-| <!-- 20251029102534 --> [evm-abi-decoder](../content/net/osslabz/evm-abi-decode/README.md) | 0.1.1 :warning: |
-| <!-- 20251027043136 --> [avaje-config-toml](../content/io/avaje/config-toml/README.md) | 4.2 :warning: |
 | <!-- 20251025202703 --> [xml-maven-plugin](../content/org/codehaus/mojo/xml-maven-plugin/README.md) | 1.2.0 :warning: [:memo:](https://github.com/mojohaus/xml-maven-plugin/issues/155) |
 | <!-- 20251024120236 --> [com.io7m.cardant](../content/com/io7m/cardant/README.md) | 1.0.0-beta0002 :x: |
 | <!-- 20251023113928 --> [jpmml-h2o](../content/org/jpmml/jpmml-h2o/README.md) | 1.3.2 :warning: |
@@ -141,7 +143,6 @@ New Releases To Add
 | <!-- 20250906084628 --> [project](../content/org/glassfish/mq/README.md) | 6.7.0 :warning: |
 | <!-- 20250829092417 --> [plc4x-parent](../content/org/apache/plc4x/plc4x/README.md) | 0.13.1 :warning: |
 | <!-- 20250810192706 --> [bundlebee](../content/io/yupiik/bundlebee/README.md) | 1.0.31 :warning: |
-| <!-- 20250805203748 --> [yupiik-tools-maven-plugin-parent](../content/io/yupiik/maven/plugin/README.md) | 1.2.12 :warning: |
 | <!-- 20250803190135 --> [psi-probe](../content/com/github/psi-probe/README.md) | 5.3.0 :warning: |
 | <!-- 20250730122750 --> [efx-toolkit-java](../content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 2.0.0-alpha.5 :warning: |
 | <!-- 20250729142844 --> [jspwiki-builder](../content/org/apache/jspwiki/README.md) | 2.12.3 :warning: |
@@ -191,7 +192,6 @@ New Releases To Add
 | <!-- 20241207223709 --> [royale-typedefs-parent](../content/org/apache/royale/typedefs/README.md) | 0.9.12 :warning: |
 | <!-- 20241207223516 --> [royale-framework-parent](../content/org/apache/royale/framework/README.md) | 0.9.12 :warning: |
 | <!-- 20241207221427 --> [compiler](../content/org/apache/royale/compiler/README.md) | 0.9.12 :warning: |
-| <!-- 20241202181948 --> [commons-dbcp2](../content/org/apache/commons/commons-dbcp2/README.md) | 2.13.0 :warning: |
 | <!-- 20241112125327 --> [coingecko-java](../content/net/osslabz/coingecko-java/README.md) | 1.2.0 :warning: |
 | <!-- 20241106160454 --> [tomcat-authnz-spnego-ad](../content/net/sf/michael-o/tomcat/tomcat-authnz-spnego-ad/README.md) | 4.2.4 :warning: [:memo:](https://github.com/michael-o/tomcatspnegoad/issues/32) |
 | <!-- 20241018172054 --> [org.apache.sling.commons.metrics](../content/org/apache/sling/org.apache.sling.commons.metrics/README.md) | 1.2.14 :warning: |

@@ -14,6 +14,7 @@ rebuilding **5 releases** of io.avaje:avaje-config:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [5.0](https://central.sonatype.com/artifact/io.avaje/avaje-config/5.0/pom) | | | |
 | [5.0-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-config/5.0-RC2/pom) | | | |
 | [5.0-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-config/5.0-RC1/pom) | | | |
 | [4.4](https://central.sonatype.com/artifact/io.avaje/avaje-config/4.4/pom) | | | |

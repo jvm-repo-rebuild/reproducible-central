@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.apache.commons:commons-dbcp2:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.14.0](https://central.sonatype.com/artifact/org.apache.commons/commons-dbcp2/2.14.0/pom) | | | |
 | [2.13.0](https://central.sonatype.com/artifact/org.apache.commons/commons-dbcp2/2.13.0/pom) | [mvn jdk21](commons-dbcp2-2.13.0.buildspec) | [result](commons-dbcp2-2.13.0.buildinfo): [5 :white_check_mark:  2 :warning:](commons-dbcp2-2.13.0.buildcompare) [:mag:](commons-dbcp2-2.13.0.diffoscope) | - | 907K |
 | [2.12.0](https://central.sonatype.com/artifact/org.apache.commons/commons-dbcp2/2.12.0/pom) | [mvn jdk21](commons-dbcp2-2.12.0.buildspec) | [result](commons-dbcp2-2.12.0.buildinfo): [7 :white_check_mark: ](commons-dbcp2-2.12.0.buildcompare) | | 883K |
 
