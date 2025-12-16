@@ -15,7 +15,7 @@ rebuilding **3 releases** of net.osslabz:paapi5-java-sdk:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [1.2.5](https://central.sonatype.com/artifact/net.osslabz/paapi5-java-sdk/1.2.5/pom) | | | |
-| [1.2.4](https://central.sonatype.com/artifact/net.osslabz/paapi5-java-sdk/1.2.4/pom) | [mvn jdk21](paapi5-java-sdk-1.2.4.buildspec) | [result](paapi5-java-sdk-1.2.4.buildinfo): [2 :white_check_mark:  1 :warning:](paapi5-java-sdk-1.2.4.buildcompare) | 1 :recycle: | 308K |
+| [1.2.4](https://central.sonatype.com/artifact/net.osslabz/paapi5-java-sdk/1.2.4/pom) | [mvn jdk21](paapi5-java-sdk-1.2.4.buildspec) | [result](paapi5-java-sdk-1.2.4.buildinfo): [2 :white_check_mark:  1 :warning:](paapi5-java-sdk-1.2.4.buildcompare) [:mag:](paapi5-java-sdk-1.2.4.diffoscope) | 1 :recycle: | 308K |
 | [1.2.2](https://central.sonatype.com/artifact/net.osslabz/paapi5-java-sdk/1.2.2/pom) | [mvn jdk21](paapi5-java-sdk-1.2.2.buildspec) | [result](paapi5-java-sdk-1.2.2.buildinfo): [2 :white_check_mark:  1 :warning:](paapi5-java-sdk-1.2.2.buildcompare) | 1 :recycle: | 308K |
 | [0.0.2](https://central.sonatype.com/artifact/net.osslabz/paapi5-java-sdk/0.0.2/pom) | [mvn jdk21](paapi5-java-sdk-0.0.2.buildspec) | [result](paapi5-java-sdk-0.0.2.buildinfo): [2 :white_check_mark:  1 :warning:](paapi5-java-sdk-0.0.2.buildcompare) | 1 :recycle: | 308K |
 
