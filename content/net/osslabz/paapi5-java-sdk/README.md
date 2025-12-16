@@ -7,15 +7,15 @@
 
 Source code: [https://github.com/osslabz/paapi5-java-sdk.git](https://github.com/osslabz/paapi5-java-sdk.git)
 
-rebuilding **2 releases** of net.osslabz:paapi5-java-sdk:
+rebuilding **3 releases** of net.osslabz:paapi5-java-sdk:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 2 had all their differences removed :recycle:
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 3 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [1.2.5](https://central.sonatype.com/artifact/net.osslabz/paapi5-java-sdk/1.2.5/pom) | | | |
-| [1.2.4](https://central.sonatype.com/artifact/net.osslabz/paapi5-java-sdk/1.2.4/pom) | | | |
+| [1.2.4](https://central.sonatype.com/artifact/net.osslabz/paapi5-java-sdk/1.2.4/pom) | [mvn jdk21](paapi5-java-sdk-1.2.4.buildspec) | [result](paapi5-java-sdk-1.2.4.buildinfo): [2 :white_check_mark:  1 :warning:](paapi5-java-sdk-1.2.4.buildcompare) | 1 :recycle: | 308K |
 | [1.2.2](https://central.sonatype.com/artifact/net.osslabz/paapi5-java-sdk/1.2.2/pom) | [mvn jdk21](paapi5-java-sdk-1.2.2.buildspec) | [result](paapi5-java-sdk-1.2.2.buildinfo): [2 :white_check_mark:  1 :warning:](paapi5-java-sdk-1.2.2.buildcompare) | 1 :recycle: | 308K |
 | [0.0.2](https://central.sonatype.com/artifact/net.osslabz/paapi5-java-sdk/0.0.2/pom) | [mvn jdk21](paapi5-java-sdk-0.0.2.buildspec) | [result](paapi5-java-sdk-0.0.2.buildinfo): [2 :white_check_mark:  1 :warning:](paapi5-java-sdk-0.0.2.buildcompare) | 1 :recycle: | 308K |
 
