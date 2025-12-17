@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/avaje/avaje-config.git](https://github.com/avaje/avaje-config.git)
 
-rebuilding **5 releases** of io.avaje:avaje-config:
+rebuilding **6 releases** of io.avaje:avaje-config:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 4, 0 had all their differences removed :recycle:, 4 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [5.0](https://central.sonatype.com/artifact/io.avaje/avaje-config/5.0/pom) | | | |
+| [5.0](https://central.sonatype.com/artifact/io.avaje/avaje-config/5.0/pom) | [mvn jdk25](avaje-config-5.0.buildspec) | [result](avaje-config-5.0.buildinfo): [2 :white_check_mark:  1 :warning:](avaje-config-5.0.buildcompare) | 1 :no_entry_sign: | 128K |
 | [5.0-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-config/5.0-RC2/pom) | | | |
 | [5.0-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-config/5.0-RC1/pom) | | | |
 | [4.4](https://central.sonatype.com/artifact/io.avaje/avaje-config/4.4/pom) | | | |
