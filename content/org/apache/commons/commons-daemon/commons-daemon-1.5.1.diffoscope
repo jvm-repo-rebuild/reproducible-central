@@ -1,0 +1,78 @@
+1 / 3 target/reference/commons-daemon/commons-daemon-1.5.1-bin.tar.gz target/commons-daemon-1.5.1-bin.tar.gz
+--- target/reference/commons-daemon/commons-daemon-1.5.1-bin.tar.gz
++++ target/commons-daemon-1.5.1-bin.tar.gz
+├── commons-daemon-1.5.1-bin.tar
+│ ├── file list
+│ │ @@ -1,8 +1,8 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)    11359 2025-12-11 12:00:00.000000 commons-daemon-1.5.1/LICENSE.txt
+│ │  -rw-r--r--   0 root         (0) root         (0)      176 2025-12-11 12:00:00.000000 commons-daemon-1.5.1/NOTICE.txt
+│ │  -rw-r--r--   0 root         (0) root         (0)     1766 2025-12-11 12:00:00.000000 commons-daemon-1.5.1/RELEASE-NOTES.txt
+│ │ --rw-r--r--   0 root         (0) root         (0)   439190 2025-12-11 12:00:00.000000 commons-daemon-1.5.1/commons-daemon-1.5.1-javadoc.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)   430805 2025-12-11 12:00:00.000000 commons-daemon-1.5.1/commons-daemon-1.5.1-javadoc.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    26824 2025-12-11 12:00:00.000000 commons-daemon-1.5.1/commons-daemon-1.5.1-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    14657 2025-12-11 12:00:00.000000 commons-daemon-1.5.1/commons-daemon-1.5.1-test-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    18667 2025-12-11 12:00:00.000000 commons-daemon-1.5.1/commons-daemon-1.5.1-tests.jar
+│ │  -rw-------   0 root         (0) root         (0)    26901 2025-12-11 12:00:00.000000 commons-daemon-1.5.1/commons-daemon-1.5.1.jar
+│ ├── commons-daemon-1.5.1/commons-daemon-1.5.1-javadoc.jar
+│ │ ├── zipinfo {}
+│ │ │ @@ -1,8 +1,8 @@
+│ │ │ -Zip file size: 439190 bytes, number of entries: 112
+│ │ │ +Zip file size: 430805 bytes, number of entries: 110
+│ │ │  drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-11 12:00 META-INF/
+│ │ │  -rw-r--r--  2.0 unx      343 b- defN 25-Dec-11 12:00 META-INF/MANIFEST.MF
+│ │ │  drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-11 12:00 jquery/
+│ │ │ @@ -42,17 +42,15 @@
+│ │ │  -rw-r--r--  2.0 unx     1777 b- defN 25-Dec-11 12:00 jquery/jszip-utils/dist/jszip-utils.min.js
+│ │ │  -rw-r--r--  2.0 unx     1498 b- defN 25-Dec-11 12:00 jquery-ui.overrides.css
+│ │ │ --rw-r--r--  2.0 unx     2114 b- defN 25-Dec-11 12:00 legal/ADDITIONAL_LICENSE_INFO
+│ │ │  -rw-r--r--  2.0 unx     1522 b- defN 25-Dec-11 12:00 legal/ASSEMBLY_EXCEPTION
+│ │ │ --rw-r--r--  2.0 unx    19274 b- defN 25-Dec-11 12:00 legal/LICENSE
+│ │ │  -rw-r--r--  2.0 unx     1157 b- defN 25-Dec-11 12:00 legal/jquery.md
+│ │ │  -rw-r--r--  2.0 unx     1870 b- defN 25-Dec-11 12:00 legal/jqueryUI.md
+│ │ │ @@ -107,8 +105,8 @@
+│ │ │  -rw-r--r--  2.0 unx     9077 b- defN 25-Dec-11 12:00 META-INF/maven/commons-daemon/commons-daemon/pom.xml
+│ │ │  -rw-r--r--  2.0 unx       63 b- defN 25-Dec-11 12:00 META-INF/maven/commons-daemon/commons-daemon/pom.properties
+│ │ │ -112 files, 1710460 bytes uncompressed, 422898 bytes compressed:  75.3%
+│ │ │ +110 files, 1689072 bytes uncompressed, 414749 bytes compressed:  75.4%
+│ │ ├── member-search-index.zip
+│ │ │ ├── zipinfo {}
+│ │ │ │ @@ -1,3 +1,3 @@
+│ │ │ │  Zip file size: 878 bytes, number of entries: 1
+│ │ │ │ --rw----     2.0 fat     6239 bl defN 25-Dec-11 14:34 member-search-index.json
+│ │ │ │ +-rw----     2.0 fat     6239 bl defN 25-Dec-16 14:15 member-search-index.json
+│ │ │ │  1 file, 6239 bytes uncompressed, 716 bytes compressed:  88.5%
+│ │ ├── package-search-index.zip
+│ │ │ ├── zipinfo {}
+│ │ │ │ @@ -1,3 +1,3 @@
+│ │ │ │  Zip file size: 249 bytes, number of entries: 1
+│ │ │ │ --rw----     2.0 fat      129 bl defN 25-Dec-11 14:34 package-search-index.json
+│ │ │ │ +-rw----     2.0 fat      129 bl defN 25-Dec-16 14:15 package-search-index.json
+│ │ │ │  1 file, 129 bytes uncompressed, 85 bytes compressed:  34.1%
+│ │ ├── type-search-index.zip
+│ │ │ ├── zipinfo {}
+│ │ │ │ @@ -1,3 +1,3 @@
+│ │ │ │  Zip file size: 342 bytes, number of entries: 1
+│ │ │ │ --rw----     2.0 fat      770 bl defN 25-Dec-11 14:34 type-search-index.json
+│ │ │ │ +-rw----     2.0 fat      770 bl defN 25-Dec-16 14:15 type-search-index.json
+│ │ │ │  1 file, 770 bytes uncompressed, 184 bytes compressed:  76.1%
+
+# same as previous: zip vs .tar.gz only
+2 / 3 target/reference/commons-daemon/commons-daemon-1.5.1-bin.zip target/commons-daemon-1.5.1-bin.zip
+
+# known issue in rebuild recipe: does not build the Windows native code = https://github.com/apache/commons-daemon/blob/master/src/native/windows/README.txt
+3 / 3 target/reference/commons-daemon/commons-daemon-1.5.1-bin-windows.zip target/commons-daemon-1.5.1-bin-windows.zip
+--- target/reference/commons-daemon/commons-daemon-1.5.1-bin-windows.zip
++++ target/commons-daemon-1.5.1-bin-windows.zip
+├── zipinfo {}
+│ @@ -1,9 +1,5 @@
+│ -Zip file size: 192465 bytes, number of entries: 7
+│ -drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-11 12:00 amd64/
+│ +Zip file size: 5240 bytes, number of entries: 3
+│  -rw-r--r--  2.0 unx    11359 b- defN 25-Dec-11 12:00 LICENSE.txt
+│  -rw-r--r--  2.0 unx      176 b- defN 25-Dec-11 12:00 NOTICE.txt
+│  -rw-r--r--  2.0 unx     1766 b- defN 25-Dec-11 12:00 RELEASE-NOTES.txt
+│ --rwxr-xr-x  2.0 unx   155544 b- defN 25-Dec-11 12:00 amd64/prunsrv.exe
+│ --rwxr-xr-x  2.0 unx   186776 b- defN 25-Dec-11 12:00 prunmgr.exe
+│ --rwxr-xr-x  2.0 unx   127896 b- defN 25-Dec-11 12:00 prunsrv.exe
+│ -7 files, 483517 bytes uncompressed, 191745 bytes compressed:  60.3%
+│ +3 files, 13301 bytes uncompressed, 4914 bytes compressed:  63.1%

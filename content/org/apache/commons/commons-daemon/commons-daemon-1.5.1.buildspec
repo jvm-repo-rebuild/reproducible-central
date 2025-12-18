@@ -14,7 +14,7 @@ umask=022
 command="mvn clean verify -Prelease -Dcommons.release.isDistModule=false -DskipTests -Dgpg.skip -Dbuildinfo.ignore='*/*.spdx.json,*/*-tests.jar,*/*-test-sources.jar'"
 buildinfo=target/${artifactId}-${version}.buildinfo
 execBefore="( cd src/native/unix && sh support/buildconf.sh )" # https://github.com/apache/commons-daemon/blob/master/HOWTO-RELEASE.txt#L82
-# instrutions for Windows are more complex https://github.com/apache/commons-daemon/blob/master/src/native/windows/README.txt
+# instructions for Windows are more complex https://github.com/apache/commons-daemon/blob/master/src/native/windows/README.txt
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=
