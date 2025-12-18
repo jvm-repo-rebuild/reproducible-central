@@ -945,6 +945,7 @@ rebuilding **31 releases** of org.apache.nifi:nifi:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.7.2](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.7.2/pom) | | | |
 | [2.7.1](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.7.1/pom) | | | |
 | [2.7.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.7.0/pom) | | | |
 | [2.6.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.6.0/pom) | [mvn jdk21 osx aarm64](nifi-2.6.0.buildspec) | [result](nifi-2.6.0.buildinfo): [1677 :white_check_mark:  34 :warning:](nifi-2.6.0.buildcompare) | 7 :rotating_light: 27 :no_entry_sign: | 1.6G |
