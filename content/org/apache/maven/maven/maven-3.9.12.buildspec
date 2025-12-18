@@ -14,7 +14,7 @@ jdk=21
 newline=lf
 umask=022
 
-buildNumber="848fbb4bf2d427b72bdb2471c22fced7ebd9a7a1"
+buildNumber="$(git ls-remote --tags $gitRepo | grep "refs/tags/$gitTag^{}$" | cut -f 1)" # see https://github.com/apache/maven/tags
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -DbuildNumber=${buildNumber}"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
