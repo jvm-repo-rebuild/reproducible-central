@@ -19,13 +19,13 @@ Source code: [https://github.com/infinispan/protostream.git](https://github.com/
 * [org.infinispan.protostream:protostream-types](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-types/overview)
 </details>
 
-rebuilding **26 releases** of org.infinispan.protostream:protostream-aggregator:
-- **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **27 releases** of org.infinispan.protostream:protostream-aggregator:
+- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [6.0.3](https://central.sonatype.com/artifact/org.infinispan.protostream/parent/6.0.3/pom) | | | |
+| [6.0.3](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.3/pom) | [mvn jdk17](protostream-6.0.3.buildspec) | [result](protostream-aggregator-6.0.3.buildinfo): [26 :white_check_mark: ](protostream-aggregator-6.0.3.buildcompare) | | 2.1M |
 | [6.0.2](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.2/pom) | [mvn jdk17](protostream-6.0.2.buildspec) | [result](protostream-aggregator-6.0.2.buildinfo): [26 :white_check_mark: ](protostream-aggregator-6.0.2.buildcompare) | | 2.1M |
 | [6.0.1](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.1/pom) | [mvn jdk17](protostream-6.0.1.buildspec) | [result](protostream-aggregator-6.0.1.buildinfo): [26 :white_check_mark: ](protostream-aggregator-6.0.1.buildcompare) | | 2.0M |
 | [6.0.0.Dev14](https://central.sonatype.com/artifact/org.infinispan.protostream/protostream-aggregator/6.0.0.Dev14/pom) | [mvn jdk17](protostream-6.0.0.Dev14.buildspec) | [result](protostream-aggregator-6.0.0.Dev14.buildinfo): [26 :white_check_mark: ](protostream-aggregator-6.0.0.Dev14.buildcompare) | | 2.0M |
