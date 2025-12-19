@@ -1,0 +1,9 @@
+version=0.1.10
+ok=10
+ko=0
+ignored=0
+okFiles="shared-0.1.10.pom core-0.1.10.pom core-0.1.10.jar core-0.1.10-sources.jar extension-0.1.10.pom extension-0.1.10.jar extension-0.1.10-sources.jar plugin-0.1.10.pom plugin-0.1.10.jar plugin-0.1.10-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
