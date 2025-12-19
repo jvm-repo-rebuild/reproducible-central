@@ -14,6 +14,7 @@ rebuilding **3 releases** of net.osslabz:evm-abi-decoder:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.1.3](https://central.sonatype.com/artifact/net.osslabz/evm-abi-decoder/0.1.3/pom) | | | |
 | [0.1.2](https://central.sonatype.com/artifact/net.osslabz/evm-abi-decoder/0.1.2/pom) | [mvn jdk21](evm-abi-decoder-0.1.2.buildspec) | [result](evm-abi-decoder-0.1.2.buildinfo): [2 :white_check_mark:  1 :warning:](evm-abi-decoder-0.1.2.buildcompare) | 1 :recycle: | 75K |
 | [0.1.1](https://central.sonatype.com/artifact/net.osslabz/evm-abi-decoder/0.1.1/pom) | [mvn jdk21](evm-abi-decoder-0.1.1.buildspec) | [result](evm-abi-decoder-0.1.1.buildinfo): [2 :white_check_mark:  1 :warning:](evm-abi-decoder-0.1.1.buildcompare) | 1 :recycle: | 75K |
 | [0.1.0](https://central.sonatype.com/artifact/net.osslabz/evm-abi-decoder/0.1.0/pom) | [mvn jdk21](evm-abi-decoder-0.1.0.buildspec) | [result](evm-abi-decoder-0.1.0.buildinfo): [2 :white_check_mark:  1 :warning:](evm-abi-decoder-0.1.0.buildcompare) | - | 75K |

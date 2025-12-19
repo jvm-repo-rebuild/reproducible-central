@@ -1,7 +1,11 @@
 content/com/flowlogix/flowlogix-10.0.8.buildspec:11
+content/com/github/nbbrd/java-desktop-util/java-desktop-util-2.5.0.buildspec:2.6.0
 content/de/gematik/pki/gemLibPki/gemLibPki-3.3.1.buildspec:3.4.0
+content/eu/maveniverse/maven/bom-builder/bom-builder-1.3.1.buildspec:1.3.2
+content/eu/maveniverse/maven/mimir/mimir-0.10.6.buildspec:0.11.0
+content/eu/maveniverse/maven/nisse/nisse-0.6.3.buildspec:0.7.0
+content/eu/maveniverse/maven/shared/shared/shared-0.1.9.buildspec:0.1.10
 content/io/liftwizard/liftwizard-2.1.36.buildspec:2.1.37
 content/io/avaje/jex/avaje-jex-3.4-RC2.buildspec:3.4-RC3
-content/io/cucumber/messages/messages-31.0.0.buildspec:31.0.1
-content/io/github/cbarlin/aru/aru-0.7.1.buildspec:0.7.2
-content/org/infinispan/protostream/protostream-6.0.2.buildspec:6.0.3
+content/io/avaje/validator/avaje-validator-2.15.buildspec:2.16-RC1
+content/net/bytebuddy/byte-buddy-1.18.2.buildspec:1.18.3
