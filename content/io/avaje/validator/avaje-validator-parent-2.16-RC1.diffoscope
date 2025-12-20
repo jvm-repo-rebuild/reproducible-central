@@ -1,0 +1,68 @@
+1 / 2 target/reference/io.avaje/avaje-validator-generator-2.16-RC1.jar validator-generator/target/avaje-validator-generator-2.16-RC1.jar
+--- target/reference/io.avaje/avaje-validator-generator-2.16-RC1.jar
++++ validator-generator/target/avaje-validator-generator-2.16-RC1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 237935 bytes, number of entries: 115
+│ +Zip file size: 237912 bytes, number of entries: 115
+│  -rw----     1.0 fat        0 bx stor 25-Dec-19 05:44 META-INF/
+│  -rw----     2.0 fat      158 bl defN 25-Dec-19 05:44 META-INF/MANIFEST.MF
+│ @@ -86,15 +86,15 @@
+│  -rw----     2.0 fat     1631 bl defN 25-Dec-19 05:44 io/avaje/validation/generator/ProcessingContext$Ctx.class
+│  -rw----     2.0 fat     8505 bl defN 25-Dec-19 05:44 io/avaje/validation/generator/ProcessingContext.class
+│ --rw----     2.0 fat     7265 bl defN 25-Dec-19 05:44 io/avaje/validation/generator/ProcessorUtils.class
+│ +-rw----     2.0 fat     7217 bl defN 25-Dec-19 05:44 io/avaje/validation/generator/ProcessorUtils.class
+│  -rw----     2.0 fat     4544 bl defN 25-Dec-19 05:44 io/avaje/validation/generator/SimpleAdapterWriter.class
+│  -rw----     2.0 fat     7411 bl defN 25-Dec-19 05:44 io/avaje/validation/generator/SimpleComponentWriter.class
+│ @@ -110,8 +110,8 @@
+│  -rw----     2.0 fat      268 bl defN 25-Dec-19 05:44 io/avaje/validation/generator/package-info.class
+│  -rw----     2.0 fat      750 bl defN 25-Dec-19 05:44 module-info.class
+│ -115 files, 541559 bytes uncompressed, 215445 bytes compressed:  60.2%
+│ +115 files, 541511 bytes uncompressed, 215422 bytes compressed:  60.2%
+
+2 / 2 target/reference/io.avaje/avaje-validator-generator-2.16-RC1-sources.jar validator-generator/target/avaje-validator-generator-2.16-RC1-sources.jar
+--- target/reference/io.avaje/avaje-validator-generator-2.16-RC1-sources.jar
++++ validator-generator/target/avaje-validator-generator-2.16-RC1-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 116850 bytes, number of entries: 74
+│ +Zip file size: 116825 bytes, number of entries: 74
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Dec-19 05:44 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 25-Dec-19 05:44 META-INF/MANIFEST.MF
+│ @@ -60,17 +60,17 @@
+│  -rw-r--r--  2.0 unx     6248 b- defN 25-Dec-19 05:44 io/avaje/validation/generator/NullUnmarkedPrism.java
+│  -rw-r--r--  2.0 unx     7004 b- defN 25-Dec-19 05:44 io/avaje/validation/generator/PathPrism.java
+│ --rw-r--r--  2.0 unx     7374 b- defN 25-Dec-19 05:44 io/avaje/validation/generator/ProcessorUtils.java
+│ +-rw-r--r--  2.0 unx     7222 b- defN 25-Dec-19 05:44 io/avaje/validation/generator/ProcessorUtils.java
+│  -rw-r--r--  2.0 unx    18849 b- defN 25-Dec-19 05:44 io/avaje/validation/generator/SubTemplateRenderer.java
+│  -rw-r--r--  2.0 unx    11466 b- defN 25-Dec-19 05:44 io/avaje/validation/generator/TypeMirrorVisitor.java
+│  -rw-r--r--  2.0 unx     4107 b- defN 25-Dec-19 05:44 io/avaje/validation/generator/UType.java
+│  -rw-r--r--  2.0 unx    10588 b- defN 25-Dec-19 05:44 io/avaje/validation/generator/ValidFactoryPrism.java
+│  -rw-r--r--  2.0 unx     7977 b- defN 25-Dec-19 05:44 io/avaje/validation/generator/ValidMethodPrism.java
+│  -rw-r--r--  2.0 unx     8445 b- defN 25-Dec-19 05:44 io/avaje/validation/generator/ValidSubTypesPrism.java
+│  -rw-r--r--  2.0 unx     3215 b- defN 25-Dec-19 05:44 META-INF/maven/io.avaje/avaje-validator-generator/pom.xml
+│  -rw-r--r--  2.0 unx       74 b- defN 25-Dec-19 05:44 META-INF/maven/io.avaje/avaje-validator-generator/pom.properties
+│ -74 files, 444288 bytes uncompressed, 104368 bytes compressed:  76.5%
+│ +74 files, 444136 bytes uncompressed, 104343 bytes compressed:  76.5%
+├── io/avaje/validation/generator/ProcessorUtils.java
+│ @@ -124,17 +124,16 @@
+│     * Return the common parent package between two classes/packages.
+│     *
+│     * @param firstPkg first class/package string
+│     * @param secondPkg second class/package string
+│     * @return the common package between the two classes
+│     */
+│    public static String commonParent(String firstPkg, String secondPkg) {
+│ -    if ((secondPkg == null || secondPkg.isBlank()) && (firstPkg == null || firstPkg.isBlank())) return "";
+│ -    if (secondPkg == null || secondPkg.isBlank()) return firstPkg;
+│ -    if (firstPkg == null || firstPkg.isBlank()) return packageOf(secondPkg);
+│ +    if (secondPkg == null) return firstPkg;
+│ +    if (firstPkg == null) return packageOf(secondPkg);
+│      if (secondPkg.startsWith(firstPkg)) {
+│        return firstPkg;
+│      }
+│      int next;
+│      do {
+│        next = firstPkg.lastIndexOf('.');
+│        if (next > -1) {
+
