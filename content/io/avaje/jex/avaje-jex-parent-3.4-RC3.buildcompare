@@ -1,0 +1,18 @@
+version=0.4
+ok=24
+ko=4
+ignored=0
+okFiles="avaje-jex-parent-3.4-RC3.pom avaje-jex-3.4-RC3.pom avaje-jex-3.4-RC3.jar avaje-jex-3.4-RC3-sources.jar avaje-jex-test-3.4-RC3.pom avaje-jex-test-3.4-RC3.jar avaje-jex-test-3.4-RC3-sources.jar avaje-jex-file-upload-3.4-RC3.pom avaje-jex-freemarker-3.4-RC3.pom avaje-jex-freemarker-3.4-RC3.jar avaje-jex-freemarker-3.4-RC3-sources.jar avaje-jex-htmx-3.4-RC3.pom avaje-jex-htmx-3.4-RC3.jar avaje-jex-htmx-3.4-RC3-sources.jar avaje-jex-mustache-3.4-RC3.pom avaje-jex-mustache-3.4-RC3.jar avaje-jex-mustache-3.4-RC3-sources.jar avaje-jex-static-content-3.4-RC3.pom avaje-jex-static-content-3.4-RC3.jar avaje-jex-static-content-3.4-RC3-sources.jar avaje-jex-ssl-3.4-RC3.pom avaje-jex-ssl-3.4-RC3.jar avaje-jex-ssl-3.4-RC3-sources.jar avaje-jex-http3-flupke-0.4.jar"
+koFiles="avaje-jex-file-upload-3.4-RC3.jar avaje-jex-file-upload-3.4-RC3-sources.jar avaje-jex-http3-flupke-0.4.pom avaje-jex-http3-flupke-0.4-sources.jar"
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+# diffoscope target/reference/io.avaje/avaje-jex-file-upload-3.4-RC3.jar avaje-jex-file-upload/target/avaje-jex-file-upload-3.4-RC3.jar
+# diffoscope target/reference/io.avaje/avaje-jex-file-upload-3.4-RC3-sources.jar avaje-jex-file-upload/target/avaje-jex-file-upload-3.4-RC3-sources.jar
+# diffoscope target/reference/io.avaje/avaje-jex-http3-flupke-0.4.pom avaje-jex-http3-flupke/pom.xml
+# diffoscope target/reference/io.avaje/avaje-jex-http3-flupke-0.4-sources.jar avaje-jex-http3-flupke/target/avaje-jex-http3-flupke-0.4-sources.jar
+stabilize_ok=0
+stabilize_ko=3
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles="avaje-jex-file-upload-3.4-RC3.jar.stabilized avaje-jex-file-upload-3.4-RC3-sources.jar.stabilized avaje-jex-http3-flupke-0.4-sources.jar.stabilized"
+stabilize_ignoredFiles="avaje-jex-http3-flupke-0.4.pom"

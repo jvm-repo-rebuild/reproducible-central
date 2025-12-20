@@ -22,14 +22,14 @@ Source code: [https://github.com/avaje/avaje-jex.git](https://github.com/avaje/a
 * [io.avaje:avaje-jex-test](https://central.sonatype.com/artifact/io.avaje/avaje-jex-test/overview)
 </details>
 
-rebuilding **36 releases** of io.avaje:avaje-jex-parent:
+rebuilding **37 releases** of io.avaje:avaje-jex-parent:
 - **30** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.4-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.4-RC3/pom) | | | |
+| [3.4-RC3](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.4-RC3/pom) | [mvn jdk25 w](avaje-jex-3.4-RC3.buildspec) | [result](avaje-jex-parent-3.4-RC3.buildinfo): [24 :white_check_mark:  4 :warning:](avaje-jex-parent-3.4-RC3.buildcompare) | 3 :rotating_light: 1 :no_entry_sign: | 386K |
 | [3.4-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.4-RC2/pom) | [mvn jdk25 w](avaje-jex-3.4-RC2.buildspec) | [result](avaje-jex-parent-3.4-RC2.buildinfo): [28 :white_check_mark: ](avaje-jex-parent-3.4-RC2.buildcompare) | | 381K |
 | [3.4-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.4-RC1/pom) | [mvn jdk25 w](avaje-jex-3.4-RC1.buildspec) | [result](avaje-jex-parent-3.4-RC1.buildinfo): [24 :white_check_mark:  1 :warning:](avaje-jex-parent-3.4-RC1.buildcompare) | 1 :no_entry_sign: | 337K |
 | [3.3](https://central.sonatype.com/artifact/io.avaje/avaje-jex-parent/3.3/pom) | [mvn jdk25 w](avaje-jex-3.3.buildspec) | [result](avaje-jex-parent-3.3.buildinfo): [25 :white_check_mark: ](avaje-jex-parent-3.3.buildcompare) | | 334K |
