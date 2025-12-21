@@ -1,5 +1,9 @@
 content/com/flowlogix/flowlogix-10.0.8.buildspec:11
-content/com/github/hazendaz/maven/makeself-maven-plugin/makeself-maven-plugin-1.11.0.buildspec:1.11.1
 content/de/gematik/pki/gemLibPki/gemLibPki-3.3.1.buildspec:3.4.0
+content/eu/maveniverse/maven/shared/shared/shared-0.1.10.buildspec:0.1.11
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.2.2-beta-16.buildspec:11.2.2-beta-17
 content/io/liftwizard/liftwizard-2.1.36.buildspec:2.1.37
-content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.2.0.Final.buildspec:8.2.1.Final
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.11.1-beta-1.buildspec:5.11.1-beta-2
+content/org/apache/wicket/wicket-parent-10.7.0.buildspec:10.8.0
+content/org/codehaus/plexus/plexus-languages/plexus-languages-1.5.1.buildspec:1.5.2
+content/org/hibernate/reactive/hibernate-reactive/hibernate-reactive-4.2.0.Final.buildspec:4.2.1.Final
