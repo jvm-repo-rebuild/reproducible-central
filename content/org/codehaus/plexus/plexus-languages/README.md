@@ -13,13 +13,13 @@ Source code: [https://github.com/codehaus-plexus/plexus-languages.git](https://g
 * [org.codehaus.plexus:plexus-languages](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-languages/overview)
 </details>
 
-rebuilding **11 releases** of org.codehaus.plexus:plexus-languages:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **12 releases** of org.codehaus.plexus:plexus-languages:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.5.2](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-languages/1.5.2/pom) | | | |
+| [1.5.2](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-languages/1.5.2/pom) | [mvn jdk25](plexus-languages-1.5.2.buildspec) | [result](plexus-java-1.5.2.buildinfo): [5 :white_check_mark: ](plexus-java-1.5.2.buildcompare) | | 585K |
 | [1.5.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-languages/1.5.1/pom) | [mvn jdk25](plexus-languages-1.5.1.buildspec) | [result](plexus-java-1.5.1.buildinfo): [5 :white_check_mark: ](plexus-java-1.5.1.buildcompare) | | 585K |
 | [1.5.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-languages/1.5.0/pom) | [mvn jdk24](plexus-languages-1.5.0.buildspec) | [result](plexus-java-1.5.0.buildinfo): [5 :white_check_mark: ](plexus-java-1.5.0.buildcompare) | | 585K |
 | [1.4.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-languages/1.4.0/pom) | [mvn jdk21](plexus-languages-1.4.0.buildspec) | [result](plexus-java-1.4.0.buildinfo): [5 :white_check_mark: ](plexus-java-1.4.0.buildcompare) | | 585K |

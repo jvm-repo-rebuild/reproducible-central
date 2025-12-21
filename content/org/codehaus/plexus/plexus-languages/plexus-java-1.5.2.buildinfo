@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Languages
+group-id=org.codehaus.plexus
+artifact-id=plexus-languages
+version=1.5.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-languages.git
+source.scm.tag=plexus-languages-1.5.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+mvn.aggregate.artifact-id=plexus-java
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.plexus:plexus-languages
+
+outputs.0.0.groupId=org.codehaus.plexus
+outputs.0.0.filename=plexus-languages-1.5.2.pom
+outputs.0.0.length=3858
+outputs.0.0.checksums.sha512=d2feb08802db97aed4cce3d9d37e54ec8b7e295308ebffd94f71aebe18d364192826c3edd0de333060f67c8298a9402b7b816cde4d523a30b7442addbcf902f0
+
+outputs.0.1.groupId=org.codehaus.plexus
+outputs.0.1.filename=plexus-languages-1.5.2-source-release.zip
+outputs.0.1.length=500673
+outputs.0.1.checksums.sha512=9695c4c85b1a4654caae7858d38732491fc62c680671157051dfacf66426d259ca1ea50477125b26744bc27ab4a603aac4fd001501dedda54fc4fdc24d86e4d3
+
+outputs.1.coordinates=org.codehaus.plexus:plexus-java
+
+outputs.1.0.groupId=org.codehaus.plexus
+outputs.1.0.filename=plexus-java-1.5.2.pom
+outputs.1.0.length=4083
+outputs.1.0.checksums.sha512=7a0e7187e3b466b1bf45e2e457c62b75d7bba98b27c63f554c6860f08c7c788acbcfade5f403a67cf3fa9ecdd20d447d409606ce307d143141446572890ac837
+
+outputs.1.1.groupId=org.codehaus.plexus
+outputs.1.1.filename=plexus-java-1.5.2.jar
+outputs.1.1.length=57355
+outputs.1.1.checksums.sha512=461412437b35626900ee8e27d10660a9c0ce232b4517aa75db59585ea6e7b1ad96b8a3df018db3be5a4777234fe78b3606c623097d47d6f185f29e3888d1a70f
+
+outputs.1.2.groupId=org.codehaus.plexus
+outputs.1.2.filename=plexus-java-1.5.2-sources.jar
+outputs.1.2.length=32517
+outputs.1.2.checksums.sha512=231214158763ba12eab7cae5460c082ff264968a98b96c52bfde44773a0838005c495a0d06566a178dedbef5b17a3757123e452eaeb1d9def6c9fe47ceaef383
