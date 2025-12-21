@@ -14,14 +14,14 @@ Source code: [https://github.com/jpmml/jpmml-converter.git](https://github.com/j
 * [org.jpmml:pmml-converter-testing](https://central.sonatype.com/artifact/org.jpmml/pmml-converter-testing/overview)
 </details>
 
-rebuilding **12 releases** of org.jpmml:jpmml-converter:
+rebuilding **13 releases** of org.jpmml:jpmml-converter:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 3, 1 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 4, 1 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.6.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-converter/1.6.6/pom) | | | |
+| [1.6.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-converter/1.6.6/pom) | [mvn jdk11](jpmml-converter-1.6.6.buildspec) | [result](jpmml-converter-1.6.6.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-converter-1.6.6.buildcompare) | 1 :recycle: 1 :rotating_light: | 220K |
 | [1.6.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-converter/1.6.5/pom) | [mvn jdk11](jpmml-converter-1.6.5.buildspec) | [result](jpmml-converter-1.6.5.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-converter-1.6.5.buildcompare) | 1 :recycle: 1 :rotating_light: | 215K |
 | [1.6.4](https://central.sonatype.com/artifact/org.jpmml/jpmml-converter/1.6.4/pom) | [mvn jdk11](jpmml-converter-1.6.4.buildspec) | [result](jpmml-converter-1.6.4.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-converter-1.6.4.buildcompare) | 2 :recycle: | 214K |
 | [1.6.3](https://central.sonatype.com/artifact/org.jpmml/jpmml-converter/1.6.3/pom) | [mvn jdk11](jpmml-converter-1.6.3.buildspec) | [result](jpmml-converter-1.6.3.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-converter-1.6.3.buildcompare) | 1 :recycle: 1 :rotating_light: | 215K |
