@@ -21,13 +21,13 @@ Source code: [https://github.com/hypfvieh/dbus-java.git](https://github.com/hypf
 * [com.github.hypfvieh:dbus-java-utils](https://central.sonatype.com/artifact/com.github.hypfvieh/dbus-java-utils/overview)
 </details>
 
-rebuilding **2 releases** of com.github.hypfvieh:dbus-java-parent:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **3 releases** of com.github.hypfvieh:dbus-java-parent:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [5.2.0](https://central.sonatype.com/artifact/com.github.hypfvieh/dbus-java-parent/5.2.0/pom) | | | |
+| [5.2.0](https://central.sonatype.com/artifact/com.github.hypfvieh/dbus-java-parent/5.2.0/pom) | [mvn jdk25](dbus-java-core-5.2.0.buildspec) | [result](dbus-java-parent-5.2.0.buildinfo): [32 :white_check_mark: ](dbus-java-parent-5.2.0.buildcompare) | | 5.8M |
 | [5.1.1](https://central.sonatype.com/artifact/com.github.hypfvieh/dbus-java-parent/5.1.1/pom) | [mvn jdk21](dbus-java-core-5.1.1.buildspec) | [result](dbus-java-parent-5.1.1.buildinfo): [31 :white_check_mark:  1 :warning:](dbus-java-parent-5.1.1.buildcompare) [:mag:](dbus-java-parent-5.1.1.diffoscope) [:memo:](https://github.com/hypfvieh/dbus-java/pull/279) | - | 5.7M |
 | [5.1.0](https://central.sonatype.com/artifact/com.github.hypfvieh/dbus-java-parent/5.1.0/pom) | [mvn jdk21](dbus-java-core-5.1.0.buildspec) | [result](dbus-java-parent-5.1.0.buildinfo): [32 :white_check_mark: ](dbus-java-parent-5.1.0.buildcompare) | | 5.6M |
 
