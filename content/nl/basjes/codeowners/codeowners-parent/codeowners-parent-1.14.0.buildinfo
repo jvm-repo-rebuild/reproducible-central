@@ -14,8 +14,8 @@ source.scm.tag=v1.14.0
 build-tool=mvn
 
 # effective build environment information
-java.version=21.0.9
-java.vendor=Ubuntu
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
 os.name=Linux
 os.version=6.11.0-1018-azure
 os.arch=amd64
@@ -23,6 +23,7 @@ line.separator=\n
 
 # Maven rebuild instructions and effective environment
 mvn.version=3.9.11
+mvn.toolchain.jdk=openjdk version "21.0.9" 2025-10-21:OpenJDK Runtime Environment (build 21.0.9+10-Ubuntu-122.04):OpenJDK 64-Bit Server VM (build 21.0.9+10-Ubuntu-122.04, mixed mode, sharing)
 mvn.aggregate.artifact-id=codeowners-enforcer-rules
 
 # aggregated output
@@ -43,8 +44,8 @@ outputs.1.0.checksums.sha512=abab5b6d030d958d35d092cc3b19d0b0b31acf5b0035ca431af
 
 outputs.1.1.groupId=nl.basjes.codeowners
 outputs.1.1.filename=codeowners-reader-1.14.0.jar
-outputs.1.1.length=340941
-outputs.1.1.checksums.sha512=f85f8007886d031dad2fdb609d2a255e1a64b72fcae2df6236b28c85d123b39e545106940b2717ec552cd4bd6833915a55ba031e7636ae2a4d152ca835054222
+outputs.1.1.length=340950
+outputs.1.1.checksums.sha512=820e548f09825b6db21951aff62e6e1a5a77ea00b36a1b66e574667d1970c97e9ac2e3bcc0bae51764f10d5ab8b640d5e83c91bfa9576c544d763842b0d22658
 
 outputs.1.2.groupId=nl.basjes.codeowners
 outputs.1.2.filename=codeowners-reader-1.14.0-sources.jar
@@ -60,8 +61,8 @@ outputs.2.0.checksums.sha512=58893f91245ed589866a94f46a31fc53f1d54cfe6a36b193fa3
 
 outputs.2.1.groupId=nl.basjes.gitignore
 outputs.2.1.filename=gitignore-reader-1.14.0.jar
-outputs.2.1.length=16923
-outputs.2.1.checksums.sha512=a6b64fa62e34c6e957ba7429bab323a9bc7dd9f6de82c4b91e8b86439c925505835f473bb46f2e5d4e109577509cd2e81700e2461fa129f868705037a472c651
+outputs.2.1.length=16932
+outputs.2.1.checksums.sha512=8e5885e50d2350383bd200469b336dc6609f5e7e2e1eed7e9ef55d24b04f61973f46af8efe9284726d5cf97a6f51623fe4651788c2249dcd0b237f8bd2c438c7
 
 outputs.2.2.groupId=nl.basjes.gitignore
 outputs.2.2.filename=gitignore-reader-1.14.0-sources.jar
@@ -77,8 +78,8 @@ outputs.3.0.checksums.sha512=48419b5560328a9d53786a97cd5597813b9c32084160ad3413c
 
 outputs.3.1.groupId=nl.basjes.codeowners
 outputs.3.1.filename=codeowners-validator-1.14.0.jar
-outputs.3.1.length=46921
-outputs.3.1.checksums.sha512=0edce56c866dd2ddd294bb99427d511b64a9791cd348b69beffe801923b4f19340aeee950b377443774e12caeb1bbc42ce39f457f84523aba2d4bbbd4c94c126
+outputs.3.1.length=46930
+outputs.3.1.checksums.sha512=036dc9a34a55a40fae2f273dbfaeb7465d462644c8da368d63af5a61b0099ae6df81608b3b717df126533e48e16a1422b851ab946e9ec278a64ef1e372aa7f75
 
 outputs.3.2.groupId=nl.basjes.codeowners
 outputs.3.2.filename=codeowners-validator-1.14.0-sources.jar
@@ -94,8 +95,8 @@ outputs.4.0.checksums.sha512=dd546649ee3d0538813e675c27dd40d65352980686b6882cebc
 
 outputs.4.1.groupId=nl.basjes.maven.enforcer.codeowners
 outputs.4.1.filename=codeowners-enforcer-rules-1.14.0.jar
-outputs.4.1.length=9333
-outputs.4.1.checksums.sha512=588f52f1e7214b84372b16babc3e643908dc0fe5b332817359a17a0ba305f7927c4708e20e7cae42a1aeffc7b3ec0e44543653f7d89c267e99abce56f3211c2b
+outputs.4.1.length=9342
+outputs.4.1.checksums.sha512=6562293e112078fefd1f675a262251c89dd1ef9eadaa5c8c0410ed49672264730b8183dc8d5a95fa52d2b3ce5c2845a41a0dfab20b64d3c405fd1492d8fae010
 
 outputs.4.2.groupId=nl.basjes.maven.enforcer.codeowners
 outputs.4.2.filename=codeowners-enforcer-rules-1.14.0-sources.jar
