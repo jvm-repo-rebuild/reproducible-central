@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.mybatis.caches:mybatis-redis:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.1.0](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-redis/1.1.0/pom) | | | |
 | [1.0.0](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-redis/1.0.0/pom) | [mvn jdk21 w](mybatis-redis-1.0.0.buildspec) | [result](mybatis-redis-1.0.0.buildinfo): [3 :white_check_mark: ](mybatis-redis-1.0.0.buildcompare) | | 44K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -3,8 +3,8 @@
   <groupId>org.codehaus.mojo</groupId>
   <artifactId>exec-maven-plugin</artifactId>
   <versioning>
-    <latest>3.6.2</latest>
-    <release>3.6.2</release>
+    <latest>3.6.3</latest>
+    <release>3.6.3</release>
     <versions>
       <version>1.0</version>
       <version>1.0.1</version>
@@ -32,7 +32,8 @@
       <version>3.6.0</version>
       <version>3.6.1</version>
       <version>3.6.2</version>
+      <version>3.6.3</version>
     </versions>
-    <lastUpdated>20251025202547</lastUpdated>
+    <lastUpdated>20251221210714</lastUpdated>
   </versioning>
 </metadata>
