@@ -195,10 +195,10 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-zookeeper-spring-boot-starter](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo-zookeeper-spring-boot-starter/overview)
 </details>
 
-rebuilding **84 releases** of org.apache.dubbo:dubbo:
+rebuilding **85 releases** of org.apache.dubbo:dubbo:
 - **24** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 60 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 61 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 2, 1 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
@@ -214,7 +214,7 @@ rebuilding **84 releases** of org.apache.dubbo:dubbo:
 | [3.3.0-beta.3](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.0-beta.3/pom) | [mvn jdk21](dubbo-3.3.0-beta.3.buildspec) | [result](dubbo-parent-3.3.0-beta.3.buildinfo): [252 :white_check_mark: ](dubbo-parent-3.3.0-beta.3.buildcompare) | | 45M |
 | [3.3.0-beta.2](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.0-beta.2/pom) | [mvn jdk21](dubbo-3.3.0-beta.2.buildspec) | [result](dubbo-parent-3.3.0-beta.2.buildinfo): [268 :white_check_mark: ](dubbo-parent-3.3.0-beta.2.buildcompare) | | 47M |
 | [3.3.0-beta.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.3.0-beta.1/pom) | [mvn jdk21](dubbo-3.3.0-beta.1.buildspec) | [result](dubbo-parent-3.3.0-beta.1.buildinfo): [328 :white_check_mark: ](dubbo-parent-3.3.0-beta.1.buildcompare) | | 46M |
-| [3.2.19](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.19/pom) | | | |
+| [3.2.19](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.19/pom) | [mvn jdk21](dubbo-3.2.19.buildspec) | [result](dubbo-parent-3.2.19.buildinfo): [237 :white_check_mark:  1 :warning:](dubbo-parent-3.2.19.buildcompare) | 1 :recycle: | 29M |
 | [3.2.18](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.18/pom) | [mvn jdk8](dubbo-3.2.18.buildspec) | [result](dubbo-parent-3.2.18.buildinfo): [238 :white_check_mark: ](dubbo-parent-3.2.18.buildcompare) | | 28M |
 | [3.2.17](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.17/pom) | [mvn jdk8](dubbo-3.2.17.buildspec) | [result](dubbo-parent-3.2.17.buildinfo): [238 :white_check_mark: ](dubbo-parent-3.2.17.buildcompare) | | 28M |
 | [3.2.16](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.16/pom) | [mvn jdk8](dubbo-3.2.16.buildspec) | [result](dubbo-parent-3.2.16.buildinfo): [238 :white_check_mark: ](dubbo-parent-3.2.16.buildcompare) | | 28M |
