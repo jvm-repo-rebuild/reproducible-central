@@ -7,7 +7,7 @@ gitRepo=https://github.com/nielsbasjes/codeowners.git
 gitTag=v${version}
 
 tool=mvn-3.9.11
-jdk=21
+jdk=25
 toolchains="8|17|21|25"
 newline=lf
 #umask=022
@@ -15,5 +15,5 @@ newline=lf
 command="mvn -Prelease,skipQuality clean verify -DskipTests -Denforcer.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-diffoscope=${artifactId}-${version}.diffoscope
+#diffoscope=${artifactId}-${version}.diffoscope
 issue=
