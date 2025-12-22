@@ -1,0 +1,18 @@
+version=6.15.4
+ok=19
+ko=3
+ignored=0
+okFiles="acs-aem-commons-6.15.4.pom acs-aem-commons-bundle-6.15.4.pom acs-aem-commons-bundle-6.15.4-tests.jar acs-aem-commons-bundle-6.15.4-sources.jar acs-aem-commons-bundle-onprem-6.15.4.pom acs-aem-commons-bundle-onprem-6.15.4.jar acs-aem-commons-bundle-onprem-6.15.4-sources.jar acs-aem-commons-ui.apps-6.15.4.pom acs-aem-commons-ui.apps-6.15.4.zip acs-aem-commons-ui.apps-6.15.4-sources.jar acs-aem-commons-ui.apps-6.15.4-cloud.zip acs-aem-commons-ui.content-6.15.4.pom acs-aem-commons-ui.content-6.15.4.zip acs-aem-commons-ui.content-6.15.4-sources.jar acs-aem-commons-ui.config-6.15.4.pom acs-aem-commons-ui.config-6.15.4.zip acs-aem-commons-ui.config-6.15.4-sources.jar acs-aem-commons-all-6.15.4.pom acs-aem-commons-all-6.15.4-sources.jar"
+koFiles="acs-aem-commons-bundle-6.15.4.jar acs-aem-commons-all-6.15.4.zip acs-aem-commons-all-6.15.4-cloud.zip"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.adobe.acs/acs-aem-commons-bundle-6.15.4.jar bundle/target/acs-aem-commons-bundle-6.15.4.jar
+# diffoscope target/reference/com.adobe.acs/acs-aem-commons-all-6.15.4.zip all/target/acs-aem-commons-all-6.15.4.zip
+# diffoscope target/reference/com.adobe.acs/acs-aem-commons-all-6.15.4-cloud.zip all/target/acs-aem-commons-all-6.15.4-cloud.zip
+stabilize_ok=0
+stabilize_ko=3
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="acs-aem-commons-bundle-6.15.4.jar.stabilized acs-aem-commons-all-6.15.4.zip.stabilized acs-aem-commons-all-6.15.4-cloud.zip.stabilized"
+stabilize_ignoredFiles=""
