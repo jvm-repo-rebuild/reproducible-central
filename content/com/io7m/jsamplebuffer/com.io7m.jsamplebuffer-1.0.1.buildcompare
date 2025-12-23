@@ -1,0 +1,28 @@
+version=1.0.1
+ok=7
+ko=15
+ignored=0
+okFiles="com.io7m.jsamplebuffer-1.0.1.pom com.io7m.jsamplebuffer-1.0.1-cyclonedx.xml com.io7m.jsamplebuffer.api-1.0.1.pom com.io7m.jsamplebuffer.api-1.0.1-cyclonedx.xml com.io7m.jsamplebuffer.vanilla-1.0.1.pom com.io7m.jsamplebuffer.xmedia-1.0.1.pom com.io7m.jsamplebuffer.tests-1.0.1.pom"
+koFiles="com.io7m.jsamplebuffer.api-1.0.1.jar com.io7m.jsamplebuffer.api-1.0.1-sources.jar com.io7m.jsamplebuffer.api-1.0.1-tests.jar com.io7m.jsamplebuffer.vanilla-1.0.1.jar com.io7m.jsamplebuffer.vanilla-1.0.1-sources.jar com.io7m.jsamplebuffer.vanilla-1.0.1-cyclonedx.xml com.io7m.jsamplebuffer.vanilla-1.0.1-tests.jar com.io7m.jsamplebuffer.xmedia-1.0.1.jar com.io7m.jsamplebuffer.xmedia-1.0.1-sources.jar com.io7m.jsamplebuffer.xmedia-1.0.1-cyclonedx.xml com.io7m.jsamplebuffer.xmedia-1.0.1-tests.jar com.io7m.jsamplebuffer.tests-1.0.1.jar com.io7m.jsamplebuffer.tests-1.0.1-sources.jar com.io7m.jsamplebuffer.tests-1.0.1-cyclonedx.xml com.io7m.jsamplebuffer.tests-1.0.1-tests.jar"
+ignoredFiles=""
+# diffoscope target/reference/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.api-1.0.1.jar com.io7m.jsamplebuffer.api/target/com.io7m.jsamplebuffer.api-1.0.1.jar
+# diffoscope target/reference/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.api-1.0.1-sources.jar com.io7m.jsamplebuffer.api/target/com.io7m.jsamplebuffer.api-1.0.1-sources.jar
+# diffoscope target/reference/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.api-1.0.1-tests.jar com.io7m.jsamplebuffer.api/target/com.io7m.jsamplebuffer.api-1.0.1-tests.jar
+# diffoscope target/reference/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.vanilla-1.0.1.jar com.io7m.jsamplebuffer.vanilla/target/com.io7m.jsamplebuffer.vanilla-1.0.1.jar
+# diffoscope target/reference/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.vanilla-1.0.1-sources.jar com.io7m.jsamplebuffer.vanilla/target/com.io7m.jsamplebuffer.vanilla-1.0.1-sources.jar
+# diffoscope target/reference/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.vanilla-1.0.1-cyclonedx.xml com.io7m.jsamplebuffer.vanilla/target/bom.xml
+# diffoscope target/reference/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.vanilla-1.0.1-tests.jar com.io7m.jsamplebuffer.vanilla/target/com.io7m.jsamplebuffer.vanilla-1.0.1-tests.jar
+# diffoscope target/reference/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.xmedia-1.0.1.jar com.io7m.jsamplebuffer.xmedia/target/com.io7m.jsamplebuffer.xmedia-1.0.1.jar
+# diffoscope target/reference/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.xmedia-1.0.1-sources.jar com.io7m.jsamplebuffer.xmedia/target/com.io7m.jsamplebuffer.xmedia-1.0.1-sources.jar
+# diffoscope target/reference/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.xmedia-1.0.1-cyclonedx.xml com.io7m.jsamplebuffer.xmedia/target/bom.xml
+# diffoscope target/reference/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.xmedia-1.0.1-tests.jar com.io7m.jsamplebuffer.xmedia/target/com.io7m.jsamplebuffer.xmedia-1.0.1-tests.jar
+# diffoscope target/reference/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.tests-1.0.1.jar com.io7m.jsamplebuffer.tests/target/com.io7m.jsamplebuffer.tests-1.0.1.jar
+# diffoscope target/reference/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.tests-1.0.1-sources.jar com.io7m.jsamplebuffer.tests/target/com.io7m.jsamplebuffer.tests-1.0.1-sources.jar
+# diffoscope target/reference/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.tests-1.0.1-cyclonedx.xml com.io7m.jsamplebuffer.tests/target/bom.xml
+# diffoscope target/reference/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer.tests-1.0.1-tests.jar com.io7m.jsamplebuffer.tests/target/com.io7m.jsamplebuffer.tests-1.0.1-tests.jar
+stabilize_ok=10
+stabilize_ko=2
+stabilize_ignored=3
+stabilize_okFiles="com.io7m.jsamplebuffer.api-1.0.1.jar.stabilized com.io7m.jsamplebuffer.api-1.0.1-sources.jar.stabilized com.io7m.jsamplebuffer.api-1.0.1-tests.jar.stabilized com.io7m.jsamplebuffer.vanilla-1.0.1-sources.jar.stabilized com.io7m.jsamplebuffer.vanilla-1.0.1-tests.jar.stabilized com.io7m.jsamplebuffer.xmedia-1.0.1.jar.stabilized com.io7m.jsamplebuffer.xmedia-1.0.1-sources.jar.stabilized com.io7m.jsamplebuffer.xmedia-1.0.1-tests.jar.stabilized com.io7m.jsamplebuffer.tests-1.0.1-sources.jar.stabilized com.io7m.jsamplebuffer.tests-1.0.1-tests.jar.stabilized"
+stabilize_koFiles="com.io7m.jsamplebuffer.vanilla-1.0.1.jar.stabilized com.io7m.jsamplebuffer.tests-1.0.1.jar.stabilized"
+stabilize_ignoredFiles="com.io7m.jsamplebuffer.vanilla-1.0.1-cyclonedx.xml com.io7m.jsamplebuffer.xmedia-1.0.1-cyclonedx.xml com.io7m.jsamplebuffer.tests-1.0.1-cyclonedx.xml"
