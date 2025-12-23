@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/cucumber/html-formatter.git](https://github.com/cucumber/html-formatter.git)
 
-rebuilding **25 releases** of io.cucumber:html-formatter:
-- **23** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **26 releases** of io.cucumber:html-formatter:
+- **24** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [22.3.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/22.3.0/pom) | | | |
+| [22.3.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/22.3.0/pom) | [mvn jdk17](html-formatter-22.3.0.buildspec) | [result](html-formatter-22.3.0.buildinfo): [3 :white_check_mark: ](html-formatter-22.3.0.buildcompare) | | 568K |
 | [22.2.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/22.2.0/pom) | [mvn jdk17](html-formatter-22.2.0.buildspec) | [result](html-formatter-22.2.0.buildinfo): [3 :white_check_mark: ](html-formatter-22.2.0.buildcompare) | | 568K |
 | [22.1.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/22.1.0/pom) | [mvn jdk17](html-formatter-22.1.0.buildspec) | [result](html-formatter-22.1.0.buildinfo): [3 :white_check_mark: ](html-formatter-22.1.0.buildcompare) | | 568K |
 | [22.0.0](https://central.sonatype.com/artifact/io.cucumber/html-formatter/22.0.0/pom) | [mvn jdk17](html-formatter-22.0.0.buildspec) | [result](html-formatter-22.0.0.buildinfo): [3 :white_check_mark: ](html-formatter-22.0.0.buildcompare) | | 568K |
