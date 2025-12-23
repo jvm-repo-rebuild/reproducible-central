@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=MyBatis Thymeleaf
+group-id=org.mybatis.scripting
+artifact-id=mybatis-thymeleaf
+version=1.1.1
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/thymeleaf-scripting.git
+source.scm.tag=mybatis-thymeleaf-1.1.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.mybatis.scripting
+outputs.0.filename=mybatis-thymeleaf-1.1.1.pom
+outputs.0.length=7346
+outputs.0.checksums.sha512=42a926f401e7456c8ba62693074982f8e72556616fd3968a5bcfd036c751d2d639e76be6adb9aecf2dc3ae5b4cc0aedcfe827027eab56d3aecee824ae5163581
+
+outputs.1.groupId=org.mybatis.scripting
+outputs.1.filename=mybatis-thymeleaf-1.1.1.jar
+outputs.1.length=71054
+outputs.1.checksums.sha512=ae6c3f955406fb07643264de69d796c6ebd20cf1c6b3ca021e04d6d0783156afbe5705650db7a12a3542067758eee6b8c6435d910c6e27bbcc5ea836d0410815
+
+outputs.2.groupId=org.mybatis.scripting
+outputs.2.filename=mybatis-thymeleaf-1.1.1-sources.jar
+outputs.2.length=44458
+outputs.2.checksums.sha512=014b7ebf1d6d235b451e3194f16e57b8cc5053745cfec5c95192cc1f37465144dd837ea67c6f413361a0c737043f98ad3dd2038d8f4d8467ae43628e79ece368
