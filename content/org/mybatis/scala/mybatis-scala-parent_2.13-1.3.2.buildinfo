@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis-scala-parent
+group-id=org.mybatis.scala
+artifact-id=mybatis-scala-parent_2.13
+version=1.3.2
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/scala.git
+source.scm.tag=mybatis-scala-parent_2.13-1.3.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=mybatis-scala-core_2.13
+
+# aggregated output
+
+outputs.0.coordinates=org.mybatis.scala:mybatis-scala-parent_2.13
+
+outputs.0.0.groupId=org.mybatis.scala
+outputs.0.0.filename=mybatis-scala-parent_2.13-1.3.2.pom
+outputs.0.0.length=6276
+outputs.0.0.checksums.sha512=edb6545dc960d47fa416e16babb6d8b855c897a0a47bc058debbf304199a91f3a77a86d74aed674936fbca0668a67710c0c27614339b9d215e06ab54ca6e05e7
+
+outputs.0.1.groupId=org.mybatis.scala
+outputs.0.1.filename=mybatis-scala-parent_2.13-1.3.2-site.xml
+outputs.0.1.length=1142
+outputs.0.1.checksums.sha512=7b62b8da65fc4b6edc2db6b09cb9671a561a642792597790e6e6537d3f165671ae2b97af276b176eca1c238d9a1e997173445176a6c0fa70aac7c0044fa28ae2
+
+outputs.1.coordinates=org.mybatis.scala:mybatis-scala-core_2.13
+
+outputs.1.0.groupId=org.mybatis.scala
+outputs.1.0.filename=mybatis-scala-core_2.13-1.3.2.pom
+outputs.1.0.length=4264
+outputs.1.0.checksums.sha512=5e4f71d61e84483dacb5951a83e3d86ff1c09d8e74138327c9abb7fe26d9b436397fcee221c9268024ffdedc3cf6a499636345809e0eca8df1d4516c4eb5ffc7
+
+outputs.1.1.groupId=org.mybatis.scala
+outputs.1.1.filename=mybatis-scala-core_2.13-1.3.2.jar
+outputs.1.1.length=263804
+outputs.1.1.checksums.sha512=b2ceda9afc0212c7c3d7b7e83898a639f921f50abbff575d44e94e6a1bc6dcca28edfc826277b65131fba652a7cf253d2eee45ebc9a07c6b250af0ebc0fc1df8
+
+outputs.1.2.groupId=org.mybatis.scala
+outputs.1.2.filename=mybatis-scala-core_2.13-1.3.2-sources.jar
+outputs.1.2.length=52385
+outputs.1.2.checksums.sha512=dca0be6a10317b79af16389d0bfb4f48a4ba867cb7de3bbd2584849551f8a437dec4b8034b0334863f98453b6f1ece8fddc508d059c44fe5bc551051a2b4d09a
