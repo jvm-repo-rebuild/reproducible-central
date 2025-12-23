@@ -4,15 +4,11 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20251222205027 --> [jooby](../content/io/jooby/README.md) | [4.0.12](../content/io/jooby/jooby-4.0.12.buildspec) :white_check_mark: | [4.0.13](../content/io/jooby/jooby-4.0.13.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-4.0.12.buildspec 4.0.13` |
+| <!-- 20251223161914 --> [airbase](../content/io/airlift/airbase/README.md) | [336](../content/io/airlift/airbase/airbase-336.buildspec) :white_check_mark: | [337](../content/io/airlift/airbase/airbase-337.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-336.buildspec 337` |
+| <!-- 20251223012913 --> [messages](../content/io/cucumber/messages/README.md) | [31.0.1](../content/io/cucumber/messages/messages-31.0.1.buildspec) :white_check_mark: | [31.1.0](../content/io/cucumber/messages/messages-31.1.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/messages/messages-31.0.1.buildspec 31.1.0` |
+| <!-- 20251222212524 --> [gherkin](../content/io/cucumber/gherkin/README.md) | [37.0.0](../content/io/cucumber/gherkin/gherkin-37.0.0.buildspec) :white_check_mark: | [37.0.1](../content/io/cucumber/gherkin/gherkin-37.0.1.buildspec) | `bin/add-new-release.sh content/io/cucumber/gherkin/gherkin-37.0.0.buildspec 37.0.1` |
+| <!-- 20251222212408 --> [html-formatter](../content/io/cucumber/html-formatter/README.md) | [22.2.0](../content/io/cucumber/html-formatter/html-formatter-22.2.0.buildspec) :white_check_mark: | [22.3.0](../content/io/cucumber/html-formatter/html-formatter-22.3.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/html-formatter/html-formatter-22.2.0.buildspec 22.3.0` |
 | <!-- 20251222173133 --> [hibernate-search-bom](../content/org/hibernate/search/hibernate-search-bom/README.md) | [8.2.1.Final](../content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.2.1.Final.buildspec) :white_check_mark: | 7.2.5.Final  | `bin/add-new-release.sh content/org/hibernate/search/hibernate-search-bom/hibernate-search-parent-8.2.1.Final.buildspec ...` |
-| <!-- 20251222125523 --> [com.io7m.jsamplebuffer](../content/com/io7m/jsamplebuffer/README.md) | [1.0.0](../content/com/io7m/jsamplebuffer/com.io7m.jsamplebuffer-1.0.0.buildspec) :white_check_mark: | [1.0.1](../content/com/io7m/jsamplebuffer/com.io7m.jsamplebuffer-1.0.1.buildspec) | `bin/add-new-release.sh content/com/io7m/jsamplebuffer/com.io7m.jsamplebuffer-1.0.0.buildspec 1.0.1` |
-| <!-- 20251222030113 --> [mybatis-redis](../content/org/mybatis/caches/mybatis-redis/README.md) | [1.0.0](../content/org/mybatis/caches/mybatis-redis/mybatis-redis-1.0.0.buildspec) :white_check_mark: | [1.1.0](../content/org/mybatis/caches/mybatis-redis/mybatis-redis-1.1.0.buildspec) | `bin/add-new-release.sh content/org/mybatis/caches/mybatis-redis/mybatis-redis-1.0.0.buildspec 1.1.0` |
-| <!-- 20251222020912 --> [mybatis-scala-parent_2.13](../content/org/mybatis/scala/README.md) | [1.3.1](../content/org/mybatis/scala/mybatis-scala-1.3.1.buildspec) :white_check_mark: | [1.3.2](../content/org/mybatis/scala/mybatis-scala-1.3.2.buildspec) | `bin/add-new-release.sh content/org/mybatis/scala/mybatis-scala-1.3.1.buildspec 1.3.2` |
-| <!-- 20251222001913 --> [mybatis-thymeleaf](../content/org/mybatis/scripting/mybatis-thymeleaf/README.md) | [1.1.0](../content/org/mybatis/scripting/mybatis-thymeleaf/mybatis-thymeleaf-1.1.0.buildspec) :white_check_mark: | [1.1.1](../content/org/mybatis/scripting/mybatis-thymeleaf/mybatis-thymeleaf-1.1.1.buildspec) | `bin/add-new-release.sh content/org/mybatis/scripting/mybatis-thymeleaf/mybatis-thymeleaf-1.1.0.buildspec 1.1.1` |
-| <!-- 20251221230114 --> [logback-parent](../content/ch/qos/logback/README.md) | [1.5.22](../content/ch/qos/logback/logback-1.5.22.buildspec) :white_check_mark: | [1.5.23](../content/ch/qos/logback/logback-1.5.23.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/logback-1.5.22.buildspec 1.5.23` |
-| <!-- 20251221210714 --> [exec-maven-plugin](../content/org/codehaus/mojo/exec-maven-plugin/README.md) | [3.6.2](../content/org/codehaus/mojo/exec-maven-plugin/exec-maven-plugin-3.6.2.buildspec) :white_check_mark: | [3.6.3](../content/org/codehaus/mojo/exec-maven-plugin/exec-maven-plugin-3.6.3.buildspec) | `bin/add-new-release.sh content/org/codehaus/mojo/exec-maven-plugin/exec-maven-plugin-3.6.2.buildspec 3.6.3` |
-| <!-- 20251221210113 --> [credentialmanager](../content/com/github/philippheuer/credentialmanager/README.md) | [0.3.1](../content/com/github/philippheuer/credentialmanager/credentialmanager-0.3.1.buildspec) :white_check_mark: | [0.4.0](../content/com/github/philippheuer/credentialmanager/credentialmanager-0.4.0.buildspec) | `bin/add-new-release.sh content/com/github/philippheuer/credentialmanager/credentialmanager-0.3.1.buildspec 0.4.0` |
 | <!-- 20251118222117 --> [flowlogix](../content/com/flowlogix/README.md) | [10.0.8](../content/com/flowlogix/flowlogix-10.0.8.buildspec) :white_check_mark: | [11](../content/com/flowlogix/flowlogix-11.buildspec) | `bin/add-new-release.sh content/com/flowlogix/flowlogix-10.0.8.buildspec 11` |
 <!-- END GENERATED ADD OK -->
 
@@ -40,6 +36,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20251223210049 --> [jpmml-lightgbm](../content/org/jpmml/jpmml-lightgbm/README.md) | [1.6.2](../content/org/jpmml/jpmml-lightgbm/jpmml-lightgbm-1.6.2.buildspec) :warning: | [1.6.3](../content/org/jpmml/jpmml-lightgbm/jpmml-lightgbm-1.6.3.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-lightgbm/jpmml-lightgbm-1.6.2.buildspec 1.6.3` |
+| <!-- 20251223172335 --> [jpmml-python](../content/org/jpmml/jpmml-python/README.md) | [1.3.11](../content/org/jpmml/jpmml-python/jpmml-python-1.3.11.buildspec) :warning: | [1.3.12](../content/org/jpmml/jpmml-python/jpmml-python-1.3.12.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-python/jpmml-python-1.3.11.buildspec 1.3.12` |
 | <!-- 20251222105919 --> [jpmml-converter](../content/org/jpmml/jpmml-converter/README.md) | [1.6.6](../content/org/jpmml/jpmml-converter/jpmml-converter-1.6.6.buildspec) :warning: | [1.6.7](../content/org/jpmml/jpmml-converter/jpmml-converter-1.6.7.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-converter/jpmml-converter-1.6.6.buildspec 1.6.7` |
 | <!-- 20251220172224 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.116.1](../content/org/finos/legend/engine/legend-engine-4.116.1.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.116.1` |
 | <!-- 20251219163207 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.31.0](../content/org/webjars/swagger-ui/swagger-ui-5.31.0.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.31.0` |
@@ -65,6 +63,8 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20251222125523 --> [com.io7m.jsamplebuffer](../content/com/io7m/jsamplebuffer/README.md) | 1.0.1 :warning: |
+| <!-- 20251221210113 --> [credentialmanager](../content/com/github/philippheuer/credentialmanager/README.md) | 0.4.0 :warning: |
 | <!-- 20251219212257 --> [evm-abi-decoder](../content/net/osslabz/evm-abi-decode/README.md) | 0.1.4 :warning: |
 | <!-- 20251219054918 --> [avaje-validator-parent](../content/io/avaje/validator/README.md) | 2.16-RC1 :warning: |
 | <!-- 20251218114241 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 8.0.0-JDK17-M12 :warning: |
@@ -91,7 +91,6 @@ New Releases To Add
 | <!-- 20251202181343 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.5.3 :warning: |
 | <!-- 20251201061731 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 4.0.0 :warning: |
 | <!-- 20251130174727 --> [com.io7m.looseleaf](../content/com/io7m/looseleaf/README.md) | 4.0.0 :warning: |
-| <!-- 20251130114712 --> [jpmml-python](../content/org/jpmml/jpmml-python/README.md) | 1.3.11 :warning: |
 | <!-- 20251129110713 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | 3.2.6 :warning: |
 | <!-- 20251128201028 --> [jpmml-evaluator](../content/org/jpmml/jpmml-evaluator/README.md) | 1.7.6 :warning: |
 | <!-- 20251128142324 --> [tycho](../content/org/eclipse/tycho/README.md) | 5.0.1 :warning: |
@@ -122,7 +121,6 @@ New Releases To Add
 | <!-- 20251024120236 --> [com.io7m.cardant](../content/com/io7m/cardant/README.md) | 1.0.0-beta0002 :x: |
 | <!-- 20251023113928 --> [jpmml-h2o](../content/org/jpmml/jpmml-h2o/README.md) | 1.3.2 :warning: |
 | <!-- 20251023111933 --> [jpmml-xgboost](../content/org/jpmml/jpmml-xgboost/README.md) | 1.9.3 :warning: |
-| <!-- 20251020095910 --> [jpmml-lightgbm](../content/org/jpmml/jpmml-lightgbm/README.md) | 1.6.2 :warning: |
 | <!-- 20251017200142 --> [apache-rat-project](../content/org/apache/rat/README.md) | 0.17 :warning: [:memo:](https://github.com/apache/creadur-rat/commit/969f474e82aa7ef9082d1156d777b7e7b42ac3e3) |
 | <!-- 20251015201339 --> [avro-toplevel](../content/org/apache/avro/README.md) | 1.12.1 :warning: |
 | <!-- 20251015170335 --> [jakarta.servlet-api](../content/jakarta/servlet/jakarta.servlet-api/README.md) | 6.2.0-M1 :x: |
