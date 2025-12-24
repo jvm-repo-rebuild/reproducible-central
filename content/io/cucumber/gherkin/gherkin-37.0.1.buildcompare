@@ -1,0 +1,16 @@
+version=37.0.1
+ok=2
+ko=1
+ignored=0
+okFiles="gherkin-37.0.1.pom gherkin-37.0.1-sources.jar"
+koFiles="gherkin-37.0.1.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.cucumber/gherkin-37.0.1.jar target/gherkin-37.0.1.jar
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="gherkin-37.0.1.jar"
