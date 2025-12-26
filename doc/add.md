@@ -4,6 +4,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20251226204320 --> [bnd-plugin-parent](../content/biz/aQute/bnd/plugins/README.md) | [7.1.0](../content/biz/aQute/bnd/plugins/bnd-plugins-7.1.0.buildspec) :white_check_mark: | [7.2.0](../content/biz/aQute/bnd/plugins/bnd-plugins-7.2.0.buildspec) | `bin/add-new-release.sh content/biz/aQute/bnd/plugins/bnd-plugins-7.1.0.buildspec 7.2.0` |
+| <!-- 20251226113716 --> [httpdlog-parser](../content/nl/basjes/parse/httpdlog/httpdlog-parser/README.md) | [5.11.0](../content/nl/basjes/parse/httpdlog/httpdlog-parser/httpdlog-parser-5.11.0.buildspec) :white_check_mark: | [6.0.0](../content/nl/basjes/parse/httpdlog/httpdlog-parser/httpdlog-parser-6.0.0.buildspec) | `bin/add-new-release.sh content/nl/basjes/parse/httpdlog/httpdlog-parser/httpdlog-parser-5.11.0.buildspec 6.0.0` |
+| <!-- 20251226112714 --> [conventional-commits-version-policy](../content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | [1.0.8](../content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.8.buildspec) :white_check_mark: | [1.0.9](../content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.9.buildspec) | `bin/add-new-release.sh content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.8.buildspec 1.0.9` |
 | <!-- 20251225183312 --> [mybatis-hazelcast](../content/org/mybatis/caches/mybatis-hazelcast/README.md) | [1.3.1](../content/org/mybatis/caches/mybatis-hazelcast/mybatis-hazelcast-1.3.1.buildspec) :white_check_mark: | [1.4.0](../content/org/mybatis/caches/mybatis-hazelcast/mybatis-hazelcast-1.4.0.buildspec) | `bin/add-new-release.sh content/org/mybatis/caches/mybatis-hazelcast/mybatis-hazelcast-1.3.1.buildspec 1.4.0` |
 | <!-- 20251224134919 --> [langchain4j](../content/dev/langchain4j/README.md) | [1.9.1](../content/dev/langchain4j/langchain4j-1.9.1.buildspec) :white_check_mark: | [1.10.0](../content/dev/langchain4j/langchain4j-1.10.0.buildspec) | `bin/add-new-release.sh content/dev/langchain4j/langchain4j-1.9.1.buildspec 1.10.0` |
 | <!-- 20251224130156 --> [micronaut-maven-plugin](../content/io/micronaut/maven/micronaut-maven-plugin/README.md) | [4.11.4](../content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.11.4.buildspec) :white_check_mark: | [4.11.5](../content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.11.5.buildspec) | `bin/add-new-release.sh content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.11.4.buildspec 4.11.5` |
@@ -37,6 +40,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20251226084730 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.117.0](../content/org/finos/legend/engine/legend-engine-4.117.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.117.0` |
+| <!-- 20251225212112 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | [1.9.20](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.20.buildspec) :warning: | [1.9.21](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.21.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.20.buildspec 1.9.21` |
 | <!-- 20251225125111 --> [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | [1.3.5](../content/org/jpmml/jpmml-statsmodels/jpmml-statsmodels-1.3.5.buildspec) :warning: | [1.3.7](../content/org/jpmml/jpmml-statsmodels/jpmml-statsmodels-1.3.7.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-statsmodels/jpmml-statsmodels-1.3.5.buildspec 1.3.7` |
 | <!-- 20251225123312 --> [jpmml-python](../content/org/jpmml/jpmml-python/README.md) | [1.3.11](../content/org/jpmml/jpmml-python/jpmml-python-1.3.11.buildspec) :warning: | [1.3.13](../content/org/jpmml/jpmml-python/jpmml-python-1.3.13.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-python/jpmml-python-1.3.11.buildspec 1.3.13` |
 | <!-- 20251224190314 --> [plotsquared-bukkit](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/README.md) | [7.5.4](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.4.buildspec) :x: | [7.5.11](../content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.11.buildspec) | `bin/add-new-release.sh content/com/intellectualsites/plotsquared/plotsquared-bukkit/plotsquared-7.5.4.buildspec 7.5.11` |
@@ -45,7 +50,6 @@ New Releases To Add
 | <!-- 20251224090716 --> [jpmml-xgboost](../content/org/jpmml/jpmml-xgboost/README.md) | [1.9.3](../content/org/jpmml/jpmml-xgboost/jpmml-xgboost-1.9.3.buildspec) :warning: | [1.9.4](../content/org/jpmml/jpmml-xgboost/jpmml-xgboost-1.9.4.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-xgboost/jpmml-xgboost-1.9.3.buildspec 1.9.4` |
 | <!-- 20251223210049 --> [jpmml-lightgbm](../content/org/jpmml/jpmml-lightgbm/README.md) | [1.6.2](../content/org/jpmml/jpmml-lightgbm/jpmml-lightgbm-1.6.2.buildspec) :warning: | [1.6.3](../content/org/jpmml/jpmml-lightgbm/jpmml-lightgbm-1.6.3.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-lightgbm/jpmml-lightgbm-1.6.2.buildspec 1.6.3` |
 | <!-- 20251222105919 --> [jpmml-converter](../content/org/jpmml/jpmml-converter/README.md) | [1.6.6](../content/org/jpmml/jpmml-converter/jpmml-converter-1.6.6.buildspec) :warning: | [1.6.7](../content/org/jpmml/jpmml-converter/jpmml-converter-1.6.7.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-converter/jpmml-converter-1.6.6.buildspec 1.6.7` |
-| <!-- 20251220172224 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.116.1](../content/org/finos/legend/engine/legend-engine-4.116.1.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.116.1` |
 | <!-- 20251219163207 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.15.2](../content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec) :x: | [5.31.0](../content/org/webjars/swagger-ui/swagger-ui-5.31.0.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.15.2.buildspec 5.31.0` |
 | <!-- 20251217205526 --> [nifi](../content/org/apache/nifi/nifi/README.md) | [2.6.0](../content/org/apache/nifi/nifi/nifi-2.6.0.buildspec) :warning: | [2.7.2](../content/org/apache/nifi/nifi/nifi-2.7.2.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-2.6.0.buildspec 2.7.2` |
 | <!-- 20251215100318 --> [paapi5-java-sdk](../content/net/osslabz/paapi5-java-sdk/README.md) | [1.2.4](../content/net/osslabz/paapi5-java-sdk/paapi5-java-sdk-1.2.4.buildspec) :warning: | [1.2.5](../content/net/osslabz/paapi5-java-sdk/paapi5-java-sdk-1.2.5.buildspec) | `bin/add-new-release.sh content/net/osslabz/paapi5-java-sdk/paapi5-java-sdk-1.2.4.buildspec 1.2.5` |
@@ -68,6 +72,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20251226205112 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | 3.2.6 :warning: |
 | <!-- 20251222212524 --> [gherkin](../content/io/cucumber/gherkin/README.md) | 37.0.1 :warning: |
 | <!-- 20251222125523 --> [com.io7m.jsamplebuffer](../content/com/io7m/jsamplebuffer/README.md) | 1.0.1 :warning: |
 | <!-- 20251221210113 --> [credentialmanager](../content/com/github/philippheuer/credentialmanager/README.md) | 0.4.0 :warning: |
@@ -90,12 +95,10 @@ New Releases To Add
 | <!-- 20251207221548 --> [commons-text](../content/org/apache/commons/commons-text/README.md) | 1.15.0 :warning: |
 | <!-- 20251206160719 --> [jpmml-codemodel](../content/org/jpmml/jpmml-codemodel/README.md) | 1.2.1 :warning: |
 | <!-- 20251206133134 --> [jpmml-transpiler](../content/org/jpmml/jpmml-transpiler/README.md) | 1.4.7 :warning: |
-| <!-- 20251206103717 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | 1.9.20 :warning: |
 | <!-- 20251204234146 --> [htmlcompressor](../content/com/github/hazendaz/htmlcompressor/README.md) | 2.3.1 :warning: |
 | <!-- 20251202181343 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.5.3 :warning: |
 | <!-- 20251201061731 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 4.0.0 :warning: |
 | <!-- 20251130174727 --> [com.io7m.looseleaf](../content/com/io7m/looseleaf/README.md) | 4.0.0 :warning: |
-| <!-- 20251129110713 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | 3.2.6 :warning: |
 | <!-- 20251128201028 --> [jpmml-evaluator](../content/org/jpmml/jpmml-evaluator/README.md) | 1.7.6 :warning: |
 | <!-- 20251128142324 --> [tycho](../content/org/eclipse/tycho/README.md) | 5.0.1 :warning: |
 | <!-- 20251128133200 --> [hugegraph](../content/org/apache/hugegraph/README.md) | 1.7.0 :warning: |
