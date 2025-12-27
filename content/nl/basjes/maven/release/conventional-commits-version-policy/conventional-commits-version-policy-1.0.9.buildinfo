@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Conventional Commits Version Policy for the maven-release-plugin
+group-id=nl.basjes.maven.release
+artifact-id=conventional-commits-version-policy
+version=1.0.9
+
+# source information
+source.scm.uri=scm:git:https://github.com/nielsbasjes/conventional-commits-maven-release.git
+source.scm.tag=v1.0.9
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.9
+mvn.toolchain.jdk=openjdk version "17.0.17" 2025-10-21:OpenJDK Runtime Environment (build 17.0.17+10-Ubuntu-122.04):OpenJDK 64-Bit Server VM (build 17.0.17+10-Ubuntu-122.04, mixed mode, sharing)
+
+# output
+
+outputs.0.groupId=nl.basjes.maven.release
+outputs.0.filename=conventional-commits-version-policy-1.0.9.pom
+outputs.0.length=25393
+outputs.0.checksums.sha512=5e51a8f43b2fbf7f7daf44615763f3ebfe0973522748e3e9e8c484d410572d7e2c6898326eea673020e4727bae7de2272879e7cae5605441d2ebf9449a01083b
+
+outputs.1.groupId=nl.basjes.maven.release
+outputs.1.filename=conventional-commits-version-policy-1.0.9.jar
+outputs.1.length=18600
+outputs.1.checksums.sha512=c0e39aa12704d025ab8b672b443088b766703773de7b2cf387e2faa6a157b88ea12a0b4078a66402a104427c5f1ecf8973478825f48087e77bb48f745fa5168c
+
+outputs.2.groupId=nl.basjes.maven.release
+outputs.2.filename=conventional-commits-version-policy-1.0.9-sources.jar
+outputs.2.length=15487
+outputs.2.checksums.sha512=6b3f32fe43b2dc5a0bfea229f933abf8e9f930c8a3978d55e5ae48e08d72d73a61db75b8978a1f9f39d3ed6f623e39784838db9cbab9530c9ee0327fe9b7ff4e
