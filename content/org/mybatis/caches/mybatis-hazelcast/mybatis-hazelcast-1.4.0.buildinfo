@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis-hazelcast
+group-id=org.mybatis.caches
+artifact-id=mybatis-hazelcast
+version=1.4.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/hazelcast-cache.git
+source.scm.tag=mybatis-hazelcast-1.4.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.mybatis.caches
+outputs.0.filename=mybatis-hazelcast-1.4.0.pom
+outputs.0.length=4756
+outputs.0.checksums.sha512=4fdf315e8cf2b57821aea7ad2da3c1a2e58372f89cddccb9619c4379829621721d022b772f4f689689d9daf50478285398b14d67add5b8ef20ffaf4ee9c20e73
+
+outputs.1.groupId=org.mybatis.caches
+outputs.1.filename=mybatis-hazelcast-1.4.0.jar
+outputs.1.length=13714
+outputs.1.checksums.sha512=3cc21a9e4db7347f034bd4edc5b0c82343aa947993a4c2fe2ac4afcc7dfb562cc7f1842134c42e4377ae4f3d9c5b6b0ef5e53d84f5c3427bfc586e304dda141b
+
+outputs.2.groupId=org.mybatis.caches
+outputs.2.filename=mybatis-hazelcast-1.4.0-sources.jar
+outputs.2.length=13761
+outputs.2.checksums.sha512=df9c0c28ea104b0036c7e50b816f1c4af4b75bafba1789f022720ed7037e983f9121795f0302f76785cd6e5123814cdbb0b855566fc56d91730d5ebb72ffa67a
