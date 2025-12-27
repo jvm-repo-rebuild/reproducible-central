@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Archiver
+group-id=org.apache.maven
+artifact-id=maven-archiver
+version=3.6.6
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/maven-archiver.git
+source.scm.tag=maven-archiver-3.6.6
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.9
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.apache.maven
+outputs.0.filename=maven-archiver-3.6.6.pom
+outputs.0.length=5197
+outputs.0.checksums.sha512=ddab8db8f1c4adff24d4329c6c117ed0f97fd03dd885d239f8deba91047af83737fcab39a032e717f0748e8955cb8bd85b64075fc10ee7261b436097a204fa44
+
+outputs.1.groupId=org.apache.maven
+outputs.1.filename=maven-archiver-3.6.6.jar
+outputs.1.length=28352
+outputs.1.checksums.sha512=59297cc204f4a0de0e55d7c9faa9ae4ee8aa2c294765f1aac8d0a48a5903dc923c324847ba83d082a7a0b5c408c2b7a53239bc1dea711edf2b7c8680259dce33
+
+outputs.2.groupId=org.apache.maven
+outputs.2.filename=maven-archiver-3.6.6-source-release.zip
+outputs.2.length=137406
+outputs.2.checksums.sha512=fcf409745949d076cff5cf13a6b37577bbf29b2e9681bb128de34dd965c92846a395c62576c9584a92e7083fc98ca0af88713bbb630291537348c8e2ce00c5c9
+
+outputs.3.groupId=org.apache.maven
+outputs.3.filename=maven-archiver-3.6.6-sources.jar
+outputs.3.length=26280
+outputs.3.checksums.sha512=a4b52a1c21c99024aba77e8c143f66d801931defc7cc28a1b1567117cdf048338defe84bfd44905333f1954e64e69ce6e3a16fa0eabf342e28b1ae661ccf5d9e
+
+outputs.4.groupId=org.apache.maven
+outputs.4.filename=maven-archiver-3.6.6-cyclonedx.xml
+outputs.4.length=116439
+outputs.4.checksums.sha512=806833ba46a46093e327fa2938dc870701004ce0eecce7a7c9f700dd738200963904c7323a3617d8ac3fd18e9ff53f9e5ab111f27a7395c91685d070581318db
+
+outputs.5.groupId=org.apache.maven
+outputs.5.filename=maven-archiver-3.6.6-cyclonedx.json
+outputs.5.length=126923
+outputs.5.checksums.sha512=27cb6e47d87b0399a56b99eebfb29d7fca7e1e094a88b649533ae10c27ad9da70316959c656ce62d30b0d382009470b0077c1e0aad65e7ef84b1974007401841
