@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com/langchain4j/langchain4j.git)
 
-<details><summary>This project defines 87 modules:</summary>
+<details><summary>This project defines 98 modules:</summary>
 
 * [dev.langchain4j:langchain4j](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/overview)
 * [dev.langchain4j:langchain4j-agentic](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-agentic/overview)
@@ -47,6 +47,17 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-easy-rag](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-easy-rag/overview)
 * [dev.langchain4j:langchain4j-elasticsearch](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-elasticsearch/overview)
 * [dev.langchain4j:langchain4j-embedding-store-filter-parser-sql](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-embedding-store-filter-parser-sql/overview)
+* [dev.langchain4j:langchain4j-embeddings](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-embeddings/overview)
+* [dev.langchain4j:langchain4j-embeddings-all-minilm-l6-v2](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-embeddings-all-minilm-l6-v2/overview)
+* [dev.langchain4j:langchain4j-embeddings-all-minilm-l6-v2-q](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-embeddings-all-minilm-l6-v2-q/overview)
+* [dev.langchain4j:langchain4j-embeddings-bge-small-en](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-embeddings-bge-small-en/overview)
+* [dev.langchain4j:langchain4j-embeddings-bge-small-en-q](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-embeddings-bge-small-en-q/overview)
+* [dev.langchain4j:langchain4j-embeddings-bge-small-en-v15](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-embeddings-bge-small-en-v15/overview)
+* [dev.langchain4j:langchain4j-embeddings-bge-small-en-v15-q](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-embeddings-bge-small-en-v15-q/overview)
+* [dev.langchain4j:langchain4j-embeddings-bge-small-zh-v15](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-embeddings-bge-small-zh-v15/overview)
+* [dev.langchain4j:langchain4j-embeddings-bge-small-zh-v15-q](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-embeddings-bge-small-zh-v15-q/overview)
+* [dev.langchain4j:langchain4j-embeddings-e5-small-v2](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-embeddings-e5-small-v2/overview)
+* [dev.langchain4j:langchain4j-embeddings-e5-small-v2-q](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-embeddings-e5-small-v2-q/overview)
 * [dev.langchain4j:langchain4j-experimental-sql](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-experimental-sql/overview)
 * [dev.langchain4j:langchain4j-github-models](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-github-models/overview)
 * [dev.langchain4j:langchain4j-google-ai-gemini](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-google-ai-gemini/overview)
@@ -98,13 +109,13 @@ Source code: [https://github.com/langchain4j/langchain4j.git](https://github.com
 * [dev.langchain4j:langchain4j-zhipu-ai](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j-zhipu-ai/overview)
 </details>
 
-rebuilding **34 releases** of dev.langchain4j:langchain4j:
-- **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **35 releases** of dev.langchain4j:langchain4j:
+- **28** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.10.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.10.0/pom) | | | |
+| [1.10.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.10.0/pom) | [mvn jdk25](langchain4j-1.10.0.buildspec) | [result](langchain4j-aggregator-1.10.0.buildinfo): [277 :white_check_mark: ](langchain4j-aggregator-1.10.0.buildcompare) | | 468M |
 | [1.9.1](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.9.1/pom) | [mvn jdk25](langchain4j-1.9.1.buildspec) | [result](langchain4j-aggregator-1.9.1.buildinfo): [244 :white_check_mark: ](langchain4j-aggregator-1.9.1.buildcompare) | | 6.9M |
 | [1.9.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.9.0/pom) | [mvn jdk25](langchain4j-1.9.0.buildspec) | [result](langchain4j-aggregator-1.9.0.buildinfo): [244 :white_check_mark: ](langchain4j-aggregator-1.9.0.buildcompare) | | 6.9M |
 | [1.8.0](https://central.sonatype.com/artifact/dev.langchain4j/langchain4j/1.8.0/pom) | [mvn jdk25](langchain4j-1.8.0.buildspec) | [result](langchain4j-aggregator-1.8.0.buildinfo): [235 :white_check_mark: ](langchain4j-aggregator-1.8.0.buildcompare) | | 6.6M |
