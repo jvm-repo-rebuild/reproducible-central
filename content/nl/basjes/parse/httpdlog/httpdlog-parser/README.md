@@ -17,13 +17,13 @@ Source code: [https://github.com/nielsbasjes/logparser](https://github.com/niels
 * [nl.basjes.parse:parser-parent](https://central.sonatype.com/artifact/nl.basjes.parse/parser-parent/overview)
 </details>
 
-rebuilding **3 releases** of nl.basjes.parse.httpdlog:httpdlog-parser:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **4 releases** of nl.basjes.parse.httpdlog:httpdlog-parser:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [6.0.0](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-parser/6.0.0/pom) | | | |
+| [6.0.0](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-parser/6.0.0/pom) | [mvn jdk25](httpdlog-parser-6.0.0.buildspec) | [result](parser-parent-6.0.0.buildinfo): [16 :white_check_mark: ](parser-parent-6.0.0.buildcompare) | | 6.3M |
 | [5.11.0](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-parser/5.11.0/pom) | [mvn jdk21](httpdlog-parser-5.11.0.buildspec) | [result](parser-parent-5.11.0.buildinfo): [16 :white_check_mark: ](parser-parent-5.11.0.buildcompare) | | 9.8M |
 | [5.10.0](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-parser/5.10.0/pom) | [mvn jdk17](httpdlog-parser-5.10.0.buildspec) | [result](parser-parent-5.10.0.buildinfo): [16 :white_check_mark: ](parser-parent-5.10.0.buildcompare) | | 4.7M |
 | [5.9.0](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-parser/5.9.0/pom) | [mvn jdk17](httpdlog-parser-5.9.0.buildspec) | [result](parser-parent-5.9.0.buildinfo): [16 :white_check_mark: ](parser-parent-5.9.0.buildcompare) | | 4.7M |
