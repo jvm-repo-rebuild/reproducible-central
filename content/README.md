@@ -351,7 +351,7 @@ Reproducible Builds for Maven Central Repository
 | io.jstach.rainbowgum | [rainbowgum](../content/io/jstach/rainbowgum/README.md) | 12 | 9 :white_check_mark: / 3 :warning: |
 | io.jstach.pistachio | [pistachio](../content/io/jstach/pistachio/pistachio-maven-parent/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | io.micronaut.build | [micronaut-maven-plugin](../content/io/micronaut/build/micronaut-maven-plugin/README.md) | 35 | 35 :white_check_mark: |
-| io.micronaut.maven | [micronaut-maven-plugin](../content/io/micronaut/maven/micronaut-maven-plugin/README.md) | 46 | 46 :white_check_mark: |
+| io.micronaut.maven | [micronaut-maven-plugin](../content/io/micronaut/maven/micronaut-maven-plugin/README.md) | 47 | 47 :white_check_mark: |
 | io.opentelemetry.instrumentation | [opentelemetry-instrumentation](../content/io/opentelemetry/instrumentation/README.md) | 52 | 18 :white_check_mark: / 34 :warning: |
 | io.opentelemetry | [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | 25 | 22 :white_check_mark: / 3 :warning: |
 | io.repaint.maven | [tiles-maven-plugin](../content/io/repaint/maven/tiles-maven-plugin/README.md) | 5 | 5 :white_check_mark: |
@@ -955,7 +955,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 8 | 8 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 22 | 3 :white_check_mark: / 19 :warning: |
-| **Count:** | **941** | **9603** | **7016** :white_check_mark:<br>**2587** :warning: |
+| **Count:** | **941** | **9604** | **7017** :white_check_mark:<br>**2587** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1037,7 +1037,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.10  21
      40 mvn-3.9.11   8
      42 mvn-3.9.11  11
-    128 mvn-3.9.11  17
+    129 mvn-3.9.11  17
     203 mvn-3.9.11  21
       5 mvn-3.9.11  22
       3 mvn-3.9.11  24
