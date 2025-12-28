@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Scripting Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-scripting-plugin
+version=3.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-scripting-plugin.git
+source.scm.tag=maven-scripting-plugin-3.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-scripting-plugin-3.1.0.pom
+outputs.0.length=5328
+outputs.0.checksums.sha512=863d4f883653ef53e9e2ecf09f6671ad11d4faf73e56ea109c46d316a5b039b2a4942dd3fa54173bc05cf09d0c5cdf1fcb51e0270432044bdff41cb1ed1dd1a5
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-scripting-plugin-3.1.0.jar
+outputs.1.length=34720
+outputs.1.checksums.sha512=02287ccaa34de5498f34ff8cf92a1164f53803399180038e740668de0c3fac768869e994a657080214ff985696390c576f250bba2b658ed204cb855065fed443
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-scripting-plugin-3.1.0-source-release.zip
+outputs.2.length=52594
+outputs.2.checksums.sha512=f0b2daa83f0214e02608fec27de72e3ab9a527eb123c07e6e44a2f53b7e95e794cf6d70b906fae7990023c996242ef960c79ff8c912b084d0580f71373443ce4
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-scripting-plugin-3.1.0-sources.jar
+outputs.3.length=26472
+outputs.3.checksums.sha512=335665fd2503200735f68206ac09fa1f172affc21b37ae416a3dcdb48cc5e123c37fc278e2089b3ba976bb8760d9d1cdc53f3b065b06e6850bd4f5b030cb4164
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-scripting-plugin-3.1.0-cyclonedx.xml
+outputs.4.length=93963
+outputs.4.checksums.sha512=3f72a60e2d0a504f8267d0b6bfb00d7b2f9a5a3f175a292052d3d626b5d364930eebd4fcdccdae5d4dc7b54fa29c1cc1db69a3bc60508c22cee1e805af3a8a1b
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-scripting-plugin-3.1.0-cyclonedx.json
+outputs.5.length=102136
+outputs.5.checksums.sha512=cb51e4160ad8298f92259bcf3297ec76cf29c2905974efb7c0b44d6b0c76c4ac8216afdbf313cd8a979b87d5ea22cedb1bc0f3a422aa7ce6fa66495b3eb13fd3
