@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis2
+group-id=org.mybatis
+artifact-id=mybatis2
+version=2.7.1
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/mybatis-2.git
+source.scm.tag=mybatis2-2.7.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.mybatis
+outputs.0.filename=mybatis2-2.7.1.pom
+outputs.0.length=6741
+outputs.0.checksums.sha512=0015c58047a66e8dbb987521b4c02f0e16a0ad3e84fe8643ef6ba2d59c6bee5fb0f3b58d7f3e00ccda938809a30dd553e89a6efd4245f9e076e62b1b1f13c249
+
+outputs.1.groupId=org.mybatis
+outputs.1.filename=mybatis2-2.7.1.jar
+outputs.1.length=412290
+outputs.1.checksums.sha512=4db047d69e28d8d85bd73ae8e4ec2eb96fccfdf19dad423383b0450687cbe07207854bf17d7da601d0c39c962d7d244abf7c7486d239df8510f32b9913956e5a
+
+outputs.2.groupId=org.mybatis
+outputs.2.filename=mybatis2-2.7.1-sources.jar
+outputs.2.length=328374
+outputs.2.checksums.sha512=f06e1096e0e4e1dd405ea5b172663932895f0006f1872b78215226395a0356c186b286f51e81bde37ee903b840ddf6be1716406a2a06c96a75c36d3870e237c6
