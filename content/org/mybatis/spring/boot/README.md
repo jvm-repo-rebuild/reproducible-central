@@ -35,6 +35,7 @@ rebuilding **10 releases** of org.mybatis.spring.boot:mybatis-spring-boot:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [4.0.1](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/4.0.1/pom) | | | |
 | [4.0.0](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/4.0.0/pom) | [mvn jdk17](mybatis-spring-boot-4.0.0.buildspec) | [result](mybatis-spring-boot-4.0.0.buildinfo): [32 :white_check_mark:  15 :warning:](mybatis-spring-boot-4.0.0.buildcompare) | 14 :rotating_light: 1 :no_entry_sign: | 194M |
 | [3.0.5](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/3.0.5/pom) | [mvn jdk21 w](mybatis-spring-boot-3.0.5.buildspec) | [result](mybatis-spring-boot-3.0.5.buildinfo): [9 :white_check_mark:  4 :warning:](mybatis-spring-boot-3.0.5.buildcompare) | 2 :recycle: 2 :rotating_light: | 115K |
 | [3.0.4](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/3.0.4/pom) | [mvn jdk17](mybatis-spring-boot-3.0.4.buildspec) | [result](mybatis-spring-boot-3.0.4.buildinfo): [12 :white_check_mark:  1 :warning:](mybatis-spring-boot-3.0.4.buildcompare) | - | 140K |
