@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>eu.maveniverse.maven.maven-boms</groupId>
+  <artifactId>maven-boms</artifactId>
+  <versioning>
+    <latest>3.9.12-01</latest>
+    <release>3.9.12-01</release>
+    <versions>
+      <version>3.9.11-01</version>
+      <version>3.9.12-01</version>
+    </versions>
+    <lastUpdated>20251219140718</lastUpdated>
+  </versioning>
+</metadata>
