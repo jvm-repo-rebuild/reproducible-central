@@ -1,0 +1,27 @@
+# see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/BUILDSPEC.md
+
+# Central Repository coordinates for the Reference release
+groupId=fr.vidal.oss
+artifactId=atom-jaxb
+version=1.1.1
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=https://github.com/vidal-community/atom-jaxb.git
+gitTag=v${version}
+
+# Rebuild environment prerequisites
+tool=mvn
+jdk=8
+newline=lf
+
+# Rebuild command
+command="mvn -Prelease clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+# Location of the buildinfo file generated during rebuild to record output fingerprints
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+# if the release is finally not reproducible, link to an issue tracker entry if one was created
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
