@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=atom-jaxb
+group-id=fr.vidal.oss
+artifact-id=atom-jaxb
+version=1.1.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:softwarevidal/atom-jaxb.git
+source.scm.tag=v1.1.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_472
+java.vendor=Private Build
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.0.4
+
+# output
+
+outputs.0.groupId=fr.vidal.oss
+outputs.0.filename=atom-jaxb-1.1.1.pom
+outputs.0.length=10313
+outputs.0.checksums.sha512=67e16b1e81caee9f0a2fd289df799db2f37b6c8357929398425fa5f4910285019a0638d404d62c947cd5d562a1a8ec5fa6b0ab7d0ce7b8cfc44793ef6de2c82c
+
+outputs.1.groupId=fr.vidal.oss
+outputs.1.filename=atom-jaxb-1.1.1.jar
+outputs.1.length=52832
+outputs.1.checksums.sha512=65d2450eb417a3b81d0e056711dd4f2e5c99dcbb459a97b2fe7b5cedac6e1af1c275a46e9bfeab30dff5789c2c35bc0f8e2558675f87590f5a29b99f2588f0fb
+
+outputs.2.groupId=fr.vidal.oss
+outputs.2.filename=atom-jaxb-1.1.1-sources.jar
+outputs.2.length=21341
+outputs.2.checksums.sha512=c0e696d73f44b0197cb496f613abcfb95eecd72944df43fc5dc5b2770b7bb83621d0f79efabfc27ad20f09e1f5f8ad03b3fdc186881ef6d9b9fced96c7636cc8
+
+outputs.3.groupId=fr.vidal.oss
+outputs.3.filename=atom-jaxb-1.1.1-tests.jar
+outputs.3.length=73227
+outputs.3.checksums.sha512=c543cb7e7f66d58a8ff1ccc3497ac0dc349ad0068361929cf7e3d215d2f59c82c1ea9b3cfd24914f6c1a28009acfd540695d73995909da43b763c88d24d4937a
