@@ -18,6 +18,7 @@ newline=lf
 
 # Rebuild command
 command="mvn -Prelease clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+execBefore="git cherry-pick 783f7c4"
 
 # Location of the buildinfo file generated during rebuild to record output fingerprints
 buildinfo=target/${artifactId}-${version}.buildinfo
