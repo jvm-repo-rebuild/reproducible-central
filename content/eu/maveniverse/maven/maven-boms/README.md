@@ -15,13 +15,13 @@ Source code: [https://github.com/maveniverse/maven-boms.git](https://github.com/
 * [eu.maveniverse.maven.maven-boms:skinny](https://central.sonatype.com/artifact/eu.maveniverse.maven.maven-boms/skinny/overview)
 </details>
 
-rebuilding **1 releases** of eu.maveniverse.maven.maven-boms:maven-boms:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of eu.maveniverse.maven.maven-boms:maven-boms:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.9.12-01](https://central.sonatype.com/artifact/eu.maveniverse.maven.maven-boms/maven-boms/3.9.12-01/pom) | | | |
+| [3.9.12-01](https://central.sonatype.com/artifact/eu.maveniverse.maven.maven-boms/maven-boms/3.9.12-01/pom) | [mvn jdk21](maven-boms-3.9.12-01.buildspec) | [result](maven-boms-3.9.12-01.buildinfo): [4 :white_check_mark: ](maven-boms-3.9.12-01.buildcompare) | | 26K |
 | [3.9.11-01](https://central.sonatype.com/artifact/eu.maveniverse.maven.maven-boms/maven-boms/3.9.11-01/pom) | [mvn jdk21](maven-boms-3.9.11-01.buildspec) | [result](maven-boms-3.9.11-01.buildinfo): [4 :white_check_mark: ](maven-boms-3.9.11-01.buildcompare) | | 26K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
