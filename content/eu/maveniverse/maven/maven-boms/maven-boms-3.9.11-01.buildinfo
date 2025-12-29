@@ -1,0 +1,56 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=eu.maveniverse.maven.maven-boms:maven-boms
+group-id=eu.maveniverse.maven.maven-boms
+artifact-id=maven-boms
+version=3.9.11-01
+
+# source information
+source.scm.uri=scm:git:git@github.com:maveniverse/maven-boms.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.9
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=plugin
+
+# aggregated output
+
+outputs.0.coordinates=eu.maveniverse.maven.maven-boms:maven-boms
+
+outputs.0.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.0.0.filename=maven-boms-3.9.11-01.pom
+outputs.0.0.length=2490
+outputs.0.0.checksums.sha512=3c671609a3ec47b8c9136998f2819c0ea4f82ba29d151e3e23134adbc7b02069fd91a7b13478dcf193f212965fe91334c1146c5135e07b83f0236fde0ee4192e
+
+outputs.1.coordinates=eu.maveniverse.maven.maven-boms:skinny
+
+outputs.1.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.1.0.filename=skinny-3.9.11-01.pom
+outputs.1.0.length=3758
+outputs.1.0.checksums.sha512=f5f845f240d237f796fe424a6921b0c268005a27fffccb9ce8f3934a006444416922ca68edee731d00d04d2e881ad0725aa99edbd373aee1b10fec2a1134f42f
+
+outputs.2.coordinates=eu.maveniverse.maven.maven-boms:fat
+
+outputs.2.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.2.0.filename=fat-3.9.11-01.pom
+outputs.2.0.length=13981
+outputs.2.0.checksums.sha512=a3ed00bd4d468ebedc12b8324e2a3964c319005cc52a31cab39567c6c5e00b16719d4ac5be5e8c4e98688121826374708a5e3ed28e42961ca6d5caf2858ebe00
+
+outputs.3.coordinates=eu.maveniverse.maven.maven-boms:plugin
+
+outputs.3.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.3.0.filename=plugin-3.9.11-01.pom
+outputs.3.0.length=6081
+outputs.3.0.checksums.sha512=1330c891aa357e2eafbe933b7c6c7f0d876aca599561f02ffbf66cec5685ca157a5286635ed10235b1c68db9f9f3d49205f94945258b6ce51e006abe75e03145
