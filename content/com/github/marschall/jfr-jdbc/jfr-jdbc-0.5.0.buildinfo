@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JFR JDBC
+group-id=com.github.marschall
+artifact-id=jfr-jdbc
+version=0.5.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:marschall/jfr-jdbc.git
+source.scm.tag=0.5.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.17
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=com.github.marschall
+outputs.0.filename=jfr-jdbc-0.5.0.pom
+outputs.0.length=8663
+outputs.0.checksums.sha512=fc5a1b50ebd7a58eda285d6de03b22cd32fe4ab99d80d980d126b3f35daa5259fac624c7e784bc492972337579ecace68873debecd8439532cdeb319534bb879
+
+outputs.1.groupId=com.github.marschall
+outputs.1.filename=jfr-jdbc-0.5.0.jar
+outputs.1.length=40229
+outputs.1.checksums.sha512=0bf1cfe9a6fe7cc4f8d5e345f41dd47a144fb80b2a3258599f568c777afcfbc82a4d5b7250fa91d68838491e3ead5729421396e13f2ff0e998bd7306a6fffe8b
+
+outputs.2.groupId=com.github.marschall
+outputs.2.filename=jfr-jdbc-0.5.0-sources.jar
+outputs.2.length=20480
+outputs.2.checksums.sha512=3013350c82bf1f2e6baf7f66abd00e70cc8f006c43211b9256112d115160309a803d7ab4e580929d34180737483637d1e0aa4bc20dfe80bc9dd923eecc6fc6d2
