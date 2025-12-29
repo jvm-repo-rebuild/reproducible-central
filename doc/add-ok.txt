@@ -1,6 +1,4 @@
-content/biz/aQute/bnd/plugins/bnd-plugins-7.1.0.buildspec:7.2.0
 content/com/flowlogix/flowlogix-10.0.8.buildspec:11
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.3.0.buildspec:11.3.1-beta-1
-content/io/github/chains-project/maven-lockfile/maven-lockfile-5.11.1-beta-2.buildspec:5.11.1-beta-3
-content/org/apache/maven/plugins/maven-scripting-plugin/maven-scripting-plugin-3.0.0.buildspec:3.1.0
-content/org/mybatis/mybatis2/mybatis2-2.7.0.buildspec:2.7.2
+content/eu/maveniverse/maven/njord/njord-0.8.7.buildspec:0.9.1
+content/org/mybatis/mybatis2/mybatis2-2.7.2.buildspec:2.7.3
+content/org/webjars/webjars-locator-lite/webjars-locator-lite-1.1.2.buildspec:1.1.3

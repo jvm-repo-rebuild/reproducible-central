@@ -13,6 +13,7 @@ rebuilding **11 releases** of org.webjars:webjars-locator-lite:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.1.3](https://central.sonatype.com/artifact/org.webjars/webjars-locator-lite/1.1.3/pom) | | | |
 | [1.1.2](https://central.sonatype.com/artifact/org.webjars/webjars-locator-lite/1.1.2/pom) | [mvn jdk21](webjars-locator-lite-1.1.2.buildspec) | [result](webjars-locator-lite-1.1.2.buildinfo): [3 :white_check_mark: ](webjars-locator-lite-1.1.2.buildcompare) | | 22K |
 | [1.1.1](https://central.sonatype.com/artifact/org.webjars/webjars-locator-lite/1.1.1/pom) | [mvn jdk21](webjars-locator-lite-1.1.1.buildspec) | [result](webjars-locator-lite-1.1.1.buildinfo): [3 :white_check_mark: ](webjars-locator-lite-1.1.1.buildcompare) | | 22K |
 | [1.1.0](https://central.sonatype.com/artifact/org.webjars/webjars-locator-lite/1.1.0/pom) | [mvn jdk21](webjars-locator-lite-1.1.0.buildspec) | [result](webjars-locator-lite-1.1.0.buildinfo): [3 :white_check_mark: ](webjars-locator-lite-1.1.0.buildcompare) | | 21K |

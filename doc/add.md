@@ -4,12 +4,10 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20251228205129 --> [mybatis2](../content/org/mybatis/mybatis2/README.md) | [2.7.0](../content/org/mybatis/mybatis2/mybatis2-2.7.0.buildspec) :white_check_mark: | [2.7.2](../content/org/mybatis/mybatis2/mybatis2-2.7.2.buildspec) | `bin/add-new-release.sh content/org/mybatis/mybatis2/mybatis2-2.7.0.buildspec 2.7.2` |
-| <!-- 20251228205129 --> [mybatis2](../content/org/mybatis/mybatis2/README.md) | [2.7.0](../content/org/mybatis/mybatis2/mybatis2-2.7.0.buildspec) :white_check_mark: | 2.7.1  | `bin/add-new-release.sh content/org/mybatis/mybatis2/mybatis2-2.7.0.buildspec ...` |
-| <!-- 20251228170839 --> [maven-scripting-plugin](../content/org/apache/maven/plugins/maven-scripting-plugin/README.md) | [3.0.0](../content/org/apache/maven/plugins/maven-scripting-plugin/maven-scripting-plugin-3.0.0.buildspec) :white_check_mark: | [3.1.0](../content/org/apache/maven/plugins/maven-scripting-plugin/maven-scripting-plugin-3.1.0.buildspec) | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-scripting-plugin/maven-scripting-plugin-3.0.0.buildspec 3.1.0` |
-| <!-- 20251228023715 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [11.3.0](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.3.0.buildspec) :white_check_mark: | [11.3.1-beta-1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.3.1-beta-1.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.3.0.buildspec 11.3.1-beta-1` |
-| <!-- 20251228011115 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | [5.11.1-beta-2](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.11.1-beta-2.buildspec) :white_check_mark: | [5.11.1-beta-3](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.11.1-beta-3.buildspec) | `bin/add-new-release.sh content/io/github/chains-project/maven-lockfile/maven-lockfile-5.11.1-beta-2.buildspec 5.11.1-beta-3` |
-| <!-- 20251226204320 --> [bnd-plugin-parent](../content/biz/aQute/bnd/plugins/README.md) | [7.1.0](../content/biz/aQute/bnd/plugins/bnd-plugins-7.1.0.buildspec) :white_check_mark: | [7.2.0](../content/biz/aQute/bnd/plugins/bnd-plugins-7.2.0.buildspec) | `bin/add-new-release.sh content/biz/aQute/bnd/plugins/bnd-plugins-7.1.0.buildspec 7.2.0` |
+| <!-- 20251229204307 --> [njord](../content/eu/maveniverse/maven/njord/README.md) | [0.8.7](../content/eu/maveniverse/maven/njord/njord-0.8.7.buildspec) :white_check_mark: | [0.9.1](../content/eu/maveniverse/maven/njord/njord-0.9.1.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/njord/njord-0.8.7.buildspec 0.9.1` |
+| <!-- 20251229204307 --> [njord](../content/eu/maveniverse/maven/njord/README.md) | [0.8.7](../content/eu/maveniverse/maven/njord/njord-0.8.7.buildspec) :white_check_mark: | 0.9.0  | `bin/add-new-release.sh content/eu/maveniverse/maven/njord/njord-0.8.7.buildspec ...` |
+| <!-- 20251229054514 --> [webjars-locator-lite](../content/org/webjars/webjars-locator-lite/README.md) | [1.1.2](../content/org/webjars/webjars-locator-lite/webjars-locator-lite-1.1.2.buildspec) :white_check_mark: | [1.1.3](../content/org/webjars/webjars-locator-lite/webjars-locator-lite-1.1.3.buildspec) | `bin/add-new-release.sh content/org/webjars/webjars-locator-lite/webjars-locator-lite-1.1.2.buildspec 1.1.3` |
+| <!-- 20251228214913 --> [mybatis2](../content/org/mybatis/mybatis2/README.md) | [2.7.2](../content/org/mybatis/mybatis2/mybatis2-2.7.2.buildspec) :white_check_mark: | [2.7.3](../content/org/mybatis/mybatis2/mybatis2-2.7.3.buildspec) | `bin/add-new-release.sh content/org/mybatis/mybatis2/mybatis2-2.7.2.buildspec 2.7.3` |
 | <!-- 20251118222117 --> [flowlogix](../content/com/flowlogix/README.md) | [10.0.8](../content/com/flowlogix/flowlogix-10.0.8.buildspec) :white_check_mark: | [11](../content/com/flowlogix/flowlogix-11.buildspec) | `bin/add-new-release.sh content/com/flowlogix/flowlogix-10.0.8.buildspec 11` |
 <!-- END GENERATED ADD OK -->
 
@@ -36,7 +34,10 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20251228180724 --> [evm-abi-decoder](../content/net/osslabz/evm-abi-decode/README.md) | [0.1.4](../content/net/osslabz/evm-abi-decode/evm-abi-decoder-0.1.4.buildspec) :warning: | [0.1.5](../content/net/osslabz/evm-abi-decode/evm-abi-decoder-0.1.5.buildspec) | `bin/add-new-release.sh content/net/osslabz/evm-abi-decode/evm-abi-decoder-0.1.4.buildspec 0.1.5` |
+| <!-- 20251229192147 --> [mybatis-2-spring](../content/org/mybatis/mybatis-2-spring/README.md) | [1.2.1](../content/org/mybatis/mybatis-2-spring/mybatis-2-spring-1.2.1.buildspec) :warning: | [1.2.2](../content/org/mybatis/mybatis-2-spring/mybatis-2-spring-1.2.2.buildspec) | `bin/add-new-release.sh content/org/mybatis/mybatis-2-spring/mybatis-2-spring-1.2.1.buildspec 1.2.2` |
+| <!-- 20251229144918 --> [avaje-jex-parent](../content/io/avaje/jex/README.md) | [3.4-RC3](../content/io/avaje/jex/avaje-jex-3.4-RC3.buildspec) :warning: | [3.4-RC4](../content/io/avaje/jex/avaje-jex-3.4-RC4.buildspec) | `bin/add-new-release.sh content/io/avaje/jex/avaje-jex-3.4-RC3.buildspec 3.4-RC4` |
+| <!-- 20251229095723 --> [evm-abi-decoder](../content/net/osslabz/evm-abi-decode/README.md) | [0.1.4](../content/net/osslabz/evm-abi-decode/evm-abi-decoder-0.1.4.buildspec) :warning: | [0.1.6](../content/net/osslabz/evm-abi-decode/evm-abi-decoder-0.1.6.buildspec) | `bin/add-new-release.sh content/net/osslabz/evm-abi-decode/evm-abi-decoder-0.1.4.buildspec 0.1.6` |
+| <!-- 20251229052114 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.1.0](../content/com/taobao/arthas/arthas-4.1.0.buildspec) :warning: [:memo:](https://github.com/alibaba/arthas/pull/3001) | [4.1.4](../content/com/taobao/arthas/arthas-4.1.4.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.1.0.buildspec 4.1.4` |
 | <!-- 20251228170116 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | [4.0.0](../content/org/mybatis/spring/boot/mybatis-spring-boot-4.0.0.buildspec) :warning: | [4.0.1](../content/org/mybatis/spring/boot/mybatis-spring-boot-4.0.1.buildspec) | `bin/add-new-release.sh content/org/mybatis/spring/boot/mybatis-spring-boot-4.0.0.buildspec 4.0.1` |
 | <!-- 20251227175712 --> [jpmml-sparkml](../content/org/jpmml/jpmml-sparkml/README.md) | [3.2.6](../content/org/jpmml/jpmml-sparkml/jpmml-sparkml-3.2.6.buildspec) :warning: | [3.3.0](../content/org/jpmml/jpmml-sparkml/jpmml-sparkml-3.3.0.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-sparkml/jpmml-sparkml-3.2.6.buildspec 3.3.0` |
 | <!-- 20251226084730 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.117.0](../content/org/finos/legend/engine/legend-engine-4.117.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.117.0` |
@@ -55,9 +56,7 @@ New Releases To Add
 | <!-- 20251213132737 --> [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.16.0](../content/org/apache/camel/camel/camel-4.16.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.16.0` |
 | <!-- 20251210185730 --> [avaje-http-parent](../content/io/avaje/http/README.md) | [3.6](../content/io/avaje/http/avaje-http-3.6.buildspec) :warning: | [3.7-RC1](../content/io/avaje/http/avaje-http-3.7-RC1.buildspec) | `bin/add-new-release.sh content/io/avaje/http/avaje-http-3.6.buildspec 3.7-RC1` |
 | <!-- 20251210155324 --> [com.io7m.dixmont](../content/com/io7m/dixmont/README.md) | [3.0.0](../content/com/io7m/dixmont/com.io7m.dixmont-3.0.0.buildspec) :warning: | [3.1.0](../content/com/io7m/dixmont/com.io7m.dixmont-3.1.0.buildspec) | `bin/add-new-release.sh content/com/io7m/dixmont/com.io7m.dixmont-3.0.0.buildspec 3.1.0` |
-| <!-- 20251208024917 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.1.0](../content/com/taobao/arthas/arthas-4.1.0.buildspec) :warning: [:memo:](https://github.com/alibaba/arthas/pull/3001) | [4.1.3](../content/com/taobao/arthas/arthas-4.1.3.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.1.0.buildspec 4.1.3` |
 | <!-- 20251124114125 --> [io.wcm.wcm.ui.granite](../content/io/wcm/io.wcm.wcm/ui/granite/README.md) | [1.9.12](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec) :warning: | [1.11.10](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.11.10.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec 1.11.10` |
-| <!-- 20251123101713 --> [compatibility-kit](../content/io/cucumber/compatibility-kit/README.md) | [23.2.0](../content/io/cucumber/compatibility-kit/compatibility-kit-23.2.0.buildspec) :warning: | [26.0.0](../content/io/cucumber/compatibility-kit/compatibility-kit-26.0.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/compatibility-kit/compatibility-kit-23.2.0.buildspec 26.0.0` |
 | <!-- 20251022112208 --> [flexmonster](../content/org/webjars/flexmonster/README.md) | [2.9.107](../content/org/webjars/flexmonster/flexmonster-2.9.107.buildspec) :x: | [2.9.114-1](../content/org/webjars/flexmonster/flexmonster-2.9.114-1.buildspec) | `bin/add-new-release.sh content/org/webjars/flexmonster/flexmonster-2.9.107.buildspec 2.9.114-1` |
 | <!-- 20251006080659 --> [parent](../content/org/apache/sis/README.md) | [1.3](../content/org/apache/sis/parent-1.3.buildspec) :warning: [:memo:](https://github.com/apache/sis/pull/36) | [1.5](../content/org/apache/sis/parent-1.5.buildspec) | `bin/add-new-release.sh content/org/apache/sis/parent-1.3.buildspec 1.5` |
 | <!-- 20250624040809 --> [openfasttrace](../content/org/itsallcode/openfasttrace/README.md) | [4.1.0](../content/org/itsallcode/openfasttrace/openfasttrace-4.1.0.buildspec) :warning: | [4.2.0](../content/org/itsallcode/openfasttrace/openfasttrace-4.2.0.buildspec) | `bin/add-new-release.sh content/org/itsallcode/openfasttrace/openfasttrace-4.1.0.buildspec 4.2.0` |
@@ -78,7 +77,6 @@ New Releases To Add
 | <!-- 20251218114241 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 8.0.0-JDK17-M12 :warning: |
 | <!-- 20251218112519 --> [jdplus-benchmarking](../content/eu/europa/ec/joinup/sat/jdplus-benchmarking/README.md) | 2.1.0 :warning: |
 | <!-- 20251217112540 --> [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | 0.15.0 :warning: |
-| <!-- 20251217040716 --> [avaje-jex-parent](../content/io/avaje/jex/README.md) | 3.4-RC3 :warning: |
 | <!-- 20251216135604 --> [yupiik-tools-maven-plugin-parent](../content/io/yupiik/maven/plugin/README.md) | 1.2.13 :warning: |
 | <!-- 20251216105703 --> [commons-daemon](../content/org/apache/commons/commons-daemon/README.md) | 1.5.1 :warning: |
 | <!-- 20251216081718 --> [avaje-config](../content/io/avaje/config/README.md) | 5.0 :warning: |
@@ -105,6 +103,7 @@ New Releases To Add
 | <!-- 20251124114357 --> [syncope](../content/org/apache/syncope/README.md) | 4.0.3 :warning: |
 | <!-- 20251123193609 --> [hive](../content/org/apache/hive/README.md) | 4.2.0 :warning: [:memo:](https://issues.apache.org/jira/browse/HIVE-28186) |
 | <!-- 20251123172718 --> [spotbugs-maven-plugin](../content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 4.9.8.2 :warning: [:memo:](https://github.com/spotbugs/spotbugs-maven-plugin/issues/1148) |
+| <!-- 20251123101713 --> [compatibility-kit](../content/io/cucumber/compatibility-kit/README.md) | 26.0.0 :warning: |
 | <!-- 20251121212919 --> [convex](../content/world/convex/README.md) | 0.8.2 :warning: |
 | <!-- 20251121092322 --> [jdplus-incubator](../content/eu/europa/ec/joinup/sat/jdplus-incubator/README.md) | 2.4.0 :warning: |
 | <!-- 20251120144901 --> [jdplus-main](../content/eu/europa/ec/joinup/sat/jdplus-main/README.md) | 3.6.0 :warning: |
@@ -125,7 +124,7 @@ New Releases To Add
 | <!-- 20251017200142 --> [apache-rat-project](../content/org/apache/rat/README.md) | 0.17 :warning: [:memo:](https://github.com/apache/creadur-rat/commit/969f474e82aa7ef9082d1156d777b7e7b42ac3e3) |
 | <!-- 20251015201339 --> [avro-toplevel](../content/org/apache/avro/README.md) | 1.12.1 :warning: |
 | <!-- 20251015170335 --> [jakarta.servlet-api](../content/jakarta/servlet/jakarta.servlet-api/README.md) | 6.2.0-M1 :x: |
-| <!-- 20251015121733 --> [atom-jaxb-parent](../content/fr/vidal/oss/README.md) | 2.0.0 :x: |
+| <!-- 20251015121733 --> [atom-jaxb-parent](../content/fr/vidal/oss/README.md) | 2.0.0 :warning: |
 | <!-- 20251015094355 --> [jena](../content/org/apache/jena/jena/README.md) | 5.6.0 :warning: |
 | <!-- 20251013000157 --> [bcel](../content/org/apache/commons/bcel/README.md) | 6.11.0 :warning: |
 | <!-- 20251011232134 --> [athena-parent](../content/io/github/gls-athena/README.md) | 0.0.17 :warning: [:memo:](https://github.com/gls-athena/athena-parent/pull/31) |
@@ -192,7 +191,6 @@ New Releases To Add
 | <!-- 20241106160454 --> [tomcat-authnz-spnego-ad](../content/net/sf/michael-o/tomcat/tomcat-authnz-spnego-ad/README.md) | 4.2.4 :warning: [:memo:](https://github.com/michael-o/tomcatspnegoad/issues/32) |
 | <!-- 20241018172054 --> [org.apache.sling.commons.metrics](../content/org/apache/sling/org.apache.sling.commons.metrics/README.md) | 1.2.14 :warning: |
 | <!-- 20240916091231 --> [io.wcm.wcm.ui.clientlibs](../content/io/wcm/io.wcm.wcm/ui/clientlibs/README.md) | 1.4.0 :warning: |
-| <!-- 20240817210045 --> [mybatis-2-spring](../content/org/mybatis/mybatis-2-spring/README.md) | 1.2.1 :warning: |
 | <!-- 20240812093803 --> [commons-numbers-parent](../content/org/apache/commons/numbers/README.md) | 1.2 :warning: |
 | <!-- 20240728141824 --> [object-size](../content/com/github/marschall/object-size/README.md) | 1.0.0 :warning: |
 | <!-- 20240725091240 --> [apache-resource-bundles](../content/org/apache/apache/resources/README.md) | 1.7 :warning: [:memo:](https://github.com/apache/maven-apache-parent/pull/288/files) |
@@ -240,4 +238,5 @@ New Releases To Add
 | <!-- 20211018122406 --> [org.apache.sling.commons.crypto](../content/org/apache/sling/org.apache.sling.commons.crypto/README.md) | 1.1.0 :warning: [:memo:](https://issues.apache.org/jira/browse/SLING-11907) |
 | <!-- 20201226140242 --> [maven-artifact-transfer](../content/org/apache/maven/shared/maven-artifact-transfer/README.md) | 0.13.1 :warning: [:memo:](https://github.com/apache/maven-artifact-transfer/commit/c2106c0500cc7c70c27581f117bf86e6185073c6) |
 | <!-- 20200511133844 --> [org.apache.sling.installer.factory.packages](../content/org/apache/sling/org.apache.sling.installer.factory.packages/README.md) | 1.0.4 :warning: |
+| <!--  --> [](../content/com/github/marschall/jfr-jmstemplate/README.md) |  :x: |
 <!-- END GENERATED NEWEST NOT REPRODUCIBLE -->
