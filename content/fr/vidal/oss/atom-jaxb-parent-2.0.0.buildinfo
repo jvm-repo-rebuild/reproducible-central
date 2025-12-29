@@ -1,0 +1,58 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=atom-jaxb-parent
+group-id=fr.vidal.oss
+artifact-id=atom-jaxb-parent
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:softwarevidal/atom-jaxb.git
+source.scm.tag=v2.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.23
+java.vendor=Azul Systems, Inc.
+os.name=Mac OS X
+os.version=26.2
+os.arch=aarch64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=atom-jaxb
+
+# aggregated output
+
+outputs.0.coordinates=fr.vidal.oss:atom-jaxb-parent
+
+outputs.0.0.groupId=fr.vidal.oss
+outputs.0.0.filename=atom-jaxb-parent-2.0.0.pom
+outputs.0.0.length=10030
+outputs.0.0.checksums.sha512=f69b26b44b09ca969ef22ea5babe049fc19b0af284e95e13061f77176a72d2ff84334c4f2bdc3353794f5bae4de865ec37552e7b2e380a817ba3f6dbdb61891c
+
+outputs.1.coordinates=fr.vidal.oss:atom-jaxb
+
+outputs.1.0.groupId=fr.vidal.oss
+outputs.1.0.filename=atom-jaxb-2.0.0.pom
+outputs.1.0.length=3994
+outputs.1.0.checksums.sha512=af74d7fe1beaf141ca440d7c9b2aecb3a380adbca92ebef128bc295699fe5b828879f163831e401faa0a6c48a9973f0e645a6c67314b0c3c1b4896946408c272
+
+outputs.1.1.groupId=fr.vidal.oss
+outputs.1.1.filename=atom-jaxb-2.0.0.jar
+outputs.1.1.length=45443
+outputs.1.1.checksums.sha512=2a093d1647bfc7132e7be02b69bbb335d4ac196ff180ec5c0755e9ed24f1b8ea9500e870c82289a58ec26bb5df2484bf1ceb8f5e533e9fcef4d573f2d0ec66aa
+
+outputs.1.2.groupId=fr.vidal.oss
+outputs.1.2.filename=atom-jaxb-2.0.0-sources.jar
+outputs.1.2.length=20194
+outputs.1.2.checksums.sha512=76c893f539c28ac94e8f3b31dd7a7f6089ad0c399986276bf34cc5a0d5a52c59f59b7d894413822dc972e7d03448d2956835d3f4e9ec2a36e148246442e80384
+
+outputs.1.3.groupId=fr.vidal.oss
+outputs.1.3.filename=atom-jaxb-2.0.0-tests.jar
+outputs.1.3.length=72018
+outputs.1.3.checksums.sha512=1ba1f57eaa3c30b7141ee34aed0d0be0162a29d11936edf03c599f96079c40f85eabf6050125a8a1b0796a5ba191dc91c2d87f59d9dee02d97d1e0ba060990fc
