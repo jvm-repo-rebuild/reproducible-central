@@ -15,14 +15,14 @@ Source code: [https://github.com/maveniverse/domtrip.git](https://github.com/mav
 * [eu.maveniverse.maven.domtrip:domtrip-website](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip-website/overview)
 </details>
 
-rebuilding **2 releases** of eu.maveniverse.maven.domtrip:domtrip:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **3 releases** of eu.maveniverse.maven.domtrip:domtrip:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
 | [0.4.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/0.4.0/pom) | [mvn jdk21](domtrip-0.4.0.buildspec) | [result](domtrip-0.4.0.buildinfo): [10 :white_check_mark: ](domtrip-0.4.0.buildcompare) | | 284K |
-| [0.3.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/0.3.0/pom) | | | |
+| [0.3.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/0.3.0/pom) | [mvn jdk21](domtrip-0.3.0.buildspec) | [result](domtrip-0.3.0.buildinfo): [10 :white_check_mark: ](domtrip-0.3.0.buildcompare) | | 274K |
 | [0.2.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.domtrip/domtrip/0.2.0/pom) | [mvn jdk21](domtrip-0.2.0.buildspec) | [result](domtrip-0.2.0.buildinfo): [10 :white_check_mark: ](domtrip-0.2.0.buildcompare) | | 243K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
