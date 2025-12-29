@@ -1,0 +1,7 @@
+version=3.9.12-01
+ok=4
+ko=0
+ignored=0
+okFiles="maven-boms-3.9.12-01.pom skinny-3.9.12-01.pom fat-3.9.12-01.pom plugin-3.9.12-01.pom"
+koFiles=""
+ignoredFiles=""

@@ -1,0 +1,56 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=eu.maveniverse.maven.maven-boms:maven-boms
+group-id=eu.maveniverse.maven.maven-boms
+artifact-id=maven-boms
+version=3.9.12-01
+
+# source information
+source.scm.uri=scm:git:git@github.com:maveniverse/maven-boms.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.9
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+mvn.aggregate.artifact-id=plugin
+
+# aggregated output
+
+outputs.0.coordinates=eu.maveniverse.maven.maven-boms:maven-boms
+
+outputs.0.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.0.0.filename=maven-boms-3.9.12-01.pom
+outputs.0.0.length=2490
+outputs.0.0.checksums.sha512=023be348f47e6c9892a758782b8c526fc911c776e59c60f6dc70ee7c54a1fbdfce5c0c6cee8c853db1d32b4ea8c12b4aa11eda6504a9aa504aa16f61313c3735
+
+outputs.1.coordinates=eu.maveniverse.maven.maven-boms:skinny
+
+outputs.1.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.1.0.filename=skinny-3.9.12-01.pom
+outputs.1.0.length=3758
+outputs.1.0.checksums.sha512=fbd89dd7c15c4f510db224da6101097746c04d49e9ff413b606570cd65ac790b32000d2bf8e31bac8e93e7859d1a427176315e5e5263308353df6f0bc8df149b
+
+outputs.2.coordinates=eu.maveniverse.maven.maven-boms:fat
+
+outputs.2.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.2.0.filename=fat-3.9.12-01.pom
+outputs.2.0.length=13982
+outputs.2.0.checksums.sha512=5ac07edb02387a029a9abc1ba1902e046fd10e5db67505400dcb325b28c219eafe3dd427e2c52f85efd7c0bbbbdf3c44bbae2e0c9168d01fc1dc5966713e9c7e
+
+outputs.3.coordinates=eu.maveniverse.maven.maven-boms:plugin
+
+outputs.3.0.groupId=eu.maveniverse.maven.maven-boms
+outputs.3.0.filename=plugin-3.9.12-01.pom
+outputs.3.0.length=6081
+outputs.3.0.checksums.sha512=d989fdfb0c12e611440f9f11d73ed5598eafb2bb526788f7881b6ba92d9602269091fcc9cb85de1ead533678a5995e246d1f40b5ab1c5e3a52174960c18b2519
