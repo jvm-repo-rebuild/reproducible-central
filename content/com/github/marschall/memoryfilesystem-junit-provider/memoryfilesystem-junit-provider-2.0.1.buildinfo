@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Memoryfilesystem JUnit Provider
+group-id=com.github.marschall
+artifact-id=memoryfilesystem-junit-provider
+version=2.0.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:marschall/memoryfilesystem-junit-provider.git
+source.scm.tag=2.0.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.17
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.github.marschall
+outputs.0.filename=memoryfilesystem-junit-provider-2.0.1.pom
+outputs.0.length=7634
+outputs.0.checksums.sha512=0069f5bf6d181d22647edf078229057972ddfa82d1fe51a4d0a5d3ae959682d955fff9b3236f82bbacf7e1ae3051db5fc709b9f90fe582047dbbdb6ab84d11c9
+
+outputs.1.groupId=com.github.marschall
+outputs.1.filename=memoryfilesystem-junit-provider-2.0.1.jar
+outputs.1.length=12825
+outputs.1.checksums.sha512=339adefe5562f46b1738feefb593b5ddffaf0a6600a95401a0d078d4126858555293527c2ca1bc55d22cca261049201c44591c4f2d7bab3b5d2ffcd2be0dd283
+
+outputs.2.groupId=com.github.marschall
+outputs.2.filename=memoryfilesystem-junit-provider-2.0.1-sources.jar
+outputs.2.length=8423
+outputs.2.checksums.sha512=905033d90776ecb98470abbf6d73fa7e4af6cb9fad380fd037dfc23fca177672468bfdbc2d20795864132688d791e0df9a5254d59859342aa4ef0ea29892eaa0
