@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JFR Maven Extension
+group-id=com.github.marschall
+artifact-id=jfr-maven-extension
+version=0.2.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/marschall/jfr-maven-extension.git
+source.scm.tag=0.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.29
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.github.marschall
+outputs.0.filename=jfr-maven-extension-0.2.0.pom
+outputs.0.length=9620
+outputs.0.checksums.sha512=59610c23d4fbeec33a207cdd99009b0c0d2c75d85f48e7070401a6e03d2b7dac405f38f1769675f85cab4b6666d14ab847526c08777d2f1fda34bbb626f7e68b
+
+outputs.1.groupId=com.github.marschall
+outputs.1.filename=jfr-maven-extension-0.2.0.jar
+outputs.1.length=9842
+outputs.1.checksums.sha512=80f21c9b1b2dcbf08abd5dac1ff5a82a4bcedf9ebd698d75604eb0bac451f982b72dd529ae16ffb3797a28910486b57e8e007e6a66feab2381b5ee69ae5485af
+
+outputs.2.groupId=com.github.marschall
+outputs.2.filename=jfr-maven-extension-0.2.0-sources.jar
+outputs.2.length=6253
+outputs.2.checksums.sha512=964e45d7c8ccb14478a4187c17262be62dc491d262fb30dbf2143af28fdb79dc01ec83573ef61ff09dea7d7a5ce0ca8972f1678444b1beca568aaa4fe963cb21

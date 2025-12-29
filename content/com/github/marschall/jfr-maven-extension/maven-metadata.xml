@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.marschall</groupId>
+  <artifactId>jfr-maven-extension</artifactId>
+  <versioning>
+    <latest>0.2.0</latest>
+    <release>0.2.0</release>
+    <versions>
+      <version>0.1.0</version>
+      <version>0.1.1</version>
+      <version>0.2.0</version>
+    </versions>
+    <lastUpdated>20251123160714</lastUpdated>
+  </versioning>
+</metadata>
