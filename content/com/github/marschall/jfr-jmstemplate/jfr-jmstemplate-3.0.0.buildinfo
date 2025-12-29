@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JFR JMS
+group-id=com.github.marschall
+artifact-id=jfr-jmstemplate
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:marschall/jfr-jmstemplate.git
+source.scm.tag=3.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.17
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.github.marschall
+outputs.0.filename=jfr-jmstemplate-3.0.0.pom
+outputs.0.length=8826
+outputs.0.checksums.sha512=2380f176f52ca6a7174dac82799d51feb2708bb1908e89d684a11b4ad29f3fb8d3c8817efd4df150811dd60779cb44ea11ee3a6dfd71027d8aaafd7976d33781
+
+outputs.1.groupId=com.github.marschall
+outputs.1.filename=jfr-jmstemplate-3.0.0.jar
+outputs.1.length=8881
+outputs.1.checksums.sha512=a1741ea16f00f51bde1e0906c6b652b2acfae39de423521e7628264017cf6a768c9924dd174767d4f9c3ace6d2b952b1af9c889f6629e0244fefe8a7fc0d4b4e
+
+outputs.2.groupId=com.github.marschall
+outputs.2.filename=jfr-jmstemplate-3.0.0-sources.jar
+outputs.2.length=5234
+outputs.2.checksums.sha512=e127581a3480ea36eadf620cd0d3028bb6bd2474181b63ca98c2902c76202132327a3a31bc25ce08a4b04865657c440cb9183a8db2e78da6d755deb4195de58c
