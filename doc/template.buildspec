@@ -17,17 +17,20 @@ gitTag=${artifactId}-${version}
 
 # Rebuild environment prerequisites
 tool=mvn
-# or tool=mvn-3.8.5 if default 3.6.3 version does not match your prerequisites (available version may be limited by images available on Dockerhub)
+# or tool=mvn-3.9.11 if default 3.6.3 version does not match your prerequisites
 # or tool=gradle or tool=sbt
 jdk=8
 newline=lf
 # crlf for Windows, lf for Unix
+#newlineGit=crlf
 #umask=022
 #timezone="Etc/GMT"
 #locale="en_US"
 
 # Rebuild command
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+#execBefore=
+#execAfter=
 
 # Location of the buildinfo file generated during rebuild (by artifact:compare for Maven) to record output fingerprints
 buildinfo=target/${artifactId}-${version}.buildinfo

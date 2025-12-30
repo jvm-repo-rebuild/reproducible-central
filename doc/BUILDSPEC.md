@@ -1,26 +1,28 @@
 Reproducible Central Buildspec File Format
 ==========================================
 
-As per Central Repository [upload requirements](https://maven.apache.org/repository/guide-central-repository-upload.html), it contains sources and javadoc (for IDE only), but no data on how to build: where to get the release source to build? What precise command to launch? What are the environment prerequisites (minimum JDK version, ...)?
+As per Central Repository [upload requirements](https://maven.apache.org/repository/guide-central-repository-upload.html), Central contains sources and javadoc (for IDE only), but no data on how to build: where to get the release source to build? What precise command to launch? What are the environment prerequisites (minimum JDK version, what build tool, ...)?
 
 **Reproducible Central** project is about rebuilding and checking how the output matches reference in the Central Repository. We need to:
 1. **write instructions to be able to rebuild**,
 2. automate rebuild run,
 3. automate the comparison of rebuild output against reference output available in Central Repository.
 
+This doc is about writing rebuild instructions: effective rebuild run and report is done in [GHA workflows](.github/workflows).
+
 # Format
 
-**Reproducible Central** rebuild instructions are defined in a `.buildspec` file that will be used by [`rebuild.sh`](../rebuild.sh) script. A `.buildspec` file is de-facto a Bash shell script defining a few variables that `rebuild.sh` will use to do the rebuild:
+**Reproducible Central** rebuild instructions for a release are defined in a `.buildspec` file that will be used by [`rebuild.sh`](../rebuild.sh) script. A `.buildspec` file is de-facto a Bash shell script defining a few variables that `rebuild.sh` will use to do the rebuild:
 
 ```
 # 1. what does this rebuild?
-# = Central Repository coordinates for the Reference release (for multi-module, pick an artitrary module)
+# = Central Repository coordinates for the Reference release (for multi-module builds, pick an artitrary module)
 groupId=
 artifactId=
 version=
 # where are reference binaries?
 # referenceRepo = https://repository.maven.apache.org/maven2/
-# layout (= gav to path in referenceRepo) is Maven repository: https://maven.apache.org/repositories/layout.html (future options could be PyPI, npm, Brew, Dockerhub, ...)
+#     layout is Maven repository: https://maven.apache.org/repositories/layout.html (future options could be PyPI, npm, Brew, Dockerhub, ...)
 
 # 2. where is source code?
 gitRepo=https://github.com/project_org/${artifactId}.git
@@ -32,24 +34,24 @@ sourceRmFiles="DEPENDENCIES LICENSE NOTICE"
 
 # 3. rebuild environment prerequisites
 tool=mvn
-# or tool=mvn-3.9.11 if default 3.6.3 version does not match your prerequisites (available version may be limited by images available on Dockerhub)
-# or tool=gradle or tool=sbt
+#  or tool=mvn-3.9.11 if default 3.6.3 version does not match your prerequisites
+#  or tool=gradle or tool=sbt
 jdk=8
+#toochains=... see explanations below
 newline=crlf
-# crlf for Windows, lf for Unix
-# optional:
+#  crlf for Windows, lf for Unix
 #newlineGit=lf
-# if Git content newline does not follow runtime newline
+#  if Git content newline does not follow newline configured previously, used at runtime
 #umask=002
 #timezone="Etc/GMT"
 #locale="en_US"
-# if rebuild output depends on OS and/or processor architecture
 #os=
 #arch=
-# if rebuild output depends on Azul JDK even when default OpenJDK is available, like with JDK 8 and cyclonedx-maven-plugin
+#  if rebuild output depends on OS and/or processor architecture
 #jdkForceAzul=true
-# if rebuild output depends on working directory where source code is stored:
+#  if rebuild output depends on Azul JDK even when default OpenJDK is available, like with JDK 8 and cyclonedx-maven-plugin
 #workdir=/var/<tool>/app
+#  if rebuild output depends on working directory where source code is stored:
 
 # 4. rebuild command
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
@@ -96,7 +98,7 @@ To facilitate the job, here are step-by-step instructions:
 - `gitRepo` and `gitTag` define where to get the source code from and which precise commit represents the release.
 - in case Git is not the best way, `sourceDistribution`, `sourcePath` and `sourceRmFiles` can be defined to download a source zip file.
 - rebuild environment prerequisites: they define key prerequisites to rebuild source code and have a chance that the output files will match reference output from Central Repository:
-  - `tool`: the build tool used. Can be `mvn`, `gradle` or `sbt` currently, but don't hesitate to help provide [rebuild support for other JVM build tools](/jvm-repo-rebuild/reproducible-central/issues/6),
+  - `tool`: the build tool used. Can be `mvn`, `gradle` or `sbt` currently, but don't hesitate to help provide [rebuild support for other JVM build tools](../../../issues/6),
   - `jdk`: the JDK major version to use, that must match the reference file from Central Repository to have a chance of getting the same binary output,
   - `newline`: `lf` (*nix) or `crlf` (Windows), to match the environment used to build the reference release in Central Repository,
 - `command`: the effective rebuild command to match output in Central Repository
@@ -109,10 +111,10 @@ Reproducible Central project is a first step at rebuilding every public release:
 
 Then there are some simplifications done for now to match current ambition:
 
-- `artifactId`: some projects build only 1 artifact, but more complex ones ("multi-module" in Maven terms) build many artifacts: only one artifact is provided in build spec to provide one example link to Central Repository,
+- `artifactId`: some projects build only 1 artifact, but more complex ones ("multi-module" in Maven terms, "mutli-projects" in Maven 4) build many artifacts: only one artifact is provided in build spec to provide one example link to Central Repository,
 - `gitRepo`: current rebuild script only supports Git, which has been sufficient for now, but other source control could be added to [`bin/includes/fetchSource.sh`](../bin/includes/fetchSource.sh)
-- `tool`: current build spec does not specify a precise tool version, as it was not yet required: rebuild script chooses arbitrarily,
-- `jdk`: only major JDK version is provided, as tests have shown that it is in general sufficient to get reproducible bytecode: rebuild script will choose on its own JVM provider and JDK minor version
+- `tool`: for Maven and sbt, a default version is chosen if not provided,
+- `jdk`: only major JDK version is provided, as tests have shown that it is in general sufficient to get reproducible bytecode: rebuild script will choose on its own JVM provider and JDK minor version ([enhancement request](../../../issues/1718) filed for some edge cases).
 
 ## Tips and Tricks
 
