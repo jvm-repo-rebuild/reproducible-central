@@ -66,6 +66,7 @@ rebuilding **56 releases** of net.sourceforge.pmd:pmd:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [7.20.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.20.0/pom) | | | |
 | [7.19.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.19.0/pom) | [mvn jdk17](pmd-7.19.0.buildspec) | [result](pmd-7.19.0.buildinfo): [215 :white_check_mark: ](pmd-7.19.0.buildcompare) | | 18M |
 | [7.18.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.18.0/pom) | [mvn jdk17](pmd-7.18.0.buildspec) | [result](pmd-7.18.0.buildinfo): [215 :white_check_mark: ](pmd-7.18.0.buildcompare) | | 18M |
 | [7.17.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.17.0/pom) | [mvn jdk11](pmd-7.17.0.buildspec) | [result](pmd-7.17.0.buildinfo): [215 :white_check_mark: ](pmd-7.17.0.buildcompare) | | 19M |

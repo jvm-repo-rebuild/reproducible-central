@@ -21,6 +21,7 @@ rebuilding **12 releases** of org.jpmml:jpmml-statsmodels:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.3.8](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.3.8/pom) | | | |
 | [1.3.7](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.3.7/pom) | | | |
 | [1.3.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.3.6/pom) | | | |
 | [1.3.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-statsmodels/1.3.5/pom) | [mvn jdk11](jpmml-statsmodels-1.3.5.buildspec) | [result](jpmml-statsmodels-1.3.5.buildinfo): [3 :white_check_mark:  2 :warning:](jpmml-statsmodels-1.3.5.buildcompare) | 1 :recycle: 1 :rotating_light: | 53K |
