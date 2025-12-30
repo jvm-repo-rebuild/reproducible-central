@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JFaceUtils
+group-id=io.github.albertus82
+artifact-id=jface-utils
+version=20.2.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/albertus82/jface-utils.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.17
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.8.5
+
+# output
+
+outputs.0.groupId=io.github.albertus82
+outputs.0.filename=jface-utils-20.2.0.pom
+outputs.0.length=7609
+outputs.0.checksums.sha512=86901caa8a3942928929b595a557e1a25e64de0fb46dc94f1147e7fbabc9e8119b7aec08a6ba79957bdfc57739869d77f2e15d1167f5e7cef0c3618ac0a4f503
+
+outputs.1.groupId=io.github.albertus82
+outputs.1.filename=jface-utils-20.2.0.jar
+outputs.1.length=522719
+outputs.1.checksums.sha512=3420ed4634475450d815cc9e4deed0ceb091ea65ad12ac43763b9ab64b4534b6dfa4501d5d14112d856b748856c7853eeb35a72bc507dab56e0510bdb21803a8
+
+outputs.2.groupId=io.github.albertus82
+outputs.2.filename=jface-utils-20.2.0-sources.jar
+outputs.2.length=268073
+outputs.2.checksums.sha512=b9c500c79705fc8dcd08c1c7a24dfafc6a876476f871cd0c731d250908b3f7a61e0e0a33cc5ca2b342cc91ee3d605872d54235b0248ebe7bcc525e03a8ca8b59
