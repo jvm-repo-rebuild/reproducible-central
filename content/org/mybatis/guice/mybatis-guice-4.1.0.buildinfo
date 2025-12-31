@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis-guice
+group-id=org.mybatis
+artifact-id=mybatis-guice
+version=4.1.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/guice.git
+source.scm.tag=mybatis-guice-4.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.mybatis
+outputs.0.filename=mybatis-guice-4.1.0.pom
+outputs.0.length=12429
+outputs.0.checksums.sha512=4add32b0b1fbb644a5d9b6e20af0eef6434a40a948644a390bcc4255b05aebb048a394c01708725781770e3874dd64768d7e5e7a6df48cf3f72a9d0c75664a9c
+
+outputs.1.groupId=org.mybatis
+outputs.1.filename=mybatis-guice-4.1.0.jar
+outputs.1.length=136961
+outputs.1.checksums.sha512=89d48a1b631d24a7953dc0fff9a1e520c22996c202b97ce7af140c1b0eff21e0152fd0541448ad9935a822aba2ea5a2cd7f813ad27d1edc0b8a34e63c02cabf8
+
+outputs.2.groupId=org.mybatis
+outputs.2.filename=mybatis-guice-4.1.0-sources.jar
+outputs.2.length=109420
+outputs.2.checksums.sha512=8b8f750ee7a4f98ef43b98ab6cb0ed2f084f315568c1f288cfa0af2d28a65d03126abfb8d9fe3113e9d521ef95de77a202a20be77f5aad165099ba045ca217ee
