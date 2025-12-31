@@ -1,0 +1,207 @@
+1 / 6 target/reference/org.apache.plc4x/plc4x-parent-0.13.1-source-release.zip target/apache-plc4x-0.13.1-source-release.zip
+--- target/reference/org.apache.plc4x/plc4x-parent-0.13.1-source-release.zip
++++ target/apache-plc4x-0.13.1-source-release.zip
+├── apache-plc4x-0.13.1/.mvn/.develocity/develocity-workspace-id
+│ @@ -1 +1 @@
+│ -3zhlx3vutvfizisonirc4el7zq
+│ +ekh5uxotk5cgzfyucjgjqezvzq
+
+# no idea why (need to investigate), but rebuild is missing dpendencies
+2 / 6 target/reference/org.apache.plc4x/plc4x-parent-0.13.1-cyclonedx.xml target/apache-plc4x-parent-0.13.1-sbom.xml
+--- target/reference/org.apache.plc4x/plc4x-parent-0.13.1-cyclonedx.xml
++++ target/apache-plc4x-parent-0.13.1-sbom.xml
+│   --- target/reference/org.apache.plc4x/plc4x-parent-0.13.1-cyclonedx.xml
+├── +++ target/apache-plc4x-parent-0.13.1-sbom.xml
+...
+│ @@ -6896,19 +6348,11 @@
+│      <dependency ref="pkg:maven/org.apache.plc4x/plc4j-osgi@0.13.1?type=jar">
+│        <dependency ref="pkg:maven/org.osgi/osgi.core@8.0.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4j-api@0.13.1?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4j-spi@0.13.1?type=jar"/>
+│        <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"/>
+│      </dependency>
+│      <dependency ref="pkg:maven/org.osgi/osgi.core@8.0.0?type=jar"/>
+│ -    <dependency ref="pkg:maven/org.apache.plc4x/plc4net@0.13.1?type=pom">
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-cs@0.13.1?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-knxnetip@0.13.1?type=jar"/>
+│ -    </dependency>
+│ -    <dependency ref="pkg:maven/org.apache.plc4x/plc4py@0.13.1?type=pom">
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-python@0.13.1?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-modbus@0.13.1?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-simulated@0.13.1?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-umas@0.13.1?type=jar"/>
+│ -    </dependency>
+│ +    <dependency ref="pkg:maven/org.apache.plc4x/plc4net@0.13.1?type=pom"/>
+│ +    <dependency ref="pkg:maven/org.apache.plc4x/plc4py@0.13.1?type=pom"/>
+│    </dependencies>
+│  </bom>
+
+# same in json...
+3 / 6 target/reference/org.apache.plc4x/plc4x-parent-0.13.1-cyclonedx.json target/apache-plc4x-parent-0.13.1-sbom.json
+
+4 / 6 target/reference/org.apache.plc4x/plc4x-parent-0.13.1-source-release.zip.sha512 target/apache-plc4x-0.13.1-source-release.zip.sha512
+--- target/reference/org.apache.plc4x/plc4x-parent-0.13.1-source-release.zip.sha512
++++ target/apache-plc4x-0.13.1-source-release.zip.sha512
+@@ -1 +1 @@
+-c55e47b3a893c7a98a15e6d83b9159aabf8023252ebf172a466cfe928fa7ea6784774e9022f6e60c1e5e24cd59389027ac2e8da55da289a217978dd5a0ce725a
++8096842bca8b684ee45febc5a7f38b76b3608fd26f56346ea08a86a8b8b323d2f8ca1b6c7a2d986466363fd17ca5e31a8a203ada7738cba146c77a57074ae9db
+
+5 / 6 target/reference/org.apache.plc4x/plc4j-driver-knxnetip-0.13.1-features.xml plc4j/drivers/knxnetip/target/feature/feature.xml
+--- target/reference/org.apache.plc4x/plc4j-driver-knxnetip-0.13.1-features.xml
++++ plc4j/drivers/knxnetip/target/feature/feature.xml
+│   --- target/reference/org.apache.plc4x/plc4j-driver-knxnetip-0.13.1-features.xml
+├── +++ plc4j/drivers/knxnetip/target/feature/feature.xml
+│ @@ -14,14 +14,15 @@
+│      <bundle>mvn:io.vavr/vavr-match/0.10.7</bundle>
+│      <bundle>mvn:com.github.jinahya/bit-io/1.4.3</bundle>
+│      <bundle>mvn:org.apache.plc4x/plc4j-transport-udp/0.13.1</bundle>
+│      <bundle>mvn:org.apache.plc4x/plc4j-transport-raw-socket/0.13.1</bundle>
+│      <bundle>mvn:org.apache.plc4x/plc4j-transport-pcap-shared/0.13.1</bundle>
+│      <bundle>mvn:org.apache.plc4x/plc4j-utils-raw-sockets/0.13.1</bundle>
+│      <bundle>mvn:commons-net/commons-net/3.12.0</bundle>
+│ +    <bundle>mvn:commons-io/commons-io/2.20.0</bundle>
+│      <bundle>mvn:org.apache.plc4x/plc4j-transport-pcap-replay/0.13.1</bundle>
+│      <bundle>mvn:org.apache.plc4x/plc4j-utils-pcap-replay/0.13.1</bundle>
+│      <bundle>mvn:io.netty/netty-transport/4.1.123.Final</bundle>
+│      <bundle>mvn:io.netty/netty-resolver/4.1.123.Final</bundle>
+│      <bundle>mvn:io.netty/netty-buffer/4.1.123.Final</bundle>
+│      <bundle>mvn:org.apache.commons/commons-lang3/3.18.0</bundle>
+│      <bundle>mvn:commons-codec/commons-codec/1.19.0</bundle>
+
+6 / 6 target/reference/org.apache.plc4x/plc4j-driver-knxnetip-0.13.1.kar plc4j/drivers/knxnetip/target/plc4j-driver-knxnetip-0.13.1.kar
+--- target/reference/org.apache.plc4x/plc4j-driver-knxnetip-0.13.1.kar
++++ plc4j/drivers/knxnetip/target/plc4j-driver-knxnetip-0.13.1.kar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 18543906 bytes, number of entries: 475
+│ +Zip file size: 19046984 bytes, number of entries: 479
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 META-INF/
+│  -rw-r--r--  2.0 unx       81 b- defN 25-Aug-24 18:14 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/org/apache/plc4x/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/org/apache/plc4x/plc4j-driver-knxnetip/
+│ @@ -43,14 +43,17 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/org/apache/plc4x/plc4j-transport-pcap-shared/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/org/apache/plc4x/plc4j-transport-pcap-shared/0.13.1/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/org/apache/plc4x/plc4j-utils-raw-sockets/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/org/apache/plc4x/plc4j-utils-raw-sockets/0.13.1/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/commons-net/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/commons-net/commons-net/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/commons-net/commons-net/3.12.0/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/commons-io/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/commons-io/commons-io/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/commons-io/commons-io/2.20.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/org/apache/plc4x/plc4j-transport-pcap-replay/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/org/apache/plc4x/plc4j-transport-pcap-replay/0.13.1/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/org/apache/plc4x/plc4j-utils-pcap-replay/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/org/apache/plc4x/plc4j-utils-pcap-replay/0.13.1/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/io/netty/netty-transport/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/io/netty/netty-transport/4.1.123.Final/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 repository/io/netty/netty-resolver/
+│ @@ -97,15 +100,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 org/apache/plc4x/java/knxnetip/protocol/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 org/apache/plc4x/java/knxnetip/readwrite/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 org/apache/plc4x/java/knxnetip/tag/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 org/apache/plc4x/java/knxnetip/utils/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 META-INF/maven/org.apache.plc4x/
+│  drwxr-xr-x  2.0 unx        0 b- stor 25-Aug-24 18:14 META-INF/maven/org.apache.plc4x/plc4j-driver-knxnetip/
+│ --rw-r--r--  2.0 unx     2272 b- defN 25-Aug-24 18:14 repository/org/apache/plc4x/plc4j-driver-knxnetip/0.13.1/plc4j-driver-knxnetip-0.13.1-features.xml
+│ +-rw-r--r--  2.0 unx     2330 b- defN 25-Aug-24 18:14 repository/org/apache/plc4x/plc4j-driver-knxnetip/0.13.1/plc4j-driver-knxnetip-0.13.1-features.xml
+│  -rw-r--r--  2.0 unx    62924 b- defN 25-Aug-24 18:14 repository/org/apache/plc4x/plc4j-api/0.13.1/plc4j-api-0.13.1.jar
+│  -rw-r--r--  2.0 unx   483321 b- defN 25-Aug-24 18:14 repository/org/apache/plc4x/plc4j-spi/0.13.1/plc4j-spi-0.13.1.jar
+│  -rw-r--r--  2.0 unx   355803 b- defN 25-Aug-24 18:14 repository/io/netty/netty-codec/4.1.123.Final/netty-codec-4.1.123.Final.jar
+│  -rw-r--r--  2.0 unx   724163 b- defN 25-Aug-24 18:14 repository/io/netty/netty-common/4.1.123.Final/netty-common-4.1.123.Final.jar
+│  -rw-r--r--  2.0 unx  1679351 b- defN 25-Aug-24 18:14 repository/com/fasterxml/jackson/core/jackson-databind/2.19.2/jackson-databind-2.19.2.jar
+│  -rw-r--r--  2.0 unx    79309 b- defN 25-Aug-24 18:14 repository/com/fasterxml/jackson/core/jackson-annotations/2.19.2/jackson-annotations-2.19.2.jar
+│  -rw-r--r--  2.0 unx   591418 b- defN 25-Aug-24 18:14 repository/com/fasterxml/jackson/core/jackson-core/2.19.2/jackson-core-2.19.2.jar
+│ @@ -113,14 +116,15 @@
+│  -rw-r--r--  2.0 unx     5400 b- defN 25-Aug-24 18:14 repository/io/vavr/vavr-match/0.10.7/vavr-match-0.10.7.jar
+│  -rw-r--r--  2.0 unx    33522 b- defN 25-Aug-24 18:14 repository/com/github/jinahya/bit-io/1.4.3/bit-io-1.4.3.jar
+│  -rw-r--r--  2.0 unx    15156 b- defN 25-Aug-24 18:14 repository/org/apache/plc4x/plc4j-transport-udp/0.13.1/plc4j-transport-udp-0.13.1.jar
+│  -rw-r--r--  2.0 unx    17897 b- defN 25-Aug-24 18:14 repository/org/apache/plc4x/plc4j-transport-raw-socket/0.13.1/plc4j-transport-raw-socket-0.13.1.jar
+│  -rw-r--r--  2.0 unx    10299 b- defN 25-Aug-24 18:14 repository/org/apache/plc4x/plc4j-transport-pcap-shared/0.13.1/plc4j-transport-pcap-shared-0.13.1.jar
+│  -rw-r--r--  2.0 unx    28480 b- defN 25-Aug-24 18:14 repository/org/apache/plc4x/plc4j-utils-raw-sockets/0.13.1/plc4j-utils-raw-sockets-0.13.1.jar
+│  -rw-r--r--  2.0 unx   330333 b- defN 25-Aug-24 18:14 repository/commons-net/commons-net/3.12.0/commons-net-3.12.0.jar
+│ +-rw-r--r--  2.0 unx   563971 b- defN 25-Aug-24 18:14 repository/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar
+│  -rw-r--r--  2.0 unx    14507 b- defN 25-Aug-24 18:14 repository/org/apache/plc4x/plc4j-transport-pcap-replay/0.13.1/plc4j-transport-pcap-replay-0.13.1.jar
+│  -rw-r--r--  2.0 unx    19562 b- defN 25-Aug-24 18:14 repository/org/apache/plc4x/plc4j-utils-pcap-replay/0.13.1/plc4j-utils-pcap-replay-0.13.1.jar
+│  -rw-r--r--  2.0 unx   521519 b- defN 25-Aug-24 18:14 repository/io/netty/netty-transport/4.1.123.Final/netty-transport-4.1.123.Final.jar
+│  -rw-r--r--  2.0 unx    37906 b- defN 25-Aug-24 18:14 repository/io/netty/netty-resolver/4.1.123.Final/netty-resolver-4.1.123.Final.jar
+│  -rw-r--r--  2.0 unx   352299 b- defN 25-Aug-24 18:14 repository/io/netty/netty-buffer/4.1.123.Final/netty-buffer-4.1.123.Final.jar
+│  -rw-r--r--  2.0 unx   702952 b- defN 25-Aug-24 18:14 repository/org/apache/commons/commons-lang3/3.18.0/commons-lang3-3.18.0.jar
+│  -rw-r--r--  2.0 unx   374716 b- defN 25-Aug-24 18:14 repository/commons-codec/commons-codec/1.19.0/commons-codec-1.19.0.jar
+│ @@ -470,8 +474,8 @@
+│  -rw-r--r--  2.0 unx     1155 b- defN 25-Aug-24 18:14 org/apache/plc4x/java/knxnetip/readwrite/UnknownMessage$UnknownMessageBuilderImpl.class
+│  -rw-r--r--  2.0 unx     5459 b- defN 25-Aug-24 18:14 org/apache/plc4x/java/knxnetip/readwrite/UnknownMessage.class
+│  -rw-r--r--  2.0 unx     3908 b- defN 25-Aug-24 18:14 org/apache/plc4x/java/knxnetip/tag/KnxNetIpTag.class
+│  -rw-r--r--  2.0 unx     1170 b- defN 25-Aug-24 18:14 org/apache/plc4x/java/knxnetip/tag/KnxNetIpTagHandler.class
+│  -rw-r--r--  2.0 unx     3327 b- defN 25-Aug-24 18:14 org/apache/plc4x/java/knxnetip/utils/KnxHelper.class
+│  -rw-r--r--  2.0 unx     7246 b- defN 25-Aug-24 18:14 META-INF/maven/org.apache.plc4x/plc4j-driver-knxnetip/pom.xml
+│  -rw-r--r--  2.0 unx       73 b- defN 25-Aug-24 18:14 META-INF/maven/org.apache.plc4x/plc4j-driver-knxnetip/pom.properties
+│ -475 files, 21617926 bytes uncompressed, 18438796 bytes compressed:  14.7%
+│ +479 files, 22181955 bytes uncompressed, 18941258 bytes compressed:  14.6%
+├── zipnote «TEMP»/diffoscope_su4_db2s_target/tmp3cgk10my_.zip
+│ @@ -138,14 +138,23 @@
+│  
+│  Filename: repository/commons-net/commons-net/
+│  Comment: 
+│  
+│  Filename: repository/commons-net/commons-net/3.12.0/
+│  Comment: 
+│  
+│ +Filename: repository/commons-io/
+│ +Comment: 
+│ +
+│ +Filename: repository/commons-io/commons-io/
+│ +Comment: 
+│ +
+│ +Filename: repository/commons-io/commons-io/2.20.0/
+│ +Comment: 
+│ +
+│  Filename: repository/org/apache/plc4x/plc4j-transport-pcap-replay/
+│  Comment: 
+│  
+│  Filename: repository/org/apache/plc4x/plc4j-transport-pcap-replay/0.13.1/
+│  Comment: 
+│  
+│  Filename: repository/org/apache/plc4x/plc4j-utils-pcap-replay/
+│ @@ -348,14 +357,17 @@
+│  
+│  Filename: repository/org/apache/plc4x/plc4j-utils-raw-sockets/0.13.1/plc4j-utils-raw-sockets-0.13.1.jar
+│  Comment: 
+│  
+│  Filename: repository/commons-net/commons-net/3.12.0/commons-net-3.12.0.jar
+│  Comment: 
+│  
+│ +Filename: repository/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar
+│ +Comment: 
+│ +
+│  Filename: repository/org/apache/plc4x/plc4j-transport-pcap-replay/0.13.1/plc4j-transport-pcap-replay-0.13.1.jar
+│  Comment: 
+│  
+│  Filename: repository/org/apache/plc4x/plc4j-utils-pcap-replay/0.13.1/plc4j-utils-pcap-replay-0.13.1.jar
+│  Comment: 
+│  
+│  Filename: repository/io/netty/netty-transport/4.1.123.Final/netty-transport-4.1.123.Final.jar
+├── repository/org/apache/plc4x/plc4j-driver-knxnetip/0.13.1/plc4j-driver-knxnetip-0.13.1-features.xml
+│ ├── repository/org/apache/plc4x/plc4j-driver-knxnetip/0.13.1/plc4j-driver-knxnetip-0.13.1-features.xml
+│ │ @@ -14,14 +14,15 @@
+│ │      <bundle>mvn:io.vavr/vavr-match/0.10.7</bundle>
+│ │      <bundle>mvn:com.github.jinahya/bit-io/1.4.3</bundle>
+│ │      <bundle>mvn:org.apache.plc4x/plc4j-transport-udp/0.13.1</bundle>
+│ │      <bundle>mvn:org.apache.plc4x/plc4j-transport-raw-socket/0.13.1</bundle>
+│ │      <bundle>mvn:org.apache.plc4x/plc4j-transport-pcap-shared/0.13.1</bundle>
+│ │      <bundle>mvn:org.apache.plc4x/plc4j-utils-raw-sockets/0.13.1</bundle>
+│ │      <bundle>mvn:commons-net/commons-net/3.12.0</bundle>
+│ │ +    <bundle>mvn:commons-io/commons-io/2.20.0</bundle>
+│ │      <bundle>mvn:org.apache.plc4x/plc4j-transport-pcap-replay/0.13.1</bundle>
+│ │      <bundle>mvn:org.apache.plc4x/plc4j-utils-pcap-replay/0.13.1</bundle>
+│ │      <bundle>mvn:io.netty/netty-transport/4.1.123.Final</bundle>
+│ │      <bundle>mvn:io.netty/netty-resolver/4.1.123.Final</bundle>
+│ │      <bundle>mvn:io.netty/netty-buffer/4.1.123.Final</bundle>
+│ │      <bundle>mvn:org.apache.commons/commons-lang3/3.18.0</bundle>
+│ │      <bundle>mvn:commons-codec/commons-codec/1.19.0</bundle>
+
