@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis-ignite
+group-id=org.mybatis.caches
+artifact-id=mybatis-ignite
+version=1.2.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/ignite-cache.git
+source.scm.tag=mybatis-ignite-1.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.mybatis.caches
+outputs.0.filename=mybatis-ignite-1.2.0.pom
+outputs.0.length=4592
+outputs.0.checksums.sha512=2cbdb20bf8439d2f915c6bb20ab6d74df7321f6f30b0b2da5fae1a7477a916bf908405639d1b77e34bb09b189acb8d6ff721a1bfa45315f3641e723312fc4ef4
+
+outputs.1.groupId=org.mybatis.caches
+outputs.1.filename=mybatis-ignite-1.2.0.jar
+outputs.1.length=12093
+outputs.1.checksums.sha512=d2f75f49b00799be063784411a52ac8b226076ec909a58fb5a036fd2ed919297fd33d4f3bb82fdfd86ba6b87748f6e2cfcd03eee69debfbb4272233fa5419184
+
+outputs.2.groupId=org.mybatis.caches
+outputs.2.filename=mybatis-ignite-1.2.0-sources.jar
+outputs.2.length=10731
+outputs.2.checksums.sha512=4fc4419471aa5e28545cebd3da3edf3bacee9f5be1af1170cbad48342abb7c6843b80fdd602f48749c7a1897299a91db4c7cd2d466a78287337d35ceaf885c85
