@@ -3,7 +3,8 @@
 git switch master
 export CI="true"
 
-for line in `cat doc/add-ok.txt`
+# create PR for every new release identified as "just create a new buildspec from previous one" when preparing new releases status report
+for line in `cat doc/add-new-releases.txt | grep 'content/'`
 do
   echo -e "\033[0;1m$(echo "$line" | sed -e 's/:/ => /')\033[0m"
   previousBuildspec="$(echo $line | cut -d ':' -f 1)"

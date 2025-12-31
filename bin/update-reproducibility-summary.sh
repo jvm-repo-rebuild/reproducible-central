@@ -21,7 +21,10 @@ do
 done | sort -k 2 | while read -r p ; do echo "${p##* }/${p% *}/maven-metadata.xml"; done > maven-metadata
 count="$(wc -l maven-metadata | cut -d ' ' -f 1)"
 
-\rm -f "doc/add-ok.txt"
+# reset list of new releases to add by creating a new buildspec from a previous release with bin/add-new-release.sh
+# = what is done by create-new-release-PRs.sh if we don't want to do the work on each by hand
+echo "# format: <path to existing buildspec>:<new release to rebuild>
+# see bin/create-new-release-PRs.sh" > "doc/add-new-releases.txt"
 
 for metadata in `cat maven-metadata`
 do
@@ -74,7 +77,7 @@ do
                   && echo "  missing ${countMissingBuildspec}: https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/$dir/README.md" \
                   && echo "    bin/add-new-release.sh $dir/${previousBuildspec} $missingBuildspec"
       [ $countMissingBuildspec -gt 0 ] && echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | [${previousVersion}](../$dir/${previousBuildspec}) $rebuildStatus" \
-           "| ${missingBuildspec} | \`bin/add-new-release.sh $dir/${previousBuildspec} ...\` |" >> tmp/add-ok.md # only when ok for now
+           "| ${missingBuildspec} | \`bin/add-new-release.sh $dir/${previousBuildspec} ...\` |" >> tmp/new-releases-ok.md
     elif [ -z "$issue" ]
     then
       rebuildStatus=":warning:"
@@ -89,7 +92,7 @@ do
     rebuildOk="ok" && [ $ko -gt 0 ] && rebuildOk="ko"
     echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | [${previousVersion}](../$dir/${previousBuildspec}) $rebuildStatus" \
          "| [${addVersion}](../$addBuildspec) | \`bin/add-new-release.sh $dir/${previousBuildspec} ${addVersion}\` |" >> tmp/add-${rebuildOk}.md
-    [ "${rebuildOk}" = "ok" ] && echo "$dir/${previousBuildspec}:${addVersion}" >> doc/add-ok.txt # for bin/create-new-release-PRs.sh
+    [ "${rebuildOk}" = "ok" ] && echo "$dir/${previousBuildspec}:${addVersion}" >> doc/add-new-releases.txt # only when ok for now
   else
     # no release already exists, list it if it was not reproducible: it requires rework to prepare next release
     if [ ! -f "${dir}/${previousBuildcompare}" ] || [ $ko -ne 0 ]
@@ -146,7 +149,7 @@ do
     mailbox="[:mailbox:](https://lists.apache.org/list?dev@$tlp.apache.org:lte=1M:VOTE)"
 
     echo "| <!-- ${lastUpdated} --> $mailbox | [${artifactId}](../${dir}/README.md) | [${previousVersion}](../$dir/${previousBuildspec}) $rebuildStatus" \
-         "| [${latestStaging}](../$stagingBuildspec) $stagingBuildcompareDesc | \`bin/add-new-release.sh $dir/${previousBuildspec} ${latestStaging} staging\` |" >> tmp/add-staging.md
+         "| [${latestStaging}](../$stagingBuildspec) $stagingBuildcompareDesc | \`bin/add-new-release.sh $dir/${previousBuildspec} ${latestStaging} staging\` |" >> tmp/new-releases-staging.md
   fi
 done
 
@@ -177,15 +180,15 @@ sed -e "/$lead/,/$tail/{ /$lead/{p; r tmp/summary-table.md
 
 cp tmp/README.md content/README.md
 
-echo "| artifactId | from | to | command |" > tmp/add-ok-table.md
-echo "| ---------- | ---- | -- | ------- |" >> tmp/add-ok-table.md
-[ -f tmp/add-ok.md ] && sort -r tmp/add-ok.md >> tmp/add-ok-table.md
-echo "|    | artifactId | from | to | command |" > tmp/add-staging-table.md
-echo "| -- | ---------- | ---- | -- | ------- |" >> tmp/add-staging-table.md
-[ -f tmp/add-staging.md ] && sort -r tmp/add-staging.md >> tmp/add-staging-table.md
-echo "| artifactId | from | to | command |" > tmp/add-ko-table.md
-echo "| ---------- | ---- | -- | ------- |" >> tmp/add-ko-table.md
-[ -f tmp/add-ko.md ] && sort -r tmp/add-ko.md >> tmp/add-ko-table.md
+echo "| artifactId | from | to | command |" > tmp/new-releases-ok-table.md
+echo "| ---------- | ---- | -- | ------- |" >> tmp/new-releases-ok-table.md
+[ -f tmp/new-releases-ok.md ] && sort -r tmp/new-releases-ok.md >> tmp/new-releases-ok-table.md
+echo "|    | artifactId | from | to | command |" > tmp/new-releases-staging-table.md
+echo "| -- | ---------- | ---- | -- | ------- |" >> tmp/new-releases-staging-table.md
+[ -f tmp/new-releases-staging.md ] && sort -r tmp/new-releases-staging.md >> tmp/new-releases-staging-table.md
+echo "| artifactId | from | to | command |" > tmp/new-releases-ko-table.md
+echo "| ---------- | ---- | -- | ------- |" >> tmp/new-releases-ko-table.md
+[ -f tmp/new-releases-ko.md ] && sort -r tmp/new-releases-ko.md >> tmp/new-releases-ko-table.md
 echo "| artifactId | newest |" > tmp/newest-not-reproducible-table.md
 echo "| ---------- | ------ |" >> tmp/newest-not-reproducible-table.md
 sort -r tmp/newest-not-reproducible.md >> tmp/newest-not-reproducible-table.md
@@ -201,19 +204,19 @@ lead_ko='^<!-- BEGIN GENERATED ADD KO -->$'
 tail_ko='^<!-- END GENERATED ADD KO -->$'
 lead_newest='^<!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->$'
 tail_newest='^<!-- END GENERATED NEWEST NOT REPRODUCIBLE -->$'
-sed -e "/$lead/,/$tail/{ /$lead/{p; r tmp/add-ok-table.md
-        }; /$tail/p; d }" doc/add.md | \
+sed -e "/$lead/,/$tail/{ /$lead/{p; r tmp/new-releases-ok-table.md
+        }; /$tail/p; d }" doc/new-releases.md | \
     sed -e "/$lead_unexpected_diffoscope/,/$tail_unexpected_diffoscope/{ /$lead_unexpected_diffoscope/{p; r $unexpectedDiffoscope
         }; /$tail_unexpected_diffoscope/p; d }" | \
     sed -e "/$lead_missing_diffoscope/,/$tail_missing_diffoscope/{ /$lead_missing_diffoscope/{p; r $missingDiffoscope
         }; /$tail_missing_diffoscope/p; d }" | \
-    sed -e "/$lead_staging/,/$tail_staging/{ /$lead_staging/{p; r tmp/add-staging-table.md
+    sed -e "/$lead_staging/,/$tail_staging/{ /$lead_staging/{p; r tmp/new-releases-staging-table.md
         }; /$tail_staging/p; d }" | \
-    sed -e "/$lead_ko/,/$tail_ko/{ /$lead_ko/{p; r tmp/add-ko-table.md
+    sed -e "/$lead_ko/,/$tail_ko/{ /$lead_ko/{p; r tmp/new-releases-ko-table.md
         }; /$tail_ko/p; d }" | \
     sed -e "/$lead_newest/,/$tail_newest/{ /$lead_newest/{p; r tmp/newest-not-reproducible-table.md
         }; /$tail_newest/p; d }" >> tmp/add.md
-cp tmp/add.md doc/add.md
+cp tmp/add.md doc/new-releases.md
 
 \rm -rf tmp
 

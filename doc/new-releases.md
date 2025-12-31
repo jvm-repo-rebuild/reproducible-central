@@ -1,5 +1,23 @@
-New Releases To Add
-===================
+New Releases of Previously Rebuilt Projects Status Report
+=========================================================
+
+[Main report](../content/README.md)
+
+### Issues (if any) to fix in existing buildspec
+
+- unexpected `diffoscope` in buildspec:
+`buildcompare` says `ko=0` but `buildspec` configures a `diffoscope` value in following releases:
+<!-- BEGIN GENERATED UNEXPECTED DIFFOSCOPE -->
+<!-- END GENERATED UNEXPECTED DIFFOSCOPE -->
+
+- `diffoscope` in buildspec points to missing file:
+`buildspec` configures a `diffoscope` value to missing file in following releases:
+<!-- BEGIN GENERATED MISSING DIFFOSCOPE -->
+<!-- END GENERATED MISSING DIFFOSCOPE -->
+
+
+New Release of Previously Reproducible
+--------------------------------------
 
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
@@ -12,17 +30,8 @@ New Releases To Add
 | <!-- 20251118222117 --> [flowlogix](../content/com/flowlogix/README.md) | [10.0.8](../content/com/flowlogix/flowlogix-10.0.8.buildspec) :white_check_mark: | [11](../content/com/flowlogix/flowlogix-11.buildspec) | `bin/add-new-release.sh content/com/flowlogix/flowlogix-10.0.8.buildspec 11` |
 <!-- END GENERATED ADD OK -->
 
-### Unexpected Diffoscope in Buildspec
-`buildcompare` says `ko=0` but `buildspec` configures a `diffoscope` value in following releases:
-<!-- BEGIN GENERATED UNEXPECTED DIFFOSCOPE -->
-<!-- END GENERATED UNEXPECTED DIFFOSCOPE -->
-
-### Missing Diffoscope in Buildspec
-`buildspec` configures a `diffoscope` value to missing file in following releases:
-<!-- BEGIN GENERATED MISSING DIFFOSCOPE -->
-<!-- END GENERATED MISSING DIFFOSCOPE -->
-
-## Apache Release Candidate in Staging
+Apache Release Candidate in Staging https://repository.apache.org
+-----------------------------------------------------------------
 
 <!-- BEGIN GENERATED ADD STAGING -->
 |    | artifactId | from | to | command |
@@ -31,7 +40,8 @@ New Releases To Add
 | <!-- 20250213085016 --> [:mailbox:](https://lists.apache.org/list?dev@ignite.apache.org:lte=1M:VOTE) | [apache-ignite](../content/org/apache/ignite/README.md) | [2.17.0](../content/org/apache/ignite/ignite-2.17.0.buildspec) :warning: | [3.0.0-alpha5](../content/org/apache/ignite/ignite-3.0.0-alpha5.buildspec)  | `bin/add-new-release.sh content/org/apache/ignite/ignite-2.17.0.buildspec 3.0.0-alpha5 staging` |
 <!-- END GENERATED ADD STAGING -->
 
-## New Release of non-Reproducible Previous
+New Release of non-Reproducible Previous
+----------------------------------------
 
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
@@ -66,7 +76,9 @@ New Releases To Add
 | <!-- 20240313094557 --> [io.wcm.wcm.parsys](../content/io/wcm/io.wcm.wcm/parsys/README.md) | [1.6.4](../content/io/wcm/io.wcm.wcm/parsys/wcm-parsys-1.6.4.buildspec) :warning: | [1.7.4](../content/io/wcm/io.wcm.wcm/parsys/wcm-parsys-1.7.4.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/parsys/wcm-parsys-1.6.4.buildspec 1.7.4` |
 <!-- END GENERATED ADD KO -->
 
-## Newest not reproducible
+### Newest not Reproducible
+
+or maybe Reproducible but we were not able to reproduce...
 
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
