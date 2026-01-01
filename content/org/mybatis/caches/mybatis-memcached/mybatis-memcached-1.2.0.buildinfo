@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis-memcached
+group-id=org.mybatis.caches
+artifact-id=mybatis-memcached
+version=1.2.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/memcached-cache.git
+source.scm.tag=mybatis-memcached-1.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.9.11
+
+# output
+
+outputs.0.groupId=org.mybatis.caches
+outputs.0.filename=mybatis-memcached-1.2.0.pom
+outputs.0.length=4420
+outputs.0.checksums.sha512=59b22956c3c30a85bb9a7d5c042c51083c7576169bddd78842f8f02e7863eacdb03a36f1cfb776d7f5004316b144099a7f0538aa917ff659a202b6d26de950f3
+
+outputs.1.groupId=org.mybatis.caches
+outputs.1.filename=mybatis-memcached-1.2.0.jar
+outputs.1.length=32254
+outputs.1.checksums.sha512=e1c0f283db8c07ad4519c2fd69098c4c23bf889fc1a6b0389a214743689641bf593c07112c0df6361b52d84183b85dfece0ae6e46f2c87f4649779ccafac3aa0
+
+outputs.2.groupId=org.mybatis.caches
+outputs.2.filename=mybatis-memcached-1.2.0-sources.jar
+outputs.2.length=27469
+outputs.2.checksums.sha512=f7d6d35d476b67baeb31fb217ab68debefcabd9dda288d706151008be912d3edb80a386dc71a319b39194632abf9dce64c9a2cecec06dc782534791b4a598b41
