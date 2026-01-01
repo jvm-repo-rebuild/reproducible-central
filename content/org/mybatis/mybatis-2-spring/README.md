@@ -7,13 +7,14 @@
 
 Source code: [https://github.com/mybatis/ibatis-spring.git](https://github.com/mybatis/ibatis-spring.git)
 
-rebuilding **2 releases** of org.mybatis:mybatis-2-spring:
+rebuilding **3 releases** of org.mybatis:mybatis-2-spring:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 1, 0 had all their differences removed :recycle:, 1 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [1.2.2](https://central.sonatype.com/artifact/org.mybatis/mybatis-2-spring/1.2.2/pom) | | | |
+| [1.2.2](https://central.sonatype.com/artifact/org.mybatis/mybatis-2-spring/1.2.2/pom) | [mvn jdk25 w](mybatis-2-spring-1.2.2.buildspec) | [result](mybatis-2-spring-1.2.2.buildinfo): [2 :white_check_mark:  1 :warning:](mybatis-2-spring-1.2.2.buildcompare) | 1 :no_entry_sign: | 75K |
 | [1.2.1](https://central.sonatype.com/artifact/org.mybatis/mybatis-2-spring/1.2.1/pom) | [mvn jdk22 w](mybatis-2-spring-1.2.1.buildspec) | [result](mybatis-2-spring-1.2.1.buildinfo): [2 :white_check_mark:  1 :warning:](mybatis-2-spring-1.2.1.buildcompare) [:mag:](mybatis-2-spring-1.2.1.diffoscope) | - | 75K |
 | [1.2.0](https://central.sonatype.com/artifact/org.mybatis/mybatis-2-spring/1.2.0/pom) | [mvn jdk17 w](mybatis-2-spring-1.2.0.buildspec) | [result](mybatis-2-spring-1.2.0.buildinfo): [3 :white_check_mark: ](mybatis-2-spring-1.2.0.buildcompare) | | 105K |
 
