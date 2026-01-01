@@ -1,3 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/com/flowlogix/flowlogix-10.0.8.buildspec:11
+content/org/codehaus/mojo/mojo-parent/mojo-parent-94.buildspec:95
+content/org/mybatis/jpetstore/jpetstore-6.1.0.buildspec:6.2.0
+content/org/mybatis/caches/mybatis-memcached/mybatis-memcached-1.1.1.buildspec:1.2.0

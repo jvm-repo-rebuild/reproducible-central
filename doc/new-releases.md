@@ -22,6 +22,9 @@ New Release of Previously Reproducible
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20260101205112 --> [mybatis-memcached](../content/org/mybatis/caches/mybatis-memcached/README.md) | [1.1.1](../content/org/mybatis/caches/mybatis-memcached/mybatis-memcached-1.1.1.buildspec) :white_check_mark: | [1.2.0](../content/org/mybatis/caches/mybatis-memcached/mybatis-memcached-1.2.0.buildspec) | `bin/add-new-release.sh content/org/mybatis/caches/mybatis-memcached/mybatis-memcached-1.1.1.buildspec 1.2.0` |
+| <!-- 20260101204311 --> [mojo-parent](../content/org/codehaus/mojo/mojo-parent/README.md) | [94](../content/org/codehaus/mojo/mojo-parent/mojo-parent-94.buildspec) :white_check_mark: | [95](../content/org/codehaus/mojo/mojo-parent/mojo-parent-95.buildspec) | `bin/add-new-release.sh content/org/codehaus/mojo/mojo-parent/mojo-parent-94.buildspec 95` |
+| <!-- 20260101201512 --> [jpetstore](../content/org/mybatis/jpetstore/README.md) | [6.1.0](../content/org/mybatis/jpetstore/jpetstore-6.1.0.buildspec) :white_check_mark: | [6.2.0](../content/org/mybatis/jpetstore/jpetstore-6.2.0.buildspec) | `bin/add-new-release.sh content/org/mybatis/jpetstore/jpetstore-6.1.0.buildspec 6.2.0` |
 | <!-- 20251118222117 --> [flowlogix](../content/com/flowlogix/README.md) | [10.0.8](../content/com/flowlogix/flowlogix-10.0.8.buildspec) :white_check_mark: | [11](../content/com/flowlogix/flowlogix-11.buildspec) | `bin/add-new-release.sh content/com/flowlogix/flowlogix-10.0.8.buildspec 11` |
 <!-- END GENERATED ADD OK -->
 
@@ -31,6 +34,7 @@ Apache Release Candidate in Staging https://repository.apache.org
 <!-- BEGIN GENERATED ADD STAGING -->
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
+| <!-- 20260101101807 --> [:mailbox:](https://lists.apache.org/list?dev@camel.apache.org:lte=1M:VOTE) | [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.17.0](../content/org/apache/camel/camel/camel-4.17.0.buildspec)  | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.17.0 staging` |
 | <!-- 20251209215527 --> [:mailbox:](https://lists.apache.org/list?dev@commons.apache.org:lte=1M:VOTE) | [commons-pool2](../content/org/apache/commons/commons-pool2/README.md) | [2.13.0](../content/org/apache/commons/commons-pool2/commons-pool2-2.13.0.buildspec) :white_check_mark: | [2.13.1](../content/org/apache/commons/commons-pool2/commons-pool2-2.13.1.buildspec)  | `bin/add-new-release.sh content/org/apache/commons/commons-pool2/commons-pool2-2.13.0.buildspec 2.13.1 staging` |
 | <!-- 20251122130645 --> [:mailbox:](https://lists.apache.org/list?dev@commons.apache.org:lte=1M:VOTE) | [commons-parent](../content/org/apache/commons/parent/README.md) | [93](../content/org/apache/commons/parent/commons-parent-93.buildspec) :white_check_mark: | [94](../content/org/apache/commons/parent/commons-parent-94.buildspec)  | `bin/add-new-release.sh content/org/apache/commons/parent/commons-parent-93.buildspec 94 staging` |
 | <!-- 20250213085016 --> [:mailbox:](https://lists.apache.org/list?dev@ignite.apache.org:lte=1M:VOTE) | [apache-ignite](../content/org/apache/ignite/README.md) | [2.17.0](../content/org/apache/ignite/ignite-2.17.0.buildspec) :warning: | [3.0.0-alpha5](../content/org/apache/ignite/ignite-3.0.0-alpha5.buildspec)  | `bin/add-new-release.sh content/org/apache/ignite/ignite-2.17.0.buildspec 3.0.0-alpha5 staging` |
@@ -42,12 +46,10 @@ New Release of non-Reproducible Previous
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20251231151520 --> [jreleaser](../content/org/jreleaser/README.md) | [1.21.0](../content/org/jreleaser/jreleaser-1.21.0.buildspec) :warning: | [1.22.0](../content/org/jreleaser/jreleaser-1.22.0.buildspec) | `bin/add-new-release.sh content/org/jreleaser/jreleaser-1.21.0.buildspec 1.22.0` |
+| <!-- 20260101101807 --> [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.16.0](../content/org/apache/camel/camel/camel-4.16.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.16.0` |
 | <!-- 20251231132911 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | [1.9.20](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.20.buildspec) :warning: | [1.9.22](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.22.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.20.buildspec 1.9.22` |
 | <!-- 20251230130513 --> [jpmml-python](../content/org/jpmml/jpmml-python/README.md) | [1.3.11](../content/org/jpmml/jpmml-python/jpmml-python-1.3.11.buildspec) :warning: | [1.3.15](../content/org/jpmml/jpmml-python/jpmml-python-1.3.15.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-python/jpmml-python-1.3.11.buildspec 1.3.15` |
 | <!-- 20251230104712 --> [jpmml-statsmodels](../content/org/jpmml/jpmml-statsmodels/README.md) | [1.3.5](../content/org/jpmml/jpmml-statsmodels/jpmml-statsmodels-1.3.5.buildspec) :warning: | [1.3.8](../content/org/jpmml/jpmml-statsmodels/jpmml-statsmodels-1.3.8.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-statsmodels/jpmml-statsmodels-1.3.5.buildspec 1.3.8` |
-| <!-- 20251229192147 --> [mybatis-2-spring](../content/org/mybatis/mybatis-2-spring/README.md) | [1.2.1](../content/org/mybatis/mybatis-2-spring/mybatis-2-spring-1.2.1.buildspec) :warning: | [1.2.2](../content/org/mybatis/mybatis-2-spring/mybatis-2-spring-1.2.2.buildspec) | `bin/add-new-release.sh content/org/mybatis/mybatis-2-spring/mybatis-2-spring-1.2.1.buildspec 1.2.2` |
-| <!-- 20251229144918 --> [avaje-jex-parent](../content/io/avaje/jex/README.md) | [3.4-RC3](../content/io/avaje/jex/avaje-jex-3.4-RC3.buildspec) :warning: | [3.4-RC4](../content/io/avaje/jex/avaje-jex-3.4-RC4.buildspec) | `bin/add-new-release.sh content/io/avaje/jex/avaje-jex-3.4-RC3.buildspec 3.4-RC4` |
 | <!-- 20251229095723 --> [evm-abi-decoder](../content/net/osslabz/evm-abi-decode/README.md) | [0.1.4](../content/net/osslabz/evm-abi-decode/evm-abi-decoder-0.1.4.buildspec) :warning: | [0.1.6](../content/net/osslabz/evm-abi-decode/evm-abi-decoder-0.1.6.buildspec) | `bin/add-new-release.sh content/net/osslabz/evm-abi-decode/evm-abi-decoder-0.1.4.buildspec 0.1.6` |
 | <!-- 20251229052114 --> [arthas-all](../content/com/taobao/arthas/README.md) | [4.1.0](../content/com/taobao/arthas/arthas-4.1.0.buildspec) :warning: [:memo:](https://github.com/alibaba/arthas/pull/3001) | [4.1.4](../content/com/taobao/arthas/arthas-4.1.4.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-4.1.0.buildspec 4.1.4` |
 | <!-- 20251228170116 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | [4.0.0](../content/org/mybatis/spring/boot/mybatis-spring-boot-4.0.0.buildspec) :warning: | [4.0.1](../content/org/mybatis/spring/boot/mybatis-spring-boot-4.0.1.buildspec) | `bin/add-new-release.sh content/org/mybatis/spring/boot/mybatis-spring-boot-4.0.0.buildspec 4.0.1` |
@@ -62,7 +64,6 @@ New Release of non-Reproducible Previous
 | <!-- 20251217205526 --> [nifi](../content/org/apache/nifi/nifi/README.md) | [2.6.0](../content/org/apache/nifi/nifi/nifi-2.6.0.buildspec) :warning: | [2.7.2](../content/org/apache/nifi/nifi/nifi-2.7.2.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-2.6.0.buildspec 2.7.2` |
 | <!-- 20251215100318 --> [paapi5-java-sdk](../content/net/osslabz/paapi5-java-sdk/README.md) | [1.2.4](../content/net/osslabz/paapi5-java-sdk/paapi5-java-sdk-1.2.4.buildspec) :warning: | [1.2.5](../content/net/osslabz/paapi5-java-sdk/paapi5-java-sdk-1.2.5.buildspec) | `bin/add-new-release.sh content/net/osslabz/paapi5-java-sdk/paapi5-java-sdk-1.2.4.buildspec 1.2.5` |
 | <!-- 20251215031957 --> [trino-root](../content/io/trino/README.md) | [477](../content/io/trino/trino-477.buildspec) :warning: | [479](../content/io/trino/trino-479.buildspec) | `bin/add-new-release.sh content/io/trino/trino-477.buildspec 479` |
-| <!-- 20251213132737 --> [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.16.0](../content/org/apache/camel/camel/camel-4.16.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.16.0` |
 | <!-- 20251210185730 --> [avaje-http-parent](../content/io/avaje/http/README.md) | [3.6](../content/io/avaje/http/avaje-http-3.6.buildspec) :warning: | [3.7-RC1](../content/io/avaje/http/avaje-http-3.7-RC1.buildspec) | `bin/add-new-release.sh content/io/avaje/http/avaje-http-3.6.buildspec 3.7-RC1` |
 | <!-- 20251210155324 --> [com.io7m.dixmont](../content/com/io7m/dixmont/README.md) | [3.0.0](../content/com/io7m/dixmont/com.io7m.dixmont-3.0.0.buildspec) :warning: | [3.1.0](../content/com/io7m/dixmont/com.io7m.dixmont-3.1.0.buildspec) | `bin/add-new-release.sh content/com/io7m/dixmont/com.io7m.dixmont-3.0.0.buildspec 3.1.0` |
 | <!-- 20251124114125 --> [io.wcm.wcm.ui.granite](../content/io/wcm/io.wcm.wcm/ui/granite/README.md) | [1.9.12](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec) :warning: | [1.11.10](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.11.10.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec 1.11.10` |
@@ -80,6 +81,8 @@ or maybe Reproducible but we were not able to reproduce...
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20251231151520 --> [jreleaser](../content/org/jreleaser/README.md) | 1.22.0 :warning: |
+| <!-- 20251229192147 --> [mybatis-2-spring](../content/org/mybatis/mybatis-2-spring/README.md) | 1.2.2 :warning: |
 | <!-- 20251224101552 --> [quarkus-project](../content/io/quarkus/README.md) | 3.30.5 :warning: |
 | <!-- 20251222212524 --> [gherkin](../content/io/cucumber/gherkin/README.md) | 37.0.1 :warning: |
 | <!-- 20251222125523 --> [com.io7m.jsamplebuffer](../content/com/io7m/jsamplebuffer/README.md) | 1.0.1 :warning: |
@@ -148,7 +151,7 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20250911141308 --> [angus-activation-project](../content/org/eclipse/angus/activation/README.md) | 2.1.0-M1 :warning: |
 | <!-- 20250908101217 --> [kubernetes-client-project](../content/io/fabric8/kubernetes-client/README.md) | 7.4.0 :warning: |
 | <!-- 20250906084628 --> [project](../content/org/glassfish/mq/README.md) | 6.7.0 :warning: |
-| <!-- 20250829092417 --> [plc4x-parent](../content/org/apache/plc4x/plc4x/README.md) | 0.13.1 :warning: |
+| <!-- 20250829092417 --> [plc4x-parent](../content/org/apache/plc4x/plc4x/README.md) | 0.13.1 :warning: [:memo:](https://github.com/apache/plc4x/pull/2407) |
 | <!-- 20250810192706 --> [bundlebee](../content/io/yupiik/bundlebee/README.md) | 1.0.31 :warning: |
 | <!-- 20250803190135 --> [psi-probe](../content/com/github/psi-probe/README.md) | 5.3.0 :warning: |
 | <!-- 20250730122750 --> [efx-toolkit-java](../content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 2.0.0-alpha.5 :warning: |
@@ -248,5 +251,4 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20211018122406 --> [org.apache.sling.commons.crypto](../content/org/apache/sling/org.apache.sling.commons.crypto/README.md) | 1.1.0 :warning: [:memo:](https://issues.apache.org/jira/browse/SLING-11907) |
 | <!-- 20201226140242 --> [maven-artifact-transfer](../content/org/apache/maven/shared/maven-artifact-transfer/README.md) | 0.13.1 :warning: [:memo:](https://github.com/apache/maven-artifact-transfer/commit/c2106c0500cc7c70c27581f117bf86e6185073c6) |
 | <!-- 20200511133844 --> [org.apache.sling.installer.factory.packages](../content/org/apache/sling/org.apache.sling.installer.factory.packages/README.md) | 1.0.4 :warning: |
-| <!--  --> [](../content/com/github/marschall/jfr-jmstemplate/README.md) |  :x: |
 <!-- END GENERATED NEWEST NOT REPRODUCIBLE -->
