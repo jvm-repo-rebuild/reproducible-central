@@ -91,7 +91,7 @@ do
     addBuildspec="${dir}/$(basename ${previousBuildspec} -${previousVersion}.buildspec)-${addVersion}.buildspec"
     rebuildOk="ok" && [ $ko -gt 0 ] && rebuildOk="ko"
     echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | [${previousVersion}](../$dir/${previousBuildspec}) $rebuildStatus" \
-         "| [${addVersion}](../$addBuildspec) | \`bin/add-new-release.sh $dir/${previousBuildspec} ${addVersion}\` |" >> tmp/add-${rebuildOk}.md
+         "| [${addVersion}](../$addBuildspec) | \`bin/add-new-release.sh $dir/${previousBuildspec} ${addVersion}\` |" >> tmp/new-releases-${rebuildOk}.md
     [ "${rebuildOk}" = "ok" ] && echo "$dir/${previousBuildspec}:${addVersion}" >> doc/add-new-releases.txt # only when ok for now
   else
     # no release already exists, list it if it was not reproducible: it requires rework to prepare next release
@@ -215,8 +215,8 @@ sed -e "/$lead/,/$tail/{ /$lead/{p; r tmp/new-releases-ok-table.md
     sed -e "/$lead_ko/,/$tail_ko/{ /$lead_ko/{p; r tmp/new-releases-ko-table.md
         }; /$tail_ko/p; d }" | \
     sed -e "/$lead_newest/,/$tail_newest/{ /$lead_newest/{p; r tmp/newest-not-reproducible-table.md
-        }; /$tail_newest/p; d }" >> tmp/add.md
-cp tmp/add.md doc/new-releases.md
+        }; /$tail_newest/p; d }" >> tmp/new-releases.md
+cp tmp/new-releases.md doc/new-releases.md
 
 \rm -rf tmp
 
