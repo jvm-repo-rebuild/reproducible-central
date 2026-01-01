@@ -1,0 +1,16 @@
+version=1.2.2
+ok=2
+ko=1
+ignored=0
+okFiles="mybatis-2-spring-1.2.2.jar mybatis-2-spring-1.2.2-sources.jar"
+koFiles="mybatis-2-spring-1.2.2.pom"
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/org.mybatis/mybatis-2-spring-1.2.2.pom dependency-reduced-pom.xml
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="mybatis-2-spring-1.2.2.pom"
