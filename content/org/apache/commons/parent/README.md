@@ -13,6 +13,7 @@ rebuilding **41 releases** of org.apache.commons:commons-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [94](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/94/pom) | | | |
 | [93](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/93/pom) | [mvn jdk21](commons-parent-93.buildspec) | [result](commons-parent-93.buildinfo): [4 :white_check_mark: ](commons-parent-93.buildcompare) | | 92K |
 | [92](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/92/pom) | [mvn jdk21](commons-parent-92.buildspec) | [result](commons-parent-92.buildinfo): [4 :white_check_mark: ](commons-parent-92.buildcompare) | | 92K |
 | [91](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/91/pom) | [mvn jdk21](commons-parent-91.buildspec) | [result](commons-parent-91.buildinfo): [4 :white_check_mark: ](commons-parent-91.buildcompare) | | 92K |

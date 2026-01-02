@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.mybatis:mybatis-migrations:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [3.5.0](https://central.sonatype.com/artifact/org.mybatis/mybatis-migrations/3.5.0/pom) | | | |
 | [3.4.0](https://central.sonatype.com/artifact/org.mybatis/mybatis-migrations/3.4.0/pom) | [mvn jdk22 w](migrations-3.4.0.buildspec) | [result](mybatis-migrations-3.4.0.buildinfo): [4 :white_check_mark: ](mybatis-migrations-3.4.0.buildcompare) | | 402K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
