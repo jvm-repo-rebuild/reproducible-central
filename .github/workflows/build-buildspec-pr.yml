@@ -63,7 +63,8 @@ jobs:
               display=""
               . $file
               [ -n "$display" ] || display="$groupId:$artifactId"
-              echo "- [$display](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/$(dirname $file)/README.md) $version" >> PRcomment.txt
+              badge="![Reproducible Builds](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/jvm-repo-rebuild/reproducible-central/master/$(dirname $file)/badge.json)"
+              echo "- [$display $badge](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/$(dirname $file)/README.md) $version" >> PRcomment.txt
               echo >> PRcomment.txt
               echo "\`./rebuild.sh $file\`" >> PRcomment.txt
               if [[ "$command" == SHELL* ]]
