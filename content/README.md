@@ -334,7 +334,7 @@ Reproducible Builds for Maven Central Repository
 | io.github.ollama4j | [ollama4j](../content/io/github/ollama4j/README.md) | 12 | 12 :white_check_mark: |
 | io.github.albertus82 | [jface-utils](../content/io/github/albertus82/jface-utils/README.md) | 11 | 11 :white_check_mark: |
 | | [unexepack](../content/io/github/albertus82/unexepack/README.md) | 4 | 4 :warning: |
-| io.github.cbarlin | [advanced-record-utils](../content/io/github/cbarlin/aru/README.md) | 32 | 32 :white_check_mark: |
+| io.github.cbarlin | [advanced-record-utils](../content/io/github/cbarlin/aru/README.md) | 33 | 33 :white_check_mark: |
 | io.github.chains-project | [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | 61 | 24 :white_check_mark: / 37 :warning: |
 | io.github.derkrischan | [jpdftest](../content/io/github/derkrischan/jpdftest/README.md) | 4 | 4 :white_check_mark: |
 | io.github.hboutemy | [sigstore-maven-plugin](../content/io/github/hboutemy/sigstore-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
@@ -878,12 +878,12 @@ Reproducible Builds for Maven Central Repository
 | org.mybatis.generator | [mybatis-generator](../content/org/mybatis/generator/README.md) | 1 | 1 :warning: |
 | org.mybatis | [mybatis-guice](../content/org/mybatis/guice/README.md) | 4 | 4 :white_check_mark: |
 | | [jpetstore](../content/org/mybatis/jpetstore/README.md) | 2 | 2 :white_check_mark: |
-| | [mybatis-migrations](../content/org/mybatis/migrations/README.md) | 1 | 1 :white_check_mark: |
+| | [mybatis-migrations](../content/org/mybatis/migrations/README.md) | 2 | 2 :white_check_mark: |
 | | [mybatis](../content/org/mybatis/mybatis/README.md) | 10 | 4 :white_check_mark: / 6 :warning: |
 | | [mybatis-2-spring](../content/org/mybatis/mybatis-2-spring/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | | [mybatis-spring](../content/org/mybatis/mybatis-spring/README.md) | 10 | 5 :white_check_mark: / 5 :warning: |
 | | [mybatis-typehandlers-t*-extra](../content/org/mybatis/mybatis-typehandlers-threeten-extra/README.md) | 2 | 2 :white_check_mark: |
-| | [mybatis2](../content/org/mybatis/mybatis2/README.md) | 7 | 7 :white_check_mark: |
+| | [mybatis2](../content/org/mybatis/mybatis2/README.md) | 8 | 8 :white_check_mark: |
 | | [mybatis-parent](../content/org/mybatis/parent/README.md) | 17 | 17 :white_check_mark: |
 | org.mybatis.scala | [mybatis-scala-parent_2.13](../content/org/mybatis/scala/README.md) | 2 | 2 :white_check_mark: |
 | org.mybatis.caches | [mybatis-caffeine](../content/org/mybatis/caches/mybatis-caffeine/README.md) | 4 | 4 :white_check_mark: |
@@ -892,7 +892,7 @@ Reproducible Builds for Maven Central Repository
 | | [mybatis-ignite](../content/org/mybatis/caches/mybatis-ignite/README.md) | 2 | 2 :white_check_mark: |
 | | [mybatis-memcached](../content/org/mybatis/caches/mybatis-memcached/README.md) | 2 | 2 :white_check_mark: |
 | | [mybatis-redis](../content/org/mybatis/caches/mybatis-redis/README.md) | 2 | 2 :white_check_mark: |
-| org.mybatis.maven | [migrations-maven-plugin](../content/org/mybatis/maven/migrations-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
+| org.mybatis.maven | [migrations-maven-plugin](../content/org/mybatis/maven/migrations-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
 | org.mybatis.scripting | [mybatis-freemarker](../content/org/mybatis/scripting/mybatis-freemarker/README.md) | 3 | 3 :white_check_mark: |
 | | [mybatis-thymeleaf](../content/org/mybatis/scripting/mybatis-thymeleaf/README.md) | 3 | 3 :white_check_mark: |
 | | [mybatis-velocity](../content/org/mybatis/scripting/mybatis-velocity/README.md) | 4 | 4 :white_check_mark: |
@@ -961,7 +961,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 8 | 8 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 22 | 3 :white_check_mark: / 19 :warning: |
-| **Count:** | **947** | **9650** | **7056** :white_check_mark:<br>**2594** :warning: |
+| **Count:** | **947** | **9654** | **7060** :white_check_mark:<br>**2594** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -1002,7 +1002,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      15 mvn        22
      19 mvn        23
      41 mvn        24
-     54 mvn        25
+     55 mvn        25
       3 mvn-3.5.4   8
       1 mvn-3.6.0   8
      13 mvn-3.6.2   8
@@ -1047,7 +1047,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
     213 mvn-3.9.11  21
       5 mvn-3.9.11  22
       3 mvn-3.9.11  24
-     63 mvn-3.9.11  25
+     66 mvn-3.9.11  25
      36 mvn-3.9.2   8
      19 mvn-3.9.2  17
       5 mvn-3.9.2  21
