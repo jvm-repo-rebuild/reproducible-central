@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/mybatis/migrations.git](https://github.com/mybatis/migrations.git)
 
-rebuilding **1 releases** of org.mybatis:mybatis-migrations:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **2 releases** of org.mybatis:mybatis-migrations:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [3.5.0](https://central.sonatype.com/artifact/org.mybatis/mybatis-migrations/3.5.0/pom) | | | |
+| [3.5.0](https://central.sonatype.com/artifact/org.mybatis/mybatis-migrations/3.5.0/pom) | [mvn jdk25 w](migrations-3.5.0.buildspec) | [result](mybatis-migrations-3.5.0.buildinfo): [4 :white_check_mark: ](mybatis-migrations-3.5.0.buildcompare) | | 413K |
 | [3.4.0](https://central.sonatype.com/artifact/org.mybatis/mybatis-migrations/3.4.0/pom) | [mvn jdk22 w](migrations-3.4.0.buildspec) | [result](mybatis-migrations-3.4.0.buildinfo): [4 :white_check_mark: ](mybatis-migrations-3.4.0.buildcompare) | | 402K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
