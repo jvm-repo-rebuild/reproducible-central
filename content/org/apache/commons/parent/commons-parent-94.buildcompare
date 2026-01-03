@@ -1,0 +1,10 @@
+version=94
+ok=3
+ko=1
+ignored=1
+okFiles="commons-parent-94.pom commons-parent-94-cyclonedx.json commons-parent-94-site.xml"
+koFiles=""
+ignoredFiles="commons-parent-94.spdx.json"
+missing=1
+missingFiles="commons-parent-94-cyclonedx.xml"
+# wget https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/94/commons-parent-94-cyclonedx.xml; ls -l target/commons-parent-94-bom.xml
