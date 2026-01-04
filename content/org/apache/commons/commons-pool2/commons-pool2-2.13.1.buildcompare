@@ -1,0 +1,14 @@
+version=2.13.1
+ok=4
+ko=3
+ignored=1
+okFiles="commons-pool2-2.13.1.jar commons-pool2-2.13.1-test-sources.jar commons-pool2-2.13.1-cyclonedx.xml commons-pool2-2.13.1-cyclonedx.json"
+koFiles=""
+ignoredFiles="commons-pool2-2.13.1.spdx.json"
+missing=3
+missingFiles="commons-pool2-2.13.1.pom commons-pool2-2.13.1-tests.jar commons-pool2-2.13.1-sources.jar"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# wget https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.13.1/commons-pool2-2.13.1.pom; ls -l pom.xml
+# wget https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.13.1/commons-pool2-2.13.1-tests.jar; ls -l target/commons-pool2-2.13.1-tests.jar
+# wget https://repo.maven.apache.org/maven2/org/apache/commons/commons-pool2/2.13.1/commons-pool2-2.13.1-sources.jar; ls -l target/commons-pool2-2.13.1-sources.jar
