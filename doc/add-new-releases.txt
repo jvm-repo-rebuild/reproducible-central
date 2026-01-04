@@ -1,7 +1,6 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/ch/vorburger/mariaDB4j/mariaDB4j-pom-3.3.0.buildspec:3.3.1
 content/com/flowlogix/flowlogix-10.0.8.buildspec:11
-content/org/apache/commons/commons-pool2/commons-pool2-2.13.0.buildspec:2.13.1
-content/org/apache/commons/parent/commons-parent-93.buildspec:94
-content/org/codehaus/plexus/plexus-pom/plexus-pom-24.buildspec:25
+content/com/github/seregamorph/maven-surefire-cached/maven-surefire-cached-0.24.buildspec:0.25
+content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.3.1-beta-1.buildspec:11.3.1-beta-2
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.11.1-beta-3.buildspec:5.11.1-beta-4

@@ -22,10 +22,10 @@ New Release of Previously Reproducible
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260103120511 --> [plexus](../content/org/codehaus/plexus/plexus-pom/README.md) | [24](../content/org/codehaus/plexus/plexus-pom/plexus-pom-24.buildspec) :white_check_mark: | [25](../content/org/codehaus/plexus/plexus-pom/plexus-pom-25.buildspec) | `bin/add-new-release.sh content/org/codehaus/plexus/plexus-pom/plexus-pom-24.buildspec 25` |
-| <!-- 20260102232552 --> [mariaDB4j](../content/ch/vorburger/mariaDB4j/README.md) | [3.3.0](../content/ch/vorburger/mariaDB4j/mariaDB4j-pom-3.3.0.buildspec) :white_check_mark: | [3.3.1](../content/ch/vorburger/mariaDB4j/mariaDB4j-pom-3.3.1.buildspec) | `bin/add-new-release.sh content/ch/vorburger/mariaDB4j/mariaDB4j-pom-3.3.0.buildspec 3.3.1` |
-| <!-- 20260102201619 --> [commons-parent](../content/org/apache/commons/parent/README.md) | [93](../content/org/apache/commons/parent/commons-parent-93.buildspec) :white_check_mark: | [94](../content/org/apache/commons/parent/commons-parent-94.buildspec) | `bin/add-new-release.sh content/org/apache/commons/parent/commons-parent-93.buildspec 94` |
-| <!-- 20260102194729 --> [commons-pool2](../content/org/apache/commons/commons-pool2/README.md) | [2.13.0](../content/org/apache/commons/commons-pool2/commons-pool2-2.13.0.buildspec) :white_check_mark: | [2.13.1](../content/org/apache/commons/commons-pool2/commons-pool2-2.13.1.buildspec) | `bin/add-new-release.sh content/org/apache/commons/commons-pool2/commons-pool2-2.13.0.buildspec 2.13.1` |
+| <!-- 20260104192911 --> [maven-surefire-cached](../content/com/github/seregamorph/maven-surefire-cached/README.md) | [0.24](../content/com/github/seregamorph/maven-surefire-cached/maven-surefire-cached-0.24.buildspec) :white_check_mark: | [0.25](../content/com/github/seregamorph/maven-surefire-cached/maven-surefire-cached-0.25.buildspec) | `bin/add-new-release.sh content/com/github/seregamorph/maven-surefire-cached/maven-surefire-cached-0.24.buildspec 0.25` |
+| <!-- 20260104024115 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [11.3.1-beta-1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.3.1-beta-1.buildspec) :white_check_mark: | [11.3.1-beta-2](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.3.1-beta-2.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.3.1-beta-1.buildspec 11.3.1-beta-2` |
+| <!-- 20260104011518 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | [5.11.1-beta-3](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.11.1-beta-3.buildspec) :white_check_mark: | [5.11.1-beta-4](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.11.1-beta-4.buildspec) | `bin/add-new-release.sh content/io/github/chains-project/maven-lockfile/maven-lockfile-5.11.1-beta-3.buildspec 5.11.1-beta-4` |
+| <!-- 20260104002321 --> [hibernate-core](../content/org/hibernate/orm/hibernate-core/README.md) | [7.2.0.Final](../content/org/hibernate/orm/hibernate-core/hibernate-core-7.2.0.Final.buildspec) :white_check_mark: | 7.1.14.Final  | `bin/add-new-release.sh content/org/hibernate/orm/hibernate-core/hibernate-core-7.2.0.Final.buildspec ...` |
 | <!-- 20251118222117 --> [flowlogix](../content/com/flowlogix/README.md) | [10.0.8](../content/com/flowlogix/flowlogix-10.0.8.buildspec) :white_check_mark: | [11](../content/com/flowlogix/flowlogix-11.buildspec) | `bin/add-new-release.sh content/com/flowlogix/flowlogix-10.0.8.buildspec 11` |
 <!-- END GENERATED ADD OK -->
 
@@ -47,6 +47,7 @@ New Release of non-Reproducible Previous
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20260104100712 --> [com.io7m.seltzer](../content/com/io7m/seltzer/README.md) | [1.2.0](../content/com/io7m/seltzer/com.io7m.seltzer-1.2.0.buildspec) :warning: | [1.3.0](../content/com/io7m/seltzer/com.io7m.seltzer-1.3.0.buildspec) | `bin/add-new-release.sh content/com/io7m/seltzer/com.io7m.seltzer-1.2.0.buildspec 1.3.0` |
 | <!-- 20260102172331 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.118.0](../content/org/finos/legend/engine/legend-engine-4.118.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.118.0` |
 | <!-- 20260101101807 --> [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.16.0](../content/org/apache/camel/camel/camel-4.16.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.16.0` |
 | <!-- 20251231132911 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | [1.9.20](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.20.buildspec) :warning: | [1.9.22](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.22.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.20.buildspec 1.9.22` |
@@ -80,6 +81,8 @@ or maybe Reproducible but we were not able to reproduce...
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20260102201619 --> [commons-parent](../content/org/apache/commons/parent/README.md) | 94 :warning: |
+| <!-- 20260102194729 --> [commons-pool2](../content/org/apache/commons/commons-pool2/README.md) | 2.13.1 :warning: |
 | <!-- 20251231151520 --> [jreleaser](../content/org/jreleaser/README.md) | 1.22.0 :warning: |
 | <!-- 20251229192147 --> [mybatis-2-spring](../content/org/mybatis/mybatis-2-spring/README.md) | 1.2.2 :warning: |
 | <!-- 20251228170116 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 4.0.1 :warning: |
@@ -170,7 +173,6 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20250509151950 --> [com.io7m.quarrel](../content/com/io7m/quarrel/README.md) | 1.8.0 :warning: |
 | <!-- 20250508083646 --> [org.apache.sling.scripting.sightly.testing](../content/org/apache/sling/org.apache.sling.scripting.sightly.testing/README.md) | 1.0.40-1.4.0 :warning: |
 | <!-- 20250507175507 --> [com.io7m.mime2045](../content/com/io7m/mime2045/README.md) | 1.2.0 :warning: |
-| <!-- 20250506120219 --> [com.io7m.seltzer](../content/com/io7m/seltzer/README.md) | 1.2.0 :warning: |
 | <!-- 20250504172405 --> [com.io7m.jbssio](../content/com/io7m/jbssio/README.md) | 3.0.0 :warning: |
 | <!-- 20250503162925 --> [com.io7m.trasco](../content/com/io7m/trasco/README.md) | 3.1.1 :warning: |
 | <!-- 20250430084041 --> [com.io7m.certusine](../content/com/io7m/certusine/README.md) | 3.2.0 :warning: |
