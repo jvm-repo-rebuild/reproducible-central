@@ -22,10 +22,14 @@ New Release of Previously Reproducible
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260104192911 --> [maven-surefire-cached](../content/com/github/seregamorph/maven-surefire-cached/README.md) | [0.24](../content/com/github/seregamorph/maven-surefire-cached/maven-surefire-cached-0.24.buildspec) :white_check_mark: | [0.25](../content/com/github/seregamorph/maven-surefire-cached/maven-surefire-cached-0.25.buildspec) | `bin/add-new-release.sh content/com/github/seregamorph/maven-surefire-cached/maven-surefire-cached-0.24.buildspec 0.25` |
-| <!-- 20260104024115 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [11.3.1-beta-1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.3.1-beta-1.buildspec) :white_check_mark: | [11.3.1-beta-2](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.3.1-beta-2.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.3.1-beta-1.buildspec 11.3.1-beta-2` |
-| <!-- 20260104011518 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | [5.11.1-beta-3](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.11.1-beta-3.buildspec) :white_check_mark: | [5.11.1-beta-4](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.11.1-beta-4.buildspec) | `bin/add-new-release.sh content/io/github/chains-project/maven-lockfile/maven-lockfile-5.11.1-beta-3.buildspec 5.11.1-beta-4` |
-| <!-- 20260104002321 --> [hibernate-core](../content/org/hibernate/orm/hibernate-core/README.md) | [7.2.0.Final](../content/org/hibernate/orm/hibernate-core/hibernate-core-7.2.0.Final.buildspec) :white_check_mark: | 7.1.14.Final  | `bin/add-new-release.sh content/org/hibernate/orm/hibernate-core/hibernate-core-7.2.0.Final.buildspec ...` |
+| <!-- 20260105210951 --> [avaje-spi-parent](../content/io/avaje/spi/README.md) | [2.14](../content/io/avaje/spi/avaje-spi-2.14.buildspec) :white_check_mark: | [2.15-RC1](../content/io/avaje/spi/avaje-spi-2.15-RC1.buildspec) | `bin/add-new-release.sh content/io/avaje/spi/avaje-spi-2.14.buildspec 2.15-RC1` |
+| <!-- 20260105204816 --> [avaje-jsonb-parent](../content/io/avaje/jsonb/README.md) | [3.9](../content/io/avaje/jsonb/avaje-jsonb-3.9.buildspec) :white_check_mark: | [3.10-RC1](../content/io/avaje/jsonb/avaje-jsonb-3.10-RC1.buildspec) | `bin/add-new-release.sh content/io/avaje/jsonb/avaje-jsonb-3.9.buildspec 3.10-RC1` |
+| <!-- 20260105163914 --> [njord](../content/eu/maveniverse/maven/njord/README.md) | [0.9.1](../content/eu/maveniverse/maven/njord/njord-0.9.1.buildspec) :white_check_mark: | [0.9.2](../content/eu/maveniverse/maven/njord/njord-0.9.2.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/njord/njord-0.9.1.buildspec 0.9.2` |
+| <!-- 20260105124521 --> [plexus-testing](../content/org/codehaus/plexus/plexus-testing/README.md) | [2.0.2](../content/org/codehaus/plexus/plexus-testing/plexus-testing-2.0.2.buildspec) :white_check_mark: | [2.1.0](../content/org/codehaus/plexus/plexus-testing/plexus-testing-2.1.0.buildspec) | `bin/add-new-release.sh content/org/codehaus/plexus/plexus-testing/plexus-testing-2.0.2.buildspec 2.1.0` |
+| <!-- 20260105101512 --> [airbase](../content/io/airlift/airbase/README.md) | [337](../content/io/airlift/airbase/airbase-337.buildspec) :white_check_mark: | [338](../content/io/airlift/airbase/airbase-338.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-337.buildspec 338` |
+| <!-- 20260105001517 --> [license-maven-plugin](../content/org/codehaus/mojo/license-maven-plugin/README.md) | [2.7.0](../content/org/codehaus/mojo/license-maven-plugin/license-maven-plugin-2.7.0.buildspec) :white_check_mark: | [2.7.1](../content/org/codehaus/mojo/license-maven-plugin/license-maven-plugin-2.7.1.buildspec) | `bin/add-new-release.sh content/org/codehaus/mojo/license-maven-plugin/license-maven-plugin-2.7.0.buildspec 2.7.1` |
+| <!-- 20260104232522 --> [liftwizard](../content/io/liftwizard/README.md) | [2.1.38](../content/io/liftwizard/liftwizard-2.1.38.buildspec) :white_check_mark: | [2.1.39](../content/io/liftwizard/liftwizard-2.1.39.buildspec) | `bin/add-new-release.sh content/io/liftwizard/liftwizard-2.1.38.buildspec 2.1.39` |
+| <!-- 20260104215640 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [12.2-javax](../content/io/avaje/inject/avaje-inject-12.2-javax.buildspec) :white_check_mark: | [12.3-RC1](../content/io/avaje/inject/avaje-inject-12.3-RC1.buildspec) | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-12.2-javax.buildspec 12.3-RC1` |
 | <!-- 20251118222117 --> [flowlogix](../content/com/flowlogix/README.md) | [10.0.8](../content/com/flowlogix/flowlogix-10.0.8.buildspec) :white_check_mark: | [11](../content/com/flowlogix/flowlogix-11.buildspec) | `bin/add-new-release.sh content/com/flowlogix/flowlogix-10.0.8.buildspec 11` |
 <!-- END GENERATED ADD OK -->
 
@@ -47,7 +51,7 @@ New Release of non-Reproducible Previous
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260104100712 --> [com.io7m.seltzer](../content/com/io7m/seltzer/README.md) | [1.2.0](../content/com/io7m/seltzer/com.io7m.seltzer-1.2.0.buildspec) :warning: | [1.3.0](../content/com/io7m/seltzer/com.io7m.seltzer-1.3.0.buildspec) | `bin/add-new-release.sh content/com/io7m/seltzer/com.io7m.seltzer-1.2.0.buildspec 1.3.0` |
+| <!-- 20260105205714 --> [avaje-validator-parent](../content/io/avaje/validator/README.md) | [2.16-RC1](../content/io/avaje/validator/avaje-validator-2.16-RC1.buildspec) :warning: | [2.16-RC2](../content/io/avaje/validator/avaje-validator-2.16-RC2.buildspec) | `bin/add-new-release.sh content/io/avaje/validator/avaje-validator-2.16-RC1.buildspec 2.16-RC2` |
 | <!-- 20260102172331 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.118.0](../content/org/finos/legend/engine/legend-engine-4.118.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.118.0` |
 | <!-- 20260101101807 --> [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.16.0](../content/org/apache/camel/camel/camel-4.16.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.16.0` |
 | <!-- 20251231132911 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | [1.9.20](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.20.buildspec) :warning: | [1.9.22](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.22.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.20.buildspec 1.9.22` |
@@ -81,6 +85,7 @@ or maybe Reproducible but we were not able to reproduce...
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20260104100712 --> [com.io7m.seltzer](../content/com/io7m/seltzer/README.md) | 1.3.0 :warning: |
 | <!-- 20260102201619 --> [commons-parent](../content/org/apache/commons/parent/README.md) | 94 :warning: |
 | <!-- 20260102194729 --> [commons-pool2](../content/org/apache/commons/commons-pool2/README.md) | 2.13.1 :warning: |
 | <!-- 20251231151520 --> [jreleaser](../content/org/jreleaser/README.md) | 1.22.0 :warning: |
@@ -90,7 +95,6 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20251222212524 --> [gherkin](../content/io/cucumber/gherkin/README.md) | 37.0.1 :warning: |
 | <!-- 20251222125523 --> [com.io7m.jsamplebuffer](../content/com/io7m/jsamplebuffer/README.md) | 1.0.1 :warning: |
 | <!-- 20251221210113 --> [credentialmanager](../content/com/github/philippheuer/credentialmanager/README.md) | 0.4.0 :warning: |
-| <!-- 20251219054918 --> [avaje-validator-parent](../content/io/avaje/validator/README.md) | 2.16-RC1 :warning: |
 | <!-- 20251218114241 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 8.0.0-JDK17-M12 :warning: |
 | <!-- 20251218112519 --> [jdplus-benchmarking](../content/eu/europa/ec/joinup/sat/jdplus-benchmarking/README.md) | 2.1.0 :warning: |
 | <!-- 20251217112540 --> [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | 0.15.0 :warning: |
