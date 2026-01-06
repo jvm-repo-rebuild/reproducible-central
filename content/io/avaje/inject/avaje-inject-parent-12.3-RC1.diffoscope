@@ -1,0 +1,64 @@
+1 / 2 target/reference/io.avaje/avaje-inject-generator-12.3-RC1.jar inject-generator/target/avaje-inject-generator-12.3-RC1.jar
+--- target/reference/io.avaje/avaje-inject-generator-12.3-RC1.jar
++++ inject-generator/target/avaje-inject-generator-12.3-RC1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 385555 bytes, number of entries: 165
+│ +Zip file size: 385532 bytes, number of entries: 165
+│  -rw----     1.0 fat        0 bx stor 26-Jan-04 21:46 META-INF/
+│  -rw----     2.0 fat      161 bl defN 26-Jan-04 21:46 META-INF/MANIFEST.MF
+│ @@ -102,15 +102,15 @@
+│  -rw----     2.0 fat     3414 bl defN 26-Jan-04 21:46 io/avaje/inject/generator/ProcessingContext$Ctx.class
+│  -rw----     2.0 fat    16573 bl defN 26-Jan-04 21:46 io/avaje/inject/generator/ProcessingContext.class
+│ --rw----     2.0 fat     7257 bl defN 26-Jan-04 21:46 io/avaje/inject/generator/ProcessorUtils.class
+│ +-rw----     2.0 fat     7209 bl defN 26-Jan-04 21:46 io/avaje/inject/generator/ProcessorUtils.class
+│  -rw----     2.0 fat     1165 bl defN 26-Jan-04 21:46 io/avaje/inject/generator/ProfilePrism$Values.class
+│  -rw----     2.0 fat    10952 bl defN 26-Jan-04 21:46 io/avaje/inject/generator/ProfilePrism.class
+│ @@ -160,8 +160,8 @@
+│  -rw----     2.0 fat      131 bl defN 26-Jan-04 21:46 io/avaje/inject/generator/package-info.class
+│  -rw----     2.0 fat      645 bl defN 26-Jan-04 21:46 module-info.class
+│ -165 files, 856118 bytes uncompressed, 354803 bytes compressed:  58.6%
+│ +165 files, 856070 bytes uncompressed, 354780 bytes compressed:  58.6%
+
+2 / 2 target/reference/io.avaje/avaje-inject-generator-12.3-RC1-sources.jar inject-generator/target/avaje-inject-generator-12.3-RC1-sources.jar
+--- target/reference/io.avaje/avaje-inject-generator-12.3-RC1-sources.jar
++++ inject-generator/target/avaje-inject-generator-12.3-RC1-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 185498 bytes, number of entries: 109
+│ +Zip file size: 185471 bytes, number of entries: 109
+│  drwxr-xr-x  2.0 unx        0 b- stor 26-Jan-04 21:46 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 26-Jan-04 21:46 META-INF/MANIFEST.MF
+│ @@ -85,15 +85,15 @@
+│  -rw-r--r--  2.0 unx     7206 b- defN 26-Jan-04 21:46 io/avaje/inject/generator/PreDestroyPrism.java
+│  -rw-r--r--  2.0 unx     5962 b- defN 26-Jan-04 21:46 io/avaje/inject/generator/PrimaryPrism.java
+│ --rw-r--r--  2.0 unx     7370 b- defN 26-Jan-04 21:46 io/avaje/inject/generator/ProcessorUtils.java
+│ +-rw-r--r--  2.0 unx     7218 b- defN 26-Jan-04 21:46 io/avaje/inject/generator/ProcessorUtils.java
+│  -rw-r--r--  2.0 unx    11165 b- defN 26-Jan-04 21:46 io/avaje/inject/generator/ProfilePrism.java
+│  -rw-r--r--  2.0 unx     6028 b- defN 26-Jan-04 21:46 io/avaje/inject/generator/PrototypePrism.java
+│ @@ -104,8 +104,8 @@
+│  -rw-r--r--  2.0 unx     3102 b- defN 26-Jan-04 21:46 META-INF/maven/io.avaje/avaje-inject-generator/pom.xml
+│  -rw-r--r--  2.0 unx       71 b- defN 26-Jan-04 21:46 META-INF/maven/io.avaje/avaje-inject-generator/pom.properties
+│ -109 files, 681939 bytes uncompressed, 167882 bytes compressed:  75.4%
+│ +109 files, 681787 bytes uncompressed, 167855 bytes compressed:  75.4%
+├── io/avaje/inject/generator/ProcessorUtils.java
+│ @@ -124,17 +124,16 @@
+│     * Return the common parent package between two classes/packages.
+│     *
+│     * @param firstPkg first class/package string
+│     * @param secondPkg second class/package string
+│     * @return the common package between the two classes
+│     */
+│    public static String commonParent(String firstPkg, String secondPkg) {
+│ -    if ((secondPkg == null || secondPkg.isBlank()) && (firstPkg == null || firstPkg.isBlank())) return "";
+│ -    if (secondPkg == null || secondPkg.isBlank()) return firstPkg;
+│ -    if (firstPkg == null || firstPkg.isBlank()) return packageOf(secondPkg);
+│ +    if (secondPkg == null) return firstPkg;
+│ +    if (firstPkg == null) return packageOf(secondPkg);
+│      if (secondPkg.startsWith(firstPkg)) {
+│        return firstPkg;
+│      }
+│      int next;
+│      do {
+│        next = firstPkg.lastIndexOf('.');
+│        if (next > -1) {
