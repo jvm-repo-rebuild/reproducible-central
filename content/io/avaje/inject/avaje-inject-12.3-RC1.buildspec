@@ -1,0 +1,22 @@
+groupId=io.avaje
+artifactId=avaje-inject-parent
+display=${groupId}:$(echo "${artifactId}" | sed -e "s/-parent//")
+version=12.3-RC1
+
+gitRepo=https://github.com/avaje/avaje-inject.git
+#gitTag=$(echo "${version}" | cut -d '-' -f 1)
+gitTag="git log --all --pretty=format:%H --grep '$version'"
+
+tool=mvn
+jdk=25
+newline=crlf
+execBefore="unix2dos pom.xml */pom.xml" # very strange mix of crlf and lf
+#newline=lf
+#umask=022
+
+command="mvn -Pcentral clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+#execBefore="sed -i 's/-i.. -e/-i -E/' jakarta-to-javax.sh && sed -i -e 's/17T08:22:10Z/17T08:23:52Z/' pom.xml && ./jakarta-to-javax.sh && for f in \$(find * -name '*.java' -print) ; do cp \$f \$f-e ; done && rm inject-generator/src/main/java/io/avaje/inject/generator/IncludeAnnotations.java-e"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
