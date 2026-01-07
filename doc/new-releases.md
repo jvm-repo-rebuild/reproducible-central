@@ -22,14 +22,10 @@ New Release of Previously Reproducible
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260105210951 --> [avaje-spi-parent](../content/io/avaje/spi/README.md) | [2.14](../content/io/avaje/spi/avaje-spi-2.14.buildspec) :white_check_mark: | [2.15-RC1](../content/io/avaje/spi/avaje-spi-2.15-RC1.buildspec) | `bin/add-new-release.sh content/io/avaje/spi/avaje-spi-2.14.buildspec 2.15-RC1` |
-| <!-- 20260105204816 --> [avaje-jsonb-parent](../content/io/avaje/jsonb/README.md) | [3.9](../content/io/avaje/jsonb/avaje-jsonb-3.9.buildspec) :white_check_mark: | [3.10-RC1](../content/io/avaje/jsonb/avaje-jsonb-3.10-RC1.buildspec) | `bin/add-new-release.sh content/io/avaje/jsonb/avaje-jsonb-3.9.buildspec 3.10-RC1` |
-| <!-- 20260105163914 --> [njord](../content/eu/maveniverse/maven/njord/README.md) | [0.9.1](../content/eu/maveniverse/maven/njord/njord-0.9.1.buildspec) :white_check_mark: | [0.9.2](../content/eu/maveniverse/maven/njord/njord-0.9.2.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/njord/njord-0.9.1.buildspec 0.9.2` |
-| <!-- 20260105124521 --> [plexus-testing](../content/org/codehaus/plexus/plexus-testing/README.md) | [2.0.2](../content/org/codehaus/plexus/plexus-testing/plexus-testing-2.0.2.buildspec) :white_check_mark: | [2.1.0](../content/org/codehaus/plexus/plexus-testing/plexus-testing-2.1.0.buildspec) | `bin/add-new-release.sh content/org/codehaus/plexus/plexus-testing/plexus-testing-2.0.2.buildspec 2.1.0` |
-| <!-- 20260105101512 --> [airbase](../content/io/airlift/airbase/README.md) | [337](../content/io/airlift/airbase/airbase-337.buildspec) :white_check_mark: | [338](../content/io/airlift/airbase/airbase-338.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-337.buildspec 338` |
-| <!-- 20260105001517 --> [license-maven-plugin](../content/org/codehaus/mojo/license-maven-plugin/README.md) | [2.7.0](../content/org/codehaus/mojo/license-maven-plugin/license-maven-plugin-2.7.0.buildspec) :white_check_mark: | [2.7.1](../content/org/codehaus/mojo/license-maven-plugin/license-maven-plugin-2.7.1.buildspec) | `bin/add-new-release.sh content/org/codehaus/mojo/license-maven-plugin/license-maven-plugin-2.7.0.buildspec 2.7.1` |
-| <!-- 20260104232522 --> [liftwizard](../content/io/liftwizard/README.md) | [2.1.38](../content/io/liftwizard/liftwizard-2.1.38.buildspec) :white_check_mark: | [2.1.39](../content/io/liftwizard/liftwizard-2.1.39.buildspec) | `bin/add-new-release.sh content/io/liftwizard/liftwizard-2.1.38.buildspec 2.1.39` |
-| <!-- 20260104215640 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | [12.2-javax](../content/io/avaje/inject/avaje-inject-12.2-javax.buildspec) :white_check_mark: | [12.3-RC1](../content/io/avaje/inject/avaje-inject-12.3-RC1.buildspec) | `bin/add-new-release.sh content/io/avaje/inject/avaje-inject-12.2-javax.buildspec 12.3-RC1` |
+| <!-- 20260106220119 --> [logback-parent](../content/ch/qos/logback/README.md) | [1.5.23](../content/ch/qos/logback/logback-1.5.23.buildspec) :white_check_mark: | [1.5.24](../content/ch/qos/logback/logback-1.5.24.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/logback-1.5.23.buildspec 1.5.24` |
+| <!-- 20260106165149 --> [junit-bom](../content/org/junit/junit5/README.md) | [6.1.0-M1](../content/org/junit/junit5/junit5-6.1.0-M1.buildspec) :white_check_mark: | 6.0.2 5.14.2  | `bin/add-new-release.sh content/org/junit/junit5/junit5-6.1.0-M1.buildspec ...` |
+| <!-- 20260106123917 --> [mimir](../content/eu/maveniverse/maven/mimir/README.md) | [0.11.0](../content/eu/maveniverse/maven/mimir/mimir-0.11.0.buildspec) :white_check_mark: | [0.11.2](../content/eu/maveniverse/maven/mimir/mimir-0.11.2.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/mimir/mimir-0.11.0.buildspec 0.11.2` |
+| <!-- 20260106123917 --> [mimir](../content/eu/maveniverse/maven/mimir/README.md) | [0.11.0](../content/eu/maveniverse/maven/mimir/mimir-0.11.0.buildspec) :white_check_mark: | 0.11.1  | `bin/add-new-release.sh content/eu/maveniverse/maven/mimir/mimir-0.11.0.buildspec ...` |
 | <!-- 20251118222117 --> [flowlogix](../content/com/flowlogix/README.md) | [10.0.8](../content/com/flowlogix/flowlogix-10.0.8.buildspec) :white_check_mark: | [11](../content/com/flowlogix/flowlogix-11.buildspec) | `bin/add-new-release.sh content/com/flowlogix/flowlogix-10.0.8.buildspec 11` |
 <!-- END GENERATED ADD OK -->
 
@@ -39,9 +35,6 @@ Apache Release Candidate in Staging https://repository.apache.org
 <!-- BEGIN GENERATED ADD STAGING -->
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
-| <!-- 20260101101807 --> [:mailbox:](https://lists.apache.org/list?dev@camel.apache.org:lte=1M:VOTE) | [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.17.0](../content/org/apache/camel/camel/camel-4.17.0.buildspec)  | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.17.0 staging` |
-| <!-- 20250617163431 --> [:mailbox:](https://lists.apache.org/list?dev@maven.apache.org:lte=1M:VOTE) | [maven-parent](../content/org/apache/maven/parent/README.md) | [45](../content/org/apache/maven/parent/maven-parent-45.buildspec) :white_check_mark: | [46](../content/org/apache/maven/parent/maven-parent-46.buildspec)  | `bin/add-new-release.sh content/org/apache/maven/parent/maven-parent-45.buildspec 46 staging` |
-| <!-- 20250613161239 --> [:mailbox:](https://lists.apache.org/list?dev@org.apache.apache.org:lte=1M:VOTE) | [apache](../content/org/apache/apache/README.md) | [35](../content/org/apache/apache/apache-35.buildspec) :white_check_mark: | [36](../content/org/apache/apache/apache-36.buildspec)  | `bin/add-new-release.sh content/org/apache/apache/apache-35.buildspec 36 staging` |
 | <!-- 20250213085016 --> [:mailbox:](https://lists.apache.org/list?dev@ignite.apache.org:lte=1M:VOTE) | [apache-ignite](../content/org/apache/ignite/README.md) | [2.17.0](../content/org/apache/ignite/ignite-2.17.0.buildspec) :warning: | [3.0.0-alpha5](../content/org/apache/ignite/ignite-3.0.0-alpha5.buildspec)  | `bin/add-new-release.sh content/org/apache/ignite/ignite-2.17.0.buildspec 3.0.0-alpha5 staging` |
 <!-- END GENERATED ADD STAGING -->
 
@@ -51,7 +44,7 @@ New Release of non-Reproducible Previous
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20260105205714 --> [avaje-validator-parent](../content/io/avaje/validator/README.md) | [2.16-RC1](../content/io/avaje/validator/avaje-validator-2.16-RC1.buildspec) :warning: | [2.16-RC2](../content/io/avaje/validator/avaje-validator-2.16-RC2.buildspec) | `bin/add-new-release.sh content/io/avaje/validator/avaje-validator-2.16-RC1.buildspec 2.16-RC2` |
+| <!-- 20260106204123 --> [avaje-spi-parent](../content/io/avaje/spi/README.md) | [2.15-RC1](../content/io/avaje/spi/avaje-spi-2.15-RC1.buildspec) :warning: | [2.15](../content/io/avaje/spi/avaje-spi-2.15.buildspec) | `bin/add-new-release.sh content/io/avaje/spi/avaje-spi-2.15-RC1.buildspec 2.15` |
 | <!-- 20260102172331 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.118.0](../content/org/finos/legend/engine/legend-engine-4.118.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.118.0` |
 | <!-- 20260101101807 --> [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.16.0](../content/org/apache/camel/camel/camel-4.16.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.16.0` |
 | <!-- 20251231132911 --> [jpmml-sklearn](../content/org/jpmml/jpmml-sklearn/README.md) | [1.9.20](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.20.buildspec) :warning: | [1.9.22](../content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.22.buildspec) | `bin/add-new-release.sh content/org/jpmml/jpmml-sklearn/jpmml-sklearn-1.9.20.buildspec 1.9.22` |
@@ -85,9 +78,12 @@ or maybe Reproducible but we were not able to reproduce...
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20260106215513 --> [commons-pool2](../content/org/apache/commons/commons-pool2/README.md) | 2.13.1 :warning: |
+| <!-- 20260105205714 --> [avaje-validator-parent](../content/io/avaje/validator/README.md) | 2.16-RC2 :warning: |
+| <!-- 20260105204816 --> [avaje-jsonb-parent](../content/io/avaje/jsonb/README.md) | 3.10-RC1 :warning: |
+| <!-- 20260104215640 --> [avaje-inject-parent](../content/io/avaje/inject/README.md) | 12.3-RC1 :warning: |
 | <!-- 20260104100712 --> [com.io7m.seltzer](../content/com/io7m/seltzer/README.md) | 1.3.0 :warning: |
 | <!-- 20260102201619 --> [commons-parent](../content/org/apache/commons/parent/README.md) | 94 :warning: |
-| <!-- 20260102194729 --> [commons-pool2](../content/org/apache/commons/commons-pool2/README.md) | 2.13.1 :warning: |
 | <!-- 20251231151520 --> [jreleaser](../content/org/jreleaser/README.md) | 1.22.0 :warning: |
 | <!-- 20251229192147 --> [mybatis-2-spring](../content/org/mybatis/mybatis-2-spring/README.md) | 1.2.2 :warning: |
 | <!-- 20251228170116 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 4.0.1 :warning: |

@@ -32,6 +32,8 @@ rebuilding **41 releases** of eu.maveniverse.maven.mimir:mimir:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.11.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.11.2/pom) | | | |
+| [0.11.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.11.1/pom) | | | |
 | [0.11.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.11.0/pom) | [mvn jdk21](mimir-0.11.0.buildspec) | [result](mimir-0.11.0.buildinfo): [37 :white_check_mark: ](mimir-0.11.0.buildcompare) | | 19M |
 | [0.10.6](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.10.6/pom) | [mvn jdk21](mimir-0.10.6.buildspec) | [result](mimir-0.10.6.buildinfo): [37 :white_check_mark: ](mimir-0.10.6.buildcompare) | | 19M |
 | [0.10.5](https://central.sonatype.com/artifact/eu.maveniverse.maven.mimir/mimir/0.10.5/pom) | [mvn jdk21](mimir-0.10.5.buildspec) | [result](mimir-0.10.5.buildinfo): [37 :white_check_mark: ](mimir-0.10.5.buildcompare) | | 19M |

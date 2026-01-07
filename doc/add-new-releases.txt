@@ -1,11 +1,5 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
+content/ch/qos/logback/logback-1.5.23.buildspec:1.5.24
 content/com/flowlogix/flowlogix-10.0.8.buildspec:11
-content/eu/maveniverse/maven/njord/njord-0.9.1.buildspec:0.9.2
-content/io/liftwizard/liftwizard-2.1.38.buildspec:2.1.39
-content/io/airlift/airbase/airbase-337.buildspec:338
-content/io/avaje/inject/avaje-inject-12.2-javax.buildspec:12.3-RC1
-content/io/avaje/jsonb/avaje-jsonb-3.9.buildspec:3.10-RC1
-content/io/avaje/spi/avaje-spi-2.14.buildspec:2.15-RC1
-content/org/codehaus/mojo/license-maven-plugin/license-maven-plugin-2.7.0.buildspec:2.7.1
-content/org/codehaus/plexus/plexus-testing/plexus-testing-2.0.2.buildspec:2.1.0
+content/eu/maveniverse/maven/mimir/mimir-0.11.0.buildspec:0.11.2

@@ -21,6 +21,7 @@ rebuilding **9 releases** of io.avaje:avaje-spi-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.15](https://central.sonatype.com/artifact/io.avaje/avaje-spi-parent/2.15/pom) | | | |
 | [2.15-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-spi-parent/2.15-RC1/pom) | [mvn jdk25 w](avaje-spi-2.15-RC1.buildspec) | [result](avaje-spi-parent-2.15-RC1.buildinfo): [5 :white_check_mark:  2 :warning:](avaje-spi-parent-2.15-RC1.buildcompare) | 2 :rotating_light: | 82K |
 | [2.14](https://central.sonatype.com/artifact/io.avaje/avaje-spi-parent/2.14/pom) | [mvn jdk21](avaje-spi-2.14.buildspec) | [result](avaje-spi-parent-2.14.buildinfo): [7 :white_check_mark: ](avaje-spi-parent-2.14.buildcompare) | | 80K |
 | [2.14-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-spi-parent/2.14-RC1/pom) | [mvn jdk25 w](avaje-spi-2.14-RC1.buildspec) | [result](avaje-spi-parent-2.14-RC1.buildinfo): [7 :white_check_mark: ](avaje-spi-parent-2.14-RC1.buildcompare) | | 80K |
