@@ -22,10 +22,11 @@ New Release of Previously Reproducible
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20260107151402 --> [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | [1.88.0](../content/org/apache/jackrabbit/oak/jackrabbit-oak-1.88.0.buildspec) :white_check_mark: | [1.90.0](../content/org/apache/jackrabbit/oak/jackrabbit-oak-1.90.0.buildspec) | `bin/add-new-release.sh content/org/apache/jackrabbit/oak/jackrabbit-oak-1.88.0.buildspec 1.90.0` |
+| <!-- 20260107144929 --> [airbase](../content/io/airlift/airbase/README.md) | [338](../content/io/airlift/airbase/airbase-338.buildspec) :white_check_mark: | [340](../content/io/airlift/airbase/airbase-340.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-338.buildspec 340` |
+| <!-- 20260107144929 --> [airbase](../content/io/airlift/airbase/README.md) | [338](../content/io/airlift/airbase/airbase-338.buildspec) :white_check_mark: | 339  | `bin/add-new-release.sh content/io/airlift/airbase/airbase-338.buildspec ...` |
 | <!-- 20260106220119 --> [logback-parent](../content/ch/qos/logback/README.md) | [1.5.23](../content/ch/qos/logback/logback-1.5.23.buildspec) :white_check_mark: | [1.5.24](../content/ch/qos/logback/logback-1.5.24.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/logback-1.5.23.buildspec 1.5.24` |
-| <!-- 20260106165149 --> [junit-bom](../content/org/junit/junit5/README.md) | [6.1.0-M1](../content/org/junit/junit5/junit5-6.1.0-M1.buildspec) :white_check_mark: | 6.0.2 5.14.2  | `bin/add-new-release.sh content/org/junit/junit5/junit5-6.1.0-M1.buildspec ...` |
-| <!-- 20260106123917 --> [mimir](../content/eu/maveniverse/maven/mimir/README.md) | [0.11.0](../content/eu/maveniverse/maven/mimir/mimir-0.11.0.buildspec) :white_check_mark: | [0.11.2](../content/eu/maveniverse/maven/mimir/mimir-0.11.2.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/mimir/mimir-0.11.0.buildspec 0.11.2` |
-| <!-- 20260106123917 --> [mimir](../content/eu/maveniverse/maven/mimir/README.md) | [0.11.0](../content/eu/maveniverse/maven/mimir/mimir-0.11.0.buildspec) :white_check_mark: | 0.11.1  | `bin/add-new-release.sh content/eu/maveniverse/maven/mimir/mimir-0.11.0.buildspec ...` |
+| <!-- 20260106165149 --> [junit-bom](../content/org/junit/junit5/README.md) | [6.1.0-M1](../content/org/junit/junit5/junit5-6.1.0-M1.buildspec) :white_check_mark: | 5.14.2  | `bin/add-new-release.sh content/org/junit/junit5/junit5-6.1.0-M1.buildspec ...` |
 | <!-- 20251118222117 --> [flowlogix](../content/com/flowlogix/README.md) | [10.0.8](../content/com/flowlogix/flowlogix-10.0.8.buildspec) :white_check_mark: | [11](../content/com/flowlogix/flowlogix-11.buildspec) | `bin/add-new-release.sh content/com/flowlogix/flowlogix-10.0.8.buildspec 11` |
 <!-- END GENERATED ADD OK -->
 
@@ -44,6 +45,8 @@ New Release of non-Reproducible Previous
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20260107151929 --> [avaje-http-parent](../content/io/avaje/http/README.md) | [3.7-RC1](../content/io/avaje/http/avaje-http-3.7-RC1.buildspec) :warning: | [3.7-RC2](../content/io/avaje/http/avaje-http-3.7-RC2.buildspec) | `bin/add-new-release.sh content/io/avaje/http/avaje-http-3.7-RC1.buildspec 3.7-RC2` |
+| <!-- 20260107105940 --> [quarkus-project](../content/io/quarkus/README.md) | [3.30.5](../content/io/quarkus/quarkus-3.30.5.buildspec) :warning: | [3.30.6](../content/io/quarkus/quarkus-3.30.6.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.30.5.buildspec 3.30.6` |
 | <!-- 20260106204123 --> [avaje-spi-parent](../content/io/avaje/spi/README.md) | [2.15-RC1](../content/io/avaje/spi/avaje-spi-2.15-RC1.buildspec) :warning: | [2.15](../content/io/avaje/spi/avaje-spi-2.15.buildspec) | `bin/add-new-release.sh content/io/avaje/spi/avaje-spi-2.15-RC1.buildspec 2.15` |
 | <!-- 20260102172331 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.71.1](../content/org/finos/legend/engine/legend-engine-4.71.1.buildspec) :warning: [:memo:](https://github.com/finos/legend-engine/pull/1337#issuecomment-1508509457) | [4.118.0](../content/org/finos/legend/engine/legend-engine-4.118.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.71.1.buildspec 4.118.0` |
 | <!-- 20260101101807 --> [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.16.0](../content/org/apache/camel/camel/camel-4.16.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.16.0` |
@@ -87,7 +90,6 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20251231151520 --> [jreleaser](../content/org/jreleaser/README.md) | 1.22.0 :warning: |
 | <!-- 20251229192147 --> [mybatis-2-spring](../content/org/mybatis/mybatis-2-spring/README.md) | 1.2.2 :warning: |
 | <!-- 20251228170116 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 4.0.1 :warning: |
-| <!-- 20251224101552 --> [quarkus-project](../content/io/quarkus/README.md) | 3.30.5 :warning: |
 | <!-- 20251222212524 --> [gherkin](../content/io/cucumber/gherkin/README.md) | 37.0.1 :warning: |
 | <!-- 20251222125523 --> [com.io7m.jsamplebuffer](../content/com/io7m/jsamplebuffer/README.md) | 1.0.1 :warning: |
 | <!-- 20251221210113 --> [credentialmanager](../content/com/github/philippheuer/credentialmanager/README.md) | 0.4.0 :warning: |
@@ -101,7 +103,6 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20251215193107 --> [maven-resolver](../content/org/apache/maven/resolver/maven-resolver/README.md) | 2.0.14 :warning: |
 | <!-- 20251215075658 --> [karaf](../content/org/apache/karaf/karaf/README.md) | 4.4.9 :warning: [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) |
 | <!-- 20251212230638 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | 2.23.0 :warning: |
-| <!-- 20251210185730 --> [avaje-http-parent](../content/io/avaje/http/README.md) | 3.7-RC1 :warning: |
 | <!-- 20251210184449 --> [jmeter-java-dsl-parent](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 2.2 :warning: |
 | <!-- 20251209191918 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | 5.21.0 :warning: |
 | <!-- 20251208075918 --> [io.wcm.caconfig.editor.root](../content/io/wcm/io.wcm.caconfig/README.md) | 1.16.8 :warning: |

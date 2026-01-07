@@ -277,7 +277,7 @@ Reproducible Builds for Maven Central Repository
 | | [heimdall](../content/eu/maveniverse/maven/heimdall/README.md) | 4 | 4 :white_check_mark: |
 | | [maven-boms](../content/eu/maveniverse/maven/maven-boms/README.md) | 2 | 2 :white_check_mark: |
 | | [mima](../content/eu/maveniverse/maven/mima/README.md) | 62 | 58 :white_check_mark: / 4 :warning: |
-| | [mimir](../content/eu/maveniverse/maven/mimir/README.md) | 41 | 40 :white_check_mark: / 1 :warning: |
+| | [mimir](../content/eu/maveniverse/maven/mimir/README.md) | 43 | 42 :white_check_mark: / 1 :warning: |
 | | [nisse](../content/eu/maveniverse/maven/nisse/README.md) | 23 | 23 :white_check_mark: |
 | | [njord](../content/eu/maveniverse/maven/njord/README.md) | 37 | 37 :white_check_mark: |
 | | [toolbox](../content/eu/maveniverse/maven/toolbox/README.md) | 97 | 93 :white_check_mark: / 4 :warning: |
@@ -849,7 +849,7 @@ Reproducible Builds for Maven Central Repository
 | | [minify-maven-plugin](../content/org/jpmml/minify-maven-plugin/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | | [packager-maven-plugin](../content/org/jpmml/packager-maven-plugin/README.md) | 3 | 1 :white_check_mark: / 2 :warning: |
 | org.jrivard.xmlchai | [xmlchai](../content/org/jrivard/xmlchai/README.md) | 3 | 3 :warning: |
-| org.junit | [junit-bom](../content/org/junit/junit5/README.md) | 50 | 33 :white_check_mark: / 17 :warning: |
+| org.junit | [junit-bom](../content/org/junit/junit5/README.md) | 51 | 34 :white_check_mark: / 17 :warning: |
 | org.jvnet.jaxb | [jaxb-tools](../content/org/jvnet/jaxb/README.md) | 3 | 3 :warning: |
 | org.kocakosm | [jblake2](../content/org/kocakosm/jblake2/README.md) | 2 | 2 :white_check_mark: |
 | org.kordamp.jarviz | [jarviz-core](../content/org/kordamp/jarviz/README.md) | 1 | 1 :warning: |
@@ -961,7 +961,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 8 | 8 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 22 | 3 :white_check_mark: / 19 :warning: |
-| **Count:** | **947** | **9674** | **7073** :white_check_mark:<br>**2601** :warning: |
+| **Count:** | **947** | **9677** | **7076** :white_check_mark:<br>**2601** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -974,7 +974,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
     205 gradle     17
     131 gradle     21
       5 gradle     24
-      5 gradle     25
+      6 gradle     25
      35 mvn         7
    1565 mvn         8
       1 mvn         9
@@ -1037,7 +1037,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      52 mvn-3.9.1  17
       1 mvn-3.9.1  19
       7 mvn-3.9.1  20
-    121 mvn-3.9.1  21
+    123 mvn-3.9.1  21
       1 mvn-3.9.1  25
       5 mvn-3.9.10  17
       1 mvn-3.9.10  21
