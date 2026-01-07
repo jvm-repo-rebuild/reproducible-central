@@ -13,7 +13,7 @@ rebuilding **3 releases** of org.apache.commons:commons-pool2:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.13.1](https://central.sonatype.com/artifact/org.apache.commons/commons-pool2/2.13.1/pom) | [mvn jdk17](commons-pool2-2.13.1.buildspec) | [result](commons-pool2-2.13.1.buildinfo): [4 :white_check_mark:  3 :warning:](commons-pool2-2.13.1.buildcompare) | - | 779K |
+| [2.13.1](https://central.sonatype.com/artifact/org.apache.commons/commons-pool2/2.13.1/pom) | [mvn jdk17](commons-pool2-2.13.1.buildspec) | [result](commons-pool2-2.13.1.buildinfo): [6 :white_check_mark:  1 :warning:](commons-pool2-2.13.1.buildcompare) | - | 779K |
 | [2.13.0](https://central.sonatype.com/artifact/org.apache.commons/commons-pool2/2.13.0/pom) | [mvn jdk21](commons-pool2-2.13.0.buildspec) | [result](commons-pool2-2.13.0.buildinfo): [7 :white_check_mark: ](commons-pool2-2.13.0.buildcompare) | | 779K |
 | [2.12.1](https://central.sonatype.com/artifact/org.apache.commons/commons-pool2/2.12.1/pom) | [mvn jdk21](commons-pool2-2.12.1.buildspec) | [result](commons-pool2-2.12.1.buildinfo): [7 :white_check_mark: ](commons-pool2-2.12.1.buildcompare) | | 745K |
 
