@@ -16,3 +16,4 @@ buildinfo=target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope
 issue=
+
