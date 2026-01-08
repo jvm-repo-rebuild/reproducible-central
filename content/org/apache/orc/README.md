@@ -29,6 +29,7 @@ rebuilding **36 releases** of org.apache.orc:orc:
 | [2.1.2](https://central.sonatype.com/artifact/org.apache.orc/orc/2.1.2/pom) | [mvn jdk17 osx aarm64](orc-2.1.2.buildspec) | [result](orc-2.1.2.buildinfo): [29 :white_check_mark: ](orc-2.1.2.buildcompare) | | 83M |
 | [2.1.1](https://central.sonatype.com/artifact/org.apache.orc/orc/2.1.1/pom) | [mvn jdk17 osx aarm64](orc-2.1.1.buildspec) | [result](orc-2.1.1.buildinfo): [25 :white_check_mark:  4 :warning:](orc-2.1.1.buildcompare) | - | 83M |
 | [2.1.0](https://central.sonatype.com/artifact/org.apache.orc/orc/2.1.0/pom) | [mvn jdk17 osx aarm64](orc-2.1.0.buildspec) | [result](orc-2.1.0.buildinfo): [28 :white_check_mark:  1 :warning:](orc-2.1.0.buildcompare) [:mag:](orc-2.1.0.diffoscope) | - | 83M |
+| [2.0.7](https://central.sonatype.com/artifact/org.apache.orc/orc/2.0.7/pom) | | | |
 | [2.0.6](https://central.sonatype.com/artifact/org.apache.orc/orc/2.0.6/pom) | [mvn jdk17 osx aarm64](orc-2.0.6.buildspec) | [result](orc-2.0.6.buildinfo): [29 :white_check_mark: ](orc-2.0.6.buildcompare) | | 83M |
 | [2.0.5](https://central.sonatype.com/artifact/org.apache.orc/orc/2.0.5/pom) | [mvn jdk17 osx aarm64](orc-2.0.5.buildspec) | [result](orc-2.0.5.buildinfo): [29 :white_check_mark: ](orc-2.0.5.buildcompare) | | 83M |
 | [2.0.4](https://central.sonatype.com/artifact/org.apache.orc/orc/2.0.4/pom) | [mvn jdk17 osx aarm64](orc-2.0.4.buildspec) | [result](orc-2.0.4.buildinfo): [25 :white_check_mark:  4 :warning:](orc-2.0.4.buildcompare) | - | 83M |
@@ -36,6 +37,7 @@ rebuilding **36 releases** of org.apache.orc:orc:
 | [2.0.2](https://central.sonatype.com/artifact/org.apache.orc/orc/2.0.2/pom) | [mvn jdk17 osx aarm64](orc-2.0.2.buildspec) | [result](orc-2.0.2.buildinfo): [29 :white_check_mark: ](orc-2.0.2.buildcompare) | | 82M |
 | [2.0.1](https://central.sonatype.com/artifact/org.apache.orc/orc/2.0.1/pom) | [mvn jdk17 osx aarm64](orc-2.0.1.buildspec) | [result](orc-2.0.1.buildinfo): [28 :white_check_mark:  1 :warning:](orc-2.0.1.buildcompare) | - | 82M |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.orc/orc/2.0.0/pom) | [mvn jdk17 osx aarm64](orc-2.0.0.buildspec) | [result](orc-2.0.0.buildinfo): [29 :white_check_mark: ](orc-2.0.0.buildcompare) | | 82M |
+| [1.9.8](https://central.sonatype.com/artifact/org.apache.orc/orc/1.9.8/pom) | | | |
 | [1.9.7](https://central.sonatype.com/artifact/org.apache.orc/orc/1.9.7/pom) | [mvn jdk8](orc-1.9.7.buildspec) | [result](orc-1.9.7.buildinfo): [35 :white_check_mark: ](orc-1.9.7.buildcompare) | | 82M |
 | [1.9.6](https://central.sonatype.com/artifact/org.apache.orc/orc/1.9.6/pom) | [mvn jdk8](orc-1.9.6.buildspec) | [result](orc-1.9.6.buildinfo): [28 :white_check_mark:  7 :warning:](orc-1.9.6.buildcompare) | - | 82M |
 | [1.9.5](https://central.sonatype.com/artifact/org.apache.orc/orc/1.9.5/pom) | [mvn jdk8](orc-1.9.5.buildspec) | [result](orc-1.9.5.buildinfo): [35 :white_check_mark: ](orc-1.9.5.buildcompare) | | 82M |

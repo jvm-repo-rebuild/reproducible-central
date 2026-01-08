@@ -22,11 +22,15 @@ New Release of Previously Reproducible
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20260108175316 --> [parent](../content/ch/qos/logback/access/README.md) | [2.0.7](../content/ch/qos/logback/access/access-2.0.7.buildspec) :white_check_mark: | [2.0.8](../content/ch/qos/logback/access/access-2.0.8.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/access/access-2.0.7.buildspec 2.0.8` |
+| <!-- 20260108150914 --> [airbase](../content/io/airlift/airbase/README.md) | [339](../content/io/airlift/airbase/airbase-339.buildspec) :white_check_mark: | [341](../content/io/airlift/airbase/airbase-341.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-339.buildspec 341` |
+| <!-- 20260108150914 --> [airbase](../content/io/airlift/airbase/README.md) | [339](../content/io/airlift/airbase/airbase-339.buildspec) :white_check_mark: | 340  | `bin/add-new-release.sh content/io/airlift/airbase/airbase-339.buildspec ...` |
+| <!-- 20260108133327 --> [orc](../content/org/apache/orc/README.md) | [2.2.1](../content/org/apache/orc/orc-2.2.1.buildspec) :white_check_mark: | 2.0.7 1.9.8  | `bin/add-new-release.sh content/org/apache/orc/orc-2.2.1.buildspec ...` |
+| <!-- 20260108121527 --> [com.io7m.verona](../content/com/io7m/verona/README.md) | [1.0.1](../content/com/io7m/verona/com.io7m.verona-1.0.1.buildspec) :white_check_mark: | [1.1.0](../content/com/io7m/verona/com.io7m.verona-1.1.0.buildspec) | `bin/add-new-release.sh content/com/io7m/verona/com.io7m.verona-1.0.1.buildspec 1.1.0` |
+| <!-- 20260108025315 --> [liftwizard](../content/io/liftwizard/README.md) | [2.1.39](../content/io/liftwizard/liftwizard-2.1.39.buildspec) :white_check_mark: | [2.1.40](../content/io/liftwizard/liftwizard-2.1.40.buildspec) | `bin/add-new-release.sh content/io/liftwizard/liftwizard-2.1.39.buildspec 2.1.40` |
+| <!-- 20260107212731 --> [org.eclipse.daanse.pom.parent](../content/org/eclipse/daanse/org.eclipse.daanse.pom.parent/README.md) | [0.0.4](../content/org/eclipse/daanse/org.eclipse.daanse.pom.parent/org.eclipse.daanse.pom.parent-0.0.4.buildspec) :white_check_mark: | [0.0.5](../content/org/eclipse/daanse/org.eclipse.daanse.pom.parent/org.eclipse.daanse.pom.parent-0.0.5.buildspec) | `bin/add-new-release.sh content/org/eclipse/daanse/org.eclipse.daanse.pom.parent/org.eclipse.daanse.pom.parent-0.0.4.buildspec 0.0.5` |
 | <!-- 20260107151402 --> [jackrabbit-oak](../content/org/apache/jackrabbit/oak/README.md) | [1.88.0](../content/org/apache/jackrabbit/oak/jackrabbit-oak-1.88.0.buildspec) :white_check_mark: | [1.90.0](../content/org/apache/jackrabbit/oak/jackrabbit-oak-1.90.0.buildspec) | `bin/add-new-release.sh content/org/apache/jackrabbit/oak/jackrabbit-oak-1.88.0.buildspec 1.90.0` |
-| <!-- 20260107144929 --> [airbase](../content/io/airlift/airbase/README.md) | [338](../content/io/airlift/airbase/airbase-338.buildspec) :white_check_mark: | [340](../content/io/airlift/airbase/airbase-340.buildspec) | `bin/add-new-release.sh content/io/airlift/airbase/airbase-338.buildspec 340` |
-| <!-- 20260107144929 --> [airbase](../content/io/airlift/airbase/README.md) | [338](../content/io/airlift/airbase/airbase-338.buildspec) :white_check_mark: | 339  | `bin/add-new-release.sh content/io/airlift/airbase/airbase-338.buildspec ...` |
 | <!-- 20260106220119 --> [logback-parent](../content/ch/qos/logback/README.md) | [1.5.23](../content/ch/qos/logback/logback-1.5.23.buildspec) :white_check_mark: | [1.5.24](../content/ch/qos/logback/logback-1.5.24.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/logback-1.5.23.buildspec 1.5.24` |
-| <!-- 20260106165149 --> [junit-bom](../content/org/junit/junit5/README.md) | [6.1.0-M1](../content/org/junit/junit5/junit5-6.1.0-M1.buildspec) :white_check_mark: | 5.14.2  | `bin/add-new-release.sh content/org/junit/junit5/junit5-6.1.0-M1.buildspec ...` |
 | <!-- 20251118222117 --> [flowlogix](../content/com/flowlogix/README.md) | [10.0.8](../content/com/flowlogix/flowlogix-10.0.8.buildspec) :white_check_mark: | [11](../content/com/flowlogix/flowlogix-11.buildspec) | `bin/add-new-release.sh content/com/flowlogix/flowlogix-10.0.8.buildspec 11` |
 <!-- END GENERATED ADD OK -->
 
@@ -36,6 +40,8 @@ Apache Release Candidate in Staging https://repository.apache.org
 <!-- BEGIN GENERATED ADD STAGING -->
 |    | artifactId | from | to | command |
 | -- | ---------- | ---- | -- | ------- |
+| <!-- 20260102201619 --> [:mailbox:](https://lists.apache.org/list?dev@commons.apache.org:lte=1M:VOTE) | [commons-parent](../content/org/apache/commons/parent/README.md) | [94](../content/org/apache/commons/parent/commons-parent-94.buildspec) :warning: | [95](../content/org/apache/commons/parent/commons-parent-95.buildspec)  | `bin/add-new-release.sh content/org/apache/commons/parent/commons-parent-94.buildspec 95 staging` |
+| <!-- 20260101101807 --> [:mailbox:](https://lists.apache.org/list?dev@camel.apache.org:lte=1M:VOTE) | [camel](../content/org/apache/camel/camel/README.md) | [4.10.0](../content/org/apache/camel/camel/camel-4.10.0.buildspec) :x: | [4.17.0](../content/org/apache/camel/camel/camel-4.17.0.buildspec)  | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.10.0.buildspec 4.17.0 staging` |
 | <!-- 20250213085016 --> [:mailbox:](https://lists.apache.org/list?dev@ignite.apache.org:lte=1M:VOTE) | [apache-ignite](../content/org/apache/ignite/README.md) | [2.17.0](../content/org/apache/ignite/ignite-2.17.0.buildspec) :warning: | [3.0.0-alpha5](../content/org/apache/ignite/ignite-3.0.0-alpha5.buildspec)  | `bin/add-new-release.sh content/org/apache/ignite/ignite-2.17.0.buildspec 3.0.0-alpha5 staging` |
 <!-- END GENERATED ADD STAGING -->
 
@@ -45,6 +51,7 @@ New Release of non-Reproducible Previous
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20260108114718 --> [sdk-parent](../content/com/sap/ai/sdk/README.md) | [1.13.0](../content/com/sap/ai/sdk/sdk-1.13.0.buildspec) :warning: | [1.14.0](../content/com/sap/ai/sdk/sdk-1.14.0.buildspec) | `bin/add-new-release.sh content/com/sap/ai/sdk/sdk-1.13.0.buildspec 1.14.0` |
 | <!-- 20260107151929 --> [avaje-http-parent](../content/io/avaje/http/README.md) | [3.7-RC1](../content/io/avaje/http/avaje-http-3.7-RC1.buildspec) :warning: | [3.7-RC2](../content/io/avaje/http/avaje-http-3.7-RC2.buildspec) | `bin/add-new-release.sh content/io/avaje/http/avaje-http-3.7-RC1.buildspec 3.7-RC2` |
 | <!-- 20260107105940 --> [quarkus-project](../content/io/quarkus/README.md) | [3.30.5](../content/io/quarkus/quarkus-3.30.5.buildspec) :warning: | [3.30.6](../content/io/quarkus/quarkus-3.30.6.buildspec) | `bin/add-new-release.sh content/io/quarkus/quarkus-3.30.5.buildspec 3.30.6` |
 | <!-- 20260106204123 --> [avaje-spi-parent](../content/io/avaje/spi/README.md) | [2.15-RC1](../content/io/avaje/spi/avaje-spi-2.15-RC1.buildspec) :warning: | [2.15](../content/io/avaje/spi/avaje-spi-2.15.buildspec) | `bin/add-new-release.sh content/io/avaje/spi/avaje-spi-2.15-RC1.buildspec 2.15` |
@@ -134,7 +141,6 @@ or maybe Reproducible but we were not able to reproduce...
 | <!-- 20251113135533 --> [sdmx-dl-parent](../content/com/github/nbbrd/sdmx-dl/README.md) | 3.0.0-beta.16 :warning: |
 | <!-- 20251112141105 --> [ratis](../content/org/apache/ratis/README.md) | 3.2.1 :warning: |
 | <!-- 20251105083054 --> [shiro-root](../content/org/apache/shiro/README.md) | 2.0.6 :warning: |
-| <!-- 20251030170330 --> [sdk-parent](../content/com/sap/ai/sdk/README.md) | 1.13.0 :warning: |
 | <!-- 20251030133124 --> [jdbc-url-parser](../content/net/osslabz/jdbc-url-parser/README.md) | 0.1.1 :warning: |
 | <!-- 20251029202934 --> [turnstile-siteverify-client](../content/net/osslabz/turnstile-siteverify-client/README.md) | 0.4.1 :warning: |
 | <!-- 20251025202703 --> [xml-maven-plugin](../content/org/codehaus/mojo/xml-maven-plugin/README.md) | 1.2.0 :warning: [:memo:](https://github.com/mojohaus/xml-maven-plugin/issues/155) |

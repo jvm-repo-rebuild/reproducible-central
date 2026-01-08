@@ -26,6 +26,7 @@ rebuilding **8 releases** of ch.qos.logback.access:parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.0.8](https://central.sonatype.com/artifact/ch.qos.logback.access/parent/2.0.8/pom) | | | |
 | [2.0.7](https://central.sonatype.com/artifact/ch.qos.logback.access/parent/2.0.7/pom) | [mvn jdk21 w](access-2.0.7.buildspec) | [result](parent-2.0.7.buildinfo): [18 :white_check_mark: ](parent-2.0.7.buildcompare) | | 322K |
 | [2.0.6](https://central.sonatype.com/artifact/ch.qos.logback.access/parent/2.0.6/pom) | [mvn jdk21 w](access-2.0.6.buildspec) | [result](parent-2.0.6.buildinfo): [18 :white_check_mark: ](parent-2.0.6.buildcompare) | | 318K |
 | [2.0.5](https://central.sonatype.com/artifact/ch.qos.logback.access/parent/2.0.5/pom) | [mvn jdk21 w](access-2.0.5.buildspec) | [result](parent-2.0.5.buildinfo): [18 :white_check_mark: ](parent-2.0.5.buildcompare) | | 313K |
