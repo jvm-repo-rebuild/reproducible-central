@@ -27,6 +27,7 @@ rebuilding **27 releases** of tech.picnic.error-prone-support:error-prone-suppor
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.28.0](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.28.0/pom) | | | |
 | [0.27.0](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.27.0/pom) | [mvn jdk25](error-prone-support-0.27.0.buildspec) | [result](error-prone-support-0.27.0.buildinfo): [28 :white_check_mark: ](error-prone-support-0.27.0.buildcompare) | | 7.8M |
 | [0.26.0](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.26.0/pom) | [mvn jdk21](error-prone-support-0.26.0.buildspec) | [result](error-prone-support-0.26.0.buildinfo): [28 :white_check_mark: ](error-prone-support-0.26.0.buildcompare) | | 7.6M |
 | [0.25.0](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.25.0/pom) | [mvn jdk21](error-prone-support-0.25.0.buildspec) | [result](error-prone-support-0.25.0.buildinfo): [28 :white_check_mark: ](error-prone-support-0.25.0.buildcompare) | | 7.6M |

@@ -1,10 +1,10 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
 content/ch/qos/logback/logback-1.5.23.buildspec:1.5.24
-content/ch/qos/logback/access/access-2.0.7.buildspec:2.0.8
-content/com/flowlogix/flowlogix-10.0.8.buildspec:11
+content/com/flowlogix/flowlogix-10.0.8.buildspec:11.1
 content/com/io7m/verona/com.io7m.verona-1.0.1.buildspec:1.1.0
-content/io/liftwizard/liftwizard-2.1.39.buildspec:2.1.40
-content/io/airlift/airbase/airbase-339.buildspec:341
+content/io/github/chains-project/maven-lockfile/maven-lockfile-5.11.1-beta-4.buildspec:5.11.1
+content/io/opentelemetry/java/opentelemetry-sdk-1.57.0.buildspec:1.58.0
 content/org/apache/jackrabbit/oak/jackrabbit-oak-1.88.0.buildspec:1.90.0
-content/org/eclipse/daanse/org.eclipse.daanse.pom.parent/org.eclipse.daanse.pom.parent-0.0.4.buildspec:0.0.5
+content/org/owasp/dependency-check/dependency-check-12.1.9.buildspec:12.2.0
+content/tech/picnic/error-prone-support/error-prone-support/error-prone-support-0.27.0.buildspec:0.28.0
