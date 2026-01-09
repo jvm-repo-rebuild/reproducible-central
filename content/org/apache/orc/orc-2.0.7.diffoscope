@@ -1,0 +1,29 @@
+1 /        1 target/reference/org.apache.orc/orc-2.0.7-source-release.zip target/orc-2.0.7-source-release.zip
+--- target/reference/org.apache.orc/orc-2.0.7-source-release.zip
++++ target/orc-2.0.7-source-release.zip
+├── zipinfo {}
+│ @@ -1,10 +1,9 @@
+│ -Zip file size: 3320127 bytes, number of entries: 1467
+│ +Zip file size: 1062800 bytes, number of entries: 596
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.0.7/
+│ --rw-r--r--  2.0 unx        5 b- defN 00-Jan-01 00:00 orc-2.0.7/.java-version
+│  -rw-r--r--  2.0 unx     3862 b- defN 00-Jan-01 00:00 orc-2.0.7/CMakeLists.txt
+│  -rw-r--r--  2.0 unx      260 b- defN 00-Jan-01 00:00 orc-2.0.7/DEPENDENCIES
+│ @@ -121,652 +120,14 @@
+│  -rw-r--r--  2.0 unx     3224 b- defN 00-Jan-01 00:00 orc-2.0.7/checkstyle.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.0.7/core/
+│ --rw-r--r--  2.0 unx     8280 b- defN 00-Jan-01 00:00 orc-2.0.7/core/dependency-reduced-pom.xml
+│ -drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.0.7/core/orc-core/
+│ --rw-r--r--  2.0 unx    96862 b- defN 00-Jan-01 00:00 orc-2.0.7/core/orc-core/allclasses-index.html
+│ --rw-r--r--  2.0 unx     4636 b- defN 00-Jan-01 00:00 orc-2.0.7/core/orc-core/allpackages-index.html
+...
+
+│ --rw-r--r--  2.0 unx      105 b- defN 00-Jan-01 00:00 orc-2.0.7/tools/orc-tools/tag-search-index.js
+│ --rw-r--r--  2.0 unx      921 b- defN 00-Jan-01 00:00 orc-2.0.7/tools/orc-tools/type-search-index.js
+│  -rw-r--r--  2.0 unx     7052 b- defN 00-Jan-01 00:00 orc-2.0.7/tools/pom.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 orc-2.0.7/tools/src/
+│ @@ -1462,8 +591,8 @@
+│  -rw-r--r--  2.0 unx    13981 b- defN 00-Jan-01 00:00 orc-2.0.7/tools/src/test/resources/orc-file-dump.out
+│  -rw-r--r--  2.0 unx     5839 b- defN 00-Jan-01 00:00 orc-2.0.7/tools/src/test/resources/orc-file-has-null.out
+│ -1467 files, 16559126 bytes uncompressed, 3014891 bytes compressed:  81.8%
+│ +596 files, 4318120 bytes uncompressed, 946208 bytes compressed:  78.1%
