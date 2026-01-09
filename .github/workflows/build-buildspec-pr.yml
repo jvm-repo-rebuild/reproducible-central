@@ -45,6 +45,9 @@ jobs:
               . $file
               [ -n "$display" ] || display="$groupId:$artifactId"
               echo "- \`$file\` [$display](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/$(dirname $file)/README.md)" >> PRcomment.txt
+              echo '```' >> PRcomment.txt
+              cat $file >> PRcomment.txt
+              echo '```' >> PRcomment.txt
             fi
           done
 
@@ -92,6 +95,10 @@ jobs:
                 cat PRcomment.txt
                 continue
               fi # end of SHELL*
+
+              echo '```' >> PRcomment.txt
+              cat $file >> PRcomment.txt
+              echo '```' >> PRcomment.txt
 
               sudo apt-get -qq install -y dos2unix 2>&1 > /dev/null
               ./rebuild.sh $file
