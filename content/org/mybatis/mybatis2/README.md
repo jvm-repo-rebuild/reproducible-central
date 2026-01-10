@@ -13,6 +13,9 @@ rebuilding **8 releases** of org.mybatis:mybatis2:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.8.0](https://central.sonatype.com/artifact/org.mybatis/mybatis2/2.8.0/pom) | | | |
+| [2.7.6](https://central.sonatype.com/artifact/org.mybatis/mybatis2/2.7.6/pom) | | | |
+| [2.7.5](https://central.sonatype.com/artifact/org.mybatis/mybatis2/2.7.5/pom) | | | |
 | [2.7.4](https://central.sonatype.com/artifact/org.mybatis/mybatis2/2.7.4/pom) | [mvn jdk25 w](mybatis2-2.7.4.buildspec) | [result](mybatis2-2.7.4.buildinfo): [3 :white_check_mark: ](mybatis2-2.7.4.buildcompare) | | 731K |
 | [2.7.3](https://central.sonatype.com/artifact/org.mybatis/mybatis2/2.7.3/pom) | [mvn jdk25 w](mybatis2-2.7.3.buildspec) | [result](mybatis2-2.7.3.buildinfo): [3 :white_check_mark: ](mybatis2-2.7.3.buildcompare) | | 731K |
 | [2.7.2](https://central.sonatype.com/artifact/org.mybatis/mybatis2/2.7.2/pom) | [mvn jdk25 w](mybatis2-2.7.2.buildspec) | [result](mybatis2-2.7.2.buildinfo): [3 :white_check_mark: ](mybatis2-2.7.2.buildcompare) | | 731K |

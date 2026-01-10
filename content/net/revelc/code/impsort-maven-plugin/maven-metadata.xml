@@ -3,8 +3,8 @@
   <groupId>net.revelc.code</groupId>
   <artifactId>impsort-maven-plugin</artifactId>
   <versioning>
-    <latest>1.12.0</latest>
-    <release>1.12.0</release>
+    <latest>1.13.0</latest>
+    <release>1.13.0</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.1</version>
@@ -25,7 +25,8 @@
       <version>1.10.0</version>
       <version>1.11.0</version>
       <version>1.12.0</version>
+      <version>1.13.0</version>
     </versions>
-    <lastUpdated>20240905002955</lastUpdated>
+    <lastUpdated>20260110191915</lastUpdated>
   </versioning>
 </metadata>
