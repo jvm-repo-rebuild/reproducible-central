@@ -1,0 +1,19 @@
+groupId=net.revelc.code
+artifactId=impsort-maven-plugin
+display=${groupId}:${artifactId}
+version=1.13.0
+
+gitRepo=https://github.com/revelc/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=25
+newline=crlf
+newlineGit=lf
+umask=022
+
+command="mvn -Prevelc-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dsort.skip -Dmavanagaiata.dirtyFlag=false -Dformatter.skip -Dimpsort.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
