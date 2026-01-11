@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=ImpSort Maven Plugin
+group-id=net.revelc.code
+artifact-id=impsort-maven-plugin
+version=1.13.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/revelc/impsort-maven-plugin.git
+source.scm.tag=impsort-maven-plugin-1.13.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=25.0.1
+java.vendor=Azul Systems, Inc.
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\r\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=net.revelc.code
+outputs.0.filename=impsort-maven-plugin-1.13.0.pom
+outputs.0.length=5539
+outputs.0.checksums.sha512=89cfbab1c2c0d71b5c2cf19c9d52c325d86f5d7e2fda02a6c71c1444c5ac82e3d809e64f380ce0eb95014202625e7a8df091d51d556db1beb8e96cb080e08997
+
+outputs.1.groupId=net.revelc.code
+outputs.1.filename=impsort-maven-plugin-1.13.0.jar
+outputs.1.length=54345
+outputs.1.checksums.sha512=457b5da4645249710b9ac93c505298a915fe40b05b20702ad62240e081a31559d1d04efbe209504385ee86a0fb68bfbe22e19192d225c6e14a32e4452f305a6b
+
+outputs.2.groupId=net.revelc.code
+outputs.2.filename=impsort-maven-plugin-1.13.0-sources.jar
+outputs.2.length=29986
+outputs.2.checksums.sha512=f50f8e6cbd7ee7581f4b779424833d089cd81dbaa3867c59901cb45455edb5231efcbc88bdf65ff995b39b4b154d2a22f43d3ea1d54ec0ac13c35d79a64e6835
