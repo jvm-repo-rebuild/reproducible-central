@@ -1,0 +1,17 @@
+version=11.1
+ok=12
+ko=2
+ignored=4
+okFiles="flowlogix-11.1.pom flowlogix-11.1-build.pom flowlogix-jee-11.1-build.pom flowlogix-jee-11.1.jar flowlogix-jee-11.1-sources.jar flowlogix-jee-11.1-tests.jar flowlogix-jee-11.1-cyclonedx.xml flowlogix-jee-11.1-cyclonedx.json flowlogix-datamodel-11.1-build.pom flowlogix-datamodel-11.1.jar flowlogix-datamodel-11.1-sources.jar flowlogix-datamodel-11.1-tests.jar"
+koFiles="flowlogix-jee-11.1.pom flowlogix-datamodel-11.1.pom"
+ignoredFiles="flowlogix-11.1-cyclonedx.xml flowlogix-11.1-cyclonedx.json flowlogix-datamodel-11.1-cyclonedx.xml flowlogix-datamodel-11.1-cyclonedx.json"
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.flowlogix/flowlogix-jee-11.1.pom flowlogix-jee/target/consumer-16265417456295839502.pom
+# diffoscope target/reference/com.flowlogix/flowlogix-datamodel-11.1.pom flowlogix-datamodel/target/consumer-7797310146233883228.pom
+stabilize_ok=0
+stabilize_ko=2
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="flowlogix-jee-11.1.pom.stabilized flowlogix-datamodel-11.1.pom.stabilized"
+stabilize_ignoredFiles=""
