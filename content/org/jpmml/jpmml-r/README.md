@@ -24,6 +24,7 @@ rebuilding **18 releases** of org.jpmml:jpmml-r:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [1.7.8](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.7.8/pom) | | | |
 | [1.7.7](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.7.7/pom) | [mvn jdk11](jpmml-r-1.7.7.buildspec) | [result](jpmml-r-1.7.7.buildinfo): [6 :white_check_mark:  5 :warning:](jpmml-r-1.7.7.buildcompare) | 4 :recycle: 1 :rotating_light: | 344K |
 | [1.7.6](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.7.6/pom) | | | |
 | [1.7.5](https://central.sonatype.com/artifact/org.jpmml/jpmml-r/1.7.5/pom) | [mvn jdk11](jpmml-r-1.7.5.buildspec) | [result](jpmml-r-1.7.5.buildinfo): [6 :white_check_mark:  5 :warning:](jpmml-r-1.7.5.buildcompare) | 4 :recycle: 1 :rotating_light: | 342K |
