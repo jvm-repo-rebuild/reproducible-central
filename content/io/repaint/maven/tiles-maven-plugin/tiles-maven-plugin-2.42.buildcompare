@@ -1,0 +1,9 @@
+version=2.42
+ok=3
+ko=0
+ignored=0
+okFiles="tiles-maven-plugin-2.42.pom tiles-maven-plugin-2.42.jar tiles-maven-plugin-2.42-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
