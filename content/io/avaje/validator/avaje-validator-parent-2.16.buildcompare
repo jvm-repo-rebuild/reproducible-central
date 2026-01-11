@@ -1,0 +1,16 @@
+version=2.16
+ok=17
+ko=2
+ignored=0
+okFiles="avaje-validator-parent-2.16.pom avaje-validator-constraints-2.16.pom avaje-validator-constraints-2.16.jar avaje-validator-constraints-2.16-sources.jar avaje-validator-inject-plugin-2.16.pom avaje-validator-inject-plugin-2.16.jar avaje-validator-inject-plugin-2.16-sources.jar avaje-validator-http-plugin-2.16.pom avaje-validator-http-plugin-2.16.jar avaje-validator-http-plugin-2.16-sources.jar avaje-validator-2.16.pom avaje-validator-2.16.jar avaje-validator-2.16-sources.jar avaje-validator-generator-2.16.pom avaje-validator-spring-starter-2.16.pom avaje-validator-spring-starter-2.16.jar avaje-validator-spring-starter-2.16-sources.jar"
+koFiles="avaje-validator-generator-2.16.jar avaje-validator-generator-2.16-sources.jar"
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+# diffoscope target/reference/io.avaje/avaje-validator-generator-2.16.jar validator-generator/target/avaje-validator-generator-2.16.jar
+# diffoscope target/reference/io.avaje/avaje-validator-generator-2.16-sources.jar validator-generator/target/avaje-validator-generator-2.16-sources.jar
+stabilize_ok=0
+stabilize_ko=2
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="avaje-validator-generator-2.16.jar.stabilized avaje-validator-generator-2.16-sources.jar.stabilized"
+stabilize_ignoredFiles=""
