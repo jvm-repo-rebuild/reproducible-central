@@ -17,14 +17,14 @@ Source code: [https://github.com/apache/orc.git](https://github.com/apache/orc.g
 * [org.apache.orc:orc-tools](https://central.sonatype.com/artifact/org.apache.orc/orc-tools/overview)
 </details>
 
-rebuilding **39 releases** of org.apache.orc:orc:
-- **23** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **40 releases** of org.apache.orc:orc:
+- **24** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 16 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.2.2](https://central.sonatype.com/artifact/org.apache.orc/orc/2.2.2/pom) | | | |
+| [2.2.2](https://central.sonatype.com/artifact/org.apache.orc/orc/2.2.2/pom) | [mvn jdk17 osx aarm64](orc-2.2.2.buildspec) | [result](orc-2.2.2.buildinfo): [29 :white_check_mark: ](orc-2.2.2.buildcompare) | | 84M |
 | [2.2.1](https://central.sonatype.com/artifact/org.apache.orc/orc/2.2.1/pom) | [mvn jdk17 osx aarm64](orc-2.2.1.buildspec) | [result](orc-2.2.1.buildinfo): [29 :white_check_mark: ](orc-2.2.1.buildcompare) | | 84M |
 | [2.2.0](https://central.sonatype.com/artifact/org.apache.orc/orc/2.2.0/pom) | [mvn jdk17 osx aarm64](orc-2.2.0.buildspec) | [result](orc-2.2.0.buildinfo): [29 :white_check_mark: ](orc-2.2.0.buildcompare) | | 84M |
 | [2.1.4](https://central.sonatype.com/artifact/org.apache.orc/orc/2.1.4/pom) | [mvn jdk17 osx aarm64](orc-2.1.4.buildspec) | [result](orc-2.1.4.buildinfo): [28 :white_check_mark:  1 :warning:](orc-2.1.4.buildcompare) | 1 :no_entry_sign: | 83M |
