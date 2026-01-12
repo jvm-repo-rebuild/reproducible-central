@@ -18,14 +18,14 @@ Source code: [https://github.com/avaje/avaje-validator.git](https://github.com/a
 * [io.avaje:avaje-validator-spring-starter](https://central.sonatype.com/artifact/io.avaje/avaje-validator-spring-starter/overview)
 </details>
 
-rebuilding **20 releases** of io.avaje:avaje-validator-parent:
+rebuilding **21 releases** of io.avaje:avaje-validator-parent:
 - **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 2, 0 had all their differences removed :recycle:, 2 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 3, 0 had all their differences removed :recycle:, 3 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [2.16](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.16/pom) | | | |
+| [2.16](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.16/pom) | [mvn jdk25 w](avaje-validator-2.16.buildspec) | [result](avaje-validator-parent-2.16.buildinfo): [17 :white_check_mark:  2 :warning:](avaje-validator-parent-2.16.buildcompare) | 2 :rotating_light: | 646K |
 | [2.16-RC2](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.16-RC2/pom) | [mvn jdk25 w](avaje-validator-2.16-RC2.buildspec) | [result](avaje-validator-parent-2.16-RC2.buildinfo): [17 :white_check_mark:  2 :warning:](avaje-validator-parent-2.16-RC2.buildcompare) | 2 :rotating_light: | 646K |
 | [2.16-RC1](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.16-RC1/pom) | [mvn jdk25 w](avaje-validator-2.16-RC1.buildspec) | [result](avaje-validator-parent-2.16-RC1.buildinfo): [17 :white_check_mark:  2 :warning:](avaje-validator-parent-2.16-RC1.buildcompare) [:mag:](avaje-validator-parent-2.16-RC1.diffoscope) | 2 :rotating_light: | 645K |
 | [2.15](https://central.sonatype.com/artifact/io.avaje/avaje-validator-parent/2.15/pom) | [mvn jdk21](avaje-validator-2.15.buildspec) | [result](avaje-validator-parent-2.15.buildinfo): [19 :white_check_mark: ](avaje-validator-parent-2.15.buildcompare) | | 643K |
