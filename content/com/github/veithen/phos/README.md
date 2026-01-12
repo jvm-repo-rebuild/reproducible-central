@@ -19,6 +19,7 @@ rebuilding **1 releases** of com.github.veithen.phos:phos:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.4.1](https://central.sonatype.com/artifact/com.github.veithen.phos/phos/0.4.1/pom) | | | |
 | [0.4.0](https://central.sonatype.com/artifact/com.github.veithen.phos/phos/0.4.0/pom) | [mvn jdk17](phos-0.4.0.buildspec) | [result](phos-0.4.0.buildinfo): [5 :white_check_mark: ](phos-0.4.0.buildcompare) | | 85K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

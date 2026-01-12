@@ -27,6 +27,7 @@ rebuilding **11 releases** of biz.aQute.bnd:bnd-plugin-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [7.2.1](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-plugin-parent/7.2.1/pom) | | | |
 | [7.2.0](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-plugin-parent/7.2.0/pom) | [mvn jdk17](bnd-plugins-7.2.0.buildspec) | [result](bnd-generate-maven-plugin-7.2.0.buildinfo): [28 :white_check_mark: ](bnd-generate-maven-plugin-7.2.0.buildcompare) | | 411K |
 | [7.1.0](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-plugin-parent/7.1.0/pom) | [mvn jdk17](bnd-plugins-7.1.0.buildspec) | [result](bnd-generate-maven-plugin-7.1.0.buildinfo): [28 :white_check_mark: ](bnd-generate-maven-plugin-7.1.0.buildcompare) | | 411K |
 | [7.0.0](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-plugin-parent/7.0.0/pom) | [mvn jdk17](bnd-plugins-7.0.0.buildspec) | [result](bnd-generate-maven-plugin-7.0.0.buildinfo): [28 :white_check_mark: ](bnd-generate-maven-plugin-7.0.0.buildcompare) | | 400K |

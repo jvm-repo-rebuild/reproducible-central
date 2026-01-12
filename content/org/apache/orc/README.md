@@ -24,6 +24,7 @@ rebuilding **39 releases** of org.apache.orc:orc:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [2.2.2](https://central.sonatype.com/artifact/org.apache.orc/orc/2.2.2/pom) | | | |
 | [2.2.1](https://central.sonatype.com/artifact/org.apache.orc/orc/2.2.1/pom) | [mvn jdk17 osx aarm64](orc-2.2.1.buildspec) | [result](orc-2.2.1.buildinfo): [29 :white_check_mark: ](orc-2.2.1.buildcompare) | | 84M |
 | [2.2.0](https://central.sonatype.com/artifact/org.apache.orc/orc/2.2.0/pom) | [mvn jdk17 osx aarm64](orc-2.2.0.buildspec) | [result](orc-2.2.0.buildinfo): [29 :white_check_mark: ](orc-2.2.0.buildcompare) | | 84M |
 | [2.1.4](https://central.sonatype.com/artifact/org.apache.orc/orc/2.1.4/pom) | [mvn jdk17 osx aarm64](orc-2.1.4.buildspec) | [result](orc-2.1.4.buildinfo): [28 :white_check_mark:  1 :warning:](orc-2.1.4.buildcompare) | 1 :no_entry_sign: | 83M |

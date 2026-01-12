@@ -1,9 +1,9 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/ch/qos/logback/logback-1.5.23.buildspec:1.5.24
-content/com/flowlogix/flowlogix-10.0.8.buildspec:11.1
+content/biz/aQute/bnd/plugins/bnd-plugins-7.2.0.buildspec:7.2.1
+content/com/github/veithen/phos/phos-0.4.0.buildspec:0.4.1
 content/com/io7m/verona/com.io7m.verona-1.0.1.buildspec:1.1.0
-content/fr/inria/gforge/spoon/spoon-core/spoon-core-11.3.1-beta-2.buildspec:11.3.1-beta-3
-content/io/github/chains-project/maven-lockfile/maven-lockfile-5.11.1.buildspec:5.11.2-beta-1
+content/io/cucumber/messages/messages-31.1.0.buildspec:31.2.0
+content/io/wcm/io.wcm.handler/media/wcm-media-2.6.0.buildspec:2.6.2
+content/org/apache/orc/orc-2.2.1.buildspec:2.2.2
 content/org/apache/jackrabbit/oak/jackrabbit-oak-1.88.0.buildspec:1.90.0
-content/org/eclipse/daanse/org.eclipse.daanse.pom.parent/org.eclipse.daanse.pom.parent-0.0.5.buildspec:0.0.6
