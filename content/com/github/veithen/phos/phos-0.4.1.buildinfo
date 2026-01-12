@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Phos
+group-id=com.github.veithen.phos
+artifact-id=phos
+version=0.4.1
+
+# source information
+source.scm.uri=scm:git:http://github.com/veithen/phos.git
+source.scm.tag=0.4.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.9
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+mvn.aggregate.artifact-id=enforcer-maven-plugin
+
+# aggregated output
+
+outputs.0.coordinates=com.github.veithen.phos:phos
+
+outputs.0.0.groupId=com.github.veithen.phos
+outputs.0.0.filename=phos-0.4.1.pom
+outputs.0.0.length=3469
+outputs.0.0.checksums.sha512=d62d2457a5c986f76d398b9d352a60652335bc9ff58aeababfd58b45b7b760a18206ee8835c43ba3463632e67398c46155bfef6d490a0215c80fec8796205607
+
+outputs.0.1.groupId=com.github.veithen.phos
+outputs.0.1.filename=phos-0.4.1-source-release.zip
+outputs.0.1.length=32833
+outputs.0.1.checksums.sha512=47cfee5ecb01cce3e6906951ee411e5d5a344d0c125c7e41988f917b1edd30e8b5a97f482d800ef5de026632f8377b8127af9ce794430f370fd4fd42eec10bac
+
+outputs.1.coordinates=com.github.veithen.phos:enforcer-maven-plugin
+
+outputs.1.0.groupId=com.github.veithen.phos
+outputs.1.0.filename=enforcer-maven-plugin-0.4.1.pom
+outputs.1.0.length=2863
+outputs.1.0.checksums.sha512=2204783b8da98cff4e779aba83d11e406c4ef31ad1d16e6ba42205da30cde6f90db8662f0bcb161bc447ec4b62f933e5e229d090db1fc18664cbb43f82a98794
+
+outputs.1.1.groupId=com.github.veithen.phos
+outputs.1.1.filename=enforcer-maven-plugin-0.4.1.jar
+outputs.1.1.length=27663
+outputs.1.1.checksums.sha512=05c80a4b010f9c91f521d3098fea6473abf7937fa112d2b3ec4eb98298d62db49f1317dcbcf5ab83af448710499d70ab56680001c286cf7589989079b62efd72
+
+outputs.1.2.groupId=com.github.veithen.phos
+outputs.1.2.filename=enforcer-maven-plugin-0.4.1-sources.jar
+outputs.1.2.length=20274
+outputs.1.2.checksums.sha512=290540682164ec872725aac2b2be35e7f938ad23dc78bb56c5b4715eabe5224b37b0302fa413bb47a28a58b3cf9c490a12eb2f5386f3a1ff4483266b30dda456
