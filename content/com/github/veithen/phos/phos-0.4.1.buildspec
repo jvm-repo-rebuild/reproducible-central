@@ -1,0 +1,18 @@
+groupId=com.github.veithen.phos
+artifactId=phos
+version=0.4.1
+
+display=com.github.veithen.*:${artifactId}
+
+gitRepo=https://github.com/veithen/${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=21
+newline=lf
+
+command="mvn clean package -Prelease -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
