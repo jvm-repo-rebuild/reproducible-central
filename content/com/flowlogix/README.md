@@ -17,14 +17,14 @@ Source code: [https://github.com/flowlogix/flowlogix.git](https://github.com/flo
 * [com.flowlogix:jee-examples](https://central.sonatype.com/artifact/com.flowlogix/jee-examples/overview)
 </details>
 
-rebuilding **33 releases** of com.flowlogix:flowlogix:
-- **23** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
+rebuilding **34 releases** of com.flowlogix:flowlogix:
+- **24** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
 - 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
   - running [stabilize](doc/stabilize.md) on 5, 0 had all their differences removed :recycle:, 5 still had differences :rotating_light: or files not supported by stabilize :no_entry_sign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [11.1](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/11.1/pom) | | | |
+| [11.1](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/11.1/pom) | [mvn jdk25](flowlogix-11.1.buildspec) | [result](flowlogix-11.1.buildinfo): [14 :white_check_mark: ](flowlogix-11.1.buildcompare) | | 824K |
 | [11](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/11/pom) | | | |
 | [10.0.8](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/10.0.8/pom) | [mvn jdk25](flowlogix-10.0.8.buildspec) | [result](flowlogix-10.0.8.buildinfo): [22 :white_check_mark: ](flowlogix-10.0.8.buildcompare) | | 1019K |
 | [10.0.7](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/10.0.7/pom) | [mvn jdk25](flowlogix-10.0.7.buildspec) | [result](flowlogix-10.0.7.buildinfo): [22 :white_check_mark: ](flowlogix-10.0.7.buildcompare) | | 1019K |
