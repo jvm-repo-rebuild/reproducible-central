@@ -1,0 +1,16 @@
+version=1.9.8
+ok=34
+ko=1
+ignored=0
+okFiles="orc-1.9.8.pom orc-shims-1.9.8.pom orc-shims-1.9.8.jar orc-shims-1.9.8-sources.jar orc-shims-1.9.8-test-sources.jar orc-shims-1.9.8-tests.jar orc-core-1.9.8.pom orc-core-1.9.8.jar orc-core-1.9.8-sources.jar orc-core-1.9.8-test-sources.jar orc-core-1.9.8-shaded-protobuf.jar orc-core-1.9.8-nohive.jar orc-core-1.9.8-tests.jar orc-mapreduce-1.9.8.pom orc-mapreduce-1.9.8.jar orc-mapreduce-1.9.8-sources.jar orc-mapreduce-1.9.8-test-sources.jar orc-mapreduce-1.9.8-shaded-protobuf.jar orc-mapreduce-1.9.8-nohive.jar orc-mapreduce-1.9.8-tests.jar orc-tools-1.9.8.pom orc-tools-1.9.8.jar orc-tools-1.9.8-sources.jar orc-tools-1.9.8-test-sources.jar orc-tools-1.9.8-shaded-protobuf.jar orc-tools-1.9.8-nohive.jar orc-tools-1.9.8-uber.jar orc-tools-1.9.8-tests.jar orc-examples-1.9.8.pom orc-examples-1.9.8.jar orc-examples-1.9.8-uber.jar orc-examples-1.9.8-sources.jar orc-examples-1.9.8-test-sources.jar orc-examples-1.9.8-tests.jar"
+koFiles="orc-1.9.8-source-release.zip"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/org.apache.orc/orc-1.9.8-source-release.zip target/orc-1.9.8-source-release.zip
+stabilize_ok=0
+stabilize_ko=0
+stabilize_ignored=1
+stabilize_okFiles=""
+stabilize_koFiles=""
+stabilize_ignoredFiles="orc-1.9.8-source-release.zip"
