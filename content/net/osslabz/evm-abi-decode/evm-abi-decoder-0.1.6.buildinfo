@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=net.osslabz:evm-abi-decoder
+group-id=net.osslabz
+artifact-id=evm-abi-decoder
+version=0.1.6
+
+# source information
+source.scm.uri=scm:git:https://github.com/osslabz/evm-abi-decoder.git
+source.scm.tag=0.1.6
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=21.0.9
+java.vendor=Ubuntu
+os.name=Linux
+os.version=6.11.0-1018-azure
+os.arch=amd64
+line.separator=\n
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=net.osslabz
+outputs.0.filename=evm-abi-decoder-0.1.6.pom
+outputs.0.length=10757
+outputs.0.checksums.sha512=089b8e541049fb7c18aeddaa53f2bcc03c218889ab1243168c17c86983ee96d9861405d5664f7094e0a834684a45d45941d920231f94862efa2c6cb357fe4f7c
+
+outputs.1.groupId=net.osslabz
+outputs.1.filename=evm-abi-decoder-0.1.6.jar
+outputs.1.length=49117
+outputs.1.checksums.sha512=3f2ade5c9ca75341bafd267b25fd138a368116bdc0fb52177b9712d6cb3f93089d3e2f6c9238b168ff9c5aea6ac4ff006ad4882e5666ad75e7d5c8d0aa2b96d7
+
+outputs.2.groupId=net.osslabz
+outputs.2.filename=evm-abi-decoder-0.1.6-sources.jar
+outputs.2.length=15914
+outputs.2.checksums.sha512=0946e79a8dd3480ac3b184e20b652f6305e3e91b689c085eeddfb39ac67692617406293b654498ff39db4dcfbc76382e015b200d7b2a121e38494b65a644b7a0

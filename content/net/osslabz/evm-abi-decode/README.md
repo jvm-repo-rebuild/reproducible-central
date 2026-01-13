@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/osslabz/evm-abi-decoder.git](https://github.com/osslabz/evm-abi-decoder.git)
 
-rebuilding **6 releases** of net.osslabz:evm-abi-decoder:
+rebuilding **7 releases** of net.osslabz:evm-abi-decoder:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :white_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
-  - running [stabilize](doc/stabilize.md) on 5, 5 had all their differences removed :recycle:
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+  - running [stabilize](doc/stabilize.md) on 6, 6 had all their differences removed :recycle:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
-| [0.1.6](https://central.sonatype.com/artifact/net.osslabz/evm-abi-decoder/0.1.6/pom) | | | |
+| [0.1.6](https://central.sonatype.com/artifact/net.osslabz/evm-abi-decoder/0.1.6/pom) | [mvn jdk21](evm-abi-decoder-0.1.6.buildspec) | [result](evm-abi-decoder-0.1.6.buildinfo): [2 :white_check_mark:  1 :warning:](evm-abi-decoder-0.1.6.buildcompare) | 1 :recycle: | 75K |
 | [0.1.5](https://central.sonatype.com/artifact/net.osslabz/evm-abi-decoder/0.1.5/pom) | [mvn jdk21](evm-abi-decoder-0.1.5.buildspec) | [result](evm-abi-decoder-0.1.5.buildinfo): [2 :white_check_mark:  1 :warning:](evm-abi-decoder-0.1.5.buildcompare) | 1 :recycle: | 75K |
 | [0.1.4](https://central.sonatype.com/artifact/net.osslabz/evm-abi-decoder/0.1.4/pom) | [mvn jdk21](evm-abi-decoder-0.1.4.buildspec) | [result](evm-abi-decoder-0.1.4.buildinfo): [2 :white_check_mark:  1 :warning:](evm-abi-decoder-0.1.4.buildcompare) | 1 :recycle: | 75K |
 | [0.1.3](https://central.sonatype.com/artifact/net.osslabz/evm-abi-decoder/0.1.3/pom) | [mvn jdk21](evm-abi-decoder-0.1.3.buildspec) | [result](evm-abi-decoder-0.1.3.buildinfo): [2 :white_check_mark:  1 :warning:](evm-abi-decoder-0.1.3.buildcompare) | 1 :recycle: | 75K |
