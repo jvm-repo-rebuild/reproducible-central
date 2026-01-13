@@ -15,7 +15,7 @@ Reproducible Builds for Maven Central Repository
 | [Central Repository](https://central.sonatype.com/) groupId | artifactId(s) | versions | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
 | ----------------- | --------------- | --------- | -------- |
 | at/yawk/lz4 | [lz4-java](../content/at/yawk/lz4/lz4-java/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
-| biz.aQute.bnd | [bnd-maven-plugin](../content/biz/aQute/bnd/plugins/README.md) | 11 | 11 :white_check_mark: |
+| biz.aQute.bnd | [bnd-maven-plugin](../content/biz/aQute/bnd/plugins/README.md) | 12 | 12 :white_check_mark: |
 | ch.galinet | [reproducible-build-maven-plugin](../content/ch/galinet/reproducible-build-maven-plugin/README.md) | 5 | 5 :white_check_mark: |
 | ch.qos.logback | [logback](../content/ch/qos/logback/README.md) | 66 | 51 :white_check_mark: / 15 :warning: |
 | ch.qos.reload4j | [reload4j](../content/ch/qos/reload4j/README.md) | 9 | 1 :white_check_mark: / 8 :warning: |
@@ -107,7 +107,7 @@ Reproducible Builds for Maven Central Repository
 | com.github.veithen | [hermetic-security-manager](../content/com/github/veithen/hermetic-security-manager/README.md) | 1 | 1 :white_check_mark: |
 | | [jrel](../content/com/github/veithen/jrel/README.md) | 1 | 1 :white_check_mark: |
 | | [parent](../content/com/github/veithen/parent/README.md) | 20 | 19 :white_check_mark: / 1 :warning: |
-| com.github.veithen.* | [phos](../content/com/github/veithen/phos/README.md) | 1 | 1 :white_check_mark: |
+| com.github.veithen.* | [phos](../content/com/github/veithen/phos/README.md) | 2 | 2 :white_check_mark: |
 | com.github.veithen.maven | [eclipse-settings-maven-plugin](../content/com/github/veithen/maven/eclipse-settings-maven-plugin/README.md) | 1 | 1 :white_check_mark: |
 | | [hermetic-maven-plugin](../content/com/github/veithen/maven/hermetic-maven-plugin/README.md) | 4 | 4 :white_check_mark: |
 | | [jacoco-report-maven-plugin](../content/com/github/veithen/maven/jacoco-report-maven-plugin/README.md) | 2 | 2 :white_check_mark: |
@@ -315,7 +315,7 @@ Reproducible Builds for Maven Central Repository
 | | [gherkin-utils](../content/io/cucumber/gherkin-utils/README.md) | 10 | 10 :white_check_mark: |
 | | [html-formatter](../content/io/cucumber/html-formatter/README.md) | 26 | 24 :white_check_mark: / 2 :warning: |
 | | [junit-xml-formatter](../content/io/cucumber/junit-xml-formatter/README.md) | 14 | 14 :white_check_mark: |
-| | [messages](../content/io/cucumber/messages/README.md) | 25 | 25 :white_check_mark: |
+| | [messages](../content/io/cucumber/messages/README.md) | 26 | 26 :white_check_mark: |
 | | [pretty-formatter](../content/io/cucumber/pretty-formatter/README.md) | 10 | 10 :white_check_mark: |
 | | [query](../content/io/cucumber/query/README.md) | 25 | 25 :white_check_mark: |
 | | [tag-expressions](../content/io/cucumber/tag-expressions/README.md) | 14 | 14 :white_check_mark: |
@@ -333,7 +333,7 @@ Reproducible Builds for Maven Central Repository
 | io.github.gls-athena | [athena](../content/io/github/gls-athena/README.md) | 2 | 2 :warning: |
 | io.github.ollama4j | [ollama4j](../content/io/github/ollama4j/README.md) | 12 | 12 :white_check_mark: |
 | io.github.albertus82 | [jface-utils](../content/io/github/albertus82/jface-utils/README.md) | 12 | 12 :white_check_mark: |
-| | [unexepack](../content/io/github/albertus82/unexepack/README.md) | 4 | 4 :warning: |
+| | [unexepack](../content/io/github/albertus82/unexepack/README.md) | 5 | 5 :warning: |
 | io.github.cbarlin | [advanced-record-utils](../content/io/github/cbarlin/aru/README.md) | 33 | 33 :white_check_mark: |
 | io.github.chains-project | [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | 64 | 27 :white_check_mark: / 37 :warning: |
 | io.github.derkrischan | [jpdftest](../content/io/github/derkrischan/jpdftest/README.md) | 4 | 4 :white_check_mark: |
@@ -375,7 +375,7 @@ Reproducible Builds for Maven Central Repository
 | | [*.parent_toplevel](../content/io/wcm/tooling/README.md) | 26 | 26 :white_check_mark: |
 | | [*.handler.commons](../content/io/wcm/io.wcm.handler/commons/README.md) | 1 | 1 :white_check_mark: |
 | | [io.wcm.handler.link](../content/io/wcm/io.wcm.handler/link/README.md) | 23 | 4 :white_check_mark: / 19 :warning: |
-| | [*.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | 48 | 9 :white_check_mark: / 39 :warning: |
+| | [*.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | 49 | 10 :white_check_mark: / 39 :warning: |
 | | [*.handler.richtext](../content/io/wcm/io.wcm.handler/richtext/README.md) | 12 | 1 :white_check_mark: / 11 :warning: |
 | | [*.wcm.commons](../content/io/wcm/io.wcm.wcm/commons/README.md) | 7 | 3 :white_check_mark: / 4 :warning: |
 | | [*.wcm.parsys](../content/io/wcm/io.wcm.wcm/parsys/README.md) | 4 | 3 :white_check_mark: / 1 :warning: |
@@ -404,7 +404,7 @@ Reproducible Builds for Maven Central Repository
 | | [coingecko-java](../content/net/osslabz/coingecko-java/README.md) | 1 | 1 :warning: |
 | | [crypto-commons](../content/net/osslabz/crypto-commons/README.md) | 9 | 4 :white_check_mark: / 5 :warning: |
 | | [electrum-client](../content/net/osslabz/electrum-client/README.md) | 2 | 2 :warning: |
-| | [evm-abi-decoder](../content/net/osslabz/evm-abi-decode/README.md) | 6 | 6 :warning: |
+| | [evm-abi-decoder](../content/net/osslabz/evm-abi-decode/README.md) | 7 | 7 :warning: |
 | | [jdbc-url-parser](../content/net/osslabz/jdbc-url-parser/README.md) | 2 | 2 :warning: |
 | | [json-rpc-client](../content/net/osslabz/json-rpc-client/README.md) | 2 | 2 :warning: |
 | | [lnd-rest-client](../content/net/osslabz/lnd-rest-client/README.md) | 1 | 1 :warning: |
@@ -457,7 +457,7 @@ Reproducible Builds for Maven Central Repository
 | org.apache.johnzon | [johnzon](../content/org/apache/johnzon/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
 | org.apache.jspwiki | [jspwiki-builder](../content/org/apache/jspwiki/README.md) | 10 | 1 :white_check_mark: / 9 :warning: |
 | org.apache.mina | [mina-parent](../content/org/apache/mina/README.md) | 11 | 4 :white_check_mark: / 7 :warning: |
-| org.apache.orc | [orc](../content/org/apache/orc/README.md) | 39 | 23 :white_check_mark: / 16 :warning: |
+| org.apache.orc | [orc](../content/org/apache/orc/README.md) | 40 | 24 :white_check_mark: / 16 :warning: |
 | org.apache.paimon | [paimon-parent](../content/org/apache/paimon/README.md) | 14 | 4 :white_check_mark: / 10 :warning: |
 | org.apache.pulsar | [pulsar](../content/org/apache/pulsar/README.md) | 40 | 40 :warning: |
 | org.apache.rat | [apache-rat-project](../content/org/apache/rat/README.md) | 5 | 4 :white_check_mark: / 1 :warning: |
@@ -510,7 +510,7 @@ Reproducible Builds for Maven Central Repository
 | | [commons-email2](../content/org/apache/commons/email2/README.md) | 1 | 1 :warning: |
 | commons-net | [commons-net](../content/org/apache/commons/net/README.md) | 5 | 2 :white_check_mark: / 3 :warning: |
 | org.apache.commons | [commons-numbers](../content/org/apache/commons/numbers/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
-| | [commons-parent](../content/org/apache/commons/parent/README.md) | 42 | 40 :white_check_mark: / 2 :warning: |
+| | [commons-parent](../content/org/apache/commons/parent/README.md) | 43 | 41 :white_check_mark: / 2 :warning: |
 | | [commons-rng](../content/org/apache/commons/rng/README.md) | 2 | 1 :white_check_mark: / 1 :warning: |
 | | [commons-statistics](../content/org/apache/commons/statistics/README.md) | 3 | 2 :white_check_mark: / 1 :warning: |
 | commons-logging | [commons-logging](../content/org/apache/commons/commons-logging/commons-logging/README.md) | 6 | 6 :white_check_mark: |
@@ -961,7 +961,7 @@ Reproducible Builds for Maven Central Repository
 | uk.org.okapibarcode | [okapibarcode](../content/uk/org/okapibarcode/okapibarcode/README.md) | 8 | 8 :white_check_mark: |
 | us.abstracta.jmeter | [jmeter-java-dsl](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 45 | 43 :white_check_mark: / 2 :warning: |
 | world.convex | [convex](../content/world/convex/README.md) | 22 | 3 :white_check_mark: / 19 :warning: |
-| **Count:** | **947** | **9709** | **7101** :white_check_mark:<br>**2608** :warning: |
+| **Count:** | **947** | **9717** | **7107** :white_check_mark:<br>**2610** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ### Tool x JDK statistics
@@ -987,7 +987,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn        14
      10 mvn        15
      15 mvn        16
-    774 mvn        17
+    775 mvn        17
       1 mvn        17.0.10
       2 mvn        17.0.11
       1 mvn        17.0.12
@@ -998,11 +998,11 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      17 mvn        18
      34 mvn        19
      17 mvn        20
-    824 mvn        21
+    826 mvn        21
      15 mvn        22
      19 mvn        23
      41 mvn        24
-     62 mvn        25
+     63 mvn        25
       3 mvn-3.5.4   8
       1 mvn-3.6.0   8
      13 mvn-3.6.2   8
@@ -1043,11 +1043,12 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.10  21
      41 mvn-3.9.11   8
      42 mvn-3.9.11  11
-    141 mvn-3.9.11  17
-    216 mvn-3.9.11  21
+    142 mvn-3.9.11  17
+    217 mvn-3.9.11  21
       5 mvn-3.9.11  22
       3 mvn-3.9.11  24
      73 mvn-3.9.11  25
+      1 mvn-3.9.12  17
       1 mvn-3.9.12  25
      36 mvn-3.9.2   8
      19 mvn-3.9.2  17
@@ -1111,7 +1112,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.8  16
     256 mvn-3.9.8  17
       1 mvn-3.9.8  17.0.12
-     95 mvn-3.9.8  21
+     96 mvn-3.9.8  21
      47 mvn-3.9.8  22
      17 mvn-3.9.8  23
       3 mvn-3.9.8  25

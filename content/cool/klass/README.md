@@ -145,6 +145,7 @@ rebuilding **5 releases** of cool.klass:klass:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | [stabilize](https://github.com/google/oss-rebuild/blob/main/cmd/stabilize/README.md) | size |
 | -- | --------- | ------ | ------ | -- |
+| [0.6.0](https://central.sonatype.com/artifact/cool.klass/klass/0.6.0/pom) | | | |
 | [0.5.0](https://central.sonatype.com/artifact/cool.klass/klass/0.5.0/pom) | [mvn jdk17](klass-0.5.0.buildspec) | [result](klass-0.5.0.buildinfo): [344 :white_check_mark:  1 :warning:](klass-0.5.0.buildcompare) [:memo:](https://github.com/liftwizard/klass/issues/425) | - | 7.4M |
 | [0.4.0](https://central.sonatype.com/artifact/cool.klass/klass/0.4.0/pom) | [mvn jdk17](klass-0.4.0.buildspec) | [result](klass-0.4.0.buildinfo): [344 :white_check_mark:  1 :warning:](klass-0.4.0.buildcompare) | - | 7.4M |
 | [0.3.0](https://central.sonatype.com/artifact/cool.klass/klass/0.3.0/pom) | [mvn jdk17](klass-0.3.0.buildspec) | [result](klass-0.3.0.buildinfo): [341 :white_check_mark:  1 :warning:](klass-0.3.0.buildcompare) | - | 7.4M |

@@ -1,9 +1,10 @@
 # format: <path to existing buildspec>:<new release to rebuild>
 # see bin/create-new-release-PRs.sh
-content/biz/aQute/bnd/plugins/bnd-plugins-7.2.0.buildspec:7.2.1
-content/com/github/veithen/phos/phos-0.4.0.buildspec:0.4.1
 content/com/io7m/verona/com.io7m.verona-1.0.1.buildspec:1.1.0
-content/io/cucumber/messages/messages-31.1.0.buildspec:31.2.0
-content/io/wcm/io.wcm.handler/media/wcm-media-2.6.0.buildspec:2.6.2
-content/org/apache/orc/orc-2.2.1.buildspec:2.2.2
+content/io/jooby/jooby-4.0.13.buildspec:4.0.14
+content/io/repaint/maven/tiles-maven-plugin/tiles-maven-plugin-2.42.buildspec:2.43
+content/org/apache/apache/apache-36.buildspec:37
 content/org/apache/jackrabbit/oak/jackrabbit-oak-1.88.0.buildspec:1.90.0
+content/org/apache/maven/parent/maven-parent-46.buildspec:47
+content/org/apache/sling/feature-launcher-maven-plugin/feature-launcher-maven-plugin-1.0.0.buildspec:1.0.2
+content/org/apache/sling/org.apache.sling.commons.testing/org.apache.sling.commons.testing-2.2.0.buildspec:2.2.2

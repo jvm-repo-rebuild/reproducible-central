@@ -19,6 +19,7 @@ rebuilding **44 releases** of org.webjars:swagger-ui:
 | [5.30.1](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.30.1/pom) | | | |
 | [5.30.0](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.30.0/pom) | | | |
 | [5.29.5](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.29.5/pom) | | | |
+| [5.29.4](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.29.4/pom) | | | |
 | [5.29.3](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.29.3/pom) | | | |
 | [5.29.2](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.29.2/pom) | | | |
 | [5.28.1](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.28.1/pom) | | | |
