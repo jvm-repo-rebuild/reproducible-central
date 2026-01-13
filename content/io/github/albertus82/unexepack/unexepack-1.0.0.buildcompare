@@ -1,0 +1,16 @@
+version=1.0.0
+ok=4
+ko=1
+ignored=0
+okFiles="unexepack-1.0.0.pom unexepack-1.0.0.jar unexepack-1.0.0-bin.tar.gz unexepack-1.0.0-sources.jar"
+koFiles="unexepack-1.0.0-bin.zip"
+ignoredFiles=""
+reference_java_version="25 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/io.github.albertus82/unexepack-1.0.0-bin.zip target/unexepack-1.0.0-bin.zip
+stabilize_ok=0
+stabilize_ko=1
+stabilize_ignored=0
+stabilize_okFiles=""
+stabilize_koFiles="unexepack-1.0.0-bin.zip.stabilized"
+stabilize_ignoredFiles=""
